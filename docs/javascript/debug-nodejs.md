@@ -39,15 +39,13 @@ You can debug JavaScript and TypeScript code using Visual Studio. You can set an
 ## Debug client-side script
 
 ::: moniker range=">=vs-2019"
-Visual Studio provides client-side debugging support for Chrome and Microsoft Edge (Chromium) only. In some scenarios, the debugger automatically hits breakpoints in JavaScript and TypeScript code and in embedded scripts on HTML files. For debugging client-side script in ASP.NET apps, see the blog post, [Debug JavaScript in Microsoft EDGE](https://devblogs.microsoft.com/visualstudio/debug-javascript-in-microsoft-edge-from-visual-studio/).
+Visual Studio provides client-side debugging support for Chrome and Microsoft Edge (Chromium) only. In some scenarios, the debugger automatically hits breakpoints in JavaScript and TypeScript code and in embedded scripts on HTML files. For debugging client-side script in ASP.NET apps, see the blog post [Debug JavaScript in Microsoft EDGE](https://devblogs.microsoft.com/visualstudio/debug-javascript-in-microsoft-edge-from-visual-studio/).
 ::: moniker-end
 ::: moniker range="vs-2017"
-Visual Studio provides client-side debugging support for Chrome and Internet Explorer only. In some scenarios, the debugger automatically hits breakpoints in JavaScript and TypeScript code and in embedded scripts on HTML files.
+Visual Studio provides client-side debugging support for Chrome and Internet Explorer only. In some scenarios, the debugger automatically hits breakpoints in JavaScript and TypeScript code and in embedded scripts on HTML files. For debugging client-side script in ASP.NET apps, see the blog post [Client-side debugging of ASP.NET projects in Google Chrome](https://devblogs.microsoft.com/aspnet/client-side-debugging-of-asp-net-projects-in-google-chrome/).
 ::: moniker-end
 
-If your source is minified or created by a transpiler like TypeScript or Babel, the use of [source maps](#generate_sourcemaps) is required for the best debugging experience. Without source maps, you can still attach the debugger to a running client-side script. However, you may only be able to set and hit breakpoints in the minified or transpiled file, not in the original source file. For example, in a Vue.js app, minified script gets passed as a string to an `eval` statement, and there is no way to step through this code effectively using the Visual Studio debugger, unless you use source maps. In these more complex debugging scenarios, you might instead use Chrome Developer Tools or F12 Tools for Microsoft Edge.
-
-To attach the debugger from Visual Studio and hit breakpoints in client-side code, the debugger typically needs help to identify the correct process. Here is one way to enable this using Chrome.
+If your source is minified or created by a transpiler like TypeScript or Babel, the use of [source maps](#generate_sourcemaps) is required for the best debugging experience. Without source maps, you can still attach the debugger to a running client-side script. However, you may only be able to set and hit breakpoints in the minified or transpiled file, not in the original source file. For example, in a Vue.js app, minified script gets passed as a string to an `eval` statement, and there is no way to step through this code effectively using the Visual Studio debugger, unless you use source maps. In complex debugging scenarios, you might instead use Chrome Developer Tools or F12 Tools for Microsoft Edge.
 
 ### Attach the debugger to client-side script
 
@@ -65,7 +63,7 @@ For this scenario, use Chrome.
    Other browser instances can prevent the browser from opening with debugging enabled. (Browser extensions may be running and preventing full debug mode, so you may need to open Task Manager to find unexpected instances of Chrome.)
 
    ::: moniker range=">=vs-2019"
-   For Microsoft Edge (Chromium), also shut down all instances of Chrome. Because both browsers share the chromium code base, this gives the best results.
+   For Microsoft Edge (Chromium), also shut down all instances of Chrome. Because both browsers use the chromium code base, this gives the best results.
    ::: moniker-end
 
 2. Open the **Run** command from the Windows **Start** button (right-click and choose **Run**), and enter the following command:
