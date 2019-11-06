@@ -84,7 +84,7 @@ To continue exploring Visual Studio's features, let's create a new project.
 1. In the **New Project** dialog box that appears, accept the default project name and choose **OK**.
 ::: moniker-end
 
-   The project is created and a file named *server.cs* opens in the **Editor** window. The **Editor** shows the contents of files, and is where you'll do most of your coding work in Visual Studio.
+   The project is created and a file named *server.js* opens in the **Editor** window. The **Editor** shows the contents of files, and is where you'll do most of your coding work in Visual Studio.
 
    ![Editor in Visual Studio](media/editor.png)
 
