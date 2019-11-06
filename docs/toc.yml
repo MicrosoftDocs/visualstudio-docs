@@ -774,12 +774,12 @@
     displayName: Data connections
     href: data-tools/accessing-data-in-visual-studio.md
   - name: Develop inclusive apps
-      items:
-      - name: Design accessible apps
-        href: ide/reference/resources-for-designing-accessible-applications.md
-      - name: Design international apps
-        displayName: Globalization localization world-ready
-        href: ide/globalizing-and-localizing-applications.md
+    items:
+    - name: Design accessible apps
+      href: ide/reference/resources-for-designing-accessible-applications.md
+    - name: Design international apps
+      displayName: Globalization localization world-ready
+      href: ide/globalizing-and-localizing-applications.md
 - name: Compile and build
   items:
   - name: Overview
