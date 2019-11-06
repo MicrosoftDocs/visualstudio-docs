@@ -130,7 +130,7 @@ This ties together the Command and CommandItem - the CommandItem calls the Comma
 
 <!--The extension package detailed in the [Walkthrough](~/extending-visual-studio-mac-walkthrough.md) deals with the Text Editor in Visual Studio for Mac, but this is only one of many possible areas for customization. -->
 
-For information on the scope of areas that are available for development, see the [Extension Tree Reference](http://monodevelop.com/Developers/Articles/Extension_Tree_Reference) and the [API Overview](http://monodevelop.com/Developers/Articles/API_Overview). When building advanced extension packages, also refer to [Developer Articles](http://monodevelop.com/Developers/Articles). Below is a partial list of areas for customization:
+For information on the scope of areas that are available for development, see the [Extension Tree Reference](https://www.monodevelop.com/developers/articles/extension-tree-reference/) and the [API Overview](https://www.monodevelop.com/developers/articles/api-overview/). When building advanced extension packages, also refer to [Developer Articles](https://www.monodevelop.com/developers/articles/). Below is a partial list of areas for customization:
 
 * Pads
 * Key Binding Schemes
