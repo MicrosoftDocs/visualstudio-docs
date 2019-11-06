@@ -106,7 +106,7 @@ To attach the debugger from Visual Studio and hit breakpoints in client-side cod
 
     To find the specific code in a transpiled file, use **Ctrl**+**F** (**Edit** > **Find and Replace** > **Quick Find**).
 
-    For client-side code, to hit a breakpoint in a TypeScript file, *.vue*, or JSX file typically requires the use of [source maps](#generate_source_maps). A source map must be configured correctly to support debugging in Visual Studio.
+For client-side code, to hit a breakpoint in a TypeScript file, *.vue*, or JSX file typically requires the use of [source maps](#generate_source_maps). A source map must be configured correctly to support debugging in Visual Studio.
 
 2. Select your target browser as the debug target in Visual Studio, then press **Ctrl**+**F5** (**Debug** > **Start Without Debugging**) to run the app in the browser.
 
@@ -122,7 +122,6 @@ To attach the debugger from Visual Studio and hit breakpoints in client-side cod
     > Starting in Visual Studio 2017, once you attach to the process the first time by following these steps, you can quickly reattach to the same process by choosing **Debug** > **Reattach to Process**.
 
 4. In the **Attach to Process** dialog box, get a filtered list of browser instances that you can attach to.
-
     ::: moniker range=">=vs-2019"
     In Visual Studio 2019, choose the correct debugger for your target browser, **JavaScript (Chrome)** or **JavaScript (Microsoft Edge - Chromium)** in the **Attach to** field, type **chrome** or **edge** in the filter box to filter the search results.
     ::: moniker-end
