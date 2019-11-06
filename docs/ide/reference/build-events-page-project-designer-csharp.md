@@ -71,11 +71,19 @@ then the project file setting is:
 </PropertyGroup>
 ```
 
-For .NET Core projects, Visual Studio 2019 (and Visual Studio 2017 in more recent updates) adds an MSBuild target named `PreBuild` or `PostBuild` for **PreBuildEvent** and **PostBuildEvent** settings. For example, for the preceding example, Visual Studio now generates the following code:
+For .NET Core projects, Visual Studio 2019 (and Visual Studio 2017 in more recent updates) adds an MSBuild target named `PreBuild` or `PostBuild` for **PreBuildEvent** and **PostBuildEvent** settings. These targets use the **BeforeTargets** and **AfterTargets** attributes, which MSBuild recognizes. For example, for the preceding example, Visual Studio now generates the following code:
 
 ```xml
 <Target Name="PreBuild" BeforeTargets="PreBuildEvent">
     <Exec Command="&quot;$(ProjectDir)PreBuildEvent.bat&quot; &quot;$(ProjectDir)..\&quot; &quot;$(ProjectDir)&quot; &quot;$(TargetDir)&quot;" />
+</Target>
+```
+
+For a post-build event, use the name `PostBuild` and set the attribute `AfterTargets` to `PostBuildEvent`.
+
+```xml
+<Target Name="PostBuild" AfterTargets="PostBuildEvent">
+   <Exec Command="echo Output written to $(TargetDir)" />
 </Target>
 ```
 
