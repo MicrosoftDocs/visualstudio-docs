@@ -71,7 +71,7 @@ then the project file setting is:
 </PropertyGroup>
 ```
 
-Visual Studio 2019 (and Visual Studio 2017 in more recent updates) adds an MSBuild target named `PreBuild` or `PostBuild` for **PreBuildEvent** and **PostBuildEvent** settings. For example, for the preceding example, Visual Studio now generates the following code:
+For .NET Core projects, Visual Studio 2019 (and Visual Studio 2017 in more recent updates) adds an MSBuild target named `PreBuild` or `PostBuild` for **PreBuildEvent** and **PostBuildEvent** settings. For example, for the preceding example, Visual Studio now generates the following code:
 
 ```xml
 <Target Name="PreBuild" BeforeTargets="PreBuildEvent">
