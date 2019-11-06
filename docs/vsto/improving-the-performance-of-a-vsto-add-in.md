@@ -22,7 +22,7 @@ ms.workload:
 
 - [Perform expensive operations in a separate execution thread](#Perform).
 
-  For more information about how to optimize an Outlook VSTO Add-in, see [Performance criteria to keep VSTO Add-ins enabled](/previous-versions/office/jj228679(v=office.15)#ol15WhatsNew_AddinDisabling).
+  For more information about how to optimize an Outlook VSTO Add-in, see [Performance criteria to keep VSTO Add-ins enabled](/previous-versions/office/jj228679(v=office.15)#performance-criteria-for-keeping-add-ins-enabled).
 
 ## <a name="Load"></a> Load VSTO Add-ins on demand
  You can configure a VSTO Add-in to load only under the following circumstances:

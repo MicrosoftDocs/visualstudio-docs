@@ -166,7 +166,7 @@ You can learn more about how to customize and deploy SharePoint solutions from t
 
 - [How to: Create an event receiver](../sharepoint/how-to-create-an-event-receiver.md)
 
-- [Windows PowerShell for SharePoint Server 2010](/powershell/module/sharepoint-server/&view=sharepoint-ps)
+- [Windows PowerShell for SharePoint Server 2010](/powershell/module/sharepoint-server)
 
 ## See also
 [Package and deploy SharePoint solutions](../sharepoint/packaging-and-deploying-sharepoint-solutions.md)
