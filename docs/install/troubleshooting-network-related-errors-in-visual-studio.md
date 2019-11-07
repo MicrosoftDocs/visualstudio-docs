@@ -131,7 +131,7 @@ Enable connections for the following URLs:
 
 You might encounter this error message when you use a Visual Studio bootstrapper and a response.json file on a network drive. The error's source is the User Account Control (UAC) in Windows.
 
-Here's why this error can happen: A mapped network drive or [UNC](/dotnet/standard/io/file-path-formats#unc-paths) share is linked to a user's access token. When UAC is enabled, two user [access tokens](/windows/win32/secauthz/access-tokens) are created: One *with* administrator access, and one *without* administrator access. When network drive or share is created, the user's current access token is linked to it. Because the bootstrapper must be run as administrator, it won't be able to access the network drive or share if either the drive or the share isn't linked to a user access token that has administrator access.
+Here's why this error can happen: A mapped network drive or [UNC](/dotnet/standard/io/file-path-formats#unc-paths) share is linked to a user's access token. When UAC is enabled, two user [access tokens](/windows/win32/secauthz/access-tokens) are created: One *with* administrator access, and one *without* administrator access. When a network drive or share is created, the user's current access token is linked to it. Because the bootstrapper must be run as administrator, it won't be able to access the network drive or share if either the drive or the share isn't linked to a user access token that has administrator access.
 
 ### To fix this error
 
