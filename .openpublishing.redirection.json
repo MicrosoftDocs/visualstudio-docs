@@ -1051,6 +1051,21 @@
       "redirect_document_id": true
     },
     {
+      "source_path": "docs/debugger/client-side-script-debugging.md",
+      "redirect_url": "/visualstudio/debugger/debugging-web-applications",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/debugger/how-to-attach-to-script.md",
+      "redirect_url": "/visualstudio/debugger/attach-to-running-processes-with-the-visual-studio-debugger",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/debugger/limitations-on-script-debugging.md",
+      "redirect_url": "/visualstudio/debugger/debugging-web-applications",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/designers/keyboard-shortcuts-for-xaml-designer.md",
       "redirect_url": "/visualstudio/xaml-tools/keyboard-shortcuts-for-xaml-designer",
       "redirect_document_id": true

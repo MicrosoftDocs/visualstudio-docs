@@ -654,18 +654,8 @@
         href: javascript-console-commands.md
       - name: Keyboard shortcuts (HTML and JavaScript)
         href: keyboard-shortcuts-html-and-javascript.md
-      - name: Client-side scripts
-        items:
-        - name: Client-side script debugging
-          href: client-side-script-debugging.md
-        - name: Limitations on script debugging
-          href: limitations-on-script-debugging.md
-        - name: Attach (script)
-          items:
-          - name: Attach to script
-            href: how-to-attach-to-script.md
-          - name: "Warning: Script debugging disabled"
-            href: warning-script-debugging-disabled.md
+      - name: "Warning: Script debugging disabled"
+        href: warning-script-debugging-disabled.md
     - name: WCF services
       items:
       - name: Debug WCF services

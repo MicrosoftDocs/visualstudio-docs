@@ -151,9 +151,9 @@ For client-side code, to hit a breakpoint in a TypeScript file, *.vue*, or JSX f
 
     While paused in the debugger, you can examine your app state by hovering over variables and using debugger windows. You can advance the debugger by stepping through code (**F5**, **F10**, and **F11**). For more information on basic debugging features, see [First look at the debugger](../debugger/debugger-feature-tour.md).
 
-    You may hit the breakpoint in either the transpiled *.js* file or the source file, depending on which steps you followed previously, along with your environment and browser state. Either way, you can step through code and examine variables.
+    You may hit the breakpoint in either a transpiled *.js* file or source file, depending on your app type, which steps you followed previously, and other factors such as your browser state. Either way, you can step through code and examine variables.
 
-   * If you need to break into code in a TypeScript, JSX, or *.vue* source file and are unable to do it, make sure you that your environment is set up correctly, as described in the [Troubleshooting](#troubleshooting_source_maps) section.
+   * If you need to break into code in a TypeScript, JSX, or *.vue* source file and are unable to do it, make sure that your environment is set up correctly, as described in the [Troubleshooting](#troubleshooting_source_maps) section.
 
    * If you need to break into code in a transpiled JavaScript file (for example, *app-bundle.js*) and are unable to do it, remove the source map file, *filename.js.map*.
 
@@ -165,7 +165,7 @@ If you need to break into code in a TypeScript, JSX, or *.vue* source file and a
       
 * Make sure you [start the browser in debug mode](#prepare_the_browser_for_debugging).
 
-* Make sure that your source map file includes the correct reference to your source file and that it doesn't include unsupported prefixes such as *webpack:///*, which prevents the Visual Studio debugger from locating a source file. For example, a reference like *webpack:///.app.tsx* might be corrected to *./app.tsx*. You can do this manually in the source map file or through a custom build configuration. For more information, see [Generate source maps for debugging](#generate_source_maps).
+* Make sure that your source map file includes the correct relative path to your source file and that it doesn't include unsupported prefixes such as *webpack:///*, which prevents the Visual Studio debugger from locating a source file. For example, a reference like *webpack:///.app.tsx* might be corrected to *./app.tsx*. You can do this manually in the source map file (which is helpful for testing) or through a custom build configuration. For more information, see [Generate source maps for debugging](#generate_source_maps).
 
 Alternatively, if you need to break into code in a source file (for example, *app.tsx*) and are unable to do it, try using the `debugger;` statement in the source file, or set breakpoints in the Chrome Developer Tools (or F12 Tools for Microsoft Edge) instead.
 
