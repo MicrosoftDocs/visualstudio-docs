@@ -28,7 +28,7 @@ The iOS Designer is fully integrated with Visual Studio for Mac and enables visu
 
 ![iOS Storyboard designer](media/intro-image30.png)
 
-For more information on using the iOS Designer, see the [Designer](https://docs.microsoft.com/xamarin/ios/user-interface/designer/?tabs=macos) guides.
+For more information on using the iOS Designer, see the [Designer](/xamarin/ios/user-interface/designer/?tabs=macos) guides.
 
 ### Mac
 

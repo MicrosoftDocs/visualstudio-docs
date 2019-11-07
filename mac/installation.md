@@ -70,9 +70,9 @@ To build Xamarin apps for iOS or macOS, you'll also need:
 
     [![Choose which keyboard shortcuts you would like to use](media/ide-tour-2019-keyboard-shortcut.png)](media/ide-tour-2019-keyboard-shortcut.png#lightbox)
 
-If you have network trouble while installing in a corporate environment, review the [installing behind a firewall or proxy](https://docs.microsoft.com/visualstudio/mac/installation#install-visual-studio-for-mac-behind-a-firewall-or-proxy-server) instructions.
+If you have network trouble while installing in a corporate environment, review the [installing behind a firewall or proxy](/visualstudio/mac/installation#install-visual-studio-for-mac-behind-a-firewall-or-proxy-server) instructions.
 
-Learn more about the changes in the [release notes](https://docs.microsoft.com/visualstudio/releasenotes/vs2019-mac-relnotes).
+Learn more about the changes in the [release notes](/visualstudio/releasenotes/vs2019-mac-relnotes).
 
 > [!NOTE]
 > If you chose not to install a platform or tool during the original installation (by unselecting it in step #6), you must run the installer again if you wish to add the components later.

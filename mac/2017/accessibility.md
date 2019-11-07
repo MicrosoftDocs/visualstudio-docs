@@ -70,7 +70,7 @@ To navigate through the UI VoiceOver commands, use the following commands:
 For general information on using VoiceOver in macOS, refer to the following guides:
 
 - [Getting Started with VoiceOver](https://help.apple.com/voiceover/info/guide/10.12/)
-- [VoiceOver commands in macOS](http://lab.dotjay.com/notes/voiceover-commands/)
+- [VoiceOver commands in macOS](https://lab.dotjay.com/notes/voiceover-commands/)
 
 ## See also
 
