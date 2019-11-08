@@ -1237,7 +1237,7 @@
     - name: How to increase the chances of a performance issue being fixed?
       displayName: How to  increase the chances of a performance issue being fixed?
       href: ide/how-to-increase-chances-of-a-performance-issue-being-fixed.md
-      - name: Create minidumps for a Visual Studio process with all callstacks
+    - name: Create minidumps for a Visual Studio process with all callstacks
       displayName: Create minidumps with call stacks
       href: ide/report-a-problem-minidumps.md
     - name: Create logs for MSBuild problems
