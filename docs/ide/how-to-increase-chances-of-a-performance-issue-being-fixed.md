@@ -1,45 +1,28 @@
 How can you increase the chances of a performance issue being fixed?
 ====================================================================
 
-The "[Report a problem](https://aka.ms/vs-rap)" tool is widely used by Visual
-Studio users to report a range of problems. The Visual Studio team spots crash
-and slowness trends in user feedback and addresses issues impacting a broad
-swath of users. The more actionable a specific feedback ticket is, more likely
-it is to be diagnosed and resolved quickly by the product team. This document
-describes the best practices while reporting crash or slowness issues to make
-them more actionable.
+The "[Report a problem](https://aka.ms/vs-rap)" tool is widely used by Visual Studio users to report a range of problems. The Visual Studio team spots crash and slowness trends in user feedback and addresses issues impacting a broad swath of users. The more actionable a specific feedback ticket is, the more likely it will be diagnosed and resolved quickly by the product team. This document describes the best practices while reporting crash or slowness issues to make them more actionable.
 
 **General Best Practices**
 
 Visual Studio is a large, complex platform that supports a multitude of
-languages, project types, platforms etc. How it performs is a function of which
-components are installed and active in a session, the extensions installed, the
-Visual Studio settings, machine configuration and finally the shape of the code
-that is being edited. Given the number of variables, it is not easy to tell
-whether the problem report from one user has the same underlying issue as a
-problem report from another user, even though the visible symptom is the same.
-Given that, here are some best practices to ensure your specific problem report
+languages, project types, platforms, and more. How it performs is a function of which components are installed and active in a session, the extensions installed, the Visual Studio settings, machine configuration, and finally the shape of the code that is being edited. Given the number of variables, it is hard to tell whether the problem report from one user has the same underlying issue as a problem report from another user, even though the visible symptom is the same. Given that, here are some best practices to ensure your specific problem report
 has higher likelihood of being diagnosed.
 
 **Provide as specific a title as possible**
 
-Look for distinct signatures for the problem being reported and include as much
-as possible in the title. If the title is descriptive, it is less likely that
-users with unrelated problems (but same superficial symptom) will vote or
+Look for distinct signatures for the problem being reported and include as much as possible in the title. If the title is descriptive, it is less likely that users with unrelated problems (but same superficial symptom) will vote or
 comment on your ticket, thus making diagnosis of *your* issue harder.
 
 **When in doubt, log a new problem report**
 
-Many problems may not have any distinctive signature or steps to reproduce. In
-such cases, a new report is better than an upvote or a comment on another
-report, which is reporting a similar outward *symptom*. Depending on the type of
-report, include additional diagnostic files to your report as described later in
+Many problems may not have any distinctive signature or steps to reproduce. In such cases, a new report is better than an upvote or a comment on another report, which is reporting a similar outward *symptom*. Depending on the type of report, include additional diagnostic files to your report as described later in
 this document.
 
-**Problem specific best practices**
+**Problem-specific best practices**
 
-Described below are problems that are particularly hard to diagnose without good
-diagnostic files. After identifying the case which best describes your issue,
+Described below are problems that are hard to diagnose without good
+diagnostic files. After identifying the case that best describes your issue,
 follow the feedback steps specific to that case.
 
 -   [Crashes:](#Crashes)
@@ -56,16 +39,14 @@ A crash occurs when the process (Visual Studio) terminates unexpectedly.
 
 **Directly reproducible crashes**
 
-Directly reproducible crashes are cases which have all the following
+Directly reproducible crashes are cases that have all the following
 characteristics:
 
 1.  Can be observed by following a known set of steps
 
 2.  Can be observed on multiple computers (if available)
 
-3.  If the steps involve opening a project or document, can be reproduced in
-    sample code or a project which can be linked to or provided as part of the
-    feedback
+3.  Can be reproduced in sample code or a project that can be linked to or provided as part of the feedback (if the steps involve opening a project or document)
 
 For these issues, follow the steps in "[How to Report a
 Problem](https://docs.microsoft.com/en-us/visualstudio/ide/how-to-report-a-problem-with-visual-studio-2017)"
@@ -73,8 +54,7 @@ and be sure to include:
 
 -   The steps to reproduce the problem
 
--   A standalone repro project as described above. If this is not possible, then
-    please include:
+-   A standalone repro project as described above. If standalone repro is not possible, then please include:
 
     -   The language of the open projects (C\#, C++, etc.)
 
@@ -85,10 +65,7 @@ and be sure to include:
 
 **Unknown crashes**
 
-If you're not sure what's causing your crashes or they seem random, then you can
-capture dumps locally each time Visual Studio crashes and attach those to
-separate feedback items. To save dumps locally when Visual Studio crashes, in an
-administrator command window, run the following commands:
+If you're not sure what's causing your crashes or they seem random, then you can capture dumps locally each time Visual Studio crashes and attach those to separate feedback items. To save dumps locally when Visual Studio crashes, run the following commands in an administrator command window:
 
 reg add "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\Windows Error
 Reporting\\LocalDumps\\devenv.exe"
@@ -106,13 +83,12 @@ Customize the dump count and dump folder as appropriate. Find more information
 on these settings
 [here](https://docs.microsoft.com/en-us/windows/win32/wer/collecting-user-mode-dumps?redirectedfrom=MSDN).
 
-⚠️ Dumps captured using Task Manager are likely to be of the wrong bitness, which
-make them significantly less usable. The procedure described above is the
+⚠️ Dumps captured using Task Manager are likely to be of the wrong bitness, which makes them less usable. The procedure described above is the
 preferred way for capturing a heap dump. If you do want to use Task Manager,
 close the one that is currently running, launch the 32bit Task Manager
 (%windir%\\syswow64\\taskmgr.exe) and collect a heap dump from there.
 
-⚠️ Each dump file produced by this method will be up to 4GiB in size. Make sure
+⚠️ Each dump file produced by this method will be up to 4 GB in size. Make sure
 to set DumpFolder to a location with adequate drive space or adjust the
 DumpCount appropriately.
 
@@ -140,11 +116,8 @@ VS becomes unresponsive for an extended period of time.
 
 **Directly reproducible hangs**
 
-As described in the corresponding section on crashes, for problems that can be
-easily reproduced, seen on multiple machines and can be demonstrated in a small
-sample, the most valuable feedback reports are ones that include steps to
-reproduce the problem and include sample source code that demonstrates the
-problem.
+As described in the corresponding section on crashes, for problems that can be easily reproduced, seen on multiple machines and can be demonstrated in a small sample, the most valuable feedback reports are ones that include steps to
+reproduce the problem, and include sample source code that demonstrates the problem.
 
 **Unknown hangs**
 
@@ -162,8 +135,7 @@ heap dump captured at the time of the hang.
 
 ### Slowness and High CPU Issues
 
-What makes a slowness or high CPU usage issue most actionable is a performance
-trace captured while the slow operation or high CPU event is in progress.
+What makes a slowness or high CPU usage issue most actionable is a performance trace captured while the slow operation or high CPU event is in progress.
 
 >[!NOTE] When possible, isolate each scenario in a separate, specific feedback report.
 For example, if typing and navigation are both slow, follow the steps below once
@@ -192,13 +164,12 @@ For best results in capturing the performance, follow these steps:
     Problem](https://docs.microsoft.com/en-us/visualstudio/ide/how-to-report-a-problem-with-visual-studio-2017)"
     until you reach the "Provide a trace and heap dump (optional)" step.
 
-5.  Choose to record the first copy of Visual Studio (the one encountering
-    performance problems) and start recording.
+5.  Choose to record the first copy of Visual Studio (the one encountering performance problem) and start recording.
 
-    -   The Steps Recorder application will appear begin recording.
+    -   The Steps Recorder application will appear and begin recording.
 
     -   **During the recording,** perform the problematic action in the first
-        copy of Visual Studio. It is very difficult for us to correct specific
+        copy of Visual Studio. It is difficult for us to correct specific
         performance problems if they do not appear within the recorded time.
 
     -   If the action is shorter than 30 seconds and can be easily repeated,
@@ -244,8 +215,8 @@ that time.
 
 Trace collection capabilities in the Report-a-problem tool are sufficient for
 most scenarios. But there are times where more control over trace collection is
-needed (eg trace with a larger buffer size), in which case PerfView is a great
-tool to use. Steps for manually recording performance traces using the PerfView
+needed (for example, trace with a larger buffer size), in which case PerfView is a great
+tool to use. Steps for manually recording performance trace using the PerfView
 tool can be found on the [Recording performance traces with
 PerfView](https://github.com/dotnet/roslyn/wiki/Recording-performance-traces-with-PerfView)
 page.
