@@ -25,7 +25,7 @@ This page helps you disable code analysis in Visual Studio. There are limitation
 
 ## .NET Core and .NET Standard projects
 
-Starting in Visual Studio 2019 version 16.3, there are two checkboxes available in the Code Analysis properties page that let you control whether analyzers run at build time and design time. These options are project specific.
+Starting in Visual Studio 2019 version 16.3, there are two checkboxes available in the Code Analysis properties page that let you control whether analyzers run at build time and design time. These options are project-specific.
 
 ![Enable or disable live code analysis or on build in Visual Studio](media/run-on-build-run-live-analysis.png)
 
