@@ -6,7 +6,7 @@ metadata:
   title: Visual Studio product family documentation
   description: Explore documentation for the Visual Studio family of products.
   ms.topic: hub-page
-  ms.date: 11/08/2019
+  ms.date: 11//2019
   searchScope: []
   titleSuffix: ""
   ms.author: ghogen
@@ -20,9 +20,9 @@ productDirectory:
     - title: Visual Studio
       imageSrc: ./media/vs-ide-2019.svg
       links:
-        - url: https://docs.microsoft.com/visualstudio/windows?view=vs-2019
+        - url: /visualstudio/windows?view=vs-2019
           text: Visual Studio 2019 (current)
-        - url: https://docs.microsoft.com/visualstudio/windows?view=vs-2017
+        - url: /visualstudio/windows?view=vs-2017
           text: Visual Studio 2017
         - url: https://docs.microsoft.com/previous-versions/visualstudio/
           text: Previous versions

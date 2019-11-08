@@ -57,6 +57,12 @@
         - name: XML Tools
           tocHref: /visualstudio/xml-tools/
           topicHref: /visualstudio/xml-tools/xml-tools-in-visual-studio
+        - name: Get Started with C#
+          tocHref: /visualstudio/get-started/csharp/
+          topicHref: /visualstudio/get-started/csharp/index
+        - name: Get started with Visual Basic
+          tocHref: /visualstudio/get-started/visual-basic/
+          topicHref: /visualstudio/get-started/visual-basic/
       - name: Extensibility
         tocHref: /visualstudio/extensibility/
         topicHref: /visualstudio/extensibility/index
