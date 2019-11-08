@@ -11,6 +11,21 @@ metadata:
    f1_keywords:
      - MSDNSTART
 
+highlightedContent:
+   items:
+   - title: Setup and installation
+     itemType: download
+     url: /visualstudio/install/install-visual-studio
+   - title: Welcome to the Visual Studio IDE
+     itemType: overview
+     url: /visualstudio/ide/visual-studio-ide
+   - title: What's new in Visual Studio 2019
+     itemType: get-started
+     url: /visualstudio/ide/whats-new-visual-studio-2019
+   - title: Improve your development skills
+     itemType: learn
+     url: /learn/
+
 productDirectory:
     items:
     - title: Visual Studio
@@ -64,21 +79,6 @@ productDirectory:
           text: Portal
         - url: https://manage.visualstudio.com
           text: Administration
-
-highlightedContent:
-   items:
-   - title: Setup and installation
-     itemType: download
-     url: /visualstudio/install/install-visual-studio
-   - title: Welcome to the Visual Studio IDE
-     itemType: overview
-     url: /visualstudio/ide/visual-studio-ide
-   - title: What's new in Visual Studio 2019
-     itemType: get-started
-     url: /visualstudio/ide/whats-new-visual-studio-2019
-   - title: Improve your development skills
-     itemType: learn
-     url: /learn/
 
 conceptualContent:
   title: Get started
