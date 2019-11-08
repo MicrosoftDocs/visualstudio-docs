@@ -11,6 +11,60 @@ metadata:
    f1_keywords:
      - MSDNSTART
 
+productDirectory:
+    items:
+    - title: Visual Studio
+      imageSrc: ./images/vs-ide-2019.svg
+      links:
+        - url: https://docs.microsoft.com/visualstudio?view=vs-2019
+          text: Visual Studio 2019 (current)
+        - url: https://docs.microsoft.com/visualstudio?view=vs-2017
+          text: Visual Studio 2017
+        - url: https://docs.microsoft.com/previous-versions/visualstudio/
+          text: Previous versions
+        - url: https://docs.microsoft.com/visualstudio/releases/2019/release-notes
+          text: Release notes
+        - url: https://visualstudio.microsoft.com/
+          text: Product page
+    - title: Visual Studio for Mac
+      imageSrc: ./images/vs-mac-2019.svg
+      links:
+        - url: https://docs.microsoft.com/visualstudio/mac
+          text: Visual Studio 2019 for Mac (current)
+        - url: https://docs.microsoft.com/visualstudio/mac/?view=vsmac-2017
+          text: Visual Studio 2017 for Mac
+        - url: https://docs.microsoft.com/visualstudio/releasenotes/vs2019-mac-relnotes
+          text: Release notes
+        - url: https://visualstudio.microsoft.com/vs/mac/
+          text: Product page
+    - title: Visual Studio Code
+      imageSrc: ./images/vs-code-logo.svg
+      links:
+        - url: https://code.visualstudio.com/docs
+          text: Documentation
+        - url: https://code.visualstudio.com/updates
+          text: Release notes
+        - url: https://code.visualstudio.com
+          text: Product page
+    - title: Visual Studio App Center
+      imageSrc: ./images/vs-mobile-center.svg
+      links:
+        - url: https://docs.microsoft.com/appcenter
+          text: Documentation
+        - url: https://visualstudio.microsoft.com/app-center/
+          text: Portal
+    - title: Visual Studio Subscriptions
+      imageSrc: ./images/vs-subscription-temp.svg
+      links:
+        - url: https://docs.microsoft.com/visualstudio/subscriptions
+          text: Documentation
+        - url: https://visualstudio.microsoft.com/subscriptions
+          text: Info on visualstudio.com
+        - url: https://my.visualstudio.com
+          text: Portal
+        - url: https://manage.visualstudio.com
+          text: Administration
+
 highlightedContent:
    items:
    - title: Setup and installation
