@@ -46,7 +46,7 @@ Code analyzers inspect code at build time, like legacy analysis if it's enabled,
 Not only do Roslyn code analyzers report the same types of problems that legacy analysis does, but they make it easy for you to fix one or all occurrences of the violation in your file or project. These actions are called *code fixes*. Code fixes are IDE-specific; in Visual Studio, they're implemented as [Quick Actions](../ide/quick-actions.md). Not all analyzer diagnostics have an associated code fix.
 
 > [!NOTE]
-> The **Analyze** > **Run Code Analysis** menu option applies only to legacy analysis.
+> Prior to Visual Studio 2019 16.5 release, **Analyze** > **Run Code Analysis** menu option executes legacy analysis. Starting Visual Studio 2019 16.5, **Run Code Analysis** menu option executes Roslyn-based analyzers for the selected project or solution.
 
 To differentiate between violations from code analyzers and legacy analysis in the Error List, look at the **Tool** column. If the Tool value matches one of the analyzer assemblies in **Solution Explorer**, for example **Microsoft.CodeQuality.Analyzers**, the violation comes from a code analyzer. Otherwise, the violation originates from legacy analysis.
 
