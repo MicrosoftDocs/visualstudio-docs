@@ -14,7 +14,7 @@ metadata:
 productDirectory:
     items:
     - title: Visual Studio
-      imageSrc: ./images/vs-ide-2019.svg
+      imageSrc: ./media/vs-ide-2019.svg
       links:
         - url: https://docs.microsoft.com/visualstudio?view=vs-2019
           text: Visual Studio 2019 (current)
@@ -27,7 +27,7 @@ productDirectory:
         - url: https://visualstudio.microsoft.com/
           text: Product page
     - title: Visual Studio for Mac
-      imageSrc: ./images/vs-mac-2019.svg
+      imageSrc: ./media/vs-mac-2019.svg
       links:
         - url: https://docs.microsoft.com/visualstudio/mac
           text: Visual Studio 2019 for Mac (current)
@@ -38,7 +38,7 @@ productDirectory:
         - url: https://visualstudio.microsoft.com/vs/mac/
           text: Product page
     - title: Visual Studio Code
-      imageSrc: ./images/vs-code-logo.svg
+      imageSrc: ./media/vs-code-logo.svg
       links:
         - url: https://code.visualstudio.com/docs
           text: Documentation
@@ -47,14 +47,14 @@ productDirectory:
         - url: https://code.visualstudio.com
           text: Product page
     - title: Visual Studio App Center
-      imageSrc: ./images/vs-mobile-center.svg
+      imageSrc: ./media/vs-mobile-center.svg
       links:
         - url: https://docs.microsoft.com/appcenter
           text: Documentation
         - url: https://visualstudio.microsoft.com/app-center/
           text: Portal
     - title: Visual Studio Subscriptions
-      imageSrc: ./images/vs-subscription-temp.svg
+      imageSrc: ./media/vs-subscription-temp.svg
       links:
         - url: https://docs.microsoft.com/visualstudio/subscriptions
           text: Documentation
