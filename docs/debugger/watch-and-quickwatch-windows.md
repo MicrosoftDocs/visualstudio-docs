@@ -99,11 +99,11 @@ To make your search more or less thorough, use the **Search Deeper** dropdown at
 
 ## Pin properties in the Watch window
 
-You can quickly inspect objects by their properties in the Watch window with the **Pinnable Properties** tool.  To use this tool, hover over a property and select the pin icon that appears or right-click and select the **Pin Member as Favorite** option in the resulting context menu.  This will bubble up that property to the top of the object’s property list, and the property name and value will be displayed in the Values column of the window.  To unpin a property, select the pin icon again or select the **Unpin Member as Favorite** option in the context menu.
+You can quickly inspect objects by their properties in the Watch window with the **Pinnable Properties** tool.  To use this tool, hover over a property and select the pin icon that appears or right-click and select the **Pin Member as Favorite** option in the resulting context menu.  This bubbles up that property to the top of the object’s property list, and the property name and value is displayed in the **Value** column.  To unpin a property, select the pin icon again or select the **Unpin Member as Favorite** option in the context menu.
 
 ![Pin properties in the Watch window](../debugger/media/basic-pin_watch.gif "Pin properties in the Watch window")
 
-You can also toggle property names and filter out non-pinned properties when viewing the object’s property list in the Watch window.  Both can be accessed by selecting the buttons in the toolbar above the watch window.
+You can also toggle property names and filter out non-pinned properties when viewing the object’s property list in the Watch window.  You can access both options by selecting the buttons in the toolbar above the watch window.
 
 ::: moniker-end
 
