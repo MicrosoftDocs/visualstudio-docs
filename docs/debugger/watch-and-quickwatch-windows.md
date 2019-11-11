@@ -97,7 +97,7 @@ Use the left and right arrows (Shift+F3 and F3, respectively) to navigate betwee
 
 To make your search more or less thorough, use the **Search Deeper** dropdown at the top of the **Watch** window to select how many levels deep you want to search into nested objects. 
 
-## Pin properties in the Watch window
+## Pin properties in the Watch window (Supported for version 16.4 Preview 3 or higher)
 
 You can quickly inspect objects by their properties in the Watch window with the **Pinnable Properties** tool.  To use this tool, hover over a property and select the pin icon that appears or right-click and select the **Pin Member as Favorite** option in the resulting context menu.  This bubbles up that property to the top of the object’s property list, and the property name and value is displayed in the **Value** column.  To unpin a property, select the pin icon again or select the **Unpin Member as Favorite** option in the context menu.
 
