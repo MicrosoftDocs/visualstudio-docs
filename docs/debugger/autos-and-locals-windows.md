@@ -73,7 +73,7 @@ You can quickly inspect objects by their properties in the Autos and Locals wind
 
 You can also toggle property names and filter out non-pinned properties when viewing the object’s property list in the Autos or Locals windows.  You can access each option by selecting the buttons in the toolbar above the Autos or Locals windows.
 
-![Filter favorite properties](../debugger/media/filter-favorites.gif "Filter favorite properties")
+![Filter favorite properties](../debugger/media/filter-pinned-properties-locals.png "Filter favorite properties")
 ![Toggle property names](../debugger/media/toggle-property-names.gif "Toggle property names")
 
 ::: moniker-end
