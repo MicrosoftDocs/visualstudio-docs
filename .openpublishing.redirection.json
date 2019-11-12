@@ -1811,6 +1811,11 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "docs/extensibility/xaml-designer-extensibility-migration.md",
+      "redirect_url": "https://github.com/microsoft/xaml-designer-extensibility/blob/master/documents/xaml-designer-extensibility-migration.md",
+      "redirect_document_id": true
+    },
+    {
       "source_path": "docs/get-started/csharp/tutorial-projects-solutions.md",
       "redirect_url": "/visualstudio/get-started/tutorial-projects-solutions",
       "redirect_document_id": false
