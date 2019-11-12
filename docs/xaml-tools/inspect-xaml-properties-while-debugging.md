@@ -96,16 +96,15 @@ Let's get started with a very simple WPF application that has a list view and a 
    > [!NOTE]
    > A yellow border around a property in the **Live Property Explorer** means that the property value is set through a binding, such as `Color = {BindingExpression}`. A green border means that the value is set using a resource, such as `Color = {StaticResource MyBrush}`.
 
-   The actual structure of the XAML has a lot of elements that you're probably not directly interested in, and if you don't know the code well you might have a hard time navigating the tree to find what you're looking for. So the **Live Visual Tree** has a couple of ways that let you use the application's UI to help you find the element you want to examine.
-   
    ::: moniker range=">= vs-2019" 
-   >[!NOTE]
-   > Starting in Visual Studio 2019 version 16.4, the view of XAML elements is simplified by default using the [Just My XAML](../debugger/general-debugging-options-dialog-box.md) feature. You can disable this setting to show all XAML elements.
+   The actual structure of the XAML has a lot of elements that you're probably not directly interested in, and if you don't know the code well you might have a hard time navigating the tree to find what you're looking for. So the **Live Visual Tree** has a couple of ways that let you use the application's UI to help you find the element you want to examine. (Starting in Visual Studio 2019 version 16.4, the view of XAML elements is simplified by default using the Just My XAML feature. You can [disable this setting](../debugger/general-debugging-options-dialog-box.md) to show all XAML elements.)
 
    **Enable selection in the running application**. You can enable this mode when you select the leftmost button on the **Live Visual Tree** toolbar. With this mode on, you can select a UI element in the application, and the **Live Visual Tree** (and the **Live Property Viewer**) automatically updates to show the node in the tree corresponding to that element, and its properties. Starting in Visual Studio 2019 version 16.4, you can [configure the behavior of element selection](../debugger/general-debugging-options-dialog-box.md).
    ::: moniker-end
 
    ::: moniker range="vs-2017" 
+   The actual structure of the XAML has a lot of elements that you're probably not directly interested in, and if you don't know the code well you might have a hard time navigating the tree to find what you're looking for. So the **Live Visual Tree** has a couple of ways that let you use the application's UI to help you find the element you want to examine.
+
    **Enable selection in the running application**. You can enable this mode when you select the leftmost button on the **Live Visual Tree** toolbar. With this mode on, you can select a UI element in the application, and the **Live Visual Tree** (and the **Live Property Viewer**) automatically updates to show the node in the tree corresponding to that element, and its properties.
    ::: moniker-end
 
