@@ -5,11 +5,11 @@ ms.topic: conceptual
 helpviewer_keywords:
   - "generics, and unit tests"
   - "unit tests, and generics"
-ms.author: gewarren
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"
-author: gewarren
+author: jillre
 ---
 # Unit tests for generic methods
 

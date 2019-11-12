@@ -9,8 +9,8 @@ helpviewer_keywords:
   - "ADO.NET service references"
   - "ADO.NET Data Service reference"
 ms.assetid: 892ebf37-3af4-472e-8744-92837677d611
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "data-storage"

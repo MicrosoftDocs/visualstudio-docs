@@ -44,6 +44,6 @@ HRESULT ConnectDebugger(
 ## Remarks  
  An application can have only one debugger connected at a time. This method fails if a debugger is already connected.  
   
-## See Also  
+## See also  
  [IRemoteDebugApplication::GetDebugger](../../winscript/reference/iremotedebugapplication-getdebugger.md)   
  [IRemoteDebugApplication Interface](../../winscript/reference/iremotedebugapplication-interface.md)

@@ -51,8 +51,6 @@ ms.workload:
 
 - Microsoft [!INCLUDE[Outlook_15_short](../vsto/includes/outlook-15-short-md.md)] or Microsoft Outlook 2010.
 
-  ![link to video](../vsto/media/playvideo.gif "link to video") For a related video demonstration, see [How do I: Use task panes in Outlook?](http://go.microsoft.com/fwlink/?LinkID=130309).
-
 ## Create the project
  Custom task panes are implemented in VSTO Add-ins. Start by creating a VSTO Add-in project for Outlook.
 
@@ -269,4 +267,4 @@ ms.workload:
 - [Walkthrough: Synchronize a custom task pane with a Ribbon button](../vsto/walkthrough-synchronizing-a-custom-task-pane-with-a-ribbon-button.md)
 - [Ribbon overview](../vsto/ribbon-overview.md)
 - [Outlook object model overview](../vsto/outlook-object-model-overview.md)
-- [Access the ribbon at runtime](../vsto/accessing-the-ribbon-at-run-time.md)
+- [Access the ribbon at run time](../vsto/accessing-the-ribbon-at-run-time.md)

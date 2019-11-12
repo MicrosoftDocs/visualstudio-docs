@@ -43,5 +43,5 @@ HRESULT GetStackFrame(
 ## Remarks  
  This method provides the stack frame that is in effect for run-time errors.  
   
-## See Also  
+## See also  
  [IActiveScriptErrorDebug Interface](../../winscript/reference/iactivescripterrordebug-interface.md)

@@ -9,8 +9,8 @@ helpviewer_keywords:
   - "Debug.SymbolPath command"
   - "SymbolPath command"
 ms.assetid: b697ef2d-3f5d-40df-b113-7068a5bec0d4
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"
@@ -46,7 +46,7 @@ This example displays a semi-colon delimited list of current symbol paths.
 Debug.SymbolPath
 ```
 
-## See Also
+## See also
 
 - [Command Window](../../ide/reference/command-window.md)
 - [Visual Studio Commands](../../ide/reference/visual-studio-commands.md)

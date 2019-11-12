@@ -7,8 +7,8 @@ f1_keywords:
   - "vs.code.analysis.browsefortfsruleset"
   - "vs.code.analysis.policyeditor"
 ms.assetid: fd029003-5671-4b24-8b6f-032e0a98b2e8
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "dotnet"
@@ -104,10 +104,18 @@ You specify a project check-in policy rule set as the code analysis rule set of 
 
 4. If necessary, click the appropriate options in the **Configuration** and **Platform** lists.
 
-5. To run code analysis every time that the code project is built using the specified configuration, select the **Enable Code Analysis on Build (defines CODE_ANALYSIS constant)** check box.
+::: moniker range="vs-2017"
 
-6. To ignore code in components from other companies, select the **Suppress results from generated code** check box.
+5. To run code analysis every time that the code project is built using the specified configuration, select **Enable Code Analysis on Build**.
 
-7. In the **Run this rule set** list, click **\<Browse...>**.
+::: moniker-end
 
-8. Specify the local version of the check-in policy rule set file.
+::: moniker range=">=vs-2019"
+
+5. To run code analysis every time that the code project is built using the specified configuration, select **Run on build** in the **Binary analyzers** section.
+
+::: moniker-end
+
+6. In the **Run this rule set** list, click **\<Browse>**.
+
+8. Select the local version of the check-in policy rule set file.

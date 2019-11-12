@@ -11,8 +11,8 @@ helpviewer_keywords:
   - "web services, as data sources"
   - "web services, connecting"
 ms.assetid: a6b54353-05fe-4e5c-8631-90231fc95504
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "data-storage"

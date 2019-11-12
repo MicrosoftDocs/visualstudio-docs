@@ -9,8 +9,8 @@ helpviewer_keywords:
   - "tests agents, load tests, specifying"
   - "load tests, test agents"
 ms.assetid: e86806dd-5897-4e4c-bfd4-8d687fb72a6e
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # How to: Specify test agents to use in load test scenarios

@@ -12,8 +12,8 @@ helpviewer_keywords:
   - "keyboard shortcuts"
 ms.assetid: c2c64648-00f8-4e48-a8a0-96c67cfd968c
 caps.latest.revision: 59
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # Default Keyboard Shortcuts in Visual Studio

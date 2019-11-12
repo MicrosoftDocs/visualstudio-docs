@@ -4,7 +4,7 @@ description: "This article describes how to compile and build projects and solut
 ms.topic: overview
 author: heiligerdankgesang
 ms.author: dominicn
-ms.date: 08/29/2018
+ms.date: 08/29/2019
 ms.assetid: FB253757-DB00-4889-A6BF-E44722E25BD1
 ---
 

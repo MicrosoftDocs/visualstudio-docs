@@ -5,8 +5,8 @@ ms.topic: conceptual
 helpviewer_keywords:
   - "load tests, test mix model"
 ms.assetid: ae8b35f9-d465-4d72-8d7d-7b56ae6ffd22
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # How to: Apply distribution to pacing delay for a user pace test mix model

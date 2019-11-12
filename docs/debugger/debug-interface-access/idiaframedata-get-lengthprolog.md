@@ -35,5 +35,5 @@ HRESULT get_lengthProlog ( 
 ## Remarks
  The prologue code is a sequence of instructions that preserves registers, sets the CPU state, and establishes the stack for the function.
 
-## See Also
+## See also
 - [IDiaFrameData](../../debugger/debug-interface-access/idiaframedata.md)

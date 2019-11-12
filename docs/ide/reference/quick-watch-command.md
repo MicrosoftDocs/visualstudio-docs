@@ -8,8 +8,8 @@ helpviewer_keywords:
   - "Quick Watch command"
   - "Debug.Quickwatch command"
 ms.assetid: 9670ac3a-8f2f-4874-974d-cb87d3b0cde1
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"
@@ -38,7 +38,7 @@ If `text` is omitted, the currently selected text or word at the cursor is added
 >Debug.QuickWatch
 ```
 
-## See Also
+## See also
 
 - [Set a Watch on Variables using the Watch and QuickWatch Windows in Visual Studio](../../debugger/watch-and-quickwatch-windows.md)
 - [Visual Studio Commands](../../ide/reference/visual-studio-commands.md)

@@ -4,8 +4,8 @@ ms.date: 03/14/2018
 ms.topic: quickstart
 helpviewer_keywords:
   - "load testing, quickstart"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # Quickstart: Create a load test project

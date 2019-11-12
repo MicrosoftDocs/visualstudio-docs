@@ -43,6 +43,6 @@ DWORD       rva;
 pSymbol->get_relativeVirtualAddress( &rva );
 ```
 
-## See Also
+## See also
 - [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
 - [LocationType Enumeration](../../debugger/debug-interface-access/locationtype.md)

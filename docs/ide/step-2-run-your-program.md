@@ -5,9 +5,6 @@ ms.assetid: 9a8fe90e-c97b-4e98-b6c8-0c6b3962c49d
 ms.topic: tutorial
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
-ms.devlang:
- - "csharp"
- - "vb"
 author: TerryGLee
 ms.author: tglee
 manager: jillfra
@@ -52,7 +49,7 @@ Here's how to run your app.
     - Choose the **X** button in the upper corner of the **Form1** window.
 
     > [!NOTE]
-    > When you run your app from inside the IDE, it's called debugging because you typically do so to locate and fix bugs (errors) in the application. Although this app is small and doesn't really do anything yet, it's still a real program. You follow the same procedure to run and debug other programs. To learn more about debugging, see [First look at the debugger](../debugger/debugger-feature-tour.md).
+    > When you run your app from inside the IDE, it's called debugging because you typically do so to locate and fix bugs (errors) in the application. Although this app is small and doesn't do much yet, it's still a real program. You follow the same procedure to run and debug other programs. To learn more about debugging, see [First look at the debugger](../debugger/debugger-feature-tour.md).
 
 ## Next steps
 

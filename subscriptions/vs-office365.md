@@ -12,6 +12,9 @@ description:  Learn about the Office 365 benefit included in some Visual Studio 
 
 Create your best work. Work anywhere with apps that are always updated. Office 365 ProPlus is a subscription that comes with premium apps like Word, Excel, PowerPoint, OneNote, Outlook, Publisher, and Access (Publisher and Access available on PC only). The apps can be installed on multiple devices, including PCs, Macs, iPads, iPhones, Android tablets, and Android phones. With a subscription, you get the latest versions of the apps and automatically receive updates when they happen.
 
+> [!NOTE]
+> Your Visual Studio subscription entitles you to use Office 365 for production use.  
+
 ## Getting started with Office 365 ProPlus
 
 Follow these steps to download and activate Office 365 ProPlus:
@@ -37,10 +40,6 @@ Follow these steps to download and activate Office 365 ProPlus:
    > ![Office 365 Enter Product Key](_img/vs-office365/vs-office365-enter-key.png)
 0. Click **Next** again.
 0. Click **Install** to install the Office applications.
-
-## Next steps
-
-If you're planning to develop applications for Office, you'll want to activate your [Office Developer Subscription](vs-office-dev.md)
 
 ## Eligibility
 
@@ -70,4 +69,5 @@ Not sure which subscription you're using?  Connect to [https://my.visualstudio.c
 Be sure to activate these great benefits to make the most of your Visual Studio subscription:
 - [Visual Studio](vs-ide-benefit.md)
 - [Azure DevOps](vs-azure-devops.md)
-- [Azure credits](vs-azure.md)
+- [Azure DevTest individual credit](vs-azure.md)
+If you're planning to develop applications for Office, you'll want to activate your [Office Developer Subscription](vs-office-dev.md)

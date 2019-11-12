@@ -1,5 +1,5 @@
 ---
-title: "MSBuild Tasks Specific to Visual C++ | Microsoft Docs"
+title: "MSBuild Tasks Specific to C++ | Microsoft Docs"
 ms.date: "03/10/2019"
 ms.topic: "reference"
 dev_langs:
@@ -8,7 +8,7 @@ dev_langs:
   - "C++"
   - "jsharp"
 helpviewer_keywords:
-  - "MSBuild, tasks specific to Visual C++"
+  - "MSBuild, tasks specific to C++"
 ms.assetid: 05410f0c-7356-4692-bc00-20664421c9ff
 author: mikejo5000
 ms.author: mikejo
@@ -16,8 +16,8 @@ manager: jillfra
 ms.workload:
   - "cplusplus"
 ---
-# MSBuild tasks specific to Visual C++
-Tasks provide the code that runs during the build process. When Visual C++ is installed, the following tasks are available, in addition to those that are installed with [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)]. For more information, see [MSBuild (Visual C++) overview](/cpp/build/msbuild-visual-cpp-overview).
+# MSBuild tasks specific to C++
+Tasks provide the code that runs during the build process. When C++ is installed, the following tasks are available, in addition to those that are installed with [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)]. For more information, see [MSBuild (C++) overview](/cpp/build/msbuild-visual-cpp-overview).
 
  In addition to the parameters for each task, every task also has the following parameters.
 
@@ -31,15 +31,15 @@ Tasks provide the code that runs during the build process. When Visual C++ is in
 |Title|Description|
 |-----------|-----------------|
 |[BscMake task](../msbuild/bscmake-task.md)|Wraps the Microsoft Browse Information Maintenance Utility tool (*bscmake.exe*).|
-|[CL task](../msbuild/cl-task.md)|Wraps the Visual C++ compiler tool (*cl.exe*).|
-|[CPPClean task](../msbuild/cppclean-task.md)|Deletes the temporary files that MSBuild creates when a Visual C++ project is built.|
-|[ClangCompile task](../msbuild/clangcompile-task.md)|Wraps the Visual C++ compiler tool (*clang.exe*).|
-|[CustomBuild task](../msbuild/custombuild-task.md)|Wraps the Visual C++ compiler tool (*cmd.exe*).|
+|[CL task](../msbuild/cl-task.md)|Wraps the C++ compiler tool (*cl.exe*).|
+|[CPPClean task](../msbuild/cppclean-task.md)|Deletes the temporary files that MSBuild creates when a C++ project is built.|
+|[ClangCompile task](../msbuild/clangcompile-task.md)|Wraps the C++ compiler tool (*clang.exe*).|
+|[CustomBuild task](../msbuild/custombuild-task.md)|Wraps the C++ compiler tool (*cmd.exe*).|
 |[FXC task](../msbuild/fxc-task.md)|Use HLSL shader compilers in the build process.|
 |[GetOutOfDateItems](../msbuild/getoutofdateitems-task.md)|Reads old tlogs, writes new tlogs and returns set of items which are not up-to-date. (helper task)|
 |[GetOutputFileName](../msbuild/getoutputfilename-task.md)|Gets output file name for cl and other tools, which allow specifying only output directory or full file name or nothing. (helper task)|
 |[LIB task](../msbuild/lib-task.md)|Wraps the Microsoft 32-Bit Library Manager tool (*lib.exe*).|
-|[Link task](../msbuild/link-task.md)|Wraps the Visual C++ linker tool (*link.exe*).|
+|[Link task](../msbuild/link-task.md)|Wraps the C++ linker tool (*link.exe*).|
 |[MIDL task](../msbuild/midl-task.md)|Wraps the Microsoft Interface Definition Language (MIDL) compiler tool (*midl.exe*).|
 |[MT task](../msbuild/mt-task.md)|Wraps the Microsoft Manifest Tool (*mt.exe*).|
 |[MultiToolTask task](../msbuild/multitooltask-task.md)|No description.|

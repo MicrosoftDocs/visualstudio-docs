@@ -3,8 +3,8 @@ title: Filter Nodes
 ms.date: 11/04/2016
 ms.topic: reference
 ms.assetid: f7cae2dc-e9a7-49d4-8be5-58b79868624e
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

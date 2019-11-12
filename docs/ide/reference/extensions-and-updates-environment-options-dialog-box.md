@@ -5,8 +5,8 @@ ms.topic: reference
 f1_keywords:
   - "VS.ToolsOptionsPages.Environment.ExtensionManager"
 ms.assetid: c73859eb-3c33-4f39-86bf-6788387b5937
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

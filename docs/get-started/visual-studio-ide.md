@@ -5,11 +5,11 @@ ms.date: 03/19/2019
 ms.technology: vs-ide-general
 ms.topic: conceptual
 ms.custom: vs-get-started
-author: gewarren
+author: jillre
 f1_keywords:
   - vs.startpage
   - VS.StartPage.HowDoI
-ms.author: gewarren
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"
@@ -36,7 +36,7 @@ If you're ready to dive into more coding, one of the following language-specific
 
 - [Use Visual Studio to create your first Node.js app](../ide/quickstart-nodejs.md)
 
-- [Get started with C++ in Visual Studio](../ide/getting-started-with-cpp-in-visual-studio.md)
+- [Use Visual Studio to create your first C++ console app](/cpp/get-started/tutorial-console-cpp)
 
 ## See also
 

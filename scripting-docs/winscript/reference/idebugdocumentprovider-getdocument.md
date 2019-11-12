@@ -43,5 +43,5 @@ HRESULT GetDocument(
 ## Remarks  
  This method causes the document to be instantiated if it does not already exist.  
   
-## See Also  
+## See also  
  [IDebugDocumentProvider Interface](../../winscript/reference/idebugdocumentprovider-interface.md)

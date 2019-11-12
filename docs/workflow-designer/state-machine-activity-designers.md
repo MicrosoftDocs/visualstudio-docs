@@ -3,11 +3,11 @@ title: "Workflow Designer - State Machine Activity Designers"
 ms.date: 11/04/2016
 ms.topic: reference
 ms.assetid: 97f0bff5-7e48-4914-8f04-8015a1c6bfae
-ms.author: gewarren
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"
-author: gewarren
+author: jillre
 ---
 # State Machine Activity Designers
 
@@ -29,7 +29,7 @@ Workflow Designer includes a number of activity designers that you can use when 
 
  [Flowchart](../workflow-designer/flowchart-activity-designers.md)
 
- [Using the Activity Designers](../workflow-designer/using-the-activity-designers.md)
+ [Using the Activity Designers](control-flow-activity-designers.md)
 
  [Messaging](../workflow-designer/messaging-activity-designers.md)
 

@@ -6,7 +6,7 @@ ms.technology: vs-ide-test
 ms.topic: conceptual
 ms.assetid: 5ef1188f-89dc-413d-801d-0efdaf9b0427
 caps.latest.revision: 24
-ms.author: gewarren
+ms.author: jillfra
 manager: jillfra
 ---
 # Enable Coded UI Testing of Your Controls

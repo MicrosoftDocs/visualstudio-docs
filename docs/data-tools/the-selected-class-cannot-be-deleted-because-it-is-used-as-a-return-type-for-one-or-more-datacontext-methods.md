@@ -3,8 +3,8 @@ title: The selected class cannot be deleted because it is used as a return type 
 ms.date: 11/04/2016
 ms.topic: reference
 ms.assetid: d68254a0-f3a1-47e2-aed3-a83471e1d711
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "data-storage"

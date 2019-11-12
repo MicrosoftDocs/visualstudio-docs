@@ -8,8 +8,8 @@ helpviewer_keywords:
   - "Web performance tests, creating plug-ins"
   - "plug-ins, creating in Web performance tests"
 ms.assetid: a612f2d2-9806-477d-a126-12842f07da6e
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # How to: Create a web performance test plug-in

@@ -1,0 +1,106 @@
+### YamlMime:Landing
+
+title: Visual Studio deployment documentation # < 60 chars
+summary: Learn how to deploy applications, services, and components using Visual Studio # < 160 chars
+
+metadata:
+  title: Deployment in Visual Studio # Required; page title displayed in search results. Include the brand. < 60 chars.
+  description: Learn how to use Visual Studio to deploy applications, services, and components.
+  ms.topic: landing-page
+  author: mikejo5000
+  ms.author: mikejo
+  manager: jillfra
+  ms.date: 09/17/2019
+
+# linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
+
+landingContent:
+# Cards and links should be based on top customer tasks or top subjects
+# Start card title with a verb
+  # Card (optional)
+  - title: About deployment
+    linkLists:
+      - linkListType: overview
+        links:
+          - text: Overview of deployment
+            url: deploying-applications-services-and-components-resources.md
+          - text: First look at deployment
+            url: deploying-applications-services-and-components.md
+
+  # Card (optional)
+  - title: Get started
+    linkLists:
+      - linkListType: quickstart
+        links:
+          - text: Publish to Azure App Service
+            url: quickstart-deploy-to-azure.md
+          - text: Publish to App Service for Linux
+            url: quickstart-deploy-to-linux.md
+          - text: Publish to a web site
+            url: quickstart-deploy-to-a-web-site.md
+          - text: Publish to a local folder
+            url: quickstart-deploy-to-local-folder.md
+
+  # Card
+  - title: Deploy .NET apps
+    linkLists:
+      - linkListType: tutorial
+        links:
+          - text: Deploy .NET Core apps
+            url: /dotnet/core/deploying/deploy-with-vs
+          - text: Deploy a desktop app using ClickOnce
+            url: how-to-publish-a-clickonce-application-using-the-publish-wizard.md
+          - text: Build ClickOnce applications from the Command line
+            url: building-clickonce-applications-from-the-command-line.md
+      - linkListType: how-to-guide
+        links:
+          - text: Package a desktop app for Windows Store
+            url: /windows/msix/desktop/desktop-to-uwp-packaging-dot-net
+
+    # Card
+  - title: Deploy .NET packages to NuGet.org
+    linkLists:
+      - linkListType: tutorial
+        links:
+          - text: Publish to NuGet.org (.NET Standard)
+            url: /nuget/quickstart/create-and-publish-a-package-using-visual-studio
+          - text: Publish to NuGet.org (.NET Framework)
+            url: /nuget/quickstart/create-and-publish-a-package-using-visual-studio-net-framework
+
+  # Card
+  - title: Deploy ASP.NET apps
+    linkLists:
+      - linkListType: tutorial
+        links:
+          - text: Publish ASP.NET Core to Azure
+            url: /aspnet/core/tutorials/publish-to-azure-webapp-using-vs
+          - text: Import publish settings and deploy to IIS
+            url: tutorial-import-publish-settings-iis.md
+          - text: Publish with Git
+            url: /aspnet/core/host-and-deploy/azure-apps/azure-continuous-deployment
+
+  # Card
+  - title: Deploy C++ apps
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+          - text: Deploy using a Setup project (C/C++)
+            url: /cpp/windows/walkthrough-deploying-a-visual-cpp-application-by-using-a-setup-project
+          - text: Package a desktop app for Windows Store
+            url: /windows/msix/desktop/desktop-to-uwp-packaging-dot-net
+
+  # Card
+  - title: Deploy Python apps
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+          - text: Publish to Linux App Service
+            url: ../python/publishing-python-web-applications-to-azure-from-visual-studio.md
+
+  # Card
+  - title: Deploy Node.js apps
+    linkLists:
+      - linkListType: tutorial
+        links:
+          - text: Publish to Linux App Service
+            url: ../javascript/publish-nodejs-app-azure.md

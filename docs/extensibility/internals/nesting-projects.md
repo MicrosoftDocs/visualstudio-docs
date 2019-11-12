@@ -27,7 +27,7 @@ Enterprise application developers who use your VS Package can conveniently group
  ![Nested Projects Solution](../../extensibility/internals/media/vsnestedprojects.gif "vsNestedProjects")
 Nested projects example
 
-## See Also
+## See also
 - [Considerations for Unloading and Reloading Nested Projects](../../extensibility/internals/considerations-for-unloading-and-reloading-nested-projects.md)
 - [Wizard Support for Nested Projects](../../extensibility/internals/wizard-support-for-nested-projects.md)
 - [Registering Project and Item Templates](../../extensibility/internals/registering-project-and-item-templates.md)

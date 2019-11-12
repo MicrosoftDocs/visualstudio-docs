@@ -36,7 +36,7 @@ To diagnose issues in your ASP.NET web app after deployment by using IntelliTrac
 
 Visual Studio 2017 and later versions do not include the *BuildInfo.config* file, which was deprecated and then removed. To debug ASP.NET web apps after deployment, use one of the following methods:
 
-* For deployment to Azure, use [Application Insights](https://docs.microsoft.com/azure/application-insights/).
+* For deployment to Azure, use [Application Insights](/azure/application-insights/).
 
 * If you need to use IntelliTrace, open the project in Visual Studio and load the symbol files from the matching build. You can load symbol files from the **Modules** window or by configuring symbols in **Tools** > **Options** > **Debugging** > **Symbols**.
 
@@ -295,7 +295,7 @@ Visual Studio 2017 and later versions do not include the *BuildInfo.config* file
 
     - **ProjectPath**: The path to your app's project file (.csproj or .vbproj)
 
-    - **CommitId**: The id for your commit
+    - **CommitId**: The ID for your commit
 
       For example:
 
@@ -319,7 +319,7 @@ Visual Studio 2017 and later versions do not include the *BuildInfo.config* file
 
   - **BuildReportUrl** (for TeamBuild): The location of the build report in TFS
 
-  - **BuildId** (for TeamBuild): The URI for the build details in TFS. This URI is also used as the ID of the deployment event. This must id must be unique if you're not using TeamBuild.
+  - **BuildId** (for TeamBuild): The URI for the build details in TFS. This URI is also used as the ID of the deployment event. This ID must be unique if you're not using TeamBuild.
 
   - **BuiltSolution**: The path to the solution file that Visual Studio uses to find and open the matching solution. This is the contents of the **SolutionPath** MsBuild property.
 

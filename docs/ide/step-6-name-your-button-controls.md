@@ -5,12 +5,9 @@ ms.assetid: 56b3baa3-651e-4ad4-8942-e334c5c57158
 ms.topic: tutorial
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
-ms.devlang:
- - "csharp"
- - "vb"
 dev_langs:
-  - "csharp"
-  - "vb"
+  - "CSharp"
+  - "VB"
 author: TerryGLee
 ms.author: tglee
 manager: jillfra
@@ -46,7 +43,7 @@ You can verify the names by choosing the control selector drop-down list in the 
 ***Form1.cs*** *tab with C# code*
 
     > [!NOTE]
-    > Your Form1.cs of Form1.vb tab might display **showButton** as **ShowButton** instead.
+    > Your Form1.cs or Form1.vb tab might display **showButton** as **ShowButton** instead.
 
 1. Focus on this part of the code.
 
@@ -58,12 +55,11 @@ You can verify the names by choosing the control selector drop-down list in the 
 
     ```vb
         Private Sub showButton_Click() Handles showButton.Click
-    
+
     End Sub
     ```
 
-   > [!IMPORTANT]
-   > Use the programming language control at the top right of this page to view either the C# code snippet or the Visual Basic code snippet.<br><br>![Programming language control for Docs.Microsoft.com](../ide/media/docs-programming-language-control.png)
+   [!INCLUDE [devlang-control-csharp-vb](./includes/devlang-control-csharp-vb.md)]
 
    You're looking at code called `showButton_Click()` (alternatively, `ShowButton_Click()`). The IDE added this to the form's code when you opened the code file for the **showButton** button. At design-time, when you open the code file for a control in a form, code is generated for the control if it doesn't already exist. This code, known as a *method*, runs when you run your app and choose the control - in this case, the **Show a picture** button.
 
@@ -77,11 +73,11 @@ You can verify the names by choosing the control selector drop-down list in the 
     The following shows the new code that you see in the code editor.
 
     [!code-csharp[VbExpressTutorial1Step6_#2](../ide/codesnippet/CSharp/step-6-name-your-button-controls_2.cs)]
-    
+
     [!code-vb[VbExpressTutorial1Step6_#2](../ide/codesnippet/VisualBasic/step-6-name-your-button-controls_2.vb)]
 
     > [!NOTE]
-    > Your code might not display event handlers in "camelCase" letters. 
+    > Your code might not display event handlers in "camelCase" letters.
 
     The five methods that you added are called *event handlers*, because your application calls them whenever an event (like a user choosing a button or selecting a box) happens.
 

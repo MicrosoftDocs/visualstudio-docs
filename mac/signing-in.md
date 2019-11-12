@@ -3,7 +3,7 @@ title: "Signing in to Visual Studio for Mac"
 description: "How to sign in to Visual Studio for Mac"
 author: asb3993
 ms.author: amburns
-ms.date: 08/08/2019
+ms.date: 09/18/2019
 ms.assetid: E4CFD03C-03AF-48CA-B409-6DB1CA45E991
 ---
 # Sign in to Visual Studio for Mac
@@ -23,17 +23,17 @@ If you do decide not to log in straight away, you'll be able to use an evaluatio
 > [!TIP]
 > Make sure that you're connected to the internet before signing in to Visual Studio for Mac. > Subscriptions can only be activated online. If you're not connected, choose "I'll do this later" and log in through the menu when you get connected.
 
-To sign in to Visual Studio for Mac, do the following steps:
+To sign in to Visual Studio for Mac on first launch, do the following steps:
 
 1. Click the **Sign in with Microsoft** button on the sign-in window:
 
-    ![Accounts dialog in Visual Studio for Mac](media/signing-in-image12.png)
+    ![Accounts dialog in Visual Studio for Mac](media/ide-tour-2019-start-signin.png)
 
 2. Enter your Microsoft Credentials:
 
     ![Microsoft credentials dialog](media/signing-in-image13.png)
 
-3. After you've logged in, you'll see the Visual Studio 2019 for Mac start window. From here, you can open or create a new project:
+4. After you've logged in, you'll see an option to select keyboard shortcuts. Pick the option you wish to use and **Continue**. You'll then be prompted with the Visual Studio 2019 for Mac start window. From here, you can open or create a new project:
 
     ![Sign in successful](media/signing-in-image14.png)
 

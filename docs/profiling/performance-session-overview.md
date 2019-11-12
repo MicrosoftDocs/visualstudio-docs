@@ -69,4 +69,4 @@ This overview explains the basics of profiling. Developers who are new to perfor
 
 ## See also
 - [Overviews](../profiling/overviews-performance-tools.md)
-- [Walkthrough: Identify performance problems](/visualstudio/profiling/beginners-guide-to-cpu-sampling)
+- [Walkthrough: Identify performance problems](beginners-guide-to-cpu-sampling.md)

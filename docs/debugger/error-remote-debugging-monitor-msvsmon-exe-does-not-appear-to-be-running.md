@@ -21,7 +21,7 @@ ms.workload:
 This error message means that Visual Studio could not find the correct instance of the Visual Studio Remote Debugging Monitor on the remote computer. The Visual Studio Remote Debugging Monitor must be installed for remote debugging to work. For information about downloading and setting up the remote debugger, see [Remote Debugging](../debugger/remote-debugging.md).
 
 > [!IMPORTANT]
-> If you believe you've received this message because of a product bug, please [report this issue to Visual Studio](../ide/how-to-report-a-problem-with-visual-studio.md). If you need more help, see [Talk to Us](../ide/talk-to-us.md) for ways to contact Microsoft.
+> If you believe you've received this message because of a product bug, please [report this issue to Visual Studio](../ide/how-to-report-a-problem-with-visual-studio.md). If you need more help, see [Talk to Us](../ide/feedback-options.md) for ways to contact Microsoft.
 
 ## I got this message while I was debugging in Visual Studio 2010 or earlier
  If the version of Visual Studio that you are using is Visual Studio 2010 or earlier, you might also receive this error if file and printer sharing is not enabled. To find out more about this issue, please refer to the Visual Studio 2010 version of this documentation: [Error: The Microsoft Visual Studio Remote Debugging Monitor (MSVSMON.EXE) does not appear to be running on the remote computer. - Visual Studio 2010](https://docs.microsoft.com/previous-versions/visualstudio/visual-studio-2010/ms164726(v=vs.100))
@@ -35,7 +35,7 @@ This error message means that Visual Studio could not find the correct instance 
  Try to [ping](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/ee624059(v=ws.10)) the remote machine. If it doesn't reply to the ping, the remote tools won't be able to connect either. Try rebooting the remote machine and otherwise making sure that it is correctly configured on the network.
 
 ## The version of the remote debugger doesn't match the version of Visual Studio
- The version of Visual Studio that you are running locally needs to match the version of the remote debugging monitor that is running on the remote machine. To fix this, download and install the matching version of the remote debugging monitor. Go to the [Download Center](http://www.microsoft.com/en-us/download) to find the right version of the remote debugger.
+ The version of Visual Studio that you are running locally needs to match the version of the remote debugging monitor that is running on the remote machine. To fix this, download and install the matching version of the remote debugging monitor. Go to the [Download Center](https://www.microsoft.com/download) to find the right version of the remote debugger.
 
 ## The local and remote machines have different authentication modes
  The local and remote machines need to use the same authentication mode. To fix this, make sure that both machines are using the same authentication mode. For more information about authentication modes, see [Windows Authentication Overview](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh831472(v=ws.11)).
@@ -68,5 +68,5 @@ This error message means that Visual Studio could not find the correct instance 
 
  res://*\<Visual Studio installation directory>*\Common7\IDE\Remote%20Debugger\x64\msvsmon.exe/help.htm
 
-## See Also
+## See also
 - [Remote Debugging Errors and Troubleshooting](../debugger/remote-debugging-errors-and-troubleshooting.md)

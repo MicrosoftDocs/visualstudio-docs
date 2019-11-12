@@ -10,8 +10,8 @@ helpviewer_keywords:
   - "code generation"
   - "text templates"
   - "generating code"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"
@@ -88,6 +88,6 @@ For more information, see [Design-Time Code Generation by using T4 Text Template
 
 The text template transformation feature is named *T4*.
 
-## See Also
+## See also
 
 - [Generate Code from a Domain-Specific Language](../modeling/generating-code-from-a-domain-specific-language.md)

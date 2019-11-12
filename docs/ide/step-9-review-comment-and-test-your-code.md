@@ -5,12 +5,9 @@ ms.assetid: f26f79ba-c91b-4164-b87f-679a1b231c09
 ms.topic: tutorial
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
-ms.devlang:
- - "csharp"
- - "vb"
 dev_langs:
-  - "csharp"
-  - "vb"
+  - "CSharp"
+  - "VB"
 author: TerryGLee
 ms.author: tglee
 manager: jillfra
@@ -51,11 +48,10 @@ You just built something that works, and although it's not done yet, it can alre
 
 1. Add the following comment to your code.
 
-    > [!IMPORTANT]
-    > Use the programming language control at the top right of this page to view either the C# code snippet or the Visual Basic code snippet.<br><br>![Programming language control for Docs.Microsoft.com](../ide/media/docs-programming-language-control.png)
+     [!INCLUDE [devlang-control-csharp-vb](./includes/devlang-control-csharp-vb.md)]
 
      [!code-csharp[VbExpressTutorial1Step9_10#1](../ide/codesnippet/CSharp/step-9-review-comment-and-test-your-code_1.cs)]
-     
+
      [!code-vb[VbExpressTutorial1Step9_10#1](../ide/codesnippet/VisualBasic/step-9-review-comment-and-test-your-code_1.vb)]
 
     Your **showButton** button's <xref:System.Windows.Forms.Control.Click> event handler is now finished, and it works. You have started writing code, starting with an `if` statement. An `if` statement is how you tell your app, "Check this one thing, and if it's true, do these actions." In this case, you tell your app to open the **Open File** dialog box, and if the user selects a file and chooses the **OK** button, load that file in the **PictureBox**.
@@ -63,7 +59,7 @@ You just built something that works, and although it's not done yet, it can alre
     > [!TIP]
     > The IDE is built to make it easy for you to write code, and *code snippets* are one way it does that. A snippet is a shortcut that gets expanded into a small block of code.
     >
-    >  You can see all of the snippets available. On the menu bar, choose **Tools** > **Code Snippets Manager**. For C#, the `if` snippet is in **Visual C#** . For Visual Basic, the `if` snippets are in **Conditionals and Loops** > **Code Patterns**. You can use this manager to browse existing snippets or add your own snippets.
+    >  You can see all of the snippets available. On the menu bar, choose **Tools** > **Code Snippets Manager**. For C#, the `if` snippet is in **Visual C#** . For Visual Basic, the `if` snippets are in **Code Patterns** > **Conditionals and Loops**. You can use this manager to browse existing snippets or add your own snippets.
     >
     >  To activate a snippet when typing code, type it and choose the **Tab** key. Many snippets appear in the **IntelliSense** window, which is why you choose the **Tab** key twice: first to select the snippet from the **IntelliSense** window, and then to tell the IDE to use the snippet. (IntelliSense supports the `if` snippet, but not the `ifelse` snippet.)
 

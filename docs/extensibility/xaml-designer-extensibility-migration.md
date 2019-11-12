@@ -20,7 +20,7 @@ In Visual Studio 2019, the XAML designer supports two different architectures: t
 
 ![extensibility-migration-architecture](media/xaml-designer-extensibility-migration-architecture.png)
 
-Because of this architecture transition, third-party extensions are no longer loaded into the same process as the third-party control libraries. The extensions can no longer have direct dependencies on control libraries or directly access runtime objects. Extensions that were previously written for the designer isolation architecture using the *Microsoft.Windows.Extensibility.dll* API must be migrated to a new approach to work with the surface isolation architecture. In practice, an existing extension will need to be compiled against new extensibility API assemblies. Access to runtime control types via [typeof](/dotnet/csharp/language-reference/keywords/typeof) or runtime instances must be replaced or removed because control libraries are now loaded in a different process.
+Because of this architecture transition, third-party extensions are no longer loaded into the same process as the third-party control libraries. The extensions can no longer have direct dependencies on control libraries or directly access run-time objects. Extensions that were previously written for the designer isolation architecture using the *Microsoft.Windows.Extensibility.dll* API must be migrated to a new approach to work with the surface isolation architecture. In practice, an existing extension will need to be compiled against new extensibility API assemblies. Access to run-time control types via [typeof](/dotnet/csharp/language-reference/keywords/typeof) or run-time instances must be replaced or removed because control libraries are now loaded in a different process.
 
 ## New extensibility API assemblies
 
@@ -37,7 +37,7 @@ Instead of using the *.design.dll* file extension, new surface extensions will b
 
 While third-party control libraries are compiled for the actual target runtime (.NET Core or UWP), the *.designtools.dll* extension should always be compiled as a .NET Framework assembly.
 
-## Decouple attribute tables from runtime types
+## Decouple attribute tables from run-time types
 
 The surface isolation extensibility model doesn't allow for extensions to depend on actual control libraries, and therefore, extensions can't reference types from the control library. For example, *MyLibrary.designtools.dll* should not have a dependency on *MyLibrary.dll*.
 
@@ -97,8 +97,9 @@ Currently, the following feature providers are supported:
 * `ContextMenuProvider`
 * `ParentAdapter`
 * `PlacementAdapter`
+* `DesignModeValueProvider` is supported with the limitation that `TranslatePropertyValue` will be called via `InvalidateProperty` or when modified in the designer. It will not be called when modified in run-time code.
 
-Because feature providers are now loaded in a process different from the actual runtime code and control libraries, they are no longer able to access runtime objects directly. Instead, all such interactions must be converted to use the corresponding Model-based APIs. The Model API has been updated, and access to <xref:System.Type> or <xref:System.Object> is either no longer available or has been replaced with `TypeIdentifier` and `TypeDefinition`.
+Because feature providers are now loaded in a process different from the actual run-time code and control libraries, they are no longer able to access run-time objects directly. Instead, all such interactions must be converted to use the corresponding Model-based APIs. The Model API has been updated, and access to <xref:System.Type> or <xref:System.Object> is either no longer available or has been replaced with `TypeIdentifier` and `TypeDefinition`.
 
 `TypeIdentifier` represents a string without an assembly name identifying a type. A `TypeIdenfifier` can be resolved to a `TypeDefinition` to query additional information about the type. `TypeDefinition` instances can't be cached in extension code.
 
@@ -127,12 +128,15 @@ APIs removed from the surface isolation extensibility API set:
 * `ModelFactory.CreateItem(EditingContext context, object item)`
 * `ViewItem.PlatformObject`
 * `ModelProperty.DefaultValue`
+* `AssemblyReferences.GetTypes(Type baseType)`
 
 APIs that use `TypeIdentifier` instead of <xref:System.Type>:
 
 * `ModelFactory.CreateItem(EditingContext context, Type itemType, params object[] arguments)`
 * `ModelFactory.CreateItem(EditingContext context, Type itemType, CreateOptions options, params object[] arguments)`
 * `ModelFactory.CreateStaticMemberItem(EditingContext context, Type type, string memberName)`
+* `ModelFactory.ResolveType(EditingContext context, Type)` changed to `MetadataFactory.ResolveType(EditingContext context, TypeIdentifier typeIdentifier)`
+* `ModelService.ResolveType(TypeIdentifier typeIdentifier)` changed to `MetadataService.ResolveType(TypeIdentifier typeIdentifier)`
 * `ViewItem.ItemType`
 * `ModelEvent.EventType`
 * `ModelEvent.IsEventOfType(Type type)`
@@ -151,7 +155,6 @@ APIs that use `TypeIdentifier` instead of <xref:System.Type> and no longer suppo
 
 APIs that use `TypeDefinition` instead of <xref:System.Type>:
 
-* `ModelFactory.ResolveType(EditingContext context, TypeIdentifier typeIdentifier)`
 * `ValueTranslationService.GetProperties(Type itemType)`
 * `ValueTranslationService.HasValueTranslation(Type itemType, PropertyIdentifier identifier)`
 * `ValueTranslationService.TranslatePropertyValue(Type itemType, ModelItem item, PropertyIdentifier identifier, object value)`
@@ -166,15 +169,12 @@ APIs that use `TypeDefinition` instead of <xref:System.Type>:
 * `FeatureManager.GetCustomAttributes(Type type, Type attributeType)`
 * `AdapterService.GetAdapter<TAdapterType>(Type itemType)`
 * `AdapterService.GetAdapter(Type adapterType, Type itemType)`
+* `PropertyEntry.PropertyType`
 
-APIs that use `ModelItem` instead of <xref:System.Object>:
+APIs that use `AssemblyIdentifier` instead of `<xref:System.Reflection.AssemblyName?displayProperty=fullName>`:
 
-* `ModelItemCollection.Insert(int index, object value)`
-* `ModelItemCollection.Remove(object value)`
-* `ModelItemDictionary.Add(object key, object value)`
-* `ModelItemDictionary.ContainsKey(object key)`
-* `ModelItemDictionary.Remove(object key)`
-* `ModelItemDictionary.TryGetValue(object key, out ModelItem value)`
+* `AssemblyReferences.ReferencedAssemblies`
+* `AssemblyReferences.LocalAssemblyName` changed to `AssemblyReferences.LocalAssemblyIdentifier`
 
 Furthermore, `ModelItem` APIs like `SetValue` will only support instances of primitive types or built-in .NET Framework types which can be converted for the target runtime. Currently these types are supported:
 

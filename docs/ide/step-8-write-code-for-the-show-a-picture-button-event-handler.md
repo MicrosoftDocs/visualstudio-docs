@@ -5,12 +5,9 @@ ms.assetid: 07f4ec00-cda4-42f4-98bb-37edc7167de7
 ms.topic: tutorial
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
-ms.devlang:
- - "csharp"
- - "vb"
 dev_langs:
-  - "csharp"
-  - "vb"
+  - "CSharp"
+  - "VB"
 author: TerryGLee
 ms.author: tglee
 manager: jillfra
@@ -38,7 +35,7 @@ IntelliSense tries to determine what you want to do next, and automatically jump
     ![IntelliSense with Visual C&#35; code](../ide/media/express_ifintellisense.png)
 
     > [!NOTE]
-    > Your code might not display event handlers in "camelCase" letters. 
+    > Your code might not display event handlers in "camelCase" letters.
 
 1. The **IntelliSense** window should highlight the word `if`. (If not, enter a lowercase `f`, and it will.) Notice how a *tooltip* box next to the **IntelliSense** window appears with the description, **Code snippet for if statement**. (In Visual Basic, the tooltip also states that this is a snippet, but with slightly different wording.) You want to use that snippet, so choose the **Tab** key to insert `if` into your code. Then choose the **Tab** key again to use the `if` snippet. (If you chose somewhere else and your **IntelliSense** window disappeared, backspace over the `i` and retype it, and the **IntelliSense** window opens again.)
 
@@ -90,8 +87,7 @@ Next, you use IntelliSense to enter more code to open an **Open File** dialog bo
 
  1. Now add one more line of code. You can type it (or copy and paste it), but consider using IntelliSense to add it. The more familiar you are with IntelliSense, the more quickly you can write your own code. Your final `showButton_Click()` method should look similar to the following code.
 
-    > [!IMPORTANT]
-    > Use the programming language control at the top right of this page to view either the C# code snippet or the Visual Basic code snippet.<br><br>![Programming language control for Docs.Microsoft.com](../ide/media/docs-programming-language-control.png)
+    [!INCLUDE [devlang-control-csharp-vb](./includes/devlang-control-csharp-vb.md)]
 
     [!code-csharp[VbExpressTutorial1Step8#1](../ide/codesnippet/CSharp/step-8-write-code-for-the-show-a-picture-button-event-handler_1.cs)]
 

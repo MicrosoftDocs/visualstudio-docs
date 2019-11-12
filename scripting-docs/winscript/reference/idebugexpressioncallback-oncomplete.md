@@ -40,6 +40,6 @@ HRESULT onComplete();
 ## Remarks  
  This method is called when the expression evaluation is complete. The `IDebugExpression::GetResultAsString` method can be called from within this event handler.  
   
-## See Also  
+## See also  
  [IDebugExpressionCallBack Interface](../../winscript/reference/idebugexpressioncallback-interface.md)   
  [IDebugExpression::GetResultAsString](../../winscript/reference/idebugexpression-getresultasstring.md)

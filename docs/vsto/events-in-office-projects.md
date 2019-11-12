@@ -119,7 +119,7 @@ ms.workload:
 
 10. Other sheets in order.
 
-    The order is determined when the project is compiled. If the user rearranges the sheets at runtime, it does not change the order that the events are raised the next time the workbook is opened or closed.
+    The order is determined when the project is compiled. If the user rearranges the sheets at run time, it does not change the order that the events are raised the next time the workbook is opened or closed.
 
 ## VSTO Add-in projects
  Visual Studio provides generated code in VSTO Add-ins. This code raises two different events: <xref:Microsoft.Office.Tools.AddInBase.Startup> and <xref:Microsoft.Office.Tools.AddInBase.Shutdown>.
@@ -144,7 +144,7 @@ ms.workload:
 - The <xref:Microsoft.Office.Interop.Outlook.ExplorerEvents_10_Event.Close> event of the <xref:Microsoft.Office.Interop.Outlook.Explorer> object.
 
 > [!NOTE]
-> You can force Outlook to raise the <xref:Microsoft.Office.Tools.AddInBase.Shutdown> event when it exits by modifying the registry. However, if an administrator reverts this setting, any code that you add to the `ThisAddIn_Shutdown` method no longer runs when Outlook exits. For more information, see [Shutdown changes for Outlook 2010](http://go.microsoft.com/fwlink/?LinkID=184614).
+> You can force Outlook to raise the <xref:Microsoft.Office.Tools.AddInBase.Shutdown> event when it exits by modifying the registry. However, if an administrator reverts this setting, any code that you add to the `ThisAddIn_Shutdown` method no longer runs when Outlook exits. For more information, see [Shutdown changes for Outlook 2010](/previous-versions/office/developer/office-2010/ee720183(v=office.14)).
 
 ## See also
 - [Develop Office solutions](../vsto/developing-office-solutions.md)

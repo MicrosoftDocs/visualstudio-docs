@@ -8,8 +8,8 @@ dev_langs:
   - "CSharp"
   - "VB"
   - "CPP"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # Use code coverage to determine how much code is being tested
@@ -40,11 +40,11 @@ The code coverage feature is available only in Visual Studio Enterprise edition.
 
 ::: moniker range=">=vs-2019"
 
-1. In **Test Explorer**, select **Analyze Code Coverage for All Tests** from the **Run** menu.
+1. On the **Test** menu, select **Analyze Code Coverage for All Tests**.
 
    ![Analyze code coverage menu in VS 2019](../test/media/vs-2019/analyze-code-coverage.png)
 
-   If **Test Explorer** is not open, open it by selecting **Test** > **Windows** > **Test Explorer**, or press **Ctrl**+**E**,**T**.
+   You can also run code coverage from the Test Explorer tool window.
 
 ::: moniker-end
 

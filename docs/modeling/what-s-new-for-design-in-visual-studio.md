@@ -7,8 +7,8 @@ helpviewer_keywords:
   - "what's new [Visual Studio], architecture and modeling"
   - "architecture [Visual Studio], modeling"
   - "modeling software [Visual Studio], What's New"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

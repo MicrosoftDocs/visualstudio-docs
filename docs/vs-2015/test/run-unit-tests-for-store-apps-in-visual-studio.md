@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.assetid: 5a6f5b32-bfce-4a63-81e9-02d54c592539
 caps.latest.revision: 14
 author: "alexhomer1"
-ms.author: gewarren
+ms.author: jillfra
 manager: jillfra
 ---
 # Run unit tests for Store apps in Visual Studio

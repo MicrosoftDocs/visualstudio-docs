@@ -1,7 +1,7 @@
 ---
 title: "Change Log (Visual Studio Tools for Unity, Mac) | Microsoft Docs"
 ms.custom: ""
-ms.date: "04/02/2019"
+ms.date: "09/18/2019"
 ms.technology: vs-unity-tools
 ms.topic: "conceptual"
 ms.assetid: 33a6ac54-d997-4308-b5a0-af7387460849
@@ -14,6 +14,74 @@ ms.workload:
 # Change Log (Visual Studio Tools for Unity, Mac)
 
 Visual Studio Tools for Unity change log.
+
+## 2.3.3.0
+
+Released September 23, 2019
+
+### New Features
+
+- **Integration:**
+
+  - Added a new suppressor for IDE0060, to prevent the IDE from showing a quick-fix to remove unused parameters.
+    - `USP0005` for `IDE0060`: Unity messages are invoked by the Unity runtime.
+
+## 2.3.2.0
+
+Released September 16, 2019
+
+### New Features
+
+- **Integration:**
+
+  - We've deepened the understanding that Visual Studio has for Unity projects by adding new diagnostics specific to Unity. We've also made the IDE smarter by suppressing general C# diagnostics that don't apply to Unity projects. For example, the IDE won't show a quick-fix to change an inspector variable to `readonly` which would prevent you from modifying the variable in the Unity Editor.
+    - `UNT0001`: Unity messages are called by the runtime even if they are empty, do not declare them to avoid uncesseray processing by the Unity runtime.
+    - `UNT0002`: Tag comparison using string equality is slower than the built-in CompareTag method.
+    - `UNT0003`: Usage of the generic form of GetComponent is preferred for type safety.
+    - `UNT0004`: Update message is frame-rate dependent, and should use Time.deltaTime instead of Time.fixedDeltaTime.
+    - `UNT0005`: FixedUpdate message is frame-rate independent, and should use Time.fixedDeltaTime instead of Time.deltaTime.
+    - `UNT0006`: An incorrect method signature was detected for this Unity message.
+    - `UNT0007`: Unity overrides the null comparison operator for Unity objects which is incompatible with null coalescing.
+    - `UNT0008`: Unity overrides the null comparison operator for Unity objects which is incompatible with null propagation.
+    - `UNT0009`: When applying the InitializeOnLoad attribute to a class, you need to provide a static constructor. InitializeOnLoad attribute ensures that it will be called as the editor launches.
+    - `UNT0010`: MonoBehaviours should only be created using AddComponent(). MonoBehaviour is a component, and needs to be attached to a GameObject.
+    - `UNT0011`: ScriptableObject should only be created using CreateInstance(). ScriptableObject needs to be created by the Unity engine to handle Unity message methods.
+    - `USP0001` for `IDE0029`: Unity objects should not use null coalescing.
+    - `USP0002` for `IDE0031`: Unity objects should not use null propagation.
+    - `USP0003` for `IDE0051`: Unity messages are invoked by the Unity runtime.
+    - `USP0004` for `IDE0044`: Fields with a SerializeField attribute should not be made readonly.
+
+## 2.3.1.0
+
+Released September 4, 2019
+
+### New Features
+
+- **Evaluation:**
+
+  - Added support for better type display, i.e. `List<object>` instead of `List'1[[System.Object, <corlib...>]]`.
+
+  - Added support for pointer member access, i.e. `p->data->member`.
+
+  - Added support for implicit conversions in array initializers, i.e. `new byte [] {1,2,3,4}`.
+
+  - Added support for hex editor when inspecting byte arrays and strings.
+
+## 2.3.0.0
+
+Released August 13, 2019
+
+### Bug fixes
+
+- **Evaluation:**
+
+  - Fixed stepping issues with exceptions.
+
+  - Fixed evaluation of pseudo identifiers (like $exception).
+
+  - Prevent crash when dereferencing invalid addresses.  
+
+  - Fixed issue with unloaded appdomains.
 
 ## 2.2.0.0
 
@@ -97,7 +165,7 @@ Released June 20, 2019
 
   - Disabled the full build for Unity projects, in favor of using the IntelliSense errors and warnings. Indeed Unity creates a Visual Studio solution with class library projects that represent what Unity is doing internally. That being said, the result of the build in Visual Studio is never used or picked up by Unity as their compilation pipeline is closed. Building in Visual Studio is just consuming resources for nothing. If you need a full build because you have tools or a setup that depends on it, you can disable this optimization (Settings/Tools for Unity/Disable the full build of projects).
   
-  - Added support for Unity packages in the UPE. Only Referenced packages (using manifest.json in the Packages folder) and Local packages (embedded in the Packages folder) are visible.
+  - Added support for Unity packages in the UPE. Only Referenced packages (using manifest.json in the `Packages` folder) and Local packages (embedded in the `Packages` folder) are visible.
 
 ## 2.0.2.1
 
@@ -158,6 +226,12 @@ Released March 20, 2019
 - **Project Generation:**
 
   - Preserve external properties when processing the solution file.
+  
+- **Evaluation:**
+
+  - Added support for alias-qualified names (only the global namespace for now). So the expression evaluator is now accepting types using the form global::namespace.type.
+
+  - Added support for `pointer[index]` form, which is semantically identical to pointer dereference `*(pointer+index)` form.
 
 ## 2.0.0.4
 
@@ -167,7 +241,7 @@ Released March 5, 2019
 
 - **Integration:**
 
-  - Updated the ScriptableObject API.
+  - Updated the `ScriptableObject` API.
 
 ### Bug fixes
 
@@ -183,7 +257,7 @@ Released March 5, 2019
 
 - **Project Generation:**
 
-  - Public and serialized fields will no longer cause warnings. We've auto-suppressed the CS0649 and IDE0051 compiler warnings in Unity projects that created these messages.
+  - Public and serialized fields will no longer cause warnings. We've auto-suppressed the `CS0649` and `IDE0051` compiler warnings in Unity projects that created these messages.
 
 - **Integration:**
 

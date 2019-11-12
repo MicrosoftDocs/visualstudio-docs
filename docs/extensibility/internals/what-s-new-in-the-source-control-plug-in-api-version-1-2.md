@@ -31,5 +31,5 @@ This section highlights the advanced source code control functionality in the So
 - [Removal of Source Control Information from .Proj and .Sln Files](../../extensibility/internals/removal-of-source-control-information-from-dot-proj-and-dot-sln-files.md)
  Explains how the Source Control Plug-in API Version 1.2 stores information about projects and solutions.
 
-## See Also
+## See also
 - [Getting Started](../../extensibility/internals/getting-started-with-source-control-plug-ins.md)

@@ -5,8 +5,8 @@ ms.topic: conceptual
 helpviewer_keywords:
   - "C#, IntelliSense"
   - "IntelliSense [C#]"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "dotnet"

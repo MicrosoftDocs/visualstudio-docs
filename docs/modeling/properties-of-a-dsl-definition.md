@@ -4,8 +4,8 @@ ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
   - "Domain-Specific Language, definition file"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"
@@ -36,6 +36,6 @@ DslDefinition properties define *domain-specific language* definition properties
 |Minor Version|The incremental minor build number for this domain-specific language definition.|0|
 |Revision|The incremental revision build number for this domain-specific language definition.|0|
 
-## See Also
+## See also
 
 - [Domain-Specific Language Tools Glossary](https://msdn.microsoft.com/ca5e84cb-a315-465c-be24-76aa3df276aa)

@@ -46,5 +46,5 @@ HRESULT EnumExpressionContexts(
 > [!NOTE]
 > This method is called from within the thread of interest. It is up to the implementer to identify the current thread and return an appropriate enumerator.  
   
-## See Also  
+## See also  
  [IProvideExpressionContexts Interface](../../winscript/reference/iprovideexpressioncontexts-interface.md)

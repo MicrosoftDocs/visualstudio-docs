@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "typed datasets, creating"
   - "datasets, creating"
   - "datasets, configuring"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "data-storage"

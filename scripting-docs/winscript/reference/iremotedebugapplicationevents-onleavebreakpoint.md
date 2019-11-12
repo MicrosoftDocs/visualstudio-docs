@@ -43,5 +43,5 @@ HRESULT OnLeaveBreakPoint(
 ## Remarks  
  This method handles an event for leaving a breakpoint.  
   
-## See Also  
+## See also  
  [IRemoteDebugApplicationEvents Interface](../../winscript/reference/iremotedebugapplicationevents-interface.md)

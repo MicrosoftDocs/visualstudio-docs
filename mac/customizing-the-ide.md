@@ -1,6 +1,6 @@
 ---
 title: Customizing the IDE
-description: Visual Studio for Mac can be customized in a variety of ways, allowing users to develop apps in an environment that meets both their efficiency and aesthetic needs. This topic explores the variety of ways Visual Studio for Mac can be adapted to suit your needs.
+description: Visual Studio for Mac can be customized in a variety of ways, allowing users to develop apps in an environment that meets both their efficiency and aesthetic needs. This article explores the variety of ways Visual Studio for Mac can be adapted to suit your needs.
 author: alanjclark
 ms.author: alcl
 ms.date: 05/06/2018
@@ -9,7 +9,7 @@ ms.custom: video
 ---
 # Customizing the IDE
 
-Visual Studio for Mac can be customized in a variety of ways, allowing users to develop apps in an environment that meets their needs for both efficiency and aesthetics. This article explores the variety of ways that Visual Studio for Mac can be adapted to suit your needs.
+Visual Studio for Mac can be customized, allowing users to develop apps in an environment that meets their needs for both efficiency and aesthetics. This article explores the variety of ways that Visual Studio for Mac can be adapted to suit your needs.
 
 ## Dark theme
 
@@ -52,17 +52,21 @@ This information is used to populate standard file headers, such as a license, t
 
 ![Standard Header options](media/customizing-the-ide-image8a.png)
 
-Populated **Name** and **Email** fields will be used in any commit that is made through Version Control in Visual Studio for Mac. If you have not populated these fields, Visual Studio for Mac will prompt you to do so when you try to use Version Control.
+Populated **Name** and **Email** fields will be used in any commit that is made through Version Control in Visual Studio for Mac. If you haven't populated these fields, Visual Studio for Mac will prompt you to do so when you try to use Version Control.
 
 ## Key bindings
 
-Key bindings allow you to adapt your development environment so that you can move more efficiently throughout Visual Studio for Mac. It provides familiar key bindings for many popular IDEs, such as Visual Studio (on Windows), ReSharper, Visual Studio Code, and Xcode.
+Key bindings, or keyboard shortcuts, allow you to adapt your development environment so that you can move more efficiently throughout Visual Studio for Mac. It provides familiar key bindings for many popular IDEs, such as Visual Studio (on Windows), ReSharper, Visual Studio Code, and Xcode.
 
 Key bindings can be set by browsing to **Visual Studio > Preferences > Environment > Key Bindings**, as illustrated by the following image:
 
 ![Set Key bindings](media/customizing-the-ide-image10a.png)
 
 From here you can search for key binding combinations, view conflicting bindings, add new bindings, and edit the existing bindings.
+
+These bindings can also be set during the initial setup of Visual Studio for Mac, via the **Keyboard Selection** screen:
+
+![Set Key bindings, first run](media/ide-tour-2019-keyboard-shortcut.png)
 
 ## Workspace layout
 
@@ -102,7 +106,7 @@ The state of the open pads is represented by a *layout*. The layouts can be  swi
 
 There is always one active layout and any change you make in a layout, such as adding or repositioning a pad, will only change the active layout. Once you close Visual Studio for Mac, the changes you have made will not be saved.
 
-However, it is possible to create a new layout by using the **View > Save Current Layout** menu item. This will add your current layout to the menu so that you can select it at any time:
+However, it is possible to create a new layout by using the **View > Save Current Layout** menu item. This command will add your current layout to the menu so that you can select it at any time:
 
 ![Save Current Layout](media/customizing-the-ide-image6a.png)
 
@@ -110,7 +114,7 @@ However, it is possible to create a new layout by using the **View > Save Curren
 
 Visual Studio for Mac allows you to open text editors side by side, or to have an editor as a detached floating window.
 
-2-column mode can be enabled through the View menu item by selecting **View > Editor Columns > 2 columns**, or by dragging an editor tab to one of the edges of the editor area:
+Two-column mode can be enabled through the View menu item by selecting **View > Editor Columns > 2 columns**, or by dragging an editor tab to one of the edges of the editor area:
 
 ![Two column side-by-side mode](media/customizing-the-ide-sbs.png)
 

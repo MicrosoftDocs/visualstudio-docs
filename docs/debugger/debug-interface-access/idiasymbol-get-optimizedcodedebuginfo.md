@@ -41,5 +41,5 @@ HRESULT get_optimizedCodeDebugInfo(
 |-----------------|-----------------|
 |Header:|dia2.h|
 
-## See Also
+## See also
 - [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)

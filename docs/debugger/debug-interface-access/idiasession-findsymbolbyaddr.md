@@ -54,7 +54,7 @@ IDiaSymbol* pFunc;
 pSession->findSymbolByAddr( isect, offset, SymTagFunction, &pFunc );
 ```
 
-## See Also
+## See also
 - [IDiaSession](../../debugger/debug-interface-access/idiasession.md)
 - [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
 - [SymTagEnum Enumeration](../../debugger/debug-interface-access/symtagenum.md)

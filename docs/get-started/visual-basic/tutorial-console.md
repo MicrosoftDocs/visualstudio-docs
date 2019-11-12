@@ -142,7 +142,7 @@ Let's create an app that prompts you for your name and then displays it along wi
      Console.WriteLine(vbCrLf + "What is your name? ")
      Dim name = Console.ReadLine()
      Dim currentDate = DateTime.Now
-     Console.WriteLine($"{vbCrLf}Hello, {name}, on {currentDate:d} at {currentDate:t}")
+     Console.WriteLine($"{vbCrLf}Hello, {name}, on {currentDate:d} at {currentDate:t}!")
      Console.Write(vbCrLf + "Press any key to exit... ")
      Console.ReadKey(True)
     ```
@@ -202,7 +202,7 @@ Let's create an app that prompts you for your name and then displays it along wi
 
 1. After you apply the language and platform filters, choose the **Console App (.NET Core)** template, and then choose **Next**.
 
-   Then, in the **Configure your new project** window, type or enter *WhatIsYourName* in the **Project name** box. Next, choose **Create**.
+   Then, in the **Configure your new project** window, type or enter *CalculateThis* in the **Project name** box. Next, choose **Create**.
 
 1. Enter the following code between the `Module Program` line and `End Module` line:
 

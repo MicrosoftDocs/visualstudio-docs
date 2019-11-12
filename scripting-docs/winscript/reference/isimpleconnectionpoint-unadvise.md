@@ -43,5 +43,5 @@ HRESULT Unadvise(
 ## Remarks  
  When an advisory connection is terminated, the connection point calls the `Release` method on the pointer that was saved for the connection during the `ISimpleConnectionPoint::Advise` method. That call reverses the `AddRef` that was performed during the `ISimpleConnectionPoint::Advise` when the connection point calls the advisory sink's `QueryInterface`.  
   
-## See Also  
+## See also  
  [ISimpleConnectionPoint Interface](../../winscript/reference/isimpleconnectionpoint-interface.md)

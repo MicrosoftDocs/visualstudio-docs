@@ -18,7 +18,7 @@ manager: jillfra
 ms.workload:
   - "dotnet"
 ---
-# How to: Specify a .NET Framework Version For Debugging (C#, Visual Basic, F#)
+# Specify an older .NET Framework version for debugging (C#, Visual Basic, F#)
 
 The Visual Studio debugger supports debugging older versions of the Microsoft .NET Framework as well as the current version. If you start an application from Visual Studio, the debugger can always identify the correct version of the .NET Framework for the application you are debugging. However, if the application is already running and you start debugging by using **Attach to**, the debugger may not always be able to identify an older version of the .NET Framework. If this happens, you will get an error message that says,
 
@@ -58,5 +58,5 @@ In the rare cases where this error appears, you can set a registry key to indica
 
      If you still get an error message when you start to debug, verify that you have entered the version number correctly in the registry. Also verify that you are using a version of the .NET Framework supported by Visual Studio. The debugger is compatible with the current .NET Framework version and previous versions, but may not be forward compatible with future versions.
 
-## See Also
+## See also
 - [Debugger Settings and Preparation](../debugger/debugger-settings-and-preparation.md)

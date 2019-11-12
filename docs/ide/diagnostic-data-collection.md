@@ -2,7 +2,7 @@
 title: Diagnostic data and system-generated logs
 ms.date: 05/24/2018
 ms.topic: conceptual
-author: gewarren
+author: jillre
 ms.author: michma
 manager: jillfra
 ms.workload:

@@ -6,8 +6,8 @@ ms.technology: "devlang-csharp"
 ms.topic: conceptual
 ms.assetid: 4750d703-6ce4-458a-935a-f35922ad67d6
 caps.latest.revision: 8
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # Walkthrough: Getting Information from a Selected Link

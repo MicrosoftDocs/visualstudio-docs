@@ -1,13 +1,10 @@
 ---
 title: "Step 1: Create a project and add labels to your form"
-ms.date: 05/31/2019
+ms.date: 10/15/2019
 ms.topic: tutorial
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
 ms.assetid: f44e50be-a5f5-4d77-9cff-dd52374c3f74
-ms.devlang:
- - "csharp"
- - "vb"
 author: TerryGLee
 ms.author: tglee
 manager: jillfra
@@ -46,11 +43,11 @@ As the first steps in developing this quiz, you create the project, and you add 
 
    ![View the 'Create a new project' window](../get-started/media/vs-2019/create-new-project-dark-theme.png)
 
-1. On the **Create a new project** window, enter or type *Windows Forms* in the search box.
+1. On the **Create a new project** window, enter or type *Windows Forms* in the search box. Next, choose **Desktop** from the **Project type** list.
 
-1. Choose the **Windows Forms App (.NET Framework)** template, and then choose **Next**.
+   After you apply the **Project type** filter, choose the **Windows Forms App (.NET Framework)** template for either C# or Visual Basic, and then choose **Next**.
 
-   ![Choose the Visual Basic template for the Windows Forms App (.NET Framework)](../get-started/visual-basic/media/vs-2019/vb-create-new-project-search-winforms-filtered.png)
+   ![Choose the either the C# or Visual Basic template for the Windows Forms App (.NET Framework)](./media/create-new-project-search-winforms-filtered.png)
 
    > [!NOTE]
    > If you do not see the **Windows Forms App (.NET Framework)** template, you can install it from the **Create a new project** window. In the **Not finding what you're looking for?** message, choose the **Install more tools and features** link.

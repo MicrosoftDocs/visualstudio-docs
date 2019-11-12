@@ -61,5 +61,5 @@ SCCRTN SccRename(
 ## Remarks
  This function can be used to rename a file or move it from one location to another in the source control system. The source control plug-in should not attempt to access the file on disk. It is the IDE's responsibility to rename the local file.
 
-## See Also
+## See also
 - [Source Control Plug-in API Functions](../extensibility/source-control-plug-in-api-functions.md)

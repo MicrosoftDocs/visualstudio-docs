@@ -62,5 +62,5 @@ HRESULT InterruptScriptThread(
 |`E_POINTER`|An invalid pointer was specified.|  
 |`E_UNEXPECTED`|The call was not expected (for example, the scripting engine has not yet been loaded or initialized).|  
   
-## See Also  
+## See also  
  [IActiveScript](../../winscript/reference/iactivescript.md)

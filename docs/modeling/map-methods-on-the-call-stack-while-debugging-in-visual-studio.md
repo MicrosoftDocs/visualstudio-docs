@@ -23,8 +23,8 @@ helpviewer_keywords:
   - "Call Stack window, show on code map"
   - "debugging [Visual Studio], tracing the call stack visually"
   - "debugging [Visual Studio], visualizing the call stack"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"
@@ -53,7 +53,7 @@ Create a code map to visually trace the call stack while you're debugging. You c
 
   See:
 
-- [Video: Debug visually with Code Map debugger integration (Channel 9)](http://go.microsoft.com/fwlink/?LinkId=293418)
+- [Video: Debug visually with Code Map debugger integration (Channel 9)](https://channel9.msdn.com/Series/Visual-Studio-2012-Premium-and-Ultimate-Overview/Visual-Studio-Ultimate-2012Debug-visually-with-Code-Map-debugger-integration)
 
 - [Map the call stack](#MapStack)
 

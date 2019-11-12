@@ -38,5 +38,5 @@ HRESULT get_thisAdjust ( 
 ## Remarks
  In some multiple inheritance cases the method itself must calculate a true `this` value by adding an offset to `this`.
 
-## See Also
+## See also
 - [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)

@@ -48,6 +48,6 @@ HRESULT GetName(
 ## Remarks  
  This method returns the specified document name.  
   
-## See Also  
+## See also  
  [IDebugDocumentInfo Interface](../../winscript/reference/idebugdocumentinfo-interface.md)   
  [DOCUMENTNAMETYPE Enumeration](../../winscript/reference/documentnametype-enumeration.md)

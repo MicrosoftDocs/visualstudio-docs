@@ -7,8 +7,8 @@ helpviewer_keywords:
   - "load tests, analyzing test results"
   - "load tests, managing test results"
 ms.assetid: 8a4ba300-425d-447c-91d9-c53f4345feee
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # Analyze load test results using the Load Test Analyzer

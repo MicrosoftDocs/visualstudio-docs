@@ -29,7 +29,7 @@ If you cannot use Visual Studio to deploy your [!INCLUDE[ndptecclick](../deploym
 
 - Install *Mage.exe* and *MageUI.exe*.
 
-   *Mage.exe* and *MageUI.exe* are part of the [!INCLUDE[winsdklong](../deployment/includes/winsdklong_md.md)]. You must either have the [!INCLUDE[winsdkshort](../debugger/debug-interface-access/includes/winsdkshort_md.md)] installed or the version of the [!INCLUDE[winsdkshort](../debugger/debug-interface-access/includes/winsdkshort_md.md)] included with Visual Studio. For more information, see [Windows SDK](http://go.microsoft.com/fwlink/?LinkId=158044) on MSDN.
+   *Mage.exe* and *MageUI.exe* are part of the [!INCLUDE[winsdklong](../deployment/includes/winsdklong_md.md)]. You must either have the [!INCLUDE[winsdkshort](../debugger/debug-interface-access/includes/winsdkshort_md.md)] installed or the version of the [!INCLUDE[winsdkshort](../debugger/debug-interface-access/includes/winsdkshort_md.md)] included with Visual Studio. For more information, see [Windows SDK](https://www.microsoft.com/download/details.aspx?id=8279) on MSDN.
 
 - Provide an application to deploy.
 
@@ -52,7 +52,7 @@ If you cannot use Visual Studio to deploy your [!INCLUDE[ndptecclick](../deploym
 
 - Make sure that the application does not have a manifest with UAC information.
 
-   You need to determine whether your application contains a manifest with User Account Control (UAC) information, such as an `<dependentAssembly>` element. To examine an application manifest, you can use the Windows Sysinternals [Sigcheck](http://go.microsoft.com/fwlink/?LinkId=158035) utility.
+   You need to determine whether your application contains a manifest with User Account Control (UAC) information, such as an `<dependentAssembly>` element. To examine an application manifest, you can use the Windows Sysinternals [Sigcheck](/sysinternals/downloads/sigcheck) utility.
 
    If your application contains a manifest with UAC details, you must re-build it without the UAC information. For a C# project in Visual Studio, open the project properties and select the Application tab. In the **Manifest** drop-down list, select **Create application without a manifest**. For a Visual Basic project in Visual Studio, open the project properties, select the Application tab, and click **View UAC Settings**. In the opened manifest file, remove all elements within the single `<asmv1:assembly>` element.
 

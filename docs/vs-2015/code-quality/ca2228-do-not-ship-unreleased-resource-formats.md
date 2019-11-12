@@ -12,8 +12,8 @@ helpviewer_keywords:
   - "DoNotShipUnreleasedResourceFormats"
 ms.assetid: 2c614edc-4e94-4b4f-8067-eea677a75cd9
 caps.latest.revision: 16
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: "wpickett"
 ---
 # CA2228: Do not ship unreleased resource formats

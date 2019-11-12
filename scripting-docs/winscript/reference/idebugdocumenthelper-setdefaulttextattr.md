@@ -43,6 +43,6 @@ HRESULT SetDefaultTextAttr(
 ## Remarks  
  Unless the default attributes are changed by this method, the default attributes for text outside a script block is SOURCETEXT_ATTR_NONSOURCE. The user interface can use this information to mark text outside script blocks as read-only.  
   
-## See Also  
+## See also  
  [IDebugDocumentHelper Interface](../../winscript/reference/idebugdocumenthelper-interface.md)   
  [SOURCE_TEXT_ATTR Enumeration](../../winscript/reference/source-text-attr-enumeration.md)

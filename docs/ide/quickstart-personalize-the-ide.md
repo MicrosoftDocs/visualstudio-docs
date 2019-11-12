@@ -2,8 +2,8 @@
 title: Set color theme and fonts
 ms.date: 11/20/2017
 ms.topic: quickstart
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

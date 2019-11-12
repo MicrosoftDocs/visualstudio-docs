@@ -33,7 +33,7 @@ The process of extending a **Project Property** dialog box is outlined below:
 
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsCfgBrowseObject.GetCfg%2A>, also implemented by the project configuration browse object, returns the <xref:Microsoft.VisualStudio.Shell.Interop.IVsCfg> object.
 
-- A project subtype can determine the appropriate CATIDs for the various extendable objects of the base project at runtime by retrieving the following <xref:Microsoft.VisualStudio.Shell.Interop.__VSHPROPID2> values:
+- A project subtype can determine the appropriate CATIDs for the various extendable objects of the base project at run time by retrieving the following <xref:Microsoft.VisualStudio.Shell.Interop.__VSHPROPID2> values:
 
   - <xref:Microsoft.VisualStudio.Shell.Interop.__VSHPROPID2.VSHPROPID_ExtObjectCATID>
 

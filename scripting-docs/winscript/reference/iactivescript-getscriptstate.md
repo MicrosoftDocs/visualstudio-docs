@@ -36,5 +36,5 @@ HRESULT GetScriptState(
 ## Return Value  
  Returns `S_OK` if successful, or `E_POINTER` if an invalid pointer was specified.  
   
-## See Also  
+## See also  
  [IActiveScript](../../winscript/reference/iactivescript.md)

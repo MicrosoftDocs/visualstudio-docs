@@ -30,8 +30,8 @@ helpviewer_keywords:
   - "service method, called asynchronously[Visual Studio]"
 ms.assetid: d56f12cb-e139-4fec-b3e4-488383356642
 caps.latest.revision: 29
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # Windows Communication Foundation Services and WCF Data Services in Visual Studio

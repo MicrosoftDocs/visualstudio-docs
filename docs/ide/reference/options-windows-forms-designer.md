@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "Windows Forms Designer options"
   - "Options dialog box, Windows Forms Designer"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # Options dialog box: Windows Forms Designer

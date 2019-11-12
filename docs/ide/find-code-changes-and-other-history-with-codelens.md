@@ -4,8 +4,8 @@ ms.date: 11/04/2016
 ms.topic: conceptual
 f1_keywords:
   - "VS.ToolsOptionsPages.Text_Editor.All_Languages.CodeLens"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"
@@ -17,7 +17,7 @@ CodeLens lets you stay focused on your work while you find out what happened to 
 ::: moniker range=">=vs-2019"
 
 > [!NOTE]
-> The source control CodeLens indicators are not available in Visual Studio Community edition.
+> CodeLens is available in Visual Studio Community edition, however, the *source control* indicators are not available in this edition.
 
 ::: moniker-end
 
@@ -211,7 +211,7 @@ You can discover unit tests that exist for your C# or Visual Basic code without 
 
 1. Go to application code that has associated [unit test code](../test/unit-test-your-code.md).
 
-2. If you have not already, build your application to load the CodeLens test indicators. Make sure [discovery by built assemblies](../test/test-explorer-faq.md#assembly-based-discovery) is turned on.
+2. If you have not already, build your application to load the CodeLens test indicators. 
 
 3. Review the tests for the code by pressing **Alt**+**3**.
 
@@ -269,7 +269,7 @@ Turn CodeLens file-level indicators on and off using the chevron icons at the bo
 ::: moniker range=">=vs-2019"
 
 > [!TIP]
-> Source control indicators are not available in Visual Studio Community edition.
+> CodeLens is available in Visual Studio Community edition, however, the *source control* indicators are not available in this edition.
 
 ::: moniker-end
 
@@ -346,8 +346,7 @@ To use the keyboard:
 
 ### Q: My CodeLens test indicators no longer appear in my file when I first open my solution. How can I load them?
 
-**A:** Rebuild your project to get CodeLens test indicators to load in your file. Make sure [discovery by built assemblies](../test/test-explorer-faq.md#assembly-based-discovery
-) is turned on. To improve performance, Visual Studio no longer fetches source information for test indicators when code files are loaded. Test indicators are loaded after a build, or when you navigate to a test by double-clicking on it in **Test Explorer**.
+**A:** Rebuild your project to get CodeLens test indicators to load in your file. To improve performance, Visual Studio no longer fetches source information for test indicators when code files are loaded. Test indicators are loaded after a build, or when you navigate to a test by double-clicking on it in **Test Explorer**.
 
 ## See also
 

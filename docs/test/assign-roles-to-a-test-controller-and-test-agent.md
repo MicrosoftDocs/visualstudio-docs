@@ -9,8 +9,8 @@ helpviewer_keywords:
   - "test controller, walkthrough"
   - "walkthroughs, test controller and test agents"
 ms.assetid: 57ed43ae-4e67-4139-8aec-3e9fceb0a745
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # Assign roles to a test controller and test agent
@@ -91,13 +91,13 @@ This article demonstrates how to create and configure a test setting that uses a
 
 ::: moniker range="vs-2017"
 
-8. On the Test menu, select **Select Test Settings File** and then choose *TestSettingDistributedTestWalkthrough.testsettings*.
+8. On the **Test** menu, select **Test Settings** > **Select Test Settings File** and then choose the *TestSettingDistributedTestWalkthrough.testsettings* file.
 
 ::: moniker-end
 
 ::: moniker range=">=vs-2019"
 
-8. In **Test Explorer**, select the arrow on the **Settings** button, and then select **Select Settings File**. Browse to and select the *TestSettingDistributedTestWalkthrough.testsettings* file.
+8. On the **Test** menu, choose **Select Settings File**. Browse to and select the *TestSettingDistributedTestWalkthrough.testsettings* file.
 
 ::: moniker-end
 

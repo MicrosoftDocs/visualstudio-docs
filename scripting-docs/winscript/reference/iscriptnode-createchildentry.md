@@ -67,6 +67,6 @@ HRESULT CreateChildEntry(
 ## Remarks  
  The `IScriptNode` interface represents a Web page or its elements. The `IScriptEntry` interface (which is derived from `IScriptNode`) represents either a script block or a function object. The `IScriptScriptlet` interface (which is derived from `IScriptEntry`) represents an event handler.  
   
-## See Also  
+## See also  
  [IScriptNode Interface](../../winscript/reference/iscriptnode-interface.md)   
  [IScriptEntry Interface](../../winscript/reference/iscriptentry-interface.md)

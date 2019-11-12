@@ -9,8 +9,8 @@ helpviewer_keywords:
   - "text templates, custom directive hosts"
 ms.assetid: affa3296-854d-47d6-9685-285f6d9ba5dc
 caps.latest.revision: 35
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # Processing Text Templates by using a Custom Host

@@ -48,5 +48,5 @@ HRESULT GetPathName(
 ## Remarks  
  This method returns the full path and file name of the document's source file.  
   
-## See Also  
+## See also  
  [IDebugDocumentHost Interface](../../winscript/reference/idebugdocumenthost-interface.md)

@@ -75,7 +75,7 @@ For more information about Process Lifetime Management and background tasks, see
 
          ![C&#35;&#47;VB debug launch application property](../debugger/media/dbg_csvb_dontlaunchapp.png "DBG_CsVb_DontLaunchApp")
 
-    - For Visual C++ projects, choose **No** from the **Launch application** list.
+    - For C++ projects, choose **No** from the **Launch application** list.
 
          ![C&#43;&#43;&#47;VB Launch application debug property](../debugger/media/dbg_cppjs_dontlaunchapp.png "DBG_CppJs_DontLaunchApp")
 
@@ -103,8 +103,8 @@ For more information about Process Lifetime Management and background tasks, see
 
 4. Choose the **Diagnostic** log.
 
-## See Also
-- [Testing UWP apps with Visual Studio](../test/testing-store-apps-with-visual-studio.md)
-- [Debug apps in Visual Studio](/visualstudio/debugger/debugging-windows-store-and-windows-universal-apps)
+## See also
+- [Testing UWP apps with Visual Studio](/visualstudio/test/create-and-run-unit-tests-for-a-store-app-in-visual-studio)
+- [Debug apps in Visual Studio](debugging-windows-store-and-windows-universal-apps.md)
 - [Application lifecycle](/windows/uwp/launch-resume/app-lifecycle)
 - [Launching, resuming, and multitasking](/windows/uwp/launch-resume/index)

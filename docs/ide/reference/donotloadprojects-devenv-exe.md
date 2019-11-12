@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "Devenv, /DoNotLoadProjects switch"
   - "/DoNotLoadProjects Devenv switch"
   - "DoNotLoadProjects Devenv switch"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

@@ -47,7 +47,7 @@ Light bulbs are icons in the Visual Studio editor that expand to display a set o
 
 5. Add a new class file and name it **LightBulbTest**.
 
-6. Add the following using statements:
+6. Add the following using directives:
 
     ```csharp
     using System;
@@ -222,7 +222,7 @@ Light bulbs are icons in the Visual Studio editor that expand to display a set o
 
      Both classes are alike except that one calls <xref:System.String.ToUpper%2A> and the other calls <xref:System.String.ToLower%2A>. The following steps cover only the uppercase action class, but you must implement both classes. Use the steps for implementing the uppercase action as a pattern for implementing the lowercase action.
 
-3. Add the following using statements for these classes:
+3. Add the following using directives for these classes:
 
     ```csharp
     using Microsoft.VisualStudio.Imaging.Interop;

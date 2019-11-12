@@ -43,5 +43,5 @@ HRESULT CreateApplicationNode(
 ## Remarks  
  The new application node is not visible until it is attached to a parent node.  
   
-## See Also  
+## See also  
  [IDebugApplication Interface](../../winscript/reference/idebugapplication-interface.md)

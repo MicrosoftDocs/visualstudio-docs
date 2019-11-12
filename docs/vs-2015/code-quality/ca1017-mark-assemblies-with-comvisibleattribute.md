@@ -12,8 +12,8 @@ helpviewer_keywords:
   - "CA1017"
 ms.assetid: 4842cb49-8dd8-4e5d-a2d6-ceeaf6c6cf8e
 caps.latest.revision: 21
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: "wpickett"
 ---
 # CA1017: Mark assemblies with ComVisibleAttribute

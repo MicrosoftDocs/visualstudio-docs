@@ -4,8 +4,8 @@ ms.date: 03/19/2019
 ms.technology: vs-ide-general
 ms.custom: get-started
 ms.topic: conceptual
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 dev_langs:
  - CSharp
@@ -40,7 +40,7 @@ Explore Visual Studio further by following along with one of these introductory 
 > [Learn to use the code editor](tutorial-editor.md)
 
 > [!div class="nextstepaction"]
-> [Learn about projects and solutions](tutorial-projects-solutions.md)
+> [Learn about projects and solutions](../tutorial-projects-solutions.md)
 
 ## See also
 

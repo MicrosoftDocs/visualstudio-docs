@@ -65,7 +65,7 @@ ms.workload:
 
      The **AddInUtilities.cs** or **AddInUtilities.vb** file opens in the Code Editor.
 
-3. Add the following statements to the top of the file.
+3. Add the following directives to the top of the file.
 
      [!code-csharp[Trin_AddInInteropWalkthrough#2](../vsto/codesnippet/CSharp/Trin_AddInInteropWalkthrough/AddInUtilities.cs#2)]
      [!code-vb[Trin_AddInInteropWalkthrough#2](../vsto/codesnippet/VisualBasic/Trin_AddInInteropWalkthrough/AddInUtilities.vb#2)]

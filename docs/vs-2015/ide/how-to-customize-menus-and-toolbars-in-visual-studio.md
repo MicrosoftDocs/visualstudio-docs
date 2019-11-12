@@ -25,8 +25,8 @@ helpviewer_keywords:
   - "toolbars [Visual Studio], customizing in the IDE"
 ms.assetid: b570ae2f-5302-45dc-9cc9-8d4d1ad50603
 caps.latest.revision: 31
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # How to: Customize Menus and Toolbars in Visual Studio

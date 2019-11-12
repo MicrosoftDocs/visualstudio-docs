@@ -10,8 +10,8 @@ helpviewer_keywords:
   - "walkthrough [Visual Studio ALM], visualizing code"
   - "walkthrough [Visual Studio ALM], modeling software"
   - "walkthroughs [Visual Studio ALM], modeling software"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"
@@ -234,7 +234,7 @@ See:
 
 - [Validate your system during development](../modeling/validate-your-system-during-development.md)
 
-- [Use version control](http://go.microsoft.com/fwlink/?LinkID=525605)
+- [Use version control](/azure/devops/repos/tfvc/overview?view=azure-devops)
 
 - [Azure Pipelines](/azure/devops/pipelines/index?view=vsts)
 
@@ -472,7 +472,7 @@ Dependency diagrams help you:
 
 |**Category**|**Links**|
 |-|-|
-|**Forums**|- [Visual Studio Visualization & Modeling Tools](http://go.microsoft.com/fwlink/?LinkId=184720)<br />- [Visual Studio Visualization & Modeling SDK (DSL Tools)](http://go.microsoft.com/fwlink/?LinkId=184721)|
+|**Forums**|- [Visual Studio Visualization & Modeling Tools](https://social.msdn.microsoft.com/Forums/en-US/home?forum=vsarch)<br />- [Visual Studio Visualization & Modeling SDK (DSL Tools)](https://social.msdn.microsoft.com/Forums/home?forum=dslvsarchx)|
 
 ## See also
 

@@ -72,7 +72,7 @@ The [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] shell is the pr
 
 - **Toolbox**
 
-## See Also
+## See also
 - <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget>
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchy>
 - <xref:Microsoft.VisualStudio.Shell.Interop.SVsShell>

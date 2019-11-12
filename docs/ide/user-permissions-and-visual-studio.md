@@ -7,8 +7,8 @@ helpviewer_keywords:
   - "user permissions"
   - "administrative privileges"
   - "permissions"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

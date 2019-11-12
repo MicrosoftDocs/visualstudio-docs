@@ -40,5 +40,5 @@ HRESULT OnClose();
 ## Remarks  
  This method handles an application close event.  
   
-## See Also  
+## See also  
  [IRemoteDebugApplicationEvents Interface](../../winscript/reference/iremotedebugapplicationevents-interface.md)

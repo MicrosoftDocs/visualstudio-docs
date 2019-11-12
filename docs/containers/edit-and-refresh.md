@@ -1,13 +1,13 @@
 ---
 title: Debug apps in a local Docker container | Microsoft Docs
 description: Learn how to modify an app that's running in a local Docker container, refresh the container via Edit and Refresh, and then set debugging breakpoints.
+ms.author: ghogen
 author: ghogen
 manager: jillfra
 ms.assetid: 480e3062-aae7-48ef-9701-e4f9ea041382
 ms.topic: conceptual
 ms.workload: multiple
 ms.date: 07/25/2019
-ms.author: ghogen
 ms.technology: vs-azure
 ---
 # Debug apps in a local Docker container
@@ -42,14 +42,14 @@ Docker containers are available for .NET Framework and .NET Core projects. Let's
 [!INCLUDE [create-aspnet5-app](../azure/includes/create-aspnet5-app.md)]
 ::: moniker-end
 ::: moniker range=">= vs-2019"
-[!INCLUDE [create-aspnet5-app-2019](../azure/includes/vs-2019/create-aspnet5-app-2019.md)
+[!INCLUDE [create-aspnet5-app-2019](../azure/includes/vs-2019/create-aspnet5-app-2019.md)]
 ::: moniker-end
 
 ### Edit your code and refresh
 
 To quickly iterate changes, you can start your application in a container. Then, continue to make changes, viewing them as you would with IIS Express.
 
-1. Set **Solution Configuration** to **Debug**. Then, press Ctrl+F5 to build your Docker image and run it locally.
+1. Set **Solution Configuration** to **Debug**. Then, press **Ctrl**+**F5** to build your Docker image and run it locally.
 
     When the container image is built and running in a Docker container, Visual Studio launches the web app in your default browser.
 

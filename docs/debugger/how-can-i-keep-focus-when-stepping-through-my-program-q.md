@@ -29,7 +29,7 @@ ms.workload:
 ## Solution
  If you have a second computer, use remote debugging. You can operate your program on the remote computer while you run the debugger on the host. For more information, see [How to: Select a Remote Computer](/previous-versions/visualstudio/visual-studio-2010/w8wtw2f3(v=vs.100)).
 
-## See Also
+## See also
 - [Debugging Native Code FAQs](../debugger/debugging-native-code-faqs.md)
 - [Attach to Running Processes](../debugger/attach-to-running-processes-with-the-visual-studio-debugger.md)
 - [Debugging Native Code](../debugger/debugging-native-code.md)

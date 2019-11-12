@@ -40,7 +40,7 @@ ms.workload:
 
 - [!INCLUDE[Outlook_14_short](../vsto/includes/outlook-14-short-md.md)] or newer.
 
-  ![link to video](../vsto/media/playvideo.gif "link to video") For a video version of this topic, see [Video how to: Design an Outlook form region](http://go.microsoft.com/fwlink/?LinkID=140824).
+  ![link to video](../vsto/media/playvideo.gif "link to video") For a video version of this topic, see [Video how to: Design an Outlook form region](/previous-versions/visualstudio/visual-studio-2008/cc837160(v=vs.90)).
 
 ## Create a new Outlook VSTO Add-in project
  First create a basic VSTO Add-in project.
@@ -167,7 +167,7 @@ ms.workload:
 - To learn about how to customize the ribbon of an Outlook item, see [Customize a ribbon for Outlook](../vsto/customizing-a-ribbon-for-outlook.md).
 
 ## See also
-- [Access a form region at runtime](../vsto/accessing-a-form-region-at-run-time.md)
+- [Access a form region at run time](../vsto/accessing-a-form-region-at-run-time.md)
 - [Create Outlook form regions](../vsto/creating-outlook-form-regions.md)
 - [Guidelines to create Outlook form regions](../vsto/guidelines-for-creating-outlook-form-regions.md)
 - [Walkthrough: Import a form region that is designed in Outlook](../vsto/walkthrough-importing-a-form-region-that-is-designed-in-outlook.md)

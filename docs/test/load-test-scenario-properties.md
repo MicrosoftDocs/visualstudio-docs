@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "load tests, properties"
   - "load tests, scenarios"
 ms.assetid: 4414a638-1fa2-40ad-b1f4-b99f90b62e62
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # Load test scenario properties

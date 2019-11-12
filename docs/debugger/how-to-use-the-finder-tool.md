@@ -44,7 +44,7 @@ Finder Tool in the Find Window dialog box
 
     If you selected **Properties**, the [Window Properties Dialog Box](../debugger/window-properties-dialog-box.md) opens. If you selected **Messages**, a [Messages View](../debugger/messages-view.md) window opens.
 
-## See Also
+## See also
 - [Spy++ Views](../debugger/spy-increment-views.md)
 - [Using Spy++](../debugger/using-spy-increment.md)
 - [Spy++ Reference](../debugger/spy-increment-reference.md)

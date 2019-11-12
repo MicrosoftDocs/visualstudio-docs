@@ -8,8 +8,8 @@ helpviewer_keywords:
   - customize codebases [Visual Studio]
   - tasks.vs.json file [Visual Studio]
   - launch.vs.json file [Visual Studio]
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"
@@ -250,6 +250,9 @@ You can create tasks for any file or folder by specifying its name in the `appli
    ![Customized Start button](media/customize-start-button.png)
 
    When you choose **F5**, the debugger launches and stops at any breakpoint you may have already set. All the familiar debugger windows are available and functional.
+
+   > [!IMPORTANT]
+   > For additional details about custom build and debug tasks in C++ open folder projects, see [Open Folder support for C++ build systems in Visual Studio](/cpp/build/open-folder-projects-cpp).
 
 ### Specify arguments for debugging
 

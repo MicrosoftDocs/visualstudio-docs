@@ -6,8 +6,8 @@ f1_keywords:
   - "vs.dsltools.dsldesigner.elementmergedirective"
 helpviewer_keywords:
   - "Domain-Specific Language, element merge directives"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"
@@ -310,7 +310,7 @@ You can create a forward merge directive in the Component Model solution. If you
 
      You should not see the Unavailable pointer, and you should be able to drop the new **Input Port** on the existing one. Select the new **Input Port** and drag it to another point on the **Component**.
 
-## See Also
+## See also
 
 - [Navigating and Updating a Model in Program Code](../modeling/navigating-and-updating-a-model-in-program-code.md)
 - [Customizing Tools and the Toolbox](../modeling/customizing-tools-and-the-toolbox.md)

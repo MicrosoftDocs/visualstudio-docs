@@ -43,5 +43,5 @@ HRESULT EnumThreads(
 ## Remarks  
  This method enumerates all threads known to be associated with the application. New threads may be added at any time.  
   
-## See Also  
+## See also  
  [IRemoteDebugApplication Interface](../../winscript/reference/iremotedebugapplication-interface.md)

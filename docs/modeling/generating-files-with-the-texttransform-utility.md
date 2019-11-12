@@ -5,8 +5,8 @@ ms.topic: conceptual
 helpviewer_keywords:
   - "text templates, TextTransform utility"
   - "TextTransform.exe"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"
@@ -19,7 +19,7 @@ TextTransform.exe is a command-line tool that you can use to transform a text te
 > If you want to perform text transformation as part of a build process, consider using the MSBuild text transformation task. For more information, see [Code Generation in a Build Process](../modeling/code-generation-in-a-build-process.md). In a machine on which Visual Studio is installed, you can also write an application or Visual Studio Extension that can transform text templates. For more information, see [Processing Text Templates by using a Custom Host](../modeling/processing-text-templates-by-using-a-custom-host.md).
 
 TextTransform.exe is located in the following directory:
- 
+
 ::: moniker range=">=vs-2019"
 
 **\Program Files (x86)\Microsoft Visual Studio\2019\Professional\Common7\IDE**
@@ -31,7 +31,7 @@ for Professional edition, or
 for Enterprise edition.
 
 ::: moniker-end
- 
+
 ::: moniker range="vs-2017"
 
 **\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE**

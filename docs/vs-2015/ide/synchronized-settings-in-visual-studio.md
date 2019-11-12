@@ -8,8 +8,8 @@ f1_keywords:
   - "VS.ToolsOptionsPages.Environment.RoamingSettings"
 ms.assetid: a3d2ea29-be5d-4012-9820-44b06adbb7dd
 caps.latest.revision: 13
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # Synchronized Settings in Visual Studio

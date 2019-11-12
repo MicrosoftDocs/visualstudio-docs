@@ -7,8 +7,8 @@ helpviewer_keywords:
   - "snippets [Visual Studio], functions"
   - "IntelliSense code snippets, functions"
 ms.assetid: c0a2bf21-8fa5-4457-9281-f599beb53e7d
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

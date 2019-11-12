@@ -33,6 +33,7 @@ A: Refunds will be mailed to the address on file for your subscription. If you h
 
 ## Next steps
 Check out more professional development opportunities in your subscription:
+- [CODE Magazine](vs-code-magazine.md)
 - [Pluralsight](vs-pluralsight.md)
 - [LinkedIn Learning](vs-linkedin-learning.md)
 - [DataCamp](vs-datacamp.md)

@@ -8,8 +8,8 @@ helpviewer_keywords:
   - "ShowWebBrowser command"
   - "View.ShowWebBrowser command"
 ms.assetid: c6a4fbd6-8e9d-45cc-8b2f-93990d065e78
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"
@@ -48,7 +48,7 @@ The following example displays the Microsoft Docs home page in a web browser out
 >View.ShowWebBrowser https://docs.microsoft.com /ext
 ```
 
-## See Also
+## See also
 
 - [Visual Studio Commands](../../ide/reference/visual-studio-commands.md)
 - [Command Window](../../ide/reference/command-window.md)

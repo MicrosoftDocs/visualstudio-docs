@@ -4,8 +4,8 @@ ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
   - "tests and requirements"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"
@@ -149,7 +149,7 @@ Assert (countAfter == countBefore = 1);
 
 3. Add to the test suite, test cases that verify the requirement expressed in the model element.
 
-## See Also
+## See also
 
 - [Create models for your app](../modeling/create-models-for-your-app.md)
 - [Model user requirements](../modeling/model-user-requirements.md)

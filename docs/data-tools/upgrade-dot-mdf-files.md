@@ -9,8 +9,8 @@ helpviewer_keywords:
   - "SQLEXPRESS"
   - "upgrading SQLExpress to SQLExpress"
   - "upgrading to LocalDB"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "data-storage"

@@ -1,5 +1,5 @@
 - name: Deployment documentation
-  href: index.md
+  href: index.yml
 - name: Overview
   items:
   - name: Overview of deployment
@@ -22,8 +22,8 @@
     items:
     - name: Deploy a .NET Core application with the Publish tool
       href: /dotnet/core/deploying/deploy-with-vs
-    - name: Package a desktop app for Microsoft Store (Desktop Bridge)
-      href: /windows/uwp/porting/desktop-to-uwp-packaging-dot-net
+    - name: Package a desktop app for Microsoft Store
+      href: /windows/msix/desktop/desktop-to-uwp-packaging-dot-net
     - name: Deploy a desktop app using ClickOnce
       href: how-to-publish-a-clickonce-application-using-the-publish-wizard.md
     - name: Build ClickOnce applications from the Command Line
@@ -38,14 +38,12 @@
       href: tutorial-import-publish-settings-azure.md
     - name: Continuous deployment of ASP.NET Core to Azure with Git
       href: /aspnet/core/publishing/azure-continuous-deployment
-    - name: Publish to Kubernetes with Visual Studio Kubernetes tools
-      href: ../containers/tutorial-kubernetes-tools.md?toc=/visualstudio/deployment/toc.json
   - name: C++
     items:
     - name: Deploy a C/C++ app
       href: /cpp/ide/walkthrough-deploying-a-visual-cpp-application-by-using-a-setup-project
-    - name: Package a desktop app for Microsoft Store (Desktop Bridge)
-      href: /windows/uwp/porting/desktop-to-uwp-packaging-dot-net
+    - name: Package a desktop app for Microsoft Store
+      href: /windows/msix/desktop/desktop-to-uwp-packaging-dot-net
     - name: Deploy a C++/CLR app using ClickOnce...
       href: /cpp/ide/clickonce-deployment-for-visual-cpp-applications
   - name: UWP
