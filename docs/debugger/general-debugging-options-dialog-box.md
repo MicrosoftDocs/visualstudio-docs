@@ -1,6 +1,6 @@
 ---
 title: "General, Debugging, Options Dialog Box | Microsoft Docs"
-ms.date: "11/09/2018"
+ms.date: "11/12/2019"
 ms.topic: "reference"
 f1_keywords:
   - "vs.debug.options.General"
