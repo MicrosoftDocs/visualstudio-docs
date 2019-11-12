@@ -1,6 +1,6 @@
 ---
 title: "Inspect XAML properties while debugging | Microsoft Docs"
-ms.date: "03/06/2017"
+ms.date: "11/12/2019"
 ms.topic: "conceptual"
 ms.assetid: 390edde4-7b8d-4c89-8d69-55106b7e6b11
 author: "mikejo5000"
@@ -10,7 +10,9 @@ ms.technology: vs-ide-debug
 ms.workload:
   - "uwp"
 ---
-# Inspect XAML properties while debugging
+
+# Inspect XAML properties while debugging 
+
 You can get a real-time view of your running XAML code with the **Live Visual Tree** and the **Live Property Explorer**. These tools give you a tree view of the UI elements of your running XAML application, and show you the runtime properties of any UI element you select.
 
 You can use these tools in the following configurations:
@@ -20,7 +22,8 @@ You can use these tools in the following configurations:
 |Windows Presentation Foundation (4.0 and above) applications|Windows 7 and above|
 |Universal Windows apps|Windows 10 and above, with the [Windows 10 SDK](https://dev.windows.com/en-us/downloads/windows-10-sdk)|
 
-## Looking at Elements in the Live Visual Tree
+## Look at Elements in the Live Visual Tree
+
 Let's get started with a very simple WPF application that has a list view and a button. Every time you click the button, another item is added to the list. Even-numbered items are colored gray, and odd-numbered items are colored yellow.
 
 ### Create the project
@@ -94,8 +97,17 @@ Let's get started with a very simple WPF application that has a list view and a 
    > A yellow border around a property in the **Live Property Explorer** means that the property value is set through a binding, such as `Color = {BindingExpression}`. A green border means that the value is set using a resource, such as `Color = {StaticResource MyBrush}`.
 
    The actual structure of the XAML has a lot of elements that you're probably not directly interested in, and if you don't know the code well you might have a hard time navigating the tree to find what you're looking for. So the **Live Visual Tree** has a couple of ways that let you use the application's UI to help you find the element you want to examine.
+   
+   ::: moniker range=">= vs-2019" 
+   >[!NOTE]
+   > Starting in Visual Studio 2019 version 16.4, the view of XAML elements is simplified by default using the [Just My XAML](../debugger/general-debugging-options-dialog-box.md) feature. You can disable this setting to show all XAML elements.
 
+   **Enable selection in the running application**. You can enable this mode when you select the leftmost button on the **Live Visual Tree** toolbar. With this mode on, you can select a UI element in the application, and the **Live Visual Tree** (and the **Live Property Viewer**) automatically updates to show the node in the tree corresponding to that element, and its properties. Starting in Visual Studio 2019 version 16.4, you can [configure the behavior of element selection](../debugger/general-debugging-options-dialog-box.md).
+   ::: moniker-end
+
+   ::: moniker range="vs-2017" 
    **Enable selection in the running application**. You can enable this mode when you select the leftmost button on the **Live Visual Tree** toolbar. With this mode on, you can select a UI element in the application, and the **Live Visual Tree** (and the **Live Property Viewer**) automatically updates to show the node in the tree corresponding to that element, and its properties.
+   ::: moniker-end
 
    **Display layout adorners in the running application**. You can enable this mode when you select the button that is immediately to the right of the Enable selection button. When **Display layout adorners** is on, it causes the application window to show horizontal and vertical lines along the bounds of the selected object so you can see what it aligns to, as well as rectangles showing the margins. For example, turn both **Enable selection** and **Display layout** on, and select the **Add Item** text block in the application. You should see the text block node in the **Live Visual Tree** and the text block properties in the **Live Property Viewer**, as well as the horizontal and vertical lines on the bounds of the text block.
 
@@ -103,15 +115,8 @@ Let's get started with a very simple WPF application that has a list view and a 
 
    **Preview Selection**. You can enable this mode by selecting the third button from the left on the Live Visual Tree toolbar. This mode shows the XAML where the element was declared, if you have access to the source code of the application. Select **Enable selection** and **Preview selection**, and then you select the button in our test application. The MainWindow.xaml file opens in Visual Studio and the cursor is placed on the line where the button is defined.
 
-::: moniker range=">= vs-2019" 
+## Use XAML tools with running applications
 
-## Configure behavior
-
-Starting in Visual Studio 2019 version 16.4,  
-
-::: moniker-end
-
-## Using XAML tools with running applications
 You can use these XAML tools even when you don't have the source code. When you attach to a running XAML application, you can use the **Live Visual Tree** on the UI elements of that application too. Here's an example, using the same WPF test application we used before.
 
 1. Start the **TestXaml** application in the Release configuration. You cannot attach to a process that is running in a **Debug** configuration.
