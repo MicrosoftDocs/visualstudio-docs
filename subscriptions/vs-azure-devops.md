@@ -19,7 +19,9 @@ When you sign in to Azure DevOps using either the identity that you used for act
 | Subscription Level                                                 |     Channels                                            | Benefit                                                          | Renewable?    |
 |--------------------------------------------------------------------|---------------------------------------------------------|------------------------------------------------------------------|---------------|
 | Visual Studio Enterprise (Standard, monthly cloud)   | VL, Azure, Retail,  selected NFR<sup>1</sup>  | Azure Boards & Repos (Basic), Azure Test Plans, Azure Pipelines (self-hosted)       |  Yes          |
-| Visual Studio Professional (Standard, monthly cloud) | VL, Azure, Retail,                                        | Azure Boards & Repos (Basic)                                                            |  Yes          |
+| Visual Studio Enterprise with GitHub Enterprise   | VL| Azure Boards & Repos (Basic), Azure Test Plans, Azure Pipelines (self-hosted)       |  Yes          |
+| Visual Studio Professional (Standard, monthly cloud) | VL, Azure, Retail                                        | Azure Boards & Repos (Basic)                                                            |  Yes          |
+| Visual Studio Professional with GitHub Enterprise | VL| Azure Boards & Repos (Basic)                                                            |  Yes          |
 | Visual Studio Test Professional (Standard)                         | VL, Retail                                              | Azure Boards & Repos (Basic), Azure Test Plans                                              |  Yes          |
 | MSDN Platforms (Standard)                                          | VL, Retail                                              | Azure Boards & Repos (Basic), Azure Test Plans                                              |  Yes          |
 ||
@@ -44,3 +46,5 @@ Learn more about Azure DevOps features:
 - [Azure Boards & Repos (Basic)](https://azure.microsoft.com/services/devops/compare-features/)
 - [Azure Test Plans](https://marketplace.visualstudio.com/items?itemName=ms.vss-testmanager-web)
 - [Azure Artifacts](https://marketplace.visualstudio.com/items?itemName=ms.feed)
+
+Learn how to activate your [Azure DevTest individual credit](vs-azure.md).
