@@ -20,7 +20,7 @@ ms.workload:
   [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] incorporates the following features to help enhance the security of SharePoint applications.
 
 ## Safe control entries
- Every SharePoint project item created in [!include[vsprvs](../sharepoint/includes/vsprvs-md.md)] has a **Safe Control Entries** property that represents a safe controls collection. Its **Safe** subproperty enables you to specify the controls that you consider secure. For more information, see [Provide package and deployment information in project items](../sharepoint/providing-packaging-and-deployment-information-in-project-items.md) and [Specifying Safe Web Parts](/previous-versions/office/developer/sharepoint2003/dd583154(v=office.11)#sharepoint_northwindwebparts_topic19).
+ Every SharePoint project item created in [!include[vsprvs](../sharepoint/includes/vsprvs-md.md)] has a **Safe Control Entries** property that represents a safe controls collection. Its **Safe** subproperty enables you to specify the controls that you consider secure. For more information, see [Provide package and deployment information in project items](../sharepoint/providing-packaging-and-deployment-information-in-project-items.md) and [Specifying Safe Web Parts](/previous-versions/office/developer/sharepoint2003/dd583154(v=office.11)#specifying-safe-web-parts).
 
 ## AllowPartiallyTrustedCallers attribute
  By default, only applications that are fully trusted by the runtime code access security (CAS) system can access a shared managed code assembly. Marking a fully trusted assembly with the AllowPartiallyTrustedCallers attribute allows partially trusted assemblies to access it.
