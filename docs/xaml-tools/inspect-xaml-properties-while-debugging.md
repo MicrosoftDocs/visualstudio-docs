@@ -107,7 +107,7 @@ Let's get started with a very simple WPF application that has a list view and a 
 
    Select the first list box item in the **Live Visual Tree** and click the **Show Properties** icon on the toolbar. The **Live Property Explorer** should appear. Note that the **Content** field is "Item1", and the **Background** > **Color** field is **#FFFFFFE0**.
    
-1. Go back to the **Live Visual Tree** and select the second list box item. The **Live Property Explorer** should show that the **Content** field is "Item2", and the **Background** > **Color** field is **#FFFFFFE0** (depending on theme).
+1. Go back to the **Live Visual Tree** and select the second list box item. The **Live Property Explorer** should show that the **Content** field is "Item2", and the **Background** > **Color** field is **#FFD3D3D3** (depending on theme).
 
    > [!NOTE]
    > A yellow border around a property in the **Live Property Explorer** means that the property value is set through a binding, such as `Color = {BindingExpression}`. A green border means that the value is set using a resource, such as `Color = {StaticResource MyBrush}`.
