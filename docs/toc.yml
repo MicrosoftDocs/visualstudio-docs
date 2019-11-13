@@ -575,7 +575,7 @@
     - name: Use the keyboard exclusively
       displayName: accessibility
       href: ide/reference/how-to-use-the-keyboard-exclusively.md
-  - name: Tools for working with specific file types and apps
+  - name: Work with...
     items:
     - name: Windows Forms apps
       items:
@@ -780,7 +780,7 @@
     - name: Design international apps
       displayName: Globalization localization world-ready
       href: ide/globalizing-and-localizing-applications.md
-- name: Compile and build
+- name: Build
   items:
   - name: Overview
     displayName: Compile build
@@ -896,16 +896,16 @@
       href: ide/work-with-multiple-user-accounts.md
     - name: Extend a trial version or update a license
       href: ide/how-to-unlock-visual-studio.md
-- name: Performance of Visual Studio
-  items:
-  - name: Optimize performance
-    href: ide/optimize-visual-studio-performance.md
-  - name: Startup time
-    href: ide/optimize-visual-studio-startup-time.md
-  - name: Load a filtered solution
-    href: ide/filtered-solutions.md
-  - name: Tips and tricks
-    href: ide/visual-studio-performance-tips-and-tricks.md
+  - name: Tuning the performance of Visual Studio
+    items:
+    - name: Optimize performance
+      href: ide/optimize-visual-studio-performance.md
+    - name: Startup time
+      href: ide/optimize-visual-studio-startup-time.md
+    - name: Load a filtered solution
+      href: ide/filtered-solutions.md
+    - name: Tips and tricks
+      href: ide/visual-studio-performance-tips-and-tricks.md
 - name: Accessibility
   items:
   - name: Manage accessibility features
