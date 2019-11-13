@@ -20,7 +20,7 @@ You can use these tools in the following configurations:
 |Type of App|Operating System and Tools|
 |-----------------|--------------------------------|
 |Windows Presentation Foundation (4.0 and above) applications|Windows 7 and above|
-|Universal Windows apps|Windows 10 and above, with the [Windows 10 SDK](https://dev.windows.com/en-us/downloads/windows-10-sdk)|
+|Universal Windows apps|Windows 10 and above, with the [Windows 10 SDK](https://dev.windows.com/downloads/windows-10-sdk)|
 
 ## Look at Elements in the Live Visual Tree
 
