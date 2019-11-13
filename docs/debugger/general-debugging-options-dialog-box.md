@@ -176,7 +176,7 @@ The Live Visual Tree and the Live Property Explore windows will appear when you 
     Starting in Visual Studio 2019 version 16.4, the **Live Visual Tree** by default shows only XAML that is classified as user code. If you disable this option, all generated XAML code is shown in the tool.
 
 - **Turn off selection mode when an element is selected**
-    Starting in Visual Studio 2019 version 16.4, the in-app toolbar element selector button (**Enable selection**) switches off when an element is selected. If you disable this option, element selection stays on untl you click the in-app toolbar button again.
+    Starting in Visual Studio 2019 version 16.4, the in-app toolbar element selector button (**Enable selection**) switches off when an element is selected. If you disable this option, element selection stays on until you click the in-app toolbar button again.
 ::: moniker-end
 
 **Enable Diagnostic Tools while debugging**:
