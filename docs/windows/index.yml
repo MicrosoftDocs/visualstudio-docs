@@ -137,7 +137,7 @@ additionalContent:
       - title: Deploy
         summary: Share your apps and code by using Web Deploy, InstallShield, NuGet, Continuous Integration, and more.
         url: ../deployment/index.yml
-      - title: Version Control
+      - title: Version control
         summary: Share code using version control technologies such as Git and TFVC.
         url: /azure/devops/repos/index
       - title: DevOps
@@ -160,7 +160,7 @@ additionalContent:
         url: ../containers/index.yml
    - title: Workloads
      items:
-        - title: Web and Cloud
+        - title: Web and cloud
           links:
             - text: Web development
               url: /aspnet/
