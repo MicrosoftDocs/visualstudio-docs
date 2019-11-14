@@ -46,8 +46,10 @@ Follow these steps to download and activate Office 365 ProPlus:
 | Subscription Level                                                 |     Channels                                            | Benefit                                                          | Renewable?    |
 |--------------------------------------------------------------------|---------------------------------------------------------|------------------------------------------------------------------|---------------|
 | Visual Studio Enterprise (Standard)   | VL, Azure, Retail| Available       |  Yes          |
+| Visual Studio Enterprise with GitHub Enterprise  | VL | Available       |  Yes          |
 | Visual Studio Enterprise (Standard)   | NFR<sup>1</sup> | Not available       |  N/A          |
 | Visual Studio Professional (Standard) | VL, Azure, Retail                                       | Not available                                                            |  N/A          |
+| Visual Studio Professional with GitHub Enterprise | VL | Not available         |  N/A          |
 | Visual Studio Test Professional (Standard)                         | VL, Retail                                              | Not available                                             |  N/A          |
 | MSDN Platforms (Standard)                                          | VL, Retail                                              | Not available                                              |  N/A          |
 | Visual Studio Enterprise, Visual Studio Professional (monthly cloud) | Azure | Not available | N/A |
