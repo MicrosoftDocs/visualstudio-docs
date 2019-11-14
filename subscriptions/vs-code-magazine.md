@@ -3,7 +3,7 @@ title: The CODE Magazine benefit in Visual Studio subscriptions | Microsoft Docs
 author: evanwindom
 ms.author: lank
 manager: lank
-ms.date: 09/17/2019
+ms.date: 10/13/2019
 ms.topic: conceptual
 description:  Learn about the CODE Magazine benefit included in your Visual Studio subscription.
 ---
@@ -44,7 +44,9 @@ After you complete your subscription order, you'll see a confirmation page, incl
 | Subscription Level                                                 |     Channels                                            | Benefit                                                          | Renewable?    |
 |--------------------------------------------------------------------|---------------------------------------------------------|------------------------------------------------------------------|---------------|
 | Visual Studio Enterprise (Standard)   | VL, Azure, Retail,  selected NFR<sup>1</sup> | Available       |  No          |
-| Visual Studio Professional (Standard<sup>2</sup>) | VL, Azure, Retail                                       | Available                                                            |  No          |
+| Visual Studio Enterprise with GitHub Enterprise   | VL| Available       |  No          |
+| Visual Studio Professional (Standard) | VL, Azure, Retail                                       | Available                                                            |  No          |
+| Visual Studio Professional with GitHub Enterprise | VL                                      | Available                                                            |  No          |
 | Visual Studio Test Professional (Standard)                         | VL, Retail                                              | Available                                             |  No          |
 | MSDN Platforms (Standard)                                          | VL, Retail                                              | Available                                              |  No          |
 | Visual Studio Enterprise, Visual Studio Professional (monthly cloud) | Azure | Not available | N/A |
@@ -71,3 +73,4 @@ A:  CODE Magazine collects your address, regardless of whether the subscription 
 ## Next steps
 Check out the rest of the great benefits included with your subscription. Visit [https://my.visualstudio.com/benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs).
 
+If you haven't already activated the Azure DevTest individual credit benefit that comes with your subscription, visit [https://my.visualstudio.com/benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs) and click on the Azure tile in the Tools category to set up your Azure subscription and redeem your Azure DevTest individual credit.
