@@ -1,5 +1,13 @@
-# How can you increase the chances of a performance issue being fixed?
+---
+title: How can you increase the chances of a performance issue being fixed
+description: Addtional information and best practices for submitting performance issues in Visual Studio
+author: {github-id}        # seaniyer 
+ms.author: {ms-alias}      # seiyer
+ms.date: {@date}           # the date - will be auto-populated when template is first applied 
+ms.topic: reference  # the type of article
+---
 
+# How can you increase the chances of a performance issue being fixed?
 
 The "[Report a problem](https://aka.ms/vs-rap)" tool is widely used by Visual Studio users to report a range of problems. The Visual Studio team spots crash and slowness trends in user feedback and addresses issues impacting a broad swath of users. The more actionable a specific feedback ticket is, the more likely it will be diagnosed and resolved quickly by the product team. This document describes the best practices while reporting crash or slowness issues to make them more actionable.
 
@@ -28,7 +36,7 @@ follow the feedback steps specific to that case.
 -   [Crashes:](#Crashes)
     A crash occurs when the process (Visual Studio) terminates unexpectedly.
 
--   [Hangs:](#Hangs) VS becomes unresponsive for an extended period of time.
+-   [Unresponsiveness:](#Unresponsiveness) VS becomes unresponsive for an extended period of time.
 
 -   [Slowness issues:](#Slowness-and-High-CPU-Issues) Any specific action in VS is slower than desired
 
@@ -67,6 +75,7 @@ and be sure to include:
 
 If you're not sure what's causing your crashes or they seem random, then you can capture dumps locally each time Visual Studio crashes and attach those to separate feedback items. To save dumps locally when Visual Studio crashes, run the following commands in an administrator command window:
 
+```
 reg add "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\Windows Error
 Reporting\\LocalDumps\\devenv.exe"
 
@@ -78,17 +87,18 @@ Reporting\\LocalDumps\\devenv.exe" /v DumpCount /t REG_DWORD /d 2
 
 reg add "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\Windows Error
 Reporting\\LocalDumps\\devenv.exe" /v DumpFolder /t REG_SZ /d "C:\\CrashDumps"
+```
 
 Customize the dump count and dump folder as appropriate. Find more information
 on these settings
 [here](https://docs.microsoft.com/windows/win32/wer/collecting-user-mode-dumps?redirectedfrom=MSDN).
 
-⚠️ Dumps captured using Task Manager are likely to be of the wrong bitness, which makes them less usable. The procedure described above is the
+> [!NOTE] Dumps captured using Task Manager are likely to be of the wrong bitness, which makes them less usable. The procedure described above is the
 preferred way for capturing a heap dump. If you do want to use Task Manager,
 close the one that is currently running, launch the 32bit Task Manager
 (%windir%\\syswow64\\taskmgr.exe) and collect a heap dump from there.
 
-⚠️ Each dump file produced by this method will be up to 4 GB in size. Make sure
+> [!NOTE] Each dump file produced by this method will be up to 4 GB in size. Make sure
 to set DumpFolder to a location with adequate drive space or adjust the
 DumpCount appropriately.
 
@@ -111,27 +121,27 @@ attach the appropriate dump.
 > [!NOTE] **Most valuable feedback:** For this case, the most valuable feedback is the
 heap dump captured at the time of the crash.
 
-### Hangs
+### Unresponsiveness
 VS becomes unresponsive for an extended period of time.
 
-**Directly reproducible hangs**
+**Directly reproducible Unresponsiveness**
 
 As described in the corresponding section on crashes, for problems that can be easily reproduced, seen on multiple machines and can be demonstrated in a small sample, the most valuable feedback reports are ones that include steps to
 reproduce the problem, and include sample source code that demonstrates the problem.
 
-**Unknown hangs**
+**Unknown Unresponsiveness**
 
-If a hang manifests itself in an unpredictable fashion, on the next occurrence,
+If an unresponsiveness manifests itself in an unpredictable fashion, on the next occurrence,
 launch a new instance of Visual Studio and report a problem from that instance.
 In the [“Record”
 screen](https://docs.microsoft.com/visualstudio/ide/how-to-report-a-problem-with-visual-studio?view=vs-2019#record-a-repro),
 be sure to select the Visual Studio session that is hung.
 
-⚠️If the Visual Studio instance that is hung was launched in Administrator mode,
+If the Visual Studio instance that is hung was launched in Administrator mode,
 then the second instance would also need to be launched in Administrator mode.
 
 >[!NOTE] **Most valuable feedback:** For this case, the most valuable feedback is the
-heap dump captured at the time of the hang.
+heap dump captured at the time of the Unresponsiveness.
 
 ### Slowness and High CPU Issues
 
@@ -160,8 +170,8 @@ For best results in capturing the performance, follow these steps:
 
 3.  In the new copy of Visual Studio, open the **Report a Problem** tool
 
-4.  Follow the steps in "[How to Report a
-    Problem](https://docs.microsoft.com/visualstudio/ide/how-to-report-a-problem-with-visual-studio-2017)"
+4.  Follow the steps in [How to Report a
+    Problem](https://docs.microsoft.com/visualstudio/ide/how-to-report-a-problem-with-visual-studio-2017)
     until you reach the "Provide a trace and heap dump (optional)" step.
 
 5.  Choose to record the first copy of Visual Studio (the one encountering performance problem) and start recording.
@@ -190,13 +200,13 @@ For best results in capturing the performance, follow these steps:
 
 8.  Submit the feedback.
 
-⚠️ While recording a performance trace, if the slow operation or high CPU you are
+While recording a performance trace, if the slow operation or high CPU you are
 reporting comes to an end, then immediately stop the recording. If too much
 information is collected, the oldest information gets overwritten. If the
 tracing is not stopped soon (within a few seconds) after the interesting
 operation, useful trace data will get overwritten.
 
-⚠️ Do not directly attach performance traces to existing feedback items on
+Do not directly attach performance traces to existing feedback items on
 Developer Community website. Requesting/providing additional information is a
 supported workflow in Visual Studio's built-in Report a Problem tool. If a
 performance trace is required in order to resolve a previous feedback item, we
