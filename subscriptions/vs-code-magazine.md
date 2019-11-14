@@ -23,15 +23,15 @@ The process to set up your CODE Magazine subscription is simple.  Just follow th
    > [!div class="mx-imgBorder"]
    > ![CODE Magazine code retrieved](_img/vs-code-magazine/vs-code-magazine-success.png "Code retrieved successfully")
 4. You'll be redirected to the CODE Magazine landing page. Select your country and choose how you'd like to receive the magazine. 
-> [!NOTE]
-> Visual Studio Dev Essentials members have access to the digital subscription only. 
+   > [!NOTE]
+   > Visual Studio Dev Essentials members have access to the digital subscription only. 
 5. Based on your selections, you'll see a note showing the price of your subscription along with the amount of the coupon that's been applied.
-> [!NOTE]
-> For print subscriptions:
-> - Subscribers outside the United States may incur shipping charges. 
-> - Please allow several weeks for the delivery of your first printed edition.
-   > [!div class="mx-imgBorder"]
-   > ![CODE Magazine subscription details](_img/vs-code-magazine/vs-code-magazine-details.png "Subscription details and price")
+   > [!NOTE]
+   > For print subscriptions:
+   > - Subscribers outside the United States may incur shipping charges. 
+   > - Please allow several weeks for the delivery of your first printed edition.
+      > [!div class="mx-imgBorder"]
+      > ![CODE Magazine subscription details](_img/vs-code-magazine/vs-code-magazine-details.png "Subscription details and price")
 6. Next, you'll need to provide your subscriber information and a delivery address.  (The delivery address is required even for digital subscriptions, as it supports fulfillment, offer selection, and digital access processes.)
 7. If you live outside of the United States and chose to receive a printed magazine subscription, you may be asked to provide a billing address and payment information to cover the costs of shipping. 
 8. You can opt in to CODE HTML Newletter by clicking on the check box.
