@@ -1,7 +1,7 @@
 ---
 title: "Cross-platform mobile development with C++ | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/17/2019"
+ms.date: "11/14/2019"
 ms.technology: vs-ide-mobile
 ms.topic: "conceptual"
 dev_langs:
