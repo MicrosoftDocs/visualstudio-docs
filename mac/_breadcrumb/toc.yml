@@ -4,7 +4,7 @@
   items:
   - name: Visual Studio
     tocHref: /visualstudio/products/
-    topicHref: /visualstudio/products
+    topicHref: /visualstudio/products/?view=vs-2019
     items:
       - name: Mac
         tocHref: /visualstudio/mac/
