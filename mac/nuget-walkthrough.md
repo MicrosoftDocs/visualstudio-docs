@@ -22,7 +22,7 @@ For an intro to using NuGet in Visual Studio for Mac, see [Quickstart: Install a
 
     ![Add new NuGet package context action](media/nuget-walkthrough-packages-menu.png)
 
-2. This launches the **Manage NuGet Packages** window. Ensure that the Source drop-down in the top left corner of the dialog is set to `nuget.org`.
+2. This launches the **Manage NuGet Packages** window. Ensure that the Source drop-down in the top left corner of the dialog is set to `nuget.org`, so that you're searching the central NuGet package repository.
 
     ![List NuGet Packages](media/nuget-walkthrough-add-packages1.png)
 
@@ -66,6 +66,7 @@ Right-click on **Dependencies** to access the context menu and choose **Update**
 
 Update and Restore options are also available at the Solution level, and affect all the projects in the solution.
 
+### Locating outdated packages
 From the solution pad, you can view what version of a package is currently installed and right-click on the package to update.
 
 ![Packages menu with the options to Update, Remove, Refresh](media/nuget-walkthrough-PackageMenu.png)
@@ -93,7 +94,7 @@ Managing packages for a solution is a convenient means to work with multiple pro
 
 ### Consolidate tab
 
-Developers typically consider it bad practice to use different versions of the same NuGet package across different projects in the same solution. When you choose to manage packages for a solution, the Package Manager UI provides a **Consolidate** tab on which you can easily see where packages with distinct version numbers are used by different projects in the solution:
+When working in a solution with multiple projects, it's considered a best practice to make sure that anywhere you use the same NuGet package in each project, you're also using the same version number of that package. Visual Studio for Mac helps make this easier by providing a **Consolidate** tab in the Package Manager UI when you choose to manage packages for a solution. Using this tab, you can easily see where packages with distinct version numbers are used by different projects in the solution:
 
 ![Package Manager UI Consolidate tab](media/nuget-walkthrough-consolidate-tab.png)
 
