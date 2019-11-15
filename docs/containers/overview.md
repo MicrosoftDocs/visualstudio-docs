@@ -52,7 +52,7 @@ With Visual Studio 2019, you can use Docker Compose, Kubernetes, and Service Fab
 > [!NOTE]
 > If you are using the full .NET Framework console project template, when you add Docker support, support for orchestration using Docker Compose is added automatically.
 
-In Visual Studio 2019 version 16.4 and later, the **Containers** window is available, which lets you view running containers, browse available images, view environment variables, logs, and port mappings, inspect the filesystem, attach a debugger, or open a terminal window inside the container environment. See [View and diagnose containers](view-and-diagnose-containers.md).
+In Visual Studio 2019 version 16.4 and later, the **Containers** window is available, which lets you view running containers, browse available images, view environment variables, logs, and port mappings, inspect the filesystem, attach a debugger, or open a terminal window inside the container environment. See [View and diagnose containers and images in Visual Studio](view-and-diagnose-containers.md).
 
 ::: moniker-end
 

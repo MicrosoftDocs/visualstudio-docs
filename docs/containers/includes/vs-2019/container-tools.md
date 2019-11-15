@@ -98,7 +98,7 @@ You can mount the **Containers** window in a convenient place, such as below the
 
 In the window, find your container and step through each tab to view the environment variables, port mappings, logs, and the filesystem.
 
-For more information, see [View and diagnose containers](../../view-and-diagnose-containers.md).
+For more information, see [View and diagnose containers and images in Visual Studio](../../view-and-diagnose-containers.md).
 
 ## Publish Docker images
 
