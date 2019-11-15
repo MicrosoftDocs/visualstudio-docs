@@ -1422,7 +1422,7 @@
   - name: Report a problem
     items:
     - name: How to report a problem
-        href: ide/how-to-report-a-problem-with-visual-studio.md
+      href: ide/how-to-report-a-problem-with-visual-studio.md
     - name: Report a problem states and FAQ
       displayName: Developer Community
       href: ide/report-a-problem.md
