@@ -10,7 +10,7 @@ manager: jillfra
 ms.workload:
   - "multiple"
 ---
-# Overview: Report a Problem
+# Report a problem with Visual Studio
 
 The Report a Problem tool enables the Visual Studio developer community to submit issues. Each one of your problem reports becomes a work item in our core engineering system, empowering you to engage directly with our product teams to help us identify and resolve impactful issues. Your feedback submitted with rich diagnostic information is critical to improving the Visual Studio product family. We really appreciate you taking the time to report problems.
 
