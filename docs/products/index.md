@@ -6,6 +6,7 @@ description: Explore the Visual Studio family of products.
 ms.topic: hub-page
 ms.date: 07/02/2019
 searchScope: []
+monikerRange: ">= vs-2017||>= vsmac-2017"
 ---
 <!-- markdownlint-disable MD033 -->
 <div id="main" class="v2">
