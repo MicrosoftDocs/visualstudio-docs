@@ -677,7 +677,7 @@
     },
     {
       "source_path": "docs/debugger/gpu-usage.md",
-      "redirect_url": "/visualstudio/debugger/graphics/gpu-usage",
+      "redirect_url": "/visualstudio/profiling/gpu-usage",
       "redirect_document_id": false
     },
     {
@@ -777,7 +777,7 @@
     },
     {
       "source_path": "docs/debugger/how-to-use-graphics-diagnostics-with-an-arm-device.md",
-      "redirect_url": "/visualstudio/debugger/graphics/how-to-use-graphics-diagnostics-with-an-arm-device",
+      "redirect_url": "/visualstudio/debugger/graphics/graphics-diagnostics-examples",
       "redirect_document_id": false
     },
     {
@@ -952,7 +952,7 @@
     },
     {
       "source_path": "docs/debugger/xaml-edit-and-continue.md",
-      "redirect_url": "/visualstudio/debugger/xaml-hot-reload",
+      "redirect_url": "/visualstudio/xaml-tools/xaml-hot-reload",
       "redirect_document_id": false
     },
     {
@@ -1049,6 +1049,21 @@
       "source_path": "docs/debugger/inspect-xaml-properties-while-debugging.md",
       "redirect_url": "/visualstudio/xaml-tools/inspect-xaml-properties-while-debugging",
       "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/debugger/client-side-script-debugging.md",
+      "redirect_url": "/visualstudio/debugger/debugging-web-applications",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/debugger/how-to-attach-to-script.md",
+      "redirect_url": "/visualstudio/debugger/attach-to-running-processes-with-the-visual-studio-debugger",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/debugger/limitations-on-script-debugging.md",
+      "redirect_url": "/visualstudio/debugger/debugging-web-applications",
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/designers/keyboard-shortcuts-for-xaml-designer.md",
@@ -1182,7 +1197,7 @@
     },
     {
       "source_path": "docs/designers/insert-images-videos-and-audio-clips-in-xaml-designer.md",
-      "redirect_url": "/visualstudio/designers/creating-a-ui-by-using-blend-for-visual-studio",
+      "redirect_url": "/visualstudio/xaml-tools/creating-a-ui-by-using-blend-for-visual-studio",
       "redirect_document_id": false
     },
     {
@@ -1192,7 +1207,7 @@
     },
     {
       "source_path": "docs/designers/keyboard-shortcuts-and-modifier-keys-in-blend.md",
-      "redirect_url": "/visualstudio/designers/keyboard-shortcuts-in-blend",
+      "redirect_url": "/visualstudio/xaml-tools/keyboard-shortcuts-in-blend",
       "redirect_document_id": false
     },
     {
@@ -1202,12 +1217,12 @@
     },
     {
       "source_path": "docs/designers/xelement-class-dynamic-properties.md",
-      "redirect_url": "/visualstudio/designers/attribute-xelement-dynamic-property",
+      "redirect_url": "/dotnet/framework/wpf/data/attribute-xelement-dynamic-property",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/designers/xattribute-class-dynamic-properties.md",
-      "redirect_url": "/visualstudio/designers/value-xattribute-dynamic-property",
+      "redirect_url": "/dotnet/framework/wpf/data/value-xattribute-dynamic-property",
       "redirect_document_id": false
     },
     {
@@ -1232,7 +1247,7 @@
     },
     {
       "source_path": "docs/designers/index.md",
-      "redirect_url": "/visualstudio/designers/designing-user-interfaces",
+      "redirect_url": "/visualstudio/xaml-tools/",
       "redirect_document_id": false
     },
     {
@@ -1252,13 +1267,13 @@
     },
     {
       "source_path": "docs/designers/wpf-data-binding-with-linq-to-xml.md",
-      "redirect_url": "/visualstudio/designers/wpf-data-binding-with-linq-to-xml-overview",
+      "redirect_url": "/dotnet/framework/wpf/data/wpf-data-binding-with-linq-to-xml-overview",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/docker/docker-tools.md",
-      "redirect_url": "/visualstudio/containers/docker-tools",
-      "redirect_document_id": true
+      "redirect_url": "/visualstudio/containers/container-tools",
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/docker/index.md",
@@ -1267,13 +1282,13 @@
     },
     {
       "source_path": "docs/docker/vs-azure-tools-docker-edit-and-refresh.md",
-      "redirect_url": "/visualstudio/containers/vs-azure-tools-docker-edit-and-refresh",
-      "redirect_document_id": true
+      "redirect_url": "/visualstudio/containers/edit-and-refresh",
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/docker/vs-azure-tools-docker-hosting-web-apps-in-docker.md",
-      "redirect_url": "/visualstudio/containers/vs-azure-tools-docker-hosting-web-apps-in-docker",
-      "redirect_document_id": true
+      "redirect_url": "/visualstudio/containers/hosting-web-apps-in-docker",
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/docker/vs-azure-tools-docker-machine-azure-config.md",
@@ -1287,8 +1302,8 @@
     },
     {
       "source_path": "docs/docker/vs-azure-tools-docker-troubleshooting-docker-errors.md",
-      "redirect_url": "/visualstudio/containers/vs-azure-tools-docker-troubleshooting-docker-errors",
-      "redirect_document_id": true
+      "redirect_url": "/visualstudio/containers/troubleshooting-docker-errors",
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/extensibility/accessing-stored-font-and-color-settings.md",
@@ -1572,7 +1587,7 @@
     },
     {
       "source_path": "docs/extensibility/customizing-the-isolated-shell.md",
-      "redirect_url": "/visualstudio/extensibility/shell/customizing-the-isolated-shell",
+      "redirect_url": "https://visualstudio.microsoft.com/vs/older-downloads/isolated-shell/",
       "redirect_document_id": false
     },
     {
@@ -1587,22 +1602,22 @@
     },
     {
       "source_path": "docs/extensibility/distributing-isolated-shell-applications.md",
-      "redirect_url": "/visualstudio/extensibility/shell/distributing-isolated-shell-applications",
+      "redirect_url": "https://visualstudio.microsoft.com/vs/older-downloads/isolated-shell/",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/extensibility/elements-of-the-isolated-shell.md",
-      "redirect_url": "/visualstudio/extensibility/shell/elements-of-the-isolated-shell",
+      "redirect_url": "https://visualstudio.microsoft.com/vs/older-downloads/isolated-shell/",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/extensibility/extending-the-isolated-shell.md",
-      "redirect_url": "/visualstudio/extensibility/shell/extending-the-isolated-shell",
+      "redirect_url": "https://visualstudio.microsoft.com/vs/older-downloads/isolated-shell/",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/extensibility/installing-an-isolated-shell-application.md",
-      "redirect_url": "/visualstudio/extensibility/shell/installing-an-isolated-shell-application",
+      "redirect_url": "https://visualstudio.microsoft.com/vs/older-downloads/isolated-shell/",
       "redirect_document_id": false
     },
     {
@@ -1617,7 +1632,7 @@
     },
     {
       "source_path": "docs/extensibility/isolated-shell-entry-point-parameters-cpp.md",
-      "redirect_url": "/visualstudio/extensibility/shell/isolated-shell-entry-point-parameters-cpp",
+      "redirect_url": "https://visualstudio.microsoft.com/vs/older-downloads/isolated-shell/",
       "redirect_document_id": false
     },
     {
@@ -1642,17 +1657,17 @@
     },
     {
       "source_path": "docs/extensibility/modifying-the-isolated-shell-by-using-the-dot-pkgdef-file.md",
-      "redirect_url": "/visualstudio/extensibility/shell/modifying-the-isolated-shell-by-using-the-dot-pkgdef-file",
+      "redirect_url": "https://devblogs.microsoft.com/visualstudio/whats-a-pkgdef-and-why/",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/extensibility/modifying-the-isolated-shell-by-using-the-dot-pkgundef-file.md",
-      "redirect_url": "/visualstudio/extensibility/shell/modifying-the-isolated-shell-by-using-the-dot-pkgundef-file",
+      "redirect_url": "https://visualstudio.microsoft.com/vs/older-downloads/isolated-shell/",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/extensibility/modifying-the-isolated-shell-by-using-the-dot-vsct-file.md",
-      "redirect_url": "/visualstudio/extensibility/shell/modifying-the-isolated-shell-by-using-the-dot-vsct-file",
+      "redirect_url": "https://visualstudio.microsoft.com/vs/older-downloads/isolated-shell/",
       "redirect_document_id": false
     },
     {
@@ -1662,52 +1677,52 @@
     },
     {
       "source_path": "docs/extensibility/package-guids-of-visual-studio-features.md",
-      "redirect_url": "/visualstudio/extensibility/shell/package-guids-of-visual-studio-features",
+      "redirect_url": "/visualstudio/extensibility/internals/guids-and-ids-of-visual-studio-menus",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/extensibility/servicing-guidelines-for-isolated-shell-applications.md",
-      "redirect_url": "/visualstudio/extensibility/shell/servicing-guidelines-for-isolated-shell-applications",
+      "redirect_url": "https://visualstudio.microsoft.com/vs/older-downloads/isolated-shell/",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/extensibility/shell-isolated-or-integrated.md",
-      "redirect_url": "/visualstudio/extensibility/shell/shell-isolated-or-integrated",
+      "redirect_url": "https://visualstudio.microsoft.com/vs/older-downloads/isolated-shell/",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/extensibility/shell/customizing-the-isolated-shell.md",
-      "redirect_url": "https://vspartner.com/pages/vsshells",
+      "redirect_url": "https://visualstudio.microsoft.com/vs/older-downloads/isolated-shell/",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/extensibility/shell/distributing-isolated-shell-applications.md",
-      "redirect_url": "https://vspartner.com/pages/vsshells",
+      "redirect_url": "https://visualstudio.microsoft.com/vs/older-downloads/isolated-shell/",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/extensibility/shell/elements-of-the-isolated-shell.md",
-      "redirect_url": "https://vspartner.com/pages/vsshells",
+      "redirect_url": "https://visualstudio.microsoft.com/vs/older-downloads/isolated-shell/",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/extensibility/shell/extending-the-isolated-shell.md",
-      "redirect_url": "https://vspartner.com/pages/vsshells",
+      "redirect_url": "https://visualstudio.microsoft.com/vs/older-downloads/isolated-shell/",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/extensibility/shell/index.md",
-      "redirect_url": "/visualstudio/extensibility/shell-isolated-or-integrated",
+      "redirect_url": "/visualstudio/extensibility/internals/visual-studio-shell",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/extensibility/shell/installing-an-isolated-shell-application.md",
-      "redirect_url": "https://vspartner.com/pages/vsshells",
+      "redirect_url": "https://visualstudio.microsoft.com/vs/older-downloads/isolated-shell/",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/extensibility/shell/isolated-shell-entry-point-parameters-cpp.md",
-      "redirect_url": "https://vspartner.com/pages/vsshells",
+      "redirect_url": "https://visualstudio.microsoft.com/vs/older-downloads/isolated-shell/",
       "redirect_document_id": false
     },
     {
@@ -1717,52 +1732,52 @@
     },
     {
       "source_path": "docs/extensibility/shell/modifying-the-isolated-shell-by-using-the-dot-pkgundef-file.md",
-      "redirect_url": "https://vspartner.com/pages/vsshells",
+      "redirect_url": "https://visualstudio.microsoft.com/vs/older-downloads/isolated-shell/",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/extensibility/shell/modifying-the-isolated-shell-by-using-the-dot-vsct-file.md",
-      "redirect_url": "https://vspartner.com/pages/vsshells",
+      "redirect_url": "https://visualstudio.microsoft.com/vs/older-downloads/isolated-shell/",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/extensibility/shell/package-guids-of-visual-studio-features.md",
-      "redirect_url": "https://vspartner.com/pages/vsshells",
+      "redirect_url": "/visualstudio/extensibility/internals/guids-and-ids-of-visual-studio-menus",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/extensibility/shell/servicing-guidelines-for-isolated-shell-applications.md",
-      "redirect_url": "https://vspartner.com/pages/vsshells",
+      "redirect_url": "https://visualstudio.microsoft.com/vs/older-downloads/isolated-shell/",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/extensibility/shell/shell-isolated-or-integrated.md",
-      "redirect_url": "https://vspartner.com/pages/vsshells",
+      "redirect_url": "https://visualstudio.microsoft.com/vs/older-downloads/isolated-shell/",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/extensibility/shell/substitution-strings-used-in-dot-pkgdef-and-dot-pkgundef-files.md",
-      "redirect_url": "https://vspartner.com/pages/vsshells",
+      "redirect_url": "/visualstudio/extensibility/internals/visual-studio-shell",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/extensibility/shell/visual-studio-isolated-shell.md",
-      "redirect_url": "https://vspartner.com/pages/vsshells",
+      "redirect_url": "https://visualstudio.microsoft.com/vs/older-downloads/isolated-shell/",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/extensibility/shell/visual-studio-shell-integrated.md",
-      "redirect_url": "https://vspartner.com/pages/vsshells",
+      "redirect_url": "/visualstudio/extensibility/internals/visual-studio-shell",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/extensibility/shell/walkthrough-creating-a-basic-isolated-shell-application.md",
-      "redirect_url": "https://vspartner.com/pages/vsshells",
+      "redirect_url": "https://visualstudio.microsoft.com/vs/older-downloads/isolated-shell/",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/extensibility/substitution-strings-used-in-dot-pkgdef-and-dot-pkgundef-files.md",
-      "redirect_url": "/visualstudio/extensibility/shell/substitution-strings-used-in-dot-pkgdef-and-dot-pkgundef-files",
+      "redirect_url": "/visualstudio/extensibility/internals/createpkgdef-utility",
       "redirect_document_id": false
     },
     {
@@ -1777,7 +1792,7 @@
     },
     {
       "source_path": "docs/extensibility/visual-studio-shell-integrated.md",
-      "redirect_url": "/visualstudio/extensibility/shell/visual-studio-shell-integrated",
+      "redirect_url": "/visualstudio/extensibility/internals/visual-studio-shell",
       "redirect_document_id": false
     },
     {
@@ -1792,8 +1807,13 @@
     },
     {
       "source_path": "docs/extensibility/walkthrough-creating-a-basic-isolated-shell-application.md",
-      "redirect_url": "/visualstudio/extensibility/walkthrough-creating-a-basic-isolated-shell-application",
+      "redirect_url": "https://visualstudio.microsoft.com/vs/older-downloads/isolated-shell/",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/extensibility/xaml-designer-extensibility-migration.md",
+      "redirect_url": "https://github.com/microsoft/xaml-designer-extensibility/blob/master/documents/xaml-designer-extensibility-migration.md",
+      "redirect_document_id": true
     },
     {
       "source_path": "docs/get-started/csharp/tutorial-projects-solutions.md",
@@ -1902,7 +1922,7 @@
     },
     {
       "source_path": "docs/ide/designing-classes-and-types-class-designer.md",
-      "redirect_url": "/visualstudio/ide/class-designer/designing-classes-and-types",
+      "redirect_url": "/visualstudio/ide/class-designer/designing-and-viewing-classes-and-types",
       "redirect_document_id": false
     },
     {
@@ -1917,12 +1937,12 @@
     },
     {
       "source_path": "docs/ide/get-started-developing-with-visual-studio.md",
-      "redirect_url": "/visualstudio/ide/visual-studio-ide",
+      "redirect_url": "/visualstudio/get-started/visual-studio-ide",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/ide/get-started-with-visual-studio.md",
-      "redirect_url": "/visualstudio/ide/visual-studio-ide",
+      "redirect_url": "/visualstudio/get-started/visual-studio-ide",
       "redirect_document_id": false
     },
     {
@@ -2262,12 +2282,12 @@
     },
     {
       "source_path": "docs/ide/reference/visual-studio-for-applications-reference.md",
-      "redirect_url": "/visualstudio/ide/reference/visual-studio-reference",
+      "redirect_url": "/visualstudio/ide/reference/call-hierarchy",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/ide/reference/visual-studio-reference.md",
-      "redirect_url": "/visualstudio/ide/reference/general-user-interface-elements-visual-studio",
+      "redirect_url": "/visualstudio/ide/reference/call-hierarchy",
       "redirect_document_id": false
     },
     {
@@ -2367,7 +2387,7 @@
     },
     {
       "source_path": "docs/ide/viewing-types-and-relationships-class-designer.md",
-      "redirect_url": "/visualstudio/ide/class-designer/viewing-types-and-relationships",
+      "redirect_url": "/visualstudio/ide/class-designer/designing-and-viewing-classes-and-types",
       "redirect_document_id": false
     },
     {
@@ -2402,7 +2422,7 @@
     },
     {
       "source_path": "docs/ide/visual-studio-samples.md",
-      "redirect_url": "/visualstudio/ide/visual-studio-ide",
+      "redirect_url": "/visualstudio/get-started/visual-studio-ide",
       "redirect_document_id": false
     },
     {
@@ -2432,7 +2452,7 @@
     },
     {
       "source_path": "docs/ide/working-with-class-diagrams-class-designer.md",
-      "redirect_url": "/visualstudio/ide/class-designer/working-with-class-diagrams",
+      "redirect_url": "/visualstudio/ide/class-designer/designing-and-viewing-classes-and-types",
       "redirect_document_id": false
     },
     {
@@ -2537,112 +2557,112 @@
     },
     {
       "source_path": "docs/modeling/add-stereotypes-to-uml-model-elements.md",
-      "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+      "redirect_url": "/visualstudio/modeling/what-s-new-for-design-in-visual-studio",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/modeling/api-reference-for-uml-modeling-extensibility.md",
-      "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+      "redirect_url": "/visualstudio/modeling/what-s-new-for-design-in-visual-studio",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/modeling/attach-reference-strings-to-uml-model-elements.md",
-      "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+      "redirect_url": "/visualstudio/modeling/what-s-new-for-design-in-visual-studio",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/modeling/create-elements-and-relationships-in-uml-models.md",
-      "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+      "redirect_url": "/visualstudio/modeling/what-s-new-for-design-in-visual-studio",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/modeling/customize-your-model-with-profiles-and-stereotypes.md",
-      "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+      "redirect_url": "/visualstudio/modeling/what-s-new-for-design-in-visual-studio",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/modeling/define-a-custom-modeling-toolbox-item.md",
-      "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+      "redirect_url": "/visualstudio/modeling/what-s-new-for-design-in-visual-studio",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/modeling/define-a-gesture-handler-on-a-modeling-diagram.md",
-      "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+      "redirect_url": "/visualstudio/modeling/what-s-new-for-design-in-visual-studio",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/modeling/define-a-menu-command-on-a-modeling-diagram.md",
-      "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+      "redirect_url": "/visualstudio/modeling/what-s-new-for-design-in-visual-studio",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/modeling/define-a-profile-to-extend-uml.md",
-      "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+      "redirect_url": "/visualstudio/modeling/what-s-new-for-design-in-visual-studio",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/modeling/define-a-work-item-link-handler.md",
-      "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+      "redirect_url": "/visualstudio/modeling/what-s-new-for-design-in-visual-studio",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/modeling/define-and-install-a-modeling-extension.md",
-      "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+      "redirect_url": "/visualstudio/modeling/what-s-new-for-design-in-visual-studio",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/modeling/define-packages-and-namespaces.md",
-      "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+      "redirect_url": "/visualstudio/modeling/what-s-new-for-design-in-visual-studio",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/modeling/define-validation-constraints-for-uml-models.md",
-      "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+      "redirect_url": "/visualstudio/modeling/what-s-new-for-design-in-visual-studio",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/modeling/describe-control-flow-with-fragments-on-uml-sequence-diagrams.md",
-      "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+      "redirect_url": "/visualstudio/modeling/what-s-new-for-design-in-visual-studio",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/modeling/display-a-uml-model-on-diagrams.md",
-      "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+      "redirect_url": "/visualstudio/modeling/what-s-new-for-design-in-visual-studio",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/modeling/edit-uml-models-and-diagrams.md",
-      "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+      "redirect_url": "/visualstudio/modeling/what-s-new-for-design-in-visual-studio",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/modeling/edit-uml-sequence-diagrams-by-using-the-uml-api.md",
-      "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+      "redirect_url": "/visualstudio/modeling/what-s-new-for-design-in-visual-studio",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/modeling/export-uml-diagrams-to-image-files.md",
-      "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+      "redirect_url": "/visualstudio/modeling/what-s-new-for-design-in-visual-studio",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/modeling/extend-uml-models-and-diagrams.md",
-      "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+      "redirect_url": "/visualstudio/modeling/what-s-new-for-design-in-visual-studio",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/modeling/generate-code-from-uml-class-diagrams.md",
-      "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+      "redirect_url": "/visualstudio/modeling/what-s-new-for-design-in-visual-studio",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/modeling/generate-files-from-a-uml-model.md",
-      "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+      "redirect_url": "/visualstudio/modeling/what-s-new-for-design-in-visual-studio",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/modeling/get-uml-model-elements-from-idataobject.md",
-      "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+      "redirect_url": "/visualstudio/modeling/what-s-new-for-design-in-visual-studio",
       "redirect_document_id": false
     },
     {
@@ -2652,37 +2672,37 @@
     },
     {
       "source_path": "docs/modeling/install-a-uml-profile.md",
-      "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+      "redirect_url": "/visualstudio/modeling/what-s-new-for-design-in-visual-studio",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/modeling/integrate-uml-models-with-other-models-and-tools.md",
-      "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+      "redirect_url": "/visualstudio/modeling/what-s-new-for-design-in-visual-studio",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/modeling/link-a-use-case-to-documents-and-diagrams.md",
-      "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+      "redirect_url": "/visualstudio/modeling/what-s-new-for-design-in-visual-studio",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/modeling/link-model-elements-and-work-items.md",
-      "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+      "redirect_url": "/visualstudio/modeling/what-s-new-for-design-in-visual-studio",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/modeling/link-uml-model-updates-by-using-transactions.md",
-      "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+      "redirect_url": "/visualstudio/modeling/what-s-new-for-design-in-visual-studio",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/modeling/manage-models-and-diagrams-under-version-control.md",
-      "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+      "redirect_url": "/visualstudio/modeling/what-s-new-for-design-in-visual-studio",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/modeling/navigate-relationships-with-the-uml-api.md",
-      "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+      "redirect_url": "/visualstudio/modeling/what-s-new-for-design-in-visual-studio",
       "redirect_document_id": false
     },
     {
@@ -2697,7 +2717,7 @@
     },
     {
       "source_path": "docs/modeling/navigate-the-uml-model.md",
-      "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+      "redirect_url": "/visualstudio/modeling/what-s-new-for-design-in-visual-studio",
       "redirect_document_id": false
     },
     {
@@ -2717,132 +2737,132 @@
     },
     {
       "source_path": "docs/modeling/open-a-uml-model-by-using-the-visual-studio-api.md",
-      "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+      "redirect_url": "/visualstudio/modeling/what-s-new-for-design-in-visual-studio",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/modeling/programming-with-the-uml-api.md",
-      "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+      "redirect_url": "/visualstudio/modeling/what-s-new-for-design-in-visual-studio",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/modeling/properties-of-associations-on-uml-class-diagrams.md",
-      "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+      "redirect_url": "/visualstudio/modeling/what-s-new-for-design-in-visual-studio",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/modeling/properties-of-attributes-on-uml-class-diagrams.md",
-      "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+      "redirect_url": "/visualstudio/modeling/what-s-new-for-design-in-visual-studio",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/modeling/properties-of-elements-on-uml-activity-diagrams.md",
-      "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+      "redirect_url": "/visualstudio/modeling/what-s-new-for-design-in-visual-studio",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/modeling/properties-of-elements-on-uml-component-diagrams.md",
-      "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+      "redirect_url": "/visualstudio/modeling/what-s-new-for-design-in-visual-studio",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/modeling/properties-of-elements-on-uml-sequence-diagrams.md",
-      "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+      "redirect_url": "/visualstudio/modeling/what-s-new-for-design-in-visual-studio",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/modeling/properties-of-elements-on-uml-use-case-diagrams.md",
-      "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+      "redirect_url": "/visualstudio/modeling/what-s-new-for-design-in-visual-studio",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/modeling/properties-of-operations-on-uml-class-diagrams.md",
-      "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+      "redirect_url": "/visualstudio/modeling/what-s-new-for-design-in-visual-studio",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/modeling/properties-of-types-on-uml-class-diagrams.md",
-      "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+      "redirect_url": "/visualstudio/modeling/what-s-new-for-design-in-visual-studio",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/modeling/read-a-uml-model-in-program-code.md",
-      "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+      "redirect_url": "/visualstudio/modeling/what-s-new-for-design-in-visual-studio",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/modeling/run-unit-tests-on-uml-extensions.md",
-      "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+      "redirect_url": "/visualstudio/modeling/what-s-new-for-design-in-visual-studio",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/modeling/standard-stereotypes-for-uml-models.md",
-      "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+      "redirect_url": "/visualstudio/modeling/what-s-new-for-design-in-visual-studio",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/modeling/uml-activity-diagrams-guidelines.md",
-      "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+      "redirect_url": "/visualstudio/modeling/what-s-new-for-design-in-visual-studio",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/modeling/uml-activity-diagrams-reference.md",
-      "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+      "redirect_url": "/visualstudio/modeling/what-s-new-for-design-in-visual-studio",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/modeling/uml-class-diagrams-guidelines.md",
-      "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+      "redirect_url": "/visualstudio/modeling/what-s-new-for-design-in-visual-studio",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/modeling/uml-class-diagrams-reference.md",
-      "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+      "redirect_url": "/visualstudio/modeling/what-s-new-for-design-in-visual-studio",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/modeling/uml-component-diagrams-guidelines.md",
-      "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+      "redirect_url": "/visualstudio/modeling/what-s-new-for-design-in-visual-studio",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/modeling/uml-component-diagrams-reference.md",
-      "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+      "redirect_url": "/visualstudio/modeling/what-s-new-for-design-in-visual-studio",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/modeling/uml-model-element-types.md",
-      "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+      "redirect_url": "/visualstudio/modeling/what-s-new-for-design-in-visual-studio",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/modeling/uml-sequence-diagrams-guidelines.md",
-      "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+      "redirect_url": "/visualstudio/modeling/what-s-new-for-design-in-visual-studio",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/modeling/uml-sequence-diagrams-reference.md",
-      "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+      "redirect_url": "/visualstudio/modeling/what-s-new-for-design-in-visual-studio",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/modeling/uml-use-case-diagrams-guidelines.md",
-      "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+      "redirect_url": "/visualstudio/modeling/what-s-new-for-design-in-visual-studio",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/modeling/uml-use-case-diagrams-reference.md",
-      "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+      "redirect_url": "/visualstudio/modeling/what-s-new-for-design-in-visual-studio",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/modeling/update-a-uml-model-from-a-background-thread.md",
-      "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+      "redirect_url": "/visualstudio/modeling/what-s-new-for-design-in-visual-studio",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/modeling/validate-your-uml-model.md",
-      "redirect_url": "/visualstudio/modeling/create-uml-modeling-projects-and-diagrams",
+      "redirect_url": "/visualstudio/modeling/what-s-new-for-design-in-visual-studio",
       "redirect_document_id": false
     },
     {
@@ -3127,22 +3147,22 @@
     },
     {
       "source_path": "docs/python/getting-started-with-ptvs-building-a-website-in-azure.md",
-      "redirect_url": "/visualstudio/python/publishing-to-azure",
+      "redirect_url": "/visualstudio/python/publishing-python-web-applications-to-azure-from-visual-studio",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/python/getting-started-with-ptvs-debugging.md",
-      "redirect_url": "/visualstudio/python/debugging",
+      "redirect_url": "/visualstudio/python/debugging-python-in-visual-studio",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/python/getting-started-with-ptvs-editing-code.md",
-      "redirect_url": "/visualstudio/python/code-editing",
+      "redirect_url": "/visualstudio/python/editing-python-code-in-visual-studio",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/python/getting-started-with-ptvs-interactive-python.md",
-      "redirect_url": "/visualstudio/python/interactive-repl",
+      "redirect_url": "/visualstudio/python/python-interactive-repl-in-visual-studio",
       "redirect_document_id": false
     },
     {
@@ -3577,7 +3597,7 @@
     },
     {
       "source_path": "docs/test/testing-store-apps-with-visual-studio.md",
-      "redirect_url": "/visualstudio/test/create-and-run-unit-tests-for-a-store-app-in-visual-studio",
+      "redirect_url": "/visualstudio/test/unit-test-your-code",
       "redirect_document_id": false
     },
     {
@@ -3587,7 +3607,7 @@
     },
     {
       "source_path": "docs/test/troubleshooting-code-metrics-issues.md",
-      "redirect_url": "/visualstudio/code-quality/measuring-complexity-and-maintainability-of-managed-code",
+      "redirect_url": "/visualstudio/code-quality/code-metrics-values",
       "redirect_document_id": false
     },
     {
@@ -3952,7 +3972,7 @@
     },
     {
       "source_path": "docs/welcome-to-visual-studio.md",
-      "redirect_url": "/visualstudio/ide/visual-studio-ide",
+      "redirect_url": "/visualstudio/get-started/visual-studio-ide",
       "redirect_document_id": false
     },
     {
@@ -9403,6 +9423,106 @@
     {
       "source_path": "docs/code-quality/ca1726-use-preferred-terms.md",
       "redirect_url": "/visualstudio/code-quality/ca1726",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/ca2300-do-not-use-insecure-deserializer-binaryformatter.md",
+      "redirect_url": "/visualstudio/code-quality/ca2300",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/ca2301-do-not-call-binaryformatter-deserialize-without-first-setting-binaryformatter-binder.md",
+      "redirect_url": "/visualstudio/code-quality/ca2301",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/ca2302-ensure-binaryformatter-binder-is-set-before-calling-binaryformatter-deserialize.md",
+      "redirect_url": "/visualstudio/code-quality/ca2302",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/ca2305-do-not-use-insecure-deserializer-losformatter.md",
+      "redirect_url": "/visualstudio/code-quality/ca2305",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/ca2310-do-not-use-insecure-deserializer-netdatacontractserializer.md",
+      "redirect_url": "/visualstudio/code-quality/ca2310",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/ca2311-do-not-deserialize-without-first-setting-netdatacontractserializer-binder.md",
+      "redirect_url": "/visualstudio/code-quality/ca2311",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/ca2312-ensure-netdatacontractserializer-binder-is-set-before-deserializing.md",
+      "redirect_url": "/visualstudio/code-quality/ca2312",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/ca2315-do-not-use-insecure-deserializer-objectstateformatter.md",
+      "redirect_url": "/visualstudio/code-quality/ca2315",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/ca3001-review-code-for-sql-injection-vulnerabilities.md",
+      "redirect_url": "/visualstudio/code-quality/ca3001",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/ca3002-review-code-for-xss-vulnerabilities.md",
+      "redirect_url": "/visualstudio/code-quality/ca3002",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/ca3003-review-code-for-file-path-injection-vulnerabilities.md",
+      "redirect_url": "/visualstudio/code-quality/ca3003",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/ca3004-review-code-for-information-disclosure-vulnerabilities.md",
+      "redirect_url": "/visualstudio/code-quality/ca3004",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/ca3005-review-code-for-ldap-injection-vulnerabilities.md",
+      "redirect_url": "/visualstudio/code-quality/ca3005",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/ca3006-review-code-for-process-command-injection-vulnerabilities.md",
+      "redirect_url": "/visualstudio/code-quality/ca3006",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/ca3007-review-code-for-open-redirect-vulnerabilities.md",
+      "redirect_url": "/visualstudio/code-quality/ca3007",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/ca3008-review-code-for-xpath-injection-vulnerabilities.md",
+      "redirect_url": "/visualstudio/code-quality/ca3008",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/ca3009-review-code-for-xml-injection-vulnerabilities.md",
+      "redirect_url": "/visualstudio/code-quality/ca3009",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/ca3010-review-code-for-xaml-injection-vulnerabilities.md",
+      "redirect_url": "/visualstudio/code-quality/ca3010",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/ca3011-review-code-for-dll-injection-vulnerabilities.md",
+      "redirect_url": "/visualstudio/code-quality/ca3011",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/ca3012-review-code-for-regex-injection-vulnerabilities.md",
+      "redirect_url": "/visualstudio/code-quality/ca3012",
       "redirect_document_id": true
     }
   ]

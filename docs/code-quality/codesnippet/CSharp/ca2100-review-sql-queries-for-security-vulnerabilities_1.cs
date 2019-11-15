@@ -44,7 +44,7 @@ namespace SecurityLibrary
       }
    }
 
-   class MalaciousCode
+   class MaliciousCode
    {
       static void Main(string[] args)
       {
