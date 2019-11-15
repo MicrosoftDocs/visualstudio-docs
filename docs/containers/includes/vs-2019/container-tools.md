@@ -88,6 +88,18 @@ CONTAINER ID        IMAGE                  COMMAND               CREATED        
 cf5d2ef5f19a        hellodockertools:dev   "tail -f /dev/null"   2 minutes ago       Up 2 minutes        0.0.0.0:52036->80/tcp, 0.0.0.0:44342->443/tcp   priceless_cartwright
 ```
 
+## Containers window
+
+If you have Visual Studio 2019 version 16.4 or later, you can use the **Containers** window to view running containers on your machine, as well as images that you have available.
+
+Open the **Containers** window by using the search box in the IDE (press **Ctrl**+**Q** to use it), type in `container`, and choose the **Containers** window from the list.
+
+You can mount the **Containers** window in a convenient place, such as below the editor, by moving it around and following the window placement guides.
+
+In the window, find your container and step through each tab to view the environment variables, port mappings, logs, and the filesystem.
+
+For more information, see [View and diagnose containers](view-and-diagnose-containers.md).
+
 ## Publish Docker images
 
 Once the develop and debug cycle of the app is completed, you can create a production image of the app.
