@@ -3,7 +3,7 @@ title: Technical Support Benefit
 author: evanwindom
 ms.author: lank
 manager: lank
-ms.date: 07/29/2019
+ms.date: 11/18/2019
 ms.topic: conceptual
 description: Learn how to activate the technical support benefit included with your Visual Studio subscription.
 ---
@@ -106,7 +106,9 @@ To use your Visual Studio subscription technical support benefit for issues rela
 | Subscription Level                                                 |     Channels                                            | Benefit                                                          | Renewable?    |
 |--------------------------------------------------------------------|---------------------------------------------------------|------------------------------------------------------------------|---------------|
 | Visual Studio Enterprise (Standard)   | VL, Azure, Retail, selected NFR<sup>1</sup> | 4 incidents       |  Yes|
+| Visual Studio Enterprise with GitHub Enterprise | VL | 4 incidents       |  Yes|
 | Visual Studio Professional (Standard) | VL, Azure, Retail, selected NFR<sup>2</sup>                                        | 2 incidents                                                          |Yes         |
+| Visual Studio Professional with GitHub Enterprise | VL                                     | 2 incidents                                                          |Yes         |
 | Visual Studio Test Professional (Standard)                         | VL, Retail                                              | 2 incidents                                             |  Yes         |
 | MSDN Platforms (Standard)                                          | VL, Retail                                              | 2 incidents                                               | Yes         |
 | Visual Studio Enterprise, Visual Studio Professional (monthly cloud) | Azure                                       | Not available                                                           |NA|
@@ -117,3 +119,9 @@ To use your Visual Studio subscription technical support benefit for issues rela
 <sup>2</sup> *Includes: Imagine Standard.*
 
 Not sure which subscription you're using?  Connect to [https://my.visualstudio.com/subscriptions](https://my.visualstudio.com/subscriptions?wt.mc_id=o~msft~docs) to see all the subscriptions assigned to your email address. If you don't see all your subscriptions, you may have one or more assigned to a different email address.  You'll need to sign in with that email address to see those subscriptions.
+
+## Next steps
+Be sure to activate these great benefits to make the most of your Visual Studio subscription:
+- [Visual Studio](vs-ide-benefit.md)
+- [Azure DevOps](vs-azure-devops.md)
+- [Azure DevTest individual credit](vs-azure.md)
