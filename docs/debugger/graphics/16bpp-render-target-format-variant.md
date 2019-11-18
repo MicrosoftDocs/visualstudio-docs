@@ -20,7 +20,7 @@ Sets the pixel format to DXGI_FORMAT_B5G6R5_UNORM for all render targets and bac
 A 16-bpp render target format can reduce memory band with usage when your application has the following conditions:
 - Doesn't require high-fidelity color reproduction.
 - Doesn't require an alpha channel.
-- Doesn't ofent have smooth gradients (which are susceptible to banding artifacts under reduced color fidelity).
+- Doesn't often have smooth gradients (which are susceptible to banding artifacts under reduced color fidelity).
 
 Other strategies to reduce memory bandwidth include:
 - Reduce the amount of overdraw or alpha-blending.
