@@ -81,6 +81,6 @@ Not sure which subscription you're using?  Connect to [https://my.visualstudio.c
 Check out more professional development opportunities in your subscription:
 - [Pluralsight](vs-pluralsight.md)
 - [LinkedIn Learning](vs-linkedin-learning.md)
-- [MSDN Magazine](vs-msdn.md)
+
 
 If you haven't already activated the Azure DevTest individual credit benefit that comes with your subscription, visit [https://my.visualstudio.com/benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs) and click on the Azure tile in the Tools category to set up your Azure subscription and redeem your Azure DevTest individual credit.
