@@ -3,7 +3,7 @@ title: Pluralsight benefit in Visual Studio subscriptions | Microsoft Docs
 author: evanwindom
 ms.author: lank
 manager: lank
-ms.date: 08/02/2019
+ms.date: 11/18/2019
 ms.topic: conceptual
 description:  Learn about the Pluralsight training subscription included with selected Visual Studio subscriptions.
 ---
@@ -52,9 +52,11 @@ The table below details what Pluralsight subscription benefits are available to 
 |                          Subscription Level                          |     Channels      |    Benefit    |   Renewable?   |
 |----------------------------------------------------------------------|-------------------|---------------|----------------|
 |          Visual Studio Enterprise (Standard)           | VL, Azure, Retail |   6 months    | Yes<sup>2</sup> |
+|          Visual Studio Enterprise with GitHub Enterprise          | VL  |   6 months    | Yes<sup>2</sup> |
 |         Visual Studio Professional (Standard)          | VL, Azure, Retail |   3 months    | Yes<sup>2</sup> |
-|              Visual Studio Test Professional (Standard)              |    VL, Retail     |   3 months    | No |
-|                      MSDN Platforms (Standard)                       |    VL, Retail     |   3 months    | No |
+|         Visual Studio Professional with GitHub Enterprise          | VL  |   3 months    | Yes<sup>2</sup> |
+|              Visual Studio Test Professional (Standard)              |    VL, Retail     |   3 months    | Yes<sup>2</sup>  |
+|                      MSDN Platforms (Standard)                       |    VL, Retail     |   3 months    | Yes<sup>2</sup>  |
 | Visual Studio Enterprise, Visual Studio Professional (monthly cloud) |       Azure       | Not available |       NA       |
 |             Visual Studio Enterprise (NFR<sup>1</sup> )              |      Program      | Not available |       NA       |
 ||
@@ -92,3 +94,5 @@ A:  At the end of your free Pluralsight subscription, you may choose to purchase
 
 ## Next steps
 Once you've created your account, you're ready to start training.  Visit [https://www.pluralsight.com](http://www.pluralsight.com) and tap **log in** at the top right corner of the page to start a new course, or return to a course already in progress.
+
+Take advantage of your own development sandbox by activating your [Azure DevTest individual credit](vs-azure.md). 
