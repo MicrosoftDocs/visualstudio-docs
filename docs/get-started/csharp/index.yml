@@ -8,7 +8,7 @@ metadata:
   description: Create C# apps by using Visual Studio.
   ms.custom: seodec18
   ms.topic: landing-page
-  ms.date: 09/27/2019
+  ms.date: 11/19/2019
   author: ghogen
   ms.author: ghogen  
   manager: jillfra
@@ -52,7 +52,13 @@ landingContent:
       - linkListType: video
         links:
           - text: Create an ASP.NET Core app
-            url: tutorial-aspnet-core-ef-step-01.md           
+            url: tutorial-aspnet-core-ef-step-01.md
+      - linkListType: quickstart
+        links:
+          - text: Create a "Hello World" console app
+            url: ../../ide/quickstart-csharp-console.md        
+          - text: Create a "Hello World" ASP.NET Core app
+            url: ../../ide/quickstart-aspnet-core.md                       
        
   # Card
   - title: Learn Visual Studio
