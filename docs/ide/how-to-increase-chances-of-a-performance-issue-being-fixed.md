@@ -1,10 +1,10 @@
 ---
 title: How can you increase the chances of a performance issue being fixed
 description: Addtional information and best practices for submitting performance issues in Visual Studio
-author: {github-id}        # seaniyer 
-ms.author: {ms-alias}      # seiyer
-ms.date: {@date}           # the date - will be auto-populated when template is first applied 
-ms.topic: reference  # the type of article
+author: {github-id}
+ms.author: {ms-alias}
+ms.date: {@date}  
+ms.topic: reference
 ---
 
 # How to increase the chances of a performance issue being fixed
@@ -33,14 +33,14 @@ Described below are problems that are hard to diagnose without good
 diagnostic files. After identifying the case that best describes your issue,
 follow the feedback steps specific to that case.
 
--   [Crashes:](#Crashes)
+-   [Crashes:](#crashes)
     A crash occurs when the process (Visual Studio) terminates unexpectedly.
 
--   [Unresponsiveness:](#Unresponsiveness) VS becomes unresponsive for an extended period of time.
+-   [Unresponsiveness:](#unresponsiveness) VS becomes unresponsive for an extended period of time.
 
--   [Slowness issues:](#Slowness-and-High-CPU-Issues) Any specific action in VS is slower than desired
+-   [Slowness issues:](#slowness-and-high-cpu-issues) Any specific action in VS is slower than desired
 
--   [High CPU:](#Slowness-and-High-CPU-Issues) Extended periods of unexpectedly high CPU usage
+-   [High CPU:](#slowness-and-high-cpu-issues) Extended periods of unexpectedly high CPU usage
 
 ## Crashes
 A crash occurs when the process (Visual Studio) terminates unexpectedly.
