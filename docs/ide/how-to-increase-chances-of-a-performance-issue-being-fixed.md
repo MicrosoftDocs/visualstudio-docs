@@ -1,9 +1,9 @@
 ---
 title: How can you increase the chances of a performance issue being fixed
 description: Addtional information and best practices for submitting performance issues in Visual Studio
-author: {github-id}
-ms.author: {ms-alias}
-ms.date: {@date}  
+author: seaniyer
+ms.author: seiyer
+ms.date: 11/19/2019 
 ms.topic: reference
 ---
 
