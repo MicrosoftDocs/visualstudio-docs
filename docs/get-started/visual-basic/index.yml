@@ -8,7 +8,7 @@ metadata:
   description: Create Visual Basic apps by using Visual Studio.
   ms.custom: seodec18
   ms.topic: landing-page
-  ms.date: 09/20/2019
+  ms.date: 11/19/2019
   ms.author: ghogen
   author: ghogen
   manager: jillfra
@@ -45,6 +45,10 @@ landingContent:
             url: ../../ide/create-a-visual-basic-winform-in-visual-studio.md
           - text: Learn about the Visual Basic language
             url: /dotnet/visual-basic/developing-apps/programming/
+      - linkListType: quickstart
+        links:
+          - text: Create a "Hello World" console app
+            url: ../../ide/quickstart-visual-basic-console.md             
        
   # Card
   - title: Learn Visual Studio

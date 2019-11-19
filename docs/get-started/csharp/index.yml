@@ -57,7 +57,7 @@ landingContent:
         links:
           - text: Create a "Hello World" console app
             url: ../../ide/quickstart-csharp-console.md        
-          - text: Create a "Hello World" ASP.NET Core app
+          - text: Create a "Hello World" web app
             url: ../../ide/quickstart-aspnet-core.md                       
        
   # Card
