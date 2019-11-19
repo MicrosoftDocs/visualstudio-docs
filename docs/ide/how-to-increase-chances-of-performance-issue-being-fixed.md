@@ -11,7 +11,7 @@ ms.topic: reference
 
 The "[Report a problem](https://aka.ms/vs-rap)" tool is widely used by Visual Studio users to report a range of problems. The Visual Studio team spots crash and slowness trends in user feedback and addresses issues impacting a broad swath of users. The more actionable a specific feedback ticket is, the more likely it will be diagnosed and resolved quickly by the product team. This document describes the best practices while reporting crash or slowness issues to make them more actionable.
 
-## General Best Practices
+## General best practices
 
 Visual Studio is a large, complex platform that supports a multitude of
 languages, project types, platforms, and more. How it performs is a function of which components are installed and active in a session, the extensions installed, the Visual Studio settings, machine configuration, and finally the shape of the code that is being edited. Given the number of variables, it is hard to tell whether the problem report from one user has the same underlying issue as a problem report from another user, even though the visible symptom is the same. Given that, here are some best practices to ensure your specific problem report
@@ -50,11 +50,11 @@ A crash occurs when the process (Visual Studio) terminates unexpectedly.
 Directly reproducible crashes are cases that have all the following
 characteristics:
 
-1.  Can be observed by following a known set of steps
+- Can be observed by following a known set of steps
 
-2.  Can be observed on multiple computers (if available)
+- Can be observed on multiple computers (if available)
 
-3.  Can be reproduced in sample code or a project that can be linked to or provided as part of the feedback (if the steps involve opening a project or document)
+- Can be reproduced in sample code or a project that can be linked to or provided as part of the feedback (if the steps involve opening a project or document)
 
 For these issues, follow the steps in "[How to Report a
 Problem](https://docs.microsoft.com/visualstudio/ide/how-to-report-a-problem-with-visual-studio-2017)"
@@ -237,3 +237,11 @@ tool to use. Steps for manually recording performance trace using the PerfView
 tool can be found on the [Recording performance traces with
 PerfView](https://github.com/dotnet/roslyn/wiki/Recording-performance-traces-with-PerfView)
 page.
+
+## See also
+
+* [Visual Studio feedback options](../ide/feedback-options.md)
+* [Report a problem with Visual Studio for Mac](/visualstudio/mac/report-a-problem)
+* [Report a problem with C++](/cpp/how-to-report-a-problem-with-the-visual-cpp-toolset)
+* [Visual Studio Developer Community](https://developercommunity.visualstudio.com/)
+* [Developer Community data privacy](developer-community-privacy.md)
