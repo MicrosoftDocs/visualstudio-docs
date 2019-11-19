@@ -31,6 +31,10 @@ landingContent:
         links:
           - text: Start a guided tour 
             url: visual-studio-ide.md
+      - linkListType: quickstart
+        links:
+          - text: Create a "Hello World" console app
+            url: ../../ide/quickstart-visual-basic-console.md
 
   # Card
   - title: Create Visual Basic apps
@@ -44,11 +48,7 @@ landingContent:
           - text: Create a Windows Forms app
             url: ../../ide/create-a-visual-basic-winform-in-visual-studio.md
           - text: Learn about the Visual Basic language
-            url: /dotnet/visual-basic/developing-apps/programming/
-      - linkListType: quickstart
-        links:
-          - text: Create a "Hello World" console app
-            url: ../../ide/quickstart-visual-basic-console.md             
+            url: /dotnet/visual-basic/developing-apps/programming/      
        
   # Card
   - title: Learn Visual Studio

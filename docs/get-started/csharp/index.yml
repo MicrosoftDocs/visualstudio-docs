@@ -31,6 +31,12 @@ landingContent:
         links:
           - text: Start a guided tour 
             url: visual-studio-ide.md
+      - linkListType: quickstart
+        links:
+          - text: Create a "Hello World" console app
+            url: ../../ide/quickstart-csharp-console.md        
+          - text: Create a "Hello World" web app
+            url: ../../ide/quickstart-aspnet-core.md
 
   # Card
   - title: Create C# apps
@@ -52,13 +58,7 @@ landingContent:
       - linkListType: video
         links:
           - text: Create an ASP.NET Core app
-            url: tutorial-aspnet-core-ef-step-01.md
-      - linkListType: quickstart
-        links:
-          - text: Create a "Hello World" console app
-            url: ../../ide/quickstart-csharp-console.md        
-          - text: Create a "Hello World" web app
-            url: ../../ide/quickstart-aspnet-core.md                       
+            url: tutorial-aspnet-core-ef-step-01.md                       
        
   # Card
   - title: Learn Visual Studio
