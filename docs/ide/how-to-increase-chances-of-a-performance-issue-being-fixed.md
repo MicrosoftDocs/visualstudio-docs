@@ -7,11 +7,11 @@ ms.date: {@date}           # the date - will be auto-populated when template is 
 ms.topic: reference  # the type of article
 ---
 
-# How can you increase the chances of a performance issue being fixed?
+# How to increase the chances of a performance issue being fixed
 
 The "[Report a problem](https://aka.ms/vs-rap)" tool is widely used by Visual Studio users to report a range of problems. The Visual Studio team spots crash and slowness trends in user feedback and addresses issues impacting a broad swath of users. The more actionable a specific feedback ticket is, the more likely it will be diagnosed and resolved quickly by the product team. This document describes the best practices while reporting crash or slowness issues to make them more actionable.
 
-**General Best Practices**
+## General Best Practices
 
 Visual Studio is a large, complex platform that supports a multitude of
 languages, project types, platforms, and more. How it performs is a function of which components are installed and active in a session, the extensions installed, the Visual Studio settings, machine configuration, and finally the shape of the code that is being edited. Given the number of variables, it is hard to tell whether the problem report from one user has the same underlying issue as a problem report from another user, even though the visible symptom is the same. Given that, here are some best practices to ensure your specific problem report
@@ -42,7 +42,7 @@ follow the feedback steps specific to that case.
 
 -   [High CPU:](#Slowness-and-High-CPU-Issues) Extended periods of unexpectedly high CPU usage
 
-### Crashes
+## Crashes
 A crash occurs when the process (Visual Studio) terminates unexpectedly.
 
 **Directly reproducible crashes**
@@ -69,7 +69,8 @@ and be sure to include:
     -   The kind of project (Console Application, ASP.NET, etc.)
 
 
-> [!NOTE] **Most valuable feedback:** For this case, the most valuable feedback is the set of steps to reproduce the issue along with sample source code.
+> [!NOTE]
+> **Most valuable feedback:** For this case, the most valuable feedback is the set of steps to reproduce the issue along with sample source code.
 
 **Unknown crashes**
 
@@ -93,12 +94,14 @@ Customize the dump count and dump folder as appropriate. Find more information
 on these settings
 [here](https://docs.microsoft.com/windows/win32/wer/collecting-user-mode-dumps?redirectedfrom=MSDN).
 
-> [!NOTE] Dumps captured using Task Manager are likely to be of the wrong bitness, which makes them less usable. The procedure described above is the
+> [!NOTE]
+> Dumps captured using Task Manager are likely to be of the wrong bitness, which makes them less usable. The procedure described above is the
 preferred way for capturing a heap dump. If you do want to use Task Manager,
 close the one that is currently running, launch the 32bit Task Manager
 (%windir%\\syswow64\\taskmgr.exe) and collect a heap dump from there.
 
-> [!NOTE] Each dump file produced by this method will be up to 4 GB in size. Make sure
+> [!NOTE] 
+> Each dump file produced by this method will be up to 4 GB in size. Make sure
 to set DumpFolder to a location with adequate drive space or adjust the
 DumpCount appropriately.
 
@@ -118,10 +121,11 @@ attach the appropriate dump.
     Problem](https://docs.microsoft.com/visualstudio/ide/how-to-report-a-problem-with-visual-studio-2017)",
     and attach the heap dump to a new feedback item.
 
-> [!NOTE] **Most valuable feedback:** For this case, the most valuable feedback is the
+> [!NOTE] 
+> **Most valuable feedback:** For this case, the most valuable feedback is the
 heap dump captured at the time of the crash.
 
-### Unresponsiveness
+## Unresponsiveness
 VS becomes unresponsive for an extended period of time.
 
 **Directly reproducible Unresponsiveness**
@@ -140,14 +144,16 @@ be sure to select the Visual Studio session that is hung.
 If the Visual Studio instance that is hung was launched in Administrator mode,
 then the second instance would also need to be launched in Administrator mode.
 
->[!NOTE] **Most valuable feedback:** For this case, the most valuable feedback is the
+>[!NOTE] 
+> **Most valuable feedback:** For this case, the most valuable feedback is the
 heap dump captured at the time of the Unresponsiveness.
 
-### Slowness and High CPU Issues
+## Slowness and High CPU Issues
 
 What makes a slowness or high CPU usage issue most actionable is a performance trace captured while the slow operation or high CPU event is in progress.
 
->[!NOTE] When possible, isolate each scenario in a separate, specific feedback report.
+>[!NOTE] 
+> When possible, isolate each scenario in a separate, specific feedback report.
 For example, if typing and navigation are both slow, follow the steps below once
 per issue. This helps the product team isolate the cause of specific issues.
 
@@ -216,7 +222,8 @@ instruction, please refer to ["Need More Info"
 section](https://docs.microsoft.com/visualstudio/ide/how-to-report-a-problem-with-visual-studio-2017?view=vs-2017#when-further-information-is-needed-need-more-info)
 in Report a Problem tool's document.
 
-> [!NOTE] **Most valuable feedback:** For almost all slowness/high CPU issues, the most
+> [!NOTE] 
+> **Most valuable feedback:** For almost all slowness/high CPU issues, the most
 valuable feedback is a high-level description of what you were trying to do,
 along with the performance trace (\*.etl.zip) which captures the behavior during
 that time.
