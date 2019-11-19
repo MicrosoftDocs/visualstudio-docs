@@ -18,7 +18,7 @@ Targets must be ordered if the input to one target depends on the output of anot
 
 - `InitialTargets`. This `Project` attribute specifies the targets that will run first, even if targets are specified on the command line or in the `DefaultTargets` attribute.
 
-- `DefaultTargets`. This `Project` atttribute specifies which targets are run if a target is not specified explicitly on the command line.
+- `DefaultTargets`. This `Project` attribute specifies which targets are run if a target is not specified explicitly on the command line.
 
 - `DependsOnTargets`. This `Target` attribute specifies targets that must run before this target can run.
 
