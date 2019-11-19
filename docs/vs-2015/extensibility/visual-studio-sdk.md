@@ -61,13 +61,13 @@ The Visual Studio SDK helps you extend Visual Studio features or integrate new f
 ## Other Visual Studio SDK Resources  
  If you have questions about the VSSDK or want to share your experiences developing extensions, you can use the [Visual Studio Extensibility Forum](https://social.msdn.microsoft.com/Forums/vstudio/home?forum=vsx) or the [ExtendVS Group Chat](https://gitter.im/Microsoft/extendvs).  
   
- You can find more information in the [VSX Arcana blog](http://blogs.msdn.com/b/vsx/) and an number of blogs written by Microsoft MVPs:  
+ You can find more information in the [VSX Arcana blog](https://blogs.msdn.microsoft.com/vsx/) and an number of blogs written by Microsoft MVPs:  
   
-- [Favorite Visual Studio Extensions](http://geekswithblogs.net/sdorman/archive/2014/10/05/favorite-visual-studio-extensions.aspx)  
+- [Favorite Visual Studio Extensions](https://scottdorman.blog/2014/10/05/favorite-visual-studio-extensions/)  
   
 - [Visual Studio Extensibility](http://www.visualstudioextensibility.com/overview/vs/)  
   
-- [Extending Visual Studio](http://blog.slaks.net/2013-10-18/extending-visual-studio-part-1-getting-started/)  
+- [Extending Visual Studio](https://blog.slaks.net/2013-10-18/extending-visual-studio-part-1-getting-started/)  
   
 ## See Also  
  [Creating an Extension with a Menu Command](../extensibility/creating-an-extension-with-a-menu-command.md)   

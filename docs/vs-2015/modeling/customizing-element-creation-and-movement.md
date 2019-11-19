@@ -314,4 +314,4 @@ You can allow an element to be dragged onto another, either from the toolbox or 
 ## See Also
  [Navigating and Updating a Model in Program Code](../modeling/navigating-and-updating-a-model-in-program-code.md)
  [Customizing Tools and the Toolbox](../modeling/customizing-tools-and-the-toolbox.md)
- [Circuit Diagrams sample DSL](http://code.msdn.microsoft.com/Visualization-Modeling-SDK-763778e8)
+ [Circuit Diagrams sample DSL](https://docs.microsoft.com/samples/browse/-samples)

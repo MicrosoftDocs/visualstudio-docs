@@ -58,7 +58,7 @@ Rule Id|DA0018|
   
   Use the [Allocations View](../profiling/dotnet-memory-allocations-view.md) to determine the execution path that resulted in these allocations.  
   
-  For more information about how to improve garbage collection performance, see .NET Framework technical article, [Garbage Collector Basics and Performance Hints](http://go.microsoft.com/fwlink/?LinkId=177946) on the MSDN Web site.  
+  For more information about how to improve garbage collection performance, see .NET Framework technical article, [Garbage Collector Basics and Performance Hints](https://go.microsoft.com/fwlink/?LinkId=177946) on the MSDN Web site.  
   
   To gain architectural relief from the virtual memory constraints on the size of the private portion of a process address space, try running this 32-bit process on a 64-bit machine.  A 32-bit process on a 64-bit machine can acquire up to 4 GB of private virtual memory.  
   

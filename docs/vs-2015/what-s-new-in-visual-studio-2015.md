@@ -67,7 +67,7 @@ To find out more about the many improvements and new features in Visual Studio A
  Use C#, Visual Basic, C++ or JavaScript to create these [Universal Windows apps](https://msdn.microsoft.com/library/dn975273.aspx).
 
 ### Web
- ASP.NET 5 is a major update to MVC, WebAPI and SignalR, and runs on Windows, Mac, and Linux.  ASP.NET 5 has been designed from the ground up to provide you with a lean and composable .NET stack for building modern cloud-based apps. The Visual Studio 2015 tooling is more closely integrated with popular web development tools such as Bower and Grunt. To get started, see the many blog posts on the  [NET Web Development and Tools Blog](http://blogs.msdn.com/b/webdev/).
+ ASP.NET 5 is a major update to MVC, WebAPI and SignalR, and runs on Windows, Mac, and Linux.  ASP.NET 5 has been designed from the ground up to provide you with a lean and composable .NET stack for building modern cloud-based apps. The Visual Studio 2015 tooling is more closely integrated with popular web development tools such as Bower and Grunt. To get started, see the many blog posts on the  [NET Web Development and Tools Blog](https://devblogs.microsoft.com/aspnet/).
 
 ### Classic desktop and Windows Store
  Visual Studio 2015 continues to support classic desktop and Windows Store development. As Windows evolves, Visual Studio will evolve along with it.  In Visual Studio 2015, the libraries and languages for .NET as well as C++ have made significant advances that are applicable to all versions of Windows.
@@ -81,12 +81,12 @@ To find out more about the many improvements and new features in Visual Studio A
 
  The C# and Visual Basic languages both contain many smallish improvements in the core language and in IDE support. These improvements all add up to make your .NET coding experience even more intuitive, convenient, and productive.
 
- For more information, see [What's New](https://msdn.microsoft.com/library/1d971dd7-10fc-4692-8dac-30ca308fc0fa) and the [.NET Blog](http://blogs.msdn.com/b/dotnet/).
+ For more information, see [What's New](https://msdn.microsoft.com/library/1d971dd7-10fc-4692-8dac-30ca308fc0fa) and the [.NET Blog](https://devblogs.microsoft.com/dotnet/).
 
 #### C++
  Visual C++ provides significant advances in C++11/14 language conformance, support for cross-platform mobile device development, support for resumable functions and await (currently planned for standardization in C++17), improvements and bug fixes in the C Runtime Library (CRT) and C++ standard library (STL) implementations, resizeable dialogs in MFC, new compiler optimizations, better build performance, new diagnostics capabilities and new productivity tools in the code editor.
 
- For more information, see [What's New for Visual C++](https://msdn.microsoft.com/library/1cc09fad-85a2-43c2-b022-bb99f5fe0ad7) and the [Visual C++ Blog](http://blogs.msdn.com/b/vcblog/).
+ For more information, see [What's New for Visual C++](https://msdn.microsoft.com/library/1cc09fad-85a2-43c2-b022-bb99f5fe0ad7) and the [Visual C++ Blog](https://devblogs.microsoft.com/cppblog/).
 
 ## Device Preview menu bar
  In Universal Windows Platform projects, the device preview menu bar enables you to see how your XAML-based UI will render on various screen sizes.
@@ -115,7 +115,7 @@ To find out more about the many improvements and new features in Visual Studio A
  The Blend experience for designing XAML user interfaces has been significantly enhanced. Blend has been completely redesigned to provide a more intuitive UI, more powerful XAML editing capabilities including IntelliSense, and better integration with Visual Studio. For more information, see [Designing XAML in Visual Studio and Blend for Visual Studio](./designers/designing-xaml-in-visual-studio.md).
 
 ## Cross-platform debugging support
- You can use Visual Studio to create and debug native mobile apps that run on Windows, iOS, and Android devices. Use the [Visual Studio Emulator for Android](http://blogs.msdn.com/b/visualstudioalm/archive/2014/11/12/introducing-visual-studio-s-emulator-for-android.aspx), or connect a device and debug your code directly in Visual Studio.
+ You can use Visual Studio to create and debug native mobile apps that run on Windows, iOS, and Android devices. Use the [Visual Studio Emulator for Android](https://devblogs.microsoft.com/devops/introducing-visual-studios-emulator-for-android/), or connect a device and debug your code directly in Visual Studio.
 
 - **JavaScript / Cordova**. Use the [Visual Studio Tools for Apache Cordova](https://msdn.microsoft.com/library/dn879821\(v=vs.140\).aspx) to build native apps for Windows, iOS, and Android with JavaScript.
 
@@ -123,7 +123,7 @@ To find out more about the many improvements and new features in Visual Studio A
 
 - **C# / Xamarin**. Use [Xamarin](https://msdn.microsoft.com/library/dn879698\(v=vs.140\).aspx) to build native apps for Windows, iOS, and Android in Visual Studio with C#.
 
-     [Debugging](http://developer.xamarin.com/guides/ios/deployment,_testing,_and_metrics/debugging_in_xamarin_ios/) (iOS) and [Debug on Device](http://developer.xamarin.com/guides/android/deployment,_testing,_and_metrics/debugging_with_xamarin_android/) in the [Xamarin developer guides](http://developer.xamarin.com/guides) describe the debugging experience.
+     [Debugging](https://docs.microsoft.com/xamarin/ios/deploy-test/debugging-in-xamarin-ios?tabs=windows) (iOS) and [Debug on Device](https://docs.microsoft.com/xamarin/android/deploy-test/debugging/debug-on-device?tabs=windows) in the [Xamarin developer guides](https://docs.microsoft.com/xamarin/) describe the debugging experience.
 
 - **C++ / Android**. Use the [Visual C++ for Cross-Platform Mobile Development](cross-platform/visual-cpp-for-cross-platform-mobile-development.md) templates along with third-party tools like the [Android NDK](https://developer.android.com/tools/sdk/ndk/index.html) to create native apps for Windows and Android.
 
@@ -134,13 +134,13 @@ For information about what’s new in diagnostics, see [What's New in Profiling 
 The following are new or improved tools that perform different types of diagnosis and analysis on your code:
 
 ### PerfTips
- PerfTips display the execution time of methods during debugging, enabling you to quickly spot bottlenecks without having to invoke the profiler. To get started, see [PerfTips: Performance Information at-a-glance while Debugging with Visual Studio](http://blogs.msdn.com/b/visualstudioalm/archive/2014/08/18/perftips-performance-information-at-a-glance-while-debugging-with-visual-studio.aspx)
+ PerfTips display the execution time of methods during debugging, enabling you to quickly spot bottlenecks without having to invoke the profiler. To get started, see [PerfTips: Performance Information at-a-glance while Debugging with Visual Studio](https://devblogs.microsoft.com/devops/perftips-performance-information-at-a-glance-while-debugging-with-visual-studio/)
 
 ### Error List
  The error list now supports filtering on any column. It also shows a live view of errors, warnings, and code analysis across your entire C# or Visual Basic solution as you type, even when a code change produces thousands of warnings. The new Error List is back-compatible with existing usage. For more information, see [Error List Window](./ide/reference/error-list-window.md).
 
 ### GPU Usage Tool
- The GPU Usage Tool helps you collect and analyze GPU usage data in DirectX apps and games and troubleshoot whether performance bottlenecks are originating in the CPU or GPU. To get started with the tool, see the [Visual C++ team blog post](http://blogs.msdn.com/b/vcblog/archive/2014/09/05/gpu-usage-tool-in-visual-studio-2013-update-4-ctp1.aspx).
+ The GPU Usage Tool helps you collect and analyze GPU usage data in DirectX apps and games and troubleshoot whether performance bottlenecks are originating in the CPU or GPU. To get started with the tool, see the [Visual C++ team blog post](https://devblogs.microsoft.com/cppblog/gpu-usage-tool-in-visual-studio-2013-update-4-ctp1/).
 
 ## Live code analysis (light bulbs)
  The new Roslyn compiler for C# and Visual Basic not only provides faster compile times—it also enables completely new scenarios such as live code analysis, which provide rich and customizable feedback and suggestions directly inside the code editor as you type. In Visual Studio 2015, light bulbs display in the left margin (when using the keyboard) or a tool tip (when hovering over an error with the mouse). The light bulb tells in real time that the compiler (possibly using a custom rule set) has detected an issue in your code and also has a suggestion for how to fix the issue. When you see a light bulb, click on it for actionable suggestions.

@@ -51,7 +51,7 @@ By default, diagnostics are enabled for the Web role. The Azure cloud service pr
 
 ## Settings page
 
-On the **Settings** page, you can add settings to a configuration as name-value pairs. Code running in the role can read the values of your configuration settings at runtime using classes provided by the [Azure Managed Library](http://go.microsoft.com/fwlink?LinkID=171026), specifically, the [GetConfigurationSettingValue](https://msdn.microsoft.com/library/azure/microsoft.windowsazure.serviceruntime.roleenvironment.getconfigurationsettingvalue.aspx) method.
+On the **Settings** page, you can add settings to a configuration as name-value pairs. Code running in the role can read the values of your configuration settings at runtime using classes provided by the [Azure Managed Library](https://go.microsoft.com/fwlink?LinkID=171026), specifically, the [GetConfigurationSettingValue](https://msdn.microsoft.com/library/azure/microsoft.windowsazure.serviceruntime.roleenvironment.getconfigurationsettingvalue.aspx) method.
 
 ### Configuring a connection string for a storage account
 
@@ -91,7 +91,7 @@ You can use the **Local Storage** property page to reserve one or more local sto
 
 ## Certificates page
 
-The **Certificates** property page adds information about your certificates to your service configuration. Note that your certificates are not packaged with your service; you must upload your certificates separately to Azure through the [Azure portal](http://portal.azure.com).
+The **Certificates** property page adds information about your certificates to your service configuration. Note that your certificates are not packaged with your service; you must upload your certificates separately to Azure through the [Azure portal](https://login.microsoftonline.com/common/oauth2/authorize?resource=https%3a%2f%2fmanagement.core.windows.net%2f&response_mode=form_post&response_type=code+id_token&scope=user_impersonation+openid&state=OpenIdConnect.AuthenticationProperties%3do2jtKnWpJII8n7jPaQNdqyGnA79xCjGfN5D9Rt6d-_bnXlSRKUpppvEFcibqnrjDKxfWHX7qyMP9wiJA0WKZYWOAK9SjUhDQF2FmEXLSbLZ2VlEjhAFk0RYfvsEmo20ezZswoe6GpALGgp7K9dgUmVssydXzNJKiYidqmhB-aDBoM-ywJm6MQCqMBF8obqVzHsdCp6L9J7uoykCFq3he_BPQrjCxiU0qSkRVdU0p9F9htN5Nr08-nWesfHpvy85JtWNV74GFLCptWzX9ilaKoR4EDY5ZASiSnm9TxYtzSNQQDUSIWy6APrrmidpG3Zr0hsCcRuyS24Brb3zVZhaBkyiUSmzJFpcSeiN8e3xZubQ&nonce=637097209614955116.ZTdjN2NiMjAtZWI0Yy00MjY1LTg5ZjEtMDVlNjhiZTllZjQ5OTJkNzEzNjctODg2ZS00M2E2LTk3ODQtZjIzOWQxMDQ0MTYy&client_id=c44b4083-3bb0-49c1-b47d-974e53cbdf3c&redirect_uri=https%3a%2f%2fportal.azure.com%2fsignin%2findex%2f%3ffeature.refreshtokenbinding%3dtrue&site_id=501430&client-request-id=c9a8d926-9837-410a-b577-ea6c1a1fc657&x-client-SKU=ID_NET&x-client-ver=1.0.40306.1554&sso_reload=true).
 
 Adding a certificate here adds information about your certificates to your service configuration. Certificates are not packaged with the service; you must upload your certificates separately through the Azure portal.
 

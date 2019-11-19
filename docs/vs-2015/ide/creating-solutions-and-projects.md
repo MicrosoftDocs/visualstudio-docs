@@ -47,7 +47,7 @@ Projects are the logical containers for everything that's needed to build your a
  You must have .NET Framework 3.5 installed on your system to access framework versions earlier than 4.0.
 
 ## Downloading Sample Solutions
- You can use Visual Studio to download and install sample solutions from the [MSDN Code Gallery](http://go.microsoft.com/fwlink/?LinkId=254185).
+ You can use Visual Studio to download and install sample solutions from the [MSDN Code Gallery](https://go.microsoft.com/fwlink/?LinkId=254185).
 
  You can download the samples individually, or you can download a Sample Pack, which contains related samples that share a technology or topic. You'll receive a notification when source code changes are published for any sample that you download.
 

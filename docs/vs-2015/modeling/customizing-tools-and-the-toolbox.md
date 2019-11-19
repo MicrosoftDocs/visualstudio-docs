@@ -247,4 +247,4 @@ using Microsoft.VisualStudio.Modeling.Diagrams;
  [Customizing Copy Behavior](../modeling/customizing-copy-behavior.md)
  [How to: Add a Drag-and-Drop Handler](../modeling/how-to-add-a-drag-and-drop-handler.md)
  [Navigating and Updating a Model in Program Code](../modeling/navigating-and-updating-a-model-in-program-code.md)
- [Circuit Diagrams sample DSL](http://code.msdn.microsoft.com/Visualization-Modeling-SDK-763778e8)
+ [Circuit Diagrams sample DSL](https://docs.microsoft.com/samples/browse/-samples)

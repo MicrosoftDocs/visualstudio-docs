@@ -53,7 +53,7 @@ Use the **Application** page of the **Project Designer** to specify the project'
 
  For a web application project, you must specify **Class Library**.
 
- If you specify the **WinMD File** option, types can be projected into any Windows Runtime programming language. By packaging the project's output as a WinMD file, you can code an application in multiple languages and have code interoperate as if you wrote it all in the same language. You can specify this option for solutions that target the Windows Runtime libraries, including [!INCLUDE[win8_appname_long](../../includes/win8-appname-long-md.md)] apps. For more information, see [Creating Windows Runtime Components in C# and Visual Basic](http://go.microsoft.com/fwlink/?LinkId=231895).
+ If you specify the **WinMD File** option, types can be projected into any Windows Runtime programming language. By packaging the project's output as a WinMD file, you can code an application in multiple languages and have code interoperate as if you wrote it all in the same language. You can specify this option for solutions that target the Windows Runtime libraries, including [!INCLUDE[win8_appname_long](../../includes/win8-appname-long-md.md)] apps. For more information, see [Creating Windows Runtime Components in C# and Visual Basic](https://go.microsoft.com/fwlink/?LinkId=231895).
 
 > [!NOTE]
 > The Windows Runtime can project types so that they appear as native objects in whichever language uses them. For example, JavaScript applications that interact with Windows Runtime use it as a set of JavaScript objects, and C# applications use the library as a collection of .NET objects. By packaging the project’s output as a WinMD file, you can take advantage of the same technology that Windows Runtime uses.

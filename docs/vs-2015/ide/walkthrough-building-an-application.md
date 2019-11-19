@@ -32,7 +32,7 @@ This topic contains the following sections:
 
 ## <a name="BKMK_installapp"></a> Install the Sample Application
 
-You’ll use the **Extensions and Updates** dialog box to find and install the [Introduction to Building WPF Applications](http://code.msdn.microsoft.com/Introduction-to-Building-b8d16419?SRC=VSIDE) sample from the Samples Gallery on the Microsoft website. The Samples Gallery provides a variety of example projects and code that you can download and review as you plan and develop your applications.
+You’ll use the **Extensions and Updates** dialog box to find and install the [Introduction to Building WPF Applications](https://docs.microsoft.com/samples/browse/-samples) sample from the Samples Gallery on the Microsoft website. The Samples Gallery provides a variety of example projects and code that you can download and review as you plan and develop your applications.
 
 #### To install the sample application
 

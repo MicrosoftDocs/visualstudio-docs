@@ -47,7 +47,7 @@ To make sure that code doesn't conflict with its design, validate your code with
 
   To see which versions of Visual Studio support this feature, see [Version support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport).
 
-  You can validate code manually from an open layer diagram in Visual Studio or from a command prompt. You can also validate code automatically when running local builds or Team Foundation Build. See [Channel 9 Video: Design and validate your architecture using layer diagrams](http://go.microsoft.com/fwlink/?LinkID=252073).
+  You can validate code manually from an open layer diagram in Visual Studio or from a command prompt. You can also validate code automatically when running local builds or Team Foundation Build. See [Channel 9 Video: Design and validate your architecture using layer diagrams](https://go.microsoft.com/fwlink/?LinkID=252073).
 
 > [!IMPORTANT]
 > If you want to run layer validation with Team Foundation Build, you must also install the same version of Visual Studio on your build server.

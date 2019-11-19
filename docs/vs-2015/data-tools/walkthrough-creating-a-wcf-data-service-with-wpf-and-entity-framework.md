@@ -39,7 +39,7 @@ This walkthrough demonstrates how to create a simple [!INCLUDE[ss_data_service](
 
 - The Northwind sample database.
 
-     If you do not have this database on your development computer, you can download it from the [Microsoft Download Center](http://go.microsoft.com/fwlink/?LinkID=98088). For instructions, see [Downloading Sample Databases](https://msdn.microsoft.com/library/ef9d69a1-9461-43fe-94bb-7c836754bcb5).
+     If you do not have this database on your development computer, you can download it from the [Microsoft Download Center](https://go.microsoft.com/fwlink/?LinkID=98088). For instructions, see [Downloading Sample Databases](https://msdn.microsoft.com/library/ef9d69a1-9461-43fe-94bb-7c836754bcb5).
 
 ## Creating the Service
  To create a [!INCLUDE[ss_data_service](../includes/ss-data-service-md.md)], you will add a Web project, create an [!INCLUDE[adonet_edm](../includes/adonet-edm-md.md)], and then create the service from the model.
@@ -88,7 +88,7 @@ This walkthrough demonstrates how to create a simple [!INCLUDE[ss_data_service](
 7. On the **Choose your version** page, choose the **Entity Framework 5.0** option button, and then choose the **Next** button.
 
    > [!NOTE]
-   > In order to use the latest version of the Entity Framework 6 with WCF Services, you’ll need to install the WCF Data Services Entity Framework Provider NuGet package. See [Using WCF Data Services 5.6.0 with Entity Framework 6+](http://blogs.msdn.com/b/odatateam/archive/2013/10/02/using-wcf-data-services-5-6-0-with-entity-framework-6.aspx).
+   > In order to use the latest version of the Entity Framework 6 with WCF Services, you’ll need to install the WCF Data Services Entity Framework Provider NuGet package. See [Using WCF Data Services 5.6.0 with Entity Framework 6+](https://devblogs.microsoft.com/odata/using-wcf-data-services-5-6-0-with-entity-framework-6/).
 
 8. On the **Choose Your Database Objects** page, expand the **Tables** node, select the **Customers** check box, and then choose the **Finish** button.
 
