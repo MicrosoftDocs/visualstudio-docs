@@ -18,7 +18,7 @@ By completing this walkthrough, you’ll  become more familiar with several opti
 
 This topic contains the following sections:
 
-[Install the Sample Application](../ide/walkthrough-building-an-application.md#BKMK_installapp)
+[Install the Sample Application](../ide/walkthrough-building-an-application.md)
 
 [Create a Custom Build Configuration](../ide/walkthrough-building-an-application.md#BKMK_CreateBuildConfig)
 
