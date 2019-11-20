@@ -314,8 +314,6 @@ You can create and edit a UML model through the views provided by several differ
 
 - To add notes and explanations to model elements, you can create comments and then link them to the elements.
 
-- To neatly align a column or row shapes on the diagram, you can install the Align Shapes command. This is available as a sample UML extension:  [UML: Command to Align Shapes](https://docs.microsoft.com/samples/browse/-samples)
-
 ### To export a diagram as an image
  For more information, see [Export diagrams as images](../modeling/export-diagrams-as-images.md).
 
