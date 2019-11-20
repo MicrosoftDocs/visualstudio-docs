@@ -15,8 +15,6 @@ manager: jillfra
 
 To learn more, try changing icons and colors, adding a game timer, and adding sounds. To make the game more challenging, try making the board bigger and adjusting the timer.
 
- To download a completed version of the sample, see [Complete Matching Game tutorial sample](https://docs.microsoft.com/samples/browse/-samples).
-
 ### To try other features
 
 - Replace the icons and colors with ones you choose.

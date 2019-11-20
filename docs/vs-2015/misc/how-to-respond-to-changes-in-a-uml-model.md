@@ -16,8 +16,6 @@ It is possible to write code that is executed whenever a change occurs in a UML 
 > [!WARNING]
 > These techniques are unsupported by the UML API. They might not work in future versions of Visual Studio.
 
- Sample code is available at [UML: Responding to Changes in a UML Model by using Events and Rules](https://docs.microsoft.com/samples/browse/-samples)
-
 ## See Also
  [Navigate the UML model](../modeling/navigate-the-uml-model.md)
  [Event Handlers Propagate Changes Outside the Model](../modeling/event-handlers-propagate-changes-outside-the-model.md)

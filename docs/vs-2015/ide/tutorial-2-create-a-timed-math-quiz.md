@@ -28,8 +28,6 @@ In this tutorial, you build a quiz in which the quiz taker must answer four rand
   ![Math quiz with four problems](../ide/media/express-finishedquiz.png "Express_FinishedQuiz")
   Quiz that you create in this tutorial
 
-  To download a completed version of the quiz, see [Complete Math Quiz tutorial sample](https://docs.microsoft.com/samples/browse/-samples).
-
 > [!NOTE]
 > This tutorial covers both Visual C# and Visual Basic, so focus on the information that's specific to the programming language that you're using.
 

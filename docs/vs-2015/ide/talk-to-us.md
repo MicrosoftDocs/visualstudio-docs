@@ -44,8 +44,5 @@ We're interested in your ideas for improving our documentation. We can’t respo
 
  Microsoft support services are subject to then-current prices, terms, and conditions. Prices, terms, and conditions are subject to change without notice.
 
-## I want to get involved in the developer community
- If you want to share your questions and answers with other developers, you can use the [MSDN Forums](https://social.msdn.microsoft.com/Forums/en-US/home) or [StackOverflow](https://stackoverflow.com/). You can view code from other developers and share your own examples on the [Developer code samples](https://docs.microsoft.com/samples/browse/-samples) and [CodePlex](https://archive.codeplex.com/) websites.
-
 ## See Also
  [How to Report a Problem with Visual Studio 2015](../ide/how-to-report-a-problem-with-visual-studio-2015.md)

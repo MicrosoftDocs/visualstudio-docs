@@ -30,8 +30,6 @@ In this tutorial, you build a matching game, where the player must match pairs o
   ![Game that you create in this tutorial](../ide/media/express-finishedgame.png "Express_FinishedGame")
   Game that you create in this tutorial
 
-  To download a completed version of the sample, see [Complete Matching Game tutorial sample](https://docs.microsoft.com/samples/browse/-samples).
-
 > [!NOTE]
 > In this tutorial, both Visual C# and Visual Basic are covered, so focus on information specific to the programming language that you're using.
 

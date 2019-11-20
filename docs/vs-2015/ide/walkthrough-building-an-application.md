@@ -30,10 +30,6 @@ This topic contains the following sections:
 
 [Create a Release Build](../ide/walkthrough-building-an-application.md#BKMK_releasebuild)
 
-## <a name="BKMK_installapp"></a> Install the Sample Application
-
-You’ll use the **Extensions and Updates** dialog box to find and install the [Introduction to Building WPF Applications](https://docs.microsoft.com/samples/browse/-samples) sample from the Samples Gallery on the Microsoft website. The Samples Gallery provides a variety of example projects and code that you can download and review as you plan and develop your applications.
-
 #### To install the sample application
 
 1. On the menu bar, choose **Tools**, **Extensions and Updates**.
