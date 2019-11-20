@@ -97,7 +97,7 @@ Before you make purchases, you will need to [remove your spending limit](https:/
 
 ### Q: What's the difference between annual and monthly cloud subscriptions?
 A:  Monthly cloud subscriptions include Visual Studio plus use of Azure DevOps Services and TFS. Annual cloud subscriptions have this too, but also include subscriber
-benefits, including use of Windows and other Microsoft software to install and run for development and testing, a monthly Azure DevTest indiviual credit to use for experimenting with Azure services and doing development and testing in the cloud, training, support, and much more.
+benefits, including use of Windows and other Microsoft software to install and run for development and testing, a monthly Azure DevTest individual credit to use for experimenting with Azure services and doing development and testing in the cloud, training, support, and much more.
 [Compare cloud subscription benefits and pricing](https://visualstudio.microsoft.com/vs/pricing/)
 
 ### Q: Do I get new versions of Visual Studio if I buy a Visual Studio cloud subscription?
