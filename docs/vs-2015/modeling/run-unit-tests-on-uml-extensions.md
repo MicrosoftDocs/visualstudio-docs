@@ -37,8 +37,6 @@ To help keep your code stable through successive changes, we recommend that you 
 
   These points are elaborated in the following sections.
 
-  A sample of a unit tested UML extension can be found on Code Samples Gallery at [UML – Rapid Entry by using Text](https://docs.microsoft.com/samples/browse/-samples).
-
 ## Requirements
  See [Requirements](../modeling/extend-uml-models-and-diagrams.md#Requirements).
 
@@ -378,4 +376,3 @@ Assert.AreEqual("hello", testInstance.privateField1_Accessor);
 ## See Also
  [Anatomy of a Unit Test](https://msdn.microsoft.com/a03d1ee7-9999-4e7c-85df-7d9073976144)
  [Define a menu command on a modeling diagram](../modeling/define-a-menu-command-on-a-modeling-diagram.md)
- [UML – Rapid Entry by using Text](https://docs.microsoft.com/samples/browse/-samples)

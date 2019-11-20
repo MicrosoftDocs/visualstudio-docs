@@ -324,14 +324,6 @@ You can create and edit a UML model through the views provided by several differ
 
  There are several sample extensions available. You can either just install and use them, or you can use their source code as the basis for your own extensions. The samples include:
 
-|||
-|-|-|
-|[Align shapes](https://docs.microsoft.com/samples/browse/-samples)|Menu command that helps you tidy a diagram.|
-|[Link to docs](https://docs.microsoft.com/samples/browse/-samples)|Link any UML element to Word headings, PowerPoint slides, files of any type, UML diagrams, or other UML elements. The link can be made simply by dragging. Later, you can double-click the element to see the linked item. For example, you could link use cases to Word specifications or detailed activity diagrams, and actions to storyboard slides.|
-|[Rapid entry](https://docs.microsoft.com/samples/browse/-samples)|Create a model quickly by using text entry. Useful for capturing ideas in meetings.|
-|[Color by stereotype](https://docs.microsoft.com/samples/browse/-samples)|Colors classes according to stereotype. You can easily extend the code to work for your own stereotypes.|
-|[Domain Modeling](https://docs.microsoft.com/samples/browse/-samples)|Convenient defaults for business models. Associations are shown without arrows by default, and operations do not appear in classes.|
-
 ## See Also
  [Create UML modeling projects and diagrams](../modeling/create-uml-modeling-projects-and-diagrams.md)
  [Analyzing and Modeling Architecture](../modeling/analyze-and-model-your-architecture.md)
