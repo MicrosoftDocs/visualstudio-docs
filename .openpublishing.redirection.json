@@ -9529,6 +9529,16 @@
       "source_path": "docs/products/index.md",
       "redirect_url": "/visualstudio",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "subscriptions/vs-msdn.md",
+      "redirect_url": "/visualstudio/subscriptions",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "subscriptions/vs-rstudio.md",
+      "redirect_url": "/visualstudio/subscriptions",
+      "redirect_document_id": false
     }
   ]
 }
