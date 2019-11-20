@@ -320,8 +320,6 @@ You can create and edit a UML model through the views provided by several differ
 ## <a name="extensions"></a> Extending the UML Designers
  You can add new functionality to the UML tools and adapt the diagram notation to your own needs. For more information, see [Extend UML models and diagrams](../modeling/extend-uml-models-and-diagrams.md).
 
- There are several sample extensions available. You can either just install and use them, or you can use their source code as the basis for your own extensions. The samples include:
-
 ## See Also
  [Create UML modeling projects and diagrams](../modeling/create-uml-modeling-projects-and-diagrams.md)
  [Analyzing and Modeling Architecture](../modeling/analyze-and-model-your-architecture.md)

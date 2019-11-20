@@ -345,7 +345,7 @@ visibility operation-name (parameter1 : Type1, ...) : Type
   For the full details of these and other properties, see [Properties of associations on UML class diagrams](../modeling/properties-of-associations-on-uml-class-diagrams.md).
 
 ### Navigability
- When you draw an association, it has an arrow at one end, signifying that the association is navigable in that direction. This is useful if your class diagram represents software classes, and the associations represent pointers or references. But when you use a class diagram to represent entities and relations or business concepts, it is less relevant to represent navigability. In this case, you might prefer to draw associations without arrows. You can do so by setting the **Is Navigable** property on both ends of the association to True. To make this easier, you can download the code sample [UML Domain Modeling](https://docs.microsoft.com/samples/browse/-samples).
+ When you draw an association, it has an arrow at one end, signifying that the association is navigable in that direction. This is useful if your class diagram represents software classes, and the associations represent pointers or references. But when you use a class diagram to represent entities and relations or business concepts, it is less relevant to represent navigability. In this case, you might prefer to draw associations without arrows. You can do so by setting the **Is Navigable** property on both ends of the association to True.
 
 ### Attributes and Associations
  An association is a pictorial way of showing an attribute. For example, instead of creating a class Restaurant with an attribute of type Menu, you can draw an association from Restaurant to Menu.

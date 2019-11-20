@@ -34,8 +34,6 @@ In this tutorial, you build a program that loads a picture from a file and displ
   ![Picture that you create in this tutorial](../ide/media/express-pictureviewerdone.png "Express_PictureViewerDone")
   Picture that you create in this tutorial
 
-  To download a completed version of the sample, see [Complete Picture Viewer tutorial sample](https://docs.microsoft.com/samples/browse/-samples).
-
   ![link to video](../data-tools/media/playvideo.gif "PlayVideo")For a video version of this topic, see [How Do I: Create a Picture Viewer in Visual Basic?](https://go.microsoft.com/fwlink/?LinkId=205207) or [How Do I: Create a Picture Viewer in C#?](https://go.microsoft.com/fwlink/?LinkId=205198).
 
 > [!NOTE]
