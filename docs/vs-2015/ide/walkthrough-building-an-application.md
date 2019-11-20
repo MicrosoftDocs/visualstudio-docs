@@ -28,7 +28,7 @@ This topic contains the following sections:
 
 [Display Additional Build Details in the Output Window](../ide/walkthrough-building-an-application.md#BKMK_outputdetails)
 
-[Create a Release Build](../ide/walkthrough-building-an-application.md#BKMK_releasebuild)
+[Create a Release Build](../ide/walkthrough-building-an-application.md)
 
 #### To install the sample application
 
@@ -196,7 +196,7 @@ You can change how much information about the build process appears in the **Out
 
    For more information, see [How to: View, Save, and Configure Build Log Files](../ide/how-to-view-save-and-configure-build-log-files.md).
 
-## <a name="BKMK_releasebuild"></a> Create a Release Build
+## Create a Release Build
 
 You can build a version of the sample application that’s optimized for shipping it. For the release build, you’ll specify that the executable is copied to a network share before the build is kicked off.
 
