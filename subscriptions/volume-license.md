@@ -8,7 +8,7 @@ ms.topic: conceptual
 description:  Learn how administrators on Volume License agreements can access the Visual Studio subscriptions Administration Portal
 ---
 
-# Accessing the Administation Portal as an admin on a Volume License agreement
+# Accessing the Administration Portal as an admin on a Volume License agreement
 
 If you are the primary or notices contact on your organization’s agreement, you will be automatically provisioned access to the portal upon setting up your Volume Licensing agreement. You’ll receive a system-triggered welcome email which will prompt you to sign into the portal. The email will indicate which email address to use to sign into the portal. 
 
