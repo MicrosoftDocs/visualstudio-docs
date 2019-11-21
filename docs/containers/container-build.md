@@ -117,16 +117,18 @@ Warmup will only happen in **Fast** mode, so the running container will have the
 
 For debugging to work in containers, Visual Studio uses volume mapping to map the debugger and NuGet folders from the host machine. Here are the volumes that are mounted in your container:
 
-- Remote debugger: this contains the bits required to run the debugger in the container depending on the project type. This is explained in more details in the [Debugging](#debugging) section.
-- App folder: this contains the project folder where the Dockerfile is located.
-- Source folder: this contains the build context that is passed to Docker commands.
-- NuGet packages folders: this contains the NuGet packages and fallback folders that is read from the *obj\{project}.csproj.nuget.g.props* file in the project.
+|||
+|-|-|
+| **Remote debugger** | Contains the bits required to run the debugger in the container depending on the project type. This is explained in more |detail in the [Debugging](#debugging) section.
+| **App folder** | Contains the project folder where the Dockerfile is located.|
+| **Source folder** | Contains the build context that is passed to Docker commands.|
+| **NuGet packages folders** | Contains the NuGet packages and fallback folders that is read from the *obj\{project}.csproj.nuget.g.props* file in the project. |
 
 For ASP.NET core web apps, there might be two additional folders for the SSL certificate and the user secrets, which is explained in more detail in the next section.
 
 ## SSL-enabled ASP.NET Core apps
 
-Container tools in VS support debugging an SSL-enabled ASP.NET core app with a dev certificate, the same way you'd expect it to work without containers. To make that happen, Visual Studio adds a couple of more steps to export the certificate and make it available to the container. Here is the flow:
+Container tools in Visual Studio support debugging an SSL-enabled ASP.NET core app with a dev certificate, the same way you'd expect it to work without containers. To make that happen, Visual Studio adds a couple of more steps to export the certificate and make it available to the container. Here is the flow:
 
 1. Ensure the local development certificate is present and trusted on the host machine through the `dev-certs` tool.
 2. Export the certificate to %APPDATA%\ASP.NET\Https with a secure password that is stored in the user secrets store for this particular app.
@@ -159,9 +161,11 @@ For more information about using SSL with ASP.NET Core apps in containers, see [
 
 The process of running the debugger depends on the type of project and container operating system:
 
-- **.NET Core apps (Linux containers)**: Visual Studio downloads `vsdbg` and maps it to the container, then it gets called with your program and arguments (that is, `dotnet webapp.dll`), and then debugger attaches to the process. 
-- **.NET Core apps (Windows containers)**: Visual Studio uses `onecoremsvsmon` and maps it to the container, runs it as the entry point and then Visual Studio connects to it and attaches to the your program. This is similar to how you would normally set up remote debugging on another computer or virtual machine.
-- **.NET Framework apps**: Visual Studio uses `msvsmon` and maps it to the container, runs it as part of the entry point where Visual Studio can connect to it, and attaches to the your program.
+|||
+|-|-|
+| **.NET Core apps (Linux containers)**| Visual Studio downloads `vsdbg` and maps it to the container, then it gets called with your program and arguments (that is, `dotnet webapp.dll`), and then debugger attaches to the process. |
+| **.NET Core apps (Windows containers)**| Visual Studio uses `onecoremsvsmon` and maps it to the container, runs it as the entry point and then Visual Studio connects to it and attaches to the your program. This is similar to how you would normally set up remote debugging on another computer or virtual machine.|
+| **.NET Framework apps** | Visual Studio uses `msvsmon` and maps it to the container, runs it as part of the entry point where Visual Studio can connect to it, and attaches to the your program.|
 
 For information on `vsdbg.exe`, see [Offroad debugging of .NET Core on Linux and OSX from Visual Studio](https://github.com/Microsoft/MIEngine/wiki/Offroad-Debugging-of-.NET-Core-on-Linux---OSX-from-Visual-Studio).
 
@@ -169,11 +173,13 @@ For information on `vsdbg.exe`, see [Offroad debugging of .NET Core on Linux and
 
 Visual Studio uses a custom container entry point depending on the project type and the container operating system, here are the different combinations:
 
-- **Linux containers**: The entry point is `tail -f /dev/null`, which is an infinite wait to keep the container running. When the app is launched through the debugger, it is the debugger that is responsible to run the app (that is, `dotnet webapp.dll`). If launched without debugging, the tooling runs a `docker exec -i {containerId} dotnet webapp.dll` to run the app.
-- **Windows containers**: The entry point would be something like `C:\remote_debugger\x64\msvsmon.exe /noauth /anyuser /silent /nostatus` which runs the debugger, so it is listening for connections. Same applies that the debugger runs the app, and a `docker exec` command when launched without debugging. For .NET Framework web apps, the entry point is slightly different where `ServiceMonitor` is added to the command.
+|||
+|-|-|
+| **Linux containers** | The entry point is `tail -f /dev/null`, which is an infinite wait to keep the container running. When the app is launched through the debugger, it is the debugger that is responsible to run the app (that is, `dotnet webapp.dll`). If launched without debugging, the tooling runs a `docker exec -i {containerId} dotnet webapp.dll` to run the app.|
+| **Windows containers**| The entry point is something like `C:\remote_debugger\x64\msvsmon.exe /noauth /anyuser /silent /nostatus` which runs the debugger, so it is listening for connections. Same applies that the debugger runs the app, and a `docker exec` command when launched without debugging. For .NET Framework web apps, the entry point is slightly different where `ServiceMonitor` is added to the command.|
   
 > [!NOTE]
-> The container entry point can only be modified in docker-compose projects but not in single-container projects.
+> The container entry point can only be modified in docker-compose projects, not in single-container projects.
 
 ## Next steps
 
