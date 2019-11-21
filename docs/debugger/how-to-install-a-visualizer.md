@@ -42,8 +42,8 @@ After you have created a visualizer, you must install the visualizer so that it 
 
     Where *Framework* is either:
     - `net2.0` for debuggees running the `.NET Framework` runtime.
-    - `netstandard2.0` for debuggees using a runtime supported in `netstandard 2.0` (supports .NET Framework v4.6.1 and greater and .NET Core 2.0, 2.1 and 2.2).
-    - `netcoreapp` for debuggees running the `.NET Core` runtime. (supports .NET Core 2.0 and greater)
+    - `netstandard2.0` for debuggees using a runtime supported in `netstandard 2.0` (supports .NET Framework v4.6.1+ and .NET Core 2.0+).
+    - `netcoreapp` for debuggees running the `.NET Core` runtime. (supports .NET Core 2.0+)
 
 4. Restart the debugging session.
 
