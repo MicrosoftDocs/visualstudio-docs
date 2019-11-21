@@ -154,4 +154,4 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
  [Quickstart: Debug HTML and CSS](../debugger/quickstart-debug-html-and-css.md)   
  [Debug layout using DOM Explorer](../debugger/debug-layout-using-dom-explorer.md)   
  [View DOM event listeners](../debugger/view-dom-event-listeners.md)   
- [Product Support and Accessibility](http://go.microsoft.com/fwlink/?LinkId=253502)
+ [Product Support and Accessibility](https://go.microsoft.com/fwlink/?LinkId=253502)

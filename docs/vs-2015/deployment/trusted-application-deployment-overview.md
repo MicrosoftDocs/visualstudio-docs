@@ -68,7 +68,7 @@ This topic provides an overview of how to deploy [!INCLUDE[ndptecclick](../inclu
 ### Add the Publisher to the Trusted Publishers Store  
  For your [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] application to receive a higher level of trust, you must add your certificate as a trusted publisher to each client computer on which the application will run. Performing this task is a one-time configuration. After it is completed, you can deploy as many [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] applications signed with your publisher's certificate as you want, and they will all run with high trust.  
   
- If you are deploying your application in a managed desktop environment; for example, a corporate intranet running the Windows operating system; you can add trusted publishers to a client's store by creating a new certificate trust list (CTL) with Group Policy. For more information, see [Create a certificate trust list for a Group Policy object](http://go.microsoft.com/fwlink/?LinkId=102576).  
+ If you are deploying your application in a managed desktop environment; for example, a corporate intranet running the Windows operating system; you can add trusted publishers to a client's store by creating a new certificate trust list (CTL) with Group Policy. For more information, see [Create a certificate trust list for a Group Policy object](https://go.microsoft.com/fwlink/?LinkId=102576).  
   
  If you are not deploying your application in a managed desktop environment, you have the following options for adding a certificate to the trusted publisher store:  
   

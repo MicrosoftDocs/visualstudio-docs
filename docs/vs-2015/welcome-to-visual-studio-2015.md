@@ -24,13 +24,13 @@ Welcome to Visual Studio! We’ve got everything you need to create great apps f
 >
 > Click here for release notes for [Visual Studio 2017](https://www.visualstudio.com/news/releasenotes/vs2017-relnotes).
 
- Download [Visual Studio Community](http://go.microsoft.com/fwlink/?LinkId=517106) for free to start coding right away. If you want to do cross-platform development, make sure that you install the optional packages. (You can get more features with [other editions of Visual Studio](http://www.visualstudio.com/products/compare-visual-studio-products-vs).)
+ Download [Visual Studio Community](https://go.microsoft.com/fwlink/?LinkId=517106) for free to start coding right away. If you want to do cross-platform development, make sure that you install the optional packages. (You can get more features with [other editions of Visual Studio](https://visualstudio.microsoft.com/vs/compare/).)
 
  Jump right in, create a new project, and start writing code. Choose the type of app you want to create. Or you can [take a tour](./ide/visual-studio-ide.md) of the Visual Studio IDE to get familiar with the tools.
 
  And don’t forget to explore our [code gallery](https://code.msdn.microsoft.com/) to find samples to help you write your app more quickly!
 
- You can install Visual Studio 2015 by downloading it from [Visual Studio Downloads](http://www.visualstudio.com/downloads/download-visual-studio-vs.aspx). To learn more about the installation process, see [Install Visual Studio 2015](./install/install-visual-studio-2015.md).
+ You can install Visual Studio 2015 by downloading it from [Visual Studio Downloads](https://www.visualstudio.com/downloads/download-visual-studio-vs.aspx). To learn more about the installation process, see [Install Visual Studio 2015](./install/install-visual-studio-2015.md).
 
 ## Extend Visual Studio
  Add your own Visual Studio extension to include a tool or script that you often use while coding. You can create custom menu items and tool windows to integrate your own tools into the Visual Studio IDE. You can extend the Visual Studio editor to analyze and fix code, or add a new project type to include just what you need.
@@ -68,7 +68,7 @@ Welcome to Visual Studio! We’ve got everything you need to create great apps f
 - Integrate Office 365 REST APIs into your own app to connect to data stored in the cloud. For more information, see [these samples](https://github.com/OfficeDev/?utf8=%E2%9C%93&query=o365).
 
 ## Write great Web apps with ASP.NET
- [ASP.NET 5](http://www.asp.net/vnext/overview/aspnet-vnext/aspnet-5-overview) is a major Update to MVC, WebAPI and SignalR, and runs on Windows, Mac, and Linux.  ASP.NET 5 has been designed from the ground up to provide you with a lean and composable .NET stack for building modern cloud-based web apps and services.
+ [ASP.NET 5](https://docs.microsoft.com/aspnet/core/?view=aspnetcore-3.0) is a major Update to MVC, WebAPI and SignalR, and runs on Windows, Mac, and Linux.  ASP.NET 5 has been designed from the ground up to provide you with a lean and composable .NET stack for building modern cloud-based web apps and services.
 
 ## Build, test, and manage your code
 

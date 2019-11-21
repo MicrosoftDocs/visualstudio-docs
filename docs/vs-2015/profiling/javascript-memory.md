@@ -382,7 +382,7 @@ if (performance && performance.mark) {
 
   - You might need to remove one or more event listeners. For more info, see [View DOM event listeners](../debugger/view-dom-event-listeners.md).  
   
-- Watch the latter part of [this video](http://channel9.msdn.com/Events/Build/2013/3-316) from the Build 2013 conference about the JavaScript memory analyzer.  
+- Watch the latter part of [this video](https://channel9.msdn.com/Events/Build/2013/3-316) from the Build 2013 conference about the JavaScript memory analyzer.  
   
 - Read [Managing memory in Windows Store apps](https://msdn.microsoft.com/magazine/jj651575.aspx).  
   

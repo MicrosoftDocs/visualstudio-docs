@@ -18,7 +18,7 @@ By completing this walkthrough, you’ll  become more familiar with several opti
 
 This topic contains the following sections:
 
-[Install the Sample Application](../ide/walkthrough-building-an-application.md#BKMK_installapp)
+[Install the Sample Application](../ide/walkthrough-building-an-application.md)
 
 [Create a Custom Build Configuration](../ide/walkthrough-building-an-application.md#BKMK_CreateBuildConfig)
 
@@ -28,11 +28,7 @@ This topic contains the following sections:
 
 [Display Additional Build Details in the Output Window](../ide/walkthrough-building-an-application.md#BKMK_outputdetails)
 
-[Create a Release Build](../ide/walkthrough-building-an-application.md#BKMK_releasebuild)
-
-## <a name="BKMK_installapp"></a> Install the Sample Application
-
-You’ll use the **Extensions and Updates** dialog box to find and install the [Introduction to Building WPF Applications](http://code.msdn.microsoft.com/Introduction-to-Building-b8d16419?SRC=VSIDE) sample from the Samples Gallery on the Microsoft website. The Samples Gallery provides a variety of example projects and code that you can download and review as you plan and develop your applications.
+[Create a Release Build](../ide/walkthrough-building-an-application.md)
 
 #### To install the sample application
 
@@ -200,7 +196,7 @@ You can change how much information about the build process appears in the **Out
 
    For more information, see [How to: View, Save, and Configure Build Log Files](../ide/how-to-view-save-and-configure-build-log-files.md).
 
-## <a name="BKMK_releasebuild"></a> Create a Release Build
+## Create a Release Build
 
 You can build a version of the sample application that’s optimized for shipping it. For the release build, you’ll specify that the executable is copied to a network share before the build is kicked off.
 

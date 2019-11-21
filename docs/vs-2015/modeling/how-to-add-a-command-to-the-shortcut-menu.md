@@ -26,7 +26,7 @@ You can add menu commands to your domain-specific language (DSL) so that your us
 
 3. [Write methods in the CommandSet class](#CommandSet) to make the command visible and to define what you want the command to do.
 
-   For samples, see the [Visualization and Modeling SDK website](http://go.microsoft.com/fwlink/?LinkID=185579).
+   For samples, see the [Visualization and Modeling SDK website](https://go.microsoft.com/fwlink/?LinkID=185579).
 
 > [!NOTE]
 > You can also modify the behavior of some existing commands such as Cut, Paste, Select All, and Print by overriding methods in CommandSet.cs. For more information, see [How to: Modify a Standard Menu Command](../modeling/how-to-modify-a-standard-menu-command-in-a-domain-specific-language.md).
@@ -357,4 +357,3 @@ protected override IList<MenuCommand> GetMenuCommands()
  [Writing Code to Customise a Domain-Specific Language](../modeling/writing-code-to-customise-a-domain-specific-language.md)
  [How to: Modify a Standard Menu Command](../modeling/how-to-modify-a-standard-menu-command-in-a-domain-specific-language.md)
  [Deploying Domain-Specific Language Solutions](../modeling/deploying-domain-specific-language-solutions.md)
- [Sample code: Circuit Diagrams](http://code.msdn.microsoft.com/Visualization-Modeling-SDK-763778e8)

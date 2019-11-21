@@ -350,7 +350,7 @@ if (performance.mark && performance.measure) {
   
 ## <a name="Tips"></a> Additional information  
   
-- Watch [this video](http://channel9.msdn.com/Events/Build/2013/3-316) from the Build 2013 conference about the UI Responsiveness Profiler.  
+- Watch [this video](https://channel9.msdn.com/Events/Build/2013/3-316) from the Build 2013 conference about the UI Responsiveness Profiler.  
   
 - Read performance tips for Windows Store apps built for Windows using JavaScript. For more info, see [Performance best practices for Windows Store apps using JavaScript](https://msdn.microsoft.com/library/windows/apps/hh465194.aspx).  
   
