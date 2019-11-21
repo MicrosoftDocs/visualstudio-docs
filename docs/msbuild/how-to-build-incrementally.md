@@ -29,7 +29,7 @@ A target can be built incrementally if the inputs and outputs are specified in t
       Outputs="hello.exe">
   ```
 
-  [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] can compare the timestamps of the input files with the timestamps of the output files and determine whether to skip, build, or partially rebuild a target. In the following example, if any file in the `@(CSFile)` item list is newer than the *hello.exe* file, [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] will run the target; otherwise it will be skipped:
+[!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] can compare the timestamps of the input files with the timestamps of the output files and determine whether to skip, build, or partially rebuild a target. In the following example, if any file in the `@(CSFile)` item list is newer than the *hello.exe* file, [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] will run the target; otherwise it will be skipped:
 
 ```xml
 <Target Name="Build"
