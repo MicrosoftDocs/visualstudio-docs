@@ -207,3 +207,4 @@ At this point, your project should be ready to build a VSIXv3 that can install o
 
 > [!NOTE]
 > If your project hangs with the message **opening the file**, force shut down Visual Studio, navigate to your project directory, show hidden folders, and delete the *.vs* folder.
+ 
