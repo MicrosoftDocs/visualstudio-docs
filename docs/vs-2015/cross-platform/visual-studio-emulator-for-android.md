@@ -84,7 +84,7 @@ The Visual Studio Emulator for Android is a desktop application that emulates an
  Once you've installed the set of profiles that you'd like to target, you can start these new profiles directly from the manager by pressing the green **Play** button. They will also appear in the debug target dropdown menu in any Visual Studio cross-platform mobile project type.  
   
 ## <a name="FeaturesTest"></a> Features that you can test in the emulator  
- For detailed information on features you can test in the emulator, see this [documentation](http://blogs.msdn.com/b/visualstudioalm/archive/2014/11/12/introducing-visual-studio-s-emulator-for-android.aspx).  
+ For detailed information on features you can test in the emulator, see this [documentation](https://devblogs.microsoft.com/devops/introducing-visual-studios-emulator-for-android/).  
   
 ## <a name="FeaturesNonTest"></a> Features that you can’t test in the emulator  
  The following list describes features of the Android platform that you **cannot** test in the emulator. You have to test these features on a physical device.  
@@ -100,7 +100,7 @@ The Visual Studio Emulator for Android is a desktop application that emulates an
 ## <a name="Support"></a> Support Resources  
  If your host computer meets the system requirements and you encounter an issue not covered in this troubleshooting guide:  
   
-- Ask a question on StackOverflow using the [android-emulator](http://stackoverflow.com/questions/tagged/android-emulator) and the visual-studio tag.  
+- Ask a question on StackOverflow using the [android-emulator](https://stackoverflow.com/questions/tagged/android-emulator) and the visual-studio tag.  
   
 - Report an issue using the Send a Smile tool in Visual Studio or in the Emulator Manager.  
   

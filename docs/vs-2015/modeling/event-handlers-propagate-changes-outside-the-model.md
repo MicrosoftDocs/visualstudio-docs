@@ -185,4 +185,3 @@ private static void AlbumTitleAdjuster(object sender,
 
 ## See Also
  [Responding to and Propagating Changes](../modeling/responding-to-and-propagating-changes.md)
- [Sample code: Circuit Diagrams](http://code.msdn.microsoft.com/Visualization-Modeling-SDK-763778e8)

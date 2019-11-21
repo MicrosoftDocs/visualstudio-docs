@@ -34,7 +34,7 @@ Rule Id|DA0503|
   
  The size of the process working set reflects how much virtual memory the process is actively using. It is also affected by the amount of physical memory (or RAM) available to run the application and contention for that physical memory from other running processes. If physical memory is constrained, the value of the process working set is apt to vary significantly as the operating systems tries to balance memory usage across active processes by periodically trimming fairly inactive pages from process working sets.  
   
- For more information about process working sets, see [Working Set](http://go.microsoft.com/fwlink/?LinkId=177830) in the Windows Memory Management documentation of MSDN.  
+ For more information about process working sets, see [Working Set](https://go.microsoft.com/fwlink/?LinkId=177830) in the Windows Memory Management documentation of MSDN.  
   
 ## How to Use Rule Data  
  Use the rule value to compare the performance of different versions or builds of the program or to understand the performance of the application under different profiling scenarios.  

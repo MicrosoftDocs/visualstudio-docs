@@ -39,11 +39,11 @@ When you want to understand dependencies across your code, visualize them by cre
 
  **Here are some videos**:
 
-- [Understand your code dependencies through visualization](http://go.microsoft.com/fwlink/?LinkID=252065)
+- [Understand your code dependencies through visualization](https://go.microsoft.com/fwlink/?LinkID=252065)
 
-- [Visualize the impact of a change](http://go.microsoft.com/fwlink/?LinkID=252068)
+- [Visualize the impact of a change](https://go.microsoft.com/fwlink/?LinkID=252068)
 
-- [Understanding complex code with code maps](http://go.microsoft.com/fwlink/?LinkID=259869)
+- [Understanding complex code with code maps](https://go.microsoft.com/fwlink/?LinkID=259869)
 
 ## <a name="GetStarted"></a> Get started with code maps
  **To use code maps you’ll need either**:

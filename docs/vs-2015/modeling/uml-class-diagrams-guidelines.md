@@ -28,7 +28,7 @@ In Visual Studio, you can use a *UML class diagram* to describe data types and t
  To see which versions of Visual Studio support this feature, see [Version support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport).
 
 > [!NOTE]
-> This topic is about UML class diagrams. There is another kind of class diagram, which you can create and use to visualize program code. See [Designing and Viewing Classes and Types](http://go.microsoft.com/fwlink/?LinkId=142231).
+> This topic is about UML class diagrams. There is another kind of class diagram, which you can create and use to visualize program code. See [Designing and Viewing Classes and Types](https://go.microsoft.com/fwlink/?LinkId=142231).
 
 ## <a name="Using"></a> Using UML Class Diagrams
  You can use a UML class diagram for a variety of purposes:
@@ -345,7 +345,7 @@ visibility operation-name (parameter1 : Type1, ...) : Type
   For the full details of these and other properties, see [Properties of associations on UML class diagrams](../modeling/properties-of-associations-on-uml-class-diagrams.md).
 
 ### Navigability
- When you draw an association, it has an arrow at one end, signifying that the association is navigable in that direction. This is useful if your class diagram represents software classes, and the associations represent pointers or references. But when you use a class diagram to represent entities and relations or business concepts, it is less relevant to represent navigability. In this case, you might prefer to draw associations without arrows. You can do so by setting the **Is Navigable** property on both ends of the association to True. To make this easier, you can download the code sample [UML Domain Modeling](http://code.msdn.microsoft.com/UML-Domain-Modeling-6df6f7f4).
+ When you draw an association, it has an arrow at one end, signifying that the association is navigable in that direction. This is useful if your class diagram represents software classes, and the associations represent pointers or references. But when you use a class diagram to represent entities and relations or business concepts, it is less relevant to represent navigability. In this case, you might prefer to draw associations without arrows. You can do so by setting the **Is Navigable** property on both ends of the association to True.
 
 ### Attributes and Associations
  An association is a pictorial way of showing an attribute. For example, instead of creating a class Restaurant with an attribute of type Menu, you can draw an association from Restaurant to Menu.

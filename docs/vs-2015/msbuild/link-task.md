@@ -62,7 +62,7 @@ Wraps the Visual C++ linker tool, link.exe. The linker tool links Common Object 
   
    Specifies attributes that will be placed in the `dependency` section of the manifest file.  
   
-   For more information, see [/MANIFESTDEPENDENCY (Specify Manifest Dependencies)](https://msdn.microsoft.com/library/e4b68313-33a2-4c3e-908e-ac2b9f7d6a73). Also, see "Publisher Configuration Files" on the [MSDN](http://go.microsoft.com/fwlink/?LinkId=737) Web site.  
+   For more information, see [/MANIFESTDEPENDENCY (Specify Manifest Dependencies)](https://msdn.microsoft.com/library/e4b68313-33a2-4c3e-908e-ac2b9f7d6a73). Also, see "Publisher Configuration Files" on the [MSDN](https://go.microsoft.com/fwlink/?LinkId=737) Web site.  
   
 - **AdditionalOptions**  
   

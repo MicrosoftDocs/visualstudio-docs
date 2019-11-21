@@ -264,7 +264,7 @@ Go to specific points in your application's execution when you start debugging f
  [IntelliTrace](../debugger/intellitrace.md)  
   
 #### Forums  
- [Visual Studio Debugger](http://go.microsoft.com/fwlink/?LinkId=262263)  
+ [Visual Studio Debugger](https://go.microsoft.com/fwlink/?LinkId=262263)  
   
 #### Guidance  
- [Testing for Continuous Delivery with Visual Studio 2012 – Chapter 6: A Testing Toolbox](http://go.microsoft.com/fwlink/?LinkID=255203)
+ [Testing for Continuous Delivery with Visual Studio 2012 – Chapter 6: A Testing Toolbox](https://go.microsoft.com/fwlink/?LinkID=255203)

@@ -45,7 +45,7 @@ When you first open a Visual C++ project that was created in an earlier version 
 - For [!INCLUDE[cppcli](../includes/cppcli-md.md)] projects, changes the TargetFrameworkVersion to the .NET Framework 4.5.2.
 
 ## Continuing to Work with a Custom PlatformToolset
- If you want to continue to work with a custom PlatformToolset in [!INCLUDE[vs_dev14](../includes/vs-dev14-md.md)], the toolset must be located under %ProgramFiles%\MSBuild\Microsoft.Cpp\v4.0\Platforms\Win32\PlatformToolsets\ on an x86 machine, or under %ProgramFiles (x86)%\MSBuild\Microsoft.Cpp\v4.0\Platforms\Win32\PlatformToolsets\ on an x64 machine. For information about how to create a custom PlatformToolset, see [C++ Native Multi-Targeting](http://go.microsoft.com/fwlink/?LinkId=248587) on the Visual C++ Team blog.
+ If you want to continue to work with a custom PlatformToolset in [!INCLUDE[vs_dev14](../includes/vs-dev14-md.md)], the toolset must be located under %ProgramFiles%\MSBuild\Microsoft.Cpp\v4.0\Platforms\Win32\PlatformToolsets\ on an x86 machine, or under %ProgramFiles (x86)%\MSBuild\Microsoft.Cpp\v4.0\Platforms\Win32\PlatformToolsets\ on an x64 machine. For information about how to create a custom PlatformToolset, see [C++ Native Multi-Targeting](https://go.microsoft.com/fwlink/?LinkId=248587) on the Visual C++ Team blog.
 
 ## See Also
  [Visual C++ Porting and Upgrading Guide](https://msdn.microsoft.com/library/f5fbcc3d-aa72-41a6-ad9a-a706af2166fb)
