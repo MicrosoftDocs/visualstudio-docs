@@ -1,13 +1,13 @@
 ---
-title: Visual Studio Container Tools build overview
+title: Visual Studio Container Tools build and debug overview
 author: ghogen
-description: Overview of the Container Tools build process
+description: Overview of the Container Tools build and debugging process
 ms.author: ghogen
-ms.date: 06/06/2019
+ms.date: 11/20/2019
 ms.technology: vs-azure
 ms.topic: conceptual
 ---
-# Building containerized apps using Visual Studio or the command line
+# Build and debug containerized apps using Visual Studio or the command line
 
 Whether you're building from the Visual Studio IDE, or setting up a command-line build, you need to know how Visual Studio builds uses the Dockerfile to build your projects.  For performance reasons, Visual Studio follows a special process for containerized apps. Understanding how Visual Studio builds your projects is especially important when you customize your build process by modifying the Dockerfile.
 
