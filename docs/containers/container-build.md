@@ -104,6 +104,74 @@ If you are using a Docker Compose project, use the command to build images:
 msbuild /p:SolutionPath=<solution-name>.sln /p:Configuration=Release docker-compose.dcproj
 ```
 
+## Project warmup
+
+These are a sequence of steps that happen when the Docker profile is selected for a project (that is, when a project is loaded or Docker support is added) in order to improve the performance of the subsequent run (**F5** or **Ctrl**+**F5**). This is configurable under **Tools** > **Options** > **Container Tools**. Here are the tasks that run in the background:
+
+- Check that Docker Desktop is installed and running.
+- Ensure that Docker Desktop is set to the same operating system as the project.
+- Pull the images in the Dockerfile's `base` stage.  
+- Build the Dockerfile and start the container.
+
+Warmup will only happen in **Fast** mode, so the running container will have the app folder volume mounted and any changes to the app should not invalidate the container. This therefore improves the debugging performance significantly and decreases the wait time for long running tasks such as pulling large images.
+
+## Volume mapping
+
+For debugging to work in containers, Visual Studio uses volume mapping to map the debugger and NuGet folders from the host machine. Here are the volumes that are mounted in your container:
+
+- Remote debugger: this contains the bits required to run the debugger in the container depending on the project type. This is explained in more details in the [Debugging](#debugging) section.
+- App folder: this contains the project folder where the Dockerfile is located.
+- Source folder: this contains the build context that is passed to Docker commands.
+- NuGet packages folders: this contains the NuGet packages and fallback folders that is read from the project’s *obj\{project}.csproj.nuget.g.props* file.
+
+For ASP.NET core web apps, there might be two additional folders for the SSL certificate and the user secrets, which is explained in more detail in the next section.
+
+## SSL-enabled ASP.NET Core apps
+
+Container tools in VS support debugging an SSL-enabled ASP.NET core app with a dev certificate, the same way you'd expect it to work without containers. To make that happen, Visual Studio adds a couple of more steps to export the certificate and make it available to the container. Here is the flow:
+
+1. Ensure the local development certificate is present and trusted on the host machine through the `dev-certs` tool.
+2. Export the certificate to %APPDATA%\ASP.NET\Https with a secure password that is stored in the user secrets store for this particular app.
+3. Volume mount the following directories:
+
+   - *%APPDATA%\Microsoft\UserSecrets*
+   - *%APPDATA%\ASP.NET\Https*
+
+ASP.NET Core looks for a certificate that matches the assembly name under the *Https* folder, which is why it is mapped to the container in that path. The certificate path and password can alternatively be defined using environment variables (that is, `ASPNETCORE_Kestrel__Certificates__Default__Path` and `ASPNETCORE_Kestrel__Certificates__Default__Password`) or in the user secrets json file, for example:
+
+```json
+{
+  "Kestrel": {
+    "Certificates": {
+      "Default": {
+        "Path": "c:\\app\\mycert.pfx",
+        "Password": "strongpassword"
+      }
+    }
+  }
+}
+```
+
+For more information about using SSL with ASP.NET Core apps in containers, see [Hosting ASP.NET Core images with Docker over HTTPS](https://docs.microsoft.com/aspnet/core/security/docker-https).
+)
+
+## Debugging
+
+The process of running the debugger depends on the type of project and container operating system:
+
+- **.NET Core apps (Linux containers)**: The tooling downloads `vsdbg` and maps it to the container, then it gets called with the debuggee program and arguments (that is, `dotnet webapp.dll`), and Visual Studio can attach to the debugger at that point.
+- **.NET Core apps (Windows containers)**: The tooling uses `onecoremsvsmon` and maps it to the container, runs it as the entry point and Visual Studio connects to it and attaches to the debuggee program. This is similar to how you would normally set up remote debugging on another computer or virtual machine.
+- **.NET Framework apps**: The tooling uses `msvsmon` and maps it to the container, runs it as part of the entry point where Visual Studio can connect to it and attach to the debuggee program.
+
+## Entry point
+
+Visual Studio uses a custom entry point depending on the project type and the container operating system, here are the different combinations:
+
+- **Linux containers**: The entry point is `tail -f /dev/null`, which is an infinite wait to keep the container running. When the app is launched through the debugger, it is the debugger that is responsible to run the app (that is, `dotnet webapp.dll`). If launched without debugging, the tooling runs a `docker exec -i {containerId} dotnet webapp.dll` to run the app.
+- **Windows containers**: The entry point would be something like `C:\remote_debugger\x64\msvsmon.exe /noauth /anyuser /silent /nostatus` which runs the debugger, so it is listening for connections. Same applies that the debugger runs the app, and a `docker exec` command when launched without debugging. For .NET Framework web apps, the entry point is slightly different where `ServiceMonitor` is added to the command.
+  
+Entry point can only be modified in docker-compose but not in single, do we want to mention that?
+
 ## Next steps
 
 Learn how to further customize your builds by setting additional MSBuild properties in your project files. See [MSBuild properties for container projects](container-msbuild-properties.md).
