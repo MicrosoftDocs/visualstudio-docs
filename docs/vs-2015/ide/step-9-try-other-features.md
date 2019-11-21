@@ -15,8 +15,6 @@ manager: jillfra
 
 To learn more, try changing icons and colors, adding a game timer, and adding sounds. To make the game more challenging, try making the board bigger and adjusting the timer.
 
- To download a completed version of the sample, see [Complete Matching Game tutorial sample](http://code.msdn.microsoft.com/Complete-Matching-Game-4cffddba).
-
 ### To try other features
 
 - Replace the icons and colors with ones you choose.
@@ -32,7 +30,7 @@ To learn more, try changing icons and colors, adding a game timer, and adding so
 - Add a sound when the player finds a match, another sound when the player uncovers two icons that don't match, and a third sound when the program hides the icons again.
 
     > [!TIP]
-    > To play sounds, you can use the System.media namespace. See [Play Sounds in Windows Forms App (C# .NET)](http://youtu.be/qOh4ooHg1UU) or [How To Play Audio In Visual Basic](http://youtu.be/-4oPDeQrtMs) for more information.
+    > To play sounds, you can use the System.media namespace. See [Play Sounds in Windows Forms App (C# .NET)](https://www.youtube.com/watch?v=qOh4ooHg1UU&feature=youtu.be) or [How To Play Audio In Visual Basic](https://www.youtube.com/watch?v=-4oPDeQrtMs&feature=youtu.be) for more information.
 
 - Make the game more difficult by making the board bigger.
 
@@ -43,8 +41,8 @@ To learn more, try changing icons and colors, adding a game timer, and adding so
 
 ### To continue or review
 
-- If you get stuck or have programming questions, try posting your question on one of the MSDN forums. See [Visual Basic Forum](http://social.msdn.microsoft.com/Forums/home?forum=vbgeneral) and [Visual C# Forum](http://social.msdn.microsoft.com/Forums/home?forum=csharpgeneral).
+- If you get stuck or have programming questions, try posting your question on one of the MSDN forums. See [Visual Basic Forum](https://social.msdn.microsoft.com/Forums/en-US/home) and [Visual C# Forum](https://social.msdn.microsoft.com/Forums/en-US/home).
 
-- There are great, free video learning resources available to you. To learn more about programming in Visual Basic, see [Visual Basic Fundamentals: Development for Absolute Beginners](http://channel9.msdn.com/Series/Visual-Basic-Development-for-Absolute-Beginners). To learn more about programming in Visual C#, see [C# Fundamentals: Development for Absolute Beginners](http://channel9.msdn.com/Series/C-Sharp-Fundamentals-Development-for-Absolute-Beginners).
+- There are great, free video learning resources available to you. To learn more about programming in Visual Basic, see [Visual Basic Fundamentals: Development for Absolute Beginners](https://channel9.msdn.com/Series/Visual-Basic-Development-for-Absolute-Beginners). To learn more about programming in Visual C#, see [C# Fundamentals: Development for Absolute Beginners](https://channel9.msdn.com/Series/C-Sharp-Fundamentals-Development-for-Absolute-Beginners).
 
 - To return to the previous tutorial step, see [Step 8: Add a Method to Verify Whether the Player Won](../ide/step-8-add-a-method-to-verify-whether-the-player-won.md).

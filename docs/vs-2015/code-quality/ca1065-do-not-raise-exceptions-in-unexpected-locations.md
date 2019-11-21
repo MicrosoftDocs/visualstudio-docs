@@ -83,7 +83,7 @@ manager: "wpickett"
 
 - <xref:System.Object.Equals%2A?displayProperty=fullName>
 
-- [M:IEquatable.Equals](http://go.microsoft.com/fwlink/?LinkId=113472)
+- [M:IEquatable.Equals](https://go.microsoft.com/fwlink/?LinkId=113472)
 
   An **Equals** method should return `true` or `false` instead of throwing an exception. For example, if Equals is passed two mismatched types it should just return `false` instead of throwing an <xref:System.ArgumentException>.
 
@@ -92,7 +92,7 @@ manager: "wpickett"
 
 - <xref:System.Object.GetHashCode%2A>
 
-- [M:IEqualityComparer.GetHashCode(T)](http://go.microsoft.com/fwlink/?LinkId=113477)
+- [M:IEqualityComparer.GetHashCode(T)](https://go.microsoft.com/fwlink/?LinkId=113477)
 
   **GetHashCode** should always return a value. Otherwise, you can lose items in the hash table.
 

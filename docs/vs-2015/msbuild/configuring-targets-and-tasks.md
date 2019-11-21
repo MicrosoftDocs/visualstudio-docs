@@ -18,7 +18,7 @@ You can configure MSBuild targets and tasks to run out-of-process with MSBuild s
 ## Installation  
  The .NET Framework 4.5 and 4.5.1 replace the common language runtime (CLR), targets, tasks, and tools of the .NET Framework 4 without renaming them. The .NET Framework 4.5.1 is installed as part [!INCLUDE[vs_dev12](../includes/vs-dev12-md.md)].  
   
- If you want to install MSBuild separately from Visual Studio, you can download the installation package from [MSBuild Download](http://go.microsoft.com/fwlink/?LinkId=309745). You must also install the .NET Framework versions you wish to use also.  
+ If you want to install MSBuild separately from Visual Studio, you can download the installation package from [MSBuild Download](https://go.microsoft.com/fwlink/?LinkId=309745). You must also install the .NET Framework versions you wish to use also.  
   
 ## Targets and Tasks  
  MSBuild runs certain build tasks out of process to target a larger set of contexts.  For example, a 32-bit MSBuild might run a build task in a 64-bit process to target a 64-bit computer. This is controlled by `UsingTask` arguments and `Task` parameters. The targets installed by the .NET Framework 4.5 set these arguments and parameters, and no changes are required to build applications for the various target contexts.  

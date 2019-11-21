@@ -41,7 +41,7 @@ In this walkthrough, you will create a WPF application that contains data-bound 
 
 - [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]
 
-- Access to a running instance of SQL Server or SQL Server Express that has the AdventureWorksLT sample database attached to it. You can download the AdventureWorksLT database from the [CodePlex Web site](http://go.microsoft.com/fwlink/?linkid=87843).
+- Access to a running instance of SQL Server or SQL Server Express that has the AdventureWorksLT sample database attached to it. You can download the AdventureWorksLT database from the [CodePlex Web site](https://go.microsoft.com/fwlink/?linkid=87843).
 
   Prior knowledge of the following concepts is also helpful, but not required to complete the walkthrough:
 

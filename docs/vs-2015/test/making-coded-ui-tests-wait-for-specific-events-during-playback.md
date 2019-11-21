@@ -103,7 +103,7 @@ UITestControl.WaitForCondition<UITestControl[]>(new UITestControl[] { statusText
 
  **Guidance**
 
- For additional information, see [Testing for Continuous Delivery with Visual Studio 2012 – Chapter 5: Automating System Tests](http://go.microsoft.com/fwlink/?LinkID=255196)
+ For additional information, see [Testing for Continuous Delivery with Visual Studio 2012 – Chapter 5: Automating System Tests](https://go.microsoft.com/fwlink/?LinkID=255196)
 
 ## See Also
  [Use UI Automation To Test Your Code](../test/use-ui-automation-to-test-your-code.md)
