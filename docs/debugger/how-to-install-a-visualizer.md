@@ -28,15 +28,26 @@ After you have created a visualizer, you must install the visualizer so that it 
 
 1. Locate the DLL that contains the visualizer you have built.
 
-2. Copy the DLL to either of the following locations:
+2. Copy the [Debugger Side](create-custom-visualizers-of-data.md#to-create-the-debugger-side) DLL to either of the following locations:
 
     - *VisualStudioInstallPath* `\Common7\Packages\Debugger\Visualizers`
 
     - `My Documents\` *VisualStudioVersion* `\Visualizers`
 
-3. If you want to use a managed visualizer for remote debugging, copy the DLL to the same path on the remote computer.
+3. Copy the [Debuggee Side](create-custom-visualizers-of-data.md#to-create-the-debuggee-side) DLL to either of the following locations:
 
-4. Restart the debugging session.
+    - *VisualStudioInstallPath* `\Common7\Packages\Debugger\Visualizers\<FRAMEWORK>`
+
+    - `My Documents\` *VisualStudioVersion* `\Visualizers\<FRAMEWORK>`
+
+    Where `<FRAMEWORK>` is either:
+    - `net2.0` for debuggees running the `.NET Framework` runtime.
+    - `netstandard2.0` for debuggees using a runtime supported in `netstandard 2.0`.
+    - `netcoreapp` for debuggees running the `.NET Core` runtime.
+
+4. If you want to use a managed visualizer for remote debugging, copy the DLL to the same path on the remote computer.
+
+5. Restart the debugging session.
 
 ## See also
 - [Create Custom Visualizers](../debugger/create-custom-visualizers-of-data.md)
