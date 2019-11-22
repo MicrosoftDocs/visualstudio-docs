@@ -78,7 +78,7 @@ You can mount the **Containers** window in a convenient place, such as below the
 
 In the window, find your container and step through each tab to view the environment variables, port mappings, logs, and the filesystem.
 
-![Screenshot of Containers window](../../media/overview/container-tools-window.png)
+![Screenshot of Containers window](../../media/vs-2019/overview/container-tools-window.png)
 
 For more information, see [View and diagnose containers and images in Visual Studio](../../view-and-diagnose-containers.md).
 
