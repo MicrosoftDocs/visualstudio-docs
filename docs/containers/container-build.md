@@ -26,7 +26,7 @@ EXPOSE 80
 EXPOSE 443
 ```
 
-The lines in the Dockerfile begin with the Nanoserver image from Microsoft Container Registry (mcr.microsoft.com) and create an intermediate image `base` that exposes ports 80 and 443, and sets the working directory to `/app`.
+The lines in the Dockerfile begin with the Nano Server image from Microsoft Container Registry (mcr.microsoft.com) and create an intermediate image `base` that exposes ports 80 and 443, and sets the working directory to `/app`.
 
 The next stage is `build`, which appears as follows:
 
@@ -153,7 +153,6 @@ ASP.NET Core looks for a certificate that matches the assembly name under the *H
 ```
 
 For more information about using SSL with ASP.NET Core apps in containers, see [Hosting ASP.NET Core images with Docker over HTTPS](https://docs.microsoft.com/aspnet/core/security/docker-https).
-)
 
 ## Debugging
 
