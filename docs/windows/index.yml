@@ -155,8 +155,8 @@ additionalContent:
       - title: Collaborate
         summary: Share, edit, and debug code in a collaborative, real-time environment.
         url: /visualstudio/liveshare/
-      - title: Develop with containers
-        summary: Use containers to isolate modular components and improve scalability.
+      - title: Develop with Docker containers
+        summary: Use Docker containers to isolate modular components and improve scalability.
         url: ../containers/index.yml
    - title: Workloads
      items:
