@@ -48,7 +48,7 @@ Next, Visual Studio opens the [Developer Community](https://developercommunity.v
 
 If you have an idea or a suggestion to make Visual Studio better, let us know by using the **Suggest a Feature** tool. In Visual Studio, choose the feedback icon in the upper-right corner, or choose **Help** > **Send Feedback** > **Suggest a Feature** from the menu bar.
 
-Next, Visual Studio opens the [Developer Community](https://developercommunity.visualstudio.com page, where you can sign in to share your idea. For more information, see [Suggest a feature for Visual Studio](suggest-a-feature.md).
+Next, Visual Studio opens the [Developer Community](https://developercommunity.visualstudio.com) interface, where you can sign in to share your idea. For more information, see [Suggest a feature for Visual Studio](suggest-a-feature.md).
 
 ::: moniker-end
 
