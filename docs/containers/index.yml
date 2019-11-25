@@ -23,9 +23,8 @@ landingContent:
         links:
           - text: Container tools in Visual Studio
             url: overview.md
-
-   - title: Get started
-     linkLists:
+  - title: Get started
+    linkLists:
       - linkListType: quickstart
         links:
           - text: Docker in Visual Studio
