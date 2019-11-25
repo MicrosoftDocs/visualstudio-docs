@@ -64,8 +64,8 @@ Next, Visual Studio opens the [Developer Community](https://developercommunity.v
 
 There are two ways that you can help us improve the documentation:
 
-* Use the **Is this page helpful?** response tool at the top-right of the documentation page. 
-* Use your GitHub account to provide feedback for any Visual Studio page on [docs.microsoft.com](/visualstudio/). To do so, choose the **Send feedback about** > **This page** button at the bottom of the documentation page.
+* Use the **Is this page helpful?** response tool at the top-right of any documentation page.
+* Use your GitHub account to provide feedback for any Visual Studio page on [docs.microsoft.com](/visualstudio/). To do so, choose the **Send feedback about** > **This page** button at the bottom of any documentation page.
 
 ## Contact Microsoft support
 
@@ -88,7 +88,7 @@ If you want to share questions and answers with other developers, consider conne
 * Visual Studio on [Reddit](https://www.reddit.com/r/VisualStudio/)
 * [Stack Overflow](https://stackoverflow.com/search?q=visual+studio+-code)
 
-You can also view code from other developers and share your own examples on the [Developer code samples](https://code.msdn.microsoft.com/) site.
+You can also view code from other developers and share your own examples on the [Browse code samples](/samples/browse/) page.
 
 ## See also
 
