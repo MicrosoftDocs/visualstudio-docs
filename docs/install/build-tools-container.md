@@ -130,6 +130,9 @@ Save the following example Dockerfile to a new file on your disk. If the file is
    > See [Windows container version compatibility](/virtualization/windowscontainers/deploy-containers/version-compatibility) to see which container OS versions are supported on which host OS versions, and [Known issues for containers](build-tools-container-issues.md) for known issues.
 
    ::: moniker-end
+   
+   > [!NOTE]
+   > Error code `3010` is used to indicate a successful installation, see [MsiExec.exe error messages](/windows/win32/msi/error-codes) for more information.
 
 1. Run the following command within that directory.
 
