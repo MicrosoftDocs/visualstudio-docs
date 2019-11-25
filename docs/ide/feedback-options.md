@@ -28,7 +28,7 @@ If you experience problems with Visual Studio&mdash;such as crashes, sluggish pe
 
 ![Send Feedback icon in the Visual Studio 2019 IDE](./media/vs-2019/send-feedback-icon.png)
 
-Next, Visual Studio opens the [Developer Community](https://developercommunity.visualstudio.com) page in your browser, where you can sign in to report the problem. For more information, see [How to report a problem with Visual Studio](how-to-report-a-problem-with-visual-studio.md).
+Next, Visual Studio opens the [Developer Community](https://developercommunity.visualstudio.com) interface, where you can sign in to report the problem. For more information, see [How to report a problem with Visual Studio](how-to-report-a-problem-with-visual-studio.md).
 
 ::: moniker-end
 
@@ -38,7 +38,7 @@ If you experience problems with Visual Studio&mdash;such as crashes, sluggish pe
 
 ![Send Feedback icon in the Visual Studio 2019 IDE](./media/send-feedback-icon.png)
 
-Next, Visual Studio opens the [Developer Community](https://developercommunity.visualstudio.com) page in your browser, where you can sign in to report the problem. For more information, see [How to report a problem with Visual Studio](how-to-report-a-problem-with-visual-studio.md).
+Next, Visual Studio opens the [Developer Community](https://developercommunity.visualstudio.com) page, where you can sign in to report the problem. For more information, see [How to report a problem with Visual Studio](how-to-report-a-problem-with-visual-studio.md).
 
 ::: moniker-end
 
