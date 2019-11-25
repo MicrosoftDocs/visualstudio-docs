@@ -64,8 +64,8 @@ Next, Visual Studio opens the [Developer Community](https://developercommunity.v
 
 There are two ways that you can help us improve the documentation:
 
-* Choose the **Was this page helpful?** feedback button at the bottom of the page. You can find this button on all our documentation pages.
-* Use your GitHub account to provide feedback for any Visual Studio page on [docs.microsoft.com](/visualstudio/). To do so, choose the **Send feedback about** > **This page** button, also at the bottom of the page.
+* Use the **Is this page helpful?** response tool at the top-right of the documentation page. 
+* Use your GitHub account to provide feedback for any Visual Studio page on [docs.microsoft.com](/visualstudio/). To do so, choose the **Send feedback about** > **This page** button at the bottom of the documentation page.
 
 ## Contact Microsoft support
 
