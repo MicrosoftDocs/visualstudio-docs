@@ -25,7 +25,7 @@ landingContent:
             url: overview.md
 
    - title: Get started
-    linkLists:
+     linkLists:
       - linkListType: quickstart
         links:
           - text: Docker in Visual Studio
