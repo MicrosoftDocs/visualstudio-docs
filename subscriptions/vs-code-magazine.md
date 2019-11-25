@@ -34,7 +34,7 @@ The process to set up your CODE Magazine subscription is simple.  Just follow th
       > ![CODE Magazine subscription details](_img/vs-code-magazine/vs-code-magazine-details.png "Subscription details and price")
 6. Next, you'll need to provide your subscriber information and a delivery address.  (The delivery address is required even for digital subscriptions, as it supports fulfillment, offer selection, and digital access processes.)
 7. If you live outside of the United States and chose to receive a printed magazine subscription, you may be asked to provide a billing address and payment information to cover the costs of shipping. 
-8. You can opt in to CODE HTML Newletter by clicking on the check box.
+8. You can opt in to CODE HTML Newsletter by clicking on the check box.
    > [!div class="mx-imgBorder"]
    > ![CODE Magazine subscriber information](_img/vs-code-magazine/vs-code-magazine-subscriber-info.png "Subscriber information and deliver address")
 9. Click **Place Order** to complete your subscription.  

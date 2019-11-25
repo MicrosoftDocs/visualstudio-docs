@@ -73,7 +73,7 @@ Not sure which subscription you're using?  Connect to [https://my.visualstudio.c
 ## Frequently asked questions
 
 ### Q: I have a Visual Studio Enterprise subscription, but I don't see the Pluralsight tile on the Benefits page. What's wrong?
-A: Not all Visual Studio Enterprise subscriptions include the Pluralsight benefit.  Check the [eligibility table](#eligibility) table to see whether your subscription is eligible.
+A: Not all Visual Studio Enterprise subscriptions include the Pluralsight benefit.  Check the [eligibility table](#eligibility) to see whether your subscription is eligible.
 
 ### Q: Do I have access to any customized learning  playlists or channels?
 A: Yes, as a Visual Studio subscriber you get access to expert channels as part of your Pluralsight training benefit. These channels have been specially curated by Microsoft experts and are geared towards learning in the areas of .Net, Azure, DevOps and Mobility. Activate your Pluralsight benefit through your Visual Studio subscription portal [https://my.visualstudio.com](https://my.visualstudio.com?wt.mc_id=o~msft~docs) to get access to these channels on your Pluralsight landing page –
