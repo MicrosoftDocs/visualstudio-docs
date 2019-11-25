@@ -22,7 +22,7 @@ Welcome to Visual Studio 2015, an integrated suite of developer productivity too
 
 This page highlights some of the most important features that are new since Visual Studio 2013 RTM, including features that were first introduced in one of the Visual Studio 2013 updates. For a complete list of what’s new in Visual Studio 2015, see the [Release Notes](https://www.visualstudio.com/news/vs2015-vs).
 
-To find out more about the many improvements and new features in Visual Studio ALM, see [What's new for TFS 2015](/tfs/server/whats-new?view=vsts#tfs-2015-rtm).
+To find out more about the many improvements and new features in Visual Studio ALM, see [What's new for TFS 2015](/azure/devops/server/whats-new).
 
 ## A new setup experience
  [!INCLUDE[downloadvs](./includes/downloadvs-md.md)]
