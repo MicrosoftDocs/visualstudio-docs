@@ -1,7 +1,7 @@
 ---
 title: "Feedback options"
 description: "We're interested in your ideas for improving our products and documentation; here's how to send us feedback."
-ms.date: 04/25/2019
+ms.date: 11/20/2019
 ms.topic: conceptual
 ms.custom: seoapril2019
 helpviewer_keywords:
@@ -42,27 +42,23 @@ Next, Visual Studio opens the [Developer Community](https://developercommunity.v
 
 ::: moniker-end
 
-## Make a suggestion
+## Suggest a feature
 
 ::: moniker range="vs-2019"
 
-If there's something we can add or do better, let us know by using the **Suggest a Feature** tool. In Visual Studio, choose the feedback icon in the upper-right corner, or choose **Help** > **Send Feedback** > **Suggest a Feature** from the menu bar.
+If you have an idea or a suggestion to make Visual Studio better, let us know by using the **Suggest a Feature** tool. In Visual Studio, choose the feedback icon in the upper-right corner, or choose **Help** > **Send Feedback** > **Suggest a Feature** from the menu bar.
 
-Next, Visual Studio opens the [Developer Community](https://developercommunity.visualstudio.com) page in your browser, where you can sign in to share your idea. For more information, see [Suggest a feature for Visual Studio](suggest-a-feature.md).
+Next, Visual Studio opens the [Developer Community](https://developercommunity.visualstudio.com page, where you can sign in to share your idea. For more information, see [Suggest a feature for Visual Studio](suggest-a-feature.md).
 
 ::: moniker-end
 
 ::: moniker range="vs-2017"
 
-If there's something we can do better, let us know by using the **Provide a Suggestion** tool. In Visual Studio, choose the feedback icon next to the search box, or choose **Help** > **Send Feedback** > **Provide a Suggestion** from the menu bar.
+If you have an idea or a suggestion to make Visual Studio better, let us know by using the **Provide a Suggestion** tool. In Visual Studio, choose the feedback icon next to the search box, or choose **Help** > **Send Feedback** > **Provide a Suggestion** from the menu bar.
 
-Next, Visual Studio opens the [Developer Community](https://developercommunity.visualstudio.com) page in your browser, where you can sign in to share your idea. For more information, see [Suggest a feature for Visual Studio](suggest-a-feature.md).
+Next, Visual Studio opens the [Developer Community](https://developercommunity.visualstudio.com) page, where you can sign in to share your idea. For more information, see [Suggest a feature for Visual Studio](suggest-a-feature.md).
 
 ::: moniker-end
-
-### Rate this product
-
-Pre-release versions of Visual Studio have a **Rate this Product** menu item that released versions of the product don't have. Use the **Rate this Product** menu item to send feedback on the quality of the pre-release build that you're running.
 
 ## Improve the documentation
 
@@ -88,7 +84,6 @@ Microsoft support services are subject to then-current prices, terms, and condit
 
 If you want to share questions and answers with other developers, consider connecting with them on the following community sites:
 
-* Visual Studio [Developer Community](https://developercommunity.visualstudio.com)
 * [MSDN forums](https://social.msdn.microsoft.com/Forums/home)
 * Visual Studio on [Reddit](https://www.reddit.com/r/VisualStudio/)
 * [Stack Overflow](https://stackoverflow.com/search?q=visual+studio+-code)
