@@ -177,8 +177,7 @@ Visual Studio uses a custom container entry point depending on the project type 
 | **Linux containers** | The entry point is `tail -f /dev/null`, which is an infinite wait to keep the container running. When the app is launched through the debugger, it is the debugger that is responsible to run the app (that is, `dotnet webapp.dll`). If launched without debugging, the tooling runs a `docker exec -i {containerId} dotnet webapp.dll` to run the app.|
 | **Windows containers**| The entry point is something like `C:\remote_debugger\x64\msvsmon.exe /noauth /anyuser /silent /nostatus` which runs the debugger, so it is listening for connections. Same applies that the debugger runs the app, and a `docker exec` command when launched without debugging. For .NET Framework web apps, the entry point is slightly different where `ServiceMonitor` is added to the command.|
   
-> [!NOTE]
-> The container entry point can only be modified in docker-compose projects, not in single-container projects.
+The container entry point can only be modified in docker-compose projects, not in single-container projects.
 
 ## Next steps
 
