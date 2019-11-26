@@ -56,7 +56,7 @@ The final stage starts again from `base`, and includes the `COPY --from=publish`
 
 ## Building from the command line
 
-You can use `docker build` or `MSBuild` to build from the command line.
+If you want to build outside of Visual Studio, you can use `docker build` or `MSBuild` to build from the command line.
 
 ### docker build
 
@@ -76,7 +76,7 @@ To build an image for single docker container project you can use MSBuild with t
 MSBuild MyProject.csproj /t:ContainerBuild /p:Configuration=Release
 ```
 
-You'll see output similar to what you see in the **Output** window when you build your solution from the Visual Studio IDE. Always use `/p:Configuration=Release`, since in cases where Visual Studio uses the multistage build optimization, results when building the **Debug** configuration might not be as expected.
+You'll see output similar to what you see in the **Output** window when you build your solution from the Visual Studio IDE. Always use `/p:Configuration=Release`, since in cases where Visual Studio uses the multistage build optimization, results when building the **Debug** configuration might not be as expected. See [Debugging](#debugging).
 
 If you are using a Docker Compose project, use the command to build images:
 
