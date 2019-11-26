@@ -1410,6 +1410,8 @@
     - name: Report a problem states and FAQ
       displayName: Developer Community
       href: ide/report-a-problem.md
+    - name: Increase the chances of a performance issue being fixed
+      href: ide/how-to-increase-chances-of-performance-issue-being-fixed.md
     - name: Create minidumps for a Visual Studio process with all callstacks
       displayName: Create minidumps with call stacks
       href: ide/report-a-problem-minidumps.md
