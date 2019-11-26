@@ -54,24 +54,6 @@ ENTRYPOINT ["dotnet", "WebApplication43.dll"]
 
 The final stage starts again from `base`, and includes the `COPY --from=publish` to copy the published output to the final image. This process makes it possible for the final image to be a lot smaller, since it doesn't need to include all of the build tools that were in the `sdk` image.
 
-## Faster builds for the Debug configuration
-
-There are several optimizations that Visual Studio does that help with the performance of the build process for containerized projects. The build process for containerized apps is not as straightforward as simply following the steps outlined in the Dockerfile. Building in a container is much slower than building on the local machine.  So, when you build in the **Debug** configuration, Visual Studio actually builds your projects on the local machine, and then shares the output folder to the container using volume mounting. A build with this optimization enabled is called a *Fast* mode build.
-
-In **Fast** mode, Visual Studio calls `docker build` with an argument that tells Docker to build only the `base` stage.  Visual Studio handles the rest of the process without regard to the contents of the Dockerfile. So, when you modify your Dockerfile, such as to customize the container environment or install additional dependencies, you should put your modifications in the first stage.  Any custom steps placed in the Dockerfile's `build`, `publish`, or `final` stages will not be executed.
-
-This performance optimization only occurs when you build in the **Debug** configuration. In the **Release** configuration, the build occurs in the container as specified in the Dockerfile.
-
-If you want to disable the performance optimization and build as the Dockerfile specifies, then set the **ContainerDevelopmentMode** property to **Regular** in the project file as follows:
-
-```xml
-<PropertyGroup>
-   <ContainerDevelopmentMode>Regular</ContainerDevelopmentMode>
-</PropertyGroup>
-```
-
-To restore the performance optimization, remove the property from the project file.
-
 ## Building from the command line
 
 You can use `docker build` or `MSBuild` to build from the command line.
@@ -156,6 +138,22 @@ For more information about using SSL with ASP.NET Core apps in containers, see [
 
 ## Debugging
 
+When building in **Debug** configuration, there are several optimizations that Visual Studio does that help with the performance of the build process for containerized projects. The build process for containerized apps is not as straightforward as simply following the steps outlined in the Dockerfile. Building in a container is much slower than building on the local machine.  So, when you build in the **Debug** configuration, Visual Studio actually builds your projects on the local machine, and then shares the output folder to the container using volume mounting. A build with this optimization enabled is called a *Fast* mode build.
+
+In **Fast** mode, Visual Studio calls `docker build` with an argument that tells Docker to build only the `base` stage.  Visual Studio handles the rest of the process without regard to the contents of the Dockerfile. So, when you modify your Dockerfile, such as to customize the container environment or install additional dependencies, you should put your modifications in the first stage.  Any custom steps placed in the Dockerfile's `build`, `publish`, or `final` stages will not be executed.
+
+This performance optimization only occurs when you build in the **Debug** configuration. In the **Release** configuration, the build occurs in the container as specified in the Dockerfile.
+
+If you want to disable the performance optimization and build as the Dockerfile specifies, then set the **ContainerDevelopmentMode** property to **Regular** in the project file as follows:
+
+```xml
+<PropertyGroup>
+   <ContainerDevelopmentMode>Regular</ContainerDevelopmentMode>
+</PropertyGroup>
+```
+
+To restore the performance optimization, remove the property from the project file.
+
  When you start debugging (**F5**), a previously started container is reused, if possible. If you don't want to reuse the previous container, you can use **Rebuild** or **Clean** commands in Visual Studio to force Visual Studio to use a fresh container.
 
 The process of running the debugger depends on the type of project and container operating system:
@@ -176,7 +174,7 @@ Visual Studio uses a custom container entry point depending on the project type 
 |-|-|
 | **Linux containers** | The entry point is `tail -f /dev/null`, which is an infinite wait to keep the container running. When the app is launched through the debugger, it is the debugger that is responsible to run the app (that is, `dotnet webapp.dll`). If launched without debugging, the tooling runs a `docker exec -i {containerId} dotnet webapp.dll` to run the app.|
 | **Windows containers**| The entry point is something like `C:\remote_debugger\x64\msvsmon.exe /noauth /anyuser /silent /nostatus` which runs the debugger, so it is listening for connections. Same applies that the debugger runs the app, and a `docker exec` command when launched without debugging. For .NET Framework web apps, the entry point is slightly different where `ServiceMonitor` is added to the command.|
-  
+
 The container entry point can only be modified in docker-compose projects, not in single-container projects.
 
 ## Next steps
