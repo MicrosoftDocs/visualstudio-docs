@@ -132,7 +132,7 @@ Save the following example Dockerfile to a new file on your disk. If the file is
    ::: moniker-end
    
    > [!NOTE]
-   > Error code `3010` is used to indicate success, but reboot required, see [MsiExec.exe error messages](/windows/win32/msi/error-codes) for more information.
+   > Error code `3010` is used to indicate success with a reboot required, see [MsiExec.exe error messages](/windows/win32/msi/error-codes) for more information.
 
 1. Run the following command within that directory.
 
