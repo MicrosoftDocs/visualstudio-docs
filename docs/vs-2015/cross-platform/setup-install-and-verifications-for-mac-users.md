@@ -69,7 +69,7 @@ This topic is meant for developers working primarily on a Mac who will optionall
     > [!NOTE]
     > Be sure to update Xamarin to version 4.0.3.214 or higher to avoid issues with earlier Xamarin licenses.  If you attempt to check for updates and see an error about Microsoft build tools, see the thread on [Xamarin's forums](https://forums.xamarin.com/discussion/69015/xamarin-update-on-vs-2013-says-i-need-the-build-tools-for-vs-2015).
   
-6. Once you’ve completed installing Xamarin on both the Windows and Mac computers, follow the instructions on [Connecting to the Mac using XMA](https://docs.microsoft.com/xamarin/ios/get-started/installation/windows/?pivots=windows#Connecting_to_the_Mac_Using_XMA) (xamarin.com) so that you can work with iOS from Visual Studio.  
+6. Once you’ve completed installing Xamarin on both the Windows and Mac computers, follow the instructions on [Connecting to the Mac using XMA](/xamarin/ios/get-started/installation/windows/connecting-to-mac) (xamarin.com) so that you can work with iOS from Visual Studio.  
   
 ## <a name="verify"></a> Verify your environment  
  Once the installers have completed, spend a few minutes to verify that everything is ready to experience Xamarin development.  
@@ -110,7 +110,7 @@ This topic is meant for developers working primarily on a Mac who will optionall
   
    **iOS**  
   
-4. Make sure your Mac is available on the network and paired with Visual Studio as described on [Connecting to the Mac using XMA](https://docs.microsoft.com/xamarin/ios/get-started/installation/windows/?pivots=windows#Connecting_to_the_Mac_Using_XMA) (xamarin.com).  
+4. Make sure your Mac is available on the network and paired with Visual Studio as described on [Connecting to the Mac using XMA](/xamarin/ios/get-started/installation/windows/connecting-to-mac) (xamarin.com).  
   
 5. Validate creating an iOS project by following the instructions on [Create an iOS](https://github.com/xamarin/docs-archive/tree/master/Recipes/ios/general/projects/create_an_ios_project) (xamarin.com).  
   

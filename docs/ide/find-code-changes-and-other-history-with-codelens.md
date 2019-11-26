@@ -260,7 +260,7 @@ Turn CodeLens file-level indicators on and off using the chevron icons at the bo
 
 - Make sure CodeLens is turned on. Go to **Tools** > **Options** > **Text Editor** > **All Languages** > **CodeLens**.
 
-- If your code is stored in TFS, make sure that code indexing is turned on by using the [CodeIndex command](../ide/codeindex-command.md) with the [TFS Config command](/tfs/server/ref/command-line/tfsconfig-cmd).
+- If your code is stored in TFS, make sure that code indexing is turned on by using the [CodeIndex command](../ide/codeindex-command.md) with the [TFS Config command](/azure/devops/server/command-line/tfsconfig-cmd).
 
 - DevOps-related indicators appear only when work items are linked to the code and when you have permissions to open linked work items. Confirm that you have [team member permissions](/azure/devops/organizations/security/view-permissions?view=vsts).
 
@@ -342,7 +342,7 @@ To use the keyboard:
 
 ### Q: Can I manage how CodeLens processes code to show history and linked items?
 
-**A:** Yes. If your code is in TFS, use the [CodeIndex command](../ide/codeindex-command.md) with the [TFS Config command](/tfs/server/ref/command-line/tfsconfig-cmd).
+**A:** Yes. If your code is in TFS, use the [CodeIndex command](../ide/codeindex-command.md) with the [TFS Config command](/azure/devops/server/command-line/tfsconfig-cmd).
 
 ### Q: My CodeLens test indicators no longer appear in my file when I first open my solution. How can I load them?
 
