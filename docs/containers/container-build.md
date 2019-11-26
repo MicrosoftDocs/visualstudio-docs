@@ -86,7 +86,7 @@ msbuild /p:SolutionPath=<solution-name>.sln /p:Configuration=Release docker-comp
 
 ## Project warmup
 
-These are a sequence of steps that happen when the Docker profile is selected for a project (that is, when a project is loaded or Docker support is added) in order to improve the performance of the subsequent run (**F5** or **Ctrl**+**F5**). This is configurable under **Tools** > **Options** > **Container Tools**. Here are the tasks that run in the background:
+*Project warmup* refers to a series of steps that happen when the Docker profile is selected for a project (that is, when a project is loaded or Docker support is added) in order to improve the performance of subsequent runs (**F5** or **Ctrl**+**F5**). This is configurable under **Tools** > **Options** > **Container Tools**. Here are the tasks that run in the background:
 
 - Check that Docker Desktop is installed and running.
 - Ensure that Docker Desktop is set to the same operating system as the project.
