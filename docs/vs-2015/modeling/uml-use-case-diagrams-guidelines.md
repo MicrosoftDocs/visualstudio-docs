@@ -21,7 +21,7 @@ manager: jillfra
 
 In Visual Studio, you can draw a *use case diagram* to summarize who uses your application or system, and what they can do with it. To create a UML use case diagram, on the **Architecture** menu, click **New UML or Layer Diagram**.
 
- For a video demonstration, see [Organizing Features into Use Cases](http://channel9.msdn.com/posts/clinted/UML-with-VS-2010-Part-2-Organizing-Features-Into-Use-Cases/).
+ For a video demonstration, see [Organizing Features into Use Cases](https://channel9.msdn.com/blogs/clinted/uml-with-vs-2010-part-2-organizing-features-into-use-cases).
 
  To see which versions of Visual Studio support this feature, see [Version support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport).
 
@@ -442,4 +442,4 @@ In Visual Studio, you can draw a *use case diagram* to summarize who uses your a
  [UML Class Diagrams: Reference](../modeling/uml-class-diagrams-reference.md)
  [UML Component Diagrams: Reference](../modeling/uml-component-diagrams-reference.md)
  [UML Activity Diagrams: Guidelines](../modeling/uml-activity-diagrams-guidelines.md)
- [Video: Organizing Features into Use Cases](http://channel9.msdn.com/posts/clinted/UML-with-VS-2010-Part-2-Organizing-Features-Into-Use-Cases/)
+ [Video: Organizing Features into Use Cases](https://channel9.msdn.com/blogs/clinted/uml-with-vs-2010-part-2-organizing-features-into-use-cases)

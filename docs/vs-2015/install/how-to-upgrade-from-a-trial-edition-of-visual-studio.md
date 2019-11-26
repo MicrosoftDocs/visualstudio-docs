@@ -17,12 +17,12 @@ You can evaluate the pre-release version of Visual Studio for 14 days without re
 
  You can evaluate the release version of Professional and Enterprise editions of Visual Studio for 30 days, starting when you install the product. [Signing in to Visual Studio](../ide/signing-in-to-visual-studio.md) adds 60 days to the evaluation period, for a total of 90 days. If you don't register a trial edition of Visual Studio within 30 days, the trial period expires 30 days after you install them.
 
- For example, if you download and use [!INCLUDE[vsPreLong](../includes/vsprelong-md.md)] for 10 days and then register it, you can use it for an additional 80 days. To continue to use the product after 90 days, you must either provide a valid product key, or sign into Visual Studio with a Microsoft account, or an organizational account, that is associated with an MSDN subscription or a Visual Studio Online subscription. For information about how to locate or obtain a product key, see [How to: Locate the Visual Studio Product Key](../install/how-to-locate-the-visual-studio-product-key.md) and [How to buy Visual Studio](http://www.visualstudio.com/products/how-to-buy-vs).
+ For example, if you download and use [!INCLUDE[vsPreLong](../includes/vsprelong-md.md)] for 10 days and then register it, you can use it for an additional 80 days. To continue to use the product after 90 days, you must either provide a valid product key, or sign into Visual Studio with a Microsoft account, or an organizational account, that is associated with an MSDN subscription or a Visual Studio Online subscription. For information about how to locate or obtain a product key, see [How to: Locate the Visual Studio Product Key](../install/how-to-locate-the-visual-studio-product-key.md) and [How to buy Visual Studio](https://visualstudio.microsoft.com/vs/pricing/).
 
 > [!IMPORTANT]
 > The trial period for release versions of Express editions of Visual Studio is also 30 days. To indefinitely extend the trial period for Express editions of Visual Studio, sign in to Visual Studio or register the product.
 
- Before you upgrade, it's recommend that you download and review the [Visual Studio and MSDN Licensing White Paper](http://www.microsoft.com/download/details.aspx?id=13350) from the Microsoft website. For additional assistance, see [Support for Visual Studio](http://support.microsoft.com/ph/1117/en-us).
+ Before you upgrade, it's recommend that you download and review the [Visual Studio and MSDN Licensing White Paper](https://www.microsoft.com/download/details.aspx?id=13350) from the Microsoft website. For additional assistance, see [Support for Visual Studio](https://support.microsoft.com/ph/1117/en-us).
 
 ### To upgrade from a trial edition of Visual Studio Professional or Enterprise
 

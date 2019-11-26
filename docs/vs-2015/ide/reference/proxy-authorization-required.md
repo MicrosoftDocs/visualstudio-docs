@@ -19,7 +19,7 @@ To correct this error, try one or more of the following steps:
 
 - Restart Visual Studio. A proxy authentication dialog box should appear. Enter your credentials in the dialog.
 
-- If the above step does not solve the problem, this may be because your proxy server does not prompt for credentials for http://go.microsoft.com addresses but does so for *.visualStudio.com addresses. For these servers, you need to add the following URLs to the allow list to unblock all sign-in scenarios in Visual Studio:
+- If the above step does not solve the problem, this may be because your proxy server does not prompt for credentials for https://go.microsoft.com addresses but does so for *.visualStudio.com addresses. For these servers, you need to add the following URLs to the allow list to unblock all sign-in scenarios in Visual Studio:
 
   - *.windows.net
 
@@ -31,7 +31,7 @@ To correct this error, try one or more of the following steps:
 
   - *.live.com
 
-- You can remove the http://go.microsoft.com address from the allow list so that the proxy authentication dialog shows up for both the http://go.microsoft.com address and the server endpoints when Visual Studio is restarted.
+- You can remove the https://go.microsoft.com address from the allow list so that the proxy authentication dialog shows up for both the https://go.microsoft.com address and the server endpoints when Visual Studio is restarted.
 
 - If you want to use your default credentials with your proxy, do the following:
 
@@ -47,4 +47,4 @@ To correct this error, try one or more of the following steps:
 
       Insert the correct proxy address for your network in `proxyaddress="<http://<yourproxy:port#>`.
 
-- Follow the instructions in [this blog post](http://blogs.msdn.com/b/rido/archive/2010/05/06/how-to-connect-to-tfs-through-authenticated-web-proxy.aspx) to add code that allows you to use the proxy.
+- Follow the instructions in [this blog post](https://blogs.msdn.microsoft.com/rido/2010/05/06/how-to-connect-to-tfs-through-authenticated-web-proxy/) to add code that allows you to use the proxy.

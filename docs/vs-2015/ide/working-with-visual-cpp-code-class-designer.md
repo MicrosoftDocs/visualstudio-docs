@@ -76,7 +76,7 @@ Class Designer displays a visual design surface called a *class diagram* that pr
 - Ensure that the type is in the correct scope so that Class Designer can locate it. Make sure that the code is not missing a `using`, `imports`, or `#include` statement. Also make sure that you have not moved the type (or a related type) out of the namespace in which it was originally located.
 
 ### Troubleshooting Other Error Messages
- You can find assistance with troubleshooting errors and warnings in the Microsoft Developer Network (MSDN) public forums. See the [Visual Studio Class Designer Forum](http://go.microsoft.com/fwlink/?linkid=160754).
+ You can find assistance with troubleshooting errors and warnings in the Microsoft Developer Network (MSDN) public forums. See the [Visual Studio Class Designer Forum](https://go.microsoft.com/fwlink/?linkid=160754).
 
 ## <a name="limitations"></a> Limitations for C++ Code Elements
 

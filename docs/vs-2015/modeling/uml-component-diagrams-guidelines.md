@@ -19,7 +19,7 @@ manager: jillfra
 # UML Component Diagrams: Guidelines
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-In Visual Studio, you can draw a *component diagram* to show the structure a software system. For a video demonstration, see [Designing the Physical Structure by using Component Diagrams](http://channel9.msdn.com/posts/clinted/UML-with-VS-2010-Part-6-Designing-a-Projects-Physical-Structure/).
+In Visual Studio, you can draw a *component diagram* to show the structure a software system. For a video demonstration, see [Designing the Physical Structure by using Component Diagrams](https://channel9.msdn.com/blogs/clinted/uml-with-vs-2010-part-6-designing-a-projects-physical-structure).
 
  To see which versions of Visual Studio support this feature, see [Version support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport).
 
@@ -333,4 +333,4 @@ In Visual Studio, you can draw a *component diagram* to show the structure a sof
  [UML Use Case Diagrams: Reference](../modeling/uml-use-case-diagrams-reference.md)
  [UML Class Diagrams: Reference](../modeling/uml-class-diagrams-reference.md)
  [UML Component Diagrams: Reference](../modeling/uml-component-diagrams-reference.md)
- [Video: Designing the Physical Structure by using Component Diagrams](http://channel9.msdn.com/posts/clinted/UML-with-VS-2010-Part-6-Designing-a-Projects-Physical-Structure/)
+ [Video: Designing the Physical Structure by using Component Diagrams](https://channel9.msdn.com/blogs/clinted/uml-with-vs-2010-part-6-designing-a-projects-physical-structure)

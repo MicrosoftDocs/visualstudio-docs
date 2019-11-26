@@ -3,7 +3,7 @@ title: "Including a NuGet package in your project"
 description: This document covers how to include a NuGet package in a project using Visual Studio for Mac. It walks through finding and downloading a package, as well as introducing the IDE integration features.
 author: jmatthiesen
 ms.author: jomatthi
-ms.date: 09/18/2019
+ms.date: 11/01/2019
 ms.assetid: 5C800815-0B13-4B27-B017-95FCEF1A0EA2
 ms.custom: conceptual
 ---
@@ -22,7 +22,7 @@ For an intro to using NuGet in Visual Studio for Mac, see [Quickstart: Install a
 
     ![Add new NuGet package context action](media/nuget-walkthrough-packages-menu.png)
 
-2. This launches the **Manage NuGet Packages** window. Ensure that the Source drop-down in the top left corner of the dialog is set to `nuget.org`.
+2. This launches the **Manage NuGet Packages** window. Ensure that the Source drop-down in the top left corner of the dialog is set to `nuget.org`, so that you're searching the central NuGet package repository.
 
     ![List NuGet Packages](media/nuget-walkthrough-add-packages1.png)
 
@@ -66,6 +66,7 @@ Right-click on **Dependencies** to access the context menu and choose **Update**
 
 Update and Restore options are also available at the Solution level, and affect all the projects in the solution.
 
+### Locating outdated packages
 From the solution pad, you can view what version of a package is currently installed and right-click on the package to update.
 
 ![Packages menu with the options to Update, Remove, Refresh](media/nuget-walkthrough-PackageMenu.png)
@@ -78,6 +79,32 @@ In the menu shown, you have two options:
 
 * **Update** - Checks the source server and downloads a newer version (if it exists).
 * **Remove** - Removes the package from this project and removes the relevant assemblies from the project's References.
+
+## Manage packages for the solution
+
+Managing packages for a solution is a convenient means to work with multiple projects simultaneously.
+
+1. Right-click the solution and select **Manage NuGet Packages...**:
+
+    ![Manage NuGet packages for the solution](media/nuget-walkthrough-manage-packages-solution.png)
+
+1. When managing packages for the solution, the UI lets you select the projects that are affected by the operations:
+
+    ![Project selector when managing packages for the solution](media/nuget-walkthrough-add-to-projects.png)
+
+### Consolidate tab
+
+When working in a solution with multiple projects, it's considered a best practice to make sure that anywhere you use the same NuGet package in each project, you're also using the same version number of that package. Visual Studio for Mac helps make this easier by providing a **Consolidate** tab in the Package Manager UI when you choose to manage packages for a solution. Using this tab, you can easily see where packages with distinct version numbers are used by different projects in the solution:
+
+![Package Manager UI Consolidate tab](media/nuget-walkthrough-consolidate-tab.png)
+
+In this example, the NuGetDemo project is using Microsoft.EntityFrameworkCore 2.20, whereas NuGetDemo.Shared is using Microsoft.EntityFrameworkCore 2.2.6. To consolidate package versions, do the following:
+
+- Select the projects to update in the project list.
+- Select the version to use in all those projects in the **New Version** list, such as Microsoft.EntityFrameworkCore 3.0.0.
+- Select the **Consolidate Package** button.
+
+The Package Manager installs the selected package version into all selected projects, after which the package no longer appears on the **Consolidate** tab.
 
 ## Adding Package Sources
 

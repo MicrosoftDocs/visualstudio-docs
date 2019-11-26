@@ -26,9 +26,9 @@ A domain-specific language (DSL) is created by using a specialized [!INCLUDE[vsp
 
 |||
 |-|-|
-|[!INCLUDE[vsprvs](../includes/vsprvs-md.md)]|[http://go.microsoft.com/fwlink/?LinkID=185579](http://go.microsoft.com/fwlink/?LinkID=185579)|
-|[!INCLUDE[vssdk_current_short](../includes/vssdk-current-short-md.md)]|[http://go.microsoft.com/fwlink/?LinkID=185580](http://go.microsoft.com/fwlink/?LinkID=185580)|
-|Visual Studio Visualization and Modeling SDK|[http://go.microsoft.com/fwlink/?LinkID=185581](http://go.microsoft.com/fwlink/?LinkID=185581)|
+|[!INCLUDE[vsprvs](../includes/vsprvs-md.md)]|[http://go.microsoft.com/fwlink/?LinkID=185579](https://go.microsoft.com/fwlink/?LinkID=185579)|
+|[!INCLUDE[vssdk_current_short](../includes/vssdk-current-short-md.md)]|[http://go.microsoft.com/fwlink/?LinkID=185580](https://go.microsoft.com/fwlink/?LinkID=185580)|
+|Visual Studio Visualization and Modeling SDK|[http://go.microsoft.com/fwlink/?LinkID=185581](https://go.microsoft.com/fwlink/?LinkID=185581)|
 
 ## Creating a Domain-Specific Language Solution
 
@@ -123,7 +123,7 @@ A domain-specific language (DSL) is created by using a specialized [!INCLUDE[vsp
  **Use existing strong name key**
  Use this option if you want to integrate your DSL with another assembly.
 
- For more information about strong naming, see [Creating and Using Strong-Named Assemblies](http://go.microsoft.com/fwlink/?LinkId=186073).
+ For more information about strong naming, see [Creating and Using Strong-Named Assemblies](https://go.microsoft.com/fwlink/?LinkId=186073).
 
 ## See Also
  [How to Define a Domain-Specific Language](../modeling/how-to-define-a-domain-specific-language.md)

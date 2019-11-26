@@ -1424,7 +1424,7 @@
       href: ide/how-to-report-a-problem-with-visual-studio.md
     - name: Report a problem states and FAQ
       href: ide/report-a-problem.md
-    - name: Increase the chances of a performance issue being fixed
+    - name: Get performance issues fixed quicker
       href: ide/how-to-increase-chances-of-performance-issue-being-fixed.md
     - name: Create minidumps with callstacks
       href: ide/report-a-problem-minidumps.md

@@ -284,7 +284,7 @@ FullName:"MyClass" - FullName:"PerfTest"
 ## <a name="BKMK_External_resources"></a> External resources
 
 ### <a name="BKMK_Guidance"></a> Guidance
- [Testing for Continuous Delivery with Visual Studio 2012 – Chapter 2: Unit Testing: Testing the Inside](http://go.microsoft.com/fwlink/?LinkID=255188)
+ [Testing for Continuous Delivery with Visual Studio 2012 – Chapter 2: Unit Testing: Testing the Inside](https://go.microsoft.com/fwlink/?LinkID=255188)
 
 ## See Also
  [Unit Test Your Code](../test/unit-test-your-code.md)

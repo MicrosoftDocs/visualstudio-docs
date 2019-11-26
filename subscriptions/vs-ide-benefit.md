@@ -38,7 +38,7 @@ To download the IDE:
 
 10. Click **Install**.
 
-11. When the installation is complete, you'll have the option to modify the installation or launch Visual Studio.  Click **Launch** to get started.  If you multiple versions installed, they will be listed.
+11. When the installation is complete, you'll have the option to modify the installation or launch Visual Studio.  Click **Launch** to get started.  If you have multiple versions installed, they will be listed.
     > [!div class="mx-imgBorder"]
     > ![Launch Visual Studio Enterprise](_img/vs-ide-experience/vs-ide-versions.png)
 
@@ -59,7 +59,7 @@ To download the IDE:
 | Visual Studio Enterprise (Standard, monthly cloud)   | VL, Azure, Retail,  selected NFR<sup>1</sup> | Available       |  Yes          |
 | Visual Studio Enterprise with GitHub Enterprise   | VL | Available       |  Yes          |
 | Visual Studio Professional (Standard, monthly cloud) | VL, Azure, Retail                                       | Available                                                            |  Yes          |
-| Visual Studio Professional wtih GitHub Enterprise | VL   | Available              |  Yes          |
+| Visual Studio Professional with GitHub Enterprise | VL   | Available              |  Yes          |
 | Visual Studio Test Professional (Standard)                         | VL, Retail                                              | Available                                             |  Yes         |
 | MSDN Platforms (Standard)                                          | VL, Retail                                              | Not available                                              |  N/A          |
 

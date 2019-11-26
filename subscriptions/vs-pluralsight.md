@@ -3,7 +3,7 @@ title: Pluralsight benefit in Visual Studio subscriptions | Microsoft Docs
 author: evanwindom
 ms.author: lank
 manager: lank
-ms.date: 08/02/2019
+ms.date: 11/18/2019
 ms.topic: conceptual
 description:  Learn about the Pluralsight training subscription included with selected Visual Studio subscriptions.
 ---
@@ -52,9 +52,11 @@ The table below details what Pluralsight subscription benefits are available to 
 |                          Subscription Level                          |     Channels      |    Benefit    |   Renewable?   |
 |----------------------------------------------------------------------|-------------------|---------------|----------------|
 |          Visual Studio Enterprise (Standard)           | VL, Azure, Retail |   6 months    | Yes<sup>2</sup> |
+|          Visual Studio Enterprise with GitHub Enterprise          | VL  |   6 months    | Yes<sup>2</sup> |
 |         Visual Studio Professional (Standard)          | VL, Azure, Retail |   3 months    | Yes<sup>2</sup> |
-|              Visual Studio Test Professional (Standard)              |    VL, Retail     |   3 months    | No |
-|                      MSDN Platforms (Standard)                       |    VL, Retail     |   3 months    | No |
+|         Visual Studio Professional with GitHub Enterprise          | VL  |   3 months    | Yes<sup>2</sup> |
+|              Visual Studio Test Professional (Standard)              |    VL, Retail     |   3 months    | Yes<sup>2</sup>  |
+|                      MSDN Platforms (Standard)                       |    VL, Retail     |   3 months    | Yes<sup>2</sup>  |
 | Visual Studio Enterprise, Visual Studio Professional (monthly cloud) |       Azure       | Not available |       NA       |
 |             Visual Studio Enterprise (NFR<sup>1</sup> )              |      Program      | Not available |       NA       |
 ||
@@ -71,7 +73,7 @@ Not sure which subscription you're using?  Connect to [https://my.visualstudio.c
 ## Frequently asked questions
 
 ### Q: I have a Visual Studio Enterprise subscription, but I don't see the Pluralsight tile on the Benefits page. What's wrong?
-A: Not all Visual Studio Enterprise subscriptions include the Pluralsight benefit.  Check the [eligibility table](#eligibility) table to see whether your subscription is eligible.
+A: Not all Visual Studio Enterprise subscriptions include the Pluralsight benefit.  Check the [eligibility table](#eligibility) to see whether your subscription is eligible.
 
 ### Q: Do I have access to any customized learning  playlists or channels?
 A: Yes, as a Visual Studio subscriber you get access to expert channels as part of your Pluralsight training benefit. These channels have been specially curated by Microsoft experts and are geared towards learning in the areas of .Net, Azure, DevOps and Mobility. Activate your Pluralsight benefit through your Visual Studio subscription portal [https://my.visualstudio.com](https://my.visualstudio.com?wt.mc_id=o~msft~docs) to get access to these channels on your Pluralsight landing page –
@@ -92,3 +94,5 @@ A:  At the end of your free Pluralsight subscription, you may choose to purchase
 
 ## Next steps
 Once you've created your account, you're ready to start training.  Visit [https://www.pluralsight.com](http://www.pluralsight.com) and tap **log in** at the top right corner of the page to start a new course, or return to a course already in progress.
+
+Take advantage of your own development sandbox by activating your [Azure DevTest individual credit](vs-azure.md). 

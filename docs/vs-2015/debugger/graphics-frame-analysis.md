@@ -33,7 +33,7 @@ Use Graphics Frame Analysis in Visual Studio Graphics Analyzer to analyze and op
   
   Although frame analysis is primarily intended to help you achieve faster rendering performance, it can equally help you achieve better visual quality for a given performance target or reduce GPU power consumption.  
   
-  To see a demonstration of what Frame Analysis can do for your app, you can watch the [Visual Studio Graphics Frame Analysis](http://channel9.msdn.com/Shows/C9-GoingNative/GoingNative-25-Offline-Analysis-Graphics-Tool) video on Channel 9.  
+  To see a demonstration of what Frame Analysis can do for your app, you can watch the [Visual Studio Graphics Frame Analysis](https://channel9.msdn.com/Shows/C9-GoingNative/GoingNative-25-Offline-Analysis-Graphics-Tool) video on Channel 9.  
   
 ## Using Frame Analysis  
  Before you can use Frame Analysis, you have to capture graphics information from your app as it runs, just as you would when you use any of the other Graphics Analyzer tools. Then, in the graphics log document (.vsglog) window, choose the **Frame Analysis** tab.  
@@ -94,7 +94,7 @@ Use Graphics Frame Analysis in Visual Studio Graphics Analyzer to analyze and op
   
  ![The statistical relevance of the draw call variant](../debugger/media/pix-frame-analysis-summary-stats.png "pix_frame_analysis_summary_stats")  
   
- To determine statistical relevance, Frame Analysis uses the [Student's t-test](http://www.wikipedia.org/wiki/Student%27s_t-test).  
+ To determine statistical relevance, Frame Analysis uses the [Student's t-test](https://en.wikipedia.org/wiki/Student's_t-test).  
   
 ### Details table  
  Below the Summary table is the Details table, which is collapsed by default. The content of the Details table depends on the hardware platform of the playback machine. For information about supported hardware platforms, see [Hardware support](#HardwareSupport).  
