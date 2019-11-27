@@ -40,7 +40,17 @@ Here's how.
 
 ## Modify workloads
 
- [Workloads](https://visualstudio.microsoft.com/vs/visual-studio-workloads/) contain the features you need for the programming language or platform that you're using. Use workloads to modify Visual Studio so that it supports the work you want to do, when you want to do it.
+::: moniker range="vs-2017"
+
+ [Workloads](https://visualstudio.microsoft.com/vs/support/selecting-workloads-visual-studio-2017/) contain the features you need for the programming language or platform that you're using. Use workloads to modify Visual Studio so that it supports the work you want to do, when you want to do it.
+
+::: moniker-end
+
+::: moniker range="vs-2019"
+
+ Workloads contain the features you need for the programming language or platform that you're using. Use workloads to modify Visual Studio so that it supports the work you want to do, when you want to do it.
+
+::: moniker-end
 
 >[!NOTE]
 > The following procedure assumes that you have an internet connection.
@@ -113,13 +123,12 @@ Here's how.
 
 ## Modify individual components
 
-If you don't want to install [workloads](https://visualstudio.microsoft.com/vs/visual-studio-workloads/) to customize your Visual Studio installation, choose the **Individual Components** tab from the Visual Studio Installer, select what you want, and then follow the prompts.
+If you don't want to install workloads to customize your Visual Studio installation, choose the **Individual Components** tab from the Visual Studio Installer, select what you want, and then follow the prompts.
 
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 
 ## See also
 
-* [Learn more about Visual Studio workloads](https://visualstudio.microsoft.com/vs/visual-studio-workloads/)
 * [List of Visual Studio workload & component IDs](workload-and-component-ids.md)
 * [Update Visual Studio](update-visual-studio.md)
 * [Update a network-based installation of Visual Studio](update-a-network-installation-of-visual-studio.md)
