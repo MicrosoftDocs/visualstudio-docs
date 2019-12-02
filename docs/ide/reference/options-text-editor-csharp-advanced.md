@@ -20,9 +20,9 @@ Use the **Advanced** options page to modify the settings for editor formatting, 
 
 ## Analysis
 
-- Enable full solution analysis
+- Live code analysis or Background analysis scope
 
-   Enables code analysis on all files in the solution, not just open code files. For more information, see [Full solution analysis](../../code-quality/how-to-enable-and-disable-full-solution-analysis-for-managed-code.md).
+   Configure the background analysis scope for managed code. For more information, see [How to: Configure live code analysis scope for managed code](../../code-quality/how-to-configure-live-code-analysis-scope-for-managed-code.md).
 
 ## Using Directives
 
