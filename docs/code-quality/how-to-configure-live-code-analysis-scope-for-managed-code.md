@@ -1,0 +1,75 @@
+---
+title: "Configure live code analysis scope for managed code"
+ms.date: 03/23/2018
+ms.topic: "conceptual"
+helpviewer_keywords:
+  - "live code analysis"
+  - "background analysis"
+  - "analysis scope"
+  - "full solution analysis"
+author: jillre
+ms.author: jillfra
+manager: jillfra
+ms.workload:
+  - "dotnet"
+---
+# How to: Configure live code analysis scope for managed code
+
+## What is "Live code analysis" for managed code?
+Visual Studio executes a bunch of live code analyses, also referred to as "background analysis", while you are editing source files in the editor. Some of it is required minimal analysis for an acceptable Visual Studio IDE editing experience. Some of it is for improved responsiveness for IDE features. While some of it is to enable additional IDE functionality, such as diagnostics and code fixes from Roslyn analyzers. Based on the functionality, these analyses can be grouped as follows:
+
+1. **Background computation of diagnostics**: Analysis to compute errors, warnings and suggestions in source files. These diagnostics show up in the error list and get squiggled in the editor. They can be classified into two categories:
+    1. C# and VisualBasic compiler diagnostics
+    2. Roslyn analyzer diagnostics: This includes the built-in IDE analyzers for code style suggestions and analyzer NuGet packages [installed](./install-roslyn-analyzers) for projects in the current solution.
+
+2. **Other background analyses**: Analysis to improve the responsiveness and Visual Studio interaction for IDE features. Some examples of such analyses are:
+    1. Background parsing of open documents.
+    2. Background compilation of projects with open files to realize symbols for improved responsiveness of certain IDE features.
+    3. Building syntax and symbol caches.
+    4. Detecting designer association for source files, such as forms, controls, etc.
+
+## Default analysis scope
+
+By default, live code analysis for background computation of diagnostics executes for all the documents that are _opened_ in Visual Studio. Few of the _other background analyses_ mentioned above execute for all the projects which have at least one open document. While few background analyses execute for the entire solution.
+
+## Custom analysis scope
+
+The default scope of each background analysis has been tuned for the optimal user experience, functionality and performance for majority of customer scenarios and solutions. However, there are cases where customers may want to customize this scope to decrease or increase the background analysis. For example:
+
+1. Power save mode: If users are running on laptop battery, they may want to minimize the power consumption for longer battery life. In this scenario, they would want to minimize background analysis.
+
+2. On-demand code analysis: If users prefer turning off live analyzer execution and [manually running code analysis on-demand](./how-to-run-code-analysis-manually-for-managed-code.md), they would want to minimize background analysis.
+
+3. Full solution analysis: If users want to always see all diagnostics in all documents in the solution, regardless of whether they are open in the editor or not. In this scenario, they would want to maximize background analysis scope to entire solution.
+
+Starting Visual Studio 2019 16.5, users can now explicitly customize the scope of all live code analysis, including diagnostics computation, for C# and VisualBasic projects. Available analysis scopes are:
+
+1. **Current Document**: Minimizes the live code analysis scope to only execute for the current or visible document in the editor.
+
+2. **Open Documents and Projects**: Default live code analysis scope, as described in the above section.
+
+3. **Entire Solution**: Maximizes the live code analysis scope to execute for all documents and projects in the entire solution.
+
+You can choose one of the above custom analysis scopes in Tools Options dialog by following the below steps:
+
+1. To open the **Options** dialog box, on the menu bar in Visual Studio choose **Tools** > **Options**.
+
+2. In the **Options** dialog box, choose **Text Editor** > **C#** or **Basic** > **Advanced**.
+
+3. Select the desired **Background analysis scope** to customize the analysis scope. Choose **OK** when you're done.
+
+![Analysis scope.](./media/background-analysis-scope.png)
+
+> [!NOTE]
+> Prior to Visual Studio 2019 16.5, users can customize the analysis scope for diagnostics computation to entire solution using the *Enable full solution analysis* check box from **Tools** > **Options** > **Text Editor** > **C#** or **Basic** > **Advanced** tab. There is no support to minimize the background analysis scope in prior Visual Studio versions.
+
+## Automatically minimize live code analysis scope
+
+If Visual Studio detects that 200 MB or less of system memory is available to it, it automatically minimizes the live code analysis scope to "Current Document". If this occurs, an alert appears informing you that Visual Studio has disabled some features. A button lets you switch back to the prior analysis scope if you want.
+
+![Alert text minimizing analysis scope](./media/fsa_alert.png)
+
+## See also
+
+- [Automatic feature suspension](./automatic-feature-suspension.md)
+- [Power save mode feature request](https://github.com/dotnet/roslyn/issues/38429)
