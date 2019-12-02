@@ -90,9 +90,11 @@ Setting a rule's severity in an EditorConfig file takes precedence over any seve
 You can bulk configure rule severity of all analyzer rules or analyzer rules with a specific rule "Category" in an EditorConfig file. The general syntax for bulk configuring severity of analyzer rules in an EditorConfig file is as follows:
 
 1. Category based bulk configuration:
+
 `dotnet_analyzer_diagnostic.category-<rule category>.severity = <severity>`
 
 2. All analyzer rules bulk configuration:
+
 `dotnet_analyzer_diagnostic.severity = <severity>`
 
 If you have multiple configuration entries that are applicable to a specific rule ID, following is the precedence order to choose the applicable entry:
@@ -131,20 +133,25 @@ Ruleset files are being deprecated in favor of EditorConfig file for analyzer co
 There are couple of ways to convert an existing ruleset file to EditorConfig file:
 
 1. From Ruleset Editor in Visual Studio (Requires Visual Studio 2019 16.5 or later): If your project already uses a specific ruleset file as its `CodeAnalysisRuleSet`, you can convert it to an equivalent EditorConfig file from Ruleset Editor within Visual Studio.
-    1. **Double click** the ruleset file in solution explorer.
-    2. Ruleset file should open in Ruleset Editor. You should see a clickable **infobar** at top of the ruleset editor.
 
 ![Convert Ruleset to EditorConfig file in Ruleset Editor](media/convert-ruleset-to-editorconfig-file-ruleset-editor.png)
 
+    1. **Double click** the ruleset file in solution explorer.
+
+    2. Ruleset file should open in Ruleset Editor. You should see a clickable **infobar** at top of the ruleset editor.
+
     3. **Click** on the infobar link.
+
     4. This should bring up a **Save As** dialog that allows you to select the directory where you want to generate the EditorConfig file. **Click** on "Save" button to generate the EditorConfig file.
+
     5. Generated EditorConfig should open in the editor. Additionally, the MSBuild property `CodeAnalysisRuleSet` will be updated in the project file to no longer reference the original ruleset file.
 
 2. From command line:
     1. Install the NuGet package [Microsoft.CodeAnalysis.RulesetToEditorconfigConverter](https://www.nuget.org/packages/Microsoft.CodeAnalysis.RulesetToEditorconfigConverter).
+
     2. Execute `RulesetToEditorconfigConverter.exe` from installed package, with paths to ruleset file and EditorConfig file as command line arguments.
 
-   ```ini
+   ```
    Usage: RulesetToEditorconfigConverter.exe <%ruleset_file%> [<%path_to_editorconfig%>]
    ```
 
