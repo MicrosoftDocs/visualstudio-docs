@@ -89,18 +89,18 @@ Setting a rule's severity in an EditorConfig file takes precedence over any seve
 
 You can bulk configure rule severity of all analyzer rules or analyzer rules with a specific rule "Category" in an EditorConfig file. The general syntax for bulk configuring severity of analyzer rules in an EditorConfig file is as follows:
 
-1. Category based bulk configuration:
+1. **Category-based bulk configuration:**
 
 `dotnet_analyzer_diagnostic.category-<rule category>.severity = <severity>`
 
-2. All analyzer rules bulk configuration:
+2. **All analyzer rules bulk configuration:**
 
 `dotnet_analyzer_diagnostic.severity = <severity>`
 
 If you have multiple configuration entries that are applicable to a specific rule ID, following is the precedence order to choose the applicable entry:
 
-1. Rule ID based configuration always takes precendence over bulk configuration.
-2. Category based bulk configuration takes precendence over all analyzer rules bulk configuration.
+1. Rule ID-based configuration always takes precedence over bulk configuration.
+2. Category-based bulk configuration takes precedence over all analyzer rules bulk configuration.
 
 Consider the below example EditorConfig, where [CA1822](https://docs.microsoft.com/visualstudio/code-quality/ca1822) has category "Performance":
    ```ini
@@ -110,7 +110,7 @@ Consider the below example EditorConfig, where [CA1822](https://docs.microsoft.c
    dotnet_analyzer_diagnostic.severity = suggestion
    ```
 
-In the above example, all the three entries are applicable to CA1822. However, using the above precendence rules, the first Rule ID based configuration entry will win over the next two bulk configuration entries. CA1822 will have effective severity "error". All the remaining rules with category "Performance" will have severity "warning". All the remaining analyzer rules which do not have category "Performance" will have severity "suggestion".
+In the above example, all the three entries are applicable to CA1822. However, using the above precedence rules, the first rule ID-based configuration entry will win over the next two bulk configuration entries. CA1822 will have effective severity "error". All the remaining rules with category "Performance" will have severity "warning". All the remaining analyzer rules, which do not have category "Performance" will have severity "suggestion".
 
 #### Manually configure rule severity
 
@@ -130,7 +130,7 @@ In the above example, all the three entries are applicable to CA1822. However, u
 
 Ruleset files are being deprecated in favor of EditorConfig file for analyzer configuration for managed code. EditorConfig files allow you to configure both analyzer rule severities and analyzer options, including Visual Studio IDE code style options. Most of the Visual Studio tooling for analyzer rule severity configuration has been updated to work on EditorConfig files instead of ruleset files. It is highly recommended that you convert your existing ruleset file to EditorConfig file. It is also recommended that you save the EditorConfig file at the root of your repo or in the solution folder. This will ensure that the severity settings from this file are automatically applied to the entire repo or solution respectively.
 
-There are couple of ways to convert an existing ruleset file to EditorConfig file:
+There is couple of ways to convert an existing ruleset file to EditorConfig file:
 
 1. From Ruleset Editor in Visual Studio (Requires Visual Studio 2019 16.5 or later): If your project already uses a specific ruleset file as its `CodeAnalysisRuleSet`, you can convert it to an equivalent EditorConfig file from Ruleset Editor within Visual Studio.
 
@@ -149,7 +149,7 @@ There are couple of ways to convert an existing ruleset file to EditorConfig fil
 2. From command line:
     1. Install the NuGet package [Microsoft.CodeAnalysis.RulesetToEditorconfigConverter](https://www.nuget.org/packages/Microsoft.CodeAnalysis.RulesetToEditorconfigConverter).
 
-    2. Execute `RulesetToEditorconfigConverter.exe` from installed package, with paths to ruleset file and EditorConfig file as command line arguments.
+    2. Execute `RulesetToEditorconfigConverter.exe` from installed package, with paths to ruleset file and EditorConfig file as command-line arguments.
 
    ```
    Usage: RulesetToEditorconfigConverter.exe <%ruleset_file%> [<%path_to_editorconfig%>]
