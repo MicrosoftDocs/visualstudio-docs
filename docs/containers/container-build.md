@@ -93,7 +93,7 @@ msbuild /p:SolutionPath=<solution-name>.sln /p:Configuration=Release docker-comp
 - Pull the images in the first stage of the Dockerfile (the `base` stage in most Dockerfiles).  
 - Build the Dockerfile and start the container.
 
-Warmup will only happen in **Fast** mode, so the running container will have the app folder volume mounted and any changes to the app should not invalidate the container. This therefore improves the debugging performance significantly and decreases the wait time for long running tasks such as pulling large images.
+Warmup will only happen in **Fast** mode, so the running container will have the app folder volume-mounted. That means that any changes to the app won't invalidate the container. This therefore improves the debugging performance significantly and decreases the wait time for long running tasks such as pulling large images.
 
 ## Volume mapping
 
