@@ -89,11 +89,11 @@ Setting a rule's severity in an EditorConfig file takes precedence over any seve
 
 You can bulk configure rule severity of all analyzer rules or analyzer rules with a specific rule "Category" in an EditorConfig file. The general syntax for bulk configuring severity of analyzer rules in an EditorConfig file is as follows:
 
-1. **Category-based bulk configuration:**
+1. Category-based bulk configuration:
 
 `dotnet_analyzer_diagnostic.category-<rule category>.severity = <severity>`
 
-2. **All analyzer rules bulk configuration:**
+2. All analyzer rules bulk configuration:
 
 `dotnet_analyzer_diagnostic.severity = <severity>`
 
@@ -133,12 +133,11 @@ Ruleset files are being deprecated in favor of EditorConfig file for analyzer co
 There is couple of ways to convert an existing ruleset file to EditorConfig file:
 
 1. From Ruleset Editor in Visual Studio (Requires Visual Studio 2019 16.5 or later): If your project already uses a specific ruleset file as its `CodeAnalysisRuleSet`, you can convert it to an equivalent EditorConfig file from Ruleset Editor within Visual Studio.
-
-![Convert Ruleset to EditorConfig file in Ruleset Editor](media/convert-ruleset-to-editorconfig-file-ruleset-editor.png)
-
     1. **Double click** the ruleset file in solution explorer.
 
     2. Ruleset file should open in Ruleset Editor. You should see a clickable **infobar** at top of the ruleset editor.
+
+       ![Convert Ruleset to EditorConfig file in Ruleset Editor](media/convert-ruleset-to-editorconfig-file-ruleset-editor.png)
 
     3. **Click** on the infobar link.
 
