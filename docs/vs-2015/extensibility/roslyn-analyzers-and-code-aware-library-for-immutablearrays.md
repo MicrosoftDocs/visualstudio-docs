@@ -299,12 +299,12 @@ You can now press **F5** to execute your analyzer in a second instance of Visual
 Pro Tip: If you launch the second instance of Visual Studio, and you don’t see the light bulb with your code fix, then you may need to clear the Visual Studio component cache. Clearing the cache forces Visual Studio to re-examine the components, so Visual Studio should then pick up your latest component. First, shut down the second instance of Visual Studio. Then in Windows Explorer, go to your user directory (c:\users\\<userid\>) and find AppData\Local\Microsoft\VisualStudio\14.0Roslyn\\. In this directory, delete the sub directory ComponentModelCache. The “14” changes version to version with Visual Studio.
 
 ## Talk Video and Finish Code Project
-You can see this example developed and discussed further in [this talk](http://channel9.msdn.com/events/Build/2015/3-725). The talk demonstrates the working analyzer and walks you through building it.
+You can see this example developed and discussed further in [this talk](https://channel9.msdn.com/events/Build/2015/3-725). The talk demonstrates the working analyzer and walks you through building it.
 
 You can see all the finished code [here](https://github.com/DustinCampbell/CoreFxAnalyzers/tree/master/Source/CoreFxAnalyzers). The sub folders DoNotUseImmutableArrayCollectionInitializer and DoNotUseImmutableArrayCtor each have a C# file for finding issues and a C# file that implements the code fixes that show up in the Visual Studio light bulb UI. Note, the finished code has a little more abstraction to avoid fetching the ImmutableArray\<T> type object over and over. It uses nested registered actions to save the type object in a context that is available whenever the sub actions (analyze object creation and analyze collection initializations) execute.
 
 ## See Also
-[\\\Build 2015 talk](http://channel9.msdn.com/events/Build/2015/3-725)
+[\\\Build 2015 talk](https://channel9.msdn.com/events/Build/2015/3-725)
 [Completed code on GitHub](https://github.com/DustinCampbell/CoreFxAnalyzers/tree/master/Source/CoreFxAnalyzers) 
 [Several examples on GitHub, grouped into three kinds of analyzers](https://github.com/dotnet/roslyn/blob/master/docs/analyzers/Analyzer%20Samples.md) 
 [Other docs on the GitHub OSS site](https://github.com/dotnet/roslyn/tree/master/docs/analyzers) 

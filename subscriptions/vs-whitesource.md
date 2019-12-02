@@ -3,7 +3,7 @@ title: WhiteSource Bolt Benefit | Microsoft Docs
 author: evanwindom
 ms.author: lank
 manager: lank
-ms.date: 08/01/2019
+ms.date: 11/18/2019
 ms.topic: conceptual
 description:  Learn how to activate the WhiteSource Bolt subscription included with your Visual Studio subscription.
 ---
@@ -32,7 +32,7 @@ Find and fix open source vulnerabilities and generate comprehensive inventory an
 9. For more information, visit the WhiteSource Bolt [FAQ page](https://bolt.whitesourcesoftware.com/azure/faq/). 
 
 ## Eligibility
-WhiteSource Bolt is now available free in the Visual Studio Marketplace. 
+[WhiteSource Bolt](https://marketplace.visualstudio.com/search?term=whitesource&target=AzureDevOps&category=All%20categories&sortBy=Relevance) is now available free in the [Visual Studio Marketplace. 
 
 ## Support resources
 - Need help with WhiteSource Bolt?  Chat with a WhiteSource Bolt representative live at https://www.whitesourcesoftware.com/vse_whitesource_bolt/
@@ -40,4 +40,7 @@ WhiteSource Bolt is now available free in the Visual Studio Marketplace.
 - Have a question about Visual Studio IDE, Azure DevOps Services or other Visual Studio products or services?  Visit [Visual Studio Support](https://visualstudio.microsoft.com/support/).
 
 ## Next steps
-As a Visual Studio subscriber, you can use Microsoft Azure at no extra charge.  With your [monthly Azure DevTest individual credit](vs-azure.md), Azure is your personal sandbox for dev/test.  You can provision virtual machines, cloud services, and other Azure resources.  Credit amounts vary by subscription level.
+Be sure to activate these great benefits to make the most of your Visual Studio subscription:
+- [Visual Studio](vs-ide-benefit.md)
+- [Azure DevOps](vs-azure-devops.md)
+- [Azure DevTest individual credit](vs-azure.md)

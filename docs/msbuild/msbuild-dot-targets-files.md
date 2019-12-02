@@ -1,5 +1,5 @@
 ---
-title: "MSBuild .Targets Files | Microsoft Docs"
+title: "MSBuild .targets Files | Microsoft Docs"
 ms.date: "02/24/2017"
 ms.topic: "reference"
 dev_langs:
@@ -8,8 +8,8 @@ dev_langs:
   - "C++"
   - "jsharp"
 helpviewer_keywords:
-  - ".Targets files"
-  - "MSBuild, .Targets files"
+  - ".targets files"
+  - "MSBuild, .targets files"
 ms.assetid: f6d98eb4-d2fa-49b7-8e3c-bae1ca3cf596
 author: mikejo5000
 ms.author: mikejo

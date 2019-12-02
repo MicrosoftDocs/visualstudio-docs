@@ -114,6 +114,6 @@ Use the **Application Timeline** profiler to find and fix application-interactio
 |![Customize Timeline details information](../profiling/media/timeline-viewsettings.png "TIMELINE_ViewSettings")|Lets you specify the annotations to events.|  
   
 ## See Also  
- [WPF Team Blog: New UI Performance Analysis Tool for WPF Applications](http://blogs.msdn.com/b/wpf/archive/2015/01/16/new-ui-performance-analysis-tool-for-wpf-applications.aspx)   
+ [WPF Team Blog: New UI Performance Analysis Tool for WPF Applications](https://devblogs.microsoft.com/wpf/new-ui-performance-analysis-tool-for-wpf-applications/)   
  [Performance best practices for Windows Store apps using C++, C#, and Visual Basic](https://msdn.microsoft.com/567bcefa-5da5-4e42-a4b8-1358c71adfa2)   
  [Optimizing WPF Application Performance](https://msdn.microsoft.com/library/ac8c6aa3-3c68-4a24-9827-3b6c829c1ebf)

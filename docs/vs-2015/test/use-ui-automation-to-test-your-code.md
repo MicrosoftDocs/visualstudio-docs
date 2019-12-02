@@ -459,22 +459,22 @@ Mouse.Hover(uIItem1Text, new Point(87, 9));
 
 - [Extending Coded UI Tests and Action Recordings to Support Microsoft Excel](../test/extending-coded-ui-tests-and-action-recordings-to-support-microsoft-excel.md)
 
-  Coded UI Tests are often used to automate manual tests. For additional guidance, see [Testing for Continuous Delivery with Visual Studio 2012 – Chapter 5: Automating System Tests](http://go.microsoft.com/fwlink/?LinkID=255196). For more information about manual tests, see [&#91;retired&#93; Creating Manual Test Cases Using Microsoft Test Manager](https://msdn.microsoft.com/library/9989e184-c8e4-444b-998d-a1a5ec94461e). For more information about automated system tests, see [Creating Automated Tests Using Microsoft Test Manager](https://msdn.microsoft.com/7b5075ee-ddfe-411d-b1d4-94283550a5d0).
+  Coded UI Tests are often used to automate manual tests. For additional guidance, see [Testing for Continuous Delivery with Visual Studio 2012 – Chapter 5: Automating System Tests](https://go.microsoft.com/fwlink/?LinkID=255196). For more information about manual tests, see [&#91;retired&#93; Creating Manual Test Cases Using Microsoft Test Manager](https://msdn.microsoft.com/library/9989e184-c8e4-444b-998d-a1a5ec94461e). For more information about automated system tests, see [Creating Automated Tests Using Microsoft Test Manager](https://msdn.microsoft.com/7b5075ee-ddfe-411d-b1d4-94283550a5d0).
 
 ## External Resources
 
 ### Guidance
-- [Testing for Continuous Delivery with Visual Studio 2012 – Chapter 2: Unit Testing: Testing the Inside](http://go.microsoft.com/fwlink/?LinkID=255188)
+- [Testing for Continuous Delivery with Visual Studio 2012 – Chapter 2: Unit Testing: Testing the Inside](https://go.microsoft.com/fwlink/?LinkID=255188)
 
-- [Testing for Continuous Delivery with Visual Studio 2012 – Chapter 5: Automating System Tests](http://go.microsoft.com/fwlink/?LinkID=255196)
+- [Testing for Continuous Delivery with Visual Studio 2012 – Chapter 5: Automating System Tests](https://go.microsoft.com/fwlink/?LinkID=255196)
 
 ### FAQ
-- [Coded UI Tests FAQ - 1](http://go.microsoft.com/fwlink/?LinkID=230576)
+- [Coded UI Tests FAQ - 1](https://go.microsoft.com/fwlink/?LinkID=230576)
 
-- [Coded UI Tests FAQ -2](http://go.microsoft.com/fwlink/?LinkID=230578)
+- [Coded UI Tests FAQ -2](https://go.microsoft.com/fwlink/?LinkID=230578)
 
 ### Forum
-- [Visual Studio UI Automation Testing (includes CodedUI)](http://go.microsoft.com/fwlink/?LinkID=224497)
+- [Visual Studio UI Automation Testing (includes CodedUI)](https://go.microsoft.com/fwlink/?LinkID=224497)
 
 ## See also
 

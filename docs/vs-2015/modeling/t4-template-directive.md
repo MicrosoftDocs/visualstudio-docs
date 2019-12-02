@@ -213,7 +213,7 @@ This is the common footer.
 
  For a design-time text template, you can specify any base class that is derived from <xref:Microsoft.VisualStudio.TextTemplating.TextTransformation?displayProperty=fullName>. Use the `<#@assembly#>` directive to load the assembly or project that contains the base class.
 
- For more information, see ["Inheritance in Text Templates" in Gareth Jones’ Blog](http://go.microsoft.com/fwlink/?LinkId=208373).
+ For more information, see ["Inheritance in Text Templates" in Gareth Jones’ Blog](https://go.microsoft.com/fwlink/?LinkId=208373).
 
 ## LinePragmas attribute
  Example:

@@ -65,7 +65,7 @@ You can install a domain-specific language on your own computer or on other comp
 
  For more information about MSI files and other deployment options, see [Deploying Applications, Services, and Components](../deployment/deploying-applications-services-and-components.md).
 
- To build an MSI, you add a Setup project to your [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] solution. The easiest method of creating a Setup project is to use the CreateMsiSetupProject.tt template, which you can download from the [VMSDK site](http://go.microsoft.com/fwlink/?LinkID=186128).
+ To build an MSI, you add a Setup project to your [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] solution. The easiest method of creating a Setup project is to use the CreateMsiSetupProject.tt template, which you can download from the [VMSDK site](https://go.microsoft.com/fwlink/?LinkID=186128).
 
 #### To Deploy a DSL in an MSI
 
@@ -93,7 +93,7 @@ You can install a domain-specific language on your own computer or on other comp
 
    - On the **Build** menu, open **Configuration Manager**, and select the configuration that you want to build, such as **Release** or **Debug**.
 
-4. Go to [Visualization and Modeling SDK home page](http://go.microsoft.com/fwlink/?LinkID=186128), and from the **Downloads** tab, download **CreateMsiSetupProject.tt**.
+4. Go to [Visualization and Modeling SDK home page](https://go.microsoft.com/fwlink/?LinkID=186128), and from the **Downloads** tab, download **CreateMsiSetupProject.tt**.
 
 5. Add **CreateMsiSetupProject.tt** to your Dsl project.
 
@@ -123,7 +123,7 @@ You can install a domain-specific language on your own computer or on other comp
 
     - When you double-click the file, [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] starts, and opens the DSL file in your DSL editor.
 
-    If you prefer, you can create the Setup project manually, instead of using the text template. For a walkthrough that includes this procedure see Chapter 5 of the [Visualization and Modeling SDK Lab](http://go.microsoft.com/fwlink/?LinkId=208878).
+    If you prefer, you can create the Setup project manually, instead of using the text template. For a walkthrough that includes this procedure see Chapter 5 of the [Visualization and Modeling SDK Lab](https://go.microsoft.com/fwlink/?LinkId=208878).
 
 #### To uninstall a DSL that was installed from an MSI
 

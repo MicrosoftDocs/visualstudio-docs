@@ -3,7 +3,7 @@ title: Enhance your data science skills today with the DataCamp benefit in selec
 author: evanwindom
 ms.author: lank
 manager: lank
-ms.date: 07/30/2019
+ms.date: 11/13/2019
 ms.topic: conceptual
 description:  Learn about the DataCamp training subscription included with selected Visual Studio subscriptions.
 ---
@@ -54,7 +54,9 @@ You can stop at any point, and resume your training in your next session.  Just 
 | Subscription Level                                                 |     Channels                                            | Benefit                                                          | Renewable?    |
 |--------------------------------------------------------------------|---------------------------------------------------------|------------------------------------------------------------------|---------------|
 | Visual Studio Enterprise (Standard)   | VL, Azure, Retail, | 3-months       |  No.  Available to new subscribers only          |
+| Visual Studio Enterprise with GitHub Enterprise   | VL | 3-months       |  No.  Available to new subscribers only          |
 | Visual Studio Professional (Standard) | VL, Azure, Retail                                       | 3-months                                                            |  No.  Available to new subscribers only           |
+| Visual Studio Professional with GitHub Enterprise| VL | 3-months                                                            |  No.  Available to new subscribers only           |
 | Visual Studio Test Professional (Standard)                         | VL, Retail                                              | 3-months                                             |  No.  Available to new subscribers only           |
 | MSDN Platforms (Standard)                                          | VL, Retail                                              | 3-months                                              |  No.  Available to new subscribers only           |
 | Visual Studio Enterprise (Standard)  | NFR<sup>1</sup> |Not available  | N/A |
@@ -79,4 +81,6 @@ Not sure which subscription you're using?  Connect to [https://my.visualstudio.c
 Check out more professional development opportunities in your subscription:
 - [Pluralsight](vs-pluralsight.md)
 - [LinkedIn Learning](vs-linkedin-learning.md)
-- [MSDN Magazine](vs-msdn.md)
+
+
+If you haven't already activated the Azure DevTest individual credit benefit that comes with your subscription, visit [https://my.visualstudio.com/benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs) and click on the Azure tile in the Tools category to set up your Azure subscription and redeem your Azure DevTest individual credit.

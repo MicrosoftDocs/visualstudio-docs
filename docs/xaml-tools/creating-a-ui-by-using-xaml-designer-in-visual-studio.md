@@ -17,7 +17,7 @@ manager: jillfra
 
 The XAML Designer in Visual Studio and Blend for Visual Studio provides a visual interface to help you design XAML-based apps, such as WPF, UWP, and Xamarin.Forms apps. You can create user interfaces for your apps by dragging controls from the Toolbox window (Assets window in Blend for Visual Studio) and setting properties in the Properties window. You can also edit XAML directly in XAML view.
 
-For advanced users, you can even [customize the XAML Designer](../extensibility/xaml-designer-extensibility-migration.md).
+For advanced users, you can even [customize the XAML Designer](https://github.com/microsoft/xaml-designer-extensibility/blob/master/documents/xaml-designer-extensibility-migration.md).
 
 ## XAML Designer workspace
 

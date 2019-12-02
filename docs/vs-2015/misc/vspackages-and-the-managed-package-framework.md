@@ -23,7 +23,7 @@ You can reduce development time by creating a VSPackage with the managed package
   
 - Build your VSPackage without the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Package project template  
   
-     For example, you can copy a sample VSPackage and change the GUIDs and the names. You can find samples in the VSX section of [Code Gallery](http://code.msdn.microsoft.com/vsx/).  
+     For example, you can copy a sample VSPackage and change the GUIDs and the names. 
   
 ## In This Section  
  [Managed Package Framework Classes](../misc/managed-package-framework-classes.md)  

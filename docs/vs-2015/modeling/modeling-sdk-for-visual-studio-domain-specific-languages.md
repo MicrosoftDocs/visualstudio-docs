@@ -35,11 +35,11 @@ By using the Modeling SDK for [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] (MSDK
   You can customize and extend all of these features. Your extensions are integrated in such a way that you can still update the DSL definition and re-generate the features without losing your extensions.
 
 ## Samples and the Latest Information
- [Download the Modeling SDK for Visual Studio 2015](http://www.microsoft.com/download/details.aspx?id=48148)
+ [Download the Modeling SDK for Visual Studio 2015](https://www.microsoft.com/download/details.aspx?id=48148)
 
- [Samples](http://go.microsoft.com/fwlink/?LinkId=186128) for the Modeling SDK for Visual Studio.
+ [Samples](https://go.microsoft.com/fwlink/?LinkId=186128) for the Modeling SDK for Visual Studio.
 
- For guidance on advanced techniques and troubleshooting, visit [Visual Studio DSL & Modeling Tools Extensibility forum](http://go.microsoft.com/fwlink/?LinkID=186074).
+ For guidance on advanced techniques and troubleshooting, visit [Visual Studio DSL & Modeling Tools Extensibility forum](https://go.microsoft.com/fwlink/?LinkID=186074).
 
 ## In This Section
  [Getting Started with Domain-Specific Languages](../modeling/getting-started-with-domain-specific-languages.md)
