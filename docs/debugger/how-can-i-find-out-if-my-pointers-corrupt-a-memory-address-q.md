@@ -30,7 +30,7 @@ ms.workload:
 
 #### Check for heap corruption
 
-- Most memory corruption is actually due to heap corruption. Try using the Global Flags Utility (gflags.exe) or pageheap.exe. See [https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/gflags-and-pageheap](https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/gflags-and-pageheap).
+- Most memory corruption is actually due to heap corruption. Try using the Global Flags Utility (gflags.exe) or pageheap.exe. See [https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/gflags-and-pageheap](/windows-hardware/drivers/debugger/gflags-and-pageheap).
 
 #### To find where the memory address is modified
 
