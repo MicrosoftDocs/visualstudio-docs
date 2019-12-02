@@ -15,7 +15,7 @@ manager: jillfra
 
 Sample databases are useful for experimenting with SQL and LINQ queries, databinding,  Entity Framework modeling, and so on.  Each database product has its own sample databases. Northwind and AdventureWorks are two popular SQL Server sample databases.
 
- **AdventureWorks** is the current sample database provided for SQL Server products. You can download it as an .mdf file from the [AdventureWorks page on Codeplex](http://msftdbprodsamples.codeplex.com/). There are regular and lightweight (LT) versions of the database available here. For most scenarios, the LT version is preferred because it is less complex.
+ **AdventureWorks** is the current sample database provided for SQL Server products. You can download it as an .mdf file from the [AdventureWorks page on Codeplex](https://archive.codeplex.com/?p=msftdbprodsamples). There are regular and lightweight (LT) versions of the database available here. For most scenarios, the LT version is preferred because it is less complex.
 
  **Northwind** is a relatively simple SQL Server database that has been used for many years. You can download it as a .bak file from the [Northwind database page on CodePlex](https://northwinddatabase.codeplex.com/). To avoid permissions issues, unzip the file into a new folder that is not under your user folder.
 

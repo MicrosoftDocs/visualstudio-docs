@@ -17,7 +17,7 @@ manager: jillfra
 # Rule Set Editor Dialog Box (Legacy)
 This topic describes how use the **Rule Set Editor** dialog box in the legacy [!INCLUDE[wfd1](../includes/wfd1-md.md)]. Use the legacy [!INCLUDE[wfd2](../includes/wfd2-md.md)] when you need to target either the [!INCLUDE[netfx35_long](../includes/netfx35-long-md.md)] or the [!INCLUDE[vstecwinfx](../includes/vstecwinfx-md.md)].
 
- The **Rule Set Editor** dialog box is used to create and modify [PolicyActivity](http://go.microsoft.com/fwlink?LinkID=65019) rule sets, which are serialized to a .rules file.
+ The **Rule Set Editor** dialog box is used to create and modify [PolicyActivity](https://go.microsoft.com/fwlink?LinkID=65019) rule sets, which are serialized to a .rules file.
 
 > [!NOTE]
 > If you want to open the .rules file with the **XML Editor with encoding**, you must first close the associated designer window for the workflow or activity.
@@ -33,7 +33,7 @@ This topic describes how use the **Rule Set Editor** dialog box in the legacy [!
 |----------------|-----------------|
 |**Add Rule**|Adds a new rule definition to the rule set.|
 |**Delete**|Deletes the selected rule from the rule set.|
-|**Chaining**|Specifies which type of forward chaining to use with the rule set. The available options are:<br /><br /> -   **Full Chaining**, which specifies to use all forward chaining mechanisms: implicit, method attributing, and explicit using an **Update** function.<br />-   **Sequential**, which specifies not to use any forward chaining.<br />-   **Explicit Update Only**, which specifies to only perform forward chaining on **Update** actions.<br /><br /> For more information about forward chaining, see [Using the PolicyActivity Activity](http://go.microsoft.com/fwlink?LinkID=65004).|
+|**Chaining**|Specifies which type of forward chaining to use with the rule set. The available options are:<br /><br /> -   **Full Chaining**, which specifies to use all forward chaining mechanisms: implicit, method attributing, and explicit using an **Update** function.<br />-   **Sequential**, which specifies not to use any forward chaining.<br />-   **Explicit Update Only**, which specifies to only perform forward chaining on **Update** actions.<br /><br /> For more information about forward chaining, see [Using the PolicyActivity Activity](https://go.microsoft.com/fwlink?LinkID=65004).|
 |**Name**|Rule set list column heading. Click to sort the list of rules by name.|
 |**Priority**|Rule set list column heading. Click to sort the list of rules by priority.|
 |**Reevaluation**|Rule set list column heading. Click to sort the list of rules by reevaluation type.|
@@ -47,7 +47,7 @@ This topic describes how use the **Rule Set Editor** dialog box in the legacy [!
 |**Else Actions:**|Enter expression for Else actions. For information about expression syntax, see the "Entering Condition and Action Expressions" section of this page.|
 |**OK**|Click to save the rule set to a .rules file.|
 
- For more information about rule sets, see [Using the PolicyActivity Activity](http://go.microsoft.com/fwlink?LinkID=65004).
+ For more information about rule sets, see [Using the PolicyActivity Activity](https://go.microsoft.com/fwlink?LinkID=65004).
 
 ## Entering Condition and Action Expressions
  You enter expressions for the Condition and the Then and Else actions as text in their respective text boxes in the **Rule Set Editor** dialog box. You can type **this.** into the editor to reference fields, properties and methods used in the workflow, using an IntelliSense-type of menu. Or you can type a workflow member name directly. You can call static methods on referenced types by typing the class name followed by the method name.
@@ -82,10 +82,10 @@ Update(this.Address.State)
 Update("this/Address/State")
 ```
 
- For more information about using **Update** with forward chaining, see [Using the PolicyActivity Activity](http://go.microsoft.com/fwlink?LinkID=65004).
+ For more information about using **Update** with forward chaining, see [Using the PolicyActivity Activity](https://go.microsoft.com/fwlink?LinkID=65004).
 
 ## See Also
- [PolicyActivity](http://go.microsoft.com/fwlink?LinkID=65019)
+ [PolicyActivity](https://go.microsoft.com/fwlink?LinkID=65019)
  [Select Rule Set Dialog Box (Legacy)](../workflow-designer/select-rule-set-dialog-box-legacy.md)
- [Using the PolicyActivity Activity](http://go.microsoft.com/fwlink?LinkID=65004)
- [Using Conditions in Workflows](http://go.microsoft.com/fwlink?LinkID=65009)
+ [Using the PolicyActivity Activity](https://go.microsoft.com/fwlink?LinkID=65004)
+ [Using Conditions in Workflows](https://go.microsoft.com/fwlink?LinkID=65009)

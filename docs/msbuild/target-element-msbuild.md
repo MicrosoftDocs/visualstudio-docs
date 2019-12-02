@@ -36,7 +36,7 @@ Contains a set of tasks for [!INCLUDE[vstecmsbuild](../extensibility/internals/i
         BeforeTargets="Targets"
         AfterTargets="Targets"
         DependsOnTargets="DependentTarget"
-        Condition="'String A' == 'String B'">
+        Condition="'String A' == 'String B'"
         Label="Label">
     <Task>... </Task>
     <PropertyGroup>... </PropertyGroup>

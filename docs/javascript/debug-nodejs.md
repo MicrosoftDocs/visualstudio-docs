@@ -100,13 +100,13 @@ For this scenario, use Chrome.
 
 To attach the debugger from Visual Studio and hit breakpoints in client-side code, the debugger needs help to identify the correct process. Here is one way to enable this.
 
-1. Switch to Visual Studio and then set a breakpoint in your source code, which might be a JavaScript file, TypeScript file, *.vue* file, or a JSX file. (Set the breakpoint in a line of code that allows breakpoints, such as a return statement or a var declaration.)
+1. Switch to Visual Studio and then set a breakpoint in your source code, which might be a JavaScript file, TypeScript file, or a JSX file. (Set the breakpoint in a line of code that allows breakpoints, such as a return statement or a var declaration.)
 
     ![Set a breakpoint](../javascript/media/tutorial-nodejs-react-set-breakpoint-client-code.png)
 
     To find the specific code in a transpiled file, use **Ctrl**+**F** (**Edit** > **Find and Replace** > **Quick Find**).
 
-For client-side code, to hit a breakpoint in a TypeScript file, *.vue*, or JSX file typically requires the use of [source maps](#generate_source_maps). A source map must be configured correctly to support debugging in Visual Studio.
+    For client-side code, to hit a breakpoint in a TypeScript file, *.vue*, or JSX file typically requires the use of [source maps](#generate_source_maps). A source map must be configured correctly to support debugging in Visual Studio.
 
 2. Select your target browser as the debug target in Visual Studio, then press **Ctrl**+**F5** (**Debug** > **Start Without Debugging**) to run the app in the browser.
 
@@ -159,7 +159,7 @@ For client-side code, to hit a breakpoint in a TypeScript file, *.vue*, or JSX f
 
 ### <a name="troubleshooting_source_maps"></a> Troubleshooting breakpoints and source maps
 
-If you need to break into code in a TypeScript, JSX, or *.vue* source file and are unable to do it, use **Attach to Process** as described in the previous steps to attach the debugger. Make sure you that your environment is set up correctly:
+If you need to break into code in a TypeScript or JSX source file and are unable to do it, use **Attach to Process** as described in the previous steps to attach the debugger. Make sure you that your environment is set up correctly:
 
 * You closed all browser instances, including Chrome extensions (using the Task Manager), so that you can run the browser in debug mode.
       

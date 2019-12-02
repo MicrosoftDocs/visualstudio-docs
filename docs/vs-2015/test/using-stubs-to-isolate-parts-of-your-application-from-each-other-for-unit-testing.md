@@ -31,7 +31,7 @@ Stub types* are one of two technologies that the Microsoft Fakes framework provi
 ## <a name="How"></a> How to use stubs
 
 ### <a name="Dependency"></a> Design for dependency injection
- To use stubs, your application has to be designed so that the different components are not dependent on each other, but only dependent on interface definitions. Instead of being coupled at compile time, components are connected at run time. This pattern helps to make software that is robust and easy to update, because changes tend not to propagate across component boundaries. We recommend following it even if you don’t use stubs. If you are writing new code, it’s easy to follow the [dependency injection](http://en.wikipedia.org/wiki/Dependency_injection) pattern. If you are writing tests for existing software, you might have to refactor it. If that would be impractical, you could consider using shims instead.
+ To use stubs, your application has to be designed so that the different components are not dependent on each other, but only dependent on interface definitions. Instead of being coupled at compile time, components are connected at run time. This pattern helps to make software that is robust and easy to update, because changes tend not to propagate across component boundaries. We recommend following it even if you don’t use stubs. If you are writing new code, it’s easy to follow the [dependency injection](https://en.wikipedia.org/wiki/Dependency_injection) pattern. If you are writing tests for existing software, you might have to refactor it. If that would be impractical, you could consider using shims instead.
 
  Let’s start this discussion with a motivating example, the one in the diagram. The class StockAnalyzer reads share prices and generates some interesting results. It has some public methods, which we want to test. To keep things simple, let’s just look at one of those methods, a very simple one that reports the current price of a particular share. We want to write a unit test of that method. Here’s the first draft of a test:
 
@@ -466,7 +466,7 @@ StubBehaviors.Current =
 ## External resources
 
 ### Guidance
- [Testing for Continuous Delivery with Visual Studio 2012 – Chapter 2: Unit Testing: Testing the Inside](http://go.microsoft.com/fwlink/?LinkID=255188)
+ [Testing for Continuous Delivery with Visual Studio 2012 – Chapter 2: Unit Testing: Testing the Inside](https://go.microsoft.com/fwlink/?LinkID=255188)
 
 ## See Also
  [Isolating Code Under Test with Microsoft Fakes](../test/isolating-code-under-test-with-microsoft-fakes.md)

@@ -1,10 +1,10 @@
 ---
 title: Increase your productivity for .NET development
 description: "An overview of navigation, code analysis, unit testing, and other features to help you write better .NET code faster."
-author: kuhlenh
-ms.author: jillfra
+author: mikadumont
+ms.author: tglee
 manager: jillfra
-ms.date: 04/25/2019
+ms.date: 11/21/2019
 ms.topic: conceptual
 helpviewer_keywords:
   - "editor"
@@ -41,6 +41,7 @@ The following are popular Visual Studio shortcuts:
 | **F12** (also **Ctrl**+**Click**) | Go To Definition | Navigate to where a symbol is defined |
 | **Ctrl**+**F12** | Go To Implementation | Navigate from a base type or member to its various implementations |
 | **Shift**+**F12** | Find All References | See all symbol or literal references |
+| **Alt**+**Home** | Go To Base | Navigate up the inheritance chain |
 | **Ctrl**+**.** (also **Alt**+**Enter** in C# Profile) | Quick Actions and Refactorings | See what code fixes, code generation actions, refactorings, or other quick actions are available at your cursor position or code selection |
 | **Ctrl**+**D** | Duplicate line | Duplicates the line of code that the cursor is in (available in **Visual Studio 2017 version 15.6** and later) |
 | **Shift**+**Alt**+**+**/**-** | Expand/Contract selection | Expands or contracts the current selection in the editor (available in **Visual Studio 2017 version 15.5** and later) |
@@ -89,6 +90,10 @@ You can use an EditorConfig file to codify coding conventions and have them trav
 ::: moniker-end
 
 - The [code inference feature](/visualstudio/intellicode/code-style-inference) of IntelliCode for Visual Studio infers your code styles from existing code. It then creates a non-empty EditorConfig file with your code-style preferences already defined.
+
+- Configure the severity level of a code style rule directly through the editor. If you currently do not have an .editorconfig file, one will be generated for you. Place your cursor on the error, warning, or suggestion and type **Ctrl**+**.** to open the Quick Actions and Refactorings menu. Select **Configure or Suppress issues**. Then select the rule and choose the severity level you would like to configure for that rule. This will update your existing EditorConfig with the rule’s new severity.
+
+   ![Configure the severity level of a code style rule directly in the editor](../ide/media/configure-severity-level.png)
 
 Check out the [.NET coding convention options](editorconfig-code-style-settings-reference.md) documentation, which also contains an example of a complete EditorConfig file.
 

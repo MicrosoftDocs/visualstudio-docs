@@ -28,13 +28,13 @@ Rule Id|DA0505|
 ## Rule Description  
  This message reports the average amount of virtual memory that the process has currently allocated in bytes (Private bytes). Private bytes represents virtual memory locations that were allocated by the process that can only be accessed by threads running inside the process.  
   
- For 32-bit processes running on a 32-bit machine, the upper limit of the private portion of the process address space is 2 GB. Using the [/3GB](http://go.microsoft.com/fwlink/?LinkId=177831) Boot.ini switch, 32-bit processes can acquire up to 3 GB of virtual memory. A 32-bit process that is running on a 64-bit machine can acquire up to 4 GB of private virtual memory.  
+ For 32-bit processes running on a 32-bit machine, the upper limit of the private portion of the process address space is 2 GB. Using the [/3GB](https://go.microsoft.com/fwlink/?LinkId=177831) Boot.ini switch, 32-bit processes can acquire up to 3 GB of virtual memory. A 32-bit process that is running on a 64-bit machine can acquire up to 4 GB of private virtual memory.  
   
  A 64-bit process that is running on a 64-bit machine can acquire up to 8 TB of private virtual memory.  
   
  The value reported is the average over all the measurement intervals in which the process being profiled was active.  
   
- For more information about process address spaces, see [Virtual Address Space](http://go.microsoft.com/fwlink/?LinkId=177832) in the Windows Memory Management documentation.  
+ For more information about process address spaces, see [Virtual Address Space](https://go.microsoft.com/fwlink/?LinkId=177832) in the Windows Memory Management documentation.  
   
 ## How to Use Rule Data  
  Use the reported value to compare the performance of different versions or builds of the program or to understand the performance of the application under different profiling scenarios.
