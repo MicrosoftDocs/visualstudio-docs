@@ -37,7 +37,7 @@ On the Benefits page, the subscription in use will be prominently displayed in t
 ## Renewing my subscriptions
 
 **Standard subscriptions**
-- Microsoft Store: If you purchased your subscription from the [Microsoft Store](http://www.microsoft.com/store), you can renew it there as well.
+- Microsoft Store: If you purchased your subscription from the [Microsoft Store](https://www.microsoft.com/store), you can renew it there as well.
 - Volume License:  If your company buys subscriptions through a Volume License, your admin should contact a reseller to renew your subscriptions.
 
 **Cloud subscriptions:**  Cloud subscriptions don't need to be renewed. As long as your subscription is paid, it will remain active.
