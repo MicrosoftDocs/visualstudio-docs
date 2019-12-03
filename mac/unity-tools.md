@@ -42,9 +42,9 @@ Visual Studio for Mac Tools for Unity supports all the [debugging](using-vsmac-t
 
 Write more usable code with quick menus and keyboard shortcuts for [renaming, refactoring, and context actions](refactoring.md).
 
-#### Roslyn diagnostics and quick-fixes for Unity
+### Roslyn diagnostics and quick-fixes for Unity
 
-Write better code that captures the best practices with Visual Studio for Macs deep understanding of Unity projects. 
+Write better code that captures the best practices with Visual Studio for Mac's deep understanding of Unity projects. 
 
 ![VS for Mac refactoring string compare with CompareTag](media/using-vsmac-tools-unity-image9.png)
 
