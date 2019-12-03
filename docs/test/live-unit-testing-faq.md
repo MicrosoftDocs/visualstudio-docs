@@ -79,11 +79,11 @@ For example, there may be a target that produces NuGet packages during a regular
 </Target>
 ```
 
-## Error messages with \<OutputPath> or \<OutDir>
+## Error messages with \<OutputPath>, \<OutDir> or \<IntermediateOutputPath>
 
-**Why do I get the following error when Live Unit Testing tries to build my solution: "...appears to unconditionally set `<OutputPath>` or `<OutDir>`. Live Unit Testing will not execute tests from the output assembly"?**
+**Why do I get the following error when Live Unit Testing tries to build my solution: "...appears to unconditionally set `<OutputPath>` or `<OutDir>`. Live Unit Testing will not execute tests from the output assembly" or "...appears to unconditionally set `<IntermediateOutputPath>`. Code Coverage information may be unavailable."?**
 
-You can get this error if the build process for your solution unconditionally overrides `<OutputPath>` or `<OutDir>` so that it is not a subdirectory of `<BaseOutputPath>`. In such cases, Live Unit Testing will not work because it also overrides these values to ensure that build artifacts are dropped to a folder under `<BaseOutputPath>`. If you must override the location where you want your build artifacts to be dropped in a regular build, override the `<OutputPath>` conditionally based on `<BaseOutputPath>`.
+You can get this error if the build process for your solution unconditionally overrides `<OutputPath>`, `<OutDir>` or `<IntermediateOutputPath>` so that it is not a subdirectory of `<BaseOutputPath>` or `<BaseIntermediateOutputPath>`. In such cases, Live Unit Testing will not work because it also overrides these values to ensure that build artifacts are dropped to a folder under `<BaseOutputPath>` or `<BaseIntermediateOutputPath>`. If you must override the location where you want your build artifacts to be dropped in a regular build, override the `<OutputPath>` or `<IntermediateOutputPath>` conditionally based on `<BaseOutputPath>` or `<BaseIntermediateOutputPath>`.
 
 For example, if your build overrides the `<OutputPath>` as shown below:
 
