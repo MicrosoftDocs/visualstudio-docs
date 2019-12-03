@@ -7,9 +7,9 @@ ms.date: 11/20/2019
 ms.technology: vs-azure
 ms.topic: conceptual
 ---
-# Build and debug containerized apps using Visual Studio or the command line
+# How Visual Studio builds containerized apps
 
-Whether you're building from the Visual Studio IDE, or setting up a command-line build, you need to know how Visual Studio builds uses the Dockerfile to build your projects.  For performance reasons, Visual Studio follows a special process for containerized apps. Understanding how Visual Studio builds your projects is especially important when you customize your build process by modifying the Dockerfile.
+Whether you're building from the Visual Studio IDE, or setting up a command-line build, you need to know how Visual Studio uses the Dockerfile to build your projects.  For performance reasons, Visual Studio follows a special process for containerized apps. Understanding how Visual Studio builds your projects is especially important when you customize your build process by modifying the Dockerfile.
 
 When Visual Studio builds a project that doesn't use Docker containers, it invokes MSBuild on the local machine and generates the output files in a folder (typically `bin`) under your local solution folder. For a containerized project, however, the build process takes account of the Dockerfile's instructions for building the containerized app. The Dockerfile that Visual Studio uses is divided into multiple stages. This process relies on Docker's *multistage build* feature.
 
@@ -78,7 +78,7 @@ MSBuild MyProject.csproj /t:ContainerBuild /p:Configuration=Release
 
 You'll see output similar to what you see in the **Output** window when you build your solution from the Visual Studio IDE. Always use `/p:Configuration=Release`, since in cases where Visual Studio uses the multistage build optimization, results when building the **Debug** configuration might not be as expected. See [Debugging](#debugging).
 
-If you are using a Docker Compose project, use the command to build images:
+If you are using a Docker Compose project, use this command to build images:
 
 ```cmd
 msbuild /p:SolutionPath=<solution-name>.sln /p:Configuration=Release docker-compose.dcproj
@@ -93,7 +93,7 @@ msbuild /p:SolutionPath=<solution-name>.sln /p:Configuration=Release docker-comp
 - Pull the images in the first stage of the Dockerfile (the `base` stage in most Dockerfiles).  
 - Build the Dockerfile and start the container.
 
-Warmup will only happen in **Fast** mode, so the running container will have the app folder volume mounted and any changes to the app should not invalidate the container. This therefore improves the debugging performance significantly and decreases the wait time for long running tasks such as pulling large images.
+Warmup will only happen in **Fast** mode, so the running container will have the app folder volume-mounted. That means that any changes to the app won't invalidate the container. This therefore improves the debugging performance significantly and decreases the wait time for long running tasks such as pulling large images.
 
 ## Volume mapping
 
