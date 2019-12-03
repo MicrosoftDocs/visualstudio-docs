@@ -42,9 +42,9 @@ Visual Studio Tools for Unity supports the robust [debugging](using-visual-studi
 * Inspect and modify the value of variables and arguments.
 * Drill down into complex objects and data structures.
 
-#### Roslyn diagnostics and quick-fixes for Unity
+### Roslyn diagnostics and quick-fixes for Unity
 
-Write better code that captures the best practices with Visual Studios deep understanding of Unity projects.
+Write better code that captures the best practices with Visual Studio's deep understanding of Unity projects.
 
 ![VS refactoring string comparison with CompareTag](media/unity-diagnostics.png)
 
