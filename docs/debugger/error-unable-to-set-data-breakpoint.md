@@ -10,7 +10,7 @@ helpviewer_keywords:
   - "debugging [Visual Studio], managed"
   - "debugging managed code, data breakpoint"
 ms.assetid: b06b5d65-424b-490f-bf58-97583cd7006a
-author: "waan"
+author: "wardengnaw"
 ms.author: "waan"
 manager: caslan
 ms.workload:

@@ -5,7 +5,7 @@ ms.topic: "conceptual"
 helpviewer_keywords:
   - "hardware supported data breakpoints"
 ms.assetid: a842caf3-d635-4620-bc81-1d4a6ea06ed6
-author: "waan"
+author: "wardengnaw"
 ms.author: "waan"
 manager: caslan
 ms.workload:
