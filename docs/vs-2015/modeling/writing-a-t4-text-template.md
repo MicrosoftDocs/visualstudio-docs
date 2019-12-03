@@ -236,7 +236,7 @@ private void WriteSquareLine(int i)
 <# string fileContent = File.ReadAllText(@"C:\myData.txt"); ...
 ```
 
- **Load a file as a navigable model**. A more powerful method is to read the data as a model, which your text template code can navigate. For example, you can load an XML file and navigate it with XPath expressions. You could also use [xsd.exe](http://go.microsoft.com/fwlink/?LinkId=178765) to create a set of classes with which you can read the XML data.
+ **Load a file as a navigable model**. A more powerful method is to read the data as a model, which your text template code can navigate. For example, you can load an XML file and navigate it with XPath expressions. You could also use [xsd.exe](https://go.microsoft.com/fwlink/?LinkId=178765) to create a set of classes with which you can read the XML data.
 
  **Edit the model file in a diagram or form.** [!INCLUDE[dsl](../includes/dsl-md.md)] provides tools that let you edit a model as a diagram or Windows form. This makes it easier to discuss the model with users of the generated application. [!INCLUDE[dsl](../includes/dsl-md.md)] also creates a set of strongly-typed classes that reflect the structure of the model. For more information, see [Generating Code from a Domain-Specific Language](../modeling/generating-code-from-a-domain-specific-language.md).
 

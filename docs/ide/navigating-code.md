@@ -1,6 +1,6 @@
 ---
 title: Code navigation commands
-ms.date: 08/14/2018
+ms.date: 11/21/2019
 ms.topic: conceptual
 helpviewer_keywords:
   - "code editor, navigation"
@@ -13,9 +13,9 @@ helpviewer_keywords:
   - "peek definition"
   - "go to line"
   - "go to"
-author: jillre
-ms.author: jillfra
-manager: jillfra
+author: mikadumont
+ms.author: midumont
+manager: tglee
 ms.workload:
   - "multiple"
 ---
@@ -118,6 +118,15 @@ Input | Function
 ------------ | ---
 **Keyboard** | Place your text cursor somewhere inside the type name, and press **Ctrl**+**F12**
 **Mouse** | Right-click on the type name and select **Go To Implementation**
+
+## Go To Base
+
+Using Go To Base, you can navigate up the inheritance chain of the selected element. If there are multiple results, you will see them listed in the **Go To Base** window:
+
+Input | Function
+------------ | ---
+**Keyboard** | Place your text cursor somewhere inside the type name, and press **Alt**+**Home**
+**Mouse** | Right-click on the type name and select **Go To Base**
 
 ## Call Hierarchy
 

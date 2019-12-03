@@ -19,7 +19,7 @@ manager: jillfra
 # UML Activity Diagrams: Guidelines
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-In Visual Studio, you can draw an activity diagram to describe a business process or a software algorithm as a flow of work through a series of actions. People, software components, or devices can perform these actions. For a video demonstration, see: [Capture Business Workflows by using Activity Diagrams](http://channel9.msdn.com/posts/clinted/UML-with-VS-2010-Part-4-Capture-Business-Workflows/).
+In Visual Studio, you can draw an activity diagram to describe a business process or a software algorithm as a flow of work through a series of actions. People, software components, or devices can perform these actions. For a video demonstration, see: [Capture Business Workflows by using Activity Diagrams](https://channel9.msdn.com/blogs/clinted/uml-with-vs-2010-part-4-capture-business-workflows).
 
  To see which versions of Visual Studio support this feature, see [Version support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport).
 
@@ -427,4 +427,4 @@ In Visual Studio, you can draw an activity diagram to describe a business proces
  [UML Use Case Diagrams: Reference](../modeling/uml-use-case-diagrams-reference.md)
  [UML Class Diagrams: Reference](../modeling/uml-class-diagrams-reference.md)
  [UML Component Diagrams: Reference](../modeling/uml-component-diagrams-reference.md)
- [Video: Capture Business Workflows by using Activity Diagrams](http://channel9.msdn.com/posts/clinted/UML-with-VS-2010-Part-4-Capture-Business-Workflows/)
+ [Video: Capture Business Workflows by using Activity Diagrams](https://channel9.msdn.com/blogs/clinted/uml-with-vs-2010-part-4-capture-business-workflows)

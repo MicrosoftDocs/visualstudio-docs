@@ -357,7 +357,7 @@ Make sure that your software system meets users' needs by using the visualizatio
 
 - [Validate your system during development](../modeling/validate-your-system-during-development.md)
 
-- [Use version control](http://go.microsoft.com/fwlink/?LinkID=525605)
+- [Use version control](https://go.microsoft.com/fwlink/?LinkID=525605)
 
 - [Build the application](/azure/devops/pipelines/index)
 
@@ -876,7 +876,7 @@ Make sure that your software system meets users' needs by using the visualizatio
 
 |**Category**|**Links**|
 |------------------|---------------|
-|**Forums**|-   [Visual Studio Visualization & Modeling Tools](http://go.microsoft.com/fwlink/?LinkId=184720)<br />-   [Visual Studio Visualization & Modeling SDK (DSL Tools)](http://go.microsoft.com/fwlink/?LinkId=184721)|
+|**Forums**|-   [Visual Studio Visualization & Modeling Tools](https://go.microsoft.com/fwlink/?LinkId=184720)<br />-   [Visual Studio Visualization & Modeling SDK (DSL Tools)](https://go.microsoft.com/fwlink/?LinkId=184721)|
 
 ## See Also
  [Visualize code](../modeling/visualize-code.md)

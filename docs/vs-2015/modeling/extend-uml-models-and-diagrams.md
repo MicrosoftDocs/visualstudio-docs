@@ -24,13 +24,13 @@ This topic summarizes the different ways in which you can extend the UML modelin
 
  Fabrikam's tools team makes a series of enhancements to help the development teams. The following sections describe the different kinds of extensions that you can define. You can combine several of these techniques into one Visual Studio extension.
 
- For more information, see this video: ![link to video](../data-tools/media/playvideo.gif "PlayVideo")[MSDN How Do I Series: UML Tools and Extensibility](http://go.microsoft.com/fwlink/?LinkId=214467).
+ For more information, see this video: ![link to video](../data-tools/media/playvideo.gif "PlayVideo")[MSDN How Do I Series: UML Tools and Extensibility](https://go.microsoft.com/fwlink/?LinkId=214467).
 
 ## <a name="Requirements"></a> Requirements
 
 - [Visual Studio SDK](../extensibility/visual-studio-sdk.md).
 
-- [Modeling SDK for Visual Studio 2015](http://www.microsoft.com/download/details.aspx?id=48148).
+- [Modeling SDK for Visual Studio 2015](https://www.microsoft.com/download/details.aspx?id=48148).
 
 ## Profiles
  Profiles let you define stereotypes and additional properties on UML elements.
@@ -107,10 +107,10 @@ This topic summarizes the different ways in which you can extend the UML modelin
 
 |**Category**|**Links**|
 |------------------|---------------|
-|**Videos**|![link to video](../data-tools/media/playvideo.gif "PlayVideo") [MSDN How Do I Series: UML Tools and Extensibility](http://go.microsoft.com/fwlink/?LinkId=214467)<br /><br /> ![link to video](../data-tools/media/playvideo.gif "PlayVideo") [Channel 9: UML with Visual Studio](http://go.microsoft.com/fwlink/?LinkId=199957)|
-|**Forums**|-   [Visual Studio Visualization & Modeling Tools](http://go.microsoft.com/fwlink/?LinkId=184720)<br />-   [Visual Studio Visualization & Modeling SDK (DSL Tools)](http://go.microsoft.com/fwlink/?LinkId=184721)|
-|**Blogs**|[Visual Studio ALM + Team Foundation Server Blog](http://go.microsoft.com/fwlink/?LinkID=201340)|
-|**Technical Articles and Journals**|[MSDN Architecture Center](http://go.microsoft.com/fwlink/?LinkId=201343)|
+|**Videos**|![link to video](../data-tools/media/playvideo.gif "PlayVideo") [MSDN How Do I Series: UML Tools and Extensibility](https://go.microsoft.com/fwlink/?LinkId=214467)<br /><br /> ![link to video](../data-tools/media/playvideo.gif "PlayVideo") [Channel 9: UML with Visual Studio](https://go.microsoft.com/fwlink/?LinkId=199957)|
+|**Forums**|-   [Visual Studio Visualization & Modeling Tools](https://go.microsoft.com/fwlink/?LinkId=184720)<br />-   [Visual Studio Visualization & Modeling SDK (DSL Tools)](https://go.microsoft.com/fwlink/?LinkId=184721)|
+|**Blogs**|[Visual Studio ALM + Team Foundation Server Blog](https://go.microsoft.com/fwlink/?LinkID=201340)|
+|**Technical Articles and Journals**|[MSDN Architecture Center](https://go.microsoft.com/fwlink/?LinkId=201343)|
 
 ## See Also
  [Create models for your app](../modeling/create-models-for-your-app.md)

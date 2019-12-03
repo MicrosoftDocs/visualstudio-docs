@@ -33,7 +33,7 @@ For example, in the table above, you can see that on 12/13/2018 there were 123 V
 
 ## Frequently asked questions
 ### Q: How is the information in the Maximum Usage different from the assignment information available in the "Overview" section on the left side of the portal?
-A:  The information in the overview shows the *current* assignments and available subscriptions for each subscription level.  This may be very different from the maximum number of subscriptions assigned for the agreement during the current year or the life of the agreement.  The Maximum Usage feature allows you to see when the maximum assignnment levels were reached and what the levels were.  This is an important distinction, since billing for subscriptions during true-up is based on the maximum number of subscriptions assigned at any point throughout the year. 
+A:  The information in the overview shows the *current* assignments and available subscriptions for each subscription level.  This may be very different from the maximum number of subscriptions assigned for the agreement during the current year or the life of the agreement.  The Maximum Usage feature allows you to see when the maximum assignment levels were reached and what the levels were.  This is an important distinction, since billing for subscriptions during true-up is based on the maximum number of subscriptions assigned at any point throughout the year. 
 
 ## Resources
 - [Visual Studio licensing white paper](https://aka.ms/vslicensing)

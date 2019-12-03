@@ -128,4 +128,4 @@ IntelliTest explores your .NET code to generate test data and a suite of unit te
  Then run IntelliTest to generate individual unit tests in their corresponding .g.cs files.
 
 ### Q: Can I learn more about how the tests are generated?
- **A:** Yes, to get a high-level overview, read this [blog post](http://blogs.msdn.com/b/visualstudioalm/archive/2015/07/05/intellitest-one-test-to-rule-them-all.aspx).
+ **A:** Yes, to get a high-level overview, read this [blog post](https://devblogs.microsoft.com/devops/intellitest-one-test-to-rule-them-all/).

@@ -9,7 +9,7 @@ description:  Learn how to export a list of subscribers and details of their sub
 ---
 
 # Export subscription information
-In the Visual Studio Subscriptions [Administratration Portal](https://manage.visualstudio.com), you can export a list of your subscribers and details about their assignments. This information includes their name, email address, alternate email address, subscription level, assigned date, activation status, expiration date, reference field, whether downloads are enabled, country, language, subscription status, and subscription GUID.  The list is exported as a CSV file, and can easily be opened in Microsoft Excel for the creation of charts, pivots and other artifacts.
+In the Visual Studio Subscriptions [Administration Portal](https://manage.visualstudio.com), you can export a list of your subscribers and details about their assignments. This information includes their name, email address, alternate email address, subscription level, assigned date, activation status, expiration date, reference field, whether downloads are enabled, country, language, subscription status, and subscription GUID.  The list is exported as a CSV file, and can easily be opened in Microsoft Excel for the creation of charts, pivots and other artifacts.
 
 Having all of your subscriber information in one place can help you do things like:
 - Get an overall view of which subscriptions are in use by team and/or location across your organization.

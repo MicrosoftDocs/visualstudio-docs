@@ -1,7 +1,7 @@
 ---
 title: "Publish a Node.js app to Linux App Service"
 description: You can publish Node.js applications created in Visual Studio to Linux App Service on Azure
-ms.date: 11/1/2018
+ms.date: 11/22/2019
 ms.topic: tutorial
 ms.devlang: javascript
 author: mikejo5000
@@ -127,15 +127,17 @@ to the following illustration.
     > [!WARNING]
     > The App Service deployment process uses a set of heuristics to determine which type of application to try and run. If a .*sln* file is detected in the deployed content, it will assume an MSBuild based project is being deployed. The setting added above overrides this logic and specifies explicitly that this is a Node.js application. Without this setting, the Node.js application will fail to deploy if the .*sln* file is part of the repository being deployed to the App Service.
 
-7. After it is deployed, open the App Service and select **Deployment options**.
+7. Under **Application settings**, add another setting with a name of `WEBSITE_NODE_DEFAULT_VERSION` and a value of `8.9.0`.
+
+8. After it is deployed, open the App Service and select **Deployment options**.
 
     ![Deployment options](../javascript/media/azure-deployment-options.png)
 
-8. Click **Choose source**, and then choose **GitHub**, and then configure any required permissions.
+9. Click **Choose source**, and then choose **GitHub**, and then configure any required permissions.
 
     ![GitHub permissions](../javascript/media/azure-choose-source.png)
 
-9. Select the repository and branch to publish, and then select **OK**.
+10. Select the repository and branch to publish, and then select **OK**.
 
     ![Publish to Linux App Service](../javascript/media/azure-repo-and-branch.png)
 

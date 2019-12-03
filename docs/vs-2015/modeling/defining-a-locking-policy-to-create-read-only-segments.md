@@ -20,7 +20,7 @@ The Immutability API of the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Visuali
 > [!NOTE]
 > A locking policy can be circumvented by using reflection. It provides a clear boundary for third-party developers, but does not provide strong security.
 
- More information and samples are available at the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] [Visualization and Modeling SDK](http://go.microsoft.com/fwlink/?LinkId=186128) Web site.
+ More information and samples are available at the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] [Visualization and Modeling SDK](https://go.microsoft.com/fwlink/?LinkId=186128) Web site.
 
 ## Setting and Getting Locks
  You can set locks on the store, on a partition, or on an individual element. For example, this statement will prevent a model element from being deleted, and will also prevent its properties from being changed:

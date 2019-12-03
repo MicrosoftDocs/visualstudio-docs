@@ -9524,6 +9524,21 @@
       "source_path": "docs/code-quality/ca3012-review-code-for-regex-injection-vulnerabilities.md",
       "redirect_url": "/visualstudio/code-quality/ca3012",
       "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/products/index.md",
+      "redirect_url": "/visualstudio",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "subscriptions/vs-msdn.md",
+      "redirect_url": "/visualstudio/subscriptions",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "subscriptions/vs-rstudio.md",
+      "redirect_url": "/visualstudio/subscriptions",
+      "redirect_document_id": false
     }
   ]
 }
