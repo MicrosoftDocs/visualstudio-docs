@@ -8,6 +8,7 @@ ms.assetid: b8e76363-65cd-424d-8173-3e2b5f54203b
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jillfra
+monikerRange: 'vs-2017'
 ms.workload:
   - "multiple"
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Change Log (Visual Studio Tools for Unity, Mac) | Microsoft Docs"
 ms.custom: ""
-ms.date: "09/18/2019"
+ms.date: "12/02/2019"
 ms.technology: vs-unity-tools
 ms.topic: "conceptual"
 ms.assetid: 33a6ac54-d997-4308-b5a0-af7387460849
@@ -14,6 +14,54 @@ ms.workload:
 # Change Log (Visual Studio Tools for Unity, Mac)
 
 Visual Studio Tools for Unity change log.
+
+## 2.4.2.0
+
+Released December 3, 2019
+
+### Bug fixes
+
+- **Integration:**
+
+  - Fixed diagnostics with user-defined interfaces.
+
+  - Fixed quick tooltips with malformed expressions.
+  
+## 2.4.1.0
+
+Released November 6, 2019
+
+### New Features
+
+- **Integration:**
+
+  - Added support for Unity background processes. (The debugger is able to auto-connect to the main process instead of a child process).
+
+  - Added a quick tooltip for Unity messages, displaying the associated documentation.
+
+### Bug fixes
+
+- **Integration:**
+
+  - Fixed the tag comparison analyzer `UNT0002` with advanced binary and invocation expressions.
+
+### Deprecated Features
+
+- **Integration:**
+
+  - Going forward, Visual Studio Tools for Unity will only support Visual Studio 2017+.
+
+## 2.4.0.0
+
+Released October 15, 2019
+
+### New Features
+
+- **Integration:**
+
+  - Added a suppressor for `IDE0060` (unused parameter) for all Unity messages.
+
+  - Added a quick tooltip for fields tagged with `TooltipAttribute`. (This will work for a simple get accessor using this field as well).
 
 ## 2.3.3.0
 
