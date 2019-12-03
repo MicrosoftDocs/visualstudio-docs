@@ -32,7 +32,7 @@ The default value of `ContinueOnError` is `ErrorAndStop`. If you set the attribu
 
 Use the `ContinueOnError` attribute of the task. For example:
 
-```c#
+```xml
 <Delete Files="@(Files)" ContinueOnError="WarnAndContinue"/>
 ```
 
