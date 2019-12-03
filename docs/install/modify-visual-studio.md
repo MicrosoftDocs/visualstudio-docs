@@ -3,7 +3,7 @@ title: "Modify Visual Studio"
 titleSuffix: ""
 description: "Learn how to modify Visual Studio, step-by-step."
 ms.custom: "H1Hack27Feb2017,seodec18"
-ms.date: 08/23/2019
+ms.date: 12/03/2019
 ms.topic: conceptual
 helpviewer_keywords:
   - "modify Visual Studio"
