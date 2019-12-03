@@ -6,11 +6,14 @@ keywords:
 author: TerryGLee
 ms.author: tglee
 manager: jillfra
-ms.date: 09/23/2019
+ms.date: 12/03/2019
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
 ms.topic: include
 ---
+
+
+
 ## Visual Studio core editor (included with Visual Studio Team Explorer 2019)
 
 **ID:** Microsoft.VisualStudio.Workload.CoreEditor
