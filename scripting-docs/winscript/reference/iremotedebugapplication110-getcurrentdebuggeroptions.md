@@ -30,6 +30,6 @@ HRESULT GetCurrentDebuggerOptions([out] enum SCRIPT_DEBUGGER_OPTIONS* pCurrentOp
  `pCurrentOptions`  
  [out] The current options.  
   
-## See Also  
+## See also  
  [IRemoteDebugApplication Interface](../../winscript/reference/iremotedebugapplication-interface.md)   
  [IRemoteDebugApplication110 Interface](../../winscript/reference/iremotedebugapplication110-interface.md)

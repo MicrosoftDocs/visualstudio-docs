@@ -5,8 +5,8 @@ ms.topic: reference
 f1_keywords:
   - "VS.ToolsOptionsPages.Environment.Keyboard"
 ms.assetid: 038da8dc-6126-4f3e-a361-a58cc04cafb3
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

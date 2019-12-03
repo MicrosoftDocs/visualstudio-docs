@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "TableAdapters, searching data"
   - "queries [Visual Studio], TableAdapters"
 ms.assetid: 104d1d19-b5a9-4071-b81e-1b3af08e9c7b
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "data-storage"

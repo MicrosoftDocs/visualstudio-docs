@@ -55,6 +55,6 @@ Each base class for a user-defined type (UDT) symbol is identified by a child wi
 |[IDiaSymbol::get_virtualTableShapeId](../../debugger/debug-interface-access/idiasymbol-get-virtualtableshapeid.md)|`DWORD`|ID of the virtual table shape symbol.|
 |[IDiaSymbol::get_volatileType](../../debugger/debug-interface-access/idiasymbol-get-volatiletype.md)|`BOOL`|`TRUE` if the base class is marked as volatile.|
 
-## See Also
+## See also
 - [Class Hierarchy of Symbol Types](../../debugger/debug-interface-access/class-hierarchy-of-symbol-types.md)
 - [UDT](../../debugger/debug-interface-access/udt.md)

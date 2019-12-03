@@ -68,5 +68,5 @@ HRESULT ParseLanguageText(
 ## Remarks  
  This method creates a debug expression for the specified text.  
   
-## See Also  
+## See also  
  [IDebugExpressionContext Interface](../../winscript/reference/idebugexpressioncontext-interface.md)

@@ -34,5 +34,5 @@ typedef enum tagAPPLICATION_NODE_EVENT_FILTER {    FILTER_EXCLUDE_NOTHING = 0,  
 |FILTER_EXCLUDE_ANONYMOUS_CODE|0x00000001|Exclude anonymous code nodes. These nodes are used by the JScript runtime for `new Function([args,] <code>)'`.|  
 |FILTER_EXCLUDE_EVAL_CODE|0x00000002|Exclude eval code nodes. These nodes are used by the JScript runtime for eval support.|  
   
-## See Also  
+## See also  
  [Active Script Debugger Constants, Enumerations, and Structures](../../winscript/reference/active-script-debugger-constants-enumerations-and-structures.md)

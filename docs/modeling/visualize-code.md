@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "code, understanding"
   - "code, visualizing"
   - "code, exploring"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

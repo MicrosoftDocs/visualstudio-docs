@@ -2,8 +2,8 @@
 title: Mixed Recommended Rules rule set
 ms.date: 11/04/2016
 ms.topic: reference
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"
@@ -234,50 +234,50 @@ Include this rule set in any custom rule set you create for your C++ projects th
 |[C28307](../code-quality/c28307.md)|The annotation on parameter is obsolescent|
 |[C28350](../code-quality/c28350.md)|The annotation describes a situation that is not conditionally applicable.|
 |[C28351](../code-quality/c28351.md)|The annotation describes where a dynamic value (a variable) cannot be used in the condition.|
-|[CA1001](../code-quality/ca1001-types-that-own-disposable-fields-should-be-disposable.md)|Types that own disposable fields should be disposable|
-|[CA1009](../code-quality/ca1009-declare-event-handlers-correctly.md)|Declare event handlers correctly|
-|[CA1016](../code-quality/ca1016-mark-assemblies-with-assemblyversionattribute.md)|Mark assemblies with AssemblyVersionAttribute|
-|[CA1033](../code-quality/ca1033-interface-methods-should-be-callable-by-child-types.md)|Interface methods should be callable by child types|
-|[CA1049](../code-quality/ca1049-types-that-own-native-resources-should-be-disposable.md)|Types that own native resources should be disposable|
-|[CA1060](../code-quality/ca1060-move-p-invokes-to-nativemethods-class.md)|Move P/Invokes to NativeMethods class|
-|[CA1061](../code-quality/ca1061-do-not-hide-base-class-methods.md)|Do not hide base class methods|
-|[CA1063](../code-quality/ca1063-implement-idisposable-correctly.md)|Implement IDisposable correctly|
-|[CA1065](../code-quality/ca1065-do-not-raise-exceptions-in-unexpected-locations.md)|Do not raise exceptions in unexpected locations|
-|[CA1301](../code-quality/ca1301-avoid-duplicate-accelerators.md)|Avoid duplicate accelerators|
-|[CA1400](../code-quality/ca1400-p-invoke-entry-points-should-exist.md)|P/Invoke entry points should exist|
-|[CA1401](../code-quality/ca1401-p-invokes-should-not-be-visible.md)|P/Invokes should not be visible|
-|[CA1403](../code-quality/ca1403-auto-layout-types-should-not-be-com-visible.md)|Auto layout types should not be COM visible|
-|[CA1404](../code-quality/ca1404-call-getlasterror-immediately-after-p-invoke.md)|Call GetLastError immediately after P/Invoke|
-|[CA1405](../code-quality/ca1405-com-visible-type-base-types-should-be-com-visible.md)|COM visible type base types should be COM visible|
-|[CA1410](../code-quality/ca1410-com-registration-methods-should-be-matched.md)|COM registration methods should be matched|
-|[CA1415](../code-quality/ca1415-declare-p-invokes-correctly.md)|Declare P/Invokes correctly|
+|[CA1001](../code-quality/ca1001.md)|Types that own disposable fields should be disposable|
+|[CA1009](../code-quality/ca1009.md)|Declare event handlers correctly|
+|[CA1016](../code-quality/ca1016.md)|Mark assemblies with AssemblyVersionAttribute|
+|[CA1033](../code-quality/ca1033.md)|Interface methods should be callable by child types|
+|[CA1049](../code-quality/ca1049.md)|Types that own native resources should be disposable|
+|[CA1060](../code-quality/ca1060.md)|Move P/Invokes to NativeMethods class|
+|[CA1061](../code-quality/ca1061.md)|Do not hide base class methods|
+|[CA1063](../code-quality/ca1063.md)|Implement IDisposable correctly|
+|[CA1065](../code-quality/ca1065.md)|Do not raise exceptions in unexpected locations|
+|[CA1301](../code-quality/ca1301.md)|Avoid duplicate accelerators|
+|[CA1400](../code-quality/ca1400.md)|P/Invoke entry points should exist|
+|[CA1401](../code-quality/ca1401.md)|P/Invokes should not be visible|
+|[CA1403](../code-quality/ca1403.md)|Auto layout types should not be COM visible|
+|[CA1404](../code-quality/ca1404.md)|Call GetLastError immediately after P/Invoke|
+|[CA1405](../code-quality/ca1405.md)|COM visible type base types should be COM visible|
+|[CA1410](../code-quality/ca1410.md)|COM registration methods should be matched|
+|[CA1415](../code-quality/ca1415.md)|Declare P/Invokes correctly|
 |[CA1821](../code-quality/ca1821.md)|Remove empty finalizers|
-|[CA1900](../code-quality/ca1900-value-type-fields-should-be-portable.md)|Value type fields should be portable|
-|[CA1901](../code-quality/ca1901-p-invoke-declarations-should-be-portable.md)|P/Invoke declarations should be portable|
-|[CA2002](../code-quality/ca2002-do-not-lock-on-objects-with-weak-identity.md)|Do not lock on objects with weak identity|
-|[CA2100](../code-quality/ca2100-review-sql-queries-for-security-vulnerabilities.md)|Review SQL queries for security vulnerabilities|
-|[CA2101](../code-quality/ca2101-specify-marshaling-for-p-invoke-string-arguments.md)|Specify marshaling for P/Invoke string arguments|
-|[CA2108](../code-quality/ca2108-review-declarative-security-on-value-types.md)|Review declarative security on value types|
-|[CA2111](../code-quality/ca2111-pointers-should-not-be-visible.md)|Pointers should not be visible|
-|[CA2112](../code-quality/ca2112-secured-types-should-not-expose-fields.md)|Secured types should not expose fields|
-|[CA2114](../code-quality/ca2114-method-security-should-be-a-superset-of-type.md)|Method security should be a superset of type|
-|[CA2116](../code-quality/ca2116-aptca-methods-should-only-call-aptca-methods.md)|APTCA methods should only call APTCA methods|
-|[CA2117](../code-quality/ca2117-aptca-types-should-only-extend-aptca-base-types.md)|APTCA types should only extend APTCA base types|
-|[CA2122](../code-quality/ca2122-do-not-indirectly-expose-methods-with-link-demands.md)|Do not indirectly expose methods with link demands|
-|[CA2123](../code-quality/ca2123-override-link-demands-should-be-identical-to-base.md)|Override link demands should be identical to base|
-|[CA2124](../code-quality/ca2124-wrap-vulnerable-finally-clauses-in-outer-try.md)|Wrap vulnerable finally clauses in outer try|
-|[CA2126](../code-quality/ca2126-type-link-demands-require-inheritance-demands.md)|Type link demands require inheritance demands|
-|[CA2131](../code-quality/ca2131-security-critical-types-may-not-participate-in-type-equivalence.md)|Security critical types may not participate in type equivalence|
-|[CA2132](../code-quality/ca2132-default-constructors-must-be-at-least-as-critical-as-base-type-default-constructors.md)|Default constructors must be at least as critical as base type default constructors|
-|[CA2133](../code-quality/ca2133-delegates-must-bind-to-methods-with-consistent-transparency.md)|Delegates must bind to methods with consistent transparency|
-|[CA2134](../code-quality/ca2134-methods-must-keep-consistent-transparency-when-overriding-base-methods.md)|Methods must keep consistent transparency when overriding base methods|
-|[CA2137](../code-quality/ca2137-transparent-methods-must-contain-only-verifiable-il.md)|Transparent methods must contain only verifiable IL|
-|[CA2138](../code-quality/ca2138-transparent-methods-must-not-call-methods-with-the-suppressunmanagedcodesecurity-attribute.md)|Transparent methods must not call methods with the SuppressUnmanagedCodeSecurity attribute|
-|[CA2140](../code-quality/ca2140-transparent-code-must-not-reference-security-critical-items.md)|Transparent code must not reference security critical items|
-|[CA2141](../code-quality/ca2141-transparent-methods-must-not-satisfy-linkdemands.md)|Transparent methods must not satisfy LinkDemands|
-|[CA2146](../code-quality/ca2146-types-must-be-at-least-as-critical-as-their-base-types-and-interfaces.md)|Types must be at least as critical as their base types and interfaces|
-|[CA2147](../code-quality/ca2147-transparent-methods-may-not-use-security-asserts.md)|Transparent methods may not use security asserts|
-|[CA2149](../code-quality/ca2149-transparent-methods-must-not-call-into-native-code.md)|Transparent methods must not call into native code|
+|[CA1900](../code-quality/ca1900.md)|Value type fields should be portable|
+|[CA1901](../code-quality/ca1901.md)|P/Invoke declarations should be portable|
+|[CA2002](../code-quality/ca2002.md)|Do not lock on objects with weak identity|
+|[CA2100](../code-quality/ca2100.md)|Review SQL queries for security vulnerabilities|
+|[CA2101](../code-quality/ca2101.md)|Specify marshaling for P/Invoke string arguments|
+|[CA2108](../code-quality/ca2108.md)|Review declarative security on value types|
+|[CA2111](../code-quality/ca2111.md)|Pointers should not be visible|
+|[CA2112](../code-quality/ca2112.md)|Secured types should not expose fields|
+|[CA2114](../code-quality/ca2114.md)|Method security should be a superset of type|
+|[CA2116](../code-quality/ca2116.md)|APTCA methods should only call APTCA methods|
+|[CA2117](../code-quality/ca2117.md)|APTCA types should only extend APTCA base types|
+|[CA2122](../code-quality/ca2122.md)|Do not indirectly expose methods with link demands|
+|[CA2123](../code-quality/ca2123.md)|Override link demands should be identical to base|
+|[CA2124](../code-quality/ca2124.md)|Wrap vulnerable finally clauses in outer try|
+|[CA2126](../code-quality/ca2126.md)|Type link demands require inheritance demands|
+|[CA2131](../code-quality/ca2131.md)|Security critical types may not participate in type equivalence|
+|[CA2132](../code-quality/ca2132.md)|Default constructors must be at least as critical as base type default constructors|
+|[CA2133](../code-quality/ca2133.md)|Delegates must bind to methods with consistent transparency|
+|[CA2134](../code-quality/ca2134.md)|Methods must keep consistent transparency when overriding base methods|
+|[CA2137](../code-quality/ca2137.md)|Transparent methods must contain only verifiable IL|
+|[CA2138](../code-quality/ca2138.md)|Transparent methods must not call methods with the SuppressUnmanagedCodeSecurity attribute|
+|[CA2140](../code-quality/ca2140.md)|Transparent code must not reference security critical items|
+|[CA2141](../code-quality/ca2141.md)|Transparent methods must not satisfy LinkDemands|
+|[CA2146](../code-quality/ca2146.md)|Types must be at least as critical as their base types and interfaces|
+|[CA2147](../code-quality/ca2147.md)|Transparent methods may not use security asserts|
+|[CA2149](../code-quality/ca2149.md)|Transparent methods must not call into native code|
 |[CA2200](../code-quality/ca2200.md)|Rethrow to preserve stack details|
 |[CA2202](../code-quality/ca2202.md)|Do not dispose objects multiple times|
 |[CA2207](../code-quality/ca2207.md)|Initialize value type static fields inline|

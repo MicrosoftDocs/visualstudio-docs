@@ -8,8 +8,8 @@ helpviewer_keywords:
   - customize codebases [Visual Studio]
   - tasks.vs.json file [Visual Studio]
   - launch.vs.json file [Visual Studio]
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

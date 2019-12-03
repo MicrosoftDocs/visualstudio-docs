@@ -80,6 +80,6 @@ Specifies whether or not the **Place code in separate file** check box is enable
 </VSTemplate>
 ```
 
-## See Also
+## See also
 - [Visual Studio Template Schema Reference](../extensibility/visual-studio-template-schema-reference.md)
 - [Creating Project and Item Templates](../ide/creating-project-and-item-templates.md)

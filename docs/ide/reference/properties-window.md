@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "virtual functions, Properties window"
   - "Properties window"
 ms.assetid: e6e0fa4f-75c4-4a52-af15-281cd61876ca
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

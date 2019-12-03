@@ -5,8 +5,8 @@ ms.custom: "seodec18, get-started"
 ms.date: 11/20/2018
 ms.technology: vs-ide-general
 ms.topic: tutorial
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 dev_langs:
   - CSharp
@@ -180,7 +180,7 @@ Nobody gets code right the first time, and one of the things you might have to c
 ## Next steps
 
 > [!div class="nextstepaction"]
-> [Learn about projects and solutions](tutorial-projects-solutions.md)
+> [Learn about projects and solutions](../tutorial-projects-solutions.md)
 
 ## See also
 

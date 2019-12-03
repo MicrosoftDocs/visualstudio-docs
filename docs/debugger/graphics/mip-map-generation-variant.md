@@ -63,5 +63,5 @@ Remember that when you provide initial data to `CreateTexture2D`, you must provi
 > [!NOTE]
 > If you want to provide your own mip level contents instead of generating them automatically, you must create your textures by using an image editor that supports mip-mapped textures and then load the file and pass the mip levels to `CreateTexture2D`.
 
-## See Also
+## See also
 [Half/Quarter Texture Dimensions Variant](half-quarter-texture-dimensions-variant.md)

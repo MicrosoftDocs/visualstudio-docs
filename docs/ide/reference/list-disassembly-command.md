@@ -8,8 +8,8 @@ helpviewer_keywords:
   - "Debug.ListDisassembly command"
   - "list disassembly command"
 ms.assetid: eb363e35-e86a-4121-966f-991210c27e2a
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"
@@ -58,7 +58,7 @@ Optional. Enables the viewing of line numbers associated with the source code. T
 >Debug.ListDisassembly
 ```
 
-## See Also
+## See also
 
 - [List Call Stack Command](../../ide/reference/list-call-stack-command.md)
 - [List Threads Command](../../ide/reference/list-threads-command.md)

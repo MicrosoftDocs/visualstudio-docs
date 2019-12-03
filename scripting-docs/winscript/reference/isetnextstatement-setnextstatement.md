@@ -44,5 +44,5 @@ HRESULT SetNextStatement(
   
 ## Remarks  
   
-## See Also  
+## See also  
  [ISetNextStatement Interface](../../winscript/reference/isetnextstatement-interface.md)

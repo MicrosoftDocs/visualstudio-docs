@@ -5,8 +5,8 @@ ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
   - "models, versions of Visual Studio"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"
@@ -49,7 +49,7 @@ If you open a model and its diagrams in a version of Visual Studio that does not
 
 You can save these changes. If you want to make your changes visible to other users, you must at least send the updated **.layout** files.
 
-## See Also
+## See also
 
 - [Dependency Diagrams: Reference](../modeling/layer-diagrams-reference.md)
 - [Create models for your app](../modeling/create-models-for-your-app.md)

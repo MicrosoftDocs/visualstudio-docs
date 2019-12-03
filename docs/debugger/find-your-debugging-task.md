@@ -37,11 +37,15 @@ Otherwise, for C# and F# only, you can [track an object ID with a conditional br
 
 ### Pause code inside a loop at a certain iteration
 
-Set a breakpoint using **Hit count** as a condition. For more information, see [Hit count](using-breakpoints.md#hit-count).
+Set a breakpoint using **Hit count** as a condition. For more information, see [Hit count](using-breakpoints.md#set-a-hit-count-condition).
 
 ### Pause code at the start of a function when you know the function name but not its location
 
 You can do this with a function breakpoint. For more information, see [Set function breakpoints](using-breakpoints.md#BKMK_Set_a_breakpoint_in_a_source_file).
+
+### Pause code at the start of multiple functions with the same name
+
+When you have multiple functions with the same name (overloaded functions or functions in different projects), you can use a [function breakpoint](using-breakpoints.md#BKMK_Set_a_breakpoint_in_a_source_file).
 
 ### Manage and keep track of your breakpoints
 
@@ -93,13 +97,21 @@ To configure debugger options and debugger project settings, see [Debugger setti
 
 ## Additional tasks
 
+### Fix an exception
+
+See [Fix an exception](write-better-code-with-visual-studio.md#fix-an-exception).
+
 ### Edit code during a debugging session
 
-Use [Edit and continue](edit-and-continue.md). For XAML, use [XAML Hot Reload](xaml-hot-reload.md).
+Use [Edit and continue](edit-and-continue.md). For XAML, use [XAML Hot Reload](../xaml-tools/xaml-hot-reload.md).
 
 ### Send messages to the Output window without modifying code
 
 Set a tracepoint. For more information, see [Using tracepoints](using-tracepoints.md).
+
+## View the order in which functions are called
+
+See [How to view the call stack](how-to-use-the-call-stack-window.md).
 
 ### Debug on remote machines
 

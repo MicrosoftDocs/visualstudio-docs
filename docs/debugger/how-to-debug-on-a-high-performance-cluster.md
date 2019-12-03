@@ -90,7 +90,7 @@ Debugging a multiprocessing program on a high-performance cluster is like debugg
 
 `(MachineName = marvin) & (ThreadName = fourier1)`
 
-## See Also
+## See also
 - [Debug Multithreaded Applications](../debugger/debug-multithreaded-applications-in-visual-studio.md)
 - [Remote Debugging](../debugger/remote-debugging.md)
 - [How to: Use the Processes Window](/previous-versions/visualstudio/visual-studio-2010/7h8h5sdw(v=vs.100))

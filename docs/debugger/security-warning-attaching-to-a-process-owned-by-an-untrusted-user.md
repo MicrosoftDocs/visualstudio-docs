@@ -36,6 +36,6 @@ This warning dialog box appears when you attach to a process that contains parti
  Don't Attach
  Do not attach to the process
 
-## See Also
+## See also
 - [Attach to Running Processes](../debugger/attach-to-running-processes-with-the-visual-studio-debugger.md)
 - [Debugger Security](../debugger/debugger-security.md)

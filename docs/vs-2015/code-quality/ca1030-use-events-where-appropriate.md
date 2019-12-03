@@ -12,8 +12,8 @@ helpviewer_keywords:
   - "UseEventsWhereAppropriate"
 ms.assetid: ea051367-deeb-40f9-9b65-eb818f1e133a
 caps.latest.revision: 18
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: "wpickett"
 ---
 # CA1030: Use events where appropriate

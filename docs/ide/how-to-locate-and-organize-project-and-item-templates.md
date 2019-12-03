@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "project templates [Visual Studio], locations"
   - "item templates [Visual Studio], locations"
   - "template locations [Visual Studio]"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # How to: Locate and organize project and item templates

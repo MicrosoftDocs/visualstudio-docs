@@ -35,5 +35,5 @@ HRESULT get_scoped ( 
 > [!NOTE]
 > A return value of `S_FALSE` means that the property is not available for the symbol.
 
-## See Also
+## See also
 - [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)

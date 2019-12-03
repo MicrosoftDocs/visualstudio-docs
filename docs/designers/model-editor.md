@@ -6,8 +6,8 @@ f1_keywords:
   - "vs.graphics.designer.3dscene"
   - "vs.graphics.modelviewer"
 ms.assetid: 5edf1a30-9307-43c3-9b8b-831217be0104
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

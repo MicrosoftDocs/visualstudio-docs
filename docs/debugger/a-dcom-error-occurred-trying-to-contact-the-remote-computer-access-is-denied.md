@@ -42,7 +42,7 @@ Remote debugging uses DCOM to communicate between the local and remote computers
 
 - If remote debugging requires entering credentials, check the option to save the credentials.
 
-## See Also
+## See also
 
 - [Remote Debugging Errors and Troubleshooting](../debugger/remote-debugging-errors-and-troubleshooting.md)
 - [Remote Debugging](../debugger/remote-debugging.md)

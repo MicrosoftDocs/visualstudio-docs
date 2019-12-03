@@ -7,8 +7,8 @@ ms.technology: vs-ide-general
 ms.topic: conceptual
 ms.assetid: c3a14d28-d811-4ff3-bd09-21dce14025ca
 caps.latest.revision: 7
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # Getting Started with Debugging in Visual Studio 2015
@@ -164,7 +164,7 @@ Visual Studio 2015 provides a powerful integrated set of project build and debug
 
  ![Visual Studio 2015 conditional breakpoint](../ide/media/vs-ide-gs-debug-breakpoint-conditional.PNG "Vs_ide_gs_debug_breakpoint_conditional")
 
- For more detail on how to declare the expressions used to evaluate conditional breakpoints, check out the Channel9 video [Breakpoint Configuration Experience in Visual Studio 2015](http://channel9.msdn.com/Events/Visual-Studio/Connect-event-2014/711).
+ For more detail on how to declare the expressions used to evaluate conditional breakpoints, check out the Channel9 video [Breakpoint Configuration Experience in Visual Studio 2015](https://channel9.msdn.com/Events/Visual-Studio/Connect-event-2014/711).
 
 ### Inspecting Your Code at Run-time
  When your running code hits a breakpoint and halts, you can inspect your variables and call stacks to determine what is going on. Are the values in the ranges you expect to see? Are calls being made in the right order?

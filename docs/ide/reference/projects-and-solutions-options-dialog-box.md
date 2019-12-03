@@ -8,8 +8,8 @@ helpviewer_keywords:
   - "Projects and Solutions Options dialog box"
   - "Options dialog box, Projects and Solutions"
 ms.assetid: 2801f24e-a138-488a-ae3c-e1f99a678ac0
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

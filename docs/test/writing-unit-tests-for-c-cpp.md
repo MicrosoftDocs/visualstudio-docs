@@ -73,7 +73,7 @@ To enable your test code to access the functions in the project to be tested, ad
 
 ### Link to object or library files
 
-If the test code doesn't export the functions that you want to test, you can add the output .obj or .lib files to the dependencies of the test project. See [To link the tests to the object or library files](https://docs.microsoft.com/visualstudio/test/unit-testing-existing-cpp-applications-with-test-explorer?view=vs-2015#objectRef).
+If the test code doesn't export the functions that you want to test, you can add the output .obj or .lib files to the dependencies of the test project. See [To link the tests to the object or library files](/visualstudio/test/how-to-use-microsoft-test-framework-for-cpp#same_project).
 
 ### Add #include directives for header files
 
@@ -86,7 +86,7 @@ To avoid having to type the full path in each include statement in the source fi
 ### Write test methods
 
 > [!NOTE]
-> This section shows syntax for the Microsoft Unit Testing Framework for C/C++. It is documented here: [Microsoft.VisualStudio.TestTools.CppUnitTestFramework API reference](microsoft-visualstudio-testtools-cppunittestframework-api-reference.md). For Google Test documentation, see [Google Test primer](https://github.com/google/googletest/blob/master/googletest/docs/primer.md). For Boost.Test, see [Boost Test library: The unit test framework](http://www.boost.org/doc/libs/1_46_0/libs/test/doc/html/utf.html).
+> This section shows syntax for the Microsoft Unit Testing Framework for C/C++. It is documented here: [Microsoft.VisualStudio.TestTools.CppUnitTestFramework API reference](microsoft-visualstudio-testtools-cppunittestframework-api-reference.md). For Google Test documentation, see [Google Test primer](https://github.com/google/googletest/blob/master/googletest/docs/primer.md). For Boost.Test, see [Boost Test library: The unit test framework](https://www.boost.org/doc/libs/1_46_0/libs/test/doc/html/utf.html).
 
 The *.cpp* file in your test project has a stub class and method defined for you as an example of how to write test code. Note that the signatures use the TEST_CLASS and TEST_METHOD macros, which make the methods discoverable from the **Test Explorer** window.
 

@@ -12,8 +12,8 @@ helpviewer_keywords:
   - "CA2211"
 ms.assetid: e1e42c40-0acd-4312-af29-70133739a304
 caps.latest.revision: 15
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: "wpickett"
 ---
 # CA2211: Non-constant fields should not be visible

@@ -4,8 +4,8 @@ ms.date: 09/23/2019
 ms.topic: conceptual
 helpviewer_keywords:
   - "FxCop analyzers, configuring"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "dotnet"

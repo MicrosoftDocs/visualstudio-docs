@@ -42,8 +42,8 @@ helpviewer_keywords:
   - "datasets [Visual Basic], namespace"
   - "data adapters, populating datasets"
 ms.assetid: ee57f4f6-9fe1-4e0a-be9a-955c486ff427
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "data-storage"

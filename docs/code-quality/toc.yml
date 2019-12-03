@@ -1,5 +1,5 @@
 - name: Code analysis documentation
-  href: index.md
+  href: index.yml
 - name: Analyze managed code
   items:
   - name: Overview
@@ -203,136 +203,136 @@
           displayName: "cryptography warnings"
           href: cryptography-warnings.md
         - name: "CA5350: Do Not Use Weak Cryptographic Algorithms"
-          href: ca5350-do-not-use-weak-cryptographic-algorithms.md
+          href: ca5350.md
         - name: "CA5351 Do Not Use Broken Cryptographic Algorithms"
-          href: ca5351-do-not-use-broken-cryptographic-algorithms.md
+          href: ca5351.md
       - name: Design warnings
         items:
         - name: Overview
           displayName: "design warnings"
           href: design-warnings.md
         - name: "CA1000: Do not declare static members on generic types"
-          href: ca1000-do-not-declare-static-members-on-generic-types.md
+          href: ca1000.md
         - name: "CA1001: Types that own disposable fields should be disposable"
-          href: ca1001-types-that-own-disposable-fields-should-be-disposable.md
+          href: ca1001.md
         - name: "CA1002: Do not expose generic lists"
-          href: ca1002-do-not-expose-generic-lists.md
+          href: ca1002.md
         - name: "CA1003: Use generic event handler instances"
-          href: ca1003-use-generic-event-handler-instances.md
+          href: ca1003.md
         - name: "CA1004: Generic methods should provide type parameter"
-          href: ca1004-generic-methods-should-provide-type-parameter.md
+          href: ca1004.md
         - name: "CA1005: Avoid excessive parameters on generic types"
-          href: ca1005-avoid-excessive-parameters-on-generic-types.md
+          href: ca1005.md
         - name: "CA1006: Do not nest generic types in member signatures"
-          href: ca1006-do-not-nest-generic-types-in-member-signatures.md
+          href: ca1006.md
         - name: "CA1007: Use generics where appropriate"
-          href: ca1007-use-generics-where-appropriate.md
+          href: ca1007.md
         - name: "CA1008: Enums should have zero value"
-          href: ca1008-enums-should-have-zero-value.md
+          href: ca1008.md
         - name: "CA1009: Declare event handlers correctly"
-          href: ca1009-declare-event-handlers-correctly.md
+          href: ca1009.md
         - name: "CA1010: Collections should implement generic interface"
-          href: ca1010-collections-should-implement-generic-interface.md
+          href: ca1010.md
         - name: "CA1011: Consider passing base types as parameters"
-          href: ca1011-consider-passing-base-types-as-parameters.md
+          href: ca1011.md
         - name: "CA1012: Abstract types should not have constructors"
-          href: ca1012-abstract-types-should-not-have-constructors.md
+          href: ca1012.md
         - name: "CA1013: Overload operator equals on overloading add and subtract"
-          href: ca1013-overload-operator-equals-on-overloading-add-and-subtract.md
+          href: ca1013.md
         - name: "CA1014: Mark assemblies with CLSCompliantAttribute"
-          href: ca1014-mark-assemblies-with-clscompliantattribute.md
+          href: ca1014.md
         - name: "CA1016: Mark assemblies with AssemblyVersionAttribute"
-          href: ca1016-mark-assemblies-with-assemblyversionattribute.md
+          href: ca1016.md
         - name: "CA1017: Mark assemblies with ComVisibleAttribute"
-          href: ca1017-mark-assemblies-with-comvisibleattribute.md
+          href: ca1017.md
         - name: "CA1018: Mark attributes with AttributeUsageAttribute"
-          href: ca1018-mark-attributes-with-attributeusageattribute.md
+          href: ca1018.md
         - name: "CA1019: Define accessors for attribute arguments"
-          href: ca1019-define-accessors-for-attribute-arguments.md
+          href: ca1019.md
         - name: "CA1020: Avoid namespaces with few types"
-          href: ca1020-avoid-namespaces-with-few-types.md
+          href: ca1020.md
         - name: "CA1021: Avoid out parameters"
-          href: ca1021-avoid-out-parameters.md
+          href: ca1021.md
         - name: "CA1023: Indexers should not be multidimensional"
-          href: ca1023-indexers-should-not-be-multidimensional.md
+          href: ca1023.md
         - name: "CA1024: Use properties where appropriate"
-          href: ca1024-use-properties-where-appropriate.md
+          href: ca1024.md
         - name: "CA1025: Replace repetitive arguments with params array"
-          href: ca1025-replace-repetitive-arguments-with-params-array.md
+          href: ca1025.md
         - name: "CA1026: Default parameters should not be used"
-          href: ca1026-default-parameters-should-not-be-used.md
+          href: ca1026.md
         - name: "CA1027: Mark enums with FlagsAttribute"
-          href: ca1027-mark-enums-with-flagsattribute.md
+          href: ca1027.md
         - name: "CA1028: Enum storage should be Int32"
-          href: ca1028-enum-storage-should-be-int32.md
+          href: ca1028.md
         - name: "CA1030: Use events where appropriate"
-          href: ca1030-use-events-where-appropriate.md
+          href: ca1030.md
         - name: "CA1031: Do not catch general exception types"
-          href: ca1031-do-not-catch-general-exception-types.md
+          href: ca1031.md
         - name: "CA1032: Implement standard exception constructors"
-          href: ca1032-implement-standard-exception-constructors.md
+          href: ca1032.md
         - name: "CA1033: Interface methods should be callable by child types"
-          href: ca1033-interface-methods-should-be-callable-by-child-types.md
+          href: ca1033.md
         - name: "CA1034: Nested types should not be visible"
-          href: ca1034-nested-types-should-not-be-visible.md
+          href: ca1034.md
         - name: "CA1035: ICollection implementations have strongly typed members"
-          href: ca1035-icollection-implementations-have-strongly-typed-members.md
+          href: ca1035.md
         - name: "CA1036: Override methods on comparable types"
-          href: ca1036-override-methods-on-comparable-types.md
+          href: ca1036.md
         - name: "CA1038: Enumerators should be strongly typed"
-          href: ca1038-enumerators-should-be-strongly-typed.md
+          href: ca1038.md
         - name: "CA1039: Lists are strongly typed"
-          href: ca1039-lists-are-strongly-typed.md
+          href: ca1039.md
         - name: "CA1040: Avoid empty interfaces"
-          href: ca1040-avoid-empty-interfaces.md
+          href: ca1040.md
         - name: "CA1041: Provide ObsoleteAttribute message"
-          href: ca1041-provide-obsoleteattribute-message.md
+          href: ca1041.md
         - name: "CA1043: Use integral or string argument for indexers"
-          href: ca1043-use-integral-or-string-argument-for-indexers.md
+          href: ca1043.md
         - name: "CA1044: Properties should not be write only"
-          href: ca1044-properties-should-not-be-write-only.md
+          href: ca1044.md
         - name: "CA1045: Do not pass types by reference"
-          href: ca1045-do-not-pass-types-by-reference.md
+          href: ca1045.md
         - name: "CA1046: Do not overload operator equals on reference types"
-          href: ca1046-do-not-overload-operator-equals-on-reference-types.md
+          href: ca1046.md
         - name: "CA1047: Do not declare protected members in sealed types"
-          href: ca1047-do-not-declare-protected-members-in-sealed-types.md
+          href: ca1047.md
         - name: "CA1048: Do not declare virtual members in sealed types"
-          href: ca1048-do-not-declare-virtual-members-in-sealed-types.md
+          href: ca1048.md
         - name: "CA1049: Types that own native resources should be disposable"
-          href: ca1049-types-that-own-native-resources-should-be-disposable.md
+          href: ca1049.md
         - name: "CA1050: Declare types in namespaces"
-          href: ca1050-declare-types-in-namespaces.md
+          href: ca1050.md
         - name: "CA1051: Do not declare visible instance fields"
-          href: ca1051-do-not-declare-visible-instance-fields.md
+          href: ca1051.md
         - name: "CA1052: Static holder types should be sealed"
-          href: ca1052-static-holder-types-should-be-sealed.md
+          href: ca1052.md
         - name: "CA1053: Static holder types should not have constructors"
-          href: ca1053-static-holder-types-should-not-have-constructors.md
+          href: ca1053.md
         - name: "CA1054: URI parameters should not be strings"
-          href: ca1054-uri-parameters-should-not-be-strings.md
+          href: ca1054.md
         - name: "CA1055: URI return values should not be strings"
-          href: ca1055-uri-return-values-should-not-be-strings.md
+          href: ca1055.md
         - name: "CA1056: URI properties should not be strings"
-          href: ca1056-uri-properties-should-not-be-strings.md
+          href: ca1056.md
         - name: "CA1057: String URI overloads call System.Uri overloads"
-          href: ca1057-string-uri-overloads-call-system-uri-overloads.md
+          href: ca1057.md
         - name: "CA1058: Types should not extend certain base types"
-          href: ca1058-types-should-not-extend-certain-base-types.md
+          href: ca1058.md
         - name: "CA1059: Members should not expose certain concrete types"
-          href: ca1059-members-should-not-expose-certain-concrete-types.md
+          href: ca1059.md
         - name: "CA1060: Move P-Invokes to NativeMethods class"
-          href: ca1060-move-p-invokes-to-nativemethods-class.md
+          href: ca1060.md
         - name: "CA1061: Do not hide base class methods"
-          href: ca1061-do-not-hide-base-class-methods.md
+          href: ca1061.md
         - name: "CA1062: Validate arguments of public methods"
-          href: ca1062-validate-arguments-of-public-methods.md
+          href: ca1062.md
         - name: "CA1063: Implement IDisposable correctly"
-          href: ca1063-implement-idisposable-correctly.md
+          href: ca1063.md
         - name: "CA1064: Exceptions should be public"
-          href: ca1064-exceptions-should-be-public.md
+          href: ca1064.md
         - name: "CA1065: Do not raise exceptions in unexpected locations"
-          href: ca1065-do-not-raise-exceptions-in-unexpected-locations.md
+          href: ca1065.md
         - name: "CA1068: CancellationToken parameters must come last"
           href: ca1068.md
         - name: "CA2210: Assemblies should have valid strong names"
@@ -350,81 +350,81 @@
           displayName: "globalization warnings"
           href: globalization-warnings.md
         - name: "CA1300: Specify MessageBoxOptions"
-          href: ca1300-specify-messageboxoptions.md
+          href: ca1300.md
         - name: "CA1301: Avoid duplicate accelerators"
-          href: ca1301-avoid-duplicate-accelerators.md
+          href: ca1301.md
         - name: "CA1302: Do not hardcode locale specific strings"
-          href: ca1302-do-not-hardcode-locale-specific-strings.md
+          href: ca1302.md
         - name: "CA1303: Do not pass literals as localized parameters"
-          href: ca1303-do-not-pass-literals-as-localized-parameters.md
+          href: ca1303.md
         - name: "CA1304: Specify CultureInfo"
-          href: ca1304-specify-cultureinfo.md
+          href: ca1304.md
         - name: "CA1305: Specify IFormatProvider"
-          href: ca1305-specify-iformatprovider.md
+          href: ca1305.md
         - name: "CA1306: Set locale for data types"
-          href: ca1306-set-locale-for-data-types.md
+          href: ca1306.md
         - name: "CA1307: Specify StringComparison"
-          href: ca1307-specify-stringcomparison.md
+          href: ca1307.md
         - name: "CA1308: Normalize strings to uppercase"
-          href: ca1308-normalize-strings-to-uppercase.md
+          href: ca1308.md
         - name: "CA1309: Use ordinal StringComparison"
-          href: ca1309-use-ordinal-stringcomparison.md
+          href: ca1309.md
         - name: "CA2101: Specify marshaling for P-Invoke string arguments"
-          href: ca2101-specify-marshaling-for-p-invoke-string-arguments.md
+          href: ca2101.md
       - name: Interoperability warnings
         items:
         - name: Overview
           displayName: "interoperability warnings"
           href: interoperability-warnings.md
         - name: "CA1400: P-Invoke entry points should exist"
-          href: ca1400-p-invoke-entry-points-should-exist.md
+          href: ca1400.md
         - name: "CA1401: P-Invokes should not be visible"
-          href: ca1401-p-invokes-should-not-be-visible.md
+          href: ca1401.md
         - name: "CA1402: Avoid overloads in COM visible interfaces"
-          href: ca1402-avoid-overloads-in-com-visible-interfaces.md
+          href: ca1402.md
         - name: "CA1403: Auto layout types should not be COM visible"
-          href: ca1403-auto-layout-types-should-not-be-com-visible.md
+          href: ca1403.md
         - name: "CA1404: Call GetLastError immediately after P-Invoke"
-          href: ca1404-call-getlasterror-immediately-after-p-invoke.md
+          href: ca1404.md
         - name: "CA1405: COM visible type base types should be COM visible"
-          href: ca1405-com-visible-type-base-types-should-be-com-visible.md
+          href: ca1405.md
         - name: "CA1406: Avoid Int64 arguments for Visual Basic 6 clients"
-          href: ca1406-avoid-int64-arguments-for-visual-basic-6-clients.md
+          href: ca1406.md
         - name: "CA1407: Avoid static members in COM visible types"
-          href: ca1407-avoid-static-members-in-com-visible-types.md
+          href: ca1407.md
         - name: "CA1408: Do not use AutoDual ClassInterfaceType"
-          href: ca1408-do-not-use-autodual-classinterfacetype.md
+          href: ca1408.md
         - name: "CA1409: Com visible types should be creatable"
-          href: ca1409-com-visible-types-should-be-creatable.md
+          href: ca1409.md
         - name: "CA1410: COM registration methods should be matched"
-          href: ca1410-com-registration-methods-should-be-matched.md
+          href: ca1410.md
         - name: "CA1411: COM registration methods should not be visible"
-          href: ca1411-com-registration-methods-should-not-be-visible.md
+          href: ca1411.md
         - name: "CA1412: Mark ComSource Interfaces as IDispatch"
-          href: ca1412-mark-comsource-interfaces-as-idispatch.md
+          href: ca1412.md
         - name: "CA1413: Avoid non-public fields in COM visible value types"
-          href: ca1413-avoid-non-public-fields-in-com-visible-value-types.md
+          href: ca1413.md
         - name: "CA1414: Mark boolean P-Invoke arguments with MarshalAs"
-          href: ca1414-mark-boolean-p-invoke-arguments-with-marshalas.md
+          href: ca1414.md
         - name: "CA1415: Declare P-Invokes correctly"
-          href: ca1415-declare-p-invokes-correctly.md
+          href: ca1415.md
       - name: Maintainability warnings
         items:
         - name: Overview
           displayName: "maintainability warnings"
           href: maintainability-warnings.md
         - name: "CA1500: Variable names should not match field names"
-          href: ca1500-variable-names-should-not-match-field-names.md
+          href: ca1500.md
         - name: "CA1501: Avoid excessive inheritance"
-          href: ca1501-avoid-excessive-inheritance.md
+          href: ca1501.md
         - name: "CA1502: Avoid excessive complexity"
-          href: ca1502-avoid-excessive-complexity.md
+          href: ca1502.md
         - name: "CA1504: Review misleading field names"
-          href: ca1504-review-misleading-field-names.md
+          href: ca1504.md
         - name: "CA1505: Avoid unmaintainable code"
-          href: ca1505-avoid-unmaintainable-code.md
+          href: ca1505.md
         - name: "CA1506: Avoid excessive class coupling"
-          href: ca1506-avoid-excessive-class-coupling.md
+          href: ca1506.md
         - name: "CA1507: Use nameof in place of string"
           href: ca1507.md
       - name: Mobility warnings
@@ -433,60 +433,60 @@
           displayName: "mobility warnings"
           href: mobility-warnings.md
         - name: "CA1600: Do not use idle process priority"
-          href: ca1600-do-not-use-idle-process-priority.md
+          href: ca1600.md
         - name: "CA1601: Do not use timers that prevent power state changes"
-          href: ca1601-do-not-use-timers-that-prevent-power-state-changes.md
+          href: ca1601.md
       - name: Naming warnings
         items:
         - name: Overview
           displayName: "naming warnings"
           href: naming-warnings.md
         - name: "CA1700: Do not name enum values 'Reserved'"
-          href: ca1700-do-not-name-enum-values-reserved.md
+          href: ca1700.md
         - name: "CA1701: Resource string compound words should be cased correctly"
-          href: ca1701-resource-string-compound-words-should-be-cased-correctly.md
+          href: ca1701.md
         - name: "CA1702: Compound words should be cased correctly"
-          href: ca1702-compound-words-should-be-cased-correctly.md
+          href: ca1702.md
         - name: "CA1703: Resource strings should be spelled correctly"
-          href: ca1703-resource-strings-should-be-spelled-correctly.md
+          href: ca1703.md
         - name: "CA1704: Identifiers should be spelled correctly"
-          href: ca1704-identifiers-should-be-spelled-correctly.md
+          href: ca1704.md
         - name: "CA1707: Identifiers should not contain underscores"
-          href: ca1707-identifiers-should-not-contain-underscores.md
+          href: ca1707.md
         - name: "CA1708: Identifiers should differ by more than case"
-          href: ca1708-identifiers-should-differ-by-more-than-case.md
+          href: ca1708.md
         - name: "CA1709: Identifiers should be cased correctly"
-          href: ca1709-identifiers-should-be-cased-correctly.md
+          href: ca1709.md
         - name: "CA1710: Identifiers should have correct suffix"
-          href: ca1710-identifiers-should-have-correct-suffix.md
+          href: ca1710.md
         - name: "CA1711: Identifiers should not have incorrect suffix"
-          href: ca1711-identifiers-should-not-have-incorrect-suffix.md
+          href: ca1711.md
         - name: "CA1712: Do not prefix enum values with type name"
-          href: ca1712-do-not-prefix-enum-values-with-type-name.md
+          href: ca1712.md
         - name: "CA1713: Events should not have before or after prefix"
-          href: ca1713-events-should-not-have-before-or-after-prefix.md
+          href: ca1713.md
         - name: "CA1714: Flags enums should have plural names"
-          href: ca1714-flags-enums-should-have-plural-names.md
+          href: ca1714.md
         - name: "CA1715: Identifiers should have correct prefix"
-          href: ca1715-identifiers-should-have-correct-prefix.md
+          href: ca1715.md
         - name: "CA1716: Identifiers should not match keywords"
-          href: ca1716-identifiers-should-not-match-keywords.md
+          href: ca1716.md
         - name: "CA1717: Only FlagsAttribute enums should have plural names"
-          href: ca1717-only-flagsattribute-enums-should-have-plural-names.md
+          href: ca1717.md
         - name: "CA1719: Parameter names should not match member names"
-          href: ca1719-parameter-names-should-not-match-member-names.md
+          href: ca1719.md
         - name: "CA1720: Identifiers should not contain type names"
-          href: ca1720-identifiers-should-not-contain-type-names.md
+          href: ca1720.md
         - name: "CA1721: Property names should not match get methods"
-          href: ca1721-property-names-should-not-match-get-methods.md
+          href: ca1721.md
         - name: "CA1722: Identifiers should not have incorrect prefix"
-          href: ca1722-identifiers-should-not-have-incorrect-prefix.md
+          href: ca1722.md
         - name: "CA1725: Parameter names should match base declaration"
-          href: ca1725-parameter-names-should-match-base-declaration.md
+          href: ca1725.md
         - name: "CA1724: Type Names Should Not Match Namespaces"
-          href: ca1724-type-names-should-not-match-namespaces.md
+          href: ca1724.md
         - name: "CA1726: Use preferred terms"
-          href: ca1726-use-preferred-terms.md
+          href: ca1726.md
       - name: Performance warnings
         items:
         - name: Overview
@@ -751,6 +751,8 @@
           href: ca5397.md
         - name: "CA5398: Avoid hardcoded SslProtocols values"
           href: ca5398.md
+        - name: "CA5403: Do not hard-code certificate"
+          href: ca5403.md
       - name: Usage warnings
         items:
         - name: Overview

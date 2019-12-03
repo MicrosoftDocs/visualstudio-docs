@@ -36,5 +36,5 @@ HRESULT OnStateChange(
 ## Return Value  
  Returns `S_OK` if successful.  
   
-## See Also  
+## See also  
  [IActiveScriptSite](../../winscript/reference/iactivescriptsite.md)

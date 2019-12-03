@@ -60,7 +60,7 @@ This lab is intended for developers who are familiar with C#, although deep expe
 
     ![](media/netcore-image6.png)
 
-5. This CSHTML file uses the Razor syntax to render HTML based on a combination of standard tags and inline C#. You can learn more about this in the [online documentation](https://docs.microsoft.com/aspnet/web-pages/overview/getting-started/introducing-razor-syntax-c).
+5. This CSHTML file uses the Razor syntax to render HTML based on a combination of standard tags and inline C#. You can learn more about this in the [online documentation](/aspnet/web-pages/overview/getting-started/introducing-razor-syntax-c).
 
     ![](media/netcore-image7.png)
 
@@ -68,7 +68,7 @@ This lab is intended for developers who are familiar with C#, although deep expe
 
     ![](media/netcore-image8.png)
 
-7. There are also a variety of configuration files that serve to manage the project, its packages, and the application at runtime. For example, the default application [configuration](https://docs.microsoft.com/aspnet/core/fundamentals/configuration) is stored in **appsettings.json**. However, you can override some/all of these settings on a per-environment basis, such as by providing an **appsettings.Development.json** file for the **Development** environment.
+7. There are also a variety of configuration files that serve to manage the project, its packages, and the application at runtime. For example, the default application [configuration](/aspnet/core/fundamentals/configuration) is stored in **appsettings.json**. However, you can override some/all of these settings on a per-environment basis, such as by providing an **appsettings.Development.json** file for the **Development** environment.
 
     ![](media/netcore-image9.png)
 
@@ -82,7 +82,7 @@ This lab is intended for developers who are familiar with C#, although deep expe
 
     ![](media/netcore-image11.png)
 
-3. While the **WebHostBuilder** is responsible for creating the host that will bootstrap the server for the app, it requires you provide a server that implements **IServer**. By default, this is **[Kestrel](https://docs.microsoft.com/aspnet/core/fundamentals/servers/kestrel)**, a cross-platform web server for ASP.NET Core based on **libuv**, which is a cross-platform asynchronous I/O library.
+3. While the **WebHostBuilder** is responsible for creating the host that will bootstrap the server for the app, it requires you provide a server that implements **IServer**. By default, this is **[Kestrel](/aspnet/core/fundamentals/servers/kestrel)**, a cross-platform web server for ASP.NET Core based on **libuv**, which is a cross-platform asynchronous I/O library.
 
     ![](media/netcore-image12.png)
 
@@ -184,7 +184,7 @@ This lab is intended for developers who are familiar with C#, although deep expe
 
     ![](media/netcore-image32.png)
 
-5. After that, it attempts to load an environment-specific **appsettings.json** file, which would override existing settings. For example, this is a provided **appsettings.Development.json** file used for that specific environment. To read more about configuration in ASP.NET Core, check out [the docs](https://docs.microsoft.com/aspnet/core/fundamentals/configuration).
+5. After that, it attempts to load an environment-specific **appsettings.json** file, which would override existing settings. For example, this is a provided **appsettings.Development.json** file used for that specific environment. To read more about configuration in ASP.NET Core, check out [the docs](/aspnet/core/fundamentals/configuration).
 
     ![](media/netcore-image34.png)
 
@@ -238,4 +238,4 @@ This lab is intended for developers who are familiar with C#, although deep expe
 
 ## Summary
 
-In this lab, you've learned how to get started developing ASP.NET Core apps with Visual Studio for Mac. If you'd like to explore developing a more complete movies database application, see the [Get started with ASP.NET Core MVC](https://docs.microsoft.com/aspnet/core/tutorials/first-mvc-app/start-mvc) tutorial.
+In this lab, you've learned how to get started developing ASP.NET Core apps with Visual Studio for Mac. If you'd like to explore developing a more complete movies database application, see the [Get started with ASP.NET Core MVC](/aspnet/core/tutorials/first-mvc-app/start-mvc) tutorial.

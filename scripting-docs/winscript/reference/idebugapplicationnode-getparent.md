@@ -43,5 +43,5 @@ HRESULT GetParent(
 ## Remarks  
  This method returns the parent node of this application node.  
   
-## See Also  
+## See also  
  [IDebugApplicationNode Interface](../../winscript/reference/idebugapplicationnode-interface.md)

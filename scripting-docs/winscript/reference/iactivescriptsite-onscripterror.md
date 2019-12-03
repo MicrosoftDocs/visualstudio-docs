@@ -36,5 +36,5 @@ HRESULT OnScriptError(
 ## Return Value  
  Returns `S_OK` if the error was correctly handled, or an OLE defined error code otherwise.  
   
-## See Also  
+## See also  
  [IActiveScriptSite](../../winscript/reference/iactivescriptsite.md)

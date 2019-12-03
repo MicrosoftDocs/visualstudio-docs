@@ -8,8 +8,8 @@ helpviewer_keywords:
   - "virtual user activity chart"
   - "load test, virtual user activity chart"
 ms.assetid: 63f4bd42-3cfb-4eee-af68-e8334976539e
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # Analyzing load test virtual user activity in the Details view of the Load Test Analyzer

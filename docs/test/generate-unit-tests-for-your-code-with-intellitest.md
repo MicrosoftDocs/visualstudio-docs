@@ -4,11 +4,11 @@ ms.date: 10/05/2015
 ms.topic: conceptual
 f1_keywords:
   - "vs.UnitTest.CreateIntelliTest"
-ms.author: gewarren
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"
-author: gewarren
+author: jillre
 ---
 # How to: Generate unit tests by using IntelliTest
 

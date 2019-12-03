@@ -11,8 +11,8 @@ helpviewer_keywords:
   - "code visualization [Visual Studio]"
   - "dependencies, visualizing"
   - "dependency graphs"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

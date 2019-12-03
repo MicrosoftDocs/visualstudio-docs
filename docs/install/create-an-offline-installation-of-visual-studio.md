@@ -1,7 +1,7 @@
 ---
 title: "Create an offline installation"
 description: "Learn how to install Visual Studio offline when you have an unreliable internet connection or low bandwidth."
-ms.date: 10/11/2019
+ms.date: 10/22/2019
 ms.custom: "seodec18"
 ms.topic: conceptual
 f1_keywords:
@@ -157,6 +157,12 @@ If you want to install a language other than English, change `en-US` to a locale
 > [!TIP]
 > When you run from a local install cache, setup uses the local versions of each of these files. But if you select components during installation that aren't in the cache, setup attempts to download them from the internet.
 
+::: moniker range="vs-2019"
+> [!IMPORTANT]
+> For offline installations, if you get an error message that says "A product matching the following parameters cannot be found", make sure that you are using the `--noweb` switch with version 16.3.5 or later.
+>
+::: moniker-end
+
 To make sure that you install only the files that you've previously downloaded, use the same command-line options that you used to create the layout cache. For example, if you created a layout cache with the following command:
 
 ```cmd
@@ -168,6 +174,8 @@ Then use this command to run the installation:
 ```cmd
 c:\vslayout\vs_community.exe --add Microsoft.VisualStudio.Workload.ManagedDesktop --add Microsoft.VisualStudio.Workload.NetWeb --add Component.GitHub.VisualStudio --includeOptional
 ```
+
+For more examples of how to use [command-line parameters](use-command-line-parameters-to-install-visual-studio.md), see the [Command-line parameter examples for Visual Studio installation](command-line-parameter-examples.md) page. 
 
 > [!NOTE]
 > If you get an error that a signature is invalid, you must install updated certificates. Open the Certificates folder in your offline cache. Double-click each of the certificate files, and then click through the Certificate Manager wizard. If you're asked for a password, leave it blank.

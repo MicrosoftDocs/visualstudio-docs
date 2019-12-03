@@ -5,11 +5,11 @@ ms.topic: reference
 f1_keywords:
   - "System.Activities.Statements.Transition.UI"
 ms.assetid: f6e8b5cc-7fb8-4699-9703-f3c9fc7cc316
-ms.author: gewarren
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"
-author: gewarren
+author: jillre
 ---
 # Transition Activity Designer
 

@@ -1,9 +1,9 @@
 ---
 title: "First look at the debugger"
 description: "Get started debugging applications using the Visual Studio debugger"
-ms.custom: "seoapril2019"
+ms.custom: ""
 ms.date: 04/08/2019
-ms.topic: quickstart
+ms.topic: tutorial
 helpviewer_keywords:
   - "debugger"
 ms.assetid: c763d706-3213-494f-b4d2-990b6e1ec456
@@ -118,7 +118,7 @@ In most languages supported by Visual Studio, you can edit your code in the midd
 
 For more information on using the feature and on feature limitations, see [Edit and Continue](../debugger/edit-and-continue.md).
 
-To modify XAML code during a debugging session, see [Write and debug running XAML code with XAML Hot Reload](xaml-hot-reload.md).
+To modify XAML code during a debugging session, see [Write and debug running XAML code with XAML Hot Reload](../xaml-tools/xaml-hot-reload.md).
 
 ## Inspect variables with data tips
 

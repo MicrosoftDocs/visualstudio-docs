@@ -63,7 +63,7 @@ HRESULT GetDeferredText(
 > [!NOTE]
 > This method returns the text from the original document. The host does not keep track of edits or other changes to the document.  
   
-## See Also  
+## See also  
  [IDebugDocumentHost Interface](../../winscript/reference/idebugdocumenthost-interface.md)   
  [IDebugDocumentHelper::AddDeferredText](../../winscript/reference/idebugdocumenthelper-adddeferredtext.md)   
  [SOURCE_TEXT_ATTR Enumeration](../../winscript/reference/source-text-attr-enumeration.md)

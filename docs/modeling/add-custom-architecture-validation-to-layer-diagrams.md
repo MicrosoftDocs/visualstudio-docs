@@ -4,8 +4,8 @@ ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
   - "dependency diagrams, adding custom validation"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"
@@ -281,6 +281,6 @@ namespace Validator3
 }
 ```
 
-## See Also
+## See also
 
 - [Extend dependency diagrams](../modeling/extend-layer-diagrams.md)

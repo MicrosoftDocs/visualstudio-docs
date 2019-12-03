@@ -4,8 +4,8 @@ ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
   - "Domain-Specific Language"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"
@@ -68,7 +68,7 @@ Domain-Specific Language Tools (DSL Tools), which are hosted in Visual Studio, l
 
  When you build and run the DSL Tools solution in Visual Studio, a second instance of Visual Studio shows you how your domain-specific language looks to the user of the language. After you verify that everything works correctly, you can distribute the `.vsix` file that you will find in the build folder of the DslPackage project. This file can be used to install the DSL as a Visual Studio extension on other computers.  For more information, see [Deploying Domain-Specific Language Solutions](msi-and-vsix-deployment-of-a-dsl.md).
 
-## See Also
+## See also
 
 - [The Experimental Instance](../extensibility/the-experimental-instance.md)
 - [Domain-Specific Language Tools Glossary](https://msdn.microsoft.com/ca5e84cb-a315-465c-be24-76aa3df276aa)

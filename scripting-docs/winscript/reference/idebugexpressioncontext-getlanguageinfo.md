@@ -47,5 +47,5 @@ HRESULT GetLanguageInfo(
 ## Remarks  
  This method returns a name and GUID for the language that owns this context.  
   
-## See Also  
+## See also  
  [IDebugExpressionContext Interface](../../winscript/reference/idebugexpressioncontext-interface.md)

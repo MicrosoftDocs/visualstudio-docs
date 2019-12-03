@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "icons [Visual Studio], application"
   - "application properties [Visual Studio], icons"
   - "application icons [Visual Studio]"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "dotnet"

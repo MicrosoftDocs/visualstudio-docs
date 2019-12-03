@@ -5,8 +5,8 @@ ms.technology: vs-ide-code-analysis
 ms.topic: reference
 ms.assetid: 418cc9cb-68ad-47e9-a6c8-a48b9c35db45
 caps.latest.revision: 7
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: "wpickett"
 ---
 # CA2153: Avoid Handling Corrupted State Exceptions

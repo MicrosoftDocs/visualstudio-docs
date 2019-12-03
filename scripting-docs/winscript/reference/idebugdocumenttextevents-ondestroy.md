@@ -40,5 +40,5 @@ HRESULT onDestroy();
 ## Remarks  
  This method indicates that the underlying document has been destroyed and is no longer valid.  
   
-## See Also  
+## See also  
  [IDebugDocumentTextEvents Interface](../../winscript/reference/idebugdocumenttextevents-interface.md)

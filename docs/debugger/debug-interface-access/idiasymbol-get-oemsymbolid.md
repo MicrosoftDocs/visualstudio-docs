@@ -40,6 +40,6 @@ HRESULT get_oemSymbolId ( 
 
  This property applies only to symbols with a [SymTagEnum Enumeration](../../debugger/debug-interface-access/symtagenum.md) type of `SymTagCustomType`.
 
-## See Also
+## See also
 - [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
 - [SymTagEnum Enumeration](../../debugger/debug-interface-access/symtagenum.md)

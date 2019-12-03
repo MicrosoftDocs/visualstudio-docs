@@ -40,5 +40,5 @@ HRESULT Alive();
 ## Remarks  
  If the object is not active, Component Object Model (COM) returns an error from the marshaling proxy for calls to this method.  
   
-## See Also  
+## See also  
  [IScriptNode Interface](../../winscript/reference/iscriptnode-interface.md)

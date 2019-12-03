@@ -41,5 +41,5 @@ HRESULT QueryIsComplete();
 ## Remarks  
  This method determines if the operation is complete.  
   
-## See Also  
+## See also  
  [IDebugExpression Interface](../../winscript/reference/idebugexpression-interface.md)

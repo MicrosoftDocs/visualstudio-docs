@@ -2,9 +2,9 @@
 title: "Using shims to isolate your application for unit testing"
 ms.date: 11/04/2016
 ms.topic: conceptual
-ms.author: gewarren
+ms.author: jillfra
 manager: jillfra
-author: gewarren
+author: jillre
 dev_langs:
  - CSharp
  - VB
@@ -519,4 +519,4 @@ Shims cannot be used on all types from the .NET base class library **mscorlib** 
 
 - [Isolate code under test with Microsoft Fakes](../test/isolating-code-under-test-with-microsoft-fakes.md)
 - [Peter Provost's blog: Visual Studio 2012 shims](http://www.peterprovost.org/blog/2012/04/25/visual-studio-11-fakes-part-2)
-- [Video (1h16): Testing untestable code with fakes in Visual Studio 2012](http://go.microsoft.com/fwlink/?LinkId=261837)
+- [Video (1h16): Testing untestable code with fakes in Visual Studio 2012](https://channel9.msdn.com/Events/TechEd/Europe/2012/DEV411)

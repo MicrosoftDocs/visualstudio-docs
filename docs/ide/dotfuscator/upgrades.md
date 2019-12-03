@@ -22,7 +22,7 @@ helpviewer_keywords:
 description: "Learn how to upgrade the free copy of Dotfuscator Community included in Visual Studio."
 ms.assetid: c7c60904-27f9-4f1f-b79b-ddf65041b810
 author: "Joe-Sewell-PreEmptive"
-ms.author: gewarren
+ms.author: jillfra
 manager: jillfra
 ---
 # Upgrade Dotfuscator Community
@@ -59,7 +59,7 @@ Additionally, Dotfuscator Professional offers tighter integration with Visual St
 For more information about the advanced application protection features of Dotfuscator Professional, visit PreEmptive Solutions' [Dotfuscator Overview page][product-about] and [compare it to Dotfuscator Community][product-compare].
 [Fully supported trials are available at preemptive.com][eval].
 
-## See Also
+## See also
 
 [This article in the full Dotfuscator Community User Guide][full]
 

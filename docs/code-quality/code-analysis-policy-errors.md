@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "policy errors, code analysis"
 ms.assetid: d1f221cd-68c0-4277-9397-b76ad0dbae77
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"
@@ -67,6 +67,6 @@ This error applied to [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] 
 
 This error applies to unmanaged projects. The code analysis policy requires Code Analysis for C/C++, but it is not enabled in the current project on the client.
 
-## See Also
+## See also
 
 - [Code Analysis Application Errors](../code-quality/code-analysis-application-errors.md)

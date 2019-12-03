@@ -2,11 +2,11 @@
 title: "Use Microsoft.VisualStudio.TestTools.UnitTesting in unit tests"
 ms.date: 03/02/2018
 ms.topic: reference
-ms.author: gewarren
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"
-author: gewarren
+author: jillre
 ---
 # Use the MSTest framework in unit tests
 

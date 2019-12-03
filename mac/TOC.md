@@ -105,6 +105,10 @@
 ### [Using Keyboard Navigation](accessibility-keyboard.md)
 ### [Using VoiceOver](accessibility-voiceover.md)
 
+# Video tutorials
+## [Getting started with ASP.NET Core in Visual Studio for Mac](tutorial-aspnet-core-vsmac-getting-started.md)
+## [Extending an existing ASP.NET Core web application](tutorial-aspnet-core-vsmac-extending.md)
+
 # [Visual Studio for Mac for Windows Users](vsmac-for-windows-users.md)
 
 # Troubleshooting
@@ -115,13 +119,13 @@
 ## [Troubleshooting: Why can I not see all templates?](troubleshooting-no-templates.md)
 ## [Troubleshooting: Updater has errors retrieving information](updater-troubleshooting.md)
 
-# [Release Notes](https://docs.microsoft.com/visualstudio/releasenotes/vs2019-mac-relnotes)
-# [Preview Release Notes](https://docs.microsoft.com/visualstudio/releasenotes/vs2019-mac-preview-relnotes)
+# [Release Notes](/visualstudio/releasenotes/vs2019-mac-relnotes)
+# [Preview Release Notes](/visualstudio/releasenotes/vs2019-mac-preview-relnotes)
 # Samples
 ## [Featured Samples](samples/index.yml)
-## [All ASP.NET Core Samples](https://docs.microsoft.com/samples/browse/?products=aspnet-core)
-## [All .NET Core Samples](https://docs.microsoft.com/samples/browse/?products=dotnet-core)
-## [All Xamarin.Forms Samples](https://docs.microsoft.com/xamarin/xamarin-forms/samples/)
-## [All Xamarin.iOS Samples](https://docs.microsoft.com/xamarin/ios/samples/)
-## [All Xamarin.Android Samples](https://docs.microsoft.com/xamarin/android/samples/)
-## [All Xamarin.Mac Samples](https://docs.microsoft.com/xamarin/mac/samples/)
+## [All ASP.NET Core Samples](/samples/browse/?products=aspnet-core)
+## [All .NET Core Samples](/samples/browse/?products=dotnet-core)
+## [All Xamarin.Forms Samples](/xamarin/xamarin-forms/samples/)
+## [All Xamarin.iOS Samples](/xamarin/ios/samples/)
+## [All Xamarin.Android Samples](/xamarin/android/samples/)
+## [All Xamarin.Mac Samples](/xamarin/mac/samples/)

@@ -66,7 +66,7 @@ The following procedure shows how to set the minimum operating system version in
 
 1. Create a new **Console App** project for the command. Name the project **ChangeOSVersionCS**.
 
-2. In *Program.cs*, add the following line to the other `using` statements at the top of the file:
+2. In *Program.cs*, add the following line to the other `using` directives at the top of the file:
 
    ```csharp
    using System.Xml;

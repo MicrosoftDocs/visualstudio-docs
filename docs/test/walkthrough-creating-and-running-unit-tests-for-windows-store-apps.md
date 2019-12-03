@@ -7,11 +7,11 @@ helpviewer_keywords:
   - "unit tests"
   - "unit tests, UWP apps"
   - "unit tests, running"
-ms.author: gewarren
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "uwp"
-author: gewarren
+author: jillre
 ---
 # Walkthrough: Create and run unit tests for UWP apps
 

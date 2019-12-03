@@ -46,7 +46,7 @@ ms.workload:
 
   Global and static variables are always shown correctly. So is structure layout. If you have a pointer to a structure and the value of the pointer is correct, every member variable of the structure will show the correct value.
 
-  Because of these limitations, you should debug using an unoptimized version of your program if at all possible. By default, optimization is turned off in the Debug configuration of a Visual C++ program and turned on in the Release configuration.
+  Because of these limitations, you should debug using an unoptimized version of your program if at all possible. By default, optimization is turned off in the Debug configuration of a C++ program and turned on in the Release configuration.
 
   However, a bug might appear only in an optimized version of a program. In that case, you must debug the optimized code.
 

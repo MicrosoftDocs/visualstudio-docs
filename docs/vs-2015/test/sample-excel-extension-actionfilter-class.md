@@ -6,7 +6,7 @@ ms.technology: vs-ide-test
 ms.topic: conceptual
 ms.assetid: c69fe3c7-f797-4e90-b21c-f2cc4dddf152
 caps.latest.revision: 13
-ms.author: gewarren
+ms.author: jillfra
 manager: jillfra
 ---
 # Sample Excel Extension: ActionFilter Class

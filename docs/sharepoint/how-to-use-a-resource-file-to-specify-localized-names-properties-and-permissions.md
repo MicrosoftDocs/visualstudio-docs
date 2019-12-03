@@ -39,7 +39,7 @@ ms.workload:
 
 6. Add XML to define the localized names, properties, and permissions that you want to apply the BDC model.
 
-     For information about how to define these elements, see [Model and Resource Files](http://go.microsoft.com/fwlink/?LinkID=169283).
+     For information about how to define these elements, see [Model and Resource Files](/previous-versions/office/developer/sharepoint-2010/aa674515(v=office.14)).
 
 ## See also
 - [How to: Add an existing BDC model file to a SharePoint project](../sharepoint/how-to-add-an-existing-bdc-model-file-to-a-sharepoint-project.md)

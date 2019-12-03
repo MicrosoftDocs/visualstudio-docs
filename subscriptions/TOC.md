@@ -25,7 +25,7 @@
 ### [Contact your subscriptions administrator](contact-my-admin.md)
 ### Benefits
 #### Tools
-##### [Azure credit](vs-azure.md)
+##### [Azure DevTest individual credit](vs-azure.md)
 ##### [Azure DevOps](vs-azure-devops.md)
 ##### [Azure Pay-As-You-Go](vs-azure-payg.md)
 ##### [CAST Highlight](vs-cast.md)
@@ -35,7 +35,6 @@
 ##### [Office 365 subscription](vs-office365.md)
 ##### [Parasoft](vs-parasoft.md)
 ##### [Power BI Pro](vs-pbi.md)
-##### [RStudio](vs-rstudio.md)
 ##### [Visual Studio App Center](vs-visual-studio-app-center.md)
 ##### [Visual Studio IDE](vs-ide-benefit.md)
 ##### [WhiteSource Bolt](vs-whitesource.md)
@@ -44,7 +43,6 @@
 ##### [CODE Magazine](vs-code-magazine.md)
 ##### [DataCamp](vs-datacamp.md)
 ##### [LinkedIn Learning](vs-linkedin-learning.md)
-##### [MSDN Magazine subscription](vs-msdn.md)
 ##### [Pluralsight](vs-pluralsight.md)
 #### Support 
 ##### [Azure Community](vs-azure-community.md)

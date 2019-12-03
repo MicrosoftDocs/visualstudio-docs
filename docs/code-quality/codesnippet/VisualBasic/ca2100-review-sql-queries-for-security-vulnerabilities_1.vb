@@ -46,7 +46,7 @@ Namespace SecurityLibrary
 
    End Class 
 
-   Class MalaciousCode
+   Class MaliciousCode
 
       Shared Sub Main(args As String())
       

@@ -5,11 +5,11 @@ ms.topic: conceptual
 helpviewer_keywords:
   - "unit tests, creating"
   - "unit tests, running"
-ms.author: gewarren
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"
-author: gewarren
+author: jillre
 ---
 # Run a unit test as a 64-bit process
 

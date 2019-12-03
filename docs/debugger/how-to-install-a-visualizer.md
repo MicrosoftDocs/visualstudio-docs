@@ -24,7 +24,33 @@ After you have created a visualizer, you must install the visualizer so that it 
 > [!NOTE]
 > In UWP apps, only the standard text, HTML, XML, and JSON visualizers are supported. Custom (user-created) visualizers are not supported.
 
-### To install a visualizer
+### To install a visualizer for Visual Studio 2019
+  
+1. Locate the DLL that contains the visualizer you have built.
+
+2. Copy the [Debugger Side](create-custom-visualizers-of-data.md#to-create-the-debugger-side) DLL to either of the following locations:
+
+    - *VisualStudioInstallPath* `\Common7\Packages\Debugger\Visualizers`
+
+    - `My Documents\` *VisualStudioVersion* `\Visualizers`
+    
+3. Copy the [Debuggee Side](create-custom-visualizers-of-data.md#to-create-the-debuggee-side) DLL to either of the following locations:
+
+    - *VisualStudioInstallPath* `\Common7\Packages\Debugger\Visualizers\` *Framework*
+
+    - `My Documents\` *VisualStudioVersion* `\Visualizers\` *Framework*
+
+    Where *Framework* is either:
+    - `net2.0` for debuggees running the `.NET Framework` runtime.
+    - `netstandard2.0` for debuggees using a runtime that supports `netstandard 2.0` (`.NET Framework v4.6.1+` or `.NET Core 2.0+`).
+    - `netcoreapp` for debuggees running the `.NET Core` runtime. (supports `.NET Core 2.0+`)
+
+4. Restart the debugging session.
+
+### To install a visualizer for Visual Studio 2017 and older
+
+> [!IMPORTANT]
+> Only .NET Framework visualizers are supported in Visual Studio 2017 and older
 
 1. Locate the DLL that contains the visualizer you have built.
 
@@ -34,10 +60,11 @@ After you have created a visualizer, you must install the visualizer so that it 
 
     - `My Documents\` *VisualStudioVersion* `\Visualizers`
 
-3. If you want to use a managed visualizer for remote debugging, copy the DLL to the same path on the remote computer.
+3. Restart the debugging session.
 
-4. Restart the debugging session.
+> [!NOTE]
+> If you want to use a managed visualizer for remote debugging, copy the DLL to the same path on the remote computer.
 
-## See Also
+## See also
 - [Create Custom Visualizers](../debugger/create-custom-visualizers-of-data.md)
-- [How to: Write a Visualizer](/visualstudio/debugger/create-custom-visualizers-of-data)
+- [How to: Write a Visualizer](create-custom-visualizers-of-data.md)

@@ -76,5 +76,5 @@ SCCRTN SccRemove(
 ## Remarks
  This function removes the files from the source control system but does not delete them from the user's local hard drive.
 
-## See Also
+## See also
 - [Source Control Plug-in API Functions](../extensibility/source-control-plug-in-api-functions.md)

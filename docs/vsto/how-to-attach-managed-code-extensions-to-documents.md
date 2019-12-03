@@ -24,8 +24,6 @@ ms.workload:
 > [!NOTE]
 > The customization will fail to load if the code expects controls that the specified document does not have.
 
- ![link to video](../vsto/media/playvideo.gif "link to video") For a related video demonstration, see [How do I: Attach or detach a VSTO assembly from a Word document?](http://go.microsoft.com/fwlink/?LinkId=136782).
-
 ### To attach managed code extensions to a document
 
 1. In a project that does not require Microsoft Office, such as a console application or Windows Forms project, add a reference to the *Microsoft.VisualStudio.Tools.Applications.ServerDocument.dll* and *Microsoft.VisualStudio.Tools.Applications.Runtime.dll* assemblies.

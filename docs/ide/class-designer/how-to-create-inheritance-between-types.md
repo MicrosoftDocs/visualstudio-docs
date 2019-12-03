@@ -8,8 +8,8 @@ helpviewer_keywords:
   - "inheritance, relationship defining"
   - "relationships, defining inheritance"
 ms.assetid: 3786a21c-8022-4bf5-9d13-740fd354e93c
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

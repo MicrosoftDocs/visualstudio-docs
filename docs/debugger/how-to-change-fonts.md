@@ -24,7 +24,7 @@ You can change the font, font style, and font size for Spy++ windows.
 
    Selecting **Save Font As Default** will cause all future Spy++ windows to use this font.
 
-## See Also
+## See also
 - [Using Spy++](../debugger/using-spy-increment.md)
 - [Spy++ Views](../debugger/spy-increment-views.md)
 - [Spy++ Reference](../debugger/spy-increment-reference.md)

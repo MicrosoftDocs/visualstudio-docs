@@ -27,5 +27,5 @@ This is another part of the same comment.*/
   
 - Be sure to terminate multi-line comments with "*/".  
   
-## See Also  
+## See also  
  [Comment Statements](../../javascript/reference/comment-statements-javascript.md)

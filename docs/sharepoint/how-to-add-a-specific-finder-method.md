@@ -59,7 +59,7 @@ ms.workload:
 
 6. In the **Method Details** window, choose the method instance of the method.
 
-7. In the **Properties Window**, set the **Return Parameter Name** property to the name of the return parameter of the method. For more information about method instance properties, see [MethodInstance](http://go.microsoft.com/fwlink/?LinkID=169282).
+7. In the **Properties Window**, set the **Return Parameter Name** property to the name of the return parameter of the method. For more information about method instance properties, see [MethodInstance](/previous-versions/office/developer/sharepoint-2010/ee556838(v=office.14)).
 
 8. In **Solution Explorer**, open the shortcut menu of the service code file that was generated for the entity, and then choose **View Code**.
 

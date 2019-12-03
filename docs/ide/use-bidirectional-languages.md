@@ -7,8 +7,8 @@ helpviewer_keywords:
   - "bidirectional language support"
   - "Arabic, creating applications"
 ms.assetid: b56f9795-ed8d-4452-9d49-8ca0b0145d86
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

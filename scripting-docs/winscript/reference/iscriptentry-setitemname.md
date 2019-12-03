@@ -46,6 +46,6 @@ HRESULT SetItemName(
   
  For `IScriptScriptlet` objects (which derive from `IScriptEntry`), this method returns `E_FAIL`. For `IScriptScriptlet` objects, the item name is set by [IActiveScriptAuthor::AddScriptlet](../../winscript/reference/iactivescriptauthor-addscriptlet.md) and cannot be changed.  
   
-## See Also  
+## See also  
  [IScriptEntry Interface](../../winscript/reference/iscriptentry-interface.md)   
  [IScriptEntry::GetItemName](../../winscript/reference/iscriptentry-getitemname.md)

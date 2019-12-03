@@ -29,6 +29,6 @@ You may want to locate the product key for [!INCLUDE[vsprvs](../includes/vsprvs-
   - Documentation or other communication from the vendor from whom you purchased the software.
 
 ## See Also
- [How to: Upgrade from a Trial Edition of Visual Studio](../install/how-to-upgrade-from-a-trial-edition-of-visual-studio.md)
- [Install Visual Studio](../install/install-visual-studio-2015.md)
- [Visual Studio and MSDN Licensing White Paper](http://go.microsoft.com/fwlink/?LinkId=191417)
+ * [How to: Upgrade from a Trial Edition of Visual Studio](../install/how-to-upgrade-from-a-trial-edition-of-visual-studio.md)
+ * [Install Visual Studio](../install/install-visual-studio-2015.md)
+ * [Visual Studio Licensing White Paper](https://www.microsoft.com/download/details.aspx?id=13350)

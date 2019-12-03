@@ -44,5 +44,5 @@ HRESULT IsEqualObject(
 ## Remarks  
  An implementation of the `IsEqualObject` method should return `S_OK` only if the objects are identical.  
   
-## See Also  
+## See also  
  [IObjectIdentity Interface](../../winscript/reference/iobjectidentity-interface.md)

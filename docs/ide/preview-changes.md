@@ -2,8 +2,8 @@
 title: Preview code changes
 ms.date: 12/16/2016
 ms.topic: conceptual
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 f1_keywords:
   - "vs.codefix.previewchanges"

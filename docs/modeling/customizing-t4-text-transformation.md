@@ -5,8 +5,8 @@ ms.topic: conceptual
 helpviewer_keywords:
   - "text templates, API"
   - "text templates, custom hosts"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

@@ -9,8 +9,8 @@ helpviewer_keywords:
   - "reliability warnings"
   - "managed code analysis warnings, reliability warnings"
 ms.assetid: 77886846-10a2-4585-968a-7eb60ebe07e8
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

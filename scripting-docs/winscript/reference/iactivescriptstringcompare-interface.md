@@ -27,5 +27,5 @@ The `IActiveScriptCompare` interface is used to define the string comparison met
 |------------|-----------------|  
 |[IActiveScriptStringCompare::StrComp](../../winscript/reference/iactivescriptstringcompare-strcomp.md)|Defines the string comparison method for the scripting engine.|  
   
-## See Also  
+## See also  
  [Active Script Interfaces](../../winscript/reference/active-script-interfaces.md)

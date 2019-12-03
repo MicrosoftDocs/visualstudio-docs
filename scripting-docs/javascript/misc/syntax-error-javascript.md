@@ -24,5 +24,5 @@ You created a statement that violates one or more of the grammatical rules of [!
   
 - Look for misdirected parentheses or braces.  
   
-## See Also  
+## See also  
  [Error Object](../../javascript/reference/error-object-javascript.md)

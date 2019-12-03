@@ -5,8 +5,8 @@ ms.date: 09/11/2017
 ms.topic: conceptual
 helpviewer_keywords:
   - "Live Unit Testing"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "dotnet"

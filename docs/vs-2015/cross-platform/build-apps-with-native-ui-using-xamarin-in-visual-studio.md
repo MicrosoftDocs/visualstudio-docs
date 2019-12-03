@@ -31,7 +31,7 @@ Once you've done the steps in [Setup and install](../cross-platform/setup-and-in
 > [!TIP]
 > You can find the complete source code for this project in the [mobile-samples repository on GitHub](https://github.com/xamarin/mobile-samples/tree/master/Weather).
 >
-> If you have difficulties or run into errors, please post questions on [forums.xamarin.com](http://forums.xamarin.com). Many errors can be resolved by updating to the latest SDKs required by Xamarin, which are described in the  [Xamarin Release Notes](https://developer.xamarin.com/) for each platform.
+> If you have difficulties or run into errors, please post questions on [forums.xamarin.com](https://forums.xamarin.com/). Many errors can be resolved by updating to the latest SDKs required by Xamarin, which are described in the  [Xamarin Release Notes](https://developer.xamarin.com/) for each platform.
 >
 > [!NOTE]
 > Xamarin's developer documentation also offers several walkthroughs with both Quickstart and Deep Dive sections as listed below. On all these pages, be sure that "Visual Studio" is selected in the upper right of the page to see Visual Studio-specific walkthroughs.
@@ -40,7 +40,7 @@ Once you've done the steps in [Setup and install](../cross-platform/setup-and-in
 >
 >   - [Hello, Android](https://developer.xamarin.com/guides/android/getting_started/hello,android/) (simple app with one screen)
 >   - [Hello, Android multiscreen](https://developer.xamarin.com/guides/android/getting_started/hello,android_multiscreen/) (app with navigation between screens)
->   - [Android Fragments Walkthrough](http://developer.xamarin.com/guides/android/platform_features/fragments/fragments_walkthrough/) (used for master/detail screens, among other things)
+>   - [Android Fragments Walkthrough](https://docs.microsoft.com/xamarin/android/platform/fragments/implementing-with-fragments/) (used for master/detail screens, among other things)
 >   - [Hello, iOS](https://developer.xamarin.com/guides/ios/getting_started/hello,_iOS/)
 >   - [Hello, iOS Multiscreen](https://developer.xamarin.com/guides/ios/getting_started/hello,_iOS_multiscreen/)
 >   - Xamarin apps with Xamarin.Forms (shared UI)
@@ -92,7 +92,7 @@ Once you've done the steps in [Setup and install](../cross-platform/setup-and-in
 
  The following steps then add code to the PCL to access and store data from that weather service:
 
-1. To run this sample you must first sign up for a free API key at [http://openweathermap.org/appid](http://openweathermap.org/appid).
+1. To run this sample you must first sign up for a free API key at [http://openweathermap.org/appid](https://openweathermap.org/appid).
 
 2. Right-click the **WeatherApp** project and select **Add > Class…**. In the **Add New Item** dialog, name the file **Weather.cs**. You’ll use this class to store data from the weather data service.
 
@@ -221,10 +221,10 @@ Once you've done the steps in [Setup and install](../cross-platform/setup-and-in
 
 ### Design the look and feel of your app
 
-1. In **Solution Explorer**, expand the **WeatherApp.Droid**>**Resources**>**layout** folder and open **Main.axml**. This opens the file in the visual designer. (If a Java-related error appears, see this [blog post](http://forums.xamarin.com/discussion/32365/connection-to-the-layout-renderer-failed-in-xs-5-7-and-xamarinvs-3-9).)
+1. In **Solution Explorer**, expand the **WeatherApp.Droid**>**Resources**>**layout** folder and open **Main.axml**. This opens the file in the visual designer. (If a Java-related error appears, see this [blog post](https://forums.xamarin.com/discussion/32365/connection-to-the-layout-renderer-failed-in-xs-5-7-and-xamarinvs-3-9).)
 
     > [!TIP]
-    > There are many other files in the project. Exploring them is beyond the scope of this topic, but if you want to dive into the structure of an Android project a bit more, see [Part 2 Deep Dive](http://developer.xamarin.com/guides/android/getting_started/hello,android/hello,android_deepdive/) of the Hello Android topic on xamarin.com.
+    > There are many other files in the project. Exploring them is beyond the scope of this topic, but if you want to dive into the structure of an Android project a bit more, see [Part 2 Deep Dive](https://docs.microsoft.com/xamarin/android/get-started/hello-android/hello-android-deepdive?pivots=windows) of the Hello Android topic on xamarin.com.
 
 2. Select and delete the default button that appears in the designer.
 
@@ -250,9 +250,9 @@ Once you've done the steps in [Setup and install](../cross-platform/setup-and-in
     |**textStyle**|`bold`|
 
     > [!TIP]
-    > Notice that many properties don’t contain a drop-down list of values that you can select.  It can be difficult to guess what string value to use for any given property. For suggestions, try searching for the name of a property in the [R.attr](http://developer.android.com/reference/android/R.attr.html) class page.
+    > Notice that many properties don’t contain a drop-down list of values that you can select.  It can be difficult to guess what string value to use for any given property. For suggestions, try searching for the name of a property in the [R.attr](https://developer.android.com/reference/android/R.attr.html) class page.
     >
-    >  Also, a quick web search often leads to a page on [http://stackoverflow.com/](http://stackoverflow.com/) where others have used the same property.
+    >  Also, a quick web search often leads to a page on [http://stackoverflow.com/](https://stackoverflow.com/) where others have used the same property.
 
      For reference, if you switch to **Source** view, you should see the following code for this element:
 
@@ -630,13 +630,13 @@ Once you've done the steps in [Setup and install](../cross-platform/setup-and-in
 
  Extend this sample by adding native UI for iOS. For this you’ll need to connect to a Mac on your local network that has Xcode and Xamarin installed. Once you do, you can use the iOS designer directly in Visual Studio. See the [mobile-samples repository on GitHub](https://github.com/xamarin/mobile-samples/tree/master/Weather) for a completed app.
 
- Also refer to the [Hello, iOS](http://developer.xamarin.com/guides/ios/getting_started/hello,_iOS/hello,iOS_quickstart/) (xamarin.com) walkthrough. Note that on this page, be sure that "Visual Studio" is selected in the upper right corner of pages on xamarin.com so that the correct set of instructions appear.
+ Also refer to the [Hello, iOS](https://docs.microsoft.com/xamarin/ios/get-started/hello-ios/hello-ios-quickstart?pivots=windows) (xamarin.com) walkthrough. Note that on this page, be sure that "Visual Studio" is selected in the upper right corner of pages on xamarin.com so that the correct set of instructions appear.
 
  **Add platform-specific code in a shared project**
 
- Shared code in a PCL is platform-neutral, because the PCL is compiled once and included in each platform-specific app package. If you want to write shared code that uses conditional compilation to isolate platform-specific code, you can use a *shared* project. For more details, see [ode Sharing Options](http://developer.xamarin.com/guides/cross-platform/application_fundamentals/building_cross_platform_applications/sharing_code_options/) (xamarin.com).
+ Shared code in a PCL is platform-neutral, because the PCL is compiled once and included in each platform-specific app package. If you want to write shared code that uses conditional compilation to isolate platform-specific code, you can use a *shared* project. For more details, see [ode Sharing Options](https://docs.microsoft.com/xamarin/cross-platform/app-fundamentals/code-sharing) (xamarin.com).
 
 ## See Also
- [Xamarin Developer site](http://developer.xamarin.com/)
+ [Xamarin Developer site](https://docs.microsoft.com/xamarin/)
  [Windows Dev Center](https://dev.windows.com/en-us)
  [Swift and C# Quick Reference Poster](https://aka.ms/scposter)

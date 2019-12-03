@@ -5,8 +5,8 @@ ms.date: 07/29/2019
 ms.topic: conceptual
 f1_keywords:
   - "vs.unittesting.testexplorer.overview"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

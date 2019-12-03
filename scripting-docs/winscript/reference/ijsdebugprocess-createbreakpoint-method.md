@@ -52,5 +52,5 @@ HRESULT CreateBreakPoint(
 ## Requirements  
  **Header:** jscript9diag.h  
   
-## See Also  
+## See also  
  [IJsDebugProcess Interface](../../winscript/reference/ijsdebugprocess-interface.md)

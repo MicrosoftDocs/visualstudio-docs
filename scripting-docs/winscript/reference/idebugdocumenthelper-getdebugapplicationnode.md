@@ -43,5 +43,5 @@ HRESULT GetDebugApplicationNode(
 ## Remarks  
  Return the debug application node corresponding to this document.  
   
-## See Also  
+## See also  
  [IDebugDocumentHelper Interface](../../winscript/reference/idebugdocumenthelper-interface.md)

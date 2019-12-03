@@ -4,13 +4,13 @@ ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.technology: "devlang-csharp"
 ms.topic: conceptual
-helpviewer_keywords: 
+helpviewer_keywords:
   - "Domain-Specific Language Tools, walkthroughs"
   - "walkthroughs [Domain-Specific Language Tools]"
 ms.assetid: be98c38b-3ce3-4dce-8bcb-b79b85b4c825
 caps.latest.revision: 48
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # Walkthrough: Customizing the Domain-Specific Language Definition

@@ -9,8 +9,8 @@ f1_keywords:
 helpviewer_keywords:
   - "task list"
   - "Visual Studio, task list"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

@@ -10,8 +10,8 @@ helpviewer_keywords:
   - "64-bit programming [C++]"
 ms.assetid: b08ff3ad-c6fd-468f-94d5-01a61aab6833
 caps.latest.revision: 18
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # Visual Studio IDE 64-Bit Support

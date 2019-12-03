@@ -12,8 +12,8 @@ helpviewer_keywords:
   - "CA2112"
 ms.assetid: 9eb13a78-3487-49f2-81d1-3c3866db132f
 caps.latest.revision: 17
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: "wpickett"
 ---
 # CA2112: Secured types should not expose fields

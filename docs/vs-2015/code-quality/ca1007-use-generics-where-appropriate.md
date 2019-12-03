@@ -12,8 +12,8 @@ helpviewer_keywords:
   - "UseGenericsWhereAppropriate"
 ms.assetid: eab780ea-3b1f-4d32-b15a-5d48da2df46b
 caps.latest.revision: 21
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: "wpickett"
 ---
 # CA1007: Use generics where appropriate

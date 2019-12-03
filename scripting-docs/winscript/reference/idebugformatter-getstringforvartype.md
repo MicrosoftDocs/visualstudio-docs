@@ -51,5 +51,5 @@ HRESULT GetStringForVarType(
 ## Remarks  
  The method returns a string that represents the given VARTYPE value.  
   
-## See Also  
+## See also  
  [IDebugFormatter Interface](../../winscript/reference/idebugformatter-interface.md)

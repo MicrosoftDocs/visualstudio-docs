@@ -18,8 +18,8 @@ helpviewer_keywords:
   - "saving data"
   - "TableAdapters"
 ms.assetid: 012c5924-91f7-4790-b2a6-f51402b7014b
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "data-storage"

@@ -12,8 +12,8 @@ helpviewer_keywords:
   - "CA1804"
 ms.assetid: cc332e67-6543-4813-bd8a-6f6fc75bf22a
 caps.latest.revision: 20
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: "wpickett"
 ---
 # CA1804: Remove unused locals

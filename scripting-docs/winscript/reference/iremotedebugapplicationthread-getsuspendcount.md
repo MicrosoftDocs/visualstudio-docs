@@ -43,5 +43,5 @@ HRESULT GetSuspendCount(
 ## Remarks  
  This method returns the suspend count for the thread.  
   
-## See Also  
+## See also  
  [IRemoteDebugApplicationThread Interface](../../winscript/reference/iremotedebugapplicationthread-interface.md)

@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "Visual Studio ALM, graph documents"
   - "Visual Studio Ultimate, graph documents"
   - "dependency graphs, browsing"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"
@@ -320,7 +320,7 @@ You can merge maps by copying and pasting code elements between maps. If the cod
 
 Alternatively, you can drag those assemblies or binaries to the same map from that folder.
 
-## See Also
+## See also
 
 - [Map dependencies across your solutions](../modeling/map-dependencies-across-your-solutions.md)
 - [Use code maps to debug your applications](../modeling/use-code-maps-to-debug-your-applications.md)

@@ -45,6 +45,6 @@ HRESULT onDebugOutput(
   
  This method is called when `IDebugApplication::DebugOutput` is called.  
   
-## See Also  
+## See also  
  [IApplicationDebugger Interface](../../winscript/reference/iapplicationdebugger-interface.md)   
  [IDebugApplication::DebugOutput](../../winscript/reference/idebugapplication-debugoutput.md)

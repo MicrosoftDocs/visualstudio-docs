@@ -5,8 +5,8 @@ ms.topic: reference
 f1_keywords:
   - "System.ServiceModel.Activities.Receive.UI"
 ms.assetid: f58d3c70-944d-4bb4-90a7-e68c103caddc
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

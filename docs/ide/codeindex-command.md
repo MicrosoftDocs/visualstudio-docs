@@ -7,8 +7,8 @@ helpviewer_keywords:
   - "TFSConfig"
   - "CodeIndex command [Team Foundation Server]"
 ms.assetid: b79568d4-6a64-4ca9-a1ee-3e57f92a9c5c
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"
@@ -119,4 +119,4 @@ TFSConfig CodeIndex /destroyCodeIndex /collectionName:"Fabrikam Website"
 ## See also
 
 - [Find code changes and other history with CodeLens](../ide/find-code-changes-and-other-history-with-codelens.md)
-- [Managing server configuration with TFSConfig](/tfs/server/ref/command-line/tfsconfig-cmd)
+- [Managing server configuration with TFSConfig](/azure/devops/server/command-line/tfsconfig-cmd)

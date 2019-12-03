@@ -4,11 +4,11 @@ ms.date: 10/19/2018
 ms.topic: conceptual
 helpviewer_keywords:
   - "automated testing, lab management, test lab"
-ms.author: gewarren
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"
-author: gewarren
+author: jillre
 ---
 # Use Azure Test Plans instead of Lab Management for automated testing
 

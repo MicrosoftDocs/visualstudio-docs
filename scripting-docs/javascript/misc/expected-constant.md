@@ -24,6 +24,6 @@ You attempted to use a (non-conditional compilation) variable in a conditional c
   
 - Replace the variable with a conditional compilation variable.  
   
-## See Also  
+## See also  
  [Conditional Compilation](../../javascript/advanced/conditional-compilation-javascript.md)   
  [Conditional Compilation Variables](../../javascript/advanced/conditional-compilation-variables-javascript.md)

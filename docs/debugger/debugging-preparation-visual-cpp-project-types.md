@@ -10,7 +10,7 @@ dev_langs:
   - "C++"
 helpviewer_keywords:
   - "project templates, debugging"
-  - "Visual C++ projects, debugging"
+  - "C++ projects, debugging"
   - "debug builds, project settings"
   - "debugging [C++]"
 ms.assetid: 912b4ba2-7719-43d5-b087-db33e3f9329a
@@ -20,7 +20,7 @@ manager: jillfra
 ms.workload:
   - "cplusplus"
 ---
-# Debugging Preparation: Visual C++ Project Types
+# Debugging Preparation: C++ Project Types
 This section describes how to debug the basic project types created by the [!INCLUDE[vcprvc](../code-quality/includes/vcprvc_md.md)] project templates.
 
  Note that those project types that create DLLs as their output have been grouped into [Debugging DLL Projects](../debugger/debugging-dll-projects.md) because of the common features they share.
@@ -103,7 +103,7 @@ This section describes how to debug the basic project types created by the [!INC
 
  [In this topic](../debugger/debugging-preparation-visual-cpp-project-types.md#BKMK_In_this_topic)
 
-## See Also
+## See also
 - [First look at the debugger](../debugger/debugger-feature-tour.md)
 - [Project Settings for a C++ Debug Configuration](../debugger/project-settings-for-a-cpp-debug-configuration.md)
 - [Attaching to a Running Program or Multiple Programs](../debugger/attach-to-running-processes-with-the-visual-studio-debugger.md)

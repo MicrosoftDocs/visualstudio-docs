@@ -7,8 +7,8 @@ helpviewer_keywords:
   - "load tests, walkthroughs"
   - "load tests, correlating dynamic parameters"
 ms.assetid: 92dff25c-36ee-4135-acdd-315c4962fa11
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # Fix non-detectable dynamic parameters in a web performance test

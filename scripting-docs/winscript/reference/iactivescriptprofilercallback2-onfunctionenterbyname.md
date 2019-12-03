@@ -38,6 +38,6 @@ HRESULT OnFunctionEnterByName(
 ## Remarks  
  For DOM calls, the scripting engine calls this method instead of calling [IActiveScriptProfilerCallback::OnFunctionEnter](../../winscript/reference/iactivescriptprofilercallback-onfunctionenter.md). This is due to the large number of unique methods and properties in the DOM.  
   
-## See Also  
+## See also  
  [IActiveScriptProfilerCallback2::OnFunctionExitByName](../../winscript/reference/iactivescriptprofilercallback2-onfunctionexitbyname.md)   
  [IActiveScriptProfilerCallback2 Interface](../../winscript/reference/iactivescriptprofilercallback2-interface.md)

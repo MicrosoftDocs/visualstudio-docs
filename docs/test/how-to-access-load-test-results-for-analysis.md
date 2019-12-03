@@ -11,8 +11,8 @@ helpviewer_keywords:
   - "load tests, results"
   - "Load Test Viewer, viewing"
 ms.assetid: b0a3e694-2894-479b-b270-7e61e9fafacd
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # How to: Access load test results for analysis

@@ -37,5 +37,5 @@ The [Active Script Profiler Interfaces](../winscript/reference/active-script-pro
 ## Profiler  
  The profiler receives the calls from the language engine when various events occur. The profiler must be registered as a COM object and must implement the [IActiveScriptProfilerCallback Interface](../winscript/reference/iactivescriptprofilercallback-interface.md) interface.  
   
-## See Also  
+## See also  
  [Active Script Profiler Interfaces](../winscript/reference/active-script-profiler-interfaces.md)

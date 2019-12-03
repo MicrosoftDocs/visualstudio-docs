@@ -51,5 +51,5 @@ HRESULT GetContextOfPosition(
 ## Remarks  
  This method creates a document context object corresponding to the provided character position range.  
   
-## See Also  
+## See also  
  [IDebugDocumentText Interface](../../winscript/reference/idebugdocumenttext-interface.md)
