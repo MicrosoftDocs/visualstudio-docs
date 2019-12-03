@@ -46,6 +46,8 @@
       href: using-breakpoints.md
     - name: Troubleshooting breakpoints
       href: troubleshooting-breakpoints.md
+    - name: Troubleshooting Data Breakpoints
+      href: error-unable-to-set-data-breakpoint.md
   - name: Data inspection
     items:
     - name: Inspect data in debugger windows
