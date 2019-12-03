@@ -78,7 +78,7 @@ Here's how.
 
 1. From the **Workloads** screen, select or deselect the workloads that you want to install or uninstall.
 
-    ![Visual Studio 2017 Setup Dialog](media/vs2017-modify-workloads.PNG "Choose a workload in Visual Studio 2017")
+    ![Visual Studio 2017 Setup Dialog](media/vs2017-modify-workloads.png "Choose a workload in Visual Studio 2017")
 
 1. Choose **Modify** again.
 
