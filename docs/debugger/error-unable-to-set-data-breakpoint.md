@@ -16,7 +16,9 @@ manager: caslan
 ms.workload:
   - "multiple"
 ---
-# Troubleshooting "Unable to set data breakpoint" Errors
+# Troubleshooting data breakpoint errors
+
+## Diagnosing "Unable to set data breakpoint" errors
 > [!IMPORTANT]
 > Managed Data Breakpoints is supported in .NET Core 3.0 and up. You can download the latest [here](https://dotnet.microsoft.com/download).
 
@@ -54,7 +56,7 @@ Below is a list of errors that may occur when using managed data breakpoints. Th
 
 6. *"The property is dependent on more memory than can be tracked by the hardware."*
     
-    - Each architecture has a set number of bytes and hardware data breakpoints that it can support and the property that you wish to set a data breakpoint on has exceeded that limit. Please refer to the this [documentation](hardware-supported-data-breakpoints.md) to find out how many hardware supported data breakpoints and bytes are available for the architecture you are using. 
+    - Each architecture has a set number of bytes and hardware data breakpoints that it can support and the property that you wish to set a data breakpoint on has exceeded that limit. Please refer to the the [Data Breakpoint Hardware Limitations](#data-breakpoint-hardware-limitations) table to find out how many hardware supported data breakpoints and bytes are available for the architecture you are using. 
     - **Workaround**: Set a data breakpoint on a value that may change within the property.
 
 7. *"Data Breakpoints are not supported when using the legacy C# expression evaluator."*
@@ -62,6 +64,16 @@ Below is a list of errors that may occur when using managed data breakpoints. Th
     - Data breakpoints are only supported on the non-legacy C# expression evaluator. 
     - **Solution**: You disable the legacy C# expression evaluator by going to `Debug -> Options` then under `Debugging -> General` uncheck `"Use the legacy C# and VB expression evaluators"`.
 
+## Data Breakpoint Hardware Limitations
+
+The architecture (platform configuration) that your program runs on has a limited number of hardware data breakpoints it can use. The table below indicates how many registers are available to use per architecture.
+
+| Architecture | Number of Hardware Supported Data Breakpoints | Max Byte Size|
+| :-------------: |:-------------:| :-------------:|
+| x86 | 4 | 4 |
+| x64 | 4 | 8 |
+| ARM | 1 | 4 |
+| ARM64 | 2 | 8 |
 
 ## Provide feedback
 For any issues or suggestions about this feature, please let us know via Help > Send Feedback > [Report a Problem](../ide/how-to-report-a-problem-with-visual-studio.md) in the IDE or in the [Developer Community](https://developercommunity.visualstudio.com/).
