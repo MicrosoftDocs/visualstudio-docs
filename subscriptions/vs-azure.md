@@ -70,6 +70,9 @@ A:  Submitting a support incident from the Azure portal is a three-step process.
 
 Please visit the [Technical support](vs-tech-support.md) documentation for complete details.
 
+### Q: How owns the intellectual property I create using my Azure DevTest individual credit?
+A:  Intellectual property produced by an employee created on resources provided by that company is thereby intellectual property of the company providing the resource. So, if you received your Visual Studio subscription through your employer, their intellectual property policies would apply. 
+
 ### Q: I’ve received a message stating that my access to Azure will end soon.  What can I do to continue using Azure?
 A:  You’re receiving this email because you use the Azure benefit associated with your Visual Studio subscription, and that subscription has expired or been removed.  To continue to use Azure, you have several options:
 
