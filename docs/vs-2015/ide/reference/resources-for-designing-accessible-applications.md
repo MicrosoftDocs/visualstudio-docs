@@ -18,7 +18,7 @@ manager: jillfra
 # Resources for Designing Accessible Applications
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-Use the following links to find information about technologies that support accessible design as well as tips and examples for developing accessible Windows applications and Web sites. General information on accessibility can be found online at [http://www.microsoft.com/enable/](http://www.microsoft.com/enable/).
+Use the following links to find information about technologies that support accessible design as well as tips and examples for developing accessible Windows applications and Web sites. General information on accessibility can be found online at [http://www.microsoft.com/enable/](https://www.microsoft.com/accessibility/).
 
 ## Technologies
 
@@ -48,7 +48,7 @@ Use the following links to find information about technologies that support acce
 
 ### Third-party Resources
 
-- **Web Accessibility Initiative of the World Wide Web Consortium (W3C)** This Web site provides guidelines and techniques for accessible Web site development. For more information, see [http://www.w3.org/WAI/GL/](http://www.w3.org/WAI/GL/).
+- **Web Accessibility Initiative of the World Wide Web Consortium (W3C)** This Web site provides guidelines and techniques for accessible Web site development. For more information, see [http://www.w3.org/WAI/GL/](https://www.w3.org/WAI/GL/).
 
 ## See Also
  [Accessibility Features of Visual Studio](../../ide/reference/accessibility-features-of-visual-studio.md)

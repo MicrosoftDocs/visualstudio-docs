@@ -314,23 +314,11 @@ You can create and edit a UML model through the views provided by several differ
 
 - To add notes and explanations to model elements, you can create comments and then link them to the elements.
 
-- To neatly align a column or row shapes on the diagram, you can install the Align Shapes command. This is available as a sample UML extension:  [UML: Command to Align Shapes](http://code.msdn.microsoft.com/UML-command-to-Align-4139c0d7)
-
 ### To export a diagram as an image
  For more information, see [Export diagrams as images](../modeling/export-diagrams-as-images.md).
 
 ## <a name="extensions"></a> Extending the UML Designers
  You can add new functionality to the UML tools and adapt the diagram notation to your own needs. For more information, see [Extend UML models and diagrams](../modeling/extend-uml-models-and-diagrams.md).
-
- There are several sample extensions available. You can either just install and use them, or you can use their source code as the basis for your own extensions. The samples include:
-
-|||
-|-|-|
-|[Align shapes](http://code.msdn.microsoft.com/UML-command-to-Align-4139c0d7)|Menu command that helps you tidy a diagram.|
-|[Link to docs](http://code.msdn.microsoft.com/Link-UML-elements-to-0adbf5a8)|Link any UML element to Word headings, PowerPoint slides, files of any type, UML diagrams, or other UML elements. The link can be made simply by dragging. Later, you can double-click the element to see the linked item. For example, you could link use cases to Word specifications or detailed activity diagrams, and actions to storyboard slides.|
-|[Rapid entry](http://code.msdn.microsoft.com/UML-Rapid-Entry-using-Text-0813ad8a)|Create a model quickly by using text entry. Useful for capturing ideas in meetings.|
-|[Color by stereotype](http://code.msdn.microsoft.com/UML-Color-Classes-by-07de2b70)|Colors classes according to stereotype. You can easily extend the code to work for your own stereotypes.|
-|[Domain Modeling](http://code.msdn.microsoft.com/UML-Domain-Modeling-6df6f7f4)|Convenient defaults for business models. Associations are shown without arrows by default, and operations do not appear in classes.|
 
 ## See Also
  [Create UML modeling projects and diagrams](../modeling/create-uml-modeling-projects-and-diagrams.md)

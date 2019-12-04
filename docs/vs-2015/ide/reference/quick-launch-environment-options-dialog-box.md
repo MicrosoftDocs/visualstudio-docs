@@ -41,7 +41,7 @@ You can use **Quick Launch** to quickly search and execute actions for IDE asset
 ## Show Previous Results
  By default, the search term that you enter is not persisted between search sessions. The search string is cleared if you search for a term, move the cursor outside the **Quick Launch** area, and then go back. To retain the search results, go to the **Options** dialog box, choose **Quick Launch**, and then select the **Show search results from previous search when Quick Launch is activated.** check box. The next time you do a search, leave the Quick Launch area, and come back, Quick Launch will retain the search term last used and also show you the search results.
 
- For the most recent tips and tricks for using **Quick Launch**, see [The Visual Studio Blog](http://go.microsoft.com/fwlink/?LinkId=236054).
+ For the most recent tips and tricks for using **Quick Launch**, see [The Visual Studio Blog](https://go.microsoft.com/fwlink/?LinkId=236054).
 
 ## See Also
  [General User Interface Elements (Visual Studio)](../../ide/reference/general-user-interface-elements-visual-studio.md)

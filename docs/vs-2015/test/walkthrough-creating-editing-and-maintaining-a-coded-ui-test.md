@@ -363,22 +363,22 @@ In this walkthrough, you will create a simple Windows Presentation Foundation (W
 ## External Resources
 
 ### Videos
- ![link to video](../data-tools/media/playvideo.gif "PlayVideo") [Coded UI Tests-DeepDive-Episode1-GettingStarted](http://go.microsoft.com/fwlink/?LinkID=230573)
+ ![link to video](../data-tools/media/playvideo.gif "PlayVideo") [Coded UI Tests-DeepDive-Episode1-GettingStarted](https://go.microsoft.com/fwlink/?LinkID=230573)
 
- ![link to video](../data-tools/media/playvideo.gif "PlayVideo") [Coded UI Tests-DeepDive-Episode2-MaintainenceAndDebugging](http://go.microsoft.com/fwlink/?LinkID=230574)
+ ![link to video](../data-tools/media/playvideo.gif "PlayVideo") [Coded UI Tests-DeepDive-Episode2-MaintainenceAndDebugging](https://go.microsoft.com/fwlink/?LinkID=230574)
 
- ![link to video](../data-tools/media/playvideo.gif "PlayVideo") [Coded UI Tests-DeepDive-Episode3-HandCoding](http://go.microsoft.com/fwlink/?LinkID=230575)
+ ![link to video](../data-tools/media/playvideo.gif "PlayVideo") [Coded UI Tests-DeepDive-Episode3-HandCoding](https://go.microsoft.com/fwlink/?LinkID=230575)
 
 ### Hands on lab
- [MSDN Virtual Lab: Introduction to Creating Coded UI Tests with Visual Studio 2010](http://go.microsoft.com/fwlink/?LinkID=22508)
+ [MSDN Virtual Lab: Introduction to Creating Coded UI Tests with Visual Studio 2010](https://go.microsoft.com/fwlink/?LinkID=22508)
 
 ### FAQ
- [Coded UI Tests FAQ - 1](http://go.microsoft.com/fwlink/?LinkID=230576)
+ [Coded UI Tests FAQ - 1](https://go.microsoft.com/fwlink/?LinkID=230576)
 
- [Coded UI Tests FAQ -2](http://go.microsoft.com/fwlink/?LinkID=230578)
+ [Coded UI Tests FAQ -2](https://go.microsoft.com/fwlink/?LinkID=230578)
 
 ### Forum
- [Visual Studio UI Automation Testing (includes CodedUI)](http://go.microsoft.com/fwlink/?LinkID=224497)
+ [Visual Studio UI Automation Testing (includes CodedUI)](https://go.microsoft.com/fwlink/?LinkID=224497)
 
 ## See Also
  [Use UI Automation To Test Your Code](../test/use-ui-automation-to-test-your-code.md)

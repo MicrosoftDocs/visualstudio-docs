@@ -70,7 +70,7 @@ You can define a *UML profile* to customize the standard model elements for spec
 6. Send the extension file to other users of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] to install on their computers.
 
 ## <a name="AddProfile"></a> How to Add a Profile to a Visual Studio Extension
- To install a profile, and to allow you to send it to other users, you must add the profile to a Visual Studio extension. For more information, see [Deploying Visual Studio Extensions](http://go.microsoft.com/fwlink/?LinkId=160780).
+ To install a profile, and to allow you to send it to other users, you must add the profile to a Visual Studio extension. For more information, see [Deploying Visual Studio Extensions](https://go.microsoft.com/fwlink/?LinkId=160780).
 
 #### To define a profile in a new Visual Studio Extension
 
@@ -190,7 +190,7 @@ You can define a *UML profile* to customize the standard model elements for spec
     > [!NOTE]
     > If you are building the extension by using a Visual Studio Extension project, use Solution Explorer to add a new folder to the project.
 
-3. Change the new directory's name to the ISO short code for the localized culture, such as `bg` for Bulgarian, or `fr` for French. You should use a neutral culture code, typically two letters, not a specific culture such as `fr-CA`. For more information about culture codes, see [CultureInfo.GetCultures method](http://go.microsoft.com/fwlink/?LinkId=160782), which provides a complete list of culture codes.
+3. Change the new directory's name to the ISO short code for the localized culture, such as `bg` for Bulgarian, or `fr` for French. You should use a neutral culture code, typically two letters, not a specific culture such as `fr-CA`. For more information about culture codes, see [CultureInfo.GetCultures method](https://go.microsoft.com/fwlink/?LinkId=160782), which provides a complete list of culture codes.
 
 4. Add a copy of your default profile to the new directory. Do not change its file name.
 
@@ -214,7 +214,7 @@ You can define a *UML profile* to customize the standard model elements for spec
 7. Build the Visual Studio extension, either by building the Extension Project or compressing all the files, as described in the previous sections.
 
 ## <a name="Schema"></a> The Structure of a Profile
- The XSD file for UML profiles can be found in the following sample: [Setting Stereotypes and Profiles XSD](http://go.microsoft.com/fwlink/?LinkID=213811). To help you edit profile files, install the `.xsd` file in:
+ The XSD file for UML profiles can be found in the following sample: [Setting Stereotypes and Profiles XSD](https://go.microsoft.com/fwlink/?LinkID=213811). To help you edit profile files, install the `.xsd` file in:
 
  **%ProgramFiles%\Microsoft Visual Studio [version]\Xml\Schemas**
 
@@ -362,5 +362,5 @@ You can define a *UML profile* to customize the standard model elements for spec
  [Add stereotypes to UML model elements](../modeling/add-stereotypes-to-uml-model-elements.md)
  [Customize your model with profiles and stereotypes](../modeling/customize-your-model-with-profiles-and-stereotypes.md)
  [Standard stereotypes for UML models](../modeling/standard-stereotypes-for-uml-models.md)
- [Sample: Color UML Elements by Stereotype](http://go.microsoft.com/fwlink/?LinkID=213841)
- [Sample: Setting Stereotypes, Profiles XSD](http://go.microsoft.com/fwlink/?LinkID=213811)
+ [Sample: Color UML Elements by Stereotype](https://go.microsoft.com/fwlink/?LinkID=213841)
+ [Sample: Setting Stereotypes, Profiles XSD](https://go.microsoft.com/fwlink/?LinkID=213811)

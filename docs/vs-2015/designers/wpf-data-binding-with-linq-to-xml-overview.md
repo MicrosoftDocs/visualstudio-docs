@@ -87,4 +87,4 @@ This topic introduces the dynamic data binding features in the <xref:System.Xml.
  [LINQ to XML Dynamic Properties](../designers/linq-to-xml-dynamic-properties.md)
  [XAML in WPF](https://msdn.microsoft.com/library/5d858575-a83b-42df-ad3f-047ed2d6e3c8)
  [Data Binding (WPF)](https://msdn.microsoft.com/library/90f79b97-17e7-40d1-abf0-3ba600ad1d7e)
- [Using Workflow Markup](http://go.microsoft.com/fwlink/?LinkId=98685)
+ [Using Workflow Markup](https://go.microsoft.com/fwlink/?LinkId=98685)
