@@ -9519,6 +9519,11 @@
       "source_path": "docs/code-quality/ca3012-review-code-for-regex-injection-vulnerabilities.md",
       "redirect_url": "/visualstudio/code-quality/ca3012",
       "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/how-to-enable-and-disable-full-solution-analysis-for-managed-code.md",
+      "redirect_url": "/visualstudio/code-quality/how-to-configure-live-code-analysis-scope-for-managed-code.md",
+      "redirect_document_id": true
     }
   ]
 }
