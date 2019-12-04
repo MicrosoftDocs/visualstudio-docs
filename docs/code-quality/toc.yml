@@ -14,12 +14,12 @@
       href: install-roslyn-analyzers.md
     - name: Configuration
       href: use-roslyn-analyzers.md
+    - name: Live code analysis scope
+      href: configure-live-code-analysis-scope-managed-code.md
     - name: Run code analysis manually
       href: how-to-run-code-analysis-manually-for-managed-code.md
     - name: Disable code analysis
       href: disable-code-analysis.md
-    - name: Enable full solution analysis
-      href: how-to-enable-and-disable-full-solution-analysis-for-managed-code.md
     - name: FAQ
       href: analyzers-faq.md
     - name: FxCop analyzers
