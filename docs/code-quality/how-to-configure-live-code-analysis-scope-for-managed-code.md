@@ -21,7 +21,8 @@ Visual Studio executes a bunch of live code analyses, also referred to as "backg
 - **Background computation of diagnostics**: Analysis to compute errors, warnings, and suggestions in source files. These diagnostics show up as entries in the error list and as squiggles in the editor. They can be classified into two categories:
     - C# and Visual Basic compiler diagnostics
     - Roslyn analyzer diagnostics, which includes:
-	- Built-in IDE analyzers for code style suggestions and
+
+        - Built-in IDE analyzers for code style suggestions and
         - Third party analyzer packages [installed](./install-roslyn-analyzers.md) for projects in the current solution.
 - **Other background analyses**: Analysis to improve the responsiveness and Visual Studio interaction for IDE features. Some examples of such analyses are:
     - Background parsing of open files.
