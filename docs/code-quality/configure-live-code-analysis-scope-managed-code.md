@@ -16,7 +16,7 @@ ms.workload:
 # How to: Configure live code analysis scope for managed code
 
 ## What is "Live code analysis" for managed code?
-Visual Studio executes a bunch of live code analyses, also referred to as "background analysis", while you are editing source files in the editor. Some of it is required minimal analysis for an acceptable Visual Studio IDE editing experience. Some of it is for improved responsiveness for IDE features. While some of it is to enable additional IDE functionality, such as diagnostics and code fixes from Roslyn analyzers. Based on the functionality, these analyses can be grouped as follows:
+Visual Studio executes a bunch of live code analyses, also referred to as *background analysis*, while you are editing source files in the editor. Some of it is required minimal analysis for an acceptable Visual Studio IDE editing experience. Some of it is for improved responsiveness for IDE features. While some of it is to enable additional IDE functionality, such as diagnostics and code fixes from Roslyn analyzers. Based on the functionality, these analyses can be grouped as follows:
 
 - **Background computation of diagnostics**: Analysis to compute errors, warnings, and suggestions in source files. These diagnostics show up as entries in the error list and as squiggles in the editor. They can be classified into two categories:
     - C# and Visual Basic compiler diagnostics
@@ -40,7 +40,7 @@ By default, live code analysis for background computation of diagnostics execute
 The default scope of each background analysis has been tuned for the optimal user experience, functionality, and performance for majority of customer scenarios and solutions. However, there are cases where customers may want to customize this scope to decrease or increase the background analysis. For example:
 
 - Power save mode: If users are running on laptop battery, they may want to minimize the power consumption for longer battery life. In this scenario, they would want to minimize background analysis.
-- On-demand code analysis: If users prefer turning off live analyzer execution and [manually running code analysis on-demand](./how-to-run-code-analysis-manually-for-managed-code.md), they would want to minimize background analysis.
+- On-demand code analysis: If users prefer turning off live analyzer execution and manually running code analysis on-demand, they would want to minimize background analysis. See [How to: Manually run code analysis on-demand](./how-to-run-code-analysis-manually-for-managed-code.md).
 - Full solution analysis: If users want to always see all diagnostics in all files in the solution, regardless of whether they are open in the editor or not. In this scenario, they would want to maximize background analysis scope to entire solution.
 
 Starting in Visual Studio 2019 version 16.5, users can explicitly customize the scope of all live code analysis, including diagnostics computation, for C# and Visual Basic projects. Available analysis scopes are:

@@ -38,7 +38,7 @@ Like legacy analysis rule violations, source code analysis violations appear in 
 
 ![Squiggles in the code editor in Visual Studio](media/diagnostics-severity-colors.png)
 
-Code analyzers inspect code at build time, like legacy analysis if it's enabled, but also live as you type. You can [configure the scope of live code analysis](./configure-live-code-analysis-scope-managed-code.md) to execute for the current document only, all open documents, or the entire solution.
+Code analyzers inspect code at build time, like legacy analysis if it's enabled, but also live as you type. You can configure the scope of live code analysis to execute for the current document only, all open documents, or the entire solution. See [How to: Configure the scope of live code analysis](./configure-live-code-analysis-scope-managed-code.md) 
 
 > [!TIP]
 > Build-time errors and warnings from code analyzers are shown only if the analyzers are installed as a NuGet package. The built-in analyzers (for example, IDE0067 and IDE0068) never run during build.
