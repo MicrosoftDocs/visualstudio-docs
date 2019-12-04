@@ -3,7 +3,7 @@ title: "Modify Visual Studio"
 titleSuffix: ""
 description: "Learn how to modify Visual Studio, step-by-step."
 ms.custom: "H1Hack27Feb2017,seodec18"
-ms.date: 08/23/2019
+ms.date: 12/03/2019
 ms.topic: conceptual
 helpviewer_keywords:
   - "modify Visual Studio"
@@ -63,7 +63,7 @@ Here's how.
 
      For example, on a computer running Windows 10, select **Start**, and then scroll to the letter **V**, where it's listed as **Visual Studio Installer**.
 
-     ![Visual Studio Installer](media/vs2017-locate-the-visual-studio-installer.PNG "Locate the Microsoft Visual Studio Installer")
+     ![Visual Studio Installer](media/locate-the-visual-studio-installer.png "Locate the Microsoft Visual Studio Installer")
 
      >[!TIP]
      >On some computers, the Visual Studio Installer might be listed under the letter **"M"** as the **Microsoft Visual Studio Installer**.<br/><br/> Alternatively, you can find the Visual Studio Installer in the following location: `C:\Program Files (x86)\Microsoft Visual Studio\Installer\vs_installer.exe`
@@ -78,7 +78,7 @@ Here's how.
 
 1. From the **Workloads** screen, select or deselect the workloads that you want to install or uninstall.
 
-    ![Visual Studio 2017 Setup Dialog](media/vs2017-modify-workloads.PNG "Choose a workload in Visual Studio 2017")
+    ![Visual Studio 2017 Setup Dialog](media/modify-workloads.png "Choose a workload in Visual Studio 2017")
 
 1. Choose **Modify** again.
 

@@ -192,7 +192,7 @@ For more information, see the [Debug live ASP.NET Azure apps using the Snapshot 
 
 ### Pinnable Properties tool
 
-**New in 16.4**: Now, it's easier to can identify objects by their properties while debugging with the new Pinnable Properties tool. Just hover the cursor over a property you want to display in the debugger window of the Watch, Autos, and Locals windows, click the pin icon, and immediately see the information you're looking for at the top of the window!
+**New in 16.4**: Now, it's easier to identify objects by their properties while debugging with the new Pinnable Properties tool. Just hover the cursor over a property you want to display in the debugger window of the Watch, Autos, and Locals windows, select the pin icon, and immediately see the information you're looking for at the top of the window!
 
    ![An animation that shows how to pin properties in the Visual Studio debugger by using the Pinnable Properties tool](media/vs-2019/debugger-pinnable-properties.gif)
 
