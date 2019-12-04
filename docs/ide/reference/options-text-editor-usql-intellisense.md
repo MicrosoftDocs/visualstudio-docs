@@ -5,8 +5,8 @@ ms.topic: reference
 f1_keywords:
   - "VS.ToolsOptionsPages.Text_Editor.U-SQL.IntelliSense"
   - "VS.ToolsOptionsPages.Text_Editor.HQL.IntelliSense"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

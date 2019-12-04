@@ -6,8 +6,8 @@ f1_keywords:
   - "System.Activities.Statements.TryCatch.UI"
   - "System.Activities.Statements.Catch`1.UI"
 ms.assetid: 02a326c2-4009-442f-b7cb-e42121fd2992
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

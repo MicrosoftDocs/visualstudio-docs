@@ -16,7 +16,7 @@ Collaborate with your team in the cloud.  Create multiple Dev and Test Pay-As-Yo
    > [!div class="mx-imgBorder"]
    > ![Azure PAYG Tile](_img/vs-azure-payg/vs-azure-payg-tile.png)
 
-2. If you have already activated an Azure account as part of your subscription benefits (for example, if you have an Enterprise subscription and activated your $150 monthly Azure credit), skip to step 5.
+2. If you have already activated an Azure account as part of your subscription benefits (for example, if you have an Enterprise subscription and activated your $150 monthly Azure DevTest individual credit), skip to step 5.
 
 3. On the Microsoft Azure Sign up page, you’ll have the option to either set up the Pay-As-You-Go Dev/Test offer (PAYG), or upgrade to the Visual Studio Enterprise offer.  Click **Continue with the current offer (Pay-As-You-Go Dev/Test)** if you don’t wish to upgrade.
 
@@ -39,7 +39,7 @@ A: To make changes to any of your Azure subscriptions:
 4. You'll now have options to manage or cancel the subscription, rename it, change the directory, or transfer billing ownership.
 
 ## Next steps
-Many subscriptions include additional Azure-related benefits such as Azure DevOps and Azure credits.  For more information about these benefits, please see:
+Many subscriptions include additional Azure-related benefits such as Azure DevOps and Azure DevTest individual credit.  For more information about these benefits, please see:
 - [Azure DevOps](vs-azure-devops.md)
-- [Azure credits](vs-azure.md)
+- [Azure DevTest individual credit](vs-azure.md)
 

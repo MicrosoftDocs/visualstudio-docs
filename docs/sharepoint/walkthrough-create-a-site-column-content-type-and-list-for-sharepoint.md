@@ -160,7 +160,7 @@ ms.workload:
     > [!TIP]
     > If you choose a column from the list of site columns, an existing site column is used. However, if you enter a column name value without choosing any columns in the list, a custom list column is created, even if a column with the same name already exists in the list.
 
-     Optionally, rather than setting the data type for the custom list column to **Single Line of Text**, you could instead set the data type for this column to Lookup, and its values would be retrieved from a table or another list. For information about Lookup columns, see [List Relationships in SharePoint 2010](http://go.microsoft.com/fwlink/?LinkId=224994) and [Lookups and List Relationships](http://go.microsoft.com/fwlink/?LinkID=224995).
+     Optionally, rather than setting the data type for the custom list column to **Single Line of Text**, you could instead set the data type for this column to Lookup, and its values would be retrieved from a table or another list. For information about Lookup columns, see [List Relationships in SharePoint 2010](/previous-versions/msp-n-p/ff798514(v=pandp.10)) and [Lookups and List Relationships](/previous-versions/office/developer/sharepoint-2010/ff623048(v=office.14)).
 
 10. Next to the **Patient ID** and **Patient Name** boxes, select the **Required** check box.
 
@@ -216,6 +216,6 @@ ms.workload:
 ## See also
 - [Create site columns, content types, and lists for SharePoint](../sharepoint/creating-site-columns-content-types-and-lists-for-sharepoint.md)
 - [Develop SharePoint solutions](../sharepoint/developing-sharepoint-solutions.md)
-- [How to: Create a Custom Field Type](http://go.microsoft.com/fwlink/?LinkId=192079)
-- [Content Types](http://go.microsoft.com/fwlink/?LinkId=192080)
-- [Columns](http://go.microsoft.com/fwlink/?LinkId=192081)
+- [How to: Create a Custom Field Type](/previous-versions/office/developer/sharepoint-2010/bb862248(v=office.14))
+- [Content Types](/previous-versions/office/developer/sharepoint-2010/ms479905(v=office.14))
+- [Columns](/previous-versions/office/developer/sharepoint-2010/ms196085(v=office.14))

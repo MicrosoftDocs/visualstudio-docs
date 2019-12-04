@@ -45,7 +45,7 @@ Spy++ lets you perform the following tasks:
 > [!NOTE]
 > Although the Spy++ (64-bit) file name contains "amd", it runs on any x64 Windows operating system.
 
-## See Also
+## See also
 - [How to: Start Spy++](../debugger/how-to-start-spy-increment.md)
 - [Using Spy++](../debugger/using-spy-increment.md)
 - [Spy++ Views](../debugger/spy-increment-views.md)

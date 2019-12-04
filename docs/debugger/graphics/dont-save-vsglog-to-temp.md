@@ -37,5 +37,5 @@ Defines by its presence whether the graphics log file is saved to the user's tem
 #include <vsgcapture.h>
 ```
 
-## See Also
+## See also
 - [VSG_DEFAULT_RUN_FILENAME](vsg-default-run-filename.md)

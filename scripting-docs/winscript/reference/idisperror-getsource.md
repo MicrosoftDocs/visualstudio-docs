@@ -46,5 +46,5 @@ HRESULT GetSource(
 > [!NOTE]
 > This method is not implemented.  
   
-## See Also  
+## See also  
  [IDispError Interface](../../winscript/reference/idisperror-interface.md)

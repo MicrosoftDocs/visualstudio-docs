@@ -5,8 +5,8 @@ ms.topic: conceptual
 helpviewer_keywords:
   - "Web performance tests, recorder plug-in"
 ms.assetid: 6fe13be1-aeb5-4927-9bff-35950e194da9
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # How to: Create a recorder plug-in

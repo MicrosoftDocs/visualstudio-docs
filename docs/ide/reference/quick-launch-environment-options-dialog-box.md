@@ -9,8 +9,8 @@ helpviewer_keywords:
   - "searching IDE"
   - "IDE, searching"
 ms.assetid: 4200f297-d065-4723-9a30-d91ff2e26c9d
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

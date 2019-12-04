@@ -6,11 +6,11 @@ helpviewer_keywords:
   - "Assert classes"
   - "Assert methods"
   - "unit tests, Assert classes"
-ms.author: gewarren
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"
-author: gewarren
+author: jillre
 ---
 # Use Assert classes for unit testing
 

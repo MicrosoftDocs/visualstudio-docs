@@ -7,8 +7,8 @@ helpviewer_keywords:
   - "response times in load tests"
   - "load test results, response times"
 ms.assetid: e61c49f3-3161-45b1-9220-08b5459065a2
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # How to: View web page response time in a load test using the Load Test Analyzer

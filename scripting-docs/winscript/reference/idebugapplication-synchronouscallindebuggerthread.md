@@ -55,6 +55,6 @@ HRESULT SynchronousCallInDebuggerThread(
 ## Remarks  
  Language engines and hosts typically use this method to implement free-threaded objects on top of their single threaded implementations.  
   
-## See Also  
+## See also  
  [IDebugApplication Interface](../../winscript/reference/idebugapplication-interface.md)   
  [IDebugThreadCall Interface](../../winscript/reference/idebugthreadcall-interface.md)

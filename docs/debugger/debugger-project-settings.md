@@ -45,11 +45,11 @@ Certain project settings also affect debugging. These settings determine such th
  [Specify Symbol (.pdb) and Source Files](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md)
  Describes how the debugger uses symbol files and source files to display information for debugging.
 
- [Debug apps in Visual Studio](/visualstudio/debugger/debugging-windows-store-and-windows-universal-apps)
+ [Debug apps in Visual Studio](debugging-windows-store-and-windows-universal-apps.md)
  Describes how to debug UWP apps. (Windows Dev Center)
 
  [Debugger Settings and Preparation](../debugger/debugger-settings-and-preparation.md)
  Describes the debugger-related property settings, and the preparation needed in order to debug your program with the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] debugger.
 
-## See Also
+## See also
  [Debugger Security](../debugger/debugger-security.md)

@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "Settings page in Project Designer"
   - "Project Designer, Settings page"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

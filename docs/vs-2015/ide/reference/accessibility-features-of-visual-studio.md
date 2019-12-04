@@ -9,8 +9,8 @@ helpviewer_keywords:
   - "accessibility [Visual Studio]"
 ms.assetid: aa1ada29-4d93-4bf0-af8b-03633fcb0fba
 caps.latest.revision: 19
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # Accessibility Features of Visual Studio
@@ -29,7 +29,7 @@ In addition to accessibility features and utilities in Windows, the following fe
 - Auto-completion for methods and parameters
 
 > [!IMPORTANT]
-> The information in this section applies only to users who license Microsoft products in the United States. If you obtained this product outside of the United States, you can use the subsidiary-information card that came with your software package, or you can visit the [Contact Us page for Microsoft Support](http://support.microsoft.com/ContactUs) and click the **Locate Microsoft Offices Worldwide** link (near the bottom of the page). This page provides a list of telephone numbers and addresses for Microsoft support services. You can contact your subsidiary to find out whether the types of products and services that are described in this section are available in your area. Information about accessibility is available in other languages, including Japanese and French.
+> The information in this section applies only to users who license Microsoft products in the United States. If you obtained this product outside of the United States, you can use the subsidiary-information card that came with your software package, or you can visit the [Contact Us page for Microsoft Support](https://support.microsoft.com/contactus/) and click the **Locate Microsoft Offices Worldwide** link (near the bottom of the page). This page provides a list of telephone numbers and addresses for Microsoft support services. You can contact your subsidiary to find out whether the types of products and services that are described in this section are available in your area. Information about accessibility is available in other languages, including Japanese and French.
 
  For more information, see the following topics:
 

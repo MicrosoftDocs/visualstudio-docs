@@ -8,8 +8,8 @@ helpviewer_keywords:
   - "data [Visual Studio], Dataset Designer"
   - "Dataset Designer, walkthroughs"
   - "datasets [Visual Basic], creating"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "data-storage"

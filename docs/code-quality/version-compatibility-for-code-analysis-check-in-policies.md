@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "version compatibility, code analysis check-in policy"
   - "check-in policies, version compatibility for code analysis"
 ms.assetid: 1af376e3-3be7-4445-803b-76a858567a5b
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

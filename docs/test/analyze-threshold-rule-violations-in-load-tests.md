@@ -12,8 +12,8 @@ helpviewer_keywords:
   - "load test results, analyzing threshold violations"
   - "thresholds in load tests"
 ms.assetid: 969ed346-cf2e-4d48-82b3-edb3e075e1c0
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # Analyzing threshold rule violations in load tests Using the Load Test Analyzer

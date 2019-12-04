@@ -5,8 +5,8 @@ ms.topic: conceptual
 helpviewer_keywords:
   - developer community privacy
   - privacy, developer community
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"
@@ -64,12 +64,8 @@ If **Report a problem** is initiated from Visual Studio, we collect one or more 
 
 - Windows Forms logs, if they exist
 
-> [!NOTE]
-> Log files are sent to Microsoft only when you provide permission by submitting the problem report with which they are included. You can see which files are included on the 'Summary' step of the 'Report a Problem' window (see the screenshot included in this note). Collected logs are stored in the %temp% folder and are cleaned up regularly and after each upload. If you don't want to include a log in your problem report, delete the file from the %temp% folder before submitting the report.  
-  > ![Report a Problem - Summary of logs collected](media/report-a-problem-logs-collected.png)
-
 - A screenshot, if you choose to include it
-  
+
 - Recording data, if you choose to include a recording, which includes:
 
   - Steps to reproduce the problem
@@ -78,8 +74,10 @@ If **Report a problem** is initiated from Visual Studio, we collect one or more 
 
   - Dump file
 
-  > [!NOTE]
-  > You can delete any of the recording data that you don't wish to submit before submitting the report.
+> [!NOTE]
+> Log files, screenshots and recording data are sent to Microsoft only when you provide permission by submitting the problem report with which they are included. You can see which files are included on the 'Summary' step of the 'Report a Problem' window (see the screenshot included in this note). Collected logs and files are stored in the %temp% folder and are cleaned up regularly and after each upload. If you don't want to include a log in your problem report, delete the file from the %temp% folder before submitting the report.
+  > ![Report a Problem - Summary of logs collected](media/report-a-problem-logs-collected.png)
+
 
 ## See also
 

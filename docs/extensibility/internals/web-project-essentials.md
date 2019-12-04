@@ -51,5 +51,5 @@ Web projects create Web applications. You can use a Web project to create a Web 
 
   - Error markers (red squigglies) should always be created in the code editor's primary buffer.
 
-## See Also
+## See also
 - [Web Projects](../../extensibility/internals/web-projects.md)

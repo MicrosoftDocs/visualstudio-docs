@@ -47,5 +47,5 @@ HRESULT EnumStackFramesEx(
 ## Remarks  
  The stack frame enumerator returns the frames starting at the top of the stack, with the most recently pushed frame. The enumerator contains only stack frames with addresses greater than or equal to `dwSpMin`.  
   
-## See Also  
+## See also  
  [IDebugStackFrameSnifferEx Interface](../../winscript/reference/idebugstackframesnifferex-interface.md)

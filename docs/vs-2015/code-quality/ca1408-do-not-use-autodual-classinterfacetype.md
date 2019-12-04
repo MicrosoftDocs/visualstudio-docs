@@ -12,8 +12,8 @@ helpviewer_keywords:
   - "DoNotUseAutoDualClassInterfaceType"
 ms.assetid: 60ca5e02-3c51-42dd-942b-4f950eecfa0f
 caps.latest.revision: 18
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: "wpickett"
 ---
 # CA1408: Do not use AutoDual ClassInterfaceType

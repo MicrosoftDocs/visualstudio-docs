@@ -40,5 +40,5 @@ HRESULT NotifyChanged();
 ## Remarks  
  This method notifies the host that the document's source file has been saved and that its contents should be refreshed.  
   
-## See Also  
+## See also  
  [IDebugDocumentHost Interface](../../winscript/reference/idebugdocumenthost-interface.md)

@@ -55,7 +55,7 @@ ms.workload:
 - [Walkthrough: Create your first VSTO Add-in for Excel](../vsto/walkthrough-creating-your-first-vsto-add-in-for-excel.md)
  Demonstrates how to create a basic VSTO Add-in for Excel.
 
-- [Walkthrough: Add controls to a worksheet at runtime in VSTO Add-in project](../vsto/walkthrough-adding-controls-to-a-worksheet-at-run-time-in-vsto-add-in-project.md)
+- [Walkthrough: Add controls to a worksheet at run time in VSTO Add-in project](../vsto/walkthrough-adding-controls-to-a-worksheet-at-run-time-in-vsto-add-in-project.md)
  Demonstrates how to add controls to a worksheet by using a VSTO Add-in.
 
 - [Walkthrough: Call code in a VSTO Add-in from VBA](../vsto/walkthrough-calling-code-in-a-vsto-add-in-from-vba.md)

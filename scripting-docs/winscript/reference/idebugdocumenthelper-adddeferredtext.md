@@ -53,7 +53,7 @@ HRESULT AddDeferredText(
 > [!NOTE]
 > Calls to `AddDeferredText` should not be mixed with calls to `AddUnicodeText` or `AddDBCSText`. If this occurs, `E_FAIL` is returned.  
   
-## See Also  
+## See also  
  [IDebugDocumentHelper Interface](../../winscript/reference/idebugdocumenthelper-interface.md)   
  [IDebugDocumentHelper::AddUnicodeText](../../winscript/reference/idebugdocumenthelper-addunicodetext.md)   
  [IDebugDocumentHelper::AddDBCSText](../../winscript/reference/idebugdocumenthelper-adddbcstext.md)   

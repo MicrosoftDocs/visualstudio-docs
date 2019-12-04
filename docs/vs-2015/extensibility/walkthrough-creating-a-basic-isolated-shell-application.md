@@ -64,7 +64,7 @@ This walkthrough shows how to create an isolated shell solution, customize the H
   
 #### To customize the default Web Browser home page  
   
-1. In the MyVSShellStub.Application.pkgdef file, change the `DefaultHomePage` element value to "<http://www.microsoft.com>".  
+1. In the MyVSShellStub.Application.pkgdef file, change the `DefaultHomePage` element value to "<https://www.microsoft.com>".  
   
 2. Rebuild the MyVSShellStub project.  
   
@@ -157,7 +157,7 @@ This walkthrough shows how to create an isolated shell solution, customize the H
 6. Rebuild the solution and start debugging the isolated shell. The Help/About box should be approximately square.  
   
 ## Before You Deploy the Isolated Shell Application  
- Your isolated shell application can be installed on any computer that has the Visual Studio Shell (Isolated) Redistributable Package. For more information about the redistributable package, see the [Visual Studio Extensibility Downloads](http://go.microsoft.com/fwlink/?LinkID=119298) website.  
+ Your isolated shell application can be installed on any computer that has the Visual Studio Shell (Isolated) Redistributable Package. For more information about the redistributable package, see the [Visual Studio Extensibility Downloads](https://go.microsoft.com/fwlink/?LinkID=119298) website.  
   
 ## Deploying the Isolated Shell Application  
  You deploy your isolated shell application to a target computer by creating a setup project. You must specify these things:  

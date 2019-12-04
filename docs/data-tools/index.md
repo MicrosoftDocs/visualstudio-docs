@@ -3,8 +3,8 @@ title: Develop data solutions
 description: Learn about different tools for developing data solutions in Visual Studio, including .NET tools, SQL Server Data Tools, Azure Data Lake, Azure HDInsight, and Azure Streaming Analytics.
 layout: LandingPage
 ms.date: 01/01/2018
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 ms.topic: landing-page
 ms.workload:
   - "data-storage"

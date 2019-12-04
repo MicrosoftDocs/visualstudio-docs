@@ -36,7 +36,7 @@ If you want to obtain a service without blocking the UI thread, you should creat
 
 5. The following example shows a very basic implementation of the three types. The constructor of the service class must set the service provider. In this example we'll just add the service to the package code file.
 
-6. Add the following using statements to the package file:
+6. Add the following using directives to the package file:
 
     ```csharp
     using System.Threading;
@@ -197,7 +197,7 @@ public sealed class TestAsyncPackage : AsyncPackage
 
 4. In the *TestAsyncCommand.cs* file, find the `MenuItemCallback()` method. Delete the body of the method.
 
-5. Add a using statement:
+5. Add a using directive:
 
     ```csharp
     using System.IO;

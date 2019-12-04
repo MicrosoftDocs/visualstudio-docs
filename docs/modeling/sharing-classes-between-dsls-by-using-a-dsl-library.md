@@ -2,8 +2,8 @@
 title: Sharing Classes between DSLs by using a DSL Library
 ms.date: 11/04/2016
 ms.topic: conceptual
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"
@@ -55,7 +55,7 @@ In the Visual Studio Visualization and Modeling SDK, you can create an incomplet
 
    A DSL Library can import other libraries. When you import a library, its imports also automatically appear in DSL Explorer.
 
-## See Also
+## See also
 
 - [How to Define a Domain-Specific Language](../modeling/how-to-define-a-domain-specific-language.md)
 

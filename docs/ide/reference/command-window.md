@@ -11,8 +11,8 @@ helpviewer_keywords:
   - "Command mode in Command window"
   - "IDE Command window"
 ms.assetid: 48711628-1909-4713-a73e-d7b714c77f8a
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"
@@ -103,7 +103,7 @@ A caret functions the same whether it is inside or outside quotation marks. If a
 ## Use Quotes for Path Names with Spaces
 If, for example, you want to open a file that has a path containing spaces, you must put double quotes around the path or path segment that contains spaces: **C:\\"Program Files"** or **"C:\Program Files"**.
 
-## See Also
+## See also
 
 - [Visual Studio Command Aliases](../../ide/reference/visual-studio-command-aliases.md)
 - [Visual Studio Commands](../../ide/reference/visual-studio-commands.md)

@@ -79,7 +79,7 @@ To create and run the tasks, use Visual Studio and the **Visual Studio Command P
 
 3. Save the project file.
 
-   This code creates an inline task that is named Hello and has no parameters, references, or `Using` statements. The Hello task contains just one line of code, which displays a hello message on the default logging device, typically the console window.
+   This code creates an inline task that is named Hello and has no parameters, references, or `Using` directives. The Hello task contains just one line of code, which displays a hello message on the default logging device, typically the console window.
 
 ### Run the Hello task
  Run MSBuild by using the **Command Prompt Window** to construct the Hello task and to process the TestBuild target that invokes it.

@@ -36,7 +36,8 @@ Here's how to assign a Visual Studio subscription license to a new user so that 
    > [!div class="mx-imgBorder"]
    > ![Choose the Add button](media/add-button.png)
 
-4. After you add the subscriber, an Assignment Email will be automatically sent to the new subscriber with further instructions. You can send the Assignment Email again at any time by selecting the subscriber and clicking the **Resend** button in the top menu.
+## Resend assignment emails
+After you add a subscriber, an assignment email will be automatically sent to the new subscriber with further instructions. You can send the assignment email again at any time by selecting the subscriber and clicking the **Resend** button in the top menu.  To resend emails to multiple users, hold down the **Ctrl** key while selecting the subscribers.  When you click the **Resend** button, you'll see a dialog asking you to confirm you want to resend to those subscribers.  
 
 ## Next steps
 - Have a lot of users to add?  Learn how to assign subscriptions to [multiple subscribers](assign-license-bulk.md).

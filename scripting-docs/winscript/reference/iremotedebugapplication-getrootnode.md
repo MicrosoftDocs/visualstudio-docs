@@ -43,5 +43,5 @@ HRESULT GetRootNode(
 ## Remarks  
  This method returns the application node under which all nodes associated with the application are added.  
   
-## See Also  
+## See also  
  [IRemoteDebugApplication Interface](../../winscript/reference/iremotedebugapplication-interface.md)

@@ -6,8 +6,8 @@ f1_keywords:
   - "vs.codeanalysis.policyeditor"
 helpviewer_keywords:
   - "code analysis, migrating check-in policy"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

@@ -44,6 +44,6 @@ HRESULT RemoveNamedItem(
 ## Remarks  
  [IActiveScript::AddNamedItem](../../winscript/reference/iactivescript-addnameditem.md) is used to inject the `NamedItem` object into the script authoring engine's namespace.  
   
-## See Also  
+## See also  
  [IActiveScriptAuthor Interface](../../winscript/reference/iactivescriptauthor-interface.md)   
  [IActiveScriptAuthor::AddNamedItem](../../winscript/reference/iactivescriptauthor-addnameditem.md)

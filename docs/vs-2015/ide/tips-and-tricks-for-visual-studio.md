@@ -6,8 +6,8 @@ ms.technology: "vs-ide-general"
 ms.topic: conceptual
 ms.assetid: 20489db9-7441-4f8b-97de-c72070d569b1
 caps.latest.revision: 14
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # Tips and Tricks for Visual Studio
@@ -137,6 +137,6 @@ See [Keyboard shortcuts: Visual Studio Online, TFS web portal, and Team Explorer
 
 ## See Also
 
-- [Visual Studio Blog](http://blogs.msdn.com/b/visualstudio)
-- [Visual Studio Tips and Tricks Blog](http://blogs.msdn.com/b/zainnab)
-- [Visual Studio Toolbox on Channel 9](http://channel9.msdn.com/Shows/Visual-Studio-Toolbox)
+- [Visual Studio Blog](https://devblogs.microsoft.com/visualstudio/)
+- [Visual Studio Tips and Tricks Blog](https://blogs.msdn.microsoft.com/zainnab/)
+- [Visual Studio Toolbox on Channel 9](https://channel9.msdn.com/Shows/Visual-Studio-Toolbox)

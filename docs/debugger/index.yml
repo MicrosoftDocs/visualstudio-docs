@@ -1,0 +1,93 @@
+### YamlMime:Landing
+
+title: Visual Studio debugger documentation # < 60 chars
+summary: The Visual Studio debugger helps you observe the run-time behavior of your program and find problems. # < 160 chars
+
+metadata:
+  title: Debugging in Visual Studio # Required; page title displayed in search results. Include the brand. < 60 chars.
+  description: Learn how to use Visual Studio to debug applications and code.
+  ms.topic: landing-page
+  author: mikejo5000
+  ms.author: mikejo
+  manager: jillfra
+  ms.date: 09/20/2019
+
+# linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
+
+landingContent:
+# Cards and links should be based on top customer tasks or top subjects
+# Start card title with a verb
+  # Card (optional)
+  - title: About debugging
+    linkLists:
+      - linkListType: overview
+        links:
+          - text: What is debugging?
+            url: what-is-debugging.md
+          - text: First look at the debugger
+            url: debugger-feature-tour.md
+          - text: Find your debugging task
+            url: find-your-debugging-task.md
+
+  # Card (optional)
+  - title: Get started
+    linkLists:
+      - linkListType: tutorial
+        links:
+          - text: Debugging for absolute beginners
+            url: debugging-absolute-beginners.md
+          - text: Learn to debug C#
+            url: /visualstudio/get-started/csharp/tutorial-debugger?toc=/visualstudio/debugger/toc.json
+          - text: Learn to debug C++
+            url: getting-started-with-the-debugger-cpp.md
+          - text: Learn to debug Visual Basic
+            url: /visualstudio/get-started/visual-basic/tutorial-debugger?toc=/visualstudio/debugger/toc.json
+          - text: Run Python code in the debugger >>
+            url: ../python/tutorial-working-with-python-in-visual-studio-step-04-debugging.md
+
+  # Card
+  - title: Pause and navigate code
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+          - text: Navigate through code with the debugger
+            url: navigating-through-code-with-the-debugger.md
+          - text: Use breakpoints
+            url: using-breakpoints.md
+          - text: Edit code and continue debugging
+            url: edit-and-continue.md
+
+  # Card
+  - title: Inspect data
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+          - text: Inspect variables
+            url: autos-and-locals-windows.md
+          - text: Set a watch on variables
+            url: watch-and-quickwatch-windows.md
+          - text: View the call stack
+            url: how-to-use-the-call-stack-window.md
+
+    # Card
+  - title: Go deeper with the debugger
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+          - text: Debugger tips and tricks
+            url: debugger-tips-and-tricks.md
+          - text: Write and debug running XAML code
+            url: xaml-hot-reload.md
+          - text: Debug a live Azure app
+            url: debug-live-azure-applications.md
+          - text: Tell the debugger what to show
+            url: using-the-debuggerdisplay-attribute.md
+          - text: Remote debugging
+            url: remote-debugging.md
+    # Card
+  - title: Collaborate
+    linkLists:
+      - linkListType: tutorial
+        links:
+          - text: Write and debug code with Live Share >>
+            url: /visualstudio/liveshare/use/vs

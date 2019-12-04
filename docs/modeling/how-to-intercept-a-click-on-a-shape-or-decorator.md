@@ -4,8 +4,8 @@ ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
   - "Domain-Specific Language, programming domain models"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"
@@ -79,7 +79,7 @@ public partial class MyShape // change
 
      You should set Handled to true if you do not want the event to be passed to the containing shape.
 
-4. Override the InitializeShapeFields method in your shape classs by adding the following partial class definition.
+4. Override the InitializeShapeFields method in your shape class by adding the following partial class definition.
 
     ```csharp
     public partial class MyShape // change
@@ -387,7 +387,7 @@ namespace Company.CompartmentDrag
 }
 ```
 
-## See Also
+## See also
 
 - [Responding to and Propagating Changes](../modeling/responding-to-and-propagating-changes.md)
 - [Properties of Decorators](../modeling/properties-of-decorators.md)

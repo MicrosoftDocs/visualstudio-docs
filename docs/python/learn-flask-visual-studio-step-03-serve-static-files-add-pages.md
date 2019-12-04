@@ -281,6 +281,6 @@ The following steps demonstrate inheritance:
 ## Go deeper
 
 - [Deploy the web app to Azure App Service](publishing-python-web-applications-to-azure-from-visual-studio.md)
-- For more capabilities of Jinja templates, such as control flow, see [Jinja Template Designer Documentation](http://jinja.pocoo.org/docs/2.10/templates) (jinja.pocoo.org)
-- For  details on using `url_for`, see [url_for](http://flask.pocoo.org/docs/1.0/api/?highlight=url_for#flask.url_for) within the Flask Application object documentation (flask.pocoo.org)
+- For more capabilities of Jinja templates, such as control flow, see [Jinja Template Designer Documentation](http://jinja.palletsprojects.com/en/2.10.x/templates/) (jinja.pocoo.org)
+- For  details on using `url_for`, see [url_for](https://flask.palletsprojects.com/en/1.0.x/api/#flask.url_for) within the Flask Application object documentation (flask.pocoo.org)
 - Tutorial source code on GitHub: [Microsoft/python-sample-vs-learning-flask](https://github.com/Microsoft/python-sample-vs-learning-flask)

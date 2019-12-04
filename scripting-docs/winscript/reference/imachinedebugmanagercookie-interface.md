@@ -31,6 +31,6 @@ Similar to the `IMachineDebugManager` interface, the `IMachineDebugManagerCookie
 |[IMachineDebugManagerCookie::EnumApplications](../../winscript/reference/imachinedebugmanagercookie-enumapplications.md)|Returns an enumerator of the current list of running applications.|  
 |[IMachineDebugManagerCookie::RemoveApplication](../../winscript/reference/imachinedebugmanagercookie-removeapplication.md)|Removes an application from the running application list.|  
   
-## See Also  
+## See also  
  [IMachineDebugManager Interface](../../winscript/reference/imachinedebugmanager-interface.md)   
  [IDebugCookie Interface](../../winscript/reference/idebugcookie-interface.md)

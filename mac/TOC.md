@@ -1,5 +1,8 @@
 # [Visual Studio for Mac](index.yml)
-# [IDE Tour](ide-tour.md)
+
+# Getting Started
+## [IDE Tour](ide-tour.md)
+## [Visual Studio for Mac for Windows Users](vsmac-for-windows-users.md)
 
 # Installation
 ## [Installing Visual Studio 2019 for Mac](installation.md)
@@ -75,6 +78,7 @@
 ### [Building ASP.NET Core applications in Visual Studio for Mac](building-asp-net-core.md)
 ### [Razor](razor.md)
 ### [JavaScript and TypeScript](javascript.md)
+### [launchSettings.json](launch-settings.md)
 ## Azure
 ### [Overview](azure-workload.md)
 ### [Introduction to Azure Functions](azure-functions.md)
@@ -93,7 +97,19 @@
 ### [Change Log](/visualstudio/cross-platform/change-log-visual-studio-tools-for-unity-mac/?context=visualstudio/mac/context)
 ## [Mobile apps with Xamarin](/visualstudio/mac/xamarin)
 
-# [Accessibility](accessibility.md)
+# Accessibility
+## [Overview](accessibility.md)
+## [Setting IDE accessibility options](accessibility-ide-options.md)
+## macOS Accessibility Tools and Features
+### [Using macOS Accessibility Tools](accessibility-macos.md)
+### [Using Keyboard Navigation](accessibility-keyboard.md)
+### [Using VoiceOver](accessibility-voiceover.md)
+
+# Video tutorials
+## [Getting started with ASP.NET Core in Visual Studio for Mac](tutorial-aspnet-core-vsmac-getting-started.md)
+## [Extending an existing ASP.NET Core web application](tutorial-aspnet-core-vsmac-extending.md)
+
+# [Visual Studio for Mac for Windows Users](vsmac-for-windows-users.md)
 
 # Troubleshooting
 ## [Logs and Exceptions](troubleshooting.md)
@@ -103,13 +119,13 @@
 ## [Troubleshooting: Why can I not see all templates?](troubleshooting-no-templates.md)
 ## [Troubleshooting: Updater has errors retrieving information](updater-troubleshooting.md)
 
-# [Release Notes](https://docs.microsoft.com/visualstudio/releasenotes/vs2019-mac-relnotes)
-# [Preview Release Notes](https://docs.microsoft.com/visualstudio/releasenotes/vs2019-mac-preview-relnotes)
+# [Release Notes](/visualstudio/releasenotes/vs2019-mac-relnotes)
+# [Preview Release Notes](/visualstudio/releasenotes/vs2019-mac-preview-relnotes)
 # Samples
 ## [Featured Samples](samples/index.yml)
-## [All ASP.NET Core Samples](https://docs.microsoft.com/samples/browse/?products=aspnet-core)
-## [All .NET Core Samples](https://docs.microsoft.com/samples/browse/?products=dotnet-core)
-## [All Xamarin.Forms Samples](https://docs.microsoft.com/xamarin/xamarin-forms/samples/)
-## [All Xamarin.iOS Samples](https://docs.microsoft.com/xamarin/ios/samples/)
-## [All Xamarin.Android Samples](https://docs.microsoft.com/xamarin/android/samples/)
-## [All Xamarin.Mac Samples](https://docs.microsoft.com/xamarin/mac/samples/)
+## [All ASP.NET Core Samples](/samples/browse/?products=aspnet-core)
+## [All .NET Core Samples](/samples/browse/?products=dotnet-core)
+## [All Xamarin.Forms Samples](/xamarin/xamarin-forms/samples/)
+## [All Xamarin.iOS Samples](/xamarin/ios/samples/)
+## [All Xamarin.Android Samples](/xamarin/android/samples/)
+## [All Xamarin.Mac Samples](/xamarin/mac/samples/)

@@ -11,8 +11,8 @@ dev_langs:
   - "aspx"
 ms.assetid: 1b06b573-84aa-4458-b3f5-e238df47bf45
 caps.latest.revision: 24
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # Entity Data Model Tools in Visual Studio

@@ -23,7 +23,7 @@ The Stored Procedure sp_enable_sql_debug could not execute on the server. This c
 
 For more information, see [How to: Set SQL Server Permissions for Debugging](https://msdn.microsoft.com/84e088d0-0409-41d4-841b-f5d4b0fda414).
 
-## See Also
+## See also
 
 - [How to: Set SQL Server Permissions for Debugging](https://msdn.microsoft.com/84e088d0-0409-41d4-841b-f5d4b0fda414)
 - [Setting Up SQL Debugging](/previous-versions/visualstudio/visual-studio-2010/s4sszxst\(v\=vs.100\))

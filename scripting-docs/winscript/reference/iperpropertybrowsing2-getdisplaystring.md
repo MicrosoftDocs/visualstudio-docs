@@ -43,5 +43,5 @@ HRESULT GetDisplayString(
 ## Remarks  
  The returned string is not a legal value of the property. It is just a string display of the property.  
   
-## See Also  
+## See also  
  [IPerPropertyBrowsing2 Interface 1](../../winscript/reference/iperpropertybrowsing2-interface-1.md)

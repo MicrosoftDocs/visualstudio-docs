@@ -22,6 +22,6 @@ You did not include the right brace that marks the end of the function body, loo
   
 - Add the right brace that marks the ending of the function, loop, block, or object initializer.  
   
-## See Also  
+## See also  
  [Function Object](../../javascript/reference/function-object-javascript.md)   
  [Controlling Program Flow](../../javascript/controlling-program-flow-javascript.md)

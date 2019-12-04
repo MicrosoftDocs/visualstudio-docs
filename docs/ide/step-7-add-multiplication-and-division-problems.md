@@ -30,8 +30,7 @@ In the seventh part of this tutorial, you'll add multiplication and division pro
      [!code-vb[VbExpressTutorial3Step7#15](../ide/codesnippet/VisualBasic/step-7-add-multiplication-and-division-problems_1.vb)]
      [!code-csharp[VbExpressTutorial3Step7#15](../ide/codesnippet/CSharp/step-7-add-multiplication-and-division-problems_1.cs)]
 
-     > [!IMPORTANT]
-     > Use the programming language control at the top right of this page to view either the C# code snippet or the Visual Basic code snippet.<br><br>![Programming language control for Docs.Microsoft.com](../ide/media/docs-programming-language-control.png)
+     [!INCLUDE [devlang-control-csharp-vb](./includes/devlang-control-csharp-vb.md)]
 
 2. As you did before, modify the `StartTheQuiz()` method to fill in random numbers for the multiplication and division problems.
 
@@ -43,7 +42,7 @@ In the seventh part of this tutorial, you'll add multiplication and division pro
      [!code-vb[VbExpressTutorial3Step7#17](../ide/codesnippet/VisualBasic/step-7-add-multiplication-and-division-problems_3.vb)]
      [!code-csharp[VbExpressTutorial3Step7#17](../ide/codesnippet/CSharp/step-7-add-multiplication-and-division-problems_3.cs)]
 
-     You can't easily enter the multiplication sign (×) and the division sign (÷) using the keyboard, so Visual C# and Visual Basic accept an asterisk (*) for multiplication and a slash mark (/) for division.
+     You can't easily enter the multiplication sign (×) and the division sign (÷) using the keyboard, so C# and Visual Basic accept an asterisk (*) for multiplication and a slash mark (/) for division.
 
 4. Change the last part of the timer's <xref:System.Windows.Forms.Timer.Tick> event handler so that it fills in the correct answer when time runs out.
 
@@ -59,6 +58,6 @@ In the seventh part of this tutorial, you'll add multiplication and division pro
 
 ## To continue or review
 
-- To go to the next tutorial step, see **[Step 8: Customize the quiz](../ide/step-8-customize-the-quiz.md)**S.
+- To go to the next tutorial step, see **[Step 8: Customize the quiz](../ide/step-8-customize-the-quiz.md)**.
 
 - To return to the previous tutorial step, see [Step 6: Add a subtraction problem](../ide/step-6-add-a-subtraction-problem.md).

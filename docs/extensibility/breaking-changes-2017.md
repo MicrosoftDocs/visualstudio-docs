@@ -51,7 +51,7 @@ Code running inside the Visual Studio process should be updated to use the Visua
 
 ## Change: Global Assembly Cache (GAC)
 
-Most Visual Studio core assemblies are no longer installed into the GAC. The following changes were made so that code running in Visual Studio process can still find required assemblies at runtime.
+Most Visual Studio core assemblies are no longer installed into the GAC. The following changes were made so that code running in Visual Studio process can still find required assemblies at run time.
 
 > [!NOTE]
 > [INSTALLDIR] below refers to the installation root directory of Visual Studio. *VSIXInstaller.exe* will automatically populate this, but to write custom deployment code, please read [locating Visual Studio](locating-visual-studio.md).
@@ -75,7 +75,7 @@ Most Visual Studio core assemblies are no longer installed into the GAC. The fol
     "version"=15.0.0.0
     ```
 
-    At runtime, the Visual Studio pkgdef subsystem merges these entries into the Visual Studio process's runtime configuration file (under *[VSAPPDATA]\devenv.exe.config*) as [`<codeBase>`](/dotnet/framework/configure-apps/file-schema/runtime/codebase-element) elements. This is the recommended way to let the Visual Studio process find your assembly, because it avoids searching through probing paths.
+    At run time, the Visual Studio pkgdef subsystem merges these entries into the Visual Studio process's runtime configuration file (under *[VSAPPDATA]\devenv.exe.config*) as [`<codeBase>`](/dotnet/framework/configure-apps/file-schema/runtime/codebase-element) elements. This is the recommended way to let the Visual Studio process find your assembly, because it avoids searching through probing paths.
 
 ### Reacting to this breaking change
 

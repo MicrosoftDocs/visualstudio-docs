@@ -30,6 +30,6 @@ You attempted to decode an improperly formed URI (Uniform Resource Identifier). 
   
 - Ensure you are trying to decode valid URIs only. You cannot decode normal [!INCLUDE[javascript](../../javascript/includes/javascript-md.md)] strings, as they may contain invalid characters.  
   
-## See Also  
+## See also  
  [decodeURI Function](../../javascript/reference/decodeuri-function-javascript.md)   
  [decodeURIComponent Function](../../javascript/reference/decodeuricomponent-function-javascript.md)

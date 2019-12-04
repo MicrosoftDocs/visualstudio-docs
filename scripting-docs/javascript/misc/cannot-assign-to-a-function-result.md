@@ -36,7 +36,7 @@ myFunction() = 42;  // Attempting to assign the value 42 to the result of the fu
     myFunction = new Function("return 42;");  
     ```  
   
-## See Also  
+## See also  
  [Function Object](../../javascript/reference/function-object-javascript.md)   
  [Writing JavaScript Code](../../javascript/writing-javascript-code.md)   
  [Functions](../../javascript/functions-javascript.md)

@@ -10,8 +10,8 @@ helpviewer_keywords:
   - "text templates, getting started"
   - "Text Template project item"
   - "text templates, generating code for your application"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"
@@ -383,6 +383,6 @@ Please see [Guidelines for Writing T4 Text Templates](../modeling/guidelines-for
 |Transform your data in the form of a domain-specific language.|[Generating Code from a Domain-Specific Language](../modeling/generating-code-from-a-domain-specific-language.md)|
 |Write directive processors to transform your own data sources.|[Customizing T4 Text Transformation](../modeling/customizing-t4-text-transformation.md)|
 
-## See Also
+## See also
 
 - [Guidelines for Writing T4 Text Templates](../modeling/guidelines-for-writing-t4-text-templates.md)

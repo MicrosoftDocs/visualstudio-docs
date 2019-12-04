@@ -34,7 +34,7 @@ The **GPU Allocation** column displays the amount of memory used by the event di
 
 As with the API Statistics tool, you can right-click in the window to Copy All data as CSV, which can be pasted into something like Excel for further analysis.
 
-## See Also
+## See also
 - [Graphics Diagnostics (Debugging DirectX Graphics)](visual-studio-graphics-diagnostics.md)
 - [Resource History](graphics-event-list.md#resource-history)
 <!-- /VERSIONLESS -->

@@ -43,6 +43,6 @@ HRESULT Attach(
 ## Remarks  
  This method adds this document to the document tree, using `pddhParent` as the parent. If the `pddhParent` is `NULL`, this document will be the top-level document.  
   
-## See Also  
+## See also  
  [IDebugDocumentHelper::Detach](../../winscript/reference/idebugdocumenthelper-detach.md)   
  [IDebugDocumentHelper Interface](../../winscript/reference/idebugdocumenthelper-interface.md)

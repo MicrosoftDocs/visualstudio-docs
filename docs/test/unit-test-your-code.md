@@ -6,11 +6,11 @@ helpviewer_keywords:
   - "Visual Studio, unit tests"
   - "unit tests, verifying code with"
   - "testing code, automated tests"
-ms.author: gewarren
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"
-author: gewarren
+author: jillre
 ---
 # Unit test your code
 

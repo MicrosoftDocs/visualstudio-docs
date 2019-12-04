@@ -8,8 +8,8 @@ helpviewer_keywords:
   - "load test, results graph"
   - "load test results, graphs"
 ms.assetid: 81536233-1962-40d9-9511-0b4633814d90
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # How to: Add and Delete Counters on Graphs in Load Test Results

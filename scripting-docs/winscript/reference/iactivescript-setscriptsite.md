@@ -44,5 +44,5 @@ HRESULT SetScriptSite(
 |`E_POINTER`|An invalid pointer was specified.|  
 |`E_UNEXPECTED`|The call was not expected (for example, a site was already set).|  
   
-## See Also  
+## See also  
  [IActiveScript](../../winscript/reference/iactivescript.md)

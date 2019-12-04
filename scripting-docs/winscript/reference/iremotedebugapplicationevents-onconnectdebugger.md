@@ -43,5 +43,5 @@ HRESULT OnConnectDebugger(
 ## Remarks  
  This method handles the debugger connect event.  
   
-## See Also  
+## See also  
  [IRemoteDebugApplicationEvents Interface](../../winscript/reference/iremotedebugapplicationevents-interface.md)

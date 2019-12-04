@@ -3,7 +3,7 @@ title: Visual Studio IDE Benefit in Visual Studio Subscription | Microsoft Docs
 author: evanwindom
 ms.author: lank
 manager: lank
-ms.date: 08/01/2019
+ms.date: 11/14/2019
 ms.topic: conceptual
 description:  Learn how to download and install the Visual Studio IDE included in your Visual Studio subscription.
 ---
@@ -38,7 +38,7 @@ To download the IDE:
 
 10. Click **Install**.
 
-11. When the installation is complete, you'll have the option to modify the installation or launch Visual Studio.  Click **Launch** to get started.  If you multiple versions installed, they will be listed.
+11. When the installation is complete, you'll have the option to modify the installation or launch Visual Studio.  Click **Launch** to get started.  If you have multiple versions installed, they will be listed.
     > [!div class="mx-imgBorder"]
     > ![Launch Visual Studio Enterprise](_img/vs-ide-experience/vs-ide-versions.png)
 
@@ -57,7 +57,9 @@ To download the IDE:
 | Subscription Level                                                 |     Channels                                            | Benefit                                                          | Renewable?    |
 |--------------------------------------------------------------------|---------------------------------------------------------|------------------------------------------------------------------|---------------|
 | Visual Studio Enterprise (Standard, monthly cloud)   | VL, Azure, Retail,  selected NFR<sup>1</sup> | Available       |  Yes          |
+| Visual Studio Enterprise with GitHub Enterprise   | VL | Available       |  Yes          |
 | Visual Studio Professional (Standard, monthly cloud) | VL, Azure, Retail                                       | Available                                                            |  Yes          |
+| Visual Studio Professional with GitHub Enterprise | VL   | Available              |  Yes          |
 | Visual Studio Test Professional (Standard)                         | VL, Retail                                              | Available                                             |  Yes         |
 | MSDN Platforms (Standard)                                          | VL, Retail                                              | Not available                                              |  N/A          |
 
@@ -77,5 +79,5 @@ Not sure which subscription you're using?  Connect to [https://my.visualstudio.c
 ## Next steps
 Once you have Visual Studio installed, don't forget to activate these other important benefits:
 - [Azure DevOps](vs-azure-devops.md)
-- [Azure credits](vs-azure.md)
+- [Azure DevTest individual credit](vs-azure.md)
 - [Windows Developer account](vs-windows-dev.md)

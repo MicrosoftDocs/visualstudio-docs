@@ -4,8 +4,8 @@ ms.date: 04/17/2019
 ms.topic: conceptual
 helpviewer_keywords:
   - "configure test agents, test lab"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

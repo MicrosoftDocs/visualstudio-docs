@@ -3,8 +3,8 @@ title: Convert Get method to property; convert property to Get method
 ms.date: 01/26/2018
 ms.topic: reference
 ms.devlang: csharp
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 f1_keywords:
   - "vs.csharp.refactoring.convertmethodtoproperty"

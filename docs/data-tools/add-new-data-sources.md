@@ -8,8 +8,8 @@ helpviewer_keywords:
   - "data [Visual Studio], data sources"
   - "data sources"
 ms.assetid: ed28c625-bb89-4037-bfde-cfa435d182a2
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "data-storage"

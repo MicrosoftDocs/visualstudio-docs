@@ -14,7 +14,9 @@ CMake (which includes CTest) is integrated into the Visual Studio IDE by default
 
 ## To write tests
 
-CMake support in Visual Studio doesn't involve the Visual Studio project system. Therefore, you write and configure CTest tests just as you would in any CMake environment. For more information about using CMake in Visual Studio, see [CMake projects in Visual Studio](/cpp/build/cmake-projects-in-visual-studio).
+CMake support in Visual Studio doesn't involve the Visual Studio project system. Therefore, you write and configure CTest tests just as you would in any CMake environment. Use the `enable_testing()` command to enable testing, and the `add_test()` command to add a new test. To learn more about CTest, see the [CMake documentation](https://gitlab.kitware.com/cmake/community/wikis/doc/ctest/Testing-With-CTest). 
+
+For more information about using CMake in Visual Studio, see [CMake projects in Visual Studio](/cpp/build/cmake-projects-in-visual-studio).
 
 ## To run tests
 
@@ -23,12 +25,6 @@ CTest is fully integrated with **Test Explorer** and also supports both the Goog
 The following illustration shows results of a CTest run using Google Test framework:
 
 ![CTest with Google Test Framework in Visual Studio](media/ctest-test-explorer.png)
-
-If you are using CTest but not the Google or Boost adapters, you see results at the CTest level instead of the individual test method level. You can debug and step-through CTest-only executables, but stack traces on individual tests aren't supported.
-
-The following illustration shows results of a CTest run using Google Test framework:
-
-![CTest with Google Test Framework in Visual Studio 2017](media/ctest-test-explorer.png)
 
 If you are using CTest but not the Google or Boost adapters, you see results at the CTest level instead of the individual test method level. You can debug and step-through CTest-only executables, but stack traces on individual tests aren't supported.
 

@@ -40,6 +40,6 @@ HRESULT Abort();
 ## Remarks  
  This method stops an expression evaluation at the earliest opportunity.  
   
-## See Also  
+## See also  
  [IDebugExpression Interface](../../winscript/reference/idebugexpression-interface.md)   
  [IDebugExpression::Start](../../winscript/reference/idebugexpression-start.md)

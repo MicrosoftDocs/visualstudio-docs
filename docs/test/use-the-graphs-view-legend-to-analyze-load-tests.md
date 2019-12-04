@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "Load Test Analyzer, graphs view legend"
   - "load tests, graphs view legend"
 ms.assetid: 0f6ba8e4-1343-419c-8a9f-240cf50efed7
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # Use the Graphs view legend to analyze load tests

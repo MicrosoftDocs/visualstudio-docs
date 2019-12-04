@@ -32,7 +32,7 @@ The matching game works as follows:
 
 2. Choose the first label control to select it. Then, hold down the **Ctrl** key while you choose each of the other labels to select them. Be sure that every label is selected.
 
-3. Choose the **Events** button on the tool bar in the **Properties** window to view the **Events** page in the **Properties** window. Scroll down to the **Click** event, and enter **label_Click** in the box, as shown in the following picture.
+3. Choose the **Events** button on the tool bar in the **Properties** window to view the **Events** page in the **Properties** window. Scroll down to the **Click** event, and enter **label_Click** in the box, as shown in the following screenshot.
 
      ![Properties window showing Click event](../ide/media/express_labelclick.png)
 
@@ -42,6 +42,9 @@ The matching game works as follows:
 
      [!code-csharp[VbExpressTutorial4Step2_3_4#4](../ide/codesnippet/CSharp/step-4-add-a-click-event-handler-to-each-label_1.cs)]
      [!code-vb[VbExpressTutorial4Step2_3_4#4](../ide/codesnippet/VisualBasic/step-4-add-a-click-event-handler-to-each-label_1.vb)]
+
+     > [!IMPORTANT]
+     > Use the programming language control at the top right of this page to view either the C# code snippet or the Visual Basic code snippet.<br><br>![Programming language control for Docs.Microsoft.com](../ide/media/docs-programming-language-control.png)
 
     > [!NOTE]
     > If you copy and paste the `label_Click()` code block rather than entering the code manually, be sure to replace the existing `label_Click()` code. Otherwise, you'll end up with a duplicate code block.
@@ -55,6 +58,6 @@ The matching game works as follows:
 
 ## To continue or review
 
-- To go to the next tutorial step, see [Step 5: Add label references](../ide/step-5-add-label-references.md).
+- To go to the next tutorial step, see **[Step 5: Add label references](../ide/step-5-add-label-references.md)**.
 
 - To return to the previous tutorial step, see [Step 3: Assign a random icon to each label](../ide/step-3-assign-a-random-icon-to-each-label.md).

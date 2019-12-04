@@ -12,8 +12,8 @@ helpviewer_keywords:
   - "Transactions namespace"
   - "saving data"
 ms.assetid: 80260118-08bc-4b37-bfe5-9422ee7a1e4e
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "data-storage"

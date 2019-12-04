@@ -12,8 +12,8 @@ helpviewer_keywords:
   - "CallGCKeepAliveWhenUsingNativeResources"
 ms.assetid: f00a59a7-2c6a-4bbe-a1b3-7bf77d366f34
 caps.latest.revision: 20
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: "wpickett"
 ---
 # CA2115: Call GC.KeepAlive when using native resources

@@ -43,6 +43,6 @@ HRESULT onUpdateDocumentAttributes(
 ## Remarks  
  This method indicates that the document attributes have changed.  
   
-## See Also  
+## See also  
  [IDebugDocumentTextEvents Interface](../../winscript/reference/idebugdocumenttextevents-interface.md)   
  [TEXT_DOC_ATTR Constants](../../winscript/reference/text-doc-attr-constants.md)

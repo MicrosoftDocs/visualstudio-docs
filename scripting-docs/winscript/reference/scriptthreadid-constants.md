@@ -38,7 +38,7 @@ typedef DWORD SCRIPTTHREADID;
 ## Remarks  
  The `SCRIPTTHREADID` type is used by `IActiveScript::GetCurrentScriptThreadID`, `IActiveScript::GetScriptThreadID`, `IActiveScript::GetScriptThreadState`, and `IActiveScript::InterruptScriptThread`, but the constants can only be used by `IActiveScript::GetScriptThreadState` and `IActiveScript::InterruptScriptThread`.  
   
-## See Also  
+## See also  
  [IActiveScript::GetCurrentScriptThreadID](../../winscript/reference/iactivescript-getcurrentscriptthreadid.md)   
  [IActiveScript::GetScriptThreadID](../../winscript/reference/iactivescript-getscriptthreadid.md)   
  [IActiveScript::GetScriptThreadState](../../winscript/reference/iactivescript-getscriptthreadstate.md)   

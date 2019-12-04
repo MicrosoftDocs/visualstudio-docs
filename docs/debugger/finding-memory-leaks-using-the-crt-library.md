@@ -184,6 +184,8 @@ You can use the allocation number to set a breakpoint on the memory allocation.
 1. In the **Watch** window, type `_crtBreakAlloc` in the **Name** column.
 
    If you're using the multithreaded DLL version of the CRT library (the /MD option), add the context operator: `{,,ucrtbased.dll}_crtBreakAlloc`
+   
+   Make sure that debug symbols are loaded. Otherwise `_crtBreakAlloc` will be reported as *unidentified*.
 
 1. Press **Enter**.
 

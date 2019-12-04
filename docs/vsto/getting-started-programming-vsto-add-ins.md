@@ -51,7 +51,7 @@ ms.workload:
 ## Customize the user interface of applications
  There are several different ways to customize the UI of the host application by using a VSTO Add-in:
 
-- For Excel and Word, you can add managed controls to documents. For more information, see [Extend Word documents and Excel workbooks in VSTO Add-ins at runtime](../vsto/extending-word-documents-and-excel-workbooks-in-vsto-add-ins-at-run-time.md).
+- For Excel and Word, you can add managed controls to documents. For more information, see [Extend Word documents and Excel workbooks in VSTO Add-ins at run time](../vsto/extending-word-documents-and-excel-workbooks-in-vsto-add-ins-at-run-time.md).
 
 - You can customize the Ribbon if the application supports it. For more information, see [Ribbon overview](../vsto/ribbon-overview.md).
 

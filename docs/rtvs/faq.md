@@ -102,7 +102,7 @@ A. See the article, [Execute on remote server](/machine-learning-server/r/how-to
 
 **Q. Feature X is missing, but RStudio has it!**
 
-A. RStudio is a fantastic and mature IDE for R that's been under development for many years. RTVS seeks to have all the critical features that you need to be successful. Help prioritize future work by taking the [RTVS survey](https://www.surveymonkey.com/r/RTVS1) and file issues on [GitHub](https://github.com/Microsoft/RTVS/issues/).
+A. RStudio is a fantastic and mature IDE for R that's been under development for many years. RTVS seeks to have all the critical features that you need to be successful. Help prioritize future work by filing issues on [GitHub](https://github.com/Microsoft/RTVS/issues/).
 
 **Q. Can I contribute to RTVS?**
 

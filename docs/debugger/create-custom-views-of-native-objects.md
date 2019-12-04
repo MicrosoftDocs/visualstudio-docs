@@ -14,7 +14,7 @@ manager: jillfra
 ms.workload:
   - "cplusplus"
 ---
-# Create custom views of C++ objects in the debugger
+# Create custom views of C++ objects in the debugger using the Natvis framework
 
 The Visual Studio *Natvis* framework customizes the way native types appear in debugger variable windows, such as the **Locals** and **Watch** windows, and in **DataTips**. Natvis visualizations can help make the types you create more visible during debugging.
 
@@ -24,7 +24,7 @@ Natvis replaces the *autoexp.dat* file in earlier versions of Visual Studio with
 
 You use the Natvis framework to create visualization rules for the types you create, so that developers can see them more easily during debugging.
 
-For example, the following illustration shows a variable of type [Windows::UI::Xaml::Controls::TextBox](http://go.microsoft.com/fwlink/?LinkId=258422) in a debugger window without any custom visualizations applied.
+For example, the following illustration shows a variable of type [Windows::UI::Xaml::Controls::TextBox](/uwp/api/Windows.UI.Xaml.Controls.TextBox) in a debugger window without any custom visualizations applied.
 
 ![TextBox default visualization](../debugger/media/dbg_natvis_textbox_default.png "TextBox default visualization")
 
@@ -313,6 +313,10 @@ In the following example, the visualization is applicable only for the `DirectUI
   </Expand>
 </Type>
 ```
+
+You don't need both `Min` and `Max`. They are optional attributes. No wildcard characters are supported.
+
+The `Name` attribute is in the format *filename.ext*, such as *hello.exe* or *some.dll*. No path names are allowed.
 
 ### <a name="BKMK_DisplayString"></a> DisplayString element
 The `DisplayString` element specifies a string to show as the value of a variable. It accepts arbitrary strings mixed with expressions. Everything inside curly braces is interpreted as an expression. For instance, the following `DisplayString` entry:

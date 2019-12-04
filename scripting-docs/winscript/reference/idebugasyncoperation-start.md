@@ -44,7 +44,7 @@ HRESULT Start(
 ## Remarks  
  This method causes `IDebugSyncOperation::Execute` to be called asynchronously in the thread obtained from `IDebugSyncOperation::GetTargetThread`. This method should be called only from within the debugger thread; otherwise, it will not return until the operation is complete.  
   
-## See Also  
+## See also  
  [IDebugAsyncOperation::Abort](../../winscript/reference/idebugasyncoperation-abort.md)   
  [IDebugAsyncOperation Interface](../../winscript/reference/idebugasyncoperation-interface.md)   
  [IDebugSyncOperation::Execute](../../winscript/reference/idebugsyncoperation-execute.md)   

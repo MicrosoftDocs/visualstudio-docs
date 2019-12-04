@@ -3,8 +3,8 @@ title: "Workflow Designer - How to: Use Breadcrumb Navigation"
 ms.date: 11/04/2016
 ms.topic: conceptual
 ms.assetid: 4a688056-37dc-406a-9071-be2141e192fe
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

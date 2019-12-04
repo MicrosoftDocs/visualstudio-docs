@@ -23,11 +23,7 @@ Namespace UtilityLibraries
 
         <Extension>
         Public Function HasEmbeddedSpaces(s As String) As Boolean
-             If (String.IsNullOrWhiteSpace(s)) Then
-                Return False
-            End If
-
-           For Each ch In s.Trim()
+            For Each ch In s.Trim()
                 If ch = " "c Then
                     Return True
                 End If

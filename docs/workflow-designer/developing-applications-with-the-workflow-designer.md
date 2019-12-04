@@ -11,8 +11,8 @@ helpviewer_keywords:
   - "Visual Studio Workflow Designer [WFD]"
   - "Workflow Designer [WFD], overview"
 ms.assetid: 4cd062b1-b496-4668-bbc1-ee85545e066d
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

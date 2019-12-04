@@ -9,8 +9,8 @@ helpviewer_keywords:
   - "TableAdapters, n-tier applications"
   - "n-tier applications, extending TableAdapters"
 ms.assetid: dafac00e-df9d-4d4a-95a6-e34b4d099425
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "data-storage"

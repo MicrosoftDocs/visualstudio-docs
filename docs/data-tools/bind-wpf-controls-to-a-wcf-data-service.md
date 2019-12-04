@@ -10,8 +10,8 @@ helpviewer_keywords:
   - "WPF data binding [Visual Studio], walkthroughs"
   - "WPF Designer, data binding"
 ms.assetid: 8823537c-82f0-41f7-bf30-705f0e5e59fd
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "data-storage"
@@ -40,7 +40,7 @@ You need the following components to complete this walkthrough:
 
 - Visual Studio
 
-- Access to a running instance of SQL Server or SQL Server Express that has the AdventureWorksLT sample database attached to it. You can download the AdventureWorksLT database from the [CodePlex website](http://go.microsoft.com/fwlink/?linkid=87843).
+- Access to a running instance of SQL Server or SQL Server Express that has the AdventureWorksLT sample database attached to it. You can download the AdventureWorksLT database from the [CodePlex website](https://archive.codeplex.com/?p=SqlServerSamples).
 
 Prior knowledge of the following concepts is also helpful, but not required to complete the walkthrough:
 
@@ -50,7 +50,7 @@ Prior knowledge of the following concepts is also helpful, but not required to c
 
 - Entity Data Models and the ADO.NET Entity Framework. For more information, see [Entity Framework overview](/dotnet/framework/data/adonet/ef/overview).
 
-- WPF data binding. For more information, see [Data Binding overview](/dotnet/framework/wpf/data/data-binding-overview).
+- WPF data binding. For more information, see [Data Binding overview](/dotnet/desktop-wpf/data/data-binding-overview).
 
 ## Create the service project
 
@@ -295,4 +295,4 @@ After completing this walkthrough, you can perform the following related tasks:
 - [Bind WPF controls to a dataset](../data-tools/bind-wpf-controls-to-a-dataset.md)
 - [WCF overview (.NET Framework)](/dotnet/framework/data/wcf/wcf-data-services-overview)
 - [Entity Framework overview (.NET Framework)](/dotnet/framework/data/adonet/ef/overview)
-- [Data Binding overview (.NET Framework)](/dotnet/framework/wpf/data/data-binding-overview)
+- [Data Binding overview (.NET Framework)](/dotnet/desktop-wpf/data/data-binding-overview)

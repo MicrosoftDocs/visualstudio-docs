@@ -6,8 +6,8 @@ ms.technology: vs-ide-modeling
 ms.topic: conceptual
 ms.assetid: 745d74ae-e48c-4fd9-a755-4354b81b9f8a
 caps.latest.revision: 9
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # Run unit tests on UML extensions
@@ -36,8 +36,6 @@ To help keep your code stable through successive changes, we recommend that you 
    To test MEF components, you must explicitly connect their imported properties to values.
 
   These points are elaborated in the following sections.
-
-  A sample of a unit tested UML extension can be found on Code Samples Gallery at [UML – Rapid Entry by using Text](http://code.msdn.microsoft.com/UML-Rapid-Entry-using-Text-0813ad8a).
 
 ## Requirements
  See [Requirements](../modeling/extend-uml-models-and-diagrams.md#Requirements).
@@ -378,4 +376,3 @@ Assert.AreEqual("hello", testInstance.privateField1_Accessor);
 ## See Also
  [Anatomy of a Unit Test](https://msdn.microsoft.com/a03d1ee7-9999-4e7c-85df-7d9073976144)
  [Define a menu command on a modeling diagram](../modeling/define-a-menu-command-on-a-modeling-diagram.md)
- [UML – Rapid Entry by using Text](http://code.msdn.microsoft.com/UML-Rapid-Entry-using-Text-0813ad8a)

@@ -22,7 +22,7 @@ Thread naming is possible in any edition of Visual Studio. Thread naming is usef
 
 ## Ways to set a thread name
 
-There are two ways to set a thread name. The first is via the [SetThreadDescription](https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setthreaddescription) function. The second is by throwing a particular exception while the Visual Studio debugger is attached to the process. Each approach has benefits and caveats.
+There are two ways to set a thread name. The first is via the [SetThreadDescription](/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setthreaddescription) function. The second is by throwing a particular exception while the Visual Studio debugger is attached to the process. Each approach has benefits and caveats. The use of `SetThreadDescription` is supported starting in Windows 10, version 1607 or Windows Server 2016.
 
 It is worth noting that _both_ approaches can be used together, if desired, since the mechanisms by which they work are independent of each other.
 
@@ -31,7 +31,7 @@ It is worth noting that _both_ approaches can be used together, if desired, sinc
 Benefits:
 * Thread names are visible when debugging in Visual Studio, regardless of whether or not the debugger was attached to the process at the time that SetThreadDescription is invoked.
 * Thread names are visible when performing post-mortem debugging by loading a crash dump in Visual Studio.
-* Thread names are also visible when using other tools, such as the [WinDbg](https://docs.microsoft.com/windows-hardware/drivers/debugger/debugger-download-tools) debugger and the [Windows Performance Analyzer](https://docs.microsoft.com/windows-hardware/test/wpt/windows-performance-analyzer) performance analyzer.
+* Thread names are also visible when using other tools, such as the [WinDbg](/windows-hardware/drivers/debugger/debugger-download-tools) debugger and the [Windows Performance Analyzer](/windows-hardware/test/wpt/windows-performance-analyzer) performance analyzer.
 
 Caveats:
 * Thread names are only visible in Visual Studio 2017 version 15.6 and later versions.
@@ -102,7 +102,7 @@ void SetThreadName(DWORD dwThreadID, const char* threadName) {
 }
 ```
 
-## See Also
+## See also
 - [Debug Multithreaded Applications](../debugger/debug-multithreaded-applications-in-visual-studio.md)
 - [Viewing Data in the Debugger](../debugger/viewing-data-in-the-debugger.md)
 - [How to: Set a Thread Name in Managed Code](../debugger/how-to-set-a-thread-name-in-managed-code.md)

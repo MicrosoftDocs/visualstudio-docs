@@ -1,5 +1,5 @@
 ---
-title: "Add controls to worksheet at runtime in VSTO add-in project"
+title: "Add controls to worksheet at run time in VSTO add-in project"
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -16,8 +16,8 @@ manager: jillfra
 ms.workload:
   - "office"
 ---
-# Walkthrough: Add controls to a worksheet at runtime in VSTO add-in project
-  You can add controls to any open worksheet by using an Excel VSTO Add-in. This walkthrough demonstrates how to use the Ribbon to enable users to add a <xref:Microsoft.Office.Tools.Excel.Controls.Button>, a <xref:Microsoft.Office.Tools.Excel.NamedRange>, and a <xref:Microsoft.Office.Tools.Excel.ListObject> to a worksheet. For information, see [Add controls to Office documents at runtime](../vsto/adding-controls-to-office-documents-at-run-time.md).
+# Walkthrough: Add controls to a worksheet at run time in VSTO add-in project
+  You can add controls to any open worksheet by using an Excel VSTO Add-in. This walkthrough demonstrates how to use the Ribbon to enable users to add a <xref:Microsoft.Office.Tools.Excel.Controls.Button>, a <xref:Microsoft.Office.Tools.Excel.NamedRange>, and a <xref:Microsoft.Office.Tools.Excel.ListObject> to a worksheet. For information, see [Add controls to Office documents at run time](../vsto/adding-controls-to-office-documents-at-run-time.md).
 
  **Applies to:** The information in this topic applies to VSTO Add-in projects for Excel. For more information, see [Features Available by Office Application and Project Type](../vsto/features-available-by-office-application-and-project-type.md).
 

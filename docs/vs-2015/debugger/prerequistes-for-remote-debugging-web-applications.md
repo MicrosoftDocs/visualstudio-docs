@@ -1,5 +1,5 @@
 ---
-title: "Prerequistes for Remote Debugging Web Applications | Microsoft Docs"
+title: "Prerequisites for Remote Debugging Web Applications | Microsoft Docs"
 ms.date: 11/15/2016
 ms.prod: "visual-studio-dev14"
 ms.technology: "vs-ide-debug"
@@ -19,7 +19,7 @@ author: MikeJo5000
 ms.author: mikejo
 manager: jillfra
 ---
-# Prerequistes for Remote Debugging Web Applications
+# Prerequisites for Remote Debugging Web Applications
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 With the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] debugger, you can debug a Web application transparently on the local computer or a remote server. This means that the debugger functions the same way and allows you to use the same features on either computer. For remote debugging to work correctly, however, there are some prerequisites.  

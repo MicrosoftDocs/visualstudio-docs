@@ -24,7 +24,7 @@ You made a reference to a label that does not exist. Labels can be used to mark 
   
 - Ensure all label references are made to labels that have been defined in the current scope (this includes forward definitions).  
   
-## See Also  
+## See also  
  [Labeled Statement](../../javascript/reference/labeled-statement-javascript.md)   
  [switch Statement](../../javascript/reference/switch-statement-javascript.md)   
  [break Statement](../../javascript/reference/break-statement-javascript.md)   

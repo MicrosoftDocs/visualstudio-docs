@@ -59,7 +59,7 @@ By following this walkthrough, you'll learn how to perform the following tasks:
     </StackPanel>
     ```
 
-3. In the *TestSearchControl.xaml.cs* file, add the following using statement:
+3. In the *TestSearchControl.xaml.cs* file, add the following using directive:
 
     ```csharp
     using System.Text;
@@ -102,7 +102,7 @@ By following this walkthrough, you'll learn how to perform the following tasks:
 ## To add the search implementation
  When you enable search on a <xref:Microsoft.VisualStudio.Shell.ToolWindowPane>, as in the previous procedure, the tool window creates a search host. This host sets up and manages search processes, which always occur on a background thread. Because the <xref:Microsoft.VisualStudio.Shell.ToolWindowPane> class manages the creation of the search host and the setting up of the search, you need only create a search task and provide the search method. The search process occurs on a background thread, and calls to the tool window control occur on the UI thread. Therefore, you must use the [ThreadHelper.Invoke*](https://msdn.microsoft.com/data/ee197798(v=vs.85)) method to manage any calls that you make in dealing with the control.
 
-1. In the *TestSearch.cs* file, add the following `using` statements:
+1. In the *TestSearch.cs* file, add the following `using` directives:
 
     ```csharp
     using System;

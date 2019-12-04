@@ -9,8 +9,8 @@ helpviewer_keywords:
   - "datasets [Visual Basic], editing data"
   - "data [Visual Studio], editing in datasets"
 ms.assetid: 50d5c580-fbf7-408f-be70-e63ac4f4d0eb
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "data-storage"

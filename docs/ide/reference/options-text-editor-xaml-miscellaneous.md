@@ -23,8 +23,8 @@ helpviewer_keywords:
   - "WPF Designer, XAML formatting"
   - "XAML view settings, attribute spacing"
 ms.assetid: 2a420e58-a408-4e8d-9220-44eeb4f67801
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "uwp"
@@ -46,7 +46,7 @@ Use this setting to control when tags and quotes are automatically generated.
 
 ## Errors and Warnings
 
-Use this setting to control when errors and warnings are automatically generated. For more information, see [XAML errors and warnings](../../designers/xaml-errors-warnings.md).
+Use this setting to control when errors and warnings are automatically generated. For more information, see [XAML errors and warnings](../../xaml-tools/xaml-errors-warnings.md).
 
 ## See also
 

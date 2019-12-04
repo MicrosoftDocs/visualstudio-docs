@@ -12,8 +12,8 @@ helpviewer_keywords:
   - "PointersShouldNotBeVisible"
 ms.assetid: b3a8d466-895b-43bc-a2df-5d7058fe915f
 caps.latest.revision: 16
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: "wpickett"
 ---
 # CA2111: Pointers should not be visible

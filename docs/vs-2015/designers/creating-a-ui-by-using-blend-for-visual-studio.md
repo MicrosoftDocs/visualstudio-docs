@@ -8,8 +8,8 @@ f1_keywords:
   - "Blend.Start.Dev12"
 ms.assetid: efd12263-cc2d-4081-a2bb-9a2cc17c442c
 caps.latest.revision: 33
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # Creating a UI by using Blend for Visual Studio

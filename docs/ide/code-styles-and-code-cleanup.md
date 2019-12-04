@@ -2,8 +2,8 @@
 title: Code style options and code cleanup
 ms.date: 04/25/2019
 ms.topic: conceptual
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 f1_keywords:
   - "VS.ToolsOptionsPages.Text_Editor.CSharp.Code_Style.General"

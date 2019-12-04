@@ -4,8 +4,8 @@ ms.date: 04/04/2018
 ms.topic: reference
 helpviewer_keywords:
   - "code analysis, rule sets reference"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

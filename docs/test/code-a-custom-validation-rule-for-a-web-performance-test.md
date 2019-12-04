@@ -12,8 +12,8 @@ ms.assetid: 989124bc-1a86-41f7-b37d-8f9e54dd4f0b
 dev_langs:
   - CSharp
   - VB
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # Code a custom validation rule for a web performance test

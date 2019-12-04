@@ -43,5 +43,5 @@ HRESULT OnDebugOutput(
 ## Remarks  
  This method handles the debugger output event.  
   
-## See Also  
+## See also  
  [IRemoteDebugApplicationEvents Interface](../../winscript/reference/iremotedebugapplicationevents-interface.md)

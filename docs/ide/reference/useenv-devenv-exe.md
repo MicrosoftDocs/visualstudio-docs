@@ -14,8 +14,8 @@ helpviewer_keywords:
   - "/UseEnv Devenv switch"
   - "Devenv, /UseEnv"
 ms.assetid: 2dd14603-a61b-42d2-ba31-427a0ee8a799
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

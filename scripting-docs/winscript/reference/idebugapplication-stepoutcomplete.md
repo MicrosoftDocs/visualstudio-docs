@@ -40,5 +40,5 @@ HRESULT StepOutComplete();
 ## Remarks  
  Language engines call this method in single-step mode just before they return to their caller. The process debug manager uses this opportunity to notify all other script engines that they should break at the first opportunity. This technique is how cross-language step modes are implemented.  
   
-## See Also  
+## See also  
  [IDebugApplication Interface](../../winscript/reference/idebugapplication-interface.md)

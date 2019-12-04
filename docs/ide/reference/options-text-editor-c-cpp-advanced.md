@@ -201,6 +201,6 @@ If enabled, you can surround selected text with curly braces by typing '{' into 
 
 If enabled, you can surround selected text with parentheses by typing '(' into the text editor.
 
-## See Also
+## See also
 
 - [Setting Language-Specific Editor Options](../../ide/reference/setting-language-specific-editor-options.md)

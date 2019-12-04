@@ -9,7 +9,7 @@ helpviewer_keywords:
 ms.assetid: a16e47d0-6f3e-4ed6-8883-459b2874e9a4
 author: mikeblome
 ms.author: mblome
-manager: wpickett
+manager: markl
 ms.workload:
   - "cplusplus"
 ---
@@ -51,7 +51,7 @@ The articles in this section of the documentation discuss aspects of SAL, provid
      Provides examples that show how to use SAL annotations. Also explains common pitfalls.
 
 ## Related Resources
-[Code Analysis Team Blog](http://go.microsoft.com/fwlink/?LinkId=251197)
+[Code Analysis Team Blog](https://blogs.msdn.microsoft.com/codeanalysis/)
 
 ## See Also
-[SAL 2.0 Annotations for Windows Drivers](http://go.microsoft.com/fwlink/?LinkId=250979)
+[SAL 2.0 Annotations for Windows Drivers](/windows-hardware/drivers/devtest/sal-2-annotations-for-windows-drivers)

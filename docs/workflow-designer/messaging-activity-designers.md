@@ -3,8 +3,8 @@ title: "Workflow Designer - Messaging Activity Designers"
 ms.date: 11/04/2016
 ms.topic: reference
 ms.assetid: 897e63cf-a42f-4edd-876f-c4ccfffaf6d6
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"
@@ -35,7 +35,7 @@ For other types of activity designers, see the following topics:
 
 - [Control Flow](../workflow-designer/control-flow-activity-designers.md)
 
-- [Using the Activity Designers](../workflow-designer/using-the-activity-designers.md)
+- [Using the Activity Designers](control-flow-activity-designers.md)
 
 - [Flowchart](../workflow-designer/flowchart-activity-designers.md)
 
@@ -51,4 +51,4 @@ For other types of activity designers, see the following topics:
 
 ## External resources
 
-[Using the Activity Designers](../workflow-designer/using-the-activity-designers.md)
+[Using the Activity Designers](control-flow-activity-designers.md)
