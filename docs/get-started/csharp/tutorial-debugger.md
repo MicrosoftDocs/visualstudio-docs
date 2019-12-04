@@ -62,7 +62,7 @@ If you need to install the workload but already have Visual Studio, go to **Tool
 1. Open Visual Studio.
 
     ::: moniker range=">=vs-2019"
-    Press **Esc** to close the start window. Type **Ctrl + Q** to open the search box, type **console**, choose **Templates**, then choose **Create new Console App (.NET Framework) project**. In the dialog box that appears, type a name like **get-started-debugging**, and then choose **Create**.
+    Press **Esc** to close the start window. Type **Ctrl + Q** to open the search box, type **console**, choose **Templates**, then choose either **Create new Console App (.NET Core) project** or **Create new Console App (.NET Framework) project**. In the dialog box that appears, type a name like **get-started-debugging**, and then choose **Create**.
     ::: moniker-end
     ::: moniker range="vs-2017"
     From the top menu bar, choose **File** > **New** > **Project**. In the left pane of the **New project** dialog box, under **Visual C#**, choose **Windows Desktop**, and then in the middle pane choose **Console App (.NET Framework)**. Then, type a name like **get-started-debugging** and click **OK**.
@@ -72,14 +72,11 @@ If you need to install the workload but already have Visual Studio, go to **Tool
 
     Visual Studio creates the project.
 
-1. In *Program.cs*, replace the following code
+1. In *Program.cs*, replace all of the default code
 
     ```csharp
     using System;
-    using System.Collections.Generic;
-    using System.Linq;
-    using System.Text;
-    using System.Threading.Tasks;
+    // ...
 
     namespace get_started_debugging
     {
@@ -245,7 +242,7 @@ Mostly, we use the keyboard shortcuts here, because it's a good way to get fast 
 
     Using this button is similar to setting a temporary breakpoint. **Run to Click** is handy for getting around quickly within a visible region of app code (you can click in any open file).
 
-    The debugger advances to the `Console.WriteLine` method implementation for the `Triangle` class.
+    The debugger advances to the `Console.WriteLine` method implementation for the `Triangle` class. (If the debugger pauses first at the breakpoint that you set earlier, use **Run to Click** again to advance the debugger to `Console.WriteLine`.)
 
     While paused, you notice a typo! The output "Drawing a trangle" is misspelled. We can fix it right here while running the app in the debugger.
 
@@ -266,7 +263,7 @@ Let's say that you are done examining the `Draw` method in the `Triangle` class,
 
      This command resumes app execution (and advances the debugger) until the current function returns.
 
-     You should be back in the `foreach` loop in the `Main` method.
+     You should be back in the `foreach` loop in the `Main` method. If not, press **Shift** + **F11** a second time.
 
 ## Restart your app quickly
 
