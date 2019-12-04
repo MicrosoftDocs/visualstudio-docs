@@ -38,7 +38,7 @@ For tips and tricks on how to improve Visual Studio performance when dealing wit
 
 ## Live code analysis is reduced to minimal scope
 
-By default, live code analysis executes for open documents and projects. You can customize this analysis scope to be reduced to current document or increased to entire solution. For more information, see [How to: Configure live code analysis scope for managed code](./how-to-configure-live-code-analysis-scope-for-managed-code.md). In a low memory condition, Visual Studio forces the live analysis scope to be reduced to current document. However, you can re-enable your preferred analysis scope by choosing the **Re-enable** button in the info bar when it appears or by restarting Visual Studio. The Options dialog box always shows the current live code analysis scope settings.
+By default, live code analysis executes for open documents and projects. You can customize this analysis scope to be reduced to current document or increased to entire solution. For more information, see [How to: Configure live code analysis scope for managed code](./configure-live-code-analysis-scope-managed-code.md). In a low memory condition, Visual Studio forces the live analysis scope to be reduced to current document. However, you can re-enable your preferred analysis scope by choosing the **Re-enable** button in the info bar when it appears or by restarting Visual Studio. The Options dialog box always shows the current live code analysis scope settings.
 
 ## GC low-latency disabled
 
@@ -61,6 +61,6 @@ In addition, caches used for internal Visual Studio operations are also cleared.
 
 ## See also
 
-- [How to: Configure live code analysis scope for managed code](./how-to-configure-live-code-analysis-scope-for-managed-code.md)
+- [How to: Configure live code analysis scope for managed code](./configure-live-code-analysis-scope-managed-code.md)
 - [Fundamentals of Garbage Collection](/dotnet/standard/garbage-collection/fundamentals)
 - [Performance considerations for large solutions](https://github.com/dotnet/roslyn/wiki/Performance-considerations-for-large-solutions)

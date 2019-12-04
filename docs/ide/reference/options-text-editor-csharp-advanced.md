@@ -22,7 +22,7 @@ Use the **Advanced** options page to modify the settings for editor formatting, 
 
 - Live code analysis or Background analysis scope
 
-   Configure the background analysis scope for managed code. For more information, see [How to: Configure live code analysis scope for managed code](../../code-quality/how-to-configure-live-code-analysis-scope-for-managed-code.md).
+   Configure the background analysis scope for managed code. For more information, see [How to: Configure live code analysis scope for managed code](../../code-quality/configure-live-code-analysis-scope-managed-code.md).
 
 ## Using Directives
 

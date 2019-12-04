@@ -15,7 +15,7 @@
     - name: Configuration
       href: use-roslyn-analyzers.md
     - name: Live code analysis scope
-      href: how-to-configure-live-code-analysis-scope-for-managed-code.md
+      href: configure-live-code-analysis-scope-managed-code.md
     - name: Run code analysis manually
       href: how-to-run-code-analysis-manually-for-managed-code.md
     - name: Disable code analysis

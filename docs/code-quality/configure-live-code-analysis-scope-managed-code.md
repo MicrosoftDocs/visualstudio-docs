@@ -24,6 +24,7 @@ Visual Studio executes a bunch of live code analyses, also referred to as "backg
 
         - Built-in IDE analyzers for code style suggestions and
         - Third party analyzer packages [installed](./install-roslyn-analyzers.md) for projects in the current solution.
+
 - **Other background analyses**: Analysis to improve the responsiveness and Visual Studio interaction for IDE features. Some examples of such analyses are:
     - Background parsing of open files.
     - Background compilation of projects with open files to realize symbols for improved responsiveness of certain IDE features.
