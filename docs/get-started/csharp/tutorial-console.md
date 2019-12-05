@@ -130,7 +130,7 @@ Let's start with some basic integer math in C#.
 
     ![Animation of integer math code that shows the IntelliSense autocomplete feature in the Visual Studio IDE](./media/integer-math-intellisense.gif)
 
-1. Choose **Calculator** to run your program, or press **F5**.
+1. Choose the green **Start** button next to **Calculator** to build and run your program, or press **F5**.
 
    ![Choose the Calculator button to run the app from the toolbar](./media/csharp-console-calculator-button.png)
 
