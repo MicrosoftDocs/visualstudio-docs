@@ -9,7 +9,7 @@ manager: jillfra
 ms.workload:
   - "multiple"
 ---
-# Overview: Suggest a Feature
+# Suggest a feature for Visual Studio
 
 We've introduced a new experience for suggesting features alongside the current ability to report problems on [Visual Studio Developer Community](https://developercommunity.visualstudio.com). This is a new way you can be empowered to engage directly with Visual Studio’s engineering workflow.
 
