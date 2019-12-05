@@ -34,7 +34,7 @@
       "feedback_system": "GitHub",
       "feedback_github_repo": "MicrosoftDocs/visualstudio-docs",
       "feedback_product_url": "https://developercommunity.visualstudio.com/",
-      "breadcrumb_path": "~/_breadcrumb/toc.yml",
+      "breadcrumb_path": "/visualstudio/subscriptions/_breadcrumb/toc.json",
       "extendBreadcrumb": true,
       "manager": "lank",
       "ms.topic": "conceptual",
