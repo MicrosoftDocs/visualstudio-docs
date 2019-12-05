@@ -89,8 +89,7 @@ additionalContent:
         links:
           - text: Visual Studio
             url: ~/vs-ide-benefit.md
-          - text: Visual Studio for Mac
-            url: ~/vs-ide-benefit.md
+            note: (including Visual Studio for Mac)
       - title: Cloud services
         links:
           - text: Azure
