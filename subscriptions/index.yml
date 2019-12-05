@@ -92,8 +92,8 @@ additionalContent:
             note: (including Visual Studio for Mac)
       - title: Cloud services
         links:
-          - text: Azure
-            url: ~/vs-azure.md
+          - text: Azure Dev/Test
+            url: ~/vs-azure-payg.md
           - text: Visual Studio App Center
             url: ~/vs-visual-studio-app-center.md
           - text: Azure DevOps Server and CAL
