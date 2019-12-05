@@ -1403,8 +1403,6 @@
       href: https://visualstudio.microsoft.com/license-terms/
     - name: Support lifecycle and servicing
       href: /visualstudio/productinfo/vs-servicing-vs/
-  - name: Developer Community data privacy
-    href: ide/developer-community-privacy.md
   - name: Customer Experience Improvement Program
     items:
     - name: Overview
@@ -1434,3 +1432,5 @@
       href: ide/report-a-problem-perfview.md
   - name: Suggest a feature
     href: ide/suggest-a-feature.md
+  - name: Developer Community data privacy
+    href: ide/developer-community-privacy.md
