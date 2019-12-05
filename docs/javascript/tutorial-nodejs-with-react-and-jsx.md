@@ -394,6 +394,10 @@ For this scenario, use Chrome.
    Other browser instances can prevent the browser from opening with debugging enabled. (Browser extensions may be running and preventing full debug mode, so you may need to open Task Manager to find unexpected instances of Chrome.)
 
    ::: moniker range=">=vs-2019"
+   For Microsoft Edge (Chromium), also shut down all instances of Chrome. Because both browsers share the chromium code base, this gives the best results.
+   ::: moniker-end
+
+   ::: moniker range=">=vs-2019"
    For Microsoft Edge (Chromium), also shut down all instances of Chrome. Because both browsers use the chromium code base, this gives the best results.
    ::: moniker-end
 
@@ -507,7 +511,6 @@ For this scenario, use Chrome.
       * You closed all browser instances, including Chrome extensions (using the Task Manager), so that you can run the browser in debug mode. Make sure you start the browser in debug mode.
 
       * Make sure that your source map file includes a reference to *./app.tsx* and not *webpack:///./app.tsx*, which prevents the Visual Studio debugger from locating *app.tsx*.
-
        Alternatively, if you need to break into code in *app.tsx* and are unable to do it, try using the `debugger;` statement in *app.tsx*, or set breakpoints in the Chrome Developer Tools (or F12 Tools for Microsoft Edge) instead.
 
    * If you need to break into code in *app-bundle.js* and are unable to do it, remove the source map file, *app-bundle.js.map*.

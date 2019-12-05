@@ -7,6 +7,7 @@ ms.assetid: 3725ddbe-ce91-4469-991e-8c5ed048c618
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jillfra
+monikerRange: 'vs-2017'
 ms.workload:
   - "aspnet"
 ---
