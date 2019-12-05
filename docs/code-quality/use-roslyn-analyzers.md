@@ -77,11 +77,40 @@ The following screenshot shows the same three violations as they appear in the E
 
 (Visual Studio 2019 version 16.3 and later)
 
-The general syntax for specifying the severity of a rule in an EditorConfig file is as follows:
+You can set the severity for compiler warnings or analyzer rules in an EditorConfig file with the following syntax:
 
 `dotnet_diagnostic.<rule ID>.severity = <severity>`
 
 Setting a rule's severity in an EditorConfig file takes precedence over any severity that's set in a rule set or in Solution Explorer. You can [manually](#manually-configure-rule-severity) configure severity in an EditorConfig file or [automatically](#automatically-configure-rule-severity) through the light bulb that appears next to a violation.
+
+### Set rule severity of multiple analyzer rules at once in an EditorConfig file
+
+(Visual Studio 2019 version 16.5 and later)
+
+You can set the severity for a specific category of analyzer rules or for all analyzer rules with a single entry in an EditorConfig file.
+
+- Set rule severity for a category of analyzer rules:
+
+`dotnet_analyzer_diagnostic.category-<rule category>.severity = <severity>`
+
+- Set rule severity for all analyzer rules:
+
+`dotnet_analyzer_diagnostic.severity = <severity>`
+
+If you have multiple entries that are applicable to a specific rule ID, following is the precedence order to choose the applicable entry:
+
+- Severity entry for an individual rule by ID takes precedence over severity entry for a category.
+- Severity entry for a category takes precedence over severity entry for all analyzer rules.
+
+Consider the below example EditorConfig, where [CA1822](https://docs.microsoft.com/visualstudio/code-quality/ca1822) has category "Performance":
+   ```ini
+   [*.cs]
+   dotnet_diagnostic.CA1822.severity = error
+   dotnet_analyzer_diagnostic.category-performance.severity = warning
+   dotnet_analyzer_diagnostic.severity = suggestion
+   ```
+
+In the above example, all the three entries are applicable to CA1822. However, using the above precedence rules, the first rule ID-based severity entry will win over the next entries. CA1822 will have effective severity "error". All the remaining rules with category "Performance" will have severity "warning". All the remaining analyzer rules, which do not have category "Performance" will have severity "suggestion".
 
 #### Manually configure rule severity
 
@@ -97,7 +126,72 @@ Setting a rule's severity in an EditorConfig file takes precedence over any seve
 > [!NOTE]
 > For IDE code-style analyzers, you can also configure them in an EditorConfig file using a different syntax, for example, `dotnet_style_qualification_for_field = false:suggestion`. However, if you set a severity using the `dotnet_diagnostic` syntax, it takes precedence. For more information, see [Language conventions for EditorConfig](../ide/editorconfig-language-conventions.md).
 
+#### Convert an existing Ruleset file to EditorConfig file
+
+Starting in Visual Studio 2019 16.5, ruleset files are being deprecated in favor of EditorConfig file for analyzer configuration for managed code. Most of the Visual Studio tooling for analyzer rule severity configuration has been updated to work on EditorConfig files instead of ruleset files. EditorConfig files allow you to configure both analyzer rule severities and analyzer options, including Visual Studio IDE code style options. It is highly recommended that you convert your existing ruleset file to EditorConfig file. It is also recommended that you save the EditorConfig file at the root of your repo or in the solution folder. This will ensure that the severity settings from this file are automatically applied to the entire repo or solution respectively.
+
+There is couple of ways to convert an existing ruleset file to EditorConfig file:
+
+- From Ruleset Editor in Visual Studio (Requires Visual Studio 2019 16.5 or later): If your project already uses a specific ruleset file as its `CodeAnalysisRuleSet`, you can convert it to an equivalent EditorConfig file from Ruleset Editor within Visual Studio.
+    1. **Double click** the ruleset file in solution explorer.
+
+    2. Ruleset file should open in Ruleset Editor. You should see a clickable **infobar** at top of the ruleset editor.
+
+       ![Convert Ruleset to EditorConfig file in Ruleset Editor](media/convert-ruleset-to-editorconfig-file-ruleset-editor.png)
+
+    3. **Click** on the infobar link.
+
+    4. This should bring up a **Save As** dialog that allows you to select the directory where you want to generate the EditorConfig file. **Click** on "Save" button to generate the EditorConfig file.
+
+    5. Generated EditorConfig should open in the editor. Additionally, the MSBuild property `CodeAnalysisRuleSet` will be updated in the project file to no longer reference the original ruleset file.
+
+- From command line:
+    1. Install the NuGet package [Microsoft.CodeAnalysis.RulesetToEditorconfigConverter](https://www.nuget.org/packages/Microsoft.CodeAnalysis.RulesetToEditorconfigConverter).
+
+    2. Execute `RulesetToEditorconfigConverter.exe` from installed package, with paths to ruleset file and EditorConfig file as command-line arguments.
+
+   ```
+   Usage: RulesetToEditorconfigConverter.exe <%ruleset_file%> [<%path_to_editorconfig%>]
+   ```
+
+Example ruleset file to convert:
+
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<RuleSet Name="Rules for ConsoleApp" Description="Code analysis rules for ConsoleApp.csproj." ToolsVersion="16.0">
+  <Rules AnalyzerId="Microsoft.Analyzers.ManagedCodeAnalysis" RuleNamespace="Microsoft.Rules.Managed">
+    <Rule Id="CA1001" Action="Warning" />
+    <Rule Id="CA1821" Action="Warning" />
+    <Rule Id="CA2213" Action="Warning" />
+    <Rule Id="CA2231" Action="Warning" />
+  </Rules>
+</RuleSet>
+```
+
+Converted EditorConfig file:
+
+```ini
+# NOTE: Requires **VS2019 16.3** or later
+
+# Rules for ConsoleApp
+# Description: Code analysis rules for ConsoleApp.csproj.
+
+# Code files
+[*.{cs,vb}]
+
+
+dotnet_diagnostic.CA1001.severity = warning
+
+dotnet_diagnostic.CA1821.severity = warning
+
+dotnet_diagnostic.CA2213.severity = warning
+
+dotnet_diagnostic.CA2231.severity = warning
+```
+
 #### Automatically configure rule severity
+
+##### Configure from light bulb menu
 
 Visual Studio provides a convenient way to configure a rule's severity from the [Quick Actions](../ide/quick-actions.md) light bulb menu.
 
@@ -116,17 +210,45 @@ Visual Studio provides a convenient way to configure a rule's severity from the 
    > [!TIP]
    > If you don't already have an EditorConfig file in the project, Visual Studio creates one for you.
 
+##### Configure from error list
+
+Visual Studio also provides a convenient way to configure a rule's severity from the error list context menu.
+
+1. After a violation occurs, right click on the diagnostic entry in the error list.
+
+2. From the context menu, select **Set severity**.
+
+   ![Configure rule severity from error list in Visual Studio](media/configure-rule-severity-error-list.png)
+
+3. From there, select one of the severity options.
+
+   Visual Studio adds an entry to the EditorConfig file to configure the rule to the requested level.
+
+   > [!TIP]
+   > If you don't already have an EditorConfig file in the project, Visual Studio creates one for you.
+
 ::: moniker-end
 
 ### Set rule severity from Solution Explorer
 
 1. In **Solution Explorer**, expand **References** > **Analyzers** (or **Dependencies** > **Analyzers** for .NET Core projects).
 
-1. Expand the assembly that contains the rule you want to set severity for.
+2. Expand the assembly that contains the rule you want to set severity for.
 
-1. Right-click on the rule and select **Set Rule Set Severity**. In the fly-out menu, select one of the severity options.
+::: moniker range=">=vs-2019"
+3. Right-click on the rule and select **Set severity**. In the fly-out menu, select one of the severity options.
+
+   Visual Studio adds an entry to the EditorConfig file to configure the rule to the requested level. If your project uses a ruleset file instead of an EditorConfig file, the severity entry is added to the ruleset file.
+
+   > [!TIP]
+   > If you don't already have an EditorConfig file or ruleset file in the project, Visual Studio creates a new EditorConfig file for you.
+::: moniker-end
+
+::: moniker range="vs-2017"
+3. Right-click on the rule and select **Set Rule Set Severity**. In the fly-out menu, select one of the severity options.
 
    The severity for the rule is saved in the active rule set file.
+::: moniker-end
 
 ### Set rule severity in the rule set file
 
