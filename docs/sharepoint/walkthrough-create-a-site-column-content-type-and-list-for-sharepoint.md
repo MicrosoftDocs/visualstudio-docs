@@ -65,7 +65,7 @@ ms.workload:
 ::: moniker-end
 ::: moniker range=">=vs-2019"
 2.  On the **Create a New Project** dialog select the **SharePoint Empty Project** for the particular version of SharePoint you have installed. For example, if you have SharePoint 2016 install select the **SharePoint 2016 - Empty Project** template.
-    - [!INCLUDE[new-project-dialog-search](../vsto/includes/new-project-dialog-search-md.md)]
+    [!INCLUDE[new-project-dialog-search](../vsto/includes/new-project-dialog-search-md.md)]
 
 3. Change the name of the project to **Clinic**, and then choose the **Create** button.
 
