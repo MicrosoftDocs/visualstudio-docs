@@ -1,10 +1,9 @@
 ### YamlMime:Hub
 title: Visual Studio Subscriptions documentation
-summary: "Visual Studio subscriptions is a comprehensive set of resources for you to create, deploy, and manage great applications on your preferred platforms and devices, including Windows, iOS, Android, and Linux. Benefits of subscriptions include access to developer tools, cloud services and software, training, and support for your development and testing needs."
+summary: "Visual Studio subscriptions benefits include access to developer tools, cloud services and software, training, and support for your development and testing needs."
 brand: visual-studio
 metadata:
   title: Visual Studio Subscriptions
-  titleSuffix: "Microsoft Docs"
   description: "Visual Studio subscriptions is a comprehensive set of resources for you to create, deploy, and manage great applications on your preferred platforms and devices, including Windows, iOS, Android, and Linux. Benefits of subscriptions include access to developer tools, cloud services and software, training, and support for your development and testing needs."
   ms.topic: hub-page
   author: evanwindom
@@ -65,7 +64,7 @@ tools:
       url: /azure/
     - title: Visual Studio IDE 
       imageSrc: https://docs.microsoft.com/media/logos/logo_vs-ide.svg 
-      url: /visualstudio/ 
+      url: /visualstudio/windows/ 
     - title: Azure DevOps Services 
       imageSrc: https://docs.microsoft.com/media/logos/logo_vs-team-services.svg
       url: /azure/devops/
@@ -103,7 +102,7 @@ additionalContent:
           - text: Office 365 Developer Subscription
             url: ~/vs-office-dev.md
           - text: Windows Developer Account
-            url: ~/vs-pbi.md
+            url: ~/vs-windows-dev.md
       - title: Training and Support
         links:
           - text: LinkedIn Premium
