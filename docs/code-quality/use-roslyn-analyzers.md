@@ -77,30 +77,30 @@ The following screenshot shows the same three violations as they appear in the E
 
 (Visual Studio 2019 version 16.3 and later)
 
-The general syntax for specifying the severity of a rule in an EditorConfig file is as follows:
+You can set the severity for compiler warnings or analyzer rules in an EditorConfig file with the following syntax:
 
 `dotnet_diagnostic.<rule ID>.severity = <severity>`
 
 Setting a rule's severity in an EditorConfig file takes precedence over any severity that's set in a rule set or in Solution Explorer. You can [manually](#manually-configure-rule-severity) configure severity in an EditorConfig file or [automatically](#automatically-configure-rule-severity) through the light bulb that appears next to a violation.
 
-### Bulk configure severity of analyzer rules in an EditorConfig file
+### Set rule severity of multiple analyzer rules at once in an EditorConfig file
 
 (Visual Studio 2019 version 16.5 and later)
 
-You can bulk configure rule severity of all analyzer rules or analyzer rules with a specific rule "Category" in an EditorConfig file. The general syntax for bulk configuring severity of analyzer rules in an EditorConfig file is as follows:
+You can set the severity for a specific category of analyzer rules or for all analyzer rules with a single entry in an EditorConfig file.
 
-- Category-based bulk configuration:
+- Set rule severity for a category of analyzer rules:
 
 `dotnet_analyzer_diagnostic.category-<rule category>.severity = <severity>`
 
-- All analyzer rules bulk configuration:
+- Set rule severity for all analyzer rules:
 
 `dotnet_analyzer_diagnostic.severity = <severity>`
 
-If you have multiple configuration entries that are applicable to a specific rule ID, following is the precedence order to choose the applicable entry:
+If you have multiple entries that are applicable to a specific rule ID, following is the precedence order to choose the applicable entry:
 
-- Rule ID-based configuration always takes precedence over bulk configuration.
-- Category-based bulk configuration takes precedence over all analyzer rules bulk configuration.
+- Severity entry for an individual rule by ID takes precedence over severity entry for a category.
+- Severity entry for a category takes precedence over severity entry for all analyzer rules.
 
 Consider the below example EditorConfig, where [CA1822](https://docs.microsoft.com/visualstudio/code-quality/ca1822) has category "Performance":
    ```ini
@@ -110,7 +110,7 @@ Consider the below example EditorConfig, where [CA1822](https://docs.microsoft.c
    dotnet_analyzer_diagnostic.severity = suggestion
    ```
 
-In the above example, all the three entries are applicable to CA1822. However, using the above precedence rules, the first rule ID-based configuration entry will win over the next two bulk configuration entries. CA1822 will have effective severity "error". All the remaining rules with category "Performance" will have severity "warning". All the remaining analyzer rules, which do not have category "Performance" will have severity "suggestion".
+In the above example, all the three entries are applicable to CA1822. However, using the above precedence rules, the first rule ID-based severity entry will win over the next entries. CA1822 will have effective severity "error". All the remaining rules with category "Performance" will have severity "warning". All the remaining analyzer rules, which do not have category "Performance" will have severity "suggestion".
 
 #### Manually configure rule severity
 
@@ -128,7 +128,7 @@ In the above example, all the three entries are applicable to CA1822. However, u
 
 #### Convert an existing Ruleset file to EditorConfig file
 
-Ruleset files are being deprecated in favor of EditorConfig file for analyzer configuration for managed code. EditorConfig files allow you to configure both analyzer rule severities and analyzer options, including Visual Studio IDE code style options. Most of the Visual Studio tooling for analyzer rule severity configuration has been updated to work on EditorConfig files instead of ruleset files. It is highly recommended that you convert your existing ruleset file to EditorConfig file. It is also recommended that you save the EditorConfig file at the root of your repo or in the solution folder. This will ensure that the severity settings from this file are automatically applied to the entire repo or solution respectively.
+Starting in Visual Studio 2019 16.5, ruleset files are being deprecated in favor of EditorConfig file for analyzer configuration for managed code. Most of the Visual Studio tooling for analyzer rule severity configuration has been updated to work on EditorConfig files instead of ruleset files. EditorConfig files allow you to configure both analyzer rule severities and analyzer options, including Visual Studio IDE code style options. It is highly recommended that you convert your existing ruleset file to EditorConfig file. It is also recommended that you save the EditorConfig file at the root of your repo or in the solution folder. This will ensure that the severity settings from this file are automatically applied to the entire repo or solution respectively.
 
 There is couple of ways to convert an existing ruleset file to EditorConfig file:
 
