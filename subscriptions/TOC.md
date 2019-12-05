@@ -1,5 +1,5 @@
 # [Visual Studio subscriptions](index.yml)
-# [What's New](whats-new-in-subscriptions.md)
+## [What's New](whats-new-in-subscriptions.md)
 # Subscriptions
 ## Buy subscriptions
 ### [Retail](https://visualstudio.microsoft.com/vs/pricing)
