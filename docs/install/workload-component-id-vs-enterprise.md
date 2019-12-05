@@ -6,7 +6,7 @@ keywords:
 author: TerryGLee
 ms.author: tglee
 manager: jillfra
-ms.date: 09/23/2019
+ms.date: 12/03/2019
 ms.topic: reference
 helpviewer_keywords:
   - "workload ID, Visual Studio"
