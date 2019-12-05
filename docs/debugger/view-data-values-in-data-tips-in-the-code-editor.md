@@ -92,9 +92,11 @@ To edit the value of a variable or element in a DataTip, select the value, type 
 
 ## Pin Properties in DataTips (Supported in Visual Studio 2019 version 16.4 Preview 3 or higher)
 
+> [!NOTE] This feature is supported for .NET Core 3.0 or higher.
+
 You can quickly inspect objects by their properties in DataTips with the **Pinnable Properties** tool.  To use this tool, hover over a property and select the pin icon that appears or right-click and select the **Pin Member as Favorite** option in the resulting context menu.  This bubbles up that property to the top of the object’s property list, and the property name and value is displayed in the right column of the DataTip.  To unpin a property, select the pin icon again or select the **Unpin Member as Favorite** option in the context menu.
 
-![Pinning a property in a DataTip](../debugger/media/basic-pin_datatip.gif "Pinning a property in a DataTip")
+![Pinning a property in a DataTip](../debugger/media/basic-pin-datatip.gif "Pinning a property in a DataTip")
 
 You can also toggle property names and filter out non-pinned properties when viewing the object’s property list in a datatip.  You can access either option by right-clicking a row containing a property and selecting the **Show only pinned members** or **Hide pinned member names in values** options in the context menu.
 
