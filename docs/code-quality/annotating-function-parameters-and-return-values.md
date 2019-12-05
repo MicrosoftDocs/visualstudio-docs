@@ -179,7 +179,10 @@ For the annotations in the following table, when a pointer parameter is being an
 
      A pointer to an array of `s` elements (resp. bytes) that will be written by the function.  The array elements do not have to be valid in pre-state, and the number of elements that are valid in post-state is unspecified.  If there are annotations on the parameter type, they are applied in post-state. For example, consider the following code.
 
-     `typedef _Null_terminated_ wchar_t *PWSTR; void MyStringCopy(_Out_writes_ (size) PWSTR p1,    _In_ size_t size,    _In_ PWSTR p2);`
+     ```cpp
+     typedef _Null_terminated_ wchar_t *PWSTR;
+     void MyStringCopy(_Out_writes_(size) PWSTR p1, _In_ size_t size, _In_ PWSTR p2);
+     ```
 
      In this example, the caller provides a buffer of `size` elements for `p1`.  `MyStringCopy` makes some of those elements valid. More importantly, the `_Null_terminated_` annotation on `PWSTR` means that `p1` is null-terminated in post-state.  In this way, the number of valid elements is still well-defined, but a specific element count is not required.
 
@@ -209,13 +212,14 @@ For the annotations in the following table, when a pointer parameter is being an
 
      `_Out_writes_bytes_all_(s)`
 
-     A pointer to an array of `s` elements.  The elements do not have to be valid in pre-state.  In post-state, the elements up to the `c`-th element must be valid.  If the size is known in bytes, scale `s` and `c` by the element size or use the `_bytes_` variant, which is defined as:
+     A pointer to an array of `s` elements.  The elements do not have to be valid in pre-state.  In post-state, the elements up to the `c`-th element must be valid.  The `_bytes_` variant can be used if the size is known in bytes rather than number of elements.
+     
+     For example:
 
-     `_Out_writes_to_(_Old_(s), _Old_(s))    _Out_writes_bytes_to_(_Old_(s), _Old_(s))`
-
-     In other words, every element that exists in the buffer up to `s` in the pre-state is valid in the post-state.  For example:
-
-     `void *memcpy(_Out_writes_bytes_all_(s) char *p1,    _In_reads_bytes_(s) char *p2,    _In_ int s); void * wordcpy(_Out_writes_all_(s) DWORD *p1,     _In_reads_(s) DWORD *p2,    _In_ int s);`
+     ```cpp
+     void *memcpy(_Out_writes_bytes_all_(s) char *p1, _In_reads_bytes_(s) char *p2, _In_ int s); 
+     void *wordcpy(_Out_writes_all_(s) DWORD *p1, _In_reads_(s) DWORD *p2, _In_ int s);
+     ```
 
 - `_Inout_updates_to_(s,c)`
 
@@ -239,19 +243,24 @@ For the annotations in the following table, when a pointer parameter is being an
 
 - `_In_reads_to_ptr_(p)`
 
-     A pointer to an array for which the expression `p` - `_Curr_` (that is, `p` minus `_Curr_`) is defined by the appropriate language standard.  The elements prior to `p` must be valid in pre-state.
+     A pointer to an array for which `p - _Curr_` (that is, `p` minus `_Curr_`) is a valid expression.  The elements prior to `p` must be valid in pre-state.
+
+    For Example:
+    ```cpp
+    int ReadAllElements(_In_reads_to_ptr_(EndOfArray) const int *Array, const int *EndOfArray);
+    ```
 
 - `_In_reads_to_ptr_z_(p)`
 
-     A pointer to a null-terminated array for which the expression `p` - `_Curr_` (that is, `p` minus `_Curr_`) is defined by the appropriate language standard.  The elements prior to `p` must be valid in pre-state.
+     A pointer to a null-terminated array for which expression `p - _Curr_` (that is, `p` minus `_Curr_`) is a valid expression.  The elements prior to `p` must be valid in pre-state.
 
 - `_Out_writes_to_ptr_(p)`
 
-     A pointer to an array for which the expression `p` - `_Curr_` (that is, `p` minus `_Curr_`) is defined by the appropriate language standard.  The elements prior to `p` do not have to be valid in pre-state and must be valid in post-state.
+     A pointer to an array for which `p - _Curr_` (that is, `p` minus `_Curr_`) is a valid expression.  The elements prior to `p` do not have to be valid in pre-state and must be valid in post-state.
 
 - `_Out_writes_to_ptr_z_(p)`
 
-     A pointer to a null-terminated array for which the expression `p` - `_Curr_` (that is, `p` minus `_Curr_`) is defined by the appropriate language standard.  The elements prior to `p` do not have to be valid in pre-state and must be valid in post-state.
+     A pointer to a null-terminated array for which `p - _Curr_` (that is, `p` minus `_Curr_`) is a valid expression.  The elements prior to `p` do not have to be valid in pre-state and must be valid in post-state.
 
 ## Optional Pointer Parameters
 
@@ -355,7 +364,7 @@ Output pointer parameters require special notation to disambiguate null-ness on 
 
 ## Output Reference Parameters
 
-A common use of the reference parameter is for output parameters.  For simple output reference parameters—for example, `int&`—`_Out_` provides the correct semantics.  However, when the output value is a pointer—for example `int *&`—the equivalent pointer annotations like `_Outptr_ int **` don't provide the correct semantics.  To concisely express the semantics of output reference parameters for pointer types, use these composite annotations:
+A common use of the reference parameter is for output parameters.  For simple output reference parameters such as `int&`, `_Out_` provides the correct semantics.  However, when the output value is a pointer such as `int *&`, the equivalent pointer annotations like `_Outptr_ int **` don't provide the correct semantics.  To concisely express the semantics of output reference parameters for pointer types, use these composite annotations:
 
 **Annotations and Descriptions**
 
