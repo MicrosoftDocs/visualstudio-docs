@@ -42,7 +42,7 @@ conceptualContent:
     - title: Popular resources
       links:
         - text: Compare options and pricing
-          url: https://visualstudio.microsoft.com/vs/pricing.md
+          url: https://visualstudio.microsoft.com/vs/pricing
           itemType: overview
         - text: Visual Studio Administration & Subscriptions support
           url: https://visualstudio.microsoft.com/support/support-overview-vs
