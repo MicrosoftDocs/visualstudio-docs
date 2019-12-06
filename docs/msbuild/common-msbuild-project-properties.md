@@ -1,6 +1,6 @@
 ---
 title: "Common MSBuild Project Properties | Microsoft Docs"
-ms.date: "01/18/2018"
+ms.date: "12/06/2019"
 ms.topic: "reference"
 dev_langs:
   - "VB"
