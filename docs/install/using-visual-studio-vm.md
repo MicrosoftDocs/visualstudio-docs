@@ -2,7 +2,7 @@
 title: "Using Visual Studio on an Azure Virtual Machine"
 titleSuffix: ""
 description: "Learn how to use Visual Studio on an Azure Virtual Machine"
-ms.date: 12/04/2019
+ms.date: 12/06/2019
 ms.custom: "seodec18"
 ms.topic: conceptual
 helpviewer_keywords:
