@@ -64,10 +64,10 @@ landingContent:
         - text: Measure performance for cloud services in Azure
           url: vs-azure-tools-performance-profiling-cloud-services.md
 
-    - title: Connect your apps to Azure with Visual Studio Connected Services
-      linkLists:
-      - linkListType: tutorial
-        links:
+  - title: Connect your apps to Azure with Visual Studio Connected Services
+    linkLists:
+    - linkListType: tutorial
+      links:
         - text: Azure Storage
           url: vs-azure-tools-connected-services-storage.md
         - text: Azure Key Vault
@@ -77,34 +77,34 @@ landingContent:
         - text: Cognitive Services
           url: /visualstudio/azure/cognitive-services-connected-services
 
-    - title: Azure Cloud Services
-      linkLists:
-      - linkListType: how-to-guide
-        links:
-          - text: Create and configure Azure cloud service projects
-            url: vs-azure-tools-azure-project-create.md
-          - text: Debug cloud services locally and in Azure
-            url: vs-azure-tools-debugging-cloud-services-overview.md
-          - text: Analyze performance with the Visual Studio profiler
-            url: vs-azure-tools-performance-profiling-cloud-services.md
-          - text: Deploy a cloud service to Azure
-            url: vs-azure-tools-publishing-a-cloud-service.md
-          - text: Monitor and diagnose cloud services and virtual machines running in Azure
-            url: vs-azure-tools-diagnostics-for-cloud-services-and-virtual-machines.md
+  - title: Azure Cloud Services
+    linkLists:
+    - linkListType: how-to-guide
+      links:
+        - text: Create and configure Azure cloud service projects
+          url: vs-azure-tools-azure-project-create.md
+        - text: Debug cloud services locally and in Azure
+          url: vs-azure-tools-debugging-cloud-services-overview.md
+        - text: Analyze performance with the Visual Studio profiler
+          url: vs-azure-tools-performance-profiling-cloud-services.md
+        - text: Deploy a cloud service to Azure
+          url: vs-azure-tools-publishing-a-cloud-service.md
+        - text: Monitor and diagnose cloud services and virtual machines running in Azure
+          url: vs-azure-tools-diagnostics-for-cloud-services-and-virtual-machines.md
 
-    - title: Work with Azure resources in Visual Studio by using Cloud Explorer
-      linkLists:
-      - linkListType: how-to-guide
-        links:
-          - text: Access Azure storage accounts in Visual Studio
-            url: vs-azure-tools-storage-resources-server-explorer-browse-manage.md
-          - text: Access Virtual Machines from Visual Studio
-            url: vs-azure-tools-virtual-machines-access-from-server-explorer.md
+  - title: Work with Azure resources in Visual Studio by using Cloud Explorer
+    linkLists:
+    - linkListType: how-to-guide
+      links:
+        - text: Access Azure storage accounts in Visual Studio
+          url: vs-azure-tools-storage-resources-server-explorer-browse-manage.md
+        - text: Access Virtual Machines from Visual Studio
+          url: vs-azure-tools-virtual-machines-access-from-server-explorer.md
 
-    - title: Other Azure Development Resources
-      linkLists:
-      - linkListType: how-to-guide
-        links:
+  - title: Other Azure Development Resources
+    linkLists:
+     - linkListType: how-to-guide
+       links:
           - text: Azure Resource Group
             url: /azure/azure-resource-manager/vs-azure-tools-resource-groups-deployment-projects-create-deploy
           - text: Data Lake Analytics
