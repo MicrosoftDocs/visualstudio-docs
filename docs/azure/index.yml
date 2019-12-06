@@ -51,7 +51,7 @@ landingContent:
         - text: Kubernetes tools
           url: /visualstudio/containers/tutorial-kubernetes-tools
 
-  - title: Debug and monitor performance
+  - title: Debug Azure services and analyze performance
     linkLists:
     - linkListType: tutorial
       links:
@@ -64,7 +64,7 @@ landingContent:
         - text: Measure performance for cloud services in Azure
           url: vs-azure-tools-performance-profiling-cloud-services.md
 
-  - title: Connect your apps to Azure with Visual Studio Connected Services
+  - title: Connected Services
     linkLists:
     - linkListType: tutorial
       links:
@@ -92,7 +92,7 @@ landingContent:
         - text: Monitor and diagnose cloud services and virtual machines running in Azure
           url: vs-azure-tools-diagnostics-for-cloud-services-and-virtual-machines.md
 
-  - title: Work with Azure resources in Visual Studio by using Cloud Explorer
+  - title: Cloud Explorer
     linkLists:
     - linkListType: how-to-guide
       links:
@@ -101,7 +101,7 @@ landingContent:
         - text: Access Virtual Machines from Visual Studio
           url: vs-azure-tools-virtual-machines-access-from-server-explorer.md
 
-  - title: Other Azure Development Resources
+  - title: Other Resources
     linkLists:
      - linkListType: how-to-guide
        links:
