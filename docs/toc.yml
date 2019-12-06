@@ -1451,3 +1451,15 @@
     href: ide/suggest-a-feature.md
   - name: Developer Community data privacy
     href: ide/developer-community-privacy.md
+  - name: Customer Experience Improvement Program
+    items:
+    - name: Overview
+      displayName: Customer Experience Improvement Program
+      href: ide/visual-studio-experience-improvement-program.md
+    - name: System-generated logs
+      href: ide/diagnostic-data-collection.md
+  - name: Resources for troubleshooting IDE errors
+    href: ide/reference/resources-for-troubleshooting-integrated-development-environment-errors.md
+  - name: Feedback
+    displayName: Feedback
+    href: ide/feedback-options.md
