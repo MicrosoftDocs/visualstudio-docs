@@ -139,9 +139,9 @@ If an unresponsiveness manifests itself in an unpredictable fashion, on the next
 launch a new instance of Visual Studio and report a problem from that instance.
 In the [“Record”
 screen](https://docs.microsoft.com/visualstudio/ide/how-to-report-a-problem-with-visual-studio?view=vs-2019#record-a-repro),
-be sure to select the Visual Studio session that is hung.
+be sure to select the Visual Studio session that is unresponsive.
 
-If the Visual Studio instance that is hung was launched in Administrator mode,
+If the Visual Studio instance that is unresponsive was launched in Administrator mode,
 then the second instance would also need to be launched in Administrator mode.
 
 >[!NOTE] 
