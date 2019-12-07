@@ -47,7 +47,7 @@
     - name: Troubleshooting breakpoints
       href: troubleshooting-breakpoints.md
     - name: Troubleshooting C# data breakpoints
-      href: error-unable-to-set-data-breakpoint.md
+      href: troubleshoot-data-breakpoint-errors.md
   - name: Data inspection
     items:
     - name: Inspect data in debugger windows
