@@ -29,10 +29,6 @@ By using Visual Studio to create a Windows Installer, you can deploy an Office s
 
 ## In this topic
 
-- [Download VSTO Add-in samples](#Download)
-
-- [Get InstallShield Limited Edition](#Obtain)
-
 - [Decide how to grant trust to the solution](#ApplySecurity)
 
 - [Create a setup project](#Create)
@@ -55,14 +51,6 @@ For more information about how to deploy an Office solution by using ClickOnce, 
 
 For information about how to create a Windows Installer file by using [!INCLUDE[vs_dev10_long](../sharepoint/includes/vs-dev10-long-md.md)], see [Deploy a Visual Studio 2010 Tools for Office solution using Windows Installer](/previous-versions/visualstudio/visual-studio-2010/ff937654(v=msdn.10)).
 
-## <a name="Download"></a>Download samples
-This topic refers to the following downloadable samples.
-
-|Sample<br /><br />|Description<br /><br />|
-|----------|---------------|
-|[ExcelAddIn](https://code.msdn.microsoft.com/VSTO-Deploy-an-Office-fbcc09ad)<br /><br />|An Excel VSTO Add-in that you can install on a computer that runs a 32-bit or 64-bit version of Office.<br /><br />|
-|[ExcelWorkbook](https://code.msdn.microsoft.com/VSTO-Deploy-a-Customization-f70fae33)<br /><br />|An Excel document-level customization that you can install on a computer that runs a 32-bit or 64-bit version of Office.<br /><br />|
-
 ## <a name="ApplySecurity"></a>Decide how to grant trust to the solution
 Before a solution can run on user computers, you must grant trust in either of the following ways, or users must respond to a trust prompt when they install the solution.
 
@@ -73,75 +61,42 @@ Before a solution can run on user computers, you must grant trust in either of t
 > [!NOTE]
 > For document-level customizations, the location of the document must also be trusted. For more information, see [Grant trust to documents](../vsto/granting-trust-to-documents.md).
 
-## <a name="Obtain"></a>Get InstallShield Limited Edition
-
-You can create a Windows Installer file by using InstallShield Limited Edition (ISLE), which is free if you've installed Visual Studio. ISLE replaces the functionality of the project templates for setup and deployment that previous versions of Visual Studio offered.
-
-### To get InstallShield Limited Edition
-
-1. On the menu bar, choose **File** > **New** > **Project**.
-
-   The **New Project** dialog box opens.
-
-2. In the templates pane, expand **Other Project Types**, and then choose the **Setup and Deployment** template.
-
-3. In the list of project types for **Setup and Deployment**, choose **Enable InstallShield Limited Edition**, and then choose the **OK** button.
-
-   A page appears that provides information about how to get InstallShield Limited Edition.
-
-4. On that page, choose the **Go to the download web site** link.
-
-5. On the download page for InstallShield Limited Edition, enter the required information into the appropriate fields, and then choose the **Download Now** link.
-
-   After you download, install, and activate the product, the **InstallShield Limited Edition Project** template appears in Visual Studio.
-
 ## <a name="Create"></a>Create a setup project
 
-1. In [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], open the Office project that you want to deploy.
+1. Download and install the Visual Studio Installer Project extension from the [Marketplace](https://marketplace.visualstudio.com/items?itemName=visualstudioclient.MicrosoftVisualStudio2017InstallerProjects)
 
-   The VSTO Add-in samples that are associated with this topic contain a project that's named **ExcelAddIn**. The document-level customization samples contain a project that's named **ExcelWorkbook**. This topic will refer to the Office project in your solution by using one of those two names.
+2. In [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], open the Office project that you want to deploy.
 
-2. On the menu bar, choose **File** > **Add** > **New Project**.
+3. On the menu bar, choose **File** > **Add** > **New Project**.
 
    The **Add New Project** dialog box opens.
+::: moniker range="=vs-2017"
+4. In the templates pane, expand **Other Project Types**, and then choose the **Visual Studio Installer** template.
 
-3. In the templates pane, expand **Other Project Types**, and then choose the **Setup and Deployment** template.
+4. In the list of project types , choose **Setup Project**, name the project **OfficeAddInSetup**, and then choose the **OK** button.
 
-4. In the list of project types for **Setup and Deployment**, choose **InstallShield Limited Edition Project**, name the project, and then choose the **OK** button.
+   The  setup project that you created appears in your solution.
+::: moniker-end
 
-   The InstallShield setup project that you created appears in your solution.
-
-   The samples for this topic contain a setup project that's named **OfficeAddInSetup**. This topic will refer to the setup project in your solution by using the same name.
+::: moniker range="=vs-2019"
+TODO:  Add VS2019 NPD info
+::: moniker-end
 
 ## <a name="Add"></a>Add the project output
 
-You configure the **OfficeAddInSetup** project to include the output of your Office project. For VSTO Add-in projects, the project output is the solution assembly only. For document-level customization projects, the project output includes not only the solution assembly but also the document itself.
+You configure the setup project to include the output of your Office project. For VSTO Add-in projects, the project output is the project assembly only. For document-level customization projects, the project output also includes the document itself.
 
 ### To add the project output
 
-1. In **Solution Explorer**, expand the **OfficeAddInSetup** project node, and then choose the **Project Assistant** file, which the following illustration shows.
+1. In **Solution Explorer**, right-click on the **OfficeAddInSetup** project node, and then choose the **Add** > **File**, and browse to the output directory for your Add-in and select the **.dll** file for your add-in.
 
-   ![Project Assistant File in Solution Explorer](../vsto/media/installshield-projectassistant.png "Project Assistant File in Solution Explorer")
+   Usually, the output directory is the **bin\release** sub-folder of the project root directory, depending on the build configuration that you choose.
 
-2. On the menu bar, choose **View** > **Open**.
-
-3. At the bottom of the **Project assistant** page, choose the **Application Files** button, which the following illustration shows.
-
-   ![The Application Files button.](../vsto/media/installshield-applicationfiles.png "The Application Files button.")
-
-4. In the **Application Files** page, choose the **Add Project Outputs** button.
-
-5. In the **Visual Studio Output Selector** dialog box, select the **Primary Output** check box, and then choose the **OK** button.
+2. If the add-in is a document-level customization project, right-click on the **OfficeAddInSetup** project node, and then choose the **Add** > **File** , and browse to the same output directory and select the document for the project.
 
 ## <a name="AddD"></a>Add the deployment and application manifests
 
-1. In the **Application Files** page, choose the **Add Files** button.
-
-2. In the **Open** dialog box, browse to the output directory of the **ExcelAddIn** project.
-
-   Usually, the output directory is the **bin\release** subfolder of the project root directory, depending on the build configuration that you choose.
-
-3. In the output directory, choose the **ExcelAddIn.vsto** and **ExcelAddIn.dll.manifest** files, and then choose the **Open** button.
+1. Right-click on the **OfficeAddInSetup** project node, and then choose the **Add** > **File** menu, and browse to the output directory and select the choose the **.vsto** and **.dll.manifest** files for your project, and then choose the **Open** button.
 
    The **Application Files** page now contains the project output file, the deployment manifest, and the application manifest, as the following illustration shows.
 
@@ -155,102 +110,31 @@ In your setup application, you must include not only the following components bu
 
 - The Microsoft Visual Studio 2010 Tools for Office Runtime.
 
-### Add the .NET Framework 4 or the .NET Framework 4.5 as a prerequisite
+### Add the Microsoft .NET Framework and the VSTO Runtime as prerequisites
 
-1. In **Solution Explorer**, expand the **OfficeAddInSetup** project node, expand the **Specify Application Data** node, and then choose the **Redistributables** file, which the following illustration shows.
+1. In **Solution Explorer**, right-click on the  the **OfficeAddInSetup** project node, select **Properties**.
 
-   ![The Redistributables file in Solution Explorer](../vsto/media/installshield-redistributablesfile.png "The Redistributables file in Solution Explorer")
+2. Click on the **Prerequisites** button.
 
-2. On the menu bar, choose **View** > **Open**.
-
-   The **Redistributables** page opens.
-
-3. In the list of redistributable components, select appropriate the check box for the version of the .NET Framework that your solution targets.
-
-   For example, if your solution targets the [!INCLUDE[net_v45](../vsto/includes/net-v45-md.md)], select the **Microsoft .NET Framework 4.5 Full** check box. A dialog box might appear asking whether you want to install the redistributable component, which InstallShield requires before you can add the component as a prerequisite. If this dialog box doesn't appear, the component already exists on your computer.
-
-4. If this dialog box appears, choose the **No** button.
+3. In the list of Prerequisites to install on the Prerequisites dialog, select appropriate the check box for the version of the .NET Framework that your solution targets.
 
 ### <a name="AddToolsForOffice"></a>Add the Visual Studio 2010 Tools for Office Runtime
 
-The **Redistributables** page contains an item that's named **Microsoft VSTO 2010 Runtime**, but it refers to an older version of the runtime. Therefore, you could manually create a configuration file that refers to the most recent version. You must then put that file into the same directory as the configuration files for all of the other items that appear in the **Redistributables** page.
+4. Also in the list of Prerequisites to install, select  **Microsoft Visual Studio 2010 Tools for Office Runtime (x86 and x64)**.
 
-#### To add the Visual Studio 2010 Tools for Office runtime as a prerequisite
-
-1. Open Notepad, and then paste the following XML into a text file.
-
-   ```xml
-   <?xml version="1.0" encoding="UTF-8"?>
-   <SetupPrereq>
-   <conditions>
-       <condition Type="32" Comparison="2" Path="HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VSTO Runtime Setup\v4R" FileName="Version" ReturnValue="10.0.50903" Bits="2"></condition>
-   <condition Type="32" Comparison="2" Path="HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\VSTO Runtime Setup\v4R" FileName="Version" ReturnValue="10.0.50903" Bits="2"></condition>
-   </conditions>
-   <files>
-       <file LocalFile="<ISProductFolder>\SetupPrerequisites\VSTOR\vstor_redist.exe" URL="http://download.microsoft.com/download/C/0/0/C001737F-822B-48C2-8F6A-CDE13B4B9E9C/vstor_redist.exe" CheckSum="88b8aa9e8c90818f98c80ac4dd998b88" FileSize=" 0,40117912"></file>
-   </files>
-   <execute file="vstor_redist.exe" returncodetoreboot="1641,3010" requiresmsiengine="1">
-   </execute>
-   <properties Id="{15965040-56BB-49B8-A88F-3525C48D9BA8}" Description="This prerequisite installs the most recent version of the Microsoft Visual Studio 2010 Tools for Office Runtime." >
-   </properties>
-
-   </SetupPrereq>
-   ```
-
-2. Generate a GUID in Visual Studio. On the **Tools** menu, choose **Create GUID**.
-
-3. In the **GUID generator** program, choose the **Registry Format** option button, choose the **Copy** button, and then choose the **Exit** button.
-
-4. In Notepad, replace the text **Your GUID goes here** by pasting the GUID in its place.
-
-   The **&lt;properties&gt;** element of your file resembles the following.
-
-   ```xml
-   <properties Id="{87989B73-21DC-4403-8FD1-0C68A41A6D8C}" Description="This prerequisite installs the most recent version of the Microsoft Visual Studio 2010 Tools for Office Runtime." >
-   </properties>
-   ```
-
-5. On the menu bar in Notepad, choose **File** > **Save**.
-
-6. In the **Save As** dialog box, browse to your **Desktop** folder.
-
-7. In the **Save as type** list, choose **All Files (&#42;.&#42;)**.
-
-8. In the **File name** box, enter **Visual Studio 2010 Tools for Office Runtime.prq**, and then choose the **Save** button.
-
-   > [!NOTE]
-   > Make sure that you add **.prq** at the end of the file name to identify this file as a prerequisite file.
-
-9. Close Notepad.
-
-10. From your **Desktop** folder, copy the *Visual Studio 2010 Tools for Office Runtime.prq* file to one of the following directories on your computer.
-
-   For 32-bit operating systems: *%ProgramFiles%\InstallShield\2013LE\SetupPrerequisites\\*
-
-   For 64-bit operating systems: *%ProgramFiles(x86)%\2013LE\SetupPrerequisites\\*
-
-11. In the **Redistributable** page of the InstallShield project, choose the **Refresh** button to refresh the list of redistributable components, as the following illustration shows.
-
-   ![The refresh button.](../vsto/media/installshield-refreshbutton.png "The refresh button.")
-
-12. In the list of redistributable components, select the **Visual Studio 2010 Tools for Office Runtime** check box.
-
-   A dialog box might appear asking whether you want to install the redistributable component. If this dialog box doesn't appear, you can skip to the [Specify where you want to deploy the solution on the user's computer](#Location) section of this topic.
-
-13. If this dialog box appears, choose the **No** button.
+5. Click on the OK.
 
 ## <a name="Location"></a>Specify where to install the solution on the user's computer
 
-1. In **Solution Explorer**, expand the **OfficeAddInSetup** node, expand the **Organize your Setup** node, and then choose the **General Information** file.
+1. In **Solution Explorer**, right-click on the **OfficeAddInSetup** node, and choose **View** > **File System**.
 
-2. On the menu bar, choose **View** > **Open**.
+The **File Editor** designer appears.
 
-3. In the list of properties, choose the **Browse** button next to the **INSTALLDIR** property.
+2. Under the **File System on Target Machine** node select the **Application Folder**.
 
-4. In the **Set INSTALLDIR** dialog box, choose a folder on the user's computer where you want to install the solution.
+3. In the list of properties, choose the **DefaultLocation** property and set it to the folder you would like, the default is **[ProgramFilesFolder][Manufacturer]\[ProductName]**.
 
-   > [!NOTE]
-   > You can also create subdirectories in the **Set INSTALLDIR** dialog box by opening the shortcut menu for any folder in the list.
+    The  **Manufacturer** and **ProductName** values can be set by selecting the **OfficeAddInSetup** node in **Solution Explorer** and setting the corresponding properties.
 
 ## <a name="ConfigureRegistry"></a>Configure a VSTO Add-in
 
@@ -265,50 +149,52 @@ Per-user installations require only one installer regardless of Office or Window
 
 ### To specify whether you want to support per-user or per-computer installations
 
-1. In **Solution Explorer**, expand the **OfficeAddInSetup** project node, expand the **Organize Your Setup** node, and then choose the **General Information** file.
+1. In **Solution Explorer**, select the **OfficeAddInSetup** project node, and in the list of properties, set the **InstallAllUsers** to **False** for per-user and **True** for per-machine
 
-2. On the menu bar, choose **View** > **Open**.
-
-   The properties of the setup project appear.
-
-3. In the list for the **AllUSERS** property, specify whether you want this solution to be installed for all users of the computer or for only the user who installs the solution.
-
-   To install the VSTO Add-in for the current user, choose **ALLUSERS="" (Per-user installation)**. To install the VSTO Add-in for all users of the computer, choose **ALLUSERS=1 (Per-machine installation)**
-
-   In the next procedure, you'll create registry keys to enable the Office application to discover and load the VSTO Add-in. See [Registry entries for VSTO Add-ins](../vsto/registry-entries-for-vsto-add-ins.md).
+In the next procedure, you'll create registry keys to enable the Office application to discover and load the VSTO Add-in. See [Registry entries for VSTO Add-ins](../vsto/registry-entries-for-vsto-add-ins.md).
 
 ### To create registry keys
 
-1. In **Solution Explorer**, choose the **Project Assistant** node.
+1. In **Solution Explorer**, right-click on the **OfficeAddInSetup** node, and choose **View** > **Registry**
 
-   On the menu bar, choose **View** > **Open**.
+   The **Registry Editor** designer appears.
 
-2. At the bottom of the **Project assistant** page, choose the **Application Registry** button, which the following illustration shows.
-
-   ![The Application Registry button.](../vsto/media/installshield-applicationregistry.gif "The Application Registry button.")
-
-   The **Application Registry** page appears.
-
-3. Under **Do you want to configure the registry data that your application will install?**, choose the **Yes** option button.
-
-4. In the **Destination computer's Registry view** list, add the key hierarchy that enables the type of installer you want to create.
+2. Under the **Registry on Target Machine** node select the key hierarchy that enables the type of installer you want to create.
 
    The path that you configure in this section depends on whether you create a per-user installer or a per-computer installer.
 
    **Per-user installer**
+   a. Delete the default **HKEY_CURRENT_USER\Software\\[Manufacturer]** node by right-clicking on the node and selecting delete, and selecting **Yes** to the prompt to proceed and delete the subkeys.
+   b. Right-click on the node **HKEY_CURRENT_USER\Software** and select **Add** > *New Key** and type **Microsoft**.
+   c. Right-click on the node new **Microsoft** key and select **Add** > **New Key** and type **Office**.
+   d. Right-click on the node new **Office** key and select **Add** > **New Key** and type **Excel** .
+   e. Right-click on the node new key and select **Add** > *New Key** and type **Addins**.
+   f. Right-click on the node new **Addins** key and select **Add** > **New String Value** and type **SampleCompany.ExcelAddIn****.
 
-   **HKEY_CURRENT_USER\Software\Microsoft\Office\Excel\Addins\SampleCompany.ExcelAddIn**
+   The resulting path should look like the following:  
+       **HKEY_CURRENT_USER\Software\Microsoft\Office\Excel\Addins\SampleCompany.ExcelAddIn**
 
    **Per-computer installers based on Office version**
 
-| Office version<br /><br /> | InstallShield Configuration Path<br /><br /> |
+Following similar steps to the **Per-user installation** instructions above, add the following registry entry under **HKEY_LOCAL_MACHINE**:
+
+    **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Office\Excel\Addins\SampleCompany.ExcelAddIn**
+
+   **To set the correct Target Platform for your setup**
+The setup project will set the correct 32-bit vs. 64-bit registry path for you based on the Windows platform the setup is targeting.
+
+1. In **Solution Explorer**, select the **OfficeAddInSetup** project node, and in the list of properties, set the **TargetPlatform** to either **x86** or **x64**
+
+This will also indicate the Default folder path
+
+| Office version<br /><br /> | Registry Path<br /><br /> |
 |----------------------------| - |
 | 32-bit<br /><br /> | **HKEY_LOCAL_MACHINE\SOFTWARE(32-Bit)\Microsoft\Office\Excel\Addins\SampleCompany.ExcelAddIn**<br /><br /> |
 | 64-bit<br /><br /> | **HKEY_LOCAL_MACHINE\SOFTWARE(64-Bit)\Microsoft\Office\Excel\Addins\SampleCompany.ExcelAddIn**<br /><br /> |
 
    **Per-computer installers based on Windows version**
 
-| Windows version<br /><br /> | InstallShield Configuration Path<br /><br /> |
+| Windows version<br /><br /> | Registry  Path<br /><br /> |
 |-----------------------------| - |
 | 32-bit<br /><br /> | **HKEY_LOCAL_MACHINE\SOFTWARE(32-Bit)\Microsoft\Office\Excel\Addins\SampleCompany.ExcelAddIn**<br /><br /> |
 | 64-bit<br /><br /> | **HKEY_LOCAL_MACHINE\SOFTWARE(32-Bit)\Microsoft\Office\Excel\Addins\SampleCompany.ExcelAddIn**<br /><br />**HKEY_LOCAL_MACHINE\SOFTWARE(64-Bit)\Microsoft\Office\Excel\Addins\SampleCompany.ExcelAddIn**<br /><br /> |
