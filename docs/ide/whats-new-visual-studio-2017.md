@@ -383,6 +383,6 @@ Sometimes, a message isn't enough to convey the full impact of a problem that yo
 * [What's New in the Visual Studio 2017 SDK](../extensibility/what-s-new-in-the-visual-studio-2017-sdk.md)
 * [What's new in Visual C++](/cpp/top/what-s-new-for-visual-cpp-in-visual-studio)
 * [What's new in C#](/dotnet/csharp/whats-new)
-* [What's new for Team Foundation Server](/tfs/server/whats-new?view=vsts)
+* [What's new for Team Foundation Server](/azure/devops/server/whats-new)
 * [What's new in Visual Studio for Mac](https://visualstudio.microsoft.com/vs/visual-studio-mac/)
 * [What's new in Visual Studio 2019](whats-new-visual-studio-2019.md)
