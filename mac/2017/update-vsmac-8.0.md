@@ -1,8 +1,8 @@
 ---
 title: "Updating Visual Studio for Mac"
 description: "Instructions for updating Visual Studio for Mac to the newest version."
-author: asb3993
-ms.author: amburns
+author: heiligerdankgesang
+ms.author: dominicn
 ms.date: 06/20/2018
 ms.technology: vs-ide-install
 ms.assetid: BC836802-CC65-41F7-BAEC-A42AED0371A9
