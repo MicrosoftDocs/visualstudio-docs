@@ -44,7 +44,7 @@ ms.workload:
  If you use ClickOnce to deploy a VSTO Add-in, the VSTO Add-in can be registered only for the current user. This is because ClickOnce only supports creating keys under **HKEY_CURRENT_USER**. If you want to register a VSTO Add-in to all users on a computer, you must use Windows Installer to deploy the VSTO Add-in. For more information about these deployment types, see [Deploy an Office solution by using ClickOnce](../vsto/deploying-an-office-solution-by-using-clickonce.md) and [Deploy an Office solution by using Windows Installer](../vsto/deploying-an-office-solution-by-using-windows-installer.md).
 
 ## Registry entries
- The required VSTO Add-in registry entries are located under the following registry keys where *Root* is **HKEY_CURRENT_USER** or **HKEY_LOCAL_MACHINE** depending if the installation is per-user or per-machine.
+ The required VSTO Add-in registry entries are located under the following registry keys where *Root* is **HKEY_CURRENT_USER** or **HKEY_LOCAL_MACHINE** depending if the installation is for the current user or all users.
 
 |Office Application|Configuration Path|
 |------------------|------------------|
@@ -52,7 +52,9 @@ ms.workload:
 |All Other|*Root*\Software\Microsoft\Office\\*Office application name*\Addins\\*add-in ID*|
 
 > [!NOTE]
-> If the installer is targeting 64-bit Windows, it should include two registry entries, one under the *Root*\Software\Microsoft and one under the *Root*\Software\\**WOW6432Node**\Microsoft hive.  This is because it's possible for users to use either 32-bit or 64-bit versions of Office on the computer.
+> If the installer is targeting all users on 64-bit Windows, it is recommended that it includes two registry entries, one under the HKEY_LOCAL_MACHINE\Software\Microsoft and one under the HKEY_LOCAL_MACHINE\Software\\**WOW6432Node**\Microsoft hive. This is because it's possible for users to use either 32-bit or 64-bit versions of Office on the computer.
+>
+>If the Installer is targeting the current user, it does not need to install to the WOW6432Node because the HKEY_CURRENT_USER\Software path is shared.
 >
 >For more information please see [32-bit and 64-bit Application Data in the Registry](https://docs.microsoft.com/windows/win32/sysinfo/32-bit-and-64-bit-application-data-in-the-registry)
 
