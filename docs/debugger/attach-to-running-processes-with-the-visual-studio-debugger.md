@@ -153,18 +153,28 @@ You can attach the Visual Studio debugger to a Linux .NET Core Docker container 
 **To attach to a Linux Docker container:**
 
 1. In Visual Studio, select **Debug > Attach to Process (CTRL+ALT+P)** to open the **Attach to Process** dialog box.
+
+![Attach to Process Menu](../debugger/media/attach-process-menu.png "Attach_To_Process_Menu")
+
 2. Set the **Connection type** to **Docker (Linux Container)**.
 3. Select **Find...** to set the **Connection Type** via the **Select Docker Container** dialog.
 
     **To set the type to a local machine:**
     1. Set **Docker CLI host** to **Local Machine**.
     1. Select a running container to attach to from the list and hit **OK**.
+    
+    ![Select Docker Container Menu](../debugger/media/select-docker-container.png "Select_Docker_Container_Menu")
         
     **To set the type to a remote machine:**
     1. Select **Add...** to connect to a remote system using SSH. To connect to a remote, running container via a Docker daemon, specify the daemon (i.e. via TCP, IP, etc.) under **Docker host (Optional)**.
+    
+    ![Connect to a Remote System](../debugger/media/connect-remote-system.png "Connect to a Remote System")
+    
     1. Select a running container to attach to after connecting to the SSH or daemon successfully and hit **OK**.
 
 4. Choose the corresponding container process from the list of **Available processes** and select **Attach** to start debugging your C# container in Visual Studio!
+
+![Completed Docker Attach Menu](../debugger/media/docker-attach-complete.png "Completed Docker Attach Menu")
 
 ## <a name="BKMK_reattach"></a> Reattach to a process
 
