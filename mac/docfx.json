@@ -78,7 +78,7 @@
       ],
       "breadcrumb_path": "~/_breadcrumb/toc.yml",
       "extendBreadcrumb": true,
-      "manager": "crdun",
+      "manager": "dominicn",
       "titleSuffix": "Visual Studio 2019 for Mac",
       "ms.topic": "conceptual",
       "audience": "developer",

@@ -2,7 +2,7 @@
 title: "Using VoiceOver with Visual Studio for Mac"
 description: "Using macOS VoiceOver navigation with Visual Studio for Mac"
 author: alanjclark
-ms.author: alcl
+ms.author: dominicn
 ms.date: 09/23/2019
 ms.assetid: 590C325D-AAD0-4889-B1DB-A1090BBFBE89
 ---
