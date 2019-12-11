@@ -49,7 +49,7 @@ After you have created a visualizer, you must install the visualizer so that it 
 4. Restart the debugging session.
 
 > [!NOTE]
-> The procedure is different in Visual Studio 2017 and older. See the [previous version](how-to-install-a-visualizer?view=vs-2017) of this article.
+> The procedure is different in Visual Studio 2017 and older. See the [previous version](how-to-install-a-visualizer.md?view=vs-2017) of this article.
 ::: moniker-end
 
 ::: moniker range="vs-2017"
