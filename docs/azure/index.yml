@@ -37,6 +37,8 @@ landingContent:
           url: /azure/logic-apps/quickstart-create-logic-apps-with-visual-studio
         - text: Process events with Azure Functions
           url: /azure/azure-functions/functions-create-your-first-function-visual-studio
+    - linkListType: overview
+      links:
         - text: Azure SDK for .NET and .NET Core Developers
           url: /dotnet/azure
 
