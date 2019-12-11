@@ -2,7 +2,6 @@
 title: "IActiveScript::GetCurrentScriptThreadID | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Retrieves a scripting-engine-defined identifier for the currently executing thre
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetCurrentScriptThreadID(  
     SCRIPTTHREADID *pstidThread  // receives scripting thread identifier  
 );  
@@ -40,5 +39,5 @@ HRESULT GetCurrentScriptThreadID(
 ## Remarks  
  This method can be called from non-base threads without resulting in a non-base callout to host objects or to the [IActiveScriptSite](../../winscript/reference/iactivescriptsite.md) interface.  
   
-## See Also  
+## See also  
  [IActiveScript](../../winscript/reference/iactivescript.md)

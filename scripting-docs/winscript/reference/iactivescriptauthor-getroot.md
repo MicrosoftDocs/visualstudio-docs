@@ -2,7 +2,6 @@
 title: "IActiveScriptAuthor::GetRoot | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Returns the `IScriptNode` root of the author's script tree.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetRoot(  
    IScriptNode        **ppsp  
 );  
@@ -43,6 +42,6 @@ HRESULT GetRoot(
   
 ## Remarks  
   
-## See Also  
+## See also  
  [IActiveScriptAuthor Interface](../../winscript/reference/iactivescriptauthor-interface.md)   
  [IScriptNode Interface](../../winscript/reference/iscriptnode-interface.md)

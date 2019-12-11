@@ -2,7 +2,6 @@
 title: "IJsDebugDataTarget::ReadBSTR Method | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -22,7 +21,7 @@ Reads a BSTR from the debug target.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT ReadBSTR(  
    UINT64 address,  
    BSTR *pString  
@@ -44,5 +43,5 @@ HRESULT ReadBSTR(
 ## Requirements  
  **Header:** jscript9diag.h  
   
-## See Also  
+## See also  
  [IJsDebugDataTarget Interface](../../winscript/reference/ijsdebugdatatarget-interface.md)

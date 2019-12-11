@@ -2,7 +2,6 @@
 title: "IRemoteDebugApplication::QueryAlive | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Indicates if the application is responsive.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT QueryAlive();  
 ```  
   
@@ -43,5 +42,5 @@ HRESULT QueryAlive();
   
  If the application process terminates unexpectedly, COM returns an error from the marshalling proxy for calls to this method.  
   
-## See Also  
+## See also  
  [IRemoteDebugApplication Interface](../../winscript/reference/iremotedebugapplication-interface.md)

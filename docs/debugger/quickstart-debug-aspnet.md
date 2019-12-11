@@ -1,46 +1,44 @@
 ---
-title: "Debug ASP.NET - Visual Studio | Microsoft Docs"
-ms.custom: ""
-ms.date: "12/06/2017"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "quickstart"
-helpviewer_keywords: 
+title: "Debug ASP.NET"
+description: "Debug ASP.NET using the Visual Studio debugger"
+ms.custom: "mvc"
+ms.date: 08/06/2018
+ms.topic: quickstart
+helpviewer_keywords:
   - "debugger"
 ms.assetid: f4cea2e1-08dc-47ac-aba2-3b8c338e607f
-caps.latest.revision: 1
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: ghogen
-ms.workload: 
+author: mikejo5000
+ms.author: mikejo
+manager: jillfra
+ms.workload:
   - "aspnet"
 ---
-# Debug ASP.NET with the Visual Studio debugger
+# Quickstart: Debug ASP.NET with the Visual Studio debugger
 
 The Visual Studio debugger provides many powerful features to help you debug your apps. This topic provides a quick way to learn some of the basic features.
 
-## Create a new project 
+## Create a new project
 
-1. In Visual Studio, choose **File > New Project**.
+1. Open Visual Studio.
 
-1. Under **Visual C#**, choose **Web**, and then in the middle pane choose **ASP.NET Core Web Application**.
+    ::: moniker range=">=vs-2019"
+    Press **Esc** to close the start window. Type **Ctrl + Q** to open the search box, type **asp.net**, choose **Templates**, then choose **Create new ASP.NET Core Web Application**. In the dialog box that appears, choose **Create**.
+    ::: moniker-end
+    ::: moniker range="vs-2017"
+    From the top menu bar, choose **File** > **New** > **Project**. In the left pane of the **New project** dialog box, under **Visual C#**, choose **Web**, and then in the middle pane choose **ASP.NET Core Web Application**. Type a name like **MyDbgApp** and click **OK**.
 
-1. Type a name like **MyDbgApp** and click **OK**.
-
-1. In the dialog box that appears, choose **Web Application** in the middle pane, and then click **OK**.
-
-     If you don't see the **Web Application** project template, click the **Open Visual Studio Installer** link in the left pane of the **New Project** dialog box. The Visual Studio Installer launches. Choose the **ASP.NET** and **.NET Core** workload, then choose **Modify**.
+    In the dialog box that appears, choose **Web Application** in the middle pane, and then click **OK**.
 
     ![Choose a Web application](../debugger/media/dbg-qs-aspnet-choose-web-app.png)
+    ::: moniker-end
+
+    If you don't see the **ASP.NET Core Web Application** project template, go to **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer. Choose the **ASP.NET and web development** workload, then choose **Modify**.
 
     Visual Studio creates the project.
 
 1. In Solution Explorer, open About.cshtml.cs (under Pages/About.cshtml) and replace the following code
 
-    ```c#
+    ```csharp
     public void OnGet()
     {
         Message = "Your application description page.";
@@ -49,7 +47,7 @@ The Visual Studio debugger provides many powerful features to help you debug you
 
     with this code:
 
-    ```c#
+    ```csharp
     public void OnGet()
     {
         LinkedList<int> result = doWork();
@@ -89,19 +87,19 @@ A *breakpoint* is a marker that indicates where Visual Studio should suspend you
     ![Hit a breakpoint](../debugger/media/dbg-qs-hit-breakpoint-aspnet.png)
 
     > [!TIP]
-    > If you have a breakpoint in a loop or recursion, or if you have a lot of breakpoints which you frequently step through, use a [conditional breakpoint](../debugger/using-breakpoints.md#BKMK_Specify_a_breakpoint_condition_using_a_code_expression) to make sure that your code is suspended ONLY when specific conditions are met. This saves time and can also make it easier to debug issues that are hard to reproduce.
+    > If you have a breakpoint in a loop or recursion, or if you have many breakpoints that you frequently step through, use a [conditional breakpoint](../debugger/using-breakpoints.md#BKMK_Specify_a_breakpoint_condition_using_a_code_expression) to make sure that your code is suspended ONLY when specific conditions are met. This saves time and can also make it easier to debug issues that are hard to reproduce.
 
 ## Navigate code
 
-There are different commands to instruct the debugger to continue. We will show a useful code navigation command that is new in Visual Studio 2017.
+There are different commands to instruct the debugger to continue. We show a useful code navigation command that is available starting in Visual Studio 2017.
 
-- While paused at the breakpoint, hover over the statement `return c2` until the green **Run to click** button ![Run to Click](../debugger/media/dbg-tour-run-to-click.png) appears, and then press the **Run to click** button.
+While paused at the breakpoint, hover over the statement `return c2` until the green **Run to click** button ![Run to Click](../debugger/media/dbg-tour-run-to-click.png) appears, and then press the **Run to click** button.
 
-    ![Run to click](../debugger/media/dbg-qs-run-to-click-aspnet.png)
+![Run to click](../debugger/media/dbg-qs-run-to-click-aspnet.png)
 
-    The app continues execution, and pauses on the line of code where you clicked the button.
+The app continues execution, and pauses on the line of code where you clicked the button.
 
-    Common keyboard commands used to step through code include **F10** and **F11**. For more in-depth instructions, see the [Beginner's Guide](../debugger/getting-started-with-the-debugger.md).
+Common keyboard commands used to step through code include **F10** and **F11**. For more in-depth instructions, see [First look at the debugger](../debugger/debugger-feature-tour.md).
 
 ## Inspect variables in a datatip
 
@@ -109,7 +107,7 @@ There are different commands to instruct the debugger to continue. We will show 
 
     ![View a datatip](../debugger/media/dbg-qs-data-tip-aspnet.png)
 
-    The datatip shows you the current value of the `c2` variable and allows you to inspect its properties. When debugging, if you see a value you don't expect, you probably have a bug in the preceding or calling lines of code. 
+    The datatip shows you the current value of the `c2` variable and allows you to inspect its properties. When debugging, if you see a value you don't expect, you probably have a bug in the preceding or calling lines of code.
 
 2. Expand the datatip to look at the current property values of the `c2` object.
 
@@ -131,9 +129,7 @@ For more information on using edit-and-continue and on feature limitations, see 
 
 ## Next steps
 
-- To learn more about the debugger, see [Start the debugger and navigate code](../debugger/getting-started-with-the-debugger.md).
-- To find out more about breakpoints, see [Using breakpoints](../debugger/using-breakpoints.md).
+In this tutorial, you've learned how to start the debugger, step through code, and inspect variables. You may want to get a high-level look at debugger features along with links to more information.
 
-## See Also  
- [Debugging in Visual Studio](../debugger/index.md)  
- [Debugger Feature Tour](../debugger/debugger-feature-tour.md)
+> [!div class="nextstepaction"]
+> [First look at the debugger](../debugger/debugger-feature-tour.md)

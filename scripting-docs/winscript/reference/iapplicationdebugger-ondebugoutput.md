@@ -2,7 +2,6 @@
 title: "IApplicationDebugger::onDebugOutput | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Handles a debug output event.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT onDebugOutput(  
    LPCOLESTR  pstr  
 );  
@@ -46,6 +45,6 @@ HRESULT onDebugOutput(
   
  This method is called when `IDebugApplication::DebugOutput` is called.  
   
-## See Also  
+## See also  
  [IApplicationDebugger Interface](../../winscript/reference/iapplicationdebugger-interface.md)   
  [IDebugApplication::DebugOutput](../../winscript/reference/idebugapplication-debugoutput.md)

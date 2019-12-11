@@ -2,7 +2,6 @@
 title: "IDebugApplication::FCanJitDebug | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Determines if a just-in-time (JIT) debugger is registered.
   
 ## Syntax  
   
-```  
+```cpp
 BOOL FCanJitDebug();  
 ```  
   
@@ -37,5 +36,5 @@ BOOL FCanJitDebug();
 ## Remarks  
  This method determines if a JIT debugger is registered.  
   
-## See Also  
+## See also  
  [IDebugApplication Interface](../../winscript/reference/idebugapplication-interface.md)

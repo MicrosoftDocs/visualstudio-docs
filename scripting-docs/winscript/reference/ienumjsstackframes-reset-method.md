@@ -2,7 +2,6 @@
 title: "IEnumJsStackFrames::Reset Method | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -22,7 +21,7 @@ Resets the stack frame to the position before the first element.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT Reset(void);  
 ```  
   
@@ -31,5 +30,5 @@ HRESULT Reset(void);
 ## Requirements  
  **Header:** jscript9diag.h  
   
-## See Also  
+## See also  
  [IEnumJsStackFrames Interface](../../winscript/reference/ienumjsstackframes-interface.md)

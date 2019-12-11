@@ -2,7 +2,6 @@
 title: "IJsDebugDataTarget::CreateStackFrameEnumerator Method | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -22,7 +21,7 @@ Creates an enumerator for stack frames.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT CreateStackFrameEnumerator(  
    DWORD threadId,  
    IEnumJsStackFrames **ppEnumerator  
@@ -41,5 +40,5 @@ HRESULT CreateStackFrameEnumerator(
 ## Requirements  
  **Header:** jscript9diag.h  
   
-## See Also  
+## See also  
  [IJsDebugDataTarget Interface](../../winscript/reference/ijsdebugdatatarget-interface.md)

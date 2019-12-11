@@ -2,7 +2,6 @@
 title: "IDebugDocumentText::GetContextOfPosition | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Creates a document context object corresponding to the provided character positi
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetContextOfPosition(  
    ULONG                    cCharacterPosition,  
    ULONG                    cNumChars,  
@@ -52,5 +51,5 @@ HRESULT GetContextOfPosition(
 ## Remarks  
  This method creates a document context object corresponding to the provided character position range.  
   
-## See Also  
+## See also  
  [IDebugDocumentText Interface](../../winscript/reference/idebugdocumenttext-interface.md)

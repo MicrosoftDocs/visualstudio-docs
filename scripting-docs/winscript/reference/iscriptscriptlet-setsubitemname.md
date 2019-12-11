@@ -2,7 +2,6 @@
 title: "IScriptScriptlet::SetSubItemName | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Sets the last identifier in the fully qualified name of a scriptlet's object hos
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT SetSubItemName(  
    LPCOLESTR          psz  
 );  
@@ -45,5 +44,5 @@ HRESULT SetSubItemName(
   
 ## Remarks  
   
-## See Also  
+## See also  
  [IScriptScriptlet Interface](../../winscript/reference/iscriptscriptlet-interface.md)

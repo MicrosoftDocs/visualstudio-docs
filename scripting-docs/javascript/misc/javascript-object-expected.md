@@ -1,14 +1,9 @@
 ---
 title: "JavaScript object expected | Microsoft Docs"
-ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-client-threshold"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "javascript"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-windows
+ms.technology: vs-javascript
+ms.topic: reference
 f1_keywords: 
   - "VS.WebClient.Help.SCRIPT5014"
 dev_langs: 
@@ -16,7 +11,6 @@ dev_langs:
   - "TypeScript"
   - "DHTML"
 ms.assetid: cc7cc32b-e444-4afa-9be1-802c83fdf5ae
-caps.latest.revision: 7
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
@@ -26,8 +20,8 @@ You attempted to pass a non-[!INCLUDE[javascript](../../javascript/includes/java
   
 ### To correct this error  
   
--   Ensure that the object you are passing in as a parameter is of the correct type.  
+- Ensure that the object you are passing in as a parameter is of the correct type.  
   
-## See Also  
+## See also  
  [Objects and Arrays](../../javascript/objects-and-arrays-javascript.md)   
  [Using Arrays](../../javascript/advanced/using-arrays-javascript.md)

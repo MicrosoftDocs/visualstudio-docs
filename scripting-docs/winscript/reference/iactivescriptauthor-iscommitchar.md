@@ -2,7 +2,6 @@
 title: "IActiveScriptAuthor::IsCommitChar | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Returns a value that indicates whether a given character should trigger a statem
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT IsCommitChar(  
    OLECHAR    ch,  
    BOOL       *pfcommit  
@@ -47,5 +46,5 @@ HRESULT IsCommitChar(
   
 ## Remarks  
   
-## See Also  
+## See also  
  [IActiveScriptAuthor Interface](../../winscript/reference/iactivescriptauthor-interface.md)

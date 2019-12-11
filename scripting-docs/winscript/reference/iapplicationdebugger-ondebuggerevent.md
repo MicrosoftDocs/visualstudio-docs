@@ -2,7 +2,6 @@
 title: "IApplicationDebugger::onDebuggerEvent | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Handles a custom application event.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT onDebuggerEvent(  
    REFIID     riid,  
    IUnknown*  punk  
@@ -53,6 +52,6 @@ HRESULT onDebuggerEvent(
   
  This method is called when `IDebugApplication::FireDebuggerEvent` is called.  
   
-## See Also  
+## See also  
  [IApplicationDebugger Interface](../../winscript/reference/iapplicationdebugger-interface.md)   
  [IDebugApplication::FireDebuggerEvent](../../winscript/reference/idebugapplication-firedebuggerevent.md)

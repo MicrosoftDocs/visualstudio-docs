@@ -1,10 +1,10 @@
 ---
 title: "User Accounts"
-description: 
-author: asb3993
-ms.author: amburns
-ms.date: 04/14/2017
-ms.topic: article
+description: "Information about signing in to Visual Studio for Mac and enabling subscriptions in Visual Studio for Mac"
+ms.topic: overview
+author: heiligerdankgesang
+ms.author: dominicn
+ms.date: 09/18/2019
 ms.assetid: 17AB4F31-4921-4B4E-8D9D-95FB84294521
 ---
 
@@ -16,5 +16,5 @@ By signing-in, you enable access to all the services associated with your user a
 
 ## In this section
 
-* [Signing in to Visual Studio](signing-in.md)
-* [Enable Subscription](activation.md)
+* [Signing in to Visual Studio for Mac](signing-in.md)
+* [Enable Subscription](enable-subscription.md)

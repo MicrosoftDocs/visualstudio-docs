@@ -2,7 +2,6 @@
 title: "IActiveScriptStats::ResetStats | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Resets the statistics for this script.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT ResetStats();  
 ```  
   
@@ -41,5 +40,5 @@ HRESULT ResetStats();
 ## Remarks  
  This method resets the statistics for this script.  
   
-## See Also  
+## See also  
  [IActiveScriptStats Interface](../../winscript/reference/iactivescriptstats-interface.md)

@@ -2,7 +2,6 @@
 title: "IDebugCodeContext::SetBreakPoint | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Sets or clears a breakpoint at this code context.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT SetBreakPoint(  
    BREAKPOINT_STATE  bps  
 );  
@@ -44,6 +43,6 @@ HRESULT SetBreakPoint(
 ## Remarks  
  This method sets or clears a breakpoint at this code context.  
   
-## See Also  
+## See also  
  [IDebugCodeContext Interface](../../winscript/reference/idebugcodecontext-interface.md)   
  [BREAKPOINT_STATE Enumeration](../../winscript/reference/breakpoint-state-enumeration.md)

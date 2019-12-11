@@ -2,7 +2,6 @@
 title: "IDispatchEx::DeleteMemberByDispID | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Deletes a member by DISPID.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT DeleteMemberByDispID(  
     DISPID id  
 );  
@@ -49,7 +48,7 @@ HRESULT DeleteMemberByDispID(
   
 ## Example  
   
-```  
+```cpp
 BSTR bstrName;  
 DISPID dispid;  
 IDispatchEx *pdex;   
@@ -59,7 +58,7 @@ if (SUCCEEDED(pdex->GetDispID(bstrName, fdexNameCaseSensitive, &dispid)))
     pdex->DeleteMemberByDispID(dispid);  
 ```  
   
-## See Also  
+## See also  
  [IDispatchEx Interface](../../winscript/reference/idispatchex-interface.md)   
  [IDispatchEx::GetDispID](../../winscript/reference/idispatchex-getdispid.md)   
  [IDispatchEx::GetNextDispID](../../winscript/reference/idispatchex-getnextdispid.md)

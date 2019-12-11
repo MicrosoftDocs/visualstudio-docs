@@ -2,7 +2,6 @@
 title: "IActiveScriptProperty | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -25,5 +24,5 @@ The `IActiveScriptProperty` interface is used to get and set configuration prope
 |[GetProperty](../../winscript/reference/iactivescriptproperty-getproperty.md)|Gets the property that is specified by the parameter.|  
 |[SetProperty](../../winscript/reference/iactivescriptproperty-setproperty.md)|Sets the property that is specified by the parameter.|  
   
-## See Also  
+## See also  
  [Active Script Interfaces](../../winscript/reference/active-script-interfaces.md)

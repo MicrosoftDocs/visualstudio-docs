@@ -2,7 +2,6 @@
 title: "IDebugSyncOperation::Execute | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Synchronously performs the operation and returns.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT Execute(  
    IUnknown**  ppunkResult  
 );  
@@ -45,5 +44,5 @@ HRESULT Execute(
 ## Remarks  
  The Process Debug Manager in the target thread calls the `Execute` method synchronously.  
   
-## See Also  
+## See also  
  [IDebugSyncOperation Interface](../../winscript/reference/idebugsyncoperation-interface.md)

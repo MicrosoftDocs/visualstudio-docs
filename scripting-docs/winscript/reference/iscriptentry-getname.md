@@ -2,7 +2,6 @@
 title: "IScriptEntry::GetName | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ For entries that represent a single object (such as a function), returns the nam
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetName(  
    BSTR               *pbstr  
 );  
@@ -45,6 +44,6 @@ HRESULT GetName(
   
 ## Remarks  
   
-## See Also  
+## See also  
  [IScriptEntry Interface](../../winscript/reference/iscriptentry-interface.md)   
  [IScriptNode:: CreateChildEntry](../../winscript/reference/iscriptnode-createchildentry.md)

@@ -1,0 +1,74 @@
+### YamlMime:Landing
+
+title: Migrate from legacy analysis (FxCop) to source analysis (FxCop analyzers)
+summary: Learn how to analyze code for the first time or how to migrate from binary analysis (FxCop) to the new way of analyzing managed code using source analysis (FxCop analyzers).
+
+metadata:
+  title: FxCop migration documentation
+  description: Learn how to move from legacy binary analysis (FxCop) to source analysis (FxCop analyzers) when you analyze code.
+  ms.prod: visual-studio-dev16
+  ms.technology: vs-ide-code-analysis
+  ms.topic: landing-page
+  f1_keywords:
+    - "vs.projectpropertypages.codeanalysis"
+  author: jillre
+  ms.author: jillfra
+  manager: jillfra
+  ms.date: 09/24/2019
+
+# linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
+
+landingContent:
+  # Card
+  - title: Introduction to code analysis
+    linkLists:
+      - linkListType: overview
+        links:
+          - text: Overview of code analyzers
+            url: roslyn-analyzers-overview.md
+      - linkListType: download
+        links:
+          - text: Install code analyzers
+            url: install-roslyn-analyzers.md
+      - linkListType: how-to-guide
+        links:
+          - text: Set rule severity and suppress errors
+            url: use-roslyn-analyzers.md
+          - text: Command-line usage
+            url: use-roslyn-analyzers.md#command-line-usage
+
+  # Card
+  - title: Migrate off legacy analysis
+    linkLists:
+      - linkListType: overview
+        links:
+          - text: What's different
+            url: roslyn-analyzers-overview.md#source-code-analysis-versus-legacy-analysis
+      - linkListType: get-started
+        links:
+          - text: FAQ about FxCop analyzers
+            url: fxcop-analyzers-faq.md
+      - linkListType: download
+        links:
+          - text: Install FxCop analyzers
+            url: install-fxcop-analyzers.md
+      - linkListType: how-to-guide
+        links:
+          - text: Configure FxCop analyzers
+            url: configure-fxcop-analyzers.md
+          - text: Use predefined rule sets
+            url: analyzer-rule-sets.md
+      - linkListType: reference
+        links:
+          - text: Ported and unported rules
+            url: fxcop-rule-port-status.md
+
+  # Card
+  - title: Other types of code analysis
+    linkLists:
+      - linkListType: overview
+        links:
+          - text: C++ code analysis
+            url: code-analysis-for-c-cpp-overview.md
+          - text: Code metrics
+            url: code-metrics-values.md

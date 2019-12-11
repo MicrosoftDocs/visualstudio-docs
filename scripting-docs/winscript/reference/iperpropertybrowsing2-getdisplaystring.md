@@ -2,7 +2,6 @@
 title: "IPerPropertyBrowsing2::GetDisplayString | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,10 +23,10 @@ Gets a string to display types which are not inherently viewable The returned te
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetDisplayString(  
-   DISPID  dispid,  
-   BSTR*  pBstr  
+   DISPID  dispid,  
+   BSTR*  pBstr  
 );  
 ```  
   
@@ -44,5 +43,5 @@ HRESULT GetDisplayString(
 ## Remarks  
  The returned string is not a legal value of the property. It is just a string display of the property.  
   
-## See Also  
+## See also  
  [IPerPropertyBrowsing2 Interface 1](../../winscript/reference/iperpropertybrowsing2-interface-1.md)

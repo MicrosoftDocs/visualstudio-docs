@@ -2,7 +2,6 @@
 title: "IScriptNode::GetLanguage | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Returns the scripting language that is used by the current script node.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetLanguage(  
    BSTR               *pbstr  
 );  
@@ -43,5 +42,5 @@ HRESULT GetLanguage(
   
 ## Remarks  
   
-## See Also  
+## See also  
  [IScriptNode Interface](../../winscript/reference/iscriptnode-interface.md)

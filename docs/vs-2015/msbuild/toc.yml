@@ -1,0 +1,461 @@
+- name: MSBuild
+# Auto-expanded node
+  items:
+  - name: MSBuild
+    href: msbuild.md
+  - name: What's New in MSBuild 12.0
+    href: what-s-new-in-msbuild-12-0.md
+  - name: MSBuild Concepts
+# Auto-expanded node
+    items:
+    - name: MSBuild Concepts
+      href: msbuild-concepts.md
+    - name: Properties
+# Auto-expanded node
+      items:
+      - name: Properties
+        href: msbuild-properties1.md
+      - name: Use Environment Variables in a Build
+        href: how-to-use-environment-variables-in-a-build.md
+      - name: Reference the Name or Location of the Project File
+        href: how-to-reference-the-name-or-location-of-the-project-file.md
+      - name: Build the Same Source Files with Different Options
+        href: how-to-build-the-same-source-files-with-different-options.md
+      - name: Property Functions
+        href: property-functions.md
+    - name: Items
+# Auto-expanded node
+      items:
+      - name: Items
+        href: msbuild-items.md
+      - name: Select the Files to Build
+        href: how-to-select-the-files-to-build.md
+      - name: Exclude Files from the Build
+        href: how-to-exclude-files-from-the-build.md
+      - name: Display an Item List Separated with Commas
+        href: how-to-display-an-item-list-separated-with-commas.md
+      - name: Item Definitions
+        href: item-definitions.md
+      - name: Item Functions
+        href: item-functions.md
+      - name: File Tracking
+# Auto-expanded node
+        items:
+        - name: File Tracking
+          href: file-tracking.md
+        - name: EndTrackingContext
+          href: endtrackingcontext.md
+        - name: ResumeTracking
+          href: resumetracking.md
+        - name: SetThreadCount
+          href: setthreadcount.md
+        - name: StartTrackingContext
+          href: starttrackingcontext.md
+        - name: StartTrackingContextWithRoot
+          href: starttrackingcontextwithroot.md
+        - name: StopTrackingAndCleanup
+          href: stoptrackingandcleanup.md
+        - name: SuspendTracking
+          href: suspendtracking.md
+        - name: WriteAllTLogs
+          href: writealltlogs.md
+        - name: WriteContextTLogs
+          href: writecontexttlogs.md
+    - name: Targets
+# Auto-expanded node
+      items:
+      - name: Targets
+        href: msbuild-targets.md
+      - name: Target Build Order
+        href: target-build-order.md
+      - name: Incremental Builds
+        href: incremental-builds.md
+      - name: Specify Which Target to Build First
+        href: how-to-specify-which-target-to-build-first.md
+      - name: Use the Same Target in Multiple Project Files
+        href: how-to-use-the-same-target-in-multiple-project-files.md
+      - name: Build Specific Targets in Solutions By Using MSBuild.exe
+        href: how-to-build-specific-targets-in-solutions-by-using-msbuild-exe.md
+      - name: Build Incrementally
+        href: how-to-build-incrementally.md
+      - name: Clean a Build
+        href: how-to-clean-a-build.md
+    - name: Tasks
+# Auto-expanded node
+      items:
+      - name: Tasks
+        href: msbuild-tasks.md
+      - name: Task Writing
+        href: task-writing.md
+      - name: Ignore Errors in Tasks
+        href: how-to-ignore-errors-in-tasks.md
+      - name: Build a Project That Has Resources
+        href: how-to-build-a-project-that-has-resources.md
+      - name: Inline Tasks
+# Auto-expanded node
+        items:
+        - name: Inline Tasks
+          href: msbuild-inline-tasks.md
+        - name: Creating an Inline Task
+          href: walkthrough-creating-an-inline-task.md
+    - name: Comparing Properties and Items
+      href: comparing-properties-and-items.md
+    - name: MSBuild Special Characters
+# Auto-expanded node
+      items:
+      - name: MSBuild Special Characters
+        href: msbuild-special-characters.md
+      - name: Escape Special Characters in MSBuild
+        href: how-to-escape-special-characters-in-msbuild.md
+      - name: Use Reserved XML Characters in Project Files
+        href: how-to-use-reserved-xml-characters-in-project-files.md
+  - name: Advanced Concepts
+# Auto-expanded node
+    items:
+    - name: Advanced Concepts
+      href: msbuild-advanced-concepts.md
+    - name: Batching
+# Auto-expanded node
+      items:
+      - name: Batching
+        href: msbuild-batching.md
+      - name: Item Metadata in Task Batching
+        href: item-metadata-in-task-batching.md
+      - name: Item Metadata in Target Batching
+        href: item-metadata-in-target-batching.md
+    - name: Transforms
+      href: msbuild-transforms.md
+    - name: Visual Studio Integration
+# Auto-expanded node
+      items:
+      - name: Visual Studio Integration
+        href: visual-studio-integration-msbuild.md
+      - name: Extend the Visual Studio Build Process
+        href: how-to-extend-the-visual-studio-build-process.md
+      - name: Starting a Build from within the IDE
+        href: starting-a-build-from-within-the-ide.md
+      - name: Registering Extensions of the .NET Framework
+        href: registering-extensions-of-the-dotnet-framework.md
+    - name: Building Multiple Projects in Parallel
+# Auto-expanded node
+      items:
+      - name: Building Multiple Projects in Parallel
+        href: building-multiple-projects-in-parallel-with-msbuild.md
+      - name: Using Multiple Processors to Build Projects
+        href: using-multiple-processors-to-build-projects.md
+      - name: Using Memory Efficiently When You Build Large Projects
+        href: using-memory-efficiently-when-you-build-large-projects.md
+    - name: Multitargeting
+# Auto-expanded node
+      items:
+      - name: Multitargeting
+        href: msbuild-multitargeting-overview.md
+      - name: Toolset (ToolsVersion)
+# Auto-expanded node
+        items:
+        - name: Toolset (ToolsVersion)
+          href: msbuild-toolset-toolsversion.md
+        - name: Standard and Custom Toolset Configurations
+          href: standard-and-custom-toolset-configurations.md
+        - name: Overriding ToolsVersion Settings
+          href: overriding-toolsversion-settings.md
+      - name: Target Framework and Target Platform
+        href: msbuild-target-framework-and-target-platform.md
+      - name: Resolving Assemblies at Design Time
+        href: resolving-assemblies-at-design-time.md
+      - name: Configuring Targets and Tasks
+# Auto-expanded node
+        items:
+        - name: Configuring Targets and Tasks
+          href: configuring-targets-and-tasks.md
+        - name: Configure Targets and Tasks
+          href: how-to-configure-targets-and-tasks.md
+      - name: Troubleshooting .NET Framework Targeting Errors
+        href: troubleshooting-dotnet-framework-targeting-errors.md
+    - name: Best Practices
+      href: msbuild-best-practices.md
+  - name: Logging in MSBuild
+# Auto-expanded node
+    items:
+    - name: Logging in MSBuild
+      href: logging-in-msbuild.md
+    - name: Obtaining Build Logs
+      href: obtaining-build-logs-with-msbuild.md
+    - name: Build Loggers
+      href: build-loggers.md
+    - name: Logging in a Multi-Processor Environment
+      href: logging-in-a-multi-processor-environment.md
+    - name: Writing Multi-Processor-Aware Loggers
+      href: writing-multi-processor-aware-loggers.md
+    - name: Creating Forwarding Loggers
+      href: creating-forwarding-loggers.md
+  - name: Using MSBuild
+    href: walkthrough-using-msbuild.md
+  - name: Creating an MSBuild Project File from Scratch
+    href: walkthrough-creating-an-msbuild-project-file-from-scratch.md
+  - name: MSBuild Reference
+# Auto-expanded node
+    items:
+    - name: MSBuild Reference
+      href: msbuild-reference.md
+    - name: Project File Schema Reference
+# Auto-expanded node
+      items:
+      - name: Project File Schema Reference
+        href: msbuild-project-file-schema-reference.md
+      - name: Choose Element (MSBuild)
+        href: choose-element-msbuild.md
+      - name: Import Element (MSBuild)
+        href: import-element-msbuild.md
+      - name: ImportGroup Element
+        href: importgroup-element.md
+      - name: Item Element (MSBuild)
+        href: item-element-msbuild.md
+      - name: ItemDefinitionGroup Element (MSBuild)
+        href: itemdefinitiongroup-element-msbuild.md
+      - name: ItemGroup Element (MSBuild)
+        href: itemgroup-element-msbuild.md
+      - name: ItemMetadata Element (MSBuild)
+        href: itemmetadata-element-msbuild.md
+      - name: OnError Element (MSBuild)
+        href: onerror-element-msbuild.md
+      - name: Otherwise Element (MSBuild)
+        href: otherwise-element-msbuild.md
+      - name: Output Element (MSBuild)
+        href: output-element-msbuild.md
+      - name: Parameter Element
+        href: parameter-element.md
+      - name: ParameterGroup Element
+        href: parametergroup-element.md
+      - name: Project Element (MSBuild)
+        href: project-element-msbuild.md
+      - name: ProjectExtensions Element (MSBuild)
+        href: projectextensions-element-msbuild.md
+      - name: Property Element (MSBuild)
+        href: property-element-msbuild.md
+      - name: PropertyGroup Element (MSBuild)
+        href: propertygroup-element-msbuild.md
+      - name: Target Element (MSBuild)
+        href: target-element-msbuild.md
+      - name: Task Element (MSBuild)
+        href: task-element-msbuild.md
+      - name: TaskBody Element (MSBuild)
+        href: taskbody-element-msbuild.md
+      - name: UsingTask Element (MSBuild)
+        href: usingtask-element-msbuild.md
+      - name: When Element (MSBuild)
+        href: when-element-msbuild.md
+    - name: Task Reference
+# Auto-expanded node
+      items:
+      - name: Task Reference
+        href: msbuild-task-reference.md
+      - name: Visual C++ Tasks
+# Auto-expanded node
+        items:
+        - name: Visual C++ Tasks
+          href: msbuild-tasks-specific-to-visual-cpp.md
+        - name: BscMake Task
+          href: bscmake-task.md
+        - name: CL Task
+          href: cl-task.md
+        - name: CPPClean Task
+          href: cppclean-task.md
+        - name: LIB Task
+          href: lib-task.md
+        - name: Link Task
+          href: link-task.md
+        - name: MIDL Task
+          href: midl-task.md
+        - name: MT Task
+          href: mt-task.md
+        - name: RC Task
+          href: rc-task.md
+        - name: SetEnv Task
+          href: setenv-task.md
+        - name: VCMessage Task
+          href: vcmessage-task.md
+        - name: XDCMake Task
+          href: xdcmake-task.md
+        - name: XSD Task
+          href: xsd-task.md
+      - name: Task Base Class
+        href: task-base-class.md
+      - name: TaskExtension Base Class
+        href: taskextension-base-class.md
+      - name: ToolTaskExtension Base Class
+        href: tooltaskextension-base-class.md
+      - name: AL (Assembly Linker) Task
+        href: al-assembly-linker-task.md
+      - name: AspNetCompiler Task
+        href: aspnetcompiler-task.md
+      - name: AssignCulture Task
+        href: assignculture-task.md
+      - name: AssignProjectConfiguration Task
+        href: assignprojectconfiguration-task.md
+      - name: AssignTargetPath Task
+        href: assigntargetpath-task.md
+      - name: CallTarget Task
+        href: calltarget-task.md
+      - name: CombinePath Task
+        href: combinepath-task.md
+      - name: ConvertToAbsolutePath Task
+        href: converttoabsolutepath-task.md
+      - name: Copy Task
+        href: copy-task.md
+      - name: CreateCSharpManifestResourceName Task
+        href: createcsharpmanifestresourcename-task.md
+      - name: CreateItem Task
+        href: createitem-task.md
+      - name: CreateProperty Task
+        href: createproperty-task.md
+      - name: CreateVisualBasicManifestResourceName Task
+        href: createvisualbasicmanifestresourcename-task.md
+      - name: Csc Task
+        href: csc-task.md
+      - name: Delete Task
+        href: delete-task.md
+      - name: Error Task
+        href: error-task.md
+      - name: Exec Task
+        href: exec-task.md
+      - name: FindAppConfigFile Task
+        href: findappconfigfile-task.md
+      - name: FindInList Task
+        href: findinlist-task.md
+      - name: FindUnderPath Task
+        href: findunderpath-task.md
+      - name: FormatUrl Task
+        href: formaturl-task.md
+      - name: FormatVersion Task
+        href: formatversion-task.md
+      - name: GenerateApplicationManifest Task
+        href: generateapplicationmanifest-task.md
+      - name: GenerateBootstrapper Task
+        href: generatebootstrapper-task.md
+      - name: GenerateDeploymentManifest Task
+        href: generatedeploymentmanifest-task.md
+      - name: GenerateResource Task
+        href: generateresource-task.md
+      - name: GenerateTrustInfo Task
+        href: generatetrustinfo-task.md
+      - name: GetAssemblyIdentity Task
+        href: getassemblyidentity-task.md
+      - name: GetFrameworkPath Task
+        href: getframeworkpath-task.md
+      - name: GetFrameworkSdkPath Task
+        href: getframeworksdkpath-task.md
+      - name: GetReferenceAssemblyPaths Task
+        href: getreferenceassemblypaths-task.md
+      - name: LC Task
+        href: lc-task.md
+      - name: MakeDir Task
+        href: makedir-task.md
+      - name: Message Task
+        href: message-task.md
+      - name: Move Task
+        href: move-task.md
+      - name: MSBuild Task
+        href: msbuild-task.md
+      - name: ReadLinesFromFile Task
+        href: readlinesfromfile-task.md
+      - name: RegisterAssembly Task
+        href: registerassembly-task.md
+      - name: RemoveDir Task
+        href: removedir-task.md
+      - name: RemoveDuplicates Task
+        href: removeduplicates-task.md
+      - name: RequiresFramework35SP1Assembly Task
+        href: requiresframework35sp1assembly-task.md
+      - name: ResolveAssemblyReference Task
+        href: resolveassemblyreference-task.md
+      - name: ResolveComReference Task
+        href: resolvecomreference-task.md
+      - name: ResolveKeySource Task
+        href: resolvekeysource-task.md
+      - name: ResolveManifestFiles Task
+        href: resolvemanifestfiles-task.md
+      - name: ResolveNativeReference Task
+        href: resolvenativereference-task.md
+      - name: ResolveNonMSBuildProjectOutput Task
+        href: resolvenonmsbuildprojectoutput-task.md
+      - name: SGen Task
+        href: sgen-task.md
+      - name: SignFile Task
+        href: signfile-task.md
+      - name: Touch Task
+        href: touch-task.md
+      - name: UnregisterAssembly Task
+        href: unregisterassembly-task.md
+      - name: UpdateManifest Task
+        href: updatemanifest-task.md
+      - name: Vbc Task
+        href: vbc-task.md
+      - name: Warning Task
+        href: warning-task.md
+      - name: WriteCodeFragment Task
+        href: writecodefragment-task.md
+      - name: WriteLinesToFile Task
+        href: writelinestofile-task.md
+      - name: XmlPeek Task
+        href: xmlpeek-task.md
+      - name: XmlPoke Task
+        href: xmlpoke-task.md
+      - name: XslTransformation Task
+        href: xsltransformation-task.md
+    - name: Conditions
+      href: msbuild-conditions.md
+    - name: Conditional Constructs
+      href: msbuild-conditional-constructs.md
+    - name: Reserved and Well-Known Properties
+      href: msbuild-reserved-and-well-known-properties.md
+    - name: Common MSBuild Project Properties
+      href: common-msbuild-project-properties.md
+    - name: Common MSBuild Project Items
+      href: common-msbuild-project-items.md
+    - name: Command-Line Reference
+      href: msbuild-command-line-reference.md
+    - name: .Targets Files
+      href: msbuild-dot-targets-files.md
+    - name: Well-known Item Metadata
+      href: msbuild-well-known-item-metadata.md
+    - name: Response Files
+      href: msbuild-response-files.md
+    - name: Additional Resources
+      href: additional-resources-for-msbuild.md
+    - name: WPF MSBuild Reference
+# Auto-expanded node
+      items:
+      - name: WPF MSBuild Reference
+        href: wpf-msbuild-reference.md
+      - name: .Targets Files
+        href: wpf-dot-targets-files.md
+      - name: Task Reference
+# Auto-expanded node
+        items:
+        - name: Task Reference
+          href: wpf-msbuild-task-reference.md
+        - name: FileClassifier
+          href: fileclassifier-task.md
+        - name: GenerateTemporaryTargetAssembly
+          href: generatetemporarytargetassembly-task.md
+        - name: GetWinFXPath
+          href: getwinfxpath-task.md
+        - name: MarkupCompilePass1
+          href: markupcompilepass1-task.md
+        - name: MarkupCompilePass2
+          href: markupcompilepass2-task.md
+        - name: MergeLocalizationDirectives
+          href: mergelocalizationdirectives-task.md
+        - name: ResourcesGenerator
+          href: resourcesgenerator-task.md
+        - name: UidManager
+          href: uidmanager-task.md
+        - name: UpdateManifestForBrowserApplication
+          href: updatemanifestforbrowserapplication-task.md
+    - name: Special Characters to Escape
+      href: special-characters-to-escape.md
+  - name: Glossary
+    href: msbuild-glossary1.md
+  - name: Additional Resources
+    href: additional-msbuild-resources.md

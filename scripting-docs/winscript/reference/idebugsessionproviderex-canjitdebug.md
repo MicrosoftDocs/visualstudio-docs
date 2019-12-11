@@ -2,7 +2,6 @@
 title: "IDebugSessionProviderEx:CanJITDebug | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -22,7 +21,7 @@ Determines whether a specified process can be debugged with Just In Time debuggi
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT CanJITDebug(  
    DWORD  pid  
 );  
@@ -41,5 +40,5 @@ HRESULT CanJITDebug(
   
 ## Remarks  
   
-## See Also  
+## See also  
  [IDebugSessionProviderEx Interface](../../winscript/reference/idebugsessionproviderex-interface.md)

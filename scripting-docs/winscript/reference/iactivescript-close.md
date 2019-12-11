@@ -2,7 +2,6 @@
 title: "IActiveScript::Close | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Causes the scripting engine to abandon any currently loaded script, lose its sta
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT Close(void);  
 ```  
   
@@ -38,5 +37,5 @@ HRESULT Close(void);
 |`OLESCRIPT_S_PENDING`|The method was queued successfully, but the state has not changed yet. When the state changes, the site is to be called back on the [IActiveScriptSite::OnStateChange](../../winscript/reference/iactivescriptsite-onstatechange.md) method.|  
 |`S_FALSE`|The method succeeded, but the script has already been closed.|  
   
-## See Also  
+## See also  
  [IActiveScript](../../winscript/reference/iactivescript.md)

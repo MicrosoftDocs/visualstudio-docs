@@ -2,7 +2,6 @@
 title: "IDebugApplicationThread110::IsThreadCallable | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -19,7 +18,7 @@ manager: "ghogen"
 Determines whether this thread is in a state that will process calls made using the PDM's thread switching mechanisms, such as SynchronousCallInThread.  
   
 > [!IMPORTANT]
->  [IDebugApplicationThread110 Interface](../../winscript/reference/idebugapplicationthread110-interface.md) is implemented by PDM v11.0 and greater. Found in activdbg100.h.  
+> [IDebugApplicationThread110 Interface](../../winscript/reference/idebugapplicationthread110-interface.md) is implemented by PDM v11.0 and greater. Found in activdbg100.h.  
   
 ## Syntax  
   
@@ -31,5 +30,5 @@ HRESULT IsThreadCallable([out, annotation("_Out_")] BOOL * pfIsCallable);
  `pfIsCallable`  
  [out] `true` if the thread is callable, otherwise `false`.  
   
-## See Also  
+## See also  
  [IDebugApplicationThread110 Interface](../../winscript/reference/idebugapplicationthread110-interface.md)

@@ -2,7 +2,6 @@
 title: "IActiveScriptAuthor::GetChars | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Returns the set of completion characters for a requested completion context.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetChars(  
    DWORD            fRequestedList,  
    BSTR             *pbstrChars  
@@ -61,5 +60,5 @@ HRESULT GetChars(
   
 ## Remarks  
   
-## See Also  
+## See also  
  [IActiveScriptAuthor Interface](../../winscript/reference/iactivescriptauthor-interface.md)

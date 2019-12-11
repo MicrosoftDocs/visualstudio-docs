@@ -2,7 +2,6 @@
 title: "IScriptEntry::SetText | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Sets the text that corresponds to an `IScriptEntry` script block, or the source 
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT SetText(  
    LPCOLESTR          psz  
 );  
@@ -43,5 +42,5 @@ HRESULT SetText(
   
 ## Remarks  
   
-## See Also  
+## See also  
  [IScriptEntry Interface](../../winscript/reference/iscriptentry-interface.md)

@@ -2,7 +2,6 @@
 title: "IRemoteDebugApplicationThread::GetSystemThreadId | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Returns an operating-system-dependent identifier associated with the thread.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetSystemThreadId(  
    DWORD*  dwThreadId  
 );  
@@ -44,5 +43,5 @@ HRESULT GetSystemThreadId(
 ## Remarks  
  The value of `dwThreadId` does not need to be unique across machines.  
   
-## See Also  
+## See also  
  [IRemoteDebugApplicationThread Interface](../../winscript/reference/iremotedebugapplicationthread-interface.md)

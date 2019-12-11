@@ -2,7 +2,6 @@
 title: "IActiveScript::GetScriptState | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Retrieves the current state of the scripting engine. This method can be called f
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetScriptState(  
     SCRIPTSTATE *pss  // address of structure for state information  
 );  
@@ -37,5 +36,5 @@ HRESULT GetScriptState(
 ## Return Value  
  Returns `S_OK` if successful, or `E_POINTER` if an invalid pointer was specified.  
   
-## See Also  
+## See also  
  [IActiveScript](../../winscript/reference/iactivescript.md)

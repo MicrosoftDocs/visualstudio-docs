@@ -2,7 +2,6 @@
 title: "IScriptNode::GetIndexInParent | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Returns the index of an object in the parent's child list.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetIndexInParent(  
    ULONG              pisn,  
 );  
@@ -45,5 +44,5 @@ HRESULT GetIndexInParent(
   
 ## Remarks  
   
-## See Also  
+## See also  
  [IScriptNode Interface](../../winscript/reference/iscriptnode-interface.md)

@@ -2,7 +2,6 @@
 title: "DebugPropertyInfo Structure | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,15 +23,15 @@ Describes an object of a hierarchical nature that has name, type, and value. It 
   
 ## Syntax  
   
-```  
+```cpp
 typedef struct DebugPropertyInfo{  
-   DBGPROP_INFO_FLAGS  dwValidFields;  
-   BSTR  bstrName;  
-   BSTR  bstrType;  
-   BSTR  bstrValue;  
-   BSTR  bstrFullName;  
-   DBGPROP_ATTRIB_FLAGS  dwAttrib;  
-   IDebugProperty*  pDebugProp;  
+   DBGPROP_INFO_FLAGS  dwValidFields;  
+   BSTR  bstrName;  
+   BSTR  bstrType;  
+   BSTR  bstrValue;  
+   BSTR  bstrFullName;  
+   DBGPROP_ATTRIB_FLAGS  dwAttrib;  
+   IDebugProperty*  pDebugProp;  
 };  
 ```  
   
@@ -58,7 +57,7 @@ typedef struct DebugPropertyInfo{
  pDebugProp  
  The `IDebugProperty` described by the information in this `DebugPropertyInfo` structure.  
   
-## See Also  
+## See also  
  [IDebugProperty Interface](../../winscript/reference/idebugproperty-interface.md)   
  [DBGPROP_ATTRIB_FLAGS](../../winscript/reference/dbgprop-attrib-flags.md)   
  [DBGPROP_INFO_FLAGS](../../winscript/reference/dbgprop-info-flags.md)

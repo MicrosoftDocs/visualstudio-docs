@@ -2,7 +2,6 @@
 title: "IJsDebug::OpenVirtualProcess Method | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -22,8 +21,8 @@ Factory method used to create a new virtual process object.
   
 ## Syntax  
   
-```  
- HRESULT OpenVirtualProcess(  
+```cpp
+HRESULT OpenVirtualProcess(  
    DWORD processId,  
    UINT64 runtimeJsBaseAddress,  
    IJsDebugDataTarget *pDataTarget,  
@@ -52,5 +51,5 @@ Factory method used to create a new virtual process object.
 ## Requirements  
  **Header:** jscript9diag.h  
   
-## See Also  
+## See also  
  [IJsDebug Interface](../../winscript/reference/ijsdebug-interface.md)

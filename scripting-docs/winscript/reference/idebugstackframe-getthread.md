@@ -2,7 +2,6 @@
 title: "IDebugStackFrame::GetThread | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Returns the thread associated with this stack frame.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetThread(  
    IDebugApplicationThread**  ppat  
 );  
@@ -44,5 +43,5 @@ HRESULT GetThread(
 ## Remarks  
  This method returns the thread associated with this stack frame.  
   
-## See Also  
+## See also  
  [IDebugStackFrame Interface](../../winscript/reference/idebugstackframe-interface.md)

@@ -2,7 +2,6 @@
 title: "IDebugDocumentHost::OnCreateDocumentContext | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Notifies the host that a new document context is being created and allows the ho
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT OnCreateDocumentContext(  
    IUnknown**  ppunkOuter  
 );  
@@ -45,5 +44,5 @@ HRESULT OnCreateDocumentContext(
 ## Remarks  
  This method allows the host to add new functionality to the helper-provided document contexts. This method may return **E_NOTIMPL** or a null outer object, in which case the caller is responsible for creating the context.  
   
-## See Also  
+## See also  
  [IDebugDocumentHost Interface](../../winscript/reference/idebugdocumenthost-interface.md)

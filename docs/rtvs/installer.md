@@ -1,21 +1,13 @@
 ---
-title: Welcome to R Tools for Visual Studio | Microsoft Docs
+title: Welcome to R Tools for Visual Studio
 description: Summary information for developers who have installed R Tools for Visual Studio.
-ms.custom:
 ms.date: 01/24/2018
-ms.reviewer:
-ms.suite:
-ms.technology: 
-  - "devlang-r"
-dev_langs:
-  - "R"
-ms.tgt_pltfrm:
-ms.topic: "article"
-author: "kraigb"
-ms.author: "kraigb"
-manager: ghogen
-ms.workload: 
-  - "data-science"
+ms.topic: conceptual
+author: kraigb
+ms.author: kraigb
+manager: jillfra
+ms.workload:
+  - data-science
 ---
 
 # Welcome to R Tools for Visual Studio
@@ -27,10 +19,10 @@ Thank you for installing R Tools for Visual Studio (RTVS)! Check it out and let 
 ## Resources
 
 - [Documentation](index.md)
-- [Installation steps](installing-r-tools-for-visual-studio.md)
+- [How to install R Tools for Visual Studio](installing-r-tools-for-visual-studio.md)
 - [Submit and browse bugs and feature requests on GitHib](https://github.com/Microsoft/RTVS/issues)
 - [Explore and contribute to the source code](https://github.com/Microsoft/RTVS/blob/master/LICENSE)
-- To send feedback without using Github (which is preferred), use the **R Tools > Feedback** menu in Visual Studio.
+- To send feedback without using GitHub (which is preferred), use the **R Tools > Feedback** menu in Visual Studio.
 
 ## Microsoft R distributions
 

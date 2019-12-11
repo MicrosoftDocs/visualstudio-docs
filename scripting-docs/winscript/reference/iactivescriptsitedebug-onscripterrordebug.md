@@ -2,7 +2,6 @@
 title: "IActiveScriptSiteDebug::OnScriptErrorDebug | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Allows a smart host to determine how to handle run-time errors.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT OnScriptErrorDebug(  
    IActiveScriptErrorDebug*  pErrorDebug,  
    BOOL*                     pfEnterDebugger,  
@@ -52,5 +51,5 @@ HRESULT OnScriptErrorDebug(
 ## Remarks  
  A smart host can use this method to determine how to handle run-time errors.  
   
-## See Also  
+## See also  
  [IActiveScriptSiteDebug Interface](../../winscript/reference/iactivescriptsitedebug-interface.md)

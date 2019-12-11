@@ -2,7 +2,6 @@
 title: "IDebugDocumentHelper::DefineScriptBlock | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Indicates to the helper that a particular range of characters is a script block 
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT DefineScriptBlock(  
    ULONG           ulCharOffset,  
    ULONG           cChars,  
@@ -64,7 +63,7 @@ HRESULT DefineScriptBlock(
   
  The `DefineScriptBlock` method should be called after the text has been added (for example, using the `IDebugDocumentHelper::AddDBCSText` method) but before the script block has been parsed (for example, using the `IActiveScriptParse ::ParseScriptText` method).  
   
-## See Also  
+## See also  
  [IDebugDocumentHelper Interface](../../winscript/reference/idebugdocumenthelper-interface.md)   
  [IDebugDocumentHelper::AddDBCSText](../../winscript/reference/idebugdocumenthelper-adddbcstext.md)   
  [IDebugDocumentHelper::AddUnicodeText](../../winscript/reference/idebugdocumenthelper-addunicodetext.md)

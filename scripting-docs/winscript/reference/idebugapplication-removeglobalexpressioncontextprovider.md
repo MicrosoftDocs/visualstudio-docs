@@ -2,7 +2,6 @@
 title: "IDebugApplication::RemoveGlobalExpressionContextProvider | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Removes a global expression context provider from this application.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT RemoveGlobalExpressionContextProvider(  
    DWORD_PTR  dwCookie  
 );  
@@ -44,6 +43,6 @@ HRESULT RemoveGlobalExpressionContextProvider(
 ## Remarks  
  The `RemoveGlobalExpressionContextProvider` method removes a global expression context provider from this application.  
   
-## See Also  
+## See also  
  [IDebugApplication::AddGlobalExpressionContextProvider](../../winscript/reference/idebugapplication-addglobalexpressioncontextprovider.md)   
  [IDebugApplication Interface](../../winscript/reference/idebugapplication-interface.md)

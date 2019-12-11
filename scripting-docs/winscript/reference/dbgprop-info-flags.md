@@ -2,7 +2,6 @@
 title: "DBGPROP_INFO_FLAGS | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -26,15 +25,15 @@ Used to specify `DebugPropertyInfo` fields
   
 ## Syntax  
   
-```  
+```cpp
 enum {  
-   DBGPROP_INFO_NAME  =0x001,  
-   DBGPROP_INFO_TYPE  =0x002,  
-   DBGPROP_INFO_VALUE  =0x004,  
-   DBGPROP_INFO_FULLNAME  =0x020,  
-   DBGPROP_INFO_ATTRIBUTES  =0x008,  
-   DBGPROP_INFO_DEBUGPROP  =0x010,  
-   DBGPROP_INFO_AUTOEXPAND  =0x8000000  
+   DBGPROP_INFO_NAME  =0x001,  
+   DBGPROP_INFO_TYPE  =0x002,  
+   DBGPROP_INFO_VALUE  =0x004,  
+   DBGPROP_INFO_FULLNAME  =0x020,  
+   DBGPROP_INFO_ATTRIBUTES  =0x008,  
+   DBGPROP_INFO_DEBUGPROP  =0x010,  
+   DBGPROP_INFO_AUTOEXPAND  =0x8000000  
 };  
 ```  
   
@@ -60,6 +59,6 @@ enum {
  DBGPROP_INFO_AUTOEXPAND  
  Specifies that the value field should contain the auto-expanded value, if available, for this type of object.  
   
-## See Also  
+## See also  
  [DebugPropertyInfo Structure](../../winscript/reference/debugpropertyinfo-structure.md)   
  [IDebugProperty Interface](../../winscript/reference/idebugproperty-interface.md)

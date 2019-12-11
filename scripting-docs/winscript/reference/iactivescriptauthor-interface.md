@@ -2,7 +2,6 @@
 title: "IActiveScriptAuthor Interface | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -39,5 +38,5 @@ Represents authoring services, including IntelliSense and collation of informati
 |[IActiveScriptAuthor::RemoveNamedItem](../../winscript/reference/iactivescriptauthor-removenameditem.md)|Removes a `NamedItem` object from the namespace of the script authoring engine.|  
 |[IActiveScriptAuthor::RemoveTypeLib](../../winscript/reference/iactivescriptauthor-removetypelib.md)|Removes a type library from the script authoring engine namespace.|  
   
-## See Also  
+## See also  
  [Active Script Authoring Interfaces](../../winscript/reference/active-script-authoring-interfaces.md)

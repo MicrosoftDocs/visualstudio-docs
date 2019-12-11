@@ -2,7 +2,6 @@
 title: "IActiveScriptParse::ParseScriptText | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Parses the given code scriptlet, adding declarations into the namespace and eval
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT ParseScriptText(  
     LPCOLESTR pstrCode,              // address of scriptlet text  
     LPCOLESTR pstrItemName,          // address of item name  
@@ -83,5 +82,5 @@ HRESULT ParseScriptText(
   
  For more information about script states, see the Script Engine States section of [Windows Script Engines](../../winscript/windows-script-engines.md).  
   
-## See Also  
+## See also  
  [IActiveScriptParse](../../winscript/reference/iactivescriptparse.md)

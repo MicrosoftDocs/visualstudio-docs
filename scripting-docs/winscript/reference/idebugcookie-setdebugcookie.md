@@ -2,7 +2,6 @@
 title: "IDebugCookie::SetDebugCookie | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Sets the debug application cookie.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT SetDebugCookie(  
    DWORD  dwDebugAppCookie  
 );  
@@ -44,5 +43,5 @@ HRESULT SetDebugCookie(
 ## Remarks  
  This method sets the debug application cookie, which allows more than one debugger to attach to a process.  
   
-## See Also  
+## See also  
  [IDebugCookie Interface](../../winscript/reference/idebugcookie-interface.md)

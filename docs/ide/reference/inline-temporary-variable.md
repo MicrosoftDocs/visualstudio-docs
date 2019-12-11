@@ -1,14 +1,10 @@
 ---
-title: "Replace a temporary variable with its value in Visual Studio | Microsoft Docs"
-ms.custom: ""
+title: Replace a temporary variable with its value
 ms.date: 01/26/2018
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: vs-ide-general
 ms.topic: reference
-author: "gewarren"
-ms.author: "gewarren"
-manager: ghogen
+author: jillre
+ms.author: jillfra
+manager: jillfra
 dev_langs:
   - CSharp
   - VB
@@ -35,31 +31,31 @@ This refactoring applies to:
 
    - C#:
 
-    ![Highlighted code - C#](media/inline-highlight-cs.png)
+       ![Highlighted code - C#](media/inline-highlight-cs.png)
 
    - Visual Basic:
 
-    ![Highlighted code- Visual Basic](media/inline-highlight-vb.png)
+       ![Highlighted code- Visual Basic](media/inline-highlight-vb.png)
 
-1. Next, do one of the following:
+2. Next, do one of the following:
 
    - **Keyboard**
-     - Press **Ctrl**+**.** to trigger the **Quick Actions and Refactorings** menu.
+      - Press **Ctrl**+**.** to trigger the **Quick Actions and Refactorings** menu.
    - **Mouse**
-     - Right-click the code and select the **Quick Actions and Refactorings** menu.
+      - Right-click the code and select the **Quick Actions and Refactorings** menu.
 
-1. Select **Inline temporary variable** from the Preview window popup.
+3. Select **Inline temporary variable** from the Preview window popup.
 
    The variable is removed and its usages replaced by the value of the variable.
 
    - C#:
 
-    ![Inline result - C#](media/inline-result-cs.png)
+      ![Inline result - C#](media/inline-result-cs.png)
 
    - Visual Basic:
 
-    ![Inline result - Visual Basic](media/inline-result-vb.png)
+      ![Inline result - Visual Basic](media/inline-result-vb.png)
 
 ## See also
 
-[Refactoring](../refactoring-in-visual-studio.md)
+- [Refactoring](../refactoring-in-visual-studio.md)

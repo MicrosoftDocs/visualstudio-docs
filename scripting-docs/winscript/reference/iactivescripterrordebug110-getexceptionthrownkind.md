@@ -2,7 +2,6 @@
 title: "IActiveScriptErrorDebug110::GetExceptionThrownKind | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -19,11 +18,11 @@ manager: "ghogen"
 Returns a value that indicates the kind of exception thrown.  
   
 > [!IMPORTANT]
->  [IActiveScriptErrorDebug110 Interface](../../winscript/reference/iactivescripterrordebug110-interface.md) is implemented by PDM version 11.0 and greater. Found in activdbg100.h.  
+> [IActiveScriptErrorDebug110 Interface](../../winscript/reference/iactivescripterrordebug110-interface.md) is implemented by PDM version 11.0 and greater. Found in activdbg100.h.  
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetExceptionThrownKind(  
    SCRIPT_ERROR_DEBUG_EXCEPTION_THROWN_KIND*  pExceptionKind  
 );  
@@ -40,5 +39,5 @@ HRESULT GetExceptionThrownKind(
 |-----------|-----------------|  
 |`S_OK`|The method succeeded.|  
   
-## See Also  
+## See also  
  [IActiveScriptErrorDebug110 Interface](../../winscript/reference/iactivescripterrordebug110-interface.md)

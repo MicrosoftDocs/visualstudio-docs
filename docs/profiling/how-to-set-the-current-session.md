@@ -1,14 +1,8 @@
 ---
 title: "How to: Set the Current Session | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-helpviewer_keywords: 
+ms.topic: "conceptual"
+helpviewer_keywords:
   - "current performance sessions"
   - "Performance Explorer, selecting sessions"
   - "profiling tools, setting sessions"
@@ -18,11 +12,12 @@ helpviewer_keywords:
   - "sessions, setting multiple"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
-ms.workload: 
+manager: jillfra
+monikerRange: 'vs-2017'
+ms.workload:
   - "multiple"
 ---
-# How to: Set the Current Session
+# How to: Set the current session
 
 You can open multiple performance sessions in the **Performance Explorer**, and can then select one of the visible performance sessions to be set as the current session.
 
@@ -36,7 +31,7 @@ After you set a session as the current session, clicking **Launch** on the **Per
 
 ## See also
 
-[Configuring Performance Sessions](../profiling/configuring-performance-sessions.md)  
-[Performance Explorer Window](../profiling/performance-explorer-window.md)  
-[Performance Session Properties](../profiling/performance-session-properties.md)  
-[Performance Session Overview](../profiling/performance-session-overview.md)
+[Configure performance sessions](../profiling/configuring-performance-sessions.md)
+[Performance Explorer window](../profiling/performance-explorer-window.md)
+[Performance session properties](../profiling/performance-session-properties.md)
+[Performance session overview](../profiling/performance-session-overview.md)

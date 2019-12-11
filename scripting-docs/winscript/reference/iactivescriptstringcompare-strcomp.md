@@ -2,7 +2,6 @@
 title: "IActiveScriptStringCompare::StrComp | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Defines the string comparison method for the scripting engine.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT StrComp(  
 // The first string:  
     [in] BSTR bszStr1,    
@@ -95,5 +94,5 @@ interface IActiveScriptStringCompare : IUnknown
 }  
 ```  
   
-## See Also  
+## See also  
  [IActiveScriptStringCompare Interface](../../winscript/reference/iactivescriptstringcompare-interface.md)

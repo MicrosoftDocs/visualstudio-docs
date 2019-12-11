@@ -21,5 +21,5 @@ If the Windows Script engine allows the source code text for procedures to be ad
 |Method|Description|  
 |[IActiveScriptParseProcedure32::ParseProcedureText](../../winscript/reference/iactivescriptparseprocedure32-parseproceduretext.md)|Parses the given code procedure and adds the procedure to the namespace.|  
   
-## See Also  
+## See also  
  [Active Script Interfaces](../../winscript/reference/active-script-interfaces.md)

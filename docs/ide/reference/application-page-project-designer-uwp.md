@@ -1,16 +1,15 @@
 ---
-title: "Application property page for UWP apps | Microsoft Docs"
-ms.date: "01/23/2018"
-ms.technology: vs-ide-general
-ms.topic: "article"
-f1_keywords: 
-  - AppPackage.Properties.Application"
-helpviewer_keywords: 
+title: Application property page for UWP apps
+ms.date: 01/23/2018
+ms.topic: reference
+f1_keywords:
+  - AppPackage.Properties.Application
+helpviewer_keywords:
   - "Application page [UWP project]"
-author: "gewarren"
-ms.author: "gewarren"
-manager: ghogen
-ms.workload: 
+author: jillre
+ms.author: jillfra
+manager: jillfra
+ms.workload:
   - "uwp"
 ---
 # Application property page (UWP projects)
@@ -39,9 +38,9 @@ To access this property programmatically, see <xref:VSLangProj.ProjectProperties
 
 You can set the target version and minimum version of Windows 10 for your app by using the drop-down lists in this section. It is recommended that you target the latest version of Windows 10, and if you are developing an enterprise app, that you support an older minimum version too. For more information about which Windows 10 version to choose, see [Choose a UWP version](/windows/uwp/updates-and-versions/choose-a-uwp-version).
 
-For information about platform targeting in Visual Studio 2017, see [Platform targeting](https://www.visualstudio.com/productinfo/vs2017-compatibility-vs#a-iddevelopwindows-avisual-studio-2017-support-for-windows-development).
+For information about platform targeting in Visual Studio, see [Platform targeting](/visualstudio/productinfo/vs2017-compatibility-vs#platform-targeting).
 
 ## See also
 
-[Create your first UWP app](/windows/uwp/get-started/your-first-app)  
-[Choose a UWP version](/windows/uwp/updates-and-versions/choose-a-uwp-version)
+- [Create your first UWP app](/windows/uwp/get-started/your-first-app)
+- [Choose a UWP version](/windows/uwp/updates-and-versions/choose-a-uwp-version)

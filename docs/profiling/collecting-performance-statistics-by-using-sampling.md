@@ -1,23 +1,18 @@
 ---
 title: "Collecting Performance Statistics by Using Sampling | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-helpviewer_keywords: 
+ms.topic: "conceptual"
+helpviewer_keywords:
   - "Profiling Tools,sampling"
   - "sampling profiling method"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
-ms.workload: 
+manager: jillfra
+monikerRange: 'vs-2017'
+ms.workload:
   - "multiple"
 ---
-# Collecting Performance Statistics by Using Sampling
+# Collect performance statistics by using sampling
 
 By default, the Visual Studio Profiling Tools sampling method collects profiling information every 10,000,000 processor cycles (approximately every one-hundredth of a second on a 1 GHz computer). The sampling method is useful for finding processor utilization issues and is the suggested method for starting most performance investigations.
 
@@ -32,11 +27,11 @@ You can specify the sampling method by using one of the following procedures:
 
 ## Common tasks
 
-You can specify additional options in the *Performance Session***Property Pages** dialog box of the performance session. To open this dialog box:
+You can specify additional options in the _Performance Session_**Property Pages** dialog box of the performance session. To open this dialog box:
 
 - In **Performance Explorer**, right-click the performance session name, and then click **Properties**.
 
- The tasks in the following table describe options that you can specify in the *Performance Session***Property Pages** dialog box when you profile by using the sampling method.
+  The tasks in the following table describe options that you can specify in the _Performance Session_**Property Pages** dialog box when you profile by using the sampling method.
 
 |Task|Related Content|
 |----------|---------------------|

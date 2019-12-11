@@ -1,14 +1,9 @@
 ---
 title: "The number of fractional digits is out of range | Microsoft Docs"
-ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-client-threshold"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "javascript"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-windows
+ms.technology: vs-javascript
+ms.topic: reference
 f1_keywords: 
   - "VS.WebClient.Help.SCRIPT5026"
 dev_langs: 
@@ -16,7 +11,6 @@ dev_langs:
   - "TypeScript"
   - "DHTML"
 ms.assetid: dbe05d7d-fcf6-4823-9c61-4b814d1ad3c4
-caps.latest.revision: 6
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
@@ -26,7 +20,7 @@ You attempted to pass an invalid argument to the function **Number.prototype.toE
   
 ### To correct this error  
   
--   Ensure the argument to **toExponential()** is not too large or too small.  
+- Ensure the argument to **toExponential()** is not too large or too small.  
   
-## See Also  
+## See also  
  [toExponential Method (Number)](../../javascript/reference/toexponential-method-number-javascript.md)

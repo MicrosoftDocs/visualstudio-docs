@@ -2,7 +2,6 @@
 title: "IDebugDocumentTextAuthor::InsertText | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Inserts new text into the document.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT InsertText(  
    ULONG    cCharacterPosition,  
    ULONG    cNumToInsert,  
@@ -52,6 +51,6 @@ HRESULT InsertText(
 ## Remarks  
  This method inserts new text into the document.  
   
-## See Also  
+## See also  
  [IDebugDocumentTextAuthor Interface](../../winscript/reference/idebugdocumenttextauthor-interface.md)   
  [IDebugDocumentTextAuthor::RemoveText](../../winscript/reference/idebugdocumenttextauthor-removetext.md)

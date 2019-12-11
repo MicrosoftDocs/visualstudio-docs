@@ -2,7 +2,6 @@
 title: "IActiveScriptErrorDebug::GetDocumentContext | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Provides the document context for this error.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetDocumentContext(  
    IDebugDocumentContext**  ppssc  
 );  
@@ -44,5 +43,5 @@ HRESULT GetDocumentContext(
 ## Remarks  
  The document context character-position range should include all the characters corresponding to the error.  
   
-## See Also  
+## See also  
  [IActiveScriptErrorDebug Interface](../../winscript/reference/iactivescripterrordebug-interface.md)

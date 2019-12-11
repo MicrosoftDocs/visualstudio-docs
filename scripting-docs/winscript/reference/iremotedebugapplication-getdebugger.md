@@ -2,7 +2,6 @@
 title: "IRemoteDebugApplication::GetDebugger | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Returns the current debugger connected to the application.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetDebugger(  
    IApplicationDebugger**  pad  
 );  
@@ -44,6 +43,6 @@ HRESULT GetDebugger(
 ## Remarks  
  This method returns the current debugger connected to the application.  
   
-## See Also  
+## See also  
  [IRemoteDebugApplication::ConnectDebugger](../../winscript/reference/iremotedebugapplication-connectdebugger.md)   
  [IRemoteDebugApplication Interface](../../winscript/reference/iremotedebugapplication-interface.md)

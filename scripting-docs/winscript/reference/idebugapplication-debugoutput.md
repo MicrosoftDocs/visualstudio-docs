@@ -2,7 +2,6 @@
 title: "IDebugApplication::DebugOutput | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Causes the given string to be displayed by the debugger integrated development e
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT DebugOutput(  
    LPCOLESTR  pstr  
 );  
@@ -46,6 +45,6 @@ HRESULT DebugOutput(
   
  This method causes `IApplicationDebugger::onDebugOutput` to be called.  
   
-## See Also  
+## See also  
  [IDebugApplication Interface](../../winscript/reference/idebugapplication-interface.md)   
  [IApplicationDebugger::onDebugOutput](../../winscript/reference/iapplicationdebugger-ondebugoutput.md)

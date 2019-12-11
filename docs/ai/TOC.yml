@@ -1,51 +1,45 @@
 - name: Visual Studio Tools for AI
-  href: index.yml
+# Auto-expanded node
   items:
-    - name: Overview
+  - name: Visual Studio Tools for AI
+    href: index.yml
+  - name: Overview
+    href: about-ai-tools.md
+  - name: Installation
+    href: installation.md
+  - name: Quickstarts
+    items:
+    - name: Tensorflow + Python
+      href: tensorflow-local.md
+  - name: Tutorials
+    items:
+    - name: TensorFlow + Azure Deep Learning VM
+      href: tensorflow-vm.md
+  - name: How-to guides
+    items:
+    - name: Create a project
       items:
-        - name: About Visual Studio Tools for AI
-          href: about-ai-tools.md
-    - name: Installation
-      href: installation.md 
-    - name: Quickstarts
-      items: 
-        - name: Tensorflow + Python
-          href: tensorflow-local.md
-    - name: Tutorials 
-      items:
-        - name: TensorFlow + Azure Deep Learning VM                                        
-          href: tensorflow-vm.md
-    - name: How-to guides
-      items:
-        - name: Create a project
-          items: 
-            - name: Create a project from sample gallery
-              href: create-project-gallery.md
-            - name: Create a project from existing code
-              href: create-project-existing.md
-            - name: Create a project from template
-              href: create-project.md
-            - name: Create a project from GitHub repository 
-              href: create-project-repo.md
-        - name: Train your model
-          href: train-model.md
-        - name: View job details
-          href: job-details.md
-        - name: Monitor GPU utilization
-          href: monitor-gpu.md
-        - name: Monitor TensorBoard
-          href: monitor-tensorboard.md
-        - name: Manage storage
-          href: manage-storage.md        
-    - name: Samples
-      items:
-        - name: GitHub
-          href: https://github.com/Microsoft/samples-for-ai
-        - name: Machine Learning Gallery
-          href: https://gallery.cortanaintelligence.com/projects
-
-
-
-    
-
-
+      - name: Create a project from sample gallery
+        href: create-project-gallery.md
+      - name: Create a project from existing code
+        href: create-project-existing.md
+      - name: Create a project from template
+        href: create-project.md
+      - name: Create a project from GitHub repository
+        href: create-project-repo.md
+    - name: Train your model
+      href: train-model.md
+    - name: View job details
+      href: job-details.md
+    - name: Monitor GPU utilization
+      href: monitor-gpu.md
+    - name: Monitor TensorBoard
+      href: monitor-tensorboard.md
+    - name: Manage storage
+      href: manage-storage.md
+  - name: Samples
+    items:
+    - name: GitHub
+      href: https://github.com/Microsoft/samples-for-ai
+    - name: Machine Learning Gallery
+      href: https://gallery.cortanaintelligence.com/projects

@@ -1,33 +1,28 @@
 ---
-title: "Using Peek Definition in Visual Studio | Microsoft Docs"
-ms.custom: ""
-ms.date: "01/10/2018"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: vs-ide-general
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-author: "gewarren"
-ms.author: "gewarren"
-manager: ghogen
-ms.workload: 
+title: Using Peek Definition
+ms.date: 01/10/2018
+ms.topic: conceptual
+author: jillre
+ms.author: jillfra
+manager: jillfra
+ms.workload:
   - "multiple"
 ---
 # How to: View and edit code by using Peek Definition (Alt+F12)
 
 You can use the **Peek Definition** command to view and edit code without switching away from the code that you're writing. **Peek Definition** and **Go To Definition** show the same information, but **Peek Definition** shows it in a pop-up window, and **Go To Definition** shows the code in a separate code window. **Go To Definition** causes your context (that is, the active code window, current line, and cursor position) to switch to the definition code window. By using **Peek Definition**, you can view and edit the definition and move around inside the definition file while keeping your place in the original code file.
 
-You can use **Peek Definition** with C#, Visual Basic, and C++ code. In Visual Basic, **Peek Definition** shows a link to the **Object Browser** for symbols that don't have definition metadata (for example, .NET Framework types that are built in).
+You can use **Peek Definition** with C#, Visual Basic, and C++ code. In Visual Basic, **Peek Definition** shows a link to the **Object Browser** for symbols that don't have definition metadata (for example, .NET types that are built in).
 
-## Working with Peek Definition
+## Use Peek Definition
 
-### To open a Peek Definition window
+### Open a Peek Definition window
 
-1. You can peek a definition by choosing **Peek Definition** from the context menu for a type or member that you want to explore. In Visual Studio 2017 version 15.4 and later, if the option is enabled, you can also peek a definition using the mouse, by pressing **Ctrl** (or another modifier) and clicking the member name. Or, from the keyboard, press **Alt**+**F12**.
+1. You can peek a definition by choosing **Peek Definition** from the right-click menu for a type or member that you want to explore. If the option is enabled, you can also peek a definition using the mouse, by pressing **Ctrl** (or another modifier) and clicking the member name. Or, from the keyboard, press **Alt**+**F12**.
 
      This illustration shows the **Peek Definition** window for a method that's named `Print()`:
 
-     ![Peek Window](../ide/media/peekwindow.png "PeekWindow")
+     ![Peek Window](../ide/media/peekwindow.png)
 
      The definition window appears below the `printer.Print("Hello World!")` line in the original file. The window doesn't hide any of the code in your original file. The lines that follow `printer.Print("Hello World!")` appear under the definition window.
 
@@ -41,19 +36,19 @@ You can use **Peek Definition** with C#, Visual Basic, and C++ code. In Visual B
 
 If you already have a **Peek Definition** window open, you can call **Peek Definition** again on the code in that window. Another definition window opens. A set of breadcrumb dots appears next to the definition window tab, which you can use to navigate between definition windows. The tooltip on each dot shows the file name and path of the definition file that the dot represents.
 
-   ![Peek window within a Peek window](../ide/media/peekwithinpeek.png "PeekWithinPeek")
+   ![Peek window within a Peek window](../ide/media/peekwithinpeek.png)
 
 ### Peek Definition with multiple results
 
 If you use **Peek Definition** on code that has more than one definition (for example, a partial class), a result list appears to the right of the code definition view. You can choose any result in the list to display its definition.
 
-   ![Peek window from multiple results](../ide/media/peekmultiple.png "PeekMultiple")
+   ![Peek window from multiple results](../ide/media/peekmultiple.png)
 
 ### Edit inside the Peek Definition window
 
 When you start to edit inside a **Peek Definition** window, the file that you're modifying automatically opens as a separate tab in the code editor and reflects the changes that you've made. You can continue to make, undo, and save changes in the **Peek Definition** window, and the tab will continue to reflect those changes. Even if you close the **Peek Definition** window without saving your changes, you can make, undo, and save more changes in the tab, picking up exactly where you left off in the **Peek Definition** window.
 
-   ![Editing within a Peek window](../ide/media/peekedit.png "PeekEdit")
+   ![Editing within a Peek window](../ide/media/peekedit.png)
 
 ### To change options for Peek Definition
 
@@ -63,7 +58,7 @@ When you start to edit inside a **Peek Definition** window, the file that you're
 
 1. Click **OK** to close the **Options** dialog box.
 
-   ![Setting the mouse-click peek definition option](../ide/media/editor_options_peek_view.png)  
+   ![Setting the mouse-click peek definition option](../ide/media/editor_options_peek_view.png)
 
 ### Keyboard shortcuts for Peek Definition
 
@@ -71,18 +66,18 @@ You can use these keyboard shortcuts with the **Peek Definition** window:
 
 |Functionality|Keyboard shortcut|
 |-------------------|:-----------------------:|
-|Open the definition window|Alt+F12|
-|Close the definition window|Esc|
-|Promote the definition window to a regular document tab|Shift+Alt+Home|
-|Navigate between definition windows|Ctrl+Alt+- and Ctrl+Alt+=|
-|Navigate between multiple results|F8 and Shift+F8|
-|Toggle between the code editor window and the definition window|Shift+Esc|
+|Open the definition window|**Alt**+**F12**|
+|Close the definition window|**Esc**|
+|Promote the definition window to a regular document tab|**Shift**+**Alt**+**Home**|
+|Navigate between definition windows|**Ctrl**+**Alt**+**-** and **Ctrl**+**Alt**+**=**|
+|Navigate between multiple results|**F8** and **Shift**+**F8**|
+|Toggle between the code editor window and the definition window|**Shift**+**Esc**|
 
 > [!NOTE]
 > You can also use the same keyboard shortcuts to edit code in a **Peek Definition** window as you use elsewhere in Visual Studio.
 
 ## See also
 
-[Navigating Code](../ide/navigating-code.md)  
-[Go To Definition and Peek Definition](../ide/go-to-and-peek-definition.md)  
-[Productivity Tips](../ide/productivity-tips-for-visual-studio.md)
+- [Navigate code](../ide/navigating-code.md)
+- [Go To Definition and Peek Definition](../ide/go-to-and-peek-definition.md)
+- [Productivity features in Visual Studio](../ide/productivity-features.md)

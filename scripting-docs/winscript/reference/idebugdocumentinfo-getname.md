@@ -2,7 +2,6 @@
 title: "IDebugDocumentInfo::GetName | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Returns the specified document name.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetName(  
    DOCUMENTNAMETYPE  dnt,  
    BSTR*             pbstrName  
@@ -49,6 +48,6 @@ HRESULT GetName(
 ## Remarks  
  This method returns the specified document name.  
   
-## See Also  
+## See also  
  [IDebugDocumentInfo Interface](../../winscript/reference/idebugdocumentinfo-interface.md)   
  [DOCUMENTNAMETYPE Enumeration](../../winscript/reference/documentnametype-enumeration.md)

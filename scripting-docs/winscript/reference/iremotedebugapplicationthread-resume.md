@@ -2,7 +2,6 @@
 title: "IRemoteDebugApplicationThread::Resume | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Resumes the thread.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT Resume(  
    DWORD*  pdwCount  
 );  
@@ -44,5 +43,5 @@ HRESULT Resume(
 ## Remarks  
  When this method resumes the thread, it decrements the suspend count.  
   
-## See Also  
+## See also  
  [IRemoteDebugApplicationThread Interface](../../winscript/reference/iremotedebugapplicationthread-interface.md)

@@ -2,7 +2,6 @@
 title: "IEnumRemoteDebugApplicationThreads::Next | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ The `Next` method retrieves a specified number of segments in the enumeration se
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT Next(  
    ULONG                            celt,  
    IRemoteDebugApplicationThread**  pprdat,  
@@ -52,5 +51,5 @@ HRESULT Next(
 ## Remarks  
  This method retrieves a specified number of segments in the enumeration sequence.  
   
-## See Also  
+## See also  
  [IEnumRemoteDebugApplicationThreads Interface](../../winscript/reference/ienumremotedebugapplicationthreads-interface.md)

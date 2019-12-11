@@ -16,7 +16,7 @@ Returns the debug application object associated with this script site.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetApplication(  
    IDebugApplication**  ppda  
 );  
@@ -37,6 +37,6 @@ HRESULT GetApplication(
 ## Remarks  
  The `GetApplication` method provides a way for a smart host to define the application object to which each script belongs. Script engines should attempt to call this method to get their containing application and resort to `IProcessDebugManager::GetDefaultApplication` if this fails.  
   
-## See Also  
+## See also  
  [IActiveScriptSiteDebug32 Interface](../../winscript/reference/iactivescriptsitedebug32-interface.md)   
  [IProcessDebugManager::GetDefaultApplication](../../winscript/reference/iprocessdebugmanager-getdefaultapplication.md)

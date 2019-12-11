@@ -1,77 +1,69 @@
 ---
 title: "ItemMetadata Element (MSBuild) | Microsoft Docs"
-ms.custom: ""
 ms.date: "03/13/2017"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: msbuild
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-dev_langs: 
+ms.topic: "reference"
+dev_langs:
   - "VB"
   - "CSharp"
   - "C++"
   - "jsharp"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "ItemMetadata Element [MSBuild]"
   - "<ItemMetadata> Element [MSBuild]"
 ms.assetid: e3db5122-202d-43a9-b2f4-3e0ec4ed3d08
-caps.latest.revision: 17
-author: Mikejo5000
+author: mikejo5000
 ms.author: mikejo
-manager: ghogen
-ms.workload: 
+manager: jillfra
+ms.workload:
   - "multiple"
 ---
-# ItemMetadata Element (MSBuild)
-Contains a user-defined item metadata key, which contains the item metadata value. An item may have any number of metadata key-value pairs.  
+# ItemMetadata element (MSBuild)
+Contains a user-defined item metadata key, which contains the item metadata value. An item may have any number of metadata key-value pairs.
 
- \<Project>  
- \<ItemGroup>  
- \<Item>  
+ \<Project>
+ \<ItemGroup>
+ \<Item>
 
-## Syntax  
+## Syntax
 
-```  
-<ItemMetadataName> Item Metadata value</ItemMetadataName>  
-```  
+```xml
+<ItemMetadataName> Item Metadata value</ItemMetadataName>
+```
 
-## Attributes and Elements  
- The following sections describe attributes, child elements, and parent elements.  
+## Attributes and elements
+ The following sections describe attributes, child elements, and parent elements.
 
-### Attributes  
+### Attributes
 
-|Attribute|Description|  
-|---------------|-----------------|  
-|`Condition`|Optional attribute.<br /><br /> Condition to be evaluated. For more information, see [Conditions](../msbuild/msbuild-conditions.md).|  
+|Attribute|Description|
+|---------------|-----------------|
+|`Condition`|Optional attribute.<br /><br /> Condition to be evaluated. For more information, see [Conditions](../msbuild/msbuild-conditions.md).|
 
-### Child Elements  
- None.  
+### Child elements
+ None.
 
-### Parent Elements  
+### Parent elements
 
-|Element|Description|  
-|-------------|-----------------|  
-|[Item](../msbuild/item-element-msbuild.md)|A user-defined element that defines the inputs for the build process.|  
+|Element|Description|
+|-------------|-----------------|
+|[Item](../msbuild/item-element-msbuild.md)|A user-defined element that defines the inputs for the build process.|
 
-## Text Value  
- A text value is optional.  
+## Text value
+ A text value is optional.
 
- This text specifies the item metadata value, which can be either text or XML.  
+ This text specifies the item metadata value, which can be either text or XML.
 
-## Remarks  
+## Example
+ The following code example shows how to add `Culture` metadata with the value `fr` to the item `CSFile`.
 
-## Example  
- The following code example shows how to add `Culture` metadata with the value `fr` to the item `CSFile`.  
+```xml
+<ItemGroup>
+    <CSFile Include="main.cs" >
+        <Culture>fr</Culture>
+    </CSFile>
+</ItemGroup>
+```
 
-```xml  
-<ItemGroup>  
-    <CSFile Include="main.cs" >  
-        <Culture>fr</Culture>  
-    </CSFile>  
-</ItemGroup>  
-```  
-
-## See Also  
- [Project File Schema Reference](../msbuild/msbuild-project-file-schema-reference.md)   
- [Items](../msbuild/msbuild-items.md)
+## See also
+- [Project file schema reference](../msbuild/msbuild-project-file-schema-reference.md)
+- [Items](../msbuild/msbuild-items.md)

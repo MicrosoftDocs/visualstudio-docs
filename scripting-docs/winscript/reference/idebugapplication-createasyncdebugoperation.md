@@ -2,7 +2,6 @@
 title: "IDebugApplication::CreateAsyncDebugOperation | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Provides asynchronous access to a given synchronous debug operation.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT CreateAsyncDebugOperation(  
    IDebugSyncOperation*    psdo,  
    IDebugAsyncOperation**  ppado  
@@ -48,7 +47,7 @@ HRESULT CreateAsyncDebugOperation(
 ## Remarks  
  This method allows language engines to evaluate expressions asynchronously without explicitly synchronizing with the debugger thread. For more information, see [IDebugSyncOperation Interface](../../winscript/reference/idebugsyncoperation-interface.md) and [IDebugAsyncOperation Interface](../../winscript/reference/idebugasyncoperation-interface.md).  
   
-## See Also  
+## See also  
  [IDebugApplication Interface](../../winscript/reference/idebugapplication-interface.md)   
  [IDebugSyncOperation Interface](../../winscript/reference/idebugsyncoperation-interface.md)   
  [IDebugAsyncOperation Interface](../../winscript/reference/idebugasyncoperation-interface.md)

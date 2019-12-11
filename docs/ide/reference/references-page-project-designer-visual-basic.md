@@ -1,90 +1,89 @@
 ---
-title: "References Page, Project Designer (Visual Basic) | Microsoft Docs"
-ms.custom: ""
-ms.date: "06/21/2017"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-f1_keywords: 
+title: References Page, Project Designer (Visual Basic)
+ms.date: 06/21/2017
+ms.topic: reference
+f1_keywords:
   - "vb.ProjectPropertiesReference"
   - "vb.ProjectPropertiesUnusedReference"
   - "vb.ProjectPropertiesReferencePaths"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "References page in Project Designer"
   - "Project Designer, References page"
-  - "Unused References dialog box"
 ms.assetid: 5a47c595-e084-401c-86e1-74e0bf74fd86
-caps.latest.revision: 34
-author: "gewarren"
-ms.author: "gewarren"
-manager: ghogen
-ms.workload: 
+author: jillre
+ms.author: jillfra
+manager: jillfra
+ms.workload:
   - "multiple"
 ---
 # References Page, Project Designer (Visual Basic)
-Use the **References** page of the **Project Designer** to manage references, Web references, and imported namespaces in your project. Projects can contain references to COM components, XML Web services, .NET Framework class libraries or assemblies, or other class libraries. For more information on using references, see [Managing references in a project](../../ide/managing-references-in-a-project.md).  
 
- To access the **References** page, choose a project node (not the **Solution** node) in **Solution Explorer**. Then choose **Project**, **Properties** on the menu bar. When the Project Designer appears, click the **References** tab.  
+Use the **References** page of the **Project Designer** to manage references, web references, and imported namespaces in your project. Projects can contain references to COM components, XML web services, .NET libraries or assemblies, or other class libraries. For more information on using references, see [Managing references in a project](../../ide/managing-references-in-a-project.md).
 
-## UIElement List  
- The following options allow you to select or remove references and imported namespaces in your project.  
+To access the **References** page, choose a project node (not the **Solution** node) in **Solution Explorer**. Then choose **Project**, **Properties** on the menu bar. When the Project Designer appears, click the **References** tab.
 
- **Unused References**  
- Click this button to access the **Unused References** dialog box.  
+## UIElement List
 
- The **Unused References** dialog box allows you to remove references that are included in your project but not actually used by the code. It contains a grid that lists the **Reference Name**, the **Path**, and other information about the unused namespace references in your project. In the grid, select the namespace references that you want to remove from your project and click **Remove**.  
+The following options allow you to select or remove references and imported namespaces in your project.
 
- **Reference Paths**  
- Click this button to access the **Reference Paths** dialog box.  
+**Reference Paths**
+
+Click this button to access the **Reference Paths** dialog box.
 
 > [!NOTE]
->  When the project system finds an assembly reference, the system resolves the reference by looking in the following locations, in the following order:  
->   
->  1.  The project folder. The project folder files appear in **Solution Explorer** when **Show All Files** isn't in effect.  
-> 2.  Folders that are specified in the **Reference Paths** dialog box.  
-> 3.  Folders that display files in the **Add Reference** dialog box.  
-> 4.  The project's obj folder. (When you add a COM reference to your project, one or more assemblies may be added to the project's obj folder.)  
+> When the project system finds an assembly reference, the system resolves the reference by looking in the following locations, in the following order:
+>
+> 1. The project folder. The project folder files appear in **Solution Explorer** when **Show All Files** isn't in effect.
+> 2. Folders that are specified in the **Reference Paths** dialog box.
+> 3. Folders that display files in the **Add Reference** dialog box.
+> 4. The project's obj folder. (When you add a COM reference to your project, one or more assemblies may be added to the project's obj folder.)
 
- **References**  
- This list shows all references in the project, used or unused.  
+ **References**
 
- **Add**  
- Click this button to add a reference or Web reference to the **References** list.  
+This list shows all references in the project, used or unused.
 
- Choose **Reference** to add a reference to your project using the Add Reference dialog box.  
+ **Add**
 
- Choose **Web Reference** to add a Web reference to your project using the Add Web Reference dialog box.  
+Click this button to add a reference or web reference to the **References** list.
 
- **Remove**  
- Select one or more references in the **References** list, then click this button to delete it.  
+Choose **Reference** to add a reference to your project using the Add Reference dialog box.
 
- **Update Web Reference**  
- Select a Web reference in the **References** list and click this button to update it.  
+Choose **Web Reference** to add a web reference to your project using the **Add Web Reference** dialog box.
 
- **Imported namespaces**  
- You can type your own namespace in this box and click **Add User Import** to add it to the namespaces list.  
+ **Remove**
 
- You can create aliases for user-imported namespaces. To do this, enter the alias and the namespace in the format *alias*=*namespace*. This is useful if you are using long namespaces, for example: `Http= MyOrg.ObjectLib.Internet.WebRequestMethods.Http`.  
+Select one or more references in the **References** list, then click this button to delete it.
 
- **Add User Import**  
- Click this button to add the namespace specified in the **Imported namespaces** box to the list of imported namespaces. The button is active only if the specified namespace is not already in the list.  
+ **Update Web Reference**
 
- **Namespaces list**  
- This list shows all available namespaces. The check boxes for namespaces included in your project are selected.  
+Select a web reference in the **References** list and click this button to update it.
 
- **Update User Import**  
- Select a user-specified namespace in the namespaces list, type the name that you want to replace it with in the **Imported namespaces** box, and then click this button to change to the new namespace. The button is active only if the selected namespace is one that you added to the list by using the **Add User Import** button. You can add:  
+ **Imported namespaces**
 
--   Classes or namespaces, such as <xref:System.Math?displayProperty=fullName>.  
+You can type your own namespace in this box and click **Add User Import** to add it to the namespaces list.
 
--   Aliased imports, such as `VB=Microsoft.VisualBasic`.  
+You can create aliases for user-imported namespaces. To do this, enter the alias and the namespace in the format *alias*=*namespace*. This is useful if you are using long namespaces, for example: `Http= MyOrg.ObjectLib.Internet.WebRequestMethods.Http`.
 
--   XML namespaces, such as `<xmlns:xsl="http://www.w3.org/1999/XSL/Transform">`.  
+ **Add User Import**
 
-## See Also  
- [Managing references in a project](../../ide/managing-references-in-a-project.md)   
- [How to: Add or Remove Imported Namespaces (Visual Basic)](../../ide/how-to-add-or-remove-imported-namespaces-visual-basic.md)   
- [Imports Statement (XML Namespace)](/dotnet/visual-basic/language-reference/statements/imports-statement-xml-namespace)
+Click this button to add the namespace specified in the **Imported namespaces** box to the list of imported namespaces. The button is active only if the specified namespace is not already in the list.
+
+ **Namespaces list**
+
+This list shows all available namespaces. The check boxes for namespaces included in your project are selected.
+
+ **Update User Import**
+
+Select a user-specified namespace in the namespaces list, type the name that you want to replace it with in the **Imported namespaces** box, and then click this button to change to the new namespace. The button is active only if the selected namespace is one that you added to the list by using the **Add User Import** button. You can add:
+
+- Classes or namespaces, such as <xref:System.Math?displayProperty=fullName>.
+
+- Aliased imports, such as `VB=Microsoft.VisualBasic`.
+
+- XML namespaces, such as `<xmlns:xsl="http://www.w3.org/1999/XSL/Transform">`.
+
+## See also
+
+- [Managing references in a project](../../ide/managing-references-in-a-project.md)
+- [How to: Add or Remove Imported Namespaces (Visual Basic)](../../ide/how-to-add-or-remove-imported-namespaces-visual-basic.md)
+- [Imports Statement (XML Namespace)](/dotnet/visual-basic/language-reference/statements/imports-statement-xml-namespace)

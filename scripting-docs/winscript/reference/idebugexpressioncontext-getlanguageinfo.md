@@ -2,7 +2,6 @@
 title: "IDebugExpressionContext::GetLanguageInfo | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Returns a name and GUID for the language that owns this context.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetLanguageInfo(  
    BSTR*  pbstrLanguageName,  
    GUID*  pLanguageID  
@@ -48,5 +47,5 @@ HRESULT GetLanguageInfo(
 ## Remarks  
  This method returns a name and GUID for the language that owns this context.  
   
-## See Also  
+## See also  
  [IDebugExpressionContext Interface](../../winscript/reference/idebugexpressioncontext-interface.md)

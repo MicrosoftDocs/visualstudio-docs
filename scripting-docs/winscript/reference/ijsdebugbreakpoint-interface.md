@@ -2,7 +2,6 @@
 title: "IJsDebugBreakPoint Interface | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -18,7 +17,7 @@ Represents a breakpoint.
   
 ## Syntax  
   
-```  
+```cpp
 IJsDebugBreakPoint : public IUnknown;  
 ```  
   
@@ -37,5 +36,5 @@ IJsDebugBreakPoint : public IUnknown;
 ## Requirements  
  **Header:** jscript9diag.h  
   
-## See Also  
+## See also  
  [Windows Script Interfaces Reference](../../winscript/reference/windows-script-interfaces-reference.md)

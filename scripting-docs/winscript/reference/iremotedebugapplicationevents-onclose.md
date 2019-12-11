@@ -2,7 +2,6 @@
 title: "IRemoteDebugApplicationEvents::OnClose | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Handles an application close event.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT OnClose();  
 ```  
   
@@ -41,5 +40,5 @@ HRESULT OnClose();
 ## Remarks  
  This method handles an application close event.  
   
-## See Also  
+## See also  
  [IRemoteDebugApplicationEvents Interface](../../winscript/reference/iremotedebugapplicationevents-interface.md)

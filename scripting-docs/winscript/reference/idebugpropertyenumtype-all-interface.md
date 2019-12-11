@@ -2,7 +2,6 @@
 title: "IDebugPropertyEnumType_All Interface | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ The `IDebugPropertyEnumType` interfaces are defined so that each of their IIDs c
   
 ## Syntax  
   
-```  
+```cpp
 IDebugPropertyEnumType_All : IUnknown  
 ```  
   
@@ -36,12 +35,12 @@ IDebugPropertyEnumType_All : IUnknown
   
  The following interfaces inherit from `IDebugPropertyEnumType_All`, and have no additional methods.  
   
-```  
+```cpp
 IDebugPropertyEnumType_Arguments : IDebugPropertyEnumType_All   
 IDebugPropertyEnumType_Locals : IDebugPropertyEnumType_All   
 IDebugPropertyEnumType_LocalsPlusArgs : IDebugPropertyEnumType_All   
 IDebugPropertyEnumType_Registers : IDebugPropertyEnumType_All  
 ```  
   
-## See Also  
+## See also  
  [IDebugProperty::EnumMembers](../../winscript/reference/idebugproperty-enummembers.md)

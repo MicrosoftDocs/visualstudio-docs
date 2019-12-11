@@ -2,7 +2,6 @@
 title: "IDebugApplicationNode100 Interface | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -19,7 +18,7 @@ manager: "ghogen"
 The `IDebugApplicationNode100` interface extends the functionality of the [IDebugApplicationNode Interface](../../winscript/reference/idebugapplicationnode-interface.md). You can get an instance of this interface by calling QueryInterface on an implementation of [IDebugApplicationNode Interface](../../winscript/reference/idebugapplicationnode-interface.md).  
   
 > [!IMPORTANT]
->  This interface is implemented by PDM v10.0 and greater. Found in activdbg100.h.  
+> This interface is implemented by PDM v10.0 and greater. Found in activdbg100.h.  
   
 ## Methods  
  The `IDebugApplicationNode100` interface exposes the following methods.  

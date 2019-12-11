@@ -2,7 +2,6 @@
 title: "IScriptEntry::SetItemName | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Sets the item name that identifies an `IScriptEntry` object.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT SetItemName(  
    LPCOLESTR          psz  
 );  
@@ -47,6 +46,6 @@ HRESULT SetItemName(
   
  For `IScriptScriptlet` objects (which derive from `IScriptEntry`), this method returns `E_FAIL`. For `IScriptScriptlet` objects, the item name is set by [IActiveScriptAuthor::AddScriptlet](../../winscript/reference/iactivescriptauthor-addscriptlet.md) and cannot be changed.  
   
-## See Also  
+## See also  
  [IScriptEntry Interface](../../winscript/reference/iscriptentry-interface.md)   
  [IScriptEntry::GetItemName](../../winscript/reference/iscriptentry-getitemname.md)

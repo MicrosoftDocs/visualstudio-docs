@@ -1,0 +1,276 @@
+- name: Accessing data in Visual Studio
+# Auto-expanded node
+  items:
+  - name: Accessing data in Visual Studio
+    href: accessing-data-in-visual-studio.md
+  - name: Installing database systems, tools, and samples
+# Auto-expanded node
+    items:
+    - name: Installing database systems, tools, and samples
+      href: installing-database-systems-tools-and-samples.md
+    - name: Install SQL Server sample databases
+      href: install-sql-server-sample-databases.md
+    - name: Create a SQL database by using a script
+      href: create-a-sql-database-by-using-a-script.md
+    - name: Create a SQL database by using a designer
+      href: create-a-sql-database-by-using-a-designer.md
+    - name: Upgrade .mdf files
+      href: upgrade-dot-mdf-files.md
+  - name: Visual Studio data tools for .NET
+# Auto-expanded node
+    items:
+    - name: Visual Studio data tools for .NET
+      href: visual-studio-data-tools-for-dotnet.md
+    - name: Create a simple data application by using ADO.NET
+      href: create-a-simple-data-application-by-using-adonet.md
+    - name: Create a simple data application with WPF and Entity Framework 6
+      href: create-a-simple-data-application-with-wpf-and-entity-framework-6.md
+    - name: Add new connections
+# Auto-expanded node
+      items:
+      - name: Add new connections
+        href: add-new-connections.md
+      - name: Connect to data in an Access database (Windows Forms)
+        href: connect-to-data-in-an-access-database-windows-forms.md
+    - name: Add new data sources
+      href: add-new-data-sources.md
+    - name: Entity Data Model Tools in Visual Studio
+      href: entity-data-model-tools-in-visual-studio.md
+    - name: Dataset tools in Visual Studio
+# Auto-expanded node
+      items:
+      - name: Dataset tools in Visual Studio
+        href: dataset-tools-in-visual-studio.md
+      - name: Create and configure datasets
+# Auto-expanded node
+        items:
+        - name: Create and configure datasets
+          href: create-and-configure-datasets-in-visual-studio.md
+        - name: Typed vs. untyped datasets
+          href: typed-vs-untyped-datasets.md
+        - name: Relationships in datasets
+          href: relationships-in-datasets.md
+      - name: Fill datasets by using TableAdapters
+# Auto-expanded node
+        items:
+        - name: Fill datasets by using TableAdapters
+          href: fill-datasets-by-using-tableadapters.md
+        - name: Create and configure TableAdapters
+          href: create-and-configure-tableadapters.md
+        - name: Create parameterized TableAdapter queries
+          href: create-parameterized-tableadapter-queries.md
+        - name: Directly access the database with a TableAdapter
+          href: directly-access-the-database-with-a-tableadapter.md
+        - name: Turn off constraints while filling a dataset
+          href: turn-off-constraints-while-filling-a-dataset.md
+        - name: Extend the functionality of a TableAdapter
+          href: extend-the-functionality-of-a-tableadapter.md
+        - name: Read XML data into a dataset
+          href: read-xml-data-into-a-dataset.md
+      - name: Edit data in datasets
+        href: edit-data-in-datasets.md
+      - name: Validate data in datasets
+        href: validate-data-in-datasets.md
+      - name: Save data back to the database
+# Auto-expanded node
+        items:
+        - name: Save data back to the database
+          href: save-data-back-to-the-database.md
+        - name: Insert new records into a database
+          href: insert-new-records-into-a-database.md
+        - name: Update data by using a TableAdapter
+          href: update-data-by-using-a-tableadapter.md
+        - name: Hierarchical update
+          href: hierarchical-update.md
+        - name: Handle a concurrency exception
+          href: handle-a-concurrency-exception.md
+        - name: Save data by using a transaction
+          href: save-data-by-using-a-transaction.md
+        - name: Save data in a transaction
+          href: save-data-in-a-transaction.md
+        - name: Save data to a database (multiple tables)
+          href: save-data-to-a-database-multiple-tables.md
+        - name: Save data from an object to a database
+          href: save-data-from-an-object-to-a-database.md
+        - name: Save data with the TableAdapter DBDirect methods
+          href: save-data-with-the-tableadapter-dbdirect-methods.md
+        - name: Save a dataset as XML
+          href: save-a-dataset-as-xml.md
+      - name: Query datasets
+        href: query-datasets.md
+      - name: Work with datasets in n-tier applications
+# Auto-expanded node
+        items:
+        - name: Work with datasets in n-tier applications
+          href: work-with-datasets-in-n-tier-applications.md
+        - name: Add validation to an n-tier dataset
+          href: add-validation-to-an-n-tier-dataset.md
+        - name: Add code to datasets in n-tier applications
+          href: add-code-to-datasets-in-n-tier-applications.md
+        - name: Add code to TableAdapters in n-tier applications
+          href: add-code-to-tableadapters-in-n-tier-applications.md
+        - name: Separate datasets and TableAdapters into different projects
+          href: separate-datasets-and-tableadapters-into-different-projects.md
+    - name: LINQ to SQL Tools in Visual Studio
+# Auto-expanded node
+      items:
+      - name: LINQ to SQL Tools in Visual Studio
+        href: linq-to-sql-tools-in-visual-studio2.md
+      - name: DataContext Methods (O/R Designer)
+# Auto-expanded node
+        items:
+        - name: DataContext Methods (O/R Designer)
+          href: datacontext-methods-o-r-designer.md
+        - name: Change the return type of a DataContext method (O/R Designer)
+          href: how-to-change-the-return-type-of-a-datacontext-method-o-r-designer.md
+        - name: Create DataContext methods mapped to stored procedures and functions (O/R Designer)
+          href: how-to-create-datacontext-methods-mapped-to-stored-procedures-and-functions-o-r-designer.md
+      - name: Data class inheritance (O/R Designer)
+# Auto-expanded node
+        items:
+        - name: Data class inheritance (O/R Designer)
+          href: data-class-inheritance-o-r-designer.md
+        - name: Configure inheritance by using the O/R Designer
+          href: how-to-configure-inheritance-by-using-the-o-r-designer.md
+        - name: Creating LINQ to SQL Classes by Using Single-Table Inheritance (O/R Designer)
+          href: walkthrough-creating-linq-to-sql-classes-by-using-single-table-inheritance-o-r-designer.md
+      - name: Create LINQ to SQL classes mapped to tables and views (O/R Designer)
+        href: how-to-create-linq-to-sql-classes-mapped-to-tables-and-views-o-r-designer.md
+      - name: Extend Code Generated by the O/R Designer
+        href: how-to-extend-code-generated-by-the-o-r-designer.md
+      - name: Create an association (relationship) between LINQ to SQL classes (O/R Designer)
+        href: how-to-create-an-association-relationship-between-linq-to-sql-classes-o-r-designer.md
+      - name: Add validation to entity classes
+        href: how-to-add-validation-to-entity-classes.md
+      - name: Customizing the insert, update, and delete behavior of entity classes
+        href: walkthrough-customizing-the-insert-update-and-delete-behavior-of-entity-classes.md
+      - name: Assign stored procedures to perform updates, inserts, and deletes (O/R Designer)
+        href: how-to-assign-stored-procedures-to-perform-updates-inserts-and-deletes-o-r-designer.md
+      - name: Turn pluralization on and off (O/R Designer)
+        href: how-to-turn-pluralization-on-and-off-o-r-designer.md
+      - name: O/R Designer Messages
+# Auto-expanded node
+        items:
+        - name: O/R Designer Messages
+          href: o-r-designer-messages.md
+        - name: The selected class cannot be deleted because it is used as a return type for one or more DataContext methods
+          href: the-selected-class-cannot-be-deleted-because-it-is-used-as-a-return-type-for-one-or-more-datacontext-methods.md
+        - name: The connection string contains credentials with a clear text password and is not using integrated security
+          href: the-connection-string-contains-credentials-with-a-clear-text-password-and-is-not-using-integrated-security.md
+        - name: The property <property name\> cannot be deleted because it is participating in the association <association name\>
+          href: the-property-property-name-cannot-be-deleted-because-it-is-participating-in-the-association-association-name.md
+        - name: The property <property name\> cannot be deleted
+          href: the-property-property-name-cannot-be-deleted.md
+        - name: The connection property in the Application Settings file is missing or incorrect
+          href: the-connection-property-in-the-application-settings-file-is-missing-or-incorrect.md
+        - name: You have selected a database object from an unsupported database provider
+          href: you-have-selected-a-database-object-from-an-unsupported-database-provider.md
+        - name: Cannot create an association <association name\> - property types do not match
+          href: cannot-create-an-association-association-name-property-types-do-not-match.md
+        - name: Warning. Changes have been made to the Configure Behavior dialog box that have not been applied
+          href: warning-changes-have-been-made-to-the-configure-behavior-dialog-box-that-have-not-been-applied.md
+        - name: This related method is the backing method for the following default insert, update, or delete methods
+          href: this-related-method-is-the-backing-method-for-the-following-default-insert-update-or-delete-methods.md
+        - name: One or more selected items contain a data type that is not supported by the designer
+          href: one-or-more-selected-items-contain-a-data-type-that-is-not-supported-by-the-designer.md
+        - name: Changing the return type of a DataContext method cannot be undone
+          href: changing-the-return-type-of-a-datacontext-method-cannot-be-undone.md
+        - name: The designer cannot be modified while debugging
+          href: the-designer-cannot-be-modified-while-debugging.md
+        - name: The selected connection uses an unsupported database provider
+          href: the-selected-connection-uses-an-unsupported-database-provider.md
+        - name: The objects you are adding to the designer use a different data connection than the designer is currently using
+          href: the-objects-you-are-adding-to-the-designer-use-a-different-data-connection-than-the-designer-is-currently-using.md
+        - name: Cannot create an association <association name\> - property listed twice
+          href: cannot-create-an-association-association-name-property-listed-twice.md
+        - name: Could not retrieve schema information for database object <object name\>
+          href: could-not-retrieve-schema-information-for-database-object-object-name.md
+        - name: One or more selected database objects return a schema that does not match the schema of the target class
+          href: one-or-more-selected-database-objects-return-a-schema-that-does-not-match-the-schema-of-the-target-class.md
+    - name: Bind controls to data in Visual Studio
+# Auto-expanded node
+      items:
+      - name: Bind controls to data in Visual Studio
+        href: bind-controls-to-data-in-visual-studio.md
+      - name: Set the control to be created when dragging from the Data Sources window
+        href: set-the-control-to-be-created-when-dragging-from-the-data-sources-window.md
+      - name: Add custom controls to the Data Sources window
+        href: add-custom-controls-to-the-data-sources-window.md
+      - name: Filter and sort data in a Windows Forms application
+        href: filter-and-sort-data-in-a-windows-forms-application.md
+      - name: Bind WPF controls to data in Visual Studio
+# Auto-expanded node
+        items:
+        - name: Bind WPF controls to data in Visual Studio
+          href: bind-wpf-controls-to-data-in-visual-studio1.md
+        - name: Bind WPF controls to a dataset
+          href: bind-wpf-controls-to-a-dataset.md
+        - name: Bind WPF controls to data in Visual Studio
+          href: bind-wpf-controls-to-data-in-visual-studio2.md
+        - name: Bind WPF controls to a WCF data service
+          href: bind-wpf-controls-to-a-wcf-data-service.md
+        - name: Create lookup tables in WPF applications
+          href: create-lookup-tables-in-wpf-applications.md
+        - name: Display related data in WPF applications
+          href: display-related-data-in-wpf-applications.md
+        - name: Display Related Data in a WPF Application
+          href: walkthrough-displaying-related-data-in-a-wpf-application.md
+        - name: Bind controls to pictures from a database
+          href: bind-controls-to-pictures-from-a-database.md
+      - name: Bind Windows Forms controls to data in Visual Studio
+# Auto-expanded node
+        items:
+        - name: Bind Windows Forms controls to data in Visual Studio
+          href: bind-windows-forms-controls-to-data-in-visual-studio.md
+        - name: Bind Windows Forms controls to data
+          href: bind-windows-forms-controls-to-data.md
+        - name: Commit in-process edits on data-bound controls before saving data
+          href: commit-in-process-edits-on-data-bound-controls-before-saving-data.md
+        - name: Create lookup tables in Windows Forms applications
+          href: create-lookup-tables-in-windows-forms-applications.md
+        - name: Create a Windows Form to search data
+          href: create-a-windows-form-to-search-data.md
+        - name: Create a Windows Forms user control that supports simple data binding
+          href: create-a-windows-forms-user-control-that-supports-simple-data-binding.md
+        - name: Create a Windows Forms user control that supports complex data binding
+          href: create-a-windows-forms-user-control-that-supports-complex-data-binding.md
+        - name: Create a Windows Forms user control that supports lookup data binding
+          href: create-a-windows-forms-user-control-that-supports-lookup-data-binding.md
+        - name: Pass data between forms
+          href: pass-data-between-forms.md
+      - name: Bind objects in Visual Studio
+        href: bind-objects-in-visual-studio.md
+      - name: Customize how Visual Studio creates captions for data-bound controls
+        href: customize-how-visual-studio-creates-captions-for-data-bound-controls.md
+    - name: Windows Communication Foundation Services and WCF Data Services in Visual Studio
+# Auto-expanded node
+      items:
+      - name: Windows Communication Foundation Services and WCF Data Services in Visual Studio
+        href: windows-communication-foundation-services-and-wcf-data-services-in-visual-studio.md
+      - name: Connect to Data in a Service
+        href: how-to-connect-to-data-in-a-service.md
+      - name: Creating a simple WCF Service in Windows Forms
+        href: walkthrough-creating-a-simple-wcf-service-in-windows-forms.md
+      - name: Creating a WCF Data Service with WPF and Entity Framework
+        href: walkthrough-creating-a-wcf-data-service-with-wpf-and-entity-framework.md
+      - name: Working with a Conceptual Model
+        href: working-with-a-conceptual-model-wcf-data-services.md
+      - name: Troubleshooting Service References
+        href: troubleshooting-service-references.md
+      - name: Configure Service Reference Dialog Box
+        href: configure-service-reference-dialog-box.md
+      - name: Add, Update, or Remove a WCF Data Service Reference
+        href: how-to-add-update-or-remove-a-wcf-data-service-reference.md
+    - name: Creating and managing databases and data-tier applications in Visual Studio
+# Auto-expanded node
+      items:
+      - name: Creating and managing databases and data-tier applications in Visual Studio
+        href: creating-and-managing-databases-and-data-tier-applications-in-visual-studio.md
+      - name: Creating an N-Tier Data Application
+        href: walkthrough-creating-an-n-tier-data-application.md
+      - name: N-Tier Data Applications Overview
+        href: n-tier-data-applications-overview.md
+    - name: Additional resources for troubleshooting data access errors
+      href: additional-resources-for-troubleshooting-data-access-errors.md
+  - name: Visual Studio data tools for C++
+    href: visual-studio-data-tools-for-cpp.md

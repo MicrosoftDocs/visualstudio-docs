@@ -2,7 +2,6 @@
 title: "IActiveScriptProfilerCallback::Initialize | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -22,7 +21,7 @@ Called to initialize the profiler object whenever profiling is started on a scri
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT Initialize(  
     [in] DWORD dwContext);  
 ```  
@@ -41,5 +40,5 @@ HRESULT Initialize(
 ## Remarks  
  If the method cannot initialize the profiler object, it should return a failure HRESULT to notify the scripting engine. In this case, the scripting engine should directly call [IActiveScriptProfilerCallback::Shutdown](../../winscript/reference/iactivescriptprofilercallback-shutdown.md), passing the HRESULT in the parameter, and then release the profiler object.  
   
-## See Also  
+## See also  
  [IActiveScriptProfilerCallback Interface](../../winscript/reference/iactivescriptprofilercallback-interface.md)

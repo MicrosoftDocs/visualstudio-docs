@@ -2,7 +2,6 @@
 title: "IActiveScriptProfilerCallback::OnFunctionExit | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -22,7 +21,7 @@ Notifies the profiler object that the scripting engine finished executing a func
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT OnFunctionExit(  
     [in] PROFILER_TOKEN scriptId,   
     [in] PROFILER_TOKEN functionId);  
@@ -41,6 +40,6 @@ HRESULT OnFunctionExit(
 ## Remarks  
  For DOM calls, the scripting engine calls [IActiveScriptProfilerCallback2::OnFunctionExitByName](../../winscript/reference/iactivescriptprofilercallback2-onfunctionexitbyname.md) instead of `IActiveScriptProfilerCallback::OnFunctionExit`. This is due to the large number of unique methods and properties in the DOM.  
   
-## See Also  
+## See also  
  [IActiveScriptProfilerCallback::OnFunctionEnter](../../winscript/reference/iactivescriptprofilercallback-onfunctionenter.md)   
  [IActiveScriptProfilerCallback Interface](../../winscript/reference/iactivescriptprofilercallback-interface.md)

@@ -2,7 +2,6 @@
 title: "IDebugDocumentHelper::Attach | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Adds this document to the document tree.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT Attach(  
    IDebugDocumentHelper*  pddhParent  
 );  
@@ -44,6 +43,6 @@ HRESULT Attach(
 ## Remarks  
  This method adds this document to the document tree, using `pddhParent` as the parent. If the `pddhParent` is `NULL`, this document will be the top-level document.  
   
-## See Also  
+## See also  
  [IDebugDocumentHelper::Detach](../../winscript/reference/idebugdocumenthelper-detach.md)   
  [IDebugDocumentHelper Interface](../../winscript/reference/idebugdocumenthelper-interface.md)

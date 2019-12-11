@@ -2,7 +2,6 @@
 title: "IDebugDocumentInfo::GetDocumentClassId | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Returns a `CLSID` identifying the document type.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetDocumentClassId(  
    CLSID*  pclsidDocument  
 );  
@@ -46,5 +45,5 @@ HRESULT GetDocumentClassId(
   
  If the document does not have viewable data, the return value of `pclsidDocument` is `CLSID_NULL`.  
   
-## See Also  
+## See also  
  [IDebugDocumentInfo Interface](../../winscript/reference/idebugdocumentinfo-interface.md)

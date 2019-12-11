@@ -1,17 +1,19 @@
 ---
 layout: LandingPage
-author: jasongroce
-ms.author: apexprodleads
-ms.technology: vs-ide-sdk
-ms.topic: landing-page
-title: Visual Studio Extensibility Documentation | Microsoft Docs
+title: Visual Studio Extensibility
 description: Learn about Visual Studio extensibility.
-ms.workload: 
+author: madskristensen
+ms.author: madsk
+ms.date: 10/31/2018
+ms.topic: landing-page
+ms.workload:
   - apexprodleads
 ---
-# Visual Studio Extensibility Documentation
+# Visual Studio extensibility documentation
 
 Visual Studio gives you a lot of extensibility options. You can extend Visual Studio itself, add source code analyzers for the "Roslyn" compiler, or even create your own SDKs.
+
+<!-- markdownlint-disable MD033 -->
 
 <ul class="panelContent cardsFTitle">
     <li>
@@ -21,7 +23,7 @@ Visual Studio gives you a lot of extensibility options. You can extend Visual St
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="/media/logos/logo_VS.svg" alt="" />
+                            <img src="/media/logos/logo_VS.svg" alt="Visual Studio logo" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -39,11 +41,11 @@ Visual Studio gives you a lot of extensibility options. You can extend Visual St
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="/media/common/i_extensions.svg" alt="" />
+                            <img src="/media/common/i_extensions.svg" alt="Extensions icon" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>.NET Compiler Platform ("Roslyn") Extensibility</h3>
+                        <h3>.NET Compiler Platform (&quot;Roslyn&quot;) Extensibility</h3>
                     </div>
                 </div>
             </div>
@@ -57,7 +59,7 @@ Visual Studio gives you a lot of extensibility options. You can extend Visual St
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="/media/common/i_tools.svg" alt="" />
+                            <img src="/media/common/i_tools.svg" alt="Tools icon" />
                         </div>
                     </div>
                     <div class="cardText">

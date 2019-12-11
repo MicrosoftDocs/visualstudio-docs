@@ -2,7 +2,6 @@
 title: "IDebugDocumentTextEvents::onReplaceText | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Indicates that text has been replaced.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT onReplaceText(  
    ULONG  cCharacterPosition,  
    ULONG  cNumToReplace  
@@ -48,5 +47,5 @@ HRESULT onReplaceText(
 ## Remarks  
  This method indicates that text has been replaced.  
   
-## See Also  
+## See also  
  [IDebugDocumentTextEvents Interface](../../winscript/reference/idebugdocumenttextevents-interface.md)

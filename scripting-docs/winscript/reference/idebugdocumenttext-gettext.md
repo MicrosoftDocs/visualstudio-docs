@@ -2,7 +2,6 @@
 title: "IDebugDocumentText::GetText | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Retrieves the characters and/or the character attributes associated with a chara
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetText(  
    ULONG              cCharacterPosition,  
    WCHAR*             pcharText,  
@@ -60,6 +59,6 @@ HRESULT GetText(
 ## Remarks  
  This method retrieves the characters and/or the character attributes associated with a character-position range. The character position range is specified by a character-position and a number of characters.  
   
-## See Also  
+## See also  
  [IDebugDocumentText Interface](../../winscript/reference/idebugdocumenttext-interface.md)   
  [SOURCE_TEXT_ATTR Enumeration](../../winscript/reference/source-text-attr-enumeration.md)

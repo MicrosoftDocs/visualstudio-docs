@@ -2,7 +2,6 @@
 title: "IActiveScript::GetScriptSite | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Retrieves the site object associated with the Windows Script engine.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetScriptSite(  
     REFIID iid,           // interface identifier  
     void **ppvSiteObject  // address of host site interface  
@@ -49,5 +48,5 @@ HRESULT GetScriptSite(
 |`E_POINTER`|An invalid pointer was specified.|  
 |`S_FALSE`|No site has been set; the `ppvSiteObject` parameter is set to `NULL`.|  
   
-## See Also  
+## See also  
  [IActiveScript](../../winscript/reference/iactivescript.md)

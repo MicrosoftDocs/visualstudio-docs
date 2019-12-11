@@ -2,7 +2,6 @@
 title: "IEnumDebugExtendedPropertyInfo::Next | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,11 +23,11 @@ Retrieves a specified number of`ExtendedDebugPropertyInfo` structures in an enum
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT Next (  
-   ULONGcelt,  
-   ExtendedDebugPropertyInfo *rgelt,  
-   ULONG* pceltFetched  
+   ULONGcelt,  
+   ExtendedDebugPropertyInfo *rgelt,  
+   ULONG* pceltFetched  
 );  
 ```  
   
@@ -45,6 +44,6 @@ HRESULT Next (
 ## Return Value  
  Returns a valid `HRESULT`, typically `S_OK`.  
   
-## See Also  
+## See also  
  [IEnumDebugExtendedPropertyInfo Interface](../../winscript/reference/ienumdebugextendedpropertyinfo-interface.md)   
  [ExtendedDebugPropertyInfo Structure](../../winscript/reference/extendeddebugpropertyinfo-structure.md)

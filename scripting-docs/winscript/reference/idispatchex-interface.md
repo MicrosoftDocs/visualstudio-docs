@@ -2,7 +2,6 @@
 title: "IDispatchEx Interface | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,48 +23,48 @@ manager: "ghogen"
   
  `IDispatchEx` was developed to provide all the services of `IDispatch` as well as some extensions that are appropriate for more dynamic late-bound languages such as scripting languages. The additional features of `IDispatchEx` beyond those provided by `IDispatch` are:  
   
--   Add new members to an object ("expando")—use `GetDispID` with the `fdexNameEnsure` flag.  
+- Add new members to an object ("expando")—use `GetDispID` with the `fdexNameEnsure` flag.  
   
--   Delete members of an object—use `DeleteMemberByName` or `DeleteMemberByDispID`.  
+- Delete members of an object—use `DeleteMemberByName` or `DeleteMemberByDispID`.  
   
--   Case-sensitive dispatch operations—use `fdexNameCaseSensitive` or `fdexNameCaseInsensitive`.  
+- Case-sensitive dispatch operations—use `fdexNameCaseSensitive` or `fdexNameCaseInsensitive`.  
   
--   Search for member with implicit name—use `fdexNameImplicit`.  
+- Search for member with implicit name—use `fdexNameImplicit`.  
   
--   Enumerate DISPIDs of an object—use `GetNextDispID`.  
+- Enumerate DISPIDs of an object—use `GetNextDispID`.  
   
--   Map from DISPID to element name—use `GetMemberName`.  
+- Map from DISPID to element name—use `GetMemberName`.  
   
--   Obtain properties of object members—use `GetMemberProperties`.  
+- Obtain properties of object members—use `GetMemberProperties`.  
   
--   Method invocation with `this` pointer—use `InvokeEx` with DISPATCH_METHOD.  
+- Method invocation with `this` pointer—use `InvokeEx` with DISPATCH_METHOD.  
   
--   Allow browsers that support the concept of name spaces to obtain the name space parent of an object—use `GetNameSpaceParent`.  
+- Allow browsers that support the concept of name spaces to obtain the name space parent of an object—use `GetNameSpaceParent`.  
   
- Objects that support `IDispatchEx` might also support `IDispatch` for backward compatibility. The dynamic nature of objects that support `IDispatchEx` has a few implications for the `IDispatch` interface of those objects. For example, `IDispatch` makes the following assumption:  
+  Objects that support `IDispatchEx` might also support `IDispatch` for backward compatibility. The dynamic nature of objects that support `IDispatchEx` has a few implications for the `IDispatch` interface of those objects. For example, `IDispatch` makes the following assumption:  
   
--   The member and parameter DISPIDs must remain constant for the lifetime of the object. This allows a client to obtain DISPIDs once and cache them for later use.  
+- The member and parameter DISPIDs must remain constant for the lifetime of the object. This allows a client to obtain DISPIDs once and cache them for later use.  
   
- Since `IDispatchEx` allows the addition and deletion of members, the set of valid DISPIDs does not remain constant. However, `IDispatchEx` requires that the mapping between DISPID and member name remain constant. This means that if a member is deleted:  
+  Since `IDispatchEx` allows the addition and deletion of members, the set of valid DISPIDs does not remain constant. However, `IDispatchEx` requires that the mapping between DISPID and member name remain constant. This means that if a member is deleted:  
   
--   The DISPID cannot be reused until a member with the same name is created.  
+- The DISPID cannot be reused until a member with the same name is created.  
   
--   The DISPID must remain valid for `GetNextDispID`.  
+- The DISPID must remain valid for `GetNextDispID`.  
   
--   The DISPID must be accepted gracefully by any of the `IDispatch` or `IDispatchEx` methods—they must recognize the member as deleted and return an appropriate error code (usually DISP_E_MEMBERNOTFOUND or S_FALSE).  
+- The DISPID must be accepted gracefully by any of the `IDispatch` or `IDispatchEx` methods—they must recognize the member as deleted and return an appropriate error code (usually DISP_E_MEMBERNOTFOUND or S_FALSE).  
   
 ## Examples  
  This [!INCLUDE[javascript](../../javascript/includes/javascript-md.md)] code in the function test() does the following:  
   
--   Creates a new object by calling the `Object` constructor and assigns a pointer to the new object to the variable Obj.  
+- Creates a new object by calling the `Object` constructor and assigns a pointer to the new object to the variable Obj.  
   
--   Creates a new element named Elem in the object and assigns to this element a pointer to the function cat.  
+- Creates a new element named Elem in the object and assigns to this element a pointer to the function cat.  
   
--   Calls this function. Since it is being called as a method, the `this` pointer refers to the object Obj. The function adds a new element, Bar, to the object.  
+- Calls this function. Since it is being called as a method, the `this` pointer refers to the object Obj. The function adds a new element, Bar, to the object.  
   
- The full HTML code is:  
+  The full HTML code is:  
   
-```  
+```html
 <html>  
 <body>  
 <script type="text/javascript">  
@@ -96,7 +95,7 @@ test();
   
  A control placed on this same Web page could obtain a dispatch pointer to the script engines from the browser. The control could then implement the function test():  
   
-```  
+```html
 <html>  
 <body>  
 <script type="text/javascript">  
@@ -114,25 +113,25 @@ function cat()
   
  Code from the control, test, does the same thing as the [!INCLUDE[javascript](../../javascript/includes/javascript-md.md)] function `test()`. Note that these dispatch calls are made into the running [!INCLUDE[javascript](../../javascript/includes/javascript-md.md)] engine and change the state of the engine:  
   
--   Obtains the dispatch pointer to the cat function using `GetDispID()`.  
+- Obtains the dispatch pointer to the cat function using `GetDispID()`.  
   
--   Obtains the dispatch pointer to the Object function using `GetDispID()`.  
+- Obtains the dispatch pointer to the Object function using `GetDispID()`.  
   
--   Constructs an object by calling the Object function with `InvokeEx()` and obtains a dispatch pointer to the newly constructed object.  
+- Constructs an object by calling the Object function with `InvokeEx()` and obtains a dispatch pointer to the newly constructed object.  
   
--   Creates a new element, Elem, in the object using `GetDispID()` with the `fdexNameEnsure` flag.  
+- Creates a new element, Elem, in the object using `GetDispID()` with the `fdexNameEnsure` flag.  
   
--   Puts the dispatch pointer to cat in the element using `InvokeEx()`.  
+- Puts the dispatch pointer to cat in the element using `InvokeEx()`.  
   
--   Calls the dispatch pointer to cat as a method by calling `InvokeEx()` and passing in the dispatch pointer to the constructed object as the `this` pointer.  
+- Calls the dispatch pointer to cat as a method by calling `InvokeEx()` and passing in the dispatch pointer to the constructed object as the `this` pointer.  
   
--   The cat method creates a new element, Bar, on the current `this` object.  
+- The cat method creates a new element, Bar, on the current `this` object.  
   
--   Verifies that the new element, Bar, was created in the constructed object by enumerating through the elements using `GetNextDispID()`.  
+- Verifies that the new element, Bar, was created in the constructed object by enumerating through the elements using `GetNextDispID()`.  
   
- The code for the test control:  
+  The code for the test control:  
   
-```  
+```cpp
    BOOL test(IDispatchEx *pdexScript)  
    {  
       HRESULT hr;  

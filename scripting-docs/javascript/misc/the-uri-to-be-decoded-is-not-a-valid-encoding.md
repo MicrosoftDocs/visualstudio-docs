@@ -1,14 +1,9 @@
 ---
 title: "The URI to be decoded is not a valid encoding | Microsoft Docs"
-ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-client-threshold"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "javascript"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-windows
+ms.technology: vs-javascript
+ms.topic: reference
 f1_keywords: 
   - "VS.WebClient.Help.SCRIPT5025"
 dev_langs: 
@@ -16,7 +11,6 @@ dev_langs:
   - "TypeScript"
   - "DHTML"
 ms.assetid: 029e0790-ffd1-496d-8700-3b3dbac1b6fd
-caps.latest.revision: 9
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
@@ -34,8 +28,8 @@ You attempted to decode an improperly formed URI (Uniform Resource Identifier). 
   
 ### To correct this error  
   
--   Ensure you are trying to decode valid URIs only. You cannot decode normal [!INCLUDE[javascript](../../javascript/includes/javascript-md.md)] strings, as they may contain invalid characters.  
+- Ensure you are trying to decode valid URIs only. You cannot decode normal [!INCLUDE[javascript](../../javascript/includes/javascript-md.md)] strings, as they may contain invalid characters.  
   
-## See Also  
+## See also  
  [decodeURI Function](../../javascript/reference/decodeuri-function-javascript.md)   
  [decodeURIComponent Function](../../javascript/reference/decodeuricomponent-function-javascript.md)

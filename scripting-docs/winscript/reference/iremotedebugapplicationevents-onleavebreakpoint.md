@@ -2,7 +2,6 @@
 title: "IRemoteDebugApplicationEvents::OnLeaveBreakPoint | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Handles an event for leaving a breakpoint.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT OnLeaveBreakPoint(  
    IRemoteDebugApplicationThread*  prdat  
 );  
@@ -44,5 +43,5 @@ HRESULT OnLeaveBreakPoint(
 ## Remarks  
  This method handles an event for leaving a breakpoint.  
   
-## See Also  
+## See also  
  [IRemoteDebugApplicationEvents Interface](../../winscript/reference/iremotedebugapplicationevents-interface.md)

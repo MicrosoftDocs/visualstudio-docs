@@ -2,7 +2,6 @@
 title: "ISetNextStatement::SetNextStatement | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -22,7 +21,7 @@ This method updates the next code context that the script interpreter can execut
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT SetNextStatement(  
    IDebugStackFrame*  pStackFrame,  
    IDebugCodeContext*  pCodeContext  
@@ -45,5 +44,5 @@ HRESULT SetNextStatement(
   
 ## Remarks  
   
-## See Also  
+## See also  
  [ISetNextStatement Interface](../../winscript/reference/isetnextstatement-interface.md)

@@ -2,7 +2,6 @@
 title: "IRemoteDebugApplicationThread::GetSuspendCount | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Returns the suspend count for the thread.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetSuspendCount(  
    DWORD*  pdwCount  
 );  
@@ -44,5 +43,5 @@ HRESULT GetSuspendCount(
 ## Remarks  
  This method returns the suspend count for the thread.  
   
-## See Also  
+## See also  
  [IRemoteDebugApplicationThread Interface](../../winscript/reference/iremotedebugapplicationthread-interface.md)

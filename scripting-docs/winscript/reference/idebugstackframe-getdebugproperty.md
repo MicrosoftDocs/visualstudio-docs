@@ -2,7 +2,6 @@
 title: "IDebugStackFrame::GetDebugProperty | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Returns a property browser for the current frame.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetDebugProperty(  
    IDebugProperty**  ppDebugProp  
 );  
@@ -44,5 +43,5 @@ HRESULT GetDebugProperty(
 ## Remarks  
  This method returns a property browser for the current frame.  
   
-## See Also  
+## See also  
  [IDebugStackFrame Interface](../../winscript/reference/idebugstackframe-interface.md)

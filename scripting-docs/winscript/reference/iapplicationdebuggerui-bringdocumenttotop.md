@@ -2,7 +2,6 @@
 title: "IApplicationDebuggerUI::BringDocumentToTop | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Brings the window containing the specified debug document to the top in the debu
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT BringDocumentToTop(  
    IDebugDocumentText*  pddt  
 );  
@@ -45,5 +44,5 @@ HRESULT BringDocumentToTop(
 ## Remarks  
  This method brings the window containing the specified debug document to the top in the debugger user interface.  
   
-## See Also  
+## See also  
  [IApplicationDebuggerUI Interface](../../winscript/reference/iapplicationdebuggerui-interface.md)

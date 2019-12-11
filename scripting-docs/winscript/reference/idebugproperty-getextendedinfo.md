@@ -2,7 +2,6 @@
 title: "IDebugProperty::GetExtendedInfo | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,11 +23,11 @@ Gets extended information for the property.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetExtendedInfo (  
-   ULONG  cInfos,  
-   GUID*  rgguidExtendedInfo,  
-   VARIANT* pExtendedInfo  
+   ULONG  cInfos,  
+   GUID*  rgguidExtendedInfo,  
+   VARIANT* pExtendedInfo  
 );  
 ```  
   
@@ -48,5 +47,5 @@ HRESULT GetExtendedInfo (
 ## Remarks  
  This interface gets extended info for this object. The API exists only for the purpose of retrieving info that does not lend itself to being retrieved by the use of `IDebugProperty::GetPropertyInfo`).  
   
-## See Also  
+## See also  
  [IDebugProperty Interface](../../winscript/reference/idebugproperty-interface.md)

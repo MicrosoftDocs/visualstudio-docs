@@ -2,7 +2,6 @@
 title: "IActiveScriptAuthor::AddTypeLib | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Adds a type library to the namespace for the script.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT AddTypeLib(  
    REFGUID   rguidTypeLib,  
    DWORD     dwMajor,  
@@ -56,7 +55,7 @@ HRESULT AddTypeLib(
 ## Remarks  
  This method calls `LoadTypeLib` to load the type library. Upon success, this method calls `IActiveScriptAuthor::AddNamedItem` to add type information.  
   
-## See Also  
+## See also  
  [IActiveScriptAuthor Interface](../../winscript/reference/iactivescriptauthor-interface.md)   
  [IActiveScriptAuthor::AddNamedItem](../../winscript/reference/iactivescriptauthor-addnameditem.md)   
- [LoadTypeLib](http://msdn.microsoft.com/en-us/155b48e5-5438-409e-9342-630a6a500f60)
+ [LoadTypeLib](/previous-versions/windows/desktop/api/oleauto/nf-oleauto-loadtypelib)

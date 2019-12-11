@@ -2,7 +2,6 @@
 title: "IActiveScriptParse::InitNew | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Initializes the scripting engine.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT InitNew(void);  
 ```  
   
@@ -34,5 +33,5 @@ HRESULT InitNew(void);
 ## Remarks  
  Before the scripting engine can be used, one of the following methods must be called: `IPersist*::Load`, `IPersist*::InitNew`, or `IActiveScriptParse::InitNew`. The semantics of this method are identical to `IPersistStreamInit::InitNew`, in that this method tells the scripting engine to initialize itself. Note that it is not valid to call both `IPersist*::InitNew` or `IActiveScriptParse::InitNew` and `IPersist*::Load`, nor is it valid to call `IPersist*::InitNew`, `IActiveScriptParse::InitNew`, or `IPersist*::Load` more than once.  
   
-## See Also  
+## See also  
  [IActiveScriptParse](../../winscript/reference/iactivescriptparse.md)

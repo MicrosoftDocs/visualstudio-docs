@@ -2,7 +2,6 @@
 title: "IDebugDocumentHelper::SetDebugDocumentHost | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Sets the `IDebugDocumentHost` for this document.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT SetDebugDocumentHost(  
    IDebugDocumentHost*  pddh  
 );  
@@ -44,6 +43,6 @@ HRESULT SetDebugDocumentHost(
 ## Remarks  
  The `IDebugDocumentHost` interface is used for smart-host syntax coloring, fetching deferred text, and returning controlling objects for newly created document contexts.  
   
-## See Also  
+## See also  
  [IDebugDocumentHelper Interface](../../winscript/reference/idebugdocumenthelper-interface.md)   
  [IDebugDocumentHost Interface](../../winscript/reference/idebugdocumenthost-interface.md)

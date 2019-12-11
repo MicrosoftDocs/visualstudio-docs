@@ -2,7 +2,6 @@
 title: "IDebugDocumentTextExternalAuthor::GetPathName | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Returns the full path and file name of the document.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetPathName(  
    BSTR*  pbstrLongName,  
    BOOL*  pfIsOriginalFile  
@@ -51,5 +50,5 @@ HRESULT GetPathName(
   
  If `pfIsOriginalFile` is FALSE, the path and file name in `pbstrLongName` refer to a newly created temporary file.  
   
-## See Also  
+## See also  
  [IDebugDocumentTextExternalAuthor Interface](../../winscript/reference/idebugdocumenttextexternalauthor-interface.md)

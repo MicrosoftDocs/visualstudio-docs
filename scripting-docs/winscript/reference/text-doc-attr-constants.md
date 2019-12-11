@@ -2,7 +2,6 @@
 title: "TEXT_DOC_ATTR Constants | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Describe the attributes of the document.
   
 ## Syntax  
   
-```  
+```cpp
 typedef DWORD TEXT_DOC_ATTR;  
 ```  
   
@@ -37,5 +36,5 @@ typedef DWORD TEXT_DOC_ATTR;
 |TEXT_DOC_ATTR_TYPE_WORKER|0x00000004|The document is a worker.|  
 |TEXT_DOC_ATTR_TYPE_SCRIPT|0x00000008|The document is a script file.|  
   
-## See Also  
+## See also  
  [Active Script Debugger Constants, Enumerations, and Structures](../../winscript/reference/active-script-debugger-constants-enumerations-and-structures.md)

@@ -1,27 +1,22 @@
 ---
 title: "Collecting tier interaction data | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-f1_keywords: 
+ms.topic: "conceptual"
+f1_keywords:
   - "vs.performance.property.tierinteraction"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "Profiling Tools,ADO.NET profiling"
   - "tier interaction profiling method"
   - "Profiling Tools,tier-interaction method"
   - "ADO.NET performance profiling"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
-ms.workload: 
+manager: jillfra
+monikerRange: 'vs-2017'
+ms.workload:
   - "multiple"
 ---
-# Collecting tier interaction data
+# Collect tier interaction data
 
 Tier interaction profiling provides additional information about the execution times of functions of multi-tiered applications that communicate with databases through ADO.NET services. Data is collected only for synchronous function calls.
 
@@ -47,4 +42,4 @@ Because of a bug in the Performance Wizard, you must add the tier interaction da
 
 ## See also
 
-[Tier Interactions View](../profiling/tier-interactions-view.md)
+[Tier interactions view](../profiling/tier-interactions-view.md)

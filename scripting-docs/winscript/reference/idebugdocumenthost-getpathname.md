@@ -2,7 +2,6 @@
 title: "IDebugDocumentHost::GetPathName | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Returns the full path and file name of the document's source file.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetPathName(  
    BSTR*  pbstrLongName,  
    BOOL*  pfIsOriginalFile  
@@ -49,5 +48,5 @@ HRESULT GetPathName(
 ## Remarks  
  This method returns the full path and file name of the document's source file.  
   
-## See Also  
+## See also  
  [IDebugDocumentHost Interface](../../winscript/reference/idebugdocumenthost-interface.md)

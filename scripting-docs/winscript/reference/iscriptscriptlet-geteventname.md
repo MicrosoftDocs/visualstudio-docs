@@ -2,7 +2,6 @@
 title: "IScriptScriptlet::GetEventName | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Returns the name of the event associated with the scriptlet.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetEventName(  
    BSTR               *pbstr  
 );  
@@ -43,5 +42,5 @@ HRESULT GetEventName(
   
 ## Remarks  
   
-## See Also  
+## See also  
  [IScriptScriptlet Interface](../../winscript/reference/iscriptscriptlet-interface.md)

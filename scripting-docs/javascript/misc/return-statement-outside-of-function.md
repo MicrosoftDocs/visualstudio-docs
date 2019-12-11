@@ -1,14 +1,9 @@
 ---
-title: "&#39;return&#39; statement outside of function | Microsoft Docs"
-ms.custom: ""
+title: "'return' statement outside of function | Microsoft Docs"
 ms.date: "01/18/2017"
-ms.prod: "windows-client-threshold"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "javascript"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-windows
+ms.technology: vs-javascript
+ms.topic: reference
 f1_keywords: 
   - "VS.WebClient.Help.SCRIPT1018"
 dev_langs: 
@@ -16,17 +11,16 @@ dev_langs:
   - "TypeScript"
   - "DHTML"
 ms.assetid: 03568f9f-5f4f-4a10-a738-9a73f3832b9e
-caps.latest.revision: 6
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 ---
-# &#39;return&#39; statement outside of function
+# 'return' statement outside of function
 You used a `return` statement in the global scope of your code. The `return` statement should only appear within the body of a function.  
   
- Invoking a function with the `()` operator is an expression. All expressions have values; the `return` statement is used to specify the value retuned by a function. The general form is:  
+ Invoking a function with the `()` operator is an expression. All expressions have values; the `return` statement is used to specify the value returned by a function. The general form is:  
   
-```  
+```js
   
 return [ expression ];  
 ```  
@@ -39,9 +33,9 @@ return [ expression ];
   
 ### To correct this error  
   
--   Remove the `return` statement from the main body of your code (the global scope).  
+- Remove the `return` statement from the main body of your code (the global scope).  
   
-## See Also  
+## See also  
  [return Statement](../../javascript/reference/return-statement-javascript.md)   
  [Function Object](../../javascript/reference/function-object-javascript.md)   
  [caller Property (Function)](../../javascript/reference/caller-property-function-javascript.md)

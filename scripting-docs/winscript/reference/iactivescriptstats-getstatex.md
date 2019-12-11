@@ -2,7 +2,6 @@
 title: "IActiveScriptStats::GetStatEx | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Returns a custom script statistic.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetStatEx(  
    REFGUID  guid,  
    ULONG*   pluHi,  
@@ -54,8 +53,8 @@ HRESULT GetStatEx(
  This method allows a custom script engine to return statistics meaningful to a custom host.  
   
 > [!NOTE]
->  This method is not currently implemented.  
+> This method is not currently implemented.  
   
-## See Also  
+## See also  
  [IActiveScriptStats::GetStat](../../winscript/reference/iactivescriptstats-getstat.md)   
  [IActiveScriptStats Interface](../../winscript/reference/iactivescriptstats-interface.md)

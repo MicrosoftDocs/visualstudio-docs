@@ -2,7 +2,6 @@
 title: "IDebugAsyncOperation::GetSyncDebugOperation | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Returns the synchronous debug operation associated with this object.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetSyncDebugOperation(  
    IDebugSyncOperation**  ppsdo  
 );  
@@ -44,5 +43,5 @@ HRESULT GetSyncDebugOperation(
 ## Remarks  
  This method returns the synchronous debug operation associated with this object.  
   
-## See Also  
+## See also  
  [IDebugAsyncOperation Interface](../../winscript/reference/idebugasyncoperation-interface.md)

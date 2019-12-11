@@ -2,7 +2,6 @@
 title: "IDebugDocumentTextEvents::onUpdateDocumentAttributes | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Indicates that the document attributes changed.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT onUpdateDocumentAttributes(  
    TEXT_DOC_ATTR  textdocattr  
 );  
@@ -44,6 +43,6 @@ HRESULT onUpdateDocumentAttributes(
 ## Remarks  
  This method indicates that the document attributes have changed.  
   
-## See Also  
+## See also  
  [IDebugDocumentTextEvents Interface](../../winscript/reference/idebugdocumenttextevents-interface.md)   
  [TEXT_DOC_ATTR Constants](../../winscript/reference/text-doc-attr-constants.md)

@@ -2,7 +2,6 @@
 title: "IDispError::GetHresult | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Retrieves the error code from the `IDispError` object.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetHresult(  
    HRESULT*  phr  
 );  
@@ -45,7 +44,7 @@ HRESULT GetHresult(
  This method retrieves the error code from the `IDispError` object.  
   
 > [!NOTE]
->  This method is not implemented.  
+> This method is not implemented.  
   
-## See Also  
+## See also  
  [IDispError Interface](../../winscript/reference/idisperror-interface.md)

@@ -1,27 +1,21 @@
 ---
-title: "Walkthrough: Analyzing C/C++ Code for Defects | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-helpviewer_keywords: 
+title: "Walkthrough: Analyzing C/C++ Code for Defects"
+ms.date: 11/04/2016
+ms.topic: "conceptual"
+helpviewer_keywords:
   - "C/C++, code analysis"
   - "code analysis, walkthroughs"
   - "code, analyzing C/C++"
   - "code analysis tool, walkthroughs"
 author: mikeblome
 ms.author: mblome
-manager: ghogen
-ms.workload: 
+manager: markl
+ms.workload:
   - "cplusplus"
 ---
 # Walkthrough: Analyzing C/C++ Code for Defects
 
-This walkthrough demonstrates how to analyze C/C++ code for potential code defects by using the code analysis tool for C/C++ code. 
+This walkthrough demonstrates how to analyze C/C++ code for potential code defects by using the code analysis tool for C/C++ code.
 
 - Run code analysis on native code.
 - Analyze code defect warnings.
@@ -67,7 +61,7 @@ This walkthrough demonstrates how to analyze C/C++ code for potential code defec
 
      warning C6230: Implicit cast between semantically different types: using HRESULT in a Boolean context.
 
-     The code editor displays the line that caused the warning in the function `bool``ProcessDomain()`. This warning indicates that a HRESULT is being used in an 'if' statement where a Boolean result is expected.
+     The code editor displays the line that caused the warning in the function `bool ProcessDomain()`. This warning indicates that a HRESULT is being used in an 'if' statement where a Boolean result is expected.
 
 3. Correct this warning by using the SUCCEEDED macro. Your code should resemble the following code:
 
@@ -164,7 +158,7 @@ This walkthrough demonstrates how to analyze C/C++ code for potential code defec
 
    ```cpp
    . . .
-   LinkedList *newNode = NULL; 
+   LinkedList *newNode = NULL;
    if (NULL == node)
    {
         return NULL;

@@ -2,7 +2,6 @@
 title: "IDebugThreadCall::ThreadCallHandler | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Handles calls to run code in another thread.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT ThreadCallHandler(  
    DWORD_PTR  dwParam1,  
    DWORD_PTR  dwParam2,  
@@ -52,7 +51,7 @@ HRESULT ThreadCallHandler(
 ## Remarks  
  This method handles calls to run code in the debugger thread.  
   
-## See Also  
+## See also  
  [IDebugThreadCall Interface](../../winscript/reference/idebugthreadcall-interface.md)   
  [IDebugApplication::SynchronousCallInDebuggerThread](../../winscript/reference/idebugapplication-synchronouscallindebuggerthread.md)   
  [IDebugApplicationThread::SynchronousCallIntoThread](../../winscript/reference/idebugapplicationthread-synchronouscallintothread.md)

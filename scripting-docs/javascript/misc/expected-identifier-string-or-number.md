@@ -1,14 +1,9 @@
 ---
 title: "Expected identifier, string or number | Microsoft Docs"
-ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-client-threshold"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "javascript"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-windows
+ms.technology: vs-javascript
+ms.topic: reference
 f1_keywords: 
   - "VS.WebClient.Help.SCRIPT1028"
 dev_langs: 
@@ -16,7 +11,6 @@ dev_langs:
   - "TypeScript"
   - "DHTML"
 ms.assetid: f6bb8398-4fd6-4312-b4be-9617a2834cc4
-caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
@@ -30,7 +24,7 @@ var point = {x:1.2, y:-3.4};
   
 ### To correct this error  
   
--   Ensure you use the proper literal syntax.  
+- Ensure you use the proper literal syntax.  
   
-## See Also  
+## See also  
  [Comma Operator (,)](../../javascript/reference/comma-operator-decrement-javascript.md)

@@ -2,7 +2,6 @@
 title: "IDebugDocumentHost::GetScriptTextAttributes | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Returns the text attributes for a block of document text.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetScriptTextAttributes(  
    LPCOLESTR          pstrCode,  
    ULONG              uNumCodeChars,  
@@ -67,6 +66,6 @@ HRESULT GetScriptTextAttributes(
 ## Remarks  
  This method returns the text attributes for an arbitrary block of document text. It is acceptable for hosts to return `E_NOTIMPL`, in which case the default attributes are used.  
   
-## See Also  
+## See also  
  [IDebugDocumentHost Interface](../../winscript/reference/idebugdocumenthost-interface.md)   
  [SOURCE_TEXT_ATTR Enumeration](../../winscript/reference/source-text-attr-enumeration.md)

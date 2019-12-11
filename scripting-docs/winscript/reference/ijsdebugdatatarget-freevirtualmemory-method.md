@@ -2,7 +2,6 @@
 title: "IJsDebugDataTarget::FreeVirtualMemory Method | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -22,7 +21,7 @@ Releases and/or decommits a region of memory within the virtual address space of
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT FreeVirtualMemory(  
    UINT64 address,  
    DWORD size,  
@@ -48,5 +47,5 @@ HRESULT FreeVirtualMemory(
 ## Requirements  
  **Header:** jscript9diag.h  
   
-## See Also  
+## See also  
  [IJsDebugDataTarget Interface](../../winscript/reference/ijsdebugdatatarget-interface.md)

@@ -2,7 +2,6 @@
 title: "IDebugDocumentTextEvents::onRemoveText | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Indicates that text has been removed from the document.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT onRemoveText(  
    ULONG  cCharacterPosition,  
    ULONG  cNumToRemove  
@@ -48,6 +47,6 @@ HRESULT onRemoveText(
 ## Remarks  
  This method indicates that text has been removed from the document.  
   
-## See Also  
+## See also  
  [IDebugDocumentTextEvents Interface](../../winscript/reference/idebugdocumenttextevents-interface.md)   
  [IDebugDocumentTextEvents::onInsertText](../../winscript/reference/idebugdocumenttextevents-oninserttext.md)

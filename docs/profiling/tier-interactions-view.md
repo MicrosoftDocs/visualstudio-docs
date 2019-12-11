@@ -1,21 +1,16 @@
 ---
 title: "Tier Interactions View | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-f1_keywords: 
+ms.topic: "conceptual"
+f1_keywords:
   - "vs.performance.view.tierinteraction"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "Tier Interactions view"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
-ms.workload: 
+manager: jillfra
+monikerRange: 'vs-2017'
+ms.workload:
   - "multiple"
 ---
 # Tier Interactions View
@@ -32,7 +27,7 @@ The Interactions View displays tier interaction data in two panes:
 
 - When you click a database call node in the master pane, data for the instance of the database call is displayed in the details pane.
 
- Time is displayed as the number of milliseconds or the number of CPU clock ticks. To change the time unit displayed, click the **Tools** menu, click **Options**, and then choose one of the **Show time values as** options.
+  Time is displayed as the number of milliseconds or the number of CPU clock ticks. To change the time unit displayed, click the **Tools** menu, click **Options**, and then choose one of the **Show time values as** options.
 
 ## Master pane
 

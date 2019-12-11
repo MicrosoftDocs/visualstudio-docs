@@ -1,14 +1,9 @@
 ---
-title: "&#39;with&#39; not available in the ECMA 327 Compact Profile | Microsoft Docs"
-ms.custom: ""
+title: "'with' not available in the ECMA 327 Compact Profile | Microsoft Docs"
 ms.date: "01/18/2017"
-ms.prod: "windows-client-threshold"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "javascript"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-windows
+ms.technology: vs-javascript
+ms.topic: reference
 f1_keywords: 
   - "VS.WebClient.Help.SCRIPT1036"
 dev_langs: 
@@ -16,12 +11,11 @@ dev_langs:
   - "TypeScript"
   - "DHTML"
 ms.assetid: 4599f851-bf59-4b70-a5eb-9b779d2a7618
-caps.latest.revision: 2
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
 ---
-# &#39;with&#39; not available in the ECMA 327 Compact Profile
+# 'with' not available in the ECMA 327 Compact Profile
 'with' not available in the ECMA 327 Compact Profile (ErrWithNotInCP  
   
  You are not allowed to use the with keyword in the Compact Profile.  

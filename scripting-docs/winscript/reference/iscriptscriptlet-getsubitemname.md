@@ -2,7 +2,6 @@
 title: "IScriptScriptlet::GetSubItemName | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Returns the last identifier in the fully qualified name of a scriptlet's object 
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetSubItemName(  
    BSTR               *pbstr  
 );  
@@ -45,5 +44,5 @@ HRESULT GetSubItemName(
   
 ## Remarks  
   
-## See Also  
+## See also  
  [IScriptScriptlet Interface](../../winscript/reference/iscriptscriptlet-interface.md)

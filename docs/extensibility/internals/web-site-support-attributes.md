@@ -1,20 +1,13 @@
 ---
 title: "Web Site Support Attributes | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology:
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 helpviewer_keywords:
   - "web site projects, registration"
 ms.assetid: 46d52e2c-ca2a-4bbd-8500-5b0129768aec
-caps.latest.revision: 9
-author: "gregvanl"
-ms.author: "gregvanl"
-manager: ghogen
+author: madskristensen
+ms.author: madsk
+manager: jillfra
 ms.workload:
   - "vssdk"
 ---
@@ -55,5 +48,5 @@ public class PythonPackage : Package, IOleComponent
 
  The IVsIntellisenseProject implementation handles references and calls the language compiler when a Web page with code is requested but isn't cached.
 
-## See Also
- [Web Site Support](../../extensibility/internals/web-site-support.md)
+## See also
+- [Web Site Support](../../extensibility/internals/web-site-support.md)

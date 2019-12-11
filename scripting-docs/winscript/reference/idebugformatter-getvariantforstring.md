@@ -2,7 +2,6 @@
 title: "IDebugFormatter::GetVariantForString | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Returns a VARIANT containing the given string.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetVariantForString(  
    LPCOLESTR  pwstrValue,  
    VARIANT*   pvar  
@@ -48,5 +47,5 @@ HRESULT GetVariantForString(
 ## Remarks  
  This method returns a VARIANT containing the given string.  
   
-## See Also  
+## See also  
  [IDebugFormatter Interface](../../winscript/reference/idebugformatter-interface.md)

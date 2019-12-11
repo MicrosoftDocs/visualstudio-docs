@@ -2,7 +2,6 @@
 title: "IActiveScript::SetScriptState | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Puts the scripting engine into the given state. This method can be called from n
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT SetScriptState(  
     SCRIPTSTATE ss  // identifier of new state  
 );  
@@ -48,7 +47,7 @@ HRESULT SetScriptState(
 ## Remarks  
  For more information about scripting engine states, see the Script Engine States section of [Windows Script Engines](../../winscript/windows-script-engines.md) .  
   
-## See Also  
+## See also  
  [IActiveScript::Clone](../../winscript/reference/iactivescript-clone.md)   
  [IActiveScript::GetScriptDispatch](../../winscript/reference/iactivescript-getscriptdispatch.md)   
  [IActiveScript::InterruptScriptThread](../../winscript/reference/iactivescript-interruptscriptthread.md)   

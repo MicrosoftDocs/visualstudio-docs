@@ -2,7 +2,6 @@
 title: "IDebugApplication::SetName | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Sets the name of the application.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT SetName(  
    LPCOLESTR  pstrName  
 );  
@@ -46,6 +45,6 @@ HRESULT SetName(
   
  This method should be called before calling the `IProcessDebugManager::AddApplication` method.  
   
-## See Also  
+## See also  
  [IDebugApplication Interface](../../winscript/reference/idebugapplication-interface.md)   
  [IProcessDebugManager::AddApplication](../../winscript/reference/iprocessdebugmanager-addapplication.md)

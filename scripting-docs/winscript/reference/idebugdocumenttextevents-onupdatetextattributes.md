@@ -2,7 +2,6 @@
 title: "IDebugDocumentTextEvents::onUpdateTextAttributes | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Indicates that the text attributes associated with the underlying character posi
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT onUpdateTextAttributes(  
    ULONG  cCharacterPosition,  
    ULONG  cNumToUpdate  
@@ -48,5 +47,5 @@ HRESULT onUpdateTextAttributes(
 ## Remarks  
  This method indicates that the text attributes associated with the underlying character position range have changed.  
   
-## See Also  
+## See also  
  [IDebugDocumentTextEvents Interface](../../winscript/reference/idebugdocumenttextevents-interface.md)

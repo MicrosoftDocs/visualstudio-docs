@@ -2,7 +2,6 @@
 title: "IDebugAsyncOperation::QueryIsComplete | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Determines if the debug operation has completed.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT QueryIsComplete();  
 ```  
   
@@ -42,5 +41,5 @@ HRESULT QueryIsComplete();
 ## Remarks  
  This method determines if the debug operation has completed.  
   
-## See Also  
+## See also  
  [IDebugAsyncOperation Interface](../../winscript/reference/idebugasyncoperation-interface.md)

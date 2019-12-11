@@ -1,0 +1,67 @@
+### YamlMime:Landing
+
+title: Visual Studio tutorials | JavaScript and TypeScript # < 60 chars
+summary: Create JavaScript and TypeScript apps with Visual Studio # < 160 chars
+
+metadata:
+  title: JavaScript and TypeScript in Visual Studio # Required; page title displayed in search results. Include the brand. < 60 chars.
+  description: Learn how to use Visual Studio to create JavaScript and TypeScript apps.
+  ms.topic: landing-page
+  author: mikejo5000
+  ms.author: mikejo
+  manager: jillfra
+  ms.date: 10/15/2019
+
+# linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
+
+landingContent:
+# Cards and links should be based on top customer tasks or top subjects
+# Start card title with a verb
+  # Card (optional)
+  - title: Get started
+    linkLists:
+      - linkListType: overview
+        links:
+          - text: JavaScript and TypeScript in Visual Studio
+            url: javascript-in-vs-2019.md
+      - linkListType: how-to-guide
+        links:
+          - text: Install Visual Studio
+            url: ../install/install-visual-studio.md
+      - linkListType: get-started
+        links:
+          - text: Start a guided tour
+            url: quickstart-ide-orientation-js.md
+
+  # Card (optional)
+  - title: Create JavaScript and TypeScript apps
+    linkLists:
+      - linkListType: tutorial
+        links:
+          - text: Create a web app with Node.js and Express
+            url: tutorial-nodejs.md
+          - text: Create a web app with Node.js and React
+            url: tutorial-nodejs-with-react-and-jsx.md
+          - text: Create a web app with Node.js and Vue.js
+            url: quickstart-vuejs-with-nodejs.md
+
+  # Card
+  - title: Learn Visual Studio
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+          - text: Write and edit code
+            url: write-and-edit-code.md
+          - text: Manage npm packages
+            url: npm-package-management.md
+          - text: Use the Node.js interactive REPL
+            url: nodejs-interactive-repl.md
+          - text: Debug your code
+            url: debug-nodejs.md
+          - text: Develop code without projects or solutions
+            url: develop-javascript-code-without-solutions-projects.md
+          - text: Write and run unit tests
+            url: unit-testing-javascript-with-visual-studio.md
+
+
+

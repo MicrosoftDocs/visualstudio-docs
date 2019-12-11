@@ -1,4 +1,4 @@
-Partial Public Class MyControl
+Partial Public Class TestSearchControl
     Inherits System.Windows.Controls.UserControl
 
     Public Property SearchResultsTextBox As System.Windows.Controls.TextBox

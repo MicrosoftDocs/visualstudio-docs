@@ -2,7 +2,6 @@
 title: "IDebugAsyncOperationCallBack::onComplete | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Signals that a result is available from an asynchronous debug operation.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT onComplete();  
 ```  
   
@@ -41,6 +40,6 @@ HRESULT onComplete();
 ## Remarks  
  This method signals that a result is available from an `IDebugAsyncOperation` object. The event fires in the debugger thread.  
   
-## See Also  
+## See also  
  [IDebugAsyncOperationCallBack Interface](../../winscript/reference/idebugasyncoperationcallback-interface.md)   
  [IDebugAsyncOperation Interface](../../winscript/reference/idebugasyncoperation-interface.md)

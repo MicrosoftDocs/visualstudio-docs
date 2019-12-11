@@ -2,7 +2,6 @@
 title: "IDebugStackFrameSnifferEx::EnumStackFramesEx | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Returns an enumerator of stack frames for the current thread.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT EnumStackFramesEx(  
    DWORD_PTR                dwSpMin,  
    IEnumDebugStackFrames**  ppedsf  
@@ -48,5 +47,5 @@ HRESULT EnumStackFramesEx(
 ## Remarks  
  The stack frame enumerator returns the frames starting at the top of the stack, with the most recently pushed frame. The enumerator contains only stack frames with addresses greater than or equal to `dwSpMin`.  
   
-## See Also  
+## See also  
  [IDebugStackFrameSnifferEx Interface](../../winscript/reference/idebugstackframesnifferex-interface.md)

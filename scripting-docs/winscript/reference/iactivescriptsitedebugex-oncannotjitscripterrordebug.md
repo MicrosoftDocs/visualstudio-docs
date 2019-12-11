@@ -2,7 +2,6 @@
 title: "IActiveScriptSiteDebugEx::OnCanNotJITScriptErrorDebug | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -26,7 +25,7 @@ Informs the host about a script run-time error when the Process Debug Manager do
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT OnCanNotJITScriptErrorDebug(  
    IActiveScriptErrorDebug*  pErrorDebug  
    BOOL *pfCallOnScriptErrorWhenContinuing  
@@ -50,5 +49,5 @@ HRESULT OnCanNotJITScriptErrorDebug(
 ## Remarks  
  You should also implement this interface to get a notification.  
   
-## See Also  
+## See also  
  [IActiveScriptSiteDebugEx Interface](../../winscript/reference/iactivescriptsitedebugex-interface.md)

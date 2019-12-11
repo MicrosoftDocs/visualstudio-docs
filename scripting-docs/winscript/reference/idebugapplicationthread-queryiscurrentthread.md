@@ -2,7 +2,6 @@
 title: "IDebugApplicationThread::QueryIsCurrentThread | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Determines if this thread is the currently running thread.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT QueryIsCurrentThread();  
 ```  
   
@@ -42,5 +41,5 @@ HRESULT QueryIsCurrentThread();
 ## Remarks  
  This method determines if this thread is the currently running thread.  
   
-## See Also  
+## See also  
  [IDebugApplicationThread Interface](../../winscript/reference/idebugapplicationthread-interface.md)

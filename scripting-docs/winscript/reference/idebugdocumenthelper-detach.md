@@ -2,7 +2,6 @@
 title: "IDebugDocumentHelper::Detach | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Removes this document from the document tree.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT Detach();  
 ```  
   
@@ -41,6 +40,6 @@ HRESULT Detach();
 ## Remarks  
  This method removes this document from the document tree.  
   
-## See Also  
+## See also  
  [IDebugDocumentHelper::Attach](../../winscript/reference/idebugdocumenthelper-attach.md)   
  [IDebugDocumentHelper Interface](../../winscript/reference/idebugdocumenthelper-interface.md)

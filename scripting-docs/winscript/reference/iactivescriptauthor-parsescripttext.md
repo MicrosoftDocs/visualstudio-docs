@@ -2,7 +2,6 @@
 title: "IActiveScriptAuthor::ParseScriptText | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Parses script text, adds the text to the script authoring engine, and creates an
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT ParseScriptText(  
    LPCOLESTR pszCode,  
    LPCOLESTR pszItemName,  
@@ -59,5 +58,5 @@ HRESULT ParseScriptText(
   
 ## Remarks  
   
-## See Also  
+## See also  
  [IActiveScriptAuthor Interface](../../winscript/reference/iactivescriptauthor-interface.md)

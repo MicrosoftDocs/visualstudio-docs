@@ -2,7 +2,6 @@
 title: "IJsDebugDataTarget::GetTlsValue Method | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -22,7 +21,7 @@ For the thread being debugged, retrieves the value in the thread local storage (
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetTlsValue(  
    DWORD threadId,  
    UINT32 tlsIndex,  
@@ -48,5 +47,5 @@ HRESULT GetTlsValue(
 ## Requirements  
  **Header:** jscript9diag.h  
   
-## See Also  
+## See also  
  [IJsDebugDataTarget Interface](../../winscript/reference/ijsdebugdatatarget-interface.md)

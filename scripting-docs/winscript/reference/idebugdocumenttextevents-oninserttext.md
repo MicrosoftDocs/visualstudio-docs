@@ -2,7 +2,6 @@
 title: "IDebugDocumentTextEvents::onInsertText | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Indicates that new text has been added to the document.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT onInsertText(  
    ULONG  cCharacterPosition,  
    ULONG  cNumToInsert  
@@ -48,6 +47,6 @@ HRESULT onInsertText(
 ## Remarks  
  This method is typically called by a host that progressively loads content, such as a Web browser.  
   
-## See Also  
+## See also  
  [IDebugDocumentTextEvents Interface](../../winscript/reference/idebugdocumenttextevents-interface.md)   
  [IDebugDocumentTextEvents::onRemoveText](../../winscript/reference/idebugdocumenttextevents-onremovetext.md)

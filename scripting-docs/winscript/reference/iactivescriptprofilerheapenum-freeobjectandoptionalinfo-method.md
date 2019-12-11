@@ -2,7 +2,6 @@
 title: "IActiveScriptProfilerHeapEnum::FreeObjectAndOptionalInfo Method | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -18,7 +17,7 @@ Frees the specified [PROFILER_HEAP_OBJECT Structure](../../winscript/reference/p
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT FreeObjectAndOptionalInfo (    [in] ULONG celt,    [in, size_is(celt)] PROFILER_HEAP_OBJECT** heapObjects);  
 ```  
   

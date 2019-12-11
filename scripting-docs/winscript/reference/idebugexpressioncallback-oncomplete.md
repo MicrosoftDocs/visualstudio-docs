@@ -2,7 +2,6 @@
 title: "IDebugExpressionCallBack::onComplete | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Indicates that the expression evaluation is complete.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT onComplete();  
 ```  
   
@@ -41,6 +40,6 @@ HRESULT onComplete();
 ## Remarks  
  This method is called when the expression evaluation is complete. The `IDebugExpression::GetResultAsString` method can be called from within this event handler.  
   
-## See Also  
+## See also  
  [IDebugExpressionCallBack Interface](../../winscript/reference/idebugexpressioncallback-interface.md)   
  [IDebugExpression::GetResultAsString](../../winscript/reference/idebugexpression-getresultasstring.md)

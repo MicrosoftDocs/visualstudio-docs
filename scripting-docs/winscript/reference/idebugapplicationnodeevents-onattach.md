@@ -2,7 +2,6 @@
 title: "IDebugApplicationNodeEvents::onAttach | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Handles an event signifying that the debug application node object was attached 
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT onAttach(  
    IDebugApplicationNode*  prddpParent  
 );  
@@ -46,7 +45,7 @@ HRESULT onAttach(
   
  Implementers of the `IDebugApplicationNode` interface raise this event.  
   
-## See Also  
+## See also  
  [IDebugApplicationNodeEvents Interface](../../winscript/reference/idebugapplicationnodeevents-interface.md)   
  [IDebugApplicationNodeEvents::onDetach](../../winscript/reference/idebugapplicationnodeevents-ondetach.md)   
  [IDebugApplicationNode Interface](../../winscript/reference/idebugapplicationnode-interface.md)

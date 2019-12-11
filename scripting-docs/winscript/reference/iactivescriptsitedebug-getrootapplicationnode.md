@@ -2,7 +2,6 @@
 title: "IActiveScriptSiteDebug::GetRootApplicationNode | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Gets the application node under which script documents should be added.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetRootApplicationNode(  
    IDebugApplicationNode**  ppdanRoot  
 );  
@@ -44,5 +43,5 @@ HRESULT GetRootApplicationNode(
 ## Remarks  
  This method returns the application node under which script documents should be added. The method can return `NULL` for `ppdanRoot` if script documents should be top-level.  
   
-## See Also  
+## See also  
  [IActiveScriptSiteDebug Interface](../../winscript/reference/iactivescriptsitedebug-interface.md)

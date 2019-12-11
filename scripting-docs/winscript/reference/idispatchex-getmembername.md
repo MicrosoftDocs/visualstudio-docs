@@ -2,7 +2,6 @@
 title: "IDispatchEx::GetMemberName | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Retrieves the name of a member.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetMemberName(  
    DISPID id,  
    BSTR *pbstrName  
@@ -48,7 +47,7 @@ HRESULT GetMemberName(
   
 ## Example  
   
-```  
+```cpp
 HRESULT hr;  
    BSTR bstrName;  
    DISPID dispid;  
@@ -69,7 +68,7 @@ HRESULT hr;
    }  
 ```  
   
-## See Also  
+## See also  
  [IDispatchEx Interface](../../winscript/reference/idispatchex-interface.md)   
  [IDispatchEx::GetDispID](../../winscript/reference/idispatchex-getdispid.md)   
  [IDispatchEx::GetNextDispID](../../winscript/reference/idispatchex-getnextdispid.md)

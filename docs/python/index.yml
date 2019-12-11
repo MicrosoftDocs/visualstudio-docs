@@ -1,0 +1,65 @@
+### YamlMime:Landing
+
+title: Visual Studio | Python documentation # < 60 chars
+summary: Tutorials and conceptual articles about developing Python apps with Visual Studio. # < 160 chars
+
+metadata:
+  title: Python Development with Visual Studio # Required; page title displayed in search results. Include the brand. < 60 chars.
+  description: Tutorials and conceptual articles about developing Python apps with Visual Studio. # Required; article description that is displayed in search results. < 160 chars.
+  ms.prod: visual-studio-windows
+  ms.technology: vs-python
+  ms.topic: landing-page # Required
+  ms.collection: collection
+  author: JoshuaPartlow #Required; your GitHub user alias, with correct capitalization.
+  ms.author: joshuapa #Required; microsoft alias of author; optional team alias.
+  ms.date: 09/23/2019 #Required; mm/dd/yyyy format.
+
+# linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
+
+landingContent:
+# Cards and links should be based on top customer tasks or top subjects
+# Start card title with a verb
+  # Card (optional)
+  - title: About Python support in Visual Studio
+    linkLists:
+      - linkListType: overview
+        links:
+          - text: Overview of Python support
+            url: overview-of-python-tools-for-visual-studio.md
+          - text: Tour the Visual Studio IDE
+            url: visual-studio-ide.md
+
+  # Card (optional)
+  - title: Get started with Python
+    linkLists:
+      - linkListType: get-started
+        links:
+           - text: Install Python support in Visual Studio
+             url: installing-python-support-in-visual-studio.md
+           - text: Write and edit code
+             url: editing-python-code-in-visual-studio.md
+           - text: Debug your code
+             url: debugging-python-in-visual-studio.md
+           - text: Write and run tests
+             url: unit-testing-python-in-visual-studio.md
+           - text: Use the interactive REPL
+             url: python-interactive-repl-in-visual-studio.md
+           - text: Manage Python environments
+             url: managing-python-environments-in-visual-studio.md
+           - text: Write C/C++ extensions for Python
+             url: working-with-c-cpp-python-in-visual-studio.md
+      - linkListType: tutorial
+        links:
+          - text: Working with Python in Visual Studio
+            url: tutorial-working-with-python-in-visual-studio-step-00-installation.md
+
+  # Card
+  - title: Get started with web development
+    linkLists:
+      - linkListType: tutorial
+        links:
+          - text: Create a web app with the Django framework
+            url: learn-django-in-visual-studio-step-01-project-and-solution.md
+          - text: Create a web app with the Flask framework 
+            url: learn-flask-visual-studio-step-01-project-solution.md
+

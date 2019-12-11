@@ -2,7 +2,6 @@
 title: "IDebugDocumentHelper::AddDeferredText | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Notifies the helper that the given text is available, but it does not provide th
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT AddDeferredText(  
    ULONG  cChars,  
    DWORD  dwTextStartCookie  
@@ -52,9 +51,9 @@ HRESULT AddDeferredText(
  It is assumed that a single call to `IDebugDocumentText::GetText` can get characters from multiple calls to `AddDeferredText`. Helper classes may also ask for the same range of deferred characters more than once.  
   
 > [!NOTE]
->  Calls to `AddDeferredText` should not be mixed with calls to `AddUnicodeText` or `AddDBCSText`. If this occurs, `E_FAIL` is returned.  
+> Calls to `AddDeferredText` should not be mixed with calls to `AddUnicodeText` or `AddDBCSText`. If this occurs, `E_FAIL` is returned.  
   
-## See Also  
+## See also  
  [IDebugDocumentHelper Interface](../../winscript/reference/idebugdocumenthelper-interface.md)   
  [IDebugDocumentHelper::AddUnicodeText](../../winscript/reference/idebugdocumenthelper-addunicodetext.md)   
  [IDebugDocumentHelper::AddDBCSText](../../winscript/reference/idebugdocumenthelper-adddbcstext.md)   

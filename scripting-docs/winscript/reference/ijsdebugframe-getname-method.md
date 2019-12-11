@@ -2,7 +2,6 @@
 title: "IJsDebugFrame::GetName Method | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -22,7 +21,7 @@ Gets the user-friendly name of the stack frame.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetName(  
    BSTR *pName  
 );  
@@ -37,5 +36,5 @@ HRESULT GetName(
 ## Requirements  
  **Header:** jscript9diag.h  
   
-## See Also  
+## See also  
  [IJsDebugFrame Interface](../../winscript/reference/ijsdebugframe-interface.md)

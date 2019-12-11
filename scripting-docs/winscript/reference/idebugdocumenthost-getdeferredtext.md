@@ -2,7 +2,6 @@
 title: "IDebugDocumentHost::GetDeferredText | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Returns a range of characters that were added by using the `IDebugDocumentHelper
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetDeferredText(  
    DWORD              dwTextStartCookie,  
    WCHAR*             pcharText,  
@@ -62,9 +61,9 @@ HRESULT GetDeferredText(
  This method may return `E_NOTIMPL`, if the host does not call `IDebugDocumentHelper::AddDeferredText`.  
   
 > [!NOTE]
->  This method returns the text from the original document. The host does not keep track of edits or other changes to the document.  
+> This method returns the text from the original document. The host does not keep track of edits or other changes to the document.  
   
-## See Also  
+## See also  
  [IDebugDocumentHost Interface](../../winscript/reference/idebugdocumenthost-interface.md)   
  [IDebugDocumentHelper::AddDeferredText](../../winscript/reference/idebugdocumenthelper-adddeferredtext.md)   
  [SOURCE_TEXT_ATTR Enumeration](../../winscript/reference/source-text-attr-enumeration.md)

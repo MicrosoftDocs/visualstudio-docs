@@ -1,0 +1,71 @@
+### YamlMime:Hub
+title: Visual Studio product family documentation
+summary: Explore documentation for the Visual Studio family of products.
+brand: visual-studio
+metadata:
+  title: Visual Studio product family documentation
+  description: Explore documentation for the Visual Studio family of products.
+  ms.topic: hub-page
+  ms.date: 11/13/2019
+  searchScope: []
+  titleSuffix: ""
+  ms.author: ghogen
+  author: ghogen
+  ms.manager: jillfra
+  monikerRange: ">=vs-2017"
+  hide_bc: true
+  
+productDirectory:
+    items:
+    - title: Visual Studio
+      imageSrc: ./media/vs-ide-2019.svg
+      links:
+        - url: /visualstudio/windows?view=vs-2019
+          text: Visual Studio 2019 (current)
+        - url: /visualstudio/windows?view=vs-2017
+          text: Visual Studio 2017
+        - url: https://docs.microsoft.com/previous-versions/visualstudio/
+          text: Previous versions
+        - url: https://docs.microsoft.com/visualstudio/releases/2019/release-notes
+          text: Release notes
+        - url: https://visualstudio.microsoft.com/
+          text: Product page
+    - title: Visual Studio for Mac
+      imageSrc: ./media/vs-mac-2019.svg
+      links:
+        - url: https://docs.microsoft.com/visualstudio/mac
+          text: Visual Studio 2019 for Mac (current)
+        - url: https://docs.microsoft.com/visualstudio/mac/?view=vsmac-2017
+          text: Visual Studio 2017 for Mac
+        - url: https://docs.microsoft.com/visualstudio/releasenotes/vs2019-mac-relnotes
+          text: Release notes
+        - url: https://visualstudio.microsoft.com/vs/mac/
+          text: Product page
+    - title: Visual Studio Code
+      imageSrc: ./media/vs-code-logo.svg
+      links:
+        - url: https://code.visualstudio.com/docs
+          text: Documentation
+        - url: https://code.visualstudio.com/updates
+          text: Release notes
+        - url: https://code.visualstudio.com
+          text: Product page
+    - title: Visual Studio App Center
+      imageSrc: ./media/vs-mobile-center.svg
+      links:
+        - url: https://docs.microsoft.com/appcenter
+          text: Documentation
+        - url: https://visualstudio.microsoft.com/app-center/
+          text: Portal
+    - title: Visual Studio Subscriptions
+      imageSrc: ./media/vs-subscription-temp.svg
+      links:
+        - url: https://docs.microsoft.com/visualstudio/subscriptions
+          text: Documentation
+        - url: https://visualstudio.microsoft.com/subscriptions
+          text: Info on visualstudio.com
+        - url: https://my.visualstudio.com
+          text: Portal
+        - url: https://manage.visualstudio.com
+          text: Administration
+

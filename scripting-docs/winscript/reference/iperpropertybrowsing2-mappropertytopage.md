@@ -2,7 +2,6 @@
 title: "IPerPropertyBrowsing2::MapPropertyToPage | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,10 +23,10 @@ Returns the CLSID of the property page that can be used to edit this property.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT MapPropertyToPage(  
-   DISPID  dispid,  
-   CLSID*  pClsidPropPage  
+   DISPID  dispid,  
+   CLSID*  pClsidPropPage  
 );  
 ```  
   
@@ -41,5 +40,5 @@ HRESULT MapPropertyToPage(
 ## Return Value  
  Returns a valid `HRESULT`, typically `S_OK`.  
   
-## See Also  
+## See also  
  [IPerPropertyBrowsing2 Interface 1](../../winscript/reference/iperpropertybrowsing2-interface-1.md)

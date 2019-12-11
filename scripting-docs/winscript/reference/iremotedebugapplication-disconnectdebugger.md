@@ -2,7 +2,6 @@
 title: "IRemoteDebugApplication::DisconnectDebugger | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Disconnects the current debugger from the application.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT DisconnectDebugger();  
 ```  
   
@@ -41,5 +40,5 @@ HRESULT DisconnectDebugger();
 ## Remarks  
  This method disconnects the current debugger from the application.  
   
-## See Also  
+## See also  
  [IRemoteDebugApplication Interface](../../winscript/reference/iremotedebugapplication-interface.md)

@@ -2,7 +2,6 @@
 title: "IDispatchEx::DeleteMemberByName | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Deletes a member by name.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT DeleteMemberByName(  
    BSTR bstrName,  
    DWORD grfdex  
@@ -58,7 +57,7 @@ HRESULT DeleteMemberByName(
   
 ## Example  
   
-```  
+```cpp
 BSTR bstrName;  
 IDispatchEx *pdex;  
   
@@ -66,5 +65,5 @@ IDispatchEx *pdex;
 pdex->DeleteMemberByName(bstrName, fdexNameCaseSensitive);  
 ```  
   
-## See Also  
+## See also  
  [IDispatchEx Interface](../../winscript/reference/idispatchex-interface.md)

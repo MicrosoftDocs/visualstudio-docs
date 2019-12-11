@@ -16,7 +16,7 @@ Parses the given code scriptlet, adding declarations into the namespace and eval
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT ParseScriptText(  
     LPCOLESTR pstrCode,              // address of scriptlet text  
     LPCOLESTR pstrItemName,          // address of item name  
@@ -75,5 +75,5 @@ HRESULT ParseScriptText(
   
  For more information about script states, see the Script Engine States section of [Windows Script Engines](../../winscript/windows-script-engines.md).  
   
-## See Also  
+## See also  
  [IActiveScriptParse32](../../winscript/reference/iactivescriptparse32.md)

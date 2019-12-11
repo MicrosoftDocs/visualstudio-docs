@@ -2,7 +2,6 @@
 title: "IEnumDebugApplicationNodes::Clone | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Creates an enumerator that contains the same state as the current enumerator.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT Clone(  
    IEnumDebugApplicationNodes**  pperddp  
 );  
@@ -44,5 +43,5 @@ HRESULT Clone(
 ## Remarks  
  This method creates an enumerator that contains the same state as the current enumerator.  
   
-## See Also  
+## See also  
  [IEnumDebugApplicationNodes Interface](../../winscript/reference/ienumdebugapplicationnodes-interface.md)

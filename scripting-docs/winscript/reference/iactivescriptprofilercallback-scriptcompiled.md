@@ -2,7 +2,6 @@
 title: "IActiveScriptProfilerCallback::ScriptCompiled | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -22,7 +21,7 @@ Notifies the profiler object that the scripting engine compiled a script. This m
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT ScriptCompiled(  
     [in] PROFILER_TOKEN scriptId,  
     [in] PROFILER_SCRIPT_TYPE type,  
@@ -45,5 +44,5 @@ HRESULT ScriptCompiled(
 ## Remarks  
  The scripting engine can provide the document context only if this is supported by the host.  
   
-## See Also  
+## See also  
  [IActiveScriptProfilerCallback Interface](../../winscript/reference/iactivescriptprofilercallback-interface.md)

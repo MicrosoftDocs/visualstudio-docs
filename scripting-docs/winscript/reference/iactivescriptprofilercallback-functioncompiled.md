@@ -2,7 +2,6 @@
 title: "IActiveScriptProfilerCallback::FunctionCompiled | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -22,7 +21,7 @@ Notifies the profiler object that the scripting engine encountered a function wh
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT FunctionCompiled(  
     [in] PROFILER_TOKEN functionId,  
     [in] PROFILER_TOKEN scriptId,  
@@ -53,5 +52,5 @@ HRESULT FunctionCompiled(
 ## Remarks  
  The scripting engine can provide the document context only if this is supported by the host.  
   
-## See Also  
+## See also  
  [IActiveScriptProfilerCallback Interface](../../winscript/reference/iactivescriptprofilercallback-interface.md)

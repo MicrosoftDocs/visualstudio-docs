@@ -1,0 +1,42 @@
+- name: Visual Basic Tutorials
+  href: index.yml
+- name: Overview
+  items:
+  - name: About Visual Studio
+    href: visual-studio-ide.md
+  - name: About the code editor
+    href: tutorial-editor.md
+  - name: About projects and solutions
+    href: tutorial-projects-solutions.md
+  - name: More Visual Studio features
+    href: ../../ide/advanced-feature-overview.md?toc=/visualstudio/get-started/visual-basic/toc.json&bc=/visualstudio/get-started/visual-basic/breadcrumb/toc.json
+- name: Create an app
+  expanded: true
+  items:
+  - name: Create a console app
+    href: tutorial-console.md
+  - name: Create a UWP app
+    href: /windows/uwp/get-started/create-a-hello-world-app-xaml-universal?toc=/visualstudio/get-started/visual-basic/toc.json&bc=/visualstudio/get-started/visual-basic/breadcrumb/toc.json
+  - name: Create a WPF app
+    href: tutorial-wpf.md
+  - name: Create a web app
+    href: /aspnet/web-pages/overview/getting-started/introducing-razor-syntax-vb
+  - name: Create a Windows Forms app
+    href: ../../ide/create-a-visual-basic-winform-in-visual-studio.md?toc=/visualstudio/get-started/visual-basic/toc.json&bc=/visualstudio/get-started/visual-basic/breadcrumb/toc.json
+- name: 'Learn Visual Studio'
+  expanded: true
+  items:
+  - name: Open a project from a repo
+    href: ../tutorial-open-project-from-repo.md?toc=/visualstudio/get-started/visual-basic/toc.json&bc=/visualstudio/get-started/visual-basic/breadcrumb/toc.json
+  - name: Write and edit code
+    href: tutorial-editor.md
+  - name: Compile and build
+    href: ../../ide/compiling-and-building-in-visual-studio.md
+  - name: Debug your code
+    href: ../visual-basic/tutorial-debugger.md
+  - name: Unit testing
+    href: ../../test/getting-started-with-unit-testing.md?toc=/visualstudio/get-started/visual-basic/toc.json&bc=/visualstudio/get-started/visual-basic/breadcrumb/toc.json
+  - name: Deploy your project
+    href: ../../deployment/index.yml
+  - name: Access data
+    href: ../../data-tools/create-a-sql-database-by-using-a-designer.md?toc=/visualstudio/get-started/visual-basic/toc.json&bc=/visualstudio/get-started/visual-basic/breadcrumb/toc.json

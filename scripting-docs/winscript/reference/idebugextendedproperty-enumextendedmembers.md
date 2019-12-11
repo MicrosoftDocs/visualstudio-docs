@@ -2,7 +2,6 @@
 title: "IDebugExtendedProperty::EnumExtendedMembers | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,11 +23,11 @@ Enumerates the members of an extended property.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT EnumExtendedMembers(  
-   EX_DBGPROP_INFO_FLAGS  dwFieldSpec,  
-   UINT  nRadix,  
-   IEnumDebugExtendedPropertyInfo**  ppeepi  
+   EX_DBGPROP_INFO_FLAGS  dwFieldSpec,  
+   UINT  nRadix,  
+   IEnumDebugExtendedPropertyInfo**  ppeepi  
 );  
 ```  
   
@@ -45,7 +44,7 @@ HRESULT EnumExtendedMembers(
 ## Return Value  
  Returns a valid `HRESULT`, typically `S_OK`.  
   
-## See Also  
+## See also  
  [IDebugExtendedProperty Interface](../../winscript/reference/idebugextendedproperty-interface.md)   
  [EX_DBGPROP_INFO_FLAGS](../../winscript/reference/ex-dbgprop-info-flags.md)   
  [ExtendedDebugPropertyInfo Structure](../../winscript/reference/extendeddebugpropertyinfo-structure.md)

@@ -1,78 +1,72 @@
 ---
 title: "Property Element (MSBuild) | Microsoft Docs"
-ms.custom: ""
 ms.date: "03/13/2017"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: msbuild
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-dev_langs: 
+ms.topic: "reference"
+dev_langs:
   - "VB"
   - "CSharp"
   - "C++"
   - "jsharp"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "<Property> Element [MSBuild]"
   - "Property Element [MSBuild]"
 ms.assetid: 69ab08ab-3e76-41dd-a01b-49aa1d2e0cac
-caps.latest.revision: 17
-author: Mikejo5000
+author: mikejo5000
 ms.author: mikejo
-manager: ghogen
-ms.workload: 
+manager: jillfra
+ms.workload:
   - "multiple"
 ---
-# Property Element (MSBuild)
-Contains a user defined property name and value. Every property used in an [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] project must be specified as a child of a `PropertyGroup` element.  
+# Property element (MSBuild)
+Contains a user defined property name and value. Every property used in an [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] project must be specified as a child of a `PropertyGroup` element.
 
- \<Project>  
- \<PropertyGroup>  
+ \<Project>
+ \<PropertyGroup>
 
-## Syntax  
+## Syntax
 
-```  
-<Property Condition="'String A' == 'String B'">  
-    Property Value  
-</Property>  
-```  
+```xml
+<Property Condition="'String A' == 'String B'">
+    Property Value
+</Property>
+```
 
-## Attributes and Elements  
- The following sections describe attributes, child elements, and parent elements.  
+## Attributes and elements
+ The following sections describe attributes, child elements, and parent elements.
 
-### Attributes  
+### Attributes
 
-|Attribute|Description|  
-|---------------|-----------------|  
-|`Condition`|Optional attribute.<br /><br /> Condition to be evaluated. For more information, see [Conditions](../msbuild/msbuild-conditions.md).|  
+|Attribute|Description|
+|---------------|-----------------|
+|`Condition`|Optional attribute.<br /><br /> Condition to be evaluated. For more information, see [Conditions](../msbuild/msbuild-conditions.md).|
 
-### Child Elements  
- None.  
+### Child elements
+ None.
 
-### Parent Elements  
+### Parent elements
 
-|Element|Description|  
-|-------------|-----------------|  
-|[PropertyGroup](../msbuild/propertygroup-element-msbuild.md)|Grouping element for properties.|  
+|Element|Description|
+|-------------|-----------------|
+|[PropertyGroup](../msbuild/propertygroup-element-msbuild.md)|Grouping element for properties.|
 
-## Text Value  
- A text value is optional.  
+## Text value
+ A text value is optional.
 
- This text specifies the property value and may contain XML.  
+ This text specifies the property value and may contain XML.
 
-## Remarks  
- Property names are limited to ASCII chars only. Property values are referenced in the project by placing the property name between "`$(`" and "`)`". For example, `$(builddir)\classes` would resolve to "build\classes", if the `builddir` property had the value `build`. For more information on properties, see [MSBuild Properties](../msbuild/msbuild-properties.md).  
+## Remarks
+ Property names are limited to ASCII chars only. Property values are referenced in the project by placing the property name between "`$(`" and "`)`". For example, `$(builddir)\classes` would resolve to *build\classes*, if the `builddir` property had the value `build`. For more information on properties, see [MSBuild properties](../msbuild/msbuild-properties.md).
 
-## Example  
- The following code sets the `Optimization` property to `false` and the `DefaultVersion` property to `1.0` if the `Version` property is empty.  
+## Example
+ The following code sets the `Optimization` property to `false` and the `DefaultVersion` property to `1.0` if the `Version` property is empty.
 
-```xml  
-<PropertyGroup>  
-    <Optimization>false</Optimization>  
-    <DefaultVersion Condition="'$(Version)' == ''" >1.0</DefaultVersion>  
-</PropertyGroup>  
-```  
+```xml
+<PropertyGroup>
+    <Optimization>false</Optimization>
+    <DefaultVersion Condition="'$(Version)' == ''" >1.0</DefaultVersion>
+</PropertyGroup>
+```
 
-## See Also
-[MSBuild Properties](../msbuild/msbuild-properties.md)  
- [Project File Schema Reference](../msbuild/msbuild-project-file-schema-reference.md)
+## See also
+- [MSBuild properties](../msbuild/msbuild-properties.md)
+- [Project file schema reference](../msbuild/msbuild-project-file-schema-reference.md)

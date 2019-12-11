@@ -2,7 +2,6 @@
 title: "IDebugStackFrameSniffer::EnumStackFrames | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Returns an enumerator of stack frames for the current thread.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT EnumStackFrames(  
    IEnumDebugStackFrames**  ppedsf  
 );  
@@ -44,5 +43,5 @@ HRESULT EnumStackFrames(
 ## Remarks  
  The stack frame enumerator returns the frames starting at the top of the stack, starting with the most recently pushed frame.  
   
-## See Also  
+## See also  
  [IDebugStackFrameSniffer Interface](../../winscript/reference/idebugstackframesniffer-interface.md)

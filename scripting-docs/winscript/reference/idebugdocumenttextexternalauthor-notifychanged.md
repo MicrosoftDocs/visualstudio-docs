@@ -2,7 +2,6 @@
 title: "IDebugDocumentTextExternalAuthor::NotifyChanged | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Notifies the host that the document source has changed.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT NotifyChanged();  
 ```  
   
@@ -41,5 +40,5 @@ HRESULT NotifyChanged();
 ## Remarks  
  This method is called by an external editor after a file-based debugger document is modified and saved to notify the host that the document source has changed. The host then refreshes the document from the source file.  
   
-## See Also  
+## See also  
  [IDebugDocumentTextExternalAuthor Interface](../../winscript/reference/idebugdocumenttextexternalauthor-interface.md)

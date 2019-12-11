@@ -2,7 +2,6 @@
 title: "SCRIPTTHREADID Constants | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Used to specify the type of thread.
   
 ## Syntax  
   
-```  
+```cpp
 typedef DWORD SCRIPTTHREADID;  
 ```  
   
@@ -39,7 +38,7 @@ typedef DWORD SCRIPTTHREADID;
 ## Remarks  
  The `SCRIPTTHREADID` type is used by `IActiveScript::GetCurrentScriptThreadID`, `IActiveScript::GetScriptThreadID`, `IActiveScript::GetScriptThreadState`, and `IActiveScript::InterruptScriptThread`, but the constants can only be used by `IActiveScript::GetScriptThreadState` and `IActiveScript::InterruptScriptThread`.  
   
-## See Also  
+## See also  
  [IActiveScript::GetCurrentScriptThreadID](../../winscript/reference/iactivescript-getcurrentscriptthreadid.md)   
  [IActiveScript::GetScriptThreadID](../../winscript/reference/iactivescript-getscriptthreadid.md)   
  [IActiveScript::GetScriptThreadState](../../winscript/reference/iactivescript-getscriptthreadstate.md)   

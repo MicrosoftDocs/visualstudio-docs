@@ -2,7 +2,6 @@
 title: "IRemoteDebugApplication::GetRootNode | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Returns the application node under which all nodes associated with the applicati
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetRootNode(  
    IDebugApplicationNode**  ppdanRoot  
 );  
@@ -44,5 +43,5 @@ HRESULT GetRootNode(
 ## Remarks  
  This method returns the application node under which all nodes associated with the application are added.  
   
-## See Also  
+## See also  
  [IRemoteDebugApplication Interface](../../winscript/reference/iremotedebugapplication-interface.md)

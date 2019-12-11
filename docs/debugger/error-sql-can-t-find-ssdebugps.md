@@ -1,16 +1,10 @@
 ---
 title: "Error: SQL Can&#39;t Find SSDEBUGPS | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "reference"
-f1_keywords: 
+ms.topic: "troubleshooting"
+f1_keywords:
   - "vs.debug.error.sqlde_cant_find_ssdebugps"
-dev_langs: 
+dev_langs:
   - "CSharp"
   - "VB"
   - "FSharp"
@@ -18,8 +12,8 @@ dev_langs:
   - "SQL"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
-ms.workload: 
+manager: jillfra
+ms.workload:
   - "multiple"
 ---
 # Error: SQL Can&#39;t Find SSDEBUGPS
@@ -40,6 +34,6 @@ To copy SSDEBUGPS.dll onto the SQL Server 2005 machine:
 
 2. Register it by opening a **Command Prompt**, and running the following command:
 
-    ```
-    regsrv32 ssdebugps.dll
+    ```cmd
+    regsvr32 ssdebugps.dll
     ```

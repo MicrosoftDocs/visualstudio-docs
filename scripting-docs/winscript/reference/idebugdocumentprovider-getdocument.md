@@ -2,7 +2,6 @@
 title: "IDebugDocumentProvider::GetDocument | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Causes the document to be instantiated if it does not already exist.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetDocument(  
    IDebugDocument**  ppssd  
 );  
@@ -44,5 +43,5 @@ HRESULT GetDocument(
 ## Remarks  
  This method causes the document to be instantiated if it does not already exist.  
   
-## See Also  
+## See also  
  [IDebugDocumentProvider Interface](../../winscript/reference/idebugdocumentprovider-interface.md)

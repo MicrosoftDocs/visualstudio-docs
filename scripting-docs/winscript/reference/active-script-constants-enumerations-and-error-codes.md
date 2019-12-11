@@ -2,7 +2,6 @@
 title: "Active Script Constants, Enumerations, and Error Codes | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -49,5 +48,5 @@ This section describes the enumerations and error codes used in Windows Scriptin
 |[SCRIPT_E_RECORDED Error Code](../../winscript/reference/script-e-recorded-error-code.md)|An error has been passed between the script engine and the host.|  
 |[SCRIPT_E_REPORTED Error Code](../../winscript/reference/script-e-reported-error-code.md)|The scripting engine has reported an unhandled exception to the host.|  
   
-## See Also  
+## See also  
  [Active Script Interfaces](../../winscript/reference/active-script-interfaces.md)

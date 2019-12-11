@@ -2,7 +2,6 @@
 title: "IDebugDocumentContext::EnumCodeContexts | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Enumerates the code contexts associated with this document context.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT EnumCodeContexts(  
    IEnumDebugCodeContexts**  ppescc  
 );  
@@ -44,5 +43,5 @@ HRESULT EnumCodeContexts(
 ## Remarks  
  A document is usually associated with only one code context, unless the document is an include file or a template.  
   
-## See Also  
+## See also  
  [IDebugDocumentContext Interface](../../winscript/reference/idebugdocumentcontext-interface.md)

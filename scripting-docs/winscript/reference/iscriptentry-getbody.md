@@ -2,7 +2,6 @@
 title: "IScriptEntry::GetBody | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Returns the text that corresponds to the body of an `IScriptEntry` script block,
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetBody(  
    BSTR               *pbstr  
 );  
@@ -34,11 +33,11 @@ HRESULT GetBody(
  `pbstr`  
  [out] The text that is in the body of one of the following:  
   
--   An `IScriptEntry` script block  
+- An `IScriptEntry` script block  
   
--   An `IScriptEntry` function in a function block  
+- An `IScriptEntry` function in a function block  
   
--   An `IScriptEntry` scriptlet event handler  
+- An `IScriptEntry` scriptlet event handler  
   
 ## Return Value  
  An `HRESULT`. Possible values include, but are not limited to, those in the following table.  
@@ -49,5 +48,5 @@ HRESULT GetBody(
   
 ## Remarks  
   
-## See Also  
+## See also  
  [IScriptEntry Interface](../../winscript/reference/iscriptentry-interface.md)

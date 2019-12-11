@@ -1,9 +1,9 @@
 ---
-title: "Managing References in a Project in Visual Studio for Mac | Microsoft Docs" 
-author: asb3993
-ms.author: amburns
-ms.date: 04/14/2017
-ms.topic: article
+title: "Managing References in a Project"
+description: "This article describes how to manage references in a project in Visual Studio for Mac"
+author: jmatthiesen
+ms.author: jomatthi
+ms.date: 05/06/2018
 ms.assetid: 4AD51385-B0A8-4BA7-B2D4-BF2BD167A142
 ---
 
@@ -22,9 +22,9 @@ In addition, Web References and native references can also be added to any proje
 
 ## Assembly references
 
-Each framework within Xamarin ships with over a dozen assemblies. Not all of these assembly packages are referenced in your project by default. 
+Each framework within Xamarin ships with over a dozen assemblies. Not all of these assembly packages are referenced in your project by default.
 
-To edit packages that are referenced in your project, use the _Edit References_ dialog, which can be displayed by double-clicking on the References folder, or by select Edit References on its context menu actions:
+To edit packages that are referenced in your project, use the **Edit References** dialog, which can be displayed by double-clicking on the References folder, or by selecting **Edit References** on its context menu actions:
 
 ![Assembly References dialog](media/projects-and-solutions-image11.png)
 
@@ -36,4 +36,9 @@ NuGet is the most popular package manager for .NET development. Visual Studio fo
 
 To do this, right-click on the **Package** folder in the Solution Pad, and select Add Packages.
 
-More information on using a NuGet Package is provided in the [Including a NuGet package in your Project](~/nuget-walkthrough.md) walkthrough.
+More information on using a NuGet Package is provided in the [Including a NuGet package in your Project](nuget-walkthrough.md) walkthrough.
+
+## See also
+
+- [Manage references (Visual Studio on Windows)](/visualstudio/ide/managing-references-in-a-project)
+- [Adding references using NuGet versus an extension SDK (Visual Studio on Windows)](/visualstudio/ide/adding-references-using-nuget-versus-an-extension-sdk)

@@ -1,14 +1,9 @@
 ---
 title: "Array length must be a finite positive integer | Microsoft Docs"
-ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-client-threshold"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "javascript"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-windows
+ms.technology: vs-javascript
+ms.topic: reference
 f1_keywords: 
   - "VS.WebClient.Help.SCRIPT5029"
 dev_langs: 
@@ -16,7 +11,6 @@ dev_langs:
   - "TypeScript"
   - "DHTML"
 ms.assetid: 1a467040-4702-4178-848f-418a5974e907
-caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
@@ -26,7 +20,7 @@ You are calling the **Array** constructor with an argument that is not a whole n
   
 ### To correct this error  
   
--   Use positive integers only when creating a new `Array` object. If you want to create an array with a single element that is not an integer, do it in a two-step process. First create an array with one element, then place the value in the first element (array[0]). The following is an example that generates this error.  
+- Use positive integers only when creating a new `Array` object. If you want to create an array with a single element that is not an integer, do it in a two-step process. First create an array with one element, then place the value in the first element (array[0]). The following is an example that generates this error.  
   
     ```JavaScript  
     var piArray = new Array(3.14159);  
@@ -41,5 +35,5 @@ You are calling the **Array** constructor with an argument that is not a whole n
   
      There is no upper limit for the size of an array, other than the maximum integer value (approximately 4 billion).  
   
-## See Also  
+## See also  
  [Using Arrays](../../javascript/advanced/using-arrays-javascript.md)

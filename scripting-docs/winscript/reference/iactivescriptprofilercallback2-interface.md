@@ -2,7 +2,6 @@
 title: "IActiveScriptProfilerCallback2 Interface | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -31,10 +30,10 @@ Provides methods that are used by the scripting engine to notify a profiler obje
  Notification of function calls that are not calls into the DOM is provided by the [IActiveScriptProfilerCallback Interface](../../winscript/reference/iactivescriptprofilercallback-interface.md).  
   
 > [!NOTE]
->  To add the ability to start and stop profiling when a script is running, call the following methods. By using these methods, you can obtain the complete call stack if [!INCLUDE[javascript](../../javascript/includes/javascript-md.md)] is running when you start or stop profiling.  
->   
->  -   Call [IActiveScriptProfilerControl2::CompleteProfilerStart](../../winscript/reference/iactivescriptprofilercontrol2-completeprofilerstart.md) to notify the profiler that you have started profiling.  
-> -   Call [IActiveScriptProfilerControl2::PrepareProfilerStop](../../winscript/reference/iactivescriptprofilercontrol2-prepareprofilerstop.md) to notify the profiler that you will soon stop profiling.  
+> To add the ability to start and stop profiling when a script is running, call the following methods. By using these methods, you can obtain the complete call stack if [!INCLUDE[javascript](../../javascript/includes/javascript-md.md)] is running when you start or stop profiling.  
+> 
+> - Call [IActiveScriptProfilerControl2::CompleteProfilerStart](../../winscript/reference/iactivescriptprofilercontrol2-completeprofilerstart.md) to notify the profiler that you have started profiling.  
+>   - Call [IActiveScriptProfilerControl2::PrepareProfilerStop](../../winscript/reference/iactivescriptprofilercontrol2-prepareprofilerstop.md) to notify the profiler that you will soon stop profiling.  
   
-## See Also  
+## See also  
  [Active Script Profiler Interfaces](../../winscript/reference/active-script-profiler-interfaces.md)

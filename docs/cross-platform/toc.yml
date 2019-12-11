@@ -1,0 +1,85 @@
+- name: Cross-Platform Mobile Development in Visual Studio
+  href: cross-platform-mobile-development-in-visual-studio.md
+- name: Visual Studio Tools for Xamarin
+  displayName: ".NET Mobile Developer Tools (Android & iOS)"
+  href: /xamarin/
+- name: Visual Studio Tools for Unity
+# Auto-expanded node
+  items:
+  - name: Visual Studio Tools for Unity
+    href: visual-studio-tools-for-unity.md
+  - name: Get Started with Visual Studio Tools for Unity
+    href: getting-started-with-visual-studio-tools-for-unity.md
+  - name: Use Visual Studio Tools for Unity
+    href: using-visual-studio-tools-for-unity.md
+  - name: Use .NET 4.x in Unity
+    href: unity-scripting-upgrade.md
+  - name: Program Visual Studio Tools for Unity
+# Auto-expanded node
+    items:
+    - name: Program Visual Studio Tools for Unity
+      href: programming-visual-studio-tools-for-unity.md
+    - name: Customize Project Files Created by VSTU
+      href: customize-project-files-created-by-vstu.md
+    - name: Share the Unity Log Callback with VSTU
+      href: share-the-unity-log-callback-with-vstu.md
+  - name: Program with Unity and Azure
+    href: visual-studio-tools-for-unity-azure.md
+  - name: Troubleshooting and Known Issues (Visual Studio Tools for Unity)
+    href: troubleshooting-and-known-issues-visual-studio-tools-for-unity.md
+  - name: Change Log (Visual Studio Tools for Unity, Windows)
+    href: change-log-visual-studio-tools-for-unity.md
+  - name: Change Log (Visual Studio Tools for Unity, Mac)
+    href: change-log-visual-studio-tools-for-unity-mac.md
+  - name: DevOps with Unity Apps
+    href: application-lifecycle-management-alm-with-unity-apps.md
+- name: Cross-platform mobile development with C++
+# Auto-expanded node
+  items:
+  - name: Cross-platform mobile development with C++
+    href: visual-cpp-for-cross-platform-mobile-development.md 
+  - name: Install cross-platform mobile development with C++
+# Auto-expanded node
+    items:
+    - name: Install cross-platform mobile development with C++
+      href: install-visual-cpp-for-cross-platform-mobile-development.md
+    - name: Install and configure tools to build using iOS
+      href: install-and-configure-tools-to-build-using-ios.md
+  - name: Create an Android Native Activity app
+    href: create-an-android-native-activity-app.md
+  - name: Build an OpenGL ES application on Android and iOS
+    href: build-an-opengl-es-application-on-android-and-ios.md
+  - name: Import an Xcode project
+    href: import-an-xcode-project.md
+  - name: Sync changes between Xcode and Visual Studio
+    href: sync-changes-between-xcode-and-visual-studio.md
+  - name: Cross-platform mobile development examples
+    href: cross-platform-mobile-development-examples.md
+  - name: C++ cross-platform property page reference
+# Auto-expanded node
+    items:
+    - name: C++ cross-platform property page reference
+      href: cross-platform-prop-pages.md
+    - name: General Project Properties (Android C++)
+      href: general-android-prop-page.md
+    - name: Android Debugger Properties
+      href: android-debugger-prop-page.md
+    - name: Clang Project Properties (Android C++)
+      href: clang-android-prop-page.md
+    - name: General Project Properties (Android C++ Makefile)
+      href: general-makefile-android-prop-page.md
+    - name: Clang Linker Properties (Android C++)
+      href: clanglink-prop-page.md
+    - name: NMake Properties (Android C++)
+      href: nmake-android-prop-page.md
+- name: Develop apps for the Universal Windows Platform (UWP)
+  href: develop-apps-for-the-universal-windows-platform-uwp.md
+- name: Visual Studio Emulator for Android
+# Auto-expanded node
+  items:
+  - name: Visual Studio Emulator for Android
+    href: visual-studio-emulator-for-android.md
+  - name: System Requirements for the Visual Studio Emulator for Android
+    href: system-requirements-for-the-visual-studio-emulator-for-android.md
+  - name: Troubleshoot the Visual Studio Emulator for Android
+    href: troubleshooting-the-visual-studio-emulator-for-android.md

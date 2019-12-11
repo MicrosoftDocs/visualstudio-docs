@@ -2,7 +2,6 @@
 title: "IJsDebugDataTarget::GetThreadContext Method | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -22,7 +21,7 @@ Retrieves context for given thread.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetThreadContext(  
    DWORD threadId,  
    ULONG32 contextFlags,  
@@ -49,5 +48,5 @@ HRESULT GetThreadContext(
 ## Requirements  
  **Header:** jscript9diag.h  
   
-## See Also  
+## See also  
  [IJsDebugDataTarget Interface](../../winscript/reference/ijsdebugdatatarget-interface.md)

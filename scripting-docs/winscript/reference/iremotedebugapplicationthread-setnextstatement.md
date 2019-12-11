@@ -2,7 +2,6 @@
 title: "IRemoteDebugApplicationThread::SetNextStatement | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Forces execution to continue as close as possible to the given code context, in 
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT SetNextStatement(  
    IDebugStackFrame*   pStackFrame,  
    IDebugCodeContext*  pCodeContext  
@@ -48,5 +47,5 @@ HRESULT SetNextStatement(
 ## Remarks  
  This method forces execution to continue as close as possible to the code context specified by `pCodeContext`, in the context of the frame specified by `pStackFrame`. Either of these arguments may be `NULL`, representing the current frame or context.  
   
-## See Also  
+## See also  
  [IRemoteDebugApplicationThread Interface](../../winscript/reference/iremotedebugapplicationthread-interface.md)

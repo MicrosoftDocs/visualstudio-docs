@@ -14,7 +14,7 @@ using Windows.UI.Xaml.Navigation;
 
 // The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=234238
 
-namespace WinRTMathTestCS
+namespace ArithmeticUI
 {
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
@@ -59,7 +59,7 @@ namespace WinRTMathTestCS
                 float firstNumber = float.Parse(this._firstNumber.Text);
                 float secondNumber = float.Parse(this._secondNumber.Text);
 
-                WinRTMath.Arithmetic math = new WinRTMath.Arithmetic();
+                SimpleMath.Arithmetic math = new SimpleMath.Arithmetic();
 
                 switch (operation)
                 {

@@ -1,14 +1,9 @@
 ---
 title: "Invalid range in character set (JavaScript) | Microsoft Docs"
-ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-client-threshold"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "javascript"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-windows
+ms.technology: vs-javascript
+ms.topic: reference
 f1_keywords: 
   - "VS.WebClient.Help.SCRIPT5021"
 dev_langs: 
@@ -16,7 +11,6 @@ dev_langs:
   - "TypeScript"
   - "DHTML"
 ms.assetid: 971e9d5a-f88a-47a8-af94-f3c7c4aed5ab
-caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
@@ -31,8 +25,8 @@ var notGood = /[z-a]/;  // An invalid character range - z does not come before a
   
 ### To correct this error  
   
--   Use only single characters to compose your regular expression character set, and make sure they are in the correct order.  
+- Use only single characters to compose your regular expression character set, and make sure they are in the correct order.  
   
-## See Also  
+## See also  
  [Regular Expression Object](../../javascript/reference/regular-expression-object-javascript.md)   
- [Regular Expression Syntax (JavaScript)](http://msdn.microsoft.com/en-us/ab0766e1-7037-45ed-aa23-706f58358c0e)
+ [Regular Expression Syntax (JavaScript)](https://msdn.microsoft.com/library/1400241x)

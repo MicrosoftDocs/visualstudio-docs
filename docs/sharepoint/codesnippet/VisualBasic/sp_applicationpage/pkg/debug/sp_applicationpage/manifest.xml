@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="4820520f-d41d-4121-a525-8f76c067fcff" SharePointProductVersion="14.0">
-  <Assemblies>
-    <Assembly Location="SP_ApplicationPage.dll" DeploymentTarget="GlobalAssemblyCache" />
-  </Assemblies>
-  <TemplateFiles>
-    <TemplateFile Location="Layouts\SP_ApplicationPage\SearchItems.aspx" />
-  </TemplateFiles>
-</Solution>

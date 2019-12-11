@@ -2,7 +2,6 @@
 title: "IProcessDebugManager::AddApplication | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Adds an application to the machine debug manager's list of running applications.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT AddApplication(  
    IDebugApplication*  pda,  
    DWORD*              pdwAppCookie  
@@ -48,6 +47,6 @@ HRESULT AddApplication(
 ## Remarks  
  This method adds an application to the running application list in the machine debug manager.  
   
-## See Also  
+## See also  
  [IProcessDebugManager Interface](../../winscript/reference/iprocessdebugmanager-interface.md)   
  [IProcessDebugManager::RemoveApplication](../../winscript/reference/iprocessdebugmanager-removeapplication.md)

@@ -2,7 +2,6 @@
 title: "IActiveScriptAuthorProcedure::ParseProcedureText | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Parses a code procedure, adds the code procedure's text to the script authoring 
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT ParseProcedureText(  
    LPCOLESTR   pszCode,  
    LPCOLESTR   pszFormalParams,  
@@ -72,5 +71,5 @@ HRESULT ParseProcedureText(
 ## Remarks  
  The current [!INCLUDE[javascript](../../javascript/includes/javascript-md.md)] engine does not implement this method.  
   
-## See Also  
+## See also  
  [IActiveScriptAuthorProcedure Interface](../../winscript/reference/iactivescriptauthorprocedure-interface.md)

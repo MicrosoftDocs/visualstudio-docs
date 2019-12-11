@@ -2,7 +2,6 @@
 title: "IScriptScriptlet Interface | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -31,5 +30,5 @@ An object that implements the `IScriptScriptlet` interface represents an event h
 |[IScriptScriptlet::SetSimpleEventName](../../winscript/reference/iscriptscriptlet-setsimpleeventname.md)|Sets the simple event name that is associated with a scriptlet. This is a single-word name that does not contain any white space.|  
 |[IScriptScriptlet::SetSubItemName](../../winscript/reference/iscriptscriptlet-setsubitemname.md)|Sets the last identifier in the fully qualified name of a scriptlet's object host.|  
   
-## See Also  
+## See also  
  [Active Script Authoring Interfaces](../../winscript/reference/active-script-authoring-interfaces.md)

@@ -2,7 +2,6 @@
 title: "IApplicationDebugger::CreateInstanceAtDebugger | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -23,11 +22,11 @@ manager: "ghogen"
 Allows the creation of objects in the debugger process by code that is out-of-process to the debugger.  
   
 > [!IMPORTANT]
->  This method should not be implemented, because it allows untrusted code to create arbitrary objects in a trusted debugger thread.  
+> This method should not be implemented, because it allows untrusted code to create arbitrary objects in a trusted debugger thread.  
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT CreateInstanceAtDebugger(  
    REFCLSID    rclsid,  
    IUnknown*   pUnkOuter,  
@@ -65,5 +64,5 @@ HRESULT CreateInstanceAtDebugger(
   
  The method is not currently implemented.  
   
-## See Also  
+## See also  
  [IApplicationDebugger Interface](../../winscript/reference/iapplicationdebugger-interface.md)

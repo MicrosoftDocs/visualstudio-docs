@@ -1,10 +1,7 @@
 ---
-title: "Run-Time Text Generation with T4 Text Templates | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.topic: "article"
+title: Run-Time Text Generation with T4 Text Templates
+ms.date: 11/04/2016
+ms.topic: conceptual
 dev_langs:
  - CSharp
  - VB
@@ -13,12 +10,11 @@ helpviewer_keywords:
   - "TextTemplatingFilePreprocessor custom tool"
   - "text templates, TransformText() method"
   - "text templates, generating files at run time"
-author: gewarren
-ms.author: gewarren
-manager: ghogen
+author: jillre
+ms.author: jillfra
+manager: jillfra
 ms.workload:
   - "multiple"
-ms.technology: vs-ide-modeling
 ---
 # Run-Time Text Generation with T4 Text Templates
 
@@ -51,7 +47,7 @@ Using a template in your application makes it is easier to see the final form of
 
 ### To create a run-time text template
 
-1. In Solution Explorer, on the shortcut menu of your project, choose **Add**, **New Item**.
+1. In Solution Explorer, on the shortcut menu of your project, choose **Add** > **New Item**.
 
 2. In the **Add New Item** dialog box, select **Runtime Text Template**. (In Visual Basic look under **Common Items** > **General**.)
 
@@ -148,7 +144,7 @@ Notice that statements are inserted between `<# ... #>` and expressions are inse
 
 ### The code built from the template
 
-When you save the **.tt** file, a subsidiary **.cs** or **.vb** file is generated. To see this file in Solution Explorer, expand the **.tt** file node. In a Visual Basic project, first choose **Show All Files** in the Solution Explorer toolbar.
+When you save the **.tt** file, a subsidiary **.cs** or **.vb** file is generated. To see this file in **Solution Explorer**, expand the **.tt** file node. In a Visual Basic project, first choose **Show All Files** in the **Solution Explorer** toolbar.
 
 Notice that the subsidiary file contains a partial class that contains a method called `TransformText()`. You can call this method from your application.
 
@@ -178,7 +174,7 @@ You can set a breakpoint in a text template. If you start the application in deb
 
 ### Passing parameters in the constructor
 
-Usually a template must import some data from other parts of the application. To make this easy, the code built by the template is a partial class. You can create another part of the same class in another file in your project. That file can include a constructor with parameters, properties and functions that can accessed both by the code that is embedded in the template, and by the rest of the application.
+Usually a template must import some data from other parts of the application. To make this easy, the code built by the template is a partial class. You can create another part of the same class in another file in your project. That file can include a constructor with parameters, properties and functions that can be accessed both by the code that is embedded in the template, and by the rest of the application.
 
 For example, you could create a separate file **MyWebPageCode.cs**:
 

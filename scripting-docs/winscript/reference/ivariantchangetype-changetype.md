@@ -2,7 +2,6 @@
 title: "IVariantChangeType::ChangeType | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Takes a variant value and creates a new variant with a specified type.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT ChangeType(  
    VARIANT*  pvarDst,  
    VARIANT*  pvarSrc,  
@@ -56,5 +55,5 @@ HRESULT ChangeType(
 ## Remarks  
  The `pvarDst` and `pvarSrc` arguments may be equal, in which case the original value is overwritten. This method passes `pvarDst` to the `VariantClear` function, and consequently `pvarDst` should be initialized to a valid value.  
   
-## See Also  
+## See also  
  [IVariantChangeType Interface](../../winscript/reference/ivariantchangetype-interface.md)

@@ -2,7 +2,6 @@
 title: "IActiveScript::SetScriptSite | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Informs the scripting engine of the [IActiveScriptSite](../../winscript/referenc
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT SetScriptSite(  
     IActiveScriptSite *pScriptSite  // address of host script site  
 );  
@@ -45,5 +44,5 @@ HRESULT SetScriptSite(
 |`E_POINTER`|An invalid pointer was specified.|  
 |`E_UNEXPECTED`|The call was not expected (for example, a site was already set).|  
   
-## See Also  
+## See also  
  [IActiveScript](../../winscript/reference/iactivescript.md)

@@ -2,7 +2,6 @@
 title: "IDebugProperty::EnumMembers | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,12 +23,12 @@ Enumerates the members of a property.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT EnumMembers (  
-   DBGPROP_INFO_FLAGSdwFieldSpec,  
-   UINTnRadix,  
-   REFIIDrefiid,  
-   IEnumDebugPropertyInfo**ppEnum  
+   DBGPROP_INFO_FLAGSdwFieldSpec,  
+   UINTnRadix,  
+   REFIIDrefiid,  
+   IEnumDebugPropertyInfo**ppEnum  
 );  
 ```  
   
@@ -49,7 +48,7 @@ HRESULT EnumMembers (
 ## Return Value  
  Returns a valid `HRESULT`, typically `S_OK`.  
   
-## See Also  
+## See also  
  [IDebugProperty Interface](../../winscript/reference/idebugproperty-interface.md)   
  [DBGPROP_INFO_FLAGS](../../winscript/reference/dbgprop-info-flags.md)   
  [IDebugPropertyEnumType_All Interface](../../winscript/reference/idebugpropertyenumtype-all-interface.md)   

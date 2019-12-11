@@ -2,7 +2,6 @@
 title: "IDebugApplicationNodeEvents::onAddChild | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Handles the event when a child node is added to a debug application node object.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT onAddChild(  
    IDebugApplicationNode*  prddpChild  
 );  
@@ -46,7 +45,7 @@ HRESULT onAddChild(
   
  Implementers of the `IDebugApplicationNode` interface raise this event  
   
-## See Also  
+## See also  
  [IDebugApplicationNodeEvents Interface](../../winscript/reference/idebugapplicationnodeevents-interface.md)   
  [IDebugApplicationNodeEvents::onRemoveChild](../../winscript/reference/idebugapplicationnodeevents-onremovechild.md)   
  [IDebugApplicationNode Interface](../../winscript/reference/idebugapplicationnode-interface.md)

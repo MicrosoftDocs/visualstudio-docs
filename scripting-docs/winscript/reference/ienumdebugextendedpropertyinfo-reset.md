@@ -2,7 +2,6 @@
 title: "IEnumDebugExtendedPropertyInfo::Reset | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Resets an enumeration sequence to the beginning.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT Reset (  
 void  
 );  
@@ -33,5 +32,5 @@ void
 ## Return Value  
  Returns a valid `HRESULT`, typically `S_OK`.  
   
-## See Also  
+## See also  
  [IEnumDebugExtendedPropertyInfo Interface](../../winscript/reference/ienumdebugextendedpropertyinfo-interface.md)

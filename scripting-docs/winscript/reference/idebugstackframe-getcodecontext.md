@@ -2,7 +2,6 @@
 title: "IDebugStackFrame::GetCodeContext | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Returns the current code context associated with the stack frame.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetCodeContext(  
    IDebugCodeContext**  ppcc  
 );  
@@ -44,5 +43,5 @@ HRESULT GetCodeContext(
 ## Remarks  
  This method returns the current code context associated with the stack frame.  
   
-## See Also  
+## See also  
  [IDebugStackFrame Interface](../../winscript/reference/idebugstackframe-interface.md)

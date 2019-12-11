@@ -2,7 +2,6 @@
 title: "IMachineDebugManager::RemoveApplication | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Removes an application from the running application list.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT RemoveApplication(  
    DWORD  dwAppCookie  
 );  
@@ -44,7 +43,7 @@ HRESULT RemoveApplication(
 ## Remarks  
  This method is called by the process debug manager whenever `IProcessDebugManager::RemoveApplication` is called.  
   
-## See Also  
+## See also  
  [IMachineDebugManager::AddApplication](../../winscript/reference/imachinedebugmanager-addapplication.md)   
  [IMachineDebugManager Interface](../../winscript/reference/imachinedebugmanager-interface.md)   
  [IProcessDebugManager::RemoveApplication](../../winscript/reference/iprocessdebugmanager-removeapplication.md)

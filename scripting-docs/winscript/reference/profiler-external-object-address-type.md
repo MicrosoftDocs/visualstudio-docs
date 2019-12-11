@@ -2,7 +2,6 @@
 title: "PROFILER_EXTERNAL_OBJECT_ADDRESS Type | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -18,6 +17,6 @@ The external object address of an object, such as a C++-allocated object, that i
   
 ## Syntax  
   
-```  
+```cpp
 typedef void* PROFILER_EXTERNAL_OBJECT_ADDRESS;  
 ```

@@ -2,7 +2,6 @@
 title: "IDebugApplicationNode::Attach | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Adds this application node to the specified project tree.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT Attach(  
    IDebugApplicationNode*  pdanParent  
 );  
@@ -44,6 +43,6 @@ HRESULT Attach(
 ## Remarks  
  This method adds this application node to the project tree, using `pdanParent` as the parent. If `pdanParent` is `NULL`, this application node will be the top-level node.  
   
-## See Also  
+## See also  
  [IDebugApplicationNode::Detach](../../winscript/reference/idebugapplicationnode-detach.md)   
  [IDebugApplicationNode Interface](../../winscript/reference/idebugapplicationnode-interface.md)

@@ -2,7 +2,6 @@
 title: "IDebugDocumentContext::GetDocument | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Returns the document that contains this context.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetDocument(  
    IDebugDocument**  ppsd  
 );  
@@ -44,5 +43,5 @@ HRESULT GetDocument(
 ## Remarks  
  The `GetDocument` method returns the document that contains this context.  
   
-## See Also  
+## See also  
  [IDebugDocumentContext Interface](../../winscript/reference/idebugdocumentcontext-interface.md)

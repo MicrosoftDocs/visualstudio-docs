@@ -2,7 +2,6 @@
 title: "IDebugDocumentTextAuthor::RemoveText | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Removes text from the document.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT RemoveText(  
    ULONG  cCharacterPosition,  
    ULONG  cNumToRemove  
@@ -48,6 +47,6 @@ HRESULT RemoveText(
 ## Remarks  
  This method removes text from the document.  
   
-## See Also  
+## See also  
  [IDebugDocumentTextAuthor Interface](../../winscript/reference/idebugdocumenttextauthor-interface.md)   
  [IDebugDocumentTextAuthor::InsertText](../../winscript/reference/idebugdocumenttextauthor-inserttext.md)

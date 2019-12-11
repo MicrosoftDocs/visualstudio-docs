@@ -1,14 +1,9 @@
 ---
 title: "Enumerator object expected | Microsoft Docs"
-ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-client-threshold"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "javascript"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-windows
+ms.technology: vs-javascript
+ms.topic: reference
 f1_keywords: 
   - "VS.WebClient.Help.SCRIPT5015"
 dev_langs: 
@@ -16,7 +11,6 @@ dev_langs:
   - "TypeScript"
   - "DHTML"
 ms.assetid: dc6e32c1-a6e6-4e12-ac99-e3f65f91c8d7
-caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
@@ -32,11 +26,11 @@ o.f();
   
 ### To correct this error  
   
--   Only invoke the **Enumerator.prototype.atEnd**, **Enumerator.prototype.item**, **Enumerator.prototype.moveFirst**, or **Enumerator.prototype.moveNext** methods on objects of type `Enumerator`. To find out if your object is an `Enumerator` object, use:  
+- Only invoke the **Enumerator.prototype.atEnd**, **Enumerator.prototype.item**, **Enumerator.prototype.moveFirst**, or **Enumerator.prototype.moveNext** methods on objects of type `Enumerator`. To find out if your object is an `Enumerator` object, use:  
   
-    ```  
+    ```js
     if(x instanceof Enumerator)  
     ```  
   
-## See Also  
+## See also  
  [Enumerator Object](../../javascript/reference/enumerator-object-javascript.md)

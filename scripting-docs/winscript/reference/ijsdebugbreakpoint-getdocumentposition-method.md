@@ -2,7 +2,6 @@
 title: "IJsDebugBreakPoint::GetDocumentPosition Method | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -22,7 +21,7 @@ Returns the position of the statement where the breakpoint was bound.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetDocumentPosition(  
    UINT64 *pDocumentId,  
    DWORD *pCharacterOffset,  
@@ -45,5 +44,5 @@ HRESULT GetDocumentPosition(
 ## Requirements  
  **Header:** jscript9diag.h  
   
-## See Also  
+## See also  
  [IJsDebugBreakPoint Interface](../../winscript/reference/ijsdebugbreakpoint-interface.md)

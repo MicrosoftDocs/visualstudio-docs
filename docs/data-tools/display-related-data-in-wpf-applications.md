@@ -1,12 +1,8 @@
 ---
-title: "Display related data in WPF applications | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-helpviewer_keywords: 
+title: Display related data in WPF applications
+ms.date: 11/04/2016
+ms.topic: conceptual
+helpviewer_keywords:
   - "data [WPF], displaying"
   - "WPF, data binding in Visual Studio"
   - "WPF data binding [Visual Studio]"
@@ -15,15 +11,14 @@ helpviewer_keywords:
   - "WPF Designer, data binding"
   - "data binding, WPF"
 ms.assetid: 3aa80194-0191-474d-9d28-5ec05654b426
-caps.latest.revision: 16
-author: "gewarren"
-ms.author: "gewarren"
-manager: ghogen
-ms.technology: "vs-data-tools"
-ms.workload: 
+author: jillre
+ms.author: jillfra
+manager: jillfra
+ms.workload:
   - "data-storage"
 ---
 # Display related data in WPF applications
+
 In some applications, you might want to work with data that comes from multiple tables or entities that are related to each other in a parent-child relationship. For example, you might want to display a grid that displays customers from a `Customers` table. When the user selects a specific customer, another grid displays the orders for that customer from a related `Orders` table.
 
 You can create data-bound controls that display related data by dragging items from the **Data Sources** window to the WPF Designer.
@@ -52,8 +47,9 @@ You can create data-bound controls that display related data by dragging items f
 
      The following figure demonstrates the related **Orders** table of the **Customers** table in a dataset in the **Data Sources** window.
 
-     ![Data Sources Window showing relation](../data-tools/media/datasources2.gif "DataSources2")
+     ![Data Sources Window showing relation](../data-tools/media/datasources2.gif)
 
 ## See also
-[Bind WPF controls to data in Visual Studio](../data-tools/bind-wpf-controls-to-data-in-visual-studio.md)   
-[Create lookup tables in WPF applications](../data-tools/create-lookup-tables-in-wpf-applications.md)
+
+- [Bind WPF controls to data in Visual Studio](../data-tools/bind-wpf-controls-to-data-in-visual-studio.md)
+- [Create lookup tables in WPF applications](../data-tools/create-lookup-tables-in-wpf-applications.md)

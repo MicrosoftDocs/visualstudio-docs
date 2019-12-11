@@ -1,19 +1,12 @@
 ---
 title: "Language Server Protocol Overview | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/14/2017"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-sdk"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 ms.assetid: 6a7d93c2-31ea-4bae-8b29-6988a567ddf2
-caps.latest.revision: 1
-author: "gregvanl"
-ms.author: "gregvanl"
-manager: "ghogen"
-ms.workload: 
+author: madskristensen
+ms.author: madsk
+manager: jillfra
+ms.workload:
   - "vssdk"
 ---
 # Language Server Protocol
@@ -52,7 +45,7 @@ Below is an example for how a tool and a language server communicate during a ro
 
 * **The user opens a file (referred to as a document) in the tool**: The tool notifies the language server that a document is open ('textDocument/didOpen'). From now on, the truth about the contents of the document is no longer on the file system but kept by the tool in memory.
 
-* **The user makes edits**: The tool notifies the server about the document change ('textDocument/didChange') and the semantic information of the program is updated by the language server. As this happens, the language server analyses this information and notifies the tool with the detected errors and warnings ('textDocument/publishDiagnostics').
+* **The user makes edits**: The tool notifies the server about the document change ('textDocument/didChange') and the semantic information of the program is updated by the language server. As this happens, the language server analyzes this information and notifies the tool with the detected errors and warnings ('textDocument/publishDiagnostics').
 
 * **The user executes "Go to Definition" on a symbol in the editor**: The tool sends a 'textDocument/definition' request with two parameters: (1) the document URI and (2) the text position from where the Go to Definition request was initiated to the server. The server responds with the document URI and the position of the symbol's definition inside the document.
 

@@ -2,7 +2,6 @@
 title: "IJsDebugFrame::GetDebugProperty Method | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -22,7 +21,7 @@ Returns a property browser for this stack frame.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetDebugProperty(  
    IJsDebugProperty **ppDebugProperty  
 );  
@@ -37,5 +36,5 @@ HRESULT GetDebugProperty(
 ## Requirements  
  **Header:** jscript9diag.h  
   
-## See Also  
+## See also  
  [IJsDebugFrame Interface](../../winscript/reference/ijsdebugframe-interface.md)

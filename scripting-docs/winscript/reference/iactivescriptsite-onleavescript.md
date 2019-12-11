@@ -2,7 +2,6 @@
 title: "IActiveScriptSite::OnLeaveScript | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Informs the host that the scripting engine has returned from executing script co
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT OnLeaveScript(void);  
 ```  
   
@@ -34,5 +33,5 @@ HRESULT OnLeaveScript(void);
 ## Remarks  
  The scripting engine must call this method before returning control to a calling application that entered the scripting engine. For example, if the script calls an object that then fires an event handled by the scripting engine, the scripting engine must call the [IActiveScriptSite::OnEnterScript](../../winscript/reference/iactivescriptsite-onenterscript.md) method before executing the event, and must call `IActiveScriptSite::OnLeaveScript` after executing the event before returning to the object that fired the event. Calls to this method can be nested. Every call to `IActiveScriptSite::OnEnterScript` requires a corresponding call to this method.  
   
-## See Also  
+## See also  
  [IActiveScriptSite](../../winscript/reference/iactivescriptsite.md)

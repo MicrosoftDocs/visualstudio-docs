@@ -2,7 +2,6 @@
 title: "IActiveScriptSiteWindow::EnableModeless | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Causes the host to enable or disable its main window as well as any modeless dia
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT EnableModeless(  
     BOOL fEnable  // enable flag  
 );  
@@ -42,5 +41,5 @@ HRESULT EnableModeless(
   
  Calls to this method can be nested.  
   
-## See Also  
+## See also  
  [IActiveScriptSiteWindow](../../winscript/reference/iactivescriptsitewindow.md)

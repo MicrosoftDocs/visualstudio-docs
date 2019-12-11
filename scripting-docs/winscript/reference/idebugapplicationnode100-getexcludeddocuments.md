@@ -2,7 +2,6 @@
 title: "IDebugApplicationNode100::GetExcludedDocuments | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -19,7 +18,7 @@ manager: "ghogen"
 Gets the text documents that are hidden by the specified filter.  
   
 > [!IMPORTANT]
->  [IDebugApplicationNode100 Interface](../../winscript/reference/idebugapplicationnode100-interface.md) is implemented by PDM v10.0 and greater. Found in activdbg100.h.  
+> [IDebugApplicationNode100 Interface](../../winscript/reference/idebugapplicationnode100-interface.md) is implemented by PDM v10.0 and greater. Found in activdbg100.h.  
   
 ## Syntax  
   
@@ -34,5 +33,5 @@ HRESULT GetExcludedDocuments(        [in] APPLICATION_NODE_EVENT_FILTER filter, 
  `pDocuments`  
  The set of documents.  
   
-## See Also  
+## See also  
  [IDebugApplicationNode100 Interface](../../winscript/reference/idebugapplicationnode100-interface.md)

@@ -2,7 +2,6 @@
 title: "IActiveScriptAuthor::GetInfoFromContext | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Returns type information and anchor positions for a given character in a block o
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetInfoFromContext(  
    LPCOLESTR  pszCode,  
    ULONG      cchCode,  
@@ -97,6 +96,6 @@ HRESULT GetInfoFromContext(
   
 ## Remarks  
   
-## See Also  
- [IProvideMultipleClassInfo Interface](https://msdn.microsoft.com/library/microsoft.visualstudio.ole.interop.iprovidemultipleclassinfo.aspx)   
+## See also  
+ [IProvideMultipleClassInfo Interface](/dotnet/api/microsoft.visualstudio.ole.interop.iprovidemultipleclassinfo)   
  [IActiveScriptAuthor Interface](../../winscript/reference/iactivescriptauthor-interface.md)

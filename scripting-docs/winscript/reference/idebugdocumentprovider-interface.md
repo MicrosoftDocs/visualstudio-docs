@@ -2,7 +2,6 @@
 title: "IDebugDocumentProvider Interface | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -21,15 +20,15 @@ Provides the means for instantiating a document on demand.
 ## Remarks  
  This indirect means for instantiating a document:  
   
--   Allows the document to load when it is needed.  
+- Allows the document to load when it is needed.  
   
--   Allows the document object to be contained within the debugger IDE.  
+- Allows the document object to be contained within the debugger IDE.  
   
--   Allows multiple ways to access the same document object.  
+- Allows multiple ways to access the same document object.  
   
- This effectively separates the document from its provider and allows the provider to carry additional run-time, context information.  
+  This effectively separates the document from its provider and allows the provider to carry additional run-time, context information.  
   
- In addition to the methods inherited from `IDebugDocumentInfo`, the `IDebugDocumentProvider` interface exposes the following methods.  
+  In addition to the methods inherited from `IDebugDocumentInfo`, the `IDebugDocumentProvider` interface exposes the following methods.  
   
 |Method|Description|  
 |------------|-----------------|  

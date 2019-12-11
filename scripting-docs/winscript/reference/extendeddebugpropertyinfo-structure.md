@@ -2,7 +2,6 @@
 title: "ExtendedDebugPropertyInfo Structure | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,20 +23,20 @@ Extends the `DebugPropertyInfo` structure with additional members to characteriz
   
 ## Syntax  
   
-```  
+```cpp
 typedef struct ExtendedDebugPropertyInfo{  
-   DBGPROP_INFO_FLAGS  dwValidFields;  
-   LPOLESTR  bstrName;  
-   LPOLESTR  bstrType;  
-   LPOLESTR  bstrValue;  
-   LPOLESTR  bstrFullName;  
-   DBGPROP_ATTRIB_FLAGS  dwAttrib;  
-   IDebugProperty*  pDebugProp;  
-   DWORD  nDISPID;  
-   DWORD  nType;  
-   VARIANT  varValue;  
-   ILockBytes*  plbValue;  
-   IDebugExtendedProperty*  pDebugExtProp;  
+   DBGPROP_INFO_FLAGS  dwValidFields;  
+   LPOLESTR  bstrName;  
+   LPOLESTR  bstrType;  
+   LPOLESTR  bstrValue;  
+   LPOLESTR  bstrFullName;  
+   DBGPROP_ATTRIB_FLAGS  dwAttrib;  
+   IDebugProperty*  pDebugProp;  
+   DWORD  nDISPID;  
+   DWORD  nType;  
+   VARIANT  varValue;  
+   ILockBytes*  plbValue;  
+   IDebugExtendedProperty*  pDebugExtProp;  
 };  
 ```  
   
@@ -78,7 +77,7 @@ typedef struct ExtendedDebugPropertyInfo{
  `pDebugExtProp`  
  `IDebugExtendedProperty` object corresponding to this `ExtendedDebugPropertyInfo`.  
   
-## See Also  
+## See also  
  [DebugPropertyInfo Structure](../../winscript/reference/debugpropertyinfo-structure.md)   
  [IDebugProperty Interface](../../winscript/reference/idebugproperty-interface.md)   
  [IDebugExtendedProperty Interface](../../winscript/reference/idebugextendedproperty-interface.md)   

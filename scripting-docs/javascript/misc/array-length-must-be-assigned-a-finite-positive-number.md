@@ -1,14 +1,9 @@
 ---
 title: "Array length must be assigned a finite positive number | Microsoft Docs"
-ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-client-threshold"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "javascript"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-windows
+ms.technology: vs-javascript
+ms.topic: reference
 f1_keywords: 
   - "VS.WebClient.Help.SCRIPT5030"
 dev_langs: 
@@ -16,7 +11,6 @@ dev_langs:
   - "TypeScript"
   - "DHTML"
 ms.assetid: c51c66a4-a543-4e95-b18d-2cfbcb3d1fdd
-caps.latest.revision: 9
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
@@ -26,12 +20,12 @@ When setting the **length** property of an existing **Array** object, you specif
   
 ### To correct this error  
   
--   Assign a positive whole number to the length property. There is no upper limit for the size of an array, other than the maximum integer value (approximately 4 billion). The following example demonstrates the correct way to set the **length** property of an **Array** object.  
+- Assign a positive whole number to the length property. There is no upper limit for the size of an array, other than the maximum integer value (approximately 4 billion). The following example demonstrates the correct way to set the **length** property of an **Array** object.  
   
     ```JavaScript  
     var my_array = new Array();  
     my_array.length = 99;  
     ```  
   
-## See Also  
+## See also  
  [Using Arrays](../../javascript/advanced/using-arrays-javascript.md)

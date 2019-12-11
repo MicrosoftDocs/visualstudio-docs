@@ -1,14 +1,9 @@
 ---
 title: "Function does not have a valid prototype object | Microsoft Docs"
-ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-client-threshold"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "javascript"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-windows
+ms.technology: vs-javascript
+ms.topic: reference
 f1_keywords: 
   - "VS.WebClient.Help.SCRIPT5023"
 dev_langs: 
@@ -16,7 +11,6 @@ dev_langs:
   - "TypeScript"
   - "DHTML"
 ms.assetid: b9e34652-190f-4b57-b253-df2e8c4d09c6
-caps.latest.revision: 7
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
@@ -26,8 +20,8 @@ You attempted to use **instanceof** to determine if an object was derived from a
   
 ### To correct this error  
   
--   Ensure the function's `prototype` property refers to a valid [!INCLUDE[javascript](../../javascript/includes/javascript-md.md)] object.  
+- Ensure the function's `prototype` property refers to a valid [!INCLUDE[javascript](../../javascript/includes/javascript-md.md)] object.  
   
-## See Also  
+## See also  
  [Function Object](../../javascript/reference/function-object-javascript.md)   
  [prototype Property (Object)](../../javascript/reference/prototype-property-object-javascript.md)

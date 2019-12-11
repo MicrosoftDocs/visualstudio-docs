@@ -2,7 +2,6 @@
 title: "IActiveScriptSite::OnStateChange | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Informs the host that the scripting engine has changed states.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT OnStateChange(  
     SCRIPTSTATE ssScriptState  // new state of engine  
 );  
@@ -37,5 +36,5 @@ HRESULT OnStateChange(
 ## Return Value  
  Returns `S_OK` if successful.  
   
-## See Also  
+## See also  
  [IActiveScriptSite](../../winscript/reference/iactivescriptsite.md)

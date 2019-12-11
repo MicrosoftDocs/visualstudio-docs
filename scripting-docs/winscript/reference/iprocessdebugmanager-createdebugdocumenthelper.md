@@ -2,7 +2,6 @@
 title: "IProcessDebugManager::CreateDebugDocumentHelper | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Creates a new debug document helper for this application.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT CreateDebugDocumentHelper(  
    IUnknown*               punkOuter,  
    IDebugDocumentHelper**  pddh  
@@ -48,5 +47,5 @@ HRESULT CreateDebugDocumentHelper(
 ## Remarks  
  This method creates a new debug document helper for this application.  
   
-## See Also  
+## See also  
  [IProcessDebugManager Interface](../../winscript/reference/iprocessdebugmanager-interface.md)

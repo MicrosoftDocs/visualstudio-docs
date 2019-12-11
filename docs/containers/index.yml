@@ -1,0 +1,82 @@
+## YamlMime:Landing
+title: Container Tools in Visual Studio
+metadata:
+  title: Docker container development tools documentation
+  description: 'Learn how to build and manage container-based apps and services. Get documentation, example code, tutorials, and more.'
+  author: ghogen
+  manager: jillfra
+  ms.prod: visual-studio-windows
+  ms.technology: vs-azure
+  ms.topic: landing-page
+  ms.date: 11/25/2019
+  ms.author: ghogen
+
+# linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
+
+landingContent:
+# Cards and links should be based on top customer tasks or top subjects
+# Start card title with a verb
+  # Card (optional)
+  - title: About deployment
+    linkLists:
+      - linkListType: overview
+        links:
+          - text: Container tools in Visual Studio
+            url: overview.md
+  - title: Get started
+    linkLists:
+      - linkListType: quickstart
+        links:
+          - text: Docker in Visual Studio
+            url: container-tools.md
+          - text: Running build tools in a container
+            url: /visualstudio/install/build-tools-container
+          - text: Visual Studio Tools for Kubernetes
+            url: tutorial-kubernetes-tools.md
+
+  # Card
+  - title: Develop containerized apps
+    linkLists:
+      - linkListType: tutorial
+        links:
+          - text: Multicontainer app with Docker Compose
+            url: tutorial-multicontainer.md
+          - text: React.js app in a container
+            url: container-tools-react.md
+          - text: Debugging Docker apps
+            url: edit-and-refresh.md
+
+  - title: Deploy Docker containers
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+          - text: Deploy to Azure Container Registry
+            url: hosting-web-apps-in-docker.md
+          - text: Deploy to Azure App Service
+            url: deploy-app-service.md
+          - text: Deploy to Docker Hub
+            url: deploy-docker-hub.md
+
+  - title: Container development tasks
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+          - text: 'How to: Configure the build and debug environment'
+            url: container-build.md
+          - text: 'How to: View and diagnose containers'
+            url: view-and-diagnose-containers.md
+          - text: 'How to: Troubleshoot container development tools'
+            url: troubleshooting-docker-errors.md
+
+  - title: Container tools settings
+    linkLists:
+      - linkListType: reference
+        links:
+          - text: Container launch settings
+            url: container-launch-settings.md
+          - text: Container MSBuild properties
+            url: container-msbuild-properties.md
+          - text: Docker Compose MSBuild properties
+            url: docker-compose-properties.md
+          - text: Configure container tools
+            url: container-tools-configure.md

@@ -2,7 +2,6 @@
 title: "IActiveScriptAuthor::GetEventHandler | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Returns the scriptlet that has the specified attributes.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetEventHandler(  
    IDispatch          *pdisp,  
    LPCOLESTR          pszItem,  
@@ -59,6 +58,6 @@ HRESULT GetEventHandler(
   
 ## Remarks  
   
-## See Also  
+## See also  
  [IActiveScriptAuthor Interface](../../winscript/reference/iactivescriptauthor-interface.md)   
  [IScriptEntry Interface](../../winscript/reference/iscriptentry-interface.md)

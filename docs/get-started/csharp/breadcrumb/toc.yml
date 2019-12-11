@@ -1,0 +1,11 @@
+- name: Docs
+  tocHref: /
+  topicHref: /
+  items:
+  - name: Visual Studio
+    tocHref: /visualstudio/
+    topicHref: /visualstudio/ide/
+    items:
+    - name: C#
+      tocHref: /visualstudio/csharp/
+      topicHref: /visualstudio/csharp/index

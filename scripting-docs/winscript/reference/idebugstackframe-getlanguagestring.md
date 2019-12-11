@@ -2,7 +2,6 @@
 title: "IDebugStackFrame::GetLanguageString | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Returns a short or long textual description of the language.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetLanguageString(  
    BOOL   fLong,  
    BSTR*  pbstrLanguage  
@@ -48,5 +47,5 @@ HRESULT GetLanguageString(
 ## Remarks  
  Typically, if `fLong` is `FALSE`, this method provides only the name of the language associated with the stack frame. When `fLong` is `TRUE`, this method may provide a full product description.  
   
-## See Also  
+## See also  
  [IDebugStackFrame Interface](../../winscript/reference/idebugstackframe-interface.md)

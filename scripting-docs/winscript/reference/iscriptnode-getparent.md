@@ -2,7 +2,6 @@
 title: "IScriptNode::GetParent | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Returns the `IScriptNode` object that is the parent of an object.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetParent(  
    IScriptNode       **ppsnParent  
 );  
@@ -47,5 +46,5 @@ HRESULT GetParent(
   
 ## Remarks  
   
-## See Also  
+## See also  
  [IScriptNode Interface](../../winscript/reference/iscriptnode-interface.md)

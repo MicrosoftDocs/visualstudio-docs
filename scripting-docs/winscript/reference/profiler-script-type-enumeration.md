@@ -2,7 +2,6 @@
 title: "PROFILER_SCRIPT_TYPE Enumeration | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -22,7 +21,7 @@ Specifies the type of script.
   
 ## Syntax  
   
-```  
+```cpp
 typedef enum {  
     PROFILER_SCRIPT_TYPE_USER,  
     PROFILER_SCRIPT_TYPE_DYNAMIC,  
@@ -40,7 +39,7 @@ typedef enum {
 |PROFILER_SCRIPT_TYPE_NATIVE|Specifies the script type for native functions and objects that are defined by the scripting engine.|  
 |PROFILER_SCRIPT_TYPE_DOM|Specifies a call into the Document Object Model (DOM) of Internet Explorer, for example, a call to the `document.getElementById` method.|  
   
-## See Also  
+## See also  
  [Active Script Profiler Constants, Enumerations and Structures](../../winscript/reference/active-script-profiler-constants-enumerations-and-structures.md)   
  [IActiveScriptProfilerCallback::ScriptCompiled](../../winscript/reference/iactivescriptprofilercallback-scriptcompiled.md)   
  [IActiveScriptProfilerCallback2::OnFunctionEnterByName](../../winscript/reference/iactivescriptprofilercallback2-onfunctionenterbyname.md)   

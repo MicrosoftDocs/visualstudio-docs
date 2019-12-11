@@ -2,7 +2,6 @@
 title: "IDebugApplicationThread::SetDescription | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Sets the description of this thread.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT SetDescription(  
    LPCOLESTR  pstrDescription  
 );  
@@ -44,5 +43,5 @@ HRESULT SetDescription(
 ## Remarks  
  This method sets the description of this thread.  
   
-## See Also  
+## See also  
  [IDebugApplicationThread Interface](../../winscript/reference/idebugapplicationthread-interface.md)

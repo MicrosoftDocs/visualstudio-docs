@@ -2,7 +2,6 @@
 title: "IDebugDocumentText Interface | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -18,11 +17,11 @@ manager: "ghogen"
 # IDebugDocumentText Interface
 Provides access to a text-only version of the debug document. This interface uses the following conventions:  
   
--   Both character positions and line numbers are zero based.  
+- Both character positions and line numbers are zero based.  
   
--   Character-positions represent character offsets; they do not represent byte or word offsets. For Win32, a character-position is a Unicode offset.  
+- Character-positions represent character offsets; they do not represent byte or word offsets. For Win32, a character-position is a Unicode offset.  
   
- In addition to the methods inherited from `IDebugDocument`, the `IDebugDocumentText` interface exposes the following methods.  
+  In addition to the methods inherited from `IDebugDocument`, the `IDebugDocumentText` interface exposes the following methods.  
   
 ## Methods in Vtable Order  
   

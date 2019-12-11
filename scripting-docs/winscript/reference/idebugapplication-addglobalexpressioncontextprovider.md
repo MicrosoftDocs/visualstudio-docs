@@ -2,7 +2,6 @@
 title: "IDebugApplication::AddGlobalExpressionContextProvider | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Adds a global expression context provider to this application.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT AddGlobalExpressionContextProvider(  
    IProvideExpressionContexts*  pdsfs,  
    DWORD_PTR*                   pdwCookie  
@@ -48,6 +47,6 @@ HRESULT AddGlobalExpressionContextProvider(
 ## Remarks  
  This method adds a global expression context provider to this application.  
   
-## See Also  
+## See also  
  [IDebugApplication Interface](../../winscript/reference/idebugapplication-interface.md)   
  [IDebugApplication::RemoveGlobalExpressionContextProvider](../../winscript/reference/idebugapplication-removeglobalexpressioncontextprovider.md)

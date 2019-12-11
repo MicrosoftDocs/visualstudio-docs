@@ -2,7 +2,6 @@
 title: "IRemoteDebugApplicationThread::GetDescription | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Gets the description and state of this thread.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetDescription(  
    BSTR*  pbstrDescription,  
    BSTR*  pbstrState  
@@ -48,5 +47,5 @@ HRESULT GetDescription(
 ## Remarks  
  This method gets the description and state of this thread.  
   
-## See Also  
+## See also  
  [IRemoteDebugApplicationThread Interface](../../winscript/reference/iremotedebugapplicationthread-interface.md)

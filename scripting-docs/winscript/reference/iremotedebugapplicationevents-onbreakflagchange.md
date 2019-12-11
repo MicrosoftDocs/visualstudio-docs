@@ -2,7 +2,6 @@
 title: "IRemoteDebugApplicationEvents::OnBreakFlagChange | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Handles an event when the break flags change.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT OnBreakFlagChange(  
    APPBREAKFLAGS                   abf,  
    IRemoteDebugApplicationThread*  prdatSteppingThread  
@@ -48,6 +47,6 @@ HRESULT OnBreakFlagChange(
 ## Remarks  
  This method handles the event when the break flag change.  
   
-## See Also  
+## See also  
  [IRemoteDebugApplicationEvents Interface](../../winscript/reference/iremotedebugapplicationevents-interface.md)   
  [APPBREAKFLAGS Enumeration](../../winscript/reference/appbreakflags-enumeration.md)

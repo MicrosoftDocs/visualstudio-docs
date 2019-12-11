@@ -2,7 +2,6 @@
 title: "IActiveScriptProfilerControl2::PrepareProfilerStop | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -20,7 +19,7 @@ Notifies the profiler that you are going to stop profiling on all applicable scr
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT PrepareProfilerStop();  
 ```  
   
@@ -40,6 +39,6 @@ HRESULT PrepareProfilerStop();
 ## Remarks  
  Calling `IActiveScriptProfilerControl2::PrepareProfilerStop` ensures that events for functions in the call stack are sent. This method has to be called before you stop profiling on any scripting engine that is on the current tab. The method can be called for any scripting engine.  
   
-## See Also  
+## See also  
  [IActiveScriptProfilerControl2::CompleteProfilerStart](../../winscript/reference/iactivescriptprofilercontrol2-completeprofilerstart.md)   
  [IActiveScriptProfilerControl2 Interface](../../winscript/reference/iactivescriptprofilercontrol2-interface.md)

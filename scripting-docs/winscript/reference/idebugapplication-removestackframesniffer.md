@@ -2,7 +2,6 @@
 title: "IDebugApplication::RemoveStackFrameSniffer | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Removes a stack frame enumerator provider from this application.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT RemoveStackFrameSniffer(  
    DWORD  dwCookie  
 );  
@@ -44,7 +43,7 @@ HRESULT RemoveStackFrameSniffer(
 ## Remarks  
  The `RemoveStackFrameSniffer` method removes a stack frame enumerator provider from this application.  
   
-## See Also  
+## See also  
  [IDebugApplication::AddStackFrameSniffer](../../winscript/reference/idebugapplication-addstackframesniffer.md)   
  [IDebugApplication Interface](../../winscript/reference/idebugapplication-interface.md)   
  [IDebugStackFrameSniffer Interface](../../winscript/reference/idebugstackframesniffer-interface.md)

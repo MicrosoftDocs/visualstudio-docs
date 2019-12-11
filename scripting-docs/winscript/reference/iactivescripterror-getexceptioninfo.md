@@ -2,7 +2,6 @@
 title: "IActiveScriptError::GetExceptionInfo | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Retrieves information about an error that occurred while the scripting engine wa
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetExceptionInfo(  
     EXCEPINFO *pexcepinfo  // structure for exception information  
 );  
@@ -37,5 +36,5 @@ HRESULT GetExceptionInfo(
 ## Return Value  
  Returns `S_OK` if successful, or `E_FAIL` if an error occurred.  
   
-## See Also  
+## See also  
  [IActiveScriptError](../../winscript/reference/iactivescripterror.md)

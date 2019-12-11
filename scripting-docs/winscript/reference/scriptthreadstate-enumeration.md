@@ -2,7 +2,6 @@
 title: "SCRIPTTHREADSTATE Enumeration | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Specifies the state of a thread in a scripting engine. This enumeration is used 
   
 ## Syntax  
   
-```  
+```cpp
 typedef enum tagSCRIPTTHREADSTATE {  
     SCRIPTTHREADSTATE_NOTINSCRIPT  = 0,  
     SCRIPTTHREADSTATE_RUNNING      = 1  
@@ -38,5 +37,5 @@ typedef enum tagSCRIPTTHREADSTATE {
 |SCRIPTTHREADSTATE_NOTINSCRIPT|Specified thread is not currently servicing a scripted event, processing immediately executed script text, or running a script macro.|  
 |SCRIPTTHREADSTATE_RUNNING|Specified thread is actively servicing a scripted event, processing immediately executed script text, or running a script macro.|  
   
-## See Also  
+## See also  
  [Active Script Constants, Enumerations, and Error Codes](../../winscript/reference/active-script-constants-enumerations-and-error-codes.md)

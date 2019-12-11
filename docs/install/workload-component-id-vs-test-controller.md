@@ -1,64 +1,42 @@
 ---
-title: Visual Studio Test Controller 2017 workload and component IDs | Microsoft Docs
+title: Visual Studio Test Controller workload and component IDs
+titleSuffix: ""
 description: "Use Visual Studio workload and component IDs to distribute automated tests to multiple machines"
-keywords: 
+keywords:
 author: TerryGLee
 ms.author: tglee
-manager: ghogen
-ms.date: 03/05/2018
-ms.topic: article
-helpviewer_keywords: 
+manager: jillfra
+ms.date: 12/03/2019
+ms.topic: reference
+helpviewer_keywords:
   - "workload ID, Visual Studio"
   - "component ID, Visual Studio"
   - "install Visual Studio, administrator guide"
-ms.service: 
-ms.technology: 
-  - "vs-acquisition"
 ms.assetid: fbbda9c8-d2c6-474d-b52d-a95227d52fe7
-ms.workload: 
-  - "multiple"
+ms.prod: visual-studio-windows
+ms.technology: vs-installation
 ---
+# Visual Studio Test Controller component directory
 
-# Visual Studio Test Controller 2017 component directory
+[!INCLUDE[workloads-components-universal-header_md](includes/workloads-components-universal-header_md.md)]
 
-The tables on this page list the IDs that you can use to install Visual Studio by using the command line. Note that we will add additional components as we release updates to Visual Studio.
+::: moniker range="vs-2017"
 
-Also note the following about the page:
+[!INCLUDE[workloads-components-header-2017_md](includes/workloads-components-header-2017_md.md)]
 
-* Each workload has its own section, followed by the workload ID and a table of the components that are available for the workload.
-* By default, the **Required** components will be installed when you install the workload. If you choose to, you can also install the **Recommended** and **Optional** components.
-* We've also added a section that lists the additional components that are not affiliated with any workload.
+[!include[Visual Studio Test Controller 2017](includes/vs-2017/workload-component-id-vs-test-controller.md)]
 
-For more information about how to use these IDs, see [Use Command-Line Parameters to Install Visual Studio 2017](use-command-line-parameters-to-install-visual-studio.md) page. And, for a list of workload and component IDs for other products, see [Visual Studio 2017 Workload and Component IDs](workload-and-component-ids.md) page.
+::: moniker-end
 
-## Test Controller
+::: moniker range=">= vs-2019"
 
-**ID:** Microsoft.VisualStudio.Workload.TestController
+[!INCLUDE[workloads-components-header-2019_md](includes/workloads-components-header-2019_md.md)]
 
-**Description:** Distribute automated tests to multiple machines
+[!include[Visual Studio Test Controller 2019](includes/vs-2019/workload-component-id-vs-test-controller.md)]
 
-### Components included by this workload
+::: moniker-end
 
-Component ID | Name | Version | Dependency type
---- | --- | --- | ---
-Microsoft.VisualStudio.ComponentGroup.TestTools.TestController | Test Controller core features | 15.6.27309.0 | Required
-
-## Unaffiliated components
-
-These are components that are not included with any workload, but may be selected as an individual component.
-
-Component ID | Name | Version
---- | --- | ---
-n/a | n/a | n/a
-
-## Get support
-Sometimes, things can go wrong. If your Visual Studio installation fails, see the [Troubleshooting Visual Studio 2017 installation and upgrade issues](troubleshooting-installation-issues.md) page. If none of the troubleshooting steps help, you can contact us by live chat for installation assistance (English only). For details, see the [Visual Studio support page](https://www.visualstudio.com/vs/support/#talktous).
-
-Here are a few more support options:
-* You can report product issues to us via the [Report a Problem](../ide/how-to-report-a-problem-with-visual-studio-2017.md) tool that appears both in the Visual Studio Installer and in the Visual Studio IDE.
-* You can share a product suggestion with us on [UserVoice](https://visualstudio.uservoice.com/forums/121579).
-* You can track product issues in the [Visual Studio Developer Community](https://developercommunity.visualstudio.com/), and ask questions and find answers.
-* You can also engage with us and other Visual Studio developers through our [Visual Studio conversation in the Gitter community](https://gitter.im/Microsoft/VisualStudio).  (This option requires a [GitHub](https://github.com/) account.)
+[!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 
 ## See also
 

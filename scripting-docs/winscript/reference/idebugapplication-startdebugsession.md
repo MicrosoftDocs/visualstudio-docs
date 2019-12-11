@@ -2,7 +2,6 @@
 title: "IDebugApplication::StartDebugSession | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Starts the default debugger integrated development environment (IDE) and attache
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT StartDebugSession();  
 ```  
   
@@ -41,5 +40,5 @@ HRESULT StartDebugSession();
 ## Remarks  
  This method is used to implement just-in-time debugging.  
   
-## See Also  
+## See also  
  [IDebugApplication Interface](../../winscript/reference/idebugapplication-interface.md)

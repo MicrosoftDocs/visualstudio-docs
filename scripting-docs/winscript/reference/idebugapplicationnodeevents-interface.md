@@ -2,7 +2,6 @@
 title: "IDebugApplicationNodeEvents Interface | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -29,5 +28,5 @@ Provides the event interface for the `IDebugApplicationNode` interface.
 |[IDebugApplicationNodeEvents::onDetach](../../winscript/reference/idebugapplicationnodeevents-ondetach.md)|Handles an event signifying that the debug application node object was detached from a parent node.|  
 |[IDebugApplicationNodeEvents::onAttach](../../winscript/reference/idebugapplicationnodeevents-onattach.md)|Handles an event signifying that the debug application node object was attached to a parent node.|  
   
-## See Also  
+## See also  
  [IDebugApplicationNode Interface](../../winscript/reference/idebugapplicationnode-interface.md)

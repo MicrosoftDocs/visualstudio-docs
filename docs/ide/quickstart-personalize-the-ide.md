@@ -1,43 +1,59 @@
 ---
-title: "Set color theme and fonts in Visual Studio | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/20/2017"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-general"
-ms.tgt_pltfrm: ""
-ms.topic: "quickstart"
-author: "gewarren"
-ms.author: "gewarren"
-manager: ghogen
-ms.workload: 
+title: Set color theme and fonts
+ms.date: 11/20/2017
+ms.topic: quickstart
+author: jillre
+ms.author: jillfra
+manager: jillfra
+ms.workload:
   - "multiple"
 ---
-# Quickstart: Personalize the Visual Studio IDE and Editor
+# Personalize the Visual Studio IDE and Editor
 
-In this 5-10 minute quickstart, we'll customize the Visual Studio color theme and two text colors in the Text Editor.
+In this 5-10 minute tutorial, we'll customize the Visual Studio color theme by selecting the dark theme. We'll also customize the colors for two different types of text in the text editor.
+
+::: moniker range="vs-2017"
+
+If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/vs/older-downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=vs+2017+download) page to install it for free.
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads) page to install it for free.
+
+::: moniker-end
 
 ## Set the color theme
 
-The default color theme for Visual Studio 2017 is called **Blue**. Let's change it to **Dark**.
+The default color theme for Visual Studio's user interface is called **Blue**. Let's change it to **Dark**.
 
-1. On the menu bar, choose **Tools**, **Options**.
+1. On the menu bar, which is the row of menus such as **File** and **Edit**, choose **Tools** > **Options**.
 
-1. On the **Environment**, **General** options page, change the **Color theme** selection to **Dark**, and then choose **OK**.
+1. On the **Environment** > **General** options page, change the **Color theme** selection to **Dark**, and then choose **OK**.
 
-   The color theme for the entire IDE is changed to **Dark**.
+   The color theme for the entire Visual Studio development environment (IDE) changes to **Dark**.
 
-   ![VS in a dark theme](media/quickstart-personalize-dark-theme.png)
+   ::: moniker range="vs-2017"
+
+   ![Visual Studio 2017 in dark theme](media/quickstart-personalize-dark-theme.png)
+
+   ::: moniker-end
+
+   ::: moniker range="vs-2019"
+
+   ![Visual Studio 2019 in dark theme](media/vs-2019/dark-theme.png)
+
+   ::: moniker-end
 
 > [!TIP]
-> You can install additional predefined themes by installing the **Visual Studio Color Theme Editor** from the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=VisualStudioProductTeam.VisualStudio2017ColorThemeEditor). After you install this tool, additional color themes appear in the Color theme drop-down list.
+> You can install additional predefined themes by installing the **Visual Studio Color Theme Editor** from the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=VisualStudioPlatformTeam.VisualStudio2017ColorThemeEditor). After you install this tool, additional color themes appear in the **Color theme** drop-down list.
 
 ## Change text color
 
-Now we'll customize some text colors for the Editor. First, let's open an XML file to see the default colors.
+Now we'll customize some text colors for the editor. First, let's create a new XML file to see the default colors.
 
-1. From the menu bar, choose **File**, **New**, **File...**.
+1. From the menu bar, choose **File** > **New** > **File**.
 
 1. In the **New File** dialog box, under the **General** category, choose **XML File**, and then choose **Open**.
 
@@ -69,15 +85,15 @@ Now we'll customize some text colors for the Editor. First, let's open an XML fi
    </Catalog>
    ```
 
-   Notice that the line numbers are a turquoise-blue color, and the xml attributes are a light blue color. We are going to change the text color for these items.
+   Notice that the line numbers are a turquoise-blue color, and the XML attributes (such as `id="bk101"`) are a light blue color. We're going to change the text color for these items.
 
    ![XML file font colors](media/quickstart-personalize-xml-file.png)
 
-1. To open the **Options** dialog box, from the menu bar, choose **Tools**, **Options**.
+1. To open the **Options** dialog box, choose **Tools** > **Options** from the menu bar.
 
 1. Under **Environment**, choose the **Fonts and Colors** category.
 
-   Notice that the text under **Show settings for** says **Text Editor**&mdash;this is what we want. You might expand the drop-down list just to see the extensive list of places where you can customize fonts and text color.
+   Notice that the text under **Show settings for** says **Text Editor**&mdash;this is what we want. Expand the drop-down list just to see the extensive list of places where you can customize fonts and text color.
 
 1. To change the color of the line numbers text, in the **Display items** list, choose **Line Number**. In the **Item foreground** box, choose **Olive**.
 
@@ -95,9 +111,5 @@ We explored just a couple ways of customizing the colors in Visual Studio. We ho
 
 ## See also
 
-[Quickstart: First look at the Visual Studio IDE](../ide/quickstart-ide-orientation.md)  
-[Quickstart: Coding in the editor](../ide/quickstart-editor.md)  
-[Quickstart: Projects and solutions](../ide/quickstart-projects-solutions.md)  
-[Personalize the Visual Studio IDE](../ide/personalizing-the-visual-studio-ide.md)  
-[Customizing the Editor](../ide/customizing-the-editor.md)  
-[Visual Studio IDE Overview](../ide/visual-studio-ide.md)
+- [Customize the editor](../ide/how-to-change-text-case-in-the-editor.md)
+- [Visual Studio IDE Overview](../get-started/visual-studio-ide.md)

@@ -2,7 +2,6 @@
 title: "IDebugStackFrame::GetDescriptionString | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Returns a short or long textual description of the stack frame.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetDescriptionString(  
    BOOL   fLong,  
    BSTR*  pbstrDescription  
@@ -48,5 +47,5 @@ HRESULT GetDescriptionString(
 ## Remarks  
  Typically, if `fLong` is `FALSE`, this method provides only the name of the function associated with the stack frame. When `fLong` is `TRUE`, this method may also provide the function parameters and other relevant information.  
   
-## See Also  
+## See also  
  [IDebugStackFrame Interface](../../winscript/reference/idebugstackframe-interface.md)

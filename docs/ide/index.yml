@@ -1,0 +1,89 @@
+### YamlMime:Landing
+
+title: Visual Studio IDE documentation
+summary: An integrated development environment (IDE) is a feature-rich application that can be used for many aspects of software development. The Visual Studio IDE makes it easy to edit, debug, build, and publish your app.
+
+metadata:
+  title: Visual Studio IDE documentation
+  titleSuffix: ""
+  description: Navigate to different pages that help you learn how to use the Visual Studio interactive development environment.
+  ms.prod: visual-studio-windows
+  ms.technology: vs-ide-general
+  ms.topic: landing-page
+  author: jillre
+  ms.author: jillfra
+  ms.date: 09/24/2019
+
+# linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
+
+# Cards and links should be based on top customer tasks or top subjects
+# Start card title with a verb
+
+landingContent:
+  # Card
+  - title: Get started
+    linkLists:
+      - linkListType: download
+        links:
+          - text: Download Visual Studio
+            url: https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=navigation+cta&utm_content=download+vs2019
+      - linkListType: get-started
+        links:
+          - text: Install Visual Studio
+            url: ../install/install-visual-studio.md
+      - linkListType: overview
+        links:
+          - text: Overview of Visual Studio
+            url: ../get-started/visual-studio-ide.md
+
+  # Card
+  - title: Use Visual Studio
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+          - text: Use the code editor
+            url: ../get-started/tutorial-editor.md
+          - text: Compile and build
+            url: ../ide/compiling-and-building-in-visual-studio.md
+          - text: Debug code
+            url: ../debugger/debugger-feature-tour.md
+          - text: Write tests
+            url: ../test/getting-started-with-unit-testing.md
+          - text: Analyze code quality
+            url: ../code-quality/roslyn-analyzers-overview.md
+          - text: Publish a web site
+            url: ../deployment/quickstart-deploy-to-a-web-site.md
+          - text: Access data
+            url: ../data-tools/create-a-simple-data-application-by-using-adonet.md
+          - text: Personalize the IDE
+            url: ../ide/quickstart-personalize-the-ide.md
+          - text: Productivity features
+            url: ../ide/productivity-features.md
+
+  # Card
+  - title: Develop in your language
+    linkLists:
+      - linkListType: tutorial
+        links:
+          - text: C#
+            url: ../get-started/csharp/tutorial-console.md
+          - text: C++
+            url: /cpp/get-started/tutorial-console-cpp
+          - text: Visual Basic
+            url: ../get-started/visual-basic/tutorial-console.md
+          - text: Python
+            url: ../python/tutorial-working-with-python-in-visual-studio-step-00-installation.md
+          - text: JavaScript
+            url: /visualstudio/javascript/tutorial-nodejs
+          - text: F#
+            url: /dotnet/fsharp/get-started/get-started-visual-studio
+
+  # Card
+  - title: Discover what's new
+    linkLists:
+      - linkListType: whats-new
+        links:
+          - text: What's new in Visual Studio 2019
+            url: ../ide/whats-new-visual-studio-2019.md
+          - text: What's new in Visual Studio 2017
+            url: ../ide/whats-new-visual-studio-2017.md

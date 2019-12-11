@@ -2,7 +2,6 @@
 title: "IScriptNode::Delete | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Deletes this object tree.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT Delete();  
 ```  
   
@@ -41,5 +40,5 @@ HRESULT Delete();
 ## Remarks  
  After the `Delete` method is called, the [IScriptNode::Alive](../../winscript/reference/iscriptnode-alive.md) method should indicate that script node is not active.  
   
-## See Also  
+## See also  
  [IScriptNode Interface](../../winscript/reference/iscriptnode-interface.md)

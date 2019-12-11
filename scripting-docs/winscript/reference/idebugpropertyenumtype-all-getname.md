@@ -2,7 +2,6 @@
 title: "IDebugPropertyEnumType_All::GetName | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,9 +23,9 @@ Returns a BSTR containing the name of the `EnumType`.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetName(  
-   BSTR*  pname  
+   BSTR*  pname  
 );  
 ```  
   
@@ -37,5 +36,5 @@ HRESULT GetName(
 ## Return Value  
  Returns a valid `HRESULT`, typically `S_OK`.  
   
-## See Also  
+## See also  
  [IDebugPropertyEnumType_All Interface](../../winscript/reference/idebugpropertyenumtype-all-interface.md)

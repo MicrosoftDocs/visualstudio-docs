@@ -2,7 +2,6 @@
 title: "IDebugCodeContext::GetDocumentContext | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Returns the document context associated with this code context.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetDocumentContext(  
    IDebugDocumentContext**  ppsc  
 );  
@@ -44,5 +43,5 @@ HRESULT GetDocumentContext(
 ## Remarks  
  For text documents, the character-position range should include the text for the entire statement. This allows the debugger IDE to highlight the current source statement.  
   
-## See Also  
+## See also  
  [IDebugCodeContext Interface](../../winscript/reference/idebugcodecontext-interface.md)

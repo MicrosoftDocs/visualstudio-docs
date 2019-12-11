@@ -2,7 +2,6 @@
 title: "IDispError::GetDescription | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Returns a textual description of the error.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetDescription(  
    BSTR*  pbstrDescription  
 );  
@@ -45,8 +44,8 @@ HRESULT GetDescription(
  The text is returned in the language specified by the locale identifier (LCID) that was passed to `IDispatchEx::InvokeEx` for the method that encountered the error.  
   
 > [!NOTE]
->  This method is not implemented.  
+> This method is not implemented.  
   
-## See Also  
+## See also  
  [IDispError Interface](../../winscript/reference/idisperror-interface.md)   
  [IDispatchEx::InvokeEx](../../winscript/reference/idispatchex-invokeex.md)

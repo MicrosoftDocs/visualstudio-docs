@@ -2,7 +2,6 @@
 title: "EX_DBGPROP_INFO_FLAGS | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,13 +23,13 @@ Used to specify `ExtendedDebugPropertyInfo` fields.
   
 ## Syntax  
   
-```  
+```cpp
 enum {  
-   EX_DBGPROP_INFO_ID  =0x0100,  
-   EX_DBGPROP_INFO_NTYPE  =0x0200,  
-   EX_DBGPROP_INFO_NVALUE  =0x0400,  
-   EX_DBGPROP_INFO_LOCKBYTES  =0x0800,  
-   EX_DBGPROP_INFO_DEBUGEXTPROP  =0x1000  
+   EX_DBGPROP_INFO_ID  =0x0100,  
+   EX_DBGPROP_INFO_NTYPE  =0x0200,  
+   EX_DBGPROP_INFO_NVALUE  =0x0400,  
+   EX_DBGPROP_INFO_LOCKBYTES  =0x0800,  
+   EX_DBGPROP_INFO_DEBUGEXTPROP  =0x1000  
 };  
 ```  
   
@@ -50,6 +49,6 @@ enum {
  EX_DBGPROP_INFO_DEBUGEXTPROP  
  Initializes the `pDebugExtProp` field that contains an `IDebugExtendedProperty` interface.  
   
-## See Also  
+## See also  
  [ExtendedDebugPropertyInfo Structure](../../winscript/reference/extendeddebugpropertyinfo-structure.md)   
  [IDebugExtendedProperty Interface](../../winscript/reference/idebugextendedproperty-interface.md)

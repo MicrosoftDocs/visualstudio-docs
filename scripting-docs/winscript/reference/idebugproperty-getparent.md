@@ -2,7 +2,6 @@
 title: "IDebugProperty::GetParent | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,9 +23,9 @@ Gets the parent property of a property.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetParent (  
-   IDebugProperty** ppParent  
+   IDebugProperty** ppParent  
 );  
 ```  
   
@@ -37,5 +36,5 @@ HRESULT GetParent (
 ## Return Value  
  Returns a valid `HRESULT`, typically `S_OK`.  
   
-## See Also  
+## See also  
  [IDebugProperty Interface](../../winscript/reference/idebugproperty-interface.md)

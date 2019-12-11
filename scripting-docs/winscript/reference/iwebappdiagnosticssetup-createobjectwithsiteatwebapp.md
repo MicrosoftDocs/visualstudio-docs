@@ -2,7 +2,6 @@
 title: "IWebAppDiagnosticsSetup::CreateObjectWithSiteAtWebApp | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -16,10 +15,10 @@ ms.author: "mikejo"
 manager: "ghogen"
 ---
 # IWebAppDiagnosticsSetup::CreateObjectWithSiteAtWebApp
-This method co-creates the class whose ID you pass in with `rclsid` using the `dwClsContext`. This is similar to the way [IRemoteDebugApplication::CreateInstanceAtApplication](../../winscript/reference/iremotedebugapplication-createinstanceatapplication.md) works, except that in the case of `CreateObjectWithSiteAtWebApp` the object is created asynchronously on the web application's UI thread. The object specified by the class ID should implement [IWebAppDiagnosticsObjectInitialization Interface](../../winscript/reference/iwebappdiagnosticsobjectinitialization-interface.md). After the object has been created, [IWebAppDiagnosticsObjectInitialization::Initialize](../../winscript/reference/iwebappdiagnosticsobjectinitialization-initialize.md) is called with a reference to the PDM debug application and the `hPassToObject` parameter of `CreateObjectWithSiteAtWebApp`. You can use this method to pass into the app a handle to an anonymous pipe that you have copied using [DuplicateHandle](http://go.microsoft.com/fwlink/?LinkId=232450).  
+This method co-creates the class whose ID you pass in with `rclsid` using the `dwClsContext`. This is similar to the way [IRemoteDebugApplication::CreateInstanceAtApplication](../../winscript/reference/iremotedebugapplication-createinstanceatapplication.md) works, except that in the case of `CreateObjectWithSiteAtWebApp` the object is created asynchronously on the web application's UI thread. The object specified by the class ID should implement [IWebAppDiagnosticsObjectInitialization Interface](../../winscript/reference/iwebappdiagnosticsobjectinitialization-interface.md). After the object has been created, [IWebAppDiagnosticsObjectInitialization::Initialize](../../winscript/reference/iwebappdiagnosticsobjectinitialization-initialize.md) is called with a reference to the PDM debug application and the `hPassToObject` parameter of `CreateObjectWithSiteAtWebApp`. You can use this method to pass into the app a handle to an anonymous pipe that you have copied using [DuplicateHandle](/windows/win32/api/handleapi/nf-handleapi-duplicatehandle).  
   
 > [!IMPORTANT]
->  [IWebAppDiagnosticsSetup Interface](../../winscript/reference/iwebappdiagnosticssetup-interface.md) is implemented by PDM v11.0 and greater. Found in activdbg100.h.  
+> [IWebAppDiagnosticsSetup Interface](../../winscript/reference/iwebappdiagnosticssetup-interface.md) is implemented by PDM v11.0 and greater. Found in activdbg100.h.  
   
 ## Syntax  
   

@@ -2,16 +2,13 @@
 title: "Clang Linker Properties (Android C++)| Microsoft Docs"
 ms.custom: ""
 ms.date: "10/23/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: vs-ide-mobile
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 ms.assetid: 66e88848-116c-4eb0-bc57-183394d35b57
-author: "corob"
-ms.author: "mblome"
-manager: ghogen
-f1_keywords: 
+author: "corob-msft"
+ms.author: "corob"
+manager: jillfra
+f1_keywords:
   - VC.Project.VCLinkerTool.OutputFile
   - VC.Project.VCLinkerTool.ShowProgress
   - VC.Project.VCLinkerTool.Version
@@ -33,11 +30,11 @@ f1_keywords:
   - VC.Project.AdditionalOptionsPage
   - VC.Project.VCLinkerTool.AdditionalDependencies
   - VC.Project.VCLinkerTool.LibraryDependencies
-ms.workload: 
+ms.workload:
   - "xplat-cplusplus"
 ---
 
-# Clang Linker Properties (Android C++)
+# Clang Linker properties (Android C++)
 
 Property | Description | Choices
 --- | ---| ---
@@ -61,4 +58,4 @@ Require Executable Stack | This option marks output as not requiring executable 
 Whole Archive | Whole Archive uses all code from Sources and Additional Dependencies.
 Additional Options | Additional Options.
 Additional Dependencies | Specifies additional items to add to the link command line.
-Library Dependencies | This option allows specifying additional libraries to be added to the linker command line. The additional libraries will be added to the end of the linker command line start with 'lib' and end with '.a' or '.so' extension.  (-lFILE)
+Library Dependencies | This option allows specifying additional libraries to be added to the linker command line. The additional libraries will be added to the end of the linker command line start with *lib* and end with *.a* or *.so* extension.  (-lFILE)

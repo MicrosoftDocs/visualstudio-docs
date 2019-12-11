@@ -2,7 +2,6 @@
 title: "IDebugExpression::Start | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Begins the evaluation of the expression.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT Start(  
    IDebugExpressionCallBack*  pdecb  
 );  
@@ -44,6 +43,6 @@ HRESULT Start(
 ## Remarks  
  This method begins the evaluation of the expression.  
   
-## See Also  
+## See also  
  [IDebugExpression::Abort](../../winscript/reference/idebugexpression-abort.md)   
  [IDebugExpression Interface](../../winscript/reference/idebugexpression-interface.md)

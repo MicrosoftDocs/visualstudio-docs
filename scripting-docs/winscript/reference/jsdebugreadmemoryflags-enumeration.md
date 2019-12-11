@@ -2,7 +2,6 @@
 title: "JsDebugReadMemoryFlags Enumeration | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -22,7 +21,7 @@ Flags to specify behavior when reading memory.
   
 ## Syntax  
   
-```  
+```cpp
 enum JsDebugReadMemoryFlags{   None = 0,   JsDebugAllowPartialRead= 0x1} JsDebugReadMemoryFlags;  
 ```  
   
@@ -38,5 +37,5 @@ enum JsDebugReadMemoryFlags{   None = 0,   JsDebugAllowPartialRead= 0x1} JsDebug
 ## Requirements  
  **Header:** jscript9diag.h  
   
-## See Also  
+## See also  
  [Windows Script Interfaces Reference](../../winscript/reference/windows-script-interfaces-reference.md)

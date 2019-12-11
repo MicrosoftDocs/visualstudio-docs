@@ -2,7 +2,6 @@
 title: "APPLICATION_NODE_EVENT_FILTER Enumeration | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -19,7 +18,7 @@ manager: "ghogen"
 Specifies the types of nodes to exclude when filtering code documents. Used in [IDebugApplicationNode100::GetExcludedDocuments](../../winscript/reference/idebugapplicationnode100-getexcludeddocuments.md) and [IDebugApplicationNode100::SetFilterForEventSink](../../winscript/reference/idebugapplicationnode100-setfilterforeventsink.md)  
   
 > [!IMPORTANT]
->  These constants are implemented by PDM v10.0 and greater. Found in activdbg100.h.  
+> These constants are implemented by PDM v10.0 and greater. Found in activdbg100.h.  
   
 ## Syntax  
   
@@ -35,5 +34,5 @@ typedef enum tagAPPLICATION_NODE_EVENT_FILTER {    FILTER_EXCLUDE_NOTHING = 0,  
 |FILTER_EXCLUDE_ANONYMOUS_CODE|0x00000001|Exclude anonymous code nodes. These nodes are used by the JScript runtime for `new Function([args,] <code>)'`.|  
 |FILTER_EXCLUDE_EVAL_CODE|0x00000002|Exclude eval code nodes. These nodes are used by the JScript runtime for eval support.|  
   
-## See Also  
+## See also  
  [Active Script Debugger Constants, Enumerations, and Structures](../../winscript/reference/active-script-debugger-constants-enumerations-and-structures.md)

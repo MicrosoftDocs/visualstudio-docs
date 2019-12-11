@@ -2,7 +2,6 @@
 title: "JsDebugPropertyInfo Structure | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -22,7 +21,7 @@ Indicates information about a property.
   
 ## Syntax  
   
-```  
+```cpp
 typedef struct tagJsDebugPropertyInfo{   BSTR name;   BSTR type;   BSTR value;   BSTR fullName;   JS_PROPERTY_ATTRIBUTES attr;} JsDebugPropertyInfo;  
 ```  
   
@@ -45,5 +44,5 @@ typedef struct tagJsDebugPropertyInfo{   BSTR name;   BSTR type;   BSTR value;  
 ## Requirements  
  **Header:** jscript9diag.h  
   
-## See Also  
+## See also  
  [Windows Script Interfaces Reference](../../winscript/reference/windows-script-interfaces-reference.md)

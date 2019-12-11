@@ -2,7 +2,6 @@
 title: "IActiveScriptSite::OnScriptError | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Informs the host that an execution error occurred while the engine was running t
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT OnScriptError(  
     IActiveScriptError *pase  // address of error interface  
 );  
@@ -37,5 +36,5 @@ HRESULT OnScriptError(
 ## Return Value  
  Returns `S_OK` if the error was correctly handled, or an OLE defined error code otherwise.  
   
-## See Also  
+## See also  
  [IActiveScriptSite](../../winscript/reference/iactivescriptsite.md)

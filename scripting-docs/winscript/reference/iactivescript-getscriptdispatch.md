@@ -2,7 +2,6 @@
 title: "IActiveScript::GetScriptDispatch | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Retrieves the `IDispatch` interface for the methods and properties associated wi
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetScriptDispatch(  
     LPCOLESTR pstrItemName  // address of item name  
     IDispatch **ppdisp      // receives IDispatch pointer  
@@ -52,5 +51,5 @@ HRESULT GetScriptDispatch(
 ## Remarks  
  Because methods and properties can be added by calling the [IActiveScriptParse](../../winscript/reference/iactivescriptparse.md) interface, the `IDispatch` interface returned by this method can dynamically support new methods and properties. Similarly, the `IDispatch::GetTypeInfo` method should return a new, unique `ITypeInfo` interface when methods and properties are added. Note, however, that language engines must not change the `IDispatch` interface in a way that is incompatible with any previous `ITypeInfo` interface returned. That implies, for example, that DISPIDs will never be reused.  
   
-## See Also  
+## See also  
  [IActiveScript](../../winscript/reference/iactivescript.md)

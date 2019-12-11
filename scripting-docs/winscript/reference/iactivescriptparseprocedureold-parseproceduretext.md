@@ -2,7 +2,6 @@
 title: "IActiveScriptParseProcedureOld::ParseProcedureText | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Parses the given code procedure and adds an anonymous procedure to the name spac
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT ParseProcedureText(  
    LPCOLESTR    pstrCode,  
    LPCOLESTR    pstrFormalParams,  
@@ -90,6 +89,6 @@ HRESULT ParseProcedureText(
   
  This interface is deprecated in favor of the `IActiveScriptParseProcedure` interface. The `IActiveScriptParseProcedure::ParseProcedureText` method is similar to this method, but it allows the procedure name to be specified. In all circumstances, `IActiveScriptParseProcedure::ParseProcedureText` should be used.  
   
-## See Also  
+## See also  
  [IActiveScriptParseProcedureOld Interface](../../winscript/reference/iactivescriptparseprocedureold-interface.md)   
  [IActiveScriptParseProcedure::ParseProcedureText](../../winscript/reference/iactivescriptparseprocedure-parseproceduretext.md)

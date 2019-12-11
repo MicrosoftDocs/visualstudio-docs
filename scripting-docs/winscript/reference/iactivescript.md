@@ -2,7 +2,6 @@
 title: "IActiveScript | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -36,5 +35,5 @@ Provides the methods necessary to initialize the scripting engine. The scripting
 |[IActiveScript::InterruptScriptThread](../../winscript/reference/iactivescript-interruptscriptthread.md)|Interrupts the execution of a running script thread.|  
 |[IActiveScript::Clone](../../winscript/reference/iactivescript-clone.md)|Clones the current scripting engine (minus any current execution state), returning a loaded scripting engine that has no site in the current thread.|  
   
-## See Also  
+## See also  
  [Windows Script Interfaces Reference](../../winscript/reference/windows-script-interfaces-reference.md)

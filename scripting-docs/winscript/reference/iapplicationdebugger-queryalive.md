@@ -2,7 +2,6 @@
 title: "IApplicationDebugger::QueryAlive | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Indicates if the debugger is responsive.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT QueryAlive();  
 ```  
   
@@ -43,5 +42,5 @@ HRESULT QueryAlive();
   
  If the debugger process terminates unexpectedly, COM returns an error from the marshalling proxy for calls to this method.  
   
-## See Also  
+## See also  
  [IApplicationDebugger Interface](../../winscript/reference/iapplicationdebugger-interface.md)

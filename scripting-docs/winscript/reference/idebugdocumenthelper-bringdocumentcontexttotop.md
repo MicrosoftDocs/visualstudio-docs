@@ -2,7 +2,6 @@
 title: "IDebugDocumentHelper::BringDocumentContextToTop | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Brings a context of this document to the top in the debugger user interface.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT BringDocumentContextToTop(  
    IDebugDocumentContext*  pddc  
 );  
@@ -44,5 +43,5 @@ HRESULT BringDocumentContextToTop(
 ## Remarks  
  This method brings a context of this document to the top in the debugger user interface.  
   
-## See Also  
+## See also  
  [IDebugDocumentHelper Interface](../../winscript/reference/idebugdocumenthelper-interface.md)

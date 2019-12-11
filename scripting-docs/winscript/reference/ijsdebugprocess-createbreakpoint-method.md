@@ -2,7 +2,6 @@
 title: "IJsDebugProcess::CreateBreakPoint Method | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -22,7 +21,7 @@ Sets the breakpoint at the specified document position.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT CreateBreakPoint(  
    UINT64 documentId,  
    DWORD characterOffset,  
@@ -53,5 +52,5 @@ HRESULT CreateBreakPoint(
 ## Requirements  
  **Header:** jscript9diag.h  
   
-## See Also  
+## See also  
  [IJsDebugProcess Interface](../../winscript/reference/ijsdebugprocess-interface.md)

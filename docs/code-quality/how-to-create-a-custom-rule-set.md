@@ -1,114 +1,145 @@
 ---
-title: "How to: Create a Custom Rule Set | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-code-analysis"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-f1_keywords: 
+title: Create a custom code analysis rule set
+ms.date: 11/02/2018
+ms.topic: conceptual
+f1_keywords:
   - "vs.codeanalysis.addremoverulesets"
-helpviewer_keywords: 
-  - "Development Edition, rule sets"
-author: "gewarren"
-ms.author: "gewarren"
-manager: ghogen
-ms.workload: 
+helpviewer_keywords:
+  - "rule sets"
+author: jillre
+ms.author: jillfra
+manager: jillfra
+ms.workload:
   - "multiple"
 ---
-# How to: Create a Custom Rule Set
+# Customize a rule set
 
-In Visual Studio, you can create and modify a custom *rule set* to meet specific project needs associated with code analysis. To create a custom rule set, you open one or more standard rule sets in the rule set editor. You can then add or remove specific rules and you can change the action that occurs when code analysis determines that a rule has been violated.
+You can create a custom rule set to meet specific project needs for code analysis.
 
- To create a new custom rule set, you save it by using a new file name. The custom rule set is automatically assigned to the project.
+## Create a custom rule set from an existing rule set
 
-## Opening the rule set editor
+To create a custom rule set, you can open a built-in rule set in the **rule set editor**. From there, you can add or remove specific rules, and you can change the action that occurs when a rule is violated&mdash;for example, show a warning or an error.
 
-### To open an empty rule set file in the rule set editor
+1. In **Solution Explorer**, right-click the project and then select **Properties**.
 
-1. On the **File** menu of [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)], point to **New** and then click **File**.
+2. On the **Properties** pages, select the **Code Analysis** tab.
 
-2. In the **New File** dialog box, click **General** in the **Installed Templates** list, and then select **Code Analysis Rule Set**.
+::: moniker range="vs-2017"
 
-3. The rule set editor appears. No rules are selected in the editor list.
+3. In the **Run this rule set** drop-down list, do one of the following:
 
-### To create a custom rule from a single existing rule set
+::: moniker-end
 
-1. In Solution Explorer, right-click the project and then select **Properties**.
+::: moniker range=">=vs-2019"
 
-2. On the **Properties** tab, click **Code Analysis**.
+3. In the **Active rules** drop-down list, do one of the following:
 
-3. In the **Rule Set** drop-down list, do one of the following:
+::: moniker-end
 
-    - Select the rule set that you want to customize.
+   - Select the rule set that you want to customize.
 
      \- or -
 
-    - Select **\<Browse...>** to specify an existing rule set that is not in the list.
+   - Select **\<Browse>** to specify an existing rule set that is not in the list.
 
-4. Click **Open** to display the rules in the rule set editor.
+4. Select **Open** to display the rules in the rule set editor.
 
-### To create a custom rule set from multiple existing rule sets
+> [!NOTE]
+> If you have a .NET Core or .NET Standard project, the process is a little different because there's no **Code Analysis** property tab. Follow the steps to [copy a predefined rule set to your project and set it as the active rule set](analyzer-rule-sets.md). After you've copied over a rule set, you can [edit it in the Visual Studio rule set editor](working-in-the-code-analysis-rule-set-editor.md) by opening it from **Solution Explorer**.
 
-1. In Solution Explorer, right-click the project and then select **Properties**.
+## Create a new rule set
 
-2. On the **Properties** tab, click **Code Analysis**.
+You can create a new rule set file from the **New File** dialog:
 
-3. Select **\<Choose multiple rule sets...>** from **Run this rule set**.
+1. Select **File** > **New** > **File**, or press **Ctrl**+**N**.
 
-4. In the **Add or Remove Rule Sets** dialog box, select the rule sets on which you want to base your new rule set and then click **OK**.
+2. In the **New File** dialog box, select the **General** category on the left, and then select **Code Analysis Rule Set**.
 
-5. Save the new rule set.
+3. Select **Open**.
 
-     The name of the new rule set is selected in the **Run this rule set** list. You can change the display name of the rule set in the next step.
+   The new *.ruleset* file opens in the rule set editor.
 
-6. (Optional) To change the display name of the rule set, on the **View** menu, click **Properties Window**. Type the display name in the **Name** box.
+## Create a custom rule set from multiple rule sets
 
-7. To add, remove, or modify specific code analysis rules in the new rule set, click **Open**.
+> [!NOTE]
+> The following procedure does not apply to .NET Core projects, which don't have a **Code Analysis** property tab.
 
-## Modifying a rule set
+1. In **Solution Explorer**, right-click the project and then select **Properties**.
 
-### To modify a rule set in the rule set editor
+2. On the **Properties** pages, select the **Code Analysis** tab.
 
-- To change the display name of the rule set, on the **View** menu, click **Properties Window**. Enter the display name in the **Name** box. Notice that the display name can differ from the file name.
+::: moniker range="vs-2017"
 
-- To add all the rules of the group to a custom rule set, select the check box of the group. To remove all the rules of the group, clear the check box.
+3. Select **\<Choose multiple rule sets>** from **Run this rule set**.
 
-- To add a specific rule to the custom rule set, select the check box of the rule. To remove the rule from the rule set, clear the check box.
+::: moniker-end
 
-- To change the action taken when a rule is violated in a code analysis, click in the **Action** field for the rule and then select one of the following values:
+::: moniker range=">=vs-2019"
 
-     **Warn** - generates a warning.
+3. Select **\<Choose multiple rule sets>** from **Active rules**.
 
-     **Error** - generates an error.
+::: moniker-end
 
-     **None** - disables the rule. This action is the same as removing the rule from the rule set.
+4. In the **Add or Remove Rule Sets** dialog box, select the rule sets you want to include in your new rule set.
 
-## Changing the rule set editor display
+   ![Add or remove rule sets dialog box](media/add-remove-rule-sets.png)
 
-### To group, filter, or change the fields in the rule set editor by using the rule set editor toolbar
+5. Select **Save As**, enter a name for the *.ruleset* file, and then select **Save**.
 
-- To expand the rules in all groups, click **Expand All**.
+   The new rule set is selected in the **Run this rule set** list.
 
-- To collapse the rules in all groups, click **Collapse All**.
+6. Select **Open** to open the new rule set in the rule set editor.
 
-- To change the field that rules are grouped by, select the field from the **Group By** list. To display the rules ungrouped, select **\<None>**.
+## Rule precedence
 
-- To add or remove fields in rule columns, click **Column Options**.
+- If the same rule is listed two or more times in a rule set with different severities, the compiler generates an error. For example:
 
-- To hide rules that do not apply to the current solution, **Hide rules that do not apply to the current solution**.
+   ```xml
+   <RuleSet Name="Rules for ClassLibrary21" Description="Code analysis rules for ClassLibrary21.csproj." ToolsVersion="15.0">
+     <Rules AnalyzerId="Microsoft.Analyzers.ManagedCodeAnalysis" RuleNamespace="Microsoft.Rules.Managed">
+       <Rule Id="CA1021" Action="Warning" />
+       <Rule Id="CA1021" Action="Error" />
+     </Rules>
+   </RuleSet>
+   ```
 
-- To switch between showing and hiding rules that are assigned the Error action, click **Show rules that can generate Code Analysis errors**.
+- If the same rule is listed two or more times in a rule set with the *same* severity, you may see the following warning in the **Error List**:
 
-- To switch between showing and hiding rules that are assigned the Warning action, click **Show rules that can generate Code Analysis warnings**.
+   **CA0063 : Failed to load rule set file '\[your].ruleset' or one of its dependent rule set files. The file does not conform to the rule set schema.**
 
-- To switch between showing and hiding rules that are assigned the **None** action, click **Show rules that are not enabled**.
+- If the rule set includes a child rule set by using an **Include** tag, and the child and parent rule sets both list the same rule but with different severities, then the severity in the parent rule set takes precedence. For example:
 
-- To add or remove Microsoft default rule sets to the current rule set, click **Add or remove child rule sets**.
+   ```xml
+   <!-- Parent rule set -->
+   <?xml version="1.0" encoding="utf-8"?>
+   <RuleSet Name="Rules for ClassLibrary21" Description="Code analysis rules for ClassLibrary21.csproj." ToolsVersion="15.0">
+     <Include Path="classlibrary_child.ruleset" Action="Default" />
+     <Rules AnalyzerId="Microsoft.Analyzers.ManagedCodeAnalysis" RuleNamespace="Microsoft.Rules.Managed">
+       <Rule Id="CA1021" Action="Warning" /> <!-- Overrides CA1021 severity from child rule set -->
+     </Rules>
+   </RuleSet>
 
-## See Also
+   <!-- Child rule set -->
+   <?xml version="1.0" encoding="utf-8"?>
+   <RuleSet Name="Rules from child" Description="Code analysis rules from child." ToolsVersion="15.0">
+     <Rules AnalyzerId="Microsoft.Analyzers.ManagedCodeAnalysis" RuleNamespace="Microsoft.Rules.Managed">
+       <Rule Id="CA1021" Action="Error" />
+     </Rules>
+   </RuleSet>
+   ```
 
-[How to: Configure Code Analysis for a Managed Code Project](../code-quality/how-to-configure-code-analysis-for-a-managed-code-project.md)
-[Code analysis rule set reference](../code-quality/code-analysis-rule-set-reference.md)
+## Name and description
+
+To change the display name of a rule set that's open in the editor, open the **Properties** window by selecting **View** > **Properties Window** on the menu bar. Enter the display name in the **Name** box. You can also enter a description for the rule set.
+
+## Next steps
+
+Now that you have a rule set, the next step is to customize the rules by adding or removing rules or modifying the severity of rule violations.
+
+> [!div class="nextstepaction"]
+> [Modify rules in the rule set editor](../code-quality/working-in-the-code-analysis-rule-set-editor.md)
+
+## See also
+
+- [How to: Configure Code Analysis for a Managed Code Project](../code-quality/how-to-configure-code-analysis-for-a-managed-code-project.md)
+- [Code analysis rule set reference](../code-quality/rule-set-reference.md)

@@ -2,7 +2,6 @@
 title: "IDebugAsyncOperation::Start | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Causes the asynchronous operation to begin.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT Start(  
    IDebugAsyncOperationCallBack*  padocb  
 );  
@@ -45,7 +44,7 @@ HRESULT Start(
 ## Remarks  
  This method causes `IDebugSyncOperation::Execute` to be called asynchronously in the thread obtained from `IDebugSyncOperation::GetTargetThread`. This method should be called only from within the debugger thread; otherwise, it will not return until the operation is complete.  
   
-## See Also  
+## See also  
  [IDebugAsyncOperation::Abort](../../winscript/reference/idebugasyncoperation-abort.md)   
  [IDebugAsyncOperation Interface](../../winscript/reference/idebugasyncoperation-interface.md)   
  [IDebugSyncOperation::Execute](../../winscript/reference/idebugsyncoperation-execute.md)   

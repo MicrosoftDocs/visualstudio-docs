@@ -16,7 +16,7 @@ Initializes the scripting engine.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT InitNew(void);  
 ```  
   
@@ -26,5 +26,5 @@ HRESULT InitNew(void);
 ## Remarks  
  Before the scripting engine can be used, one of the following methods must be called: `IPersist*::Load`, `IPersist*::InitNew`, or `IActiveScriptParse32::InitNew`. The semantics of this method are identical to `IPersistStreamInit::InitNew`, in that this method tells the scripting engine to initialize itself. Note that it is not valid to call both `IPersist*::InitNew` or `IActiveScriptParse32::InitNew` and `IPersist*::Load`, nor is it valid to call `IPersist*::InitNew`, `IActiveScriptParse32::InitNew`, or `IPersist*::Load` more than once.  
   
-## See Also  
+## See also  
  [IActiveScriptParse32](../../winscript/reference/iactivescriptparse32.md)

@@ -2,7 +2,6 @@
 title: "IActiveScriptProfilerHeapEnum::Next Method | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -18,7 +17,7 @@ Gets the next object or objects in the set of heap objects from the [IActiveScri
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT Next (    [in] ULONG celt,    [out, size_is(celt), length_is(*pceltFetched)] PROFILER_HEAP_OBJECT** heapObjects,     [out] ULONG *pceltFetched);  
 ```  
   

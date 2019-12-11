@@ -2,7 +2,6 @@
 title: "IRemoteDebugApplication::GetName | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Returns the name of this application node.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetName(  
    BSTR*  pbstrName  
 );  
@@ -44,5 +43,5 @@ HRESULT GetName(
 ## Remarks  
  This method returns the name of this application node.  
   
-## See Also  
+## See also  
  [IRemoteDebugApplication Interface](../../winscript/reference/iremotedebugapplication-interface.md)

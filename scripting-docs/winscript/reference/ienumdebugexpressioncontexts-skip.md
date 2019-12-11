@@ -2,7 +2,6 @@
 title: "IEnumDebugExpressionContexts::Skip | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Skips a specified number of segments in an enumeration sequence.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT Skip(  
    ULONG  celt  
 );  
@@ -44,5 +43,5 @@ HRESULT Skip(
 ## Remarks  
  This method skips a specified number of segments in an enumeration sequence.  
   
-## See Also  
+## See also  
  [IEnumDebugExpressionContexts Interface](../../winscript/reference/ienumdebugexpressioncontexts-interface.md)

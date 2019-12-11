@@ -2,7 +2,6 @@
 title: "IActiveScriptAuthor::GetScriptletTextAttributes | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Returns the text attributes of a scriptlet.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetScriptletTextAttributes(  
    LPCOLESTR pszCode,  
    ULONG cch,  
@@ -65,7 +64,7 @@ HRESULT GetScriptletTextAttributes(
   
 ## Remarks  
   
-## See Also  
+## See also  
  [IActiveScriptAuthor Interface](../../winscript/reference/iactivescriptauthor-interface.md)   
  [IActiveScriptAuthor::GetScriptTextAttributes](../../winscript/reference/iactivescriptauthor-getscripttextattributes.md)   
  [SOURCE_TEXT_ATTR Enumeration](../../winscript/reference/source-text-attr-enumeration.md)

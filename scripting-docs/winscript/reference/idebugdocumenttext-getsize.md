@@ -2,7 +2,6 @@
 title: "IDebugDocumentText::GetSize | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Returns the number of lines and number of characters in the document.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetSize(  
    ULONG*  pcNumLines,  
    ULONG*  pcNumChars  
@@ -48,5 +47,5 @@ HRESULT GetSize(
 ## Remarks  
  This method returns the number of lines and number of characters in the document.  
   
-## See Also  
+## See also  
  [IDebugDocumentText Interface](../../winscript/reference/idebugdocumenttext-interface.md)

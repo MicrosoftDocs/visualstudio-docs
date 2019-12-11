@@ -1,24 +1,16 @@
 ---
-title: Visualizing data with the R Tools for Visual Studio | Microsoft Docs
+title: Visualizing data with R
 description: How to plot data from R programs in Visual Studio, using plot windows.
-ms.custom:
 ms.date: 06/29/2017
-ms.reviewer:
-ms.suite:
-ms.technology: 
-  - "devlang-r"
-dev_langs:
-  - "R"
-ms.tgt_pltfrm:
-ms.topic: "article"
-author: "kraigb"
-ms.author: "kraigb"
-manager: ghogen
-ms.workload: 
-  - "data-science"
+ms.topic: conceptual
+author: kraigb
+ms.author: kraigb
+manager: jillfra
+ms.workload:
+  - data-science
 ---
 
-# Creating visual data plots with R
+# Create visual data plots with R
 
 Plotting is a key part of a data scientist's workflow. In R Tools for Visual Studio (RTVS), all plotting activity centers around one or more plot windows, which are designed to improve your productivity with this key activity.
 
@@ -40,15 +32,15 @@ Plot windows are independent of Visual Studio projects, and remain open as you l
 
 Generating a plot uses the "active" plot window, saving any previous plot it the plot history (see [Plot history](#plot-history)). For example, enter `plot(100:1)` and the first plot is replaced with a downward line.
 
-Like all other Visual Studio windows. the plot window supports customized layouts (see [Customize window layouts in Visual Studio](../ide/customizing-window-layouts-in-visual-studio.md). Plot windows can be docked at different locations within the Visual Studio frame, resized within that frame, or pulled out of the frame entirely for independent resizing. 
+Like all other Visual Studio windows. the plot window supports customized layouts (see [Customize window layouts in Visual Studio](../ide/customizing-window-layouts-in-visual-studio.md). Plot windows can be docked at different locations within the Visual Studio frame, resized within that frame, or pulled out of the frame entirely for independent resizing.
 
 Resizing a plot window always re-renders the plot to provide the best quality image. You typically want to resize a plot before exporting the plot to a file or to the clipboard using the commands described in the next section.
 
 ## Plot window commands
 
-The plot window's toolbar holds applicable commands, most of which are also available through the **R Tools > Plots** menu.
+The plot window's toolbar holds applicable commands, most of which are also available through the **R Tools** > **Plots** menu.
 
-| Button | Command | Description | 
+| Button | Command | Description |
 | --- | --- | --- |
 | ![New plot window button](media/plotting-toolbar-01-new-plot-window.png) | New plot window | Creates a separate plot window with its own history. See [Multiple plot windows](#multiple-plot-windows). |
 | ![Activate plot window button](media/plotting-toolbar-02-activate-plot-window.png) | Activate plot window | Sets the current plot window as the active window, so that subsequent `plot` commands are rendered to that window. See [Multiple plot windows](#multiple-plot-windows). See [Multiple plot windows](#multiple-plot-windows). |
@@ -56,8 +48,8 @@ The plot window's toolbar holds applicable commands, most of which are also avai
 | ![Plot history buttons](media/plotting-toolbar-04-plot-history-arrows.png) | Previous/Next Plot |  Navigates to the previous or next plot in the history. You can also navigate the history with Ctrl+Alt+F11 (Previous) and Ctrl+Alt+F12 (Next). See [Plot history](#plot-history). |
 | ![Save as image button](media/plotting-toolbar-05-save-as-image.png)| Save As Image | Prompts for a filename and saves the current plot (the window contents, at the window size) to an image file. Available formats are `.png`, `.jpg`, `.bmp`, and `.tif`. |
 | ![Save as PDF button](media/plotting-toolbar-06-save-as-pdf.png)| Save As PDF | Saves the current plot to a PDF file, using the current window size. The plot will re-render if the PDF is scaled. |
-| ![Copy as bitmap button](media/plotting-toolbar-07-copy-as-bitmap.png)| Copy As Bitmap | Copies the plot to the clipboard as a raster bitmap, using the current window size. | 
-| ![Copy as metafile button](media/plotting-toolbar-08-copy-as-metafile.png)| Copy As Metafile | Copies the plot to the clipboard as a [Windows metafile](https://en.wikipedia.org/wiki/Windows_Metafile) (Wikipedia). | 
+| ![Copy as bitmap button](media/plotting-toolbar-07-copy-as-bitmap.png)| Copy As Bitmap | Copies the plot to the clipboard as a raster bitmap, using the current window size. |
+| ![Copy as metafile button](media/plotting-toolbar-08-copy-as-metafile.png)| Copy As Metafile | Copies the plot to the clipboard as a [Windows metafile](https://en.wikipedia.org/wiki/Windows_Metafile) (Wikipedia). |
 | ![Remove plot button](media/plotting-toolbar-09-remove-plot.png)| Remove Plot | Removes the current plot from the history. |
 | ![Clear all plots button](media/plotting-toolbar-10-clear-all-plots.png) | Clear All Plots | Removes all plots from the history (prompts for confirmation). |
 
@@ -65,17 +57,17 @@ The plot window's toolbar holds applicable commands, most of which are also avai
 
 Because data scientists often work with many plots from many different datasets, RTVS lets you create as many independent plot windows. You can then arrange those windows however you like within the Visual Studio frame or outside that frame altogether. (See [Customize window layouts in Visual Studio](../ide/customizing-window-layouts-in-visual-studio.md) for general information on docking and resizing windows.)
 
-You create a new plot window using the toolbar button or **R Tools > Plots > New Plot Window**. The new plot window becomes the *active* window, which is where new plots are rendered. To change the active window, switch to it and select the Activate Plot Window toolbar button or **R Tools > Plots > Activate Plot Window**.
+You create a new plot window using the toolbar button or **R Tools** > **Plots** > **New Plot Window**. The new plot window becomes the *active* window, which is where new plots are rendered. To change the active window, switch to it and select the **Activate Plot Window** toolbar button or **R Tools** > **Plots** > **Activate Plot Window**.
 
 Plots, too, are independent objects, which means you can copy or move them between plot windows using either drag-and-drop with the mouse, or by using the **Copy**, **Cut**, and **Paste** commands on the right-click context and **Edit** menus.
 
-The default behavior for drag-and-drop is copy; to move, drag-and-drop while holding down the Shift key.
+The default behavior for drag-and-drop is copy; to move, drag-and-drop while holding down the **Shift** key.
 
 ## Plot history
 
-Plot commands are maintained in a plot history for each window, ensuring that all your plotting within a session is preserved. To navigate the history, use the arrow buttons on the plot window toolbar, or Ctrl+Alt+F11 and Ctrl+Alt+F12. You can also remove single plots or clear all plots from the window again using toolbar buttons or the **R Tools > Plots** menu commands.
+Plot commands are maintained in a plot history for each window, ensuring that all your plotting within a session is preserved. To navigate the history, use the arrow buttons on the plot window toolbar, or **Ctrl**+**Alt**+**F11** and **Ctrl**+**Alt**+**F12**. You can also remove single plots or clear all plots from the window again using toolbar buttons or the **R Tools** > **Plots** menu commands.
 
-To see the entire collection of plots, open the plot history window using the toolbar button or **R Tools > Plots > Plot History Window**.
+To see the entire collection of plots, open the plot history window using the toolbar button or **R Tools** > **Plots** > **Plot History Window**.
 The history gives you a list of thumbnails for the plots that have been displayed in that window, grouped by the different plot windows (or devices). Using the zoom buttons on the toolbar changes the size of the thumbnails.
 
 ![Plot history window](media/plotting-plot-history-window.png)
@@ -84,9 +76,9 @@ To open a plot in its associated window, double-click that plot, select it, and 
 
 The lifetime of your plot history across all windows is bound to the lifetime of your interactive R session. If you reset your R session, or exit and restart Visual Studio, your plot history is reset.
 
-## Programmatically manipulating plot windows
+## Programmatically manipulate plot windows
 
-You can programmatically manipulate plot windows from R code, using device numbers to identify specific plot windows. 
+You can programmatically manipulate plot windows from R code, using device numbers to identify specific plot windows.
 
 - `dev.list()`: List all of the graphics devices within the current R session.
 - `dev.new()`: Create a new graphics device (a new plot window).

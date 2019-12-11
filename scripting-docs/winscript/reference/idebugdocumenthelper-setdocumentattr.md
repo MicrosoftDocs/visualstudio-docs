@@ -2,7 +2,6 @@
 title: "IDebugDocumentHelper::SetDocumentAttr | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Sets the attributes for this document.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT SetDocumentAttr(  
    TEXT_DOC_ATTR  pszAttributes  
 );  
@@ -44,6 +43,6 @@ HRESULT SetDocumentAttr(
 ## Remarks  
  This method sets the attributes for this document.  
   
-## See Also  
+## See also  
  [IDebugDocumentHelper Interface](../../winscript/reference/idebugdocumenthelper-interface.md)   
  [TEXT_DOC_ATTR Constants](../../winscript/reference/text-doc-attr-constants.md)

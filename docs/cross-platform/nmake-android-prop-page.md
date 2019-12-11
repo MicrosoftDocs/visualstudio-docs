@@ -2,15 +2,12 @@
 title: "NMake Properties (Android C++) | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/23/2017"
-ms.reviewer: ""
-ms.suite: ""
 ms.technology: vs-ide-mobile
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "conceptual"
 ms.assetid: d901c572-16c4-402a-b230-7ae59ce9fad4
-author: "corob"
-ms.author: "mblome"
-manager: ghogen
+author: "corob-msft"
+ms.author: "corob"
+manager: jillfra
 f1_keywords:
   - VC.Project.VCNMakeTool.BuildCommandLine
   - VC.Project.VCNMakeTool.ReBuildCommandLine
@@ -22,7 +19,7 @@ f1_keywords:
 ms.workload:
   - "xplat-cplusplus"
 ---
-# NMake Properties (Android C++)
+# NMake properties (Android C++)
 
 Property | Description
 --- | ---

@@ -2,7 +2,6 @@
 title: "SCRIPTSTATE Enumeration | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Specifies the state of a scripting engine. This enumeration is used by the [IAct
   
 ## Syntax  
   
-```  
+```cpp
 typedef enum tagSCRIPTSTATE {  
     SCRIPTSTATE_UNINITIALIZED = 0,  
     SCRIPTSTATE_INITIALIZED   = 5,  
@@ -46,5 +45,5 @@ typedef enum tagSCRIPTSTATE {
 |SCRIPTSTATE_DISCONNECTED|Script is loaded and has a run-time execution state, but is temporarily disconnected from sinking events.|  
 |SCRIPTSTATE_CLOSED|Script has been closed. The scripting engine no longer works and returns errors for most methods.|  
   
-## See Also  
+## See also  
  [Active Script Constants, Enumerations, and Error Codes](../../winscript/reference/active-script-constants-enumerations-and-error-codes.md)

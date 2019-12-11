@@ -1,15 +1,14 @@
 ---
-title: "Using Microsoft.VisualStudio.TestTools.UnitTesting Members in Unit Tests | Microsoft Docs"
+title: "Use Microsoft.VisualStudio.TestTools.UnitTesting in unit tests"
 ms.date: 03/02/2018
-ms.technology: vs-devops-test
-ms.topic: "article"
-ms.author: gewarren
-manager: ghogen
+ms.topic: reference
+ms.author: jillfra
+manager: jillfra
 ms.workload:
   - "multiple"
-author: gewarren
+author: jillre
 ---
-# Using the MSTest framework in unit tests
+# Use the MSTest framework in unit tests
 
 The [MSTest](<xref:Microsoft.VisualStudio.TestTools.UnitTesting>) framework supports unit testing in Visual Studio. Use the classes and members in the <xref:Microsoft.VisualStudio.TestTools.UnitTesting> namespace when you are coding unit tests. You can also use them when you are refining a unit test that was generated from code.
 
@@ -26,7 +25,7 @@ To help provide a clearer overview of the unit testing framework, this section o
 
 ### Members used for data-driven testing
 
-Use the following elements to set up data-driven unit tests. For more information, see [Create a Data-Driven Unit Test](../test/how-to-create-a-data-driven-unit-test.md) and [Use a Configuration File to Define a Data Source](../test/walkthrough-using-a-configuration-file-to-define-a-data-source.md).
+Use the following elements to set up data-driven unit tests. For more information, see [Create a data-driven unit test](../test/how-to-create-a-data-driven-unit-test.md) and [Use a configuration file to define a data source](../test/walkthrough-using-a-configuration-file-to-define-a-data-source.md).
 
 - <xref:Microsoft.VisualStudio.TestTools.UnitTesting.DataAccessMethod>
 
@@ -38,7 +37,7 @@ Use the following elements to set up data-driven unit tests. For more informatio
 
 ## Attributes used to establish a calling order
 
-A code element decorated with one of the following attributes is called at the moment you specify. For more information, see [Anatomy of a Unit Test](http://msdn.microsoft.com/a03d1ee7-9999-4e7c-85df-7d9073976144).
+A code element decorated with one of the following attributes is called at the moment you specify. For more information, see [Anatomy of a unit test](https://msdn.microsoft.com/a03d1ee7-9999-4e7c-85df-7d9073976144).
 
 ### Attributes for assemblies
 
@@ -64,7 +63,7 @@ ClassInitialize and ClassCleanup are called right after your class is loaded and
 
 ## Attributes used to identify test classes and methods
 
-Every test class must have the `TestClass` attribute, and every test method must have the `TestMethod` attribute. For more information, see [Anatomy of a Unit Test](http://msdn.microsoft.com/a03d1ee7-9999-4e7c-85df-7d9073976144).
+Every test class must have the `TestClass` attribute, and every test method must have the `TestMethod` attribute. For more information, see [Anatomy of a unit test](https://msdn.microsoft.com/a03d1ee7-9999-4e7c-85df-7d9073976144).
 
 - <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestClassAttribute>
 
@@ -72,9 +71,11 @@ Every test class must have the `TestClass` attribute, and every test method must
 
 ## Assert classes and related exceptions
 
-Unit tests can verify specific application behavior by their use of various kinds of assertions, exceptions, and attributes. For more information, see [Using the Assert Classes](../test/using-the-assert-classes.md).
+Unit tests can verify specific application behavior by their use of various kinds of assertions, exceptions, and attributes. For more information, see [Using the assert classes](../test/using-the-assert-classes.md).
 
 - <xref:Microsoft.VisualStudio.TestTools.UnitTesting.Assert>
+
+- <xref:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.ThrowsException%2A?displayProperty=nameWithType>
 
 - <xref:Microsoft.VisualStudio.TestTools.UnitTesting.CollectionAssert>
 
@@ -85,8 +86,6 @@ Unit tests can verify specific application behavior by their use of various kind
 - <xref:Microsoft.VisualStudio.TestTools.UnitTesting.AssertInconclusiveException>
 
 - <xref:Microsoft.VisualStudio.TestTools.UnitTesting.UnitTestAssertException>
-
-- <xref:Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionAttribute>
 
 ## The TestContext class
 
@@ -108,7 +107,7 @@ The following attributes and the values assigned to them appear in the Visual St
 
 ## Test configuration classes
 
-- <xref:Microsoft.TeamFoundation.TestManagement.Client.ObjectTypes>
+- [ObjectTypes](/previous-versions/visualstudio/visual-studio-2013/dd987428(v=vs.120))
 
 - <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestConfigurationSection>
 

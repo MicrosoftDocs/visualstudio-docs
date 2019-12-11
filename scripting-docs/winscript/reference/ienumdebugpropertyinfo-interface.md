@@ -2,7 +2,6 @@
 title: "IEnumDebugPropertyInfo Interface | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -32,5 +31,5 @@ Enumerates `DebugPropertyInfo` structures.
 ## Requirements  
  Header: dbgprop.h  
   
-## See Also  
+## See also  
  [DebugPropertyInfo Structure](../../winscript/reference/debugpropertyinfo-structure.md)

@@ -2,7 +2,6 @@
 title: "IDebugFormatter::GetStringForVariant | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Returns a string that represents the given VARIANT value.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetStringForVariant(  
    VARIANT*  pvar,  
    ULONG     nRadix,  
@@ -52,5 +51,5 @@ HRESULT GetStringForVariant(
 ## Remarks  
  This method returns a string that represents the given variant value.  
   
-## See Also  
+## See also  
  [IDebugFormatter Interface](../../winscript/reference/idebugformatter-interface.md)

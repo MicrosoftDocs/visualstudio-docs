@@ -2,7 +2,6 @@
 title: "IDebugDocumentTextAuthor::ReplaceText | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Replaces text in the document.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT ReplaceText(  
    ULONG    cCharacterPosition,  
    ULONG    cNumToReplace,  
@@ -52,5 +51,5 @@ HRESULT ReplaceText(
 ## Remarks  
  This method replaces text in the document.  
   
-## See Also  
+## See also  
  [IDebugDocumentTextAuthor Interface](../../winscript/reference/idebugdocumenttextauthor-interface.md)

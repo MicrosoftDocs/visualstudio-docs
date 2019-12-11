@@ -2,7 +2,6 @@
 title: "IActiveScriptSite::OnScriptTerminate | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Informs the host that the script has completed execution.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT OnScriptTerminate(  
     VARIANT *pvarResult,   // address of script results  
     EXCEPINFO *pexcepinfo  // address of structure with exception information  
@@ -44,5 +43,5 @@ HRESULT OnScriptTerminate(
 ## Remarks  
  The scripting engine calls this method before the call to the [IActiveScriptSite::OnStateChange](../../winscript/reference/iactivescriptsite-onstatechange.md) method, with the SCRIPTSTATE_INITIALIZED flag set, is completed. This method can be used to return completion status and results to the host. Note that many script languages, which are based on sinking events from the host, have life spans that are defined by the host. In this case, this method may never be called.  
   
-## See Also  
+## See also  
  [IActiveScriptSite](../../winscript/reference/iactivescriptsite.md)

@@ -2,7 +2,6 @@
 title: "IEnumDebugExpressionContexts::Reset | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Resets an enumeration sequence to the beginning.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT Reset();  
 ```  
   
@@ -41,5 +40,5 @@ HRESULT Reset();
 ## Remarks  
  This method resets an enumeration sequence to the beginning.  
   
-## See Also  
+## See also  
  [IEnumDebugExpressionContexts Interface](../../winscript/reference/ienumdebugexpressioncontexts-interface.md)

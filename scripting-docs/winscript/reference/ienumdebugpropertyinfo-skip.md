@@ -2,7 +2,6 @@
 title: "IEnumDebugPropertyInfo::Skip | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,9 +23,9 @@ Skips a specified number of `DebugPropertyInfo` structures in an enumeration seq
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT Skip(  
-   ULONGcelt  
+   ULONGcelt  
 );  
 ```  
   
@@ -37,6 +36,6 @@ HRESULT Skip(
 ## Return Value  
  Returns a valid `HRESULT`, typically `S_OK`. Returns `S_FALSE` and sets the current element pointer to the end of the enumeration if `celt` is greater than the number of elements left in the enumerator.  
   
-## See Also  
+## See also  
  [IEnumDebugPropertyInfo Interface](../../winscript/reference/ienumdebugpropertyinfo-interface.md)   
  [DebugPropertyInfo Structure](../../winscript/reference/debugpropertyinfo-structure.md)

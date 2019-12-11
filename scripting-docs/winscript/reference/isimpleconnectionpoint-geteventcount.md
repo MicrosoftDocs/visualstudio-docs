@@ -2,7 +2,6 @@
 title: "ISimpleConnectionPoint::GetEventCount | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Returns the number of events exposed on this interface.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetEventCount(  
    ULONG*  pulCount  
 );  
@@ -44,5 +43,5 @@ HRESULT GetEventCount(
 ## Remarks  
  This method returns the number of events exposed on this interface.  
   
-## See Also  
+## See also  
  [ISimpleConnectionPoint Interface](../../winscript/reference/isimpleconnectionpoint-interface.md)

@@ -2,7 +2,6 @@
 title: "IDebugApplicationNode::Detach | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Removes this application node from the project tree.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT Detach();  
 ```  
   
@@ -41,6 +40,6 @@ HRESULT Detach();
 ## Remarks  
  This method removes this application node from the project tree.  
   
-## See Also  
+## See also  
  [IDebugApplicationNode::Attach](../../winscript/reference/idebugapplicationnode-attach.md)   
  [IDebugApplicationNode Interface](../../winscript/reference/idebugapplicationnode-interface.md)

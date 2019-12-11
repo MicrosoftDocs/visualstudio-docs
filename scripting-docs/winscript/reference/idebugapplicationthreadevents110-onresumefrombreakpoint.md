@@ -2,7 +2,6 @@
 title: "IDebugApplicationThreadEvents110::OnResumeFromBreakPoint | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -19,7 +18,7 @@ manager: "ghogen"
 The thread is resuming from a breakpoint and will be active once again.  
   
 > [!IMPORTANT]
->  [IDebugApplicationThreadEvents110 Interface](../../winscript/reference/idebugapplicationthreadevents110-interface.md) is implemented by PDM v11.0 and greater. Found in activdbg100.h.  
+> [IDebugApplicationThreadEvents110 Interface](../../winscript/reference/idebugapplicationthreadevents110-interface.md) is implemented by PDM v11.0 and greater. Found in activdbg100.h.  
   
 ## Syntax  
   
@@ -30,5 +29,5 @@ HRESULT OnResumeFromBreakPoint( void );
 #### Parameters  
  This method has no parameters.  
   
-## See Also  
+## See also  
  [IDebugApplicationThreadEvents110 Interface](../../winscript/reference/idebugapplicationthreadevents110-interface.md)

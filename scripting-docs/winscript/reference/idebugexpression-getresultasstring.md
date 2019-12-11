@@ -2,7 +2,6 @@
 title: "IDebugExpression::GetResultAsString | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Returns the result of the expression evaluation as a string and the operation's 
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetResultAsString(  
    HRESULT*  phrResult,  
    BSTR*     pbstrResult  
@@ -51,5 +50,5 @@ HRESULT GetResultAsString(
   
  This method returns `S_OK` and `phrResult` returns `E_ABORT` if `Abort` aborts the operation.  
   
-## See Also  
+## See also  
  [IDebugExpression Interface](../../winscript/reference/idebugexpression-interface.md)

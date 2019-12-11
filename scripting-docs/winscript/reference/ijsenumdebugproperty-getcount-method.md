@@ -2,7 +2,6 @@
 title: "IJsEnumDebugProperty::GetCount Method | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -22,7 +21,7 @@ Gets the number of properties of the object.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetCount(  
    ULONG *pCount  
 );  
@@ -37,5 +36,5 @@ HRESULT GetCount(
 ## Requirements  
  **Header:** jscript9diag.h  
   
-## See Also  
+## See also  
  [IJsEnumDebugProperty Interface](../../winscript/reference/ijsenumdebugproperty-interface.md)

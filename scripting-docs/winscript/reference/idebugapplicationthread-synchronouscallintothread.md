@@ -2,7 +2,6 @@
 title: "IDebugApplicationThread::SynchronousCallIntoThread | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Provides a mechanism for the caller to run code in the application thread.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT SynchronousCallIntoThread(  
    IDebugThreadCall*  pstcb,  
    DWORD_PTR          dwParam1,  
@@ -56,6 +55,6 @@ HRESULT SynchronousCallIntoThread(
 ## Remarks  
  This method provides a mechanism for the caller to run code in the debugger thread. Language engines and hosts typically use this method to implement free-threaded objects on top of their single threaded implementations.  
   
-## See Also  
+## See also  
  [IDebugApplicationThread Interface](../../winscript/reference/idebugapplicationthread-interface.md)   
  [IDebugThreadCall Interface](../../winscript/reference/idebugthreadcall-interface.md)

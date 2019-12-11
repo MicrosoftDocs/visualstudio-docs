@@ -2,7 +2,6 @@
 title: "IActiveScriptSite::GetDocVersionString | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Retrieves a host-defined string that uniquely identifies the current document ve
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetDocVersionString(  
     BSTR *pbstrVersionString  // address of document version string  
 );  
@@ -40,5 +39,5 @@ HRESULT GetDocVersionString(
 ## Remarks  
  If `E_NOTIMPL` is returned, the scripting engine should assume that the script is in sync with the document.  
   
-## See Also  
+## See also  
  [IActiveScriptSite](../../winscript/reference/iactivescriptsite.md)

@@ -2,7 +2,6 @@
 title: "IDebugExpressionContext::ParseLanguageText | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Creates a debug expression for the specified text.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT ParseLanguageText(  
    LPCOLESTR           pstrCode,  
    UINT                nRadix,  
@@ -69,5 +68,5 @@ HRESULT ParseLanguageText(
 ## Remarks  
  This method creates a debug expression for the specified text.  
   
-## See Also  
+## See also  
  [IDebugExpressionContext Interface](../../winscript/reference/idebugexpressioncontext-interface.md)

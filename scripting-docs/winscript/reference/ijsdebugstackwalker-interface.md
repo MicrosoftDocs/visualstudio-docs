@@ -2,7 +2,6 @@
 title: "IJsDebugStackWalker Interface | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -18,7 +17,7 @@ Represents a stack walker for a specified thread.
   
 ## Syntax  
   
-```  
+```cpp
 IJsDebugStackWalker : public IUnknown;  
 ```  
   
@@ -36,5 +35,5 @@ IJsDebugStackWalker : public IUnknown;
 ## Requirements  
  **Header:** jscript9diag.h  
   
-## See Also  
+## See also  
  [Windows Script Interfaces Reference](../../winscript/reference/windows-script-interfaces-reference.md)

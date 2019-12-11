@@ -1,14 +1,10 @@
 ---
-title: "Refactor a field to a property in Visual Studio | Microsoft Docs"
-ms.custom: ""
+title: Refactor a field to a property
 ms.date: 01/26/2018
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: vs-ide-general
 ms.topic: reference
-author: "gewarren"
-ms.author: "gewarren"
-manager: ghogen
+author: jillre
+ms.author: jillfra
+manager: jillfra
 f1_keywords:
   - "vs.csharp.refactoring.encapsulatefield"
 dev_langs:
@@ -37,20 +33,20 @@ This refactoring applies to:
 
    - C#:
 
-    ![Highlighted code - C#](media/encapsulate-highlight-cs.png)
+       ![Highlighted code - C#](media/encapsulate-highlight-cs.png)
 
    - Visual Basic:
 
-    ![Highlighted code - Visual Basic](media/encapsulate-highlight-vb.png)
+       ![Highlighted code - Visual Basic](media/encapsulate-highlight-vb.png)
 
-1. Next, do one of the following:
+2. Next, do one of the following:
 
    - **Keyboard**
-     - Press **Ctrl+R**, then **Ctrl+E**.  (Note that your keyboard shortcut may be different based on which profile you've selected.)
-     - Press **Ctrl**+**.** to trigger the **Quick Actions and Refactorings** menu and select either **Encapsulate field** entry from the Preview window popup.
+      - Press **Ctrl+R**, then **Ctrl+E**.  (Note that your keyboard shortcut may be different based on which profile you've selected.)
+      - Press **Ctrl**+**.** to trigger the **Quick Actions and Refactorings** menu and select either **Encapsulate field** entry from the Preview window popup.
    - **Mouse**
-     - Select **Edit > Refactor > Encapsulate Field**.
-     - Right-click the code, select the **Quick Actions and Refactorings** menu and select either **Encapsulate field** entry from the Preview window popup.
+      - Select **Edit > Refactor > Encapsulate Field**.
+      - Right-click the code, select the **Quick Actions and Refactorings** menu and select either **Encapsulate field** entry from the Preview window popup.
 
    Selection | Description
    --------- | -----------
@@ -64,11 +60,11 @@ This refactoring applies to:
 
    - C#:
 
-    ![Encapsulate Property result - C#](media/encapsulate-result-cs.png)
+      ![Encapsulate Property result - C#](media/encapsulate-result-cs.png)
 
    - Visual Basic:
 
-    ![Encapsulate Property result - Visual Basic](media/encapsulate-result-vb.png)
+      ![Encapsulate Property result - Visual Basic](media/encapsulate-result-vb.png)
 
 ## See also
 

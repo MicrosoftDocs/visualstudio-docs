@@ -2,44 +2,19 @@
   "build_entry_point": "docs",
   "docsets_to_publish": [
     {
-      "docset_name": "b362ae64-b1c1-4f4d-a0af-76fe2cfdbd70",
-      "build_source_folder": "b362ae64-b1c1-4f4d-a0af-76fe2cfdbd70",
-      "build_output_subfolder": "b362ae64-b1c1-4f4d-a0af-76fe2cfdbd70",
-      "locale": "en-us",
-      "monikers": [],
-      "moniker_ranges": [],
-      "open_to_public_contributors": false,
-      "type_mapping": {
-        "Conceptual": "Content",
-        "ManagedReference": "Content",
-        "RestApi": "Content"
-      },
-      "build_entry_point": "docs",
-      "template_folder": "_themes"
-    },
-    {
-      "docset_name": "connected-environment",
-      "build_source_folder": "connected-environment",
-      "build_output_subfolder": "connected-environment",
-      "locale": "en-us",
-      "monikers": [],
-      "moniker_ranges": [],
-      "open_to_public_contributors": false,
-      "type_mapping": {
-        "Conceptual": "Content",
-        "ManagedReference": "Content",
-        "RestApi": "Content"
-      },
-      "build_entry_point": "docs",
-      "template_folder": "_themes"
-    },
-    {
       "docset_name": "docs",
       "build_source_folder": "docs",
       "build_output_subfolder": "vsdocsdocs",
       "locale": "en-us",
-      "xref_query_tags": ["/dotnet"],
       "monikers": [],
+      "moniker_ranges": [
+        "vs-2015",
+        ">= vs-2017"
+      ],
+      "xref_query_tags": [
+        "/dotnet",
+        "/uwp/api"
+      ],
       "open_to_public_contributors": true,
       "type_mapping": {
         "Conceptual": "Content",
@@ -57,11 +32,16 @@
       "build_output_subfolder": "mac",
       "locale": "en-us",
       "monikers": [],
-      "open_to_public_contributors": false,
+      "moniker_ranges": [
+        "vsmac-2017",
+        "vsmac-2019"
+      ],
+      "open_to_public_contributors": true,
       "type_mapping": {
         "Conceptual": "Content",
         "ManagedReference": "Content",
-        "RestApi": "Content"
+        "RestApi": "Content",
+        "ContextObject": "Toc"
       },
       "build_entry_point": "docs",
       "template_folder": "_themes"
@@ -99,11 +79,15 @@
     }
   ],
   "notification_subscribers": [],
+  "sync_notification_subscribers": [
+    "ghogen@microsoft.com"
+  ],
   "branches_to_filter": [],
-  "git_repository_url_open_to_public_contributors": "https://github.com/Microsoft/visualstudio-docs",
+  "git_repository_url_open_to_public_contributors": "https://github.com/MicrosoftDocs/visualstudio-docs",
   "git_repository_branch_open_to_public_contributors": "master",
   "skip_source_output_uploading": false,
   "need_preview_pull_request": true,
+  "need_pr_comments": true,
   "contribution_branch_mappings": {},
   "dependent_repositories": [
     {
@@ -117,15 +101,6 @@
       "url": "https://github.com/Microsoft/templates.docs.msft.pdf",
       "branch": "master",
       "branch_mapping": {}
-    },
-    {
-      "path_to_root": "dotnet-xref",
-      "url": "https://github.com/MicrosoftDocs/dotnet-xref",
-      "branch": "live",
-      "branch_mapping": {
-        "live": "live",
-        "master": "master"
-      }
     }
   ],
   "branch_target_mapping": {
@@ -135,11 +110,13 @@
     ]
   },
   "need_generate_pdf_url_template": true,
-  "Targets": {
+  "targets": {
     "Pdf": {
       "template_folder": "_themes.pdf"
     }
   },
   "need_generate_pdf": false,
-  "need_generate_intellisense": false
+  "need_generate_intellisense": false,
+  "enable_branch_build_custom_validation": true,
+  "enable_pull_request_custom_validation": true
 }

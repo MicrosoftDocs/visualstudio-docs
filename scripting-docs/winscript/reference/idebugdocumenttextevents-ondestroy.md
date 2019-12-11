@@ -2,7 +2,6 @@
 title: "IDebugDocumentTextEvents::onDestroy | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Indicates that the underlying document has been destroyed and is no longer valid
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT onDestroy();  
 ```  
   
@@ -41,5 +40,5 @@ HRESULT onDestroy();
 ## Remarks  
  This method indicates that the underlying document has been destroyed and is no longer valid.  
   
-## See Also  
+## See also  
  [IDebugDocumentTextEvents Interface](../../winscript/reference/idebugdocumenttextevents-interface.md)

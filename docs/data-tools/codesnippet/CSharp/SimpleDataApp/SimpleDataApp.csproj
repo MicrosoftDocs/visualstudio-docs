@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{45DB5D02-4966-47F5-A59C-1C5CC40C7854}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>SimpleDataAppCS</RootNamespace>
-    <AssemblyName>SimpleDataAppCS</AssemblyName>
+    <RootNamespace>SimpleDataApp</RootNamespace>
+    <AssemblyName>SimpleDataApp</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -82,6 +82,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

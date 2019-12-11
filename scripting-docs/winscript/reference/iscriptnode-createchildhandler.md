@@ -2,7 +2,6 @@
 title: "IScriptNode::CreateChildHandler | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Adds a scriptlet as a child instance of an `IScriptNode`.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT CreateChildHandler(  
    LPCOLESTR          pszDefaultName,  
    LPCOLESTR          *prgpszNames,  
@@ -84,6 +83,6 @@ HRESULT CreateChildHandler(
 ## Remarks  
  A scriptlet specifies an event handler. This method creates a scriptlet if it is called by an `IScriptNode` object that represents a Web page. This method does not succeed if it is called by other interfaces.  
   
-## See Also  
+## See also  
  [IScriptNode Interface](../../winscript/reference/iscriptnode-interface.md)   
  [IScriptEntry Interface](../../winscript/reference/iscriptentry-interface.md)

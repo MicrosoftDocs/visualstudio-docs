@@ -2,7 +2,6 @@
 title: "IScriptEntry Interface | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -36,5 +35,5 @@ An object that implements the `IScriptEntry` interface represents either a scrip
 |[IScriptEntry::SetSignature](../../winscript/reference/iscriptentry-setsignature.md)|Sets type information for an `IScriptEntry` function object.|  
 |[IScriptEntry::SetText](../../winscript/reference/iscriptentry-settext.md)|Sets the text that corresponds to an `IScriptEntry` script block, or the source code that is contained in an `IScriptScriptlet` event handler.|  
   
-## See Also  
+## See also  
  [Active Script Authoring Interfaces](../../winscript/reference/active-script-authoring-interfaces.md)

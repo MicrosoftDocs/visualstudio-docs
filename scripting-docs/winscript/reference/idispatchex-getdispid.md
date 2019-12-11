@@ -2,7 +2,6 @@
 title: "IDispatchEx::GetDispID | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,8 +23,8 @@ Maps a single member name to its corresponding DISPID, which can then be used on
   
 ## Syntax  
   
-```  
- HRESULT GetDispID(  
+```cpp
+HRESULT GetDispID(  
    BSTR bstrName,  
    DWORD grfdex,  
    DISPID *pid  
@@ -67,7 +66,7 @@ Maps a single member name to its corresponding DISPID, which can then be used on
   
 ## Example  
   
-```  
+```cpp
 BSTR bstrName;  
    DISPID dispid;  
    IDispatchEx *pdex;   
@@ -77,5 +76,5 @@ BSTR bstrName;
    // Use dispid  
 ```  
   
-## See Also  
+## See also  
  [IDispatchEx Interface](../../winscript/reference/idispatchex-interface.md)

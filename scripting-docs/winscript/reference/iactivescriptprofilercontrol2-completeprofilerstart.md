@@ -2,7 +2,6 @@
 title: "IActiveScriptProfilerControl2::CompleteProfilerStart | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -20,7 +19,7 @@ Notifies the profiler that you have started profiling on all applicable scriptin
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT CompleteProfilerStart();  
 ```  
   
@@ -41,6 +40,6 @@ HRESULT CompleteProfilerStart();
 ## Remarks  
  Calling `IActiveScriptProfilerControl2::CompleteProfilerStart` ensures that events for functions already in the call stack are sent. This method has to be called after profiling starts on any scripting engine that is on the current tab. The method can be called for any scripting engine.  
   
-## See Also  
+## See also  
  [IActiveScriptProfilerControl2::PrepareProfilerStop](../../winscript/reference/iactivescriptprofilercontrol2-prepareprofilerstop.md)   
  [IActiveScriptProfilerControl2 Interface](../../winscript/reference/iactivescriptprofilercontrol2-interface.md)

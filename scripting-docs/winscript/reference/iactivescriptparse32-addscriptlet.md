@@ -16,7 +16,7 @@ Adds a code scriptlet to the script. This method is used in environments where t
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT AddScriptlet(  
     LPCOLESTR pstrDefaultName,       // address of default name of scriptlet  
     LPCOLESTR pstrCode,              // address of scriptlet text  
@@ -85,5 +85,5 @@ HRESULT AddScriptlet(
 |`OLESCRIPT_E_INVALIDNAME`|The default name supplied is invalid in this scripting language.|  
 |`OLESCRIPT_E_SYNTAX`|An unspecified syntax error occurred in the scriptlet.|  
   
-## See Also  
+## See also  
  [IActiveScriptParse32](../../winscript/reference/iactivescriptparse32.md)

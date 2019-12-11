@@ -2,7 +2,6 @@
 title: "IActiveScriptStats::GetStat | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Returns one of the standard script statistics.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetStat(  
    DWORD   stid,  
    ULONG*  pluHi,  
@@ -56,6 +55,6 @@ HRESULT GetStat(
 ## Remarks  
  This method returns one of the standard script statistics.  
   
-## See Also  
+## See also  
  [IActiveScriptStats::GetStatEx](../../winscript/reference/iactivescriptstats-getstatex.md)   
  [IActiveScriptStats Interface](../../winscript/reference/iactivescriptstats-interface.md)

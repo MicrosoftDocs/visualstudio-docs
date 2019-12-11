@@ -2,7 +2,6 @@
 title: "IDebugApplication::Close | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Causes this application to release all references and enter an inactive state.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT Close();  
 ```  
   
@@ -43,6 +42,6 @@ HRESULT Close();
   
  This method causes `IApplicationDebugger::onClose` to be called.  
   
-## See Also  
+## See also  
  [IDebugApplication Interface](../../winscript/reference/idebugapplication-interface.md)   
  [IApplicationDebugger::onClose](../../winscript/reference/iapplicationdebugger-onclose.md)

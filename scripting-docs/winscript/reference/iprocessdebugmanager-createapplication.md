@@ -2,7 +2,6 @@
 title: "IProcessDebugManager::CreateApplication | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Creates a new debug application object for this application.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT CreateApplication(  
    IDebugApplication**  ppda  
 );  
@@ -44,6 +43,6 @@ HRESULT CreateApplication(
 ## Remarks  
  The object created by this method has no name and is not added to the running application list. Use the `IProcessDebugManager::AddApplication` to add the debug application to the application list.  
   
-## See Also  
+## See also  
  [IProcessDebugManager Interface](../../winscript/reference/iprocessdebugmanager-interface.md)   
  [IProcessDebugManager::AddApplication](../../winscript/reference/iprocessdebugmanager-addapplication.md)

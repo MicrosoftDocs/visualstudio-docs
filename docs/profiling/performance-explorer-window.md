@@ -1,27 +1,22 @@
 ---
 title: "Performance Explorer Window | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "vs-ide-debug"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
-f1_keywords: 
+ms.topic: "conceptual"
+f1_keywords:
   - "vs.performanceexplorer"
   - "vs.performance.explorer"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "performance tools, Performance Explorer"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: ghogen
-ms.workload: 
+manager: jillfra
+monikerRange: 'vs-2017'
+ms.workload:
   - "multiple"
 ---
 # Performance Explorer Window
 
-The **Performance Explorer** window in the Visual Studio IDE enables you to configure and start performance sessions by using the Visual Studio Profiling Tools.
+The **Performance Explorer** window in the Visual Studio IDE enables you to configure and start performance sessions by using the Visual Studio Profiling Tools. If you need to open the window, follow instructions in [Beginners guide to performance profiling](../profiling/beginners-guide-to-cpu-sampling.md).
 
 ## Performance Explorer Toolbar
 
@@ -51,6 +46,6 @@ The **Performance Explorer** window contains a tree control that displays the bi
 
 ## See also
 
-[Overviews](../profiling/overviews-performance-tools.md)  
-[Configuring Performance Sessions](../profiling/configuring-performance-sessions.md)  
+[Overviews](../profiling/overviews-performance-tools.md)
+[Configuring Performance Sessions](../profiling/configuring-performance-sessions.md)
 [Controlling Data Collection](../profiling/controlling-data-collection.md)

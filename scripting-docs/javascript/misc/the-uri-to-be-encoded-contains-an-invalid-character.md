@@ -1,14 +1,9 @@
 ---
 title: "The URI to be encoded contains an invalid character | Microsoft Docs"
-ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-client-threshold"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: 
-  - "javascript"
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.prod: visual-studio-windows
+ms.technology: vs-javascript
+ms.topic: reference
 f1_keywords: 
   - "VS.WebClient.Help.SCRIPT5024"
 dev_langs: 
@@ -16,7 +11,6 @@ dev_langs:
   - "TypeScript"
   - "DHTML"
 ms.assetid: a3f0fdbb-8d4b-41ae-a396-43dfc9483760
-caps.latest.revision: 8
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: "ghogen"
@@ -26,12 +20,12 @@ You attempted to encode a string as a URI (Uniform Resource Identifier), but it 
   
 ### To correct this error  
   
--   Ensure the string to be encoded contains only valid Unicode sequences. A complete URI is composed of a sequence of components and separators. The names in angle brackets represent components, and the ":", "/", ";" and "?" are reserved characters used as separators. The general form is:  
+- Ensure the string to be encoded contains only valid Unicode sequences. A complete URI is composed of a sequence of components and separators. The names in angle brackets represent components, and the ":", "/", ";" and "?" are reserved characters used as separators. The general form is:  
   
     ```JavaScript  
     <Scheme>:<first>/<second>;<third>?<fourth>  
     ```  
   
-## See Also  
+## See also  
  [encodeURI Function](../../javascript/reference/encodeuri-function-javascript.md)   
  [encodeURIComponent Function](../../javascript/reference/encodeuricomponent-function-javascript.md)

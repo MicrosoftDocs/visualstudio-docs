@@ -2,7 +2,6 @@
 title: "IJsDebugProcess::PerformAsyncBreak Method | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -22,7 +21,7 @@ Puts the script engine in break mode causing it to break on the next script inst
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT PerformAsyncBreak(  
    DWORD threadId  
 );  
@@ -37,5 +36,5 @@ HRESULT PerformAsyncBreak(
 ## Requirements  
  **Header:** jscript9diag.h  
   
-## See Also  
+## See also  
  [IJsDebugProcess Interface](../../winscript/reference/ijsdebugprocess-interface.md)

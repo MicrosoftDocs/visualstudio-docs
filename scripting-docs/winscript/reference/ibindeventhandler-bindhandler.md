@@ -2,7 +2,6 @@
 title: "IBindEventHandler::BindHandler | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Binds an event to an object.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT BindHandler(  
    LPCOLESTR   pstrEvent,  
    IDispatch*  pdisp  
@@ -48,5 +47,5 @@ HRESULT BindHandler(
 ## Remarks  
  This method binds an event to an object.  
   
-## See Also  
+## See also  
  [IBindEventHandler Interface](../../winscript/reference/ibindeventhandler-interface.md)

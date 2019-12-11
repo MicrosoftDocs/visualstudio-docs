@@ -2,7 +2,6 @@
 title: "IRemoteDebugApplication::CauseBreak | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Causes the application to break into the debugger at the earliest opportunity.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT CauseBreak();  
 ```  
   
@@ -41,5 +40,5 @@ HRESULT CauseBreak();
 ## Remarks  
  Calling this method does not cause an application to break immediately. If the application is not currently executing script code, a long time may elapse before the application actually breaks.  
   
-## See Also  
+## See also  
  [IRemoteDebugApplication Interface](../../winscript/reference/iremotedebugapplication-interface.md)

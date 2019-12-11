@@ -1,7 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Id="11e78ae2-8508-44bc-8a78-e7e4d31ef3d2" Scope="Site" Title="SpExt_WebPart Feature1">
-  <ElementManifests>
-    <ElementManifest Location="WebPart1\Elements.xml" />
-    <ElementFile Location="WebPart1\WebPart1.webpart" />
-  </ElementManifests>
-</Feature>

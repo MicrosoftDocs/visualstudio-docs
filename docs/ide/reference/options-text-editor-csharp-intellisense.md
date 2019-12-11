@@ -1,31 +1,25 @@
 ---
-title: "Options, Text Editor, C#, IntelliSense | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: vs-ide-general
-ms.topic: "article"
-f1_keywords: 
+title: Options, Text Editor, C#, IntelliSense
+ms.date: 11/04/2016
+ms.topic: reference
+f1_keywords:
   - "VS.ToolsOptionsPages.Text_Editor.CSharp.Intellisense"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "underlines, wavy"
   - "IntelliSense [C#], options"
   - "IntelliSense [C#], wavy underlines"
   - "wavy underlines"
   - "Text Editor Options dialog box, IntelliSense"
 ms.assetid: 3466dedb-e5f4-424c-8dd8-e4941b2f4fc2
-author: "gewarren"
-ms.author: "gewarren"
-manager: ghogen
-ms.workload: 
+author: jillre
+ms.author: jillfra
+manager: jillfra
+ms.workload:
   - "dotnet"
 ---
 # Options, Text Editor, C#, IntelliSense
 
 Use the **IntelliSense** options page to modify settings that affect the behavior of IntelliSense for C#. To access this options page, choose **Tools** > **Options**, and then choose **Text Editor** > **C#** > **IntelliSense**.
-
-> [!NOTE]
-> The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Personalize the Visual Studio IDE](../../ide/personalizing-the-visual-studio-ide.md).
 
 The **IntelliSense** options page contains the following options:
 
@@ -39,11 +33,9 @@ The **IntelliSense** options page contains the following options:
 
 - Highlight matching portions of completion list items
 
-- Show completion list filters
+- Show completion item filters
 
-- Show name suggestions
-
-### Snippets behavior
+## Snippets behavior
 
 - Never include snippets
 
@@ -57,7 +49,7 @@ The **IntelliSense** options page contains the following options:
 
    When this option is selected, IntelliSense adds aliases for C# code snippets to the completion list when **?**+**Tab** is pressed after an identifier
 
-### Enter key behavior
+## Enter key behavior
 
 - Never add new line on enter
 
@@ -81,7 +73,11 @@ The **IntelliSense** options page contains the following options:
 
    Specifies that if you type *any* of the characters for an entry in the completion list and then press **Enter**, a new line is added automatically and the cursor moves to the new line.
 
+## Show name suggestions
+
+Performs automatic object name completion for the members that you have recently selected.
+
 ## See also
 
-[General, Environment, Options Dialog Box](../../ide/reference/general-environment-options-dialog-box.md)  
-[Using IntelliSense](../../ide/using-intellisense.md)
+- [General, Environment, Options Dialog Box](../../ide/reference/general-environment-options-dialog-box.md)
+- [Using IntelliSense](../../ide/using-intellisense.md)

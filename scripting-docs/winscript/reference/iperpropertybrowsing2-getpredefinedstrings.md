@@ -2,7 +2,6 @@
 title: "IPerPropertyBrowsing2::GetPredefinedStrings | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,11 +23,11 @@ Allows the caller to fill a list box with a counted array of string pointers whi
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetPredefinedStrings(  
-   DISPID  dispid,  
-   CALPOLESTR*  pCaStrings,  
-   CADWORD*  pCaCookies  
+   DISPID  dispid,  
+   CALPOLESTR*  pCaStrings,  
+   CADWORD*  pCaCookies  
 );  
 ```  
   
@@ -45,5 +44,5 @@ HRESULT GetPredefinedStrings(
 ## Return Value  
  Returns a valid `HRESULT`, typically `S_OK`.  
   
-## See Also  
+## See also  
  [IPerPropertyBrowsing2 Interface 1](../../winscript/reference/iperpropertybrowsing2-interface-1.md)

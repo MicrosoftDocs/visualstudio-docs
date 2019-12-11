@@ -1,15 +1,11 @@
 ---
-title: "Generate a method override in Visual Studio | Microsoft Docs"
-ms.custom: ""
+title: Generate a method override
 ms.date: 01/26/2018
-ms.reviewer: ""
-ms.suite: ""
-ms.technology: vs-ide-general
-ms.topic: "article"
-author: "gewarren"
-ms.author: "gewarren"
-manager: ghogen
-ms.workload: 
+ms.topic: reference
+author: jillre
+ms.author: jillfra
+manager: jillfra
+ms.workload:
   - "dotnet"
 ---
 # Generate an override in Visual Studio
@@ -32,13 +28,13 @@ This code generation applies to:
 
    - C#:
 
-    ![Override IntelliSense C#](media/override-intellisense-cs.png)
+      ![Override IntelliSense C#](media/override-intellisense-cs.png)
 
    - Visual Basic:
 
-    ![Override IntelliSense VB](media/override-intellisense-vb.png)
+      ![Override IntelliSense VB](media/override-intellisense-vb.png)
 
-1. Select the method you want to override from the base class.
+2. Select the method you want to override from the base class.
 
    > [!TIP]
    > - Use the property icon ![Property icon](media/override-property-cs.png) to show or hide properties in the list.
@@ -48,12 +44,12 @@ This code generation applies to:
 
    - C#:
 
-      ![Override result C#](media/override-result-cs.png)
+       ![Override result C#](media/override-result-cs.png)
 
    - Visual Basic:
 
-      ![Override result VB](media/override-result-vb.png)
+       ![Override result VB](media/override-result-vb.png)
 
 ## See also
 
-[Code Generation](../code-generation-in-visual-studio.md)
+- [Code Generation](../code-generation-in-visual-studio.md)

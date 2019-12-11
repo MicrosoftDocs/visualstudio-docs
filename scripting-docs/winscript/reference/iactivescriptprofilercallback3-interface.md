@@ -2,7 +2,6 @@
 title: "IActiveScriptProfilerCallback3 Interface | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -18,7 +17,7 @@ Provides a method to notify the profiler that the profiled executions are happen
   
 ## Syntax  
   
-```  
+```cpp
 interface IActiveScriptProfilerCallback3 : IActiveScriptProfilerCallback2  
 ```  
   
@@ -28,6 +27,6 @@ interface IActiveScriptProfilerCallback3 : IActiveScriptProfilerCallback2
 |------------|-----------------|  
 |[IActiveScriptProfilerCallback3::SetWebWorkerId Method](../../winscript/reference/iactivescriptprofilercallback3-setwebworkerid-method.md)|Notifies the profiler about the worker ID to use for this profiling session.|  
   
-## See Also  
+## See also  
  [IActiveScriptProfilerCallback Interface](../../winscript/reference/iactivescriptprofilercallback-interface.md)   
  [IActiveScriptProfilerCallback2 Interface](../../winscript/reference/iactivescriptprofilercallback2-interface.md)

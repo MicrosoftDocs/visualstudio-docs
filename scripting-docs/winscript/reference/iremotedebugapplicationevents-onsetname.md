@@ -2,7 +2,6 @@
 title: "IRemoteDebugApplicationEvents::OnSetName | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Handles a set name event.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT OnSetName(  
    LPCOLESTR  pstrName  
 );  
@@ -44,5 +43,5 @@ HRESULT OnSetName(
 ## Remarks  
  This method handles a set name event.  
   
-## See Also  
+## See also  
  [IRemoteDebugApplicationEvents Interface](../../winscript/reference/iremotedebugapplicationevents-interface.md)

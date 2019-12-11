@@ -2,7 +2,6 @@
 title: "ICanHandleException::CanHandleException | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Determines if the caller of the script engine can handle a specified exception.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT CanHandleException(  
    EXCEPINFO*  pExcepInfo,  
    VARIANT*    pvar  
@@ -49,6 +48,6 @@ HRESULT CanHandleException(
 ## Remarks  
  If a call to `IDispatchEx::InvokeEx`, or a similar method, results in an exception, the script engine checks for a caller in the script's caller chain that supports the `ICanHandleException` interface and indicates that it can handle the exception. If no caller can handle the exception, the script engine halts.  
   
-## See Also  
+## See also  
  [ICanHandleException Interface](../../winscript/reference/icanhandleexception-interface.md)   
  [IDispatchEx::InvokeEx](../../winscript/reference/idispatchex-invokeex.md)

@@ -2,7 +2,6 @@
 title: "IRemoteDebugApplication::ConnectDebugger | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Connects a debugger to this application.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT ConnectDebugger(  
    IApplicationDebugger*  pad  
 );  
@@ -45,6 +44,6 @@ HRESULT ConnectDebugger(
 ## Remarks  
  An application can have only one debugger connected at a time. This method fails if a debugger is already connected.  
   
-## See Also  
+## See also  
  [IRemoteDebugApplication::GetDebugger](../../winscript/reference/iremotedebugapplication-getdebugger.md)   
  [IRemoteDebugApplication Interface](../../winscript/reference/iremotedebugapplication-interface.md)

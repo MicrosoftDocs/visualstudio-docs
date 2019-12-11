@@ -2,7 +2,6 @@
 title: "IRemoteDebugApplicationThread::GetApplication | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Returns the application object associated with this thread.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetApplication(  
    IRemoteDebugApplication**  pprda  
 );  
@@ -44,5 +43,5 @@ HRESULT GetApplication(
 ## Remarks  
  This method returns the application object associated with this thread.  
   
-## See Also  
+## See also  
  [IRemoteDebugApplicationThread Interface](../../winscript/reference/iremotedebugapplicationthread-interface.md)

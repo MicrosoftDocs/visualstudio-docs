@@ -2,7 +2,6 @@
 title: "IDebugDocumentHelper::SetDefaultTextAttr | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Sets the default attributes to use for text that is not in a script block.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT SetDefaultTextAttr(  
    SOURCE_TEXT_ATTR  staTextAttr  
 );  
@@ -44,6 +43,6 @@ HRESULT SetDefaultTextAttr(
 ## Remarks  
  Unless the default attributes are changed by this method, the default attributes for text outside a script block is SOURCETEXT_ATTR_NONSOURCE. The user interface can use this information to mark text outside script blocks as read-only.  
   
-## See Also  
+## See also  
  [IDebugDocumentHelper Interface](../../winscript/reference/idebugdocumenthelper-interface.md)   
  [SOURCE_TEXT_ATTR Enumeration](../../winscript/reference/source-text-attr-enumeration.md)

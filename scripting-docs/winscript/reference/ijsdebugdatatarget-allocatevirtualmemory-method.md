@@ -2,7 +2,6 @@
 title: "IJsDebugDataTarget::AllocateVirtualMemory Method | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -22,7 +21,7 @@ Reserves and/or commits a region of memory within the virtual address space of t
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT AllocateVirtualMemory(  
    UINT64 address,  
    DWORD size,  
@@ -56,5 +55,5 @@ HRESULT AllocateVirtualMemory(
 ## Requirements  
  **Header:** jscript9diag.h  
   
-## See Also  
+## See also  
  [IJsDebugDataTarget Interface](../../winscript/reference/ijsdebugdatatarget-interface.md)

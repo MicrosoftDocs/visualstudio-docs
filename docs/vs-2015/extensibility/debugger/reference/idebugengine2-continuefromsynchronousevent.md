@@ -1,0 +1,86 @@
+---
+title: "IDebugEngine2::ContinueFromSynchronousEvent | Microsoft Docs"
+ms.date: 11/15/2016
+ms.prod: "visual-studio-dev14"
+ms.technology: "vs-ide-sdk"
+ms.topic: reference
+f1_keywords: 
+  - "IDebugEngine2::ContinueFromSynchronousEvent"
+helpviewer_keywords: 
+  - "IDebugEngine2::ContinueFromSynchronousEvent"
+ms.assetid: 9a57dfcd-df8e-4be5-b1fe-bd853e3c6bb2
+caps.latest.revision: 11
+ms.author: gregvanl
+manager: jillfra
+---
+# IDebugEngine2::ContinueFromSynchronousEvent
+[!INCLUDE[vs2017banner](../../../includes/vs2017banner.md)]
+
+Called by the session debug manager (SDM) to indicate that a synchronous debug event, previously sent by the debug engine (DE) to the SDM, was received and processed.  
+  
+## Syntax  
+  
+```cpp#  
+HRESULT ContinueFromSynchronousEvent(   
+   IDebugEvent2* pEvent  
+);  
+```  
+  
+```csharp  
+HRESULT ContinueFromSynchronousEvent(   
+   IDebugEvent2 pEvent  
+);  
+```  
+  
+#### Parameters  
+ `pEvent`  
+ [in] An [IDebugEvent2](../../../extensibility/debugger/reference/idebugevent2.md) object that represents the previously sent synchronous event from which the debugger should now continue.  
+  
+## Return Value  
+ If successful, returns `S_OK`; otherwise, returns an error code.  
+  
+## Remarks  
+ The DE must verify that it was the source of the event represented by the `pEvent` parameter.  
+  
+## Example  
+ The following example shows how to implement this method for a simple `CEngine` object that implements the [IDebugEngine2](../../../extensibility/debugger/reference/idebugengine2.md) interface.  
+  
+```cpp#  
+HRESULT CEngine::ContinueFromSynchronousEvent(IDebugEvent2* pEvent)  
+{  
+   HRESULT hr;  
+  
+   // Create a pointer to a unique event interface defined for batch file  
+   // breaks.    
+   IAmABatchFileEvent *pBatEvent;  
+   // Check for successful query for the unique batch file event  
+   // interface.  
+   if (SUCCEEDED(pEvent->QueryInterface(IID_IAmABatchFileEvent,  
+                                       (void **)&pBatEvent)))  
+   {  
+      // Release the result of the QI.  
+      pBatEvent->Release();  
+      // Check thread message for notification to continue.  
+      if (PostThreadMessage(GetCurrentThreadId(),  
+                            WM_CONTINUE_SYNC_EVENT,  
+                            0,  
+                            0))  
+      {    
+         hr = S_OK;  
+      }  
+      else  
+      {  
+         hr = HRESULT_FROM_WIN32(GetLastError());  
+      }  
+   }  
+   else  
+   {  
+      hr = E_INVALIDARG;  
+   }  
+   return hr;  
+}  
+```  
+  
+## See Also  
+ [IDebugEngine2](../../../extensibility/debugger/reference/idebugengine2.md)   
+ [IDebugEvent2](../../../extensibility/debugger/reference/idebugevent2.md)

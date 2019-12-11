@@ -1,10 +1,9 @@
 ---
-title: Working with Subversion | Microsoft Docs
+title: Working with Subversion
 description: Using Subversion in Visual Studio for Mac.
-author: asb3993
-ms.author: amburns
-ms.date: 04/14/2017
-ms.topic: article
+author: jmatthiesen
+ms.author: jomatthi
+ms.date: 05/06/2018
 ms.assetid: 2400ED9C-6236-4C0A-A3AB-9D7CBE1F0CF4
 ---
 
@@ -26,7 +25,7 @@ The following image illustrates the options provided by Visual Studio for Mac by
 
 Before starting to use a remote Subversion repository, check out the repo to create a working copy of that directory on your local machine.
 
-To find out about using the **Checkout** feature in Visual Studio for Mac, follow the steps in the [Setting up a Subversion repository](~/set-up-subversion-repository.md) section.
+To find out about using the **Checkout** feature in Visual Studio for Mac, follow the steps in the [Setting up a Subversion repository](set-up-subversion-repository.md) section.
 
 ## Update solution
 
@@ -46,7 +45,10 @@ This allows viewing all the changes in each file of a project with the option to
 
 To commit a file to the remote repository, press Commit..., enter a commit message, and confirm with the Commit Button:
 
-
 ![Committing a file](media/version-control-svnCommit.png)
 
 This will send the changes to the repository where they create the new revision of all your modifications.
+
+## See also
+
+- [Set up a Subversion repository](set-up-subversion-repository.md)

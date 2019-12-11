@@ -16,7 +16,7 @@ Used by the language engine to delegate `IDebugCodeContext::GetSourceContext`.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetDocumentContextFromPosition(  
    DWORD_PTR                dwSourceContext,  
    ULONG                    uCharacterOffset,  
@@ -48,5 +48,5 @@ HRESULT GetDocumentContextFromPosition(
 ## Remarks  
  Language engines use this method to delegate `IDebugCodeContext::GetSourceContext`.  
   
-## See Also  
+## See also  
  [IActiveScriptSiteDebug32 Interface](../../winscript/reference/iactivescriptsitedebug32-interface.md)

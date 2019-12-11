@@ -2,7 +2,6 @@
 title: "IScriptScriptlet:: GetSimpleEventName | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Returns the simple event name that is associated with a scriptlet. This is a sin
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetSimpleEventName(  
    BSTR               *pbstr  
 );  
@@ -43,5 +42,5 @@ HRESULT GetSimpleEventName(
   
 ## Remarks  
   
-## See Also  
+## See also  
  [IScriptScriptlet Interface](../../winscript/reference/iscriptscriptlet-interface.md)

@@ -2,7 +2,6 @@
 title: "DOCUMENTNAMETYPE Enumeration | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Describes which type to get for a document.
   
 ## Syntax  
   
-```  
+```cpp
 typedef enum tagDOCUMENTNAMETYPE {  
    DOCUMENTNAMETYPE_APPNODE,  
    DOCUMENTNAMETYPE_TITLE,  
@@ -43,5 +42,5 @@ DOCUMENTNAMETYPE_UNIQUE_TITLE,} DOCUMENTNAMETYPE;
 |DOCUMENTNAMETYPE_URL|Gets the URL of the document.|  
 |DOCUMENTNAMETYPE_UNIQUE_TITLE|Gets the title appended with enumeration for identification.|  
   
-## See Also  
+## See also  
  [Active Script Debugger Constants, Enumerations, and Structures](../../winscript/reference/active-script-debugger-constants-enumerations-and-structures.md)

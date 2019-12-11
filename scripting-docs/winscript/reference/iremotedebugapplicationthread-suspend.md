@@ -2,7 +2,6 @@
 title: "IRemoteDebugApplicationThread::Suspend | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Suspends the thread.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT Suspend(  
    DWORD*  pdwCount  
 );  
@@ -44,5 +43,5 @@ HRESULT Suspend(
 ## Remarks  
  When this method suspends the thread, it increments the suspend count.  
   
-## See Also  
+## See also  
  [IRemoteDebugApplicationThread Interface](../../winscript/reference/iremotedebugapplicationthread-interface.md)

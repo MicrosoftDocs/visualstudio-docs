@@ -2,7 +2,6 @@
 title: "IScriptEntry::GetRange | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Returns the start position and length of an entry.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetRange(  
    ULONG              *pichMin  
    ULONG              *pcch  
@@ -55,5 +54,5 @@ HRESULT GetRange(
   
 ## Remarks  
   
-## See Also  
+## See also  
  [IScriptEntry Interface](../../winscript/reference/iscriptentry-interface.md)

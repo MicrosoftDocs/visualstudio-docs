@@ -2,7 +2,6 @@
 title: "IDebugDocumentHelper::CreateDebugDocumentContext | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Creates a new debug document context.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT CreateDebugDocumentContext(  
    ULONG                    iCharPos,  
    ULONG                    cChars,  
@@ -52,5 +51,5 @@ HRESULT CreateDebugDocumentContext(
 ## Remarks  
  This method allows the host to create a new debug document context.  
   
-## See Also  
+## See also  
  [IDebugDocumentHelper Interface](../../winscript/reference/idebugdocumenthelper-interface.md)

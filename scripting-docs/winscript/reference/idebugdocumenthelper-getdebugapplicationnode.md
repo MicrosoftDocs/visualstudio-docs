@@ -2,7 +2,6 @@
 title: "IDebugDocumentHelper::GetDebugApplicationNode | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Returns the debug application node corresponding to this document.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetDebugApplicationNode(  
    IDebugApplicationNode**  ppdan  
 );  
@@ -44,5 +43,5 @@ HRESULT GetDebugApplicationNode(
 ## Remarks  
  Return the debug application node corresponding to this document.  
   
-## See Also  
+## See also  
  [IDebugDocumentHelper Interface](../../winscript/reference/idebugdocumenthelper-interface.md)

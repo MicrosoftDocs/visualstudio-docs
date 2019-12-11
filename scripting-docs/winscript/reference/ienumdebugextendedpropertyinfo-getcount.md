@@ -2,7 +2,6 @@
 title: "IEnumDebugExtendedPropertyInfo::GetCount | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,9 +23,9 @@ Gets the number of `ExtendedDebugPropertyInfo` structures in the enumerator.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetCount (  
-   ULONG* pcelt  
+   ULONG* pcelt  
 );  
 ```  
   
@@ -37,6 +36,6 @@ HRESULT GetCount (
 ## Return Value  
  Returns a valid `HRESULT`, typically `S_OK`.  
   
-## See Also  
+## See also  
  [IEnumDebugExtendedPropertyInfo Interface](../../winscript/reference/ienumdebugextendedpropertyinfo-interface.md)   
  [ExtendedDebugPropertyInfo Structure](../../winscript/reference/extendeddebugpropertyinfo-structure.md)

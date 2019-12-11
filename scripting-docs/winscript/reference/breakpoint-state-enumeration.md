@@ -2,7 +2,6 @@
 title: "BREAKPOINT_STATE Enumeration | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Indicates the state of a breakpoint.
   
 ## Syntax  
   
-```  
+```cpp
 typedef enum tagBREAKPOINT_STATE {  
    BREAKPOINT_DELETED = 0,  
    BREAKPOINT_DISABLED = 1,  
@@ -40,5 +39,5 @@ typedef enum tagBREAKPOINT_STATE {
 |BREAKPOINT_DISABLED|The breakpoint exists but is disabled.|  
 |BREAKPOINT_ENABLED|The breakpoint exists and is enabled.|  
   
-## See Also  
+## See also  
  [Active Script Debugger Constants, Enumerations, and Structures](../../winscript/reference/active-script-debugger-constants-enumerations-and-structures.md)

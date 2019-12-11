@@ -2,7 +2,6 @@
 title: "IDebugDocumentHelper::AddDBCSText | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Appends a DBCS string to the end of this document.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT AddDBCSText(  
    LPCSTR  pszText  
 );  
@@ -46,9 +45,9 @@ HRESULT AddDBCSText(
  This method generates `IDebugDocumentTextEvents` notifications.  
   
 > [!NOTE]
->  If this method is called after `IDebugDocumentHelper::AddDeferredText` has been called, `E_FAIL` is returned.  
+> If this method is called after `IDebugDocumentHelper::AddDeferredText` has been called, `E_FAIL` is returned.  
   
-## See Also  
+## See also  
  [IDebugDocumentHelper Interface](../../winscript/reference/idebugdocumenthelper-interface.md)   
  [IDebugDocumentHelper::AddDeferredText](../../winscript/reference/idebugdocumenthelper-adddeferredtext.md)   
  [IDebugDocumentTextEvents Interface](../../winscript/reference/idebugdocumenttextevents-interface.md)

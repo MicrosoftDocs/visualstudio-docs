@@ -2,7 +2,6 @@
 title: "IDebugFormatter::GetStringForVarType | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Returns a string that represents the given VARTYPE value.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetStringForVarType(  
    VARTYPE    vt,  
    TYPEDESC*  ptdescArrayType,  
@@ -52,5 +51,5 @@ HRESULT GetStringForVarType(
 ## Remarks  
  The method returns a string that represents the given VARTYPE value.  
   
-## See Also  
+## See also  
  [IDebugFormatter Interface](../../winscript/reference/idebugformatter-interface.md)

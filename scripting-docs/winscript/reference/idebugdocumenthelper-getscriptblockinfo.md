@@ -2,7 +2,6 @@
 title: "IDebugDocumentHelper::GetScriptBlockInfo | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Retrieves the range of characters and the script engine corresponding to a scrip
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT GetScriptBlockInfo(  
    DWORD_PTR        dwSourceContext,  
    IActiveScript**  ppasd,  
@@ -56,5 +55,5 @@ HRESULT GetScriptBlockInfo(
 ## Remarks  
  This method retrieves the range of characters and the script engine corresponding to a script block.  
   
-## See Also  
+## See also  
  [IDebugDocumentHelper Interface](../../winscript/reference/idebugdocumenthelper-interface.md)

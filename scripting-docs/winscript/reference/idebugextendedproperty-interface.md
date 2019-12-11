@@ -2,7 +2,6 @@
 title: "IDebugExtendedProperty Interface | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -29,5 +28,5 @@ Extends `IDebugProperty` interface.
 ## Requirements  
  Header: dbgprop.h  
   
-## See Also  
+## See also  
  [IDebugProperty Interface](../../winscript/reference/idebugproperty-interface.md)

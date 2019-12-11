@@ -2,7 +2,6 @@
 title: "IDebugApplicationNode::Close | Microsoft Docs"
 ms.custom: ""
 ms.date: "01/18/2017"
-ms.prod: "windows-script-interfaces"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -24,7 +23,7 @@ Causes this application to release all references and enter an inactive state.
   
 ## Syntax  
   
-```  
+```cpp
 HRESULT Close();  
 ```  
   
@@ -41,5 +40,5 @@ HRESULT Close();
 ## Remarks  
  Typically, the owner of an application calls this method when the application exits.  
   
-## See Also  
+## See also  
  [IDebugApplicationNode Interface](../../winscript/reference/idebugapplicationnode-interface.md)
