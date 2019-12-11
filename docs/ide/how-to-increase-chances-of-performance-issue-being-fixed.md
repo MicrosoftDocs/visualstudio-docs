@@ -42,6 +42,8 @@ follow the feedback steps specific to that case.
 
 -   [High CPU:](#slowness-and-high-cpu-issues) Extended periods of unexpectedly high CPU usage
 
+-   [OOP Issues:](#oop-issues) An issue caused by a Visual Studio satellite process
+
 ## Crashes
 A crash occurs when the process (Visual Studio) terminates unexpectedly.
 
@@ -237,6 +239,21 @@ tool to use. Steps for manually recording performance trace using the PerfView
 tool can be found on the [Recording performance traces with
 PerfView](https://github.com/dotnet/roslyn/wiki/Recording-performance-traces-with-PerfView)
 page.
+
+## OOP Issues
+
+There are a number of satellite processes that run parallel to Visual Studio and provide various features from outside of the main Visual Studio process. If an error occurs in one of these satellite processes it is usually seen on the Visual Studio side as a StreamJsonRpc.RemoteInvocationException or a StreamJsonRpc.ConnectionLostException.
+
+What makes these types of issues most actionable is to provide additional logs that can be collected by following these steps:
+
+1.  If this is a directly reproducible issue, start by deleting the %temp%/servicehub/logs folder. If you cannot reproduce this issue please keep this folder intact and ignore the following bullets:
+
+    -   Set the global environment variable ServiceHubTraceLevel to All
+    -   Reproduce the issue.
+
+2.  Download the Microsoft Visual Studio and .NET Framework Log Collection Tool [here](https://aka.ms/vscollect).
+3.  Run the tool. This outputs a zip file to %temp%/vslogs.zip. Please attach that file to your feedback.
+
 
 ## See also
 
