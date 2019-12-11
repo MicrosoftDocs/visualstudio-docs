@@ -149,7 +149,7 @@ If neither of those workarounds is possible, a third option is to attach to the 
 
 You can attach the Visual Studio debugger to a Linux .NET Core Docker container on your local or remote machine using the **Attach to Process** dialog box.
 
-> [!NOTE]
+> [!IMPORTANT]
 > To use this feature, you must install the .NET Core Cross-Platform Development workload and have local access to the source code.
 
 **To attach to a Linux Docker container:**
@@ -159,28 +159,33 @@ You can attach the Visual Studio debugger to a Linux .NET Core Docker container 
 ![Attach to Process Menu](../debugger/media/attach-process-menu.png "Attach_To_Process_Menu")
 
 2. Set the **Connection type** to **Docker (Linux Container)**.
-3. Select **Find...** to set the **Connection target** via the **Select Docker Container** dialog.
+3. Select **Find...** to set the **Connection target** via the **Select Docker Container** dialog box.
 
-    **To set the target to a local machine:**
+    **A. To debug a Docker container locally:**
     1. Set **Docker CLI host** to **Local Machine**.
     1. Select a running container to attach to from the list and hit **OK**.
     
     ![Select Docker Container Menu](../debugger/media/select-docker-container.png "Select_Docker_Container_Menu")
-        
-    **To set the target to a remote machine via SSH:**
-    1. Select **Add...** to connect to a remote system.
+ 
+    **B. To debug a Docker container remotely:**
     
-    ![Connect to a Remote System](../debugger/media/connect-remote-system.png "Connect to a Remote System")
+    > [!NOTE] 
+    > There are two options for connecting remotely to a running Docker container. Option I is ideal if you don't have Docker tools installed on your local machine.  If you do have Docker tools installed locally and you have a Docker daemon that's configured to accept remote requests, try Option II.
+
+    1. ***To connect to a remote machine via SSH:***
+        1. Select **Add...** to connect to a remote system.<br/>
+        ![Connect to a Remote System](../debugger/media/connect-remote-system.png "Connect to a Remote System")
+        1. Select a running container to attach to after connecting to the SSH or daemon successfully and hit **OK**.
+
     
-    1. Select a running container to attach to after connecting to the SSH or daemon successfully and hit **OK**.
-    
-    **To set the target to a remote container running via a [Docker daemon](https://docs.docker.com/engine/reference/commandline/dockerd/)**
-    1. Specify the daemon (i.e. via TCP, IP, etc.) under **Docker host (Optional)**.
-    1. Select a running container to attach to after connecting to the daemon successfully and hit **OK**.
+    1. ***To set the target to a remote container running via a [Docker daemon](https://docs.docker.com/engine/reference/commandline/dockerd/)***
+        1. Specify the daemon (i.e. via TCP, IP, etc.) under **Docker host (Optional)**.
+        1. Select a running container to attach to after connecting to the daemon successfully and hit **OK**.
 
 4. Choose the corresponding container process from the list of **Available processes** and select **Attach** to start debugging your C# container in Visual Studio!
 
-![Completed Docker Attach Menu](../debugger/media/docker-attach-complete.png "Completed Docker Attach Menu")
+    ![Completed Docker Attach Menu](../debugger/media/docker-attach-complete.png "Completed Docker Attach Menu")
+
 
 ::: moniker-end
 
