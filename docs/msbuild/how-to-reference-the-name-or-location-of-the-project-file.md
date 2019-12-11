@@ -35,6 +35,8 @@ You can use the name or location of the project in the project file itself witho
 
   An advantage of using a reserved property is that any changes to the project file name are incorporated automatically. The next time that you build the project, the output file will have the new name with no further action required on your part.
 
+  For more info on the use of special characters in file or project references, see [MSBuild special characters](../msbuild/msbuild-special-characters.md).
+
 > [!NOTE]
 > Reserved properties cannot be redefined in the project file.
 
