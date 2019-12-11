@@ -16,6 +16,8 @@ Visual Studio provides a consistent way to develop in a Docker container and val
 
 This article illustrates how to use Visual Studio to start an ASP.NET Core web app in a local Docker container, make changes, and then refresh the browser to see the changes. This article also shows you how to set breakpoints for debugging for containerized ASP.NET Core web apps and .NET Framework console apps.
 
+If you already have a project, Visual Studio can create a Dockerfile and configure your project to generate a container. See [Container Tools in Visual Studio](overview.md).
+
 ## Prerequisites
 
 To debug apps in a local Docker container, the following tools must be installed:
@@ -37,6 +39,8 @@ To run Docker containers locally, you must have a local Docker client. You can u
 Docker containers are available for .NET Framework and .NET Core projects. Let's look at two examples. First, we look at a .NET Core web app. Then, we look at a .NET Framework console app.
 
 ## Create a web app
+
+If you have a project and you've added Docker support as described in the [overview](overview.md), skip this section.
 
 ::: moniker range="vs-2017"
 [!INCLUDE [create-aspnet5-app](../azure/includes/create-aspnet5-app.md)]
@@ -118,6 +122,10 @@ If you manually modified your container and want to restart with a clean contain
 ## Troubleshoot
 
 Learn how to [troubleshoot Visual Studio Docker development](troubleshooting-docker-errors.md).
+
+## Next steps
+
+Get more details by reading [How Visual Studio builds containerized apps](container-build.md).
 
 ## More about Docker with Visual Studio, Windows, and Azure
 
