@@ -90,7 +90,7 @@ To edit the value of a variable or element in a DataTip, select the value, type 
 
 ::: moniker range=">= vs-2019"
 
-## Pin Properties in DataTips (Supported in Visual Studio 2019 version 16.4 Preview 3 or higher)
+## Pin Properties in DataTips
 
 > [!NOTE]
 > This feature is supported for .NET Core 3.0 or higher.

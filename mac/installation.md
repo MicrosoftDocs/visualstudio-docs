@@ -1,8 +1,8 @@
 ---
 title: "Install Visual Studio 2019 for Mac"
 description: "Instructions on how to install Visual Studio 2019 for Mac and additional components required for cross-platform development."
-author: asb3993
-ms.author: amburns
+author: heiligerdankgesang
+ms.author: dominicn
 ms.date: 09/18/2019
 ms.technology: vs-ide-install
 ms.assetid: 22B1F2CD-32AE-464D-80AC-C8AB4786B015
@@ -13,7 +13,7 @@ ms.custom: video
 To start developing native, cross-platform .NET apps on macOS, install Visual Studio 2019 for Mac following the steps below.
 
  > [!div class="button"]
- > [Download Visual Studio for Mac](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=navigation+cta&utm_content=download+vsmac2019)
+ > [Download Visual Studio for Mac](https://aka.ms/vsmac)
 
 ## Requirements
 

@@ -128,8 +128,6 @@ There are several differences:
 
 - Live Unit Testing runs tests in each test assembly sequentially. In **Test Explorer**, you can choose to run multiple tests in parallel.
 
-- Discovery and execution of tests in Live Unit Testing uses version 2 of `TestPlatform`, whereas the **Test Explorer** window uses version 1. You won't notice a difference in most cases, though.
-
 - **Test Explorer** runs tests in a single-threaded apartment (STA) by default, whereas Live Unit Testing runs tests in a multi-threaded apartment (MTA). To run MSTest tests in STA in Live Unit Testing, decorate the test method or the containing class with the `<STATestMethod>` or `<STATestClass>` attribute that can be found in the `MSTest.STAExtensions 1.0.3-beta` NuGet package. For NUnit, decorate the test method with the `<RequiresThread(ApartmentState.STA)>` attribute, and for xUnit, with the `<STAFact>` attribute.
 
 ## Exclude tests

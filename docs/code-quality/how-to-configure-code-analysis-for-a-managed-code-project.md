@@ -60,11 +60,11 @@ In Visual Studio, you can choose from a list of code analysis [rule sets](../cod
 
 ::: moniker-end
 
-    - Select the rule set that you want to use.
+   - Select the rule set that you want to use.
 
-    - Select **\<Browse>** to find an existing custom rule set that is not in the list.
+   - Select **\<Browse>** to find an existing custom rule set that is not in the list.
 
-    - Define a [custom rule set](../code-quality/how-to-create-a-custom-rule-set.md).
+   - Define a [custom rule set](../code-quality/how-to-create-a-custom-rule-set.md).
 
 ## Specify rule sets for multiple projects in a solution
 

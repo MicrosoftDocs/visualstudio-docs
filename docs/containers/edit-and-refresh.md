@@ -12,9 +12,12 @@ ms.technology: vs-azure
 ---
 # Debug apps in a local Docker container
 
-Visual Studio provides a consistent way to develop in a Docker container and validate your application locally. You don't have to restart the container each time you make a code change.
+Visual Studio provides a consistent way to develop Docker containers and validate your application locally. 
+You can run and debug your apps in Linux or Windows containers running on your local Windows desktop with Docker installed, and you don't have to restart the container each time you make a code change.
 
-This article illustrates how to use Visual Studio to start an ASP.NET Core web app in a local Docker container, make changes, and then refresh the browser to see the changes. This article also shows you how to set breakpoints for debugging for containerized ASP.NET Core web apps and .NET Framework console apps.
+This article illustrates how to use Visual Studio to start an app in a local Docker container, make changes, and then refresh the browser to see the changes. This article also shows you how to set breakpoints for debugging for containerized apps. Supported project types include .NET Framework and .NET Core web and console apps. In this article, we use ASP.NET Core web apps and .NET Framework console apps.
+
+If you already have a project of a supported type, Visual Studio can create a Dockerfile and configure your project to run in a container. See [Container Tools in Visual Studio](overview.md).
 
 ## Prerequisites
 
@@ -32,11 +35,13 @@ To debug apps in a local Docker container, the following tools must be installed
 
 ::: moniker-end
 
-To run Docker containers locally, you must have a local Docker client. You can use the [Docker Toolbox](https://www.docker.com/products/docker-toolbox), which requires Hyper-V to be disabled. You also can use [Docker for Windows](https://www.docker.com/get-docker), which uses Hyper-V and requires Windows 10. 
+To run Docker containers locally, you must have a local Docker client. You can use the [Docker Toolbox](https://www.docker.com/products/docker-toolbox), which requires Hyper-V to be disabled. You also can use [Docker for Windows](https://www.docker.com/get-docker), which uses Hyper-V and requires Windows 10.
 
 Docker containers are available for .NET Framework and .NET Core projects. Let's look at two examples. First, we look at a .NET Core web app. Then, we look at a .NET Framework console app.
 
 ## Create a web app
+
+If you have a project and you've added Docker support as described in the [overview](overview.md), skip this section.
 
 ::: moniker range="vs-2017"
 [!INCLUDE [create-aspnet5-app](../azure/includes/create-aspnet5-app.md)]
@@ -49,19 +54,21 @@ Docker containers are available for .NET Framework and .NET Core projects. Let's
 
 To quickly iterate changes, you can start your application in a container. Then, continue to make changes, viewing them as you would with IIS Express.
 
+1. Make sure that Docker is set up to use the container type (Linux or Windows) that you are using. Right-click on the Docker icon on the Taskbar, and choose **Switch to Linux containers** or **Switch to Windows containers** as appropriate.
+
 1. Set **Solution Configuration** to **Debug**. Then, press **Ctrl**+**F5** to build your Docker image and run it locally.
 
     When the container image is built and running in a Docker container, Visual Studio launches the web app in your default browser.
 
-2. Go to the *Index* page. We'll make changes on this page.
-3. Return to Visual Studio and open *Index.cshtml*.
-4. Add the following HTML content to the end of the file, and then save the changes.
+1. Go to the *Index* page. We'll make changes on this page.
+1. Return to Visual Studio and open *Index.cshtml*.
+1. Add the following HTML content to the end of the file, and then save the changes.
 
     ```html
     <h1>Hello from a Docker container!</h1>
     ```
 
-5. In the output window, when the .NET build is finished and you see the following lines, switch back to your browser and refresh the page:
+1. In the output window, when the .NET build is finished and you see the following lines, switch back to your browser and refresh the page:
 
    ```output
    Now listening on: http://*:80
@@ -118,6 +125,10 @@ If you manually modified your container and want to restart with a clean contain
 ## Troubleshoot
 
 Learn how to [troubleshoot Visual Studio Docker development](troubleshooting-docker-errors.md).
+
+## Next steps
+
+Get more details by reading [How Visual Studio builds containerized apps](container-build.md).
 
 ## More about Docker with Visual Studio, Windows, and Azure
 
