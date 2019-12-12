@@ -2,7 +2,7 @@
 title: "Accessibility"
 description: "Introduction of accessibility features in Visual Studio for Mac and how they can be enabled."
 author: alanjclark
-ms.author: alcl
+ms.author: dominicn
 ms.date: 09/23/2019
 ms.assetid: 2C4AAC2E-3B4A-4496-8BE0-1F5A7F81D1CA
 ---

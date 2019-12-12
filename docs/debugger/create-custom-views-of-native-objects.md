@@ -20,6 +20,9 @@ The Visual Studio *Natvis* framework customizes the way native types appear in d
 
 Natvis replaces the *autoexp.dat* file in earlier versions of Visual Studio with XML syntax, better diagnostics, versioning, and multiple file support.
 
+> [!NOTE]
+> Natvis customizations work with classes and structs, but not typedefs.
+
 ## <a name="BKMK_Why_create_visualizations_"></a>Natvis visualizations
 
 You use the Natvis framework to create visualization rules for the types you create, so that developers can see them more easily during debugging.
