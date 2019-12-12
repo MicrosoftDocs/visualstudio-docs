@@ -497,10 +497,10 @@ Groups individual `Reference` elements.
 
 ## Shortcut element
 
-Specifies the shortcut text used to insert the snippet. The text value of a `Shortcut` element can only contain alphanumeric characters, hyphens ( - ), and underscores ( _ ).
+Specifies the shortcut text used to insert the snippet. The text value of a `Shortcut` element can only contain alphanumeric characters, and underscores ( _ ).
 
 > [!CAUTION]
-> _ and - are not supported characters in C++ snippet shortcuts.
+> Underscore (_) is not supported characters in C++ snippet shortcuts.
 
 ```xml
 <Shortcut>
