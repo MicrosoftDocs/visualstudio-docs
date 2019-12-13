@@ -3,7 +3,7 @@ title: "Set multiple startup projects"
 description: "This article describes how to set multiple projects to start on run or debug."
 author: sayedihashimi
 ms.author: sayedha
-ms.date: 12/19/2019
+ms.date: 12/13/2019
 ms.topic: conceptual
 ms.prod: visual-studio-mac
 ms.assetid: fd354fff-ce6b-4505-a815-84a2311e39ba
