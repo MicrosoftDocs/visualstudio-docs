@@ -16,7 +16,7 @@ ms.workload:
 
 This following procedures show you how to create the sample for [Walkthrough: Analyze C/C++ code for defects](../code-quality/walkthrough-analyzing-c-cpp-code-for-defects.md). The procedures create:
 
-- A Visual Studio solution named CppDemo.
+- A [!INCLUDEvsprvs] solution named CppDemo.
 
 - A static library project named CodeDefects.
 
@@ -26,19 +26,17 @@ The procedures also provide the code for the header and *.cpp* files for the sta
 
 ## Create the CppDemo solution and the CodeDefects project
 
-1. Click the **File** menu, point to **New**, and then click **New Project**.
+1. Open [!INCLUDEvsprvs] and select **Create a new project**
 
-2. In the **Project types** tree list, if C++ is not your default language in VS expand **Other Languages**.
+2. Change language filter to **C++**
 
-3. Expand **Visual C++**, and then click **General**.
+3. Select **Empty Project** and click **Next**
 
-4. In **Templates**, click **Empty Project**.
+4. In the **Project Name** text box, type **CodeDefects**
 
-5. In the **Name** text box, type **CodeDefects**.
+5. In the **Solution name** text box, type **CppDemo**
 
-6. Select the **Create directory for solution** check box.
-
-7. In the **Solution Name** text box, type **CppDemo**.
+6. Click **Create**
 
 ## Configure the CodeDefects project as a static library
 
@@ -46,9 +44,9 @@ The procedures also provide the code for the header and *.cpp* files for the sta
 
 2. Expand **Configuration Properties** and then click **General**.
 
-3. In the **General** list, select the text in the column next to **Target Extension**, and then type **.lib**.
+3. In the **General** list, change **Configuration Type**, to **Static library (.lib)**.
 
-4. In **Project Defaults**, click the column next to **Configuration Type**, and then click **Static Lib (.lib)**.
+4. In the **Advanced** list, change **Target File Extension** to **.lib**
 
 ## Add the header and source file to the CodeDefects project
 
@@ -58,9 +56,11 @@ The procedures also provide the code for the header and *.cpp* files for the sta
 
 3. In the **Name** box, type **Bug.h** and then click **Add**.
 
-4. Copy the following code and paste it into the *Bug.h* file in the Visual Studio editor.
+4. Copy the following code and paste it into the *Bug.h* file in the editor.
 
     ```cpp
+    #pragma once
+    
     #include <windows.h>
 
     //
@@ -86,7 +86,7 @@ The procedures also provide the code for the header and *.cpp* files for the sta
 
 7. In the **Name** box, type **Bug.cpp** and then click **Add**.
 
-8. Copy the following code and paste it into the *Bug.cpp* file in the Visual Studio editor.
+8. Copy the following code and paste it into the *Bug.cpp* file in the editor.
 
     ```cpp
     #include <stdlib.h>
@@ -106,7 +106,7 @@ The procedures also provide the code for the header and *.cpp* files for the sta
 
             // Copies part of the string prior to the '\'
             // character onto the 'domain' buffer
-            for( len = 0 ; (len < ACCOUNT_DOMAIN_LEN) && (g_userAccount[len] != '\0') ; len++  )
+            for( len = 0 ; (len < ACCOUNT_DOMAIN_LEN) && (g_userAccount[len] != '\0') ; len++ )
             {
                 if ( g_userAccount[len] == '\\' )
                 {
@@ -152,17 +152,18 @@ The procedures also provide the code for the header and *.cpp* files for the sta
 
 1. In Solution Explorer, click **CppDemo**, point to **Add**, and then click **New Project**.
 
-2. In the **Add New Project** dialog box, expand Visual C++, click **General**, and then click **Empty Project**.
+2. In the **Add a new project** dialog box, Change language filter to **C++** and select **Empty Project** then click **Next**.
 
-3. In the **Name** text box, type **Annotations**, and then click **Add**.
+3. In the **Project name** text box, type **Annotations**, and then click **Create**.
 
 4. In Solution Explorer, right-click **Annotations** and then click **Properties**.
 
 5. Expand **Configuration Properties** and then click **General**.
 
-6. In the **General** list, select the text in the column next to **Target Extension**, and then type **.lib**.
+6. In the **General** list, change **Configuration Type**, to and then click **Static library (.lib)**.
 
-7. In **Project Defaults**, click the column next to **Configuration Type**, and then click **Static Lib (.lib)**.
+7. In the **Advanced** list, select the text in the column next to **Target File extension**, and then type **.lib**.
+
 
 ## Add the header file and source file to the Annotations project
 
@@ -172,10 +173,11 @@ The procedures also provide the code for the header and *.cpp* files for the sta
 
 3. In the **Name** box, type **annotations.h** and then click **Add**.
 
-4. Copy the following code and paste it into the *annotations.h* file in the Visual Studio editor.
+4. Copy the following code and paste it into the *annotations.h* file in the editor.
 
     ```cpp
-    #include <CodeAnalysis/SourceAnnotations.h>
+    #pragma once
+    #include <sal.h>
 
     struct LinkedList
     {
@@ -185,7 +187,7 @@ The procedures also provide the code for the header and *.cpp* files for the sta
 
     typedef struct LinkedList LinkedList;
 
-    [returnvalue:SA_Post( Null=SA_Maybe )] LinkedList* AllocateNode();
+    _Ret_maybenull_ LinkedList* AllocateNode();
 
     ```
 
@@ -195,7 +197,7 @@ The procedures also provide the code for the header and *.cpp* files for the sta
 
 7. In the **Name** box, type **annotations.cpp** and then click **Add**.
 
-8. Copy the following code and paste it into the *annotations.cpp* file in the Visual Studio editor.
+8. Copy the following code and paste it into the *annotations.cpp* file in the editor.
 
     ```cpp
     #include <CodeAnalysis/SourceAnnotations.h>
