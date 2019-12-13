@@ -161,7 +161,7 @@ This walkthrough demonstrates how to analyze C/C++ code for potential code defec
 
 5. Rebuild Annotations project.
 
-     The project builds without any warnings or errors.
+     The project now builds without any warnings or errors.
 
 ## See also
 
