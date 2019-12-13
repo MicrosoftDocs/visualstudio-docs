@@ -2,7 +2,7 @@
 title: "Install Visual Studio"
 titleSuffix: ""
 description: "Learn how to install Visual Studio, step-by-step."
-ms.date: 10/07/2019
+ms.date: 12/13/2019
 ms.custom: "seodec18"
 ms.topic: conceptual
 f1_keywords:
