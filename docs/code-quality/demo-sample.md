@@ -58,27 +58,21 @@ The procedures also provide the code for the header and *.cpp* files for the sta
 
 4. Copy the following code and paste it into the *Bug.h* file in the editor.
 
-    ```cpp
-    #pragma once
-    
-    #include <windows.h>
+```cpp
+#pragma once
 
-    //
-    //These 3 functions are consumed by the sample
-    //  but are not defined. This project cannot be linked!
-    //
+#include <windows.h>
 
-    bool CheckDomain( LPCSTR );
-    HRESULT ReadUserAccount();
+// These functions are consumed by the sample
+// but are not defined. This project cannot be linked!
+bool CheckDomain(LPCTSTR);
+HRESULT ReadUserAccount();
 
-    //
-    //These constants define the common sizes of the
-    //  user account information throughout the program
-    //
-
-    const int USER_ACCOUNT_LEN = 256;
-    const int ACCOUNT_DOMAIN_LEN = 128;
-    ```
+// These constants define the common sizes of the
+// user account information throughout the program
+const int USER_ACCOUNT_LEN = 256;
+const int ACCOUNT_DOMAIN_LEN = 128;
+```
 
 5. In Solution Explorer, right-click **Source Files**, point to **New**, and then click **New Item**.
 
@@ -88,63 +82,61 @@ The procedures also provide the code for the header and *.cpp* files for the sta
 
 8. Copy the following code and paste it into the *Bug.cpp* file in the editor.
 
-    ```cpp
-    #include <stdlib.h>
-    #include "Bug.h"
+```cpp
+#include "Bug.h"
 
-    // the user account
-    TCHAR g_userAccount[USER_ACCOUNT_LEN] = "";
-    int len = 0;
+// the user account
+TCHAR g_userAccount[USER_ACCOUNT_LEN] = {};
+int len = 0;
 
-    bool ProcessDomain()
+bool ProcessDomain()
+{
+    TCHAR* domain = new TCHAR[ACCOUNT_DOMAIN_LEN];
+    // ReadUserAccount gets a 'domain\user' input from
+    //the user into the global 'g_userAccount'
+    if (ReadUserAccount())
     {
-        TCHAR* domain = new TCHAR[ACCOUNT_DOMAIN_LEN];
-        // ReadUserAccount gets a 'domain\user' input from
-        //the user into the global 'g_userAccount'
-        if (ReadUserAccount() )
+        // Copies part of the string prior to the '\'
+        // character onto the 'domain' buffer
+        for (len = 0; (len < ACCOUNT_DOMAIN_LEN) && (g_userAccount[len] != L'\0'); len++)
         {
-
-            // Copies part of the string prior to the '\'
-            // character onto the 'domain' buffer
-            for( len = 0 ; (len < ACCOUNT_DOMAIN_LEN) && (g_userAccount[len] != '\0') ; len++ )
+            if (g_userAccount[len] == '\\')
             {
-                if ( g_userAccount[len] == '\\' )
-                {
-                    // Stops copying on the domain and user separator ('\')
-                    break;
-                }
-                domain[len] = g_userAccount[len];
+                // Stops copying on the domain and user separator ('\')
+                break;
             }
-            if((len= ACCOUNT_DOMAIN_LEN) || (g_userAccount[len] != '\\'))
-            {
-                // '\' was not found. Invalid domain\user string.
-                delete [] domain;
-                return false;
-            }
-            else
-            {
-                domain[len]='\0';
-            }
-            // Process domain string
-            bool result = CheckDomain( domain );
-
-            delete[] domain;
-            return result;
+            domain[len] = g_userAccount[len];
         }
-        return false;
-    }
-
-    int path_dependent(int n)
-    {
-        int i;
-        int j;
-        if (n == 0)
-            i = 1;
+        if ((len = ACCOUNT_DOMAIN_LEN) || (g_userAccount[len] != '\\'))
+        {
+            // '\' was not found. Invalid domain\user string.
+            delete[] domain;
+            return false;
+        }
         else
-            j = 1;
-        return i+j;
+        {
+            domain[len] = '\0';
+        }
+        // Process domain string
+        bool result = CheckDomain(domain);
+
+        delete[] domain;
+        return result;
     }
-    ```
+    return false;
+}
+
+int path_dependent(int n)
+{
+    int i;
+    int j;
+    if (n == 0)
+        i = 1;
+    else
+        j = 1;
+    return i + j;
+}
+```
 
 9. Click the **File** menu, and then click **Save All**.
 
@@ -175,21 +167,20 @@ The procedures also provide the code for the header and *.cpp* files for the sta
 
 4. Copy the following code and paste it into the *annotations.h* file in the editor.
 
-    ```cpp
-    #pragma once
-    #include <sal.h>
+```cpp
+#pragma once
+#include <sal.h>
 
-    struct LinkedList
-    {
-        struct LinkedList* next;
-        int data;
-    };
+struct LinkedList
+{
+    struct LinkedList* next;
+    int data;
+};
 
-    typedef struct LinkedList LinkedList;
+typedef struct LinkedList LinkedList;
 
-    _Ret_maybenull_ LinkedList* AllocateNode();
-
-    ```
+_Ret_maybenull_ LinkedList* AllocateNode();
+```
 
 5. In Solution Explorer, right-click **Source Files**, point to **New**, and then click **New Item**.
 
@@ -199,31 +190,30 @@ The procedures also provide the code for the header and *.cpp* files for the sta
 
 8. Copy the following code and paste it into the *annotations.cpp* file in the editor.
 
-    ```cpp
-    #include <CodeAnalysis/SourceAnnotations.h>
-    #include <windows.h>
-    #include <stdlib.h>
-    #include "annotations.h"
+```cpp
+#include "annotations.h"
 
-    LinkedList* AddTail( LinkedList *node, int value )
+LinkedList* AddTail(LinkedList* node, int value)
+{
+    LinkedList* newNode = nullptr;
+
+    // finds the last node
+    while (node->next != nullptr)
     {
-        LinkedList *newNode = NULL;
-
-        // finds the last node
-        while ( node->next != NULL )
-        {
-            node = node->next;
-        }
-
-        // appends the new node
-        newNode = AllocateNode();
-        newNode->data = value;
-        newNode->next = 0;
-        node->next = newNode;
-
-        return newNode;
+        node = node->next;
     }
 
-    ```
+    // appends the new node
+    newNode = AllocateNode();
+    newNode->data = value;
+    newNode->next = 0;
+    node->next = newNode;
+
+    return newNode;
+}
+```
 
 9. Click the **File** menu, and then click **Save All**.
+
+
+The solution is now complete and should build without errors.
