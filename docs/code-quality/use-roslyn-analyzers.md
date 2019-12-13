@@ -14,7 +14,7 @@ ms.workload:
 ---
 # Use code analyzers
 
-.NET Compiler Platform ("Roslyn") code analyzers analyze your C# or Visual Basic code as you type. Each *diagnostic* or rule has a default severity and suppression state that can be overwritten for your project. This article covers setting rule severity, using rule sets, and suppressing violations.
+.NET Compiler Platform ("Roslyn") code analyzers analyze your C# or Visual Basic code as you type. Each *diagnostic* or rule has a default severity and suppression state that can be overwritten for your project. This article covers setting rule severity, using rule sets, and suppressing violations.  
 
 ## Analyzers in Solution Explorer
 
