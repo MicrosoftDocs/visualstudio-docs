@@ -195,8 +195,6 @@ _Ret_maybenull_ LinkedList* AllocateNode();
 
 LinkedList* AddTail(LinkedList* node, int value)
 {
-    LinkedList* newNode = nullptr;
-
     // finds the last node
     while (node->next != nullptr)
     {
@@ -204,7 +202,7 @@ LinkedList* AddTail(LinkedList* node, int value)
     }
 
     // appends the new node
-    newNode = AllocateNode();
+    LinkedList* newNode = AllocateNode();
     newNode->data = value;
     newNode->next = 0;
     node->next = newNode;
