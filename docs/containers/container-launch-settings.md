@@ -43,6 +43,7 @@ In the *Properties* folder in an ASP.NET Core project, you can find the launchSe
 The commandName setting identifies that this section applies to Container Tools. The following table shows the properties that can be set in this section:
 
 ::: moniker range="vs-2017"
+
 |Setting name|Example|Description|
 |------------|-------|-------|---------------|
 |launchBrowser|Visual Studio 2017|"launchBrowser": true|Indicates whether to launch the browser after successfully launching the project.|
