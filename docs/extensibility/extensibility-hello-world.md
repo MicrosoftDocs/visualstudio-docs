@@ -68,11 +68,11 @@ Step 1. If you select the *.vsixmanifest* manifest file, you can see what option
 
 Step 2. Right-click the project (not the solution). On the context menu, select **Add**, and then **New Item**.
 
-Step 3. Select the **Extensibility** section, and then choose **Custom Command**.
+Step 3. Select the **Extensibility** section, and then choose **Command**.
 
 Step 4. In the **Name** field at the bottom, enter a filename such as *Command.cs*.
 
-![custom command](media/hello-world-custom-command.png)
+![custom command](media/hello-world-vsix-command.png)
 
 Your new command file is visible in **Solution Explorer**. Under the **Resources** node, you'll find other files related to your command. For example, if you wish to modify the image, the PNG file is here.
 
