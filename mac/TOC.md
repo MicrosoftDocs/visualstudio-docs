@@ -28,7 +28,6 @@
 ## Managing references in a project
 ### [Overview](managing-references-in-a-project.md)
 ### [Walkthrough - Including a NuGet package in your project](nuget-walkthrough.md)
-### [Debuging NuGet packages with Source Link](source-link.md)
 ## [Managing App Resources](managing-app-resources.md)
 ## [How to: Open multiple solutions or instances](open-multiple-solutions.md)
 
@@ -48,6 +47,7 @@
 # Debugging
 ## [Overview](debugging.md)
 ## [Data Visualizations](data-visualizations.md)
+## [Debuging NuGet packages with Source Link](source-link.md)
 
 # Compiling and Building
 ## [Overview](compiling-and-building.md)
