@@ -48,9 +48,9 @@ There are two situations where turning on this option will **NOT** work:
 1. In situations where you are attaching the debugger to an already running process, this option will have no effect on modules that were already loaded at the time the debugger was attached.
 2. This option has no effect on DLLs that have been pre-compiled (a.k.a ngen'ed) to native code. However, you can disable usage of pre-compiled code by starting the process with the environment variable **'COMPlus_ReadyToRun'** set to **'0'**. This will tell the .NET Core runtime to disable the use of pre-compiled images, forcing the runtime to JIT compile framework code. 
 
-    > [!IMPORTANT] If you are targeting a lower version of .NET Core (2.X), also add the environment variable 'COMPlus_ZapDisable' and set it to '1'
+    > [!IMPORTANT] If you are targeting .NET Framework or an older version of .NET Core (2.x or lower), also add the environment variable 'COMPlus_ZapDisable' and set it to '1'
 
-    **To set an environmental variable in Visual Studio:**
+    **To set an environmental variable for a .NET Core project in Visual Studio:**
     1. In the **Solution Explorer**, **right-click** the project file and select **Properties**.
     2. Navigate to the **Debug** tab and under **Environment variables**, click the **Add** button.
     3. Set Name (Key) to **COMPlus_ReadyToRun** and set Value to **0**.
