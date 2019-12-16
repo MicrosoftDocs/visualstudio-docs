@@ -23,7 +23,7 @@ You can change the setting in **Download External Code** to suit your preference
 * Always: Visual Studio for Mac will download the external code automatically
 * Never: Visual Studio for Mac will not download the related external code
 
-By default, **Ask** is selected. You'll received a prompt like the following when external code is found for a NuGet package:
+By default, **Ask** is selected. You'll receive the following prompt when when external code is found for a NuGet package:
 
 ![](media/source-link2.png)
 
