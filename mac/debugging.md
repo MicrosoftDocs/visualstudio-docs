@@ -1,23 +1,25 @@
 ---
-title: Debugging with Xamarin
+title: Debugging with Visual Studio for Mac
 description: Debugging is a common, and necessary, part of programming. As a mature IDE, Visual Studio for Mac contains a whole suite of features to make debugging easy. From safe debugging, to data visualization, this article will explain how to use the full potential of debugging in Visual Studio for Mac.
-author: jmatthiesen
-ms.author: jomatthi
-ms.date: 05/06/2018
+author: therealjohn
+ms.author: johmil
+ms.date: 12/13/2019
 ms.technology: vs-ide-debug
 ms.assetid: BB7A084D-9AC2-48B5-8076-6C8518796BBA
 ---
-# Debugging with Xamarin
+# Debugging with Visual Studio for Mac
 
-Visual Studio for Mac has a native debugger allowing debugging support for Xamarin.iOS, Xamarin.Mac, and Xamarin.Android applications.
+Visual Studio for Mac has debuggers with support for .Net Core, .NET Framework, Unity, and Xamarin applications.
 
 Visual Studio for Mac uses the [*Mono Soft Debugger*](https://www.mono-project.com/docs/advanced/runtime/docs/soft-debugger/), which is implemented into the Mono runtime, allowing Visual Studio for Mac to debug managed code across all platforms.
 
 ## The Debugger
 
-Visual Studio for Mac uses the Mono Soft Debugger to debug managed (C# or F#) code in all Xamarin applications. The Mono Soft debugger is different from regular debuggers in that it is a co-operative debugger that is built into the Mono runtime; the generated code and Mono runtime co-operate with the IDE to provide a debugging experience. The Mono runtime exposes the debugging functionality through a wire protocol, which you can read more about [in the Mono documentation](https://www.mono-project.com/docs/advanced/runtime/docs/soft-debugger-wire-format/).
+Visual Studio for Mac uses the Mono Soft Debugger to debug managed (C# or F#) code in all Xamarin applications. The Mono Soft debugger is different from regular debuggers in that it is a cooperative debugger that is built into the Mono runtime; the generated code and Mono runtime cooperate with the IDE to provide a debugging experience. The Mono runtime exposes the debugging functionality through a wire protocol, which you can read more about [in the Mono documentation](https://www.mono-project.com/docs/advanced/runtime/docs/soft-debugger-wire-format/).
 
 Hard debuggers, such as [LLDB]( http://lldb.llvm.org/index.html) or [GDB]( https://www.gnu.org/software/gdb/), control a program without the knowledge or cooperation from the debugged program, but can still be useful when debugging Xamarin applications in the event that you need to debug native iOS or Android code.
+
+For .NET Core and ASP.NET Core applications, Visual Studio for Mac uses the .NET Core debugger. This debugger is also a cooperative debugger and works with the .NET runtime.
 
 ## Using the debugger
 
@@ -37,8 +39,9 @@ You can view all the breakpoints that have been set in your code by going to the
 
 ## Start debugging
 
-To start debugging, select the target device or similar/emulator in your IDE:
+To start debugging, select the target browser, device, or simulator/emulator:
 
+![Debug configuration](media/debugging-image_0.png)
 ![Select target device](media/debugging-image1.png)
 
 Then deploy your application by pressing the  **Play** button, or  **Cmd + return**. When you hit a breakpoint, the code will be highlighted yellow:
@@ -84,9 +87,9 @@ Xamarin products ship with the source code for Mono's class libraries, and you c
 
 Since this feature consumes more memory during debugging, it is turned off by default.
 
-To enable this feature, browse to  **Visual Studio for Mac > Preferences > Debugger** and ensure that the "**Debug project code only; do not step into framework code.**" option is **unselected**, as illustrated below:
+To enable this feature, browse to  **Visual Studio for Mac > Preferences > Debugger** and ensure that the "**Step into external code**" option is **selected**, as illustrated below:
 
-![Do not step into framework code option](media/debugging-image8.png)
+![Step into external code option](media/debugging-image8.png)
 
 ## See also
 
