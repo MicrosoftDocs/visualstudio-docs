@@ -7,7 +7,6 @@ ms.author: jomatthi
 ms.date: 12/12/2019
 ms.assetid: 2a561af4-f1fe-493e-9a53-aa6d77d15498
 ---
-# Projects and Solutions in Visual Studio for Mac
 
 In Visual Studio for Mac, you can configure a Xamarin or .NET Core project to run on any one of several versions of the .NET Framework, and on any one of several system platforms. For example, you could target a project to run on both .NET Framework 4.6 and .NET Core 3.1. 
 
@@ -41,7 +40,7 @@ Use the plural TargetFrameworks element with multiple target frameworks:
   </PropertyGroup>
 ```
 
-Learn more about how to [target multiple frameworks](dotnet/standard/frameworks#how-to-specify-target-frameworks).
+Learn more about how to [target multiple frameworks](/dotnet/standard/frameworks#how-to-specify-target-frameworks).
 
 ## Working with code in a project targeting multiple frameworks
 When you're editing a C# file in a project with multiple target frameworks, you can specify which target framework you want to use to guide your editor experience (for example, showing warnings if you use an API not supported by that framework). You can change the target framework by using the **Target Framework** selector in the top left corner of the editor window.
@@ -73,4 +72,4 @@ When writing code, you will see warnings in IntelliSense auto-completion suggest
 ## See also
 
 - [Framework targeting overview (Windows)](/visualstudio/ide/visual-studio-multi-targeting-overview)
-- [Target frameworks in SDK-style projects](dotnet/standard/frameworks#how-to-specify-target-frameworks)
+- [Target frameworks in SDK-style projects](/dotnet/standard/frameworks#how-to-specify-target-frameworks)
