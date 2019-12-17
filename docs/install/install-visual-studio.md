@@ -2,7 +2,7 @@
 title: "Install Visual Studio"
 titleSuffix: ""
 description: "Learn how to install Visual Studio, step-by-step."
-ms.date: 10/07/2019
+ms.date: 12/13/2019
 ms.custom: "seodec18"
 ms.topic: conceptual
 f1_keywords:
@@ -133,7 +133,7 @@ After the installer is installed, you can use it to customize your installation 
 
  ::: moniker range="vs-2017"
 
-1. Find the workload you want in the **Installing Visual Studio** screen.
+1. Find the workload you want in the **Visual Studio Installer**.
 
    ![Visual Studio 2017: Install a workload](../install/media/vs-installer-installing-workloads.png)
 
@@ -147,7 +147,7 @@ After the installer is installed, you can use it to customize your installation 
 
 ::: moniker range="vs-2019"
 
-1. After the new workloads and components are installed, choose **Launch**.
+1. Find the workload you want in the **Visual Studio Installer**.
 
    ![Visual Studio 2019: Install a workload](../install/media/vs-2019/vs-installer-workloads.png)
 
