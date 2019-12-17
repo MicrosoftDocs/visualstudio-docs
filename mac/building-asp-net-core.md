@@ -68,9 +68,9 @@ This lab is intended for developers who are familiar with C#, although deep expe
 
     ![](media/netcore-image8.png)
 
-7. There are also a variety of configuration files that serve to manage the project, its packages, and the application at runtime. For example, the default application [configuration](/aspnet/core/fundamentals/configuration) is stored in **appsettings.json**. However, you can override some/all of these settings on a per-environment basis, such as by providing an **appsettings.Development.json** file for the **Development** environment.
+7. There are also a variety of configuration files that serve to manage the project, its packages, and the application at runtime. For example, the default application [configuration](/aspnet/core/fundamentals/configuration) is stored in **appsettings.json**. Nested below the appsettings.json file is the **appsettings.Development.json** file. Here, you can override some/all of these settings on a per-environment basis. Visual Studio for Mac will nest files in this manner using the same logic as Visual Studio for Windows, so that files which you need to access more often are at the forefront. 
 
-    ![](media/netcore-image9.png)
+    ![](media/netcore-build-nested.png)
 
 ## Task 3: Understanding how the application is hosted
 
