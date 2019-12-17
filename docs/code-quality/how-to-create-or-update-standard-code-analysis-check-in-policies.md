@@ -63,4 +63,4 @@ For more information about how to create and implement a custom check-in policy 
 
 ## See also
 
-- [Create and use code analysis check-in policies](../code-quality/how-to-create-or-update-standard-code-analysis-check-in-policies.md)
+- [Implement Custom Code Analysis Check-in Policies for Managed Code](../code-quality/implementing-custom-code-analysis-check-in-policies-for-managed-code.md)
