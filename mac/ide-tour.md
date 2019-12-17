@@ -3,7 +3,7 @@ title: Visual Studio for Mac Tour
 description: "Visual Studio for Mac provides an integrated development environment to build .NET applications on macOS, including ASP.NET Core websites and Xamarin projects for iOS, Android, Mac, and Xamarin.Forms."
 author: heiligerdankgesang
 ms.author: dominicn
-ms.date: 09/18/2019
+ms.date: 12/13/2019
 ms.assetid: 7DC64A52-AA41-4F3A-A8A1-8A20BCD81CC7
 ms.custom: video
 ---
@@ -118,7 +118,7 @@ Visual Studio for Mac provides two useful ways to refactor your code: Context Ac
 
 ## Debugging
 
-Visual Studio for Mac has a native debugger allowing debugging support for Xamarin.iOS, Xamarin.Mac, and Xamarin.Android applications. Visual Studio for Mac uses the Mono Soft Debugger, which is implemented into the Mono runtime, allowing the IDE to debug managed code across all platforms. For additional information on debugging, visit the [Debugging](/visualstudio/mac/debugging) article.
+Visual Studio for Mac has debuggers that support .NET Core, .NET Framework, Unity, and Xamarin projects. Visual Studio for Mac uses the .NET Core debugger and the Mono Soft Debugger, allowing the IDE to debug managed code across all platforms. For additional information on debugging, visit the [Debugging](/visualstudio/mac/debugging) article.
 
 The debugger contains rich visualizers for special types such as strings, colors, URLs, as well as sizes, coordinates, and bézier curves.
 
