@@ -280,7 +280,7 @@ You can add different visual effects to the editor by creating Managed Extensibi
 
 7. The `SynchronousUpdate` performs a synchronous update on the `WordSpans` and `CurrentWord` properties, and raises the `TagsChanged` event.
 
-    ```vb
+    ```csharp
     void SynchronousUpdate(SnapshotPoint currentRequest, NormalizedSnapshotSpanCollection newSpans, SnapshotSpan? newCurrentWord)
     {
         lock (updateLock)
