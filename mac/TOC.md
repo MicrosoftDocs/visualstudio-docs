@@ -47,6 +47,7 @@
 # Debugging
 ## [Overview](debugging.md)
 ## [Data Visualizations](data-visualizations.md)
+## [Debugging NuGet packages with Source Link](source-link.md)
 
 # Compiling and Building
 ## [Overview](compiling-and-building.md)
