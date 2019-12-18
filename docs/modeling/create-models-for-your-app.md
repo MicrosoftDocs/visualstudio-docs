@@ -3,24 +3,24 @@ title: Create models for your app
 ms.date: 11/04/2016
 ms.topic: conceptual
 f1_keywords:
-  - "vs.teamarch.common.commentlink.properties"
-  - "vs.teamarch.UMLModelExplorer.dependency"
-  - "vs.teamarch.UMLModelExplorer.commentlink"
-  - "vs.teamarch.common.dependency.properties"
-  - "Microsoft.VisualStudio.Uml.Diagrams.CommentShape.IsTransparent"
-  - "vs.teamarch.common.comment.properties"
-  - "vs.teamarch.UMLModelExplorer.comment"
+- vs.teamarch.common.commentlink.properties
+- vs.teamarch.UMLModelExplorer.dependency
+- vs.teamarch.UMLModelExplorer.commentlink
+- vs.teamarch.common.dependency.properties
+- Microsoft.VisualStudio.Uml.Diagrams.CommentShape.IsTransparent
+- vs.teamarch.common.comment.properties
+- vs.teamarch.UMLModelExplorer.comment
 helpviewer_keywords:
-  - "software design"
-  - "software modeling"
-  - "diagrams - modeling, layer"
-  - "software, designing"
-  - "software, modeling"
-author: jillre
-ms.author: jillfra
+- software design
+- software modeling
+- diagrams - modeling, layer
+- software, designing
+- software, modeling
+author: JoshuaPartlow
+ms.author: joshuapa
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Create models for your app
 

@@ -1,17 +1,17 @@
 ---
-title: "Error Messages in Workflow Designer"
+title: Error Messages in Workflow Designer
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "WFDErrorMessages.UI"
-  - "System.Activities.Presentation.ErrorActivity.UI"
-  - "System.Activities.Presentation.View.ErrorView.UI"
+- WFDErrorMessages.UI
+- System.Activities.Presentation.ErrorActivity.UI
+- System.Activities.Presentation.View.ErrorView.UI
 ms.assetid: 4d8bbc2e-34fc-477f-9140-4adfd70c34a0
-author: jillre
-ms.author: jillfra
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Error Messages in Workflow Designer
 

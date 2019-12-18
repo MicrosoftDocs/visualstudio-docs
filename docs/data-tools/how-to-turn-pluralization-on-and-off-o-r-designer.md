@@ -1,13 +1,13 @@
 ---
-title: "How to: Turn pluralization on and off (O-R Designer)"
+title: 'How to: Turn pluralization on and off (O-R Designer)'
 ms.date: 11/04/2016
 ms.topic: conceptual
 ms.assetid: 9b693bc3-303a-40a9-97ee-9cef5ca3ae81
-author: jillre
-ms.author: jillfra
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "data-storage"
+- data-storage
 ---
 # How to: Turn pluralization on and off (O/R Designer)
 By default, when you drag database objects that have names ending in s or ies from **Server Explorer** or **Database Explorer** onto the [LINQ to SQL tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md), the names of the generated entity classes are changed from plural to singular. This is done to more accurately represent the fact that the instantiated entity class maps to a single record of data. For example, adding a `Customers` table to the **O/R Designer** results in an entity class named `Customer` because the class will hold data for only a single customer.

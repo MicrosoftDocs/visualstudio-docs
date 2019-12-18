@@ -3,17 +3,17 @@ title: Create and configure TableAdapters
 ms.date: 09/01/2017
 ms.topic: conceptual
 helpviewer_keywords:
-  - "table adapters, creating"
-  - "creating TableAdapters"
-  - "data [Visual Studio], creating data components"
-  - "data [Visual Studio], TableAdapters"
-  - "data [Visual Studio], creating table adapters"
+- table adapters, creating
+- creating TableAdapters
+- data [Visual Studio], creating data components
+- data [Visual Studio], TableAdapters
+- data [Visual Studio], creating table adapters
 ms.assetid: 08630d69-0d6c-4e8f-b42d-2922f45f8415
-author: jillre
-ms.author: jillfra
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "data-storage"
+- data-storage
 ---
 # Create and configure TableAdapters
 

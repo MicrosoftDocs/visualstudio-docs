@@ -2,16 +2,16 @@
 title: Refactor a field to a property
 ms.date: 01/26/2018
 ms.topic: reference
-author: jillre
-ms.author: jillfra
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 f1_keywords:
-  - "vs.csharp.refactoring.encapsulatefield"
+- vs.csharp.refactoring.encapsulatefield
 dev_langs:
-  - CSharp
-  - VB
+- CSharp
+- VB
 ms.workload:
-  - "dotnet"
+- dotnet
 ---
 # Encapsulate a field refactoring
 

@@ -1,21 +1,21 @@
 ---
-title: "WriteCodeFragment Task | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "reference"
+title: WriteCodeFragment Task | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: reference
 dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
+- VB
+- CSharp
+- C++
+- jsharp
 helpviewer_keywords:
-  - "MSBuild, WriteCodeFragment task"
-  - "WriteCodeFragment task [MSBuild]"
+- MSBuild, WriteCodeFragment task
+- WriteCodeFragment task [MSBuild]
 ms.assetid: 1d2514b4-5bef-43bb-bebe-496da8ef063c
-author: mikejo5000
-ms.author: mikejo
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # WriteCodeFragment task
 Generates a temporary code file from the specified generated code fragment. Does not delete the file.

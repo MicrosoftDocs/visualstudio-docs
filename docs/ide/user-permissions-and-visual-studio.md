@@ -3,15 +3,15 @@ title: Run as administrator
 ms.date: 06/05/2018
 ms.topic: conceptual
 helpviewer_keywords:
-  - "Visual Studio, user permissions"
-  - "user permissions"
-  - "administrative privileges"
-  - "permissions"
-author: jillre
-ms.author: jillfra
+- Visual Studio, user permissions
+- user permissions
+- administrative privileges
+- permissions
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # User permissions and Visual Studio
 

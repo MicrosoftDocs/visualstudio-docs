@@ -3,17 +3,17 @@ title: Toggle Breakpoint Command
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "debug.togglebreakpoint"
+- debug.togglebreakpoint
 helpviewer_keywords:
-  - "ToggleBreakpoint command"
-  - "Debug.ToggleBreakPoint command"
-  - "Toggle Breakpoint command"
+- ToggleBreakpoint command
+- Debug.ToggleBreakPoint command
+- Toggle Breakpoint command
 ms.assetid: d50dfadb-ce79-4d5e-9c09-1cfddd57876d
-author: jillre
-ms.author: jillfra
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Toggle Breakpoint Command
 Turns the breakpoint either on or off, depending on its current state, at the current location in the file.

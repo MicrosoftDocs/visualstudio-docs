@@ -1,14 +1,14 @@
 ---
 title: Develop apps for the Universal Windows Platform (UWP)
-ms.date: "10/24/2017"
+ms.date: 10/24/2017
 ms.technology: vs-ide-general
 ms.topic: conceptual
 ms.assetid: eac59cb6-f12e-4a77-9953-6d62b164a643
-author: jillre
-ms.author: jillfra
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "uwp"
+- uwp
 ---
 # Develop apps for the Universal Windows Platform (UWP)
 

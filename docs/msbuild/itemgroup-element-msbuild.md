@@ -1,23 +1,23 @@
 ---
-title: "ItemGroup Element (MSBuild) | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "reference"
+title: ItemGroup Element (MSBuild) | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: reference
 f1_keywords:
-  - "http://schemas.microsoft.com/developer/msbuild/2003#ItemGroup"
+- http://schemas.microsoft.com/developer/msbuild/2003#ItemGroup
 dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
+- VB
+- CSharp
+- C++
+- jsharp
 helpviewer_keywords:
-  - "ItemGroup element [MSBuild]"
-  - "<ItemGroup> element [MSBuild]"
+- ItemGroup element [MSBuild]
+- <ItemGroup> element [MSBuild]
 ms.assetid: aac894e3-a9f1-4bbc-a796-6ef07001f35b
-author: mikejo5000
-ms.author: mikejo
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # ItemGroup element (MSBuild)
 Contains a set of user-defined [Item](../msbuild/item-element-msbuild.md) elements. Every item used in a [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] project must be specified as a child of an `ItemGroup` element.

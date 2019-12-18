@@ -1,14 +1,14 @@
 ---
-title: "Install test agents and test controllers"
+title: Install test agents and test controllers
 ms.date: 04/17/2019
 ms.topic: conceptual
 helpviewer_keywords:
-  - "configure test agents, test lab"
-author: jillre
-ms.author: jillfra
+- configure test agents, test lab
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Install test agents and test controllers
 

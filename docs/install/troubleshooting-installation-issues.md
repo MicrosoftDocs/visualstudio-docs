@@ -1,18 +1,18 @@
 ---
-title: "Troubleshoot installation or upgrade issues"
-description: "Sometimes, things can go wrong. If your Visual Studio installation or upgrade fails, this page can help."
+title: Troubleshoot installation or upgrade issues
+description: Sometimes, things can go wrong. If your Visual Studio installation or upgrade fails, this page can help.
 ms.date: 09/13/2019
-ms.custom: "seodec18"
+ms.custom: seodec18
 ms.topic: troubleshooting
 helpviewer_keywords:
-  - "{{PLACEHOLDER}}"
-  - "{{PLACEHOLDER}}"
+- '{{PLACEHOLDER}}'
+- '{{PLACEHOLDER}}'
 ms.assetid: 556EDD3F-E365-43EE-B3DD-03AA4353F75B
-author: TerryGLee
-ms.author: tglee
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
 ---

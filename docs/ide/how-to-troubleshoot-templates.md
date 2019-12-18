@@ -3,9 +3,9 @@ title: Troubleshoot project template and item template loading
 ms.date: 01/02/2018
 ms.topic: troubleshooting
 helpviewer_keywords:
-  - "templates [Visual Studio], troubleshooting"
-author: jillre
-ms.author: jillfra
+- templates [Visual Studio], troubleshooting
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ---
 # How to: Troubleshoot templates

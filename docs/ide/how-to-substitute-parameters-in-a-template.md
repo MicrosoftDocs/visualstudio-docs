@@ -3,11 +3,11 @@ title: Add name parameters to project and item templates
 ms.date: 01/02/2018
 ms.topic: conceptual
 helpviewer_keywords:
-  - "template parameters"
-  - "template parameters, substituting"
-  - "Visual Studio templates, using parameters"
-author: jillre
-ms.author: jillfra
+- template parameters
+- template parameters, substituting
+- Visual Studio templates, using parameters
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ---
 # How to: Substitute parameters in a template

@@ -3,16 +3,16 @@ title: Customize build debug tasks using tasks.vs.json launch.vs.json
 ms.date: 02/21/2018
 ms.topic: conceptual
 helpviewer_keywords:
-  - NMAKE [Visual Studio]
-  - makefiles [Visual Studio]
-  - customize codebases [Visual Studio]
-  - tasks.vs.json file [Visual Studio]
-  - launch.vs.json file [Visual Studio]
-author: jillre
-ms.author: jillfra
+- NMAKE [Visual Studio]
+- makefiles [Visual Studio]
+- customize codebases [Visual Studio]
+- tasks.vs.json file [Visual Studio]
+- launch.vs.json file [Visual Studio]
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Customize build and debug tasks for "Open Folder" development
 

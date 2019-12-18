@@ -3,19 +3,19 @@ title: Image Library
 ms.date: 11/04/2016
 ms.topic: sample
 helpviewer_keywords:
-  - "animation [Visual Studio]"
-  - "graphics [Visual Studio], Image Library"
-  - "Image Library [Visual Studio]"
-  - "images [Visual Studio], VS Image Library"
-  - "Visual Studio Image Library"
-  - "icons [Visual Studio], Image Library"
-  - "bitmaps [Visual Studio], Image Library"
+- animation [Visual Studio]
+- graphics [Visual Studio], Image Library
+- Image Library [Visual Studio]
+- images [Visual Studio], VS Image Library
+- Visual Studio Image Library
+- icons [Visual Studio], Image Library
+- bitmaps [Visual Studio], Image Library
 ms.assetid: f7a2e7c8-3b9f-4f8e-a6a8-000d72e3811d
-author: jillre
-ms.author: jillfra
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # The Visual Studio image library
 

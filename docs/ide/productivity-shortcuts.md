@@ -3,11 +3,11 @@ title: Keyboard and mouse shortcuts
 description: This article contains tips for keyboard and mouse shortcuts in Visual Studio that can help you be more productive.
 ms.date: 11/02/2018
 ms.topic: reference
-author: jillre
-ms.author: jillfra
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Shortcut tips for Visual Studio
 

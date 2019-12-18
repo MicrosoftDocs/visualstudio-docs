@@ -1,12 +1,12 @@
 ---
-title: "Select a Run Setting for a Load Test"
+title: Select a Run Setting for a Load Test
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "load tests, run settings, active"
+- load tests, run settings, active
 ms.assetid: ed6ff546-acfa-4dd8-b3a2-6e7455930ca4
-author: jillre
-ms.author: jillfra
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ---
 # How to: Select the active run setting for a load test

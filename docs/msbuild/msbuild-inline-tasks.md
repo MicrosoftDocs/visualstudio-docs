@@ -1,15 +1,15 @@
 ---
-title: "MSBuild Inline Tasks | Microsoft Docs"
-ms.date: "09/21/2017"
-ms.topic: "conceptual"
+title: MSBuild Inline Tasks | Microsoft Docs
+ms.date: 09/21/2017
+ms.topic: conceptual
 helpviewer_keywords:
-  - "MSBuild, tasks"
+- MSBuild, tasks
 ms.assetid: e72e6506-4a11-4edf-ae8d-cfb5a3b9d8a0
-author: mikejo5000
-ms.author: mikejo
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # MSBuild inline tasks
 MSBuild tasks are typically created by compiling a class that implements the <xref:Microsoft.Build.Framework.ITask> interface. For more information, see [Tasks](../msbuild/msbuild-tasks.md).

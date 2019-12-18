@@ -1,14 +1,14 @@
 ---
-title: "Overview | Microsoft IntelliTest Developer Test Tool"
+title: Overview | Microsoft IntelliTest Developer Test Tool
 ms.date: 05/02/2017
 ms.topic: conceptual
 helpviewer_keywords:
-  - "IntelliTest, Visual Studio IntelliTest developer testing tool"
-ms.author: jillfra
+- IntelliTest, Visual Studio IntelliTest developer testing tool
+ms.author: mikejo
 manager: jillfra
 ms.workload:
-  - "multiple"
-author: jillre
+- multiple
+author: mikejo5000
 ---
 # Overview of Microsoft IntelliTest
 

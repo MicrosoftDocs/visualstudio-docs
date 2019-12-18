@@ -1,23 +1,23 @@
 ---
-title: "GenerateTemporaryTargetAssembly Task | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "reference"
+title: GenerateTemporaryTargetAssembly Task | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: reference
 dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
+- VB
+- CSharp
+- C++
+- jsharp
 helpviewer_keywords:
-  - "build process [WPF MSBuild], XAML page refers to a locally declared type"
-  - "GenerateTemporaryTargetAssembly task [WPF MSBuild]"
-  - "GenerateTemporaryTargetAssembly task [WPF MSBuild], parameters"
-  - "creating an assembly [WPF MSBuild], XAML page refers to a locally declared type"
+- build process [WPF MSBuild], XAML page refers to a locally declared type
+- GenerateTemporaryTargetAssembly task [WPF MSBuild]
+- GenerateTemporaryTargetAssembly task [WPF MSBuild], parameters
+- creating an assembly [WPF MSBuild], XAML page refers to a locally declared type
 ms.assetid: 92b6539c-6897-45e0-8989-0c234bbfe782
-author: mikejo5000
-ms.author: mikejo
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # GenerateTemporaryTargetAssembly task
 The <xref:Microsoft.Build.Tasks.Windows.GenerateTemporaryTargetAssembly> task generates an assembly if at least one [!INCLUDE[TLA#tla_xaml](../msbuild/includes/tlasharptla_xaml_md.md)] page in a project references a type that is declared locally in that project. The generated assembly is removed after the build process is completed, or if the build process fails.

@@ -1,18 +1,18 @@
 ---
-title: "How to: Clean a Build | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: 'How to: Clean a Build | Microsoft Docs'
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "Exec task [MSBuild]"
-  - "MSBuild, cleaning a build"
-  - "directories [.NET Framework], for output items"
-  - "output, removing items"
+- Exec task [MSBuild]
+- MSBuild, cleaning a build
+- directories [.NET Framework], for output items
+- output, removing items
 ms.assetid: 999ba473-b0c4-45c7-930a-63ea7a510509
-author: mikejo5000
-ms.author: mikejo
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # How to: Clean a build
 When you clean a build, all intermediate and output files are deleted, leaving only the project and component files. From the project and component files, new instances of the intermediate and output files can then be built. The library of common tasks that is provided with [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] includes an [Exec](../msbuild/exec-task.md) task that you can use to run system commands. For more information on the library of tasks, see [Task reference](../msbuild/msbuild-task-reference.md).

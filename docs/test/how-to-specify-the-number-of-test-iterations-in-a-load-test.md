@@ -1,13 +1,13 @@
 ---
-title: "Specify number of test iterations in load test run setting"
+title: Specify number of test iterations in load test run setting
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "load tests, properties"
-  - "load tests, run settings"
+- load tests, properties
+- load tests, run settings
 ms.assetid: 45a625db-b3e7-4d64-beda-b9a76248096d
-author: jillre
-ms.author: jillfra
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ---
 # How to: Specify the number of test iterations in a load test run setting

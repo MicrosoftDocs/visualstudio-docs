@@ -3,15 +3,15 @@ title: Code Snippet Functions
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
-  - "code snippets [Visual Studio], functions"
-  - "snippets [Visual Studio], functions"
-  - "IntelliSense code snippets, functions"
+- code snippets [Visual Studio], functions
+- snippets [Visual Studio], functions
+- IntelliSense code snippets, functions
 ms.assetid: c0a2bf21-8fa5-4457-9281-f599beb53e7d
-author: jillre
-ms.author: jillfra
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Code snippet functions
 

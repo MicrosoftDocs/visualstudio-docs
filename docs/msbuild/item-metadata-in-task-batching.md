@@ -1,18 +1,18 @@
 ---
-title: "Item Metadata in Task Batching | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Item Metadata in Task Batching | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "batching [MSBuild]"
-  - "MSBuild, batching"
-  - "task batching [MSBuild]"
-  - "MSBuild, task batching"
+- batching [MSBuild]
+- MSBuild, batching
+- task batching [MSBuild]
+- MSBuild, task batching
 ms.assetid: 31e480f8-fe4d-4633-8c54-8ec498e2306d
-author: mikejo5000
-ms.author: mikejo
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Item metadata in task batching
 [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] has the ability to divide item lists into different categories, or batches, based on item metadata, and run a task one time with each batch. It can be confusing to understand exactly what items are being passed with which batch. This topic covers the following common scenarios that involve batching.

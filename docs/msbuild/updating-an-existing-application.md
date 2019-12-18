@@ -1,12 +1,12 @@
 ---
-title: "Updating an existing application to MSBuild 15 | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-author: mikejo5000
-ms.author: mikejo
+title: Updating an existing application to MSBuild 15 | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Update an existing application for MSBuild 15
 

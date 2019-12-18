@@ -1,6 +1,6 @@
 ---
 title: Sign in to Visual Studio
-titleSuffix: ""
+titleSuffix: ''
 ms.custom: seodec18
 ms.date: 12/10/2018
 ms.topic: conceptual
@@ -9,7 +9,7 @@ author: TerryGLee
 ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Sign in to Visual Studio
 

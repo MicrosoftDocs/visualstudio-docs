@@ -3,15 +3,15 @@ title: C++ Classes in Class Designer
 ms.date: 11/04/2016
 ms.topic: conceptual
 f1_keywords:
-  - "vs.classdesigner.inheritancelinelabel"
+- vs.classdesigner.inheritancelinelabel
 helpviewer_keywords:
-  - "Class Designer [Visual Studio], classes"
+- Class Designer [Visual Studio], classes
 ms.assetid: 75e56f8c-11ef-42a3-b7ec-3d2cf25c581b
-author: jillre
-ms.author: jillfra
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "cplusplus"
+- cplusplus
 ---
 # C++ classes in Class Designer
 

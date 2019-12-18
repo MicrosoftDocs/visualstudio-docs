@@ -1,23 +1,23 @@
 ---
-title: "RemoveDir Task | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "reference"
+title: RemoveDir Task | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: reference
 f1_keywords:
-  - "http://schemas.microsoft.com/developer/msbuild/2003#RemoveDir"
+- http://schemas.microsoft.com/developer/msbuild/2003#RemoveDir
 dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
+- VB
+- CSharp
+- C++
+- jsharp
 helpviewer_keywords:
-  - "RemoveDir task [MSBuild]"
-  - "MSBuild, RemoveDir task"
+- RemoveDir task [MSBuild]
+- MSBuild, RemoveDir task
 ms.assetid: 7ab214be-26b2-4bcd-9de8-c1b2091c0b74
-author: mikejo5000
-ms.author: mikejo
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # RemoveDir task
 Removes the specified directories and all of its files and subdirectories.

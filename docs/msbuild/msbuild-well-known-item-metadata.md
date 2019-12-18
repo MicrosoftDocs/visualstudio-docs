@@ -1,21 +1,21 @@
 ---
-title: "MSBuild Well-known Item Metadata | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "reference"
+title: MSBuild Well-known Item Metadata | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: reference
 dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
+- VB
+- CSharp
+- C++
+- jsharp
 helpviewer_keywords:
-  - "MSBuild, item metadata"
-  - "MSBuild, well-known item metadata"
+- MSBuild, item metadata
+- MSBuild, well-known item metadata
 ms.assetid: b5e791b5-c68f-4978-ad8a-9247d03bb6c0
-author: mikejo5000
-ms.author: mikejo
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # MSBuild well-known item metadata
 The following table describes the metadata assigned to every item upon creation. In each example, the following item declaration was used to include the file *C:\MyProject\Source\Program.cs* in the project.

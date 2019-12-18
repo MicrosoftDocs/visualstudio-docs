@@ -3,14 +3,14 @@ title: Manage application settings (.NET)
 ms.date: 11/04/2016
 ms.topic: conceptual
 f1_keywords:
-  - "msvse_settingsdesigner.err.nameblank"
+- msvse_settingsdesigner.err.nameblank
 helpviewer_keywords:
-  - "application settings [Visual Studio]"
-author: jillre
-ms.author: jillfra
+- application settings [Visual Studio]
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Manage application settings (.NET)
 

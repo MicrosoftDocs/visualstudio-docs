@@ -1,15 +1,15 @@
 ---
-title: "MSBuild Advanced Concepts | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: MSBuild Advanced Concepts | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "MSBuild, advanced concepts"
+- MSBuild, advanced concepts
 ms.assetid: f34a558a-ebd9-49bd-8510-32a2b581a4af
-author: mikejo5000
-ms.author: mikejo
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # MSBuild advanced concepts
 The documents in this section describe how to use advanced techniques to improve builds that you run by using MSBuild.

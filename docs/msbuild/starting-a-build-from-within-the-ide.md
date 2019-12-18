@@ -1,15 +1,15 @@
 ---
-title: "Starting a Build from within the IDE | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Starting a Build from within the IDE | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "build"
+- build
 ms.assetid: 936317aa-63b7-4eb0-b9db-b260a0306196
-author: mikejo5000
-ms.author: mikejo
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Start a build from within the IDE
 Custom project systems must use <xref:Microsoft.VisualStudio.Shell.Interop.IVsBuildManagerAccessor> to start builds. This article describes the reasons for this requirement and outlines the procedure.

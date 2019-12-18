@@ -3,18 +3,18 @@ title: Error List Window
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "VS.ErrorList"
+- VS.ErrorList
 helpviewer_keywords:
-  - "Task List"
-  - "build errors"
-  - "Error List window"
-  - "errors [Visual Studio], Error List window"
+- Task List
+- build errors
+- Error List window
+- errors [Visual Studio], Error List window
 ms.assetid: b7f6d45a-733b-4ad8-bc2f-737a37509e56
-author: jillre
-ms.author: jillfra
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Error List Window
 

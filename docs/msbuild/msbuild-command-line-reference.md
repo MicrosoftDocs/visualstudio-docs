@@ -1,22 +1,22 @@
 ---
-title: "MSBuild Command-Line Reference | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "reference"
+title: MSBuild Command-Line Reference | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: reference
 dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
+- VB
+- CSharp
+- C++
+- jsharp
 helpviewer_keywords:
-  - "MSBuild, msbuild.exe"
-  - "MSBuild, command line reference"
-  - "msbuild.exe"
+- MSBuild, msbuild.exe
+- MSBuild, command line reference
+- msbuild.exe
 ms.assetid: edaa65ec-ab8a-42a1-84cb-d76d5b2f4584
-author: mikejo5000
-ms.author: mikejo
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # MSBuild command-line reference
 When you use *MSBuild.exe* to build a project or solution file, you can include several switches to specify various aspects of the process.

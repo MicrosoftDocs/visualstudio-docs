@@ -3,14 +3,14 @@ title: Project Properties Reference
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
-  - "user interface [Visual Studio], projects"
-  - "projects [Visual Studio], user interface"
+- user interface [Visual Studio], projects
+- projects [Visual Studio], user interface
 ms.assetid: eec49aec-5474-48a7-889d-709045b9a475
-author: jillre
-ms.author: jillfra
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Project Properties reference
 

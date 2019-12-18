@@ -1,14 +1,14 @@
 ---
 title: Calculate code metrics
 ms.date: 11/02/2018
-ms.topic: "conceptual"
+ms.topic: conceptual
 helpviewer_keywords:
-  - "code metrics [Visual Studio]"
-author: jillre
-ms.author: jillfra
+- code metrics [Visual Studio]
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Code metrics values
 

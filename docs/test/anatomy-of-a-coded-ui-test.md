@@ -1,14 +1,14 @@
 ---
-title: "Anatomy of a Coded UI Test"
+title: Anatomy of a Coded UI Test
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "coded UI tests"
-author: jillre
-ms.author: jillfra
+- coded UI tests
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Anatomy of a coded UI test
 
