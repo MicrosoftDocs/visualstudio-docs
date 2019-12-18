@@ -21,11 +21,11 @@ To enable this feature, open **Preferences** via **Visual Studio** > **Preferenc
 
 ## Usage
 
-Once you enable Show Import Items, the process of using the feature to import an item is similar to the normal actions within IntelliSense. As you type code, items that are valid will populate the completion list. This includes items that haven't been imported yet. The items that aren't imported will show their full namespace to the right of the item, allowing you to see which imports you are pulling in to your project.
+Once you enable **Show import items**, the process of using the feature to import an item is similar to the normal actions within IntelliSense. As you type code, items that are valid will populate the completion list. This includes items that haven't been imported yet. The items that aren't imported will show their full namespace to the right of the item, allowing you to see which imports you are pulling in to your project.
 
 ![show import items list](media/show-import-items-list.png)
 
-For example, if you have a NuGet package added to your project, but not yet imported, the namespace for the package will be listed along with packages provided by the framework. However, if the NuGet package isn't added to the project, the import will not be available or listed within your completion list.
+In the IntelliSense list, namespaces are shown next to members that are not currently referenced by a `using` statement. If you choose one of those items from the list, the member will be added to your code _and_ the `using` statement will be added to the top of the file. Members from types already referenced in the coded will not show their namespace in IntelliSense.
 
 ## See also
 
