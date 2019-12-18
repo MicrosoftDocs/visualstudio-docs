@@ -72,7 +72,7 @@ If you want to test:
 
 ## The Hello World of IntelliTest
 
-IntelliTest finds inputs relevant to the tested program, which means you can use it to generate the famous **Hello World!** string. this assumes that you have created a C# MSTest-based test project and added a reference to **Microsoft.Pex.Framework**. If you are using a different test framework, create a C# class library and refer to the test framework documentation on how to set up the project.
+IntelliTest finds inputs relevant to the tested program, which means you can use it to generate the famous **Hello World!** string. This assumes that you have created a C# MSTest-based test project and added a reference to **Microsoft.Pex.Framework**. If you are using a different test framework, create a C# class library and refer to the test framework documentation on how to set up the project.
 
 The following example creates two constraints on the parameter named **value** so that IntelliTest will generate the required string:
 
@@ -103,6 +103,9 @@ Once compiled and executed, IntelliTest generates a set of tests such as the fol
 6. "Hello\0\0"
 7. "Hello\0World!"
 8. "Hello World!"
+
+> [!NOTE]
+> For build issues, try replacing Microsoft.VisualStudio.TestPlatform.TestFramework and Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions references with a reference to  Microsoft.VisualStudio.QualityTools.UnitTestFramework.
 
 Read [Generate unit tests with IntelliTest](../../test/generate-unit-tests-for-your-code-with-intellitest.md) to understand where the generated tests are saved. The generated test code should include a test such as the following code:
 
