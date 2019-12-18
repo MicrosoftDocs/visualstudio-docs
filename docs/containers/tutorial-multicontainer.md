@@ -58,7 +58,7 @@ Add a project to the same solution and call it *MyWebAPI*. Select **API** as the
    ![Screenshot of creating the Web API project](./media/tutorial-multicontainer/vs-2019/web-api-project.png)
 ::: moniker-end
 
-## Add code to call the Web API (ASP.NET 2.2)
+## Add code to call the Web API
 
 1. In the `WebFrontEnd` project, open the *Index.cshtml.cs* file, and replace the `OnGet` method with the following code.
 
@@ -108,7 +108,11 @@ Add a project to the same solution and call it *MyWebAPI*. Select **API** as the
         }
       ```
 
-    With .NET Core 3.1, you don't need this, because you can use the WeatherForecast API that is already there.
+    With .NET Core 3.1, you don't need this, because you can use the WeatherForecast API that is already there. However, you need to comment out the call to `UseHttpsRedirections` in the `Configure` method in *Startup.cs*, because this code uses HTTP not HTTPS to call the Web API.
+
+    ```csharp
+                //app.UseHttpsRedirection();
+    ```
 
 1. In the `WebFrontEnd` project, choose **Add > Container Orchestrator Support**. The **Docker Support Options** dialog appears.
 
