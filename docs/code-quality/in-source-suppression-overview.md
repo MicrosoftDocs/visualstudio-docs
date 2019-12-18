@@ -72,13 +72,13 @@ The properties of the attribute include:
 
 - **Scope** - The target on which the warning is being suppressed. If the target is not specified, it is set to the target of the attribute. Supported [scopes](xref:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute.Scope) include the following:
 
-  - `module`
+  - `module` - This scope suppresses warnings against an assembly. It is a global suppression that applies to the entire project.
 
-  - `resource`
+  - `resource` - ([legacy FxCop](../code-quality/static-code-analysis-for-managed-code-overview.md) only) This scope suppresses warnings in diagnostic info written to resource files that are part of the module (assembly). This scope is not read/respected in C#/VB compilers for Roslyn analyzer diagnostics, which only analyzes source files.
 
-  - `type`
+  - `type` - This scope suppresses warnings against a type.
 
-  - `member`
+  - `member` - This scope suppresses warnings against a member.
 
   - `namespace` - This scope suppresses warnings against the namespace itself. It does not suppress warnings against types within the namespace.
 
