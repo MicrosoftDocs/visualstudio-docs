@@ -66,7 +66,7 @@ If your subscription has expired and you no longer have access rights to Visual 
 
 Sometimes, things go wrong. If you experience a problem, here are some support options:
 
-* Report product issues by using the [Report a Problem](../../ide/how-to-report-a-problem-with-visual-studio.md) tool.
+* Report product issues by using the [Report a Problem](how-to-report-a-problem-with-visual-studio.md) tool.
 * Find answers to questions about subscriptions, accounts, and billing in the [Subscriptions Support FAQ](https://visualstudio.microsoft.com/subscriptions/support/).
 
 ## See also
