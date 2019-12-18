@@ -1,7 +1,7 @@
 ---
 title: "Extend a trial version or update a license"
 description: "Learn how to extend a free trial of Visual Studio, use an online subscription or product key to unlock Visual Studio, and update a stale or expired license."
-ms.date: 12/17/2019
+ms.date: 12/18/2019
 ms.topic: conceptual
 ms.assetid: ffb580a1-8b5d-48f5-b811-87f8036f50ea
 author: TerryGLee
@@ -14,7 +14,7 @@ ms.technology: vs-ide-general
 ---
 # Extend a trial version or update a license
 
-You can evaluate a free trial of [Visual Studio Professional or Visual Studio Enterprise](https://visualstudio.microsoft.com/vs/compare/) for 30 days. And if you sign in, you can extend the trial period to 90 days. (Visual Studio Community is free without a trial period. However, you must [sign in](../ide/signing-in-to-visual-studio.md) to maintain its free license.)
+You can evaluate a free trial of [Visual Studio Professional or Visual Studio Enterprise](https://visualstudio.microsoft.com/vs/compare/) for 30 days. And if you sign in, you can extend the trial period to 90 days. (Visual Studio Community is free without a trial period. However, you must [sign in](signing-in-to-visual-studio.md) periodically to keep your [license up to date](#update-a-stale-license).)
 
 To continue using Visual Studio after a trial period ends, unlock it with an [online subscription](#use-an-online-subscription) or a [product key](#enter-a-product-key).
 
