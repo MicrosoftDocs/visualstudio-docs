@@ -28,8 +28,6 @@ ms.workload:
 
  Both Windows Forms and host controls use the Windows Forms data binding model, which supports both *simple data binding* and *complex data binding* to data sources such as datasets and data tables. For complete information about the data binding model in Windows Forms, see [Data bind and Windows Forms](/dotnet/framework/winforms/data-binding-and-windows-forms).
 
- ![link to video](../vsto/media/playvideo.gif "link to video") For a related video demonstration, see [How do I: Consume database data in Excel?](http://go.microsoft.com/fwlink/?LinkID=130287).
-
 ## Simple data binding
  Simple data binding exists when a control property is bound to a single data element, such as a value in a data table. For example, the <xref:Microsoft.Office.Tools.Excel.NamedRange> control has a <xref:Microsoft.Office.Tools.Excel.NamedRange.Value2%2A> property that can be bound to a field in a dataset. When the field in the dataset changes, the value in the named range also changes. All host controls, except for the <xref:Microsoft.Office.Tools.Word.XMLNodes> control, support simple data binding. The <xref:Microsoft.Office.Tools.Word.XMLNodes> control is a collection, and therefore it does not support data binding.
 
@@ -78,7 +76,7 @@ ms.workload:
 - [How to: Scroll through database records in a worksheet](../vsto/how-to-scroll-through-database-records-in-a-worksheet.md)
 
 ### Bind data in VSTO Add-in projects
- In VSTO Add-in projects, you can add controls only at runtime. The following topics show examples of binding data at runtime:
+ In VSTO Add-in projects, you can add controls only at run time. The following topics show examples of binding data at run time:
 
 - [Walkthrough: Simple data binding in VSTO Add-in project](../vsto/walkthrough-simple-data-binding-in-vsto-add-in-project.md)
 

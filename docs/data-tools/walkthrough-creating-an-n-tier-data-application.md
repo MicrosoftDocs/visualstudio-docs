@@ -9,8 +9,8 @@ helpviewer_keywords:
   - "n-tier applications, creating"
   - "n-tier applications, walkthroughs"
 ms.assetid: d15e4d31-2839-48d9-9e0e-2e73404d82a2
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "data-storage"
@@ -42,7 +42,7 @@ During this walkthrough, you perform the following steps:
 
 - Write code to populate the data tables.
 
-![link to video](../data-tools/media/playvideo.gif) For a video version of this topic, see [Video How to: Creating an n-tier data application](http://go.microsoft.com/fwlink/?LinkId=115188).
+![link to video](../data-tools/media/playvideo.gif) For a video version of this topic, see [Video How to: Creating an n-tier data application](https://docs.microsoft.com/previous-versions/visualstudio/visual-studio-2008/cc178916(v=vs.90)).
 
 ## Prerequisites
 This walkthrough uses SQL Server Express LocalDB and the Northwind sample database.

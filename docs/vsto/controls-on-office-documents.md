@@ -22,7 +22,7 @@ ms.workload:
 
  [!INCLUDE[appliesto_controls](../vsto/includes/appliesto-controls-md.md)]
 
- When you develop VSTO Add-in projects for Excel or Word, you can programmatically add these controls to any open document or workbook at runtime.
+ When you develop VSTO Add-in projects for Excel or Word, you can programmatically add these controls to any open document or workbook at run time.
 
  When you develop document-level projects for Excel or Word, you can programmatically add these controls at run time, or you can use the Visual Studio designer to add these controls to the document or workbook in your project at design time.
 
@@ -39,7 +39,7 @@ ms.workload:
 
  Provides information about using Windows Forms controls on Excel and Word documents and how they differ from controls on a Windows Form.
 
-- [Add controls to Office documents at runtime](../vsto/adding-controls-to-office-documents-at-run-time.md)
+- [Add controls to Office documents at run time](../vsto/adding-controls-to-office-documents-at-run-time.md)
 
  Describes how to add Windows Forms controls and host controls to Word and Excel documents, and describes limitations about how these controls persist in the document.
 

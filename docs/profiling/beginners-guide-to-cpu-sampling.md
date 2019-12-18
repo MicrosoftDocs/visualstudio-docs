@@ -13,6 +13,7 @@ ms.assetid: 85161cc4-18ee-49b3-9487-33680e687597
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jillfra
+monikerRange: 'vs-2017'
 ms.workload:
   - "multiple"
 ---
@@ -121,5 +122,5 @@ You can use Visual Studio profiling tools to analyze performance issues in your 
 - [Performance Explorer](../profiling/performance-explorer.md)
 - [Getting started](../profiling/getting-started-with-performance-tools.md)
 - [Overviews](../profiling/overviews-performance-tools.md)
-- [Profiling in Visual Studio](../profiling/index.md)
+- [Profiling in Visual Studio](../profiling/index.yml)
 - [First look at profiling tools](../profiling/profiling-feature-tour.md)

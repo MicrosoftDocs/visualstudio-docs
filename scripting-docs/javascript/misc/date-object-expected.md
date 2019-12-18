@@ -28,7 +28,7 @@ o.f();
   
 - Only invoke the **Date.prototype.toString** or **Date.prototype.valueOf** methods on objects of type `Date`.  
   
-## See Also  
+## See also  
  [Date Object](../../javascript/reference/date-object-javascript.md)   
  [getDate Method (Date)](../../javascript/reference/getdate-method-date-javascript.md)   
  [Intrinsic Objects](../../javascript/intrinsic-objects-javascript.md)

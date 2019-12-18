@@ -30,5 +30,5 @@ HRESULT GetRestrictedErrorReference([out] BSTR * referenceString);
  `referenceString`  
  [out] The reference error string.  
   
-## See Also  
+## See also  
  [IActiveScriptWinRTErrorDebug Interface](../../winscript/reference/iactivescriptwinrterrordebug-interface.md)

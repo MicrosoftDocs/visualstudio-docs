@@ -41,6 +41,6 @@ The C run-time library contains special Debug versions of the heap allocation fu
 
   When _DEBUG is not defined, calls to `malloc` are not disturbed, calls to `_malloc_dbg` are resolved to `malloc`, the definition of [_CRTDBG_MAP_ALLOC](/cpp/c-runtime-library/crtdbg-map-alloc) is ignored, and source file information pertaining to the allocation request is not provided. Because `malloc` does not have a block type parameter, requests for `_CLIENT_BLOCK` types are treated as standard allocations.
 
-## See Also
+## See also
 
 - [CRT Debugging Techniques](../debugger/crt-debugging-techniques.md)

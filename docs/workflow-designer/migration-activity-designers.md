@@ -3,8 +3,8 @@ title: "Workflow Designer - Migration Activity Designers"
 ms.date: 11/04/2016
 ms.topic: reference
 ms.assetid: 7598e869-1da1-4721-b4bf-6cbe402be1a2
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"
@@ -23,7 +23,7 @@ For other types of activity designers, see the following topics:
 
 - [Flowchart](../workflow-designer/flowchart-activity-designers.md)
 
-- [Using the Activity Designers](../workflow-designer/using-the-activity-designers.md)
+- [Using the Activity Designers](control-flow-activity-designers.md)
 
 - [Messaging](../workflow-designer/messaging-activity-designers.md)
 

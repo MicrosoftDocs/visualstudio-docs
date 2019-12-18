@@ -6,14 +6,14 @@ ms.technology: vs-ide-code-analysis
 ms.topic: conceptual
 ms.assetid: 2d898bc4-fba5-472e-8f09-b0c6b511c5a3
 caps.latest.revision: 5
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: "wpickett"
 ---
 # Native Minimum Rules rule set
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The Microsoft Native Minimum Rules focus on the most critical problems in your native code, including potential security holes and  application crashes. You should include this rule set in any custom rule set you create for your native projects.  
+The Microsoft Native Minimum Rules focus on the most critical problems in your native code, including potential security holes and  application crashes. You should include this rule set in any custom rule set you create for your native projects.
 
 |                                      Rule                                      |                                                  Description                                                  |
 |--------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|

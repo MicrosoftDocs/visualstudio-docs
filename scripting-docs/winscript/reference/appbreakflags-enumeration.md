@@ -44,6 +44,6 @@ enum enum_APPBREAKFLAGS{APPBREAKFLAG_DEBUGGER_BLOCK= 0x00000001,APPBREAKFLAG_DEB
 ## Remarks  
  Some flags specify that language engines should break at the next opportunity, while other flags specify the stepping mode of the debugger.  
   
-## See Also  
+## See also  
  [Active Script Debugger Constants, Enumerations, and Structures](../../winscript/reference/active-script-debugger-constants-enumerations-and-structures.md)   
  [BREAKREASON Enumeration](../../winscript/reference/breakreason-enumeration.md)

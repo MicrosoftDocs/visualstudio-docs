@@ -9,8 +9,8 @@ helpviewer_keywords:
   - "text templates, transforming by using msbuild"
 ms.assetid: 4da43429-2a11-4d7e-b2e0-9e4af7033b5a
 caps.latest.revision: 30
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # Code Generation in a Build Process
@@ -278,5 +278,5 @@ If you update an included file, or another file read by the template, Visual Stu
 There is good guidance in the T4 MSbuild template, $(VSToolsPath)\TextTemplating\Microsoft.TextTemplating.targets
 
 - [Writing a T4 Text Template](../modeling/writing-a-t4-text-template.md)
-- [Visual Studio Visualization and Modeling SDK](http://go.microsoft.com/fwlink/?LinkID=185579)
+- [Visual Studio Visualization and Modeling SDK](https://go.microsoft.com/fwlink/?LinkID=185579)
 - [Oleg Sych: Understanding T4:MSBuild Integration](https://github.com/olegsych/T4Toolbox)

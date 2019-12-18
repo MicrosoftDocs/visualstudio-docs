@@ -1,5 +1,5 @@
 ---
-title: "Extend Word docs & Excel workbooks in VSTO Add-ins at runtime"
+title: "Extend Word docs & Excel workbooks in VSTO Add-ins at run time"
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -19,7 +19,7 @@ manager: jillfra
 ms.workload:
   - "office"
 ---
-# Extend Word documents and Excel workbooks in VSTO add-ins at runtime
+# Extend Word documents and Excel workbooks in VSTO add-ins at run time
   You can use a VSTO Add-in to customize Word documents and Excel workbooks in the following ways:
 
 - Add managed controls to any open document or worksheet.
@@ -28,7 +28,7 @@ ms.workload:
 
 - Access application-level events that are exposed by Word and Excel for specific documents, workbooks, and worksheets.
 
-  To use this functionality, you generate an object at runtime that extends the document or workbook.
+  To use this functionality, you generate an object at run time that extends the document or workbook.
 
   **Applies to:** The information in this article applies to VSTO Add-in projects for the following applications: Excel and Word. For more information, see [Features available by Office application and project type](../vsto/features-available-by-office-application-and-project-type.md).
 
@@ -78,7 +78,7 @@ ms.workload:
      [!code-csharp[Trin_ExcelAddInDynamicControls#3](../vsto/codesnippet/CSharp/trin_exceladdindynamiccontrols4/ThisAddIn.cs#3)]
 
 ### <a name="AddControls"></a> Add managed controls to documents and worksheets
- After you generate a <xref:Microsoft.Office.Tools.Word.Document> or <xref:Microsoft.Office.Tools.Excel.Worksheet>, you can add controls to the document or worksheet that these extended objects represent. To add controls, use the `Controls` property of the <xref:Microsoft.Office.Tools.Word.Document> or <xref:Microsoft.Office.Tools.Excel.Worksheet>. For more information, see [Add controls to Office documents at runtime](../vsto/adding-controls-to-office-documents-at-run-time.md).
+ After you generate a <xref:Microsoft.Office.Tools.Word.Document> or <xref:Microsoft.Office.Tools.Excel.Worksheet>, you can add controls to the document or worksheet that these extended objects represent. To add controls, use the `Controls` property of the <xref:Microsoft.Office.Tools.Word.Document> or <xref:Microsoft.Office.Tools.Excel.Worksheet>. For more information, see [Add controls to Office documents at run time](../vsto/adding-controls-to-office-documents-at-run-time.md).
 
  You can add Windows Forms controls or *host controls*. A host control is a control provided by the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] that wraps a corresponding control in the Word or Excel primary interop assembly. A host control exposes all of the behavior of the underlying native Office object. It also raises events and can be bound to data by using the Windows Forms data binding model. For more information, see [Host items and host controls overview](../vsto/host-items-and-host-controls-overview.md).
 
@@ -116,6 +116,6 @@ ms.workload:
 
 ## See also
 - [Program VSTO Add-ins](../vsto/programming-vsto-add-ins.md)
-- [Add controls to Office documents at runtime](../vsto/adding-controls-to-office-documents-at-run-time.md)
+- [Add controls to Office documents at run time](../vsto/adding-controls-to-office-documents-at-run-time.md)
 - [Host items and host controls overview](../vsto/host-items-and-host-controls-overview.md)
 - [Office development samples and walkthroughs](../vsto/office-development-samples-and-walkthroughs.md)

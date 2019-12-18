@@ -12,8 +12,8 @@ helpviewer_keywords:
   - "MarkWindowsFormsEntryPointsWithStaThread"
 ms.assetid: a3c95130-8e7f-4419-9fcd-b67d077e8efb
 caps.latest.revision: 18
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: "wpickett"
 ---
 # CA2232: Mark Windows Forms entry points with STAThread

@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "modeling diagrams, saving"
   - "diagrams - modeling, saving modeling diagrams"
   - "UML diagrams, saving"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

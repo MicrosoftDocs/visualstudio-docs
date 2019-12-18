@@ -8,7 +8,7 @@ helpviewer_keywords:
 ms.assetid: 09e1b9f7-5916-4ed6-a001-5c2d7e710682
 author: mikeblome
 ms.author: mblome
-manager: wpickett
+manager: markl
 ms.workload:
   - "multiple"
 ---
@@ -16,7 +16,7 @@ ms.workload:
 
 This following procedures show you how to create the sample for [Walkthrough: Analyze C/C++ code for defects](../code-quality/walkthrough-analyzing-c-cpp-code-for-defects.md). The procedures create:
 
-- A Visual Studio solution named CppDemo.
+- A [!INCLUDEvsprvs] solution named CppDemo.
 
 - A static library project named CodeDefects.
 
@@ -26,19 +26,17 @@ The procedures also provide the code for the header and *.cpp* files for the sta
 
 ## Create the CppDemo solution and the CodeDefects project
 
-1. Click the **File** menu, point to **New**, and then click **New Project**.
+1. Open [!INCLUDEvsprvs] and select **Create a new project**
 
-2. In the **Project types** tree list, if Visual C++ is not your default language in VS expand **Other Languages**.
+2. Change language filter to **C++**
 
-3. Expand **Visual C++**, and then click **General**.
+3. Select **Empty Project** and click **Next**
 
-4. In **Templates**, click **Empty Project**.
+4. In the **Project Name** text box, type **CodeDefects**
 
-5. In the **Name** text box, type **CodeDefects**.
+5. In the **Solution name** text box, type **CppDemo**
 
-6. Select the **Create directory for solution** check box.
-
-7. In the **Solution Name** text box, type **CppDemo**.
+6. Click **Create**
 
 ## Configure the CodeDefects project as a static library
 
@@ -46,9 +44,9 @@ The procedures also provide the code for the header and *.cpp* files for the sta
 
 2. Expand **Configuration Properties** and then click **General**.
 
-3. In the **General** list, select the text in the column next to **Target Extension**, and then type **.lib**.
+3. In the **General** list, change **Configuration Type**, to **Static library (.lib)**.
 
-4. In **Project Defaults**, click the column next to **Configuration Type**, and then click **Static Lib (.lib)**.
+4. In the **Advanced** list, change **Target File Extension** to **.lib**
 
 ## Add the header and source file to the CodeDefects project
 
@@ -58,27 +56,23 @@ The procedures also provide the code for the header and *.cpp* files for the sta
 
 3. In the **Name** box, type **Bug.h** and then click **Add**.
 
-4. Copy the following code and paste it into the *Bug.h* file in the Visual Studio editor.
+4. Copy the following code and paste it into the *Bug.h* file in the editor.
 
-    ```cpp
-    #include <windows.h>
+```cpp
+#pragma once
 
-    //
-    //These 3 functions are consumed by the sample
-    //  but are not defined. This project cannot be linked!
-    //
+#include <windows.h>
 
-    bool CheckDomain( LPCSTR );
-    HRESULT ReadUserAccount();
+// These functions are consumed by the sample
+// but are not defined. This project cannot be linked!
+bool CheckDomain(LPCTSTR);
+HRESULT ReadUserAccount();
 
-    //
-    //These constants define the common sizes of the
-    //  user account information throughout the program
-    //
-
-    const int USER_ACCOUNT_LEN = 256;
-    const int ACCOUNT_DOMAIN_LEN = 128;
-    ```
+// These constants define the common sizes of the
+// user account information throughout the program
+const int USER_ACCOUNT_LEN = 256;
+const int ACCOUNT_DOMAIN_LEN = 128;
+```
 
 5. In Solution Explorer, right-click **Source Files**, point to **New**, and then click **New Item**.
 
@@ -86,65 +80,63 @@ The procedures also provide the code for the header and *.cpp* files for the sta
 
 7. In the **Name** box, type **Bug.cpp** and then click **Add**.
 
-8. Copy the following code and paste it into the *Bug.cpp* file in the Visual Studio editor.
+8. Copy the following code and paste it into the *Bug.cpp* file in the editor.
 
-    ```cpp
-    #include <stdlib.h>
-    #include "Bug.h"
+```cpp
+#include "Bug.h"
 
-    // the user account
-    TCHAR g_userAccount[USER_ACCOUNT_LEN] = "";
-    int len = 0;
+// the user account
+TCHAR g_userAccount[USER_ACCOUNT_LEN] = {};
+int len = 0;
 
-    bool ProcessDomain()
+bool ProcessDomain()
+{
+    TCHAR* domain = new TCHAR[ACCOUNT_DOMAIN_LEN];
+    // ReadUserAccount gets a 'domain\user' input from
+    //the user into the global 'g_userAccount'
+    if (ReadUserAccount())
     {
-        TCHAR* domain = new TCHAR[ACCOUNT_DOMAIN_LEN];
-        // ReadUserAccount gets a 'domain\user' input from
-        //the user into the global 'g_userAccount'
-        if (ReadUserAccount() )
+        // Copies part of the string prior to the '\'
+        // character onto the 'domain' buffer
+        for (len = 0; (len < ACCOUNT_DOMAIN_LEN) && (g_userAccount[len] != L'\0'); len++)
         {
-
-            // Copies part of the string prior to the '\'
-            // character onto the 'domain' buffer
-            for( len = 0 ; (len < ACCOUNT_DOMAIN_LEN) && (g_userAccount[len] != '\0') ; len++  )
+            if (g_userAccount[len] == '\\')
             {
-                if ( g_userAccount[len] == '\\' )
-                {
-                    // Stops copying on the domain and user separator ('\')
-                    break;
-                }
-                domain[len] = g_userAccount[len];
+                // Stops copying on the domain and user separator ('\')
+                break;
             }
-            if((len= ACCOUNT_DOMAIN_LEN) || (g_userAccount[len] != '\\'))
-            {
-                // '\' was not found. Invalid domain\user string.
-                delete [] domain;
-                return false;
-            }
-            else
-            {
-                domain[len]='\0';
-            }
-            // Process domain string
-            bool result = CheckDomain( domain );
-
-            delete[] domain;
-            return result;
+            domain[len] = g_userAccount[len];
         }
-        return false;
-    }
-
-    int path_dependent(int n)
-    {
-        int i;
-        int j;
-        if (n == 0)
-            i = 1;
+        if ((len = ACCOUNT_DOMAIN_LEN) || (g_userAccount[len] != '\\'))
+        {
+            // '\' was not found. Invalid domain\user string.
+            delete[] domain;
+            return false;
+        }
         else
-            j = 1;
-        return i+j;
+        {
+            domain[len] = '\0';
+        }
+        // Process domain string
+        bool result = CheckDomain(domain);
+
+        delete[] domain;
+        return result;
     }
-    ```
+    return false;
+}
+
+int path_dependent(int n)
+{
+    int i;
+    int j;
+    if (n == 0)
+        i = 1;
+    else
+        j = 1;
+    return i + j;
+}
+```
 
 9. Click the **File** menu, and then click **Save All**.
 
@@ -152,17 +144,18 @@ The procedures also provide the code for the header and *.cpp* files for the sta
 
 1. In Solution Explorer, click **CppDemo**, point to **Add**, and then click **New Project**.
 
-2. In the **Add New Project** dialog box, expand Visual C++, click **General**, and then click **Empty Project**.
+2. In the **Add a new project** dialog box, Change language filter to **C++** and select **Empty Project** then click **Next**.
 
-3. In the **Name** text box, type **Annotations**, and then click **Add**.
+3. In the **Project name** text box, type **Annotations**, and then click **Create**.
 
 4. In Solution Explorer, right-click **Annotations** and then click **Properties**.
 
 5. Expand **Configuration Properties** and then click **General**.
 
-6. In the **General** list, select the text in the column next to **Target Extension**, and then type **.lib**.
+6. In the **General** list, change **Configuration Type**, to and then click **Static library (.lib)**.
 
-7. In **Project Defaults**, click the column next to **Configuration Type**, and then click **Static Lib (.lib)**.
+7. In the **Advanced** list, select the text in the column next to **Target File extension**, and then type **.lib**.
+
 
 ## Add the header file and source file to the Annotations project
 
@@ -172,22 +165,22 @@ The procedures also provide the code for the header and *.cpp* files for the sta
 
 3. In the **Name** box, type **annotations.h** and then click **Add**.
 
-4. Copy the following code and paste it into the *annotations.h* file in the Visual Studio editor.
+4. Copy the following code and paste it into the *annotations.h* file in the editor.
 
-    ```cpp
-    #include <CodeAnalysis/SourceAnnotations.h>
+```cpp
+#pragma once
+#include <sal.h>
 
-    struct LinkedList
-    {
-        struct LinkedList* next;
-        int data;
-    };
+struct LinkedList
+{
+    struct LinkedList* next;
+    int data;
+};
 
-    typedef struct LinkedList LinkedList;
+typedef struct LinkedList LinkedList;
 
-    [returnvalue:SA_Post( Null=SA_Maybe )] LinkedList* AllocateNode();
-
-    ```
+_Ret_maybenull_ LinkedList* AllocateNode();
+```
 
 5. In Solution Explorer, right-click **Source Files**, point to **New**, and then click **New Item**.
 
@@ -195,33 +188,30 @@ The procedures also provide the code for the header and *.cpp* files for the sta
 
 7. In the **Name** box, type **annotations.cpp** and then click **Add**.
 
-8. Copy the following code and paste it into the *annotations.cpp* file in the Visual Studio editor.
+8. Copy the following code and paste it into the *annotations.cpp* file in the editor.
 
-    ```cpp
-    #include <CodeAnalysis/SourceAnnotations.h>
-    #include <windows.h>
-    #include <stdlib.h>
-    #include "annotations.h"
+```cpp
+#include "annotations.h"
 
-    LinkedList* AddTail( LinkedList *node, int value )
+LinkedList* AddTail(LinkedList* node, int value)
+{
+    // finds the last node
+    while (node->next != nullptr)
     {
-        LinkedList *newNode = NULL;
-
-        // finds the last node
-        while ( node->next != NULL )
-        {
-            node = node->next;
-        }
-
-        // appends the new node
-        newNode = AllocateNode();
-        newNode->data = value;
-        newNode->next = 0;
-        node->next = newNode;
-
-        return newNode;
+        node = node->next;
     }
 
-    ```
+    // appends the new node
+    LinkedList* newNode = AllocateNode();
+    newNode->data = value;
+    newNode->next = 0;
+    node->next = newNode;
+
+    return newNode;
+}
+```
 
 9. Click the **File** menu, and then click **Save All**.
+
+
+The solution is now complete and should build without errors.

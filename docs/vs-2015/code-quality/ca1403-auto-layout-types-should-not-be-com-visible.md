@@ -12,8 +12,8 @@ helpviewer_keywords:
   - "AutoLayoutTypesShouldNotBeComVisible"
 ms.assetid: a7007714-f9b4-4730-94e0-67d3dc68991f
 caps.latest.revision: 19
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: "wpickett"
 ---
 # CA1403: Auto layout types should not be COM visible

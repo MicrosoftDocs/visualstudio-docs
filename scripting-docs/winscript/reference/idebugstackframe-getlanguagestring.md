@@ -47,5 +47,5 @@ HRESULT GetLanguageString(
 ## Remarks  
  Typically, if `fLong` is `FALSE`, this method provides only the name of the language associated with the stack frame. When `fLong` is `TRUE`, this method may provide a full product description.  
   
-## See Also  
+## See also  
  [IDebugStackFrame Interface](../../winscript/reference/idebugstackframe-interface.md)

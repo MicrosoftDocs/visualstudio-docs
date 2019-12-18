@@ -21,7 +21,7 @@ f1_keywords:
 ms.assetid: b8278a4a-c86e-4845-aa2a-70da21a1dd52
 author: mikeblome
 ms.author: mblome
-manager: wpickett
+manager: markl
 ms.workload:
   - "multiple"
 ---
@@ -75,11 +75,9 @@ You can annotate struct and class members by using annotations that act like inv
 
 ```cpp
 #include <sal.h>
-// For FIELD_OFFSET macro
-#include <windows.h>
 
 // This _Struct_size_bytes_ is equivalent to what below _Field_size_ means.
-_Struct_size_bytes_(FIELD_OFFSET(MyBuffer, buffer) + bufferSize * sizeof(int))
+_Struct_size_bytes_(__builtin_offsetof(MyBuffer, buffer) + bufferSize * sizeof(int))
 struct MyBuffer
 {
     static int MaxBufferSize;
@@ -93,8 +91,9 @@ struct MyBuffer
 
     _Field_range_(1, MaxBufferSize)
     int bufferSize;
+    
     _Field_size_(bufferSize)        // Prefered way - easier to read and maintain.
-    int buffer[0];
+    int buffer[]; // Using C99 Flexible array member
 };
 ```
 
@@ -104,7 +103,7 @@ Notes for this example:
 - `_Field_range_` for `bufferSize` specifies that the value of `bufferSize` should be within 1 and `MaxBufferSize` (both inclusive).
 - The end results of the `_Struct_size_bytes_` and `_Field_size_` annotations are equivalent. For structures or classes that have a similar layout, `_Field_size_` is easier to read and maintain, because it has fewer references and calculations than the equivalent `_Struct_size_bytes_` annotation. `_Field_size_` doesn’t require conversion to the byte size. If byte size is the only option, for example, for a void pointer field, `_Field_size_bytes_` can be used. If both `_Struct_size_bytes_` and `_Field_size_` exist, both will be available to tools. It is up to the tool what to do if the two annotations disagree.
 
-## See Also
+## See also
 
 - [Using SAL Annotations to Reduce C/C++ Code Defects](../code-quality/using-sal-annotations-to-reduce-c-cpp-code-defects.md)
 - [Understanding SAL](../code-quality/understanding-sal.md)

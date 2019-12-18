@@ -55,6 +55,6 @@ HRESULT SynchronousCallIntoThread(
 ## Remarks  
  This method provides a mechanism for the caller to run code in the debugger thread. Language engines and hosts typically use this method to implement free-threaded objects on top of their single threaded implementations.  
   
-## See Also  
+## See also  
  [IDebugApplicationThread Interface](../../winscript/reference/idebugapplicationthread-interface.md)   
  [IDebugThreadCall Interface](../../winscript/reference/idebugthreadcall-interface.md)

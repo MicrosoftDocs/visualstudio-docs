@@ -2,8 +2,8 @@
 title: Code generation features
 ms.date: 01/11/2018
 ms.topic: conceptual
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "dotnet"

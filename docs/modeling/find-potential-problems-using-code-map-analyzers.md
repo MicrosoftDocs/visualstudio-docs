@@ -8,8 +8,8 @@ helpviewer_keywords:
   - "code analysis, dependency graphs"
   - "dependency graphs, analyzing code"
   - "graph documents, analyzing"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

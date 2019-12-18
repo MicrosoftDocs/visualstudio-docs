@@ -6,6 +6,7 @@ ms.assetid: 6c737177-2dfb-4150-963e-a49ac9aaa591
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jillfra
+monikerRange: 'vs-2017'
 ms.workload:
   - "multiple"
 ---
@@ -17,7 +18,7 @@ The WaitStart option causes the *VSPerfCmd.exe* Start sub-command to return only
 ## Syntax
 
 ```cmd
-VSPerfCmd.exe /Start:Method /Output:FileName[Options] /StartWait[:Seconds]
+VSPerfCmd.exe /Start:Method /Output:FileName[Options] /WaitStart[:Seconds]
 ```
 
 #### Parameters

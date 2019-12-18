@@ -52,8 +52,7 @@ With the Action Pack, the partner earns **3 Visual Studio Professional (MPN) sub
 
 Visual Studio Professional (MPN) subscribers can also download and use software for their development, including the SQL Server Developer Edition.
 
-The Visual Studio Professional (MPN) subscription does not include Azure DevOps Services benefits, monthly Azure credits, technical support, training, or other subscriber benefits that are available
-with Visual Studio subscriptions that are offered commercially.
+The Visual Studio Professional (MPN) subscription does not include Azure DevOps Services benefits, Azure DevTest individual credit, technical support, training, or other subscriber benefits that are available with Visual Studio subscriptions that are offered commercially.
 
 ## Internal use-only restriction
 
@@ -69,7 +68,7 @@ With Visual Studio subscriptions offered via MPN, the licensed user must sign in
 
 - [MPN Program Administrator Guide](https://assets.microsoft.com/en-us/Program-Administrator-Guide-to-Software-and-Online-Services-Benefits_1.pdf) - includes instructions on how to assign Visual Studio subscriptions to MPN employees.
 - [Assign Visual Studio subscriptions to MPN employees](manage-mpn-subscriptions.md)
-- [Use terms](http://www.microsoft.com/useterms/) - Visual Studio subscriptions offered via MPN are subject to the Visual Studio subscriptions not for resale (NFR) EULA.
+- [Use terms](https://www.microsoft.com/useterms/) - Visual Studio subscriptions offered via MPN are subject to the Visual Studio subscriptions not for resale (NFR) EULA.
 
 ## Next steps
 

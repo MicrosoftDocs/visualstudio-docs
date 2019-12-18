@@ -43,7 +43,7 @@ HRESULT RemoveStackFrameSniffer(
 ## Remarks  
  The `RemoveStackFrameSniffer` method removes a stack frame enumerator provider from this application.  
   
-## See Also  
+## See also  
  [IDebugApplication::AddStackFrameSniffer](../../winscript/reference/idebugapplication-addstackframesniffer.md)   
  [IDebugApplication Interface](../../winscript/reference/idebugapplication-interface.md)   
  [IDebugStackFrameSniffer Interface](../../winscript/reference/idebugstackframesniffer-interface.md)

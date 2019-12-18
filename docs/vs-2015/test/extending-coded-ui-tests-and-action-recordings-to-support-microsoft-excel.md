@@ -6,7 +6,7 @@ ms.technology: vs-ide-test
 ms.topic: conceptual
 ms.assetid: 6b0f72a4-70ca-4e55-b236-2ea1034fd8a7
 caps.latest.revision: 32
-ms.author: gewarren
+ms.author: jillfra
 manager: jillfra
 ---
 # Extending Coded UI Tests and Action Recordings to Support Microsoft Excel
@@ -34,7 +34,7 @@ The testing framework for coded UI tests and action recordings does not support 
 
 - SampleTestProject
 
-  Get the sample from this [blog post](http://go.microsoft.com/fwlink/?LinkID=185592).
+  Get the sample from this [blog post](https://go.microsoft.com/fwlink/?LinkID=185592).
 
 > [!NOTE]
 > The sample is intended for use with Microsoft Excel 2010. The sample may work with other versions of Microsoft Excel, but it is not currently supported.

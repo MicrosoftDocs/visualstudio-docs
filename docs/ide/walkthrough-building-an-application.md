@@ -59,7 +59,7 @@ Next, you'll build the solution with the custom build configuration.
 
 ### Build the solution
 
-- On the menu bar, choose **Build** > **Build Solution**.
+- On the menu bar, choose **Build** > **Build Solution**, or press **Ctrl**+**Shift**+**B**.
 
     The **Output** window displays the results of the build. The build succeeded.
 
@@ -148,7 +148,7 @@ You can change how much information about the build process appears in the **Out
 
      The build information includes the time that the build started (located at the beginning) and the order in which files were processed. This information also includes the actual compiler syntax that Visual Studio runs during the build.
 
-     For example, in the C# build, the [/nowarn](/dotnet/visual-basic/reference/command-line-compiler/nowarn) option lists the warning code, **1762**, that you specified earlier in this topic, along with three other warnings.
+     For example, in the C# build, the [/nowarn](/dotnet/visual-basic/reference/command-line-compiler/nowarn) option lists the warning code, **0168**, that you specified earlier in this topic, along with three other warnings.
 
      In the Visual Basic build, [/nowarn](/dotnet/visual-basic/reference/command-line-compiler/nowarn) doesn't include specific warnings to exclude, so no warnings appear.
 

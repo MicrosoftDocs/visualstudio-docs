@@ -34,7 +34,7 @@ var a2 = new int[] { 1, 2, 3, 4, 5 };
 Console.WriteLine("a2.Length = { 0}", a2.Length);
 ```
 
-Creating empty arrays to fill in with subsequent lines of code and using collection initializer syntax are familiar to C# developers. However, writing the same code for an ImmutableArray crashes at runtime:
+Creating empty arrays to fill in with subsequent lines of code and using collection initializer syntax are familiar to C# developers. However, writing the same code for an ImmutableArray crashes at run time:
 
 ```csharp
 var b1 = new ImmutableArray<int>();

@@ -17,7 +17,7 @@ manager: jillfra
 # Install Visual Studio Versions Side-by-Side
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-You can install this version of Visual Studio on a computer that already has an earlier version installed. If you encounter an installation failure, you can use the [log collection tool](http://go.microsoft.com/fwlink/?LinkId=262077) to collect information about the failures so you can debug the issues yourself.
+You can install this version of Visual Studio on a computer that already has an earlier version installed. If you encounter an installation failure, you can use the [log collection tool](https://go.microsoft.com/fwlink/?LinkId=262077) to collect information about the failures so you can debug the issues yourself.
 
 > [!NOTE]
 > We recommend that you install [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] versions in the order in which they were released. For example, install Visual Studio 2013 before you install Visual Studio 2015.
@@ -30,7 +30,7 @@ You can install this version of Visual Studio on a computer that already has an 
 
 - If you uninstall a version of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] on a computer that has more than one version installed, the file associations for [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] are removed for all versions. You can remap these file associations by using the **Restore File Associations** button on the **Environment**, **General** page of the [Options](../ide/reference/general-environment-options-dialog-box.md) dialog box.
 
-- Visual Studio doesn't automatically upgrade extensions because not all extensions are compatible. You must reinstall the extensions from the [Visual Studio Marketplace](http://go.microsoft.com/fwlink/?LinkId=178891) or the software publisher.
+- Visual Studio doesn't automatically upgrade extensions because not all extensions are compatible. You must reinstall the extensions from the [Visual Studio Marketplace](https://go.microsoft.com/fwlink/?LinkId=178891) or the software publisher.
 
 ## .NET Framework Versions and Side-by-Side Installations
 

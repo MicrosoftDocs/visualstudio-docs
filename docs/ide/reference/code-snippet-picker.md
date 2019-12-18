@@ -8,8 +8,8 @@ helpviewer_keywords:
   - "Code Snippet Picker"
   - "IntelliSense code snippets, Code Snippet Picker"
   - "code snippets, Code Snippet Picker"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

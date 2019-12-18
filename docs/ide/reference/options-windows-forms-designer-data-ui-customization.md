@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "Data UI customization options"
   - "Options dialog box, Windows Forms Designer, Data UI Customization"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # Options dialog box: Windows Forms Designer > Data UI Customization

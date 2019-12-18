@@ -28,6 +28,6 @@ new VBArray(safeArray);
   
 - Ensure you pass only **VBArray** objects to the **VBArray** constructor.  
   
-## See Also  
+## See also  
  [VBArray Object](../../javascript/reference/vbarray-object-javascript.md)   
  [Using Arrays](../../javascript/advanced/using-arrays-javascript.md)

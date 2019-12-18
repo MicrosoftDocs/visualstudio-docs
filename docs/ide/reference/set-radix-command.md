@@ -8,8 +8,8 @@ helpviewer_keywords:
   - "Set Radix command"
   - "Debug.SetRadix command"
 ms.assetid: 6ffd1554-7530-4da4-b5f5-e276a5034f3b
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"
@@ -35,7 +35,7 @@ This example sets the environment to display integer values in hexadecimal forma
 >Debug.SetRadix hex
 ```
 
-## See Also
+## See also
 
 - [Visual Studio Commands](../../ide/reference/visual-studio-commands.md)
 - [Command Window](../../ide/reference/command-window.md)

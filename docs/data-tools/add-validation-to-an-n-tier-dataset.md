@@ -10,8 +10,8 @@ helpviewer_keywords:
   - "validation [Visual Basic], n-tier data applications"
   - "validating n-tier data applications"
 ms.assetid: 34ce4db6-09bb-4b46-b435-b2514aac52d3
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "data-storage"

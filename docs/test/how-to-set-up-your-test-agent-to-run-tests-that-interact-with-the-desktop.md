@@ -5,8 +5,8 @@ ms.topic: conceptual
 helpviewer_keywords:
   - "agents, configuring for interaction with desktop"
 ms.assetid: 3a94dd07-6d17-402c-ae8f-7947143755c9
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # How to: Set up your test agent to run tests that interact with the desktop

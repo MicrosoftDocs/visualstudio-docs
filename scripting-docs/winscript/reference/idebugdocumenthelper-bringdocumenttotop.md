@@ -40,5 +40,5 @@ HRESULT BringDocumentToTop();
 ## Remarks  
  This method starts the debugger if it is not already started.  
   
-## See Also  
+## See also  
  [IDebugDocumentHelper Interface](../../winscript/reference/idebugdocumenthelper-interface.md)

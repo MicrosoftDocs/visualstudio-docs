@@ -16,7 +16,7 @@ User settings are writeable settings like the ones in the **Tools / Options** di
 
 1. Create a VSIX project named UserSettingsStoreExtension and then add a custom command named UserSettingsStoreCommand. For more information about how to create a custom command, see [Creating an Extension with a Menu Command](../extensibility/creating-an-extension-with-a-menu-command.md)
 
-2. In UserSettingsStoreCommand.cs, add the following using statements:
+2. In UserSettingsStoreCommand.cs, add the following using directives:
 
     ```csharp
     using System.Collections.Generic;

@@ -10,8 +10,8 @@ helpviewer_keywords:
   - "Options dialog box"
   - "Editing Experience, selecting"
 ms.assetid: 05298fc5-fc4e-4bb2-b942-1f7d2dcdff0f
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

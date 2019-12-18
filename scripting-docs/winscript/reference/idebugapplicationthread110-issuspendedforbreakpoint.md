@@ -30,5 +30,5 @@ HRESULT IsSuspendedForBreakPoint([out, annotation("_Out_")] BOOL * pfIsSuspended
  `pfIsSuspended`  
  [out] `true` if the thread is suspended for a breakpoint, otherwise `false`.  
   
-## See Also  
+## See also  
  [IDebugApplicationThread110 Interface](../../winscript/reference/idebugapplicationthread110-interface.md)

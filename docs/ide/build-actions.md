@@ -39,10 +39,10 @@ Some of the more common build actions for C# and Visual Basic project files are:
 | **EntityDeploy** | .NET | For Entity Framework (EF) .edmx files that specify deployment of EF artifacts. |
 | **Fakes** | .NET | Used for the Microsoft Fakes testing framework. See [Isolate code under test using Microsoft Fakes](../test/isolating-code-under-test-with-microsoft-fakes.md) |
 | **None** | any | The file isn't part of the build in any way. This value can be used for documentation files such as "ReadMe" files, for example.|
-| **Page** | WPF | Compile a XAML file to a binary .baml file for faster loading at runtime. |
+| **Page** | WPF | Compile a XAML file to a binary .baml file for faster loading at run time. |
 | **Resource** | WPF | Specifies to embed the file in an assembly manifest resource file with the extension *.g.resources*. |
 | **Shadow** | .NET | Used for an .accessor file that contains a list of built assembly filenames, one per line. For each assembly on the list, generate public classes with the names `ClassName_Accessor` that are just like the originals, but with public methods instead of private methods. Used for unit testing. |
-| **Splash Screen** | WPF | Specifies an image file to be displayed at runtime when the app is starting up. |
+| **Splash Screen** | WPF | Specifies an image file to be displayed at run time when the app is starting up. |
 | **XamlAppDef** | Windows Workflow Foundation | Instructs the build to build a workflow XAML file into an assembly with an embedded workflow. |
 
 > [!NOTE]

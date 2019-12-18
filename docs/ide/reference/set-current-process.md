@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "Debug.SetCurrentProcess command"
   - "Set Current Process command"
 ms.assetid: 1e016ebd-aadd-411f-a606-03bf69d3f8aa
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"
@@ -35,7 +35,7 @@ You can attach to multiple processes when you are debugging, but only one proces
 >Debug.SetCurrentProcess 1
 ```
 
-## See Also
+## See also
 
 - [Visual Studio Commands](../../ide/reference/visual-studio-commands.md)
 - [Command Window](../../ide/reference/command-window.md)

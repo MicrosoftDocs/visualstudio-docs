@@ -124,7 +124,7 @@ If you use Internet Information Services (IIS) on Windows Server, and your deplo
 
  If you are using IIS, you can easily enable HTTP compression. However, when you enable HTTP compression, it is only enabled for certain file types—namely, HTML and text files. To enable compression for assemblies (*.dll*), XML (*.xml*), deployment manifests (*.application*), and application manifests (*.manifest*), you must add these file types to the list of types for IIS to compress. Until you add the file types to your deployment, only text and HTML files will be compressed.
 
- For detailed instructions for IIS, see [How to specify additional document types for HTTP compression](http://go.microsoft.com/fwlink/?LinkId=178459).
+ For detailed instructions for IIS, see [How to specify additional document types for HTTP compression](https://support.microsoft.com/help/234497).
 
 ## See also
 - [Troubleshoot ClickOnce deployments](../deployment/troubleshooting-clickonce-deployments.md)

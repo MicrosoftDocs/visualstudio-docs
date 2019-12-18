@@ -8,8 +8,8 @@ helpviewer_keywords:
   - "Find command"
   - "Edit.Find command"
 ms.assetid: f0c705dc-2b97-423d-abbf-5584d4827208
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"
@@ -72,7 +72,7 @@ This example performs a case-sensitive search for the word "somestring" in the c
 >Edit.Find somestring /sel /case
 ```
 
-## See Also
+## See also
 
 - [Command Window](../../ide/reference/command-window.md)
 - [Find/Command Box](../../ide/find-command-box.md)

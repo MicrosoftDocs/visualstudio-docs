@@ -1,12 +1,9 @@
 ---
 title: "Tutorial 2: Create a timed math quiz"
-ms.date: 11/04/2016
+ms.date: 10/16/2019
 ms.assetid: d7165d08-ace3-457d-b57d-fb8f80760a6f
 ms.topic: tutorial
 ms.technology: vs-ide-general
-ms.devlang:
- - "csharp"
- - "vb"
 author: TerryGLee
 ms.author: tglee
 manager: jillfra
@@ -15,7 +12,12 @@ ms.workload:
 ---
 # Tutorial 2: Create a timed math quiz
 
-In this tutorial, you build a quiz in which the quiz taker must answer four random arithmetic problems within a specified time. You learn how to:
+In this tutorial, you build a quiz in which the quiz taker must answer four random arithmetic problems within a specified time.
+
+> [!NOTE]
+> This tutorial covers both C# and Visual Basic, so focus on the information that's specific to the programming language you're using.
+
+This tutorial walks you through the following tasks:
 
 - Generate random numbers by using the <xref:System.Random> class.
 
@@ -31,13 +33,6 @@ When you finish, your quiz will look similar to the following screenshot, except
 
 ## Tutorial links
 
-To download a completed version of the quiz, see [Complete math quiz tutorial sample](https://code.msdn.microsoft.com/Complete-Math-Quiz-8581813c).
-
-> [!NOTE]
-> This tutorial covers both C# and Visual Basic, so focus on the information that's specific to the programming language that you're using.
-
-## Related topics
-
 |Title|Description|
 |-----------|-----------------|
 |[Step 1: Create a project and add labels to your form](../ide/step-1-create-a-project-and-add-labels-to-your-form.md)|Start by creating the project, changing properties, and adding `Label` controls.|
@@ -48,3 +43,15 @@ To download a completed version of the quiz, see [Complete math quiz tutorial sa
 |[Step 6: Add a subtraction problem](../ide/step-6-add-a-subtraction-problem.md)|Add a subtraction problem that generates random numbers, uses the timer, and checks for correct answers.|
 |[Step 7: Add multiplication and division problems](../ide/step-7-add-multiplication-and-division-problems.md)|Add multiplication and division problems that generate random numbers, use the timer, and check for correct answers.|
 |[Step 8: Customize the quiz](../ide/step-8-customize-the-quiz.md)|Try other features, such as changing colors and adding a hint.|
+
+There are also great, free video learning resources available to you. To learn more about programming in C#, see [C# fundamentals: Development for absolute beginners](https://channel9.msdn.com/Series/C-Sharp-Fundamentals-Development-for-Absolute-Beginners). To learn more about programming in Visual Basic, see [Visual Basic fundamentals: Development for absolute beginners](https://channel9.msdn.com/Series/Visual-Basic-Development-for-Absolute-Beginners).
+
+## Next steps
+
+To begin the tutorial, start with **[Step 1: Create a project and add labels to your form](../ide/step-1-create-a-project-and-add-labels-to-your-form.md)**.
+
+## See also
+
+* [More C# tutorials](/visualstudio/get-started/csharp/)
+* [Visual Basic tutorials](/visualstudio/get-started/visual-basic/)
+* [C++ tutorials](/cpp/get-started/tutorial-console-cpp)

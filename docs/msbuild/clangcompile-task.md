@@ -11,8 +11,8 @@ dev_langs:
   - "jsharp"
   - "C++"
 helpviewer_keywords:
-  - "MSBuild (Visual C++), ClangCompile task"
-  - "ClangCompile task (MSBuild (Visual C++))"
+  - "MSBuild (C++), ClangCompile task"
+  - "ClangCompile task (MSBuild (C++))"
 author: mikeblome
 ms.author: mblome
 ms.workload:
@@ -20,7 +20,7 @@ ms.workload:
 ---
 # ClangCompile task
 
-Wraps the Visual C++ compiler tool, clang.exe.
+Wraps the Microsoft C++ compiler tool, clang.exe.
 
 ## Parameters
 
@@ -45,7 +45,7 @@ The following table describes the parameters of the **ClangCompile** task.
 |**FunctionLevelLinking**|Optional **bool** parameter.<br/><br/>Allows the compiler to package individual functions in the form of packaged functions (COMDATs). Required for edit and continue to work.<br/><br/>Use `ffunction-sections`.|
 |**GccToolChain**|Optional **string** parameter.<br/><br/>Folder path to Gcc Tool Chain.|
 |**GNUMode**|Optional **bool** parameter.<br/><br/>|
-|**MSCompatibility**|Optional **bool** parameter.<br/><br/>Enable full Microsoft Visual C++ compatibility.|
+|**MSCompatibility**|Optional **bool** parameter.<br/><br/>Enable full Microsoft C++ compatibility.|
 |**MSCompatibilityVersion**|Optional **string** parameter.<br/><br/>Dot-separated value representing the Microsoft compiler version number to report in _MSC_VER (0 = don't define it (default)).|
 |**MSExtensions**|Optional **bool** parameter.<br/><br/>Accept some non-standard constructs supported by the Microsoft compiler.|
 |**MSCompilerVersion**|Optional **string** parameter.<br/><br/>Microsoft compiler version number to report in _MSC_VER (0 = don't define it (default)).|

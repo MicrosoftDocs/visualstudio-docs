@@ -47,5 +47,5 @@ HRESULT GetDescription(
 ## Remarks  
  This method gets the description and state of this thread.  
   
-## See Also  
+## See also  
  [IRemoteDebugApplicationThread Interface](../../winscript/reference/iremotedebugapplicationthread-interface.md)

@@ -6,8 +6,8 @@ ms.prod: "visual-studio-dev14"
 ms.topic: conceptual
 ms.assetid: 772b6cf4-cee5-42d0-bc18-b4eb07e22ff0
 caps.latest.revision: 36
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # Visual Studio IDE
@@ -31,9 +31,9 @@ If you’ve never used Visual Studio before, learn the basics with our [Get Star
 If you want to find out about new features in Visual Studio 2015, see [What's New in Visual Studio 2015](../what-s-new-in-visual-studio-2015.md).
 
 ## Visual Studio Setup
- You can find out which edition of Visual Studio is right for you at [Visual Studio Editions](http://www.visualstudio.com/products/visual-studio-with-msdn-overview-vs).
+ You can find out which edition of Visual Studio is right for you at [Visual Studio Editions](https://visualstudio.microsoft.com/vs/).
 
- You can install Visual Studio 2015 by downloading it from [Visual Studio Downloads](http://www.visualstudio.com/downloads/download-visual-studio-vs.aspx). If you need to know more about the installation process, see [Installing Visual Studio 2015](../install/install-visual-studio-2015.md).
+ You can install Visual Studio 2015 by downloading it from [Visual Studio Downloads](https://www.visualstudio.com/downloads/download-visual-studio-vs.aspx). If you need to know more about the installation process, see [Installing Visual Studio 2015](../install/install-visual-studio-2015.md).
 
 ## IDE Basics
  The following image shows the Visual Studio IDE with an open project, and the Solution Explorer window for navigating in the project files, and the Team Explorer window for navigating source control and work item tracking. The features in the title bar that are called out are explained below in more detail.

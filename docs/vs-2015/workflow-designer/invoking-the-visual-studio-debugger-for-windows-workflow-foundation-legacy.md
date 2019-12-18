@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "debugging workflows, starting the debugger"
 ms.assetid: d6f58e35-5cce-4ff2-9afc-b2d9d0f819cf
 caps.latest.revision: 6
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # Invoking the Visual Studio Debugger for Windows Workflow Foundation (Legacy)

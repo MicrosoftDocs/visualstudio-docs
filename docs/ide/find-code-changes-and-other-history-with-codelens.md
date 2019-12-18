@@ -4,8 +4,8 @@ ms.date: 11/04/2016
 ms.topic: conceptual
 f1_keywords:
   - "VS.ToolsOptionsPages.Text_Editor.All_Languages.CodeLens"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"
@@ -17,7 +17,7 @@ CodeLens lets you stay focused on your work while you find out what happened to 
 ::: moniker range=">=vs-2019"
 
 > [!NOTE]
-> The source control CodeLens indicators are not available in Visual Studio Community edition.
+> CodeLens is available in Visual Studio Community edition, however, the *source control* indicators are not available in this edition.
 
 ::: moniker-end
 
@@ -89,7 +89,7 @@ This is what you see when you use Team Foundation Version Control (TFVC) in Team
 
 ![CodeLens: Get change history for your code in TFVC](../ide/media/codelens-code-changes.png)
 
-The default time period is the last 12 months. If your code is stored in Team Foundation Server, you can change the time period by running the [TFSConfig command](/tfs/server/ref/command-line/tfsconfig-cmd) with the [CodeIndex command](../ide/codeindex-command.md) and the **/indexHistoryPeriod** flag.
+The default time period is the last 12 months. If your code is stored in Team Foundation Server, you can change the time period by running the [TFSConfig command](/azure/devops/server/command-line/tfsconfig-cmd) with the [CodeIndex command](../ide/codeindex-command.md) and the **/indexHistoryPeriod** flag.
 
 To see a detailed history of all the changes, including those from more than a year ago, choose **Show all file changes**:
 
@@ -211,7 +211,7 @@ You can discover unit tests that exist for your C# or Visual Basic code without 
 
 1. Go to application code that has associated [unit test code](../test/unit-test-your-code.md).
 
-2. If you have not already, build your application to load the CodeLens test indicators. Make sure [discovery by built assemblies](../test/test-explorer-faq.md#assembly-based-discovery) is turned on.
+2. If you have not already, build your application to load the CodeLens test indicators. 
 
 3. Review the tests for the code by pressing **Alt**+**3**.
 
@@ -260,7 +260,7 @@ Turn CodeLens file-level indicators on and off using the chevron icons at the bo
 
 - Make sure CodeLens is turned on. Go to **Tools** > **Options** > **Text Editor** > **All Languages** > **CodeLens**.
 
-- If your code is stored in TFS, make sure that code indexing is turned on by using the [CodeIndex command](../ide/codeindex-command.md) with the [TFS Config command](/tfs/server/ref/command-line/tfsconfig-cmd).
+- If your code is stored in TFS, make sure that code indexing is turned on by using the [CodeIndex command](../ide/codeindex-command.md) with the [TFS Config command](/azure/devops/server/command-line/tfsconfig-cmd).
 
 - DevOps-related indicators appear only when work items are linked to the code and when you have permissions to open linked work items. Confirm that you have [team member permissions](/azure/devops/organizations/security/view-permissions?view=vsts).
 
@@ -269,7 +269,7 @@ Turn CodeLens file-level indicators on and off using the chevron icons at the bo
 ::: moniker range=">=vs-2019"
 
 > [!TIP]
-> Source control indicators are not available in Visual Studio Community edition.
+> CodeLens is available in Visual Studio Community edition, however, the *source control* indicators are not available in this edition.
 
 ::: moniker-end
 
@@ -342,12 +342,11 @@ To use the keyboard:
 
 ### Q: Can I manage how CodeLens processes code to show history and linked items?
 
-**A:** Yes. If your code is in TFS, use the [CodeIndex command](../ide/codeindex-command.md) with the [TFS Config command](/tfs/server/ref/command-line/tfsconfig-cmd).
+**A:** Yes. If your code is in TFS, use the [CodeIndex command](../ide/codeindex-command.md) with the [TFS Config command](/azure/devops/server/command-line/tfsconfig-cmd).
 
 ### Q: My CodeLens test indicators no longer appear in my file when I first open my solution. How can I load them?
 
-**A:** Rebuild your project to get CodeLens test indicators to load in your file. Make sure [discovery by built assemblies](../test/test-explorer-faq.md#assembly-based-discovery
-) is turned on. To improve performance, Visual Studio no longer fetches source information for test indicators when code files are loaded. Test indicators are loaded after a build, or when you navigate to a test by double-clicking on it in **Test Explorer**.
+**A:** Rebuild your project to get CodeLens test indicators to load in your file. To improve performance, Visual Studio no longer fetches source information for test indicators when code files are loaded. Test indicators are loaded after a build, or when you navigate to a test by double-clicking on it in **Test Explorer**.
 
 ## See also
 

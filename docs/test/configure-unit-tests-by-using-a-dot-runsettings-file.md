@@ -1,12 +1,12 @@
 ---
 title: "Configure unit tests with a .runsettings file"
-ms.date: 06/14/2019
+ms.date: 10/03/2019
 ms.topic: conceptual
-ms.author: gewarren
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"
-author: gewarren
+author: jillre
 ---
 # Configure unit tests by using a *.runsettings* file
 
@@ -32,11 +32,52 @@ The file appears on the Test Settings menu, and you can select or deselect it. W
 
 ::: moniker range=">=vs-2019"
 
-To specify a run settings file in the IDE, in **Test Explorer**, select the arrow on the **Settings** button, and then select **Select Settings File**. Browse to and select the *.runsettings* file.
+#### Visual Studio 2019 version 16.3 and earlier
 
-![Select test settings file menu in Visual Studio 2019](media/vs-2019/select-test-settings-file.png)
+To specify a run settings file in the IDE, select **Test** > **Select Settings File**. Browse to and select the *.runsettings* file.
 
-The file appears on the Settings menu in Test Explorer, and you can select or deselect it. While selected, the run settings file applies whenever you select **Analyze Code Coverage**.
+![Select test settings file menu in Visual Studio 2019](media/vs-2019/select-settings-file.png)
+
+The file appears on the Test menu, and you can select or deselect it. While selected, the run settings file applies whenever you select **Analyze Code Coverage**.
+
+#### Visual Studio 2019 version 16.4 and later
+
+There are three ways of specifying a run settings file in Visual Studio 2019 version 16.4 and later:
+
+- Add a build property to a project through either the project file or a Directory.Build.props file. The run settings file for a project is specified by the property **RunSettingsFilePath**. 
+
+    - Project-level run settings is currently supported in C#, VB, C++, and F# projects.
+    - A file specified for a project overrides any other run settings file specified in the solution.
+
+    Example of specifying a *.runsettings* file for a project:
+    
+    ```xml
+    <Project Sdk="Microsoft.NET.Sdk">
+      <PropertyGroup>
+        <RunSettingsFilePath>$(SolutionDir)\example.runsettings</RunSettingsFilePath>
+      </PropertyGroup>
+      ...
+    </Project>
+    ```
+
+- Place a run settings file named ".runsettings" at the root of your solution.
+
+  If auto detection of run settings files is enabled, the settings in this file are applied across all tests run. You can turn on auto detection of runsettings files from two places:
+  
+    - **Tools** > **Options** > **Test** > **Auto Detect runsettings Files**
+
+      ![Auto detect runsettings file option in Visual Studio 2019](media/vs-2019/auto-detect-runsettings-tools-window.png)
+      
+    - **Test** > **Configure Run Settings** > **Auto Detect runsettings Files**
+    
+      ![Auto detect runsettings file menu in Visual Studio 2019](media/vs-2019/auto-detect-runsettings-menu.png)
+
+- In the IDE, select **Test** > **Configure Run Settings** > **Select Solution Wide runsettings File**, and then select the *.runsettings* file.
+
+   ![Select test solution wide runsettings file menu in Visual Studio 2019](media/vs-2019/select-solution-settings-file.png)
+      
+   - This file overrides the ".runsettings" file at the root of the solution, if it exists, and is applied across all tests run.  
+   - This file selection only persists locally. 
 
 ::: moniker-end
 
@@ -91,7 +132,7 @@ To customize your tests using a *.runsettings* file, follow these steps:
 
 ::: moniker range=">=vs-2019"
 
-3. To select the run settings file, in **Test Explorer**, select the arrow on the **Settings** button, and then select **Select Settings File**. Browse to the *.runsettings* file you created, and then select **OK**.
+3. To select the run settings file, choose **Test** > **Select Settings File**. Browse to the *.runsettings* file you created, and then select **OK**.
 
 ::: moniker-end
 
@@ -112,7 +153,7 @@ The following XML shows the contents of a typical *.runsettings* file. Each elem
     <ResultsDirectory>.\TestResults</ResultsDirectory>
 
     <!-- x86 or x64 -->
-    <!-- You can also change it from the test settings menu; choose "Processor Architecture for AnyCPU Projects" -->
+    <!-- You can also change it from the Test menu; choose "Processor Architecture for AnyCPU Projects" -->
     <TargetPlatform>x86</TargetPlatform>
 
     <!-- Framework35 | [Framework40] | Framework45 -->
@@ -151,15 +192,16 @@ The following XML shows the contents of a typical *.runsettings* file. Each elem
       <DataCollector uri="datacollector://microsoft/VideoRecorder/1.0" assemblyQualifiedName="Microsoft.VisualStudio.TestTools.DataCollection.VideoRecorder.VideoRecorderDataCollector, Microsoft.VisualStudio.TestTools.DataCollection.VideoRecorder, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" friendlyName="Screen and Voice Recorder">
         <!--Video data collector was introduced in Visual Studio 2017 version 15.5 -->
         <Configuration>
-           <!-- Change to "false" to only add video attachments to failed tests -->
-          <MediaRecorder sendRecordedMediaForPassedTestCase="true" xmlns="" />
+          <!-- Set "sendRecordedMediaForPassedTestCase" to "false" to add video attachments to failed tests only -->
+          <MediaRecorder sendRecordedMediaForPassedTestCase="true"  xmlns="">           ​
+            <ScreenCaptureVideo bitRate="512" frameRate="2" quality="20" />​
+          </MediaRecorder>​
         </Configuration>
       </DataCollector>
-
     </DataCollectors>
   </DataCollectionRunSettings>
 
-  <!-- Parameters used by tests at runtime -->
+  <!-- Parameters used by tests at run time -->
   <TestRunParameters>
     <Parameter name="webAppUrl" value="http://localhost" />
     <Parameter name="webAppUserName" value="Admin" />
@@ -245,12 +287,11 @@ To customize any other type of diagnostic data adapters, use a [test settings fi
 ```xml
 <TestRunParameters>
     <Parameter name="webAppUrl" value="http://localhost" />
-    <Parameter name="webAppUserName" value="Admin" />
-    <Parameter name="webAppPassword" value="Password" />
+    <Parameter name="docsUrl" value="https://docs.microsoft.com" />
 </TestRunParameters>
 ```
 
-Test run parameters provide a way to define variables and values that are available to the tests at runtime. Access the parameters using the <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.Properties%2A?displayProperty=nameWithType> property:
+Test run parameters provide a way to define variables and values that are available to the tests at run time. Access the parameters using the <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.Properties%2A?displayProperty=nameWithType> property:
 
 ```csharp
 [TestMethod]

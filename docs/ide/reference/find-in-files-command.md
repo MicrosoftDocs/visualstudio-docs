@@ -8,8 +8,8 @@ helpviewer_keywords:
   - "Edit.FindInFiles command"
   - "find in files command"
 ms.assetid: 2fc78bfe-b339-4599-97f9-4cafd8a194d9
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"
@@ -78,7 +78,7 @@ This example searches for btnCancel in all .cls files located in the folder "My 
 >Edit.FindinFiles btnCancel /lookin:"c:/My Visual Studio Projects" /ext:*.cls /text2
 ```
 
-## See Also
+## See also
 
 - [Find in Files](../../ide/find-in-files.md)
 - [Command Window](../../ide/reference/command-window.md)

@@ -6,7 +6,7 @@ ms.technology: vs-ide-test
 ms.topic: reference
 ms.assetid: cf4000b4-91b5-4b3f-a00d-cc8d192467c2
 caps.latest.revision: 22
-ms.author: gewarren
+ms.author: jillfra
 manager: jillfra
 ---
 # Testing Store apps with Visual Studio

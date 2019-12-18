@@ -8,8 +8,8 @@ f1_keywords:
   - "CA2139"
 ms.assetid: 45a0328a-add7-40f9-8934-dff59beb02b3
 caps.latest.revision: 13
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: "wpickett"
 ---
 # CA2139: Transparent methods may not use the HandleProcessCorruptingExceptions attribute

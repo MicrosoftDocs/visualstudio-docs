@@ -14,8 +14,8 @@ helpviewer_keywords:
   - "CA2129"
 ms.assetid: 251a12da-0557-47f5-a4f7-0229d590ae7b
 caps.latest.revision: 19
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: "wpickett"
 ---
 # CA2140: Transparent code must not reference security critical items

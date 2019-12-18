@@ -1,5 +1,5 @@
 ---
-title: Using the Subscriber Portal - http://my.visualstudio.com | Microsoft Docs
+title: Using the Subscriber Portal - https://my.visualstudio.com | Microsoft Docs
 author: evanwindom
 ms.author: lank
 manager: lank

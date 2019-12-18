@@ -29,7 +29,7 @@ f1_keywords:
 ms.assetid: 07769c25-9b97-4ab7-b175-d1c450308d7a
 author: mikeblome
 ms.author: mblome
-manager: wpickett
+manager: markl
 ms.workload:
   - "multiple"
 ---
@@ -67,7 +67,7 @@ The following table lists the locking annotations.
 |`_Create_lock_level_(name)`|A statement that declares the symbol `name` to be a lock level so that it may be used in the annotations `_Has_Lock_level_` and `_Lock_level_order_`.|
 |`_Has_lock_kind_(kind)`|Annotates any object to refine the type information of a resource object. Sometimes a common type is used for different kinds of resources and the overloaded type is not sufficient to distinguish the semantic requirements among various resources. Here's a list of pre-defined `kind` parameters:<br /><br /> `_Lock_kind_mutex_`<br /> Lock kind ID for mutexes.<br /><br /> `_Lock_kind_event_`<br /> Lock kind ID for events.<br /><br /> `_Lock_kind_semaphore_`<br /> Lock kind ID for semaphores.<br /><br /> `_Lock_kind_spin_lock_`<br /> Lock kind ID for spin locks.<br /><br /> `_Lock_kind_critical_section_`<br /> Lock kind ID for critical sections.|
 |`_Has_lock_level_(name)`|Annotates a lock object and gives it the lock level of `name`.|
-|`_Lock_level_order_(name1, name2)`|A statement that gives the lock ordering between `name1` and `name2`.|
+|`_Lock_level_order_(name1, name2)`|A statement that gives the lock ordering between `name1` and `name2`.  Locks that have level `name1` must be acquired before locks that have level `name2`|
 |`_Post_same_lock_(expr1, expr2)`|Annotates a function and indicates that in post state the two locks, `expr1` and `expr2`, are treated as if they are the same lock object.|
 |`_Releases_exclusive_lock_(expr)`|Annotates a function and indicates that in post state the function decrements by one the exclusive lock count of the lock object that's named by `expr`.|
 |`_Releases_lock_(expr)`|Annotates a function and indicates that in post state the function decrements by one the lock count of the lock object that's named by `expr`.|
@@ -111,7 +111,7 @@ Smart locks typically wrap native locks and manage their lifetime. The following
 |`_Swaps_locks_(left, right)`|Describes the standard `swap` behavior which assumes that objects `left` and `right` exchange their state. The state exchanged includes lock count and aliasing target, if present. Aliases that point to the `left` and `right` objects remain unchanged.|
 |`_Detaches_lock_(detached, lock)`|Describes a scenario in which a lock wrapper type allows dissociation with its contained resource. This is similar to how `std::unique_ptr` works with its internal pointer: it allows programmers to extract the pointer and leave its smart pointer container in a clean state. Similar logic is supported by `std::unique_lock` and can be implemented in custom lock wrappers. The detached lock retains its state (lock count and aliasing target, if any), while the wrapper is reset to contain zero lock count and no aliasing target, while retaining its own aliases. There's no operation on lock counts (releasing and acquiring). This annotation behaves exactly as `_Moves_lock_` except that the detached argument should be `return` rather than `this`.|
 
-## See Also
+## See also
 
 - [Using SAL Annotations to Reduce C/C++ Code Defects](../code-quality/using-sal-annotations-to-reduce-c-cpp-code-defects.md)
 - [Understanding SAL](../code-quality/understanding-sal.md)
@@ -121,4 +121,4 @@ Smart locks typically wrap native locks and manage their lifetime. The following
 - [Specifying When and Where an Annotation Applies](../code-quality/specifying-when-and-where-an-annotation-applies.md)
 - [Intrinsic Functions](../code-quality/intrinsic-functions.md)
 - [Best Practices and Examples](../code-quality/best-practices-and-examples-sal.md)
-- [Code Analysis Team Blog](http://go.microsoft.com/fwlink/p/?LinkId=251197)
+- [Code Analysis Team Blog](https://blogs.msdn.microsoft.com/codeanalysis/)

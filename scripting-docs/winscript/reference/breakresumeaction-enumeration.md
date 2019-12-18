@@ -47,5 +47,5 @@ typedef enum tagBREAKRESUME_ACTION {
 |BREAKRESUMEACTION_IGNORE|Continues running with state.|  
 |BREAKRESUMEACTION_STEP_DOCUMENT|Steps to the next document.|  
   
-## See Also  
+## See also  
  [Active Script Debugger Constants, Enumerations, and Structures](../../winscript/reference/active-script-debugger-constants-enumerations-and-structures.md)

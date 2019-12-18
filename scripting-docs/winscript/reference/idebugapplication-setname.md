@@ -45,6 +45,6 @@ HRESULT SetName(
   
  This method should be called before calling the `IProcessDebugManager::AddApplication` method.  
   
-## See Also  
+## See also  
  [IDebugApplication Interface](../../winscript/reference/idebugapplication-interface.md)   
  [IProcessDebugManager::AddApplication](../../winscript/reference/iprocessdebugmanager-addapplication.md)

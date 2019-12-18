@@ -7,8 +7,8 @@ helpviewer_keywords:
   - "code editor, go to line"
   - "go to line"
   - "go to"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

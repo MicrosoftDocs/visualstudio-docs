@@ -36,5 +36,5 @@ HRESULT GetCount(
 ## Requirements  
  **Header:** jscript9diag.h  
   
-## See Also  
+## See also  
  [IJsEnumDebugProperty Interface](../../winscript/reference/ijsenumdebugproperty-interface.md)

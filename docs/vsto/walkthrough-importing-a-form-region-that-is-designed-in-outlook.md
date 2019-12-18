@@ -39,7 +39,6 @@ ms.workload:
 > [!NOTE]
 > Your computer might show different names or locations for some of the Visual Studio user interface elements in the following instructions. The Visual Studio edition that you have and the settings that you use determine these elements. For more information, see [Personalize the Visual Studio IDE](../ide/personalizing-the-visual-studio-ide.md).
 
- ![link to video](../vsto/media/playvideo.gif "link to video") For a related video demonstration, see [How do I: Create Outlook form regions using Visual Studio 2008?](http://go.microsoft.com/fwlink/?LinkID=130305).
 ## Design a form region by using the form region designer in Outlook
  In this step you will design a form region in Outlook. You will then the save the form region to an easy-to-find location so that you can import it into [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)].
 
@@ -246,7 +245,7 @@ ms.workload:
 - To learn more about how to add a custom task pane to Outlook, see [Custom task panes](../vsto/custom-task-panes.md).
 
 ## See also
-- [Access a form region at runtime](../vsto/accessing-a-form-region-at-run-time.md)
+- [Access a form region at run time](../vsto/accessing-a-form-region-at-run-time.md)
 - [Create Outlook form regions](../vsto/creating-outlook-form-regions.md)
 - [Guidelines to create Outlook form regions](../vsto/guidelines-for-creating-outlook-form-regions.md)
 - [Walkthrough: Design an Outlook form region](../vsto/walkthrough-designing-an-outlook-form-region.md)

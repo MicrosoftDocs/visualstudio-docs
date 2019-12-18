@@ -51,5 +51,5 @@ HRESULT GetPositionOfContext(
 ## Remarks  
  The document context provided to this method must be associated with this document.  
   
-## See Also  
+## See also  
  [IDebugDocumentText Interface](../../winscript/reference/idebugdocumenttext-interface.md)

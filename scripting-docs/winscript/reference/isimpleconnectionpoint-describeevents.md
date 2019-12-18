@@ -61,5 +61,5 @@ HRESULT DescribeEvents(
 ## Remarks  
  This method returns the DISPID and name for each event in a specified range of events.  
   
-## See Also  
+## See also  
  [ISimpleConnectionPoint Interface](../../winscript/reference/isimpleconnectionpoint-interface.md)

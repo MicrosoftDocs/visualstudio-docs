@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "request-level plug-in, creating"
   - "Web performance tests, requests"
 ms.assetid: d0b5b23c-7e94-4637-be6c-2620a5442d46
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # How to: Create a request-level plug-in

@@ -12,8 +12,8 @@ helpviewer_keywords:
   - "RethrowToPreserveStackDetails"
 ms.assetid: 046e1b98-c4dc-4515-874f-9c0de2285621
 caps.latest.revision: 15
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: "wpickett"
 ---
 # CA2200: Rethrow to preserve stack details

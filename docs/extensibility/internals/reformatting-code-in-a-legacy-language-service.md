@@ -177,6 +177,6 @@ namespace MyLanguagePackage
 }
 ```
 
-## See Also
+## See also
 
 - [Legacy Language Service Features](legacy-language-service-features1.md)

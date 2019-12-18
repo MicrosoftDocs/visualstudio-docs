@@ -7,8 +7,8 @@ helpviewer_keywords:
   - "Web services [Visual Studio ALM], creating"
   - "service tests, Web"
 ms.assetid: fbcd57ee-06ad-4260-8694-09f8e0f93e39
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # How to: Create a web service test
@@ -17,7 +17,7 @@ You can use a web performance test to test web services. By using the **Insert R
 
 [!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
 
-The following procedures use a web service that is contained within the Commerce Starter Kit. You can download it from [ASP.NET commerce starter kit](http://go.microsoft.com/fwlink/?LinkId=181469).
+The following procedures use a web service that is contained within the Commerce Starter Kit. You can download it from [ASP.NET commerce starter kit](https://sourceforge.net/projects/ppcsk/).
 
 **Requirements**
 

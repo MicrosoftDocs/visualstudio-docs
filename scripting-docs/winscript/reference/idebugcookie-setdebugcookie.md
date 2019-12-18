@@ -43,5 +43,5 @@ HRESULT SetDebugCookie(
 ## Remarks  
  This method sets the debug application cookie, which allows more than one debugger to attach to a process.  
   
-## See Also  
+## See also  
  [IDebugCookie Interface](../../winscript/reference/idebugcookie-interface.md)

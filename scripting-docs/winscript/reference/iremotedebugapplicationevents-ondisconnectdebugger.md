@@ -40,5 +40,5 @@ HRESULT OnDisconnectDebugger();
 ## Remarks  
  This method handles the debugger disconnect event.  
   
-## See Also  
+## See also  
  [IRemoteDebugApplicationEvents Interface](../../winscript/reference/iremotedebugapplicationevents-interface.md)

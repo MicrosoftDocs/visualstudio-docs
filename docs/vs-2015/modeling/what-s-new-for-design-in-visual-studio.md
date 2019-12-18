@@ -10,8 +10,8 @@ helpviewer_keywords:
   - "modeling software [Visual Studio], What's New"
 ms.assetid: 36ab5c17-6dc0-4075-a28e-a0fa49b11260
 caps.latest.revision: 34
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # What's new for design in Visual Studio in Visual Studio 2015

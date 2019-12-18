@@ -80,7 +80,7 @@ Non-user code is any code that is not shown when [Just My Code](../debugger/just
 
 ## Set a breakpoint on the exit point of a function call
 
-- See [Set a breakpoint at a call stack function](../debugger/using-breakpoints.md#BKMK_Set_a_breakpoint_in_the_call_stack_window).
+- See [Set a breakpoint at a call stack function](../debugger/using-breakpoints.md#BKMK_Set_a_breakpoint_from_debugger_windows).
 
 ## Display calls to or from another thread
 
@@ -106,7 +106,7 @@ In Visual Studio Enterprise (only), you can view code maps for the call stack wh
 
 ## <a name="bkmk_symbols"></a> Load symbols for a module (C#, C++, Visual Basic, F#)
 
-In the **Call Stack** window, you can load debugging symbols for code that does not currently have symbols loaded. These symbols can be .NET Framework or system symbols downloaded from the Microsoft public symbol servers, or symbols in a symbol path on the computer that you are debugging.
+In the **Call Stack** window, you can load debugging symbols for code that does not currently have symbols loaded. These symbols can be .NET or system symbols downloaded from the Microsoft public symbol servers, or symbols in a symbol path on the computer that you are debugging.
 
 See [Specify symbol (.pdb) and source files](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md).
 

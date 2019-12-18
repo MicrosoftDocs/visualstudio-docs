@@ -3,8 +3,8 @@ title: "How to: Export a Texture that Contains Mipmaps"
 ms.date: 11/04/2016
 ms.topic: conceptual
 ms.assetid: 3d1ad14b-44fb-4cf0-a995-5e2f60026524
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

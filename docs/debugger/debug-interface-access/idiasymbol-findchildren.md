@@ -50,7 +50,7 @@ HRESULT findChildren ( 
 ## Remarks
  This method is identical to calling the [IDiaSession::findChildren](../../debugger/debug-interface-access/idiasession-findchildren.md) method with this symbol as the first parameter.
 
-## See Also
+## See also
 - [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
 - [SymTagEnum Enumeration](../../debugger/debug-interface-access/symtagenum.md)
 - [IDiaEnumSymbols](../../debugger/debug-interface-access/idiaenumsymbols.md)

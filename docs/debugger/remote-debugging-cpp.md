@@ -1,5 +1,5 @@
 ---
-title: "Remote Debug a Visual C++ Project | Microsoft Docs"
+title: "Remote Debug a C++ Project | Microsoft Docs"
 ms.custom: "remotedebugging"
 ms.date: "08/14/2018"
 ms.topic: "conceptual"
@@ -18,7 +18,7 @@ manager: jillfra
 ms.workload:
   - "cplusplus"
 ---
-# Remote Debugging a Visual C++ Project in Visual Studio
+# Remote Debugging a C++ Project in Visual Studio
 To debug a Visual Studio application on a different computer, install and run the remote tools on the computer where you will deploy your app, configure your project to connect to the remote computer from Visual Studio, and then deploy and run your app.
 
 ![Remote debugger components](../debugger/media/remote-debugger-client-apps.png "Remote_debugger_components")
@@ -46,7 +46,7 @@ The remote debugger is supported on Windows 7 and newer (not phone) and versions
 > [!NOTE]
 > If you need to add permissions for additional users, change the authentication mode, or port number for the remote debugger, see [Configure the remote debugger](../debugger/remote-debugging.md#configure_msvsmon).
 
-## <a name="remote_cplusplus"></a> Remote debug a Visual C++ project
+## <a name="remote_cplusplus"></a> Remote debug a C++ project
  In the following procedure, the name and path of the project is C:\remotetemp\MyMfc, and the name of the remote computer is **MJO-DL**.
 
 1. Create an MFC application named **mymfc.**
@@ -100,8 +100,8 @@ The remote debugger is supported on Windows 7 and newer (not phone) and versions
 
 [!INCLUDE [remote-debugger-symbols](../debugger/includes/remote-debugger-symbols.md)]
 
-## See Also
-- [Debugging in Visual Studio](../debugger/index.md)
+## See also
+- [Debugging in Visual Studio](../debugger/index.yml)
 - [First look at the debugger](../debugger/debugger-feature-tour.md)
 - [Configure the Windows Firewall for Remote Debugging](../debugger/configure-the-windows-firewall-for-remote-debugging.md)
 - [Remote Debugger Port Assignments](../debugger/remote-debugger-port-assignments.md)

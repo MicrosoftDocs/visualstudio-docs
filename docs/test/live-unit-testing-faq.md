@@ -3,22 +3,15 @@ title: "Live Unit Testing FAQ"
 ms.date: "10/03/2017"
 ms.topic: conceptual
 helpviewer_keywords:
-  - "Visual Studio ALM"
   - "Live Unit Testing FAQ"
-author: rpetrusha
-ms.author: "ronpet"
+author: jillre
+ms.author: jillfra
 ms.workload:
   - "dotnet"
 ---
 # Live Unit Testing frequently asked questions
 
-## Latest features
-
-**Live Unit Testing is improved and enhanced regularly. How can I find information about the latest new features and enhancements?**
-
-To learn about the new features and enhancements that have been made to Live Unit Testing, see [What's New in Live Unit Testing](live-unit-testing-whats-new.md).
-
-## Supported frameworks and versions
+## Supported frameworks
 
 **What test frameworks does Live Unit Testing support and what are the minimum supported versions?**
 
@@ -30,21 +23,21 @@ Live Unit Testing works with the three popular unit testing frameworks listed in
 |NUnit |NUnit3TestAdapter version 3.7.0 |NUnit version 3.5.0 |
 |MSTest |MSTest.TestAdapter 1.1.4-preview |MSTest.TestFramework 1.0.5-preview |
 
-If you have older MSTest based test projects that reference `Microsoft.VisualStudio.QualityTools.UnitTestFramework` and you don’t wish to move to the newer MSTest NuGet packages, upgrade to Visual Studio 2017 version 15.4 or later.
+If you have older MSTest based test projects that reference `Microsoft.VisualStudio.QualityTools.UnitTestFramework` and you don’t wish to move to the newer MSTest NuGet packages, upgrade to Visual Studio 2019 or Visual Studio 2017.
 
-In some cases, you may need to explicitly restore the NuGet packages referenced by the projects in the solution in order for Live Unit Testing to work. You can restore the packages either by doing an explicit build of the solution (select **Build**, **Rebuild Solution** from the top-level Visual Studio menu), or by right-clicking on the solution and selecting **Restore NuGet Packages** before enabling Living Unit Testing.
+In some cases, you may need to explicitly restore the NuGet packages referenced by the projects in the solution in order for Live Unit Testing to work. You can restore the packages either by doing an explicit build of the solution (select **Build** > **Rebuild Solution** from the top-level Visual Studio menu), or by right-clicking on the solution and selecting **Restore NuGet Packages** before enabling Living Unit Testing.
 
 ## .NET Core support
 
 **Does Live Unit Testing work with .NET Core?**
 
-Yes. Live Unit Testing works with .NET Core and the .NET Framework. Support for .NET Core was added in Visual Studio 2017 version 15.3. Upgrade to this version of Visual Studio or later if you want Live Unit Testing support for .NET Core.
+Yes. Live Unit Testing works with .NET Core and the .NET Framework.
 
 ## Configuration
 
 **Why doesn't Live Unit Testing work when I turn it on?**
 
-The **Output** window (when the Live Unit Testing drop-down is selected) should tell you why Live Unit Testing is not working. Live Unit Testing may not work for one of the following reasons:
+The Output window (when the Live Unit Testing drop-down is selected) should tell you why Live Unit Testing is not working. Live Unit Testing may not work for one of the following reasons:
 
 - If NuGet packages referenced by the projects in the solution have not been restored, Live Unit Testing will not work. Doing an explicit build of the solution or restoring NuGet packages in the solution before turning on Live Unit Testing should resolve this issue.
 
@@ -86,15 +79,26 @@ For example, there may be a target that produces NuGet packages during a regular
 </Target>
 ```
 
-## Error messages with &lt;OutputPath&gt; or &lt;OutDir&gt;
+## Error messages with \<OutputPath>, \<OutDir> or \<IntermediateOutputPath>
 
 **Why do I get the following error when Live Unit Testing tries to build my solution: "...appears to unconditionally set `<OutputPath>` or `<OutDir>`. Live Unit Testing will not execute tests from the output assembly"?**
 
-You can get this error if the build process for your solution unconditionally overrides `<OutputPath>` or `<OutDir>` so that it is not a subdirectory of `<BaseOutputPath>`. In such cases, Live Unit Testing will not work because it also overrides these values to ensure that build artifacts are dropped to a folder under `<BaseOutputPath>`. If you must override the location where you want your build artifacts to be dropped in a regular build, override the `<OutputPath>` conditionally based on `<BaseOutputPath>`.
+You can get this error if the build process for your solution has custom logic that specifies where binaries should be generated. By default the location of your binaries depends on `<OutputPath>`, `<OutDir>` or `<IntermediateOutputPath>` as well as `<BaseOutputPath>` or `<BaseIntermediateOutputPath>`.
 
-For example, if your build overrides the `<OutputPath>` as shown below:
+Live Unit Testing overrides those variables to ensure that build artifacts are dropped to a Live Unit Testing artifacts folder and will fail if your build process also overrides these variables.
 
-```xml 
+There are two main approaches to make Live Unit Testing build successfully. For easier build configurations, you can base your output paths on `<BaseIntermediateOutputPath>`. For more complex configurations you can base your output paths on `<LiveUnitTestingBuildRootPath>`.
+
+### Overriding `<OutputPath>`/`<IntermediateOutputPath>` conditionally based on `<BaseOutputPath>`/ `<BaseIntermediateOutputPath>`.
+
+> [!NOTE]
+> To use this approach, each project needs to be able to build independently from one another. Do not have one project reference artifacts from another project during build. Do not have one project dynamically load assemblies from another project during runtime (for example call `Assembly.Loadfile("..\..\Project2\Release\Project2.dll")`).
+
+During build, Live Unit Testing automatically overrides the `<BaseOutputPath>`/`<BaseIntermediateOutputPath>` variables to target the Live Unit Testing artifacts folder.
+
+For example, if your build overrides the <OutputPath> as shown below:
+
+```xml
 <Project>
   <PropertyGroup>
     <OutputPath>$(SolutionDir)Artifacts\$(Configuration)\bin\$(MSBuildProjectName)</OutputPath>
@@ -104,7 +108,7 @@ For example, if your build overrides the `<OutputPath>` as shown below:
 
 then you can replace it with the following XML:
 
-```xml 
+```xml
 <Project>
   <PropertyGroup>
     <BaseOutputPath Condition="'$(BaseOutputPath)' == ''">$(SolutionDir)Artifacts\$(Configuration)\bin\$(MSBuildProjectName)\</BaseOutputPath>
@@ -117,13 +121,53 @@ This ensures that `<OutputPath>` lies within the `<BaseOutputPath>` folder.
 
 Do not override `<OutDir>` directly in your build process; override `<OutputPath>` instead to drop build artifacts to a specific location.
 
-## Set the location of build artifacts
+### Overriding your properties based on the `<LiveUnitTestingBuildRootPath>` property.
+
+> [!NOTE]
+> In this approach, you need to be careful about files added under the artifacts folder that are not generated during build. The example below shows what to do when placing the packages folder under artifacts. Because the contents of this folder are not generated during the build, the MSBuild property **should not be changed**.
+
+During a Live Unit Testing build, the `<LiveUnitTestingBuildRootPath>` property is set to the location of Live Unit Testing artifacts folder.
+
+For example, assume that your project has the structure shown here.
+
+```
+.vs\...\lut\0\b
+artifacts\{binlog,obj,bin,nupkg,testresults,packages}
+src\{proj1,proj2,proj3}
+tests\{testproj1,testproj2}
+Solution.sln
+```
+During the Live Unit Testing build, the `<LiveUnitTestingBuildRootPath>` property is set to the full path of `.vs\...\lut\0\b`. If the project defines `<ArtifactsRoot>` property that maps to the solution dir, you can update the MSBuild project as follows:
+
+```xml
+<Project>
+    <PropertyGroup Condition="'$(LiveUnitTestingBuildRootPath)' == ''">
+        <SolutionDir>$([MSBuild]::GetDirectoryNameOfFileAbove(`$(MSBuildProjectDirectory)`, `YOUR_SOLUTION_NAME.sln`))\</SolutionDir>
+
+        <ArtifactsRoot>Artifacts\</ArtifactsRoot>
+        <ArtifactsRoot Condition="'$(LiveUnitTestingBuildRootPath)' != ''">$(LiveUnitTestingBuildRootPath)</ArtifactsRoot>
+    </PropertyGroup>
+
+    <PropertyGroup>
+        <BinLogPath>$(ArtifactsRoot)\BinLog</BinLogPath>
+        <ObjPath>$(ArtifactsRoot)\Obj</ObjPath>
+        <BinPath>$(ArtifactsRoot)\Bin</BinPath>
+        <NupkgPath>$(ArtifactsRoot)\Nupkg</NupkgPath>
+        <TestResultsPath>$(ArtifactsRoot)\TestResults</TestResultsPath>
+
+        <!-- Note: Given that a build doesn't generate packages, the path should be relative to the solution dir, rather than artifacts root, which will change during a Live Unit Testing build. -->
+        <PackagesPath>$(SolutionDir)\artifacts\packages</PackagesPath>
+    </PropertyGroup>
+</Project>
+```
+
+## Build artifact location
 
 **I want the artifacts of a Live Unit Testing build to go to a specific location instead of the default location under the *.vs* folder. How can I change that?**
 
 Set the `LiveUnitTesting_BuildRoot` user-level environment variable to the path where you want the Live Unit Testing build artifacts to be dropped. 
 
-## Test Explorer vs. Live Unit Testing test runs
+## Test Explorer versus Live Unit Testing
 
 **How is running tests from Test Explorer window different from running tests in Live Unit Testing?**
 
@@ -133,11 +177,9 @@ There are several differences:
 
 - Live Unit Testing does not create a new application domain to run tests, but tests run from the **Test Explorer** window do create a new application domain.
 
-- Live Unit Testing runs tests in each test assembly sequentially; in the **Test Explorer** window, you can choose to run multiple tests in parallel.
+- Live Unit Testing runs tests in each test assembly sequentially. In **Test Explorer**, you can choose to run multiple tests in parallel.
 
-- Discovery and execution of tests in Live Unit Testing uses version 2 of `TestPlatform`, whereas the **Test Explorer** window uses version 1. You won't notice a difference in most cases, though.
-
-- **Test Explorer** currently runs tests in a single-threaded apartment (STA) by default, whereas Live Unit Testing runs tests in a multithreaded apartment (MTA). To run MSTest tests in STA in Live Unit Testing, decorate the test method or the containing class with the `<STATestMethod>` or `<STATestClass>` attribute that can be found in the `MSTest.STAExtensions 1.0.3-beta` NuGet package. For NUnit, decorate the test method with the `<RequiresThread(ApartmentState.STA)>` attribute, and for xUnit, with the `<STAFact>` attribute.
+- **Test Explorer** runs tests in a single-threaded apartment (STA) by default, whereas Live Unit Testing runs tests in a multi-threaded apartment (MTA). To run MSTest tests in STA in Live Unit Testing, decorate the test method or the containing class with the `<STATestMethod>` or `<STATestClass>` attribute that can be found in the `MSTest.STAExtensions 1.0.3-beta` NuGet package. For NUnit, decorate the test method with the `<RequiresThread(ApartmentState.STA)>` attribute, and for xUnit, with the `<STAFact>` attribute.
 
 ## Exclude tests
 
@@ -168,6 +210,8 @@ public class Class1
 }
 ```
 
+::: moniker range="vs-2017"
+
 ## Win32 PE headers
 
 **Why are Win32 PE headers different in instrumented assemblies built by Live Unit testing?**
@@ -184,27 +228,15 @@ For older versions of Visual Studio 2017, there is a known bug that may result i
 
 Tests that rely on these values may fail when executed by Live Unit testing.
 
+::: moniker-end
+
 ## Continuous builds
 
 **Why does Live Unit testing keep building my solution all the time even if I am not making any edits?**
 
-Your solution can build even if you're not making edits if the build process of your solution generates source code that is part of the solution itself, and your build target files do not have appropriate inputs and outputs specified. Targets should be given a list of inputs and outputs so that MSBuild can perform the appropriate up-to-date checks and determine whether a new build is required.
+Your solution can build even if you're not making edits if the build process generates source code that's part of the solution itself, and your build target files don't have appropriate inputs and outputs specified. Targets should be given a list of inputs and outputs so that MSBuild can perform the appropriate up-to-date checks and determine whether a new build is required.
 
-Live Unit Testing starts a build whenever it detects that source files have changed. Because the build of your solution generates source files, Live Unit Testing will get into an infinite build loop. If, however, the inputs and outputs of the target are checked when Live Unit Testing starts the second build (after detecting the newly generated source files from the previous build), it will break out of the build loop because the inputs and outputs checks will indicate that everything is up-to-date.  
-
-## New process coverage
-
-**Why doesn't Live Unit Testing capture coverage from a new process created by a test?**
-
-This is a known issue and should be fixed in a subsequent release.
-
-## Including or excluding tests doesn't work
-
-**Why does nothing happen after I include or exclude tests from the Live Test set?**
-
-This issue is fixed and does not exist in Visual Studio 2017 version 15.3 and later.
-
-For older versions of Visual Studio 2017, this is a known issue. To work around this issue, you will need to make an edit to any file after you have included or excluded tests.
+Live Unit Testing starts a build whenever it detects that source files have changed. Because the build of your solution generates source files, Live Unit Testing gets into an infinite build loop. If, however, the inputs and outputs of the target are checked when Live Unit Testing starts the second build (after detecting the newly generated source files from the previous build), it breaks out of the build loop because the inputs and outputs checks indicate that everything is up-to-date.
 
 ## Editor icons
 

@@ -11,8 +11,8 @@ helpviewer_keywords:
   - "saving data, walkthroughs"
   - "data [Visual Studio], updating"
 ms.assetid: 7ebe03da-ce8c-4cbc-bac0-a2fde4ae4d07
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "data-storage"

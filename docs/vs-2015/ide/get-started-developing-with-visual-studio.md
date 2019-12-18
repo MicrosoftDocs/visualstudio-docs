@@ -8,22 +8,22 @@ helpviewer_keywords:
   - "Visual Studio, getting started"
 ms.assetid: 041ef726-f117-4a91-9c18-fef043bf2529
 caps.latest.revision: 67
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # Get Started Developing with Visual Studio
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-Welcome to Visual Studio! After you have [downloaded](http://www.visualstudio.com/community) the product, these pages will help you get started coding.
+Welcome to Visual Studio! After you have [downloaded](https://visualstudio.microsoft.com/vs/community/) the product, these pages will help you get started coding.
 
 - **[Make web apps](https://www.visualstudio.com/features/modern-web-tooling-vs):** Tools to create and deploy modern web applications.
 
-     [Do a tutorial](https://docs.asp.net/en/latest/tutorials/your-first-aspnet-application.html) &#124;                               [Browse the docs](https://docs.asp.net/) &#124;                                   [Watch a video](http://www.asp.net/vnext)
+     [Do a tutorial](https://docs.asp.net/en/latest/tutorials/your-first-aspnet-application.html) &#124;                               [Browse the docs](https://docs.asp.net/) &#124;                                   [Watch a video](https://docs.microsoft.com/aspnet/core/?view=aspnetcore-3.0)
 
-- **[Make cross-platform mobile apps in HTML/Javascript (Apache Cordova)](http://taco.visualstudio.com/docs/get-started-first-mobile-app/)** :               Apache Cordova is an open-source cross-platform environment that is based on HTML/CSS/Javascript.  Your Javascript code executes in a wrapper that                  targets a specific platform and enables access to all the hardware capabilities of the device. Develop apps for the Apple Store, the Android store, and the Windows Store.
+- **[Make cross-platform mobile apps in HTML/Javascript (Apache Cordova)](https://docs.microsoft.com/visualstudio/cross-platform/tools-for-cordova/?view=toolsforcordova-2017)** :               Apache Cordova is an open-source cross-platform environment that is based on HTML/CSS/Javascript.  Your Javascript code executes in a wrapper that                  targets a specific platform and enables access to all the hardware capabilities of the device. Develop apps for the Apple Store, the Android store, and the Windows Store.
 
-     [Load a sample](https://github.com/Microsoft/cordova-samples/tree/master/todo-angularjs) &#124;   [Do a tutorial](http://taco.visualstudio.com/docs/get-started-first-mobile-app/) &#124;                               [Browse the docs](http://taco.visualstudio.com/docs/get-started-vs-tools-apache-cordova/) &#124;                                [Watch a video](https://channel9.msdn.com/Blogs/Seth-Juarez/Getting-Started-with-Apache-Cordova-in-Visual-Studio)
+     [Load a sample](https://github.com/Microsoft/cordova-samples/tree/master/todo-angularjs) &#124;   [Do a tutorial](https://docs.microsoft.com/visualstudio/cross-platform/tools-for-cordova/?view=toolsforcordova-2017) &#124;                               [Browse the docs](https://docs.microsoft.com/visualstudio/cross-platform/tools-for-cordova/?view=toolsforcordova-2017) &#124;                                [Watch a video](https://channel9.msdn.com/Blogs/Seth-Juarez/Getting-Started-with-Apache-Cordova-in-Visual-Studio)
 
 - **[Make cross-platform mobile apps in C# or Visual Basic (Xamarin)](../cross-platform/visual-studio-and-xamarin.md)** : Get started using Visual Studio and Tools for Xamarin to create mobile apps that run on Android, iOS, and the Universal Windows Platform from a shared code base.
 
@@ -39,7 +39,7 @@ Welcome to Visual Studio! After you have [downloaded](http://www.visualstudio.co
 
 - **[Make games with Unity](../cross-platform/visual-studio-tools-for-unity.md)** : Get started creating cross-platform games using Unity framework.
 
-     [Load a sample](http://unity3d.com/learn/resources/downloads) &#124;                     [Do a tutorial](http://unity3d.com/learn/tutorials/projects/roll-ball-tutorial) &#124;                               [Browse the docs](https://msdn.microsoft.com/library/dn940019\(v=vs.140\).aspx) &#124;     [Watch a video](https://www.youtube.com/playlist?list=PLReL099Y5nRfseAg0k1SJOlpqdcsDs8Em)
+     [Load a sample](http://unity3d.com/learn/resources/downloads) &#124;                     [Do a tutorial](https://learn.unity.com/projects) &#124;                               [Browse the docs](https://msdn.microsoft.com/library/dn940019\(v=vs.140\).aspx) &#124;     [Watch a video](https://www.youtube.com/playlist?list=PLReL099Y5nRfseAg0k1SJOlpqdcsDs8Em)
 
 - **[Make Universal Windows Platform apps](https://dev.windows.com/windows-apps)** : Get started creating apps that run on the Universal Windows Platform (XBox, PCs, tablets, Windows Phone, Surface Hub, and Internet of Things).
 
@@ -51,7 +51,7 @@ Welcome to Visual Studio! After you have [downloaded](http://www.visualstudio.co
 
 - **[Make Office applications](https://msdn.microsoft.com/library/fp161347.aspx)** : Get started creating Office applications that extend and customize Word, Excel, Outlook and PowerPoint with Office 365 services.
 
-     [Load a sample](https://code.msdn.microsoft.com/office365/) &#124;                       [Do a tutorial](http://dev.office.com/getting-started/office365apis) &#124;                              [Browse the docs](https://msdn.microsoft.com/office/aa905340.aspx) &#124;                                   [Watch a video](http://dev.office.com/videos)
+     [Load a sample](https://code.msdn.microsoft.com/office365/) &#124;                       [Do a tutorial](https://developer.microsoft.com/graph) &#124;                              [Browse the docs](https://msdn.microsoft.com/office/aa905340.aspx) &#124;                                   [Watch a video](https://developer.microsoft.com/office/gallery/?filterBy=Videos)
 
 - **[Tour Visual Studio Team Services and Team Foundation Server](https://www.visualstudio.com/products/visual-studio-team-services-vs)**  Learn more about Visual Studio Team Services and Team Foundation Server.
 

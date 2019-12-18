@@ -24,8 +24,8 @@ helpviewer_keywords:
   - "Class Details window"
   - "Class Details window, member creation"
 ms.assetid: 42af8738-3738-4ca7-82ff-edf573a68f96
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

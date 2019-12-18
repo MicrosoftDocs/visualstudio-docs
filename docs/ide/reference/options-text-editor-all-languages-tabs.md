@@ -36,8 +36,8 @@ helpviewer_keywords:
   - "Code Editor, indenting"
   - "Code Editor, tabs"
 ms.assetid: 7e208e1d-5e3a-4bf7-a27b-4417e3e049c7
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

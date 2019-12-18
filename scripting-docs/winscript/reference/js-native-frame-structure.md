@@ -43,5 +43,5 @@ typedef struct {
 ## Remarks  
  The `JS_NATIVE_FRAME` struct is used by `IJsStackFrameEnumerator`.  
   
-## See Also  
+## See also  
  [Active Script Debugger Constants, Enumerations, and Structures](../../winscript/reference/active-script-debugger-constants-enumerations-and-structures.md)

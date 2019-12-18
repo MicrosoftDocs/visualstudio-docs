@@ -43,5 +43,5 @@ HRESULT Skip(
 ## Remarks  
  This method skips a specified number of segments in an enumeration sequence.  
   
-## See Also  
+## See also  
  [IEnumDebugCodeContexts Interface](../../winscript/reference/ienumdebugcodecontexts-interface.md)

@@ -1,0 +1,78 @@
+### YamlMime:Landing
+
+title: XAML tools documentation
+summary: Visual Studio provides multiple tools to help you create XAML-based apps. These include the XAML editor and designer as well as debugging features.
+
+metadata:
+  title: XAML tools documentation
+  description: Navigate to different pages that help you learn how to use XAML tools in Visual Studio.
+  ms.prod: visual-studio-windows
+  ms.technology: vs-ide-designers
+  ms.topic: landing-page
+  author: jillre
+  ms.author: jillfra
+  ms.date: 10/10/2019
+
+# linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
+
+# Cards and links should be based on top customer tasks or top subjects
+# Start card title with a verb
+
+landingContent:
+  # Card
+  - title: Learn about XAML
+    linkLists:
+      - linkListType: overview
+        links:
+          - text: XAML overview
+            url: xaml-overview.md
+
+  # Card
+  - title: Use XAML Designer
+    linkLists:
+      - linkListType: overview
+        links:
+          - text: Design XAML in Visual Studio and Blend
+            url: designing-xaml-in-visual-studio.md
+          - text: About XAML Designer
+            url: creating-a-ui-by-using-xaml-designer-in-visual-studio.md
+
+  # Card
+  - title: Debug XAML
+    linkLists:
+      - linkListType: overview
+        links:
+          - text: Write and debug running XAML code
+            url: xaml-hot-reload.md
+          - text: Inspect XAML properties
+            url: inspect-xaml-properties-while-debugging.md
+          - text: Debug WPF apps
+            url: ../debugger/debugging-wpf.md
+          - text: Debug UWP apps
+            url: ../debugger/debugging-windows-store-and-windows-universal-apps.md
+          - text: Debug XAML in Blend
+            url: debug-xaml-in-blend.md
+
+  # Card
+  - title: Develop WPF apps
+    linkLists:
+      - linkListType: overview
+        links:
+          - text: WPF overview
+            url: ../designers/introduction-to-wpf.md
+      - linkListType: get-started
+        links:
+          - text: Get started with WPF in Visual Studio
+            url: ../designers/getting-started-with-wpf.md
+
+  # Card
+  - title: Develop UWP apps
+    linkLists:
+      - linkListType: overview
+        links:
+          - text: UWP overview
+            url: /windows/uwp/get-started/
+      - linkListType: get-started
+        links:
+          - text: Get started with UWP in Visual Studio
+            url: /windows/uwp/get-started/get-set-up

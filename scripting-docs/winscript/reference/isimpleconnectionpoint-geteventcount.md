@@ -43,5 +43,5 @@ HRESULT GetEventCount(
 ## Remarks  
  This method returns the number of events exposed on this interface.  
   
-## See Also  
+## See also  
  [ISimpleConnectionPoint Interface](../../winscript/reference/isimpleconnectionpoint-interface.md)

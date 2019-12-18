@@ -37,5 +37,5 @@ typedef enum tagSCRIPTTHREADSTATE {
 |SCRIPTTHREADSTATE_NOTINSCRIPT|Specified thread is not currently servicing a scripted event, processing immediately executed script text, or running a script macro.|  
 |SCRIPTTHREADSTATE_RUNNING|Specified thread is actively servicing a scripted event, processing immediately executed script text, or running a script macro.|  
   
-## See Also  
+## See also  
  [Active Script Constants, Enumerations, and Error Codes](../../winscript/reference/active-script-constants-enumerations-and-error-codes.md)

@@ -12,8 +12,8 @@ helpviewer_keywords:
   - "CA1400"
 ms.assetid: 1d64e470-7b2f-4cca-8fb0-ac92829e6332
 caps.latest.revision: 21
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: "wpickett"
 ---
 # CA1400: P/Invoke entry points should exist

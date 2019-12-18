@@ -9,8 +9,8 @@ helpviewer_keywords:
   - "load tests, virtual networks"
   - "network mix"
 ms.assetid: 3c4f7874-081a-4ec4-9510-4d6d7d863a11
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # Specify virtual network types in a load test scenario

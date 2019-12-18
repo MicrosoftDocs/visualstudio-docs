@@ -48,7 +48,7 @@ HRESULT findSymbolsByRVAForAcceleratorPointerTag ( 
 ## Remarks
  Call this method only on an `IDiaSymbol` interface that corresponds to an Accelerator stub function.
 
-## See Also
+## See also
 - [IDiaSession](../../debugger/debug-interface-access/idiasession.md)
 - [IDiaEnumSymbols](../../debugger/debug-interface-access/idiaenumsymbols.md)
 - [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)

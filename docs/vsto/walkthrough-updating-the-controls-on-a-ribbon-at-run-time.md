@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Update the controls on a ribbon at runtime"
+title: "Walkthrough: Update the controls on a ribbon at run time"
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -18,7 +18,7 @@ manager: jillfra
 ms.workload:
   - "office"
 ---
-# Walkthrough: Update the controls on a ribbon at runtime
+# Walkthrough: Update the controls on a ribbon at run time
 
 This walkthrough demonstrates how to use the Ribbon object model to update the controls on a ribbon after the ribbon is loaded into the Office application.
 
@@ -34,7 +34,7 @@ This walkthrough illustrates the following tasks:
 
 - Add the custom group to a built-in tab.
 
-- Update controls on the ribbon at runtime.
+- Update controls on the ribbon at run time.
 
 > [!NOTE]
 > Your computer might show different names or locations for some of the Visual Studio user interface elements in the following instructions. The Visual Studio edition that you have and the settings that you use determine these elements. For more information, see [Personalize the Visual Studio IDE](../ide/personalizing-the-visual-studio-ide.md).
@@ -97,7 +97,7 @@ The ribbon for this example will appear when a user composes a new mail message.
 
 13. Set **Dynamic** to **true**.
 
-     This enables you to add and remove controls on the menu at runtime after the ribbon is loaded into the Office application.
+     This enables you to add and remove controls on the menu at run time after the ribbon is loaded into the Office application.
 
 ## Add the custom group to a built-in tab
 
@@ -153,7 +153,7 @@ Use the **Data Sources** window to add a typed dataset to your project.
 
 9. Click **Finish**.
 
-## Update controls in the custom group at runtime
+## Update controls in the custom group at run time
 
 Use the Ribbon object model to perform the following tasks:
 
@@ -187,7 +187,7 @@ Use the Ribbon object model to perform the following tasks:
     [!code-csharp[Trin_Ribbon_Update_At_Runtime#2](../vsto/codesnippet/CSharp/Ribbon_Update_At_Runtime/CustomerRibbon.cs#2)]
     [!code-vb[Trin_Ribbon_Update_At_Runtime#2](../vsto/codesnippet/VisualBasic/Ribbon_Update_At_Runtime/CustomerRibbon.vb#2)]
 
-7. Add the following block of code to the `CustomerRibbon` class. This code adds three helper methods that create controls for the ribbon at runtime.
+7. Add the following block of code to the `CustomerRibbon` class. This code adds three helper methods that create controls for the ribbon at run time.
 
     [!code-csharp[Trin_Ribbon_Update_At_Runtime#3](../vsto/codesnippet/CSharp/Ribbon_Update_At_Runtime/CustomerRibbon.cs#3)]
     [!code-vb[Trin_Ribbon_Update_At_Runtime#3](../vsto/codesnippet/VisualBasic/Ribbon_Update_At_Runtime/CustomerRibbon.vb#3)]
@@ -247,7 +247,7 @@ Use the Ribbon object model to perform the following tasks:
 
 When you open a new mail form in Outlook, a custom group named **Customer Purchases** appears on the **Messages** tab of the Ribbon.
 
-To create a customer follow-up email message, select a customer, and then select products purchased by the customer. The controls in the **Customer Purchases** group are updated at runtime with data from the Northwind database.
+To create a customer follow-up email message, select a customer, and then select products purchased by the customer. The controls in the **Customer Purchases** group are updated at run time with data from the Northwind database.
 
 ### To test the controls in the custom group
 
@@ -291,7 +291,7 @@ You can learn more about how to customize the Office UI from these topics:
 
 ## See also
 
-- [Access the ribbon at runtime](../vsto/accessing-the-ribbon-at-run-time.md)
+- [Access the ribbon at run time](../vsto/accessing-the-ribbon-at-run-time.md)
 - [Ribbon overview](../vsto/ribbon-overview.md)
 - [Language-Integrated Query (LINQ)](/dotnet/csharp/linq/index)
 - [How to: Get started customizing the ribbon](../vsto/how-to-get-started-customizing-the-ribbon.md)

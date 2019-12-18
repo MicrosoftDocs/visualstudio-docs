@@ -8,8 +8,8 @@ helpviewer_keywords:
   - "Add Existing Project command"
   - "File.AddExistingProject"
 ms.assetid: 71cf3e31-c76b-405b-ad6a-1b1bc654bd40
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"
@@ -41,7 +41,7 @@ This example adds the [!INCLUDE[vbprvb](../../code-quality/includes/vbprvb_md.md
 >File.AddExistingProject "c:\visual studio projects\TestProject1.vbproj"
 ```
 
-## See Also
+## See also
 
 - [Visual Studio Commands](../../ide/reference/visual-studio-commands.md)
 - [Command Window](../../ide/reference/command-window.md)

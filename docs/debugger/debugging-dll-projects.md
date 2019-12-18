@@ -78,7 +78,7 @@ For C/C++ projects, you can set header and LIB file locations in the project pro
 
 1. Select **OK**.
 
-For more information on C++ project settings, see [Property pages (Visual C++)](/cpp/build/reference/property-pages-visual-cpp).
+For more information on C++ project settings, see [Windows C++ property page reference](/cpp/build/reference/property-pages-visual-cpp).
 
 ## <a name="vxtskdebuggingdllprojectsbuildingadebugversion"></a> Build a Debug version
 
@@ -90,7 +90,7 @@ Make sure to call the DLL in its correct location. This may seem obvious, but if
 
 ## <a name="vxtskdebuggingdllprojectswaystodebugthedll"></a> Debug a DLL
 
-You can't run a DLL directly. It must be called by an app, usually an *.exe* file. For more information, see [Create and manage Visual C++ projects](/cpp/ide/creating-and-managing-visual-cpp-projects).
+You can't run a DLL directly. It must be called by an app, usually an *.exe* file. For more information, see [Visual Studio projects - C++](/cpp/ide/creating-and-managing-visual-cpp-projects).
 
 To debug a DLL, you can [start debugging from the calling app](#vxtskdebuggingdllprojectsthecallingapplication), or [debug from the DLL project](how-to-debug-from-a-dll-project.md) by specifying its calling app. You can also use the debugger [Immediate window](#vxtskdebuggingdllprojectstheimmediatewindow) to evaluate DLL functions or methods at design time, without using a calling app.
 
@@ -156,7 +156,7 @@ You can also debug a native DLL from a managed calling project. For more informa
 
 ## See also
 - [Debug managed code](../debugger/debugging-managed-code.md)
-- [Visual C++ project types](../debugger/debugging-preparation-visual-cpp-project-types.md)
+- [Prepare to debug C++ projects](../debugger/debugging-preparation-visual-cpp-project-types.md)
 - [C#, F#, and Visual Basic project types](../debugger/debugging-preparation-csharp-f-hash-and-visual-basic-project-types.md)
 - [Project settings for a C++ Debug configuration](../debugger/project-settings-for-a-cpp-debug-configuration.md)
 - [Project settings for  C# Debug configurations](../debugger/project-settings-for-csharp-debug-configurations.md)

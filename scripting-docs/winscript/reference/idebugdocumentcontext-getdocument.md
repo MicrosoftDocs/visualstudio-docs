@@ -43,5 +43,5 @@ HRESULT GetDocument(
 ## Remarks  
  The `GetDocument` method returns the document that contains this context.  
   
-## See Also  
+## See also  
  [IDebugDocumentContext Interface](../../winscript/reference/idebugdocumentcontext-interface.md)

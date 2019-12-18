@@ -87,7 +87,7 @@ Use the Graphics Event List in Visual Studio Graphics Analyzer to explore the Di
 ### User-defined events in Direct3D 11 and earlier  
  To create groups and markers in Direct3D 11 or earlier, use the APIs described in this section. The table below summarizes the APIs that you can use for different versions of Direct3D 11 and earlier versions of Direct3D.  
   
-|API Description|[ID3D11DeviceContext2](/windows/desktop/api/d3d11_2/nn-d3d11_2-id3d11devicecontext2) (Direct3D 11.2)|[ID3DUserDefinedAnnotation](http://go.microsoft.com/fwlink/p/?LinkID=250967) (Direct3D 11.1)|D3DPerf_ API family (Direct3D 11.0 and earlier)|  
+|API Description|[ID3D11DeviceContext2](/windows/desktop/api/d3d11_2/nn-d3d11_2-id3d11devicecontext2) (Direct3D 11.2)|[ID3DUserDefinedAnnotation](https://go.microsoft.com/fwlink/p/?LinkID=250967) (Direct3D 11.1)|D3DPerf_ API family (Direct3D 11.0 and earlier)|  
 |---------------------|---------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------|--------------------------------------------------------|  
 |Begin an event group|`BeginEventInt`|`BeginEvent`|`D3DPerf_BeginEvent`|  
 |End an event group|`EndEventInt`|`EndEvent`|`D3DPerf_EndEvent`|  

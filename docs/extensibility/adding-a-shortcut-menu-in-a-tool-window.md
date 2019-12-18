@@ -123,7 +123,7 @@ A shortcut menu such as the one shown in this walkthrough lets the user select f
 
 1. In *ShortcutMenu.cs*, the tool window can get the menu command service, but the control it contains cannot. The following steps show how to make the menu command service available to the user control.
 
-2. In *ShortcutMenu.cs*, add the following using statements:
+2. In *ShortcutMenu.cs*, add the following using directives:
 
     ```csharp
     using Microsoft.VisualStudio.Shell;
@@ -208,7 +208,7 @@ A shortcut menu such as the one shown in this walkthrough lets the user select f
     }
     ```
 
-8. Add the following using statements to the same file:
+8. Add the following using directives to the same file:
 
     ```csharp
     using Microsoft.VisualStudio.Shell;

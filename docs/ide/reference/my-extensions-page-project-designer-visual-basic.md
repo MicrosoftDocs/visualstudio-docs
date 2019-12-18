@@ -8,8 +8,8 @@ helpviewer_keywords:
   - "Project Designer, My Extensions page"
   - "My Extensions page in Project Designer"
 ms.assetid: 2f08494e-84c1-444b-872b-900fbbcf0364
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"
@@ -34,7 +34,7 @@ Click this button to add an installed `My` namespace extension to your project. 
 
 Select one or more references in the **My namespace extensions** list, and then click this button to remove the `My` namespace extension from the project.
 
-## See Also
+## See also
 
 - [Extending the My Namespace in Visual Basic](/dotnet/visual-basic/developing-apps/customizing-extending-my/extending-the-my-namespace)
 - [Packaging and Deploying Custom My Extensions](/dotnet/visual-basic/developing-apps/customizing-extending-my/packaging-and-deploying-custom-my-extensions)

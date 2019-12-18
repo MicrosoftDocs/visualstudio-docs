@@ -170,5 +170,5 @@ class TestLanguageService : LanguageService
 
     ```
 
-## See Also
+## See also
 - [Support for Code Snippets in a Legacy Language Service](../../extensibility/internals/support-for-code-snippets-in-a-legacy-language-service.md)

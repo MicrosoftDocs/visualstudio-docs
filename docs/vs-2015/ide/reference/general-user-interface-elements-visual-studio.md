@@ -6,8 +6,8 @@ ms.technology: "vs-ide-general"
 ms.topic: reference
 ms.assetid: bc67652d-1001-4979-ba71-d57147d21928
 caps.latest.revision: 40
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # General User Interface Elements (Visual Studio)

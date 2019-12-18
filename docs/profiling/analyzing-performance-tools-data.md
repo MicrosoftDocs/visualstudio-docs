@@ -14,6 +14,7 @@ ms.assetid: ae3e198a-b994-4ecb-a633-dec98bd4fd45
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jillfra
+monikerRange: 'vs-2017'
 ms.workload:
   - "multiple"
 ---
@@ -35,5 +36,5 @@ The performance reports of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.
 
 ## See also
 - [Performance Explorer](../profiling/performance-explorer.md)
-- [Profiling in Visual Studio](../profiling/index.md)
+- [Profiling in Visual Studio](../profiling/index.yml)
 - [First look at profiling tools](../profiling/profiling-feature-tour.md)

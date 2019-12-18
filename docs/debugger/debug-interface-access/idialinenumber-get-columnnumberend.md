@@ -35,5 +35,5 @@ HRESULT get_columnNumberEnd ( 
 ## Remarks
  The column value returned by this method is a byte offset into the line to the position after the last character of the statement on the line.
 
-## See Also
+## See also
 - [IDiaLineNumber](../../debugger/debug-interface-access/idialinenumber.md)

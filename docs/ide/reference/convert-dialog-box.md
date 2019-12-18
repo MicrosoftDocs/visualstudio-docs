@@ -9,8 +9,8 @@ f1_keywords:
 helpviewer_keywords:
   - "Convert dialog box"
 ms.assetid: 56f23ef7-17c4-4d76-9ead-982bbcd42061
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

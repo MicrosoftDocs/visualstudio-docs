@@ -9,6 +9,7 @@ helpviewer_keywords:
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jillfra
+monikerRange: 'vs-2017'
 ms.workload:
   - "multiple"
 ---
@@ -79,7 +80,7 @@ For more information, see [How to: Collect CPU counter data](../profiling/how-to
 
 ## Windows events
 
-During profiling, you can collect data from event trace providers. You can view the data by using the *VSPerfReport.exe* command line tool `/calltrace` option. For more information about Event Tracing for Windows (ETW), see [About Event Tracing](http://go.microsoft.com/fwlink/?linkid=90752).
+During profiling, you can collect data from event trace providers. You can view the data by using the *VSPerfReport.exe* command line tool `/calltrace` option. For more information about Event Tracing for Windows (ETW), see [About Event Tracing](/windows/win32/etw/about-event-tracing).
 
 For more information, see:
 

@@ -20,8 +20,8 @@ helpviewer_keywords:
   - "defaults, colors"
   - "printers, customizing"
 ms.assetid: c767d302-51ed-47a8-a527-c07bce2aa485
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

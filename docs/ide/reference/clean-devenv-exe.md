@@ -8,8 +8,8 @@ helpviewer_keywords:
   - "/Clean Devenv switch"
   - "Devenv, /Clean switch"
 ms.assetid: 79929dfd-22c9-4cec-a0d0-a16f15b8f7e4
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

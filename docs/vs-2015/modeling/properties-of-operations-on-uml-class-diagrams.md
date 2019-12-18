@@ -4,44 +4,44 @@ ms.date: 11/15/2016
 ms.prod: visual-studio-dev14
 ms.technology: vs-ide-modeling
 ms.topic: reference
-f1_keywords: 
+f1_keywords:
   - "vs.teamarch.logicalclassdiagram.operation.properties"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "UML, element properties"
 ms.assetid: 4128f3e2-3a51-4edf-b3e4-b7f170a32f6b
 caps.latest.revision: 21
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # Properties of operations on UML class diagrams
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-On a UML class diagram, you can add *operations* to classes and interfaces. An operation is a method or function that can be performed by an instance of a class or interface.  
+On a UML class diagram, you can add *operations* to classes and interfaces. An operation is a method or function that can be performed by an instance of a class or interface.
 
- To add an operation, right-click the class or interface, point to **Add**, and then click **Operation**.  
+ To add an operation, right-click the class or interface, point to **Add**, and then click **Operation**.
 
- If the operations of a class on the diagram are not visible, click the expand chevron at the top of the class or interface. If you can see the **Operation** header, click **[+]** to expand the operations section.  
+ If the operations of a class on the diagram are not visible, click the expand chevron at the top of the class or interface. If you can see the **Operation** header, click **[+]** to expand the operations section.
 
-## Signature of an Operation  
- The signature of an operation is the line of text that represents it in a class or interface on a UML class diagram. It has the following form:  
+## Signature of an Operation
+ The signature of an operation is the line of text that represents it in a class or interface on a UML class diagram. It has the following form:
 
- \+ OperationName (parameter1 : Type1 [*], ...) : ReturnType [\*]  
+ \+ OperationName (parameter1 : Type1 [*], ...) : ReturnType [\*]
 
- \+ denotes public Visibility. The other permitted values are - (private), # (protected), ~ (package).  
+ \+ denotes public Visibility. The other permitted values are - (private), # (protected), ~ (package).
 
- `OperationName` is underlined if the **Is Static** property is true, and is italic if the **Is Abstract** property is true.  
+ `OperationName` is underlined if the **Is Static** property is true, and is italic if the **Is Abstract** property is true.
 
- `: ReturnType` is omitted if no return type is defined.  
+ `: ReturnType` is omitted if no return type is defined.
 
- `[*]` denotes the multiplicity of a parameter or return type. It is omitted if the multiplicity is 1.  
+ `[*]` denotes the multiplicity of a parameter or return type. It is omitted if the multiplicity is 1.
 
- See the next section for a full description of these properties.  
+ See the next section for a full description of these properties.
 
-## Properties  
- These are the properties of an operation in a class or interface on a UML class diagram.  
+## Properties
+ These are the properties of an operation in a class or interface on a UML class diagram.
 
- To see the properties of an operation, right-click the operation in the class or interface on the diagram, and then click **Properties**. The properties appear in the **Properties** window.  
+ To see the properties of an operation, right-click the operation in the class or interface on the diagram, and then click **Properties**. The properties appear in the **Properties** window.
 
 |      Property       |   Default    |                                                                                                                                                                                 Description                                                                                                                                                                                 |
 |---------------------|--------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -63,9 +63,9 @@ On a UML class diagram, you can add *operations* to classes and interfaces. An o
 |   **Is Ordered**    |    False     |                                                                                                                                             If true, the collection forms a sequential list. For **Multiplicity** more than 1.                                                                                                                                              |
 |    **Is Unique**    |    False     |                                                                                                                                         If true, there are no duplicate values in the collection. For **Multiplicity** more than 1.                                                                                                                                         |
 
-## See Also  
- [UML Class Diagrams: Reference](../modeling/uml-class-diagrams-reference.md)   
- [Properties of types on UML class diagrams](../modeling/properties-of-types-on-uml-class-diagrams.md)   
- [Properties of attributes on UML class diagrams](../modeling/properties-of-attributes-on-uml-class-diagrams.md)   
- [Properties of associations on UML class diagrams](../modeling/properties-of-associations-on-uml-class-diagrams.md)   
+## See Also
+ [UML Class Diagrams: Reference](../modeling/uml-class-diagrams-reference.md)
+ [Properties of types on UML class diagrams](../modeling/properties-of-types-on-uml-class-diagrams.md)
+ [Properties of attributes on UML class diagrams](../modeling/properties-of-attributes-on-uml-class-diagrams.md)
+ [Properties of associations on UML class diagrams](../modeling/properties-of-associations-on-uml-class-diagrams.md)
  [UML Class Diagrams: Guidelines](../modeling/uml-class-diagrams-guidelines.md)

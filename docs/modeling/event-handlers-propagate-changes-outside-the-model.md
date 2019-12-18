@@ -5,8 +5,8 @@ ms.topic: conceptual
 helpviewer_keywords:
   - "Domain-Specific Language, programming domain models"
   - "Domain-Specific Language, events"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"
@@ -178,7 +178,7 @@ Each event type corresponds to a collection in Store.EventManagerDirectory. You 
 |TransactionCommitted||
 |TransactionRolledBack||
 
-## See Also
+## See also
 
 - [Responding to and Propagating Changes](../modeling/responding-to-and-propagating-changes.md)
 - [Sample code: Circuit Diagrams](https://code.msdn.microsoft.com/Visualization-Modeling-SDK-763778e8)

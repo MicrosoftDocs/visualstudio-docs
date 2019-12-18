@@ -175,7 +175,7 @@ There are several ways to disable the Snapshot Debugger:
 
 - Azure portal > your virtual machine/virtual machine scale set resource blade > Extensions > Uninstall Microsoft.Insights.VMDiagnosticsSettings extension
 
-- PowerShell Cmdlets from [Az PowerShell](https://docs.microsoft.com/powershell/azure/overview)
+- PowerShell Cmdlets from [Az PowerShell](/powershell/azure/overview)
 
    Virtual machine:
 
@@ -192,7 +192,7 @@ There are several ways to disable the Snapshot Debugger:
 
 ## See also
 
-- [Debugging in Visual Studio](../debugger/index.md)
+- [Debugging in Visual Studio](../debugger/index.yml)
 - [Debug live ASP.NET apps using the Snapshot Debugger](../debugger/debug-live-azure-applications.md)
 - [Debug live ASP.NET Azure Virtual Machines\Virtual Machines scale sets using the Snapshot Debugger](../debugger/debug-live-azure-virtual-machines.md)
 - [Debug live ASP.NET Azure Kubernetes using the Snapshot Debugger](../debugger/debug-live-azure-kubernetes.md)

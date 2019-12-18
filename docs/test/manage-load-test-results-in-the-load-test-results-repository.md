@@ -8,8 +8,8 @@ helpviewer_keywords:
   - "load test results, repository"
   - "Load Test Results Repository"
 ms.assetid: 1cd63c4b-4f74-4133-b675-5e8fbeab25f3
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # Manage load test results in the Load Test Results Repository

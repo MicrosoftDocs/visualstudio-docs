@@ -6,6 +6,7 @@ ms.assetid: 8aa067bb-e8bf-4081-aff0-cfbcf65934a0
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jillfra
+monikerRange: 'vs-2017'
 ms.workload:
   - "multiple"
 ---
@@ -39,7 +40,7 @@ To display symbol information such as function names and line numbers, the VSPer
 
 2. Use the following syntax to set the **_NT_SYMBOL_PATH** environment variable or the VSPerfReport /SymbolPath option:
 
-    **srv\\*** *LocalStore* **\*http://msdl.microsoft.com/downloads/symbols**
+    **srv\\*** *LocalStore* **\*http://msdl.microsoft.com/download/symbols**
 
     where *LocalStore* is the path of the local directory that you created.
 
@@ -49,7 +50,7 @@ To display symbol information such as function names and line numbers, the VSPer
 ## Example
  The following command line sets the **_NT_SYMBOL_PATH** environment variable to the Windows symbol server and the local directory to **C:\Symbols**.
 
- **set  _NT_SYMBOL_PATH=srv\*C:\symbols\*http://msdl.microsoft.com/downloads/symbols**
+ **set  _NT_SYMBOL_PATH=srv\*C:\symbols\*http://msdl.microsoft.com/download/symbols**
 
  The following VSPerfReport command line adds the *C:\Projects\Symbols* directory to the search path by using the **/SymbolPath** option.
 

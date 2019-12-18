@@ -9,8 +9,8 @@ helpviewer_keywords:
   - "build Devenv switch"
   - "command-line builds"
 ms.assetid: ced21627-7653-455b-8821-3e31c6a448cf
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

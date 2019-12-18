@@ -28,6 +28,6 @@ You attempted to use an identifier that the [!INCLUDE[javascript](../../javascri
   
 - Declare the variable with a **var** statement (as in `var` x;).  
   
-## See Also  
+## See also  
  [Variables](../../javascript/variables-javascript.md)   
  [Variable Scope](../../javascript/advanced/variable-scope-javascript.md)

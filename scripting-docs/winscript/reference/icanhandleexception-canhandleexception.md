@@ -48,6 +48,6 @@ HRESULT CanHandleException(
 ## Remarks  
  If a call to `IDispatchEx::InvokeEx`, or a similar method, results in an exception, the script engine checks for a caller in the script's caller chain that supports the `ICanHandleException` interface and indicates that it can handle the exception. If no caller can handle the exception, the script engine halts.  
   
-## See Also  
+## See also  
  [ICanHandleException Interface](../../winscript/reference/icanhandleexception-interface.md)   
  [IDispatchEx::InvokeEx](../../winscript/reference/idispatchex-invokeex.md)

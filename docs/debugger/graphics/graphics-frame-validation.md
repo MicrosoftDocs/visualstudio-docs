@@ -27,6 +27,6 @@ Click the **Run Validation** button at the top left corner to initiate the analy
 | Message | The message associated with the event. |
 | Event | The event associated with the error or warning. |
 
-## See Also
+## See also
 [Graphics Diagnostics (Debugging DirectX Graphics)](visual-studio-graphics-diagnostics.md)
 <!-- /VERSIONLESS -->

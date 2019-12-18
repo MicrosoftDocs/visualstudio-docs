@@ -44,5 +44,5 @@ HRESULT Next(
 ## Requirements  
  **Header:** jscript9diag.h  
   
-## See Also  
+## See also  
  [IEnumJsStackFrames Interface](../../winscript/reference/ienumjsstackframes-interface.md)
