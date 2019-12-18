@@ -36,6 +36,7 @@
 ## [Editor Features](source-editor.md)
 ## [Refactoring](refactoring.md)
 ## [IntelliSense](intellisense.md)
+## [Show Import Items](show-imports.md)
 ## [Multi-caret Editing](multi-caret-editing.md)
 ## [Comments](comments.md)
 ## [Editor Behavior](editor-behavior.md)
