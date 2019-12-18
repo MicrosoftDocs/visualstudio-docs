@@ -25,6 +25,7 @@
 ## [Creating new Projects](create-new-projects.md)
 ## [Adding and removing Project Items](add-and-remove-project-items.md)
 ## [Managing Solutions and Project properties](managing-solutions-and-project-properties.md)
+## [Multitargeting](project-multitargeting.md)
 ## Managing references in a project
 ### [Overview](managing-references-in-a-project.md)
 ### [Walkthrough - Including a NuGet package in your project](nuget-walkthrough.md)
@@ -47,6 +48,7 @@
 # Debugging
 ## [Overview](debugging.md)
 ## [Data Visualizations](data-visualizations.md)
+## [Debugging NuGet packages with Source Link](source-link.md)
 
 # Compiling and Building
 ## [Overview](compiling-and-building.md)
