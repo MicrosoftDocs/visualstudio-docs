@@ -1,15 +1,15 @@
 ---
-title: Multi-caret Editing
-description: Multi-caret Editing 
+title: Multi-caret editing
+description: Insert text in multiple locations when editing code in Visual Studio for Mac.
 author: cobey
 ms.author: cobey
 ms.date: 08/19/2019
 ---
-# Multi-caret Editing
+# Multi-caret editing
 
 Multi-caret editing allows you to add _n_ number of insertion points at a single time. When in multi-caret mode, you can add additional carets to your document either via mouse clicks or via keyboard commands. The primary caret is denoted by a red cursor, while the secondary carets present in a light-blue color. Multi-caret edit mode can be disabled via the `ESC` key.
 
-## Enabling Multi-caret Editing
+## Enabling multi-caret editing
 
 ### Keyboard
 
@@ -26,7 +26,7 @@ Each of these behaviors are anchored to the current position of the caret when y
 
 ![multi-caret keyboard](media/multi-caret-keyboard.gif)
 
-## Mouse / Touchpad
+## Mouse/touchpad
 
 By using your cursor, you are able to free select specific insertion points for your multiple carets. While the keyboard shortcuts are bound to matching strings, you can manually insert a caret anywhere in the document with the cursor. Once the carets are set, each will echo the key entries you type on your keyboard.
 
