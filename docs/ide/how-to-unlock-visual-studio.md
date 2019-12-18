@@ -14,13 +14,11 @@ ms.technology: vs-ide-general
 ---
 # Extend a trial version or update a license
 
-While the Visual Studio Community edition is free, you can evaluate a free trial of either the [Visual Studio Professional edition or the Visual Studio Enterprise edition](https://visualstudio.microsoft.com/vs/compare/) for free for 30 days. And if you sign in, you can extend the trial period to 90 days.
+You can evaluate a free trial of [Visual Studio Professional or Visual Studio Enterprise](https://visualstudio.microsoft.com/vs/compare/) for free for 30 days. And if you sign in, you can extend the trial period to 90 days. (Visual Studio Community is free without a trial period.)
 
 To continue using Visual Studio after the trial period ends, unlock it by using an [online subscription](#use-an-online-subscription) or entering a [product key](#enter-a-product-key).
 
 ## Use an online subscription
-
-Here's how to unlock Visual Studio by using a Visual Studio subscription, via an Azure DevOps organization that's associated with a Microsoft account, or a work or school account:
 
 1. Choose the **Sign in** button in the upper-right corner of the IDE (or go to **File** > **Account Settings** to open the **Account Settings** dialog, and then choose the **Sign in** button).
 
@@ -29,7 +27,7 @@ Here's how to unlock Visual Studio by using a Visual Studio subscription, via an
 > [!IMPORTANT]
 > Visual Studio automatically looks for associated online subscriptions when you connect to an Azure DevOps organization from the **Team Explorer** tool window. When you connect to an Azure DevOps organization, you can sign in using both Microsoft and work or school accounts. If an online subscription exists for that user account, Visual Studio will automatically unlock the IDE for you.
 
-For more information about Visual Studio subscriptions and how they work, see the [Subscriptions Support](https://visualstudio.microsoft.com/subscriptions/support/) FAQ page.
+For more information about Visual Studio subscriptions and how they work, see the [Subscriptions Support FAQ](https://visualstudio.microsoft.com/subscriptions/support/) page.
 
 ## Enter a product key
 
@@ -67,5 +65,5 @@ If your subscription has expired and you no longer have access rights to Visual 
 ## See also
 
 * [Sign in to Visual Studio](../ide/signing-in-to-visual-studio.md)
-* [Visual Studio subscriptions](/visualstudio/subscriptions/)
-* [Visual Studio editions](https://visualstudio.microsoft.com/vs/compare/)
+* [Learn about Visual Studio subscriptions](/visualstudio/subscriptions/)
+* [Compare Visual Studio editions](https://visualstudio.microsoft.com/vs/compare/)
