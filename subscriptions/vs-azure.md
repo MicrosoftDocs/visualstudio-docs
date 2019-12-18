@@ -17,20 +17,23 @@ As a Visual Studio subscriber, you can use Microsoft Azure at no extra charge.  
    > [!div class="mx-imgBorder"]
    > ![Azure Tile](_img/vs-azure/vs-azure-tile.png)
 
-3. If you don't have an existing Azure subscription, you'll be asked to fill in the required information to create your Azure subscription, click the checkbox to accept the terms & conditions, and click **Sign up**:
+3. If you don't have an existing Azure subscription, you'll be asked to fill in the required information to create your Azure subscription.  The first step is to provide your personal information and then click **Next**.
    > [!div class="mx-imgBorder"]
-   > ![Azure Sign-up](_img/vs-azure/vs-azure-sign-up-cropped.png)
-If you have an existing subscription, click the check box to accept the agreement, and click **Sign up**.
+   > ![Azure Sign-up](_img/vs-azure/vs-azure-about-you.png)
 
-4. When your account is ready, you’ll have the option to choose an Azure support plan (sold separately), or get started with your Azure subscription.
+4. Next, you'll need to verify your identity using a simple verification code. Provide your phone number, and choose whether you'd like to receive the code by text or phone.  Enter the code you receive, and click **Verify code**.   
    > [!div class="mx-imgBorder"]
-   > ![Azure Getting Ready](_img/vs-azure/vs-azure-getting-ready-cropped.png)
+   > ![Azure Getting Ready](_img/vs-azure/vs-azure-identity.png)
 
-5. The Azure Dashboard Quickstart Center will load.  
+5. For the final step, click the checkbox to accept the terms, then click **Sign up**.  That's all there is to it!
    > [!div class="mx-imgBorder"]
-   > ![Azure Dashboard](_img/vs-azure/vs-azure-dashboard-quickstart.png) 
+   > ![Azure Getting Ready](_img/vs-azure/vs-azure-agreement.png)
 
-6. Bookmark the [Azure Portal](https://portal.azure.com) for easy access in the future.
+0. The Azure Dashboard Quickstart Center will load.  
+   > [!div class="mx-imgBorder"]
+   > ![Azure Dashboard](_img/vs-azure/vs-azure-quick-start.png) 
+
+0. Bookmark the [Azure Portal](https://portal.azure.com) for easy access in the future.
 
 
 ## Eligibility
