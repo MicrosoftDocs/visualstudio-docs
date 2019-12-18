@@ -14,7 +14,7 @@ ms.technology: vs-ide-general
 ---
 # Extend a trial version or update a license
 
-You can evaluate a free trial of [Visual Studio Professional or Visual Studio Enterprise](https://visualstudio.microsoft.com/vs/compare/) for free for 30 days. And if you sign in, you can extend the trial period to 90 days. (Visual Studio Community is free without a trial period.)
+You can evaluate a free trial of [Visual Studio Professional or Visual Studio Enterprise](https://visualstudio.microsoft.com/vs/compare/) for free for 30 days. And if you sign in, you can extend the trial period to 90 days. (Visual Studio Community is free without a trial period. However, you must [sign in]((../ide/signing-in-to-visual-studio.md)) to maintain its free license.)
 
 To continue using Visual Studio after the trial period ends, unlock it by using an [online subscription](#use-an-online-subscription) or entering a [product key](#enter-a-product-key).
 
