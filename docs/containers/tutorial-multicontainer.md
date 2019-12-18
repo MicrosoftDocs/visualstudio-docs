@@ -22,7 +22,7 @@ In this tutorial, you'll learn how to manage more than one container and communi
 * [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows)
 * [Visual Studio 2019](https://visualstudio.microsoft.com/downloads) with the **Web Development**, **Azure Tools** workload, and/or **.NET Core cross-platform development** workload installed
 * [.NET Core 2.2 Development Tools](https://dotnet.microsoft.com/download/dotnet-core/2.2) for development with .NET Core 2.2
-* [.NET Core 3 Development Tools]() for development with .NET Core 3.1.
+* [.NET Core 3 Development Tools](https://dotnet.microsoft.com/download/dotnet-core/3.1) for development with .NET Core 3.1.
 ::: moniker-end
 
 ## Create a Web Application project
@@ -71,7 +71,7 @@ Add a project to the same solution and call it *MyWebAPI*. Select **API** as the
        {
           // Call *mywebapi*, and display its response in the page
           var request = new System.Net.Http.HttpRequestMessage();
-          // request.RequestUri = new Uri("http://mywebapi/WeatherForecast"); // ASP.NET 3
+          // request.RequestUri = new Uri("http://mywebapi/WeatherForecast"); // ASP.NET 3 (VS 2019 only)
           request.RequestUri = new Uri("http://mywebapi/api/values/1"); // ASP.NET 2.x
           var response = await client.SendAsync(request);
           ViewData["Message"] += " and " + await response.Content.ReadAsStringAsync();
@@ -79,7 +79,7 @@ Add a project to the same solution and call it *MyWebAPI*. Select **API** as the
     }
    ```
 
-   For .NET Core 3.1, the Web API template uses a WeatherForecast API, so uncomment that line and comment out the line for ASP.NET 2.x.
+   For .NET Core 3.1 in Visual Studio 2019 or later, the Web API template uses a WeatherForecast API, so uncomment that line and comment out the line for ASP.NET 2.x.
 
 1. In the *Index.cshtml* file, add a line to display `ViewData["Message"]` so that the file looks like the following code:
     
