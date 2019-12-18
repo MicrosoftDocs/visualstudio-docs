@@ -61,7 +61,7 @@ This walkthrough demonstrates how to analyze C/C++ code for potential code defec
 
      warning C6230: Implicit cast between semantically different types: using HRESULT in a Boolean context.
 
-     The code editor displays the line that caused the warning in the function `bool ProcessDomain()`. This warning indicates that a `HRESULT` is being used in an 'if' statement where a Boolean result is expected.  This is typically a mistake becuase when the `S_OK` HRESULT is returned from it function is indicates success, but when converted into a boolean value it evaluates to `false`.
+     The code editor displays the line that caused the warning in the function `bool ProcessDomain()`. This warning indicates that a `HRESULT` is being used in an 'if' statement where a Boolean result is expected.  This is typically a mistake because when the `S_OK` HRESULT is returned from it function is indicates success, but when converted into a boolean value it evaluates to `false`.
 
 3. Correct this warning by using the `SUCCEEDED` macro, which converts to `true` when a `HRESULT` return value indicates success. Your code should resemble the following code:
 
@@ -150,7 +150,7 @@ This walkthrough demonstrates how to analyze C/C++ code for potential code defec
 
      This warning indicates that the node passed into the function might be null, and indicates the line number where the warning was raised.
 
-4. To correct this warning, use an 'if' statement at the begining of the function to test the passed in value. Your code should resemble the following code:
+4. To correct this warning, use an 'if' statement at the beginning of the function to test the passed in value. Your code should resemble the following code:
 
    ```cpp
    if (nullptr == node)
