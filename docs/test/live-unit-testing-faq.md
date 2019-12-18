@@ -91,7 +91,7 @@ There are two main approaches to make Live Unit Testing build successfully. For 
 
 ### Overriding `<OutputPath>`/`<IntermediateOutputPath>` conditionally based on `<BaseOutputPath>`/ `<BaseIntermediateOutputPath>`.
 
-> [!NOTE]:
+> [!NOTE]
 > To use this approach, each project needs to be able to build independently from one another. Do not have one project reference artifacts from another project during build. Do not have one project dynamically load assemblies from another project during runtime (for example call `Assembly.Loadfile("..\..\Project2\Release\Project2.dll")`).
 
 During build, Live Unit Testing automatically overrides the `<BaseOutputPath>`/`<BaseIntermediateOutputPath>` variables to target the Live Unit Testing artifacts folder.
@@ -123,7 +123,7 @@ Do not override `<OutDir>` directly in your build process; override `<OutputPath
 
 ### Overriding your properties based on the `<LiveUnitTestingBuildRootPath>` property.
 
-> [!NOTE]:
+> [!NOTE]
 > In this approach, you need to be careful about files added under the artifacts folder that are not generated during build. The example below shows what to do when placing the packages folder under artifacts. Because the contents of this folder are not generated during the build, the MSBuild property **should not be changed**.
 
 During a Live Unit Testing build, the `<LiveUnitTestingBuildRootPath>` property is set to the location of Live Unit Testing artifacts folder.
