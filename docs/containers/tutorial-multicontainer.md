@@ -76,6 +76,8 @@ Add a project to the same solution and call it *MyWebAPI*. Select **API** as the
        }
     }
    ```
+    > [!NOTE]
+    > You shouldn't dispose `HttpClient` everytime finishing request. This code is for tutorial only .For the best way to use HttpClient, see [Use HttpClientFactory to implement resilient HTTP requests](https://docs.microsoft.com/dotnet/architecture/microservices/implement-resilient-applications/use-httpclientfactory-to-implement-resilient-http-requests)
 
 1. In the *Index.cshtml* file, add a line to display `ViewData["Message"]` so that the file looks like the following code:
     
