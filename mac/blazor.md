@@ -25,7 +25,7 @@ Visual Studio for Mac 8.4 includes support for developing and publishing ASP.NET
 
 1. On the welcome screen, select **New** to create a new project:
 
-   ![Visual Studio for Mac new project](media/bazor-new.png)
+   ![Visual Studio for Mac new project](media/blazor-new-project.png)
 1. In the **New Project** dialog box, select **.NET Core** > **App** > **Blazor Server App** and select **Next**:
    ![Blazor new project template](media/blazor-project-template.png)
 
