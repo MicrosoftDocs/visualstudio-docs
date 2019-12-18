@@ -14,9 +14,9 @@ ms.technology: vs-ide-general
 ---
 # Extend a trial version or update a license
 
-You can evaluate a free trial of [Visual Studio Professional or Visual Studio Enterprise](https://visualstudio.microsoft.com/vs/compare/) for free for 30 days. And if you sign in, you can extend the trial period to 90 days. (Visual Studio Community is free without a trial period. However, you must [sign in]((../ide/signing-in-to-visual-studio.md)) to maintain its free license.)
+You can evaluate a free trial of [Visual Studio Professional or Visual Studio Enterprise](https://visualstudio.microsoft.com/vs/compare/) for 30 days. And if you sign in, you can extend the trial period to 90 days. (Visual Studio Community is free without a trial period. However, you must [sign in](../ide/signing-in-to-visual-studio.md) to maintain its free license.)
 
-To continue using Visual Studio after the trial period ends, unlock it by using an [online subscription](#use-an-online-subscription) or entering a [product key](#enter-a-product-key).
+To continue using Visual Studio after a trial period ends, unlock it with an [online subscription](#use-an-online-subscription) or a [product key](#enter-a-product-key).
 
 ## Use an online subscription
 
@@ -62,8 +62,15 @@ If you do not reenter your credentials, the token starts to go stale and the **A
 
 If your subscription has expired and you no longer have access rights to Visual Studio, you must renew your subscription or add another account that has a subscription. To see more information about the license you are using, go to **File** > **Account Settings** and look at the license information on the right side of the dialog. If you have another subscription associated with a different account, add that account to the **All Accounts** list on the left side of the dialog box by selecting the **Add an account** link.
 
+## Get support
+
+Sometimes, things go wrong. If you experience a problem, here are some support options:
+
+* Report product issues by using the [Report a Problem](../../ide/how-to-report-a-problem-with-visual-studio.md) tool.
+* Find answers to questions about subscriptions, accounts, and billing in the [Subscriptions Support FAQ](https://visualstudio.microsoft.com/subscriptions/support/).
+
 ## See also
 
 * [Sign in to Visual Studio](../ide/signing-in-to-visual-studio.md)
-* [Learn about Visual Studio subscriptions](/visualstudio/subscriptions/)
 * [Compare Visual Studio editions](https://visualstudio.microsoft.com/vs/compare/)
+* [Learn more about Visual Studio subscriptions](/visualstudio/subscriptions/)
