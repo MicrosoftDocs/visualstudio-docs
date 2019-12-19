@@ -1,5 +1,5 @@
 ---
-title: Microsoft Azure Benefit | Microsoft Docs
+title: Microsoft Azure benefit | Microsoft Docs
 author: evanwindom
 ms.author: lank
 manager: lank
@@ -10,7 +10,7 @@ description:  Learn how to activate the Azure DevTest individual credit benefit 
 # Use Microsoft Azure in Visual Studio subscriptions
 As a Visual Studio subscriber, you can use Microsoft Azure at no extra charge.  With your [monthly Azure DevTest individual credit](https://azure.microsoft.com/pricing/member-offers/msdn-benefits-details/), Azure is your personal sandbox for dev/test.  You can provision virtual machines, cloud services, and other Azure resources.  Credit amounts vary by subscription level.
 
-## Activation Steps
+## Activation steps
 1. Sign in to [https://my.visualstudio.com/benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs).
 
 2. Locate the Azure tile in the Tools section on the Benefits page and click **Activate** link at the bottom of the benefit tile.
@@ -33,7 +33,7 @@ As a Visual Studio subscriber, you can use Microsoft Azure at no extra charge.  
    > [!div class="mx-imgBorder"]
    > ![Azure Dashboard](_img/vs-azure/vs-azure-quick-start.png) 
 
-0. Bookmark the [Azure Portal](https://portal.azure.com) for easy access in the future.
+0. Bookmark the [Azure portal](https://portal.azure.com) for easy access in the future.
 
 
 ## Eligibility
@@ -101,7 +101,7 @@ If you prefer not to continue this Visual Studio Azure subscription, you may tra
 
 If you believe you’ve received this email in error, please contact [Azure customer support](https://portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade).
 
-## Support Resources
+## Support resources
 - Need help with Azure?  Check out these resources:
   - Technical Support: [https://azure.microsoft.com/support/options/](https://azure.microsoft.com/support/options/)
   - [Azure documentation](/azure/)
