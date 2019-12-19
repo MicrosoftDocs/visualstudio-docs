@@ -111,7 +111,7 @@ Here's how.
 
 1. Choose **Modify**.
 
-1. After the new workloads and components are installed, choose **Launch** from the Visual Studio Installer to open Visual Studio.
+1. After the new workloads are installed, choose **Launch** from the Visual Studio Installer to open Visual Studio.
 
 ::: moniker-end
 
@@ -131,7 +131,7 @@ Here's how.
 
 1. Choose **Modify**.
 
-1. After the new workloads and components are installed, choose **Launch** from the Visual Studio Installer to open Visual Studio.
+1. After the new workloads are installed, choose **Launch** from the Visual Studio Installer to open Visual Studio.
 
 ::: moniker-end
 
