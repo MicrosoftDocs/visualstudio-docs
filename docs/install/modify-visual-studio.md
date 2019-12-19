@@ -99,7 +99,7 @@ Here's how.
 
  [Workloads](https://visualstudio.microsoft.com/vs/support/selecting-workloads-visual-studio-2017/) contain the features you need for the programming language or platform that you're using. Use workloads to modify Visual Studio so that it supports the work you want to do, when you want to do it.
 
-1. In in the Visual Studio Installer, choose the **Workloads** tab, and then select or deselect the workloads that you want.
+1. In the Visual Studio Installer, choose the **Workloads** tab, and then select or deselect the workloads that you want.
 
     ![Visual Studio 2017 setup dialog](media/modify-workloads.png "Choose a workload in Visual Studio 2019")
 
