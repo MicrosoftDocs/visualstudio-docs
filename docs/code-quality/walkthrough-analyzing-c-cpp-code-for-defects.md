@@ -61,9 +61,9 @@ This walkthrough demonstrates how to analyze C/C++ code for potential code defec
 
      warning C6230: Implicit cast between semantically different types: using HRESULT in a Boolean context.
 
-     The code editor displays the line that caused the warning in the function `bool ProcessDomain()`. This warning indicates that a HRESULT is being used in an 'if' statement where a Boolean result is expected.
+     The code editor displays the line that caused the warning in the function `bool ProcessDomain()`. This warning indicates that a `HRESULT` is being used in an 'if' statement where a Boolean result is expected.  This is typically a mistake because when the `S_OK` HRESULT is returned from it function is indicates success, but when converted into a boolean value it evaluates to `false`.
 
-3. Correct this warning by using the SUCCEEDED macro. Your code should resemble the following code:
+3. Correct this warning by using the `SUCCEEDED` macro, which converts to `true` when a `HRESULT` return value indicates success. Your code should resemble the following code:
 
    ```cpp
    if (SUCCEEDED (ReadUserAccount()) )
@@ -122,11 +122,11 @@ This walkthrough demonstrates how to analyze C/C++ code for potential code defec
 8. To correct this warning, use an 'if' statement to test the return value. Your code should resemble the following code:
 
    ```cpp
-   if (NULL != newNode)
+   if (nullptr != newNode)
    {
-   newNode->data = value;
-   newNode->next = 0;
-   node->next = newNode;
+       newNode->data = value;
+       newNode->next = 0;
+       node->next = newNode;
    }
    ```
 
@@ -136,14 +136,10 @@ This walkthrough demonstrates how to analyze C/C++ code for potential code defec
 
 ### To use source code annotation
 
-1. Annotate formal parameters and return value of the function `AddTail` by using the Pre and Post conditions as shown in this example:
+1. Annotate formal parameters and return value of the function `AddTail` to indicate the pointer values may be null:
 
    ```cpp
-   [returnvalue:SA_Post (Null=SA_Maybe)] LinkedList* AddTail
-   (
-   [SA_Pre(Null=SA_Maybe)] LinkedList* node,
-   int value
-   )
+   _Ret_maybenull_ LinkedList* AddTail(_Maybenull_ LinkedList* node, int value)
    ```
 
 2. Rebuild Annotations project.
@@ -154,21 +150,18 @@ This walkthrough demonstrates how to analyze C/C++ code for potential code defec
 
      This warning indicates that the node passed into the function might be null, and indicates the line number where the warning was raised.
 
-4. To correct this warning, use an 'if' statement to test the return value. Your code should resemble the following code:
+4. To correct this warning, use an 'if' statement at the beginning of the function to test the passed in value. Your code should resemble the following code:
 
    ```cpp
-   . . .
-   LinkedList *newNode = NULL;
-   if (NULL == node)
+   if (nullptr == node)
    {
-        return NULL;
-        . . .
+        return nullptr;
    }
    ```
 
 5. Rebuild Annotations project.
 
-     The project builds without any warnings or errors.
+     The project now builds without any warnings or errors.
 
 ## See also
 
