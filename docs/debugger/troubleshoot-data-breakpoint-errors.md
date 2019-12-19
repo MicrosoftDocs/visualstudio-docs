@@ -77,5 +77,5 @@ The architecture (platform configuration) that your program runs on has a limite
 For any issues or suggestions about this feature, please let us know via Help > Send Feedback > [Report a Problem](../ide/how-to-report-a-problem-with-visual-studio.md) in the IDE or in the [Developer Community](https://developercommunity.visualstudio.com/).
 
 ## See also
-- [Using "Break when Value changes" in .NET Core 3.0](using-breakpoints.md#BKMK_set_a_data_breakpoint_managed).
+- [Using "Break when Value changes" in .NET Core 3.0](using-breakpoints.md#BKMK_set_a_data_breakpoint_native_cplusplus).
 - [DevBlog: Break When Value Changes: Data Breakpoints for .NET Core in Visual Studio 2019](https://devblogs.microsoft.com/visualstudio/break-when-value-changes-data-breakpoints-for-net-core-in-visual-studio-2019/)
