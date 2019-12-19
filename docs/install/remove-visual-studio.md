@@ -1,7 +1,7 @@
 ---
 title: "Remove Visual Studio"
 titleSuffix: ""
-description: "Learn how to completely remove Visual Studio from your computer, step-by-step."
+description: "Learn how to completely remove Visual Studio from your computer, step by step."
 ms.date: 12/19/2019
 ms.custom: "seodec18"
 ms.topic: conceptual
@@ -25,10 +25,10 @@ ms.technology: vs-installation
 ---
 # Remove Visual Studio
 
-If you encounter a catastrophic error and cannot repair or uninstall Visual Studio, you can run the `InstallCleanup.exe` tool to remove installation files and product information for all installed instances of Visual Studio 2017 or Visual Studio 2019. 
+If you experience a catastrophic error and can't repair or uninstall Visual Studio, you can run the `InstallCleanup.exe` tool to remove installation files and product information for all installed instances of Visual Studio 2017 or Visual Studio 2019.
 
 > [!WARNING]
-> Run this tool only as a last resort if repair or uninstall fail. This tool might uninstall features from other Visual Studio installations or other products that might then also need to be repaired.
+> Run this tool only as a last resort if repair or uninstall fail. This tool might uninstall features from other Visual Studio installations or other products, which might then also need to be repaired.
 
 You can run the tool with either of the following command-line switches:
 
@@ -42,15 +42,15 @@ Here's how to run the `InstallCleanup.exe` tool:
 1. Close the Visual Studio Installer.
 1. Open an administrator command prompt. To open an administrator command prompt, follow these steps:
    * Type **cmd** in the "Type here to search" box.
-   * Right-click **Command Prompt**, and then click **Run as administrator**.
-1. Enter the full path of the `InstallCleanup.exe` utility, and add the command-line switch you prefer. By default, the path of the utility is as follows:
+   * Right-click **Command Prompt**, and then choose **Run as administrator**.
+1. Enter the full path of the `InstallCleanup.exe` tool and add the command-line switch you prefer. By default, the path of the tool is as follows:
 
    ```
    C:\Program Files (x86)\Microsoft Visual Studio\Installer\resources\app\layout\InstallCleanup.exe
    ```
 
    > [!NOTE]
-   > If you can't find `InstallCleanup.exe` under the Visual Studio Installer directory, which is always located at `%ProgramFiles(x86)%\Microsoft Visual Studio`, here's what to do next. Follow the instructions to [install Visual Studio](install-visual-studio.md). Then, when the workload selection screen is displayed, close the window and follow the preceding steps on this page again.
+   > If you can't find `InstallCleanup.exe` under the Visual Studio Installer directory, which is always located at `%ProgramFiles(x86)%\Microsoft Visual Studio`, here's what to do next. Follow the instructions to [install Visual Studio](install-visual-studio.md). Then, when the workload selection screen is displayed, close the window and follow the steps on this page again.
 
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 
