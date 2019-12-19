@@ -126,11 +126,11 @@ Here's how.
 
 ::: moniker-end
 
-## Modify individual components (Optional)
+## Modify individual components
 
 If you don't want to install workloads to customize your Visual Studio installation, choose the **Individual Components** tab from the Visual Studio Installer, select what you want, and then follow the prompts.
 
-## Modify language packs (Optional)
+## Modify language packs
 
 By default, the installer matches the language of the operating system when it runs for the first time. However, you can change the language whenever you want. To do so, choose the **Language packs** tab from the Visual Studio Installer, and then follow the prompts.
 
