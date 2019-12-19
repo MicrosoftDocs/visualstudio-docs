@@ -43,6 +43,22 @@ Visual Studio for Mac 8.4 includes support for developing and publishing ASP.NET
 
    ![Blazor web app in Safari](media/blazor-new-app-in-safari.png)
 
+## Blazor support in Visual Studio for Mac
+
+Visual Studio for Mac 8.4 includes new features to help you create new Blazor server projects as well as get the standard support you would expect such as building, running and debugging Blazor projects. As you saw in the walkthrough above, the Blazor Server App project template is now available in the New Project dialog.
+
+Let's take a look at some of the additional features in Visual Studio for Mac to support Blazor server project development.
+
+### Editor support for *.razor* files
+One of the areas where the team has focused on this release was adding support for editing .razor files. These are the files that you’ll be using when creating Blazor applications. If you’ve edited these files in the Windows version of Visual Studio 2019, then you’ll be very comfortable in Visual Studio 2019 for Mac. Both the Windows and Mac version of the IDE share the same editor for .razor files. You’ll see full colorization and completion support for your .razor files including completions for Razor components declared in the project.
+
+![Blazor Intellisense](media/blazor-intellisense.gif)
+
+### Publishing Blazor applications to Azure App Service
+You can also publish Blazor applications directly to Azure App Service. And if you don’t have an Azure account to run your Blazor app on Azure, you can always sign up for a free one here that also comes 12 months of free popular services, $200 free Azure credits, and over 25 always free services.
+
+![Blazor publishing to Azure](media/blazor-azure-publish.png)
+
 ## Project anatomy
 
 Blazor web apps include a few directories and files by default. As you're getting started, here are the main ones you'll need to be familiar with:
