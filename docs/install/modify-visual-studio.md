@@ -105,6 +105,11 @@ Here's how.
 
      ![Update or modify Visual Studio](media/vs-2019/vs-installer-modify.png "Update or modify Visual Studio 2019")
 
+     > [!IMPORTANT]
+     > If you have an update pending, the Modify button is in a different place. This way, you can modify Visual Studio without updating it, should you want to. Choose **More**, and then choose **Modify**.
+     >
+     > ![Update or modify Visual Studio](media/vs-2019/modify-update-visual-studio.png "Update or modify Visual Studio 2019")
+
 1. In the **Workloads** tab, select or deselect the workloads that you want to install or uninstall.
 
     ![Visual Studio 2019 setup dialog](media/vs-2019/vs-installer-modify-workloads.png "Choose a workload in Visual Studio 2019")
@@ -121,9 +126,13 @@ Here's how.
 
 ::: moniker-end
 
-## Modify individual components
+## Modify individual components (Optional)
 
 If you don't want to install workloads to customize your Visual Studio installation, choose the **Individual Components** tab from the Visual Studio Installer, select what you want, and then follow the prompts.
+
+## Modify language packs (Optional)
+
+By default, the installer matches the language of the operating system when it runs for the first time. However, you can change the language whenever you want. To do so, choose the **Language packs** tab from the Visual Studio Installer, and then follow the prompts.
 
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 
