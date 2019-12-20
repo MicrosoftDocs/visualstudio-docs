@@ -163,7 +163,9 @@ You can attach the Visual Studio debugger to a process running in a Linux .NET C
 2. Set the **Connection type** to **Docker (Linux Container)**.
 3. Select **Find...** to set the **Connection target** via the **Select Docker Container** dialog box.
 
-    **A. To debug a Docker container process locally:**
+    You can debug a Docker container process either locally or remotely.
+    
+    **To debug a Docker container process locally:**
     1. Set **Docker CLI host** to **Local Machine**.
     1. Select a running container to attach to from the list and hit **OK**.
     
