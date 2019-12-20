@@ -43,7 +43,9 @@ To quickly reattach to a process you attached to previously, see [Reattach to a 
 
 To debug a process on a remote computer, see [Attach to a process on a remote computer](#BKMK_Attach_to_a_process_on_a_remote_computer).
 
+::: moniker range=">= vs-2019"
 To debug a .NET Core process on a Linux Docker container, see [Attach to a Linux Docker container](#BKMK_Docker_Attach).
+::: moniker-end
 
 **To attach to a process on your local computer:**
 
