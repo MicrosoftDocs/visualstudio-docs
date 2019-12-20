@@ -2,7 +2,7 @@
 title: "Uninstall Visual Studio"
 titleSuffix: ""
 description: "Learn how to uninstall Visual Studio, step-by-step."
-ms.date: 07/31/2019
+ms.date: 12/19/2019
 ms.custom: "seodec18"
 ms.topic: conceptual
 f1_keywords:
@@ -91,6 +91,10 @@ To remove all installations of Visual Studio 2019 and the Visual Studio Installe
 1. Choose **Uninstall**.
 
 ::: moniker-end
+
+## Remove all files
+
+If you experience a catastrophic error and can't uninstall Visual Studio by using the previous instructions, there is a "last resort" option that you can use. For more information about how to remove all Visual Studio installation files and product information completely, see the [Remove Visual Studio](remove-visual-studio.md) page.
 
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 
