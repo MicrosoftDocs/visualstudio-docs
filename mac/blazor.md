@@ -64,7 +64,7 @@ Blazor web apps include a few directories and files by default. As you're gettin
 
 ### Pages folder
 
-This folder contains a project's webpages, which use a *.razor* file file extension.
+This folder contains a project's webpages, which use a *.razor* file extension.
 
 ### Shared folder
 
