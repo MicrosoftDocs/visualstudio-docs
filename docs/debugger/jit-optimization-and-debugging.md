@@ -20,7 +20,8 @@ ms.workload:
 # JIT Optimization and Debugging
 If you are trying to debug code, it is easier when that code is **NOT** optimized. This is because when code is optimized, the compiler and runtime make changes to the emitted CPU code so that it runs faster, but has a less direct mapping to original source code. This means that debuggers are frequently unable to tell you the value of local variables, and code stepping and breakpoints might not work as you expect.
 
-> [!NOTE] For more info on JIT (Just In Time) debugging, read [this documentation](../debugger/debug-using-the-just-in-time-debugger.md).
+> [!NOTE]
+> For more info on JIT (Just In Time) debugging, read [this documentation](../debugger/debug-using-the-just-in-time-debugger.md).
 
 ## How optimizations work in .NET 
 Normally the Release build configuration creates optimized code and the Debug build configuration does not. The `Optimize` MSBuild property controls whether the compiler is told to optimize code.
