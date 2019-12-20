@@ -12,7 +12,7 @@ ms.assetid: D2717D3A-9225-40A8-8155-7D0143B2CA60
 
 This guide offers an introduction to creating your first Blazor web app. For more in-depth guidance, see [Introduction to ASP.NET Core Blazor](/aspnet/core/blazor/index).
 
-Visual Studio for Mac 8.4 includes support for developing and publishing ASP.NET Core Blazor Server applications. Blazor is a framework for building interactive client-side web UI with .NET, which offers the following advantages to web developers:
+Visual Studio for Mac (starting with version 8.4) includes support for developing and publishing ASP.NET Core Blazor Server applications. Blazor is a framework for building interactive client-side web UI with .NET, which offers the following advantages to web developers:
 
 * Write code in C# instead of JavaScript.
 * Leverage the existing .NET ecosystem of .NET libraries.
@@ -23,41 +23,40 @@ Visual Studio for Mac 8.4 includes support for developing and publishing ASP.NET
 
 ## Creating a new Blazor project
 
-1. On the welcome screen, select **New** to create a new project:
+1. On the **Start Window**, select **New** to create a new project:
 
-   ![Visual Studio for Mac new project](media/blazor-new-project.png)
+   ![Visual Studio for Mac Start Window with New selection highlighted](media/blazor-new-project.png)
 1. In the **New Project** dialog box, select **.NET Core** > **App** > **Blazor Server App** and select **Next**:
-   ![Blazor new project template](media/blazor-project-template.png)
+   ![Choose a template for your new project dialog with Blazor Server App template selected](media/blazor-project-template.png)
 
 1. Select .NET Core 3.1 as the target framework, then select **Next**. 
-   ![Select .NET Core Target Framework](media/blazor-select-target-framework.png)
+   ![Configure your new Blazor Server App dialog displayed with Target Framework selected to .NET Core 3.1](media/blazor-select-target-framework.png)
 
-
-1. Choose a name for your project, and add Git support if necessary. Select **Create** to create the project.
-   ![Blazor project name](media/blazor-name-project.png)
+1. Choose a name for your project, and add Git support if desired. Select **Create** to create the project.
+   ![BConfigure your new Blazor Server App dialog displayed while entering Project Name](media/blazor-name-project.png)
 
    Visual Studio for Mac opens your project in the Code layout window.
 1. Select **Run** > **Start Without Debugging** to run the app.
 
    Visual Studio starts [Kestrel](/aspnet/core/fundamentals/servers/kestrel), opens a browser to `https://localhost:5001`, and displays your Blazor web app.
 
-   ![Blazor web app in Safari](media/blazor-new-app-in-safari.png)
+   ![Blazor web app in Safari](media/blazor-new-app-in-edge.png)
 
 ## Blazor support in Visual Studio for Mac
 
-Visual Studio for Mac 8.4 includes new features to help you create new Blazor server projects as well as get the standard support you would expect such as building, running and debugging Blazor projects. As you saw in the walkthrough above, the Blazor Server App project template is now available in the New Project dialog.
+Visual Studio for Mac (starting with version 8.4) includes new features to help you create new Blazor server projects. As well, it provides you the standard support you would expect such as building, running and debugging Blazor projects. 
 
-Let's take a look at some of the additional features in Visual Studio for Mac to support Blazor server project development.
+In the walkthrough above, we saw how the Blazor Server App project template helps you create a new Blazor Server App project. Let's take a look at some of the additional features in Visual Studio for Mac to support Blazor server project development.
 
 ### Editor support for *.razor* files
-One of the areas where the team has focused on this release was adding support for editing .razor files. These are the files that you’ll be using when creating Blazor applications. If you’ve edited these files in the Windows version of Visual Studio 2019, then you’ll be very comfortable in Visual Studio 2019 for Mac. Both the Windows and Mac version of the IDE share the same editor for .razor files. You’ll see full colorization and completion support for your .razor files including completions for Razor components declared in the project.
+Visual Studio for Mac includes support for editing .razor files - majority of the files that you’ll be using when creating Blazor applications. The Windows and Mac version of the IDE share the same editor for .razor files. You’ll see full colorization and completion support for your .razor files including completions for Razor components declared in the project.
 
-![Blazor Intellisense](media/blazor-intellisense.gif)
+![Visual Studio for Mac editor window showing Intellisense for Blazor](media/blazor-intellisense.png)
 
 ### Publishing Blazor applications to Azure App Service
-You can also publish Blazor applications directly to Azure App Service. And if you don’t have an Azure account to run your Blazor app on Azure, you can always sign up for a free one here that also comes 12 months of free popular services, $200 free Azure credits, and over 25 always free services.
+You can also publish Blazor applications directly to Azure App Service. If you don’t have an Azure account to run your Blazor app on Azure, you can always [sign up for a free one here](https://azure.microsoft.com/free) that also comes 12 months of free popular services, $200 free Azure credits, and over 25 always free services.
 
-![Blazor publishing to Azure](media/blazor-azure-publish.png)
+![Visual Studio for Mac showing Azure publishing experience](media/blazor-azure-publish.png)
 
 ## Project anatomy
 
@@ -88,6 +87,9 @@ This file contains the entry point for the program. For more information, see [A
 ### Startup.cs
 
 This file contains code that configures app behavior, such as whether the app requires consent for cookies. For more information, see [App startup in ASP.NET Core](/aspnet/core/fundamentals/startup).
+
+## Summary
+In this tutorial, you saw how to create a new Blazor Server App in Visual Studio for Mac, and learned about some of the features that Visual Studio for Mac offers to help you create Blazor applications.
 
 ## See also
 
