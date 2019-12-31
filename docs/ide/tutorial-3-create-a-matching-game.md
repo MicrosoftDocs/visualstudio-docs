@@ -1,5 +1,5 @@
 ---
-title: "Tutorial 3: Create a matching game"
+title: 'Tutorial 3: Create a matching game'
 ms.date: 10/16/2019
 ms.assetid: 525815c8-2845-45e8-be96-100d1f144725
 ms.topic: tutorial
@@ -8,7 +8,7 @@ author: TerryGLee
 ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Tutorial 3: Create a matching game
 

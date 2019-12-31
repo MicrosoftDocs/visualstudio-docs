@@ -1,13 +1,13 @@
 ---
-title: "Walkthrough: Build an application"
+title: 'Walkthrough: Build an application'
 ms.date: 09/25/2017
 ms.technology: vs-ide-compile
 ms.topic: conceptual
-author: ghogen
-ms.author: ghogen
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Walkthrough: Build an application
 

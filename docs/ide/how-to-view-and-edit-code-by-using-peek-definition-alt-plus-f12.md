@@ -2,11 +2,11 @@
 title: Using Peek Definition
 ms.date: 01/10/2018
 ms.topic: conceptual
-author: jillre
-ms.author: jillfra
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # How to: View and edit code by using Peek Definition (Alt+F12)
 

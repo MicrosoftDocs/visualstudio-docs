@@ -3,12 +3,12 @@ title: Data tools for .NET
 ms.date: 11/04/2016
 ms.topic: conceptual
 ms.assetid: c3175080-1dfb-4ab8-a460-92dadbb844b4
-author: jillre
-ms.author: jillfra
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "data-storage"
-  - "dotnet"
+- data-storage
+- dotnet
 ---
 # Visual Studio data tools for .NET
 

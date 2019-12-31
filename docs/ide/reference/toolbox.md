@@ -3,16 +3,16 @@ title: Toolbox window
 ms.date: 01/18/2018
 ms.topic: reference
 f1_keywords:
-  - "vs.toolbox.general"
-  - "vs.toolbox"
+- vs.toolbox.general
+- vs.toolbox
 helpviewer_keywords:
-  - "Toolbox [Visual Studio]"
-  - "custom controls [Visual Studio]"
-author: jillre
-ms.author: jillfra
+- Toolbox [Visual Studio]
+- custom controls [Visual Studio]
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Toolbox
 

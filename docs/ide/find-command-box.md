@@ -3,14 +3,14 @@ title: Find-Command Box
 ms.date: 11/04/2016
 ms.topic: conceptual
 f1_keywords:
-  - "vs.findcommandbox"
+- vs.findcommandbox
 helpviewer_keywords:
-  - "Find/Command box"
-author: jillre
-ms.author: jillfra
+- Find/Command box
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Find/Command box
 

@@ -3,16 +3,16 @@ title: N-Tier Data Applications Overview
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "presentation tier"
-  - "middle tier"
-  - "data tier"
-  - "n-tier applications, about n-tier applications"
+- presentation tier
+- middle tier
+- data tier
+- n-tier applications, about n-tier applications
 ms.assetid: 1020581d-eaaa-41a2-aca4-bf4c212895f6
-author: jillre
-ms.author: jillfra
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "data-storage"
+- data-storage
 ---
 # N-tier data applications overview
 *N-tier* data applications are data applications that are separated into multiple *tiers*. Also called "distributed applications" and "multitier applications," n-tier applications separate processing into discrete tiers that are distributed between the client and the server. When you develop applications that access data, you should have a clear separation between the various tiers that make up the application.

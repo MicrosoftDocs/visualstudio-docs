@@ -1,12 +1,12 @@
 ---
-title: "Collect diagnostic information using test settings"
+title: Collect diagnostic information using test settings
 ms.date: 10/03/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "load tests, configuring run settings"
+- load tests, configuring run settings
 ms.assetid: 0c86918b-cd63-4468-8f49-6d547a1276dc
-author: jillre
-ms.author: jillfra
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ---
 # Collect diagnostic information using test settings

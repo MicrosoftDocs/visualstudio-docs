@@ -3,16 +3,16 @@ title: Application page of C# project properties
 ms.date: 10/30/2018
 ms.topic: reference
 f1_keywords:
-  - "cs.ProjectPropertiesApplicationWPF"
-  - "cs.ProjectPropertiesApplication"
+- cs.ProjectPropertiesApplicationWPF
+- cs.ProjectPropertiesApplication
 helpviewer_keywords:
-  - "Project Designer, Application page"
-  - "Application page in Project Designer"
-author: jillre
-ms.author: jillfra
+- Project Designer, Application page
+- Application page in Project Designer
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "dotnet"
+- dotnet
 ---
 # Application Page, Project Designer (C#)
 

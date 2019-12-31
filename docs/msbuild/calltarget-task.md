@@ -1,21 +1,21 @@
 ---
-title: "CallTarget Task | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "reference"
+title: CallTarget Task | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: reference
 dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
+- VB
+- CSharp
+- C++
+- jsharp
 helpviewer_keywords:
-  - "CallTarget task [MSBuild]"
-  - "MSBuild, CallTarget task"
+- CallTarget task [MSBuild]
+- MSBuild, CallTarget task
 ms.assetid: bb1fe2c4-4383-436f-8326-c24cc4a46150
-author: mikejo5000
-ms.author: mikejo
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # CallTarget task
 Invokes the specified targets within the project file.

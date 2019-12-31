@@ -1,13 +1,13 @@
 ---
-title: "Add Run Settings to a Load Test"
+title: Add Run Settings to a Load Test
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "load tests, run settings, adding"
-  - "load tests, run settings"
+- load tests, run settings, adding
+- load tests, run settings
 ms.assetid: 257d2a24-d582-4cfe-8b2b-51f51ba9cc84
-author: jillre
-ms.author: jillfra
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ---
 # How to: Add additional run settings to a load test

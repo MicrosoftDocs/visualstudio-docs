@@ -1,11 +1,11 @@
 ---
-title: "Create a web performance and load test project"
+title: Create a web performance and load test project
 ms.date: 03/14/2018
 ms.topic: quickstart
 helpviewer_keywords:
-  - "load testing, quickstart"
-author: jillre
-ms.author: jillfra
+- load testing, quickstart
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ---
 # Quickstart: Create a load test project

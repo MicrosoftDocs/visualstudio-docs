@@ -3,16 +3,16 @@ title: Default keyboard shortcuts
 ms.date: 06/26/2017
 ms.topic: reference
 helpviewer_keywords:
-  - "shortcut keys [Visual Studio], keyboard binding schemes"
-  - "keyboard binding schemes [Visual Studio]"
-  - "Help [Visual Studio], shortcut keys"
-  - "keyboard shortcuts [Visual Studio], keyboard binding schemes"
-  - "keyboard shortcuts"
-author: jillre
-ms.author: jillfra
+- shortcut keys [Visual Studio], keyboard binding schemes
+- keyboard binding schemes [Visual Studio]
+- Help [Visual Studio], shortcut keys
+- keyboard shortcuts [Visual Studio], keyboard binding schemes
+- keyboard shortcuts
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Default keyboard shortcuts in Visual Studio
 

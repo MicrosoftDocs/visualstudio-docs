@@ -1,21 +1,21 @@
 ---
-title: "CreateVisualBasicManifestResourceName Task | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "reference"
+title: CreateVisualBasicManifestResourceName Task | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: reference
 dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
+- VB
+- CSharp
+- C++
+- jsharp
 helpviewer_keywords:
-  - "MSBuild, CreateVisualBasicManifestResourceName task"
-  - "CreateVisualBasicManifestResourceName task [MSBuild]"
+- MSBuild, CreateVisualBasicManifestResourceName task
+- CreateVisualBasicManifestResourceName task [MSBuild]
 ms.assetid: 251c47b9-de32-414b-a138-bf45290af12e
-author: mikejo5000
-ms.author: mikejo
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # CreateVisualBasicManifestResourceName task
 Creates a [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)]-style manifest name from a given *.resx* file name or other resource.

@@ -1,25 +1,25 @@
 ---
-title: "BscMake Task | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "reference"
+title: BscMake Task | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: reference
 f1_keywords:
-  - "vc.task.bscmake"
-  - "VC.Project.VCBscMakeTool.PreserveSBR"
+- vc.task.bscmake
+- VC.Project.VCBscMakeTool.PreserveSBR
 dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
-  - "C++"
+- VB
+- CSharp
+- C++
+- jsharp
+- C++
 helpviewer_keywords:
-  - "MSBuild (C++), tasks"
-  - "BscMake task (MSBuild (C++))"
+- MSBuild (C++), tasks
+- BscMake task (MSBuild (C++))
 ms.assetid: bb98fc67-cad8-43a7-9598-60df6d734db2
-author: mikejo5000
-ms.author: mikejo
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # BscMake task
 > [!IMPORTANT]

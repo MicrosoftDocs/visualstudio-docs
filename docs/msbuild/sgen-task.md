@@ -1,23 +1,23 @@
 ---
-title: "SGen Task | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "reference"
+title: SGen Task | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: reference
 f1_keywords:
-  - "http://schemas.microsoft.com/developer/msbuild/2003#SGen"
+- http://schemas.microsoft.com/developer/msbuild/2003#SGen
 dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
+- VB
+- CSharp
+- C++
+- jsharp
 helpviewer_keywords:
-  - "SGen task [MSBuild]"
-  - "MSBuild, SGen task"
+- SGen task [MSBuild]
+- MSBuild, SGen task
 ms.assetid: 22c5ade4-4159-4667-b891-0c1aa06f4df5
-author: mikejo5000
-ms.author: mikejo
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # SGen task
 Creates an XML serialization assembly for types in the specified assembly. This task wraps the XML Serializer Generator tool (*Sgen.exe*). For more information, see [XML Serializer Generator tool (Sgen.exe)](/dotnet/framework/serialization/xml-serializer-generator-tool-sgen-exe).

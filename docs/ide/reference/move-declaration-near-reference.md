@@ -2,13 +2,13 @@
 title: Move variable declaration near reference
 ms.date: 01/26/2018
 ms.topic: reference
-author: jillre
-ms.author: jillfra
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 dev_langs:
-  - CSharp
+- CSharp
 ms.workload:
-  - "dotnet"
+- dotnet
 ---
 # Move declaration near reference refactoring
 

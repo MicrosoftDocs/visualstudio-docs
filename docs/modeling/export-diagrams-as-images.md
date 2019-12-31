@@ -3,14 +3,14 @@ title: Export diagrams as images
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "modeling diagrams, saving"
-  - "diagrams - modeling, saving modeling diagrams"
-  - "UML diagrams, saving"
-author: jillre
-ms.author: jillfra
+- modeling diagrams, saving
+- diagrams - modeling, saving modeling diagrams
+- UML diagrams, saving
+author: JoshuaPartlow
+ms.author: joshuapa
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Export diagrams as images
 

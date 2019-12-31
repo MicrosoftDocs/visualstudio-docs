@@ -1,15 +1,15 @@
 ---
-title: "Property Functions | Microsoft Docs"
-ms.date: "02/21/2017"
-ms.topic: "conceptual"
+title: Property Functions | Microsoft Docs
+ms.date: 02/21/2017
+ms.topic: conceptual
 helpviewer_keywords:
-  - "MSBuild, property functions"
+- MSBuild, property functions
 ms.assetid: 2253956e-3ae0-4bdc-9d3a-4881dfae4ddb
-author: mikejo5000
-ms.author: mikejo
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Property functions
 

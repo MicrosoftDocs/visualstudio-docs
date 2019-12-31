@@ -3,21 +3,21 @@ title: Working with C++ Code (Class Designer)
 ms.date: 06/21/2017
 ms.topic: conceptual
 f1_keywords:
-  - "vs.classdesigner.cpplimitation"
+- vs.classdesigner.cpplimitation
 helpviewer_keywords:
-  - "C++, Class Designer"
-  - "Class Designer, C++ support"
-  - "Class Designer, limitations"
-  - "Class Designer, tasks in C++"
-  - "C++, class diagrams"
-  - "C++, class diagrams"
-  - "C++, Class Designer"
+- C++, Class Designer
+- Class Designer, C++ support
+- Class Designer, limitations
+- Class Designer, tasks in C++
+- C++, class diagrams
+- C++, class diagrams
+- C++, Class Designer
 ms.assetid: f5b40921-2ef7-4de0-b595-45b44c79ffa6
-author: jillre
-ms.author: jillfra
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "cplusplus"
+- cplusplus
 ---
 # Work with C++ code in Class Designer
 

@@ -3,13 +3,13 @@ title: Working with 3D Assets for Games and Apps
 ms.date: 11/04/2016
 ms.topic: conceptual
 f1_keywords:
-  - "vs.graphics"
+- vs.graphics
 ms.assetid: 910d673b-c884-4eeb-9928-0e89f3d38cb6
-author: jillre
-ms.author: jillfra
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Work with 3D assets for games and apps
 

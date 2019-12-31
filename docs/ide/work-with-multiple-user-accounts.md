@@ -6,7 +6,7 @@ author: jillre
 ms.author: jillfra
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Work with multiple user accounts
 

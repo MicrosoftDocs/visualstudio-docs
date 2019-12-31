@@ -1,21 +1,21 @@
 ---
-title: "ImportGroup Element | Microsoft Docs"
-ms.date: "03/13/2017"
-ms.topic: "reference"
+title: ImportGroup Element | Microsoft Docs
+ms.date: 03/13/2017
+ms.topic: reference
 dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
+- VB
+- CSharp
+- C++
+- jsharp
 helpviewer_keywords:
-  - "<ImportGroup> element [MSBuild]"
-  - "ImportGroup element [MSBuild]"
+- <ImportGroup> element [MSBuild]
+- ImportGroup element [MSBuild]
 ms.assetid: dac3fa2d-6678-4017-af35-93686f53f302
-author: mikejo5000
-ms.author: mikejo
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # ImportGroup element
 Contains a collection of `Import` elements that are grouped under an optional condition. For more information, see [Import element (MSBuild)](../msbuild/import-element-msbuild.md).

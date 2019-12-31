@@ -4,13 +4,13 @@ ms.date: 12/12/2018
 ms.technology: vs-ide-general
 ms.custom: get-started
 ms.topic: tutorial
-author: jillre
-ms.author: jillfra
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 dev_langs:
- - VB
+- VB
 ms.workload:
-  - "dotnet"
+- dotnet
 ---
 # Learn about projects and solutions using Visual Basic
 

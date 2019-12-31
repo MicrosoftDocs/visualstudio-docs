@@ -1,16 +1,16 @@
 ---
-title: "Test controller and test agent roles for automated tests"
+title: Test controller and test agent roles for automated tests
 ms.date: 10/20/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "testing, walkthroughs, test controller and test agents"
-  - "test agent, walkthrough"
-  - "walkthroughs [Visual Studio ALM] testing"
-  - "test controller, walkthrough"
-  - "walkthroughs, test controller and test agents"
+- testing, walkthroughs, test controller and test agents
+- test agent, walkthrough
+- walkthroughs [Visual Studio ALM] testing
+- test controller, walkthrough
+- walkthroughs, test controller and test agents
 ms.assetid: 57ed43ae-4e67-4139-8aec-3e9fceb0a745
-author: jillre
-ms.author: jillfra
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ---
 # Assign roles to a test controller and test agent

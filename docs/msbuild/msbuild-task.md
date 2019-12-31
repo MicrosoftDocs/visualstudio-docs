@@ -1,23 +1,23 @@
 ---
-title: "MSBuild Task | Microsoft Docs"
-ms.date: "07/30/2019"
-ms.topic: "reference"
+title: MSBuild Task | Microsoft Docs
+ms.date: 07/30/2019
+ms.topic: reference
 f1_keywords:
-  - "http://schemas.microsoft.com/developer/msbuild/2003#MSBuild"
+- http://schemas.microsoft.com/developer/msbuild/2003#MSBuild
 dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
+- VB
+- CSharp
+- C++
+- jsharp
 helpviewer_keywords:
-  - "MSBuild task [MSBuild]"
-  - "MSBuild, MSBuild task"
+- MSBuild task [MSBuild]
+- MSBuild, MSBuild task
 ms.assetid: 76577f6c-7669-44ad-a840-363e37a04d34
-author: mikejo5000
-ms.author: mikejo
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # MSBuild task
 

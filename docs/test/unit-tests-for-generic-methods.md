@@ -1,15 +1,15 @@
 ---
-title: "Unit tests for Generic Methods"
+title: Unit tests for Generic Methods
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "generics, and unit tests"
-  - "unit tests, and generics"
-ms.author: jillfra
+- generics, and unit tests
+- unit tests, and generics
+ms.author: mikejo
 manager: jillfra
 ms.workload:
-  - "multiple"
-author: jillre
+- multiple
+author: mikejo5000
 ---
 # Unit tests for generic methods
 

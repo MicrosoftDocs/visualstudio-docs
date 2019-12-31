@@ -3,17 +3,17 @@ title: Data access and tools
 ms.date: 11/04/2016
 ms.topic: conceptual
 f1_keywords:
- - "80025080"
+- 80025080
 helpviewer_keywords:
- - "data [Visual Studio]"
- - "data access [Visual Studio]"
- - "data [C#]"
- - "ADO.NET, data access"
-author: jillre
-ms.author: jillfra
+- data [Visual Studio]
+- data access [Visual Studio]
+- data [C#]
+- ADO.NET, data access
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
- - "data-storage"
+- data-storage
 ---
 # Access data in Visual Studio
 

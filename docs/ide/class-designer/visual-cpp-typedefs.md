@@ -3,16 +3,16 @@ title: C++ Typedefs in Class Designer
 ms.date: 11/04/2016
 ms.topic: conceptual
 f1_keywords:
-  - "vs.classdesigner.typedef"
-  - "vs.classdesigner.aliasofline"
+- vs.classdesigner.typedef
+- vs.classdesigner.aliasofline
 helpviewer_keywords:
-  - "Class Designer [Visual Studio], typedefs"
+- Class Designer [Visual Studio], typedefs
 ms.assetid: c1984108-71fc-4d3a-b4d4-3eac2c6b4ebf
-author: jillre
-ms.author: jillfra
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "cplusplus"
+- cplusplus
 ---
 # C++ typedefs in Class Designer
 

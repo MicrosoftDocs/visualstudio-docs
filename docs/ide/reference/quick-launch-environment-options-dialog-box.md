@@ -3,17 +3,17 @@ title: Quick Launch, Environment, Options Dialog Box
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "VS.ToolsOptionsPages.Environment.QuickLaunch"
-  - "vs.quicklaunch"
+- VS.ToolsOptionsPages.Environment.QuickLaunch
+- vs.quicklaunch
 helpviewer_keywords:
-  - "searching IDE"
-  - "IDE, searching"
+- searching IDE
+- IDE, searching
 ms.assetid: 4200f297-d065-4723-9a30-d91ff2e26c9d
-author: jillre
-ms.author: jillfra
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 monikerRange: vs-2017
 ---
 # Quick Launch, Environment, Options Dialog Box

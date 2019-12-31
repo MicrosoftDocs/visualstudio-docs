@@ -1,12 +1,12 @@
 ---
-title: "Manage test controllers and test agents"
+title: Manage test controllers and test agents
 ms.date: 09/18/2018
 ms.topic: conceptual
-author: jillre
-ms.author: jillfra
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Manage test controllers and test agents
 

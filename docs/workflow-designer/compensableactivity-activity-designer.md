@@ -1,15 +1,15 @@
 ---
-title: "Workflow Designer - CompensableActivity Activity Designer"
+title: Workflow Designer - CompensableActivity Activity Designer
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "System.Activities.Statements.CompensableActivity.UI"
+- System.Activities.Statements.CompensableActivity.UI
 ms.assetid: e0340d89-d39e-4a52-8557-13e27040d7b5
-author: jillre
-ms.author: jillfra
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # CompensableActivity Activity Designer
 

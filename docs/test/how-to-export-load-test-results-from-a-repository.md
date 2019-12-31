@@ -1,15 +1,15 @@
 ---
-title: "Export Load Test Results"
+title: Export Load Test Results
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "results, load test"
-  - "load tests, exporting results"
-  - "Load Test Results Repository"
-  - "load test results, exporting"
+- results, load test
+- load tests, exporting results
+- Load Test Results Repository
+- load test results, exporting
 ms.assetid: 716c2af5-8737-4d31-956f-a0273f7c5c0c
-author: jillre
-ms.author: jillfra
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ---
 # How to: Export load test results from a repository

@@ -4,13 +4,13 @@ ms.date: 03/19/2019
 ms.technology: vs-ide-general
 ms.custom: get-started
 ms.topic: conceptual
-author: jillre
-ms.author: jillfra
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 dev_langs:
- - CSharp
+- CSharp
 ms.workload:
-  - "dotnet"
+- dotnet
 ---
 # Welcome to the Visual Studio IDE | C\#
 

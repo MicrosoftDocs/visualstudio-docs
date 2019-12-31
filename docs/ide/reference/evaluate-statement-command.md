@@ -3,16 +3,16 @@ title: EvaluateStatement
 ms.date: 02/25/2019
 ms.topic: reference
 f1_keywords:
-  - "debug.evaluatestatement"
+- debug.evaluatestatement
 helpviewer_keywords:
-  - "Debug.EvaluateStatement command"
-  - "Evaluate Statement command"
+- Debug.EvaluateStatement command
+- Evaluate Statement command
 ms.assetid: 032039bc-9477-4f93-9b9d-66d4be0e90f4
-author: jillre
-ms.author: jillfra
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Evaluate Statement command
 

@@ -1,15 +1,15 @@
 ---
-title: "Logging in MSBuild | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Logging in MSBuild | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "msbuild, logging"
+- msbuild, logging
 ms.assetid: 9aea2e76-8f60-4234-913d-598e7bbad808
-author: mikejo5000
-ms.author: mikejo
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Logging in MSBuild
 Logging provides a way for you to monitor the progress of a build. Logging captures build events, messages, warnings, and errors in a log file.

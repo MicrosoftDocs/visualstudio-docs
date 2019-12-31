@@ -3,13 +3,13 @@ title: Code coverage testing
 ms.date: 07/23/2019
 ms.topic: conceptual
 helpviewer_keywords:
-  - "code coverage"
+- code coverage
 dev_langs:
-  - "CSharp"
-  - "VB"
-  - "CPP"
-author: jillre
-ms.author: jillfra
+- CSharp
+- VB
+- CPP
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ---
 # Use code coverage to determine how much code is being tested

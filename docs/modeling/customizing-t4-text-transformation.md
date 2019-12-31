@@ -3,13 +3,13 @@ title: Customizing T4 Text Transformation
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "text templates, API"
-  - "text templates, custom hosts"
-author: jillre
-ms.author: jillfra
+- text templates, API
+- text templates, custom hosts
+author: JoshuaPartlow
+ms.author: joshuapa
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Customize T4 Text Transformation
 

@@ -3,15 +3,15 @@ title: Code Analysis Policy Errors
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "vs.codeanalysis.policyfailures"
+- vs.codeanalysis.policyfailures
 helpviewer_keywords:
-  - "policy errors, code analysis"
+- policy errors, code analysis
 ms.assetid: d1f221cd-68c0-4277-9397-b76ad0dbae77
-author: jillre
-ms.author: jillfra
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Code Analysis Policy Errors
 

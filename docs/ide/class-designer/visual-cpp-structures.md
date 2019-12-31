@@ -3,13 +3,13 @@ title: C++ Structures in Class Designer
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "Class Designer [Visual Studio], structures"
+- Class Designer [Visual Studio], structures
 ms.assetid: bad18ab6-d956-47a6-a413-811cc26db5f5
-author: jillre
-ms.author: jillfra
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "cplusplus"
+- cplusplus
 ---
 # C++ structures in Class Designer
 

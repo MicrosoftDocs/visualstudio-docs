@@ -1,13 +1,13 @@
 ---
-title: "Live Unit Testing FAQ"
-ms.date: "10/03/2017"
+title: Live Unit Testing FAQ
+ms.date: 10/03/2017
 ms.topic: conceptual
 helpviewer_keywords:
-  - "Live Unit Testing FAQ"
-author: jillre
-ms.author: jillfra
+- Live Unit Testing FAQ
+author: mikejo5000
+ms.author: mikejo
 ms.workload:
-  - "dotnet"
+- dotnet
 ---
 # Live Unit Testing frequently asked questions
 

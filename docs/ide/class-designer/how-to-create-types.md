@@ -1,22 +1,22 @@
 ---
-title: "How to: Create Types by using Class Designer"
+title: 'How to: Create Types by using Class Designer'
 ms.date: 11/04/2016
 ms.topic: conceptual
 f1_keywords:
-  - "VS.Clr.ClrAttributesDialog"
+- VS.Clr.ClrAttributesDialog
 helpviewer_keywords:
-  - "custom attributes, applying"
-  - "class diagrams, creating types"
-  - "classes [Visual Studio], creating with Class Designer"
-  - "Class Designer [Visual Studio], creating classes"
-  - "types [Visual Studio], class diagrams"
-  - "attributes [Visual Studio], applying custom"
+- custom attributes, applying
+- class diagrams, creating types
+- classes [Visual Studio], creating with Class Designer
+- Class Designer [Visual Studio], creating classes
+- types [Visual Studio], class diagrams
+- attributes [Visual Studio], applying custom
 ms.assetid: 94458c31-28bc-40e2-9737-85868788a0e5
-author: jillre
-ms.author: jillfra
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # How to: Create types by using Class Designer
 

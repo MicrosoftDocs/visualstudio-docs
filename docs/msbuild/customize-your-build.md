@@ -1,16 +1,16 @@
 ---
-title: "Customize your build | Microsoft Docs"
-ms.date: "06/13/2019"
-ms.topic: "conceptual"
+title: Customize your build | Microsoft Docs
+ms.date: 06/13/2019
+ms.topic: conceptual
 helpviewer_keywords:
-  - "MSBuild, transforms"
-  - "transforms [MSBuild]"
+- MSBuild, transforms
+- transforms [MSBuild]
 ms.assetid: d0bceb3b-14fb-455c-805a-63acefa4b3ed
-author: mikejo5000
-ms.author: mikejo
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Customize your build
 

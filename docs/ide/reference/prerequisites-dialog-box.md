@@ -4,14 +4,14 @@ ms.date: 06/29/2018
 ms.technology: vs-ide-deployment
 ms.topic: reference
 f1_keywords:
-  - "Microsoft.VisualStudio.Publish.BaseProvider.Dialog.Bootstrapper"
+- Microsoft.VisualStudio.Publish.BaseProvider.Dialog.Bootstrapper
 helpviewer_keywords:
-  - "Prerequisites dialog box"
-author: mikejo5000
-ms.author: mikejo
+- Prerequisites dialog box
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Prerequisites dialog box
 
