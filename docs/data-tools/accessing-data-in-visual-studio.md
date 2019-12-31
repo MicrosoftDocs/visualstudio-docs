@@ -2,8 +2,6 @@
 title: Data access and tools
 ms.date: 11/04/2016
 ms.topic: conceptual
-f1_keywords:
-- 80025080
 helpviewer_keywords:
 - data [Visual Studio]
 - data access [Visual Studio]
