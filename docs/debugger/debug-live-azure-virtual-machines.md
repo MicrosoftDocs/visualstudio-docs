@@ -37,8 +37,8 @@ In this tutorial, you will:
   * ASP.NET applications running on .NET Framework 4.6.1 or later.
   * ASP.NET Core applications running on .NET Core 2.0 or later on Windows.
 
-    > [!IMPORTANT]
-    >  Visual Studio running on a 32-bit Windows will not be able to view snapshots
+  > [!NOTE]
+  >  Visual Studio Enterprise running on 32-bit Windows will not be able to view snapshots.
 
 ## Open your project and start the Snapshot Debugger
 
