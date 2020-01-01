@@ -1,23 +1,23 @@
 ---
-title: "WriteLinesToFile Task | Microsoft Docs"
-ms.date: "09/20/2018"
-ms.topic: "reference"
+title: WriteLinesToFile Task | Microsoft Docs
+ms.date: 09/20/2018
+ms.topic: reference
 f1_keywords:
-  - "http://schemas.microsoft.com/developer/msbuild/2003#WriteLinesToFile"
+- http://schemas.microsoft.com/developer/msbuild/2003#WriteLinesToFile
 dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
+- VB
+- CSharp
+- C++
+- jsharp
 helpviewer_keywords:
-  - "WriteLinesToFile task [MSBuild]"
-  - "MSBuild, WriteLinesToFile task"
+- WriteLinesToFile task [MSBuild]
+- MSBuild, WriteLinesToFile task
 ms.assetid: 9c8862ac-8da5-4437-9430-ecc30421f1c9
-author: mikejo5000
-ms.author: mikejo
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # WriteLinesToFile task
 Writes the paths of the specified items to the specified text file.

@@ -2,13 +2,13 @@
 title: Remove unreachable code refactoring
 ms.date: 01/26/2018
 ms.topic: reference
-author: jillre
-ms.author: jillfra
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 dev_langs:
-  - CSharp
+- CSharp
 ms.workload:
-  - "dotnet"
+- dotnet
 ---
 # Remove unreachable code refactoring
 

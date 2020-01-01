@@ -1,18 +1,18 @@
 ---
-title: "FormatVersion Task | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "reference"
+title: FormatVersion Task | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: reference
 dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
+- VB
+- CSharp
+- C++
+- jsharp
 ms.assetid: 96e692f6-b581-46ca-8cc9-441a1861e371
-author: mikejo5000
-ms.author: mikejo
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # FormatVersion task
 Appends the revision number to the version number.

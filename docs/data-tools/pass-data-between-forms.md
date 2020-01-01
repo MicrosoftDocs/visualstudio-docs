@@ -3,20 +3,20 @@ title: Pass data between forms
 ms.date: 11/04/2016
 ms.topic: conceptual
 dev_langs:
-  - "VB"
-  - "CSharp"
+- VB
+- CSharp
 helpviewer_keywords:
-  - "walkthroughs [Windows Forms], data"
-  - "walkthroughs [Visual Studio], data"
-  - "data [Visual Studio], passing between forms"
-  - "forms, passing data between"
-  - "Windows Forms, walkthroughs"
+- walkthroughs [Windows Forms], data
+- walkthroughs [Visual Studio], data
+- data [Visual Studio], passing between forms
+- forms, passing data between
+- Windows Forms, walkthroughs
 ms.assetid: 78bf038b-9296-4fbf-b0e8-d881d1aff0df
-author: jillre
-ms.author: jillfra
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "data-storage"
+- data-storage
 ---
 # Pass data between forms
 

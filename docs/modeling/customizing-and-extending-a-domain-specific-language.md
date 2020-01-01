@@ -3,12 +3,12 @@ title: Customizing and Extending a Domain-Specific Language
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "Domain-Specific Language Tools, creating solutions"
-author: jillre
-ms.author: jillfra
+- Domain-Specific Language Tools, creating solutions
+author: JoshuaPartlow
+ms.author: joshuapa
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Customize and extend a domain-specific language
 

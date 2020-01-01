@@ -3,18 +3,18 @@ title: Design-Time Code Generation by using T4 Text Templates
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "text templates, guidelines for code generation"
-  - "text templates, data source model"
-  - "TextTemplatingFileGenerator custom tool"
-  - "Transform All Templates"
-  - "text templates, getting started"
-  - "Text Template project item"
-  - "text templates, generating code for your application"
-author: jillre
-ms.author: jillfra
+- text templates, guidelines for code generation
+- text templates, data source model
+- TextTemplatingFileGenerator custom tool
+- Transform All Templates
+- text templates, getting started
+- Text Template project item
+- text templates, generating code for your application
+author: JoshuaPartlow
+ms.author: joshuapa
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Design-Time Code Generation by using T4 Text Templates
 

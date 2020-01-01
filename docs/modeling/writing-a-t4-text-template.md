@@ -3,14 +3,14 @@ title: Writing a T4 Text Template
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "text templates, syntax"
-  - "text templates, guide"
-  - "text templates, functions that generate text"
-author: jillre
-ms.author: jillfra
+- text templates, syntax
+- text templates, guide
+- text templates, functions that generate text
+author: JoshuaPartlow
+ms.author: joshuapa
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Writing a T4 Text Template
 A text template contains the text that will be generated from it. For example, a template that creates a web page will contain "\<html>..." and all the other standard parts of an HTML page. Inserted into the template are *control blocks*, which are fragments of program code. Control blocks provide varying values and allow parts of the text to be conditional and repeated.

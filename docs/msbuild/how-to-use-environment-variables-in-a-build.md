@@ -1,17 +1,17 @@
 ---
-title: "How to: Use Environment Variables in a Build | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: 'How to: Use Environment Variables in a Build | Microsoft Docs'
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "environment variables, referencing"
-  - "projects [.NET Framework], environment variables"
-  - "MSBuild, environment variables"
+- environment variables, referencing
+- projects [.NET Framework], environment variables
+- MSBuild, environment variables
 ms.assetid: 7f9e4469-8865-4b59-aab3-3ff26bd36e77
-author: mikejo5000
-ms.author: mikejo
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # How to: Use environment variables in a build
 When you build projects, it is often necessary to set build options using information that is not in the project file or the files that comprise your project. This information is typically stored in environment variables.

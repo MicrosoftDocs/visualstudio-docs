@@ -1,13 +1,13 @@
 ---
-title: "Create Load Test Performance Reports Using Microsoft Excel"
+title: Create Load Test Performance Reports Using Microsoft Excel
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "load tests, creating Excel reports"
-  - "load tests, reporting"
+- load tests, creating Excel reports
+- load tests, reporting
 ms.assetid: b87fb196-9973-4512-a924-088788def4ea
-author: jillre
-ms.author: jillfra
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ---
 # How to: Create load test performance reports using Microsoft Excel

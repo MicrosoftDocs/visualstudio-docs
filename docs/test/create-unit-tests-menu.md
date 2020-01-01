@@ -3,12 +3,12 @@ title: Create unit test method stubs
 ms.date: 04/01/2019
 ms.topic: conceptual
 helpviewer_keywords:
-  - "unit testing, create unit tests"
-author: jillre
-ms.author: jillfra
+- unit testing, create unit tests
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Create unit test method stubs with the Create Unit Tests command
 

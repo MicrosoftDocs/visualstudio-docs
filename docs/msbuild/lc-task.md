@@ -1,23 +1,23 @@
 ---
-title: "LC Task | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "reference"
+title: LC Task | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: reference
 f1_keywords:
-  - "http://schemas.microsoft.com/developer/msbuild/2003#LC"
+- http://schemas.microsoft.com/developer/msbuild/2003#LC
 dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
+- VB
+- CSharp
+- C++
+- jsharp
 helpviewer_keywords:
-  - "MSBuild, LC task"
-  - "LC task [MSBuild]"
+- MSBuild, LC task
+- LC task [MSBuild]
 ms.assetid: d5a53472-6f2a-42b8-a6db-593ca99c9790
-author: mikejo5000
-ms.author: mikejo
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # LC task
 Wraps *LC.exe*, which generates a *.license* file from a *.licx* file. For more information on *LC.exe*, see [Lc.exe (License Compiler)](/dotnet/framework/tools/lc-exe-license-compiler).

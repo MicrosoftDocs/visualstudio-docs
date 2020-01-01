@@ -1,23 +1,23 @@
 ---
-title: "FindUnderPath Task | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "reference"
+title: FindUnderPath Task | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: reference
 f1_keywords:
-  - "http://schemas.microsoft.com/developer/msbuild/2003#FindUnderPath"
+- http://schemas.microsoft.com/developer/msbuild/2003#FindUnderPath
 dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
+- VB
+- CSharp
+- C++
+- jsharp
 helpviewer_keywords:
-  - "MSBuild, FindUnderPath task"
-  - "FindUnderPath task [MSBuild]"
+- MSBuild, FindUnderPath task
+- FindUnderPath task [MSBuild]
 ms.assetid: 3c6d58b0-36e8-47aa-bfca-b73dd2045d91
-author: mikejo5000
-ms.author: mikejo
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # FindUnderPath task
 Determines which items in the specified item collection have paths that are in or below the specified folder.

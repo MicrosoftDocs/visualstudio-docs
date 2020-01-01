@@ -3,19 +3,19 @@ title: How to Define a Domain-Specific Language
 ms.date: 11/04/2016
 ms.topic: conceptual
 f1_keywords:
-  - "vs.dsltools.dsldesigner.domainrelationship"
-  - "vs.dsltools.dsldesigner.domainclass"
-  - "vs.dsltools.dsldesigner.domaintype"
+- vs.dsltools.dsldesigner.domainrelationship
+- vs.dsltools.dsldesigner.domainclass
+- vs.dsltools.dsldesigner.domaintype
 helpviewer_keywords:
-  - "Domain-Specific Language, domain class"
-  - "Domain-Specific Language, external types"
-  - "Domain-Specific Language, relationships"
-  - "Domain-Specific Language, domain properties"
-author: jillre
-ms.author: jillfra
+- Domain-Specific Language, domain class
+- Domain-Specific Language, external types
+- Domain-Specific Language, relationships
+- Domain-Specific Language, domain properties
+author: JoshuaPartlow
+ms.author: joshuapa
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # How to Define a Domain-Specific Language
 To define a domain-specific language (DSL), you create a Visual Studio solution from a template. The key part of the solution is the DSL Definition diagram, which is stored in DslDefinition.dsl. The DSL Definition defines the classes and shapes of the DSL. After you modify and adding to these elements, you can add program code to customize the DSL in more detail.

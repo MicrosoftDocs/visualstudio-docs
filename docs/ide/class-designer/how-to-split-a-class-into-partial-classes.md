@@ -1,19 +1,19 @@
 ---
-title: "How to: Split a Class into Partial Classes (Class Designer)"
+title: 'How to: Split a Class into Partial Classes (Class Designer)'
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "Class Designer, partial classes"
-  - "partial classes, Class Designer"
+- Class Designer, partial classes
+- partial classes, Class Designer
 ms.assetid: 6f6b0b30-3996-4569-9200-20482b3adf90
-author: jillre
-ms.author: jillfra
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 dev_langs:
- - CSharp
- - VB
+- CSharp
+- VB
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # How to: Split a class into partial classes in Class Designer
 

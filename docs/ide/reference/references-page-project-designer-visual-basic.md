@@ -3,18 +3,18 @@ title: References Page, Project Designer (Visual Basic)
 ms.date: 06/21/2017
 ms.topic: reference
 f1_keywords:
-  - "vb.ProjectPropertiesReference"
-  - "vb.ProjectPropertiesUnusedReference"
-  - "vb.ProjectPropertiesReferencePaths"
+- vb.ProjectPropertiesReference
+- vb.ProjectPropertiesUnusedReference
+- vb.ProjectPropertiesReferencePaths
 helpviewer_keywords:
-  - "References page in Project Designer"
-  - "Project Designer, References page"
+- References page in Project Designer
+- Project Designer, References page
 ms.assetid: 5a47c595-e084-401c-86e1-74e0bf74fd86
-author: jillre
-ms.author: jillfra
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # References Page, Project Designer (Visual Basic)
 

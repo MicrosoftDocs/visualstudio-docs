@@ -3,21 +3,21 @@ title: Code navigation commands
 ms.date: 11/21/2019
 ms.topic: conceptual
 helpviewer_keywords:
-  - "code editor, navigation"
-  - "code editor, go to"
-  - "code editor, go to definition"
-  - "code editor, go to line"
-  - "code editor, peek definition"
-  - "code editor, navigation bar"
-  - "go to definition"
-  - "peek definition"
-  - "go to line"
-  - "go to"
-author: mikadumont
-ms.author: midumont
+- code editor, navigation
+- code editor, go to
+- code editor, go to definition
+- code editor, go to line
+- code editor, peek definition
+- code editor, navigation bar
+- go to definition
+- peek definition
+- go to line
+- go to
+author: TerryGLee
+ms.author: tglee
 manager: tglee
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Navigate code
 

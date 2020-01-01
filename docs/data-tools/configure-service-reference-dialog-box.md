@@ -3,17 +3,17 @@ title: Configure Service Reference Dialog Box
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "msvse_wcf.dlg.ConfigureServiceReference"
+- msvse_wcf.dlg.ConfigureServiceReference
 helpviewer_keywords:
-  - "WCF services, Configure Service Reference dialog box"
-  - "service references [Visual Studio], configuring behavior"
-  - "Configure Service Reference dialog box"
+- WCF services, Configure Service Reference dialog box
+- service references [Visual Studio], configuring behavior
+- Configure Service Reference dialog box
 ms.assetid: 25e4c36b-2db6-4e71-9010-b7068255d09d
-author: jillre
-ms.author: jillfra
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "data-storage"
+- data-storage
 ---
 # Configure Service Reference dialog box
 

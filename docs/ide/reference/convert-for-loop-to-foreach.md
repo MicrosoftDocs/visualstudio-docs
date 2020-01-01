@@ -2,13 +2,13 @@
 title: Refactor code to convert a for loop to a foreach statement
 ms.date: 05/10/2018
 ms.topic: reference
-author: jillre
-ms.author: jillfra
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 dev_langs:
-  - CSharp
+- CSharp
 ms.workload:
-  - "dotnet"
+- dotnet
 ---
 # Refactoring to convert between a for loop and a foreach statement
 

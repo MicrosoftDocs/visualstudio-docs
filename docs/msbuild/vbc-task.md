@@ -1,23 +1,23 @@
 ---
-title: "Vbc Task | Microsoft Docs"
-ms.date: "04/12/2018"
-ms.topic: "reference"
+title: Vbc Task | Microsoft Docs
+ms.date: 04/12/2018
+ms.topic: reference
 f1_keywords:
-  - "http://schemas.microsoft.com/developer/msbuild/2003#Vbc"
+- http://schemas.microsoft.com/developer/msbuild/2003#Vbc
 dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
+- VB
+- CSharp
+- C++
+- jsharp
 helpviewer_keywords:
-  - "Vbc task [MSBuild]"
-  - "MSBuild, Vbc task"
+- Vbc task [MSBuild]
+- MSBuild, Vbc task
 ms.assetid: 595278b1-2782-4577-b1ba-b4b5ab5625a3
-author: mikejo5000
-ms.author: mikejo
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 
 # Vbc task

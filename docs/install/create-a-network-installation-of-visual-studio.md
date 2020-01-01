@@ -1,18 +1,18 @@
 ---
-title: "Create a network-based installation"
-description: "Learn how to create a network install point for deploying Visual Studio within an enterprise."
+title: Create a network-based installation
+description: Learn how to create a network install point for deploying Visual Studio within an enterprise.
 ms.date: 10/29/2019
-ms.custom: "seodec18"
+ms.custom: seodec18
 ms.topic: conceptual
 helpviewer_keywords:
-  - "{{PLACEHOLDER}}"
-  - "{{PLACEHOLDER}}"
+- '{{PLACEHOLDER}}'
+- '{{PLACEHOLDER}}'
 ms.assetid: 4CABFD20-962E-482C-8A76-E4012052F701
-author: TerryGLee
-ms.author: tglee
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
 ---

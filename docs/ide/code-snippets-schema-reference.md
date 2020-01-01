@@ -3,16 +3,16 @@ title: Code snippets schema reference
 ms.date: 02/25/2019
 ms.topic: reference
 helpviewer_keywords:
-  - "schema reference [Visual Studio]"
-  - "snippets [Visual Studio], schema reference"
-  - "code snippets [Visual Studio], schema reference"
-  - "IntelliSense Code Snippets, XML Schema"
+- schema reference [Visual Studio]
+- snippets [Visual Studio], schema reference
+- code snippets [Visual Studio], schema reference
+- IntelliSense Code Snippets, XML Schema
 ms.assetid: 58a60621-725f-4763-93b7-62ea5424ef88
-author: jillre
-ms.author: jillfra
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Code snippets schema reference
 

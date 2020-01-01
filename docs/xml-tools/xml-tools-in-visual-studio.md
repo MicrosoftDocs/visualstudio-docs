@@ -3,35 +3,35 @@ title: XML editor and schema designer
 ms.date: 11/04/2016
 ms.topic: conceptual
 f1_keywords:
-  - "vb.xmldesigner"
+- vb.xmldesigner
 helpviewer_keywords:
-  - "XML [Visual Studio], resources"
-  - "Enterprise Templates, XML and"
-  - "discovery files, XML"
-  - "server controls, XML and"
-  - "Web server controls, XML"
-  - "XSL"
-  - "XML [Visual Studio], data sources"
-  - "XML schemas"
-  - "XML [Visual Studio], SGML relationship to"
-  - "CSS, style sheets for XML"
-  - "XML [Visual Studio], .NET classes"
-  - "data [Visual Studio], XML"
-  - "classes [Visual Studio], XML"
-  - "style sheets, for XML"
-  - "Web services"
-  - "SGML, XML"
-  - "XML [Visual Studio]"
-  - "datasets [Visual Basic], XML Schemas"
-  - "XSD schemas"
-  - "XSL, style sheets"
-  - "XMLDataDocument class"
+- XML [Visual Studio], resources
+- Enterprise Templates, XML and
+- discovery files, XML
+- server controls, XML and
+- Web server controls, XML
+- XSL
+- XML [Visual Studio], data sources
+- XML schemas
+- XML [Visual Studio], SGML relationship to
+- CSS, style sheets for XML
+- XML [Visual Studio], .NET classes
+- data [Visual Studio], XML
+- classes [Visual Studio], XML
+- style sheets, for XML
+- Web services
+- SGML, XML
+- XML [Visual Studio]
+- datasets [Visual Basic], XML Schemas
+- XSD schemas
+- XSL, style sheets
+- XMLDataDocument class
 ms.assetid: 1fd5de47-2d61-4180-9539-c2c4bf9ab768
-author: jillre
-ms.author: jillfra
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # XML tools in Visual Studio
 

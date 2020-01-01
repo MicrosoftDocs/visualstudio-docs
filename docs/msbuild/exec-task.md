@@ -1,23 +1,23 @@
 ---
-title: "Exec Task | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "reference"
+title: Exec Task | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: reference
 f1_keywords:
-  - "http://schemas.microsoft.com/developer/msbuild/2003#Exec"
+- http://schemas.microsoft.com/developer/msbuild/2003#Exec
 dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
+- VB
+- CSharp
+- C++
+- jsharp
 helpviewer_keywords:
-  - "Exec task [MSBuild]"
-  - "MSBuild, Exec task"
+- Exec task [MSBuild]
+- MSBuild, Exec task
 ms.assetid: c9b7525a-b1c9-40fc-8bce-77a5b8f960d8
-author: mikejo5000
-ms.author: mikejo
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Exec task
 Runs the specified program or command by using the specified arguments.

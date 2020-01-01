@@ -1,12 +1,12 @@
 ---
-title: "Configure Network Emulation Using Test Settings"
+title: Configure Network Emulation Using Test Settings
 ms.date: 10/03/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "test settings, network emulation"
+- test settings, network emulation
 ms.assetid: ff275cfb-5df9-4710-9a91-9caabaaad34f
-author: jillre
-ms.author: jillfra
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ---
 # How to: Configure network emulation using test settings in Visual Studio

@@ -3,13 +3,13 @@ title: Private data for problem reports
 ms.date: 06/21/2018
 ms.topic: conceptual
 helpviewer_keywords:
-  - developer community privacy
-  - privacy, developer community
-author: jillre
-ms.author: jillfra
+- developer community privacy
+- privacy, developer community
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Developer Community data privacy
 

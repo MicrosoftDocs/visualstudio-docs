@@ -3,20 +3,20 @@ title: Code snippets
 ms.date: 11/04/2016
 ms.topic: conceptual
 f1_keywords:
-  - "vs.ExpansionManagerImport"
-  - "vs.codesnippetmanager"
+- vs.ExpansionManagerImport
+- vs.codesnippetmanager
 helpviewer_keywords:
-  - "surround with"
-  - "code snippets"
-author: jillre
-ms.author: jillfra
+- surround with
+- code snippets
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 dev_langs:
- - CSharp
- - VB
- - CPP
+- CSharp
+- VB
+- CPP
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Code snippets
 

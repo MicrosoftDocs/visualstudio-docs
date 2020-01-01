@@ -3,20 +3,20 @@ title: Encoding and line break characters
 ms.date: 11/04/2016
 ms.topic: conceptual
 f1_keywords:
-  - "vs.Encoding"
+- vs.Encoding
 helpviewer_keywords:
-  - "line breaks"
-  - "encoding"
-  - "Visual Studio, encoding"
-  - "editors, line breaks"
-  - "line break characters"
-  - "Visual Studio, line break characters"
+- line breaks
+- encoding
+- Visual Studio, encoding
+- editors, line breaks
+- line break characters
+- Visual Studio, line break characters
 ms.assetid: 8f9b3ffc-7b8d-44f4-87cb-dc29105be12d
-author: jillre
-ms.author: jillfra
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Encodings and line endings
 

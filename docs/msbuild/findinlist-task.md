@@ -1,21 +1,21 @@
 ---
-title: "FindInList Task | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "reference"
+title: FindInList Task | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: reference
 dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
+- VB
+- CSharp
+- C++
+- jsharp
 helpviewer_keywords:
-  - "FindInList task [MSBuild]"
-  - "MSBuild, FindInList task"
+- FindInList task [MSBuild]
+- MSBuild, FindInList task
 ms.assetid: d49b9f84-52a2-4242-9269-b741a7a7e9f7
-author: mikejo5000
-ms.author: mikejo
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # FindInList task
 In a specified list, finds an item that has the matching itemspec.

@@ -3,13 +3,13 @@ title: Data tools for C++
 ms.date: 11/04/2016
 ms.topic: conceptual
 dev_langs:
-  - "CPP"
-author: jillre
-ms.author: jillfra
+- CPP
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "data-storage"
-  - "cplusplus"
+- data-storage
+- cplusplus
 ---
 # Visual Studio data tools for C++
 

@@ -1,13 +1,13 @@
 ---
-title: "Sample XSD File: Purchase Order Schema"
+title: 'Sample XSD File: Purchase Order Schema'
 ms.date: 11/04/2016
 ms.topic: sample
 ms.assetid: f92b63b5-ec61-43b5-ae1e-63432a7a7e30
-author: jillre
-ms.author: jillfra
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Sample XSD file: Purchase order schema
 

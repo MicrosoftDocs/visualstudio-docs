@@ -1,14 +1,14 @@
 ---
-title: "How to: Reference an MSBuild Project SDK | Microsoft Docs"
-ms.date: "01/25/2018"
-ms.topic: "conceptual"
+title: 'How to: Reference an MSBuild Project SDK | Microsoft Docs'
+ms.date: 01/25/2018
+ms.topic: conceptual
 helpviewer_keywords:
-  - "MSBuild, SDKs, SDK"
-author: mikejo5000
-ms.author: mikejo
+- MSBuild, SDKs, SDK
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # How to: Use MSBuild project SDKs
 

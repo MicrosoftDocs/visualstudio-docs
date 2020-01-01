@@ -1,23 +1,23 @@
 ---
-title: "ConvertToAbsolutePath Task | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "reference"
+title: ConvertToAbsolutePath Task | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: reference
 f1_keywords:
-  - "http://schemas.microsoft.com/developer/msbuild/2003#ConvertToAbsolutePath"
+- http://schemas.microsoft.com/developer/msbuild/2003#ConvertToAbsolutePath
 dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
+- VB
+- CSharp
+- C++
+- jsharp
 helpviewer_keywords:
-  - "ConvertToAbsolutePath task [MSBuild]"
-  - "MSBuild, ConvertToAbsolutePath task"
+- ConvertToAbsolutePath task [MSBuild]
+- MSBuild, ConvertToAbsolutePath task
 ms.assetid: f1af2cb8-b4ef-4a72-be80-22fa526c4491
-author: mikejo5000
-ms.author: mikejo
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # ConvertToAbsolutePath task
 Converts a relative path, or reference, into an absolute path.

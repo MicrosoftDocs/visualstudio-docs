@@ -1,13 +1,13 @@
 ---
-title: "Context Menus in XML Schema Explorer"
+title: Context Menus in XML Schema Explorer
 ms.date: 11/04/2016
 ms.topic: reference
 ms.assetid: 42ab17ca-b8c1-40d7-beda-d033f66fe874
-author: jillre
-ms.author: jillfra
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Context menus (XML Schema Explorer)
 

@@ -4,18 +4,18 @@ ms.date: 10/17/2019
 ms.technology: vs-ide-compile
 ms.topic: reference
 f1_keywords:
-  - "cs.ProjectPropertiesBuildEvents"
+- cs.ProjectPropertiesBuildEvents
 helpviewer_keywords:
-  - "build events"
-  - "Project Designer, Build Events page"
-  - "pre-build events"
-  - "post-build events"
+- build events
+- Project Designer, Build Events page
+- pre-build events
+- post-build events
 ms.assetid: 3fff9ae5-213c-46ea-a660-1d70acb6c922
-author: ghogen
-ms.author: ghogen
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "dotnet"
+- dotnet
 ---
 # Build Events Page, Project Designer (C#)
 

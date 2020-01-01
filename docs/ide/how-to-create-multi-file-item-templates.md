@@ -3,11 +3,11 @@ title: Creating multi-file item templates
 ms.date: 01/02/2018
 ms.topic: conceptual
 helpviewer_keywords:
-  - "Visual Studio templates, creating multi-file item templates"
-  - "multi-file item templates"
-  - "item templates, creating multi-file item templates"
-author: jillre
-ms.author: jillfra
+- Visual Studio templates, creating multi-file item templates
+- multi-file item templates
+- item templates, creating multi-file item templates
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ---
 # How to: Create multi-file item templates

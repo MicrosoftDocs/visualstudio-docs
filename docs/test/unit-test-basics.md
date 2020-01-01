@@ -3,12 +3,12 @@ title: Unit testing fundamentals
 ms.date: 08/07/2019
 ms.topic: conceptual
 f1_keywords:
-  - "vs.UnitTest.CreateUnitTest"
-author: jillre
-ms.author: jillfra
+- vs.UnitTest.CreateUnitTest
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Unit test basics
 

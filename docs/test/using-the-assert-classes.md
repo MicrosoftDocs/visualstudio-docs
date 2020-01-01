@@ -3,14 +3,14 @@ title: MSTest assert classes and methods
 ms.date: 06/07/2018
 ms.topic: reference
 helpviewer_keywords:
-  - "Assert classes"
-  - "Assert methods"
-  - "unit tests, Assert classes"
-ms.author: jillfra
+- Assert classes
+- Assert methods
+- unit tests, Assert classes
+ms.author: mikejo
 manager: jillfra
 ms.workload:
-  - "multiple"
-author: jillre
+- multiple
+author: mikejo5000
 ---
 # Use Assert classes for unit testing
 

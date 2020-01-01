@@ -3,14 +3,14 @@ title: Security
 ms.date: 06/01/2018
 ms.topic: conceptual
 helpviewer_keywords:
-  - "security [Visual Studio], applications"
-  - "application design, securability"
+- security [Visual Studio], applications
+- application design, securability
 ms.assetid: 7d32c4cf-8bec-4307-a2a8-42f0ceddf3eb
-author: jillre
-ms.author: jillfra
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Secure applications
 

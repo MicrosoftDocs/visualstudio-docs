@@ -1,14 +1,14 @@
 ---
-title: "Configurations and Platforms for Coded UI Tests"
+title: Configurations and Platforms for Coded UI Tests
 ms.date: 10/04/2015
 ms.topic: reference
 helpviewer_keywords:
-  - "coded UI tests"
-ms.author: jillfra
+- coded UI tests
+ms.author: mikejo
 manager: jillfra
 ms.workload:
-  - "multiple"
-author: jillre
+- multiple
+author: mikejo5000
 ---
 # Supported configurations and platforms for coded UI tests and action recordings
 

@@ -3,19 +3,19 @@ title: Save a dataset as XML
 ms.date: 11/04/2016
 ms.topic: conceptual
 dev_langs:
-  - "VB"
-  - "CSharp"
+- VB
+- CSharp
 helpviewer_keywords:
-  - "XML [Visual Basic], datasets"
-  - "data [Visual Studio], saving as XML"
-  - "datasets [Visual Basic], saving as XML"
-  - "saving data"
+- XML [Visual Basic], datasets
+- data [Visual Studio], saving as XML
+- datasets [Visual Basic], saving as XML
+- saving data
 ms.assetid: 68b8327c-ae05-49ff-b9ba-99183e70b52c
-author: jillre
-ms.author: jillfra
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "data-storage"
+- data-storage
 ---
 # Save a dataset as XML
 

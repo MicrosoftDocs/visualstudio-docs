@@ -1,12 +1,12 @@
 ---
-title: "MSBuild API | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-author: mikejo5000
-ms.author: mikejo
+title: MSBuild API | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Use the MSBuild API
 

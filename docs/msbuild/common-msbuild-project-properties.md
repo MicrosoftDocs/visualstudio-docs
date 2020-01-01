@@ -1,23 +1,23 @@
 ---
-title: "Common MSBuild Project Properties | Microsoft Docs"
-ms.date: "01/18/2018"
-ms.topic: "reference"
+title: Common MSBuild Project Properties | Microsoft Docs
+ms.date: 01/18/2018
+ms.topic: reference
 dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
+- VB
+- CSharp
+- C++
+- jsharp
 helpviewer_keywords:
-  - "msbuild, common properties"
-  - "msbuild, project file properties"
-  - "ExcludeDeploymentUrl property"
-  - "project file properties (MSBuild)"
+- msbuild, common properties
+- msbuild, project file properties
+- ExcludeDeploymentUrl property
+- project file properties (MSBuild)
 ms.assetid: 9857505d-ae15-42f1-936d-6cd7fb9dd276
-author: mikejo5000
-ms.author: mikejo
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Common MSBuild project properties
 The following table lists frequently used properties that are defined in the Visual Studio project files or included in *.targets* files that MSBuild provides.

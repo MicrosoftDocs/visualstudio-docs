@@ -1,13 +1,13 @@
 ---
-title: "Emulating Real-World Usage of a website for load testing"
+title: Emulating Real-World Usage of a website for load testing
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "load model, specifying"
-  - "load test load model, specifying"
+- load model, specifying
+- load test load model, specifying
 ms.assetid: b7fae849-0538-40d1-ab35-2bb3a0fe4393
-author: jillre
-ms.author: jillfra
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ---
 # Test mix models overview

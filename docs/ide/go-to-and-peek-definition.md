@@ -3,16 +3,16 @@ title: Viewing type definitions
 ms.date: 01/10/2018
 ms.topic: conceptual
 helpviewer_keywords:
-  - "code editor, view definition"
-  - "go to definition"
-  - "peek definition"
-  - "type definition [Visual Studio]"
-  - "member definition [Visual Studio]"
-author: jillre
-ms.author: jillfra
+- code editor, view definition
+- go to definition
+- peek definition
+- type definition [Visual Studio]
+- member definition [Visual Studio]
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # View type and member definitions
 

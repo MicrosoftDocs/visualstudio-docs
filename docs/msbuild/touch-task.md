@@ -1,23 +1,23 @@
 ---
-title: "Touch Task | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "reference"
+title: Touch Task | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: reference
 f1_keywords:
-  - "http://schemas.microsoft.com/developer/msbuild/2003#Touch"
+- http://schemas.microsoft.com/developer/msbuild/2003#Touch
 dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
+- VB
+- CSharp
+- C++
+- jsharp
 helpviewer_keywords:
-  - "MSBuild, Touch task"
-  - "Touch task [MSBuild]"
+- MSBuild, Touch task
+- Touch task [MSBuild]
 ms.assetid: 8a978645-1393-4904-ae69-42afabd8c109
-author: mikejo5000
-ms.author: mikejo
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Touch task
 Sets the access and modification times of files.

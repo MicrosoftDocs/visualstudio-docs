@@ -1,14 +1,14 @@
 ---
-title: "Introduction to IntelliTest"
+title: Introduction to IntelliTest
 ms.date: 05/02/2017
 ms.topic: conceptual
 helpviewer_keywords:
-  - "IntelliTest, Get started"
-ms.author: jillfra
+- IntelliTest, Get started
+ms.author: mikejo
 manager: jillfra
 ms.workload:
-  - "multiple"
-author: jillre
+- multiple
+author: mikejo5000
 ---
 # Get started with Microsoft IntelliTest
 

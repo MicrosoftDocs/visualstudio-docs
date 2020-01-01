@@ -3,16 +3,16 @@ title: Go To Line
 ms.date: 05/18/2018
 ms.topic: reference
 f1_keywords:
-  - "vs.gotoline"
+- vs.gotoline
 helpviewer_keywords:
-  - "code, locating lines"
-  - "Go To Line dialog box"
+- code, locating lines
+- Go To Line dialog box
 ms.assetid: 529fa251-b7b3-49cf-863c-10e0b82ac7cc
-author: jillre
-ms.author: jillfra
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Go To Line dialog box
 

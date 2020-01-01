@@ -1,23 +1,23 @@
 ---
-title: "MakeDir Task | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "reference"
+title: MakeDir Task | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: reference
 f1_keywords:
-  - "http://schemas.microsoft.com/developer/msbuild/2003#MakeDir"
+- http://schemas.microsoft.com/developer/msbuild/2003#MakeDir
 dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
+- VB
+- CSharp
+- C++
+- jsharp
 helpviewer_keywords:
-  - "MakeDir task [MSBuild]"
-  - "MSBuild, MakeDir task"
+- MakeDir task [MSBuild]
+- MSBuild, MakeDir task
 ms.assetid: bc951577-1bfb-4100-b1f1-bc8278c45bf7
-author: mikejo5000
-ms.author: mikejo
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # MakeDir task
 Creates directories and, if necessary, any parent directories.

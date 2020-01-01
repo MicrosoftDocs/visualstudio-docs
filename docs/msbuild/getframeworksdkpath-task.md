@@ -1,23 +1,23 @@
 ---
-title: "GetFrameworkSdkPath Task | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "reference"
+title: GetFrameworkSdkPath Task | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: reference
 f1_keywords:
-  - "http://schemas.microsoft.com/developer/msbuild/2003#GetFrameworkSdkPath"
+- http://schemas.microsoft.com/developer/msbuild/2003#GetFrameworkSdkPath
 dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
+- VB
+- CSharp
+- C++
+- jsharp
 helpviewer_keywords:
-  - "GetFrameworkSdkPath task [MSBuild]"
-  - "MSBuild, GetFrameworkSdkPath task"
+- GetFrameworkSdkPath task [MSBuild]
+- MSBuild, GetFrameworkSdkPath task
 ms.assetid: 2ef82b98-02b6-40cf-a9b5-f0e882fb5064
-author: mikejo5000
-ms.author: mikejo
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # GetFrameworkSdkPath task
 Retrieves the path to the [!INCLUDE[winsdklong](../deployment/includes/winsdklong_md.md)].

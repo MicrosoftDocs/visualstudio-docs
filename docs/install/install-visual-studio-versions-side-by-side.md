@@ -1,15 +1,15 @@
 ---
-title: "Install Visual Studio versions side-by-side"
+title: Install Visual Studio versions side-by-side
 ms.date: 03/05/2019
-ms.prod: "visual-studio-windows"
-ms.technology: "vs-installation"
+ms.prod: visual-studio-windows
+ms.technology: vs-installation
 ms.topic: conceptual
 helpviewer_keywords:
-  - "side-by-side installations [Visual Studio]"
-  - "Help [Visual Studio], installing"
-  - "install multiple versions of Visual Studio"
-author: TerryGLee
-ms.author: tglee
+- side-by-side installations [Visual Studio]
+- Help [Visual Studio], installing
+- install multiple versions of Visual Studio
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # Install Visual Studio versions side-by-side

@@ -3,15 +3,15 @@ title: Code analysis using Roslyn analyzers
 ms.date: 10/03/2019
 ms.topic: overview
 helpviewer_keywords:
-  - "code analysis, managed code"
-  - "analyzers"
-  - "Roslyn analyzers"
-  - "code analyzers"
-author: jillre
-ms.author: jillfra
+- code analysis, managed code
+- analyzers
+- Roslyn analyzers
+- code analyzers
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ms.workload:
-  - "dotnet"
+- dotnet
 ---
 # Overview of source code analyzers
 

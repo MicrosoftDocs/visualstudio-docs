@@ -4,28 +4,28 @@ ms.date: 11/04/2016
 ms.technology: vs-ide-compile
 ms.topic: conceptual
 f1_keywords:
-  - "SolutionProperties.ActiveConfig"
-  - "vs.build.newprojectconfiguration"
-  - "vc.proj.configurationsctrl.multipleconfigs"
-  - "vs.build.editsolutionconfigurations"
-  - "vs.build.editprojectconfigurations"
-  - "vs.multipleconfigurations"
-  - "vs.build.newsolutionconfiguration"
-  - "VS.ConfigurationManager"
-  - "VS.MultipleConfig"
+- SolutionProperties.ActiveConfig
+- vs.build.newprojectconfiguration
+- vc.proj.configurationsctrl.multipleconfigs
+- vs.build.editsolutionconfigurations
+- vs.build.editprojectconfigurations
+- vs.multipleconfigurations
+- vs.build.newsolutionconfiguration
+- VS.ConfigurationManager
+- VS.MultipleConfig
 helpviewer_keywords:
-  - "solution build configurations, about build configurations"
-  - "build configurations"
-  - "project build configurations"
-  - "build configurations, advanced"
-  - "projects [Visual Studio], build configuration"
-  - "solutions [Visual Studio], build configuration"
+- solution build configurations, about build configurations
+- build configurations
+- project build configurations
+- build configurations, advanced
+- projects [Visual Studio], build configuration
+- solutions [Visual Studio], build configuration
 ms.assetid: 934c727d-3a22-429c-bd13-3552cecf2e24
-author: ghogen
-ms.author: ghogen
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Understand build configurations
 

@@ -1,13 +1,13 @@
 ---
-title: "Live Unit Testing"
-ms.date: "03/07/2017"
+title: Live Unit Testing
+ms.date: 03/07/2017
 ms.topic: conceptual
 helpviewer_keywords:
-  - "Live Unit Testing"
-author: jillre
-ms.author: jillfra
+- Live Unit Testing
+author: mikejo5000
+ms.author: mikejo
 ms.workload:
-  - "dotnet"
+- dotnet
 ---
 # How to configure and use Live Unit Testing
 

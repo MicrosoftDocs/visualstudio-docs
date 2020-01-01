@@ -3,12 +3,12 @@ title: Data-Driven Coded UI Test tutorial
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "coded UI tests, data-driven"
-author: jillre
-ms.author: jillfra
+- coded UI tests, data-driven
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Create a data-driven coded UI test
 
