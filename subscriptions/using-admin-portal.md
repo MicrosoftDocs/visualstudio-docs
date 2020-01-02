@@ -42,7 +42,7 @@ For more information about the agreement you are viewing, select the Details tab
 > ![Visual Studio Subscriptions Admin Portal Details Page](_img/using-admin-portal/details-page.png)
 
 ## Resources
-- [Visual Studio licensing white paper](https://aka.ms/vslicensing)
+- [Visual Studio licensing white paper](https://visualstudio.microsoft.com/wp-content/uploads/2019/06/Visual-Studio-Licensing-Whitepaper-May-2019.pdf)
 - [Compare subscription options and pricing](https://visualstudio.microsoft.com/vs/pricing)
 - [Compare Visual Studio IDE features](https://visualstudio.microsoft.com/vs/compare)
 - [Visual Studio Administration and Subscriptions Support](https://visualstudio.microsoft.com/support/support-overview-vs)

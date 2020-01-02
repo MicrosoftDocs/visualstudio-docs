@@ -104,7 +104,7 @@ You can use IntelliTrace to record events and method calls your application, whi
  [IntelliTrace Standalone Collector and Application Pools running under Active Directory accounts](https://devblogs.microsoft.com/devops/intellitrace-standalone-collector-and-application-pools-running-under-active-directory-accounts/)  
   
 ## Forums  
- [Visual Studio Debugger](https://go.microsoft.com/fwlink/?LinkId=262263)  
+ [Visual Studio Debugger](https://social.msdn.microsoft.com/Forums/vsdebug)  
   
 ## Videos  
  [IntelliTrace Experience](https://channel9.msdn.com/Series/Visual-Studio-2015-Enterprise-Videos/IntelliTrace-Experience)  

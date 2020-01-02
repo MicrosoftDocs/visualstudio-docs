@@ -48,7 +48,7 @@ The supported configurations and platforms for coded UI tests for Visual Studio 
 | Internet Explorer 6<br /><br /> Internet Explorer 7 | Not supported. |
 | Chrome<br /><br /> Firefox | Recording of action steps is not supported. Coded UI Tests can be played back on Chrome and Firefox browsers with Visual Studio 2012 Update 4 or later. Go [here](using-different-web-browsers-with-coded-ui-tests.md) for more details. |
 | Opera<br /><br /> Safari | Not supported. |
-| Silverlight | Not supported.<br /><br /> For Visual Studo 2013 however, you can download the [Microsoft Visual Studio 2013 coded UI test plugin for Silverlight](https://go.microsoft.com/fwlink/?LinkId=691026) from the Visual Studio Gallery. |
+| Silverlight | Not supported.<br /><br /> For Visual Studo 2013 however, you can download the [Microsoft Visual Studio 2013 coded UI test plugin for Silverlight](https://marketplace.visualstudio.com/items?itemName=PrachiBoraMSFT.MicrosoftVisualStudio2013CodedUITestPluginforSilve) from the Visual Studio Gallery. |
 | Flash/Java | Not supported. |
 | Windows Forms 2.0 and later | Fully supported. **Note:**  NetFx controls are fully supported, but not all third-party controls are supported. |
 | WPF 3.5 and later | Fully supported.<br /><br /> **Note** NetFx controls are fully supported, but not all third-party controls are supported. |

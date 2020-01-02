@@ -34,7 +34,7 @@ The testing framework for coded UI tests and action recordings does not support 
 
 - SampleTestProject
 
-  Get the sample from this [blog post](https://go.microsoft.com/fwlink/?LinkID=185592).
+  Get the sample from this [blog post](https://blogs.msdn.com/b/gautamg/archive/2010/01/05/3-introducing-sample-excel-extension.aspx).
 
 > [!NOTE]
 > The sample is intended for use with Microsoft Excel 2010. The sample may work with other versions of Microsoft Excel, but it is not currently supported.

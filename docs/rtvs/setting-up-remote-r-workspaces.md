@@ -138,7 +138,7 @@ To run R code, the remote computer must have an R interpreter installed as follo
 
      Both have identical functionality, but Microsoft R Open benefits from additional hardware accelerated linear algebra libraries courtesy of the [Intel Math Kernel Library](https://software.intel.com/intel-mkl).
 
-2. Run the [R Services installer](https://aka.ms/rtvs-services) and reboot when prompted. The installer does the following:
+2. Run the [R Services installer](https://github.com/Microsoft/RTVS/blob/master/doc/rtvsd/rtvs-remote-downloads.md) and reboot when prompted. The installer does the following:
 
     - Create a folder in *%PROGRAMFILES%\R Tools for Visual Studio\1.0\\* and copy all the required binaries.
     - Install `RHostBrokerService` and `RUserProfileService` and configure to start automatically.

@@ -21,17 +21,17 @@ This topic describes how to declare a rule condition using the legacy [!INCLUDE[
 
  Declarative rule conditions are used in the following Windows Workflow Foundation out-of-box activities:
 
-- [ConditionedActivityGroup](https://go.microsoft.com/fwlink?LinkID=65017)
+- [ConditionedActivityGroup](https://msdn2.microsoft.com/library/system.workflow.activities.conditionedactivitygroup.aspx)
 
-- [IfElseBranchActivity](https://go.microsoft.com/fwlink?LinkID=65034)
+- [IfElseBranchActivity](https://msdn2.microsoft.com/library/system.workflow.activities.ifelsebranchactivity.aspx)
 
-- [ReplicatorActivity](https://go.microsoft.com/fwlink?LinkID=65039)
+- [ReplicatorActivity](https://msdn2.microsoft.com/library/system.workflow.activities.replicatoractivity.aspx)
 
-- [WhileActivity](https://go.microsoft.com/fwlink?LinkID=65049)
+- [WhileActivity](https://msdn2.microsoft.com/library/system.workflow.activities.whileactivity.aspx)
 
-- [SequentialWorkflowActivity](https://go.microsoft.com/fwlink?LinkID=65040)
+- [SequentialWorkflowActivity](https://msdn2.microsoft.com/library/system.workflow.activities.sequentialworkflowactivity.aspx)
 
-- [StateMachineWorkflowActivity](https://go.microsoft.com/fwlink?LinkID=65045)
+- [StateMachineWorkflowActivity](https://msdn2.microsoft.com/library/system.workflow.activities.statemachineworkflowactivity.aspx)
 
 ### To create a declarative rule condition using the Rule Condition Editor
 
@@ -59,10 +59,10 @@ This topic describes how to declare a rule condition using the legacy [!INCLUDE[
 
 ## See Also
  [Legacy Workflow Activities](../workflow-designer/legacy-workflow-activities.md)
- [Using the ConditionedActivityGroup](https://go.microsoft.com/fwlink?LinkID=65066)
- [Using the IfElseBranchActivity Activity](https://go.microsoft.com/fwlink?LinkID=65075)
- [Using the Replicator Activity](https://go.microsoft.com/fwlink?LinkID=65080)
- [Using the While Activity](https://go.microsoft.com/fwlink?LinkID=65091)
+ [Using the ConditionedActivityGroup](https://msdn2.microsoft.com/library/bb675237.aspx)
+ [Using the IfElseBranchActivity Activity](https://msdn2.microsoft.com/library/bb628465.aspx)
+ [Using the Replicator Activity](https://msdn2.microsoft.com/library/bb628544.aspx)
+ [Using the While Activity](https://msdn2.microsoft.com/library/bb628552.aspx)
  [Rule Condition Editor Dialog Box (Legacy)](../workflow-designer/rule-condition-editor-dialog-box-legacy.md)
  [Select Condition Dialog Box (Legacy)](../workflow-designer/select-condition-dialog-box-legacy.md)
- [Using Conditions in Workflows](https://go.microsoft.com/fwlink?LinkID=65009)
+ [Using Conditions in Workflows](https://msdn2.microsoft.com/library/bb628447.aspx)

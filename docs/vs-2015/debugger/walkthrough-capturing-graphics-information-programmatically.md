@@ -139,7 +139,7 @@ You can use [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Graphics Diagnostics to
 ### Preparing your computer to use programmatic capture  
  The programmatic capture API uses Remote Tools for [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] to provide capture functionality. The computer where the app will run must have the remote tools installed, even when you are using programmatic capture on your local computer. [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] doesn't have to be running when you perform programmatic capture on a local computer.  
   
- To use the remote capture APIs in an app that's running on a computer, you first have to install the Remote Tools for [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] on that computer. Different versions of the remote tools support different hardware platforms. For information about how to install the remote tools, see the [Remote Tools download page](https://go.microsoft.com/fwlink/p/?LinkId=246691) on the Microsoft downloads website.  
+ To use the remote capture APIs in an app that's running on a computer, you first have to install the Remote Tools for [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] on that computer. Different versions of the remote tools support different hardware platforms. For information about how to install the remote tools, see the [Remote Tools download page](https://visualstudio.microsoft.com/downloads#remote-tools) on the Microsoft downloads website.  
   
  Alternatively, [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] installs the necessary components to perform remote capture for 32-bit apps.  
   
