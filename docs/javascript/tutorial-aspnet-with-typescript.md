@@ -80,6 +80,9 @@ In this tutorial, you begin with a simple project containing code for an ASP.NET
 
    Visual Studio adds the NuGet package under the **Dependencies** node in Solution Explorer.
 
+   > [!NOTE]
+   > This tutorial requires the NuGet package. Alternatively, in your own apps, you may want to use the [TypeScript npm package](https://www.npmjs.com/package/typescript).
+
 1. In Solution Explorer, right-click the project node and choose **Add > New Folder**. Use the name *scripts* for the new folder.
 
 1. Right-click the *scripts* folder and choose **Add > New Item**. Choose the **TypeScript JSON Configuration File**, and then click **Add**.
