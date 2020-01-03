@@ -22,6 +22,8 @@
     href: tutorial-nodejs-with-react-and-jsx.md
   - name: Publish a Node.js app to Linux App Service
     href: publish-nodejs-app-azure.md
+  - name: Create an ASP.NET Core app with TypeScript
+    href: tutorial-aspnet-with-typescript.md
 - name: How-to Guides
   items:
   - name: Write and edit code
