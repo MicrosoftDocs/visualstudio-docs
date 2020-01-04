@@ -87,7 +87,7 @@ In this tutorial, you begin with a simple project containing code for an ASP.NET
 
 1. Right-click the *scripts* folder and choose **Add > New Item**. Choose the **TypeScript JSON Configuration File**, and then click **Add**.
 
-   Visual Studio adds the *tsconfig.json* file to the *scripts* folder. You can use this file to configure options for the TypeScript compiler.
+   Visual Studio adds the *tsconfig.json* file to the *scripts* folder. You can use this file to [configure options](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html) for the TypeScript compiler.
 
 1. Open *tsconfig.json* and replace the default code with the following code:
 
@@ -110,7 +110,7 @@ In this tutorial, you begin with a simple project containing code for an ASP.NET
 
    The *outDir* option specifies the output folder for the plan JavaScript files that are transpiled by the TypeScript compiler.
 
-   In other scenarios, for example when using [gulp or webpack](https://www.typescriptlang.org/docs/handbook/asp-net-core.html), you may want a different intermediate location for the transpiled JavaScript files, depending on your tools and configuration preferences, instead of *../wwwroot/js*.
+   This configuration provides a basic introduction to using TypeScript. In other scenarios, for example when using [gulp or webpack](https://www.typescriptlang.org/docs/handbook/asp-net-core.html), you may want a different intermediate location for the transpiled JavaScript files, depending on your tools and configuration preferences, instead of *../wwwroot/js*.
 
 1. Right-click the *scripts* folder and choose **Add > New Item**. Choose the **TypeScript File**, type the name *app.ts* for the filename, and then click **Add**.
 
