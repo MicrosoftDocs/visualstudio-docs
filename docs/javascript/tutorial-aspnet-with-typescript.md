@@ -14,7 +14,7 @@ ms.workload:
 ---
 # Tutorial: Create an ASP.NET Core app with TypeScript in Visual Studio
 
-In this tutorial for Visual Studio development ASP.NET Core and TypeScript, you create a simple web application, add some code, and run the app. 
+In this tutorial for Visual Studio development ASP.NET Core and TypeScript, you create a simple web application, add some TypeScript code, and then run the app. 
 
 ::: moniker range="vs-2017"
 
@@ -193,6 +193,18 @@ In this tutorial, you begin with a simple project containing code for an ASP.NET
     ![ASP.NET Core with TypeScript](../javascript/media/aspnet-core-ts-running-app.png)
 
 1. Click the button to display the message we specified in the TypeScript file.
+
+## Debug the application
+
+1. Set a breakpoint in the `greeter` function in `app.ts` by clicking in the left margin in the code editor.
+
+    ![Set a breakpoint](../javascript/media/aspnet-core-ts-set-breakpoint.png)
+
+1. Press **F5** to run the application.
+
+   You may need to respond to a message to enable script debugging.
+
+   The application pauses at the breakpoint. Now, you can inspect variables and use debugger features.
 
 ## Next steps
 
