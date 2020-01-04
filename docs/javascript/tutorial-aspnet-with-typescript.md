@@ -208,5 +208,7 @@ In this tutorial, you begin with a simple project containing code for an ASP.NET
 
 ## Next steps
 
+You may want to learn more details about using TypeScript with ASP.NET Core.
+
 > [!div class="nextstepaction"]
 > [ASP.NET Core and TypeScript](https://www.typescriptlang.org/docs/handbook/asp-net-core.html)
