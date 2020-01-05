@@ -18,7 +18,7 @@ ms.workload:
 You can debug C++ code that is running on the graphics processing unit (GPU). GPU debugging support in Visual Studio includes race detection, launching processes and attaching to them, and integration into the debugging windows.
 
 ## Supported Platforms
- Debugging is supported on [!INCLUDE[win7](../debugger/includes/win7_md.md)], [!INCLUDE[win8](../debugger/includes/win8_md.md)], [!INCLUDE[winsvr08_r2](../debugger/includes/winsvr08_r2_md.md)], and [!INCLUDE[winserver8](../debugger/includes/winserver8_md.md)]. For debugging on the software emulator, [!INCLUDE[win8](../debugger/includes/win8_md.md)], or [!INCLUDE[winserver8](../debugger/includes/winserver8_md.md)] is required. For debugging on the hardware, you must install the drivers for your graphics card. Not all hardware vendors implement all debugger features. See the vendor documentation for limitations.
+ Debugging is supported on [!INCLUDE[win7](../debugger/includes/win7_md.md)], [!INCLUDE[win8](../debugger/includes/win8_md.md)], Windows 10, [!INCLUDE[winsvr08_r2](../debugger/includes/winsvr08_r2_md.md)], [!INCLUDE[winserver8](../debugger/includes/winserver8_md.md)] and Windows Server 2016. For debugging on the software emulator, [!INCLUDE[win8](../debugger/includes/win8_md.md)], Windows 10 or [!INCLUDE[winserver8](../debugger/includes/winserver8_md.md)], Windows Server 2016 is required. For debugging on the hardware, you must install the drivers for your graphics card. Not all hardware vendors implement all debugger features. See the vendor documentation for limitations.
 
 > [!NOTE]
 > Independent hardware vendors who want to support GPU debugging in Visual Studio must create a DLL that implements the VSD3DDebug interface and targets their own drivers.
