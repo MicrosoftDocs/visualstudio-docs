@@ -44,6 +44,8 @@ landingContent:
             url: tutorial-nodejs-with-react-and-jsx.md
           - text: Create a web app with Node.js and Vue.js
             url: quickstart-vuejs-with-nodejs.md
+          - text: Create an ASP.NET Core app with TypeScript
+            url: tutorial-aspnet-with-typescript.md
 
   # Card
   - title: Learn Visual Studio
