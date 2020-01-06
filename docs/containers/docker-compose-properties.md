@@ -30,6 +30,7 @@ The following table shows the MSBuild properties available for Docker Compose pr
 | Property name | Location | Description | Default value  |
 |---------------|----------|-------------|----------------|
 |AdditionalComposeFiles|dcproj|Specifies additional compose files in a semicolon-delimited list to be sent out to docker-compose.exe for all commands. Relative paths from the docker-compose project file (dcproj) are allowed.|-|
+|ContainerDevelopmentMode|dcproj| Controls whether "build-on-host" optimization ("Fast Mode" debugging) is enabled.  Allowed values are **Fast** and **Regular**. | Fast |
 |DockerComposeBaseFilePath|dcproj|Specifies the first part of the filenames of the docker-compose files, without the *.yml* extension. For example: <br>1.	DockerComposeBaseFilePath = null/undefined: use the base file path *docker-compose*, and files will be named *docker-compose.yml* and *docker-compose.override.yml*<br>2.	DockerComposeBaseFilePath = *mydockercompose*: files will be named *mydockercompose.yml* and *mydockercompose.override.yml*<br> 3.	DockerComposeBaseFilePath = *..\mydockercompose*: files will be up one level. |docker-compose|
 |DockerComposeBuildArguments|dcproj|Specifies the extra parameters to pass to the `docker-compose build` command. For example, `--parallel --pull` |
 |DockerComposeDownArguments|dcproj|Specifies the extra parameters to pass to the `docker-compose down` command. For example, `--timeout 500`|-|  
