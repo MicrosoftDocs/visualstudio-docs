@@ -24,7 +24,7 @@ You can do nearly everything in the Visual Studio IDE as a normal user. You need
 
 |Area|Task|For more information|
 |----------|----------| - |
-|Installation|Install or modify Visual Studio.|[Install Visual Studio](../install/install-visual-studio.md), or [Modify Visual Studio](../install/modify-visual-studio.md)]|
+|Installation|Install or modify Visual Studio.|[Install Visual Studio](../install/install-visual-studio.md), [Modify Visual Studio](../install/modify-visual-studio.md)|
 ||Install, update, or remove local Help content.|[Install and manage local Help content](../help-viewer/install-manage-local-content.md)|
 |Toolbox|Add classic COM controls to **Toolbox**.|[Toolbox](../ide/reference/toolbox.md)|
 |Building|Use post-build events that register a component.|[Understand custom build steps and build events](/cpp/build/understanding-custom-build-steps-and-build-events)|
