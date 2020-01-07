@@ -1,12 +1,12 @@
 ---
-title: "How to: Add a Drag-and-Drop Handler"
+title: 'How to: Add a Drag-and-Drop Handler'
 ms.date: 11/04/2016
 ms.topic: conceptual
-author: jillre
-ms.author: jillfra
+author: JoshuaPartlow
+ms.author: joshuapa
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # How to: Add a Drag-and-Drop Handler
 

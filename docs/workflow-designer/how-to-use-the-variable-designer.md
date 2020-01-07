@@ -1,15 +1,15 @@
 ---
-title: "Workflow Designer - How to: Use the Variable Designer"
+title: 'Workflow Designer - How to: Use the Variable Designer'
 ms.date: 11/04/2016
 ms.topic: conceptual
 f1_keywords:
-  - "System.Activities.Presentation.View.DesignTimeVariable.UI"
+- System.Activities.Presentation.View.DesignTimeVariable.UI
 ms.assetid: 0318dfb0-bf8f-4f92-9b86-ae4c1b2161ad
-author: jillre
-ms.author: jillfra
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # How to: Use the Variable Designer
 

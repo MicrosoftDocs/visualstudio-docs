@@ -1,23 +1,23 @@
 ---
-title: "Error Task | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "reference"
+title: Error Task | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: reference
 f1_keywords:
-  - "http://schemas.microsoft.com/developer/msbuild/2003#Error"
+- http://schemas.microsoft.com/developer/msbuild/2003#Error
 dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
+- VB
+- CSharp
+- C++
+- jsharp
 helpviewer_keywords:
-  - "Error task [MSBuild]"
-  - "MSBuild, Error task"
+- Error task [MSBuild]
+- MSBuild, Error task
 ms.assetid: e96a90ee-a8ae-4e5b-8ef2-b5cf5fedd8b2
-author: mikejo5000
-ms.author: mikejo
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Error task
 Stops a build and logs an error based on an evaluated conditional statement.

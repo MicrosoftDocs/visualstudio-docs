@@ -3,11 +3,11 @@ title: Security Rules rule set for managed code
 ms.date: 11/04/2016
 ms.topic: reference
 ms.assetid: 564aeac6-03fa-41b0-b655-88179f0ab01b
-author: jillre
-ms.author: jillfra
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ms.workload:
-  - "dotnet"
+- dotnet
 ---
 # Security Rules rule set for managed code
 

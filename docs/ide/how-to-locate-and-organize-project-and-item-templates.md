@@ -3,11 +3,11 @@ title: Locate templates
 ms.date: 01/02/2018
 ms.topic: conceptual
 helpviewer_keywords:
-  - "project templates [Visual Studio], locations"
-  - "item templates [Visual Studio], locations"
-  - "template locations [Visual Studio]"
-author: jillre
-ms.author: jillfra
+- project templates [Visual Studio], locations
+- item templates [Visual Studio], locations
+- template locations [Visual Studio]
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ---
 # How to: Locate and organize project and item templates

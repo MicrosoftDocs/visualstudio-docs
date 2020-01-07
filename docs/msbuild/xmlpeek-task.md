@@ -1,21 +1,21 @@
 ---
-title: "XmlPeek Task | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "reference"
+title: XmlPeek Task | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: reference
 dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
+- VB
+- CSharp
+- C++
+- jsharp
 helpviewer_keywords:
-  - "XmlPeek task [MSBuild]"
-  - "MSBuild, XmlPeek task"
+- XmlPeek task [MSBuild]
+- MSBuild, XmlPeek task
 ms.assetid: 19196031-a3bc-41b5-9c4a-f2572630e179
-author: mikejo5000
-ms.author: mikejo
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # XmlPeek task
 Returns values as specified by XPath Query from an XML file.

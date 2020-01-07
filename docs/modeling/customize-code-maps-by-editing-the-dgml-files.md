@@ -3,23 +3,23 @@ title: Customize code maps by editing the DGML files
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "dependency graphs, creating path aliases"
-  - "dependency graphs, linking items to nodes"
-  - "graph documents, creating path aliases"
-  - "dependency graphs, grouping nodes"
-  - "graph documents, editing"
-  - "graph documents, linking items to nodes"
-  - "graph documents, customizing"
-  - "graph documentings, assigning categories and properties"
-  - "dependency graphs, editing"
-  - "dependency graphs, customizing"
-  - "graph documents, grouping nodes"
-  - "dependency graphs, assigning categories and properties"
-author: jillre
-ms.author: jillfra
+- dependency graphs, creating path aliases
+- dependency graphs, linking items to nodes
+- graph documents, creating path aliases
+- dependency graphs, grouping nodes
+- graph documents, editing
+- graph documents, linking items to nodes
+- graph documents, customizing
+- graph documentings, assigning categories and properties
+- dependency graphs, editing
+- dependency graphs, customizing
+- graph documents, grouping nodes
+- dependency graphs, assigning categories and properties
+author: JoshuaPartlow
+ms.author: joshuapa
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Customize code maps by editing the DGML files
 

@@ -3,13 +3,13 @@ title: Code editor features
 ms.date: 02/23/2018
 ms.topic: conceptual
 helpviewer_keywords:
-  - "code, editing [Visual Studio]"
-  - "code editor [Visual Studio]"
-author: jillre
-ms.author: jillfra
+- code, editing [Visual Studio]
+- code editor [Visual Studio]
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Features of the code editor
 

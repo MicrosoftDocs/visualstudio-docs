@@ -3,16 +3,16 @@ title: Change the startup experience
 ms.date: 02/01/2017
 ms.topic: conceptual
 f1_keywords:
-  - "vs.ToolsOptionsPages.Startup"
+- vs.ToolsOptionsPages.Startup
 helpviewer_keywords:
-  - "Start Page [Visual Studio]"
-  - "customizing Start Page [Visual Studio]"
-  - "Visual Studio Start Page"
-author: jillre
-ms.author: jillfra
+- Start Page [Visual Studio]
+- customizing Start Page [Visual Studio]
+- Visual Studio Start Page
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Customize startup
 

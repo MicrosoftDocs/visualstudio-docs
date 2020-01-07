@@ -3,16 +3,16 @@ title: Customizing Tools and the Toolbox
 ms.date: 11/04/2016
 ms.topic: conceptual
 f1_keywords:
-  - "vs.dsltools.dsldesigner.selectiondialog"
-  - "vs.dsltools.dsldesigner.selecticondialog"
-  - "vs.dsltools.dsldesigner.selectcursordialog"
+- vs.dsltools.dsldesigner.selectiondialog
+- vs.dsltools.dsldesigner.selecticondialog
+- vs.dsltools.dsldesigner.selectcursordialog
 helpviewer_keywords:
-  - "Domain-Specific Language, toolbox"
-author: jillre
-ms.author: jillfra
+- Domain-Specific Language, toolbox
+author: JoshuaPartlow
+ms.author: joshuapa
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Customizing Tools and the Toolbox
 

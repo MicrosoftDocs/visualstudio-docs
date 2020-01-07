@@ -3,11 +3,11 @@ title: Load Test Scenario Properties
 ms.date: 10/19/2016
 ms.topic: reference
 helpviewer_keywords:
-  - "load tests, properties"
-  - "load tests, scenarios"
+- load tests, properties
+- load tests, scenarios
 ms.assetid: 4414a638-1fa2-40ad-b1f4-b99f90b62e62
-author: jillre
-ms.author: jillfra
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ---
 # Load test scenario properties

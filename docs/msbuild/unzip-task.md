@@ -1,27 +1,27 @@
 ---
-title: "Unzip Task | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "reference"
+title: Unzip Task | Microsoft Docs
+ms.date: 11/04/2016
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
+ms.topic: reference
 f1_keywords:
-  - "http://schemas.microsoft.com/developer/msbuild/2003#Unzip"
+- http://schemas.microsoft.com/developer/msbuild/2003#Unzip
 dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
+- VB
+- CSharp
+- C++
+- jsharp
 helpviewer_keywords:
-  - "Unzip task [MSBuild]"
-  - "MSBuild, Unzip task"
+- Unzip task [MSBuild]
+- MSBuild, Unzip task
 ms.assetid: 916bb2e3-3017-4828-ae27-c0b5c99bbb48
 caps.latest.revision: 16
-author: Mikejo5000
-ms.author: mikejo
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Unzip task
 Unzips a *.zip* archive to the specified location.

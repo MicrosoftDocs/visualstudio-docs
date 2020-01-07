@@ -3,16 +3,16 @@ title: -DebugExe (devenv.exe)
 ms.date: 12/10/2018
 ms.topic: reference
 helpviewer_keywords:
-  - "Devenv, /DebugExe switch"
-  - "DebugExe switch"
-  - "/DebugExe [devenv.exe]"
-  - "debugging executables"
+- Devenv, /DebugExe switch
+- DebugExe switch
+- /DebugExe [devenv.exe]
+- debugging executables
 ms.assetid: cd700006-1648-418f-924b-4b1e5c1412ab
-author: jillre
-ms.author: jillfra
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # /DebugExe (devenv.exe)
 

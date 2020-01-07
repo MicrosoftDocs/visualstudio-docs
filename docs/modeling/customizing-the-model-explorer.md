@@ -3,14 +3,14 @@ title: Customizing the Model Explorer
 ms.date: 11/04/2016
 ms.topic: conceptual
 f1_keywords:
-  - "vs.dsltools.dsldesigner.explorerbehavior"
+- vs.dsltools.dsldesigner.explorerbehavior
 helpviewer_keywords:
-  - "Domain-Specific Language Tools, Domain-Specific Language Explorer"
-author: jillre
-ms.author: jillfra
+- Domain-Specific Language Tools, Domain-Specific Language Explorer
+author: JoshuaPartlow
+ms.author: joshuapa
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Customizing the Model Explorer
 You can change the appearance and behavior of the explorer for your domain-specific language designer as follows:

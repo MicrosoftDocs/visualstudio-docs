@@ -3,12 +3,12 @@ title: Understanding the DSL Code
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "Domain-Specific Language, generated code"
-author: jillre
-ms.author: jillfra
+- Domain-Specific Language, generated code
+author: JoshuaPartlow
+ms.author: joshuapa
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Understanding the DSL Code
 

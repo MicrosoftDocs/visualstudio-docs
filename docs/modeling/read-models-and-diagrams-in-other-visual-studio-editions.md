@@ -1,15 +1,15 @@
 ---
 title: Read models and diagrams in other Visual Studio editions
-titleSuffix: ""
+titleSuffix: ''
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "models, versions of Visual Studio"
-author: jillre
-ms.author: jillfra
+- models, versions of Visual Studio
+author: JoshuaPartlow
+ms.author: joshuapa
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Read models and diagrams in other Visual Studio editions
 

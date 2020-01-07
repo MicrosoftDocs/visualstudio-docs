@@ -3,21 +3,21 @@ title: Update data by using a TableAdapter
 ms.date: 11/04/2016
 ms.topic: conceptual
 dev_langs:
-  - "VB"
-  - "CSharp"
+- VB
+- CSharp
 helpviewer_keywords:
-  - "data [Visual Studio], saving"
-  - "data [Visual Studio], TableAdapters"
-  - "updating data, TableAdapters"
-  - "TableAdapters, updating data"
-  - "data [Visual Studio], updating"
-  - "saving data"
+- data [Visual Studio], saving
+- data [Visual Studio], TableAdapters
+- updating data, TableAdapters
+- TableAdapters, updating data
+- data [Visual Studio], updating
+- saving data
 ms.assetid: 5e32e10e-9bac-4969-9bdd-b8f6919d3516
-author: jillre
-ms.author: jillfra
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "data-storage"
+- data-storage
 ---
 # Update data by using a TableAdapter
 

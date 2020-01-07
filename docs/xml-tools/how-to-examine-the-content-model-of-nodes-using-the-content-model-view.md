@@ -1,13 +1,13 @@
 ---
-title: "Examine nodes using Content Model View in XML Schema Designer"
+title: Examine nodes using Content Model View in XML Schema Designer
 ms.date: 11/04/2016
 ms.topic: conceptual
 ms.assetid: c42ddac8-b0e3-48d6-9832-112a19d6c104
-author: jillre
-ms.author: jillfra
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # How to: Examine the content model of nodes using the Content Model View
 

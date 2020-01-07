@@ -3,24 +3,24 @@ title: Add references in the Reference Manager
 ms.date: 08/02/2019
 ms.topic: conceptual
 f1_keywords:
-  - "VS.ReferenceManager"
+- VS.ReferenceManager
 helpviewer_keywords:
-  - "C# projects, references"
-  - "references [Visual Studio], adding"
-  - "assemblies [Visual Studio], references"
-  - "Visual Basic projects, references"
-  - "project references, adding"
-  - "referencing components, adding references"
-  - "project references, removing"
-  - "referencing assemblies"
-  - "referencing components, removing references"
-  - "references [Visual Studio], removing"
-  - "referencing components, assemblies not listed"
-author: jillre
-ms.author: jillfra
+- C# projects, references
+- references [Visual Studio], adding
+- assemblies [Visual Studio], references
+- Visual Basic projects, references
+- project references, adding
+- referencing components, adding references
+- project references, removing
+- referencing assemblies
+- referencing components, removing references
+- references [Visual Studio], removing
+- referencing components, assemblies not listed
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # How to: Add or remove references by using the Reference Manager
 

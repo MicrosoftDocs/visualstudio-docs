@@ -3,15 +3,15 @@ title: Connect to data in an Access database
 ms.date: 07/18/2019
 ms.topic: conceptual
 helpviewer_keywords:
-  - "data [Visual Studio], connecting"
-  - "connecting to data, Access databases"
-  - "Access databases, connecting"
+- data [Visual Studio], connecting
+- connecting to data, Access databases
+- Access databases, connecting
 ms.assetid: 4159e815-d430-4ad0-a234-e4125fcbef18
-author: jillre
-ms.author: jillfra
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "data-storage"
+- data-storage
 ---
 # Connect to data in an Access database
 

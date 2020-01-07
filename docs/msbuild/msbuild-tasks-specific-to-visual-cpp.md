@@ -1,20 +1,20 @@
 ---
-title: "MSBuild Tasks Specific to C++ | Microsoft Docs"
-ms.date: "03/10/2019"
-ms.topic: "reference"
+title: MSBuild Tasks Specific to C++ | Microsoft Docs
+ms.date: 03/10/2019
+ms.topic: reference
 dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
+- VB
+- CSharp
+- C++
+- jsharp
 helpviewer_keywords:
-  - "MSBuild, tasks specific to C++"
+- MSBuild, tasks specific to C++
 ms.assetid: 05410f0c-7356-4692-bc00-20664421c9ff
-author: mikejo5000
-ms.author: mikejo
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "cplusplus"
+- cplusplus
 ---
 # MSBuild tasks specific to C++
 Tasks provide the code that runs during the build process. When C++ is installed, the following tasks are available, in addition to those that are installed with [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)]. For more information, see [MSBuild (C++) overview](/cpp/build/msbuild-visual-cpp-overview).

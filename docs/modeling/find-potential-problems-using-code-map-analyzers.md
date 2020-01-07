@@ -3,16 +3,16 @@ title: Find potential problems using code map analyzers
 ms.date: 11/04/2016
 ms.topic: conceptual
 f1_keywords:
-  - "vs.progression.codemapanalyzers"
+- vs.progression.codemapanalyzers
 helpviewer_keywords:
-  - "code analysis, dependency graphs"
-  - "dependency graphs, analyzing code"
-  - "graph documents, analyzing"
-author: jillre
-ms.author: jillfra
+- code analysis, dependency graphs
+- dependency graphs, analyzing code
+- graph documents, analyzing
+author: JoshuaPartlow
+ms.author: joshuapa
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Find potential problems using code map analyzers
 

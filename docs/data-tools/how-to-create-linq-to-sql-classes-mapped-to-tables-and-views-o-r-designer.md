@@ -1,13 +1,13 @@
 ---
-title: "Map LINQ to SQL classes to tables/views (O-R Designer)"
+title: Map LINQ to SQL classes to tables/views (O-R Designer)
 ms.date: 11/04/2016
 ms.topic: conceptual
 ms.assetid: 0fb78bbc-7a78-4ab4-b32f-85ece912e660
-author: jillre
-ms.author: jillfra
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "data-storage"
+- data-storage
 ---
 # How to: Create LINQ to SQL classes mapped to tables and views (O/R Designer)
 

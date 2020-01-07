@@ -1,13 +1,13 @@
 ---
-title: "How to: Create a Basic Lambert Shader"
+title: 'How to: Create a Basic Lambert Shader'
 ms.date: 11/04/2016
 ms.topic: conceptual
 ms.assetid: ec5c10fb-9600-4240-8280-d59451ea1d68
-author: jillre
-ms.author: jillfra
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # How to: Create a basic Lambert shader
 

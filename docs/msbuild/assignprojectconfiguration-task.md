@@ -1,18 +1,18 @@
 ---
-title: "AssignProjectConfiguration Task | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "reference"
+title: AssignProjectConfiguration Task | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: reference
 dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
+- VB
+- CSharp
+- C++
+- jsharp
 ms.assetid: 09633a0b-8f6f-4aba-8058-7cb4d13ce2c0
-author: mikejo5000
-ms.author: mikejo
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # AssignProjectConfiguration task
 This task accepts a list configuration strings and assigns them to specified projects.

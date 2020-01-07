@@ -1,13 +1,13 @@
 ---
-title: "How to: Create an XML Document Based on an XSD Schema"
+title: 'How to: Create an XML Document Based on an XSD Schema'
 ms.date: 11/04/2016
 ms.topic: conceptual
 ms.assetid: 193b195f-e918-4c79-a1a1-8096a1433bde
-author: jillre
-ms.author: jillfra
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # How to: Create an XML document based on an XSD schema
 

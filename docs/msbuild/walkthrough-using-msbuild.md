@@ -1,15 +1,15 @@
 ---
-title: "Walkthrough: Using MSBuild | Microsoft Docs"
-ms.date: "03/20/2019"
-ms.topic: "conceptual"
+title: 'Walkthrough: Using MSBuild | Microsoft Docs'
+ms.date: 03/20/2019
+ms.topic: conceptual
 helpviewer_keywords:
-  - "MSBuild, tutorial"
+- MSBuild, tutorial
 ms.assetid: b8a8b866-bb07-4abf-b9ec-0b40d281c310
-author: mikejo5000
-ms.author: mikejo
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Walkthrough: Use MSBuild
 

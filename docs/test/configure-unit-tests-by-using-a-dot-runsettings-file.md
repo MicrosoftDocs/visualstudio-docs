@@ -1,12 +1,12 @@
 ---
-title: "Configure unit tests with a .runsettings file"
+title: Configure unit tests with a .runsettings file
 ms.date: 10/03/2019
 ms.topic: conceptual
-ms.author: jillfra
+ms.author: mikejo
 manager: jillfra
 ms.workload:
-  - "multiple"
-author: jillre
+- multiple
+author: mikejo5000
 ---
 # Configure unit tests by using a *.runsettings* file
 

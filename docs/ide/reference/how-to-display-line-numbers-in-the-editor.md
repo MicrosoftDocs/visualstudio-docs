@@ -3,16 +3,16 @@ title: Display line numbers for code
 ms.date: 03/28/2019
 ms.topic: conceptual
 helpviewer_keywords:
-  - "line numbers, displaying"
-  - "Code Editor, line numbers"
-  - "editors, line numbers"
-  - "code, line number displaying"
+- line numbers, displaying
+- Code Editor, line numbers
+- editors, line numbers
+- code, line number displaying
 ms.assetid: 40b38559-b8de-4041-91f2-68986767c976
-author: jillre
-ms.author: jillfra
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # How to: Display line numbers in the editor
 

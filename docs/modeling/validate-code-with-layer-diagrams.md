@@ -3,22 +3,22 @@ title: Validate code with dependency diagrams
 ms.date: 09/28/2018
 ms.topic: conceptual
 helpviewer_keywords:
-  - "dependency diagrams, validating"
-  - "validation, dependency diagrams"
-  - "validation, code"
-  - "code exploration, validating"
-  - "architecture, validating"
-  - "Visual Studio Ultimate, validating code"
-  - "validation, architecture"
-  - "validation, dependencies"
-  - "MSBuild, tasks"
-  - "MSBuild, dependency diagrams"
-  - "MSBuild, validating code"
-author: jillre
-ms.author: jillfra
+- dependency diagrams, validating
+- validation, dependency diagrams
+- validation, code
+- code exploration, validating
+- architecture, validating
+- Visual Studio Ultimate, validating code
+- validation, architecture
+- validation, dependencies
+- MSBuild, tasks
+- MSBuild, dependency diagrams
+- MSBuild, validating code
+author: JoshuaPartlow
+ms.author: joshuapa
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Validate code with dependency diagrams
 

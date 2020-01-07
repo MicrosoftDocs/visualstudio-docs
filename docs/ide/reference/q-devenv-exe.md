@@ -3,15 +3,15 @@ title: -? (devenv.exe)
 ms.date: 12/10/2018
 ms.topic: reference
 helpviewer_keywords:
-  - "/? Devenv switch"
-  - "Devenv, /? switch"
-  - "Devenv, command-line help"
+- /? Devenv switch
+- Devenv, /? switch
+- Devenv, command-line help
 ms.assetid: fd8fd6b2-1304-4d06-8118-6629666801fb
-author: jillre
-ms.author: jillfra
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # /? (devenv.exe)
 

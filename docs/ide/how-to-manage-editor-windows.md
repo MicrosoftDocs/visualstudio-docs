@@ -1,18 +1,18 @@
 ---
-title: "How to: Manage editor windows"
+title: 'How to: Manage editor windows'
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "editor windows"
-  - "windows, managing editor windows"
-  - "editors, windows management"
-  - "Code Editor, windows management"
+- editor windows
+- windows, managing editor windows
+- editors, windows management
+- Code Editor, windows management
 ms.assetid: 340143d4-8a71-490d-823e-162b276f4c6d
-author: jillre
-ms.author: jillfra
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # How to: Manage editor windows
 

@@ -3,12 +3,12 @@ title: Options, Windows Forms Designer, General
 ms.date: 08/09/2019
 ms.topic: reference
 f1_keywords:
-  - VS.ToolsOptionsPages.WindowsFormsDesigner.General
+- VS.ToolsOptionsPages.WindowsFormsDesigner.General
 helpviewer_keywords:
-  - "Windows Forms Designer options"
-  - "Options dialog box, Windows Forms Designer"
-author: jillre
-ms.author: jillfra
+- Windows Forms Designer options
+- Options dialog box, Windows Forms Designer
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ---
 # Options dialog box: Windows Forms Designer

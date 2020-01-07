@@ -3,14 +3,14 @@ title: Develop code without projects or solutions
 ms.date: 02/21/2018
 ms.topic: conceptual
 helpviewer_keywords:
-  - "open folder [Visual Studio]"
-  - "anycode [Visual Studio]"
-  - projects and solutions, develop code without
-author: jillre
-ms.author: jillfra
+- open folder [Visual Studio]
+- anycode [Visual Studio]
+- projects and solutions, develop code without
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Develop code in Visual Studio without projects or solutions
 

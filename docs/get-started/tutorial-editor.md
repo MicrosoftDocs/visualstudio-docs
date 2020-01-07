@@ -4,13 +4,13 @@ ms.date: 11/30/2017
 ms.technology: vs-ide-general
 ms.custom: get-started
 ms.topic: tutorial
-author: jillre
-ms.author: jillfra
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 dev_langs:
-  - "CSharp"
+- CSharp
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Learn to use the code editor
 

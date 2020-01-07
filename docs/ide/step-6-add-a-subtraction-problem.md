@@ -1,18 +1,18 @@
 ---
-title: "Step 6: Add a subtraction problem"
+title: 'Step 6: Add a subtraction problem'
 ms.date: 11/04/2016
 ms.topic: tutorial
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
 dev_langs:
-  - "CSharp"
-  - "VB"
+- CSharp
+- VB
 ms.assetid: 59204ef9-24bd-4f81-b85f-e3168e518a3e
 author: TerryGLee
 ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Step 6: Add a subtraction problem
 In the sixth part of this tutorial, you'll add a subtraction problem and learn how to perform the following tasks:

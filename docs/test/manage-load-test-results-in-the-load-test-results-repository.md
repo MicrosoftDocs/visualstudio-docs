@@ -1,15 +1,15 @@
 ---
-title: "Manage Load Test Results"
+title: Manage Load Test Results
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "load tests, results repository"
-  - "results, load test"
-  - "load test results, repository"
-  - "Load Test Results Repository"
+- load tests, results repository
+- results, load test
+- load test results, repository
+- Load Test Results Repository
 ms.assetid: 1cd63c4b-4f74-4133-b675-5e8fbeab25f3
-author: jillre
-ms.author: jillfra
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ---
 # Manage load test results in the Load Test Results Repository

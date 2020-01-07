@@ -3,17 +3,17 @@ title: Open File Command
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "file.openfile"
+- file.openfile
 helpviewer_keywords:
-  - "Open File command"
-  - "File.OpenFile command"
-  - "of command"
+- Open File command
+- File.OpenFile command
+- of command
 ms.assetid: a51a83fc-e3c6-4fa2-8882-8b7b6c0a6406
-author: jillre
-ms.author: jillfra
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Open file command
 

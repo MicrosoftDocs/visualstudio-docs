@@ -10,7 +10,7 @@ author: mavasani
 ms.author: jillfra
 manager: jillfra
 ms.workload:
-  - "dotnet"
+- dotnet
 ---
 # How to: Run code analysis manually for managed code (requires Visual Studio 2019 version 16.5 or later)
 By default, .NET Compiler Platform ("Roslyn") code analyzers analyze your C# or Visual Basic code as you type by doing live analysis, as well as during build. Hence, you would normally not require to manually trigger code analysis. However, there are some scenarios where you may want to manually trigger code analysis:

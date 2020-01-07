@@ -3,26 +3,26 @@ title: Customize window layouts
 ms.date: 01/23/2017
 ms.topic: conceptual
 f1_keywords:
-  - "vs.windows"
-  - "vs.environment"
+- vs.windows
+- vs.environment
 helpviewer_keywords:
-  - "windows [Visual Studio], managing"
-  - "custom window configurations"
-  - "layout [Visual Studio], window management"
-  - "document windows [Visual Studio]"
-  - "interface modes"
-  - "AutoHide windows"
-  - "MDI, window interface modes"
-  - "multiple monitors"
-  - "Tabbed Document mode"
-  - "debug mode"
-  - "custom layouts"
+- windows [Visual Studio], managing
+- custom window configurations
+- layout [Visual Studio], window management
+- document windows [Visual Studio]
+- interface modes
+- AutoHide windows
+- MDI, window interface modes
+- multiple monitors
+- Tabbed Document mode
+- debug mode
+- custom layouts
 ms.assetid: 7517ff13-76de-4ecf-9c1b-eb9b7ff4d718
-author: jillre
-ms.author: jillfra
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Customize window layouts in Visual Studio
 

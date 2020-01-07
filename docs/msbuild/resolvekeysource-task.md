@@ -1,23 +1,23 @@
 ---
-title: "ResolveKeySource Task | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "reference"
+title: ResolveKeySource Task | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: reference
 f1_keywords:
-  - "http://schemas.microsoft.com/developer/msbuild/2003#ResolveKeySource"
+- http://schemas.microsoft.com/developer/msbuild/2003#ResolveKeySource
 dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
+- VB
+- CSharp
+- C++
+- jsharp
 helpviewer_keywords:
-  - "ResolveKeySource task [MSBuild]"
-  - "MSBuild, ResolveKeySource task"
+- ResolveKeySource task [MSBuild]
+- MSBuild, ResolveKeySource task
 ms.assetid: 449f06c2-e9aa-4236-ab1e-c45c25452b2e
-author: mikejo5000
-ms.author: mikejo
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # ResolveKeySource task
 Determines the strong name key source.

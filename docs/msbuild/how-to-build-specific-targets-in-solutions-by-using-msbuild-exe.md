@@ -1,17 +1,17 @@
 ---
-title: "Use MSBuild.exe to build specific targets in solutions"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Use MSBuild.exe to build specific targets in solutions
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "MSBuild, building specific targets in a solution"
-  - "msbuild.exe, building specific targets in a solution"
-  - "MSBuild, msbuild.exe"
+- MSBuild, building specific targets in a solution
+- msbuild.exe, building specific targets in a solution
+- MSBuild, msbuild.exe
 ms.assetid: f46feb9b-4c16-4fec-b6e1-36a959692ba3
-author: mikejo5000
-ms.author: mikejo
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # How to: Build specific targets in solutions by using MSBuild.exe
 You can use *MSBuild.exe* to build specific targets of specific projects in a solution.

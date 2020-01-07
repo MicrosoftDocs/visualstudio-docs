@@ -3,17 +3,17 @@ title: Naming Warnings
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "vs.codeanalysis.namingrules"
+- vs.codeanalysis.namingrules
 helpviewer_keywords:
-  - "managed code analysis warnings, naming warnings"
-  - "naming warnings"
-  - "warnings, naming"
+- managed code analysis warnings, naming warnings
+- naming warnings
+- warnings, naming
 ms.assetid: f97223ce-1d39-4134-81c9-fff2c75d979b
-author: jillre
-ms.author: jillfra
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Naming Warnings
 

@@ -1,12 +1,12 @@
 ---
-title: "Step Ramp Time for a Step Load Pattern for load testing"
+title: Step Ramp Time for a Step Load Pattern for load testing
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "load tests, load patterns"
+- load tests, load patterns
 ms.assetid: 4a69e857-f93b-4907-9a01-fd1b66291205
-author: jillre
-ms.author: jillfra
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ---
 # How to: Specify the step ramp time property for a step load pattern

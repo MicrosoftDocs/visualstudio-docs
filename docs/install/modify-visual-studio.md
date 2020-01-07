@@ -6,16 +6,16 @@ ms.custom: "H1Hack27Feb2017,seodec18"
 ms.date: 12/19/2019
 ms.topic: conceptual
 helpviewer_keywords:
-  - "modify Visual Studio"
-  - "change visual studio"
-  - "changing Visual Studio"
-  - "customize Visual Studio"
+- modify Visual Studio
+- change visual studio
+- changing Visual Studio
+- customize Visual Studio
 ms.assetid: 3399ea7b-a291-4a9e-80a1-b861a21afa1d
-author: TerryGLee
-ms.author: tglee
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
 ---

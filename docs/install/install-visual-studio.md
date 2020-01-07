@@ -1,23 +1,23 @@
 ---
-title: "Install Visual Studio"
-titleSuffix: ""
-description: "Learn how to install Visual Studio, step-by-step."
+title: Install Visual Studio
+titleSuffix: ''
+description: Learn how to install Visual Studio, step-by-step.
 ms.date: 12/13/2019
-ms.custom: "seodec18"
+ms.custom: seodec18
 ms.topic: conceptual
 f1_keywords:
-  - "vs.about"
+- vs.about
 helpviewer_keywords:
-  - "install Visual Studio"
-  - "dev15"
-  - "set up Visual Studio"
-  - "Visual Studio setup"
-  - "Visual Studio installer"
-author: TerryGLee
-ms.author: tglee
+- install Visual Studio
+- dev15
+- set up Visual Studio
+- Visual Studio setup
+- Visual Studio installer
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
 ---

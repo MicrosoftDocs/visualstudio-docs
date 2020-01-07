@@ -1,23 +1,23 @@
 ---
-title: "Otherwise Element (MSBuild) | Microsoft Docs"
-ms.date: "03/13/2017"
-ms.topic: "reference"
+title: Otherwise Element (MSBuild) | Microsoft Docs
+ms.date: 03/13/2017
+ms.topic: reference
 f1_keywords:
-  - "http://schemas.microsoft.com/developer/msbuild/2003#Otherwise"
+- http://schemas.microsoft.com/developer/msbuild/2003#Otherwise
 dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
+- VB
+- CSharp
+- C++
+- jsharp
 helpviewer_keywords:
-  - "<Otherwise> Element [MSBuild]"
-  - "Otherwise Element [MSBuild]"
+- <Otherwise> Element [MSBuild]
+- Otherwise Element [MSBuild]
 ms.assetid: de3997e9-1595-4263-a886-95530b56a319
-author: mikejo5000
-ms.author: mikejo
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Otherwise element (MSBuild)
 Specifies the block of code to execute if and only if the conditions of all `When` elements evaluate to `false`.

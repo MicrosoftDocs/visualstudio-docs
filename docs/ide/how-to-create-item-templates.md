@@ -3,9 +3,9 @@ title: Create item templates
 ms.date: 01/02/2018
 ms.topic: conceptual
 helpviewer_keywords:
-  - "item templates [Visual Studio], creating"
-author: jillre
-ms.author: jillfra
+- item templates [Visual Studio], creating
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ---
 # How to: Create item templates

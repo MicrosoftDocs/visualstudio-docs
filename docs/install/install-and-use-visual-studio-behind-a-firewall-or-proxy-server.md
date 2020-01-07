@@ -1,20 +1,20 @@
 ---
-title: "Install and use behind a firewall or proxy server"
-description: "Review the domain URLs, ports, and protocols that you might want to add to an allow list or open if your organization uses a firewall or a proxy server"
+title: Install and use behind a firewall or proxy server
+description: Review the domain URLs, ports, and protocols that you might want to add to an allow list or open if your organization uses a firewall or a proxy server
 ms.date: 05/22/2019
-ms.custom: "seodec18"
+ms.custom: seodec18
 ms.topic: conceptual
 helpviewer_keywords:
-  - "network installation, Visual Studio"
-  - "administrator guide, Visual Studio"
-  - "installing Visual Studio, administrator guide"
-  - "list of domains, locations, URLs"
-ms.assetid:
-author: TerryGLee
-ms.author: tglee
+- network installation, Visual Studio
+- administrator guide, Visual Studio
+- installing Visual Studio, administrator guide
+- list of domains, locations, URLs
+ms.assetid: 
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
 ---
