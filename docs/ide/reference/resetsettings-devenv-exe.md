@@ -3,16 +3,16 @@ title: -ResetSettings (devenv.exe)
 ms.date: 12/10/2018
 ms.topic: reference
 helpviewer_keywords:
-  - "Devenv, /ResetSettings switch"
-  - "ResetSettings switch"
-  - "/ResetSettings Devenv switch"
-  - "settings [Visual Studio], resetting"
+- Devenv, /ResetSettings switch
+- ResetSettings switch
+- /ResetSettings Devenv switch
+- settings [Visual Studio], resetting
 ms.assetid: 1d41021c-6f58-4bd5-b122-d1c995812192
-author: gewarren
-ms.author: gewarren
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # /ResetSettings (devenv.exe)
 

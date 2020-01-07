@@ -1,30 +1,30 @@
 ---
-title: "VCMessage Task | Microsoft Docs"
-ms.date: "06/27/2018"
-ms.topic: "reference"
+title: VCMessage Task | Microsoft Docs
+ms.date: 06/27/2018
+ms.topic: reference
 f1_keywords:
-  - "vc.task.vcmessage"
+- vc.task.vcmessage
 dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
-  - "C++"
+- VB
+- CSharp
+- C++
+- jsharp
+- C++
 helpviewer_keywords:
-  - "VCMessage task (MSBuild (Visual C++))"
-  - "MSBuild (Visual C++), VCMessage task"
+- VCMessage task (MSBuild (C++))
+- MSBuild (C++), VCMessage task
 ms.assetid: 956675fd-05dc-40b4-856f-616145103498
-author: mikejo5000
-ms.author: mikejo
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # VCMessage task
 Logs warning and error messages during a build.
 
 ## Remarks
- This task helps implement MSBuild for Visual C++ and is not intended to be called by the user. For more information, see <xref:Microsoft.Build.Utilities.TaskLoggingHelper>.
+ This task helps implement MSBuild for C++ projects and is not intended to be called by the user. For more information, see <xref:Microsoft.Build.Utilities.TaskLoggingHelper>.
 
 ## Parameters
  The following table describes the parameters of the **VCMessage** task.

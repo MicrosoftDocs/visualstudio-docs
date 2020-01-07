@@ -1,14 +1,14 @@
 ---
-title: "Page Response Time in a Load Test"
+title: Page Response Time in a Load Test
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "load tests, response times"
-  - "response times in load tests"
-  - "load test results, response times"
+- load tests, response times
+- response times in load tests
+- load test results, response times
 ms.assetid: e61c49f3-3161-45b1-9220-08b5459065a2
-author: gewarren
-ms.author: gewarren
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ---
 # How to: View web page response time in a load test using the Load Test Analyzer

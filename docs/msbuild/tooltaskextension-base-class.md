@@ -1,20 +1,18 @@
 ---
-title: "ToolTaskExtension Base Class | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "reference"
-f1_keywords:
-  - "MSBuild.ToolTask.ToolCommandFailed"
+title: ToolTaskExtension Base Class | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: reference
 dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
+- VB
+- CSharp
+- C++
+- jsharp
 ms.assetid: 258ae433-f68a-49f1-b276-da20e3472e68
-author: mikejo5000
-ms.author: mikejo
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # ToolTaskExtension base class
 Many tasks inherit from the <xref:Microsoft.Build.Tasks.ToolTaskExtension> class, which inherits from the <xref:Microsoft.Build.Utilities.ToolTask> class, which itself inherits from the <xref:Microsoft.Build.Utilities.Task> class. This inheritance chain adds several parameters to the tasks that derive from them. These parameters are listed in this document.

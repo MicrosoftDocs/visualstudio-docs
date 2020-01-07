@@ -1,14 +1,14 @@
 ---
-title: "Use a lab environment for devops"
+title: Use a lab environment for devops
 ms.date: 05/02/2017
 ms.topic: conceptual
 helpviewer_keywords:
-  - "lab environment, test lab"
-ms.author: gewarren
+- lab environment, test lab
+ms.author: mikejo
 manager: jillfra
 ms.workload:
-  - "multiple"
-author: gewarren
+- multiple
+author: mikejo5000
 ---
 # Use a lab environment for your devops
 

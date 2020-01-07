@@ -1,23 +1,23 @@
 ---
-title: "GenerateResource Task | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "reference"
+title: GenerateResource Task | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: reference
 f1_keywords:
-  - "http://schemas.microsoft.com/developer/msbuild/2003#GenerateResource"
+- http://schemas.microsoft.com/developer/msbuild/2003#GenerateResource
 dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
+- VB
+- CSharp
+- C++
+- jsharp
 helpviewer_keywords:
-  - "MSBuild, GenerateResource task"
-  - "GenerateResource task [MSBuild]"
+- MSBuild, GenerateResource task
+- GenerateResource task [MSBuild]
 ms.assetid: c0aff32f-f2cc-46f6-9c3e-a5c9f8f912b1
-author: mikejo5000
-ms.author: mikejo
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # GenerateResource task
 Converts between *.txt* and *.resx* (XML-based resource format) files and common language runtime binary *.resources* files that can be embedded in a runtime binary executable or compiled into satellite assemblies. This task is typically used to convert *.txt* or *.resx* files to *.resources* files. The `GenerateResource` task is functionally similar to [resgen.exe](/dotnet/framework/tools/resgen-exe-resource-file-generator).

@@ -40,7 +40,7 @@ When you view memory contents in a **Memory** window or the **Disassembly** wind
 
 - Click the arrow at the top or bottom of the vertical scrollbar.
 
-## See Also
+## See also
 - [Memory Windows](../debugger/memory-windows.md)
 - [How to: Use the Disassembly Window](../debugger/how-to-use-the-disassembly-window.md)
 - [Viewing Data in the Debugger](../debugger/viewing-data-in-the-debugger.md)

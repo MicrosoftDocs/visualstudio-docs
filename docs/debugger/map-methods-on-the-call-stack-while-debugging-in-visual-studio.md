@@ -35,12 +35,12 @@ ms.workload:
 Create a code map to visually trace the call stack while you're debugging. You can make notes on the map to track what the code is doing, so you can focus on finding bugs.
 
 For a walkthrough, watch this video:
-[Video: Debug visually with Code Map debugger integration (Channel 9)](http://go.microsoft.com/fwlink/?LinkId=293418)
+[Video: Debug visually with Code Map debugger integration (Channel 9)](https://channel9.msdn.com/Series/Visual-Studio-2012-Premium-and-Ultimate-Overview/Visual-Studio-Ultimate-2012Debug-visually-with-Code-Map-debugger-integration)
 
 For details of commands and actions you can use with code maps, see [Browse and rearrange code maps](../modeling/browse-and-rearrange-code-maps.md).
 
 >[!IMPORTANT]
->You can create code maps only in [Visual Studio Enterprise edition](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2019).
+>You can create code maps only in [Visual Studio Enterprise edition](https://visualstudio.microsoft.com/downloads).
 
 Here's a quick look at a code map:
 

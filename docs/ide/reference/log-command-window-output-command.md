@@ -3,16 +3,16 @@ title: Log Command Window Output Command
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "tools.logcommandwindowoutput"
+- tools.logcommandwindowoutput
 helpviewer_keywords:
-  - "log Command window output command"
-  - "View.LogCommandWindowOutput command"
+- log Command window output command
+- View.LogCommandWindowOutput command
 ms.assetid: d4ecec35-5af4-4954-8d60-2cd24583fbb4
-author: gewarren
-ms.author: gewarren
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Log Command window output command
 

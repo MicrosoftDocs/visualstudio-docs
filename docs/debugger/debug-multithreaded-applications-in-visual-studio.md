@@ -97,6 +97,6 @@ Give your thread a name that you view in the **Threads** window.
 - [Use breakpoints](../debugger/using-breakpoints.md)
 - [Threading](/dotnet/standard/threading/index)
 - [Multithreading in components](https://msdn.microsoft.com/Library/2fc31e68-fb71-4544-b654-0ce720478779)
-- [Multithreading support for older code (Visual C++)](/cpp/parallel/multithreading-support-for-older-code-visual-cpp)
+- [Multithreading support for older code](/cpp/parallel/multithreading-support-for-older-code-visual-cpp)
 - [Debug threads and processes](../debugger/debug-threads-and-processes.md)
 - [Remote debugging](../debugger/remote-debugging.md)

@@ -3,16 +3,16 @@ title: Projects and Solutions, Options dialog box
 ms.date: 07/26/2019
 ms.topic: reference
 f1_keywords:
-  - "VS.ToolsOptionsPages.Projects.General"
+- VS.ToolsOptionsPages.Projects.General
 helpviewer_keywords:
-  - "Projects and Solutions Options dialog box"
-  - "Options dialog box, Projects and Solutions"
+- Projects and Solutions Options dialog box
+- Options dialog box, Projects and Solutions
 ms.assetid: 2801f24e-a138-488a-ae3c-e1f99a678ac0
-author: gewarren
-ms.author: gewarren
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Options dialog box: Projects and Solutions \> General
 
@@ -64,11 +64,31 @@ When selected, Visual Studio displays a confirmation message box before the loca
 
 ## Reopen documents on solution load
 
-**Introduced in Visual Studio 2017 version 15.8**
-
 When selected, documents that were left open the previous time the solution was closed are automatically opened when the solution is opened.
 
 Reopening certain types of files or designers can delay solution load. Uncheck this option to [improve solution load performance](../../ide/visual-studio-performance-tips-and-tricks.md#disable-automatic-file-restore) if you don't want to restore the solution's previous context.
+
+::: moniker range=">=vs-2019"
+
+## Restore Solution Explorer project hierarchy state on solution load
+
+When selected, restores the state of nodes in Solution Explorer with respect to whether they were expanded or collapsed the last time the solution was open. Deselect this option to decrease solution load time for large solutions.
+
+> [!TIP]
+> If you disable this option, an easy way to navigate to the active document in Solution Explorer is by selecting **Sync with Active Document** on the **Solution Explorer** toolbar.
+>
+> ![Sync with active document in Solution Explorer](media/sync-active-document.png)
+
+## Open SDK-style project files with double-click or the Enter key
+
+When this option is selected and you double-click on an SDK-style project node in Solution Explorer or select it and then press **Enter**, the project file (for example, \*.csproj file) opens as XML in the editor. When deselected, double-clicking an SDK-style project node in Solution Explorer or selecting it and pressing **Enter** has the effect of expanding or collapsing the node only.
+
+If you don't have this option selected and you want to edit an SDK-style project file, right-click on the project node in Solution Explorer and select **Edit Project File**. For other project types, you must first unload the project before editing it in Visual Studio.
+
+> [!TIP]
+> An *SDK-style project*, or [project SDK](../../msbuild/how-to-use-project-sdk.md), has a newer, more streamlined project file format that was introduced with MSBuild 15.0. An SDK-style project contains an `Sdk` attribute on the `Project` element, for example `<Project Sdk="Microsoft.NET.Sdk">`. Visual Studio creates an SDK-style project when you create a new .NET Core project from one of the Visual Studio templates, for example.
+
+::: moniker-end
 
 ## See also
 

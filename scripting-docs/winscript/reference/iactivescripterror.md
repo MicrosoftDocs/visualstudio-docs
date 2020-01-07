@@ -25,5 +25,5 @@ An object implementing this interface is passed to the [IActiveScriptSite::OnScr
 |[IActiveScriptError::GetSourcePosition](../../winscript/reference/iactivescripterror-getsourceposition.md)|Retrieves the location in the source code where an error occurred.|  
 |[IActiveScriptError::GetSourceLineText](../../winscript/reference/iactivescripterror-getsourcelinetext.md)|Retrieves the line in the source file where an error occurred.|  
   
-## See Also  
+## See also  
  [Active Script Interfaces](../../winscript/reference/active-script-interfaces.md)

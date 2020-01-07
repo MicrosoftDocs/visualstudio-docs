@@ -33,7 +33,7 @@ There are a number of projects that will provide you with a pre-built template t
 
 ![ASP.NET Project Options](media/asp-net-core-2019-new-asp-core.png)
 
-Select the **ASP.NET Core Empty Web Application** and press **Next**. Give the Project a Name and press **Create**. This creates a new ASP.NET Core app, that should look similar to the image below:
+Select the **ASP.NET Core Empty Web Application** and press **Next**. Give the Project a Name and press **Create**. This creates a new ASP.NET Core app. In the solution pad's left pane, expand the second arrow and then select **Startup.cs**. It should look similar to the image below:
 
 ![New ASP.NET Core Empty Project view](media/asp-net-core-2019-empty-project.png)
 
@@ -113,9 +113,9 @@ You can configure delegates by using the `Run`,`Map`, and `Use` methods on `IApp
 
 The `Configure` method of the pre-built template is built to do a few things. First, it configures an exception handling page for use during development. Then, it sends a response to the requesting web page with a simple "Hello World".
 
-This simple Hello, World project can run now without any additional code being added. To run the app, and view it in your browser, press the Play (Triangular) button in the toolbar:
+This simple Hello, World project can run now without any additional code being added. To run the app, you can either select which browser you want to run app the app in using the dropdown right of the Play button, or simply hit the Play (triangular) button to use your default browser:
 
-![Run App](media/asp-net-core-2019-run-debug.png)
+![Browser Run](media/asp-net-web-picker.png)
 
 Visual Studio for Mac uses a random port to launch your web project. To find out what port this is, open the Application Output, which is listed under **View > Pads**. You should find output similar to that shown below:
 

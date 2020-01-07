@@ -103,6 +103,6 @@ DBGPROP_ATTRIB_NO_ATTRIB  =0x00000000,
 ## Remarks  
  These flags are also used to filter children of an object. The values may be combined with a bitwise OR.  
   
-## See Also  
+## See also  
  [IDebugProperty Interface](../../winscript/reference/idebugproperty-interface.md)   
  [DebugPropertyInfo Structure](../../winscript/reference/debugpropertyinfo-structure.md)

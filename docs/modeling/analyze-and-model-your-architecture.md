@@ -3,20 +3,20 @@ title: Analyze and model your architecture
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "diagrams - modeling"
-  - "architecture"
-  - "code visualization"
-  - "application design"
-  - "code exploration"
-  - "modeling"
-  - "application architecture"
-  - "architecture [Visual Studio ALM], modeling"
-  - "application modeling"
-author: gewarren
-ms.author: gewarren
+- diagrams - modeling
+- architecture
+- code visualization
+- application design
+- code exploration
+- modeling
+- application architecture
+- architecture [Visual Studio ALM], modeling
+- application modeling
+author: JoshuaPartlow
+ms.author: joshuapa
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Analyze and model your architecture
 

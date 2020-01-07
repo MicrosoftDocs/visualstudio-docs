@@ -44,7 +44,7 @@ HRESULT GetExtendedPropertyInfo(
 ## Return Value  
  Returns a valid `HRESULT`, typically `S_OK`.  
   
-## See Also  
+## See also  
  [IDebugExtendedProperty Interface](../../winscript/reference/idebugextendedproperty-interface.md)   
  [EX_DBGPROP_INFO_FLAGS](../../winscript/reference/ex-dbgprop-info-flags.md)   
  [ExtendedDebugPropertyInfo Structure](../../winscript/reference/extendeddebugpropertyinfo-structure.md)

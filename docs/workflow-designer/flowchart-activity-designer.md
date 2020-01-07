@@ -1,17 +1,17 @@
 ---
-title: "Workflow Designer - Flowchart Activity Designer"
+title: Workflow Designer - Flowchart Activity Designer
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "System.Activities.Statements.Flowchart.UI"
-  - "System.Activities.Statements.FlowStep.UI"
-  - "System.Activities.Core.Presentation.FlowStart.UI"
+- System.Activities.Statements.Flowchart.UI
+- System.Activities.Statements.FlowStep.UI
+- System.Activities.Core.Presentation.FlowStart.UI
 ms.assetid: d5af2276-5215-4138-880a-cf2b90bbf3a0
-author: gewarren
-ms.author: gewarren
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Flowchart Activity Designer
 

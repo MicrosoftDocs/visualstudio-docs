@@ -3,7 +3,7 @@ title: Setting up a Git Repository
 description: Using Git and Subversion in Visual Studio for Mac.
 author: jmatthiesen
 ms.author: jomatthi
-ms.date: 02/15/2018
+ms.date: 02/15/2019
 ms.assetid: E992FA1D-B2AD-4A28-ADC6-47E4FC471060
 ---
 # Set up a Git repository
@@ -75,7 +75,7 @@ If you have an existing project that _is not_ already in version control, use th
 
     ![Version Control Menu](media/version-control-git10.png)
 
-10. Once you start to make additional changes, select **Push Changes** to push the changes to the **remote** repository. This will allow all appropriate users to view it on github.com:
+10. Once you start to make additional changes, select **Push Changes** to push the changes to the **remote** repository. This will allow all appropriate users to view it on github.com:
 
     ![Push Changes to remote repository](media/version-control-git11.png)
 

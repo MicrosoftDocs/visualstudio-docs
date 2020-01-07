@@ -3,16 +3,16 @@ title: Replace Command
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "edit.replace"
+- edit.replace
 helpviewer_keywords:
-  - "Edit.Replace command"
-  - "Replace command"
+- Edit.Replace command
+- Replace command
 ms.assetid: a15767f1-5a3d-44f5-8c77-7b0f1157f340
-author: gewarren
-ms.author: gewarren
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Replace Command
 Replaces text in files using a subset of the options available on the **Replace in Files** tab of the **Find and Replace** window.
@@ -94,7 +94,7 @@ This example replaces `btnSend` with `btnSubmit` in all open documents.
 >Edit.Replace btnSend btnSubmit /open
 ```
 
-## See Also
+## See also
 
 - [Finding and Replacing Text](../../ide/finding-and-replacing-text.md)
 - [Command Window](../../ide/reference/command-window.md)

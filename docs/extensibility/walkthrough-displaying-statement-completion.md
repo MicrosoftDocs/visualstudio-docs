@@ -8,6 +8,9 @@ ms.assetid: f3152c4e-7673-4047-a079-2326941d1c83
 author: madskristensen
 ms.author: madsk
 manager: jillfra
+dev_langs:
+ - CSharp
+ - VB
 ms.workload:
   - "vssdk"
 ---
@@ -114,7 +117,7 @@ You can implement language-based statement completion by defining the identifier
 
 1. Add a file named `TestCompletionCommandHandler`.
 
-2. Add these using statements:
+2. Add these using directives:
 
      [!code-csharp[VSSDKCompletionTest#11](../extensibility/codesnippet/CSharp/walkthrough-displaying-statement-completion_11.cs)]
      [!code-vb[VSSDKCompletionTest#11](../extensibility/codesnippet/VisualBasic/walkthrough-displaying-statement-completion_11.vb)]

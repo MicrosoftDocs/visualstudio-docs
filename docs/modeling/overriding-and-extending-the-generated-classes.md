@@ -3,12 +3,12 @@ title: Overriding and Extending the Generated Classes
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "Domain-Specific Language, providing overridable classes"
-author: gewarren
-ms.author: gewarren
+- Domain-Specific Language, providing overridable classes
+author: JoshuaPartlow
+ms.author: joshuapa
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Override and extend the generated classes
 

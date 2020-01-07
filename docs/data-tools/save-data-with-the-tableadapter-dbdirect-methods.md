@@ -3,19 +3,19 @@ title: Save data with the TableAdapter DBDirect methods
 ms.date: 11/04/2016
 ms.topic: conceptual
 dev_langs:
-  - "VB"
-  - "CSharp"
+- VB
+- CSharp
 helpviewer_keywords:
-  - "TableAdapters, walkthroughs"
-  - "data [Visual Studio], saving"
-  - "saving data, walkthroughs"
-  - "data [Visual Studio], TableAdapter"
+- TableAdapters, walkthroughs
+- data [Visual Studio], saving
+- saving data, walkthroughs
+- data [Visual Studio], TableAdapter
 ms.assetid: 74a6773b-37e1-4d96-a39c-63ee0abf49b1
-author: gewarren
-ms.author: gewarren
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "data-storage"
+- data-storage
 ---
 # Save data with the TableAdapter DBDirect methods
 

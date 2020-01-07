@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "CA2224"
 ms.assetid: 7312afd9-84ba-417f-923e-7a159b53bf70
 caps.latest.revision: 17
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: "wpickett"
 ---
 # CA2224: Override equals on overloading operator equals

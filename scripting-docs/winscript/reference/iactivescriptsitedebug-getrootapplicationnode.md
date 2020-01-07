@@ -43,5 +43,5 @@ HRESULT GetRootApplicationNode(
 ## Remarks  
  This method returns the application node under which script documents should be added. The method can return `NULL` for `ppdanRoot` if script documents should be top-level.  
   
-## See Also  
+## See also  
  [IActiveScriptSiteDebug Interface](../../winscript/reference/iactivescriptsitedebug-interface.md)

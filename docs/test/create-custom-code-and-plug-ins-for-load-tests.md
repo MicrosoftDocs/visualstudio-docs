@@ -1,15 +1,15 @@
 ---
-title: "Create custom code and plug-ins for load tests"
+title: Create custom code and plug-ins for load tests
 ms.date: 10/19/2016
 ms.topic: conceptual
 f1_keywords:
-  - "vs.test.dialog.recorderplugin"
+- vs.test.dialog.recorderplugin
 helpviewer_keywords:
-  - "Web performance tests, plug-ins"
-  - "load tests, plug-ins"
+- Web performance tests, plug-ins
+- load tests, plug-ins
 ms.assetid: 0c0fcc99-673b-4ea0-a268-0475f66e5cb6
-author: gewarren
-ms.author: gewarren
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ---
 # Create custom code and plug-ins for load tests

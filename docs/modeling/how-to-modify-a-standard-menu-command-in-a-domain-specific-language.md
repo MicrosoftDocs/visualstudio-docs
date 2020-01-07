@@ -5,8 +5,8 @@ ms.topic: conceptual
 helpviewer_keywords:
   - ".vsct files, adding commands to a domain-specific language"
   - "Domain-Specific Language, adding custom commands"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

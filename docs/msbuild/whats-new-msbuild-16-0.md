@@ -1,13 +1,13 @@
 ---
-title: "What&#39;s New in MSBuild 16.0  | Microsoft Docs"
-ms.date: "03/11/2019"
-ms.topic: "conceptual"
-author: mikejo5000
-ms.author: mikejo
+title: What&#39;s New in MSBuild 16.0  | Microsoft Docs
+ms.date: 03/11/2019
+ms.topic: conceptual
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "multiple"
-monikerRange: ">=vs-2019"
+- multiple
+monikerRange: '>=vs-2019'
 ---
 # What's new in MSBuild 16.0
 

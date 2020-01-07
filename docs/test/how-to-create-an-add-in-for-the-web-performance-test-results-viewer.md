@@ -1,13 +1,13 @@
 ---
-title: "Create Add-In for Web Performance Test Results Viewer"
+title: Create Add-In for Web Performance Test Results Viewer
 ms.date: 10/20/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "Web performance tests, Visual Studio Add-in"
-  - "Visual Studio Add-in, Web performance tests"
+- Web performance tests, Visual Studio Add-in
+- Visual Studio Add-in, Web performance tests
 ms.assetid: 1118c604-4b1b-4b21-a04e-45995b676fa8
-author: gewarren
-ms.author: gewarren
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ---
 # How to: Create an add-in for the Web Performance Test Results Viewer

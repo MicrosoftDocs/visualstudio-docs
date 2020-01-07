@@ -3,12 +3,12 @@ title: Navigating and Updating a Model in Program Code
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "Domain-Specific Language, programming domain models"
-author: gewarren
-ms.author: gewarren
+- Domain-Specific Language, programming domain models
+author: JoshuaPartlow
+ms.author: joshuapa
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Navigate and Update a Model in Program Code
 

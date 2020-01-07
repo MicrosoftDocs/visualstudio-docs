@@ -1,5 +1,5 @@
 ---
-title: Using the Subscriber Portal - http://my.visualstudio.com | Microsoft Docs
+title: Using the Subscriber Portal - https://my.visualstudio.com | Microsoft Docs
 author: evanwindom
 ms.author: lank
 manager: lank
@@ -12,12 +12,12 @@ description: Learn about the full range of benefits available to you on the Visu
 
 The Visual Studio Subscriptions Portal, [https://my.visualstudio.com](https://my.visualstudio.com?wt.mc_id=o~msft~docs), is your all-in-one resource to take advantage of the full range of benefits provided through your Visual Studio subscription.
 
-Using the portal requires that you sign in with the identity associated with your subscription.  This may your Microsoft Account (MSA) or an email address provided to you by an organization, such as your employer or school.  Learn about [signing in](signing-in.md).
+Using the portal requires that you sign in with the identity associated with your subscription.  This may be your Microsoft Account (MSA) or an email address provided to you by an organization, such as your employer or school.  Learn about [signing in](signing-in.md).
 
 The portal is organized in six pages.  Each page provides you with access to different products or services included with your subscription.  The six pages are Benefits, Downloads, Product Keys, Subscriptions, Support, and Marketplace.
 
 ## [Benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs)
-The tools and services included with your subscription are displayed as "tiles" on the Benefits page.  Not all benefits are included with all subscriptions. The tiles are grouped into three categories:  Tools, Professional Development, and Support.  If you're using Visual Studio Dev Essentials, you'll also see a category entitled Featured, which may contain selected benefits from the other three categories.
+The tools and services included with your subscription are displayed as "tiles" on the Benefits page.  Not all benefits are included with all subscriptions. The tiles are grouped into three categories:  Tools, Professional Development, and Support.  
 
 ### Tools
 The Tools category is where you'll find the core development tools, such as the Visual Studio IDE, Azure DevOps, as well as tools provided by our partners.  You'll also see services such as Azure and Visual Studio App Center.

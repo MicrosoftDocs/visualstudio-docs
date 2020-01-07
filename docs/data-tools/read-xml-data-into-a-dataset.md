@@ -3,23 +3,23 @@ title: Read XML data into a dataset
 ms.date: 11/04/2016
 ms.topic: conceptual
 dev_langs:
-  - "VB"
-  - "CSharp"
+- VB
+- CSharp
 helpviewer_keywords:
-  - "reading XML"
-  - "data access [Visual Studio], XML data"
-  - "reading files, XML"
-  - "data [Visual Studio], reading from XML files"
-  - "reading data, XML files"
-  - "XML [Visual Studio], reading"
-  - "XML documents, reading"
-  - "datasets [Visual Basic], reading XML data"
+- reading XML
+- data access [Visual Studio], XML data
+- reading files, XML
+- data [Visual Studio], reading from XML files
+- reading data, XML files
+- XML [Visual Studio], reading
+- XML documents, reading
+- datasets [Visual Basic], reading XML data
 ms.assetid: fae72958-0893-47d6-b3dd-9d42418418e4
-author: gewarren
-ms.author: gewarren
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "data-storage"
+- data-storage
 ---
 # Read XML data into a dataset
 

@@ -1,7 +1,7 @@
 ---
 title: Manage Python environments and interpreters
 description: Use the Python Environments window to manage global, virtual, and conda environments, installing Python interpreters and packages, and assigning environments to Visual Studio projects.
-ms.date: 03/18/2019
+ms.date: 08/06/2019
 ms.topic: conceptual
 author: JoshuaPartlow
 ms.author: joshuapa
@@ -70,7 +70,7 @@ Use the drop-down list below the list of environments to switch to different tab
 
 Selecting an environment doesn't change its relation to any projects. The default environment, shown in boldface in the list, is the one that Visual Studio uses for any new projects. To use a different environment with new projects, use the **Make this the default environment for new projects** command. Within the context of a project you can always select a specific environment. For more information, see [Select an environment for a project](selecting-a-python-environment-for-a-project.md).
 
-To the right of each listed environment is a control that opens an **Interactive** window for that environment. (In Visual Studio 2017 15.5 and earlier, another control appears that refreshes the IntelliSense database for that environment. See [Environments window tab reference](python-environments-window-tab-reference.md#intellisense-tab) for details about the database.)
+To the right of each listed environment is a control that opens an **Interactive** window for that environment. (In Visual Studio 2017 15.5 and earlier, another control appears that refreshes the IntelliSense database for that environment. See [Environments window tab reference](python-environments-window-tab-reference.md) for details about the database.)
 
 ::: moniker range="vs-2017"
 > [!Tip]
@@ -118,7 +118,7 @@ For this reason, developers often create a *virtual environment* for a project. 
 
 Visual Studio provides direct support for creating a virtual environment for a project. For example, if you open a project that contains a *requirements.txt*, or create a project from a template that includes that file, Visual Studio prompts you to automatically create a virtual environment and install those dependencies.
 
-At any time within an open project, you can create a new virtual environment. In **Solution Explorer**, expand the project node, right-click **Python Environments**, and select "Add Virtual Environment." For more information, see [Create a virtual environment](selecting-a-python-environment-for-a-project.md#create-a-virtual-environment).
+At any time within an open project, you can create a new virtual environment. In **Solution Explorer**, expand the project node, right-click **Python Environments**, and select "Add Virtual Environment." For more information, see [Create a virtual environment](/visualstudio/python/selecting-a-python-environment-for-a-project?view=vs-2019#create-a-virtual-environment-1).
 
 Visual Studio also provides a command to generate a *requirements.txt* file from a virtual environment, making it easy to recreate the environment on other computers. For more information, see [Use virtual environments](selecting-a-python-environment-for-a-project.md#use-virtual-environments).
 
@@ -256,7 +256,7 @@ To correct an environment you wish to keep, first try using its installer's **Re
 To correct an environment that doesn't have a repair option, or to remove an invalid environment, use the following steps to modify the registry directly. Visual Studio automatically updates the **Python Environments** window when you make changes to the registry.
 
 1. Run *regedit.exe*.
-1. Navigate to **HKEY_LOCAL_MACHINE\SOFTWARE\Python** for 32-bit interpreters, or **HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Python** for 64-bit interpreters. For IronPython, look for **IronPython** instead.
+1. Navigate to **HKEY_LOCAL_MACHINE\SOFTWARE\Python**. For IronPython, look for **IronPython** instead.
 1. Expand the node that matches the distribution, such as **Python Core** for CPython or **ContinuumAnalytics** for Anaconda. For IronPython, expand the version number node.
 1. Inspect the values under the **InstallPath** node:
 

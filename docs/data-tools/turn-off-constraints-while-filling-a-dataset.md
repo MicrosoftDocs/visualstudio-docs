@@ -3,23 +3,23 @@ title: Turn off constraints while filling a dataset
 ms.date: 11/04/2016
 ms.topic: conceptual
 f1_keywords:
-  - "DataRow.BeginEdit"
-  - "DataRow.EndEdit"
-  - "DataRow.CancelEdit"
+- DataRow.BeginEdit
+- DataRow.EndEdit
+- DataRow.CancelEdit
 dev_langs:
-  - "VB"
-  - "CSharp"
+- VB
+- CSharp
 helpviewer_keywords:
-  - "updating datasets, constraints"
-  - "constraints [Visual Basic], datasets"
-  - "datasets [Visual Basic], constraints"
-  - "constraints [Visual Basic], suspending during dataset update"
+- updating datasets, constraints
+- constraints [Visual Basic], datasets
+- datasets [Visual Basic], constraints
+- constraints [Visual Basic], suspending during dataset update
 ms.assetid: 553f7d0c-2faa-4c17-b226-dd02855bf1dc
-author: gewarren
-ms.author: gewarren
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "data-storage"
+- data-storage
 ---
 # Turn off constraints while filling a dataset
 

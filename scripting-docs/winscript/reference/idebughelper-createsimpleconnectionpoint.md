@@ -47,6 +47,6 @@ HRESULT CreateSimpleConnectionPoint(
 ## Remarks  
  Returns an event interface that wraps the given `IDispatch` (see [ISimpleConnectionPoint Interface](../../winscript/reference/isimpleconnectionpoint-interface.md)).  
   
-## See Also  
+## See also  
  [IDebugHelper Interface](../../winscript/reference/idebughelper-interface.md)   
  [ISimpleConnectionPoint Interface](../../winscript/reference/isimpleconnectionpoint-interface.md)

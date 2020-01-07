@@ -1,21 +1,21 @@
 ---
-title: "Set defaults for enterprise deployments"
-description: "Learn about domain policies and other configuration operations for enterprise deployments of Visual Studio."
+title: Set defaults for enterprise deployments
+description: Learn about domain policies and other configuration operations for enterprise deployments of Visual Studio.
 ms.date: 03/30/2019
-ms.custom: "seodec18"
+ms.custom: seodec18
 ms.topic: conceptual
 f1_keywords:
-  - "gpo"
-  - "policy"
+- gpo
+- policy
 helpviewer_keywords:
-  - "{{PLACEHOLDER}}"
-  - "{{PLACEHOLDER}}"
+- '{{PLACEHOLDER}}'
+- '{{PLACEHOLDER}}'
 ms.assetid: 9B7B4608-7A3F-4FF4-BDCE-42D9F7CE6DBA
-author: heaths
-ms.author: tglee
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
 ---

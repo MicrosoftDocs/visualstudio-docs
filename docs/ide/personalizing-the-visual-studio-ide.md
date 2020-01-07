@@ -2,11 +2,11 @@
 title: Customize the IDE
 ms.date: 11/20/2017
 ms.topic: conceptual
-author: gewarren
-ms.author: gewarren
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Personalize the Visual Studio IDE
 

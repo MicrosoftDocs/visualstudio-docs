@@ -43,6 +43,6 @@ HRESULT Attach(
 ## Remarks  
  This method adds this application node to the project tree, using `pdanParent` as the parent. If `pdanParent` is `NULL`, this application node will be the top-level node.  
   
-## See Also  
+## See also  
  [IDebugApplicationNode::Detach](../../winscript/reference/idebugapplicationnode-detach.md)   
  [IDebugApplicationNode Interface](../../winscript/reference/idebugapplicationnode-interface.md)

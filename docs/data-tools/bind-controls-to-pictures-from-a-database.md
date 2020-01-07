@@ -3,20 +3,20 @@ title: Bind controls to pictures from a database
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "images [Visual Basic], displaying on Windows Forms"
-  - "data binding [Windows Forms], pictures"
-  - "images [Visual Basic], data binding"
-  - "pictures, data binding"
-  - "pictures, dragging from Data Sources window"
-  - "Data Sources Window, setting controls to display images"
-  - "PictureBox control [Windows Forms], data binding"
-  - "images [Visual Basic], dragging from Data Sources window"
+- images [Visual Basic], displaying on Windows Forms
+- data binding [Windows Forms], pictures
+- images [Visual Basic], data binding
+- pictures, data binding
+- pictures, dragging from Data Sources window
+- Data Sources Window, setting controls to display images
+- PictureBox control [Windows Forms], data binding
+- images [Visual Basic], dragging from Data Sources window
 ms.assetid: 9748815e-3556-49e8-86b1-c6aa593c6163
-author: gewarren
-ms.author: gewarren
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "data-storage"
+- data-storage
 ---
 # Bind controls to pictures from a database
 

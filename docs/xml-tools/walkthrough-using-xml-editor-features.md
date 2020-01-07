@@ -1,13 +1,13 @@
 ---
-title: "Walkthrough: Using XML editor Features"
+title: 'Walkthrough: Using XML editor Features'
 ms.date: 11/04/2016
 ms.topic: conceptual
 ms.assetid: ea8dc357-2e66-455a-aec2-7ccaccfc9adf
-author: gewarren
-ms.author: gewarren
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Walkthrough: Use XML editor features
 

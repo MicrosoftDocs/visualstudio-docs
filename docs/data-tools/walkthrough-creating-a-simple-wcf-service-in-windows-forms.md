@@ -1,21 +1,21 @@
 ---
-title: "Walkthrough: Creating a simple WCF Service in Windows Forms"
+title: 'Walkthrough: Creating a simple WCF Service in Windows Forms'
 ms.date: 11/04/2016
 ms.topic: conceptual
 dev_langs:
-  - "VB"
-  - "CSharp"
+- VB
+- CSharp
 helpviewer_keywords:
-  - "WCF, walkthrough [Visual Studio]"
-  - "WCF, Visual Studio tools for"
-  - "WCF services"
-  - "WCF services, walkthrough"
+- WCF, walkthrough [Visual Studio]
+- WCF, Visual Studio tools for
+- WCF services
+- WCF services, walkthrough
 ms.assetid: 5fef1a64-27a4-4f10-aa57-29023e28a2d6
-author: gewarren
-ms.author: gewarren
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "data-storage"
+- data-storage
 ---
 # Walkthrough: Create a simple WCF service in Windows Forms
 

@@ -22,6 +22,6 @@ You attempted to perform an operation on an object's data member, but the member
   
 - Ensure you typed the name of the data member correctly.  
   
-## See Also  
+## See also  
  [Object Object](../../javascript/reference/object-object-javascript.md)   
  [Objects and Arrays](../../javascript/objects-and-arrays-javascript.md)

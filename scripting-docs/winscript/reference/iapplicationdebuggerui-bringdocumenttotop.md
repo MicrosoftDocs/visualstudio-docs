@@ -44,5 +44,5 @@ HRESULT BringDocumentToTop(
 ## Remarks  
  This method brings the window containing the specified debug document to the top in the debugger user interface.  
   
-## See Also  
+## See also  
  [IApplicationDebuggerUI Interface](../../winscript/reference/iapplicationdebuggerui-interface.md)

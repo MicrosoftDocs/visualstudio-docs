@@ -35,5 +35,5 @@ HRESULT get_sourceCompression ( 
 ## Remarks
  The value returned by this method is specific to the compiler used. For example, a compiler might use Run-Length Encoding or Huffman-style compression.
 
-## See Also
+## See also
 - [IDiaInjectedSource](../../debugger/debug-interface-access/idiainjectedsource.md)

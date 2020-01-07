@@ -40,5 +40,5 @@ HRESULT StartDebugSession();
 ## Remarks  
  This method is used to implement just-in-time debugging.  
   
-## See Also  
+## See also  
  [IDebugApplication Interface](../../winscript/reference/idebugapplication-interface.md)

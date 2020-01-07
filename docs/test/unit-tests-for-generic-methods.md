@@ -1,15 +1,15 @@
 ---
-title: "Unit tests for Generic Methods"
+title: Unit tests for Generic Methods
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "generics, and unit tests"
-  - "unit tests, and generics"
-ms.author: gewarren
+- generics, and unit tests
+- unit tests, and generics
+ms.author: mikejo
 manager: jillfra
 ms.workload:
-  - "multiple"
-author: gewarren
+- multiple
+author: mikejo5000
 ---
 # Unit tests for generic methods
 
@@ -156,13 +156,11 @@ In this example, the generic type parameter `T` has the constraint `where T : Em
 
 In other words, when you call the `DataTestHelper<T>()` method from the test method, `DataTest()`, you must pass a parameter of type `Employee` or a class derived from `Employee`.
 
-`using ClassLibrary2;`
-
-`using Microsoft.VisualStudio.TestTools.UnitTesting;`
-
-`namespace TestProject1`
-
 ```csharp
+using ClassLibrary2;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
+
+namespace TestProject1
 {
     [TestClass()]
     public class GenericList_NodeTest

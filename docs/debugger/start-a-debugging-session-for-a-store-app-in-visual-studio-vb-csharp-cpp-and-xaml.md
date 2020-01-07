@@ -125,7 +125,7 @@ In C++ apps, Visual Studio debugs native code by default. You can choose to debu
 
 - For C# and Visual Basic apps, deselect the **Allow local network loopback** check box under **Start options** on the **Debug** property page.
 
-- For Visual C++ apps, select **No** from the **Allow Local Network Loopback** dropdown on the **Debugging** property page.
+- For C++ apps, select **No** from the **Allow Local Network Loopback** dropdown on the **Debugging** property page.
 
 ### <a name="BKMK__Optional__Reinstall_the_app_when_you_start_debugging"></a> Reinstall the app when you start debugging (optional)
  To diagnose installation problems with a C# or Visual Basic app, select **Uninstall and then re-install my package** on the **Debug**  property page. This option recreates the original install when you start debugging. This option isn't available for C++ projects.
@@ -211,4 +211,5 @@ To attach the debugger to a [!INCLUDE[win8_appname_long](../debugger/includes/wi
 ::: moniker-end
 
 ## See also
-- [Debug apps in Visual Studio](/visualstudio/debugger/debugging-windows-store-and-windows-universal-apps)
+
+- [Debug apps in Visual Studio](../debugger/debugging-windows-store-and-windows-universal-apps.md)

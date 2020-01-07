@@ -3,14 +3,14 @@ title: Targeted .NET frameworks
 ms.date: 02/06/2018
 ms.topic: conceptual
 helpviewer_keywords:
-  - "targeting .NET Framework [Visual Studio]"
-  - "framework targeting [Visual Studio]"
-  - ".NET framework targeting [Visual Studio]"
-author: gewarren
-ms.author: gewarren
+- targeting .NET Framework [Visual Studio]
+- framework targeting [Visual Studio]
+- .NET framework targeting [Visual Studio]
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "dotnet"
+- dotnet
 ---
 # Framework targeting overview
 

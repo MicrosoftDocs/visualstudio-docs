@@ -12,8 +12,8 @@ helpviewer_keywords:
   - "SecureAsserts"
 ms.assetid: 91feb36e-6e2c-436c-8272-5aee31f77e98
 caps.latest.revision: 21
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: "wpickett"
 ---
 # CA2106: Secure asserts

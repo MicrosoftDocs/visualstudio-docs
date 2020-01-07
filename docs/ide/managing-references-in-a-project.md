@@ -3,24 +3,24 @@ title: Manage references in a project
 ms.date: 08/02/2019
 ms.topic: conceptual
 f1_keywords:
-  - "vs.ProjectPropertiesReferencePaths"
-  - "cs.ProjectPropertiesReferencePaths"
+- vs.ProjectPropertiesReferencePaths
+- cs.ProjectPropertiesReferencePaths
 helpviewer_keywords:
-  - "C# projects, references"
-  - "referencing objects, project references"
-  - "external component references"
-  - "referencing namespaces"
-  - "Visual Basic projects, references"
-  - "referencing components, external components"
-  - "Web references, types of project references"
-  - "namespaces [Visual Studio], referencing"
-  - "COM components, referencing"
-  - "objects [Visual Studio], referencing"
-author: gewarren
-ms.author: gewarren
+- C# projects, references
+- referencing objects, project references
+- external component references
+- referencing namespaces
+- Visual Basic projects, references
+- referencing components, external components
+- Web references, types of project references
+- namespaces [Visual Studio], referencing
+- COM components, referencing
+- objects [Visual Studio], referencing
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Manage references in a project
 

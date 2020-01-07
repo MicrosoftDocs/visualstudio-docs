@@ -3,12 +3,12 @@ title: Add custom properties to dependency diagrams
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "dependency diagrams, adding custom properties"
-author: gewarren
-ms.author: gewarren
+- dependency diagrams, adding custom properties
+author: JoshuaPartlow
+ms.author: joshuapa
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Add custom properties to dependency diagrams
 

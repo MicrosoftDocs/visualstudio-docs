@@ -3,16 +3,16 @@ title: Customize build debug tasks using tasks.vs.json launch.vs.json
 ms.date: 02/21/2018
 ms.topic: conceptual
 helpviewer_keywords:
-  - NMAKE [Visual Studio]
-  - makefiles [Visual Studio]
-  - customize codebases [Visual Studio]
-  - tasks.vs.json file [Visual Studio]
-  - launch.vs.json file [Visual Studio]
-author: gewarren
-ms.author: gewarren
+- NMAKE [Visual Studio]
+- makefiles [Visual Studio]
+- customize codebases [Visual Studio]
+- tasks.vs.json file [Visual Studio]
+- launch.vs.json file [Visual Studio]
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Customize build and debug tasks for "Open Folder" development
 
@@ -250,6 +250,9 @@ You can create tasks for any file or folder by specifying its name in the `appli
    ![Customized Start button](media/customize-start-button.png)
 
    When you choose **F5**, the debugger launches and stops at any breakpoint you may have already set. All the familiar debugger windows are available and functional.
+
+   > [!IMPORTANT]
+   > For additional details about custom build and debug tasks in C++ open folder projects, see [Open Folder support for C++ build systems in Visual Studio](/cpp/build/open-folder-projects-cpp).
 
 ### Specify arguments for debugging
 

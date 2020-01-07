@@ -12,8 +12,8 @@ helpviewer_keywords:
   - "CA2116"
 ms.assetid: 8b91637e-891f-4dde-857b-bf8012270ec4
 caps.latest.revision: 20
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: "wpickett"
 ---
 # CA2116: APTCA methods should only call APTCA methods

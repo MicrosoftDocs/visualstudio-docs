@@ -1,13 +1,13 @@
 ---
-title: "Sample XSD File: Simple Schema"
+title: 'Sample XSD File: Simple Schema'
 ms.date: 11/04/2016
 ms.topic: sample
 ms.assetid: f7e1dde1-b4f6-4371-add4-935b68ec77d7
-author: gewarren
-ms.author: gewarren
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Sample XSD file: Simple schema
 

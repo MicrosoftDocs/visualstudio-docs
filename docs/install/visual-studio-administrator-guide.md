@@ -1,20 +1,20 @@
 ---
-title: "Visual Studio administrator guide"
-titleSuffix: ""
-description: "Learn more about how to deploy Visual Studio in an enterprise environment."
+title: Visual Studio administrator guide
+titleSuffix: ''
+description: Learn more about how to deploy Visual Studio in an enterprise environment.
 ms.date: 06/02/2019
-ms.custom: "seodec18"
+ms.custom: seodec18
 ms.topic: conceptual
 helpviewer_keywords:
-  - "network installation, Visual Studio"
-  - "administrator guide, Visual Studio"
-  - "installing Visual Studio, administrator guide"
+- network installation, Visual Studio
+- administrator guide, Visual Studio
+- installing Visual Studio, administrator guide
 ms.assetid: 4af353f5-6cfd-4ebe-bcfb-f42306e451a0
-author: TerryGLee
-ms.author: tglee
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
 ---
@@ -89,7 +89,7 @@ Before you deploy Visual Studio across your organization, there are a few decisi
 
 * (Optional) [Apply a volume license product key](automatically-apply-product-keys-when-deploying-visual-studio.md?view=vs-2019) as part of the installation script so that users don't need to activate the software separately.
 
-* (Optional) Update the network layout to [control when and where from product updates are delivered to your end-users](controlling-updates-to-visual-studio-deployments.md?view=vs-2019).
+* (Optional) Update the network layout to [control when and from where product updates are delivered to your end-users](controlling-updates-to-visual-studio-deployments.md?view=vs-2019).
 
 * (Optional) Set registry policies that affect the deployment of Visual Studio such as where some packages shared with other versions or instances are installed, [where packages are cached](set-defaults-for-enterprise-deployments.md?view=vs-2019) or [whether packages are cached](disable-or-move-the-package-cache.md?view=vs-2019).
 
@@ -128,7 +128,7 @@ We have several tools available to help you [detect and manage installed Visual 
 
 * (Optional) [Apply a volume license product key](automatically-apply-product-keys-when-deploying-visual-studio.md?view=vs-2017) as part of the installation script so that users don't need to activate the software separately.
 
-* (Optional) Update the network layout to [control when and where from product updates are delivered to your end-users](controlling-updates-to-visual-studio-deployments.md?view=vs-2017).
+* (Optional) Update the network layout to [control when and from where product updates are delivered to your end-users](controlling-updates-to-visual-studio-deployments.md?view=vs-2017).
 
 * (Optional) Set registry policies that affect the deployment of Visual Studio such as where some packages shared with other versions or instances are installed, [where packages are cached](set-defaults-for-enterprise-deployments.md?view=vs-2019) or [whether packages are cached](disable-or-move-the-package-cache.md?view=vs-2017).
 

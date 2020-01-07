@@ -47,5 +47,5 @@ HRESULT get_rawLVarInstanceValue(
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
 
-## See Also
+## See also
 - [IDiaStackFrame](../../debugger/debug-interface-access/idiastackframe.md)

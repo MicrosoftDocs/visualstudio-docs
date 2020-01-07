@@ -1,13 +1,13 @@
 ---
-title: "Walkthrough: Using XSLT IntelliSense"
+title: 'Walkthrough: Using XSLT IntelliSense'
 ms.date: 11/04/2016
 ms.topic: conceptual
 ms.assetid: 079d95ac-2eaf-4ae1-9cd3-2c81a961a942
-author: gewarren
-ms.author: gewarren
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Walkthrough: Using XSLT IntelliSense
 

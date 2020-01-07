@@ -28,9 +28,10 @@ A custom editor consists of two parts: a document data object and a document vie
 
  The IDE notifies views about events (for example, when a solution containing a document is closed) by matching an item identifier (ItemID) for each entry in the running document table. For more information on this, see [Running document table](../extensibility/internals/running-document-table.md).
 
- There are two options for creating a view for a custom editor. One is the in-place activation model, where the view is hosted in a window using either an ActiveX control or a document data object. The second is the simplified embedding model, where the view is hosted by [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] and <xref:Microsoft.VisualStudio.Shell.Interop.IVsWindowPane> is implemented to handle window commands. For information about the in-place activation model, see [In-place activation](../extensibility/in-place-activation.md). For information about the simplified embedding model, see [Simplified embedding](../extensibility/simplified-embedding.md).
+ There are two options for creating a view for a custom editor. One is the in-place activation model, where the view is hosted in a window using either an ActiveX control or a document data object. The second is the simplified embedding model, where the view is hosted by [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] and <xref:Microsoft.VisualStudio.Shell.Interop.IVsWindowPane> is implemented to handle window commands. For information about the in-place activation model, see [In-place activation](/visualstudio/misc/in-place-activation?view=vs-2015). For information about the simplified embedding model, see [Simplified embedding](../extensibility/simplified-embedding.md).
 
 ## See also
+
 - [Support multiple document views](../extensibility/supporting-multiple-document-views.md)
 - [Simplified embedding](../extensibility/simplified-embedding.md)
 - [How to: Attach views to document data](../extensibility/how-to-attach-views-to-document-data.md)
@@ -39,4 +40,3 @@ A custom editor consists of two parts: a document data object and a document vie
 - [Save a standard document](../extensibility/internals/saving-a-standard-document.md)
 - [Persistence and the running document table](../extensibility/internals/persistence-and-the-running-document-table.md)
 - [Determine which editor opens a file in a project](../extensibility/internals/determining-which-editor-opens-a-file-in-a-project.md)
-- [Editor factories](../extensibility/editor-factories.md)

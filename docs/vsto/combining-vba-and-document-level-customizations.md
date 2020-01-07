@@ -38,7 +38,7 @@ ms.workload:
 ## Call VBA code from the customization assembly
  You can call macros in Word documents, and you can call macros and functions in Excel workbooks. To do this, use one of the following methods:
 
-- For Word, call the <xref:Microsoft.Office.Interop.Word._Application.Run%2A>method of the <xref:Microsoft.Office.Interop.Word.Application> class.
+- For Word, call the <xref:Microsoft.Office.Interop.Word._Application.Run%2A> method of the <xref:Microsoft.Office.Interop.Word.Application> class.
 
 - For Excel, call the <xref:Microsoft.Office.Interop.Excel._Application.Run%2A> method of the <xref:Microsoft.Office.Interop.Excel.Application> class.
 

@@ -32,5 +32,5 @@ o.f();
     if(x instanceof Enumerator)  
     ```  
   
-## See Also  
+## See also  
  [Enumerator Object](../../javascript/reference/enumerator-object-javascript.md)

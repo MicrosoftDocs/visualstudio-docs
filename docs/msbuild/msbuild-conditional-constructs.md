@@ -1,27 +1,27 @@
 ---
-title: "MSBuild Conditional Constructs | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "reference"
+title: MSBuild Conditional Constructs | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: reference
 dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
+- VB
+- CSharp
+- C++
+- jsharp
 helpviewer_keywords:
-  - "<Choose> Element [MSBuild]"
-  - "Choose Element [MSBuild]"
-  - "conditional constructs [MSBuild]"
-  - "MSBuild, conditional constructs"
-  - "<When> Element [MSBuild]"
-  - "<Otherwise> Element [MSBuild]"
-  - "Otherwise Element [MSBuild]"
-  - "When Element [MSBuild]"
+- <Choose> Element [MSBuild]
+- Choose Element [MSBuild]
+- conditional constructs [MSBuild]
+- MSBuild, conditional constructs
+- <When> Element [MSBuild]
+- <Otherwise> Element [MSBuild]
+- Otherwise Element [MSBuild]
+- When Element [MSBuild]
 ms.assetid: dd54258e-f4fb-448f-9da4-d1817e0cbaf2
-author: mikejo5000
-ms.author: mikejo
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # MSBuild conditional constructs
 [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] provides a mechanism for either/or processing with the [Choose](../msbuild/choose-element-msbuild.md), [When](../msbuild/when-element-msbuild.md), and [Otherwise](../msbuild/otherwise-element-msbuild.md) elements.

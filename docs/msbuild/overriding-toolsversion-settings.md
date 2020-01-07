@@ -1,16 +1,16 @@
 ---
-title: "Overriding ToolsVersion Settings | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Overriding ToolsVersion Settings | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "MSBuild, overriding ToolsVersion setting"
-  - "MSBuild, building solutions with"
+- MSBuild, overriding ToolsVersion setting
+- MSBuild, building solutions with
 ms.assetid: ccd42c07-0fb6-4e8b-9ebb-a6a6db18aa2e
-author: mikejo5000
-ms.author: mikejo
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Override ToolsVersion settings
 You can change the Toolset for projects and solutions in one of three ways:

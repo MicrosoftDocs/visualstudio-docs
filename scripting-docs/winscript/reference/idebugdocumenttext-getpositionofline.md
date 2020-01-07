@@ -47,5 +47,5 @@ HRESULT GetPositionOfLine(
 ## Remarks  
  This method returns the character position corresponding to the first character of a line.  
   
-## See Also  
+## See also  
  [IDebugDocumentText Interface](../../winscript/reference/idebugdocumenttext-interface.md)

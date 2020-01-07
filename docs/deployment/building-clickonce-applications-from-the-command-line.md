@@ -139,13 +139,13 @@ msbuild /target:publish /property:BootstrapperEnabled=false
 
 - `UpdateUrl` (not shown) is the location from which the application will receive updates. If specified, this value is inserted into the application manifest.
 
-- The following properties are set in the **Publish Options** dialog box, accessed from the **Publish** page.
+  The following properties are set in the **Publish Options** dialog box, accessed from the **Publish** page.
 
 - `PublisherName` specifies the name of the publisher displayed in the prompt shown when installing or running the application. In the case of an installed application, it is also used to specify the folder name on the **Start** menu.
 
 - `ProductName` specifies the name of the product displayed in the prompt shown when installing or running the application. In the case of an installed application, it is also used to specify the shortcut name on the **Start** menu.
 
-- The following properties are set in the **Prerequisites** dialog box, accessed from the **Publish** page.
+  The following properties are set in the **Prerequisites** dialog box, accessed from the **Publish** page.
 
 - `BootstrapperEnabled` determines whether to generate the *setup.exe* bootstrapper.
 

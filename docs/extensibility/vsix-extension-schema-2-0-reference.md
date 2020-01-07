@@ -32,7 +32,7 @@ A VSIX deployment manifest file describes the contents of a VSIX package. The fi
 
 - `<Assets>` - This section contains all of the assets contained within this package. Without this section, this package won't surface any content.
 
-- `<AnyElement>*` - The manifest schema is flexible enough to allow any other elements. Any child elements not recognized by the manifest loader are exposed in the Extension Manager API as extra XmlElement objects. Using these child elements, VSIX extensions can define additional data in the manifest file that code running in Visual Studio can access at runtime. See [Microsoft.VisualStudio.ExtensionManager.IExtension.AdditionalElements](/previous-versions/visualstudio/visual-studio-2013/hh265266(v=vs.120)).
+- `<AnyElement>*` - The manifest schema is flexible enough to allow any other elements. Any child elements not recognized by the manifest loader are exposed in the Extension Manager API as extra XmlElement objects. Using these child elements, VSIX extensions can define additional data in the manifest file that code running in Visual Studio can access at run time. See [Microsoft.VisualStudio.ExtensionManager.IExtension.AdditionalElements](/previous-versions/visualstudio/visual-studio-2013/hh265266(v=vs.120)).
 
 ### Metadata element
  This section is the metadata about the package, its identity, and advertising information. `<Metadata>` contains the following elements:
@@ -65,7 +65,7 @@ A VSIX deployment manifest file describes the contents of a VSIX package. The fi
 
 - `<GettingStartedGuide>` - This optional element is either a relative path to an HTML file or a URL to a website that contains information about how to use the extension or content within this package. This guide is launched as part of an installation.
 
-- `<AnyElement>*` - The manifest schema is flexible enough to allow any other elements. Any child elements that aren't recognized by the manifest loader are exposed as a list of XmlElement objects. Using these child elements, VSIX extensions can define additional data in the manifest file and enumerate them at runtime.
+- `<AnyElement>*` - The manifest schema is flexible enough to allow any other elements. Any child elements that aren't recognized by the manifest loader are exposed as a list of XmlElement objects. Using these child elements, VSIX extensions can define additional data in the manifest file and enumerate them at run time.
 
 ### Installation element
  This section defines the way this package can be installed and the application SKUs that it can install into. This section contains the following attributes:
@@ -84,7 +84,7 @@ A VSIX deployment manifest file describes the contents of a VSIX package. The fi
 
 - `SystemComponent` - This optional attribute specifies whether this package should be considered a system component. System components don't show in the Extension Manager UI and cannot be updated. By default, this attribute is false, which specifies that the package isn't a system component.
 
-- `AnyAttribute*` - The `Installation` element accepts an open-ended set of attributes that will be exposed at runtime as a name-value pair dictionary.
+- `AnyAttribute*` - The `Installation` element accepts an open-ended set of attributes that will be exposed at run time as a name-value pair dictionary.
 
 - `<InstallationTarget>` -This element controls the location where the VSIX installer installs the package. If the value of the `Scope` attribute is "ProductExtension" the package must target a SKU, which has installed a manifest file as part of its contents to advertise its availability to extensions. The `<InstallationTarget>` element has the following attributes when the `Scope` attribute has the explicit or default value "ProductExtension":
 
@@ -127,7 +127,7 @@ A VSIX deployment manifest file describes the contents of a VSIX package. The fi
 
     When expressing the version for Visual Studio 2017 releases, the minor version should always be **0**. For example, Visual Studio 2017 version 15.3.26730.0 should be expressed as [15.0.26730.0,16.0). This is only required for Visual Studio 2017 and later version numbers.
 
-  - `AnyAttribute*` - The `<InstallationTarget>` element allows an open-ended set of attributes that is exposed at runtime as a name-value pair dictionary.
+  - `AnyAttribute*` - The `<InstallationTarget>` element allows an open-ended set of attributes that is exposed at run time as a name-value pair dictionary.
 
 ### Dependencies element
  This element contains a list of dependencies that this package declares. If any dependencies are specified, those packages (identified by their `Id`) must have been installed before.
@@ -152,7 +152,7 @@ A VSIX deployment manifest file describes the contents of a VSIX package. The fi
 
   - `Location` - This optional attribute specifies either the relative path within this VSIX to a nested VSIX package or a URL to the download location for the dependency. This attribute is used to help the user locate the prerequisite package.
 
-  - `AnyAttribute*` - The `Dependency` element accepts an open-ended set of attributes that will be exposed at runtime as a name-value pair dictionary.
+  - `AnyAttribute*` - The `Dependency` element accepts an open-ended set of attributes that will be exposed at run time as a name-value pair dictionary.
 
 ### Assets element
  This element contains a list of `<Asset>` tags for each extension or content element surfaced by this package.
@@ -181,9 +181,9 @@ A VSIX deployment manifest file describes the contents of a VSIX package. The fi
 
   - `TargetVersion` - the version range to which the given asset applies. Used for shipping multiple versions of assets to different versions of Visual Studio. Requires Visual Studio 2017.3 or newer to have effect.
 
-  - `AnyAttribute*` - An open-ended set of attributes that is exposed at runtime as a name-value pair dictionary.
+  - `AnyAttribute*` - An open-ended set of attributes that is exposed at run time as a name-value pair dictionary.
 
-    `<AnyElement>*` - Any structured content is allowed between an `<Asset>` begin and end tag. All elements are exposed as a list of XmlElement objects. VSIX extensions can define structured type-specific metadata in the manifest file and enumerate them at runtime.
+    `<AnyElement>*` - Any structured content is allowed between an `<Asset>` begin and end tag. All elements are exposed as a list of XmlElement objects. VSIX extensions can define structured type-specific metadata in the manifest file and enumerate them at run time.
 
 ### Sample manifest
 

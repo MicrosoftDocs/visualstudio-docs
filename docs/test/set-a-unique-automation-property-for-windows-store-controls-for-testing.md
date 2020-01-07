@@ -1,12 +1,12 @@
 ---
-title: "Set a Unique Automation Property for UWP Controls for Testing"
+title: Set a Unique Automation Property for UWP Controls for Testing
 ms.date: 05/31/2018
 ms.topic: conceptual
-ms.author: gewarren
+ms.author: mikejo
 manager: jillfra
 ms.workload:
-  - "uwp"
-author: gewarren
+- uwp
+author: mikejo5000
 ---
 # Set a unique automation property for UWP controls for testing
 

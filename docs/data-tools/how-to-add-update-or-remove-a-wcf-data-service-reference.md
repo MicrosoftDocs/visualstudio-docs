@@ -1,19 +1,19 @@
 ---
-title: "How to: Add, Update, or Remove a WCF Data Service Reference"
+title: 'How to: Add, Update, or Remove a WCF Data Service Reference'
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "service references [Visual Studio]"
-  - "WCF Data Service reference"
-  - "WCF data service references"
-  - "ADO.NET service references"
-  - "ADO.NET Data Service reference"
+- service references [Visual Studio]
+- WCF Data Service reference
+- WCF data service references
+- ADO.NET service references
+- ADO.NET Data Service reference
 ms.assetid: 892ebf37-3af4-472e-8744-92837677d611
-author: gewarren
-ms.author: gewarren
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "data-storage"
+- data-storage
 ---
 # How to: Add, update, or remove a WCF data service reference
 A *service reference* enables a project to access one or more [!INCLUDE[ssAstoria](../data-tools/includes/ssastoria_md.md)]. Use the **Add Service Reference** dialog box to search for [!INCLUDE[ssAstoria](../data-tools/includes/ssastoria_md.md)] in the current solution, locally, on a local area network, or on the Internet.

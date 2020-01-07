@@ -77,8 +77,8 @@ Windows Forms controls generally have the same behavior on an Office document as
 |Control resizing|If you resize a control on the document using one of the eight sizing handles, the new control dimensions are not reflected in the **Properties** window until the control is reselected.|
 |Control behavior|Controls on an Excel worksheet might behave unpredictably when the worksheet window is split. For example, access to a <xref:Microsoft.Office.Tools.Excel.Controls.TextBox> on the worksheet might only be available in one of the windows.|
 |Control naming|You cannot use reserved words to name controls. For example, if you add a <xref:Microsoft.Office.Tools.Excel.Controls.Button> to a worksheet and change the name to **System**, errors occur when you build the project.|
-|Programmatically adding controls|Do not use the control's constructor to add a control to your document at runtime. Instead, use the helper methods provided by the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)]. For example, use the <xref:Microsoft.Office.Tools.Excel.ControlExtensions.AddButton%2A> method to add a button to a worksheet. If you want to add a control that is not supported by these helper methods, you can use the `AddControl` method. For more information, see [Add controls to Office documents at runtime](../vsto/adding-controls-to-office-documents-at-run-time.md).|
-|Copying controls|If you copy a Windows Forms control and paste it into a document at runtime, an empty container ActiveX control is pasted into the document. The Windows Forms control does not appear in the new location, and code behind the original control is not copied to the container ActiveX control.|
+|Programmatically adding controls|Do not use the control's constructor to add a control to your document at run time. Instead, use the helper methods provided by the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)]. For example, use the <xref:Microsoft.Office.Tools.Excel.ControlExtensions.AddButton%2A> method to add a button to a worksheet. If you want to add a control that is not supported by these helper methods, you can use the `AddControl` method. For more information, see [Add controls to Office documents at run time](../vsto/adding-controls-to-office-documents-at-run-time.md).|
+|Copying controls|If you copy a Windows Forms control and paste it into a document at run time, an empty container ActiveX control is pasted into the document. The Windows Forms control does not appear in the new location, and code behind the original control is not copied to the container ActiveX control.|
 
 ## Limitations in document-level projects
 
@@ -180,5 +180,5 @@ If you create a document-level Office project that uses an existing Word documen
 
 - [Controls on Office documents](../vsto/controls-on-office-documents.md)
 - [Windows Forms controls on Office documents overview](../vsto/windows-forms-controls-on-office-documents-overview.md)
-- [Add controls to Office documents at runtime](../vsto/adding-controls-to-office-documents-at-run-time.md)
+- [Add controls to Office documents at run time](../vsto/adding-controls-to-office-documents-at-run-time.md)
 - [How to: Add Windows Forms controls to Office documents](../vsto/how-to-add-windows-forms-controls-to-office-documents.md)

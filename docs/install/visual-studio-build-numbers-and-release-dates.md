@@ -1,15 +1,15 @@
 ---
 title: Visual Studio build numbers and release dates
-titleSuffix: ""
-description: "A list of released versions and build numbers for Visual Studio, sorted by date."
-author: TerryGLee
-ms.author: tglee
+titleSuffix: ''
+description: A list of released versions and build numbers for Visual Studio, sorted by date.
+author: jillre
+ms.author: jillfra
 manager: jillfra
-ms.date: 08/14/2019
+ms.date: 12/17/2019
 ms.topic: reference
-ms.custom: "seodec18"
+ms.custom: seodec18
 ms.workload:
-  - "multiple"
+- multiple
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
 ---
@@ -23,6 +23,35 @@ The following table lists the build numbers and release dates for Visual Studio 
 
 | **Version**| **Channel** | **Release date** | **Build version** |
 | ---------------------- | ----------- | ---------------- | ----------------- |
+| 16.4.2 | Release | December 17, 2019 | 16.4.29613.14 |
+| 16.4.1 | Release | December 10, 2019 | 16.4.29609.76 |
+| 16.0.10 | Release | December 10, 2019 | 16.0.28803.631 |
+| 16.5.0 | Preview 1 | December 3, 2019 | 16.5.29521.150 |
+| 16.4.0 | Release | December 3, 2019 | 16.4.29519.181 |
+| 16.4.0 | Preview 6 | November 21, 2019 | 16.4.29519.161 |
+| 16.3.10 | Release | November 20, 2019 | 16.3.29519.87 |
+| 16.4.0 | Preview 5 | November 14, 2019 | 16.4.29512.175 |
+| 16.3.9 | Release | November 12, 2019 | 16.3.29509.3 |
+| 16.4.0 | Preview 4 | November 6, 2019 | 16.4.29505.145 |
+| 16.3.8 | Release | November 5, 2019 | 16.3.29503.13 |
+| 16.4.0 | Preview 3 | November 4, 2019 | 16.4.29430.225 |
+| 16.3.7 | Release | October 29, 2019 | 16.3.29424.173 |
+| 16.3.6 | Release | October 22, 2019 | 16.3.29418.71 |
+| 16.3.5 | Release | October 15, 2019 | 16.3.29411.108 |
+| 16.4.0 | Preview 2 | October 15, 2019 | 16.4.29411.138 |
+| 16.0.9 | Release | October 15, 2019 | 16.0.28803.598 |
+| 16.3.4 | Release | October 10, 2019 | 16.3.29409.12 |
+| 16.3.3 | Release | October 8, 2019 | 16.3.29403.142 |
+| 16.3.2 | Release | October 1, 2019 | 16.3.29326.143 |
+| 16.3.1 | Release | September 25, 2019 | 16.3.29324.140 |
+| 16.4.0 | Preview 1 | September 23, 2019 | 16.4.29319.158 |
+| 16.3.0 | Release | September 23, 2019 | 16.3.29318.209 |
+| 16.3.0 | Preview 4 | September 16, 2019 | 16.3.29311.281 |
+| 16.2.5 | Release | September 10, 2019 | 16.2.29306.81 |
+| 16.0.8 | Release | September 10, 2019 | 16.0.28803.584 |
+| 16.2.4 | Release | September 5, 2019 | 16.2.29230.47 |
+| 16.3.0 | Preview 3 | September 4, 2019 | 16.3.29230.61 |
+| 16.2.3 | Release | August 20, 2019 | 16.2.29215.179 |
 | 16.2.2 | Release | August 13, 2019 | 16.2.29209.62 |
 | 16.3.0 | Preview 2 | August 13, 2019 | 16.3.29209.152 |
 | 16.0.7 | Release | August 13, 2019 | 16.0.28803.571 |
@@ -84,6 +113,11 @@ The following table lists the build numbers and release dates for Visual Studio 
 
 | **Version**| **Channel** | **Release date** | **Build version** |
 | ---------------------- | ----------- | ---------------- | ----------------- |
+| 15.0.28 | Release | December 11, 2019 | 15.0.26228.102 |
+| 15.9.18 | Release | December 10, 2019 | 15.9.28307.960 |
+| 15.9.17 | Release | October 15, 2019 | 15.9.28307.905 |
+| 15.9.16 | Release | September 10, 2019 | 15.9.28307.858 |
+| 15.0.27 | Release | September 10, 2019 | 15.0.26228.98 |
 | 15.9.15 | Release | August 13, 2019 | 15.9.28307.812 |
 | 15.0.26 | Release | August 13, 2019 | 15.0.26228.96 |
 | 15.9.14 | Release | July 9, 2019 | 15.9.28307.770 |
@@ -179,7 +213,7 @@ The following table lists the build numbers and release dates for Visual Studio 
 | 15.5.1 | Release | December 7, 2017 | 15.0.27130.2003 |
 | 15.6.0 Preview 1 | Preview | December 7, 2017 | 15.6.27205.0 |
 | 15.0.7 | Release | December 6, 2017 | 15.0.26228.18 |
-| 15.5 | Release | December 4, 2017 | 15.0.27130.0 |
+| 15.5.0 | Release | December 4, 2017 | 15.0.27130.0 |
 | 15.5.0 Preview 5 | Preview | November 30, 2017 | 15.0.27128.1 |
 | 15.4.5 | Release | November 27, 2017 | 15.0.27004.2010 |
 | 15.5.0 Preview 4 | Preview | November 14, 2017 | 15.0.27110.0 |
@@ -191,7 +225,7 @@ The following table lists the build numbers and release dates for Visual Studio 
 | 15.5.0 Preview 2 | Preview | October 23, 2017 | 15.0.27019.1 |
 | 15.4.1 | Release | October 19, 2017 | 15.0.27004.2005 |
 | 15.5 Preview 1 | Preview | October 11, 2017 | 15.0.27009.1 |
-| 15.4 | Release | October 9, 2017 | 15.0.27004.2002 |
+| 15.4.0 | Release | October 9, 2017 | 15.0.27004.2002 |
 | 15.4 Preview 6 | Preview | October 9, 2017| 15.0.27004.20002 |
 | 15.4 Preview 5 | Preview | October 6, 2017 | 15.0.27004.2000 |
 | 15.4 Preview 4 | Preview | October 2, 2017 | 15.0.26929.2 |
@@ -207,7 +241,7 @@ The following table lists the build numbers and release dates for Visual Studio 
 | 15.3.1 Preview 1 | Preview | August 18, 2017 | 15.0.26730.08 |
 | 15.3.1  | Release | August 18, 2017 | 15.0.26730.08 |
 | 15.4 Preview 1 | Preview | August 24, 2017 | 15.0.26823.1 |
-| 15.3 | Release | August 14, 2017 | 15.0.26730.3 |
+| 15.3.0 | Release | August 14, 2017 | 15.0.26730.3 |
 | 15.3 Preview 7.1 | Preview | August 11, 2017 | 15.0.26730.3 |
 | 15.3 Preview 7 | Preview | August 1, 2017 | 15.0.26730.0 |
 | 15.3 Preview 6 | Preview | July 26, 2017 | 15.0.26724.1 |
@@ -225,14 +259,14 @@ The following table lists the build numbers and release dates for Visual Studio 
 | 15.2.1  | Release | May 12, 2017 | 15.0.26430.6 |
 | 15.3 Preview 1.1 | Preview | May 11, 2017 | 15.0.26510.0 |
 | 15.3 Preview 1 | Preview | May 10, 2017 | 15.0.26507.0 |
-| 15.2 | Release | May 10, 2017 | 15.0.26430.4 |
+| 15.2.0 | Release | May 10, 2017 | 15.0.26430.4 |
 | 15.2 Preview 4 | Preview | May 3, 2017 | 15.0.26430.1 |
 | 15.2 Preview 3 | Preview | April 26, 2017 | 15.0.26424.2 |
 | 15.2 Preview 2 | Preview | April 20, 2017 | 15.0.26419.1 |
 | 15.2 Preview 1 | Preview | April 17, 2017 | 15.0.26412.1 |
 | 15.1.2  | Release | April 17, 2017 | 15.0.26403.7 |
 | 15.1.1 | Release | April 10, 2017 | 15.0.26403.3 |
-| 15.1 | Release | April 5, 2017 | 15.0.26403.0 |
+| 15.1.0 | Release | April 5, 2017 | 15.0.26403.0 |
 | 15.0.3  | Release | March 31, 2017 | 15.0.26228.12 |
 | 15.0.2 | Release | March 28, 2017 | 15.0.26228.10 |
 | 15.1 Preview 3 | Preview | March 27, 2017 | 15.0.26323.1 |

@@ -3,12 +3,12 @@ title: Templates for projects and files
 ms.date: 01/02/2018
 ms.topic: conceptual
 helpviewer_keywords:
-  - "templates [Visual Studio], project"
-  - "templates [Visual Studio], item"
-  - "item templates [Visual Studio]"
-  - "project templates [Visual Studio]"
-author: gewarren
-ms.author: gewarren
+- templates [Visual Studio], project
+- templates [Visual Studio], item
+- item templates [Visual Studio]
+- project templates [Visual Studio]
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ---
 # Project and item templates

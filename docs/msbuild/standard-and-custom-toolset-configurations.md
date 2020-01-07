@@ -1,16 +1,16 @@
 ---
-title: "Standard and Custom Toolset Configurations | Microsoft Docs"
-ms.date: "01/31/2018"
-ms.topic: "conceptual"
+title: Standard and Custom Toolset Configurations | Microsoft Docs
+ms.date: 01/31/2018
+ms.topic: conceptual
 helpviewer_keywords:
-  - "MSBuild, custom toolset configurations"
-  - "MSBuild, msbuild.exe.config"
+- MSBuild, custom toolset configurations
+- MSBuild, msbuild.exe.config
 ms.assetid: 15a048c8-5ad3-448e-b6e9-e3c5d7147ed2
-author: mikejo5000
-ms.author: mikejo
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Standard and custom Toolset configurations
 An MSBuild Toolset contains references to tasks, targets, and tools that you can use to build an application project. MSBuild includes a standard Toolset, but you can also create custom Toolsets. For information about how to specify a Toolset, see [Toolset (ToolsVersion)](../msbuild/msbuild-toolset-toolsversion.md)

@@ -1,21 +1,21 @@
 ---
 title: Use Visual Studio without a mouse
-titleSuffix: ""
-description: "Learn how to navigate and write code within the Visual Studio integrated development environment (IDE) by just using the keyboard."
+titleSuffix: ''
+description: Learn how to navigate and write code within the Visual Studio integrated development environment (IDE) by just using the keyboard.
 ms.date: 05/10/2019
 ms.topic: conceptual
 helpviewer_keywords:
-  - "Toolbox, shortcut keys"
-  - "shortcut keys [Visual Studio]"
-  - "windows [Visual Studio], accessibility"
-  - "dialog boxes [Visual Studio], shortcut keys"
-  - "accessibility [Visual Studio]"
+- Toolbox, shortcut keys
+- shortcut keys [Visual Studio]
+- windows [Visual Studio], accessibility
+- dialog boxes [Visual Studio], shortcut keys
+- accessibility [Visual Studio]
 ms.assetid: d71a4cc1-d352-4164-8538-3f9fa070a331
-author: gewarren
-ms.author: gewarren
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # How to use the keyboard exclusively
 

@@ -1,8 +1,8 @@
 ---
 title: Refactoring code
 description: Re-organizing code in Visual Studio for Mac is made simple through the use of Source Analysis.
-author: conceptdev
-ms.author: crdun
+author: heiligerdankgesang
+ms.author: dominicn
 ms.date: 05/06/2018
 ms.assetid: C7782BF3-016F-4B41-8A81-85FC540A1A8F
 ms.custom: video

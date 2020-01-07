@@ -1,23 +1,23 @@
 ---
-title: "Csc Task | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "reference"
+title: Csc Task | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: reference
 f1_keywords:
-  - "http://schemas.microsoft.com/developer/msbuild/2003#Csc"
+- http://schemas.microsoft.com/developer/msbuild/2003#Csc
 dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
+- VB
+- CSharp
+- C++
+- jsharp
 helpviewer_keywords:
-  - "Csc task [MSBuild]"
-  - "MSBuild, Csc task"
+- Csc task [MSBuild]
+- MSBuild, Csc task
 ms.assetid: d8c19b36-f5ca-484b-afa6-8ff3b90e103a
-author: mikejo5000
-ms.author: mikejo
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Csc task
 Wraps *csc.exe*, and produces executables (*.exe* files), dynamic-link libraries (*.dll* files), or code modules (*.netmodule* files). For more information about *csc.exe*, see [C# compiler options](/dotnet/csharp/language-reference/compiler-options/index).
@@ -36,7 +36,7 @@ The following table describes the parameters of the `Csc` task.
 | `CodePage` | Optional `Int32` parameter.<br /><br /> Specifies the code page to use for all source code files in the compilation. For more information, see [-codepage (C# compiler options)](/dotnet/csharp/language-reference/compiler-options/codepage-compiler-option). |
 | `DebugType` | Optional `String` parameter.<br /><br /> Specifies the debug type. `DebugType` can be `full` or `pdbonly`. The default is `full`, which enables a debugger to be attached to a running program. Specifying `pdbonly` enables source code debugging when the program is started in the debugger, but only displays assembler when the running program is attached to the debugger.<br /><br /> This parameter overrides the `EmitDebugInformation` parameter.<br /><br /> For more information, see [-debug (C# compiler options)](/dotnet/csharp/language-reference/compiler-options/debug-compiler-option). |
 | `DefineConstants` | Optional `String` parameter.<br /><br /> Defines preprocessor symbols. For more information, see [-define (C# compiler options)](/dotnet/csharp/language-reference/compiler-options/define-compiler-option). |
-| `DelaySign` | Optional `Boolean` parameter.<br /><br /> If `true`, specifies that you want a fully signed assembly. If `false`, specifies that you only want to place the public key in the assembly.<br /><br /> This parameter has no effect unless used with either the `KeyFile` or `KeyContainer` parameter.<br /><br /> For more information, see [-delaysign (C# compiler options)](/dotnet/csharp/language-reference/compiler-options/delaysign-compiler-option). |
+| `DelaySign` | Optional `Boolean` parameter.<br /><br /> If `true`, specifies that you only want to place the public key in the assembly. If `false`, specifies that you want a fully signed assembly<br /><br /> This parameter has no effect unless used with either the `KeyFile` or `KeyContainer` parameter.<br /><br /> For more information, see [-delaysign (C# compiler options)](/dotnet/csharp/language-reference/compiler-options/delaysign-compiler-option). |
 | `Deterministic` | Optional `Boolean` parameter.<br/><br/> If `true`, causes the compiler to output an assembly whose binary content is identical across compilations if inputs are identical.<br/><br/>For more information, see [-deterministic (C# Compiler options)](/dotnet/csharp/language-reference/compiler-options/deterministic-compiler-option). |
 | `DisabledWarnings` | Optional `String` parameter.<br /><br /> Specifies the list of warnings to be disabled. For more information, see [-nowarn (C# compiler options)](/dotnet/csharp/language-reference/compiler-options/nowarn-compiler-option). |
 | `DocumentationFile` | Optional `String` parameter.<br /><br /> Processes documentation comments to an XML file. For more information, see [-doc (C# compiler options)](/dotnet/csharp/language-reference/compiler-options/doc-compiler-option). |

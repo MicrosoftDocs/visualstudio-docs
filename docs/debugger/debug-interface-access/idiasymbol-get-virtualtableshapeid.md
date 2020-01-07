@@ -38,5 +38,5 @@ HRESULT get_virtualTableShapeId ( 
 ## Remarks
  The identifier is a unique value created by the DIA SDK to mark all symbols as unique.
 
-## See Also
+## See also
 - [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)

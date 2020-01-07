@@ -3,16 +3,16 @@ title: Default keyboard shortcuts
 ms.date: 06/26/2017
 ms.topic: reference
 helpviewer_keywords:
-  - "shortcut keys [Visual Studio], keyboard binding schemes"
-  - "keyboard binding schemes [Visual Studio]"
-  - "Help [Visual Studio], shortcut keys"
-  - "keyboard shortcuts [Visual Studio], keyboard binding schemes"
-  - "keyboard shortcuts"
-author: gewarren
-ms.author: gewarren
+- shortcut keys [Visual Studio], keyboard binding schemes
+- keyboard binding schemes [Visual Studio]
+- Help [Visual Studio], shortcut keys
+- keyboard shortcuts [Visual Studio], keyboard binding schemes
+- keyboard shortcuts
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Default keyboard shortcuts in Visual Studio
 
@@ -335,9 +335,13 @@ These keyboard shortcuts are *global*, which means that you can use them when an
 |--------------| - |
 |TestExplorer.DebugAllTests|**Ctrl+R, Ctrl+A**|
 |TestExplorer.DebugAllTestsInContext|**Ctrl+R, Ctrl+T**|
+|TestExplorer.DebugLastRun|**Ctrl+R, D**|
 |TestExplorer.RepeatLastRun|**Ctrl+R, L**|
 |TestExplorer.RunAllTests|**Ctrl+R, A**|
 |TestExplorer.RunAllTestsInContext|**Ctrl+R, T**|
+|TestExplorer.ShowTestExplorer|**Ctrl+E, T**|
+|LiveUnitTesting.OpenTab|**Ctrl+E, L**|
+|Test.CodeCoverageResults|**Ctrl+E, C**|
 
 ### <a name="bkmk_tools"></a> Tools
 
@@ -395,6 +399,7 @@ These keyboard shortcuts are *global*, which means that you can use them when an
 |View.WebBrowser|**Ctrl+Alt+R**|
 |View.ZoomIn|**Ctrl+Shift+.**|
 |View.ZoomOut|**Ctrl+Shift+,**|
+|TestExplorer.ShowTestExplorer|**Ctrl+E, T**|
 
 ### <a name="bkmk_window"></a> Window
 
@@ -783,7 +788,7 @@ These keyboard shortcuts are *global*, which means that you can use them when an
 | Edit.CollapseCurrentRegion | **Ctrl+M, Ctrl+S** |
 | Edit.CollapseTag | **Ctrl+M, Ctrl+T** |
 | Edit.CollapseToDefinitions | **Ctrl+M, Ctrl+O** (letter 'O') |
-| Edit.ContractSelection | **Shift+Alt+-** (non-C++ only) |
+| Edit.ContractSelection | **Shift+Alt+-** |
 | Edit.CommentSelection | **Ctrl+K, Ctrl+C** |
 | Edit.CompleteWord | **Ctrl+Space**<br /><br /> or<br /><br /> **Alt+Right Arrow** |
 | Edit.CopyParameterTip | **Ctrl+Shift+Alt+C** |
@@ -796,7 +801,7 @@ These keyboard shortcuts are *global*, which means that you can use them when an
 | Edit.DocumentStartExtend | **Ctrl+Shift+Home** |
 | Edit.ExpandAllOutlining | **Ctrl+M, Ctrl+X** |
 | Edit.ExpandCurrentRegion | **Ctrl+M, Ctrl+E** |
-| Edit.ExpandSelection | **Shift+Alt+=** (non-C++ only) |
+| Edit.ExpandSelection | **Shift+Alt+=** |
 | Edit.ExpandSelectiontoContainingBlock | **Shift+Alt+]** |
 | Edit.FormatDocument | **Ctrl+K, Ctrl+D** |
 | Edit.FormatSelection | **Ctrl+K, Ctrl+F** |

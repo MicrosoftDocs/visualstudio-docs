@@ -39,5 +39,5 @@ HRESULT GetCurrentScriptThreadID(
 ## Remarks  
  This method can be called from non-base threads without resulting in a non-base callout to host objects or to the [IActiveScriptSite](../../winscript/reference/iactivescriptsite.md) interface.  
   
-## See Also  
+## See also  
  [IActiveScript](../../winscript/reference/iactivescript.md)

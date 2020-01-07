@@ -8,8 +8,8 @@ f1_keywords:
   - "CA2137"
 ms.assetid: cbaeb0e1-56b6-43b4-812a-596b2859c329
 caps.latest.revision: 15
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: "wpickett"
 ---
 # CA2137: Transparent methods must contain only verifiable IL

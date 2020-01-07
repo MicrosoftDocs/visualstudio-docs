@@ -1,23 +1,23 @@
 ---
-title: "SGen Task | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "reference"
+title: SGen Task | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: reference
 f1_keywords:
-  - "http://schemas.microsoft.com/developer/msbuild/2003#SGen"
+- http://schemas.microsoft.com/developer/msbuild/2003#SGen
 dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
+- VB
+- CSharp
+- C++
+- jsharp
 helpviewer_keywords:
-  - "SGen task [MSBuild]"
-  - "MSBuild, SGen task"
+- SGen task [MSBuild]
+- MSBuild, SGen task
 ms.assetid: 22c5ade4-4159-4667-b891-0c1aa06f4df5
-author: mikejo5000
-ms.author: mikejo
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # SGen task
 Creates an XML serialization assembly for types in the specified assembly. This task wraps the XML Serializer Generator tool (*Sgen.exe*). For more information, see [XML Serializer Generator tool (Sgen.exe)](/dotnet/framework/serialization/xml-serializer-generator-tool-sgen-exe).
@@ -29,7 +29,7 @@ Creates an XML serialization assembly for types in the specified assembly. This 
 |-----------------------------| - |
 | `BuildAssemblyName` | Required `String` parameter.<br /><br /> The assembly to generate serialization code for. |
 | `BuildAssemblyPath` | Required `String` parameter.<br /><br /> The path to the assembly to generate serialization code for. |
-| `DelaySign` | Optional `Boolean` parameter.<br /><br /> If `true`, specifies that you want a fully signed assembly. If `false`, specifies that you only want to place the public key in the assembly.<br /><br /> This parameter has no effect unless used with either the `KeyFile` or `KeyContainer` parameter. |
+| `DelaySign` | Optional `Boolean` parameter.<br /><br /> If `true`, specifies that you only want to place the public key in the assembly. If `false`, specifies that you want a fully signed assembly.<br /><br /> This parameter has no effect unless used with either the `KeyFile` or `KeyContainer` parameter. |
 | `KeyContainer` | Optional `String` parameter.<br /><br /> Specifies a container that holds a key pair. This will sign the assembly by inserting a public key into the assembly manifest. The task will then sign the final assembly with the private key. |
 | `KeyFile` | Optional `String` parameter.<br /><br /> Specifies a key pair or a public key to use to sign an assembly. The compiler inserts the public key in the assembly manifest and then signs the final assembly with the private key. |
 | `Platform` | Optional `String` parameter.<br /><br /> Gets or Sets the Compiler Platform used to generate the output assembly. This parameter can have a value of `x86`, `x64`, or `anycpu`. Default is `anycpu`. |

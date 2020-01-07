@@ -3,18 +3,18 @@ title: Collapse and expand regions of code
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "outlining"
-  - "Visual Studio, expand/collapse code"
-  - "Visual Studio, outlining"
-  - "expand/collapse code"
-  - "code [Visual Studio], outlining"
-  - "code [Visual Studio], hiding"
-  - "outlining code"
-author: gewarren
-ms.author: gewarren
+- outlining
+- Visual Studio, expand/collapse code
+- Visual Studio, outlining
+- expand/collapse code
+- code [Visual Studio], outlining
+- code [Visual Studio], hiding
+- outlining code
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Outlining
 
@@ -42,8 +42,8 @@ The following commands can be found on the **Edit** > **Outlining** submenu.
 |Stop Outlining|(**Ctrl**+**M**, **Ctrl**+**P**) - Removes all outlining information for the entire document.|
 |Stop Hiding Current|(**Ctrl**+**M**, **Ctrl**+**U**)  - Removes the outlining information for the currently selected user-defined region. Not available in Visual Basic.|
 |Collapse to Definitions|(**Ctrl**+**M**, **Ctrl**+**O**) - Collapses the members of all types.|
-|Collapse Block:\<logical boundary>|(Visual C++) Collapses a region in the function containing the insertion point. For example, if the insertion point lies inside a loop, the loop is hidden.|
-|Collapse All in: \<logical structures>|(Visual C++) Collapses all the structures inside the function.|
+|Collapse Block:\<logical boundary>|(C++) Collapses a region in the function containing the insertion point. For example, if the insertion point lies inside a loop, the loop is hidden.|
+|Collapse All in: \<logical structures>|(C++) Collapses all the structures inside the function.|
 
 You can also use the Visual Studio SDK to define the text regions you want to expand or collapse. See [Walkthrough: Outlining](../extensibility/walkthrough-outlining.md).
 

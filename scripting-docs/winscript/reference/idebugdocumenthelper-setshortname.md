@@ -43,5 +43,5 @@ HRESULT SetShortName(
 ## Remarks  
  This method sets a new short name for the document.  
   
-## See Also  
+## See also  
  [IDebugDocumentHelper Interface](../../winscript/reference/idebugdocumenthelper-interface.md)

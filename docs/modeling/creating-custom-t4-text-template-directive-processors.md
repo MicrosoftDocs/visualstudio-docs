@@ -3,12 +3,12 @@ title: Creating Custom T4 Text Template Directive Processors
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "text templates, custom directive processors"
-author: gewarren
-ms.author: gewarren
+- text templates, custom directive processors
+author: JoshuaPartlow
+ms.author: joshuapa
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Create Custom T4 Text Template Directive Processors
 

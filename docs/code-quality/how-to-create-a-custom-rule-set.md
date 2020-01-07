@@ -3,14 +3,14 @@ title: Create a custom code analysis rule set
 ms.date: 11/02/2018
 ms.topic: conceptual
 f1_keywords:
-  - "vs.codeanalysis.addremoverulesets"
+- vs.codeanalysis.addremoverulesets
 helpviewer_keywords:
-  - "rule sets"
-author: gewarren
-ms.author: gewarren
+- rule sets
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Customize a rule set
 
@@ -24,13 +24,23 @@ To create a custom rule set, you can open a built-in rule set in the **rule set 
 
 2. On the **Properties** pages, select the **Code Analysis** tab.
 
+::: moniker range="vs-2017"
+
 3. In the **Run this rule set** drop-down list, do one of the following:
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+3. In the **Active rules** drop-down list, do one of the following:
+
+::: moniker-end
 
    - Select the rule set that you want to customize.
 
      \- or -
 
-   - Select **\<Browse...>** to specify an existing rule set that is not in the list.
+   - Select **\<Browse>** to specify an existing rule set that is not in the list.
 
 4. Select **Open** to display the rules in the rule set editor.
 
@@ -58,7 +68,17 @@ You can create a new rule set file from the **New File** dialog:
 
 2. On the **Properties** pages, select the **Code Analysis** tab.
 
-3. Select **\<Choose multiple rule sets...>** from **Run this rule set**.
+::: moniker range="vs-2017"
+
+3. Select **\<Choose multiple rule sets>** from **Run this rule set**.
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+3. Select **\<Choose multiple rule sets>** from **Active rules**.
+
+::: moniker-end
 
 4. In the **Add or Remove Rule Sets** dialog box, select the rule sets you want to include in your new rule set.
 

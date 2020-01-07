@@ -47,7 +47,7 @@ MSBuild supplies a well-defined, extensible XML format for creating project file
 #### Single File Generators vs. MSBuild Tasks
  Single file generators are accessible at design-time only, but MSBuild tasks can be used at design-time and build-time. For maximum flexibility, therefore, use MSBuild tasks to transform and generate code. For more information, see [Custom Tools](../../extensibility/internals/custom-tools.md).
 
-## See Also
+## See also
 - [MSBuild Reference](../../msbuild/msbuild-reference.md)
 - [MSBuild](../../msbuild/msbuild.md)
 - [Custom Tools](../../extensibility/internals/custom-tools.md)

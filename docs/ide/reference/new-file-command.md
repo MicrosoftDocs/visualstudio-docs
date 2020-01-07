@@ -3,16 +3,16 @@ title: New File Command
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "file.newfile"
+- file.newfile
 helpviewer_keywords:
-  - "File.NewFile command"
-  - "New File command"
+- File.NewFile command
+- New File command
 ms.assetid: 767868d6-a525-425b-a43b-2198f636ab6b
-author: gewarren
-ms.author: gewarren
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # New File Command
 Creates a new file and opens it. The file appears under the Miscellaneous Files folder.
@@ -60,7 +60,7 @@ This example creates a new web page "test1.htm" and opens it in the source code 
 >File.NewFile test1 /t:"General\HTML Page" /e:"Source Code (text) Editor"
 ```
 
-## See Also
+## See also
 
 - [Visual Studio Commands](../../ide/reference/visual-studio-commands.md)
 - [Command Window](../../ide/reference/command-window.md)

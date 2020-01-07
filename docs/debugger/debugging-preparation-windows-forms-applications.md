@@ -58,7 +58,7 @@ The Windows Forms project template creates a Windows Forms application. Debuggin
 
 4. Debug using the techniques discussed in [First look at the debugger](../debugger/debugger-feature-tour.md).
 
-## See Also
+## See also
 - [Debugging Managed Code](../debugger/debugging-managed-code.md)
 - [C#, F#, and Visual Basic Project Types](../debugger/debugging-preparation-csharp-f-hash-and-visual-basic-project-types.md)
 - [How to: Set Debug and Release Configurations](../debugger/how-to-set-debug-and-release-configurations.md)

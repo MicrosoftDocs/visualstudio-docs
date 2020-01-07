@@ -3,24 +3,24 @@ title: Hierarchical update
 ms.date: 11/04/2016
 ms.topic: conceptual
 dev_langs:
-  - "VB"
-  - "CSharp"
+- VB
+- CSharp
 helpviewer_keywords:
-  - "saving data, changed data"
-  - "data [Visual Basic], hierarchical update"
-  - "saving updated data"
-  - "datasets [Visual Basic], hierarchical update"
-  - "hierarchical update"
-  - "saving data, hierarchical update"
-  - "modified data saving"
-  - "updated data saving"
-  - "related tables, saving"
+- saving data, changed data
+- data [Visual Basic], hierarchical update
+- saving updated data
+- datasets [Visual Basic], hierarchical update
+- hierarchical update
+- saving data, hierarchical update
+- modified data saving
+- updated data saving
+- related tables, saving
 ms.assetid: 68bae3f6-ec9b-45ee-a33a-69395029f54c
-author: gewarren
-ms.author: gewarren
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "data-storage"
+- data-storage
 ---
 # Hierarchical update
 

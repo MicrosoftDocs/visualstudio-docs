@@ -42,6 +42,6 @@ The **Properties** window is used to display properties for objects selected in 
 
  For further information on `IDispatch`, see the MSDN library.
 
-## See Also
+## See also
 - [Extending Properties](../../extensibility/internals/extending-properties.md)
 - [Properties Window Fields and Interfaces](../../extensibility/internals/properties-window-fields-and-interfaces.md)

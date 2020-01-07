@@ -1,23 +1,23 @@
 ---
-title: "ResolveComReference Task | Microsoft Docs"
-ms.date: "07/25/2019"
-ms.topic: "reference"
+title: ResolveComReference Task | Microsoft Docs
+ms.date: 07/25/2019
+ms.topic: reference
 f1_keywords:
-  - "http://schemas.microsoft.com/developer/msbuild/2003#ResolveComReference"
+- http://schemas.microsoft.com/developer/msbuild/2003#ResolveComReference
 dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
+- VB
+- CSharp
+- C++
+- jsharp
 helpviewer_keywords:
-  - "MSBuild, ResolveCOMReference task"
-  - "ResolveCOMReference task [MSBuild]"
+- MSBuild, ResolveCOMReference task
+- ResolveCOMReference task [MSBuild]
 ms.assetid: c9bf5fcf-6453-40ea-b50f-a212adc3e9b5
-author: mikejo5000
-ms.author: mikejo
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # ResolveComReference task
 

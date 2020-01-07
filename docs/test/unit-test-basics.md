@@ -3,12 +3,12 @@ title: Unit testing fundamentals
 ms.date: 08/07/2019
 ms.topic: conceptual
 f1_keywords:
-  - "vs.UnitTest.CreateUnitTest"
-author: gewarren
-ms.author: gewarren
+- vs.UnitTest.CreateUnitTest
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Unit test basics
 
@@ -203,7 +203,7 @@ For more information about the Microsoft unit testing frameworks, see one of the
 
 ## Set timeouts for unit tests
 
-To set a timeout on an individual test method:
+If you're using the MSTest framework, you can use the <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TimeoutAttribute> to set a timeout on an individual test method:
 
 ```csharp
 [TestMethod]
@@ -363,7 +363,7 @@ Learn more about [data-driven unit tests](../test/how-to-create-a-data-driven-un
 
 You can run code coverage on selected tests or on all tests in a solution. The **Code Coverage Results** window displays the percentage of the blocks of product code that were exercised by line, function, class, namespace and module.
 
-To run code coverage for test methods in a solution, choose **Tests** on the Visual Studio menu and then choose **Analyze code coverage**.
+To run code coverage for test methods in a solution, choose **Test** > **Analyze Code Coverage for All Tests**.
 
 Coverage results appear in the **Code Coverage Results** window.
 

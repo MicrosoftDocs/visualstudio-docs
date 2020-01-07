@@ -3,12 +3,12 @@ title: Security of Text Templates
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "text templates, security"
-author: gewarren
-ms.author: gewarren
+- text templates, security
+author: JoshuaPartlow
+ms.author: joshuapa
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Security of Text Templates
 Text templates have the following security concerns:

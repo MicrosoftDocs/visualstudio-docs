@@ -51,5 +51,5 @@ HRESULT CreateDebugDocumentContext(
 ## Remarks  
  This method allows the host to create a new debug document context.  
   
-## See Also  
+## See also  
  [IDebugDocumentHelper Interface](../../winscript/reference/idebugdocumenthelper-interface.md)

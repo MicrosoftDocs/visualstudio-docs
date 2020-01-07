@@ -1,14 +1,14 @@
 ---
-title: "Introduction to IntelliTest"
+title: Introduction to IntelliTest
 ms.date: 05/02/2017
 ms.topic: conceptual
 helpviewer_keywords:
-  - "IntelliTest, Get started"
-ms.author: gewarren
+- IntelliTest, Get started
+ms.author: mikejo
 manager: jillfra
 ms.workload:
-  - "multiple"
-author: gewarren
+- multiple
+author: mikejo5000
 ---
 # Get started with Microsoft IntelliTest
 
@@ -16,7 +16,7 @@ author: gewarren
   * watch the [Channel 9 video](https://channel9.msdn.com/Shows/Visual-Studio-Toolbox/Intellitest)
   * read this [overview on MSDN Magazine](https://msdn.microsoft.com/magazine/dn904672.aspx)
   * read our [documentation](../../test/generate-unit-tests-for-your-code-with-intellitest.md)
-* Ask your questions on [Stack Overflow](http://stackoverflow.com/questions/tagged/intellitest)
+* Ask your questions on [Stack Overflow](https://stackoverflow.com/questions/tagged/intellitest)
 * Read the rest of this reference manual
 * Print this page for quick reference
 

@@ -3,12 +3,12 @@ title: Using Escape Sequences in Text Templates
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "text templates, escape sequences"
-author: gewarren
-ms.author: gewarren
+- text templates, escape sequences
+author: JoshuaPartlow
+ms.author: joshuapa
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Use escape sequences in text templates
 

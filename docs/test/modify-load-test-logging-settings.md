@@ -1,12 +1,12 @@
 ---
-title: "Load Test Logging Settings"
+title: Load Test Logging Settings
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "load tests, logging, modifying"
+- load tests, logging, modifying
 ms.assetid: 9649226a-857d-41ef-8ec7-047b6e498033
-author: gewarren
-ms.author: gewarren
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ---
 # Modify load test logging settings

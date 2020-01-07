@@ -33,7 +33,7 @@ Inside a method, you can use **this** to refer to the current object, but you ca
   > [!NOTE]
   > You cannot name a user-created variable **this**; it is a [!INCLUDE[javascript](../../javascript/includes/javascript-md.md)] reserved word.
 
-## See Also
+## See also
 
 - [this Statement](../../javascript/reference/this-statement-javascript.md)
 - [Troubleshooting Your Scripts](../../javascript/advanced/troubleshooting-your-scripts-javascript.md)

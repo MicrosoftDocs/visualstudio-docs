@@ -2,15 +2,17 @@
 title: Native Recommended Rules rule set
 ms.date: 11/04/2016
 ms.topic: reference
-author: gewarren
-ms.author: gewarren
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Native Recommended Rules rule set
 
-The Native Recommended Rules focus on the most critical and common problems in your native code, including potential security holes and application crashes. You should include this rule set in any custom rule set you create for your native projects.
+The Native Recommended Rules focus on the most critical and common problems in native code, including potential security holes and application crashes. This rule set includes all of the rules in the [Native Minimum Rules](native-minimum-rules-rule-set.md) rule set.
+
+Include this rule set in any custom rule set you create for native projects.
 
 |Rule|Description|
 |----------|-----------------|

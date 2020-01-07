@@ -1,16 +1,16 @@
 ---
-title: "MSBuild Items | Microsoft Docs"
-description: "Use the MSBuild Include attribute of the ItemGroup to specify files to be included in a build"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: MSBuild Items | Microsoft Docs
+description: Use the MSBuild Include attribute of the ItemGroup to specify files to be included in a build
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "MSBuild, Items"
+- MSBuild, Items
 ms.assetid: d762eff4-c92a-4b5f-a944-1ca30aa22319
-author: mikejo5000
-ms.author: mikejo
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # MSBuild items
 MSBuild items are inputs into the build system, and they typically represent files (the files are specified in the `Include` attribute). Items are grouped into item types based on their element names. Item types are named lists of items that can be used as parameters for tasks. The tasks use the item values to perform the steps of the build process.
@@ -173,7 +173,7 @@ For more information about wildcard characters, see [How to: Select the files to
  Starting in the .NET Framework 3.5, `Target` elements may contain [ItemGroup](../msbuild/itemgroup-element-msbuild.md) elements that may contain item elements. The attributes in this section are valid when they are specified for an item in an `ItemGroup` that's in a `Target`.
 
 ### <a name="BKMK_RemoveAttribute"></a> Remove attribute
- The `Remove` attribute removes specific items (files) from the item type. This attribute was introduced in the .NET Framework 3.5, but was only supported inside targets until MSBuild 15.0.
+ The `Remove` attribute removes specific items (files) from the item type. This attribute was introduced in the .NET Framework 3.5 (inside targets only). Both inside and outside targets are supported starting in MSBuild 15.0.
 
  The following example removes every *.config* file from the Compile item type.
 

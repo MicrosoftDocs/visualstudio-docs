@@ -3,11 +3,11 @@ title: DataContext Methods (O-R Designer)
 ms.date: 11/04/2016
 ms.topic: conceptual
 ms.assetid: c149f4e5-3b61-4c33-892e-3e26d47f3eeb
-author: gewarren
-ms.author: gewarren
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "data-storage"
+- data-storage
 ---
 # DataContext Methods (O/R Designer)
 

@@ -39,7 +39,7 @@ If you don't have a Docker Hub repository, create one at [Docker Hub](https://hu
 
 ## Next steps
 
-Publish to [Azure Container Registry](/azure/container-registry/) by following the steps at [Deploy to Azure Container Registry](vs-azure-tools-docker-hosting-web-apps-in-docker.md).
+Publish to [Azure Container Registry](/azure/container-registry/) by following the steps at [Deploy to Azure Container Registry](hosting-web-apps-in-docker.md).
 
 Set up continuous integration and delivery (CI/CD) with [Azure Pipelines](/azure/devops/pipelines/?view=azure-devops).
 

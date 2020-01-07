@@ -3,14 +3,14 @@ title: Create a Workflow Foundation project
 ms.date: 06/25/2018
 ms.topic: conceptual
 helpviewer_keywords:
-  - "Workflow Designer, creating a workflow project"
-  - "creating a workflow project"
+- Workflow Designer, creating a workflow project
+- creating a workflow project
 ms.assetid: 235a125e-ebe7-4a98-bf77-86c8558728fb
-author: gewarren
-ms.author: gewarren
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Workflow project templates
 

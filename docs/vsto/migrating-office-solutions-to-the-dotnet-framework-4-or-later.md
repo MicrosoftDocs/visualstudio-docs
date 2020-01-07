@@ -22,7 +22,7 @@ ms.workload:
 
 - [Update Excel and Word projects that you migrate to the .NET Framework 4 or the .NET Framework 4.5](../vsto/updating-excel-and-word-projects-that-you-migrate-to-the-dotnet-framework-4-or-the-dotnet-framework-4-5.md)
 
-- [Update Ribbon customizations in Office projects that you migrate to the .NET Framework 4 or the .NET Framework 4.5](/visualstudio/vsto/update-ribbon-customizations-in-office-projects-to-migrate-to-dotnet-framework-4-or-4-5)
+- [Update Ribbon customizations in Office projects that you migrate to the .NET Framework 4 or the .NET Framework 4.5](update-ribbon-customizations-in-office-projects-to-migrate-to-dotnet-framework-4-or-4-5.md)
 
 - [Update form regions in Outlook projects that you migrate to the .NET Framework 4 or the .NET Framework 4.5](../vsto/updating-form-regions-in-outlook-projects-that-you-migrate-to-the-dotnet-framework-4-or-the-dotnet-framework-4-5.md)
 
@@ -32,6 +32,6 @@ ms.workload:
 
 ## See also
 - [Design and create Office solutions](../vsto/designing-and-creating-office-solutions.md)
-- [How to: Target a version of the .NET Framework](../ide/how-to-target-a-version-of-the-dotnet-framework.md)
+- [How to: Target a version of the .NET Framework](../ide/visual-studio-multi-targeting-overview.md)
 - [Troubleshoot errors in Office solutions](../vsto/troubleshooting-errors-in-office-solutions.md)
 - [Additional support for errors in Office solutions](../vsto/additional-support-for-errors-in-office-solutions.md)

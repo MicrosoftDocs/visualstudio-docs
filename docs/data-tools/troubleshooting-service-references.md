@@ -3,19 +3,19 @@ title: Troubleshooting Service References
 ms.date: 11/04/2016
 ms.topic: troubleshooting
 f1_keywords:
-  - "msvse_wcf.Err.ReferenceGroup_NamespaceConflictsOther"
-  - "msvse_wcf.Err.AddSvcRefDlg_NothingSelectedOnGo"
-  - "msvse_wcf.Err.ErrorOnOK"
-  - "msvse_wcf.cfg.ConfigurationErrorsException"
+- msvse_wcf.Err.ReferenceGroup_NamespaceConflictsOther
+- msvse_wcf.Err.AddSvcRefDlg_NothingSelectedOnGo
+- msvse_wcf.Err.ErrorOnOK
+- msvse_wcf.cfg.ConfigurationErrorsException
 helpviewer_keywords:
-  - "service references [Visual Studio], troubleshooting"
-  - "WCF services, troubleshooting"
+- service references [Visual Studio], troubleshooting
+- WCF services, troubleshooting
 ms.assetid: 3b531120-1325-4734-90c6-6e6113bd12ac
-author: gewarren
-ms.author: gewarren
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "data-storage"
+- data-storage
 ---
 # Troubleshoot service references
 

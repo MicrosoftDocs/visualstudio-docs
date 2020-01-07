@@ -3,12 +3,12 @@ title: Properties of Decorators
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
-  - "Domain-Specific Language, decorators"
-author: gewarren
-ms.author: gewarren
+- Domain-Specific Language, decorators
+author: JoshuaPartlow
+ms.author: joshuapa
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Properties of Decorators
 Decorators are icons, text, or expand/collapse chevrons that can appear on shapes or connectors on the diagram. The following tables show the properties for the three kinds of decorator. Some of the properties appear only on shape decorators or only on connector decorators.
@@ -58,6 +58,6 @@ Decorators are icons, text, or expand/collapse chevrons that can appear on shape
 |OffsetFromShape|The offset of the decorator from the shape, relative to its default position, in inches. (On connectors only.)|0|
 |Position|The default position of the decorator.|TargetBottom|
 
-## See Also
+## See also
 
 - [Domain-Specific Language Tools Glossary](https://msdn.microsoft.com/ca5e84cb-a315-465c-be24-76aa3df276aa)

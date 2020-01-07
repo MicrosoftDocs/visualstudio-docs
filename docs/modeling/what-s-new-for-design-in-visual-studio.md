@@ -1,17 +1,17 @@
 ---
 title: What's new for design in Visual Studio 2017
-titleSuffix: ""
+titleSuffix: ''
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "what's new [Visual Studio], architecture and modeling"
-  - "architecture [Visual Studio], modeling"
-  - "modeling software [Visual Studio], What's New"
-author: gewarren
-ms.author: gewarren
+- what's new [Visual Studio], architecture and modeling
+- architecture [Visual Studio], modeling
+- modeling software [Visual Studio], What's New
+author: JoshuaPartlow
+ms.author: joshuapa
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 monikerRange: vs-2017
 ---
 # What's new for design in Visual Studio 2017

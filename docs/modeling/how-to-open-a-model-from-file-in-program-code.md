@@ -1,12 +1,12 @@
 ---
-title: "How to: Open a Model from File in Program Code"
+title: 'How to: Open a Model from File in Program Code'
 ms.date: 11/04/2016
 ms.topic: conceptual
-author: gewarren
-ms.author: gewarren
+author: JoshuaPartlow
+ms.author: joshuapa
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # How to: Open a Model from File in Program Code
 

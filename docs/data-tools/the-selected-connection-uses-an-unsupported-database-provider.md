@@ -3,11 +3,11 @@ title: The selected connection uses an unsupported database provider
 ms.date: 11/04/2016
 ms.topic: reference
 ms.assetid: 4d25dfa1-8fa4-4529-9b90-973bc2ec2993
-author: gewarren
-ms.author: gewarren
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "data-storage"
+- data-storage
 ---
 # The selected connection uses an unsupported database provider
 

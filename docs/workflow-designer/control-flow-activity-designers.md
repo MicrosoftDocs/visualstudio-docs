@@ -3,8 +3,8 @@ title: "Workflow Designer - Control Flow Activity Designers"
 ms.date: 11/04/2016
 ms.topic: reference
 ms.assetid: ba74af23-5398-4e62-bd90-c50612e3bfef
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"
@@ -41,7 +41,7 @@ Workflow Designer includes a number of system-provided activities that you can u
 
 For other types of activity designers, see the following topics:
 
- [Using the Activity Designers](../workflow-designer/using-the-activity-designers.md)
+ [Using the Activity Designers](control-flow-activity-designers.md)
 
  [Flowchart](../workflow-designer/flowchart-activity-designers.md)
 
@@ -59,4 +59,4 @@ For other types of activity designers, see the following topics:
 
 ## External Resources
 
-- [Using the Activity Designers](../workflow-designer/using-the-activity-designers.md)
+- [Using the Activity Designers](control-flow-activity-designers.md)

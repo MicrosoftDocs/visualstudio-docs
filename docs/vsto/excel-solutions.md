@@ -1,6 +1,6 @@
 ---
 title: "Excel solutions"
-ms.date: "02/02/2017"
+ms.date: "08/14/2019"
 ms.topic: "conceptual"
 dev_langs:
   - "VB"
@@ -32,8 +32,7 @@ ms.workload:
 
  [!INCLUDE[appliesto_xlalldocapp](../vsto/includes/appliesto-xlalldocapp-md.md)]
 
-> [!NOTE]
-> Interested in developing solutions that extend the Office experience across [multiple platforms](https://dev.office.com/add-in-availability)? Check out the new [Office Add-ins model](https://dev.office.com/docs/add-ins/overview/office-add-ins). Office Add-ins have a small footprint compared to VSTO add-ins and solutions, and you can build them by using almost any web programming technology, such as HTML5, JavaScript, CSS3, and XML.
+[!include[Add-ins note](includes/addinsnote.md)]
 
  This topic provides the following information:
 
@@ -110,6 +109,6 @@ ms.workload:
 | [Windows Forms controls on Office documents overview](../vsto/windows-forms-controls-on-office-documents-overview.md) | Describes how you can add Windows Forms controls to Excel worksheets. |
 | [Walkthrough: Create your first document-level customization for Excel](../vsto/walkthrough-creating-your-first-document-level-customization-for-excel.md) | Demonstrates how to create a basic document-level customization for Excel. |
 | [Walkthrough: Create your first VSTO Add-in for Excel](../vsto/walkthrough-creating-your-first-vsto-add-in-for-excel.md) | Demonstrates how to create a basic VSTO Add-in for Excel. |
-| [Walkthrough: Add controls to a worksheet at runtime in VSTO Add-in project](../vsto/walkthrough-adding-controls-to-a-worksheet-at-run-time-in-vsto-add-in-project.md) | Demonstrates how to add a Windows Forms button, a <xref:Microsoft.Office.Tools.Excel.NamedRange>, and a <xref:Microsoft.Office.Tools.Excel.ListObject> to a worksheet at runtime by using a VSTO Add-in. |
+| [Walkthrough: Add controls to a worksheet at run time in VSTO Add-in project](../vsto/walkthrough-adding-controls-to-a-worksheet-at-run-time-in-vsto-add-in-project.md) | Demonstrates how to add a Windows Forms button, a <xref:Microsoft.Office.Tools.Excel.NamedRange>, and a <xref:Microsoft.Office.Tools.Excel.ListObject> to a worksheet at run time by using a VSTO Add-in. |
 | [Understand co-authoring and Add-ins](./understanding-coauthoring-and-addins.md) | Describes adjustments you might need to make to your solutions to accommodate coauthoring. |
-| [Excel 2010 in Office development](http://go.microsoft.com/fwlink/?LinkId=199011) | Provides links to articles and reference documentation about developing Excel solutions. These are not specific to Office development using Visual Studio. |
+| [Excel 2010 in Office development](/previous-versions/office/developer/office-2010/ee658205(v=office.14)) | Provides links to articles and reference documentation about developing Excel solutions. These are not specific to Office development using Visual Studio. |

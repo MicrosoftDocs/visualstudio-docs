@@ -1,13 +1,13 @@
 ---
-title: "Save load test log for test failures"
+title: Save load test log for test failures
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "load tests, scenarios"
-  - "load tests, logging"
+- load tests, scenarios
+- load tests, logging
 ms.assetid: 08a7fe98-a7f7-4b8d-94a3-ec82b65a2aaf
-author: gewarren
-ms.author: gewarren
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ---
 # How to: Specify if test failures are saved to test logs using the Load Test Editor

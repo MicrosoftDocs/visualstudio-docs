@@ -3,11 +3,11 @@ title: Suppress Code Analysis violations for Generated Code
 ms.date: 05/13/2019
 ms.topic: conceptual
 ms.assetid: 3a96434e-d419-43a7-81ba-95cccac835b8
-author: gewarren
-ms.author: gewarren
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # How to: Suppress code analysis warnings for generated code
 
@@ -26,5 +26,5 @@ The **Suppress results from generated code** check box on the code analysis prop
 
 3. Select the **Suppress results from generated code** check box.
 
-> [!NOTE]
-> You can only suppress warnings from static code analysis. Currently, you cannot suppress code analysis warnings from [analyzers](roslyn-analyzers-overview.md).
+> [!IMPORTANT]
+> You can only suppress warnings from legacy analysis. The property page with the setting has been deprecated and will be removed in a future product release. Currently, you cannot suppress code analysis warnings from [analyzers](roslyn-analyzers-overview.md).

@@ -3,18 +3,18 @@ title: Localization tools
 ms.date: 02/15/2019
 ms.topic: reference
 helpviewer_keywords:
-  - "globalization [Visual Studio]"
-  - "Visual Basic code, international applications"
-  - "C#, international applications"
-  - "localization [Visual Studio]"
-  - "world-ready applications"
-  - "international applications [Visual Studio]"
+- globalization [Visual Studio]
+- Visual Basic code, international applications
+- C#, international applications
+- localization [Visual Studio]
+- world-ready applications
+- international applications [Visual Studio]
 ms.assetid: 4d9815ae-3e80-4b4d-933d-f8309aee18d5
-author: gewarren
-ms.author: gewarren
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Develop globalized and localized apps
 

@@ -71,9 +71,9 @@ ms.workload:
  Host items cannot be created programmatically in document-level projects. Instead, use the `ThisDocument`, `ThisWorkbook`, or `Sheet`*n* classes that Visual Studio automatically generates in your project at design time. These generated classes derive from the host items, and they provide an entry point for your code. For more information, see [Programmatic limitations of host items and host controls](../vsto/programmatic-limitations-of-host-items-and-host-controls.md).
 
 ### Understand host items in VSTO Add-in projects
- When you create a VSTO Add-in, you do not have access to any host items by default. However, you can generate <xref:Microsoft.Office.Tools.Word.Document>, <xref:Microsoft.Office.Tools.Excel.Workbook>, and <xref:Microsoft.Office.Tools.Excel.Worksheet> host items in Word and Excel VSTO Add-ins at runtime.
+ When you create a VSTO Add-in, you do not have access to any host items by default. However, you can generate <xref:Microsoft.Office.Tools.Word.Document>, <xref:Microsoft.Office.Tools.Excel.Workbook>, and <xref:Microsoft.Office.Tools.Excel.Worksheet> host items in Word and Excel VSTO Add-ins at run time.
 
- After you generate a host item, you can perform tasks such as adding controls to documents. For more information, see [Extend Word documents and Excel workbooks in VSTO Add-ins at runtime](../vsto/extending-word-documents-and-excel-workbooks-in-vsto-add-ins-at-run-time.md).
+ After you generate a host item, you can perform tasks such as adding controls to documents. For more information, see [Extend Word documents and Excel workbooks in VSTO Add-ins at run time](../vsto/extending-word-documents-and-excel-workbooks-in-vsto-add-ins-at-run-time.md).
 
 ## Host controls
  Host controls extend various user interface (UI) objects in the Word and Excel object models, such as `Microsoft.Office.Interop.Word.ContentControl` and <xref:Microsoft.Office.Interop.Excel.Range> objects.
@@ -118,7 +118,7 @@ ms.workload:
 
 - Drag host controls from the **Data Sources** window onto your documents and worksheets. This enables you to add controls that are already bound to data. For more information, see [Bind data to controls in Office solutions](../vsto/binding-data-to-controls-in-office-solutions.md).
 
-  In document-level and VSTO Add-in projects, you can also add some host controls to documents at runtime. For more information, see [Add controls to Office documents at runtime](../vsto/adding-controls-to-office-documents-at-run-time.md).
+  In document-level and VSTO Add-in projects, you can also add some host controls to documents at run time. For more information, see [Add controls to Office documents at run time](../vsto/adding-controls-to-office-documents-at-run-time.md).
 
   For more information about how to add host controls to documents, see the following topics:
 
@@ -147,11 +147,11 @@ ms.workload:
 ### Delete host controls
  In document-level projects, you can delete host controls at design time by selecting the control on the Excel worksheet or Word document and pressing the **Delete** key. However, you must use the **Define Name** dialog box in Excel to delete <xref:Microsoft.Office.Tools.Excel.NamedRange> controls.
 
- If you add a host control to a document at design time, you should not remove it programmatically at runtime because the next time you try to use the control in code, an exception is thrown. The `Delete` method of a host control only removes host controls that are added to the document at runtime. If you call the `Delete` method of a host control that was created at design time, an exception is thrown.
+ If you add a host control to a document at design time, you should not remove it programmatically at run time because the next time you try to use the control in code, an exception is thrown. The `Delete` method of a host control only removes host controls that are added to the document at run time. If you call the `Delete` method of a host control that was created at design time, an exception is thrown.
 
- For example, the <xref:Microsoft.Office.Tools.Excel.NamedRange.Delete%2A> method of a <xref:Microsoft.Office.Tools.Excel.NamedRange> only successfully deletes the <xref:Microsoft.Office.Tools.Excel.NamedRange> if it was programmatically added to the worksheet, which is known as creating host controls dynamically. Dynamically created host controls can also be removed by passing the control name to the `Remove` method of the <xref:Microsoft.Office.Tools.Excel.Worksheet.Controls%2A> or <xref:Microsoft.Office.Tools.Word.Document.Controls%2A> property. For more information, see [Add controls to Office documents at runtime](../vsto/adding-controls-to-office-documents-at-run-time.md).
+ For example, the <xref:Microsoft.Office.Tools.Excel.NamedRange.Delete%2A> method of a <xref:Microsoft.Office.Tools.Excel.NamedRange> only successfully deletes the <xref:Microsoft.Office.Tools.Excel.NamedRange> if it was programmatically added to the worksheet, which is known as creating host controls dynamically. Dynamically created host controls can also be removed by passing the control name to the `Remove` method of the <xref:Microsoft.Office.Tools.Excel.Worksheet.Controls%2A> or <xref:Microsoft.Office.Tools.Word.Document.Controls%2A> property. For more information, see [Add controls to Office documents at run time](../vsto/adding-controls-to-office-documents-at-run-time.md).
 
- If end users delete a host control from the document at runtime, the solution might fail in unexpected ways. You can use the document protection features in Word and Excel to protect the host controls from being deleted. For more information, see [Office development samples and walkthroughs](../vsto/office-development-samples-and-walkthroughs.md).
+ If end users delete a host control from the document at run time, the solution might fail in unexpected ways. You can use the document protection features in Word and Excel to protect the host controls from being deleted. For more information, see [Office development samples and walkthroughs](../vsto/office-development-samples-and-walkthroughs.md).
 
 > [!NOTE]
 > Do not programmatically remove controls during the `Shutdown` event handler of the document or worksheet. The UI elements are no longer available when the `Shutdown` event occurs. If you want to remove controls before the application closes, add your code to another event handler such as `BeforeClose` or `BeforeSave`.

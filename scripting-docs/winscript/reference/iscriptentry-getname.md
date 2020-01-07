@@ -44,6 +44,6 @@ HRESULT GetName(
   
 ## Remarks  
   
-## See Also  
+## See also  
  [IScriptEntry Interface](../../winscript/reference/iscriptentry-interface.md)   
  [IScriptNode:: CreateChildEntry](../../winscript/reference/iscriptnode-createchildentry.md)

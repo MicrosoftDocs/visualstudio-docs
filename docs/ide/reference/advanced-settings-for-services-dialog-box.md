@@ -3,15 +3,15 @@ title: Advanced Settings for Services Dialog Box
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "vb.ProjectPropertiesAdvancedServices"
+- vb.ProjectPropertiesAdvancedServices
 helpviewer_keywords:
-  - "Advanced Settings for Services dialog box"
+- Advanced Settings for Services dialog box
 ms.assetid: 6dde4a2d-85e1-4275-aa55-24b84111be91
-author: gewarren
-ms.author: gewarren
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Advanced Settings for Services Dialog Box
 Client application services provide simplified access to [!INCLUDE[ajax_current_short](../../ide/reference/includes/ajax_current_short_md.md)] login, roles, and profile services from Windows Forms and Windows Presentation Foundation (WPF) applications. You can use the **Services** page in the **Project Designer** to configure client application services. For more information about the **Services** page, see [Services Page, Project Designer](../../ide/reference/services-page-project-designer.md).

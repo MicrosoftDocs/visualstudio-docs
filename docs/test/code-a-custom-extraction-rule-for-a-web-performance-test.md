@@ -1,17 +1,17 @@
 ---
-title: "Coding a custom extraction rule for a web performance test"
+title: Coding a custom extraction rule for a web performance test
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "extraction rules"
-  - "Web performance tests, creating custom extraction rules"
-  - "extraction rules, creating custom"
+- extraction rules
+- Web performance tests, creating custom extraction rules
+- extraction rules, creating custom
 ms.assetid: 6bcc5712-6cc6-4f59-8933-6e8078318c45
 dev_langs:
-  - CSharp
-  - VB
-author: gewarren
-ms.author: gewarren
+- CSharp
+- VB
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ---
 # Code a custom extraction rule for a web performance test

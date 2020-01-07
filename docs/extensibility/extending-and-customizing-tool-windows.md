@@ -35,10 +35,12 @@ Visual Studio provides several different types of windows, for example tool wind
  You can subscribe to tool window events: [Subscribe to an event](../extensibility/subscribing-to-an-event.md).
 
 ## Extend existing tool windows
- You can add information about your tool window to a new **Options** page and a new setting on the **Properties** page, write to the **Task List** and **Output** windows. For more information, see [Extend the Properties, Task List, Output, and Options windows](../extensibility/extending-the-properties-task-list-output-and-options-windows.md) and [Extend the Properties, Task List, Output, and Options windows](../extensibility/extending-the-properties-task-list-output-and-options-windows.md).
+ You can add information about your tool window to a new **Options** page and a new setting on the **Properties** page, write to the **Task List** and **Output** windows. For more information, see [Extend the Properties, Task List, Output, and Options windows](../extensibility/extending-the-properties-task-list-output-and-options-windows.md).
 
 ## Modal dialog boxes
  In a Visual Studio extension you should create modal dialog boxes by deriving them from <xref:Microsoft.VisualStudio.PlatformUI.DialogWindow?displayProperty=fullName>, which allows you to control them and the rest of the UI. For more information, see [Create and manage modal dialog boxes](../extensibility/creating-and-managing-modal-dialog-boxes.md).
 
 ## See also
 - [Create an extension with a tool window](../extensibility/creating-an-extension-with-a-tool-window.md)
+- [Extend projects](../extensibility/extending-projects.md)
+- [Extend solutions](../extensibility/extending-solutions.md)

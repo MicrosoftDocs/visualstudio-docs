@@ -3,13 +3,13 @@ title: Test mix for a Load Test Scenario
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "load tests, adding tests"
-  - "test mix"
-  - "load tests, test mix"
-  - "load tests, removing tests"
+- load tests, adding tests
+- test mix
+- load tests, test mix
+- load tests, removing tests
 ms.assetid: 303e1d70-5d98-424a-b51e-e0898e16d3f8
-author: gewarren
-ms.author: gewarren
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ---
 # Edit the test mix to specify which web performance, unit and coded UI tests to include in a load test scenario

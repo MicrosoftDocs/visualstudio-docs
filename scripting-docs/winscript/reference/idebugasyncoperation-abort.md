@@ -41,7 +41,7 @@ HRESULT Abort();
 ## Remarks  
  This method is typically called from within the debugger thread to cancel an unresponsive operation. This method causes the `InProgressAbort` method on the `IDebugSyncOperation` object to be called.  
   
-## See Also  
+## See also  
  [IDebugAsyncOperation Interface](../../winscript/reference/idebugasyncoperation-interface.md)   
  [IDebugAsyncOperation::Start](../../winscript/reference/idebugasyncoperation-start.md)   
  [IDebugSyncOperation::InProgressAbort](../../winscript/reference/idebugsyncoperation-inprogressabort.md)

@@ -43,5 +43,5 @@ HRESULT GetFileName(
 ## Remarks  
  This method returns the short name of the document without path information. The short name is typically used in situations such as the **Save As...** dialog box.  
   
-## See Also  
+## See also  
  [IDebugDocumentHost Interface](../../winscript/reference/idebugdocumenthost-interface.md)

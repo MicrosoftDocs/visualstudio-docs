@@ -3,18 +3,18 @@ title: Open Project command
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - file.openproject
-  - file.opensolution
+- file.openproject
+- file.opensolution
 helpviewer_keywords:
-  - "op command"
-  - "File.OpenProject command"
-  - "Open Project command"
+- op command
+- File.OpenProject command
+- Open Project command
 ms.assetid: baa85f86-041b-49f4-9ced-0c397dc180e1
-author: gewarren
-ms.author: gewarren
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Open project command
 

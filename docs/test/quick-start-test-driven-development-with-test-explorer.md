@@ -2,11 +2,11 @@
 title: Test-driven development walkthrough
 ms.date: 07/24/2019
 ms.topic: conceptual
-ms.author: gewarren
+ms.author: mikejo
 manager: jillfra
 ms.workload:
-  - "multiple"
-author: gewarren
+- multiple
+author: mikejo5000
 ---
 # Walkthrough: Test-driven development using Test Explorer
 

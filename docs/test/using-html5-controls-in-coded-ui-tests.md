@@ -1,12 +1,12 @@
 ---
-title: "Using HTML5 Controls in Coded UI Tests"
+title: Using HTML5 Controls in Coded UI Tests
 ms.date: 11/04/2016
 ms.topic: conceptual
-ms.author: gewarren
+ms.author: mikejo
 manager: jillfra
 ms.workload:
-  - "multiple"
-author: gewarren
+- multiple
+author: mikejo5000
 ---
 # Using HTML5 controls in coded UI tests
 

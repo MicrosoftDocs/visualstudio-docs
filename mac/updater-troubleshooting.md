@@ -1,8 +1,9 @@
 ---
 title: "Updater has errors retrieving information"
 description: "Instructions on how to fix when you see the error 'Error retrieving update information'. in Visual Studio 2019 for Mac"
-author: asb3993
-ms.author: amburns
+ms.topic: troubleshooting
+author: heiligerdankgesang
+ms.author: dominicn
 ms.date: 04/13/2019
 ms.technology: vs-ide-install
 ms.assetid: 31AF914A-C66B-4CD3-9429-39695E0E94AE
@@ -18,4 +19,5 @@ On a rare occasion, you may see the error message "Error retrieving update infor
 - If you continue to see this error message, you can also try to update using the Installer, if the **.dmg** is still on your machine, or you can download it from [visualstudio.com](https://visualstudio.microsoft.com/vs/mac/)
   - The installer will update any installed components on your machine.
   - By re-running the installer, you'll also be able to install any missing components that you had not previously installed.
-- You can also try clearing your cached downloads, by deleting the file located at `~/Library/Caches/VisualStudio/7.0/TempDownload/index.xml`.
+- You can also try clearing your cached downloads, by deleting the file located at `~/Library/Caches/VisualStudio/8.0/TempDownload/index.xml`.
+- If you're working with an older version of Visual Studio for Mac, you might have other version numbers under the `VisualStudio` directory. Delete the `index.xml` file in these paths as well.

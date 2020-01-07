@@ -82,5 +82,5 @@ HRESULT ParseScriptText(
   
  For more information about script states, see the Script Engine States section of [Windows Script Engines](../../winscript/windows-script-engines.md).  
   
-## See Also  
+## See also  
  [IActiveScriptParse](../../winscript/reference/iactivescriptparse.md)

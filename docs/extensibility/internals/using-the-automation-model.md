@@ -65,5 +65,5 @@ Next
 
 ```
 
-## See Also
+## See also
 - <xref:EnvDTE.DTEClass.GetObject%2A>

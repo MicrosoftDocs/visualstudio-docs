@@ -3,14 +3,14 @@ title: Setting Language-Specific Editor Options
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
-  - "editor options"
-  - "configure editor"
-  - "editor settings"
-author: gewarren
-ms.author: gewarren
+- editor options
+- configure editor
+- editor settings
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Set language-specific editor options
 

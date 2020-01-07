@@ -4,12 +4,12 @@ ms.date: 1/15/2019
 ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
-  - "VS.ToolsOptionsPages.Text_Editor.HTML.Validation"
-author: gewarren
-ms.author: gewarren
+- VS.ToolsOptionsPages.Text_Editor.HTML.Validation
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Options, Text Editor, HTML (Web Forms), Validation
 

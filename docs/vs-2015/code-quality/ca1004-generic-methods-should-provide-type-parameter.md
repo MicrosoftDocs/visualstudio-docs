@@ -12,8 +12,8 @@ helpviewer_keywords:
   - "CA1004"
 ms.assetid: 38755f6a-fb45-4bf2-932e-0354ad826499
 caps.latest.revision: 19
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: "wpickett"
 ---
 # CA1004: Generic methods should provide type parameter

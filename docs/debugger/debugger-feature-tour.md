@@ -1,9 +1,9 @@
 ---
 title: "First look at the debugger"
 description: "Get started debugging applications using the Visual Studio debugger"
-ms.custom: "seoapril2019"
+ms.custom: ""
 ms.date: 04/08/2019
-ms.topic: quickstart
+ms.topic: tutorial
 helpviewer_keywords:
   - "debugger"
 ms.assetid: c763d706-3213-494f-b4d2-990b6e1ec456
@@ -110,6 +110,16 @@ When you press **Restart**, it saves time versus stopping the app and restarting
 
 If you do want to stop the debugger and get back into the code editor, you can press the red stop ![Stop Debugging](../debugger/media/dbg-tour-stop-debugging.png "Stop Debugging") button instead of **Restart**.
 
+## Edit your code and continue debugging (C#, VB, C++, XAML)
+
+In most languages supported by Visual Studio, you can edit your code in the middle of a debugging session and continue debugging. To use this feature, click into your code with your cursor while paused in the debugger, make edits, and press **F5**, **F10**, or **F11** to continue debugging.
+
+![Edit and continue debugging](../debugger/media/dbg-tips-edit-and-continue.gif "EditAndContinue")
+
+For more information on using the feature and on feature limitations, see [Edit and Continue](../debugger/edit-and-continue.md).
+
+To modify XAML code during a debugging session, see [Write and debug running XAML code with XAML Hot Reload](../xaml-tools/xaml-hot-reload.md).
+
 ## Inspect variables with data tips
 
 Now that you know your way around a little, you have a good opportunity to start inspecting your app state (variables) with the debugger. Features that allow you to inspect variables are some of the most useful features of the debugger, and there are different ways to do it. Often, when you try to debug an issue, you are attempting to find out whether variables are storing the values that you expect them to have in a particular app state.
@@ -185,6 +195,14 @@ The Exception Helper is a great feature that can help you debug errors. You can 
 > The Exception Helper replaced the Exception Assistant starting in [!include[vs_dev15](../misc/includes/vs_dev15_md.md)].
 
 Expand the **Exception Settings** node to see more options on how to handle this exception type, but you don't need to change anything for this tour!
+
+## Configure debugging
+
+You can configure your project to build as a [Debug or Release configuration](../debugger/how-to-set-debug-and-release-configurations.md), configure project properties for debugging, or configure [general settings](../debugger/how-to-specify-debugger-settings.md) for debugging. In addition, you can configure the debugger to display custom information using features such as [DebuggerDisplay](using-the-debuggerdisplay-attribute.md) attribute or, for C/C++, the [NatVis framework](create-custom-views-of-native-objects.md).
+
+Debugging properties are specific to each project type. For example, you can specify an argument to pass to the application when you start it. You can access the project-specific properties by right-clicking the project in Solution Explorer and selecting **Properties**. Debugging properties typically appear in the **Build** or **Debug** tab, depending on the particular project type.
+
+![Project properties](../debugger/media/dbg-tour-project-properties.png "Project properties")
 
 ## Debug live ASP.NET apps in Azure App Service
 

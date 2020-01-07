@@ -35,5 +35,5 @@ IJsDebugStackWalker : public IUnknown;
 ## Requirements  
  **Header:** jscript9diag.h  
   
-## See Also  
+## See also  
  [Windows Script Interfaces Reference](../../winscript/reference/windows-script-interfaces-reference.md)

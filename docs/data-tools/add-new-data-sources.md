@@ -3,16 +3,16 @@ title: Add new data sources
 ms.date: 11/21/2018
 ms.topic: conceptual
 f1_keywords:
-  - "vs.datasource.datasourcefieldspicker"
+- vs.datasource.datasourcefieldspicker
 helpviewer_keywords:
-  - "data [Visual Studio], data sources"
-  - "data sources"
+- data [Visual Studio], data sources
+- data sources
 ms.assetid: ed28c625-bb89-4037-bfde-cfa435d182a2
-author: gewarren
-ms.author: gewarren
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "data-storage"
+- data-storage
 ---
 # Add new data sources
 

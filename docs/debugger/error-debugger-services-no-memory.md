@@ -25,6 +25,6 @@ The Debugging Services ran out of memory and caused the termination of the debug
 
 - If the target application does not seem to be consuming a lot of memory, use the **Task Manager** window to check out memory usage of Visual Studio (devenv.exe), the worker process (msvsmon.exe), or of VS Code (vsdbg.exe/vsdbg-ui.exe) to determine if this is a debugger problem. If the process running out of memory is devenv.exe, consider reducing the number of Visual Studio extensions running.
 
-## See Also
+## See also
 - [Blog post: Analyze CPU and Memory while Debugging](https://devblogs.microsoft.com/visualstudio/analyze-cpu-memory-while-debugging/)
 - [About Memory Management](/windows/win32/memory/about-memory-management)

@@ -3,30 +3,30 @@ title: Customize menus and toolbars
 ms.date: 11/04/2016
 ms.topic: conceptual
 f1_keywords:
-  - "vs.renametoolbar"
-  - "vs.customize.toolbars"
-  - "vs.buttoneditor"
-  - "vs.customize.commands"
-  - "vs.newtoolbar"
+- vs.renametoolbar
+- vs.customize.toolbars
+- vs.buttoneditor
+- vs.customize.commands
+- vs.newtoolbar
 helpviewer_keywords:
-  - "captions, customizing toolbar"
-  - "custom toolbars [Visual Studio]"
-  - "command buttons, customizing toolbar"
-  - "labels, customizing toolbar"
-  - "images [Visual Studio], toolbar buttons"
-  - "buttons [Visual Studio], custom toolbars"
-  - "toolbars [Visual Studio], creating in the IDE"
-  - "icons [Visual Studio], customizing toolbar"
-  - "commands [Visual Studio], customizing environment"
-  - "customizing toolbars"
-  - "toolbars [Visual Studio], customizing"
-  - "toolbars [Visual Studio], customizing in the IDE"
+- captions, customizing toolbar
+- custom toolbars [Visual Studio]
+- command buttons, customizing toolbar
+- labels, customizing toolbar
+- images [Visual Studio], toolbar buttons
+- buttons [Visual Studio], custom toolbars
+- toolbars [Visual Studio], creating in the IDE
+- icons [Visual Studio], customizing toolbar
+- commands [Visual Studio], customizing environment
+- customizing toolbars
+- toolbars [Visual Studio], customizing
+- toolbars [Visual Studio], customizing in the IDE
 ms.assetid: b570ae2f-5302-45dc-9cc9-8d4d1ad50603
-author: gewarren
-ms.author: gewarren
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # How to: Customize menus and toolbars in Visual Studio
 

@@ -36,5 +36,5 @@ HRESULT GetNameSpaceParent(
 ## Return Value  
  Returns `S_OK` if successful or an OLE-defined error code otherwise.  
   
-## See Also  
+## See also  
  [IDispatchEx Interface](../../winscript/reference/idispatchex-interface.md)

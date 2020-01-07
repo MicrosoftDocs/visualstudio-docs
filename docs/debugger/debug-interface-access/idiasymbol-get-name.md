@@ -43,5 +43,5 @@ BSTR        name;
 pType->get_name( &name );
 ```
 
-## See Also
+## See also
 - [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)

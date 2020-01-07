@@ -2,7 +2,7 @@
 title: "What's new in Visual Studio 2019"
 titleSuffix: ""
 description: "Learn about the new features in Visual Studio 2019."
-ms.date: 07/23/2019
+ms.date: 12/10/2019
 helpviewer_keywords:
   - "Visual Studio, what's new"
   - "what's new [Visual Studio]"
@@ -18,10 +18,10 @@ ms.workload:
 ---
 # What's new in Visual Studio 2019
 
-**Updated for the [16.2 release](/visualstudio/releases/2019/release-notes/)**
+**Updated for the [16.4 release](/visualstudio/releases/2019/release-notes/)**
 
 >[!div class="button"]
->[Download Visual Studio 2019](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2019)
+>[Download Visual Studio 2019](https://visualstudio.microsoft.com/downloads)
 
 With Visual Studio 2019, you'll get best-in-class tools and services for any developer, any app, and any platform. Whether you're using Visual Studio for the first time or you've been using it for years, there's a lot to like in this new version!
 
@@ -101,6 +101,12 @@ For more information, see the [Better multi-monitor experience with Visual Studi
 **New in 16.2**: We've updated Test Explorer to provide better handling of large test sets, easier filtering, more discoverable commands, tabbed playlist views, and customizable columns that let you fine-tune what test information is displayed.
 
    ![A screenshot that shows the user interface improvements in the Test Explorer](media/vs-2019/test-explorer-ui.png)
+
+### .NET Core
+
+**New in 16.3**: We've included support for .NET Core 3.0. Cross-platform, open source&mdash;and fully supported by Microsoft.
+
+For more information, see the [Announcing .NET Core 3.0](https://devblogs.microsoft.com/dotnet/announcing-net-core-3-0/) blog post.
 
 ## Collaborate
 
@@ -183,6 +189,14 @@ For more information, see the [Debug live ASP.NET Azure apps using the Snapshot 
 **New in 16.2**: You can set a breakpoint in a JavaScript application and start a debug session by using the [Microsoft Edge Insider](https://www.microsoftedgeinsider.com/) browser. When you do so, Visual Studio opens a new browser window with debugging enabled, which you can then use to step through application JavaScript within Visual Studio.
 
    ![A screenshot that shows JavaScript code rendering in a browser](media/vs-2019/edge-chromium-breakpoint.png)
+
+### Pinnable Properties tool
+
+**New in 16.4**: Now, it's easier to identify objects by their properties while debugging with the new Pinnable Properties tool. Just hover the cursor over a property you want to display in the debugger window of the Watch, Autos, and Locals windows, select the pin icon, and immediately see the information you're looking for at the top of the window!
+
+   ![An animation that shows how to pin properties in the Visual Studio debugger by using the Pinnable Properties tool](media/vs-2019/debugger-pinnable-properties.gif)
+
+For more information, see the [Pinnable Properties: Debug & Display Managed Objects YOUR Way](https://devblogs.microsoft.com/visualstudio/pinnable-properties-debug-display-managed-objects-your-way/) blog post.
 
 ## What's next
 

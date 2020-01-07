@@ -1,19 +1,18 @@
 ---
 title: Overview of Visual Studio
-titleSuffix: ""
+titleSuffix: ''
 ms.date: 03/19/2019
 ms.technology: vs-ide-general
 ms.topic: conceptual
 ms.custom: vs-get-started
-author: gewarren
+author: TerryGLee
 f1_keywords:
-  - vs.startpage
-  - VS.StartPage.HowDoI
-  - MSDNSTART
-ms.author: gewarren
+- vs.startpage
+- VS.StartPage.HowDoI
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Welcome to the Visual Studio IDE
 
@@ -37,7 +36,7 @@ If you're ready to dive into more coding, one of the following language-specific
 
 - [Use Visual Studio to create your first Node.js app](../ide/quickstart-nodejs.md)
 
-- [Get started with C++ in Visual Studio](../ide/getting-started-with-cpp-in-visual-studio.md)
+- [Use Visual Studio to create your first C++ console app](/cpp/get-started/tutorial-console-cpp)
 
 ## See also
 

@@ -1,23 +1,23 @@
 ---
-title: "UsingTask Element (MSBuild) | Microsoft Docs"
-ms.date: "03/13/2017"
-ms.topic: "reference"
+title: UsingTask Element (MSBuild) | Microsoft Docs
+ms.date: 03/13/2017
+ms.topic: reference
 f1_keywords:
-  - "http://schemas.microsoft.com/developer/msbuild/2003#UsingTask"
+- http://schemas.microsoft.com/developer/msbuild/2003#UsingTask
 dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
+- VB
+- CSharp
+- C++
+- jsharp
 helpviewer_keywords:
-  - "UsingTask element [MSBuild]"
-  - "<UsingTask> element [MSBuild]"
+- UsingTask element [MSBuild]
+- <UsingTask> element [MSBuild]
 ms.assetid: 20247902-9446-4a1f-8253-5c7a17e4fe43
-author: mikejo5000
-ms.author: mikejo
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # UsingTask element (MSBuild)
 Maps the task that is referenced in a [Task](../msbuild/task-element-msbuild.md) element to the assembly that contains the task implementation.
@@ -33,6 +33,9 @@ Maps the task that is referenced in a [Task](../msbuild/task-element-msbuild.md)
     TaskFactory = "ClassName"
     Condition="'String A'=='String B'" />
 ```
+
+> [!NOTE]
+> Unlike properties and items, the *first* `UsingTask` element that applies to a `TaskName` will be used; to override tasks you must define a new `UsingTask` *before* the existing one.
 
 ## Attributes and elements
  The following sections describe attributes, child elements, and parent elements.

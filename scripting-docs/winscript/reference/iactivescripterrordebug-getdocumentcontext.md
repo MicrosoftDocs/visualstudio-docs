@@ -43,5 +43,5 @@ HRESULT GetDocumentContext(
 ## Remarks  
  The document context character-position range should include all the characters corresponding to the error.  
   
-## See Also  
+## See also  
  [IActiveScriptErrorDebug Interface](../../winscript/reference/iactivescripterrordebug-interface.md)

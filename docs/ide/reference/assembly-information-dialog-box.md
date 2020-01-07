@@ -3,15 +3,15 @@ title: Assembly Information Dialog Box
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "vb.ProjectPropertiesAssemblyInfo"
+- vb.ProjectPropertiesAssemblyInfo
 helpviewer_keywords:
-  - "Assembly Information dialog box"
+- Assembly Information dialog box
 ms.assetid: 8f1f6449-e03d-4a5b-9076-d3b1f84ada48
-author: gewarren
-ms.author: gewarren
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Assembly Information dialog box
 
@@ -55,6 +55,9 @@ Specifies which culture the assembly supports. Corresponds to <xref:System.Resou
 
 **Make assembly COM-Visible**\
 Specifies whether types in the assembly will be available to COM. Corresponds to <xref:System.Runtime.InteropServices.ComVisibleAttribute>.
+
+> [!NOTE]
+> For more information on setting these properties when generating a NuGet package in a .NET Framework class library, see [Configure project properties for the package](/nuget/quickstart/create-and-publish-a-package-using-visual-studio-net-framework#configure-project-properties-for-the-package).
 
 ## See also
 

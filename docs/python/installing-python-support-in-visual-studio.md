@@ -115,9 +115,8 @@ If you encounter problems installing or running Python in Visual Studio, try the
 
 1. Install the appropriate version of Python Tools for Visual Studio for your version of Visual Studio:
 
-    - Visual Studio 2013: [PTVS 2.2 for Visual Studio 2013](https://github.com/Microsoft/PTVS/releases/v2.2). The **File** > **New Project** dialog in Visual Studio 2013 gives you a shortcut for this process.
-    - Visual Studio 2012: [PTVS 2.1 for Visual Studio 2012](https://pytools.codeplex.com/downloads/get/920478)
-    - Visual Studio 2010: [PTVS 2.1 for Visual Studio 2010](https://pytools.codeplex.com/downloads/get/920479)
+    - Visual Studio 2013: [PTVS 2.2.2 for Visual Studio 2013](https://github.com/Microsoft/PTVS/releases/v2.2.2). The **File** > **New Project** dialog in Visual Studio 2013 gives you a shortcut for this process.
+    - Visual Studio 2010 and 2012: [PTVS 2.1.1 for Visual Studio 2010 and 2012](https://github.com/Microsoft/PTVS/releases/v2.1.1)
 
 1. [Install a Python interpreter of your choice](installing-python-interpreters.md). If you already have an interpreter installed and Visual Studio doesn't detect it automatically, see [Manually identify an existing environment](managing-python-environments-in-visual-studio.md#manually-identify-an-existing-environment).
 
@@ -143,7 +142,7 @@ where:
   - 12.0 for Visual Studio 2013
   - 11.0 for Visual Studio 2012
   - 10.0 for Visual Studio 2010
-- &lt;PTVS_ver&gt; is a version number, such as 2.2, 2.1, 2.0, 1.5, 1.1, or 1.0.
+- &lt;PTVS_ver&gt; is a version number, such as 2.2.2, 2.1.1, 2.0, 1.5, 1.1, or 1.0.
 
 ### User-specific installations (1.5 and earlier)
 

@@ -45,7 +45,7 @@ HRESULT onAddChild(
   
  Implementers of the `IDebugApplicationNode` interface raise this event  
   
-## See Also  
+## See also  
  [IDebugApplicationNodeEvents Interface](../../winscript/reference/idebugapplicationnodeevents-interface.md)   
  [IDebugApplicationNodeEvents::onRemoveChild](../../winscript/reference/idebugapplicationnodeevents-onremovechild.md)   
  [IDebugApplicationNode Interface](../../winscript/reference/idebugapplicationnode-interface.md)

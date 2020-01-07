@@ -2,13 +2,13 @@
 title: Preview code changes
 ms.date: 12/16/2016
 ms.topic: conceptual
-author: gewarren
-ms.author: gewarren
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 f1_keywords:
-  - "vs.codefix.previewchanges"
+- vs.codefix.previewchanges
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Preview Changes window
 

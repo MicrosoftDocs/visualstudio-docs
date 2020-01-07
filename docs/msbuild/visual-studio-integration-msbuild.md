@@ -1,25 +1,25 @@
 ---
-title: "Visual Studio Integration (MSBuild)"
-titleSuffix: ""
-ms.custom: "seodec18"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Visual Studio Integration (MSBuild)
+titleSuffix: ''
+ms.custom: seodec18
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "MSBuild, reference resolution"
-  - "MSBuild, well-known target names"
-  - "MSBuild, hosting"
-  - "MSBuild, editing project files"
-  - "MSBuild, Visual Studio integration"
-  - "MSBuild, IntelliSense"
-  - "MSBuild, output groups"
-  - "MSBuild, in-process compilers"
-  - "MSBuild, design-time target execution"
+- MSBuild, reference resolution
+- MSBuild, well-known target names
+- MSBuild, hosting
+- MSBuild, editing project files
+- MSBuild, Visual Studio integration
+- MSBuild, IntelliSense
+- MSBuild, output groups
+- MSBuild, in-process compilers
+- MSBuild, design-time target execution
 ms.assetid: 06cd6d7f-8dc1-4e49-8a72-cc9e331d7bca
-author: mikejo5000
-ms.author: mikejo
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Visual Studio integration (MSBuild)
 Visual Studio hosts [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] to load and build managed projects. Because [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] is responsible for the project, almost any project in the [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] format can be successfully used in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], even if the project was authored by a different tool and has a customized build process.
@@ -170,7 +170,7 @@ Condition=" '$(Something)|$(Configuration)|$(SomethingElse)' == 'xxx|Debug|yyy' 
    The project system calls a target with the well-known name `ResolveNativeReferences`. This target should produce items with the item type name `NativeReferenceFile`. The items should have all the metadata from the input items passed through, in addition to a new piece of metadata named `OriginalItemSpec`, containing the original item specification of the reference.
 
 ## Performance shortcuts
- If you start debugging in the Visual Studio UI (either by choosing the F5 key or by choosing **Debug** > **Start Debugging** on the menu bar), the build process uses a fast update check to improve performance. In some cases where customized builds create files that get built in turn, the fast update check does not correctly identify the changed files. Projects that need more thorough update checks can turn off the fast checking by setting the environment variable `DISABLEFASTUPTODATECHECK=1`. Alternatively, projects can set this as an MSBuild property in the project or in a file the project imports.
+ If you use the Visual Studio IDE to start debugging (either by choosing the F5 key or by choosing **Debug** > **Start Debugging** on the menu bar) or to build your project (for example, **Build** > **Build Solution**), the build process uses a fast update check to improve performance. In some cases where customized builds create files that get built in turn, the fast update check does not correctly identify the changed files. Projects that need more thorough update checks can turn off the fast checking by setting the environment variable `DISABLEFASTUPTODATECHECK=1`. Alternatively, projects can set this as an MSBuild property in the project or in a file the project imports.
 
  For regular builds in Visual Studio, the fast update check doesn't apply, and the project will build as if you invoked the build at a command prompt.
 

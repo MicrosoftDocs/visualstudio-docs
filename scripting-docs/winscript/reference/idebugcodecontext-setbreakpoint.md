@@ -43,6 +43,6 @@ HRESULT SetBreakPoint(
 ## Remarks  
  This method sets or clears a breakpoint at this code context.  
   
-## See Also  
+## See also  
  [IDebugCodeContext Interface](../../winscript/reference/idebugcodecontext-interface.md)   
  [BREAKPOINT_STATE Enumeration](../../winscript/reference/breakpoint-state-enumeration.md)

@@ -3,19 +3,19 @@ title: Coded UI tests
 ms.date: 12/04/2018
 ms.topic: conceptual
 f1_keywords:
-  - "vs.codedUITest"
-  - "vs.codedUITest.recorder"
-  - "vs.codedUITest.testbuilder"
-  - "vs.codedUITest.addAssertions"
-  - "vs.codedUITest.createdialog"
+- vs.codedUITest
+- vs.codedUITest.recorder
+- vs.codedUITest.testbuilder
+- vs.codedUITest.addAssertions
+- vs.codedUITest.createdialog
 helpviewer_keywords:
-  - "automated tests, testing UI interface"
-  - "coded UI test"
-author: gewarren
-ms.author: gewarren
+- automated tests, testing UI interface
+- coded UI test
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Use Coded UI test to test your code
 

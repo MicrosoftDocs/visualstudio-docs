@@ -3,19 +3,19 @@ title: Options, Text Editor, C#, IntelliSense
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "VS.ToolsOptionsPages.Text_Editor.CSharp.Intellisense"
+- VS.ToolsOptionsPages.Text_Editor.CSharp.Intellisense
 helpviewer_keywords:
-  - "underlines, wavy"
-  - "IntelliSense [C#], options"
-  - "IntelliSense [C#], wavy underlines"
-  - "wavy underlines"
-  - "Text Editor Options dialog box, IntelliSense"
+- underlines, wavy
+- IntelliSense [C#], options
+- IntelliSense [C#], wavy underlines
+- wavy underlines
+- Text Editor Options dialog box, IntelliSense
 ms.assetid: 3466dedb-e5f4-424c-8dd8-e4941b2f4fc2
-author: gewarren
-ms.author: gewarren
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "dotnet"
+- dotnet
 ---
 # Options, Text Editor, C#, IntelliSense
 

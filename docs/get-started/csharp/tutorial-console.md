@@ -28,7 +28,7 @@ If you haven't already installed Visual Studio, go to the [Visual Studio downloa
 
 ::: moniker range="vs-2019"
 
-If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2019) page to install it for free.
+If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads) page to install it for free.
 
 ::: moniker-end
 
@@ -130,7 +130,7 @@ Let's start with some basic integer math in C#.
 
     ![Animation of integer math code that shows the IntelliSense autocomplete feature in the Visual Studio IDE](./media/integer-math-intellisense.gif)
 
-1. Choose **Calculator** to run your program, or press **F5**.
+1. Choose the green **Start** button next to **Calculator** to build and run your program, or press **F5**.
 
    ![Choose the Calculator button to run the app from the toolbar](./media/csharp-console-calculator-button.png)
 

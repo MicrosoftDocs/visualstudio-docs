@@ -1,6 +1,7 @@
 ---
 title: Visual Studio Customer Experience Improvement Program
 description: Find out how to manage privacy settings in Visual Studio for Mac.
+ms.topic: troubleshooting
 author: therealjohn
 ms.author: johmil
 ms.date: 06/18/2019

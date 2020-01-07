@@ -3,15 +3,15 @@ title: Visual Basic IntelliSense
 ms.date: 11/04/2016
 ms.topic: conceptual
 f1_keywords:
-  - "VS.ToolsOptionsPages.Text_Editor.Basic.IntelliSense"
+- VS.ToolsOptionsPages.Text_Editor.Basic.IntelliSense
 helpviewer_keywords:
-  - "IntelliSense [Visual Basic]"
-  - "IntelliSense [Visual Studio], Visual Basic"
-author: gewarren
-ms.author: gewarren
+- IntelliSense [Visual Basic]
+- IntelliSense [Visual Studio], Visual Basic
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # IntelliSense for Visual Basic code files
 

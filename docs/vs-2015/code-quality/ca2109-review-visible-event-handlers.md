@@ -12,8 +12,8 @@ helpviewer_keywords:
   - "CA2109"
 ms.assetid: 8f8fa0ee-e94e-400e-b516-24d8727725d7
 caps.latest.revision: 20
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: "wpickett"
 ---
 # CA2109: Review visible event handlers
