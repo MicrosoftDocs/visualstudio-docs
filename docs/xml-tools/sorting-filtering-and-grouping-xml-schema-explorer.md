@@ -1,13 +1,13 @@
 ---
-title: "Sorting, Filtering, and Grouping in XML Schema Explorer"
+title: Sorting, Filtering, and Grouping in XML Schema Explorer
 ms.date: 11/04/2016
 ms.topic: conceptual
 ms.assetid: 4a914de0-9ffc-4526-9603-92e460e52513
-author: jillre
-ms.author: jillfra
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Sorting, filtering, and grouping (XML Schema Explorer)
 

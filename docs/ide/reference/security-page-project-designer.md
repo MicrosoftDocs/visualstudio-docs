@@ -4,16 +4,16 @@ ms.date: 11/04/2016
 ms.technology: vs-ide-deployment
 ms.topic: reference
 f1_keywords:
-  - "vb.ProjectPropertiesSecurity"
-  - "vb.XBAPProjectPropertiesSecurity"
+- vb.ProjectPropertiesSecurity
+- vb.XBAPProjectPropertiesSecurity
 helpviewer_keywords:
-  - "Project Designer, Security page"
-  - "Security page in Project Designer"
-author: mikejo5000
-ms.author: mikejo
+- Project Designer, Security page
+- Security page in Project Designer
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Security Page, Project Designer
 

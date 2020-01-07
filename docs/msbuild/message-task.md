@@ -1,23 +1,23 @@
 ---
-title: "Message Task | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "reference"
+title: Message Task | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: reference
 f1_keywords:
-  - "http://schemas.microsoft.com/developer/msbuild/2003#Message"
+- http://schemas.microsoft.com/developer/msbuild/2003#Message
 dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
+- VB
+- CSharp
+- C++
+- jsharp
 helpviewer_keywords:
-  - "MSBuild, Message task"
-  - "Message task [MSBuild]"
+- MSBuild, Message task
+- Message task [MSBuild]
 ms.assetid: 2293309d-42b6-46dc-9684-8c146f66bc28
-author: mikejo5000
-ms.author: mikejo
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Message task
 Logs a message during a build.

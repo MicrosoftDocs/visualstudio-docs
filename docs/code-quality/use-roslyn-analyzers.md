@@ -3,14 +3,14 @@ title: Analyzer rule severity and suppression
 ms.date: 09/23/2019
 ms.topic: conceptual
 helpviewer_keywords:
-  - "code analysis, managed code"
-  - "analyzers"
-  - "Roslyn analyzers"
-author: jillre
-ms.author: jillfra
+- code analysis, managed code
+- analyzers
+- Roslyn analyzers
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ms.workload:
-  - "dotnet"
+- dotnet
 ---
 # Use code analyzers
 

@@ -1,12 +1,12 @@
 ---
-title: "Customizing Code Coverage Analysis"
+title: Customizing Code Coverage Analysis
 ms.date: 08/21/2019
 ms.topic: conceptual
-ms.author: jillfra
+ms.author: mikejo
 manager: jillfra
 ms.workload:
-  - "multiple"
-author: jillre
+- multiple
+author: mikejo5000
 ---
 # Customize code coverage analysis
 

@@ -6,20 +6,20 @@ ms.date: 12/19/2019
 ms.custom: "seodec18"
 ms.topic: conceptual
 f1_keywords:
-  - "uninstall"
-  - "uninstall Visual Studio"
-  - "remove"
-  - "remove Visual Studio"
-  - "cleanup"
-  - "cleanup Visual Studio"
-  - "clean up"
-  - "clean up Visual Studio"
+- uninstall
+- uninstall Visual Studio
+- remove
+- remove Visual Studio
+- cleanup
+- cleanup Visual Studio
+- clean up
+- clean up Visual Studio
 ms.assetid: 9c81a777-9c95-4934-b517-c60c6dc78799
 author: TerryGLee
 ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
 ---

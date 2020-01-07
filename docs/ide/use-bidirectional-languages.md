@@ -3,15 +3,15 @@ title: Support for Arabic and Hebrew
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
-  - "Hebrew character display [Visual Studio]"
-  - "bidirectional language support"
-  - "Arabic, creating applications"
+- Hebrew character display [Visual Studio]
+- bidirectional language support
+- Arabic, creating applications
 ms.assetid: b56f9795-ed8d-4452-9d49-8ca0b0145d86
-author: jillre
-ms.author: jillfra
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Support for bidirectional languages in Visual Studio
 

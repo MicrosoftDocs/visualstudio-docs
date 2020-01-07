@@ -1,15 +1,15 @@
 ---
-title: "Resolving Assemblies at Design Time | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Resolving Assemblies at Design Time | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "msbuild"
+- msbuild
 ms.assetid: 20dae076-733e-49c1-a2e9-b336757ae21d
-author: mikejo5000
-ms.author: mikejo
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Resolve assemblies at design time
 When you add a reference to an assembly through the **.NET** tab of the **Add Reference** dialog, the reference points to an intermediate reference assembly; that is, an assembly that contains all the type and signature information, but that doesn't necessarily contain any code. The **.NET** tab lists reference assemblies that correspond to runtime assemblies in the .NET Framework. In addition, it lists reference assemblies that correspond to runtime assemblies in the registered AssemblyFoldersEx folders that are used by third parties.

@@ -3,22 +3,22 @@ title: Filter and sort data in a Windows Forms application
 ms.date: 11/04/2016
 ms.topic: conceptual
 dev_langs:
-  - "VB"
-  - "CSharp"
+- VB
+- CSharp
 helpviewer_keywords:
-  - "row states, filtering"
-  - "data views, sorting"
-  - "row version, filtering"
-  - "row states"
-  - "data views, filtering"
-  - "sorting datasets, using data views"
-  - "dataset filtering, using data views"
+- row states, filtering
+- data views, sorting
+- row version, filtering
+- row states
+- data views, filtering
+- sorting datasets, using data views
+- dataset filtering, using data views
 ms.assetid: f4f100f1-776d-46dc-b2fd-5b35b98d9561
-author: jillre
-ms.author: jillfra
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "data-storage"
+- data-storage
 ---
 # Filter and sort data in a Windows Forms application
 

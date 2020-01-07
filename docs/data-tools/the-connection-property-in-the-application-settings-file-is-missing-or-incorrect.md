@@ -3,11 +3,11 @@ title: The connection property in the Application Settings file is missing or in
 ms.date: 11/04/2016
 ms.topic: reference
 ms.assetid: 77724510-ff59-4d43-b933-a0434e1ac597
-author: jillre
-ms.author: jillfra
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "data-storage"
+- data-storage
 ---
 # The connection property in the Application Settings file is missing or incorrect
 

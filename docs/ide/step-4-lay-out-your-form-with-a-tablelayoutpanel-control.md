@@ -1,5 +1,5 @@
 ---
-title: "Step 4: Lay out your form with a TableLayoutPanel control"
+title: 'Step 4: Lay out your form with a TableLayoutPanel control'
 ms.date: 08/30/2019
 ms.assetid: 61acde79-e115-4bad-bb06-1fbe37717a3e
 ms.topic: tutorial
@@ -9,7 +9,7 @@ author: TerryGLee
 ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Step 4: Lay out your form with a TableLayoutPanel control
 

@@ -1,15 +1,15 @@
 ---
-title: "IntelliTrace data"
+title: IntelliTrace data
 ms.date: 10/13/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "IntelliTrace, configuring test settings"
-  - "Diagnostic Data Adapter, InteliTrace"
-  - "debugging [Visual Studio ALM], difficult issues using IntelliTrace"
-  - "Test Runner, InteliTrace"
+- IntelliTrace, configuring test settings
+- Diagnostic Data Adapter, InteliTrace
+- debugging [Visual Studio ALM], difficult issues using IntelliTrace
+- Test Runner, InteliTrace
 ms.assetid: 02b6716f-569e-4961-938a-e790a0c74b5c
-author: jillre
-ms.author: jillfra
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ---
 # How to: Collect IntelliTrace data to help debug difficult issues

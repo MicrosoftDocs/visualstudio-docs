@@ -3,16 +3,16 @@ title: Keyboard and Mouse Shortcuts for Class Designer
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "vs.classdetails.window"
+- vs.classdetails.window
 helpviewer_keywords:
-  - "class diagrams, keyboard shortcuts"
-  - "class diagrams, mouse shortcuts"
+- class diagrams, keyboard shortcuts
+- class diagrams, mouse shortcuts
 ms.assetid: c12d8dac-9902-4fde-b721-2a8116da53b7
-author: jillre
-ms.author: jillfra
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Keyboard and mouse shortcuts in the Class Diagram and Class Details window
 

@@ -2,11 +2,11 @@
 title: Native Recommended Rules rule set
 ms.date: 11/04/2016
 ms.topic: reference
-author: jillre
-ms.author: jillfra
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Native Recommended Rules rule set
 

@@ -1,19 +1,19 @@
 ---
 title: Suppress code analysis warnings
 ms.date: 12/01/2018
-ms.topic: "conceptual"
+ms.topic: conceptual
 helpviewer_keywords:
-  - "source suppression, code analysis"
-  - "code analysis, source suppression"
-author: jillre
-ms.author: jillfra
+- source suppression, code analysis
+- code analysis, source suppression
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 dev_langs:
- - CSharp
- - VB
- - CPP
+- CSharp
+- VB
+- CPP
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Suppress code analysis warnings
 

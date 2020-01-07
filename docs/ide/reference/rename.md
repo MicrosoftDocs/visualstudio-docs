@@ -2,16 +2,16 @@
 title: Refactor rename
 ms.date: 01/26/2018
 ms.topic: reference
-author: jillre
-ms.author: jillfra
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 f1_keywords:
-  - "vs.csharp.refactoring.rename"
+- vs.csharp.refactoring.rename
 dev_langs:
-  - CSharp
-  - VB
+- CSharp
+- VB
 ms.workload:
-  - "dotnet"
+- dotnet
 ---
 # Rename a code symbol refactoring
 

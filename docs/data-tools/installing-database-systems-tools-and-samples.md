@@ -3,15 +3,15 @@ title: Database compatibility
 ms.date: 09/06/2017
 ms.topic: conceptual
 helpviewer_keywords:
-  - "database systems"
-  - "database compatibility"
-  - "databases for Visual Studio"
+- database systems
+- database compatibility
+- databases for Visual Studio
 ms.assetid: 821de34b-eaa9-40af-b9aa-b8305de16899
-author: jillre
-ms.author: jillfra
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "data-storage"
+- data-storage
 ---
 # Compatible database systems for Visual Studio
 

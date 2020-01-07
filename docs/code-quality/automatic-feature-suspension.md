@@ -1,7 +1,7 @@
 ---
 title: Automatic feature suspension
 ms.date: 11/04/2016
-ms.topic: "conceptual"
+ms.topic: conceptual
 helpviewer_keywords:
   - "live code analysis"
   - "background analysis"
@@ -10,11 +10,11 @@ helpviewer_keywords:
   - "performance"
   - "low-memory"
 ms.assetid: 572c15aa-1fd0-468c-b6be-9fa50e170914
-author: jillre
-ms.author: jillfra
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Automatic feature suspension
 

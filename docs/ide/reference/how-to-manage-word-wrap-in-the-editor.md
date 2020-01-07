@@ -3,15 +3,15 @@ title: Word wrap
 ms.date: 11/07/2018
 ms.topic: conceptual
 helpviewer_keywords:
-  - "word wrap"
-  - "editors, text viewing"
-  - "Code Editor, word wrap"
+- word wrap
+- editors, text viewing
+- Code Editor, word wrap
 ms.assetid: 442f33ef-9f52-4515-b55f-fb816d664645
-author: jillre
-ms.author: jillfra
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # How to: Manage word wrap in the editor
 

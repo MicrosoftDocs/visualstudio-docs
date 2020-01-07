@@ -1,13 +1,13 @@
 ---
-title: "Web Performance Test API"
+title: Web Performance Test API
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "Web performance tests, using the API"
-  - "APIs, Web performance tests"
+- Web performance tests, using the API
+- APIs, Web performance tests
 ms.assetid: 93a6a1dd-663b-4ab5-8760-7d6b081561d3
-author: jillre
-ms.author: jillfra
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ---
 # How to: Use the web performance test API

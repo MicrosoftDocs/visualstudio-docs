@@ -3,31 +3,31 @@ title: Map methods on the call stack while debugging
 ms.date: 11/04/2016
 ms.topic: conceptual
 f1_keywords:
-  - "vs.progression.debugwithcodemaps"
+- vs.progression.debugwithcodemaps
 dev_langs:
-  - "FSharp"
-  - "VB"
-  - "CSharp"
-  - "C++"
+- FSharp
+- VB
+- CSharp
+- C++
 helpviewer_keywords:
-  - "call stacks, code maps"
-  - "Call Stack window, mapping calls"
-  - "debugging [Visual Studio], diagramming the call stack"
-  - "call stacks, mapping"
-  - "Call Stack window, visualizing"
-  - "debugging code visually"
-  - "debugging [Visual Studio], mapping the call stack"
-  - "call stacks, visualizing"
-  - "debugging, code maps"
-  - "Call Stack window, tracing calls visually"
-  - "Call Stack window, show on code map"
-  - "debugging [Visual Studio], tracing the call stack visually"
-  - "debugging [Visual Studio], visualizing the call stack"
-author: jillre
-ms.author: jillfra
+- call stacks, code maps
+- Call Stack window, mapping calls
+- debugging [Visual Studio], diagramming the call stack
+- call stacks, mapping
+- Call Stack window, visualizing
+- debugging code visually
+- debugging [Visual Studio], mapping the call stack
+- call stacks, visualizing
+- debugging, code maps
+- Call Stack window, tracing calls visually
+- Call Stack window, show on code map
+- debugging [Visual Studio], tracing the call stack visually
+- debugging [Visual Studio], visualizing the call stack
+author: JoshuaPartlow
+ms.author: joshuapa
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Map methods on the call stack while debugging in Visual Studio
 

@@ -1,5 +1,5 @@
 ---
-title: "Step 5: Add controls to your form"
+title: 'Step 5: Add controls to your form'
 ms.date: 08/30/2019
 ms.assetid: dc2746f4-0b5c-4674-9ef7-f40f94150f52
 ms.topic: tutorial
@@ -9,7 +9,7 @@ author: TerryGLee
 ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Step 5: Add controls to your form
 

@@ -3,13 +3,13 @@ title: Image Editor
 ms.date: 08/10/2018
 ms.topic: conceptual
 f1_keywords:
-  - "vs.graphics.designer.imageeditor"
-  - "vs.graphics.imageeditor"
-author: jillre
-ms.author: jillfra
+- vs.graphics.designer.imageeditor
+- vs.graphics.imageeditor
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Image editor
 

@@ -1,11 +1,11 @@
 ---
 title: Design XAML in Visual Studio and Blend
-titleSuffix: ""
+titleSuffix: ''
 ms.date: 08/05/2019
 ms.topic: conceptual
 ms.assetid: 288e2415-9fcf-408e-bc35-9848315e14fd
-author: jillre
-ms.author: jillfra
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ---
 # Design XAML in Visual Studio and Blend for Visual Studio

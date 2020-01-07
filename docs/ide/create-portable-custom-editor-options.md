@@ -3,9 +3,9 @@ title: EditorConfig settings
 ms.date: 08/01/2018
 ms.topic: conceptual
 helpviewer_keywords:
-  - "editorconfig [Visual Studio]"
-author: jillre
-ms.author: jillfra
+- editorconfig [Visual Studio]
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ---
 # Create portable, custom editor settings with EditorConfig

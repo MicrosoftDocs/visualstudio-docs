@@ -1,22 +1,22 @@
 ---
-title: "Troubleshooting .NET Framework Targeting Errors | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "troubleshooting"
+title: Troubleshooting .NET Framework Targeting Errors | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: troubleshooting
 f1_keywords:
-  - "vs.FrameworkTargetingErrors"
-  - "MSBuild.ResolveAssemblyReference.FailedToResolveReferenceBecausePrimaryAssemblyInExclusionList"
+- vs.FrameworkTargetingErrors
+- MSBuild.ResolveAssemblyReference.FailedToResolveReferenceBecausePrimaryAssemblyInExclusionList
 helpviewer_keywords:
-  - "targeting .NET Framework version [Visual Studio]"
-  - "versions [Visual Studio], .NET Framework Client Profile"
-  - "multi-targeting"
-  - "multitargeting"
-  - ".NET Framework Client Profile"
+- targeting .NET Framework version [Visual Studio]
+- versions [Visual Studio], .NET Framework Client Profile
+- multi-targeting
+- multitargeting
+- .NET Framework Client Profile
 ms.assetid: 830e3e45-9a93-4279-a249-75b84599aefb
-author: mikejo5000
-ms.author: mikejo
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "dotnet"
+- dotnet
 ---
 # Troubleshoot .NET Framework targeting errors
 This topic describes MSBuild errors that might occur because of reference issues and how you can resolve those errors.

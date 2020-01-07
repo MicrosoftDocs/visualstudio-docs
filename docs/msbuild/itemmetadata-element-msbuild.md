@@ -1,21 +1,21 @@
 ---
-title: "ItemMetadata Element (MSBuild) | Microsoft Docs"
-ms.date: "03/13/2017"
-ms.topic: "reference"
+title: ItemMetadata Element (MSBuild) | Microsoft Docs
+ms.date: 03/13/2017
+ms.topic: reference
 dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
+- VB
+- CSharp
+- C++
+- jsharp
 helpviewer_keywords:
-  - "ItemMetadata Element [MSBuild]"
-  - "<ItemMetadata> Element [MSBuild]"
+- ItemMetadata Element [MSBuild]
+- <ItemMetadata> Element [MSBuild]
 ms.assetid: e3db5122-202d-43a9-b2f4-3e0ec4ed3d08
-author: mikejo5000
-ms.author: mikejo
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # ItemMetadata element (MSBuild)
 Contains a user-defined item metadata key, which contains the item metadata value. An item may have any number of metadata key-value pairs.

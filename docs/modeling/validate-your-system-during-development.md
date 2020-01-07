@@ -3,12 +3,12 @@ title: Validate your system during development
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "dependency diagrams"
-author: jillre
-ms.author: jillfra
+- dependency diagrams
+author: JoshuaPartlow
+ms.author: joshuapa
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Validate your system during development
 

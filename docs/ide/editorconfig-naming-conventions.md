@@ -3,13 +3,13 @@ title: .NET Naming Conventions For EditorConfig files
 ms.date: 08/07/2019
 ms.topic: reference
 helpviewer_keywords:
-  - "naming conventions [EditorConfig]"
-  - "EditorConfig naming conventions"
-author: jillre
-ms.author: jillfra
+- naming conventions [EditorConfig]
+- EditorConfig naming conventions
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # .NET naming conventions for EditorConfig
 

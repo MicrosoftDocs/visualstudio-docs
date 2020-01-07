@@ -3,13 +3,13 @@ title: Code analysis for managed code
 ms.date: 06/12/2019
 ms.topic: conceptual
 helpviewer_keywords:
-  - "code analysis, managed code"
-  - "managed code, code analysis"
-author: mikadumont
-ms.author: midumont
+- code analysis, managed code
+- managed code, code analysis
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ms.workload:
-  - "dotnet"
+- dotnet
 ---
 # Overview of code analysis for managed code in Visual Studio
 

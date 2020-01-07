@@ -1,13 +1,13 @@
 ---
-title: "Sample XSD File: Relationships"
+title: 'Sample XSD File: Relationships'
 ms.date: 11/04/2016
 ms.topic: sample
 ms.assetid: 60126510-b7dd-4cb4-92d3-9883590b92f2
-author: jillre
-ms.author: jillfra
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Sample XSD file: Relationships
 

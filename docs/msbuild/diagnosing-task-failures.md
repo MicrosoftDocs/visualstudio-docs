@@ -1,19 +1,19 @@
 ---
-title: "Diagnosing task failures | Microsoft Docs"
-ms.date: "09/25/2019"
-ms.topic: "troubleshooting"
+title: Diagnosing task failures | Microsoft Docs
+ms.date: 09/25/2019
+ms.topic: troubleshooting
 f1_keywords:
-  - "MSBuild.ToolTask.ToolCommandFailed"
+- MSBuild.ToolTask.ToolCommandFailed
 dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
-author: mikejo5000
-ms.author: mikejo
+- VB
+- CSharp
+- C++
+- jsharp
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Diagnosing task failures
 

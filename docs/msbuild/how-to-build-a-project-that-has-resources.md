@@ -1,18 +1,18 @@
 ---
-title: "How to: Build a Project That Has Resources | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: 'How to: Build a Project That Has Resources | Microsoft Docs'
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "resource files, compiling with MSBuild"
-  - "resources [Visual Studio], compiling with MSBuild"
-  - "projects [.NET Framework], building"
-  - "MSBuild, building a project with resources"
+- resource files, compiling with MSBuild
+- resources [Visual Studio], compiling with MSBuild
+- projects [.NET Framework], building
+- MSBuild, building a project with resources
 ms.assetid: d07ac73f-2c2d-4e9a-812a-6dcb632bafe2
-author: mikejo5000
-ms.author: mikejo
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # How to: Build a project that has resources
 If you are building localized versions of a project, all user interface elements must be separated into resource files for the different languages. If the project uses only strings, the resource files can use text files. Alternatively, you can use *.resx* files as the resource files.

@@ -1,21 +1,21 @@
 ---
-title: "MarkupCompilePass2 Task | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "reference"
+title: MarkupCompilePass2 Task | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: reference
 dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
+- VB
+- CSharp
+- C++
+- jsharp
 helpviewer_keywords:
-  - "performing second-pass markup [WPF MSBuild], MarkupCompilePass2 task"
-  - "MarkupCompilePass2 task [WPF MSBuild]"
-  - "MarkupCompilePass2 task [WPF MSBuild], parameters"
-author: mikejo5000
-ms.author: mikejo
+- performing second-pass markup [WPF MSBuild], MarkupCompilePass2 task
+- MarkupCompilePass2 task [WPF MSBuild]
+- MarkupCompilePass2 task [WPF MSBuild], parameters
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # MarkupCompilePass2 task
 

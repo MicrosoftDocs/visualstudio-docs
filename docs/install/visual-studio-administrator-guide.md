@@ -1,20 +1,20 @@
 ---
-title: "Visual Studio administrator guide"
-titleSuffix: ""
-description: "Learn more about how to deploy Visual Studio in an enterprise environment."
+title: Visual Studio administrator guide
+titleSuffix: ''
+description: Learn more about how to deploy Visual Studio in an enterprise environment.
 ms.date: 06/02/2019
-ms.custom: "seodec18"
+ms.custom: seodec18
 ms.topic: conceptual
 helpviewer_keywords:
-  - "network installation, Visual Studio"
-  - "administrator guide, Visual Studio"
-  - "installing Visual Studio, administrator guide"
+- network installation, Visual Studio
+- administrator guide, Visual Studio
+- installing Visual Studio, administrator guide
 ms.assetid: 4af353f5-6cfd-4ebe-bcfb-f42306e451a0
-author: TerryGLee
-ms.author: tglee
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
 ---

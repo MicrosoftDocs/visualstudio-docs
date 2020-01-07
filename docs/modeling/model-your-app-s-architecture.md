@@ -3,12 +3,12 @@ title: Model your app&#39;s architecture
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "UML, modeling architecture"
-author: jillre
-ms.author: jillfra
+- UML, modeling architecture
+author: JoshuaPartlow
+ms.author: joshuapa
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Model your app&#39;s architecture
 To help ensure that your software system or application meets your users' needs, you can create models in Visual Studio as part of your description of the overall structure and behavior of your software system or application. Using models, you can also describe patterns that are used throughout the design. These models help you understand the existing architecture, discuss changes, and communicate your intentions clearly.

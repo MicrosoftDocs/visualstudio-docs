@@ -1,20 +1,20 @@
 ---
-title: "How to: Specify build events (C#)"
+title: 'How to: Specify build events (C#)'
 ms.date: 03/21/2019
 ms.technology: vs-ide-compile
 ms.topic: conceptual
 helpviewer_keywords:
-  - "pre-build events"
-  - "events [Visual Studio], builds"
-  - "post-build events"
-  - "build events [Visual Studio]"
-  - "builds [Visual Studio], events"
+- pre-build events
+- events [Visual Studio], builds
+- post-build events
+- build events [Visual Studio]
+- builds [Visual Studio], events
 ms.assetid: b4ce1ad9-5215-4b6f-b6a2-798b249aa335
-author: ghogen
-ms.author: ghogen
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "dotnet"
+- dotnet
 ---
 # How to: Specify build events (C#)
 

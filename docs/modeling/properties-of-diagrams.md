@@ -3,14 +3,14 @@ title: Properties of diagrams
 ms.date: 10/31/2018
 ms.topic: reference
 f1_keywords:
-  - "vs.dsltools.dsldesigner.dsldiagram"
+- vs.dsltools.dsldesigner.dsldiagram
 helpviewer_keywords:
-  - "Domain-Specific Language, diagram"
-author: jillre
-ms.author: jillfra
+- Domain-Specific Language, diagram
+author: JoshuaPartlow
+ms.author: joshuapa
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Properties of diagrams
 You can set properties that specify how diagrams will appear in the generated designer. For example, you can specify a default color for text in the diagram.

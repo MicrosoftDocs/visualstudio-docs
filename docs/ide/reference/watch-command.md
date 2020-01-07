@@ -3,16 +3,16 @@ title: Watch Command
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "debug.watch"
+- debug.watch
 helpviewer_keywords:
-  - "Watch command"
-  - "Debug.Watch command"
+- Watch command
+- Debug.Watch command
 ms.assetid: aa02e647-d9f5-4905-a651-52a8df595795
-author: jillre
-ms.author: jillfra
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Watch Command
 Creates and opens a specified instance of a **Watch** window. You can use a **Watch** window to calculate the values of variables, expressions, and registers, to edit these values, and to save the results.

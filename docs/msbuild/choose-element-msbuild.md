@@ -1,24 +1,24 @@
 ---
-title: "Choose Element (MSBuild) | Microsoft Docs"
-ms.date: "03/13/2017"
-ms.topic: "reference"
+title: Choose Element (MSBuild) | Microsoft Docs
+ms.date: 03/13/2017
+ms.topic: reference
 f1_keywords:
-  - "http://schemas.microsoft.com/developer/msbuild/2003#Choose"
+- http://schemas.microsoft.com/developer/msbuild/2003#Choose
 dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
-  - "xml"
+- VB
+- CSharp
+- C++
+- jsharp
+- xml
 helpviewer_keywords:
-  - "<Choose> Element [MSBuild]"
-  - "Choose Element [MSBuild]"
+- <Choose> Element [MSBuild]
+- Choose Element [MSBuild]
 ms.assetid: 7b8b025a-d944-4f5c-9018-c89fc2ef146d
-author: mikejo5000
-ms.author: mikejo
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Choose element (MSBuild)
 Evaluates child elements to select one set of `ItemGroup` elements and/or `PropertyGroup` elements to evaluate.

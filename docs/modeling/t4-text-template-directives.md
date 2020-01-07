@@ -3,17 +3,17 @@ title: T4 Text Template Directives
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "text templates, import directive"
-  - "text templates, include directive"
-  - "text templates, assembly directive"
-  - "text templates, output directive"
-  - "text templates, directives"
-  - "text templates, template directive"
-author: jillre
-ms.author: jillfra
+- text templates, import directive
+- text templates, include directive
+- text templates, assembly directive
+- text templates, output directive
+- text templates, directives
+- text templates, template directive
+author: JoshuaPartlow
+ms.author: joshuapa
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # T4 Text Template Directives
 

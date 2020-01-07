@@ -3,15 +3,15 @@ title: -Upgrade (devenv.exe)
 ms.date: 12/10/2018
 ms.topic: reference
 helpviewer_keywords:
-  - "/upgrade Devenv switch"
-  - "Devenv, /upgrade switch"
-  - "upgrade Devenv switch"
+- /upgrade Devenv switch
+- Devenv, /upgrade switch
+- upgrade Devenv switch
 ms.assetid: 3468045c-5cc9-4157-9a9d-622452145d27
-author: jillre
-ms.author: jillfra
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # /Upgrade (devenv.exe)
 

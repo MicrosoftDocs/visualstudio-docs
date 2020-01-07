@@ -1,15 +1,15 @@
 ---
 title: Increase your productivity for .NET development
-description: "An overview of navigation, code analysis, unit testing, and other features to help you write better .NET code faster."
-author: mikadumont
+description: An overview of navigation, code analysis, unit testing, and other features to help you write better .NET code faster.
+author: TerryGLee
 ms.author: tglee
 manager: jillfra
 ms.date: 11/21/2019
 ms.topic: conceptual
 helpviewer_keywords:
-  - "editor"
+- editor
 ms.workload:
-  - "dotnet"
+- dotnet
 ---
 # Visual Studio productivity guide for C# developers
 

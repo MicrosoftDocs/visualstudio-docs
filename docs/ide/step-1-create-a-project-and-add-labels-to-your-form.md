@@ -1,5 +1,5 @@
 ---
-title: "Step 1: Create a project and add labels to your form"
+title: 'Step 1: Create a project and add labels to your form'
 ms.date: 10/15/2019
 ms.topic: tutorial
 ms.prod: visual-studio-windows
@@ -9,7 +9,7 @@ author: TerryGLee
 ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Step 1: Create a project and add labels to your form
 

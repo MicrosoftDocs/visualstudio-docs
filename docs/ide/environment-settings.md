@@ -2,11 +2,11 @@
 title: Environment settings
 ms.date: 11/21/2018
 ms.topic: conceptual
-author: jillre
-ms.author: jillfra
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Environment settings for Visual Studio
 

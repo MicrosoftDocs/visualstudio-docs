@@ -3,16 +3,16 @@ title: .NET language conventions for EditorConfig
 ms.date: 09/23/2019
 ms.topic: reference
 dev_langs:
-  - "CSharp"
-  - "VB"
+- CSharp
+- VB
 helpviewer_keywords:
-  - "language code style rules [EditorConfig]"
-author: jillre
-ms.author: jillfra
+- language code style rules [EditorConfig]
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "dotnet"
-  - "dotnetcore"
+- dotnet
+- dotnetcore
 ---
 # Language conventions
 
