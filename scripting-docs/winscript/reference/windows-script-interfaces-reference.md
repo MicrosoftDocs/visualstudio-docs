@@ -30,5 +30,5 @@ The following sections cover the Windows Script interfaces.
   
  [Dispatch Extension Interfaces](../../winscript/reference/dispatch-extension-interfaces.md)  
   
-## See Also  
+## See also  
  [Windows Script Interfaces](../../winscript/windows-script-interfaces.md)

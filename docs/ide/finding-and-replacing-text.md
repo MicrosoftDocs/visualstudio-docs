@@ -3,33 +3,33 @@ title: Find and replace text, and multi-caret selection
 ms.date: 08/14/2018
 ms.topic: conceptual
 f1_keywords:
-  - "vs.find"
-  - "vs.findreplacecontrol"
-  - "vs.findreplace.findsymbol"
-  - "vs.findreplace.symbol"
-  - "findresultswindow"
-  - "vs.findreplace.quickreplace"
-  - "vs.findsymbol"
-  - "vs.findresults1"
-  - "vs,findsymbolwindow"
-  - "vs.findreplace.quickfind"
-  - "vs.lookin"
-  - "vs.replace"
+- vs.find
+- vs.findreplacecontrol
+- vs.findreplace.findsymbol
+- vs.findreplace.symbol
+- findresultswindow
+- vs.findreplace.quickreplace
+- vs.findsymbol
+- vs.findresults1
+- vs,findsymbolwindow
+- vs.findreplace.quickfind
+- vs.lookin
+- vs.replace
 helpviewer_keywords:
-  - "text searches"
-  - "Replace in Files dialog box"
-  - "Find in Files dialog box"
-  - "text searches, finding and replacing text"
-  - "text, finding and replacing"
-  - "find and replace"
-  - "find text"
-  - "replace text"
-  - "multi-caret selection"
-author: gewarren
-ms.author: gewarren
+- text searches
+- Replace in Files dialog box
+- Find in Files dialog box
+- text searches, finding and replacing text
+- text, finding and replacing
+- find and replace
+- find text
+- replace text
+- multi-caret selection
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Find and replace text
 

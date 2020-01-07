@@ -46,6 +46,8 @@
       href: using-breakpoints.md
     - name: Troubleshooting breakpoints
       href: troubleshooting-breakpoints.md
+    - name: Troubleshooting C# data breakpoints
+      href: troubleshoot-data-breakpoint-errors.md
   - name: Data inspection
     items:
     - name: Inspect data in debugger windows
@@ -239,7 +241,7 @@
       - name: Custom views (managed)
         items:
         - name: Create custom views of managed objects
-          href: create-custom-views-of-dot-managed-objects.md
+          href: create-custom-views-of-managed-objects.md
         - name: Tell the debugger what to show
           href: using-the-debuggerdisplay-attribute.md
         - name: Tell the debugger what type to show
@@ -434,6 +436,10 @@
           href: deploy-windows-store-apps-from-visual-studio.md
       - name: Debug an installed app package
         href: debug-installed-app-package.md
+      - name: Inspect XAML properties while debugging
+        href: inspect-xaml-properties-while-debugging.md
+      - name: Write and debug running XAML code
+        href: xaml-hot-reload.md
       - name: Debug XAML in Blend
         href: ../xaml-tools/debug-xaml-in-blend.md?toc=/visualstudio/debugger/toc.json
       - name: HTML and CSS
@@ -490,6 +496,10 @@
         items:
         - name: Debug WPF
           href: debugging-wpf.md
+        - name: Inspect XAML properties while debugging
+          href: inspect-xaml-properties-while-debugging.md
+        - name: Write and debug running XAML code
+          href: xaml-hot-reload.md
         - name: Use the WPF Tree Visualizer
           href: how-to-use-the-wpf-tree-visualizer.md
         - name: Display WPF trace information
@@ -646,18 +656,8 @@
         href: javascript-console-commands.md
       - name: Keyboard shortcuts (HTML and JavaScript)
         href: keyboard-shortcuts-html-and-javascript.md
-      - name: Client-side scripts
-        items:
-        - name: Client-side script debugging
-          href: client-side-script-debugging.md
-        - name: Limitations on script debugging
-          href: limitations-on-script-debugging.md
-        - name: Attach (script)
-          items:
-          - name: Attach to script
-            href: how-to-attach-to-script.md
-          - name: "Warning: Script debugging disabled"
-            href: warning-script-debugging-disabled.md
+      - name: "Warning: Script debugging disabled"
+        href: warning-script-debugging-disabled.md
     - name: WCF services
       items:
       - name: Debug WCF services

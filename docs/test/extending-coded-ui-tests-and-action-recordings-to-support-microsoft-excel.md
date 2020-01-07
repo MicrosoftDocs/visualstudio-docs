@@ -1,12 +1,12 @@
 ---
-title: "Extend Coded UI Tests and Action Recordings"
+title: Extend Coded UI Tests and Action Recordings
 ms.date: 11/04/2016
 ms.topic: conceptual
-ms.author: gewarren
+ms.author: mikejo
 manager: jillfra
 ms.workload:
-  - "multiple"
-author: gewarren
+- multiple
+author: mikejo5000
 ---
 # Extend coded UI tests and action recordings
 

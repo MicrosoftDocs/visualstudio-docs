@@ -3,16 +3,16 @@ title: Import and Export Settings command
 ms.date: 11/21/2018
 ms.topic: reference
 f1_keywords:
-  - "Tools.ImportandExportSettings"
+- Tools.ImportandExportSettings
 helpviewer_keywords:
-  - "Tools.ImportandExportSettings"
-  - "Import and Export Settings command"
+- Tools.ImportandExportSettings
+- Import and Export Settings command
 ms.assetid: 94a06468-a44d-403d-a931-77bbc9d06e56
-author: gewarren
-ms.author: gewarren
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Import and Export Settings command
 

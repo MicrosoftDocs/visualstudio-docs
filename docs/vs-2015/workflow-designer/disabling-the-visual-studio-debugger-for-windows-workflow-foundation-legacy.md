@@ -10,8 +10,8 @@ helpviewer_keywords:
   - "workflow debugger, disabling"
 ms.assetid: 9da96d0e-f941-4fa9-a1a5-6bab50adfec9
 caps.latest.revision: 6
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # Disabling the Visual Studio Debugger for Windows Workflow Foundation (Legacy)

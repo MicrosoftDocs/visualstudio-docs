@@ -3,20 +3,20 @@ title: AutoRecover, Environment, Options Dialog Box
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "VS.DialogAutoRestore"
-  - "VS.ToolsOptionsPages.Environment.AutoRecover"
-  - "VS.ToolsOptionsPages.Environment.Auto_Save_and_Restore"
+- VS.DialogAutoRestore
+- VS.ToolsOptionsPages.Environment.AutoRecover
+- VS.ToolsOptionsPages.Environment.Auto_Save_and_Restore
 helpviewer_keywords:
-  - "files, recovering"
-  - "AutoRecover page"
-  - "saving files, automatically"
-  - "files, saving automatically"
+- files, recovering
+- AutoRecover page
+- saving files, automatically
+- files, saving automatically
 ms.assetid: 397e5e44-4bbe-4289-94d1-642b466c9111
-author: gewarren
-ms.author: gewarren
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # AutoRecover, Environment, Options dialog box
 

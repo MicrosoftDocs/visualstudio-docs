@@ -2,11 +2,11 @@
 title: Generating Code from a Domain-Specific Language
 ms.date: 11/04/2016
 ms.topic: conceptual
-author: gewarren
-ms.author: gewarren
+author: JoshuaPartlow
+ms.author: joshuapa
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Generating Code from a Domain-Specific Language
 

@@ -1,18 +1,18 @@
 ---
-title: "MSBuild Toolset (ToolsVersion) | Microsoft Docs"
-ms.date: "01/31/2018"
-ms.topic: "conceptual"
+title: MSBuild Toolset (ToolsVersion) | Microsoft Docs
+ms.date: 01/31/2018
+ms.topic: conceptual
 helpviewer_keywords:
-  - "MSBuild, multitargeting"
-  - "targeting a specific .NET framework [MSBuild]"
-  - "MSBuild, targeting a specific .NET framework"
-  - "multitargeting [MSBuild]"
+- MSBuild, multitargeting
+- targeting a specific .NET framework [MSBuild]
+- MSBuild, targeting a specific .NET framework
+- multitargeting [MSBuild]
 ms.assetid: 40040ee7-4620-4043-a6d8-ccba921421d1
-author: mikejo5000
-ms.author: mikejo
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # MSBuild Toolset (ToolsVersion)
 

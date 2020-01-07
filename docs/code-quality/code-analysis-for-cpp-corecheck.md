@@ -282,5 +282,5 @@ The following warnings are present in an early experimental rule set of the core
 - 26425 ASSIGNING_TO_STATIC
 - 26499 NO_LIFETIME_TRACKING
 
-## See Also
+## See also
 [Using the C++ Core Guidelines Checkers](using-the-cpp-core-guidelines-checkers.md)

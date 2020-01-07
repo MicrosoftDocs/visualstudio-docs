@@ -8,8 +8,8 @@ f1_keywords:
   - "CA2134"
 ms.assetid: 3b17e487-0326-442e-90e1-dc0ba9cdd3f2
 caps.latest.revision: 11
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: "wpickett"
 ---
 # CA2134: Methods must keep consistent transparency when overriding base methods

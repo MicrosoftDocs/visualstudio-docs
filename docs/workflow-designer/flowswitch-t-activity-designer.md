@@ -1,18 +1,18 @@
 ---
-title: "Workflow Designer - FlowSwitch<T> Activity Designer"
+title: Workflow Designer - FlowSwitch<T> Activity Designer
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "System.Activities.Core.Presentation.FlowSwitchLink.UI"
-  - "System.Activities.Statements.FlowSwitch`1.UI"
-  - "System.Activities.Core.Presentation.FlowSwitchLink`1.UI"
-  - "System.Activities.Core.Presentation.FlowSwitchLinkIdentifier.UI"
+- System.Activities.Core.Presentation.FlowSwitchLink.UI
+- System.Activities.Statements.FlowSwitch`1.UI
+- System.Activities.Core.Presentation.FlowSwitchLink`1.UI
+- System.Activities.Core.Presentation.FlowSwitchLinkIdentifier.UI
 ms.assetid: 5b9c5afe-7499-4ee8-8c33-28aff14bde07
-author: gewarren
-ms.author: gewarren
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # FlowSwitch\<T> Activity Designer
 

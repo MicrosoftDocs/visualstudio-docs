@@ -1,15 +1,15 @@
 ---
-title: "Workflow Designer - Transition Activity Designer"
+title: Workflow Designer - Transition Activity Designer
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "System.Activities.Statements.Transition.UI"
+- System.Activities.Statements.Transition.UI
 ms.assetid: f6e8b5cc-7fb8-4699-9703-f3c9fc7cc316
-ms.author: gewarren
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
-author: gewarren
+- multiple
+author: TerryGLee
 ---
 # Transition Activity Designer
 

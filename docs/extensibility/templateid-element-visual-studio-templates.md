@@ -53,6 +53,6 @@ Specifies an identifier for an item template that is categorized into a group of
 
  The value of the `TemplateID` element is used along with project system registration (HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\11.0\Projects\\) to filter templates that appear in the **Add New Item** dialog box.
 
-## See Also
+## See also
 - [Visual Studio Template Schema Reference](../extensibility/visual-studio-template-schema-reference.md)
 - [Creating Project and Item Templates](../ide/creating-project-and-item-templates.md)

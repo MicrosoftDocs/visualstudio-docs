@@ -9,8 +9,8 @@ helpviewer_keywords:
   - "custom build steps, types of builds"
 ms.assetid: c7958821-285f-4e28-9e7a-b5d8b40336a1
 caps.latest.revision: 30
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # Compiling and Building in Visual Studio
@@ -44,7 +44,7 @@ You can use Visual Studio to build applications and to create assemblies and exe
 
 - [Specify custom pre-compile and post-compile actions for a build](../ide/specifying-custom-build-events-in-visual-studio.md).
 
-- Improve build performance by using parallel builds. For more information, see [Building Multiple Projects in Parallel](../msbuild/building-multiple-projects-in-parallel-with-msbuild.md) or the blog post [Tuning C++ build parallelism](http://blogs.msdn.com/b/msbuild/archive/2010/03/08/tuning-c-build-parallelism-in-vs2010.aspx).
+- Improve build performance by using parallel builds. For more information, see [Building Multiple Projects in Parallel](../msbuild/building-multiple-projects-in-parallel-with-msbuild.md) or the blog post [Tuning C++ build parallelism](https://blogs.msdn.microsoft.com/msbuild/2010/03/07/tuning-c-build-parallelism-in-vs2010/).
 
 ## See Also
  [Walkthrough: Building an Application](../ide/walkthrough-building-an-application.md)

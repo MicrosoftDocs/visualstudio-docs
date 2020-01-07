@@ -3,10 +3,10 @@ title: Record Screen and Voice During Tests
 ms.date: 10/03/2016
 ms.topic: conceptual
 helpviewer_keywords:
- - "test settings, recording desktop video"
+- test settings, recording desktop video
 ms.assetid: 2cefe8c2-430a-4cb4-bbe0-f3edb2e5bc03
-author: gewarren
-ms.author: gewarren
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ---
 # How to: Include recordings of the screen and voice during tests using test settings

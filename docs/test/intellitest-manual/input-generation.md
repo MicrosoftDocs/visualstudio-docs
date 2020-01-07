@@ -1,14 +1,14 @@
 ---
-title: "Dynamic symbolic execution | Microsoft IntelliTest Developer Test Tool"
+title: Dynamic symbolic execution | Microsoft IntelliTest Developer Test Tool
 ms.date: 05/02/2017
 ms.topic: conceptual
 helpviewer_keywords:
-  - "IntelliTest, Dynamic symbolic execution"
-ms.author: gewarren
+- IntelliTest, Dynamic symbolic execution
+ms.author: mikejo
 manager: jillfra
 ms.workload:
-  - "multiple"
-author: gewarren
+- multiple
+author: mikejo5000
 ---
 # Input generation using dynamic symbolic execution
 

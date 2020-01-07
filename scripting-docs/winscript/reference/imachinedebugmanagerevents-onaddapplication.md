@@ -47,6 +47,6 @@ HRESULT onAddApplication(
 ## Remarks  
  This method indicates that an application was added to the running application list.  
   
-## See Also  
+## See also  
  [IMachineDebugManagerEvents Interface](../../winscript/reference/imachinedebugmanagerevents-interface.md)   
  [IMachineDebugManagerEvents::onRemoveApplication](../../winscript/reference/imachinedebugmanagerevents-onremoveapplication.md)

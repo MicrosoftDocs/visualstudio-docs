@@ -33,5 +33,5 @@ HRESULT Shutdown(
 ## Return Value  
  The return value of this method is ignored by the scripting engine.  
   
-## See Also  
+## See also  
  [IActiveScriptProfilerCallback Interface](../../winscript/reference/iactivescriptprofilercallback-interface.md)

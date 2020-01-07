@@ -3,8 +3,8 @@ title: You have selected a database object from an unsupported database provider
 ms.date: 11/04/2016
 ms.topic: reference
 ms.assetid: c0f1298e-31aa-471e-ae19-1bafffd2ae40
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "data-storage"

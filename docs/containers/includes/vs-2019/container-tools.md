@@ -9,7 +9,7 @@ ms.technology: vs-azure
 ms.topic: include
 ---
 
-With Visual Studio, you can easily build, debug, and run containerized ASP.NET Core apps and publish them to Azure Container Registry (ACR), Docker Hub, Azure App Service, or your own container registry. In this article, we'll publish to ACR.
+With Visual Studio, you can easily build, debug, and run containerized .NET, ASP.NET, and ASP.NET Core apps and publish them to Azure Container Registry (ACR), Docker Hub, Azure App Service, or your own container registry. In this article, we'll publish an ASP.NET Core app to ACR.
 
 ## Prerequisites
 
@@ -68,25 +68,19 @@ Select **Docker** from the debug drop-down in the toolbar, and start debugging t
 
 The **Container Tools** option in the **Output** window shows what actions are taking place.
 
-Open the **Package Manager Console** (PMC) from the menu **Tools**> NuGet Package Manager, **Package Manager Console**.
+## Containers window
 
-The resulting Docker image of the app is tagged as *dev*. The image is based on the *2.2-aspnetcore-runtime* tag of the *microsoft/dotnet* base image. Run the `docker images` command in the **Package Manager Console** (PMC) window. The images on the machine are displayed:
+If you have Visual Studio 2019 version 16.4 or later, you can use the **Containers** window to view running containers on your machine, as well as images that you have available.
 
-```console
-REPOSITORY        TAG                     IMAGE ID      CREATED         SIZE
-hellodockertools  dev                     d72ce0f1dfe7  30 seconds ago  255MB
-microsoft/dotnet  2.2-aspnetcore-runtime  fcc3887985bb  6 days ago      255MB
-```
+Open the **Containers** window by using the search box in the IDE (press **Ctrl**+**Q** to use it), type in `container`, and choose the **Containers** window from the list.
 
-> [!NOTE]
-> The **dev** image does not contain the app binaries and other content, as **Debug** configurations use volume mounting to provide the iterative edit and debug experience. To create a production image containing all contents, use the **Release** configuration.
+You can mount the **Containers** window in a convenient place, such as below the editor, by moving it around and following the window placement guides.
 
-Run the `docker ps` command in PMC. Notice the app is running using the container:
+In the window, find your container and step through each tab to view the environment variables, port mappings, logs, and the filesystem.
 
-```console
-CONTAINER ID        IMAGE                  COMMAND               CREATED             STATUS              PORTS                                           NAMES
-cf5d2ef5f19a        hellodockertools:dev   "tail -f /dev/null"   2 minutes ago       Up 2 minutes        0.0.0.0:52036->80/tcp, 0.0.0.0:44342->443/tcp   priceless_cartwright
-```
+![Screenshot of Containers window](../../media/overview/vs-2019/container-tools-window.png)
+
+For more information, see [View and diagnose containers and images in Visual Studio](../../view-and-diagnose-containers.md).
 
 ## Publish Docker images
 

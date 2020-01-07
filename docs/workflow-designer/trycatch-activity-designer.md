@@ -1,16 +1,16 @@
 ---
-title: "Workflow Designer - TryCatch Activity Designer"
+title: Workflow Designer - TryCatch Activity Designer
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "System.Activities.Statements.TryCatch.UI"
-  - "System.Activities.Statements.Catch`1.UI"
+- System.Activities.Statements.TryCatch.UI
+- System.Activities.Statements.Catch`1.UI
 ms.assetid: 02a326c2-4009-442f-b7cb-e42121fd2992
-author: gewarren
-ms.author: gewarren
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # TryCatch Activity Designer
 

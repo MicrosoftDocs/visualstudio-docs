@@ -3,16 +3,16 @@ title: Toolbox window
 ms.date: 01/18/2018
 ms.topic: reference
 f1_keywords:
-  - "vs.toolbox.general"
-  - "vs.toolbox"
+- vs.toolbox.general
+- vs.toolbox
 helpviewer_keywords:
-  - "Toolbox [Visual Studio]"
-  - "custom controls [Visual Studio]"
-author: gewarren
-ms.author: gewarren
+- Toolbox [Visual Studio]
+- custom controls [Visual Studio]
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Toolbox
 
@@ -55,7 +55,7 @@ You can rearrange the items in a **Toolbox** tab or add custom tabs and items by
 
 ## Create and distribute custom Toolbox controls
 
-You can create custom **Toolbox** controls, starting either with a project template that's based on [Windows Presentation Foundation](../../extensibility/creating-a-wpf-toolbox-control.md) or on [Windows Forms](../../extensibility/creating-a-windows-forms-toolbox-control.md). You can then distribute your custom control to your teammates, or publish it on the web by using the [Toolbox Controls Installer](http://download.microsoft.com/download/8/3/6/836657BD-9CCB-4ED4-B9D2-FB769473B284/TCI_whitepaper.docx).
+You can create custom **Toolbox** controls, starting either with a project template that's based on [Windows Presentation Foundation](../../extensibility/creating-a-wpf-toolbox-control.md) or on [Windows Forms](../../extensibility/creating-a-windows-forms-toolbox-control.md). You can then distribute your custom control to your teammates, or publish it on the web by using the [Toolbox Controls Installer](https://download.microsoft.com/download/8/3/6/836657BD-9CCB-4ED4-B9D2-FB769473B284/TCI_whitepaper.docx).
 
 ## Help on Toolbox tabs
 

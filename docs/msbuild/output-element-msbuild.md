@@ -1,23 +1,23 @@
 ---
-title: "Output Element (MSBuild) | Microsoft Docs"
-ms.date: "03/13/2017"
-ms.topic: "reference"
+title: Output Element (MSBuild) | Microsoft Docs
+ms.date: 03/13/2017
+ms.topic: reference
 f1_keywords:
-  - "http://schemas.microsoft.com/developer/msbuild/2003#Output"
+- http://schemas.microsoft.com/developer/msbuild/2003#Output
 dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
+- VB
+- CSharp
+- C++
+- jsharp
 helpviewer_keywords:
-  - "<Output> Element [MSBuild]"
-  - "Output Element [MSBuild]"
+- <Output> Element [MSBuild]
+- Output Element [MSBuild]
 ms.assetid: 34bc7cd1-efd3-4b57-b691-4584eeb6a0e9
-author: mikejo5000
-ms.author: mikejo
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Output element (MSBuild)
 Stores task output values in items and properties.

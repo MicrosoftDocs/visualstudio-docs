@@ -2,11 +2,11 @@
 title: Advanced features
 ms.date: 06/01/2018
 ms.topic: conceptual
-author: gewarren
-ms.author: gewarren
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Features of Visual Studio
 
@@ -62,7 +62,7 @@ For more information, see [Move to the cloud With Visual Studio and Azure](https
 
 ## Create apps for the web
 
-The web drives our modern world, and Visual Studio can help you write apps for it. You can create web apps using ASP.NET, Node.js, Python, JavaScript, and TypeScript. Visual Studio understands web frameworks like Angular, jQuery, Express, and more. ASP.NET Core and .NET Core run on Windows, Mac, and Linux operating systems. [ASP.NET Core](http://www.asp.net/core/overview) is a major update to MVC, WebAPI and SignalR, and runs on Windows, Mac, and Linux.  ASP.NET Core has been designed from the ground up to provide you with a lean and composable .NET stack for building modern cloud-based web apps and services.
+The web drives our modern world, and Visual Studio can help you write apps for it. You can create web apps using ASP.NET, Node.js, Python, JavaScript, and TypeScript. Visual Studio understands web frameworks like Angular, jQuery, Express, and more. ASP.NET Core and .NET Core run on Windows, Mac, and Linux operating systems. [ASP.NET Core](https://dotnet.microsoft.com/learn/aspnet/what-is-aspnet-core) is a major update to MVC, WebAPI and SignalR, and runs on Windows, Mac, and Linux.  ASP.NET Core has been designed from the ground up to provide you with a lean and composable .NET stack for building modern cloud-based web apps and services.
 
 For more information, see [Modern web tooling](https://visualstudio.microsoft.com/vs/modern-web-tooling/).
 

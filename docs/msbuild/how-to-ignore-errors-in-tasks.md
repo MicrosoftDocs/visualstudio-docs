@@ -1,13 +1,13 @@
 ---
-title: "How to: Ignore Errors in Tasks | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: 'How to: Ignore Errors in Tasks | Microsoft Docs'
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "MSBuild, ignoring errors"
-  - "ContinueOnError attribute [MSBuild]"
+- MSBuild, ignoring errors
+- ContinueOnError attribute [MSBuild]
 ms.assetid: e2f1ca4f-787b-44bd-bc64-81a036025e96
-author: mikejo5000
-ms.author: mikejo
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ---
 # How to: Ignore errors in tasks
@@ -24,15 +24,17 @@ The `ContinueOnError` attribute can contain one of the following values:
 
 - **ErrorAndStop** or **false** (default). When a task fails, the remaining tasks in the `Target` element and the build aren't executed, and the entire `Target` element and the build is considered to have failed.
 
-  Versions of the .NET Framework before 4.5 supported only the `true` and `false` values.
+Versions of the .NET Framework before 4.5 supported only the `true` and `false` values.
 
-  The default value of `ContinueOnError` is `ErrorAndStop`. If you set the attribute to `ErrorAndStop`, you make the behavior explicit to anyone who reads the project file.
+The default value of `ContinueOnError` is `ErrorAndStop`. If you set the attribute to `ErrorAndStop`, you make the behavior explicit to anyone who reads the project file.
 
 #### To ignore an error in a task
 
-- Use the `ContinueOnError` attribute of the task. For example:
+Use the `ContinueOnError` attribute of the task. For example:
 
-    `<Delete Files="@(Files)" ContinueOnError="WarnAndContinue"/>`
+```xml
+<Delete Files="@(Files)" ContinueOnError="WarnAndContinue"/>
+```
 
 ## Example
 The following code example illustrates that the `Build` target still runs and the build is considered a success, even if the `Delete` task fails.

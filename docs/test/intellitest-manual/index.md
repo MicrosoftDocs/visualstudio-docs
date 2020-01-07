@@ -1,14 +1,14 @@
 ---
-title: "IntelliTest Reference Manual | Microsoft Developer Test Tools"
+title: IntelliTest Reference Manual | Microsoft Developer Test Tools
 ms.date: 05/02/2017
 ms.topic: conceptual
 helpviewer_keywords:
-  - "IntelliTest Reference Manual, IntelliTest"
-ms.author: gewarren
+- IntelliTest Reference Manual, IntelliTest
+ms.author: mikejo
 manager: jillfra
 ms.workload:
-  - "multiple"
-author: gewarren
+- multiple
+author: mikejo5000
 ---
 # IntelliTest Reference Manual
 

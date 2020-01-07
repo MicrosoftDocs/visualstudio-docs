@@ -29,7 +29,7 @@ The game works well, as long as the player only chooses pairs of icons that don'
 
      The first line of the `if` statement you just added checks whether the icon in the first label that the player chooses is the same as the icon in the second label. If the icons are identical, the program executes the three statements between the curly braces in C# or the three statements within the `if` statement in Visual Basic. The first two statements reset the `firstClicked` and `secondClicked` reference variables so that they no longer keep track of any of the labels. (You may recognize those two statements from the timer's <xref:System.Windows.Forms.Timer.Tick> event handler.) The third statement is a `return` statement, which tells the program to skip the rest of the statements in the method without executing them.
 
-     If programming in Visual C#, you may have noticed that some of the code uses a single equal sign (`=`), while other statements use two equal signs (`==`). Consider why `=` is used in some places but `==` is used in other places.
+     If programming in C#, you may have noticed that some of the code uses a single equal sign (`=`), while other statements use two equal signs (`==`). Consider why `=` is used in some places but `==` is used in other places.
 
      This is a good example that shows the difference. Take a careful look at the code between the parentheses in the `if` statement.
 
@@ -51,15 +51,15 @@ The game works well, as long as the player only chooses pairs of icons that don'
     firstClicked = null;
     ```
 
-     The first of those two statements checks whether two icons are the same. Because two values are being compared, the Visual C# program uses the `==` equality operator. The second statement actually changes the value (called *assignment*), setting the `firstClicked` reference variable equal to `null` to reset it. That's why it uses the `=` assignment operator instead. Visual C# uses `=` to set values, and `==` to compare them. Visual Basic uses `=` for both variable assignment and comparison.
+     The first of those two statements checks whether two icons are the same. Because two values are being compared, the C# program uses the `==` equality operator. The second statement actually changes the value (called *assignment*), setting the `firstClicked` reference variable equal to `null` to reset it. That's why it uses the `=` assignment operator instead. C# uses `=` to set values, and `==` to compare them. Visual Basic uses `=` for both variable assignment and comparison.
 
-2. Save and run the program, and then start choosing icons on the form. If you choose a pair that doesn't match, the timer's Tick event triggers, and both icons disappear. If you choose a matching pair, the new `if` statement executes, and the return statement causes the method to skip the code that starts the timer, so the icons stay visible, as shown in the following picture.
+2. Save and run the program, and then start choosing icons on the form. If you choose a pair that doesn't match, the timer's Tick event triggers, and both icons disappear. If you choose a matching pair, the new `if` statement executes, and the return statement causes the method to skip the code that starts the timer, so the icons stay visible, as shown in the following image.
 
      ![Game that you create in this tutorial](../ide/media/express_finishedgame.png)<br/>
-**Matching game** with visible icon pairs
+***Matching game*** *with visible icon pairs*
 
 ## To continue or review
 
-- To go to the next tutorial step, see [Step 8: Add a method to verify whether the player won](../ide/step-8-add-a-method-to-verify-whether-the-player-won.md).
+- To go to the next tutorial step, see **[Step 8: Add a method to verify whether the player won](../ide/step-8-add-a-method-to-verify-whether-the-player-won.md)**.
 
 - To return to the previous tutorial step, see [Step 6: Add a timer](../ide/step-6-add-a-timer.md).

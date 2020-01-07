@@ -1,23 +1,23 @@
 ---
-title: "Target Element (MSBuild) | Microsoft Docs"
-ms.date: "06/13/2019"
-ms.topic: "reference"
+title: Target Element (MSBuild) | Microsoft Docs
+ms.date: 06/13/2019
+ms.topic: reference
 f1_keywords:
-  - "http://schemas.microsoft.com/developer/msbuild/2003#Target"
+- http://schemas.microsoft.com/developer/msbuild/2003#Target
 dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
+- VB
+- CSharp
+- C++
+- jsharp
 helpviewer_keywords:
-  - "Target element [MSBuild]"
-  - "<Target> element [MSBuild]"
+- Target element [MSBuild]
+- <Target> element [MSBuild]
 ms.assetid: 350f6fc2-86b3-45f2-a31e-ece0e6bd4dca
-author: mikejo5000
-ms.author: mikejo
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Target element (MSBuild)
 Contains a set of tasks for [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] to execute sequentially.
@@ -36,7 +36,7 @@ Contains a set of tasks for [!INCLUDE[vstecmsbuild](../extensibility/internals/i
         BeforeTargets="Targets"
         AfterTargets="Targets"
         DependsOnTargets="DependentTarget"
-        Condition="'String A' == 'String B'">
+        Condition="'String A' == 'String B'"
         Label="Label">
     <Task>... </Task>
     <PropertyGroup>... </PropertyGroup>

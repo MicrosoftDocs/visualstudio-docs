@@ -1,13 +1,13 @@
 ---
-title: "Using the Graphs View Legend to Analyze Load Tests"
+title: Using the Graphs View Legend to Analyze Load Tests
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "Load Test Analyzer, graphs view legend"
-  - "load tests, graphs view legend"
+- Load Test Analyzer, graphs view legend
+- load tests, graphs view legend
 ms.assetid: 0f6ba8e4-1343-419c-8a9f-240cf50efed7
-author: gewarren
-ms.author: gewarren
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ---
 # Use the Graphs view legend to analyze load tests

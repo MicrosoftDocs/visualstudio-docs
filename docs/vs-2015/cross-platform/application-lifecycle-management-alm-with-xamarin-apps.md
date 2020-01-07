@@ -66,7 +66,7 @@ Xamarin enables you to build cross-platform mobile apps targeting Android, iOS, 
   
 |Feature|Supported with Xamarin|Additional Comments|  
 |-------------|----------------------------|-------------------------|  
-|On-premises TFS server|Yes|Build machines must have Xamarin installed and can be linked to an OSX computer to build for iOS. See [Configuring TFS for Xamarin](http://developer.xamarin.com/guides/cross-platform/ci/configuring_tfs/) (Xamarin website)|  
+|On-premises TFS server|Yes|Build machines must have Xamarin installed and can be linked to an OSX computer to build for iOS. See [Configuring TFS for Xamarin](https://docs.microsoft.com/azure/devops/repos/tfvc/overview?view=azure-devops) (Xamarin website)|  
 |On-premises build server linked to Visual Studio Team Services|Yes|See [Build server](https://msdn.microsoft.com/library/2d258a0a-f178-4e93-9da1-eba61151af3c) for instructions.|  
 |Hosted controller service of Visual Studio Team Services|Yes|See [Build your Xamarin app](https://www.visualstudio.com/docs/build/apps/mobile/xamarin).|  
 |Build definitions with pre- and post-scripts|Yes||  
@@ -81,7 +81,7 @@ Xamarin enables you to build cross-platform mobile apps targeting Android, iOS, 
 |Manual testing|Yes||  
 |Test Manager (record and playback tests)|Yes|Windows devices and Android emulators only from Visual Studio. Recording for all devices is possible with [Xamarin Test Recorder](https://www.xamarin.com/test-cloud/recorder).|  
 |Code coverage|n/a||  
-|[Unit Test Your Code](../test/unit-test-your-code.md)|Yes|For Windows and Android targets, the built-in MSTest tools can be used. To run unit tests on Windows, Android, and iOS, Xamarin recommends NUnit. See [Configuring TFS for Xamarin](http://developer.xamarin.com/guides/cross-platform/ci/configuring_tfs/) (Xamarin website).|  
+|[Unit Test Your Code](../test/unit-test-your-code.md)|Yes|For Windows and Android targets, the built-in MSTest tools can be used. To run unit tests on Windows, Android, and iOS, Xamarin recommends NUnit. See [Configuring TFS for Xamarin](https://docs.microsoft.com/azure/devops/repos/tfvc/overview?view=azure-devops) (Xamarin website).|  
 |[Use UI Automation To Test Your Code](../test/use-ui-automation-to-test-your-code.md)|Windows only|Visual Studio's UI test recorder is Windows only. For all platforms, see [Xamarin Test Recorder](https://www.xamarin.com/test-cloud/recorder).|  
   
 ## Improve code quality  
@@ -92,7 +92,7 @@ Xamarin enables you to build cross-platform mobile apps targeting Android, iOS, 
 |[Analyzing Managed Code Quality](../code-quality/analyzing-managed-code-quality-by-using-code-analysis.md)|Yes||  
 |[Finding Duplicate Code by using Code Clone Detection](https://msdn.microsoft.com/library/a97cd5a6-5ffa-4104-9627-8e59e513654d)|Yes||  
 |[Measuring Complexity and Maintainability of Managed Code](../code-quality/measuring-complexity-and-maintainability-of-managed-code.md)|Yes||  
-|[Performance Explorer](../profiling/performance-explorer.md)|No|Use the [Xamarin Profiler](http://developer.xamarin.com/guides/cross-platform/deployment,_testing,_and_metrics/) through Xamarin Studio instead. Note that the Xamarin Profiler is currently in preview and does not yet work for Windows targets.|  
+|[Performance Explorer](../profiling/performance-explorer.md)|No|Use the [Xamarin Profiler](https://docs.microsoft.com/xamarin/cross-platform/deploy-test/) through Xamarin Studio instead. Note that the Xamarin Profiler is currently in preview and does not yet work for Windows targets.|  
 |[Analyze .NET Framework memory issues](../misc/analyze-dotnet-framework-memory-issues.md)|No|Visual Studio tools do not have hooks into the Mono framework for profiling.|  
   
 ## Release management  

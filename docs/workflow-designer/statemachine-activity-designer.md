@@ -1,16 +1,16 @@
 ---
-title: "Workflow Designer - StateMachine Activity Designer"
+title: Workflow Designer - StateMachine Activity Designer
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "StateMachine Designer"
-  - "System.Activities.Statements.StateMachine.UI"
+- StateMachine Designer
+- System.Activities.Statements.StateMachine.UI
 ms.assetid: 474d5fb3-1049-4b3f-bc6b-7524dbbe1672
-ms.author: gewarren
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
-author: gewarren
+- multiple
+author: TerryGLee
 ---
 # StateMachine Activity Designer
 

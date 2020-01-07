@@ -2,7 +2,7 @@
 title: "Create an ASP.NET Core web app in C#"
 description: "Learn how to create a simple Hello World web app in Visual Studio with C# and ASP.NET Core, step-by-step."
 ms.custom: "mvc,seodec18"
-ms.date: 06/06/2019
+ms.date: 11/06/2019
 ms.technology: vs-ide-general
 ms.prod: visual-studio-windows
 ms.topic: quickstart
@@ -104,15 +104,17 @@ Soon after, Visual Studio opens your project file.
 
    ![in the 'Configure your new project' window, name your project 'HelloWorld'](../get-started/csharp/media/vs-2019/csharp-name-your-aspnet-helloworld-project.png)
 
-1. In the **Create a new ASP.NET Core Web Application** window, verify that **ASP.NET Core 2.1** appears in the top drop-down menu. Then, choose **Web Application**, which includes example Razor Pages. Next, choose  **Create**.
+1. In the **Create a new ASP.NET Core Web Application** window, verify that **ASP.NET Core 3.0** appears in the top drop-down menu. Then, choose **Web Application**, which includes example Razor Pages. Next, choose  **Create**.
 
-   ![The 'Create a new ASP.NET Core Web Application' window](../get-started/csharp/media/vs-2019/csharp-create-aspnet-core-razor-pages-app.png)
+   ![The 'Create a new ASP.NET Core Web Application' window](../get-started/csharp/media/vs-2019/csharp-create-aspnet-razor-pages-app.png)
 
    Visual Studio opens your new project.
 
 ::: moniker-end
 
 ## Create and run the app
+
+::: moniker range="vs-2017"
 
 1. In the **Solution Explorer**, expand the **Pages** folder, and then choose **About.cshtml**.
 
@@ -162,6 +164,41 @@ View the following animation to check the work that you completed in the previou
   ![View the animated .gif file that shows how to create and run a simple C# ASP.NET Core web app in Visual Studio](../ide/media/csharp-aspnet-animated-hello-world.gif)
 
 Congratulations on completing this Quickstart! We hope you learned a little bit about C#, ASP.NET Core, and the Visual Studio IDE (integrated development environment).
+
+::: moniker-end
+
+::: moniker range="vs-2019"
+
+1. In the **Solution Explorer**, expand the **Pages** folder, and then choose **Index.cshtml**.
+
+   ![Choose the Index.cshtml file from the Solution Explorer](../ide/media/vs-2019/csharp-aspnet-index-page-cshtml-file.png)
+
+   This file corresponds to a page that's named **Home** in the web app, which runs in a web browser.
+
+   ![The About page in the web app](../ide/media/vs-2019/csharp-aspnet-index-page.png)
+
+   In the editor, you'll see HTML code for the text that appears on the **Home** page.
+
+   ![The HTML code in the Index.cshtml file for the Home page in the Visual Studio editor](../ide/media/vs-2019/csharp-aspnet-index-cshtml-page.png)
+
+1. Change the "Welcome" text to read "**Hello World!**".
+
+   ![In the Visual Studio editor, change the default HTML code that says Welcome to say Hello World instead](../ide/media/vs-2019/csharp-aspnet-index-cshtml-page-hello-world.png)
+
+1. Choose **IIS Express** or press **Ctrl**+**F5** to run the app and open it in a web browser.
+
+   ![Select the IIS Express button in Visual Studio](../ide/media/vs-2019/csharp-aspnet-generic-iisbutton.png)
+
+   > [!NOTE]
+   > If you get an error message that says, **Unable to connect to web server 'IIS Express'**, or an error message that mentions an SSL certificate, close Visual Studio. Next, open Visual Studio by using the **Run as administrator** option from the right-click context menu. Then, run the application again.
+
+1. In the web browser, verify that the **Home** page includes your updated text.
+
+   ![View the updated Home page that includes the changes you made](../ide/media/vs-2019/csharp-aspnet-index-page-hello-world.png)
+
+1. Close the web browser.
+
+::: moniker-end
 
 ## Next steps
 

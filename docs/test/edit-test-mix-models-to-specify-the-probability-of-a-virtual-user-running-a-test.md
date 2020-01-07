@@ -1,13 +1,13 @@
 ---
-title: "Editing Text Mix Models"
+title: Editing Text Mix Models
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "load tests, scenarios"
-  - "load tests, virtual users"
+- load tests, scenarios
+- load tests, virtual users
 ms.assetid: e3b7d952-9012-400a-8131-3444390a6066
-author: gewarren
-ms.author: gewarren
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ---
 # Edit test mix models to specify the probability of a virtual user running a test

@@ -50,6 +50,6 @@ HRESULT GetResultAsDebugProperty(
   
  This method returns `S_OK` and `phrResult` returns `E_ABORT` if `Abort` aborts the operation.  
   
-## See Also  
+## See also  
  [IDebugExpression Interface](../../winscript/reference/idebugexpression-interface.md)   
  [IDebugExpression::Abort](../../winscript/reference/idebugexpression-abort.md)

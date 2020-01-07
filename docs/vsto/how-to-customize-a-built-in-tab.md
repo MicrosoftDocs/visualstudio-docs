@@ -37,7 +37,7 @@ ms.workload:
 
      The control ID is the name that uniquely identifies tabs, groups, and controls that are built into Microsoft Office applications.
 
-     For a list of control IDs, see [Office 2010 help files: Office fluent user interface control identifiers](http://go.microsoft.com/fwlink/?LinkID=181052).
+     For a list of control IDs, see [Office 2010 help files: Office fluent user interface control identifiers](https://www.microsoft.com/download/details.aspx?id=6627).
 
 5. From the **Office Ribbon Controls** tab of the **Toolbox**, drag groups onto the tab.
 
@@ -58,7 +58,7 @@ ms.workload:
 
 4. Set the **OfficeId** property to the control ID of a built-in group.
 
-     For a list of control IDs, see [Office 2010 help files: Office fluent user interface control identifiers](http://go.microsoft.com/fwlink/?LinkID=181052).
+     For a list of control IDs, see [Office 2010 help files: Office fluent user interface control identifiers](https://www.microsoft.com/download/details.aspx?id=6627).
 
 ## See also
 - [Ribbon overview](../vsto/ribbon-overview.md)

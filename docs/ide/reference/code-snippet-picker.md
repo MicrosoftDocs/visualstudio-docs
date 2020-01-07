@@ -3,16 +3,16 @@ title: Code Snippet Picker
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "vs.expansionpicker"
+- vs.expansionpicker
 helpviewer_keywords:
-  - "Code Snippet Picker"
-  - "IntelliSense code snippets, Code Snippet Picker"
-  - "code snippets, Code Snippet Picker"
-author: gewarren
-ms.author: gewarren
+- Code Snippet Picker
+- IntelliSense code snippets, Code Snippet Picker
+- code snippets, Code Snippet Picker
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Code Snippet Picker
 

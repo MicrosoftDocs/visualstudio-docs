@@ -3,17 +3,17 @@ title: Use the Task List
 ms.date: 11/04/2016
 ms.topic: conceptual
 f1_keywords:
-  - "TaskListWindow"
-  - "VS.TaskList"
-  - "tasklist"
+- TaskListWindow
+- VS.TaskList
+- tasklist
 helpviewer_keywords:
-  - "task list"
-  - "Visual Studio, task list"
-author: gewarren
-ms.author: gewarren
+- task list
+- Visual Studio, task list
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Use the Task List
 

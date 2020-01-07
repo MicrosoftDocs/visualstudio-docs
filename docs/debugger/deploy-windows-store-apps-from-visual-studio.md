@@ -108,8 +108,8 @@ To configure the deployment to automatically start a debugging session when the 
 
 - On the C++ Debug property page, set the **Launch Application** value to **Yes**.
 
-## See Also
+## See also
 
 - [Advanced remote deployment options](/windows/uwp/debug-test-perf/deploying-and-debugging-uwp-apps#advanced-remote-deployment-options)
 - [Debug an installed app package](../debugger/debug-installed-app-package.md)
-- [Run apps from Visual Studio](/visualstudio/debugger/debugging-windows-store-and-windows-universal-apps)
+- [Run apps from Visual Studio](debugging-windows-store-and-windows-universal-apps.md)

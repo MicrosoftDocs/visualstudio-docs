@@ -43,5 +43,5 @@ HRESULT EnumChildren(
 ## Remarks  
  This method enumerates the child nodes of this application node.  
   
-## See Also  
+## See also  
  [IDebugApplicationNode Interface](../../winscript/reference/idebugapplicationnode-interface.md)

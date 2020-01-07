@@ -40,5 +40,5 @@ HRESULT DisconnectDebugger();
 ## Remarks  
  This method disconnects the current debugger from the application.  
   
-## See Also  
+## See also  
  [IRemoteDebugApplication Interface](../../winscript/reference/iremotedebugapplication-interface.md)

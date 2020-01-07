@@ -3,16 +3,16 @@ title: Code Generation in a Build Process
 ms.date: 03/22/2018
 ms.topic: conceptual
 helpviewer_keywords:
-  - "text templates, build tasks"
-  - "text templates, transforming by using msbuild"
-author: gewarren
-ms.author: gewarren
+- text templates, build tasks
+- text templates, transforming by using msbuild
+author: JoshuaPartlow
+ms.author: joshuapa
 manager: jillfra
 dev_langs:
 - CSharp
 - VB
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Invoke text transformation in the build process
 
@@ -43,7 +43,7 @@ If [your build server](/azure/devops/pipelines/agents/agents) runs on a computer
 - %ProgramFiles(x86)%\Microsoft Visual Studio\2019\Community\Common7\IDE\PublicAssemblies
 
   - Microsoft.VisualStudio.TextTemplating.Modeling.15.0.dll
-  
+
 > [!TIP]
 > If you get a `MissingMethodException` for a Microsoft.CodeAnalysis method when running TextTemplating build targets on a build server, make sure the Roslyn assemblies are in a directory named *Roslyn* that's in the same directory as the build executable (for example, *msbuild.exe*).
 
@@ -110,11 +110,11 @@ There are some properties that you can insert into your project file to control 
     ```
 
      By default, the T4 MSBuild task regenerates an output file if it's older than:
-     
+
      - its template file
      - any files that are included
      - any files that have previously been read by the template or by a directive processor that it uses
-     
+
      This is a more powerful dependency test than is used by the **Transform All Templates** command in Visual Studio, which only compares the dates of the template and output file.
 
 To perform just the text transformations in your project, invoke the TransformAll task:

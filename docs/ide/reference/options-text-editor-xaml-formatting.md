@@ -3,32 +3,32 @@ title: Options, Text Editor, XAML, Formatting
 ms.date: 10/29/2018
 ms.topic: reference
 f1_keywords:
-  - "VS.ToolsOptionsPages.Text_Editor.XAML.Formatting.General"
-  - "VS.ToolsOptionsPages.Text_Editor.XAML.Formatting.Spacing"
+- VS.ToolsOptionsPages.Text_Editor.XAML.Formatting.General
+- VS.ToolsOptionsPages.Text_Editor.XAML.Formatting.Spacing
 helpviewer_keywords:
-  - "element spacing, XAML view settings"
-  - "attribute spacing, XAML view settings"
-  - "XAML view settings, auto-formatting events"
-  - "auto-formatting events, XAML view settings"
-  - "XAML view settings, tag wrapping"
-  - "XAML view settings, auto insert"
-  - "quotation mark style, XAML view settings"
-  - "XAML formatting, WPF Designer"
-  - "XAML view settings, Toolbox"
-  - "XAML view settings, element spacing"
-  - "default view, XAML view settings"
-  - "auto insert, XAML view settings"
-  - "XAML view settings, default view"
-  - "XAML view settings, quotation mark style"
-  - "tag wrapping, XAML view settings"
-  - "WPF Designer, XAML formatting"
-  - "XAML view settings, attribute spacing"
+- element spacing, XAML view settings
+- attribute spacing, XAML view settings
+- XAML view settings, auto-formatting events
+- auto-formatting events, XAML view settings
+- XAML view settings, tag wrapping
+- XAML view settings, auto insert
+- quotation mark style, XAML view settings
+- XAML formatting, WPF Designer
+- XAML view settings, Toolbox
+- XAML view settings, element spacing
+- default view, XAML view settings
+- auto insert, XAML view settings
+- XAML view settings, default view
+- XAML view settings, quotation mark style
+- tag wrapping, XAML view settings
+- WPF Designer, XAML formatting
+- XAML view settings, attribute spacing
 ms.assetid: ad3820b1-0d94-4807-a74c-c3467ed973a2
-author: gewarren
-ms.author: gewarren
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "uwp"
+- uwp
 ---
 # Options, Text Editor, XAML, Formatting
 

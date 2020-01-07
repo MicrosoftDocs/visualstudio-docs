@@ -2,11 +2,11 @@
 title: Insert XML documentation comments
 ms.date: 01/26/2018
 ms.topic: reference
-author: gewarren
-ms.author: gewarren
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "dotnet"
+- dotnet
 ---
 # How to: Insert XML comments for documentation generation
 

@@ -3,28 +3,28 @@ title: Class view, call hierarchy, object browser, code definition window
 ms.date: 09/19/2019
 ms.topic: reference
 f1_keywords:
-  - "vs.documentoutline.window"
-  - "vs.objectbrowser"
-  - "vs.classview"
-  - "VS.CodeDefinitionView"
-  - "VS.CodeDefinitionWindow"
-  - "vs.componentpicker"
-  - "vs.callbrowser"
+- vs.documentoutline.window
+- vs.objectbrowser
+- vs.classview
+- VS.CodeDefinitionView
+- VS.CodeDefinitionWindow
+- vs.componentpicker
+- vs.callbrowser
 helpviewer_keywords:
-  - "document outline window"
-  - "Visual Studio, object browser"
-  - "call hierarchy"
-  - "Visual Studio, document outline window"
-  - "code definition window [Visual Studio]"
-  - "Visual Studio, class view"
-  - "Visual Studio, call hierarchy window"
-  - "class view"
-  - "object browser"
-author: gewarren
-ms.author: gewarren
+- document outline window
+- Visual Studio, object browser
+- call hierarchy
+- Visual Studio, document outline window
+- code definition window [Visual Studio]
+- Visual Studio, class view
+- Visual Studio, call hierarchy window
+- class view
+- object browser
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # View the structure of code using different tool windows
 

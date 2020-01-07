@@ -1,12 +1,12 @@
 ---
-title: "Enable Coded UI Testing of Your Controls"
+title: Enable Coded UI Testing of Your Controls
 ms.date: 11/04/2016
 ms.topic: conceptual
-ms.author: gewarren
+ms.author: mikejo
 manager: jillfra
 ms.workload:
-  - "multiple"
-author: gewarren
+- multiple
+author: mikejo5000
 ---
 # Enable coded UI testing of your controls
 

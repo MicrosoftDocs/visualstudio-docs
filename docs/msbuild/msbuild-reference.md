@@ -1,20 +1,20 @@
 ---
-title: "MSBuild Reference | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "reference"
+title: MSBuild Reference | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: reference
 dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
+- VB
+- CSharp
+- C++
+- jsharp
 helpviewer_keywords:
-  - "MSBuild, reference"
+- MSBuild, reference
 ms.assetid: 093395e1-70da-4f74-b34d-046c5e2b32e8
-author: mikejo5000
-ms.author: mikejo
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # MSBuild reference
 [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] is the build system for [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. The following links lead to topics that contain [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] reference information.
@@ -78,9 +78,9 @@ ms.workload:
 ## See also
 
 - [MSBuild overview](../msbuild/msbuild.md)
-- [Microsoft.Build.Evaluation](https://docs.microsoft.com/dotnet/api/microsoft.build.evaluation)
-- [Microsoft.Build.Execution](https://docs.microsoft.com/dotnet/api/microsoft.build.execution)
-- [Microsoft.Build.Framework](https://docs.microsoft.com/dotnet/api/microsoft.build.framework)
-- [Microsoft.Build.Logging](https://docs.microsoft.com/dotnet/api/microsoft.build.logging)
-- [Microsoft.Build.Tasks](https://docs.microsoft.com/dotnet/api/microsoft.build.tasks)
-- [Microsoft.Build.Utilities](https://docs.microsoft.com/dotnet/api/microsoft.build.utilities)
+- [Microsoft.Build.Evaluation](/dotnet/api/microsoft.build.evaluation)
+- [Microsoft.Build.Execution](/dotnet/api/microsoft.build.execution)
+- [Microsoft.Build.Framework](/dotnet/api/microsoft.build.framework)
+- [Microsoft.Build.Logging](/dotnet/api/microsoft.build.logging)
+- [Microsoft.Build.Tasks](/dotnet/api/microsoft.build.tasks)
+- [Microsoft.Build.Utilities](/dotnet/api/microsoft.build.utilities)

@@ -124,5 +124,5 @@ else
 
  Managed methods that call interfaces of this type should pull the first element out of the [out] array. This element can be treated as if it were a `retval` return value from the corresponding COM interface.
 
-## See Also
+## See also
 - [Interoperating with Unmanaged Code](/dotnet/framework/interop/index)

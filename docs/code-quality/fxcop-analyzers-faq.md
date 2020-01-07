@@ -3,12 +3,12 @@ title: FxCop code analysis and FxCop analyzers
 ms.date: 09/06/2018
 ms.topic: conceptual
 helpviewer_keywords:
-  - "code analysis FAQ"
-author: gewarren
-ms.author: gewarren
+- code analysis FAQ
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ms.workload:
-  - "dotnet"
+- dotnet
 ---
 # Frequently asked questions about FxCop and FxCop analyzers
 

@@ -51,5 +51,5 @@ HRESULT GetStringForVariant(
 ## Remarks  
  This method returns a string that represents the given variant value.  
   
-## See Also  
+## See also  
  [IDebugFormatter Interface](../../winscript/reference/idebugformatter-interface.md)

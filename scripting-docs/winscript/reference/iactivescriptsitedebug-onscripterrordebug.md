@@ -51,5 +51,5 @@ HRESULT OnScriptErrorDebug(
 ## Remarks  
  A smart host can use this method to determine how to handle run-time errors.  
   
-## See Also  
+## See also  
  [IActiveScriptSiteDebug Interface](../../winscript/reference/iactivescriptsitedebug-interface.md)

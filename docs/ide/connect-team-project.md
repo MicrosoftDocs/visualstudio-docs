@@ -2,13 +2,13 @@
 title: Connect to projects in Team Explorer
 ms.date: 12/04/2018
 ms.topic: conceptual
-ms.author: gewarren
-author: gewarren
+ms.author: tglee
+author: TerryGLee
 ms.manager: jillfra
 ---
 # Connect to projects in Team Explorer
 
-Use the **Team Explorer** tool window to coordinate your code efforts with other team members to develop a project, and to manage work that's assigned to you, your team, or your projects. **Team Explorer** connects Visual Studio to Git and GitHub repositories, Team Foundation version control (TFVC) repositories, and projects hosted on [Azure DevOps Services](/azure/devops/user-guide/what-is-azure-devops-services) or an on-premises [Azure DevOps Server](/tfs/index) (formerly known as TFS). You can manage source code, work items, and builds.
+Use the **Team Explorer** tool window to coordinate your code efforts with other team members to develop a project, and to manage work that's assigned to you, your team, or your projects. **Team Explorer** connects Visual Studio to Git and GitHub repositories, Team Foundation version control (TFVC) repositories, and projects hosted on [Azure DevOps Services](/azure/devops/user-guide/what-is-azure-devops-services) or an on-premises [Azure DevOps Server](/azure/devops/index-all) (formerly known as TFS). You can manage source code, work items, and builds.
 
 ![Team Explorer Home page in Visual Studio](media/team-explorer/team-explorer.png)
 

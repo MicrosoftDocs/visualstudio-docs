@@ -1,23 +1,23 @@
 ---
-title: "Delete Task | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "reference"
+title: Delete Task | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: reference
 f1_keywords:
-  - "http://schemas.microsoft.com/developer/msbuild/2003#Delete"
+- http://schemas.microsoft.com/developer/msbuild/2003#Delete
 dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
+- VB
+- CSharp
+- C++
+- jsharp
 helpviewer_keywords:
-  - "Delete task [MSBuild]"
-  - "MSBuild, Delete task"
+- Delete task [MSBuild]
+- MSBuild, Delete task
 ms.assetid: 916bb2e3-3017-4828-ae27-c0b5c99bbb48
-author: mikejo5000
-ms.author: mikejo
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Delete task
 Deletes the specified files.

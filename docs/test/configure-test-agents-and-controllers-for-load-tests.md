@@ -1,11 +1,11 @@
 ---
-title: "Configure test agents and test controllers for load tests"
+title: Configure test agents and test controllers for load tests
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "load tests, test agents and controllers"
-author: gewarren
-ms.author: gewarren
+- load tests, test agents and controllers
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ---
 # Overview of test agents and test controllers for running load tests

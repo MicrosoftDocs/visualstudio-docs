@@ -3,13 +3,13 @@ title: Options, Text Editor, C#, Advanced
 ms.date: 01/16/2019
 ms.topic: reference
 f1_keywords:
-  - "VS.ToolsOptionsPages.Text_Editor.CSharp.Outlining"
-  - "VS.ToolsOptionsPages.Text_Editor.CSharp.Advanced"
-author: gewarren
-ms.author: gewarren
+- VS.ToolsOptionsPages.Text_Editor.CSharp.Outlining
+- VS.ToolsOptionsPages.Text_Editor.CSharp.Advanced
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "dotnet"
+- dotnet
 ---
 # Options, Text Editor, C#, Advanced
 

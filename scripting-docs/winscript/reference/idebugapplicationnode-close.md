@@ -40,5 +40,5 @@ HRESULT Close();
 ## Remarks  
  Typically, the owner of an application calls this method when the application exits.  
   
-## See Also  
+## See also  
  [IDebugApplicationNode Interface](../../winscript/reference/idebugapplicationnode-interface.md)

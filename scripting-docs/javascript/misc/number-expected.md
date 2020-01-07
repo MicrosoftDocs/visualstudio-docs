@@ -22,6 +22,6 @@ You attempted to invoke the **Number.prototype.toString** or **Number.prototype.
   
 - Only invoke the **Number.prototype.toString** or **Number.prototype.valueOf** methods on objects of type **Number**.  
   
-## See Also  
+## See also  
  [Number Object](../../javascript/reference/number-object-javascript.md)   
  [number Property (Error)](../../javascript/reference/number-property-error-javascript.md)

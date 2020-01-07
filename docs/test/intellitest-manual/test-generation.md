@@ -1,14 +1,14 @@
 ---
-title: "Test generation | Microsoft IntelliTest Developer Test Tool"
+title: Test generation | Microsoft IntelliTest Developer Test Tool
 ms.date: 05/02/2017
 ms.topic: conceptual
 helpviewer_keywords:
-  - "IntelliTest, Test generation"
-ms.author: gewarren
+- IntelliTest, Test generation
+ms.author: mikejo
 manager: jillfra
 ms.workload:
-  - "multiple"
-author: gewarren
+- multiple
+author: mikejo5000
 ---
 # Test generation
 

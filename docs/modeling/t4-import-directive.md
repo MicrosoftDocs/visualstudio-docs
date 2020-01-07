@@ -2,11 +2,11 @@
 title: T4 Import Directive
 ms.date: 11/04/2016
 ms.topic: reference
-author: gewarren
-ms.author: gewarren
+author: JoshuaPartlow
+ms.author: joshuapa
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # T4 Import Directive
 
@@ -43,6 +43,6 @@ The file contains: <#=  fileContent #>
 
 - Your DSL's namespace
 
-## See Also
+## See also
 
 - [T4 Assembly Directive](../modeling/t4-assembly-directive.md)

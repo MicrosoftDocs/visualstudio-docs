@@ -3,16 +3,16 @@ title: Add Existing Item Command
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "project.addexistingitem"
+- project.addexistingitem
 helpviewer_keywords:
-  - "File.AddExistingItem command"
-  - "Add Existing Item command"
+- File.AddExistingItem command
+- Add Existing Item command
 ms.assetid: 41f56131-d4c7-4f81-83b7-bdac713ea870
-author: gewarren
-ms.author: gewarren
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Add Existing Item Command
 Adds an existing file to the current solution and opens it.
@@ -47,7 +47,7 @@ This example adds the file, Form1.frm, to the current solution.
 >File.AddExistingItem "C:\public\solution files\Form1.frm"
 ```
 
-## See Also
+## See also
 
 - [Visual Studio Commands](../../ide/reference/visual-studio-commands.md)
 - [Command Window](../../ide/reference/command-window.md)

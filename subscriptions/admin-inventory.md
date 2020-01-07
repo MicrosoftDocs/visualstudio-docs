@@ -26,7 +26,7 @@ Here are some ways to simplify taking inventory of your pre-production environme
 
 ## Next steps
 Learn more about responsibilities for administrators:
-- [Adminstrator responsibilities](admin-responsibilities.md)
+- [Administrator responsibilities](admin-responsibilities.md)
 - [Manage large teams and external contractors](manage-teams.md)
 - [Track user assignments and process orders](assignments-orders.md)
 - Use [Maximum Usage](maximum-usage.md) to track purchase commitments

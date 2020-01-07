@@ -3,16 +3,16 @@ title: C# unit test tutorial
 ms.date: 05/14/2019
 ms.topic: conceptual
 helpviewer_keywords:
-  - "unit tests, walkthrough"
-  - "unit tests, creating"
-  - "unit tests, generating"
-  - "unit tests, running"
-  - "unit tests, authoring"
-ms.author: gewarren
+- unit tests, walkthrough
+- unit tests, creating
+- unit tests, generating
+- unit tests, running
+- unit tests, authoring
+ms.author: mikejo
 manager: jillfra
 ms.workload:
-  - "dotnet"
-author: gewarren
+- dotnet
+author: mikejo5000
 ---
 # Walkthrough: Create and run unit tests for managed code
 

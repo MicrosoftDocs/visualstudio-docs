@@ -39,9 +39,9 @@ This section provides tips on debugging COM applications and ActiveX controls.
  [First look at the debugger](../debugger/debugger-feature-tour.md)
  Provides links to the larger sections of the debugging documentation. Information includes: what's new in the debugger, settings and preparation, breakpoints, handling exceptions, edit and continue, debugging managed code, debugging C++ projects, debugging COM and ActiveX, debugging DLLs, debugging SQL, and the user interface references.
 
-## See Also
+## See also
 
 - [Debugger Security](../debugger/debugger-security.md)
 - [Introduction to COM](/cpp/atl/introduction-to-com)
 - [ActiveX Controls](/cpp/mfc/activex-controls)
-- [SDI Server Applications](../debugger/sdi-server-applications.md)
+- [SDI Server Applications](com-server-and-container-debugging.md)

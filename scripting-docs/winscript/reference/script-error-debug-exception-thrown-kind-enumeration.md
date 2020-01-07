@@ -32,5 +32,5 @@ typedef SCRIPT_ERROR_DEBUG_EXCEPTION_THROWN_KIND
 |ETK_USER_UNHANDLED|0x00000001|The exception isn't handled in user code.|  
 |ETK_UNHANDLED|0x00000002|The exception isn't handled in code.|  
   
-## See Also  
+## See also  
  [IActiveScriptErrorDebug110 Interface](../../winscript/reference/iactivescripterrordebug110-interface.md)

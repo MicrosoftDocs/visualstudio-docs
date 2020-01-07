@@ -3,8 +3,8 @@ title: The property cannot be deleted
 ms.date: 11/04/2016
 ms.topic: reference
 ms.assetid: 55873f74-7834-4ec1-8815-eeeb65618d87
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "data-storage"

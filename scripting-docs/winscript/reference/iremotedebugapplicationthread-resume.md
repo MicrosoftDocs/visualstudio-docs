@@ -43,5 +43,5 @@ HRESULT Resume(
 ## Remarks  
  When this method resumes the thread, it decrements the suspend count.  
   
-## See Also  
+## See also  
  [IRemoteDebugApplicationThread Interface](../../winscript/reference/iremotedebugapplicationthread-interface.md)

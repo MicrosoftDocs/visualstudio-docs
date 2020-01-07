@@ -3,17 +3,17 @@ title: Change editor fonts and colors
 ms.date: 11/26/2018
 ms.topic: conceptual
 helpviewer_keywords:
-  - "editors, fonts"
-  - "text, color"
-  - "text, customizing in editors"
-  - "text, fonts"
-  - "editors, text color"
+- editors, fonts
+- text, color
+- text, customizing in editors
+- text, fonts
+- editors, text color
 ms.assetid: 3f7629d1-1cdf-4046-9a31-0632517f234d
-author: gewarren
-ms.author: gewarren
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # How to: Change fonts and colors for the editor in Visual Studio
 

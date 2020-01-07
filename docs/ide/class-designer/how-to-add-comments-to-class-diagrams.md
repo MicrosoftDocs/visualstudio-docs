@@ -1,19 +1,19 @@
 ---
-title: "How to: Add Comments to Class Diagrams (Class Designer)"
+title: 'How to: Add Comments to Class Diagrams (Class Designer)'
 ms.date: 11/04/2016
 ms.topic: conceptual
 f1_keywords:
-  - "vs.classdesigner.comment"
+- vs.classdesigner.comment
 helpviewer_keywords:
-  - "annotations, class diagrams"
-  - "class diagrams, adding comment shapes"
-  - "comment shapes"
+- annotations, class diagrams
+- class diagrams, adding comment shapes
+- comment shapes
 ms.assetid: d54005d5-a29d-4c4e-b153-feb6e84dd44f
-author: gewarren
-ms.author: gewarren
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # How to: Add comments to class diagrams
 

@@ -3,10 +3,10 @@ title: Turn off code analysis
 ms.date: 10/03/2019
 ms.topic: conceptual
 helpviewer_keywords:
-  - "code analysis, disable"
-  - "disable code analysis"
-author: gewarren
-ms.author: gewarren
+- code analysis, disable
+- disable code analysis
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ---
 # How to disable source code analysis for managed code

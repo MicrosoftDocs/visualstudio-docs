@@ -3,12 +3,12 @@ title: Text Template Control Blocks
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "text templates, template code"
-author: gewarren
-ms.author: gewarren
+- text templates, template code
+author: JoshuaPartlow
+ms.author: joshuapa
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Text Template Control Blocks
 Control blocks let you write code in your text template in order to vary the output. There are three kinds of control blocks, which are distinguished by their opening brackets:

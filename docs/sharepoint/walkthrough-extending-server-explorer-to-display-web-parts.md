@@ -45,9 +45,9 @@ ms.workload:
 
   Knowledge of the following concepts is helpful, but not required, to complete the walkthrough:
 
-- Using the server object model for SharePoint. For more information, see [Using the SharePoint Foundation Server-Side Object Model](http://go.microsoft.com/fwlink/?LinkId=177796).
+- Using the server object model for SharePoint. For more information, see [Using the SharePoint Foundation Server-Side Object Model](/previous-versions/office/developer/sharepoint-2010/ee538251(v=office.14)).
 
-- Web Parts in SharePoint solutions. For more information, see [Web Parts Overview](http://go.microsoft.com/fwlink/?LinkId=177803).
+- Web Parts in SharePoint solutions. For more information, see [Web Parts Overview](/previous-versions/office/ms432401(v=office.14)).
 
 ## Create the projects
  To complete this walkthrough, you must create three projects:

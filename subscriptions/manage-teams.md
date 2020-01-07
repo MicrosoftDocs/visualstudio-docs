@@ -5,7 +5,7 @@ ms.author: lank
 manager: lank
 ms.date: 07/23/2019
 ms.topic: conceptual
-description:  Learn about administrators' responsibilty to manage subscriptions for large teams as well as external contractors.
+description:  Learn about administrators' responsibility to manage subscriptions for large teams as well as external contractors.
 ---
 
 # Large teams and external contractors
@@ -30,7 +30,7 @@ External contractors may bring licenses to engage with your Visual Studio-licens
 
 ## Next steps
 Learn more about responsibilities for administrators:
-- [Adminstrator responsibilities](admin-responsibilities.md)
+- [Administrator responsibilities](admin-responsibilities.md)
 - [Inventory of pre-production environment](admin-inventory.md)
 - [Track user assignments and process orders](assignments-orders.md)
 - Use [Maximum Usage](maximum-usage.md) to track purchase commitments

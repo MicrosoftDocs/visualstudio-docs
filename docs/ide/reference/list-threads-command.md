@@ -3,17 +3,17 @@ title: List Threads Command
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "debug.listthreads"
+- debug.listthreads
 helpviewer_keywords:
-  - "ListThreads command"
-  - "list threads command"
-  - "Debug.ListThreads command"
+- ListThreads command
+- list threads command
+- Debug.ListThreads command
 ms.assetid: 34b665c0-d46f-4c1a-a066-b678eba5ac54
-author: gewarren
-ms.author: gewarren
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # List Threads Command
 Displays a list of the threads in the current program.
@@ -38,7 +38,7 @@ When specified, the `index` argument marks the indicated thread as the current t
 >Debug.ListThreads
 ```
 
-## See Also
+## See also
 
 - [List Call Stack Command](../../ide/reference/list-call-stack-command.md)
 - [List Disassembly Command](../../ide/reference/list-disassembly-command.md)

@@ -1,5 +1,5 @@
 ---
-title: "Step 3: Set your form properties"
+title: 'Step 3: Set your form properties'
 ms.date: 08/30/2019
 ms.assetid: 634ef037-1525-48c8-ac7f-abf04be69376
 ms.topic: tutorial
@@ -9,7 +9,7 @@ author: TerryGLee
 ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Step 3: Set your form properties
 

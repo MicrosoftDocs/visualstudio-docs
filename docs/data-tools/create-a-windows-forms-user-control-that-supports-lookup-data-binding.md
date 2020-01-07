@@ -3,18 +3,18 @@ title: Using lookup tables in data binding - Windows Forms controls| Microsoft D
 ms.date: 11/04/2016
 ms.topic: conceptual
 dev_langs:
-  - "VB"
-  - "CSharp"
+- VB
+- CSharp
 helpviewer_keywords:
-  - "data binding, user controls"
-  - "LookupBindingPropertiesAttribute class, examples"
-  - "user controls [Visual Basic], creating"
+- data binding, user controls
+- LookupBindingPropertiesAttribute class, examples
+- user controls [Visual Basic], creating
 ms.assetid: c48b4d75-ccfc-4950-8b14-ff8adbfe4208
-author: gewarren
-ms.author: gewarren
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "data-storage"
+- data-storage
 ---
 # Create a Windows Forms user control that supports lookup data binding
 

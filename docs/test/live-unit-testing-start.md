@@ -1,14 +1,14 @@
 ---
-title: "Learn how to test your code with Live Unit Test"
+title: Learn how to test your code with Live Unit Test
 ms.date: 08/31/2017
 ms.topic: conceptual
 helpviewer_keywords:
-  - "Live Unit Testing"
-author: gewarren
-ms.author: gewarren
+- Live Unit Testing
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ms.workload:
-  - "dotnet"
+- dotnet
 ---
 # Get started with Live Unit Testing
 

@@ -1,9 +1,9 @@
 ---
 title: "Extending Visual Studio for Mac"
 description: "Visual Studio for Mac's features and functionality can be extended with modules called extension packages. The first part of this guide creates a simple Visual Studio for Mac extension package to insert the date and time into a document. The second part of this guide introduces the fundamentals of the extension package system and some of the core APIs that form the foundation of Visual Studio for Mac."
-author: alanjclark
-ms.author: alcl
-ms.date: 05/07/2019
+author: heiligerdankgesang
+ms.author: dominicn
+ms.date: 12/20/2019
 ms.technology: vs-ide-sdk
 ms.assetid: D5245AB0-8404-426B-B538-F49125E672B2
 ---
@@ -67,7 +67,7 @@ Command Extensions are defined by adding entries to the `/MonoDevelop/Ide/Comman
 
  ```xml
 <Extension path="/MonoDevelop/Ide/Commands/Edit">
-  <command id="DateInserter.DateInserterCommands.InsertDate"
+  <Command id="DateInserter.DateInserterCommands.InsertDate"
             _label="Insert Date"
             _description="Insert the current date"
             defaulthandler="DateInserter.InsertDateHandler" />
@@ -87,7 +87,7 @@ A CommandItem extension that plugs into the `/MonoDevelop/Ide/MainMenu/Edit` ext
 
 ```xml
 <Extension path="/MonoDevelop/Ide/MainMenu/Edit">
-  <commanditem id="DateInserter.DateInserterCommands.InsertDate" />
+  <CommandItem id="DateInserter.DateInserterCommands.InsertDate" />
 </Extension>
 ```
 
@@ -130,7 +130,7 @@ The Command and CommandItem are now tied together - the CommandItem calls the Co
 
 <!--The extension package detailed in the [Walkthrough](~/extending-visual-studio-mac-walkthrough.md) deals with the Text Editor in Visual Studio for Mac, but this is only one of many possible areas for customization. -->
 
-For information on the scope of areas that are available for development, see the [Extension Tree Reference](http://monodevelop.com/Developers/Articles/Extension_Tree_Reference) and the [API Overview](http://monodevelop.com/Developers/Articles/API_Overview). When building advanced extension packages, also refer to [Developer Articles](http://monodevelop.com/Developers/Articles). Below is a partial list of areas for customization:
+For information on the scope of areas that are available for development, see the [Extension Tree Reference](https://www.monodevelop.com/developers/articles/extension-tree-reference/) and the [API Overview](https://www.monodevelop.com/developers/articles/api-overview/). When building advanced extension packages, also refer to [Developer Articles](https://www.monodevelop.com/developers/articles/). Below is a partial list of areas for customization:
 
 * Pads
 * Key Binding Schemes
@@ -169,13 +169,13 @@ One of the many benefits of sharing the editor between Visual Studio and Visual 
 
 Before touching on extension details specific to Visual Studio for Mac, it is helpful to understand more about the shared editor itself. Below are a few resources that may deepen this understanding:
 
-* [Managed Extensibility Framework](https://docs.microsoft.com/dotnet/framework/mef/index)
-* [MEF in the Editor](https://docs.microsoft.com/visualstudio/extensibility/managed-extensibility-framework-in-the-editor)
-* [Inside the Editor](https://docs.microsoft.com/visualstudio/extensibility/inside-the-editor)
-* [Language Service and Editor Extension Points](https://docs.microsoft.com/visualstudio/extensibility/language-service-and-editor-extension-points)
+* [Managed Extensibility Framework](/dotnet/framework/mef/index)
+* [MEF in the Editor](/visualstudio/extensibility/managed-extensibility-framework-in-the-editor)
+* [Inside the Editor](/visualstudio/extensibility/inside-the-editor)
+* [Language Service and Editor Extension Points](/visualstudio/extensibility/language-service-and-editor-extension-points)
 * [A video introduction to the editor architecture](https://www.youtube.com/watch?v=PkYVztKjO9A)
 
-With those resources in hand, the primary concepts that you need to be familiar with are an [`ITextBuffer`](https://docs.microsoft.com/dotnet/api/microsoft.visualstudio.text.itextbuffer) and an [`ITextView`](https://docs.microsoft.com/dotnet/api/microsoft.visualstudio.text.editor.itextview):
+With those resources in hand, the primary concepts that you need to be familiar with are an [`ITextBuffer`](/dotnet/api/microsoft.visualstudio.text.itextbuffer) and an [`ITextView`](/dotnet/api/microsoft.visualstudio.text.editor.itextview):
 
 * An `ITextBuffer` is an in-memory representation of text that can be changed over time. The `CurrentSnapshot` property on `ITextBuffer` returns an *immutable* representation of the current contents of the buffer, an instance of `ITextSnapshot`. When an edit is made on the buffer, the CurrentSnapshot property is updated to the latest version. Analyzers can inspect the text snapshot on any thread and its contents is guaranteed to never change.
 

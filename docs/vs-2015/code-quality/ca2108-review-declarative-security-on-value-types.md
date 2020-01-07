@@ -12,8 +12,8 @@ helpviewer_keywords:
   - "CA2108"
 ms.assetid: d62bffdd-3826-4d52-a708-1c646c5d48c2
 caps.latest.revision: 18
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: "wpickett"
 ---
 # CA2108: Review declarative security on value types

@@ -3,12 +3,12 @@ title: Customizing the Properties Window
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "Domain-Specific Language, Properties window"
-author: gewarren
-ms.author: gewarren
+- Domain-Specific Language, Properties window
+author: JoshuaPartlow
+ms.author: joshuapa
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Customize the Properties window
 

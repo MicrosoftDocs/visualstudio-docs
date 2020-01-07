@@ -3,21 +3,21 @@ title: Options, Text Editor, Basic (VB), Advanced
 ms.date: 01/16/2019
 ms.topic: reference
 f1_keywords:
-  - "VS.ToolsOptionsPages.Visual_Basic.Editor"
-  - "VS.ToolsOptionsPages.Text_Editor.Basic.Editor"
-  - "VS.ToolsOptionsPages.Visual_Basic_Editor.Editor"
-  - "VS.ToolsOptionsPages.Text_Editor.Basic.SimplifiedEditorPage"
-  - "VS.ToolsOptionsPages.Text_Editor.Basic"
-  - "VS.ToolsOptionsPages.Text_Editor.Basic.Advanced"
-  - "VS.ToolsOptionsPages.Text_Editor.Basic.VB_Specific"
+- VS.ToolsOptionsPages.Visual_Basic.Editor
+- VS.ToolsOptionsPages.Text_Editor.Basic.Editor
+- VS.ToolsOptionsPages.Visual_Basic_Editor.Editor
+- VS.ToolsOptionsPages.Text_Editor.Basic.SimplifiedEditorPage
+- VS.ToolsOptionsPages.Text_Editor.Basic
+- VS.ToolsOptionsPages.Text_Editor.Basic.Advanced
+- VS.ToolsOptionsPages.Text_Editor.Basic.VB_Specific
 helpviewer_keywords:
-  - "Basic Text Editor Options dialog box"
+- Basic Text Editor Options dialog box
 ms.assetid: 5a8cafca-f7b4-4a2d-92ce-6894a7673d00
-author: gewarren
-ms.author: gewarren
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Options, Text Editor, Basic (Visual Basic), Advanced
 The **VB Specific** property page, in the **Basic** folder of the **Text Editor** folder of the **Options** (**Tools** menu) dialog box includes the following properties:

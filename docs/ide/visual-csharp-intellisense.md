@@ -3,13 +3,13 @@ title: C# IntelliSense
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "C#, IntelliSense"
-  - "IntelliSense [C#]"
-author: gewarren
-ms.author: gewarren
+- C#, IntelliSense
+- IntelliSense [C#]
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "dotnet"
+- dotnet
 ---
 # C# IntelliSense
 

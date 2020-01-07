@@ -1,12 +1,12 @@
 ---
-title: "Unit testing Visual C# code"
+title: Unit testing Visual C# code
 ms.date: 09/27/2019
 ms.topic: conceptual
-ms.author: gewarren
-author: gewarren
+ms.author: mikejo
+author: mikejo5000
 manager: jillfra
 ms.workload:
-  - "uwp"
+- uwp
 ---
 # Unit test C# code
 

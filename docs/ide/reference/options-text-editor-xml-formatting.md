@@ -3,10 +3,10 @@ title: Options, Text Editor, XML, Formatting
 ms.date: 10/29/2018
 ms.topic: reference
 f1_keywords:
-  - "VS.ToolsOptionsPages.Text_Editor.XML.Formatting"
+- VS.ToolsOptionsPages.Text_Editor.XML.Formatting
 ms.assetid: 203e60b2-7b80-4ff4-9fa1-aa9f4374377b
-author: gewarren
-ms.author: gewarren
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ---
 # Options, Text Editor, XML, Formatting

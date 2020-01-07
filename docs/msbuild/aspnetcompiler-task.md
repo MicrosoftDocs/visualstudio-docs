@@ -1,23 +1,23 @@
 ---
-title: "Using AspNetCompiler Task to precompile ASP.NET applications | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "reference"
+title: Using AspNetCompiler Task to precompile ASP.NET applications | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: reference
 f1_keywords:
-  - "http://schemas.microsoft.com/developer/msbuild/2003#AspNetCompiler"
+- http://schemas.microsoft.com/developer/msbuild/2003#AspNetCompiler
 dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
+- VB
+- CSharp
+- C++
+- jsharp
 helpviewer_keywords:
-  - "MSBuild, AspNetCompiler task"
-  - "AspNetCompiler task [MSBuild]"
+- MSBuild, AspNetCompiler task
+- AspNetCompiler task [MSBuild]
 ms.assetid: f811c019-a67b-4d54-82e6-e29549496f6e
-author: mikejo5000
-ms.author: mikejo
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "aspnet"
+- aspnet
 ---
 # AspNetCompiler task
 The `AspNetCompiler` task wraps *aspnet_compiler.exe*, a utility to precompile [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] applications.

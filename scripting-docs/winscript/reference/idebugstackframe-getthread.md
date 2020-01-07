@@ -43,5 +43,5 @@ HRESULT GetThread(
 ## Remarks  
  This method returns the thread associated with this stack frame.  
   
-## See Also  
+## See also  
  [IDebugStackFrame Interface](../../winscript/reference/idebugstackframe-interface.md)

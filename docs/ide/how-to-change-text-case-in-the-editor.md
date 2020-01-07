@@ -3,14 +3,14 @@ title: Convert text to uppercase or lowercase
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "editors, text case"
-  - "text, case"
+- editors, text case
+- text, case
 ms.assetid: b04d1327-a45e-4c12-a0d0-67672b3fa855
-author: gewarren
-ms.author: gewarren
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # How to: Change text case in the editor
 

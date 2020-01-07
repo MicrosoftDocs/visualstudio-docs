@@ -3,19 +3,19 @@ title: Code maps
 ms.date: 05/16/2018
 ms.topic: conceptual
 f1_keywords:
-  - "vs.progression.codemap"
-  - "vs.progression.standardgraphsdialog"
+- vs.progression.codemap
+- vs.progression.standardgraphsdialog
 helpviewer_keywords:
-  - "DGML"
-  - "graph documents"
-  - "code visualization [Visual Studio]"
-  - "dependencies, visualizing"
-  - "dependency graphs"
-author: gewarren
-ms.author: gewarren
+- DGML
+- graph documents
+- code visualization [Visual Studio]
+- dependencies, visualizing
+- dependency graphs
+author: JoshuaPartlow
+ms.author: joshuapa
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Map dependencies with code maps
 

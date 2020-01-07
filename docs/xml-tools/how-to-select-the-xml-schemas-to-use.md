@@ -1,13 +1,13 @@
 ---
-title: "How to: Select the XML Schemas to Use"
+title: 'How to: Select the XML Schemas to Use'
 ms.date: 11/04/2016
 ms.topic: conceptual
 ms.assetid: d6fda3ef-d465-4788-8514-2f2d528d658c
-author: gewarren
-ms.author: gewarren
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # How to: Select the XML schemas to use
 

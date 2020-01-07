@@ -26,5 +26,5 @@ Creating an automation model for your code is not required. The Environment SDK 
 
  If you want to add features, such as methods or properties, that are not available from the standard `CodeModel` and `FileCodeModel` interfaces, create your own interface that inherits from the standard. Be sure to document it with your project system so end users will know to look for it. You return the standard interface, but the user can call the `QueryInterface` method or cast to your interface if it is known to exist.
 
-## See Also
+## See also
 - [Automation Model Overview](../../extensibility/internals/automation-model-overview.md)

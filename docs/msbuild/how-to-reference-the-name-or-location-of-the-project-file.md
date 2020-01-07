@@ -1,21 +1,21 @@
 ---
-title: "How to: Reference the Name or Location of the Project File | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: 'How to: Reference the Name or Location of the Project File | Microsoft Docs'
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "locations, referencing"
-  - "locations"
-  - "MSBuildProjectName property"
-  - "MSBuild, referencing the project file"
-  - "names, referencing"
-  - "reserved properties"
-  - "project files, referencing"
+- locations, referencing
+- locations
+- MSBuildProjectName property
+- MSBuild, referencing the project file
+- names, referencing
+- reserved properties
+- project files, referencing
 ms.assetid: c8fcc594-5d37-4e2e-b070-4d9c012043b5
-author: mikejo5000
-ms.author: mikejo
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # How to: Reference the name or location of the project file
 You can use the name or location of the project in the project file itself without having to create your own property. [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] provides reserved properties that reference the project file name and other properties related to the project. For more information on reserved properties, see [MSBuild reserved and well-known properties](../msbuild/msbuild-reserved-and-well-known-properties.md).
@@ -34,6 +34,8 @@ You can use the name or location of the project in the project file itself witho
   ```
 
   An advantage of using a reserved property is that any changes to the project file name are incorporated automatically. The next time that you build the project, the output file will have the new name with no further action required on your part.
+
+  For more info on the use of special characters in file or project references, see [MSBuild special characters](../msbuild/msbuild-special-characters.md).
 
 > [!NOTE]
 > Reserved properties cannot be redefined in the project file.

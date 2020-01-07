@@ -3,16 +3,16 @@ title: Code Analysis Application Errors
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
-  - "errors [Visual Studio ALM], code analysis"
-  - "code analysis, errors"
-  - "managed code, code analysis errors"
-  - "code analysis, policy errors"
+- errors [Visual Studio ALM], code analysis
+- code analysis, errors
+- managed code, code analysis errors
+- code analysis, policy errors
 ms.assetid: d8fd9475-ac9b-4085-b5a3-b0c807922cac
-author: gewarren
-ms.author: gewarren
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Code analysis application errors
 

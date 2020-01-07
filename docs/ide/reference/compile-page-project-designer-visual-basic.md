@@ -4,21 +4,21 @@ ms.date: 11/04/2016
 ms.technology: vs-ide-compile
 ms.topic: reference
 f1_keywords:
-  - "vb.ProjectPropertiesCompile"
+- vb.ProjectPropertiesCompile
 helpviewer_keywords:
-  - "compilation, Visual Basic projects"
-  - "compilation, options [Visual Basic]"
-  - "compilers, Visual Basic options"
-  - "compilation, instructions [Visual Basic]"
-  - "compiler options, Visual Basic"
-  - "Project Designer, Compile page"
-  - "Compile page in Project Designer"
+- compilation, Visual Basic projects
+- compilation, options [Visual Basic]
+- compilers, Visual Basic options
+- compilation, instructions [Visual Basic]
+- compiler options, Visual Basic
+- Project Designer, Compile page
+- Compile page in Project Designer
 ms.assetid: b2a80230-906e-4e85-b3e0-fcd9c40426e1
-author: gewarren
-ms.author: gewarren
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Compile Page, Project Designer (Visual Basic)
 

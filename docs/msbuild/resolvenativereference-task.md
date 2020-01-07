@@ -1,23 +1,23 @@
 ---
-title: "ResolveNativeReference Task | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "reference"
+title: ResolveNativeReference Task | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: reference
 f1_keywords:
-  - "http://schemas.microsoft.com/developer/msbuild/2003#ResolveNativeReference"
+- http://schemas.microsoft.com/developer/msbuild/2003#ResolveNativeReference
 dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
+- VB
+- CSharp
+- C++
+- jsharp
 helpviewer_keywords:
-  - "MSBuild, ResolveNativeReference task"
-  - "ResolveNativeReference task [MSBuild]"
+- MSBuild, ResolveNativeReference task
+- ResolveNativeReference task [MSBuild]
 ms.assetid: 56acd101-de77-4eec-92c6-f5c6d2187579
-author: mikejo5000
-ms.author: mikejo
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # ResolveNativeReference task
 Resolves native references. Implements the <xref:Microsoft.Build.Tasks.ResolveNativeReference> class. This class supports the .NET Framework infrastructure, which is not intended to be used directly from your code.

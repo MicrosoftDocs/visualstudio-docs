@@ -3,18 +3,18 @@ title: Run-Time Text Generation with T4 Text Templates
 ms.date: 11/04/2016
 ms.topic: conceptual
 dev_langs:
- - CSharp
- - VB
+- CSharp
+- VB
 helpviewer_keywords:
-  - "Preprocessed Text Template project item"
-  - "TextTemplatingFilePreprocessor custom tool"
-  - "text templates, TransformText() method"
-  - "text templates, generating files at run time"
-author: gewarren
-ms.author: gewarren
+- Preprocessed Text Template project item
+- TextTemplatingFilePreprocessor custom tool
+- text templates, TransformText() method
+- text templates, generating files at run time
+author: JoshuaPartlow
+ms.author: joshuapa
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Run-Time Text Generation with T4 Text Templates
 

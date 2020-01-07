@@ -1,23 +1,23 @@
 ---
-title: "RegisterAssembly Task | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "reference"
+title: RegisterAssembly Task | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: reference
 f1_keywords:
-  - "http://schemas.microsoft.com/developer/msbuild/2003#RegisterAssembly"
+- http://schemas.microsoft.com/developer/msbuild/2003#RegisterAssembly
 dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
+- VB
+- CSharp
+- C++
+- jsharp
 helpviewer_keywords:
-  - "MSBuild, RegisterAssembly task"
-  - "RegisterAssembly task [MSBuild]"
+- MSBuild, RegisterAssembly task
+- RegisterAssembly task [MSBuild]
 ms.assetid: ba5f19ac-6764-4d28-9b79-a86de58f8987
-author: mikejo5000
-ms.author: mikejo
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # RegisterAssembly task
 Reads the metadata within the specified assembly and adds the necessary entries to the registry, which allows COM clients to create .NET Framework classes transparently. The behavior of this task is similar, but not identical, to that of the [Regasm.exe (Assembly Registration tool)](/dotnet/framework/tools/regasm-exe-assembly-registration-tool).

@@ -1,18 +1,18 @@
 ---
-title: "How to: Escape Special Characters in MSBuild | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: 'How to: Escape Special Characters in MSBuild | Microsoft Docs'
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "special characters, escaping"
-  - "characters, escapes"
-  - "escape characters"
-  - "MSBuild, escaping special characters"
+- special characters, escaping
+- characters, escapes
+- escape characters
+- MSBuild, escaping special characters
 ms.assetid: 1aa3669c-1647-4960-b770-752e2532102f
-author: mikejo5000
-ms.author: mikejo
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # How to: Escape special characters in MSBuild
 

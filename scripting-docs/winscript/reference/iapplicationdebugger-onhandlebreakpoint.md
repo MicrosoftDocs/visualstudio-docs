@@ -53,7 +53,7 @@ HRESULT onHandleBreakPoint(
   
  The application will remain suspended until the debugger IDE calls `IRemoteDebugApplication::ResumeFromBreakPoint`.  
   
-## See Also  
+## See also  
  [IApplicationDebugger Interface](../../winscript/reference/iapplicationdebugger-interface.md)   
  [IDebugApplication::HandleBreakPoint](../../winscript/reference/idebugapplication-handlebreakpoint.md)   
  [IRemoteDebugApplication::ResumeFromBreakPoint](../../winscript/reference/iremotedebugapplication-resumefrombreakpoint.md)   

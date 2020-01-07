@@ -111,4 +111,4 @@ To avoid concurrency bugs in your multithreaded program, always follow an approp
  [Specifying When and Where an Annotation Applies](../code-quality/specifying-when-and-where-an-annotation-applies.md)   
  [Intrinsic Functions](../code-quality/intrinsic-functions.md)   
  [Best Practices and Examples](../code-quality/best-practices-and-examples-sal.md)   
- [Code Analysis Team Blog](http://go.microsoft.com/fwlink/p/?LinkId=251197)
+ [Code Analysis Team Blog](https://go.microsoft.com/fwlink/p/?LinkId=251197)

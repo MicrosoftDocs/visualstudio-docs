@@ -3,11 +3,11 @@ title: Extended Correctness Rules rule set for managed code
 ms.date: 11/04/2016
 ms.topic: reference
 ms.assetid: 5b181f5b-6c7a-4e46-a783-360e1da427a0
-author: gewarren
-ms.author: gewarren
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ms.workload:
-  - "dotnet"
+- dotnet
 ---
 # Extended Correctness Rules rule set for managed code
 
@@ -19,23 +19,23 @@ The following table describes all of the rules in the Microsoft Extended Correct
 
 |Rule|Description|
 |----------|-----------------|
-|[CA1001](../code-quality/ca1001-types-that-own-disposable-fields-should-be-disposable.md)|Types that own disposable fields should be disposable|
-|[CA1009](../code-quality/ca1009-declare-event-handlers-correctly.md)|Declare event handlers correctly|
-|[CA1016](../code-quality/ca1016-mark-assemblies-with-assemblyversionattribute.md)|Mark assemblies with AssemblyVersionAttribute|
-|[CA1033](../code-quality/ca1033-interface-methods-should-be-callable-by-child-types.md)|Interface methods should be callable by child types|
-|[CA1049](../code-quality/ca1049-types-that-own-native-resources-should-be-disposable.md)|Types that own native resources should be disposable|
-|[CA1060](../code-quality/ca1060-move-p-invokes-to-nativemethods-class.md)|Move P/Invokes to NativeMethods class|
-|[CA1061](../code-quality/ca1061-do-not-hide-base-class-methods.md)|Do not hide base class methods|
-|[CA1063](../code-quality/ca1063-implement-idisposable-correctly.md)|Implement IDisposable correctly|
-|[CA1065](../code-quality/ca1065-do-not-raise-exceptions-in-unexpected-locations.md)|Do not raise exceptions in unexpected locations|
-|[CA1301](../code-quality/ca1301-avoid-duplicate-accelerators.md)|Avoid duplicate accelerators|
-|[CA1400](../code-quality/ca1400-p-invoke-entry-points-should-exist.md)|P/Invoke entry points should exist|
-|[CA1401](../code-quality/ca1401-p-invokes-should-not-be-visible.md)|P/Invokes should not be visible|
-|[CA1403](../code-quality/ca1403-auto-layout-types-should-not-be-com-visible.md)|Auto layout types should not be COM visible|
-|[CA1404](../code-quality/ca1404-call-getlasterror-immediately-after-p-invoke.md)|Call GetLastError immediately after P/Invoke|
-|[CA1405](../code-quality/ca1405-com-visible-type-base-types-should-be-com-visible.md)|COM visible type base types should be COM visible|
-|[CA1410](../code-quality/ca1410-com-registration-methods-should-be-matched.md)|COM registration methods should be matched|
-|[CA1415](../code-quality/ca1415-declare-p-invokes-correctly.md)|Declare P/Invokes correctly|
+|[CA1001](../code-quality/ca1001.md)|Types that own disposable fields should be disposable|
+|[CA1009](../code-quality/ca1009.md)|Declare event handlers correctly|
+|[CA1016](../code-quality/ca1016.md)|Mark assemblies with AssemblyVersionAttribute|
+|[CA1033](../code-quality/ca1033.md)|Interface methods should be callable by child types|
+|[CA1049](../code-quality/ca1049.md)|Types that own native resources should be disposable|
+|[CA1060](../code-quality/ca1060.md)|Move P/Invokes to NativeMethods class|
+|[CA1061](../code-quality/ca1061.md)|Do not hide base class methods|
+|[CA1063](../code-quality/ca1063.md)|Implement IDisposable correctly|
+|[CA1065](../code-quality/ca1065.md)|Do not raise exceptions in unexpected locations|
+|[CA1301](../code-quality/ca1301.md)|Avoid duplicate accelerators|
+|[CA1400](../code-quality/ca1400.md)|P/Invoke entry points should exist|
+|[CA1401](../code-quality/ca1401.md)|P/Invokes should not be visible|
+|[CA1403](../code-quality/ca1403.md)|Auto layout types should not be COM visible|
+|[CA1404](../code-quality/ca1404.md)|Call GetLastError immediately after P/Invoke|
+|[CA1405](../code-quality/ca1405.md)|COM visible type base types should be COM visible|
+|[CA1410](../code-quality/ca1410.md)|COM registration methods should be matched|
+|[CA1415](../code-quality/ca1415.md)|Declare P/Invokes correctly|
 |[CA1821](../code-quality/ca1821.md)|Remove empty finalizers|
 |[CA1900](../code-quality/ca1900.md)|Value type fields should be portable|
 |[CA1901](../code-quality/ca1901.md)|P/Invoke declarations should be portable|
@@ -81,10 +81,10 @@ The following table describes all of the rules in the Microsoft Extended Correct
 |[CA2240](../code-quality/ca2240.md)|Implement ISerializable correctly|
 |[CA2241](../code-quality/ca2241.md)|Provide correct arguments to formatting methods|
 |[CA2242](../code-quality/ca2242.md)|Test for NaN correctly|
-|[CA1008](../code-quality/ca1008-enums-should-have-zero-value.md)|Enums should have zero value|
-|[CA1013](../code-quality/ca1013-overload-operator-equals-on-overloading-add-and-subtract.md)|Overload operator equals on overloading add and subtract|
-|[CA1303](../code-quality/ca1303-do-not-pass-literals-as-localized-parameters.md)|Do not pass literals as localized parameters|
-|[CA1308](../code-quality/ca1308-normalize-strings-to-uppercase.md)|Normalize strings to uppercase|
+|[CA1008](../code-quality/ca1008.md)|Enums should have zero value|
+|[CA1013](../code-quality/ca1013.md)|Overload operator equals on overloading add and subtract|
+|[CA1303](../code-quality/ca1303.md)|Do not pass literals as localized parameters|
+|[CA1308](../code-quality/ca1308.md)|Normalize strings to uppercase|
 |[CA1806](../code-quality/ca1806.md)|Do not ignore method results|
 |[CA1816](../code-quality/ca1816.md)|Call GC.SuppressFinalize correctly|
 |[CA1819](../code-quality/ca1819.md)|Properties should not return arrays|
@@ -110,22 +110,22 @@ The following table describes all of the rules in the Microsoft Extended Correct
 |[CA2226](../code-quality/ca2226.md)|Operators should have symmetrical overloads|
 |[CA2227](../code-quality/ca2227.md)|Collection properties should be read only|
 |[CA2239](../code-quality/ca2239.md)|Provide deserialization methods for optional fields|
-|[CA1032](../code-quality/ca1032-implement-standard-exception-constructors.md)|Implement standard exception constructors|
-|[CA1054](../code-quality/ca1054-uri-parameters-should-not-be-strings.md)|URI parameters should not be strings|
-|[CA1055](../code-quality/ca1055-uri-return-values-should-not-be-strings.md)|URI return values should not be strings|
-|[CA1056](../code-quality/ca1056-uri-properties-should-not-be-strings.md)|URI properties should not be strings|
-|[CA1057](../code-quality/ca1057-string-uri-overloads-call-system-uri-overloads.md)|String URI overloads call System.Uri overloads|
-|[CA1402](../code-quality/ca1402-avoid-overloads-in-com-visible-interfaces.md)|Avoid overloads in COM visible interfaces|
-|[CA1406](../code-quality/ca1406-avoid-int64-arguments-for-visual-basic-6-clients.md)|Avoid Int64 arguments for Visual Basic 6 clients|
-|[CA1407](../code-quality/ca1407-avoid-static-members-in-com-visible-types.md)|Avoid static members in COM visible types|
-|[CA1408](../code-quality/ca1408-do-not-use-autodual-classinterfacetype.md)|Do not use AutoDual ClassInterfaceType|
-|[CA1409](../code-quality/ca1409-com-visible-types-should-be-creatable.md)|Com visible types should be creatable|
-|[CA1411](../code-quality/ca1411-com-registration-methods-should-not-be-visible.md)|COM registration methods should not be visible|
-|[CA1412](../code-quality/ca1412-mark-comsource-interfaces-as-idispatch.md)|Mark ComSource Interfaces as IDispatch|
-|[CA1413](../code-quality/ca1413-avoid-non-public-fields-in-com-visible-value-types.md)|Avoid non-public fields in COM visible value types|
-|[CA1414](../code-quality/ca1414-mark-boolean-p-invoke-arguments-with-marshalas.md)|Mark boolean P/Invoke arguments with MarshalAs|
-|[CA1600](../code-quality/ca1600-do-not-use-idle-process-priority.md)|Do not use idle process priority|
-|[CA1601](../code-quality/ca1601-do-not-use-timers-that-prevent-power-state-changes.md)|Do not use timers that prevent power state changes|
+|[CA1032](../code-quality/ca1032.md)|Implement standard exception constructors|
+|[CA1054](../code-quality/ca1054.md)|URI parameters should not be strings|
+|[CA1055](../code-quality/ca1055.md)|URI return values should not be strings|
+|[CA1056](../code-quality/ca1056.md)|URI properties should not be strings|
+|[CA1057](../code-quality/ca1057.md)|String URI overloads call System.Uri overloads|
+|[CA1402](../code-quality/ca1402.md)|Avoid overloads in COM visible interfaces|
+|[CA1406](../code-quality/ca1406.md)|Avoid Int64 arguments for Visual Basic 6 clients|
+|[CA1407](../code-quality/ca1407.md)|Avoid static members in COM visible types|
+|[CA1408](../code-quality/ca1408.md)|Do not use AutoDual ClassInterfaceType|
+|[CA1409](../code-quality/ca1409.md)|Com visible types should be creatable|
+|[CA1411](../code-quality/ca1411.md)|COM registration methods should not be visible|
+|[CA1412](../code-quality/ca1412.md)|Mark ComSource Interfaces as IDispatch|
+|[CA1413](../code-quality/ca1413.md)|Avoid non-public fields in COM visible value types|
+|[CA1414](../code-quality/ca1414.md)|Mark boolean P/Invoke arguments with MarshalAs|
+|[CA1600](../code-quality/ca1600.md)|Do not use idle process priority|
+|[CA1601](../code-quality/ca1601.md)|Do not use timers that prevent power state changes|
 |[CA1824](../code-quality/ca1824.md)|Mark assemblies with NeutralResourcesLanguageAttribute|
 |[CA2001](../code-quality/ca2001.md)|Avoid calling problematic methods|
 |[CA2003](../code-quality/ca2003.md)|Do not treat fibers as threads|

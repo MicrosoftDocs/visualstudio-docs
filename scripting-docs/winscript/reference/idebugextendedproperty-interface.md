@@ -28,5 +28,5 @@ Extends `IDebugProperty` interface.
 ## Requirements  
  Header: dbgprop.h  
   
-## See Also  
+## See also  
  [IDebugProperty Interface](../../winscript/reference/idebugproperty-interface.md)

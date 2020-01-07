@@ -1,15 +1,15 @@
 ---
-title: "Add a Threshold Rule for load testing"
+title: Add a Threshold Rule for load testing
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "load tests, monitoring"
-  - "load tests, thresholds"
-  - "load tests, analyzing"
-  - "thresholds in load tests"
+- load tests, monitoring
+- load tests, thresholds
+- load tests, analyzing
+- thresholds in load tests
 ms.assetid: 3d8fac8f-426f-4155-9ced-f7cd4c79792c
-author: gewarren
-ms.author: gewarren
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ---
 # How to: Add a threshold rule using the load test editor

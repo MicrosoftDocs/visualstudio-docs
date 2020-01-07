@@ -42,7 +42,7 @@ HRESULT onDetach();
   
  Implementers of the `IDebugApplicationNode` interface raise this event.  
   
-## See Also  
+## See also  
  [IDebugApplicationNodeEvents Interface](../../winscript/reference/idebugapplicationnodeevents-interface.md)   
  [IDebugApplicationNodeEvents::onAttach](../../winscript/reference/idebugapplicationnodeevents-onattach.md)   
  [IDebugApplicationNode Interface](../../winscript/reference/idebugapplicationnode-interface.md)

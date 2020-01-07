@@ -17,7 +17,7 @@ monikerRange: '>= vs-2019'
 ## Overview
 
 Visual Studio 2019 provides rich support for JavaScript development, both using JavaScript directly, and also using
-the [TypeScript programming language](http://www.typescriptlang.org), which was developed to provide a more
+the [TypeScript programming language](http://www.typescriptlang.org/), which was developed to provide a more
 productive and enjoyable JavaScript development experience, especially when developing projects at scale. You can write JavaScript or TypeScript code in Visual Studio for many application types and services.
 
 ## JavaScript Language Service
@@ -38,4 +38,4 @@ For projects developed in Visual Studio 2019, we encourage you to use the TypeSc
 
 ## Projects
 
-UWP JavaScript apps are no longer supported in Visual Studio 2019. You cannot create or open JavaScript UWP projects (files with extension *.jsproj*). You can learn more using our documentation on [creating Progressive Web Apps (PWAs)](https://docs.microsoft.com/microsoft-edge/progressive-web-apps/get-started) that run well on Windows.
+UWP JavaScript apps are no longer supported in Visual Studio 2019. You cannot create or open JavaScript UWP projects (files with extension *.jsproj*). You can learn more using our documentation on [creating Progressive Web Apps (PWAs)](/microsoft-edge/progressive-web-apps/get-started) that run well on Windows.

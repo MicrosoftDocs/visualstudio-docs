@@ -4,8 +4,8 @@ ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
   - "Domain-Specific Language, programming domain models"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"
@@ -387,7 +387,7 @@ namespace Company.CompartmentDrag
 }
 ```
 
-## See Also
+## See also
 
 - [Responding to and Propagating Changes](../modeling/responding-to-and-propagating-changes.md)
 - [Properties of Decorators](../modeling/properties-of-decorators.md)

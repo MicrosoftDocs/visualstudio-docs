@@ -3,7 +3,7 @@ title: "Visual Studio for Mac Tools for Unity"
 description: "Introducing the Visual Studio Tools for Unity extension"
 author: therealjohn
 ms.author: johmil
-ms.date: 06/18/2019
+ms.date: 10/25/2019
 ms.assetid: 83FDD7A3-5D16-4B4B-9080-078E3FB5C623
 ---
 # Visual Studio for Mac Tools for Unity
@@ -41,6 +41,12 @@ Visual Studio for Mac Tools for Unity supports all the [debugging](using-vsmac-t
 ### Powerful refactoring and context actions
 
 Write more usable code with quick menus and keyboard shortcuts for [renaming, refactoring, and context actions](refactoring.md).
+
+### Roslyn diagnostics and quick-fixes for Unity
+
+Write better code that captures the best practices with Visual Studio for Mac's deep understanding of Unity projects. 
+
+![VS for Mac refactoring string compare with CompareTag](media/using-vsmac-tools-unity-image9.png)
 
 ### Browse and add new files
 

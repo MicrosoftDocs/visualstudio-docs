@@ -23,7 +23,7 @@ By using the **Advanced Settings** dialog box in the Concurrency Visualizer, you
  The paths of the .*exe* and .*dll* files are stored in the trace file when the trace is collected.  Changing this setting does not affect any previously collected traces.
 
 ## Buffering
- The Concurrency Visualizer uses Event Tracing for Windows (ETW) when it collects a trace.  ETW uses various buffers as it stores events.  The default ETW buffer settings might not be optimal in all cases, and in some cases, might cause problems such as lost events.  You can use the Buffering tab to configure ETW buffer settings. For more information, see [Event Tracing](http://go.microsoft.com/fwlink/?LinkId=234579) and  [EVENT_TRACE_PROPERTIES structure](http://go.microsoft.com/fwlink/?LinkId=234580).
+ The Concurrency Visualizer uses Event Tracing for Windows (ETW) when it collects a trace.  ETW uses various buffers as it stores events.  The default ETW buffer settings might not be optimal in all cases, and in some cases, might cause problems such as lost events.  You can use the Buffering tab to configure ETW buffer settings. For more information, see [Event Tracing](/windows/win32/etw/event-tracing-portal) and  [EVENT_TRACE_PROPERTIES structure](/windows/win32/api/evntrace/ns-evntrace-event_trace_properties).
 
 ## Filter
  On the Filter tab, you can select the set of events that the Concurrency Visualizer collects. Selecting a subset of events limits the types of data that are displayed in the reports, reduces the size of each trace, and reduces the time that's required to process traces.

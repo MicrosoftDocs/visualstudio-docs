@@ -1,18 +1,18 @@
 ---
-title: "Step 6: Name your button controls"
+title: 'Step 6: Name your button controls'
 ms.date: 08/30/2016
 ms.assetid: 56b3baa3-651e-4ad4-8942-e334c5c57158
 ms.topic: tutorial
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
 dev_langs:
-  - "CSharp"
-  - "VB"
+- CSharp
+- VB
 author: TerryGLee
 ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Step 6: Name your button controls
 

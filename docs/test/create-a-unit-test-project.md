@@ -1,12 +1,12 @@
 ---
-title: "Create a unit test project"
+title: Create a unit test project
 ms.date: 01/29/2019
 ms.topic: conceptual
-ms.author: gewarren
+ms.author: mikejo
 manager: jillfra
 ms.workload:
-  - "multiple"
-author: gewarren
+- multiple
+author: mikejo5000
 ---
 # Create a unit test project
 

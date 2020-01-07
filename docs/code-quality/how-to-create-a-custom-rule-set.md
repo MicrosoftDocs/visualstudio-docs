@@ -3,14 +3,14 @@ title: Create a custom code analysis rule set
 ms.date: 11/02/2018
 ms.topic: conceptual
 f1_keywords:
-  - "vs.codeanalysis.addremoverulesets"
+- vs.codeanalysis.addremoverulesets
 helpviewer_keywords:
-  - "rule sets"
-author: gewarren
-ms.author: gewarren
+- rule sets
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Customize a rule set
 

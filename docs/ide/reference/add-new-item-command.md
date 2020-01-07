@@ -3,16 +3,16 @@ title: Add New Item Command
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "project.addnewitem"
+- project.addnewitem
 helpviewer_keywords:
-  - "Add New Item command"
-  - "File.AddNewItem command"
+- Add New Item command
+- File.AddNewItem command
 ms.assetid: 63b7df32-db83-463b-bbe7-7ff011fe5298
-author: gewarren
-ms.author: gewarren
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Add New Item Command
 Adds a new solution item, such as an .htm, .css, .txt, or frameset to the current solution and opens it.
@@ -57,7 +57,7 @@ This example adds a new solution item, MyHTMLpg, to the current solution.
 >File.AddNewItem MyHTMLpg /t:"General\HTML Page"
 ```
 
-## See Also
+## See also
 
 - [Visual Studio Commands](../../ide/reference/visual-studio-commands.md)
 - [Command Window](../../ide/reference/command-window.md)

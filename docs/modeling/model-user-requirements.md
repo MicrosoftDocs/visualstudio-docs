@@ -3,13 +3,13 @@ title: Model user requirements
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "requirements"
-  - "stories"
-author: gewarren
-ms.author: gewarren
+- requirements
+- stories
+author: JoshuaPartlow
+ms.author: joshuapa
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Model user requirements
 

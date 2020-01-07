@@ -3,13 +3,13 @@ title: VSTest.Console.exe command-line options
 ms.date: 07/12/2018
 ms.topic: reference
 helpviewer_keywords:
-  - "vstest.console.exe"
-  - "command-line tests"
-ms.author: gewarren
-author: gewarren
+- vstest.console.exe
+- command-line tests
+ms.author: mikejo
+author: mikejo5000
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # VSTest.Console.exe command-line options
 

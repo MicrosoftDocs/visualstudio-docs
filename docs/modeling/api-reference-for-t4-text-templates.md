@@ -2,11 +2,11 @@
 title: API Reference for T4 Text Templates
 ms.date: 11/04/2016
 ms.topic: reference
-author: gewarren
-ms.author: gewarren
+author: JoshuaPartlow
+ms.author: joshuapa
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # API Reference for T4 Text Templates
 

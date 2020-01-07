@@ -1,17 +1,17 @@
 ---
-title: "Registering Extensions of the .NET Framework | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Registering Extensions of the .NET Framework | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "Add References dialog box, registering extensions of the .NET Framework"
-  - "MSBuild, registering extensions of the .NET Framework"
-  - ".NET Framework extensions, registering"
+- Add References dialog box, registering extensions of the .NET Framework
+- MSBuild, registering extensions of the .NET Framework
+- .NET Framework extensions, registering
 ms.assetid: deee6f53-ea87-4b88-a120-bea589822e03
-author: mikejo5000
-ms.author: mikejo
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "dotnet"
+- dotnet
 ---
 # Register extensions of the .NET Framework
 You can develop an assembly that extends a specific version of the .NET Framework. To enable the assembly to appear in the Visual Studio **Add References** dialog box, you must add the folder that contains it to the system registry.

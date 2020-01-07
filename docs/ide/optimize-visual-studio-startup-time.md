@@ -3,17 +3,17 @@ title: Improve start up time
 ms.date: 11/15/2017
 ms.topic: conceptual
 helpviewer_keywords:
-  - "startup time [Visual Studio]"
-  - "optimizing performance [Visual Studio]"
-  - "speed up start time [Visual Studio]"
+- startup time [Visual Studio]
+- optimizing performance [Visual Studio]
+- speed up start time [Visual Studio]
 ms.assetid: d1508121-8499-4084-8eb5-fa89fa7b17d3
-author: gewarren
-ms.author: gewarren
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 f1_keywords:
-  - "vs.performancecenter"
+- vs.performancecenter
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Optimize Visual Studio startup time
 

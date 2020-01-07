@@ -1,15 +1,15 @@
 ---
-title: "Workflow Designer - WriteLine Activity Designer"
+title: Workflow Designer - WriteLine Activity Designer
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "System.Activities.Statements.WriteLine.UI"
+- System.Activities.Statements.WriteLine.UI
 ms.assetid: 1b5f29a8-b7fd-477e-949e-2f689cae3c96
-author: gewarren
-ms.author: gewarren
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # WriteLine Activity Designer
 

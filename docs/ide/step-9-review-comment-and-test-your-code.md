@@ -59,7 +59,7 @@ You just built something that works, and although it's not done yet, it can alre
     > [!TIP]
     > The IDE is built to make it easy for you to write code, and *code snippets* are one way it does that. A snippet is a shortcut that gets expanded into a small block of code.
     >
-    >  You can see all of the snippets available. On the menu bar, choose **Tools** > **Code Snippets Manager**. For C#, the `if` snippet is in **Visual C#** . For Visual Basic, the `if` snippets are in **Conditionals and Loops** > **Code Patterns**. You can use this manager to browse existing snippets or add your own snippets.
+    >  You can see all of the snippets available. On the menu bar, choose **Tools** > **Code Snippets Manager**. For C#, the `if` snippet is in **Visual C#** . For Visual Basic, the `if` snippets are in **Code Patterns** > **Conditionals and Loops**. You can use this manager to browse existing snippets or add your own snippets.
     >
     >  To activate a snippet when typing code, type it and choose the **Tab** key. Many snippets appear in the **IntelliSense** window, which is why you choose the **Tab** key twice: first to select the snippet from the **IntelliSense** window, and then to tell the IDE to use the snippet. (IntelliSense supports the `if` snippet, but not the `ifelse` snippet.)
 

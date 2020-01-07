@@ -3,14 +3,14 @@ title: Create and configure datasets
 ms.date: 11/21/2018
 ms.topic: conceptual
 helpviewer_keywords:
-  - "typed datasets, creating"
-  - "datasets, creating"
-  - "datasets, configuring"
-author: gewarren
-ms.author: gewarren
+- typed datasets, creating
+- datasets, creating
+- datasets, configuring
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "data-storage"
+- data-storage
 ---
 # How to: Create and configure datasets in Visual Studio
 

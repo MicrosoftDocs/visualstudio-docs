@@ -3,12 +3,12 @@ title: Configure FxCop analyzers using editorconfig
 ms.date: 09/23/2019
 ms.topic: conceptual
 helpviewer_keywords:
-  - "FxCop analyzers, configuring"
-author: gewarren
-ms.author: gewarren
+- FxCop analyzers, configuring
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ms.workload:
-  - "dotnet"
+- dotnet
 ---
 # Configure FxCop analyzers
 

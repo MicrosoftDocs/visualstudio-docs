@@ -1,18 +1,18 @@
 ---
-title: "How to: Create a Domain-Specific Language Solution"
+title: 'How to: Create a Domain-Specific Language Solution'
 ms.date: 11/04/2016
 ms.topic: conceptual
 f1_keywords:
-  - "vs.dsltools.designerwizard"
+- vs.dsltools.designerwizard
 helpviewer_keywords:
-  - "Domain-Specific Language Tools, walkthroughs"
-  - "walkthroughs [Domain-Specific Language Tools], creating domain-specific language"
-  - "Domain-Specific Language Tools, creating solutions"
-author: gewarren
-ms.author: gewarren
+- Domain-Specific Language Tools, walkthroughs
+- walkthroughs [Domain-Specific Language Tools], creating domain-specific language
+- Domain-Specific Language Tools, creating solutions
+author: JoshuaPartlow
+ms.author: joshuapa
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # How to: Create a Domain-Specific Language Solution
 A domain-specific language (DSL) is created by using a specialized Visual Studio solution.
@@ -110,7 +110,7 @@ Before you can start this procedure, install these components:
  **Use existing strong name key**
  Use this option if you want to integrate your DSL with another assembly.
 
- For more information about strong naming, see [Creating and Using Strong-Named Assemblies](http://go.microsoft.com/fwlink/?LinkId=186073).
+ For more information about strong naming, see [Creating and Using Strong-Named Assemblies](/dotnet/standard/assembly/create-use-strong-named).
 
 ## See also
 

@@ -1,15 +1,15 @@
 ---
-title: "Run and debug unit tests with Test Explorer"
+title: Run and debug unit tests with Test Explorer
 description: Learn how to run tests with Test Explorer in Visual Studio. This topic covers how to enable automatic test runs after build, view test results, group and filter the test list, create playlists, debug tests, and use test shortcuts.
 ms.date: 07/29/2019
 ms.topic: conceptual
 f1_keywords:
-  - "vs.unittesting.testexplorer.overview"
-author: gewarren
-ms.author: gewarren
+- vs.unittesting.testexplorer.overview
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Run unit tests with Test Explorer
 

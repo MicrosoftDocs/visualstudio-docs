@@ -3,12 +3,12 @@ title: Add custom architecture validation to dependency diagrams
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "dependency diagrams, adding custom validation"
-author: gewarren
-ms.author: gewarren
+- dependency diagrams, adding custom validation
+author: JoshuaPartlow
+ms.author: joshuapa
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Add custom architecture validation to dependency diagrams
 
@@ -281,6 +281,6 @@ namespace Validator3
 }
 ```
 
-## See Also
+## See also
 
 - [Extend dependency diagrams](../modeling/extend-layer-diagrams.md)

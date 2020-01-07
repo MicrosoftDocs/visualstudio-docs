@@ -43,5 +43,5 @@ HRESULT SetLongName(
 ## Remarks  
  This method sets a new long name for the document.  
   
-## See Also  
+## See also  
  [IDebugDocumentHelper Interface](../../winscript/reference/idebugdocumenthelper-interface.md)

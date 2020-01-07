@@ -13,7 +13,7 @@ ms.workload:
 
 *Just My Code* is a Visual Studio debugging feature that automatically steps over calls to system, framework, and other non-user code. In the **Call Stack** window, Just My Code collapses these calls into **[External Code]** frames.
 
-Just My Code works differently in .NET Framework, C++, and JavaScript projects.
+Just My Code works differently in .NET, C++, and JavaScript projects.
 
 ## <a name="BKMK_Enable_or_disable_Just_My_Code"></a> Enable or disable Just My Code
 
@@ -49,9 +49,9 @@ To view the code in a collapsed **[External Code]** frame, right-click in the **
 
 Double-clicking an expanded external code line in the **Call Stack** window highlights the calling code line in green in the source code. For DLLs or other modules not found or loaded, a symbol or source not found page may open.
 
-## <a name="BKMK__NET_Framework_Just_My_Code"></a>.NET Framework Just My Code
+## <a name="BKMK__NET_Framework_Just_My_Code"></a>.NET Just My Code
 
-In .NET Framework projects, Just My Code uses symbol (*.pdb*) files and program optimizations to classify user and non-user code. The .NET Framework debugger considers optimized binaries and non-loaded *.pdb* files to be non-user code.
+In .NET projects, Just My Code uses symbol (*.pdb*) files and program optimizations to classify user and non-user code. The .NET debugger considers optimized binaries and non-loaded *.pdb* files to be non-user code.
 
 Three compiler attributes also affect what the .NET debugger considers to be user code:
 
@@ -59,9 +59,9 @@ Three compiler attributes also affect what the .NET debugger considers to be use
 - <xref:System.Diagnostics.DebuggerHiddenAttribute> hides the code from the debugger, even if Just My Code is turned off.
 - <xref:System.Diagnostics.DebuggerStepThroughAttribute> tells the debugger to step through the code it's applied to, rather than step into the code.
 
-The .NET Framework debugger considers all other code to be user code.
+The .NET debugger considers all other code to be user code.
 
-During .NET Framework debugging:
+During .NET debugging:
 
 - **Debug** > **Step Into** (or **F11**) on non-user code steps over the code to the next line of user code.
 - **Debug** > **Step Out** (or **Shift**+**F11**) on non-user code runs to the next line of user code.

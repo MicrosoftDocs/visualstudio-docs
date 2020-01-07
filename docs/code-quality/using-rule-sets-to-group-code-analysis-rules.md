@@ -3,14 +3,14 @@ title: Code analysis rule sets
 ms.date: 04/02/2018
 ms.topic: conceptual
 f1_keywords:
-  - "vs.codeanalysis.rulesets.learnmore"
+- vs.codeanalysis.rulesets.learnmore
 helpviewer_keywords:
-  - "code analysis, rule sets"
-author: gewarren
-ms.author: gewarren
+- code analysis, rule sets
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Use rule sets to group code analysis rules
 

@@ -1,16 +1,16 @@
 ---
-title: "TrackedVCToolTask Class | Microsoft Docs"
-ms.date: "03/10/2019"
-ms.topic: "reference"
+title: TrackedVCToolTask Class | Microsoft Docs
+ms.date: 03/10/2019
+ms.topic: reference
 dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
-author: mikeblome
-ms.author: mblome
+- VB
+- CSharp
+- C++
+- jsharp
+author: ghogen
+ms.author: ghogen
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # TrackedVCToolTask base class
 

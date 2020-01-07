@@ -19,7 +19,7 @@ R Tools for Visual Studio (RTVS) provides a R Markdown item template, editor sup
 ## Using R Markdown
 
 1. Close Visual Studio.
-1. (One time only) Install `pandoc` from [pandoc.org](http://pandoc.org/installing.html).
+1. (One time only) Install `pandoc` from [pandoc.org](https://pandoc.org/installing.html).
 1. Restart Visual Studio, which should pick up the pandoc installation.
 1. Install the `knitr` and `rmarkdown` packages, which you can do from the [interactive window](interactive-repl-for-r-in-visual-studio.md):
 

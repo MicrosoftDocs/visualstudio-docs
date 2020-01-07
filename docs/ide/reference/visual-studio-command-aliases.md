@@ -3,19 +3,19 @@ title: Command Aliases
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
-  - "aliases, Visual Studio commands"
-  - "Visual Studio, commands"
-  - "predefined command aliases"
-  - "commands, aliases"
-  - "Visual Studio commands"
-  - "pre-defined command aliases"
-  - "command aliases"
+- aliases, Visual Studio commands
+- Visual Studio, commands
+- predefined command aliases
+- commands, aliases
+- Visual Studio commands
+- pre-defined command aliases
+- command aliases
 ms.assetid: de8bb378-8c1c-4087-a9a5-537fa8314c19
-author: gewarren
-ms.author: gewarren
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Visual Studio Command Aliases
 
@@ -119,7 +119,7 @@ The table below contains a list of the pre-defined Visual Studio command aliases
 |List Processes|&#124;|Debug.ListProcesses|
 |[List Threads Command](../../ide/reference/list-threads-command.md)|~ ~*k ~\*kb|Debug.ListThreads Debug.ListTheads /AllThreads|
 
-## See Also
+## See also
 
 - [Visual Studio Commands](../../ide/reference/visual-studio-commands.md)
 - [Command Window](../../ide/reference/command-window.md)

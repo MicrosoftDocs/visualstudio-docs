@@ -3,16 +3,16 @@ title: Add Existing Project Command
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "file.addexistingproject"
+- file.addexistingproject
 helpviewer_keywords:
-  - "Add Existing Project command"
-  - "File.AddExistingProject"
+- Add Existing Project command
+- File.AddExistingProject
 ms.assetid: 71cf3e31-c76b-405b-ad6a-1b1bc654bd40
-author: gewarren
-ms.author: gewarren
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Add Existing Project Command
 Adds an existing project to the current solution.
@@ -41,7 +41,7 @@ This example adds the [!INCLUDE[vbprvb](../../code-quality/includes/vbprvb_md.md
 >File.AddExistingProject "c:\visual studio projects\TestProject1.vbproj"
 ```
 
-## See Also
+## See also
 
 - [Visual Studio Commands](../../ide/reference/visual-studio-commands.md)
 - [Command Window](../../ide/reference/command-window.md)

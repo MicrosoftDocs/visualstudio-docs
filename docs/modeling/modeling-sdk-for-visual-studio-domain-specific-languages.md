@@ -1,16 +1,16 @@
 ---
 title: Modeling SDK for Visual Studio - Domain-Specific Languages
-titleSuffix: ""
+titleSuffix: ''
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "Domain-Specific Language Tools"
-  - "Domain-Specific Language"
-author: gewarren
-ms.author: gewarren
+- Domain-Specific Language Tools
+- Domain-Specific Language
+author: JoshuaPartlow
+ms.author: joshuapa
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Modeling SDK for Visual Studio - Domain-Specific Languages
 

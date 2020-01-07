@@ -8,8 +8,8 @@ helpviewer_keywords:
   - "Set Current Thread command"
   - "Debug.SetCurrentThread command"
 ms.assetid: 9917ed1d-6c30-4d94-b2f0-69acce74f1b2
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"
@@ -34,7 +34,7 @@ Required. Selects a thread by its index.
 >Debug.SetCurrentThread 1
 ```
 
-## See Also
+## See also
 
 - [Visual Studio Commands](../../ide/reference/visual-studio-commands.md)
 - [Command Window](../../ide/reference/command-window.md)

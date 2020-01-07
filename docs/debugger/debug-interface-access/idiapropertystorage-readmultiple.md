@@ -45,5 +45,5 @@ HRESULT ReadMultiple( 
 ## Remarks
  If a property was not found, the corresponding entry in the `rgvar` array contains a `VARIANT` with the type of `VT_EMPTY`.
 
-## See Also
+## See also
 - [IDiaPropertyStorage](../../debugger/debug-interface-access/idiapropertystorage.md)

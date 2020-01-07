@@ -14,8 +14,8 @@ helpviewer_keywords:
   - "WCF services, troubleshooting"
 ms.assetid: 3b531120-1325-4734-90c6-6e6113bd12ac
 caps.latest.revision: 25
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # Troubleshooting Service References

@@ -3,19 +3,19 @@ title: Add editor support for other languages
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "syntax colorization"
-  - "IntelliSense"
-  - "IDE, navigation"
-  - "documents [Visual Studio], navigation"
-  - "TextMate bundle"
-  - "TextMate language grammar"
-  - "language support"
+- syntax colorization
+- IntelliSense
+- IDE, navigation
+- documents [Visual Studio], navigation
+- TextMate bundle
+- TextMate language grammar
+- language support
 ms.assetid: d78c43ee-4ef2-42e5-984e-d137de4e7e92
-author: gewarren
-ms.author: gewarren
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Add Visual Studio editor support for other languages
 

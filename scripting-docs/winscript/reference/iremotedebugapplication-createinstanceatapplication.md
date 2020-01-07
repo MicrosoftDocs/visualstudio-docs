@@ -59,5 +59,5 @@ HRESULT CreateInstanceAtApplication(
 ## Remarks  
  This method delegates to `CoCreateInstance`.  
   
-## See Also  
+## See also  
  [IRemoteDebugApplication Interface](../../winscript/reference/iremotedebugapplication-interface.md)

@@ -1,22 +1,22 @@
 ---
-title: "Sdk Element (MSBuild) | Microsoft Docs"
-ms.date: "01/25/2018"
-ms.topic: "reference"
+title: Sdk Element (MSBuild) | Microsoft Docs
+ms.date: 01/25/2018
+ms.topic: reference
 f1_keywords:
-  - "http://schemas.microsoft.com/developer/msbuild/2003#Project"
+- http://schemas.microsoft.com/developer/msbuild/2003#Project
 dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
+- VB
+- CSharp
+- C++
+- jsharp
 helpviewer_keywords:
-  - "Sdk element [MSBuild]"
-  - "<Sdk> element [MSBuild]"
-author: mikejo5000
-ms.author: mikejo
+- Sdk element [MSBuild]
+- <Sdk> element [MSBuild]
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Sdk element (MSBuild)
 References an [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] project SDK.

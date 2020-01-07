@@ -36,5 +36,5 @@ HRESULT GetReturnAddress(
 ## Requirements  
  **Header:** jscript9diag.h  
   
-## See Also  
+## See also  
  [IJsDebugFrame Interface](../../winscript/reference/ijsdebugframe-interface.md)

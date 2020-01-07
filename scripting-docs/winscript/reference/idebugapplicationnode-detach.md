@@ -40,6 +40,6 @@ HRESULT Detach();
 ## Remarks  
  This method removes this application node from the project tree.  
   
-## See Also  
+## See also  
  [IDebugApplicationNode::Attach](../../winscript/reference/idebugapplicationnode-attach.md)   
  [IDebugApplicationNode Interface](../../winscript/reference/idebugapplicationnode-interface.md)

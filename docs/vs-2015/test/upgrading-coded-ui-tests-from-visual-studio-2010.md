@@ -6,7 +6,7 @@ ms.technology: vs-ide-test
 ms.topic: conceptual
 ms.assetid: 11232a83-73ea-46bd-bc0c-46f74f6e3a42
 caps.latest.revision: 35
-ms.author: gewarren
+ms.author: jillfra
 manager: jillfra
 ---
 # Upgrading Coded UI Tests from Visual Studio 2010
@@ -41,7 +41,7 @@ Test Projects containing coded UI tests that were created in [!INCLUDE[vs_dev10_
 |In [!INCLUDE[vs_dev10_long](../includes/vs-dev10-long-md.md)], references were added inside a ‘Choose’ statement in the csproj file. In [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)], we are using a Feedback targets file to include Coded UI Test Assembly references.|In [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)], a Coded UI Test cannot be added to a Test Project created in [!INCLUDE[vs_dev10_long](../includes/vs-dev10-long-md.md)] (or SP1) that did not contain a Coded UI Test.<br /><br /> The repair process adds the targets file and the Choose statement. If a Coded UI Test is not in the Test Project, then the project is marked as repaired and the appropriate references will not be added when adding Coded UI Test in [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)].|You will have to create a new Test Project in the same solution using [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)] and add your new Coded UI Test in it. Alternately, you can add Coded UI Tests into the Test Project in [!INCLUDE[vs_dev10_long](../includes/vs-dev10-long-md.md)] SP1 and open that project in [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)].|
 
 ## <a name="UpgradingCodedUIFromVS2010_Update"></a> Visual Studio 2010 SP1 Update
- An update to [!INCLUDE[vs2010](../includes/vs2010-md.md)] SP1 with compatibility support for Visual Studio 2012 and Windows 8 is available for download at the [Microsoft Download Center](http://www.microsoft.com/download/details.aspx?id=34677) and also as a Visual Studio update.
+ An update to [!INCLUDE[vs2010](../includes/vs2010-md.md)] SP1 with compatibility support for Visual Studio 2012 and Windows 8 is available for download at the [Microsoft Download Center](https://www.microsoft.com/download/details.aspx?id=34677) and also as a Visual Studio update.
 
  After you apply the update, the following [!INCLUDE[vs2010](../includes/vs2010-md.md)] SP1 coded UI test tool features are improved for Windows 8:
 
@@ -55,7 +55,7 @@ Test Projects containing coded UI tests that were created in [!INCLUDE[vs_dev10_
 
 - **Stranded test artifacts:** Your team has a test artifact that is assigned to an invalid user in Team Foundation Server (TFS) 2010. For example, a user has left the company, but still has a test case that is assigned to him. You upgrade TFS 2010 to TFS 2012. You use [!INCLUDE[TCMext](../includes/tcmext-md.md)] 2010 to connect to the upgraded TFS server. You are not able to assign the test artifact to any TFS users by using [!INCLUDE[TCMext](../includes/tcmext-md.md)] 2010.
 
-- **Load testing:** When you run a load test together with a network type other than the local area network (LAN) profile on a computer this is running Windows 8, the network emulator driver causes the operating system to crash. For more details, see [KB Article 2736182](http://support.microsoft.com/kb/2736182).
+- **Load testing:** When you run a load test together with a network type other than the local area network (LAN) profile on a computer this is running Windows 8, the network emulator driver causes the operating system to crash. For more details, see [KB Article 2736182](https://support.microsoft.com/help/2736182/a-gdr-update-for-visual-studio-2010-sp1-is-available-to-add-compatibil).
 
 ## See Also
  [Porting, Migrating, and Upgrading Visual Studio Projects](../porting/porting-migrating-and-upgrading-visual-studio-projects.md)

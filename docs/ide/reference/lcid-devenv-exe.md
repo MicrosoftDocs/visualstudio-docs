@@ -3,21 +3,21 @@ title: -LCID (devenv.exe)
 ms.date: 12/10/2018
 ms.topic: reference
 helpviewer_keywords:
-  - "language default"
-  - "locale IDs, setting for IDE"
-  - "Devenv, /L switch"
-  - "Devenv, /LCID switch"
-  - "locale IDs"
-  - "L Devenv switch"
-  - "/L Devenv switch"
-  - "LCID devenv switch"
-  - "/LCID Devenv switch"
+- language default
+- locale IDs, setting for IDE
+- Devenv, /L switch
+- Devenv, /LCID switch
+- locale IDs
+- L Devenv switch
+- /L Devenv switch
+- LCID devenv switch
+- /LCID Devenv switch
 ms.assetid: 3a3f4e70-ea66-4351-9d62-acb1dec30e8e
-author: gewarren
-ms.author: gewarren
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # /LCID (devenv.exe)
 

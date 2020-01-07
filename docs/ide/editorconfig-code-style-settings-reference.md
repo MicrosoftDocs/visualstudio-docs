@@ -3,16 +3,16 @@ title: .NET coding convention settings For EditorConfig
 ms.date: 06/14/2018
 ms.topic: reference
 helpviewer_keywords:
-  - "coding conventions [EditorConfig]"
-  - "EditorConfig coding conventions"
-  - "language code style rules [EditorConfig]"
-  - "formatting conventions [EditorConfig]"
-author: gewarren
-ms.author: gewarren
+- coding conventions [EditorConfig]
+- EditorConfig coding conventions
+- language code style rules [EditorConfig]
+- formatting conventions [EditorConfig]
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "dotnet"
-  - "dotnetcore"
+- dotnet
+- dotnetcore
 ---
 # .NET coding convention settings for EditorConfig
 

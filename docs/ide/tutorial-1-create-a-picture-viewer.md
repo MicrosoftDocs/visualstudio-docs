@@ -1,6 +1,6 @@
 ---
 title: "Tutorial 1: Create a picture viewer"
-ms.date: 08/30/2019
+ms.date: 10/16/2019
 ms.assetid: 3071d6df-2b2f-4e95-ab68-bef727323136
 ms.topic: tutorial
 ms.prod: visual-studio-windows
@@ -16,7 +16,7 @@ ms.workload:
 In this tutorial, you build an app that loads a picture from a file and displays it in a window. You learn how to use the **Windows Forms Designer** to drag controls like buttons and picture boxes on to your form, set their properties, and use containers to smoothly resize the form. You also get started writing code.
 
 > [!NOTE]
-> This tutorial covers both Visual C# and Visual Basic, so focus on the information that's specific to the programming language that you're using.
+> This tutorial covers both C# and Visual Basic, so focus on the information that's specific to the programming language you're using.
 
 This tutorial walks you through the following tasks:
 
@@ -53,6 +53,8 @@ When you finish, your app should look similar to the following image:
 |[Step 9: Review, comment, and test your code](../ide/step-9-review-comment-and-test-your-code.md)|Review and test your code. Add comments as needed.|
 |[Step 10: Write code for additional buttons and a check box](../ide/step-10-write-code-for-additional-buttons-and-a-check-box.md)|Write code to make other buttons and a check box work using IntelliSense.|
 |[Step 11: Run your app and try other features](../ide/step-11-run-your-program-and-try-other-features.md)|Run your app and set the background color. Try other features, such as changing colors, fonts, and borders.|
+
+There are also great, free video learning resources available to you. To learn more about programming in C#, see [C# fundamentals: Development for absolute beginners](https://channel9.msdn.com/Series/C-Sharp-Fundamentals-Development-for-Absolute-Beginners). To learn more about programming in Visual Basic, see [Visual Basic fundamentals: Development for absolute beginners](https://channel9.msdn.com/Series/Visual-Basic-Development-for-Absolute-Beginners).
 
 ## Next steps
 

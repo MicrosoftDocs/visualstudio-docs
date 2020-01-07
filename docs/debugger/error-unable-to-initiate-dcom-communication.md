@@ -24,5 +24,5 @@ A DCOM error occurred when the local machine tried to communicate with the remot
 
 - To restore Windows authentication, try rebooting both machines. Examine event logs on local and remote machines for Kerberos errors and contact domain administrators for known problems.
 
-## See Also
+## See also
 - [Remote Debugging](../debugger/remote-debugging.md)

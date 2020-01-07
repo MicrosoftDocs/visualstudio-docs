@@ -1,26 +1,26 @@
 ---
-title: "ResolveAssemblyReference Task | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "reference"
+title: ResolveAssemblyReference Task | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: reference
 f1_keywords:
-  - "http://schemas.microsoft.com/developer/msbuild/2003#ResolveAssemblyReference"
-  - "MSBuild.ResolveAssemblyReference.TurnOnAutoGenerateBindingRedirects"
-  - "MSBuild.ResolveAssemblyReference.FoundConflict"
-  - "MSBuild.ResolveAssemblyRedirects.SuggestedRedirects"
+- http://schemas.microsoft.com/developer/msbuild/2003#ResolveAssemblyReference
+- MSBuild.ResolveAssemblyReference.TurnOnAutoGenerateBindingRedirects
+- MSBuild.ResolveAssemblyReference.FoundConflict
+- MSBuild.ResolveAssemblyRedirects.SuggestedRedirects
 dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
+- VB
+- CSharp
+- C++
+- jsharp
 helpviewer_keywords:
-  - "ResolveAssemblyReference task [MSBuild]"
-  - "MSBuild, ResolveAssemblyReference task"
+- ResolveAssemblyReference task [MSBuild]
+- MSBuild, ResolveAssemblyReference task
 ms.assetid: 4d56d848-b29b-4dff-86a2-0a96c9e4a170
-author: mikejo5000
-ms.author: mikejo
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # ResolveAssemblyReference task
 Determines all assemblies that depend on the specified assemblies, including second and `n`th-order dependencies.

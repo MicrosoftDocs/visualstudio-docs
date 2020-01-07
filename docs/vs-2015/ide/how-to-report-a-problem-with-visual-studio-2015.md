@@ -6,8 +6,8 @@ ms.prod: "visual-studio-dev14"
 ms.topic: conceptual
 ms.assetid: 24ecb76e-b7ad-432d-88ab-d9849963465d
 caps.latest.revision: 15
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # How to Report a Problem with Visual Studio 2015

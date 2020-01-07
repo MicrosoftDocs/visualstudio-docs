@@ -1,8 +1,8 @@
 ---
 title: "Signing in to Visual Studio for Mac"
 description: "How to sign in to Visual Studio for Mac"
-author: asb3993
-ms.author: amburns
+author: heiligerdankgesang
+ms.author: dominicn
 ms.date: 09/18/2019
 ms.assetid: E4CFD03C-03AF-48CA-B409-6DB1CA45E991
 ---

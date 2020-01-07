@@ -1,20 +1,20 @@
 ---
-title: "Common MSBuild Project Items | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "reference"
+title: Common MSBuild Project Items | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: reference
 dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
+- VB
+- CSharp
+- C++
+- jsharp
 helpviewer_keywords:
-  - "MSBuild, common project items"
+- MSBuild, common project items
 ms.assetid: 1eba3721-cc12-4b80-9987-84923ede5e2e
-author: mikejo5000
-ms.author: mikejo
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Common MSBuild project items
 In [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)], an item is a named reference to one or more files. Items contain metadata such as file names, paths, and version numbers. All project types in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] have several items in common. These items are defined in the file *Microsoft.Build.CommonTypes.xsd*.
@@ -124,6 +124,17 @@ In [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.m
 | Link | Optional string. The notational path to be displayed if the file is physically located outside the influence of the project. |
 | Visible | Optional boolean. Indicates whether to display the file in **Solution Explorer** in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. |
 | CopyToOutputDirectory | Optional string. Determines whether to copy the file to the output directory. Values are:<br /><br /> 1.  Never<br />2.  Always<br />3.  PreserveNewest |
+
+### AssemblyMetadata
+ Represents assembly attributes to be generated as `[AssemblyMetadata(key, value)]`.
+
+| Item metadata name | Description |
+|-----------------------| - |
+| Include | Becomes the first parameter (the key) in the `AssemblyMetadataAttribute` attribute constructor. |
+| Value | Required string. Becomes the second parameter (the value) in the `AssemblyMetadataAttribute` attribute constructor. |
+
+> [!NOTE]
+> This applies to projects using the .NET Core SDK only.
 
 ### BaseApplicationManifest
  Represents the base application manifest for the build, and contains [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment security information.

@@ -1,8 +1,8 @@
 ---
 title: "Team Foundation Version Control (TFVC)"
 description: "Connecting from Visual Studio for Mac to Team Foundation Server/Azure DevOps with Team Foundation Version Control (TFVC)."
-author: conceptdev
-ms.author: crdun
+author: heiligerdankgesang
+ms.author: dominicn
 ms.date: 06/25/2019
 ms.technology: vs-ide-general
 ms.assetid: 52D3D26A-4D01-4FD1-AAA1-AE7D7BD39746
@@ -64,7 +64,7 @@ To **setup the TEE-CLC manually**:
 
 Once the TEE-CLC is installed, you can run the command `tf eula` to view and accept the license agreement for the client.
 
-Finally, to authenticate with your TFS/Azure DevOps environment, you'll need to create a personal access token on the server. Learn more about [authenticating with personal access tokens](https://docs.microsoft.com/azure/devops/integrate/get-started/authentication/pats?view=azure-devops). When creating a personal access token to use with TFVC, be sure to provide Full Access when configuring the token.
+Finally, to authenticate with your TFS/Azure DevOps environment, you'll need to create a personal access token on the server. Learn more about [authenticating with personal access tokens](/azure/devops/integrate/get-started/authentication/pats?view=azure-devops). When creating a personal access token to use with TFVC, be sure to provide Full Access when configuring the token.
 
 ### Using the TEE-CLC to connect to your repo
 

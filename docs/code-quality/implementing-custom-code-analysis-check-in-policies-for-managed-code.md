@@ -3,15 +3,15 @@ title: Custom code analysis check-in policies for managed code
 ms.date: 11/04/2016
 ms.topic: conceptual
 f1_keywords:
-  - "vs.code.analysis.selecttfsrulesets"
-  - "vs.code.analysis.browsefortfsruleset"
-  - "vs.code.analysis.policyeditor"
+- vs.code.analysis.selecttfsrulesets
+- vs.code.analysis.browsefortfsruleset
+- vs.code.analysis.policyeditor
 ms.assetid: fd029003-5671-4b24-8b6f-032e0a98b2e8
-author: gewarren
-ms.author: gewarren
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ms.workload:
-  - "dotnet"
+- dotnet
 ---
 # Implement Custom Code Analysis Check-in Policies for Managed Code
 

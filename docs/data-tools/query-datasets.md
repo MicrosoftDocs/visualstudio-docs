@@ -3,14 +3,14 @@ title: Query datasets
 ms.date: 11/04/2016
 ms.topic: conceptual
 dev_langs:
-  - "VB"
-  - "CSharp"
+- VB
+- CSharp
 ms.assetid: 7b1a91cf-8b5a-4fc0-ac36-0dc2d336fa1b
-author: gewarren
-ms.author: gewarren
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "data-storage"
+- data-storage
 ---
 # Query datasets
 To search for specific records in a dataset, use the `FindBy` method on the DataTable, write your own foreach statement to loop over the table's Rows collection, or use [LINQ to DataSet](/dotnet/framework/data/adonet/linq-to-dataset).

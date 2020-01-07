@@ -1,21 +1,21 @@
 ---
-title: "ResolveManifestFiles Task | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "reference"
+title: ResolveManifestFiles Task | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: reference
 dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
+- VB
+- CSharp
+- C++
+- jsharp
 helpviewer_keywords:
-  - "ResolveManifestFiles task [MSBuild]"
-  - "MSBuild, ResolveManifestFiles task"
+- ResolveManifestFiles task [MSBuild]
+- MSBuild, ResolveManifestFiles task
 ms.assetid: e1e14f67-9b69-433f-94d4-a783a68676b2
-author: mikejo5000
-ms.author: mikejo
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # ResolveManifestFiles task
 Resolves the following items in the build process to files for manifest generation: built items, dependencies, satellites, content, debug symbols, and documentation.

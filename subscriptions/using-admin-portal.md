@@ -8,7 +8,8 @@ ms.topic: conceptual
 description: Learn how to get started managing your organization's Visual Studio subscriptions with the Subscriptions Administration Portal.
 ---
 
-# Overview of the Visual Studio Subscriptions Administration Portal
+# Overview of the Visual Studio Subscriptions Administrator Portal
+
 The Visual Studio Subscriptions Administration Portal gives you the tools to manage your organization's subscriptions in one place. 
 
 ## Important considerations

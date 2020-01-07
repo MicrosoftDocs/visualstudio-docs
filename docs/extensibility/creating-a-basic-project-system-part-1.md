@@ -184,7 +184,7 @@ Templates
 
 2. Add a class to the top *SimpleProject* folder named *SimpleProjectFactory.cs*.
 
-3. Add the following using statements:
+3. Add the following using directives:
 
    ```csharp
    using System.Runtime.InteropServices;
@@ -263,7 +263,7 @@ Templates
 
 ### To initialize the project factory
 
-1. In the *SimpleProjectPackage.cs* file, add the following `using` statement.
+1. In the *SimpleProjectPackage.cs* file, add the following `using` directive.
 
     ```csharp
     using Microsoft.VisualStudio.Project;
@@ -291,7 +291,7 @@ Templates
     }
     ```
 
-5. In *SimpleProjectFactory.cs*, add the following `using` statement after the existing `using` statements.
+5. In *SimpleProjectFactory.cs*, add the following `using` directive after the existing `using` directives.
 
     ```csharp
     using Microsoft.VisualStudio.Project;
@@ -410,7 +410,7 @@ Templates
 
 ### To connect the project factory class and the node class
 
-1. In the *SimpleProjectFactory.cs* file, add the following `using` statement:
+1. In the *SimpleProjectFactory.cs* file, add the following `using` directive:
 
     ```csharp
     using IOleServiceProvider =    Microsoft.VisualStudio.OLE.Interop.IServiceProvider;
@@ -454,7 +454,7 @@ Templates
 
 3. In the **Properties** window, change the **Build action** of the bitmap to **Embedded Resource**.
 
-4. In *SimpleProjectNode.cs*, add the following `using` statements:
+4. In *SimpleProjectNode.cs*, add the following `using` directives:
 
    ```csharp
    using System.Drawing;
@@ -556,7 +556,7 @@ Templates
 
 ### To substitute template parameters
 
-1. In the *SimpleProjectNode.cs* file, add the following `using` statement.
+1. In the *SimpleProjectNode.cs* file, add the following `using` directive.
 
    ```csharp
    using System.IO;

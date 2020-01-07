@@ -1,13 +1,13 @@
 ---
 title: Accessing Visual Studio or other Hosts from a Text Template
-titleSuffix: ""
+titleSuffix: ''
 ms.date: 11/04/2016
 ms.topic: conceptual
-author: gewarren
-ms.author: gewarren
+author: JoshuaPartlow
+ms.author: joshuapa
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Access Visual Studio or other hosts from a text template
 

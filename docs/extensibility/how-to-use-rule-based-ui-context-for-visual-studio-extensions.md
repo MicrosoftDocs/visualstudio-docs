@@ -130,7 +130,7 @@ Here are the various types of term that are supported:
 |UserSettingsStoreQuery:\<query>|"query" represents a full path into the user settings store, which must evaluate to a non-zero value. The query is split into a "collection" and "propertyName" at the last slash.|
 |ConfigSettingsStoreQuery:\<query>|"query" represents a full path into the config settings store, which must evaluate to a non-zero value. The query is split into a "collection" and "propertyName" at the last slash.|
 |ActiveProjectFlavor:\<projectTypeGuid>|The term will be true whenever the currently selected project is flavored (aggregated) and has a flavor matching the given project type GUID.|
-|ActiveEditorContentType:\<contentType>|The term will be true when the selected document is a text editor with the given content type.|
+|ActiveEditorContentType:\<contentType>|The term will be true when the selected document is a text editor with the given content type. Note: when the selected document is renamed, this term does not refresh until the file is closed and reopened.|
 |ActiveProjectCapability:\<Expression>|The term is true when active project capabilities match the provided expression. An expression can be something like VB &#124; CSharp.|
 |SolutionHasProjectCapability:\<Expression>|Similar to above but term is true when solution has any loaded project that matches to the expression.|
 |SolutionHasProjectFlavor:\<projectTypeGuid>|The term will be true whenever a solution has project that is flavored (aggregated) and has a flavor matching the given project type GUID.|

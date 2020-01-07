@@ -43,5 +43,5 @@ HRESULT GetCurrentThread(
 ## Remarks  
  This method returns the thread associated with the currently running thread.  
   
-## See Also  
+## See also  
  [IDebugApplication Interface](../../winscript/reference/idebugapplication-interface.md)

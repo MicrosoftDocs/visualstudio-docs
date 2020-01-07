@@ -1,28 +1,28 @@
 ---
 title: Upgrade Dotfuscator Community
 ms.date: 03/28/2019
-ms.devlang: "dotnet"
+ms.devlang: dotnet
 ms.topic: conceptual
 keywords: Dotfuscator, Dotfuscator Community, Dotfuscator CE, PreEmptive, PreEmptive Solutions, PreEmptive Protection, protection, community edition, obfuscation, .NET, free, Visual Studio 2019, Visual Studio 2017, Visual Studio, upgrade, command line
 helpviewer_keywords:
-  - "PreEmptive Protection Dotfuscator"
-  - "Dotfuscator Community Edition"
-  - "Dotfuscator CE"
-  - "Dotfuscator Community"
-  - "Dotfuscator"
-  - "obfuscation"
-  - "protection"
-  - "Dotfuscator upgrade"
-  - "upgrade Dotfuscator"
-  - "upgrading Dotfuscator"
-  - "register Dotfuscator"
-  - "registering Dotfuscator"
-  - "Dotfuscator command line"
-  - "Dotfuscator Professional"
-description: "Learn how to upgrade the free copy of Dotfuscator Community included in Visual Studio."
+- PreEmptive Protection Dotfuscator
+- Dotfuscator Community Edition
+- Dotfuscator CE
+- Dotfuscator Community
+- Dotfuscator
+- obfuscation
+- protection
+- Dotfuscator upgrade
+- upgrade Dotfuscator
+- upgrading Dotfuscator
+- register Dotfuscator
+- registering Dotfuscator
+- Dotfuscator command line
+- Dotfuscator Professional
+description: Learn how to upgrade the free copy of Dotfuscator Community included in Visual Studio.
 ms.assetid: c7c60904-27f9-4f1f-b79b-ddf65041b810
-author: "Joe-Sewell-PreEmptive"
-ms.author: gewarren
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ---
 # Upgrade Dotfuscator Community
@@ -59,7 +59,7 @@ Additionally, Dotfuscator Professional offers tighter integration with Visual St
 For more information about the advanced application protection features of Dotfuscator Professional, visit PreEmptive Solutions' [Dotfuscator Overview page][product-about] and [compare it to Dotfuscator Community][product-compare].
 [Fully supported trials are available at preemptive.com][eval].
 
-## See Also
+## See also
 
 [This article in the full Dotfuscator Community User Guide][full]
 

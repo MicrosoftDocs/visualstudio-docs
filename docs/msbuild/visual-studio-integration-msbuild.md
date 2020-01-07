@@ -1,25 +1,25 @@
 ---
-title: "Visual Studio Integration (MSBuild)"
-titleSuffix: ""
-ms.custom: "seodec18"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Visual Studio Integration (MSBuild)
+titleSuffix: ''
+ms.custom: seodec18
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "MSBuild, reference resolution"
-  - "MSBuild, well-known target names"
-  - "MSBuild, hosting"
-  - "MSBuild, editing project files"
-  - "MSBuild, Visual Studio integration"
-  - "MSBuild, IntelliSense"
-  - "MSBuild, output groups"
-  - "MSBuild, in-process compilers"
-  - "MSBuild, design-time target execution"
+- MSBuild, reference resolution
+- MSBuild, well-known target names
+- MSBuild, hosting
+- MSBuild, editing project files
+- MSBuild, Visual Studio integration
+- MSBuild, IntelliSense
+- MSBuild, output groups
+- MSBuild, in-process compilers
+- MSBuild, design-time target execution
 ms.assetid: 06cd6d7f-8dc1-4e49-8a72-cc9e331d7bca
-author: mikejo5000
-ms.author: mikejo
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Visual Studio integration (MSBuild)
 Visual Studio hosts [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] to load and build managed projects. Because [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] is responsible for the project, almost any project in the [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] format can be successfully used in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], even if the project was authored by a different tool and has a customized build process.

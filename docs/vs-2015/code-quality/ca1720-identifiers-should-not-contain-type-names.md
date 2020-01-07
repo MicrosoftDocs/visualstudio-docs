@@ -12,8 +12,8 @@ helpviewer_keywords:
   - "CA1720"
 ms.assetid: c95ee48f-f23a-45f0-ac9e-a3c1ecfabdea
 caps.latest.revision: 17
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: "wpickett"
 ---
 # CA1720: Identifiers should not contain type names

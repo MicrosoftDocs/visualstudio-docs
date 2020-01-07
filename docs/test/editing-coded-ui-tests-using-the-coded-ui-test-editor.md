@@ -1,16 +1,16 @@
 ---
-title: "Editing Coded UI Tests"
+title: Editing Coded UI Tests
 ms.date: 11/04/2016
 ms.topic: conceptual
 f1_keywords:
-  - "vs.codedUItest.testeditor"
+- vs.codedUItest.testeditor
 helpviewer_keywords:
-  - "coded UI test, Coded UI Test Editor"
-ms.author: gewarren
+- coded UI test, Coded UI Test Editor
+ms.author: mikejo
 manager: jillfra
 ms.workload:
-  - "multiple"
-author: gewarren
+- multiple
+author: mikejo5000
 ---
 # Edit coded UI tests using the Coded UI Test Editor
 

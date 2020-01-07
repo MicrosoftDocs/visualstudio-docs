@@ -4,16 +4,16 @@ ms.date: 11/04/2016
 ms.technology: vs-ide-deployment
 ms.topic: reference
 f1_keywords:
-  - "vb.ProjectPropertiesSecurity"
-  - "vb.XBAPProjectPropertiesSecurity"
+- vb.ProjectPropertiesSecurity
+- vb.XBAPProjectPropertiesSecurity
 helpviewer_keywords:
-  - "Project Designer, Security page"
-  - "Security page in Project Designer"
-author: mikejo5000
-ms.author: mikejo
+- Project Designer, Security page
+- Security page in Project Designer
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Security Page, Project Designer
 
@@ -66,7 +66,7 @@ Opens the application manifest template (app.manifest) to configure the permissi
 
 Opens the [Advanced Security Settings Dialog Box](../../ide/reference/advanced-security-settings-dialog-box.md), which is used to configure settings for debugging the application with restricted permissions. These settings are checked during debugging, and permission exceptions indicate that your application may need more permissions than defined in a zone.
 
-## See Also
+## See also
 
 - <xref:System.Security.Permissions.WebBrowserPermission>
 - <xref:System.Security.Permissions.MediaPermission>

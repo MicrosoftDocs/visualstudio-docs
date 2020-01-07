@@ -30,6 +30,6 @@ ms.workload:
 ## Solution
  If you have a second computer, you can use remote debugging. With a two-computer setup, you can watch the screen painting on the remote computer while you operate the debugger on the host. For more information on remote debugging, see [Remote Debugging](../debugger/remote-debugging.md).
 
-## See Also
+## See also
 - [Debugging Native Code FAQs](../debugger/debugging-native-code-faqs.md)
 - [Debugging Native Code](../debugger/debugging-native-code.md)
