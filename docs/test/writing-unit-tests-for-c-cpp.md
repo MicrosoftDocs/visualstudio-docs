@@ -1,13 +1,13 @@
 ---
 title: "Write unit tests for C/C++"
 description: Write C++ unit tests in Visual Studio using various test frameworks including CTest, Boost.Test and Google Test.
-ms.date: 09/27/2019
+ms.date: 01/08/2020
 ms.topic: conceptual
-ms.author: "mblome"
+ms.author: "corob"
 manager: markl
 ms.workload:
   - "cplusplus"
-author: mikeblome
+author: corob-msft
 ---
 # Write unit tests for C/C++ in Visual Studio
 
@@ -73,7 +73,7 @@ To enable your test code to access the functions in the project to be tested, ad
 
 ### Link to object or library files
 
-If the test code doesn't export the functions that you want to test, you can add the output .obj or .lib files to the dependencies of the test project. See [To link the tests to the object or library files](/visualstudio/test/how-to-use-microsoft-test-framework-for-cpp#same_project).
+If the test code doesn't export the functions that you want to test, you can add the output .obj or .lib files to the dependencies of the test project. For more information, see [To link the tests to the object or library files](/visualstudio/test/how-to-use-microsoft-test-framework-for-cpp#object_files).
 
 ### Add #include directives for header files
 
