@@ -1,7 +1,7 @@
 ---
 title: Update a network-based installation
 description: Learn how to update a network-based Visual Studio installation by using the --layout command
-ms.date: 10/07/2019
+ms.date: 01/08/2020
 ms.custom: seodec18
 ms.topic: conceptual
 helpviewer_keywords:
@@ -22,17 +22,20 @@ It's possible to update a network installation layout of Visual Studio with the 
 
 ## How to update a network layout
 
+> [!IMPORTANT]
+> These instructions assume that you've previously created a network installation layout. For more information about how to do so, see the [Create a network installation of Visual Studio](create-a-network-installation-of-visual-studio.md) page.
+
 To refresh your network install share so that it includes the latest updates, run the `--layout` command to incrementally download updated packages.
 
 ::: moniker range="vs-2017"
 
-**New in 15.3**: If you selected a partial layout when you first created the network layout, those settings are saved. Any future layout commands use the previous options plus any new options that you specify. But if you are using a layout of an earlier version, you should use the same command-line parameters that you used when you first created the network install layout (in other words, the same workloads and languages) to update its content.
+**New in 15.3**: If you selected a partial layout when you [first created the network layout](create-a-network-installation-of-visual-studio.md), those settings are saved. Any future layout commands use the previous options plus any new options that you specify. But if you are using a layout of an earlier version, you should use the same command-line parameters that you used when you first created the network install layout (in other words, the same workloads and languages) to update its content.
 
 ::: moniker-end
 
 ::: moniker range="vs-2019"
 
-If you selected a partial layout when you first created the network layout, those settings are saved. Any future layout commands use the previous options plus any new options that you specify.
+If you selected a partial layout when you [first created the network layout](create-a-network-installation-of-visual-studio.md), those settings are saved. Any future layout commands use the previous options plus any new options that you specify.
 
 ::: moniker-end
 
@@ -159,7 +162,13 @@ c:\VSLayout\vs_enterprise.exe --layout c:\VSLayout --clean c:\VSLayout\Archive\1
 
 When you execute this command, Setup analyzes your offline cache folder to find the list of files that it will remove. You will then have a chance to review the files that are going to be deleted and confirm the deletions.
 
-[!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
+## How to get support for your offline installer
+
+If you experience a problem with your offline installation, we want to know about it. The best way to tell us is by using the [Report a Problem](../ide/how-to-report-a-problem-with-visual-studio.md) tool. When you use this tool, you can send us the telemetry and logs we need to help us diagnose and fix the problem.
+
+We also offer a [**live chat**](https://visualstudio.microsoft.com/vs/support/#talktous) (English only) support option for installation-related issues.
+
+We have other support options available, too. For a list, see our [Feedback](../ide/feedback-options.md) page.
 
 ## See also
 
