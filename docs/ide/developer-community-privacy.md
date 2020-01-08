@@ -75,7 +75,7 @@ If **Report a problem** is initiated from Visual Studio, we collect one or more 
   - Dump file
 
 > [!NOTE]
-> Log files, screenshots and recording data you send can significantly increase Microsoft's ability understand and respond to your issue.  So we recommend including them. To protect your privacy, any attached log files, screenshots and recording data are sent only to Microsoft when you provide permission by submitting the problem report with which they are included. You can see which files are included on the 'Summary' step of the 'Report a Problem' window before submitting the report. You can exclude system log files from the report by unchecking 'Attach system logs' in the 'Summary' step. For reference, see the screenshot included in this note. Collected logs and files are stored in the %temp% folder and are cleaned up regularly and after each upload.  
+> Log files, screenshots and recording data you send can significantly increase Microsoft's ability understand and respond to your issue.  So we recommend including them. To protect your privacy, any attached log files, screenshots and recording data are sent only to Microsoft when you provide permission by submitting the problem report with which they are included. You can see which files are included on the 'Summary' step of the 'Report a Problem' window before submitting the report. You can exclude system log files from the report by unchecking 'Attach system logs' in the 'Summary' step. For reference, see the screenshot included in this note. 
   > ![Report a Problem - Summary of logs collected](media/report-a-problem-logs-collected.png)
 
 
