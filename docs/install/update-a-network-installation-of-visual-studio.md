@@ -78,7 +78,7 @@ Let's walk through a few examples of how to create and then update a layout:
   vs_enterprise.exe --layout c:\VSLayout --add Microsoft.VisualStudio.Workload.NetWeb --lang fr-FR --keepLayoutVersion
   ```
 
-## How to deploy an update to client machines
+## Deploy an update to client machines
 
 Depending on how your network environment is configured, an update can either be deployed by an enterprise administrator or initiated from a client machine.
 
@@ -108,7 +108,7 @@ Depending on how your network environment is configured, an update can either be
 > [!TIP]
 > For details on how to control when update notifications are presented to users, see [Control updates to network-based Visual Studio deployments](controlling-updates-to-visual-studio-deployments.md).
 
-## How to verify a layout
+## Verify a layout
 
 Use `--verify` to perform verification on the offline cache supplied. It checks if packages files are either missing or invalid. At the end of the verification, it prints the list of missing files and invalid files.
 
@@ -126,7 +126,7 @@ Microsoft ships updates to Visual Studio periodically, so the new layout that yo
 > [!NOTE]
 > Verification works only for the latest version of a specific minor version of Visual Studio. As soon as a new version is released, verification won't work for earlier patch level releases of the same minor version.
 
-## How to fix a layout
+## Fix a layout
 
 Use `--fix` to perform the same verification as `--verify` and also try to fix the identified issues. The `--fix` process needs an internet connection, so make sure your machine is connected to the internet before you invoke `--fix`.
 
@@ -136,7 +136,7 @@ vs_enterprise.exe --layout <layoutDir> --fix
 
 The vs_enterprise.exe can be invoked inside the layoutDir.
 
-## How to remove older versions from a layout
+## Remove older versions from a layout
 
 After you perform layout updates to an offline cache, the layout cache folder may have some obsolete packages that are no longer needed by the latest Visual Studio installation. You can use the `--clean` option to remove obsolete packages from an offline cache folder.
 
@@ -162,7 +162,7 @@ c:\VSLayout\vs_enterprise.exe --layout c:\VSLayout --clean c:\VSLayout\Archive\1
 
 When you execute this command, Setup analyzes your offline cache folder to find the list of files that it will remove. You will then have a chance to review the files that are going to be deleted and confirm the deletions.
 
-## How to get support for your offline installer
+## Get support for your offline installer
 
 If you experience a problem with your offline installation, we want to know about it. The best way to tell us is by using the [Report a Problem](../ide/how-to-report-a-problem-with-visual-studio.md) tool. When you use this tool, you can send us the telemetry and logs we need to help us diagnose and fix the problem.
 
