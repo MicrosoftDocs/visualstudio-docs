@@ -34,7 +34,7 @@ The Visual Studio Natvis framework lets you customize the way Visual Studio disp
 ## <a name="BKMK_Why_create_visualizations_"></a> Why create Natvis visualizations?  
  You can use the Natvis framework to create visualization rules for the types you create so developers can see them easily during debugging.  
 
- For example, the image below shows a variable of type [Windows::UI::Xaml::Controls::TextBox](https://go.microsoft.com/fwlink/?LinkId=258422) that is displayed in the debugger without any custom visualizations applied.  
+ For example, the image below shows a variable of type [Windows::UI::Xaml::Controls::TextBox](https://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.controls.textbox.aspx) that is displayed in the debugger without any custom visualizations applied.  
 
  ![TextBox default visualization](../debugger/media/dbg-natvis-textbox-default.png "DBG_NATVIS_TextBox_Default")  
 

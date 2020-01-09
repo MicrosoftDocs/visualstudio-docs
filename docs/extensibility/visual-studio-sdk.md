@@ -54,7 +54,7 @@ The Visual Studio SDK helps you extend Visual Studio features or integrate new f
  You can find the Visual Studio SDK API reference at [Visual Studio SDK Reference](../extensibility/visual-studio-sdk-reference.md).
 
 ## Visual Studio SDK samples
- You can find open source examples of VS SDK extensions on GitHub at [Visual Studio Samples](https://aka.ms/vs2015sdksamples). This GitHub repo contains samples that illustrate various extensible features in Visual Studio.
+ You can find open source examples of VS SDK extensions on GitHub at [Visual Studio Samples](https://github.com/Microsoft/VSSDK-Extensibility-Samples). This GitHub repo contains samples that illustrate various extensible features in Visual Studio.
 
 ## Other Visual Studio SDK resources
  If you have questions about the VSSDK or want to share your experiences developing extensions, you can use the [Visual Studio Extensibility Forum](https://social.msdn.microsoft.com/Forums/vstudio/home?forum=vsx) or the [ExtendVS Gitter Chatroom](https://gitter.im/Microsoft/extendvs).

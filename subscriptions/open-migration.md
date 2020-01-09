@@ -45,7 +45,7 @@ This scenario applies to new partners, who have already placed new Open License 
 > The customer will receive a notification email informing them that a Partner has been added to the Open License. They can choose to remove the Partner’s access.
 
 ## Resources
-- [Visual Studio Licensing Whitepaper](https://aka.ms/vslicensing)
+- [Visual Studio Licensing Whitepaper](https://visualstudio.microsoft.com/wp-content/uploads/2019/06/Visual-Studio-Licensing-Whitepaper-May-2019.pdf)
 - [Visual Studio Administration and Subscriptions Support](https://visualstudio.microsoft.com/support/support-overview-vs)
 - [Volume Licensing Terms](https://www.microsoft.com/licensing/product-licensing/products.aspx)
 

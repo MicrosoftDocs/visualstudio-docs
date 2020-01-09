@@ -132,7 +132,7 @@ Visual Studio helps you understand, discuss, and communicate your users' needs b
 |Elements on a conceptual class diagram|[UML Class Diagrams: Reference](../modeling/uml-class-diagrams-reference.md)|
 |How to develop code from conceptual classes|[Model your app's architecture](../modeling/model-your-app-s-architecture.md)|
 
- In a conceptual class diagram, it is typically not useful to place arrows on the associations to represent navigability. This is because the diagram does not represent an implementation. The associations represent relationships between real-world objects. The following [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Extension make non-directional arrows the default: [Sample: UML Domain Modeling features](https://go.microsoft.com/fwlink/?LinkId=213849).
+ In a conceptual class diagram, it is typically not useful to place arrows on the associations to represent navigability. This is because the diagram does not represent an implementation. The associations represent relationships between real-world objects. The following [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Extension make non-directional arrows the default: [Sample: UML Domain Modeling features](https://docs.microsoft.com/samples/browse/?redirectedfrom=MSDN-samples).
 
 ## <a name="BusinessRules"></a> Showing Business Rules
  A business rule is a requirement that is not associated with a particular use case, and should be observed throughout the system.
@@ -237,8 +237,8 @@ Visual Studio helps you understand, discuss, and communicate your users' needs b
  [Develop tests from a model](../modeling/develop-tests-from-a-model.md)
  [Use models in your development process](../modeling/use-models-in-your-development-process.md)
  [Model your app's architecture](../modeling/model-your-app-s-architecture.md)
- [Sample VS Extension: UML Domain Modeling features](https://go.microsoft.com/fwlink/?LinkId=213849)
- [Sample VS Extension: Color UML Elements by Stereotype](https://go.microsoft.com/fwlink/?LinkID=213841)
- [Sample VS Extension: Link UML Elements to Diagrams, Files, and other Elements](https://go.microsoft.com/fwlink/?LinkID=213813)
- [Sample VS Extension: Align Shapes on a UML Diagram](https://go.microsoft.com/fwlink/?LinkID=213809)
+ [Sample VS Extension: UML Domain Modeling features](https://docs.microsoft.com/samples/browse/?redirectedfrom=MSDN-samples)
+ [Sample VS Extension: Color UML Elements by Stereotype](https://docs.microsoft.com/samples/browse/?redirectedfrom=MSDN-samples)
+ [Sample VS Extension: Link UML Elements to Diagrams, Files, and other Elements](https://docs.microsoft.com/samples/browse/?redirectedfrom=MSDN-samples)
+ [Sample VS Extension: Align Shapes on a UML Diagram](https://docs.microsoft.com/samples/browse/?redirectedfrom=MSDN-samples)
  [Video: Modeling the Business Domain](https://channel9.msdn.com/blogs/clinted/uml-with-vs-2010-part-3-modeling-the-business-domain)

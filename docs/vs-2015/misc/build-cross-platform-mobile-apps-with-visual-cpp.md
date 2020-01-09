@@ -16,4 +16,4 @@ You can build cross-platform code for Android, iOS and Windows devices by using 
  For installation instructions and code examples, see [Visual C++ for Cross-Platform Mobile Development](../cross-platform/visual-cpp-for-cross-platform-mobile-development.md).  
   
 ## See Also  
- [Download Visual Studio 2015](https://go.microsoft.com/fwlink/?linkid=517106)
+ [Download Visual Studio 2015](https://visualstudio.microsoft.com/downloads/)

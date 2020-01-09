@@ -24,7 +24,7 @@ Welcome to Visual Studio! We’ve got everything you need to create great apps f
 >
 > Click here for release notes for [Visual Studio 2017](https://www.visualstudio.com/news/releasenotes/vs2017-relnotes).
 
- Download [Visual Studio Community](https://go.microsoft.com/fwlink/?LinkId=517106) for free to start coding right away. If you want to do cross-platform development, make sure that you install the optional packages. (You can get more features with [other editions of Visual Studio](https://visualstudio.microsoft.com/vs/compare/).)
+ Download [Visual Studio Community](https://visualstudio.microsoft.com/downloads/) for free to start coding right away. If you want to do cross-platform development, make sure that you install the optional packages. (You can get more features with [other editions of Visual Studio](https://visualstudio.microsoft.com/vs/compare/).)
 
  Jump right in, create a new project, and start writing code. Choose the type of app you want to create. Or you can [take a tour](./ide/visual-studio-ide.md) of the Visual Studio IDE to get familiar with the tools.
 

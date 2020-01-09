@@ -139,7 +139,7 @@ In Visual Studio, you can create applications that connect to data in virtually 
  Describes how to create data applications that allow developers to program against a conceptual model instead of directly against a relational database.
 
  [WCF Data Services 4.5](https://msdn.microsoft.com/library/73d2bec3-7c92-4110-b905-11bb0462357a)
- Describes how to use [!INCLUDE[ssAstoria](../includes/ssastoria-md.md)] to deploy data services on the web or an intranet that implement the [Open Data Protocol (OData)](https://go.microsoft.com/fwlink/?LinkID=182204).
+ Describes how to use [!INCLUDE[ssAstoria](../includes/ssastoria-md.md)] to deploy data services on the web or an intranet that implement the [Open Data Protocol (OData)](https://www.odata.org/).
 
  [Data in Office Solutions](https://msdn.microsoft.com/library/8478c095-864b-4ed3-8a70-1fc19b411c6a)
  Contains links to topics that explain how data works in Office solutions. This includes information about schema-oriented programming, data caching, and server-side data access.

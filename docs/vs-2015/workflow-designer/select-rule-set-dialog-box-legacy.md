@@ -17,7 +17,7 @@ manager: jillfra
 # Select Rule Set Dialog Box (Legacy)
 This topic describes how use the **Select Rule Set** dialog box in the legacy [!INCLUDE[wfd1](../includes/wfd1-md.md)]. Use the legacy [!INCLUDE[wfd2](../includes/wfd2-md.md)] when you need to target either the [!INCLUDE[netfx35_long](../includes/netfx35-long-md.md)] or the [!INCLUDE[vstecwinfx](../includes/vstecwinfx-md.md)].
 
- The **Select Rule Set** dialog box is used to select a rule set that you can use with a [PolicyActivity](https://go.microsoft.com/fwlink?LinkID=65019) activity. For information about how to access the **Select Rule Set** dialog box, see [How to: Create a PolicyActivity Rule Set (Legacy)](../workflow-designer/how-to-create-a-policyactivity-rule-set-legacy.md).
+ The **Select Rule Set** dialog box is used to select a rule set that you can use with a [PolicyActivity](https://msdn2.microsoft.com/library/system.workflow.activities.policyactivity.aspx) activity. For information about how to access the **Select Rule Set** dialog box, see [How to: Create a PolicyActivity Rule Set (Legacy)](../workflow-designer/how-to-create-a-policyactivity-rule-set-legacy.md).
 
  The following table describes the user interface (UI) elements of the **Select Rule Set** dialog box.
 
@@ -35,10 +35,10 @@ This topic describes how use the **Select Rule Set** dialog box in the legacy [!
 > [!WARNING]
 > The Rules editor of the legacy [!INCLUDE[wfd2](../includes/wfd2-md.md)] that is used to target either the [!INCLUDE[netfx35_long](../includes/netfx35-long-md.md)] or the [!INCLUDE[vstecwinfx](../includes/vstecwinfx-md.md)] does not support Multitargeting.
 
- For more information about conditions, see [Using Conditions in Workflows](https://go.microsoft.com/fwlink?LinkID=65009).
+ For more information about conditions, see [Using Conditions in Workflows](https://msdn2.microsoft.com/library/bb628447.aspx).
 
 ## See Also
- [PolicyActivity](https://go.microsoft.com/fwlink?LinkID=65019)
+ [PolicyActivity](https://msdn2.microsoft.com/library/system.workflow.activities.policyactivity.aspx)
  [Rule Set Editor Dialog Box (Legacy)](../workflow-designer/rule-set-editor-dialog-box-legacy.md)
- [Using the PolicyActivity Activity](https://go.microsoft.com/fwlink?LinkID=65004)
- [Using Conditions in Workflows](https://go.microsoft.com/fwlink?LinkID=65009)
+ [Using the PolicyActivity Activity](https://msdn2.microsoft.com/library/bb675229.aspx)
+ [Using Conditions in Workflows](https://msdn2.microsoft.com/library/bb628447.aspx)

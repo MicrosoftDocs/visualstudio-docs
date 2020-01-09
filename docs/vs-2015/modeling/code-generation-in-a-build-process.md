@@ -278,5 +278,5 @@ If you update an included file, or another file read by the template, Visual Stu
 There is good guidance in the T4 MSbuild template, $(VSToolsPath)\TextTemplating\Microsoft.TextTemplating.targets
 
 - [Writing a T4 Text Template](../modeling/writing-a-t4-text-template.md)
-- [Visual Studio Visualization and Modeling SDK](https://go.microsoft.com/fwlink/?LinkID=185579)
+- [Visual Studio Visualization and Modeling SDK](https://www.visualstudio.com/)
 - [Oleg Sych: Understanding T4:MSBuild Integration](https://github.com/olegsych/T4Toolbox)

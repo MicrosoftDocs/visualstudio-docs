@@ -35,7 +35,7 @@ With Trusted Application Deployment, you can configure client computers so that 
   
 1. Obtain a digital certificate from a CA.  
   
-2. Export the certificate into the Base64 X.509 (.cer) format. For more information about certificate formats, see [Export a Certificate](https://go.microsoft.com/fwlink/?LinkId=164793).  
+2. Export the certificate into the Base64 X.509 (.cer) format. For more information about certificate formats, see [Export a Certificate](https://technet.microsoft.com/library/cc730988(WS.10).aspx).  
   
 3. From the command prompt on client computers, run the following command:  
   
@@ -45,7 +45,7 @@ With Trusted Application Deployment, you can configure client computers so that 
   
 1. Obtain a digital certificate from a CA.  
   
-2. Export the certificate into the Base64 X.509 (.cer) format. For more information about certificate formats, see [Export a Certificate](https://go.microsoft.com/fwlink/?LinkId=164793).  
+2. Export the certificate into the Base64 X.509 (.cer) format. For more information about certificate formats, see [Export a Certificate](https://technet.microsoft.com/library/cc730988(WS.10).aspx).  
   
 3. From the command prompt on client computers, run the following command:  
   
