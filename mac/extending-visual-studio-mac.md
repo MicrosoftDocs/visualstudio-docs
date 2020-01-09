@@ -70,7 +70,7 @@ Command Extensions are defined by adding entries to the `/MonoDevelop/Ide/Comman
   <Command id="DateInserter.DateInserterCommands.InsertDate"
             _label="Insert Date"
             _description="Insert the current date"
-            defaulthandler="DateInserter.InsertDateHandler" />
+            defaultHandler="DateInserter.InsertDateHandler" />
 </Extension>
 ```
 
