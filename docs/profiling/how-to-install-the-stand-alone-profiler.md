@@ -25,7 +25,7 @@ ms.workload:
 
 1. Locate the stand-alone profile installer (*vs_standaloneprofiler.exe*) where you downloaded the performance tools and run it.
 
-2. Add the paths for *vsintr.exe* and *msdis150.dll* to the system path.
+2. Add the path for *vsinstr.exe* to the system path.
 
    > [!NOTE]
    > To get the path to the profiling tools, see [Specify the path to command line tools](../profiling/specifying-the-path-to-profiling-tools-command-line-tools.md). On 64-bit computers, both 64-bit and 32-bit versions of the tools are available. To use the profiler command-line tools, you must add the tools path to the PATH environment variable of the Command Prompt window or add it to the command itself.
