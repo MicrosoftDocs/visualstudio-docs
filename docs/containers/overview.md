@@ -25,7 +25,7 @@ Docker support is available for ASP.NET projects, ASP.NET Core projects, and .NE
 
 The support for Docker in Visual Studio has changed over a number of releases in response to customer needs. There are two levels of Docker support you can add to a project, and the supported options vary by the type of project and the version of Visual Studio. With some supported project types, if you just want a container for a single project, without using orchestration, you can do that by adding Docker support.  The next level is container orchestration support, which adds appropriate support files for the particular orchestrator you choose.  
 
-With Visual Studio 2017, you can use Docker Compose and Service Fabric as container orchestration services.  You can also use Kubernetes if you install the [Visual Studio Tools for Kubernetes](https://aka.ms/get-vsk8stools).
+With Visual Studio 2017, you can use Docker Compose and Service Fabric as container orchestration services.  You can also use Kubernetes if you install the [Visual Studio Tools for Kubernetes](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vs-tools-for-kubernetes).
 
 > [!NOTE]
 > If you are using a version of Visual Studio 2017 prior to 15.8, or you are using the .NET Framework project template (not .NET Core), when you add Docker support, orchestration support using Docker Compose is added automatically. Container orchestration support, via Docker Compose, is added automatically in Visual Studio 2017 versions 15.0 to 15.7 and for .NET Framework projects.
@@ -110,7 +110,7 @@ Repeat the process with the other projects that you want to control using Docker
 ## Kubernetes support
 
 ::: moniker range="vs-2017"
-To add Kubernetes support, install the [Visual Studio Tools for Kubernetes](https://aka.ms/get-vsk8stools).
+To add Kubernetes support, install the [Visual Studio Tools for Kubernetes](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vs-tools-for-kubernetes).
 ::: moniker-end
 
 With Kubernetes support, you can enable a connection between your local project and a Kubernetes cluster running in [Azure Kubernetes Service (AKS)](/azure/aks), and thereby modify and debug your services running in AKS using Visual Studio.  This service is provided by [Azure Dev Spaces](/azure/dev-spaces/quickstart-netcore-visualstudio). Azure Dev Spaces also lets you set up separate branches of your Kubernetes services called *dev spaces* for development purposes, so you can efficiently isolate production services from working versions in development, and keep distinct modifications cleanly separated from each other.

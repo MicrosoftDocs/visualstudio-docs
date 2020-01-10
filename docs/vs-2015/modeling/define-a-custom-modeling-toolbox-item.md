@@ -133,7 +133,7 @@ To make it easy to create an element or group of elements according to a pattern
 > If you start to use a .tbxinfo file after experimenting with using diagram files on their own, you might find that the toolbox contains both the old and the new versions of a toolbox item. This can also occur if the name of the diagram file was mistyped in the .tbxinfo file. If this occurs, on the shortcut menu of the toolbox choose **Reset Toolbox**. The custom toolbox items will disappear. Restart Visual Studio, and the correct custom items will appear.
 
 ## <a name="Extension"></a> How to Distribute Toolbox Items in a Visual Studio Extension
- You can distribute toolbox items to other [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] users by packaging them into a Visual Studio Extension (VSIX). You can package commands, profiles, and other extensions into the same VSIX file. For more information, see [Deploying Visual Studio Extensions](https://go.microsoft.com/fwlink/?LinkId=160780).
+ You can distribute toolbox items to other [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] users by packaging them into a Visual Studio Extension (VSIX). You can package commands, profiles, and other extensions into the same VSIX file. For more information, see [Deploying Visual Studio Extensions](https://msdn.microsoft.com/library/dd393694(VS.100).aspx).
 
  The usual way to build a Visual Studio extension is to use the VSIX project template. To do this, you must have installed [!INCLUDE[vsipsdk](../includes/vsipsdk-md.md)].
 
@@ -214,7 +214,7 @@ To make it easy to create an element or group of elements according to a pattern
 
 3. Place each additional assembly in a folder whose name is the culture code for the language. For example, place a French version of the assembly inside a folder that is named **fr**.
 
-4. You should use a neutral culture code, typically two letters, not a specific culture such as `fr-CA`. For more information about culture codes, see [CultureInfo.GetCultures method](https://go.microsoft.com/fwlink/?LinkId=160782), which provides a complete list of culture codes.
+4. You should use a neutral culture code, typically two letters, not a specific culture such as `fr-CA`. For more information about culture codes, see [CultureInfo.GetCultures method](https://msdn.microsoft.com/library/system.globalization.cultureinfo.getcultures(VS.100).aspx), which provides a complete list of culture codes.
 
 5. Build the Visual Studio Extension, and distribute it.
 

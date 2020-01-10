@@ -28,7 +28,7 @@ In Visual Studio, you can use a *UML class diagram* to describe data types and t
  To see which versions of Visual Studio support this feature, see [Version support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport).
 
 > [!NOTE]
-> This topic is about UML class diagrams. There is another kind of class diagram, which you can create and use to visualize program code. See [Designing and Viewing Classes and Types](https://go.microsoft.com/fwlink/?LinkId=142231).
+> This topic is about UML class diagrams. There is another kind of class diagram, which you can create and use to visualize program code. See [Designing and Viewing Classes and Types](https://msdn.microsoft.com/library/ab7aty24.aspx).
 
 ## <a name="Using"></a> Using UML Class Diagrams
  You can use a UML class diagram for a variety of purposes:

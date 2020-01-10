@@ -23,14 +23,14 @@ To install a Shell app you must perform the following steps.
   
 - Create a Setup bootstrapper.  
   
-  All of the example code in this document comes from the [Shell Deployment Sample](https://go.microsoft.com/fwlink/?LinkId=262245), which you can download from the Code Gallery on the MSDN website. The sample shows the results of performing each of these steps.  
+  All of the example code in this document comes from the [Shell Deployment Sample](https://code.msdn.microsoft.com/Sample-setup-program-for-81ca73f7), which you can download from the Code Gallery on the MSDN website. The sample shows the results of performing each of these steps.  
   
 ## Prerequisites  
  To perform the procedures that this topic describes, the following tools must be installed on your computer.  
   
 - The Visual Studio SDK  
   
-- The [Windows Installer XML Toolset](https://go.microsoft.com/fwlink/?LinkId=82720) version 3.6  
+- The [Windows Installer XML Toolset](http://wix.sourceforge.net/) version 3.6  
   
   The sample also requires the Microsoft Visualization and Modeling SDK, which not all shells require.  
   
@@ -48,7 +48,7 @@ To install a Shell app you must perform the following steps.
 2. For each project that contains a VSIX manifest, edit the build tasks to output the content to the location from which your MSI will install. Include the VSIX manifest in the build output, but don't build a .vsix file.  
   
 ## Creating an MSI for Your Shell  
- To build your MSI package, we recommend that you use the [Windows Installer XML Toolset](https://go.microsoft.com/fwlink/?LinkId=82720) because it gives greater flexibility than a standard Setup project.  
+ To build your MSI package, we recommend that you use the [Windows Installer XML Toolset](http://wix.sourceforge.net/) because it gives greater flexibility than a standard Setup project.  
   
  In your Product.wxs file, set detection blocks and the layout of Shell components.  
   

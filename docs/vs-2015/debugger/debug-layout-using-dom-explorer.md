@@ -24,7 +24,7 @@ manager: jillfra
 
 Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "windows_and_phone_content")  
   
- The **Layout** tab of DOM Explorer shows the [CSS box model](https://go.microsoft.com/fwlink/?LinkID=238778) for the selected element in a [!INCLUDE[win8_appname_long](../includes/win8-appname-long-md.md)] app, Windows Phone Store app, or an app created using Visual Studio Tools for Apache Cordova. You can use this visual representation of the box model to identify and modify layout-related values that affect the appearance of elements.  
+ The **Layout** tab of DOM Explorer shows the [CSS box model](https://www.w3.org/TR/CSS2/box.html) for the selected element in a [!INCLUDE[win8_appname_long](../includes/win8-appname-long-md.md)] app, Windows Phone Store app, or an app created using Visual Studio Tools for Apache Cordova. You can use this visual representation of the box model to identify and modify layout-related values that affect the appearance of elements.  
   
 > [!TIP]
 > Changes you make in the **Layout** tab aren't permanent. You can make permanent changes to your source code, and then refresh your app by using the **Refresh Windows app** button (Windows Store and Windows Phone Store apps only) on the Debug toolbar. This way, you can avoid restarting the debugger.  

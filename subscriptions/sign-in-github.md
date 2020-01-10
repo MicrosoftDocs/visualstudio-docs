@@ -44,7 +44,7 @@ A:  Not all Microsoft products can access GitHub.com from their sign-in page—f
 A:  Not at all. This doesn’t change your GitHub password; you’ll just have another way to sign in to your Microsoft account. Whenever you sign in using your email address, we’ll offer you the choice of signing in with your Microsoft account password or going to GitHub to sign in. We strongly recommend that, if you need to add a password, you make sure it’s different from the password for your GitHub account.
 
 #### Q: I want to add the Authenticator app to the account I created using GitHub.  Can I do that?
-A:  No problem — just download the app and sign in using your email address. When you sign in with your email address, you'll be prompted to choose either the [Authenticator app](https://go.microsoft.com/fwlink/?linkid=2090219) or GitHub as your credential.
+A:  No problem — just download the app and sign in using your email address. When you sign in with your email address, you'll be prompted to choose either the [Authenticator app](https://www.microsoft.com/account/authenticator#getapp) or GitHub as your credential.
 
 #### Q: I've enabled two-factor authentication on both my GitHub and Microsoft accounts (MSA), but when I sign in to my MSA, I'm still asked to authenticate twice.  Why?
 A: Because of security restrictions, Microsoft counts signing in with GitHub as a single-factor verification, even if you have two-step verification enabled there. Therefore, you’ll have to authenticate again for your Microsoft account. 

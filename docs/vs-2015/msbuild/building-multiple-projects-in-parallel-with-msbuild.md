@@ -69,4 +69,4 @@ msbuild.exe myproj.proj /maxcpucount:3
 ## See Also  
  [Using Multiple Processors to Build Projects](../msbuild/using-multiple-processors-to-build-projects.md)   
  [Writing Multi-Processor-Aware Loggers](../msbuild/writing-multi-processor-aware-loggers.md)   
- [Tuning C++ Build Parallelism blog](https://go.microsoft.com/fwlink/?LinkId=251457)
+ [Tuning C++ Build Parallelism blog](https://blogs.msdn.com/b/visualstudio/archive/2010/03/08/tuning-c-build-parallelism-in-vs2010.aspx)

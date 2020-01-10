@@ -135,5 +135,5 @@ For information about setting up environments, see:
 ## See also
 
 * [Install and configure test agents](../../test/lab-management/install-configure-test-agents.md)
-* [Visual Studio Lab Management Guide](https://aka.ms/vsarsolutions)
+* [Visual Studio Lab Management Guide](https://blogs.msdn.microsoft.com/visualstudioalmrangers/2015/04/22/library-of-tooling-and-guidance-solutions-aka-msvsarsolutions/)
 * [Microsoft DevOps Blog](https://devblogs.microsoft.com/devops/)

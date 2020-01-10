@@ -30,7 +30,7 @@ Authenticode* is a Microsoft technology that uses industry-standard cryptography
 ## Authenticode and Code Signing  
  A *digital certificate* is a file that contains a cryptographic public/private key pair, along with metadata describing the publisher to whom the certificate was issued and the agency that issued the certificate.  
   
- There are various types of Authenticode certificates. Each one is configured for different types of signing. For [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] applications, you must have an Authenticode certificate that is valid for code signing. If you attempt to sign a [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] application with another type of certificate, such as a digital e-mail certificate, it will not work. For more information, see [Introduction to Code Signing](https://go.microsoft.com/fwlink/?LinkId=179452).  
+ There are various types of Authenticode certificates. Each one is configured for different types of signing. For [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] applications, you must have an Authenticode certificate that is valid for code signing. If you attempt to sign a [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] application with another type of certificate, such as a digital e-mail certificate, it will not work. For more information, see [Introduction to Code Signing](https://msdn.microsoft.com/library/ms537361.aspx).  
   
  You can obtain a certificate for code signing in one of three ways:  
   
@@ -59,7 +59,7 @@ Authenticode* is a Microsoft technology that uses industry-standard cryptography
   
 - Uninstall the application, and reinstall a new version with a valid certificate.  
   
-- Create a command-line assembly that updates the certificate. Step-by-step information about this process can be found at [Microsoft Support Article 925521](https://go.microsoft.com/fwlink/?LinkId=179454).  
+- Create a command-line assembly that updates the certificate. Step-by-step information about this process can be found at [Microsoft Support Article 925521](https://support.microsoft.com/kb/925521).  
   
 ### Storing Certificates  
   

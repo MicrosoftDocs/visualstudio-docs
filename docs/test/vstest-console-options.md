@@ -49,7 +49,7 @@ The following table lists all the options for *VSTest.Console.exe* and short des
 |**/ResultsDirectory:[*path*]**|Test results directory will be created in specified path if not exists.<br />Example: `/ResultsDirectory:<pathToResultsDirectory>`|
 |**/ParentProcessId:[*parentProcessId*]**|Process ID of the Parent Process responsible for launching current process.|
 |**/Port:[*port*]**|The Port for socket connection and receiving the event messages.|
-|**/Collect:[*dataCollector friendlyName*]**|Enables data collector for the test run. [More information](https://aka.ms/vstest-collect).|
+|**/Collect:[*dataCollector friendlyName*]**|Enables data collector for the test run. [More information](https://github.com/Microsoft/vstest-docs/blob/master/docs/analyze.md).|
 
 > [!TIP]
 > The options and values are not case-sensitive.
