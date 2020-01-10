@@ -26,13 +26,13 @@ You can find Visual Studio samples on the [MSDN Code Gallery](https://code.msdn.
 |----------|-----------------|
 |[Windows Developer Center Samples](https://code.msdn.microsoft.com/windowsapps/)|Shows how to develop [!INCLUDE[win8_appname_long](../includes/win8-appname-long-md.md)] apps.|
 |[.NET Framework Samples](https://msdn.microsoft.com/177055f8-4a1f-43e7-aee6-995c196079b1)|Shows various aspects of the [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)] in C# and Visual Basic.|
-|[C# Samples](https://docs.microsoft.com/samples/browse/?languages=csharp)|Shows how to use different features of C#.|
-|[Visual Basic Samples](https://docs.microsoft.com/samples/browse/?languages=vb)|Shows how to use different features of Visual Basic.|
-|[F# Samples](https://docs.microsoft.com/samples/browse/?languages=fsharp)|Shows how to use different features of F#.|
-|[JavaScript Samples](https://docs.microsoft.com/samples/browse/?languages=javascript)|Shows how to use different features in JavaScript.|
-|[C++ Samples](https://docs.microsoft.com/samples/browse/?languages=cpp)|Shows how to use different features in C++.|
-|[DirectX Samples](https://docs.microsoft.com/samples/browse/?products=xbox)|Shows how to use DirectX.|
-|[Office Development Samples](https://docs.microsoft.com/samples/browse/?products=office)|Shows how to use Office development tools in Visual Studio. For the most current samples, see [MSDN Developer Samples: Learn Through Code](https://code.msdn.microsoft.com/site/search?query=vsto&f%5B1%5D.Value=vsto&f%5B1%5D.Type=SearchText&f%5B0%5D.Value=11.0&f%5B0%5D.Type=VisualStudioVersion&f%5B0%5D.Text=Visual Studio 11&ac=8).|
+|[C# Samples](/samples/browse/?languages=csharp)|Shows how to use different features of C#.|
+|[Visual Basic Samples](/samples/browse/?languages=vb)|Shows how to use different features of Visual Basic.|
+|[F# Samples](/samples/browse/?languages=fsharp)|Shows how to use different features of F#.|
+|[JavaScript Samples](/samples/browse/?languages=javascript)|Shows how to use different features in JavaScript.|
+|[C++ Samples](/samples/browse/?languages=cpp)|Shows how to use different features in C++.|
+|[DirectX Samples](/samples/browse/?products=xbox)|Shows how to use DirectX.|
+|[Office Development Samples](/samples/browse/?products=office)|Shows how to use Office development tools in Visual Studio. For the most current samples, see [MSDN Developer Samples: Learn Through Code](https://code.msdn.microsoft.com/site/search?query=vsto&f%5B1%5D.Value=vsto&f%5B1%5D.Type=SearchText&f%5B0%5D.Value=11.0&f%5B0%5D.Type=VisualStudioVersion&f%5B0%5D.Text=Visual Studio 11&ac=8).|
 |[VSSDK Samples](https://github.com/Microsoft/VSSDK-Extensibility-Samples)|Shows how to extend Visual Studio.|
 
 ## See Also

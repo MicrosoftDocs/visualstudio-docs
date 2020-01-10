@@ -45,8 +45,8 @@ This walkthrough shows how to add a tracking property to a domain model.
 |||
 |-|-|
 |[!INCLUDE[vsprvs](../includes/vsprvs-md.md)]|[http://go.microsoft.com/fwlink/?LinkID=185579](https://www.visualstudio.com/)|
-|[!INCLUDE[vssdk_current_short](../includes/vssdk-current-short-md.md)]|[http://go.microsoft.com/fwlink/?LinkID=185580](https://docs.microsoft.com/azure/devops/integrate/index?view=azure-devops&viewFallbackFrom=vsts)|
-|[!INCLUDE[dsl](../includes/dsl-md.md)]|[http://go.microsoft.com/fwlink/?LinkID=185581](https://docs.microsoft.com/samples/browse/?redirectedfrom=MSDN-samples)|
+|[!INCLUDE[vssdk_current_short](../includes/vssdk-current-short-md.md)]|[http://go.microsoft.com/fwlink/?LinkID=185580](/azure/devops/integrate/index)|
+|[!INCLUDE[dsl](../includes/dsl-md.md)]|[Modeling SDK](https://www.microsoft.com/download/details.aspx?id=48148)|
 
 ## Creating the DSL Project
  Create the project for your domain-specific language.

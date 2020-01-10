@@ -56,7 +56,7 @@ ms.workload:
 >
 >If the Installer is targeting the current user, it does not need to install to the WOW6432Node because the HKEY_CURRENT_USER\Software path is shared.
 >
->For more information please see [32-bit and 64-bit Application Data in the Registry](https://docs.microsoft.com/windows/win32/sysinfo/32-bit-and-64-bit-application-data-in-the-registry)
+>For more information please see [32-bit and 64-bit Application Data in the Registry](/windows/win32/sysinfo/32-bit-and-64-bit-application-data-in-the-registry)
 
  The following table lists the entries under this registry key.
 

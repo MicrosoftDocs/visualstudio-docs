@@ -22,7 +22,7 @@ Using these scripts, you can provision customized versions (also known as dev an
 
 * Azure SDK 2.3 or later. See [Visual Studio Downloads](https://visualstudio.microsoft.com/downloads/). (You don't need the Azure SDK to generate the scripts for web projects. This feature is for web projects, not web roles in cloud services.)
 * Azure PowerShell 0.7.4 or later. See [How to install and configure Azure PowerShell](/powershell/azure/overview).
-* [Windows PowerShell 3.0](https://docs.microsoft.com/aspnet/aspnet/overview/developing-apps-with-windows-azure/building-real-world-cloud-apps-with-windows-azure/source-control) or later.
+* [Windows PowerShell 3.0](/aspnet/aspnet/overview/developing-apps-with-windows-azure/building-real-world-cloud-apps-with-windows-azure/source-control) or later.
 
 ## Additional tools
 

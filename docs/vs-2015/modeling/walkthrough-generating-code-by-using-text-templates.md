@@ -24,7 +24,7 @@ Code generation allows you to produce program code that is strongly typed, and y
  In this example project, a template reads a sample XML file, and generates classes that correspond to each type of node. In the hand-written code, you can use these classes to navigate the XML file. You can also run your application on any other files that use the same node types. The purpose of the sample XML file is to provide examples of all the node types that you want your application to deal with.
 
 > [!NOTE]
-> The application [xsd.exe](https://docs.microsoft.com/dotnet/standard/serialization/xml-schema-definition-tool-xsd-exe), which is included with [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], can generate strongly-typed classes from XML files. The template shown here is provided as an example.
+> The application [xsd.exe](/dotnet/standard/serialization/xml-schema-definition-tool-xsd-exe), which is included with [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], can generate strongly-typed classes from XML files. The template shown here is provided as an example.
 
  Here is the sample file:
 

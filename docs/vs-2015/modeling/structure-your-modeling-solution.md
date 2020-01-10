@@ -29,7 +29,7 @@ In a medium or large project, the structure of the team is based on the structur
 
 #### To divide an application into layers
 
-1. Base the structure of your solutions on the structure of your application, such as web application, service application, or desktop application. A variety of common architectures is discussed in [Application Archetypes in the Microsoft Application Architecture Guide](https://docs.microsoft.com/previous-versions/msp-n-p/ee658107(v=pandp.10)?redirectedfrom=MSDN).
+1. Base the structure of your solutions on the structure of your application, such as web application, service application, or desktop application. A variety of common architectures is discussed in [Application Archetypes in the Microsoft Application Architecture Guide](/previous-versions/msp-n-p/ee658107(v=pandp.10)).
 
 2. Create a [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] solution, which we will call the Architecture solution. This solution will be used to create the overall design of the system. It will contain models but no code.
 

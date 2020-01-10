@@ -123,7 +123,7 @@ To find out more about the many improvements and new features in Visual Studio A
 
 - **C# / Xamarin**. Use [Xamarin](https://msdn.microsoft.com/library/dn879698\(v=vs.140\).aspx) to build native apps for Windows, iOS, and Android in Visual Studio with C#.
 
-     [Debugging](https://docs.microsoft.com/xamarin/ios/deploy-test/debugging-in-xamarin-ios?tabs=windows) (iOS) and [Debug on Device](https://docs.microsoft.com/xamarin/android/deploy-test/debugging/debug-on-device?tabs=windows) in the [Xamarin developer guides](https://docs.microsoft.com/xamarin/) describe the debugging experience.
+     [Debugging](/xamarin/ios/deploy-test/debugging-in-xamarin-ios?tabs=windows) (iOS) and [Debug on Device](/xamarin/android/deploy-test/debugging/debug-on-device?tabs=windows) in the [Xamarin developer guides](/xamarin/) describe the debugging experience.
 
 - **C++ / Android**. Use the [Visual C++ for Cross-Platform Mobile Development](cross-platform/visual-cpp-for-cross-platform-mobile-development.md) templates along with third-party tools like the [Android NDK](https://developer.android.com/tools/sdk/ndk/index.html) to create native apps for Windows and Android.
 

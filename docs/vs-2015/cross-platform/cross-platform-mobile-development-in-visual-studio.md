@@ -70,7 +70,7 @@ You can build apps for Android, iOS, and Windows devices by using Visual Studio.
 
 |**Learn more**|
 |--------------------|
-|Choose whether to share your code by using shared projects, Portable Class Library projects, or both.<br /><br /> [Sharing code across platforms](https://devblogs.microsoft.com/dotnet/sharing-code-across-platforms/) (.NET Framework blog)<br /><br /> [Sharing Code Options](https://docs.microsoft.com/xamarin/cross-platform/app-fundamentals/code-sharing) (Xamarin)<br /><br /> [Code sharing options with the .NET Framework](https://msdn.microsoft.com/library/dn720832.aspx) (MSDN Library)|
+|Choose whether to share your code by using shared projects, Portable Class Library projects, or both.<br /><br /> [Sharing code across platforms](https://devblogs.microsoft.com/dotnet/sharing-code-across-platforms/) (.NET Framework blog)<br /><br /> [Sharing Code Options](/xamarin/cross-platform/app-fundamentals/code-sharing) (Xamarin)<br /><br /> [Code sharing options with the .NET Framework](https://msdn.microsoft.com/library/dn720832.aspx) (MSDN Library)|
 
 ### <a name="WindowsHTML"></a> Target Windows 10 devices
  ![Windows Devices](../cross-platform/media/windowsdevices.png "WindowsDevices")
@@ -110,7 +110,7 @@ You can build apps for Android, iOS, and Windows devices by using Visual Studio.
 |**Learn more**|
 |--------------------|
 |[Install Visual Studio](https://visualstudio.microsoft.com/vs/community/) (VisualStudio.com)|
-|[Get started with Visual Studio Tools for Apache Cordova](https://docs.microsoft.com/visualstudio/cross-platform/tools-for-cordova/?view=toolsforcordova-2017) (taco.visualstudio.com)|
+|[Get started with Visual Studio Tools for Apache Cordova](/visualstudio/cross-platform/tools-for-cordova/?view=toolsforcordova-2017) (taco.visualstudio.com)|
 |[Learn about the Visual Studio Emulator for Android](https://visualstudio.microsoft.com/vs/msft-android-emulator/) (VisualStudio.com)|
 
 ## <a name="CPP"></a> Build an app for Android and Windows (C++)

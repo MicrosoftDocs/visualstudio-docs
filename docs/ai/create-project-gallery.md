@@ -17,7 +17,7 @@ Azure Machine Learning is integrated with Visual Studio Tools for AI. You can us
 Once you've [installed Visual Studio Tools for AI](installation.md), it's easy to create a new Python project using pre-made recipes in the Azure Machine Learning Sample Gallery.
 
 > [!NOTE]
-> Azure Machine Learning Workbench must be installed. To install it please see the [Azure Machine Learning installation quickstart](https://docs.microsoft.com/azure/machine-learning/preview/quickstart-installation)
+> Azure Machine Learning Workbench must be installed. To install it please see the [Azure Machine Learning installation quickstart](/azure/machine-learning/preview/quickstart-installation)
 
 1. Launch Visual Studio. Open the **Server Explorer** by opening the **AI Tools** menu and choosing **Select Cluster**
 
