@@ -34,9 +34,9 @@ UML models can be integrated with other models and with domain-specific language
 
    For more information, see [Define a profile to extend UML](../modeling/define-a-profile-to-extend-uml.md).
 
-   - **References.** You can attach a set of strings to any UML element. You could write code that stores the information such as a filename or the GUID of another element. This can be done without providing additional definitions. References are not directly visible to the user.
+- **References.** You can attach a set of strings to any UML element. You could write code that stores the information such as a filename or the GUID of another element. This can be done without providing additional definitions. References are not directly visible to the user.
 
-     There are two ways to encode references to model elements:
+There are two ways to encode references to model elements:
 
 - **GUID and Filename** of the target model element and the model that contains it, or a particular diagram that displays it.
 
