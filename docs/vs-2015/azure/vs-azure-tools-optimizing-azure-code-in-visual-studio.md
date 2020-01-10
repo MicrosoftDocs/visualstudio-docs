@@ -25,8 +25,6 @@ AP0000
 ### Description
 If you use the default (in-process) session state mode for cloud applications, you can lose session state.
 
-Please share your ideas and feedback at [Azure Code Analysis feedback](https://social.msdn.microsoft.com/Forums/en-US/home).
-
 ### Reason
 By default, the session state mode specified in the web.config file is in-process. Also, if no entry specified in the configuration file, the Session State mode defaults to in-process. The in-process mode stores session state in memory on the web server. When an instance is restarted or a new instance is used for load balancing or failover support, the session state stored in memory on the web server isn’t saved. This situation prevents the application from being scalable on the cloud.
 
@@ -87,8 +85,6 @@ AP2000
 ### Description
 Use Shared Access Signature (SAS) for authentication. Access Control Service (ACS) is being deprecated for service bus authentication.
 
-Please share your ideas and feedback at [Azure Code Analysis feedback](https://social.msdn.microsoft.com/Forums/en-US/home).
-
 ### Reason
 For enhanced security, Azure Active Directory is replacing ACS authentication with SAS authentication. See [Azure Active Directory is the future of ACS](https://cloudblogs.microsoft.com/enterprisemobility/2013/06/22/azure-active-directory-is-the-future-of-acs/) for information on the transition plan.
 
@@ -103,8 +99,7 @@ BrokeredMessage receivedMessage = sc.Receive();
 
 See the following topics for more information.
 
-* For an overview, see [Shared Access Signature Authentication with Service Bus](https://msdn.microsoft.com/library/dn170477.aspx)
-* [How to use Shared Access Signature Authentication with Service Bus](https://msdn.microsoft.com/library/dn205161.aspx)
+* [How to use Shared Access Signature Authentication with Service Bus](/azure/service-bus-messaging/service-bus-sas)
 
 ## Consider using OnMessage method to avoid "receive loop"
 ### ID
@@ -112,8 +107,6 @@ AP2002
 
 ### Description
 To avoid going into a "receive loop," calling the **OnMessage** method is a better solution for receiving messages than calling the **Receive** method. However, if you must use the **Receive** method, and you specify a non-default server wait time, make sure the server wait time is more than one minute.
-
-Please share your ideas and feedback at [Azure Code Analysis feedback](https://social.msdn.microsoft.com/Forums/en-US/home).
 
 ### Reason
 When calling **OnMessage**, the client starts an internal message pump that constantly polls the queue or subscription. This message pump contains an infinite loop that issues a call to receive messages. If the call times out, it issues a new call. The timeout interval is determined by the value of the [OperationTimeout](https://msdn.microsoft.com/library/microsoft.servicebus.messaging.messagingfactorysettings.operationtimeout.aspx) property of the [MessagingFactory](https://msdn.microsoft.com/library/microsoft.servicebus.messaging.messagingfactory.aspx)that’s being used.
@@ -217,8 +210,6 @@ AP2003
 ### Description
 Use asynchronous Service Bus methods to improve performance with brokered messaging.
 
-Please share your ideas and feedback at [Azure Code Analysis feedback](https://social.msdn.microsoft.com/Forums/en-US/home).
-
 ### Reason
 Using asynchronous methods enables application program concurrency because executing each call doesn’t block the main thread. When using Service Bus messaging methods, performing an operation (send, receive, delete, etc.) takes time. This time includes the processing of the operation by the Service Bus service in addition to the latency of the request and the reply. To increase the number of operations per time, operations must execute concurrently. For more information please refer to [Best Practices for Performance Improvements Using Service Bus Brokered Messaging](https://msdn.microsoft.com/library/azure/hh528527.aspx).
 
@@ -233,8 +224,6 @@ AP2004
 
 ### Description
 Partition Service Bus queues and topics for better performance with Service Bus messaging.
-
-Please share your ideas and feedback at [Azure Code Analysis feedback](https://social.msdn.microsoft.com/Forums/en-US/home).
 
 ### Reason
 Partitioning Service Bus queues and topics increases performance throughput and service availability because the overall throughput of a partitioned queue or topic is no longer limited by the performance of a single message broker or messaging store. In addition, a temporary outage of a messaging store doesn’t make a partitioned queue or topic unavailable. For more information, see [Partitioning Messaging Entities](https://msdn.microsoft.com/library/azure/dn520246.aspx).
@@ -258,8 +247,6 @@ AP3001
 
 ### Description
 You should avoid using SharedAccessStartTimeset to the current time to immediately start the Shared Access policy. You only need to set this property if you want to start the Shared Access policy at a later time.
-
-Please share your ideas and feedback at [Azure Code Analysis feedback](https://social.msdn.microsoft.com/Forums/en-US/home).
 
 ### Reason
 Clock synchronization causes a slight time difference among datacenters. For example, you would logically think setting the start time of a storage SAS policy as the current time by using DateTime.Now or a similar method will cause the SAS policy to take effect immediately. However, the slight time differences between datacenters can cause problems with this since some datacenter times might be slightly later than the start time, while others ahead of it. As a result, the SAS policy can expire quickly (or even immediately) if the policy lifetime is set too short.
@@ -341,8 +328,6 @@ AP4000
 ### Description
 Using the [ConfigurationManager](https://msdn.microsoft.com/library/system.configuration.configurationmanager\(v=vs.110\).aspx) class for projects such as Azure Website and Azure mobile services won't introduce runtime issues. As a best practice, however, it's a good idea to use Cloud[ConfigurationManager](https://msdn.microsoft.com/library/system.configuration.configurationmanager\(v=vs.110\).aspx) as a unified way of managing configurations for all Azure Cloud applications.
 
-Please share your ideas and feedback at [Azure Code Analysis feedback](https://social.msdn.microsoft.com/Forums/en-US/home).
-
 ### Reason
 CloudConfigurationManager reads the configuration file appropriate to the application environment.
 
@@ -378,8 +363,6 @@ AP4001
 ### Description
 If you use hard-coded connection strings and you need to update them later, you’ll have to make changes to your source code and recompile the application. However, if you store your connection strings in a configuration file, you can change them later by simply updating the configuration file.
 
-Please share your ideas and feedback at [Azure Code Analysis feedback](https://social.msdn.microsoft.com/Forums/en-US/home).
-
 ### Reason
 Hard-coding connection strings is a bad practice because it introduces problems when connection strings need to be changed quickly. In addition, if the project needs to be checked in to source control, hard-coded connection strings introduce security vulnerabilities since the strings can be viewed in the source code.
 
@@ -398,8 +381,6 @@ AP5000
 
 ### Description
 Instead of configuring diagnostics settings in your code such as by using the Microsoft.WindowsAzure.Diagnostics programming API, you should configure diagnostics settings in the diagnostics.wadcfg file. (Or, diagnostics.wadcfgx if you use Azure SDK 2.5). By doing this, you can change diagnostics settings without having to recompile your code.
-
-Please share your ideas and feedback at [Azure Code Analysis feedback](https://social.msdn.microsoft.com/Forums/en-US/home).
 
 ### Reason
 Before Azure SDK 2.5 (which uses Azure diagnostics 1.3), Azure Diagnostics (WAD) could be configured by using several different methods: adding it to the configuration blob in storage, by using imperative code, declarative configuration, or the default configuration. However, the preferred way to configure diagnostics is to use an XML configuration file (diagnostics.wadcfg or diagnostics.wadcfgx for SDK 2.5 and later) in the application project. In this approach, the diagnostics.wadcfg file completely defines the configuration and can be updated and redeployed at will. Mixing the use of the diagnostics.wadcfg configuration file with the programmatic methods of setting configurations by using the [DiagnosticMonitor](https://msdn.microsoft.com/library/microsoft.windowsazure.diagnostics.diagnosticmonitor.aspx)or [RoleInstanceDiagnosticManager](https://msdn.microsoft.com/library/microsoft.windowsazure.diagnostics.management.roleinstancediagnosticmanager.aspx) classes can lead to confusion. See [Initialize or Change Azure Diagnostics Configuration](https://msdn.microsoft.com/library/azure/hh411537.aspx) for more information.
@@ -423,8 +404,6 @@ AP6000
 
 ### Description
 To save memory, avoid declaring DBContext objects as static.
-
-Please share your ideas and feedback at [Azure Code Analysis feedback](https://social.msdn.microsoft.com/Forums/en-US/home).
 
 ### Reason
 DBContext objects hold the query results from each call. Static DBContext objects are not disposed until the application domain is unloaded. Therefore, a static DBContext object can consume large amounts of memory.
