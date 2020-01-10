@@ -36,7 +36,7 @@ To find the **Suppress JIT optimization on module load (Managed only)** option, 
 ![Suppress JIT Optimization](../debugger/media/suppress-jit-tool-options.PNG "Suppress JIT Optimization")
 
 ## When should you check the 'Suppress JIT optimization' option?
-Check this option when you downloaded the DLLs from another source, such as a nuget package, and you want to debug the code in this DLL. In order for this to work, you must also find the symbol (.pdb) file for this DLL.
+Check this option when you downloaded the DLLs from another source, such as a nuget package, and you want to debug the code in this DLL. In order for suppression to work, you must also find the symbol (.pdb) file for this DLL.
 
 If you are only interested in debugging the code you are building locally, it is best to leave this option unchecked, as, in some cases, enabling this option will significantly slow down debugging. There are two reason for this slow down:
 
