@@ -108,7 +108,7 @@ Add a project to the same solution and call it *MyWebAPI*. Select **API** as the
         }
       ```
 
-    With .NET Core 3.1, you don't need this, because you can use the WeatherForecast API that is already there. However, you need to comment out the call to <xref:Microsoft.AspNetCore.Builder.HttpsPolicyBuilderExtensions.UseHttpsRedirection>  in the `Configure` method in *Startup.cs*, because this code uses HTTP, not HTTPS, to call the Web API.
+    With .NET Core 3.1, you don't need this, because you can use the WeatherForecast API that is already there. However, you need to comment out the call to <xref:Microsoft.AspNetCore.Builder.HttpsPolicyBuilderExtensions.UseHttpsRedirection*>  in the `Configure` method in *Startup.cs*, because this code uses HTTP, not HTTPS, to call the Web API.
 
     ```csharp
                 //app.UseHttpsRedirection();
