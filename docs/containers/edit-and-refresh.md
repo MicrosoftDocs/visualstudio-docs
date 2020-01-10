@@ -56,7 +56,7 @@ To quickly iterate changes, you can start your application in a container. Then,
 
 1. Make sure that Docker is set up to use the container type (Linux or Windows) that you are using. Right-click on the Docker icon on the Taskbar, and choose **Switch to Linux containers** or **Switch to Windows containers** as appropriate.
 
-1. (.NET Core 3 and later only) Editing your code and refreshing the running site as described in this section is not enabled in the default templates in .NET Core >= 3.0. To enable it, add the NuGet package [Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation](https://www.nuget.org/packages/Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation/). In *Startup.cs*, add a call to <xref:AddRazorRuntimeCompilation> to the code in the `ConfigureServices` method. You might only want this enabled in DEBUG mode, so code it as follows:
+1. (.NET Core 3 and later only) Editing your code and refreshing the running site as described in this section is not enabled in the default templates in .NET Core >= 3.0. To enable it, add the NuGet package [Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation](https://www.nuget.org/packages/Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation/). In *Startup.cs*, add a call to the extension method `IMvcBuilder.AddRazorRuntimeCompilation` to the code in the `ConfigureServices` method. You only need this enabled in DEBUG mode, so code it as follows:
 
     ```csharp
     public IWebHostEnvironment Env { get; set; }
