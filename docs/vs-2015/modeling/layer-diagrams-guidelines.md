@@ -18,7 +18,7 @@ manager: jillfra
 # Layer Diagrams: Guidelines
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-Describe your app's architecture at a high level by creating *layer diagrams* in Visual Studio. Make sure that your code stays consistent with this design by validating your code with a layer diagram. You can also include layer validation in your build process. See [Channel 9 Video: Design and validate your architecture using layer diagrams](https://go.microsoft.com/fwlink/?LinkID=252073).
+Describe your app's architecture at a high level by creating *layer diagrams* in Visual Studio. Make sure that your code stays consistent with this design by validating your code with a layer diagram. You can also include layer validation in your build process. See [Channel 9 Video: Design and validate your architecture using layer diagrams](https://s.ch9.ms/Series/Visual-Studio-2012-Premium-and-Ultimate-Overview/Visual-Studio-Ultimate-2012-Using-layer-diagrams-to-design-and-validate-your-architecture).
 
  To see which versions of Visual Studio support this feature, see [Version support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport).
 
@@ -60,7 +60,7 @@ Describe your app's architecture at a high level by creating *layer diagrams* in
 ## <a name="CreateLayers"></a> Define layers to represent functional areas or components
  Layers represent logical groups of *artifacts*, such as projects, code files, namespaces, classes, and methods. You can create layers from artifacts from Visual C# .NET and Visual Basic .NET projects, or you can attach specifications or plans to a layer by linking documents, such as Word files or PowerPoint presentations. Each layer appears as a rectangle on the diagram and shows the number of artifacts that are linked to it. A layer can contain nested layers that describe more specific tasks.
 
- As a general guideline, name layers according to their function, for example, "Presentation" or "Services". If the artifacts are closely interdependent, place them in the same layer. If the artifacts can be updated separately or used in separate applications, place them in different layers. To learn about layering patterns, visit the Patterns & Practices site at [http://go.microsoft.com/fwlink/?LinkId=145794](https://go.microsoft.com/fwlink/?LinkId=145794).
+ As a general guideline, name layers according to their function, for example, "Presentation" or "Services". If the artifacts are closely interdependent, place them in the same layer. If the artifacts can be updated separately or used in separate applications, place them in different layers. To learn about layering patterns, visit the Patterns & Practices site at [http://go.microsoft.com/fwlink/?LinkId=145794](https://apparch.codeplex.com/Wiki/View.aspx?title=Application Patterns&referringTitle=Home).
 
 > [!TIP]
 > There are certain types of artifacts that you can link to layers but that do not support validation against the layer diagram. To see whether the artifact supports validation, open **Layer Explorer** to examine the **Supports Validation** property of the artifact link. See [Discover existing dependencies between layers](#Generate).
@@ -109,7 +109,7 @@ Describe your app's architecture at a high level by creating *layer diagrams* in
 ## <a name="NewAreas"></a> Design new areas of your application
  When you start development of a new project, or a new area in a new project, you can draw layers and dependencies to help identify the major components before you start to develop the code.
 
-- **Show identifiable architectural patterns** in your layer diagrams, if possible. For example, a layer diagram that describes a desktop application might include layers such as Presentation, Domain Logic, and Data Store. A layer diagram that covers a single feature within an application might have layers such as Model, View, and Controller. For more information about such patterns, see [Patterns & Practices: Application Architecture](https://go.microsoft.com/fwlink/?LinkId=145794).
+- **Show identifiable architectural patterns** in your layer diagrams, if possible. For example, a layer diagram that describes a desktop application might include layers such as Presentation, Domain Logic, and Data Store. A layer diagram that covers a single feature within an application might have layers such as Model, View, and Controller. For more information about such patterns, see [Patterns & Practices: Application Architecture](https://apparch.codeplex.com/Wiki/View.aspx?title=Application Patterns&referringTitle=Home).
 
      If you frequently create similar patterns, create a custom tool. See [Define a custom modeling toolbox item](../modeling/define-a-custom-modeling-toolbox-item.md).
 

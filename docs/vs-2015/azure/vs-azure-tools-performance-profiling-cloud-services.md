@@ -16,8 +16,8 @@ ms.technology: vs-azure
 ## Overview
 You can test the performance of a cloud service in the following ways:
 
-* Use Azure Diagnostics to collect information about requests and connections, and to review site statistics that show how the service performs from a customer perspective. To get started with , see [Configuring diagnostics for Azure Cloud Services and Virtual Machines](https://go.microsoft.com/fwlink/p/?LinkId=623009).
-* Use the Visual Studio profiler to get an in-depth analysis of the computational aspects of how the service runs. As this topic describes, you can use the profiler to measure performance as a service runs in Azure. For information about how to use the profiler to measure performance as a service runs locally in a compute emulator, see [Testing the Performance of an Azure Cloud Service Locally in the Compute Emulator Using the Visual Studio Profiler](https://go.microsoft.com/fwlink/p/?LinkId=262845).
+* Use Azure Diagnostics to collect information about requests and connections, and to review site statistics that show how the service performs from a customer perspective. To get started with , see [Configuring diagnostics for Azure Cloud Services and Virtual Machines](https://docs.microsoft.com/visualstudio/azure/vs-azure-tools-diagnostics-for-cloud-services-and-virtual-machines?view=vs-2019).
+* Use the Visual Studio profiler to get an in-depth analysis of the computational aspects of how the service runs. As this topic describes, you can use the profiler to measure performance as a service runs in Azure. For information about how to use the profiler to measure performance as a service runs locally in a compute emulator, see [Testing the Performance of an Azure Cloud Service Locally in the Compute Emulator Using the Visual Studio Profiler](https://azure.microsoft.com/documentation/articles/cloud-services-performance-testing-visual-studio-profiler/).
 
 ## Choosing a performance testing method
 ### Use Azure Diagnostics to collect:
@@ -78,7 +78,7 @@ The following illustration shows how to configure your profiling settings from t
 > 
 
 ### To configure profiling settings
-1. In Solution Explorer, open the shortcut menu for your Azure project, and then choose **Publish**. For detailed steps about how to publish a cloud service, see [Publishing a cloud service using the Azure tools](https://go.microsoft.com/fwlink/p?LinkId=623012).
+1. In Solution Explorer, open the shortcut menu for your Azure project, and then choose **Publish**. For detailed steps about how to publish a cloud service, see [Publishing a cloud service using the Azure tools](https://docs.microsoft.com/visualstudio/azure/vs-azure-tools-publishing-a-cloud-service?view=vs-2019).
 2. In the **Publish Azure Application** dialog box, chose the **Advanced Settings** tab.
 3. To enable profiling, select the **Enable profiling** check box.
 4. To configure your profiling settings, choose the **Settings** hyperlink. The Profiling Settings dialog box appears.

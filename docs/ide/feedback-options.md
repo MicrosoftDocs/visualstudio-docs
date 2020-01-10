@@ -69,12 +69,12 @@ There are two ways that you can help us improve the documentation:
 
 ## Contact Microsoft support
 
-For Visual Studio support information, see the [Product life cycle & servicing](/visualstudio/releases/2019/servicing/) page. For other Microsoft products and services, see [Microsoft support](https://go.microsoft.com/fwlink/?LinkID=99019) for online help.
+For Visual Studio support information, see the [Product life cycle & servicing](/visualstudio/releases/2019/servicing/) page. For other Microsoft products and services, see [Microsoft support](https://support.microsoft.com/) for online help.
 
 > [!NOTE]
 > Support outside the United States and Canada may vary. For a list of regional contacts, see [Microsoft worldwide sites](https://www.microsoft.com/worldwide/).
 
-For larger organizations that require managed support directly from Microsoft, contracts are available through various Enterprise Support offerings. For more information, see [Microsoft Enterprise Support solutions](https://go.microsoft.com/fwlink/?LinkId=258223).
+For larger organizations that require managed support directly from Microsoft, contracts are available through various Enterprise Support offerings. For more information, see [Microsoft Enterprise Support solutions](https://www.microsoft.com/industry/services/support).
 
 If the product came installed with a new computer or device, the hardware manufacturer provides technical support and assistance for this software. Contact the manufacturer directly for support.
 

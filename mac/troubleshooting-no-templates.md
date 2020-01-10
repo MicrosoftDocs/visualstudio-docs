@@ -21,4 +21,4 @@ In the New Project Dialog you only see the templates of components that have bee
 |Mac     |macOS (Cocoa)         |
 |.NET Core     |.NET Core         |
 
-Run the VisualStudioForMacInstaller.dmg again to install the components. If you no longer have it, you can download it from the [Visual Studio for Mac](https://aka.ms/vsmac) webpage.
+Run the VisualStudioForMacInstaller.dmg again to install the components. If you no longer have it, you can download it from the [Visual Studio for Mac](https://visualstudio.microsoft.com/vs/mac/) webpage.
