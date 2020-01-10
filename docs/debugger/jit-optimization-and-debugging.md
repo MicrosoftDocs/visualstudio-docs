@@ -33,7 +33,7 @@ The debugger exposes an option that controls what happens when a DLL that is com
 
 To find the **Suppress JIT optimization on module load (Managed only)** option, select **Tools** > **Options**, and then select the **General** page under the **Debugging** node.
 
-![Suppress JIT Optimization](../debugger/media/suppress-jit-tool-options.PNG "Suppress JIT Optimization")
+![Suppress JIT Optimization](../debugger/media/suppress-jit-tool-options.png "Suppress JIT Optimization")
 
 ## When should you check the 'Suppress JIT optimization' option?
 Check this option when you downloaded the DLLs from another source, such as a nuget package, and you want to debug the code in this DLL. In order for suppression to work, you must also find the symbol (.pdb) file for this DLL.
@@ -57,7 +57,7 @@ There are two situations where turning on this option will **NOT** work:
     2. Navigate to the **Debug** tab and under **Environment variables**, click the **Add** button.
     3. Set Name (Key) to **COMPlus_ReadyToRun** and set Value to **0**.
 
-    ![Set COMPlus_ReadyToRun environment variable](../debugger/media/env-variables-debug-menu.PNG "Set COMPlus_ReadyToRun environment variable")
+    ![Set COMPlus_ReadyToRun environment variable](../debugger/media/environment-variables-debug-menu.png "Set COMPlus_ReadyToRun environment variable")
 
 ## See also
 - [How To Debug Dotnet Framework Source](../debugger/how-to-debug-dotnet-framework-source.md)
