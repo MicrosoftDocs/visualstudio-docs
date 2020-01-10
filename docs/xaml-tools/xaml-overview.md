@@ -24,7 +24,7 @@ XAML is also used to define workflows in [Windows WorkFlow Foundation (WF) apps]
 
 ## XAML Designer
 
-Visual Studio and Blend for Visual Studio provide a XAML Designer that helps you build user interfaces (UI) for WPF, UWP, and Xamarin.Forms apps. You can drag controls from the Toolbox or Assets window and set properties in the Properties window. When you perform these actions, Visual Studio and Blend for Visual Studio create the corresponding XAML code. If you prefer to edit the XAML code directly, you can do that too.
+Visual Studio and Blend for Visual Studio provide a XAML Designer that helps you build user interfaces (UI) for WPF, UWP, and Xamarin.Forms apps. You can drag controls from the Toolbox or Assets window and set properties in the Properties window. When you do so, Visual Studio and Blend for Visual Studio create the corresponding XAML code. If you prefer to edit the XAML code directly, you can do that too.
 
 The articles in this documentation set discuss the XAML Designer in Visual Studio and Blend for Visual Studio.
 
