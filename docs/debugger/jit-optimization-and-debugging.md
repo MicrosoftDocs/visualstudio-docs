@@ -41,7 +41,7 @@ Check this option when you downloaded the DLLs from another source, such as a nu
 If you are only interested in debugging the code you are building locally, it is best to leave this option unchecked, as, in some cases, enabling this option will significantly slow down debugging. There are two reason for this slow down:
 
 * Optimized code runs faster. If you are turning off optimizations for lots of code, the performance impact can add up.
-* If you have Just My Code enabled, the debugger will not even try and load symbols for DLLs that are optimized. Finding symbols can take a long time.
+* If you have Just My Code enabled, the debugger will not even try to load symbols for DLLs that are optimized. Finding symbols can take a long time.
 
 ## Limitations of the 'Suppress JIT optimization' option 
 There are two situations where turning on this option will **NOT** work:
