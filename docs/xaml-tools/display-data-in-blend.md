@@ -15,7 +15,7 @@ ms.workload:
 You can view sample data in your designer as you customize the layout of your pages. You can generate sample data from scratch or by using an existing class. You can also connect to *Live data* that appears in your app when you run it.
 
 > [!NOTE]
-> The **Data** panel in Blend is only supported for projects that target .NET Framework. It's not supported for UWP projects or projects that target .NET Core. 
+> The **Data** panel in Blend is supported only for projects that target .NET Framework. It's not supported for UWP projects or projects that target .NET Core. 
 
 ## Generate sample data
 
