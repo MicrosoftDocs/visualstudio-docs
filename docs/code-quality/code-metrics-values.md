@@ -30,7 +30,16 @@ The following list shows the code metrics results that Visual Studio calculates:
 
 - **Class Coupling** - Measures the coupling to unique classes through parameters, local variables, return types, method calls, generic or template instantiations, base classes, interface implementations, fields defined on external types, and attribute decoration. Good software design dictates that types and methods should have high cohesion and low coupling. High coupling indicates a design that is difficult to reuse and maintain because of its many interdependencies on other types. For more information, see the [Class coupling](https://blogs.msdn.microsoft.com/zainnab/2011/05/25/code-metrics-class-coupling/) blog post.
 
+::: moniker range=">=vs-2019"
+
+- **Lines of Source code** - Indicates the exact number of source code lines that are present in your source file, including blank lines. This metric is available starting in Visual Studio 2019 version 16.4 and Microsoft.CodeAnalysis.Metics (2.9.5).
+
+- **Lines of Executable code** - Indicates the approximate number of executable code lines or operations. This is a count of number of operations in executable code. This metric is available starting in Visual Studio 2019 version 16.4 and Microsoft.CodeAnalysis.Metics (2.9.5). The value is typically a close match to the previous metric, **Lines of Code**, which is the MSIL-instruction-based metric used in legacy mode.
+::: moniker-end
+::: moniker range="vs-2017"
+
 - **Lines of Code** - Indicates the approximate number of lines in the code. The count is based on the IL code and is therefore not the exact number of lines in the source code file. A high count might indicate that a type or method is trying to do too much work and should be split up. It might also indicate that the type or method might be hard to maintain.
+::: moniker-end
 
    > [!NOTE]
    > The [command-line version](../code-quality/how-to-generate-code-metrics-data.md#command-line-code-metrics) of the code metrics tool counts actual lines of code because it analyzes the source code instead of IL.
