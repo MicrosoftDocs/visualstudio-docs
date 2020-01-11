@@ -111,4 +111,4 @@ In most cases, Visual Studio can detect the configurations for the third-party s
 ## See also
 
 - [Install and configure tools to build using iOS](install-and-configure-tools-to-build-using-ios.md)
-- [Visual C++ cross-platform mobile](https://go.microsoft.com/fwlink/p/?LinkId=536383)
+- [Visual C++ cross-platform mobile](https://visualstudio.microsoft.com/vs/features/cplusplus-mdd/)

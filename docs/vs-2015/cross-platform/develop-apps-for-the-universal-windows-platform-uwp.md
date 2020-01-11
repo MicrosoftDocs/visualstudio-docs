@@ -34,7 +34,7 @@ With the Universal Windows Platform and our one Windows core, you can run the sa
 
 - [Windows 10](https://windows.microsoft.com/windows/downloads)
 
-- [Visual Studio 2015](https://go.microsoft.com/fwlink/p/?LinkId=526725). Make sure that the Universal Windows App Development Tools are selected from the optional features list. Without these tools, you won't be able to create your universal apps.
+- [Visual Studio 2015](https://visualstudio.microsoft.com/downloads/). Make sure that the Universal Windows App Development Tools are selected from the optional features list. Without these tools, you won't be able to create your universal apps.
 
   After installing this software, you need to [enable your Windows 10 device](https://msdn.microsoft.com/library/windows/apps/xaml/dn706236.aspx) for development. (You no longer need a developer license for each Windows 10 device.)
 

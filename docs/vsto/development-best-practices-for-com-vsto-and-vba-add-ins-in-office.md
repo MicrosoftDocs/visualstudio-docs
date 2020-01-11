@@ -55,7 +55,7 @@ Customers are asking ISVs to provide support statements for their COM, VSTO and 
 
 To provide support statements for Office client applications (for example, Word or Excel), first verify that your add-ins run in the current Office release, and then commit to providing updates if your add-in breaks in a future release. You do not have to test your add-ins when Microsoft releases a new build, or an update to Office. Microsoft rarely changes the COM, VSTO and VBA extensibility platform in Office, and these changes will be well documented.
 
->Important: Microsoft maintains a list of supported add-ins for readiness reports, and ISV contact information. To get your add-in listed, see [https://aka.ms/readyforwindows](https://aka.ms/readyforwindows).
+>Important: Microsoft maintains a list of supported add-ins for readiness reports, and ISV contact information. To get your add-in listed, see [https://docs.microsoft.com/configmgr/desktop-analytics/ready-for-windows](https://docs.microsoft.com/configmgr/desktop-analytics/ready-for-windows).
 
 ## Use Process Monitor to help debug installation or loading issues
 If your add-in has compatibility issues during installation or load, they might be related to issues with file or registry access. Use [Process Monitor](/sysinternals/downloads/procmon) or a similar debugging tool to log and compare behavior against a working environment to help identify the problem.

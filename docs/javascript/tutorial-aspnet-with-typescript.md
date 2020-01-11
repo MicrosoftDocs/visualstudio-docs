@@ -62,7 +62,7 @@ In this tutorial, you begin with a simple project containing code for an ASP.NET
     Press **Esc** to close the start window. Type **Ctrl + Q** to open the search box, type **ASP.NET**, then choose **ASP.NET Core Web Application - C#**. In the dialog box that appears, choose **Create**.
     ::: moniker-end
     ::: moniker range="vs-2017"
-    From the top menu bar, choose **File** > **New** > **Project**. In the left pane of the **New Project** dialog box, expand **JavaScript**, then choose **Node.js**. In the middle pane, choose **ASP.NET Core Web Application - C#**, then choose **OK**.
+    From the top menu bar, choose **File** > **New** > **Project**. In the left pane of the **New Project** dialog box, expand **Visual C#**, then choose **.NET Core**. In the middle pane, choose **ASP.NET Core Web Application - C#**, then choose **OK**.
     ::: moniker-end
     If you don't see the **ASP.NET Core Web Application** project template, you must add the **ASP.NET and web development** workload. For detailed instructions, see the [Prerequisites](#prerequisites).
 
