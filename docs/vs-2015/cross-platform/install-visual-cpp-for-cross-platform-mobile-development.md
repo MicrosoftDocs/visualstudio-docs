@@ -34,12 +34,12 @@ Visual C++ for Cross-Platform Mobile Development](https://go.microsoft.com/fwlin
   
 - Windows Phone emulators and the Microsoft Visual Studio Emulator for Android require a computer that can run Hyper-V. The Hyper-V feature in Windows must be enabled before you can install and run the emulators. For more information, see the emulator's [system requirements](https://msdn.microsoft.com/4d5bb438-231a-4cd2-84b7-e9660b0e3baf).  
   
-- The x86 Android emulators that come with the Android SDK work best on computers that can run the Intel HAXM driver. This driver requires an Intel x64 processor with VT-x and Execute Disable Bit support. For more information, see [Installation Instructions for Intel® Hardware Accelerated Execution Manager - Microsoft Windows](https://go.microsoft.com/fwlink/p/?LinkId=536385).  
+- The x86 Android emulators that come with the Android SDK work best on computers that can run the Intel HAXM driver. This driver requires an Intel x64 processor with VT-x and Execute Disable Bit support. For more information, see [Installation Instructions for Intel® Hardware Accelerated Execution Manager - Microsoft Windows](https://github.com/intel/haxm).  
   
 - Building code for iOS requires an Apple ID, an iOS Developer Program account, and a Mac computer that can run [Xcode 6](https://go.microsoft.com/fwlink/p/?LinkId=536387) or later on OS X Mavericks or later versions. For simple installation steps, see [Install tools for iOS](#InstallForiOS).  
   
 ## <a name="GetTheTools"></a> Get the tools  
- Visual C++ for Cross-Platform Mobile Development is an installable component included in Visual Studio Community, Professional, and Enterprise editions. To get Visual Studio, go to the [Visual Studio 2015 Downloads](https://go.microsoft.com/fwlink/p/?linkid=517106) page and download Visual Studio 2015 with Update 2 or later.  
+ Visual C++ for Cross-Platform Mobile Development is an installable component included in Visual Studio Community, Professional, and Enterprise editions. To get Visual Studio, go to the [Visual Studio 2015 Downloads](https://visualstudio.microsoft.com/downloads/) page and download Visual Studio 2015 with Update 2 or later.  
   
 ## <a name="InstallTheTools"></a> Install the tools  
  The installer for Visual Studio 2015 includes an option to install Visual C++ for Cross-Platform Mobile Development. This installs the required C++ language tools, templates and components for Visual Studio, the GCC and Clang toolsets needed for Android builds and debugging, and components to communicate with a Mac for iOS development. It also installs all the third-party tools and software development kits that are required to support iOS and Android app development. Most of these third-party tools are open-source software required for Android platform support.  

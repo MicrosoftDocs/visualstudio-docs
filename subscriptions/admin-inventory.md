@@ -20,7 +20,7 @@ Here are some ways to simplify taking inventory of your pre-production environme
 - Get help with manual reconciliation. Enlist your staff to help reconcile your development and test users with your development and test environment.
 
 ## Resources
-- [Visual Studio licensing white paper](https://aka.ms/vslicensing)
+- [Visual Studio licensing white paper](https://visualstudio.microsoft.com/wp-content/uploads/2019/06/Visual-Studio-Licensing-Whitepaper-May-2019.pdf)
 - [Visual Studio Administration and Subscriptions Support](https://visualstudio.microsoft.com/support/support-overview-vs)
 - [Volume Licensing terms](https://www.microsoft.com/licensing/product-licensing/products.aspx)
 

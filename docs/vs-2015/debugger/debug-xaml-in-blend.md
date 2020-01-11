@@ -36,7 +36,7 @@ You can use the tools in [!INCLUDE[blend_first](../includes/blend-first-md.md)] 
   
 - A XAML element exists in a location where it is not allowed.  
   
-  For more information on common XAML syntax, see [Basic XAML syntax guide](https://go.microsoft.com/fwlink/?LinkId=329942).  
+  For more information on common XAML syntax, see [Basic XAML syntax guide](https://msdn.microsoft.com/library/windows/apps/hh700351.aspx).  
   
   You can also identify and resolve simple code-behind syntax errors, compilation errors, and run-time errors in [!INCLUDE[blend_subs](../includes/blend-subs-md.md)]. However, code-behind errors may be easier to identify and resolve in Visual Studio.  
   
@@ -117,7 +117,7 @@ You can use the tools in [!INCLUDE[blend_first](../includes/blend-first-md.md)] 
 ## Debugging in Visual Studio  
  You can open [!INCLUDE[blend_subs](../includes/blend-subs-md.md)] projects in Visual Studio to more easily debug the code in your app. To open a [!INCLUDE[blend_subs](../includes/blend-subs-md.md)] project in Visual Studio, right-click the project in the **Projects** panel, and then click **Edit in Visual Studio**. After you have finished your debugging session in Visual Studio, press Ctrl+Shift+S to save all your changes, and then switch back to [!INCLUDE[blend_subs](../includes/blend-subs-md.md)]. You will be prompted to reload the project. Click **Yes to All** to continue working in [!INCLUDE[blend_subs](../includes/blend-subs-md.md)].  
   
- For more information about debugging your app, see [Debug Windows Store apps in Visual Studio](https://go.microsoft.com/fwlink/?LinkId=329944).  
+ For more information about debugging your app, see [Debug Windows Store apps in Visual Studio](https://msdn.microsoft.com/library/windows/apps/hh441472.aspx).  
   
 ## Getting help  
- If you need more help debugging your [!INCLUDE[blend_subs](../includes/blend-subs-md.md)] app, you can search the [Windows Store app community forums](https://go.microsoft.com/fwlink/?LinkId=280308) for posts related your issue or post a question.
+ If you need more help debugging your [!INCLUDE[blend_subs](../includes/blend-subs-md.md)] app, you can search the [Windows Store app community forums](https://social.msdn.microsoft.com/Forums/windowsapps/home?category=windowsapps) for posts related your issue or post a question.

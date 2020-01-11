@@ -57,9 +57,9 @@ After completion, the **Add Connected Services** dialog automatically displays d
 ## How your project is modified
 When you finish the dialog, Visual Studio adds references and modifies certain configuration files. The specific changes depend on the project type:
 
-- ASP.NET project - [What happened – ASP.NET Projects](https://go.microsoft.com/fwlink/p/?LinkId=513126)
-- ASP.NET Core project - [What happened – ASP.NET 5 Projects](https://go.microsoft.com/fwlink/p/?LinkId=513124)
-- Cloud service project (web roles and worker roles) - [What happened – Cloud Service projects](https://go.microsoft.com/fwlink/p/?LinkId=516965)
+- ASP.NET project - [What happened – ASP.NET Projects](https://docs.microsoft.com/azure/visual-studio/vs-storage-aspnet-getting-started-blobs)
+- ASP.NET Core project - [What happened – ASP.NET 5 Projects](https://docs.microsoft.com/azure/visual-studio/vs-storage-aspnet5-getting-started-blobs)
+- Cloud service project (web roles and worker roles) - [What happened – Cloud Service projects](https://docs.microsoft.com/azure/visual-studio/vs-storage-cloud-services-getting-started-blobs)
 - WebJob project - [What happened - WebJob projects](/azure/visual-studio/vs-storage-webjobs-what-happened)
 
 ## Next steps

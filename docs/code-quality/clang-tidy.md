@@ -46,5 +46,5 @@ You can configure the checks that clang-tidy runs inside Visual Studio via the *
 
 ## See also
 
-- [Clang/LLVM Support for MSBuild Projects](https://aka.ms/cpp/clangmsbuild)
-- [Clang/LLVM Support for CMake Projects](https://aka.ms/cpp/clangcmake)
+- [Clang/LLVM Support for MSBuild Projects](https://devblogs.microsoft.com/cppblog/clang-llvm-support-for-msbuild-projects/)
+- [Clang/LLVM Support for CMake Projects](https://devblogs.microsoft.com/cppblog/visual-studio-cmake-support-clang-llvm-cmake-3-14-vcpkg-and-performance-improvements/)
