@@ -69,7 +69,7 @@ The following example is in Visual Basic. You can also use the **Immediate** win
 
 1. To clear the contents of the **Immediate** window, right-click in the window and select **Clear All**.
 
-## Debug a custom XAML control at design time by attaching to Visual Studio's XAML designer
+## Debug a custom XAML control at design time by attaching to XAML designer
 
 1. Open your solution or project in Visual Studio.
 
