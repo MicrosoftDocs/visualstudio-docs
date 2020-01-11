@@ -104,7 +104,7 @@ In Visual Studio, you can collect diagnostics data for Azure virtual machines.
     ![Install an Azure virtual machine extension](./media/vs-azure-tools-diagnostics-for-cloud-services-and-virtual-machines/IC766024.png)
 
     > [!NOTE]
-   > Other diagnostics extensions are available for your virtual machines. For more information, see [Virtual machine extensions and features for Windows](https://docs.microsoft.com/azure/virtual-machines/windows/extensions-features).
+   > Other diagnostics extensions are available for your virtual machines. For more information, see [Virtual machine extensions and features for Windows](/azure/virtual-machines/windows/extensions-features).
    >
    >
 5. To add the extension and view its **Diagnostics configuration** dialog box, select **Add**.

@@ -357,7 +357,7 @@ Make sure that your software system meets users' needs by using the visualizatio
 
 - [Validate your system during development](../modeling/validate-your-system-during-development.md)
 
-- [Use version control](https://docs.microsoft.com/azure/devops/repos/tfvc/overview?view=azure-devops)
+- [Use version control](/azure/devops/repos/tfvc/overview?view=azure-devops)
 
 - [Build the application](/azure/devops/pipelines/index)
 

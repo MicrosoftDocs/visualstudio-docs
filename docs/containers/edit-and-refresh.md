@@ -156,5 +156,5 @@ Get more details by reading [How Visual Studio builds containerized apps](contai
 
 * Learn more about [container development with Visual Studio](/visualstudio/containers).
 * To build and deploy a Docker container, see [Docker integration for Azure Pipelines](https://marketplace.visualstudio.com/items?itemName=ms-vscs-rm.docker).
-* For an index of Windows Server and Nano Server articles, see [Windows container information](https://docs.microsoft.com/virtualization/windowscontainers/).
+* For an index of Windows Server and Nano Server articles, see [Windows container information](/virtualization/windowscontainers/).
 * Learn about [Azure Kubernetes Service](https://azure.microsoft.com/services/kubernetes-service/) and review the [Azure Kubernetes Service documentation](/azure/aks).

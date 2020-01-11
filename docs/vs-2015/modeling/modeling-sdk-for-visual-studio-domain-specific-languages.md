@@ -37,8 +37,6 @@ By using the Modeling SDK for [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] (MSDK
 ## Samples and the Latest Information
  [Download the Modeling SDK for Visual Studio 2015](https://www.microsoft.com/download/details.aspx?id=48148)
 
- [Samples](https://docs.microsoft.com/samples/browse/?redirectedfrom=MSDN-samples) for the Modeling SDK for Visual Studio.
-
  For guidance on advanced techniques and troubleshooting, visit [Visual Studio DSL & Modeling Tools Extensibility forum](https://social.msdn.microsoft.com/Forums/vstudio/en-US/home?forum=dslvsarchx).
 
 ## In This Section
