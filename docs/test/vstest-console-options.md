@@ -20,6 +20,8 @@ ms.workload:
 >
 > To run automated tests on an ARM architecture-based machine, you must use *VSTest.Console.exe*.
 
+Open a [Developer Command Prompt](/dotnet/framework/tools/developer-command-prompt-for-vs) to use the command-line tool, or you can find the tool in *%Program Files(x86)%\Microsoft Visual Studio\\<version\>\\<edition\>\common7\ide\CommonExtensions\\<Platform | Microsoft>*.
+
 ## General command-line options
 
 The following table lists all the options for *VSTest.Console.exe* and short descriptions of them. You can see a similar summary by typing `VSTest.Console/?` at a command line.
