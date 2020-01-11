@@ -37,7 +37,7 @@ msbuild.exe myproj.proj -maxcpucount:3
 ```
 
 ## BuildInParallel task parameter
-`BuildInParallel` is an optional boolean parameter on a [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] task. When `BuildInParallel` is set to `true` (its default value is `false`), multiple worker processes are generated to build as many projects at the same time as possible. For this to work correctly, the `-maxcpucount` switch must be set to a value greater than 1, and the system must be at least dual-core or have two or more processors.
+`BuildInParallel` is an optional boolean parameter on a [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] task. When `BuildInParallel` is set to `true` (its default value is `true`), multiple worker processes are generated to build as many projects at the same time as possible. For this to work correctly, the `-maxcpucount` switch must be set to a value greater than 1, and the system must be at least dual-core or have two or more processors.
 
 The following is an example, taken from *microsoft.common.targets*, about how to set the `BuildInParallel` parameter.
 
