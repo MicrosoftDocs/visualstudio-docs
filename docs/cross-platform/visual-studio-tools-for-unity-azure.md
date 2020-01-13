@@ -25,13 +25,13 @@ Azure provides a scalable solution to storing telemetry and other game data in t
 
 Visit [The Sandbox](/sandbox/) to try the following experimental Azure SDKs with Unity:
 
-* [Azure Storage SDK for Unity](https://docs.microsoft.com/sandbox/gamedev/unity/azure-storage-unity?wt.mc_id=azgamedev-sandbox-brpeek)
-* [Azure Event Hubs SDK for Unity](https://docs.microsoft.com/sandbox/gamedev/unity/azure-event-hubs-unity?WT.mc_id=azgamedev-sandbox-brpeek)
-* [Azure Mobile Apps SDK for Unity](https://docs.microsoft.com/sandbox/gamedev/unity/azure-mobile-apps-unity?WT.mc_id=azgamedev-sandbox-brpeek)
+* [Azure Storage SDK for Unity](/sandbox/gamedev/unity/azure-storage-unity?wt.mc_id=azgamedev-sandbox-brpeek)
+* [Azure Event Hubs SDK for Unity](/sandbox/gamedev/unity/azure-event-hubs-unity?WT.mc_id=azgamedev-sandbox-brpeek)
+* [Azure Mobile Apps SDK for Unity](/sandbox/gamedev/unity/azure-mobile-apps-unity?WT.mc_id=azgamedev-sandbox-brpeek)
 
 ## Azure SDK sample
 
-There is also a [simple sample game](https://docs.microsoft.com/sandbox/gamedev/unity/samples/azure-mobile-apps-unity-racer)
+There is also a [simple sample game](/sandbox/gamedev/unity/samples/azure-mobile-apps-unity-racer)
 using the Azure Easy Tables SDK and Unity. The game uses Azure Easy Tables data storage to track the high score leaderboard and store in-game telemetry, and is available for [download from GitHub](https://github.com/BrianPeek/AzureSamples-Unity).
 
 ![Sample game screenshot](media/vstu_azure-test-sample-game-image2.png)
