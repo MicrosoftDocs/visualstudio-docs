@@ -26,7 +26,7 @@ manager: jillfra
 # IntelliTrace
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IntelliTrace](https://docs.microsoft.com/visualstudio/debugger/intellitrace) .  
+The latest version of this topic can be found at [IntelliTrace](/visualstudio/debugger/intellitrace) .  
   
 You can spend less time debugging your application when you use IntelliTrace to record and trace your code's execution history. You can find bugs easily because IntelliTrace lets you:  
   

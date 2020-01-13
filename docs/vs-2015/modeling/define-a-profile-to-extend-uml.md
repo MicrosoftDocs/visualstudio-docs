@@ -214,7 +214,8 @@ You can define a *UML profile* to customize the standard model elements for spec
 7. Build the Visual Studio extension, either by building the Extension Project or compressing all the files, as described in the previous sections.
 
 ## <a name="Schema"></a> The Structure of a Profile
- The XSD file for UML profiles can be found in the following sample: [Setting Stereotypes and Profiles XSD](https://docs.microsoft.com/samples/browse/?redirectedfrom=MSDN-samples). To help you edit profile files, install the `.xsd` file in:
+
+ To help you edit profile files, install the `.xsd` file in:
 
  **%ProgramFiles%\Microsoft Visual Studio [version]\Xml\Schemas**
 
@@ -362,5 +363,4 @@ You can define a *UML profile* to customize the standard model elements for spec
  [Add stereotypes to UML model elements](../modeling/add-stereotypes-to-uml-model-elements.md)
  [Customize your model with profiles and stereotypes](../modeling/customize-your-model-with-profiles-and-stereotypes.md)
  [Standard stereotypes for UML models](../modeling/standard-stereotypes-for-uml-models.md)
- [Sample: Color UML Elements by Stereotype](https://docs.microsoft.com/samples/browse/?redirectedfrom=MSDN-samples)
- [Sample: Setting Stereotypes, Profiles XSD](https://docs.microsoft.com/samples/browse/?redirectedfrom=MSDN-samples)
+ 

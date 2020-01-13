@@ -162,6 +162,6 @@ With Visual Studio Tools for Xamarin, you can target Android, iOS, and Windows i
 
 ## See also
 
-- [Add Office 365 APIs to a Visual Studio project](https://docs.microsoft.com/office/developer-program/office-365-developer-program)
+- [Add Office 365 APIs to a Visual Studio project](/office/developer-program/office-365-developer-program)
 - [Azure App Services - Mobile Apps](https://azure.microsoft.com/services/app-service/mobile/)
-- [Visual Studio App Center](https://docs.microsoft.com/appcenter)
+- [Visual Studio App Center](/appcenter)

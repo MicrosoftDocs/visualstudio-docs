@@ -31,16 +31,16 @@ This topic directs you to overview material that helps you understand developing
   
 - The Mac with Xcode and Xamarin serves as the build/signing host and runtime environment for iOS apps. Builds for iOS from Visual Studio on the Windows computer are delegated to this Mac; when debugging an iOS app from Visual Studio, it runs in the iOS simulator on the Mac or directly on a tethered device connected to the Mac. In this case you’ll interact with the app on or near the Mac, and have your debugging experience in Visual Studio.  
   
-  These relationships are illustrated below, and you can read more about working with iOS apps on [Introduction to Xamarin.iOS for Visual Studio](https://docs.microsoft.com/xamarin/ios/get-started/installation/windows/introduction-to-xamarin-ios-for-visual-studio) (xamarin.com).  
+  These relationships are illustrated below, and you can read more about working with iOS apps on [Introduction to Xamarin.iOS for Visual Studio](/xamarin/ios/get-started/installation/windows/introduction-to-xamarin-ios-for-visual-studio) (xamarin.com).  
   
   ![The relationship between Windows and Mac dev computers in a Xamarin environment](../cross-platform/media/crossplat-xamarin-learn-1.png "CrossPlat Xamarin Learn 1")  
   
 ## Essentials: How projects are structured  
  *10-30 minutes*  
   
-1. [Sharing Code Options](https://docs.microsoft.com/xamarin/cross-platform/app-fundamentals/code-sharing) (xamarin.com). We recommend using the portable class libraries option, as it best supports using only those .NET APIs that are supported across all target platforms. Most business logic code will reside in the PCL, including access to databases, calls to REST APIs, and calls to portable Xamarin components (see [Deeper Dive: Xamarin Components](#components) at the end of this topic). Common UI code written with Xamarin.Forms can also reside in a PCL.  
+1. [Sharing Code Options](/xamarin/cross-platform/app-fundamentals/code-sharing) (xamarin.com). We recommend using the portable class libraries option, as it best supports using only those .NET APIs that are supported across all target platforms. Most business logic code will reside in the PCL, including access to databases, calls to REST APIs, and calls to portable Xamarin components (see [Deeper Dive: Xamarin Components](#components) at the end of this topic). Common UI code written with Xamarin.Forms can also reside in a PCL.  
   
-2. (Optional) [Case Study: Tasky](https://docs.microsoft.com/xamarin/cross-platform/app-fundamentals/building-cross-platform-applications/case-study-tasky) (xamarin.com), describes some best practices for design and structure of a full-featured app such as structuring the project with a PCL for shared code that separates data, data access, and business layers, .  
+2. (Optional) [Case Study: Tasky](/xamarin/cross-platform/app-fundamentals/building-cross-platform-applications/case-study-tasky) (xamarin.com), describes some best practices for design and structure of a full-featured app such as structuring the project with a PCL for shared code that separates data, data access, and business layers, .  
   
 ## Essentials: native and Xamarin.Forms UI layers  
  *10-40 minutes*  
@@ -63,15 +63,15 @@ This topic directs you to overview material that helps you understand developing
   
   To learn more:  
   
-1. [Xamarin.Forms](https://docs.microsoft.com/xamarin/xamarin-forms/) (xamarin.com) provides a brief overview and the pros and cons of Xamarin.Forms vs. native UI layers (that is, Xamarin.iOS and Xamarin.Android).  
+1. [Xamarin.Forms](/xamarin/xamarin-forms/) (xamarin.com) provides a brief overview and the pros and cons of Xamarin.Forms vs. native UI layers (that is, Xamarin.iOS and Xamarin.Android).  
   
 2. The first three minutes of James Montemagno’s video [Xamarin.Forms: Native iOS, Android & Windows apps with C# & XAML](https://channel9.msdn.com/events/Visual-Studio/Connect-event-2015/704) (Channel9, 13m3s) gives another overview, and you can continue watching for demos.  
   
-3. (Optional) [An Introduction to Xamarin.Forms](https://docs.microsoft.com/xamarin/get-started/quickstarts/deepdive?pivots=windows) (xamarin.com)  
+3. (Optional) [An Introduction to Xamarin.Forms](/xamarin/get-started/quickstarts/deepdive?pivots=windows) (xamarin.com)  
   
-4. (Optional) See examples of using OnPlatform for customization in the [Device Class](https://docs.microsoft.com/xamarin/xamarin-forms/platform/device) documentation (xamarin.com)  
+4. (Optional) See examples of using OnPlatform for customization in the [Device Class](/xamarin/xamarin-forms/platform/device) documentation (xamarin.com)  
   
-5. (Optional) [Cross-Platform - Share UI Code Across Mobile Platforms with Xamarin.Forms](https://msdn.microsoft.com/magazine/dn904669.aspx) by Jason Smith (MSDN Magazine) outlines the different customization options within Xamarin.Forms, for which the details are covered on [Customizing Controls on Each Platform](https://docs.microsoft.com/xamarin/xamarin-forms/app-fundamentals/custom-renderer/) (xamarin.com).  
+5. (Optional) [Cross-Platform - Share UI Code Across Mobile Platforms with Xamarin.Forms](https://msdn.microsoft.com/magazine/dn904669.aspx) by Jason Smith (MSDN Magazine) outlines the different customization options within Xamarin.Forms, for which the details are covered on [Customizing Controls on Each Platform](/xamarin/xamarin-forms/app-fundamentals/custom-renderer/) (xamarin.com).  
   
 ## Deeper Dive: Debugging with Emulators  
  *10-15 minutes*  
@@ -82,7 +82,7 @@ This topic directs you to overview material that helps you understand developing
   
     - **Windows 8+ machines:** We highly recommend using Microsoft’s [Visual Studio Emulator for Android](https://www.visualstudio.com/features/msft-android-emulator-vs.aspx), which is installed with Visual Studio.  The [Visual Studio Emulator for Android](https://channel9.msdn.com/events/Visual-Studio/Connect-event-2015/711) video (Channel9, 5m55s) gives an overview and demonstration.  
   
-    - **Windows 7 or earlier/Windows running on Mac OS X**: use the [Xamarin Android Player](https://docs.microsoft.com/xamarin/android/deploy-test/debugging/debug-on-emulator?tabs=windows) (xamarin.com).  
+    - **Windows 7 or earlier/Windows running on Mac OS X**: use the [Xamarin Android Player](/xamarin/android/deploy-test/debugging/debug-on-emulator?tabs=windows) (xamarin.com).  
   
 2. **Apple’s iOS Simulator.** To learn more, read [Getting Started with the iOS Simulator](https://developer.apple.com/library/prerelease/content/documentation/IDEs/Conceptual/iOS_Simulator_Guide/GettingStartedwithiOSSimulator/GettingStartedwithiOSSimulator.html#//apple_ref/doc/uid/TP40012848-CH5-SW1) (apple.com).  
   
@@ -91,4 +91,4 @@ This topic directs you to overview material that helps you understand developing
 ## <a name="components"></a> Deeper Dive: Xamarin Components  
  *10 minutes*  
   
- Many extended capabilities are available to Xamarin apps through Xamarin components. You can find the full catalog available for download on [http://components.xamarin.com/](https://docs.microsoft.com/xamarin/cross-platform/troubleshooting/component-nuget?tabs=windows), which includes components for additional UI controls, authentication, a variety of cloud services such as Microsoft Azure, and much more.
+ Many extended capabilities are available to Xamarin apps through Xamarin components. You can find the full catalog available for download on [http://components.xamarin.com/](/xamarin/cross-platform/troubleshooting/component-nuget?tabs=windows), which includes components for additional UI controls, authentication, a variety of cloud services such as Microsoft Azure, and much more.

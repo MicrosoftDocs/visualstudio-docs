@@ -28,7 +28,7 @@ Visual Studio includes a collection of compilers, languages, runtimes, environme
 |[Exchange 2013](https://support.microsoft.com/kb/2902020)|Exchange Web Services|  
 |[Microsoft OWIN](https://support.microsoft.com/kb/2902020)|Microsoft OWIN|  
 |[Microsoft Web Developer Tools 2013](https://support.microsoft.com/kb/2902020)|Microsoft Web Developer Tools 2013|  
-|Updates to these components are distributed via NuGet and do not follow standard Microsoft lifecycle policies.  See [http://docs.nuget.org/](https://docs.microsoft.com/nuget/) for more information.|JSON Web Token Handler for the Microsoft .NET Framework 4.5<br /><br /> NuGet 2.7<br /><br /> SignalR<br /><br /> Web Optimization Framework<br /><br /> WebGrease|  
+|Updates to these components are distributed via NuGet and do not follow standard Microsoft lifecycle policies.  See [http://docs.nuget.org/](/nuget/) for more information.|JSON Web Token Handler for the Microsoft .NET Framework 4.5<br /><br /> NuGet 2.7<br /><br /> SignalR<br /><br /> Web Optimization Framework<br /><br /> WebGrease|  
 |[ODataLib](https://support.microsoft.com/kb/2902020)|ODataLib|  
 |[Office 2013](https://support.microsoft.com/lifecycle/search/?p1=16674)|Open XML SDK|  
 |[Online Services Policy](https://support.microsoft.com/hub/4095338/microsoft-lifecycle-policy)|Microsoft Ads SDK|  

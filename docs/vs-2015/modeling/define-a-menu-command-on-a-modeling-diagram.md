@@ -364,4 +364,4 @@ namespace SwapClassNames
  [Define validation constraints for UML models](../modeling/define-validation-constraints-for-uml-models.md)
  [Edit UML sequence diagrams by using the UML API](../modeling/edit-uml-sequence-diagrams-by-using-the-uml-api.md)
  [Programming with the UML API](../modeling/programming-with-the-uml-api.md)
- [Sample: Command to Align Shapes on a UML Diagram](https://docs.microsoft.com/samples/browse/?redirectedfrom=MSDN-samples)
+ 
