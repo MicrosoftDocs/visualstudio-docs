@@ -40,7 +40,7 @@ The debugger includes these new features:
 
     ![Step Backward and Forward Buttons](../debugger/media/intellitrace-step-back-icons-description.png  "Step Backward and Forward buttons")
 
-    For more information, see the [Inspect previous app states using IntelliTrace](https://devblogs.microsoft.com/devops/using-the-new-exception-helper-in-visual-studio-15-preview/) page.
+    For more information, see the [Inspect previous app states using IntelliTrace](view-historical-application-state.md) page.
 
 - The **Exception Helper** replaces the Exception Assistant and appears in a non-modal dialog box where the error occurred. The **Exception Helper** provides quicker access to any inner exceptions, additional analysis by the debugger (if available), and immediate access to the **Exception Settings** for the exception. The Exception Helper can also be dragged to a floating view if it is blocking something that you need to see.
 
@@ -48,7 +48,7 @@ The debugger includes these new features:
 
     ![Debugger's Exception Helper](../debugger/media/dbg-exception-helper.png "DbgExceptionHelper")
 
-    For more information, see the [Using the New Exception Helper in Visual Studio](https://blogs.msdn.microsoft.com/visualstudioalm/2016/03/31/using-the-new-exception-helper-in-visual-studio-15-preview/) blog post.
+    For more information, see the [Using the New Exception Helper in Visual Studio](https://devblogs.microsoft.com/devops/using-the-new-exception-helper-in-visual-studio-15-preview/) blog post.
 
 - You can now run to a line of code while paused in the debugger by selecting the **Run execution to here** green arrow icon (you see the icon while hovering over a line of code). This eliminates the need to set temporary breakpoints.
 
