@@ -721,6 +721,8 @@
           href: ca3077.md
         - name: "CA3147: Mark verb handlers with ValidateAntiForgeryToken"
           href: ca3147.md
+        - name: "CA5358: Do Not Use Unsafe Cipher Modes"
+          href: ca5358.md
         - name: "CA5361: Do not disable SChannel use of strong crypto"
           href: ca5361.md
         - name: "CA5363: Do not disable request validation"
