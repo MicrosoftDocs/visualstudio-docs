@@ -9539,6 +9539,11 @@
       "source_path": "subscriptions/vs-rstudio.md",
       "redirect_url": "/visualstudio/subscriptions",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/azure/cognitive-services-connected-services.yml",
+      "redirect_url": "/visualstudio/azure",
+      "redirect_document_id": false
     }
   ]
 }
