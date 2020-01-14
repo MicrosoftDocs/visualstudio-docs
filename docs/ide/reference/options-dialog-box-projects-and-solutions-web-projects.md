@@ -3,13 +3,13 @@ title: Options Dialog Box, Projects and Solutions, Web Projects
 ms.date: 07/14/2017
 ms.topic: reference
 f1_keywords:
-  - "VS.ToolsOptionsPages.Projects.WebProjects"
+- VS.ToolsOptionsPages.Projects.WebProjects
 ms.assetid: ea813046-1ae6-4c9f-9784-dc41494101b9
-author: jillre
-ms.author: jillfra
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Options Dialog Box, Projects and Solutions, Web Projects
 

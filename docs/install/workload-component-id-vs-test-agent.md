@@ -3,8 +3,8 @@ title: Visual Studio Test Agent workload and component IDs
 titleSuffix: ''
 description: Use Visual Studio workload and component IDs to run automated tests and load tests remotely
 keywords: 
-author: jillre
-ms.author: jillfra
+author: ornellaalt
+ms.author: ornella
 manager: jillfra
 ms.date: 12/03/2019
 ms.topic: reference

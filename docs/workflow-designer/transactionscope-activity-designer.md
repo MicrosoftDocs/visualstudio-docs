@@ -1,15 +1,15 @@
 ---
-title: "Workflow Designer - TransactionScope Activity Designer"
+title: Workflow Designer - TransactionScope Activity Designer
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "System.Activities.Statements.TransactionScope.UI"
+- System.Activities.Statements.TransactionScope.UI
 ms.assetid: 8d7ebfc6-7478-4888-b3b0-b14f296096af
-author: jillre
-ms.author: jillfra
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # TransactionScope Activity Designer
 

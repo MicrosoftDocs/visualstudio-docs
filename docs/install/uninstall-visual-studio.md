@@ -1,16 +1,16 @@
 ---
-title: "Uninstall Visual Studio"
-titleSuffix: ""
-description: "Learn how to uninstall Visual Studio, step-by-step."
+title: Uninstall Visual Studio
+titleSuffix: ''
+description: Learn how to uninstall Visual Studio, step-by-step.
 ms.date: 12/19/2019
-ms.custom: "seodec18"
+ms.custom: seodec18
 ms.topic: conceptual
 f1_keywords:
 - uninstall
 - uninstall Visual Studio
 ms.assetid: 0e445255-b796-426d-ad93-a4d8e36da2c5
-author: jillre
-ms.author: jillfra
+author: ornellaalt
+ms.author: ornella
 manager: jillfra
 ms.workload:
 - multiple

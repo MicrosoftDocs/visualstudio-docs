@@ -3,12 +3,12 @@ title: Use models in your development process
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "UML, using models"
-author: jillre
-ms.author: jillfra
+- UML, using models
+author: JoshuaPartlow
+ms.author: joshuapa
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Use models in your development process
 

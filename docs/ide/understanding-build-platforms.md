@@ -4,19 +4,19 @@ ms.date: 11/04/2016
 ms.technology: vs-ide-compile
 ms.topic: conceptual
 f1_keywords:
-  - "vs.build.newsolutionplatform"
-  - "vs.build.editprojectplatforms"
-  - "vs.build.newprojectplatform"
-  - "vs.build.editsolutionplatforms"
-  - "vc.proj.configurationsctrl.multipleplatforms"
+- vs.build.newsolutionplatform
+- vs.build.editprojectplatforms
+- vs.build.newprojectplatform
+- vs.build.editsolutionplatforms
+- vc.proj.configurationsctrl.multipleplatforms
 helpviewer_keywords:
-  - "build platforms [Visual Studio]"
+- build platforms [Visual Studio]
 ms.assetid: c1e5da1b-cda1-4545-b46c-0440fba27485
-author: ghogen
-ms.author: ghogen
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Understand build platforms
 
