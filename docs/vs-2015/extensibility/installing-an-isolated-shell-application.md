@@ -30,7 +30,7 @@ To install a Shell app you must perform the following steps.
   
 - The Visual Studio SDK  
   
-- The [Windows Installer XML Toolset](http://wix.sourceforge.net/) version 3.6  
+- The [Windows Installer XML Toolset](https://wix.sourceforge.net/) version 3.6  
   
   The sample also requires the Microsoft Visualization and Modeling SDK, which not all shells require.  
   
@@ -48,7 +48,7 @@ To install a Shell app you must perform the following steps.
 2. For each project that contains a VSIX manifest, edit the build tasks to output the content to the location from which your MSI will install. Include the VSIX manifest in the build output, but don't build a .vsix file.  
   
 ## Creating an MSI for Your Shell  
- To build your MSI package, we recommend that you use the [Windows Installer XML Toolset](http://wix.sourceforge.net/) because it gives greater flexibility than a standard Setup project.  
+ To build your MSI package, we recommend that you use the [Windows Installer XML Toolset](https://wix.sourceforge.net/) because it gives greater flexibility than a standard Setup project.  
   
  In your Product.wxs file, set detection blocks and the layout of Shell components.  
   
