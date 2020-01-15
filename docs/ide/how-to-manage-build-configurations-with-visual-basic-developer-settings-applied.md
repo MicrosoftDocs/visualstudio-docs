@@ -4,16 +4,16 @@ ms.date: 11/21/2018
 ms.technology: vs-ide-compile
 ms.topic: conceptual
 helpviewer_keywords:
-  - "advanced build configurations"
-  - "building with Visual Basic developer settings (Visual Studio)"
-  - "debug builds"
-  - "release builds"
+- advanced build configurations
+- building with Visual Basic developer settings (Visual Studio)
+- debug builds
+- release builds
 ms.assetid: eaea6e0b-6c61-4869-8d63-d372c745a23c
-author: ghogen
-ms.author: ghogen
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # How to: Manage build configurations with Visual Basic developer settings applied
 

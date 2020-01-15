@@ -3,12 +3,12 @@ title: Options, Windows Forms Designer, Data UI Customization
 ms.date: 08/09/2019
 ms.topic: reference
 f1_keywords:
-  - VS.ToolsOptionsPages.WindowsFormsDesigner.Data_UI_Customization
+- VS.ToolsOptionsPages.WindowsFormsDesigner.Data_UI_Customization
 helpviewer_keywords:
-  - "Data UI customization options"
-  - "Options dialog box, Windows Forms Designer, Data UI Customization"
-author: jillre
-ms.author: jillfra
+- Data UI customization options
+- Options dialog box, Windows Forms Designer, Data UI Customization
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ---
 # Options dialog box: Windows Forms Designer > Data UI Customization

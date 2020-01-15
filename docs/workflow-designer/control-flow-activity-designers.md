@@ -1,13 +1,13 @@
 ---
-title: "Workflow Designer - Control Flow Activity Designers"
+title: Workflow Designer - Control Flow Activity Designers
 ms.date: 11/04/2016
 ms.topic: reference
 ms.assetid: ba74af23-5398-4e62-bd90-c50612e3bfef
-author: jillre
-ms.author: jillfra
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Control Flow Activity Designers
 
