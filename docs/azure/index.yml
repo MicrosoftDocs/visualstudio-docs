@@ -82,7 +82,7 @@ landingContent:
           url: /azure/cognitive-services/bing-news-search/vs-bing-news-search-connected-service
         - text: Cognitive Services - Face API
           url: /azure/cognitive-services/face/vs-face-connected-service
-        - text: Cognitive Services - Computer Vision
+        - text: Cognitive Services - Computer Vision 
           url: /azure/cognitive-services/computer-vision/vs-computer-vision-connected-service
 
   - title: Azure Cloud Services
