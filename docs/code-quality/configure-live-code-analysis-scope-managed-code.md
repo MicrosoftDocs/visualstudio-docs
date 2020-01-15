@@ -45,9 +45,9 @@ The default scope of each background analysis has been tuned for the optimal use
 
 Starting in Visual Studio 2019 version 16.5, users can explicitly customize the scope of all live code analysis, including diagnostics computation, for C# and Visual Basic projects. Available analysis scopes are:
 
-- **Current Document**: Minimizes the live code analysis scope to only execute for the current or visible file in the editor.
-- **Open Documents and Projects**: Default live code analysis scope, as described in the above section.
-- **Entire Solution**: Maximizes the live code analysis scope to execute for all files and projects in the entire solution.
+- **Current document**: Minimizes the live code analysis scope to only execute for the current or visible file in the editor.
+- **Open documents**: Default live code analysis scope, as described in the above section.
+- **Entire solution**: Maximizes the live code analysis scope to execute for all files and projects in the entire solution.
 
 You can choose one of the above custom analysis scopes in Tools Options dialog by following the below steps:
 
