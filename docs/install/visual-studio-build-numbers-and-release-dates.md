@@ -2,12 +2,11 @@
 title: Visual Studio build numbers and release dates
 titleSuffix: ''
 description: A list of released versions and build numbers for Visual Studio, sorted by date.
-author: jillre
-ms.author: jillfra
+author: ornellaalt
+ms.author: ornella
 manager: jillfra
-ms.date: 12/17/2019
+ms.date: 01/15/2020
 ms.topic: reference
-ms.custom: seodec18
 ms.workload:
 - multiple
 ms.prod: visual-studio-windows
@@ -23,6 +22,8 @@ The following table lists the build numbers and release dates for Visual Studio 
 
 | **Version**| **Channel** | **Release date** | **Build version** |
 | ---------------------- | ----------- | ---------------- | ----------------- |
+| 16.4.3 | Release | January 14, 2020 | 16.4.29709.97 |
+| 16.0.11 | Release | January 14, 2020 | 16.0.28803.653 |
 | 16.4.2 | Release | December 17, 2019 | 16.4.29613.14 |
 | 16.4.1 | Release | December 10, 2019 | 16.4.29609.76 |
 | 16.0.10 | Release | December 10, 2019 | 16.0.28803.631 |
@@ -113,6 +114,7 @@ The following table lists the build numbers and release dates for Visual Studio 
 
 | **Version**| **Channel** | **Release date** | **Build version** |
 | ---------------------- | ----------- | ---------------- | ----------------- |
+| 15.9.19 | Release | January 14, 2020 | 15.9.28307.1000 |
 | 15.0.28 | Release | December 11, 2019 | 15.0.26228.102 |
 | 15.9.18 | Release | December 10, 2019 | 15.9.28307.960 |
 | 15.9.17 | Release | October 15, 2019 | 15.9.28307.905 |
