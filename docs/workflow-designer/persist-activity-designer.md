@@ -1,15 +1,15 @@
 ---
-title: "Workflow Designer - Persist Activity Designer"
+title: Workflow Designer - Persist Activity Designer
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "System.Activities.Statements.Persist.UI"
+- System.Activities.Statements.Persist.UI
 ms.assetid: be8648dd-3eb9-4a50-8ec1-57a8be804692
-author: jillre
-ms.author: jillfra
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Persist Activity Designer
 

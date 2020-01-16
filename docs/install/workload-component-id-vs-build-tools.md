@@ -3,8 +3,8 @@ title: Visual Studio Build Tools workload and component IDs
 titleSuffix: ''
 description: Use Visual Studio workload and component IDs to build classic Windows-based applications
 keywords: 
-author: jillre
-ms.author: jillfra
+author: ornellaalt
+ms.author: ornella
 manager: jillfra
 ms.date: 12/03/2019
 ms.topic: reference

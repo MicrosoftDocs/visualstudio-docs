@@ -10,8 +10,8 @@ helpviewer_keywords:
 - installing Visual Studio, administrator guide
 - list of domains, locations, URLs
 ms.assetid: 
-author: jillre
-ms.author: jillfra
+author: ornellaalt
+ms.author: ornella
 manager: jillfra
 ms.workload:
 - multiple

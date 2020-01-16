@@ -10,8 +10,8 @@ helpviewer_keywords:
 - virtual machine
 - installation
 - visual studio
-author: jillre
-ms.author: jillfra
+author: ornellaalt
+ms.author: ornella
 manager: jillfra
 ms.workload:
 - multiple
