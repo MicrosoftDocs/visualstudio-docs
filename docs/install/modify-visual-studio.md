@@ -1,8 +1,8 @@
 ---
-title: "Modify Visual Studio"
-titleSuffix: ""
-description: "Learn how to modify Visual Studio, step-by-step."
-ms.custom: "H1Hack27Feb2017,seodec18"
+title: Modify Visual Studio
+titleSuffix: ''
+description: Learn how to modify Visual Studio, step-by-step.
+ms.custom: H1Hack27Feb2017,seodec18
 ms.date: 12/19/2019
 ms.topic: conceptual
 helpviewer_keywords:
@@ -11,8 +11,8 @@ helpviewer_keywords:
 - changing Visual Studio
 - customize Visual Studio
 ms.assetid: 3399ea7b-a291-4a9e-80a1-b861a21afa1d
-author: jillre
-ms.author: jillfra
+author: ornellaalt
+ms.author: ornella
 manager: jillfra
 ms.workload:
 - multiple

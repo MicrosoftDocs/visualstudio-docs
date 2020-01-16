@@ -50,10 +50,10 @@ Once the installers have completed (see [Setup and install](../cross-platform/se
   
              Note: if you do not see the **Tools > Visual Studio Emulator for Android...** menu option, you may not have the emulator itself installed. Go to **Control Panel > Programs and Features**, select **Microsoft Visual Studio**, and click **Change** to rerun the installer. Click **Modify** in the installer, check the box for **Cross Platform Mobile Development > Microsoft Visual Studio Emulator for Android**, and click **Update**.  
   
-        - For Windows 7 and earlier: select the Xamarin Player for Android in the drop-down instead and press F5 to run. For details on the Xamarin Player, its device manager, and troubleshooting tips, read [Xamarin Android Player](https://docs.microsoft.com/xamarin/android/deploy-test/debugging/debug-on-emulator?tabs=windows) (xamarin.com).  
+        - For Windows 7 and earlier: select the Xamarin Player for Android in the drop-down instead and press F5 to run. For details on the Xamarin Player, its device manager, and troubleshooting tips, read [Xamarin Android Player](/xamarin/android/deploy-test/debugging/debug-on-emulator?tabs=windows) (xamarin.com).  
   
 > [!NOTE]
-> In Visual Studio, you may notice the presence of the Android Emulator Manager (AVD) button in the toolbar (show below), which opens the device manager that is specifically used for configuring the Google Android emulator.  This has no impact on either the Visual Studio Emulator for Android or the Xamarin Player, each of which has their own device manager for configuring profiles.  See [Introducing Visual Studio’s Emulator for Android](https://devblogs.microsoft.com/devops/introducing-visual-studios-emulator-for-android/) (Visual Studio ALM blog) and [Xamarin Android Player](https://docs.microsoft.com/xamarin/android/deploy-test/debugging/debug-on-emulator?tabs=windows) (xamarin.com) for details.  
+> In Visual Studio, you may notice the presence of the Android Emulator Manager (AVD) button in the toolbar (show below), which opens the device manager that is specifically used for configuring the Google Android emulator.  This has no impact on either the Visual Studio Emulator for Android or the Xamarin Player, each of which has their own device manager for configuring profiles.  See [Introducing Visual Studio’s Emulator for Android](https://devblogs.microsoft.com/devops/introducing-visual-studios-emulator-for-android/) (Visual Studio ALM blog) and [Xamarin Android Player](/xamarin/android/deploy-test/debugging/debug-on-emulator?tabs=windows) (xamarin.com) for details.  
 > ![CrossPlat Xamarin Verify 7](../cross-platform/media/crossplat-xamarin-verify-7.png "CrossPlat Xamarin Verify 7")  
   
 ## Windows Phone  
@@ -72,7 +72,7 @@ Once the installers have completed (see [Setup and install](../cross-platform/se
   
 ## iOS  
   
-1. Make sure your Mac is available on the network and paired with Visual Studio as described on [Connecting to the Mac](https://docs.microsoft.com/xamarin/ios/get-started/installation/windows/connecting-to-mac/) (xamarin.com).  
+1. Make sure your Mac is available on the network and paired with Visual Studio as described on [Connecting to the Mac](/xamarin/ios/get-started/installation/windows/connecting-to-mac/) (xamarin.com).  
   
 2. Validate the storyboard designer: in the iOS project in Solution Explorer, open the **Main.storyboard** file. Here, Visual Studio is hosting the designer that’s running remotely on the Mac.  
   
@@ -88,7 +88,7 @@ Once the installers have completed (see [Setup and install](../cross-platform/se
   
          ![Selecting an iPhone debug target](../cross-platform/media/crossplat-xamarin-verify-6.png "CrossPlat Xamarin Verify 6")  
   
-    4. If you encounter problems connecting to the Mac, read [Connection Troubleshooting](https://docs.microsoft.com/xamarin/ios/get-started/installation/windows/connecting-to-mac/troubleshooting) (xamarin.com).  
+    4. If you encounter problems connecting to the Mac, read [Connection Troubleshooting](/xamarin/ios/get-started/installation/windows/connecting-to-mac/troubleshooting) (xamarin.com).  
   
     5. If you see an error saying "No installed provisioning profiles match the installed iOS signing keys, do the following:  
   

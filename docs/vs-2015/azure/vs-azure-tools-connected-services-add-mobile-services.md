@@ -58,9 +58,6 @@ You can use the Connected Services dialog to connect to Azure Mobile Services in
 5. Review the getting started page that appears and find out how your project was modified. A Getting Started page appears in your browser whenever you add a connected service. You can review the suggested next steps and code examples, or switch to the What Happened page to see what references were added to your project, and how your code and configuration files were modified.
 6. Using the code samples as a guide, start writing code to access your mobile service!
 
-## How your project is modified
-How Visual Studio modifies your project depends on the project type. For C# client apps, see [What happend – C# projects](https://docs.microsoft.com/azure/). For JavaScript client apps, see [What happened – JavaScript projects](https://docs.microsoft.com/azure/). For Cordova apps, see [What happend – Cordova projects](https://docs.microsoft.com/azure/).
-
 ## Next steps
 Ask questions and get help:
 

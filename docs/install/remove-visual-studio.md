@@ -1,9 +1,9 @@
 ---
-title: "Remove Visual Studio"
-titleSuffix: ""
-description: "Learn how to completely remove Visual Studio from your computer, step by step."
+title: Remove Visual Studio
+titleSuffix: ''
+description: Learn how to completely remove Visual Studio from your computer, step by step.
 ms.date: 12/19/2019
-ms.custom: "seodec18"
+ms.custom: seodec18
 ms.topic: conceptual
 f1_keywords:
 - uninstall
@@ -15,8 +15,8 @@ f1_keywords:
 - clean up
 - clean up Visual Studio
 ms.assetid: 9c81a777-9c95-4934-b517-c60c6dc78799
-author: TerryGLee
-ms.author: tglee
+author: ornellaalt
+ms.author: ornella
 manager: jillfra
 ms.workload:
 - multiple

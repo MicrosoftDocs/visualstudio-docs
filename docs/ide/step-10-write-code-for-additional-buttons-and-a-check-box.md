@@ -1,18 +1,18 @@
 ---
-title: "Step 10: Write code for additional buttons and a check box"
+title: 'Step 10: Write code for additional buttons and a check box'
 ms.date: 08/30/2019
 ms.assetid: 185cf370-ab39-4ac0-b6bc-601d5b95a4a2
 ms.topic: tutorial
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
 dev_langs:
-  - "CSharp"
-  - "VB"
+- CSharp
+- VB
 author: TerryGLee
 ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Step 10: Write code for additional buttons and a check box
 

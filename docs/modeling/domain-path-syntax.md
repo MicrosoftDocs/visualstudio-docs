@@ -3,12 +3,12 @@ title: Domain Path Syntax
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "Domain-Specific Language, domain path"
-author: jillre
-ms.author: jillfra
+- Domain-Specific Language, domain path
+author: JoshuaPartlow
+ms.author: joshuapa
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Domain Path Syntax
 DSL Definitions use an XPath-like syntax to locate specific elements in a model.

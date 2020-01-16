@@ -2,11 +2,11 @@
 title: Updating Shapes and Connectors to Reflect the Model
 ms.date: 11/04/2016
 ms.topic: conceptual
-author: jillre
-ms.author: jillfra
+author: JoshuaPartlow
+ms.author: joshuapa
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Update Shapes and Connectors to Reflect the Model
 

@@ -17,14 +17,14 @@ With IntelliTrace, you can log extensive debugging information for a role instan
 
 You can use IntelliTrace if you have Visual Studio Enterprise installed and your Azure application targets .NET Framework 4 or a later version. IntelliTrace collects information for your Azure roles. The virtual machines for these roles always run 64-bit operating systems.
 
-As an alternative, you can use [remote debugging](https://docs.microsoft.com/visualstudio/azure/vs-azure-tools-debugging-cloud-services-overview?view=vs-2019) to attach directly to a cloud service that's running in Azure.
+As an alternative, you can use [remote debugging](vs-azure-tools-debugging-cloud-services-overview.md) to attach directly to a cloud service that's running in Azure.
 
 > [!IMPORTANT]
 > IntelliTrace is intended for debug scenarios only, and should not be used for a production deployment.
 > 
 
 ## Configure an Azure application for IntelliTrace
-To enable IntelliTrace for an Azure application, you must create and publish the application from a Visual Studio Azure project. You must configure IntelliTrace for your Azure application before you publish it to Azure. If you publish your application without configuring IntelliTrace, you need to republish the project. For more information, see [Publishing an Azure cloud services projects using Visual Studio](https://docs.microsoft.com/visualstudio/azure/vs-azure-tools-publishing-a-cloud-service?view=vs-2019).
+To enable IntelliTrace for an Azure application, you must create and publish the application from a Visual Studio Azure project. You must configure IntelliTrace for your Azure application before you publish it to Azure. If you publish your application without configuring IntelliTrace, you need to republish the project. For more information, see [Publishing an Azure cloud services projects using Visual Studio](vs-azure-tools-publishing-a-cloud-service.md).
 
 1. When you are ready to deploy your Azure application, verify that your project build targets are set to **Debug**.
 

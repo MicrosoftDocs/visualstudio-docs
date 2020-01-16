@@ -1,15 +1,15 @@
 ---
-title: "Workflow Designer - Add CorrelationInitializers Dialog Box"
+title: Workflow Designer - Add CorrelationInitializers Dialog Box
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "AddCorrelationInitializers.UI"
+- AddCorrelationInitializers.UI
 ms.assetid: c0517467-d54a-4ee6-aef0-c19b96b6f395
-author: jillre
-ms.author: jillfra
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Add CorrelationInitializers Dialog Box
 
