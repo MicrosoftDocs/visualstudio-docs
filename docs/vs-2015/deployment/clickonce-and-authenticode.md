@@ -59,7 +59,7 @@ Authenticode* is a Microsoft technology that uses industry-standard cryptography
   
 - Uninstall the application, and reinstall a new version with a valid certificate.  
   
-- Create a command-line assembly that updates the certificate. Step-by-step information about this process can be found at [Microsoft Support Article 925521](https://support.microsoft.com/kb/925521).  
+- Create a command-line assembly that updates the certificate.  
   
 ### Storing Certificates  
   

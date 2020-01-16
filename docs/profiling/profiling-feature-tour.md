@@ -32,7 +32,7 @@ The **Diagnostic Tools** window is often the preferred way to profile apps, but 
 
 ## Analyze CPU Usage
 
-The CPU Usage tool is a good place to start analyzing your app's performance. It will tell you more about CPU resources that your app is consuming. For a more detailed walkthrough of the CPU Usage tool, see [Beginner's guide to performance profiling](../profiling/beginners-guide-to-performance-profiling.md).
+The CPU Usage tool is a good place to start analyzing your app's performance. It will tell you more about CPU resources that your app is consuming. For a more detailed walkthrough of the CPU Usage tool, see [Measure application performance by analyzing CPU usage](../profiling/beginners-guide-to-performance-profiling.md).
 
 From the **Summary** view of the Diagnostic Tools, choose **Enable CPU Profiling** (you must be in a debugging session).
 

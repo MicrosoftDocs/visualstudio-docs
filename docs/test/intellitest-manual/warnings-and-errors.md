@@ -1,14 +1,14 @@
 ---
-title: "Warnings and errors | Microsoft IntelliTest Developer Test Tool"
+title: Warnings and errors | Microsoft IntelliTest Developer Test Tool
 ms.date: 05/02/2017
 ms.topic: reference
 helpviewer_keywords:
-  - "IntelliTest, Warnings and errors"
-ms.author: jillfra
+- IntelliTest, Warnings and errors
+ms.author: mikejo
 manager: jillfra
 ms.workload:
-  - "multiple"
-author: jillre
+- multiple
+author: mikejo5000
 ---
 # Warnings and errors
 
