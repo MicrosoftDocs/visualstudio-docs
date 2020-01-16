@@ -1,18 +1,18 @@
 ---
-title: "Step 4: Add the CheckTheAnswer() method"
+title: 'Step 4: Add the CheckTheAnswer() method'
 ms.date: 11/04/2016
 ms.topic: tutorial
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
 dev_langs:
-  - "CSharp"
-  - "VB"
+- CSharp
+- VB
 ms.assetid: c66f3831-b4a0-40bc-a109-8f46f4db35ed
 author: TerryGLee
 ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Step 4: Add the CheckTheAnswer() method
 

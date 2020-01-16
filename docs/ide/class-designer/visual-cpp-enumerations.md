@@ -3,13 +3,13 @@ title: C++ Enumerations in Class Designer
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "Class Designer [Visual Studio], enumerations"
+- Class Designer [Visual Studio], enumerations
 ms.assetid: 11e90ba1-18cd-44f8-9e26-e3746a7a19d1
-author: jillre
-ms.author: jillfra
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "cplusplus"
+- cplusplus
 ---
 # C++ enumerations in Class Designer
 
