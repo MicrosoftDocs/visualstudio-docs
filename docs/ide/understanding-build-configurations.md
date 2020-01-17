@@ -31,7 +31,7 @@ ms.workload:
 
 You need build configurations when you need to build your projects with different settings. For example, **Debug** and **Release** are configurations and different compiler options are used accordingly when building them.  One configuration is active and is indicated in the command bar at the top of the IDE.
 
-![Active configuration](media/understanding-build-configurations/active-config.md)
+![Active configuration](media/understanding-build-configurations/active-config.png)
 
 > [!NOTE]
 > This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [Build configurations in Visual Studio for Mac](/visualstudio/mac/configurations).
