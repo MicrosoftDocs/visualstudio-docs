@@ -17,7 +17,7 @@ ms.workload:
 If you've never written a Visual Studio extension before, you probably have some questions. We've listed some of the most common ones here. If you don't see the information you're looking for, use the feedback buttons (**Was this page helpful?** at the bottom of the screen) to ask for what you want.
 
 > [!NOTE]
-> This article applies to Visual Studio on Windows. For Visual Studio for Mac, see [Extending Visual Studio for Mac](/visualstudio/mac/extending-visual-studio-mac).
+> This article applies to Visual Studio on Windows. For Visual Studio for Mac, see [Extending Visual Studio for Mac](/visualstudio/mac/extending-visual-studio-mac). For Visual Studio Code, see [Visual Studio Code Extension API](https://code.visualstudio.com/api).
 
 ## What software do I need to develop Visual Studio extensions?
 
@@ -90,3 +90,4 @@ In practice, we have found that the features most people want to extend are comm
 ## See also
 
 - [Extending Visual Studio for Mac](/visualstudio/mac/extending-visual-studio-mac)
+- [Extending Visual Studio Code](https://code.visualstudio.com/api)
