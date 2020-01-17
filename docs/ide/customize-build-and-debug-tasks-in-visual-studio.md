@@ -219,7 +219,7 @@ You can create tasks for any file or folder by specifying its name in the `appli
 
 ## Configure debugging with launch.vs.json
 
-To configure CMake projects for debugging, see [Configure CMak debugging sessions](/cpp/build/configure-cmake-debugging-sessions?view=vs-2019).
+To configure CMake projects for debugging, see [Configure CMak debugging sessions](/cpp/build/configure-cmake-debugging-sessions).
 
 1. To configure your codebase for debugging, in **Solution Explorer** choose the **Debug and Launch Settings** menu item from the right-click or context menu of your executable file.
 
