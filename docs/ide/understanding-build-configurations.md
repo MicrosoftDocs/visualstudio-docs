@@ -42,6 +42,8 @@ You can create your own build configurations at the solution and project level. 
 
 To create, select, modify, or delete a configuration, you can use the **Configuration Manager**. To open it, on the menu bar, choose **Build** > **Configuration Manager**, or just type **Configuration** in the search box. You can also use the **Solution Configurations** list on the **Standard** toolbar to select a configuration or open the **Configuration Manager**.
 
+![Configuration Manager](media/understanding-build-configurations/config-manager.png)
+
 > [!NOTE]
 > If you can't find solution configuration settings on the toolbar and can't access the **Configuration Manager**, [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] development settings may be applied. For more information, see [How to: Manage configurations with Visual Basic developer settings applied](../ide/how-to-manage-build-configurations-with-visual-basic-developer-settings-applied.md).
 
