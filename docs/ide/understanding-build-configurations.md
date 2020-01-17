@@ -31,10 +31,12 @@ ms.workload:
 
 You need build configurations when you need to build your projects with different settings. For example, **Debug** and **Release** are configurations and different compiler options are used accordingly when building them.  One configuration is active and is indicated in the command bar at the top of the IDE.
 
-![Active configuration](media/understanding-build-configurations.md)
+![Active configuration](media/understanding-build-configurations/active-config.md)
 
 > [!NOTE]
 > This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [Build configurations in Visual Studio for Mac](/visualstudio/mac/configurations).
+
+The configuration and the platform control where built output files are stored. Normally, when Visual Studio builds your project, the output is placed in a project subfolder named with the active configuration (for example, *bin/Debug/x86*), but you can change that.
 
 You can create your own build configurations at the solution and project level. The solution configuration determines which projects are included in the build when that configuration is active. Only the projects that are specified in the active solution configuration will be built. The project configuration determines what build settings and compiler options are used when you build the project.
 
@@ -57,9 +59,9 @@ The active solution configuration also provides context to the IDE. For example,
 
 ## Project configurations
 
-The configuration and platform that a project targets are used together to specify the build settings and compiler options to use when it's built. A project can have different settings for each combination of configuration and platform. To modify the properties of a project, open the shortcut menu for the project in **Solution Explorer**, and then choose **Properties**.
+The configuration and platform that a project targets are used together to specify the build settings and compiler options to use when it's built. A project can have different settings for each combination of configuration and platform. To modify the properties of a project, open the shortcut menu for the project in **Solution Explorer**, and then choose **Properties**.  At the top of the **Build** tab of the project designer, choose an active configuration to edit its build settings.
 
-For each project configuration, you can define configuration-dependent properties as needed. For example, for a particular build, you can set which project items will be included, and what output files will be created, where they will be put, and how they will be optimized.
+![Project designer configurations](media/understanding-build-configurations/project-designer-configuration.png)
 
 ## How Visual Studio assigns project configurations
 
@@ -87,5 +89,5 @@ Visual Studio uses the following criteria to assign solution configurations.
 - [Compile and build](../ide/compiling-and-building-in-visual-studio.md)
 - [Solutions and projects](../ide/solutions-and-projects-in-visual-studio.md)
 - [C/C++ build reference](/cpp/build/reference/c-cpp-building-reference)
-- [Devenv command line switches](../ide/reference/devenv-command-line-switches.md)
+- [Understanding build platforms](understanding-build-platforms.md)
 - [Build configurations (Visual Studio for Mac)](/visualstudio/mac/configurations)
