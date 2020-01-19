@@ -67,14 +67,14 @@ You'll first need a multithreaded application project. An example follows.
     public class ServerClass
     {
 
-        static int count = 0;
+        static int count = 0; //<-here
         // The method that will be called when the thread is started.
         public void InstanceMethod()
         {
             Console.WriteLine(
                 "ServerClass.InstanceMethod is running on another thread.");
 
-            int data = count++;
+            int data = count++; //<-here
             // Pause for a moment to provide a delay to make
             // threads more apparent.
             Thread.Sleep(3000);
