@@ -28,6 +28,9 @@ landingContent:
         links:
          - text: Ways to run profiling tools
            url: running-profiling-tools-with-or-without-the-debugger.md
+         - text: Measure CPU usage from the command line
+           url: profile-apps-from-command-line.md
+           
 
   # Card (optional)
   - title: Get started
