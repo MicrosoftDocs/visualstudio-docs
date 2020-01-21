@@ -32,10 +32,10 @@ Follow the tasks below to create a visualizer.
 1. Create a new class library project.
 
     ::: moniker range=">=vs-2019"
-    Press **Esc** to close the start window. Type **Ctrl + Q** to open the search box, type **class library**, choose **Templates**, then choose **Create a new Class Library (.NET Standard)**. In the dialog box that appears, choose **Create**.
+    Press **Esc** to close the start window. Type **Ctrl + Q** to open the search box, type **class library**, choose **Templates**, then choose **Create a new Class Library (.NET Framework)**. In the dialog box that appears, choose **Create**.
     ::: moniker-end
     ::: moniker range="vs-2017"
-    From the top menu bar, choose **File** > **New** > **Project**. In the left pane of the **New project** dialog box, under **Visual C#**, choose **.NET Standard**, and then in the middle pane choose **Class Library (.NET Standard)**.
+    From the top menu bar, choose **File** > **New** > **Project**. In the left pane of the **New project** dialog box, under **Visual C#**, choose **.NET Framework**, and then in the middle pane choose **Class Library (.NET Framework)**.
     ::: moniker-end
 
 2. Type an appropriate name for the class library, such as `MyFirstVisualizer`, and then click **Create** or **OK**.
@@ -236,7 +236,7 @@ First, you have to create a new class library project.
 
 1. On the **File** menu, choose **New > Project**.
 
-2. In the **New Project** dialog box, under **Visual C#**, select **.NET Standard**.
+2. In the **New Project** dialog box, under **Visual C#**, select **.NET Framework**.
 
 3. In the middle pane, choose **Class Library**.
 
