@@ -42,7 +42,7 @@ Regardless of how many competencies a partner earns, the number of Visual Studio
 
 ## Subscriptions for partners purchasing the Action Pack
 
-Partners with a competency are not eligible to purchase the Action Pack. Only one Action Pack can be purchased per partner.
+Partners with a competency are eligible to purchase the Action Pack. Only one Action Pack can be purchased per partner.
 
 With the Action Pack, the partner earns **3 Visual Studio Professional (MPN) subscriptions**. Visual Studio Professional (MPN) is a custom offering without a commercially-available equivalent in the market. Here is what is included:
 
