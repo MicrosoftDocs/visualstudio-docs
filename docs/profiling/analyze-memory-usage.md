@@ -30,3 +30,4 @@ You can use the profiling tools without the debugger with Windows 7 and later. W
 
 - [Profiling in Visual Studio](../profiling/index.yml)
 - [First look at profiling tools](../profiling/profiling-feature-tour.md)
+- [Analyze memory usage without the debugger](../profiling/memory-usage-without-debugging2.md)
