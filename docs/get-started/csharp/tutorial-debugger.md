@@ -34,12 +34,12 @@ In this tutorial, you will:
 
 ::: moniker range=">=vs-2019"
 
-You must have Visual Studio 2019 installed and the **.NET desktop development** workload.
+You must have Visual Studio 2019 installed and the **.NET Core cross-platform development** workload.
 
 ::: moniker-end
 ::: moniker range="vs-2017"
 
-You must have Visual Studio 2017 installed and the **.NET desktop development** workload.
+You must have Visual Studio 2017 installed and the **.NET Core cross-platform development** workload.
 
 ::: moniker-end
 
@@ -55,22 +55,50 @@ If you haven't already installed Visual Studio, go to the [Visual Studio downloa
 
 ::: moniker-end
 
-If you need to install the workload but already have Visual Studio, go to **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer. The Visual Studio Installer launches. Choose the **.NET desktop development** workload, then choose **Modify**.
+If you need to install the workload but already have Visual Studio, go to **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer. The Visual Studio Installer launches. Choose the **.NET Core cross-platform development** workload, then choose **Modify**.
 
 ## Create a project
 
-1. Open Visual Studio.
+First, you'll create a .NET Core console application project. The project type comes with all the template files you'll need, before you've even added anything!
 
-    ::: moniker range=">=vs-2019"
-    Press **Esc** to close the start window. Type **Ctrl + Q** to open the search box, type **console**, choose **Templates**, then choose either **Create new Console App (.NET Core) project** or **Create new Console App (.NET Framework) project**. In the dialog box that appears, type a name like **get-started-debugging**, and then choose **Create**.
-    ::: moniker-end
-    ::: moniker range="vs-2017"
-    From the top menu bar, choose **File** > **New** > **Project**. In the left pane of the **New project** dialog box, under **Visual C#**, choose **Windows Desktop**, and then in the middle pane choose **Console App (.NET Framework)**. Then, type a name like **get-started-debugging** and click **OK**.
-    ::: moniker-end
+::: moniker range="vs-2017"
 
-    If you don't see the **Console App (.NET Framework)** project template, go to **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer. Choose the **.NET desktop development** workload, then choose **Modify**.
+1. Open Visual Studio 2017.
 
-    Visual Studio creates the project.
+2. From the top menu bar, choose **File** > **New** > **Project**.
+
+3. In the **New Project** dialog box in the left pane, expand **C#**, and then choose **.NET Core**. In the middle pane, choose **Console App (.NET Core)**. Then name the project *get-started-debugging*.
+
+     If you don't see the **Console App (.NET Core)** project template, choose the **Open Visual Studio Installer** link in the left pane of the **New Project** dialog box.
+
+     The Visual Studio Installer launches. Choose the **.NET Core cross-platform development** workload, and then choose **Modify**.
+
+::: moniker-end
+
+::: moniker range="vs-2019"
+
+1. Open Visual Studio 2019.
+
+   If the start window is not open, choose **File** > **Start Window**.
+
+1. On the start window, choose **Create a new project**.
+
+1. On the **Create a new project** window, enter or type *console* in the search box. Next, choose **C#** from the Language list, and then choose **Windows** from the Platform list. 
+
+   After you apply the language and platform filters, choose the **Console App (.NET Core)** template, and then choose **Next**.
+
+   ![Choose the C# template for the Console App (.NET Core)](../../debugger/media/vs-2019/get-started-create-console-project.png)
+
+   > [!NOTE]
+   > If you do not see the **Console App (.NET Core)** template, you can install it from the **Create a new project** window. In the **Not finding what you're looking for?** message, choose the **Install more tools and features** link. Then, in the Visual Studio Installer, choose the **.NET Core cross-platform development** workload.
+
+1. In the **Configure your new project** window, type or enter *get-started-debugging* in the **Project name** box. Then, choose **Create**.
+
+   Visual Studio opens your new project.
+   
+::: moniker-end
+
+## Create the application
 
 1. In *Program.cs*, replace all of the default code
 
