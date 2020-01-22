@@ -71,7 +71,7 @@ If you need to install the workload but already have Visual Studio, go to **Tool
 
    After you apply the language and platform filters, choose the **Console App** template, and then choose **Next**.
 
-   ![Choose the C# template for the Console App (.NET Core)](../../debugger/media/vs-2019/get-started-create-console-project-cpp.png)
+   ![Choose the C# template for the Console App (.NET Core)](../debugger/media/vs-2019/get-started-create-console-project-cpp.png)
 
    > [!NOTE]
    > If you do not see the **Console App** template, you can install it from the **Create a new project** window. In the **Not finding what you're looking for?** message, choose the **Install more tools and features** link. Then, in the Visual Studio Installer, choose the **Desktop development with C++** workload.
