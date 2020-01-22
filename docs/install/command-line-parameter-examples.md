@@ -88,7 +88,7 @@ For lists of the workloads and components that you can install by using the comm
 * Download the Visual Studio core editor (the most minimal Visual Studio configuration). Only include the English language pack:
 
   ```cmd
-   vs_community.exe --layout C:\VS
+   vs_community.exe --layout C:\VS ^
    --lang en-US ^
    --add Microsoft.VisualStudio.Workload.CoreEditor
   ```
