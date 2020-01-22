@@ -46,21 +46,6 @@ If you need to install the workload but already have Visual Studio, go to **Tool
 
 ## Create a project
 
-1. Open Visual Studio.
-
-    ::: moniker range=">=vs-2019"
-    Press **Esc** to close the start window. Type **Ctrl + Q** to open the search box, type **c++**, choose **Templates**, then choose **Create new Console App project**. In the dialog box that appears, type a name like **get-started-debugging**, and then choose **Create**.
-    ::: moniker-end
-    ::: moniker range="vs-2017"
-    From the top menu bar, choose **File** > **New** > **Project**. In the left pane of the **New project** dialog box, under **Visual C++**, choose **Windows Desktop**, and then in the middle pane choose **Windows Console Application**. Then, type a name like **MyDbgApp** and click **OK**.
-    ::: moniker-end
-
-    If you don't see the **Windows Console Application** project template, go to **Tools** > **Get Tools and Features**, which opens the Visual Studio Installer. The Visual Studio Installer launches. Choose the **Desktop development with C++** workload, then choose **Modify**.
-
-    Visual Studio creates the project.
-
-## Create a project
-
 ::: moniker range="vs-2017"
 
 1. Open Visual Studio 2017.
@@ -221,6 +206,8 @@ If you need to install the workload but already have Visual Studio, go to **Tool
 
 2. Stop the debugger by pressing the red stop ![Stop Debugging](../debugger/media/dbg-tour-stop-debugging.png "Stop Debugging") button.
 
+3. Close the console window.
+
 ## Set a breakpoint and start the debugger
 
 1. In the `for` loop of the `main` function, set a breakpoint by clicking the left margin of the following line of code:
@@ -259,6 +246,8 @@ Mostly, we use the keyboard shortcuts here, because it's a good way to get fast 
 
 ## Navigate code using Run to Click
 
+1. Right-click the breakpoint you set previously and choose **Delete Breakpoint** (or press **Ctrl** + **Shift** + **F9** to delete all breakpoints).
+
 1. In the code editor, scroll down and hover over the `std::cout` in the `Triangle` class until the green **Run to Click** button ![Run to Click](../debugger/media/dbg-tour-run-to-click.png "RunToClick") appears on the left.
 
      ![Use the Run to Click feature](../debugger/media/get-started-run-to-click-cpp.png "Run to Click")
@@ -292,6 +281,8 @@ Let's say that you are done examining the `Draw` method in the `Triangle` class,
      This command resumes app execution (and advances the debugger) until the current function returns.
 
      You should be back in the `for` loop in the `main` method.
+
+1. Click in the left margin to add a new breakpoint in the `for` loop.
 
 ## Restart your app quickly
 

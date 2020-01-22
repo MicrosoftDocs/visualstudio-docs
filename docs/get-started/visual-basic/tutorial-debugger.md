@@ -236,6 +236,8 @@ First, you'll create a .NET Core console application project. The project type c
 
 2. Stop the debugger by pressing the red stop ![Stop Debugging](../../debugger/media/dbg-tour-stop-debugging.png "Stop Debugging") button.
 
+3. Close the console window.
+
 ## Set a breakpoint and start the debugger
 
 1. In the `For Each` loop of the `Main` function, set a breakpoint by clicking the left margin of the following line of code:
@@ -276,6 +278,8 @@ Mostly, we use the keyboard shortcuts here, because it's a good way to get fast 
 
 ## Navigate code using Run to Click
 
+1. Right-click the breakpoint you set previously and choose **Delete Breakpoint** (or press **Ctrl** + **Shift** + **F9** to delete all breakpoints).
+
 1. In the code editor, scroll down and hover over the `Console.WriteLine` method in the `Triangle` class until the green **Run to Click** button ![Run to Click](../../debugger/media/dbg-tour-run-to-click.png "RunToClick") appears on the left. The tooltip for the button shows "Run execution to here".
 
      ![Use the Run to Click feature](../visual-basic/media/get-started-run-to-click-vb.png "Run to Click")
@@ -309,6 +313,8 @@ Let's say that you are done examining the `Draw` method in the `Triangle` class,
      This command resumes app execution (and advances the debugger) until the current function returns.
 
      You should be back in the `For Each` loop in the `Main` method. If not, press **Shift** + **F11** a second time.
+
+1. Click in the left margin to add a new breakpoint in the `for` loop.
 
 ## Restart your app quickly
 
