@@ -67,7 +67,7 @@ If you need to install the workload but already have Visual Studio, go to **Tool
 
 2. From the top menu bar, choose **File** > **New** > **Project**.
 
-3. In the **New Project** dialog box in the left pane, expand **Visual C++**, and then choose **Windows Desktop**. In the middle pane, choose **Windows Console Application**. Then name the project *MyDbgApp*.
+3. In the **New Project** dialog box in the left pane, expand **Visual C++**, and then choose **Windows Desktop**. In the middle pane, choose **Windows Console Application**. Then name the project *get-started-debugging*.
 
    > [!NOTE]
    > If you don't see the **Windows Console Application** project template, go to **Tools** > **Get Tools and Features**, which opens the Visual Studio Installer. The Visual Studio Installer launches. Choose the **Desktop development with C++** workload, then choose **Modify**.
@@ -82,18 +82,22 @@ If you need to install the workload but already have Visual Studio, go to **Tool
 
 1. On the start window, choose **Create a new project**.
 
-1. On the **Create a new project** window, enter or type *console* in the search box. Next, choose **Visual Basic** from the Language list, and then choose **Windows** from the Platform list. 
+1. On the **Create a new project** window, enter or type *console* in the search box. Next, choose **C++** from the Language list, and then choose **Windows** from the Platform list. 
 
-   After you apply the language and platform filters, choose the **Console App (.NET Core)** template, and then choose **Next**.
+   After you apply the language and platform filters, choose the **Console App** template, and then choose **Next**.
 
-   ![Choose the C# template for the Console App (.NET Core)](../../debugger/media/vs-2019/get-started-create-console-project-vb.png)
+   ![Choose the C# template for the Console App (.NET Core)](../../debugger/media/vs-2019/get-started-create-console-project-cpp.png)
 
    > [!NOTE]
-   > If you do not see the **Console App (.NET Core)** template, you can install it from the **Create a new project** window. In the **Not finding what you're looking for?** message, choose the **Install more tools and features** link. Then, in the Visual Studio Installer, choose the **.NET Core cross-platform development** workload.
+   > If you do not see the **Console App** template, you can install it from the **Create a new project** window. In the **Not finding what you're looking for?** message, choose the **Install more tools and features** link. Then, in the Visual Studio Installer, choose the **Desktop development with C++** workload.
 
 1. In the **Configure your new project** window, type or enter *get-started-debugging* in the **Project name** box. Then, choose **Create**.
 
    Visual Studio opens your new project.
+
+::: moniker-end
+
+## Create the application
 
 1. In *get-started-debugging.cpp*, replace the following code
 
