@@ -42,9 +42,9 @@ The compiler-generated XML file can be distributed alongside your .NET assembly 
 
    ![Completed comment](media/doc-result-cs.png)
 
-4. Use the `<inheritdoc>` tag to inherit XML comments from base classes, interfaces, and similar methods. 
+4. Place your cursor over the code element. Quick Info will display the supported styles from the XML comments above the code.
 
-   ![Completed comment](media/doc-inheritdoc-cs.PNG) 
+   ![Completed comment](media/doc-style-cs.PNG) 
 
 > [!NOTE]
 > There is an [option](../../ide/reference/options-text-editor-csharp-advanced.md) to toggle XML documentation comments after typing `///` in C# or `'''` Visual Basic. From the menu bar, choose **Tools** > **Options** to open the **Options** dialog box. Then, navigate to **Text Editor** > **C#** or **Basic** > **Advanced**. In the **Editor Help** section, look for the **Generate XML documentation comments** option.
