@@ -25,7 +25,7 @@ You can start Spy++ either from Visual Studio or at a command prompt.
 Spy++ requires the following components. You can select these components from the Visual Studio Installer by selecting the **Individual Components** tab, and then selecting the following components.
 
 * Under Debugging and testing, select **C++ profiling tools**
-* Under Development activities, select **Visual Studio C++ core features**
+* Under Development activities, select **C++ core features**
 
 If you made any changes, follow the prompts to install these components.
 
