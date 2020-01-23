@@ -94,9 +94,9 @@ First, you'll create a .NET Core console application project. The project type c
 
    Visual Studio opens your new project.
 
-## Create the application
-   
 ::: moniker-end
+
+## Create the application
 
 1. In *Module1.vb*, replace all of the default code
 
