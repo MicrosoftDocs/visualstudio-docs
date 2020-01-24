@@ -18,11 +18,12 @@ ms.workload:
 - multiple
 ---
 # ImportGroup element
+  
 Contains a collection of `Import` elements that are grouped under an optional condition. For more information, see [Import element (MSBuild)](../msbuild/import-element-msbuild.md).
 
 ```xml
-\<Project>
-  \<ImportGroup>
+<Project>
+  <ImportGroup>
 ```
 
 ## Syntax
