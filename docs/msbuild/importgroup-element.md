@@ -20,8 +20,10 @@ ms.workload:
 # ImportGroup element
 Contains a collection of `Import` elements that are grouped under an optional condition. For more information, see [Import element (MSBuild)](../msbuild/import-element-msbuild.md).
 
- \<Project>
- \<ImportGroup>
+```xml
+\<Project>
+  \<ImportGroup>
+```
 
 ## Syntax
 
@@ -67,5 +69,6 @@ Contains a collection of `Import` elements that are grouped under an optional co
 ```
 
 ## See also
+
 - [Project file schema reference](../msbuild/msbuild-project-file-schema-reference.md)
 - [Items](../msbuild/msbuild-items.md)
