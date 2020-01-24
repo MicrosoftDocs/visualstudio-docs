@@ -193,49 +193,49 @@
       items:
       - name: MSBuild Project File Schema Reference - Overview
         href: msbuild-project-file-schema-reference.md
-      - name: Choose Element (MSBuild)
+      - name: Choose Element
         href: choose-element-msbuild.md
-      - name: Import Element (MSBuild)
+      - name: Import Element
         href: import-element-msbuild.md
       - name: ImportGroup Element
         href: importgroup-element.md
-      - name: Item Element (MSBuild)
+      - name: Item Element
         href: item-element-msbuild.md
-      - name: ItemDefinitionGroup Element (MSBuild)
+      - name: ItemDefinitionGroup Element
         href: itemdefinitiongroup-element-msbuild.md
-      - name: ItemGroup Element (MSBuild)
+      - name: ItemGroup Element
         href: itemgroup-element-msbuild.md
-      - name: ItemMetadata Element (MSBuild)
+      - name: ItemMetadata Element
         href: itemmetadata-element-msbuild.md
-      - name: OnError Element (MSBuild)
+      - name: OnError Element
         href: onerror-element-msbuild.md
-      - name: Otherwise Element (MSBuild)
+      - name: Otherwise Element
         href: otherwise-element-msbuild.md
-      - name: Output Element (MSBuild)
+      - name: Output Element
         href: output-element-msbuild.md
       - name: Parameter Element
         href: parameter-element.md
       - name: ParameterGroup Element
         href: parametergroup-element.md
-      - name: Project Element (MSBuild)
+      - name: Project Element
         href: project-element-msbuild.md
-      - name: ProjectExtensions Element (MSBuild)
+      - name: ProjectExtensions Element
         href: projectextensions-element-msbuild.md
-      - name: Property Element (MSBuild)
+      - name: Property Element
         href: property-element-msbuild.md
-      - name: PropertyGroup Element (MSBuild)
+      - name: PropertyGroup Element
         href: propertygroup-element-msbuild.md
-      - name: Sdk Element (MSBuild)
+      - name: Sdk Element
         href: sdk-element-msbuild.md
-      - name: Target Element (MSBuild)
+      - name: Target Element
         href: target-element-msbuild.md
-      - name: Task Element (MSBuild)
+      - name: Task Element
         href: task-element-msbuild.md
-      - name: TaskBody Element (MSBuild)
+      - name: TaskBody Element
         href: taskbody-element-msbuild.md
-      - name: UsingTask Element (MSBuild)
+      - name: UsingTask Element
         href: usingtask-element-msbuild.md
-      - name: When Element (MSBuild)
+      - name: When Element
         href: when-element-msbuild.md
     - name: Task Reference
       items:
