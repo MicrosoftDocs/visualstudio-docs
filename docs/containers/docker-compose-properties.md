@@ -104,7 +104,7 @@ Use double quotes around the values, as in the preceding example, and use the ba
 |com.microsoft.visualstudio.debuggee.program|The program launched when starting debugging. For .NET Core apps, this setting is typically **dotnet**.|
 |com.microsoft.visualstudio.debuggee.workingdirectory|The directory used as the starting directory when starting debugging. This setting is typically */app* for Linux containers, or *C:\app* for Windows containers.|
 
-You can also control the `entrypoint` setting and make it dependent on the configuration. For example, if you need to set up a certificate only in **Debug** mode, but not in **Release** mode, add the following code only in *docker-compose.vs.debug.yml*:
+You can also control the `entrypoint` setting and make it dependent on the configuration. For example, if you need to set up a certificate only in **Debug** mode by running `update-certificates`, but not in **Release** mode, you could add the following code only in *docker-compose.vs.debug.yml*:
 
 ```yml
 services:
