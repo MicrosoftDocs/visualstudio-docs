@@ -44,7 +44,7 @@ Starting in Visual Studio 2017, for both .Net and C/C++ code, when you hit a `Nu
 You can configure the debugger to break when an exception of the current type is thrown from the **Exception Settings** section of the Exception Helper. If the debugger is paused at a thrown exception, then you can use the checkbox to disable breaking on that exception type when thrown in the future. You can also specify that you don't want to break on this particular exception thrown in this particular module by selecting the checkbox by the module name under **Except when thrown from:** in the **Exception Settings** window. You can apply conditions to your exceptions to only break when thrown from certain modules.
 
 ## Inspect inner exceptions 
-If the exception has any inner exceptions ([InnerException](https://docs.microsoft.com/dotnet/api/system.exception.innerexception),  you can view them in the Exception Helper. If there are multiple exceptions present, you can navigate between them using the arrows on the left and right side of the text that states the number of inner exceptions.
+If the exception has any inner exceptions ([InnerException](https://docs.microsoft.com/dotnet/api/system.exception.innerexception), you can view them in the Exception Helper. If there are multiple exceptions present, you can navigate between them using the arrows on the left and right side of the text that states the number of inner exceptions.
 
 ![Exception helper with inner exception](media/debugger-exception-helper-innerexception.png)
 
