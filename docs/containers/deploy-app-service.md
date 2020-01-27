@@ -94,7 +94,7 @@ In the Azure portal, choose **Resource groups**, select the resource group to op
 
 ## Next steps
 
-Learn more about [Azure App Service Linux](https://docs.microsoft.com/en-us/azure/app-service/containers/app-service-linux-intro).
+Learn more about [Azure App Service Linux](/azure/app-service/containers/app-service-linux-intro).
 
 ## See also
 
