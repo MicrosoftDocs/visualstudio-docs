@@ -104,9 +104,9 @@ Use double quotes around the values, as in the preceding example, and use the ba
 |com.microsoft.visualstudio.debuggee.program|The program launched when starting debugging. For .NET Core apps, this setting is typically **dotnet**.|
 |com.microsoft.visualstudio.debuggee.workingdirectory|The directory used as the starting directory when starting debugging. This setting is typically */app* for Linux containers, or *C:\app* for Windows containers.|
 
-### How to run a command before starting an app
+### How to customize the app startup process
 
-Suppose you need to run a command before launching your app. You can do that by using the `entrypoint` setting, and making it dependent on the configuration. For example, if you need to set up a certificate only in **Debug** mode by running `update-ca-certificates`, but not in **Release** mode, you could add the following code only in *docker-compose.vs.debug.yml*:
+Suppose you need to run a command or custom script before launching your app. You can do that by using the `entrypoint` setting, and making it dependent on the configuration. For example, if you need to set up a certificate only in **Debug** mode by running `update-ca-certificates`, but not in **Release** mode, you could add the following code only in *docker-compose.vs.debug.yml*:
 
 ```yml
 services:
