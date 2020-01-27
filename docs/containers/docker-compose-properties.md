@@ -106,7 +106,7 @@ Use double quotes around the values, as in the preceding example, and use the ba
 
 ## Customize the app startup process
 
-Suppose you need to run a command or custom script before launching your app. You can do that by using the `entrypoint` setting, and making it dependent on the configuration. For example, if you need to set up a certificate only in **Debug** mode by running `update-ca-certificates`, but not in **Release** mode, you could add the following code only in *docker-compose.vs.debug.yml*:
+You can run a command or custom script before launching your app by using the `entrypoint` setting, and making it dependent on the configuration. For example, if you need to set up a certificate only in **Debug** mode by running `update-ca-certificates`, but not in **Release** mode, you could add the following code only in *docker-compose.vs.debug.yml*:
 
 ```yml
 services:
