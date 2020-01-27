@@ -42,7 +42,7 @@ The compiler-generated XML file can be distributed alongside your .NET assembly 
 
    ![Completed comment](media/doc-result-cs.png)
 
-4. Place your cursor over the code element. Quick Info will display the supported styles from the XML comments above the code.
+You can use styles in XML comments that will render in Quick Info when hovering over the element. These styles include: italics, bold, bullets, and a clickable link.
 
    ![Completed comment](media/doc-style-cs.PNG) 
 
