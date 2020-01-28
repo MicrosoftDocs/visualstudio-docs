@@ -124,6 +124,8 @@ public sealed class TestAsyncPackage : AsyncPackage
     }
 
     ```
+    To make this service visible outside this package, set the promote flag value to *true* as the last parameter:
+    `this.AddService(typeof(STextWriterService), CreateTextWriterService, true);`
 
 2. Add a reference to *Microsoft.VisualStudio.Shell.Interop.14.0.DesignTime.dll*.
 
