@@ -38,7 +38,7 @@ The [!INCLUDE[vstecmsbuildengine](../msbuild/includes/vstecmsbuildengine_md.md)]
 
   - Do a post-processing step. For example, you might want to stamp an assembly with a different version.
 
-You can write code in the Visual Studio IDE but run builds by using MSBuild. As another alternative, you can build code in the IDE on a development computer but call MSBuild from the command line to build code that's integrated from multiple developers. You can also use the [.NET command-line interface (CLI)](/dotnet/core/tools/) to build MSBuild-based projects.
+You can write code in the Visual Studio IDE but run builds by using MSBuild. As another alternative, you can build code in the IDE on a development computer but call MSBuild from the command line to build code that's integrated from multiple developers. You can also use the [.NET Core command-line interface (CLI)](/dotnet/core/tools/) to build MSBuild-based projects.
 
 > [!NOTE]
 > You can use Azure Pipelines to automatically compile, test, and deploy your application. Your build system can automatically run builds when developers check in code (for example, as part of a Continuous Integration strategy) or according to a schedule (for example, a nightly Build Verification Test build). Azure Pipelines compiles your code by using MSBuild. For more information, see [Azure Pipelines](/azure/devops/pipelines/index?view=vsts).
