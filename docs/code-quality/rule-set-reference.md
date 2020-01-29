@@ -3,12 +3,12 @@ title: Code analysis rule set reference
 ms.date: 04/04/2018
 ms.topic: reference
 helpviewer_keywords:
-  - "code analysis, rule sets reference"
-author: jillre
-ms.author: jillfra
+- code analysis, rule sets reference
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Code analysis rule set reference
 

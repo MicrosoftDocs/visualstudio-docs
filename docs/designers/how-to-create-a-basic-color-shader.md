@@ -1,13 +1,13 @@
 ---
-title: "How to: Create a Basic Color Shader"
+title: 'How to: Create a Basic Color Shader'
 ms.date: 11/04/2016
 ms.topic: conceptual
 ms.assetid: c301328a-079a-49e8-b688-4749c01657c0
-author: jillre
-ms.author: jillfra
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # How to: Create a basic color shader
 

@@ -1,25 +1,25 @@
 ---
-title: "XSD Task | Microsoft Docs"
-ms.date: "06/27/2018"
-ms.topic: "reference"
+title: XSD Task | Microsoft Docs
+ms.date: 06/27/2018
+ms.topic: reference
 f1_keywords:
-  - "vc.task.xsd"
-  - "VC.Project.VCXMLDataGeneratorTool.Namespace"
-  - "VC.Project.VCXMLDataGeneratorTool.GenerateFromSchema"
+- vc.task.xsd
+- VC.Project.VCXMLDataGeneratorTool.Namespace
+- VC.Project.VCXMLDataGeneratorTool.GenerateFromSchema
 dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
+- VB
+- CSharp
+- C++
+- jsharp
 helpviewer_keywords:
-  - "XSD task (MSBuild (C++))"
-  - "MSBuild (C++), XSD task"
+- XSD task (MSBuild (C++))
+- MSBuild (C++), XSD task
 ms.assetid: 15c99f5c-7124-4bbc-bc03-70c7bcce8893
-author: mikejo5000
-ms.author: mikejo
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # XSD task
 Wraps the XML Schema Definition tool (*xsd.exe*), which generates schema or class files from a source.

@@ -92,7 +92,7 @@ If you decide not to install one or more third-party dependencies using the Visu
 
 You can run the SDK Manager app in the Android SDK directory again to update the SDK and install optional tools and additional API levels. Updates may fail to install unless you use **Run as administrator** to run the SDK Manager app. If you have problems building an Android app, check the SDK Manager for updates to your installed SDKs.
 
-To use some of the Android emulators that come with the Android SDK, you may need to set up hardware acceleration. For more information, see [Hardware acceleration for emulator performance (Hyper-V & HAXM)](https://docs.microsoft.com/xamarin/android/get-started/installation/android-emulator/hardware-acceleration?tabs=vswin).
+To use some of the Android emulators that come with the Android SDK, you may need to set up hardware acceleration. For more information, see [Hardware acceleration for emulator performance (Hyper-V & HAXM)](/xamarin/android/get-started/installation/android-emulator/hardware-acceleration?tabs=vswin).
 
 In most cases, Visual Studio can detect the configurations for the third-party software you've installed, and maintains the installation paths in internal environment variables. You can override the default paths of these cross-platform development tools in the Visual Studio IDE.
 
@@ -111,4 +111,4 @@ In most cases, Visual Studio can detect the configurations for the third-party s
 ## See also
 
 - [Install and configure tools to build using iOS](install-and-configure-tools-to-build-using-ios.md)
-- [Visual C++ cross-platform mobile](https://go.microsoft.com/fwlink/p/?LinkId=536383)
+- [Visual C++ cross-platform mobile](https://visualstudio.microsoft.com/vs/features/cplusplus-mdd/)

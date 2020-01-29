@@ -3,17 +3,17 @@ title: Create solutions and projects
 ms.date: 02/06/2018
 ms.topic: conceptual
 f1_keywords:
-  - "vs.openprojectfromweb"
-  - "VS.ToolsOptionsPages.Projects.General"
-  - "SolutionItemsProject"
+- vs.openprojectfromweb
+- VS.ToolsOptionsPages.Projects.General
+- SolutionItemsProject
 helpviewer_keywords:
-  - "solutions [Visual Studio], creating"
-  - "projects [Visual Studio], creating"
-author: jillre
-ms.author: jillfra
+- solutions [Visual Studio], creating
+- projects [Visual Studio], creating
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Create solutions and projects
 

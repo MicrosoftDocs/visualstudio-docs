@@ -1,16 +1,16 @@
 ---
-title: "MSBuild Transforms | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: MSBuild Transforms | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "MSBuild, transforms"
-  - "transforms [MSBuild]"
+- MSBuild, transforms
+- transforms [MSBuild]
 ms.assetid: d0bcfc3c-14fa-455e-805c-63ccffa4a3bf
-author: mikejo5000
-ms.author: mikejo
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # MSBuild transforms
 A transform is a one-to-one conversion of one item list to another. In addition to enabling a project to convert item lists, a transform enables a target to identify a direct mapping between its inputs and outputs. This topic explains transforms and how [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] uses them to build projects more efficiently.

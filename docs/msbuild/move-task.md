@@ -1,21 +1,21 @@
 ---
-title: "Move Task | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "reference"
+title: Move Task | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: reference
 dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
+- VB
+- CSharp
+- C++
+- jsharp
 helpviewer_keywords:
-  - "MSBuild, Move task"
-  - "Move task [MSBuild]"
+- MSBuild, Move task
+- Move task [MSBuild]
 ms.assetid: d1405347-1309-4f18-b565-905408093d59
-author: mikejo5000
-ms.author: mikejo
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Move task
 Moves files to a new location.

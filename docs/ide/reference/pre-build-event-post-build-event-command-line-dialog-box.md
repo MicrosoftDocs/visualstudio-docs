@@ -4,36 +4,36 @@ ms.date: 11/04/2016
 ms.technology: vs-ide-compile
 ms.topic: reference
 f1_keywords:
-  - "cs.ProjectPropertiesBuildEventsBuilder"
-  - "vb.ProjectPropertiesBuildEventsBuilder"
+- cs.ProjectPropertiesBuildEventsBuilder
+- vb.ProjectPropertiesBuildEventsBuilder
 helpviewer_keywords:
-  - "$(SolutionExt)"
-  - "$(ProjectDir)"
-  - "$(TargetPath)"
-  - "$(ProjectExt)"
-  - "$(TargetFileName)"
-  - "$(PlatformName)"
-  - "$(SolutionName)"
-  - "macros, build events"
-  - "$(SolutionPath)"
-  - "$(ProjectPath)"
-  - "$(ProjectFileName)"
-  - "$(DevEnvDir)"
-  - "$(TargetName)"
-  - "$(TargetDir)"
-  - "$(SolutionDir)"
-  - "$(TargetExt)"
-  - "$(OutDir)"
-  - "$(ConfigurationName)"
-  - "$(SolutionFileName)"
-  - "$(ProjectName)"
-  - "build events, macros"
+- $(SolutionExt)
+- $(ProjectDir)
+- $(TargetPath)
+- $(ProjectExt)
+- $(TargetFileName)
+- $(PlatformName)
+- $(SolutionName)
+- macros, build events
+- $(SolutionPath)
+- $(ProjectPath)
+- $(ProjectFileName)
+- $(DevEnvDir)
+- $(TargetName)
+- $(TargetDir)
+- $(SolutionDir)
+- $(TargetExt)
+- $(OutDir)
+- $(ConfigurationName)
+- $(SolutionFileName)
+- $(ProjectName)
+- build events, macros
 ms.assetid: d49b2c57-24bf-4fb2-8351-5c4b6cca938f
-author: ghogen
-ms.author: ghogen
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Pre-build event/post-build event command line dialog box
 

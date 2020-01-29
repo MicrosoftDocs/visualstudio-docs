@@ -1,22 +1,22 @@
 ---
-title: "GenerateDeploymentManifest Task | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "reference"
+title: GenerateDeploymentManifest Task | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: reference
 f1_keywords:
-  - "http://schemas.microsoft.com/developer/msbuild/2003#GenerateDeploymentManifest"
+- http://schemas.microsoft.com/developer/msbuild/2003#GenerateDeploymentManifest
 dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
+- VB
+- CSharp
+- C++
+- jsharp
 helpviewer_keywords:
-  - "MSBuild, GenerateDeploymentManifest task"
-  - "GenerateDeploymentManifest task [MSBuild]"
-author: mikejo5000
-ms.author: mikejo
+- MSBuild, GenerateDeploymentManifest task
+- GenerateDeploymentManifest task [MSBuild]
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # GenerateDeploymentManifest task
 

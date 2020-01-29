@@ -1,29 +1,29 @@
 ---
-title: "MT Task | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "reference"
+title: MT Task | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: reference
 f1_keywords:
-  - "VC.Project.VCManifestTool.ResourceOutputFileName"
-  - "VC.Project.VCManifestTool.SuppressDependencyElement"
-  - "VC.Project.VCManifestTool.ManifestFromManagedAssembly"
-  - "VC.Project.VCManifestTool.GenerateCategoryTags"
-  - "VC.Project.VCManifestTool.EnableDPIAwareness"
-  - "vc.task.mt"
+- VC.Project.VCManifestTool.ResourceOutputFileName
+- VC.Project.VCManifestTool.SuppressDependencyElement
+- VC.Project.VCManifestTool.ManifestFromManagedAssembly
+- VC.Project.VCManifestTool.GenerateCategoryTags
+- VC.Project.VCManifestTool.EnableDPIAwareness
+- vc.task.mt
 dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
-  - "C++"
+- VB
+- CSharp
+- C++
+- jsharp
+- C++
 helpviewer_keywords:
-  - "MSBUILD (C++), MT task"
-  - "MT task (MSBuild (C++))"
+- MSBUILD (C++), MT task
+- MT task (MSBuild (C++))
 ms.assetid: bb94913c-1042-4968-9f08-b394518e899f
-author: mikejo5000
-ms.author: mikejo
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # MT task
 Wraps the Microsoft Manifest Tool, *mt.exe*. For more information, see [Mt.exe](/windows/desktop/SbsCs/mt-exe).

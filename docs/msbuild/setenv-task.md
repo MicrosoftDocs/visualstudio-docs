@@ -1,24 +1,24 @@
 ---
-title: "SetEnv task | Microsoft Docs"
-ms.date: "11/05/2018"
-ms.topic: "reference"
+title: SetEnv task | Microsoft Docs
+ms.date: 11/05/2018
+ms.topic: reference
 f1_keywords:
-  - "vc.task.setenv"
+- vc.task.setenv
 dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
-  - "C++"
+- VB
+- CSharp
+- C++
+- jsharp
+- C++
 helpviewer_keywords:
-  - "MSBuild (C++), tasks"
-  - "SetEnv task (MSBuild (C++))"
+- MSBuild (C++), tasks
+- SetEnv task (MSBuild (C++))
 ms.assetid: fd9e4225-68cb-4608-8b27-468b0218c936
-author: mikejo5000
-ms.author: mikejo
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # SetEnv task
 Sets or deletes the value of a specified environment variable.

@@ -284,7 +284,7 @@ Once you've done the steps in [Setup and install](../cross-platform/setup-and-in
 ## <a name="finish"></a> Finish the UI with a native look and feel across platforms
  Xamarin.Forms renders native UI controls for each platform so that your app automatically has a native look and feel. To see this more clearly, let’s finish the UI with an input field for a zip code and then display the weather data that’s returned from the service.
 
-1. Replace the contents of **WeatherPage.xaml** with the code below. Note that every element is named using the **x:Name** attribute as described earlier so that the element can be referenced from code. Xamarin.Forms also provides a number of [layout options](https://docs.microsoft.com/xamarin/xamarin-forms/user-interface/controls/layouts) (xamarin.com); here, WeatherPage is using [StackLayout](https://docs.microsoft.com/dotnet/api/Xamarin.Forms.StackLayout?view=xamarin-forms) (xamarin.com).
+1. Replace the contents of **WeatherPage.xaml** with the code below. Note that every element is named using the **x:Name** attribute as described earlier so that the element can be referenced from code. Xamarin.Forms also provides a number of [layout options](/xamarin/xamarin-forms/user-interface/controls/layouts) (xamarin.com); here, WeatherPage is using [StackLayout](/dotnet/api/Xamarin.Forms.StackLayout?view=xamarin-forms) (xamarin.com).
 
    ```xaml
    <?xml version="1.0" encoding="utf-8" ?>
@@ -374,7 +374,7 @@ Once you've done the steps in [Setup and install](../cross-platform/setup-and-in
    </ContentPage>
    ```
 
-    Note the use of the **OnPlatform** tag in Xamarin.Forms. **OnPlatform** selects a property value that’s specific to the current platform on which the app is running (see [External XAML Syntax](https://docs.microsoft.com/xamarin/xamarin-forms/xaml/xaml-basics/essential-xaml-syntax) (xamarin.com). We’re using it here to set a different text color for the data fields: White on Android and Windows Phone, Black on iOS. You can use **OnPlatform** for any properties and any data types to make platform-specific adjustments anywhere in your XAML. In the code-behind file, you can use the [Device.OnPlatform API](https://docs.microsoft.com/xamarin/xamarin-forms/platform/device) for the same purpose.
+    Note the use of the **OnPlatform** tag in Xamarin.Forms. **OnPlatform** selects a property value that’s specific to the current platform on which the app is running (see [External XAML Syntax](/xamarin/xamarin-forms/xaml/xaml-basics/essential-xaml-syntax) (xamarin.com). We’re using it here to set a different text color for the data fields: White on Android and Windows Phone, Black on iOS. You can use **OnPlatform** for any properties and any data types to make platform-specific adjustments anywhere in your XAML. In the code-behind file, you can use the [Device.OnPlatform API](/xamarin/xamarin-forms/platform/device) for the same purpose.
 
 2. In **WeatherPage.xaml.cs**, replace the **GetWeatherBtn_Clicked** event handler with the code below. This code verifies that there’s a zip code in the entry field, retrieves data for that zip code, sets the whole screen’s binding context to the resulting Weather instance, then sets the button text to “Search Again.” Note that each label in the UI binds to a property of the Weather class, so when you set the screen’s binding context to a **Weather** instance, those labels update automatically.
 

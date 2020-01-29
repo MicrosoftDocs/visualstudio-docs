@@ -3,18 +3,18 @@ title: Collapse and expand regions of code
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "outlining"
-  - "Visual Studio, expand/collapse code"
-  - "Visual Studio, outlining"
-  - "expand/collapse code"
-  - "code [Visual Studio], outlining"
-  - "code [Visual Studio], hiding"
-  - "outlining code"
-author: jillre
-ms.author: jillfra
+- outlining
+- Visual Studio, expand/collapse code
+- Visual Studio, outlining
+- expand/collapse code
+- code [Visual Studio], outlining
+- code [Visual Studio], hiding
+- outlining code
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Outlining
 

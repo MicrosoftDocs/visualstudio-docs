@@ -155,8 +155,8 @@ additionalContent:
       - title: Collaborate
         summary: Share, edit, and debug code in a collaborative, real-time environment.
         url: /visualstudio/liveshare/
-      - title: Develop with containers
-        summary: Use containers to isolate modular components and improve scalability.
+      - title: Develop with Docker containers
+        summary: Use Docker containers to isolate modular components and improve scalability.
         url: ../containers/index.yml
    - title: Workloads
      items:
@@ -176,7 +176,7 @@ additionalContent:
               url: ../python/data-science-and-analytical-applications-workload.md
             - text: Office/Sharepoint development
               url: https://developer.microsoft.com/office/docs
-        - title: Windows
+        - title: Desktop and mobile
           links:
             - text: .NET Desktop development
               url: /dotnet/framework/develop-client-apps
@@ -184,17 +184,17 @@ additionalContent:
               url: ../cross-platform/develop-apps-for-the-universal-windows-platform-uwp.md
             - text: Windows development with C++
               url: /cpp/windows/desktop-applications-visual-cpp
-        - title: Mobile and gaming
-          links:
             - text: Mobile development with .NET (Xamarin)
               url: /xamarin/
-            - text: Game development with Unity
-              url: ../cross-platform/visual-studio-tools-for-unity.md
+            - text: Mobile development with C++
+              url: /visualstudio/cross-platform/
             - text: Mobile development with JavaScript
               url: /visualstudio/cross-platform/tools-for-cordova/?view=toolsforcordova-2017
               note: (Visual Studio 2017 and 2015 only)
-            - text: Mobile development with C++
-              url: /visualstudio/cross-platform/
+        - title: Gaming
+          links:
+            - text: Game development with Unity
+              url: ../cross-platform/visual-studio-tools-for-unity.md
             - text: Game development with C++
               url: /windows/uwp/gaming/e2e
         - title: Other toolsets

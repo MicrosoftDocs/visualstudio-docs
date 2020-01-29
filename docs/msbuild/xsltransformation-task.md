@@ -1,21 +1,21 @@
 ---
-title: "XslTransformation Task | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "reference"
+title: XslTransformation Task | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: reference
 dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
+- VB
+- CSharp
+- C++
+- jsharp
 helpviewer_keywords:
-  - "MSBuild, XslTransformation task"
-  - "XslTransformation task [MSBuild]"
+- MSBuild, XslTransformation task
+- XslTransformation task [MSBuild]
 ms.assetid: 6f3a7d81-3ae3-4703-9a06-870b32b69d80
-author: mikejo5000
-ms.author: mikejo
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # XslTransformation task
 Transforms an XML input by using an XSLT or compiled XSLT and outputs to an output device or a file.

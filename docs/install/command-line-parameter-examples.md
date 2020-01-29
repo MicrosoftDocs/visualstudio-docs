@@ -1,15 +1,15 @@
 ---
-title: "Command-line parameter examples for installation"
-description: "Customize these examples to create your own command-line installation of Visual Studio."
+title: Command-line parameter examples for installation
+description: Customize these examples to create your own command-line installation of Visual Studio.
 ms.date: 03/30/2019
-ms.custom: "seodec18"
+ms.custom: seodec18
 ms.topic: conceptual
 ms.assetid: 837F31AA-F121-46e9-9996-F8BCE768E579
-author: TerryGLee
-ms.author: tglee
+author: ornellaalt
+ms.author: ornella
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
 ---
@@ -88,7 +88,7 @@ For lists of the workloads and components that you can install by using the comm
 * Download the Visual Studio core editor (the most minimal Visual Studio configuration). Only include the English language pack:
 
   ```cmd
-   vs_community.exe --layout C:\VS
+   vs_community.exe --layout C:\VS ^
    --lang en-US ^
    --add Microsoft.VisualStudio.Workload.CoreEditor
   ```

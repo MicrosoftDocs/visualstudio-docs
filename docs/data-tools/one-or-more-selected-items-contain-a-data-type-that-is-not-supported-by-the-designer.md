@@ -3,11 +3,11 @@ title: One or more selected items contain a data type that is not supported by t
 ms.date: 11/04/2016
 ms.topic: reference
 ms.assetid: 71dcd4f9-2946-42c5-9ce4-99c819ea2785
-author: jillre
-ms.author: jillfra
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "data-storage"
+- data-storage
 ---
 # One or more selected items contain a data type that is not supported by the designer
 

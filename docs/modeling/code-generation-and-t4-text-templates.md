@@ -3,18 +3,18 @@ title: Code Generation and T4 Text Templates
 ms.date: 11/04/2016
 ms.topic: conceptual
 f1_keywords:
-  - "VS.ToolsOptionsPages.TextTemplating.TextTemplating"
+- VS.ToolsOptionsPages.TextTemplating.TextTemplating
 helpviewer_keywords:
-  - "generating text"
-  - ".tt files"
-  - "code generation"
-  - "text templates"
-  - "generating code"
-author: jillre
-ms.author: jillfra
+- generating text
+- .tt files
+- code generation
+- text templates
+- generating code
+author: JoshuaPartlow
+ms.author: joshuapa
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Code Generation and T4 Text Templates
 

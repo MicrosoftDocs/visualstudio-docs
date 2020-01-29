@@ -1,5 +1,5 @@
 ---
-title: Microsoft Azure Benefit | Microsoft Docs
+title: Microsoft Azure benefit | Microsoft Docs
 author: evanwindom
 ms.author: lank
 manager: lank
@@ -10,27 +10,30 @@ description:  Learn how to activate the Azure DevTest individual credit benefit 
 # Use Microsoft Azure in Visual Studio subscriptions
 As a Visual Studio subscriber, you can use Microsoft Azure at no extra charge.  With your [monthly Azure DevTest individual credit](https://azure.microsoft.com/pricing/member-offers/msdn-benefits-details/), Azure is your personal sandbox for dev/test.  You can provision virtual machines, cloud services, and other Azure resources.  Credit amounts vary by subscription level.
 
-## Activation Steps
+## Activation steps
 1. Sign in to [https://my.visualstudio.com/benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs).
 
 2. Locate the Azure tile in the Tools section on the Benefits page and click **Activate** link at the bottom of the benefit tile.
    > [!div class="mx-imgBorder"]
    > ![Azure Tile](_img/vs-azure/vs-azure-tile.png)
 
-3. If you don't have an existing Azure subscription, you'll be asked to fill in the required information to create your Azure subscription, click the checkbox to accept the terms & conditions, and click **Sign up**:
+3. If you don't have an existing Azure subscription, you'll be asked to fill in the required information to create your Azure subscription.  The first step is to provide your personal information and then click **Next**.
    > [!div class="mx-imgBorder"]
-   > ![Azure Sign-up](_img/vs-azure/vs-azure-sign-up-cropped.png)
-If you have an existing subscription, click the check box to accept the agreement, and click **Sign up**.
+   > ![Azure Sign-up](_img/vs-azure/vs-azure-about-you.png)
 
-4. When your account is ready, you’ll have the option to choose an Azure support plan (sold separately), or get started with your Azure subscription.
+4. Next, you'll need to verify your identity using a simple verification code. Provide your phone number, and choose whether you'd like to receive the code by text or phone.  Enter the code you receive, and click **Verify code**.   
    > [!div class="mx-imgBorder"]
-   > ![Azure Getting Ready](_img/vs-azure/vs-azure-getting-ready-cropped.png)
+   > ![Azure Getting Ready](_img/vs-azure/vs-azure-identity.png)
 
-5. The Azure Dashboard Quickstart Center will load.  
+5. For the final step, click the checkbox to accept the terms, then click **Sign up**.  That's all there is to it!
    > [!div class="mx-imgBorder"]
-   > ![Azure Dashboard](_img/vs-azure/vs-azure-dashboard-quickstart.png) 
+   > ![Azure Getting Ready](_img/vs-azure/vs-azure-agreement.png)
 
-6. Bookmark the [Azure Portal](https://portal.azure.com) for easy access in the future.
+0. The Azure Dashboard Quickstart Center will load.  
+   > [!div class="mx-imgBorder"]
+   > ![Azure Dashboard](_img/vs-azure/vs-azure-quick-start.png) 
+
+0. Bookmark the [Azure portal](https://portal.azure.com) for easy access in the future.
 
 
 ## Eligibility
@@ -70,6 +73,9 @@ A:  Submitting a support incident from the Azure portal is a three-step process.
 
 Please visit the [Technical support](vs-tech-support.md) documentation for complete details.
 
+### Q: How owns the intellectual property I create using my Azure DevTest individual credit?
+A:  Intellectual property produced by an employee created on resources provided by that company is thereby intellectual property of the company providing the resource. So, if you received your Visual Studio subscription through your employer, their intellectual property policies would apply. 
+
 ### Q: I’ve received a message stating that my access to Azure will end soon.  What can I do to continue using Azure?
 A:  You’re receiving this email because you use the Azure benefit associated with your Visual Studio subscription, and that subscription has expired or been removed.  To continue to use Azure, you have several options:
 
@@ -95,10 +101,10 @@ If you prefer not to continue this Visual Studio Azure subscription, you may tra
 
 If you believe you’ve received this email in error, please contact [Azure customer support](https://portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade).
 
-## Support Resources
+## Support resources
 - Need help with Azure?  Check out these resources:
   - Technical Support: [https://azure.microsoft.com/support/options/](https://azure.microsoft.com/support/options/)
-  - [Azure documentation](/azure/)
+  - [Azure Tips & Tricks](https://microsoft.github.io/AzureTipsAndTricks/ "Azure Tips & Tricks") 
 - For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, contact Visual Studio [Subscriptions Support](https://visualstudio.microsoft.com/subscriptions/support/).
 - Have a question about Visual Studio IDE, Azure DevOps Services or other Visual Studio products or services?  Visit [Visual Studio Support](https://visualstudio.microsoft.com/support/).
 

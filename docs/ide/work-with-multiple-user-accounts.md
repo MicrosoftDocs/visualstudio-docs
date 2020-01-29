@@ -2,11 +2,11 @@
 title: Work with multiple user accounts
 ms.date: 07/23/2019
 ms.topic: conceptual
-author: jillre
-ms.author: jillfra
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Work with multiple user accounts
 

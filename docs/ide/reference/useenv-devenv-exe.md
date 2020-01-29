@@ -3,22 +3,22 @@ title: -UseEnv (devenv.exe)
 ms.date: 01/10/2019
 ms.topic: reference
 f1_keywords:
-  - "VC.Project.UseEnvVars.ExcludePath"
-  - "VC.Project.UseEnvVars.LibraryPath"
-  - "VC.Project.UseEnvVars.SourcePath"
-  - "VC.Project.UseEnvVars.Include"
-  - "VC.Project.UseEnvVars.Path"
-  - "VC.Project.UseEnvVars.ReferencePath"
+- VC.Project.UseEnvVars.ExcludePath
+- VC.Project.UseEnvVars.LibraryPath
+- VC.Project.UseEnvVars.SourcePath
+- VC.Project.UseEnvVars.Include
+- VC.Project.UseEnvVars.Path
+- VC.Project.UseEnvVars.ReferencePath
 helpviewer_keywords:
-  - "UseEnv switch"
-  - "/UseEnv Devenv switch"
-  - "Devenv, /UseEnv"
+- UseEnv switch
+- /UseEnv Devenv switch
+- Devenv, /UseEnv
 ms.assetid: 2dd14603-a61b-42d2-ba31-427a0ee8a799
-author: jillre
-ms.author: jillfra
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # /UseEnv (devenv.exe)
 

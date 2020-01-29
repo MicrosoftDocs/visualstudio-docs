@@ -122,4 +122,4 @@ HKLM\Software\Wow6432Node\Microsoft\GenericBootstrapper\11.0
  [How to: Install Prerequisites with a ClickOnce Application](../deployment/how-to-install-prerequisites-with-a-clickonce-application.md)   
  [Prerequisites Dialog Box](../ide/reference/prerequisites-dialog-box.md)   
  [Product and Package Schema Reference](../deployment/product-and-package-schema-reference.md)   
- [Use the Visual Studio 2005 Bootstrapper to Kick-Start Your Installation](https://go.microsoft.com/fwlink/?LinkId=107537)
+ [Use the Visual Studio 2005 Bootstrapper to Kick-Start Your Installation](https://msdn.microsoft.com/magazine/cc163899.aspx)

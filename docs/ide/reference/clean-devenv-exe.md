@@ -3,16 +3,16 @@ title: -Clean (devenv.exe)
 ms.date: 12/10/2018
 ms.topic: reference
 helpviewer_keywords:
-  - "builds [Team System], cleaning files"
-  - "Clean Devenv switch"
-  - "/Clean Devenv switch"
-  - "Devenv, /Clean switch"
+- builds [Team System], cleaning files
+- Clean Devenv switch
+- /Clean Devenv switch
+- Devenv, /Clean switch
 ms.assetid: 79929dfd-22c9-4cec-a0d0-a16f15b8f7e4
-author: jillre
-ms.author: jillfra
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # /Clean (devenv.exe)
 

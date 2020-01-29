@@ -26,7 +26,7 @@ Due to security considerations, IIS has returned a generic error.
   
  There are numerous possible causes of this error. A few of the most common causes include a problem with the IIS installation or configuration, the web site configuration, or permissions in the file system. You can try accessing the resource with a browser. Depending on how IIS is configured you might have to use a local browser on the server or inspect the IIS error log to get a detailed error message.  
   
- For more information on troubleshooting IIS, see [IIS Management and Administration](https://go.microsoft.com/fwlink/?LinkId=255872).  
+ For more information on troubleshooting IIS, see [IIS Management and Administration](https://www.iis.net/learn/manage/provisioning-and-managing-iis/iis-management-and-administration).  
   
 ## See Also  
  [UrlScan Security Tool](/iis/extensions/working-with-urlscan/urlscan-3-reference)   

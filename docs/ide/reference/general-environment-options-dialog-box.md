@@ -3,23 +3,23 @@ title: General, Environment, Options Dialog Box
 ms.date: 07/26/2019
 ms.topic: reference
 f1_keywords:
-  - "VS.Environment.General"
-  - "VS.Message.0x800a002e"
-  - "VS.OptionsDialog.Environment"
-  - "VS.ToolsOptionsPages.Environment"
-  - "VS.ToolsOptionsPages.Environment.General"
+- VS.Environment.General
+- VS.Message.0x800a002e
+- VS.OptionsDialog.Environment
+- VS.ToolsOptionsPages.Environment
+- VS.ToolsOptionsPages.Environment.General
 helpviewer_keywords:
-  - "recently used file lists"
-  - "Windows menu, customizing"
-  - "status bar, displaying"
-  - "Options dialog box, General Environment"
-  - "General Environment Options dialog box"
-  - "Environment Options dialog box"
-author: jillre
-ms.author: jillfra
+- recently used file lists
+- Windows menu, customizing
+- status bar, displaying
+- Options dialog box, General Environment
+- General Environment Options dialog box
+- Environment Options dialog box
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Options dialog box: Environment \> General
 

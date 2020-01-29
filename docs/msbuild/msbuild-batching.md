@@ -1,16 +1,16 @@
 ---
-title: "MSBuild Batching | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: MSBuild Batching | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "batching [MSBuild]"
-  - "MSBuild, batching"
+- batching [MSBuild]
+- MSBuild, batching
 ms.assetid: d35c085b-27b8-49d7-b6f8-8f2f3a0eec38
-author: mikejo5000
-ms.author: mikejo
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # MSBuild batching
 [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] has the ability to divide item lists into different categories, or batches, based on item metadata, and run a target or task one time with each batch.

@@ -1,26 +1,26 @@
 ---
-title: "CL Task | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "reference"
+title: CL Task | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: reference
 f1_keywords:
-  - "VC.Project.VCCLCompilerTool.UseUnicodeForAssemblerListing"
-  - "vc.task.cl"
-  - "VC.Project.VCCLCompilerTool.TreatSpecificWarningsAsErrors"
-  - "VC.Project.VCCLCompilerTool.CreateHotpatchableImage"
+- VC.Project.VCCLCompilerTool.UseUnicodeForAssemblerListing
+- vc.task.cl
+- VC.Project.VCCLCompilerTool.TreatSpecificWarningsAsErrors
+- VC.Project.VCCLCompilerTool.CreateHotpatchableImage
 dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
+- VB
+- CSharp
+- C++
+- jsharp
 helpviewer_keywords:
-  - "MSBuild (C++), CL task"
-  - "CL task (MSBuild (C++))"
+- MSBuild (C++), CL task
+- CL task (MSBuild (C++))
 ms.assetid: 651ba971-b755-4f03-a549-4816beb3cc0d
-author: mikejo5000
-ms.author: mikejo
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # CL task
 Wraps the Microsoft C++ compiler tool, *cl.exe*. The compiler produces executable (*.exe*) files, dynamic-link library (*.dll*) files, or code module (*.netmodule*) files. For more information, see [Compiler options](/cpp/build/reference/compiler-options).

@@ -3,18 +3,18 @@ title: Parameter info, list members, and quick info
 ms.date: 05/25/2018
 ms.topic: conceptual
 f1_keywords:
-  - "vc.tools.intellisense"
+- vc.tools.intellisense
 helpviewer_keywords:
-  - "Quick info"
-  - "Parameter info"
-  - "Complete word"
-  - "List members"
-  - "IntelliSense [Visual Studio]"
-author: jillre
-ms.author: jillfra
+- Quick info
+- Parameter info
+- Complete word
+- List members
+- IntelliSense [Visual Studio]
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # IntelliSense in Visual Studio
 

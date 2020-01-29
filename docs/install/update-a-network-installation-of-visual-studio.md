@@ -1,18 +1,18 @@
 ---
-title: "Update a network-based installation"
-description: "Learn how to update a network-based Visual Studio installation by using the --layout command"
-ms.date: 10/07/2019
-ms.custom: "seodec18"
+title: Update a network-based installation
+description: Learn how to update a network-based Visual Studio installation by using the --layout command
+ms.date: 01/08/2020
+ms.custom: seodec18
 ms.topic: conceptual
 helpviewer_keywords:
-  - "{{PLACEHOLDER}}"
-  - "{{PLACEHOLDER}}"
+- '{{PLACEHOLDER}}'
+- '{{PLACEHOLDER}}'
 ms.assetid: 1AF69C0E-0AC9-451B-845D-AE4EDBCEA65C
-author: TerryGLee
-ms.author: tglee
+author: ornellaalt
+ms.author: ornella
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
 ---
@@ -22,17 +22,20 @@ It's possible to update a network installation layout of Visual Studio with the 
 
 ## How to update a network layout
 
+> [!IMPORTANT]
+> These instructions assume that you've previously created a network installation layout. For more information about how to do so, see the [Create a network installation of Visual Studio](create-a-network-installation-of-visual-studio.md) page.
+
 To refresh your network install share so that it includes the latest updates, run the `--layout` command to incrementally download updated packages.
 
 ::: moniker range="vs-2017"
 
-**New in 15.3**: If you selected a partial layout when you first created the network layout, those settings are saved. Any future layout commands use the previous options plus any new options that you specify. But if you are using a layout of an earlier version, you should use the same command-line parameters that you used when you first created the network install layout (in other words, the same workloads and languages) to update its content.
+**New in 15.3**: If you selected a partial layout when you [first created the network layout](create-a-network-installation-of-visual-studio.md), those settings are saved. Any future layout commands use the previous options plus any new options that you specify. But if you are using a layout of an earlier version, you should use the same command-line parameters that you used when you first created the network install layout (in other words, the same workloads and languages) to update its content.
 
 ::: moniker-end
 
 ::: moniker range="vs-2019"
 
-If you selected a partial layout when you first created the network layout, those settings are saved. Any future layout commands use the previous options plus any new options that you specify.
+If you selected a partial layout when you [first created the network layout](create-a-network-installation-of-visual-studio.md), those settings are saved. Any future layout commands use the previous options plus any new options that you specify.
 
 ::: moniker-end
 
@@ -75,7 +78,7 @@ Let's walk through a few examples of how to create and then update a layout:
   vs_enterprise.exe --layout c:\VSLayout --add Microsoft.VisualStudio.Workload.NetWeb --lang fr-FR --keepLayoutVersion
   ```
 
-## How to deploy an update to client machines
+## Deploy an update to client machines
 
 Depending on how your network environment is configured, an update can either be deployed by an enterprise administrator or initiated from a client machine.
 
@@ -105,7 +108,7 @@ Depending on how your network environment is configured, an update can either be
 > [!TIP]
 > For details on how to control when update notifications are presented to users, see [Control updates to network-based Visual Studio deployments](controlling-updates-to-visual-studio-deployments.md).
 
-## How to verify a layout
+## Verify a layout
 
 Use `--verify` to perform verification on the offline cache supplied. It checks if packages files are either missing or invalid. At the end of the verification, it prints the list of missing files and invalid files.
 
@@ -123,7 +126,7 @@ Microsoft ships updates to Visual Studio periodically, so the new layout that yo
 > [!NOTE]
 > Verification works only for the latest version of a specific minor version of Visual Studio. As soon as a new version is released, verification won't work for earlier patch level releases of the same minor version.
 
-## How to fix a layout
+## Fix a layout
 
 Use `--fix` to perform the same verification as `--verify` and also try to fix the identified issues. The `--fix` process needs an internet connection, so make sure your machine is connected to the internet before you invoke `--fix`.
 
@@ -133,7 +136,7 @@ vs_enterprise.exe --layout <layoutDir> --fix
 
 The vs_enterprise.exe can be invoked inside the layoutDir.
 
-## How to remove older versions from a layout
+## Remove older versions from a layout
 
 After you perform layout updates to an offline cache, the layout cache folder may have some obsolete packages that are no longer needed by the latest Visual Studio installation. You can use the `--clean` option to remove obsolete packages from an offline cache folder.
 
@@ -159,7 +162,13 @@ c:\VSLayout\vs_enterprise.exe --layout c:\VSLayout --clean c:\VSLayout\Archive\1
 
 When you execute this command, Setup analyzes your offline cache folder to find the list of files that it will remove. You will then have a chance to review the files that are going to be deleted and confirm the deletions.
 
-[!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
+## Get support for your offline installer
+
+If you experience a problem with your offline installation, we want to know about it. The best way to tell us is by using the [Report a Problem](../ide/how-to-report-a-problem-with-visual-studio.md) tool. When you use this tool, you can send us the telemetry and logs we need to help us diagnose and fix the problem.
+
+We also offer a [**live chat**](https://visualstudio.microsoft.com/vs/support/#talktous) (English only) support option for installation-related issues.
+
+We have other support options available, too. For a list, see our [Feedback](../ide/feedback-options.md) page.
 
 ## See also
 

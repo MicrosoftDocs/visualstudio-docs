@@ -1,15 +1,15 @@
 ---
-title: "Item Definitions | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Item Definitions | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "msbuild, item definitions"
+- msbuild, item definitions
 ms.assetid: 8e3dc223-f9e5-4974-aa0e-5dc7967419cb
-author: mikejo5000
-ms.author: mikejo
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Item definitions
 [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] 2.0 enables the static declaration of items in project files by using the [ItemGroup](../msbuild/itemgroup-element-msbuild.md) element. However, metadata may be added only at the item level, even if the metadata is identical for all items. Starting in [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] 3.5, a project element named [ItemDefinitionGroup](../msbuild/itemdefinitiongroup-element-msbuild.md) overcomes this limitation. *ItemDefinitionGroup* lets you define a set of item definitions, which add default metadata values to all items in the named item type.

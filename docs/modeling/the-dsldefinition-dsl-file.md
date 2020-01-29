@@ -3,12 +3,12 @@ title: The DslDefinition.dsl File
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
-  - "Domain-Specific Language, definition file"
-author: jillre
-ms.author: jillfra
+- Domain-Specific Language, definition file
+author: JoshuaPartlow
+ms.author: joshuapa
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # The DslDefinition.dsl File
 

@@ -8,7 +8,8 @@ ms.topic: conceptual
 description: Learn how to get started managing your organization's Visual Studio subscriptions with the Subscriptions Administration Portal.
 ---
 
-# Overview of the Visual Studio Subscriptions Administration Portal
+# Overview of the Visual Studio Subscriptions Administrator Portal
+
 The Visual Studio Subscriptions Administration Portal gives you the tools to manage your organization's subscriptions in one place. 
 
 ## Important considerations
@@ -41,7 +42,7 @@ For more information about the agreement you are viewing, select the Details tab
 > ![Visual Studio Subscriptions Admin Portal Details Page](_img/using-admin-portal/details-page.png)
 
 ## Resources
-- [Visual Studio licensing white paper](https://aka.ms/vslicensing)
+- [Visual Studio licensing white paper](https://visualstudio.microsoft.com/wp-content/uploads/2019/06/Visual-Studio-Licensing-Whitepaper-May-2019.pdf)
 - [Compare subscription options and pricing](https://visualstudio.microsoft.com/vs/pricing)
 - [Compare Visual Studio IDE features](https://visualstudio.microsoft.com/vs/compare)
 - [Visual Studio Administration and Subscriptions Support](https://visualstudio.microsoft.com/support/support-overview-vs)

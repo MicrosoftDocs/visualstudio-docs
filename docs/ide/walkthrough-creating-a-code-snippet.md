@@ -1,22 +1,22 @@
 ---
-title: "Walkthrough: Create a code snippet"
+title: 'Walkthrough: Create a code snippet'
 ms.date: 06/10/2019
 ms.topic: conceptual
 helpviewer_keywords:
-  - "code snippets, creating"
-  - "code snippets, shortcut"
-  - "code snippets, template"
-  - "code snippets, replacements"
-  - "code snippets, references"
-  - "code snippets, imports"
+- code snippets, creating
+- code snippets, shortcut
+- code snippets, template
+- code snippets, replacements
+- code snippets, references
+- code snippets, imports
 ms.assetid: 0dcaae11-39cf-4463-9c90-2494321251c2
-author: jillre
-ms.author: jillfra
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 dev_langs:
-  - "VB"
+- VB
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Walkthrough: Create a code snippet
 

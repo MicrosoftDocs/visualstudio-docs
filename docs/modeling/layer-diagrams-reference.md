@@ -1,25 +1,25 @@
 ---
-title: "Dependency Diagrams Reference"
+title: Dependency Diagrams Reference
 ms.date: 09/28/2018
 ms.topic: reference
 f1_keywords:
-  - "vs.teamarch.layerdiagram.layerexplorer.artifactlink"
-  - "vs.teamarch.layerdiagram.layerexplorer.artifactlink.properties"
-  - "vs.teamarch.layerdiagram.diagram"
-  - "vs.teamarch.UMLModelExplorer.layerdiagram"
-  - "vs.teamarch.layerdiagram.layerexplorer"
-  - "vs.teamarch.layerdiagram.shapes.properties"
-  - "vs.teamarch.layerdiagram.toolbox"
+- vs.teamarch.layerdiagram.layerexplorer.artifactlink
+- vs.teamarch.layerdiagram.layerexplorer.artifactlink.properties
+- vs.teamarch.layerdiagram.diagram
+- vs.teamarch.UMLModelExplorer.layerdiagram
+- vs.teamarch.layerdiagram.layerexplorer
+- vs.teamarch.layerdiagram.shapes.properties
+- vs.teamarch.layerdiagram.toolbox
 helpviewer_keywords:
-  - "architecture, dependency diagrams"
-  - "dependency diagrams"
-  - "diagrams - modeling, layer"
-  - "constraints, architectural"
-author: jillre
-ms.author: jillfra
+- architecture, dependency diagrams
+- dependency diagrams
+- diagrams - modeling, layer
+- constraints, architectural
+author: JoshuaPartlow
+ms.author: joshuapa
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Dependency diagrams: reference
 

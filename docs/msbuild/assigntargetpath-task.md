@@ -1,18 +1,18 @@
 ---
-title: "AssignTargetPath Task | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "reference"
+title: AssignTargetPath Task | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: reference
 dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
+- VB
+- CSharp
+- C++
+- jsharp
 ms.assetid: 0e830e31-3bcf-4259-b2a8-a5df49b92d51
-author: mikejo5000
-ms.author: mikejo
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # AssignTargetPath task
 This task accepts a list of files and adds `<TargetPath>` attributes if they are not already specified.

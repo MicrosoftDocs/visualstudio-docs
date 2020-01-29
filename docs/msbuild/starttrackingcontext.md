@@ -1,20 +1,20 @@
 ---
-title: "StartTrackingContext | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: StartTrackingContext | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 apiname:
-  - "StartTrackingContext"
+- StartTrackingContext
 apilocation:
-  - "filetracker.dll"
-apitype: "COM"
+- filetracker.dll
+apitype: COM
 helpviewer_keywords:
-  - "StartTrackingContext"
+- StartTrackingContext
 ms.assetid: 720cd295-38e7-4974-86db-b8106b1207ba
-author: mikejo5000
-ms.author: mikejo
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # StartTrackingContext
 Start a tracking context.

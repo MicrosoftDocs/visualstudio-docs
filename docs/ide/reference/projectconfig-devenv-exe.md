@@ -3,23 +3,23 @@ title: -ProjectConfig (devenv.exe)
 ms.date: 12/10/2018
 ms.topic: reference
 helpviewer_keywords:
-  - "/ProjectConfig Devenv switch"
-  - "configurations, rebuilding"
-  - "deployment projects, creating"
-  - "configurations, cleaning"
-  - "deployment projects, specifying"
-  - "deployment projects, adding"
-  - "build configurations, specifying"
-  - "Devenv, /ProjectConfig switch"
-  - "ProjectConfig Devenv switch (/ProjectConfig)"
-  - "projects [Visual Studio], build configuration"
-  - "projects [Visual Studio], cleaning"
+- /ProjectConfig Devenv switch
+- configurations, rebuilding
+- deployment projects, creating
+- configurations, cleaning
+- deployment projects, specifying
+- deployment projects, adding
+- build configurations, specifying
+- Devenv, /ProjectConfig switch
+- ProjectConfig Devenv switch (/ProjectConfig)
+- projects [Visual Studio], build configuration
+- projects [Visual Studio], cleaning
 ms.assetid: 6b54ef59-ffed-4f62-a645-1279ede97ebf
-author: jillre
-ms.author: jillfra
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # /ProjectConfig (devenv.exe)
 

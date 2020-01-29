@@ -18,7 +18,7 @@ Visual Studio Tools for AI can be installed on Windows 64-bit operating systems.
 
 This extension works with Visual Studio 2015 and Visual Studio 2017, Community edition or higher.
 
-You can download the tools from the [Visual Studio Marketplace](https://aka.ms/vstoolsforai), or from within Visual Studio:
+You can download the tools from the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.vstoolsai-vs2017), or from within Visual Studio:
 
 1. Select **Tools** > **Extensions and Updates**.
 
@@ -131,7 +131,7 @@ The [Microsoft Cognitive Toolkit](https://cntk.ai) is a unified deep-learning to
 > [!NOTE]
 > CNTK currently does not support macOS.
 
-To install CNTK Python package, see [how to install CNTK](https://docs.microsoft.com/cognitive-toolkit/Setup-CNTK-on-your-machine).
+To install CNTK Python package, see [how to install CNTK](/cognitive-toolkit/Setup-CNTK-on-your-machine).
 
 ### TensorFlow
 

@@ -1,23 +1,23 @@
 ---
-title: "OnError Element (MSBuild) | Microsoft Docs"
-ms.date: "03/13/2017"
-ms.topic: "reference"
+title: OnError Element (MSBuild) | Microsoft Docs
+ms.date: 03/13/2017
+ms.topic: reference
 f1_keywords:
-  - "http://schemas.microsoft.com/developer/msbuild/2003#OnError"
+- http://schemas.microsoft.com/developer/msbuild/2003#OnError
 dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
+- VB
+- CSharp
+- C++
+- jsharp
 helpviewer_keywords:
-  - "OnError Element [MSBuild]"
-  - "<OnError Element [MSBuild]"
+- OnError Element [MSBuild]
+- <OnError Element [MSBuild]
 ms.assetid: 765767d3-ecb7-4cd9-ba1e-d9468964dddc
-author: mikejo5000
-ms.author: mikejo
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # OnError element (MSBuild)
 Causes one or more targets to execute, if the `ContinueOnError` attribute is `false` for a failed task.

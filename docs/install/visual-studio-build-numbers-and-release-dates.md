@@ -1,15 +1,14 @@
 ---
 title: Visual Studio build numbers and release dates
-titleSuffix: ""
-description: "A list of released versions and build numbers for Visual Studio, sorted by date."
-author: TerryGLee
-ms.author: tglee
+titleSuffix: ''
+description: A list of released versions and build numbers for Visual Studio, sorted by date.
+author: ornellaalt
+ms.author: ornella
 manager: jillfra
-ms.date: 11/20/2019
+ms.date: 01/23/2020
 ms.topic: reference
-ms.custom: "seodec18"
 ms.workload:
-  - "multiple"
+- multiple
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
 ---
@@ -23,6 +22,15 @@ The following table lists the build numbers and release dates for Visual Studio 
 
 | **Version**| **Channel** | **Release date** | **Build version** |
 | ---------------------- | ----------- | ---------------- | ----------------- |
+| 16.5.0 | Preview 2 | January 22, 2020 | 16.5.29721.120 |
+| 16.4.3 | Release | January 14, 2020 | 16.4.29709.97 |
+| 16.0.11 | Release | January 14, 2020 | 16.0.28803.653 |
+| 16.4.2 | Release | December 17, 2019 | 16.4.29613.14 |
+| 16.4.1 | Release | December 10, 2019 | 16.4.29609.76 |
+| 16.0.10 | Release | December 10, 2019 | 16.0.28803.631 |
+| 16.5.0 | Preview 1 | December 3, 2019 | 16.5.29521.150 |
+| 16.4.0 | Release | December 3, 2019 | 16.4.29519.181 |
+| 16.4.0 | Preview 6 | November 21, 2019 | 16.4.29519.161 |
 | 16.3.10 | Release | November 20, 2019 | 16.3.29519.87 |
 | 16.4.0 | Preview 5 | November 14, 2019 | 16.4.29512.175 |
 | 16.3.9 | Release | November 12, 2019 | 16.3.29509.3 |
@@ -107,6 +115,9 @@ The following table lists the build numbers and release dates for Visual Studio 
 
 | **Version**| **Channel** | **Release date** | **Build version** |
 | ---------------------- | ----------- | ---------------- | ----------------- |
+| 15.9.19 | Release | January 14, 2020 | 15.9.28307.1000 |
+| 15.0.28 | Release | December 11, 2019 | 15.0.26228.102 |
+| 15.9.18 | Release | December 10, 2019 | 15.9.28307.960 |
 | 15.9.17 | Release | October 15, 2019 | 15.9.28307.905 |
 | 15.9.16 | Release | September 10, 2019 | 15.9.28307.858 |
 | 15.0.27 | Release | September 10, 2019 | 15.0.26228.98 |

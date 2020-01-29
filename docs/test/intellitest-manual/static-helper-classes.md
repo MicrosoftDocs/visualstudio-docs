@@ -1,14 +1,14 @@
 ---
-title: "Static helper classes | Microsoft IntelliTest Developer Test Tool"
+title: Static helper classes | Microsoft IntelliTest Developer Test Tool
 ms.date: 05/02/2017
 ms.topic: reference
 helpviewer_keywords:
-  - "IntelliTest, Static helper classes"
-ms.author: jillfra
+- IntelliTest, Static helper classes
+ms.author: mikejo
 manager: jillfra
 ms.workload:
-  - "multiple"
-author: jillre
+- multiple
+author: mikejo5000
 ---
 # Static helper classes
 

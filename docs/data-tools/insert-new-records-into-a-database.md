@@ -3,20 +3,20 @@ title: Insert new records into a database
 ms.date: 11/04/2016
 ms.topic: conceptual
 dev_langs:
-  - "VB"
-  - "CSharp"
+- VB
+- CSharp
 helpviewer_keywords:
-  - "TableAdapters, inserting new records into"
-  - "data [Visual Studio], saving"
-  - "databases, inserting new records into"
-  - "records, inserting"
-  - "saving data"
+- TableAdapters, inserting new records into
+- data [Visual Studio], saving
+- databases, inserting new records into
+- records, inserting
+- saving data
 ms.assetid: ea118fff-69b1-4675-b79a-e33374377f04
-author: jillre
-ms.author: jillfra
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "data-storage"
+- data-storage
 ---
 # Insert new records into a database
 

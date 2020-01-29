@@ -3,12 +3,12 @@ title: Install FxCop analyzers
 ms.date: 08/03/2018
 ms.topic: conceptual
 helpviewer_keywords:
-  - "fxcop analyzers"
-author: jillre
-ms.author: jillfra
+- fxcop analyzers
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ms.workload:
-  - "dotnet"
+- dotnet
 ---
 # Install FxCop analyzers in Visual Studio
 

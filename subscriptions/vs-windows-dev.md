@@ -13,7 +13,7 @@ Your Windows Developer Account, included with selected Visual Studio subscriptio
 ## Activation steps
 To use your Windows Developer Account, you’ll need to set up an account or sign in using an existing account.
 
-We recommend that you create a "private" browser window for this process.  For example, in Google Chrome, create a new "incongnito" window.  In Internet Explorer, create a new "InPrivate" window.
+We recommend that you create a "private" browser window for this process.  For example, in Google Chrome, create a new "incognito" window.  In Internet Explorer, create a new "InPrivate" window.
 
 1. Sign in to [https://my.visualstudio.com/benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs).
 2. Locate the Windows Developer Account tile in the Tools section and click on the **Get Code** link at the bottom of the benefit tile.  Copy the code to your clipboard, then click **Activate**.

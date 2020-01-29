@@ -1,17 +1,17 @@
 ---
-title: "Task Writing | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Task Writing | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "MSBuild, writing tasks"
-  - "tasks, creating for MSBuild"
-  - "MSBuild, creating tasks"
+- MSBuild, writing tasks
+- tasks, creating for MSBuild
+- MSBuild, creating tasks
 ms.assetid: 3ebc5f87-8f00-46fc-82a1-228f35a6823b
-author: mikejo5000
-ms.author: mikejo
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Task writing
 Tasks provide the code that runs during the build process. Tasks are contained in targets. A library of typical tasks is included with [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)], and you can also create your own tasks. For more information about the library of tasks that are included with [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)], see [Task reference](../msbuild/msbuild-task-reference.md).

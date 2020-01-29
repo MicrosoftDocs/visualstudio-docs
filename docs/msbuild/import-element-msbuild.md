@@ -1,23 +1,23 @@
 ---
-title: "Import Element (MSBuild) | Microsoft Docs"
-ms.date: "03/13/2017"
-ms.topic: "reference"
+title: Import Element (MSBuild) | Microsoft Docs
+ms.date: 03/13/2017
+ms.topic: reference
 f1_keywords:
-  - "http://schemas.microsoft.com/developer/msbuild/2003#Import"
+- http://schemas.microsoft.com/developer/msbuild/2003#Import
 dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
+- VB
+- CSharp
+- C++
+- jsharp
 helpviewer_keywords:
-  - "Import element [MSBuild]"
-  - "<Import> element [MSBuild]"
+- Import element [MSBuild]
+- <Import> element [MSBuild]
 ms.assetid: 3bfecaf1-69fd-4008-b651-c9dafd4389d9
-author: mikejo5000
-ms.author: mikejo
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Import element (MSBuild)
 Imports the contents of one project file into another project file.

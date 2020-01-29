@@ -1,12 +1,12 @@
 ---
-title: "Scroll bar map mode and bar mode"
+title: Scroll bar map mode and bar mode
 ms.date: 09/25/2018
 ms.topic: conceptual
-author: jillre
-ms.author: jillfra
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # How to: Customize the scroll bar
 

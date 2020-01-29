@@ -1,16 +1,16 @@
 ---
-title: "How to: Specify an application icon (Visual Basic, C#)"
+title: 'How to: Specify an application icon (Visual Basic, C#)'
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "icons [Visual Studio], application"
-  - "application properties [Visual Studio], icons"
-  - "application icons [Visual Studio]"
-author: jillre
-ms.author: jillfra
+- icons [Visual Studio], application
+- application properties [Visual Studio], icons
+- application icons [Visual Studio]
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "dotnet"
+- dotnet
 ---
 # How to: Specify an application icon (Visual Basic, C#)
 

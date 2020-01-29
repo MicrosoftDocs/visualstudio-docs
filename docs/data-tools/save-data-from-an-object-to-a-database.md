@@ -3,18 +3,18 @@ title: Save data from an object to a database
 ms.date: 11/04/2016
 ms.topic: conceptual
 dev_langs:
-  - "VB"
-  - "CSharp"
+- VB
+- CSharp
 helpviewer_keywords:
-  - "data [Visual Studio], saving"
-  - "data access [Visual Studio], objects"
-  - "saving data"
+- data [Visual Studio], saving
+- data access [Visual Studio], objects
+- saving data
 ms.assetid: efd6135a-40cf-4b0d-8f8b-41a5aaea7057
-author: jillre
-ms.author: jillfra
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "data-storage"
+- data-storage
 ---
 # Save data from an object to a database
 

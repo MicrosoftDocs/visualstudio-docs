@@ -9,6 +9,7 @@ ms.assetid: cae81c95-83cd-4ab6-8a98-84ef977a2f6d
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jillfra
+monikerRange: 'vs-2017'
 ms.workload:
   - "multiple"
 ---
@@ -24,7 +25,7 @@ ms.workload:
 
 1. Locate the stand-alone profile installer (*vs_standaloneprofiler.exe*) where you downloaded the performance tools and run it.
 
-2. Add the paths for *vsintr.exe* and *msdis150.dll* to the system path.
+2. Add the path for *vsinstr.exe* to the system path.
 
    > [!NOTE]
    > To get the path to the profiling tools, see [Specify the path to command line tools](../profiling/specifying-the-path-to-profiling-tools-command-line-tools.md). On 64-bit computers, both 64-bit and 32-bit versions of the tools are available. To use the profiler command-line tools, you must add the tools path to the PATH environment variable of the Command Prompt window or add it to the command itself.
@@ -34,7 +35,7 @@ ms.workload:
    > [!NOTE]
    > If the usage information for vsinstr.exe is displayed, everything is set up correctly. If you see an error that states vsinstr.exe or one of its dependencies is not found, make sure that you have your paths set up correctly as described in step 2.
 
-4. Set up symbol server by setting your **_NT_SYMBOL_PATH** variable to **symsrv\*symsrv.dll\*c:\localcache\*http://msdl.microsoft.com/download/symbols**
+4. Set up symbol server by setting your **_NT_SYMBOL_PATH** variable to **symsrv\*symsrv.dll\*c:\localcache\*https://msdl.microsoft.com/download/symbols**
 
 5. After you set up your symbol server by using the system environment variables, run the command line profiler tools at a new command prompt. This allows the new environment variables to take effect. In the command prompt window, type the following command:
 

@@ -22,7 +22,7 @@ In this lab, you'll learn how to get started building Azure Functions using Visu
 ## Requirements
 
 - Visual Studio for Mac 7.5 or higher.
-- An Azure subscription (available free from [https://azure.com/free](https://azure.com/free)).
+- An Azure subscription (available free from [https://azure.com/free](https://azure.com/free?ref=visualstudio)).
 
 ## Exercise 1: Creating an Azure Functions project
 

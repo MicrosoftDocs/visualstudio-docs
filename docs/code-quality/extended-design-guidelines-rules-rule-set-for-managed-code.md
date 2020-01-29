@@ -3,11 +3,11 @@ title: Extended Design Guidelines Rules rule set for managed code
 ms.date: 11/04/2016
 ms.topic: reference
 ms.assetid: a338caf2-b75d-4f23-a0f9-3024fa0bceac
-author: jillre
-ms.author: jillfra
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ms.workload:
-  - "dotnet"
+- dotnet
 ---
 # Extended Design Guidelines Rules rule set for managed code
 

@@ -4,15 +4,18 @@ titleSuffix: Blend for Visual Studio
 ms.date: 03/06/2018
 ms.topic: conceptual
 ms.assetid: 87d31b6c-4607-4121-bb7d-cfc80390ab93
-author: jillre
-ms.author: jillfra
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Display data in Blend for Visual Studio
 
 You can view sample data in your designer as you customize the layout of your pages. You can generate sample data from scratch or by using an existing class. You can also connect to *Live data* that appears in your app when you run it.
+
+> [!NOTE]
+> The **Data** panel in Blend is supported only for projects that target .NET Framework. It's not supported for UWP projects or projects that target .NET Core. 
 
 ## Generate sample data
 

@@ -1,21 +1,21 @@
 ---
-title: "WPF MSBuild Reference | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "reference"
+title: WPF MSBuild Reference | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: reference
 dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
+- VB
+- CSharp
+- C++
+- jsharp
 helpviewer_keywords:
-  - "build support [WPF]"
-  - "MSBuild [WPF]"
+- build support [WPF]
+- MSBuild [WPF]
 ms.assetid: 94b12890-365d-479a-b239-71109fbcb462
-author: mikejo5000
-ms.author: mikejo
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # WPF MSBuild reference
 

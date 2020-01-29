@@ -3,19 +3,19 @@ title: Working with the DSL Definition Diagram
 ms.date: 11/04/2016
 ms.topic: conceptual
 f1_keywords:
-  - "vs.dsltools.dsldesigner.diagram"
-  - "vs.dsltools.dsldesigner.dsldiagram"
+- vs.dsltools.dsldesigner.diagram
+- vs.dsltools.dsldesigner.dsldiagram
 helpviewer_keywords:
-  - "Domain-Specific Language Tools, diagram"
-  - "Domain-Specific Language Tools, Split Tree"
-  - "Domain-Specific Language Tools, Show Map Lines"
-  - "Domain-Specific Language Tools, Show As Class"
-  - "Domain-Specific Language Tools, Bring Tree Here"
-author: jillre
-ms.author: jillfra
+- Domain-Specific Language Tools, diagram
+- Domain-Specific Language Tools, Split Tree
+- Domain-Specific Language Tools, Show Map Lines
+- Domain-Specific Language Tools, Show As Class
+- Domain-Specific Language Tools, Bring Tree Here
+author: JoshuaPartlow
+ms.author: joshuapa
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Working with the DSL Definition Diagram
 The diagram of a [!INCLUDE[dsl](../modeling/includes/dsl_md.md)] definition is an important tool for defining the domain-specific language. You can add elements to your domain model and define relationships on the diagram, and you can modify the layout of the diagram to make it more readable.

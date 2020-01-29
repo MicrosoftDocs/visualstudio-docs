@@ -443,4 +443,4 @@ In Visual Studio, you can draw a *sequence diagram* to show an interaction. An i
  [UML Class Diagrams: Reference](../modeling/uml-class-diagrams-reference.md)
  [UML Component Diagrams: Reference](../modeling/uml-component-diagrams-reference.md)
  [UML Component Diagrams: Reference](../modeling/uml-component-diagrams-reference.md)
- [Video: Sketching Interactions by using Sequence Diagrams](https://go.microsoft.com/fwlink/?LinkId=201113)
+ [Video: Sketching Interactions by using Sequence Diagrams](https://channel9.msdn.com/posts/clinted/UML-with-VS-2010-Part-2-Organizing-Features-Into-Use-Cases)

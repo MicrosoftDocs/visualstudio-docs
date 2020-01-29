@@ -3,8 +3,8 @@ title: Debug or disable project code in XAML Designer
 ms.date: 11/04/2016
 ms.topic: conceptual
 ms.assetid: ac600581-8fc8-49e3-abdf-1569a3483d74
-author: jillre
-ms.author: jillfra
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ---
 # Debug or disable project code in XAML Designer

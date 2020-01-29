@@ -1,15 +1,15 @@
 ---
-title: "Comparing Properties and Items | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Comparing Properties and Items | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "msbuild, msbuild properties"
+- msbuild, msbuild properties
 ms.assetid: b9da45ae-d6a6-4399-8628-397deed31486
-author: mikejo5000
-ms.author: mikejo
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Compare properties and items
 MSBuild properties and items are both used to pass information to tasks, evaluate conditions, and store values that can be referenced throughout the project file.

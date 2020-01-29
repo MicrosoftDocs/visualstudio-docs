@@ -1403,26 +1403,6 @@
       href: https://visualstudio.microsoft.com/license-terms/
     - name: Support lifecycle and servicing
       href: /visualstudio/productinfo/vs-servicing-vs/
-  - name: Problem reports
-    items:
-    - name: How to report a problem in Visual Studio
-      href: ide/how-to-report-a-problem-with-visual-studio.md
-    - name: Report a problem states and FAQ
-      displayName: Developer Community
-      href: ide/report-a-problem.md
-    - name: Create minidumps for a Visual Studio process with all callstacks
-      displayName: Create minidumps with call stacks
-      href: ide/report-a-problem-minidumps.md
-    - name: Create logs for MSBuild problems
-      displayName: Create logs for MSBuild problems
-      href: ide/msbuild-logs.md
-    - name: Collect an ETL trace with PerfView
-      displayName: ETL trace with PerfView
-      href: ide/report-a-problem-perfview.md
-  - name: Suggest a feature for Visual Studio
-    href: ide/suggest-a-feature.md
-  - name: Developer Community data privacy
-    href: ide/developer-community-privacy.md
   - name: Customer Experience Improvement Program
     items:
     - name: Overview
@@ -1432,6 +1412,25 @@
       href: ide/diagnostic-data-collection.md
   - name: Resources for troubleshooting IDE errors
     href: ide/reference/resources-for-troubleshooting-integrated-development-environment-errors.md
-  - name: Feedback
-    displayName: Feedback
+- name: Send feedback
+  items:
+  - name: Overview
     href: ide/feedback-options.md
+  - name: Report a problem
+    items:
+    - name: How to report a problem
+      href: ide/how-to-report-a-problem-with-visual-studio.md
+    - name: Report a problem states and FAQ
+      href: ide/report-a-problem.md
+    - name: Get performance issues fixed quicker
+      href: ide/how-to-increase-chances-of-performance-issue-being-fixed.md
+    - name: Create minidumps with callstacks
+      href: ide/report-a-problem-minidumps.md
+    - name: Create logs for MSBuild problems
+      href: ide/msbuild-logs.md
+    - name: Collect an ETL trace with PerfView
+      href: ide/report-a-problem-perfview.md
+  - name: Suggest a feature
+    href: ide/suggest-a-feature.md
+  - name: Developer Community data privacy
+    href: ide/developer-community-privacy.md

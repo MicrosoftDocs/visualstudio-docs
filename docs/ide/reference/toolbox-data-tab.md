@@ -3,15 +3,15 @@ title: Toolbox, Data Tab
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
-  - "Toolbox, Data tab"
-  - "Data tab, Toolbox"
-  - "data [Visual Studio], Toolbox"
+- Toolbox, Data tab
+- Data tab, Toolbox
+- data [Visual Studio], Toolbox
 ms.assetid: 2ae38b2a-29d2-461c-a67d-29dad274bf45
-author: jillre
-ms.author: jillfra
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Toolbox, Data tab
 

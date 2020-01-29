@@ -9,7 +9,7 @@ namespace UsageLibrary
     [Serializable]
     public class SerializationConstructorsRequired : ISerializable 
     {
-        private  int n1;
+        private int n1;
 
         // This is a regular constructor.
         public SerializationConstructorsRequired ()

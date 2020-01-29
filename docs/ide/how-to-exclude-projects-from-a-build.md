@@ -1,5 +1,5 @@
 ---
-title: "How to: Exclude projects from a build"
+title: 'How to: Exclude projects from a build'
 ms.date: 11/04/2016
 ms.technology: vs-ide-compile
 ms.topic: conceptual
@@ -8,7 +8,7 @@ author: ghogen
 ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # How to: Exclude projects from a build
 

@@ -1,17 +1,17 @@
 ---
-title: "Building Multiple Projects in Parallel with MSBuild | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Building Multiple Projects in Parallel with MSBuild | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "parallel project builds"
-  - "building multiple projects in parallel"
-  - "msbuild, building projects in parallel"
+- parallel project builds
+- building multiple projects in parallel
+- msbuild, building projects in parallel
 ms.assetid: c8c9aadc-33ad-4aa1-b07d-b879e9eabda0
-author: mikejo5000
-ms.author: mikejo
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Build multiple projects in parallel with MSBuild
 You can use MSBuild to build multiple projects faster by running them in parallel. To run builds in parallel, you use the following settings on a multi-core or multiple processor computer:
@@ -37,7 +37,7 @@ msbuild.exe myproj.proj -maxcpucount:3
 ```
 
 ## BuildInParallel task parameter
-`BuildInParallel` is an optional boolean parameter on a [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] task. When `BuildInParallel` is set to `true` (its default value is `false`), multiple worker processes are generated to build as many projects at the same time as possible. For this to work correctly, the `-maxcpucount` switch must be set to a value greater than 1, and the system must be at least dual-core or have two or more processors.
+`BuildInParallel` is an optional boolean parameter on a [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] task. When `BuildInParallel` is set to `true` (its default value is `true`), multiple worker processes are generated to build as many projects at the same time as possible. For this to work correctly, the `-maxcpucount` switch must be set to a value greater than 1, and the system must be at least dual-core or have two or more processors.
 
 The following is an example, taken from *microsoft.common.targets*, about how to set the `BuildInParallel` parameter.
 

@@ -24,7 +24,7 @@ Welcome to Visual Studio! We’ve got everything you need to create great apps f
 >
 > Click here for release notes for [Visual Studio 2017](https://www.visualstudio.com/news/releasenotes/vs2017-relnotes).
 
- Download [Visual Studio Community](https://go.microsoft.com/fwlink/?LinkId=517106) for free to start coding right away. If you want to do cross-platform development, make sure that you install the optional packages. (You can get more features with [other editions of Visual Studio](https://visualstudio.microsoft.com/vs/compare/).)
+ Download [Visual Studio Community](https://visualstudio.microsoft.com/downloads/) for free to start coding right away. If you want to do cross-platform development, make sure that you install the optional packages. (You can get more features with [other editions of Visual Studio](https://visualstudio.microsoft.com/vs/compare/).)
 
  Jump right in, create a new project, and start writing code. Choose the type of app you want to create. Or you can [take a tour](./ide/visual-studio-ide.md) of the Visual Studio IDE to get familiar with the tools.
 
@@ -90,7 +90,7 @@ Welcome to Visual Studio! We’ve got everything you need to create great apps f
 
 |||||
 |-|-|-|-|
-|[What’s new in Visual Studio 2015](./what-s-new-in-visual-studio-2015.md)|[What's New for Visual C#](https://msdn.microsoft.com/library/9f18dc26-27fa-4603-a639-b573f07a117b)|[What’s new for .NET Framework 4.6](https://msdn.microsoft.com/library/1d971dd7-10fc-4692-8dac-30ca308fc0fa)|[What’s new for ALM](https://msdn.microsoft.com/54b98a53-6083-4303-869a-8063d8fae938)|
+|[What’s new in Visual Studio 2015](./what-s-new-in-visual-studio-2015.md)|[What's New for Visual C#](https://msdn.microsoft.com/library/9f18dc26-27fa-4603-a639-b573f07a117b)|[What’s new for .NET Framework 4.6](https://msdn.microsoft.com/library/1d971dd7-10fc-4692-8dac-30ca308fc0fa)|[What’s new for ALM](/azure/devops/server/whats-new)|
 |[What’s new for C++](https://msdn.microsoft.com/library/1cc09fad-85a2-43c2-b022-bb99f5fe0ad7)|[What's New for Visual Basic](https://msdn.microsoft.com/library/d7e97396-7f42-4873-a81c-4ebcc4b6ca02)|[What’s new for JavaScript](javascript/javascript-in-visual-studio.md#whats-new-in-javascript)||
 |[Python](./python/getting-started-with-python.md)||||
 

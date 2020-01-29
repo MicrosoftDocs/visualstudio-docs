@@ -1,15 +1,15 @@
 ---
-title: "How to: Add a command to the shortcut menu"
+title: 'How to: Add a command to the shortcut menu'
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "Domain-Specific Language Tools, walkthroughs"
-  - "walkthroughs [Domain-Specific Language Tools]"
-author: jillre
-ms.author: jillfra
+- Domain-Specific Language Tools, walkthroughs
+- walkthroughs [Domain-Specific Language Tools]
+author: JoshuaPartlow
+ms.author: joshuapa
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # How to: Add a command to the shortcut menu
 

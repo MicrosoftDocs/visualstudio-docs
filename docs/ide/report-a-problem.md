@@ -1,5 +1,5 @@
 ---
-title: "Report a problem"
+title: "Report a problem: States and FAQ"
 description: "Provides an overview of the Report a Problem tool, and includes problem states and definitions"
 ms.date: 11/15/2018
 ms.custom: "seodec18"
@@ -10,7 +10,7 @@ manager: jillfra
 ms.workload:
   - "multiple"
 ---
-# Overview: Report a Problem
+# Report a problem: States and FAQ
 
 The Report a Problem tool enables the Visual Studio developer community to submit issues. Each one of your problem reports becomes a work item in our core engineering system, empowering you to engage directly with our product teams to help us identify and resolve impactful issues. Your feedback submitted with rich diagnostic information is critical to improving the Visual Studio product family. We really appreciate you taking the time to report problems.
 

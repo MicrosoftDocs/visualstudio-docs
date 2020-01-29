@@ -6,7 +6,7 @@ author: mikadumont
 ms.author: midumont
 manager: jillfra
 ms.workload:
-  - "dotnet"
+- dotnet
 ---
 # How to: Insert XML comments for documentation generation
 

@@ -3,16 +3,16 @@ title: Code Analysis, Project Designer
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "vs29106"
+- vs29106
 helpviewer_keywords:
-  - "Code Analysis page in Project Designer"
-  - "Project Designer, Code Analysis page"
+- Code Analysis page in Project Designer
+- Project Designer, Code Analysis page
 ms.assetid: 71743d26-4da5-4f7d-a403-7ab96cf2ef2e
-author: jillre
-ms.author: jillfra
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Code Analysis, Project Designer
 

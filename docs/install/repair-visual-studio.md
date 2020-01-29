@@ -1,15 +1,15 @@
 ---
-title: "Repair Visual Studio"
-titleSuffix: ""
-description: "Learn how to repair an installation of Visual Studio 2017"
+title: Repair Visual Studio
+titleSuffix: ''
+description: Learn how to repair an installation of Visual Studio 2017
 ms.date: 07/31/2019
-ms.custom: "seodec18"
+ms.custom: seodec18
 ms.topic: conceptual
-author: TerryGLee
-ms.author: tglee
+author: ornellaalt
+ms.author: ornella
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
 ---

@@ -3,13 +3,13 @@ title: XAML Designer options page
 ms.date: 03/02/2017
 ms.topic: reference
 f1_keywords:
-  - VS.ToolsOptionsPages.XAMLDesigner
-  - VS.ToolsOptionsPages.XAML_Designer.General
-author: jillre
-ms.author: jillfra
+- VS.ToolsOptionsPages.XAMLDesigner
+- VS.ToolsOptionsPages.XAML_Designer.General
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "uwp"
+- uwp
 ---
 # XAML Designer options page
 

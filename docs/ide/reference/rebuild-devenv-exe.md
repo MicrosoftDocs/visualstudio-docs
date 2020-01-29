@@ -3,17 +3,17 @@ title: -Rebuild (devenv.exe)
 ms.date: 12/10/2018
 ms.topic: reference
 helpviewer_keywords:
-  - "Devenv, /rebuild switch"
-  - "Rebuild Devenv switch (/Rebuild)"
-  - "projects [Visual Studio], rebuilding"
-  - "/Rebuild Devenv switch"
-  - "applications [Visual Studio], rebuilding"
+- Devenv, /rebuild switch
+- Rebuild Devenv switch (/Rebuild)
+- projects [Visual Studio], rebuilding
+- /Rebuild Devenv switch
+- applications [Visual Studio], rebuilding
 ms.assetid: c5a8a4bf-0e2b-46eb-a44a-8aeb29b92c32
-author: jillre
-ms.author: jillfra
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # /Rebuild (devenv.exe)
 
