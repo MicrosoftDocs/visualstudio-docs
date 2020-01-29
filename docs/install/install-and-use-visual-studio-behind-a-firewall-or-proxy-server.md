@@ -70,6 +70,10 @@ Because the Visual Studio Installer downloads files from various domains and the
 | www\.incredibuild.com | Game development with C++ (IncrediBuild) |
 | incredibuildvs2017i.azureedge.net | Game development with C++ (IncrediBuild) |
 | www\.python.org | Python development (Python) <br /><br />Data science and analytical applications (Python) |
+| developerservices2.apple.com | Xamarin.iOS provisioning |
+| developer.apple.com | Xamarin.iOS provisioning |
+| appstoreconnect.apple.com | Xamarin.iOS provisioning |
+| idmsa.apple.com | Xamarin.iOS provisioning |
 | | |
 
 ## Use Visual Studio and Azure Services
