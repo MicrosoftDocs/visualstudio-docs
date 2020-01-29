@@ -47,6 +47,7 @@ Because the Visual Studio Installer downloads files from various domains and the
 | dl.xamarin.com | Setup packages download location |
 | xamarin-downloads.azureedge.net | Android SDK packages download list location |
 | marketplace.visualstudio.com | Visual Studio Extensions download location |
+| \*.gallerycdn.vsassets.io  | Visual Studio Extension download location |
 | visualstudio.microsoft.com | Documentation location |
 | docs.microsoft.com | Documentation location |
 | msdn.microsoft.com | Documentation location |
