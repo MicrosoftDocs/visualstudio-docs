@@ -24,7 +24,7 @@ For Docker installation, first review the information at [Docker Desktop for Win
 
 1. From the Visual Studio menu, select **File > New > Project**.
 1. Under the **Templates** section of the **New Project** dialog box, select **Visual C# > Web**.
-1. Select **ASP.NET Core Web Application**.
+1. Select **ASP.NET Core Web Application** or if you want to use the .NET Framework instead of .NET Core, select **ASP.NET Web Application**.
 1. Give your new application a name (or take the default) and select **OK**.
 1. Select **Web Application**.
 1. Check the **Enable Docker Support** checkbox.

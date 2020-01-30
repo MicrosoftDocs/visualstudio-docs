@@ -24,7 +24,7 @@ For Docker installation, first review the information at [Docker Desktop for Win
 
 ## Add a project to a Docker container
 
-1. Create a new project using the **ASP.NET Core Web Application** template.
+1. Create a new project using the **ASP.NET Core Web Application** template or if you want to use the .NET Framework instead of .NET Core, choose **ASP.NET Web Application (.NET Framework)**.
 1. Select **Web Application**, and make sure the **Enable Docker Support** checkbox is selected.
 
    ![Enable Docker Support check box](../../media/container-tools/vs-2019/create-new-web-application.PNG)
