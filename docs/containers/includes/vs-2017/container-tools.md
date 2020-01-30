@@ -31,6 +31,8 @@ For Docker installation, first review the information at [Docker Desktop for Win
 
    ![Enable Docker Support check box](../../media/container-tools/enable-docker-support.PNG)
 
+   The screenshot shows .NET Core; if you're using .NET Framework, it looks a bit different.
+
 1. Select the type of container you want (Windows or Linux) and click **OK**.
 
 ## Dockerfile overview
@@ -60,7 +62,7 @@ COPY --from=publish /app .
 ENTRYPOINT ["dotnet", "HelloDockerTools.dll"]
 ```
 
-The preceding *Dockerfile* is based on the [microsoft/aspnetcore](https://hub.docker.com/r/microsoft/aspnetcore/) image, and includes instructions for modifying the base image by building your project and adding it to the container.
+The preceding *Dockerfile* is based on the [microsoft/aspnetcore](https://hub.docker.com/r/microsoft/aspnetcore/) image, and includes instructions for modifying the base image by building your project and adding it to the container. If you're using the .NET Framework, the base image will be different.
 
 When the new project dialog's **Configure for HTTPS** check box is checked, the *Dockerfile* exposes two ports. One port is used for HTTP traffic; the other port is used for HTTPS. If the check box isn't checked, a single port (80) is exposed for HTTP traffic.
 
