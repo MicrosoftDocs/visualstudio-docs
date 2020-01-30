@@ -66,7 +66,7 @@ When the new project dialog's **Configure for HTTPS** check box is checked, the 
 
 Select **Docker** from the debug drop-down in the toolbar, and start debugging the app. You might see a message with a prompt about trusting a certificate; choose to trust the certificate to continue.
 
-The **Container Tools** option in the **Output** window shows what actions are taking place.
+The **Container Tools** option in the **Output** window shows what actions are taking place. The first time, it might take a while to download the base image, but it's much faster on subsequent runs.
 
 ## Containers window
 
