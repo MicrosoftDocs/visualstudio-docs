@@ -28,7 +28,7 @@ Here's how to assign a Visual Studio subscription license to a new user so that 
    > [!div class="mx-imgBorder"]
    > ![Access to downloads](media/access-to-downloads.png)
 
-       If you'd like to add your own reference notes to the subscription, you can do so in the **Add reference** section.
+    If you'd like to add your own reference notes to the subscription, you can do so in the **Add reference** section.
    > [!div class="mx-imgBorder"]
    > ![Add your own reference notes to each subscription](media/add-subscriber-reference-notes.png)
 

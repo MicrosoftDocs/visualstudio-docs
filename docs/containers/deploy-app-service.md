@@ -47,13 +47,13 @@ The following steps guide you through creating a basic ASP.NET Core app that wil
 1. Choose **Web Application**.
 1. Choose whether or not you want SSL support by using the **Configure for HTTPS** checkbox.
 1. Check the **Enable Docker Support** checkbox.
-1. Select the **Linux** container type, and click **Create**. Windows containers are not supported to deploy to Azure App Service as a container.
+1. Select the container type, and click **Create**. Windows containers are not supported to deploy to Azure App Service as a container.
 ::: moniker-end
 
 ## Deploy the container to Azure
 
 1. Right-click your project in **Solution Explorer** and choose **Publish**.
-1. On the publish target dialog, choose **App Service Linux**.
+1. On the publish target dialog, choose **App Service Linux** or **App Service**. This is the operating system that will host the web server.
 1. You can publish only to App Service, or you can publish to both App Service and Azure Container Registry (ACR). To publish the container in an Azure Container Registry (ACR), choose **Create new App Service for containers**, and click **Publish**.
 
    ![Screenshot of publish dialog](media/deploy-app-service/publish-app-service-linux.PNG)
@@ -73,7 +73,18 @@ The following steps guide you through creating a basic ASP.NET Core app that wil
    ![Screenshot of web application](media/deploy-app-service/web-application-running.png)
 
 1. The publishing profile is saved with all the details you selected, such as the resource group and container registry.
+
 1. To deploy again with the same publishing profile, use the **Publish** button, the **Publish** button on the **Web Publish Activity** window, or right-click on the project in **Solution Explorer** and choose the **Publish** item on the context-menu.
+
+## View container settings
+
+In the [Azure portal](https://portal.azure.com), you can open your deployed App Service.
+
+You can view settings for your deployed App Service by opening the **Container settings* menu (when you are using Visual Studio 2019 version 16.4 or later).
+
+![Screenshot of Container Settings menu in the Azure portal](media/deploy-app-service/container-settings-menu.png)
+
+From there, you can view the container information, view or download logs, or set up continuous deployment. See [Azure App Service Continuous Deployment CI/CD](/azure/app-service/containers/app-service-linux-ci-cd).
 
 ## Clean up resources
 
@@ -83,7 +94,7 @@ In the Azure portal, choose **Resource groups**, select the resource group to op
 
 ## Next steps
 
-Set up continuous integration and delivery (CI/CD) with [Azure Pipelines](/azure/devops/pipelines/?view=azure-devops).
+Learn more about [Azure App Service Linux](/azure/app-service/containers/app-service-linux-intro).
 
 ## See also
 
