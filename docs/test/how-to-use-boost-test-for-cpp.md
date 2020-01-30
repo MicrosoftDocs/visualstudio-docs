@@ -37,9 +37,9 @@ You have a choice in how to configure your tests within your solution in Visual 
 
 ## Add tests inside your project
 
-In Visual Studio 2017 version 15.6 and later, you can add an item template for tests into your project. Both the tests and your code live in the same project. You'll have to create a separate build configuration to generate a test build, and to keep the tests out of your debug and retail builds.
+In Visual Studio 2017 version 15.6 and later, you can add an item template for tests into your project. Both the tests and your code live in the same project. You'll have to create a separate build configuration to generate a test build. And, you'll need to keep the tests out of your debug and release builds.
 
-In Visual Studio 2017 version 15.5, no pre-configured test project or item templates are available for Boost.Test. You have to create and configure a separate test project to hold your tests.
+In Visual Studio 2017 version 15.5, no pre-configured test project or item templates are available for Boost.Test. Use the instructions to create and configure a separate test project.
 
 ### Create a Boost.Test item
 
@@ -49,7 +49,7 @@ In Visual Studio 2017 version 15.5, no pre-configured test project or item templ
 
    ![Boost.Test Item Template](media/boost_test_item_template.png)
 
-The new *Test.cpp* file contains a sample test method. This is where you can include your own header files and write tests for your app.
+The new *Test.cpp* file contains a sample test method. This file is where you can include your own header files and write tests for your app.
 
 The test file also uses macros to define a new `main` routine for test configurations. If you build your project now, you'll see a LNK2005 error, such as "_main already defined in main.obj."
 
@@ -57,7 +57,7 @@ The test file also uses macros to define a new `main` routine for test configura
 
 1. To create a test configuration, on the menu bar, select **Build** > **Configuration Manager**. In the **Configuration Manager** dialog, open the dropdown under **Active solution configuration** and choose **New**. In the **New Solution Configuration** dialog, enter a name such as "Debug UnitTests". Under **Copy settings from** select **Debug**, and then choose **OK**.
 
-1. To exclude the test code from your Debug and Release configurations, in **Solution Explorer**, right-click on Test.cpp and select **Properties**. In the **Property Pages** dialog, select **All Configurations** in the **Configuration** dropdown. Select **Configuration Properties** > **General** and open the dropdown for the **Excluded From Build** property. Select **Yes**, then choose **Apply** to save your changes.
+1. Exclude the test code from your Debug and Release configurations: In **Solution Explorer**, right-click on Test.cpp and select **Properties**. In the **Property Pages** dialog, select **All Configurations** in the **Configuration** dropdown. Select **Configuration Properties** > **General** and open the dropdown for the **Excluded From Build** property. Select **Yes**, then choose **Apply** to save your changes.
 
 1. To include the test code in your Debug UnitTests configuration, in the **Property Pages** dialog, select **Debug UnitTests** in the **Configuration** dropdown. Select **No** in the **Excluded From Build** property, then choose **OK** to save your changes.
 
@@ -65,13 +65,13 @@ The test file also uses macros to define a new `main` routine for test configura
 
 1. Set the Solution Configuration to **Debug UnitTests**, then build your project to enable **Test Explorer** to discover the method.
 
-As long as the test configuration name you create starts with the words "Debug" or "Retail", the corresponding Boost.Test libraries installed by vcpkg are picked up automatically.
+As long as the configuration name you create starts with the words "Debug" or "Release", the corresponding Boost.Test libraries get picked up automatically.
 
 The item template uses the single-header variant of Boost.Test, but you can modify the #include path to use the standalone library variant. For more information, see [Add include directives](#add-include-directives).
 
 ## Create a separate test project
 
-In many cases, it's better to use a separate project in your solution for all of your tests. You don't have to create a special test build configuration for your project when the test project is stand-alone.
+In many cases, it's easier to use a separate project for your tests. You won't have to create a special test configuration for your project. Or, exclude test files from Debug and Release builds.
 
 ### To create a separate test project
 
@@ -83,7 +83,7 @@ In many cases, it's better to use a separate project in your solution for all of
 
 1. Delete the `main` function in the *.cpp* file.
 
-1. If you are using the single-header or dynamic library version of Boost.Test, go to [Add include directives](#add-include-directives). If you're using the static library version, then you have to perform some additional configuration:
+1. If you're using the single-header or dynamic library version of Boost.Test, go to [Add include directives](#add-include-directives). If you're using the static library version, then you have to do some additional configuration:
 
    a. To edit the project file, first unload it. In **Solution Explorer**, right-click the project node and choose **Unload Project**. Then, right-click the project node and choose **Edit <name\>.vcxproj**.
 
@@ -103,7 +103,7 @@ In many cases, it's better to use a separate project in your solution for all of
 
    e. Expand **C/C++** > **Code Generation**, and then select **Runtime Library**. Select **/MTd** for debug static runtime library or **/MT** for release static runtime library.
 
-   f. Expand **Linker** > **System**. Verify that **SubSystem** is set to **Console**.
+   f. Expand **Linker** > **System**. Verify **SubSystem** is set to **Console**.
 
    g. Choose **OK** to close the property pages.
 
