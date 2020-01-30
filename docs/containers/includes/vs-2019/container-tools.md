@@ -29,6 +29,8 @@ For Docker installation, first review the information at [Docker Desktop for Win
 
    ![Enable Docker Support check box](../../media/container-tools/vs-2019/create-new-web-application.PNG)
 
+   The screenshot shows .NET Core; if you're using .NET Framework, it looks a bit different.
+
 1. Select the type of container you want (Windows or Linux) and click **Create**.
 
 ## Dockerfile overview
