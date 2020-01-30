@@ -139,6 +139,9 @@ Here's how.
 
 If you don't want to use workloads to customize your Visual Studio installation, choose the **Individual Components** tab in the Visual Studio Installer, select the components you want, and then follow the prompts.
 
+>[!TIP]
+> For information about the SQL Server Data Tools (SSDT) component, see [Download and install SSDT for Visual Studio](/sql/ssdt/download-sql-server-data-tools-ssdt?view=sql-server-ver15).
+
 ## Modify language packs
 
 By default, the installer matches the language of the operating system when it runs for the first time. However, you can change the language whenever you want. To do so, choose the **Language packs** tab in the Visual Studio Installer, select the language you prefer, and then follow the prompts.
