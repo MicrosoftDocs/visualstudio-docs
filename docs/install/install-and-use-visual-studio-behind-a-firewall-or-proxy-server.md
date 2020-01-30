@@ -127,6 +127,7 @@ To make sure that you have access to everything you need when you use Visual Stu
 | Visual Studio Subscriptions Licensing Service | app.vssps.visualstudio.com/apis/Licensing/ClientRights | https | 443 | Licensing for online activation |
 | Debugger | 1. <br>vsdebugger.blob.core.windows.net <br>vsdebugger.azureedge.net <br><br>2. <br>download.visualstudio.com/*/onecore.msvsmon.*.zip<br><br> 3. referencesource.microsoft.com/symbols <br><br> 4. <br>symbols.nuget.org/download/symbols<br><br> 5. visualstudio.commsdl.microsoft.com/download/symbols | https | 443 | 1. <br>Used for downloading debugger bits for .NET Core debugging on Unix / MacOS over SSH <br><br>2. <br>Used for downloading debugger bits for remote Windows Docker container debugging<br><br> 3. Used for .NET framework source stepping <br><br> 4. <br>(If user opt-ins) Used for downloading symbols published to nuget.org symbol server.<br><br> 5. (If user opt-ins) Used for downloading MS symbols and binaries, might also be needed for debugging managed code in dumps |
 | Visual Studio Online| \*.online.visualstudio.com | https | 443 | Used to call Visual Studio Online APIs |
+| Xamarin Android App Publishing | \*.googleapis.com <br/> play.google.com <br/>accounts.google.com | https | 443 | Used to interact with Google Play Store service to publish/upload Xamarin Android Applications directly from Visual Studio. |
 | | | | | |
 
 ## Troubleshoot network-related errors
