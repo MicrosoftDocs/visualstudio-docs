@@ -1,6 +1,6 @@
 ---
 title: "How to run a C# program"
-description: "Beginner's guide on how to run a simple C# program in Visual Studio."
+description: "Beginner's guide on how to run a C# program in Visual Studio."
 ms.custom: "get-started"
 ms.date: 10/16/2019
 ms.technology: vs-ide-general
@@ -22,13 +22,11 @@ What you need to do to run a program depends on what you're starting from, what 
 
 ![Screenshot showing start button](media/vs-start-button.png)
 
-If there are multiple ways of starting a project, choose by opening the dropdown and selecting an option. For most simple programs, the Console App project template is used, so there's usually only one option there. There could be multiple options in other cases, such as if the project is set up to run in a Docker container, or for web apps, there's a choice of web server (for example, IIS Express) and browser to use when launching. For mobile apps, you can choose from a variety of available device emulators.
-
 ## Starting from a project
 
-If you have a C# project (.csproj file), then you can run it, if it is a runnable program. If a project contains a C# file with a `Main` method, and its output is an executable (EXE), then it is most likely will run if it builds successfully.
+If you have a C# project (*.csproj* file), then you can run it, if it is a runnable program. If a project contains a C# file with a `Main` method, and its output is an executable (EXE), then most likely it will run if it builds successfully.
 
-If you already have the code for your program in a project in Visual Studio, open the project. To open the project, double-click or tap on the .csproj from the Windows File Explorer, or from Visual Studio, choose **Open a project**, browse to find the project (.csproj) file, and choose the project file.
+If you already have the code for your program in a project in Visual Studio, open the project. To open the project, double-click or tap on the *.csproj* from the Windows File Explorer, or from Visual Studio, choose **Open a project**, browse to find the project (*.csproj*) file, and choose the project file.
 
 After the projects loads in Visual Studio, press **Ctrl**+**F5** (**Start without debugging**) or use the green **Start** button on the Visual Studio toolbar to run the program.  If there are multiple projects, the one with the `Main` method must be set as the startup project. To set the startup project, right-click on a project node, and choose **Set as startup project**.
 
@@ -40,7 +38,7 @@ If the build succeeds, the app runs in a way that's appropriate for the type of 
 
 ## Starting from code
 
-If you're starting from a code listing, code file, or a small number of loose C# source code files, first make sure the code you want to run is from a trusted source and is a runnable program. If it has a `Main` method, it is likely intended as a runnable program that you can use the Console App template to create a project to work with it in Visual Studio.
+If you're starting from a code listing, code file, or a small number of files, first make sure the code you want to run is from a trusted source and is a runnable program. If it has a `Main` method, it is likely intended as a runnable program that you can use the Console App template to create a project to work with it in Visual Studio.
 
 ### Code listing for a single file
 
@@ -60,7 +58,7 @@ For a second file, right-click on the project node in **Solution Explorer** to o
 
 ### Starting from a folder
 
-When you are working with a folder of many files, first see if there's a project or solution.  If the program was created with Visual Studio, you should find a project file or a solution file. Look for files with the .csproj extension or .sln extension and in the Windows File Explorer, double-click on one of them to open them in Visual Studio. See [Starting from a Visual Studio solution or project](#starting-from-a-project).
+When you are working with a folder of many files, first see if there's a project or solution.  If the program was created with Visual Studio, you should find a project file or a solution file. Look for files with the *.csproj* extension or .sln extension and in the Windows File Explorer, double-click on one of them to open them in Visual Studio. See [Starting from a Visual Studio solution or project](#starting-from-a-project).
 
 If you don't have a project file, such as if the code was developed in another development environment, then open the top-level folder by using the **Open folder** method in Visual Studio. See [Develop code without projects or solutions](../../ide/develop-code-in-visual-studio-without-projects-or-solutions.md).
 
@@ -70,7 +68,7 @@ If the code you want to run is in GitHub or in an Azure DevOps repo, you can use
 
 ## Run the program
 
-Once you have all the files in the project, or an open folder, press the green arrow (**Start** button) on the main Visual Studio toolbar, or press **F5** or **Ctrl**+**F5** to run the program. When you use the **Start** button, it runs under the debugger.  Visual Studio attempts to build the code in your project and run it.  If that succeeds, great! But if not, continue reading for some ideas on how get it to build successfully.
+To start the program, press the green arrow (**Start** button) on the main Visual Studio toolbar, or press **F5** or **Ctrl**+**F5** to run the program. When you use the **Start** button, it runs under the debugger.  Visual Studio attempts to build the code in your project and run it.  If that succeeds, great! But if not, continue reading for some ideas on how to get it to build successfully.
 
 ## Troubleshooting
 
@@ -80,7 +78,7 @@ Your code might have errors, but if the code is correct, but just depends on som
 
 To build properly, the code must be correct and have the right references set up to libraries or other dependencies. You can look at the red squiggly lines and at the **Error List** to see if the program has any errors, even before you compile and run it. If you are seeing errors related to unresolved names, you probably need to add a reference or a using directive, or both. If the code references any assemblies or NuGet packages, you need to add those references in the project.
 
-Visual Studio tries to help you identify missing references. If it finds an unresolved name, it shows a light bulb icon in the editor. If you expand this, you can see some suggestions on how to fix the issue. Possible fixes might be to:
+Visual Studio tries to help you identify missing references. If it finds an unresolved name, it shows a light bulb icon in the editor. If you click the light bulb, you can see some suggestions on how to fix the issue. Fixes might be to:
 
 - add a using directive
 - add a reference to an assembly
@@ -90,7 +88,7 @@ Visual Studio tries to help you identify missing references. If it finds an unre
 
 For example, in the following screen, you can choose to add `using System;` to the start of the code file to resolve the unresolved name `Console`:
 
-![Screenshot of light bulb help to add a using directive](media/name-does-not-exist2.png)
+![Screenshot of light bulb to add a using directive](media/name-does-not-exist2.png)
 
 #### Missing assembly reference
 
@@ -104,13 +102,13 @@ You can find assemblies and add references by following the instructions in [Add
 
 If Visual Studio detects a missing NuGet package, a light bulb appears and gives you the option to install it:
 
-![Screenshot of light bulb help to install package](media/lightbulb-add-package.png)
+![Screenshot of light bulb to install package](media/lightbulb-add-package.png)
 
 If that doesn't solve the issue and Visual Studio can't locate the package, try searching for it online. See [Install and use a NuGet package in Visual Studio](/nuget/quickstart/install-and-use-a-package-in-visual-studio).
 
 ## Use the right version of .NET
 
-If there is any information available on the version that the author or publisher of the code was using, you can change the target framework to match that. You might need to install a specific version of the .NET Framework or .NET Core, if it's not already installed. See [Modify Visual Studio](../../install/modify-visual-studio.md).
+Because different versions of the .NET Framework have some degree of backward compatibility, a newer framework might run code written for an older framework without any modifications. But, sometimes you need to target a specific framework. You might need to install a specific version of the .NET Framework or .NET Core, if it's not already installed. See [Modify Visual Studio](../../install/modify-visual-studio.md).
 
 To change the target framework, see [Change the target framework](../../ide/visual-studio-multi-targeting-overview.md#change-the-target-framework.md). For more information, see [Troubleshooting .NET Framework targeting errors](../../msbuild/troubleshooting-dotnet-framework-targeting-errors.md).
 
