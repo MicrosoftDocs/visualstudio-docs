@@ -58,7 +58,7 @@ For a second file, right-click on the project node in **Solution Explorer** to o
 
 ### Starting from a folder
 
-When you are working with a folder of many files, first see if there's a project or solution.  If the program was created with Visual Studio, you should find a project file or a solution file. Look for files with the *.csproj* extension or .sln extension and in the Windows File Explorer, double-click on one of them to open them in Visual Studio. See [Starting from a Visual Studio solution or project](#starting-from-a-project).
+When you're working with a folder of many files, first see if there's a project or solution.  If the program was created with Visual Studio, you should find a project file or a solution file. Look for files with the *.csproj* extension or .sln extension and in the Windows File Explorer, double-click on one of them to open them in Visual Studio. See [Starting from a Visual Studio solution or project](#starting-from-a-project).
 
 If you don't have a project file, such as if the code was developed in another development environment, then open the top-level folder by using the **Open folder** method in Visual Studio. See [Develop code without projects or solutions](../../ide/develop-code-in-visual-studio-without-projects-or-solutions.md).
 
@@ -76,12 +76,12 @@ Your code might have errors, but if the code is correct, but just depends on som
 
 ### Add references
 
-To build properly, the code must be correct and have the right references set up to libraries or other dependencies. You can look at the red squiggly lines and at the **Error List** to see if the program has any errors, even before you compile and run it. If you are seeing errors related to unresolved names, you probably need to add a reference or a using directive, or both. If the code references any assemblies or NuGet packages, you need to add those references in the project.
+To build properly, the code must be correct and have the right references set up to libraries or other dependencies. You can look at the red squiggly lines and at the **Error List** to see if the program has any errors, even before you compile and run it. If you're seeing errors related to unresolved names, you probably need to add a reference or a using directive, or both. If the code references any assemblies or NuGet packages, you need to add those references in the project.
 
-Visual Studio tries to help you identify missing references. If it finds an unresolved name, it shows a light bulb icon in the editor. If you click the light bulb, you can see some suggestions on how to fix the issue. Fixes might be to:
+Visual Studio tries to help you identify missing references. When a name is unresolved, a light bulb icon appears in the editor. When you click the light bulb, you can see some suggestions on how to fix the issue. Fixes might be to:
 
 - add a using directive
-- add a reference to an assembly
+- add a reference to an assembly, or
 - install a NuGet package.
 
 #### Missing using directive
