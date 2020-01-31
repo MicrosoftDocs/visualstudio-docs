@@ -110,7 +110,7 @@ If that doesn't solve the issue and Visual Studio can't locate the package, try 
 
 Because different versions of the .NET Framework have some degree of backward compatibility, a newer framework might run code written for an older framework without any modifications. But, sometimes you need to target a specific framework. You might need to install a specific version of the .NET Framework or .NET Core, if it's not already installed. See [Modify Visual Studio](../../install/modify-visual-studio.md).
 
-To change the target framework, see [Change the target framework](../../ide/visual-studio-multi-targeting-overview.md#change-the-target-framework.md). For more information, see [Troubleshooting .NET Framework targeting errors](../../msbuild/troubleshooting-dotnet-framework-targeting-errors.md).
+To change the target framework, see [Change the target framework](../../ide/visual-studio-multi-targeting-overview.md#select-a-target-framework-version.md). For more information, see [Troubleshooting .NET Framework targeting errors](../../msbuild/troubleshooting-dotnet-framework-targeting-errors.md).
 
 ## Next steps
 
