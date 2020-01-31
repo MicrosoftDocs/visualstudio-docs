@@ -65,6 +65,8 @@ landingContent:
     linkLists:
       - linkListType: tutorial
         links:
+          - text: Run a program
+            url: run-program.md
           - text: Open code from a repo
             url: ../tutorial-open-project-from-repo.md
           - text: Write and edit code 
