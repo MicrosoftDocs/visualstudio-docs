@@ -78,7 +78,7 @@ Your code might have errors, but if the code is correct, but just depends on som
 
 To build properly, the code must be correct and have the right references set up to libraries or other dependencies. You can look at the red squiggly lines and at the **Error List** to see if the program has any errors, even before you compile and run it. If you're seeing errors related to unresolved names, you probably need to add a reference or a using directive, or both. If the code references any assemblies or NuGet packages, you need to add those references in the project.
 
-Visual Studio tries to help you identify missing references. When a name is unresolved, a light bulb icon appears in the editor. When you click the light bulb, you can see some suggestions on how to fix the issue. Fixes might be to:
+Visual Studio tries to help you identify missing references. When a name is unresolved, a light bulb icon appears in the editor. If you click the light bulb, you can see some suggestions on how to fix the issue. Fixes might be to:
 
 - add a using directive
 - add a reference to an assembly, or
