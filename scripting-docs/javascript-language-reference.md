@@ -1,6 +1,6 @@
 ---
 
-title: "JavaScript Language Reference"
+title: "JavaScript language reference"
 ms.date: 01/30/2020
 ms.topic: reference
 ms.devlang: javascript
