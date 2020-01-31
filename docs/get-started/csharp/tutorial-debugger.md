@@ -104,102 +104,26 @@ First, you'll create a .NET Core console application project. The project type c
 
     ```csharp
     using System;
-    // ...
-
-    namespace get_started_debugging
+    class ArrayExample
     {
-        class Program
+        static void Main()
         {
-            static void Main(string[] args)
+            char[] letters = { 'f', 'r', 'e', 'd', ' ', 's', 'm', 'i', 't', 'h'};
+            string name = "";
+            int[] a = new int[10];
+            for (int i = 0; i < letters.Length; i++)
             {
+                name += letters[i];
+                a[i] = i + 1;
+                SendMessage(name, a[i]);
             }
-        }
-    }
-    ```
-
-    with this code:
-
-    ```csharp
-    using System;
-    using System.Collections.Generic;
-
-    public class Shape
-    {
-        // A few example members
-        public int X { get; private set; }
-        public int Y { get; private set; }
-        public int Height { get; set; }
-        public int Width { get; set; }
-
-        // Virtual method
-        public virtual void Draw()
-        {
-            Console.WriteLine("Performing base class drawing tasks");
-        }
-    }
-
-    class Circle : Shape
-    {
-        public override void Draw()
-        {
-            // Code to draw a circle...
-            Console.WriteLine("Drawing a circle");
-            base.Draw();
-        }
-    }
-
-    class Rectangle : Shape
-    {
-        public override void Draw()
-        {
-            // Code to draw a rectangle...
-            Console.WriteLine("Drawing a rectangle");
-            base.Draw();
-        }
-    }
-
-    class Triangle : Shape
-    {
-        public override void Draw()
-        {
-            // Code to draw a triangle...
-            Console.WriteLine("Drawing a trangle");
-            base.Draw();
-        }
-    }
-
-    class Program
-    {
-        static void Main(string[] args)
-        {
-
-            var shapes = new List<Shape>
-            {
-                new Rectangle(),
-                new Triangle(),
-                new Circle()
-            };
-
-            foreach (var shape in shapes)
-            {
-                shape.Draw();
-            }
-
-            // Keep the console open in debug mode.
-            Console.WriteLine("Press any key to exit.");
             Console.ReadKey();
         }
-
+        static void SendMessage(string name, int msg)
+        {
+            Console.WriteLine("Hello, " + name + "! Count to " + msg);
+        }
     }
-
-    /* Output:
-        Drawing a rectangle
-        Performing base class drawing tasks
-        Drawing a triangle
-        Performing base class drawing tasks
-        Drawing a circle
-        Performing base class drawing tasks
-    */
     ```
 
 ## Start the debugger!
@@ -209,33 +133,37 @@ First, you'll create a .NET Core console application project. The project type c
      **F5** starts the app with the debugger attached to the app process, but right now we haven't done anything special to examine the code. So the app just loads and you see the console output.
 
     ```cmd
-    Drawing a rectangle
-    Performing base class drawing tasks
-    Drawing a triangle
-    Performing base class drawing tasks
-    Drawing a circle
-    Performing base class drawing tasks
+    Hello, f! Count to 1
+    Hello, fr! Count to 2
+    Hello, fre! Count to 3
+    Hello, fred! Count to 4
+    Hello, fred ! Count to 5
+    Hello, fred s! Count to 6
+    Hello, fred sm! Count to 7
+    Hello, fred smi! Count to 8
+    Hello, fred smit! Count to 9
+    Hello, fred smith! Count to 10
     ```
 
      In this tutorial, we'll take a closer look at this app using the debugger and get a look at the debugger features.
 
-2. Stop the debugger by pressing the red stop ![Stop Debugging](../../debugger/media/dbg-tour-stop-debugging.png "Stop Debugging") button.
+2. Stop the debugger by pressing the red stop ![Stop Debugging](../../debugger/media/dbg-tour-stop-debugging.png "Stop Debugging") button (**Shift** + **F5**).
 
-3. Close the console window.
+3. In the console window, press a key to close the console window.
 
 ## Set a breakpoint and start the debugger
 
-1. In the `foreach` loop of the `Main` function, set a breakpoint by clicking the left margin of the following line of code:
+1. In the `for` loop of the `Main` function, set a breakpoint by clicking the left margin of the following line of code:
 
-    `shape.Draw()`
+    `name += letters[i];`
 
     A red circle appears where you set the breakpoint.
 
-    Breakpoints are the most basic and essential feature of reliable debugging. A breakpoint indicates where Visual Studio should suspend your running code so you can take a look at the values of variables, or the behavior of memory, or whether or not a branch of code is getting run.
+    Breakpoints are one of the most basic and essential features of reliable debugging. A breakpoint indicates where Visual Studio should suspend your running code so you can take a look at the values of variables, or the behavior of memory, or whether or not a branch of code is getting run.
 
 2. Press **F5** or the **Start Debugging** button ![Start Debugging](../../debugger/media/dbg-tour-start-debugging.png "Start Debugging"), the app starts, and the debugger runs to the line of code where you set the breakpoint.
 
-    ![Set and hit a breakpoint](../csharp/media/get-started-set-breakpoint.gif)
+    ![Set and hit a breakpoint](../csharp/media/get-started-set-breakpoint.png)
 
     The yellow arrow represents the statement on which the debugger paused, which also suspends app execution at the same point (this statement has not yet executed).
 
@@ -247,17 +175,33 @@ First, you'll create a .NET Core console application project. The project type c
 
 Mostly, we use the keyboard shortcuts here, because it's a good way to get fast at executing your app in the debugger (equivalent commands such as menu commands are shown in parentheses).
 
-1. While paused in the `shape.Draw` method call in the `Main` method, press **F11** (or choose **Debug > Step Into**) to advance into code for the `Rectangle` class.
+1. While paused in the `for` loop in the `Main` method, press **F11** (or choose **Debug > Step Into**) twice to to advance to the `SendMessage` method call.
 
-     ![Use F11 to Step Into code](../csharp/media/get-started-f11.png "F11 Step Into")
+     After pressing **F11** twice, you should be at this line of code:
+
+     `SendMessage(name, a[i]);`
+
+2. Press **F11** one more time to step into the `SendMessage` method.
+
+     The yellow pointer advances into the `SendMessage` method.
+
+     ![Use F11 to Step Into code](../csharp/media/get-started-f11.png "F10 Step Into")
 
      F11 is the **Step Into** command and advances the app execution one statement at a time. F11 is a good way to examine the execution flow in the most detail. (To move faster through code, we show you some other options also.) By default, the debugger skips over non-user code (if you want more details, see [Just My Code](../../debugger/just-my-code.md)).
 
-2. Press **F10** (or choose **Debug > Step Over**) a few times until the debugger stops on the `base.Draw` method call, and then press **F10** one more time.
+     Let's say that you are done examining the `SendMessage` method, and you want to get out of the method but stay in the debugger. You can do this using the **Step Out** command.
+
+1. Press **Shift** + **F11** (or **Debug > Step Out**).
+
+     This command resumes app execution (and advances the debugger) until the current method or function returns.
+
+     You should be back in the `for` loop in the `Main` method, paused at the `SendMessage` method call.
+
+3. While paused at the method call, press **F10** (or choose **Debug > Step Over**) once.
 
      ![Use F10 to Step Over code](../csharp/media/get-started-step-over.png "F10 Step Over")
 
-     Notice this time that the debugger does not step into the `Draw` method of the base class (`Shape`). **F10** advances the debugger without stepping into functions or methods in your app code (the code still executes). By pressing **F10** on the `base.Draw` method call (instead of **F11**), we skipped over the implementation code for `base.Draw` (which maybe we're not interested in right now).
+     Notice this time that the debugger does not step into the `SendMessage` method. **F10** advances the debugger without stepping into functions or methods in your app code (the code still executes). By pressing **F10** on the `SendMessage` method call (instead of **F11**), we skipped over the implementation code for `SendMessage` (which maybe we're not interested in right now).
 
 ## Navigate code using Run to Click
 
@@ -286,18 +230,6 @@ Mostly, we use the keyboard shortcuts here, because it's a good way to get fast 
 
     > [!NOTE]
     > Depending on what type of code you edit in the debugger, you may see a warning message. In some scenarios, the code will need to recompile before you can continue.
-
-## Step out
-
-Let's say that you are done examining the `Draw` method in the `Triangle` class, and you want to get out of the function but stay in the debugger. You can do this using the **Step Out** command.
-
-1. Press **Shift** + **F11** (or **Debug > Step Out**).
-
-     This command resumes app execution (and advances the debugger) until the current function returns.
-
-     You should be back in the `foreach` loop in the `Main` method. If not, press **Shift** + **F11** a second time.
-
-1. Click in the left margin to add a new breakpoint in the `for` loop.
 
 ## Restart your app quickly
 
