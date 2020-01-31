@@ -3,14 +3,14 @@ title: Find calls to a method
 ms.date: 05/18/2018
 ms.topic: reference
 f1_keywords:
-  - "VS.CallHierarchy"
+- VS.CallHierarchy
 helpviewer_keywords:
-  - "Call Hierarchy"
-author: gewarren
-ms.author: gewarren
+- Call Hierarchy
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # View call hierarchy
 

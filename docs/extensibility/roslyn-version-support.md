@@ -3,12 +3,12 @@ title: Supported Roslyn package version mappings
 ms.date: 04/29/2019
 ms.topic: reference
 helpviewer_keywords:
-  - "roslyn package versions"
-author: gewarren
-ms.author: gewarren
+- roslyn package versions
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # .NET compiler platform package version reference
 

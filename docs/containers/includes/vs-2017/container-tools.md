@@ -24,12 +24,14 @@ For Docker installation, first review the information at [Docker Desktop for Win
 
 1. From the Visual Studio menu, select **File > New > Project**.
 1. Under the **Templates** section of the **New Project** dialog box, select **Visual C# > Web**.
-1. Select **ASP.NET Core Web Application**.
+1. Select **ASP.NET Core Web Application** or if you want to use the .NET Framework instead of .NET Core, select **ASP.NET Web Application**.
 1. Give your new application a name (or take the default) and select **OK**.
 1. Select **Web Application**.
 1. Check the **Enable Docker Support** checkbox.
 
    ![Enable Docker Support check box](../../media/container-tools/enable-docker-support.PNG)
+
+   The screenshot shows .NET Core; if you're using .NET Framework, it looks a bit different.
 
 1. Select the type of container you want (Windows or Linux) and click **OK**.
 
@@ -60,7 +62,7 @@ COPY --from=publish /app .
 ENTRYPOINT ["dotnet", "HelloDockerTools.dll"]
 ```
 
-The preceding *Dockerfile* is based on the [microsoft/aspnetcore](https://hub.docker.com/r/microsoft/aspnetcore/) image, and includes instructions for modifying the base image by building your project and adding it to the container.
+The preceding *Dockerfile* is based on the [microsoft/aspnetcore](https://hub.docker.com/r/microsoft/aspnetcore/) image, and includes instructions for modifying the base image by building your project and adding it to the container. If you're using the .NET Framework, the base image will be different.
 
 When the new project dialog's **Configure for HTTPS** check box is checked, the *Dockerfile* exposes two ports. One port is used for HTTP traffic; the other port is used for HTTPS. If the check box isn't checked, a single port (80) is exposed for HTTP traffic.
 
@@ -105,7 +107,7 @@ Once the develop and debug cycle of the app is completed, you can create a produ
     | **DNS Prefix** | Globally unique name | Name that uniquely identifies your container registry. |
     | **Subscription** | Choose your subscription | The Azure subscription to use. |
     | **[Resource Group](/azure/azure-resource-manager/resource-group-overview)** | myResourceGroup |  Name of the resource group in which to create your container registry. Choose **New** to create a new resource group.|
-    | **[SKU](https://docs.microsoft.com/azure/container-registry/container-registry-skus)** | Standard | Service tier of the container registry  |
+    | **[SKU](/azure/container-registry/container-registry-skus)** | Standard | Service tier of the container registry  |
     | **Registry Location** | A location close to you | Choose a Location in a [region](https://azure.microsoft.com/regions/) near you or near other services that will use your container registry. |
 
     ![Visual Studio's create Azure Container Registry dialog][0]

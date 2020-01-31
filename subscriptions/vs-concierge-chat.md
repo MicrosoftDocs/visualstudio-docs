@@ -3,7 +3,7 @@ title: Concierge Chat benefit in Visual Studio Subscription | Microsoft Docs
 author: evanwindom
 ms.author: lank
 manager: lank
-ms.date: 07/29/2019
+ms.date: 11/13/2019
 ms.topic: conceptual
 description:  Learn about the Concierge Chat benefit included in Visual Studio subscriptions.
 
@@ -34,7 +34,9 @@ Getting help via the Concierge Chat service is very easy.
 | Subscription Level                                                 |     Channels                                            | Benefit                                                          | Renewable?    |
 |--------------------------------------------------------------------|---------------------------------------------------------|------------------------------------------------------------------|---------------|
 | Visual Studio Enterprise (Standard)   | VL, Azure, Retail,  selected NFR<sup>1</sup> | Available       |  Yes          |
+| Visual Studio Enterprise with GitHub Enterprise | VL| Available       |  Yes          |
 | Visual Studio Professional (Standard) | VL, Azure, Retail                                       | Available                                                            |  Yes          |
+| Visual Studio Professional with GitHub Enterprise | VL | Available                                                            |  Yes          |
 | Visual Studio Test Professional (Standard)                         | VL, Retail                                              | Available                                             |  Yes          |
 | MSDN Platforms (Standard)                                          | VL, Retail                                              | Available                                              |  Yes          |
 | Visual Studio Enterprise, Visual Studio Professional (monthly cloud) | Azure | Not available | N/A |
@@ -59,3 +61,5 @@ For more information about Microsoft tools and services, check out the documenta
 - [Azure](/azure/)
 - [Azure DevOps](/azure/devops/)
 - [Visual Studio IDE](/visualstudio/)
+
+If you haven't already activated the Azure DevTest individual credit benefit that comes with your subscription, visit [https://my.visualstudio.com/benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs) and click on the Azure tile in the Tools category to set up your Azure subscription and redeem your Azure DevTest individual credit.

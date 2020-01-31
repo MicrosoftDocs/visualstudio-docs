@@ -3,14 +3,14 @@ title: Specifying Virtual Network Types in a Load Test Scenario
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "load tests, scenarios"
-  - "load tests, adding networks"
-  - "load tests, removing networks"
-  - "load tests, virtual networks"
-  - "network mix"
+- load tests, scenarios
+- load tests, adding networks
+- load tests, removing networks
+- load tests, virtual networks
+- network mix
 ms.assetid: 3c4f7874-081a-4ec4-9510-4d6d7d863a11
-author: gewarren
-ms.author: gewarren
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ---
 # Specify virtual network types in a load test scenario

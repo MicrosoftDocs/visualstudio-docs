@@ -178,6 +178,8 @@ IntelliSense is a Visual Studio tool that assists you as you write code.
 
     ![Use IntelliSense](../javascript/media/tutorial-nodejs-intellisense.png)
 
+1. Add the parentheses to make it a function call, `getData()`.
+
 1. Remove the comma (`,`) before `"data"` and you see green syntax highlighting on the expression. Hover over the syntax highlighting.
 
     ![View syntax error](../javascript/media/tutorial-nodejs-syntax-checking.png)

@@ -1,14 +1,14 @@
 ---
-title: "Attribute glossary | Microsoft IntelliTest Developer Test Tool"
+title: Attribute glossary | Microsoft IntelliTest Developer Test Tool
 ms.date: 05/02/2017
 ms.topic: reference
 helpviewer_keywords:
-  - "IntelliTest, Attribute glossary"
-ms.author: gewarren
+- IntelliTest, Attribute glossary
+ms.author: mikejo
 manager: jillfra
 ms.workload:
-  - "multiple"
-author: gewarren
+- multiple
+author: mikejo5000
 ---
 # Attribute glossary
 

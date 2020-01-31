@@ -68,9 +68,9 @@ Describes a linker option that adds <xref:System.Diagnostics.DebuggableAttribute
 Provides considerations for debugging Windows service applications, including setting up, attaching to the process, debugging the code in the service's `OnStart` method and the code in the Main method, setting breakpoints, and using the Services Control Manager to start, stop, pause, and continue your service.
 
 [Debugging and Profiling](/dotnet/framework/debug-trace-profile/index)\
-Discusses debugging .NET Framework applications and the configuration requirements.
+Discusses debugging .NET applications and the configuration requirements.
 
-[Debugging Script and Web Applications](/visualstudio/debugger/how-to-enable-debugging-for-aspnet-applications)\
+[Debugging Script and Web Applications](how-to-enable-debugging-for-aspnet-applications.md)\
 Describes common debugging problems and techniques you may encounter when debugging script and Web applications.
 
 ## See also

@@ -98,7 +98,7 @@ This example walks you through Just-In-Time debugging when an app throws an erro
 
 For this example, you'll make a C# console app in Visual Studio that throws a [NullReferenceException](/dotnet/api/system.nullreferenceexception).
 
-1. In Visual Studio, create a C# console app (**File** > **New** > **Project** > **Visual C#** > **Console Application**) named *ThrowsNullException*. For more information about creating projects in Visual Studio, see [Walkthrough: Create a simple application](/visualstudio/get-started/csharp/tutorial-wpf).
+1. In Visual Studio, create a C# console app (**File** > **New** > **Project** > **Visual C#** > **Console Application**) named *ThrowsNullException*. For more information about creating projects in Visual Studio, see [Walkthrough: Create a simple application](../get-started/csharp/tutorial-wpf.md).
 
 1. When the project opens in Visual Studio, open the *Program.cs* file. Replace the Main() method with the following code, which prints a line to the console and then throws a NullReferenceException:
 
@@ -153,7 +153,7 @@ If Just-In-Time debugging doesn't start when an app crashes, even though it is e
 
   - (For 64-bit machines): **HKEY_LOCAL_MACHINE\Software\WOW6432Node\Microsoft\Windows\Windows Error Reporting**
 
-  For more information, see [.WER settings](https://docs.microsoft.com/windows/desktop/wer/wer-settings).
+  For more information, see [.WER settings](/windows/desktop/wer/wer-settings).
 
 - A known Windows issue may be causing the Just-In-Time debugger to fail.
 

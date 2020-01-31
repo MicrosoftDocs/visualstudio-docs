@@ -51,5 +51,5 @@ HRESULT GetLanguageFlags(
   
  If your application manages event handlers, it should call `CreateChildHandler` from an `IScriptNode` object that represents an event handler scriptlet. This creates an `IScriptScriptlet` object that is associated with the event handler scriptlet. The application also has to add an empty function as an event handler to a new or existing `IScriptEntry` object.  
   
-## See Also  
+## See also  
  [IActiveScriptAuthor Interface](../../winscript/reference/iactivescriptauthor-interface.md)

@@ -36,7 +36,7 @@ mary.brother = john;
 var error = JSON.stringify(john);  
 ```  
   
-## See Also  
+## See also  
  [JSON Object](../../javascript/reference/json-object-javascript.md)   
  [JSON.parse Function](../../javascript/reference/json-parse-function-javascript.md)   
  [JavaScript Run-time Errors](../../javascript/reference/javascript-run-time-errors.md)

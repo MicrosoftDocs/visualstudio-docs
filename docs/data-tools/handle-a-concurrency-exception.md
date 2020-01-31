@@ -3,21 +3,21 @@ title: Handle a concurrency exception
 ms.date: 09/11/2017
 ms.topic: conceptual
 dev_langs:
-  - "VB"
-  - "CSharp"
+- VB
+- CSharp
 helpviewer_keywords:
-  - "concurrency control, exceptions"
-  - "datasets [Visual Basic], errors"
-  - "exception handling, concurrency issues"
-  - "data concurrency, walkthroughs"
-  - "updating datasets, errors"
-  - "concurrency control, walkthroughs"
+- concurrency control, exceptions
+- datasets [Visual Basic], errors
+- exception handling, concurrency issues
+- data concurrency, walkthroughs
+- updating datasets, errors
+- concurrency control, walkthroughs
 ms.assetid: 73ee9759-0a90-48a9-bf7b-9d6fc17bff93
-author: gewarren
-ms.author: gewarren
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "data-storage"
+- data-storage
 ---
 # Handle a concurrency exception
 

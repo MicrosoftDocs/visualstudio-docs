@@ -3,12 +3,12 @@ title: Develop tests from a model
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "tests and requirements"
-author: gewarren
-ms.author: gewarren
+- tests and requirements
+author: JoshuaPartlow
+ms.author: joshuapa
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Develop tests from a model
 You can use requirements and architectural models to help you organize the tests of your system and its components. This practice helps ensure that you test the requirements that are important to the users and other stakeholders, and it helps you update the tests quickly when the requirements change. If you use [!INCLUDE[TCMext](../misc/includes/tcmext_md.md)], you can also maintain links between the models and the tests.
@@ -149,7 +149,7 @@ Assert (countAfter == countBefore = 1);
 
 3. Add to the test suite, test cases that verify the requirement expressed in the model element.
 
-## See Also
+## See also
 
 - [Create models for your app](../modeling/create-models-for-your-app.md)
 - [Model user requirements](../modeling/model-user-requirements.md)

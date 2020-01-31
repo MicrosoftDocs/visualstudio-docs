@@ -54,7 +54,7 @@ SAL is the Microsoft source code annotation language. By using source code annot
      Provides examples that show how to use SAL annotations. Also explains common pitfalls.  
   
 ## Related Resources  
- [Code Analysis Team Blog](http://go.microsoft.com/fwlink/?LinkId=251197)  
+ [Code Analysis Team Blog](https://blogs.msdn.com/b/codeanalysis/)  
   
 ## See Also  
- [SAL 2.0 Annotations for Windows Drivers](http://go.microsoft.com/fwlink/?LinkId=250979)
+ [SAL 2.0 Annotations for Windows Drivers](https://msdn.microsoft.com/library/windows/hardware/hh454237.aspx)

@@ -43,5 +43,5 @@ HRESULT OnSetName(
 ## Remarks  
  This method handles a set name event.  
   
-## See Also  
+## See also  
  [IRemoteDebugApplicationEvents Interface](../../winscript/reference/iremotedebugapplicationevents-interface.md)

@@ -1,9 +1,9 @@
 ---
 title: XAML overview
-ms.date: 07/31/2019
+ms.date: 01/10/2020
 ms.topic: reference
-author: gewarren
-ms.author: gewarren
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ---
 # Overview of XAML
@@ -24,9 +24,13 @@ XAML is also used to define workflows in [Windows WorkFlow Foundation (WF) apps]
 
 ## XAML Designer
 
-Visual Studio and Blend for Visual Studio provide a XAML Designer that helps you build user interfaces (UI) for WPF, UWP, and Xamarin.Forms apps. You can drag controls from the Toolbox or Assets window and set properties in the Properties window. When you perform these actions, Visual Studio and Blend for Visual Studio create the corresponding XAML code. If you prefer to edit the XAML code directly, you can do that too.
+Visual Studio and Blend for Visual Studio provide a XAML Designer that helps you build user interfaces (UI) for WPF, UWP, and Xamarin.Forms apps. You can drag controls from the Toolbox or Assets window and set properties in the Properties window. When you do so, Visual Studio and Blend for Visual Studio create the corresponding XAML code. If you prefer to edit the XAML code directly, you can do that too.
 
 The articles in this documentation set discuss the XAML Designer in Visual Studio and Blend for Visual Studio.
+
+## What's new
+
+For the latest information, see the [What’s new in XAML developer tools in Visual Studio 2019](https://devblogs.microsoft.com/visualstudio/whats-new-in-xaml-developer-tools-in-visual-studio-2019-for-wpf-uwp/) blog post and the [New XAML features in Visual Studio](https://youtu.be/yI9OyA4ZM2E) video on YouTube.
 
 ## See also
 

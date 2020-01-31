@@ -27,9 +27,12 @@ _Watch this video and follow along to create your first ASP.NET Core app._
 
 ## Start Visual Studio 2019 and create a new project
 
-Start Visual Studio 2019 and click **Create new project**. Choose **ASP.NET Core Web Application**. Choose the **Web Application** template and keep the default project name and location. Click **Create**. For more detailed instructions, refer to [the previous video in this tutorial series](tutorial-aspnet-core-ef-step-01.md).
+Start Visual Studio 2019 and click **Create new project**. Choose **ASP.NET Core Web Application**. Choose the **Web Application** template and keep the default project name and location. In the dropdown with the ASP.NET Core version, choose **ASP.NET Core 2.1** or **ASP.NET Core 2.2**. Click **Create**. For more detailed instructions, refer to [the previous video in this tutorial series](tutorial-aspnet-core-ef-step-01.md).
 
 ![Visual Studio 2019 Choose ASP.NET Core Project Options](media/vs-2019/vs2019-choose-aspnetcore-project.png)
+
+> [!WARNING]
+> Make sure you choose ASP .NET Core 2.1 or ASP.NET Core 2.2. This tutorial is not compatible with ASP.NET Core 3.x.
 
 ## Explore the new project
 

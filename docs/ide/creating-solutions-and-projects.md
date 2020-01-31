@@ -3,17 +3,17 @@ title: Create solutions and projects
 ms.date: 02/06/2018
 ms.topic: conceptual
 f1_keywords:
-  - "vs.openprojectfromweb"
-  - "VS.ToolsOptionsPages.Projects.General"
-  - "SolutionItemsProject"
+- vs.openprojectfromweb
+- VS.ToolsOptionsPages.Projects.General
+- SolutionItemsProject
 helpviewer_keywords:
-  - "solutions [Visual Studio], creating"
-  - "projects [Visual Studio], creating"
-author: gewarren
-ms.author: gewarren
+- solutions [Visual Studio], creating
+- projects [Visual Studio], creating
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Create solutions and projects
 
@@ -47,7 +47,7 @@ If you have a collection of code source files, you can easily add them to a proj
 1. In the wizard, browse to the location of the files and then enter a name for the new project in the **Name** box. When you are done, choose the **Finish** button.
 
 > [!NOTE]
-> This option works best for a relatively simple collection of files. Currently, only Visual C++, Apache Cordova, Visual Basic, and C# project types are supported.
+> This option works best for a relatively simple collection of files. Currently, only C++, Apache Cordova, Visual Basic, and C# project types are supported.
 
 ## Add files to a solution
 

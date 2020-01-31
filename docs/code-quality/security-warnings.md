@@ -3,18 +3,18 @@ title: Security Warnings
 ms.date: 10/02/2019
 ms.topic: reference
 f1_keywords:
-  - "vs.codeanalysis.securityrules"
+- vs.codeanalysis.securityrules
 helpviewer_keywords:
-  - "security [Visual Studio ALM], Enterprise Templates"
-  - "security warnings"
-  - "managed code analysis warnings, security warnings"
-  - "warnings, security"
+- security [Visual Studio ALM], Enterprise Templates
+- security warnings
+- managed code analysis warnings, security warnings
+- warnings, security
 ms.assetid: 60d4e8ea-230a-494f-aa6a-b91db77540e4
-author: gewarren
-ms.author: gewarren
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Security warnings
 

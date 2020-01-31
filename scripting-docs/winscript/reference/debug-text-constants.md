@@ -32,5 +32,5 @@ typedef DWORD DEBUG_TEXT;
 |DEBUG_TEXT_ALLOWERRORREPORT|0x00000010|Allow error reports during the evaluation of the text. If this flag is not set, then errors will not be reported to the host during the evaluation.|  
 |DEBUG_TEXT_EVALUATETOCODECONTEXT|0x00000020|Indicates that the expression is to be evaluated to a code context rather than running the expression itself.|  
   
-## See Also  
+## See also  
  [Active Script Debugger Constants, Enumerations, and Structures](../../winscript/reference/active-script-debugger-constants-enumerations-and-structures.md)

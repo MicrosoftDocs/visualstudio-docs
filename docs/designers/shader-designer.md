@@ -3,14 +3,14 @@ title: Shader Designer
 ms.date: 09/21/2018
 ms.topic: conceptual
 f1_keywords:
-  - "vs.graphics.designer.effectdesigner"
-  - "vs.graphics.shaderdesigner"
+- vs.graphics.designer.effectdesigner
+- vs.graphics.shaderdesigner
 ms.assetid: 5db09a16-b82c-4ba3-8ec9-630cdc109397
-author: gewarren
-ms.author: gewarren
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Shader Designer
 

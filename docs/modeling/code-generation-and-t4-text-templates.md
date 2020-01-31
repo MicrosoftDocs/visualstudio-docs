@@ -3,18 +3,18 @@ title: Code Generation and T4 Text Templates
 ms.date: 11/04/2016
 ms.topic: conceptual
 f1_keywords:
-  - "VS.ToolsOptionsPages.TextTemplating.TextTemplating"
+- VS.ToolsOptionsPages.TextTemplating.TextTemplating
 helpviewer_keywords:
-  - "generating text"
-  - ".tt files"
-  - "code generation"
-  - "text templates"
-  - "generating code"
-author: gewarren
-ms.author: gewarren
+- generating text
+- .tt files
+- code generation
+- text templates
+- generating code
+author: JoshuaPartlow
+ms.author: joshuapa
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Code Generation and T4 Text Templates
 
@@ -88,6 +88,6 @@ For more information, see [Design-Time Code Generation by using T4 Text Template
 
 The text template transformation feature is named *T4*.
 
-## See Also
+## See also
 
 - [Generate Code from a Domain-Specific Language](../modeling/generating-code-from-a-domain-specific-language.md)

@@ -11,8 +11,8 @@ f1_keywords:
   - "VS.DocumentOutline"
 ms.assetid: c54969a7-d75a-4a35-9b37-af7a596a7c24
 caps.latest.revision: 31
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # Creating a UI by using XAML Designer in Visual Studio
@@ -153,7 +153,7 @@ The XAML Designer in Visual Studio provides a visual interface to help you desig
 
  ![Properties window](../designers/media/xaml-editor-prop-window.png "xaml_editor_prop_window")
 
- There are various options at the top of the Properties window. You can change the name of the currently selected element by using the **Name** box. In the upper-left corner, there's an icon that represents the currently selected element. To arrange the properties by category or alphabetically, click **Category**, **Name**, or **Source** in the **Arrange by** list. To see the list of events for a control, click the **Events** button, which displays a lightning bolt symbol. To search for a property, start to type the name of the property in the **Search Properties** box. The Properties window displays the properties that match your search as you type. Some properties allow you to set advanced properties by selecting a down arrow button. For more info on using properties and handling events, see [Quickstart: adding controls and handling events](http://go.microsoft.com/fwlink/?LinkID=247983)
+ There are various options at the top of the Properties window. You can change the name of the currently selected element by using the **Name** box. In the upper-left corner, there's an icon that represents the currently selected element. To arrange the properties by category or alphabetically, click **Category**, **Name**, or **Source** in the **Arrange by** list. To see the list of events for a control, click the **Events** button, which displays a lightning bolt symbol. To search for a property, start to type the name of the property in the **Search Properties** box. The Properties window displays the properties that match your search as you type. Some properties allow you to set advanced properties by selecting a down arrow button. For more info on using properties and handling events, see [Quickstart: adding controls and handling events](https://msdn.microsoft.com/library/windows/apps/xaml/hh465336.aspx)
 
  To the right of each property value is a *property marker* that appears as a box symbol. The appearance of the property marker indicates whether there's a data binding or a resource applied to the property. For example, a white box symbol indicates a default value, a black box symbol typically indicates that a local resource has been applied, and an orange box typically indicates a data binding has been applied. When you click the property marker, you can navigate to the definition of a style, open the data binding builder, or open the resource picker.
 

@@ -3,12 +3,12 @@ title: Unit testing fundamentals
 ms.date: 08/07/2019
 ms.topic: conceptual
 f1_keywords:
-  - "vs.UnitTest.CreateUnitTest"
-author: gewarren
-ms.author: gewarren
+- vs.UnitTest.CreateUnitTest
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Unit test basics
 
@@ -85,13 +85,16 @@ It is often quicker to generate the unit test project and unit test stubs from y
 
    ::: moniker range="vs-2017"
    ![From the editor window, view the context menu](../test/media/createunittestsrightclick.png)
-   ::: moniker-end
-   ::: moniker range=">=vs-2019"
-   ![From the editor window, view the context menu](../test/media/vs-2019/basics-create-unit-tests.png)
-   ::: moniker-end
 
    > [!NOTE]
    > The **Create Unit Tests** menu command is only available for managed code that targets the .NET Framework (but not .NET Core).
+   ::: moniker-end
+   ::: moniker range=">=vs-2019"
+   ![From the editor window, view the context menu](../test/media/vs-2019/basics-create-unit-tests.png)
+
+   > [!NOTE]
+   > The **Create Unit Tests** menu command is only available for managed code.
+   ::: moniker-end
 
 2. Click **OK** to accept the defaults to create your unit tests, or change the values used to create and name the unit test project and the unit tests. You can select the code that is added by default to the unit test methods.
 

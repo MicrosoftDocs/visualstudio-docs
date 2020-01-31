@@ -4,12 +4,12 @@ description: Most popular refactorings in Visual Studio with descriptions and ex
 ms.date: 01/10/2018
 ms.topic: conceptual
 helpviewer_keywords:
- - refactoring [Visual Studio]
-author: gewarren
-ms.author: gewarren
+- refactoring [Visual Studio]
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Refactor code
 

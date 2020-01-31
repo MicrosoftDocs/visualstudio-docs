@@ -1,18 +1,18 @@
 ---
-title: "How to: Build the Same Source Files with Different Options | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: 'How to: Build the Same Source Files with Different Options | Microsoft Docs'
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "source files, building with different options"
-  - "MSBuild, properties"
-  - "project properties, modifying"
-  - "Hello World example [Visual Studio]"
+- source files, building with different options
+- MSBuild, properties
+- project properties, modifying
+- Hello World example [Visual Studio]
 ms.assetid: d14f1212-ddd9-434f-b138-f840011b0fb2
-author: mikejo5000
-ms.author: mikejo
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # How to: Build the same source files with different options
 When you build projects, you frequently compile the same components with different build options. For example, you can create a debug build with symbol information or a release build with no symbol information but with optimizations enabled. Or you can build a project to run on a specific platform, such as x86 or [!INCLUDE[vcprx64](../extensibility/internals/includes/vcprx64_md.md)]. In all these cases, most of the build options stay the same; only a few options are changed to control the build configuration. With [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)], you use properties and conditions to create the different build configurations.

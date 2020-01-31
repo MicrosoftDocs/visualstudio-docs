@@ -3,8 +3,8 @@ title: "Workflow Designer - Runtime Activity Designers"
 ms.date: 11/04/2016
 ms.topic: reference
 ms.assetid: be18aa36-7909-4dd6-a786-b46959675a58
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"
@@ -29,4 +29,4 @@ Runtime activity designers are used to persist and terminate workflow activities
 
 ## See also
 
-- [Using the Activity Designers](../workflow-designer/using-the-activity-designers.md)
+- [Using the Activity Designers](control-flow-activity-designers.md)

@@ -3,16 +3,16 @@ title: Set control to create when dragging from Data Sources window
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "Data Sources Window, select controls"
-  - "Windows Forms, displaying data"
-  - "data [Visual Studio], displaying on Windows Forms"
-  - "data [Visual Studio], Data Sources window"
+- Data Sources Window, select controls
+- Windows Forms, displaying data
+- data [Visual Studio], displaying on Windows Forms
+- data [Visual Studio], Data Sources window
 ms.assetid: 20597ff8-0c98-43ec-8fb1-05376804ba48
-author: gewarren
-ms.author: gewarren
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "data-storage"
+- data-storage
 ---
 # Set the control to be created when dragging from the Data Sources window
 

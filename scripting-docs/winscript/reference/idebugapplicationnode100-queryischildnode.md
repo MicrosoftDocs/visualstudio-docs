@@ -30,5 +30,5 @@ HRESULT QueryIsChildNode(        [in] IDebugDocument* pSearchKey        );
  `pSearchKey`  
  The search key.  
   
-## See Also  
+## See also  
  [IDebugApplicationNode100 Interface](../../winscript/reference/idebugapplicationnode100-interface.md)

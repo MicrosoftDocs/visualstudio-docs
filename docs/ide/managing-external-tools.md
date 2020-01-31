@@ -3,14 +3,14 @@ title: Manage external tools
 ms.date: 11/20/2017
 ms.topic: conceptual
 f1_keywords:
-  - "vs.externaltools"
+- vs.externaltools
 helpviewer_keywords:
-  - "external tools [Visual Studio]"
-author: gewarren
-ms.author: gewarren
+- external tools [Visual Studio]
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Manage external tools
 

@@ -3,16 +3,16 @@ title: .NET language conventions for EditorConfig
 ms.date: 09/23/2019
 ms.topic: reference
 dev_langs:
-  - "CSharp"
-  - "VB"
+- CSharp
+- VB
 helpviewer_keywords:
-  - "language code style rules [EditorConfig]"
-author: gewarren
-ms.author: gewarren
+- language code style rules [EditorConfig]
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "dotnet"
-  - "dotnetcore"
+- dotnet
+- dotnetcore
 ---
 # Language conventions
 
@@ -1552,7 +1552,7 @@ csharp_prefer_braces = true:silent
 | **Rule name** | csharp_prefer_braces |
 | **Rule ID** | IDE0011 |
 | **Applicable languages** | C# |
-| **Values** | `true` - Prefer curly braces even for one line of code<br /><br />`false` - Prefer no curly braces if allowed |
+| **Values** | `true` - Prefer curly braces even for one line of code<br /><br />`false` - Prefer no curly braces if allowed<br /><br />`when_multiline` - Prefer curly braces on multiple lines |
 | **Visual Studio default** | `true:silent` |
 
 Code examples:

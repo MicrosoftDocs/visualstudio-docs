@@ -1,17 +1,17 @@
 ---
-title: "How to: Customize the Code Analysis Dictionary"
+title: 'How to: Customize the Code Analysis Dictionary'
 ms.date: 11/04/2016
-ms.topic: "conceptual"
+ms.topic: conceptual
 helpviewer_keywords:
-  - "code analysis dictionary"
-  - "custom dictionary, code analysis"
-  - "dictionary, code analysis"
+- code analysis dictionary
+- custom dictionary, code analysis
+- dictionary, code analysis
 ms.assetid: 667e3b4e-beff-48be-b3d1-376e1716a895
-author: gewarren
-ms.author: gewarren
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # How to: Customize the Code Analysis Dictionary
 
@@ -89,17 +89,17 @@ To include a term in the list of terms that code analysis identifies as correctl
 
 Terms in Dictionary/Words/Recognized nodes are applied to the following code analysis rules:
 
-- [CA1701: Resource string compound words should be cased correctly](../code-quality/ca1701-resource-string-compound-words-should-be-cased-correctly.md)
+- [CA1701: Resource string compound words should be cased correctly](../code-quality/ca1701.md)
 
-- [CA1702: Compound words should be cased correctly](../code-quality/ca1702-compound-words-should-be-cased-correctly.md)
+- [CA1702: Compound words should be cased correctly](../code-quality/ca1702.md)
 
-- [CA1703: Resource strings should be spelled correctly](../code-quality/ca1703-resource-strings-should-be-spelled-correctly.md)
+- [CA1703: Resource strings should be spelled correctly](../code-quality/ca1703.md)
 
-- [CA1704: Identifiers should be spelled correctly](../code-quality/ca1704-identifiers-should-be-spelled-correctly.md)
+- [CA1704: Identifiers should be spelled correctly](../code-quality/ca1704.md)
 
-- [CA1709: Identifiers should be cased correctly](../code-quality/ca1709-identifiers-should-be-cased-correctly.md)
+- [CA1709: Identifiers should be cased correctly](../code-quality/ca1709.md)
 
-- [CA1726: Use preferred terms](../code-quality/ca1726-use-preferred-terms.md)
+- [CA1726: Use preferred terms](../code-quality/ca1726.md)
 
 - [CA2204: Literals should be spelled correctly](../code-quality/ca2204.md)
 
@@ -124,17 +124,17 @@ To exclude a term from the list of terms that code analysis identifies as correc
 
 Terms in the Dictionary/Words/Unrecognized node are applied to the following code analysis rules:
 
-- [CA1701: Resource string compound words should be cased correctly](../code-quality/ca1701-resource-string-compound-words-should-be-cased-correctly.md)
+- [CA1701: Resource string compound words should be cased correctly](../code-quality/ca1701.md)
 
-- [CA1702: Compound words should be cased correctly](../code-quality/ca1702-compound-words-should-be-cased-correctly.md)
+- [CA1702: Compound words should be cased correctly](../code-quality/ca1702.md)
 
-- [CA1703: Resource strings should be spelled correctly](../code-quality/ca1703-resource-strings-should-be-spelled-correctly.md)
+- [CA1703: Resource strings should be spelled correctly](../code-quality/ca1703.md)
 
-- [CA1704: Identifiers should be spelled correctly](../code-quality/ca1704-identifiers-should-be-spelled-correctly.md)
+- [CA1704: Identifiers should be spelled correctly](../code-quality/ca1704.md)
 
-- [CA1709: Identifiers should be cased correctly](../code-quality/ca1709-identifiers-should-be-cased-correctly.md)
+- [CA1709: Identifiers should be cased correctly](../code-quality/ca1709.md)
 
-- [CA1726: Use preferred terms](../code-quality/ca1726-use-preferred-terms.md)
+- [CA1726: Use preferred terms](../code-quality/ca1726.md)
 
 - [CA2204: Literals should be spelled correctly](../code-quality/ca2204.md)
 
@@ -165,15 +165,15 @@ To include a suggested alternate term in the warning, specify the alternate in t
 
 Terms in the Dictionary/Words/Deprecated node are applied to the following code analysis rules:
 
-- [CA1701: Resource string compound words should be cased correctly](../code-quality/ca1701-resource-string-compound-words-should-be-cased-correctly.md)
+- [CA1701: Resource string compound words should be cased correctly](../code-quality/ca1701.md)
 
-- [CA1702: Compound words should be cased correctly](../code-quality/ca1702-compound-words-should-be-cased-correctly.md)
+- [CA1702: Compound words should be cased correctly](../code-quality/ca1702.md)
 
-- [CA1703: Resource strings should be spelled correctly](../code-quality/ca1703-resource-strings-should-be-spelled-correctly.md)
+- [CA1703: Resource strings should be spelled correctly](../code-quality/ca1703.md)
 
-- [CA1704: Identifiers should be spelled correctly](../code-quality/ca1704-identifiers-should-be-spelled-correctly.md)
+- [CA1704: Identifiers should be spelled correctly](../code-quality/ca1704.md)
 
-- [CA1726: Use preferred terms](../code-quality/ca1726-use-preferred-terms.md)
+- [CA1726: Use preferred terms](../code-quality/ca1726.md)
 
 ### <a name="BKMK_DictionaryWordsCompoundTermCompoundAlternate"></a> Dictionary/Words/Compound/Term[@CompoundAlternate]
 
@@ -200,13 +200,13 @@ The built-in dictionary identifies some terms as single, discrete terms rather t
 
 Terms in the Dictionary/Words/Compound node are applied to the following code analysis rules:
 
-- [CA1701: Resource string compound words should be cased correctly](../code-quality/ca1701-resource-string-compound-words-should-be-cased-correctly.md)
+- [CA1701: Resource string compound words should be cased correctly](../code-quality/ca1701.md)
 
-- [CA1702: Compound words should be cased correctly](../code-quality/ca1702-compound-words-should-be-cased-correctly.md)
+- [CA1702: Compound words should be cased correctly](../code-quality/ca1702.md)
 
-- [CA1703: Resource strings should be spelled correctly](../code-quality/ca1703-resource-strings-should-be-spelled-correctly.md)
+- [CA1703: Resource strings should be spelled correctly](../code-quality/ca1703.md)
 
-- [CA1704: Identifiers should be spelled correctly](../code-quality/ca1704-identifiers-should-be-spelled-correctly.md)
+- [CA1704: Identifiers should be spelled correctly](../code-quality/ca1704.md)
 
 ### <a name="BKMK_DictionaryWordsDiscreteExceptionsTerm"></a> Dictionary/Words/DiscreteExceptions/Term
 
@@ -229,9 +229,9 @@ To exclude a term in the list of terms that code analysis identifies as a single
 
 Terms in the Dictionary/Words/DiscreteExceptions node are applied to the following code analysis rules:
 
-- [CA1701: Resource string compound words should be cased correctly](../code-quality/ca1701-resource-string-compound-words-should-be-cased-correctly.md)
+- [CA1701: Resource string compound words should be cased correctly](../code-quality/ca1701.md)
 
-- [CA1702: Compound words should be cased correctly](../code-quality/ca1702-compound-words-should-be-cased-correctly.md)
+- [CA1702: Compound words should be cased correctly](../code-quality/ca1702.md)
 
 ### <a name="BKMK_DictionaryAcronymsCasingExceptionsAcronym"></a> Dictionary/Acronyms/CasingExceptions/Acronym
 
@@ -254,7 +254,7 @@ To include an acronym in the list of terms that code analysis identifies as corr
 
 Terms in the Dictionary/Acronyms/CasingExceptions node are applied to the following code analysis rules:
 
-- [CA1709: Identifiers should be cased correctly](../code-quality/ca1709-identifiers-should-be-cased-correctly.md)
+- [CA1709: Identifiers should be cased correctly](../code-quality/ca1709.md)
 
 ## <a name="BKMK_ToApplyACustomDictionaryToAProject"></a> To apply a custom dictionary to a project
 

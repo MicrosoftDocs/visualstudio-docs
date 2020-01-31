@@ -58,5 +58,5 @@ ms.workload:
 
 - Project types can support multiple configurations, such as Debug and Release. Users can change the different configurations of a project by using property pages that you supply. For more information, see [Managing Configuration Options](../../extensibility/internals/managing-configuration-options.md).
 
-## See Also
+## See also
 - [Deploying Project Types](../../extensibility/internals/deploying-project-types.md)

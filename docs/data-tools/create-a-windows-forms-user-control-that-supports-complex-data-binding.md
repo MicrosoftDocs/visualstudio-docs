@@ -3,17 +3,17 @@ title: Create a Windows Forms user control with data binding
 ms.date: 11/04/2016
 ms.topic: conceptual
 dev_langs:
-  - "VB"
-  - "CSharp"
+- VB
+- CSharp
 helpviewer_keywords:
-  - "data binding, user controls"
-  - "data binding, complex"
-  - "user controls [Visual Studio], complex data binding"
-author: gewarren
-ms.author: gewarren
+- data binding, user controls
+- data binding, complex
+- user controls [Visual Studio], complex data binding
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "data-storage"
+- data-storage
 ---
 # Create a Windows Forms user control that supports complex data binding
 

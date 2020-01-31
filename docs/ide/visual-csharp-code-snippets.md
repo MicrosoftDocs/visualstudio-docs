@@ -3,15 +3,15 @@ title: C# code snippets
 ms.date: 06/05/2017
 ms.topic: reference
 helpviewer_keywords:
-  - "snippets [C#]"
-  - "code snippets [C#]"
-  - "Code Snippet Inserter [C#]"
-  - "C#, code snippets"
-author: gewarren
-ms.author: gewarren
+- snippets [C#]
+- code snippets [C#]
+- Code Snippet Inserter [C#]
+- C#, code snippets
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "dotnet"
+- dotnet
 ---
 # C# code snippets
 

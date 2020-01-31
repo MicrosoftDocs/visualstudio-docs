@@ -29,7 +29,7 @@ This dialog box appears when you have made changes to native code that **Edit an
 
 If you select this check box, Edit and Continue will apply code changes without asking permission in the future. You can turn this warning on again by going to the **Options** dialog box, opening the **Debugging** Folder, clicking the **Edit and Continue** page, and selecting **Warn about stale code**.
 
-## See Also
+## See also
 
 - [Supported Code Changes (C++)](supported-code-changes-cpp.md)
 - [Edit and Continue, Debugging, Options Dialog Box](edit-and-continue.md)

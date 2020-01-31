@@ -18,7 +18,7 @@ Visual Studio Tools for AI can be installed on Windows 64-bit operating systems.
 
 This extension works with Visual Studio 2015 and Visual Studio 2017, Community edition or higher.
 
-You can download the tools from the [Visual Studio Marketplace](https://aka.ms/vstoolsforai), or from within Visual Studio:
+You can download the tools from the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.vstoolsai-vs2017), or from within Visual Studio:
 
 1. Select **Tools** > **Extensions and Updates**.
 
@@ -38,7 +38,7 @@ Before training deep learning models on your local computer, make sure you have 
 
 ### NVIDIA GPU driver
 
-Deep learning frameworks take advantage of NVIDIA GPU to let machines learn at a speed, accuracy, and scale towards true artificial intelligence. If your computer has NVIDIA GPU cards, see [NVIDIA Driver Downloads](http://www.nvidia.com/Download/index.aspx) or try an operating system update to install the latest driver.
+Deep learning frameworks take advantage of NVIDIA GPU to let machines learn at a speed, accuracy, and scale towards true artificial intelligence. If your computer has NVIDIA GPU cards, see [NVIDIA Driver Downloads](https://www.nvidia.com/Download/index.aspx) or try an operating system update to install the latest driver.
 
 ### CUDA
 
@@ -131,7 +131,7 @@ The [Microsoft Cognitive Toolkit](https://cntk.ai) is a unified deep-learning to
 > [!NOTE]
 > CNTK currently does not support macOS.
 
-To install CNTK Python package, see [how to install CNTK](https://docs.microsoft.com/cognitive-toolkit/Setup-CNTK-on-your-machine).
+To install CNTK Python package, see [how to install CNTK](/cognitive-toolkit/Setup-CNTK-on-your-machine).
 
 ### TensorFlow
 
@@ -188,7 +188,7 @@ pip3.5 install Theano==0.9.0
 
 ### PyTorch
 
-[PyTorch](http://pytorch.org/) is a python package that provides two high-level features:
+[PyTorch](https://pytorch.org/) is a python package that provides two high-level features:
 
 - Tensor computation (like numpy) with strong GPU acceleration
 - Deep Neural Networks built on a tape-based autograd system

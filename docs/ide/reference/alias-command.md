@@ -3,19 +3,19 @@ title: Alias Command
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "tools.alias"
+- tools.alias
 helpviewer_keywords:
-  - "aliases, Visual Studio commands"
-  - "commands, aliases"
-  - "Tools.Alias command"
-  - "command aliases"
-  - "alias command"
+- aliases, Visual Studio commands
+- commands, aliases
+- Tools.Alias command
+- command aliases
+- alias command
 ms.assetid: bdf857df-b5d5-450f-8c10-a6fd4dccc130
-author: gewarren
-ms.author: gewarren
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Alias Command
 Creates a new alias for a complete command, complete command and arguments, or another alias.
@@ -69,7 +69,7 @@ This example displays a list of all current aliases and definitions.
 >Tools.Alias
 ```
 
-## See Also
+## See also
 
 - [Visual Studio Commands](../../ide/reference/visual-studio-commands.md)
 - [Command Window](../../ide/reference/command-window.md)

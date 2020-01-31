@@ -1,17 +1,17 @@
 ---
-title: "Configure Ports for Test Controllers and Test Agents"
+title: Configure Ports for Test Controllers and Test Agents
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "firewalls, configuring for test agents"
-  - "firewalls, configuring for test controllers"
-  - "test agents, firewalls"
-  - "test controllers, firewalls"
-  - "agents, firewalls"
-  - "controllers, firewalls"
+- firewalls, configuring for test agents
+- firewalls, configuring for test controllers
+- test agents, firewalls
+- test controllers, firewalls
+- agents, firewalls
+- controllers, firewalls
 ms.assetid: 211edbd7-9fe4-4251-ba85-8bec4363261b
-author: gewarren
-ms.author: gewarren
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ---
 # Configure ports for test controllers and test agents

@@ -3,13 +3,13 @@ title: Best Practices for Using Code Snippets
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "code snippets, best practices"
-  - "code snippets, security"
-author: gewarren
-ms.author: gewarren
+- code snippets, best practices
+- code snippets, security
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Best practices for using code snippets
 

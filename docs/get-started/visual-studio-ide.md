@@ -1,18 +1,18 @@
 ---
 title: Overview of Visual Studio
-titleSuffix: ""
+titleSuffix: ''
 ms.date: 03/19/2019
 ms.technology: vs-ide-general
 ms.topic: conceptual
 ms.custom: vs-get-started
-author: gewarren
+author: TerryGLee
 f1_keywords:
-  - vs.startpage
-  - VS.StartPage.HowDoI
-ms.author: gewarren
+- vs.startpage
+- VS.StartPage.HowDoI
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Welcome to the Visual Studio IDE
 

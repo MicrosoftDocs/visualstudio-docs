@@ -1,15 +1,15 @@
 ---
-title: "Analyzing Load Test Virtual User Activity"
+title: Analyzing Load Test Virtual User Activity
 ms.date: 10/03/2016
 ms.topic: conceptual
 f1_keywords:
-  - "vs.test.load.monitor.activitychart"
+- vs.test.load.monitor.activitychart
 helpviewer_keywords:
-  - "virtual user activity chart"
-  - "load test, virtual user activity chart"
+- virtual user activity chart
+- load test, virtual user activity chart
 ms.assetid: 63f4bd42-3cfb-4eee-af68-e8334976539e
-author: gewarren
-ms.author: gewarren
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ---
 # Analyzing load test virtual user activity in the Details view of the Load Test Analyzer

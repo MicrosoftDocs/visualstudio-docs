@@ -3,17 +3,17 @@ title: Reliability Warnings
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "vs.codeanalysis.reliabilityrules"
+- vs.codeanalysis.reliabilityrules
 helpviewer_keywords:
-  - "warnings, reliability"
-  - "reliability warnings"
-  - "managed code analysis warnings, reliability warnings"
+- warnings, reliability
+- reliability warnings
+- managed code analysis warnings, reliability warnings
 ms.assetid: 77886846-10a2-4585-968a-7eb60ebe07e8
-author: gewarren
-ms.author: gewarren
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Reliability warnings
 

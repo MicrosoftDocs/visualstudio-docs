@@ -47,5 +47,5 @@ HRESULT GetDescriptionString(
 ## Remarks  
  Typically, if `fLong` is `FALSE`, this method provides only the name of the function associated with the stack frame. When `fLong` is `TRUE`, this method may also provide the function parameters and other relevant information.  
   
-## See Also  
+## See also  
  [IDebugStackFrame Interface](../../winscript/reference/idebugstackframe-interface.md)

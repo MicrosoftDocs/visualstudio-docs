@@ -40,30 +40,23 @@ ms.workload:
 
   All VSTO Add-ins that you create by using Visual Studio can be registered for the current user. However, VSTO Add-ins can be registered for all users only in certain scenarios. These scenarios depend on the version of Microsoft Office on the computer and how the VSTO Add-in was deployed.
 
-### Microsoft Office version
- Office applications can load VSTO Add-ins that are registered under **HKEY_LOCAL_MACHINE** or **HKEY_CURRENT_USER**.
-
- To load VSTO Add-ins that are registered under **HKEY_LOCAL_MACHINE**, computers must have update package 976477 installed. For more information, see [http://go.microsoft.com/fwlink/?LinkId=184923](http://go.microsoft.com/fwlink/?LinkId=184923).
-
 ### Deployment type
  If you use ClickOnce to deploy a VSTO Add-in, the VSTO Add-in can be registered only for the current user. This is because ClickOnce only supports creating keys under **HKEY_CURRENT_USER**. If you want to register a VSTO Add-in to all users on a computer, you must use Windows Installer to deploy the VSTO Add-in. For more information about these deployment types, see [Deploy an Office solution by using ClickOnce](../vsto/deploying-an-office-solution-by-using-clickonce.md) and [Deploy an Office solution by using Windows Installer](../vsto/deploying-an-office-solution-by-using-windows-installer.md).
 
 ## Registry entries
- The required VSTO Add-in registry entries are located under the following registry key for all applications except Visio, where *Root* is **HKEY_CURRENT_USER** or **HKEY_LOCAL_MACHINE**.
+ The required VSTO Add-in registry entries are located under the following registry keys where *Root* is **HKEY_CURRENT_USER** or **HKEY_LOCAL_MACHINE** depending if the installation is for the current user or all users.
 
- **All applications except for Visio**
+|Office Application|Configuration Path|
+|------------------|------------------|
+|Visio|*Root*\Software\Microsoft\\*Visio*\Addins\\*add-in ID*|
+|All Other|*Root*\Software\Microsoft\Office\\*Office application name*\Addins\\*add-in ID*|
 
-|Office version|Configuration Path|
-|--------------------|------------------------|
-|32-bit|*Root*\Software\Microsoft\Office\\*application name*\Addins\\*add-in ID*|
-|64-bit|*Root*\Software\Wow6432Node\Microsoft\Office\\*application name*\Addins\\*add-in ID*|
-
- **Visio**
-
-|Office version|Configuration Path|
-|--------------------|------------------------|
-|32-bit|*Root*\Software\Microsoft\Visio\Addins\\*add-in ID*|
-|64-bit|*Root*\Software\Wow6432Node\Visio\Addins\\*add-in ID*|
+> [!NOTE]
+> If the installer is targeting all users on 64-bit Windows, it is recommended that it includes two registry entries, one under the HKEY_LOCAL_MACHINE\Software\Microsoft and one under the HKEY_LOCAL_MACHINE\Software\\**WOW6432Node**\Microsoft hive. This is because it's possible for users to use either 32-bit or 64-bit versions of Office on the computer.
+>
+>If the Installer is targeting the current user, it does not need to install to the WOW6432Node because the HKEY_CURRENT_USER\Software path is shared.
+>
+>For more information please see [32-bit and 64-bit Application Data in the Registry](/windows/win32/sysinfo/32-bit-and-64-bit-application-data-in-the-registry)
 
  The following table lists the entries under this registry key.
 

@@ -21,9 +21,9 @@ For information about everything that’s new in Visual Studio 2015 Update 1 deb
  For information about everything that’s new in Visual Studio 2015 debugging and diagnostics, see [Visual Studio 2015 Release Notes](https://www.visualstudio.com/news/vs2015-vs#Debug).  
   
 ## What's New in Update 1  
- Starting in Visual Studio 2015 Update 1, you can see a per-function breakdown of CPU usage without leaving the debugger. For more information, see [Profile Your CPU in the Debugger in Visual Studio 2015](http://blogs.msdn.com/b/visualstudioalm/archive/2015/10/29/profile-your-cpu-in-the-debugger-in-visual-studio-2015.aspx).  
+ Starting in Visual Studio 2015 Update 1, you can see a per-function breakdown of CPU usage without leaving the debugger. For more information, see [Profile Your CPU in the Debugger in Visual Studio 2015](https://devblogs.microsoft.com/devops/profile-your-cpu-in-the-debugger-in-visual-studio-2015/).  
   
- The **Diagnostic Tools** window has added search and filter options to the **Events** tab. For more information, see [Debugger-integrated profiling](/visualstudio/profiling/running-profiling-tools-with-or-without-the-debugger) and  [Searching and filtering the Events tab of the Diagnostic Tools window](http://blogs.msdn.com/b/visualstudioalm/archive/2015/11/12/searching-and-filtering-the-events-tab-of-the-diagnostic-tools-window.aspx).  
+ The **Diagnostic Tools** window has added search and filter options to the **Events** tab. For more information, see [Debugger-integrated profiling](/visualstudio/profiling/running-profiling-tools-with-or-without-the-debugger) and  [Searching and filtering the Events tab of the Diagnostic Tools window](https://devblogs.microsoft.com/devops/searching-and-filtering-the-events-tab-of-the-diagnostic-tools-window/).  
   
 ## Diagnostics with debugging UI and hotkey changes  
  You can now run diagnostic tools while debugging with the new **Diagnostic Tools** window. The window appears automatically, but you can also open it with the new menu item **Show Diagnostic Tools** (keyboard shortcut **Ctrl+Alt+F2**).  

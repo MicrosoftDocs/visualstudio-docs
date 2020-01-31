@@ -3,17 +3,17 @@ title: -Build (devenv.exe)
 ms.date: 12/10/2018
 ms.topic: reference
 helpviewer_keywords:
-  - "builds, command-line"
-  - "/build Devenv switch"
-  - "Devenv, /build switch"
-  - "build Devenv switch"
-  - "command-line builds"
+- builds, command-line
+- /build Devenv switch
+- Devenv, /build switch
+- build Devenv switch
+- command-line builds
 ms.assetid: ced21627-7653-455b-8821-3e31c6a448cf
-author: gewarren
-ms.author: gewarren
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # /Build (devenv.exe)
 

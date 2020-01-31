@@ -1,21 +1,21 @@
 ---
-title: "CreateCSharpManifestResourceName Task | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "reference"
+title: CreateCSharpManifestResourceName Task | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: reference
 dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
+- VB
+- CSharp
+- C++
+- jsharp
 helpviewer_keywords:
-  - "MSBuild, CreateCSharpManifestResourceName task"
-  - "CreateCSharpManifestResourceName task [MSBuild]"
+- MSBuild, CreateCSharpManifestResourceName task
+- CreateCSharpManifestResourceName task [MSBuild]
 ms.assetid: 2ace88c1-d757-40a7-8158-c1d3f5ff0511
-author: mikejo5000
-ms.author: mikejo
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # CreateCSharpManifestResourceName task
 Creates a [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)]-style manifest name from a given *.resx* file name or other resource.

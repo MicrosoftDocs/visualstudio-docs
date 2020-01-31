@@ -30,5 +30,5 @@ HRESULT GetCapabilitySid([out] BSTR * capabilitySid);
  `capabilitySid`  
  The capability SID of the error.  
   
-## See Also  
+## See also  
  [IActiveScriptWinRTErrorDebug Interface](../../winscript/reference/iactivescriptwinrterrordebug-interface.md)

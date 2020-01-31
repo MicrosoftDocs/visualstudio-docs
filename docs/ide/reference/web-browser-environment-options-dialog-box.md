@@ -3,24 +3,24 @@ title: Web Browser, Environment, Options Dialog Box
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "VS.Environment.Web Browser"
-  - "VS.ToolsOptionsPages.Environment.WebBrowser"
-  - "VS.ToolsOptionsPages.Environment.Web_Browser"
+- VS.Environment.Web Browser
+- VS.ToolsOptionsPages.Environment.WebBrowser
+- VS.ToolsOptionsPages.Environment.Web_Browser
 helpviewer_keywords:
-  - "browsers, customizing"
-  - "searching, search page for Web browser"
-  - "Web browsers, customizing"
-  - "searches, default Web browser search page"
-  - "URLs, specifying VS home page"
-  - "home page"
-  - "Options dialog box, Web settings"
-  - "Internet Explorer, setting options"
+- browsers, customizing
+- searching, search page for Web browser
+- Web browsers, customizing
+- searches, default Web browser search page
+- URLs, specifying VS home page
+- home page
+- Options dialog box, Web settings
+- Internet Explorer, setting options
 ms.assetid: 586db4eb-032d-4cb5-93a6-a7c14de1ae49
-author: gewarren
-ms.author: gewarren
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Options dialog box: Environment \> Web Browser
 

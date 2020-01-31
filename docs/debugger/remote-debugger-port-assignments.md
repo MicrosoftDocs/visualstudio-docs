@@ -23,7 +23,7 @@ The Visual Studio Remote Debugger can run as an application or as a background s
 
 - Visual Studio 2012: 4016
 
-  In other words, the number of the port assigned to the remote debugger is incremented by 2 for each release. You can set a different port number of you like. We will explain how to set port numbers in a later section.
+In other words, the number of the port assigned to the remote debugger is incremented by 2 for each release. You can set a different port number of you like. We will explain how to set port numbers in a later section.
 
 ## The Remote Debugger Port on 32-bit Operating Systems
 
@@ -65,5 +65,5 @@ The Visual Studio Remote Debugger can run as an application or as a background s
 |Microsoft.WindowsAzure.Plugins.RemoteDebugger.Forwarderx86|31401|31399|
 |Microsoft.WindowsAzure.Plugins.RemoteDebugger.FileUpload|32400|32398|
 
-## See Also
+## See also
 - [Remote Debugging](../debugger/remote-debugging.md)

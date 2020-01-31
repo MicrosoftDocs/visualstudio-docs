@@ -1,23 +1,23 @@
 ---
-title: "CreateItem Task | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "reference"
+title: CreateItem Task | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: reference
 f1_keywords:
-  - "http://schemas.microsoft.com/developer/msbuild/2003#CreateItem"
+- http://schemas.microsoft.com/developer/msbuild/2003#CreateItem
 dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
+- VB
+- CSharp
+- C++
+- jsharp
 helpviewer_keywords:
-  - "CreateItem task [MSBuild]"
-  - "MSBuild, CreateItem task"
+- CreateItem task [MSBuild]
+- MSBuild, CreateItem task
 ms.assetid: c4311f38-979e-4324-b524-9e8c1cbdc41a
-author: mikejo5000
-ms.author: mikejo
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # CreateItem task
 Populates item collections with the input items. This allows items to be copied from one list to another.

@@ -1,15 +1,15 @@
 ---
-title: "Test a Large Application with Multiple UI Maps"
+title: Test a Large Application with Multiple UI Maps
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "coded UI tests, multiple UI maps"
-  - "coded UI tests, for large applications"
-author: gewarren
-ms.author: gewarren
+- coded UI tests, multiple UI maps
+- coded UI tests, for large applications
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Test a large application with multiple UI Maps
 

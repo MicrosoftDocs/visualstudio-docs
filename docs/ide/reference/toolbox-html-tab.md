@@ -3,16 +3,16 @@ title: Toolbox, HTML Tab
 ms.date: 06/21/2017
 ms.topic: reference
 f1_keywords:
-  - "vs.toolbox.html"
+- vs.toolbox.html
 helpviewer_keywords:
-  - "Toolbox, HTML tab"
-  - "HTML Designer, setting options"
-  - "HTML tab in Toolbox"
-author: gewarren
-ms.author: gewarren
+- Toolbox, HTML tab
+- HTML Designer, setting options
+- HTML tab in Toolbox
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Toolbox, HTML tab
 

@@ -31,5 +31,5 @@ The ActivAut.h header file provides the interfaces listed in this section.
   
 - [IScriptScriptlet Interface](../../winscript/reference/iscriptscriptlet-interface.md)  
   
-## See Also  
+## See also  
  [Windows Script Interfaces Reference](../../winscript/reference/windows-script-interfaces-reference.md)

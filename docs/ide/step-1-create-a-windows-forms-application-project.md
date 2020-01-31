@@ -1,5 +1,5 @@
 ---
-title: "Step 1: Create a Windows Forms App project"
+title: 'Step 1: Create a Windows Forms App project'
 ms.date: 08/30/2019
 ms.assetid: 16ac2422-e720-4e3a-b511-bc2a54201a86
 ms.topic: tutorial
@@ -9,7 +9,7 @@ author: TerryGLee
 ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Step 1: Create a Windows Forms App project
 
@@ -44,7 +44,7 @@ When you create a picture viewer, the first step is to create a Windows Forms Ap
 
    After you apply the **Project type** filter, choose the **Windows Forms App (.NET Framework)** template for either C# or Visual Basic, and then choose **Next**.
 
-   ![Choose the C# template for the Windows Forms App (.NET Framework)](./media/create-new-project-search-winforms-filtered.png)
+   ![Choose the either the C# or Visual Basic template for the Windows Forms App (.NET Framework)](./media/create-new-project-search-winforms-filtered.png)
 
    > [!NOTE]
    > If you don't see the **Windows Forms App (.NET Framework)** template, you can install it from the **Create a new project** window. In the **Not finding what you're looking for?** message, choose the **Install more tools and features** link.

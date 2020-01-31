@@ -2,11 +2,11 @@
 title: API Reference for Modeling SDK
 ms.date: 11/04/2016
 ms.topic: reference
-author: gewarren
-ms.author: gewarren
+author: JoshuaPartlow
+ms.author: joshuapa
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # API Reference for Modeling SDK for Visual Studio
 
@@ -36,6 +36,6 @@ This section contains reference material for namespaces that have names that beg
 |<xref:Microsoft.VisualStudio.Modeling.Shell.ExtensionEnablement?displayProperty=fullName>|Lets you define shortcut (context) menu commands.|
 |<xref:Microsoft.VisualStudio.Modeling.Validation?displayProperty=fullName>|Lets you define validation constraints.|
 
-## See Also
+## See also
 
 - [Customizing T4 Text Transformation](../modeling/customizing-t4-text-transformation.md)

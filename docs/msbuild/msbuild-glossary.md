@@ -1,13 +1,13 @@
 ---
 title: MSBuild glossary
-ms.date: "11/04/2016"
-ms.topic: "reference"
+ms.date: 11/04/2016
+ms.topic: reference
 ms.assetid: f767d8e4-24d8-4803-80eb-e857202dbe2c
-author: mikejo5000
-ms.author: mikejo
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # MSBuild glossary
 

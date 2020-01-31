@@ -43,6 +43,6 @@ HRESULT SetDocumentAttr(
 ## Remarks  
  This method sets the attributes for this document.  
   
-## See Also  
+## See also  
  [IDebugDocumentHelper Interface](../../winscript/reference/idebugdocumenthelper-interface.md)   
  [TEXT_DOC_ATTR Constants](../../winscript/reference/text-doc-attr-constants.md)

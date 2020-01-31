@@ -32,5 +32,5 @@ In Source control Plug-in API 1.2 the comparison between the local project folde
 > [!NOTE]
 > This function uses the same command flags as [SccDiff](../../extensibility/sccdiff-function.md). As a source control plug-in provider, you may choose to not support the "quick diff" operation for directories.
 
-## See Also
+## See also
 - [What's New in the Source Control Plug-in API Version 1.2](../../extensibility/internals/what-s-new-in-the-source-control-plug-in-api-version-1-2.md)

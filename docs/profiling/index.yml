@@ -10,7 +10,7 @@ metadata:
   author: mikejo5000
   ms.author: mikejo
   manager: jillfra
-  ms.date: 09/17/2019
+  ms.date: 10/30/2019
 
 # linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
 
@@ -28,6 +28,8 @@ landingContent:
         links:
          - text: Ways to run profiling tools
            url: running-profiling-tools-with-or-without-the-debugger.md
+         
+           
 
   # Card (optional)
   - title: Get started
@@ -45,13 +47,15 @@ landingContent:
           - text: Get started analyzing CPU usage
             url: beginners-guide-to-performance-profiling.md
           - text: Get started measuring memory usage
-            url: beginners-guide-to-performance-profiling.md
+            url: memory-usage.md
 
   # Card (optional)
   - title: More performance tools
     linkLists:
       - linkListType: how-to-guide
         links:
+          - text: Measure CPU usage from the command line
+            url: profile-apps-from-command-line.md
           - text: PerfTips
             url: perftips.md
           - text: Analyze resource consumption (XAML)
@@ -62,5 +66,4 @@ landingContent:
             url: network-usage.md
           - text: Analyze energy usage (UWP)
             url: analyze-energy-use-in-store-apps.md
-          - text: Performance Explorer (legacy)
-            url: performance-explorer.md
+          

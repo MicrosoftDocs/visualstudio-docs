@@ -3,15 +3,15 @@ title: Go to file, go to symbol, go to line
 ms.date: 08/14/2018
 ms.topic: conceptual
 helpviewer_keywords:
-  - "code editor, go to"
-  - "code editor, go to line"
-  - "go to line"
-  - "go to"
-author: gewarren
-ms.author: gewarren
+- code editor, go to
+- code editor, go to line
+- go to line
+- go to
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Find code using Go To commands
 

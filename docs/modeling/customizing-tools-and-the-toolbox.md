@@ -3,16 +3,16 @@ title: Customizing Tools and the Toolbox
 ms.date: 11/04/2016
 ms.topic: conceptual
 f1_keywords:
-  - "vs.dsltools.dsldesigner.selectiondialog"
-  - "vs.dsltools.dsldesigner.selecticondialog"
-  - "vs.dsltools.dsldesigner.selectcursordialog"
+- vs.dsltools.dsldesigner.selectiondialog
+- vs.dsltools.dsldesigner.selecticondialog
+- vs.dsltools.dsldesigner.selectcursordialog
 helpviewer_keywords:
-  - "Domain-Specific Language, toolbox"
-author: gewarren
-ms.author: gewarren
+- Domain-Specific Language, toolbox
+author: JoshuaPartlow
+ms.author: joshuapa
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Customizing Tools and the Toolbox
 
@@ -226,7 +226,7 @@ using Microsoft.VisualStudio.Modeling.Diagrams;
 
  You use custom code to apply 'hard' constraints, but you should consider whether users should be able to temporarily make invalid connections. If they should, you can modify the constraints so that connections are not validated until users try to save changes.
 
-## See Also
+## See also
 
 - [Customizing Element Creation and Movement](../modeling/customizing-element-creation-and-movement.md)
 - [Customizing Copy Behavior](../modeling/customizing-copy-behavior.md)

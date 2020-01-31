@@ -40,5 +40,5 @@ HRESULT AsynchronousCallInMainThread([in] IDebugThreadCall* pptc, [in] DWORD_PTR
  `dwParam3`  
  The third parameter of the call.  
   
-## See Also  
+## See also  
  [IDebugApplication110 Interface](../../winscript/reference/idebugapplication110-interface.md)

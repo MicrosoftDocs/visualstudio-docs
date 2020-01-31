@@ -32,10 +32,10 @@ Follow the tasks below to create a visualizer.
 1. Create a new class library project.
 
     ::: moniker range=">=vs-2019"
-    Press **Esc** to close the start window. Type **Ctrl + Q** to open the search box, type **class library**, choose **Templates**, then choose **Create a new Class Library (.NET Standard)**. In the dialog box that appears, choose **Create**.
+    Press **Esc** to close the start window. Type **Ctrl + Q** to open the search box, type **class library**, choose **Templates**, then choose **Create a new Class Library (.NET Framework)**. In the dialog box that appears, choose **Create**.
     ::: moniker-end
     ::: moniker range="vs-2017"
-    From the top menu bar, choose **File** > **New** > **Project**. In the left pane of the **New project** dialog box, under **Visual C#**, choose **.NET Standard**, and then in the middle pane choose **Class Library (.NET Standard)**.
+    From the top menu bar, choose **File** > **New** > **Project**. In the left pane of the **New project** dialog box, under **Visual C#**, choose **.NET Framework**, and then in the middle pane choose **Class Library (.NET Framework)**.
     ::: moniker-end
 
 2. Type an appropriate name for the class library, such as `MyFirstVisualizer`, and then click **Create** or **OK**.
@@ -59,7 +59,7 @@ Follow the tasks below to create a visualizer.
 
 5. Click **OK**.
 
-6. In DebuggerSide.cs, add the following statement to the `using` statements:
+6. In DebuggerSide.cs, add the following to the `using` directives:
 
    ```csharp
    using Microsoft.VisualStudio.DebuggerVisualizers;
@@ -93,7 +93,7 @@ Follow the tasks below to create a visualizer.
   }
   ```
 
-  The `Show` method contains the code that actually creates the visualizer dialog box or other user interface and displays the information that has been passed to the visualizer from the debugger. You must add the code that creates the dialog box and displays the information. In this walkthrough, you will do this using a Windows forms message box. First, you must add a reference and `using` statement for System.Windows.Forms.
+  The `Show` method contains the code that actually creates the visualizer dialog box or other user interface and displays the information that has been passed to the visualizer from the debugger. You must add the code that creates the dialog box and displays the information. In this walkthrough, you will do this using a Windows forms message box. First, you must add a reference and `using` directive for System.Windows.Forms.
 
 ### To add System.Windows.Forms
 
@@ -105,7 +105,7 @@ Follow the tasks below to create a visualizer.
 
 3. Click **OK**.
 
-4. In DebuggerSide.cs, add the following statement to the `using` statements:
+4. In DebuggerSide.cs, add the following to the `using` directives:
 
    ```csharp
    using System.Windows.Forms;
@@ -129,7 +129,7 @@ Follow the tasks below to create a visualizer.
 
 ### To add the debuggee-side code
 
-1. Add the following attribute code to DebuggerSide.cs, after the `using` statements but before `namespace MyFirstVisualizer`:
+1. Add the following attribute code to DebuggerSide.cs, after the `using` directives but before `namespace MyFirstVisualizer`:
 
    ```csharp
    [assembly:System.Diagnostics.DebuggerVisualizer(
@@ -199,7 +199,7 @@ Follow the tasks below to create a visualizer.
     > [!NOTE]
     > [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] automatically changes the class declaration in TestConsole.cs to match the new file name.
 
-3. In TestConsole.cs, add the following code to the `using` statements:
+3. In TestConsole.cs, add the following code to the `using` directives:
 
    ```csharp
    using MyFirstVisualizer;
@@ -236,7 +236,7 @@ First, you have to create a new class library project.
 
 1. On the **File** menu, choose **New > Project**.
 
-2. In the **New Project** dialog box, under **Visual C#**, select **.NET Standard**.
+2. In the **New Project** dialog box, under **Visual C#**, select **.NET Framework**.
 
 3. In the middle pane, choose **Class Library**.
 

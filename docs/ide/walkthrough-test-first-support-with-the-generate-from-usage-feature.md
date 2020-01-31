@@ -1,18 +1,18 @@
 ---
-title: "Test-first development with Generate From Usage feature"
+title: Test-first development with Generate From Usage feature
 ms.date: 10/09/2017
 dev_langs:
-  - "VB"
-  - "CSharp"
+- VB
+- CSharp
 ms.topic: conceptual
 helpviewer_keywords:
-  - "Generate From Usage"
-  - "Test-First Development"
-author: gewarren
-ms.author: gewarren
+- Generate From Usage
+- Test-First Development
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Walkthrough: Test-first development with the Generate From Usage feature
 

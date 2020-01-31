@@ -3,14 +3,14 @@ title: Create a new project
 ms.date: 03/19/2019
 ms.topic: conceptual
 f1_keywords:
-  - "vs.newproject"
+- vs.newproject
 helpviewer_keywords:
-  - "projects [Visual Studio], creating"
-author: gewarren
-ms.author: gewarren
+- projects [Visual Studio], creating
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Create a new project in Visual Studio
 

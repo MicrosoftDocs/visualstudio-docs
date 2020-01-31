@@ -1,15 +1,15 @@
 ---
-title: "MSBuild Inline Tasks with RoslynCodeTaskFactory | Microsoft Docs"
-ms.date: "09/21/2017"
-ms.topic: "conceptual"
+title: MSBuild Inline Tasks with RoslynCodeTaskFactory | Microsoft Docs
+ms.date: 09/21/2017
+ms.topic: conceptual
 helpviewer_keywords:
-  - "MSBuild, tasks"
+- MSBuild, tasks
 ms.assetid: e72e6506-4a11-4edf-ae8d-cfb5a3b9d8a0
-author: mikejo5000
-ms.author: mikejo
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # MSBuild inline tasks with RoslynCodeTaskFactory
 Similar to the [CodeTaskFactory](../msbuild/msbuild-inline-tasks.md), RoslynCodeTaskFactory uses the cross-platform Roslyn compilers to generate in-memory task assemblies for use as inline tasks.  RoslynCodeTaskFactory tasks target .NET Standard and can work on .NET Framework and .NET Core runtimes as well as other platforms such as Linux and Mac OS.

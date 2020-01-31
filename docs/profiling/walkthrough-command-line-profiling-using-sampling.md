@@ -9,6 +9,7 @@ helpviewer_keywords:
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jillfra
+monikerRange: 'vs-2017'
 ms.workload:
   - "multiple"
 ---
@@ -27,7 +28,7 @@ In this walkthrough, you will follow these steps:
 
 - Intermediate understanding of [!INCLUDE[csharp_current_short](../misc/includes/csharp_current_short_md.md)]
 - Intermediate understanding of working with command line tools
-- A copy of the [PeopleTrax Sample](/visualstudio/profiling/performance-explorer)
+- A copy of the [PeopleTrax Sample](performance-explorer.md)
 - To work with the information provided by profiling, it is best to have debugging symbol information available.
 
 ## Command-line profiling using the sampling method

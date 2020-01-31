@@ -57,5 +57,5 @@ extern "C" _RTC_error_fnW __cdecl _CRT_RTC_INITW(
 
 After you have installed the default error reporting function, you can install additional error reporting functions with `_RTC_SetErrorFuncW`. For more information, see [_RTC_SetErrorFuncW](/cpp/c-runtime-library/reference/rtc-seterrorfuncw).
 
-## See Also
+## See also
 [How to: Use Native Run-Time Checks](../debugger/how-to-use-native-run-time-checks.md)

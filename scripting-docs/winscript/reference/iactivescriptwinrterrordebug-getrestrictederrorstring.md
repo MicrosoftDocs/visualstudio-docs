@@ -30,5 +30,5 @@ HRESULT GetRestrictedErrorString([out] BSTR * errorString);
  `errorString`  
  [out] The restricted error string.  
   
-## See Also  
+## See also  
  [IActiveScriptWinRTErrorDebug Interface](../../winscript/reference/iactivescriptwinrterrordebug-interface.md)

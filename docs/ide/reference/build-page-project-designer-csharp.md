@@ -4,16 +4,16 @@ ms.date: 06/20/2017
 ms.technology: vs-ide-compile
 ms.topic: reference
 f1_keywords:
-  - "cs.ProjectPropertiesBuild"
+- cs.ProjectPropertiesBuild
 helpviewer_keywords:
-  - "Build options [C#]"
-  - "Project Designer, Build page"
+- Build options [C#]
+- Project Designer, Build page
 ms.assetid: 77ff1bfc-d633-4634-ba29-9afdb6d7e362
-author: gewarren
-ms.author: gewarren
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "dotnet"
+- dotnet
 ---
 # Build Page, Project Designer (C#)
 

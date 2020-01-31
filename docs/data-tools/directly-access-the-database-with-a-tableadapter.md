@@ -3,26 +3,26 @@ title: Directly access the database with a TableAdapter
 ms.date: 11/04/2016
 ms.topic: conceptual
 dev_langs:
-  - "VB"
-  - "CSharp"
+- VB
+- CSharp
 helpviewer_keywords:
-  - "databases [Visual Basic], accessing with a TableAdapter"
-  - "DBDirect methods"
-  - "datasets [Visual Basic], adding to projects"
-  - "data [Visual Studio], saving"
-  - "TableAdapter.Delete method"
-  - "GenerateDbDirectMethods property"
-  - "TableAdapter.Insert method"
-  - "TableAdapter.GenerateDBDirectMethods property"
-  - "TableAdapter.Update method"
-  - "saving data"
-  - "TableAdapters"
+- databases [Visual Basic], accessing with a TableAdapter
+- DBDirect methods
+- datasets [Visual Basic], adding to projects
+- data [Visual Studio], saving
+- TableAdapter.Delete method
+- GenerateDbDirectMethods property
+- TableAdapter.Insert method
+- TableAdapter.GenerateDBDirectMethods property
+- TableAdapter.Update method
+- saving data
+- TableAdapters
 ms.assetid: 012c5924-91f7-4790-b2a6-f51402b7014b
-author: gewarren
-ms.author: gewarren
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "data-storage"
+- data-storage
 ---
 # Directly access the database with a TableAdapter
 

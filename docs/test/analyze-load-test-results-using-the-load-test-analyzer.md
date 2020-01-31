@@ -1,14 +1,14 @@
 ---
-title: "Analyzing Load Test Results"
+title: Analyzing Load Test Results
 ms.date: 10/20/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "load tests, test results"
-  - "load tests, analyzing test results"
-  - "load tests, managing test results"
+- load tests, test results
+- load tests, analyzing test results
+- load tests, managing test results
 ms.assetid: 8a4ba300-425d-447c-91d9-c53f4345feee
-author: gewarren
-ms.author: gewarren
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ---
 # Analyze load test results using the Load Test Analyzer

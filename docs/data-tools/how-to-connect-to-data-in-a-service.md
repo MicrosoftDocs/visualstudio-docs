@@ -1,21 +1,21 @@
 ---
-title: "How to: Connect to Data in a Service"
+title: 'How to: Connect to Data in a Service'
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "data [Visual Studio], connecting to web services"
-  - "data sources, creating from web services"
-  - "data [Visual Studio], reading from web services"
-  - "reading data, from web services"
-  - "web services, reading data"
-  - "web services, as data sources"
-  - "web services, connecting"
+- data [Visual Studio], connecting to web services
+- data sources, creating from web services
+- data [Visual Studio], reading from web services
+- reading data, from web services
+- web services, reading data
+- web services, as data sources
+- web services, connecting
 ms.assetid: a6b54353-05fe-4e5c-8631-90231fc95504
-author: gewarren
-ms.author: gewarren
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "data-storage"
+- data-storage
 ---
 # How to: Connect to data in a service
 

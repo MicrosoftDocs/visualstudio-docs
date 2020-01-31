@@ -3,19 +3,19 @@ title: -Project (devenv.exe)
 ms.date: 12/10/2018
 ms.topic: reference
 helpviewer_keywords:
-  - "/Project Devenv switch"
-  - "projects [Visual Studio], rebuilding"
-  - "projects [Visual Studio], building"
-  - "deployment projects, specifying"
-  - "Project Devenv switch (/Project)"
-  - "Devenv, /Project switch"
-  - "projects [Visual Studio], cleaning"
+- /Project Devenv switch
+- projects [Visual Studio], rebuilding
+- projects [Visual Studio], building
+- deployment projects, specifying
+- Project Devenv switch (/Project)
+- Devenv, /Project switch
+- projects [Visual Studio], cleaning
 ms.assetid: 8b07859c-3439-436d-9b9a-a8ee744eee30
-author: gewarren
-ms.author: gewarren
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # /Project (devenv.exe)
 

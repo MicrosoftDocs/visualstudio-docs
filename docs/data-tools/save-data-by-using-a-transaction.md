@@ -1,21 +1,21 @@
 ---
-title: "How to: Save data by using a transaction"
+title: 'How to: Save data by using a transaction'
 ms.date: 11/04/2016
 ms.topic: conceptual
 dev_langs:
-  - "VB"
-  - "CSharp"
+- VB
+- CSharp
 helpviewer_keywords:
-  - "saving data, using transactions"
-  - "System.Transactions namespace"
-  - "transactions, saving data"
-  - "data [Visual Studio], saving"
+- saving data, using transactions
+- System.Transactions namespace
+- transactions, saving data
+- data [Visual Studio], saving
 ms.assetid: 8b835e8f-34a3-413d-9bb5-ebaeb87f1198
-author: gewarren
-ms.author: gewarren
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "data-storage"
+- data-storage
 ---
 # How to: Save data by using a transaction
 

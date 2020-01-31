@@ -3,19 +3,19 @@ title: Class View and Object Browser Icons
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
-  - "icons, in Object Browser"
-  - "signal icons"
-  - "Class View tool, symbols"
-  - "graphic symbols"
-  - "IntelliSense, icons"
-  - "icons, IntelliSense"
-  - "symbols, Object Browser icons"
-  - "Object Browser, icons in Class View"
-author: gewarren
-ms.author: gewarren
+- icons, in Object Browser
+- signal icons
+- Class View tool, symbols
+- graphic symbols
+- IntelliSense, icons
+- icons, IntelliSense
+- symbols, Object Browser icons
+- Object Browser, icons in Class View
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Class View and Object Browser icons
 

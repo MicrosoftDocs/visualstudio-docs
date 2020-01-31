@@ -83,6 +83,6 @@ HRESULT CreateChildHandler(
 ## Remarks  
  A scriptlet specifies an event handler. This method creates a scriptlet if it is called by an `IScriptNode` object that represents a Web page. This method does not succeed if it is called by other interfaces.  
   
-## See Also  
+## See also  
  [IScriptNode Interface](../../winscript/reference/iscriptnode-interface.md)   
  [IScriptEntry Interface](../../winscript/reference/iscriptentry-interface.md)

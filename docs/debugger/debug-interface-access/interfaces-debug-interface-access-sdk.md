@@ -160,6 +160,6 @@ Describes the enumerations and structures used by the various interfaces of the 
 
 Describes the constants available in the DIA SDK.
 
-## See Also
+## See also
 
 - [Reference](../../debugger/debug-interface-access/debug-interface-access-sdk-reference.md)

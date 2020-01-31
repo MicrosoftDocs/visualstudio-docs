@@ -1,15 +1,15 @@
 ---
-title: "Browser test mix for load testing"
+title: Browser test mix for load testing
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "load tests, web browser types"
-  - "load tests, scenarios"
-  - "load tests, adding browsers"
-  - "load tests, removing browsers"
+- load tests, web browser types
+- load tests, scenarios
+- load tests, adding browsers
+- load tests, removing browsers
 ms.assetid: 47f981d9-3038-45cc-a486-82b9daf9a9a1
-author: gewarren
-ms.author: gewarren
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ---
 # Edit the test mix to specify which web browsers types in a load test scenario

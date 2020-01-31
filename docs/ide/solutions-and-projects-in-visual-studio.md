@@ -3,23 +3,23 @@ title: Solutions and projects
 ms.date: 10/05/2017
 ms.topic: conceptual
 f1_keywords:
-  - "vs.addnewitem"
-  - "vs.addnewsolutionitem"
-  - "vs.openproject"
-  - "vs.addexistingitem"
-  - "vs.addexistingsolutionitem"
-  - "vs.environment.projects"
-  - "vs.environment.solutions"
-  - "VS.SolutionExplorer"
-  - "VS.SolutionExplorer.Solutions"
+- vs.addnewitem
+- vs.addnewsolutionitem
+- vs.openproject
+- vs.addexistingitem
+- vs.addexistingsolutionitem
+- vs.environment.projects
+- vs.environment.solutions
+- VS.SolutionExplorer
+- VS.SolutionExplorer.Solutions
 helpviewer_keywords:
-  - "solutions [Visual Studio]"
-  - "projects [Visual Studio]"
-author: gewarren
-ms.author: gewarren
+- solutions [Visual Studio]
+- projects [Visual Studio]
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Solutions and projects in Visual Studio
 

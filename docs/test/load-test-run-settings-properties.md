@@ -1,12 +1,12 @@
 ---
-title: "Load Test Run Settings"
+title: Load Test Run Settings
 ms.date: 10/19/2016
 ms.topic: reference
 helpviewer_keywords:
-  - "load tests, run settings"
+- load tests, run settings
 ms.assetid: de10dabb-02ed-403b-9e6f-0b735524988c
-author: gewarren
-ms.author: gewarren
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ---
 # Load test run settings properties

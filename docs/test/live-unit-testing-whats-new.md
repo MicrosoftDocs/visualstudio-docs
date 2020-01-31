@@ -1,15 +1,15 @@
 ---
 title: What's New in Live Unit Testing in Visual Studio 2017
-titleSuffix: ""
+titleSuffix: ''
 ms.date: 10/11/2017
 ms.topic: conceptual
 helpviewer_keywords:
-  - "Live Unit Testing"
-  - "Live Unit Testing What's New"
-author: gewarren
-ms.author: gewarren
+- Live Unit Testing
+- Live Unit Testing What's New
+author: mikejo5000
+ms.author: mikejo
 ms.workload:
-  - "dotnet"
+- dotnet
 monikerRange: vs-2017
 ---
 # What's new in Live Unit Testing for Visual Studio 2017

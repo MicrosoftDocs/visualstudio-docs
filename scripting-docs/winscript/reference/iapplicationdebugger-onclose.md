@@ -40,6 +40,6 @@ HRESULT onClose();
 ## Remarks  
  This method is called when `IDebugApplication::Close` is called.  
   
-## See Also  
+## See also  
  [IApplicationDebugger Interface](../../winscript/reference/iapplicationdebugger-interface.md)   
  [IDebugApplication::Close](../../winscript/reference/idebugapplication-close.md)

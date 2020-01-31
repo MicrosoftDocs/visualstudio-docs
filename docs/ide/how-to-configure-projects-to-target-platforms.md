@@ -1,23 +1,23 @@
 ---
-title: "How to: Configure projects to target platforms"
+title: 'How to: Configure projects to target platforms'
 ms.date: 08/16/2019
 ms.technology: vs-ide-compile
 ms.topic: conceptual
 helpviewer_keywords:
-  - "project settings [Visual Studio], targeting platforms"
-  - "platforms, targeting specific CPUs"
-  - "project properties [Visual Studio], targeting platforms"
-  - "projects [Visual Studio], targeting platforms"
-  - "64-bit [Visual Studio]"
-  - "64-bit programming [Visual Studio]"
-  - "CPUs, targeting specific"
-  - "64-bit applications [Visual Studio]"
+- project settings [Visual Studio], targeting platforms
+- platforms, targeting specific CPUs
+- project properties [Visual Studio], targeting platforms
+- projects [Visual Studio], targeting platforms
+- 64-bit [Visual Studio]
+- 64-bit programming [Visual Studio]
+- CPUs, targeting specific
+- 64-bit applications [Visual Studio]
 ms.assetid: 845302fc-273d-4f81-820a-7296ce91bd76
 author: ghogen
 ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # How to: Configure projects to target platforms
 
@@ -106,7 +106,7 @@ You might have a .NET assembly or DLL that has both x86 and x64 versions. To set
 > In Visual Studio 2017, you need to unload the project before you can edit the project file. To unload the project, right-click on the project node, and choose **Unload project**. When done editing, save your changes and reload the project by right-clicking the project node and choosing **Reload project**.
 ::: moniker-end
 
-For more information about the project file, see [MSBuild project file schema reference](/visualstudio/msbuild/msbuild-project-file-schema-reference).
+For more information about the project file, see [MSBuild project file schema reference](../msbuild/msbuild-project-file-schema-reference.md).
 
 ## See also
 

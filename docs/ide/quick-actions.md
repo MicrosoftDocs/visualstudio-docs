@@ -2,14 +2,14 @@
 title: Quick Actions, light bulbs, and screwdrivers
 ms.date: 03/28/2018
 ms.topic: conceptual
-author: gewarren
-ms.author: gewarren
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 dev_langs:
-  - CSharp
-  - VB
+- CSharp
+- VB
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Quick Actions
 

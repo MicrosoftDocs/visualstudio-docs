@@ -3,19 +3,19 @@ title: Use regular expressions
 ms.date: 09/13/2019
 ms.topic: conceptual
 f1_keywords:
-  - "vsregularexpressionhelp"
-  - "vs.regularexpressionhelp"
-  - "vs.wildcardsbuilder"
-  - "vs.netregularexpressionhelp"
-  - "vs.wildcards"
+- vsregularexpressionhelp
+- vs.regularexpressionhelp
+- vs.wildcardsbuilder
+- vs.netregularexpressionhelp
+- vs.wildcards
 helpviewer_keywords:
-  - "regular expressions [Visual Studio]"
-  - "regular expressions"
-author: gewarren
-ms.author: gewarren
+- regular expressions [Visual Studio]
+- regular expressions
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Use regular expressions in Visual Studio
 

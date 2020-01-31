@@ -40,5 +40,5 @@ HRESULT Delete();
 ## Remarks  
  After the `Delete` method is called, the [IScriptNode::Alive](../../winscript/reference/iscriptnode-alive.md) method should indicate that script node is not active.  
   
-## See Also  
+## See also  
  [IScriptNode Interface](../../winscript/reference/iscriptnode-interface.md)

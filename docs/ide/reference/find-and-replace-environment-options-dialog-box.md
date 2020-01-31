@@ -3,17 +3,17 @@ title: Find and Replace, Environment, Options Dialog Box
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "VS.ToolsOptionsPages.Environment.FindReplace"
-  - "VS.ToolsOptionsPages.Environment.FindandReplace"
+- VS.ToolsOptionsPages.Environment.FindReplace
+- VS.ToolsOptionsPages.Environment.FindandReplace
 helpviewer_keywords:
-  - "Find and Replace, Options dialog box"
-  - "Find and Replace, customizing"
+- Find and Replace, Options dialog box
+- Find and Replace, customizing
 ms.assetid: f804d6d5-6309-46e4-8294-b83e880b5ec9
-author: gewarren
-ms.author: gewarren
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Find and Replace, Environment, Options Dialog Box
 

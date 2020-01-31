@@ -3,14 +3,14 @@ title: Preview Features, Environment, Options dialog box
 ms.date: 07/26/2019
 ms.topic: reference
 f1_keywords:
-  - "VS.ToolsOptionsPages.Environment.PreviewFeatures"
+- VS.ToolsOptionsPages.Environment.PreviewFeatures
 helpviewer_keywords:
-  - "Preview Features Options dialog box"
-author: gewarren
-ms.author: gewarren
+- Preview Features Options dialog box
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Options dialog box: Environment \> Preview Features
 

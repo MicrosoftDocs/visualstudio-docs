@@ -23,8 +23,8 @@ helpviewer_keywords:
   - "XML documentation comments [JavaScript]"
 ms.assetid: af1a3171-c9d8-45a3-9c96-a763e3b163ef
 caps.latest.revision: 67
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # JavaScript IntelliSense
@@ -121,7 +121,7 @@ IntelliSense helps you write code faster and with fewer errors by providing info
 ### <a name="UserDefined"></a> User-defined Variables, Functions, and Objects
  When you change a JavaScript file, [!INCLUDE[vs_current_short](../includes/vs-current-short-md.md)] scans opened and referenced documents to determine all available code resources. This includes the variables, functions, and objects that you have created. These resources are then available to JavaScript IntelliSense.
 
- For more information about user-defined variables, functions, and objects, see [Creating Your Own Objects](http://go.microsoft.com/fwlink/?LinkId=108671) on the MSDN website.
+ For more information about user-defined variables, functions, and objects, see [Creating Your Own Objects](https://msdn.microsoft.com/library/202863ha.aspx) on the MSDN website.
 
 ### <a name="External"></a> External File References
  You can include various types of external file references to achieve IntelliSense support in your code. External file references may be script references, reference directives, or they can be specified using reference groups.
@@ -277,6 +277,6 @@ IntelliSense helps you write code faster and with fewer errors by providing info
 - [Extending JavaScript IntelliSense](../ide/extending-javascript-intellisense.md)
 - [Statement Completion for Identifiers](../ide/statement-completion-for-identifiers.md)
 - [XML Documentation Comments](../ide/xml-documentation-comments-javascript.md)
-- [About the DHTML Object Model](http://go.microsoft.com/fwlink/?LinkID=92344)
+- [About the DHTML Object Model](https://msdn2.microsoft.com/library/ms533022.aspx)
 - [List Members](https://msdn.microsoft.com/1b9cc469-9cd4-4d42-9999-1f9479635ff8)
-- [SRC Attribute &#124; src Property](http://go.microsoft.com/fwlink/?LinkId=92345)
+- [SRC Attribute &#124; src Property](https://msdn2.microsoft.com/library/ms534642.aspx)

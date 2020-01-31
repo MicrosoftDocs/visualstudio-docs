@@ -83,7 +83,7 @@ A **Performance Session** enables you to configure settings that determine how t
  For more information, see [How to: Collect CPU Counter Data](../profiling/how-to-collect-cpu-counter-data.md)  
   
 ## Windows Events  
- During profiling, you can collect data from event trace providers. You can view the data by using the VSPerfReport.exe command line tool `/calltrace` option. For more information about Event Tracing for Windows (ETW), see [About Event Tracing](http://go.microsoft.com/fwlink/?linkid=90752).  
+ During profiling, you can collect data from event trace providers. You can view the data by using the VSPerfReport.exe command line tool `/calltrace` option. For more information about Event Tracing for Windows (ETW), see [About Event Tracing](https://msdn2.microsoft.com/library/aa363668.aspx).  
   
  For more information, see:  
   

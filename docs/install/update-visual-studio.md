@@ -1,24 +1,22 @@
 ---
-title: "Update Visual Studio"
-titleSuffix: ""
-description: "Learn how to update Visual Studio to the most recent release, step-by-step."
+title: Update Visual Studio
+titleSuffix: ''
+description: Learn how to update Visual Studio to the most recent release, step-by-step.
 ms.date: 07/31/2019
-ms.custom: "seodec18"
+ms.custom: seodec18
 ms.topic: conceptual
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
 helpviewer_keywords:
-  - "update [Visual Studio]"
-  - "change [Visual Studio]"
+- update [Visual Studio]
+- change [Visual Studio]
 f1_keywords:
-  - "VS.ToolsOptionsPages.Environment.ProductUpdates"
-author: TerryGLee
-ms.author: tglee
+- VS.ToolsOptionsPages.Environment.ProductUpdates
+author: ornellaalt
+ms.author: ornella
 manager: jillfra
 ms.workload:
-  - "multiple"
-ms.prod: visual-studio-windows
-ms.technology: vs-installation
+- multiple
 ---
 # Update Visual Studio to the most recent release
 

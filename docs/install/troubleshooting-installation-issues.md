@@ -1,18 +1,18 @@
 ---
-title: "Troubleshoot installation or upgrade issues"
-description: "Sometimes, things can go wrong. If your Visual Studio installation or upgrade fails, this page can help."
+title: Troubleshoot installation or upgrade issues
+description: Sometimes, things can go wrong. If your Visual Studio installation or upgrade fails, this page can help.
 ms.date: 09/13/2019
-ms.custom: "seodec18"
+ms.custom: seodec18
 ms.topic: troubleshooting
 helpviewer_keywords:
-  - "{{PLACEHOLDER}}"
-  - "{{PLACEHOLDER}}"
+- '{{PLACEHOLDER}}'
+- '{{PLACEHOLDER}}'
 ms.assetid: 556EDD3F-E365-43EE-B3DD-03AA4353F75B
-author: TerryGLee
-ms.author: tglee
+author: ornellaalt
+ms.author: ornella
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
 ---
@@ -121,11 +121,11 @@ For more information about how to resolve issues with a [network installation](c
 
 Setup logs are needed to troubleshoot most installation issues. When you submit an issue by using [Report a Problem](../ide/how-to-report-a-problem-with-visual-studio.md) in the Visual Studio Installer, these logs are automatically included in your report.
 
-If you contact Microsoft Support, you might need to provide these setup logs by using the [Microsoft Visual Studio and .NET Framework Log Collection Tool](https://aka.ms/vscollect). The log collection tool collects setup logs from all components installed by Visual Studio, including .NET Framework, Windows SDK, and SQL Server. It also collects computer information, a Windows Installer inventory, and Windows event log information for Visual Studio Installer, Windows Installer, and System Restore.
+If you contact Microsoft Support, you might need to provide these setup logs by using the [Microsoft Visual Studio and .NET Framework Log Collection Tool](https://www.microsoft.com/download/details.aspx?id=12493). The log collection tool collects setup logs from all components installed by Visual Studio, including .NET Framework, Windows SDK, and SQL Server. It also collects computer information, a Windows Installer inventory, and Windows event log information for Visual Studio Installer, Windows Installer, and System Restore.
 
 To collect the logs:
 
-1. [Download the tool](https://aka.ms/vscollect).
+1. [Download the tool](https://www.microsoft.com/download/details.aspx?id=12493).
 2. Open an administrative command prompt.
 3. Run `Collect.exe` from the directory where you saved the tool.
 4. Find the resulting `vslogs.zip` file in your `%TEMP%` directory, for example, `C:\Users\YourName\AppData\Local\Temp\vslogs.zip`.

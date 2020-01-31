@@ -3,18 +3,18 @@ title: Performance Warnings
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "vs.codeanalysis.performancerules"
+- vs.codeanalysis.performancerules
 helpviewer_keywords:
-  - "warnings, performance"
-  - "performance warnings"
-  - "performance, warnings"
-  - "managed code analysis warnings, performance warnings"
+- warnings, performance
+- performance warnings
+- performance, warnings
+- managed code analysis warnings, performance warnings
 ms.assetid: e014ac3a-02e6-46d9-942c-3491dd63782f
-author: gewarren
-ms.author: gewarren
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Performance Warnings
 Performance warnings support high-performance libraries and applications.

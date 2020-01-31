@@ -146,7 +146,7 @@ You can add menu items at run time by specifying the `DynamicItemStart` command 
 
     ```
 
-2. Add the following using statements:
+2. Add the following using directives:
 
     ```csharp
     using Microsoft.VisualStudio.Shell;
@@ -206,7 +206,7 @@ You can add menu items at run time by specifying the `DynamicItemStart` command 
     public const uint cmdidMyCommand = 0x104;
     ```
 
-2. In the *DynamicMenu.cs* file, add the following using statements:
+2. In the *DynamicMenu.cs* file, add the following using directives:
 
     ```csharp
     using EnvDTE;

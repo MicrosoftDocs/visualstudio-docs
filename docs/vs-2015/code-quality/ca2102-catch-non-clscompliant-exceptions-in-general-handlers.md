@@ -11,8 +11,8 @@ helpviewer_keywords:
   - "CA2102"
 ms.assetid: bf2df68f-d386-4379-ad9e-930a2c2e930d
 caps.latest.revision: 21
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: "wpickett"
 ---
 # CA2102: Catch non-CLSCompliant exceptions in general handlers

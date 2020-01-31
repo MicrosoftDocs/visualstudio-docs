@@ -7,8 +7,8 @@ ms.technology: vs-ide-general
 ms.topic: reference
 ms.assetid: 877a0fa3-4b6f-4056-b320-d8727793f708
 caps.latest.revision: 12
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # Visual Studio for Applications Reference

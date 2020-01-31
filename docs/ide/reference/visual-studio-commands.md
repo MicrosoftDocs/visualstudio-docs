@@ -3,15 +3,15 @@ title: Commands
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
-  - "Visual Studio, commands"
-  - "commands, Visual Studio"
-  - "command syntax"
+- Visual Studio, commands
+- commands, Visual Studio
+- command syntax
 ms.assetid: 76ffa394-ee89-4629-aba9-1a62b72e6cc1
-author: gewarren
-ms.author: gewarren
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Visual Studio commands
 

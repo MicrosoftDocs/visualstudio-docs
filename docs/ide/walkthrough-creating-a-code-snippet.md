@@ -1,22 +1,22 @@
 ---
-title: "Walkthrough: Create a code snippet"
+title: 'Walkthrough: Create a code snippet'
 ms.date: 06/10/2019
 ms.topic: conceptual
 helpviewer_keywords:
-  - "code snippets, creating"
-  - "code snippets, shortcut"
-  - "code snippets, template"
-  - "code snippets, replacements"
-  - "code snippets, references"
-  - "code snippets, imports"
+- code snippets, creating
+- code snippets, shortcut
+- code snippets, template
+- code snippets, replacements
+- code snippets, references
+- code snippets, imports
 ms.assetid: 0dcaae11-39cf-4463-9c90-2494321251c2
-author: gewarren
-ms.author: gewarren
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 dev_langs:
-  - "VB"
+- VB
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Walkthrough: Create a code snippet
 
@@ -70,9 +70,9 @@ The following XML is the basic snippet template:
        <![CDATA[Dim root = Math.Sqrt(16)]]>
    </Code>
    ```
-   
+
    > [!NOTE]
-   > You can't specify how lines of code in the **CDATA** section of a code snippet should be indented or formatted. Upon insertion, the language service formats the inserted code automatically. 
+   > You can't specify how lines of code in the **CDATA** section of a code snippet should be indented or formatted. Upon insertion, the language service formats the inserted code automatically.
 
 5. Save the snippet as *SquareRoot.snippet* (you can save it anywhere).
 

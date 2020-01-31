@@ -4,15 +4,15 @@ description: Tutorial that describes how to add tables and foreign keys to a dat
 ms.date: 09/19/2019
 ms.topic: conceptual
 helpviewer_keywords:
-  - "database tables, creating"
-  - "database files, creating"
-  - "table designer"
+- database tables, creating
+- database files, creating
+- table designer
 ms.assetid: 99c2b06f-47aa-414e-8057-a3453712fd23
-author: gewarren
-ms.author: gewarren
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "data-storage"
+- data-storage
 ---
 # Create a database and add tables in Visual Studio
 

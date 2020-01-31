@@ -3,12 +3,12 @@ title: Accessing Models from Text Templates
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "text templates, accessing models"
-author: gewarren
-ms.author: gewarren
+- text templates, accessing models
+author: JoshuaPartlow
+ms.author: joshuapa
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Access models from text templates
 

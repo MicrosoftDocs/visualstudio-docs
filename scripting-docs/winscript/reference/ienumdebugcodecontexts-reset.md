@@ -40,5 +40,5 @@ HRESULT Reset();
 ## Remarks  
  This method resets an enumeration sequence to the beginning.  
   
-## See Also  
+## See also  
  [IEnumDebugCodeContexts Interface](../../winscript/reference/ienumdebugcodecontexts-interface.md)

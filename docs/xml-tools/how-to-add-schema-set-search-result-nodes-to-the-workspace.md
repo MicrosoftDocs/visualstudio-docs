@@ -1,13 +1,13 @@
 ---
-title: "Add XML Schema Set Search Result Nodes to the Workspace"
+title: Add XML Schema Set Search Result Nodes to the Workspace
 ms.date: 11/04/2016
 ms.topic: conceptual
 ms.assetid: ff33b3cc-4db9-4b4e-9378-b45ed5999b18
-author: gewarren
-ms.author: gewarren
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # How to: Add schema set search result nodes to the workspace
 

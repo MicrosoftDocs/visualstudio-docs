@@ -74,7 +74,6 @@
       "feedback_product_url": "https://developercommunity.visualstudio.com/",
       "breadcrumb_path": "/visualstudio/_breadcrumb/toc.json",
       "extendBreadcrumb": "true",
-      "ROBOTS": "INDEX,FOLLOW",
       "manager": "jillfra",
       "author": "jillre",
       "ms.author": "jillfra",
@@ -126,7 +125,7 @@
         "test/**/**.md": "vs-ide-test",
         "vsto/**/**.md": "office-development",
         "workflow-designer/**/**.md": "vs-workflow-designer",
-        "xaml-tools/**/**.md": "vs-ide-designers",
+        "xaml-tools/**/**.md": "vs-xaml-tools",
         "xml-tools/**/**.md": "vs-xml-tools"
       },
       "titleSuffix": {

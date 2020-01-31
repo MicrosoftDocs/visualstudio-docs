@@ -3,19 +3,19 @@ title: Display related data in WPF applications
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "data [WPF], displaying"
-  - "WPF, data binding in Visual Studio"
-  - "WPF data binding [Visual Studio]"
-  - "displaying data, WPF"
-  - "WPF [WPF], data"
-  - "WPF Designer, data binding"
-  - "data binding, WPF"
+- data [WPF], displaying
+- WPF, data binding in Visual Studio
+- WPF data binding [Visual Studio]
+- displaying data, WPF
+- WPF [WPF], data
+- WPF Designer, data binding
+- data binding, WPF
 ms.assetid: 3aa80194-0191-474d-9d28-5ec05654b426
-author: gewarren
-ms.author: gewarren
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "data-storage"
+- data-storage
 ---
 # Display related data in WPF applications
 

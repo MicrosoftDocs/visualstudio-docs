@@ -3,21 +3,21 @@ title: -Out (devenv.exe)
 ms.date: 12/10/2018
 ms.topic: reference
 helpviewer_keywords:
-  - "errors [Visual Studio], builds"
-  - "Devenv, /Out switch"
-  - "builds [Visual Studio], logs"
-  - "error logs [Visual Studio], command-line build errors"
-  - "error logs [Visual Studio]"
-  - "/Out Devenv switch"
-  - "Out Devenv switch"
-  - "builds [Visual Studio], errors"
-  - "output files, build errors"
+- errors [Visual Studio], builds
+- Devenv, /Out switch
+- builds [Visual Studio], logs
+- error logs [Visual Studio], command-line build errors
+- error logs [Visual Studio]
+- /Out Devenv switch
+- Out Devenv switch
+- builds [Visual Studio], errors
+- output files, build errors
 ms.assetid: 9002d8c2-36d4-451c-b489-8f01932f31f7
-author: gewarren
-ms.author: gewarren
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # /Out (devenv.exe)
 

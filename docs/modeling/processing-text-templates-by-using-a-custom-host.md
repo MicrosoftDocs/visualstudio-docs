@@ -3,13 +3,13 @@ title: Processing Text Templates by using a Custom Host
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "text templates, in application or VS extension"
-  - "text templates, custom directive hosts"
-author: gewarren
-ms.author: gewarren
+- text templates, in application or VS extension
+- text templates, custom directive hosts
+author: JoshuaPartlow
+ms.author: joshuapa
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Process Text Templates by using a Custom Host
 

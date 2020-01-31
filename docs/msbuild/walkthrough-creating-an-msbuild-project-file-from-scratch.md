@@ -1,20 +1,20 @@
 ---
-title: "Walkthrough: Creating an MSBuild Project File from Scratch | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: 'Walkthrough: Creating an MSBuild Project File from Scratch | Microsoft Docs'
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "MSBuild, tutorial"
+- MSBuild, tutorial
 ms.assetid: e3acff7c-cb4e-4ae1-8be2-a871bcff847b
-author: mikejo5000
-ms.author: mikejo
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Walkthrough: Create an MSBuild project file from scratch
 Programming languages that target the .NET Framework use MSBuild project files to describe and control the application build process. When you use Visual Studio to create an MSBuild project file, the appropriate XML is added to the file automatically. However, you may find it helpful to understand how the XML is organized and how you can change it to control a build.
 
- For information about creating a project file for a C++ project, see [MSBuild (Visual C++)](/cpp/build/msbuild-visual-cpp).
+ For information about creating a project file for a C++ project, see [MSBuild (C++)](/cpp/build/msbuild-visual-cpp).
 
  This walkthrough shows how to create a basic project file incrementally, by using only a text editor. The walkthrough follows these steps:
 
@@ -38,12 +38,10 @@ Programming languages that target the .NET Framework use MSBuild project files t
 
 This walkthrough shows how to build the project at the command prompt and examine the results. For more information about MSBuild and how to run MSBuild at the command prompt, see [Walkthrough: Use MSBuild](../msbuild/walkthrough-using-msbuild.md).
 
-To complete the walkthrough, you must have the .NET Framework (version 2.0, 3.5, 4.0, or 4.5) installed because it includes MSBuild and the Visual C# compiler, which are required for the walkthrough.
+To complete the walkthrough, you must have the .NET Framework (version 2.0, 3.5, 4.0, 4.5, or later) installed because it includes MSBuild and the Visual C# compiler, which are required for the walkthrough.
 
 ## Create a minimal application
- This section shows how to create a minimal Visual C# application source file by using a text editor.
-
-#### To create the minimal application
+ This section shows how to create a minimal C# application source file by using a text editor.
 
 1. At the command prompt, browse to the folder where you want to create the application, for example, *\My Documents\\* or *\Desktop\\*.
 
@@ -92,7 +90,7 @@ To complete the walkthrough, you must have the .NET Framework (version 2.0, 3.5,
 
 - A `Task` element to start the Visual C# compiler to build the application.
 
-#### To create a minimal MSBuild project file
+### To create a minimal MSBuild project file
 
 1. In the text editor, replace the existing text by using these two lines:
 
@@ -151,20 +149,17 @@ Tasks in the Build target are executed sequentially. In this case, the Visual C#
 > However, we do not recommend the use of wildcard characters because it makes debugging and selective targeting more difficult if source files are added or deleted.
 
 ## Extend the path to include MSBuild
- Before you can access MSBuild, you must extend the PATH environment variable to include the .NET Framework folder.
 
-#### To add MSBuild to your path
+Before you can access MSBuild, you must extend the PATH environment variable to include the .NET Framework folder.
 
-- Starting in Visual Studio 2013, you can find *MSBuild.exe* in the MSBuild folder (*%ProgramFiles%\MSBuild* on a 32-bit operating system, or *%ProgramFiles(x86)%\MSBuild* on a 64-bit operating system).
+Starting in Visual Studio 2013, you can find *MSBuild.exe* in the MSBuild folder (*%ProgramFiles%\MSBuild* on a 32-bit operating system or in *%ProgramFiles(x86)%\MSBuild* on a 64-bit operating system).
 
-     At the command prompt, type **set PATH=%PATH%;%ProgramFiles%\MSBuild** or **set PATH=%PATH%;%ProgramFiles(x86)%\MSBuild**.
+At the command prompt, type **set PATH=%PATH%;%ProgramFiles%\MSBuild** or **set PATH=%PATH%;%ProgramFiles(x86)%\MSBuild**.
 
-     Alternatively, if you have Visual Studio installed, you can use the **Visual Studio Command Prompt**, which has a path that includes the *MSBuild* folder.
+Alternatively, if you have Visual Studio installed, you can use the **Developer Command Prompt for Visual Studio**, which has a path that includes the *MSBuild* folder.
 
-## Use the project file to build the application
+## Build the application
  Now, to build the application, use the project file that you just created.
-
-#### To build the application
 
 1. At the command prompt, type **msbuild helloworld.csproj -t:Build**.
 
@@ -186,7 +181,7 @@ Tasks in the Build target are executed sequentially. In this case, the Visual C#
 
 - An `OutputPath` property to specify a folder to contain the application.
 
-#### To add build properties
+### To add build properties
 
 1. Delete the existing application by typing **del helloworld.exe** at the command prompt.
 
@@ -251,8 +246,6 @@ Your project file should now resemble the following code:
 ## Test the build properties
  Now you can build the application by using the project file in which you used build properties to specify the output folder and application name.
 
-#### To test the build properties
-
 1. At the command prompt, type **msbuild helloworld.csproj -t:Build**.
 
      This creates the *\Bin\\* folder and then invokes the Visual C# compiler to create the *MSBuildSample* application and puts it in the *\Bin\\* folder.
@@ -272,7 +265,7 @@ Your project file should now resemble the following code:
 
 Now that you have multiple targets, you can set the Build target as the default target.
 
-#### To add build targets
+### To add build targets
 
 1. In the project file, add these two targets just after the Build target:
 
@@ -326,7 +319,7 @@ Your project file should now resemble the following code:
 
 - Deleting the application without building another application.
 
-#### To test the build targets
+### To test the build targets
 
 1. At the command prompt, type **msbuild helloworld.csproj -p:AssemblyName=Greetings**.
 
@@ -357,7 +350,7 @@ Your project file should now resemble the following code:
 ## Build incrementally
  You can tell MSBuild to build a target only if the source files or target files that the target depends on have changed. MSBuild uses the time stamp of a file to determine whether it has changed.
 
-#### To build incrementally
+### To build incrementally
 
 1. In the project file, add these attributes to the opening Build target:
 
@@ -392,10 +385,9 @@ Your project file should now resemble the following code:
 
      MSBuild skips the Build target because none of the source files have changed since the application was last built.
 
-## Example
+## C# example
 
-### Description
- The following example shows a project file that compiles a [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] application and logs a message that contains the output file name.
+The following example shows a project file that compiles a C# application and logs a message that contains the output file name.
 
 ### Code
 
@@ -430,10 +422,9 @@ Your project file should now resemble the following code:
 </Project>
 ```
 
-## Example
+## Visual Basic example
 
-### Description
- The following example shows a project file that compiles a [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] application and logs a message that contains the output file name.
+The following example shows a project file that compiles a Visual Basic application and logs a message that contains the output file name.
 
 ### Code
 
@@ -472,5 +463,6 @@ Your project file should now resemble the following code:
  Visual Studio can automatically do much of the work that is shown in this walkthrough. To learn how to use Visual Studio to create, edit, build, and test MSBuild project files, see [Walkthrough: Use MSBuild](../msbuild/walkthrough-using-msbuild.md).
 
 ## See also
+
 - [MSBuild overview](../msbuild/msbuild.md)
 - [MSBuild reference](../msbuild/msbuild-reference.md)

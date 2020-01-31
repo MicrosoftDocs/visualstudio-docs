@@ -3,12 +3,12 @@ title: Get started with unit testing
 ms.date: 04/01/2019
 ms.topic: conceptual
 helpviewer_keywords:
-  - "unit testing, create unit test plans"
-author: gewarren
-ms.author: gewarren
+- unit testing, create unit test plans
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Get started with unit testing
 

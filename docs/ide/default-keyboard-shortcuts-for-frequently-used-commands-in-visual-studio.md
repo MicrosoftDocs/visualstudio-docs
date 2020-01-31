@@ -2,11 +2,11 @@
 title: Default keyboard shortcuts for frequently used commands
 ms.date: 11/04/2016
 ms.topic: reference
-author: gewarren
-ms.author: gewarren
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Popular keyboard shortcuts for Visual Studio
 

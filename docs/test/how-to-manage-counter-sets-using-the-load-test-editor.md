@@ -1,17 +1,17 @@
 ---
-title: "Load test counter sets"
+title: Load test counter sets
 ms.date: 10/19/2016
 ms.topic: conceptual
 f1_keywords:
-  - "vs.test.load.dialog.countersetmapping"
+- vs.test.load.dialog.countersetmapping
 helpviewer_keywords:
-  - "counters, counter sets"
-  - "performance counters"
-  - "counter sets"
-  - "load tests, counter sets"
+- counters, counter sets
+- performance counters
+- counter sets
+- load tests, counter sets
 ms.assetid: 64315c2f-a0b2-4378-be16-0774b99beef5
-author: gewarren
-ms.author: gewarren
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ---
 # How to: Manage counter sets using the Load Test Editor

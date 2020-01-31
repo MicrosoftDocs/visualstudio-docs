@@ -7,10 +7,12 @@
   - name: Quickstart
     expanded: true
     items:
-    - name: ASP.NET Core app in a Container
+    - name: ASP.NET app in a Container
       href: container-tools.md
     - name: React.js Single-page App in a Container
       href: container-tools-react.md
+    - name: Kubernetes development with Azure Dev Spaces >>
+      href: /azure/dev-spaces/quickstart-netcore-visualstudio
   - name: Tutorials  
     expanded: true
     items:
@@ -28,13 +30,13 @@
       href: deploy-app-service.md
     - name: Deploy to Docker Hub
       href: deploy-docker-hub.md
-    - name: View and diagnose containers
+    - name: View and diagnose containers and images
       href: view-and-diagnose-containers.md
     - name: Configure Container Tools
       href: container-tools-configure.md
   - name: Concepts
     items:
-    - name: Building containerized apps
+    - name: How Visual Studio builds containerized apps
       href: container-build.md
   - name: Troubleshooting
     href: troubleshooting-docker-errors.md

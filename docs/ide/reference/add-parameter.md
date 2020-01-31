@@ -2,11 +2,11 @@
 title: Add parameter to a method quick action
 ms.date: 09/28/2018
 ms.topic: reference
-author: gewarren
-ms.author: gewarren
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "dotnet"
+- dotnet
 ---
 # Add a parameter to a method using a Quick Action
 

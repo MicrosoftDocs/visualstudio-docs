@@ -28,5 +28,5 @@ HRESULT CollectGarbage(        SCRIPTGCTYPE scriptgctype    );
 ## Return Value  
  Returns an HRESULT.  
   
-## See Also  
+## See also  
  [IActiveScriptGarbageCollector Interface](../../winscript/reference/iactivescriptgarbagecollector-interface.md)

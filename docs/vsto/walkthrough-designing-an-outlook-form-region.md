@@ -40,7 +40,7 @@ ms.workload:
 
 - [!INCLUDE[Outlook_14_short](../vsto/includes/outlook-14-short-md.md)] or newer.
 
-  ![link to video](../vsto/media/playvideo.gif "link to video") For a video version of this topic, see [Video how to: Design an Outlook form region](http://go.microsoft.com/fwlink/?LinkID=140824).
+  ![link to video](../vsto/media/playvideo.gif "link to video") For a video version of this topic, see [Video how to: Design an Outlook form region](/previous-versions/visualstudio/visual-studio-2008/cc837160(v=vs.90)).
 
 ## Create a new Outlook VSTO Add-in project
  First create a basic VSTO Add-in project.

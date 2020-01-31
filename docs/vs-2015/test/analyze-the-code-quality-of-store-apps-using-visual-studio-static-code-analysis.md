@@ -6,8 +6,8 @@ ms.technology: vs-ide-test
 ms.topic: conceptual
 ms.assetid: 2341013d-a08b-49a7-b6fd-a7b6aaa797e0
 caps.latest.revision: 13
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # Analyze the code quality of Store apps using Visual Studio static code analysis
@@ -29,5 +29,5 @@ The code analysis tool in Visual Studio examines your code for a set of common d
 
 |||
 |-|-|
-|[Code analysis in the MSDN Library](http://go.microsoft.com/fwlink/?LinkID=227580)|Find more information about using code analysis in Visual Studio Ultimate, Visual Studio Premium, and Visual Studio Professional.|
-|[MSDN code analysis team blog](http://go.microsoft.com/fwlink/?LinkId=227200)|Find more information, including technical papers and samples on the code analysis team blog.|
+|[Code analysis in the MSDN Library](https://msdn.microsoft.com/library/dd264897.aspx)|Find more information about using code analysis in Visual Studio Ultimate, Visual Studio Premium, and Visual Studio Professional.|
+|[MSDN code analysis team blog](https://blogs.msdn.com/codeanalysis/)|Find more information, including technical papers and samples on the code analysis team blog.|

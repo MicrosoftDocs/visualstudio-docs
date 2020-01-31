@@ -3,14 +3,14 @@ title: -DoNotLoadProjects (devenv.exe)
 ms.date: 04/30/2019
 ms.topic: reference
 helpviewer_keywords:
-  - "Devenv, /DoNotLoadProjects switch"
-  - "/DoNotLoadProjects Devenv switch"
-  - "DoNotLoadProjects Devenv switch"
-author: gewarren
-ms.author: gewarren
+- Devenv, /DoNotLoadProjects switch
+- /DoNotLoadProjects Devenv switch
+- DoNotLoadProjects Devenv switch
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # /DoNotLoadProjects (devenv.exe)
 

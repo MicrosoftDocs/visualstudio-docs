@@ -3,16 +3,16 @@ title: Start Command
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "debug.start"
+- debug.start
 helpviewer_keywords:
-  - "Start command"
-  - "Debug.Start command"
+- Start command
+- Debug.Start command
 ms.assetid: dc4e4aa2-b0ab-4e00-92db-6dc3058ddc21
-author: gewarren
-ms.author: gewarren
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Start Command
 Begins debugging the startup project.
@@ -38,7 +38,7 @@ This example starts the debugger and ignores any exceptions that occur.
 >Debug.Start
 ```
 
-## See Also
+## See also
 
 - [Visual Studio Commands](../../ide/reference/visual-studio-commands.md)
 - [Command Window](../../ide/reference/command-window.md)

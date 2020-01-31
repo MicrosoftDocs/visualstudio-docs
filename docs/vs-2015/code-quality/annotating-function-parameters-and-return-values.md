@@ -487,7 +487,7 @@ This article describes typical uses of annotations for simple function parameter
      `min(pM->nSize, sizeof(MyStruct))`  
   
 ## Related Resources  
- [Code Analysis Team Blog](http://go.microsoft.com/fwlink/?LinkId=251197)  
+ [Code Analysis Team Blog](https://blogs.msdn.com/b/codeanalysis/)  
   
 ## See Also  
  [Using SAL Annotations to Reduce C/C++ Code Defects](../code-quality/using-sal-annotations-to-reduce-c-cpp-code-defects.md)   

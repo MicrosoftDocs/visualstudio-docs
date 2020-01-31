@@ -8,8 +8,8 @@ helpviewer_keywords:
   - "list call stack command"
   - "Debug.ListCallStack command"
 ms.assetid: a8b20bf2-81d2-4069-aea8-23e6b15b4347
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"
@@ -102,7 +102,7 @@ to set the current stack frame to the second frame.
 >Debug.CallStack /Count:4 /ShowTypes:yes
 ```
 
-## See Also
+## See also
 
 - [List Disassembly Command](../../ide/reference/list-disassembly-command.md)
 - [List Threads Command](../../ide/reference/list-threads-command.md)

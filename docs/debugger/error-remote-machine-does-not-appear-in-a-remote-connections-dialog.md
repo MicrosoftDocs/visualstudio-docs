@@ -16,7 +16,7 @@ ms.workload:
 # Error: Remote machine does not appear in a Remote Connections dialog
 If the remote machine does not appear in the Remote Connections dialog, check the following common causes.
 
- If you are using managed compatibility mode, please check the Visual Studio 2010 documentation: [Troubleshooting Remote Debugging - Visual Studio 2010](https://docs.microsoft.com/previous-versions/visualstudio/visual-studio-2010/2ys11ead(v=vs.100)).
+ If you are using managed compatibility mode, please check the Visual Studio 2010 documentation: [Troubleshooting Remote Debugging - Visual Studio 2010](/previous-versions/visualstudio/visual-studio-2010/2ys11ead(v=vs.100)).
 
 ### Common causes for this error
 
@@ -28,5 +28,5 @@ If the remote machine does not appear in the Remote Connections dialog, check th
 
 - Antivirus software is blocking communication between Visual Studio and the remote machine. To fix this, configure antivirus software to allow Visual Studio and the remote debugger (msvsmon) to communicate.
 
-## See Also
+## See also
 - [Remote Debugging](../debugger/remote-debugging.md)

@@ -44,7 +44,7 @@ Clang-Tidy runs result in warnings displayed in the Error List and as in-editor 
 
 You can configure the checks that clang-tidy runs inside Visual Studio via the **Clang-Tidy Checks** option. This input is provided to the **--checks** argument of the tool. Any further configuration can be included in custom **.clang-tidy** files. See the [Clang-Tidy documentation on LLVM.org](https://clang.llvm.org/extra/clang-tidy/) for more details.
 
-## See Also
+## See also
 
-- [Clang/LLVM Support for MSBuild Projects](https://aka.ms/cpp/clangmsbuild)
-- [Clang/LLVM Support for CMake Projects](https://aka.ms/cpp/clangcmake)
+- [Clang/LLVM Support for MSBuild Projects](https://devblogs.microsoft.com/cppblog/clang-llvm-support-for-msbuild-projects/)
+- [Clang/LLVM Support for CMake Projects](https://devblogs.microsoft.com/cppblog/visual-studio-cmake-support-clang-llvm-cmake-3-14-vcpkg-and-performance-improvements/)

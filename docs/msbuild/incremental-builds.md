@@ -1,15 +1,15 @@
 ---
-title: "Incremental Builds | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Incremental Builds | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "msbuild, incremental builds"
+- msbuild, incremental builds
 ms.assetid: 325e28c7-4838-4e3f-b672-4586adc7500c
-author: mikejo5000
-ms.author: mikejo
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Incremental builds
 

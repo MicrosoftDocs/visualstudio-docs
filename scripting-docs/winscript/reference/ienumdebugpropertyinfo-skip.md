@@ -36,6 +36,6 @@ HRESULT Skip(
 ## Return Value  
  Returns a valid `HRESULT`, typically `S_OK`. Returns `S_FALSE` and sets the current element pointer to the end of the enumeration if `celt` is greater than the number of elements left in the enumerator.  
   
-## See Also  
+## See also  
  [IEnumDebugPropertyInfo Interface](../../winscript/reference/ienumdebugpropertyinfo-interface.md)   
  [DebugPropertyInfo Structure](../../winscript/reference/debugpropertyinfo-structure.md)

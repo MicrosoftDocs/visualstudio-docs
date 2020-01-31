@@ -1,17 +1,17 @@
 ---
-title: "Creating and Running Unit Tests for UWP apps"
+title: Creating and Running Unit Tests for UWP apps
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "unit tests, creating"
-  - "unit tests"
-  - "unit tests, UWP apps"
-  - "unit tests, running"
-ms.author: gewarren
+- unit tests, creating
+- unit tests
+- unit tests, UWP apps
+- unit tests, running
+ms.author: mikejo
 manager: jillfra
 ms.workload:
-  - "uwp"
-author: gewarren
+- uwp
+author: mikejo5000
 ---
 # Walkthrough: Create and run unit tests for UWP apps
 

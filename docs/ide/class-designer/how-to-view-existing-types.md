@@ -1,19 +1,19 @@
 ---
-title: "How to: View Existing Types (Class Designer)"
+title: 'How to: View Existing Types (Class Designer)'
 ms.date: 11/04/2016
 ms.topic: conceptual
 f1_keywords:
-  - "vs.classdesigner.CannotShowBaseType"
+- vs.classdesigner.CannotShowBaseType
 helpviewer_keywords:
-  - "types [Visual Studio], visualizing"
-  - "types [Visual Studio], class diagrams"
-  - "class diagrams, types"
+- types [Visual Studio], visualizing
+- types [Visual Studio], class diagrams
+- class diagrams, types
 ms.assetid: de110a4e-5b51-4a40-9dee-615df4d8f999
-author: gewarren
-ms.author: gewarren
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # How to: View existing types in Class Designer
 

@@ -1,15 +1,15 @@
 ---
-title: "Workflow Designer - ForEach&lt;T&gt; Activity Designer"
+title: Workflow Designer - ForEach&lt;T&gt; Activity Designer
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "System.Activities.Statements.ForEach`1.UI"
+- System.Activities.Statements.ForEach`1.UI
 ms.assetid: 67097b3a-fcf5-4a72-beb1-2c7784151a86
-author: gewarren
-ms.author: gewarren
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # ForEach&lt;T&gt; Activity Designer
 

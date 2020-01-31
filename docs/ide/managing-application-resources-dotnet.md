@@ -3,20 +3,20 @@ title: Manage application resources (.NET)
 ms.date: 11/04/2016
 ms.topic: conceptual
 f1_keywords:
-  - "msvse_resedit.dlg.SetCustomTool"
-  - "msvse_settingsdesigner.err.formatvalue"
-  - "msvse_resedit.err.nameblank"
-  - "msvse_resedit.err.duplicatename"
+- msvse_resedit.dlg.SetCustomTool
+- msvse_settingsdesigner.err.formatvalue
+- msvse_resedit.err.nameblank
+- msvse_resedit.err.duplicatename
 helpviewer_keywords:
-  - "Resource Designer"
-  - "resources [Visual Studio]"
-  - "Resources page in Project Designer"
-  - "application resources [Visual Studio]"
-author: gewarren
-ms.author: gewarren
+- Resource Designer
+- resources [Visual Studio]
+- Resources page in Project Designer
+- application resources [Visual Studio]
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Manage application resources (.NET)
 

@@ -3,17 +3,17 @@ title: Debug.Print
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "debug.print"
+- debug.print
 helpviewer_keywords:
-  - "Debug.Print command"
-  - "Print method"
-  - "Print command"
+- Debug.Print command
+- Print method
+- Print command
 ms.assetid: 0412d381-590a-483f-bab4-6e1cca095645
-author: gewarren
-ms.author: gewarren
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Print command
 
@@ -53,7 +53,7 @@ Both versions of this command return the current value of the expression `expA`.
 >Debug.Print DateTime.Now.Day
 ```
 
-## See Also
+## See also
 
 - [Evaluate Statement Command](../../ide/reference/evaluate-statement-command.md)
 - [Visual Studio Commands](../../ide/reference/visual-studio-commands.md)

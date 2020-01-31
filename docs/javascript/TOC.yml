@@ -20,6 +20,8 @@
     href: tutorial-nodejs.md
   - name: Create a Node.js app with React
     href: tutorial-nodejs-with-react-and-jsx.md
+  - name: Create an ASP.NET Core app with TypeScript
+    href: tutorial-aspnet-with-typescript.md
   - name: Publish a Node.js app to Linux App Service
     href: publish-nodejs-app-azure.md
 - name: How-to Guides
@@ -44,5 +46,5 @@
   items:
   - name: package.json configuration
     href: configure-packages-with-package-json.md
-  - name: Wiki docs for JavaScript and TypeScript
-    href: https://github.com/Microsoft/nodejstools/wiki
+  - name: JavaScript and TypeScript docs repo
+    href: https://github.com/Microsoft/JSTSdocs

@@ -1,18 +1,18 @@
 ---
-title: "What&#39;s New in MSBuild 16.0  | Microsoft Docs"
-ms.date: "03/11/2019"
-ms.topic: "conceptual"
-author: mikejo5000
-ms.author: mikejo
+title: What&#39;s New in MSBuild 16.0  | Microsoft Docs
+ms.date: 03/11/2019
+ms.topic: conceptual
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "multiple"
-monikerRange: ">=vs-2019"
+- multiple
+monikerRange: '>=vs-2019'
 ---
 # What's new in MSBuild 16.0
 
-This article describes updated features and properties in MSBuild 16.0. For the detailed release notes (draft only), see [
-MSBuild 16.0](https://gist.github.com/rainersigwald/009627466f03964d0028e16fda633d9c).
+This article describes updated features and properties in MSBuild 16.0. For the detailed release notes, see [
+MSBuild 16.0](https://github.com/microsoft/msbuild/releases/tag/v16.0.461.62831).
 
 ## Changed path
 

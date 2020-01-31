@@ -1,23 +1,23 @@
 ---
-title: "MSBuild Response Files | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "reference"
+title: MSBuild Response Files | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: reference
 dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
+- VB
+- CSharp
+- C++
+- jsharp
 helpviewer_keywords:
-  - "response files, MSBuild"
-  - "MSBuild, response files"
-  - "MSBuild, .rsp files"
-  - ".rsp files"
+- response files, MSBuild
+- MSBuild, response files
+- MSBuild, .rsp files
+- .rsp files
 ms.assetid: 9f53987b-20ee-470a-ab62-fce997bb5e15
-author: mikejo5000
-ms.author: mikejo
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # MSBuild response files
 Response (*.rsp*) files are text files that contain *MSBuild.exe* command-line switches. Each switch can be on a separate line or all switches can be on one line. Comment lines are prefaced with a **#** symbol. The **@** switch is used to pass another response file to *MSBuild.exe*.

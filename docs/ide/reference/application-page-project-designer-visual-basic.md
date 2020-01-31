@@ -3,16 +3,16 @@ title: Application page of VB project properties
 ms.date: 10/30/2018
 ms.topic: reference
 f1_keywords:
-  - "vb.ProjectPropertiesApplicationWPF"
-  - "vb.ProjectPropertiesApplication"
+- vb.ProjectPropertiesApplicationWPF
+- vb.ProjectPropertiesApplication
 helpviewer_keywords:
-  - "Project Designer, Application page"
-  - "Application page in Project Designer"
-author: gewarren
-ms.author: gewarren
+- Project Designer, Application page
+- Application page in Project Designer
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Application Page, Project Designer (Visual Basic)
 

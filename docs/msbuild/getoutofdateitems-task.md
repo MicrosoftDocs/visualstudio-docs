@@ -11,8 +11,8 @@ dev_langs:
   - "jsharp"
   - "C++"
 helpviewer_keywords:
-  - "MSBuild (Visual C++), GetOutOfDateItems task"
-  - "GetOutOfDateItems task (MSBuild (Visual C++))"
+  - "MSBuild (C++), GetOutOfDateItems task"
+  - "GetOutOfDateItems task (MSBuild (C++))"
 author: mikeblome
 ms.author: mblome
 ms.workload:

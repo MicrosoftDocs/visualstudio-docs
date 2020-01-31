@@ -38,5 +38,5 @@ HRESULT SetProfilerEventMask(
 |`S_OK`|The method succeeded.|  
 |`ACTIVPROF_E_PROFILER_ABSENT`|Profiling is not enabled.|  
   
-## See Also  
+## See also  
  [IActiveScriptProfilerControl Interface](../../winscript/reference/iactivescriptprofilercontrol-interface.md)

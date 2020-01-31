@@ -1,8 +1,8 @@
 ---
 title: "Install Visual Studio 2019 for Mac"
 description: "Instructions on how to install Visual Studio 2019 for Mac and additional components required for cross-platform development."
-author: asb3993
-ms.author: amburns
+author: heiligerdankgesang
+ms.author: dominicn
 ms.date: 09/18/2019
 ms.technology: vs-ide-install
 ms.assetid: 22B1F2CD-32AE-464D-80AC-C8AB4786B015
@@ -13,7 +13,7 @@ ms.custom: video
 To start developing native, cross-platform .NET apps on macOS, install Visual Studio 2019 for Mac following the steps below.
 
  > [!div class="button"]
- > [Download Visual Studio for Mac](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=navigation+cta&utm_content=download+vsmac2019)
+ > [Download Visual Studio for Mac](https://visualstudio.microsoft.com/vs/mac/)
 
 ## Requirements
 
@@ -26,7 +26,7 @@ To build Xamarin apps for iOS or macOS, you'll also need:
 
 ## Installation instructions
 
-1. Download the installer from the [Visual Studio for Mac download page](https://aka.ms/vsmac).
+1. Download the installer from the [Visual Studio for Mac download page](https://visualstudio.microsoft.com/vs/mac/).
 2. Once the download is complete, click the **VisualStudioforMacInstaller.dmg** to mount the installer, then run it by double-clicking the arrow logo:
 
     [![Click the large arrow to begin installation](media/install-installer-sml.png)](media/install-installer.png#lightbox)
@@ -70,9 +70,9 @@ To build Xamarin apps for iOS or macOS, you'll also need:
 
     [![Choose which keyboard shortcuts you would like to use](media/ide-tour-2019-keyboard-shortcut.png)](media/ide-tour-2019-keyboard-shortcut.png#lightbox)
 
-If you have network trouble while installing in a corporate environment, review the [installing behind a firewall or proxy](https://docs.microsoft.com/visualstudio/mac/installation#install-visual-studio-for-mac-behind-a-firewall-or-proxy-server) instructions.
+If you have network trouble while installing in a corporate environment, review the [installing behind a firewall or proxy](/visualstudio/mac/installation#install-visual-studio-for-mac-behind-a-firewall-or-proxy-server) instructions.
 
-Learn more about the changes in the [release notes](https://docs.microsoft.com/visualstudio/releasenotes/vs2019-mac-relnotes).
+Learn more about the changes in the [release notes](/visualstudio/releasenotes/vs2019-mac-relnotes).
 
 > [!NOTE]
 > If you chose not to install a platform or tool during the original installation (by unselecting it in step #6), you must run the installer again if you wish to add the components later.

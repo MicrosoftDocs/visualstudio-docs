@@ -3,9 +3,9 @@ title: Design Windows Forms apps
 ms.date: 08/09/2019
 ms.topic: conceptual
 helpviewer_keywords:
-  - "Windows Forms Designer"
-author: gewarren
-ms.author: gewarren
+- Windows Forms Designer
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ---
 # Windows Forms Designer overview

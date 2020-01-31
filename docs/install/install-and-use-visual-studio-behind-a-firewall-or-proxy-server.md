@@ -1,20 +1,20 @@
 ---
-title: "Install and use behind a firewall or proxy server"
-description: "Review the domain URLs, ports, and protocols that you might want to add to an allow list or open if your organization uses a firewall or a proxy server"
+title: Install and use behind a firewall or proxy server
+description: Review the domain URLs, ports, and protocols that you might want to add to an allow list or open if your organization uses a firewall or a proxy server
 ms.date: 05/22/2019
-ms.custom: "seodec18"
+ms.custom: seodec18
 ms.topic: conceptual
 helpviewer_keywords:
-  - "network installation, Visual Studio"
-  - "administrator guide, Visual Studio"
-  - "installing Visual Studio, administrator guide"
-  - "list of domains, locations, URLs"
-ms.assetid:
-author: TerryGLee
-ms.author: tglee
+- network installation, Visual Studio
+- administrator guide, Visual Studio
+- installing Visual Studio, administrator guide
+- list of domains, locations, URLs
+ms.assetid: 
+author: ornellaalt
+ms.author: ornella
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
 ---
@@ -45,6 +45,7 @@ Because the Visual Studio Installer downloads files from various domains and the
 | download.microsoft.com | Setup packages download location |
 | download.visualstudio.com | Setup packages download location |
 | dl.xamarin.com | Setup packages download location |
+| xamarin-downloads.azureedge.net | Android SDK packages download list location |
 | marketplace.visualstudio.com | Visual Studio Extensions download location |
 | visualstudio.microsoft.com | Documentation location |
 | docs.microsoft.com | Documentation location |
@@ -69,6 +70,10 @@ Because the Visual Studio Installer downloads files from various domains and the
 | www\.incredibuild.com | Game development with C++ (IncrediBuild) |
 | incredibuildvs2017i.azureedge.net | Game development with C++ (IncrediBuild) |
 | www\.python.org | Python development (Python) <br /><br />Data science and analytical applications (Python) |
+| developerservices2.apple.com | Xamarin.iOS provisioning |
+| developer.apple.com | Xamarin.iOS provisioning |
+| appstoreconnect.apple.com | Xamarin.iOS provisioning |
+| idmsa.apple.com | Xamarin.iOS provisioning |
 | | |
 
 ## Use Visual Studio and Azure Services

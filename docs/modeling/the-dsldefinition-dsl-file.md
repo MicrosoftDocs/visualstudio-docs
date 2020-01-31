@@ -3,12 +3,12 @@ title: The DslDefinition.dsl File
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
-  - "Domain-Specific Language, definition file"
-author: gewarren
-ms.author: gewarren
+- Domain-Specific Language, definition file
+author: JoshuaPartlow
+ms.author: joshuapa
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # The DslDefinition.dsl File
 
@@ -240,13 +240,13 @@ Each relationship contains source and target roles that have the following attri
 
 - The role's `Name` is the name that is used within the Relationship class to refer to that end of a link. By convention, a role name is always singular, because each link has only one instance at each end. The following code would work:
 
-    ``` 
+    ```
     Connection connectionLink = ...; OutPort op = connectionLink.Source;
     ```
 
 - By default, the `IsPropertyGenerator` attribute is set to true. If it is set to false, no property is created on the Role Player class. (In that case, `op.Targets`, for example, would not work). However, it is still possible to use custom code to traverse the relationship or obtain access to the links themselves if the custom code uses the relationship explicitly:
 
-    ``` 
+    ```
     OutPort op = ...; foreach (InPort ip in Connection.GetTargets(op)) ...
     foreach (Connection link in Connection.GetLinksToTargets(op)) ...
     ```
@@ -281,7 +281,7 @@ Each segment starts with a relationship name. In an object-to-link hop, the rela
 
 The Component Diagram example contains a path in the ParentElementPath of the ShapeMap for InPort. This path starts as follows:
 
-``` 
+```
     ComponentHasPorts.Component
 ```
 
@@ -289,13 +289,13 @@ In this example, InPort is a subclass of ComponentPort and has a relationship Co
 
 When writing C# against this model, you can jump across a link in one step by using the property that the relationship generates on each of the classes that it relates:
 
-``` 
+```
      InPort port; ...  Component c = port.Component;
 ```
 
 However, you must do both hops explicitly in Path Syntax. Because of this requirement, you can access the intermediate link more easily. The following code completes the hop from the link to the Component:
 
-``` 
+```
     ComponentHasPorts.Component / ! Component
 ```
 

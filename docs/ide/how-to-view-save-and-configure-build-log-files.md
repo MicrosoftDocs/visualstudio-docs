@@ -1,5 +1,5 @@
 ---
-title: "How to: View, save, and configure build log files | Microsoft Docs"
+title: 'How to: View, save, and configure build log files | Microsoft Docs'
 ms.date: 08/28/2019
 ms.technology: vs-ide-compile
 ms.topic: conceptual
@@ -8,7 +8,7 @@ author: ghogen
 ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # How to: View, save, and configure build log files
 

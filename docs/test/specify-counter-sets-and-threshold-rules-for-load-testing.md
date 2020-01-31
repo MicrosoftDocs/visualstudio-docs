@@ -1,17 +1,17 @@
 ---
-title: "Counter Sets and Threshold Rules for load testing"
+title: Counter Sets and Threshold Rules for load testing
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "counters, counter sets"
-  - "load tests, thresholds"
-  - "counter sets"
-  - "load tests, performance"
-  - "load tests, counter sets"
-  - "load tests, threshold rules"
+- counters, counter sets
+- load tests, thresholds
+- counter sets
+- load tests, performance
+- load tests, counter sets
+- load tests, threshold rules
 ms.assetid: 9e14d955-f3a4-4717-bbfe-7f08cdda5678
-author: gewarren
-ms.author: gewarren
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ---
 # Specify counter sets and threshold rules for computers in a load test

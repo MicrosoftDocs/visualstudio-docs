@@ -57,20 +57,48 @@ If you need to install the workload but already have Visual Studio, go to **Tool
 
 ## Create a project
 
-1. Open Visual Studio.
+First, you'll create a .NET Core console application project. The project type comes with all the template files you'll need, before you've even added anything!
 
-    ::: moniker range=">=vs-2019"
-    Press **Esc** to close the start window. Type **Ctrl + Q** to open the search box, type **visual basic**, choose **Templates**, then choose **Create new Console App (.NET Framework) project**. In the dialog box that appears, type a name like **get-started-debugging**, and then choose **Create**.
-    ::: moniker-end
-    ::: moniker range="vs-2017"
-    From the top menu bar, choose **File** > **New** > **Project**. In the left pane of the **New project** dialog box, under **Visual Basic**, choose **Windows Desktop**, and then in the middle pane choose **Console App (.NET Framework)**. Then, type a name like **get-started-debugging** and click **OK**.
-    ::: moniker-end
+::: moniker range="vs-2017"
 
-    If you don't see the **Console App (.NET Framework)** project template, go to **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer. Choose the **.NET desktop development** workload, then choose **Modify**.
+1. Open Visual Studio 2017.
 
-    Visual Studio creates the project.
+2. From the top menu bar, choose **File** > **New** > **Project**.
 
-1. In *Module1.vb*, replace the following code
+3. In the **New Project** dialog box in the left pane, expand **Visual Basic**, and then choose **.NET Core**. In the middle pane, choose **Console App (.NET Core)**. Then name the project *get-started-debugging*.
+
+     If you don't see the **Console App (.NET Core)** project template, choose the **Open Visual Studio Installer** link in the left pane of the **New Project** dialog box.
+
+     The Visual Studio Installer launches. Choose the **.NET Core cross-platform development** workload, and then choose **Modify**.
+
+::: moniker-end
+
+::: moniker range="vs-2019"
+
+1. Open Visual Studio 2019.
+
+   If the start window is not open, choose **File** > **Start Window**.
+
+1. On the start window, choose **Create a new project**.
+
+1. On the **Create a new project** window, enter or type *console* in the search box. Next, choose **Visual Basic** from the Language list, and then choose **Windows** from the Platform list. 
+
+   After you apply the language and platform filters, choose the **Console App (.NET Core)** template, and then choose **Next**.
+
+   ![Choose the C# template for the Console App (.NET Core)](../../debugger/media/vs-2019/get-started-create-console-project-vb.png)
+
+   > [!NOTE]
+   > If you do not see the **Console App (.NET Core)** template, you can install it from the **Create a new project** window. In the **Not finding what you're looking for?** message, choose the **Install more tools and features** link. Then, in the Visual Studio Installer, choose the **.NET Core cross-platform development** workload.
+
+1. In the **Configure your new project** window, type or enter *get-started-debugging* in the **Project name** box. Then, choose **Create**.
+
+   Visual Studio opens your new project.
+
+::: moniker-end
+
+## Create the application
+
+1. In *Module1.vb*, replace all of the default code
 
     ```vb
     Module Module1
@@ -208,6 +236,8 @@ If you need to install the workload but already have Visual Studio, go to **Tool
 
 2. Stop the debugger by pressing the red stop ![Stop Debugging](../../debugger/media/dbg-tour-stop-debugging.png "Stop Debugging") button.
 
+3. Close the console window.
+
 ## Set a breakpoint and start the debugger
 
 1. In the `For Each` loop of the `Main` function, set a breakpoint by clicking the left margin of the following line of code:
@@ -248,6 +278,8 @@ Mostly, we use the keyboard shortcuts here, because it's a good way to get fast 
 
 ## Navigate code using Run to Click
 
+1. Right-click the breakpoint you set previously and choose **Delete Breakpoint** (or press **Ctrl** + **Shift** + **F9** to delete all breakpoints).
+
 1. In the code editor, scroll down and hover over the `Console.WriteLine` method in the `Triangle` class until the green **Run to Click** button ![Run to Click](../../debugger/media/dbg-tour-run-to-click.png "RunToClick") appears on the left. The tooltip for the button shows "Run execution to here".
 
      ![Use the Run to Click feature](../visual-basic/media/get-started-run-to-click-vb.png "Run to Click")
@@ -259,7 +291,7 @@ Mostly, we use the keyboard shortcuts here, because it's a good way to get fast 
 
     Using this button is similar to setting a temporary breakpoint. **Run to Click** is handy for getting around quickly within a visible region of app code (you can click in any open file).
 
-    The debugger advances to the `Console.WriteLine` method implementation for the `Triangle` class.
+    The debugger advances to the `Console.WriteLine` method implementation for the `Triangle` class. (If the debugger pauses first at the breakpoint that you set earlier, use **Run to Click** again to advance the debugger to `Console.WriteLine`.)
 
     While paused, you notice a typo! The output "Drawing a trangle" is misspelled. We can fix it right here while running the app in the debugger.
 
@@ -280,7 +312,9 @@ Let's say that you are done examining the `Draw` method in the `Triangle` class,
 
      This command resumes app execution (and advances the debugger) until the current function returns.
 
-     You should be back in the `For Each` loop in the `Main` method.
+     You should be back in the `For Each` loop in the `Main` method. If not, press **Shift** + **F11** a second time.
+
+1. Click in the left margin to add a new breakpoint in the `for` loop.
 
 ## Restart your app quickly
 

@@ -50,6 +50,8 @@ namespace DesignLibrary
             {
                 Console::WriteLine("Unable to open {0}.", inFile);
             }
+            // For functionally equivalent code, also catch the
+            // remaining exceptions that may be thrown by File.Open
 
             try
             {

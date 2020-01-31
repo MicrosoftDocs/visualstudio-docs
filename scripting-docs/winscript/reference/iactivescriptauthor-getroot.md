@@ -42,6 +42,6 @@ HRESULT GetRoot(
   
 ## Remarks  
   
-## See Also  
+## See also  
  [IActiveScriptAuthor Interface](../../winscript/reference/iactivescriptauthor-interface.md)   
  [IScriptNode Interface](../../winscript/reference/iscriptnode-interface.md)

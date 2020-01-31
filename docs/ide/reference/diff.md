@@ -3,15 +3,15 @@ title: -Diff (devenv.exe)
 ms.date: 12/10/2018
 ms.topic: reference
 helpviewer_keywords:
-  - "Devenv, /Diff switch"
-  - "/Diff Devenv switch"
-  - "Diff Devenv switch"
+- Devenv, /Diff switch
+- /Diff Devenv switch
+- Diff Devenv switch
 ms.assetid: 5377fedb-632a-4e86-a947-7c11c86451e7
-author: gewarren
-ms.author: gewarren
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # /Diff (devenv.exe)
 

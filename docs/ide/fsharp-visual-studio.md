@@ -4,12 +4,12 @@ description: Learn which features of Visual Studio are supported in F#.
 ms.date: 07/11/2018
 ms.topic: reference
 helpviewer_keywords:
-  - "F# features [Visual Studio]"
-author: gewarren
-ms.author: gewarren
+- F# features [Visual Studio]
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "dotnet"
+- dotnet
 ---
 # Develop with Visual F# in Visual Studio
 

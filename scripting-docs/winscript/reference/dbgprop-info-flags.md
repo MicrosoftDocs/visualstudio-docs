@@ -59,6 +59,6 @@ enum {
  DBGPROP_INFO_AUTOEXPAND  
  Specifies that the value field should contain the auto-expanded value, if available, for this type of object.  
   
-## See Also  
+## See also  
  [DebugPropertyInfo Structure](../../winscript/reference/debugpropertyinfo-structure.md)   
  [IDebugProperty Interface](../../winscript/reference/idebugproperty-interface.md)

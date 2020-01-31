@@ -3,19 +3,19 @@ title: Use Class Designer
 ms.date: 05/08/2018
 ms.topic: conceptual
 f1_keywords:
-  - "vs.classdesigner.diagram"
+- vs.classdesigner.diagram
 helpviewer_keywords:
-  - "Class Designer [Visual Studio]"
-  - "Class Designer, about Class Designer"
-  - "types [Visual Studio], viewing"
-  - "classes [Visual Studio], viewing"
-  - "class designer"
+- Class Designer [Visual Studio]
+- Class Designer, about Class Designer
+- types [Visual Studio], viewing
+- classes [Visual Studio], viewing
+- class designer
 ms.assetid: 40ed2c9d-0ce0-4b95-ad78-5dec2065ccea
-author: gewarren
-ms.author: gewarren
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Design and view classes and types with Class Designer
 

@@ -4,13 +4,13 @@ ms.date: 11/15/2018
 ms.technology: vs-ide-general
 ms.custom: get-started
 ms.topic: conceptual
-author: gewarren
-ms.author: gewarren
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 dev_langs:
- - VB
+- VB
 ms.workload:
-  - "dotnet"
+- dotnet
 ---
 # Welcome to the Visual Studio IDE | Visual Basic
 

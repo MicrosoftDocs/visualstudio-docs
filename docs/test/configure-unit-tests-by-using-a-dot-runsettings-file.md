@@ -1,12 +1,12 @@
 ---
-title: "Configure unit tests with a .runsettings file"
-ms.date: 06/14/2019
+title: Configure unit tests with a .runsettings file
+ms.date: 10/03/2019
 ms.topic: conceptual
-ms.author: gewarren
+ms.author: mikejo
 manager: jillfra
 ms.workload:
-  - "multiple"
-author: gewarren
+- multiple
+author: mikejo5000
 ---
 # Configure unit tests by using a *.runsettings* file
 
@@ -32,11 +32,52 @@ The file appears on the Test Settings menu, and you can select or deselect it. W
 
 ::: moniker range=">=vs-2019"
 
+#### Visual Studio 2019 version 16.3 and earlier
+
 To specify a run settings file in the IDE, select **Test** > **Select Settings File**. Browse to and select the *.runsettings* file.
 
 ![Select test settings file menu in Visual Studio 2019](media/vs-2019/select-settings-file.png)
 
 The file appears on the Test menu, and you can select or deselect it. While selected, the run settings file applies whenever you select **Analyze Code Coverage**.
+
+#### Visual Studio 2019 version 16.4 and later
+
+There are three ways of specifying a run settings file in Visual Studio 2019 version 16.4 and later:
+
+- Add a build property to a project through either the project file or a Directory.Build.props file. The run settings file for a project is specified by the property **RunSettingsFilePath**. 
+
+    - Project-level run settings is currently supported in C#, VB, C++, and F# projects.
+    - A file specified for a project overrides any other run settings file specified in the solution.
+
+    Example of specifying a *.runsettings* file for a project:
+    
+    ```xml
+    <Project Sdk="Microsoft.NET.Sdk">
+      <PropertyGroup>
+        <RunSettingsFilePath>$(SolutionDir)\example.runsettings</RunSettingsFilePath>
+      </PropertyGroup>
+      ...
+    </Project>
+    ```
+
+- Place a run settings file named ".runsettings" at the root of your solution.
+
+  If auto detection of run settings files is enabled, the settings in this file are applied across all tests run. You can turn on auto detection of runsettings files from two places:
+  
+    - **Tools** > **Options** > **Test** > **Auto Detect runsettings Files**
+
+      ![Auto detect runsettings file option in Visual Studio 2019](media/vs-2019/auto-detect-runsettings-tools-window.png)
+      
+    - **Test** > **Configure Run Settings** > **Auto Detect runsettings Files**
+    
+      ![Auto detect runsettings file menu in Visual Studio 2019](media/vs-2019/auto-detect-runsettings-menu.png)
+
+- In the IDE, select **Test** > **Configure Run Settings** > **Select Solution Wide runsettings File**, and then select the *.runsettings* file.
+
+   ![Select test solution wide runsettings file menu in Visual Studio 2019](media/vs-2019/select-solution-settings-file.png)
+      
+   - This file overrides the ".runsettings" file at the root of the solution, if it exists, and is applied across all tests run.  
+   - This file selection only persists locally. 
 
 ::: moniker-end
 
@@ -143,7 +184,7 @@ The following XML shows the contents of a typical *.runsettings* file. Each elem
             <AllowLowIntegrityProcesses>True</AllowLowIntegrityProcesses>
             <CollectFromChildProcesses>True</CollectFromChildProcesses>
             <CollectAspDotNet>False</CollectAspDotNet>
-            
+
           </CodeCoverage>
         </Configuration>
       </DataCollector>

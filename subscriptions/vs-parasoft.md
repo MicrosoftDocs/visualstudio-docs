@@ -3,7 +3,7 @@ title: Parasoft Virtualize/SOAtest Professional Desktop Benefit | Microsoft Docs
 author: evanwindom
 ms.author: lank
 manager: lank
-ms.date: 07/31/2019
+ms.date: 11/18/2019
 ms.topic: conceptual
 description:  Learn how to activate the Parasoft Virtualize/SOA Test Professional subscription included in your Visual Studio subscription.
 ---
@@ -68,7 +68,9 @@ Test earlier and more often.  Simulate and test the behavior of unavailable evol
 | Subscription Level                                                 |     Channels                                            | Benefit                                                          | Renewable?    |
 |--------------------------------------------------------------------|---------------------------------------------------------|------------------------------------------------------------------|---------------|
 | Visual Studio Enterprise (Standard)   | VL, Azure, Retail,  selected NFR<sup>1</sup> | 6 months       |  Yes       |
+| Visual Studio Enterprise with GitHub Enterprise | VL | 6 months       |  Yes       |
 | Visual Studio Professional (Standard) | VL, Azure, Retail                                       | Not available                                                           |NA         |
+| Visual Studio Professional with GitHub Enterprise | VL                                      | Not available                                                           |NA         |
 | Visual Studio Test Professional (Standard)                         | VL, Retail                                              | Not available                                                           |NA         |
 | MSDN Platforms (Standard)                                          | VL, Retail                                              | Not available                                                           |NA         |
 | Visual Studio Enterprise, Visual Studio Professional (monthly cloud) | Azure                                       | Not available                                                           |NA|
@@ -87,4 +89,4 @@ Test earlier and more often.  Simulate and test the behavior of unavailable evol
 - Have a question about Visual Studio IDE, Azure DevOps Services or other Visual Studio products or services?  Visit [Visual Studio Support](https://visualstudio.microsoft.com/support/).
 
 ## Next steps
-Take advantage of your own development sandbox by activating your [Azure credits](vs-azure.md). 
+Take advantage of your own development sandbox by activating your [Azure DevTest individual credit](vs-azure.md). 

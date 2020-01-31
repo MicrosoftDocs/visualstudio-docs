@@ -1,13 +1,13 @@
 ---
-title: "Test Controller and Test Agent Requirements for Load Testing"
+title: Test Controller and Test Agent Requirements for Load Testing
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "agents, requirements"
-  - "controllers, requirements"
+- agents, requirements
+- controllers, requirements
 ms.assetid: 372d97ce-12e4-46a9-9863-da508adba68f
-author: gewarren
-ms.author: gewarren
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ---
 # Test controller and test agent requirements for load testing

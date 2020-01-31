@@ -1,14 +1,14 @@
 ---
-title: "Generate unit tests for your code with IntelliTest"
+title: Generate unit tests for your code with IntelliTest
 ms.date: 10/05/2015
 ms.topic: conceptual
 f1_keywords:
-  - "vs.UnitTest.CreateIntelliTest"
-ms.author: gewarren
+- vs.UnitTest.CreateIntelliTest
+ms.author: mikejo
 manager: jillfra
 ms.workload:
-  - "multiple"
-author: gewarren
+- multiple
+author: mikejo5000
 ---
 # How to: Generate unit tests by using IntelliTest
 

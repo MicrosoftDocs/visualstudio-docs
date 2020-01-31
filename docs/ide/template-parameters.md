@@ -3,12 +3,12 @@ title: Project and item template parameters
 ms.date: 01/02/2018
 ms.topic: reference
 helpviewer_keywords:
-  - "Visual Studio templates, parameters"
-  - "template parameters [Visual Studio]"
-  - "project templates, parameters"
-  - "item templates, parameters"
-author: gewarren
-ms.author: gewarren
+- Visual Studio templates, parameters
+- template parameters [Visual Studio]
+- project templates, parameters
+- item templates, parameters
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ---
 # Template parameters

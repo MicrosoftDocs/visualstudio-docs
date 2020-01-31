@@ -3,16 +3,16 @@ title: .NET formatting conventions for EditorConfig
 ms.date: 07/17/2019
 ms.topic: reference
 dev_langs:
-  - "CSharp"
-  - "VB"
+- CSharp
+- VB
 helpviewer_keywords:
-  - "formatting conventions [EditorConfig]"
-author: gewarren
-ms.author: gewarren
+- formatting conventions [EditorConfig]
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "dotnet"
-  - "dotnetcore"
+- dotnet
+- dotnetcore
 ---
 # Formatting conventions
 

@@ -2,14 +2,14 @@
 title: Code style options and code cleanup
 ms.date: 04/25/2019
 ms.topic: conceptual
-author: gewarren
-ms.author: gewarren
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 f1_keywords:
-  - "VS.ToolsOptionsPages.Text_Editor.CSharp.Code_Style.General"
-  - "VS.ToolsOptionsPages.Text_Editor.Basic.Code_Style.General"
+- VS.ToolsOptionsPages.Text_Editor.CSharp.Code_Style.General
+- VS.ToolsOptionsPages.Text_Editor.Basic.Code_Style.General
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Code style preferences
 

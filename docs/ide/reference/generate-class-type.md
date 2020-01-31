@@ -2,16 +2,16 @@
 title: Generate class or type
 ms.date: 01/26/2018
 ms.topic: reference
-author: gewarren
-ms.author: gewarren
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 f1_keywords:
-  - "vsl.GenerateFromUsage"
+- vsl.GenerateFromUsage
 dev_langs:
-  - CSharp
-  - VB
+- CSharp
+- VB
 ms.workload:
-  - "dotnet"
+- dotnet
 ---
 # Generate a class or type in Visual Studio
 

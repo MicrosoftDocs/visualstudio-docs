@@ -1,18 +1,18 @@
 ---
-title: "Install certificates required for an offline installation"
-description: "Learn how to install certificates for a Visual Studio offline installation."
+title: Install certificates required for an offline installation
+description: Learn how to install certificates for a Visual Studio offline installation.
 ms.date: 08/08/2019
-ms.custom: "seodec18"
+ms.custom: seodec18
 ms.topic: conceptual
 helpviewer_keywords:
-  - "{{PLACEHOLDER}}"
-  - "{{PLACEHOLDER}}"
+- '{{PLACEHOLDER}}'
+- '{{PLACEHOLDER}}'
 ms.assetid: 9750A3F3-89C7-4A8F-BA75-B0B06BD772C2
-author: TerryGLee
-ms.author: tglee
+author: ornellaalt
+ms.author: ornella
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
 ---
@@ -44,7 +44,7 @@ When you create a network layout, the necessary certificates are downloaded to t
 
 ### Option 2 - Distribute trusted root certificates in an enterprise environment
 
-For enterprises with offline machines that do not have the latest root certificates, an administrator can use the instructions on the [Configure Trusted Roots and Disallowed Certificates](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/dn265983(v=ws.11)) page to update them.
+For enterprises with offline machines that do not have the latest root certificates, an administrator can use the instructions on the [Configure Trusted Roots and Disallowed Certificates](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/dn265983(v=ws.11)) page to update them.
 
 ### Option 3 - Install certificates as part of a scripted deployment of Visual Studio
 

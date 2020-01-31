@@ -1,6 +1,6 @@
 ---
 title: "General, Debugging, Options Dialog Box | Microsoft Docs"
-ms.date: "11/09/2018"
+ms.date: "11/12/2019"
 ms.topic: "reference"
 f1_keywords:
   - "vs.debug.options.General"
@@ -112,12 +112,12 @@ Tells the debugger to verify that a source file matches the version of the sourc
 Sends all debugger messages that would ordinarily appear in the **Output** window to the **Immediate** window instead.
 
 **Show raw structure of objects in variables windows**:
-Turns off all object structure view customizations. For more information about view customizations, see [Create custom views of .managed objects](../debugger/create-custom-views-of-dot-managed-objects.md).
+Turns off all object structure view customizations. For more information about view customizations, see [Create custom views of managed objects](../debugger/create-custom-views-of-managed-objects.md).
 
 **Suppress JIT optimization on module load (Managed only)**:
 Disables the JIT optimization of managed code when a module is loaded and JIT is compiled while the debugger is attached. Disabling optimization may make it easier to debug some problems, although at the expense of performance. If you are using Just My Code, suppressing JIT optimization can cause non-user code to appear as user code ("My Code"). For more information, see [JIT optimization and debugging](../debugger/jit-optimization-and-debugging.md).
 
-**Enable JavaScript debugging for ASP.NET (Chrome, Edge, and IE)**:
+**Enable JavaScript debugging for ASP.NET (Chrome, Microsoft Edge, and IE)**:
 Enables the script debugger for ASP.NET apps. On first use in Chrome, you may need to sign into the browser to enable Chrome extensions that you have installed. Disable this option to revert to legacy behavior.
 
 **Enable Edge Developer Tools for UWP JavaScript Apps (Experimental)**:
@@ -143,7 +143,7 @@ Ignores race conditions that were detected during debugging if the data didn't c
 **Use Managed Compatibility Mode**:
 Replaces the default debugging engine with a legacy version to enable these scenarios:
 
-- You are using a .NET Framework language other than C#, Visual Basic, or F# that provides its own Expression Evaluator (this includes C++/CLI).
+- You are using a .NET language other than C#, Visual Basic, or F# that provides its own Expression Evaluator (this includes C++/CLI).
 
 - You want to enable Edit and Continue for C++ projects during mixed mode debugging.
 
@@ -170,6 +170,14 @@ The Live Visual Tree and the Live Property Explore windows will appear when you 
 
 - **Enable XAML Hot Reload**:
     Allows you to use the XAML Hot Reload feature with XAML code when your app is running. (This feature was previously called "XAML Edit and Continue")
+
+::: moniker range=">= vs-2019" 
+- **Enable Just My XAML**:
+    Starting in Visual Studio 2019 version 16.4, the **Live Visual Tree** by default shows only XAML that is classified as user code. If you disable this option, all generated XAML code is shown in the tool.
+
+- **Turn off selection mode when an element is selected**
+    Starting in Visual Studio 2019 version 16.4, the in-app toolbar element selector button (**Enable selection**) switches off when an element is selected. If you disable this option, element selection stays on until you click the in-app toolbar button again.
+::: moniker-end
 
 **Enable Diagnostic Tools while debugging**:
 The **Diagnostic Tools** window appears while you are debugging.

@@ -3,12 +3,12 @@ title: EditorConfig versus analyzers
 ms.date: 03/11/2019
 ms.topic: conceptual
 helpviewer_keywords:
-  - "analyzers, faq"
-author: gewarren
-ms.author: gewarren
+- analyzers, faq
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Code analysis FAQ
 

@@ -3,14 +3,14 @@ title: Install Roslyn analyzers
 ms.date: 08/03/2018
 ms.topic: conceptual
 helpviewer_keywords:
-  - "code analysis, managed code"
-  - "analyzers"
-  - "Roslyn analyzers"
-author: gewarren
-ms.author: gewarren
+- code analysis, managed code
+- analyzers
+- Roslyn analyzers
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ms.workload:
-  - "dotnet"
+- dotnet
 ---
 # Install .NET Compiler Platform code analyzers
 
@@ -20,7 +20,7 @@ Visual Studio includes a core set of .NET Compiler Platform (*Roslyn*) analyzers
 
 1. Find the analyzer package you want to install on www.nuget.org.
 
-   For example, you may want to [install the Microsoft FxCop analyzers](install-fxcop-analyzers.md#nuget-package) to check your code for security and performance issues, among others. Or, install [StyleCopAnalyzers](https://www.nuget.org/packages/stylecop.analyzers/) to look for style issues in your codebase.
+   For example, you may want to [install the Microsoft FxCop analyzers](install-fxcop-analyzers.md#nuget-package) to check your code for security and performance issues, among others. Or, install [StyleCop.Analyzers](https://www.nuget.org/packages/stylecop.analyzers/) to look for style issues in your codebase.
 
 2. Install the package in Visual Studio, using either the [Package Manager Console](/nuget/quickstart/install-and-use-a-package-in-visual-studio#package-manager-console) or the [Package Manager UI](/nuget/quickstart/install-and-use-a-package-in-visual-studio#package-manager-console).
 

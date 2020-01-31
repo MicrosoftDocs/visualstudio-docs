@@ -172,7 +172,7 @@
 # Auto-expanded node
       items:
       - name: Create Custom Views of Managed Objects
-        href: create-custom-views-of-dot-managed-objects.md
+        href: create-custom-views-of-managed-objects.md
       - name: Using DebuggerTypeProxy Attribute
         href: using-debuggertypeproxy-attribute.md
       - name: Using the DebuggerDisplay Attribute
@@ -739,10 +739,10 @@
             href: how-to-enable-debugging-for-aspnet-applications.md
           - name: Run the Worker Process Under a User Account
             href: how-to-run-the-worker-process-under-a-user-account.md
-        - name: Prerequistes for Remote Debugging Web Applications
+        - name: Prerequisites for Remote Debugging Web Applications
 # Auto-expanded node
           items:
-          - name: Prerequistes for Remote Debugging Web Applications
+          - name: Prerequisites for Remote Debugging Web Applications
             href: prerequistes-for-remote-debugging-web-applications.md
           - name: Find the Name of the ASP.NET Process
             href: how-to-find-the-name-of-the-aspnet-process.md

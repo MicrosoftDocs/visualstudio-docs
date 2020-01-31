@@ -51,7 +51,7 @@ HRESULT ResumeFromBreakPoint(
 ## Remarks  
  This method continues an application that is currently in a breakpoint.  
   
-## See Also  
+## See also  
  [IRemoteDebugApplication Interface](../../winscript/reference/iremotedebugapplication-interface.md)   
  [BREAKRESUMEACTION Enumeration](../../winscript/reference/breakresumeaction-enumeration.md)   
  [ERRORRESUMEACTION Enumeration](../../winscript/reference/errorresumeaction-enumeration.md)

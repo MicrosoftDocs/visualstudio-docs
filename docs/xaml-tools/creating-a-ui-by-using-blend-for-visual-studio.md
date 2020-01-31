@@ -1,15 +1,15 @@
 ---
 title: Blend for Visual Studio feature tour
-titleSuffix: ""
+titleSuffix: ''
 ms.date: 07/31/2019
 ms.topic: conceptual
 f1_keywords:
-  - "Blend.Start.Dev12"
-author: gewarren
-ms.author: gewarren
+- Blend.Start.Dev12
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Blend for Visual Studio overview
 

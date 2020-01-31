@@ -62,7 +62,7 @@ HRESULT HandleRuntimeError(
 > [!NOTE]
 > While in the run-time fault, the language engine may be called by the thread to do such tasks as enumerate stack frames or evaluate expressions.  
   
-## See Also  
+## See also  
  [IDebugApplication Interface](../../winscript/reference/idebugapplication-interface.md)   
  [IActiveScriptErrorDebug Interface](../../winscript/reference/iactivescripterrordebug-interface.md)   
  [IActiveScriptSite](../../winscript/reference/iactivescriptsite.md)   

@@ -7,7 +7,7 @@ author: ghogen
 ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # How to: Suppress compiler warnings
 
@@ -27,7 +27,7 @@ Use the **Build** property page to suppress specific warnings for C# and F# proj
 
 1. Rebuild the solution.
 
-## Suppress specific warnings for Visual C++
+## Suppress specific warnings for C++
 
 Use the **Configuration Properties** property page to suppress specific warnings for C++ projects.
 

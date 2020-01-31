@@ -68,6 +68,6 @@ The Graphics Pixel History window in Visual Studio Graphics Analyzer helps you u
 ### Links to graphics objects
  To understand the graphics events in the pixel history, you might need information about the device state at the time of the event or about the Direct3D objects that are referenced by the event. For each event in the pixel history, the **Graphics Pixel History** provides links to the then-current device state and to related objects.
 
-## See Also
+## See also
 - [Walkthrough: Missing Objects Due to Device State](walkthrough-missing-objects-due-to-device-state.md)
 - [Walkthrough: Debugging Rendering Errors Due to Shading](walkthrough-debugging-rendering-errors-due-to-shading.md)

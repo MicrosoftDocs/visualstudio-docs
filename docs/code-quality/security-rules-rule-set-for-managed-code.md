@@ -3,11 +3,11 @@ title: Security Rules rule set for managed code
 ms.date: 11/04/2016
 ms.topic: reference
 ms.assetid: 564aeac6-03fa-41b0-b655-88179f0ab01b
-author: gewarren
-ms.author: gewarren
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ms.workload:
-  - "dotnet"
+- dotnet
 ---
 # Security Rules rule set for managed code
 
@@ -80,3 +80,5 @@ Use the Microsoft Security Rules rule set for legacy code analysis to maximize t
 |[CA3010](../code-quality/ca3010.md)|Review code for XAML injection vulnerabilities|
 |[CA3011](../code-quality/ca3011.md)|Review code for DLL injection vulnerabilities|
 |[CA3012](../code-quality/ca3012.md)|Review code for regex injection vulnerabilities|
+|[CA5358](../code-quality/ca5358.md)|Do Not Use Unsafe Cipher Modes|
+|[CA5403](../code-quality/ca5403.md)|Do not hard-code certificate|

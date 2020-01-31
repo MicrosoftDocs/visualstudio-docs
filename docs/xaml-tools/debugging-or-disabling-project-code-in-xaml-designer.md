@@ -3,8 +3,8 @@ title: Debug or disable project code in XAML Designer
 ms.date: 11/04/2016
 ms.topic: conceptual
 ms.assetid: ac600581-8fc8-49e3-abdf-1569a3483d74
-author: gewarren
-ms.author: gewarren
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ---
 # Debug or disable project code in XAML Designer
@@ -92,4 +92,4 @@ When you select **Only Display Platform Controls**, all custom controls coming f
 
 ## See also
 
-- [Design XAML in Visual Studio and Blend for Visual Studio](../designers/designing-xaml-in-visual-studio.md)
+- [Design XAML in Visual Studio and Blend for Visual Studio](designing-xaml-in-visual-studio.md)

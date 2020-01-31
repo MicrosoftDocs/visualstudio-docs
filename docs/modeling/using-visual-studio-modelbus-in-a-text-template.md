@@ -2,11 +2,11 @@
 title: Use ModelBus in a Text Template
 ms.date: 11/04/2016
 ms.topic: conceptual
-author: gewarren
-ms.author: gewarren
+author: JoshuaPartlow
+ms.author: joshuapa
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Using Visual Studio ModelBus in a Text Template
 

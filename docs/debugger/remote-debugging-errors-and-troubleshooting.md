@@ -27,7 +27,7 @@ You may come across the following errors when attempting to debug remotely.
 
 - [Error: Unable to Automatically Step Into the Server](../debugger/error-unable-to-automatically-step-into-the-server.md)
 
-- [Error: The Microsoft Visual Studio Remote Debugging Monitor (MSVSMON.EXE) does not appear to be running on the remote computer.](/visualstudio/debugger/error-remote-debugging-monitor-msvsmon-exe-does-not-appear-to-be-running)
+- [Error: The Microsoft Visual Studio Remote Debugging Monitor (MSVSMON.EXE) does not appear to be running on the remote computer.](error-remote-debugging-monitor-msvsmon-exe-does-not-appear-to-be-running.md)
 
 - [Unable to Connect to the Microsoft Visual Studio Remote Debugging Monitor](../debugger/unable-to-connect-to-the-microsoft-visual-studio-remote-debugging-monitor.md)
 
@@ -67,5 +67,5 @@ You want to run the remote debugger as an administrator in several scenarios:
 
 You do **not** want to run as an administrator if you want to launch processes, and the process you want to launch should **not** be an administrator.
 
-## See Also
+## See also
 - [Remote Debugging](../debugger/remote-debugging.md)

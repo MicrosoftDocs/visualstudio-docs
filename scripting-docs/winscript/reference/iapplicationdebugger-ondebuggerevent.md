@@ -52,6 +52,6 @@ HRESULT onDebuggerEvent(
   
  This method is called when `IDebugApplication::FireDebuggerEvent` is called.  
   
-## See Also  
+## See also  
  [IApplicationDebugger Interface](../../winscript/reference/iapplicationdebugger-interface.md)   
  [IDebugApplication::FireDebuggerEvent](../../winscript/reference/idebugapplication-firedebuggerevent.md)

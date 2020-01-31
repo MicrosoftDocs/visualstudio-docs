@@ -1,20 +1,20 @@
 ---
-title: "MSBuild Reserved and Well-known Properties | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "reference"
+title: MSBuild Reserved and Well-known Properties | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: reference
 dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
+- VB
+- CSharp
+- C++
+- jsharp
 helpviewer_keywords:
-  - "MSBuild, reserved properties"
+- MSBuild, reserved properties
 ms.assetid: 99333e61-83c9-4804-84e3-eda297c2478d
-author: mikejo5000
-ms.author: mikejo
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # MSBuild reserved and well-known properties
 [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] provides a set of predefined properties that store information about the project file and the [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] binaries. These properties are evaluated in the same manner as other [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] properties. For example, to use the `MSBuildProjectFile` property, you type `$(MSBuildProjectFile)`.
@@ -40,7 +40,7 @@ ms.workload:
 | `MSBuildProjectFile` | Reserved | The complete file name of the project file, including the file name extension; for example, *MyApp.proj*. |
 | `MSBuildProjectFullPath` | Reserved | The absolute path and complete file name of the project file, including the file name extension; for example, *C:\MyCompany\MyProduct\MyApp.proj*. |
 | `MSBuildProjectName` | Reserved | The file name of the project file without the file name extension; for example, *MyApp*. |
-| `MSBuildRuntimeType` | Reserved | The type of the runtime that is currently executing. Introduced in MSBuild 15. Value may be undefined (prior to MSBuild 15), `Full` indicating that MSBuild is running on the desktop .NET Framework, `Core` indicating that MSBuild is running on .NET Core, or `Mono` indicating that MSBuild is running on Mono. |
+| `MSBuildRuntimeType` | Reserved | The type of the runtime that is currently executing. Introduced in MSBuild 15. Value may be undefined (prior to MSBuild 15), `Full` indicating that MSBuild is running on the desktop .NET Framework, `Core` indicating that MSBuild is running on .NET Core (for example in `dotnet build`), or `Mono` indicating that MSBuild is running on Mono. |
 | `MSBuildStartupDirectory` | Reserved | The absolute path of the folder where [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] is called. By using this property, you can build everything below a specific point in a project tree without creating *\<dirs>.proj* files in every directory. Instead, you have just one project—for example, *c:\traversal.proj*, as shown here:<br /><br /> `<Project ...>     <ItemGroup>         <ProjectFiles              Include="$            (MSBuildStartupDirectory)            **\*.csproj"/>     </ItemGroup>     <Target Name="build">         <MSBuild             Projects="@(ProjectFiles)"/>     </Target> </Project>`<br /><br /> To build at any point in the tree, type:<br /><br /> `msbuild c:\traversal.proj`<br /><br /> Do not include the final backslash on this property. |
 | `MSBuildThisFile` | Reserved | The file name and file extension portion of `MSBuildThisFileFullPath`. |
 | `MSBuildThisFileDirectory` | Reserved | The directory portion of `MSBuildThisFileFullPath`.<br /><br /> Include the final backslash in the path. |

@@ -1,16 +1,16 @@
 ---
-title: "Customize insert/update/delete behavior of entity classes"
+title: Customize insert/update/delete behavior of entity classes
 ms.date: 11/04/2016
 ms.topic: conceptual
 dev_langs:
-  - "VB"
-  - "CSharp"
+- VB
+- CSharp
 ms.assetid: 03ff1146-706e-4780-91cb-56a83df63eea
-author: gewarren
-ms.author: gewarren
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "data-storage"
+- data-storage
 ---
 # Walkthrough: Customize the insert, update, and delete behavior of entity classes
 

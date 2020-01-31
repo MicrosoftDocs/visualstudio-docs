@@ -3,17 +3,17 @@ title: Replace In Files Command
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "edit.replaceinfiles"
+- edit.replaceinfiles
 helpviewer_keywords:
-  - "Edit.ReplaceInFiles command"
-  - "Replace In Files command"
-  - "ReplaceInFiles command"
+- Edit.ReplaceInFiles command
+- Replace In Files command
+- ReplaceInFiles command
 ms.assetid: f116066a-4f65-4f2c-94ef-12cbd8cfb598
-author: gewarren
-ms.author: gewarren
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Replace In Files Command
 Replaces text in files using a subset of the options available on the **Replace in Files** tab of the **Find and Replace** window.
@@ -99,7 +99,7 @@ This example searches for `btnCancel` and replaces it with `btnReset` in all .cl
 >Edit.ReplaceinFiles btnCancel btnReset /lookin:"c:/my visual studio projects" /ext:.cls /text2
 ```
 
-## See Also
+## See also
 
 - [Finding and Replacing Text](../../ide/finding-and-replacing-text.md)
 - [Replace in Files](../../ide/replace-in-files.md)
