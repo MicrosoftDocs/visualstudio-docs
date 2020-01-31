@@ -1149,7 +1149,7 @@ An individual menu item consists of the menu text and an optional icon, check bo
 | Element | Token name: Category.color |
 | --- | --- |
 | Background | `Environment.CommandBarMenuItemMouseOver` |
-| Foreground (Text) | `Environment.CommandBarMenuItemMouseOver` |
+| Foreground (Text) | `Environment.CommandBarMenuItemMouseOverText` |
 | Foreground (Submenu glyph) | `Environment.CommandBarMenuMouseOverSubmenuGlyph` |
 | Check mark | `Environment.CommandBarCheckBoxMouseOver` |
 | Check mark background | `Environment.CommandBarHoverOverSelectedIcon` |
