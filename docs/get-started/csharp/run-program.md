@@ -74,7 +74,7 @@ Once you have all the files in the project, or an open folder, press the green a
 
 ## Troubleshooting
 
-Your code might have errors, but it could be that it depends on some other assemblies or NuGet packages, or was writen to target a different version of .NET.
+Your code might have errors, but if the code is correct, but just depends on some other assemblies or NuGet packages, or was written to target a different version of .NET, you might be able to easily fix it.
 
 ### Add references
 
