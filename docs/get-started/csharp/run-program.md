@@ -20,7 +20,7 @@ ms.workload:
 
 What you need to do to run a program depends on what you're starting from, what type of program, app, or service it is, and whether you want to run it under the debugger or not. In the simplest case, when you have a project open in Visual Studio, build and run it by pressing **Ctrl**+**F5** (**Start without debugging**) or **F5** (**Start with debugging**), or press the green arrow (**Start Button**) on the main Visual Studio toolbar.
 
-![Screenshot showing start button](media/run-program/vs-start-button.png)
+![Screenshot showing start button](media/vs-start-button.png)
 
 If there are multiple ways of starting a project, choose by opening the dropdown and selecting an option. For most simple programs, the Console App project template is used, so there's usually only one option there. There could be multiple options in other cases, such as if the project is set up to run in a Docker container, or for web apps, there's a choice of web server (for example, IIS Express) and browser to use when launching. For mobile apps, you can choose from a variety of available device emulators.
 
@@ -32,7 +32,7 @@ If you already have the code for your program in a project in Visual Studio, ope
 
 After the projects loads in Visual Studio, press **Ctrl**+**F5** (**Start without debugging**) or use the green **Start** button on the Visual Studio toolbar to run the program.  If there are multiple projects, the one with the `Main` method must be set as the startup project. To set the startup project, right-click on a project node, and choose **Set as startup project**.
 
-![Set startup project](media/run-program/set-as-startup-project.png)
+![Set startup project](media/set-as-startup-project.png)
 
 Visual Studio attempts to build and run your project.  If there are build errors, you see the build output in the **Output** window and the errors in the **Error List** window.
 
@@ -60,7 +60,7 @@ For a second file, right-click on the project node in **Solution Explorer** to o
 
 ### Starting from a folder
 
-When you are working with a folder of many files, first see if there's a project or solution.  If the program was created with Visual Studio, you should find a project file or a solution file. Look for files with the .csproj extension or .sln extension and in the Windows File Explorer, double-click on one of them to open them in Visual Studio. See [Starting from a Visual Studio solution or project](#starting-from-a-visual-studio-solution-or-project).
+When you are working with a folder of many files, first see if there's a project or solution.  If the program was created with Visual Studio, you should find a project file or a solution file. Look for files with the .csproj extension or .sln extension and in the Windows File Explorer, double-click on one of them to open them in Visual Studio. See [Starting from a Visual Studio solution or project](#starting-from-a-project).
 
 If you don't have a project file, such as if the code was developed in another development environment, then open the top-level folder by using the **Open folder** method in Visual Studio. See [Develop code without projects or solutions](../../ide/develop-code-in-visual-studio-without-projects-or-solutions.md).
 
@@ -84,7 +84,7 @@ Visual Studio tries to help you identify missing references. If it finds an unre
 
 - add a using directive
 - add a reference to an assembly
-- install a NuGet package. 
+- install a NuGet package.
 
 #### Missing using directive
 
@@ -112,7 +112,7 @@ If that doesn't solve the issue and Visual Studio can't locate the package, try 
 
 If there is any information available on the version that the author or publisher of the code was using, you can change the target framework to match that. You might need to install a specific version of the .NET Framework or .NET Core, if it's not already installed. See [Modify Visual Studio](../../install/modify-visual-studio).
 
-To change the target framework, see [Change the target framework](../../ide/visual-studio-multi-targeting-overview#change-the-target-framework). For more information, see [Troubleshooting .NET Framework targeting errors](troubleshooting-dotnet-framework-targeting-errors).
+To change the target framework, see [Change the target framework](../../ide/visual-studio-multi-targeting-overview#change-the-target-framework.md). For more information, see [Troubleshooting .NET Framework targeting errors](../../msbuild/troubleshooting-dotnet-framework-targeting-errors.md).
 
 ## Next steps
 
