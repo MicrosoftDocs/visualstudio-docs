@@ -83,7 +83,7 @@ To make sure that you have access to everything you need when you use Visual Stu
 | - | - | - | - | - |
 | URL<br>resolution | go.microsoft.com<br><br>aka.ms | | | Used to shorten URLs, which then resolve into longer URLs |
 | Start Page | vsstartpage.blob.core.windows.net | | 443 | Used to display Developer News shown on the start page (Visual Studio 2017 only) |
-| Targeted<br> Notification <br>Service | targetednotifications.azurewebsites.net <br><br>www.research.net | | 80<br><br>443 | Used to filter a global list of notifications to a list that is applicable only to specific types of machines/usage scenarios |
+| Targeted<br> Notification <br>Service | targetednotifications-tm.trafficmanager.net <br><br>www.research.net | | 443<br><br>443 | Used to filter a global list of notifications to a list that is applicable only to specific types of machines/usage scenarios |
 | Extension <br>update check | marketplace.visualstudio.com<br><br>&#42;.windows.net <br>&#42;.microsoftonline.com <br>&#42;.live.com | | 443 | Used to provide notifications when an installed extension has an update available <br><br> Used as a sign-in location |
 | AI Project <br>Integration | az861674.vo.msecnd.net | | 443<br> | Used to configure new projects to send usage data to your registered Application Insights account |
 | Code Lens | codelensprodscus1su0.app.<br>codelens.visualstudio.com | | 443 | Used to provide information in the editor about when a file was last updated, the timeline of changes, the work items that changes are associated with, the authors, and more |
