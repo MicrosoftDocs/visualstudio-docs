@@ -87,7 +87,7 @@ First, you'll create a .NET Core console application project. The project type c
 
    After you apply the language and platform filters, choose the **Console App (.NET Core)** template, and then choose **Next**.
 
-   ![Choose the C# template for the Console App (.NET Core)](../../debugger/media/vs-2019/get-started-create-console-project.png)
+   ![Choose the C# template for the Console App (.NET Core)](../csharp/media/vs-2019/get-started-create-console-project.png)
 
    > [!NOTE]
    > If you do not see the **Console App (.NET Core)** template, you can install it from the **Create a new project** window. In the **Not finding what you're looking for?** message, choose the **Install more tools and features** link. Then, in the Visual Studio Installer, choose the **.NET Core cross-platform development** workload.
@@ -100,7 +100,7 @@ First, you'll create a .NET Core console application project. The project type c
 
 ## Create the application
 
-1. In *Program.cs*, replace all of the default code, shown here:
+1. In *Program.cs*, replace all of the default code with the following code instead:
 
     ```csharp
     using System;
@@ -157,7 +157,7 @@ First, you'll create a .NET Core console application project. The project type c
 
     `name += letters[i];`
 
-    A red circle appears where you set the breakpoint.
+    A red circle ![Breakpoint](../../debugger/media/dbg-breakpoint.png "Breakpoint") appears where you set the breakpoint.
 
     Breakpoints are one of the most basic and essential features of reliable debugging. A breakpoint indicates where Visual Studio should suspend your running code so you can take a look at the values of variables, or the behavior of memory, or whether or not a branch of code is getting run.
 
@@ -169,7 +169,7 @@ First, you'll create a .NET Core console application project. The project type c
 
      If the app is not yet running, **F5** starts the debugger and stops at the first breakpoint. Otherwise, **F5** continues running the app to the next breakpoint.
 
-    Breakpoints are a useful feature when you know the line of code or the section of code that you want to examine in detail.
+    Breakpoints are a useful feature when you know the line of code or the section of code that you want to examine in detail. For information on the different types of breakpoints you can set, such as conditional breakpoints, see [Using breakpoints](../../debugger/using-breakpoints.md).
 
 ## Navigate code in the debugger using step commands
 
@@ -201,7 +201,7 @@ Mostly, we use the keyboard shortcuts here, because it's a good way to get fast 
 
      ![Use F10 to Step Over code](../csharp/media/get-started-step-over.png "F10 Step Over")
 
-     Notice this time that the debugger does not step into the `SendMessage` method. **F10** advances the debugger without stepping into functions or methods in your app code (the code still executes). By pressing **F10** on the `SendMessage` method call (instead of **F11**), we skipped over the implementation code for `SendMessage` (which maybe we're not interested in right now).
+     Notice this time that the debugger does not step into the `SendMessage` method. **F10** advances the debugger without stepping into functions or methods in your app code (the code still executes). By pressing **F10** on the `SendMessage` method call (instead of **F11**), we skipped over the implementation code for `SendMessage` (which maybe we're not interested in right now). For more information on different ways to move through your code, see [Navigate code in the debugger](../../debugger/navigating-through- code-with-the-debugger.md).
 
 ## Navigate code using Run to Click
 
@@ -214,11 +214,9 @@ Mostly, we use the keyboard shortcuts here, because it's a good way to get fast 
 
 2. Click the **Run to Click** button ![Run to Click](../../debugger/media/dbg-tour-run-to-click.png "RunToClick").
 
-    Using this button is similar to setting a temporary breakpoint. **Run to Click** is handy for getting around quickly within a visible region of app code (you can click in any open file).
-
     The debugger advances to the `Console.WriteLine` method.
 
-    While paused, you notice a typo! The output "Drawing a trangle" is misspelled. We can fix it right here while running the app in the debugger.
+    Using this button is similar to setting a temporary breakpoint. **Run to Click** is handy for getting around quickly within a visible region of app code (you can click in any open file).
 
 ## Restart your app quickly
 
@@ -293,7 +291,7 @@ Features that allow you to inspect variables are one of the most useful features
 
 ## Change the execution flow
 
-1. Press **F11** twice to run the `Consoel.WriteLine` method.
+1. Press **F11** twice to run the `Console.WriteLine` method.
 
 1. With the debugger paused in the `SendMessage` method call, use the mouse to grab the yellow arrow (the execution pointer) on the left and move the yellow arrow up one line, back to `Console.WriteLine`.
 
