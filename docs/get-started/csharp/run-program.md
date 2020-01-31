@@ -80,7 +80,7 @@ Your code might have errors, but it could be that it depends on some other assem
 
 To build properly, the code must be correct and have the right references set up to libraries or other dependencies. You can look at the red squiggly lines and at the **Error List** to see if the program has any errors, even before you compile and run it. If you are seeing errors related to unresolved names, you probably need to add a reference or a using directive, or both. If the code references any assemblies or NuGet packages, you need to add those references in the project.
 
-Visual Studio tries to help you identify missing references. If it finds an unresolved name, it shows a light bulb icon in the editor. If you expand this, you can see some suggestions on how to fix the issue. One of the possible fixes might be to:
+Visual Studio tries to help you identify missing references. If it finds an unresolved name, it shows a light bulb icon in the editor. If you expand this, you can see some suggestions on how to fix the issue. Possible fixes might be to:
 
 - add a using directive
 - add a reference to an assembly
