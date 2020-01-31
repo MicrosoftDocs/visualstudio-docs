@@ -205,31 +205,20 @@ Mostly, we use the keyboard shortcuts here, because it's a good way to get fast 
 
 ## Navigate code using Run to Click
 
-1. Right-click the breakpoint you set previously and choose **Delete Breakpoint** (or press **Ctrl** + **Shift** + **F9** to delete all breakpoints).
-
-1. In the code editor, scroll down and hover over the `Console.WriteLine` method in the `Triangle` class until the green **Run to Click** button ![Run to Click](../../debugger/media/dbg-tour-run-to-click.png "RunToClick") appears on the left. The tooltip for the button shows "Run execution to here".
+1. In the code editor, scroll down and hover over the `Console.WriteLine` method in the `SendMessage` message until the green **Run to Click** button ![Run to Click](../../debugger/media/dbg-tour-run-to-click.png "RunToClick") appears on the left. The tooltip for the button shows "Run execution to here".
 
      ![Use the Run to Click feature](../csharp/media/get-started-run-to-click.png "Run to Click")
 
    > [!NOTE]
-   > The **Run to Click** button is new in [!include[vs_dev15](../../misc/includes/vs_dev15_md.md)]. If you don't see the green arrow button, use **F11** in this example instead to advance the debugger to the right place.
+   > The **Run to Click** button is new in [!include[vs_dev15](../../misc/includes/vs_dev15_md.md)]. (If you don't see the green arrow button, use **F11** in this example instead to advance the debugger to the right place.)
 
 2. Click the **Run to Click** button ![Run to Click](../../debugger/media/dbg-tour-run-to-click.png "RunToClick").
 
     Using this button is similar to setting a temporary breakpoint. **Run to Click** is handy for getting around quickly within a visible region of app code (you can click in any open file).
 
-    The debugger advances to the `Console.WriteLine` method implementation for the `Triangle` class. (If the debugger pauses first at the breakpoint that you set earlier, use **Run to Click** again to advance the debugger to `Console.WriteLine`.)
+    The debugger advances to the `Console.WriteLine` method.
 
     While paused, you notice a typo! The output "Drawing a trangle" is misspelled. We can fix it right here while running the app in the debugger.
-
-## Edit code and continue debugging
-
-1. Click into "Drawing a trangle" and type a correction, changing "trangle" to "triangle".
-
-1. Press **F11** once and you see that the debugger advances again.
-
-    > [!NOTE]
-    > Depending on what type of code you edit in the debugger, you may see a warning message. In some scenarios, the code will need to recompile before you can continue.
 
 ## Restart your app quickly
 
@@ -237,23 +226,25 @@ Click the **Restart** ![Restart App](../../debugger/media/dbg-tour-restart.png "
 
 When you press **Restart**, it saves time versus stopping the app and restarting the debugger. The debugger pauses at the first breakpoint that is hit by executing code.
 
-The debugger stops again at the breakpoint you set, on the `shape.Draw()` method.
+The debugger stops again at the breakpoint you previously set inside the `for` loop.
 
 ## Inspect variables with data tips
 
 Features that allow you to inspect variables are one of the most useful features of the debugger, and there are different ways to do it. Often, when you try to debug an issue, you are attempting to find out whether variables are storing the values that you expect them to have at a particular time.
 
-1. While paused on the `shape.Draw()` method, hover over the `shape` object and you see its default property value, which is the object type `Rectangle`.
+1. While paused on the `name += letters[i]` statement, hover over the `letters` variable and you see it's default value, the value of the first element in the array, `char[10]`.
 
-1. Expand the `shape` object to see its properties, such as the `Height` property, which has a value of 0.
+1. Expand the `letters` variable to see its properties, which include all the elements that the variable contains.
 
-1. Press **F10** (or **Debug** > **Step Over**) a few times to iterate once through the `foreach` loop, pausing again on `shape.Draw()`.
+1. Next, hover over the `name` variable, and you see its current value, an empty string.
 
-1. Hover over the shape object again, and this time you see that you have a new object with a type `Triangle`.
+1. Press **F5** (or **Debug** > **Continue**) a few times to iterate several times through the `for` loop, pausing again at the breakpoint, and hovering over the `name` variable each time to check its value.
 
      ![View a data tip](../csharp/media/get-started-data-tip.gif "View a Data Tip")
 
-    Often, when debugging, you want a quick way to check property values on variables, to see whether they are storing the values that you expect them to store, and the data tips are a good way to do it.
+     The value of the variable changes with each iteration of the `for` loop, showing values of `f`, then `fr`, then `fre`, and so on.
+
+     Often, when debugging, you want a quick way to check property values on variables, to see whether they are storing the values that you expect them to store, and the data tips are a good way to do it.
 
 ## Inspect variables with the Autos and Locals windows
 
@@ -261,35 +252,35 @@ Features that allow you to inspect variables are one of the most useful features
 
     If it is closed, open it while paused in the debugger by choosing **Debug** > **Windows** > **Autos**.
 
-1. Expand the `shapes` object.
-
-     ![Inspect variables in the Autos Window](../csharp/media/get-started-autos-window.png "Autos Window")
-
     In the **Autos** window, you see variables and their current value. The **Autos** window shows all variables used on the current line or the preceding line (Check documentation for language-specific behavior).
 
 1. Next, look at the **Locals** window, in a tab next to the **Autos** window.
+
+1. Expand the `letters` variable to show the elements that it contains.
+
+     ![Inspect variables in the Autos Window](../csharp/media/get-started-locals-window.png "Autos Window")
 
     The **Locals** window shows you the variables that are in the current [scope](https://www.wikipedia.org/wiki/Scope_(computer_science)), that is, the current execution context.
 
 ## Set a watch
 
-1. In the main code editor window, right-click the `shapes` object and choose **Add Watch**.
+1. In the main code editor window, right-click the `name` variable and choose **Add Watch**.
 
     The **Watch** window opens at the bottom of the code editor. You can use a **Watch** window to specify a variable (or an expression) that you want to keep an eye on.
 
-    Now, you have a watch set on the `shapes` object, and you can see its value change as you move through the debugger. Unlike the other variable windows, the **Watch** window always shows the variables that you are watching (they're grayed out when out of scope).
+    Now, you have a watch set on the `name` variable, and you can see its value change as you move through the debugger. Unlike the other variable windows, the **Watch** window always shows the variables that you are watching (they're grayed out when out of scope).
 
 ## Examine the call stack
 
-1. While paused in the `foreach` loop, click the **Call Stack** window, which is by default open in the lower right pane.
+1. While paused in the `for` loop, click the **Call Stack** window, which is by default open in the lower right pane.
 
     If it is closed, open it while paused in the debugger by choosing **Debug** > **Windows** > **Call Stack**.
 
-2. Click **F11** a few times until you see the debugger pause in the `Base.Draw` method for the `Triangle` class in the code editor. Look at the **Call Stack** window.
+2. Click **F11** a few times until you see the debugger pause in the `SendMessage` method. Look at the **Call Stack** window.
 
     ![Examine the call stack](../csharp/media/get-started-call-stack.png "ExamineCallStack")
 
-    The **Call Stack** window shows the order in which methods and functions are getting called. The top line shows the current function (the `Triangle.Draw` method in this app). The second line shows that `Triangle.Draw` was called from the `Main` method, and so on.
+    The **Call Stack** window shows the order in which methods and functions are getting called. The top line shows the current function (the `SendMessage` method in this app). The second line shows that `SendMessage` was called from the `Main` method, and so on.
 
    > [!NOTE]
    > The **Call Stack** window is similar to the Debug perspective in some IDEs like Eclipse.
@@ -302,7 +293,9 @@ Features that allow you to inspect variables are one of the most useful features
 
 ## Change the execution flow
 
-1. With the debugger paused in the `Circle.Draw` method call, use the mouse to grab the yellow arrow (the execution pointer) on the left and move the yellow arrow up one line to the `Console.WriteLine` method call.
+1. Press **F11** twice to run the `Consoel.WriteLine` method.
+
+1. With the debugger paused in the `SendMessage` method call, use the mouse to grab the yellow arrow (the execution pointer) on the left and move the yellow arrow up one line, back to `Console.WriteLine`.
 
 1. Press **F11**.
 
