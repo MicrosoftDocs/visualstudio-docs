@@ -37,3 +37,8 @@ Learn more about responsibilities for administrators:
 - [Inventory of pre-production environment](admin-inventory.md)
 - [Manage large teams and external contractors](manage-teams.md)
 - Use [Maximum Usage](maximum-usage.md) to track purchase commitments
+
+## See also
+- [Visual Studio documentation](/visualstudio/)
+- [Azure documentation](/azure/)
+- [Azure DevOps](/azure/devops/)
