@@ -15,15 +15,15 @@ ms.workload:
 monikerRange: '>= vs-2019'
 ---
 
-# Generating Source Code from .Net Assemblies while Debugging
+# Generating Source Code from .NET Assemblies while Debugging
 
 > [!NOTE]
-> * Source code generation (decompilation) is only available for .Net applications and is based on the open source [ILSpy](https://github.com/icsharpcode/ILSpy) project.
+> * Source code generation (decompilation) is only available for .NET applications and is based on the open source [ILSpy](https://github.com/icsharpcode/ILSpy) project.
 > * Decompilation is only available in Visual Studio 2019 16.5 and later.
 
 ## Generating Source Code
 
-When debugging a .Net application, you may find that you want to view source code that you don't have. For example, breaking on an exception or using the call stack to navigate to a source location. When no source code is available, Visual Studio will show the **Source Not Found** document, or if you don’t have symbols for the assembly the **No Symbols Loaded** document. Both documents have a **Decompile source code** option that will generate a C# code for the current location. The generated C# code can then be used just like any other source code. You can, view the code, inspect variables,  set breakpoints and so on.
+When debugging a .NET application, you may find that you want to view source code that you don't have. For example, breaking on an exception or using the call stack to navigate to a source location. When no source code is available, Visual Studio will show the **Source Not Found** document, or if you don’t have symbols for the assembly the **No Symbols Loaded** document. Both documents have a **Decompile source code** option that will generate a C# code for the current location. The generated C# code can then be used just like any other source code. You can, view the code, inspect variables,  set breakpoints and so on.
 
 ### No Symbols Loaded
 
@@ -31,11 +31,11 @@ When debugging a .Net application, you may find that you want to view source cod
 
 ### Source Not Found
 
-![Screenshot of source not found document](media/decompilation-no-symbol-found.png)
+![Screenshot of source not found document](media/decompilation-no-source-found.png)
 
 ## Generating and Embedding Sources for an Assembly
 
-In addition to generating source code for a specific location, you can generate all the source code for a given .Net assembly. To do this, go to the **Modules** window and from the context menu of a .Net assembly select the **Decompile source code** command. Visual Studio will then generate a symbol file for the assembly and then embeds the source in to. In a later step, you can then [extract](#extracting-and-viewing-the-embedded-source-code) the embedded source code.
+In addition to generating source code for a specific location, you can generate all the source code for a given .Net assembly. To do this, go to the **Modules** window and from the context menu of a .NET assembly select the **Decompile source code** command. Visual Studio will then generate a symbol file for the assembly and then embeds the source in to. In a later step, you can then [extract](#extracting-and-viewing-the-embedded-source-code) the embedded source code.
 
 ![Screenshot of assembly context menu in modules window with decompile source command.](media/decompilation-decompile-source-code.png)
 
@@ -61,13 +61,13 @@ Generating source code via decompilation is only possible when the debugger is i
 
 ### Decompilation Limitations
 
-Generating source code from the intermediate format (IL) that is used in .Net assemblies back has some inherent limitations. As such, the generated source code won't look like the original source code. Most of the differences will be in places where the information in the original source code isn't needed at runtime. For example, information such as whitespace, comments and, the names of local variables. As such, generated source is best used to understand how the program is executing and not as a replacement for the original source code.
+Generating source code from the intermediate format (IL) that is used in .NET assemblies has some inherent limitations. As such, the generated source code won't look like the original source code. Most of the differences will be in places where the information in the original source code isn't needed at runtime. For example, information such as whitespace, comments and, the names of local variables. As such, generated source is best used to understand how the program is executing and not as a replacement for the original source code.
 
 ### Debugging Optimized or Release Assemblies
 
 When debugging code that was decompiled from an assembly that was compiled using compiler optimizations, you may come across the following issues:
 1. Breakpoints may not always bind to the matching sourcing location.
-1. Stepping may not always step to the correction.
+1. Stepping may not always step to the correct location.
 1. Local variables may not have accurate names.
 
 More details can be found in the GitHub issue: [IChsarpCompiler.Decompiler integration into VS Debugger](https://github.com/icsharpcode/ILSpy/issues/1901).
