@@ -18,7 +18,7 @@ ms.workload:
 
 > [!NOTE]
 > * Source code generation (decompilation) is only available for .Net applications and is based on the open source [ILSpy](https://github.com/icsharpcode/ILSpy) project.
-> * Decompilation is only available in Visual Studio 2019 16.5 and later. 
+> * Decompilation is only available in Visual Studio 2019 16.5 and later.
 
 ## Generating Source Code
 

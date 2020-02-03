@@ -76,6 +76,8 @@
       href: view-data-values-in-data-tips-in-the-code-editor.md
     - name: View string values in a visualizer
       href: view-strings-visualizer.md
+    - name: Decompile .Net assemblies
+      href: decompilation.md
     - name: Disassembly code
       items:
       - name: View disassembly code
