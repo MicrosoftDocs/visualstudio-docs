@@ -64,7 +64,7 @@ Generating source code from the intermediate format (IL) that is used in .Net as
 
 ### Debugging Optimized or Release Assemblies
 
-When debugging code that was decompiled from an assembly that was compiled using compiler optimizations, you may encounter the following issues:
+When debugging code that was decompiled from an assembly that was compiled using compiler optimizations, you may come across the following issues:
 1. Breakpoints may not always bind to the matching sourcing location.
 1. Stepping may not always step to the correction.
 1. Local variables may not have accurate names.
