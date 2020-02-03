@@ -22,7 +22,7 @@ ms.workload:
 
 ## Generating Source Code
 
-When debugging a .Net application, you may find that you want to view source code that you do not have. For example, breaking on an exception or using the call stack to navigate to a source location. When this happens, Visual Studio will show the **Source Not Found** document, or if you don’t have symbols for the assembly the **No Symbols Loaded** document. Both documents have a **Decompile source code** option that will generate a C# code for the current location. The generated C# code can then be used just like any other source code. You can, view the code, inspect variables, and set breakpoints etc.
+When debugging a .Net application, you may find that you want to view source code that you do not have. For example, breaking on an exception or using the call stack to navigate to a source location. When no source code is available, Visual Studio will show the **Source Not Found** document, or if you don’t have symbols for the assembly the **No Symbols Loaded** document. Both documents have a **Decompile source code** option that will generate a C# code for the current location. The generated C# code can then be used just like any other source code. You can, view the code, inspect variables, and set breakpoints etc.
 
 ### No Symbols Loaded
 
@@ -34,7 +34,7 @@ When debugging a .Net application, you may find that you want to view source cod
 
 ## Generating and Embedding Sources for an Assembly
 
-In addition to generating source for a specific location you can generate all the source for a given .Net assembly. To do this go to the **Modules** window and from the context menu of a .Net assembly select the **Decompile source code** command. Visual Studio will then generate a symbol file for the assembly and then embeds the source in to. In a later step you can then [extract](#extracting-and-viewing-the-embedded-source-code) the embedded source code.
+In addition to generating source code for a specific location, you can generate all the source code for a given .Net assembly. To do this, go to the **Modules** window and from the context menu of a .Net assembly select the **Decompile source code** command. Visual Studio will then generate a symbol file for the assembly and then embeds the source in to. In a later step, you can then [extract](#extracting-and-viewing-the-embedded-source-code) the embedded source code.
 
 ![Screenshot of assembly context menu in modules window with decompile source command.](media/decompilation-decompile-source-code.png)
 
@@ -44,7 +44,7 @@ Source files that are embedded in a symbol file can be extracted from the symbol
 
 ![Screenshot of assembly context menu in modules window with extract sources command.](media/decompilation-extract-source-code.png)
 
-The extracted source files are added to the solution as [miscellaneous files](../ide/reference/miscellaneous-files). The Miscellaneous Files feature is off by default in Visual Studio and needs to be enabled via the **Tools** > **Options** > **Environment** > **Documents** > **Show Miscellaneous files in Solution Explorer** checkbox. Without enabling this feature you will not be able to open the extracted source code.
+The extracted source files are added to the solution as [miscellaneous files](../ide/reference/miscellaneous-files). The Miscellaneous Files feature is off by default in Visual Studio, and needs to be enabled from the **Tools** > **Options** > **Environment** > **Documents** > **Show Miscellaneous files in Solution Explorer** checkbox. Without enabling this feature, you will not be able to open the extracted source code.
 
 ![Screenshot of tools option page with miscellaneous files option enabled.](media/decompilation-tools-options-misc-files.png)
 
@@ -60,12 +60,12 @@ Generating source code via decompilation is only possible when the debugger is i
 
 ### Decompilation Limitations
 
-Generating source code from the intermediate format (IL) that is used in .Net assemblies back has some inherent limitations. As such, the generated source code will not look like the original source code. Most of the differences will be in places where the information in the original source code is not needed at runtime. This can include information, such as whitespace, comments and the names of local variables. Generated source is best used to understand how the program is executing and not as a replacement for the original source code.
+Generating source code from the intermediate format (IL) that is used in .Net assemblies back has some inherent limitations. As such, the generated source code will not look like the original source code. Most of the differences will be in places where the information in the original source code is not needed at runtime. For example, information such as whitespace, comments and, the names of local variables. As such, generated source is best used to understand how the program is executing and not as a replacement for the original source code.
 
 ### Debugging Optimized or Release Assemblies
 
-When debugging code that was decompiled from an assembly that was compiled using compiler optimizations you may encounter the following issues:
-1. Breakpoints may not always binding to the matching sourcing location.
+When debugging code that was decompiled from an assembly that was compiled using compiler optimizations, you may encounter the following issues:
+1. Breakpoints may not always bind to the matching sourcing location.
 1. Stepping may not always step to the correction.
 1. Local variables may not have accurate names.
 
@@ -73,7 +73,7 @@ More details can be found in the GitHub issue: [IChsarpCompiler.Decompiler integ
 
 ### Extracted Sources
 
-Source code that was extracted from an assembly and placed in the solution as **Miscellaneous Files** have the following limitations:
+Source code that was extracted from an assembly has the following limitations:
 1. The name and location of the generated files is not configurable.
 1. They are temporary and will be deleted by Visual Studio.
 1. The files are placed in a single folder and any folder hierarchy that the original sources had is not used.
