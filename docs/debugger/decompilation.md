@@ -76,7 +76,7 @@ More details can be found in the GitHub issue: [IChsarpCompiler.Decompiler integ
 
 Source code that was extracted from an assembly has the following limitations:
 1. The name and location of the generated files isn't configurable.
-1. The files temporary and will be deleted by Visual Studio.
+1. The files are temporary and will be deleted by Visual Studio.
 1. The files are placed in a single folder and any folder hierarchy that the original sources had isn't used.
 1. The file name for each file contains a checksum hash of the file.
 
