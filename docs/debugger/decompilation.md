@@ -22,7 +22,7 @@ ms.workload:
 
 ## Generating Source Code
 
-When debugging a .Net application, you may find that you want to view source code that you do not have. For example, breaking on an exception or using the call stack to navigate to a source location. When no source code is available, Visual Studio will show the **Source Not Found** document, or if you don’t have symbols for the assembly the **No Symbols Loaded** document. Both documents have a **Decompile source code** option that will generate a C# code for the current location. The generated C# code can then be used just like any other source code. You can, view the code, inspect variables, and set breakpoints etc.
+When debugging a .Net application, you may find that you want to view source code that you don't have. For example, breaking on an exception or using the call stack to navigate to a source location. When no source code is available, Visual Studio will show the **Source Not Found** document, or if you don’t have symbols for the assembly the **No Symbols Loaded** document. Both documents have a **Decompile source code** option that will generate a C# code for the current location. The generated C# code can then be used just like any other source code. You can, view the code, inspect variables,  set breakpoints and so on.
 
 ### No Symbols Loaded
 
@@ -44,7 +44,7 @@ Source files that are embedded in a symbol file can be extracted from the symbol
 
 ![Screenshot of assembly context menu in modules window with extract sources command.](media/decompilation-extract-source-code.png)
 
-The extracted source files are added to the solution as [miscellaneous files](../ide/reference/miscellaneous-files). The Miscellaneous Files feature is off by default in Visual Studio, and needs to be enabled from the **Tools** > **Options** > **Environment** > **Documents** > **Show Miscellaneous files in Solution Explorer** checkbox. Without enabling this feature, you will not be able to open the extracted source code.
+The extracted source files are added to the solution as [miscellaneous files](../ide/reference/miscellaneous-files). The Miscellaneous Files feature is off by default in Visual Studio, and needs to be enabled from the **Tools** > **Options** > **Environment** > **Documents** > **Show Miscellaneous files in Solution Explorer** checkbox. Without enabling this feature, you won't be able to open the extracted source code.
 
 ![Screenshot of tools option page with miscellaneous files option enabled.](media/decompilation-tools-options-misc-files.png)
 
@@ -60,7 +60,7 @@ Generating source code via decompilation is only possible when the debugger is i
 
 ### Decompilation Limitations
 
-Generating source code from the intermediate format (IL) that is used in .Net assemblies back has some inherent limitations. As such, the generated source code will not look like the original source code. Most of the differences will be in places where the information in the original source code is not needed at runtime. For example, information such as whitespace, comments and, the names of local variables. As such, generated source is best used to understand how the program is executing and not as a replacement for the original source code.
+Generating source code from the intermediate format (IL) that is used in .Net assemblies back has some inherent limitations. As such, the generated source code will not look like the original source code. Most of the differences will be in places where the information in the original source code isn't needed at runtime. For example, information such as whitespace, comments and, the names of local variables. As such, generated source is best used to understand how the program is executing and not as a replacement for the original source code.
 
 ### Debugging Optimized or Release Assemblies
 
