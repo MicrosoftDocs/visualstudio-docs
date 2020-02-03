@@ -181,7 +181,7 @@ Mostly, we use the keyboard shortcuts here, because it's a good way to get fast 
 
      `SendMessage(name, a[i]);`
 
-2. Press **F11** one more time to step into the `SendMessage` method.
+1. Press **F11** one more time to step into the `SendMessage` method.
 
      The yellow pointer advances into the `SendMessage` method.
 
@@ -197,7 +197,9 @@ Mostly, we use the keyboard shortcuts here, because it's a good way to get fast 
 
      You should be back in the `for` loop in the `Main` method, paused at the `SendMessage` method call.
 
-3. While paused at the method call, press **F10** (or choose **Debug > Step Over**) once.
+1. Press **F11** time until you get back to the `SendMessage` method call again.
+
+1. While paused at the method call, press **F10** (or choose **Debug > Step Over**) once.
 
      ![Use F10 to Step Over code](../csharp/media/get-started-step-over.png "F10 Step Over")
 
@@ -256,7 +258,7 @@ Features that allow you to inspect variables are one of the most useful features
 
 1. Expand the `letters` variable to show the elements that it contains.
 
-     ![Inspect variables in the Autos Window](../csharp/media/get-started-locals-window.png "Autos Window")
+     ![Inspect variables in the Locals Window](../csharp/media/get-started-locals-window.png "Locals Window")
 
     The **Locals** window shows you the variables that are in the current [scope](https://www.wikipedia.org/wiki/Scope_(computer_science)), that is, the current execution context.
 
