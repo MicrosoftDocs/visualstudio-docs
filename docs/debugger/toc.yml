@@ -48,10 +48,6 @@
       href: troubleshooting-breakpoints.md
     - name: Troubleshooting C# data breakpoints
       href: troubleshoot-data-breakpoint-errors.md
-  - name: Source code
-    items:
-    - name: Decompile .Net assemblies
-      href: decompilation.md    
   - name: Data inspection
     items:
     - name: Inspect data in debugger windows
@@ -272,6 +268,10 @@
           href: visualizer-api-reference.md
     - name: restore hidden debugger commands
       href: how-to-restore-hidden-debugger-commands.md
+  - name: Source code
+    items:
+    - name: Decompile .Net assemblies
+      href: decompilation.md    
   - name: Remote debugging
     items:
     - name: Remote debugging
