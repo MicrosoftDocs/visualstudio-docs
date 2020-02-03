@@ -5066,6 +5066,11 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "scripting-docs/javascript-language-reference.md",
+      "redirect_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "scripting-docs/javascript/advanced/advanced-javascript.md",
       "redirect_url": "https://developer.mozilla.org/docs/Web/JavaScript",
       "redirect_document_id": false
