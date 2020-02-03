@@ -12,6 +12,7 @@ ms.author: "mikejo"
 manager: jillfra
 ms.workload:
   - "multiple"
+monikerRange: '>= vs-2019'
 ---
 
 # Generating Source Code from .Net Assemblies while Debugging
