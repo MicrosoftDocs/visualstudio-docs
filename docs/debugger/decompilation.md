@@ -60,7 +60,7 @@ Generating source code via decompilation is only possible when the debugger is i
 
 ### Decompilation Limitations
 
-Generating source code from the intermediate format (IL) that is used in .Net assemblies back has some inherent limitations. As such, the generated source code will not look like the original source code. Most of the differences will be in places where the information in the original source code isn't needed at runtime. For example, information such as whitespace, comments and, the names of local variables. As such, generated source is best used to understand how the program is executing and not as a replacement for the original source code.
+Generating source code from the intermediate format (IL) that is used in .Net assemblies back has some inherent limitations. As such, the generated source code won't look like the original source code. Most of the differences will be in places where the information in the original source code isn't needed at runtime. For example, information such as whitespace, comments and, the names of local variables. As such, generated source is best used to understand how the program is executing and not as a replacement for the original source code.
 
 ### Debugging Optimized or Release Assemblies
 
@@ -74,9 +74,9 @@ More details can be found in the GitHub issue: [IChsarpCompiler.Decompiler integ
 ### Extracted Sources
 
 Source code that was extracted from an assembly has the following limitations:
-1. The name and location of the generated files is not configurable.
-1. They are temporary and will be deleted by Visual Studio.
-1. The files are placed in a single folder and any folder hierarchy that the original sources had is not used.
+1. The name and location of the generated files isn't configurable.
+1. The files temporary and will be deleted by Visual Studio.
+1. The files are placed in a single folder and any folder hierarchy that the original sources had isn't used.
 1. The file name for each file contains a checksum hash of the file.
 
 ### Generated Code is C# Only
