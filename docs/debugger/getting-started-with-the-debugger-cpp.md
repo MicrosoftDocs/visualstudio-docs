@@ -283,7 +283,7 @@ Features that allow you to inspect variables are one of the most useful features
 
 2. Click **F11** a few times until you see the debugger pause in the `SendMessage` method. Look at the **Call Stack** window.
 
-    ![Examine the call stack](../debugger/media/get-started-call-stack.png "ExamineCallStack")
+    ![Examine the call stack](../debugger/media/get-started-call-stack-cpp.png "ExamineCallStack")
 
     The **Call Stack** window shows the order in which methods and functions are getting called. The top line shows the current function (the `SendMessage` method in this app). The second line shows that `SendMessage` was called from the `main` method, and so on.
 
