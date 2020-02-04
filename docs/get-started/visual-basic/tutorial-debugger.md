@@ -163,7 +163,7 @@ First, you'll create a .NET Core console application project. The project type c
 
 2. Press **F5** or the **Start Debugging** button ![Start Debugging](../../debugger/media/dbg-tour-start-debugging.png "Start Debugging"), the app starts, and the debugger runs to the line of code where you set the breakpoint.
 
-    ![Set and hit a breakpoint](../visual-basic/media/get-started-set-breakpoint.png)
+    ![Set and hit a breakpoint](../visual-basic/media/get-started-set-breakpoint-vb.png)
 
     The yellow arrow represents the statement on which the debugger paused, which also suspends app execution at the same point (this statement has not yet executed).
 
@@ -185,7 +185,7 @@ Mostly, we use the keyboard shortcuts here, because it's a good way to get fast 
 
      The yellow pointer advances into the `SendMessage` method.
 
-     ![Use F11 to Step Into code](../visual-basic/media/get-started-f11.png "F10 Step Into")
+     ![Use F11 to Step Into code](../visual-basic/media/get-started-f11-vb.png "F10 Step Into")
 
      F11 is the **Step Into** command and advances the app execution one statement at a time. F11 is a good way to examine the execution flow in the most detail. (To move faster through code, we show you some other options also.) By default, the debugger skips over non-user code (if you want more details, see [Just My Code](../../debugger/just-my-code.md)).
 
@@ -201,7 +201,7 @@ Mostly, we use the keyboard shortcuts here, because it's a good way to get fast 
 
 1. While paused at the method call, press **F10** (or choose **Debug > Step Over**) once.
 
-     ![Use F10 to Step Over code](../visual-basic/media/get-started-step-over.png "F10 Step Over")
+     ![Use F10 to Step Over code](../visual-basic/media/get-started-step-over-vb.png "F10 Step Over")
 
      Notice this time that the debugger does not step into the `SendMessage` method. **F10** advances the debugger without stepping into functions or methods in your app code (the code still executes). By pressing **F10** on the `SendMessage` method call (instead of **F11**), we skipped over the implementation code for `SendMessage` (which maybe we're not interested in right now). For more information on different ways to move through your code, see [Navigate code in the debugger](../../debugger/navigating-through-code-with-the-debugger.md).
 
@@ -209,7 +209,7 @@ Mostly, we use the keyboard shortcuts here, because it's a good way to get fast 
 
 1. In the code editor, scroll down and hover over the `Console.WriteLine` method in the `SendMessage` message until the green **Run to Click** button ![Run to Click](../../debugger/media/dbg-tour-run-to-click.png "RunToClick") appears on the left. The tooltip for the button shows "Run execution to here".
 
-     ![Use the Run to Click feature](../visual-basic/media/get-started-run-to-click.png "Run to Click")
+     ![Use the Run to Click feature](../visual-basic/media/get-started-run-to-click-vb.png "Run to Click")
 
    > [!NOTE]
    > The **Run to Click** button is new in [!include[vs_dev15](../../misc/includes/vs_dev15_md.md)]. (If you don't see the green arrow button, use **F11** in this example instead to advance the debugger to the right place.)
@@ -238,7 +238,7 @@ Features that allow you to inspect variables are one of the most useful features
 
 1. Press **F5** (or **Debug** > **Continue**) a few times to iterate several times through the `For` loop, pausing again at the breakpoint, and hovering over the `name` variable each time to check its value.
 
-     ![View a data tip](../visual-basic/media/get-started-data-tip.png "View a Data Tip")
+     ![View a data tip](../visual-basic/media/get-started-data-tip-vb.png "View a Data Tip")
 
      The value of the variable changes with each iteration of the `For` loop, showing values of `f`, then `fr`, then `fre`, and so on.
 
@@ -256,7 +256,7 @@ Features that allow you to inspect variables are one of the most useful features
 
 1. Expand the `letters` variable to show the elements that it contains.
 
-     ![Inspect variables in the Locals Window](../visual-basic/media/get-started-locals-window.png "Locals Window")
+     ![Inspect variables in the Locals Window](../visual-basic/media/get-started-locals-window-vb.png "Locals Window")
 
     The **Locals** window shows you the variables that are in the current [scope](https://www.wikipedia.org/wiki/Scope_(computer_science)), that is, the current execution context.
 
@@ -276,7 +276,7 @@ Features that allow you to inspect variables are one of the most useful features
 
 2. Click **F11** a few times until you see the debugger pause in the `SendMessage` method. Look at the **Call Stack** window.
 
-    ![Examine the call stack](../visual-basic/media/get-started-call-stack.png "ExamineCallStack")
+    ![Examine the call stack](../visual-basic/media/get-started-call-stack-vb.png "ExamineCallStack")
 
     The **Call Stack** window shows the order in which methods and functions are getting called. The top line shows the current function (the `SendMessage` method in this app). The second line shows that `SendMessage` was called from the `Main` method, and so on.
 
