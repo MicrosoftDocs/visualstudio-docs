@@ -39,7 +39,7 @@ The following illustration shows the **Source Not Found** message.
 
 ## Generate and embed sources for an assembly
 
-In addition to generating source code for a specific location, you can generate all the source code for a given .NET assembly. To do this, go to the **Modules** window and from the context menu of a .NET assembly, and then select the **Decompile source code** command. Visual Studio generates a symbol file for the assembly and then embeds the source into the symbol file. In a later step, you can [extract](#extract-and-view-the-embedded-source-code) the embedded source code.
+In addition to generating source code for a specific location, you can generate all the source code for a given .NET assembly. To do this, go to the **Modules** window and from the context menu of a .NET assembly, and then select the **Decompile source code** command. Visual Studio generates a symbol file for the assembly and then embeds the source into the symbol file. In a later step, you can [extract](#extracting-and-viewing-the-embedded-source-code) the embedded source code.
 
 ![Screenshot of assembly context menu in modules window with decompile source command.](media/decompilation-decompile-source-code.png)
 
