@@ -166,7 +166,7 @@ First, you'll create a C++ console application project. The project type comes w
 
 2. Press **F5** or the **Start Debugging** button ![Start Debugging](../debugger/media/dbg-tour-start-debugging.png "Start Debugging"), the app starts, and the debugger runs to the line of code where you set the breakpoint.
 
-    ![Set and hit a breakpoint](../debugger/media/get-started-set-breakpoint.png)
+    ![Set and hit a breakpoint](../debugger/media/get-started-set-breakpoint-cpp.png)
 
     The yellow arrow represents the statement on which the debugger paused, which also suspends app execution at the same point (this statement has not yet executed).
 
@@ -283,7 +283,7 @@ Features that allow you to inspect variables are one of the most useful features
 
 2. Click **F11** a few times until you see the debugger pause in the `SendMessage` method. Look at the **Call Stack** window.
 
-    ![Examine the call stack](../csharp/media/get-started-call-stack.png "ExamineCallStack")
+    ![Examine the call stack](../debugger/media/get-started-call-stack.png "ExamineCallStack")
 
     The **Call Stack** window shows the order in which methods and functions are getting called. The top line shows the current function (the `SendMessage` method in this app). The second line shows that `SendMessage` was called from the `main` method, and so on.
 
