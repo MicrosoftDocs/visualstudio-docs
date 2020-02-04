@@ -92,7 +92,7 @@ First, you'll create a .NET Core console application project. The project type c
    > [!NOTE]
    > If you do not see the **Console App (.NET Core)** template, you can install it from the **Create a new project** window. In the **Not finding what you're looking for?** message, choose the **Install more tools and features** link. Then, in the Visual Studio Installer, choose the **.NET Core cross-platform development** workload.
 
-1. In the **Configure your new project** window, type or enter *get-started-debugging* in the **Project name** box. Then, choose **Create**.
+1. In the **Configure your new project** window, type or enter *GetStartedDebugging* in the **Project name** box. Then, choose **Create**.
 
    Visual Studio opens your new project.
    
@@ -197,7 +197,7 @@ Mostly, we use the keyboard shortcuts here, because it's a good way to get fast 
 
      You should be back in the `for` loop in the `Main` method, paused at the `SendMessage` method call.
 
-1. Press **F11** time until you get back to the `SendMessage` method call again.
+1. Press **F11** several times until you get back to the `SendMessage` method call again.
 
 1. While paused at the method call, press **F10** (or choose **Debug > Step Over**) once.
 
@@ -207,7 +207,9 @@ Mostly, we use the keyboard shortcuts here, because it's a good way to get fast 
 
 ## Navigate code using Run to Click
 
-1. In the code editor, scroll down and hover over the `Console.WriteLine` method in the `SendMessage` message until the green **Run to Click** button ![Run to Click](../../debugger/media/dbg-tour-run-to-click.png "RunToClick") appears on the left. The tooltip for the button shows "Run execution to here".
+1. Press **F5** to advance to the breakpoint again.
+
+1. In the code editor, scroll down and hover over the `Console.WriteLine` method in the `SendMessage` method until the green **Run to Click** button ![Run to Click](../../debugger/media/dbg-tour-run-to-click.png "RunToClick") appears on the left. The tooltip for the button shows "Run execution to here".
 
      ![Use the Run to Click feature](../csharp/media/get-started-run-to-click.png "Run to Click")
 
