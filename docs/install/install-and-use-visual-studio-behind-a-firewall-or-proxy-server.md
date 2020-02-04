@@ -1,7 +1,7 @@
 ---
 title: Install and use behind a firewall or proxy server
 description: Review the domain URLs, ports, and protocols that you might want to add to an allow list or open if your organization uses a firewall or a proxy server
-ms.date: 05/22/2019
+ms.date: 02/01/2020
 ms.custom: seodec18
 ms.topic: conceptual
 helpviewer_keywords:
@@ -47,6 +47,7 @@ Because the Visual Studio Installer downloads files from various domains and the
 | dl.xamarin.com | Setup packages download location |
 | xamarin-downloads.azureedge.net | Android SDK packages download list location |
 | marketplace.visualstudio.com | Visual Studio Extensions download location |
+| \*.gallerycdn.vsassets.io  | Visual Studio Extensions download location |
 | visualstudio.microsoft.com | Documentation location |
 | docs.microsoft.com | Documentation location |
 | msdn.microsoft.com | Documentation location |
@@ -86,24 +87,24 @@ To make sure that you have access to everything you need when you use Visual Stu
 | - | - | - | - | - |
 | URL<br>resolution | go.microsoft.com<br><br>aka.ms | | | Used to shorten URLs, which then resolve into longer URLs |
 | Start Page | vsstartpage.blob.core.windows.net | | 443 | Used to display Developer News shown on the start page (Visual Studio 2017 only) |
-| Targeted<br> Notification <br>Service | targetednotifications.azurewebsites.net <br><br>www.research.net | | 80<br><br>443 | Used to filter a global list of notifications to a list that is applicable only to specific types of machines/usage scenarios |
+| Targeted<br> Notification <br>Service | targetednotifications-tm.trafficmanager.net <br><br>www.research.net | | 443<br><br>443 | Used to filter a global list of notifications to a list that is applicable only to specific types of machines/usage scenarios |
 | Extension <br>update check | marketplace.visualstudio.com<br><br>&#42;.windows.net <br>&#42;.microsoftonline.com <br>&#42;.live.com | | 443 | Used to provide notifications when an installed extension has an update available <br><br> Used as a sign-in location |
 | AI Project <br>Integration | az861674.vo.msecnd.net | | 443<br> | Used to configure new projects to send usage data to your registered Application Insights account |
 | Code Lens | codelensprodscus1su0.app.<br>codelens.visualstudio.com | | 443 | Used to provide information in the editor about when a file was last updated, the timeline of changes, the work items that changes are associated with, the authors, and more |
 | Experimental <br>feature enabling | visualstudio-devdiv-c2s.msedge.net | | 80 | Used to activate experimental new features or feature changes |
-| Identity “badge” <br>(user name and avatar)<br>and <br>Roaming settings | app.vssps.visualstudio.com <br><br>app.vsspsext.visualstudio.com<br><br>app.vssps.visualstudio.com<br><br> ns-sb2-prod-ch1-002.cloudapp.net <br><br>az700632.vo.msecnd.net | | 443 | Used to display the user's name and avatar in the IDE <br><br> Used to make sure that setting changes roam from one machine to another |
+| Identity “badge” <br>(user name and avatar)<br>and <br>Roaming settings | app.vssps.visualstudio.com <br><br>app.vsspsext.visualstudio.com<br><br>app.vssps.visualstudio.com<br><br> ns-sb2-prod-ch1-002.cloudapp.net <br><br>az700632.vo.msecnd.net<br><br>api.vstsusers.visualstudio.com/profiles/* | | 443 | Used to display the user's name and avatar in the IDE <br><br> Used to make sure that setting changes roam from one machine to another |
 | Remote Settings | az700632.vo.msecnd.net | | 443 | Used to turn off extensions that are known to cause problems in Visual Studio |
 | Windows Tools | developer.microsoft.com <br><br>dev.windows.com  <br><br>appdev.microsoft.com | https | 443 | Used for Windows app store scenarios |
 | JSON Schema <br>Discovery <br><br>JSON Schema <br>Definition<br><br>JSON Schema <br>Support for <br>Azure Resources | json.schemastore.org <br>schemastoreorg.azurewebsites.net<br><br>json-schema.org<br><br>schema.management.azure.com | http<br>https<br><br>http<br><br>https | 80<br>443 <br><br> 443<br><br>443 | Used to discover and download JSON schemas that the user might use when editing JSON documents <br><br>Used to obtain the meta-validation schema for JSON<br><br>Used to obtain the current schema for Azure Resource Manager deployment templates |
 | NPM package <br>discovery | Skimdb.npmjs.com <br><br>Registry.npmjs.org <br><br>Api.npms.io | https<br><br>http/s<br><br>https | 443<br><br>80/443<br><br>443 | Required for searching for NPM packages, and used for client-side script package installation in web projects |
 | Bower package<br> icons<br><br>Bower package <br>search | Bower.io <br><br>bowercache.azurewebsites.net <br>go.microsoft.com <br>Registry.bower.io | http<br><br>https<br>http<br>https | 80<br><br>443<br>80<br>443 | Provides the default bower package icon  <br><br>Provides the ability to search for Bower packages |
-| NuGet<br><br>NuGet package<br> discovery | Api.nuget.org <br>www.nuget.org <br>Nuget.org<br><br>crl3.digicert.com <br>crl4.digicert.com <br>ocsp.digicert.com <br>cacerts.digicert.com | https<br><br>http/s | 443<br><br>80/443<br> | Used to verify signed NuGet packages.<br><br>Required for searching for NuGet packages and versions |
+| NuGet<br><br>NuGet package<br> discovery | api.nuget.org <br>www.nuget.org <br>nuget.org <br>azuresearch-usnc.nuget.org <br>azuresearch-ussc.nuget.org <br>licenses.nuget.org <br>nuget.cdn.azure.cn <br>azuresearch-ea.nuget.org <br>azuresearch-sea.nuget.org <br><br>crl3.digicert.com <br>crl4.digicert.com <br>ocsp.digicert.com <br>cacerts.digicert.com | https<br><br>http/s | 443<br><br>80/443<br> | Used to verify signed NuGet packages.<br><br>Required for searching for NuGet packages and versions |
 | GitHub repository information | api.github.com | https | 443 | Required for getting additional information about bower packages |
 | Web Linters | Eslint.org<br><br>www.Bing.com <br><br>www.coffeelint.org | http | 80 | |
 | Cookiecutter<br>Explorer template<br>discovery <br><br>Cookiecutter <br>Explorer project<br> creation | api.github.com <br>raw.githubusercontent.com <br>go.microsoft.com<br><br>pypi.org <br> pypi.python.org | https | 443<br> | Used to discover online templates from our recommended feed and from GitHub repositories <br><br>Used to create a project from a cookiecutter template that requires a one-time on-demand installation of a cookiecutter Python package from the Python package index (PyPI) |
 | Python package <br>discovery<br><br>Python package <br>management<br><br>New <br>Python <br> project <br>templates | pypi.org<br> <br>pypi.python.org <br>bootstrap.pypa.io<br><br>go.microsoft.com | https | 443 | Provides the ability to search for pip packages<br><br>Used to install pip automatically if it is missing <br><br>Used to resolve the following new Python project templates to cookiecutter template URLs:<br> - Classifier Project<br>- Clustering Project <br> - Regression Project <br> - PyGame using PyKinect <br> - Pyvot Project |
 | Office web <br>add-in <br> Manifest <br>Verification <br>Service | verificationservice.osi.office.net | https | 443 | Used to validate manifests for Office web add-ins |
-| SharePoint and <br>Office Add-ins | sharepoint.com | https | 443 | Used to publish and test SharePoint and Office Add-ins to SharePoint Online |
+| SharePoint and <br>Office Add-ins | sharepoint.com<br> office365.com<br> microsoftonline.com <br> outlook.com | https | 443 | Used to publish and test SharePoint and Office Add-ins to SharePoint Online and Office 365 |
 | Workflow Manager <br>Test Service<br> Host | | http | 12292 | A firewall rule that is created automatically for testing SharePoint add-ins with workflows |
 | Automatically collected <br>reliability statistics <br>and other <br>Customer Experience <br>Improvement Programs (CEIP)<br> for Azure SDK and <br>for SQL Tools <br><br> | vortex.data.microsoft.com<br> <br>dc.services.visualstudio.com | https | 443 | Used to send reliability statistics (crash/hang data) from the user to Microsoft. Actual crash/hang dumps will still be uploaded if Windows Error Reporting is enabled; only statistical information will be suppressed; <br>Used to reveal anonymous usage patterns for the Azure Tools SDK extension to Visual Studio, and for usage patterns for the SQL tooling to Visual Studio |
 | Visual Studio <br> Customer Experience <br>Improvement Program (CEIP) <br><br>PerfWatson.exe | vortex.data.microsoft.com<br>dc.services.visualstudio.com<br>visualstudio-devdiv-c2s.msedge.net<br>az667904.vo.msecnd.net <br>scus-breeziest-in.cloudapp.net<br> | https | 443 | Used to collect anonymous usage patterns and error logs <br><br>Used to track UI freeze issues |
@@ -122,6 +123,16 @@ To make sure that you have access to everything you need when you use Visual Stu
 | Azure Data Lake | &#42;.azuredatalakestore.net <br>&#42;.azuredatalakeanalytics.net | https | 443 | Used to compile, submit, view, diagnose, and debug  jobs; used to browse ADLS files; used to upload and download files |
 | Packaging Service | [account].visualstudio.com <br/> [account].\*.visualstudio.com <br/> \*.blob.core.windows.net <br/> registry.npmjs.org </br> nodejs.org <br/> dist.nuget.org <br/> nuget.org | https | 443 | The \*.npmjs.org, \*.nuget.org, and \*.nodejs.org are only required for certain build task scenarios (for example: NuGet Tool Installer, Node Tool Installer) or if you intend to use public upstreams with your Feeds. The other three domains are required for core functionality of the Packaging service. |
 | Azure DevOps Services | \*.vsassets.io <br/> static2.sharepointonline.com <br/> dev.azure.com | | | Used to connect with Azure DevOps Services |
+| Developer Community | sendvsfeedback2.azurewebsites.net/api | https | 443 | Used to call Developer Community Feedback Tool APIs (my issues, search, vote, comment, submit, upload, resume) |
+| Intellicode | \*.intellicode.vsengsaas.visualstudio.com | https | 443 | Used to call Intellicode APIs |
+| Live Share | \*.liveshare.vsengsaas.visualstudio.com| https | 443 | Used to call Live Share APIs |
+| Visual Studio Online | \*.online.visualstudio.com | https | 443 | Used to call Visual Studio Online APIs |
+| JavaScript Automatic Type Acquisition | registry.npmjs.org | https | 443 | Used to install TypeScript type definitions to provide Intellisense for popular JavaScript libraries |
+| Visual Studio Subscriptions Licensing Service | app.vssps.visualstudio.com/apis/Licensing/ClientRights | https | 443 | Licensing for online activation |
+| Debugger | 1. <br>vsdebugger.blob.core.windows.net <br>vsdebugger.azureedge.net <br><br>2. <br>download.visualstudio.com/\*/onecore.msvsmon.\*.zip<br><br> 3. referencesource.microsoft.com/symbols <br><br> 4. <br>symbols.nuget.org/download/symbols<br><br> 5. visualstudio.commsdl.microsoft.com/download/symbols | https | 443 | 1. <br>Used for downloading debugger bits for .NET Core debugging on Unix / MacOS over SSH <br><br>2. <br>Used for downloading debugger bits for remote Windows Docker container debugging<br><br> 3. Used for .NET framework source stepping <br><br> 4. <br>(If user opts-in) Used for downloading symbols published to nuget.org symbol server.<br><br> 5. (If user opts-in) Used for downloading MS symbols and binaries, might also be needed for debugging managed code in dumps |
+| Visual Studio Online| \*.online.visualstudio.com | https | 443 | Used to call Visual Studio Online APIs |
+| Xamarin Android App Publishing | \*.googleapis.com <br/> play.google.com <br/>accounts.google.com | https | 443 | Used to interact with Google Play Store service to publish/upload Xamarin Android Applications directly from Visual Studio. |
+| Azure Container Registry | *.azurecr.io | https | 443 | Access container registries hosted on Azure, for configuration of CICD pipelines |
 | | | | | |
 
 ## Troubleshoot network-related errors
