@@ -163,7 +163,7 @@ First, you'll create a .NET Core console application project. The project type c
 
 2. Press **F5** or the **Start Debugging** button ![Start Debugging](../../debugger/media/dbg-tour-start-debugging.png "Start Debugging"), the app starts, and the debugger runs to the line of code where you set the breakpoint.
 
-    ![Set and hit a breakpoint](../visual-basic/media/get-started-set-breakpoint-vb.png)
+    ![Set and hit a breakpoint](../visual-basic/media/get-started-hit-breakpoint-vb.png)
 
     The yellow arrow represents the statement on which the debugger paused, which also suspends app execution at the same point (this statement has not yet executed).
 
