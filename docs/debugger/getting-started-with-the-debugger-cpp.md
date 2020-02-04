@@ -17,7 +17,7 @@ ms.workload:
 ---
 # Tutorial: Learn to debug C++ code using Visual Studio
 
-This article introduces the features of the Visual Studio debugger in a step-by-step walkthrough. If you want a higher-level view of the debugger features, see [First look at the debugger](../../debugger/debugger-feature-tour.md). When you *debug your app*, it usually means that you are running your application with the debugger attached. When you do this, the debugger provides many ways to see what your code is doing while it runs. You can step through your code and look at the values stored in variables, you can set watches on variables to see when values change, you can examine the execution path of your code, see whether a branch of code is running, and so on. If this is the first time that you've tried to debug code, you may want to read [Debugging for absolute beginners](../../debugger/debugging-absolute-beginners.md) before going through this article.
+This article introduces the features of the Visual Studio debugger in a step-by-step walkthrough. If you want a higher-level view of the debugger features, see [First look at the debugger](../debugger/debugger-feature-tour.md). When you *debug your app*, it usually means that you are running your application with the debugger attached. When you do this, the debugger provides many ways to see what your code is doing while it runs. You can step through your code and look at the values stored in variables, you can set watches on variables to see when values change, you can examine the execution path of your code, see whether a branch of code is running, and so on. If this is the first time that you've tried to debug code, you may want to read [Debugging for absolute beginners](../debugger/debugging-absolute-beginners.md) before going through this article.
 
 Although the demo app is C++, most of the features are applicable to C#, Visual Basic, F#, Python, JavaScript, and other languages supported by Visual Studio (F# does not support Edit-and-continue. F# and JavaScript do not support the **Autos** window). The screenshots are in C++.
 
@@ -131,7 +131,7 @@ First, you'll create a C++ console application project. The project type comes w
 
 ## Start the debugger!
 
-1. Press **F5** (**Debug > Start Debugging**) or the **Start Debugging** button ![Start Debugging](../../debugger/media/dbg-tour-start-debugging.png "Start Debugging") in the Debug Toolbar.
+1. Press **F5** (**Debug > Start Debugging**) or the **Start Debugging** button ![Start Debugging](../debugger/media/dbg-tour-start-debugging.png "Start Debugging") in the Debug Toolbar.
 
      **F5** starts the app with the debugger attached to the app process, but right now we haven't done anything special to examine the code. So the app just loads and you see the console output.
 
@@ -150,7 +150,7 @@ First, you'll create a C++ console application project. The project type comes w
 
      In this tutorial, we'll take a closer look at this app using the debugger and get a look at the debugger features.
 
-2. Stop the debugger by pressing the red stop ![Stop Debugging](../../debugger/media/dbg-tour-stop-debugging.png "Stop Debugging") button (**Shift** + **F5**).
+2. Stop the debugger by pressing the red stop ![Stop Debugging](../debugger/media/dbg-tour-stop-debugging.png "Stop Debugging") button (**Shift** + **F5**).
 
 3. In the console window, press a key and **Enter** to close the console window.
 
@@ -160,11 +160,11 @@ First, you'll create a C++ console application project. The project type comes w
 
     `name += letters[i];`
 
-    A red circle ![Breakpoint](../../debugger/media/dbg-breakpoint.png "Breakpoint") appears where you set the breakpoint.
+    A red circle ![Breakpoint](../debugger/media/dbg-breakpoint.png "Breakpoint") appears where you set the breakpoint.
 
     Breakpoints are one of the most basic and essential features of reliable debugging. A breakpoint indicates where Visual Studio should suspend your running code so you can take a look at the values of variables, or the behavior of memory, or whether or not a branch of code is getting run.
 
-2. Press **F5** or the **Start Debugging** button ![Start Debugging](../../debugger/media/dbg-tour-start-debugging.png "Start Debugging"), the app starts, and the debugger runs to the line of code where you set the breakpoint.
+2. Press **F5** or the **Start Debugging** button ![Start Debugging](../debugger/media/dbg-tour-start-debugging.png "Start Debugging"), the app starts, and the debugger runs to the line of code where you set the breakpoint.
 
     ![Set and hit a breakpoint](../debugger/media/get-started-set-breakpoint.png)
 
@@ -172,7 +172,7 @@ First, you'll create a C++ console application project. The project type comes w
 
      If the app is not yet running, **F5** starts the debugger and stops at the first breakpoint. Otherwise, **F5** continues running the app to the next breakpoint.
 
-    Breakpoints are a useful feature when you know the line of code or the section of code that you want to examine in detail. For information on the different types of breakpoints you can set, such as conditional breakpoints, see [Using breakpoints](../../debugger/using-breakpoints.md).
+    Breakpoints are a useful feature when you know the line of code or the section of code that you want to examine in detail. For information on the different types of breakpoints you can set, such as conditional breakpoints, see [Using breakpoints](../debugger/using-breakpoints.md).
 
 ## Navigate code in the debugger using step commands
 
@@ -190,7 +190,7 @@ Mostly, we use the keyboard shortcuts here, because it's a good way to get fast 
 
      ![Use F11 to Step Into code](../debugger/media/get-started-f11-cpp.png "F10 Step Into")
 
-     F11 is the **Step Into** command and advances the app execution one statement at a time. F11 is a good way to examine the execution flow in the most detail. (To move faster through code, we show you some other options also.) By default, the debugger skips over non-user code (if you want more details, see [Just My Code](../../debugger/just-my-code.md)).
+     F11 is the **Step Into** command and advances the app execution one statement at a time. F11 is a good way to examine the execution flow in the most detail. (To move faster through code, we show you some other options also.) By default, the debugger skips over non-user code (if you want more details, see [Just My Code](../debugger/just-my-code.md)).
 
      Let's say that you are done examining the `SendMessage` method, and you want to get out of the method but stay in the debugger. You can do this using the **Step Out** command.
 
@@ -206,20 +206,20 @@ Mostly, we use the keyboard shortcuts here, because it's a good way to get fast 
 
      ![Use F10 to Step Over code](../debugger/media/get-started-step-over-cpp.png "F10 Step Over")
 
-     Notice this time that the debugger does not step into the `SendMessage` method. **F10** advances the debugger without stepping into functions or methods in your app code (the code still executes). By pressing **F10** on the `SendMessage` method call (instead of **F11**), we skipped over the implementation code for `SendMessage` (which maybe we're not interested in right now). For more information on different ways to move through your code, see [Navigate code in the debugger](../../debugger/navigating-through-code-with-the-debugger.md).
+     Notice this time that the debugger does not step into the `SendMessage` method. **F10** advances the debugger without stepping into functions or methods in your app code (the code still executes). By pressing **F10** on the `SendMessage` method call (instead of **F11**), we skipped over the implementation code for `SendMessage` (which maybe we're not interested in right now). For more information on different ways to move through your code, see [Navigate code in the debugger](../debugger/navigating-through-code-with-the-debugger.md).
 
 ## Navigate code using Run to Click
 
 1. Press **F5** to advance to the breakpoint.
 
-1. In the code editor, scroll down and hover over the `std::wcout` function in the `SendMessage` method until the green **Run to Click** button ![Run to Click](../../debugger/media/dbg-tour-run-to-click.png "RunToClick") appears on the left. The tooltip for the button shows "Run execution to here".
+1. In the code editor, scroll down and hover over the `std::wcout` function in the `SendMessage` method until the green **Run to Click** button ![Run to Click](../debugger/media/dbg-tour-run-to-click.png "RunToClick") appears on the left. The tooltip for the button shows "Run execution to here".
 
      ![Use the Run to Click feature](../debugger/media/get-started-run-to-click-cpp.png "Run to Click")
 
    > [!NOTE]
-   > The **Run to Click** button is new in [!include[vs_dev15](../../misc/includes/vs_dev15_md.md)]. (If you don't see the green arrow button, use **F11** in this example instead to advance the debugger to the right place.)
+   > The **Run to Click** button is new in [!include[vs_dev15](../misc/includes/vs_dev15_md.md)]. (If you don't see the green arrow button, use **F11** in this example instead to advance the debugger to the right place.)
 
-2. Click the **Run to Click** button ![Run to Click](../../debugger/media/dbg-tour-run-to-click.png "RunToClick").
+2. Click the **Run to Click** button ![Run to Click](../debugger/media/dbg-tour-run-to-click.png "RunToClick").
 
     The debugger advances to the `std::wcout` function.
 
@@ -227,7 +227,7 @@ Mostly, we use the keyboard shortcuts here, because it's a good way to get fast 
 
 ## Restart your app quickly
 
-Click the **Restart** ![Restart App](../../debugger/media/dbg-tour-restart.png "RestartApp") button in the Debug Toolbar (**Ctrl** + **Shift** + **F5**).
+Click the **Restart** ![Restart App](../debugger/media/dbg-tour-restart.png "RestartApp") button in the Debug Toolbar (**Ctrl** + **Shift** + **F5**).
 
 When you press **Restart**, it saves time versus stopping the app and restarting the debugger. The debugger pauses at the first breakpoint that is hit by executing code.
 
@@ -294,7 +294,7 @@ Features that allow you to inspect variables are one of the most useful features
 
     You can double-click a line of code to go look at that source code and that also changes the current scope being inspected by the debugger. This action does not advance the debugger.
 
-    You can also use right-click menus from the **Call Stack** window to do other things. For example, you can insert breakpoints into specified functions, advance the debugger using **Run to Cursor**, and go examine source code. For more information, see [How to: Examine the Call Stack](../../debugger/how-to-use-the-call-stack-window.md).
+    You can also use right-click menus from the **Call Stack** window to do other things. For example, you can insert breakpoints into specified functions, advance the debugger using **Run to Cursor**, and go examine source code. For more information, see [How to: Examine the Call Stack](../debugger/how-to-use-the-call-stack-window.md).
 
 ## Change the execution flow
 
@@ -320,5 +320,5 @@ Features that allow you to inspect variables are one of the most useful features
 In this tutorial, you've learned how to start the debugger, step through code, and inspect variables. You may want to get a high-level look at debugger features along with links to more information.
 
 > [!div class="nextstepaction"]
-> [First look at the debugger](../../debugger/debugger-feature-tour.md)
+> [First look at the debugger](../debugger/debugger-feature-tour.md)
 
