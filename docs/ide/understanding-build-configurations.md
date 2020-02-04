@@ -1,6 +1,6 @@
 ---
 title: Understand build configurations
-ms.date: 11/04/2016
+ms.date: 01/27/2020
 ms.technology: vs-ide-compile
 ms.topic: conceptual
 f1_keywords:
