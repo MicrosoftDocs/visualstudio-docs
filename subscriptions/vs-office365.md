@@ -8,22 +8,22 @@ ms.topic: conceptual
 description:  Learn about the Office 365 benefit included in some Visual Studio subscriptions.
 ---
 
-# Office 365 ProPlus in Visual Studio Subscriptions
+# Office 365 in Visual Studio Subscriptions
 
-Create your best work. Work anywhere with apps that are always updated. Office 365 ProPlus is a subscription that comes with premium apps like Word, Excel, PowerPoint, OneNote, Outlook, Publisher, and Access (Publisher and Access available on PC only). The apps can be installed on multiple devices, including PCs, Macs, iPads, iPhones, Android tablets, and Android phones. With a subscription, you get the latest versions of the apps and automatically receive updates when they happen.
+Create your best work. Work anywhere with apps that are always updated. Office 365 is a subscription that comes with premium apps like Word, Excel, PowerPoint, OneNote, Outlook, Publisher, and Access (Publisher and Access available on PC only). The apps can be installed on multiple devices, including PCs, Macs, iPads, iPhones, Android tablets, and Android phones. With a subscription, you get the latest versions of the apps and automatically receive updates when they happen.
 
 > [!NOTE]
 > Your Visual Studio subscription entitles you to use Office 365 for production use.  
 
-## Getting started with Office 365 ProPlus
+## Getting started with Office 365 
 
-Follow these steps to download and activate Office 365 ProPlus:
+Follow these steps to download and activate Office 365:
 1. Sign in to your Visual Studio Enterprise subscription.
 2. Click on **Downloads** tab.
 3. You'll see a list of featured downloads. In the Office list, choose **Office 365**.
    > [!div class="mx-imgBorder"]
    > ![Office 365 Downloads](_img/vs-office365/vs-office365-downloads.png)
-0. To install Office 365 ProPlus, you'll need a product key.  Click on the **Get key** link under the Office 365 listing.
+0. To install Office 365, you'll need a product key.  Click on the **Get key** link under the Office 365 listing.
    > [!div class="mx-imgBorder"]
    > ![Office 365 Get Product Key](_img/vs-office365/vs-office365-get-key.png)
 0. A fly-out window will show you any keys you've already claimed as well as those that are available to you.  To obtain a new key, click **Claim key** under the **Office Professional Plus 2019** listing.
