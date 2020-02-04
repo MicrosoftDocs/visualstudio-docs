@@ -6,7 +6,7 @@ manager: jillfra
 ms.technology: vs-azure
 ms.devlang: dotnet
 ms.topic: article
-ms.date: 03/08/2019
+ms.date: 01/27/2020
 ms.author: ghogen
 ---
 # Deploy an ASP.NET Core container to Azure App Service using Visual Studio
