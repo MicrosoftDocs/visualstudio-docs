@@ -15,6 +15,10 @@ Create your best work. Work anywhere with apps that are always updated. Office 3
 > [!NOTE]
 > Your Visual Studio subscription entitles you to use Office 365 Pro Plus for production use.  
 
+> [!IMPORTANT]
+> We have become aware of an issue with obtaining product keys for Office 365 Pro Plus.  We are working on the issue and will provide an update when the issue is resolved. 
+
+
 ## Getting started with Office 365 Pro Plus
 
 Follow these steps to download and activate Office 365 Pro Plus:
