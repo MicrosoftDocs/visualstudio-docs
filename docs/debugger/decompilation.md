@@ -67,7 +67,7 @@ Generating source code using decompilation is only possible when the debugger is
 
 Generating source code from the intermediate format (IL) that is used in .NET assemblies has some inherent limitations. As such, the generated source code doesn't look like the original source code. Most of the differences are in places where the information in the original source code isn't needed at runtime. For example, information such as whitespace, comments, and the names of local variables aren't needed at runtime. We recommend that you use the generated source to understand how the program is executing and not as a replacement for the original source code.
 
-### Debugging optimized or release assemblies
+### Debug optimized or release assemblies
 
 When debugging code that was decompiled from an assembly that was compiled using compiler optimizations, you may come across the following issues:
 - Breakpoints may not always bind to the matching sourcing location.
