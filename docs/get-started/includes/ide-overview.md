@@ -13,7 +13,7 @@ The Visual Studio *integrated development environment* is a creative launching p
 
 ![The Visual Studio 2017 IDE](../media/visual-studio-ide.png)
 
-::: moniker-end
+::: mo.niker-end
 
 ::: moniker range="vs-2019"
 
@@ -41,7 +41,7 @@ This image shows Visual Studio with an open project and several key tool windows
 
 Visual Studio is available for Windows and Mac. [Visual Studio for Mac](/visualstudio/mac/) has many of the same features as Visual Studio 2017, and is optimized for developing cross-platform and mobile apps. This article focuses on the Windows version of Visual Studio 2017.
 
-There are three editions of Visual Studio 2017: Community, Professional, and Enterprise. See [Compare Visual Studio 2017 IDEs](https://visualstudio.microsoft.com/vs/compare/) to learn about which features are supported in each edition.
+There are three editions of Visual Studio 2017: Community, Professional, and Enterprise. See [Compare Visual Studio 2017 IDE editions](https://visualstudio.microsoft.com/vs/compare/) to learn about which features are supported in each edition.
 
 ::: moniker-end
 
