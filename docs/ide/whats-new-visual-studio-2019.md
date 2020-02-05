@@ -114,6 +114,9 @@ View the following video to learn more about how you can team up to solve issues
 
 > [!VIDEO https://www.youtube.com/embed/dKLJsiK1QU8]
 
+----
+ isn't clear why workflow is cloud first
+----
 ### Cloud-first workflow
 
 Something you'll notice when you open Visual Studio 2019 is its new start window.
