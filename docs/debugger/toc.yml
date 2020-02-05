@@ -270,7 +270,7 @@
       href: how-to-restore-hidden-debugger-commands.md
   - name: Source code
     items:
-    - name: Decompile .Net assemblies
+    - name: Decompile .NET assemblies
       href: decompilation.md    
   - name: Remote debugging
     items:
