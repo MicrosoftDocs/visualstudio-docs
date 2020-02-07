@@ -30,11 +30,13 @@ When you're debugging and no source code is available, Visual Studio shows the *
 ### No symbols loaded
 
 The following illustration shows the **No Symbols Loaded** message.
+
 ![Screenshot of no symbol loaded document](media/decompilation-no-symbol-found.png)
 
 ### Source not found
 
 The following illustration shows the **Source Not Found** message.
+
 ![Screenshot of source not found document](media/decompilation-no-source-found.png)
 
 ## Generate and embed sources for an assembly
