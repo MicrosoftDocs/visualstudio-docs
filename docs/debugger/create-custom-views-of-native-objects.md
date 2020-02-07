@@ -684,3 +684,9 @@ Each type defined in the *.natvis* file must explicitly list any UI visualizers 
 It's a lot more work to write a custom visualizer than an XML Natvis definition, but you're free from constraints about what Natvis does or doesn't support. Custom visualizers have access to the full set of debugger extensibility APIs, which can query and modify the debuggee process or communicate with other parts of Visual Studio.
 
  You can use the `Condition`, `IncludeView`, and `ExcludeView` attributes on `CustomVisualizer` elements.
+
+ ## Limitations
+
+Natvis customizations work with classes and structs, but not typedefs.
+
+Natvis does not support visualizers for primitive types (for example, `int`, `bool`) or for pointers to primitive types. In this scenario, one option is to use the [format specifier](../format-specifiers-in-cpp.md) appropriate to your use case. For example, if you use `double* mydoublearray` in your code, then you can use an array format specifier in the debugger's **Watch** window, such as the expression `mydoublearray, [100]`, which shows the first 100 elements.
