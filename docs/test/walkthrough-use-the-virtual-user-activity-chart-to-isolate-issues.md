@@ -7,7 +7,7 @@ helpviewer_keywords:
   - "virtual user activity chart, isolating performance issues"
 ms.assetid: d1c10fb9-cfeb-4e7f-9991-2d1e1103699e
 author: jillre
-ms.author: jillfra
+ms.author: mikejo
 manager: jillfra
 ---
 # Walkthrough: Using the Virtual User Activity Chart to isolate issues
