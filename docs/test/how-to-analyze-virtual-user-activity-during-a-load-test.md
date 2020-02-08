@@ -6,7 +6,7 @@ helpviewer_keywords:
   - "virtual user activity chart, viewing"
 ms.assetid: 8bda19b3-91c1-4daf-b6c7-09108bddadff
 author: jillre
-ms.author: jillfra
+ms.author: mikejo
 manager: jillfra
 ---
 # How to: Analyze what virtual users are doing during a load test using the virtual user activity chart
