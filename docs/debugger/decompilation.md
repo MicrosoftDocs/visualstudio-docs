@@ -75,8 +75,27 @@ When debugging code that was decompiled from an assembly that was compiled using
 - Breakpoints may not always bind to the matching sourcing location.
 - Stepping may not always step to the correct location.
 - Local variables may not have accurate names.
+- Some variables may not be available for evaluation.
 
 More details can be found in the GitHub issue: [IChsarpCompiler.Decompiler integration into VS Debugger](https://github.com/icsharpcode/ILSpy/issues/1901).
+
+### Decompilation reliability
+
+A relatively small percentage of decompilation attempts may result in failure. This is due to a sequence point null-reference error in ILSpy.  We have mitigated the failure by catching these issues and gracefully failing the decompilation attempt.
+
+More details can be found in the GitHub issue: [IChsarpCompiler.Decompiler integration into VS Debugger](https://github.com/icsharpcode/ILSpy/issues/1901).
+
+### Limitatios with async code
+
+The results from decompiling modules with async/await code patterns may be incomplete or fail entirely. The implementation of async/await and yield state-machines is only partially implemented. 
+
+More details can be found in the GitHub issue: [PDB Generator Status](https://github.com/icsharpcode/ILSpy/issues/1422).
+
+### Just My Code
+
+The Just My Code (JMC) settings allows Visual Studio to step over system, framework, library, and other non-user calls. During a debugging session, the Modules window shows which code modules the debugger is treating as My Code (user code).
+
+Decompilation of optimized or release modules produces non-user code. If the debugger breaks in your decompiled non-user code, for example, the No Source window will appear. In order to disable Just My navigate to Tools > Options (or Debug > Options) > Debugging > General, deselect Enable Just My Code.
 
 ### Extracted sources
 
