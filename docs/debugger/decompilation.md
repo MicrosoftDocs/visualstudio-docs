@@ -85,9 +85,9 @@ A relatively small percentage of decompilation attempts may result in failure. T
 
 More details can be found in the GitHub issue: [IChsarpCompiler.Decompiler integration into VS Debugger](https://github.com/icsharpcode/ILSpy/issues/1901).
 
-### Limitatios with async code
+### Limitations with async code
 
-The results from decompiling modules with async/await code patterns may be incomplete or fail entirely. The implementation of async/await and yield state-machines is only partially implemented. 
+The results from decompiling modules with async/await code patterns may be incomplete or fail entirely. The ILSpy implementation of async/await and yield state-machines is only partially implemented. 
 
 More details can be found in the GitHub issue: [PDB Generator Status](https://github.com/icsharpcode/ILSpy/issues/1422).
 
