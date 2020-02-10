@@ -1,5 +1,5 @@
 ---
-title: Static local function refactorings
+title: Make local function static
 ms.date: 09/28/2019
 ms.topic: reference
 author: governesss
