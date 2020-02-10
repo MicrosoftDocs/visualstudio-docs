@@ -68,9 +68,11 @@ First, you'll create a C++ console application project. The project type comes w
 
 3. In the **New Project** dialog box in the left pane, expand **Visual C++** and then choose **Windows Desktop**. In the middle pane, choose **Windows Console Application**. Then name the project *get-started-debugging*.
 
-     If you don't see the **Console App** project template, choose the **Open Visual Studio Installer** link in the left pane of the **New Project** dialog box.
+     If you don't see the **Console App** project template, choose the **Open Visual Studio Installer** link in the left pane of the **New Project** dialog box. The Visual Studio Installer launches. Choose the **.NET Core cross-platform development** workload, and then choose **Modify**.
 
-     The Visual Studio Installer launches. Choose the **.NET Core cross-platform development** workload, and then choose **Modify**.
+4. Click **OK**.
+
+   Visual Studio opens your new project.
 
 ::: moniker-end
 
