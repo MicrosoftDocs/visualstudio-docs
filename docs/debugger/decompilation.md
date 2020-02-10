@@ -93,7 +93,7 @@ More details can be found in the GitHub issue: [PDB Generator Status](https://gi
 
 ### Just My Code
 
-The Just My Code (JMC) settings allows Visual Studio to step over system, framework, library, and other non-user calls. During a debugging session, the Modules window shows which code modules the debugger is treating as My Code (user code).
+The [Just My Code (JMC)](https://docs.microsoft.com/en-us/visualstudio/debugger/just-my-code) settings allows Visual Studio to step over system, framework, library, and other non-user calls. During a debugging session, the Modules window shows which code modules the debugger is treating as My Code (user code).
 
 Decompilation of optimized or release modules produces non-user code. If the debugger breaks in your decompiled non-user code, for example, the No Source window will appear. In order to disable Just My Code navigate to Tools > Options (or Debug > Options) > Debugging > General, deselect Enable Just My Code.
 
