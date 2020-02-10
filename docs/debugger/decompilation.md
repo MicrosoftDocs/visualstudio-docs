@@ -95,7 +95,7 @@ More details can be found in the GitHub issue: [PDB Generator Status](https://gi
 
 The Just My Code (JMC) settings allows Visual Studio to step over system, framework, library, and other non-user calls. During a debugging session, the Modules window shows which code modules the debugger is treating as My Code (user code).
 
-Decompilation of optimized or release modules produces non-user code. If the debugger breaks in your decompiled non-user code, for example, the No Source window will appear. In order to disable Just My navigate to Tools > Options (or Debug > Options) > Debugging > General, deselect Enable Just My Code.
+Decompilation of optimized or release modules produces non-user code. If the debugger breaks in your decompiled non-user code, for example, the No Source window will appear. In order to disable Just My Code navigate to Tools > Options (or Debug > Options) > Debugging > General, deselect Enable Just My Code.
 
 ### Extracted sources
 
@@ -106,4 +106,4 @@ Source code extracted from an assembly has the following limitations:
 - The file name for each file contains a checksum hash of the file.
 
 ### Generated code is C# only
-Decompilation only generate source code files in C#. There is no option to generate files in any other language.
+Decompilation only generates source code files in C#. There is no option to generate files in any other language.
