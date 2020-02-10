@@ -2,7 +2,7 @@
 title: Modify Visual Studio
 titleSuffix: ''
 description: Learn how to modify Visual Studio, step-by-step.
-ms.date: 12/29/2019
+ms.date: 02/10/2019
 ms.topic: conceptual
 helpviewer_keywords:
 - modify Visual Studio
@@ -117,6 +117,9 @@ Here's how.
 ::: moniker range="vs-2019"
 
  Workloads contain the features you need for the programming language or platform that you're using. Use workloads to modify Visual Studio so that it supports the work you want to do, when you want to do it.
+
+ > [!TIP]
+>For more information about which tool and component bundles you need for development, see [Visual Studio workloads](https://visualstudio.microsoft.com/vs/#workloads).
 
 1. In in the Visual Studio Installer, choose the **Workloads** tab, and then select or deselect the workloads that you want.
 
