@@ -81,7 +81,7 @@ Because the Visual Studio Installer downloads files from various domains and the
 
 ### URLs to add to an allow list and ports and protocols to open
 
-To make sure that you have access to everything you need when you use Visual Studio or Azure Services behind a firewall or proxy server, here are the URLs you should add to an allow list and the ports and protocols that you might want to open.
+To make sure that you have access to everything you want when you use Visual Studio or Azure Services behind a firewall or proxy server, here are the URLs you should add to an allow list and the ports and protocols that you might want to open.
 
 | Service or scenario | DNS endpoint | Protocol | Port | Description |
 | - | - | - | - | - |
