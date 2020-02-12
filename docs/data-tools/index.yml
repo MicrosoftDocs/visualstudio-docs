@@ -1,0 +1,112 @@
+### YamlMime:Landing
+
+title: Visual Studio data tools documentation # < 60 chars
+summary: Use Visual Studio and .NET tooling to develop your data applications
+metadata:
+  title: Develop data solutions # Required; page title displayed in search results. Include the brand. < 60 chars.
+  description: Learn about different tools for developing data solutions in Visual Studio, including .NET tools, SQL Server Data Tools, Azure Data Lake, Azure HDInsight, and Azure Streaming Analytics.
+  ms.date: 01/01/2018
+  author: ghogen
+  ms.author: ghogen
+  ms.topic: landing-page
+  ms.workload:
+  - data-storage
+
+# linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
+
+landingContent:
+# Cards and links should be based on top customer tasks or top subjects
+# Start card title with a verb
+
+  - title: Data Access
+    linkLists:
+      - linkListType: overview
+        links:
+          - text: Access Data in Visual Studio
+            url: /visualstudio/data-tools/accessing-data-in-visual-studio
+
+
+# Card (optional)
+  - title: SQL Server
+    linkLists:
+      - linkListType: overview
+        links:
+          - text: Work with SQL Server Data Tools
+            url: /sql/ssdt/sql-server-data-tools?view=sql-server-ver15
+
+  # Card (optional)
+  - title: .NET
+    linkLists:
+      - linkListType: overview
+        links:
+          - text: Visual Studio data tools for .NET
+            url: visual-studio-data-tools-for-dotnet.md
+          - text: DataSet tools
+            url: dataset-tools-in-visual-studio.md
+          - text: Entity Framework tools
+            url: entity-data-model-tools-in-visual-studio.md
+          - text: Link to SQL tools
+            url: linq-to-sql-tools-in-visual-studio2.md
+          - text: WCF Data Services (OData) tools
+            url: windows-communication-foundation-services-and-wcf-data-services-in-visual-studio.md
+      - linklistType: tutorial
+        links:
+          - text: ADO.NET data application
+            url: create-a-simple-data-application-by-using-adonet.md
+          - text: WPF and Entity Framework 6
+            url: create-a-simple-data-application-with-wpf-and-entity-framework-6.md
+          - text: n-Tier data application 
+            url: walkthrough-creating-an-n-tier-data-application.md
+          - text: WCF Data Service with WPF and Entity Framework
+            url: walkthrough-creating-a-wcf-data-service-with-wpf-and-entity-framework.md
+      - linklistType: reference
+          - text: ADO.NET
+            url: /dotnet/framework/data/adonet/index
+          - text: Entity Framework 6
+            url: /ef/ef6/
+          - text: Entity Framework Core
+            url: /ef/core/
+
+  - title: C++ 
+    linkLists:
+      - linkListType: overview
+        links:
+          - text: Data Access in C++
+            url: /cpp/data/data-access-in-cpp?view=vs-2019
+
+  - title: Azure Cosmos DB
+    linkLists:
+      - linklistType: overview
+        links:
+          - text: What is Cosmos DB?
+            url: /azure/cosmos-db/introduction
+      - linklistType: tutorial
+        links: 
+          - text: 
+            url: /azure/cosmos-db/sql-api-get-started
+          - text:
+            url: /azure/cosmos-db/sql-api-dotnet-application
+
+  # Card
+  - title: Azure Data Lake Analytics
+    linkLists:
+      - linkListType: tutorial
+        links:
+          - text: Develop Big Data applications with U-SQL and .NET using Azure Data Lake
+            url: /azure/data-lake-analytics/data-lake-analytics-data-lake-tools-get-started
+
+    # Card
+  - title: HDInsight
+    linkLists:
+      - linkListType: tutorial
+        links:
+          - text: running Hive queries with Hadoop on Azure HDInsight
+            url: /azure/hdinsight/hdinsight-hadoop-visual-studio-tools-get-started
+
+  # Card
+  - title: Azure Stream Analytics
+    linkLists:
+      - linkListType: tutorial
+        links:
+          - text: Develop near-real time big data solutions with Azure Streaming Analytics
+            url: /azure/stream-analytics/stream-analytics-tools-for-visual-studio
