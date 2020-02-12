@@ -5066,6 +5066,11 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "scripting-docs/javascript-language-reference.md",
+      "redirect_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "scripting-docs/javascript/advanced/advanced-javascript.md",
       "redirect_url": "https://developer.mozilla.org/docs/Web/JavaScript",
       "redirect_document_id": false
@@ -8607,7 +8612,7 @@
     },
     {
       "source_path": "docs/version-control/index.md",
-      "redirect_url": "/azure/devops/repos/index",
+      "redirect_url": "/azure/devops/repos?view=azure-devops",
       "redirect_document_id": false
     },
     {
