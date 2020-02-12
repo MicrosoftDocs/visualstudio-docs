@@ -83,9 +83,9 @@ landingContent:
             url: /azure/cosmos-db/introduction
       - linkListType: tutorial
         links: 
-          - text: 
+          - text: .NET console app
             url: /azure/cosmos-db/sql-api-get-started
-          - text:
+          - text: .NET web app
             url: /azure/cosmos-db/sql-api-dotnet-application
 
   # Card
