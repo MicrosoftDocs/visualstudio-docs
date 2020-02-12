@@ -58,7 +58,7 @@ To install and use the remote agent to develop code for iOS, you must first have
 
 - [Node.js](https://nodejs.org/) version 12.14.1 and npm version 6.13.4
 
-   Install version 12.14.1 of Node.js on your Mac. If you install the Node.js package, it should come with npm version 6.13.4. Other versions of Node.js and npm may not support some modules used in the remote agent `vcremote`, which can cause `vcremote` installation to fail. It is recommended that Node.js is installed using a package manager such as [Node Version Manager](https://nodejs.org/en/download/package-manager/#nvm) and to avoid using the command `sudo` when installing Node.js as some modules can fail to install when using `sudo`.
+   Install version 12.14.1 of Node.js on your Mac. If you install the Node.js package, it should come with npm version 6.13.4. Other versions of Node.js and npm may not support some modules used in the remote agent `vcremote`, which can cause `vcremote` installation to fail. We recommend you install Node.js by using a package manager such as [Node Version Manager](https://nodejs.org/en/download/package-manager/#nvm). Avoid using the command `sudo` to install Node.js, as some modules can fail to install when using `sudo`.
 
 ## <a name="Install"></a> Install the remote agent for iOS
 
@@ -68,15 +68,17 @@ Before you install the remote agent, make sure you have satisfied the [Prerequis
 
 ### <a name="DownloadInstall"></a> To download and install the remote agent
 
-- From the Terminal app on your Mac, ensure the Node.js that is currently in use is the required version 12.14.1 by running the command:
+- From the Terminal app on your Mac, verify that the Node.js version currently in use is the required version 12.14.1. To verify the version, run the command:
 
   `node -v`
+  
+  If it's not the right version, you may need to follow the Node.js installation instructions in the prerequisites. Then, restart Node.js.
 
-- After verifying the required Node.js in use, run the following command to install vcremote under that Node.js version:
+- After verifying the required Node.js is in use, run this command to install vcremote under that Node.js version:
 
    `npm install -g --unsafe-perm vcremote`
 
-   The global installation (**-g**) switch is recommended but not required. If the globabl installation switch is not used, vcremote will be installed under the current active path on the Terminal app.
+   The global installation (**-g**) switch is recommended, but not required. If you don't use the global installation switch, vcremote gets installed under the current active path in the Terminal app.
 
    During the installation, `vcremote` is installed and developer mode is activated on your Mac. [Homebrew](https://brew.sh/) and two npm packages, `vcremote-lib` and `vcremote-utils`, are also installed. When installation completes, it's safe to ignore any warnings about skipped optional dependencies.
 
