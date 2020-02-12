@@ -49,7 +49,7 @@ landingContent:
             url: linq-to-sql-tools-in-visual-studio2.md
           - text: WCF Data Services (OData) tools
             url: windows-communication-foundation-services-and-wcf-data-services-in-visual-studio.md
-      - linklistType: tutorial
+      - linkListType: tutorial
         links:
           - text: ADO.NET data application
             url: create-a-simple-data-application-by-using-adonet.md
@@ -59,7 +59,7 @@ landingContent:
             url: walkthrough-creating-an-n-tier-data-application.md
           - text: WCF Data Service with WPF and Entity Framework
             url: walkthrough-creating-a-wcf-data-service-with-wpf-and-entity-framework.md
-      - linklistType: reference
+      - linkListType: reference
         links:
           - text: ADO.NET
             url: /dotnet/framework/data/adonet/index
@@ -77,11 +77,11 @@ landingContent:
 
   - title: Azure Cosmos DB
     linkLists:
-      - linklistType: overview
+      - linkListType: overview
         links:
           - text: What is Cosmos DB?
             url: /azure/cosmos-db/introduction
-      - linklistType: tutorial
+      - linkListType: tutorial
         links: 
           - text: 
             url: /azure/cosmos-db/sql-api-get-started
