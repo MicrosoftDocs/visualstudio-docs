@@ -21,6 +21,7 @@ For applications in JavaScript, Python, PHP, Ruby, or C++, you connect to data l
 
 ::: moniker range="vs-2017"
 The following lists show just a few of the many database and storage systems that can be used from Visual Studio. The [Microsoft Azure](https://azure.microsoft.com/) offerings are data services that include all provisioning and administration of the underlying data store. The **Azure development** workload in [Visual Studio 2017](https://visualstudio.microsoft.com/vs/older-downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=vs+2017+download) enables you to work with Azure data stores directly from Visual Studio.
+::: moniker-end
 ::: moniker range=">=vs-2019"
 The following lists show just a few of the many database and storage systems that can be used from Visual Studio. The [Microsoft Azure](https://azure.microsoft.com/) offerings are data services that include all provisioning and administration of the underlying data store. The **Azure development** workload in [Visual Studio 2019](https://visualstudio.microsoft.com/downloads) enables you to work with Azure data stores directly from Visual Studio.
 ::: moniker-end

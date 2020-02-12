@@ -60,6 +60,7 @@ landingContent:
           - text: WCF Data Service with WPF and Entity Framework
             url: walkthrough-creating-a-wcf-data-service-with-wpf-and-entity-framework.md
       - linklistType: reference
+        links:
           - text: ADO.NET
             url: /dotnet/framework/data/adonet/index
           - text: Entity Framework 6
