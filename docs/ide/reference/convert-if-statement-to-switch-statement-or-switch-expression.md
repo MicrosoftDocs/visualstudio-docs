@@ -28,7 +28,7 @@ This refactoring applies to:
 2. Press **Ctrl**+**.** to trigger the **Quick Actions and Refactorings** menu.
 3. Select **Convert to 'switch' statement**.
 
-   ![Convert if statement to switch statement or switch expression](media\convert-if-statement-to-switch-statement-or-switch-expression.png) 
+   ![Convert if statement to switch statement or switch expression](media/convert-if-statement-to-switch-statement-or-switch-expression.png) 
 
 ## See also
 
