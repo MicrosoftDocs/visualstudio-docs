@@ -45,7 +45,7 @@ For lists of the workloads and components that you can install by using the comm
    ```
 
   > [!NOTE]
-  > Both commands are required. The first command updates the Visual Studio Installer. The second command updates the Visual Studio instance. To avoid a User Account Control dialog, run the command prompt as an Administrator.
+  > Both commands are advised. The first command updates the Visual Studio Installer. The second command updates the Visual Studio instance. To avoid a User Account Control dialog, run the command prompt as an Administrator.
 
 * Install a desktop instance of Visual Studio silently, with the French language pack, returning only when the product is installed.
 
