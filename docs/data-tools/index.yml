@@ -93,7 +93,7 @@ landingContent:
     linkLists:
       - linkListType: tutorial
         links:
-          - text: Develop Big Data applications with U-SQL and .NET using Azure Data Lake
+          - text: Develop big data applications with U-SQL and .NET using Azure Data Lake
             url: /azure/data-lake-analytics/data-lake-analytics-data-lake-tools-get-started
 
     # Card
@@ -101,7 +101,7 @@ landingContent:
     linkLists:
       - linkListType: tutorial
         links:
-          - text: running Hive queries with Hadoop on Azure HDInsight
+          - text: Run Hive queries with Hadoop on Azure HDInsight
             url: /azure/hdinsight/hdinsight-hadoop-visual-studio-tools-get-started
 
   # Card
