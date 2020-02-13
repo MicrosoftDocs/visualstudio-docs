@@ -8612,7 +8612,7 @@
     },
     {
       "source_path": "docs/version-control/index.md",
-      "redirect_url": "/azure/devops/repos/index",
+      "redirect_url": "/azure/devops/repos?view=azure-devops",
       "redirect_document_id": false
     },
     {

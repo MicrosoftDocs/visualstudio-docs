@@ -55,8 +55,8 @@ The table below details what Pluralsight subscription benefits are available to 
 |          Visual Studio Enterprise with GitHub Enterprise          | VL  |   6 months    | Yes<sup>2</sup> |
 |         Visual Studio Professional (Standard)          | VL, Azure, Retail |   3 months    | Yes<sup>2</sup> |
 |         Visual Studio Professional with GitHub Enterprise          | VL  |   3 months    | Yes<sup>2</sup> |
-|              Visual Studio Test Professional (Standard)              |    VL, Retail     |   3 months    | Yes<sup>2</sup>  |
-|                      MSDN Platforms (Standard)                       |    VL, Retail     |   3 months    | Yes<sup>2</sup>  |
+|              Visual Studio Test Professional (Standard)              |    VL, Retail     |   Not available    | NA  |
+|                      MSDN Platforms (Standard)                       |    VL, Retail     |   Not available    | NA  |
 | Visual Studio Enterprise, Visual Studio Professional (monthly cloud) |       Azure       | Not available |       NA       |
 |             Visual Studio Enterprise (NFR<sup>1</sup> )              |      Program      | Not available |       NA       |
 ||
