@@ -28,7 +28,8 @@ Contains a set of user-defined [Item](../msbuild/item-element-msbuild.md) elemen
 ## Syntax
 
 ```xml
-<ItemGroup Condition="'String A' == 'String B'">
+<ItemGroup Condition="'String A' == 'String B'"
+           Label="Label">
     <Item1>... </Item1>
     <Item2>... </Item2>
 </ItemGroup>
@@ -42,6 +43,7 @@ The following sections describe attributes, child elements, and parent elements.
 |Attribute|Description|
 |---------------|-----------------|
 |`Condition`|Optional attribute. Condition to be evaluated. For more information, see [Conditions](../msbuild/msbuild-conditions.md).|
+|`Label`|Optional attribute. Identifies the `ItemGroup`.|
 
 ### Child elements
 
