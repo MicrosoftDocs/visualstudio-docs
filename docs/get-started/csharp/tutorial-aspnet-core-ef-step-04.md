@@ -2,7 +2,7 @@
 title: "Step 4: Exposing a web API From Your ASP.NET Core App"
 description: "Add a web API to your ASP.NET Core Web App with this video tutorial and step-by-step instructions."
 ms.custom: "get-started"
-ms.date: 03/31/2019
+ms.date: 02/13/2020
 ms.technology: vs-ide-general
 ms.prod: visual-studio-windows
 monikerRange: vs-2019
@@ -181,7 +181,7 @@ Finally, an `[HttpDelete]` route is used with an ID to delete a record. If the r
 
 ## Adding Swagger
 
-Swagger is an API documentation and testing tool that can be added as a set of services and middleware to an ASP.NET Core app. To do so, right-click on the project and choose **Manage NuGet Packages**. Click on **Browse** and search for `Swashbuckle.AspNetCore` and install the corresponding package.
+Swagger is an API documentation and testing tool that can be added as a set of services and middleware to an ASP.NET Core app. To do so, right-click on the project and choose **Manage NuGet Packages**. Click **Browse**, search for `Swashbuckle.AspNetCore`, and install the 4.0.1 version.
 
 ![Visual Studio 2019 Add Swashbuckle From Nuget](media/vs-2019/vs2019-nuget-swashbuckle.png)
 
