@@ -59,7 +59,7 @@ landingContent:
             url: walkthrough-creating-an-n-tier-data-application.md
           - text: WCF Data Service with WPF and Entity Framework
             url: walkthrough-creating-a-wcf-data-service-with-wpf-and-entity-framework.md
-      - linkListType: concepts
+      - linkListType: concept
         links:
           - text: ADO.NET
             url: /dotnet/framework/data/adonet/index
