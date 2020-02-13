@@ -1,5 +1,5 @@
 ---
-title: Data access and tools
+title: Work with data in Visual Studio
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -13,7 +13,7 @@ manager: jillfra
 ms.workload:
 - data-storage
 ---
-# Access data in Visual Studio
+# Work with data in Visual Studio
 
 In Visual Studio, you can create applications that connect to data in virtually any database product or service, in any format, anywhere—on a local machine, on a local area network, or in a public, private, or hybrid cloud.
 
