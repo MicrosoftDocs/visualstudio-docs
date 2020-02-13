@@ -181,7 +181,7 @@ Finally, an `[HttpDelete]` route is used with an ID to delete a record. If the r
 
 ## Adding Swagger
 
-Swagger is an API documentation and testing tool that can be added as a set of services and middleware to an ASP.NET Core app. To do so, right-click on the project and choose **Manage NuGet Packages**. Click **Browse**, search for `Swashbuckle.AspNetCore`, and install the 4.0.1 version.
+Swagger is an API documentation and testing tool that can be added as a set of services and middleware to an ASP.NET Core app. To do so, right-click on the project and choose **Manage NuGet Packages**. Then, click **Browse**, search for `Swashbuckle.AspNetCore`, and install the 4.0.1 version.
 
 ![Visual Studio 2019 Add Swashbuckle From Nuget](media/vs-2019/vs2019-nuget-swashbuckle.png)
 
