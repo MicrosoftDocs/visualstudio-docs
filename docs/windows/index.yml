@@ -171,7 +171,7 @@ additionalContent:
             - text: Node.js
               url: /visualstudio/javascript
             - text: Data storage and processing
-              url: ../data-tools/index.md
+              url: ../data-tools/index.yml
             - text: Data science
               url: ../python/data-science-and-analytical-applications-workload.md
             - text: Office/Sharepoint development
