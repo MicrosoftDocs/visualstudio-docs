@@ -47,7 +47,7 @@ landingContent:
             url: entity-data-model-tools-in-visual-studio.md
           - text: Link to SQL tools
             url: linq-to-sql-tools-in-visual-studio2.md
-          - text: WCF Data Services (OData) tools
+          - text: WCF and WCF Data Services (OData) tools
             url: windows-communication-foundation-services-and-wcf-data-services-in-visual-studio.md
       - linkListType: tutorial
         links:
@@ -59,7 +59,7 @@ landingContent:
             url: walkthrough-creating-an-n-tier-data-application.md
           - text: WCF Data Service with WPF and Entity Framework
             url: walkthrough-creating-a-wcf-data-service-with-wpf-and-entity-framework.md
-      - linkListType: reference
+      - linkListType: concepts
         links:
           - text: ADO.NET
             url: /dotnet/framework/data/adonet/index
