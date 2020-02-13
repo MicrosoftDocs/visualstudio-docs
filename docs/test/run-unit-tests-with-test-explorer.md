@@ -305,7 +305,7 @@ You can use Test Explorer to start a debugging session for your tests. Stepping 
 
 ### Diagnose test method performance issues
 
-To diagnose why a test method is taking too much time, select the method in Test Explorer and then choose **Profile Selected Test** on the right-click menu. See [Measure performance](../profiling/profiling-feature-tour.md).
+To diagnose why a test method is taking too much time, select the method in Test Explorer and then choose **Profile Selected Test** on the right-click menu. See [Instrumentation profiling report](../profiling/understanding-instrumentation-data-values?view=vs-2017).
 
 ### Analyze unit test code coverage
 
