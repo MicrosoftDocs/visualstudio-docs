@@ -398,6 +398,8 @@
           href: ide/reference/remove-unreachable-code.md
         - name: Rename
           href: ide/reference/rename.md
+        - name: Simplify string interpolation
+          href: ide/reference/simplify-string-interpolation.md
         - name: Sort usings
           href: ide/reference/sort-usings.md
         - name: Split or merge if statements
