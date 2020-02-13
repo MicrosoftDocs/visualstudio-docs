@@ -21,7 +21,7 @@ ms.workload:
 
  This walkthrough demonstrates the following tasks:
 
-- [Addg a feature and feature event receiver](#add-a-feature-and-feature-event-receiver).
+- [Add a feature and feature event receiver](#add-a-feature-and-feature-event-receiver).
 
 - [Configure and Deploy the SharePoint application](#configure-and-deploy-the-sharepoint-application).
 
