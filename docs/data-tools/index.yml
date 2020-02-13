@@ -58,55 +58,24 @@ landingContent:
         links:
           - text: Work with data in Visual Studio
             url: /visualstudio/data-tools/accessing-data-in-visual-studio
-
-# Card (optional)
-  - title: SQL Server
-    linkLists:
-      - linkListType: overview
-        links:
           - text: Work with SQL Server Data Tools
             url: /sql/ssdt/sql-server-data-tools?view=sql-server-ver15
-
-  - title: C++ 
-    linkLists:
-      - linkListType: overview
-        links:
           - text: Data Access in C++
             url: /cpp/data/data-access-in-cpp?view=vs-2019
 
-  - title: Azure Cosmos DB
+  - title: Azure
     linkLists:
-      - linkListType: overview
-        links:
-          - text: What is Cosmos DB?
-            url: /azure/cosmos-db/introduction
       - linkListType: tutorial
         links: 
-          - text: .NET console app
+          - text: Azure SQL database
+            url: /azure/sql-database/sql-database-connect-query-dotnet-visual-studio
+          - text: Cosmos DB - .NET console app
             url: /azure/cosmos-db/sql-api-get-started
-          - text: .NET web app
+          - text: Cosmos DB - .NET web app
             url: /azure/cosmos-db/sql-api-dotnet-application
-
-  # Card
-  - title: Azure Data Lake Analytics
-    linkLists:
-      - linkListType: tutorial
-        links:
-          - text: Develop big data applications with U-SQL and .NET using Azure Data Lake
+          - text: Azure Data Lake Analytics
             url: /azure/data-lake-analytics/data-lake-analytics-data-lake-tools-get-started
-
-    # Card
-  - title: HDInsight
-    linkLists:
-      - linkListType: tutorial
-        links:
-          - text: Run Hive queries with Hadoop on Azure HDInsight
+          - text: HDInsight
             url: /azure/hdinsight/hdinsight-hadoop-visual-studio-tools-get-started
-
-  # Card
-  - title: Azure Stream Analytics
-    linkLists:
-      - linkListType: tutorial
-        links:
-          - text: Develop near-real time big data solutions with Azure Streaming Analytics
+          - text: Azure Stream Analytics
             url: /azure/stream-analytics/stream-analytics-tools-for-visual-studio
