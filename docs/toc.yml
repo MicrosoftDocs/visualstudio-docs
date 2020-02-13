@@ -362,6 +362,8 @@
           href: ide/reference/convert-local-function-method.md
         - name: Convert foreach loop to LINQ
           href: ide/reference/convert-foreach-linq.md
+        - name: Convert if statement to switch statement or switch expression
+          href: ide/reference/convert-if-statement-to-switch-statement-or-switch-expression.md
         - name: Convert LINQ query to foreach statement
           href: ide/reference/convert-linq-to-foreach.md
         - name: Convert switch statement to switch expression
