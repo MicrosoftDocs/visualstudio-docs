@@ -165,5 +165,5 @@ This walkthrough demonstrates how to analyze C/C++ code for potential code defec
 
 ## See also
 
-[Walkthrough: Analyzing Managed Code for Code Defects](../code-quality/walkthrough-analyzing-managed-code-for-code-defects.md)
-[Code analysis for C/C++](../code-quality/code-analysis-for-c-cpp-overview.md)
+- [Walkthrough: Analyzing Managed Code for Code Defects](../code-quality/walkthrough-analyzing-managed-code-for-code-defects.md)
+- [Code analysis for C/C++](../code-quality/code-analysis-for-c-cpp-overview.md)
