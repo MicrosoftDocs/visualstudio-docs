@@ -4,8 +4,8 @@ ms.date: 06/27/2019
 ms.topic: conceptual
 helpviewer_keywords:
   - minidumps for Visual Studio issues"
-author: mikeblome
-ms.author: mblome
+author: corob-msft
+ms.author: corob
 manager: jillfra
 dev_langs:
  - CSharp
