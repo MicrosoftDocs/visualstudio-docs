@@ -326,6 +326,11 @@
       "redirect_document_id": true
     },
     {
+      "source_path": "docs/code-quality/code-analysis-for-c-cpp-warnings.md",
+      "redirect_url": "/cpp/code-quality/code-analysis-for-c-cpp-warnings",
+      "redirect_document_id": true
+    },
+    {
       "source_path": "docs/code-quality/cpp-core-guidelines-warnings.md",
       "redirect_url": "/cpp/code-quality/cpp-core-guidelines-warnings",
       "redirect_document_id": true
@@ -738,11 +743,6 @@
     {
       "source_path": "docs/code-quality/c26816.md",
       "redirect_url": "/cpp/code-quality/c26816",
-      "redirect_document_id": true
-    },
-    {
-      "source_path": "docs/code-quality/code-analysis-for-c-cpp-warnings.md",
-      "redirect_url": "/cpp/code-quality/code-analysis-for-c-cpp-warnings",
       "redirect_document_id": true
     },
     {
