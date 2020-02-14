@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "_Analysis_assume"
 ms.assetid: 51205d97-4084-4cf4-a5ed-3eeaf67deb1b
-author: mikeblome
-ms.author: mblome
+author: corob-msft
+ms.author: corob
 manager: markl
 ms.workload:
   - "multiple"

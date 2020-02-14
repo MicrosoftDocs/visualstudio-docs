@@ -123,8 +123,8 @@ f1_keywords:
   - "_Scanf_s_format_string_"
   - "_Printf_format_string_"
 ms.assetid: 82826a3d-0c81-421c-8ffe-4072555dca3a
-author: mikeblome
-ms.author: mblome
+author: corob-msft
+ms.author: corob
 manager: markl
 ms.workload:
   - "multiple"

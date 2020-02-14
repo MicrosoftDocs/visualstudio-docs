@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "#pragma directives, code analysis"
   - "C, code analysis"
 ms.assetid: 81f0c9e8-f471-4de5-aac4-99db336a8809
-author: mikeblome
-ms.author: mblome
+author: corob-msft
+ms.author: corob
 manager: markl
 ms.workload:
   - "cplusplus"

@@ -2,11 +2,11 @@
 title: "Microsoft.VisualStudio.TestTools.CppUnitTestFramework API"
 ms.date: 09/27/2019
 ms.topic: reference
-ms.author: mblome
+ms.author: corob
 manager: jillfra
 ms.workload:
   - "multiple"
-author: mikeblome
+author: corob-msft
 ---
 # Microsoft.VisualStudio.TestTools.CppUnitTestFramework API reference
 

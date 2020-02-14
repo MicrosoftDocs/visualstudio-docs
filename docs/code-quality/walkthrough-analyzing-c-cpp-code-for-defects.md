@@ -7,8 +7,8 @@ helpviewer_keywords:
   - "code analysis, walkthroughs"
   - "code, analyzing C/C++"
   - "code analysis tool, walkthroughs"
-author: mikeblome
-ms.author: mblome
+author: corob-msft
+ms.author: corob
 manager: markl
 ms.workload:
   - "cplusplus"

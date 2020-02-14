@@ -9,8 +9,8 @@ helpviewer_keywords:
   - "code analysis,C/C++"
 ms.assetid: 6110b8ba-0af6-4acd-b1ba-bb0551f90e44
 caps.latest.revision: 10
-author: mikeblome
-ms.author: mblome
+author: corob-msft
+ms.author: corob
 manager: jillfra
 ---
 # Quick Start: Code Analysis for C/C++

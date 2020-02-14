@@ -2,8 +2,8 @@
 title: Best Practices and Examples (SAL)
 ms.date: 11/04/2016
 ms.topic: "conceptual"
-author: mikeblome
-ms.author: mblome
+author: corob-msft
+ms.author: corob
 manager: markl
 ms.workload:
   - "multiple"
