@@ -30,8 +30,8 @@ Have the user complete the following steps:
 
 1. Sign in to https://my.visualstudio.com using the sign-in address mentioned in their subscription assignment email.  
 
-> [!NOTE]
-> If they don't have their subscription assignment email, you can resend it to them from within the adminstration portal.  
+    > [!NOTE]
+    > If they don't have their subscription assignment email, you can resend it to them from within the adminstration portal.  
 
 2. Click on the **Subscriptions** tab.
 3. Verify that the email address displayed in the upper right where it says "You are signed in as..." is the same as the sign-in email address in their subscription assignment email.  If it isn't, they will not be able to access their subscription benefits. 
