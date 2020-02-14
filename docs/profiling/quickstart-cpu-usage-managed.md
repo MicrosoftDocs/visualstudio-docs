@@ -2,7 +2,7 @@
 title: "Analyze CPU usage data (C#, Visual Basic)"
 description: "Measure app performance in C# and Visual Basic using the CPU Usage diagnostics tool"
 ms.custom: "mvc"
-ms.date: 08/06/2018
+ms.date: 02/14/2020
 ms.topic: quickstart
 helpviewer_keywords:
   - "Profiling Tools, quick start"
@@ -23,15 +23,32 @@ Windows 8 and later is required to run profiling tools with the debugger (**Diag
 
 ## Create a project
 
-1. In Visual Studio, choose **File** > **New Project**.
+1. Open Visual Studio and create the project.
 
-2. Under **Visual C#** or **Visual Basic**, choose **Windows Desktop**, and then in the middle pane choose **Console App (.NET Framework)**.
+   ::: moniker range="vs-2017"
+   From the top menu bar, choose **File** > **New** > **Project**.
 
-    If you don't see the **Console App** project template, click the **Open Visual Studio Installer** link in the left pane of the **New Project** dialog box. The Visual Studio Installer launches. Choose the **.NET Desktop development** workload, then choose **Modify**.
+   In the **New Project** dialog box in the left pane, expand **C#** or **Visual Basic**, and then choose **.NET Core**. In the middle pane, choose **Console App (.NET Core)**. Then name the project *MyProfilerApp*.
 
-3. Type a name like **MyProfilerApp** and click **OK**.
+   If you don't see the **Console App (.NET Core)** project template, choose the **Open Visual Studio Installer** link in the left pane of the **New Project** dialog box. The Visual Studio Installer launches. Choose the **.NET Core cross-platform development** workload, and then choose **Modify**.
+   ::: moniker-end
+   ::: moniker range="vs-2019"
+   If the start window is not open, choose **File** > **Start Window**.
 
-    Visual Studio creates the project.
+   On the start window, choose **Create a new project**.
+
+   On the **Create a new project** window, enter or type *console* in the search box. Next, choose **C#** or **Visual Basic** from the Language list, and then choose **Windows** from the Platform list.
+
+   After you apply the language and platform filters, choose the **Console App (.NET Core)** template, and then choose **Next**.
+
+   > [!NOTE]
+   > If you do not see the **Console App (.NET Core)** template, you can install it from the **Create a new project** window. In the **Not finding what you're looking for?** message, choose the **Install more tools and features** link. Then, in the Visual Studio Installer, choose the **.NET Core cross-platform development** workload.
+
+   In the **Configure your new project** window, type or enter *MyProfilerApp* in the **Project name** box. Then, choose **Create**.
+
+   ::: moniker-end
+
+   Visual Studio opens your new project.
 
 2. Open *Program.cs* and replace all the code with the following code:
 
