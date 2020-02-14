@@ -90,7 +90,7 @@ Both options are configured in the admin portal by completing the following step
 3. Make the necessary updates in the sign-in email address field. 
 
 4. Click save and the changes will take effect.  
-If you need to make these changes to a large quantity of users, you can utilize the bulk edit feature. Read the [Edit multiple subscribers using bulk edit](edit-license#edit-multiple-subscribers-using-bulk-edit) article for more information about that process.  
+If you need to make these changes to a large quantity of users, you can utilize the bulk edit feature. Read the **Edit multiple subscribers using bulk edit** section of our [Edit subscriptions]](edit-license.md) article for more information about that process.  
 
 ## Next steps
 Learn more about managing Visual Studio subscriptions.
