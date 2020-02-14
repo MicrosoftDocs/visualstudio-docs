@@ -1,7 +1,7 @@
 ---
 title: "Analyze CPU usage data (C++)"
 description: "Measure app performance in C++ using the CPU Usage diagnostics tool"
-ms.date: 08/06/2018
+ms.date: 02/14/2020
 ms.topic: quickstart
 f1_keywords:
   - ""

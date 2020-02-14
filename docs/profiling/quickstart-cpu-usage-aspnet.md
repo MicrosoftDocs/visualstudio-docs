@@ -1,8 +1,8 @@
 ---
-title: "Analyze CPU usage data (ASP.NET)"
-description: "Measure app performance in ASP.NET apps using the CPU Usage diagnostics tool"
+title: "Analyze CPU usage data (ASP.NET Core)"
+description: "Measure app performance in ASP.NET Core apps using the CPU Usage diagnostics tool"
 ms.custom: "mvc"
-ms.date: 08/06/2018
+ms.date: 02/14/2020
 ms.topic: quickstart
 helpviewer_keywords:
   - "Profiling Tools, quick start"

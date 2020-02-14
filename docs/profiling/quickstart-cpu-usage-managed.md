@@ -2,7 +2,7 @@
 title: "Analyze CPU usage data (C#, Visual Basic)"
 description: "Measure app performance in C# and Visual Basic using the CPU Usage diagnostics tool"
 ms.custom: "mvc"
-ms.date: 08/06/2018
+ms.date: 02/14/2020
 ms.topic: quickstart
 helpviewer_keywords:
   - "Profiling Tools, quick start"
