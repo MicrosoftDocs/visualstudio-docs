@@ -51,7 +51,7 @@ Windows 8 and later is required to run profiling tools with the debugger (**Diag
 
    Visual Studio opens your new project.
 
-1. In *MyDbgApp.cpp*, replace the following code
+1. In *Diagnostics_Get_Started_Native*, replace the following code
 
     ```c++
     int main()

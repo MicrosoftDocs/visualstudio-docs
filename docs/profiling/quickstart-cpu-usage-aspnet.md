@@ -55,19 +55,6 @@ Windows 8 and later is required to run profiling tools with the debugger (**Diag
 
    Visual Studio opens your new project.
 
-
-1. In Visual Studio, choose **File** > **New Project**.
-
-1. Under **Visual C#**, choose **Web**, and then in the middle pane choose **ASP.NET Web Application (.NET Framework)**.
-
-    If you don't see the **ASP.NET Web Application** project template, click the **Open Visual Studio Installer** link in the left pane of the **New Project** dialog box. The Visual Studio Installer launches. Choose the **ASP.NET and web development** workload, then choose **Modify**.
-
-1. Type a name like **MyProfilingApp_MVC** and click **OK**.
-
-1. In the dialog box that appears, choose **MVC** in the middle pane, and then click **OK**.
-
-    Visual Studio creates the project. Solution Explorer (right pane) shows your project files.
-
 1. In Solution Explorer, right-click the Models folder and choose **Add** > **Class**.
 
 1. Name the new class `Data.cs` and choose **Add**.
