@@ -13,7 +13,7 @@ manager: jillfra
 ms.workload:
   - "aspnet"
 ---
-# Quickstart: Analyze CPU usage data in Visual Studio (ASP.NET)
+# Quickstart: Analyze CPU usage data in Visual Studio (ASP.NET Core)
 
 Visual Studio provides many powerful features to help you analyze performance issues in your application. This topic provides a quick way to learn some of the basic features. Here, we look at a tool to identify performance bottlenecks due to high CPU usage. The Diagnostics Tools are supported for .NET development in Visual Studio, including ASP.NET, and for native/C++ development.
 
@@ -22,6 +22,39 @@ The Diagnostic hub offers you a lot of other options to run and manage your diag
 Windows 8 and later is required to run profiling tools with the debugger (**Diagnostic Tools** window). On Windows 7 and later, you can use the post-mortem tool, the [Performance Profiler](../profiling/profiling-feature-tour.md).
 
 ## Create a project
+
+1. Open Visual Studio and create the project.
+
+   ::: moniker range="vs-2017"
+   From the top menu bar, choose **File** > **New** > **Project**.
+
+   In the **New Project** dialog box in the left pane, expand **Visual C#**, and then choose **Web**. In the middle pane, choose **ASP.NET Web Application (.NET Core)**. Then name the project *MyProfilingApp_MVC*.
+
+   > [!NOTE]
+   > If you don't see the **ASP.NET Web Application (.NET Core)** project template, choose the **Open Visual Studio Installer** link in the left pane of the **New Project** dialog box. The Visual Studio Installer launches. Choose the **ASP.NET and web development** workload, and then choose **Modify**.
+
+   In the dialog box that appears, choose **MVC** in the middle pane, and then click **OK**.
+   ::: moniker-end
+   ::: moniker range="vs-2019"
+   If the start window is not open, choose **File** > **Start Window**.
+
+   On the start window, choose **Create a new project**.
+
+   On the **Create a new project** window, enter or type *asp.net* in the search box. Next, choose **C#** from the Language list, and then choose **Windows** from the Platform list.
+
+   After you apply the language and platform filters, choose the **ASP.NET Web Application (.NET Core)** template, and then choose **Next**.
+
+   > [!NOTE]
+   > If you do not see the **ASP.NET Web Application (.NET Core)** template, you can install it from the **Create a new project** window. In the **Not finding what you're looking for?** message, choose the **Install more tools and features** link. Then, in the Visual Studio Installer, choose the **ASP.NET and web development** workload.
+
+   In the **Configure your new project** window, type or enter *MyProfilingApp_MVC* in the **Project name** box. Then, choose **Create**.
+
+   In the window that appears, choose **Web Application (Model-View-Controller)** and then choose **Create**.
+
+   ::: moniker-end
+
+   Visual Studio opens your new project.
+
 
 1. In Visual Studio, choose **File** > **New Project**.
 
@@ -125,6 +158,8 @@ Windows 8 and later is required to run profiling tools with the debugger (**Diag
 
 1. In Solution Explorer, open *Controller/HomeControllers.cs*, and replace the following code:
 
+   ::: moniker range="vs-2017"
+
     ```csharp
     public ActionResult About()
     {
@@ -147,6 +182,30 @@ Windows 8 and later is required to run profiling tools with the debugger (**Diag
     }
     ```
 
+    ::: moniker-end
+    ::: moniker range="vs-2019"
+
+    ```csharp
+    public IActionResult Privacy()
+    {
+        return View();
+    }
+    ```
+
+    with this code:
+
+    ```csharp
+    public IActionResult Privacy()
+    {
+        Models.Simple s = new Models.Simple();
+
+        return View(s.GetData());
+    }
+    ```
+
+    ::: moniker-end
+
+
 ## Step 1: Collect profiling data
 
 1. First, set a breakpoint in your app on this line of code in the `Simple` constructor:
@@ -166,7 +225,14 @@ Windows 8 and later is required to run profiling tools with the debugger (**Diag
 
 1. Click **Debug** > **Start Debugging** (or **Start** on the toolbar, or **F5**).
 
-1. When the app finishes loading, click the **About** link at the top of the web page to start running the new code.
+1. When the app finishes loading, click the appropriate link at the top of the web page to start running the new code.
+
+   ::: moniker range="vs-2017"
+   In Visual Studio 2017, click the **About** link to run the code.
+   ::: moniker-end
+   ::: moniker range="vs-2019"
+   In Visual Studio 2019, click the **Privacy** link to run the code.
+   ::: moniker-end
 
 1. Look at the **Summary** view of the Diagnostics Tools appears.
 
