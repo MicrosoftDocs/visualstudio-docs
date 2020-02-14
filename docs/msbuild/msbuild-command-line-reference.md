@@ -22,7 +22,7 @@ ms.workload:
 
 When you use *MSBuild.exe* to build a project or solution file, you can include several switches to specify various aspects of the process.
 
-Every switch is available in two forms: -switch and /switch. The documentation only shows the -switch form. Switches are not case-sensitive. If you run MSBuild from a shell other than the Windows command prompt, lists of arguments to a switch (separated by semicolons or commas) might need single or double quotes to ensure that lists are passed to MSBuild correctly.
+Every switch is available in two forms: -switch and /switch. The documentation only shows the -switch form. Switches are not case-sensitive. If you run MSBuild from a shell other than the Windows command prompt, lists of arguments to a switch (separated by semicolons or commas) might need single or double quotes to ensure that lists are passed to MSBuild instead of interpreted by the shell.
 
 ## Syntax
 
