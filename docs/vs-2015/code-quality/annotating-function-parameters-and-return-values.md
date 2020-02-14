@@ -123,8 +123,8 @@ f1_keywords:
   - "_Ret_null_"
 ms.assetid: 82826a3d-0c81-421c-8ffe-4072555dca3a
 caps.latest.revision: 17
-author: mikeblome
-ms.author: mblome
+author: corob-msft
+ms.author: corob
 manager: jillfra
 ---
 # Annotating Function Parameters and Return Values

@@ -4,8 +4,8 @@ ms.date: 04/28/2018
 ms.topic: "conceptual"
 f1_keywords:
   - "vs.codeanalysis.rulesets.native"
-author: mikeblome
-ms.author: mblome
+author: corob-msft
+ms.author: corob
 manager: markl
 ms.workload:
   - "cplusplus"

@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "warnings, C/C++ analysis"
 ms.assetid: 28f3fda6-35e8-485b-9755-1991aaccec3f
 caps.latest.revision: 43
-author: mikeblome
-ms.author: mblome
+author: corob-msft
+ms.author: corob
 manager: jillfra
 ---
 # Code Analysis for C/C++ Warnings

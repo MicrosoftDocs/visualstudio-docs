@@ -2,8 +2,8 @@
 title: Using the C++ Core Guidelines checkers
 ms.date: 08/14/2018
 ms.topic: "conceptual"
-author: mikeblome
-ms.author: mblome
+author: corob-msft
+ms.author: corob
 manager: markl
 dev_langs:
  - CPP

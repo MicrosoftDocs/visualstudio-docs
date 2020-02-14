@@ -6,8 +6,8 @@ ms.technology: vs-ide-code-analysis
 ms.topic: conceptual
 ms.assetid: ac3877e6-5349-4c03-9541-3d5be259f1e8
 caps.latest.revision: 7
-author: mikeblome
-ms.author: mblome
+author: corob-msft
+ms.author: corob
 manager: jillfra
 ---
 # Using Rule Sets to Specify the C++ Rules to Run
