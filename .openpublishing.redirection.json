@@ -326,6 +326,11 @@
       "redirect_document_id": true
     },
     {
+      "source_path": "docs/code-quality/cpp-core-guidelines-warnings.md",
+      "redirect_url": "/cpp/code-quality/cpp-core-guidelines-warnings",
+      "redirect_document_id": true
+    },
+    {
       "source_path": "docs/code-quality/C26400.md",
       "redirect_url": "/cpp/code-quality/C26400",
       "redirect_document_id": true
