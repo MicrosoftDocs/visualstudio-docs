@@ -3,8 +3,8 @@ title: C++ Core Guidelines warnings
 ms.date: 10/16/2019
 ms.topic: "conceptual"
 ms.assetid: 7c83814a-f21d-4323-ad5f-13bac40d3e38
-author: "mblome"
-ms.author: "mblome"
+author: "corob"
+ms.author: "corob"
 manager: markl
 ms.workload:
   - "cplusplus"

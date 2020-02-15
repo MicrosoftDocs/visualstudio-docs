@@ -2,11 +2,11 @@
 title: "How to: Write unit tests for C++ DLLs"
 ms.date: 06/13/2019
 ms.topic: conceptual
-ms.author: mblome
+ms.author: corob
 manager: markl
 ms.workload:
   - "cplusplus"
-author: mikeblome
+author: corob-msft
 ---
 # How to: Write unit tests for C++ DLLs
 

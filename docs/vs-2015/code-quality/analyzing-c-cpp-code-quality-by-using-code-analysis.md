@@ -14,8 +14,8 @@ helpviewer_keywords:
   - "C, code analysis"
 ms.assetid: 03b8b47a-e9d8-4692-835f-2d22ec6c76a4
 caps.latest.revision: 37
-author: mikeblome
-ms.author: mblome
+author: corob-msft
+ms.author: corob
 manager: jillfra
 ---
 # Analyzing C/C++ Code Quality by Using Code Analysis
