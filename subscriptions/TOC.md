@@ -84,7 +84,7 @@
 ### [Overallocations](handle-overclaimed-license.md)
 ### [Maximum usage](maximum-usage.md)
 ### [Expired subscriptions](handle-expired-license.md)
-### [Subscribers using aliases](aliasing.md)
+### [Subscriber sign-in scenarios ](aliasing.md)
 ### [Subscribers with personal email sign-ins](personal-email-sign-ins.md)
 ### [Managing Visual Studio with GitHub Enterprise](assign-github.md)
 # Resources
