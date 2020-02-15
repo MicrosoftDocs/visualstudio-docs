@@ -2,7 +2,7 @@
 title: "Learn to debug multithreaded applications"
 description: Debug using the Parallel Stacks and Parallel Watch windows in Visual Studio
 ms.custom: ""
-ms.date: "11/16/2018"
+ms.date: "02/14/2020"
 ms.topic: "conceptual"
 dev_langs:
   - "CSharp"
