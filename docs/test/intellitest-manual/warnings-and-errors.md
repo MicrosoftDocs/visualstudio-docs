@@ -26,7 +26,7 @@ author: mikejo5000
 * **Constraint Solving**
   * [Cannot Concretize Solution](#cannot-concretize-solution)
 
-* **Domains**
+* **Domains or Runtime**
   * [Need Help To Construct Object](#help-construct)
   * [Need Help To Find Types](#help-types)
   * [Usable Type Guessed](#usable-type-guessed)
@@ -366,7 +366,7 @@ interface, IntelliTest must choose a particular
 implementation of that type. To make that choice, it
 needs to know which types exist.
 
-When this warning is shown, it indiicates that IntelliTest looked at some
+When this warning is shown, it indicates that IntelliTest looked at some
 of referenced assemblies and found an implementation
 type, but it is not sure if it should use that type,
 or if there are more appropriate types available

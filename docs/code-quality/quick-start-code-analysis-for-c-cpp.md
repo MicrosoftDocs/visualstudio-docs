@@ -6,8 +6,8 @@ ms.topic: "conceptual"
 helpviewer_keywords:
   - "C/C++ code analysis"
   - "code analysis,C/C++"
-author: mikeblome
-ms.author: mblome
+author: corob-msft
+ms.author: corob
 manager: markl
 ms.workload:
   - "cplusplus"

@@ -5,8 +5,8 @@ ms.topic: reference
 helpviewer_keywords:
   - "code analysis, C++ core check"
 ms.assetid: f1429463-136e-41ed-8a75-a8dbf0b4fd89
-author: mikeblome
-ms.author: mblome
+author: corob-msft
+ms.author: corob
 manager: markl
 ms.workload:
   - "cplusplus"

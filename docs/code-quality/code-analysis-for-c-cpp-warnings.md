@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "native code analysis"
   - "warnings, C/C++ analysis"
 ms.assetid: 28f3fda6-35e8-485b-9755-1991aaccec3f
-author: mikeblome
-ms.author: mblome
+author: corob-msft
+ms.author: corob
 manager: markl
 ms.workload:
   - "cplusplus"

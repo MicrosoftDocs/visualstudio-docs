@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "C/C++ code analysis properties"
 ms.assetid: 7af52097-6d44-4785-9b9f-43b7a7d447d7
 caps.latest.revision: 19
-author: mikeblome
-ms.author: mblome
+author: corob-msft
+ms.author: corob
 manager: jillfra
 ---
 # How to: Set Code Analysis Properties for C/C++ Projects
