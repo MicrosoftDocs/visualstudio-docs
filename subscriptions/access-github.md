@@ -3,7 +3,7 @@ title: Visual Studio + GitHub Offer | Microsoft Docs
 author: evanwindom
 ms.author: lank
 manager: lank
-ms.date: 07/19/2019
+ms.date: 02/17/2020
 ms.topic: conceptual
 description: Learn about the new Visual Studio + GitHub offer
 ---
@@ -74,3 +74,10 @@ A:  Along with a GitHub Enterprise subscription, you receive a full Visual Studi
 
 ## Next steps
 If you're new to GitHub, check out the [GitHub Learning Lab](https://lab.github.com/), which takes you through a series of fun and practical projects, sharing helpful feedback along the way.
+
+## See also
+- [Visual Studio documentation](/visualstudio/)
+- [Azure DevOps documentation](/azure/devops/)
+- [Azure documentation](/azure/)
+- [Microsoft 365 documentation](/microsoft-365/)
+
