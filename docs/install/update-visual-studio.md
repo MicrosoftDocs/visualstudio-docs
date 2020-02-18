@@ -160,7 +160,7 @@ If you choose to ignore a notification, Visual Studio stops showing it. If you w
 
 We encourage you to update to the most [recent release](/visualstudio/releases/2019/release-notes/) of Visual Studio 2019 so that you always get the latest features, fixes, and improvements.
 
-If you haven't already installed Visual Studio 2019, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads) page to install it for free. If you are currently using a different version of Visual Studio, you can either [install Visual Studio versions side-by-side](../install-visual-studio-versions-side-by-side), or [uninstall previous versions of Visual Studio](../uninstall-visual-studio).
+If you haven't already installed Visual Studio 2019, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads) page to install it for free. If you are currently using a different version of Visual Studio, you can either [install Visual Studio versions side-by-side](../install/install-visual-studio-versions-side-by-side.md), or [uninstall previous versions of Visual Studio](../install/uninstall-visual-studio.md).
 
 > [!IMPORTANT]
 > You must log on with an account that has administrative permissions to install, update, or modify Visual Studio. For more information, see [User Permissions and Visual Studio](../ide/user-permissions-and-visual-studio.md).
