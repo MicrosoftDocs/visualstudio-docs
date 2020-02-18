@@ -53,11 +53,6 @@ To confirm a disk space issue, check the log files for more information. Your `v
 Pre-check verification: Visual Studio needs at least 91.99 GB of disk space. Try to free up space on C:\ or change your target drive.
 Pre-check verification failed with error(s) :  SizePreCheckEvaluator.
 ```
-
-
-
-
-
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 
 ## See also
