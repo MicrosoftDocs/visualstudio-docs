@@ -46,7 +46,7 @@ When using the .NET Standard 2.0 setting in the **Api Compatibility Level** drop
 
 ![MonoBleedingEdge directory](media/vstu_monobleedingedge.png)
 
-For example, if you're using the .NET 4.x profile and want to use `HttpClient`, you must add an assembly reference for System.Net.Http.dll. Without it, the compiler will complain that you're missing an assembly reference:
+For example, if you're using the .NET Standard 2.0 profile and want to use `HttpClient`, you must add an assembly reference for System.Net.Http.dll. Without it, the compiler will complain that you're missing an assembly reference:
 
 ![missing assembly reference](media/vstu_missing-reference.png)
 
