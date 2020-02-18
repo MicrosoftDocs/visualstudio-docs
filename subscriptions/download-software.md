@@ -3,7 +3,7 @@ title: Downloading software titles in Visual Studio subscriptions | Microsoft Do
 author: evanwindom
 ms.author: lank
 manager: lank
-ms.date: 07/18/2019
+ms.date: 02/17/2020
 ms.topic: conceptual
 description:  Learn how to locate and download Microsoft software titles in Visual Studio subscriptions
 ---
@@ -46,3 +46,9 @@ To obtain a product key for the download, you can either click the blue key labe
 To learn more about locating, claiming and exporting product keys, check out our product keys documentation:
 - [Product keys overview](product-keys.md)
 - [Locate and claim keys](find-keys.md)
+
+## See also
+- [Visual Studio documentation](/visualstudio/)
+- [Azure DevOps documentation](/azure/devops/)
+- [Azure documentation](/azure/)
+- [Microsoft 365 documentation](/microsoft-365/)
