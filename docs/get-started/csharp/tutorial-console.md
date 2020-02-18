@@ -262,9 +262,9 @@ However, the app produces only a decimal result. Let's make a few more tweaks to
 
 We've improved on our basic calculator app, but it doesn't yet have fail safes in place to handle exceptions, such as user input errors.
 
-For example, if you try to divide a number by zero, or enter an alpha character when the app expects a numeric character (or vice versa), the app might stop working, return an error, or return an infinity symbol as a result.
+For example, if you try to divide a number by zero, or enter an alpha character when the app expects a numeric character (or vice versa), the app might stop working, return an error, or return an unexpected nonnumeric result.
 
-Let's walk through a few common user input errors, locate them in the debugger if they appear there, and then fix them in the code.
+Let's walk through a few common user input errors, locate them in the debugger if they appear there, and fix them in the code.
 
 > [!TIP]
 > For more information about the debugger and how it works, see the [First look at the Visual Studio debugger](../../debugger/debugger-feature-tour.md) page.
@@ -276,7 +276,7 @@ When you try to divide a number by zero, sometimes the console app freezes and t
    ![The Visual Studio code editor shows the divide-by-zero error](./media/csharp-console-calculator-dividebyzero-error.png)
 
 > [!NOTE]
-> Sometimes, the debugger won't show a divide-by-zero error. Instead, the app returns an infinity symbol. The following code fix still applies.
+> Sometimes, the debugger won't show a divide-by-zero error. Instead, the app itself might return an unexpected nonnumeric result, such as an infinity symbol. The following code fix still applies.
 
 Let's change the code to handle this error.
 
