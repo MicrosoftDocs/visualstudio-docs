@@ -2,7 +2,7 @@
 title: "Tutorial: Create a simple C# console app"
 description: "Learn how to create a C# console app in Visual Studio, step-by-step."
 ms.custom: "seodec18, get-started"
-ms.date: 03/23/2019
+ms.date: 02/18/2020
 ms.technology: vs-ide-general
 ms.prod: visual-studio-windows
 ms.topic: tutorial
@@ -262,18 +262,21 @@ However, the app produces only a decimal result. Let's make a few more tweaks to
 
 We've improved on our basic calculator app, but it doesn't yet have fail safes in place to handle exceptions, such as user input errors.
 
-For example, if you try to divide a number by zero, or enter an alpha character when the app expects a numeric character (or vice versa), the app stops working and returns an error.
+For example, if you try to divide a number by zero, or enter an alpha character when the app expects a numeric character (or vice versa), the app might stop working, return an error, or return an infinity symbol as a result.
 
-Let's walk through a few common user input errors, locate them in the debugger, and fix them in the code.
+Let's walk through a few common user input errors, locate them in the debugger if they appear there, and then fix them in the code.
 
->[!TIP]
->For more information about the debugger and how it works, see the [First look at the Visual Studio debugger](../../debugger/debugger-feature-tour.md) page.
+> [!TIP]
+> For more information about the debugger and how it works, see the [First look at the Visual Studio debugger](../../debugger/debugger-feature-tour.md) page.
 
 ### Fix the "divide by zero" error
 
-When you try to divide a number by zero, the console app freezes. Visual Studio then shows you what's wrong in the code editor.
+When you try to divide a number by zero, sometimes the console app freezes and then shows you what's wrong in the code editor.
 
    ![The Visual Studio code editor shows the divide-by-zero error](./media/csharp-console-calculator-dividebyzero-error.png)
+
+> [!NOTE]
+> Sometimes, the debugger won't show a divide-by-zero error. Instead, the app returns an infinity symbol. The following code fix still applies.
 
 Let's change the code to handle this error.
 
