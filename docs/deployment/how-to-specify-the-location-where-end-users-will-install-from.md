@@ -34,7 +34,7 @@ The `Installation URL` property can be set on the **Publish** page of the **Proj
 
 2. Click the **Publish** tab.
 
-3. In the Installation URL field, enter the installation location using a fully qualified URL using the format `https://www.microsoft.com/ApplicationName`, or a UNC path using the format `\Server\ApplicationName`.
+3. In the Installation URL field, enter the installation location using a fully qualified URL using the format `https://www.contoso.com/ApplicationName`, or a UNC path using the format `\Server\ApplicationName`.
 
 ## See also
 - [How to: Specify where Visual Studio copies the files](../deployment/how-to-specify-where-visual-studio-copies-the-files.md)
