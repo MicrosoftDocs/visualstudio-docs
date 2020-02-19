@@ -32,14 +32,16 @@ Edit and Continue for C++ projects handles most types of code changes. However, 
   2. _C/C++_ > _Code Generation_ > _Enable Minimal Rebuild:_ Yes (/Gm)
   3. _Linker_ > _General_ > _Enable Incremental Linking:_ Yes (/INCREMENTAL)
 
-Any incompatible linker settings (such as */SAFESEH*, or */OPT:*...) should cause warning _LNK4075_ during build. Example:
+Any incompatible linker settings (such as `/SAFESEH`, or `/OPT:`...) should cause warning _LNK4075_ during build. Example:
+
 `LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/OPT:ICF' specification`
 
 ### Debugger settings (Debug > Options > General):
   1. Enable Native Edit and Continue
 
-Any incompatible compiler or linker settings will cause an error during Edit and Continue. Example: 
-`‘file.cpp’ in ‘MyApp.exe’ was not compiled with Edit and Continue enabled. Ensure that the file is compiled with the Program Database for Edit and Continue (/ZI) option.`
+Any incompatible compiler or linker settings will cause an error during Edit and Continue. Example:
+
+`Edit and Continue : error  : ‘file.cpp’ in ‘MyApp.exe’ was not compiled with Edit and Continue enabled. Ensure that the file is compiled with the Program Database for Edit and Continue (/ZI) option.`
 
 ## <a name="BKMK_Unsupported_changes"></a> Unsupported changes
  The following C/C++ changes cannot be applied during a debugging session. If you make any of these changes and then try to apply code changes, an error or warning message appears in the **Output** window.
@@ -66,11 +68,11 @@ Any incompatible compiler or linker settings will cause an error during Edit and
 
 - Changes to code that has no object file.
 
-- Edit and Continue does not update static libraries. If you make a change in a static library, execution continues with the old version and no warning is issued.
-
 * Modifying lambdas which...
   - Have a static or global member.
   - Are passed to a std::function. This will cause a genuine ODR violation and results in C1092.
+
+- Edit and Continue does not update static libraries. If you make a change in a static library, execution continues with the old version and no warning is issued.
 
 ## <a name="BKMK_Unsupported_scenarios"></a> Unsupported scenarios
  Edit and Continue for C/C++ is unavailable in the following debugging scenarios:
@@ -99,11 +101,11 @@ Any incompatible compiler or linker settings will cause an error during Edit and
 
 - Debugging an old version of your code after a new version failed to build because of build errors.
 
-- Using a custom compiler (cl.exe) path. For security reasons, for recompilation of a file during Edit and Continue, Visual Studio will always use the installed compiler. If you are using a custom compiler path (for example, through a custom `$(ExecutablePath)` variable in your `*.props` file), a warning will be displayed and Visual Studio will fall back to using the installed compiler of the same version/architecture.
+- Using a custom compiler (*cl.exe*) path. For security reasons, for recompilation of a file during Edit and Continue, Visual Studio will always use the installed compiler. If you are using a custom compiler path (for example, through a custom `$(ExecutablePath)` variable in your `*.props` file), a warning will be displayed and Visual Studio will fall back to using the installed compiler of the same version/architecture.
 
-- FASTBuild build system. FASTBuild is currently not compatible with the “Enable Minimal Rebuild (/Gm)” compiler switch and so Edit and Continue is not supported.
+- FASTBuild build system. FASTBuild is currently not compatible with the “Enable Minimal Rebuild (`/Gm`)” compiler switch and so Edit and Continue is not supported.
 
-- Legacy Architectures/VC Toolsets. With the VC 140 toolset, the default debugger supports Edit and Continue with both X86 and X64 applications. Legacy toolsets support only X86 applications. Toolsets older than VC 120 should use the legacy debugger by checking _Debug_ > _Options_ > _General_ > Use Native Compatibility Mode, to use Edit and Continue.
+- Legacy Architectures/VC Toolsets. With the VC 140 toolset, the default debugger supports Edit and Continue with both X86 and X64 applications. Legacy toolsets support only X86 applications. Toolsets older than VC 120 should use the legacy debugger by checking “_Debug_ > _Options_ > _General_ > Use Native Compatibility Mode” in order to use Edit and Continue.
 
 ## <a name="BKMK_Linking_limitations"></a> Linking limitations
 
@@ -114,7 +116,7 @@ Any incompatible compiler or linker settings will cause an error during Edit and
 
      `LINK : warning LNK4075: ignoring /EDITANDCONTINUE due to /OPT specification`
 
-- Setting **/ORDER**, **/RELEASE**, or **/FORCE** disables Edit and Continue with this warning:
+- Setting **/ORDER**, **/RELEASE**, or **/FORCE** disables Edit and Continue with the following warning:
 
      `LINK : warning LNK4075: ignoring /INCREMENTAL due to /option specification`
 
@@ -137,7 +139,7 @@ Any incompatible compiler or linker settings will cause an error during Edit and
 
 3. Clear the **Relink code changes after debugging** check box.
 
-## <a name="BKMK_Precompiled_Header_Limitations"></a> Precompiled Header Limitations
+## <a name="BKMK_Precompiled_header_limitations"></a> Precompiled header limitations
  By default, Edit and Continue loads and processes precompiled headers in the background to speed up processing of code changes. Loading precompiled headers requires allocation of physical memory, which can be a problem if you are compiling on a machine with limited RAM. You can determine if this might be a problem by using the Windows Task Manager to determine the amount of available physical memory while you are debugging. If this amount is greater than the size of your precompiled headers, Edit and Continue should have no problem. If the amount is less than the size of your precompiled headers, you can prevent Edit and Continue from loading precompiled headers in the background.
 
  **To disable background loading of precompiled headers for Edit and Continue**
@@ -148,13 +150,14 @@ Any incompatible compiler or linker settings will cause an error during Edit and
 
 3. Clear the **Allow Precompiling** check box.
 
-## <a name="BKMK_IDL_Attribute_Limitations"></a> IDL Attribute Limitations
+## <a name="BKMK_IDL_attribute_limitations"></a> IDL attribute limitations
  Edit and Continue does not regenerate interface definition (IDL) files. Therefore, changes to IDL attributes will not be reflected while you are debugging. To see the result of changes to IDL attributes, you must stop debugging and rebuild your app. Edit and Continue does not generate an error or warning if IDL attributes have changed. For more information, see [IDL Attributes](/cpp/windows/idl-attributes).
 
-## <a name="BKMK_Precompiled_Header_Limitations"></a> Diagnosing Issues
+## <a name="BKMK_Diagnosing_issues"></a> Diagnosing issues
  If your scenario does not fit any of the conditions mentioned above, you can gather further details by setting the following DWORD registry value:
- 1. Open a Developer Command Prompt, run:
-    `VsRegEdit.exe set “C:\Program Files (x86)\Microsoft Visual Studio\[Version]\[YOUR EDITION]” HKCU Debugger NativeEncDiagnosticLoggingLevel DWORD 1`
+ 1. Open a Developer Command Prompt.
+ 2. Run the following command:
+`VsRegEdit.exe set “C:\Program Files (x86)\Microsoft Visual Studio\[Version]\[YOUR EDITION]” HKCU Debugger NativeEncDiagnosticLoggingLevel DWORD 1`
 
  Setting this value (at the start of a debug session) will cause the various components of Edit and Continue to spew verbose logging to the _Output Window_ > Debug pane.
 
