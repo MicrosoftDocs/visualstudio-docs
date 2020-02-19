@@ -48,7 +48,8 @@ To learn more about locating, claiming and exporting product keys, check out our
 - [Locate and claim keys](find-keys.md)
 
 ## See also
-- [Visual Studio documentation](/visualstudio/)
-- [Azure DevOps documentation](/azure/devops/)
-- [Azure documentation](/azure/)
-- [Microsoft 365 documentation](/microsoft-365/)
+- [Visual Studio documentation](https://docs.microsoft.com/visualstudio/)
+- [Azure DevOps documentation](https://docs.microsoft.com/azure/devops/)
+- [Azure documentation](https://docs.microsoft.com/azure/)
+- [Microsoft 365 documentation](https://docs.microsoft.com/microsoft-365/)
+
