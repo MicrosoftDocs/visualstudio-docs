@@ -22,7 +22,7 @@ This refactoring applies to:
 
 **Why:** Static members improve readability: knowing that specific code is isolated makes it easier to understand, reread, and reuse. 
 
-### How-to
+## How-to
 
 1. Place your caret on the member name.
 
