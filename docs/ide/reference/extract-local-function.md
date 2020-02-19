@@ -25,7 +25,7 @@ This refactoring applies to:
 
 ## How-to
 
-1. Highlight the code to be extracted:
+1. Highlight the code to be extracted.
 
 2. Press **Ctrl**+**.** to trigger the **Quick Actions and Refactorings** menu. 
 
