@@ -13,7 +13,7 @@ ms.workload:
 ---
 # Sign in to Visual Studio
 
-You can personalize and optimize your development experience in Visual Studio if you set your personalization account by signing in to the IDE.
+You can personalize and optimize your development experience in Visual Studio by signing in to your personalization account.
 
 > [!NOTE]
 > This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [Sign in to Visual Studio for Mac](/visualstudio/mac/signing-in).
@@ -26,7 +26,7 @@ Here's a full list of what you can expect and what you can do after you sign in:
 
 - **Access to the Visual Studio Dev Essentials program** - This program includes free software offerings, training, support, and more. See [Visual Studio Dev Essentials](https://visualstudio.microsoft.com/dev-essentials/) for more information.
 
-- **Synchronize your Visual Studio settings** - Settings that you customize, such as key bindings, window layout, and color theme, apply immediately when you sign in to Visual Studio on any device. See [Synchronized settings in Visual Studio](../ide/synchronized-settings-in-visual-studio.md).
+- **Synchronize your Visual Studio settings** - Settings that you customize, such as key bindings, window layout, and color theme, apply immediately when you sign in to Visual Studio on any device. See [Synchronize settings in Visual Studio](../ide/synchronized-settings-in-visual-studio.md).
 
 - **Unlock the Visual Studio Community edition** - If your Community edition installation prompts you for a license, sign in to the IDE to unblock yourself.
 
