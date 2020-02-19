@@ -128,6 +128,9 @@ Let's start with some basic integer math in C#.
 
     Notice that when you do so, the IntelliSense feature in Visual Studio offers you the option to autocomplete the entry.
 
+    > [!NOTE]
+    > The following animation isn't intended to duplicate the preceding code. It's intended only to show how the autocomplete feature works.
+
     ![Animation of integer math code that shows the IntelliSense autocomplete feature in the Visual Studio IDE](./media/integer-math-intellisense.gif)
 
 1. Choose the green **Start** button next to **Calculator** to build and run your program, or press **F5**.
@@ -271,12 +274,12 @@ Let's walk through a few common user input errors, locate them in the debugger i
 
 ### Fix the "divide by zero" error
 
-When you try to divide a number by zero, sometimes the console app freezes and then shows you what's wrong in the code editor.
+When you try to divide a number by zero, the console app might freeze and then show you what's wrong in the code editor.
 
    ![The Visual Studio code editor shows the divide-by-zero error](./media/csharp-console-calculator-dividebyzero-error.png)
 
 > [!NOTE]
-> Sometimes, the debugger won't show a divide-by-zero error. Instead, the app itself might return an unexpected nonnumeric result, such as an infinity symbol. The following code fix still applies.
+> Sometimes, the app doesn't freeze and the debugger won't show a divide-by-zero error. Instead, the app might return an unexpected nonnumeric result, such as an infinity symbol. The following code fix still applies.
 
 Let's change the code to handle this error.
 
