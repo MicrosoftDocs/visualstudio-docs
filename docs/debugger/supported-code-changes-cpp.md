@@ -26,8 +26,23 @@ Edit and Continue for C++ projects handles most types of code changes. However, 
 
  See [Edit and Continue (C++)](../debugger/edit-and-continue-visual-cpp.md) for information about working with Edit and Continue for C++ in Visual Studio.
 
+## <a name="BKMK_Requirements"></a> Requirements
+### Build settings (Project > Properties):
+  1. _C/C++_ > _General_ > _Debug Information Format:_ Program Database for Edit and Continue (/ZI)
+  2. _C/C++_ > _Code Generation_ > _Enable Minimal Rebuild:_ Yes (/Gm)
+  3. _Linker_ > _General_ > _Enable Incremental Linking:_ Yes (/INCREMENTAL)
+
+Any incompatible linker settings (such as */SAFESEH*, or */OPT:*...) should cause warning _LNK4075_ during build. Example:
+`LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/OPT:ICF' specification`
+
+### Debugger settings (Debug > Options > General):
+  1. Enable Native Edit and Continue
+
+Any incompatible compiler or linker settings will cause an error during Edit and Continue. Example: 
+`‘file.cpp’ in ‘MyApp.exe’ was not compiled with Edit and Continue enabled. Ensure that the file is compiled with the Program Database for Edit and Continue (/ZI) option.`
+
 ## <a name="BKMK_Unsupported_changes"></a> Unsupported changes
- The following C/C++ changes cannot be applied during a debugging session:
+ The following C/C++ changes cannot be applied during a debugging session. If you make any of these changes and then try to apply code changes, an error or warning message appears in the **Output** window.
 
 - Most changes to global or static data.
 
@@ -51,9 +66,11 @@ Edit and Continue for C++ projects handles most types of code changes. However, 
 
 - Changes to code that has no object file.
 
-  If you make one of these changes and then try to apply code changes, an error or warning message appears in the **Output** window.
-
 - Edit and Continue does not update static libraries. If you make a change in a static library, execution continues with the old version and no warning is issued.
+
+* Modifying lambdas which...
+  - Have a static or global member.
+  - Are passed to a std::function. This will cause a genuine ODR violation and results in C1092.
 
 ## <a name="BKMK_Unsupported_scenarios"></a> Unsupported scenarios
  Edit and Continue for C/C++ is unavailable in the following debugging scenarios:
@@ -61,6 +78,8 @@ Edit and Continue for C++ projects handles most types of code changes. However, 
 - Debugging native apps compiled with [/Zo (Enhance Optimized Debugging)](/cpp/build/reference/zo-enhance-optimized-debugging)
 
 - In versions of Visual Studio previous to Visual Studio 2015 Update 1, debugging UWP apps or components. Starting in Visual Studio 2015 Update 1, you can use Edit and Continue in UWP C++ apps and DirectX apps, because it now supports the `/ZI` compiler switch with the  `/bigobj` switch. You can also use Edit and Continue with binaries compiled with the `/FASTLINK` switch.
+
+- Debugging 8/8.1 Store Apps. These projects use the VC 120 toolset and the C/C++ `/bigobj` switch. EnC with `/bigobj` is only supported in the VC 140 toolset.
 
 - Debugging on Windows 98.
 
@@ -80,6 +99,12 @@ Edit and Continue for C++ projects handles most types of code changes. However, 
 
 - Debugging an old version of your code after a new version failed to build because of build errors.
 
+- Using a custom compiler (cl.exe) path. For security reasons, for recompilation of a file during Edit and Continue, Visual Studio will always use the installed compiler. If you are using a custom compiler path (for example, through a custom `$(ExecutablePath)` variable in your `*.props` file), a warning will be displayed and Visual Studio will fall back to using the installed compiler of the same version/architecture.
+
+- FASTBuild build system. FASTBuild is currently not compatible with the “Enable Minimal Rebuild (/Gm)” compiler switch and so Edit and Continue is not supported.
+
+- Legacy Architectures/VC Toolsets. With the VC 140 toolset, the default debugger supports Edit and Continue with both X86 and X64 applications. Legacy toolsets support only X86 applications. Toolsets older than VC 120 should use the legacy debugger by checking _Debug_ > _Options_ > _General_ > Use Native Compatibility Mode, to use Edit and Continue.
+
 ## <a name="BKMK_Linking_limitations"></a> Linking limitations
 
 ### <a name="BKMK_Linker_options_that_disable_Edit_and_Continue"></a> Linker options that disable Edit and Continue
@@ -87,15 +112,11 @@ Edit and Continue for C++ projects handles most types of code changes. However, 
 
 - Setting **/OPT:REF**, **/OPT:ICF**, or **/INCREMENTAL:NO** disables Edit and Continue with the following warning:
 
-     LINK : warning LNK4075: ignoring /EDITANDCONTINUE due to /OPT
-
-     specification
+     `LINK : warning LNK4075: ignoring /EDITANDCONTINUE due to /OPT specification`
 
 - Setting **/ORDER**, **/RELEASE**, or **/FORCE** disables Edit and Continue with this warning:
 
-     LINK : warning LNK4075: ignoring /INCREMENTAL due to /option
-
-     specification
+     `LINK : warning LNK4075: ignoring /INCREMENTAL due to /option specification`
 
 - Setting any option that prevents the creation of a program database (.pdb) file disables Edit and Continue with no specific warning.
 
@@ -129,6 +150,13 @@ Edit and Continue for C++ projects handles most types of code changes. However, 
 
 ## <a name="BKMK_IDL_Attribute_Limitations"></a> IDL Attribute Limitations
  Edit and Continue does not regenerate interface definition (IDL) files. Therefore, changes to IDL attributes will not be reflected while you are debugging. To see the result of changes to IDL attributes, you must stop debugging and rebuild your app. Edit and Continue does not generate an error or warning if IDL attributes have changed. For more information, see [IDL Attributes](/cpp/windows/idl-attributes).
+
+## <a name="BKMK_Precompiled_Header_Limitations"></a> Diagnosing Issues
+ If your scenario does not fit any of the conditions mentioned above, you can gather further details by setting the following DWORD registry value:
+ 1. Open a Developer Command Prompt, run:
+    `VsRegEdit.exe set “C:\Program Files (x86)\Microsoft Visual Studio\[Version]\[YOUR EDITION]” HKCU Debugger NativeEncDiagnosticLoggingLevel DWORD 1`
+
+ Setting this value (at the start of a debug session) will cause the various components of Edit and Continue to spew verbose logging to the _Output Window_ > Debug pane.
 
 ## See also
 - [Edit and Continue (C++)](../debugger/edit-and-continue-visual-cpp.md)
