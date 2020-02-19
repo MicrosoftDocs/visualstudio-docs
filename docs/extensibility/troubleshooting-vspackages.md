@@ -93,7 +93,7 @@ Following are common problems that you might have with your VSPackage and tips t
 
     2. Add this **Symbol file (.pdb) location**:
 
-         [http://msdl.microsoft.com/download/symbols](http://msdl.microsoft.com/download/symbols)
+         `https://msdl.microsoft.com/download/symbols`
 
     3. To improve performance, specify a symbol cache folder, for example:
 

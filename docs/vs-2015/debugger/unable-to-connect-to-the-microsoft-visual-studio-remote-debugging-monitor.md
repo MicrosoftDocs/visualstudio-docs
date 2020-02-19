@@ -23,7 +23,7 @@ manager: jillfra
 This error message appears when you enter an invalid Visual Studio Remote Debugging Monitor name in the **Attach to Process** dialog box. The Remote Debugging Monitor name is usually the same as the machine you are attempting to connect to for remote debugging. This message may occur because the remote machine does not exist on the network, the remote debugging monitor is not properly set up on the remote machine, or the remote machine is inaccessible due to network problems or the presence of a firewall.  
   
 > [!IMPORTANT]
-> If you believe you have received this message because of a product bug, please report this issue to Visual Studio [Send a Smile](https://msdn.microsoft.com/library/5cc9b67a-54d0-41b0-aa8f-80dff4475a6b). If you need more help, see [Talk to Us](../ide/talk-to-us.md) for ways to contact Microsoft.  
+> If you need more help, see [Talk to Us](../ide/talk-to-us.md) for ways to contact Microsoft.  
   
 ## I got this message while I was debugging locally  
  If you are getting this message while you are debugging locally, your anti-virus software or a third-party firewall may be to blame. Visual Studio is a 32-bit application, so it uses the 64-bit version of the remote debugger to debug 64-bit applications. The two processes communicate using the local network within the local computer. No network traffic leaves the computer, but it is possible that third party security software may block the communication.  
@@ -42,9 +42,10 @@ This error message appears when you enter an invalid Visual Studio Remote Debugg
  Try to [ping](https://technet.microsoft.com/library/ee624059\(v=ws.10\).aspx) the remote machine. If it doesn’t reply to the ping, the remote tools won’t be able to connect either. Try rebooting the remote machine and otherwise making sure that it is correctly configured on the network.  
   
 ## The version of the remote debugger doesn’t match the version of Visual Studio  
- The version of Visual Studio that you are running locally needs to match the version of the remote debugging monitor that is running on the remote machine. To fix this, download and install the matching version of the remote debugging monitor. Go to the [Download Center](http://www.microsoft.com/download) to find the right version of the remote debugger.  
-  
+ The version of Visual Studio that you are running locally needs to match the version of the remote debugging monitor that is running on the remote machine. To fix this, download and install the matching version of the remote debugging monitor. Go to [Visual Studio subscriptions](https://my.visualstudio.com/Downloads?q=remote%20tools%20visual%20studio%202015) to find the right version of the remote debugger for your version of Visual Studio.
+
 ## The local and remote machines have different authentication modes  
+
  The local and remote machines need to use the same authentication mode. To fix this, make sure that both machines are using the same authentication mode. You can change the authentication mode on the remote debugger in the **Tools / Options** dialog.  
   
  For more information about authentication modes, see [Windows Authentication Overview](https://technet.microsoft.com/library/hh831472.aspx).  
