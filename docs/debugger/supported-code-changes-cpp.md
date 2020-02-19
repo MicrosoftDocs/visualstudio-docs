@@ -28,9 +28,9 @@ Edit and Continue for C++ projects handles most types of code changes. However, 
 
 ## <a name="BKMK_Requirements"></a> Requirements
 ### Build settings (Project > Properties):
-  1. _C/C++ > General > Debug Information Format:_ Program Database for Edit and Continue (/ZI)
-  2. _C/C++ > Code Generation > Enable Minimal Rebuild:_ Yes (/Gm)
-  3. _Linker > General > Enable Incremental Linking:_ Yes (/INCREMENTAL)
+  1. _C/C++ > General > Debug Information Format:_ Program Database for Edit and Continue (`/ZI`)
+  2. _C/C++ > Code Generation > Enable Minimal Rebuild:_ Yes (`/Gm`)
+  3. _Linker > General > Enable Incremental Linking:_ Yes (`/INCREMENTAL`)
 
      Any incompatible linker settings (such as `/SAFESEH`, or `/OPT:`...) should cause warning _LNK4075_ during build.  
      Example: `LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/OPT:ICF' specification`
