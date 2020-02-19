@@ -42,11 +42,9 @@ To display symbol information such as function names and line numbers, the VSPer
   
 2. Use the following syntax to set the **_NT_SYMBOL_PATH** environment variable or the VSPerfReport /SymbolPath option:  
   
-    ```cmd
-    srv*<LocalStore>*https://msdl.microsoft.com/downloads/symbols`
-    ```
+   `srv*<LocalStore>*https://msdl.microsoft.com/downloads/symbols`  
   
-    where <LocalStore> is the path of the local directory that you created.  
+   where *<LocalStore>* is the path of the local directory that you created.  
   
 ## Specifying Component Symbol Files  
  Profiling Tools searches for the.pdb files of the components that you want to profile in their original locations that are stored in the components or in the folder that contains the profiling data file. You can specify other locations to search by adding one or more paths to **_NT_SYMBOL_PATH** or to the **/SymbolPath** option. Separate paths with semi-colons.  
@@ -55,7 +53,7 @@ To display symbol information such as function names and line numbers, the VSPer
  The following command line sets the **_NT_SYMBOL_PATH** environment variable to the Windows symbol server and the local directory to **C:\Symbols**.  
 
  ```cmd
- set  _NT_SYMBOL_PATH=srv*C:\symbols*https://msdl.microsoft.com/downloads/symbols`  
+ set  _NT_SYMBOL_PATH=srv*C:\symbols*https://msdl.microsoft.com/downloads/symbols
  ```
 
  The following VSPerfReport command line adds the C:\Projects\Symbols directory to the search path by using the **/SymbolPath** option.  
