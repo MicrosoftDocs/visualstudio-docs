@@ -28,20 +28,18 @@ Edit and Continue for C++ projects handles most types of code changes. However, 
 
 ## <a name="BKMK_Requirements"></a> Requirements
 ### Build settings (Project > Properties):
-  1. _C/C++_ > _General_ > _Debug Information Format:_ Program Database for Edit and Continue (/ZI)
-  2. _C/C++_ > _Code Generation_ > _Enable Minimal Rebuild:_ Yes (/Gm)
-  3. _Linker_ > _General_ > _Enable Incremental Linking:_ Yes (/INCREMENTAL)
+  1. _C/C++ > General > Debug Information Format:_ Program Database for Edit and Continue (/ZI)
+  2. _C/C++ > Code Generation > Enable Minimal Rebuild:_ Yes (/Gm)
+  3. _Linker > General > Enable Incremental Linking:_ Yes (/INCREMENTAL)
 
-Any incompatible linker settings (such as `/SAFESEH`, or `/OPT:`...) should cause warning _LNK4075_ during build. Example:
-
-`LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/OPT:ICF' specification`
+     Any incompatible linker settings (such as `/SAFESEH`, or `/OPT:`...) should cause warning _LNK4075_ during build.  
+     Example: `LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/OPT:ICF' specification`
 
 ### Debugger settings (Debug > Options > General):
   1. Enable Native Edit and Continue
 
-Any incompatible compiler or linker settings will cause an error during Edit and Continue. Example:
-
-`Edit and Continue : error  : ‘file.cpp’ in ‘MyApp.exe’ was not compiled with Edit and Continue enabled. Ensure that the file is compiled with the Program Database for Edit and Continue (/ZI) option.`
+     Any incompatible compiler or linker settings will cause an error during Edit and Continue.  
+     Example: `Edit and Continue : error  : ‘file.cpp’ in ‘MyApp.exe’ was not compiled with Edit and Continue enabled. Ensure that the file is compiled with the Program Database for Edit and Continue (/ZI) option.`
 
 ## <a name="BKMK_Unsupported_changes"></a> Unsupported changes
  The following C/C++ changes cannot be applied during a debugging session. If you make any of these changes and then try to apply code changes, an error or warning message appears in the **Output** window.
@@ -105,19 +103,17 @@ Any incompatible compiler or linker settings will cause an error during Edit and
 
 - FASTBuild build system. FASTBuild is currently not compatible with the “Enable Minimal Rebuild (`/Gm`)” compiler switch and so Edit and Continue is not supported.
 
-- Legacy Architectures/VC Toolsets. With the VC 140 toolset, the default debugger supports Edit and Continue with both X86 and X64 applications. Legacy toolsets support only X86 applications. Toolsets older than VC 120 should use the legacy debugger by checking “_Debug_ > _Options_ > _General_ > Use Native Compatibility Mode” in order to use Edit and Continue.
+- Legacy Architectures/VC Toolsets. With the VC 140 toolset, the default debugger supports Edit and Continue with both X86 and X64 applications. Legacy toolsets support only X86 applications. Toolsets older than VC 120 should use the legacy debugger by checking “_Debug > Options > General >_ Use Native Compatibility Mode” in order to use Edit and Continue.
 
 ## <a name="BKMK_Linking_limitations"></a> Linking limitations
 
 ### <a name="BKMK_Linker_options_that_disable_Edit_and_Continue"></a> Linker options that disable Edit and Continue
  The following linker options disable Edit and Continue:
 
-- Setting **/OPT:REF**, **/OPT:ICF**, or **/INCREMENTAL:NO** disables Edit and Continue with the following warning:
-
+- Setting **/OPT:REF**, **/OPT:ICF**, or **/INCREMENTAL:NO** disables Edit and Continue with the following warning:  
      `LINK : warning LNK4075: ignoring /EDITANDCONTINUE due to /OPT specification`
 
-- Setting **/ORDER**, **/RELEASE**, or **/FORCE** disables Edit and Continue with the following warning:
-
+- Setting **/ORDER**, **/RELEASE**, or **/FORCE** disables Edit and Continue with the following warning:  
      `LINK : warning LNK4075: ignoring /INCREMENTAL due to /option specification`
 
 - Setting any option that prevents the creation of a program database (.pdb) file disables Edit and Continue with no specific warning.
@@ -156,8 +152,8 @@ Any incompatible compiler or linker settings will cause an error during Edit and
 ## <a name="BKMK_Diagnosing_issues"></a> Diagnosing issues
  If your scenario does not fit any of the conditions mentioned above, you can gather further details by setting the following DWORD registry value:
  1. Open a Developer Command Prompt.
- 2. Run the following command:
-`VsRegEdit.exe set “C:\Program Files (x86)\Microsoft Visual Studio\[Version]\[YOUR EDITION]” HKCU Debugger NativeEncDiagnosticLoggingLevel DWORD 1`
+ 2. Run the following command:  
+     `VsRegEdit.exe set “C:\Program Files (x86)\Microsoft Visual Studio\[Version]\[YOUR EDITION]” HKCU Debugger NativeEncDiagnosticLoggingLevel DWORD 1`
 
  Setting this value (at the start of a debug session) will cause the various components of Edit and Continue to spew verbose logging to the _Output Window_ > Debug pane.
 
