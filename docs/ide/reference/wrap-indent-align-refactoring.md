@@ -13,7 +13,7 @@ ms.workload:
 ---
 # Wrap, indent, and align refactorings
 
-# Wrap and align call chains
+## Wrap and align call chains
 
 This refactoring applies to:
 
@@ -25,7 +25,7 @@ This refactoring applies to:
 
 **Why:** Reading a long list is easier when they're wrapped or indented according to user preference.
 
-## How-to wrap and align call chains
+### How-to
 
 1. Place your cursor in any of the call chains.
 2. Press **Ctrl**+**.** to trigger the **Quick Actions and Refactorings** menu.
@@ -33,7 +33,7 @@ This refactoring applies to:
 
    ![Wrap and Align Call Chains](media/wrap-call-chain.png)
 
-# Wrap, indent, and align parameters or arguments
+## Wrap, indent, and align parameters or arguments
 
 This refactoring applies to:
 
@@ -47,7 +47,7 @@ This refactoring applies to:
 
 **Why:** Reading a long list of parameters or arguments is easier when they're wrapped or indented according to user preference.
 
-## How-to wrap, indent, and align parameters or arguments
+### How-to
 
 1. Place your cursor in a parameter list.
 2. Press **Ctrl**+**.** to trigger the **Quick Actions and Refactorings** menu.
@@ -56,7 +56,7 @@ This refactoring applies to:
 
 3. Select **Wrap every parameter** to accept the refactoring.
 
-# Wrap binary expressions
+## Wrap binary expressions
 
 This refactoring applies to:
 
@@ -68,7 +68,7 @@ This refactoring applies to:
 
 **Why:** Reading a binary expression is easier when it is wrapped to user preference.
 
-## How-to wrap binary expressions
+### How-to wrap binary expressions
 
 1. Place your cursor in the binary expression.
 2. Press **Ctrl**+**.** to trigger the **Quick Actions and Refactorings** menu.
