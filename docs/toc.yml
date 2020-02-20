@@ -414,8 +414,8 @@
           href: ide/reference/use-block-body-lambda.md
         - name: Unused value assignments, variables, and parameters
           href: ide/reference/unused-values-parameters.md
-        - name: Wrap, indent, and align refactoring
-          href: ide/reference/wrap-indent-align-refactoring.md
+        - name: Wrap, indent, and align refactorings
+          href: ide/reference/wrap-indent-align-refactorings.md
       - name: "Walkthrough: Generate code from usage"
         href: ide/walkthrough-test-first-support-with-the-generate-from-usage-feature.md
     - name: IntelliSense

@@ -1,5 +1,5 @@
 ---
-title: Wrap, indent, and align refactoring
+title: Wrap, indent, and align refactorings
 description: Learn how to wrap and align chains of method calls.
 ms.date: 02/19/2020
 ms.topic: reference
@@ -11,7 +11,7 @@ dev_langs:
 ms.workload:
   - "dotnet"
 ---
-# Wrap, indent, and align refactoring
+# Wrap, indent, and align refactorings
 
 ## Wrap and align call chains
 
