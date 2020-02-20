@@ -3,7 +3,7 @@ title: Downloading software titles in Visual Studio subscriptions | Microsoft Do
 author: evanwindom
 ms.author: lank
 manager: lank
-ms.date: 07/18/2019
+ms.date: 02/17/2020
 ms.topic: conceptual
 description:  Learn how to locate and download Microsoft software titles in Visual Studio subscriptions
 ---
@@ -13,6 +13,9 @@ Depending on which Visual Studio subscription you have, a wide variety of Micros
 
 > [!NOTE]
 > Only the downloads included with your subscription are displayed for you on the [Downloads](https://my.visualstudio.com/downloads/featured) page.  If you have more than one subscription or program membership, the downloads shown will be for the **highest subscription** you hold, even if you are currently viewing a different subscription.  For example, if you have a Visual Studio Enterprise subscription and a Visual Studio Professional subscription both associated with the same sign-in ID, the downloads shown will be those included in the Enterprise subscription, even if you’re currently viewing your Professional subscription benefits.
+
+> [!NOTE]
+> We are aware of an issue regarding the availability of Office 365 product keys.  We are investigating the cause and will update this article when the issue is resolved. 
 
 ## How do I find downloads in the subscriber portal?
 When you visit the [Downloads](https://my.visualstudio.com/downloads/featured?wt.mc_id=o~msft~docs) page, you'll see popular downloads arranged in groups by product type.  You can select one of the popular downloads shown, or search for any product using the search bar at the top of the page.
@@ -46,3 +49,10 @@ To obtain a product key for the download, you can either click the blue key labe
 To learn more about locating, claiming and exporting product keys, check out our product keys documentation:
 - [Product keys overview](product-keys.md)
 - [Locate and claim keys](find-keys.md)
+
+## See also
+- [Visual Studio documentation](https://docs.microsoft.com/visualstudio/)
+- [Azure DevOps documentation](https://docs.microsoft.com/azure/devops/)
+- [Azure documentation](https://docs.microsoft.com/azure/)
+- [Microsoft 365 documentation](https://docs.microsoft.com/microsoft-365/)
+

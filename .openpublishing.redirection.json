@@ -157,7 +157,7 @@
     },
     {
       "source_path": "docs/code-quality/analyzing-c-cpp-code-quality-by-using-code-analysis.md",
-      "redirect_url": "/visualstudio/code-quality/code-analysis-for-c-cpp-overview",
+      "redirect_url": "/cpp/code-quality/code-analysis-for-c-cpp-overview",
       "redirect_document_id": false
     },
     {
@@ -229,6 +229,1971 @@
       "source_path": "docs/code-quality/troubleshooting-quality-tools.md",
       "redirect_url": "/visualstudio/code-quality/index",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/code-analysis-for-c-cpp-overview.md",
+      "redirect_url": "/cpp/code-quality/code-analysis-for-c-cpp-overview",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/quick-start-code-analysis-for-c-cpp.md",
+      "redirect_url": "/cpp/code-quality/quick-start-code-analysis-for-c-cpp",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/walkthrough-analyzing-c-cpp-code-for-defects.md",
+      "redirect_url": "/cpp/code-quality/walkthrough-analyzing-c-cpp-code-for-defects",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/demo-sample.md",
+      "redirect_url": "/cpp/code-quality/demo-sample",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/using-the-cpp-core-guidelines-checkers.md",
+      "redirect_url": "/cpp/code-quality/using-the-cpp-core-guidelines-checkers",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/how-to-set-code-analysis-properties-for-c-cpp-projects.md",
+      "redirect_url": "/cpp/code-quality/how-to-set-code-analysis-properties-for-c-cpp-projects",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/using-rule-sets-to-specify-the-cpp-rules-to-run.md",
+      "redirect_url": "/cpp/code-quality/using-rule-sets-to-specify-the-cpp-rules-to-run",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/clang-tidy.md",
+      "redirect_url": "/cpp/code-quality/clang-tidy",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/using-sal-annotations-to-reduce-c-cpp-code-defects.md",
+      "redirect_url": "/cpp/code-quality/using-sal-annotations-to-reduce-c-cpp-code-defects",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/understanding-sal.md",
+      "redirect_url": "/cpp/code-quality/understanding-sal",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/annotating-function-parameters-and-return-values.md",
+      "redirect_url": "/cpp/code-quality/annotating-function-parameters-and-return-values",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/annotating-function-behavior.md",
+      "redirect_url": "/cpp/code-quality/annotating-function-behavior",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/annotating-structs-and-classes.md",
+      "redirect_url": "/cpp/code-quality/annotating-structs-and-classes",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/annotating-locking-behavior.md",
+      "redirect_url": "/cpp/code-quality/annotating-locking-behavior",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/specifying-when-and-where-an-annotation-applies.md",
+      "redirect_url": "/cpp/code-quality/specifying-when-and-where-an-annotation-applies",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/intrinsic-functions.md",
+      "redirect_url": "/cpp/code-quality/intrinsic-functions",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/best-practices-and-examples-sal.md",
+      "redirect_url": "/cpp/code-quality/best-practices-and-examples-sal",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/how-to-specify-additional-code-information-by-using-analysis-assume.md",
+      "redirect_url": "/cpp/code-quality/how-to-specify-additional-code-information-by-using-analysis-assume",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/code-analysis-for-cpp-corecheck.md",
+      "redirect_url": "/cpp/code-quality/code-analysis-for-cpp-corecheck",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/code-analysis-for-c-cpp-warnings.md",
+      "redirect_url": "/cpp/code-quality/code-analysis-for-c-cpp-warnings",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/cpp-core-guidelines-warnings.md",
+      "redirect_url": "/cpp/code-quality/cpp-core-guidelines-warnings",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/C26400.md",
+      "redirect_url": "/cpp/code-quality/C26400",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/C26401.md",
+      "redirect_url": "/cpp/code-quality/C26401",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/C26402.md",
+      "redirect_url": "/cpp/code-quality/C26402",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/C26403.md",
+      "redirect_url": "/cpp/code-quality/C26403",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/C26404.md",
+      "redirect_url": "/cpp/code-quality/C26404",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/C26405.md",
+      "redirect_url": "/cpp/code-quality/C26405",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/C26406.md",
+      "redirect_url": "/cpp/code-quality/C26406",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/C26407.md",
+      "redirect_url": "/cpp/code-quality/C26407",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/C26408.md",
+      "redirect_url": "/cpp/code-quality/C26408",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/C26409.md",
+      "redirect_url": "/cpp/code-quality/C26409",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/C26410.md",
+      "redirect_url": "/cpp/code-quality/C26410",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/C26411.md",
+      "redirect_url": "/cpp/code-quality/C26411",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/C26414.md",
+      "redirect_url": "/cpp/code-quality/C26414",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/C26415.md",
+      "redirect_url": "/cpp/code-quality/C26415",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/C26416.md",
+      "redirect_url": "/cpp/code-quality/C26416",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/C26417.md",
+      "redirect_url": "/cpp/code-quality/C26417",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/C26418.md",
+      "redirect_url": "/cpp/code-quality/C26418",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/C26426.md",
+      "redirect_url": "/cpp/code-quality/C26426",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/C26427.md",
+      "redirect_url": "/cpp/code-quality/C26427",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/C26429.md",
+      "redirect_url": "/cpp/code-quality/C26429",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/C26430.md",
+      "redirect_url": "/cpp/code-quality/C26430",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/C26431.md",
+      "redirect_url": "/cpp/code-quality/C26431",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/C26432.md",
+      "redirect_url": "/cpp/code-quality/C26432",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c26433.md",
+      "redirect_url": "/cpp/code-quality/c26433",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/C26434.md",
+      "redirect_url": "/cpp/code-quality/C26434",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c26435.md",
+      "redirect_url": "/cpp/code-quality/c26435",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/C26436.md",
+      "redirect_url": "/cpp/code-quality/C26436",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/C26437.md",
+      "redirect_url": "/cpp/code-quality/C26437",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/C26438.md",
+      "redirect_url": "/cpp/code-quality/C26438",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/C26439.md",
+      "redirect_url": "/cpp/code-quality/C26439",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/C26440.md",
+      "redirect_url": "/cpp/code-quality/C26440",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/C26441.md",
+      "redirect_url": "/cpp/code-quality/C26441",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c26443.md",
+      "redirect_url": "/cpp/code-quality/c26443",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c26444.md",
+      "redirect_url": "/cpp/code-quality/c26444",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c26445.md",
+      "redirect_url": "/cpp/code-quality/c26445",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c26446.md",
+      "redirect_url": "/cpp/code-quality/c26446",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c26447.md",
+      "redirect_url": "/cpp/code-quality/c26447",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c26448.md",
+      "redirect_url": "/cpp/code-quality/c26448",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c26449.md",
+      "redirect_url": "/cpp/code-quality/c26449",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/C26450.md",
+      "redirect_url": "/cpp/code-quality/C26450",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/C26451.md",
+      "redirect_url": "/cpp/code-quality/C26451",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/C26452.md",
+      "redirect_url": "/cpp/code-quality/C26452",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/C26453.md",
+      "redirect_url": "/cpp/code-quality/C26453",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/C26454.md",
+      "redirect_url": "/cpp/code-quality/C26454",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/C26455.md",
+      "redirect_url": "/cpp/code-quality/C26455",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/C26456.md",
+      "redirect_url": "/cpp/code-quality/C26456",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/C26460.md",
+      "redirect_url": "/cpp/code-quality/C26460",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/C26461.md",
+      "redirect_url": "/cpp/code-quality/C26461",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/C26462.md",
+      "redirect_url": "/cpp/code-quality/C26462",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/C26463.md",
+      "redirect_url": "/cpp/code-quality/C26463",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/C26464.md",
+      "redirect_url": "/cpp/code-quality/C26464",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/C26465.md",
+      "redirect_url": "/cpp/code-quality/C26465",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/C26466.md",
+      "redirect_url": "/cpp/code-quality/C26466",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/C26471.md",
+      "redirect_url": "/cpp/code-quality/C26471",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/C26472.md",
+      "redirect_url": "/cpp/code-quality/C26472",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/C26473.md",
+      "redirect_url": "/cpp/code-quality/C26473",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/C26474.md",
+      "redirect_url": "/cpp/code-quality/C26474",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/C26475.md",
+      "redirect_url": "/cpp/code-quality/C26475",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/C26476.md",
+      "redirect_url": "/cpp/code-quality/C26476",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/C26477.md",
+      "redirect_url": "/cpp/code-quality/C26477",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c26478.md",
+      "redirect_url": "/cpp/code-quality/c26478",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/C26481.md",
+      "redirect_url": "/cpp/code-quality/C26481",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/C26482.md",
+      "redirect_url": "/cpp/code-quality/C26482",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/C26483.md",
+      "redirect_url": "/cpp/code-quality/C26483",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/C26485.md",
+      "redirect_url": "/cpp/code-quality/C26485",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/C26486.md",
+      "redirect_url": "/cpp/code-quality/C26486",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/C26487.md",
+      "redirect_url": "/cpp/code-quality/C26487",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/C26488.md",
+      "redirect_url": "/cpp/code-quality/C26488",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/C26489.md",
+      "redirect_url": "/cpp/code-quality/C26489",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/C26490.md",
+      "redirect_url": "/cpp/code-quality/C26490",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/C26491.md",
+      "redirect_url": "/cpp/code-quality/C26491",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/C26492.md",
+      "redirect_url": "/cpp/code-quality/C26492",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/C26493.md",
+      "redirect_url": "/cpp/code-quality/C26493",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/C26494.md",
+      "redirect_url": "/cpp/code-quality/C26494",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/C26495.md",
+      "redirect_url": "/cpp/code-quality/C26495",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/C26496.md",
+      "redirect_url": "/cpp/code-quality/C26496",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/C26497.md",
+      "redirect_url": "/cpp/code-quality/C26497",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/C26498.md",
+      "redirect_url": "/cpp/code-quality/C26498",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c26812.md",
+      "redirect_url": "/cpp/code-quality/c26812",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c26814.md",
+      "redirect_url": "/cpp/code-quality/c26814",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c26815.md",
+      "redirect_url": "/cpp/code-quality/c26815",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c26816.md",
+      "redirect_url": "/cpp/code-quality/c26816",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c1250.md",
+      "redirect_url": "/cpp/code-quality/c1250",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c1251.md",
+      "redirect_url": "/cpp/code-quality/c1251",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c1252.md",
+      "redirect_url": "/cpp/code-quality/c1252",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c1253.md",
+      "redirect_url": "/cpp/code-quality/c1253",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c1254.md",
+      "redirect_url": "/cpp/code-quality/c1254",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c1255.md",
+      "redirect_url": "/cpp/code-quality/c1255",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c1256.md",
+      "redirect_url": "/cpp/code-quality/c1256",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c1257.md",
+      "redirect_url": "/cpp/code-quality/c1257",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6001.md",
+      "redirect_url": "/cpp/code-quality/c6001",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6011.md",
+      "redirect_url": "/cpp/code-quality/c6011",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6014.md",
+      "redirect_url": "/cpp/code-quality/c6014",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6029.md",
+      "redirect_url": "/cpp/code-quality/c6029",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6031.md",
+      "redirect_url": "/cpp/code-quality/c6031",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6053.md",
+      "redirect_url": "/cpp/code-quality/c6053",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6054.md",
+      "redirect_url": "/cpp/code-quality/c6054",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6059.md",
+      "redirect_url": "/cpp/code-quality/c6059",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6063.md",
+      "redirect_url": "/cpp/code-quality/c6063",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6064.md",
+      "redirect_url": "/cpp/code-quality/c6064",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6066.md",
+      "redirect_url": "/cpp/code-quality/c6066",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6067.md",
+      "redirect_url": "/cpp/code-quality/c6067",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6101.md",
+      "redirect_url": "/cpp/code-quality/c6101",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6102.md",
+      "redirect_url": "/cpp/code-quality/c6102",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6103.md",
+      "redirect_url": "/cpp/code-quality/c6103",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6200.md",
+      "redirect_url": "/cpp/code-quality/c6200",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6201.md",
+      "redirect_url": "/cpp/code-quality/c6201",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6211.md",
+      "redirect_url": "/cpp/code-quality/c6211",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6214.md",
+      "redirect_url": "/cpp/code-quality/c6214",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6215.md",
+      "redirect_url": "/cpp/code-quality/c6215",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6216.md",
+      "redirect_url": "/cpp/code-quality/c6216",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6217.md",
+      "redirect_url": "/cpp/code-quality/c6217",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6219.md",
+      "redirect_url": "/cpp/code-quality/c6219",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6220.md",
+      "redirect_url": "/cpp/code-quality/c6220",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6221.md",
+      "redirect_url": "/cpp/code-quality/c6221",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6225.md",
+      "redirect_url": "/cpp/code-quality/c6225",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6226.md",
+      "redirect_url": "/cpp/code-quality/c6226",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6230.md",
+      "redirect_url": "/cpp/code-quality/c6230",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6235.md",
+      "redirect_url": "/cpp/code-quality/c6235",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6236.md",
+      "redirect_url": "/cpp/code-quality/c6236",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6237.md",
+      "redirect_url": "/cpp/code-quality/c6237",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6239.md",
+      "redirect_url": "/cpp/code-quality/c6239",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6240.md",
+      "redirect_url": "/cpp/code-quality/c6240",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6242.md",
+      "redirect_url": "/cpp/code-quality/c6242",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6244.md",
+      "redirect_url": "/cpp/code-quality/c6244",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6246.md",
+      "redirect_url": "/cpp/code-quality/c6246",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6248.md",
+      "redirect_url": "/cpp/code-quality/c6248",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6250.md",
+      "redirect_url": "/cpp/code-quality/c6250",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6255.md",
+      "redirect_url": "/cpp/code-quality/c6255",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6258.md",
+      "redirect_url": "/cpp/code-quality/c6258",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6259.md",
+      "redirect_url": "/cpp/code-quality/c6259",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6260.md",
+      "redirect_url": "/cpp/code-quality/c6260",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6262.md",
+      "redirect_url": "/cpp/code-quality/c6262",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6263.md",
+      "redirect_url": "/cpp/code-quality/c6263",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6268.md",
+      "redirect_url": "/cpp/code-quality/c6268",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6269.md",
+      "redirect_url": "/cpp/code-quality/c6269",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6270.md",
+      "redirect_url": "/cpp/code-quality/c6270",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6271.md",
+      "redirect_url": "/cpp/code-quality/c6271",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6272.md",
+      "redirect_url": "/cpp/code-quality/c6272",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6273.md",
+      "redirect_url": "/cpp/code-quality/c6273",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6274.md",
+      "redirect_url": "/cpp/code-quality/c6274",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6276.md",
+      "redirect_url": "/cpp/code-quality/c6276",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6277.md",
+      "redirect_url": "/cpp/code-quality/c6277",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6278.md",
+      "redirect_url": "/cpp/code-quality/c6278",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6279.md",
+      "redirect_url": "/cpp/code-quality/c6279",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6280.md",
+      "redirect_url": "/cpp/code-quality/c6280",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6281.md",
+      "redirect_url": "/cpp/code-quality/c6281",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6282.md",
+      "redirect_url": "/cpp/code-quality/c6282",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6283.md",
+      "redirect_url": "/cpp/code-quality/c6283",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6284.md",
+      "redirect_url": "/cpp/code-quality/c6284",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6285.md",
+      "redirect_url": "/cpp/code-quality/c6285",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6286.md",
+      "redirect_url": "/cpp/code-quality/c6286",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6287.md",
+      "redirect_url": "/cpp/code-quality/c6287",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6288.md",
+      "redirect_url": "/cpp/code-quality/c6288",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6289.md",
+      "redirect_url": "/cpp/code-quality/c6289",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6290.md",
+      "redirect_url": "/cpp/code-quality/c6290",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6291.md",
+      "redirect_url": "/cpp/code-quality/c6291",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6292.md",
+      "redirect_url": "/cpp/code-quality/c6292",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6293.md",
+      "redirect_url": "/cpp/code-quality/c6293",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6294.md",
+      "redirect_url": "/cpp/code-quality/c6294",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6295.md",
+      "redirect_url": "/cpp/code-quality/c6295",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6296.md",
+      "redirect_url": "/cpp/code-quality/c6296",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6297.md",
+      "redirect_url": "/cpp/code-quality/c6297",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6298.md",
+      "redirect_url": "/cpp/code-quality/c6298",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6299.md",
+      "redirect_url": "/cpp/code-quality/c6299",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6302.md",
+      "redirect_url": "/cpp/code-quality/c6302",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6303.md",
+      "redirect_url": "/cpp/code-quality/c6303",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6305.md",
+      "redirect_url": "/cpp/code-quality/c6305",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6306.md",
+      "redirect_url": "/cpp/code-quality/c6306",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6308.md",
+      "redirect_url": "/cpp/code-quality/c6308",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6310.md",
+      "redirect_url": "/cpp/code-quality/c6310",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6312.md",
+      "redirect_url": "/cpp/code-quality/c6312",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6313.md",
+      "redirect_url": "/cpp/code-quality/c6313",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6314.md",
+      "redirect_url": "/cpp/code-quality/c6314",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6315.md",
+      "redirect_url": "/cpp/code-quality/c6315",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6316.md",
+      "redirect_url": "/cpp/code-quality/c6316",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6317.md",
+      "redirect_url": "/cpp/code-quality/c6317",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6318.md",
+      "redirect_url": "/cpp/code-quality/c6318",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6319.md",
+      "redirect_url": "/cpp/code-quality/c6319",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6320.md",
+      "redirect_url": "/cpp/code-quality/c6320",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6322.md",
+      "redirect_url": "/cpp/code-quality/c6322",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6323.md",
+      "redirect_url": "/cpp/code-quality/c6323",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6324.md",
+      "redirect_url": "/cpp/code-quality/c6324",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6326.md",
+      "redirect_url": "/cpp/code-quality/c6326",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6328.md",
+      "redirect_url": "/cpp/code-quality/c6328",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6329.md",
+      "redirect_url": "/cpp/code-quality/c6329",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6330.md",
+      "redirect_url": "/cpp/code-quality/c6330",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6331.md",
+      "redirect_url": "/cpp/code-quality/c6331",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6332.md",
+      "redirect_url": "/cpp/code-quality/c6332",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6333.md",
+      "redirect_url": "/cpp/code-quality/c6333",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6334.md",
+      "redirect_url": "/cpp/code-quality/c6334",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6335.md",
+      "redirect_url": "/cpp/code-quality/c6335",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6336.md",
+      "redirect_url": "/cpp/code-quality/c6336",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6340.md",
+      "redirect_url": "/cpp/code-quality/c6340",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6381.md",
+      "redirect_url": "/cpp/code-quality/c6381",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6383.md",
+      "redirect_url": "/cpp/code-quality/c6383",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6384.md",
+      "redirect_url": "/cpp/code-quality/c6384",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6385.md",
+      "redirect_url": "/cpp/code-quality/c6385",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6386.md",
+      "redirect_url": "/cpp/code-quality/c6386",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6387.md",
+      "redirect_url": "/cpp/code-quality/c6387",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6388.md",
+      "redirect_url": "/cpp/code-quality/c6388",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6400.md",
+      "redirect_url": "/cpp/code-quality/c6400",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6401.md",
+      "redirect_url": "/cpp/code-quality/c6401",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6411.md",
+      "redirect_url": "/cpp/code-quality/c6411",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6412.md",
+      "redirect_url": "/cpp/code-quality/c6412",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6500.md",
+      "redirect_url": "/cpp/code-quality/c6500",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6501.md",
+      "redirect_url": "/cpp/code-quality/c6501",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6503.md",
+      "redirect_url": "/cpp/code-quality/c6503",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6504.md",
+      "redirect_url": "/cpp/code-quality/c6504",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6505.md",
+      "redirect_url": "/cpp/code-quality/c6505",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6506.md",
+      "redirect_url": "/cpp/code-quality/c6506",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6508.md",
+      "redirect_url": "/cpp/code-quality/c6508",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6509.md",
+      "redirect_url": "/cpp/code-quality/c6509",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6510.md",
+      "redirect_url": "/cpp/code-quality/c6510",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6511.md",
+      "redirect_url": "/cpp/code-quality/c6511",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6513.md",
+      "redirect_url": "/cpp/code-quality/c6513",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6514.md",
+      "redirect_url": "/cpp/code-quality/c6514",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6515.md",
+      "redirect_url": "/cpp/code-quality/c6515",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6516.md",
+      "redirect_url": "/cpp/code-quality/c6516",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6517.md",
+      "redirect_url": "/cpp/code-quality/c6517",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6518.md",
+      "redirect_url": "/cpp/code-quality/c6518",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6522.md",
+      "redirect_url": "/cpp/code-quality/c6522",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6525.md",
+      "redirect_url": "/cpp/code-quality/c6525",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6527.md",
+      "redirect_url": "/cpp/code-quality/c6527",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6530.md",
+      "redirect_url": "/cpp/code-quality/c6530",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6540.md",
+      "redirect_url": "/cpp/code-quality/c6540",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6551.md",
+      "redirect_url": "/cpp/code-quality/c6551",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6552.md",
+      "redirect_url": "/cpp/code-quality/c6552",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6701.md",
+      "redirect_url": "/cpp/code-quality/c6701",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6702.md",
+      "redirect_url": "/cpp/code-quality/c6702",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6703.md",
+      "redirect_url": "/cpp/code-quality/c6703",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6704.md",
+      "redirect_url": "/cpp/code-quality/c6704",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6705.md",
+      "redirect_url": "/cpp/code-quality/c6705",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6706.md",
+      "redirect_url": "/cpp/code-quality/c6706",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6707.md",
+      "redirect_url": "/cpp/code-quality/c6707",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6993.md",
+      "redirect_url": "/cpp/code-quality/c6993",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6995.md",
+      "redirect_url": "/cpp/code-quality/c6995",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c6997.md",
+      "redirect_url": "/cpp/code-quality/c6997",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c26100.md",
+      "redirect_url": "/cpp/code-quality/c26100",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c26101.md",
+      "redirect_url": "/cpp/code-quality/c26101",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c26105.md",
+      "redirect_url": "/cpp/code-quality/c26105",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c26110.md",
+      "redirect_url": "/cpp/code-quality/c26110",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c26111.md",
+      "redirect_url": "/cpp/code-quality/c26111",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c26112.md",
+      "redirect_url": "/cpp/code-quality/c26112",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c26115.md",
+      "redirect_url": "/cpp/code-quality/c26115",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c26116.md",
+      "redirect_url": "/cpp/code-quality/c26116",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c26117.md",
+      "redirect_url": "/cpp/code-quality/c26117",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c26130.md",
+      "redirect_url": "/cpp/code-quality/c26130",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c26135.md",
+      "redirect_url": "/cpp/code-quality/c26135",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c26138.md",
+      "redirect_url": "/cpp/code-quality/c26138",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c26140.md",
+      "redirect_url": "/cpp/code-quality/c26140",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c26160.md",
+      "redirect_url": "/cpp/code-quality/c26160",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c26165.md",
+      "redirect_url": "/cpp/code-quality/c26165",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c26166.md",
+      "redirect_url": "/cpp/code-quality/c26166",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c26167.md",
+      "redirect_url": "/cpp/code-quality/c26167",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c26800.md",
+      "redirect_url": "/cpp/code-quality/c26800",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c26810.md",
+      "redirect_url": "/cpp/code-quality/c26810",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c26811.md",
+      "redirect_url": "/cpp/code-quality/c26811",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c28020.md",
+      "redirect_url": "/cpp/code-quality/c28020",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c28021.md",
+      "redirect_url": "/cpp/code-quality/c28021",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c28022.md",
+      "redirect_url": "/cpp/code-quality/c28022",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c28023.md",
+      "redirect_url": "/cpp/code-quality/c28023",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c28024.md",
+      "redirect_url": "/cpp/code-quality/c28024",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c28039.md",
+      "redirect_url": "/cpp/code-quality/c28039",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c28103.md",
+      "redirect_url": "/cpp/code-quality/c28103",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c28104.md",
+      "redirect_url": "/cpp/code-quality/c28104",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c28105.md",
+      "redirect_url": "/cpp/code-quality/c28105",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c28106.md",
+      "redirect_url": "/cpp/code-quality/c28106",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c28107.md",
+      "redirect_url": "/cpp/code-quality/c28107",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c28108.md",
+      "redirect_url": "/cpp/code-quality/c28108",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c28109.md",
+      "redirect_url": "/cpp/code-quality/c28109",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c28112.md",
+      "redirect_url": "/cpp/code-quality/c28112",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c28113.md",
+      "redirect_url": "/cpp/code-quality/c28113",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c28125.md",
+      "redirect_url": "/cpp/code-quality/c28125",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c28137.md",
+      "redirect_url": "/cpp/code-quality/c28137",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c28138.md",
+      "redirect_url": "/cpp/code-quality/c28138",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c28159.md",
+      "redirect_url": "/cpp/code-quality/c28159",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c28160.md",
+      "redirect_url": "/cpp/code-quality/c28160",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c28163.md",
+      "redirect_url": "/cpp/code-quality/c28163",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c28164.md",
+      "redirect_url": "/cpp/code-quality/c28164",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c28182.md",
+      "redirect_url": "/cpp/code-quality/c28182",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c28183.md",
+      "redirect_url": "/cpp/code-quality/c28183",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c28193.md",
+      "redirect_url": "/cpp/code-quality/c28193",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c28194.md",
+      "redirect_url": "/cpp/code-quality/c28194",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c28195.md",
+      "redirect_url": "/cpp/code-quality/c28195",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c28196.md",
+      "redirect_url": "/cpp/code-quality/c28196",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c28197.md",
+      "redirect_url": "/cpp/code-quality/c28197",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c28198.md",
+      "redirect_url": "/cpp/code-quality/c28198",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c28199.md",
+      "redirect_url": "/cpp/code-quality/c28199",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c28202.md",
+      "redirect_url": "/cpp/code-quality/c28202",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c28203.md",
+      "redirect_url": "/cpp/code-quality/c28203",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c28204.md",
+      "redirect_url": "/cpp/code-quality/c28204",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c28205.md",
+      "redirect_url": "/cpp/code-quality/c28205",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c28206.md",
+      "redirect_url": "/cpp/code-quality/c28206",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c28207.md",
+      "redirect_url": "/cpp/code-quality/c28207",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c28208.md",
+      "redirect_url": "/cpp/code-quality/c28208",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c28209.md",
+      "redirect_url": "/cpp/code-quality/c28209",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c28210.md",
+      "redirect_url": "/cpp/code-quality/c28210",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c28211.md",
+      "redirect_url": "/cpp/code-quality/c28211",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c28212.md",
+      "redirect_url": "/cpp/code-quality/c28212",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c28213.md",
+      "redirect_url": "/cpp/code-quality/c28213",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c28214.md",
+      "redirect_url": "/cpp/code-quality/c28214",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c28215.md",
+      "redirect_url": "/cpp/code-quality/c28215",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c28216.md",
+      "redirect_url": "/cpp/code-quality/c28216",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c28217.md",
+      "redirect_url": "/cpp/code-quality/c28217",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c28218.md",
+      "redirect_url": "/cpp/code-quality/c28218",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c28219.md",
+      "redirect_url": "/cpp/code-quality/c28219",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c28220.md",
+      "redirect_url": "/cpp/code-quality/c28220",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c28221.md",
+      "redirect_url": "/cpp/code-quality/c28221",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c28222.md",
+      "redirect_url": "/cpp/code-quality/c28222",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c28223.md",
+      "redirect_url": "/cpp/code-quality/c28223",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c28224.md",
+      "redirect_url": "/cpp/code-quality/c28224",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c28225.md",
+      "redirect_url": "/cpp/code-quality/c28225",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c28226.md",
+      "redirect_url": "/cpp/code-quality/c28226",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c28227.md",
+      "redirect_url": "/cpp/code-quality/c28227",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c28228.md",
+      "redirect_url": "/cpp/code-quality/c28228",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c28229.md",
+      "redirect_url": "/cpp/code-quality/c28229",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c28230.md",
+      "redirect_url": "/cpp/code-quality/c28230",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c28231.md",
+      "redirect_url": "/cpp/code-quality/c28231",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c28232.md",
+      "redirect_url": "/cpp/code-quality/c28232",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c28233.md",
+      "redirect_url": "/cpp/code-quality/c28233",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c28234.md",
+      "redirect_url": "/cpp/code-quality/c28234",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c28235.md",
+      "redirect_url": "/cpp/code-quality/c28235",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c28236.md",
+      "redirect_url": "/cpp/code-quality/c28236",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c28237.md",
+      "redirect_url": "/cpp/code-quality/c28237",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c28238.md",
+      "redirect_url": "/cpp/code-quality/c28238",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c28239.md",
+      "redirect_url": "/cpp/code-quality/c28239",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c28240.md",
+      "redirect_url": "/cpp/code-quality/c28240",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c28241.md",
+      "redirect_url": "/cpp/code-quality/c28241",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c28243.md",
+      "redirect_url": "/cpp/code-quality/c28243",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c28244.md",
+      "redirect_url": "/cpp/code-quality/c28244",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c28245.md",
+      "redirect_url": "/cpp/code-quality/c28245",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c28246.md",
+      "redirect_url": "/cpp/code-quality/c28246",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c28250.md",
+      "redirect_url": "/cpp/code-quality/c28250",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c28251.md",
+      "redirect_url": "/cpp/code-quality/c28251",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c28252.md",
+      "redirect_url": "/cpp/code-quality/c28252",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c28253.md",
+      "redirect_url": "/cpp/code-quality/c28253",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c28254.md",
+      "redirect_url": "/cpp/code-quality/c28254",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c28262.md",
+      "redirect_url": "/cpp/code-quality/c28262",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c28263.md",
+      "redirect_url": "/cpp/code-quality/c28263",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c28267.md",
+      "redirect_url": "/cpp/code-quality/c28267",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c28272.md",
+      "redirect_url": "/cpp/code-quality/c28272",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c28273.md",
+      "redirect_url": "/cpp/code-quality/c28273",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c28275.md",
+      "redirect_url": "/cpp/code-quality/c28275",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c28278.md",
+      "redirect_url": "/cpp/code-quality/c28278",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c28279.md",
+      "redirect_url": "/cpp/code-quality/c28279",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c28280.md",
+      "redirect_url": "/cpp/code-quality/c28280",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c28282.md",
+      "redirect_url": "/cpp/code-quality/c28282",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c28283.md",
+      "redirect_url": "/cpp/code-quality/c28283",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c28284.md",
+      "redirect_url": "/cpp/code-quality/c28284",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c28285.md",
+      "redirect_url": "/cpp/code-quality/c28285",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c28286.md",
+      "redirect_url": "/cpp/code-quality/c28286",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c28287.md",
+      "redirect_url": "/cpp/code-quality/c28287",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c28288.md",
+      "redirect_url": "/cpp/code-quality/c28288",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c28289.md",
+      "redirect_url": "/cpp/code-quality/c28289",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c28290.md",
+      "redirect_url": "/cpp/code-quality/c28290",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c28291.md",
+      "redirect_url": "/cpp/code-quality/c28291",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c28300.md",
+      "redirect_url": "/cpp/code-quality/c28300",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c28301.md",
+      "redirect_url": "/cpp/code-quality/c28301",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c28302.md",
+      "redirect_url": "/cpp/code-quality/c28302",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c28303.md",
+      "redirect_url": "/cpp/code-quality/c28303",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c28304.md",
+      "redirect_url": "/cpp/code-quality/c28304",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c28305.md",
+      "redirect_url": "/cpp/code-quality/c28305",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c28306.md",
+      "redirect_url": "/cpp/code-quality/c28306",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c28307.md",
+      "redirect_url": "/cpp/code-quality/c28307",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c28308.md",
+      "redirect_url": "/cpp/code-quality/c28308",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c28309.md",
+      "redirect_url": "/cpp/code-quality/c28309",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c28310.md",
+      "redirect_url": "/cpp/code-quality/c28310",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c28311.md",
+      "redirect_url": "/cpp/code-quality/c28311",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c28312.md",
+      "redirect_url": "/cpp/code-quality/c28312",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c28350.md",
+      "redirect_url": "/cpp/code-quality/c28350",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/code-quality/c28351.md",
+      "redirect_url": "/cpp/code-quality/c28351",
+      "redirect_document_id": true
     },
     {
       "source_path": "docs/containers/vs-azure-tools-docker-setup.md",
@@ -3422,7 +5387,7 @@
     },
     {
       "source_path": "docs/test/analyze-cpp-code-quality-of-store-apps-using-visual-studio-static-code-analysis.md",
-      "redirect_url": "/visualstudio/code-quality/quick-start-code-analysis-for-c-cpp",
+      "redirect_url": "/cpp/code-quality/quick-start-code-analysis-for-c-cpp",
       "redirect_document_id": false
     },
     {
