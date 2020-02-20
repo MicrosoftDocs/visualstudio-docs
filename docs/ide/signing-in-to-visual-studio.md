@@ -32,7 +32,7 @@ Here's a full list of what you can expect and what you can do after you sign in:
 
 - **Extend the Visual Studio trial period** - You can use Visual Studio Professional or Visual Studio Enterprise for an additional 90 days, instead of being limited to the trial period of 30 days.
 
-- **Unlock Visual Studio if you use an account that's associated with a Visual Studio subscription or an Azure DevOps organization**. See [How to unlock Visual Studio](../ide/how-to-unlock-visual-studio.md).
+- **Unlock Visual Studio if you use an account that's associated with a Visual Studio subscription or an Azure DevOps organization**. See [Extend a trial version or update a license](../ide/how-to-unlock-visual-studio.md).
 
 - **Automatically connect to services such as Azure and Azure DevOps Services** in the IDE without prompting again for credentials for the same account.
 
@@ -58,11 +58,11 @@ Unless you sign out, you're automatically signed in to Visual Studio whenever yo
 
 ## Troubleshooting
 
-If you encounter any problems while signing in, please see the [Accounts support](https://visualstudio.microsoft.com/subscriptions/support/) page to get help.
+If you encounter any problems while signing in, please see the [Subscription support](https://visualstudio.microsoft.com/subscriptions/support/) page to get help.
 
 ## See also
 
-* [How to unlock Visual Studio](../ide/how-to-unlock-visual-studio.md)
+* [Extend a trial version or update a license](../ide/how-to-unlock-visual-studio.md)
 * [Visual Studio IDE overview](../get-started/visual-studio-ide.md)
 * [Sign in (Visual Studio for Mac)](/visualstudio/mac/signing-in)
 * [Activation (Visual Studio for Mac)](/visualstudio/mac/activation)
