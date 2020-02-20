@@ -115,7 +115,7 @@ If you use Internet Information Services (IIS) on Windows Server, and your deplo
   
 - If you create a MIME type with extension "*" and the MIME type "application/octet-stream," it will allow files of unblocked file type to be downloaded. (However, blocked file types such as .aspx and .asmx cannot be downloaded.)  
   
-  For specific instructions on configuring MIME types on Windows Server, refer to Microsoft Knowledge Base article KB326965, "IIS 6.0 Does Not Serve Unknown MIME Types" at [https://support.microsoft.com/default.aspx?scid=kb;en-us;326965](https://support.microsoft.com/default.aspx?scid=kb;en-us;326965).  
+  For specific instructions on configuring MIME types on Windows Server, see [How to add a MIME type to a Web site or application](/iis/configuration/system.webserver/staticcontent/mimemap#how-to-add-a-mime-type-to-a-web-site-or-application).  
   
 ## Content Type Mappings  
  When publishing over HTTP, the content type (also known as MIME type) for the .application file should be "application/x-ms-application." If you have [!INCLUDE[dnprdnlong](../includes/dnprdnlong-md.md)] installed on the server, this will be set for you automatically. If this is not installed, then you need to create a MIME type association for the [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] application vroot (or entire server).  
