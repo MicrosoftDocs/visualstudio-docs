@@ -43,7 +43,7 @@ If you use Internet Information Services (IIS) on Windows Server, and your deplo
 ## ClickOnce and proxy authentication
  [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] provides support for Windows Integrated proxy authentication starting in .NET Framework 3.5. No specific machine.config directives are required. [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] does not provide support for other authentication protocols such as Basic or Digest.
 
- You can also apply a hotfix to .NET Framework 2.0 to enable this feature. For more information, see http://go.microsoft.com/fwlink/?LinkId=158730.
+ You can also apply a hotfix to .NET Framework 2.0 to enable this feature. For more information, see [FIX: Error message when you try to install a ClickOnce application that you created in the .NET Framework 2.0 onto a client computer that is configured to use a proxy server: "Proxy authentication required"](https://support.microsoft.com/help/917952/fix-error-message-when-you-try-to-install-a-clickonce-application-that).
 
  For more information, see [\<defaultProxy> element (network settings)](/dotnet/framework/configure-apps/file-schema/network/defaultproxy-element-network-settings).
 
