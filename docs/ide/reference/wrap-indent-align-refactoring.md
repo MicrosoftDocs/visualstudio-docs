@@ -1,5 +1,5 @@
 ---
-title: Wrap, indent, and align refactorings
+title: Wrap, indent, and align refactoring
 description: Learn how to wrap and align chains of method calls.
 ms.date: 02/19/2020
 ms.topic: reference
@@ -11,7 +11,7 @@ dev_langs:
 ms.workload:
   - "dotnet"
 ---
-# Wrap, indent, and align refactorings
+# Wrap, indent, and align refactoring
 
 ## Wrap and align call chains
 
@@ -68,7 +68,7 @@ This refactoring applies to:
 
 **Why:** Reading a binary expression is easier when it is wrapped to user preference.
 
-### How-to wrap binary expressions
+### How-to
 
 1. Place your cursor in the binary expression.
 2. Press **Ctrl**+**.** to trigger the **Quick Actions and Refactorings** menu.
