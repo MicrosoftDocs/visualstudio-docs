@@ -18,7 +18,7 @@ ms.workload:
 ---
 # VerifyFileHash task
 
-Verifies that a file matches the expected file hash.
+Verifies that a file matches the expected file hash. If the hash doesn't match, the task fails.
 
 This task was added in 15.8, but requires a [workaround](https://github.com/Microsoft/msbuild/pull/3999#issuecomment-458193272) to use for MSBuild versions below 16.0.
 
@@ -53,6 +53,30 @@ The following example uses the `VerifyFileHash` task to verify its own checksum.
                     Hash="$(ExpectedHash)" />
   </Target>
 </Project>
+```
+
+On MSBuild 16.5 and later, if you don't want the build to fail when the hash doesn't match, such as if you are using the hash comparison as a condition for control flow, you can downgrade the warning to a message using the following code:
+
+```xml
+  <PropertyGroup>
+    <MSBuildWarningsAsMessages>$(MSBuildWarningsAsMessages);MSB3952</MSBuildWarningsAsMessages>
+  </PropertyGroup>
+
+  <Target Name="DemoVerifyCheck">
+    <VerifyFileHash File="$(MSBuildThisFileFullPath)"
+                    Hash="1"
+                    ContinueOnError="WarnAndContinue" />
+
+    <PropertyGroup>
+      <HashMatched>$(MSBuildLastTaskResult)</HashMatched>
+    </PropertyGroup>
+
+    <Message Condition=" '$(HashMatched)' != 'true'"
+             Text="The hash didn't match" />
+
+    <Message Condition=" '$(HashMatched)' == 'true'"
+             Text="The hash did match" />
+  </Target>
 ```
 
 ## See also

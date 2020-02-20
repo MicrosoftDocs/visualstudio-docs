@@ -1,7 +1,7 @@
 ---
 title: "Debug a parallel application | Microsoft Docs"
 description: Debug using the Parallel Tasks and Parallel Stacks windows in Visual Studio
-ms.date: "03/22/2018"
+ms.date: "02/14/2020"
 ms.topic: "conceptual"
 dev_langs:
   - "CSharp"
@@ -58,25 +58,37 @@ This walkthrough shows how to use the **Parallel Tasks** and **Parallel Stacks**
 
 1. Open Visual Studio and create a new project.
 
-    ::: moniker range=">=vs-2019"
-    Press **Esc** to close the start window. Type **Ctrl + Q** to open the search box, type **console** (or **c++**), choose **Templates**, and then:
+   ::: moniker range=">=vs-2019"
 
-    - For C# or Visual Basic, choose **Create new Console App (.NET Framework) project** for either C# or Visual Basic. In the dialog box that appears, choose **Create**.
-    - For C++, choose **Create new Console App project** for C++. In the dialog box that appears, choose **Create**.
+   If the start window is not open, choose **File** > **Start Window**.
 
-    Then, type a name or use the default name and click **Create**.
-    ::: moniker-end
-    ::: moniker range="vs-2017"
-    From the top menu bar, choose **File** > **New** > **Project**. In the left pane of the **New project** dialog box, choose the following:
+   On the start window, choose **Create a new project**.
 
-    - For a C# app, under **Visual C#**, choose **Windows Desktop**, and then in the middle pane choose **Console App (.NET Framework)**.
-    - For a Visual Basic app, under **Visual Basic**, choose **Windows Desktop**, and then in the middle pane choose **Console App (.NET Framework)**.
-    - For a C++ app, under **Visual C++**, choose **Windows Desktop**,, and then choose **Windows Console Application**.
+   On the **Create a new project** window, enter or type *console* in the search box. Next, choose **C#**, **C++**, or **Visual Basic** from the Language list, and then choose **Windows** from the Platform list. 
 
-    Then, type a name or use the default name and click **OK**.
-    ::: moniker-end
+   After you apply the language and platform filters, choose the **Console App (.NET Core)** or, for C++, **Console App** template, and then choose **Next**.
 
-    If you don't see the **Console App** project template, go to **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer. Choose the **.NET desktop development** or **Desktop development with C++** workload, then choose **Modify**.
+   > [!NOTE]
+   > If you don't see the correct template, go to **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer. Choose the **.NET desktop development** or **Desktop development with C++** workload, then choose **Modify**.
+
+   In the **Configure your new project** window, type a name or use the default name in the **Project name** box. Then, choose **Create**.
+
+   ::: moniker-end
+   ::: moniker range="vs-2017"
+   From the top menu bar, choose **File** > **New** > **Project**. In the left pane of the **New project** dialog box, choose the following:
+
+   - For a C# app, under **Visual C#**, choose **Windows Desktop**, and then in the middle pane choose **Console App (.NET Framework)**.
+   - For a Visual Basic app, under **Visual Basic**, choose **Windows Desktop**, and then in the middle pane choose **Console App (.NET Framework)**.
+   - For a C++ app, under **Visual C++**, choose **Windows Desktop**,, and then choose **Windows Console Application**.
+
+   If you don't see the **Console App (.NET Core)** or, for C++, the **Console App** project template, go to **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer. Choose the **.NET desktop development** or **Desktop development with C++** workload, then choose **Modify**.
+
+   Then, type a name or use the default name and click **OK**.
+
+   Select **OK**.
+   ::: moniker-end
+
+   A new console project appears. After the project has been created, a source file appears.
 
 1. Open the .cpp, .cs, or .vb code file in the project. Delete its contents to create an empty code file.
 

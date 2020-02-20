@@ -2,8 +2,8 @@
 title: Visual C++ code snippets
 ms.date: 11/04/2016
 ms.topic: reference
-author: mikeblome
-ms.author: mblome
+author: corob-msft
+ms.author: corob
 manager: markl
 dev_langs:
  - CPP

@@ -105,6 +105,9 @@ Condition=" '$(Something)|$(Configuration)|$(SomethingElse)' == 'xxx|Debug|yyy' 
 </ItemGroup>
 ```
 
+> [!NOTE]
+> The `Visible` metadata is ignored by **Solution Explorer** for C++ projects. Items will always be shown even if `Visible` is set to false.
+
  Items declared in files imported into the project are not displayed by default. Items created during the build process are never displayed in **Solution Explorer**.
 
 ## Conditions on items and properties

@@ -362,6 +362,8 @@
           href: ide/reference/convert-local-function-method.md
         - name: Convert foreach loop to LINQ
           href: ide/reference/convert-foreach-linq.md
+        - name: Convert if statement to switch statement or switch expression
+          href: ide/reference/convert-if-statement-to-switch-statement-or-switch-expression.md
         - name: Convert LINQ query to foreach statement
           href: ide/reference/convert-linq-to-foreach.md
         - name: Convert switch statement to switch expression
@@ -372,6 +374,8 @@
           href: ide/reference/extract-interface.md
         - name: Extract method
           href: ide/reference/extract-method.md
+        - name: Extract local function
+          href: ide/reference/extract-local-function.md
         - name: Generate parameter
           href: ide/reference/generate-parameter.md
         - name: Inline temporary variable
@@ -384,6 +388,8 @@
           href: ide/reference/invert-if-statement.md
         - name: Static local function refactor options
           href: ide/reference/static-local-function-refactor-options.md
+        - name: Make member static
+          href: ide/reference/make-member-static.md
         - name: Move declaration near reference
           href: ide/reference/move-declaration-near-reference.md
         - name: Move type to matching file
@@ -398,6 +404,8 @@
           href: ide/reference/remove-unreachable-code.md
         - name: Rename
           href: ide/reference/rename.md
+        - name: Simplify string interpolation
+          href: ide/reference/simplify-string-interpolation.md
         - name: Sort usings
           href: ide/reference/sort-usings.md
         - name: Split or merge if statements
