@@ -466,8 +466,6 @@
             href: how-to-attach-the-profiler-to-a-dotnet-framework-app-to-collect-memory-data.md
           - name: Instrument a stand-alone .NET Framework component and collect memory data with the profiler by using the command line
             href: how-to-instrument-a-dotnet-framework-component-and-collect-memory-data.md
-        - name: "Walkthrough: Command line profiling using sampling"
-          href: walkthrough-command-line-profiling-using-sampling.md
       - name: ASP.NET Web applications
         items:
         - name: Command-line profiling of ASP.NET Web applications
