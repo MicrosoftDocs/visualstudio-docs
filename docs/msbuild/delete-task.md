@@ -35,7 +35,7 @@ The following table describes the parameters of the `Delete` task.
 In addition to the parameters listed above, this task inherits parameters from the <xref:Microsoft.Build.Tasks.TaskExtension> class, which itself inherits from the <xref:Microsoft.Build.Utilities.Task> class. For a list of these additional parameters and their descriptions, see [TaskExtension base class](../msbuild/taskextension-base-class.md).
 
 > [!WARNING]
-> Be careful when you use wildcards with the `Delete` task. You can easily delete the wrong files with expressions like `$(SomeProperty)\**\*.*` or `$(SomeProperty)/**/*.*`, especially if the property evaluates to an empty string, in which case the Files parameter can evaluate to the root of your drive and delete much more than you wanted to delete.
+> Be careful when you use wildcards with the `Delete` task. You can easily delete the wrong files with expressions like `$(SomeProperty)\**\*.*` or `$(SomeProperty)/**/*.*`, especially if the property evaluates to an empty string, in which case the `Files` parameter can evaluate to the root of your drive and delete much more than you wanted to delete.
 
 ## Example
 The following example deletes the file *MyApp.pdb*.
