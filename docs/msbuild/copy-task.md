@@ -30,7 +30,7 @@ The following table describes the parameters of the `Copy` task.
 
 |Parameter|Description|
 |---------------|-----------------|
-|`CopiedFiles`|Optional <xref:Microsoft.Build.Framework.ITaskItem>`[]` output parameter.<br /><br /> Contains the items that were successfully copied.|
+|`CopiedFiles`|Optional <xref:Microsoft.Build.Framework.ITaskItem>`[]` output parameter.<br /><br /> Contains the items that were successfully copied, *including* those that were not actually copied, but were skipped because they were already up-to-date and `SkipUnchangedFiles` was `true`.|
 |`DestinationFiles`|Optional <xref:Microsoft.Build.Framework.ITaskItem>`[]` parameter.<br /><br /> Specifies the list of files to copy the source files to. This list is expected to be a one-to-one mapping with the list specified in the `SourceFiles` parameter. That is, the first file specified in `SourceFiles` will be copied to the first location specified in `DestinationFiles`, and so forth.|
 |`DestinationFolder`|Optional <xref:Microsoft.Build.Framework.ITaskItem> parameter.<br /><br /> Specifies the directory to which you want to copy the files. This must be a directory, not a file. If the directory does not exist, it is created automatically.|
 |`OverwriteReadOnlyFiles`|Optional `Boolean` parameter.<br /><br /> Overwrite files even if they are marked as read only files|
