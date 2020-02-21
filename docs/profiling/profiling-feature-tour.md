@@ -83,7 +83,7 @@ Profiling tools like CPU Usage and Memory Usage can be used with the debugger (s
 
 Open the Performance Profiler by choosing **Debug** > **Performance Profiler**.
 
-The window will allow you to select multiple profiling tools in some scenarios. Tools such as CPU Usage may provide complementary data that you can use to help in your analysis. You can also use the [command-line profiler](../profile-apps-from-command-line.md) to enable scenarios involving multiple profiling tools.
+The window will allow you to select multiple profiling tools in some scenarios. Tools such as CPU Usage may provide complementary data that you can use to help in your analysis. You can also use the [command-line profiler](../profiling/profile-apps-from-command-line.md) to enable scenarios involving multiple profiling tools.
 
 ## Examine UI performance and accessibility events (UWP)
 
