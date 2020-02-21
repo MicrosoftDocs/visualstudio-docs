@@ -21,8 +21,8 @@ We have compiled the most used, and most useful, keyboard shortcuts into a downl
 one that shows shortcuts for Visual Studio for Mac, and a version that shows Visual Studio shorts side-by-side for users
 that have prior experience with Visual Studio when using Windows.
 
- - [Visual Studio for Mac keyboard shortcut quick ref](media/vsmac-keyboard-quick-reference.pdf)
- - [Visual Studio & Visual Studio for Mac keyboard shortcut quick ref](vs-and-vsmac-quick-reference.pdf)
+ - [Visual Studio for Mac keyboard shortcut quick ref](/mac/media/vsmac-keyboard-quick-reference.pdf)
+ - [Visual Studio & Visual Studio for Mac keyboard shortcut quick ref](/mac/media/vs-and-vsmac-quick-reference.pdf)
 
 ## Code Navigation
 
