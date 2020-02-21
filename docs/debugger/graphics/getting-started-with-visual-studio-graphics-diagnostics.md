@@ -29,11 +29,11 @@ In this section you'll prepare to use Graphics Diagnostics for the first time, t
 
 1. In Search, type **Apps and features** and then open the **Apps & features** settings.
 
-2. On the right-hand side of the **Apps & features** dialog, choose **Manage optional features** (under **Apps & features**).
+2. On the right-hand side of the **Apps & features** settings, choose **Optional features** (under **Apps & features**).
 
-   The **Manage optional features** dialog appears.
+   The **Optional features** settings appear.
 
-3. In the **Manage optional features** dialog, choose **Add a feature**. A list of optional features you can install appears.
+3. In the **Optional features** settings, choose **Add a feature**. A list of optional features you can install appears.
 
 4. Select **Graphics Tools** from the list of features, then choose **Install**.
 
