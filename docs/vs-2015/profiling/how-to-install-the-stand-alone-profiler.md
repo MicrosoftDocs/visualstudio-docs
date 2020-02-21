@@ -35,7 +35,7 @@ manager: jillfra
     > [!NOTE]
     > If the usage information for vsinstr.exe is displayed, everything is set up correctly. If you see an error that states vsinstr.exe or one of its dependencies is not found, make sure that you have your paths set up correctly as described in step 2.  
   
-4. Set up symbol server by setting your **_NT_SYMBOL_PATH** variable to **symsrv\*symsrv.dll\*c:\localcache\*http://msdl.microsoft.com/download/symbols**  
+4. Set up symbol server by setting your **_NT_SYMBOL_PATH** variable to `symsrv*symsrv.dll*c:\localcache*https://msdl.microsoft.com/download/symbols`  
   
 5. After you set up your symbol server by using the system environment variables, run the command line profiler tools at a new command prompt. This allows the new environment variables to take effect. In the command prompt window, type the following command:  
   
