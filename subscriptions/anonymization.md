@@ -3,7 +3,7 @@ title: Anonymization of Visual Studio subscriber data | Microsoft Docs
 author: evanwindom
 ms.author: lank
 manager: lank
-ms.date: 07/19/2019
+ms.date: 02/20/2020
 ms.topic: conceptual
 description:  Learn how subscriber data is anonymized when access to subscriptions is lost.
 ---
@@ -37,4 +37,10 @@ A:  There are two ways to prevent the issue:
 - Associate the AAD and MSA identities via the tenant. 
 
 ## Next steps
-Learn how to prevent anonymization by [associating MSA and AAD identities](/azure/active-directory/b2b/add-users-administrator).
+Learn how to prevent anonymization by [associating MSA and AAD identities](https://docs.microsoft.com/azure/active-directory/b2b/add-users-administrator).
+
+## See also
+- [Visual Studio documentation](https://docs.microsoft.com/visualstudio/)
+- [Azure DevOps documentation](https://docs.microsoft.com/azure/devops/)
+- [Azure documentation](https://docs.microsoft.com/azure/)
+- [Microsoft 365 documentation](https://docs.microsoft.com/microsoft-365/)
