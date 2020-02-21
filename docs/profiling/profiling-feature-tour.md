@@ -50,9 +50,9 @@ Double-click on a function that you are interested in, and you will see a more d
 
 ## Analyze memory usage
 
-The **Diagnostic Tools** window also allows you to evaluate memory usage in your app. For example, you can look at the number and size of objects on the heap. For more detailed instructions to analyze memory, see [Analyze memory usage](../profiling/memory-usage.md).
+The **Diagnostic Tools** window also allows you to evaluate memory usage in your app. For example, you can look at the number and size of objects on the heap. For more detailed instructions to analyze memory, see [Analyze memory usage](../profiling/memory-usage.md) and [Analyze memory usage using the .NET Object Allocation tool](../profiling/dotnet-alloc-tool.md).
 
-To analyze memory usage, you need to take at least one memory snapshot while you are debugging. Often, the best way to analyze memory is to take two snapshots; the first right before a suspected memory issue, and the second snapshot right after a suspected memory issue occurs. Then you can view a diff of the two snapshots and see exactly what changed.
+To analyze memory usage while debugging, you need to take at least one memory snapshot. Often, the best way to analyze memory is to take two snapshots; the first right before a suspected memory issue, and the second snapshot right after a suspected memory issue occurs. Then you can view a diff of the two snapshots and see exactly what changed.
 
 ![Take a snapshot in the Diagnostic Tools](../profiling/media/prof-tour-take-snapshots.gif "Diagnostic Tools Take Snapshots")
 
@@ -143,7 +143,13 @@ For more information, see [Network Usage](../profiling/network-usage.md).
 
 ## Analyze performance (legacy tools)
 
+::: moniker range="vs-2017"
 If you need features such as instrumentation that are not currently present in CPU Usage or Memory Usage tools, and you are running desktop or ASP.NET apps, you can use the Performance Explorer for profiling. (Not supported in UWP apps). For more info, see [Performance Explorer](../profiling/performance-explorer.md).
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+In Visual Studio 2019,  the legacy Performance Explorer and related profiling tools such as the Performance Wizard were folded into the Performance Profiler, which you can open using **Debug** > **Performance Profiler**. In the Performance Profiler, the available diagnostics tools depend on the target chosen and the current, open startup project. The CPU Usage tool provides the sampling capability previously supported in the Performance Wizard. The Instrumentation tool provides the instrumented profiling capability (for precise call counts and durations) that was in the Performance Wizard. Additional memory tools also appear in the Performance Profiler.
+::: moniker-end
 
 ![Performance Explorer tool](../profiling/media/prof-tour-performance-explorer.png "Performance Explorer")
 
@@ -156,6 +162,7 @@ Here is a table that lists the different tools Visual Studio offers and the diff
 |----------------------|---------------------|-------------|-------------|
 |[CPU Usage](../profiling/cpu-usage.md)|yes|yes|yes|
 |[Memory Usage](../profiling/memory-usage.md)|yes|yes|yes|
+|[.NET Object Allocation](../profiling/dotnet-alloc-tool.md)|yes (.NET only)|yes|yes|
 |[GPU Usage](/visualstudio/debugger/graphics/gpu-usage)|yes|yes|no|
 |[Application Timeline](../profiling/application-timeline.md)|yes|yes|no|
 |[PerfTips](../profiling/perftips.md)|yes|yes for XAML, no for HTML|yes|
