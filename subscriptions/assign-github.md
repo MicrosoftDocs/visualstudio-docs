@@ -37,27 +37,27 @@ GitHub is available as either the cloud-based GitHub.com, or on-premise GitHub E
 
 ### GitHub.com 
 For more information on managing GitHub.com please check out the following topics on [GitHub Help](https://help.github.com/en).
-- [Full list of help topics](https://help.github.com/en)
-- [Managing membership in your organization](https://help.github.com/en/articles/managing-membership-in-your-organization)
-> - [Inviting users to join your organization](https://help.github.com/en/articles/inviting-users-to-join-your-organization)
-> - [Removing users from teams/organizations](https://help.github.com/en/articles/removing-a-member-from-your-organization)
-> - [Reinstating a former member of your organization](https://help.github.com/en/articles/reinstating-a-former-member-of-your-organization)
-- [Managing access using roles](https://help.github.com/en/articles/managing-peoples-access-to-your-organization-with-roles)
-- [Organizing users into teams](https://help.github.com/en/articles/organizing-members-into-teams)
-- [Managing access to your organization's repositories](https://help.github.com/en/articles/managing-access-to-your-organizations-repositories)
++ [Full list of help topics](https://help.github.com/en)
++ [Managing membership in your organization](https://help.github.com/en/articles/managing-membership-in-your-organization)
++ [Inviting users to join your organization](https://help.github.com/en/articles/inviting-users-to-join-your-organization)
+    - [Removing users from teams/organizations](https://help.github.com/en/articles/removing-a-member-from-your-organization)
+    - [Reinstating a former member of your organization](https://help.github.com/en/articles/reinstating-a-former-member-of-your-organization)
++ [Managing access using roles](https://help.github.com/en/articles/managing-peoples-access-to-your-organization-with-roles)
++ [Organizing users into teams](https://help.github.com/en/articles/organizing-members-into-teams)
++ [Managing access to your organization's repositories](https://help.github.com/en/articles/managing-access-to-your-organizations-repositories)
 
 ### GitHub Enterprise Server
 GitHub Help provides a variety of administrator guides to answer questions and give tips on management of your organization's implementation of GitHub Enterprise Server.
 
-- [View all administrator guides](https://help.github.com/en/enterprise/2.16/admin)
-- [User Management](https://help.github.com/en/enterprise/2.16/admin/user-management)
-> - [Organizations and teams](https://help.github.com/en/enterprise/2.16/admin/user-management/organizations-and-teams)
-> > - [Creating organizations](https://help.github.com/en/enterprise/2.16/admin/user-management/creating-organizations)
-> > - [Creating teams](https://help.github.com/en/enterprise/2.16/admin/user-management/creating-teams)
-> > - [Adding people to teams](https://help.github.com/en/enterprise/2.16/admin/user-management/adding-people-to-teams)
-> > - [Removing people from teams and organizations](https://help.github.com/en/enterprise/2.16/admin/user-management/removing-users-from-teams-and-organizations)
-> - [User security](https://help.github.com/en/enterprise/2.16/admin/user-management/user-security)
-- [Installing and configuring GitHub Enterprise Server](https://help.github.com/en/enterprise/2.16/admin/installation)
++ [View all administrator guides](https://help.github.com/en/enterprise/2.16/admin)
++ [User Management](https://help.github.com/en/enterprise/2.16/admin/user-management)
+    - [Organizations and teams](https://help.github.com/en/enterprise/2.16/admin/user-management/organizations-and-teams)
+        - [Creating organizations](https://help.github.com/en/enterprise/2.16/admin/user-management/creating-organizations)
+        - [Creating teams](https://help.github.com/en/enterprise/2.16/admin/user-management/creating-teams)
+        - [Adding people to teams](https://help.github.com/en/enterprise/2.16/admin/user-management/adding-people-to-teams)
+        - [Removing people from teams and organizations](https://help.github.com/en/enterprise/2.16/admin/user-management/removing-users-from-teams-and-organizations)
+    - [User security](https://help.github.com/en/enterprise/2.16/admin/user-management/user-security)
++ [Installing and configuring GitHub Enterprise Server](https://help.github.com/en/enterprise/2.16/admin/installation)
 
 ## Support resources
 - You can find answers to questions on a wide array of GitHub topics at [GitHub Help](https://help.github.com/en).
