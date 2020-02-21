@@ -83,7 +83,7 @@ Because the Visual Studio Installer downloads files from various domains and the
 
 To make sure that you have access to everything you want when you use Visual Studio or Azure Services behind a firewall or proxy server, here are the URLs you should add to an allow list and the ports and protocols that you might want to open.
 
-| Service or scenario | DNS endpoint | Protocol/Port | Description |
+| Service or scenario | DNS endpoint | Protocol<br/>/Port | Description |
 | - | - | -: | - | - |
 | URL<br>resolution | go.microsoft.com<br><br>aka.ms | | Used to shorten URLs, which then resolve into longer URLs |
 | Start Page | vsstartpage.blob.core.windows.net | 443 | Used to display Developer News shown on the start page (Visual Studio 2017 only) |
