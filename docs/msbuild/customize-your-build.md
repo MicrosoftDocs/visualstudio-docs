@@ -217,7 +217,7 @@ The best approach depends on your scenario. If you have a dedicated build server
 > [!WARNING]
 > Visual Studio uses the custom `.targets` or `.props` files if it finds them in the MSBuild folder whenever it builds any project of the matching type. This can have unintended consequences, and if done incorrectly, can disable the ability of Visual Studio to build on your computer.
 
-### Customize all C++ builds
+## Customize all C++ builds
 
 For C++ projects, the previously mentioned custom `.targets` and `.props` files are ignored. For C++ projects, you can create `.targets` files for each platform and place them in the appropriate import folders for those platforms.
 
