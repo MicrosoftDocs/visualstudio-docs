@@ -23,9 +23,9 @@ ms.workload:
 ---
 # Debug an app that isn't part of a Visual Studio solution (C++, C#, Visual Basic, F#)
 
-You may want to debug an app (*.exe* file) that isn't part of a Visual Studio solution. It may be an [open folder](../ide/develop-code-in-visual-studio-without-projects-or-solutions) project, or you or someone else may have created the app outside of Visual Studio, or you got the app from somewhere else.
+You may want to debug an app (*.exe* file) that isn't part of a Visual Studio solution. It may be an [open folder](../ide/develop-code-in-visual-studio-without-projects-or-solutions.md) project, or you or someone else may have created the app outside of Visual Studio, or you got the app from somewhere else.
 
-- For an open folder project in Visual Studio (which has no project or solution file), see [Run and debug your code](../ide/develop-code-in-visual-studio-without-projects-or-solutions#run-and-debug-your-code) or, for C++, [Configure debugging parameters with launch.vs.json](/cpp/build/open-folder-projects-cpp#configure-debugging-parameters-with-launchvsjson).
+- For an open folder project in Visual Studio (which has no project or solution file), see [Run and debug your code](../ide/develop-code-in-visual-studio-without-projects-or-solutions.md#run-and-debug-your-code) or, for C++, [Configure debugging parameters with launch.vs.json](/cpp/build/open-folder-projects-cpp#configure-debugging-parameters-with-launchvsjson).
 
 - For an app that doesn't exist in Visual Studio, the usual way to debug is to start the app outside of Visual Studio, and then attach to it using **Attach to Process** in the Visual Studio debugger. For more information, see [Attach to running processes](../debugger/attach-to-running-processes-with-the-visual-studio-debugger.md).
 
