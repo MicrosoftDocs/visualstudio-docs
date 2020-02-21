@@ -36,7 +36,7 @@ ms.workload:
 
 - A Universal Naming Convention (UNC) path, such as *\\\ServerName\MyApplication\\*.
 
-- A URL of a web site, such as http://www.microsoft.com/MyApplication.
+- A URL of a web site, such as `http://www.contoso.com/MyApplication`.
 
   By default, the publishing location is *http://localhost/projectname/* if you have IIS installed, or the publish\ directory if you do not have IIS installed.
 
