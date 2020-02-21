@@ -2461,6 +2461,16 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "docs/ide/reference/wrap-align-indent-parameters.md",
+      "redirect_url": "/visualstudio/ide/reference/wrap-indent-align-refactorings",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/wrap-and-align-call-chains.md",
+      "redirect_url": "/visualstudio/ide/reference/wrap-indent-align-refactorings",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/csharp-ide/using-the-visual-studio-development-environment-for-csharp.md",
       "redirect_url": "/visualstudio/ide/refactoring-in-visual-studio",
       "redirect_document_id": false
