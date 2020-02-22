@@ -676,7 +676,7 @@ Each type defined in the *.natvis* file must explicitly list any UI visualizers 
 </Type>
 ```
 
- You can see an example of a `UIVisualizer` in the [Image Watch](https://marketplace.visualstudio.com/items?itemName=VisualCPPTeam.ImageWatch2017) extension used to view in-memory bitmaps.
+ You can see an example of a `UIVisualizer` in the [Image Watch](https://marketplace.visualstudio.com/search?term=%22Image%20Watch%22&target=VS&category=All%20categories&vsVersion=&sortBy=Relevance) extension used to view in-memory bitmaps.
 
 ### <a name="BKMK_CustomVisualizer"></a>CustomVisualizer element
  `CustomVisualizer` is an extensibility point that specifies a VSIX extension that you write to control visualizations in Visual Studio code. For more information about writing VSIX extensions, see the [Visual Studio SDK](../extensibility/visual-studio-sdk.md).
