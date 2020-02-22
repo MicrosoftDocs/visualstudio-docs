@@ -4881,6 +4881,11 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "docs/profiling/walkthrough-command-line-profiling-using-sampling.md",
+      "redirect_url": "/visualstudio/profiling/command-line-profiling-of-stand-alone-applications",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/profiling/analyze-cpu-usage-in-a-windows-universal-app.md",
       "redirect_url": "/visualstudio/profiling/beginners-guide-to-performance-profiling",
       "redirect_document_id": false
