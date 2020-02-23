@@ -41,7 +41,7 @@ We'll start our exploration by creating an empty solution. After you get to know
 
 ::: moniker range="vs-2017"
 
-1. Open Visual Studio.
+1. Open Visual Stud.io.
 
 1. On the top menu bar, choose **File** > **New** > **Project**.
 
@@ -252,7 +252,7 @@ If you want to check that your unit test is working, choose **Test** > **Run** >
 ![Test Explorer in Visual Studio showing passed test](media/tutorial-projects-test-explorer.png)
 
 > [!TIP]
-> If **Test Explorer** doesn't open automatically, open it by choosing **Test** > **Windows** > **Test Explorer** from the menu bar.
+> If **Test Explorer** doesn't open automatically, open it by choosing **Test** > **Test Explorer** from the menu bar.
 
 ## See also
 
