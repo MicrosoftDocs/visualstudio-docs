@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "building XBAP projects [WPF MSBuild]"
   - "UpdateManifestForBrowserApplication task [WPF MSBuild], parameters"
 ms.assetid: 653339f7-654b-4d64-a26a-5c9f27036895
-author: mikejo5000
-ms.author: mikejo
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
   - "multiple"

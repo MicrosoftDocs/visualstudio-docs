@@ -10,8 +10,8 @@ apitype: "COM"
 helpviewer_keywords:
   - "SuspendTracking"
 ms.assetid: f5e06e5a-8083-444c-99c1-07ba834226b5
-author: mikejo5000
-ms.author: mikejo
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
   - "multiple"
