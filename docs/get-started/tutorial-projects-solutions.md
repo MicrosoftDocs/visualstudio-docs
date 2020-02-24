@@ -1,6 +1,6 @@
 ---
 title: Introduction to projects and solutions
-ms.date: 07/22/2019
+ms.date: 02/24/2020
 ms.technology: vs-ide-general
 ms.custom: get-started
 ms.topic: tutorial
@@ -191,7 +191,7 @@ We're going to use the new unit test project to test our method in the **QuickDa
 
    The **Reference Manager** dialog box opens.
 
-1. In the left pane, expand **Projects** and choose **Solution**. In the middle pane, choose the checkbox next to **QuickDate**, and then choose **OK.
+1. In the left pane, expand **Projects** and choose **Solution**. In the middle pane, choose the checkbox next to **QuickDate**, and then choose **OK**.
 
    A reference to the **QuickDate** project is added.
 
@@ -251,8 +251,19 @@ If you want to check that your unit test is working, choose **Test** > **Run** >
 
 ![Test Explorer in Visual Studio showing passed test](media/tutorial-projects-test-explorer.png)
 
+::: moniker range="vs-2017"
+
+> [!TIP]
+> If **Test Explorer** doesn't open automatically, open it by choosing **Test** > **Windows** > **Test Explorer** from the menu bar.
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
 > [!TIP]
 > If **Test Explorer** doesn't open automatically, open it by choosing **Test** > **Test Explorer** from the menu bar.
+
+::: moniker-end
 
 ## See also
 
