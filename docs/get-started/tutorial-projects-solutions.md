@@ -41,7 +41,7 @@ We'll start our exploration by creating an empty solution. After you get to know
 
 ::: moniker range="vs-2017"
 
-1. Open Visual Stud.io.
+1. Open Visual Studio.
 
 1. On the top menu bar, choose **File** > **New** > **Project**.
 
