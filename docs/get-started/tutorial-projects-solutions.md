@@ -252,7 +252,7 @@ If you want to check that your unit test is working, choose **Test** > **Run** >
 ![Test Explorer in Visual Studio showing passed test](media/tutorial-projects-test-explorer.png)
 
 > [!TIP]
-> If **Test Explorer** doesn't open automatically, open it by choosing **Test** > **Windows** > **Test Explorer** from the menu bar.
+> If **Test Explorer** doesn't open automatically, open it by choosing **Test** > **Test Explorer** from the menu bar.
 
 ## See also
 
