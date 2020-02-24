@@ -20,8 +20,8 @@ helpviewer_keywords:
   - "MSBuild (C++), LIB task"
   - "LIB task (MSBuild (C++))"
 ms.assetid: e062c7f9-cc69-4a83-9361-1bb5355e5fe8
-author: mikejo5000
-ms.author: mikejo
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
   - "multiple"

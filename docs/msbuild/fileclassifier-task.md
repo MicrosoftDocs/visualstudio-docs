@@ -12,8 +12,8 @@ helpviewer_keywords:
   - "non-localizable resources [WPF MSBuild], classifying to embed in an assembly"
   - "FileClassifier task [WPF MSBuild]"
 ms.assetid: 14e03310-fcc0-4bb2-a84d-cda12be66367
-author: mikejo5000
-ms.author: mikejo
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
   - "multiple"

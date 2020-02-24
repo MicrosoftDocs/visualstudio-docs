@@ -10,8 +10,8 @@ apitype: "COM"
 helpviewer_keywords:
   - "WriteContextTLogs"
 ms.assetid: ffc6c7be-3f22-4624-9ffc-0122fe72b6ec
-author: mikejo5000
-ms.author: mikejo
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
   - "multiple"

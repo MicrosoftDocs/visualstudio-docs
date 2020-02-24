@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "MSBuild, forwarding loggers"
   - "MSBuild, logging"
 ms.assetid: 3aebf9c8-b62c-4cb2-b2d6-8cdfcd369a24
-author: mikejo5000
-ms.author: mikejo
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
   - "multiple"
