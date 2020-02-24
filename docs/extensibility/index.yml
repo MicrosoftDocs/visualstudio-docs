@@ -22,7 +22,7 @@ landingContent:
     linkLists:
       - linkListType: get-started
         links:
-          - text: Install Visual Studio SDK
+          - text: Install the Visual Studio SDK
             url: /visualstudio/extensibility/installing-the-visual-studio-sdk/
       - linkListType: overview
         links:
@@ -30,7 +30,7 @@ landingContent:
             url: https://devblogs.microsoft.com/visualstudio/getting-started-writing-visual-studio-extensions
       - linkListType: tutorial
         links:
-          - text: Create your first extension Hello World
+          - text: "Create your first extension: Hello World"
             url: /visualstudio/extensibility/extensibility-hello-world
 
   # Card
@@ -54,11 +54,11 @@ landingContent:
     linkLists:
       - linkListType: sample
         links:
-          - text: Visual Studio SDK samples
+          - text: Visual Studio Extensibility samples
             url: https://github.com/Microsoft/VSSDK-Extensibility-Samples
       - linkListType: learn
         links:
-          - text: Microsoft/extendVS Gitter
+          - text: ExtendVS Gitter community
             url: https://gitter.im/Microsoft/extendvs
           - text: Extensibility on Visual Studio Blog
             url: https://devblogs.microsoft.com/visualstudio/tag/extensions/
@@ -80,7 +80,7 @@ landingContent:
     linkLists:
       - linkListType: whats-new
         links:
-          - text: What's New Visual Studio 2019 SDK
+          - text: Visual Studio 2019 SDK
             url: /visualstudio/extensibility/whats-new-visual-studio-2019-sdk
-          - text: What's New Visual Studio 2017 SDK
-            url: /visualstudio/extensibility/whats-new-visual-studio-2017-sdk
+          - text: Visual Studio 2017 SDK
+            url: /visualstudio/extensibility/what-s-new-in-the-visual-studio-2017-sdk
