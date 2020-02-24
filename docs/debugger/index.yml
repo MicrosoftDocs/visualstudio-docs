@@ -82,8 +82,8 @@ landingContent:
             url: debug-live-azure-applications.md
           - text: Tell the debugger what to show
             url: using-the-debuggerdisplay-attribute.md
-          - text: Remote debugging
-            url: remote-debugging.md
+          - text: Debug performance issues >>
+            url: ../profiling/profiling-feature-tour.md
     # Card
   - title: Collaborate
     linkLists:
