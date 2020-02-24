@@ -5,7 +5,7 @@ summary: Learn about Visual Studio extensibility.
 
 metadata:
   title: Visual Studio Extensibility
-  description: Learn about Visual Studio IDE extensibility.
+  description: Learn how to extend Visual Studio.
   ms.topic: landing-page
   ms.date: 02/24/2020
   author: madskristensen
@@ -30,11 +30,11 @@ landingContent:
             url: https://devblogs.microsoft.com/visualstudio/getting-started-writing-visual-studio-extensions
       - linkListType: tutorial
         links:
-          - text: Create your first extension
+          - text: Create your first extension Hello World
             url: /visualstudio/extensibility/extensibility-hello-world
 
   # Card
-  - title: How to extend
+  - title: Extend
     linkLists:
       - linkListType: how-to-guide
         links:
@@ -56,23 +56,31 @@ landingContent:
         links:
           - text: Visual Studio SDK samples
             url: https://github.com/Microsoft/VSSDK-Extensibility-Samples
-      - linkListType: quickstart
+      - linkListType: learn
         links:
           - text: Microsoft/extendVS Gitter
             url: https://gitter.im/Microsoft/extendvs
-      - linkListType: quickstart
-        links:
           - text: Extensibility on Visual Studio Blog
             url: https://devblogs.microsoft.com/visualstudio/tag/extensions/
 
   # Card
   - title: Ship extensions
     linkLists:
-      - linkListType: tutorial
+      - linkListType: how-to-guide
         links:
-          - text: How to publish an extension
+          - text: Publish an extension
             url: /visualstudio/extensibility/walkthrough-publishing-a-visual-studio-extension
           - text: Command line publishing
             url: /visualstudio/extensibility/walkthrough-publishing-a-visual-studio-extension-via-command-line
           - text: Private galleries
             url: https://devblogs.microsoft.com/visualstudio/create-a-private-gallery-for-self-hosted-visual-studio-extensions
+
+  # Card
+  - title: Discover what's new
+    linkLists:
+      - linkListType: whats-new
+        links:
+          - text: What's New Visual Studio 2019 SDK
+            url: /visualstudio/extensibility/whats-new-visual-studio-2019-sdk
+          - text: What's New Visual Studio 2017 SDK
+            url: /visualstudio/extensibility/whats-new-visual-studio-2017-sdk
