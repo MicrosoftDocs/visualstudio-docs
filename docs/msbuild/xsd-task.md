@@ -22,12 +22,14 @@ ms.workload:
 - multiple
 ---
 # XSD task
+
 Wraps the XML Schema Definition tool (*xsd.exe*), which generates schema or class files from a source.
 
 > [!NOTE]
 > Starting in Visual Studio 2017, C++ project support for *xsd.exe* is deprecated. You can still use the **Microsoft.VisualC.CppCodeProvider** APIs by manually adding *CppCodeProvider.dll* to the GAC.
 
 ## Parameters
+
  The following table describes the parameters of the **XSD** task.
 
 - **AdditionalOptions**
@@ -81,4 +83,5 @@ Wraps the XML Schema Definition tool (*xsd.exe*), which generates schema or clas
      Specifies the directory for the tracker log.
 
 ## See also
+
 - [Task reference](../msbuild/msbuild-task-reference.md)

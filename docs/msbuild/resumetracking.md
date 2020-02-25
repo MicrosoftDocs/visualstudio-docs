@@ -17,6 +17,7 @@ ms.workload:
   - "multiple"
 ---
 # ResumeTracking
+
 Resumes tracking in the current context.
 
 ## Syntax
@@ -26,10 +27,13 @@ HRESULT WINAPI ResumeTracking();
 ```
 
 ## Return value
+
  An **HRESULT** with the **SUCCEEDED** bit set if tracking was resumed. **E_FAIL** is returned if tracking cannot be resumed because the context was not available.
 
 ## Requirements
+
  **Header:** *FileTracker.h*
 
 ## See also
+
 - [SuspendTracking](../msbuild/suspendtracking.md)
