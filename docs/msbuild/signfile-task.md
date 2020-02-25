@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "MSBuild, SignFile task"
   - "SignFile task [MSBuild]"
 ms.assetid: edef1819-ddeb-4e09-95de-fc7063ba9388
-author: mikejo5000
-ms.author: mikejo
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
   - "multiple"

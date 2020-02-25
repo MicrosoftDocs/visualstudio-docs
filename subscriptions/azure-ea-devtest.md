@@ -35,6 +35,12 @@ Each subscriber on the account can create a subscription by following these step
 0. Click the check box to acknowledge that the subscription is governed by the Enterprise Agreement. 
 0. Click **Purchase**.  (With this offer, you're not actually purchasing anything.)
 
+## See also
+- [Visual Studio documentation](https://docs.microsoft.com/visualstudio/)
+- [Azure DevOps documentation](https://docs.microsoft.com/azure/devops/)
+- [Azure documentation](https://docs.microsoft.com/azure/)
+- [Microsoft 365 documentation](https://docs.microsoft.com/microsoft-365/)
+
 ## Next steps
 Learn more about managing Visual Studio subscriptions.
 - [Assign individual subscriptions](assign-license.md)
@@ -43,9 +49,5 @@ Learn more about managing Visual Studio subscriptions.
 - [Delete subscriptions](delete-license.md)
 - [Determine maximum usage](maximum-usage.md)
 
-## See also
-- [Visual Studio documentation](https://docs.microsoft.com/visualstudio/)
-- [Azure DevOps documentation](https://docs.microsoft.com/azure/devops/)
-- [Azure documentation](https://docs.microsoft.com/azure/)
-- [Microsoft 365 documentation](https://docs.microsoft.com/microsoft-365/)
+
 

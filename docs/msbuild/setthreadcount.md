@@ -10,8 +10,8 @@ apitype: "COM"
 helpviewer_keywords:
   - "SetThreadCount"
 ms.assetid: 335335a5-8ca0-4e18-95f5-62aa6a691386
-author: mikejo5000
-ms.author: mikejo
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
   - "multiple"

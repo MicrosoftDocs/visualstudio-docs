@@ -8,8 +8,8 @@ dev_langs:
   - "CSharp"
   - "VB"
 ms.assetid: 0ba5ed7a-9aaa-41f4-95d2-e3c2d567bc79
-author: TerryGLee
-ms.author: tglee
+author: ornellaalt
+ms.author: ornella
 manager: jillfra
 ms.workload:
   - "multiple"

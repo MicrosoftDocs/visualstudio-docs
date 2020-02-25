@@ -1,6 +1,6 @@
 ---
 title: Introduction to projects and solutions
-ms.date: 07/22/2019
+ms.date: 02/24/2020
 ms.technology: vs-ide-general
 ms.custom: get-started
 ms.topic: tutorial
@@ -86,7 +86,7 @@ Now let's add our first project to the solution. We'll start with an empty proje
    A project named QuickDate appears beneath the solution in **Solution Explorer**. Currently it contains a single file called *App.config*.
 
    > [!NOTE]
-   > If you don't see **Visual C#** in the left pane of the dialog box, you need to install the **.NET desktop development** Visual Studio *workload*. Visual Studio uses workload-based installation to only install the components you need for the type of development you do. An easy way to install a new workload is to choose the **Open Visual Studio Installer** link in the bottom left corner of the **Add New Project** dialog box. After Visual Studio Installer launches, choose the **.NET desktop development** workload and then the **Modify** button.
+   > If you don't see **Visual C#** in the left pane of the dialog box, you must install the **.NET desktop development** Visual Studio workload. Visual Studio uses workload-based installation to install only the components you need for the type of development you do. An easy way to install a new workload is to choose the **Open Visual Studio Installer** link in the bottom left corner of the **Add New Project** dialog box. After Visual Studio Installer launches, choose the **.NET desktop development** workload and then the **Modify** button.
    >
    > ![Open Visual Studio Installer link](media/tutorial-projects-open-installer.png)
 
@@ -107,7 +107,7 @@ Now let's add our first project to the solution. We'll start with an empty proje
    A project named QuickDate appears beneath the solution in **Solution Explorer**. Currently it contains a single file called *App.config*.
 
    > [!NOTE]
-   > If you don't see the **Empty Project (.NET Framework)** template, you need to install the **.NET desktop development** Visual Studio *workload*. Visual Studio uses workload-based installation to only install the components you need for the type of development you do. An easy way to install a new workload when you're creating a new project is to choose the **Install more tools and features** link under the text that says **Not finding what you're looking for?**. After Visual Studio Installer launches, choose the **.NET desktop development** workload and then the **Modify** button.
+   > If you don't see the **Empty Project (.NET Framework)** template, you must install the **.NET desktop development** Visual Studio workload. Visual Studio uses workload-based installation to install only the components you need for the type of development you do. An easy way to install a new workload when you're creating a new project is to choose the **Install more tools and features** link under the text that says **Not finding what you're looking for?**. After Visual Studio Installer launches, choose the **.NET desktop development** workload and then the **Modify** button.
    >
    > ![Open Visual Studio Installer link](media/vs-2019/tutorial-projects-open-installer.png)
 
@@ -121,7 +121,7 @@ We have an empty project. Let's add a code file.
 
    The **Add New Item** dialog box opens.
 
-1. Expand **Visual C# Items**, then choose **Code**. In the middle pane choose the **Class** item template. Name the class **Calendar**, and then choose the **Add** button.
+1. Expand **Visual C# Items**, then choose **Code**. In the middle pane, choose the **Class** item template. Name the class **Calendar**, and then choose the **Add** button.
 
    A file named *Calendar.cs* is added to the project. The *.cs* on the end is the file extension that is given to C# code files. The file appears in the visual project hierarchy in **Solution Explorer**, and its contents are opened in the editor.
 
@@ -191,7 +191,7 @@ We're going to use the new unit test project to test our method in the **QuickDa
 
    The **Reference Manager** dialog box opens.
 
-1. In the left pane, expand **Projects** and choose **Solution**. In the middle pane, choose the checkbox next to **QuickDate**, and then choose **OK.
+1. In the left pane, expand **Projects** and choose **Solution**. In the middle pane, choose the checkbox next to **QuickDate**, and then choose **OK**.
 
    A reference to the **QuickDate** project is added.
 
@@ -251,8 +251,19 @@ If you want to check that your unit test is working, choose **Test** > **Run** >
 
 ![Test Explorer in Visual Studio showing passed test](media/tutorial-projects-test-explorer.png)
 
+::: moniker range="vs-2017"
+
+> [!TIP]
+> If **Test Explorer** doesn't open automatically, open it by choosing **Test** > **Windows** > **Test Explorer** from the menu bar.
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
 > [!TIP]
 > If **Test Explorer** doesn't open automatically, open it by choosing **Test** > **Test Explorer** from the menu bar.
+
+::: moniker-end
 
 ## See also
 
