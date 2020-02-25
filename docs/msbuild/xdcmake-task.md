@@ -14,8 +14,8 @@ helpviewer_keywords:
   - "XDCMake task (MSBuild (C++))"
   - "MSBuild (C++), XDCMake task"
 ms.assetid: a7de9c64-903a-4a02-85f3-f37672270f25
-author: mikejo5000
-ms.author: mikejo
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
   - "multiple"

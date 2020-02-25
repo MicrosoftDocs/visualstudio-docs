@@ -8,8 +8,8 @@ dev_langs:
   - "C++"
   - "jsharp"
 ms.assetid: 178ef49c-5dee-405b-a14b-a37f41dc0609
-author: mikejo5000
-ms.author: mikejo
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
   - "multiple"

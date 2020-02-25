@@ -77,13 +77,13 @@ When debugging code that was decompiled from an assembly that was compiled using
 - Local variables may not have accurate names.
 - Some variables may not be available for evaluation.
 
-More details can be found in the GitHub issue: [IChsarpCompiler.Decompiler integration into VS Debugger](https://github.com/icsharpcode/ILSpy/issues/1901).
+More details can be found in the GitHub issue: [ICSharpCode.Decompiler integration into VS Debugger](https://github.com/icsharpcode/ILSpy/issues/1901).
 
 ### Decompilation reliability
 
 A relatively small percentage of decompilation attempts may result in failure. This is due to a sequence point null-reference error in ILSpy.  We have mitigated the failure by catching these issues and gracefully failing the decompilation attempt.
 
-More details can be found in the GitHub issue: [IChsarpCompiler.Decompiler integration into VS Debugger](https://github.com/icsharpcode/ILSpy/issues/1901).
+More details can be found in the GitHub issue: [ICSharpCode.Decompiler integration into VS Debugger](https://github.com/icsharpcode/ILSpy/issues/1901).
 
 ### Limitations with async code
 
