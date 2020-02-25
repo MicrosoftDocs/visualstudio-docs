@@ -92,7 +92,7 @@ The Visual Studio debugger loads *.natvis* files in C++ projects automatically, 
 
 A VSIX package can install and register *.natvis* files. No matter where are they installed, all registered *.natvis* files are automatically picked up during debugging.
 
-1. Include the *.natvis* file in the VSIX package. For example in a project file:
+1. Include the *.natvis* file in the VSIX package. For example, for the following project file:
    ```xml
    <?xml version="1.0" encoding="utf-8"?>
    <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="14.0">
