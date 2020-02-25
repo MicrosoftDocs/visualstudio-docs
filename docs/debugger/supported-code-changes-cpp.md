@@ -28,9 +28,9 @@ Edit and Continue for C++ projects handles most types of code changes. However, 
 
 ## <a name="BKMK_Requirements"></a> Requirements
 ### Build settings (Project > Properties):
-  1. _C/C++ > General > Debug Information Format:_ Program Database for Edit and Continue (`/ZI`)
-  2. _C/C++ > Code Generation > Enable Minimal Rebuild:_ Yes (`/Gm`)
-  3. _Linker > General > Enable Incremental Linking:_ Yes (`/INCREMENTAL`)
+  1. **C/C++ > General > Debug Information Format**: Program Database for Edit and Continue (`/ZI`)
+  2. **C/C++ > Code Generation > Enable Minimal Rebuild**: Yes (`/Gm`)
+  3. **Linker > General > Enable Incremental Linking**: Yes (`/INCREMENTAL`)
 
      Any incompatible linker settings (such as `/SAFESEH`, or `/OPT:`...) should cause warning _LNK4075_ during build.  
      Example: `LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/OPT:ICF' specification`
@@ -38,7 +38,7 @@ Edit and Continue for C++ projects handles most types of code changes. However, 
 ### Debugger settings (Debug > Options > General):
   1. Enable Native Edit and Continue
 
-     Any incompatible compiler or linker settings will cause an error during Edit and Continue.  
+     Any incompatible compiler or linker settings cause an error during Edit and Continue.  
      Example: `Edit and Continue : error  : ‘file.cpp’ in ‘MyApp.exe’ was not compiled with Edit and Continue enabled. Ensure that the file is compiled with the Program Database for Edit and Continue (/ZI) option.`
 
 ## <a name="BKMK_Unsupported_changes"></a> Unsupported changes
@@ -66,9 +66,9 @@ Edit and Continue for C++ projects handles most types of code changes. However, 
 
 - Changes to code that has no object file.
 
-* Modifying lambdas which...
+* Modifying lambdas which:
   - Have a static or global member.
-  - Are passed to a std::function. This will cause a genuine ODR violation and results in C1092.
+  - Are passed to a std::function. This causes a genuine ODR violation and results in C1092.
 
 - Edit and Continue does not update static libraries. If you make a change in a static library, execution continues with the old version and no warning is issued.
 
@@ -99,7 +99,7 @@ Edit and Continue for C++ projects handles most types of code changes. However, 
 
 - Debugging an old version of your code after a new version failed to build because of build errors.
 
-- Using a custom compiler (*cl.exe*) path. For security reasons, for recompilation of a file during Edit and Continue, Visual Studio will always use the installed compiler. If you are using a custom compiler path (for example, through a custom `$(ExecutablePath)` variable in your `*.props` file), a warning will be displayed and Visual Studio will fall back to using the installed compiler of the same version/architecture.
+- Using a custom compiler (*cl.exe*) path. For security reasons, for recompilation of a file during Edit and Continue, Visual Studio always uses the installed compiler. If you are using a custom compiler path (for example, through a custom `$(ExecutablePath)` variable in your `*.props` file), a warning is displayed and Visual Studio falls back to using the installed compiler of the same version/architecture.
 
 - FASTBuild build system. FASTBuild is currently not compatible with the “Enable Minimal Rebuild (`/Gm`)” compiler switch and so Edit and Continue is not supported.
 
@@ -155,7 +155,7 @@ Edit and Continue for C++ projects handles most types of code changes. However, 
  2. Run the following command:  
      `VsRegEdit.exe set “C:\Program Files (x86)\Microsoft Visual Studio\[Version]\[YOUR EDITION]” HKCU Debugger NativeEncDiagnosticLoggingLevel DWORD 1`
 
- Setting this value (at the start of a debug session) will cause the various components of Edit and Continue to spew verbose logging to the _Output Window_ > Debug pane.
+ Setting this value at the start of a debug session causes the various components of Edit and Continue to spew verbose logging to the **Output Window** > **Debug** pane.
 
 ## See also
 - [Edit and Continue (C++)](../debugger/edit-and-continue-visual-cpp.md)
