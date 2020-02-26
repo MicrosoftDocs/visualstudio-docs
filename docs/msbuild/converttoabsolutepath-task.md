@@ -20,9 +20,11 @@ ms.workload:
 - multiple
 ---
 # ConvertToAbsolutePath task
+
 Converts a relative path, or reference, into an absolute path.
 
 ## Task parameters
+
  The following table describes the parameters of the `ConvertToAbsolutePath` task.
 
 |Parameter|Description|
@@ -31,8 +33,10 @@ Converts a relative path, or reference, into an absolute path.
 |`AbsolutePaths`|Optional <xref:Microsoft.Build.Framework.ITaskItem>`[]` output parameter.<br /><br /> The list of absolute paths for the items that were passed in.|
 
 ## Remarks
+
  In addition to the parameters listed above, this task inherits parameters from the <xref:Microsoft.Build.Tasks.TaskExtension> class, which itself inherits from the <xref:Microsoft.Build.Utilities.Task> class. For a list of these additional parameters and their descriptions, see [TaskExtension base class](../msbuild/taskextension-base-class.md).
 
 ## See also
+
 - [Tasks](../msbuild/msbuild-tasks.md)
 - [Task reference](../msbuild/msbuild-task-reference.md)
