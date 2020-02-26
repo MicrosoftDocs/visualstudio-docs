@@ -26,9 +26,11 @@ ms.workload:
 - multiple
 ---
 # MT task
+
 Wraps the Microsoft Manifest Tool, *mt.exe*. For more information, see [Mt.exe](/windows/desktop/SbsCs/mt-exe).
 
 ## Parameters
+
  The following table describes the parameters of the **MT** task. Most task parameters, and a few sets of parameters, correspond to a command-line option.
 
 > [!NOTE]
@@ -63,4 +65,5 @@ Wraps the Microsoft Manifest Tool, *mt.exe*. For more information, see [Mt.exe](
 |**VerboseOutput**|Optional `Boolean` parameter.<br /><br /> If `true`, displays verbose debugging information.<br /><br /> For more information, see the **/verbose** option in [Mt.exe](/windows/desktop/SbsCs/mt-exe).|
 
 ## See also
+
 - [Task reference](../msbuild/msbuild-task-reference.md)

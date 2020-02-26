@@ -23,9 +23,11 @@ ms.workload:
 - multiple
 ---
 # Copy task
+
 Copies files to a new location in the file system.
 
 ## Parameters
+
 The following table describes the parameters of the `Copy` task.
 
 |Parameter|Description|
@@ -41,6 +43,7 @@ The following table describes the parameters of the `Copy` task.
 |`UseHardlinksIfPossible`|Optional `Boolean` parameter.<br /><br /> If `true`, creates Hard Links for the copied files instead of copying the files.|
 
 ## Warnings
+
 Warnings are logged, including:
 
 - `Copy.DestinationIsDirectory`
@@ -60,11 +63,13 @@ Warnings are logged, including:
 - `Copy.RemovingReadOnlyAttribute`
 
 ## Remarks
+
 Either the `DestinationFolder` or the `DestinationFiles` parameter must be specified, but not both. If both are specified, the task fails and an error is logged.
 
 In addition to the parameters listed above, this task inherits parameters from the <xref:Microsoft.Build.Tasks.TaskExtension> class, which itself inherits from the <xref:Microsoft.Build.Utilities.Task> class. For a list of these additional parameters and their descriptions, see [TaskExtension base class](../msbuild/taskextension-base-class.md).
 
 ## Example
+
 The following example copies the items in the `MySourceFiles` item collection into the folder *c:\MyProject\Destination*.
 
 ```xml
@@ -85,6 +90,7 @@ The following example copies the items in the `MySourceFiles` item collection in
 ```
 
 ## Example
+
 The following example demonstrates how to do a recursive copy. This project copies all of the files recursively from *c:\MySourceTree* into *c:\MyDestinationTree*, while maintaining the directory structure.
 
 ```xml
@@ -105,5 +111,6 @@ The following example demonstrates how to do a recursive copy. This project copi
 ```
 
 ## See also
+
 - [Tasks](../msbuild/msbuild-tasks.md)
 - [Task reference](../msbuild/msbuild-task-reference.md)
