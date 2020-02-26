@@ -13,8 +13,6 @@ The Subscriptions Administration Portal lets you add users one-at-a-time, or in 
 
 To add large groups of users, you can use the bulk add feature, or if your organization is using Azure Active Directory, you can use Azure Active Directory groups. This article will explain the process for both options. 
 
-> [!NOTE]
-> We will be deploying this feature to customers with trusted agreements in phases over the next few months, so watch for it to be enabled for your agreements soon.  
 
 ## Use Bulk add to assign subscriptions
 1. Sign into the Visual Studio Subscriptions Administration Portal at https://manage.visualstudio.com.
@@ -57,7 +55,10 @@ To add large groups of users, you can use the bulk add feature, or if your organ
    > ![Confirmation message if the upload of multiple subscribers succeeds](media/bulk-add-template-success.png)
 
 ## Use Azure Active Directory groups to assign subscriptions 
-Using this feature makes it easy to stay on top of your subscription assignments. You can add Azure Active Directory Security Groups in the Subscriptions Administration Portal which will ensure that all individuals in the group are assigned a subscription. And to make it easier, when individuals leave your organization and are removed from Azure Active Directory, their access to subscriptions is also removed. 
+Using this feature makes it easy to stay on top of your subscription assignments. You can add Azure Active Directory Security Groups in the Subscriptions Administration Portal which will ensure that all individuals in the group are assigned a subscription. And to make it easier, when individuals leave your organization and are removed from Azure Active Directory, their access to subscriptions is also removed.
+
+> [!NOTE]
+> We will be deploying this feature to customers with trusted agreements in phases over the next few months, so watch for it to be enabled for your agreements soon.  
 
 > [!IMPORTANT]
 > The following limitations apply to the use of AAD groups for adding subscribers:
