@@ -189,7 +189,7 @@ When maintaining a build server, you might need to configure MSBuild settings gl
 
 To affect all C# or Visual Basic builds governed by an installation of MSBuild or Visual Studio, create a file *Custom.Before.Microsoft.Common.Targets* or *Custom.After.Microsoft.Common.Targets* with targets that will run before or after *Microsoft.Common.targets*, or a file *Custom.Before.Microsoft.Common.Props* or *Custom.After.Microsoft.Common.Props* with properties that will be processed before or after *Microsoft.Common.props*.
 
-You can place the files in the *%Program Files%\MSBuild\v{version}* folder, or you can specify the locations of these files by using the following MSBuild properties:
+You can specify the locations of these files by using the following MSBuild properties:
 
 - CustomBeforeMicrosoftCommonProps
 - CustomBeforeMicrosoftCommonTargets
@@ -204,11 +204,9 @@ You can place the files in the *%Program Files%\MSBuild\v{version}* folder, or y
 - CustomAfterMicrosoftCSharpTargets
 - CustomAfterMicrosoftVisualBasicTargets
 
-The *Common* versions of these properties affect both C# and Visual Basic projects.
+The *Common* versions of these properties affect both C# and Visual Basic projects. You can set these properties in the MSBuild command line.
 
-You can set these properties in the MSBuild command line.
-
-```
+```cmd
 msbuild /p:CustomBeforeMicrosoftCommonTargets="C:\build\config\Custom.Before.Microsoft.Common.Targets" MyProject.csproj
 ```
 
@@ -245,7 +243,7 @@ Once you place the `.targets` file in the appropriate folder according to the pl
 
 For custom `.targets` that you want to include for a specific build of a C++ project, set one or both of the properties `ForceImportBeforeCppTargets` and `ForceImportAfterCppTargets` on the command line.
 
-```
+```cmd
 msbuild /p:ForceImportBeforeCppTargets="C:\build\config\Custom.Before.Microsoft.Cpp.Targets" MyCppProject.vcxproj
 ```
 
