@@ -17,6 +17,7 @@ ms.workload:
   - "multiple"
 ---
 # SetThreadCount
+
 Sets the global thread count, and assigns that count to the current thread.
 
 ## Syntax
@@ -26,12 +27,15 @@ HRESULT WINAPI SetThreadCount(int threadCount);
 ```
 
 #### Parameters
+
 [in] `threadCount`
 
  The number of threads to use.
 
 ## Return value
+
  An **HRESULT** with the **SUCCEEDED** bit set if the thread count was updated.
 
 ## Requirements
+
  **Header:** *FileTracker.h*

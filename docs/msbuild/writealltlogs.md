@@ -17,6 +17,7 @@ ms.workload:
   - "multiple"
 ---
 # WriteAllTLogs
+
 Writes tracking logs for all threads and contexts.
 
 ## Syntax
@@ -26,6 +27,7 @@ HRESULT WINAPI WriteAllTLogs(LPCTSTR intermediateDirectory, LPCTSTR tlogRootName
 ```
 
 #### Parameters
+
 [in] `intermediateDirectory`
 
  The directory in which to store the tracking log.
@@ -35,10 +37,13 @@ HRESULT WINAPI WriteAllTLogs(LPCTSTR intermediateDirectory, LPCTSTR tlogRootName
  The root name of the log file name.
 
 ## Return value
+
  An **HRESULT** with the **SUCCEEDED** bit set if the tracking context was created.
 
 ## Requirements
+
  **Header:** *FileTracker.h*
 
 ## See also
+
 - [WriteContextTLogs](../msbuild/writecontexttlogs.md)

@@ -15,9 +15,11 @@ ms.workload:
 - multiple
 ---
 # AssignTargetPath task
+
 This task accepts a list of files and adds `<TargetPath>` attributes if they are not already specified.
 
 ## Task parameters
+
 The following table describes the parameters of the `AssignTargetPath` task.
 
 |Parameter|Description|
@@ -27,9 +29,11 @@ The following table describes the parameters of the `AssignTargetPath` task.
 |`AssignedFiles`|Optional<br /><br /> <xref:Microsoft.Build.Framework.ITaskItem> `[]` output parameter.<br /><br /> Contains the resulting list of files.|
 
 ## Remarks
+
 In addition to the parameters listed above, this task inherits parameters from the <xref:Microsoft.Build.Tasks.TaskExtension> class, which itself inherits from the <xref:Microsoft.Build.Utilities.Task> class. For a list of these additional parameters and their descriptions, see [TaskExtension base class](../msbuild/taskextension-base-class.md).
 
 ## Example
+
 The following example executes the `AssignTargetPath` task to configure a project.
 
 ```xml
@@ -46,5 +50,6 @@ RootFolder="Resources"
 ```
 
 ## See also
+
 - [Tasks](../msbuild/msbuild-tasks.md)
 - [Task reference](../msbuild/msbuild-task-reference.md)

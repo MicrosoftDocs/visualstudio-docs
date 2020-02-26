@@ -20,7 +20,8 @@ ms.workload:
 - multiple
 ---
 # ProjectExtensions element (MSBuild)
-Allows [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] project files to contain non-[!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] information. Anything inside of a `ProjectExtensions` element will be ignored by [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)].
+
+Allows MSBuild project files to contain non-MSBuild information. Anything inside of a `ProjectExtensions` element will be ignored by MSBuild.
 
  \<Project>
  \<ProjectExtensions>
@@ -34,24 +35,29 @@ Allows [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_
 ```
 
 ## Attributes and elements
+
  The following sections describe attributes, child elements, and parent elements.
 
 ### Attributes
+
  None
 
 ### Child elements
+
  None
 
 ### Parent elements
 
 | Element | Description |
 | - | - |
-| [Project](../msbuild/project-element-msbuild.md) | Required root element of an [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] project file. |
+| [Project](../msbuild/project-element-msbuild.md) | Required root element of an MSBuild project file. |
 
 ## Remarks
- Only one `ProjectExtensions` element may be used in an [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] project.
+
+ Only one `ProjectExtensions` element may be used in an MSBuild project.
 
 ## Example
+
  The following code example shows information from the integrated development environment being stored in a `ProjectExtensions` element.
 
 ```xml
@@ -67,5 +73,6 @@ Allows [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_
 ```
 
 ## See also
+
 - [Project file schema reference](../msbuild/msbuild-project-file-schema-reference.md)
 - [MSBuild](../msbuild/msbuild.md)

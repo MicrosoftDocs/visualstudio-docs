@@ -12,6 +12,7 @@ ms.workload:
 - multiple
 ---
 # Walkthrough: Create an MSBuild project file from scratch
+
 Programming languages that target the .NET Framework use MSBuild project files to describe and control the application build process. When you use Visual Studio to create an MSBuild project file, the appropriate XML is added to the file automatically. However, you may find it helpful to understand how the XML is organized and how you can change it to control a build.
 
  For information about creating a project file for a C++ project, see [MSBuild (C++)](/cpp/build/msbuild-visual-cpp).
@@ -41,6 +42,7 @@ This walkthrough shows how to build the project at the command prompt and examin
 To complete the walkthrough, you must have the .NET Framework (version 2.0, 3.5, 4.0, 4.5, or later) installed because it includes MSBuild and the Visual C# compiler, which are required for the walkthrough.
 
 ## Create a minimal application
+
  This section shows how to create a minimal C# application source file by using a text editor.
 
 1. At the command prompt, browse to the folder where you want to create the application, for example, *\My Documents\\* or *\Desktop\\*.
@@ -78,6 +80,7 @@ To complete the walkthrough, you must have the .NET Framework (version 2.0, 3.5,
 8. Delete the application by typing **del helloworld.exe** at the command prompt.
 
 ## Create a minimal MSBuild project file
+
  Now that you have a minimal application source file, you can create a minimal project file to build the application. This project file contains the following elements:
 
 - The required root `Project` node.
@@ -159,6 +162,7 @@ At the command prompt, type **set PATH=%PATH%;%ProgramFiles%\MSBuild** or **set 
 Alternatively, if you have Visual Studio installed, you can use the **Developer Command Prompt for Visual Studio**, which has a path that includes the *MSBuild* folder.
 
 ## Build the application
+
  Now, to build the application, use the project file that you just created.
 
 1. At the command prompt, type **msbuild helloworld.csproj -t:Build**.
@@ -175,6 +179,7 @@ Alternatively, if you have Visual Studio installed, you can use the **Developer 
 > **msbuild helloworld.csproj -t:Build -verbosity:detailed**
 
 ## Add build properties
+
  You can add build properties to the project file to further control the build. Now add these properties:
 
 - An `AssemblyName` property to specify the name of the application.
@@ -244,6 +249,7 @@ Your project file should now resemble the following code:
 > `OutputAssembly=="$(OutputPath)\$(AssemblyName).exe" />`
 
 ## Test the build properties
+
  Now you can build the application by using the project file in which you used build properties to specify the output folder and application name.
 
 1. At the command prompt, type **msbuild helloworld.csproj -t:Build**.
@@ -257,6 +263,7 @@ Your project file should now resemble the following code:
      The **Hello, world!** message should be displayed.
 
 ## Add build targets
+
  Next, add two more targets to the project file, as follows:
 
 - A Clean target that deletes old files.
@@ -309,6 +316,7 @@ Your project file should now resemble the following code:
 ```
 
 ## Test the build targets
+
  You can exercise the new build targets to test these features of the project file:
 
 - Building the default build.
@@ -348,6 +356,7 @@ Your project file should now resemble the following code:
      To verify that the *\Bin\\* folder contains the *MSBuildSample* application, type **dir Bin**.
 
 ## Build incrementally
+
  You can tell MSBuild to build a target only if the source files or target files that the target depends on have changed. MSBuild uses the time stamp of a file to determine whether it has changed.
 
 ### To build incrementally
@@ -460,6 +469,7 @@ The following example shows a project file that compiles a Visual Basic applicat
 ```
 
 ## What's next?
+
  Visual Studio can automatically do much of the work that is shown in this walkthrough. To learn how to use Visual Studio to create, edit, build, and test MSBuild project files, see [Walkthrough: Use MSBuild](../msbuild/walkthrough-using-msbuild.md).
 
 ## See also
