@@ -24,9 +24,11 @@ ms.workload:
   - "multiple"
 ---
 # RC task
+
 Wraps the Microsoft Windows Resource Compiler tool, *rc.exe*. The **RC** task compiles resources, such as cursors, icons, bitmaps, dialog boxes, and fonts, into a resource (*.res*) file. For more information, see [Resource Compiler](/windows/desktop/menurc/resource-compiler).
 
 ## Parameters
+
  The following table describes the parameters of the RC task. Most task parameters, and a few sets of parameters, correspond to a command-line option.
 
 |Parameter|Description|
@@ -45,4 +47,5 @@ Wraps the Microsoft Windows Resource Compiler tool, *rc.exe*. The **RC** task co
 |**UndefinePreprocessorDefinitions**|Undefine a preprocessor symbol.<br /><br /> For more information, see the **/u** option in [Using RC (the RC command line)](/windows/win32/menurc/using-rc-the-rc-command-line-). Also see **PreprocessorDefinitions** in this table.|
 
 ## See also
+
 - [Task reference](../msbuild/msbuild-task-reference.md)

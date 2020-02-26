@@ -18,9 +18,11 @@ ms.workload:
 - multiple
 ---
 # TaskExtension base class
+
 Many tasks inherit from the <xref:Microsoft.Build.Tasks.TaskExtension> class, which itself inherits from the <xref:Microsoft.Build.Utilities.Task> class. This inheritance chain adds several parameters to the tasks that derive from them. These parameters are listed in this document.
 
 ## Parameters
+
  The following table describes the parameters of the base classes.
 
 |Parameter|Description|
@@ -32,5 +34,6 @@ Many tasks inherit from the <xref:Microsoft.Build.Tasks.TaskExtension> class, wh
 |<xref:Microsoft.Build.Tasks.TaskExtension.Log%2A>|Optional <xref:Microsoft.Build.Utilities.TaskLoggingHelper> read-only parameter.<br /><br /> Gets a `TaskLoggingHelperExtension` object that contains task logging methods.|
 
 ## See also
+
 - [Task reference](../msbuild/msbuild-task-reference.md)
 - [Tasks](../msbuild/msbuild-tasks.md)

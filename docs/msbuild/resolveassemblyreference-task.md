@@ -23,9 +23,11 @@ ms.workload:
 - multiple
 ---
 # ResolveAssemblyReference task
+
 Determines all assemblies that depend on the specified assemblies, including second and `n`th-order dependencies.
 
 ## Parameters
+
  The following table describes the parameters of the `ResolveAssemblyReference` task.
 
 |Parameter|Description|
@@ -72,6 +74,7 @@ Determines all assemblies that depend on the specified assemblies, including sec
 |`TargetProcessorArchitecture`|Optional `String` parameter.<br /><br /> The preferred target processor architecture. Used for resolving Global Assembly Cache (GAC) references.<br /><br /> This parameter can have a value of `x86`, `IA64`, or `AMD64`.<br /><br /> If this parameter is absent, the task first considers assemblies that match the architecture of the currently running process. If no assembly is found, the task considers assemblies in the GAC that have `ProcessorArchitecture` value of `MSIL` or no `ProcessorArchitecture` value.|
 
 ## Warnings
+
  The following warnings are logged:
 
 - `ResolveAssemblyReference.TurnOnAutoGenerateBindingRedirects`
@@ -95,8 +98,10 @@ Determines all assemblies that depend on the specified assemblies, including sec
 - `ResolveAssemblyReference.UnificationByFrameworkRetarget`
 
 ## Remarks
+
  In addition to the parameters listed above, this task inherits parameters from the <xref:Microsoft.Build.Tasks.TaskExtension> class, which itself inherits from the <xref:Microsoft.Build.Utilities.Task> class. For a list of these additional parameters and their descriptions, see [TaskExtension base class](../msbuild/taskextension-base-class.md).
 
 ## See also
+
 - [Tasks](../msbuild/msbuild-tasks.md)
 - [Task reference](../msbuild/msbuild-task-reference.md)

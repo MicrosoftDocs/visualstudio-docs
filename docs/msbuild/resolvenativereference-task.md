@@ -20,9 +20,11 @@ ms.workload:
 - multiple
 ---
 # ResolveNativeReference task
+
 Resolves native references. Implements the <xref:Microsoft.Build.Tasks.ResolveNativeReference> class. This class supports the .NET Framework infrastructure, which is not intended to be used directly from your code.
 
 ## Task parameters
+
  The following table describes the parameters of the `ResolveNativeReference` task.
 
 |Parameter|Description|
@@ -37,8 +39,10 @@ Resolves native references. Implements the <xref:Microsoft.Build.Tasks.ResolveNa
 |`NativeReferences`|Required <xref:Microsoft.Build.Framework.ITaskItem>`[]` parameter.<br /><br /> Gets or sets the Win32 native assembly references.|
 
 ## Remarks
+
  In addition to the parameters listed above, this task inherits parameters from the <xref:Microsoft.Build.Tasks.TaskExtension> class, which itself inherits from the <xref:Microsoft.Build.Utilities.Task> class. For a list of these additional parameters and their descriptions, see [TaskExtension base class](../msbuild/taskextension-base-class.md).
 
 ## See also
+
 - [Tasks](../msbuild/msbuild-tasks.md)
 - [Task reference](../msbuild/msbuild-task-reference.md)

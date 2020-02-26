@@ -17,6 +17,7 @@ ms.workload:
   - "multiple"
 ---
 # StopTrackingAndCleanup
+
 Stops all tracking and frees any memory used by the tracking session.
 
 ## Syntax
@@ -26,10 +27,13 @@ HRESULT WINAPI StopTrackingAndCleanup(void);
 ```
 
 ## Return value
+
  Returns an **HRESULT** with the **SUCCEEDED** bit set if tracking was stopped.
 
 ## Requirements
+
  **Header:** *FileTracker.h*
 
 ## See also
+
 - [StartTrackingContext](../msbuild/starttrackingcontext.md)
