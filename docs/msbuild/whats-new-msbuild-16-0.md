@@ -16,7 +16,7 @@ MSBuild 16.0](https://github.com/microsoft/msbuild/releases/tag/v16.0.461.62831)
 
 ## Changed path
 
- MSBuild is installed in the *\Current* folder under each version of Visual Studio, and the executables are in the *\Bin* subfolder. For example, the path to *MSBuild.exe* installed with Visual Studio 2019 Community is *C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin* You can also use the following PowerShell module to locate MSBuild: [vssetup.powershell](https://github.com/Microsoft/vssetup.powershell).
+ MSBuild is installed in the *\Current* folder under each version of Visual Studio, and the executables are in the *\Bin* subfolder. For example, the path to *MSBuild.exe* installed with Visual Studio 2019 Community is *C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\MSBuild.exe* You can also use the following PowerShell module to locate MSBuild: [vssetup.powershell](https://github.com/Microsoft/vssetup.powershell).
 
 ## Changed properties
 
