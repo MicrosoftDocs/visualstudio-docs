@@ -23,7 +23,7 @@ Combines the specified paths into a single path.
 ## Task parameters
 
  The following table describes the parameters of the [CombinePath task](../msbuild/combinepath-task.md).
- The following table describes the parameters of the [CombinePath task](../msbuild/combinepath-task.md).
+
 
 |Parameter|Description|
 |---------------|-----------------|
