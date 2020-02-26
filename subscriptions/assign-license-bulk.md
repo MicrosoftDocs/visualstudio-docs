@@ -54,8 +54,8 @@ To add large groups of users, you can use the bulk add feature, or if your organ
    > [!div class="mx-imgBorder"]
    > ![Confirmation message if the upload of multiple subscribers succeeds](media/bulk-add-template-success.png)
 
-## Use Azure Active Directory groups to assign subscriptions 
-Using this feature makes it easy to stay on top of your subscription assignments. You can add Azure Active Directory Security Groups in the Subscriptions Administration Portal which will ensure that all individuals in the group are assigned a subscription. And to make it easier, when individuals leave your organization and are removed from Azure Active Directory, their access to subscriptions is also removed.
+## Use Azure AD groups to assign subscriptions 
+Using this feature makes it easy to stay on top of your subscription assignments. You can add Azure AD Security Groups in the Subscriptions Administration Portal which will ensure that all individuals in the group are assigned a subscription. And to make it easier, when individuals leave your organization and are removed from Azure AD, their access to subscriptions is also removed.
 
 > [!NOTE]
 > This capability is being deployed in phases, so it may not be availability immediately for your organization.   
@@ -79,7 +79,7 @@ Using this feature makes it easy to stay on top of your subscription assignments
    > ![Choose bulk add using Azure AD](_img/assign-license-bulk/bulk-add-aad.png)
 
 
-4. Begin to enter the name of the Azure Active Directory group that you’d like to add into the form field. This will search the available Azure AD groups within your organization. 
+4. Begin to enter the name of the Azure AD group that you’d like to add into the form field. This will search the available Azure AD groups within your organization. 
 
 5. When you select the group, the field will automatically populate with the group name. You will have the option to view the users in that group before you add them. Next, you can choose the subscription level, download rights, and communication preferences for the group. You can add details into the reference field if you wish. 
 
