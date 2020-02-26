@@ -239,7 +239,7 @@ Similar import elements exist for other target platforms in *%ProgramFiles32%\MS
 
 Once you place the `.targets` file in the appropriate folder according to the platform, MSBuild imports your file into every C++ build for that platform. You can put multiple `.targets` files there, if needed.
 
-#### Specify a custom import on the command line
+### Specify a custom import on the command line
 
 For custom `.targets` that you want to include for a specific build of a C++ project, set one or both of the properties `ForceImportBeforeCppTargets` and `ForceImportAfterCppTargets` on the command line.
 
