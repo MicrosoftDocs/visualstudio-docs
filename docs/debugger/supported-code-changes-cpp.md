@@ -36,7 +36,7 @@ Edit and Continue for C++ projects handles most types of code changes. However, 
      Example: `LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/OPT:ICF' specification`
 
 ### Debugger settings (Debug > Options > General):
-  1. Enable Native Edit and Continue
+  - Enable Native Edit and Continue
 
      Any incompatible compiler or linker settings cause an error during Edit and Continue.  
      Example: `Edit and Continue : error  : ‘file.cpp’ in ‘MyApp.exe’ was not compiled with Edit and Continue enabled. Ensure that the file is compiled with the Program Database for Edit and Continue (/ZI) option.`
@@ -85,7 +85,7 @@ Edit and Continue for C++ projects handles most types of code changes. However, 
 
 - Mixed-mode (native/managed) debugging.
 
-- Javascript debugging.
+- JavaScript debugging.
 
 - SQL debugging.
 
