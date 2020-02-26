@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "MSBuild, UnregisterAssembly task"
   - "UnregisterAssembly task [MSBuild]"
 ms.assetid: 04f549dd-3591-4dda-9c3a-cf6ede9df2c3
-author: mikejo5000
-ms.author: mikejo
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
   - "multiple"

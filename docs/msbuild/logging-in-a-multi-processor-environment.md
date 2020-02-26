@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "MSBuild, multi-processor logging"
   - "MSBuild, logging"
 ms.assetid: dd4dae65-ed04-4883-b48d-59bcb891c4dc
-author: mikejo5000
-ms.author: mikejo
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
   - "multiple"
