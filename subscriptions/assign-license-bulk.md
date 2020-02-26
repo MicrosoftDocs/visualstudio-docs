@@ -5,13 +5,13 @@ ms.author: lank
 manager: lank
 ms.date: 02/24/2020
 ms.topic: conceptual
-description:  Learn how administrators can assign licenses to multiple subscribers
+description:  Learn how administrators can assign licenses to multiple subscribers using either the Bulk add feature or Microsoft Azure Active Directory groups
 ---
 
 # Assign subscriptions to multiple users
 The Subscriptions Administration Portal lets you add users one-at-a-time, or in large groups.  To add individual users, see [Add single users](assign-license.md).
 
-To add large groups of users, you can use the bulk add feature, or if your organization is using Azure Active Directory, you can use Azure Active Directory groups. This article will explain the process for both options. 
+To add large groups of users, you can use the bulk add feature, or if your organization is using Microsoft Azure Active Directory (Azure AD), you can use Azure AD groups. This article will explain the process for both options. 
 
 
 ## Use Bulk add to assign subscriptions
@@ -58,15 +58,15 @@ To add large groups of users, you can use the bulk add feature, or if your organ
 Using this feature makes it easy to stay on top of your subscription assignments. You can add Azure Active Directory Security Groups in the Subscriptions Administration Portal which will ensure that all individuals in the group are assigned a subscription. And to make it easier, when individuals leave your organization and are removed from Azure Active Directory, their access to subscriptions is also removed.
 
 > [!NOTE]
-> We will be deploying this feature to customers with trusted agreements in phases over the next few months, so watch for it to be enabled for your agreements soon.  
+> This capability is being deployed in phases, so it may not be availability immediately for your organization.   
 
 > [!IMPORTANT]
-> The following limitations apply to the use of AAD groups for adding subscribers:
+> The following limitations apply to the use of Azure AD groups for adding subscribers:
 > - Groups must contain at least one member.  Empty groups are not supported.
-> - Groups must have less than 1,000 users 
-> - All users must be in the top level of the group.  Nested groups are not supported
-> - Only trusted agreements are supported
-> - All members of the group must have an email address associated with their AD account
+> - Groups must have less than 1,000 users.
+> - All users must be in the top level of the group.  Nested groups are not supported.
+> - Only trusted agreements are supported.
+> - All members of the group must have an email address associated with their Azure AD account.
 
 
 1. Sign in to the Visual Studio Subscriptions Administration Portal at [https://manage.visualstudio.com](https://manage.visualstudio.com).
@@ -76,15 +76,15 @@ Using this feature makes it easy to stay on top of your subscription assignments
 3. Choose the **Add** tab, then select **Azure Active Directory group** in the drop-down.  
 
    > [!div class="mx-imgBorder"]
-   > ![Choose bulk add using AAD](_img/assign-license-bulk/bulk-add-aad.png)
+   > ![Choose bulk add using Azure AD](_img/assign-license-bulk/bulk-add-aad.png)
 
 
-4. Begin to enter the name of the Azure Active Directory group that you’d like to add into the form field. This will search the available Azure Active Directory groups within your organization. 
+4. Begin to enter the name of the Azure Active Directory group that you’d like to add into the form field. This will search the available Azure AD groups within your organization. 
 
 5. When you select the group, the field will automatically populate with the group name. You will have the option to view the users in that group before you add them. Next, you can choose the subscription level, download rights, and communication preferences for the group. You can add details into the reference field if you wish. 
 
    > [!div class="mx-imgBorder"]
-   > ![Choose bulk add using AAD](_img/assign-license-bulk/bulk-add-aad-details.png)
+   > ![Choose bulk add using Azure AD](_img/assign-license-bulk/bulk-add-aad-details.png)
 
 6. Click **Add** and then **Confirm**. 
 
@@ -93,14 +93,14 @@ Using this feature makes it easy to stay on top of your subscription assignments
 8. Select **View subscribers** to display the members of the group. You can view details about the subscribers in the group, but you cannot make any edits to the subscribers or the subscriptions that they are assigned.    
 
 ## Frequently asked questions
-### Q: Can I choose multiple subscription levels to be assigned within an AAD group? 
+### Q: Can I choose multiple subscription levels to be assigned within an Azure AD group? 
 A: No -- everyone in the group receives the same subscription. 
 
-### Q: Can I edit subscriber details of individuals added in an AAD group?  
-A: No – To modify information for an individual subscriber, you will need to remove them from the AAD security group and assign them a subscription individually.  
+### Q: Can I edit subscriber details of individuals added in an Azure AD group?  
+A: No – To modify information for an individual subscriber, you will need to remove them from the Azure AD security group and assign them a subscription individually.  
 
-### Q: I added someone to my AAD security group, but I don’t see them add in the Subscriptions Administration Portal, and they don’t have a subscription. Why not?  
-A: If your organization operates Azure Active Directory on-prem instead of in the cloud, you may see delays of up to 24 hours before the user is added. If it’s been longer than 24 hours, [contact support](https://visualstudio.microsoft.com/support/support-overview-vs).  
+### Q: I added someone to my Azure AD security group, but I don’t see them add in the Subscriptions Administration Portal, and they don’t have a subscription. Why not?  
+A: Depending on how your organization has configured Azure AD, you may see delays of up to 24 hours before the user is added. If it’s been longer than 24 hours, [contact support](https://visualstudio.microsoft.com/support/support-overview-vs).  
 
 
 ## See also
