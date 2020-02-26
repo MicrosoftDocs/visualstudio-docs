@@ -20,9 +20,11 @@ ms.workload:
 - multiple
 ---
 # Touch task
+
 Sets the access and modification times of files.
 
 ## Parameters
+
  The following table describes the parameters of the `Touch` task.
 
 |Parameter|Description|
@@ -34,9 +36,11 @@ Sets the access and modification times of files.
 |`TouchedFiles`|Optional <xref:Microsoft.Build.Framework.ITaskItem>`[]` output parameter.<br /><br /> Contains the collection of items that were successfully touched.|
 
 ## Remarks
+
  In addition to the parameters listed above, this task inherits parameters from the <xref:Microsoft.Build.Tasks.TaskExtension> class, which itself inherits from the <xref:Microsoft.Build.Utilities.Task> class. For a list of these additional parameters and their descriptions, see [TaskExtension base class](../msbuild/taskextension-base-class.md).
 
 ## Example
+
  The following example uses the `Touch` task to change the access and modification times of the files specified in the `Files` item collection, and puts the list of successfully touched files in the `FilesTouched` item collection.
 
 ```xml
@@ -58,5 +62,6 @@ Sets the access and modification times of files.
 ```
 
 ## See also
+
 - [Tasks](../msbuild/msbuild-tasks.md)
 - [Task reference](../msbuild/msbuild-task-reference.md)

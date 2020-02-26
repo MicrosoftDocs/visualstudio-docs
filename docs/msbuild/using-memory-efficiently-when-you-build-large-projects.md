@@ -14,9 +14,11 @@ ms.workload:
 - multiple
 ---
 # Use memory efficiently when you build large projects
-Large projects often contain many subprojects and other dependencies, which may consume lots of system memory at build time. When available system memory is decreased, system performance may also be decreased. Older versions of [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] projects remained in memory. Version 3.5 removed older versions of projects, but retained build results in a cache for later retrieval.
+
+Large projects often contain many subprojects and other dependencies, which may consume lots of system memory at build time. When available system memory is decreased, system performance may also be decreased. Older versions of MSBuild projects remained in memory. Version 3.5 removed older versions of projects, but retained build results in a cache for later retrieval.
 
  Version 4.0 handles this memory management automatically, saving projects from having to use properties such as  `UnloadProjectsOnCompletion` and `UseResultsCache`.
 
 ### See also
+
 - [Build multiple projects in parallel](../msbuild/building-multiple-projects-in-parallel-with-msbuild.md)

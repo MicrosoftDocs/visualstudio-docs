@@ -12,9 +12,11 @@ ms.workload:
 - multiple
 ---
 # Item functions
-Starting with MSBuild 4.0, code in tasks and targets can call item functions to get information about the items in the project. These functions simplify getting Distinct() items and are faster than looping through the items.
+
+Code in tasks and targets can call item functions to get information about the items in the project (in MSBuild 4.0 and later). These functions simplify getting distinct items and are faster than looping through the items.
 
 ## String item functions
+
 You can use string methods and properties in the .NET Framework to operate on any item value. For <xref:System.String> methods, specify the method name. For <xref:System.String> properties, specify the property name after "get_".
 
 For items that have multiple strings, the string method or property runs on each string.
@@ -43,6 +45,7 @@ The following example shows how to use these string item functions.
 ```
 
 ## Intrinsic item functions
+
 The table below lists the intrinsic functions available for items.
 
 |Function|Example|Description|
@@ -94,4 +97,5 @@ The following example shows how to use intrinsic item functions.
 ```
 
 ## See also
+
 - [Items](../msbuild/msbuild-items.md)
