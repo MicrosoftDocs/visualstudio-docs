@@ -65,6 +65,12 @@ The configuration and platform that a project targets are used together to speci
 
 ![Project designer configurations](media/understanding-build-configurations/project-designer-configuration.png)
 
+## Building multiple configurations
+
+When you build a solution using **Build** > **Build solution** command, Visual Studio only builds the active configuration, and all projects that are specified in that solution configuration are built, and the only project configuration that's build is that one specified in the active solution configuration. Other defined configurations are not built.
+
+If you want to build all configurations (or several) in one action, you can use the **Build** > **Batch Build** option in Visual Studio. Press **Ctrl**+**Q** and enter `Batch build` to access this feature. Batch build is not available for all project types. See [How to: Build multiple configurations simultaneously](how-to-build-multiple-configurations-simultaneously.md).
+
 ## How Visual Studio assigns project configurations
 
 When you define a new solution configuration and don't copy settings from an existing one, Visual Studio uses the following criteria to assign default project configurations. The criteria are evaluated in the order shown.
