@@ -16,9 +16,10 @@ ms.workload:
 ---
 # MSBuild Toolset (ToolsVersion)
 
-MSBuild uses a Toolset of tasks, targets, and tools to build an application. Typically, a MSBuild Toolset includes a *microsoft.common.tasks* file, a *microsoft.common.targets* file, and compilers such as *csc.exe* and *vbc.exe*. Most Toolsets can be used to compile applications to more than one version of the .NET Framework and more than one system platform. However, the MSBuild 2.0 Toolset can be used to target only the .NET Framework 2.0.
+MSBuild uses a Toolset of tasks, targets, and tools to build an application. Typically, an MSBuild Toolset includes a *microsoft.common.tasks* file, a *microsoft.common.targets* file, and compilers such as *csc.exe* and *vbc.exe*. Most Toolsets can be used to compile applications to more than one version of the .NET Framework and more than one system platform. However, the MSBuild 2.0 Toolset can be used to target only the .NET Framework 2.0.
 
 ## ToolsVersion attribute
+
 ::: moniker range=">=vs-2019"
  Specify the Toolset in the `ToolsVersion` attribute on the [Project](../msbuild/project-element-msbuild.md) element in the project file. The following example specifies that the project should be built by using the MSBuild "Current" Toolset.
 

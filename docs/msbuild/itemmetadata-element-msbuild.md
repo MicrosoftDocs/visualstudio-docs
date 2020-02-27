@@ -18,6 +18,7 @@ ms.workload:
 - multiple
 ---
 # ItemMetadata element (MSBuild)
+
 Contains a user-defined item metadata key, which contains the item metadata value. An item may have any number of metadata key-value pairs.
 
  \<Project>
@@ -31,6 +32,7 @@ Contains a user-defined item metadata key, which contains the item metadata valu
 ```
 
 ## Attributes and elements
+
  The following sections describe attributes, child elements, and parent elements.
 
 ### Attributes
@@ -40,6 +42,7 @@ Contains a user-defined item metadata key, which contains the item metadata valu
 |`Condition`|Optional attribute.<br /><br /> Condition to be evaluated. For more information, see [Conditions](../msbuild/msbuild-conditions.md).|
 
 ### Child elements
+
  None.
 
 ### Parent elements
@@ -49,11 +52,13 @@ Contains a user-defined item metadata key, which contains the item metadata valu
 |[Item](../msbuild/item-element-msbuild.md)|A user-defined element that defines the inputs for the build process.|
 
 ## Text value
+
  A text value is optional.
 
  This text specifies the item metadata value, which can be either text or XML.
 
 ## Example
+
  The following code example shows how to add `Culture` metadata with the value `fr` to the item `CSFile`.
 
 ```xml
@@ -65,5 +70,6 @@ Contains a user-defined item metadata key, which contains the item metadata valu
 ```
 
 ## See also
+
 - [Project file schema reference](../msbuild/msbuild-project-file-schema-reference.md)
 - [Items](../msbuild/msbuild-items.md)

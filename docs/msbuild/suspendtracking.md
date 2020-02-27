@@ -17,6 +17,7 @@ ms.workload:
   - "multiple"
 ---
 # SuspendTracking
+
 Suspends tracking in the current context.
 
 ## Syntax
@@ -26,10 +27,13 @@ HRESULT WINAPI SuspendTracking(void);
 ```
 
 ## Return value
+
  An **HRESULT** with the **SUCCEEDED** bit set if tracking was suspended.
 
 ## Requirements
+
  **Header:** *FileTracker.h*
 
 ## See also
+
 - [ResumeTracking](../msbuild/resumetracking.md)

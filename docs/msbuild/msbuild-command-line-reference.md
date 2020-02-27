@@ -79,6 +79,7 @@ MSBuild.exe [Switches] [ProjectFile]
 |-noConsoleLogger|-noconlog|Disable the default console logger, and don't log events to the console.|
 
 ## Example
+
  The following example builds the `rebuild` target of the *MyProject.proj* project.
 
 ```cmd
@@ -86,6 +87,7 @@ MSBuild.exe MyProject.proj -t:rebuild
 ```
 
 ## Example
+
  You can use *MSBuild.exe* to perform more complex builds. For example, you can use it to build specific targets of specific projects in a solution. The following example rebuilds the project `NotInSolutionFolder` and cleans the project `InSolutionFolder`, which is in the *NewFolder* solution folder.
 
 ```cmd
@@ -93,5 +95,6 @@ msbuild SlnFolders.sln -t:NotInSolutionfolder:Rebuild;NewFolder\InSolutionFolder
 ```
 
 ## See also
+
 - [MSBuild reference](../msbuild/msbuild-reference.md)
 - [Common MSBuild project properties](../msbuild/common-msbuild-project-properties.md)

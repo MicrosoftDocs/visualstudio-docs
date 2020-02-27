@@ -21,6 +21,7 @@ ms.workload:
 - multiple
 ---
 # Choose element (MSBuild)
+
 Evaluates child elements to select one set of `ItemGroup` elements and/or `PropertyGroup` elements to evaluate.
 
  \<Project>
@@ -42,9 +43,11 @@ Evaluates child elements to select one set of `ItemGroup` elements and/or `Prope
 ```
 
 ## Attributes and elements
+
  The following sections describe attributes, child elements, and parent elements.
 
 ### Attributes
+
  None.
 
 ### Child elements
@@ -59,13 +62,15 @@ Evaluates child elements to select one set of `ItemGroup` elements and/or `Prope
 | Element | Description |
 | - | - |
 | [Otherwise](../msbuild/otherwise-element-msbuild.md) | Specifies the block of code to execute if the conditions of all `When` elements evaluate to `false`. |
-| [Project](../msbuild/project-element-msbuild.md) | Required root element of an [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] project file. |
+| [Project](../msbuild/project-element-msbuild.md) | Required root element of an MSBuild project file. |
 | [When](../msbuild/when-element-msbuild.md) | Specifies a possible block of code for the `Choose` element to select. |
 
 ## Remarks
+
  The `Choose`, `When`, and `Otherwise` elements are used together to provide a way to select one section of code to execute out of a number of possible alternatives. For more information, see [Conditional constructs](../msbuild/msbuild-conditional-constructs.md).
 
 ## Example
+
  The following project uses the `Choose` element to select which set of property values in the `When` elements to set. If the `Condition` attributes of both `When` elements evaluate to `false`, the property values in the `Otherwise` element are set.
 
 ```xml
@@ -114,5 +119,6 @@ Evaluates child elements to select one set of `ItemGroup` elements and/or `Prope
 ```
 
 ## See also
+
 - [Conditional constructs](../msbuild/msbuild-conditional-constructs.md)
 - [Project file schema reference](../msbuild/msbuild-project-file-schema-reference.md)

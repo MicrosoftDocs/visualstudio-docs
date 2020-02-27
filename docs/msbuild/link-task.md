@@ -32,9 +32,11 @@ ms.workload:
 - multiple
 ---
 # Link task
+
 Wraps the Microsoft C++ linker tool, *link.exe*. The linker tool links Common Object File Format (COFF) object files and libraries to create an executable (*.exe*) file or a dynamic-link library (DLL). For more information, see [Linker options](/cpp/build/reference/linker-options).
 
 ## Parameters
+
  The following describes the parameters of the **Link** task. Most task parameters, and a few sets of parameters, correspond to a command-line option.
 
 - **AdditionalDependencies**
@@ -918,4 +920,5 @@ Wraps the Microsoft C++ linker tool, *link.exe*. The linker tool links Common Ob
   For more information, see [/VERSION (Version information)](/cpp/build/reference/version-version-information).
 
 ## See also
+
 - [Task reference](../msbuild/msbuild-task-reference.md)

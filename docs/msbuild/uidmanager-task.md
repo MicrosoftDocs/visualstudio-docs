@@ -21,18 +21,20 @@ ms.workload:
   - "multiple"
 ---
 # UidManager task
-The <xref:Microsoft.Build.Tasks.Windows.UidManager> task checks, updates, or removes unique identifiers (UIDs), in order to localize all [!INCLUDE[TLA#tla_xaml](../msbuild/includes/tlasharptla_xaml_md.md)] elements that are included in the source [!INCLUDE[TLA2#tla_xaml](../msbuild/includes/tla2sharptla_xaml_md.md)] files.
+
+The <xref:Microsoft.Build.Tasks.Windows.UidManager> task checks, updates, or removes unique identifiers (UIDs), in order to localize all XAML elements that are included in the source XAML files.
 
 ## Task parameters
 
 | Parameter | Description |
 |-------------------------| - |
-| `IntermediateDirectory` | Optional **String** parameter.<br /><br /> Specifies the directory that is used to back up the source [!INCLUDE[TLA2#tla_xaml](../msbuild/includes/tla2sharptla_xaml_md.md)] files that are specified by the **MarkupFiles** parameter. |
-| `MarkupFiles` | Required **ITaskItem[]** parameter.<br /><br /> Specifies the source [!INCLUDE[TLA2#tla_xaml](../msbuild/includes/tla2sharptla_xaml_md.md)] files to include for UID checking, updating, or removing. |
+| `IntermediateDirectory` | Optional **String** parameter.<br /><br /> Specifies the directory that is used to back up the source XAML files that are specified by the **MarkupFiles** parameter. |
+| `MarkupFiles` | Required **ITaskItem[]** parameter.<br /><br /> Specifies the source XAML files to include for UID checking, updating, or removing. |
 | `Task` | Required **String** parameter.<br /><br /> Specifies the UID management task that you want to perform. Valid options are **Check**, **Update**, or **Remove**. |
 
 ## Example
- The following example uses the <xref:Microsoft.Build.Tasks.Windows.UidManager> task to check that the specified source [!INCLUDE[TLA2#tla_xaml](../msbuild/includes/tla2sharptla_xaml_md.md)] files contain [!INCLUDE[TLA2#tla_xaml](../msbuild/includes/tla2sharptla_xaml_md.md)] elements that have appropriate UIDs.
+
+ The following example uses the <xref:Microsoft.Build.Tasks.Windows.UidManager> task to check that the specified source XAML files contain XAML elements that have appropriate UIDs.
 
 ```xml
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
@@ -49,6 +51,7 @@ The <xref:Microsoft.Build.Tasks.Windows.UidManager> task checks, updates, or rem
 ```
 
 ## See also
+
 - [WPF MSBuild reference](../msbuild/wpf-msbuild-reference.md)
 - [Task reference](../msbuild/wpf-msbuild-task-reference.md)
 - [MSBuild reference](../msbuild/msbuild-reference.md)

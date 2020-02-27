@@ -20,6 +20,7 @@ ms.workload:
 - multiple
 ---
 # UsingTask element (MSBuild)
+
 Maps the task that is referenced in a [Task](../msbuild/task-element-msbuild.md) element to the assembly that contains the task implementation.
 
  \<Project>
@@ -38,6 +39,7 @@ Maps the task that is referenced in a [Task](../msbuild/task-element-msbuild.md)
 > Unlike properties and items, the *first* `UsingTask` element that applies to a `TaskName` will be used; to override tasks you must define a new `UsingTask` *before* the existing one.
 
 ## Attributes and elements
+
  The following sections describe attributes, child elements, and parent elements.
 
 ### Attributes
@@ -61,9 +63,10 @@ Maps the task that is referenced in a [Task](../msbuild/task-element-msbuild.md)
 
 | Element | Description |
 | - | - |
-| [Project](../msbuild/project-element-msbuild.md) | Required root element of an [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] project file. |
+| [Project](../msbuild/project-element-msbuild.md) | Required root element of an MSBuild project file. |
 
 ## Remarks
+
  Environment variables, command-line properties, project-level properties, and project-level items can be referenced in the `UsingTask` elements included in the project file either directly or through an imported project file. For more information, see [Tasks](../msbuild/msbuild-tasks.md).
 
 > [!NOTE]
@@ -72,6 +75,7 @@ Maps the task that is referenced in a [Task](../msbuild/task-element-msbuild.md)
  In MSBuild 4.0, using tasks can be loaded from *.overridetask* files.
 
 ## Example
+
  The following example shows how to use the `UsingTask` element with an `AssemblyName` attribute.
 
 ```xml
@@ -88,6 +92,7 @@ Maps the task that is referenced in a [Task](../msbuild/task-element-msbuild.md)
 ```
 
 ## Example
+
  The following example shows how to use the `UsingTask` element with an `AssemblyFile` attribute.
 
 ```xml
@@ -96,6 +101,7 @@ Maps the task that is referenced in a [Task](../msbuild/task-element-msbuild.md)
 ```
 
 ## See also
+
 - [Tasks](../msbuild/msbuild-tasks.md)
 - [Task reference](../msbuild/msbuild-task-reference.md)
 - [Project file schema reference](../msbuild/msbuild-project-file-schema-reference.md)
