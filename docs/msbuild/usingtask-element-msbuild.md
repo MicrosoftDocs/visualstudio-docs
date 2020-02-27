@@ -85,9 +85,9 @@ Maps the task that is referenced in a [Task](../msbuild/task-element-msbuild.md)
               <Parameter2 ParameterType="System.Int" Required="True" Output="False"/>
               ...
 </ParameterGroup>
-       <TaskBody>
+       <Task>
       ... Task factory-specific data ...
-       </TaskBody>
+       </Task>
 </UsingTask>
 ```
 

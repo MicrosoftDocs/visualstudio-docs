@@ -1,5 +1,5 @@
 ---
-title: TaskBody Element (MSBuild) | Microsoft Docs
+title: Task Element of UsingTask (MSBuild) | Microsoft Docs
 ms.date: 03/13/2017
 ms.topic: reference
 dev_langs:
@@ -8,8 +8,8 @@ dev_langs:
 - C++
 - jsharp
 helpviewer_keywords:
-- TaskBody element [MSBuild]
-- <TaskBody> element [MSBuild]
+- Task element [MSBuild]
+- <Task> element [MSBuild]
 ms.assetid: 49d8741b-f1ea-4470-94fd-a1ac27341a6a
 author: ghogen
 ms.author: ghogen
@@ -17,13 +17,13 @@ manager: jillfra
 ms.workload:
 - multiple
 ---
-# TaskBody element (MSBuild)
+# Task element of UsingTask (MSBuild)
 
 Contains the data that is passed to a `UsingTask` `TaskFactory`. For more information, see [UsingTask element (MSBuild)](../msbuild/usingtask-element-msbuild.md).
 
  \<Project>
  \<UsingTask>
- \<TaskBody>
+ \<Task>
 
 ## Syntax
 
@@ -45,7 +45,7 @@ Contains the data that is passed to a `UsingTask` `TaskFactory`. For more inform
 
 |Element|Description|
 |-------------|-----------------|
-|Data|The text between the `TaskBody` tags is sent verbatim to the `TaskFactory`.|
+|Data|The text between the `Task` tags is sent verbatim to the `TaskFactory`.|
 
 ### Parent elements
 
@@ -55,7 +55,7 @@ Contains the data that is passed to a `UsingTask` `TaskFactory`. For more inform
 
 ## Example
 
- The following example shows how to use the `TaskBody` element with an `Evaluate` attribute.
+ The following example shows how to use the `Task` element with an `Evaluate` attribute.
 
 ```xml
 <UsingTask TaskName="MyTask" AssemblyName="My.Assembly" TaskFactory="MyTaskFactory">
@@ -64,9 +64,9 @@ Contains the data that is passed to a `UsingTask` `TaskFactory`. For more inform
               <Parameter2 ParameterType="System.Int" Required="True" Output="False"/>
               ...
 </ParameterGroup>
-       <TaskBody Evaluate="true">
+       <Task Evaluate="true">
       ... Task factory-specific data ...
-       </TaskBody>
+       </Task>
 </UsingTask>
 ```
 

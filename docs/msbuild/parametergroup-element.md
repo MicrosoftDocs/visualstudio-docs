@@ -62,9 +62,9 @@ Contains an optional list of parameters that will be present on the task that is
               <Parameter2 ParameterType="System.Int" Required="True" Output="False"/>
              ...
 </ParameterGroup>
-       <TaskBody Evaluate="true">
+       <Task Evaluate="true">
       ... Task factory-specific data ...
-       </TaskBody>
+       </Task>
 </UsingTask>
 ```
 
