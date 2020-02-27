@@ -330,7 +330,7 @@ Output:
 -->
 ```
 
-##  <a name="BKMK_UpdatingMetadataOnExistingItemsOutsideTargets"></a> Updating metadata on items in an ItemGroup outside of a Target
+##  Updating metadata on items in an ItemGroup outside of a Target
 
 Items outside of targets can have their existing metadata updated via the `Update` attribute. This attribute is **not** available for items under targets.
 
