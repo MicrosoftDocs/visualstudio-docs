@@ -44,7 +44,7 @@ Next, choose the UI settings and color theme that you want to use in Visual Stud
 
 After you provide the settings, Visual Studio starts, and you're signed in and ready to get started. To verify whether you're signed in, look for your name in the upper-right corner of the Visual Studio environment.
 
-![Currently logged in user in VS2017](../ide/media/vs2017_username.png)
+![Currently logged in user in VS2019](../ide/media/vs2019_username.png)
 
 Unless you sign out, you're automatically signed in to Visual Studio whenever you start it, and any changes to synchronized settings are automatically applied. To sign out, choose the down arrow next to your profile name in the upper-right corner of the Visual Studio environment, choose the **Account settings** command, and then choose the **Sign out** link. To sign in again, choose the **Sign in** command in the upper-right corner of the Visual Studio environment.
 
