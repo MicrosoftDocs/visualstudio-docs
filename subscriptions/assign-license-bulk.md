@@ -97,9 +97,9 @@ Using this feature makes it easy to stay on top of your subscription assignments
 A: No -- everyone in the group receives the same subscription. 
 
 ### Q: Can I edit subscriber details of individuals added in an Azure AD group?  
-A: No – To modify information for an individual subscriber, you will need to remove them from the Azure AD security group and assign them a subscription individually.  
+A: No -- To modify information for an individual subscriber, you will need to remove them from the Azure AD security group and assign them a subscription individually.  
 
-### Q: I added someone to my Azure AD security group, but I don’t see them add in the Subscriptions Administration Portal, and they don’t have a subscription. Why not?  
+### Q: I added someone to my Azure AD security group, but I don’t see them added in the Subscriptions Administration Portal, and they don’t have a subscription. Why not?  
 A: Depending on how your organization has configured Azure AD, you may see delays of up to 24 hours before the user is added. If it’s been longer than 24 hours, [contact support](https://visualstudio.microsoft.com/support/support-overview-vs).  
 
 
