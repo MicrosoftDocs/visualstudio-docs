@@ -18,6 +18,7 @@ ms.workload:
 - multiple
 ---
 # ImportGroup element
+
   
 Contains a collection of `Import` elements that are grouped under an optional condition. For more information, see [Import element (MSBuild)](../msbuild/import-element-msbuild.md).
 
@@ -36,6 +37,7 @@ Contains a collection of `Import` elements that are grouped under an optional co
 ```
 
 ## Attributes and elements
+
  The following sections describe attributes, child elements, and parent elements.
 
 ### Attributes
@@ -54,9 +56,10 @@ Contains a collection of `Import` elements that are grouped under an optional co
 
 | Element | Description |
 | - | - |
-| [Project](../msbuild/project-element-msbuild.md) | Required root element of an [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] project file. |
+| [Project](../msbuild/project-element-msbuild.md) | Required root element of an MSBuild project file. |
 
 ## Example
+
  The following code example shows the `ImportGroup` element.
 
 ```xml

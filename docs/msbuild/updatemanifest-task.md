@@ -18,9 +18,11 @@ ms.workload:
   - "multiple"
 ---
 # UpdateManifest task
+
 Updates selected properties in a manifest and resigns.
 
 ## Parameters
+
  The following table describes the parameters of the `UpdateManifest` task.
 
 |Parameter|Description|
@@ -31,8 +33,10 @@ Updates selected properties in a manifest and resigns.
 |`OutputManifest`|Optional <xref:Microsoft.Build.Framework.ITaskItem> output parameter.<br /><br /> Specifies the manifest that contains updated properties.|
 
 ## Remarks
+
  In addition to having the parameters that are listed in the table, this task inherits parameters from the <xref:Microsoft.Build.Utilities.Task> class. For a list of these additional parameters and their descriptions, see [Task base class](../msbuild/task-base-class.md).
 
 ## See also
+
 - [Tasks](../msbuild/msbuild-tasks.md)
 - [Task reference](../msbuild/msbuild-task-reference.md)

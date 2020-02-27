@@ -17,6 +17,7 @@ ms.workload:
   - "multiple"
 ---
 # EndTrackingContext
+
 End the current tracking context.
 
 ## Syntax
@@ -26,10 +27,13 @@ HRESULT WINAPI EndTrackingContext();
 ```
 
 ## Return value
+
 An **HRESULT** with the **SUCCEEDED** bit set if the tracking context was ended.
 
 ## Requirements
+
 **Header:** *FileTracker.h*
 
 ## See also
+
 - [StartTrackingContext](../msbuild/starttrackingcontext.md)

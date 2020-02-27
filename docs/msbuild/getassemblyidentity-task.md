@@ -20,9 +20,11 @@ ms.workload:
 - multiple
 ---
 # GetAssemblyIdentity task
+
 Retrieves the assembly identities from the specified files and outputs the identity information.
 
 ## Task parameters
+
 The following table describes the parameters of the `GetAssemblyIdentity` task.
 
 |Parameter|Description|
@@ -31,11 +33,13 @@ The following table describes the parameters of the `GetAssemblyIdentity` task.
 |`AssemblyFiles`|Required <xref:Microsoft.Build.Framework.ITaskItem>`[]` parameter.<br /><br /> Specifies the files to retrieve identities from.|
 
 ## Remarks
+
 The items output by the `Assemblies` parameter contain item metadata entries named `Version`, `PublicKeyToken`, and `Culture`.
 
 In addition to the parameters listed above, this task inherits parameters from the <xref:Microsoft.Build.Tasks.TaskExtension> class, which itself inherits from the <xref:Microsoft.Build.Utilities.Task> class. For a list of these additional parameters and their descriptions, see [TaskExtension base class](../msbuild/taskextension-base-class.md).
 
 ## Example
+
 The following example retrieves the identity of the files specified in the `MyAssemblies` item, and outputs them into the `MyAssemblyIdentities` item.
 
 ```xml
@@ -52,5 +56,6 @@ The following example retrieves the identity of the files specified in the `MyAs
 ```
 
 ## See also
+
 - [Tasks](../msbuild/msbuild-tasks.md)
 - [Task reference](../msbuild/msbuild-task-reference.md)

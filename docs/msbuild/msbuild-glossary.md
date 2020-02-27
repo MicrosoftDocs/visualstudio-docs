@@ -155,7 +155,7 @@ targets file\
 A targets file is a project file that contains mostly targets and tasks that guide the build. By convention, It has the file extension *.targets*. Target files are typically imported at the end of associated project files.
 
 task\
-Tasks are units of executable code that [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] projects use to perform build operations. For example, a task might compile input files or run an external tool. For more information, see [Tasks](../msbuild/msbuild-tasks.md).
+Tasks are units of executable code that MSBuild projects use to perform build operations. For example, a task might compile input files or run an external tool. For more information, see [Tasks](../msbuild/msbuild-tasks.md).
 
 transform\
 A transform is a one-to-one conversion of one item collection to another. In addition to enabling a project to convert item collections, a transform enables a target to identify a direct mapping between its inputs and outputs. For more information, see [Transforms](../msbuild/msbuild-transforms.md).
