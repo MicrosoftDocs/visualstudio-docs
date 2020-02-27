@@ -28,7 +28,7 @@ Contains the data that is passed to a `UsingTask` `TaskFactory`. For more inform
 ## Syntax
 
 ```xml
-<TaskBody Evaluate="true/false" />
+<Task Evaluate="true/false" />
 ```
 
 ## Attributes and elements
@@ -65,7 +65,7 @@ Contains the data that is passed to a `UsingTask` `TaskFactory`. For more inform
               ...
 </ParameterGroup>
        <Task Evaluate="true">
-      ... Task factory-specific data ...
+       ... Task factory-specific data ...
        </Task>
 </UsingTask>
 ```
