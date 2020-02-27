@@ -6,8 +6,8 @@ ms.topic: "conceptual"
 helpviewer_keywords:
   - "xaml edit and continue"
   - "xaml hot reload"
-author: "mikejo5000"
-ms.author: "mikejo"
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.technology: vs-ide-debug
 ms.workload:
