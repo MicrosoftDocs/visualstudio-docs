@@ -3,8 +3,8 @@ title: "Debug XAML in Blend | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 ms.assetid: 29a37182-2a2c-47e4-a4a9-2d5412738fed
-author: "mikejo5000"
-ms.author: "mikejo"
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.technology: vs-ide-debug
 ms.workload:
