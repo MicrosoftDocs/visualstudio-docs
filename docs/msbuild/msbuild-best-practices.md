@@ -23,7 +23,9 @@ We recommend the following best practices for writing MSBuild scripts:
 </MyProperty>
 ```
 
-- Avoid wildcards when you select items. Instead, specify files explicitly. This makes it easier to track down errors that may occur when you add or delete files.
+- Any custom `.props` files should be simple and single-purpose, and `.props` files should not include other `.props` files.
+
+  The only exception to this is *Directory.Build.props*. Because property values can be overridden, the value at any time in the process depends on the order in which MSBuild processes a script. It can be difficult to trace why property values have the values they do at various stages in the build process, and this practice helps you more easily diagnose such issues.
 
 ## See also
 - [Advanced concepts](../msbuild/msbuild-advanced-concepts.md)
