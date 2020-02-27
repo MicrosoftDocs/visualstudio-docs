@@ -44,7 +44,7 @@ The compiler-generated XML file can be distributed alongside your .NET assembly 
 
 You can use styles in XML comments that will render in Quick Info when hovering over the element. These styles include: italics, bold, bullets, and a clickable link.
 
-   ![Completed comment](media/doc-styles-cs.png) 
+   ![Completed comment](media/doc-style-cs.png) 
 
 > [!NOTE]
 > There is an [option](../../ide/reference/options-text-editor-csharp-advanced.md) to toggle XML documentation comments after typing `///` in C# or `'''` Visual Basic. From the menu bar, choose **Tools** > **Options** to open the **Options** dialog box. Then, navigate to **Text Editor** > **C#** or **Basic** > **Advanced**. In the **Editor Help** section, look for the **Generate XML documentation comments** option.

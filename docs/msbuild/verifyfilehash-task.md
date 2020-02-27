@@ -10,15 +10,15 @@ dev_langs:
 helpviewer_keywords:
   - "VerifyFileHash task [MSBuild]"
   - "MSBuild, VerifyFileHash task"
-author: mikejo5000
-ms.author: mikejo
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
   - "multiple"
 ---
 # VerifyFileHash task
 
-Verifies that a file matches the expected file hash. If the hash doesn't match, the build fails.
+Verifies that a file matches the expected file hash. If the hash doesn't match, the task fails.
 
 This task was added in 15.8, but requires a [workaround](https://github.com/Microsoft/msbuild/pull/3999#issuecomment-458193272) to use for MSBuild versions below 16.0.
 

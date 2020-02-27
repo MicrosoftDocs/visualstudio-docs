@@ -19,7 +19,8 @@ ms.workload:
 - multiple
 ---
 # Sdk element (MSBuild)
-References an [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] project SDK.
+
+References an MSBuild project SDK.
 
  \<Project>
  \<Sdk>
@@ -32,6 +33,7 @@ References an [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecm
 ```
 
 ## Attributes and elements
+
  The following sections describe attributes, child elements, and parent elements.
 
 ### Attributes
@@ -42,15 +44,17 @@ References an [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecm
 |`Version`|Optional attribute.<br /><br /> The version of the project SDK|
 
 ### Child elements
+
  None.
 
 ### Parent elements
 
 | Element | Description |
 | - | - |
-| [Project](../msbuild/project-element-msbuild.md) | Required root element of an [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] project file. |
+| [Project](../msbuild/project-element-msbuild.md) | Required root element of an MSBuild project file. |
 
 ## See also
+
 - [How to: Reference an MSBuild project SDK](../msbuild/how-to-use-project-sdk.md)
 - [Project file schema reference](../msbuild/msbuild-project-file-schema-reference.md)
 - [MSBuild](../msbuild/msbuild.md)

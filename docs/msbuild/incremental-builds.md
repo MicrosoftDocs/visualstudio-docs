@@ -73,4 +73,5 @@ Because of output inference, you have to add a `CreateProperty` task to a target
 This code creates the property CompileRan and gives it the value `true`, but only if the target is executed. If the target is skipped, CompileRan is not created.
 
 ## See also
+
 - [Targets](../msbuild/msbuild-targets.md)

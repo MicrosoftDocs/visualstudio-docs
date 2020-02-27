@@ -13,6 +13,7 @@ ms.workload:
 - multiple
 ---
 # MSBuild best practices
+
 We recommend the following best practices for writing MSBuild scripts:
 
 - Default property values are best handled by using the `Condition` attribute, and not by declaring a property whose default value can be overridden on the command line. For example, use
@@ -28,4 +29,5 @@ We recommend the following best practices for writing MSBuild scripts:
   The only exception to this is *Directory.Build.props*. Because property values can be overridden, the value at any time in the process depends on the order in which MSBuild processes a script. It can be difficult to trace why property values have the values they do at various stages in the build process, and this practice helps you more easily diagnose such issues.
 
 ## See also
+
 - [Advanced concepts](../msbuild/msbuild-advanced-concepts.md)

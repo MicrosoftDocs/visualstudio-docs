@@ -331,6 +331,8 @@
           href: ide/reference/generate-deconstructor.md
         - name: Add parameter to method
           href: ide/reference/add-parameter.md
+        - name: Generate private field from constructor
+          href: ide/reference/generate-private-field-from-constructor.md
         - name: Generate override
           href: ide/reference/generate-override.md
         - name: Generate Equals and GetHashCode method overrides
@@ -374,6 +376,8 @@
           href: ide/reference/extract-interface.md
         - name: Extract method
           href: ide/reference/extract-method.md
+        - name: Extract local function
+          href: ide/reference/extract-local-function.md
         - name: Generate parameter
           href: ide/reference/generate-parameter.md
         - name: Inline temporary variable
@@ -386,6 +390,8 @@
           href: ide/reference/invert-if-statement.md
         - name: Static local function refactor options
           href: ide/reference/static-local-function-refactor-options.md
+        - name: Make member static
+          href: ide/reference/make-member-static.md
         - name: Move declaration near reference
           href: ide/reference/move-declaration-near-reference.md
         - name: Move type to matching file
@@ -416,10 +422,8 @@
           href: ide/reference/use-block-body-lambda.md
         - name: Unused value assignments, variables, and parameters
           href: ide/reference/unused-values-parameters.md
-        - name: Wrap and align call chains
-          href: ide/reference/wrap-and-align-call-chains.md
-        - name: Wrap, indent, and align parameters
-          href: ide/reference/wrap-align-indent-parameters.md
+        - name: Wrap, indent, and align refactorings
+          href: ide/reference/wrap-indent-align-refactorings.md
       - name: "Walkthrough: Generate code from usage"
         href: ide/walkthrough-test-first-support-with-the-generate-from-usage-feature.md
     - name: IntelliSense

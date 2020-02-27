@@ -9,8 +9,8 @@ ms.topic: conceptual
 dev_langs:
   - "CSharp"
 ms.assetid: f84339c7-d617-4f56-bfcd-af2215c347ba
-author: TerryGLee
-ms.author: tglee
+author: ornellaalt
+ms.author: ornella
 manager: jillfra
 ms.workload:
   - "dotnet"

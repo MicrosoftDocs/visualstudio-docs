@@ -17,12 +17,16 @@ ms.workload:
 - multiple
 ---
 # MSBuild project file schema reference
-Provides a table of all the [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] XML Schema elements with their available attributes and child elements.
 
- [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] uses project files to instruct the build engine what to build and how to build it. [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] project files are XML files that adhere to the [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] XML schema. This section documents the XML schema definition (*.xsd*) file for [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)].
+Provides a table of all the MSBuild XML Schema elements with their available attributes and child elements.
+
+ MSBuild uses project files to instruct the build engine what to build and how to build it. MSBuild project files are XML files that adhere to the MSBuild XML schema. This section documents the XML schema definition (*.xsd*) file for MSBuild.
+
+The schema link in an MSBuild project file is not required in Visual Studio 2017 and later. If present, it should be ` http://schemas.microsoft.com/developer/msbuild/2003` regardless of the version of Visual Studio.
 
 ## MSBuild XML schema elements
- The following table lists all of the [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] XML schema elements along with their child elements and attributes.
+
+ The following table lists all of the MSBuild XML schema elements along with their child elements and attributes.
 
 |Element|Child elements|Attributes|
 |-------------|--------------------|----------------|
@@ -50,6 +54,7 @@ Provides a table of all the [!INCLUDE[vstecmsbuild](../extensibility/internals/i
 |[When element (MSBuild)](../msbuild/when-element-msbuild.md)|Choose<br /><br /> ItemGroup<br /><br /> PropertyGroup|Condition|
 
 ## See also
+
 - [Task reference](../msbuild/msbuild-task-reference.md)
 - [Conditions](../msbuild/msbuild-conditions.md)
 - [MSBuild reference](../msbuild/msbuild-reference.md)
