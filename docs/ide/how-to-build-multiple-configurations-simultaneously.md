@@ -24,7 +24,7 @@ If a solution contains any project of those two project types, then **Batch Buil
 
 ## To build a project in multiple build configurations
 
-1. On the menu bar, choose **Build** > **Batch Build**. Or, press **Ctrl**+**Q** to open the command box, and search for `Batch Build`.
+1. On the menu bar, choose **Build** > **Batch Build**. Or, press **Ctrl**+**Q** to open the search box, and search for `Batch Build`.
 
 2. In the **Build** column, select the check boxes for the configurations in which you want to build a project.
 
