@@ -497,7 +497,7 @@ Remarks:
   - Metadata conditions
 - Metadata name matching is case insensitive.
 
-##  <a name="BKMK_UpdatingMetadataOnExistingItemsInsideTargets"></a> Updating metadata on items in an ItemGroup of a Target
+##  Updating metadata on items in an ItemGroup of a Target
 
 Metadata can be modified inside targets too, by a less expressive syntax than `Update`:
 
