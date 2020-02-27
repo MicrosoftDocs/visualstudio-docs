@@ -12,7 +12,8 @@ ms.workload:
   - "dotnetcore"
 ---
 # Remote Debug ASP.NET Core on a Remote IIS Computer in Visual Studio
-To debug an ASP.NET application that has been deployed to IIS, install and run the remote tools on the computer where you deployed your app, and then attach to your running app from Visual Studio.
+
+To debug an ASP.NET Core application that has been deployed to IIS, install and run the remote tools on the computer where you deployed your app, and then attach to your running app from Visual Studio.
 
 ![Remote debugger components](../debugger/media/remote-debugger-aspnet.png "Remote_debugger_components")
 
@@ -120,9 +121,9 @@ After the app deploys successfully, it should start automatically. If the app do
 
 You can use this option to deploy your app if you want to copy the app to IIS using Powershell, RoboCopy, or you want to manually copy the files.
 
-### <a name="BKMK_deploy_asp_net"></a> Configure the ASP.NET Web site on the Windows Server computer
+### <a name="BKMK_deploy_asp_net"></a> Configure the ASP.NET Core Web site on the Windows Server computer
 
-1. Open Windows Explorer and create a new folder, **C:\Publish**, where you will later deploy the ASP.NET project.
+1. Open Windows Explorer and create a new folder, **C:\Publish**, where you will later deploy the ASP.NET Core project.
 
 2. If it's not already open, open the **Internet Information Services (IIS) Manager**. (In the left pane of Server Manager, select **IIS**. Right-click the server and select **Internet Information Services (IIS) Manager**.)
 

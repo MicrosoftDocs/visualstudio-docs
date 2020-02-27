@@ -167,7 +167,7 @@ After the app deploys successfully, it should start automatically. If the app do
 
 You can use this option to deploy your app if you want to copy the app to IIS using Powershell, RoboCopy, or you want to manually copy the files.
 
-### <a name="BKMK_deploy_asp_net"></a> Configure the ASP.NET Web site on the Windows Server computer
+### <a name="BKMK_deploy_asp_net"></a> Configure the ASP.NET Core Web site on the Windows Server computer
 
 If you are importing publish settings, you can skip this section.
 
@@ -175,7 +175,7 @@ If you are importing publish settings, you can skip this section.
 
 2. Right-click the **Default Web Site** node and select **Add Application**.
 
-3. Set the **Alias** field to **MyASPApp** and the Application pool field to **No Managed Code**. Set the **Physical path** to **C:\Publish** (where you will later deploy the ASP.NET project).
+3. Set the **Alias** field to **MyASPApp** and the Application pool field to **No Managed Code**. Set the **Physical path** to **C:\Publish** (where you will later deploy the ASP.NET Core project).
 
 4. With the site selected in the IIS Manager, choose **Edit Permissions**, and make sure that IUSR, IIS_IUSRS, or the user configured for the Application Pool is an authorized user with Read & Execute rights.
 
