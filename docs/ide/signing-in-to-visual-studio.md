@@ -23,16 +23,15 @@ You can personalize and optimize your development experience in Visual Studio by
 When you sign in, you enrich your Visual Studio experience. For example, after you sign in, you can [synchronize your settings](synchronized-settings-in-visual-studio.md) across devices, extend a trial, and automatically connect to an Azure service, to name a few.
 
 Here's a full list of what you can expect and what you can do after you sign in:
+- **Extend the Visual Studio trial period** - You can use Visual Studio Professional or Visual Studio Enterprise for an additional 90 days, instead of being limited to the trial period of 30 days. For more information, see [Extend a trial version or update a license](../ide/how-to-unlock-visual-studio.md).
+
+- **Unlock the Visual Studio Community edition** - If your Community edition installation prompts you for a license, sign in to the IDE to unblock yourself.
+
+- **Unlock Visual Studio if you use an account that's associated with a Visual Studio subscription or an Azure DevOps organization**. For detailed instructions, see [Extend a trial version or update a license](../ide/how-to-unlock-visual-studio.md).
 
 - **Access to the Visual Studio Dev Essentials program** - This program includes free software offerings, training, support, and more. See [Visual Studio Dev Essentials](https://visualstudio.microsoft.com/dev-essentials/) for more information.
 
 - **Synchronize your Visual Studio settings** - Settings that you customize, such as key bindings, window layout, and color theme, apply immediately when you sign in to Visual Studio on any device. See [Synchronize settings in Visual Studio](../ide/synchronized-settings-in-visual-studio.md).
-
-- **Unlock the Visual Studio Community edition** - If your Community edition installation prompts you for a license, sign in to the IDE to unblock yourself.
-
-- **Extend the Visual Studio trial period** - You can use Visual Studio Professional or Visual Studio Enterprise for an additional 90 days, instead of being limited to the trial period of 30 days.
-
-- **Unlock Visual Studio if you use an account that's associated with a Visual Studio subscription or an Azure DevOps organization**. See [Extend a trial version or update a license](../ide/how-to-unlock-visual-studio.md).
 
 - **Automatically connect to services such as Azure and Azure DevOps Services** in the IDE without prompting again for credentials for the same account.
 
