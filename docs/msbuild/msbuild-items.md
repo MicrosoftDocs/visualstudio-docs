@@ -488,7 +488,7 @@ Item1: notebook
 ```
 
 Remarks:
-- Unqualified metadata (%(M)) binds to the item type being updated (e.g. `Item1` in above example). Qualified metadata (e.g. `%(Item2.Color)`) binds inside the set of captured matching item types from the Update expression.
+- Unqualified metadata (%(M)) binds to the item type being updated (`Item1` in above example). Qualified metadata (`%(Item2.Color)`) binds inside the set of captured matching item types from the Update expression.
 - If an item matches multiple times within and between multiple referenced items:
   - The last occurrence from each referenced item type gets captured (so one captured item per item type).
   - This matches the behaviour of task item batching under targets.
