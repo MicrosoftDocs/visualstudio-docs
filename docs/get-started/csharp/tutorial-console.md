@@ -323,15 +323,15 @@ The `Calculator` class will handle the bulk of the calculation work, and the `Pr
 
 Let's get started.
 
-1. Delete everything *after* the following code block:
+1. Delete everything in the `Calculator` namespace between its opening and closing braces:
 
     ```csharp
-
     using System;
 
     namespace Calculator
     {
-
+        
+    }
     ```
 
 1. Next, add a new `Calculator` class, as follows:
