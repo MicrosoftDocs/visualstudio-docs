@@ -165,7 +165,7 @@ After the app deploys successfully, it should start automatically. If the app do
 
 ## (Optional) Deploy by publishing to a local folder
 
-You can use this option to deploy your app if you want to copy the app to IIS using Powershell, RoboCopy, or you want to manually copy the files.
+You can use this option to deploy your app if you want to copy the app to IIS using PowerShell, RoboCopy, or you want to manually copy the files.
 
 ### <a name="BKMK_deploy_asp_net"></a> Configure the ASP.NET Core Web site on the Windows Server computer
 
