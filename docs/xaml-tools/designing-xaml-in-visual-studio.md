@@ -17,8 +17,11 @@ You can switch back and forth between Visual Studio and Blend for Visual Studio,
 ## Installation
 
 - To create WPF apps, install the **.NET desktop development** workload in Visual Studio. Blend for Visual Studio will also be installed.
+    ![Screenshot of the .NET Desktop Development workload from the Visual Studio Installer](../media/dotnet-desktop-dev-workload.png)
 - To create UWP apps, install the **Universal Windows Platform development** workload in Visual Studio. Blend for Visual Studio will also be installed.
+    ![Screenshot of the Universal Windows Platform Development workload from the Visual Studio Installer](../media/uwp-workload.png)
 - To create Xamarin.Forms apps, install the **Mobile development with .NET** workload in Visual Studio. Blend for Visual Studio is *not* installed; Blend doesn't support Xamarin.Forms apps.
+    ![Screenshot of the Mobile Development with .NET workload from the Visual Studio Installer](../media/mobile-dev-dotnet-workload.png)
 
 ## Shared capabilities
 
@@ -45,3 +48,8 @@ To increase your productivity, consider using Blend for Visual Studio for the fo
 |**Connect your UI to data**|You can create a data source from resources such as a SQL Server database, WCF or web service, object, or SharePoint list, and then bind the data source to your UI controls.<br /><br />Design-time data must be created by hand for an interactive design experience.|For .NET Framework apps, create sample data easily for prototyping and testing. Switch to live data when you're ready.<br /><br />Blend for Visual Studio's data generation capabilities are outstanding (you can add names, numbers, URLs, and photos easily on the fly), and can save you a lot of time.<br /><br />For live data, you can bind your UI controls to an XML file or to any CLR data source.|[Display data](display-data-in-blend.md)|
 
 For more information about advanced XAML design, see [Create a UI by using Blend for Visual Studio](../xaml-tools/creating-a-ui-by-using-blend-for-visual-studio.md).
+
+## See also
+
+- [XAML overview](xaml-overview.md)
+- [Blend for Visual Studio overview](creating-a-ui-by-using-blend-for-visual-studio.md)
