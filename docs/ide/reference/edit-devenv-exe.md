@@ -3,15 +3,15 @@ title: -Edit (devenv.exe)
 ms.date: 12/10/2018
 ms.topic: reference
 helpviewer_keywords:
-  - "Edit Devenv switch"
-  - "Devenv, /Edit switch"
-  - "/Edit Devenv switch"
+- Edit Devenv switch
+- Devenv, /Edit switch
+- /Edit Devenv switch
 ms.assetid: 02b3d6e7-a2b1-4d83-a747-aa8c2fb758b7
-author: jillre
-ms.author: jillfra
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # /Edit (devenv.exe)
 

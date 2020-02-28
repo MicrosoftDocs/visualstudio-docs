@@ -46,7 +46,7 @@ By changing these options, you can change the behavior related to IntelliSense a
  **Enable Expand Precedence**
  If enabled, you can surround selected text with parentheses by typing '(' into the text editor.
 
- For additional text editor features on the Visual Studio Gallery, see the list [here](http://go.microsoft.com/fwlink/?LinkId=692016). An example is [C++ Quick Fixes](https://visualstudiogallery.msdn.microsoft.com/be91feef-8dc3-4f7a-ac9f-f34e7ca5918f), which supports the following:
+ For additional text editor features on the Visual Studio Gallery, see the list [here](https://marketplace.visualstudio.com/). An example is [C++ Quick Fixes](https://visualstudiogallery.msdn.microsoft.com/be91feef-8dc3-4f7a-ac9f-f34e7ca5918f), which supports the following:
 
 - **Add missing #include** - Suggests relevant #include's for unknown symbols in your code
 
@@ -60,4 +60,4 @@ By changing these options, you can change the behavior related to IntelliSense a
 
 ## See Also
  [Setting Language-Specific Editor Options](../../ide/reference/setting-language-specific-editor-options.md)
- [Refactoring in C++ (VC Blog)](http://blogs.msdn.com/b/vcblog/archive/2014/11/14/all-about-c-refactoring-in-visual-studio-2015-preview.aspx)
+ [Refactoring in C++ (VC Blog)](https://devblogs.microsoft.com/cppblog/all-about-c-refactoring-in-visual-studio-2015-preview/)

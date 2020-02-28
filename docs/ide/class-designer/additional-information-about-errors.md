@@ -3,31 +3,31 @@ title: Class Designer errors
 ms.date: 11/04/2016
 ms.topic: troubleshooting
 f1_keywords:
-  - "vs.classdesigner.CPlusPlusViewInDiagramNoTypeFound"
-  - "vs.classdesigner.CPlusPlusNoTypeFound"
-  - "vs.classdesigner.CannotShowBaseType"
-  - "vs.classdesigner.MatchOrphanTypesAtLoad"
-  - "vs.classdesigner.CannotShowType"
-  - "vs.classdesigner.AssociationTypeNotFoundError"
-  - "vs.classdesigner.ViewInDiagramNoTypesFound"
-  - "vs.classdesigner.CannotImplementInterface"
-  - "vs.classdesigner.CannotShowImplementedInterface"
-  - "vs.classdesigner.ViewInDiagramUnparsableTypeFound"
-  - "vs.classdesigner.AssociationTypeNotFound"
-  - "vs.classdesigner.CPlusPlusTypeCannotBeAdded"
+- vs.classdesigner.CPlusPlusViewInDiagramNoTypeFound
+- vs.classdesigner.CPlusPlusNoTypeFound
+- vs.classdesigner.CannotShowBaseType
+- vs.classdesigner.MatchOrphanTypesAtLoad
+- vs.classdesigner.CannotShowType
+- vs.classdesigner.AssociationTypeNotFoundError
+- vs.classdesigner.ViewInDiagramNoTypesFound
+- vs.classdesigner.CannotImplementInterface
+- vs.classdesigner.CannotShowImplementedInterface
+- vs.classdesigner.ViewInDiagramUnparsableTypeFound
+- vs.classdesigner.AssociationTypeNotFound
+- vs.classdesigner.CPlusPlusTypeCannotBeAdded
 helpviewer_keywords:
-  - "errors, class diagrams"
-  - "errors, Class Designer"
-  - "error messages, Class Designer"
-  - "error messages, class diagrams"
-  - "Class Designer [Visual Studio], errors"
-  - "class diagrams, errors"
+- errors, class diagrams
+- errors, Class Designer
+- error messages, Class Designer
+- error messages, class diagrams
+- Class Designer [Visual Studio], errors
+- class diagrams, errors
 ms.assetid: 79d70e70-704c-4255-ab68-c10d6949470e
-author: jillre
-ms.author: jillfra
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Class Designer errors
 

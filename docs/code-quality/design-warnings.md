@@ -3,21 +3,21 @@ title: Design Warnings
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "vs.codeanalysis.designrules"
+- vs.codeanalysis.designrules
 helpviewer_keywords:
-  - "design warnings"
-  - "managed code analysis warnings, design warnings"
-  - "warnings, design"
+- design warnings
+- managed code analysis warnings, design warnings
+- warnings, design
 ms.assetid: 34e65a18-560c-423f-814f-519089e318cf
-author: jillre
-ms.author: jillfra
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Design warnings
 
-Design warnings support adherence to the [.NET Design Guidelines](/dotnet/standard/design-guidelines/).
+Design warnings support adherence to the [.NET Framework Design Guidelines](/dotnet/standard/design-guidelines/).
 
 ## In This Section
 

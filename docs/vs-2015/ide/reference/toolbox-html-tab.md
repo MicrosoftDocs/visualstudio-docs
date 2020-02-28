@@ -122,7 +122,7 @@ The **HTML** tab of the Toolbox provides components that are useful on Web pages
  For more information, see [HTML Input Controls](https://msdn.microsoft.com/library/2ba82c6b-dff7-4b73-b1c2-9e76a48a69de), [HtmlInputPassword Server Control Declarative Syntax](https://msdn.microsoft.com/df703dd0-1624-4e5a-a547-c97f2f331b9f), [How to: Set a TextBox Web Server Control for Password Entry](https://msdn.microsoft.com/library/5b5069f3-64a1-435a-aee6-da263f4e6310), and [Walkthrough: Validating User Input in a Web Forms Page](https://msdn.microsoft.com/library/7141d6ba-34f3-410b-b5cd-2102a24cb436).
 
 > [!IMPORTANT]
-> If your application transmits user names and passwords, you should configure your Web site to use Secure Sockets Layer (SSL) to encrypt the transmission. For more information, see "Securing Connections with SSL" in the [IIS Operations Guide](http://go.microsoft.com/fwlink/?linkid=47856). Additionally, it is recommended that you validate all user input. For more information, see [Validating User Input in ASP.NET Web Pages](https://msdn.microsoft.com/library/4ad3dacb-89e0-4cee-89ac-40a3f2a85461).
+> If your application transmits user names and passwords, you should configure your Web site to use Secure Sockets Layer (SSL) to encrypt the transmission. For more information, see "Securing Connections with SSL" in the [IIS Operations Guide](https://technet.microsoft.com/library/cc732976(v=WS.10).aspx). Additionally, it is recommended that you validate all user input. For more information, see [Validating User Input in ASP.NET Web Pages](https://msdn.microsoft.com/library/4ad3dacb-89e0-4cee-89ac-40a3f2a85461).
 
  **Input (Check box)**
  ![HTML webpage Toolbox Checkbox Option](../../ide/reference/media/vxcheckbox.gif "vxCheckbox")

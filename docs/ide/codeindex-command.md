@@ -3,15 +3,15 @@ title: CodeIndex command
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
-  - "command-line tools [Team Foundation Server]"
-  - "TFSConfig"
-  - "CodeIndex command [Team Foundation Server]"
+- command-line tools [Team Foundation Server]
+- TFSConfig
+- CodeIndex command [Team Foundation Server]
 ms.assetid: b79568d4-6a64-4ca9-a1ee-3e57f92a9c5c
-author: jillre
-ms.author: jillfra
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # CodeIndex command
 
@@ -119,4 +119,4 @@ TFSConfig CodeIndex /destroyCodeIndex /collectionName:"Fabrikam Website"
 ## See also
 
 - [Find code changes and other history with CodeLens](../ide/find-code-changes-and-other-history-with-codelens.md)
-- [Managing server configuration with TFSConfig](/tfs/server/ref/command-line/tfsconfig-cmd)
+- [Managing server configuration with TFSConfig](/azure/devops/server/command-line/tfsconfig-cmd)

@@ -17,4 +17,4 @@ This Architecture Tooling Guidance is a downloadable package of practical guidan
 
  The content was created by the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] ALM Rangers, a special group that has members from the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Product Team, Microsoft Services, Microsoft Most Valued Professionals (MVPs), and [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Community Leads.
 
- [Click here to download the Architecture Tooling Guidance.](http://go.microsoft.com/fwlink/?LinkID=191984).
+ [Click here to download the Architecture Tooling Guidance.](https://archive.codeplex.com/?p=vsarchitectureguide).

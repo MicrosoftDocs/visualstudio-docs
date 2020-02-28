@@ -43,7 +43,7 @@ Extensible Markup Language (XML)* is a markup language that provides a format fo
 
  XML is at the core of many features of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] and the [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)]. The following topic list names the tools and features related to XML that are offered in [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] and the [!INCLUDE[dnprdnshort](../includes/dnprdnshort-md.md)].
 
- For more information, see the [XML Developer Center](http://go.microsoft.com/fwlink/?LinkID=100176), which provides the latest documentation, technical information, downloads, newsgroups, and other resources for XML developers.
+ For more information, see the [XML Developer Center](https://msdn.microsoft.com/data/bb190600.aspx), which provides the latest documentation, technical information, downloads, newsgroups, and other resources for XML developers.
 
 ## In This Section
  [Working with XML Data](../xml-tools/working-with-xml-data.md)
@@ -53,8 +53,8 @@ Extensible Markup Language (XML)* is a markup language that provides a format fo
  Provides links to topics about using the Visual Studio debugger to debug XSLT.
 
 ## Reference
- [Microsoft.VisualStudio.XmlEditor](http://go.microsoft.com/fwlink/?LinkID=165699)
- Exposes the [XML Editor](http://go.microsoft.com/fwlink/?LinkId=228249) parse tree through [System.Xml.Linq](http://go.microsoft.com/fwlink/?LinkId=228250) for any XML documents.
+ [Microsoft.VisualStudio.XmlEditor](https://msdn.microsoft.com/library/microsoft.visualstudio.xmleditor.aspx)
+ Exposes the [XML Editor](https://msdn.microsoft.com/library/ms255810.aspx) parse tree through [System.Xml.Linq](https://msdn.microsoft.com/library/system.xml.linq.aspx) for any XML documents.
 
  [XML Standards Reference](https://msdn.microsoft.com/79c78508-c9d0-423a-a00f-672e855de401)
  Provides information about XML technologies, including XML, Document Type Definition (DTD), XML Schema definition language (XSD), and XSLT.

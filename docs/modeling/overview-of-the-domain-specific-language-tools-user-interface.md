@@ -3,14 +3,14 @@ title: Overview of the Domain-Specific Language Tools User Interface
 ms.date: 11/04/2016
 ms.topic: conceptual
 f1_keywords:
-  - "vs.dsltools.dsldesigner.editor"
+- vs.dsltools.dsldesigner.editor
 helpviewer_keywords:
-  - "Domain-Specific Language Tools, user interface"
-author: jillre
-ms.author: jillfra
+- Domain-Specific Language Tools, user interface
+author: JoshuaPartlow
+ms.author: joshuapa
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Overview of the Domain-Specific Language Tools User Interface
 When you first open a Domain-Specific Language Tools (DSL Tools) solution in Visual Studio, the user interface will resemble the following picture.

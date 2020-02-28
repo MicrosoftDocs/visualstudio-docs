@@ -3,18 +3,18 @@ title: Code Analysis for Managed Code Warnings
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "vc.project.vcfxcoptool.enablefxcop"
+- vc.project.vcfxcoptool.enablefxcop
 helpviewer_keywords:
-  - "managed code analyis, warnings"
-  - "warnings, managed code analysis"
-  - "managed code analysis warnings"
-  - "code analysis,managed code"
+- managed code analyis, warnings
+- warnings, managed code analysis
+- managed code analysis warnings
+- code analysis,managed code
 ms.assetid: 3c2741ff-0d3a-42e6-acd5-d42310bd03c4
-author: jillre
-ms.author: jillfra
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ms.workload:
-  - "dotnet"
+- dotnet
 ---
 # Code Analysis for Managed Code Warnings
 The Managed Code Analysis tool provides warnings that indicate rule violations in managed code libraries. The warnings are organized into rule areas such as design, localization, performance, and security. Each warning signifies a violation of a Managed Code Analysis rule. This section provides in-depth discussions and examples for each Managed Code Analysis warning.

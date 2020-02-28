@@ -3,9 +3,9 @@ title: Windows Forms Designer tutorial
 ms.date: 08/09/2019
 ms.topic: conceptual
 helpviewer_keywords:
-  - "Windows Forms Designer, get started"
-author: jillre
-ms.author: jillfra
+- Windows Forms Designer, get started
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ---
 # Walkthrough: Get started with Windows Forms Designer

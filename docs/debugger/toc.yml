@@ -16,7 +16,7 @@
     href: quickstart-debug-with-managed.md
   - name: Debug a C++ app
     href: quickstart-debug-with-cplusplus.md
-  - name: Debug an ASP.NET app
+  - name: Debug an ASP.NET Core app
     href: quickstart-debug-aspnet.md
 - name: Tutorials
   items:
@@ -46,10 +46,14 @@
       href: using-breakpoints.md
     - name: Troubleshooting breakpoints
       href: troubleshooting-breakpoints.md
+    - name: Troubleshooting C# data breakpoints
+      href: troubleshoot-data-breakpoint-errors.md
   - name: Data inspection
     items:
     - name: Inspect data in debugger windows
       href: debugger-windows.md
+    - name: Inspect exceptions
+      href: exception-helper.md 
     - name: Inspect variables
       href: autos-and-locals-windows.md
     - name: Watch variables
@@ -264,6 +268,10 @@
           href: visualizer-api-reference.md
     - name: restore hidden debugger commands
       href: how-to-restore-hidden-debugger-commands.md
+  - name: Source code
+    items:
+    - name: Decompile .NET assemblies
+      href: decompilation.md    
   - name: Remote debugging
     items:
     - name: Remote debugging
@@ -272,12 +280,14 @@
       href: remote-debugging-aspnet-on-a-remote-iis-computer.md
     - name: Remote debug ASP.NET on an IIS computer
       href: remote-debugging-aspnet-on-a-remote-iis-7-5-computer.md
-    - name: Remote debug ASP.NET on Azure
+    - name: Remote debug ASP.NET Core on Azure
       href: remote-debugging-azure.md
     - name: Remote debug a C# or Visual Basic project
       href: remote-debugging-csharp.md
     - name: Remote debug a C++ project
       href: remote-debugging-cpp.md
+    - name: Remote debug .NET Core on Linux
+      href: remote-debugging-dotnet-core-linux-with-ssh.md
     - name: Remote debugger port assignments
       href: remote-debugger-port-assignments.md
     - name: Configure the Windows Firewall for remote debugging
@@ -654,18 +664,8 @@
         href: javascript-console-commands.md
       - name: Keyboard shortcuts (HTML and JavaScript)
         href: keyboard-shortcuts-html-and-javascript.md
-      - name: Client-side scripts
-        items:
-        - name: Client-side script debugging
-          href: client-side-script-debugging.md
-        - name: Limitations on script debugging
-          href: limitations-on-script-debugging.md
-        - name: Attach (script)
-          items:
-          - name: Attach to script
-            href: how-to-attach-to-script.md
-          - name: "Warning: Script debugging disabled"
-            href: warning-script-debugging-disabled.md
+      - name: "Warning: Script debugging disabled"
+        href: warning-script-debugging-disabled.md
     - name: WCF services
       items:
       - name: Debug WCF services

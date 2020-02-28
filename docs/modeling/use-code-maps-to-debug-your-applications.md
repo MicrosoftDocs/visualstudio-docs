@@ -3,19 +3,19 @@ title: Use code maps to debug your applications
 ms.date: 09/28/2018
 ms.topic: conceptual
 helpviewer_keywords:
-  - "Visual Studio Ultimate, visualizing code"
-  - "Visual Studio Ultimate, navigating code visually"
-  - "Visual Studio Ultimate, understanding code"
-  - "Visual Studio Ultimate, mapping code relationships"
-  - "Visual Studio Ultimate, code maps"
-  - "mapping code relationships"
-  - "code maps"
-  - "mapping relationships in code"
-author: jillre
-ms.author: jillfra
+- Visual Studio Ultimate, visualizing code
+- Visual Studio Ultimate, navigating code visually
+- Visual Studio Ultimate, understanding code
+- Visual Studio Ultimate, mapping code relationships
+- Visual Studio Ultimate, code maps
+- mapping code relationships
+- code maps
+- mapping relationships in code
+author: JoshuaPartlow
+ms.author: joshuapa
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Use code maps to debug your applications
 

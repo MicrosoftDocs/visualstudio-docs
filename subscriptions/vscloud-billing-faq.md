@@ -40,7 +40,7 @@ Azure subscription is part of your Enterprise Agreement.
 Another approach is to attempt to visit the [Azure Enterprise Portal](https://ea.azure.com).  If you can reach it successfully, then you already have either
 the Enterprise Admin or the Account Owner role. Only Account Owners can set up new Azure billing accounts in an Enterprise Agreement. If you cannot access
 the Azure Enterprise Portal, then please inquire within your organization to find out who your Enterprise Admin is, and ask that person to add you as an
-Account Owner within the Azure Enterprise Portal.  If you are unable to find this person, you can [submit a support ticket](https://aka.ms/AzureEntSupport)
+Account Owner within the Azure Enterprise Portal.  If you are unable to find this person, you can [submit a support ticket](https://support.microsoft.com/supportrequestform/cf791efa-485b-95a3-6fad-3daf9cd4027c)
 and request the contact information.  You need your organization's name and your Enterprise Agreement enrollment number for the support ticket.
 
 ### Q: Can I use the Azure Monetary Commitment funds from my Enterprise Agreement to buy Visual Studio cloud subscriptions?
@@ -97,7 +97,7 @@ Before you make purchases, you will need to [remove your spending limit](https:/
 
 ### Q: What's the difference between annual and monthly cloud subscriptions?
 A:  Monthly cloud subscriptions include Visual Studio plus use of Azure DevOps Services and TFS. Annual cloud subscriptions have this too, but also include subscriber
-benefits, including use of Windows and other Microsoft software to install and run for development and testing, a monthly Azure DevTest indiviual credit to use for experimenting with Azure services and doing development and testing in the cloud, training, support, and much more.
+benefits, including use of Windows and other Microsoft software to install and run for development and testing, a monthly Azure DevTest individual credit to use for experimenting with Azure services and doing development and testing in the cloud, training, support, and much more.
 [Compare cloud subscription benefits and pricing](https://visualstudio.microsoft.com/vs/pricing/)
 
 ### Q: Do I get new versions of Visual Studio if I buy a Visual Studio cloud subscription?

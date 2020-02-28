@@ -3,11 +3,11 @@ title: Evaluate an XPath expression while debugging
 ms.date: 03/05/2019
 ms.topic: conceptual
 ms.assetid: 159ba4ef-75e4-4ac8-80dc-e064e0bec345
-author: jillre
-ms.author: jillfra
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Evaluate XPath expressions
 

@@ -56,27 +56,27 @@ This page describes how to install Visual Studio 2015 when you are not connected
 | Component or Package | Solution |
 |-|-|
 | Dotfuscator and Analytics Community Edition 5.19.1 (for the Community, Professional, and Enterprise editions of Visual Studio, as installed on **Windows 7 SP1** and **Windows Server 2008 R2**) | If your offline machine is running **Windows 7 SP1** or **Windows Server 2008 R2**, you must perform the following steps before you install Visual Studio 2015:<br /><br /> 1.  Configure a file or web server to download the CTL files.<br /><br /> 2.    Redirect the Microsoft Automatic Update URL for a disconnected environment.<br /><br /> For more information, see the [Configure Trusted Roots and Disallowed Certificates](https://technet.microsoft.com/library/dn265983.aspx) page on the Microsoft TechNet site. |
-| Android SDK Setup (API Level) | You must have an internet connection to install Android SDK (API Level) packages. If you are on a restricted network, you must allow access to the following URLs when you install Visual Studio:<br /><br /> -   http://dl.google.com:443<br />-   http://dl-ssl.google.com:443<br />-   https://dl-ssl.google.com/android/repository/*<br /> <br />For more information about how to resolve possible issues with proxy settings, see the [Visual Studio 2015 install failures (Android SDK Setup) behind a Proxy](https://blogs.msdn.microsoft.com/peterhauge/2016/09/22/visual-studio-2015-install-failures-android-sdk-setup-behind-a-proxy/) blog post. |
-| Visual Studio Extensibility Item Templates<br /><br /> GitHub Extension for Visual Studio<br /><br /> PowerShell Tools for Visual Studio | If you do not have an internet connection when you install Visual Studio 2015, you can use a special offline feed to generate the offline installation layout. **Note:**  This special feed includes the most recent Updates to Visual Studio 2015. <br /><br /> To create the special offline feed, run the following command: /layout *Drive:*\VisualStudio2015 /overridefeeduri *URL-to-feed-xml*<br /><br /> For example, for an English-language special offline feed of Visual Studio 2015 Enterprise, run:<br /><br /> `vs_enterprise_ENU.exe /layout D:\VisualStudio2015 /overridefeeduri "http://go.microsoft.com/fwlink/?LinkID=785882&clcid0x409"`<br /><br /> For a complete list of URLs that you can use to create a special offline feed in the language of your choice, see the table below. |
+| Android SDK Setup (API Level) | You must have an internet connection to install Android SDK (API Level) packages. If you are on a restricted network, you must allow access to the following URLs when you install Visual Studio:<br /><br /> -   https://dl.google.com:443<br />-   https://dl-ssl.google.com:443<br />-   https://dl-ssl.google.com/android/repository/*<br /> <br />For more information about how to resolve possible issues with proxy settings, see the [Visual Studio 2015 install failures (Android SDK Setup) behind a Proxy](https://blogs.msdn.microsoft.com/peterhauge/2016/09/22/visual-studio-2015-install-failures-android-sdk-setup-behind-a-proxy/) blog post. |
+| Visual Studio Extensibility Item Templates<br /><br /> GitHub Extension for Visual Studio<br /><br /> PowerShell Tools for Visual Studio | If you do not have an internet connection when you install Visual Studio 2015, you can use a special offline feed to generate the offline installation layout. **Note:**  This special feed includes the most recent Updates to Visual Studio 2015. <br /><br /> To create the special offline feed, run the following command: /layout *Drive:*\VisualStudio2015 /overridefeeduri *URL-to-feed-xml*<br /><br /> For example, for an English-language special offline feed of Visual Studio 2015 Enterprise, run:<br /><br /> `vs_enterprise_ENU.exe /layout D:\VisualStudio2015 /overridefeeduri "https://go.microsoft.com/fwlink/?LinkID=785882&clcid0x409"`<br /><br /> For a complete list of URLs that you can use to create a special offline feed in the language of your choice, see the table below. |
 
  Use the following URLs to create a language-specific special offline feed, as described in the table above.
 
 |       Language        |                            URL                            |
 |-----------------------|-----------------------------------------------------------|
-| Chinese (Simplified)  | http://go.microsoft.com/fwlink/?LinkID=785882&clcid=0x804 |
-| Chinese (Traditional) | http://go.microsoft.com/fwlink/?LinkID=785882&clcid=0x404 |
-|         Czech         | http://go.microsoft.com/fwlink/?LinkID=785882&clcid=0x405 |
-|        German         | http://go.microsoft.com/fwlink/?LinkID=785882&clcid=0x407 |
-|        English        | http://go.microsoft.com/fwlink/?LinkID=785882&clcid=0x409 |
-|        Spanish        | http://go.microsoft.com/fwlink/?LinkID=785882&clcid=0xC0A |
-|        French         | http://go.microsoft.com/fwlink/?LinkID=785882&clcid=0x40C |
-|        Italian        | http://go.microsoft.com/fwlink/?LinkID=785882&clcid=0x410 |
-|       Japanese        | http://go.microsoft.com/fwlink/?LinkID=785882&clcid=0x411 |
-|        Korean         | http://go.microsoft.com/fwlink/?LinkID=785882&clcid=0x412 |
-|        Polish         | http://go.microsoft.com/fwlink/?LinkID=785882&clcid=0x415 |
-|      Portuguese       | http://go.microsoft.com/fwlink/?LinkID=785882&clcid=0x416 |
-|        Russian        | http://go.microsoft.com/fwlink/?LinkID=785882&clcid=0x419 |
-|        Turkish        | http://go.microsoft.com/fwlink/?LinkID=785882&clcid=0x41F |
+| Chinese (Simplified)  | https://go.microsoft.com/fwlink/?LinkID=785882&clcid=0x804 |
+| Chinese (Traditional) | https://go.microsoft.com/fwlink/?LinkID=785882&clcid=0x404 |
+|         Czech         | https://go.microsoft.com/fwlink/?LinkID=785882&clcid=0x405 |
+|        German         | https://go.microsoft.com/fwlink/?LinkID=785882&clcid=0x407 |
+|        English        | https://go.microsoft.com/fwlink/?LinkID=785882&clcid=0x409 |
+|        Spanish        | https://go.microsoft.com/fwlink/?LinkID=785882&clcid=0xC0A |
+|        French         | https://go.microsoft.com/fwlink/?LinkID=785882&clcid=0x40C |
+|        Italian        | https://go.microsoft.com/fwlink/?LinkID=785882&clcid=0x410 |
+|       Japanese        | https://go.microsoft.com/fwlink/?LinkID=785882&clcid=0x411 |
+|        Korean         | https://go.microsoft.com/fwlink/?LinkID=785882&clcid=0x412 |
+|        Polish         | https://go.microsoft.com/fwlink/?LinkID=785882&clcid=0x415 |
+|      Portuguese       | https://go.microsoft.com/fwlink/?LinkID=785882&clcid=0x416 |
+|        Russian        | https://go.microsoft.com/fwlink/?LinkID=785882&clcid=0x419 |
+|        Turkish        | https://go.microsoft.com/fwlink/?LinkID=785882&clcid=0x41F |
 
 ## See Also
 

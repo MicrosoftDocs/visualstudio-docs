@@ -1,7 +1,7 @@
 ---
 title: "Cross-platform mobile development with C++ | Microsoft Docs"
 ms.custom: ""
-ms.date: "10/17/2019"
+ms.date: "11/14/2019"
 ms.technology: vs-ide-mobile
 ms.topic: "conceptual"
 dev_langs:
@@ -36,10 +36,6 @@ Mobile development with C++ is an installable workload that comes with Visual St
 If you're coming from Android or iOS development, we have some great material on how to get started. Visual Studio is an expressive and capable development environment. To learn how to use it, try [Get started for Android developers](/previous-versions/windows/apps/dn275875\(v=win.10\)) or [Get started for iOS developers](/previous-versions/windows/apps/jj657966\(v=win.10\)). These articles introduce you to Visual Studio, and to the concepts you'll need to develop cross-platform apps for Windows and Windows Store. To get started writing your first cross-platform app for iOS and Android, see [Build an OpenGL ES application on Android and iOS](../cross-platform/build-an-opengl-es-application-on-android-and-ios.md).
 
 The Mobile development with C++ workload includes several templates to help you get started on your apps:
-
-- OpenGLES 2 Application (Android, iOS, Windows Universal)
-
-  Creates a solution that includes a set of projects to build an Android Native Activity app, an iOS app, and a Universal Windows app, together with a shared C++ code library. These apps use platform-specific libraries created by using common C++ OpenGL ES code to draw the same spinning cube in each app. To use this template, include the **Universal Windows platform development** workload when you install Visual Studio.
 
 - Native-Activity Application (Android)
 

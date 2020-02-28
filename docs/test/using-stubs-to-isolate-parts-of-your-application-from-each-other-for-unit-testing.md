@@ -1,15 +1,15 @@
 ---
-title: "Using stubs to isolate parts of your app for testing"
+title: Using stubs to isolate parts of your app for testing
 ms.date: 11/04/2016
 ms.topic: conceptual
-ms.author: jillfra
+ms.author: mikejo
 manager: jillfra
 ms.workload:
-  - "multiple"
-author: jillre
+- multiple
+author: mikejo5000
 dev_langs:
- - CSharp
- - VB
+- CSharp
+- VB
 ---
 # Use stubs to isolate parts of your application from each other for unit testing
 

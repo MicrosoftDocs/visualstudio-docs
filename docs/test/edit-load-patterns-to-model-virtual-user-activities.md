@@ -1,14 +1,14 @@
 ---
-title: "Load patterns for load testing"
+title: Load patterns for load testing
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "load tests, load patterns"
-  - "load tests, scenarios"
-  - "load tests, virtual users"
+- load tests, load patterns
+- load tests, scenarios
+- load tests, virtual users
 ms.assetid: 0ba0363b-7f50-4bde-a919-0e3bce7bc115
-author: jillre
-ms.author: jillfra
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ---
 # Edit load patterns to model virtual user activities

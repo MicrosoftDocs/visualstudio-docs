@@ -20,7 +20,7 @@ manager: jillfra
 Visual Studio includes support for unit testing managed [!INCLUDE[win8_appname_long](../includes/win8-appname-long-md.md)] apps and includes unit test library templates for Visual C#, Visual Basic and Visual C++.
 
 > [!TIP]
-> For more information about developing [!INCLUDE[win8_appname_long](../includes/win8-appname-long-md.md)] apps, see [Getting started with Windows Store apps](http://go.microsoft.com/fwlink/?LinkID=241410).
+> For more information about developing [!INCLUDE[win8_appname_long](../includes/win8-appname-long-md.md)] apps, see [Getting started with Windows Store apps](https://msdn.microsoft.com/windows/apps/br211386.aspx).
 
  Visual Studio provides the following unit testing functionality:
 
@@ -90,7 +90,7 @@ Visual Studio includes support for unit testing managed [!INCLUDE[win8_appname_l
 
 1. In the Code Editor, edit the unit test and add the asserts and logic required for your test.
 
-     For more information, see in [Using the Assert Classes](http://go.microsoft.com/fwlink/?LinkID=224991) in the MSDN library.
+     For more information, see in [Using the Assert Classes](https://msdn.microsoft.com/library/ms182530.aspx) in the MSDN library.
 
 ## <a name="CreateAndRunUnitTestWin8Tailored_Run"></a> Run Unit Tests
 
@@ -133,13 +133,13 @@ Visual Studio includes support for unit testing managed [!INCLUDE[win8_appname_l
 ## External Resources
 
 ### Videos
- [Channel 9: Unit testing your Windows Store apps built using XAML](http://go.microsoft.com/fwlink/?LinkId=226285)
+ [Channel 9: Unit testing your Windows Store apps built using XAML](https://channel9.msdn.com/Events/BUILD/BUILD2011/TOOL-529T)
 
 ### Forums
- [Visual Studio Unit Testing](http://go.microsoft.com/fwlink/?LinkId=224477)
+ [Visual Studio Unit Testing](https://social.msdn.microsoft.com/Forums/en/vsunittest/threads)
 
 ### MSDN Library
- [MSDN Library – Creating and Running Unit Tests for Existing Code (Visual Studio 2010)](http://go.microsoft.com/fwlink/?LinkID=223683)
+ [MSDN Library – Creating and Running Unit Tests for Existing Code (Visual Studio 2010)](https://msdn.microsoft.com/library/hh270865(v=vs.110).aspx)
 
 ## See Also
  [Testing Store apps with Visual Studio](../test/testing-store-apps-with-visual-studio.md)

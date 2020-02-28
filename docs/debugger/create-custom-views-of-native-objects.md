@@ -20,6 +20,9 @@ The Visual Studio *Natvis* framework customizes the way native types appear in d
 
 Natvis replaces the *autoexp.dat* file in earlier versions of Visual Studio with XML syntax, better diagnostics, versioning, and multiple file support.
 
+> [!NOTE]
+> Natvis customizations work with classes and structs, but not typedefs.
+
 ## <a name="BKMK_Why_create_visualizations_"></a>Natvis visualizations
 
 You use the Natvis framework to create visualization rules for the types you create, so that developers can see them more easily during debugging.
@@ -85,6 +88,30 @@ The Visual Studio debugger loads *.natvis* files in C++ projects automatically, 
 >[!NOTE]
 >Natvis rules loaded from a *.pdb* apply only to the types in the modules that the *.pdb* refers to. For example, if *Module1.pdb* has a Natvis entry for a type named `Test`, it only applies to the `Test` class in *Module1.dll*. If another module also defines a class named `Test`, the *Module1.pdb* Natvis entry does not apply to it.
 
+**To install and register a *.natvis* file via a VSIX package:**
+
+A VSIX package can install and register *.natvis* files. No matter where are they installed, all registered *.natvis* files are automatically picked up during debugging.
+
+1. Include the *.natvis* file in the VSIX package. For example, for the following project file:
+   ```xml
+   <?xml version="1.0" encoding="utf-8"?>
+   <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="14.0">
+     <ItemGroup>
+       <VSIXSourceItem Include="Visualizer.natvis" />
+     </ItemGroup>
+   </Project>
+   ```
+
+2. Register the *.natvis* file in the *source.extension.vsixmanifest* file:
+   ```xml
+   <?xml version="1.0" encoding="utf-8"?>
+   <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+     <Assets>
+       <Asset Type="NativeVisualizer" Path="Visualizer.natvis"  />
+     </Assets>
+   </PackageManifest>
+   ```
+
 ### <a name="BKMK_natvis_location"></a> Natvis file locations
 
 You can add *.natvis* files to your user directory or to a system directory, if you want them to apply to multiple projects.
@@ -95,19 +122,21 @@ The *.natvis* files are evaluated in the following order:
 
 2. Any *.natvis* files that are in a loaded C++ project or top-level solution. This group includes all loaded C++ projects, including class libraries, but not projects in other languages.
 
+3. Any *.natvis* files installed and registered via a VSIX package.
+
 ::: moniker range="vs-2017"
 
-3. The user-specific Natvis directory (for example, *%USERPROFILE%\Documents\Visual Studio 2017\Visualizers*).
+4. The user-specific Natvis directory (for example, *%USERPROFILE%\Documents\Visual Studio 2017\Visualizers*).
 
 ::: moniker-end
 
 ::: moniker range=">= vs-2019"
 
-3. The user-specific Natvis directory (for example, *%USERPROFILE%\Documents\Visual Studio 2019\Visualizers*).
+4. The user-specific Natvis directory (for example, *%USERPROFILE%\Documents\Visual Studio 2019\Visualizers*).
 
 ::: moniker-end
 
-4. The system-wide Natvis directory (*%VSINSTALLDIR%\Common7\Packages\Debugger\Visualizers*). This directory has the *.natvis* files that are installed with Visual Studio. If you have administrator permissions, you can add files to this directory.
+5. The system-wide Natvis directory (*%VSINSTALLDIR%\Common7\Packages\Debugger\Visualizers*). This directory has the *.natvis* files that are installed with Visual Studio. If you have administrator permissions, you can add files to this directory.
 
 ## Modify .natvis files while debugging
 
@@ -673,7 +702,7 @@ Each type defined in the *.natvis* file must explicitly list any UI visualizers 
 </Type>
 ```
 
- You can see an example of a `UIVisualizer` in the [Image Watch](https://marketplace.visualstudio.com/items?itemName=VisualCPPTeam.ImageWatch2017) extension used to view in-memory bitmaps.
+ You can see an example of a `UIVisualizer` in the [Image Watch](https://marketplace.visualstudio.com/search?term=%22Image%20Watch%22&target=VS&category=All%20categories&vsVersion=&sortBy=Relevance) extension used to view in-memory bitmaps.
 
 ### <a name="BKMK_CustomVisualizer"></a>CustomVisualizer element
  `CustomVisualizer` is an extensibility point that specifies a VSIX extension that you write to control visualizations in Visual Studio code. For more information about writing VSIX extensions, see the [Visual Studio SDK](../extensibility/visual-studio-sdk.md).
@@ -681,3 +710,9 @@ Each type defined in the *.natvis* file must explicitly list any UI visualizers 
 It's a lot more work to write a custom visualizer than an XML Natvis definition, but you're free from constraints about what Natvis does or doesn't support. Custom visualizers have access to the full set of debugger extensibility APIs, which can query and modify the debuggee process or communicate with other parts of Visual Studio.
 
  You can use the `Condition`, `IncludeView`, and `ExcludeView` attributes on `CustomVisualizer` elements.
+
+ ## Limitations
+
+Natvis customizations work with classes and structs, but not typedefs.
+
+Natvis does not support visualizers for primitive types (for example, `int`, `bool`) or for pointers to primitive types. In this scenario, one option is to use the [format specifier](../debugger/format-specifiers-in-cpp.md) appropriate to your use case. For example, if you use `double* mydoublearray` in your code, then you can use an array format specifier in the debugger's **Watch** window, such as the expression `mydoublearray, [100]`, which shows the first 100 elements.

@@ -22,7 +22,7 @@ manager: jillfra
 # How to: Troubleshoot Unsuccessful Visual Studio Project Upgrades
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-Sometimes Visual Studio cannot fully convert a project from an earlier version of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]. If the tips in the following sections do not resolve your specific problem, you might be able to find more information on the TechNet [Wiki: Development Portal](http://go.microsoft.com/fwlink/?LinkId=254808).
+Sometimes Visual Studio cannot fully convert a project from an earlier version of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]. If the tips in the following sections do not resolve your specific problem, you might be able to find more information on the TechNet [Wiki: Development Portal](https://social.technet.microsoft.com/wiki/contents/articles/706.wiki-development-portal.aspx#Visual_Studio).
 
 ## The Project Does Not Run Because Files Are Not Found
  A project file contains hard-coded file paths that [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] uses to run the project when you press F5. These paths may include the location of devenv.exe and other required files. In an upgraded version of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], the paths of these files may have been changed.

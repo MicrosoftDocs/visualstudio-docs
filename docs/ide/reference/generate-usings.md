@@ -20,7 +20,7 @@ This code generation applies to:
 
 **What:** Lets you immediately add the necessary imports or [using directives](/dotnet/csharp/language-reference/keywords/using-directive) for copy-and-pasted code.
 
-**When:** It's common practice to copy code from different places in your project or other sources and paste it in to new code. This Quick Action finds missing imports directives for copy-and-pasted code and then prompts you to add them.
+**When:** It's common practice to copy code from different places in your project or other sources and paste it in to new code. This Quick Action finds missing imports directives for copy-and-pasted code and then prompts you to add them. This code fix can also add references from project to project.
 
 **Why:** Because the Quick Action automatically adds necessary imports, you don't need to manually copy the `using` directives that your code needs.
 

@@ -3,17 +3,17 @@ title: Maintainability Warnings
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "vs.codeanalysis.maintainabilityrules"
+- vs.codeanalysis.maintainabilityrules
 helpviewer_keywords:
-  - "warnings, maintainability"
-  - "managed code analysis warnings, maintainability warnings"
-  - "maintainability warnings"
+- warnings, maintainability
+- managed code analysis warnings, maintainability warnings
+- maintainability warnings
 ms.assetid: 537e70ca-a88c-49df-bfc7-0ee63bbe4f16
-author: jillre
-ms.author: jillfra
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Maintainability warnings
 

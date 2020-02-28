@@ -196,7 +196,7 @@ To diagnose issues in your ASP.NET web app after deployment by using IntelliTrac
   
      ![Go to application code from performance event](../debugger/media/ffr-itsummarypageperformancegotocode.png "FFR_ITSummaryPagePerformanceGoToCode")  
   
-     Now you can review other recorded values, the call stack, step through your code, or use the **IntelliTrace** window to [move backwards or forwards "in time" between other methods](../debugger/intellitrace.md) that were called during this performance event. [What's all these other events and information in the IntelliTrace log?](../debugger/using-saved-intellitrace-data.md)[What else can I do from here?](#WhatElse)[Want more information about performance events?](http://blogs.msdn.com/b/visualstudioalm/archive/2013/09/20/performance-details-in-intellitrace.aspx)  
+     Now you can review other recorded values, the call stack, step through your code, or use the **IntelliTrace** window to [move backwards or forwards "in time" between other methods](../debugger/intellitrace.md) that were called during this performance event. [What's all these other events and information in the IntelliTrace log?](../debugger/using-saved-intellitrace-data.md)[What else can I do from here?](#WhatElse)[Want more information about performance events?](https://devblogs.microsoft.com/devops/performance-details-in-intellitrace/)  
   
 ### Diagnose an exception  
   

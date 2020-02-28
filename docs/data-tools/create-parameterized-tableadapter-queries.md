@@ -3,21 +3,21 @@ title: Create parameterized TableAdapter queries
 ms.date: 11/04/2016
 ms.topic: conceptual
 dev_langs:
-  - "VB"
-  - "CSharp"
+- VB
+- CSharp
 helpviewer_keywords:
-  - "data [Visual Studio], TableAdapters"
-  - "TableAdapters, parameterized queries"
-  - "data [Visual Studio], searching data"
-  - "queries [Visual Studio], creating"
-  - "TableAdapters, searching data"
-  - "queries [Visual Studio], TableAdapters"
+- data [Visual Studio], TableAdapters
+- TableAdapters, parameterized queries
+- data [Visual Studio], searching data
+- queries [Visual Studio], creating
+- TableAdapters, searching data
+- queries [Visual Studio], TableAdapters
 ms.assetid: 104d1d19-b5a9-4071-b81e-1b3af08e9c7b
-author: jillre
-ms.author: jillfra
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "data-storage"
+- data-storage
 ---
 # Create parameterized TableAdapter queries
 

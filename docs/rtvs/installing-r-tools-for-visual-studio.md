@@ -59,7 +59,7 @@ Microsoft R Open and CRAN R both allow for multiple side-by-side versions. Micro
 
 ### Install the R tools
 
-Download the current RTVS for Visual Studio 2015 from [https://aka.ms/rtvs-current](https://aka.ms/rtvs-current). RTVS checks for a suitable version of Visual Studio and helps you install an R interpreter if you haven't already.
+Download the current RTVS for Visual Studio 2015 from [https://rtvs.blob.core.windows.net/download/RTVS_2017-12-18.1.exe](https://rtvs.blob.core.windows.net/download/RTVS_2017-12-18.1.exe). RTVS checks for a suitable version of Visual Studio and helps you install an R interpreter if you haven't already.
 
 > [!Note]
 > The standalone RTVS installer works only with Visual Studio 2015; with Visual Studio 2017, install R support through the [Data Science and Analytical Applications workload](#install-rtvs-in-visual-studio-2017) as described earlier.
@@ -76,7 +76,7 @@ Offline installation is suitable for computers that are not connected to the Int
 
 1. Follow the instructions for creating an offline installation in the web page.
 
-1. For Visual Studio 2015, download the offline RTVS installers from [https://aka.ms/rtvs-current-zip](https://aka.ms/rtvs-current-zip) and [https://aka.ms/rtvs-remote-zip](https://aka.ms/rtvs-remote-zip).
+1. For Visual Studio 2015, download the offline RTVS installers from [https://rtvs.blob.core.windows.net/download/RTVS_2017-12-18.1.zip](https://rtvs.blob.core.windows.net/download/RTVS_2017-12-18.1.zip) and [https://rtvs.blob.core.windows.net/download/RTVS_Remote_2017-12-12.1.zip](https://rtvs.blob.core.windows.net/download/RTVS_Remote_2017-12-12.1.zip).
 
 1. Install Visual Studio and RTVS from the offline installers.
 

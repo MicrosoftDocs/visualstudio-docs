@@ -74,7 +74,6 @@
       "feedback_product_url": "https://developercommunity.visualstudio.com/",
       "breadcrumb_path": "/visualstudio/_breadcrumb/toc.json",
       "extendBreadcrumb": "true",
-      "ROBOTS": "INDEX,FOLLOW",
       "manager": "jillfra",
       "author": "jillre",
       "ms.author": "jillfra",

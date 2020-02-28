@@ -3,12 +3,12 @@ title: Options, Text Editor, F#, CodeLens
 ms.date: 01/16/2019
 ms.topic: reference
 f1_keywords:
-  - "VS.ToolsOptionsPages.Text_Editor.F%2523.CodeLens"
-author: jillre
-ms.author: jillfra
+- VS.ToolsOptionsPages.Text_Editor.F%2523.CodeLens
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "dotnet"
+- dotnet
 ---
 # Options, Text Editor, F#, CodeLens
 

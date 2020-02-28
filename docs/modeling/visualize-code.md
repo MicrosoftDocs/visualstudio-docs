@@ -3,14 +3,14 @@ title: Visualize code
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "code, understanding"
-  - "code, visualizing"
-  - "code, exploring"
-author: jillre
-ms.author: jillfra
+- code, understanding
+- code, visualizing
+- code, exploring
+author: JoshuaPartlow
+ms.author: joshuapa
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Visualize code
 

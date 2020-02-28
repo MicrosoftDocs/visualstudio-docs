@@ -3,12 +3,12 @@ title: About Domain-Specific Languages
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "Domain-Specific Language"
-author: jillre
-ms.author: jillfra
+- Domain-Specific Language
+author: JoshuaPartlow
+ms.author: joshuapa
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # About Domain-Specific Languages
 

@@ -1,20 +1,20 @@
 ---
-title: "Troubleshoot network or proxy errors"
-description: "Find solutions for network- or proxy-related errors that you might encounter when you install or use Visual Studio behind a firewall or a proxy server."
+title: Troubleshoot network or proxy errors
+description: Find solutions for network- or proxy-related errors that you might encounter when you install or use Visual Studio behind a firewall or a proxy server.
 ms.date: 10/29/2019
 ms.topic: troubleshooting
 helpviewer_keywords:
-  - "network installation, Visual Studio"
-  - "administrator guide, Visual Studio"
-  - "installing Visual Studio, administrator guide"
-  - "list of domains, locations, URLs, Visual Studio"
-  - "proxy errors, Visual Studio"
-ms.assetid:
-author: TerryGLee
-ms.author: tglee
+- network installation, Visual Studio
+- administrator guide, Visual Studio
+- installing Visual Studio, administrator guide
+- list of domains, locations, URLs, Visual Studio
+- proxy errors, Visual Studio
+ms.assetid: 
+author: ornellaalt
+ms.author: ornella
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
 ---
@@ -131,7 +131,7 @@ Enable connections for the following URLs:
 
 You might encounter this error message when you use a Visual Studio bootstrapper and a response.json file on a network drive. The error's source is the User Account Control (UAC) in Windows.
 
-Here's why this error can happen: A mapped network drive or [UNC](/dotnet/standard/io/file-patch-formats#unc-paths) share is linked to a user's access token. When UAC is enabled, two user [access tokens](/windows/win32/secauthz/access-tokens) are created: One *with* administrator access, and one *without* administrator access. When network drive or share is created, the user's current access token is linked to it. Because the bootstrapper must be run as administrator, it won't be able to access the network drive or share if either the drive or the share isn't linked to a user access token that has administrator access.
+Here's why this error can happen: A mapped network drive or [UNC](/dotnet/standard/io/file-path-formats#unc-paths) share is linked to a user's access token. When UAC is enabled, two user [access tokens](/windows/win32/secauthz/access-tokens) are created: One *with* administrator access, and one *without* administrator access. When a network drive or share is created, the user's current access token is linked to it. Because the bootstrapper must be run as administrator, it won't be able to access the network drive or share if either the drive or the share isn't linked to a user access token that has administrator access.
 
 ### To fix this error
 

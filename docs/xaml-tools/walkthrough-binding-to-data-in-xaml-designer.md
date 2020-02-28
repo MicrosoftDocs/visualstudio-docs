@@ -1,14 +1,14 @@
 ---
-title: "Bind to data in XAML Designer"
+title: Bind to data in XAML Designer
 ms.date: 11/04/2016
 ms.topic: conceptual
 f1_keywords:
-  - "VS.XamlDesigner.DataBinding"
+- VS.XamlDesigner.DataBinding
 dev_langs:
- - CSharp
- - VB
-author: jillre
-ms.author: jillfra
+- CSharp
+- VB
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ---
 # Walkthrough: Bind to data in XAML Designer

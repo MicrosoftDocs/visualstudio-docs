@@ -3,13 +3,13 @@ title: Set code bookmarks
 ms.date: 02/23/2018
 ms.topic: conceptual
 f1_keywords:
-  - "VS.BookmarkWindow"
+- VS.BookmarkWindow
 ms.assetid: a752ed5f-5cf9-4bf2-865a-2131ca600ed5
-author: jillre
-ms.author: jillfra
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Set bookmarks in code
 

@@ -3,27 +3,27 @@ title: Full screen and virtual space mode
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "word wrap"
-  - "views, virtual space"
-  - "line numbers, displaying"
-  - "virtual space mode"
-  - "line numbers"
-  - "Code Editor, view and display options"
-  - "full screen mode"
-  - "Code Editor, modes"
-  - "views, splitting"
-  - "views, word wrapping"
-  - "fonts and size"
-  - "views, creating new windows"
-  - "views, line numbers"
-  - "views, changing mode"
-  - "views, outlining"
+- word wrap
+- views, virtual space
+- line numbers, displaying
+- virtual space mode
+- line numbers
+- Code Editor, view and display options
+- full screen mode
+- Code Editor, modes
+- views, splitting
+- views, word wrapping
+- fonts and size
+- views, creating new windows
+- views, line numbers
+- views, changing mode
+- views, outlining
 ms.assetid: 1fb48027-d870-439f-8b72-4a0321390748
-author: jillre
-ms.author: jillfra
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # How to: Manage editor modes
 

@@ -3,17 +3,17 @@ title: FxCop analyzer rule sets and editorconfig files
 ms.date: 10/08/2019
 ms.topic: conceptual
 helpviewer_keywords:
-  - "analyzer packages, rule sets"
-  - "rule sets for analyzers"
-author: jillre
-ms.author: jillfra
+- analyzer packages, rule sets
+- rule sets for analyzers
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Enable a category of rules
 
-Analyzer packages may include predefined [EditorConfig](use-roslyn-analyzers.md#set-rule-severity-in-an-editorconfig-file) and [rule set](using-rule-sets-to-group-code-analysis-rules.md) files that make it quick and easy to enable a category of rules, such as security or design rules. The [Microsoft.CodeAnalysis.FxCopAnalyzers](https://www.nuget.org/packages/Microsoft.CodeAnalysis.FxCopAnalyzers/) NuGet analyzer package includes both rule sets (starting in version 2.6.2) and EditorConfig files (starting in version 2.9.5). By enabling a specific category of rules, you can identify targeted issues and specific conditions.
+Analyzer packages may include predefined [EditorConfig](use-roslyn-analyzers.md#rule-severity) and [rule set](using-rule-sets-to-group-code-analysis-rules.md) files that make it quick and easy to enable a category of rules, such as security or design rules. The [Microsoft.CodeAnalysis.FxCopAnalyzers](https://www.nuget.org/packages/Microsoft.CodeAnalysis.FxCopAnalyzers/) NuGet analyzer package includes both rule sets (starting in version 2.6.2) and EditorConfig files (starting in version 2.9.5). By enabling a specific category of rules, you can identify targeted issues and specific conditions.
 
 > [!NOTE]
 > Enabling analyzer rules and setting their severity by using an EditorConfig file is supported starting in Visual Studio 2019 version 16.3.

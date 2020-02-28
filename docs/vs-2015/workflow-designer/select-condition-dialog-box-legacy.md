@@ -19,13 +19,13 @@ This topic describes how use the **Select Condition** dialog box in the legacy [
 
  The **Select Condition** dialog box is used to select a declarative rule condition to be assigned to an activity's condition property. These rule conditions are exposed as properties on the following Windows Workflow Foundation out-of-box activities:
 
-- [ConditionedActivityGroup](http://go.microsoft.com/fwlink?LinkID=65017)
+- [ConditionedActivityGroup](https://msdn2.microsoft.com/library/system.workflow.activities.conditionedactivitygroup.aspx)
 
-- [IfElseBranchActivity](http://go.microsoft.com/fwlink?LinkID=65034)
+- [IfElseBranchActivity](https://msdn2.microsoft.com/library/system.workflow.activities.ifelsebranchactivity.aspx)
 
-- [ReplicatorActivity](http://go.microsoft.com/fwlink?LinkID=65039)
+- [ReplicatorActivity](https://msdn2.microsoft.com/library/system.workflow.activities.replicatoractivity.aspx)
 
-- [WhileActivity](http://go.microsoft.com/fwlink?LinkID=65049)
+- [WhileActivity](https://msdn2.microsoft.com/library/system.workflow.activities.whileactivity.aspx)
 
   For information about how to access the **Select Condition** dialog box, see [How to: Create a Declarative Rule Condition (Legacy)](../workflow-designer/how-to-create-a-declarative-rule-condition-legacy.md).
 
@@ -42,14 +42,14 @@ This topic describes how use the **Select Condition** dialog box in the legacy [
 
  For more information about creating and editing rule conditions, see [Rule Condition Editor Dialog Box (Legacy)](../workflow-designer/rule-condition-editor-dialog-box-legacy.md).
 
- For more information about conditions, see [Using Conditions in Workflows](http://go.microsoft.com/fwlink?LinkID=65009).
+ For more information about conditions, see [Using Conditions in Workflows](https://msdn2.microsoft.com/library/bb628447.aspx).
 
 ## See Also
  [Rule Condition Editor Dialog Box (Legacy)](../workflow-designer/rule-condition-editor-dialog-box-legacy.md)
  [How to: Create a Declarative Rule Condition (Legacy)](../workflow-designer/how-to-create-a-declarative-rule-condition-legacy.md)
- [Using Conditions in Workflows](http://go.microsoft.com/fwlink?LinkID=65009)
- [Using the ConditionedActivityGroup Activity](http://go.microsoft.com/fwlink?LinkID=65066)
- [Using the IfElseBranchActivity Activity](http://go.microsoft.com/fwlink?LinkID=65075)
- [Using the ReplicatorActivity Activity](http://go.microsoft.com/fwlink?LinkID=65080)
- [Using the WhileActivity Activity](http://go.microsoft.com/fwlink?LinkID=65091)
+ [Using Conditions in Workflows](https://msdn2.microsoft.com/library/bb628447.aspx)
+ [Using the ConditionedActivityGroup Activity](https://msdn2.microsoft.com/library/bb675237.aspx)
+ [Using the IfElseBranchActivity Activity](https://msdn2.microsoft.com/library/bb628465.aspx)
+ [Using the ReplicatorActivity Activity](https://msdn2.microsoft.com/library/bb628544.aspx)
+ [Using the WhileActivity Activity](https://msdn2.microsoft.com/library/bb628552.aspx)
  [Legacy Designer for Windows Workflow Foundation UI Help](../workflow-designer/legacy-designer-for-windows-workflow-foundation-ui-help.md)

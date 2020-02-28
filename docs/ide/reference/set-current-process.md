@@ -3,14 +3,14 @@ title: Set Current Process
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
-  - "Debug.SetCurrentProcess command"
-  - "Set Current Process command"
+- Debug.SetCurrentProcess command
+- Set Current Process command
 ms.assetid: 1e016ebd-aadd-411f-a606-03bf69d3f8aa
-author: jillre
-ms.author: jillfra
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Set Current Process
 Sets the specified process as the active process in the debugger.

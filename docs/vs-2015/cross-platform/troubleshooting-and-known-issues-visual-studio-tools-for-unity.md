@@ -30,7 +30,7 @@ In this section, you'll find solutions to common issues with Visual Studio Tools
 3. Generate the new solution and project files. If you want to generate them now, in the Unity Editor, on the main menu, choose **Visual Studio Tools**, **Generate Project Files**. Otherwise, you can skip this step if you want; Visual Studio Tools for Unity will generate the new files automatically when you choose **Visual Studio Tools**, **Open in Visual Studio**.  
   
 ### Visual Studio won't load the solution that Visual Studio Tools for Unity created  
- For more information, see [the answer to this stackoverflow question](http://stackoverflow.com/a/24035907/36702).  
+ For more information, see [the answer to this stackoverflow question](https://stackoverflow.com/questions/20086755/unityvs-visual-studio-can-not-open/24035907#24035907).  
   
 ### On Windows 8, Visual Studio asks to download the Unity target framework  
  UnityVS requires the .net framework 3.5, which isn't installed by default on Windows 8. To fix this issue, follow the instructions to download and install the .net framework 3.5.  

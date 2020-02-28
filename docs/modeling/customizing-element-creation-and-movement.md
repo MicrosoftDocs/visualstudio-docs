@@ -3,14 +3,14 @@ title: Customizing Element Creation and Movement
 ms.date: 11/04/2016
 ms.topic: conceptual
 f1_keywords:
-  - "vs.dsltools.dsldesigner.elementmergedirective"
+- vs.dsltools.dsldesigner.elementmergedirective
 helpviewer_keywords:
-  - "Domain-Specific Language, element merge directives"
-author: jillre
-ms.author: jillfra
+- Domain-Specific Language, element merge directives
+author: JoshuaPartlow
+ms.author: joshuapa
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Customizing Element Creation and Movement
 

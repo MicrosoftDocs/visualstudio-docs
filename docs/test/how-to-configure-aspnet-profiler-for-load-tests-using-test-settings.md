@@ -5,8 +5,8 @@ ms.topic: conceptual
 helpviewer_keywords:
   - "test settings, ASP.NET"
 ms.assetid: 6832fe39-04d5-4d94-8a18-3e2730bad423
-author: jillre
-ms.author: jillfra
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ---
 # How to: Configure ASP.NET profiler for load tests using test settings in Visual Studio

@@ -49,8 +49,6 @@ When you drag items from the [Data Sources Window](https://msdn.microsoft.com/li
 
 > [!CAUTION]
 > You should be very careful when doing anything in the Registry Editor. Back up the registry before editing it. If you use the Registry Editor incorrectly, you can cause serious problems that may require you to reinstall your operating system. Microsoft does not guarantee that problems that you cause by using the Registry Editor incorrectly can be resolved. Use the Registry Editor at your own risk.
->
-> The following KnowledgeBase article contains instructions for backing up, editing, and restoring the registry: [Description of the Microsoft Windows registry](http://support.microsoft.com/default.aspx?scid=kb;en-us;256986) (http://support.microsoft.com/default.aspx?scid=kb;en-us;256986)
 
 ### To modify the smart captioning behavior of the Data Sources window
 

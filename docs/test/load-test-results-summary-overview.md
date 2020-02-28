@@ -1,18 +1,18 @@
 ---
-title: "Load Test Results Summary Overview"
+title: Load Test Results Summary Overview
 ms.date: 10/19/2016
 ms.topic: conceptual
 f1_keywords:
-  - "vs.test.load.monitor.summary.view"
+- vs.test.load.monitor.summary.view
 helpviewer_keywords:
-  - "load test results, summary"
-  - "load tests, summary in analyzer"
-  - "load tests, results summary"
-  - "Load Test Viewer, summary"
-  - "load tests, summary in Load Test Viewer"
+- load test results, summary
+- load tests, summary in analyzer
+- load tests, results summary
+- Load Test Viewer, summary
+- load tests, summary in Load Test Viewer
 ms.assetid: 326b6c3c-5378-452b-8ca3-ba5a06ab3d41
-author: jillre
-ms.author: jillfra
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ---
 # Load test results summary overview

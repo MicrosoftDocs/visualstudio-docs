@@ -3,16 +3,16 @@ title: Extract a method
 description: Turn a fragment of code into its own method by selecting the code and typing Ctrl+R, Ctrl+M.
 ms.date: 01/26/2018
 ms.topic: reference
-author: jillre
-ms.author: jillfra
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 f1_keywords:
-  - "vs.csharp.refactoring.extractmethod"
+- vs.csharp.refactoring.extractmethod
 dev_langs:
-  - CSharp
-  - VB
+- CSharp
+- VB
 ms.workload:
-  - "dotnet"
+- dotnet
 ---
 # Extract a method refactoring
 

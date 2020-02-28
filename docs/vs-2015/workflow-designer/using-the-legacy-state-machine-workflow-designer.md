@@ -36,15 +36,15 @@ When you are creating a new state machine workflow project in [!INCLUDE[vs2010](
 
 |Toolbox Name|Activity|Description|
 |------------------|--------------|-----------------|
-|**State**|[StateActivity](http://go.microsoft.com/fwlink?LinkID=65042)|Represents a state in a state machine; may contain additional **StateActivity** activities. For more information, see [Using the StateActivity Activity](http://go.microsoft.com/fwlink?LinkID=65083).|
-|**SetState**|[SetStateActivity](http://go.microsoft.com/fwlink?LinkID=65041)|Specifies a transition to a new state. For more information, see [Using the SetStateActivity Activity](http://go.microsoft.com/fwlink?LinkID=65082).|
-|**StateInitialization**|[StateInitializationActivity](http://go.microsoft.com/fwlink?LinkID=65044)|Executes when a state is entered; may contain other activities. For more information, see [Using the StateInitialization Activity](http://go.microsoft.com/fwlink?LinkID=65006).|
-|**StateFinalization**|[StateFinalizationActivity](http://go.microsoft.com/fwlink?LinkID=65043)|Executes contained activities when leaving a [StateActivity](http://go.microsoft.com/fwlink?LinkID=65042) activity. For more information, see [Using the StateFinalizationActivity Activity](http://go.microsoft.com/fwlink?LinkID=65008).|
-|**EventDriven**|[EventDrivenActivity](http://go.microsoft.com/fwlink?LinkID=65029)|Used for states that rely on an external event to start executing. The **EventDrivenActivity** activity must have an activity that implements the [IEventActivity](http://go.microsoft.com/fwlink?LinkID=65032) interface as the first child activity. For more information, see [Using the EventDrivenActivity Activity](http://go.microsoft.com/fwlink?LinkID=65068).|
+|**State**|[StateActivity](https://msdn2.microsoft.com/library/system.workflow.activities.stateactivity.aspx)|Represents a state in a state machine; may contain additional **StateActivity** activities. For more information, see [Using the StateActivity Activity](https://msdn2.microsoft.com/library/bb628612.aspx).|
+|**SetState**|[SetStateActivity](https://msdn2.microsoft.com/library/system.workflow.activities.setstateactivity.aspx)|Specifies a transition to a new state. For more information, see [Using the SetStateActivity Activity](https://msdn2.microsoft.com/library/bb628469.aspx).|
+|**StateInitialization**|[StateInitializationActivity](https://msdn2.microsoft.com/library/system.workflow.activities.stateinitializationactivity.aspx)|Executes when a state is entered; may contain other activities. For more information, see [Using the StateInitialization Activity](https://msdn2.microsoft.com/library/bb675253.aspx).|
+|**StateFinalization**|[StateFinalizationActivity](https://msdn2.microsoft.com/library/system.workflow.activities.statefinalizationactivity.aspx)|Executes contained activities when leaving a [StateActivity](https://msdn2.microsoft.com/library/system.workflow.activities.stateactivity.aspx) activity. For more information, see [Using the StateFinalizationActivity Activity](https://msdn2.microsoft.com/library/bb675278.aspx).|
+|**EventDriven**|[EventDrivenActivity](https://msdn2.microsoft.com/library/system.workflow.activities.eventdrivenactivity.aspx)|Used for states that rely on an external event to start executing. The **EventDrivenActivity** activity must have an activity that implements the [IEventActivity](https://msdn2.microsoft.com/library/system.workflow.activities.ieventactivity.aspx) interface as the first child activity. For more information, see [Using the EventDrivenActivity Activity](https://msdn2.microsoft.com/library/bb628466.aspx).|
 
- The main component in a state machine workflow is the [StateActivity](http://go.microsoft.com/fwlink?LinkID=65042) activity. As events are captured at various points in a state machine workflow, different states are entered to handle the tasks that are associated with the events. During the workflow lifetime, the workflow may leave and enter several different states. These states connect to each other by using the [SetStateActivity](http://go.microsoft.com/fwlink?LinkID=65041) activity.
+ The main component in a state machine workflow is the [StateActivity](https://msdn2.microsoft.com/library/system.workflow.activities.stateactivity.aspx) activity. As events are captured at various points in a state machine workflow, different states are entered to handle the tasks that are associated with the events. During the workflow lifetime, the workflow may leave and enter several different states. These states connect to each other by using the [SetStateActivity](https://msdn2.microsoft.com/library/system.workflow.activities.setstateactivity.aspx) activity.
 
- When you drag a new **StateActivity** onto the workflow design surface, you can add [EventDrivenActivity](http://go.microsoft.com/fwlink?LinkID=65029), [StateInitializationActivity](http://go.microsoft.com/fwlink?LinkID=65044), [StateFinalizationActivity](http://go.microsoft.com/fwlink?LinkID=65043), or additional **StateActivity** activities as child activities.
+ When you drag a new **StateActivity** onto the workflow design surface, you can add [EventDrivenActivity](https://msdn2.microsoft.com/library/system.workflow.activities.eventdrivenactivity.aspx), [StateInitializationActivity](https://msdn2.microsoft.com/library/system.workflow.activities.stateinitializationactivity.aspx), [StateFinalizationActivity](https://msdn2.microsoft.com/library/system.workflow.activities.statefinalizationactivity.aspx), or additional **StateActivity** activities as child activities.
 
 > [!CAUTION]
 > When you use the state machine workflow designer to create workflows, you must monitor the structure of the workflow you are designing with the **Document Outline** view window. The view of the structure of the state machine workflow in the **Document Outline** view window mirrors the logical layout of the activities in the workflow markup file. The physical layout of the workflow activities as they appear on the design surface might not mirror the logical layout of the activities in the workflow markup file.
@@ -54,9 +54,9 @@ When you are creating a new state machine workflow project in [!INCLUDE[vs2010](
 ## See Also
  [How to: Create State Machine Workflow Console Applications (Legacy)](../workflow-designer/how-to-create-state-machine-workflow-console-applications-legacy.md)
  [How to: Create a State Machine Workflow Library (Legacy)](../workflow-designer/how-to-create-a-state-machine-workflow-library-legacy.md)
- [State Machine Workflows](http://go.microsoft.com/fwlink?LinkID=65016)
- [Using the StateActivity Activity](http://go.microsoft.com/fwlink?LinkID=65083)
- [Using the StateInitializationActivity Activity](http://go.microsoft.com/fwlink?LinkID=65006)
- [Using the StateFinalizationActivity Activity](http://go.microsoft.com/fwlink?LinkID=65008)
- [Using the SetStateActivity Activity](http://go.microsoft.com/fwlink?LinkID=65082)
- [Using the EventDrivenActivity Activity](http://go.microsoft.com/fwlink?LinkID=65068)
+ [State Machine Workflows](https://msdn2.microsoft.com/library/bb628601.aspx)
+ [Using the StateActivity Activity](https://msdn2.microsoft.com/library/bb628612.aspx)
+ [Using the StateInitializationActivity Activity](https://msdn2.microsoft.com/library/bb675253.aspx)
+ [Using the StateFinalizationActivity Activity](https://msdn2.microsoft.com/library/bb675278.aspx)
+ [Using the SetStateActivity Activity](https://msdn2.microsoft.com/library/bb628469.aspx)
+ [Using the EventDrivenActivity Activity](https://msdn2.microsoft.com/library/bb628466.aspx)

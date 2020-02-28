@@ -50,7 +50,7 @@ If you have multiple Microsoft accounts and/or work or school accounts, you can 
 
  ![Change authentication dialog for ASP.NET](../ide/media/vs2015-change-authentication.png "VS2015_change_authentication")
 
- For more information about the different kinds of authentication in ASP.NET, see [Creating ASP.NET Web Projects in Visual Studio 2013](http://www.asp.net/visual-studio/overview/2013/creating-web-projects-in-visual-studio#orgauth) (the information about authentication is still relevant for Visual Studio 2015).
+ For more information about the different kinds of authentication in ASP.NET, see [Creating ASP.NET Web Projects in Visual Studio 2013](/aspnet/visual-studio/overview/2013/creating-web-projects-in-visual-studio#orgauth) (the information about authentication is still relevant for Visual Studio 2015).
 
 ### Access your Visual Studio Team Services account
  From the main menu, choose **Team > Connect to Team Foundation Server** to bring up the **Team Explorer** window. Click on **Select Team Projects**, and then in the list box under **Select a Team Foundation Server**, you should see the URL for your Visual Studio Team Services account. When you select the URL you will be logged in without having to re-enter your credentials.

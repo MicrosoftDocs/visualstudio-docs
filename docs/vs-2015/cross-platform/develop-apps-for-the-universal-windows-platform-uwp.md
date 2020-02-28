@@ -32,9 +32,9 @@ With the Universal Windows Platform and our one Windows core, you can run the sa
 
  Here is the list of software that you need:
 
-- [Windows 10](http://windows.microsoft.com/windows/downloads)
+- [Windows 10](https://windows.microsoft.com/windows/downloads)
 
-- [Visual Studio 2015](http://go.microsoft.com/fwlink/p/?LinkId=526725). Make sure that the Universal Windows App Development Tools are selected from the optional features list. Without these tools, you won't be able to create your universal apps.
+- [Visual Studio 2015](https://visualstudio.microsoft.com/downloads/). Make sure that the Universal Windows App Development Tools are selected from the optional features list. Without these tools, you won't be able to create your universal apps.
 
   After installing this software, you need to [enable your Windows 10 device](https://msdn.microsoft.com/library/windows/apps/xaml/dn706236.aspx) for development. (You no longer need a developer license for each Windows 10 device.)
 
@@ -49,7 +49,7 @@ With the Universal Windows Platform and our one Windows core, you can run the sa
   You can only use the XAML designer if your development platform is Windows 10.
 
 ## Universal Windows apps
- Choose your preferred development language from C#, Visual Basic, C++ or JavaScript to [create a Universal Windows app for Windows 10 devices](https://msdn.microsoft.com/library/windows/apps/xaml/dn609832.aspx#target_win10). Or, watch [this getting started video](http://channel9.msdn.com/Series/ConnectOn-Demand/229).
+ Choose your preferred development language from C#, Visual Basic, C++ or JavaScript to [create a Universal Windows app for Windows 10 devices](https://msdn.microsoft.com/library/windows/apps/xaml/dn609832.aspx#target_win10). Or, watch [this getting started video](https://channel9.msdn.com/Series/ConnectOn-Demand/229).
 
  If you have existing Windows Store 8.1 apps, Windows Phone 8.1 apps, or Universal Windows apps created with Visual Studio 2015 RC, [port these existing apps](https://msdn.microsoft.com/library/windows/apps/xaml/mt238321.aspx) to use the latest Universal Windows Platform.
 

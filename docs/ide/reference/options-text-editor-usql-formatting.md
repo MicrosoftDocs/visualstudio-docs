@@ -3,16 +3,16 @@ title: U-SQL editor formatting options
 ms.date: 01/17/2019
 ms.topic: reference
 f1_keywords:
-  - "VS.ToolsOptionsPages.Text_Editor.U-SQL.Formatting.Spacing"
-  - "VS.ToolsOptionsPages.Text_Editor.U-SQL.Formatting.NewLines"
-  - "VS.ToolsOptionsPages.Text_Editor.U-SQL.Formatting.Indentation"
-  - "VS.ToolsOptionsPages.Text_Editor.U-SQL.Formatting"
-  - "VS.ToolsOptionsPages.Text_Editor.U-SQL.Formatting.General"
-author: jillre
-ms.author: jillfra
+- VS.ToolsOptionsPages.Text_Editor.U-SQL.Formatting.Spacing
+- VS.ToolsOptionsPages.Text_Editor.U-SQL.Formatting.NewLines
+- VS.ToolsOptionsPages.Text_Editor.U-SQL.Formatting.Indentation
+- VS.ToolsOptionsPages.Text_Editor.U-SQL.Formatting
+- VS.ToolsOptionsPages.Text_Editor.U-SQL.Formatting.General
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Options, Text Editor, U-SQL, Formatting
 

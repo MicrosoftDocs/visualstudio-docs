@@ -33,7 +33,7 @@ Visualizer code must be placed in a DLL that will be read by the debugger. The f
 1. Create a new class library project.
 
     ::: moniker range=">=vs-2019"
-    Press **Esc** to close the start window. Type **Ctrl + Q** to open the search box, type **visual basic**, choose **Templates**, then choose **Create a new Class Library (.NET Standard)**. In the dialog box that appears, choose **Create**.
+    Press **Esc** to close the start window. Type **Ctrl + Q** to open the search box, type **visual basic**, choose **Templates**, then choose **Create a new Class Library (.NET Framework)**. In the dialog box that appears, choose **Create**.
     ::: moniker-end
     ::: moniker range="vs-2017"
     From the top menu bar, choose **File** > **New** > **Project**. In the left pane of the **New project** dialog box, under **Visual Basic**, choose **.NET Standard**, and then in the middle pane choose **Class Library (.NET Standard)**.

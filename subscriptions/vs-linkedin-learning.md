@@ -3,7 +3,7 @@ title: LinkedIn Learning Benefit in Visual Studio Subscriptions | Microsoft Docs
 author: evanwindom
 ms.author: lank
 manager: lank
-ms.date: 08/02/2019
+ms.date: 02/12/2020
 ms.topic: conceptual
 description:  Learn about the LinkedIn Learning benefit included as part of a LinkedIn Premium subscription included in selected Visual Studio subscriptions.
 ---
@@ -66,9 +66,11 @@ To activate your LinkedIn Premium subscription and LinkedIn Learning benefit:
 | Subscription Level                                                 |     Channels                                            | Benefit                                                          | Renewable?    |
 |--------------------------------------------------------------------|---------------------------------------------------------|------------------------------------------------------------------|---------------|
 | Visual Studio Enterprise (Standard)   | VL, Azure, Retail,  selected NFR<sup>1</sup> | 6 months       |  No.  Available to new subscribers only          |
+| Visual Studio Enterprise with GitHub Enterprise   | VL | 6 months       |  No.  Available to new subscribers only          |
 | Visual Studio Professional (Standard) | VL, Azure, Retail                                       | 3 months                                                            |No.  Available to new subscribers only         |
-| Visual Studio Test Professional (Standard)                         | VL, Retail                                              | 3 months                                             |  No.  Available to new subscribers only         |
-| MSDN Platforms (Standard)                                          | VL, Retail                                              | 3 months                                              | No.  Available to new subscribers only         |
+| Visual Studio Professional with GitHub Enterprise | VL | 3 months      | No.  Available to new subscribers only         |
+| Visual Studio Test Professional (Standard)                         | VL, Retail                                              | Not available                                            |  NA         |
+| MSDN Platforms (Standard)                                          | VL, Retail                                              | Not available                                              | NA         |
 | Visual Studio Enterprise, Visual Studio Professional (monthly cloud) | Azure                                       | Not available                                                           |NA|
 
 <sup>1</sup>  *Includes:  Not for Resale (NFR), Visual Studio Industry Partner (VSIP).  Excludes:  Microsoft Partner Network (MPN), FTE, MCT Software & Services Developer, BizSpark, Imagine, Most Valuable Professional (MVP), Regional Director (RD).  MCT Software & Services.*
@@ -88,3 +90,8 @@ A:  No, the LinkedIn Learning offer is available to new subscribers only.
   - Help with general questions about [LinkedIn](https://www.linkedin.com/help/linkedin) such as creating accounts and profiles, and maintaining your network.
 - For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, contact Visual Studio [Subscriptions Support](https://visualstudio.microsoft.com/subscriptions/support/).
 - Have a question about Visual Studio IDE, Azure DevOps Services or other Visual Studio products or services?  Visit [Visual Studio Support](https://visualstudio.microsoft.com/support/).
+
+## Next steps
+Check out the rest of the great benefits included with your subscription. Visit [https://my.visualstudio.com/benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs).
+
+If you haven't already activated the Azure DevTest individual credit benefit that comes with your subscription, visit [https://my.visualstudio.com/benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs) and click on the Azure tile in the Tools category to set up your Azure subscription and redeem your Azure DevTest individual credit.

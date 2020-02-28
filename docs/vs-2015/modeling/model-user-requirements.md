@@ -17,7 +17,7 @@ manager: jillfra
 # Model user requirements
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-Visual Studio helps you understand, discuss, and communicate your users' needs by drawing diagrams about their activities and the part your system plays in helping them achieve their goals. A requirements model is a set of these diagrams, each of which focuses on a different aspect of the users' needs. For a video demonstration, see: [Modeling the Business Domain](http://channel9.msdn.com/posts/clinted/UML-with-VS-2010-Part-3-Modeling-the-Business-Domain/).
+Visual Studio helps you understand, discuss, and communicate your users' needs by drawing diagrams about their activities and the part your system plays in helping them achieve their goals. A requirements model is a set of these diagrams, each of which focuses on a different aspect of the users' needs. For a video demonstration, see: [Modeling the Business Domain](https://channel9.msdn.com/blogs/clinted/uml-with-vs-2010-part-3-modeling-the-business-domain).
 
  To see which versions of Visual Studio support each type of model, see [Version support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport).
 
@@ -132,7 +132,7 @@ Visual Studio helps you understand, discuss, and communicate your users' needs b
 |Elements on a conceptual class diagram|[UML Class Diagrams: Reference](../modeling/uml-class-diagrams-reference.md)|
 |How to develop code from conceptual classes|[Model your app's architecture](../modeling/model-your-app-s-architecture.md)|
 
- In a conceptual class diagram, it is typically not useful to place arrows on the associations to represent navigability. This is because the diagram does not represent an implementation. The associations represent relationships between real-world objects. The following [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] Extension make non-directional arrows the default: [Sample: UML Domain Modeling features](http://go.microsoft.com/fwlink/?LinkId=213849).
+ In a conceptual class diagram, it is typically not useful to place arrows on the associations to represent navigability. This is because the diagram does not represent an implementation. The associations represent relationships between real-world objects.
 
 ## <a name="BusinessRules"></a> Showing Business Rules
  A business rule is a requirement that is not associated with a particular use case, and should be observed throughout the system.
@@ -237,8 +237,4 @@ Visual Studio helps you understand, discuss, and communicate your users' needs b
  [Develop tests from a model](../modeling/develop-tests-from-a-model.md)
  [Use models in your development process](../modeling/use-models-in-your-development-process.md)
  [Model your app's architecture](../modeling/model-your-app-s-architecture.md)
- [Sample VS Extension: UML Domain Modeling features](http://go.microsoft.com/fwlink/?LinkId=213849)
- [Sample VS Extension: Color UML Elements by Stereotype](http://go.microsoft.com/fwlink/?LinkID=213841)
- [Sample VS Extension: Link UML Elements to Diagrams, Files, and other Elements](http://go.microsoft.com/fwlink/?LinkID=213813)
- [Sample VS Extension: Align Shapes on a UML Diagram](http://go.microsoft.com/fwlink/?LinkID=213809)
- [Video: Modeling the Business Domain](http://channel9.msdn.com/posts/clinted/UML-with-VS-2010-Part-3-Modeling-the-Business-Domain/)
+ [Video: Modeling the Business Domain](https://channel9.msdn.com/blogs/clinted/uml-with-vs-2010-part-3-modeling-the-business-domain)

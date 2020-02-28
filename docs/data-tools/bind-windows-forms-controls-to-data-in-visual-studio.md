@@ -3,20 +3,20 @@ title: Bind Windows Forms controls to data
 ms.date: 11/03/2017
 ms.topic: conceptual
 helpviewer_keywords:
-  - "data [Windows Forms], data sources"
-  - "Windows Forms, data binding"
-  - "Windows Forms, displaying data"
-  - "displaying data on forms"
-  - "forms, displaying data"
-  - "data sources, displaying data"
-  - "displaying data, Windows Forms"
-  - "data [Windows Forms], displaying"
+- data [Windows Forms], data sources
+- Windows Forms, data binding
+- Windows Forms, displaying data
+- displaying data on forms
+- forms, displaying data
+- data sources, displaying data
+- displaying data, Windows Forms
+- data [Windows Forms], displaying
 ms.assetid: 243338ef-41af-4cc5-aff7-1e830236f0ec
-author: jillre
-ms.author: jillfra
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "data-storage"
+- data-storage
 ---
 # Bind Windows Forms controls to data in Visual Studio
 

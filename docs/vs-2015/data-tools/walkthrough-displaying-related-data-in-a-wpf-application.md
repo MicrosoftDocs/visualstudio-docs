@@ -40,7 +40,7 @@ In this walkthrough, you will create a WPF application that displays data from d
 
 - [!INCLUDE[vsprvs](../includes/vsprvs-md.md)].
 
-- Access to a running instance of SQL Server or SQL Server Express that has the AdventureWorksLT sample database attached to it. You can download the AdventureWorksLT database from the [CodePlex Web site](http://go.microsoft.com/fwlink/?linkid=87843).
+- Access to a running instance of SQL Server or SQL Server Express that has the AdventureWorksLT sample database attached to it. You can download the AdventureWorksLT database from the [CodePlex Web site](https://codeplex.com/SqlServerSamples).
 
   Prior knowledge of the following concepts is also helpful, but not required to complete the walkthrough:
 

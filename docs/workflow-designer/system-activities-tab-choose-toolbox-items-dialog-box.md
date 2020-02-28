@@ -1,16 +1,16 @@
 ---
-title: "Workflow Designer: System.Activities, Choose Toolbox Items"
+title: 'Workflow Designer: System.Activities, Choose Toolbox Items'
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "VS.CHOOSEITEMS.SYSTEM.ACTIVITIES_COMPONENTS"
-  - "VS.CHOOSEITEMS.SYSTEM.ACTIVITIES COMPONENTS"
+- VS.CHOOSEITEMS.SYSTEM.ACTIVITIES_COMPONENTS
+- VS.CHOOSEITEMS.SYSTEM.ACTIVITIES COMPONENTS
 ms.assetid: cef390cd-eeda-42e6-9d2e-18c8325a4f06
-author: jillre
-ms.author: jillfra
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # System.Activities tab, Choose Toolbox Items dialog box
 

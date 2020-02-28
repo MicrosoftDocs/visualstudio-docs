@@ -3,8 +3,8 @@ title: Working with elements in XAML Designer
 ms.date: 05/14/2018
 ms.topic: conceptual
 ms.assetid: a29690bf-f212-4ac6-a77a-adc53d14102e
-author: jillre
-ms.author: jillfra
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ---
 # Work with elements in XAML Designer

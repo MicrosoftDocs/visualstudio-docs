@@ -25,6 +25,7 @@
 ## [Creating new Projects](create-new-projects.md)
 ## [Adding and removing Project Items](add-and-remove-project-items.md)
 ## [Managing Solutions and Project properties](managing-solutions-and-project-properties.md)
+## [Multitargeting](project-multitargeting.md)
 ## Managing references in a project
 ### [Overview](managing-references-in-a-project.md)
 ### [Walkthrough - Including a NuGet package in your project](nuget-walkthrough.md)
@@ -35,6 +36,8 @@
 ## [Editor Features](source-editor.md)
 ## [Refactoring](refactoring.md)
 ## [IntelliSense](intellisense.md)
+## [Show Import Items](show-imports.md)
+## [Multi-caret Editing](multi-caret-editing.md)
 ## [Comments](comments.md)
 ## [Editor Behavior](editor-behavior.md)
 ## [Task Comments](task-comments.md)
@@ -47,6 +50,7 @@
 # Debugging
 ## [Overview](debugging.md)
 ## [Data Visualizations](data-visualizations.md)
+## [Debugging NuGet packages with Source Link](source-link.md)
 
 # Compiling and Building
 ## [Overview](compiling-and-building.md)
@@ -77,6 +81,7 @@
 ### [Getting Started with ASP.NET Core](asp-net-core.md)
 ### [Building ASP.NET Core applications in Visual Studio for Mac](building-asp-net-core.md)
 ### [Razor](razor.md)
+### [Blazor](blazor.md)
 ### [JavaScript and TypeScript](javascript.md)
 ### [launchSettings.json](launch-settings.md)
 ## Azure
@@ -119,13 +124,13 @@
 ## [Troubleshooting: Why can I not see all templates?](troubleshooting-no-templates.md)
 ## [Troubleshooting: Updater has errors retrieving information](updater-troubleshooting.md)
 
-# [Release Notes](https://docs.microsoft.com/visualstudio/releasenotes/vs2019-mac-relnotes)
-# [Preview Release Notes](https://docs.microsoft.com/visualstudio/releasenotes/vs2019-mac-preview-relnotes)
+# [Release Notes](/visualstudio/releasenotes/vs2019-mac-relnotes)
+# [Preview Release Notes](/visualstudio/releasenotes/vs2019-mac-preview-relnotes)
 # Samples
 ## [Featured Samples](samples/index.yml)
-## [All ASP.NET Core Samples](https://docs.microsoft.com/samples/browse/?products=aspnet-core)
-## [All .NET Core Samples](https://docs.microsoft.com/samples/browse/?products=dotnet-core)
-## [All Xamarin.Forms Samples](https://docs.microsoft.com/xamarin/xamarin-forms/samples/)
-## [All Xamarin.iOS Samples](https://docs.microsoft.com/xamarin/ios/samples/)
-## [All Xamarin.Android Samples](https://docs.microsoft.com/xamarin/android/samples/)
-## [All Xamarin.Mac Samples](https://docs.microsoft.com/xamarin/mac/samples/)
+## [All ASP.NET Core Samples](/samples/browse/?products=aspnet-core)
+## [All .NET Core Samples](/samples/browse/?products=dotnet-core)
+## [All Xamarin.Forms Samples](/xamarin/xamarin-forms/samples/)
+## [All Xamarin.iOS Samples](/xamarin/ios/samples/)
+## [All Xamarin.Android Samples](/xamarin/android/samples/)
+## [All Xamarin.Mac Samples](/xamarin/mac/samples/)

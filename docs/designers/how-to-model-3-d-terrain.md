@@ -1,13 +1,13 @@
 ---
-title: "How to: Model 3D Terrain"
+title: 'How to: Model 3D Terrain'
 ms.date: 11/04/2016
 ms.topic: conceptual
 ms.assetid: f779b1fd-82a9-4a11-8ab7-c1c9caabc883
-author: jillre
-ms.author: jillfra
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # How to: Model 3D terrain
 

@@ -375,5 +375,4 @@ namespace AlignCommand
 ## See Also
  [Extend UML models and diagrams](../modeling/extend-uml-models-and-diagrams.md)
  [Navigate the UML model](../modeling/navigate-the-uml-model.md)
- [Sample: Align Shapes on a Diagram menu command](http://go.microsoft.com/fwlink/?LinkId=213809)
- [Sample: Creating Elements, Shapes and Stereotypes](http://go.microsoft.com/fwlink/?LinkId=213811)
+ 

@@ -3,16 +3,16 @@ title: Code Metrics window
 ms.date: 12/12/2017
 ms.topic: reference
 f1_keywords:
-  - "vs.codemetrics.output"
+- vs.codemetrics.output
 helpviewer_keywords:
-  - "code metrics results"
-  - "code metrics results window"
-  - "results window, code metrics"
-author: jillre
-ms.author: jillfra
+- code metrics results
+- code metrics results window
+- results window, code metrics
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Use the Code Metrics Results window
 

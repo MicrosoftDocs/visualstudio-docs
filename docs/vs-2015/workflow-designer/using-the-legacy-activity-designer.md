@@ -43,17 +43,17 @@ This topic describes how to use the activity designer in the legacy [!INCLUDE[wf
 |Property|Comments|
 |--------------|--------------|
 |**Name**|Name of the activity.|
-|**Base Class**|Base class that the activity derives from. The default base class is [SequenceActivity](http://go.microsoft.com/fwlink?LinkID=65020). In the **Properties** window, click the **Base Class** ellipses **[…]** to select another base class in the [Browse and Select a .NET Type Dialog Box (Legacy)](../workflow-designer/browse-and-select-a-dotnet-type-dialog-box-legacy.md).|
+|**Base Class**|Base class that the activity derives from. The default base class is [SequenceActivity](https://msdn2.microsoft.com/library/system.workflow.activities.sequenceactivity.aspx). In the **Properties** window, click the **Base Class** ellipses **[…]** to select another base class in the [Browse and Select a .NET Type Dialog Box (Legacy)](../workflow-designer/browse-and-select-a-dotnet-type-dialog-box-legacy.md).|
 |**Description**|User-defined description of the activity.|
-|**Enabled**|Set to **True** by default to enable activity execution and validation. Set to **False** to disable activity execution and validation. For information about activity execution and validation, see [Developing Workflow Activities](http://go.microsoft.com/fwlink?LinkID=65024).|
+|**Enabled**|Set to **True** by default to enable activity execution and validation. Set to **False** to disable activity execution and validation. For information about activity execution and validation, see [Developing Workflow Activities](https://msdn2.microsoft.com/library/ms734413.aspx).|
 
 ## Adding Child Activities
  You can drag child activities from the Toolbox to the activity that you are designing. You can then configure each child activity using the property browser.
 
 ## See Also
- [Developing Workflow Activities](http://go.microsoft.com/fwlink?LinkID=65024)
- [Creating Custom Activities](http://go.microsoft.com/fwlink?LinkID=65021)
+ [Developing Workflow Activities](https://msdn2.microsoft.com/library/ms734413.aspx)
+ [Creating Custom Activities](https://msdn2.microsoft.com/library/bb675228.aspx)
  [Legacy Workflow Activities](../workflow-designer/legacy-workflow-activities.md)
- [Custom Activities Samples](http://go.microsoft.com/fwlink?LinkID=65022)
+ [Custom Activities Samples](https://msdn2.microsoft.com/library/bb472471.aspx)
  [How to: Create a Workflow Activity Library (Legacy)](../workflow-designer/how-to-create-a-workflow-activity-library-legacy.md)
  [Using the Legacy Workflow Designer](../workflow-designer/using-the-legacy-workflow-designer.md)

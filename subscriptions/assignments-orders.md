@@ -23,17 +23,22 @@ Your complete purchase obligation is determined by the maximum number of subscri
 - Visual Studio subscriptions administrators may reassign subscriptions from one subscriber to another if 90 days have passed since the time of the original assignment. 
     > [!NOTE]
     > To avoid an artificially high level of maximum usage, always do this by first removing the existing subscription and then adding the new one. 
-- To help you monitor your organization's maximumusage, there is a [Maximum Usage](maximum-usage.md) report in the Visual Studio [Subscriptions Administration Portal](https://manage.visualstudio.com). 
+- To help you monitor your organization's maximum usage, there is a [Maximum Usage](maximum-usage.md) report in the Visual Studio [Subscriptions Administration Portal](https://manage.visualstudio.com). 
 
-## Cloud Subscriptions, Open License or Open Value
-You may be assigning subscriptions through a program like Microsoft Cloud subscriptions, Open License or Open Value. If so, then you must process your order for additional users during the month in which users (employees or external contractors) begin interacting with Visual Studio-licensed software.
+## Monthly Subscriptions, Open License or Open Value
+You may be assigning subscriptions through  programs like Open License and Open Value or through Visual Studio Marketplace on a monthly basis. If so, then you must process your order for additional users during the month in which users (employees or external contractors) begin interacting with Visual Studio-licensed software.
 
 ## Enterprise, MPSA and Select Agreements
-Microsoft Enterprise Agreements (EA), MPSA and Select Plus Agreements give you flexibility in how you use and license Visual Studio software over time. Visual Studio administrators must make an annual True-Up order to bring their software licenses up to the high watermark of usage established during the agreement period.
+Microsoft Enterprise Agreements (EA), MPSA and Select Plus Agreements give you flexibility in how you use and license Visual Studio software over time. Visual Studio administrators must make an annual True-Up order to bring their software licenses up to the maximum usage established during the agreement period.
 
 ## Next steps
 Learn more about responsibilities for administrators:
-- [Adminstrator responsibilities](admin-responsibilities.md)
+- [Administrator responsibilities](admin-responsibilities.md)
 - [Inventory of pre-production environment](admin-inventory.md)
 - [Manage large teams and external contractors](manage-teams.md)
 - Use [Maximum Usage](maximum-usage.md) to track purchase commitments
+
+## See also
+- [Visual Studio documentation](/visualstudio/)
+- [Azure documentation](/azure/)
+- [Azure DevOps](/azure/devops/)

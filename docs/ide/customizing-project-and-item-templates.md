@@ -3,10 +3,10 @@ title: Customizing project and item templates
 ms.date: 01/02/2018
 ms.topic: conceptual
 helpviewer_keywords:
-  - "customizing templates [Visual Studio]"
-  - "Visual Studio templates, customizing"
-author: jillre
-ms.author: jillfra
+- customizing templates [Visual Studio]
+- Visual Studio templates, customizing
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ---
 # Customize project and item templates

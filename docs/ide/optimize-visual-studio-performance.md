@@ -1,17 +1,17 @@
 ---
 title: Improve performance if Visual Studio is slow
-titleSuffix: ""
+titleSuffix: ''
 ms.date: 04/11/2018
 ms.topic: conceptual
 helpviewer_keywords:
-  - "performance [Visual Studio]"
-author: jillre
-ms.author: jillfra
+- performance [Visual Studio]
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 f1_keywords:
-  - "vs.performancecenter"
+- vs.performancecenter
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Optimize Visual Studio performance
 

@@ -1,27 +1,30 @@
 ---
-title: Data access and tools
+title: Work with data in Visual Studio
 ms.date: 11/04/2016
 ms.topic: conceptual
-f1_keywords:
- - "80025080"
 helpviewer_keywords:
- - "data [Visual Studio]"
- - "data access [Visual Studio]"
- - "data [C#]"
- - "ADO.NET, data access"
-author: jillre
-ms.author: jillfra
+- data [Visual Studio]
+- data access [Visual Studio]
+- data [C#]
+- ADO.NET, data access
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
- - "data-storage"
+- data-storage
 ---
-# Access data in Visual Studio
+# Work with data in Visual Studio
 
 In Visual Studio, you can create applications that connect to data in virtually any database product or service, in any format, anywhere—on a local machine, on a local area network, or in a public, private, or hybrid cloud.
 
 For applications in JavaScript, Python, PHP, Ruby, or C++, you connect to data like you do anything else, by obtaining libraries and writing code. For .NET applications, Visual Studio provides tools that you can use to explore data sources, create object models to store and manipulate data in memory, and bind data to the user interface. Microsoft Azure provides SDKs for .NET, Java, Node.js, PHP, Python, Ruby, and mobile apps, and tools in Visual Studio for connecting to Azure Storage.
 
+::: moniker range="vs-2017"
 The following lists show just a few of the many database and storage systems that can be used from Visual Studio. The [Microsoft Azure](https://azure.microsoft.com/) offerings are data services that include all provisioning and administration of the underlying data store. The **Azure development** workload in [Visual Studio 2017](https://visualstudio.microsoft.com/vs/older-downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=vs+2017+download) enables you to work with Azure data stores directly from Visual Studio.
+::: moniker-end
+::: moniker range=">=vs-2019"
+The following lists show just a few of the many database and storage systems that can be used from Visual Studio. The [Microsoft Azure](https://azure.microsoft.com/) offerings are data services that include all provisioning and administration of the underlying data store. The **Azure development** workload in [Visual Studio 2019](https://visualstudio.microsoft.com/downloads) enables you to work with Azure data stores directly from Visual Studio.
+::: moniker-end
 
 ![Azure development workload](media/azure-development-workload.png)
 
@@ -107,7 +110,7 @@ There is no requirement to use any of these technologies. In some scenarios, esp
 
 ## Native C++
 
-C++ applications that connect to SQL Server should use the [Microsoft® ODBC Driver 13.1 for SQL Server](https://www.microsoft.com/download/details.aspx?id=53339) in most cases. If the servers are linked, then OLE DB is necessary and for that you use the [SQL Server Native Client](/sql/relational-databases/native-client/sql-server-native-client). You can access other databases by using [ODBC](https://docs.microsoft.com/sql/odbc/microsoft-open-database-connectivity-odbc?view=sql-server-2017) or OLE DB drivers directly. ODBC is the current standard database interface, but most database systems provide custom functionality that can't be accessed through the ODBC interface. OLE DB is a legacy COM data-access technology that is still supported but not recommended for new applications. For more information, see [Data Access in Visual C++](/cpp/data/data-access-in-cpp).
+C++ applications that connect to SQL Server should use the [Microsoft® ODBC Driver 13.1 for SQL Server](https://www.microsoft.com/download/details.aspx?id=53339) in most cases. If the servers are linked, then OLE DB is necessary and for that you use the [SQL Server Native Client](/sql/relational-databases/native-client/sql-server-native-client). You can access other databases by using [ODBC](/sql/odbc/microsoft-open-database-connectivity-odbc?view=sql-server-2017) or OLE DB drivers directly. ODBC is the current standard database interface, but most database systems provide custom functionality that can't be accessed through the ODBC interface. OLE DB is a legacy COM data-access technology that is still supported but not recommended for new applications. For more information, see [Data Access in Visual C++](/cpp/data/data-access-in-cpp).
 
 C++ programs that consume REST services can use the [C++ REST SDK](https://github.com/Microsoft/cpprestsdk).
 

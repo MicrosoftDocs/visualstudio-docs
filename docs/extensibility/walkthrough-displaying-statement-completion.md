@@ -42,7 +42,7 @@ You can implement language-based statement completion by defining the identifier
 
      Microsoft.VisualStudio.OLE.Interop
 
-     Microsoft.VisualStudio.Shell.14.0
+     Microsoft.VisualStudio.Shell.15.0
 
      Microsoft.VisualStudio.Shell.Immutable.10.0
 

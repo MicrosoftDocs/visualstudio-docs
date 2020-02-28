@@ -1,16 +1,16 @@
 ---
-title: "Install Visual Studio Build Tools into a container"
-titleSuffix: ""
-description: "Learn how to install Visual Studio Build Tools into a Windows container to support continuous integration and continuous delivery (CI/CD) workflows."
+title: Install Visual Studio Build Tools into a container
+titleSuffix: ''
+description: Learn how to install Visual Studio Build Tools into a Windows container to support continuous integration and continuous delivery (CI/CD) workflows.
 ms.date: 07/03/2019
-ms.custom: "seodec18"
+ms.custom: seodec18
 ms.topic: conceptual
 ms.assetid: d5c038e2-e70d-411e-950c-8a54917b578a
-author: heaths
-ms.author: tglee
+author: ornellaalt
+ms.author: ornella
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
 ---
@@ -130,6 +130,9 @@ Save the following example Dockerfile to a new file on your disk. If the file is
    > See [Windows container version compatibility](/virtualization/windowscontainers/deploy-containers/version-compatibility) to see which container OS versions are supported on which host OS versions, and [Known issues for containers](build-tools-container-issues.md) for known issues.
 
    ::: moniker-end
+   
+   > [!NOTE]
+   > Error code `3010` is used to indicate success with a reboot required, see [MsiExec.exe error messages](/windows/win32/msi/error-codes) for more information.
 
 1. Run the following command within that directory.
 

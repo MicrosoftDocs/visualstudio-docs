@@ -1,16 +1,16 @@
 ---
-title: "LINQ to SQL classes with single-table inheritance (O-R Designer)"
+title: LINQ to SQL classes with single-table inheritance (O-R Designer)
 ms.date: 11/04/2016
 ms.topic: conceptual
 dev_langs:
-  - "VB"
-  - "CSharp"
+- VB
+- CSharp
 ms.assetid: 63bc6328-e0df-4655-9ce3-5ff74dbf69a4
-author: jillre
-ms.author: jillfra
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "data-storage"
+- data-storage
 ---
 # Walkthrough: Create LINQ to SQL classes by using single-table inheritance (O/R Designer)
 The [LINQ to SQL tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md) supports single-table inheritance as it is typically implemented in relational systems. This walkthrough expands upon the generic steps provided in the [How to: Configure inheritance by using the O/R Designer](../data-tools/how-to-configure-inheritance-by-using-the-o-r-designer.md) topic and provides some real data to demonstrate the use of inheritance in the [!INCLUDE[vs_ordesigner_short](../data-tools/includes/vs_ordesigner_short_md.md)].

@@ -180,3 +180,5 @@ In addition to the properties above, you will also need to install the NuGet pac
     <GenerateProgramFile>false</GenerateProgramFile>
 </PropertyGroup>
 ```
+
+Some test frameworks may require additional npm packages for test detection. For example, jest requires the jest-editor-support npm package. If necessary, check the documentation for the specific framework.

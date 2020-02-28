@@ -1,23 +1,24 @@
 ---
-title: "TaskBody Element (MSBuild) | Microsoft Docs"
-ms.date: "03/13/2017"
-ms.topic: "reference"
+title: TaskBody Element (MSBuild) | Microsoft Docs
+ms.date: 03/13/2017
+ms.topic: reference
 dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
+- VB
+- CSharp
+- C++
+- jsharp
 helpviewer_keywords:
-  - "TaskBody element [MSBuild]"
-  - "<TaskBody> element [MSBuild]"
+- TaskBody element [MSBuild]
+- <TaskBody> element [MSBuild]
 ms.assetid: 49d8741b-f1ea-4470-94fd-a1ac27341a6a
-author: mikejo5000
-ms.author: mikejo
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # TaskBody element (MSBuild)
+
 Contains the data that is passed to a `UsingTask` `TaskFactory`. For more information, see [UsingTask element (MSBuild)](../msbuild/usingtask-element-msbuild.md).
 
  \<Project>
@@ -31,6 +32,7 @@ Contains the data that is passed to a `UsingTask` `TaskFactory`. For more inform
 ```
 
 ## Attributes and elements
+
  The following sections describe attributes, child elements, and parent elements.
 
 ### Attributes
@@ -49,9 +51,10 @@ Contains the data that is passed to a `UsingTask` `TaskFactory`. For more inform
 
 | Element | Description |
 | - | - |
-| [UsingTask](../msbuild/usingtask-element-msbuild.md) | Provides a way to register tasks in [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)]. There may be zero or more `UsingTask` elements in a project. |
+| [UsingTask](../msbuild/usingtask-element-msbuild.md) | Provides a way to register tasks in MSBuild. There may be zero or more `UsingTask` elements in a project. |
 
 ## Example
+
  The following example shows how to use the `TaskBody` element with an `Evaluate` attribute.
 
 ```xml
@@ -68,6 +71,7 @@ Contains the data that is passed to a `UsingTask` `TaskFactory`. For more inform
 ```
 
 ## See also
+
 - [Tasks](../msbuild/msbuild-tasks.md)
 - [Task reference](../msbuild/msbuild-task-reference.md)
 - [Project file schema reference](../msbuild/msbuild-project-file-schema-reference.md)

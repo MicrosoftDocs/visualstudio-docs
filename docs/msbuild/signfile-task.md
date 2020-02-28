@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "MSBuild, SignFile task"
   - "SignFile task [MSBuild]"
 ms.assetid: edef1819-ddeb-4e09-95de-fc7063ba9388
-author: mikejo5000
-ms.author: mikejo
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
   - "multiple"
@@ -68,5 +68,6 @@ Signs the specified file using the specified certificate.
 > The certificate thumbprint is the SHA-1 hash of the certificate. For more information, see [Obtain the SHA-1 hash of a trusted root CA certificate](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc733076\(v\=ws.10\)). If you copy and paste the thumbprint from the certificate details, make sure you do not include the extra (3F) invisible character, which may prevent `SignFile` from finding the certificate.
 
 ## See also
+
 - [Task reference](../msbuild/msbuild-task-reference.md)
 - [Tasks](../msbuild/msbuild-tasks.md)

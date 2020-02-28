@@ -3,12 +3,12 @@ title: Responding to and Propagating Changes
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "Domain-Specific Language, events"
-author: jillre
-ms.author: jillfra
+- Domain-Specific Language, events
+author: JoshuaPartlow
+ms.author: joshuapa
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Respond to and propagate changes
 

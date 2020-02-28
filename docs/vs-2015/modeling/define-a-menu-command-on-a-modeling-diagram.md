@@ -15,7 +15,7 @@ manager: jillfra
 # Define a menu command on a modeling diagram
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-In Visual Studio, you can define additional menu items on the shortcut menus of a UML diagram. You can control whether the menu command appears and is enabled on the shortcut menu of any element on the diagram, and you can write code that runs when the user chooses the menu item. You can package these extensions into a Visual Studio Integration Extension ([VSIX](http://go.microsoft.com/fwlink/?LinkId=160780)) and distribute it to other Visual Studio users.
+In Visual Studio, you can define additional menu items on the shortcut menus of a UML diagram. You can control whether the menu command appears and is enabled on the shortcut menu of any element on the diagram, and you can write code that runs when the user chooses the menu item. You can package these extensions into a Visual Studio Integration Extension ([VSIX](https://msdn.microsoft.com/library/dd393694(VS.100).aspx)) and distribute it to other Visual Studio users.
 
 ## Requirements
  See [Requirements](../modeling/extend-uml-models-and-diagrams.md#Requirements).
@@ -364,4 +364,4 @@ namespace SwapClassNames
  [Define validation constraints for UML models](../modeling/define-validation-constraints-for-uml-models.md)
  [Edit UML sequence diagrams by using the UML API](../modeling/edit-uml-sequence-diagrams-by-using-the-uml-api.md)
  [Programming with the UML API](../modeling/programming-with-the-uml-api.md)
- [Sample: Command to Align Shapes on a UML Diagram](http://go.microsoft.com/fwlink/?LinkID=213809)
+ 

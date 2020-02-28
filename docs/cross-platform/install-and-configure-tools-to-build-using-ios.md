@@ -15,7 +15,7 @@ ms.workload:
 ---
 # Install and configure tools to build using iOS
 
-You can use Visual Studio with the cross-platform **Mobile development with C++** tools to edit, debug, and deploy iOS code to the iOS Simulator or to an iOS device. But, because of licensing restrictions, the code must be built and run remotely on a Mac. To build and run iOS apps using Visual Studio, you need to set up and configure the remote agent, [vcremote](https://go.microsoft.com/fwlink/p/?LinkId=534988), on your Mac. The remote agent handles build requests from Visual Studio and runs the app on an iOS device connected to the Mac, or in the iOS Simulator on the Mac.
+You can use Visual Studio with the cross-platform **Mobile development with C++** tools to edit, debug, and deploy iOS code to the iOS Simulator or to an iOS device. But, because of licensing restrictions, the code must be built and run remotely on a Mac. To build and run iOS apps using Visual Studio, you need to set up and configure the remote agent, [vcremote](https://www.npmjs.com/package/vcremote), on your Mac. The remote agent handles build requests from Visual Studio and runs the app on an iOS device connected to the Mac, or in the iOS Simulator on the Mac.
 
 > [!NOTE]
 > For information on using cloud-hosted Mac services instead of a Mac, see [Configure Visual Studio to connect to your cloud hosted Mac](/visualstudio/cross-platform/tools-for-cordova/tips-workarounds/host-a-mac-in-the-cloud?view=toolsforcordova-2017#configure-visual-studio-to-connect-to-your-cloud-hosted-mac). The instructions are for building using Visual Studio Tools for Apache Cordova. To use the instructions to build using C++, substitute `vcremote` for `remotebuild`.
@@ -56,23 +56,29 @@ To install and use the remote agent to develop code for iOS, you must first have
 
    If you want to do manual signing, you need to create a provisioning Profile for your app. For detailed information on creating provisioning Profiles, see [Create a development provisioning profile](https://help.apple.com/developer-account/#/devf2eb157f8). 
 
-- [Node.js](https://nodejs.org/) version 8.11.3 and npm version 5.6.0
+- [Node.js](https://nodejs.org/) version 12.14.1 and npm version 6.13.4
 
-   Install version 8.11.3 of Node.js on your Mac. If you install the Node.js package, it should come with npm version 5.6.0. Other versions of Node.js and npm may not support some modules used in the remote agent `vcremote`, which can cause `vcremote` installation to fail.
+   Install version 12.14.1 of Node.js on your Mac. If you install the Node.js package, it should come with npm version 6.13.4. Other versions of Node.js and npm may not support some modules used in the remote agent `vcremote`, which can cause `vcremote` installation to fail. We recommend you install Node.js by using a package manager such as [Node Version Manager](https://nodejs.org/en/download/package-manager/#nvm). Avoid using the command `sudo` to install Node.js, as some modules can fail to install when using `sudo`.
 
 ## <a name="Install"></a> Install the remote agent for iOS
 
-When you install the Mobile development with C++ workload, Visual Studio can communicate with [vcremote](https://go.microsoft.com/fwlink/p/?LinkId=534988), a remote agent running on your Mac to transfer files, build and run your iOS app, and send debugging commands.
+When you install the Mobile development with C++ workload, Visual Studio can communicate with [vcremote](https://www.npmjs.com/package/vcremote), a remote agent running on your Mac to transfer files, build and run your iOS app, and send debugging commands.
 
 Before you install the remote agent, make sure you have satisfied the [Prerequisites](#prerequisites) and completed the installation steps in [Install cross-platform mobile development with C++](../cross-platform/install-visual-cpp-for-cross-platform-mobile-development.md#install-the-tools).
 
 ### <a name="DownloadInstall"></a> To download and install the remote agent
 
-- From the Terminal app on your Mac, enter:
+- From the Terminal app on your Mac, verify that the Node.js version currently in use is the required version 12.14.1. To verify the version, run the command:
 
-   `sudo npm install -g --unsafe-perm vcremote`
+  `node -v`
+  
+  If it's not the right version, you may need to follow the Node.js installation instructions in the prerequisites. Then, restart Node.js.
 
-   The global installation (**-g**) switch is recommended but not required.
+- After verifying the required Node.js is in use, run this command to install vcremote under that Node.js version:
+
+   `npm install -g --unsafe-perm vcremote`
+
+   The global installation (**-g**) switch is recommended, but not required. If you don't use the global installation switch, vcremote gets installed under the current active path in the Terminal app.
 
    During the installation, `vcremote` is installed and developer mode is activated on your Mac. [Homebrew](https://brew.sh/) and two npm packages, `vcremote-lib` and `vcremote-utils`, are also installed. When installation completes, it's safe to ignore any warnings about skipped optional dependencies.
 

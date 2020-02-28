@@ -1,13 +1,13 @@
 ---
-title: "XML Schema Designer Graph View"
+title: XML Schema Designer Graph View
 ms.date: 11/04/2016
 ms.topic: reference
 ms.assetid: 5881afde-3f24-4eb9-bff8-6cb3fc8aade7
-author: jillre
-ms.author: jillfra
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Graph view
 

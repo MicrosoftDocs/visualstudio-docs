@@ -1,25 +1,25 @@
 ---
-title: "Analyzing Load Test Results and Errors"
+title: Analyzing Load Test Results and Errors
 ms.date: 10/19/2016
 ms.topic: conceptual
 f1_keywords:
-  - "vs.test.load.monitor.pageresult"
-  - "vs.test.load.dialog.column"
-  - "vs.test.load.monitor.requestresult"
-  - "vs.test.load.monitor.testresult"
-  - "vs.test.load.monitor.table.view"
-  - "vs.test.load.monitor.agentresult"
-  - "vs.test.load.monitor.transactionresult"
+- vs.test.load.monitor.pageresult
+- vs.test.load.dialog.column
+- vs.test.load.monitor.requestresult
+- vs.test.load.monitor.testresult
+- vs.test.load.monitor.table.view
+- vs.test.load.monitor.agentresult
+- vs.test.load.monitor.transactionresult
 helpviewer_keywords:
-  - "tables, Load Test Viewer options"
-  - "load test results, tables"
-  - "load tests, Load Test Viewer"
-  - "data [Visual Studio ALM], load test tables"
-  - "Load Test Viewer, tables"
-  - "load tests, results tables"
+- tables, Load Test Viewer options
+- load test results, tables
+- load tests, Load Test Viewer
+- data [Visual Studio ALM], load test tables
+- Load Test Viewer, tables
+- load tests, results tables
 ms.assetid: 0a84bda3-6051-45eb-9c7f-d57419e1f97d
-author: jillre
-ms.author: jillfra
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ---
 # Analyze load test results and errors in the Tables view of the Load Test Analyzer

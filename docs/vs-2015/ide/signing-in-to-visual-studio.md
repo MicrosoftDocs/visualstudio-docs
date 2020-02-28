@@ -19,7 +19,7 @@ You can personalize and optimize your development experience in Visual Studio if
 ## Why should I sign in to Visual Studio?
  You gain the following benefits by signing in to Visual Studio:
 
-- **Grants access to a broad range of benefits** from the Visual Studio Dev Essentials program, including free software, training, support, and more. See [Visual Studio Dev Essentials](https://aka.ms/vsdevhelp) for more information.
+- **Grants access to a broad range of benefits** from the Visual Studio Dev Essentials program, including free software, training, support, and more. See [Visual Studio Dev Essentials](https://visualstudio.microsoft.com/dev-essentials/) for more information.
 
 - **Synchronizes your Visual Studio settings** – Settings that you customize, such as key bindings, window layout and color theme, apply immediately when you sign in to Visual Studio on any device. See [Synchronized Settings in Visual Studio](https://msdn.microsoft.com/library/dn135229%28v=vs.120%29.aspx).
 
@@ -34,7 +34,7 @@ You can personalize and optimize your development experience in Visual Studio if
 - **Automatically connects to services such as Azure and Visual Studio Team Services** in the IDE without prompting again for credentials for the same account.
 
 ## How to sign in to Visual Studio
- When you start Visual studio for the first time, you're asked to sign in and provide some basic registration information. You should choose a Microsoft account or a work or school account that best represents you. If you don't have any of these accounts, you can create a Microsoft account for free. See [How do I sign up for a Microsoft account?](http://windows.microsoft.com/windows-live/sign-up-create-account-how)
+ When you start Visual studio for the first time, you're asked to sign in and provide some basic registration information. You should choose a Microsoft account or a work or school account that best represents you. If you don't have any of these accounts, you can create a Microsoft account for free. See [How do I sign up for a Microsoft account?](https://support.microsoft.com/help/4026324/microsoft-account-how-to-create)
 
  Next, choose the UI settings and color theme that you want to use in Visual Studio. Visual Studio remembers these settings and synchronizes them across all Visual Studio environments you have signed in to. For a list of the settings that are synchronized, see [Synchronized Settings](../ide/synchronized-settings-in-visual-studio.md). You can change the settings later if you open the **Tools &#124; Options** menu in Visual Studio.
 

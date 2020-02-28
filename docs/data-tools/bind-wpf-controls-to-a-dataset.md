@@ -3,18 +3,18 @@ title: Bind WPF controls to a dataset
 ms.date: 11/04/2016
 ms.topic: conceptual
 dev_langs:
-  - "VB"
-  - "CSharp"
+- VB
+- CSharp
 helpviewer_keywords:
-  - "WPF, data binding in Visual Studio"
-  - "WPF data binding [Visual Studio], walkthroughs"
-  - "WPF Designer, data binding"
+- WPF, data binding in Visual Studio
+- WPF data binding [Visual Studio], walkthroughs
+- WPF Designer, data binding
 ms.assetid: 177420b9-568b-4dad-9d16-1b0e98a24d71
-author: jillre
-ms.author: jillfra
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "data-storage"
+- data-storage
 ---
 # Bind WPF controls to a dataset
 

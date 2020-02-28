@@ -9,7 +9,7 @@ ms.assetid: 346f70b9-7b52-4688-a8e8-8f53869618d3
 ms.devlang: dotnet
 ms.topic: conceptual
 ms.workload: multiple
-ms.date: 10/13/2017
+ms.date: 01/27/2020
 ms.author: ghogen
 ---
 # Troubleshoot Visual Studio development with Docker
@@ -75,6 +75,18 @@ net localgroup docker-users DOMAIN\username /add
 ```
 
 In PowerShell, use the [Add-LocalGroupMember](/powershell/module/microsoft.powershell.localaccounts/add-localgroupmember) function.
+
+## Low disk space
+
+By default, Docker stores images in the *%ProgramData%/Docker/* folder, which is typically on the system drive, *C:\ProgramData\Docker\*. To prevent images from taking up valuable space on the system drive, you can change the image folder location.  From the Docker icon on the task bar, open up Docker settings, choose **Daemon**, and switch from **Basic** to **Advanced**. In the editing pane, add the `graph` property setting with the value of your desired location for Docker images:
+
+```json
+    "graph": "D:\\mypath\\images"
+```
+
+![Screenshot of Docker image location setting](media/troubleshooting-docker-errors/docker-settings-image-location.png)
+
+Click **Apply** to restart Docker. These steps modify the configuration file at *%ProgramData%\docker\config\daemon.json*. Previously built images are not moved.
 
 ## Microsoft/DockerTools GitHub repo
 
