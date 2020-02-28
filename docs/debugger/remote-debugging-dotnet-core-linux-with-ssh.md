@@ -30,13 +30,13 @@ To prepare your application for debugging:
 
 - Consider using a Debug configuration when you build the application. It is much harder to debug retail-compiled code (a Release configuration) than debug-compiled code. If you need to use a Release configuration, first disable Just My Code. To disable this setting, choose **Tools** > **Options** > **Debugging**, and then deselect **Enable Just My Code**.
 
+- Make sure your project is configured to produce [portable PDBs](https://github.com/OmniSharp/omnisharp-vscode/wiki/Portable-PDBs) (which is the default setting), and make sure the PBDs are in the same location as the DLL. To configure this in Visual Studio, right-click the project, then choose **Properties** > **Build** > **Advanced** > **Debugging Information**.
+
 You can use several methods to deploy the app prior to debugging. For example, you can:
 
 - Copy sources to the target computer and build with ```dotnet build``` on the Linux machine.
 
 - Build the app on Windows, and the transfer the build artifacts to the Linux machine. (The build artifacts consist of the application itself, any runtime libraries it might depend on, and the *.deps.json* file.)
-
-Also, make sure he debugger for Linux is enabled for Portable PDBs (which is the default setting), and make sure the PBDs are in the same location as the DLL.
 
 ## Attach the debugger
 
@@ -50,7 +50,7 @@ After the computers are configured, start the application on the Linux machine, 
 
 1. Find the process that you would like to debug.
 
-   By default, your code runs in a process named dotnet. To find the process that you're interested in, check the **Title** column, which shows the command line arguments for the process.
+   Your code runs either in a unique process name or a process named dotnet. To find the process that you're interested in, check the **Title** column, which shows the command line arguments for the process.
 
    In the following example, you see a list of processes from a remote Linux machine over an SSH transport displayed in the **Attach to Process** dialog box.
 
