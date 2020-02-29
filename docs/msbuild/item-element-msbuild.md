@@ -30,8 +30,7 @@ Contains a user-defined item and its metadata. Every item that is used in an MSB
 ```xml
 <Item Include="*.cs"
         Exclude="MyFile.cs"
-        Remove="RemoveFile.cs"
-        Condition="'String A'=='String B'" >
+        Condition="'String A'=='String B'">
     <ItemMetadata1>...</ItemMetadata1>
     <ItemMetadata2>...</ItemMetadata2>
 </Item>

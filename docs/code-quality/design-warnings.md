@@ -17,7 +17,7 @@ ms.workload:
 ---
 # Design warnings
 
-Design warnings support adherence to the [.NET Design Guidelines](/dotnet/standard/design-guidelines/).
+Design warnings support adherence to the [.NET Framework Design Guidelines](/dotnet/standard/design-guidelines/).
 
 ## In This Section
 

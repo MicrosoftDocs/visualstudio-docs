@@ -6,7 +6,7 @@ helpviewer_keywords:
   - "FxCopCmd errors"
 ms.assetid: bb614ed0-1b7c-4b56-99ae-da50ef6cfef9
 ms.author: mikejo
-author: jillre
+author: mikejo5000
 manager: jillfra
 ms.workload:
   - "multiple"

@@ -72,7 +72,7 @@ The properties of the attribute include:
 
 - **Scope** - The target on which the warning is being suppressed. If the target is not specified, it is set to the target of the attribute. Supported [scopes](xref:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute.Scope) include the following:
 
-  - `module` - This scope suppresses warnings against an assembly. It is a global suppression that applies to the entire project.
+  - [`module`](#module-suppression-scope) - This scope suppresses warnings against an assembly. It is a global suppression that applies to the entire project.
 
   - `resource` - ([legacy FxCop](../code-quality/static-code-analysis-for-managed-code-overview.md) only) This scope suppresses warnings in diagnostic info written to resource files that are part of the module (assembly). This scope is not read/respected in C#/VB compilers for Roslyn analyzer diagnostics, which only analyzes source files.
 
@@ -168,9 +168,17 @@ Global-level suppressions are the only way to suppress messages that refer to co
 > [!NOTE]
 > `Target` always contains the fully qualified item name.
 
-## Global suppression file
+### Global suppression file
 
 The global suppression file maintains suppressions that are either global-level suppressions or suppressions that do not specify a target. For example, suppressions for assembly-level violations are stored in this file. Additionally, some ASP.NET suppressions are stored in this file because project-level settings are not available for code behind a form. A global suppression file is created and added to your project the first time that you select the **In Project Suppression File** option of the **Suppress** command in the **Error List** window.
+
+### Module suppression scope
+
+You can suppress code quality violations for the entire assembly by using the **module** scope.
+
+For example, the following attribute in your _GlobalSuppressions_ project file will suppress the ConfigureAwait violation for an ASP.NET Core project:
+
+`[assembly: System.Diagnostics.CodeAnalysis.SuppressMessage("Reliability", "CA2007:Consider calling ConfigureAwait on the awaited task", Justification = "ASP.NET Core doesn't use thread context to store request context.", Scope = "module")]`
 
 ## See also
 
