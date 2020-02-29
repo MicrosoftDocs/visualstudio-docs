@@ -1,7 +1,7 @@
 ---
 title: Design XAML in Visual Studio and Blend
 titleSuffix: ''
-ms.date: 02/28/220
+ms.date: 02/28/2020
 ms.topic: conceptual
 ms.assetid: 288e2415-9fcf-408e-bc35-9848315e14fd
 author: TerryGLee
@@ -17,11 +17,11 @@ You can switch back and forth between Visual Studio and Blend for Visual Studio,
 ## Installation
 
 - To create WPF apps, install the **.NET desktop development** workload in Visual Studio. Blend for Visual Studio will also be installed.
-    ![Screenshot of the .NET Desktop Development workload from the Visual Studio Installer](../media/dotnet-desktop-dev-workload.png)
+    ![Screenshot of the .NET Desktop Development workload from the Visual Studio Installer](../xaml-tools/media/dotnet-desktop-dev-workload.png)
 - To create UWP apps, install the **Universal Windows Platform development** workload in Visual Studio. Blend for Visual Studio will also be installed.
-    ![Screenshot of the Universal Windows Platform Development workload from the Visual Studio Installer](../media/uwp-workload.png)
+    ![Screenshot of the Universal Windows Platform Development workload from the Visual Studio Installer](../xaml-tools/media/uwp-workload.png)
 - To create Xamarin.Forms apps, install the **Mobile development with .NET** workload in Visual Studio. Blend for Visual Studio is *not* installed; Blend doesn't support Xamarin.Forms apps.
-    ![Screenshot of the Mobile Development with .NET workload from the Visual Studio Installer](../media/mobile-dev-dotnet-workload.png)
+    ![Screenshot of the Mobile Development with .NET workload from the Visual Studio Installer](../xaml-tools/media/mobile-dev-dotnet-workload.png)
 
 ## Shared capabilities
 
