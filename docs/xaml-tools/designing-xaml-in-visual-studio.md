@@ -1,7 +1,7 @@
 ---
 title: Design XAML in Visual Studio and Blend
 titleSuffix: ''
-ms.date: 08/05/2019
+ms.date: 02/28/220
 ms.topic: conceptual
 ms.assetid: 288e2415-9fcf-408e-bc35-9848315e14fd
 author: TerryGLee
@@ -33,7 +33,7 @@ For most fundamental development tasks, Visual Studio and Blend for Visual Studi
 
 - **File reload:** You can edit your XAML files in either Visual Studio or Blend for Visual Studio. Edited files that have been saved reload automatically as you switch between IDEs. You can control the reload behavior by navigating to **Tools** > **Options** > **Environment** > **Documents** in either IDE.
 
-- **Synchronized layouts and settings:** Customized tool window layouts and settings preferences for either Visual Studio or Blend for Visual Studio are synchronized across your devices and versions when you sign in with the same personalization account. See [Synchronize settings across multiple computers](../ide/synchronized-settings-in-visual-studio.md).
+- **Synchronized layouts and settings:** Design customization tool window layouts and settings preferences for either Visual Studio or Blend for Visual Studio are synchronized across your devices and versions when you sign in with the same personalization account. See [Synchronize settings across multiple computers](../ide/synchronized-settings-in-visual-studio.md).
 
 ## Advanced capabilities in Blend for Visual Studio
 
