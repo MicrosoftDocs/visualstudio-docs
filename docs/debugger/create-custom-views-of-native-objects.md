@@ -531,7 +531,8 @@ The debugger evaluates the `NextPointer` and `ValueNode` expressions in the cont
 `ValueNode` can be left empty, or use `this` to refer to the `LinkedListItems` node itself.
 
 #### CustomListItems expansion
-The `CustomListItems` expansion allows you to write custom logic for traversing a data structure such as a hashtable. Use `CustomListItems` to visualize data structures that can use C++ expressions for everything you need to evaluate, but don't quite fit the mold for `ArrayItems`, `IndexListItems`, or `LinkedListItems`.
+
+The `CustomListItems` expansion allows you to write custom logic for traversing a data structure such as a hashtable. Use `CustomListItems` to visualize data structures that can use C++ expressions for everything you need to evaluate, but don't quite fit the mold for `ArrayItems`, `IndexListItems`, or `LinkedListItems`. (See the list of supported C++ instrinsic functions following the sample code.)
 
 The following visualizer for `CAtlMap` is an excellent example where `CustomListItems` is appropriate.
 
@@ -564,7 +565,7 @@ The following visualizer for `CAtlMap` is an excellent example where `CustomList
 </Type>
 ```
 
-You can use `Exec` to execute code inside of a `CustomListItems` expansion, using the variables and objects defined in the expansion. You can use logical operators, arithmetic operators, and assignment operators with `Exec`. You can't use `Exec` to evaluate functions.
+You can use `Exec` to execute code inside of a `CustomListItems` expansion, using the variables and objects defined in the expansion. You can use logical operators, arithmetic operators, and assignment operators with `Exec`. You can't use `Exec` to evaluate functions, except for the following set of native intrinsic functions.
 
 `CustomListItems` supports the following intrinsic functions:
 
