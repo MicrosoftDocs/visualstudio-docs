@@ -54,7 +54,7 @@ With Visual Studio Tools for Xamarin, you can target Android, iOS, and Windows i
 
  If you're not using Xamarin.Forms and choose to design for each platform individually, you can share most of your non-UI code between platform projects (Android, iOS, and Windows). This includes any business logic, cloud integration, database access, or any other code that targets the .NET Framework. The only code that you can't share is code that targets a specific platform.
 
- ![Share code between Windows, iOs, and Android UI's](../cross-platform/media/sharecode.png "ShareCode")
+ ![Share code between Windows, iOS, and Android UIs](../cross-platform/media/sharecode.png "ShareCode")
 
  You can share your code by using a shared project, a Portable Class Library project, or both. You might find that some code fits best in a shared project, and some code makes more sense inside a Portable Class Library project.
 
@@ -90,7 +90,7 @@ With Visual Studio Tools for Xamarin, you can target Android, iOS, and Windows i
 
  Because these APIs are cross-platform, you can share most of what you write between all three platforms. This reduces your development and maintenance costs. Also, there's no need to start from scratch. If you've created other types of web applications, you can share those files with your Cordova app without having to modify or redesign them in any way.
 
- ![Multi-device hybrid apps with Javascript](../cross-platform/media/multidevicehybridapps.png "Multi-device hybrid apps with Javascript")
+ ![Multi-device hybrid apps with JavaScript](../cross-platform/media/multidevicehybridapps.png "Multi-device hybrid apps with JavaScript")
 
  To get started, install Visual Studio and choose the **Mobile Development with Javascript** feature during setup. The Cordova tools automatically install all third-party software that's required to build your multi-platform app.
 
