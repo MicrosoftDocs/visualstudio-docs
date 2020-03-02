@@ -8,7 +8,7 @@ ms.author: mikejo
 manager: jillfra
 ms.workload:
   - "multiple"
-author: jillre
+author: mikejo5000
 ---
 # Exploration bounds
 
