@@ -134,12 +134,12 @@ With Visual Studio Tools for Xamarin, you can target Android, iOS, and Windows i
 
 |**Learn more**|
 |--------------------|
-|[Download Visual Studio](https://visualstudio.microsoft.com/vs/community/) (VisualStudio.com)|
-|[Install cross-platform mobile development with C++](install-visual-cpp-for-cross-platform-mobile-development.md)|
+|[Download Visual Studio](https://visualstudio.microsoft.com/downloads/) (VisualStudio.com)|
+|[Install cross-platform mobile development with C++](/cpp/cross-platform/install-visual-cpp-for-cross-platform-mobile-development)|
 |[Learn more about using C++ to target multiple platforms](https://visualstudio.microsoft.com/vs/cplusplus-mdd/) (VisualStudio.com)|
-|[Install what you need, and then create a native activity application for Android](create-an-android-native-activity-app.md)|
+|[Install what you need, and then create a C++ native activity application for Android](/cpp/cross-platform/create-an-android-native-activity-app)|
 |[Learn more about sharing C++ code with Android and Windows apps](https://visualstudio.microsoft.com/vs/cplusplus-mdd/) (VisualStudio.com)|
-|[Cross-platform mobile development examples for C++](cross-platform-mobile-development-examples.md)|
+|[Cross-platform mobile development examples for C++](/cpp/cross-platform/cross-platform-mobile-development-examples)|
 
 <a name="Unity"></a>
 
