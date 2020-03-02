@@ -3,7 +3,7 @@ title:  Super admin and administrator roles in the Administration Portal
 author: evanwindom
 ms.author: lank
 manager: lank
-ms.date: 08/21/2019
+ms.date: 02/03/2020
 ms.topic: conceptual
 description: Learn about the super admin and administrator roles, and how to assign administrators. 
 ---
