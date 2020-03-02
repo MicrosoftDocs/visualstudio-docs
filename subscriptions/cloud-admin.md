@@ -3,7 +3,7 @@ title: Setting Up Administrators for Monthly Subscriptions | Microsoft Docs
 author: evanwindom
 ms.author: lank
 manager: lank
-ms.date: 02/03/2020
+ms.date: 03/02/2020
 ms.topic: conceptual
 description: Setting Up Administrators for Monthly Subscriptions
 ---
@@ -44,6 +44,12 @@ The new administrator can now sign in to the [Administration Portal](https://man
 
 For information about Visual Studio Monthly subscriptions, see the [Overview](vscloud-overview.md) under Buying  subscriptions. To purchase Visual Studio Monthly subscriptions, visit the Visual Studio Marketplace at [https://marketplace.visualstudio.com/subscriptions](https://marketplace.visualstudio.com/subscription).
 
+## See also
+- [Visual Studio documentation](https://docs.microsoft.com/visualstudio/)
+- [Azure DevOps documentation](https://docs.microsoft.com/azure/devops/)
+- [Azure documentation](https://docs.microsoft.com/azure/)
+- [Microsoft 365 documentation](https://docs.microsoft.com/microsoft-365/)
+
 ## Next steps
 Learn more about managing Visual Studio subscriptions.
 - [Assign individual subscriptions](assign-license.md)
@@ -51,9 +57,5 @@ Learn more about managing Visual Studio subscriptions.
 - [Edit subscriptions](edit-license.md)
 - [Determine maximum usage](maximum-usage.md)
 
-## See also
-- [Visual Studio documentation](https://docs.microsoft.com/visualstudio/)
-- [Azure DevOps documentation](https://docs.microsoft.com/azure/devops/)
-- [Azure documentation](https://docs.microsoft.com/azure/)
-- [Microsoft 365 documentation](https://docs.microsoft.com/microsoft-365/)
+
 
