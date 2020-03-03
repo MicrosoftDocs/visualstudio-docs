@@ -3,7 +3,7 @@ title:  Delete subscription assignments in the Visual Studio Subscriptions Admin
 author: evanwindom
 ms.author: lank
 manager: lank
-ms.date: 02/04/2020
+ms.date: 03/03/2020
 ms.topic: conceptual
 description:  Learn how administrators can delete subscription assignments
 ---
@@ -21,13 +21,15 @@ When a subscriber no longer requires a Visual Studio subscription, such as when 
    > [!NOTE]
    > Bulk delete using a template is not available. For organizations that manage subscription assignments through Azure Active Directory Security Groups, see [our article](assign-license-bulk#use-azure-active-directory-groups-to-assign-subscriptions) for more information about how deletions happen.  
 
+## See also
+- [Visual Studio documentation](https://docs.microsoft.com/visualstudio/)
+- [Azure DevOps documentation](https://docs.microsoft.com/azure/devops/)
+- [Azure documentation](https://docs.microsoft.com/azure/)
+- [Microsoft 365 documentation](https://docs.microsoft.com/microsoft-365/)
+
 ## Next steps
 - Need to change a subscription without deleting it?  Learn how to [Edit subscriptions](edit-license.md)
 - For help finding a particular subscription, check out [Search for a subscription](search-license.md).
 - Need to create a list of all your subscriptions?  Please see [Export subscriptions](exporting-subscriptions.md).
 
-## See also
-- [Visual Studio documentation](/visualstudio/)
-- [Azure DevOps documentation](/azure/devops/)
-- [Azure documentation](/azure/)
-- [Microsoft 365 documentation](/microsoft-365/)
+
