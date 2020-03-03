@@ -3,11 +3,7 @@ title: Export subscription information | Microsoft Docs
 author: evanwindom
 ms.author: lank
 manager: lank
-<<<<<<< HEAD
-ms.date: 02/04/2020
-=======
-ms.date: 02/20/2020
->>>>>>> 3c105990656cd509062ce60e52e776c794f6305d
+ms.date: 03/03/2020
 ms.topic: conceptual
 description:  Learn how to export a list of subscribers and details of their subscription assignments.
 ---
@@ -21,7 +17,7 @@ Having all your subscriber information in one place can help you do things like:
 - Encourage users who have subscriptions assigned to activate.
 - Take proactive action before subscriptions expire.  
 - Identify where subscriptions may be overallocated. 
-- Assign subscriptions using the subscription ID to control which expiration date your subscribers have on their subscriptions. (For more information, see our [Assign by subscription ID](assign-guid.md) article.)
+- Assign subscriptions using the subscription ID to control which expiration date your subscribers have on their subscriptions. 
 
 ## Export your subscriptions
 To perform the export:
@@ -30,23 +26,17 @@ To perform the export:
 > [!div class="mx-imgBorder"]
 > ![Export subscribers](_img/exporting-subscriptions/exporting-subscriptions.png)
 
+## See also
+- [Visual Studio documentation](https://docs.microsoft.com/visualstudio/)
+- [Azure DevOps documentation](https://docs.microsoft.com/azure/devops/)
+- [Azure documentation](https://docs.microsoft.com/azure/)
+- [Microsoft 365 documentation](https://docs.microsoft.com/microsoft-365/)
+
 ## Next steps
-- Read more about how to [assign by subscription IDs](assign-guid.md) with specific end dates.  
 - For more information about managing subscriptions, see these helpful topics:
     - [Expired subscriptions](handle-expired-license.md)
     - [Overallocations](handle-overclaimed-license.md)
     - [Maximum usage](maximum-usage.md)
 - Need assistance with any aspect of managing subscriptions?  Contact [Visual Studio Administration and Subscriptions Support](https://visualstudio.microsoft.com/support/support-overview-vs).
 
-## See also
-<<<<<<< HEAD
-- [Visual Studio documentation](/visualstudio/)
-- [Azure DevOps documentation](/azure/devops/)
-- [Azure documentation](/azure/)
-- [Microsoft 365 documentation](/microsoft-365/)
-=======
-- [Visual Studio documentation](https://docs.microsoft.com/visualstudio/)
-- [Azure DevOps documentation](https://docs.microsoft.com/azure/devops/)
-- [Azure documentation](https://docs.microsoft.com/azure/)
-- [Microsoft 365 documentation](https://docs.microsoft.com/microsoft-365/)
->>>>>>> 3c105990656cd509062ce60e52e776c794f6305d
+
