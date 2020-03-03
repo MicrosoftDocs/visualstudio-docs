@@ -3,15 +3,16 @@ title: CAST Highlight Benefit in to Visual Studio Subscriptions | Microsoft Docs
 author: evanwindom
 ms.author: lank
 manager: lank
-ms.date: 07/30/2019
+ms.date: 03/02/2020
 ms.topic: conceptual
 description:  Learn about the CAST Highlight benefit available in selected Visual Studio subscriptions
 ---
 
 # The CAST Highlight benefit in Visual Studio subscriptions
-Developers need critical insights on their software when migrating to the cloud. With CAST Highlight, Visual Studio Enterprise subscribers can rapidly scan their application source code to identify the cloud readiness of their applications for migration to Azure and monitor progress of their app both during and after a migration.
+Developers need critical insights on their software when migrating to the cloud. With CAST Highlight, Visual Studio subscribers can rapidly scan their application source code to identify the cloud readiness of their applications for migration to Azure and monitor progress of their app both during and after a migration.
 
-Visual Studio Enterprise subscribers can get a free, full feature one-month subscription to CAST Highlight for up to five apps per subscriber.
+- Visual Studio Enterprise subscribers can get a free, full feature three-month subscription to CAST Highlight that allows users to assess up to five apps.
+- Visual Studio Professional subscribers can get a similar subscription that allows assessing of one app for three months.
 
 ## Activation steps
 1. Sign in to [https://my.visualstudio.com/benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs).
@@ -35,7 +36,7 @@ Visual Studio Enterprise subscribers can get a free, full feature one-month subs
 
 0. The CAST team will evaluate your request, and will contact you to finalize creation of your account.
 
-0. You will also receive the following email from CAST, confirming the receipt of your request.
+0. You will also receive the following email from CAST, confirming the receipt of your request.  (This example shows the email received by Enterprise subscribers.)
 
    > *Thank you for your request to activate the 30 day access to CAST Highlight - an exclusive offer for Microsoft Visual Studio Enterprise customers!*
    >
@@ -70,10 +71,10 @@ Upon approval of your request, you'll receive a second email confirming successf
 ## Eligibility
 | Subscription Level                                                 |     Channels                                            | Benefit                                                          | Renewable?    |
 |--------------------------------------------------------------------|---------------------------------------------------------|------------------------------------------------------------------|---------------|
-| Visual Studio Enterprise (Standard)   | VL, Azure, Retail, | Assess 5 apps for 30 days|  No.  Available to new subscribers only          |
-| Visual Studio Enterprise with GitHub Enterprise  | VL | Assess 5 apps for 30 days|  No.  Available to new subscribers only          |
-| Visual Studio Professional (Standard) | VL, Azure, Retail                                       | Not available                                                             |  N/A          |
-| Visual Studio Professional with GitHub Enterprise | VL                                       | Not available                                                             |  N/A          |
+| Visual Studio Enterprise (Standard)   | VL, Azure, Retail, | Assess 5 apps for three months|  No.  Available to new subscribers only          |
+| Visual Studio Enterprise with GitHub Enterprise  | VL | Assess 5 apps for three months|  No.  Available to new subscribers only          |
+| Visual Studio Professional (Standard) | VL, Azure, Retail                                       | Assess 1 app for three months                                                             |  No.  Available to new subscribers only                  |
+| Visual Studio Professional with GitHub Enterprise | VL                                       | Assess 1 app for three months                                                            |  No.  Available to new subscribers only                  |
 | Visual Studio Test Professional (Standard)                         | VL, Retail                                              | Not available                                             |  N/A           |
 | MSDN Platforms (Standard)                                          | VL, Retail                                              | Not available                                              |  N/A          |
 | Visual Studio Enterprise (Standard)  | NFR<sup>1</sup> |Not available  | N/A |
@@ -93,6 +94,12 @@ Not sure which subscription you're using?  Connect to [https://my.visualstudio.c
 
 - For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, contact Visual Studio [Subscriptions Support](https://visualstudio.microsoft.com/subscriptions/support/).
 - Have a question about Visual Studio IDE, Azure DevOps Services or other Visual Studio products or services?  Visit [Visual Studio Support](https://visualstudio.microsoft.com/support/).
+
+## See also
+- [Visual Studio documentation](https://docs.microsoft.com/visualstudio/)
+- [Azure DevOps documentation](https://docs.microsoft.com/azure/devops/)
+- [Azure documentation](https://docs.microsoft.com/azure/)
+- [Microsoft 365 documentation](https://docs.microsoft.com/microsoft-365/)
 
 ## Next steps
 If you haven't already activated the Azure DevTest individual credit benefit that comes with your subscription, visit [https://my.visualstudio.com/benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs) and click on the Azure tile in the Tools category to set up your Azure subscription and redeem your Azure DevTest individual credit.
