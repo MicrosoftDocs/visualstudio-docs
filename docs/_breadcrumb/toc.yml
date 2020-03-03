@@ -19,7 +19,7 @@
           topicHref: /visualstudio/code-quality/analyzing-application-quality-by-using-code-analysis-tools
         - name: Cross Platform
           tocHref: /visualstudio/cross-platform/
-          topicHref: /visualstudio/cross-platform/index
+          topicHref: /visualstudio/cross-platform/cross-platform-mobile-development-in-visual-studio
         - name: Data Tools
           tocHref: /visualstudio/data-tools/
           topicHref: /visualstudio/data-tools/index
