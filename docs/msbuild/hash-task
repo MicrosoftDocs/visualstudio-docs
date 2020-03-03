@@ -1,0 +1,56 @@
+---
+title: "Hash  Task | Microsoft Docs"
+ms.date: "03/03/2020"
+ms.topic: "reference"
+dev_langs:
+  - "VB"
+  - "CSharp"
+  - "C++"
+  - "jsharp"
+helpviewer_keywords:
+  - "Hash task [MSBuild]"
+  - "MSBuild, Hash task"
+author: pranavkm
+---
+# Hash task
+
+Computes checksum of the specified items. 
+
+## Task parameters
+
+ The following table describes the parameters of the `Hash` task.
+
+|Parameter|Description|
+|---------------|-----------------|
+|`ItemsToHash`|Required <xref:Microsoft.Build.Framework.ITaskItem>`[]` parameter.<br /><br />The items to be hashed.|
+|`HashResult`|`String` output parameter.<br /><br />The computed hash. This output is only set if there was exactly one item passed in.|
+|`IgnoreCase`|Optional `Boolean` parameter.<br /><br />When true, will generate a case-insensitive hash.|
+
+## Example
+
+The following example uses the `Hash` task to determine and print the checksum of the `HashItem` items.
+
+```xml
+<Project>
+  <ItemGroup>
+    <HashItem Include="A />
+    <HashItem Include="B />
+  </ItemGroup>
+  <Target Name="GetHash">
+    <Hash ItemsToHash="@(HashItem)">
+      <Output
+          TaskParameter="HashResult"
+          PropertyName="ComputedHash" />
+    </Hash>
+
+    <Message Importance="High"
+             Text="$(ComputedHash)" />
+  </Target>
+</Project>
+```
+
+## See also
+
+- [Tasks](../msbuild/msbuild-tasks.md)
+
+- [Task reference](../msbuild/msbuild-task-reference.md)
