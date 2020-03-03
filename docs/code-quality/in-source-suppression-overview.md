@@ -86,7 +86,7 @@ The properties of the attribute include:
 
 - **Target** - An identifier that is used to specify the target on which the warning is being suppressed. It must contain a fully qualified item name.
 
-To see examples of using `SuppressMessage`, use Visual Studio to [add a suppression to the global suppression file](../code-quality/use-roslyn-analyzers.md#suppress-violations) for warnings that you see in the code editor. The suppression attribute appears in a preview window.
+When you see warnings in Visual Studio, you can view examples of `SuppressMessage` by [adding a suppression to the global suppression file](../code-quality/use-roslyn-analyzers.md#suppress-violations). The suppression attribute and its required properties appear in a preview window.
 
 ## SuppressMessage usage
 
