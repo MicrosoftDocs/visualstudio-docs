@@ -2201,6 +2201,86 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "docs/cross-platform/android-debugger-prop-page.md",
+      "redirect_url": "/cpp/cross-platform/android-debugger-prop-page",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/cross-platform/build-an-opengl-es-application-on-android-and-ios.md",
+      "redirect_url": "/cpp/cross-platform/build-an-opengl-es-application-on-android-and-ios",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/cross-platform/clang-android-prop-page.md",
+      "redirect_url": "/cpp/cross-platform/clang-android-prop-page",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/cross-platform/clanglink-prop-page.md",
+      "redirect_url": "/cpp/cross-platform/clanglink-prop-page",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/cross-platform/create-an-android-native-activity-app.md",
+      "redirect_url": "/cpp/cross-platform/create-an-android-native-activity-app",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/cross-platform/cross-platform-mobile-development-examples.md",
+      "redirect_url": "/cpp/cross-platform/cross-platform-mobile-development-examples",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/cross-platform/cross-platform-prop-pages.md",
+      "redirect_url": "/cpp/cross-platform/cross-platform-prop-pages",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/cross-platform/general-android-prop-page.md",
+      "redirect_url": "/cpp/cross-platform/general-android-prop-page",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/cross-platform/general-makefile-android-prop-page.md",
+      "redirect_url": "/cpp/cross-platform/general-makefile-android-prop-page",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/cross-platform/import-an-xcode-project.md",
+      "redirect_url": "/cpp/cross-platform/import-an-xcode-project",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/cross-platform/index.md",
+      "redirect_url": "/cpp/cross-platform/",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/cross-platform/install-and-configure-tools-to-build-using-ios.md",
+      "redirect_url": "/cpp/cross-platform/install-and-configure-tools-to-build-using-ios",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/cross-platform/install-visual-cpp-for-cross-platform-mobile-development.md",
+      "redirect_url": "/cpp/cross-platform/install-visual-cpp-for-cross-platform-mobile-development",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/cross-platform/nmake-android-prop-page.md",
+      "redirect_url": "/cpp/cross-platform/nmake-android-prop-page",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/cross-platform/sync-changes-between-xcode-and-visual-studio.md",
+      "redirect_url": "/cpp/cross-platform/sync-changes-between-xcode-and-visual-studio",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/cross-platform/visual-cpp-for-cross-platform-mobile-development.md",
+      "redirect_url": "/cpp/cross-platform/visual-cpp-for-cross-platform-mobile-development",
+      "redirect_document_id": true
+    },
+    {
       "source_path": "docs/cross-platform/application-lifecycle-management-alm-with-xamarin-apps.md",
       "redirect_url": "/xamarin/tools/ci/devops/",
       "redirect_document_id": true
@@ -2498,6 +2578,11 @@
     {
       "source_path": "docs/data-tools/saving-data.md",
       "redirect_url": "/visualstudio/data-tools/save-data-back-to-the-database",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/how-to-debug-com-clients-and-servers-using-rpc-debugging.md",
+      "redirect_url": "/visualstudio/debugger/com-server-and-container-debugging",
       "redirect_document_id": false
     },
     {

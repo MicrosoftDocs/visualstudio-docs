@@ -1,6 +1,6 @@
 ---
 title: "Expressions in the debugger | Microsoft Docs"
-ms.date: "02/07/2018"
+ms.date: "03/02/2020"
 ms.topic: "conceptual"
 f1_keywords:
   - "vs.debug.expressions"
@@ -95,10 +95,10 @@ Debugger intrinsic functions:
 |----------|-------------------------|
 |**String length**|strlen, wcslen, strnlen, wcsnlen|
 |**String comparison**|strcmp, wcscmp, stricmp, _stricmp, _strcmpi, wcsicmp, _wcscmpi, _wcsnicmp, strncmp, wcsncmp, strnicmp, wcsnicmp|
-|**String search**|strchr, wcschr, strstr, wcsstr|
-|**Win32**|GetLastError(), TlsGetValue()|
-|**Windows 8**|WindowsGetStringLen(), WindowsGetStringRawBuffer()<br /><br /> These functions require the process that is being debugged to be running on Windows 8. Debugging dump files generated from a Windows 8 device also requires that the Visual Studio computer be running Windows 8. However, if you are debugging a Windows 8 device remotely, the Visual Studio computer can be running Windows 7.|
-|**Miscellaneous**|__log2<br /><br /> Returns the log base 2 of a specified integer, rounded to the nearest lower integer.|
+|**String search**|strchr, wcschr, memchr, wmemchr, strstr, wcsstr|
+|**Win32**|GetLastError, TlsGetValue|
+|**Windows 8**|WindowsGetStringLen, WindowsGetStringRawBuffer<br /><br /> These functions require the process that is being debugged to be running on Windows 8. Debugging dump files generated from a Windows 8 device also requires that the Visual Studio computer be running Windows 8. However, if you are debugging a Windows 8 device remotely, the Visual Studio computer can be running Windows 7.|
+|**Miscellaneous**|__log2 // Returns the log base 2 of a specified integer, rounded to the nearest lower integer.<br /><br />__findNonNull, DecodeHString, WindowsCompareStringOrdinal, RoInspectCapturedStackBackTrace, CoDecodeProxy, GetEnvBlockLength, DecodeWinRTRestrictedException, DynamicMemberLookup, DecodePointer, DynamicCast<br /><br />Stdext_HashMap_Int_OperatorBracket_idx, Std_UnorderedMap_Int_OperatorBracket_idx<br /><br />ConcurrencyArray_OperatorBracket_idx // Concurrency::array<>::operator[index<>] and operator(index<>)<br /><br />ConcurrencyArray_OperatorBracket_int // Concurrency::array<>::operator(int, int, ...)<br /><br />ConcurrencyArray_OperatorBracket_tidx // Concurrency::array<>::operator[tiled_index<>] and operator(tiled_index<>)<br /><br />ConcurrencyArrayView_OperatorBracket_idx // Concurrency::array_view<>::operator[index<>] and operator(index<>)<br /><br />ConcurrencyArrayView_OperatorBracket_int // Concurrency::array_view<>::operator(int, int, ...)<br /><br />ConcurrencyArrayView_OperatorBracket_tidx // Concurrency::array_view<>::operator[tiled_index<>] and operator(tiled_index<>)<br /><br />TreeTraverse_Init // Initializes a new tree traversal<br /><br />TreeTraverse_Next // Returns nodes in a tree<br /><br />TreeTraverse_Skip // Skips nodes in a pending tree traversal`|
 
 ## C++/CLI - Unsupported Expressions
 
