@@ -13,7 +13,8 @@ As a Visual Studio subscriptions administrator, you can use the administration p
 
 For groups of users, you have choices for how you assign subscriptions.  
 - You can assign subscriptions one at a time.
-- You can also quickly and easily upload lists of subscribers and their subscription information using the [Bulk add](assign-license-bulk.md) feature. 
+- You can also quickly and easily upload lists of subscribers and their subscription information using the [Bulk add](assign-license-bulk.md) feature.
+- If your organization uses Microsoft Azure Active Directory (Azure AD), you can [use Azure AD groups to assign subscriptions]((assign-license-bulk.md#use-azure-active-directory-groups-to-assign-subscriptions)) to groups of users. 
 
 ## Add a single subscriber
 Here's how to assign a Visual Studio subscription to a new user so that they can access the subscription benefits.
