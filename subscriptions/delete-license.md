@@ -3,22 +3,31 @@ title:  Delete subscription assignments in the Visual Studio Subscriptions Admin
 author: evanwindom
 ms.author: lank
 manager: lank
-ms.date: 07/28/2019
+ms.date: 02/04/2020
 ms.topic: conceptual
 description:  Learn how administrators can delete subscription assignments
 ---
 
 # Delete assignments in Visual Studio subscriptions
-When a subscriber no longer requires a Visual Studio subscription, such as when they leave the company, complete a project, or switch to a new job role, you can remove their subscription and  assign it to someone else. Please note that when you reassign a subscription, the subscriber benefits will not be reset.  The new user will be able to claim any unclaimed keys and view previously claimed keys but claim limits are **not** reset.
+When a subscriber no longer requires a Visual Studio subscription, such as when they leave the company, complete a project, or switch to a new job role, you can remove their subscription and  assign it to someone else. Please note that when you reassign a subscription, not all the subscriber benefits will be reset.  The new user will be able to claim any unclaimed keys and view previously claimed keys but claim limits are **not** reset.  For organizations that have Enterprise Agreements (EA), any benefits that were used by the original user, such as Pluralsight training, will be reset. 
 
 ## Delete a subscription assignment
-1. Click the name of the subscriber you want to remove. To select multiple subscribers for removal, hold down the **CTRL** key and click each subscriber you wish to remove, or press **CTRL + A** to select and remove all subscribers. The image below shows three subscribers selected.
+1. Click the name of the subscriber you want to remove. To select multiple subscribers for removal, you can click the circle to the left of the subscriber name to select each one.  Alternatively, you can hold down the **CTRL** key and click each subscriber you wish to remove.  Press **CTRL + A** to select and remove all subscribers. 
 2. To delete the selected subscriber(s), click **Delete**.
 3. When the message appears asking you to confirm the deletion, click **OK**.
    > [!div class="mx-imgBorder"]
    > ![Delete subscribers](_img/delete-license/delete-subscribers.png)
 
+   > [!NOTE]
+   > Bulk delete using a template is not available. For organizations that manage subscription assignments through Azure Active Directory Security Groups, see [our article](assign-license-bulk#use-azure-active-directory-groups-to-assign-subscriptions) for more information about how deletions happen.  
+
 ## Next steps
 - Need to change a subscription without deleting it?  Learn how to [Edit subscriptions](edit-license.md)
 - For help finding a particular subscription, check out [Search for a subscription](search-license.md).
 - Need to create a list of all your subscriptions?  Please see [Export subscriptions](exporting-subscriptions.md).
+
+## See also
+- [Visual Studio documentation](/visualstudio/)
+- [Azure DevOps documentation](/azure/devops/)
+- [Azure documentation](/azure/)
+- [Microsoft 365 documentation](/microsoft-365/)
