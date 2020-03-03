@@ -19,7 +19,7 @@ When a subscriber no longer requires a Visual Studio subscription, such as when 
    > ![Delete subscribers](_img/delete-license/delete-subscribers.png)
 
    > [!NOTE]
-   > Bulk delete using a template is not available. For organizations that manage subscription assignments through Azure Active Directory Security Groups, see [our article](assign-license-bulk#use-azure-active-directory-groups-to-assign-subscriptions) for more information about how deletions happen.  
+   > Bulk delete using a template is not available. For organizations that manage subscription assignments through Azure Active Directory Security Groups, see [our article](assign-license-bulk.md#use-azure-active-directory-groups-to-assign-subscriptions) for more information about how deletions happen.  
 
 ## See also
 - [Visual Studio documentation](https://docs.microsoft.com/visualstudio/)
