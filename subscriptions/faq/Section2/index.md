@@ -1,16 +1,16 @@
 ---
 title: Software Downloads and Benefits
 description: FAQs list for Software Downloads and Benefits.
-ms.topic: 
+ms.topic: conceptual
 ms.prod: 
 ms.custom: 
-ms.assetid: 458e2b42-d64f-4c8b-9bef-15f6eda39f9c
+ms.assetid: 17e2da46-6dc1-4a1c-a8e6-733bd7fa2c6b
 ms.technology: 
 author: profexorgeek
 ms.author: jusjohns
 manager: 
 robots: 
-ms.date: 2020-03-02T13:55:53.3604130-07:00
+ms.date: 3/3/2020
 ---
 
 [!INCLUDE [How do my end users activate their subscription?](group2_1.md)]

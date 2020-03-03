@@ -1,16 +1,16 @@
 ---
 title: Renewal and Cancellation
 description: FAQs list for Renewal and Cancellation.
-ms.topic: 
+ms.topic: conceptual
 ms.prod: 
 ms.custom: 
-ms.assetid: 35ae51e1-68cc-4881-8cdc-09a7ace1bb27
+ms.assetid: 9d7a7d4c-dce3-4655-983c-a7e4180a5433
 ms.technology: 
 author: profexorgeek
 ms.author: jusjohns
 manager: 
 robots: 
-ms.date: 2020-03-02T13:55:53.6688065-07:00
+ms.date: 3/3/2020
 ---
 
 [!INCLUDE [How do I renew my subscriptions?](group4_1.md)]

@@ -1,16 +1,16 @@
 ---
 title: Signing In
 description: FAQs list for Signing In.
-ms.topic: 
+ms.topic: conceptual
 ms.prod: 
 ms.custom: 
-ms.assetid: 14a3cb5f-9c7a-439d-a623-255b376e7ea6
+ms.assetid: e4573b81-b40c-4008-9c33-9e7437cb5796
 ms.technology: 
 author: profexorgeek
 ms.author: jusjohns
 manager: 
 robots: 
-ms.date: 2020-03-02T13:55:53.5597992-07:00
+ms.date: 3/3/2020
 ---
 
 [!INCLUDE [What is the difference between using a Microsoft Account vs Work account?](group3_1.md)]
