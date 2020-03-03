@@ -20,7 +20,7 @@ The XAML Designer in Visual Studio and Blend for Visual Studio provides a visual
 For advanced users, you can even [customize the XAML Designer](https://github.com/microsoft/xaml-designer-extensibility/blob/master/documents/xaml-designer-extensibility-migration.md).
 
 > [!NOTE]
-> Xamarin.Forms does not support a XAML designer. To view your Xamarin.Forms XAML UIs and edit them while the app is running, use XAML Hot Reload for Xamarin.Forms. For more information, see the [XAML Hot Reload for Xamarin.Forms (Preview)](/xamarin/xamarin-forms/xaml/hot-reload/) page."
+> Xamarin.Forms does not support a XAML designer. To view your Xamarin.Forms XAML UIs and edit them while the app is running, use XAML Hot Reload for Xamarin.Forms. For more information, see the [XAML Hot Reload for Xamarin.Forms (Preview)](/xamarin/xamarin-forms/xaml/hot-reload/) page.
 
 ## XAML Designer workspace
 
@@ -84,7 +84,7 @@ Displays or hides the snap grid that shows the gridlines. Gridlines are used whe
 
 **Turn on/off snapping to gridlines**
 
-If **snapping to gridlines** is enabled, when you drag an element on the artboard, the element tends to align with the closest horizontal and vertical gridlines.
+If **snapping to gridlines** is enabled, an element tends to align with the closest horizontal and vertical gridlines when you drag it onto the artboard.
 
 **Toggle artboard background**
 
@@ -110,7 +110,7 @@ The Document Outline window in Visual Studio is similar to the [Objects and Time
 
 - View the hierarchical structure of all elements on the artboard.
 
-- Select elements so that you can modify them (for example, move them around in the hierarchy or set their properties in the Properties window). For more information, see [Work with elements in XAML Designer](../xaml-tools/working-with-elements-in-xaml-designer.md).
+- Select elements so that you can modify them. For example, you can move them around in the hierarchy or set their properties in the Properties window. For more information, see [Work with elements in XAML Designer](../xaml-tools/working-with-elements-in-xaml-designer.md).
 
 - Create and modify templates for elements that are controls.
 
@@ -121,7 +121,7 @@ To view the Objects and Timeline window in Blend for Visual Studio, on the menu 
 
 ![Document Outline window in Visual Studio](media/document-outline-window.png)
 
-The main view in the Document Outline/Objects and Timeline window displays the hierarchy of a document in a tree structure. You can use the hierarchical nature of the document outline to examine the document at varying levels of detail and to lock and hide elements singly or in groups. These are the options available in the Document Outline/Objects and Timeline window:
+The main view in the Document Outline/Objects and Timeline window displays the hierarchy of a document in a tree structure. You can use the hierarchical nature of the document outline to examine the document at varying levels of detail and to lock and hide elements singly or in groups. The following options are available in the Document Outline/Objects and Timeline window:
 
 **Show/hide**
 
