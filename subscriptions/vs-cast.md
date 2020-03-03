@@ -22,7 +22,7 @@ Developers need critical insights on their software when migrating to the cloud.
    > [!div class="mx-imgBorder"]
    > ![CAST Highlight Benefit Tile](_img/vs-cast-highlight/vs-cast-highlight-tile.png)
 
-0. You will see a message letting you know your code has been retrieved successfully.  Click **Activate**, at which point you'll be redirected to the CAST Highlight page where you can continue the activation process.  (If you do not choose to activate now, you can always come back to the CAST Highlight tile in the subscription portal.  The "Get Code" link will change to "Activate", and clicking it will resume the activation process.)
+0. You will see a message letting you know your code has been retrieved successfully.  Click **Activate**. (If you do not choose to activate now, you can always come back to the CAST Highlight tile in the subscription portal.  The "Get Code" link will change to "Activate", and clicking it will resume the activation process.)
 
 0. You'll be redirected to the CAST Highlight page where you can explore the features of your subscription.  When you're ready to create your account, simply provide your contact information in the web form and click **Submit**.
 
