@@ -3,7 +3,7 @@ title:  Super admin and administrator roles in the Administration Portal
 author: evanwindom
 ms.author: lank
 manager: lank
-ms.date: 08/21/2019
+ms.date: 03/02/2020
 ms.topic: conceptual
 description: Learn about the super admin and administrator roles, and how to assign administrators. 
 ---
@@ -34,6 +34,13 @@ To assign new administrators (admins):
 
 ## Resources
 - [Visual Studio Administration and Subscriptions Support](https://visualstudio.microsoft.com/support/support-overview-vs)
+
+## See also
+- [Visual Studio documentation](https://docs.microsoft.com/visualstudio/)
+- [Azure DevOps documentation](https://docs.microsoft.com/azure/devops/)
+- [Azure documentation](https://docs.microsoft.com/azure/)
+- [Microsoft 365 documentation](https://docs.microsoft.com/microsoft-365/)
+
 
 ## Next steps
 - Learn how to [assign subscriptions](assign-license.md)
