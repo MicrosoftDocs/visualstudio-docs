@@ -148,8 +148,6 @@ Tasks in the Build target are executed sequentially. In this case, the Visual C#
 > ```xml
 > <Compile Include="*.cs" />
 > ```
->
-> However, we do not recommend the use of wildcard characters because it makes debugging and selective targeting more difficult if source files are added or deleted.
 
 ## Extend the path to include MSBuild
 
