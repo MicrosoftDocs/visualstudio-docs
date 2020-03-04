@@ -3,7 +3,7 @@ title: Search and filter | Microsoft Docs
 author: evanwindom
 ms.author: lank
 manager: lank
-ms.date: 07/24/2019
+ms.date: 02/04/2020
 ms.topic: conceptual
 description:  Learn how administrators can locate individual subscribers or groups in the Administration Portal.
 ---
@@ -24,6 +24,8 @@ The Visual Studio Subscriptions Administration Portal allows you to find a speci
    > [!NOTE]
    > The **Name** field is sorted by first name.
 
+   Notice that the **Filter** icon is highlighted, indicating that a filter is applied.  A **Clear filter** choice is also displayed. 
+
 3. To clear the filter and restore the unfiltered list, click the **Clear filter** tab at the top right. 
    > [!div class="mx-imgBorder"]
    > ![Clear the filter from the subscriber list](media/clear-filter.png)
@@ -31,3 +33,9 @@ The Visual Studio Subscriptions Administration Portal allows you to find a speci
 ## Next steps
 - Now that you know how to find a subscriber, learn how to [edit](edit-license.md) their subscription.
 - Need help using the Administration Portal?  Contact [Visual Studio Administration and Subscriptions Support](https://visualstudio.microsoft.com/support/support-overview-vs).
+
+## See also
+- [Visual Studio documentation](/visualstudio/)
+- [Azure DevOps documentation](/azure/devops/)
+- [Azure documentation](/azure/)
+- [Microsoft 365 documentation](/microsoft-365/)
