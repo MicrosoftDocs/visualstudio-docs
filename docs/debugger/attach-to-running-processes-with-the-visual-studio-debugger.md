@@ -227,7 +227,7 @@ You can attach the Visual Studio debugger to a process running in a Windows Dock
     ![Completed Docker Attach Menu](../debugger/media/docker-attach-complete-windows.png "Completed Windows Docker Attach Menu")
     
 
-5.	Choose the corresponding container process from the list of Available processes and select Attach to start debugging your C# container process.
+5.	Choose the corresponding container process from the list of available processes and choose **Attach** to start debugging your C# container process.
 
 
 ::: moniker-end
