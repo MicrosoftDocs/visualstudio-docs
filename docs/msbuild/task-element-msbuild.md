@@ -1,5 +1,5 @@
 ---
-title: Task Element (MSBuild) | Microsoft Docs
+title: Task Element of Target (MSBuild) | Microsoft Docs
 ms.date: 03/13/2017
 ms.topic: reference
 dev_langs:
@@ -17,7 +17,7 @@ manager: jillfra
 ms.workload:
 - multiple
 ---
-# Task element (MSBuild)
+# Task element of Target (MSBuild)
 
 Creates and executes an instance of an MSBuild task. The element name is determined by the name of the task being created.
 
