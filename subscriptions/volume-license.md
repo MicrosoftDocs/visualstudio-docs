@@ -3,7 +3,7 @@ title: Accessing the Administration Portal for Volume License customers | Micros
 author: evanwindom
 ms.author: lank
 manager: lank
-ms.date: 02/03/2020
+ms.date: 03/03/2020
 ms.topic: conceptual
 description:  Learn how administrators on Volume License agreements can access the Visual Studio subscriptions Administration Portal
 ---
@@ -22,13 +22,13 @@ This applies to all Volume Licensing agreement types including, but not limited 
 ## Resources
 - [Visual Studio Administration and Subscriptions Support](https://visualstudio.microsoft.com/support/support-overview-vs)
 
-## Next steps
-- Learn how to [assign subscriptions](assign-license.md)
-- Learn more about the full range of [subscription benefits](https://visualstudio.microsoft.com/vs/benefits/)
-- [Set agreement preferences](admin-prefs.md) 
-
 ## See also
 - [Visual Studio documentation](https://docs.microsoft.com/visualstudio/)
 - [Azure DevOps documentation](https://docs.microsoft.com/azure/devops/)
 - [Azure documentation](https://docs.microsoft.com/azure/)
 - [Microsoft 365 documentation](https://docs.microsoft.com/microsoft-365/)
+
+## Next steps
+- Learn how to [assign subscriptions](assign-license.md)
+- Learn more about the full range of [subscription benefits](https://visualstudio.microsoft.com/vs/benefits/)
+- [Set agreement preferences](admin-prefs.md) 
