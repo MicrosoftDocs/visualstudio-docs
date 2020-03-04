@@ -3,7 +3,7 @@ title: Visual Studio subscriptions in a Microsoft Products and Services Agreemen
 author: evanwindom
 ms.author: lank
 manager: lank
-ms.date: 07/23/2019
+ms.date: 03/03/2020
 ms.topic: conceptual
 description:  Visual Studio subscriptions in a Microsoft Products and Services Agreement (MPSA)
 ---
@@ -55,3 +55,17 @@ For a more detailed explanation for this process, you may use the [Quick Start g
 
 > [!NOTE]
 > Once you complete the domain take-over process, you must adhere to the criteria from the five steps in the section for Pre Tenant Association (Managed). Once the criteria are met, it will only be necessary to contact MPSA Support to provision additional Visual Studio subscriptions administrators.
+
+## See also
+- [Visual Studio documentation](https://docs.microsoft.com/visualstudio/)
+- [Azure DevOps documentation](https://docs.microsoft.com/azure/devops/)
+- [Azure documentation](https://docs.microsoft.com/azure/)
+- [Microsoft 365 documentation](https://docs.microsoft.com/microsoft-365/)
+
+## Next steps
+Learn more about managing Visual Studio subscriptions.
+- [Assign individual subscriptions](assign-license.md)
+- [Assign multiple subscriptions](assign-license-bulk.md)
+- [Edit subscriptions](edit-license.md)
+- [Delete subscriptions](delete-license.md)
+- [Determine maximum usage](maximum-usage.md)
