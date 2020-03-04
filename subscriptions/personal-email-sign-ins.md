@@ -23,12 +23,12 @@ A Microsoft Account (MSA) was required to sign-in. If the subscriber didn’t at
 > The new subscriber experience on [https://my.visualstudio.com](https://my.visualstudio.com?wt.mc_id=o~msft~docs) supports both Work/School and Microsoft Account (MAA) identity types.
 
 ## Solution
-To correct the problem, simply select the **Connect Emails** button and the system will attempt to match the accounts with MSAs to existing users in your organization’s Azure Active Directory (AAD) based on matching the first and last name. If there is an error, you can remove any match by clicking on the **X** to the right of the match.  
+To correct the problem, simply select the **Connect Emails** button and the system will attempt to match the accounts with MSAs to existing users in your organization’s Azure Active Directory (Azure AD) based on matching the first and last name. If there is an error, you can remove any match by clicking on the **X** to the right of the match.  
 
 > [!div class="mx-imgBorder"]
 > ![Connect Emails Button](_img/connect-emails/connect-emails-button.png)
 
-You can also use the **Search Directory** to correct the errors or fill in missing information from your AAD. If the all the matches look correct, you can choose to “Select all matching subscribers”, rather than selecting them one at a time.  
+You can also use the **Search Directory** to correct the errors or fill in missing information from your Azure AD. If the all the matches look correct, you can choose to “Select all matching subscribers”, rather than selecting them one at a time.  
 
 > [!div class="mx-imgBorder"]
 > ![Connect Emails Fly-out](_img/connect-emails/connect-emails-flyout.png)
