@@ -218,7 +218,7 @@ You can attach the Visual Studio debugger to a process running in a Windows Dock
    Setting the target to a remote container via SSH is currently unavailable and can only be done using a Docker daemon.
     
     ***To set the target to a remote container running a process via a [Docker daemon](https://docs.docker.com/engine/reference/commandline/dockerd/)***
-    1. Specify the daemon address (i.e. via TCP, IP, etc.) under Docker host (Optional) and click the refresh link. 
+    1. Specify the daemon address (i.e. via TCP, IP, etc.) under **Docker host (Optional)** and click the refresh link. 
 
     1. Select a running container to attach to after connecting to the daemon successfully and choose OK.
     
