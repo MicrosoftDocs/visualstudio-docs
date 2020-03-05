@@ -3358,7 +3358,7 @@
     {
       "source_path": "docs/docker/vs-azure-tools-docker-setup.md",
       "redirect_url": "/visualstudio/containers/",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/docker/vs-azure-tools-docker-troubleshooting-docker-errors.md",
