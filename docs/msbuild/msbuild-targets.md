@@ -1,15 +1,15 @@
 ---
-title: "MSBuild Targets | Microsoft Docs"
-ms.date: "06/13/2019"
-ms.topic: "conceptual"
+title: MSBuild Targets | Microsoft Docs
+ms.date: 06/13/2019
+ms.topic: conceptual
 helpviewer_keywords:
-  - "MSBuild, targets"
+- MSBuild, targets
 ms.assetid: 8060b4d2-e4a9-48cf-a437-852649ceb417
-author: mikejo5000
-ms.author: mikejo
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # MSBuild targets
 
@@ -99,6 +99,7 @@ Reference: 4.0
  If all output items are up-to-date, MSBuild skips the target, which significantly improves the build speed. This is called an incremental build of the target. If only some files are up-to-date, MSBuild executes the target without the up-to-date items. This is called a partial incremental build of the target. For more information, see [Incremental builds](../msbuild/incremental-builds.md).
 
 ## Default build targets
+
 The following lists the public targets in Microsoft.Common.CurrentVersion.Targets.
 
 ```

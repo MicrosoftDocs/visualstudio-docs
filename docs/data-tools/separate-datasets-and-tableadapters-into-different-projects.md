@@ -3,14 +3,14 @@ title: Separate datasets and TableAdapters into different projects
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "TableAdapters, n-tier applications"
-  - "n-tier applications, separating Datasets and TableAdapters"
+- TableAdapters, n-tier applications
+- n-tier applications, separating Datasets and TableAdapters
 ms.assetid: f66a3940-6227-46af-a930-9177f425f4fd
-author: jillre
-ms.author: jillfra
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "data-storage"
+- data-storage
 ---
 # Separate datasets and TableAdapters into different projects
 Typed datasets have been enhanced so that the [TableAdapters](create-and-configure-tableadapters.md) and dataset classes can be generated into separate projects. This enables you to quickly separate application layers and generate n-tier data applications.

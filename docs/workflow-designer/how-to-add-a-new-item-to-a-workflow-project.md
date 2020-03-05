@@ -1,13 +1,13 @@
 ---
-title: "Workflow Designer: Add a new item to workflow project"
+title: 'Workflow Designer: Add a new item to workflow project'
 ms.date: 06/25/2018
 ms.topic: conceptual
 ms.assetid: 5c6180ca-af10-4513-b0cb-7d478fd84eab
-author: jillre
-ms.author: jillfra
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # How to: Add a new item to a workflow project
 

@@ -1,14 +1,14 @@
 ---
-title: "Use a lab environment for devops"
+title: Use a lab environment for devops
 ms.date: 05/02/2017
 ms.topic: conceptual
 helpviewer_keywords:
-  - "lab environment, test lab"
-ms.author: jillfra
+- lab environment, test lab
+ms.author: mikejo
 manager: jillfra
 ms.workload:
-  - "multiple"
-author: jillre
+- multiple
+author: mikejo5000
 ---
 # Use a lab environment for your devops
 
@@ -135,5 +135,5 @@ For information about setting up environments, see:
 ## See also
 
 * [Install and configure test agents](../../test/lab-management/install-configure-test-agents.md)
-* [Visual Studio Lab Management Guide](https://aka.ms/vsarsolutions)
+* [Visual Studio Lab Management Guide](https://blogs.msdn.microsoft.com/visualstudioalmrangers/2015/04/22/library-of-tooling-and-guidance-solutions-aka-msvsarsolutions/)
 * [Microsoft DevOps Blog](https://devblogs.microsoft.com/devops/)

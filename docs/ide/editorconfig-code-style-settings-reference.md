@@ -1,22 +1,22 @@
 ---
 title: .NET coding convention settings For EditorConfig
-ms.date: 06/14/2018
+ms.date: 02/21/2020
 ms.topic: reference
 helpviewer_keywords:
-  - "coding conventions [EditorConfig]"
-  - "EditorConfig coding conventions"
-  - "language code style rules [EditorConfig]"
-  - "formatting conventions [EditorConfig]"
-author: jillre
-ms.author: jillfra
+- coding conventions [EditorConfig]
+- EditorConfig coding conventions
+- language code style rules [EditorConfig]
+- formatting conventions [EditorConfig]
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "dotnet"
-  - "dotnetcore"
+- dotnet
+- dotnetcore
 ---
 # .NET coding convention settings for EditorConfig
 
-You can define and maintain consistent code style in your codebase with the use of an [EditorConfig](../ide/create-portable-custom-editor-options.md) file. EditorConfig includes several core formatting properties, such as `indent_style` and `indent_size`. In Visual Studio, .NET coding conventions settings can also be configured by using an EditorConfig file. You can enable or disable individual .NET coding conventions and configure the degree to which you want each rule enforced, via a severity level.
+You can define and maintain consistent code style in your codebase by using an [EditorConfig](../ide/create-portable-custom-editor-options.md) file. EditorConfig includes several core formatting properties, such as `indent_style` and `indent_size`. In Visual Studio, .NET coding conventions settings can also be configured by using an EditorConfig file. You can enable or disable individual .NET coding conventions and configure the degree to which you want each rule enforced, via a severity level.
 
 > [!TIP]
 > - When you define coding conventions in an EditorConfig file, you're configuring how you want the [code style analyzers](../code-quality/roslyn-analyzers-overview.md) that are built into Visual Studio to analyze your code. The EditorConfig file is the configuration file for these analyzers.
@@ -40,7 +40,7 @@ There are three supported .NET coding convention categories:
 
 ## Example EditorConfig file
 
-To help you get started, here is an example *.editorconfig* file with the default options:
+To help you get started, here is an example *.editorconfig* file with the default options. In Visual Studio, you can generate this file and save it to a project at **Tools** > **Options** > **Text Editor** > [**C#** or  **Basic**] > **Code Style** > **General**. Then, click the **Generate .editorconfig file from settings** button. For more information, see [Code style preferences](code-styles-and-code-cleanup.md).
 
 ```ini
 ###############################
@@ -64,9 +64,9 @@ charset = utf-8-bom
 ###############################
 
 [*.{cs,vb}]
+
 # Organize usings
 dotnet_sort_system_directives_first = true
-dotnet_separate_import_directive_groups = false
 
 # this. preferences
 dotnet_style_qualification_for_field = false:silent
@@ -107,8 +107,7 @@ dotnet_style_prefer_conditional_expression_over_return = true:silent
 
 # Style Definitions
 dotnet_naming_style.pascal_case_style.capitalization             = pascal_case
-
-# Use PascalCase for constant fields
+# Use PascalCase for constant fields  
 dotnet_naming_rule.constant_fields_should_be_pascal_case.severity = suggestion
 dotnet_naming_rule.constant_fields_should_be_pascal_case.symbols  = constant_fields
 dotnet_naming_rule.constant_fields_should_be_pascal_case.style    = pascal_case_style
@@ -117,10 +116,11 @@ dotnet_naming_symbols.constant_fields.applicable_accessibilities  = *
 dotnet_naming_symbols.constant_fields.required_modifiers          = const
 
 ###############################
-# C# Code Style Rules         #
+# C# Coding Conventions       #
 ###############################
 
 [*.cs]
+
 # var preferences
 csharp_style_var_for_built_in_types = true:silent
 csharp_style_var_when_type_is_apparent = true:silent
@@ -134,7 +134,7 @@ csharp_style_expression_bodied_properties = true:silent
 csharp_style_expression_bodied_indexers = true:silent
 csharp_style_expression_bodied_accessors = true:silent
 
-# Pattern-matching preferences
+# Pattern matching preferences
 csharp_style_pattern_matching_over_is_with_cast_check = true:suggestion
 csharp_style_pattern_matching_over_as_with_null_check = true:suggestion
 
@@ -182,18 +182,17 @@ csharp_space_around_binary_operators = before_and_after
 csharp_space_between_method_declaration_empty_parameter_list_parentheses = false
 csharp_space_between_method_call_name_and_opening_parenthesis = false
 csharp_space_between_method_call_empty_parameter_list_parentheses = false
-csharp_space_after_comma = true
-csharp_space_after_dot = false
 
 # Wrapping preferences
 csharp_preserve_single_line_statements = true
 csharp_preserve_single_line_blocks = true
 
-##################################
-# Visual Basic Code Style Rules  #
-##################################
+###############################
+# VB Coding Conventions       #
+###############################
 
 [*.vb]
+
 # Modifier preferences
 visual_basic_preferred_modifier_order = Partial,Default,Private,Protected,Public,Friend,NotOverridable,Overridable,MustOverride,Overloads,Overrides,MustInherit,NotInheritable,Static,Shared,Shadows,ReadOnly,WriteOnly,Dim,Const,WithEvents,Widening,Narrowing,Custom,Async:suggestion
 ```
@@ -202,4 +201,5 @@ visual_basic_preferred_modifier_order = Partial,Default,Private,Protected,Public
 
 - [Quick Actions](../ide/quick-actions.md)
 - [Create portable custom editor options](../ide/create-portable-custom-editor-options.md)
-- [.NET Compiler Platform's .editorconfig file](https://github.com/dotnet/roslyn/blob/master/.editorconfig)
+- [.NET Compiler Platform "Roslyn" .editorconfig file](https://github.com/dotnet/roslyn/blob/master/.editorconfig)
+- [.NET Compiler Platform Runtime .editorconfig file](https://github.com/dotnet/runtime/blob/master/.editorconfig)

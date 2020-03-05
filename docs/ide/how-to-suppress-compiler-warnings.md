@@ -7,7 +7,7 @@ author: ghogen
 ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # How to: Suppress compiler warnings
 

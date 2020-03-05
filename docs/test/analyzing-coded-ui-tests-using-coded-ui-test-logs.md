@@ -1,12 +1,12 @@
 ---
-title: "Analyzing Coded UI Tests Using Coded UI Test Logs"
+title: Analyzing Coded UI Tests Using Coded UI Test Logs
 ms.date: 11/04/2016
 ms.topic: conceptual
-ms.author: jillfra
+ms.author: mikejo
 manager: jillfra
 ms.workload:
-  - "multiple"
-author: jillre
+- multiple
+author: mikejo5000
 ---
 # Analyzing coded UI tests using coded UI test logs
 

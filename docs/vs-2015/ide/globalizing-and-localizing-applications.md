@@ -35,10 +35,10 @@ If you plan on distributing your application to an international audience, you'l
  Provides links to pages about creating applications that support multiple cultures.
 
 ## Related Sections
- [Globalizing your app (Windows Store apps using JavaScript and HTML)](https://go.microsoft.com/fwlink/?LinkId=258266)
+ [Globalizing your app (Windows Store apps using JavaScript and HTML)](https://msdn.microsoft.com/library/windows/apps/hh465006.aspx)
  Contains how-to topics and guidelines to help you globalize and localize your [!INCLUDE[win8_appname_long](../includes/win8-appname-long-md.md)] app built using JavaScript and HTML.
 
- [Globalizing your app (Windows Store apps using C#/VB/C++ and XAML)](https://go.microsoft.com/fwlink/?LinkId=258267)
+ [Globalizing your app (Windows Store apps using C#/VB/C++ and XAML)](https://msdn.microsoft.com/library/windows/apps/xaml/Hh965328(v=win.10).aspx)
  Contains how-to topics and guidelines to help you globalize and localize your [!INCLUDE[win8_appname_long](../includes/win8-appname-long-md.md)] app built using XAML and Visual C#, Visual Basic, or Visual C++.
 
  [Best Practices for Developing World-Ready Applications](https://msdn.microsoft.com/library/f08169c7-aad8-4ec3-9a21-9ebd3b89986c)

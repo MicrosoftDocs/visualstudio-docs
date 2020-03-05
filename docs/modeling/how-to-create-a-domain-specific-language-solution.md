@@ -1,18 +1,18 @@
 ---
-title: "How to: Create a Domain-Specific Language Solution"
+title: 'How to: Create a Domain-Specific Language Solution'
 ms.date: 11/04/2016
 ms.topic: conceptual
 f1_keywords:
-  - "vs.dsltools.designerwizard"
+- vs.dsltools.designerwizard
 helpviewer_keywords:
-  - "Domain-Specific Language Tools, walkthroughs"
-  - "walkthroughs [Domain-Specific Language Tools], creating domain-specific language"
-  - "Domain-Specific Language Tools, creating solutions"
-author: jillre
-ms.author: jillfra
+- Domain-Specific Language Tools, walkthroughs
+- walkthroughs [Domain-Specific Language Tools], creating domain-specific language
+- Domain-Specific Language Tools, creating solutions
+author: JoshuaPartlow
+ms.author: joshuapa
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # How to: Create a Domain-Specific Language Solution
 A domain-specific language (DSL) is created by using a specialized Visual Studio solution.

@@ -1,28 +1,31 @@
 ---
-title: "Common MSBuild Project Items | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "reference"
+title: Common MSBuild Project Items | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: reference
 dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
+- VB
+- CSharp
+- C++
+- jsharp
 helpviewer_keywords:
-  - "MSBuild, common project items"
+- MSBuild, common project items
 ms.assetid: 1eba3721-cc12-4b80-9987-84923ede5e2e
-author: mikejo5000
-ms.author: mikejo
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Common MSBuild project items
-In [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)], an item is a named reference to one or more files. Items contain metadata such as file names, paths, and version numbers. All project types in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] have several items in common. These items are defined in the file *Microsoft.Build.CommonTypes.xsd*.
 
+In MSBuild, an item is a named reference to one or more files. Items contain metadata such as file names, paths, and version numbers. All project types in Visual Studio have several items in common. These items are defined in the file *Microsoft.Build.CommonTypes.xsd*.
 ## Common items
+
+ The following is a list of all the common project items.
  The following is a list of all the common project items.
 
 ### Reference
+
  Represents an assembly (managed) reference in the project.
 
 |Item metadata name|Description|
@@ -35,6 +38,7 @@ In [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.m
 |Private|Optional boolean. Specifies whether the reference should be copied to the output folder. This attribute matches the **Copy Local** property of the reference that's in the Visual Studio IDE.|
 
 ### COMReference
+
  Represents a COM (unmanaged) component reference in the project. This item applies only to .NET projects.
 
 |Item metadata name|Description|
@@ -48,6 +52,7 @@ In [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.m
 |Isolated|Optional boolean. Specifies whether the component is a reg-free component.|
 
 ### COMFileReference
+
  Represents a list of type libraries that are passed to the `TypeLibFiles` parameter of the [ResolveComReference](resolvecomreference-task.md) target. This item applies only to .NET projects.
 
 |Item metadata name|Description|
@@ -55,6 +60,7 @@ In [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.m
 |WrapperTool|Optional string. The name of the wrapper tool that is used on the component, for example, "tlbimp."|
 
 ### NativeReference
+
  Represents a native manifest file or a reference to such a file.
 
 |Item metadata name|Description|
@@ -63,6 +69,7 @@ In [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.m
 |HintPath|Required string. The relative path of the manifest file.|
 
 ### ProjectReference
+
  Represents a reference to another project.
 
 |Item metadata name|Description|
@@ -73,17 +80,19 @@ In [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.m
 |ReferenceOutputAssembly|Optional boolean. If set to `false`, does not include the output of the referenced project as a [Reference](#reference) of this project, but still ensures that the other project builds before this one. Defaults to `true`.|
 
 ### Compile
+
  Represents the source files for the compiler.
 
 | Item metadata name | Description |
 |-----------------------| - |
 | DependentUpon | Optional string. Specifies the file this file depends on to compile correctly. |
-| AutoGen | Optional boolean. Indicates whether the file was generated for the project by the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] integrated development environment (IDE). |
+| AutoGen | Optional boolean. Indicates whether the file was generated for the project by the Visual Studio integrated development environment (IDE). |
 | Link | Optional string. The notational path to be displayed when the file is physically located outside the influence of the project file. |
-| Visible | Optional boolean. Indicates whether to display the file in **Solution Explorer** in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. |
+| Visible | Optional boolean. Indicates whether to display the file in **Solution Explorer** in Visual Studio. |
 | CopyToOutputDirectory | Optional string. Determines whether to copy the file to the output directory. Values are:<br /><br /> 1.  Never<br />2.  Always<br />3.  PreserveNewest |
 
 ### EmbeddedResource
+
  Represents resources to be embedded in the generated assembly.
 
 | Item metadata name | Description |
@@ -93,11 +102,12 @@ In [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.m
 | LastGenOutput | Required string. The name of the file that was created by any file generator that ran on this item. |
 | CustomToolNamespace | Required string. The namespace in which any file generator that runs on this item should create code. |
 | Link | Optional string. The notational path is displayed if the file is physically located outside the influence of the project. |
-| Visible | Optional boolean. Indicates whether to display the file in **Solution Explorer** in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. |
+| Visible | Optional boolean. Indicates whether to display the file in **Solution Explorer** in Visual Studio. |
 | CopyToOutputDirectory | Optional string. Determines whether to copy the file to the output directory. Values are:<br /><br /> 1.  Never<br />2.  Always<br />3.  PreserveNewest |
 | LogicalName | Required string. The logical name of the embedded resource. |
 
 ### Content
+
  Represents files that are not compiled into the project, but may be embedded or published together with it.
 
 | Item metadata name | Description |
@@ -109,10 +119,11 @@ In [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.m
 | Link | Optional string. The notational path to be displayed if the file is physically located outside the influence of the project. |
 | PublishState | Required string. The publish state of the content, either:<br /><br /> -   Default<br />-   Included<br />-   Excluded<br />-   DataFile<br />-   Prerequisite |
 | IsAssembly | Optional boolean. Specifies whether the file is an assembly. |
-| Visible | Optional boolean. Indicates whether to display the file in **Solution Explorer** in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. |
+| Visible | Optional boolean. Indicates whether to display the file in **Solution Explorer** in Visual Studio. |
 | CopyToOutputDirectory | Optional string. Determines whether to copy the file to the output directory. Values are:<br /><br /> 1.  Never<br />2.  Always<br />3.  PreserveNewest |
 
 ### None
+
  Represents files that should have no role in the build process.
 
 | Item metadata name | Description |
@@ -122,10 +133,11 @@ In [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.m
 | LastGenOutput | Required string. The name of the file that was created by any file generator that ran on this item. |
 | CustomToolNamespace | Required string. The namespace in which any file generator that runs on this item should create code. |
 | Link | Optional string. The notational path to be displayed if the file is physically located outside the influence of the project. |
-| Visible | Optional boolean. Indicates whether to display the file in **Solution Explorer** in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. |
+| Visible | Optional boolean. Indicates whether to display the file in **Solution Explorer** in Visual Studio. |
 | CopyToOutputDirectory | Optional string. Determines whether to copy the file to the output directory. Values are:<br /><br /> 1.  Never<br />2.  Always<br />3.  PreserveNewest |
 
 ### AssemblyMetadata
+
  Represents assembly attributes to be generated as `[AssemblyMetadata(key, value)]`.
 
 | Item metadata name | Description |
@@ -137,13 +149,17 @@ In [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.m
 > This applies to projects using the .NET Core SDK only.
 
 ### BaseApplicationManifest
- Represents the base application manifest for the build, and contains [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment security information.
+
+ Represents the base application manifest for the build, and contains ClickOnce deployment security information.
 
 ### CodeAnalysisImport
+
  Represents the FxCop project to import.
 
 ### Import
- Represents assemblies whose namespaces should be imported by the [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] compiler.
+
+ Represents assemblies whose namespaces should be imported by the Visual Basic compiler.
 
 ## See also
+
 - [Common MSBuild project properties](../msbuild/common-msbuild-project-properties.md)

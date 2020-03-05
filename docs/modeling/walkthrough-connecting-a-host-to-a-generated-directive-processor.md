@@ -1,18 +1,18 @@
 ---
-title: "Connect host to generated directive processor"
+title: Connect host to generated directive processor
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "walkthroughs [text templates], connecting host to processor"
-  - "text templates, custom directive hosts"
-author: jillre
-ms.author: jillfra
+- walkthroughs [text templates], connecting host to processor
+- text templates, custom directive hosts
+author: JoshuaPartlow
+ms.author: joshuapa
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 dev_langs:
- - CSharp
- - VB
+- CSharp
+- VB
 ---
 # Walkthrough: Connect a Host to a Generated Directive Processor
 

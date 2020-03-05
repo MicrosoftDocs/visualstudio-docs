@@ -29,7 +29,7 @@ The following table shows the MSBuild properties available for Docker Compose pr
 
 | Property name | Location | Description | Default value  |
 |---------------|----------|-------------|----------------|
-|AdditionalComposeFiles|dcproj|Specifies additional compose files in a semicolon-delimited list to be sent out to docker-compose.exe for all commands. Relative paths from the docker-compose project file (dcproj) are allowed.|-|
+|AdditionalComposeFilePaths|dcproj|Specifies additional compose files in a semicolon-delimited list to be sent out to docker-compose.exe for all commands. Relative paths from the docker-compose project file (dcproj) are allowed.|-|
 |DockerComposeBaseFilePath|dcproj|Specifies the first part of the filenames of the docker-compose files, without the *.yml* extension. For example: <br>1.	DockerComposeBaseFilePath = null/undefined: use the base file path *docker-compose*, and files will be named *docker-compose.yml* and *docker-compose.override.yml*<br>2.	DockerComposeBaseFilePath = *mydockercompose*: files will be named *mydockercompose.yml* and *mydockercompose.override.yml*<br> 3.	DockerComposeBaseFilePath = *..\mydockercompose*: files will be up one level. |docker-compose|
 |DockerComposeBuildArguments|dcproj|Specifies the extra parameters to pass to the `docker-compose build` command. For example, `--parallel --pull` |
 |DockerComposeDownArguments|dcproj|Specifies the extra parameters to pass to the `docker-compose down` command. For example, `--timeout 500`|-|  
@@ -103,6 +103,20 @@ Use double quotes around the values, as in the preceding example, and use the ba
 |com.microsoft.visualstudio.debuggee.killprogram|This command is used to stop the debuggee program that's running inside of the container (when necessary).|
 |com.microsoft.visualstudio.debuggee.program|The program launched when starting debugging. For .NET Core apps, this setting is typically **dotnet**.|
 |com.microsoft.visualstudio.debuggee.workingdirectory|The directory used as the starting directory when starting debugging. This setting is typically */app* for Linux containers, or *C:\app* for Windows containers.|
+
+## Customize the app startup process
+
+You can run a command or custom script before launching your app by using the `entrypoint` setting, and making it dependent on the configuration. For example, if you need to set up a certificate only in **Debug** mode by running `update-ca-certificates`, but not in **Release** mode, you could add the following code only in *docker-compose.vs.debug.yml*:
+
+```yml
+services:
+  webapplication1:
+    entrypoint: "sh -c 'update-ca-certificates && tail -f /dev/null'"
+    labels:
+      ...
+```
+
+If you omit the *docker-compose.vs.release.yml* or *docker-compose.vs.debug.yml* then Visual Studio generates one based on default settings.
 
 ## Next steps
 

@@ -9,7 +9,7 @@ ms.topic: reference
 
 # How to increase the chances of a performance issue being fixed
 
-The "[Report a problem](https://aka.ms/vs-rap)" tool is widely used by Visual Studio users to report a range of problems. The Visual Studio team spots crash and slowness trends in user feedback and addresses issues impacting a broad swath of users. The more actionable a specific feedback ticket is, the more likely it will be diagnosed and resolved quickly by the product team. This document describes the best practices while reporting crash or slowness issues to make them more actionable.
+The "[Report a problem](/visualstudio/ide/how-to-report-a-problem-with-visual-studio?view=vs-2019)" tool is widely used by Visual Studio users to report a range of problems. The Visual Studio team spots crash and slowness trends in user feedback and addresses issues impacting a broad swath of users. The more actionable a specific feedback ticket is, the more likely it will be diagnosed and resolved quickly by the product team. This document describes the best practices while reporting crash or slowness issues to make them more actionable.
 
 ## General best practices
 
@@ -42,6 +42,8 @@ follow the feedback steps specific to that case.
 
 -   [High CPU:](#slowness-and-high-cpu-issues) Extended periods of unexpectedly high CPU usage
 
+-   [Out-Of-Process Issues:](#out-of-process-issues) An issue caused by a Visual Studio satellite process
+
 ## Crashes
 A crash occurs when the process (Visual Studio) terminates unexpectedly.
 
@@ -57,7 +59,7 @@ characteristics:
 - Can be reproduced in sample code or a project that can be linked to or provided as part of the feedback (if the steps involve opening a project or document)
 
 For these issues, follow the steps in "[How to Report a
-Problem](https://docs.microsoft.com/visualstudio/ide/how-to-report-a-problem-with-visual-studio-2017)"
+Problem](/visualstudio/ide/how-to-report-a-problem-with-visual-studio-2017)"
 and be sure to include:
 
 -   The steps to reproduce the problem
@@ -92,7 +94,7 @@ Reporting\\LocalDumps\\devenv.exe" /v DumpFolder /t REG_SZ /d "C:\\CrashDumps"
 
 Customize the dump count and dump folder as appropriate. Find more information
 on these settings
-[here](https://docs.microsoft.com/windows/win32/wer/collecting-user-mode-dumps?redirectedfrom=MSDN).
+[here](/windows/win32/wer/collecting-user-mode-dumps).
 
 > [!NOTE]
 > Dumps captured using Task Manager are likely to be of the wrong bitness, which makes them less usable. The procedure described above is the
@@ -118,7 +120,7 @@ attach the appropriate dump.
     feedback
 
 3.  Follow the steps in "[How to Report a
-    Problem](https://docs.microsoft.com/visualstudio/ide/how-to-report-a-problem-with-visual-studio-2017)",
+    Problem](/visualstudio/ide/how-to-report-a-problem-with-visual-studio-2017)",
     and attach the heap dump to a new feedback item.
 
 > [!NOTE] 
@@ -138,7 +140,7 @@ reproduce the problem, and include sample source code that demonstrates the prob
 If an unresponsiveness manifests itself in an unpredictable fashion, on the next occurrence,
 launch a new instance of Visual Studio and report a problem from that instance.
 In the [“Record”
-screen](https://docs.microsoft.com/visualstudio/ide/how-to-report-a-problem-with-visual-studio?view=vs-2019#record-a-repro),
+screen](/visualstudio/ide/how-to-report-a-problem-with-visual-studio?view=vs-2019#record-a-repro),
 be sure to select the Visual Studio session that is unresponsive.
 
 If the Visual Studio instance that is unresponsive was launched in Administrator mode,
@@ -177,7 +179,7 @@ For best results in capturing the performance, follow these steps:
 3.  In the new copy of Visual Studio, open the **Report a Problem** tool
 
 4.  Follow the steps in [How to Report a
-    Problem](https://docs.microsoft.com/visualstudio/ide/how-to-report-a-problem-with-visual-studio-2017)
+    Problem](/visualstudio/ide/how-to-report-a-problem-with-visual-studio-2017)
     until you reach the "Provide a trace and heap dump (optional)" step.
 
 5.  Choose to record the first copy of Visual Studio (the one encountering performance problem) and start recording.
@@ -219,7 +221,7 @@ performance trace is required in order to resolve a previous feedback item, we
 will set the state of the feedback item to "Need More Info", which can be
 responded to in the same way as reporting a new problem. For detailed
 instruction, please refer to ["Need More Info"
-section](https://docs.microsoft.com/visualstudio/ide/how-to-report-a-problem-with-visual-studio-2017?view=vs-2017#when-further-information-is-needed-need-more-info)
+section](/visualstudio/ide/how-to-report-a-problem-with-visual-studio-2017?view=vs-2017#when-further-information-is-needed-need-more-info)
 in Report a Problem tool's document.
 
 > [!NOTE] 
@@ -237,6 +239,24 @@ tool to use. Steps for manually recording performance trace using the PerfView
 tool can be found on the [Recording performance traces with
 PerfView](https://github.com/dotnet/roslyn/wiki/Recording-performance-traces-with-PerfView)
 page.
+
+## Out-Of-Process Issues
+
+> [!NOTE]
+> Starting with Visual Studio 2019 version 16.3, out-of-process logs are automatically attached to feedback submitted using the Report a Problem tool. 
+However, if the issue is directly reproducible, following the below steps could still help add additional information to help better diagnose the issue.
+
+There are a number of satellite processes that run parallel to Visual Studio and provide various features from outside of the main Visual Studio process. If an error occurs in one of these satellite processes it is usually seen on the Visual Studio side as a 'StreamJsonRpc.RemoteInvocationException' or a 'StreamJsonRpc.ConnectionLostException'.
+
+What makes these types of issues most actionable is to provide additional logs that can be collected by following these steps:
+
+1.  If this is a directly reproducible issue, start by deleting the **%temp%/servicehub/logs** folder. If you cannot reproduce this issue please keep this folder intact and ignore the following bullets:
+
+    -   Set the global environment variable **ServiceHubTraceLevel** to **All**
+    -   Reproduce the issue.
+
+2.  Download the Microsoft Visual Studio and .NET Framework Log Collection Tool [here](https://www.microsoft.com/download/details.aspx?id=12493).
+3.  Run the tool. This outputs a zip file to **%temp%/vslogs.zip**. Please attach that file to your feedback.
 
 ## See also
 

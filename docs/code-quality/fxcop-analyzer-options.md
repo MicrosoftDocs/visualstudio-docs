@@ -2,11 +2,11 @@
 title: FxCop analyzer configuration options
 ms.date: 09/23/2019
 ms.topic: reference
-author: jillre
-ms.author: jillfra
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ms.workload:
-  - "dotnet"
+- dotnet
 ---
 # Rule scope options for FxCop analyzers
 

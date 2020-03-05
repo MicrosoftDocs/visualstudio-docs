@@ -3,13 +3,13 @@ title: Event Handlers Propagate Changes Outside the Model
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "Domain-Specific Language, programming domain models"
-  - "Domain-Specific Language, events"
-author: jillre
-ms.author: jillfra
+- Domain-Specific Language, programming domain models
+- Domain-Specific Language, events
+author: JoshuaPartlow
+ms.author: joshuapa
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Event Handlers Propagate Changes Outside the Model
 

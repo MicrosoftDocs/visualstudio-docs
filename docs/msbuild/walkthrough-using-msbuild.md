@@ -1,15 +1,15 @@
 ---
-title: "Walkthrough: Using MSBuild | Microsoft Docs"
-ms.date: "03/20/2019"
-ms.topic: "conceptual"
+title: 'Walkthrough: Using MSBuild | Microsoft Docs'
+ms.date: 03/20/2019
+ms.topic: conceptual
 helpviewer_keywords:
-  - "MSBuild, tutorial"
+- MSBuild, tutorial
 ms.assetid: b8a8b866-bb07-4abf-b9ec-0b40d281c310
-author: mikejo5000
-ms.author: mikejo
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Walkthrough: Use MSBuild
 
@@ -186,6 +186,7 @@ The Message task takes the string value of the Text attribute as input and displ
  appears later in the project file, or in a file imported later in the project file, then TargetFrameworkVersion takes the new value "v3.5".
 
 ## Examine a property value
+
  To get the value of a property, use the following syntax, where PropertyName is the name of the property:
 
 ```xml
@@ -405,6 +406,7 @@ Change the Message task to use carriage returns and line feeds (%0A%0D) to displ
     ```
 
 ### Include, Exclude, and wildcards
+
  You can use the wildcards "*", "\*\*", and "?" with the Include attribute to add items to an item type. For example,
 
 ```xml
@@ -480,6 +482,7 @@ would not exclude the file *Form1.cs*, which was added in the preceding item ele
     ```
 
 ## Item metadata
+
  Items may contain metadata in addition to the information gathered from the Include and Exclude attributes. This metadata can be used by tasks that require more information about items than just the item value.
 
  Item metadata is declared in the project file by creating an element with the name of the metadata as a child element of the item. An item can have zero or more metadata values. For example, the following CSFile item has Culture metadata with a value of "Fr":

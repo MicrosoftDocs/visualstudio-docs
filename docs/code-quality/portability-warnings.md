@@ -9,8 +9,8 @@ helpviewer_keywords:
   - "managed code analysis warnings, portability warnings"
   - "warnings, portability"
 ms.assetid: 902e859a-2153-4970-baaa-8a5b4a11806f
-author: jillre
-ms.author: jillfra
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ms.workload:
   - "multiple"

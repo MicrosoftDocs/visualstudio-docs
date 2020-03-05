@@ -14,8 +14,6 @@ There are a number of Xamarin products that enable cross-platform application de
 
 You can use this guide to uninstall each product individually by navigating to the relevant section, or you can use the scripts provided in the [Uninstall Script](#uninstall-script) section to uninstall everything.
 
-If you have previously had Xamarin Studio installed on your machine, you may also need to follow the instructions in [Xamarin's uninstall](/xamarin/cross-platform/get-started/installation/uninstalling-xamarin#uninstall-xamarin-studio-on-mac) guide, in addition to the following steps.
-
 ## Uninstall Script
 
 There are two scripts that can be used to uninstall Visual Studio for Mac and all components for your machine:

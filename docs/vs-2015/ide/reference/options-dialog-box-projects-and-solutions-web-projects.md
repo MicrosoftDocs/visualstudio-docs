@@ -24,7 +24,7 @@ Sets the Web server that Web projects will use for development within [!INCLUDE[
 
 ## Settings
  **Use the 64-bit version of IIS Express for web sites and projects**
- Select this option to use IIS Express instead of the Visual Studio Development Server. For more information, see [Introducing IIS Express](https://weblogs.asp.net/scottgu/introducing-iis-express) and [IIS Express Overview](https://docs.microsoft.com/iis/extensions/introduction-to-iis-express/iis-express-overview). This option is disabled by default.
+ Select this option to use IIS Express instead of the Visual Studio Development Server. For more information, see [Introducing IIS Express](https://weblogs.asp.net/scottgu/introducing-iis-express) and [IIS Express Overview](/iis/extensions/introduction-to-iis-express/iis-express-overview). This option is disabled by default.
 
  **Warn before running web applications when there are errors in the error list**
  If this box is checked, you will be warned if you try to run your web application when it does not compile  without errors.

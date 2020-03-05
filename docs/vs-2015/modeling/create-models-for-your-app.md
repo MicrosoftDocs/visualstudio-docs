@@ -43,7 +43,7 @@ manager: jillfra
 
 Modeling diagrams help you understand, clarify, and communicate ideas about your code and the user requirements that your software system must support. For example, to describe and communicate user requirements, you can use Unified Modeling Language (UML) use case, activity, class, and sequence diagrams. To describe and communicate the functionality of your system, you can use UML component, class, activity, and sequence diagrams.
 
- See [Channel 9 Video: Improve architecture through modeling](https://go.microsoft.com/fwlink/?LinkID=252078).
+ See [Channel 9 Video: Improve architecture through modeling](https://s.ch9.ms/Series/Visual-Studio-2012-Premium-and-Ultimate-Overview/Visual-Studio-Ultimate-2012-Improving-architecture-through-modeling).
 
  You can create the following UML diagrams in this release:
 
@@ -92,4 +92,4 @@ Modeling diagrams help you understand, clarify, and communicate ideas about your
 
 |**Category**|**Links**|
 |------------------|---------------|
-|**Forums**|-   [Visual Studio Visualization & Modeling Tools](https://go.microsoft.com/fwlink/?LinkId=184720)<br />-   [Visual Studio Visualization & Modeling SDK (DSL Tools)](https://go.microsoft.com/fwlink/?LinkId=184721)|
+|**Forums**|-   [Visual Studio Visualization & Modeling Tools](https://social.msdn.microsoft.com/Forums/en-US/home?forum=vsarch)<br />-   [Visual Studio Visualization & Modeling SDK (DSL Tools)](https://social.msdn.microsoft.com/Forums/home?forum=dslvsarchx)|

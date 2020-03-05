@@ -148,7 +148,7 @@ additionalContent:
         url: ../profiling/index.yml
       - title: Extend
         summary: Add your own functionality to the Visual Studio IDE to improve your development experience.
-        url: ../extensibility/index.md
+        url: ../extensibility/index.yml
       - title: Data
         summary: Create data apps that connect to any database or service, and anywhere—local or cloud.
         url: ../data-tools/accessing-data-in-visual-studio.md
@@ -171,12 +171,12 @@ additionalContent:
             - text: Node.js
               url: /visualstudio/javascript
             - text: Data storage and processing
-              url: ../data-tools/index.md
+              url: ../data-tools/index.yml
             - text: Data science
               url: ../python/data-science-and-analytical-applications-workload.md
             - text: Office/Sharepoint development
               url: https://developer.microsoft.com/office/docs
-        - title: Windows
+        - title: Desktop and mobile
           links:
             - text: .NET Desktop development
               url: /dotnet/framework/develop-client-apps
@@ -184,23 +184,23 @@ additionalContent:
               url: ../cross-platform/develop-apps-for-the-universal-windows-platform-uwp.md
             - text: Windows development with C++
               url: /cpp/windows/desktop-applications-visual-cpp
-        - title: Mobile and gaming
-          links:
             - text: Mobile development with .NET (Xamarin)
               url: /xamarin/
-            - text: Game development with Unity
-              url: ../cross-platform/visual-studio-tools-for-unity.md
+            - text: Mobile development with C++
+              url: /visualstudio/cross-platform/
             - text: Mobile development with JavaScript
               url: /visualstudio/cross-platform/tools-for-cordova/?view=toolsforcordova-2017
               note: (Visual Studio 2017 and 2015 only)
-            - text: Mobile development with C++
-              url: /visualstudio/cross-platform/
+        - title: Gaming
+          links:
+            - text: Game development with Unity
+              url: ../cross-platform/visual-studio-tools-for-unity.md
             - text: Game development with C++
               url: /windows/uwp/gaming/e2e
         - title: Other toolsets
           links:
             - text: Visual Studio extension development
-              url: ../extensibility/index.md
+              url: ../extensibility/index.yml
             - text: Linux development with C++
               url: /cpp/linux/
             - text: .NET Core cross-platform development

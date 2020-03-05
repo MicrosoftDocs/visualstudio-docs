@@ -3,15 +3,15 @@ title: Code analysis using Roslyn analyzers
 ms.date: 10/03/2019
 ms.topic: overview
 helpviewer_keywords:
-  - "code analysis, managed code"
-  - "analyzers"
-  - "Roslyn analyzers"
-  - "code analyzers"
-author: jillre
-ms.author: jillfra
+- code analysis, managed code
+- analyzers
+- Roslyn analyzers
+- code analyzers
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ms.workload:
-  - "dotnet"
+- dotnet
 ---
 # Overview of source code analyzers
 
@@ -22,7 +22,7 @@ ms.workload:
 - You can install additional analyzers as a NuGet package or a Visual Studio extension. For example:
 
   - [FxCop analyzers](../code-quality/install-fxcop-analyzers.md), Microsoft's recommended code quality analyzers
-  - Third party analyzers, such as [StyleCop](https://www.nuget.org/packages/StyleCop.Analyzers/), [Roslynator](https://www.nuget.org/packages/Roslynator/), [XUnit Analyzers](https://www.nuget.org/packages/xunit.analyzers/), and [Sonar Analyzer](https://www.nuget.org/packages/SonarAnalyzer.CSharp/)
+  - Third party analyzers, such as [StyleCop](https://www.nuget.org/packages/StyleCop.Analyzers/), [Roslynator](https://www.nuget.org/packages/Roslynator.Analyzers/), [XUnit Analyzers](https://www.nuget.org/packages/xunit.analyzers/), and [Sonar Analyzer](https://www.nuget.org/packages/SonarAnalyzer.CSharp/)
 
 If rule violations are found by an analyzer, they're reported in the code editor (as a *squiggle* under the offending code) and in the Error List window.
 

@@ -1,5 +1,5 @@
 ---
-title: Visual Studio Tools for Docker with ASP.NET Core
+title: Visual Studio Tools for Docker with ASP.NET
 author: ghogen
 description: Learn how to use Visual Studio 2019 tooling and Docker for Windows
 ms.author: ghogen
@@ -15,7 +15,7 @@ With Visual Studio, you can easily build, debug, and run containerized .NET, ASP
 
 * [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows)
 * [Visual Studio 2019](https://visualstudio.microsoft.com/downloads) with the **Web Development**, **Azure Tools** workload, and/or **.NET Core cross-platform development** workload installed
-* [.NET Core 2.2 Development Tools](https://dotnet.microsoft.com/download/dotnet-core/2.2) for development with .NET Core 2.2
+* [.NET Core Development Tools](https://dotnet.microsoft.com/download/dotnet-core/) for development with .NET Core
 * To publish to Azure Container Registry, an Azure subscription. [Sign up for a free trial](https://azure.microsoft.com/offers/ms-azr-0044p/).
 
 ## Installation and setup
@@ -24,10 +24,12 @@ For Docker installation, first review the information at [Docker Desktop for Win
 
 ## Add a project to a Docker container
 
-1. Create a new project using the **ASP.NET Core Web Application** template.
+1. Create a new project using the **ASP.NET Core Web Application** template or if you want to use the .NET Framework instead of .NET Core, choose **ASP.NET Web Application (.NET Framework)**.
 1. Select **Web Application**, and make sure the **Enable Docker Support** checkbox is selected.
 
    ![Enable Docker Support check box](../../media/container-tools/vs-2019/create-new-web-application.PNG)
+
+   The screenshot shows .NET Core; if you're using .NET Framework, it looks a bit different.
 
 1. Select the type of container you want (Windows or Linux) and click **Create**.
 
@@ -58,7 +60,7 @@ COPY --from=publish /app .
 ENTRYPOINT ["dotnet", "HelloDockerTools.dll"]
 ```
 
-The preceding *Dockerfile* is based on the [microsoft/aspnetcore](https://hub.docker.com/r/microsoft/aspnetcore/) image, and includes instructions for modifying the base image by building your project and adding it to the container.
+The preceding *Dockerfile* is based on the [microsoft/aspnetcore](https://hub.docker.com/r/microsoft/aspnetcore/) image, and includes instructions for modifying the base image by building your project and adding it to the container. If you're using the .NET Framework, the base image will be different.
 
 When the new project dialog's **Configure for HTTPS** check box is checked, the *Dockerfile* exposes two ports. One port is used for HTTP traffic; the other port is used for HTTPS. If the check box isn't checked, a single port (80) is exposed for HTTP traffic.
 
@@ -66,7 +68,7 @@ When the new project dialog's **Configure for HTTPS** check box is checked, the 
 
 Select **Docker** from the debug drop-down in the toolbar, and start debugging the app. You might see a message with a prompt about trusting a certificate; choose to trust the certificate to continue.
 
-The **Container Tools** option in the **Output** window shows what actions are taking place.
+The **Container Tools** option in the **Output** window shows what actions are taking place. The first time, it might take a while to download the base image, but it's much faster on subsequent runs.
 
 ## Containers window
 
@@ -97,7 +99,7 @@ Once the develop and debug cycle of the app is completed, you can create a produ
     | **DNS Prefix** | Globally unique name | Name that uniquely identifies your container registry. |
     | **Subscription** | Choose your subscription | The Azure subscription to use. |
     | **[Resource Group](/azure/azure-resource-manager/resource-group-overview)** | myResourceGroup |  Name of the resource group in which to create your container registry. Choose **New** to create a new resource group.|
-    | **[SKU](https://docs.microsoft.com/azure/container-registry/container-registry-skus)** | Standard | Service tier of the container registry  |
+    | **[SKU](/azure/container-registry/container-registry-skus)** | Standard | Service tier of the container registry  |
     | **Registry Location** | A location close to you | Choose a Location in a [region](https://azure.microsoft.com/regions/) near you or near other services that will use your container registry. |
 
     ![Visual Studio's create Azure Container Registry dialog][0]

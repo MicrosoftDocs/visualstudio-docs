@@ -1,19 +1,21 @@
 ---
-title: "How to: Ignore Errors in Tasks | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: 'How to: Ignore Errors in Tasks | Microsoft Docs'
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "MSBuild, ignoring errors"
-  - "ContinueOnError attribute [MSBuild]"
+- MSBuild, ignoring errors
+- ContinueOnError attribute [MSBuild]
 ms.assetid: e2f1ca4f-787b-44bd-bc64-81a036025e96
-author: mikejo5000
-ms.author: mikejo
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ---
 # How to: Ignore errors in tasks
+
 Sometimes you want a build to be tolerant of faults in certain tasks. If those non-critical tasks fail, you want the build to continue because it can still produce the required output. For example, if a project uses a `SendMail` task to send an e-mail message after each component is built, you might consider it acceptable for the build to proceed to completion even when the mail servers are unavailable and the status messages cannot be sent. Or, for example, if intermediate files are usually deleted during the build, you might consider it acceptable for the build to proceed to completion even when those files cannot be deleted.
 
 ## Use the ContinueOnError attribute
+
 The `ContinueOnError` attribute of the `Task` element controls whether a build stops or continues when a task failure occurs. This attribute also controls whether errors are treated as errors or warnings when the build continues.
 
 The `ContinueOnError` attribute can contain one of the following values:
@@ -37,6 +39,7 @@ Use the `ContinueOnError` attribute of the task. For example:
 ```
 
 ## Example
+
 The following code example illustrates that the `Build` target still runs and the build is considered a success, even if the `Delete` task fails.
 
 ```xml
@@ -56,6 +59,7 @@ The following code example illustrates that the `Build` target still runs and th
 ```
 
 ## See also
+
 - [MSBuild](../msbuild/msbuild.md)
 - [Task reference](../msbuild/msbuild-task-reference.md)
 - [Tasks](../msbuild/msbuild-tasks.md)

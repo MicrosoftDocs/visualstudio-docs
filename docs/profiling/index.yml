@@ -28,6 +28,8 @@ landingContent:
         links:
          - text: Ways to run profiling tools
            url: running-profiling-tools-with-or-without-the-debugger.md
+         
+           
 
   # Card (optional)
   - title: Get started
@@ -52,6 +54,10 @@ landingContent:
     linkLists:
       - linkListType: how-to-guide
         links:
+          - text: Measure CPU usage from the command line
+            url: profile-apps-from-command-line.md
+          - text: Measure memory usage for .NET objects
+            url: dotnet-alloc-tool.md
           - text: PerfTips
             url: perftips.md
           - text: Analyze resource consumption (XAML)

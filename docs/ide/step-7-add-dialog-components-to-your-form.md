@@ -1,15 +1,15 @@
 ---
-title: "Step 7: Add Dialog components to your form"
+title: 'Step 7: Add Dialog components to your form'
 ms.date: 08/30/2019
 ms.assetid: ea98c55e-6213-4893-ba7b-f19d7f119527
 ms.topic: tutorial
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
-author: TerryGLee
-ms.author: tglee
+author: ornellaalt
+ms.author: ornella
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Step 7: Add dialog components to your form
 

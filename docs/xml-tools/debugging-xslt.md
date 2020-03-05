@@ -2,13 +2,13 @@
 title: Ways to debug XSLT code
 ms.date: 03/05/2019
 ms.topic: conceptual
-author: jillre
-ms.author: jillfra
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 dev_langs:
-  - "CSharp"
+- CSharp
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Debugging XSLT
 
@@ -70,7 +70,7 @@ namespace ConsoleApplication
       XslCompiledTransform xslt = new XslCompiledTransform(true);
 
       // Compile the style sheet.
-      xslt.Load(stylesheet)
+      xslt.Load(stylesheet);
 
       // Execute the XSLT transform.
       FileStream outputStream = new FileStream(outputFile, FileMode.Append);

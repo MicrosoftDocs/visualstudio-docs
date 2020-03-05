@@ -1,13 +1,13 @@
 ---
-title: "Live Unit Testing"
-ms.date: "03/07/2017"
+title: Live Unit Testing
+ms.date: 03/07/2017
 ms.topic: conceptual
 helpviewer_keywords:
-  - "Live Unit Testing"
-author: jillre
-ms.author: jillfra
+- Live Unit Testing
+author: mikejo5000
+ms.author: mikejo
 ms.workload:
-  - "dotnet"
+- dotnet
 ---
 # How to configure and use Live Unit Testing
 
@@ -73,7 +73,7 @@ The configurable options include:
 
 ## Start, pause, and stop
 
-To enable Live Unit Testing, select **Test** > **Live Unit Testing** > **Start** from the top-level Visual Studio menu. When Live Unit Testing is enabled, the options available on the **Live Unit Testing** menu change from a single item, **Start**, to **Pause**, **Stop**, and **Reset Clean**:
+To enable Live Unit Testing, select **Test** > **Live Unit Testing** > **Start** from the top-level Visual Studio menu. When Live Unit Testing is enabled, the options available on the **Live Unit Testing** menu change from a single item, **Start**, to **Pause** and **Stop**:
 
 - **Pause** temporarily suspends Live Unit Testing.
 
@@ -81,10 +81,8 @@ To enable Live Unit Testing, select **Test** > **Live Unit Testing** > **Start**
 
 - **Stop** completely stops Live Unit Testing. Live Unit Testing discards all data that it has collected.
 
-- **Reset Clean** stops Live Unit Testing, deletes persisted data, and then restarts Live Unit Testing.
-
 > [!NOTE]
-> If you start Live Unit Testing in a solution that does not include a unit test project, the **Pause**, **Stop**, and **Reset Clean** options appear on the **Live Unit Testing** menu, but Live Unit Testing does not start. The **Output** window displays a message that begins, "No supported test adapters are referenced by this solution...".
+> If you start Live Unit Testing in a solution that does not include a unit test project, the **Pause** and **Stop** options appear on the **Live Unit Testing** menu, but Live Unit Testing does not start. The **Output** window displays a message that begins, "No supported test adapters are referenced by this solution...".
 
 At any time, you can temporarily pause or completely stop Live Unit Testing. You may want to do this, for example, if you're in the middle of a refactoring and know that your tests will be broken for a while.
 
@@ -150,7 +148,7 @@ There are some differences between Live Unit Testing automatically running and u
 If your solution has 10 or more projects, Visual Studio displays the following dialog when you:
 
 - start Live Unit Testing and there is no persisted data
-- select **Test** > **Live Unit Testing** > **Reset Clean**
+- select **Tools** > **Options** > **Live Unit Testing** > **Delete Persisted Data**
 
 ![Live Unit Testing dialog for large projects](media/lut-large-project.png)
 
@@ -194,6 +192,6 @@ Use the following attributes to exclude an entire assembly of tests from Live Un
 ## See also
 
 - [Code testing tools](https://visualstudio.microsoft.com/vs/testing-tools/)
-- [Live Unit Testing blog](https://go.microsoft.com/fwlink/?linkid=842514)
+- [Live Unit Testing blog](https://devblogs.microsoft.com/visualstudio/live-unit-testing-in-visual-studio-2017-enterprise/)
 - [Live Unit Testing FAQ](live-unit-testing-faq.md)
 - [Channel 9 video: Live Unit Testing in Visual Studio](https://channel9.msdn.com/Events/Visual-Studio/Visual-Studio-2017-Launch/T105)

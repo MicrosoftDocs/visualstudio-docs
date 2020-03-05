@@ -1,11 +1,11 @@
 ---
-title: Design XAML in Visual Studio and Blend
-titleSuffix: ""
-ms.date: 08/05/2019
+title: Design XAML in Visual Studio and in Blend for Visual Studio
+titleSuffix: ''
+ms.date: 02/28/2020
 ms.topic: conceptual
 ms.assetid: 288e2415-9fcf-408e-bc35-9848315e14fd
-author: jillre
-ms.author: jillfra
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ---
 # Design XAML in Visual Studio and Blend for Visual Studio
@@ -17,8 +17,16 @@ You can switch back and forth between Visual Studio and Blend for Visual Studio,
 ## Installation
 
 - To create WPF apps, install the **.NET desktop development** workload in Visual Studio. Blend for Visual Studio will also be installed.
+
+     ![Screenshot of the .NET Desktop Development workload from the Visual Studio Installer](../xaml-tools/media/dotnet-desktop-dev-workload.png)
+
 - To create UWP apps, install the **Universal Windows Platform development** workload in Visual Studio. Blend for Visual Studio will also be installed.
+
+     ![Screenshot of the Universal Windows Platform Development workload from the Visual Studio Installer](../xaml-tools/media/uwp-workload.png)
+
 - To create Xamarin.Forms apps, install the **Mobile development with .NET** workload in Visual Studio. Blend for Visual Studio is *not* installed; Blend doesn't support Xamarin.Forms apps.
+
+     ![Screenshot of the Mobile Development with .NET workload from the Visual Studio Installer](../xaml-tools/media/mobile-dev-dotnet-workload.png)
 
 ## Shared capabilities
 
@@ -30,7 +38,7 @@ For most fundamental development tasks, Visual Studio and Blend for Visual Studi
 
 - **File reload:** You can edit your XAML files in either Visual Studio or Blend for Visual Studio. Edited files that have been saved reload automatically as you switch between IDEs. You can control the reload behavior by navigating to **Tools** > **Options** > **Environment** > **Documents** in either IDE.
 
-- **Synchronized layouts and settings:** Customized tool window layouts and settings preferences for either Visual Studio or Blend for Visual Studio are synchronized across your devices and versions when you sign in with the same personalization account. See [Synchronize settings across multiple computers](../ide/synchronized-settings-in-visual-studio.md).
+- **Synchronized layouts and settings:** Design customization tool window layouts and settings preferences for either Visual Studio or Blend for Visual Studio are synchronized across your devices and versions when you sign in with the same personalization account. See [Synchronize settings across multiple computers](../ide/synchronized-settings-in-visual-studio.md).
 
 ## Advanced capabilities in Blend for Visual Studio
 
@@ -45,3 +53,8 @@ To increase your productivity, consider using Blend for Visual Studio for the fo
 |**Connect your UI to data**|You can create a data source from resources such as a SQL Server database, WCF or web service, object, or SharePoint list, and then bind the data source to your UI controls.<br /><br />Design-time data must be created by hand for an interactive design experience.|For .NET Framework apps, create sample data easily for prototyping and testing. Switch to live data when you're ready.<br /><br />Blend for Visual Studio's data generation capabilities are outstanding (you can add names, numbers, URLs, and photos easily on the fly), and can save you a lot of time.<br /><br />For live data, you can bind your UI controls to an XML file or to any CLR data source.|[Display data](display-data-in-blend.md)|
 
 For more information about advanced XAML design, see [Create a UI by using Blend for Visual Studio](../xaml-tools/creating-a-ui-by-using-blend-for-visual-studio.md).
+
+## See also
+
+- [XAML overview](xaml-overview.md)
+- [Blend for Visual Studio overview](creating-a-ui-by-using-blend-for-visual-studio.md)

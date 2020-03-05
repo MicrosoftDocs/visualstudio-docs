@@ -1,12 +1,12 @@
 ---
-title: "How to: Create a Diagnostic Data Adapter"
+title: 'How to: Create a Diagnostic Data Adapter'
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "Diagnostic Data Adapter, creating"
+- Diagnostic Data Adapter, creating
 ms.assetid: bd7ad36c-54cb-4d2a-9aea-9d10ad98d7ba
-author: jillre
-ms.author: jillfra
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ---
 # How to: Create a diagnostic data adapter

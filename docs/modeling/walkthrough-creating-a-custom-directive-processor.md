@@ -1,18 +1,18 @@
 ---
-title: "Walkthrough: Creating a Custom Directive Processor"
+title: 'Walkthrough: Creating a Custom Directive Processor'
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "text templates, custom directive processors"
-  - "walkthroughs [text templates], directive processor"
-author: jillre
-ms.author: jillfra
+- text templates, custom directive processors
+- walkthroughs [text templates], directive processor
+author: JoshuaPartlow
+ms.author: joshuapa
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 dev_langs:
- - CSharp
- - VB
+- CSharp
+- VB
 ---
 # Walkthrough: Create a Custom Directive Processor
 

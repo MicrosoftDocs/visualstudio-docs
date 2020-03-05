@@ -29,7 +29,7 @@ manager: jillfra
   
 - Breakpoints must be set inside `<script>` blocks. Breakpoints in inline script or `<% %>` blocks cannot be mapped.  
   
-- The browser URL for the page must contain the page name. For example, http://microsoft.com/default.apsx. Breakpoint mapping cannot recognize a redirection from an address such as http://microsoft.com to the default page.  
+- The browser URL for the page must contain the page name. For example, `http://microsoft.com/default.apsx`. Breakpoint mapping cannot recognize a redirection from an address such as `http://microsoft.com` to the default page.  
   
 - The breakpoint must be set in the page specified in the browser URL, not in an ASPX control (ascx) file, Master page, or other file included by that page. Breakpoints set in included pages cannot be mapped.  
   

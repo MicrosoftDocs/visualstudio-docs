@@ -3,13 +3,13 @@ title: VSTest.Console.exe command-line options
 ms.date: 07/12/2018
 ms.topic: reference
 helpviewer_keywords:
-  - "vstest.console.exe"
-  - "command-line tests"
-ms.author: jillfra
-author: jillre
+- vstest.console.exe
+- command-line tests
+ms.author: mikejo
+author: mikejo5000
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # VSTest.Console.exe command-line options
 
@@ -19,6 +19,8 @@ ms.workload:
 > The MSTest adapter in Visual Studio also works in legacy mode (equivalent to running tests with *mstest.exe*) for compatibility. In legacy mode, it can't take advantage of the TestCaseFilter feature. The adapter can switch to legacy mode when a *testsettings* file is specified, **forcelegacymode** is set to **true** in a *runsettings* file, or by using attributes such as **HostType**.
 >
 > To run automated tests on an ARM architecture-based machine, you must use *VSTest.Console.exe*.
+
+Open a [Developer Command Prompt](/dotnet/framework/tools/developer-command-prompt-for-vs) to use the command-line tool, or you can find the tool in *%Program Files(x86)%\Microsoft Visual Studio\\<version\>\\<edition\>\common7\ide\CommonExtensions\\<Platform | Microsoft>*.
 
 ## General command-line options
 
@@ -38,7 +40,7 @@ The following table lists all the options for *VSTest.Console.exe* and short des
 |**/Framework: [*framework version*]**|Target .NET version to be used for test execution.<br />Example values are `Framework35`, `Framework40`, `Framework45`, `FrameworkUap10`, `.NETCoreApp,Version=v1.1`.<br />If the target framework is specified as **Framework35**, the tests run in CLR 4.0 "compatibly mode".<br />Example: `/Framework:framework40`|
 |**/TestCaseFilter:[*expression*]**|Run tests that match the given expression.<br /><Expression\> is of the format <property\>=<value\>[\|<Expression\>].<br />Example: `/TestCaseFilter:"Priority=1"`<br />Example: `/TestCaseFilter:"TestCategory=Nightly|FullyQualifiedName=Namespace.ClassName.MethodName"`<br />The **/TestCaseFilter** command-line option cannot be used with the **/Tests** command-line option. <br />For information about creating and using expressions, see [TestCase filter](https://github.com/Microsoft/vstest-docs/blob/master/docs/filter.md).|
 |**/?**|Displays usage information.|
-|**/Logger:[*uri/friendlyname*]**|Specify a logger for test results.<br />Example: To log results into a Visual Studio Test Results File (TRX), use **/Logger:trx**.<br />Example: To publish test results to Team Foundation Server, use TfsPublisher:<br />**/logger:TfsPublisher;**<br />**Collection=<project url\>;**<br />**BuildName=<build name\>;**<br />**TeamProject=<project name\>;**<br />**[;Platform=\<Defaults to "Any CPU">]**<br />**[;Flavor=\<Defaults to "Debug">]**<br />**[;RunTitle=<title\>]**|
+|**/Logger:[*uri/friendlyname*]**|Specify a logger for test results.<br />Example: To log results into a Visual Studio Test Results File (TRX), use<br />**/Logger:trx**<br />**[;LogFileName=\<Defaults to unique file name>]**<br />Example: To publish test results to Team Foundation Server, use TfsPublisher:<br />**/logger:TfsPublisher;**<br />**Collection=<project url\>;**<br />**BuildName=<build name\>;**<br />**TeamProject=<project name\>;**<br />**[;Platform=\<Defaults to "Any CPU">]**<br />**[;Flavor=\<Defaults to "Debug">]**<br />**[;RunTitle=<title\>]**<br />Note: The TfsPublisher logger is deprecated in Visual Studio 2017 and is not supported in later versions of Visual Studio. For these scenarios, use a custom logger instead. This logger switches the logger to legacy mode.|
 |**/ListTests:[*file name*]**|Lists discovered tests from the given test container.|
 |**/ListDiscoverers**|Lists installed test discoverers.|
 |**/ListExecutors**|Lists installed test executors.|
@@ -49,7 +51,7 @@ The following table lists all the options for *VSTest.Console.exe* and short des
 |**/ResultsDirectory:[*path*]**|Test results directory will be created in specified path if not exists.<br />Example: `/ResultsDirectory:<pathToResultsDirectory>`|
 |**/ParentProcessId:[*parentProcessId*]**|Process ID of the Parent Process responsible for launching current process.|
 |**/Port:[*port*]**|The Port for socket connection and receiving the event messages.|
-|**/Collect:[*dataCollector friendlyName*]**|Enables data collector for the test run. [More information](https://aka.ms/vstest-collect).|
+|**/Collect:[*dataCollector friendlyName*]**|Enables data collector for the test run. [More information](https://github.com/Microsoft/vstest-docs/blob/master/docs/analyze.md).|
 
 > [!TIP]
 > The options and values are not case-sensitive.

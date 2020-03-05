@@ -15,7 +15,7 @@ manager: jillfra
 # Install And Configure Tools to Build using iOS
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-You can use Visual C++ for Cross-Platform Mobile Development to edit, debug and deploy iOS code to the iOS Simulator or to an iOS device, but because of licensing restrictions, the code must be built and run remotely on a Mac. To build and run iOS apps using Visual Studio, you need to set up and configure the remote agent, [vcremote](https://go.microsoft.com/fwlink/p/?LinkId=534988), on your Mac. The remote agent handles build requests from Visual Studio and runs the app on an iOS device connected to the Mac, or in the iOS Simulator on the Mac.  
+You can use Visual C++ for Cross-Platform Mobile Development to edit, debug and deploy iOS code to the iOS Simulator or to an iOS device, but because of licensing restrictions, the code must be built and run remotely on a Mac. To build and run iOS apps using Visual Studio, you need to set up and configure the remote agent, [vcremote](https://www.npmjs.com/package/vcremote), on your Mac. The remote agent handles build requests from Visual Studio and runs the app on an iOS device connected to the Mac, or in the iOS Simulator on the Mac.  
   
 > [!NOTE]
 > For information on using cloud-hosted Mac services instead of a Mac, see [Build and Simulate iOS in the Cloud](https://taco.visualstudio.com/docs/build_ios_cloud/). The instructions are for building using Visual Studio Tools for Apache Cordova. To use the instructions to build using Visual C++ for Cross-Platform Mobile Development, substitute vcremote for vs-mda-remote.  
@@ -72,7 +72,7 @@ You can use Visual C++ for Cross-Platform Mobile Development to edit, debug and 
      `sudo npm install -g npm@latest`  
   
 ## <a name="Install"></a> Install the remote agent for iOS  
- When you install Visual C++ for Cross-Platform Mobile Development, Visual Studio can communicate with [vcremote](https://go.microsoft.com/fwlink/p/?LinkId=534988), a remote agent running on your Mac to transfer files, build and run your iOS app, and send debugging commands.  
+ When you install Visual C++ for Cross-Platform Mobile Development, Visual Studio can communicate with [vcremote](https://www.npmjs.com/package/vcremote), a remote agent running on your Mac to transfer files, build and run your iOS app, and send debugging commands.  
   
  Before you install the remote agent, make sure you have satisfied the [Prerequisites](#Prerequisites) and installed [Visual C++ for Cross-Platform Mobile Development](../cross-platform/install-visual-cpp-for-cross-platform-mobile-development.md#InstallTheTools).  
   

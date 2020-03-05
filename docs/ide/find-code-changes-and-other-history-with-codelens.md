@@ -3,12 +3,12 @@ title: Find code changes and other history with CodeLens
 ms.date: 11/04/2016
 ms.topic: conceptual
 f1_keywords:
-  - "VS.ToolsOptionsPages.Text_Editor.All_Languages.CodeLens"
-author: jillre
-ms.author: jillfra
+- VS.ToolsOptionsPages.Text_Editor.All_Languages.CodeLens
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Find code changes and other history with CodeLens
 

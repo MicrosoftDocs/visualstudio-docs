@@ -3,11 +3,11 @@ title: Introduce a local variable
 description: Generate a local variable to replace an existing expression. Select the expression, right-click and select the Quick Actions and Refactorings menu, select Introduce local for (all occurrences) of 'expression'.
 ms.date: 01/26/2018
 ms.topic: reference
-author: jillre
-ms.author: jillfra
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "dotnet"
+- dotnet
 ---
 # Introduce a local variable in Visual Studio
 

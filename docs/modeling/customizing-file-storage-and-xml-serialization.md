@@ -3,14 +3,14 @@ title: Customizing File Storage and XML Serialization
 ms.date: 11/04/2016
 ms.topic: conceptual
 f1_keywords:
-  - "vs.dsltools.dsldesigner.xmlbehavior"
+- vs.dsltools.dsldesigner.xmlbehavior
 helpviewer_keywords:
-  - "Domain-Specific Language, serialization"
-author: jillre
-ms.author: jillfra
+- Domain-Specific Language, serialization
+author: JoshuaPartlow
+ms.author: joshuapa
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Customize File Storage and XML Serialization
 

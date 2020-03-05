@@ -3,21 +3,21 @@ title: C# editor formatting options
 ms.date: 08/14/2018
 ms.topic: reference
 f1_keywords:
-  - "VS.ToolsOptionsPages.Text_Editor.CSharp.Formatting.Spacing"
-  - "VS.ToolsOptionsPages.Text_Editor.CSharp.Formatting.NewLines"
-  - "VS.ToolsOptionsPages.Text_Editor.CSharp.Formatting.Indentation"
-  - "VS.ToolsOptionsPages.Text_Editor.CSharp.Formatting.Wrapping"
-  - "VS.ToolsOptionsPages.Text_Editor.CSharp.Formatting"
-  - "VS.ToolsOptionsPages.Text_Editor.CSharp.Formatting.General"
-  - "VS.ToolsOptionsPages.Text_Editor.CSharp.Code_Style.Formatting.General"
+- VS.ToolsOptionsPages.Text_Editor.CSharp.Formatting.Spacing
+- VS.ToolsOptionsPages.Text_Editor.CSharp.Formatting.NewLines
+- VS.ToolsOptionsPages.Text_Editor.CSharp.Formatting.Indentation
+- VS.ToolsOptionsPages.Text_Editor.CSharp.Formatting.Wrapping
+- VS.ToolsOptionsPages.Text_Editor.CSharp.Formatting
+- VS.ToolsOptionsPages.Text_Editor.CSharp.Formatting.General
+- VS.ToolsOptionsPages.Text_Editor.CSharp.Code_Style.Formatting.General
 helpviewer_keywords:
-  - "formatting options [C#]"
-  - "Text editor Options dialog box, formatting"
-author: jillre
-ms.author: jillfra
+- formatting options [C#]
+- Text editor Options dialog box, formatting
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "dotnet"
+- dotnet
 ---
 # Options dialog box: Text Editor \> C# \> Code Style \> Formatting
 

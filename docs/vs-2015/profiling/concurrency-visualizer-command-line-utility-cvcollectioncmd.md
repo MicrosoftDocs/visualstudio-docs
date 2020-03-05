@@ -65,7 +65,7 @@ You can use the Concurrency Visualizer command-line utility (CVCollectionCmd.exe
 |MinorVersion|Specifies the minor version of the config file.|Must be 0 for [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)] projects. If not 0, the utility will not work.|  
 |IncludeEnvSymbolPath|Sets a value that determines whether the environment symbol path (_NT_SYMBOL_PATH) is used.|-   True<br />-   False|  
 |DeleteEtlsAfterAnalysis|Sets a value that determines whether the ETL files are deleted when analysis completes.|-   True<br />-   False|  
-|SymbolPath|Specifies the path of the symbol server. For more information, see [Use the Microsoft Symbol Server to obtain debug symbol files](https://go.microsoft.com/fwlink/?LinkID=149389).|A directory name or URL.|  
+|SymbolPath|Specifies the path of the symbol server. For more information, see [Use the Microsoft Symbol Server to obtain debug symbol files](https://support.microsoft.com/kb/311503).|A directory name or URL.|  
 |Markers|Contains the list of marker providers.|May contain zero or more MarkerProvider elements.|  
 |MarkerProvider|Specifies a single marker provider.|Must contain these elements:<br /><br /> -   Level<br />-   GUID<br />-   Name<br /><br /> Can contain these elements:<br /><br /> -   Categories<br />-   IsEnabled|  
 |Level|Sets the importance level of a MarkerProvider.|-   Low<br />-   Normal<br />-   High<br />-   Critical<br />-   Everything|  

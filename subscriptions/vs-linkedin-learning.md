@@ -3,7 +3,7 @@ title: LinkedIn Learning Benefit in Visual Studio Subscriptions | Microsoft Docs
 author: evanwindom
 ms.author: lank
 manager: lank
-ms.date: 08/02/2019
+ms.date: 02/12/2020
 ms.topic: conceptual
 description:  Learn about the LinkedIn Learning benefit included as part of a LinkedIn Premium subscription included in selected Visual Studio subscriptions.
 ---
@@ -69,8 +69,8 @@ To activate your LinkedIn Premium subscription and LinkedIn Learning benefit:
 | Visual Studio Enterprise with GitHub Enterprise   | VL | 6 months       |  No.  Available to new subscribers only          |
 | Visual Studio Professional (Standard) | VL, Azure, Retail                                       | 3 months                                                            |No.  Available to new subscribers only         |
 | Visual Studio Professional with GitHub Enterprise | VL | 3 months      | No.  Available to new subscribers only         |
-| Visual Studio Test Professional (Standard)                         | VL, Retail                                              | 3 months                                             |  No.  Available to new subscribers only         |
-| MSDN Platforms (Standard)                                          | VL, Retail                                              | 3 months                                              | No.  Available to new subscribers only         |
+| Visual Studio Test Professional (Standard)                         | VL, Retail                                              | Not available                                            |  NA         |
+| MSDN Platforms (Standard)                                          | VL, Retail                                              | Not available                                              | NA         |
 | Visual Studio Enterprise, Visual Studio Professional (monthly cloud) | Azure                                       | Not available                                                           |NA|
 
 <sup>1</sup>  *Includes:  Not for Resale (NFR), Visual Studio Industry Partner (VSIP).  Excludes:  Microsoft Partner Network (MPN), FTE, MCT Software & Services Developer, BizSpark, Imagine, Most Valuable Professional (MVP), Regional Director (RD).  MCT Software & Services.*

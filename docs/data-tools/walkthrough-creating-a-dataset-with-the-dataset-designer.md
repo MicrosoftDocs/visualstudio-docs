@@ -1,18 +1,18 @@
 ---
-title: "Walkthrough: Creating a Dataset with the Dataset Designer"
+title: 'Walkthrough: Creating a Dataset with the Dataset Designer'
 ms.date: 09/11/2017
 ms.topic: conceptual
 helpviewer_keywords:
-  - "datasets [Visual Basic], walkthroughs"
-  - "XML schemas, creating datasets"
-  - "data [Visual Studio], Dataset Designer"
-  - "Dataset Designer, walkthroughs"
-  - "datasets [Visual Basic], creating"
-author: jillre
-ms.author: jillfra
+- datasets [Visual Basic], walkthroughs
+- XML schemas, creating datasets
+- data [Visual Studio], Dataset Designer
+- Dataset Designer, walkthroughs
+- datasets [Visual Basic], creating
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "data-storage"
+- data-storage
 ---
 # Walkthrough: Create a Dataset with the Dataset Designer
 

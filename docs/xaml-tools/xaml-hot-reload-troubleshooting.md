@@ -6,8 +6,8 @@ ms.topic: troubleshooting
 helpviewer_keywords:
   - "xaml edit and continue, troubleshooting"
   - "xaml hot reload, troubleshooting"
-author: "mikejo5000"
-ms.author: "mikejo"
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.technology: vs-ide-debug
 ms.workload:

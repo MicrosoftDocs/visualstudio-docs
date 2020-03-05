@@ -3,12 +3,12 @@ title: Update existing project item templates
 ms.date: 01/02/2018
 ms.topic: conceptual
 helpviewer_keywords:
-  - "item templates, updating"
-  - "Visual Studio templates, updating"
-  - "project templates, updating"
-  - "updating templates [Visual Studio]"
-author: jillre
-ms.author: jillfra
+- item templates, updating
+- Visual Studio templates, updating
+- project templates, updating
+- updating templates [Visual Studio]
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ---
 # How to: Update existing templates

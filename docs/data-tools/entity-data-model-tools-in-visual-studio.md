@@ -3,11 +3,11 @@ title: Entity Framework Tools
 ms.date: 11/04/2016
 ms.topic: conceptual
 ms.assetid: 1b06b573-84aa-4458-b3f5-e238df47bf45
-author: jillre
-ms.author: jillfra
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "data-storage"
+- data-storage
 ---
 # Entity Framework Tools in Visual Studio
 
@@ -37,7 +37,7 @@ These are the specific tools that make up Entity Framework tools in Visual Studi
 
 The tools generate or modify an *.edmx* file. This *.edmx* file contains information that describes the conceptual model, the storage model, and the mappings between them. For more information, see [EDMX](/ef/ef6/).
 
-[Entity Framework Power Tools](https://marketplace.visualstudio.com/items?itemName=EntityFrameworkTeam.EntityFrameworkPowerToolsBeta4) help you build applications that use the Entity Data Model. The power tools can generate a conceptual model, validate an existing model, produce source-code files that contain object classes based on the conceptual model, and produce source-code files that contain views that the model generates. For detailed information, see [Pre-Generated Mapping Views](https://docs.microsoft.com/ef/ef6/fundamentals/performance/pre-generated-views).
+[Entity Framework Power Tools](https://marketplace.visualstudio.com/items?itemName=EntityFrameworkTeam.EntityFrameworkPowerToolsBeta4) help you build applications that use the Entity Data Model. The power tools can generate a conceptual model, validate an existing model, produce source-code files that contain object classes based on the conceptual model, and produce source-code files that contain views that the model generates. For detailed information, see [Pre-Generated Mapping Views](/ef/ef6/fundamentals/performance/pre-generated-views).
 
 ## Related topics
 

@@ -3,23 +3,23 @@ title: Save data back to the database
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "datasets [Visual Basic], validating data"
-  - "data validation, datasets"
-  - "data [Visual Studio], saving"
-  - "row version"
-  - "updating datasets, constraints"
-  - "datasets [Visual Basic], about datasets"
-  - "datasets [Visual Basic], merging"
-  - "updates, constraints in datasets"
-  - "saving data, about saving data"
-  - "datasets [Visual Basic], constraints"
-  - "TableAdapters"
+- datasets [Visual Basic], validating data
+- data validation, datasets
+- data [Visual Studio], saving
+- row version
+- updating datasets, constraints
+- datasets [Visual Basic], about datasets
+- datasets [Visual Basic], merging
+- updates, constraints in datasets
+- saving data, about saving data
+- datasets [Visual Basic], constraints
+- TableAdapters
 ms.assetid: afe6cb8a-dc6a-428b-b07b-903ac02c890b
-author: jillre
-ms.author: jillfra
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "data-storage"
+- data-storage
 ---
 # Save data back to the database
 

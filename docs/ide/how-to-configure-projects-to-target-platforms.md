@@ -1,23 +1,23 @@
 ---
-title: "How to: Configure projects to target platforms"
+title: 'How to: Configure projects to target platforms'
 ms.date: 08/16/2019
 ms.technology: vs-ide-compile
 ms.topic: conceptual
 helpviewer_keywords:
-  - "project settings [Visual Studio], targeting platforms"
-  - "platforms, targeting specific CPUs"
-  - "project properties [Visual Studio], targeting platforms"
-  - "projects [Visual Studio], targeting platforms"
-  - "64-bit [Visual Studio]"
-  - "64-bit programming [Visual Studio]"
-  - "CPUs, targeting specific"
-  - "64-bit applications [Visual Studio]"
+- project settings [Visual Studio], targeting platforms
+- platforms, targeting specific CPUs
+- project properties [Visual Studio], targeting platforms
+- projects [Visual Studio], targeting platforms
+- 64-bit [Visual Studio]
+- 64-bit programming [Visual Studio]
+- CPUs, targeting specific
+- 64-bit applications [Visual Studio]
 ms.assetid: 845302fc-273d-4f81-820a-7296ce91bd76
 author: ghogen
 ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # How to: Configure projects to target platforms
 

@@ -1,14 +1,14 @@
 ---
-title: "Enable & disable full solution analysis for managed code"
+title: Enable & disable full solution analysis for managed code
 ms.date: 03/23/2018
-ms.topic: "conceptual"
+ms.topic: conceptual
 helpviewer_keywords:
-  - "full solution analysis"
-author: jillre
-ms.author: jillfra
+- full solution analysis
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ms.workload:
-  - "dotnet"
+- dotnet
 ---
 # How to: Enable and disable full solution analysis for managed code
 

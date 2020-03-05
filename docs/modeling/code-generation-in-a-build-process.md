@@ -3,16 +3,16 @@ title: Code Generation in a Build Process
 ms.date: 03/22/2018
 ms.topic: conceptual
 helpviewer_keywords:
-  - "text templates, build tasks"
-  - "text templates, transforming by using msbuild"
-author: jillre
-ms.author: jillfra
+- text templates, build tasks
+- text templates, transforming by using msbuild
+author: JoshuaPartlow
+ms.author: joshuapa
 manager: jillfra
 dev_langs:
 - CSharp
 - VB
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Invoke text transformation in the build process
 

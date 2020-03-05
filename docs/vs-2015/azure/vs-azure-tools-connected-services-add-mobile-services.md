@@ -29,7 +29,7 @@ You can use the Connected Services dialog to connect to Azure Mobile Services in
 * Projects created using Visual Studio Tools for Apache Cordova
 
 ## Connect to Azure Mobile Services using the Add Connected Services dialog
-1. Make sure you have an Azure account. If you don't have an Azure account, you can sign up for a [free trial](https://go.microsoft.com/fwlink/?LinkId=518146).
+1. Make sure you have an Azure account. If you don't have an Azure account, you can sign up for a [free trial](https://azure.microsoft.com/pricing/free-trial/).
 2. Open the **Add Connected Services** dialog box.
 
    * For .NET apps, open your project in Visual Studio, open the context menu for the **References** node in Solution Explorer, and then choose **Add Connected Service**
@@ -57,9 +57,6 @@ You can use the Connected Services dialog to connect to Azure Mobile Services in
    5. The new mobile service should appear in the service list on the **Azure Mobile Services** dialog box. Choose the new mobile service in the list and then choose the **Add** button to add the service to your project.
 5. Review the getting started page that appears and find out how your project was modified. A Getting Started page appears in your browser whenever you add a connected service. You can review the suggested next steps and code examples, or switch to the What Happened page to see what references were added to your project, and how your code and configuration files were modified.
 6. Using the code samples as a guide, start writing code to access your mobile service!
-
-## How your project is modified
-How Visual Studio modifies your project depends on the project type. For C# client apps, see [What happend – C# projects](https://go.microsoft.com/fwlink/p/?LinkId=513119). For JavaScript client apps, see [What happened – JavaScript projects](https://go.microsoft.com/fwlink/p/?LinkId=513120). For Cordova apps, see [What happend – Cordova projects](https://go.microsoft.com/fwlink/p/?LinkId=513116).
 
 ## Next steps
 Ask questions and get help:

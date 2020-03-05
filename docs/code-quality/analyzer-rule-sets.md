@@ -3,13 +3,13 @@ title: FxCop analyzer rule sets and editorconfig files
 ms.date: 10/08/2019
 ms.topic: conceptual
 helpviewer_keywords:
-  - "analyzer packages, rule sets"
-  - "rule sets for analyzers"
-author: jillre
-ms.author: jillfra
+- analyzer packages, rule sets
+- rule sets for analyzers
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Enable a category of rules
 

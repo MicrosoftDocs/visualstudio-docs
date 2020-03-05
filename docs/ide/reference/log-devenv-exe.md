@@ -3,15 +3,15 @@ title: -Log (devenv.exe)
 ms.date: 12/12/2018
 ms.topic: reference
 helpviewer_keywords:
-  - "Devenv, /Log switch"
-  - "Log switch [devenv.exe]"
-  - "/Log Devenv switch"
+- Devenv, /Log switch
+- Log switch [devenv.exe]
+- /Log Devenv switch
 ms.assetid: ae23c4ae-2376-4fe3-b8d2-81d34e61c8ba
-author: jillre
-ms.author: jillfra
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # /Log (devenv.exe)
 

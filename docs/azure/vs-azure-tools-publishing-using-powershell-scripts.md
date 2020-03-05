@@ -20,7 +20,7 @@ Using these scripts, you can provision customized versions (also known as dev an
 
 * Visual Studio 2015 or later with the **Azure workload** installed, or Visual Studio 2013 and Azure SDK 2.3 or later. See [Visual Studio Downloads](https://visualstudio.microsoft.com/downloads). (You don't need the Azure SDK to generate the scripts for web projects. This feature is for web projects, not web roles in cloud services.)
 * Azure PowerShell 0.7.4 or later. See [How to install and configure Azure PowerShell](/powershell/azure/overview).
-* [Windows PowerShell 3.0](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc770458(v=ws.10)) or later.
+* [Windows PowerShell 3.0](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc770458(v=ws.10)) or later.
 
 ## Additional tools
 
@@ -244,7 +244,7 @@ To automate building your project, add code that calls MSBuild to `New-WebDeploy
         #Write a function to build and package your web application
     ```
 
-    To build your web application, use MsBuild.exe. For help, see MSBuild Command-Line Reference at: [http://go.microsoft.com/fwlink/?LinkId=391339](../msbuild/msbuild-command-line-reference.md)
+    To build your web application, use MsBuild.exe. For help, see [MSBuild Command-Line Reference](../msbuild/msbuild-command-line-reference.md)
 
     ```powershell
     Write-VerboseWithTime 'Build-WebDeployPackage: Start'

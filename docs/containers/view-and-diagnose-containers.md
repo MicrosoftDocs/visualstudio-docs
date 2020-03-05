@@ -4,7 +4,7 @@ description: Describes how to improve your ability to debug and diagnose your co
 author: ghogen
 ms.author: ghogen
 ms.topic: conceptual
-ms.date: 10/16/2019
+ms.date: 01/20/2020
 ms.technology: vs-azure
 monikerRange: vs-2019
 ---
@@ -15,7 +15,7 @@ You can view what's going on inside the containers that host your app by using t
 ## Prerequisites
 
 - [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows)
-- [Visual Studio 2019 version 16.4 Preview 2](https://visualstudio.microsoft.com/downloads) or later, or if you are using an earlier version of Visual Studio 2019, install the [Containers window extension](https://aka.ms/vscontainerspreview).
+- [Visual Studio 2019 version 16.4 Preview 2](https://visualstudio.microsoft.com/downloads) or later, or if you are using an earlier version of Visual Studio 2019, install the [Containers window extension](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vs-containers-tools-extensions).
 
 ## View information about your containers
 

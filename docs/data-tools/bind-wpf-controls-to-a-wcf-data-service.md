@@ -3,18 +3,18 @@ title: Bind WPF controls to a WCF data service
 ms.date: 11/04/2016
 ms.topic: conceptual
 dev_langs:
-  - "VB"
-  - "CSharp"
+- VB
+- CSharp
 helpviewer_keywords:
-  - "WPF, data binding in Visual Studio"
-  - "WPF data binding [Visual Studio], walkthroughs"
-  - "WPF Designer, data binding"
+- WPF, data binding in Visual Studio
+- WPF data binding [Visual Studio], walkthroughs
+- WPF Designer, data binding
 ms.assetid: 8823537c-82f0-41f7-bf30-705f0e5e59fd
-author: jillre
-ms.author: jillfra
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "data-storage"
+- data-storage
 ---
 # Bind WPF controls to a WCF data service
 
