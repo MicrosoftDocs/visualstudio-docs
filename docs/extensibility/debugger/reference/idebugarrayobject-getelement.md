@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugArrayObject::GetElement method"
 ms.assetid: 08b44341-7bf1-4a8c-8b79-98ae5785b195
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -35,14 +35,12 @@ int GetElement(
 );
 ```
 
-#### Parameters
- `dwIndex`\
+## Parameters
+`dwIndex`\
+[in] The element index.
 
- [in] The element index.
-
- `ppElement`\
-
- [out] Returns an [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md) interface that represents the element.
+`ppElement`\
+[out] Returns an [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md) interface that represents the element.
 
 ## Return Value
  If successful, returns S_OK; otherwise, returns an error code.

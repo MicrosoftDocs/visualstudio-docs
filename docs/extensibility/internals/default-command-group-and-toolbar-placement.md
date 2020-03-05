@@ -10,8 +10,8 @@ helpviewer_keywords:
   - "commands [Visual Studio], default IDE"
   - "commands [Visual Studio], default product"
 ms.assetid: 35342110-d639-4577-8367-00b21dcc6f07
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "GetAppDomainId"
   - "IDebugAlias2::GetAppDomainId"
 ms.assetid: 23581aaa-5a53-4859-b264-eca49fc44bcd
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -33,9 +33,8 @@ int GetAppDomainId (
 ```
 
 ## Parameters
- `pappDomainId`\
-
- [out] Returns the application domain identifier.
+`pappDomainId`\
+[out] Returns the application domain identifier.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

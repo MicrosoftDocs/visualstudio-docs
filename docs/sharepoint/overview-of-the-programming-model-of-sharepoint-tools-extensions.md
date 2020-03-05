@@ -1,5 +1,5 @@
 ---
-title: "Overview of the Programming Model of SharePoint Tools Extensions | Microsoft Docs"
+title: "Overview of programming model of SharePoint tools extensions"
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -49,7 +49,7 @@ ms.workload:
 - *SharePoint server and client object models*. Use these object models to modify a SharePoint site or to retrieve data from a SharePoint site from the context of a SharePoint tools extension.
 
 ### SharePoint tools object model
- Each SharePoint tools extension uses types in the SharePoint tools object model to define the core behavior and functionality of the extension. The following tables describe the namespaces that are included in this object model, by the assemby that contains them.
+ Each SharePoint tools extension uses types in the SharePoint tools object model to define the core behavior and functionality of the extension. The following tables describe the namespaces that are included in this object model, by the assembly that contains them.
 
 #### Microsoft.VisualStudio.SharePoint.dll
 
@@ -97,8 +97,8 @@ ms.workload:
 
 |Object model|Description|
 |------------------|-----------------|
-|Server object model|The server object model provides access to all of the features that [!INCLUDE[wss_14_long](../sharepoint/includes/wss-14-long-md.md)] and [!INCLUDE[moss_14_long](../sharepoint/includes/moss-14-long-md.md)] expose programmatically. This object model is designed to be used by SharePoint solutions that run on the SharePoint server. The majority of this object model is defined in the *Microsoft.SharePoint.dll* assembly. For more information about the server object model, see [Using the SharePoint Foundation Server-Side Object Model](http://go.microsoft.com/fwlink/?LinkId=177796).|
-|Client object model|The client object model is a subset of the server object model that can be used to interoperate with SharePoint data from a remote client or server. It is designed to minimize the number of round trips that must be executed to perform common tasks. The majority of the client object model is defined in the *Microsoft.SharePoint.Client.dll* and *Microsoft.SharePoint.Client.Runtime.dll* assemblies. For more information about the client object model, see [Managed Client Object Model](http://go.microsoft.com/fwlink/?LinkId=177797).|
+|Server object model|The server object model provides access to all of the features that [!INCLUDE[wss_14_long](../sharepoint/includes/wss-14-long-md.md)] and [!INCLUDE[moss_14_long](../sharepoint/includes/moss-14-long-md.md)] expose programmatically. This object model is designed to be used by SharePoint solutions that run on the SharePoint server. The majority of this object model is defined in the *Microsoft.SharePoint.dll* assembly. For more information about the server object model, see [Using the SharePoint Foundation Server-Side Object Model](/previous-versions/office/developer/sharepoint-2010/ee538251(v=office.14)).|
+|Client object model|The client object model is a subset of the server object model that can be used to interoperate with SharePoint data from a remote client or server. It is designed to minimize the number of round trips that must be executed to perform common tasks. The majority of the client object model is defined in the *Microsoft.SharePoint.Client.dll* and *Microsoft.SharePoint.Client.Runtime.dll* assemblies. For more information about the client object model, see [Managed Client Object Model](/previous-versions/office/developer/sharepoint-2010/ee537247(v=office.14)).|
 
 ## See also
 - [Extend the SharePoint tools in Visual Studio](../sharepoint/extending-the-sharepoint-tools-in-visual-studio.md)

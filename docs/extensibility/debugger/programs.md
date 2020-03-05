@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "debugging [Debugging SDK], programs"
   - "programs, debugging"
 ms.assetid: e1f955d8-95da-493b-837e-e97741a26d7e
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

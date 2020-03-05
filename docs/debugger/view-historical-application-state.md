@@ -2,11 +2,11 @@
 title: "View previous app state using IntelliTrace"
 description: "Learn how to take snapshots, and view snapshots with IntelliTrace step-back"
 ms.custom: "seodec18"
-ms.date: "09/19/2018"
-ms.topic: "tutorial"
+ms.date: 09/19/2018
+ms.topic: tutorial
 ms.assetid: 7c60d929-d993-49dc-9db3-43b30be9912b
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ms.workload:
   - "multiple"
@@ -113,8 +113,8 @@ The impact on overall stepping performance depends on your application. The over
 
 * When a snapshot of the application's process is taken on an application that uses a persisted memory-mapped file, the process with the snapshot holds an exclusive lock on the memory-mapped file (even after the parent process has released its lock). Other processes are still able to read, but not write, to the memory-mapped file.
 
-    Workaround:
-    * Clear all snapshots by ending the debugging session.
+  Workaround:
+  * Clear all snapshots by ending the debugging session.
 
 * When debugging an application whose process has a high number of unique memory regions, such as an application that loads a large number of DLLs, stepping performance with snapshots enabled may be impacted. This issue will be addressed in a future version of Windows. If you are experiencing this issue, reach out to us at stepback@microsoft.com.
 

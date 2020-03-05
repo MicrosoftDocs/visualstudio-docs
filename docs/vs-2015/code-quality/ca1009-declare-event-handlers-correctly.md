@@ -12,8 +12,8 @@ helpviewer_keywords:
   - "DeclareEventHandlersCorrectly"
 ms.assetid: ab65c471-1449-49d2-9896-7b9af74284b4
 caps.latest.revision: 21
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: "wpickett"
 ---
 # CA1009: Declare event handlers correctly
@@ -53,4 +53,4 @@ manager: "wpickett"
 ## See Also
  <xref:System.EventArgs?displayProperty=fullName>
  <xref:System.Object?displayProperty=fullName>
- [NIB: Events and Delegates](http://msdn.microsoft.com/d98fd58b-fa4f-4598-8378-addf4355a115)
+ [NIB: Events and Delegates](https://msdn.microsoft.com/d98fd58b-fa4f-4598-8378-addf4355a115)

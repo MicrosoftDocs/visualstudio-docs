@@ -18,7 +18,7 @@ ms.workload:
   - "multiple"
 ---
 # Error: The Visual Studio Remote Debugger service on the target computer cannot connect back to this computer
-This error means that the Visual Studio Remote Debugger service is running under a user account that cannot authenticate when it tries to connect to the computer that you are debugging from.
+This error means that the remote debugger service is running under a user account that cannot authenticate when it tries to connect to the computer that you are debugging from. This error may occur when remote debugging using the legacy debugging engine, and the remote debugger is running as a service.
 
  The following table shows what accounts can access the computer:
 
@@ -68,6 +68,6 @@ This error means that the Visual Studio Remote Debugger service is running under
 
 - Run the Remote Debugging Monitor as an application instead of a service.
 
-## See Also
+## See also
 - [Remote Debugging Errors and Troubleshooting](../debugger/remote-debugging-errors-and-troubleshooting.md)
 - [Remote Debugging](../debugger/remote-debugging.md)

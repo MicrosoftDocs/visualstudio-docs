@@ -5,8 +5,8 @@ ms.topic: "conceptual"
 helpviewer_keywords:
   - "TASK_STATE_FAULTED field, Task class [.NET Framework debug engines]"
 ms.assetid: ced826ae-09a9-4acf-af00-a2343d396bb8
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

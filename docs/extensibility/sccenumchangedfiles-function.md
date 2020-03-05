@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "SccEnumChangedFiles function"
 ms.assetid: 76cac510-107b-4c1a-ba60-9c39b6db2e71
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

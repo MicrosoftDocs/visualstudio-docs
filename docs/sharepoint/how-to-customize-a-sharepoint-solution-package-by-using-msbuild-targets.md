@@ -1,5 +1,5 @@
 ---
-title: "How to: Customize a SharePoint Solution Package by Using MSBuild Targets | Microsoft Docs"
+title: "Customize SharePoint solution package using MSBuild targets"
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:

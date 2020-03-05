@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugPortNotify2::RemoveProgramNode"
 ms.assetid: 3668157b-66d2-416e-a359-fc04dcd18a48
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -34,9 +34,8 @@ int RemoveProgramNode( 
 ```
 
 ## Parameters
- `pProgramNode`\
-
- [in] An [IDebugProgramNode2](../../../extensibility/debugger/reference/idebugprogramnode2.md) objecy that represents the program to be unregistered.
+`pProgramNode`\
+[in] An [IDebugProgramNode2](../../../extensibility/debugger/reference/idebugprogramnode2.md) objecy that represents the program to be unregistered.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

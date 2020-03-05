@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "THREADSTATE enumeration"
 ms.assetid: 62efdd7c-25b1-4fd3-9d06-ac1830a418a9
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -68,6 +68,6 @@ public enum enum_THREADSTATE { 
 
  Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
-## See Also
+## See also
 - [Enumerations](../../../extensibility/debugger/reference/enumerations-visual-studio-debugging.md)
 - [THREADPROPERTIES](../../../extensibility/debugger/reference/threadproperties.md)

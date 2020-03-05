@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "project models, objects and interfaces"
   - "project models, services"
 ms.assetid: b2f572d3-b26d-4846-92d1-84055fac141a
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -93,7 +93,7 @@ The following tables expand on the project model. The tables present brief descr
 |<xref:Microsoft.VisualStudio.Shell.Interop.IVsExtensibility3>|Used to implement the automation model. In your project model, you will return a properties object that lets you creates an instance of that object.|
 |<xref:Microsoft.VisualStudio.Shell.Interop.SVsUIHierWinClipboardHelper>|Used to implement clipboard events on the project object in the hierarchy. `SVsUIHierWinClipboardHelper` lets you correctly handle cut, copy, and paste operations.|
 
-## See Also
+## See also
 - <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget>
 - [Checklist: Creating New Project Types](../../extensibility/internals/checklist-creating-new-project-types.md)
 - [Not in Build: Using HierUtil7 Project Classes to Implement a Project Type (C++)](https://msdn.microsoft.com/library/a5c16a09-94a2-46ef-87b5-35b815e2f346)

@@ -43,5 +43,5 @@ HRESULT GetSystemThreadId(
 ## Remarks  
  The value of `dwThreadId` does not need to be unique across machines.  
   
-## See Also  
+## See also  
  [IRemoteDebugApplicationThread Interface](../../winscript/reference/iremotedebugapplicationthread-interface.md)

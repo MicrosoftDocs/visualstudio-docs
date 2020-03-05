@@ -3,19 +3,19 @@ title: Create lookup tables in WPF applications
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "data [WPF], displaying"
-  - "WPF, data binding in Visual Studio"
-  - "WPF data binding [Visual Studio]"
-  - "displaying data, WPF"
-  - "WPF [WPF], data"
-  - "WPF Designer, data binding"
-  - "data binding, WPF"
+- data [WPF], displaying
+- WPF, data binding in Visual Studio
+- WPF data binding [Visual Studio]
+- displaying data, WPF
+- WPF [WPF], data
+- WPF Designer, data binding
+- data binding, WPF
 ms.assetid: 56a1fbff-c7e8-4187-a1c1-ffd17024bc1b
-author: gewarren
-ms.author: gewarren
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "data-storage"
+- data-storage
 ---
 # Create lookup tables in WPF applications
 

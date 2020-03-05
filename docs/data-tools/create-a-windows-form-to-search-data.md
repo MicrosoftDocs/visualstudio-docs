@@ -3,17 +3,17 @@ title: Create a Windows Form to search data
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "Windows Forms, searching data"
-  - "Windows Forms, displaying data"
-  - "parameters, displaying filtered data"
-  - "data [Visual Studio], parameterizing queries"
-  - "data [Visual Studio], searching"
+- Windows Forms, searching data
+- Windows Forms, displaying data
+- parameters, displaying filtered data
+- data [Visual Studio], parameterizing queries
+- data [Visual Studio], searching
 ms.assetid: 65ca79a9-7458-466c-af55-978cd24c549e
-author: gewarren
-ms.author: gewarren
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "data-storage"
+- data-storage
 ---
 # Create a Windows Form to search data
 

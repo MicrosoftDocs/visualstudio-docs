@@ -168,7 +168,7 @@ ms.workload:
 
 1. Select a cell inside the list object.
 
-    A new row appears at the bottom of the list, with an asterisk (**\\***) in the first cell of the new row.
+    A new row appears at the bottom of the list, with an asterisk (**\***) in the first cell of the new row.
 
 2. Add the following information in the empty row.
 

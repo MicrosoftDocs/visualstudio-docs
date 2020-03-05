@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "IDTWizard interface"
   - "wizards, interface"
 ms.assetid: 09618d9d-d115-45b6-bccc-de328994b39c
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -57,7 +57,7 @@ STDMETHOD(Execute)(THIS_
     wizardResultBackout = 2
     ```
 
-## See Also
+## See also
 - [Context Parameters](../../extensibility/internals/context-parameters.md)
 - [Custom Parameters](../../extensibility/internals/custom-parameters.md)
 - [Wizards](../../extensibility/internals/wizards.md)

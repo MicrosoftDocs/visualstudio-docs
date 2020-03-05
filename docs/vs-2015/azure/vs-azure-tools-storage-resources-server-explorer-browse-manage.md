@@ -118,7 +118,7 @@ By default, a blob is downloaded to a temporary directory. To download blobs to 
 
 To upload blobs, select the **Upload Blob** button when the container is open for viewing in the blob container view.
 
-You can choose one or more files to upload, and you can upload files of any type. The **Azure Activity Log** window shows the progress of the upload. For more information about how to work with blob data, see [How to use Azure Blob storage in .NET](http://go.microsoft.com/fwlink/p/?LinkId=267911).
+You can choose one or more files to upload, and you can upload files of any type. The **Azure Activity Log** window shows the progress of the upload. For more information about how to work with blob data, see [How to use Azure Blob storage in .NET](https://www.windowsazure.com/develop/net/how-to-guides/blob-storage/).
 
 ### To view logs transferred to blobs
 
@@ -153,7 +153,7 @@ The following image shows a queue that contains two messages:
 
 ![Viewing a queue](./media/vs-azure-tools-storage-resources-server-explorer-browse-manage/IC651470.png)
 
-For more information about storage services queues, see [Get started with Azure Queue storage using .NET](http://go.microsoft.com/fwlink/?LinkID=264702). For information about the web service for storage services queues, see [Queue Service Concepts](http://go.microsoft.com/fwlink/?LinkId=264788). For information about how to send messages to a storage services queue by using Visual Studio, see [Sending Messages to a Storage Services Queue](/azure/visual-studio/vs-storage-cloud-services-getting-started-queues).
+For more information about storage services queues, see [Get started with Azure Queue storage using .NET](https://www.windowsazure.com/develop/net/how-to-guides/queue-service/). For information about the web service for storage services queues, see [Queue Service Concepts](https://msdn.microsoft.com/library/windowsazure/dd179353.aspx). For information about how to send messages to a storage services queue by using Visual Studio, see [Sending Messages to a Storage Services Queue](/azure/visual-studio/vs-storage-cloud-services-getting-started-queues).
 
 > [!NOTE]
 > Storage services queues are distinct from Azure Service Bus queues. For more information about Service Bus queues, see [Service Bus queues, topics, and subscriptions](/azure/service-bus-messaging/service-bus-queues-topics-subscriptions).
@@ -181,7 +181,7 @@ The table is organized by entities (shown in rows) and properties (shown in colu
 
 In Table Designer, open the shortcut menu for an entity (a single row) or a property (a single cell), and then select **Edit**.
 
-    ![Add or edit a table entity](./media/vs-azure-tools-storage-resources-server-explorer-browse-manage/IC656238.png)
+![Add or edit a table entity](./media/vs-azure-tools-storage-resources-server-explorer-browse-manage/IC656238.png)
 
 Entities in a single table aren’t required to have the same set of properties (columns). Keep in mind the following restrictions on viewing and editing table data:
 

@@ -1,5 +1,5 @@
 ---
-title: "Publish Page, Project Designer (Office development in Visual Studio)"
+title: "Publish Page, Project Designer (Office development)"
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 f1_keywords:

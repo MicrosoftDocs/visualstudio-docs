@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "VSCT XML schema elements, Bitmaps"
   - "Bitmaps element (VSCT XML schema)"
 ms.assetid: 74652e1b-fcfa-421b-aa9f-fbc081d3b476
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

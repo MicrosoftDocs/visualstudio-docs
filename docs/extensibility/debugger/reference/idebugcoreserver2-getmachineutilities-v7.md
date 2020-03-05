@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugCoreServer2::GetMachineUtilities_V7"
 ms.assetid: 64c1f08f-853b-4498-9810-29791581ef2f
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -37,9 +37,8 @@ int GetMachineUtilities_V7(
 ```
 
 ## Parameters
- `ppUtil`\
-
- [out] Returns an `IDebugMDMUtil2_V7` interface that represents the machine utilities information.
+`ppUtil`\
+[out] Returns an `IDebugMDMUtil2_V7` interface that represents the machine utilities information.
 
 ## Return Value
  Always returns `E_NOTIMPL`, indicating that the method is not implemented.

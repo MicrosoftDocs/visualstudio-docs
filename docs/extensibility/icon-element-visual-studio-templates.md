@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
   - "Icon element [Visual Studio project templates]"
 ms.assetid: ec01d903-f4c2-4ca2-9cbc-e939ec84016c
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

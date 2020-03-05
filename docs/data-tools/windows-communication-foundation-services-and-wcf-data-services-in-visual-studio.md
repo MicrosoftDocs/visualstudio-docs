@@ -3,38 +3,38 @@ title: Windows Communication Foundation and WCF Data Services
 ms.date: 11/04/2016
 ms.topic: conceptual
 dev_langs:
-  - "VB"
-  - "CSharp"
+- VB
+- CSharp
 helpviewer_keywords:
-  - "services, WCF Data"
-  - "WCF services, binding to"
-  - "WCF services, asynchronous service methods"
-  - "service references [Visual Studio]"
-  - "WCF Data Services"
-  - "asynchronous calls"
-  - "service references [Visual Studio], type sharing"
-  - "endpoints [WCF]"
-  - "asynchronous service methods"
-  - "service references [Visual Studio] endpoints"
-  - "WCF services, type sharing"
-  - "Windows Communication Foundation, in Visual Studio"
-  - "services, WCF"
-  - "WCF service, Visual Studio"
-  - "data services, WCF"
-  - "services, in Visual Studio"
-  - "data binding [Visual Studio], WCF"
-  - "service endpoints [Visual Studio]"
-  - "service references [Visual Studio], asynchronous calls"
-  - "services, Windows Communication Foundation"
-  - "type sharing in WCF services"
-  - "WCF services, endpoints"
-  - "service method, called asynchronously[Visual Studio]"
+- services, WCF Data
+- WCF services, binding to
+- WCF services, asynchronous service methods
+- service references [Visual Studio]
+- WCF Data Services
+- asynchronous calls
+- service references [Visual Studio], type sharing
+- endpoints [WCF]
+- asynchronous service methods
+- service references [Visual Studio] endpoints
+- WCF services, type sharing
+- Windows Communication Foundation, in Visual Studio
+- services, WCF
+- WCF service, Visual Studio
+- data services, WCF
+- services, in Visual Studio
+- data binding [Visual Studio], WCF
+- service endpoints [Visual Studio]
+- service references [Visual Studio], asynchronous calls
+- services, Windows Communication Foundation
+- type sharing in WCF services
+- WCF services, endpoints
+- service method, called asynchronously[Visual Studio]
 ms.assetid: d56f12cb-e139-4fec-b3e4-488383356642
-author: gewarren
-ms.author: gewarren
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "data-storage"
+- data-storage
 ---
 # Windows Communication Foundation Services and WCF Data Services in Visual Studio
 
@@ -46,11 +46,11 @@ Windows Communication Foundation (WCF) is a unified framework for creating secur
 
 ### What are WCF Data Services
 
-WCF Data Services is an implementation of the Open Data (OData) Protocol standard.  WCF Data Services lets you expose tabular data as a set of REST APIs, allowing you to return data using standard HTTP verbs such as GET, POST, PUT, or DELETE. On the server side, WCF Data Services are being superseded by [ASP.NET Web API](http://www.asp.net/web-api) for creating new OData services. The WCF Data Services client library continues to be a good choice for consuming OData services in a .NET application from Visual Studio (**Project** > **Add Service Reference**). For more information, see [WCF Data Services 4.5](http://go.microsoft.com/fwlink/?LinkID=119952).
+WCF Data Services is an implementation of the Open Data (OData) Protocol standard.  WCF Data Services lets you expose tabular data as a set of REST APIs, allowing you to return data using standard HTTP verbs such as GET, POST, PUT, or DELETE. On the server side, WCF Data Services are being superseded by [ASP.NET Web API](https://dotnet.microsoft.com/apps/aspnet/apis) for creating new OData services. The WCF Data Services client library continues to be a good choice for consuming OData services in a .NET application from Visual Studio (**Project** > **Add Service Reference**). For more information, see [WCF Data Services 4.5](/dotnet/framework/data/wcf).
 
 ### WCF programming model
 
-The WCF programming model is based on communication between two entities: a WCF service and a WCF client. The programming model is encapsulated in the <xref:System.ServiceModel> namespace in the .NET Framework.
+The WCF programming model is based on communication between two entities: a WCF service and a WCF client. The programming model is encapsulated in the <xref:System.ServiceModel> namespace in .NET.
 
 ### WCF Service
 
@@ -222,7 +222,7 @@ You can bind data returned by a Windows Communication Foundation (WCF) service t
 
 ## How to: Configure a service to reuse existing types
 
-When a service reference is added to a project, any types defined in the service are generated in the local project. In many cases, this creates duplicate types when a service uses common .NET Framework types or when types are defined in a shared library.
+When a service reference is added to a project, any types defined in the service are generated in the local project. In many cases, this creates duplicate types when a service uses common .NET types or when types are defined in a shared library.
 
 To avoid this problem, types in referenced assemblies are shared by default. If you want to disable type sharing for one or more assemblies, you can do so in the **Configure Service References** dialog box.
 

@@ -7,8 +7,8 @@ helpviewer_keywords:
   - "registry, new project types"
   - "registration, new project types"
 ms.assetid: dfc0e231-6b4e-447d-9d64-0e66dea3394a
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -258,7 +258,7 @@ When you create a new project type, you must create registry entries that enable
 
  That means if you include a PROJECT_TYPE=EF entry in the .vsz file, the environment finds your .vsz files in the ProductDir directory specified previously.
 
-## See Also
+## See also
 - [Checklist: Creating New Project Types](../../extensibility/internals/checklist-creating-new-project-types.md)
 - [Elements of a Project Model](../../extensibility/internals/elements-of-a-project-model.md)
 - [Creating Project Instances By Using Project Factories](../../extensibility/internals/creating-project-instances-by-using-project-factories.md)

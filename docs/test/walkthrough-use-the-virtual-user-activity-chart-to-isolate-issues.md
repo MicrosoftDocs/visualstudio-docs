@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "load tests, virtual user activity chart"
   - "virtual user activity chart, isolating performance issues"
 ms.assetid: d1c10fb9-cfeb-4e7f-9991-2d1e1103699e
-author: gewarren
-ms.author: gewarren
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ---
 # Walkthrough: Using the Virtual User Activity Chart to isolate issues
@@ -24,9 +24,9 @@ The Virtual User Activity Chart lets you visualize the virtual user activity tha
 
 - Complete these procedures:
 
-    - [Record and run a web performance test](/azure/devops/test/load-test/run-performance-tests-app-before-release#recordtests).
+  - [Record and run a web performance test](/azure/devops/test/load-test/run-performance-tests-app-before-release#recordtests).
 
-    - [Create and run a load test](/azure/devops/test/load-test/run-performance-tests-app-before-release#create-a-load-test)
+  - [Create and run a load test](/azure/devops/test/load-test/run-performance-tests-app-before-release#create-a-load-test)
 
 ## Open the ColorWebApp solution created in the previous walkthroughs
 

@@ -12,8 +12,8 @@ helpviewer_keywords:
   - "SpecifyIFormatProvider"
 ms.assetid: fb34ed9a-4eab-47cc-8eef-3068a4a1397e
 caps.latest.revision: 24
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: "wpickett"
 ---
 # CA1305: Specify IFormatProvider
@@ -72,4 +72,4 @@ manager: "wpickett"
  [CA1304: Specify CultureInfo](../code-quality/ca1304-specify-cultureinfo.md)
 
 ## See Also
- [NIB: Using the CultureInfo Class](http://msdn.microsoft.com/d4329e34-64c3-4d1e-8c73-5b0ee626ba7a)
+ [NIB: Using the CultureInfo Class](https://msdn.microsoft.com/d4329e34-64c3-4d1e-8c73-5b0ee626ba7a)

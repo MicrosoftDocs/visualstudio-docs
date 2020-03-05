@@ -7,8 +7,8 @@ helpviewer_keywords:
   - "editors [Visual Studio SDK], colorizing text"
   - "text, colorizing in editors"
 ms.assetid: 96e762ca-efd0-41e7-8958-fda4897c8c7a
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -56,7 +56,7 @@ When the language service provides syntax colorization, the parser converts a li
 ## Managed Package Framework Colorizer
  The managed package framework (MPF) provides all the classes that are required to implement a colorizer. Your language service class should inherit the <xref:Microsoft.VisualStudio.Package.LanguageService> class and implement the required methods. You must supply a scanner and parser by implementing the <xref:Microsoft.VisualStudio.Package.IScanner> interface, and return an instance of that interface from the <xref:Microsoft.VisualStudio.Package.LanguageService.GetScanner%2A> method (one of the methods that must be implemented in the <xref:Microsoft.VisualStudio.Package.LanguageService> class). For more information, see [Syntax Colorizing in a Legacy Language Service](../../extensibility/internals/syntax-colorizing-in-a-legacy-language-service.md).
 
-## See Also
+## See also
 - [How to: Use Built-In Colorable Items](../../extensibility/internals/how-to-use-built-in-colorable-items.md)
 - [Custom Colorable Items](../../extensibility/internals/custom-colorable-items.md)
 - [Developing a Legacy Language Service](../../extensibility/internals/developing-a-legacy-language-service.md)

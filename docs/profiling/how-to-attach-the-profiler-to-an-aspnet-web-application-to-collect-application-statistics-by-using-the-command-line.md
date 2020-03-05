@@ -1,5 +1,5 @@
 ---
-title: "Attach the profiler to an ASP.NET we app to collect app statistics"
+title: "Attach profiler to ASP.NET web app to get app statistics"
 ms.custom: "seodec18"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
@@ -7,6 +7,7 @@ ms.assetid: 3725ddbe-ce91-4469-991e-8c5ed048c618
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jillfra
+monikerRange: 'vs-2017'
 ms.workload:
   - "aspnet"
 ---

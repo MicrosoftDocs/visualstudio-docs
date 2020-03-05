@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "registration, source control packages"
   - "source control packages, registration"
 ms.assetid: 7d21fe48-489a-4f55-acb5-73da64c4e155
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -73,7 +73,7 @@ A source control VSPackage must be registered to expose it to the [!INCLUDE[vspr
 
   Unlike previous versions of [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)], an IDE restart is no longer the only way to switch source control VSPackages. VSPackage selection is automatic. Switching packages requires Windows User privileges (not Administrator or Power User).
 
-## See Also
+## See also
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsSolutionPersistence>
 - [Features](../../extensibility/internals/source-control-vspackage-features.md)
 - [Creating a Source Control Plug-in](../../extensibility/internals/creating-a-source-control-plug-in.md)

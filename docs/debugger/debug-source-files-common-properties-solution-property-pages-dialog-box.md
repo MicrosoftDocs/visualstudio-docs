@@ -1,5 +1,5 @@
 ---
-title: "Debug Source Files, Common Properties, Solution Property Pages Dialog Box | Microsoft Docs"
+title: "Debug Source Files/Common Properties/Solution Property Pages"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 f1_keywords:
@@ -34,7 +34,7 @@ This property page specifies where the debugger will look for source files when 
  **Do not look for these source files**
  Enter the names of any files that you do not want the debugger to read. If the debugger finds one of these files in one of the directories specified above, it will ignore it. If the **Find Source** dialog box comes up while you are debugging and , you click **Cancel**, the file you were searching for gets added to this list so that the debugger will not continue searching for that file.
 
-## See Also
+## See also
 
 - [Debugger Security](../debugger/debugger-security.md)
 - [Debugger Settings and Preparation](../debugger/debugger-settings-and-preparation.md)

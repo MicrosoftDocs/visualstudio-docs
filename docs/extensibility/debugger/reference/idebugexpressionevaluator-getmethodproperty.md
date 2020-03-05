@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugExpressionEvaluator::GetMethodProperty method"
 ms.assetid: c394fe4d-eeb6-4feb-828c-098d84a6f1ba
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -42,25 +42,20 @@ int GetMethodProperty(
 ```
 
 ## Parameters
- `pSymbolProvider`\
+`pSymbolProvider`\
+[in] The symbol provider to be used, expressed as an [IDebugSymbolProvider](../../../extensibility/debugger/reference/idebugsymbolprovider.md) object.
 
- [in] The symbol provider to be used, expressed as an [IDebugSymbolProvider](../../../extensibility/debugger/reference/idebugsymbolprovider.md) object.
+`pAddress`\
+[in] The address in code, expressed as an [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md) object, that should be resolved to the nearest containing function.
 
- `pAddress`\
+`pBinder`\
+[in] The binder to be used, expressed as an [IDebugBinder](../../../extensibility/debugger/reference/idebugbinder.md) object.
 
- [in] The address in code, expressed as an [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md) object, that should be resolved to the nearest containing function.
+`fIncludeHiddenLocals`\
+[in] Nonzero (`TRUE`)means to include hidden locals; zero (`FALSE`) means to leave out hidden locals
 
- `pBinder`\
-
- [in] The binder to be used, expressed as an [IDebugBinder](../../../extensibility/debugger/reference/idebugbinder.md) object.
-
- `fIncludeHiddenLocals`\
-
- [in] Nonzero (`TRUE`)means to include hidden locals; zero (`FALSE`) means to leave out hidden locals
-
- `ppProperty`\
-
- [out] Returns an [IDebugProperty2](../../../extensibility/debugger/reference/idebugproperty2.md) object that represents the method.
+`ppProperty`\
+[out] Returns an [IDebugProperty2](../../../extensibility/debugger/reference/idebugproperty2.md) object that represents the method.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

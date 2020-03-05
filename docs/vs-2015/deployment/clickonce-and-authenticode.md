@@ -30,7 +30,7 @@ Authenticode* is a Microsoft technology that uses industry-standard cryptography
 ## Authenticode and Code Signing  
  A *digital certificate* is a file that contains a cryptographic public/private key pair, along with metadata describing the publisher to whom the certificate was issued and the agency that issued the certificate.  
   
- There are various types of Authenticode certificates. Each one is configured for different types of signing. For [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] applications, you must have an Authenticode certificate that is valid for code signing. If you attempt to sign a [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] application with another type of certificate, such as a digital e-mail certificate, it will not work. For more information, see [Introduction to Code Signing](http://go.microsoft.com/fwlink/?LinkId=179452).  
+ There are various types of Authenticode certificates. Each one is configured for different types of signing. For [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] applications, you must have an Authenticode certificate that is valid for code signing. If you attempt to sign a [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] application with another type of certificate, such as a digital e-mail certificate, it will not work. For more information, see [Introduction to Code Signing](https://msdn.microsoft.com/library/ms537361.aspx).  
   
  You can obtain a certificate for code signing in one of three ways:  
   
@@ -45,7 +45,7 @@ Authenticode* is a Microsoft technology that uses industry-standard cryptography
   
  By contrast, if you receive a certificate from a CA, such as a certificate vendor, or a department within your enterprise, the certificate offers more security for your users. It not only identifies the publisher of the signed software, but it verifies that identity by checking with the CA that signed it. If the CA is not the root authority, Authenticode will also "chain" back to the root authority to verify that the CA is authorized to issue certificates. For greater security, you should use a certificate issued by a CA whenever possible.  
   
- For more information about generating self-certs, see [Makecert.exe (Certificate Creation Tool)](http://msdn.microsoft.com/library/b0343f8e-9c41-4852-a85c-f8a0c408cf0d).  
+ For more information about generating self-certs, see [Makecert.exe (Certificate Creation Tool)](https://msdn.microsoft.com/library/b0343f8e-9c41-4852-a85c-f8a0c408cf0d).  
   
 ### Timestamps  
  The certificates used to sign [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] applications expire after a certain length of time, typically twelve months. In order to remove the need to constantly re-sign applications with new certificates, [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] supports timestamp. When an application is signed with a timestamp, its certificate will continue to be accepted even after expiration, provided the timestamp is valid. This allows [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] applications with expired certificates, but valid timestamps, to download and run. It also allows installed applications with expired certificates to continue to download and install updates.  
@@ -59,7 +59,7 @@ Authenticode* is a Microsoft technology that uses industry-standard cryptography
   
 - Uninstall the application, and reinstall a new version with a valid certificate.  
   
-- Create a command-line assembly that updates the certificate. Step-by-step information about this process can be found at [Microsoft Support Article 925521](http://go.microsoft.com/fwlink/?LinkId=179454).  
+- Create a command-line assembly that updates the certificate.  
   
 ### Storing Certificates  
   
@@ -69,4 +69,4 @@ Authenticode* is a Microsoft technology that uses industry-standard cryptography
  [ClickOnce Security and Deployment](../deployment/clickonce-security-and-deployment.md)   
  [Securing ClickOnce Applications](../deployment/securing-clickonce-applications.md)   
  [Trusted Application Deployment Overview](../deployment/trusted-application-deployment-overview.md)   
- [Mage.exe (Manifest Generation and Editing Tool)](http://msdn.microsoft.com/library/77dfe576-2962-407e-af13-82255df725a1)
+ [Mage.exe (Manifest Generation and Editing Tool)](https://msdn.microsoft.com/library/77dfe576-2962-407e-af13-82255df725a1)

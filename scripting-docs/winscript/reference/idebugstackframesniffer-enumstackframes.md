@@ -43,5 +43,5 @@ HRESULT EnumStackFrames(
 ## Remarks  
  The stack frame enumerator returns the frames starting at the top of the stack, starting with the most recently pushed frame.  
   
-## See Also  
+## See also  
  [IDebugStackFrameSniffer Interface](../../winscript/reference/idebugstackframesniffer-interface.md)

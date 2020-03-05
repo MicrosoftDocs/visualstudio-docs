@@ -1,14 +1,14 @@
 ---
-title: "Create and run a load test"
+title: Create and run a load test
 ms.date: 10/01/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "unit tests, in load tests"
-  - "unit tests, load test walkthrough"
-  - "load tests, walkthrough"
+- unit tests, in load tests
+- unit tests, load test walkthrough
+- load tests, walkthrough
 ms.assetid: bbf075a5-96d5-48ed-a03c-330f0fc04748
-author: gewarren
-ms.author: gewarren
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ---
 # Walkthrough: Create and run a load test that contains unit tests

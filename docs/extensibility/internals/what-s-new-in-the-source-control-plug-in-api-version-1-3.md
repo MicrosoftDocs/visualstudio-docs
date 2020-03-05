@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "source control plug-ins, what's new in API v1.3"
   - "what's new [Visual Studio SDK], source control plug-ins"
 ms.assetid: 7dfb2227-6e1d-4028-bce9-f8967456a993
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -28,6 +28,6 @@ The Source Control Plug-in API version 1.3 introduces the following new function
 |[SccBackgroundGet](../../extensibility/sccbackgroundget-function.md)|Performs a silent "Get" of the specified files (no user interface is shown)|
 |[SccGetUserOption](../../extensibility/sccgetuseroption-function.md)|Allows access to user-specific options|
 
-## See Also
+## See also
 - [Getting Started](../../extensibility/internals/getting-started-with-source-control-plug-ins.md)
 - [What's New in the Source Control Plug-in API Version 1.2](../../extensibility/internals/what-s-new-in-the-source-control-plug-in-api-version-1-2.md)

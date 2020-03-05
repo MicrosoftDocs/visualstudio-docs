@@ -139,7 +139,7 @@ In this walkthrough, you’ll learn how to create a simple Math Library SDK by u
   
 6. In the details pane, choose the **Simple Math SDK** extension.  
   
-    Additional information about your SDK appears. You can choose the **More Information** link to open http://www.msdn.microsoft.com, as you specified in the SDKManifest.xml file earlier in this walkthrough.  
+    Additional information about your SDK appears. You can choose the **More Information** link to open https://docs.microsoft.com, as you specified in the SDKManifest.xml file earlier in this walkthrough.  
   
 7. In the **Reference Manager** dialog box, select the **Simple Math SDK** check box, and then choose the **OK** button.  
   

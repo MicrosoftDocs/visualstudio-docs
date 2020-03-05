@@ -18,10 +18,10 @@ manager: jillfra
 You can use the Concurrency Visualizer command-line utility (CVCollectionCmd.exe) to collect traces from the command line so that you can view them in the Concurrency Visualizer for Visual Studio . The ools can be used on computers that do not have Visual Studio installed.  
   
 > [!NOTE]
-> Starting in Visual Studio 2013, the Concurrency Visualizer is an optional extension. (Previously it had been included in Visual Studio.) You can download the [Concurrency Visualizer Collection Tools for Visual Studio 2015](http://www.microsoft.com/download/details.aspx?id=49103) from the Download Center.  
+> Starting in Visual Studio 2013, the Concurrency Visualizer is an optional extension. (Previously it had been included in Visual Studio.) You can download the [Concurrency Visualizer Collection Tools for Visual Studio 2015](https://www.microsoft.com/download/details.aspx?id=49103) from the Download Center.  
   
 ## Download the Concurrency Visualizer Command-Line Utility  
- To download and install the command-line utility, go to [Concurrency Visualizer Collection Tools for Visual Studio 2015](http://www.microsoft.com/download/details.aspx?id=49103) and follow the instructions. By default, CVCollectionCmd.exe is installed in %ProgramFiles%\Microsoft Concurrency Visualizer Collection Tools\ (%ProgramFiles(x86)%\Microsoft Concurrency Visualizer Collection Tools\ on x64 computers).  
+ To download and install the command-line utility, go to [Concurrency Visualizer Collection Tools for Visual Studio 2015](https://www.microsoft.com/download/details.aspx?id=49103) and follow the instructions. By default, CVCollectionCmd.exe is installed in %ProgramFiles%\Microsoft Concurrency Visualizer Collection Tools\ (%ProgramFiles(x86)%\Microsoft Concurrency Visualizer Collection Tools\ on x64 computers).  
   
 ## Collect a trace with CVCollectionCmd  
  You can collect a trace by starting the app with CVCollectionCmd, or by attaching to it. See the command reference below for your options. For example  
@@ -37,7 +37,7 @@ You can use the Concurrency Visualizer command-line utility (CVCollectionCmd.exe
   
 |Option|Description|Parameters|Return values|  
 |------------|-----------------|----------------|-------------------|  
-|Query|Returns whether collection can be started.|None|0 if collection is ready to start.<br /><br /> 1  if collection is already in progress.<br /><br /> 2 if collection isn’t in progress, but one or more of the required [ETW](http://msdn.microsoft.com/library/ac99a063-e2d2-40cc-b659-d23c2f783f92) sessions is already enabled.|  
+|Query|Returns whether collection can be started.|None|0 if collection is ready to start.<br /><br /> 1  if collection is already in progress.<br /><br /> 2 if collection isn’t in progress, but one or more of the required [ETW](https://msdn.microsoft.com/library/ac99a063-e2d2-40cc-b659-d23c2f783f92) sessions is already enabled.|  
 |Launch|Runs the specified process under the Concurrency Visualizer.|The path of the executable.|0 if the run succeeded.<br /><br /> 1 if the run failed because the target application couldn’t be started.<br /><br /> 13 if the run failed because CVCollectionCmd has insufficient permissions to write to the specified output directory.|  
 |Attach|Begins collecting a system-wide trace; otherwise, attaches to a process if one is specified.|None.|0 if attachment succeeded.<br /><br /> 1 if attachment failed because the specified process is invalid or ambiguous.<br /><br /> 13 if the attachment failed because CVCollectionCmd has insufficient permissions to write to the specified output directory.|  
 |Detach|Stops collection.|None.|0 if detachment succeeded.<br /><br /> 1 if detachment failed because collection is not currently in progress.<br /><br /> 2 if detachment failed because collection could not be stopped.|  
@@ -65,7 +65,7 @@ You can use the Concurrency Visualizer command-line utility (CVCollectionCmd.exe
 |MinorVersion|Specifies the minor version of the config file.|Must be 0 for [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)] projects. If not 0, the utility will not work.|  
 |IncludeEnvSymbolPath|Sets a value that determines whether the environment symbol path (_NT_SYMBOL_PATH) is used.|-   True<br />-   False|  
 |DeleteEtlsAfterAnalysis|Sets a value that determines whether the ETL files are deleted when analysis completes.|-   True<br />-   False|  
-|SymbolPath|Specifies the path of the symbol server. For more information, see [Use the Microsoft Symbol Server to obtain debug symbol files](http://go.microsoft.com/fwlink/?LinkID=149389).|A directory name or URL.|  
+|SymbolPath|Specifies the path of the symbol server. For more information, see [Use the Microsoft Symbol Server to obtain debug symbol files](https://support.microsoft.com/kb/311503).|A directory name or URL.|  
 |Markers|Contains the list of marker providers.|May contain zero or more MarkerProvider elements.|  
 |MarkerProvider|Specifies a single marker provider.|Must contain these elements:<br /><br /> -   Level<br />-   GUID<br />-   Name<br /><br /> Can contain these elements:<br /><br /> -   Categories<br />-   IsEnabled|  
 |Level|Sets the importance level of a MarkerProvider.|-   Low<br />-   Normal<br />-   High<br />-   Critical<br />-   Everything|  

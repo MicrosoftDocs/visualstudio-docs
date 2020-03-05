@@ -3,12 +3,12 @@ title: Text Template Utility Methods
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
-  - "text templates, utility methods"
-author: gewarren
-ms.author: gewarren
+- text templates, utility methods
+author: JoshuaPartlow
+ms.author: joshuapa
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Text Template Utility Methods
 

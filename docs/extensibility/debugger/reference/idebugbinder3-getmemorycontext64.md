@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "GetMemoryContext64"
   - "IDebugBinder3::GetMemoryContext64"
 ms.assetid: f021fd16-9fc7-4c41-86af-e54e6224cfbb
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -38,16 +38,13 @@ int GetMemoryContext64 (
 
 ## Parameters
 `pField`\
-
- [in] An [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) that describes the object to locate. If `NULL`, then use `dwConstant` instead.
+[in] An [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) that describes the object to locate. If `NULL`, then use `dwConstant` instead.
 
 `uConstant`\
-
- [in] A 64-bit memory address, such as 0x50000000.
+[in] A 64-bit memory address, such as 0x50000000.
 
 `ppMemCxt`\
-
- [out] Returns the [IDebugMemoryContext2](../../../extensibility/debugger/reference/idebugmemorycontext2.md) interface that represents the address of the object, or the address in memory.
+[out] Returns the [IDebugMemoryContext2](../../../extensibility/debugger/reference/idebugmemorycontext2.md) interface that represents the address of the object, or the address in memory.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns an error code.

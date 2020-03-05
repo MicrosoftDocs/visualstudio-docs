@@ -9,8 +9,8 @@ helpviewer_keywords:
   - "solutions, user options"
   - "solution user options (.suo) file"
 ms.assetid: 75258e0d-600d-4a3d-94f4-3d7ac12cb47c
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -30,6 +30,6 @@ The solution user options (.suo) file contains per-user solution options. This f
 
  These two methods, `SaveUserOptions` and `WriteUserOptions`, are called recursively for each stream of information to be saved to the .suo file, passing in the pointer to `IVsSolutionPersistence`. They are called recursively to allow for the writing of multiple streams to the .suo file. In that way, user information is persisted with the solution and is guaranteed to be there the next time the solution is opened.
 
-## See Also
+## See also
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsPersistSolutionOpts>
 - [Solutions](../../extensibility/internals/solutions-overview.md)

@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "CONTEXT_COMPARE enumeration"
 ms.assetid: 701ed61c-a320-4c20-a335-0b840024abc0
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

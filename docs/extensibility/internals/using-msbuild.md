@@ -7,8 +7,8 @@ helpviewer_keywords:
   - "MSBuild, extensibility"
   - "packages, compiling with MSBuild"
 ms.assetid: 9d38c388-1f64-430e-8f6c-e88bc99a4260
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -47,7 +47,7 @@ MSBuild supplies a well-defined, extensible XML format for creating project file
 #### Single File Generators vs. MSBuild Tasks
  Single file generators are accessible at design-time only, but MSBuild tasks can be used at design-time and build-time. For maximum flexibility, therefore, use MSBuild tasks to transform and generate code. For more information, see [Custom Tools](../../extensibility/internals/custom-tools.md).
 
-## See Also
+## See also
 - [MSBuild Reference](../../msbuild/msbuild-reference.md)
 - [MSBuild](../../msbuild/msbuild.md)
 - [Custom Tools](../../extensibility/internals/custom-tools.md)

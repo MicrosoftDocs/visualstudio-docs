@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugProperty2::GetSize"
 ms.assetid: 0deb8ec5-d6fb-4622-bb14-0c46b9459cc6
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -34,9 +34,8 @@ int GetSize ( 
 ```
 
 ## Parameters
- `pdwSize`\
-
- [out] Returns the size, in bytes, of the property value.
+`pdwSize`\
+[out] Returns the size, in bytes, of the property value.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise returns error code. Returns `S_GETSIZE_NO_SIZE` if the property has no size.

@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Creating a Custom Installer for a ClickOnce Application | Microsoft Docs"
+title: "Create custom installer for ClickOnce application"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs:
@@ -30,7 +30,7 @@ Any ClickOnce application based on an *.exe* file can be silently installed and 
 
 2. Add a new class to your application and specify any name. This walkthrough uses the name `MyInstaller`.
 
-3. Add the following `Imports` or `using` statements to the top of your new class.
+3. Add the following `Imports` or `using` directives to the top of your new class.
 
     ```vb
     Imports System.Deployment.Application

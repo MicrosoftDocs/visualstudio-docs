@@ -1,11 +1,12 @@
 ---
-title: "Collecting Detailed Timing Data for Services by Using the Instrumentation Method from the Profiler Command Line | Microsoft Docs"
+title: "Profiler command line: Instrument to get service timing detail"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 ms.assetid: 6116e1df-ed3e-4b0d-ac7f-22f7d7ac00ea
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jillfra
+monikerRange: 'vs-2017'
 ms.workload:
   - "multiple"
 ---

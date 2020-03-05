@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "CONTEXT_INFO structure"
 ms.assetid: 6b513f4e-e7b0-4969-adf0-2205ccc1e09b
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

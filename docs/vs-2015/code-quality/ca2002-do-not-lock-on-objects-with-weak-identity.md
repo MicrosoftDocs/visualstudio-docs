@@ -12,8 +12,8 @@ helpviewer_keywords:
   - "DoNotLockOnObjectsWithWeakIdentity"
 ms.assetid: 16100b39-c6fc-452b-8fca-8b459a26c286
 caps.latest.revision: 18
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: "wpickett"
 ---
 # CA2002: Do not lock on objects with weak identity
@@ -66,5 +66,5 @@ manager: "wpickett"
 ## See Also
  <xref:System.Threading.Monitor>
  <xref:System.AppDomain>
- [lock Statement](http://msdn.microsoft.com/library/656da1a4-707e-4ef6-9c6e-6d13b646af42)
- [SyncLock Statement](http://msdn.microsoft.com/library/14501703-298f-4d43-b139-c4b6366af176)
+ [lock Statement](https://msdn.microsoft.com/library/656da1a4-707e-4ef6-9c6e-6d13b646af42)
+ [SyncLock Statement](https://msdn.microsoft.com/library/14501703-298f-4d43-b139-c4b6366af176)

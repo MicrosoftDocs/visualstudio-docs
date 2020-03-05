@@ -38,7 +38,7 @@ This error indicates that permission is denied. This can be caused by many diffe
 
 Take these steps:
 
-* Verify that your Visual Studio account has a valid Azure subscription with the necessary Role-Based Access Control (RBAC) permissions for the resource. For AppService, check if you have permissions to [query](https://docs.microsoft.com/rest/api/appservice/appserviceplans/get) the App Service Plan hosting your app.
+* Verify that your Visual Studio account has a valid Azure subscription with the necessary Role-Based Access Control (RBAC) permissions for the resource. For AppService, check if you have permissions to [query](/rest/api/appservice/appserviceplans/get) the App Service Plan hosting your app.
 * Verify the timestamp of your client machine is correct and up-to-date. Servers with timestamps off by more than 15 minutes of the request timestamp usually produce this error.
 * If this error continues to persist, use one of the feedback channels described in the beginning of this article.
 
@@ -50,6 +50,7 @@ Take these steps:
 
 * Verify that you have a website deployed and running on the App Service resource that you're attaching to.
 * Verify that the site is available at https://\<resource\>.azurewebsites.net
+* Verify that your properly running custom web application does not return a status code of 404 when accessed at https://\<resource\>.azurewebsites.net
 * If this error continues to persist, use one of the feedback channels described in the beginning of this article.
 
 ### (406) Not Acceptable
@@ -82,7 +83,7 @@ Take these steps:
 
 ### (500) Internal Server Error
 
-This error indicates that the site is completely down or the server cannot handle the request. Snapshot Debugger only functions on running applications. [Application Insights Snapshot Debugger](https://docs.microsoft.com/azure/azure-monitor/app/snapshot-debugger) provides snapshotting on exceptions and may be the best tool for your needs.
+This error indicates that the site is completely down or the server cannot handle the request. Snapshot Debugger only functions on running applications. [Application Insights Snapshot Debugger](/azure/azure-monitor/app/snapshot-debugger) provides snapshotting on exceptions and may be the best tool for your needs.
 
 ### (502) Bad Gateway
 
@@ -184,7 +185,7 @@ Agent logs can be found in the following locations:
 Instrumentation logs can be found in the following locations:
 
 - App Services:
-  - Error logging is automatically sent to D:\Home\LogFiles\eventlog.xml, events are marked with <<Provider Name="Instrumentation Engine" //>> or "Production Breakpoints"
+  - Error logging is automatically sent to D:\Home\LogFiles\eventlog.xml, events are marked with `<Provider Name="Instrumentation Engine" />` or "Production Breakpoints"
 - VM/VMSS:
   - Sign in to your VM and open Event Viewer.
   - Open the following view: *Windows Logs>Application*.
@@ -214,7 +215,7 @@ Snapshot Debugging and Application Insights depend on an ICorProfiler, which loa
 
 ## See also
 
-- [Debugging in Visual Studio](../debugger/index.md)
+- [Debugging in Visual Studio](../debugger/index.yml)
 - [Debug live ASP.NET apps using the Snapshot Debugger](../debugger/debug-live-azure-applications.md)
 - [Debug live ASP.NET Azure Virtual Machines\Virtual Machines Scale Sets using the Snapshot Debugger](../debugger/debug-live-azure-virtual-machines.md)
 - [Debug live ASP.NET Azure Kubernetes using the Snapshot Debugger](../debugger/debug-live-azure-kubernetes.md)

@@ -15,7 +15,7 @@ ms.author: "mikejo"
 manager: "ghogen"
 ---
 # IRemoteDebugApplication110::GetMainThread
-Returns the main thread for hosts that call [SetSite](http://go.microsoft.com/fwlink/?LinkId=232439), otherwise returns E_FAIL.  
+Returns the main thread for hosts that call [SetSite](/windows/win32/api/ocidl/nf-ocidl-iobjectwithsite-setsite), otherwise returns E_FAIL.  
   
 > [!IMPORTANT]
 > [IRemoteDebugApplication Interface](../../winscript/reference/iremotedebugapplication-interface.md) is implemented by PDM v11.0 and greater. Found in activdbg100.h.  
@@ -30,6 +30,6 @@ HRESULT GetMainThread([out] IRemoteDebugApplicationThread **ppThread);
  `ppThread`  
  [out] The main [IRemoteDebugApplicationThread Interface](../../winscript/reference/iremotedebugapplicationthread-interface.md).  
   
-## See Also  
+## See also  
  [IRemoteDebugApplication Interface](../../winscript/reference/iremotedebugapplication-interface.md)   
  [IRemoteDebugApplication110 Interface](../../winscript/reference/iremotedebugapplication110-interface.md)

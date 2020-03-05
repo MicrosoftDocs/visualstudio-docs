@@ -1,5 +1,5 @@
 ---
-title: "How to: Deploy, Publish, and Upgrade SharePoint Solutions on a Remote Server | Microsoft Docs"
+title: "Deploy, publish, & upgrade SharePoint solutions remotely"
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -29,7 +29,7 @@ ms.workload:
 
 4. Choose the **Publish** button.
 
-5. Log on to the remote server if user authentication is required.
+5. Sign in to the remote server if user authentication is required.
 
      The publishing progress appears in the Visual Studio **Output** window. When the process is finished, the solution (*.wsp*) file is installed on the remote SharePoint server. However, it must still be activated before it can be used in SharePoint.
 
@@ -56,7 +56,7 @@ ms.workload:
 
 7. Choose the **Publish** button.
 
-8. Log on to the remote server if user authentication is required.
+8. Sign in to the remote server if user authentication is required.
 
      If you logged in to the remote server recently, authentication may not be required.
 

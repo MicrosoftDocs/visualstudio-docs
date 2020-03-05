@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "nested projects, implementing"
   - "projects [Visual Studio SDK], nesting"
 ms.assetid: d20b8d6a-f0e0-4115-b3a3-edda893ae678
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

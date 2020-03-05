@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "SccDirQueryInfo function"
 ms.assetid: 459e2d99-573d-47c4-b834-6d82c5e14162
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

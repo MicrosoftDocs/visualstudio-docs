@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugBinder3::GetEEService method"
 ms.assetid: eb07aa40-8cd9-4a52-a4c7-4affd2307a01
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -40,21 +40,17 @@ Int GetEEService(
 ```
 
 ## Parameters
- `vendor`\
+`vendor`\
+[in] `GUID` of a vendor (a null value is acceptable).
 
- [in] `GUID` of a vendor (a null value is acceptable).
+`language`\
+[in] `GUID` of a language (a null value is acceptable).
 
- `language`\
+`iid`\
+[in] `IID` of the service to obtain.
 
- [in] `GUID` of a language (a null value is acceptable).
-
- `iid`\
-
- [in] `IID` of the service to obtain.
-
- `ppService`\
-
- [out] An interface to the requested service.
+`ppService`\
+[out] An interface to the requested service.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

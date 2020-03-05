@@ -7,8 +7,8 @@ helpviewer_keywords:
   - "interop assemblies, Visual Studio"
   - "managed VSPackages, interop assemblies"
 ms.assetid: 1043eb95-4f0d-4861-be21-2a25395b3b3c
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -124,5 +124,5 @@ else
 
  Managed methods that call interfaces of this type should pull the first element out of the [out] array. This element can be treated as if it were a `retval` return value from the corresponding COM interface.
 
-## See Also
+## See also
 - [Interoperating with Unmanaged Code](/dotnet/framework/interop/index)

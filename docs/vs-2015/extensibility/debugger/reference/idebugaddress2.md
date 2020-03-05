@@ -28,7 +28,7 @@ IDebugAddress2 : IDebugAddress
  A symbol provider implements this interface on the same object that implements the [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md) interface. This interface provides access to the ID of the process that owns the object that is related to this address.  
   
 ## Notes for Callers  
- Use [QueryInterface](http://msdn.microsoft.com/library/62fce95e-aafa-4187-b50b-e6611b74c3b3) to obtain this interface from the [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md) interface.  
+ Use [QueryInterface](https://msdn.microsoft.com/library/62fce95e-aafa-4187-b50b-e6611b74c3b3) to obtain this interface from the [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md) interface.  
   
 ## Methods in vtable Order  
  In addition to the methods inherited from the [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md) interface, this interface implements the following method:  

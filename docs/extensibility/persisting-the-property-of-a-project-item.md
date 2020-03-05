@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "properties, adding to a project item"
   - "project items, adding properties"
 ms.assetid: d7a0f2b0-d427-4d49-9536-54edfb37c0f3
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

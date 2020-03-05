@@ -5,8 +5,8 @@ ms.topic: "conceptual"
 helpviewer_keywords:
   - "editors [Visual Studio SDK], custom - syntax coloring"
 ms.assetid: 74900b9a-baef-432a-8231-4568fb5e19ad
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -46,9 +46,9 @@ Visual Studio Environment SDK editors, including the core editor, use language s
 3. Use the colorization information returned by <xref:Microsoft.VisualStudio.TextManager.Interop.IVsColorizer.ColorizeLine%2A> to repaint and display its text.
 
 > [!NOTE]
-> In addition to using a language service's colorizer, a VSPackage can choose to use the general-purpose Visual Studio Environment SDK text-coloring mechanism. For more information on this mechanism, see [Using Fonts and Colors](../extensibility/using-fonts-and-colors.md).
+> In addition to using a language service's colorizer, a VSPackage can choose to use the general-purpose Visual Studio Environment SDK text-coloring mechanism. For more information on this mechanism, see [Using Fonts and Colors](/visualstudio/extensibility/using-fonts-and-colors?view=vs-2015).
 
-## See Also
+## See also
 
 - [Syntax Coloring in a Legacy Language Service](../extensibility/internals/syntax-coloring-in-a-legacy-language-service.md)
 - [Implementing Syntax Coloring](../extensibility/internals/implementing-syntax-coloring.md)

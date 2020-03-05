@@ -2,10 +2,10 @@
 title: "Measure memory usage in your apps"
 description: "Find memory leaks and inefficient memory while you're debugging with the debugger-integrated diagnostic tool."
 ms.custom: "seodec18"
-ms.date: "04/25/2018"
-ms.topic: "tutorial"
-author: "mikejo5000"
-ms.author: "mikejo"
+ms.date: 04/25/2018
+ms.topic: tutorial
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ms.workload:
   - "multiple"
@@ -23,7 +23,7 @@ Although you can collect memory snapshots at any time in the **Memory Usage** to
 You can also use the memory tool outside of the debugger. See [Memory Usage without debugging](../profiling/memory-usage-without-debugging2.md). You can use the profiling tools with no debugger attached with Windows 7 and later. Windows 8 and later is required to run profiling tools with the debugger (**Diagnostic Tools** window).
 
 > [!NOTE]
-> **Custom Allocator Support** The native memory profiler works by collecting allocation [ETW](/windows-hardware/drivers/devtest/event-tracing-for-windows--etw-) event data emitted by during runtime.  Allocators in the CRT and Windows SDK have been annotated at the source level so that their allocation data can be captured.  If you are writing your own allocators, then any functions that return a pointer to newly allocated heap memory can be decorated with [__declspec](/cpp/cpp/declspec)(allocator), as seen in this example for myMalloc:
+> **Custom Allocator Support** The native memory profiler works by collecting allocation [ETW](/windows-hardware/drivers/devtest/event-tracing-for-windows--etw-) event data emitted during run time.  Allocators in the CRT and Windows SDK have been annotated at the source level so that their allocation data can be captured. If you are writing your own allocators, then any functions that return a pointer to newly allocated heap memory can be decorated with [__declspec](/cpp/cpp/declspec)(allocator), as seen in this example for myMalloc:
 >
 > `__declspec(allocator) void* myMalloc(size_t size)`
 
@@ -113,9 +113,9 @@ To analyze memory usage, click one of the links that opens up a detailed report 
 
  The **Paths to Root** tree in the bottom pane displays the objects that reference the type selected in the upper pane. The .NET Framework garbage collector cleans up the memory for an object only when the last type that references it has been released.
 
- The **Referenced Types** tree displays the references that are held by the type selected in the upper pane.
+ The **Referenced Objects** tree displays the references that are held by the type selected in the upper pane.
 
- ![Managed referenced types report view](../profiling/media/dbgdiag_mem_managedtypesreport_referencedtypes.png "DBGDIAG_MEM_ManagedTypesReport_ReferencedTypes")
+ ![Managed referenced objects report view](../profiling/media/dbgdiag_mem_managedtypesreport_referencedtypes.png "DBGDIAG_MEM_ManagedTypesReport_ReferencedTypes")
 
  To display the instances of a selected type in the upper pane, choose the ![Instance icon](../profiling/media/dbgdiag_mem_instanceicon.png "DBGDIAG_MEM_InstanceIcon") icon.
 

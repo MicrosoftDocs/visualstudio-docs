@@ -28,5 +28,5 @@ HRESULT RestrictDBGAccess();
 ## Remarks
  Any return value other than `S_OK` to prevent looking for debug information from .dbg files.
 
-## See Also
+## See also
 - [IDiaLoadCallback2](../../debugger/debug-interface-access/idialoadcallback2.md)

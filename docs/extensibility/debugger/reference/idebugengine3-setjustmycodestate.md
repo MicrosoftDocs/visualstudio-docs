@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugEngine3::SetJustMyCodeState"
 ms.assetid: 8ec17fbf-df93-424a-b2ed-fd1e5ee51256
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -38,17 +38,14 @@ int SetJustMyCodeState(
 ```
 
 ## Parameters
- `fUpdate`\
+`fUpdate`\
+[in] Nonzero (`TRUE`) to update current information, zero (`FALSE`) to reset all information (ignoring anything previously set).
 
- [in] Nonzero (`TRUE`) to update current information, zero (`FALSE`) to reset all information (ignoring anything previously set).
+`dwModules`\
+[in] Number of information structures in `rgJMCSpec.`
 
- `dwModules`\
-
- [in] Number of information structures in `rgJMCSpec.`
-
- `rgJMCSpec`\
-
- [in] Array of [JMC_CODE_SPEC](../../../extensibility/debugger/reference/jmc-code-spec.md) structures to use.
+`rgJMCSpec`\
+[in] Array of [JMC_CODE_SPEC](../../../extensibility/debugger/reference/jmc-code-spec.md) structures to use.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns error code.

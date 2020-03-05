@@ -11,8 +11,8 @@ f1_keywords:
   - "VS.DocumentOutline"
 ms.assetid: c54969a7-d75a-4a35-9b37-af7a596a7c24
 caps.latest.revision: 31
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # Creating a UI by using XAML Designer in Visual Studio
@@ -38,7 +38,7 @@ The XAML Designer in Visual Studio provides a visual interface to help you desig
  Snaplines are *alignment boundaries* that appear as red-dashed lines to show when the edges of controls are aligned, or when text baselines are aligned. Alignment boundaries appear only when **snapping to snaplines** is enabled.
 
  **Grid rails**
- `Grid` rails are used to manage rows and columns in a [Grid](http://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.controls.grid.aspx) panel. You can create and delete rows and columns, and you can adjust their relative widths and heights. The vertical Grid rail, which appears on the left of the artboard, is used for rows, and the horizontal line, which appears at the top, is used for columns.
+ `Grid` rails are used to manage rows and columns in a [Grid](https://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.controls.grid.aspx) panel. You can create and delete rows and columns, and you can adjust their relative widths and heights. The vertical Grid rail, which appears on the left of the artboard, is used for rows, and the horizontal line, which appears at the top, is used for columns.
 
  **Grid adorners**
  A `Grid` adorner appears as a triangle that has a vertical or horizontal line attached to it on the `Grid` rail. When you drag a `Grid` adorner, the widths or heights of adjacent columns or rows update as you move the mouse.
@@ -49,7 +49,7 @@ The XAML Designer in Visual Studio provides a visual interface to help you desig
  Resize handles appear on selected controls and enable you to resize the control. When you resize a control, width and height values typically appear to help you size the control. For more info about manipulating controls in Design view, see [Working with elements in XAML Designer](../designers/working-with-elements-in-xaml-designer.md).
 
  **Margins**
- Margins represent the amount of fixed space between the edge of a control and the edge of its container. You can set the margins of a control by using the [Margin](http://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.frameworkelement.margin.aspx) properties under **Layout** in the Properties window.
+ Margins represent the amount of fixed space between the edge of a control and the edge of its container. You can set the margins of a control by using the [Margin](https://msdn.microsoft.com/library/windows/apps/windows.ui.xaml.frameworkelement.margin.aspx) properties under **Layout** in the Properties window.
 
  **Margin adorners**
  You can use margin adorners to change the margins of an element relative to its layout container. When a margin adorner is open, a margin is not set and the margin adorner displays a broken chain. When the margin is not set, elements will remain in place when the layout container is resized at run time. When a margin adorner is closed, a margin adorner displays an unbroken chain, and elements will move with the margin as the layout container is resized at run time (the margin remains fixed).
@@ -153,7 +153,7 @@ The XAML Designer in Visual Studio provides a visual interface to help you desig
 
  ![Properties window](../designers/media/xaml-editor-prop-window.png "xaml_editor_prop_window")
 
- There are various options at the top of the Properties window. You can change the name of the currently selected element by using the **Name** box. In the upper-left corner, there's an icon that represents the currently selected element. To arrange the properties by category or alphabetically, click **Category**, **Name**, or **Source** in the **Arrange by** list. To see the list of events for a control, click the **Events** button, which displays a lightning bolt symbol. To search for a property, start to type the name of the property in the **Search Properties** box. The Properties window displays the properties that match your search as you type. Some properties allow you to set advanced properties by selecting a down arrow button. For more info on using properties and handling events, see [Quickstart: adding controls and handling events](http://go.microsoft.com/fwlink/?LinkID=247983)
+ There are various options at the top of the Properties window. You can change the name of the currently selected element by using the **Name** box. In the upper-left corner, there's an icon that represents the currently selected element. To arrange the properties by category or alphabetically, click **Category**, **Name**, or **Source** in the **Arrange by** list. To see the list of events for a control, click the **Events** button, which displays a lightning bolt symbol. To search for a property, start to type the name of the property in the **Search Properties** box. The Properties window displays the properties that match your search as you type. Some properties allow you to set advanced properties by selecting a down arrow button. For more info on using properties and handling events, see [Quickstart: adding controls and handling events](https://msdn.microsoft.com/library/windows/apps/xaml/hh465336.aspx)
 
  To the right of each property value is a *property marker* that appears as a box symbol. The appearance of the property marker indicates whether there's a data binding or a resource applied to the property. For example, a white box symbol indicates a default value, a black box symbol typically indicates that a local resource has been applied, and an orange box typically indicates a data binding has been applied. When you click the property marker, you can navigate to the definition of a style, open the data binding builder, or open the resource picker.
 

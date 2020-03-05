@@ -40,7 +40,7 @@ manager: jillfra
      When a temporary PE is compiled, the only source file provided to the compiler is the custom tool output. Therefore, a custom tool that uses a temporary PE must generate output files that can be compiled independently of other files in the project.  
   
 ## See Also  
- [Introduction to the BuildManager Object](http://msdn.microsoft.com/50080ec2-c1c9-412c-98ef-18d7f895e7fa)   
+ [Introduction to the BuildManager Object](https://msdn.microsoft.com/50080ec2-c1c9-412c-98ef-18d7f895e7fa)   
  [Implementing Single-File Generators](../../extensibility/internals/implementing-single-file-generators.md)   
  [Determining the Default Namespace of a Project](../../misc/determining-the-default-namespace-of-a-project.md)   
  [Registering Single File Generators](../../extensibility/internals/registering-single-file-generators.md)

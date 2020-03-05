@@ -3,14 +3,14 @@ title: Code analysis rule sets
 ms.date: 04/02/2018
 ms.topic: conceptual
 f1_keywords:
-  - "vs.codeanalysis.rulesets.learnmore"
+- vs.codeanalysis.rulesets.learnmore
 helpviewer_keywords:
-  - "code analysis, rule sets"
-author: gewarren
-ms.author: gewarren
+- code analysis, rule sets
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Use rule sets to group code analysis rules
 
@@ -18,7 +18,7 @@ When you configure code analysis in Visual Studio, you can choose from a list of
 
 You can customize a rule set by adding or deleting rules or by changing rule severities to appear as either warnings or errors in the **Error List**. Customized rule sets can fulfill a need for your particular development environment. When you customize a rule set, the rule set editor provides search and filtering tools to help you in the process.
 
-Rule sets are available for [static analysis of managed code](how-to-configure-code-analysis-for-a-managed-code-project.md), [analysis of C++ code](using-rule-sets-to-specify-the-cpp-rules-to-run.md), and [Roslyn analyzers](analyzer-rule-sets.md).
+Rule sets are available for [managed code analysis](analyzer-rule-sets.md), [legacy analysis of managed code](how-to-configure-code-analysis-for-a-managed-code-project.md), and [C++ code analysis](/cpp/code-quality/using-rule-sets-to-specify-the-cpp-rules-to-run).
 
 ## Rule set format
 

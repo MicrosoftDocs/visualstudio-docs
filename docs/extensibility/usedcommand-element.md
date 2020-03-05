@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "UsedCommands element (VSCT XML schema)"
   - "VSCT XML schema elements, UsedCommands"
 ms.assetid: 99cd05d3-644a-42ff-b289-8458cd1b20c0
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -57,6 +57,6 @@ Enables a VSPackage to access a command that is defined in another .vsct file. F
 </UsedCommands>
 ```
 
-## See Also
+## See also
 - [UsedCommands Element](../extensibility/usedcommands-element.md)
 - [Visual Studio Command Table (.Vsct) Files](../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)

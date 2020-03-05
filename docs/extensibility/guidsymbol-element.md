@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "VSCT XML schema elements, GuidSymbol"
   - "GuidSymbol element (VSCT XML schema)"
 ms.assetid: 11fb3545-8974-4776-9a54-6b6e7739ae31
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

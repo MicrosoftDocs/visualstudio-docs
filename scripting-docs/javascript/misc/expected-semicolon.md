@@ -26,5 +26,5 @@ You attempted to place more than one statement on a line, but did not separate t
   
 - Make sure you did not forget the semicolons inside the header of a **for** loop.  
   
-## See Also  
+## See also  
  [Writing JavaScript Code](../../javascript/writing-javascript-code.md)

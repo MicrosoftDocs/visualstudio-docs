@@ -1,10 +1,11 @@
 ---
-title: "How to: Filter Profiling Tools Report Views to Display Just My Code | Microsoft Docs"
+title: "Filter profiling tools report views to display Just My Code"
 ms.date: "02/15/2018"
 ms.topic: "conceptual"
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jillfra
+monikerRange: 'vs-2017'
 ms.workload:
   - "multiple"
 ---

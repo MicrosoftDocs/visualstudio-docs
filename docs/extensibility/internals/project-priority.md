@@ -5,8 +5,8 @@ ms.topic: "conceptual"
 helpviewer_keywords:
   - "projects [Visual Studio SDK], opening items"
 ms.assetid: 9f707592-2fb6-4f75-9269-f6d4700a998e
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -26,7 +26,7 @@ A project item usually is a member of only one project in the solution. Therefor
 
 - The project that specifies the highest priority is given the context to open the document. If two projects return equal priority values, the active project is preferred. If no project in the solution responds that it can open the document, the IDE puts the document in the Miscellaneous Files project. For more information, see [Miscellaneous Files Project](../../extensibility/internals/miscellaneous-files-project.md).
 
-## See Also
+## See also
 - [Miscellaneous Files Project](../../extensibility/internals/miscellaneous-files-project.md)
 - [How to: Open Editors for Open Documents](../../extensibility/how-to-open-editors-for-open-documents.md)
 - [Adding Project and Project Item Templates](../../extensibility/internals/adding-project-and-project-item-templates.md)

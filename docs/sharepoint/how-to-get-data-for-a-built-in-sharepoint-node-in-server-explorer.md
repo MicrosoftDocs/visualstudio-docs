@@ -1,5 +1,5 @@
 ---
-title: "How to: Get Data for a Built-In SharePoint Node in Server Explorer | Microsoft Docs"
+title: "Get data for built-in SharePoint node in Server Explorer"
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:

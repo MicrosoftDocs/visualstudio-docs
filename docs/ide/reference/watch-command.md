@@ -3,16 +3,16 @@ title: Watch Command
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "debug.watch"
+- debug.watch
 helpviewer_keywords:
-  - "Watch command"
-  - "Debug.Watch command"
+- Watch command
+- Debug.Watch command
 ms.assetid: aa02e647-d9f5-4905-a651-52a8df595795
-author: gewarren
-ms.author: gewarren
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Watch Command
 Creates and opens a specified instance of a **Watch** window. You can use a **Watch** window to calculate the values of variables, expressions, and registers, to edit these values, and to save the results.
@@ -24,12 +24,13 @@ Debug.Watch[index]
 ```
 
 ## Arguments
- `index`
 
- Required. The instance number of the watch window.
+`index`\
+Required. The instance number of the watch window.
 
 ## Remarks
- The `index` must be an integer. Valid values are 1, 2, 3, or 4.
+
+The `index` must be an integer. Valid values are 1, 2, 3, or 4.
 
 ## Example
 
@@ -37,7 +38,7 @@ Debug.Watch[index]
 >Debug.Watch1
 ```
 
-## See Also
+## See also
 
 - [Autos and Locals Windows](../../debugger/autos-and-locals-windows.md)
 - [Set a Watch on Variables using the Watch and QuickWatch Windows in Visual Studio](../../debugger/watch-and-quickwatch-windows.md)

@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "TypeArgumentCount"
   - "IDebugGenericFieldInstance::TypeArgumentCount"
 ms.assetid: e662c5ea-a5c1-478e-a268-5980dadffcd1
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -33,9 +33,8 @@ int TypeArgumentCount(
 ```
 
 ## Parameters
- `pcArgs`\
-
- [in, out] Number of type parameter arguments for this instance.
+`pcArgs`\
+[in, out] Number of type parameter arguments for this instance.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

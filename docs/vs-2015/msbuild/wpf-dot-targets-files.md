@@ -27,4 +27,4 @@ manager: jillfra
 ## See Also  
  [.Targets Files](../msbuild/msbuild-dot-targets-files.md)   
  [MSBuild Reference](../msbuild/msbuild-reference.md)   
- [Building a WPF Application (WPF)](http://msdn.microsoft.com/library/a58696fd-bdad-4b55-9759-136dfdf8b91c)
+ [Building a WPF Application (WPF)](https://msdn.microsoft.com/library/a58696fd-bdad-4b55-9759-136dfdf8b91c)

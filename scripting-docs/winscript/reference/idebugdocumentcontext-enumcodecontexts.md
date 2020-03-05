@@ -43,5 +43,5 @@ HRESULT EnumCodeContexts(
 ## Remarks  
  A document is usually associated with only one code context, unless the document is an include file or a template.  
   
-## See Also  
+## See also  
  [IDebugDocumentContext Interface](../../winscript/reference/idebugdocumentcontext-interface.md)

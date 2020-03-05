@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "SccDiff function"
 ms.assetid: d49bc8c5-f631-4153-9d3c-feb3564da305
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugStackFrame2::GetDocumentContext"
 ms.assetid: 69e81439-1238-4f18-9028-6fd1c1ba5e4a
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -34,9 +34,8 @@ int GetDocumentContext ( 
 ```
 
 ## Parameters
- `ppCxt`\
-
- [out] Returns an [IDebugDocumentContext2](../../../extensibility/debugger/reference/idebugdocumentcontext2.md) object that represents the current position in a source document.
+`ppCxt`\
+[out] Returns an [IDebugDocumentContext2](../../../extensibility/debugger/reference/idebugdocumentcontext2.md) object that represents the current position in a source document.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

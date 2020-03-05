@@ -3,25 +3,25 @@ title: Task List, Environment, Options Dialog Box
 ms.date: 03/28/2019
 ms.topic: reference
 f1_keywords:
-  - "VS.ToolsOptionsPages.Environment.Task_List"
-  - "VS.ToolsOptionsPages.Environment.TaskList"
-  - "VS.Environment.Task List"
+- VS.ToolsOptionsPages.Environment.Task_List
+- VS.ToolsOptionsPages.Environment.TaskList
+- VS.Environment.Task List
 helpviewer_keywords:
-  - "Token List"
-  - "tokens"
-  - "icons, in Task List"
-  - "Task List, customizing environment"
-  - "Options dialog box, Task List environment"
-  - "exclamation points"
-  - "comments, comment tasks in Task List"
-  - "tokens, and the Task List"
-  - "Task List, comment tasks"
+- Token List
+- tokens
+- icons, in Task List
+- Task List, customizing environment
+- Options dialog box, Task List environment
+- exclamation points
+- comments, comment tasks in Task List
+- tokens, and the Task List
+- Task List, comment tasks
 ms.assetid: 88327e04-fa3e-48db-995b-ad89e0dc4ed2
-author: gewarren
-ms.author: gewarren
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Options dialog box: Environment \> Task List
 
@@ -57,6 +57,5 @@ Click to make changes to an existing token using the values entered in the **Nam
 
 ## See also
 
-- [Using the Task List](../../ide/using-the-task-list.md)
-- [Setting Bookmarks in Code](../../ide/setting-bookmarks-in-code.md)
-- [Environment Options Dialog Box](../../ide/reference/environment-options-dialog-box.md)
+- [Use the Task List](../../ide/using-the-task-list.md)
+- [Sett Bookmarks in Code](../../ide/setting-bookmarks-in-code.md)

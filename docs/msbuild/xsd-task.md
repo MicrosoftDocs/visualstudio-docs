@@ -1,33 +1,35 @@
 ---
-title: "XSD Task | Microsoft Docs"
-ms.date: "06/27/2018"
-ms.topic: "reference"
+title: XSD Task | Microsoft Docs
+ms.date: 06/27/2018
+ms.topic: reference
 f1_keywords:
-  - "vc.task.xsd"
-  - "VC.Project.VCXMLDataGeneratorTool.Namespace"
-  - "VC.Project.VCXMLDataGeneratorTool.GenerateFromSchema"
+- vc.task.xsd
+- VC.Project.VCXMLDataGeneratorTool.Namespace
+- VC.Project.VCXMLDataGeneratorTool.GenerateFromSchema
 dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
+- VB
+- CSharp
+- C++
+- jsharp
 helpviewer_keywords:
-  - "XSD task (MSBuild (Visual C++))"
-  - "MSBuild (Visual C++), XSD task"
+- XSD task (MSBuild (C++))
+- MSBuild (C++), XSD task
 ms.assetid: 15c99f5c-7124-4bbc-bc03-70c7bcce8893
-author: mikejo5000
-ms.author: mikejo
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # XSD task
+
 Wraps the XML Schema Definition tool (*xsd.exe*), which generates schema or class files from a source.
 
 > [!NOTE]
 > Starting in Visual Studio 2017, C++ project support for *xsd.exe* is deprecated. You can still use the **Microsoft.VisualC.CppCodeProvider** APIs by manually adding *CppCodeProvider.dll* to the GAC.
 
 ## Parameters
+
  The following table describes the parameters of the **XSD** task.
 
 - **AdditionalOptions**
@@ -38,15 +40,15 @@ Wraps the XML Schema Definition tool (*xsd.exe*), which generates schema or clas
 
 - **GenerateFromSchema**
 
-     Optional **String** parameter.
+  Optional **String** parameter.
 
-     Specifies the types that are generated from the specified schema.
+  Specifies the types that are generated from the specified schema.
 
-     Specify one of the following values, each of which corresponds to an XSD option.
+  Specify one of the following values, each of which corresponds to an XSD option.
 
-    - **classes** - **/classes**
+  - **classes** - **/classes**
 
-    - **dataset** - **/dataset**
+  - **dataset** - **/dataset**
 
 - **Language**
 
@@ -81,4 +83,5 @@ Wraps the XML Schema Definition tool (*xsd.exe*), which generates schema or clas
      Specifies the directory for the tracker log.
 
 ## See also
+
 - [Task reference](../msbuild/msbuild-task-reference.md)

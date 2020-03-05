@@ -5,8 +5,8 @@ ms.topic: "conceptual"
 helpviewer_keywords:
   - "project files, persisting data in"
 ms.assetid: 6a920cb7-453d-4ffd-af1c-6f3084bd03f7
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -70,5 +70,5 @@ A project subtype may need to persist subtype-specific data into the project fil
       </ProjectExtensions>
     ```
 
-## See Also
+## See also
 - [Project Subtypes](../../extensibility/internals/project-subtypes.md)

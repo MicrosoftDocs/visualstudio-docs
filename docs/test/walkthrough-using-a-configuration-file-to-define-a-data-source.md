@@ -1,16 +1,16 @@
 ---
-title: "Walkthrough: Using a Configuration File to Define a Data Source"
+title: Use config file to define data source
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "configuration files [Visual Studio ALM], defining data sources"
-  - "unit tests, walkthrough"
-  - "data sources, defining with configuration files"
-author: gewarren
-ms.author: gewarren
+- configuration files [Visual Studio ALM], defining data sources
+- unit tests, walkthrough
+- data sources, defining with configuration files
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Walkthrough: Using a configuration file to define a data source
 
@@ -65,7 +65,7 @@ The **section** element should look similar to this:
 ```
 
 > [!NOTE]
-> The assembly name must match the Microsoft Visual Studio .NET Framework build that you are using.
+> The assembly name must match the version that you are using.
 
 ## Define connection strings
 
@@ -159,7 +159,7 @@ The final *app.config* file should look similar to this:
 <?xml version="1.0" encoding="utf-8" ?>
 <configuration>
     <configSections>
-        <section name="microsoft.visualstudio.testtools" type="Microsoft.VisualStudio.TestTools.UnitTesting.TestConfigurationSection, Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"/>
+        <section name="microsoft.visualstudio.testtools" type="Microsoft.VisualStudio.TestTools.UnitTesting.TestConfigurationSection, Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions" />
     </configSections>
     <connectionStrings>
         <add name="MyJetConn" connectionString="Provider=Microsoft.Jet.OLEDB.4.0; Data Source=C:\testdatasource.accdb; Persist Security Info=False;" providerName="System.Data.OleDb" />

@@ -17,7 +17,7 @@ manager: jillfra
 
 Integrating your VSPackage into [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] requires more than just copying files to a user's computer. Your VSPackage's installer must install the VSPackage and its dependent files, and register and integrate them into [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)]. Your VSPackage can take advantage of integration features such as displaying an icon on the [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] splash screen and About dialog box.  
   
- Microsoft Windows Installer files are the recommended way to distribute your VSPackages. Easy-to-use Windows Installer packages can run on any Windows operating system supported by [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)]. For more information, see [Windows Installer](http://msdn.microsoft.com/121be21b-b916-43e2-8f10-8b080516d2a0).  
+ Microsoft Windows Installer files are the recommended way to distribute your VSPackages. Easy-to-use Windows Installer packages can run on any Windows operating system supported by [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)]. For more information, see [Windows Installer](https://msdn.microsoft.com/121be21b-b916-43e2-8f10-8b080516d2a0).  
   
 ## In This Section  
  [Windows Installer Basics](../../extensibility/internals/windows-installer-basics.md)  

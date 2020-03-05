@@ -90,7 +90,7 @@ For more information on remote deployment of UWP apps, see [Deploy and debug UWP
 
 ## See also
 
-- [Debugging in Visual Studio](../debugger/index.md)
+- [Debugging in Visual Studio](../debugger/index.yml)
 - [First look at the debugger](../debugger/debugger-feature-tour.md)
 - [Remote debugging](../debugger/remote-debugging.md)
 - [Configure the Windows Firewall for remote debugging](../debugger/configure-the-windows-firewall-for-remote-debugging.md)

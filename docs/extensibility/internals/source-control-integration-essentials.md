@@ -7,8 +7,8 @@ helpviewer_keywords:
   - "Source Control Integration,overview"
   - "essentials, Source Control Integration"
 ms.assetid: 442057cb-fd54-4283-96f8-2f6dc8bf2de7
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -44,7 +44,7 @@ ms.workload:
 
    For more information, see [Creating a Source Control VSPackage](../../extensibility/internals/creating-a-source-control-vspackage.md).
 
-## See Also
+## See also
 - [Overview](../../extensibility/internals/source-control-integration-overview.md)
 - [Creating a Source Control Plug-in](../../extensibility/internals/creating-a-source-control-plug-in.md)
 - [Creating a Source Control VSPackage](../../extensibility/internals/creating-a-source-control-vspackage.md)

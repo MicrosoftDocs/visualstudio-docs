@@ -1,13 +1,13 @@
 ---
-title: "How to: Create Custom Graphs in Load Test Results"
+title: 'How to: Create Custom Graphs in Load Test Results'
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "load test results graphs, creating"
-  - "load test results graphs"
+- load test results graphs, creating
+- load test results graphs
 ms.assetid: 17fcafce-76f9-4411-9389-6e5376eab236
-author: gewarren
-ms.author: gewarren
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ---
 # How to: Create custom graphs in load test results

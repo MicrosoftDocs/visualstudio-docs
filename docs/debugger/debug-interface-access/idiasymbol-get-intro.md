@@ -55,5 +55,5 @@ Both `A::f1` and `B::f1` are virtual functions, but `A::f1` is intro virtual.
 |Header:|dia2.h|
 |Version:|DIA SDK v7.0|
 
-## See Also
+## See also
 - [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)

@@ -5,8 +5,8 @@ ms.topic: "conceptual"
 helpviewer_keywords:
   - "VSCT files, manual authoring"
 ms.assetid: e9f715dc-12b7-439b-bdf3-f3dc75e62f1c
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -102,7 +102,7 @@ This document shows how to author a *.vsct* file to add menu items, toolbars, an
        > [!NOTE]
        > Toolbar buttons must have icons.
 
-   For more information, see [MenuCommands vs. OleMenuCommands](../../extensibility/menucommands-vs-olemenucommands.md).
+   For more information, see [MenuCommands vs. OleMenuCommands](/visualstudio/extensibility/menucommands-vs-olemenucommands?view=vs-2015).
 
 4. If any of your commands require icons, add a [Bitmaps](../../extensibility/bitmaps-element.md) element to the `Commands` element. Then, for each icon, add a [Bitmap](../../extensibility/bitmap-element.md) element to the `Bitmaps` element. This is where you specify the location of the bitmap resource. For more information, see [Add icons to menu commands](../../extensibility/adding-icons-to-menu-commands.md).
 

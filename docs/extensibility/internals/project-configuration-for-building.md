@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "projects [Visual Studio SDK], configuration for building"
   - "project configurations, building"
 ms.assetid: 2c83615d-fa4d-4b9f-b315-7a69b3000da0
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -51,7 +51,7 @@ Project dependencies
 
  In addition, you can provide a grid in the project dependencies window. For more information, see [Properties Display Grid](../../extensibility/internals/properties-display-grid.md).
 
-## See Also
+## See also
 - [Managing Configuration Options](../../extensibility/internals/managing-configuration-options.md)
 - [Project Configuration for Managing Deployment](../../extensibility/internals/project-configuration-for-managing-deployment.md)
 - [Project Configuration for Output](../../extensibility/internals/project-configuration-for-output.md)

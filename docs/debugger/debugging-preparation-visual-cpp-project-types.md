@@ -10,7 +10,7 @@ dev_langs:
   - "C++"
 helpviewer_keywords:
   - "project templates, debugging"
-  - "Visual C++ projects, debugging"
+  - "C++ projects, debugging"
   - "debug builds, project settings"
   - "debugging [C++]"
 ms.assetid: 912b4ba2-7719-43d5-b087-db33e3f9329a
@@ -20,7 +20,7 @@ manager: jillfra
 ms.workload:
   - "cplusplus"
 ---
-# Debugging Preparation: Visual C++ Project Types
+# Debugging Preparation: C++ Project Types
 This section describes how to debug the basic project types created by the [!INCLUDE[vcprvc](../code-quality/includes/vcprvc_md.md)] project templates.
 
  Note that those project types that create DLLs as their output have been grouped into [Debugging DLL Projects](../debugger/debugging-dll-projects.md) because of the common features they share.
@@ -37,7 +37,7 @@ This section describes how to debug the basic project types created by the [!INC
   [Windows Forms applications (.NET)](#BKMK_Windows_Forms_Applications___NET_)
 
 ## <a name="BKMK_Recommended_Property_Settings"></a> Recommended property settings
- Certain properties should be set the same way for all unmanaged debugging scenarios. The following tables display recommended property settings. Settings not listed here may vary among the different unmanaged project types. For more information, see [Project Settings for a C++ Debug Configuration](../debugger/project-settings-for-a-cpp-debug-configuration.md)
+ Certain properties should be set the same way for all unmanaged debugging scenarios. The following tables display recommended property settings. Settings not listed here may vary among the different unmanaged project types. For more information, see [Project Settings for a C++ Debug Configuration](../debugger/project-settings-for-a-cpp-debug-configuration.md).
 
 ### Configuration Properties &#124; C/C++ &#124; Optimization node
 
@@ -91,7 +91,7 @@ This section describes how to debug the basic project types created by the [!INC
    [In this topic](../debugger/debugging-preparation-visual-cpp-project-types.md#BKMK_In_this_topic)
 
 ## <a name="BKMK_Windows_Forms_Applications___NET_"></a> Windows Forms applications (.NET)
- The **Windows Forms Application (.NET)** template creates a [!INCLUDE[vcprvc](../code-quality/includes/vcprvc_md.md)] Windows Forms application. For more information, see [How to: Create a Windows Application Project](https://docs.microsoft.com/previous-versions/visualstudio/visual-studio-2010/42wc9kk5(v=vs.100)).
+ The **Windows Forms Application (.NET)** template creates a [!INCLUDE[vcprvc](../code-quality/includes/vcprvc_md.md)] Windows Forms application. For more information, see [How to: Create a Windows Application Project](/previous-versions/visualstudio/visual-studio-2010/42wc9kk5(v=vs.100)).
 
  Debugging this type of application in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] is similar to that in managed Windows Forms applications.
 
@@ -103,9 +103,9 @@ This section describes how to debug the basic project types created by the [!INC
 
  [In this topic](../debugger/debugging-preparation-visual-cpp-project-types.md#BKMK_In_this_topic)
 
-## See Also
+## See also
 - [First look at the debugger](../debugger/debugger-feature-tour.md)
 - [Project Settings for a C++ Debug Configuration](../debugger/project-settings-for-a-cpp-debug-configuration.md)
 - [Attaching to a Running Program or Multiple Programs](../debugger/attach-to-running-processes-with-the-visual-studio-debugger.md)
 - [Debug and Release Configurations](../debugger/how-to-set-debug-and-release-configurations.md)
-- [How to: Create a Windows Application Project](https://docs.microsoft.com/previous-versions/visualstudio/visual-studio-2010/42wc9kk5(v=vs.100))
+- [How to: Create a Windows Application Project](/previous-versions/visualstudio/visual-studio-2010/42wc9kk5(v=vs.100))

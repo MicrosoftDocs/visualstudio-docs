@@ -3,17 +3,17 @@ title: Create solutions and projects
 ms.date: 02/06/2018
 ms.topic: conceptual
 f1_keywords:
-  - "vs.openprojectfromweb"
-  - "VS.ToolsOptionsPages.Projects.General"
-  - "SolutionItemsProject"
+- vs.openprojectfromweb
+- VS.ToolsOptionsPages.Projects.General
+- SolutionItemsProject
 helpviewer_keywords:
-  - "solutions [Visual Studio], creating"
-  - "projects [Visual Studio], creating"
-author: gewarren
-ms.author: gewarren
+- solutions [Visual Studio], creating
+- projects [Visual Studio], creating
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Create solutions and projects
 
@@ -47,7 +47,7 @@ If you have a collection of code source files, you can easily add them to a proj
 1. In the wizard, browse to the location of the files and then enter a name for the new project in the **Name** box. When you are done, choose the **Finish** button.
 
 > [!NOTE]
-> This option works best for a relatively simple collection of files. Currently, only Visual C++, Apache Cordova, Visual Basic, and C# project types are supported.
+> This option works best for a relatively simple collection of files. Currently, only C++, Apache Cordova, Visual Basic, and C# project types are supported.
 
 ## Add files to a solution
 
@@ -55,11 +55,11 @@ If you have a file that applies to multiple projects, such as a readme file for 
 
 ## Create a .NET project that targets a specific version of the .NET Framework
 
-When you create a project, you can specify a specific version of the .NET Framework that you want the project to use.
+When you create a .NET Framework project, you can specify a specific version of the .NET Framework that you want the project to use. (When you create a .NET Core project, you don't specify a framework version.)
 
 ::: moniker range="vs-2017"
 
-To specify a .NET framework version, choose the **Framework** drop-down menu in the **New Project** dialog box.
+To specify a .NET Framework version, choose the **Framework** drop-down menu in the **New Project** dialog box.
 
 ![Framework drop-down in New Project dialog](./media/vside-newproject-framework.png)
 
@@ -70,7 +70,7 @@ To specify a .NET framework version, choose the **Framework** drop-down menu in 
 
 ::: moniker range=">=vs-2019"
 
-To specify a .NET framework version, choose the **Framework** drop-down menu on the **Create a new project** page.
+To specify a .NET Framework version, choose the **Framework** drop-down menu on the **Create a new project** page.
 
 ![Framework selector in configure new project](media/vs-2019/configure-new-project-framework.png)
 

@@ -34,7 +34,7 @@ A service is a contract between two VSPackages. One VSPackage provides a specifi
   
 - To support on-demand loading, a service provider registers its global services with [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)]. For more information, see [Registering Services](../../misc/registering-services.md).  
   
-- After you obtain a service, use [QueryInterface](http://msdn.microsoft.com/library/62fce95e-aafa-4187-b50b-e6611b74c3b3) (unmanaged code) or casting (managed code) to get the desired interface, for example:  
+- After you obtain a service, use [QueryInterface](https://msdn.microsoft.com/library/62fce95e-aafa-4187-b50b-e6611b74c3b3) (unmanaged code) or casting (managed code) to get the desired interface, for example:  
   
     ```vb  
     TryCast(GetService(GetType(SVsActivityLog)), IVsActivityLog)  
@@ -56,5 +56,5 @@ A service is a contract between two VSPackages. One VSPackage provides a specifi
 ## See Also  
  [List of Available Services](../../extensibility/internals/list-of-available-services.md)   
  [Using and Providing Services](../../extensibility/using-and-providing-services.md)   
- [Casting and Type Conversions](http://msdn.microsoft.com/library/568df58a-d292-4b55-93ba-601578722878)   
- [Casting](http://msdn.microsoft.com/library/3dbeb06e-2f4b-4693-832d-624bc8ec95de)
+ [Casting and Type Conversions](https://msdn.microsoft.com/library/568df58a-d292-4b55-93ba-601578722878)   
+ [Casting](https://msdn.microsoft.com/library/3dbeb06e-2f4b-4693-832d-624bc8ec95de)

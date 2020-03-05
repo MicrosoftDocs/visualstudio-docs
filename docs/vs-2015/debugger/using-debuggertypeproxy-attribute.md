@@ -51,7 +51,7 @@ DebuggerTypeProxyAttribute](assetId:///T:System.Diagnostics.DebuggerTypeProxyAtt
   
  If you use a generic type as a target in `DebuggerTypeProxy`, you must use this syntax. The `DebuggerTypeProxy` mechanism infers the type parameters for you.  
   
- For more information on open and closed types in C# see the [C# Language Specification](http://msdn.microsoft.com/library/e5d5a5cc-636b-4bff-b9c8-a8edc6207c22), section 20.5.2 Open and closed types.  
+ For more information on open and closed types in C# see the [C# Language Specification](https://msdn.microsoft.com/library/e5d5a5cc-636b-4bff-b9c8-a8edc6207c22), section 20.5.2 Open and closed types.  
   
  Visual Basic does not have open type syntax, so you cannot do the same thing in Visual Basic. Instead, you must use a string representation of the open type name.  
   
@@ -59,4 +59,4 @@ DebuggerTypeProxyAttribute](assetId:///T:System.Diagnostics.DebuggerTypeProxyAtt
   
 ## See Also  
  [Using the DebuggerDisplay Attribute](../debugger/using-the-debuggerdisplay-attribute.md)   
-  [Enhancing Debugging with the Debugger Display Attributes](http://msdn.microsoft.com/library/72bb7aa9-459b-42c4-9163-9312fab4c410)
+  [Enhancing Debugging with the Debugger Display Attributes](https://msdn.microsoft.com/library/72bb7aa9-459b-42c4-9163-9312fab4c410)

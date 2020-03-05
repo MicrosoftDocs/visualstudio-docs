@@ -5,8 +5,8 @@ ms.topic: "conceptual"
 helpviewer_keywords:
   - "file extensions, specifying file handlers"
 ms.assetid: e3de4730-a95c-465a-b3b2-92ca85364ad7
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -71,6 +71,6 @@ HKEY_CLASSES_ROOT\
 
  If the old ProgID has verbs associated with it, then these verbs will also appear under **Open With** *Product Name* in the shortcut menu.
 
-## See Also
+## See also
 - [About File Name Extensions](../extensibility/about-file-name-extensions.md)
 - [Registering Verbs for File Name Extensions](../extensibility/registering-verbs-for-file-name-extensions.md)

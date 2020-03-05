@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "IDSymbol element (VSCT XML schema)"
   - "VSCT XML schema elements, IDSymbol"
 ms.assetid: 760cfd20-3c06-422c-9103-98bfa1f387f8
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

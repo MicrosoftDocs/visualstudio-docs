@@ -40,6 +40,6 @@ You attempted to invoke a method or property on an object of a type other than `
     }  
     ```  
   
-## See Also  
+## See also  
  [Object Object](../../javascript/reference/object-object-javascript.md)   
  [Objects and Arrays](../../javascript/objects-and-arrays-javascript.md)

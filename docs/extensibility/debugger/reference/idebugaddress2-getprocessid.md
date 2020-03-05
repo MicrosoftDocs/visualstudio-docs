@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugAddress2::GetProcessID method"
 ms.assetid: 2c18889d-074a-4b95-87b4-bf1a067f44ed
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -34,9 +34,8 @@ int GetProcessID (
 ```
 
 ## Parameters
- `pProcID`\
-
- [out] The process ID.
+`pProcID`\
+[out] The process ID.
 
 ## Return Value
  If successful, returns S_OK; otherwise, returns an error code.

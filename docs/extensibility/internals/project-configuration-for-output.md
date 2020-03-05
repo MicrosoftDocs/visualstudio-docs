@@ -5,8 +5,8 @@ ms.topic: "conceptual"
 helpviewer_keywords:
   - "project configurations, output"
 ms.assetid: a4517f73-45af-4745-9d7f-9fddf887b636
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -38,7 +38,7 @@ Output groups
 
  For more information, see the implementation of `IVsOutputGroup` in the Custom Project sample at [MPF for Projects](https://github.com/tunnelvisionlabs/MPFProj10).
 
-## See Also
+## See also
 - [Managing Configuration Options](../../extensibility/internals/managing-configuration-options.md)
 - [Project Configuration for Building](../../extensibility/internals/project-configuration-for-building.md)
 - [Project Configuration Object](../../extensibility/internals/project-configuration-object.md)

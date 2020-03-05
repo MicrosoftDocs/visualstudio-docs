@@ -5,8 +5,8 @@ ms.topic: "conceptual"
 helpviewer_keywords:
   - "we site projects, templates"
 ms.assetid: 37173c97-486b-4b3c-8ed3-cf5890c4de23
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -178,5 +178,5 @@ ms.workload:
 
      The template file that determines the contents of the new master page and its dependent file, if any.
 
-## See Also
+## See also
 - [Web Site Support](../../extensibility/internals/web-site-support.md)

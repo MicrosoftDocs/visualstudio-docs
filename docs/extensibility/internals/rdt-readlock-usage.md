@@ -8,8 +8,8 @@ helpviewer_keywords:
   - "RDT_EditLock"
   - "invisible"
 ms.assetid: b935fc82-9d6b-4a8d-9b70-e9a5c5ad4a55
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

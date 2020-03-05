@@ -2,14 +2,14 @@
 title: Test a UWP app with a coded UI test
 ms.date: 05/31/2018
 ms.topic: conceptual
-author: gewarren
-ms.author: gewarren
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 dev_langs:
- - CSharp
- - VB
+- CSharp
+- VB
 ms.workload:
-  - "uwp"
+- uwp
 ---
 # Create a coded UI test to test a UWP app
 

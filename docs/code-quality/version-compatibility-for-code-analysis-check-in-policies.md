@@ -1,16 +1,16 @@
 ---
 title: Version Compatibility for Code Analysis Check-In Policies
 ms.date: 11/04/2016
-ms.topic: "conceptual"
+ms.topic: conceptual
 helpviewer_keywords:
-  - "version compatibility, code analysis check-in policy"
-  - "check-in policies, version compatibility for code analysis"
+- version compatibility, code analysis check-in policy
+- check-in policies, version compatibility for code analysis
 ms.assetid: 1af376e3-3be7-4445-803b-76a858567a5b
-author: gewarren
-ms.author: gewarren
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Version Compatibility for Code Analysis Check-In Policies
 

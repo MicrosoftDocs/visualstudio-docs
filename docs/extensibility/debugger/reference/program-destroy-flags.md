@@ -5,8 +5,8 @@ ms.topic: reference
 helpviewer_keywords:
   - "PROGRAM_DESTROY_FLAGS enumeration"
 ms.assetid: be00d4a3-d5b8-4159-b632-64577f534883
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -35,7 +35,7 @@ public enum enum_PPROGRAM_DESTROY_FLAGS
 ```
 
 ## Fields
- PROGRAM_DESTROY_CONTINUE_DEBUGGING
+ `PROGRAM_DESTROY_CONTINUE_DEBUGGING`\
  Destroy program, but continue to debug.
 
 ## Remarks

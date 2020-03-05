@@ -1,12 +1,12 @@
 ---
-title: "How to: Add a Drag-and-Drop Handler"
+title: 'How to: Add a Drag-and-Drop Handler'
 ms.date: 11/04/2016
 ms.topic: conceptual
-author: gewarren
-ms.author: gewarren
+author: JoshuaPartlow
+ms.author: joshuapa
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # How to: Add a Drag-and-Drop Handler
 
@@ -18,7 +18,7 @@ This topic discusses drag-and-drop gestures that originate on other diagrams. Fo
 
 `OnDragDrop`, `OnDoubleClick`, `OnDragOver`, and other methods can be overridden.
 
-Add a new code file to your DSL project. For a gesture handler, you usually must have at least the following `using` statements:
+Add a new code file to your DSL project. For a gesture handler, you usually must have at least the following `using` directives:
 
 ```csharp
 using Microsoft.VisualStudio.Modeling;
@@ -120,13 +120,13 @@ To discover the formats in which your drag source information is available, run 
 
 - <xref:System.Windows.Forms.IDataObject>  `Data` - This property carries serialized versions of the source objects, usually in more than one format. Its most useful functions are:
 
-    - diagramEventArgs.Data.GetDataFormats() - Lists the formats in which you can decode the dragged object. For example, if the user drags a file from the desktop, the available formats include the file name ("`FileNameW`").
+  - diagramEventArgs.Data.GetDataFormats() - Lists the formats in which you can decode the dragged object. For example, if the user drags a file from the desktop, the available formats include the file name ("`FileNameW`").
 
-    - `diagramEventArgs.Data.GetData(format)` - Decodes the dragged object in the specified format. Cast the object to the appropriate type. For example:
+  - `diagramEventArgs.Data.GetData(format)` - Decodes the dragged object in the specified format. Cast the object to the appropriate type. For example:
 
-         `string fileName = diagramEventArgs.Data.GetData("FileNameW") as string;`
+    `string fileName = diagramEventArgs.Data.GetData("FileNameW") as string;`
 
-         You can also transmit objects such as model bus references from the source in your own custom format. For more information, see [How to Send Model Bus References in a Drag and Drop](#to-send-an-object-from-a-source-dsl).
+    You can also transmit objects such as model bus references from the source in your own custom format. For more information, see [How to Send Model Bus References in a Drag and Drop](#to-send-an-object-from-a-source-dsl).
 
 - <xref:Microsoft.VisualStudio.Modeling.ElementGroupPrototype> `Prototype` - Use this property if you want users to drag items from a DSL or a UML model. An element group prototype contains one or more objects, links, and their property values. It is also used in paste operations and when you are adding an element from the toolbox. In a prototype, objects and their types are identified by Guid. For example, this code allows the user to drag class elements from a UML diagram or UML Model Explorer:
 
@@ -140,7 +140,7 @@ To discover the formats in which your drag source information is available, run 
     }
     ```
 
-     To accept UML shapes, determine the Guids of the UML shape classes by experiment. Remember that there is usually more than one type of element on any diagram. Remember also that an object dragged from a DSL or UML diagram is the shape, not the model element.
+     To accept UML shapes, determine the GUIDs of the UML shape classes by experiment. Remember that there is usually more than one type of element on any diagram. Remember also that an object dragged from a DSL or UML diagram is the shape, not the model element.
 
 `DiagramDragEventArgs` also has properties that indicate the current mouse pointer position and whether the user is pressing the CTRL, ALT, or SHIFT keys.
 
@@ -154,11 +154,9 @@ The `Data` and `Prototype` properties of the event arguments contain only a refe
 
 Make the source DSL accessible by Visual Studio Model Bus:
 
-1. Download and install the Visual Studio Model Bus extension, if it is not already installed. For more information, see [Visualization and Modeling SDK](http://go.microsoft.com/fwlink/?LinkID=185579).
+1. Open the DSL definition file of the source DSL in DSL Designer. Right-click the design surface and then click **Enable Modelbus**. In the dialog box, choose one or both of the options.  Click **OK**. A new project "ModelBus" is added to the DSL solution.
 
-2. Open the DSL definition file of the source DSL in DSL Designer. Right-click the design surface and then click **Enable Modelbus**. In the dialog box, choose one or both of the options.  Click **OK**. A new project "ModelBus" is added to the DSL solution.
-
-3. Click **Transform All Templates** and rebuild the solution.
+2. Click **Transform All Templates** and rebuild the solution.
 
 ### To send an object from a source DSL
 
@@ -568,6 +566,6 @@ namespace Company.CompartmentDrag  // EDIT.
 ## See also
 
 - [Customizing Copy Behavior](../modeling/customizing-copy-behavior.md)
-- [Deploying Domain-Specific Language Solutions](../modeling/deploying-domain-specific-language-solutions.md)
+- [Deploying Domain-Specific Language Solutions](msi-and-vsix-deployment-of-a-dsl.md)
 
 [!INCLUDE[modeling_sdk_info](includes/modeling_sdk_info.md)]

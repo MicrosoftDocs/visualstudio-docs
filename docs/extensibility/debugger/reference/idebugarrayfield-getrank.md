@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugArrayField::GetRank method"
 ms.assetid: 2364b876-5be1-4bab-9b8f-3b6121da35c6
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -34,9 +34,8 @@ int GetRank(
 ```
 
 ## Parameters
- `pdwRank`\
-
- [out] Returns the rank.
+`pdwRank`\
+[out] Returns the rank.
 
 ## Return Value
  If successful, returns S_OK; otherwise, returns an error code.

@@ -1,11 +1,12 @@
 ---
-title: "Collecting Concurrency Data for a Service by Using the Profiler Command Line | Microsoft Docs"
+title: "Use profiler command line to get concurrency data for service"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 ms.assetid: 275aacba-b2af-4d34-8931-ee30d777a256
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jillfra
+monikerRange: 'vs-2017'
 ms.workload:
   - "multiple"
 ---

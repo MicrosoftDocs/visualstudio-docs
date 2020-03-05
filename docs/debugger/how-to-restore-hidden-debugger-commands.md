@@ -66,6 +66,6 @@ When you set up Visual Studio, you are asked to choose a set of default IDE sett
 
 9. Click **Close**.
 
-## See Also
+## See also
 - [Debugger Security](../debugger/debugger-security.md)
 - [First look at the debugger](../debugger/debugger-feature-tour.md)

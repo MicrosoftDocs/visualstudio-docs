@@ -17,7 +17,7 @@ manager: jillfra
 The debug engine must register itself as a class factory following COM conventions as well as register with Visual Studio through the Visual Studio registry subkey.  
   
 > [!NOTE]
-> An example of how to register a debug engine can be found in the TextInterpreter sample, which is built as part of the [Tutorial: Building a Debug Engine Using ATL COM](http://msdn.microsoft.com/9097b71e-1fe7-48f7-bc00-009e25940c24).  
+> An example of how to register a debug engine can be found in the TextInterpreter sample, which is built as part of the [Tutorial: Building a Debug Engine Using ATL COM](https://msdn.microsoft.com/9097b71e-1fe7-48f7-bc00-009e25940c24).  
   
 ## DLL Server process  
  Typically, a debug engine is implemented in its own DLL as a COM server. This means that the debug engine must register the CLSID of its class factory with COM before Visual Studio can access it. Then the debug engine must register itself with Visual Studio itself in order to establish any properties (otherwise known as metrics) the debug engine supports. The choice of metrics that are written to the Visual Studio registry subkey for the debug engine depends on the features the debug engine supports.  
@@ -47,4 +47,4 @@ HRESULT CTextInterpreterModule::RegisterServer(BOOL bRegTypeLib, const CLSID * p
 ## See Also  
  [Creating a Custom Debug Engine](../../extensibility/debugger/creating-a-custom-debug-engine.md)   
  [SDK Helpers for Debugging](../../extensibility/debugger/reference/sdk-helpers-for-debugging.md)   
- [Tutorial: Building a Debug Engine Using ATL COM](http://msdn.microsoft.com/9097b71e-1fe7-48f7-bc00-009e25940c24)
+ [Tutorial: Building a Debug Engine Using ATL COM](https://msdn.microsoft.com/9097b71e-1fe7-48f7-bc00-009e25940c24)

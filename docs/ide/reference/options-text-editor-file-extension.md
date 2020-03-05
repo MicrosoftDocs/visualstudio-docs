@@ -3,18 +3,18 @@ title: Options, Text Editor, File Extension
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "VS.ToolsOptionsPages.Text_Editor.File_Extension"
+- VS.ToolsOptionsPages.Text_Editor.File_Extension
 helpviewer_keywords:
-  - "file extensions, associating to editor"
-  - "Editing Experience"
-  - "Options dialog box"
-  - "Editing Experience, selecting"
+- file extensions, associating to editor
+- Editing Experience
+- Options dialog box
+- Editing Experience, selecting
 ms.assetid: 05298fc5-fc4e-4bb2-b942-1f7d2dcdff0f
-author: gewarren
-ms.author: gewarren
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Options, Text Editor, File Extension
 
@@ -30,7 +30,7 @@ Type the file extension whose Editing Experience in the IDE you wish to define.
 
 **Editor**
 
- Select the IDE editor or designer in which documents with this file extension will open. When you select an option "with ncoding," a dialog will be displayed whenever you open such a document that allows you to select an encoding scheme.
+Select the IDE editor or designer in which documents with this file extension will open. When you select an option "with ncoding," a dialog will be displayed whenever you open such a document that allows you to select an encoding scheme.
 
 **Add**
 

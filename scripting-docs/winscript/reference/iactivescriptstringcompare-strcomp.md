@@ -94,5 +94,5 @@ interface IActiveScriptStringCompare : IUnknown
 }  
 ```  
   
-## See Also  
+## See also  
  [IActiveScriptStringCompare Interface](../../winscript/reference/iactivescriptstringcompare-interface.md)

@@ -6,8 +6,8 @@ ms.technology: "vs-ide-general"
 ms.topic: conceptual
 ms.assetid: 4842955d-8959-4e4e-98b8-2358360179b3
 caps.latest.revision: 10
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # Walkthrough: Building an Application
@@ -18,7 +18,7 @@ By completing this walkthrough, you’ll  become more familiar with several opti
 
 This topic contains the following sections:
 
-[Install the Sample Application](../ide/walkthrough-building-an-application.md#BKMK_installapp)
+[Install the Sample Application](../ide/walkthrough-building-an-application.md)
 
 [Create a Custom Build Configuration](../ide/walkthrough-building-an-application.md#BKMK_CreateBuildConfig)
 
@@ -28,11 +28,7 @@ This topic contains the following sections:
 
 [Display Additional Build Details in the Output Window](../ide/walkthrough-building-an-application.md#BKMK_outputdetails)
 
-[Create a Release Build](../ide/walkthrough-building-an-application.md#BKMK_releasebuild)
-
-## <a name="BKMK_installapp"></a> Install the Sample Application
-
-You’ll use the **Extensions and Updates** dialog box to find and install the [Introduction to Building WPF Applications](http://code.msdn.microsoft.com/Introduction-to-Building-b8d16419?SRC=VSIDE) sample from the Samples Gallery on the Microsoft website. The Samples Gallery provides a variety of example projects and code that you can download and review as you plan and develop your applications.
+[Create a Release Build](../ide/walkthrough-building-an-application.md)
 
 #### To install the sample application
 
@@ -72,7 +68,7 @@ You’ll use the **Extensions and Updates** dialog box to find and install the [
 
 ## <a name="BKMK_CreateBuildConfig"></a> Create a Custom Build Configuration
 
-When you create a solution, debug and release build configurations and their default platform targets are defined for the solution automatically. You can then customize these configurations or create your own. Build configurations specify the build type. Build platforms specify the operating system that an application targets for that configuration. For more information, see [Understanding Build Configurations](../ide/understanding-build-configurations.md), [Understanding Build Platforms](../ide/understanding-build-platforms.md), and [Debug and Release Project Configurations](http://msdn.microsoft.com/0440b300-0614-4511-901a-105b771b236e).
+When you create a solution, debug and release build configurations and their default platform targets are defined for the solution automatically. You can then customize these configurations or create your own. Build configurations specify the build type. Build platforms specify the operating system that an application targets for that configuration. For more information, see [Understanding Build Configurations](../ide/understanding-build-configurations.md), [Understanding Build Platforms](../ide/understanding-build-platforms.md), and [Debug and Release Project Configurations](https://msdn.microsoft.com/0440b300-0614-4511-901a-105b771b236e).
 
 You can change or create configurations and platform settings by using the **Configuration Manager** dialog box. In this procedure, you’ll create a build configuration for testing.
 
@@ -191,16 +187,16 @@ You can change how much information about the build process appears in the **Out
 
     The build information includes the time that the build started (located at the beginning), the order in which files were processed, and the amount of time that the process took to complete (located at the end). This information also includes the actual compiler syntax that Visual Studio runs during the build.
 
-    For example, in the Visual C# build, the [/nowarn](http://msdn.microsoft.com/library/7ebf2106-0652-4fdc-bf60-70fc86465d83) option lists the warning code, 1762, that you specified earlier in this topic, along with three other warnings.
+    For example, in the Visual C# build, the [/nowarn](https://msdn.microsoft.com/library/7ebf2106-0652-4fdc-bf60-70fc86465d83) option lists the warning code, 1762, that you specified earlier in this topic, along with three other warnings.
 
-    In the Visual Basic build, [/nowarn](http://msdn.microsoft.com/library/7ebf2106-0652-4fdc-bf60-70fc86465d83) doesn’t include specific warnings to exclude, so no warnings appear.
+    In the Visual Basic build, [/nowarn](https://msdn.microsoft.com/library/7ebf2106-0652-4fdc-bf60-70fc86465d83) doesn’t include specific warnings to exclude, so no warnings appear.
 
    > [!TIP]
    > You can search the contents of the **Output** window if you display the **Find** dialog box by choosing the Ctrl+F keys.
 
    For more information, see [How to: View, Save, and Configure Build Log Files](../ide/how-to-view-save-and-configure-build-log-files.md).
 
-## <a name="BKMK_releasebuild"></a> Create a Release Build
+## Create a Release Build
 
 You can build a version of the sample application that’s optimized for shipping it. For the release build, you’ll specify that the executable is copied to a network share before the build is kicked off.
 
@@ -258,6 +254,6 @@ For more information, see [How to: Change the Build Output Directory](../ide/how
 
 ## See Also
 
-- [Walkthrough: Building a Project (C++)](http://msdn.microsoft.com/library/d459bc03-88ef-48d0-9f9a-82d17f0b6a4d)
-- [ASP.NET Web Application Project Precompilation Overview](http://msdn.microsoft.com/b940abbd-178d-4570-b441-52914fa7b887)
+- [Walkthrough: Building a Project (C++)](https://msdn.microsoft.com/library/d459bc03-88ef-48d0-9f9a-82d17f0b6a4d)
+- [ASP.NET Web Application Project Precompilation Overview](https://msdn.microsoft.com/b940abbd-178d-4570-b441-52914fa7b887)
 - [Walkthrough: Using MSBuild](../msbuild/walkthrough-using-msbuild.md)

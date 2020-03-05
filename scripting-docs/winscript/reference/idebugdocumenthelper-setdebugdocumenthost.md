@@ -43,6 +43,6 @@ HRESULT SetDebugDocumentHost(
 ## Remarks  
  The `IDebugDocumentHost` interface is used for smart-host syntax coloring, fetching deferred text, and returning controlling objects for newly created document contexts.  
   
-## See Also  
+## See also  
  [IDebugDocumentHelper Interface](../../winscript/reference/idebugdocumenthelper-interface.md)   
  [IDebugDocumentHost Interface](../../winscript/reference/idebugdocumenthost-interface.md)

@@ -1,13 +1,15 @@
 ---
 title: "Visual Studio Emulator for Android | Microsoft Docs"
 ms.custom: ""
-ms.date: "07/03/2018"
+ms.prod: visual-studio-dev15
+ms.date: "02/13/2020"
 ms.technology: vs-ide-mobile
 ms.topic: "conceptual"
 ms.assetid: 80f0104f-a4db-44dd-bd55-37bb67776c62
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jillfra
+monikerRange: 'vs-2017'
 ms.workload:
   - "multiple"
 ---
@@ -19,11 +21,11 @@ The Visual Studio Emulator for Android is a desktop application that emulates an
 > In most scenarios, the Google Android emulator is recommended for use instead of the Visual Studio Emulator for Android:
 > - Visual Studio Emulator for Android is not supported after Visual Studio 2015.
 > - Emulator images later than Android version 6.0 are not available for Visual Studio Emulator for Android.
-> - The Google Android Emulator now supports [Hyper-V](https://docs.microsoft.com/xamarin/android/get-started/installation/android-emulator/hardware-acceleration#accelerating-with-hyper-v).
+> - The Google Android Emulator now supports [Hyper-V](/xamarin/android/get-started/installation/android-emulator/hardware-acceleration#accelerating-with-hyper-v).
 > - Visual Studio Tools for Apache Cordova works with the Google Android Emulator. For more information, see [Run your Apache Cordova app on Android](/visualstudio/cross-platform/tools-for-cordova/run-your-app/run-app-android#google-android-emulator) (note that you no longer have to disable Hyper-V as explained in this article).
 >
 > For more information about configuring and using the Google Android Emulator, see
-> [Android Emulator setup](https://docs.microsoft.com/xamarin/android/get-started/installation/android-emulator/).
+> [Android Emulator setup](/xamarin/android/get-started/installation/android-emulator/).
 
  The Visual Studio Emulator for Android is designed to provide comparable performance to an actual device. Before you publish your app, however, we recommend that you test your app on a physical device.
 
@@ -63,7 +65,7 @@ The Visual Studio Emulator for Android is a desktop application that emulates an
 
   To understand the capabilities of the emulator's network connection, think of it as similar to a Wi-Fi connection from your Android phone to the same network. If an app running on your phone can access a network resource over its Wi-Fi connection, then an app running on the emulator can also access the same network resource.
 
-  For more info on network requirements, see [System requirements for the Visual Studio Emulator for Android](../cross-platform/system-requirements-for-the-visual-studio-emulator-for-android.md)
+  For more info on network requirements, see [System requirements for the Visual Studio Emulator for Android](../cross-platform/system-requirements-for-the-visual-studio-emulator-for-android.md).
 
   For info on troubleshooting networking issues, see [Troubleshooting the Visual Studio Emulator for Android](../cross-platform/troubleshooting-the-visual-studio-emulator-for-android.md).
 
@@ -95,7 +97,7 @@ The Visual Studio Emulator for Android is a desktop application that emulates an
 ## <a name="Support"></a> Support resources
  If your host computer meets the system requirements and you encounter an issue not covered in this troubleshooting guide:
 
-- Ask a question on StackOverflow using the [android-emulator](http://stackoverflow.com/questions/tagged/android-emulator) and the visual-studio tag.
+- Ask a question on StackOverflow using the [android-emulator](https://stackoverflow.com/questions/tagged/android-emulator) and the visual-studio tag.
 
 - Report an issue using the Send a Smile tool in Visual Studio or in the Emulator Manager.
 

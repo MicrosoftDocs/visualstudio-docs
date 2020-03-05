@@ -37,7 +37,7 @@
   items:
   - name: Language Server Protocol
     href: language-server-protocol.md
-  - name: Adding a Language Server Protocol extension
+  - name: Add a Language Server Protocol extension
     href: adding-an-lsp-extension.md
 - name: Open Folder
 # Auto-expanded node
@@ -213,8 +213,6 @@
         href: how-to-open-standard-editors.md
       - name: Open Editors for Open Documents
         href: how-to-open-editors-for-open-documents.md
-    - name: XAML Designer Extensibility Migration Guide
-      href: xaml-designer-extensibility-migration.md
 - name: Extend Projects
 # Auto-expanded node
   items:
@@ -513,8 +511,6 @@
     href: how-to-diagnose-ui-delays-caused-by-extensions.md
   - name: Troubleshooting VSPackages
     href: troubleshooting-vspackages.md
-- name: Shell (Integrated or Isolated)
-  href: https://vspartner.com/pages/vsshells
 - name: Ship Visual Studio Extensions
 # Auto-expanded node
   items:
@@ -884,6 +880,8 @@
   items:
   - name: Create a Software Development Kit
     href: creating-a-software-development-kit.md
+  - name: SDK versus NuGet package
+    href: nuget-versus-sdk-references.md
   - name: "Walkthrough: Creating an SDK using C# or Visual Basic"
     href: walkthrough-creating-an-sdk-using-csharp-or-visual-basic.md
   - name: "Walkthrough: Creating an SDK using C++"

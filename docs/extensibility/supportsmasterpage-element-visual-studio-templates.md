@@ -9,8 +9,8 @@ helpviewer_keywords:
   - "<SupportsMasterPage> element [Visual Studio Templates]"
   - "SupportsMasterPage element [Visual Studio Templates]"
 ms.assetid: ce877a6a-9bba-4fd9-92fb-0a8dfec9e75b
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -78,6 +78,6 @@ Specifies whether the or not the **Select Master Page** checkbox is enabled on t
 </VSTemplate>
 ```
 
-## See Also
+## See also
 - [Visual Studio Template Schema Reference](../extensibility/visual-studio-template-schema-reference.md)
 - [Creating Project and Item Templates](../ide/creating-project-and-item-templates.md)

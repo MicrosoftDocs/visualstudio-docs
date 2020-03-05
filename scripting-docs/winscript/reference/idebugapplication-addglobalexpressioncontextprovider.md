@@ -47,6 +47,6 @@ HRESULT AddGlobalExpressionContextProvider(
 ## Remarks  
  This method adds a global expression context provider to this application.  
   
-## See Also  
+## See also  
  [IDebugApplication Interface](../../winscript/reference/idebugapplication-interface.md)   
  [IDebugApplication::RemoveGlobalExpressionContextProvider](../../winscript/reference/idebugapplication-removeglobalexpressioncontextprovider.md)

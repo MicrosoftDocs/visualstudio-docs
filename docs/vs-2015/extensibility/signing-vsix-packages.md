@@ -26,13 +26,13 @@ Extension assemblies do not need to be signed before they can run in Visual Stud
 > Beginning in 2015, VSIX packages signed using anything other than SHA256 encryption will be identified as having an invalid signature. VSIX installation is not blocked but the user will be warned.  
   
 ## Signing a VSIX with VSIXSignTool  
- There is a SHA256 encryption signing tool available from [VisualStudioExtensibility](http://www.nuget.org/profiles/VisualStudioExtensibility) on nuget.org at [VsixSignTool](http://www.nuget.org/packages/Microsoft.VSSDK.Vsixsigntool).  
+ There is a SHA256 encryption signing tool available from [VisualStudioExtensibility](https://www.nuget.org/profiles/VisualStudioExtensibility) on nuget.org at [VsixSignTool](https://www.nuget.org/packages/Microsoft.VSSDK.Vsixsigntool).  
   
 #### To use the VSIXSignTool  
   
 1. Add your VSIX to a project.  
   
-2. Right click on the project node in Solution Explorer, selecting **Add &#124; Manage NuGet Packages**.  For more information on NuGet and adding NuGet packages see [NuGet Overview](http://docs.nuget.org/) and [Manage NuGet Packages Using the Dialog](http://docs.nuget.org/Consume/Package-Manager-Dialog).  
+2. Right click on the project node in Solution Explorer, selecting **Add &#124; Manage NuGet Packages**.  For more information on NuGet and adding NuGet packages see [NuGet Overview](/nuget/) and [Manage NuGet Packages Using the Dialog](/nuget/consume-packages/install-use-packages-visual-studio).  
   
 3. Search for VSIXSignTool from VisualStudioExtensibility and install the NuGet package.  
   

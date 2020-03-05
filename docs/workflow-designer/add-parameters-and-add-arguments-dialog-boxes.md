@@ -1,15 +1,15 @@
 ---
-title: "Workflow Designer - Add Parameters and Add Arguments Dialog Boxes"
+title: 'Workflow Designer: Add Parameters & Add Arguments dialog boxes'
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "AddParameters.UI"
+- AddParameters.UI
 ms.assetid: a21fb4fe-134b-40b0-8497-86b842940ca1
-ms.author: gewarren
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
-author: gewarren
+- multiple
+author: TerryGLee
 ---
 # Add Parameters and Add Arguments Dialog Boxes
 

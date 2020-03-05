@@ -23,7 +23,7 @@ manager: jillfra
 # How to: Use the GPU Threads Window
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-In the GPU Threads window, you can examine and work with threads that are running on the GPU in the application that you are debugging. For more information about applications that run on the GPU, see [C++ AMP Overview](http://msdn.microsoft.com/library/9e593b06-6e3c-43e9-8bae-6d89efdd39fc).  
+In the GPU Threads window, you can examine and work with threads that are running on the GPU in the application that you are debugging. For more information about applications that run on the GPU, see [C++ AMP Overview](https://msdn.microsoft.com/library/9e593b06-6e3c-43e9-8bae-6d89efdd39fc).  
   
  The GPU Threads window contains a table in which each row represents a set of GPU threads that have the same values in all of the columns. You can sort, reorder, remove, and group items that are in the columns. You can flag, unflag, freeze (suspend), and thaw (resume) threads from the GPU Threads window. The following columns are displayed in the GPU Threads window:  
   
@@ -102,4 +102,4 @@ In the GPU Threads window, you can examine and work with threads that are runnin
 ## See Also  
  [Debug Multithreaded Applications](../debugger/debug-multithreaded-applications-in-visual-studio.md)   
  [How to: Use the Parallel Watch Window](../debugger/how-to-use-the-parallel-watch-window.md)   
- [Walkthrough: Debugging a C++ AMP Application](http://msdn.microsoft.com/library/40e92ecc-f6ba-411c-960c-b3047b854fb5)
+ [Walkthrough: Debugging a C++ AMP Application](https://msdn.microsoft.com/library/40e92ecc-f6ba-411c-960c-b3047b854fb5)

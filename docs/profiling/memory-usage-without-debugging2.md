@@ -20,10 +20,6 @@ The **Memory Usage** tool monitors your app's memory use. You can use the tool t
 
 The **Memory Usage** tool can run with or without the debugger. The following instructions show how to use the **Memory Usage** tool without the debugger in the Visual Studio **Performance Profiler**.
 
->[!NOTE]
->- To measure memory usage for a .NET Core app, you must use the **Memory Usage** tool with the debugger. For instructions, see [Profile memory usage in Visual Studio](memory-usage.md).
->- To analyze memory use in JavaScript or HTML UWP apps, use the [JavaScript Memory](../profiling/javascript-memory.md) tool in **Performance Profiler**.
-
 ## Memory Usage diagnostic sessions
 
 **To start a Memory Usage diagnostic session:**
@@ -210,7 +206,7 @@ A **Referenced Types** tree in a snapshot diff report has the following columns.
 
 ## See also
 - [JavaScript memory](../profiling/javascript-memory.md)
-- [Profiling in Visual Studio](../profiling/index.md)
+- [Profiling in Visual Studio](../profiling/index.yml)
 - [First look at profiling tools](../profiling/profiling-feature-tour.md)
 - [Performance best practices for UWP apps using C++, C#, and Visual Basic](/previous-versions/windows/apps/hh750313\(v\=win.10\))
-- [Diagnosing memory issues with the new Memory Usage tool in Visual Studio](http://go.microsoft.com/fwlink/p/?LinkId=394706)
+- [Diagnosing memory issues with the new Memory Usage tool in Visual Studio](https://devblogs.microsoft.com/devops/diagnosing-memory-issues-with-the-new-memory-usage-tool-in-visual-studio/)

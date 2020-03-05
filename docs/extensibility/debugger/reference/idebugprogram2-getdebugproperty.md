@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugProgram2::GetDebugProperty"
 ms.assetid: d194224e-f0e6-46ab-85d4-9e2639e28946
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -34,9 +34,8 @@ int GetDebugProperty( 
 ```
 
 ## Parameters
- `ppProperty`\
-
- [out] Returns an [IDebugProperty2](../../../extensibility/debugger/reference/idebugproperty2.md) object that represents the program's properties.
+`ppProperty`\
+[out] Returns an [IDebugProperty2](../../../extensibility/debugger/reference/idebugproperty2.md) object that represents the program's properties.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

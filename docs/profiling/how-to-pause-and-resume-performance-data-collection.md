@@ -8,6 +8,7 @@ ms.assetid: b8e76363-65cd-424d-8173-3e2b5f54203b
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jillfra
+monikerRange: 'vs-2017'
 ms.workload:
   - "multiple"
 ---
@@ -25,11 +26,11 @@ From the profiling session page window, you can control the collection of profil
 
 - On the profiling session page:
 
-    - Choose **Pause Collection** to suspend data collection.
+  - Choose **Pause Collection** to suspend data collection.
 
-    - Choose **Resume Collection** to restart data collection after it has been paused.
+  - Choose **Resume Collection** to restart data collection after it has been paused.
 
-    - Choose **Stop profiling** to end the profiling session and generate reports.
+  - Choose **Stop profiling** to end the profiling session and generate reports.
 
 ## See also
 - [Control data collection](../profiling/controlling-data-collection.md)

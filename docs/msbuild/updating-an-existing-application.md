@@ -1,12 +1,12 @@
 ---
-title: "Updating an existing application to MSBuild 15 | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-author: mikejo5000
-ms.author: mikejo
+title: Updating an existing application to MSBuild 15 | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Update an existing application for MSBuild 15
 
@@ -32,7 +32,7 @@ The mechanism for changing your project to avoid loading MSBuild from a central 
 
 #### Use NuGet packages (preferred)
 
-These instructions assume that you're using [PackageReference-style NuGet references](https://docs.microsoft.com/nuget/consume-packages/package-references-in-project-files).
+These instructions assume that you're using [PackageReference-style NuGet references](/nuget/consume-packages/package-references-in-project-files).
 
 Change your project file(s) to reference MSBuild assemblies from their NuGet packages. Specify `ExcludeAssets=runtime` to tell NuGet that the assemblies are needed only at build time, and shouldn't be copied to the output directory.
 
@@ -43,7 +43,7 @@ For example, you can use this XML:
 ```xml
 <ItemGroup>
   <PackageReference Include="Microsoft.Build" Version="15.1.548" ExcludeAssets="runtime" />
-  <PackageReference Include="Microsoft.Build.Utilities" Version="15.1.548" ExcludeAssets="runtime" />
+  <PackageReference Include="Microsoft.Build.Utilities.Core" Version="15.1.548" ExcludeAssets="runtime" />
 </ItemGroup>
 ```
 
@@ -59,21 +59,23 @@ If you can't use NuGet packages, you can reference MSBuild assemblies that are d
 
 #### Binding redirects
 
-Reference the Microsoft.Build.Locator package to ensure that your application automatically uses the required binding redirects of all versions of MSBuild assemblies to version `15.1.0.0`.
+Reference the Microsoft.Build.Locator package to ensure that your application automatically uses the required binding redirects to version 15.1.0.0. Binding redirects to this version support both MSBuild 15 and MSBuild 16.
 
 ### Ensure output is clean
 
 Build your project and inspect the output directory to make sure that it doesn't contain any *Microsoft.Build.\*.dll* assemblies other than *Microsoft.Build.Locator.dll*, added in the next step.
 
-### Add package reference
+### Add package reference for Microsoft.Build.Locator
 
-Add a NuGet package reference to [Microsoft.Build.Locator](https://www.nuget.org/packages/Microsoft.Build.Locator/).
+Add a NuGet package reference for [Microsoft.Build.Locator](https://www.nuget.org/packages/Microsoft.Build.Locator/).
 
 ```xml
     <PackageReference Include="Microsoft.Build.Locator">
       <Version>1.1.2</Version>
     </PackageReference>
 ```
+
+Do not specify `ExcludeAssets=runtime` for the Microsoft.Build.Locator package.
 
 ### Register instance before calling MSBuild
 

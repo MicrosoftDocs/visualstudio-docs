@@ -33,5 +33,5 @@ HRESULT GetExcludedDocuments(        [in] APPLICATION_NODE_EVENT_FILTER filter, 
  `pDocuments`  
  The set of documents.  
   
-## See Also  
+## See also  
  [IDebugApplicationNode100 Interface](../../winscript/reference/idebugapplicationnode100-interface.md)

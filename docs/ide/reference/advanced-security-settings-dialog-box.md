@@ -1,17 +1,18 @@
 ---
 title: Advanced Security Settings Dialog Box
 ms.date: 06/27/2018
+ms.technology: vs-ide-deployment
 ms.topic: reference
 f1_keywords:
-  - "vs.err.debug_in_zone_no_hostproc"
+- vs.err.debug_in_zone_no_hostproc
 helpviewer_keywords:
-  - "Advanced Security Settings dialog box"
+- Advanced Security Settings dialog box
 ms.assetid: 2e7aefe9-6d20-4f3e-b257-aee1ebcc6f5d
-author: gewarren
-ms.author: gewarren
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Advanced Security Settings dialog box
 

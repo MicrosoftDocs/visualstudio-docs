@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugCustomAttributeQuery2::GetCustomAttributeByName"
 ms.assetid: 7428dfeb-8929-41b2-9b99-cb343a86c02d
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -38,17 +38,14 @@ int GetCustomAttributeByName(
 ```
 
 ## Parameters
- `pszCustomAttributeName`\
+`pszCustomAttributeName`\
+[in] A string containing the name of the custom attribute to look for.
 
- [in] A string containing the name of the custom attribute to look for.
+`ppBlob`\
+[in, out] An array that is filled in with the custom attribute bytes.
 
- `ppBlob`\
-
- [in, out] An array that is filled in with the custom attribute bytes.
-
- `pdwLen`\
-
- [in, out] Specifies the maximum number of bytes to return in the `ppBlob` array and returns the number of bytes actually written to the array.
+`pdwLen`\
+[in, out] Specifies the maximum number of bytes to return in the `ppBlob` array and returns the number of bytes actually written to the array.
 
 ## Return Value
  If successful, returns S_OK or returns S_FALSE if the custom attribute does not exist. Otherwise, returns an error code.

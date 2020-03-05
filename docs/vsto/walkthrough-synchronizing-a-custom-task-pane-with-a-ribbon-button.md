@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Synchronize a custom task pane with a Ribbon button"
+title: "Synchronize custom task pane with Ribbon button"
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:

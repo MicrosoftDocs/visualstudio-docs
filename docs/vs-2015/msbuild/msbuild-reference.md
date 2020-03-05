@@ -66,7 +66,7 @@ manager: jillfra
  Lists the characters that may have to be "escaped" to be interpreted correctly. An escape sequence is a series of characters that signifies that what follows is an alternative interpretation.  
   
 ## Related Sections  
- [MSBuild Overview](http://msdn.microsoft.com/e39f13f7-1e1d-4435-95ca-0c222bca071c)
+ [MSBuild Overview](https://msdn.microsoft.com/e39f13f7-1e1d-4435-95ca-0c222bca071c)
  Introduces [!INCLUDE[vstecmsbuild](../includes/vstecmsbuild-md.md)] and provides links to topics that explain how to use it to build projects.  
   
  <xref:Microsoft.Build.Conversion>  

@@ -35,11 +35,11 @@ int SetResponse( 
   
 #### Parameters  
  `dwResponse`  
- [in] Specifies the response, using the conventions of the Win32 `MessageBox` function. See the [AfxMessageBox](http://msdn.microsoft.com/library/d66d0328-cdcc-48f6-96a4-badf089099c8) function for details.  
+ [in] Specifies the response, using the conventions of the Win32 `MessageBox` function. See the [AfxMessageBox](https://msdn.microsoft.com/library/d66d0328-cdcc-48f6-96a4-badf089099c8) function for details.  
   
 ## Return Value  
  If successful, returns `S_OK`; otherwise, returns an error code.  
   
 ## See Also  
  [IDebugMessageEvent2](../../../extensibility/debugger/reference/idebugmessageevent2.md)   
- [AfxMessageBox](http://msdn.microsoft.com/library/d66d0328-cdcc-48f6-96a4-badf089099c8)
+ [AfxMessageBox](https://msdn.microsoft.com/library/d66d0328-cdcc-48f6-96a4-badf089099c8)

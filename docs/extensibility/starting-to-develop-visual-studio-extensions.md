@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "getting started, Visual Studio integration"
   - "Visual Studio, integration"
 ms.assetid: 8fe5e2ab-a424-4173-9d39-dd082c4d58d0
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -17,7 +17,7 @@ ms.workload:
 If you've never written a Visual Studio extension before, you probably have some questions. We've listed some of the most common ones here. If you don't see the information you're looking for, use the feedback buttons (**Was this page helpful?** at the bottom of the screen) to ask for what you want.
 
 > [!NOTE]
-> This article applies to Visual Studio on Windows. For Visual Studio for Mac, see [Extending Visual Studio for Mac](/visualstudio/mac/extending-visual-studio-mac).
+> This article applies to Visual Studio on Windows. For Visual Studio for Mac, see [Extending Visual Studio for Mac](/visualstudio/mac/extending-visual-studio-mac). For Visual Studio Code, see [Visual Studio Code Extension API](https://code.visualstudio.com/api).
 
 ## What software do I need to develop Visual Studio extensions?
 
@@ -45,7 +45,7 @@ In practice, we have found that the features most people want to extend are comm
 
 - [Extending and Customizing Tool Windows](../extensibility/extending-and-customizing-tool-windows.md): extend existing tool windows or create your own tool windows. For instance, you could add new properties to the **Properties**, or you could create a new tool window to add additional features.
 
-- [Editor and Language Service Extensions](../extensibility/editor-and-language-service-extensions.md): add your own customizations the IntelliSense provided for Visual Studio languages, or create support for new programming languages. You can create new statement completions, suggestions, and new QuickInfo tooltips. With light bulbs, you can add refactoring suggestions and code fixes to support new programming languages.
+- [Editor and Language Service Extensions](../extensibility/editor-and-language-service-extensions.md): add your own customizations to the IntelliSense provided for Visual Studio languages, or create support for new programming languages. You can create new statement completions, suggestions, and new QuickInfo tooltips. With light bulbs, you can add refactoring suggestions and code fixes to support new programming languages.
 
 - [Extending Projects](../extensibility/extending-projects.md)
 
@@ -55,7 +55,7 @@ In practice, we have found that the features most people want to extend are comm
 
 - [Extending Other Parts of Visual Studio](../extensibility/extending-other-parts-of-visual-studio.md)
 
-- [Visual Studio Isolated Shell](/visualstudio/extensibility/shell/visual-studio-isolated-shell)
+- [Visual Studio Isolated Shell](https://visualstudio.microsoft.com/vs/older-downloads/isolated-shell/)
 
 ## <a name="BKMK_ProjectTemplate"></a> What project templates are provided by the VSSDK?
  The two main types of extensions are VSPackages and MEF extensions. In general, VSPackage extensions are used for extensions that use or extend commands, tool windows, and projects. MEF extensions are used to extend or customize the Visual Studio editor.
@@ -90,3 +90,4 @@ In practice, we have found that the features most people want to extend are comm
 ## See also
 
 - [Extending Visual Studio for Mac](/visualstudio/mac/extending-visual-studio-mac)
+- [Extending Visual Studio Code](https://code.visualstudio.com/api)

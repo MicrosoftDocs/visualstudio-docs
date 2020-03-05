@@ -7,8 +7,8 @@ helpviewer_keywords:
   - "debugging [Debugging SDK], stack frames"
   - "stack frames"
 ms.assetid: b5e439d4-1e9d-4e13-9cad-bb8b136d4ca8
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

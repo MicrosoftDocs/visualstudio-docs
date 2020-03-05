@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugArrayField::GetElementType method"
 ms.assetid: c46bf625-0a48-4cbb-8f1f-286356f2c065
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -34,9 +34,8 @@ int GetElementType(
 ```
 
 ## Parameters
- `ppType`\
-
- [out] Returns an [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) object that describes the type of element.
+`ppType`\
+[out] Returns an [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) object that describes the type of element.
 
 ## Return Value
  If successful, returns S_OK; otherwise, returns an error code.

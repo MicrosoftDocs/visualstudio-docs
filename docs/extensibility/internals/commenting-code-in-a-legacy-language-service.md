@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "comments, supporting in language services [managed package framework]"
   - "language services [managed package framework], commenting code"
 ms.assetid: 9600d6f0-e2b6-4fe0-b935-fb32affb97a4
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

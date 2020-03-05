@@ -43,5 +43,5 @@ HRESULT OnEnterBreakPoint(
 ## Remarks  
  This method handles an event for entering a breakpoint.  
   
-## See Also  
+## See also  
  [IRemoteDebugApplicationEvents Interface](../../winscript/reference/iremotedebugapplicationevents-interface.md)

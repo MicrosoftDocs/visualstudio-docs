@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugCustomAttribute::GetParentField"
 ms.assetid: bcdfdf37-bfcf-4988-a7b8-4c731d0af1b0
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -34,9 +34,8 @@ int GetParentField(
 ```
 
 ## Parameters
- `ppField`\
-
- [out] Returns the [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) object that represents the field to which the custom attribute is attached.
+`ppField`\
+[out] Returns the [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) object that represents the field to which the custom attribute is attached.
 
 ## Return Value
  If successful, returns S_OK; otherwise, returns an error code.

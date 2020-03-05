@@ -2,11 +2,11 @@
 title: T4 Assembly Directive
 ms.date: 11/04/2016
 ms.topic: reference
-author: gewarren
-ms.author: gewarren
+author: JoshuaPartlow
+ms.author: joshuapa
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # T4 Assembly Directive
 
@@ -82,6 +82,6 @@ In a Visual Studio design-time text template, the `assembly` directive loads an 
 <#@ assembly name="$(myLibFolder)\MyLib.dll" #>
 ```
 
-## See Also
+## See also
 
 - [T4 Include Directive](../modeling/t4-include-directive.md)

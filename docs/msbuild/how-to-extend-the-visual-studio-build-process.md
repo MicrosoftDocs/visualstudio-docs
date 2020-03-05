@@ -1,33 +1,40 @@
 ---
-title: "Extend the build process"
-ms.custom: "seodec18"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Extend the build process
+ms.custom: seodec18
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "MSBuild, overriding predefined targets"
-  - "MSBuild, overriding DependsOn properties"
-  - "MSBuild, extending Visual Studio builds"
-  - "MSBuild, DependsOn properties"
+- MSBuild, overriding predefined targets
+- MSBuild, overriding DependsOn properties
+- MSBuild, extending Visual Studio builds
+- MSBuild, DependsOn properties
 ms.assetid: cb077613-4a59-41b7-96ec-d8516689163c
-author: mikejo5000
-ms.author: mikejo
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # How to: Extend the Visual Studio build process
-The [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] build process is defined by a series of [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] *.targets* files that are imported into your project file. One of these imported files, *Microsoft.Common.targets*, can be extended to allow you to run custom tasks at several points in the build process. This article explains two methods you can use to extend the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] build process:
 
-- Overriding specific predefined targets defined in *Microsoft.Common.targets*.
+The Visual Studio build process is defined by a series of MSBuild *.targets* files that are imported into your project file. One of these imported files, *Microsoft.Common.targets*, can be extended to allow you to run custom tasks at several points in the build process. This article explains two methods you can use to extend the Visual Studio build process:
 
-- Overriding the "DependsOn" properties defined in *Microsoft.Common.targets*.
+- Overriding specific predefined targets defined in the common targets (*Microsoft.Common.targets* or the files that it imports).
+
+- Overriding the "DependsOn" properties defined in the common targets.
+## Override predefined targets
 
 ## Override predefined targets
-The *Microsoft.Common.targets* file contains a set of predefined empty targets that is called before and after some of the major targets in the build process. For example, [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] calls the `BeforeBuild` target before the main `CoreBuild` target and the `AfterBuild` target after the `CoreBuild` target. By default, the empty targets in *Microsoft.Common.targets* do nothing, but you can override their default behavior by defining the targets you want in a project file that imports *Microsoft.Common.targets*. By overriding the predefined targets, you can use [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] tasks to give you more control over the build process.
+
+The common targets contains a set of predefined empty targets that is called before and after some of the major targets in the build process. For example, MSBuild calls the `BeforeBuild` target before the main `CoreBuild` target and the `AfterBuild` target after the `CoreBuild` target. By default, the empty targets in the common targets do nothing, but you can override their default behavior by defining the targets you want in a project file that imports the common targets. By overriding the predefined targets, you can use MSBuild tasks to give you more control over the build process.
+The common targets contains a set of predefined empty targets that is called before and after some of the major targets in the build process. For example, MSBuild calls the `BeforeBuild` target before the main `CoreBuild` target and the `AfterBuild` target after the `CoreBuild` target. By default, the empty targets in the common targets do nothing, but you can override their default behavior by defining the targets you want in a project file that imports the common targets. By overriding the predefined targets, you can use MSBuild tasks to give you more control over the build process.
+
+> [!NOTE]
+> SDK-style projects have an implicit import of targets *after the last line of the project file*. This means that you cannot override default targets unless you specify your imports manually as described in [How to: Use MSBuild project SDKs](how-to-use-project-sdk.md).
 
 #### To override a predefined target
 
-1. Identify a predefined target in *Microsoft.Common.targets* that you want to override. See the table below for the complete list of targets that you can safely override.
+1. Identify a predefined target in the common targets that you want to override. See the table below for the complete list of targets that you can safely override.
 
 2. Define the target or targets at the end of your project file, immediately before the `</Project>` tag. For example:
 
@@ -45,7 +52,7 @@ The *Microsoft.Common.targets* file contains a set of predefined empty targets t
 
 3. Build the project file.
 
-The following table shows all of the targets in *Microsoft.Common.targets* that you can safely override.
+The following table shows all of the targets in the common targets that you can safely override.
 
 |Target name|Description|
 |-----------------|-----------------|
@@ -58,9 +65,10 @@ The following table shows all of the targets in *Microsoft.Common.targets* that 
 |`BeforeResGen`, `AfterResGen`|Tasks that are inserted in one of these targets run before or after resources are generated.|
 
 ## Override DependsOn properties
-Overriding predefined targets is an easy way to extend the build process, but, because [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] evaluates the definition of targets sequentially, there is no way to prevent another project that imports your project from overriding the targets you already have overridden. So, for example, the last `AfterBuild` target defined in the project file, after all other projects have been imported, will be the one that is used during the build.
 
-You can guard against unintended overrides of targets by overriding the DependsOn properties that are used in `DependsOnTargets` attributes throughout the *Microsoft.Common.targets* file. For example, the `Build` target contains a `DependsOnTargets` attribute value of `"$(BuildDependsOn)"`. Consider:
+Overriding predefined targets is an easy way to extend the build process, but, because MSBuild evaluates the definition of targets sequentially, there is no way to prevent another project that imports your project from overriding the targets you already have overridden. So, for example, the last `AfterBuild` target defined in the project file, after all other projects have been imported, will be the one that is used during the build.
+
+You can guard against unintended overrides of targets by overriding the DependsOn properties that are used in `DependsOnTargets` attributes throughout the common targets. For example, the `Build` target contains a `DependsOnTargets` attribute value of `"$(BuildDependsOn)"`. Consider:
 
 ```xml
 <Target Name="Build" DependsOnTargets="$(BuildDependsOn)"/>
@@ -101,7 +109,7 @@ Projects that import your project files can override these properties without ov
 
 #### To override a DependsOn property
 
-1. Identify a predefined DependsOn property in *Microsoft.Common.targets* that you want to override. See the table below for a list of the commonly overridden DependsOn properties.
+1. Identify a predefined DependsOn property in the common targets that you want to override. See the table below for a list of the commonly overridden DependsOn properties.
 
 2. Define another instance of the property or properties at the end of your project file. Include the original property, for example `$(BuildDependsOn)`, in the new property.
 
@@ -118,6 +126,7 @@ Projects that import your project files can override these properties without ov
 |`CompileDependsOn`|The property to override if you want to insert custom processes before or after the compilation step.|
 
 ## See also
+
 - [Visual Studio integration](../msbuild/visual-studio-integration-msbuild.md)
 - [MSBuild concepts](../msbuild/msbuild-concepts.md)
 - [.targets files](../msbuild/msbuild-dot-targets-files.md)

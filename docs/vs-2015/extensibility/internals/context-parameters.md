@@ -60,4 +60,4 @@ In the [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] integrated development en
  [Custom Parameters](../../extensibility/internals/custom-parameters.md)   
  [Wizards](../../extensibility/internals/wizards.md)   
  [Wizard (.Vsz) File](../../extensibility/internals/wizard-dot-vsz-file.md)   
- [Context Parameters for Launching Wizards](http://msdn.microsoft.com/library/051a10f4-9e45-4604-b344-123044f33a24)
+ [Context Parameters for Launching Wizards](https://msdn.microsoft.com/library/051a10f4-9e45-4604-b344-123044f33a24)

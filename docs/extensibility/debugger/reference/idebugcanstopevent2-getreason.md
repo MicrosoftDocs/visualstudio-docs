@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugCanStopEvent2::GetReason"
 ms.assetid: f5de31ca-7b8d-4029-9cf9-ba860ac66af6
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -34,9 +34,8 @@ int GetReason( 
 ```
 
 ## Parameters
- `pcr`\
-
- [out] Returns a value from the [CANSTOP_REASON](../../../extensibility/debugger/reference/canstop-reason.md) enumeration that describes the reason for this event.
+`pcr`\
+[out] Returns a value from the [CANSTOP_REASON](../../../extensibility/debugger/reference/canstop-reason.md) enumeration that describes the reason for this event.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

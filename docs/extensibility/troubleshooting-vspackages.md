@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "VSPackages, troubleshooting"
   - "debugging, VSPackages"
 ms.assetid: 274673e7-72e7-476f-a263-3411b5b874be
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -93,7 +93,7 @@ Following are common problems that you might have with your VSPackage and tips t
 
     2. Add this **Symbol file (.pdb) location**:
 
-         [http://msdl.microsoft.com/download/symbols](http://msdl.microsoft.com/download/symbols)
+         `https://msdl.microsoft.com/download/symbols`
 
     3. To improve performance, specify a symbol cache folder, for example:
 
@@ -117,5 +117,5 @@ Following are common problems that you might have with your VSPackage and tips t
 
    Make sure that the InprocServer32 entry has the correct path of the VSPackage dll.
 
-## See Also
+## See also
 - [VSPackages](../extensibility/internals/vspackages.md)

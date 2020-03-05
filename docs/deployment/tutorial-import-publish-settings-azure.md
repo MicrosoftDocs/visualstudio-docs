@@ -1,8 +1,8 @@
 ---
 title: "Publish to Azure by importing publish settings"
 description: "Create and import a publishing profile to deploy an application from Visual Studio to Azure App Service"
-ms.date: "05/07/2018"
-ms.topic: "tutorial"
+ms.date: 05/07/2018
+ms.topic: tutorial
 helpviewer_keywords:
   - "deployment, publish settings"
 author: mikejo5000

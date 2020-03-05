@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Creating a Site Column Project Item with a Project Template, Part 1 | Microsoft Docs"
+title: "Create site column project item with project template, part 1"
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -32,7 +32,7 @@ ms.workload:
   This is a stand-alone walkthrough. After you complete this walkthrough, you can enhance the project item by adding a wizard to the project template. For more information, see [Walkthrough: Create a site column project item with a project template, Part 2](../sharepoint/walkthrough-creating-a-site-column-project-item-with-a-project-template-part-2.md).
 
 > [!NOTE]
-> For a series of sample workflows, see [SharePoint workflow samples](https://docs.microsoft.com/sharepoint/dev/general-development/sharepoint-workflow-samples).
+> For a series of sample workflows, see [SharePoint workflow samples](/sharepoint/dev/general-development/sharepoint-workflow-samples).
 
 ## Prerequisites
  You need the following components on the development computer to complete this walkthrough:
@@ -43,7 +43,7 @@ ms.workload:
 
   Knowledge of the following concept is helpful, but not required, to complete the walkthrough:
 
-- Site columns in SharePoint. For more information, see [Columns](http://go.microsoft.com/fwlink/?LinkId=183547).
+- Site columns in SharePoint. For more information, see [Columns](/previous-versions/office/developer/sharepoint-2010/ms196085(v=office.14)).
 
 - Project templates in Visual Studio. For more information, see [Creating Project and Item Templates](../ide/creating-project-and-item-templates.md).
 
@@ -264,7 +264,7 @@ ms.workload:
     </Elements>
     ```
 
-     The new XML adds a `Field` element that defines the name of the site column, its base type, and the group in which to list the site column in the gallery. For more information about the contents of this file, see [Field Definition Schema](http://go.microsoft.com/fwlink/?LinkId=184290).
+     The new XML adds a `Field` element that defines the name of the site column, its base type, and the group in which to list the site column in the gallery. For more information about the contents of this file, see [Field Definition Schema](/previous-versions/office/developer/sharepoint-2010/ms196289(v=office.14)).
 
 2. Save and close the file.
 
@@ -425,9 +425,9 @@ ms.workload:
 
    - Adds `ProjectItem` elements for each filethat's included in each project instance.
 
-   - Uses the namespace "<http://schemas.microsoft.com/developer/vstemplate/2005>". Other project files in this solution use the "<http://schemas.microsoft.com/developer/msbuild/2003>" namespace. Therefore, XML schema warning messages will be generated, but you can disregard them in this walkthrough.
+   - Uses the namespace `http://schemas.microsoft.com/developer/vstemplate/2005`. Other project files in this solution use the `http://schemas.microsoft.com/developer/msbuild/2003` namespace. Therefore, XML schema warning messages will be generated, but you can disregard them in this walkthrough.
 
-     For more information about the contents of *.vstemplate* files, see [Visual Studio Template Schema Reference](/visualstudio/extensibility/visual-studio-template-schema-reference).
+     For more information about the contents of *.vstemplate* files, see [Visual Studio Template Schema Reference](../extensibility/visual-studio-template-schema-reference.md).
 
 2. Save and close the file.
 

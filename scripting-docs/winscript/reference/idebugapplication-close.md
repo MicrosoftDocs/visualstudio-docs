@@ -42,6 +42,6 @@ HRESULT Close();
   
  This method causes `IApplicationDebugger::onClose` to be called.  
   
-## See Also  
+## See also  
  [IDebugApplication Interface](../../winscript/reference/idebugapplication-interface.md)   
  [IApplicationDebugger::onClose](../../winscript/reference/iapplicationdebugger-onclose.md)

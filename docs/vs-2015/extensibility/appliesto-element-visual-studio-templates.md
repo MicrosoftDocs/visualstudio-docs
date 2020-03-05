@@ -16,7 +16,7 @@ Specifies an optional expression to match one or more capabilities. (see <xref:M
   
  This element is optional. There can be a maximum of one instance in a template file. This element only enables an item template to opt-in as applicable, based on the capabilities of the currently selected active project. It cannot be used to make an item template not applicable. If `AppliesTo` is absent or the expression does not successfully opt in, then `TemplateID` or `TemplateGroupID` is used to make the template applicable, as with previous versions of the product.  
   
- Introduced in Visual Studio 2013 Update 2. To reference the correct version, see [Referencing Assemblies Delivered in the Visual Studio 2013 SDK Update 2](http://msdn.microsoft.com/42b65c3e-e42b-4c39-98c8-bea285f25ffb).  
+ Introduced in Visual Studio 2013 Update 2. To reference the correct version, see [Referencing Assemblies Delivered in the Visual Studio 2013 SDK Update 2](https://msdn.microsoft.com/42b65c3e-e42b-4c39-98c8-bea285f25ffb).  
   
  \<VSTemplate>  
  \<TemplateData>  

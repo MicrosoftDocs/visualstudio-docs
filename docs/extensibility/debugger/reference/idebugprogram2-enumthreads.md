@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugProgram2::EnumThreads"
 ms.assetid: 0f2a8c51-1315-4c96-8aa1-6a937dc2a769
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -34,9 +34,8 @@ int EnumThreads( 
 ```
 
 ## Parameters
- `ppEnum`\
-
- [out] Returns an [IEnumDebugThreads2](../../../extensibility/debugger/reference/ienumdebugthreads2.md) object that contains a list of the threads.
+`ppEnum`\
+[out] Returns an [IEnumDebugThreads2](../../../extensibility/debugger/reference/ienumdebugthreads2.md) object that contains a list of the threads.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

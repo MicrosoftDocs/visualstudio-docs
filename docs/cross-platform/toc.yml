@@ -3,8 +3,6 @@
 - name: Visual Studio Tools for Xamarin
   displayName: ".NET Mobile Developer Tools (Android & iOS)"
   href: /xamarin/
-- name: Visual Studio Tools for Apache Cordova
-  href: /visualstudio/cross-platform/tools-for-cordova/
 - name: Visual Studio Tools for Unity
 # Auto-expanded node
   items:
@@ -35,45 +33,8 @@
     href: change-log-visual-studio-tools-for-unity-mac.md
   - name: DevOps with Unity Apps
     href: application-lifecycle-management-alm-with-unity-apps.md
-- name: Visual C++ for Cross-Platform Mobile Development
-# Auto-expanded node
-  items:
-  - name: Visual C++ for Cross-Platform Mobile Development
-    href: visual-cpp-for-cross-platform-mobile-development.md
-  - name: Install Visual C++ for Cross-Platform Mobile Development
-# Auto-expanded node
-    items:
-    - name: Install Visual C++ for Cross-Platform Mobile Development
-      href: install-visual-cpp-for-cross-platform-mobile-development.md
-    - name: Install And Configure Tools to Build using iOS
-      href: install-and-configure-tools-to-build-using-ios.md
-  - name: Create an Android Native Activity App
-    href: create-an-android-native-activity-app.md
-  - name: Build an OpenGL ES Application on Android and iOS
-    href: build-an-opengl-es-application-on-android-and-ios.md
-  - name: Import an XCode Project
-    href: import-an-xcode-project.md
-  - name: Sync Changes Between XCode and Visual Studio
-    href: sync-changes-between-xcode-and-visual-studio.md
-  - name: Cross-Platform Mobile Development Examples
-    href: cross-platform-mobile-development-examples.md
-  - name: C++ Cross-Platform Project Properties
-# Auto-expanded node
-    items:
-    - name: C++ Cross-Platform Project Properties
-      href: cross-platform-prop-pages.md
-    - name: General Project Properties (Android C++)
-      href: general-android-prop-page.md
-    - name: Android Debugger Properties
-      href: android-debugger-prop-page.md
-    - name: Clang Project Properties (Android C++)
-      href: clang-android-prop-page.md
-    - name: General Project Properties (Android C++ Makefile)
-      href: general-makefile-android-prop-page.md
-    - name: Clang Linker Properties (Android C++)
-      href: clanglink-prop-page.md
-    - name: NMake Properties (Android C++)
-      href: nmake-android-prop-page.md
+- name: Cross-platform mobile development with C++
+  href: /cpp/cross-platform/
 - name: Develop apps for the Universal Windows Platform (UWP)
   href: develop-apps-for-the-universal-windows-platform-uwp.md
 - name: Visual Studio Emulator for Android

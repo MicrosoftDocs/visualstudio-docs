@@ -43,5 +43,5 @@ HRESULT SetDocumentProvider(
 ## Remarks  
  This method sets the document provider for this application node.  
   
-## See Also  
+## See also  
  [IDebugApplicationNode Interface](../../winscript/reference/idebugapplicationnode-interface.md)

@@ -1,5 +1,5 @@
 ---
-title: "How to: Customize the Default Web Page for a ClickOnce Application | Microsoft Docs"
+title: "Customize default web page for ClickOnce application"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs:

@@ -1,15 +1,15 @@
 ---
-title: "How to: Enforce Maintainable Code with a Code Analysis Check-in Policy"
+title: Use a code analysis check-in policy
 ms.date: 11/04/2016
-ms.topic: "conceptual"
+ms.topic: conceptual
 helpviewer_keywords:
-  - "code analysis, check-in policies"
+- code analysis, check-in policies
 ms.assetid: d1b3b04f-4dd9-40e6-b2d4-b414d33fb647
-author: gewarren
-ms.author: gewarren
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # How to: Enforce maintainable code with a code analysis check-in policy
 

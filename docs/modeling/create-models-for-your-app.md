@@ -3,24 +3,24 @@ title: Create models for your app
 ms.date: 11/04/2016
 ms.topic: conceptual
 f1_keywords:
-  - "vs.teamarch.common.commentlink.properties"
-  - "vs.teamarch.UMLModelExplorer.dependency"
-  - "vs.teamarch.UMLModelExplorer.commentlink"
-  - "vs.teamarch.common.dependency.properties"
-  - "Microsoft.VisualStudio.Uml.Diagrams.CommentShape.IsTransparent"
-  - "vs.teamarch.common.comment.properties"
-  - "vs.teamarch.UMLModelExplorer.comment"
+- vs.teamarch.common.commentlink.properties
+- vs.teamarch.UMLModelExplorer.dependency
+- vs.teamarch.UMLModelExplorer.commentlink
+- vs.teamarch.common.dependency.properties
+- Microsoft.VisualStudio.Uml.Diagrams.CommentShape.IsTransparent
+- vs.teamarch.common.comment.properties
+- vs.teamarch.UMLModelExplorer.comment
 helpviewer_keywords:
-  - "software design"
-  - "software modeling"
-  - "diagrams - modeling, layer"
-  - "software, designing"
-  - "software, modeling"
-author: gewarren
-ms.author: gewarren
+- software design
+- software modeling
+- diagrams - modeling, layer
+- software, designing
+- software, modeling
+author: JoshuaPartlow
+ms.author: joshuapa
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Create models for your app
 
@@ -49,5 +49,5 @@ To visualize the architecture of a system or existing code, create the following
 
 ## Resources
 
-- [Visual Studio Visualization & Modeling Tools Forum](http://go.microsoft.com/fwlink/?LinkId=184720)
+- [Visual Studio Visualization & Modeling Tools Forum](https://social.msdn.microsoft.com/Forums/en-US/home?forum=vsarch)
 - [Visual Studio Extensibility Forum](https://social.msdn.microsoft.com/Forums/vstudio/home?forum=vsx)

@@ -9,8 +9,8 @@ helpviewer_keywords:
   - "<ProjectItem> element [Visual Studio item templates]"
   - "ProjectItem element [Visual Studio item templates]"
 ms.assetid: 9ed94112-0c38-49df-b728-0dd2d0d1eb47
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

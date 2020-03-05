@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "BP_LOCATION_CODE_FILE_LINE structure"
 ms.assetid: 3ff32032-d412-44d3-91bf-870cc354a09e
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

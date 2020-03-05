@@ -47,5 +47,5 @@ HRESULT onUpdateTextAttributes(
 ## Remarks  
  This method indicates that the text attributes associated with the underlying character position range have changed.  
   
-## See Also  
+## See also  
  [IDebugDocumentTextEvents Interface](../../winscript/reference/idebugdocumenttextevents-interface.md)

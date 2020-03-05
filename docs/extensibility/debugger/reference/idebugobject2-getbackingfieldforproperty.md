@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugObject2::GetBackingFieldForProperty method"
 ms.assetid: e72c6338-5573-4fad-8075-f3ade3435424
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -34,9 +34,8 @@ int GetBackingFieldForProperty(
 ```
 
 ## Parameters
- `ppObject`\
-
- [out] An [IDebugObject2](../../../extensibility/debugger/reference/idebugobject2.md) object describing the backing field.
+`ppObject`\
+[out] An [IDebugObject2](../../../extensibility/debugger/reference/idebugobject2.md) object describing the backing field.
 
 ## Return Value
  If successful, returns S_OK; otherwise, returns an error code.

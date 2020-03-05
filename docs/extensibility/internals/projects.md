@@ -9,8 +9,8 @@ helpviewer_keywords:
   - "projects [Visual Studio SDK]"
   - "project types [Visual Studio SDK]"
 ms.assetid: 237742e4-a638-4d5b-a9b3-6a69d627763c
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -35,7 +35,7 @@ In Visual Studio, projects are the containers that developers use to organize so
 
  Explains what actually occurs when you create a new project.
 
-- [VSSDK Samples](https://aka.ms/vs2015sdksamples)
+- [VSSDK Samples](https://github.com/Microsoft/VSSDK-Extensibility-Samples)
  Contains the samples in the VSSDK that deal with projects and solutions.
 
 ## Related Sections

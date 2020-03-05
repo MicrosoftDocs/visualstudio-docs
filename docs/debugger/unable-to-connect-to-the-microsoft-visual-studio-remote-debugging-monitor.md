@@ -20,7 +20,7 @@ ms.workload:
 This message may occur because the remote debugging monitor is not properly set up on the remote machine or the remote machine is inaccessible due to network problems or the presence of a firewall.
 
 > [!IMPORTANT]
-> If you believe you have received this message because of a product bug, please [report this issue](../ide/how-to-report-a-problem-with-visual-studio.md) to Visual Studio. If you need more help, see [Talk to Us](../ide/talk-to-us.md) for ways to contact Microsoft.
+> If you believe you have received this message because of a product bug, please [report this issue](../ide/how-to-report-a-problem-with-visual-studio.md) to Visual Studio. If you need more help, see [Talk to Us](../ide/feedback-options.md) for ways to contact Microsoft.
 
 ## <a name="specificerrors"></a>What is the detailed error message?
 
@@ -73,7 +73,7 @@ Visual Studio could not connect to the remote debugger. This message may occur f
 
 - The port is blocked on the firewall. Make sure the firewall is [not blocking your request](#firewall), especially if you are using a third-party firewall.
 
-- The remote debugger version does not match Visual Studio. To get the correct version of the remote debugger, see [Remote Debugging](../debugger/remote-debugging.md)
+- The remote debugger version does not match Visual Studio. To get the correct version of the remote debugger, see [Remote Debugging](../debugger/remote-debugging.md).
 
 ## <a name="valid_name"></a> The requested name was valid, but no data of the requested type was found
 
@@ -158,5 +158,5 @@ You can solve this in one of the following ways:
 ## More help
  To get more remote debugger help, open the remote debugger's Help page (**Help > Usage** in the remote debugger).
 
-## See Also
+## See also
 - [Remote Debugging](../debugger/remote-debugging.md)

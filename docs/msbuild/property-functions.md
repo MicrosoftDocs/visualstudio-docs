@@ -1,23 +1,25 @@
 ---
-title: "Property Functions | Microsoft Docs"
-ms.date: "02/21/2017"
-ms.topic: "conceptual"
+title: Property Functions | Microsoft Docs
+ms.date: 02/21/2017
+ms.topic: conceptual
 helpviewer_keywords:
-  - "MSBuild, property functions"
+- MSBuild, property functions
 ms.assetid: 2253956e-3ae0-4bdc-9d3a-4881dfae4ddb
-author: mikejo5000
-ms.author: mikejo
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Property functions
 
-In the .NET Framework versions 4 and 4.5, property functions can be used to evaluate MSBuild scripts. Property functions can be used wherever properties appear. Unlike tasks, property functions can be used outside of targets, and are evaluated before any target runs.
+Property functions are calls to .NET Framework methods that appear in MSBuild property definitions. Unlike tasks, property functions can be used outside of targets, and are evaluated before any target runs.
 
- Without using MSBuild tasks, you can read the system time, compare strings, match regular expressions, and perform other actions in your build script. MSBuild will try to convert string to number and number to string, and make other conversions as required.
- 
+Without using MSBuild tasks, you can read the system time, compare strings, match regular expressions, and perform other actions in your build script. MSBuild will try to convert string to number and number to string, and make other conversions as required.
+
 String values returned from property functions have [special characters](msbuild-special-characters.md) escaped. If you want the value to be treated as though it was put directly in the project file, use `$([MSBuild]::Unescape())` to unescape the special characters.
+
+Property functions are available with .NET Framework 4 and later.
 
 ## Property function syntax
 
@@ -31,7 +33,7 @@ These are three kinds of property functions; each function has a different synta
 
 All build property values are just string values. You can use string (instance) methods to operate on any property value. For example, you can extract the drive name (the first three characters) from a build property that represents a full path by using this code:
 
-```fundamental
+```
 $(ProjectOutputFolder.Substring(0,3))
 ```
 
@@ -39,7 +41,7 @@ $(ProjectOutputFolder.Substring(0,3))
 
 In your build script, you can access the static properties and methods of many system classes. To get the value of a static property, use the following syntax, where \<Class> is the name of the system class and \<Property> is the name of the property.
 
-```fundamental
+```
 $([Class]::Property)
 ```
 
@@ -51,7 +53,7 @@ For example, you can use the following code to set a build property to the curre
 
 To call a static method, use the following syntax, where \<Class> is the name of the system class, \<Method> is the name of the method, and (\<Parameters>) is the parameter list for the method:
 
-```fundamental
+```
 $([Class]::Method(Parameters))
 ```
 
@@ -115,7 +117,7 @@ In addition, you can use the following static methods and properties:
 
 If you access a static property that returns an object instance, you can invoke the instance methods of that object. To invoke an instance method, use the following syntax, where \<Class> is the name of the system class, \<Property> is the name of the property, \<Method> is the name of the method, and (\<Parameters>) is the parameter list for the method:
 
-```fundamental
+```
 $([Class]::Property.Method(Parameters))
 ```
 
@@ -131,13 +133,13 @@ For example, you can use the following code to set a build property to the curre
 
 Several static methods in your build can be accessed to provide arithmetic, bitwise logical, and escape character support. You access these methods by using the following syntax, where \<Method> is the name of the method and (\<Parameters>) is the parameter list for the method.
 
-```fundamental
+```
 $([MSBuild]::Method(Parameters))
 ```
 
 For example, to add together two properties that have numeric values, use the following code.
 
-```fundamental
+```
 $([MSBuild]::Add($(NumberOne), $(NumberTwo)))
 ```
 
@@ -166,8 +168,8 @@ Here is a list of MSBuild property functions:
 |string NormalizePath(params string[] path)|Gets the canonicalized full path of the provided path and ensures it contains the correct directory separator characters for the current operating system.|
 |string NormalizeDirectory(params string[] path)|Gets the canonicalized full path of the provided directory and ensures it contains the correct directory separator characters for the current operating system while ensuring it has a trailing slash.|
 |string EnsureTrailingSlash(string path)|If the given path doesn't have a trailing slash then add one. If the path is an empty string, does not modify it.|
-|string GetPathOfFileAbove(string file, string startingDirectory)|Searches for a file based on the current build file's location, or based on `startingDirectory`, if specified.|
-|GetDirectoryNameOfFileAbove(string startingDirectory, string fileName)|Locate a file in either the directory specified or a location in the directory structure above that directory.|
+|string GetPathOfFileAbove(string file, string startingDirectory)|Searches for and returns the full path to a file in the directory structure above the current build file's location, or based on `startingDirectory`, if specified.|
+|GetDirectoryNameOfFileAbove(string startingDirectory, string fileName)|Locate and return the directory of a file in either the directory specified or a location in the directory structure above that directory.|
 |string MakeRelative(string basePath, string path)|Makes `path` relative to `basePath`. `basePath` must be an absolute directory. If `path` cannot be made relative, it is returned verbatim. Similar to `Uri.MakeRelativeUri`.|
 |string ValueOrDefault(string conditionValue, string defaultValue)|Return the string in parameter 'defaultValue' only if parameter 'conditionValue' is empty, else, return the value conditionValue.|
 
@@ -175,7 +177,7 @@ Here is a list of MSBuild property functions:
 
 You can combine property functions to form more complex functions, as the following example shows.
 
-```fundamental
+```
 $([MSBuild]::BitwiseAnd(32, $([System.IO.File]::GetAttributes(tempFile))))
 ```
 
@@ -189,7 +191,7 @@ The `DoesTaskHostExist` property function in MSBuild returns whether a task host
 
 This property function has the following syntax:
 
-```fundamental
+```
 $([MSBuild]::DoesTaskHostExist(string theRuntime, string theArchitecture))
 ```
 
@@ -199,7 +201,7 @@ The `EnsureTrailingSlash` property function in MSBuild adds a trailing slash if 
 
 This property function has the following syntax:
 
-```fundamental
+```
 $([MSBuild]::EnsureTrailingSlash('$(PathProperty)'))
 ```
 
@@ -209,7 +211,7 @@ The MSBuild `GetDirectoryNameOfFileAbove` property function looks for a file in 
 
  This property function has the following syntax:
 
-```fundamental
+```
 $([MSBuild]::GetDirectoryNameOfFileAbove(string ThePath, string TheFile))
 ```
 
@@ -221,7 +223,7 @@ $([MSBuild]::GetDirectoryNameOfFileAbove(string ThePath, string TheFile))
 
 ## MSBuild GetPathOfFileAbove
 
-The `GetPathOfFileAbove` property function in MSBuild returns the path of the file immediately preceding this one. It is functionally equivalent to calling
+The `GetPathOfFileAbove` property function in MSBuild returns the path of the specified file, if located in the directory structure above the current directory. It is functionally equivalent to calling
 
 ```xml
 <Import Project="$([MSBuild]::GetDirectoryNameOfFileAbove($(MSBuildThisFileDirectory), dir.props))\dir.props" />
@@ -229,7 +231,7 @@ The `GetPathOfFileAbove` property function in MSBuild returns the path of the fi
 
 This property function has the following syntax:
 
-```fundamental
+```
 $([MSBuild]::GetPathOfFileAbove(dir.props))
 ```
 
@@ -239,7 +241,7 @@ The MSBuild `GetRegistryValue` property function returns the value of a registry
 
 The following examples show how this function is used:
 
-```fundamental
+```
 $([MSBuild]::GetRegistryValue(`HKEY_CURRENT_USER\Software\Microsoft\VisualStudio\10.0\Debugger`, ``))                                  // default value
 $([MSBuild]::GetRegistryValue(`HKEY_CURRENT_USER\Software\Microsoft\VisualStudio\10.0\Debugger`, `SymbolCacheDir`))
 $([MSBuild]::GetRegistryValue(`HKEY_LOCAL_MACHINE\SOFTWARE\(SampleName)`, `(SampleValue)`))             // parens in name and value
@@ -251,7 +253,7 @@ The MSBuild `GetRegistryValueFromView` property function gets system registry da
 
 The syntax for this property function is:
 
-```fundamental
+```
 [MSBuild]::GetRegistryValueFromView(string keyName, string valueName, object defaultValue, params object[] views)
 ```
 
@@ -269,7 +271,7 @@ The following registry views are available:
 
 The following is an example.
 
- ```fundamental
+ ```
 $([MSBuild]::GetRegistryValueFromView('HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Microsoft SDKs\Silverlight\v3.0\ReferenceAssemblies', 'SLRuntimeInstallPath', null, RegistryView.Registry64, RegistryView.Registry32))
 ```
 
@@ -281,7 +283,7 @@ The MSBuild `MakeRelative` property function returns the relative path of the se
 
 This property function has the following syntax:
 
-```fundamental
+```
 $([MSBuild]::MakeRelative($(FileOrFolderPath1), $(FileOrFolderPath2)))
 ```
 
@@ -315,8 +317,8 @@ The following example shows how this function is used.
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
 
     <PropertyGroup>
-        <Value1>$([MSBuild]::ValueOrDefault(`$(UndefinedValue)`, `a`))</Value1>
-        <Value2>$([MSBuild]::ValueOrDefault(`b`, `$(Value1)`))</Value2>
+        <Value1>$([MSBuild]::ValueOrDefault('$(UndefinedValue)', 'a'))</Value1>
+        <Value2>$([MSBuild]::ValueOrDefault('b', '$(Value1)'))</Value2>
     </PropertyGroup>
 
     <Target Name="MyTarget">

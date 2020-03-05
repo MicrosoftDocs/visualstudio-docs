@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "Strings element (VSCT XML schema)"
   - "VSCT XML schema elements, Strings"
 ms.assetid: 23a42074-a689-481d-824f-b43aa448f266
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -54,5 +54,5 @@ The Strings element must contain at least a **ButtonText** child element. All ot
 |[Menu Element](../extensibility/menu-element.md)|Defines a single menu item.|
 |[Combo Element](../extensibility/combo-element.md)|Defines commands that appear in a combo box.|
 
-## See Also
+## See also
 - [Visual Studio Command Table (.Vsct) Files](../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)

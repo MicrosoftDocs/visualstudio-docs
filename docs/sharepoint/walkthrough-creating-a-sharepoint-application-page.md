@@ -148,4 +148,4 @@ You can learn more about how to design SharePoint page content by using the Visu
 ## See also
 
 [How to: Create an application page](../sharepoint/how-to-create-an-application-page.md)
-[Application _layouts Page Type](http://go.microsoft.com/fwlink/?LinkID=169274)
+[Application _layouts Page Type](/previous-versions/office/aa979604(v=office.14))

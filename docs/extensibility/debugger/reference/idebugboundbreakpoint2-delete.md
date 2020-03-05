@@ -8,8 +8,8 @@ helpviewer_keywords:
   - "Delete method"
   - "IDebugBoundBreakpoint2::Delete method"
 ms.assetid: 7088dc66-f24a-446f-a52a-397d02457a41
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

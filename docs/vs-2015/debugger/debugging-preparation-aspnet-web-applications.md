@@ -37,11 +37,11 @@ The [!INCLUDE[vstecasp](../includes/vstecasp-md.md)]Web site template creates a 
   
 1. Set one or more breakpoints in your functions and event handlers.  
   
-     For more information, see [Breakpoints and Tracepoints](http://msdn.microsoft.com/fe4eedc1-71aa-4928-962f-0912c334d583).  
+     For more information, see [Breakpoints and Tracepoints](https://msdn.microsoft.com/fe4eedc1-71aa-4928-962f-0912c334d583).  
   
 2. When a breakpoint is hit, step through code inside the function. Observe the execution of your code until you isolate the problem.  
   
-     For more information, see [Stepping](http://msdn.microsoft.com/8791dac9-64d1-4bb9-b59e-8d59af1833f9) and [Debugging Web Applications and Script](../debugger/debugging-web-applications-and-script.md).  
+     For more information, see [Stepping](https://msdn.microsoft.com/8791dac9-64d1-4bb9-b59e-8d59af1833f9) and [Debugging Web Applications and Script](../debugger/debugging-web-applications-and-script.md).  
   
 ## Changing Default Configurations  
  If you want to change the default debug and release configurations created by [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], you can do so. For more information, see [How to: Set Debug and Release Configurations](../debugger/how-to-set-debug-and-release-configurations.md).  

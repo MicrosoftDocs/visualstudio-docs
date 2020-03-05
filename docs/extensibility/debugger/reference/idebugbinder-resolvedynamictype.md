@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugBinder::ResolveDynamicType method"
 ms.assetid: 2c36ef92-5b44-4cfd-988e-54a2e5a6710c
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -36,13 +36,11 @@ int ResolveDynamicType(
 ```
 
 ## Parameters
- `pDynamic`\
+`pDynamic`\
+[in] An [IDebugDynamicField](../../../extensibility/debugger/reference/idebugdynamicfield.md) representing a type of a variable.
 
- [in] An [IDebugDynamicField](../../../extensibility/debugger/reference/idebugdynamicfield.md) representing a type of a variable.
-
- `ppResolved`\
-
- [out] Returns an [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) giving specific information about the variable's type.
+`ppResolved`\
+[out] Returns an [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) giving specific information about the variable's type.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

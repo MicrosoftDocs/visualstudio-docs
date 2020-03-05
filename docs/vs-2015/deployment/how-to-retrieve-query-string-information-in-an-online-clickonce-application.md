@@ -73,7 +73,7 @@ The *query string* is the portion of a URL beginning with a question mark (?) th
  If your application is online only, it will always be activated through a URL. Even in this case, however, your application must be written to function properly if the query string parameters are missing or corrupted.  
   
 ## .NET Framework Security  
- Allow passing URL parameters to your [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] application only if you plan to cleanse the input of any malicious characters before using it. A string embedded with quotes, slashes, or semicolons, for example, might perform arbitrary data operations if used unfiltered in a SQL query against a database. For more information on query string security, see [Script Exploits Overview](http://msdn.microsoft.com/library/772c7312-211a-4eb3-8d6e-eec0aa1dcc07).  
+ Allow passing URL parameters to your [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] application only if you plan to cleanse the input of any malicious characters before using it. A string embedded with quotes, slashes, or semicolons, for example, might perform arbitrary data operations if used unfiltered in a SQL query against a database. For more information on query string security, see [Script Exploits Overview](https://msdn.microsoft.com/library/772c7312-211a-4eb3-8d6e-eec0aa1dcc07).  
   
 ## See Also  
  [Securing ClickOnce Applications](../deployment/securing-clickonce-applications.md)

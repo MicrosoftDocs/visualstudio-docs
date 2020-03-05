@@ -5,8 +5,8 @@ ms.topic: conceptual
 helpviewer_keywords:
   - "editors [Visual Studio SDK], new - getting the DTE object"
 ms.assetid: c1f40bab-c6ec-45b0-8333-ea5ceb02a39d
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -27,8 +27,9 @@ To follow this walkthrough, you must install the Visual Studio SDK. For more inf
 
 ::: moniker range=">=vs-2019"
 
-2. Add the following assembly reference to the project:
+2. Add the following assembly references to the project:
 
+    - Microsoft.VisualStudio.Shell.Framework
     - Microsoft.VisualStudio.Shell.Immutable.10.0
 
 3. In the *DTETestProvider.cs* file, add the following `using` directives:

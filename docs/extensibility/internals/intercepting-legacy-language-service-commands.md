@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "commands, intercepting language service"
   - "language services, intercepting commands"
 ms.assetid: eea69f03-349c-44bb-bd4f-4925c0dc3e55
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

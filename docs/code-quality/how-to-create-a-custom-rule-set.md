@@ -3,20 +3,20 @@ title: Create a custom code analysis rule set
 ms.date: 11/02/2018
 ms.topic: conceptual
 f1_keywords:
-  - "vs.codeanalysis.addremoverulesets"
+- vs.codeanalysis.addremoverulesets
 helpviewer_keywords:
-  - "rule sets"
-author: gewarren
-ms.author: gewarren
+- rule sets
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Customize a rule set
 
 You can create a custom rule set to meet specific project needs for code analysis.
 
-## Create a custom rule set
+## Create a custom rule set from an existing rule set
 
 To create a custom rule set, you can open a built-in rule set in the **rule set editor**. From there, you can add or remove specific rules, and you can change the action that occurs when a rule is violated&mdash;for example, show a warning or an error.
 
@@ -24,17 +24,32 @@ To create a custom rule set, you can open a built-in rule set in the **rule set 
 
 2. On the **Properties** pages, select the **Code Analysis** tab.
 
+::: moniker range="vs-2017"
+
 3. In the **Run this rule set** drop-down list, do one of the following:
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+3. In the **Active rules** drop-down list, do one of the following:
+
+::: moniker-end
 
    - Select the rule set that you want to customize.
 
      \- or -
 
-   - Select **\<Browse...>** to specify an existing rule set that is not in the list.
+   - Select **\<Browse>** to specify an existing rule set that is not in the list.
 
 4. Select **Open** to display the rules in the rule set editor.
 
-You can also create a new rule set file from the **New File** dialog:
+> [!NOTE]
+> If you have a .NET Core or .NET Standard project, the process is a little different because there's no **Code Analysis** property tab. Follow the steps to [copy a predefined rule set to your project and set it as the active rule set](analyzer-rule-sets.md). After you've copied over a rule set, you can [edit it in the Visual Studio rule set editor](working-in-the-code-analysis-rule-set-editor.md) by opening it from **Solution Explorer**.
+
+## Create a new rule set
+
+You can create a new rule set file from the **New File** dialog:
 
 1. Select **File** > **New** > **File**, or press **Ctrl**+**N**.
 
@@ -44,13 +59,26 @@ You can also create a new rule set file from the **New File** dialog:
 
    The new *.ruleset* file opens in the rule set editor.
 
-### Create a custom rule set from multiple rule sets
+## Create a custom rule set from multiple rule sets
 
-1. In Solution Explorer, right-click the project and then select **Properties**.
+> [!NOTE]
+> The following procedure does not apply to .NET Core projects, which don't have a **Code Analysis** property tab.
+
+1. In **Solution Explorer**, right-click the project and then select **Properties**.
 
 2. On the **Properties** pages, select the **Code Analysis** tab.
 
-3. Select **\<Choose multiple rule sets...>** from **Run this rule set**.
+::: moniker range="vs-2017"
+
+3. Select **\<Choose multiple rule sets>** from **Run this rule set**.
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+3. Select **\<Choose multiple rule sets>** from **Active rules**.
+
+::: moniker-end
 
 4. In the **Add or Remove Rule Sets** dialog box, select the rule sets you want to include in your new rule set.
 
@@ -62,7 +90,7 @@ You can also create a new rule set file from the **New File** dialog:
 
 6. Select **Open** to open the new rule set in the rule set editor.
 
-### Rule precedence
+## Rule precedence
 
 - If the same rule is listed two or more times in a rule set with different severities, the compiler generates an error. For example:
 
@@ -106,7 +134,7 @@ To change the display name of a rule set that's open in the editor, open the **P
 
 ## Next steps
 
-Now that you have a rule set, the next step is to customize the rules by adding or removing rules, or modifying the severity of rule violations.
+Now that you have a rule set, the next step is to customize the rules by adding or removing rules or modifying the severity of rule violations.
 
 > [!div class="nextstepaction"]
 > [Modify rules in the rule set editor](../code-quality/working-in-the-code-analysis-rule-set-editor.md)

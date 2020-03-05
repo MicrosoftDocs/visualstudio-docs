@@ -67,7 +67,7 @@ HRESULT GetScriptletTextAttributes(
   
  This call is provided because scriptlets tend to be expressions and may have a different syntax than a script block. If they have the same syntax, the implementation of this method will be identical to the implementation of the `GetScriptTextAttributes` method.  
   
-## See Also  
+## See also  
  [IActiveScriptDebug Interface](../../winscript/reference/iactivescriptdebug-interface.md)   
  [IActiveScriptDebug::GetScriptTextAttributes](../../winscript/reference/iactivescriptdebug-getscripttextattributes.md)   
  [IDebugDocumentText Interface](../../winscript/reference/idebugdocumenttext-interface.md)   

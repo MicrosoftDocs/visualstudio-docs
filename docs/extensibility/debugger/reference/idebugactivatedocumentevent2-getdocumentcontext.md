@@ -8,8 +8,8 @@ helpviewer_keywords:
   - "GetDocumentContext method"
   - "IDebugActivateDocumentEvent2::GetDocumentContext method"
 ms.assetid: e7472069-7337-4ef4-8f8a-8c027a2e22f4
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -34,10 +34,9 @@ int GetDocumentContext ( 
 );
 ```
 
-#### Parameters
- `ppDocContext`\
-
- [out] Returns an [IDebugDocumentContext2](../../../extensibility/debugger/reference/idebugdocumentcontext2.md) object that represents a position in a source file document.
+## Parameters
+`ppDocContext`\
+[out] Returns an [IDebugDocumentContext2](../../../extensibility/debugger/reference/idebugdocumentcontext2.md) object that represents a position in a source file document.
 
 ## Remarks
  This position might be used to show the caret, for example.

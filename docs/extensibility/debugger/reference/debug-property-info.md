@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "DEBUG_PROPERTY_INFO structure"
 ms.assetid: 5a085d18-62c6-4740-b9e9-3f5db6bfdf7f
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

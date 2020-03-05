@@ -3,17 +3,17 @@ title: Find and replace in files
 ms.date: 11/04/2016
 ms.topic: conceptual
 f1_keywords:
-  - "vs.findreplace.replaceinfiles"
-  - "vs.replaceinfiles"
+- vs.findreplace.replaceinfiles
+- vs.replaceinfiles
 helpviewer_keywords:
-  - "text searches, replacing text"
-  - "find and replace"
-  - "replace in files"
-author: gewarren
-ms.author: gewarren
+- text searches, replacing text
+- find and replace
+- replace in files
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Replace in Files
 

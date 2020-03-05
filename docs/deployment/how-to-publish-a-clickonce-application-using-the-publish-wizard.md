@@ -1,5 +1,5 @@
 ---
-title: "How to: Publish a ClickOnce Application using the Publish Wizard | Microsoft Docs"
+title: "Publish ClickOnce application using Publish wizard"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs:

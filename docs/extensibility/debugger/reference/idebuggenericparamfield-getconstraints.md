@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "IDebugGenericParamField::GetConstraints"
   - "GetConstraints"
 ms.assetid: 86a78b5a-ee0f-4999-a0ba-919d3dc7d969
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -38,16 +38,13 @@ int GetConstraints(
 
 ## Parameters
 `cConstraints`\
-
- [in] Number of constraints.
+[in] Number of constraints.
 
 `ppConstraints`\
-
- [out] Returns an array that contains the constraints associated with this field.
+[out] Returns an array that contains the constraints associated with this field.
 
 `pcConstraints`\
-
- [in, out] Number of constraints in the `ppConstraints` array.
+[in, out] Number of constraints in the `ppConstraints` array.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns an error code.

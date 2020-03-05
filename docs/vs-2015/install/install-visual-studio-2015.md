@@ -24,7 +24,7 @@ manager: jillfra
 
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-This page includes detailed information to help you with installing **Visual Studio 2015**, our integrated suite of productivity tools for developers. We've also included links to get you quickly to information about [features](https://www.visualstudio.com/news/vs2015-vs.aspx), [editions](http://go.microsoft.com/fwlink/?LinkID=242142), [system requirements](https://www.visualstudio.com/products/visual-studio-2015-compatibility-vs), [downloads](http://go.microsoft.com/fwlink/?LinkId=517106), and more.
+This page includes detailed information to help you with installing **Visual Studio 2015**, our integrated suite of productivity tools for developers. We've also included links to get you quickly to information about [features](https://www.visualstudio.com/news/vs2015-vs.aspx), [editions](https://visualstudio.microsoft.com/en-US/products/compare-visual-studio-products-vs), [system requirements](https://www.visualstudio.com/products/visual-studio-2015-compatibility-vs), [downloads](https://visualstudio.microsoft.com/downloads/), and more.
 
 ## Quick Links
 
@@ -34,7 +34,7 @@ Before we dig in to the details, here's a list of our most frequently requested 
 |------------------|----------------|
 |![Download Visual Studio](../install/media/downloads.png "Downloads") |**Downloads**: To install Visual Studio 2015, you can download a product executable file from the  [My.VisualStudio.com](https://my.visualstudio.com/downloads?q=visual%20studio%20enterprise%202015) page (subscription required), or use the installation media from the boxed product. [Learn more about how to download current or previous versions of Visual Studio](https://www.visualstudio.com/vs/older-downloads/).|
 |![Learn more about features](../install/media/features.png "Features") |**Features**: To learn  more about the features in Visual Studio 2015, see the release notes for [RTM](https://www.visualstudio.com/news/vs2015-vs), [Update 1](https://www.visualstudio.com/news/vs2015-update1-vs), [Update 2](https://www.visualstudio.com/news/vs2015-update2-vs), and [Update 3](https://www.visualstudio.com/news/releasenotes/vs2015-update3-vs).|
-|![Find out what's in each SKU](../install/media/sku.png "SKUs") |**SKUs**: To find out what's available in each edition of Visual Studio 2015, see our [Compare Visual Studio Offerings](http://go.microsoft.com/fwlink/?LinkID=242142) page.|
+|![Find out what's in each SKU](../install/media/sku.png "SKUs") |**SKUs**: To find out what's available in each edition of Visual Studio 2015, see our [Compare Visual Studio Offerings](https://visualstudio.microsoft.com/en-US/products/compare-visual-studio-products-vs) page.|
 |![View system requirements](../install/media/system-requirements.png "System Requirements") |**System Requirements**: To view the system requirements for each edition of Visual Studio 2015, see the [Visual Studio 2015 Compatibility](https://www.visualstudio.com/products/visual-studio-2015-compatibility-vs) page.|
 |![Locate your Product Key](../install/media/product-keys.png "Product Keys") |**Product Keys**: To locate your product key, see the [How to: Locate the Visual Studio Product Key](../install/how-to-locate-the-visual-studio-product-key.md) topic.|
 |![Find out about licensing](../install/media/licensing.png "Licensing") |**Licensing**: To find out about licensing options for both individuals or enterprise customers, see  the [Visual Studio and MSDN Licensing](https://www.microsoft.com/download/details.aspx?id=13350) white paper.|
@@ -61,7 +61,7 @@ Before we dig in to the details, here's a list of our most frequently requested 
 |**Common Tools**|Git for Windows (3rd Party)<br />GitHub Extension for Visual Studio (3rd Party)<br /> Visual Studio Extensibility Tools|
 
 ## <a name="installing"></a> Installing Visual Studio
- You can install Visual Studio by using installation media (DVDs), by using your Visual Studio subscription service from the [My.VisualStudio.com](https://my.visualstudio.com/downloads?q=visual%20studio%20enterprise%202015) website, by downloading  a web installer from the [Visual Studio Downloads](http://go.microsoft.com/fwlink/?LinkId=517106) website, or by creating an offline installation layout (see the [Create an Offline Installation of Visual Studio](../install/create-an-offline-installation-of-visual-studio.md) page for more details).
+ You can install Visual Studio by using installation media (DVDs), by using your Visual Studio subscription service from the [My.VisualStudio.com](https://my.visualstudio.com/downloads?q=visual%20studio%20enterprise%202015) website, by downloading  a web installer from the [Visual Studio Downloads](https://visualstudio.microsoft.com/downloads/) website, or by creating an offline installation layout (see the [Create an Offline Installation of Visual Studio](../install/create-an-offline-installation-of-visual-studio.md) page for more details).
 
 > [!IMPORTANT]
 > You need administrator credentials to install [!INCLUDE[vsprvs](../includes/vsprvs-md.md)]. However, you don't need them to use [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] after you install it.
@@ -86,7 +86,7 @@ Before we dig in to the details, here's a list of our most frequently requested 
 |Visual Studio Community|vs_community.exe|
 
 ### <a name="BKMK_Website"></a> Downloading from the product website
- Visit the [Visual Studio Downloads](http://go.microsoft.com/fwlink/?LinkId=517106) page, and select the edition of Visual Studio that you want.
+ Visit the [Visual Studio Downloads](https://visualstudio.microsoft.com/downloads/) page, and select the edition of Visual Studio that you want.
 
 ### Downloading from your subscription service
  Visit  the [My.VisualStudio.com](https://my.visualstudio.com/downloads?q=visual%20studio%20enterprise%202015) page, and select the edition of Visual Studio that you want.
@@ -102,7 +102,7 @@ Before we dig in to the details, here's a list of our most frequently requested 
 
  If you run Windows Server 2008 R2 with Hyper-V enabled and an accelerated graphics adapter, you may experience system slowdowns.
 
- For more information, see the following page on the Microsoft website: [Video performance may decrease when a Windows Server 2008 or Windows Server 2008 R2 based computer has the Hyper-V role enabled and an accelerated display adapter installed](http://go.microsoft.com/fwlink/?LinkID=231084).
+ For more information, see the following page on the Microsoft website: [Video performance may decrease when a Windows Server 2008 or Windows Server 2008 R2 based computer has the Hyper-V role enabled and an accelerated display adapter installed](https://support.microsoft.com/kb/961661).
 
  **Emulating Devices with Hyper-V**
 
@@ -172,9 +172,9 @@ Before we dig in to the details, here's a list of our most frequently requested 
 ## <a name="troubleshooting"></a> Troubleshooting an installation
  Use these resources to get help for setup and installation issues:
 
-- [Visual Studio Setup and Installation](http://go.microsoft.com/fwlink/?LinkID=151190) forum. Review questions and answers from others in the Visual Studio community. If you don't find what you need, ask your own questions.
+- [Visual Studio Setup and Installation](https://social.msdn.microsoft.com/Forums/en-US/vssetup/threads) forum. Review questions and answers from others in the Visual Studio community. If you don't find what you need, ask your own questions.
 
-- [Microsoft Support for Visual Studio](http://go.microsoft.com/fwlink/?LinkID=251019) website. Read knowledge base (KB) articles and learn how to contact Microsoft Support for information about issues with Visual Studio installation.
+- [Microsoft Support for Visual Studio](https://support.microsoft.com/ph/1117) website. Read knowledge base (KB) articles and learn how to contact Microsoft Support for information about issues with Visual Studio installation.
 
 ## <a name="relatedTopics"></a> Related Topics
 

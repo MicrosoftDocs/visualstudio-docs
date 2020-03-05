@@ -1,22 +1,22 @@
 ---
-title: "Walkthrough: Save data in a transaction"
+title: 'Walkthrough: Save data in a transaction'
 ms.date: 09/08/2017
 ms.topic: conceptual
 dev_langs:
-  - "VB"
-  - "CSharp"
+- VB
+- CSharp
 helpviewer_keywords:
-  - "System.Transactions namespace"
-  - "data [Visual Studio], saving in a transaction"
-  - "transactions, saving data"
-  - "Transactions namespace"
-  - "saving data"
+- System.Transactions namespace
+- data [Visual Studio], saving in a transaction
+- transactions, saving data
+- Transactions namespace
+- saving data
 ms.assetid: 80260118-08bc-4b37-bfe5-9422ee7a1e4e
-author: gewarren
-ms.author: gewarren
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "data-storage"
+- data-storage
 ---
 # Walkthrough: Save data in a transaction
 

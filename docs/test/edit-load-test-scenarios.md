@@ -3,12 +3,12 @@ title: Load Test Scenarios
 ms.date: 10/03/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "load tests, scenarios"
-  - "load tests, user activities"
-  - "load tests, modeling scenarios"
+- load tests, scenarios
+- load tests, user activities
+- load tests, modeling scenarios
 ms.assetid: fec04f2e-bf38-4d44-b2ec-fa50f58fd0d9
-author: gewarren
-ms.author: gewarren
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ---
 # Edit load test scenarios

@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "TEXT_DOC_ATTR_2 enumeration"
 ms.assetid: 2333b33b-042b-4ac6-9ebe-e66f95f52f51
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

@@ -1,5 +1,5 @@
 ---
-title: "How to: Add a Trusted Publisher to a Client Computer for ClickOnce Applications | Microsoft Docs"
+title: "Add trusted publisher to client computer for ClickOnce apps"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs:
@@ -32,7 +32,7 @@ With Trusted Application Deployment, you can configure client computers so that 
 
 1. Obtain a digital certificate from a CA.
 
-2. Export the certificate into the Base64 X.509 (*.cer*) format. For more information about certificate formats, see [Export a certificate](http://go.microsoft.com/fwlink/?LinkId=164793).
+2. Export the certificate into the Base64 X.509 (*.cer*) format. For more information about certificate formats, see [Export a certificate](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc730988(v=ws.10)).
 
 3. From the command prompt on client computers, run the following command:
 
@@ -42,7 +42,7 @@ With Trusted Application Deployment, you can configure client computers so that 
 
 1. Obtain a digital certificate from a CA.
 
-2. Export the certificate into the Base64 X.509 (*.cer*) format. For more information about certificate formats, see [Export a Certificate](http://go.microsoft.com/fwlink/?LinkId=164793).
+2. Export the certificate into the Base64 X.509 (*.cer*) format. For more information about certificate formats, see [Export a Certificate](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc730988(v=ws.10)).
 
 3. From the command prompt on client computers, run the following command:
 

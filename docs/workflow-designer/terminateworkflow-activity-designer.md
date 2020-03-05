@@ -1,15 +1,15 @@
 ---
-title: "Workflow Designer - TerminateWorkflow Activity Designer"
+title: Workflow Designer - TerminateWorkflow Activity Designer
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "System.Activities.Statements.TerminateWorkflow.UI"
+- System.Activities.Statements.TerminateWorkflow.UI
 ms.assetid: 08e632ed-0724-4fb4-9df1-f8d443eaf0ac
-author: gewarren
-ms.author: gewarren
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # TerminateWorkflow Activity Designer
 

@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "user interfaces, updating"
   - "commands, updating UI"
 ms.assetid: 376e2f56-e7bf-4e62-89f5-3dada84a404b
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -44,6 +44,6 @@ After you implement a command, you can add code to update the user interface wit
 
          Notice that you can obtain the <xref:Microsoft.VisualStudio.Shell.Interop.IOleInPlaceComponentUIManager> interface by calling the `QueryInterface` method on an <xref:Microsoft.VisualStudio.Shell.Interop.IOleComponentUIManager> object or by obtaining the interface from the <xref:Microsoft.VisualStudio.Shell.Interop.SOleComponentUIManager> service.
 
-## See Also
+## See also
 - [How VSPackages Add User Interface Elements](../extensibility/internals/how-vspackages-add-user-interface-elements.md)
 - [Implementation](../extensibility/internals/command-implementation.md)

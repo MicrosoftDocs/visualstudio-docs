@@ -3,13 +3,13 @@ title: Private data for problem reports
 ms.date: 06/21/2018
 ms.topic: conceptual
 helpviewer_keywords:
-  - developer community privacy
-  - privacy, developer community
-author: gewarren
-ms.author: gewarren
+- developer community privacy
+- privacy, developer community
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Developer Community data privacy
 
@@ -48,34 +48,36 @@ If **Report a problem** is initiated from Visual Studio, we collect one or more 
 
 - Visual Studio in-memory activity log file
 
-- PerfWatson files, if Watson collection is enabled, from the *VSFeedbackPerfWatsonData* folder
+- PerfWatson files, if Watson collection is enabled
 
-- LiveShare log files, if they exist, from the *VSFeedbackVSRTCLogs* folder
+- LiveShare log files, if they exist
 
-- Xamarin log files, if they exist, from *%LOCALAPPDATA%\Xamarin\Logs*
+- Xamarin log files, if they exist
 
-- Nuget log files, if they exist, from *%TEMP%\NuGetScratch\nuget-dg\nugetSpec.dg*
+- Nuget log files, if they exist
 
-- Web debugger log files, if they exist:
+- Web debugger log files, if they exist
 
-   - *%TEMP%\vscode-chrome-debug.txt*
+- Service Hub logs and MEF error logs, if they exist
 
-   - *%TEMP%\vscode-node-debug2.txt*
+- Python logs, if they exist
 
-   - *%TEMP%\vscode-edge-debug.txt*
+- Windows Forms logs, if they exist
 
 - A screenshot, if you choose to include it
 
 - Recording data, if you choose to include a recording, which includes:
 
-   - Steps to reproduce the problem
+  - Steps to reproduce the problem
 
-   - ETL trace file
+  - ETL trace file
 
-   - Dump file
+  - Dump file
 
-    > [!NOTE]
-    > You can delete any of the recording data that you don't wish to submit before submitting the report.
+> [!NOTE]
+> Log files, screenshots and recording data you send can significantly increase Microsoft's ability understand and respond to your issue.  So we recommend including them. To protect your privacy, any attached log files, screenshots and recording data are sent only to Microsoft when you provide permission by submitting the problem report with which they are included. You can see which files are included on the 'Summary' step of the 'Report a Problem' window before submitting the report. You can exclude system log files from the report by unchecking 'Attach system logs' in the 'Summary' step. For reference, see the following screenshot. 
+  > ![Report a Problem - Summary of logs collected](media/report-a-problem-logs-collected.png)
+
 
 ## See also
 

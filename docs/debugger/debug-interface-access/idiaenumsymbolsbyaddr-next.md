@@ -45,6 +45,6 @@ HRESULT Next ( 
 ## Remarks
  This method updates the enumerator position by the number of elements fetched.
 
-## See Also
+## See also
 - [IDiaEnumSymbolsByAddr](../../debugger/debug-interface-access/idiaenumsymbolsbyaddr.md)
 - [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)

@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "CommandFlag element (VSCT XML schema)"
   - "VSCT XML schema elements, CommandFlag"
 ms.assetid: 5ef63399-d2db-4dc1-97ce-be1bd4ef4e39
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

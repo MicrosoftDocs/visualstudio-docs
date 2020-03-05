@@ -1,6 +1,6 @@
 ---
 title: "Upgrade and migrate Office solutions"
-ms.date: "02/02/2017"
+ms.date: "08/14/2019"
 ms.topic: "conceptual"
 dev_langs:
   - "VB"
@@ -20,8 +20,7 @@ ms.workload:
 # Upgrade and migrate Office solutions
   If you have a Microsoft Office project that was created in an earlier version of Visual Studio, you must upgrade the project to use it in current versions of Visual Studio. To upgrade a Microsoft Office project, open it in a version of Visual Studio that includes the Microsoft Office developer tools. For more information about the versions of Visual Studio that include the Microsoft Office developer tools, see [Configure a computer to develop Office solutions](../vsto/configuring-a-computer-to-develop-office-solutions.md).
 
-> [!NOTE]
-> Interested in developing solutions that extend the Office experience across [multiple platforms](https://dev.office.com/add-in-availability)? Check out the new [Office Add-ins model](https://dev.office.com/docs/add-ins/overview/office-add-ins). Office Add-ins have a small footprint compared to VSTO add-ins and solutions, and you can build them by using almost any web programming technology, such as HTML5, JavaScript, CSS3, and XML.
+[!include[Add-ins note](includes/addinsnote.md)]
 
 > [!NOTE]
 > Visual Studio cannot upgrade InfoPath form template projects that were created by using previous versions of Visual Studio. These types of projects are not supported in the current release of Visual Studio.
@@ -71,7 +70,7 @@ ms.workload:
  There are some additional considerations for upgrading document-level customizations and VSTO Add-ins that target Microsoft Office 2003.
 
 ### Document-level projects
- If the document in the project contains Windows Forms controls, you must also have the Visual Studio 2005 Tools for Office Second Edition Runtime installed before you upgrade the project. If this version of the runtime is not installed on the development computer before you upgrade the project, the upgraded project might contain compile or run time errors. After you finish upgrading the project, you can uninstall the Visual Studio 2005 Tools for Office Second Edition Runtime from the development computer if it is not being used by any other Office solutions. This version of the runtime is available as a redistributable package from the Microsoft Download Center at [Microsoft Visual Studio 2005 Tools for Office Second Edition Runtime (VSTO 2005 SE) (x86)](http://go.microsoft.com/fwlink/?linkid=49612).
+ If the document in the project contains Windows Forms controls, you must also have the Visual Studio 2005 Tools for Office Second Edition Runtime installed before you upgrade the project. If this version of the runtime is not installed on the development computer before you upgrade the project, the upgraded project might contain compile or run time errors. After you finish upgrading the project, you can uninstall the Visual Studio 2005 Tools for Office Second Edition Runtime from the development computer if it is not being used by any other Office solutions. This version of the runtime is available as a redistributable package from the Microsoft Download Center at [Microsoft Visual Studio 2005 Tools for Office Second Edition Runtime (VSTO 2005 SE) (x86)](https://www.microsoft.com/download/details.aspx?id=2392).
 
 ### VSTO Add-in projects
  If the solution file for your original project included a Setup or InstallShield Limited Edition project that was configured to install the VSTO Add-in, Visual Studio upgrades the project, but it does not make any further changes to the project. If you want to keep using a Windows Installer file to deploy your VSTO Add-in, you must modify the Setup or InstallShield Limited Edition project to install new pre-requisites such as the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)], the Visual Studio 2010 Tools for Office Runtime, and optionally the primary interop assemblies referenced by your VSTO Add-in. For more information, see [Deploy an Office solution by using Windows Installer](../vsto/deploying-an-office-solution-by-using-windows-installer.md).

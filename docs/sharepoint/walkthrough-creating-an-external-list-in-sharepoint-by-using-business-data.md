@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Creating an External List in SharePoint by Using Business Data | Microsoft Docs"
+title: "Create external list in SharePoint using business data"
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -40,7 +40,7 @@ You need the following components to complete this walkthrough:
 
 - Supported editions of Windows and SharePoint.
 
-- Access to the AdventureWorks sample database. For more information about how to install the AdventureWorks database, see [SQL Server Sample Databases](http://go.microsoft.com/fwlink/?LinkID=117483).
+- Access to the AdventureWorks sample database. For more information about how to install the AdventureWorks database, see [SQL Server Sample Databases](https://github.com/Microsoft/sql-server-samples/releases/tag/adventureworks).
 
 ## Create a project that contains a BDC model
 

@@ -1,5 +1,5 @@
 ---
-title: "Attach the profiler to a .NET Framework stand-alone app and collect app statistics"
+title: "Attach profiler to .NET Framework stand-alone app; get app stats"
 ms.custom: "seodec18"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
@@ -7,6 +7,7 @@ ms.assetid: b62fcbc1-791f-474e-890a-a6c332e0c9ea
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jillfra
+monikerRange: 'vs-2017'
 ms.workload:
   - "dotnet"
 ---

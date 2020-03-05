@@ -8,11 +8,9 @@ helpviewer_keywords:
   - "localize package"
   - "localize extension"
 ms.assetid: 2a2932bc-cdbe-4d32-91fa-a3e0474f9098
-ms.author: "dagriffe"
-author: "dgriffen"
+ms.author: zorio
+author: zoeyr
 manager: jillfra
-ms.workload:
-  - "dagriffe"
 ---
 # VSIX language pack schema 2.0 reference
 
@@ -49,7 +47,7 @@ Within the `<Metadata>` element you can have the following elements:
 <?xml version="1.0" encoding="utf-8"?>
 <PackageLanguagePackManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011">
   <Metadata>
-    <DisplayName>Arbol de Familia</LocalizedName>
+    <DisplayName>Arbol de Familia</DisplayName>
     <Description> Esta extensión pone control personalizado en la caja de herramientas por manejar información de familia.</Description>
     <MoreInfo> http://www.contoso.com/products/es/ArbolDeFamilia.htm</MoreInfo>
     <License>Eula.rtf</License>

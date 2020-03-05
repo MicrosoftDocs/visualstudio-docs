@@ -44,7 +44,7 @@ typedef enum {
 |PROFILER_EVENT_MASK_TRACE_DOM_FUNCTION_CALL|Profiles functions that call into the DOM.|  
 |PROFILER_EVENT_MASK_TRACE_ALL_WITH_DOM|Profiles all functions, including calls into the DOM.|  
   
-## See Also  
+## See also  
  [Active Script Profiler Constants, Enumerations and Structures](../../winscript/reference/active-script-profiler-constants-enumerations-and-structures.md)   
  [IActiveScriptProfilerControl::SetProfilerEventMask](../../winscript/reference/iactivescriptprofilercontrol-setprofilereventmask.md)   
  [IActiveScriptProfilerControl::StartProfiling](../../winscript/reference/iactivescriptprofilercontrol-startprofiling.md)

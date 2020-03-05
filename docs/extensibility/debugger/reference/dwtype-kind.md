@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "dwTYPE_KIND enumeration"
 ms.assetid: 6ff56b0f-c502-4e6c-9829-bfa05361b783
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

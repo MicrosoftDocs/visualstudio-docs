@@ -1,6 +1,7 @@
 ---
 title: "Troubleshooting the Visual Studio Emulator for Android | Microsoft Docs"
 ms.custom: ""
+ms.prod: visual-studio-dev15
 ms.date: "11/04/2016"
 ms.technology: vs-ide-mobile
 ms.topic: "conceptual"
@@ -8,6 +9,7 @@ ms.assetid: f3fb5df4-3aae-40e4-9450-bbe15b0c5af5
 author: conceptdev
 ms.author: crdun
 manager: crdun
+monikerRange: 'vs-2017'
 ms.workload:
   - "multiple"
 ---
@@ -128,7 +130,7 @@ This topic contains information to help you resolve issues that you may experien
 
      ![Android&#95;Emu&#95;V&#95;Switch&#95;Man](../cross-platform/media/android_emu_v_switch_man.png "Android_Emu_V_Switch_Man")
 
-     If the setup is incorrect and you are using Windows 10, you might try  to [Reinstall network devices using netcfg -d command](http://windows.microsoft.com/windows-10/fix-network-connection-issues) (section 6).
+     If the setup is incorrect and you are using Windows 10, you might try  to [Reinstall network devices using netcfg -d command](https://support.microsoft.com/help/10741/windows-fix-network-connection-issues) (section 6).
 
 - If these steps do not resolve the issue, see [Emulator fails to start (first use)](#NoStart) for information on 3rd party software that may be interfering with the emulator.
 
@@ -137,7 +139,7 @@ This topic contains information to help you resolve issues that you may experien
 
 - Make sure that minimum hardware requirements are fulfilled and that BIOS settings are correct.
 
-   The Emulator and Windows 8 Hyper-V require a 64-bit processor with Second Level Address Translation (SLAT). For Intel, you essentially need a Core i3, i5 or i7 processor (or one of many Xeons). A list of AMD chips is available [here](http://support.amd.com/en-us).
+   The Emulator and Windows 8 Hyper-V require a 64-bit processor with Second Level Address Translation (SLAT). For Intel, you essentially need a Core i3, i5 or i7 processor (or one of many Xeons). A list of AMD chips is available [here](https://www.amd.com/en/support).
 
   1. Make sure your computer meets the [system requirements](../cross-platform/system-requirements-for-the-visual-studio-emulator-for-android.md).
 
@@ -305,6 +307,6 @@ This topic contains information to help you resolve issues that you may experien
 ## <a name="Support"></a> Support resources
  If your host computer meets the system requirements and you encounter an issue not covered in this troubleshooting guide:
 
-- Ask a question on StackOverflow using the [android-emulator](http://stackoverflow.com/questions/tagged/android-emulator) and visual-studio tags.
+- Ask a question on StackOverflow using the [android-emulator](https://stackoverflow.com/questions/tagged/android-emulator) and visual-studio tags.
 
 - Report an issue using the Send a Smile tool in Visual Studio or in the Emulator Manager.

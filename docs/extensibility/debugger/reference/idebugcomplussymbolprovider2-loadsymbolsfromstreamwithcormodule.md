@@ -1,13 +1,13 @@
 ---
-title: "IDebugComPlusSymbolProvider2::LoadSymbolsFromStreamWithCorModule | Microsoft Docs"
+title: "IDebugComPlusSymbolProvider2::LoadSymbolsFromStreamWithCorModule"
 ms.date: "11/04/2016"
 ms.topic: reference
 helpviewer_keywords:
   - "IDebugComPlusSymbolProvider2::LoadSymbolsFromStreamWithCorModule"
   - "LoadSymbolsFromStreamWithCorModule"
 ms.assetid: f79b894f-52c4-43c2-9a68-c71536451f6c
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -44,28 +44,22 @@ int LoadSymbolsFromStreamWithCorModule(
 
 ## Parameters
 `ulAppDomainID`\
-
- [in] Identifier of the application domain.
+[in] Identifier of the application domain.
 
 `guidModule`\
-
- [in] Unique identifier of the module.
+[in] Unique identifier of the module.
 
 `baseAddress`\
-
- [in] Base memory address.
+[in] Base memory address.
 
 `pUnkMetadataImport`\
-
- [in] Object that contains the symbol metadata.
+[in] Object that contains the symbol metadata.
 
 `pUnkCorDebugModule`\
-
- [in] Object that implements the [ICorDebugModule Interface](/dotnet/framework/unmanaged-api/debugging/icordebugmodule-interface).
+[in] Object that implements the [ICorDebugModule Interface](/dotnet/framework/unmanaged-api/debugging/icordebugmodule-interface).
 
 `pStream`\
-
- [in] Data stream that contains the debug symbols to load.
+[in] Data stream that contains the debug symbols to load.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns an error code.

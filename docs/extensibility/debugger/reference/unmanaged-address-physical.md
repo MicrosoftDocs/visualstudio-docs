@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "UNMANAGED_ADDRESS_PHYSICAL structure"
 ms.assetid: fed09686-caa6-4efc-851e-a0432019e9d0
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

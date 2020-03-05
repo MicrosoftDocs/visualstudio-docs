@@ -9,9 +9,9 @@ f1_keywords:
 helpviewer_keywords:
   - "Text Editor Options dialog box, advanced"
 ms.assetid: 67c82ae5-fddd-49df-baec-8e7498b156f3
-author: mikeblome
-ms.author: mblome
-manager: wpickett
+author: corob-msft
+ms.author: corob
+manager: markl
 ms.workload:
   - "cplusplus"
 ---
@@ -201,6 +201,6 @@ If enabled, you can surround selected text with curly braces by typing '{' into 
 
 If enabled, you can surround selected text with parentheses by typing '(' into the text editor.
 
-## See Also
+## See also
 
 - [Setting Language-Specific Editor Options](../../ide/reference/setting-language-specific-editor-options.md)

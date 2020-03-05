@@ -96,6 +96,6 @@ Specifies the interfaces provided by the DIA SDK.
 
 Specifies the constants that are available in the DIA SDK.
 
-## See Also
+## See also
 
 - [Reference](../../debugger/debug-interface-access/debug-interface-access-sdk-reference.md)

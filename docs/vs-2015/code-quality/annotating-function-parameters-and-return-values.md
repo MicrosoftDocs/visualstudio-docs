@@ -123,8 +123,8 @@ f1_keywords:
   - "_Ret_null_"
 ms.assetid: 82826a3d-0c81-421c-8ffe-4072555dca3a
 caps.latest.revision: 17
-author: mikeblome
-ms.author: mblome
+author: corob-msft
+ms.author: corob
 manager: jillfra
 ---
 # Annotating Function Parameters and Return Values
@@ -487,7 +487,7 @@ This article describes typical uses of annotations for simple function parameter
      `min(pM->nSize, sizeof(MyStruct))`  
   
 ## Related Resources  
- [Code Analysis Team Blog](http://go.microsoft.com/fwlink/?LinkId=251197)  
+ [Code Analysis Team Blog](https://blogs.msdn.com/b/codeanalysis/)  
   
 ## See Also  
  [Using SAL Annotations to Reduce C/C++ Code Defects](../code-quality/using-sal-annotations-to-reduce-c-cpp-code-defects.md)   

@@ -1,13 +1,13 @@
 ---
-title: "How to: Create a Basic Lambert Shader"
+title: 'How to: Create a Basic Lambert Shader'
 ms.date: 11/04/2016
 ms.topic: conceptual
 ms.assetid: ec5c10fb-9600-4240-8280-d59451ea1d68
-author: gewarren
-ms.author: gewarren
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # How to: Create a basic Lambert shader
 
@@ -34,15 +34,15 @@ Before you begin, make sure that the **Properties** window and the **Toolbox** a
 > [!NOTE]
 > To better demonstrate the effect of the shader in this illustration, an orange color has been specified by using the **MaterialDiffuse** parameter of the shader. A game or app can use this parameter to supply a unique color value for each object. For information about material parameters, see the Previewing Shaders section in [Shader Designer](../designers/shader-designer.md).
 
- ![The shader graph and a preview of its effect.](../designers/media/digit-lambert-effect-graph.png)
+![The shader graph and a preview of its effect.](../designers/media/digit-lambert-effect-graph.png)
 
- Certain shapes might provide better previews for some shaders. For more information about how to preview shaders in the Shader Designer, see the Previewing Shaders section in [Shader Designer](../designers/shader-designer.md).
+Certain shapes might provide better previews for some shaders. For more information about how to preview shaders in the Shader Designer, see the Previewing Shaders section in [Shader Designer](../designers/shader-designer.md).
 
- The following illustration shows the shader that's described in this document applied to a 3D model.
+The following illustration shows the shader that's described in this document applied to a 3D model.
 
- ![Lambert lighting applied to a model.](../designers/media/digit-lambert-effect-result.png)
+![Lambert lighting applied to a model.](../designers/media/digit-lambert-effect-result.png)
 
- For more information about how to apply a shader to a 3D model, see [How to: Apply a Shader to a 3D Model](../designers/how-to-apply-a-shader-to-a-3-d-model.md).
+For more information about how to apply a shader to a 3D model, see [How to: Apply a Shader to a 3D Model](../designers/how-to-apply-a-shader-to-a-3-d-model.md).
 
 ## See also
 

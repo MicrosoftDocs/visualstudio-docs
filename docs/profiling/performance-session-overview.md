@@ -9,6 +9,7 @@ ms.assetid: 35752f95-a57a-4def-b64d-cf4899669e99
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jillfra
+monikerRange: 'vs-2017'
 ms.workload:
   - "multiple"
 ---
@@ -69,4 +70,4 @@ This overview explains the basics of profiling. Developers who are new to perfor
 
 ## See also
 - [Overviews](../profiling/overviews-performance-tools.md)
-- [Walkthrough: Identify performance problems](/visualstudio/profiling/beginners-guide-to-cpu-sampling)
+- [Walkthrough: Identify performance problems](beginners-guide-to-cpu-sampling.md)

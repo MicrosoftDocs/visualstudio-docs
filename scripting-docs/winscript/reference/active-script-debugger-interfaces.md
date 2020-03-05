@@ -176,5 +176,5 @@ The activdbg.h and activdbg100.h header files provide the interfaces, enumeratio
   
 - [Active Script Debugger Constants, Enumerations, and Structures](../../winscript/reference/active-script-debugger-constants-enumerations-and-structures.md)  
   
-## See Also  
+## See also  
  [Active Script Debugging Overview](../../winscript/active-script-debugging-overview.md)

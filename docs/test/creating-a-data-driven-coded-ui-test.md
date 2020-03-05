@@ -3,12 +3,12 @@ title: Data-Driven Coded UI Test tutorial
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "coded UI tests, data-driven"
-author: gewarren
-ms.author: gewarren
+- coded UI tests, data-driven
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Create a data-driven coded UI test
 
@@ -229,7 +229,7 @@ If you have to modify a recorded method, you must copy it to *UIMap.cs* file and
 
 ## See also
 
-- <xref:Microsoft.VisualStudio.TestTools.UITest.Common.UIMap.UIMap>
+- [UIMap](/previous-versions/dd580454(v=vs.140))
 - <xref:Microsoft.VisualStudio.TestTools.UnitTesting.Assert>
 - [Use UI automation to test your code](../test/use-ui-automation-to-test-your-code.md)
 - [Create coded UI tests](../test/use-ui-automation-to-test-your-code.md)

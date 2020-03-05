@@ -8,8 +8,8 @@ helpviewer_keywords:
   - "Set Radix command"
   - "Debug.SetRadix command"
 ms.assetid: 6ffd1554-7530-4da4-b5f5-e276a5034f3b
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"
@@ -24,18 +24,18 @@ Debug.SetRadix [10 | 16 | hex | dec]
 ```
 
 ## Arguments
- `10` or `16` or `hex` or `dec`
+`10` or `16` or `hex` or `dec`
 
- Optional. Indicates decimal (10 or dec) or hexadecimal (16 or hex). If an argument is omitted, then the current radix value is returned.
+Optional. Indicates decimal (10 or dec) or hexadecimal (16 or hex). If an argument is omitted, then the current radix value is returned.
 
 ## Example
- This example sets the environment to display integer values in hexadecimal format.
+This example sets the environment to display integer values in hexadecimal format.
 
 ```cmd
 >Debug.SetRadix hex
 ```
 
-## See Also
+## See also
 
 - [Visual Studio Commands](../../ide/reference/visual-studio-commands.md)
 - [Command Window](../../ide/reference/command-window.md)

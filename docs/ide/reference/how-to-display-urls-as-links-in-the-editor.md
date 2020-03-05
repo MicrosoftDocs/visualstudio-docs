@@ -1,17 +1,17 @@
 ---
-title: "How to: Display URLs as Links in the Editor"
+title: 'How to: Display URLs as Links in the Editor'
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "URLs, opening"
-  - "Code Editor, displaying URLs"
-  - "editors, displaying URLs"
+- URLs, opening
+- Code Editor, displaying URLs
+- editors, displaying URLs
 ms.assetid: 7c673953-476e-4897-9c2d-1fc15556c172
-author: gewarren
-ms.author: gewarren
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # How to: Display URLs as Links in the Editor
 
@@ -39,5 +39,4 @@ You can choose to have the Code Editor treat Uniform Resource Locators (URLs) in
 
 ## See also
 
-- [Text Editor Options Dialog Box](../../ide/reference/text-editor-options-dialog-box.md)
 - [Features of the code editor](../../ide/writing-code-in-the-code-and-text-editor.md)

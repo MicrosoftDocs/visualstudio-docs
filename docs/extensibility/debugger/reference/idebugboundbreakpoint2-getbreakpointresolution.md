@@ -8,8 +8,8 @@ helpviewer_keywords:
   - "GetBreakpointResolution method"
   - "IDebugBoundBreakpoint2::GetBreakpointResolution method"
 ms.assetid: 4479ac61-18a9-4a30-b213-9921c5af9a26
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -36,8 +36,7 @@ int GetBreakpointResolution( 
 
 ## Parameters
 `ppBPResolution`\
-
- [out] Returns the [IDebugBreakpointResolution2](../../../extensibility/debugger/reference/idebugbreakpointresolution2.md) interface that represents one of the following:
+[out] Returns the [IDebugBreakpointResolution2](../../../extensibility/debugger/reference/idebugbreakpointresolution2.md) interface that represents one of the following:
 
 - The breakpoint resolution object that describes the location in code where a code breakpoint has been bound.
 

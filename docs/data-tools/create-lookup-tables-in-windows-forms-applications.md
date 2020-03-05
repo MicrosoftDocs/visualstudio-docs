@@ -3,14 +3,14 @@ title: Create lookup tables in Windows Forms applications
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "lookup tables"
-  - "lookup tables, creating"
+- lookup tables
+- lookup tables, creating
 ms.assetid: 0edd5385-c381-4b17-9096-74e2778db9d5
-author: gewarren
-ms.author: gewarren
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "data-storage"
+- data-storage
 ---
 # Create lookup tables in Windows Forms applications
 

@@ -3,17 +3,17 @@ title: Change editor fonts and colors
 ms.date: 11/26/2018
 ms.topic: conceptual
 helpviewer_keywords:
-  - "editors, fonts"
-  - "text, color"
-  - "text, customizing in editors"
-  - "text, fonts"
-  - "editors, text color"
+- editors, fonts
+- text, color
+- text, customizing in editors
+- text, fonts
+- editors, text color
 ms.assetid: 3f7629d1-1cdf-4046-9a31-0632517f234d
-author: gewarren
-ms.author: gewarren
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # How to: Change fonts and colors for the editor in Visual Studio
 
@@ -27,9 +27,7 @@ You can change the default font face, adjust the font size, and change the foreg
 
 ## Change the default font face, size, and colors
 
-1. Select **Options** from the **Tools** menu, and in the **Environment** folder, select **Fonts and Colors**.
-
-     The [Fonts and Colors, Environment, Options Dialog Box](../../ide/reference/fonts-and-colors-environment-options-dialog-box.md) opens.
+1. Select **Options** from the **Tools** menu. Under **Environment**, select [Fonts and Colors](../../ide/reference/fonts-and-colors-environment-options-dialog-box.md).
 
 2. In **Show settings for**, select **Text Editor**.
 
@@ -44,6 +42,5 @@ You can change the default font face, adjust the font size, and change the foreg
 
 ## See also
 
-- [Text Editor Options dialog box](../../ide/reference/text-editor-options-dialog-box.md)
 - [Features of the code editor](../../ide/writing-code-in-the-code-and-text-editor.md)
 - [How to: Change fonts and colors in Visual Studio](../../ide/how-to-change-fonts-and-colors-in-visual-studio.md)

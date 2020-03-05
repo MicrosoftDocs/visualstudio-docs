@@ -50,5 +50,5 @@ HRESULT GetPathName(
   
  If `pfIsOriginalFile` is FALSE, the path and file name in `pbstrLongName` refer to a newly created temporary file.  
   
-## See Also  
+## See also  
  [IDebugDocumentTextExternalAuthor Interface](../../winscript/reference/idebugdocumenttextexternalauthor-interface.md)

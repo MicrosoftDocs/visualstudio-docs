@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Creating a Custom Deployment Step for SharePoint Projects | Microsoft Docs"
+title: "Create custom deployment step for SharePoint projects"
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -23,9 +23,9 @@ ms.workload:
 
 - Creating a Visual Studio extension that performs two main tasks:
 
-    - The extension defines a custom deployment step to upgrade SharePoint solutions.
+  - The extension defines a custom deployment step to upgrade SharePoint solutions.
 
-    - The extension creates a project extension that defines a new deployment configuration, which is a set of deployment steps that are executed for a given project. The new deployment configuration includes the custom deployment step and several built-in deployment steps.
+  - The extension creates a project extension that defines a new deployment configuration, which is a set of deployment steps that are executed for a given project. The new deployment configuration includes the custom deployment step and several built-in deployment steps.
 
 - Create two custom SharePoint commands that the extension assembly calls. SharePoint commands are methods that can be called by extension assemblies to use APIs in the server object model for SharePoint. For more information, see [Call into the SharePoint object models](../sharepoint/calling-into-the-sharepoint-object-models.md).
 
@@ -42,11 +42,11 @@ ms.workload:
 
   Knowledge of the following concepts is helpful, but not required, to complete the walkthrough:
 
-- Using the server object model for SharePoint. For more information, see [Using the SharePoint Foundation Server-Side Object Model](http://go.microsoft.com/fwlink/?LinkId=177796).
+- Using the server object model for SharePoint. For more information, see [Using the SharePoint Foundation Server-Side Object Model](/previous-versions/office/developer/sharepoint-2010/ee538251(v=office.14)).
 
-- SharePoint solutions. For more information, see [Solutions Overview](http://go.microsoft.com/fwlink/?LinkId=169422).
+- SharePoint solutions. For more information, see [Solutions Overview](/previous-versions/office/developer/sharepoint-2010/aa543214(v=office.14)).
 
-- Upgrading SharePoint solutions. For more information, see [Upgrading a Solution](http://go.microsoft.com/fwlink/?LinkId=177802).
+- Upgrading SharePoint solutions. For more information, see [Upgrading a Solution](/previous-versions/office/developer/sharepoint-2010/aa543659(v=office.14)).
 
 ## Create the projects
  To complete this walkthrough, you must create three projects:

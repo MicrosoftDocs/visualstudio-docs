@@ -9,8 +9,8 @@ helpviewer_keywords:
   - "SortOrder element [Visual Studio Templates]"
   - "<SortOrder> element [Visual Studio Templates]"
 ms.assetid: 151932c1-f08a-4f78-a8d0-bd2f32211a9c
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -77,6 +77,6 @@ Specifies a value that is used to arrange the template, among other templates in
 
  In this example, the `SortOrder` element is relatively high. It is likely that other [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] item templates will have a `SortOrder` value lower than `290` and will appear before this template in the **New Item** dialog box.
 
-## See Also
+## See also
 - [Visual Studio Template Schema Reference](../extensibility/visual-studio-template-schema-reference.md)
 - [Creating Project and Item Templates](../ide/creating-project-and-item-templates.md)

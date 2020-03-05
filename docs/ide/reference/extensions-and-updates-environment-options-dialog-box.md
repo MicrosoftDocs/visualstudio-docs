@@ -3,13 +3,13 @@ title: Extensions, Environment, Options Dialog Box
 ms.date: 03/28/2019
 ms.topic: reference
 f1_keywords:
-  - "VS.ToolsOptionsPages.Environment.ExtensionManager"
+- VS.ToolsOptionsPages.Environment.ExtensionManager
 ms.assetid: c73859eb-3c33-4f39-86bf-6788387b5937
-author: gewarren
-ms.author: gewarren
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Options dialog box: Environment \> Extensions
 
@@ -30,7 +30,3 @@ For more information, see [Finding and Using Visual Studio Extensions](../../ide
 ## Additional Extension Galleries
 
 An Enterprise feature that enables support for galleries of proprietary extensions. For more information, see [Private galleries](../../extensibility/private-galleries.md).
-
-## See also
-
-- [Environment Options Dialog Box](../../ide/reference/environment-options-dialog-box.md)

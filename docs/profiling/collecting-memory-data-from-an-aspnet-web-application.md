@@ -1,5 +1,5 @@
 ---
-title: "Collecting Memory Data from an ASP.NET Web Application by Using the Profiler Command Line | Microsoft Docs"
+title: "Get ASP.NET web app memory data using profiler command line"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 helpviewer_keywords:
@@ -9,6 +9,7 @@ ms.assetid: 57acf2b0-327a-4c0e-8078-ac2f6d99457d
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jillfra
+monikerRange: 'vs-2017'
 ms.workload:
   - "aspnet"
 ---

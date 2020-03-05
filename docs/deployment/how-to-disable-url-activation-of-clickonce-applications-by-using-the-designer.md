@@ -1,5 +1,5 @@
 ---
-title: "How to: Disable URL Activation of ClickOnce Applications by Using the Designer | Microsoft Docs"
+title: "Disable URL activation of ClickOnce apps using Designer"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs:

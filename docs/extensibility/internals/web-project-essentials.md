@@ -5,8 +5,8 @@ ms.topic: "conceptual"
 helpviewer_keywords:
   - "web projects, essentials"
 ms.assetid: ca2f4e43-322c-4431-8680-52da846940bc
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -51,5 +51,5 @@ Web projects create Web applications. You can use a Web project to create a Web 
 
   - Error markers (red squigglies) should always be created in the code editor's primary buffer.
 
-## See Also
+## See also
 - [Web Projects](../../extensibility/internals/web-projects.md)

@@ -36,5 +36,5 @@ HRESULT CallableWaitForHandles([in] DWORD handleCount, [in, size_is(handleCount)
  `pIndex`  
  When the HRESULT value is S_OK, the index into `pHandles` for the handle that was signaled.  
   
-## See Also  
+## See also  
  [IDebugApplication110 Interface](../../winscript/reference/idebugapplication110-interface.md)

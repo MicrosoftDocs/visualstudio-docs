@@ -5,8 +5,8 @@ ms.topic: "conceptual"
 helpviewer_keywords:
   - "VSCT files, creating"
 ms.assetid: b955f51c-f9f9-49c3-a8e4-63b6eb0e0341
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -43,7 +43,7 @@ There are several ways to create an XML-based Visual Studio command table config
 
     This action creates a basic *.vsct* file.
 
-8. Fill in the elements of the XML file that you want to add, according to the [VSCT XML schema reference](../../extensibility/vsct-xml-schema-reference.md). For more information, see [Author .vsct files](../../extensibility/internals/authoring-dot-vsct-files.md)
+8. Fill in the elements of the XML file that you want to add, according to the [VSCT XML schema reference](../../extensibility/vsct-xml-schema-reference.md). For more information, see [Author .vsct files](../../extensibility/internals/authoring-dot-vsct-files.md).
 
 <a name="how-to-create-a-dot-vsct-file-from-an-existing-dot-ctc-file"></a>
 

@@ -1,28 +1,30 @@
 ---
-title: "Exec Task | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "reference"
+title: Exec Task | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: reference
 f1_keywords:
-  - "http://schemas.microsoft.com/developer/msbuild/2003#Exec"
+- http://schemas.microsoft.com/developer/msbuild/2003#Exec
 dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
+- VB
+- CSharp
+- C++
+- jsharp
 helpviewer_keywords:
-  - "Exec task [MSBuild]"
-  - "MSBuild, Exec task"
+- Exec task [MSBuild]
+- MSBuild, Exec task
 ms.assetid: c9b7525a-b1c9-40fc-8bce-77a5b8f960d8
-author: mikejo5000
-ms.author: mikejo
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Exec task
+
 Runs the specified program or command by using the specified arguments.
 
 ## Parameters
+
 The following table describes the parameters for the `Exec` task.
 
 |Parameter|Description|
@@ -42,13 +44,15 @@ The following table describes the parameters for the `Exec` task.
 |`WorkingDirectory`|Optional `String` parameter.<br /><br /> Specifies the directory in which the command will run.<br /><br />Default: The project's current working directory.|
 
 ## Remarks
-This task is useful when a specific [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] task for the job that you want to perform is not available. However, the `Exec` task, unlike a more specific task, cannot do additional processing or conditional operations based on the result of the tool or command that it runs.
+
+This task is useful when a specific MSBuild task for the job that you want to perform is not available. However, the `Exec` task, unlike a more specific task, cannot do additional processing or conditional operations based on the result of the tool or command that it runs.
 
 The `Exec` task calls *cmd.exe* instead of directly invoking a process.
 
 In addition to the parameters listed in this document, this task inherits parameters from the <xref:Microsoft.Build.Tasks.ToolTaskExtension> class, which itself inherits from the <xref:Microsoft.Build.Utilities.ToolTask> class. For a list of these additional parameters and their descriptions, see [ToolTaskExtension base class](../msbuild/tooltaskextension-base-class.md).
 
 ## Example
+
 The following example uses the `Exec` task to run a command.
 
 ```xml
@@ -65,5 +69,6 @@ The following example uses the `Exec` task to run a command.
 ```
 
 ## See also
+
 - [Tasks](../msbuild/msbuild-tasks.md)
 - [Task reference](../msbuild/msbuild-task-reference.md)

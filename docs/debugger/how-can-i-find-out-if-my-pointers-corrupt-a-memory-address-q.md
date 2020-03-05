@@ -30,7 +30,7 @@ ms.workload:
 
 #### Check for heap corruption
 
-- Most memory corruption is actually due to heap corruption. Try using the Global Flags Utility (gflags.exe) or pageheap.exe. See [http://support.microsoft.com/default.aspx?scid=kb;en-us;286470](http://support.microsoft.com/default.aspx?scid=kb;en-us;286470).
+- Most memory corruption is actually due to heap corruption. Try using the Global Flags Utility (gflags.exe) or pageheap.exe. See [/windows-hardware/drivers/debugger/gflags-and-pageheap](/windows-hardware/drivers/debugger/gflags-and-pageheap).
 
 #### To find where the memory address is modified
 
@@ -38,6 +38,6 @@ ms.workload:
 
 2. When you hit the breakpoint, use the **Memory** window to view memory contents starting at 0x00408000. For more information, see [Memory Windows](../debugger/memory-windows.md).
 
-## See Also
+## See also
 - [Debugging Native Code FAQs](../debugger/debugging-native-code-faqs.md)
 - [Debugging Native Code](../debugger/debugging-native-code.md)

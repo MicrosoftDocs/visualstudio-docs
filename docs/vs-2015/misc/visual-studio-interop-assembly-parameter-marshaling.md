@@ -13,7 +13,7 @@ caps.latest.revision: 24
 manager: jillfra
 ---
 # Visual Studio Interop Assembly Parameter Marshaling
-VSPackages that are written in managed code might have to call or be called by unmanaged COM code. Typically, method arguments are transformed, or marshaled, automatically by the interop marshaler. However, sometimes arguments cannot be transformed in a straightforward manner. In those cases, the interop assembly method prototype parameters are used to match the COM function parameters as closely as possible. For more information, see [Interop Marshaling](http://msdn.microsoft.com/library/115f7a2f-d422-4605-ab36-13a8dd28142a).  
+VSPackages that are written in managed code might have to call or be called by unmanaged COM code. Typically, method arguments are transformed, or marshaled, automatically by the interop marshaler. However, sometimes arguments cannot be transformed in a straightforward manner. In those cases, the interop assembly method prototype parameters are used to match the COM function parameters as closely as possible. For more information, see [Interop Marshaling](https://msdn.microsoft.com/library/115f7a2f-d422-4605-ab36-13a8dd28142a).  
   
 ## General Suggestions  
   
@@ -117,7 +117,7 @@ else
  Managed methods that call interfaces of this type should pull the first element out of the [out] array. This element can be treated as if it were a `retval` return value from the corresponding COM interface.  
   
 ## See Also  
- [Interop Marshaling](http://msdn.microsoft.com/a95fdb76-7c0d-409e-a77e-0349b1ea1490)   
- [Interop Marshaling](http://msdn.microsoft.com/library/115f7a2f-d422-4605-ab36-13a8dd28142a)   
- [Troubleshooting Interoperability](http://msdn.microsoft.com/library/b324cc1e-b03c-4f39-aea6-6a6d5bfd0e37)   
+ [Interop Marshaling](https://msdn.microsoft.com/a95fdb76-7c0d-409e-a77e-0349b1ea1490)   
+ [Interop Marshaling](https://msdn.microsoft.com/library/115f7a2f-d422-4605-ab36-13a8dd28142a)   
+ [Troubleshooting Interoperability](https://msdn.microsoft.com/library/b324cc1e-b03c-4f39-aea6-6a6d5bfd0e37)   
  [Managed VSPackages](../misc/managed-vspackages.md)

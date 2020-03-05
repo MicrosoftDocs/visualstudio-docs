@@ -3,7 +3,7 @@ title: Color Value Reference
 description: "Reference: Hex codes for creating new Visual Studio color tokens"
 keywords: "color, hex code, hue, themed UI, theming"
 author: "brickgeorge"
-ms.author: gregvanl
+ms.author: madsk
 ms.date: 08/04/2017
 ms.topic: conceptual
 ms.assetid: 694ffb31-132c-4d63-b930-8254e7c50c25

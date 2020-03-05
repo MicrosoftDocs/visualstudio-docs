@@ -34,7 +34,7 @@ MSBuild supplies a well-defined, extensible XML format for creating project file
 ### Extending MSBuild for Your Project Type  
  MSBuild interfaces and APIs are subject to change in future versions of [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)]. Therefore, it is prudent to use the managed package framework (MPF) classes because they provide shielding from changes.  
   
- The Managed Package Framework for Projects (MPFProj) provides helper classes for creating and managing new project system. You can find the source code and compilation instructions at [MPF for Projects - Visual Studio 2013](http://mpfproj12.codeplex.com/).  
+ The Managed Package Framework for Projects (MPFProj) provides helper classes for creating and managing new project system. You can find the source code and compilation instructions at [MPF for Projects - Visual Studio 2013](https://archive.codeplex.com/?p=mpfproj12).  
   
  The project-specific MPF classes are as follows:  
   
@@ -53,5 +53,5 @@ MSBuild supplies a well-defined, extensible XML format for creating project file
   
 ## See Also  
  [MSBuild Reference](../../msbuild/msbuild-reference.md)   
- [MSBuild](http://msdn.microsoft.com/7c49aba1-ee6c-47d8-9de1-6f29a906e20b)   
+ [MSBuild](https://msdn.microsoft.com/7c49aba1-ee6c-47d8-9de1-6f29a906e20b)   
  [Custom Tools](../../extensibility/internals/custom-tools.md)

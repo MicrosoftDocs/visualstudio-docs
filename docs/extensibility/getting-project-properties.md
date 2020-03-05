@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "project properties, displaying in tool window"
   - "tool windows, displaying project properties"
 ms.assetid: 96ba07ca-0811-4013-8602-12550ac4ba79
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -30,7 +30,7 @@ Starting in Visual Studio 2015, you do not install the Visual Studio SDK from th
 
 ### To display project properties in a tool window
 
-1. In the ProjectPropertiesToolWindowCommand.cs file, add the following using statements.
+1. In the ProjectPropertiesToolWindowCommand.cs file, add the following using directives.
 
     ```csharp
     using EnvDTE;

@@ -27,7 +27,7 @@ ms.workload:
   - "multiple"
 ---
 # Product and package schema reference
-A *product file* is an XML manifest that describes all of the external dependencies required by a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application. Examples of external dependencies include the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)] and the Microsoft Data Access Components (MDAC). A package file is similar to a product file but is used to install the culture-dependent components of a dependency, such as localized assemblies, license agreements, and documentation.
+A *product file* is an XML manifest that describes all of the external dependencies required by a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application. Examples of external dependencies include the .NET Framework and the Microsoft Data Access Components (MDAC). A package file is similar to a product file but is used to install the culture-dependent components of a dependency, such as localized assemblies, license agreements, and documentation.
 
  The product and packages file consists of either a top-level `Product` or `Package` element, each of which contains the following elements.
 
@@ -47,7 +47,7 @@ A *product file* is an XML manifest that describes all of the external dependenc
  `InstallChecks` the tests that setup.exe should perform for the existence of a given package. `PackageFiles` lists all of the packages that the setup process might have to install, should a given test fail. Each Command entry under Commands executes one of the tests described by `InstallChecks`, and specifies which `PackageFile` to run should the test fail. You can use the `Strings` element to localize product names and error messages, so that you can use one single installation binary to install your application for any number of languages.
 
 ## Example
- The following code example demonstrates a complete product file for installing the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)].
+ The following code example demonstrates a complete product file for installing the .NET Framework.
 
 ```xml
 <?xml version="1.0" encoding="utf-8" ?>

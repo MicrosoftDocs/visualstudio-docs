@@ -41,5 +41,5 @@ HRESULT QueryCurrentThreadIsDebuggerThread();
 ## Remarks  
  This method determines if the current running thread is the debugger thread.  
   
-## See Also  
+## See also  
  [IDebugApplication Interface](../../winscript/reference/idebugapplication-interface.md)

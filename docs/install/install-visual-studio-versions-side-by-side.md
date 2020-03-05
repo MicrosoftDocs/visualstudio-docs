@@ -1,15 +1,15 @@
 ---
-title: "Install Visual Studio versions side-by-side"
+title: Install Visual Studio versions side-by-side
 ms.date: 03/05/2019
-ms.prod: "visual-studio-windows"
-ms.technology: "vs-installation"
+ms.prod: visual-studio-windows
+ms.technology: vs-installation
 ms.topic: conceptual
 helpviewer_keywords:
-  - "side-by-side installations [Visual Studio]"
-  - "Help [Visual Studio], installing"
-  - "install multiple versions of Visual Studio"
-author: TerryGLee
-ms.author: tglee
+- side-by-side installations [Visual Studio]
+- Help [Visual Studio], installing
+- install multiple versions of Visual Studio
+author: ornellaalt
+ms.author: ornella
 manager: jillfra
 ---
 # Install Visual Studio versions side-by-side
@@ -38,7 +38,7 @@ Before you install versions side-by-side, review the following conditions:
 
 * If you uninstall a version of Visual Studio on a computer that has more than one version installed, the file associations for Visual Studio are removed for all versions.
 
-* Visual Studio doesn't automatically upgrade extensions because not all extensions are compatible. You must reinstall the extensions from the [Visual Studio Marketplace](http://go.microsoft.com/fwlink/?LinkId=178891) or the software publisher.
+* Visual Studio doesn't automatically upgrade extensions because not all extensions are compatible. You must reinstall the extensions from the [Visual Studio Marketplace](https://marketplace.visualstudio.com/) or the software publisher.
 
 ## .NET Framework versions and side-by-side installations
 

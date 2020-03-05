@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugProviderProgramNode2::UnmarshalDebuggeeInterface"
 ms.assetid: 2e4653c5-10f1-493c-9973-f31d266c5d48
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -36,13 +36,11 @@ int UnmarshalDebuggeeInterface(
 ```
 
 ## Parameters
- `riid`\
+`riid`\
+[in] GUID of the interface to obtain.
 
- [in] GUID of the interface to obtain.
-
- `ppvObject`\
-
- [out] Returns the object implementing the desired interface. [C++] this can be cast directly to the desired interface type. [C#] use the <xref:System.Runtime.InteropServices.Marshal.GetObjectForIUnknown%2A> method to get the desired interface.
+`ppvObject`\
+[out] Returns the object implementing the desired interface. [C++] this can be cast directly to the desired interface type. [C#] use the <xref:System.Runtime.InteropServices.Marshal.GetObjectForIUnknown%2A> method to get the desired interface.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

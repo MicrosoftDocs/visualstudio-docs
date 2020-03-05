@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugClassField::EnumConstructors method"
 ms.assetid: 66a250b2-75a0-45aa-8d58-40f91cc4bf7b
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -36,13 +36,11 @@ int EnumConstructors(
 ```
 
 ## Parameters
- `cMatch`\
+`cMatch`\
+[in] A value from the [CONSTRUCTOR_ENUM](../../../extensibility/debugger/reference/constructor-enum.md) enumeration that specifies the type of constructors to enumeration.
 
- [in] A value from the [CONSTRUCTOR_ENUM](../../../extensibility/debugger/reference/constructor-enum.md) enumeration that specifies the type of constructors to enumeration.
-
- `ppEnum`\
-
- [out] Returns an [IEnumDebugFields](../../../extensibility/debugger/reference/ienumdebugfields.md) object representing the list of constructors. Returns a null value if there are no constructors.
+`ppEnum`\
+[out] Returns an [IEnumDebugFields](../../../extensibility/debugger/reference/ienumdebugfields.md) object representing the list of constructors. Returns a null value if there are no constructors.
 
 ## Return Value
  If successful, returns S_OK or returns S_FALSE if there are no constructors. Otherwise, returns an error code.

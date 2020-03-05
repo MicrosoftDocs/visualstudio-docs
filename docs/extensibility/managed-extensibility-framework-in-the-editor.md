@@ -5,8 +5,8 @@ ms.topic: "conceptual"
 helpviewer_keywords:
   - "editors [Visual Studio SDK], new - using MEF for extensions"
 ms.assetid: 3f59a285-6c33-4ae3-a4fb-ec1f5aa21bd1
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -78,7 +78,7 @@ internal IClassificationTypeRegistryService ClassificationRegistry;
 
 1. Add references to *System.Composition.ComponentModel.dll*, which is in the global assembly cache (GAC), and to the editor assemblies.
 
-2. Add the relevant using statements.
+2. Add the relevant using directives.
 
     ```
     using System.ComponentModel.Composition;

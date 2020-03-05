@@ -3,35 +3,35 @@ title: Options, Text Editor, All Languages, Scroll Bars
 ms.date: 10/25/2018
 ms.topic: reference
 f1_keywords:
-  - "VS.ToolsOptionsPages.Text_Editor.All_Languages.ScrollBars"
-  - "VS.ToolsOptionsPages.Text_Editor.Basic.ScrollBars"
-  - "VS.ToolsOptionsPages.Text_Editor.CSharp.ScrollBars"
-  - "VS.ToolsOptionsPages.Text_Editor.C%2FC%2B%2B.ScrollBars"
-  - "VS.ToolsOptionsPages.Text_Editor.CoffeeScript.ScrollBars"
-  - "VS.ToolsOptionsPages.Text_Editor.CSS.ScrollBars"
-  - "VS.ToolsOptionsPages.Text_Editor.Dockerfile.ScrollBars"
-  - "VS.ToolsOptionsPages.Text_Editor.F%2523.ScrollBars"
-  - "VS.ToolsOptionsPages.Text_Editor.HQL.ScrollBars"
-  - "VS.ToolsOptionsPages.Text_Editor.HTML.ScrollBars"
-  - "VS.ToolsOptionsPages.Text_Editor.HTMLX.ScrollBars"
-  - "VS.ToolsOptionsPages.Text_Editor.JavaScript.ScrollBars"
-  - "VS.ToolsOptionsPages.Text_Editor.TypeScript.ScrollBars"
-  - "VS.ToolsOptionsPages.Text_Editor.JSON.ScrollBars"
-  - "VS.ToolsOptionsPages.Text_Editor.LESS.ScrollBars"
-  - "VS.ToolsOptionsPages.Text_Editor.Plain_Text.ScrollBars"
-  - "VS.ToolsOptionsPages.Text_Editor.ResJSON.ScrollBars"
-  - "VS.ToolsOptionsPages.Text_Editor.SCSS.ScrollBars"
-  - "VS.ToolsOptionsPages.Text_Editor.SQL_Server_Tools.ScrollBars"
-  - "VS.ToolsOptionsPages.Text_Editor.StreamAnalytics.ScrollBars"
-  - "VS.ToolsOptionsPages.Text_Editor.T-SQL90.ScrollBars"
-  - "VS.ToolsOptionsPages.Text_Editor.U-SQL.ScrollBars"
-  - "VS.ToolsOptionsPages.Text_Editor.XAML.ScrollBars"
-  - "VS.ToolsOptionsPages.Text_Editor.XML.ScrollBars"
-author: gewarren
-ms.author: gewarren
+- VS.ToolsOptionsPages.Text_Editor.All_Languages.ScrollBars
+- VS.ToolsOptionsPages.Text_Editor.Basic.ScrollBars
+- VS.ToolsOptionsPages.Text_Editor.CSharp.ScrollBars
+- VS.ToolsOptionsPages.Text_Editor.C%2FC%2B%2B.ScrollBars
+- VS.ToolsOptionsPages.Text_Editor.CoffeeScript.ScrollBars
+- VS.ToolsOptionsPages.Text_Editor.CSS.ScrollBars
+- VS.ToolsOptionsPages.Text_Editor.Dockerfile.ScrollBars
+- VS.ToolsOptionsPages.Text_Editor.F%2523.ScrollBars
+- VS.ToolsOptionsPages.Text_Editor.HQL.ScrollBars
+- VS.ToolsOptionsPages.Text_Editor.HTML.ScrollBars
+- VS.ToolsOptionsPages.Text_Editor.HTMLX.ScrollBars
+- VS.ToolsOptionsPages.Text_Editor.JavaScript.ScrollBars
+- VS.ToolsOptionsPages.Text_Editor.TypeScript.ScrollBars
+- VS.ToolsOptionsPages.Text_Editor.JSON.ScrollBars
+- VS.ToolsOptionsPages.Text_Editor.LESS.ScrollBars
+- VS.ToolsOptionsPages.Text_Editor.Plain_Text.ScrollBars
+- VS.ToolsOptionsPages.Text_Editor.ResJSON.ScrollBars
+- VS.ToolsOptionsPages.Text_Editor.SCSS.ScrollBars
+- VS.ToolsOptionsPages.Text_Editor.SQL_Server_Tools.ScrollBars
+- VS.ToolsOptionsPages.Text_Editor.StreamAnalytics.ScrollBars
+- VS.ToolsOptionsPages.Text_Editor.T-SQL90.ScrollBars
+- VS.ToolsOptionsPages.Text_Editor.U-SQL.ScrollBars
+- VS.ToolsOptionsPages.Text_Editor.XAML.ScrollBars
+- VS.ToolsOptionsPages.Text_Editor.XML.ScrollBars
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Options, Text Editor, All Languages, Scroll Bars
 This dialog box lets you change the default behavior of the code editor scroll bar. To display these options, select **Options** from the **Tools** menu. Within the **Text Editor** folder, expand the **All Languages** subfolder, and then choose **Scroll Bars**.
@@ -62,6 +62,8 @@ Select whether the vertical scroll bar shows the following annotations:
 > The **Show marks** option includes breakpoints and bookmarks.
 
 Try it out by opening a large code file and replacing some text that occurs in several places in the file. The scroll bar shows you the effect of the replacements, so you can back out your changes if you replaced something you shouldn't have.
+
+See the [Enhanced scroll bar](https://blogs.msdn.microsoft.com/cdnstudents/2014/01/21/visual-studio-tips-and-tricks-enhanced-scroll-bar/) blog post on what various colors and symbols mean when editing code.
 
 ## Behavior
 

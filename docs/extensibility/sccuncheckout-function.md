@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "SccUncheckout function"
 ms.assetid: 6d498b70-29c7-44b7-ae1c-7e99e488bb09
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -71,5 +71,5 @@ SCCRTN SccUncheckout (
 ## Remarks
  After this operation, the `SCC_STATUS_CHECKEDOUT` and `SCC_STATUS_MODIFIED` flags will both be cleared for the files on which the undo checkout was performed.
 
-## See Also
+## See also
 - [Source Control Plug-in API Functions](../extensibility/source-control-plug-in-api-functions.md)

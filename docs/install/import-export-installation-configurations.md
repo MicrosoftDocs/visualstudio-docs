@@ -1,27 +1,27 @@
 ---
-title: "Import or export installation configurations"
-titleSuffix: ""
-description: "Learn how to use the import/export configuration feature in Visual Studio"
-ms.date: 04/19/2019
+title: Import or export installation configurations
+titleSuffix: ''
+description: Learn how to export your installation configuration to a .vsconfig file to share with others, and how to import it to clone.
+ms.date: 05/18/2019
 ms.topic: conceptual
 f1_keywords:
-  - "vs.about"
+- vs.about
 helpviewer_keywords:
-  - "import installation configuration"
-  - "export installation configuration"
-  - "install Visual Studio"
-  - "Visual Studio installer"
-author: TerryGLee
-ms.author: tglee
+- import installation configuration
+- export installation configuration
+- install Visual Studio
+- Visual Studio installer
+author: ornellaalt
+ms.author: ornella
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
 ---
 # Import or export installation configurations
 
-You can configure Visual Studio across your organization by using an installation configuration file. To do so, simply export the workload and component information to a .vsconfig file by using the Visual Studio installer. You can then import the configuration into new or existing installations.
+You can configure Visual Studio across your organization with installation configuration files. To do so, simply export the workload and component information to a .vsconfig file by using the Visual Studio installer. You can then import the configuration into new or existing installations, and share them with others, too.
 
 Here's how.
 

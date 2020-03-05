@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "CONSTRUCTOR_ENUM enumeration"
 ms.assetid: 6d335b2c-66bc-460c-a4a6-4f3f1b697c2c
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

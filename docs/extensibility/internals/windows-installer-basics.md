@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "Windows Installer, VSPackages"
   - "VSPackages, Windows Installer basics"
 ms.assetid: 497e479b-add8-4644-870a-917f15306b97
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -65,5 +65,5 @@ The Windows Installer installs and uninstalls applications or software products 
 
 - No versioned resource should ever ship in more than one WIC.
 
-## See Also
+## See also
 - [What Happens if the Component Rules Are Broken?](/windows/desktop/Msi/what-happens-if-the-component-rules-are-broken)

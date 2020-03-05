@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugArrayObject::GetElements method"
 ms.assetid: f6a6262f-5183-46ce-8a45-33ef46088b98
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -34,9 +34,8 @@ int GetElements(
 ```
 
 ## Parameters
- `ppEnum`\
-
- [out] Returns an [IEnumDebugObjects](../../../extensibility/debugger/reference/ienumdebugobjects.md) object that allows enumerating over all elements.
+`ppEnum`\
+[out] Returns an [IEnumDebugObjects](../../../extensibility/debugger/reference/ienumdebugobjects.md) object that allows enumerating over all elements.
 
 ## Return Value
  If successful, returns S_OK; otherwise, returns an error code.

@@ -11,10 +11,10 @@ dev_langs:
   - "jsharp"
   - "C++"
 helpviewer_keywords:
-  - "MSBuild (Visual C++), FXC task"
-  - "FXC task (MSBuild (Visual C++))"
-author: mikeblome
-ms.author: mblome
+  - "MSBuild (C++), FXC task"
+  - "FXC task (MSBuild (C++))"
+author: corob-msft
+ms.author: corob
 ms.workload:
   - "multiple"
 ---

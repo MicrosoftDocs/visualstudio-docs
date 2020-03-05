@@ -25,10 +25,10 @@ Before you can distribute prerequisite software with a [!INCLUDE[ndptecclick](..
 
 3. In Notepad, open the *Package.xml* file.
 
-4. Locate the **Name** element that contains **http://go.microsoft.com/fwlink**, and copy the URL. Include the **LinkID** portion.
+4. Locate the **Name** element that contains `http://go.microsoft.com/fwlink`, and copy the URL. Include the **LinkID** portion.
 
    > [!NOTE]
-   > If no **Name** element contains **http://go.microsoft.com/fwlink**, open the **Product.xml** file in the root folder for the prerequisite and locate the **fwlink** string.
+   > If no **Name** element contains `http://go.microsoft.com/fwlink`, open the **Product.xml** file in the root folder for the prerequisite and locate the **fwlink** string.
 
    > [!IMPORTANT]
    > Some prerequisites have multiple installer packages (for example, for 32-bit or 64-bit systems). If multiple **Name** elements contain **fwlink**, you must repeat the remaining steps for each of them.
@@ -44,4 +44,4 @@ Before you can distribute prerequisite software with a [!INCLUDE[ndptecclick](..
     You can now distribute the installer package with your application.
 
 ## See also
-- [How to: Install prequisites with a ClickOnce application](../deployment/how-to-install-prerequisites-with-a-clickonce-application.md)
+- [How to: Install prerequisites with a ClickOnce application](../deployment/how-to-install-prerequisites-with-a-clickonce-application.md)

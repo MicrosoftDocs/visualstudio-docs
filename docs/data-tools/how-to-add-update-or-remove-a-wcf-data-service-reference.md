@@ -1,19 +1,19 @@
 ---
-title: "How to: Add, Update, or Remove a WCF Data Service Reference"
+title: 'How to: Add, Update, or Remove a WCF Data Service Reference'
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "service references [Visual Studio]"
-  - "WCF Data Service reference"
-  - "WCF data service references"
-  - "ADO.NET service references"
-  - "ADO.NET Data Service reference"
+- service references [Visual Studio]
+- WCF Data Service reference
+- WCF data service references
+- ADO.NET service references
+- ADO.NET Data Service reference
 ms.assetid: 892ebf37-3af4-472e-8744-92837677d611
-author: gewarren
-ms.author: gewarren
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "data-storage"
+- data-storage
 ---
 # How to: Add, update, or remove a WCF data service reference
 A *service reference* enables a project to access one or more [!INCLUDE[ssAstoria](../data-tools/includes/ssastoria_md.md)]. Use the **Add Service Reference** dialog box to search for [!INCLUDE[ssAstoria](../data-tools/includes/ssastoria_md.md)] in the current solution, locally, on a local area network, or on the Internet.
@@ -64,7 +64,7 @@ A *service reference* enables a project to access one or more [!INCLUDE[ssAstori
     A service client (proxy) generates, and metadata that describes the service is added to the *app.config* file.
 
 ## Update a service reference
- The Entity Data Model for a [!INCLUDE[ssAstoria](../data-tools/includes/ssastoria_md.md)] sometimes changes. When this happens, you must update the service reference.
+The Entity Data Model for a [!INCLUDE[ssAstoria](../data-tools/includes/ssastoria_md.md)] sometimes changes. When this happens, you must update the service reference.
 
 ### To update a service reference
 
@@ -73,7 +73,7 @@ A *service reference* enables a project to access one or more [!INCLUDE[ssAstori
      A progress dialog box displays while the reference is updated from its original location, and the service client is regenerated to reflect any changes in the metadata.
 
 ## Remove a service reference
- If a service reference is no longer being used, you can remove it from your solution.
+If a service reference is no longer being used, you can remove it from your solution.
 
 ### To remove a service reference
 

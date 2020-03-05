@@ -1,23 +1,23 @@
 ---
 title: Code navigation commands
-ms.date: 08/14/2018
+ms.date: 11/21/2019
 ms.topic: conceptual
 helpviewer_keywords:
-  - "code editor, navigation"
-  - "code editor, go to"
-  - "code editor, go to definition"
-  - "code editor, go to line"
-  - "code editor, peek definition"
-  - "code editor, navigation bar"
-  - "go to definition"
-  - "peek definition"
-  - "go to line"
-  - "go to"
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+- code editor, navigation
+- code editor, go to
+- code editor, go to definition
+- code editor, go to line
+- code editor, peek definition
+- code editor, navigation bar
+- go to definition
+- peek definition
+- go to line
+- go to
+author: TerryGLee
+ms.author: tglee
+manager: tglee
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Navigate code
 
@@ -33,7 +33,7 @@ You can use the **Navigate Backward** (**Ctrl**+**-**) and **Navigate Forward** 
 
 You can use the **navigation bar** (the drop-down boxes at the top of the code window) to navigate to code in a codebase. You can choose a type or member to go directly to it. The navigation bar appears when you edit code in a Visual Basic, C#, or C++ code base. In a partial class, members defined outside the current code file may be disabled (they appear in gray).
 
- ![Code navigation bar](../ide/media/vside_navigation_bar.png)
+![Code navigation bar](../ide/media/vside_navigation_bar.png)
 
 You can navigate around the drop-down boxes as follows:
 
@@ -118,6 +118,15 @@ Input | Function
 ------------ | ---
 **Keyboard** | Place your text cursor somewhere inside the type name, and press **Ctrl**+**F12**
 **Mouse** | Right-click on the type name and select **Go To Implementation**
+
+## Go To Base
+
+Using Go To Base, you can navigate up the inheritance chain of the selected element. If there are multiple results, you will see them listed in the **Go To Base** window:
+
+Input | Function
+------------ | ---
+**Keyboard** | Place your text cursor somewhere inside the type name, and press **Alt**+**Home**
+**Mouse** | Right-click on the type name and select **Go To Base**
 
 ## Call Hierarchy
 

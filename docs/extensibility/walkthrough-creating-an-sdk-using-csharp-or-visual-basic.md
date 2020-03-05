@@ -3,8 +3,8 @@ title: "Walkthrough: Creating an SDK using C# or Visual Basic | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 ms.assetid: ef96a249-5eef-402a-a8d5-d74cb49239bd
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

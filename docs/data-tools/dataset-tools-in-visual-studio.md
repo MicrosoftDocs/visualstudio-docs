@@ -3,50 +3,50 @@ title: Dataset tools
 ms.date: 11/21/2018
 ms.topic: conceptual
 f1_keywords:
-  - "vs.data.DataSet"
+- vs.data.DataSet
 helpviewer_keywords:
-  - "untyped datasets"
-  - "datasets [Visual Basic], extended properties"
-  - "typed datasets"
-  - "current record in dataset"
-  - "XML [Visual Basic], datasets"
-  - "DataSet class, about datasets"
-  - "unique constraints (datasets)"
-  - "data relationships"
-  - "parent records in datasets"
-  - "extended properties, in typed datasets"
-  - "datasets [Visual Basic]"
-  - "schemas [Visual Basic], datasets"
-  - "datasets [Visual Basic], msprop"
-  - "master-detail tables, datasets"
-  - "databases [Visual Basic], updating"
-  - "msprop"
-  - "foreign keys, datasets"
-  - "DataSet class"
-  - "datasets [Visual Basic], filling"
-  - "case sensitivity, datasets"
-  - "constraints [Visual Basic], datasets"
-  - "child records"
-  - "related tables, datasets"
-  - "updating datasets, about dataset updates"
-  - "data caching, datasets"
-  - "DataRelation object, datasets"
-  - "untyped datasets, compared to typed datasets"
-  - "cache [Visual Studio], datasets"
-  - "datasets [Visual Basic], relationships"
-  - "related tables"
-  - "XML schemas, about XML schemas and datasets"
-  - "relationships, datasets"
-  - "typed datasets, compared to untyped datasets"
-  - "datasets [Visual Basic], populating"
-  - "datasets [Visual Basic], namespace"
-  - "data adapters, populating datasets"
+- untyped datasets
+- datasets [Visual Basic], extended properties
+- typed datasets
+- current record in dataset
+- XML [Visual Basic], datasets
+- DataSet class, about datasets
+- unique constraints (datasets)
+- data relationships
+- parent records in datasets
+- extended properties, in typed datasets
+- datasets [Visual Basic]
+- schemas [Visual Basic], datasets
+- datasets [Visual Basic], msprop
+- master-detail tables, datasets
+- databases [Visual Basic], updating
+- msprop
+- foreign keys, datasets
+- DataSet class
+- datasets [Visual Basic], filling
+- case sensitivity, datasets
+- constraints [Visual Basic], datasets
+- child records
+- related tables, datasets
+- updating datasets, about dataset updates
+- data caching, datasets
+- DataRelation object, datasets
+- untyped datasets, compared to typed datasets
+- cache [Visual Studio], datasets
+- datasets [Visual Basic], relationships
+- related tables
+- XML schemas, about XML schemas and datasets
+- relationships, datasets
+- typed datasets, compared to untyped datasets
+- datasets [Visual Basic], populating
+- datasets [Visual Basic], namespace
+- data adapters, populating datasets
 ms.assetid: ee57f4f6-9fe1-4e0a-be9a-955c486ff427
-author: gewarren
-ms.author: gewarren
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "data-storage"
+- data-storage
 ---
 # Dataset tools in Visual Studio
 
@@ -55,7 +55,7 @@ ms.workload:
 
 A `DataSet` object is an in-memory object that is essentially a mini-database. It contains `DataTable`, `DataColumn`, and `DataRow` objects in which you can store and modify data from one or more databases without having to maintain an open connection. The dataset maintains information about changes to its data, so updates can be tracked and sent back to the database when your application becomes reconnected.
 
-Datasets and related classes are defined in the <xref:System.Data?displayProperty=fullName> namespace in the .NET Framework class library. You can create and modify datasets dynamically in code using ADO.NET. The documentation in this section shows how to work with datasets by using Visual Studio designers. Datasets that are created through designers use **TableAdapter** objects to interact with the database. Datasets that are created programmatically use **DataAdapter** objects. For information about creating datasets programmatically, see [DataAdapters and DataReaders](/dotnet/framework/data/adonet/dataadapters-and-datareaders).
+Datasets and related classes are defined in the <xref:System.Data?displayProperty=fullName> namespace in the .NET API. You can create and modify datasets dynamically in code using ADO.NET. The documentation in this section shows how to work with datasets by using Visual Studio designers. Datasets that are created through designers use **TableAdapter** objects to interact with the database. Datasets that are created programmatically use **DataAdapter** objects. For information about creating datasets programmatically, see [DataAdapters and DataReaders](/dotnet/framework/data/adonet/dataadapters-and-datareaders).
 
 If your application needs to only read data from a database, and not perform updates, adds, or deletes, you can usually get better performance by using a `DataReader` object to retrieve data into a generic `List` object or another collection object. If you are displaying the data, you can data-bind the user interface to the collection.
 
@@ -69,13 +69,13 @@ Visual Studio provides tooling to simplify working with datasets. The basic end-
 
 - Use the **TableAdapter Configuration Wizard** to specify the query or stored procedure that populates the dataset, and what database operations (update, delete, and so on) to implement. For more information, see these topics:
 
-    - [Fill datasets by using TableAdapters](../data-tools/fill-datasets-by-using-tableadapters.md)
+  - [Fill datasets by using TableAdapters](../data-tools/fill-datasets-by-using-tableadapters.md)
 
-    - [Edit data in datasets](../data-tools/edit-data-in-datasets.md)
+  - [Edit data in datasets](../data-tools/edit-data-in-datasets.md)
 
-    - [Validate data in datasets](../data-tools/validate-data-in-datasets.md)
+  - [Validate data in datasets](../data-tools/validate-data-in-datasets.md)
 
-    - [Save data back to the database](../data-tools/save-data-back-to-the-database.md)
+  - [Save data back to the database](../data-tools/save-data-back-to-the-database.md)
 
 - Query and search the data in the dataset. For more information, see [Query datasets](../data-tools/query-datasets.md). [!INCLUDE[linq_dataset](../data-tools/includes/linq_dataset_md.md)] enables [LINQ (Language-Integrated Query)](/dotnet/csharp/linq/) over data in a <xref:System.Data.DataSet> object. For more information, see [LINQ to DataSet](/dotnet/framework/data/adonet/linq-to-dataset).
 

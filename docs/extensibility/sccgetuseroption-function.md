@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "SccGetUserOption function"
 ms.assetid: 17863747-1901-4c53-a2b3-ed996085e120
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -55,6 +55,6 @@ SCCRTN SccGetUserOption(
 |-----------------|-----------------|
 |`SCC_USEROPT_CHECKOUT_LOCALVER`|Determines whether the user wants to check out local version of files. `lpVal` is assigned `SCC_USEROPT_COLV_YES` (user wants to check out local files) or `SCC_USEROPT_COLV_NO`.|
 
-## See Also
+## See also
 - [Source Control Plug-in API Functions](../extensibility/source-control-plug-in-api-functions.md)
 - [Error Codes](../extensibility/error-codes.md)

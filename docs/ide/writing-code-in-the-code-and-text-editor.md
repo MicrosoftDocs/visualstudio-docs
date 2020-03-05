@@ -3,17 +3,17 @@ title: Code editor features
 ms.date: 02/23/2018
 ms.topic: conceptual
 helpviewer_keywords:
-  - "code, editing [Visual Studio]"
-  - "code editor [Visual Studio]"
-author: gewarren
-ms.author: gewarren
+- code, editing [Visual Studio]
+- code editor [Visual Studio]
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Features of the code editor
 
-The Visual Studio editor provides many features that make it easier for you to write and manage your code and text. You can expand and collapse different blocks of code by using outlining. You can learn more about the code by using IntelliSense, the **Object Browser**, and the Call Hierarchy. You can find code by using features such as **Go To**, **Go To Definition**, and **Find All References**. You can insert blocks of code with code snippets, and you can generate code by using features such as **Generate From Usage**. If you have never used the Visual Studio editor before, see [Edit your code](https://visualstudio.microsoft.com/vs/features/ide/) for a quick overview.
+The Visual Studio editor provides many features that make it easier for you to write and manage your code and text. You can expand and collapse different blocks of code by using outlining. You can learn more about the code by using IntelliSense, the **Object Browser**, and the Call Hierarchy. You can find code by using features such as **Go To**, **Go To Definition**, and **Find All References**. You can insert blocks of code with code snippets, and you can generate code by using features such as **Generate From Usage**. If you have never used the Visual Studio editor before, see [Learn to use the code editor](../get-started/tutorial-editor.md).
 
 > [!NOTE]
 > This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [Source editor (Visual Studio for Mac)](/visualstudio/mac/source-editor).
@@ -84,6 +84,6 @@ For JavaScript-specific editor options, see [JavaScript editor options](../ide/r
 
 - [Source editor (Visual Studio for Mac)](/visualstudio/mac/source-editor)
 - [Visual Studio IDE](../get-started/visual-studio-ide.md)
-- [Get started with C++ in Visual Studio](../ide/getting-started-with-cpp-in-visual-studio.md)
+- [Get started with C++ in Visual Studio](/cpp/get-started/tutorial-console-cpp)
 - [Get started with C# and ASP.NET in Visual Studio](../get-started/csharp/tutorial-aspnet-core.md)
 - [Get started with Python in Visual Studio](../ide/quickstart-python.md)

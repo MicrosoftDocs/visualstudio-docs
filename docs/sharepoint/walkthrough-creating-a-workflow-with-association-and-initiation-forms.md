@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Creating a Workflow with Association and Initiation Forms | Microsoft Docs"
+title: "Create workflow with association and initiation forms"
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -437,7 +437,7 @@ ms.workload:
 ## Next steps
  You can learn more about how to create workflow templates from these topics:
 
-- To learn more about SharePoint workflows, see [Workflows in Windows SharePoint Services](http://go.microsoft.com/fwlink/?LinkID=166275).
+- To learn more about SharePoint workflows, see [Workflows in Windows SharePoint Services](/previous-versions/office/developer/sharepoint-2010/ms416312(v=office.14)).
 
 ## See also
 - [Create SharePoint workflow solutions](../sharepoint/creating-sharepoint-workflow-solutions.md)

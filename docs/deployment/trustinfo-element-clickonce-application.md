@@ -81,7 +81,7 @@ Describes the minimum security permissions required for the application to run o
      Required. Identifies the version of the permission. Normally this value is `1`.
 
 ## IPermission
- Optional. This element is a child of the `PermissionSet` element. The `IPermission` element fully identifies a permission class in the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)]. The `IPermission` element has the following attributes, but can have additional attributes that correspond to properties on the permission class. To find out the syntax for a specific permission, see the examples listed in the Security.config file.
+ Optional. This element is a child of the `PermissionSet` element. The `IPermission` element fully identifies a permission class in the .NET Framework. The `IPermission` element has the following attributes, but can have additional attributes that correspond to properties on the permission class. To find out the syntax for a specific permission, see the examples listed in the Security.config file.
 
 - `class`
 

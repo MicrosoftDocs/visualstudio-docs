@@ -5,8 +5,8 @@ ms.topic: "conceptual"
 helpviewer_keywords:
   - "Settings Store, using"
 ms.assetid: 447ec08a-eca5-40b8-89b0-f98fdf3d39a4
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -30,7 +30,7 @@ There are two kinds of settings stores:
 ## Using the Configuration Settings Store
  This section shows how to detect and display configuration settings.
 
-1. In the SettingsStorageCommand.cs file, add the following using statements:
+1. In the SettingsStorageCommand.cs file, add the following using directives:
 
    ```
    using System.Collections.Generic;

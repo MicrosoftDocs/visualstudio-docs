@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Using Graphics Diagnostics to Debug a Compute Shader | Microsoft Docs"
+title: "Debugging compute shader using graphics diagnostics"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 ms.assetid: 69287456-644b-4aff-bd03-b1bbb2abb82a

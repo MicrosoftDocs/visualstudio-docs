@@ -25,7 +25,7 @@ manager: jillfra
 This walkthrough shows how to write a simple visualizer by using C#. The visualizer you will create in this walkthrough displays the contents of a string using a Windows forms message box. This simple string visualizer is not especially useful in itself, but it shows the basic steps that you must follow to create more useful visualizers for other data types.
 
 > [!NOTE]
-> The dialog boxes and menu commands you see might differ from those described in Help, depending on your active settings or edition. To change your settings, go to the **Tools** menu and choose **Import and Export Settings**. For more information, see [Customizing Development Settings in Visual Studio](http://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3).
+> The dialog boxes and menu commands you see might differ from those described in Help, depending on your active settings or edition. To change your settings, go to the **Tools** menu and choose **Import and Export Settings**. For more information, see [Customizing Development Settings in Visual Studio](https://msdn.microsoft.com/22c4debb-4e31-47a8-8f19-16f328d7dcd3).
 
 Visualizer code must be placed in a DLL, which will be read by the debugger. Therefore, the first step is to create a Class Library project for the DLL.
 
@@ -190,7 +190,8 @@ Visualizer code must be placed in a DLL, which will be read by the debugger. The
 
 2. Edit the name from Program.cs to something more meaningful, such as TestConsole.cs.
 
-    **Note** [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] automatically changes the class declaration in TestConsole.cs to match the new file name.
+    > [!NOTE]
+    > [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] automatically changes the class declaration in TestConsole.cs to match the new file name.
 
 3. In TestConsole.cs, add the following code to the `using` statements:
 

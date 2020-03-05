@@ -7,8 +7,8 @@ helpviewer_keywords:
   - "project models"
   - "projects [Visual Studio SDK], elements"
 ms.assetid: a1dbe0dc-68da-45d7-8704-5b43ff7e4fc4
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

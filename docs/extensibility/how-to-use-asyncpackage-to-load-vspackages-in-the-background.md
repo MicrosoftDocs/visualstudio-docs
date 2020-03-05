@@ -3,8 +3,8 @@ title: "How to: Use AsyncPackage to Load VSPackages in the Background | Microsof
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 ms.assetid: dedf0173-197e-4258-ae5a-807eb3abc952
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 ms.workload:
   - "vssdk"
 ---

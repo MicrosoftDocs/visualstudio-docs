@@ -7,8 +7,8 @@ helpviewer_keywords:
   - "buttons [Visual Studio], adding to Solution Explorer"
   - "Solution Explorer, adding buttons"
 ms.assetid: f6411557-2f4b-4e9f-b02e-fce12a6ac7e9
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -108,7 +108,7 @@ This walkthrough shows how to add a button to the **Solution Explorer** toolbar.
 
 5. On the **File** menu, click **Close Solution**. The button disappears from the toolbar.
 
-   The visibility of the button is controlled by [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] until the VSPackage is loaded. After the VSPackage is loaded, the visibility of the button is controlled by the VSPackage.  For more information, see [MenuCommands vs. OleMenuCommands](../extensibility/menucommands-vs-olemenucommands.md).
+   The visibility of the button is controlled by [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] until the VSPackage is loaded. After the VSPackage is loaded, the visibility of the button is controlled by the VSPackage.  For more information, see [MenuCommands vs. OleMenuCommands](/visualstudio/extensibility/menucommands-vs-olemenucommands?view=vs-2015).
 
 ## See also
 - [Commands, menus, and toolbars](../extensibility/internals/commands-menus-and-toolbars.md)

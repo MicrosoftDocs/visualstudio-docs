@@ -3,22 +3,22 @@ title: Toolbox, HTML Tab
 ms.date: 06/21/2017
 ms.topic: reference
 f1_keywords:
-  - "vs.toolbox.html"
+- vs.toolbox.html
 helpviewer_keywords:
-  - "Toolbox, HTML tab"
-  - "HTML Designer, setting options"
-  - "HTML tab in Toolbox"
-author: gewarren
-ms.author: gewarren
+- Toolbox, HTML tab
+- HTML Designer, setting options
+- HTML tab in Toolbox
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Toolbox, HTML tab
 
 The **HTML** tab of the Toolbox provides components that are useful on web pages and web forms. To view this tab, first open a document for editing in the HTML designer. On the **View** menu, click **Toolbox**, and then click the **HTML** tab of the Toolbox.
 
- To create an instance of a tool on the **HTML** tab, either double-click the tool to add it to your document at the current insertion point, or select the tool and drag it to the desired position on the editing surface.
+To create an instance of a tool on the **HTML** tab, either double-click the tool to add it to your document at the current insertion point, or select the tool and drag it to the desired position on the editing surface.
 
 ## UI elements
 

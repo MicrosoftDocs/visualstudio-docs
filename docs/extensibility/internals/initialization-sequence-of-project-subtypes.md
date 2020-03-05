@@ -5,8 +5,8 @@ ms.topic: "conceptual"
 helpviewer_keywords:
   - "project subtypes, initialization sequence"
 ms.assetid: f657f8c3-5e68-4308-9971-e81e3099ba29
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -125,7 +125,7 @@ HRESULT HrCreateInnerProj
 }
 ```
 
-## See Also
+## See also
 
 - <xref:Microsoft.VisualStudio.Shell.Flavor>
 - [Project Subtypes](../../extensibility/internals/project-subtypes.md)

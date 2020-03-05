@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "debug engines, launching"
   - "debug engines, attaching to programs"
 ms.assetid: 362f00ac-1909-4a3a-bacb-c0ceb5549816
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

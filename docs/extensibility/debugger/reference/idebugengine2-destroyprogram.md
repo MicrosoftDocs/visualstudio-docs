@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugEngine2::DestroyProgram"
 ms.assetid: 0c9e2698-c70f-4770-a7bb-39650e9c3a1f
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -34,9 +34,8 @@ int DestroyProgram( 
 ```
 
 ## Parameters
- `pProgram`\
-
- [in] An [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md) object that represents the program that has been atypically terminated.
+`pProgram`\
+[in] An [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md) object that represents the program that has been atypically terminated.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

@@ -3,15 +3,15 @@ title: Word wrap
 ms.date: 11/07/2018
 ms.topic: conceptual
 helpviewer_keywords:
-  - "word wrap"
-  - "editors, text viewing"
-  - "Code Editor, word wrap"
+- word wrap
+- editors, text viewing
+- Code Editor, word wrap
 ms.assetid: 442f33ef-9f52-4515-b55f-fb816d664645
-author: gewarren
-ms.author: gewarren
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # How to: Manage word wrap in the editor
 
@@ -49,5 +49,4 @@ If you're familiar with word wrap in Notepad++, Sublime Text, or Visual Studio C
 
 ## See also
 
-- [Text Editor Options Dialog Box](../../ide/reference/text-editor-options-dialog-box.md)
 - [Features of the code editor](../../ide/writing-code-in-the-code-and-text-editor.md)

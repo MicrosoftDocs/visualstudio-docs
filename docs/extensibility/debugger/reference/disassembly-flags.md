@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "DISASSEMBLY_FLAGS enumeration"
 ms.assetid: c1ec5a4d-5d42-4660-932c-7348550140cb
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

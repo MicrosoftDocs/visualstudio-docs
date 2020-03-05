@@ -47,7 +47,7 @@ HRESULT set_imageHeaders ( 
 
  Relative virtual address calculations depend upon the `IMAGE_SECTION_HEADER` values. Usually, the DIA retrieves these from the program database (.pdb) file. If these values are missing, the DIA is unable to calculate relative virtual addresses and the [IDiaAddressMap::get_relativeVirtualAddressEnabled](../../debugger/debug-interface-access/idiaaddressmap-get-relativevirtualaddressenabled.md) method returns `FALSE`. The client must then call the [IDiaAddressMap::put_relativeVirtualAddressEnabled](../../debugger/debug-interface-access/idiaaddressmap-put-relativevirtualaddressenabled.md) method to enable the relative virtual address calculations after providing the missing image headers from the image itself.
 
-## See Also
+## See also
 - [IDiaAddressMap](../../debugger/debug-interface-access/idiaaddressmap.md)
 - [IDiaAddressMap::set_addressMap](../../debugger/debug-interface-access/idiaaddressmap-set-addressmap.md)
 - [IDiaAddressMap::get_relativeVirtualAddressEnabled](../../debugger/debug-interface-access/idiaaddressmap-get-relativevirtualaddressenabled.md)

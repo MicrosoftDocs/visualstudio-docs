@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
   - "Hidden element [Visual Studio project template]"
 ms.assetid: f37406b0-52e7-4f2c-aacf-bc8d7a4117b3
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

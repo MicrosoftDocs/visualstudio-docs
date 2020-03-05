@@ -3,13 +3,13 @@ title: VSTest.Console.exe command-line options
 ms.date: 07/12/2018
 ms.topic: reference
 helpviewer_keywords:
-  - "vstest.console.exe"
-  - "command-line tests"
-ms.author: gewarren
-author: gewarren
+- vstest.console.exe
+- command-line tests
+ms.author: mikejo
+author: mikejo5000
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # VSTest.Console.exe command-line options
 
@@ -20,6 +20,8 @@ ms.workload:
 >
 > To run automated tests on an ARM architecture-based machine, you must use *VSTest.Console.exe*.
 
+Open a [Developer Command Prompt](/dotnet/framework/tools/developer-command-prompt-for-vs) to use the command-line tool, or you can find the tool in *%Program Files(x86)%\Microsoft Visual Studio\\<version\>\\<edition\>\common7\ide\CommonExtensions\\<Platform | Microsoft>*.
+
 ## General command-line options
 
 The following table lists all the options for *VSTest.Console.exe* and short descriptions of them. You can see a similar summary by typing `VSTest.Console/?` at a command line.
@@ -29,16 +31,16 @@ The following table lists all the options for *VSTest.Console.exe* and short des
 |**[*test file names*]**|Run tests from the specified files. Separate multiple test file names with spaces.<br />Examples: `mytestproject.dll`, `mytestproject.dll myothertestproject.exe`|
 |**/Settings:[*file name*]**|Run tests with additional settings such as data collectors.<br />Example: `/Settings:Local.RunSettings`|
 |**/Tests:[*test name*]**|Run tests with names that contain the provided values. To provide multiple values, separate them by commas.<br />Example: `/Tests:TestMethod1,testMethod2`<br />The **/Tests** command-line option cannot be used with the **/TestCaseFilter** command-line option.|
-|**/Parallel**|Specifies that the tests be executed in parallel. By default up to all available cores on the machine may be used. The number of cores to use can be configured by using a settings file.|
+|**/Parallel**|Specifies that the tests be executed in parallel. By default, up to all available cores on the machine can be used. You can configure the number of cores to use in a settings file.|
 |**/Enablecodecoverage**|Enables data diagnostic adapter CodeCoverage in the test run.<br />Default settings are used if not specified using settings file.|
 |**/InIsolation**|Runs the tests in an isolated process.<br />This isolation makes the *vstest.console.exe* process less likely to be stopped on an error in the tests, but tests might run slower.|
 |**/UseVsixExtensions**|This option makes the *vstest.console.exe* process use or skip the VSIX extensions installed (if any) in the test run.<br />This option is deprecated. Starting from the next major release of Visual Studio this option may be removed. Move to consuming extensions made available as a NuGet package.<br />Example: `/UseVsixExtensions:true`|
 |**/TestAdapterPath:[*path*]**|Forces the *vstest.console.exe* process to use custom test adapters from a specified path (if any) in the test run.<br />Example: `/TestAdapterPath:[pathToCustomAdapters]`|
 |**/Platform:[*platform type*]**|Target platform architecture to be used for test execution.<br />Valid values are x86, x64, and ARM.|
-|**/Framework: [*framework version*]**|Target .NET Framework version to be used for test execution.<br />Valid values are Framework35, Framework40, Framework45, and FrameworkUap10.<br />If the target framework is specified as **Framework35**, the tests run in CLR 4.0 "compatibly mode".<br />Example: `/Framework:framework40`|
+|**/Framework: [*framework version*]**|Target .NET version to be used for test execution.<br />Example values are `Framework35`, `Framework40`, `Framework45`, `FrameworkUap10`, `.NETCoreApp,Version=v1.1`.<br />If the target framework is specified as **Framework35**, the tests run in CLR 4.0 "compatibly mode".<br />Example: `/Framework:framework40`|
 |**/TestCaseFilter:[*expression*]**|Run tests that match the given expression.<br /><Expression\> is of the format <property\>=<value\>[\|<Expression\>].<br />Example: `/TestCaseFilter:"Priority=1"`<br />Example: `/TestCaseFilter:"TestCategory=Nightly|FullyQualifiedName=Namespace.ClassName.MethodName"`<br />The **/TestCaseFilter** command-line option cannot be used with the **/Tests** command-line option. <br />For information about creating and using expressions, see [TestCase filter](https://github.com/Microsoft/vstest-docs/blob/master/docs/filter.md).|
 |**/?**|Displays usage information.|
-|**/Logger:[*uri/friendlyname*]**|Specify a logger for test results.<br />Example: To log results into a Visual Studio Test Results File (TRX), use **/Logger:trx**.<br />Example: To publish test results to Team Foundation Server, use TfsPublisher:<br />**/logger:TfsPublisher;**<br />**Collection=<project url\>;**<br />**BuildName=<build name\>;**<br />**TeamProject=<project name\>;**<br />**[;Platform=<Defaults to "Any CPU">]**<br />**[;Flavor=<Defaults to "Debug">]**<br />**[;RunTitle=<title\>]**|
+|**/Logger:[*uri/friendlyname*]**|Specify a logger for test results.<br />Example: To log results into a Visual Studio Test Results File (TRX), use<br />**/Logger:trx**<br />**[;LogFileName=\<Defaults to unique file name>]**<br />Example: To publish test results to Team Foundation Server, use TfsPublisher:<br />**/logger:TfsPublisher;**<br />**Collection=<project url\>;**<br />**BuildName=<build name\>;**<br />**TeamProject=<project name\>;**<br />**[;Platform=\<Defaults to "Any CPU">]**<br />**[;Flavor=\<Defaults to "Debug">]**<br />**[;RunTitle=<title\>]**<br />Note: The TfsPublisher logger is deprecated in Visual Studio 2017 and is not supported in later versions of Visual Studio. For these scenarios, use a custom logger instead. This logger switches the logger to legacy mode.|
 |**/ListTests:[*file name*]**|Lists discovered tests from the given test container.|
 |**/ListDiscoverers**|Lists installed test discoverers.|
 |**/ListExecutors**|Lists installed test executors.|
@@ -47,9 +49,9 @@ The following table lists all the options for *VSTest.Console.exe* and short des
 |**/Blame**|Tracks the tests as they're executing and, if the test host process crashes, emits the tests names in their sequence of execution up to and including the specific test that was running at the time of the crash. This output makes it easier to isolate the offending test and diagnose further. [More information](https://github.com/Microsoft/vstest-docs/blob/master/docs/extensions/blame-datacollector.md).|
 |**/Diag:[*file name*]**|Writes diagnostic trace logs to the specified file.|
 |**/ResultsDirectory:[*path*]**|Test results directory will be created in specified path if not exists.<br />Example: `/ResultsDirectory:<pathToResultsDirectory>`|
-|**/ParentProcessId:[*parentProcessId*]**|Process Id of the Parent Process responsible for launching current process.|
+|**/ParentProcessId:[*parentProcessId*]**|Process ID of the Parent Process responsible for launching current process.|
 |**/Port:[*port*]**|The Port for socket connection and receiving the event messages.|
-|**/Collect:[*dataCollector friendlyName*]**|Enables data collector for the test run. [More information](https://aka.ms/vstest-collect).|
+|**/Collect:[*dataCollector friendlyName*]**|Enables data collector for the test run. [More information](https://github.com/Microsoft/vstest-docs/blob/master/docs/analyze.md).|
 
 > [!TIP]
 > The options and values are not case-sensitive.

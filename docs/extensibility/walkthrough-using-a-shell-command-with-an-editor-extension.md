@@ -5,8 +5,8 @@ ms.topic: "conceptual"
 helpviewer_keywords:
   - "editors [Visual Studio SDK], new - add a menu command"
 ms.assetid: 08526848-a442-4cd4-afa1-b2eac2005adb
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -93,7 +93,7 @@ From a VSPackage, you can add features such as menu commands to the editor. This
 
     9. WindowsBase
 
-3. Add the following `using` statement.
+3. Add the following `using` directive.
 
     ```csharp
     using Microsoft.VisualStudio.Text;
@@ -129,7 +129,7 @@ From a VSPackage, you can add features such as menu commands to the editor. This
 
 1. Create a class in the CommentAdornmentTest project, and name it `CommentBlock`.
 
-2. Add the following `using` statements.
+2. Add the following `using` directives.
 
     ```csharp
     using Microsoft.VisualStudio.Text;
@@ -253,7 +253,7 @@ From a VSPackage, you can add features such as menu commands to the editor. This
 
 1. Add a class file to the CommentAdornmentTest project and name it `Connector`.
 
-2. Add the following `using` statements.
+2. Add the following `using` directives.
 
     ```csharp
     using System.ComponentModel.Composition;
@@ -317,7 +317,7 @@ From a VSPackage, you can add features such as menu commands to the editor. This
 
 1. Add a new class file to the CommentAdornmentTest project and name it `CommentAdornmentProvider`.
 
-2. Add the following `using` statements.
+2. Add the following `using` directives.
 
     ```csharp
     using System;
@@ -481,7 +481,7 @@ From a VSPackage, you can add features such as menu commands to the editor. This
 
 1. Add a class file to the CommentAdornmentTest project and name it `CommentAdornmentManager`.
 
-2. Add the following `using` statements.
+2. Add the following `using` directives.
 
     ```csharp
     using System;
@@ -606,7 +606,7 @@ From a VSPackage, you can add features such as menu commands to the editor. This
 
     - Microsoft.VisualStudio.Text.UI.Wpf
 
-2. Open the *AddAdornment.cs* file and add the following `using` statements.
+2. Open the *AddAdornment.cs* file and add the following `using` directives.
 
     ```csharp
     using Microsoft.VisualStudio.TextManager.Interop;

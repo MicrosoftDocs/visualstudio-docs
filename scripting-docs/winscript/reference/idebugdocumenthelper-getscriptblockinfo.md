@@ -55,5 +55,5 @@ HRESULT GetScriptBlockInfo(
 ## Remarks  
  This method retrieves the range of characters and the script engine corresponding to a script block.  
   
-## See Also  
+## See also  
  [IDebugDocumentHelper Interface](../../winscript/reference/idebugdocumenthelper-interface.md)

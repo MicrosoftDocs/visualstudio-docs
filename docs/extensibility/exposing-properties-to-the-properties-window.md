@@ -7,8 +7,8 @@ helpviewer_keywords:
   - "properties [Visual Studio SDK]"
   - "Property Browser, exposing properties"
 ms.assetid: 47f295b5-1ca5-4e7b-bb52-7b926b136622
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

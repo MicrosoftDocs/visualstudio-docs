@@ -3,13 +3,13 @@ title: Finding references in your code
 ms.date: 09/26/2017
 ms.topic: conceptual
 helpviewer_keywords:
-  - "code editor, find all references"
-  - "find all references"
-author: gewarren
-ms.author: gewarren
+- code editor, find all references
+- find all references
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Find references in your code
 
@@ -42,7 +42,7 @@ By default, references are grouped by project, then by definition. However, you 
 **Definition** and **Project** are the two default groupings used, but you can add others by choosing the **Grouping** command on the selected item's right-click or context menu. Adding more groupings can be helpful if your solution has a lot of files and paths.
 
 ## Filter by reference type in .NET
-In C# or Visual Basic, the Find References window has a Kind column where it lists what type of reference it found. This column can be used to filter by reference type by clicking on the filter icon that appears when hovering over the column header. References can be filtered by Read, Write, Reference, and NameOnly.
+In C# or Visual Basic, the Find References window has a Kind column where it lists what type of reference it found. This column can be used to filter by reference type by clicking on the filter icon that appears when hovering over the column header. References can be filtered by Read, Write, Reference, Name, Namespace, and Type.
 
 ![Find References Window Kind column ](../ide/media/vside_findallreferencesKind.png)
 

@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugReference2::GetSize"
 ms.assetid: a404ddd9-d940-4513-97cd-f52b8ab6a560
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -34,9 +34,8 @@ int GetSize ( 
 ```
 
 ## Parameters
- `pdwSize`\
-
- [out] Returns the size, in bytes, of the value of the reference.
+`pdwSize`\
+[out] Returns the size, in bytes, of the value of the reference.
 
 ## Return Value
  Always returns `E_NOTIMPL`.

@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugInterceptExceptionCompleteEvent2"
 ms.assetid: 8ebc256b-5428-4ed6-a505-6aedc8242b8e
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

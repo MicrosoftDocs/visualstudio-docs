@@ -49,30 +49,30 @@ The Visual Studio simulator for Windows Store apps is a desktop application that
  Sets the interaction mode to pinch and zoom gestures of two fingers.  
   
 - ![Simulator two finger target](../debugger/media/simulator-twofinger.png "SIMULATOR_TwoFinger")  
-  
-    - The double target icon indicates the location of two fingers on the device screen.  
-  
-    - Move the mouse to position the icons over the object on the device screen.  
-  
-    - Rotate the mouse wheel backward or forward to change the simulated distance of the two fingers before you pinch or zoom.  
-  
+
+  - The double target icon indicates the location of two fingers on the device screen.  
+
+  - Move the mouse to position the icons over the object on the device screen.  
+
+  - Rotate the mouse wheel backward or forward to change the simulated distance of the two fingers before you pinch or zoom.  
+
 - ![Pinch, zoom, and rotate targets](../debugger/media/simulator-twofingerengaged.png "SIMULATOR_TwoFingerEngaged")  
-  
-    - Press the left button and rotate the wheel backward (towards you) to zoom in (pinch).  
-  
-    - Press the left button and rotate the mouse wheel forward (away from you) to zoom out (zoom).  
+
+  - Press the left button and rotate the wheel backward (towards you) to zoom in (pinch).  
+
+  - Press the left button and rotate the mouse wheel forward (away from you) to zoom out (zoom).  
   
 ## Object rotation  
  The **Touch emulation rotate** button sets the interaction mode to rotation gestures using two fingers.  
   
 - Move the mouse to position the icons over the object on the device screen.  
   
-    - Rotate the mouse wheel backward or forward to change the simulated orientation of the two fingers before you rotate the object.  
-  
+  - Rotate the mouse wheel backward or forward to change the simulated orientation of the two fingers before you rotate the object.  
+
 - Press the left button and rotate the wheel backward (towards you) to rotate the object counter-clockwise. As you rotate the mouse wheel, one of the two target icons rotates around the other to indicate the relative size of the rotation.  
-  
-    - Press the left button and rotate the mouse wheel forward (away from you) to rotate the object clockwise.  
-  
+
+  - Press the left button and rotate the mouse wheel forward (away from you) to rotate the object clockwise.  
+
 ## <a name="BKMK_Enable_or_disable_Always_on_top_mode"></a> Enable or disable Always on top mode  
  You can set the simulator window to always be on top of other windows. The **Toggle Topmost Window** button enables or disables the **Always on top** mode of the simulator window.  
   
@@ -80,7 +80,7 @@ The Visual Studio simulator for Windows Store apps is a desktop application that
  You can switch the device orientation between portrait and landscape by rotating the simulator 90 degrees in any direction.  
   
 > [!NOTE]
-> The simulator does not respect [DisplayProperties.AutoRotationPreferences](http://go.microsoft.com/fwlink/?LinkId=249460) property of a project. For example, if your project sets the orientation to `Landscape`, and you then rotate the simulator to a portrait orientation, the simulator display image will also be rotated and resized. Test these settings on an actual device.  
+> The simulator does not respect [DisplayProperties.AutoRotationPreferences](https://msdn.microsoft.com/library/windows/apps/windows.graphics.display.displayproperties.autorotationpreferences.aspx) property of a project. For example, if your project sets the orientation to `Landscape`, and you then rotate the simulator to a portrait orientation, the simulator display image will also be rotated and resized. Test these settings on an actual device.  
   
 > [!NOTE]
 > If you rotate the simulator so that one edge of the simulator is larger than the screen it is displayed on, the simulator is automatically resized to fit within the screen. The simulator is not resized to its original size if you rotate it again.  
@@ -106,7 +106,7 @@ The Visual Studio simulator for Windows Store apps is a desktop application that
      ![Screenshot settings context menu](../debugger/media/simulator-screenshotsettingscntxmnu.png "SIMULATOR_ScreenShotSettingsCntxMnu")  
   
 ## <a name="BKMK_Simulate_network_connection_properties"></a> Simulate network connection properties  
- You can help your app’s users manage the cost of metered network connections by maintaining awareness of network connection cost or data plan status changes and enabling your app to use this information to avoid incurring additional costs for roaming or exceeding a specified data transfer limit. The [Windows.Networking.Connectivity](https://msdn.microsoft.com/library/windows/apps/windows.networking.connectivity.aspx) APIs lets you respond to [NetworkStatusChanged](https://msdn.microsoft.com/library/windows/apps/windows.networking.connectivity.networkinformation.networkstatuschanged.aspx) and [TriggerType](https://msdn.microsoft.com/library/windows/apps/windows.applicationmodel.background.systemtrigger.triggertype.aspx) events that sign. See [Quickstart: Managing metered network cost constraints](http://msdn.microsoft.com/library/windows/apps/Hh750310.aspx).  
+ You can help your app’s users manage the cost of metered network connections by maintaining awareness of network connection cost or data plan status changes and enabling your app to use this information to avoid incurring additional costs for roaming or exceeding a specified data transfer limit. The [Windows.Networking.Connectivity](https://msdn.microsoft.com/library/windows/apps/windows.networking.connectivity.aspx) APIs lets you respond to [NetworkStatusChanged](https://msdn.microsoft.com/library/windows/apps/windows.networking.connectivity.networkinformation.networkstatuschanged.aspx) and [TriggerType](https://msdn.microsoft.com/library/windows/apps/windows.applicationmodel.background.systemtrigger.triggertype.aspx) events that sign. See [Quickstart: Managing metered network cost constraints](https://msdn.microsoft.com/library/windows/apps/Hh750310.aspx).  
   
  To debug or test your network cost-aware code, the simulator can mimic properties of a network that are exposed through the [ConnectionProfile](https://msdn.microsoft.com/library/windows/apps/windows.networking.connectivity.connectionprofile.aspx) object returned by [GetInternetConnectionProfile](https://msdn.microsoft.com/library/windows/apps/windows.networking.connectivity.networkinformation.getinternetconnectionprofile.aspx)..  
   
@@ -130,17 +130,17 @@ The Visual Studio simulator for Windows Store apps is a desktop application that
   
    **More information about managing network connections**  
   
-   [Quickstart: Managing metered network cost constraints](http://msdn.microsoft.com/library/windows/apps/Hh750310.aspx)  
+   [Quickstart: Managing metered network cost constraints](https://msdn.microsoft.com/library/windows/apps/Hh750310.aspx)  
   
-   [Network information sample](http://code.msdn.microsoft.com/windowsapps/Network-Information-Sample-63aaa201)  
+   [Network information sample](https://code.msdn.microsoft.com/windowsapps/Network-Information-Sample-63aaa201)  
   
    [Analyze energy use](../profiling/analyze-energy-use-in-store-apps.md)  
-  
+    
    [Windows.Networking.Connectivity](https://msdn.microsoft.com/library/windows/apps/windows.networking.connectivity.aspx)  
   
-   [How to respond to system events with background tasks](http://msdn.microsoft.com/f7c86e86-a7ae-4abb-a923-76b03337a80a)  
+   [How to respond to system events with background tasks](https://msdn.microsoft.com/f7c86e86-a7ae-4abb-a923-76b03337a80a)  
   
-   [How to trigger suspend, resume, and background events in Windows Store apps](http://msdn.microsoft.com/library/windows/apps/hh974425.aspx)  
+   [How to trigger suspend, resume, and background events in Windows Store apps](https://msdn.microsoft.com/library/windows/apps/hh974425.aspx)  
   
 ## <a name="BKMK_Navigate_the_simulator_with_the_keyboard"></a> Navigate the simulator with the keyboard  
  You can navigate the simulator toolbar by pressing **CTRL+ALT+Up Arrow** to switch focus from the simulator window to the simulator toolbar. Use the **Up Arrow** and the **Down Arrow** to move between toolbar buttons.  

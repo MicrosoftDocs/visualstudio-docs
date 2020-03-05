@@ -8,8 +8,8 @@ helpviewer_keywords:
   - "selection, Visual Studio IDE"
   - "IDE, currency"
 ms.assetid: 2f6f18d1-acd8-454d-a856-9a4d81155052
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -56,6 +56,6 @@ The [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] integrated deve
 
 - Events that change the elements traced within the window frame selection context. Examples include changing selection within a DocObject or changing selection in a project-type window.
 
-## See Also
+## See also
 - [Selection Context Objects](../../extensibility/internals/selection-context-objects.md)
 - [Feedback to the User](../../extensibility/internals/feedback-to-the-user.md)

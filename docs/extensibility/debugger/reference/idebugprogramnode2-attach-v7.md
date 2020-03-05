@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugProgramNode2::Attach_V7"
   - "IDebugProgramNode2::Attach"
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -42,16 +42,13 @@ int Attach_V7 (
 ## Parameters
 
 `pMDMProgram`\
+[in] The [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md) interface that represents the program to attach to.
 
- [in] The [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md) interface that represents the program to attach to.
+`pCallback`\
+[in] The [IDebugEventCallback2](../../../extensibility/debugger/reference/idebugeventcallback2.md) interface to be used to send debug events to the SDM.
 
- `pCallback`\
-
- [in] The [IDebugEventCallback2](../../../extensibility/debugger/reference/idebugeventcallback2.md) interface to be used to send debug events to the SDM.
-
- `dwReason`\
-
- [in] A value from the [ATTACH_REASON](../../../extensibility/debugger/reference/attach-reason.md) enumeration that specifies the reason for attaching.
+`dwReason`\
+[in] A value from the [ATTACH_REASON](../../../extensibility/debugger/reference/attach-reason.md) enumeration that specifies the reason for attaching.
 
 ## Return Value
 

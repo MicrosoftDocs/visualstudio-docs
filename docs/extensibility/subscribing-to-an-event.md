@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "running document table (RDT), responding to events"
   - "running document table (RDT), subscribing to events"
 ms.assetid: e94a4fea-94df-488e-8560-9538413422bc
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -39,7 +39,7 @@ This walkthrough explains how to create a tool window that responds to events in
     </Grid>
     ```
 
-2. Open the RDTExplorerWindow.cs file in code view. Add the following using statements to the start of the file.
+2. Open the RDTExplorerWindow.cs file in code view. Add the following using directives to the start of the file.
 
     ```csharp
     using Microsoft.VisualStudio;

@@ -1,5 +1,5 @@
 ---
-title: "FullClassName Element (Visual Studio Template Wizard Extension) | Microsoft Docs"
+title: "FullClassName element (VS template wizard extension)"
 ms.date: "11/04/2016"
 ms.technology: "vs-ide-general"
 ms.topic: "conceptual"
@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
   - "FullClassName element [Visual Studio project template]"
 ms.assetid: 651e1010-d529-4856-85ff-c77ceca5d2ed
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

@@ -5,8 +5,8 @@ ms.topic: "conceptual"
 helpviewer_keywords:
   - "project types [Visual Studio SDK]"
 ms.assetid: 09991589-2300-430e-b6a4-7f2b95fe676f
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -58,5 +58,5 @@ ms.workload:
 
 - Project types can support multiple configurations, such as Debug and Release. Users can change the different configurations of a project by using property pages that you supply. For more information, see [Managing Configuration Options](../../extensibility/internals/managing-configuration-options.md).
 
-## See Also
+## See also
 - [Deploying Project Types](../../extensibility/internals/deploying-project-types.md)

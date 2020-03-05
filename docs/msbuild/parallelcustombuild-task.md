@@ -11,10 +11,10 @@ dev_langs:
   - "jsharp"
   - "C++"
 helpviewer_keywords:
-  - "MSBuild (Visual C++), ParallelCustomBuild task"
-  - "ParallelCustomBuild task (MSBuild (Visual C++))"
-author: mikeblome
-ms.author: mblome
+  - "MSBuild (C++), ParallelCustomBuild task"
+  - "ParallelCustomBuild task (MSBuild (C++))"
+author: corob-msft
+ms.author: corob
 ms.workload:
   - "multiple"
 ---

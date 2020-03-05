@@ -1,9 +1,10 @@
 ---
-title: Refactor method signature
+title: Change method signature
+description: Remove or change the order of a method's parameters. Right-click the method, select Quick Actions and Refactorings, and select Change Signature.
 ms.date: 01/26/2018
 ms.topic: reference
-author: gewarren
-ms.author: gewarren
+author: mikadumont
+ms.author: midumont
 manager: jillfra
 f1_keywords:
   - "vs.csharp.refactoring.remove"

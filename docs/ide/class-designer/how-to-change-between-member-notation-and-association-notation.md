@@ -1,18 +1,18 @@
 ---
-title: "How to: Change Between Member Notation and Association Notation (Class Designer)"
+title: Change between member & association notation (Class Designer)
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "notation, member"
-  - "association notation"
-  - "member notation"
-  - "notation, association"
+- notation, member
+- association notation
+- member notation
+- notation, association
 ms.assetid: 65881c5a-d251-4a36-ad0d-73d088436092
-author: gewarren
-ms.author: gewarren
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # How to: Change between member notation and association notation in Class Designer
 

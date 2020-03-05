@@ -34,6 +34,6 @@ The **Choose Breakpoints** dialog box opens when you try to set a breakpoint fro
  **None**
  Clears all breakpoints listed in the **Breakpoints** box.
 
-## See Also
+## See also
 
 - [Using Breakpoints](../debugger/using-breakpoints.md)

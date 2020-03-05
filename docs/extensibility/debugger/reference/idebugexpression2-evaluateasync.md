@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugExpression2::EvaluateAsync"
 ms.assetid: 848fe6cb-0759-42f2-890b-d2b551c527d6
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -37,12 +37,10 @@ int EvaluateAsync(
 
 ## Parameters
 `dwFlags`\
-
- [in] A combination of flags from the [EVALFLAGS](../../../extensibility/debugger/reference/evalflags.md) enumeration that control expression evaluation.
+[in] A combination of flags from the [EVALFLAGS](../../../extensibility/debugger/reference/evalflags.md) enumeration that control expression evaluation.
 
 `pExprCallback`\
-
- [in] This parameter is always a null value.
+[in] This parameter is always a null value.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise returns an error code. A typical error code is:

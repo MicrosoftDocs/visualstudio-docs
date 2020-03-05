@@ -3,14 +3,14 @@ title: Security
 ms.date: 06/01/2018
 ms.topic: conceptual
 helpviewer_keywords:
-  - "security [Visual Studio], applications"
-  - "application design, securability"
+- security [Visual Studio], applications
+- application design, securability
 ms.assetid: 7d32c4cf-8bec-4307-a2a8-42f0ceddf3eb
-author: gewarren
-ms.author: gewarren
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Secure applications
 
@@ -34,7 +34,7 @@ Security is also an important consideration in the build process. A few addition
 
 ## See also
 
-- [Security in the .NET Framework](/dotnet/standard/security/index)
+- [Security in .NET](/dotnet/standard/security/index)
 - [Azure security](/azure/security/)
 - [Windows 10 Mobile security guide](/windows/security/threat-protection/windows-10-mobile-security-guide)
 - [Apache Cordova platform security features](/visualstudio/cross-platform/tools-for-cordova/security/best-practices?view=toolsforcordova-2017)

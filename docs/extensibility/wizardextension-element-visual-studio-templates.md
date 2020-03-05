@@ -9,8 +9,8 @@ helpviewer_keywords:
   - "WizardExtension element [Visual Studio Templates]"
   - "<WizardExtension> element [Visual Studio Templates]"
 ms.assetid: d54b01c1-50f5-4b65-828c-686e2321cc8c
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -84,7 +84,7 @@ Contains the registration elements for customizing the template wizard.
 </VSTemplate>
 ```
 
-## See Also
+## See also
 - [Visual Studio Template Schema Reference](../extensibility/visual-studio-template-schema-reference.md)
 - [Creating Project and Item Templates](../ide/creating-project-and-item-templates.md)
 - [How to: Use Wizards with Project Templates](../extensibility/how-to-use-wizards-with-project-templates.md)

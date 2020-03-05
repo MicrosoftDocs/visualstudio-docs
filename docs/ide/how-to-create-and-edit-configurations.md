@@ -1,24 +1,24 @@
 ---
-title: "How to: Create and edit configurations"
+title: 'How to: Create and edit configurations'
 ms.date: 06/21/2017
 ms.technology: vs-ide-compile
 ms.topic: conceptual
 helpviewer_keywords:
-  - "solution build configurations, editing"
-  - "build configurations, creating"
-  - "solution build configurations, creating"
-  - "build configurations, editing"
-  - "builds [Visual Studio], setting up"
-  - "property pages"
-  - "Configuration Manager"
-  - "project build configurations, creating"
-  - "project build configurations, editing"
+- solution build configurations, editing
+- build configurations, creating
+- solution build configurations, creating
+- build configurations, editing
+- builds [Visual Studio], setting up
+- property pages
+- Configuration Manager
+- project build configurations, creating
+- project build configurations, editing
 ms.assetid: 19be121c-148e-4ece-bbfc-d20b08cfc3f7
-author: gewarren
-ms.author: gewarren
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # How to: Create and edit configurations
 
@@ -38,7 +38,7 @@ To open the **Configuration Manager** dialog box, in **Solution Explorer**, open
 
 In the **Configuration Manager** dialog box, you can use the **Active solution configuration** drop-down list to select a solution-wide build configuration, modify an existing one, or create a new configuration. You can use the **Active solution platform** drop-down list to select the platform that the configuration targets, modify an existing one, or add a new platform. The **Project contexts** pane lists the projects in the solution. For each project, you can select a project-specific configuration and platform, modify existing ones, or create a new configuration or add a new platform. You can also select check boxes that indicate whether each project is included when you use the solution-wide configuration to build or deploy the solution.
 
- After you set up the configurations you want, you can set project properties that are appropriate for those configurations.
+After you set up the configurations you want, you can set project properties that are appropriate for those configurations.
 
 ### Set properties based on configurations
 

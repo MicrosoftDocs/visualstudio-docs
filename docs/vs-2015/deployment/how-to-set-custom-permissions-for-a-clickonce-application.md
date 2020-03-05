@@ -43,7 +43,7 @@ You can deploy a [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] applicat
 7. Before the `</applicationRequestMinimum>` element, add XML code for permissions that your application requires.  
   
     > [!NOTE]
-    > You can use the `ToXml` method of a permission set to generate the XML code for the application manifest. For example, to generate the XML for the <xref:System.Security.Permissions.EnvironmentPermission> permission set, call the <xref:System.Security.Permissions.EnvironmentPermission.ToXml%2A> method. For more information about the structure of the permission set XML, see [NIB: How to: Import a Permission Set by Using an XML File](http://msdn.microsoft.com/dea16b54-c108-408a-ac36-cdc05f746236).  
+    > You can use the `ToXml` method of a permission set to generate the XML code for the application manifest. For example, to generate the XML for the <xref:System.Security.Permissions.EnvironmentPermission> permission set, call the <xref:System.Security.Permissions.EnvironmentPermission.ToXml%2A> method. For more information about the structure of the permission set XML, see [NIB: How to: Import a Permission Set by Using an XML File](https://msdn.microsoft.com/dea16b54-c108-408a-ac36-cdc05f746236).  
   
 ## See Also  
  [Securing ClickOnce Applications](../deployment/securing-clickonce-applications.md)   

@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugPortEx2::GetPortProcessId"
 ms.assetid: be85be66-47e6-415f-b0ca-24599aa5f13c
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -34,9 +34,8 @@ int GetPortProcessId ( 
 ```
 
 ## Parameters
- `pdwProcessId`\
-
- [out] Returns the physical process ID of the port itself.
+`pdwProcessId`\
+[out] Returns the physical process ID of the port itself.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

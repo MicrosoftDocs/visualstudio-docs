@@ -1,11 +1,12 @@
 ---
-title: "How to: Instrument a Dynamically Compiled ASP.NET web Application and Collect Memory Data by Using the Profiler Command Line | Microsoft Docs"
+title: "Profiler command line: Instrument dynamic ASP.NET app, get memory data"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 ms.assetid: 2cdd9903-39db-47e8-93dd-5e6a21bc3435
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jillfra
+monikerRange: 'vs-2017'
 ms.workload:
   - "aspnet"
 ---

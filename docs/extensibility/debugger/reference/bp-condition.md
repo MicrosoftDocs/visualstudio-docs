@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "BP_CONDITION structure"
 ms.assetid: 407f87a3-2878-429b-8c65-b68feb36622a
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "installation [Visual Studio SDK], components"
   - "installation [Visual Studio SDK], file management"
 ms.assetid: 029bffa2-6841-4caa-a41a-442467e1aedc
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

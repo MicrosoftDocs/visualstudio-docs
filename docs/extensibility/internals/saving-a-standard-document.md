@@ -7,8 +7,8 @@ helpviewer_keywords:
   - "projects [Visual Studio SDK], saving standard documents"
   - "persistence, saving standard documents"
 ms.assetid: d692fedf-b46e-4d60-84bd-578635042235
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -51,6 +51,6 @@ Save, Save As, and Save All command handling for a standard editor
 
 2. Call the <xref:Microsoft.VisualStudio.Shell.Interop.IVsExternalFilesManager2.TransferDocument%2A> (`pszMkDocumentNew`, `punkWindowFrame`) method to transfer the document to the new hierarchy. The hierarchy performing the Save As command calls this method.
 
-## See Also
+## See also
 - <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget>
 - [Opening and Saving Project Items](../../extensibility/internals/opening-and-saving-project-items.md)

@@ -159,6 +159,7 @@ A Windows Form is one of the most common managed applications. A Windows Form cr
 
     ```cpp
     textBox1->Text = "Button was clicked!";
+    ```
 
 2. On the **Debug** menu, select **Start Without Debugging**.
 
@@ -176,6 +177,6 @@ A Windows Form is one of the most common managed applications. A Windows Form cr
 
      The debugger breaks execution of the Windows Form at the breakpoint.
 
-## See Also
+## See also
 - [Debugging Managed Code](../debugger/debugging-managed-code.md)
 - [Debugger Security](../debugger/debugger-security.md)

@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugAlias::GetObject method"
 ms.assetid: 97bc3af6-6e55-4940-8a6d-692c61257806
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -34,9 +34,8 @@ int GetObject(
 ```
 
 ## Parameters
- `ppObject`\
-
- [out] The [IDebugObject2](../../../extensibility/debugger/reference/idebugobject2.md) this alias represents.
+`ppObject`\
+[out] The [IDebugObject2](../../../extensibility/debugger/reference/idebugobject2.md) this alias represents.
 
 ## Return Value
  If successful, returns S_OK; otherwise, returns an error code.

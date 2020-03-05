@@ -5,8 +5,8 @@ ms.topic: "conceptual"
 helpviewer_keywords:
   - "web site projects, registration"
 ms.assetid: 46d52e2c-ca2a-4bbd-8500-5b0129768aec
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -48,5 +48,5 @@ public class PythonPackage : Package, IOleComponent
 
  The IVsIntellisenseProject implementation handles references and calls the language compiler when a Web page with code is requested but isn't cached.
 
-## See Also
+## See also
 - [Web Site Support](../../extensibility/internals/web-site-support.md)

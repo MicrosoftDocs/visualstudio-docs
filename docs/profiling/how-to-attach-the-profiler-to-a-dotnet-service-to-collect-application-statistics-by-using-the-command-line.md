@@ -1,5 +1,5 @@
 ---
-title: "Attach the profiler to a .NET service to collect app statistics"
+title: "Attach profiler to .NET service to collect app statistics"
 ms.custom: "seodec18"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
@@ -7,6 +7,7 @@ ms.assetid: a0046c47-26c8-4bec-96a0-81da05e5104a
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jillfra
+monikerRange: 'vs-2017'
 ms.workload:
   - "dotnet"
 ---

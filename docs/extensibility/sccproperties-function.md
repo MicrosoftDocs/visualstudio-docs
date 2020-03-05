@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "SccProperties function"
 ms.assetid: 1bed38c9-73d2-4474-9717-f9dc26a89cbe
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -56,5 +56,5 @@ SCCRTN SccProperties (
 
  The properties are defined by the source control plug-in and may differ from plug-in to plug-in. If the plug-in allows the user to change the source control properties of a file, it should return `SCC_I_RELOAD` to signal the IDE that this file or project needs to be reloaded.
 
-## See Also
+## See also
 - [Source Control Plug-in API Functions](../extensibility/source-control-plug-in-api-functions.md)

@@ -1,5 +1,5 @@
 ---
-title: "How to: Deploy and Publish a SharePoint Solution to a Local SharePoint Site | Microsoft Docs"
+title: "Deploy & publish SharePoint solution to local SharePoint site"
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:

@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "DEBUG_ADDRESS structure"
 ms.assetid: 79f5e765-9aac-4b6e-82ef-bed88095e9ba
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

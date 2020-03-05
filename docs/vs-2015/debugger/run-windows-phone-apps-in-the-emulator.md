@@ -20,7 +20,7 @@ manager: jillfra
 
 The Windows Phone emulator provides a virtualized environment in which you can debug and test Windows Phone apps on your computer without a physical device. You can simulate common touch and rotation events and choose the physical screen size and resolution that you want to emulate. You can also test many commonly used features, such as location, networking, notifications, sensors, the accelerometer, and the optional SD card.  
   
- For more info about the features that you can test in the emulator, see [Test app features in Windows Phone Emulator](http://msdn.microsoft.com/c1b2b0ec-b8cc-4a98-84c1-701428e45cb1).  
+ For more info about the features that you can test in the emulator, see [Test app features in Windows Phone Emulator](https://msdn.microsoft.com/c1b2b0ec-b8cc-4a98-84c1-701428e45cb1).  
   
  Together with Visual Studio, the emulator provides a complete environment in which you can design, develop, debug, and test Windows Phone apps.  
   
@@ -97,7 +97,7 @@ The Windows Phone emulator provides a virtualized environment in which you can d
 ### <a name="BKMK_depltool"></a> Run an app with the Application Deployment tool  
  You can also use the Windows Phone Application Deployment tool (**AppDeploy.exe**) to run your app in the emulator. This tool is a stand-alone app that is installed when you install the Windows Phone development tools.  
   
- For more info, see [Deploy Windows Phone 8.1 apps with the Application Deployment tool](http://msdn.microsoft.com/library/23700f82-1399-44d9-bc0c-714be4a48ee6).  
+ For more info, see [Deploy Windows Phone 8.1 apps with the Application Deployment tool](https://msdn.microsoft.com/library/23700f82-1399-44d9-bc0c-714be4a48ee6).  
   
 ## <a name="BKMK_toolbar"></a> Configure the Windows Phone emulator with the emulator toolbar  
  This table shows the configuration buttons available on the emulator toolbar.  

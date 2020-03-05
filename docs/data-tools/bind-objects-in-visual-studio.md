@@ -3,19 +3,19 @@ title: Data bind custom objects
 ms.date: 11/04/2016
 ms.topic: conceptual
 dev_langs:
-  - "VB"
-  - "CSharp"
+- VB
+- CSharp
 helpviewer_keywords:
-  - "data [Visual Studio], object binding"
-  - "data [Visual Studio], binding to objects"
-  - "object binding"
-  - "binding, to objects"
+- data [Visual Studio], object binding
+- data [Visual Studio], binding to objects
+- object binding
+- binding, to objects
 ms.assetid: ed743ce6-73af-45e5-a8ff-045eddaccc86
-author: gewarren
-ms.author: gewarren
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "data-storage"
+- data-storage
 ---
 # Bind objects as data sources in Visual Studio
 
@@ -92,7 +92,7 @@ The following code shows how to add objects to the typed collection in a <xref:S
 [!code-csharp[VbRaddataConnecting#5](../data-tools/codesnippet/CSharp/bind-objects-in-visual-studio_3.cs)]
 [!code-vb[VbRaddataConnecting#5](../data-tools/codesnippet/VisualBasic/bind-objects-in-visual-studio_3.vb)]
 
- The following code shows how to add objects to a typed collection that inherits from <xref:System.ComponentModel.BindingList%601>:
+The following code shows how to add objects to a typed collection that inherits from <xref:System.ComponentModel.BindingList%601>:
 
 > [!NOTE]
 > In this example, the `Orders` collection is a property of the `Customer` object.

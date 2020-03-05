@@ -21,7 +21,7 @@ ms.workload:
 
  This walkthrough demonstrates the following tasks:
 
-- [Addg a feature and feature event receiver](#add-a-feature-and-feature-event-receiver).
+- [Add a feature and feature event receiver](#add-a-feature-and-feature-event-receiver).
 
 - [Configure and Deploy the SharePoint application](#configure-and-deploy-the-sharepoint-application).
 
@@ -191,7 +191,7 @@ ms.workload:
 
 2. On page one of the **Performance Wizard**, leave the method of profiling as **CPU sampling** and choose the **Next** button.
 
-     The other profiling methods can be used in more advanced profiling situations. For more information, see [Understanding Performance Collection Methods](/visualstudio/profiling/understanding-performance-collection-methods).
+     The other profiling methods can be used in more advanced profiling situations. For more information, see [Understanding Performance Collection Methods](../profiling/understanding-performance-collection-methods.md).
 
 3. On page two of the **Performance Wizard**, leave the profile target as **ProfileTest** and choose the **Next** button.
 
@@ -267,7 +267,6 @@ ms.workload:
      The feature should activate much faster now that the call to the idle loop has been eliminated. The Sample Profiling Report should reflect this.
 
 ## See also
-- [Performance Explorer](/visualstudio/profiling/performance-explorer)
-- [Performance Session Overview](/visualstudio/profiling/performance-session-overview)
-- [Beginners Guide to Performance Profiling](/visualstudio/profiling/beginners-guide-to-performance-profiling)
-- [Find Application Bottlenecks with Visual Studio Profiler](http://go.microsoft.com/fwlink/?LinkID=137266)
+- [Performance Session Overview](../profiling/performance-session-overview.md)
+- [Beginners Guide to Performance Profiling](../profiling/beginners-guide-to-performance-profiling.md)
+- [Find Application Bottlenecks with Visual Studio Profiler](https://msdn.microsoft.com/magazine/cc337887.aspx)

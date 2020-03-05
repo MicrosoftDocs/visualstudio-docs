@@ -9,8 +9,8 @@ helpviewer_keywords:
   - "vsix manifest"
   - "manifest designer"
 ms.assetid: 5a691e77-cf91-430d-90ea-361d9031ef83
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

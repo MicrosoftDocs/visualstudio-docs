@@ -36,5 +36,5 @@ BOOL FCanJitDebug();
 ## Remarks  
  This method determines if a JIT debugger is registered.  
   
-## See Also  
+## See also  
  [IDebugApplication Interface](../../winscript/reference/idebugapplication-interface.md)

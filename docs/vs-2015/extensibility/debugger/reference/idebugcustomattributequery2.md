@@ -29,7 +29,7 @@ IDebugCustomAttributeQuery2 : IDebugCustomAttributeQuery
  A symbol provider implements this interface on the same object that implements [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) in order to support custom attributes.  
   
 ## Notes for Callers  
- Use [QueryInterface](http://msdn.microsoft.com/library/62fce95e-aafa-4187-b50b-e6611b74c3b3) to obtain this interface from the [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) interface.  
+ Use [QueryInterface](https://msdn.microsoft.com/library/62fce95e-aafa-4187-b50b-e6611b74c3b3) to obtain this interface from the [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) interface.  
   
 ## Methods in Vtable Order  
  The following table shows the methods of the **IDebugCustomAttributeQuery** interface.  

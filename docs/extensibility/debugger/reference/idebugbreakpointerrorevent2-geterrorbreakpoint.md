@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugBreakpointErrorEvent2::GetErrorBreakpoint"
 ms.assetid: e5acfd19-ac17-47f3-a31a-b2aa8baca36d
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -35,8 +35,7 @@ int GetErrorBreakpoint( 
 
 ## Parameters
 `ppErrorBP`\
-
- [out] Returns an [IDebugErrorBreakpoint2](../../../extensibility/debugger/reference/idebugerrorbreakpoint2.md) object that describes the warning or error.
+[out] Returns an [IDebugErrorBreakpoint2](../../../extensibility/debugger/reference/idebugerrorbreakpoint2.md) object that describes the warning or error.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns an error code.

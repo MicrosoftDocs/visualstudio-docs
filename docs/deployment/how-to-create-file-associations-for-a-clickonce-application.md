@@ -45,7 +45,7 @@ ms.workload:
 
     `mage -Sign WindowsFormsApp1.exe.manifest -CertFile mycert.pfx`
 
-    For more information, see [Mage.exe (Manifest Generation and Editing Tool)](/dotnet/framework/tools/mage-exe-manifest-generation-and-editing-tool)
+    For more information, see [Mage.exe (Manifest Generation and Editing Tool)](/dotnet/framework/tools/mage-exe-manifest-generation-and-editing-tool).
 
 ## See also
 - [\<fileAssociation> element](../deployment/fileassociation-element-clickonce-application.md)

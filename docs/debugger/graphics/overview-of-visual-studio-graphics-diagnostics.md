@@ -46,7 +46,7 @@ Visual Studio *Graphics Diagnostics* is a set of tools for recording and then an
 ### GPU Usage
  Graphics Diagnostics can also profile the performance of your Direct3D app. Because profiling data would be skewed by recording details of graphics events, this is separate from capturing frames to be used examined with the Graphics Analyzer.
 
- See [GPU Usage](/visualstudio/profiling/gpu-usage) for more information.
+ See [GPU Usage](../../profiling/gpu-usage.md) for more information.
 
 ### DirectX control panel
  The DirectX control panel is a component of DirectX that you can use to change the way that DirectX behaves—for example, you can enable the debug version of the DirectX runtime components, select the kind of debug messages that are reported, and disallow certain graphics hardware capabilities from being used to emulate less-capable hardware. This level of control over DirectX can help you debug and test your DirectX app. You can access the DirectX control panel from Visual Studio.
@@ -111,6 +111,6 @@ Visual Studio *Graphics Diagnostics* is a set of tools for recording and then an
 
  But Frame Analysis isn't just about going fast - it's about gaining the most performance you can while giving up the least amount of visual quality. Sometimes an expensive effect that looks great on a large display doesn't make the same impact when viewed on the small screen of a phone, where a simpler effect might look just as good without draining the battery. The automatic changes and benchmarks that Graphics Analysis provides can help you find the balance that's right for your app across a range of devices.
 
-## See Also
+## See also
 - [Command-Line Capture Tool](command-line-capture-tool.md)
 - [HLSL Debugger](hlsl-shader-debugger.md)

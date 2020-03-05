@@ -34,5 +34,5 @@ An object that implements the `IScriptNode` interface represents a Web page.
 |[IScriptNode::GetNumberOfChildren](../../winscript/reference/iscriptnode-getnumberofchildren.md)|Returns the number of child nodes of the `IScriptNode` object.|  
 |[IScriptNode::GetParent](../../winscript/reference/iscriptnode-getparent.md)|Returns the `IScriptNode` object that is the parent of an object.|  
   
-## See Also  
+## See also  
  [Active Script Authoring Interfaces](../../winscript/reference/active-script-authoring-interfaces.md)

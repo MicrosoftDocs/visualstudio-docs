@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "EXCEPTION_INFO structure"
 ms.assetid: d046957a-b97d-420b-b46b-c67cbaef709e
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

@@ -13,14 +13,14 @@ helpviewer_keywords:
   - "symbols"
   - "libraries, symbol-browsing tools"
 ms.assetid: 70d8c9e5-4b0b-4a69-b3b3-90f36debe880
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
 ---
 # Supporting Symbol-Browsing Tools
-**Object Browser**, **Class View**, **Call Browser** and **Find Symbol Results** tools provide symbol browsing capabilities in Visual Studio. These tools display hierarchical tree views of symbols and show the relationships between the symbols in the tree. The symbols may represent namespaces, objects, classes, class members, and other language elements contained in various components. The components include Visual Studio projects, external [!INCLUDE[dnprdnshort](../../code-quality/includes/dnprdnshort_md.md)] components and type (.tlb) libraries. For more information, see [Viewing the Structure of Code](../../ide/viewing-the-structure-of-code.md).
+**Object Browser**, **Class View**, **Call Browser** and **Find Symbol Results** tools provide symbol browsing capabilities in Visual Studio. These tools display hierarchical tree views of symbols and show the relationships between the symbols in the tree. The symbols may represent namespaces, objects, classes, class members, and other language elements contained in various components. The components include Visual Studio projects, external .NET Framework components and type (.tlb) libraries. For more information, see [Viewing the Structure of Code](../../ide/viewing-the-structure-of-code.md).
 
 ## Symbol-Browsing Libraries
  As a language implementer, you can extend the Visual Studio symbol-browsing capabilities by creating libraries that track the symbols in your components and provide the lists of symbols to the Visual Studio object manager through a set of the interfaces. A library is described by the <xref:Microsoft.VisualStudio.Shell.Interop.IVsSimpleLibrary2> interface. The Visual Studio object manager responds to requests for new data from the symbol-browsing tools by obtaining the data from the libraries and organizing it. It subsequently populates or updates the tools with the requested data. To obtain a reference to the Visual Studio object manager, <xref:Microsoft.VisualStudio.Shell.Interop.IVsObjectManager2>, pass the <xref:Microsoft.VisualStudio.Shell.Interop.SVsObjectManager> service ID to the `GetService` method.
@@ -42,7 +42,7 @@ ms.workload:
 > [!NOTE]
 > To implement a native code symbol provider, use the <xref:Microsoft.VisualStudio.Shell.Interop.IVsLibrary2> and <xref:Microsoft.VisualStudio.Shell.Interop.IVsObjectList2> interfaces.
 
-## See Also
+## See also
 - [How to: Register a Library with the Object Manager](../../extensibility/internals/how-to-register-a-library-with-the-object-manager.md)
 - [How to: Expose Lists of Symbols Provided by the Library to the Object Manager](../../extensibility/internals/how-to-expose-lists-of-symbols-provided-by-the-library-to-the-object-manager.md)
 - [How to: Identify Symbols in a Library](../../extensibility/internals/how-to-identify-symbols-in-a-library.md)

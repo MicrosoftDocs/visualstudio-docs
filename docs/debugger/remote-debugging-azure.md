@@ -103,9 +103,9 @@ This article includes steps on setting up a basic configuration of IIS on Window
 
 * If you want help to make sure that your app is set up, deployed, and running correctly in IIS so that you can debug, follow all the steps in this topic.
 
-    * Before you begin, follow all the steps described in [Install and run IIS](/azure/virtual-machines/windows/quick-create-portal).
+  * Before you begin, follow all the steps described in [Install and run IIS](/azure/virtual-machines/windows/quick-create-portal).
 
-    * When you open port 80 in the Network security group, also open the [correct port](#bkmk_openports) for the remote debugger (4024 or 4022). That way, you won't have to open it later.
+  * When you open port 80 in the Network security group, also open the [correct port](#bkmk_openports) for the remote debugger (4024 or 4022). That way, you won't have to open it later.
 
 ### Update browser security settings on Windows Server
 
@@ -165,9 +165,9 @@ After the app deploys successfully, it should start automatically. If the app do
 
 ## (Optional) Deploy by publishing to a local folder
 
-You can use this option to deploy your app if you want to copy the app to IIS using Powershell, RoboCopy, or you want to manually copy the files.
+You can use this option to deploy your app if you want to copy the app to IIS using PowerShell, RoboCopy, or you want to manually copy the files.
 
-### <a name="BKMK_deploy_asp_net"></a> Configure the ASP.NET Web site on the Windows Server computer
+### <a name="BKMK_deploy_asp_net"></a> Configure the ASP.NET Core Web site on the Windows Server computer
 
 If you are importing publish settings, you can skip this section.
 
@@ -175,7 +175,7 @@ If you are importing publish settings, you can skip this section.
 
 2. Right-click the **Default Web Site** node and select **Add Application**.
 
-3. Set the **Alias** field to **MyASPApp** and the Application pool field to **No Managed Code**. Set the **Physical path** to **C:\Publish** (where you will later deploy the ASP.NET project).
+3. Set the **Alias** field to **MyASPApp** and the Application pool field to **No Managed Code**. Set the **Physical path** to **C:\Publish** (where you will later deploy the ASP.NET Core project).
 
 4. With the site selected in the IIS Manager, choose **Edit Permissions**, and make sure that IUSR, IIS_IUSRS, or the user configured for the Application Pool is an authorized user with Read & Execute rights.
 

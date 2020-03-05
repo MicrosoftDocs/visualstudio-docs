@@ -35,7 +35,7 @@ The [Active Script Profiler Interfaces](../winscript/reference/active-script-pro
  The host creates the language engine and provides the language engine with scripts to be executed. A smart host also provides the document context that can be used by a debugger or profiler to provide better information when you are debugging or profiling.  
   
 ## Profiler  
- The profiler receives the calls from the language engine when various events occur. The profiler must be registered as a COM object and must implement the [IActiveScriptProfilerCallback Interface](../winscript/reference/iactivescriptprofilercallback-interface.md) interface.  
+ The profiler receives the calls from the language engine when various events occur. The profiler must be registered as a COM object and must implement the [IActiveScriptProfilerCallback Interface](../winscript/reference/iactivescriptprofilercallback-interface.md).  
   
-## See Also  
+## See also  
  [Active Script Profiler Interfaces](../winscript/reference/active-script-profiler-interfaces.md)

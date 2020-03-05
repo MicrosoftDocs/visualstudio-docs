@@ -1,18 +1,18 @@
 ---
-title: "Coded web performance tests"
+title: Coded web performance tests
 ms.date: 10/03/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "Web performance tests, walkthroughs"
-  - "Web performance tests, creating"
-  - "code, Web performance tests"
-  - "Web performance tests, coded"
+- Web performance tests, walkthroughs
+- Web performance tests, creating
+- code, Web performance tests
+- Web performance tests, coded
 ms.assetid: 169e48f9-52fd-4d0b-83d9-54913bde506b
 dev_langs:
-  - CSharp
-  - VB
-author: gewarren
-ms.author: gewarren
+- CSharp
+- VB
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ---
 # Generate and run a coded web performance test
@@ -79,16 +79,16 @@ Web performance tests are recorded by browsing through your web app. The tests a
 ## Q&A
 
 ### Q: Can I run more than one test at a time?
- **A:** Yes, use the right-click (context) menu in **Solution Explorer**.
+**A:** Yes, use the right-click (context) menu in **Solution Explorer**.
 
 ### Q: Should I add a data source before or after I generate a coded test?
- **A:** It is easier to add a [data source](../test/add-a-data-source-to-a-web-performance-test.md) before you generate the coded test because the code will be automatically generated for you.
+**A:** It is easier to add a [data source](../test/add-a-data-source-to-a-web-performance-test.md) before you generate the coded test because the code will be automatically generated for you.
 
- When you run a coded test with a data source, you might see the following error message:
+When you run a coded test with a data source, you might see the following error message:
 
- **Could not run test \<Test Name> on agent \<Computer Name>: Object reference not set to an instance of an object.**
+**Could not run test \<Test Name> on agent \<Computer Name>: Object reference not set to an instance of an object.**
 
- This can occur because you have a DataSourceAttribute defined for the test class, without a corresponding DataBindingAttribute. To resolve this error, add an appropriate DataBindingAttribute, delete it, or comment it out of the code.
+This can occur because you have a DataSourceAttribute defined for the test class, without a corresponding DataBindingAttribute. To resolve this error, add an appropriate DataBindingAttribute, delete it, or comment it out of the code.
 
 ### Q: Should I add validation and extraction rules before or after I generate a coded test?
- **A:** It is easier to add validation rules and extraction rules before you generate the coded test; however, we recommend that you use [coded UI tests](../test/use-ui-automation-to-test-your-code.md) for validation purposes.
+**A:** It is easier to add validation rules and extraction rules before you generate the coded test; however, we recommend that you use [coded UI tests](../test/use-ui-automation-to-test-your-code.md) for validation purposes.

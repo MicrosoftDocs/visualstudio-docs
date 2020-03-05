@@ -1,12 +1,12 @@
 ---
 title: Insert XML documentation comments
-ms.date: 01/26/2018
+ms.date: 01/22/2020
 ms.topic: reference
-author: gewarren
-ms.author: gewarren
+author: mikadumont
+ms.author: midumont
 manager: jillfra
 ms.workload:
-  - "dotnet"
+- dotnet
 ---
 # How to: Insert XML comments for documentation generation
 
@@ -18,13 +18,13 @@ Visual Studio can help you document code elements such as classes and methods, b
 The compiler-generated XML file can be distributed alongside your .NET assembly so that Visual Studio and other IDEs can use IntelliSense to show quick information about types and members. Additionally, the XML file can be run through tools like [DocFX](https://dotnet.github.io/docfx/) and [Sandcastle](https://www.microsoft.com/download/details.aspx?id=10526) to generate API reference websites.
 
 > [!NOTE]
-> The **Insert Comment** command that automatically inserts XML documentation comments is available in [C#](/dotnet/csharp/programming-guide/xmldoc/xml-documentation-comments) and [Visual Basic](/dotnet/visual-basic/programming-guide/program-structure/how-to-create-xml-documentation). However, you can manually insert [XML documentation comments in C++](/cpp/ide/xml-documentation-visual-cpp) files and still generate XML documentation files at compile time.
+> The **Insert Comment** command that automatically inserts XML documentation comments is available in [C#](/dotnet/csharp/programming-guide/xmldoc/xml-documentation-comments) and [Visual Basic](/dotnet/visual-basic/programming-guide/program-structure/how-to-create-xml-documentation). However, you can manually insert [XML documentation comments in C++](/cpp/build/reference/xml-documentation-visual-cpp) files and still generate XML documentation files at compile time.
 
 ## To insert XML comments for a code element
 
 1. Place your text cursor above the element you want to document, for example, a method.
 
-1. Do one of the following:
+2. Do one of the following:
 
    - Type `///` in C#, or `'''` in Visual Basic
 
@@ -38,9 +38,13 @@ The compiler-generated XML file can be distributed alongside your .NET assembly 
 
    ![XML comment template - Visual Basic](media/doc-preview-vb.png)
 
-1. Enter descriptions for each XML element to fully document the code element.
+3. Enter descriptions for each XML element to fully document the code element.
 
    ![Completed comment](media/doc-result-cs.png)
+
+You can use styles in XML comments that will render in Quick Info when hovering over the element. These styles include: italics, bold, bullets, and a clickable link.
+
+   ![Completed comment](media/doc-style-cs.png) 
 
 > [!NOTE]
 > There is an [option](../../ide/reference/options-text-editor-csharp-advanced.md) to toggle XML documentation comments after typing `///` in C# or `'''` Visual Basic. From the menu bar, choose **Tools** > **Options** to open the **Options** dialog box. Then, navigate to **Text Editor** > **C#** or **Basic** > **Advanced**. In the **Editor Help** section, look for the **Generate XML documentation comments** option.
@@ -51,5 +55,5 @@ The compiler-generated XML file can be distributed alongside your .NET assembly 
 - [Documenting your code with XML comments (C# Guide)](/dotnet/csharp/codedoc)
 - [How to: Create XML documentation (Visual Basic)](/dotnet/visual-basic/programming-guide/program-structure/how-to-create-xml-documentation)
 - [C++ Comments](/cpp/cpp/comments-cpp)
-- [XML Documentation (C++)](/cpp/ide/xml-documentation-visual-cpp)
+- [XML Documentation (C++)](/cpp/build/reference/xml-documentation-visual-cpp)
 - [Code generation](../code-generation-in-visual-studio.md)

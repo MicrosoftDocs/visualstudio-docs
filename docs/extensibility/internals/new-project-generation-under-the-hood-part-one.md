@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "projects [Visual Studio], new project dialog"
   - "projects [Visual Studio], new project generation"
 ms.assetid: 66778698-0258-467d-8b8b-c351744510eb
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -206,5 +206,5 @@ devenv /installvstemplates
 
     **MyProjectNode** appears as a child node of Visual C# just under the Windows node.
 
-## See Also
+## See also
 - [New Project Generation: Under the Hood, Part Two](../../extensibility/internals/new-project-generation-under-the-hood-part-two.md)

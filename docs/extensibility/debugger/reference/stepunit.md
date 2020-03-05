@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "STEPUNIT enumeration"
 ms.assetid: cb8441f2-f744-4e73-acfe-ae8542df9649
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

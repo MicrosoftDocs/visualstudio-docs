@@ -5,8 +5,8 @@ ms.topic: "conceptual"
 helpviewer_keywords:
   - "Tools Options pages [Visual Studio SDK], creating"
 ms.assetid: 9f4e210c-4b47-4daa-91fa-1c301c4587f9
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugBinder3::FindAlias method"
 ms.assetid: b8333701-2718-4983-8513-0875fb7cb730
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -36,13 +36,11 @@ int FindAlias(
 ```
 
 ## Parameters
- `pcstrName`\
+`pcstrName`\
+[in] Name of alias to find.
 
- [in] Name of alias to find.
-
- `ppAlias`\
-
- [out] Alias found (if any) represented by the [IDebugAlias](../../../extensibility/debugger/reference/idebugalias.md) interface.
+`ppAlias`\
+[out] Alias found (if any) represented by the [IDebugAlias](../../../extensibility/debugger/reference/idebugalias.md) interface.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` (if alias is not found) or an error code.

@@ -1,5 +1,5 @@
 ---
-title: "Attach the profiler to an ASP.NET app to collect cncurrency data"
+title: "Attach profiler to ASP.NET app to collect concurrency data"
 ms.custom: "seodec18"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
@@ -7,6 +7,7 @@ ms.assetid: 0e215fdd-55f8-43ef-9534-06542eefe223
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jillfra
+monikerRange: 'vs-2017'
 ms.workload:
   - "aspnet"
 ---

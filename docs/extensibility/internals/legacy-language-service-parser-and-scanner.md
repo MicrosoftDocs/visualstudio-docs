@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "parsers, language services [managed package framework]"
   - "language services [managed package framework], Parsers"
 ms.assetid: 1ac3de27-a23b-438d-9593-389e45839cfa
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -125,7 +125,7 @@ namespace MyNamespace
 
  The <xref:Microsoft.VisualStudio.Package.AuthoringSink> object is passed to the parser as part of the <xref:Microsoft.VisualStudio.Package.ParseRequest> object, and a new <xref:Microsoft.VisualStudio.Package.AuthoringSink> object is created every time that a new <xref:Microsoft.VisualStudio.Package.ParseRequest> object is created. In addition, the <xref:Microsoft.VisualStudio.Package.LanguageService.ParseSource%2A> method must return an <xref:Microsoft.VisualStudio.Package.AuthoringScope> object, which is used to handle various IntelliSense operations. The <xref:Microsoft.VisualStudio.Package.AuthoringScope> object maintains a list for declarations and a list for methods, either of which is populated, depending on the reason for parsing. The <xref:Microsoft.VisualStudio.Package.AuthoringScope> class must be implemented.
 
-## See Also
+## See also
 - [Implementing a Legacy Language Service](../../extensibility/internals/implementing-a-legacy-language-service1.md)
 - [Legacy Language Service Overview](../../extensibility/internals/legacy-language-service-overview.md)
 - [Syntax Colorizing in a Legacy Language Service](../../extensibility/internals/syntax-colorizing-in-a-legacy-language-service.md)

@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugProgramNodeAttach2::OnAttach"
 ms.assetid: 5fe52761-a508-4ab5-abdb-334fb6590334
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -34,9 +34,8 @@ int OnAttach(
 ```
 
 ## Parameters
- `guidProgramId`\
-
- [in] `GUID` to assign to the associated program.
+`guidProgramId`\
+[in] `GUID` to assign to the associated program.
 
 ## Return Value
  If successful, returns `S_OK`. Returns `S_FALSE` if the [Attach](../../../extensibility/debugger/reference/idebugengine2-attach.md) method should not be called. Otherwise, returns an error code.

@@ -1,5 +1,5 @@
 ---
-title: "Extending the Properties, Task List, Output, and Options Windows | Microsoft Docs"
+title: "Extend the Properties, Task List, Output, Options windows"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 helpviewer_keywords:
@@ -10,8 +10,8 @@ helpviewer_keywords:
   - "tutorials"
   - "tool windows"
 ms.assetid: 06990510-5424-44b8-9fd9-6481acec5c76
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -55,7 +55,7 @@ You can access any tool window in Visual Studio. This walkthrough shows how to i
 
 ### Customize the constructor
 
-1. In the *TodoWindowControl.xaml.cs* file, add the following using statement:
+1. In the *TodoWindowControl.xaml.cs* file, add the following using directive:
 
     ```csharp
     using System;
@@ -97,7 +97,7 @@ You can access any tool window in Visual Studio. This walkthrough shows how to i
    }
    ```
 
-2. Add the following using statement:
+2. Add the following using directive:
 
    ```csharp
    using Microsoft.VisualStudio.Shell;
@@ -144,7 +144,7 @@ You can access any tool window in Visual Studio. This walkthrough shows how to i
 
      ![Properties Window](../extensibility/media/t5properties.png "T5Properties")
 
-2. Add the following using statements the *TodoItem.cs* file.
+2. Add the following using directives the *TodoItem.cs* file.
 
     ```csharp
     using System.ComponentModel;
@@ -277,7 +277,7 @@ You can access any tool window in Visual Studio. This walkthrough shows how to i
     }
     ```
 
-4. Add the following using statements to *TodoWindowControl.xaml.cs*:
+4. Add the following using directives to *TodoWindowControl.xaml.cs*:
 
     ```csharp
     using System.Runtime.InteropServices;

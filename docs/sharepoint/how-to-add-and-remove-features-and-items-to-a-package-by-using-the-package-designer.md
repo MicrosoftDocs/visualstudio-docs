@@ -1,5 +1,5 @@
 ---
-title: "How to: Add and Remove Features and Items to a Package by Using the Package Designer | Microsoft Docs"
+title: "Package designer: Add & remove features and items to package"
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 f1_keywords:

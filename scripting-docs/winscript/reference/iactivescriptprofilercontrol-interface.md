@@ -23,5 +23,5 @@ Implemented by the scripting engine that supports profiling. Typically, an objec
 |[IActiveScriptProfilerControl::SetProfilerEventMask](../../winscript/reference/iactivescriptprofilercontrol-setprofilereventmask.md)|Sets the profiler event mask in the scripting engine.|  
 |[IActiveScriptProfilerControl::StopProfiling](../../winscript/reference/iactivescriptprofilercontrol-stopprofiling.md)|Stops profiling on the scripting engine.|  
   
-## See Also  
+## See also  
  [Active Script Profiler Interfaces](../../winscript/reference/active-script-profiler-interfaces.md)

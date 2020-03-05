@@ -3,16 +3,16 @@ title: Customize captions for data-bound controls
 ms.date: 11/03/2017
 ms.topic: conceptual
 helpviewer_keywords:
-  - "Label captions, Data Sources window"
-  - "smart captions"
-  - "captions, data-bound"
-  - "Data Sources Window, label captions"
+- Label captions, Data Sources window
+- smart captions
+- captions, data-bound
+- Data Sources Window, label captions
 ms.assetid: 6d4d15f8-4d78-42fd-af64-779ae98d62c8
-author: gewarren
-ms.author: gewarren
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "data-storage"
+- data-storage
 ---
 # Customize how Visual Studio creates captions for data-bound controls
 

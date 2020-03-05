@@ -17,7 +17,7 @@ manager: jillfra
 # IDiaSymbol::get_isHotpatchable
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-Retrieves a flag indicating whether the module was compiled with the [/hotpatch (Create Hotpatchable Image)](http://msdn.microsoft.com/library/aad539b6-c053-4c78-8682-853d98327798) compiler switch.  
+Retrieves a flag indicating whether the module was compiled with the [/hotpatch (Create Hotpatchable Image)](https://msdn.microsoft.com/library/aad539b6-c053-4c78-8682-853d98327798) compiler switch.  
   
 ## Syntax  
   

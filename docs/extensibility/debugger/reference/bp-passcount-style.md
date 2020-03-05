@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "BP_PASSCOUNT_STYLE structure"
 ms.assetid: 0a647047-e2d5-4724-a0b8-68108425ecad
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

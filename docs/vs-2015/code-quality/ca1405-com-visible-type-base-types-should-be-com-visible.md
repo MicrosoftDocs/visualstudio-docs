@@ -12,8 +12,8 @@ helpviewer_keywords:
   - "ComVisibleTypeBaseTypesShouldBeComVisible"
 ms.assetid: a762ea2f-5285-4f73-bfb9-9eb10aea4290
 caps.latest.revision: 20
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: "wpickett"
 ---
 # CA1405: COM visible type base types should be COM visible
@@ -46,5 +46,5 @@ manager: "wpickett"
 
 ## See Also
  <xref:System.Runtime.InteropServices.ClassInterfaceAttribute?displayProperty=fullName>
- [Introducing the Class Interface](http://msdn.microsoft.com/733c0dd2-12e5-46e6-8de1-39d5b25df024)
- [Interoperating with Unmanaged Code](http://msdn.microsoft.com/library/ccb68ce7-b0e9-4ffb-839d-03b1cd2c1258)
+ [Introducing the Class Interface](https://msdn.microsoft.com/733c0dd2-12e5-46e6-8de1-39d5b25df024)
+ [Interoperating with Unmanaged Code](https://msdn.microsoft.com/library/ccb68ce7-b0e9-4ffb-839d-03b1cd2c1258)

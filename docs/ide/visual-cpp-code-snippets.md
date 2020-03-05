@@ -2,9 +2,9 @@
 title: Visual C++ code snippets
 ms.date: 11/04/2016
 ms.topic: reference
-author: gewarren
-ms.author: gewarren
-manager: jillfra
+author: corob-msft
+ms.author: corob
+manager: markl
 dev_langs:
  - CPP
 ms.workload:

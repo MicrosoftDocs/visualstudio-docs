@@ -25,7 +25,7 @@ Debugging a multiprocessing program on a high-performance cluster is like debugg
   
  When you debug on a high-performance cluster, you can use all the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] debugging windows and techniques that are available for remote debugging. Because you are debugging remotely, however, the external console window is not available.  
   
- The **Threads** window and **Processes** window are especially useful for debugging parallel applications. For tips on how to use these windows, see [How to: Use the Processes Window](http://msdn.microsoft.com/0207ce2f-8ceb-4fe7-b2b5-4dd35b035ed7) and [How to: Use the Threads Window](../debugger/how-to-use-the-threads-window.md).  
+ The **Threads** window and **Processes** window are especially useful for debugging parallel applications. For tips on how to use these windows, see [How to: Use the Processes Window](https://msdn.microsoft.com/0207ce2f-8ceb-4fe7-b2b5-4dd35b035ed7) and [How to: Use the Threads Window](../debugger/how-to-use-the-threads-window.md).  
   
  The following procedures show some techniques that are especially useful for debugging on a high-performance cluster.  
   
@@ -97,7 +97,7 @@ Debugging a multiprocessing program on a high-performance cluster is like debugg
 ## See Also  
  [Debug Multithreaded Applications](../debugger/debug-multithreaded-applications-in-visual-studio.md)   
  [Remote Debugging](../debugger/remote-debugging.md)   
- [How to: Use the Processes Window](http://msdn.microsoft.com/0207ce2f-8ceb-4fe7-b2b5-4dd35b035ed7)   
+ [How to: Use the Processes Window](https://msdn.microsoft.com/0207ce2f-8ceb-4fe7-b2b5-4dd35b035ed7)   
  [How to: Use the Threads Window](../debugger/how-to-use-the-threads-window.md)   
- [Threads and Processes](http://msdn.microsoft.com/73d87480-9af3-4d1b-baf5-397d5d876ae6)   
+ [Threads and Processes](https://msdn.microsoft.com/73d87480-9af3-4d1b-baf5-397d5d876ae6)   
  [Using Breakpoints](../debugger/using-breakpoints.md)

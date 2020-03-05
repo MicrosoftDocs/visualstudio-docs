@@ -3,20 +3,20 @@ title: Toolbox, Components Tab
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - VS.CHOOSEITEMS.FrameworkComponents
-  - VS.CHOOSEITEMS.COMComponents
-  - VS.CHOOSEITEMS.UniversalWindowsComponents
+- VS.CHOOSEITEMS.FrameworkComponents
+- VS.CHOOSEITEMS.COMComponents
+- VS.CHOOSEITEMS.UniversalWindowsComponents
 helpviewer_keywords:
-  - "Toolbox, Components tab"
-author: gewarren
-ms.author: gewarren
+- Toolbox, Components tab
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Toolbox, Components tab
 
-Displays components you can add to Visual Basic and C# designers for Windows Forms. In addition to the .NET Framework components that are included with Visual Studio, such as the <xref:System.Messaging.MessageQueue> and <xref:System.Diagnostics.EventLog> components, you can add your own or third-party components to this tab.
+Displays components you can add to Visual Basic and C# designers for Windows Forms. In addition to the .NET components that are included with Visual Studio, such as the <xref:System.Messaging.MessageQueue> and <xref:System.Diagnostics.EventLog> components, you can add your own or third-party components to this tab.
 
 To display this tab, open a Windows Forms designer. Select **View** > **Toolbox**. In **Toolbox**, select the **Components** tab.
 

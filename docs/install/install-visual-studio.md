@@ -1,23 +1,23 @@
 ---
-title: "Install Visual Studio"
-titleSuffix: ""
-description: "Learn how to install Visual Studio, step-by-step."
-ms.date: 04/16/2019
-ms.custom: "seodec18"
+title: Install Visual Studio
+titleSuffix: ''
+description: Learn how to install Visual Studio, step-by-step.
+ms.date: 12/13/2019
+ms.custom: seodec18
 ms.topic: conceptual
 f1_keywords:
-  - "vs.about"
+- vs.about
 helpviewer_keywords:
-  - "install Visual Studio"
-  - "dev15"
-  - "set up Visual Studio"
-  - "Visual Studio setup"
-  - "Visual Studio installer"
-author: TerryGLee
-ms.author: tglee
+- install Visual Studio
+- dev15
+- set up Visual Studio
+- Visual Studio setup
+- Visual Studio installer
+author: ornellaalt
+ms.author: ornella
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
 ---
@@ -76,13 +76,13 @@ Before you begin installing Visual Studio:
 
 1. Reboot. The reboot ensures that any pending installs or updates don't hinder the Visual Studio install.
 
-1. Free up space. Remove unneeded files and applications from your %SystemDrive% by, for example, running the Disk Cleanup app. 
+1. Free up space. Remove unneeded files and applications from your %SystemDrive% by, for example, running the Disk Cleanup app.
 
 ::: moniker-end
 
 ::: moniker range="vs-2017"
 
-For questions about running previous versions of Visual Studio side by side with Visual Studio 2017, see the [Visual Studio compatibility details](/visualstudio/productinfo/vs2017-compatibility-vs#compatibility-with-previous-releases/).
+For questions about running previous versions of Visual Studio side by side with Visual Studio 2017, see the [Visual Studio compatibility details](/visualstudio/productinfo/vs2017-compatibility-vs#compatibility-with-previous-releases).
 
 ::: moniker-end
 
@@ -94,19 +94,20 @@ For questions about running previous versions of Visual Studio side by side with
 
 ## Step 2 - Download Visual Studio
 
-Next, download the Visual Studio bootstrapper file. To do so, choose the following button, choose the edition of Visual Studio that you want, choose **Save**, and then choose **Open folder**.
+Next, download the Visual Studio bootstrapper file.
 
 ::: moniker range="vs-2017"
 
- > [!div class="button"]
- > [Download Visual Studio](https://visualstudio.microsoft.com/vs/older-downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=vs+2017+download)
+To get a bootstrapper for Visual Studio 2017, see the [Visual Studio previous versions](https://visualstudio.microsoft.com/vs/older-downloads/) download page for details on how to do so.
 
 ::: moniker-end
 
 ::: moniker range="vs-2019"
 
+To do so, choose the following button, choose the edition of Visual Studio that you want, choose **Save**, and then choose **Open folder**.
+
  > [!div class="button"]
- > [Download Visual Studio](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2019)
+ > [Download Visual Studio](https://visualstudio.microsoft.com/downloads)
 
 ::: moniker-end
 
@@ -132,7 +133,7 @@ After the installer is installed, you can use it to customize your installation 
 
  ::: moniker range="vs-2017"
 
-1. Find the workload you want in the **Installing Visual Studio** screen.
+1. Find the workload you want in the **Visual Studio Installer**.
 
    ![Visual Studio 2017: Install a workload](../install/media/vs-installer-installing-workloads.png)
 
@@ -146,7 +147,7 @@ After the installer is installed, you can use it to customize your installation 
 
 ::: moniker range="vs-2019"
 
-1. After the new workloads and components are installed, choose **Launch**.
+1. Find the workload you want in the **Visual Studio Installer**.
 
    ![Visual Studio 2019: Install a workload](../install/media/vs-2019/vs-installer-workloads.png)
 
@@ -197,7 +198,7 @@ By default, the installer program tries to match the language of the operating s
 
 Another way that you can change the default language is by running the installer from the command line. For example, you can force the installer to run in English by using the following command: `vs_installer.exe --locale en-US`. The installer will remember this setting when it is run the next time. The installer supports the following language tokens: zh-cn, zh-tw, cs-cz, en-us, es-es, fr-fr, de-de, it-it, ja-jp, ko-kr, pl-pl, pt-br, ru-ru, and tr-tr.
 
-## Step 7 - Change the installation location (Optional)
+## Step 7 - Select the installation location (Optional)
 
 ::: moniker range="vs-2017"
 
@@ -211,7 +212,7 @@ Another way that you can change the default language is by running the installer
 
 You can reduce the installation footprint of Visual Studio on your system drive. You can choose to move the download cache, shared components, SDKs, and tools to different drives, and keep Visual Studio on the drive that runs it the fastest.
 
-  ![Visual Studio 2019 - Change installation locations](media/vs-2019/vs-installer-installation-locations.png "Change the installation location")
+  ![Visual Studio 2019 - Select installation locations](media/vs-2019/vs-installer-installation-locations.png "Select the installation location")
 
 ::: moniker-end
 
@@ -230,7 +231,7 @@ For more information, see the [Select installation locations](change-installatio
 
 3. Select a project type.
 
-   For example, to [build a C++ app](../ide/getting-started-with-cpp-in-visual-studio.md), choose **Installed**, expand **Visual C++**, and then choose the C++ project type that you want to build.
+   For example, to [build a C++ app](/cpp/get-started/tutorial-console-cpp), choose **Installed**, expand **Visual C++**, and then choose the C++ project type that you want to build.
 
    To [build a C# app](../get-started/csharp/tutorial-console.md), choose **Installed**, expand **Visual C#**, and then choose the C# project type that you want to build.
 
@@ -244,7 +245,7 @@ For more information, see the [Select installation locations](change-installatio
 
 1. In the search box, enter the type of app you want to create to see a list of available templates. The list of templates depends on the workload(s) that you chose during installation. To see different templates, choose different workloads.
 
-   You can also filter your search for a specific programming language by using the **Language** drop-down list. You can filter by using the **Platform** list and the **Project type** list, too. 
+   You can also filter your search for a specific programming language by using the **Language** drop-down list. You can filter by using the **Platform** list and the **Project type** list, too.
 
 1. Visual Studio opens your new project, and you're ready to code!
 

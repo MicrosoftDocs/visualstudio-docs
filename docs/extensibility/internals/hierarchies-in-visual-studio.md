@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "hierarchies, Visual Studio IDE"
   - "IDE, hierarchies"
 ms.assetid: 0a029a7c-79fd-4b54-bd63-bd0f21aa8d30
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -29,4 +29,4 @@ The [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] integrated deve
 ## See also
 - [Project types](../../extensibility/internals/project-types.md)
 - [Selection and currency in the IDE](../../extensibility/internals/selection-and-currency-in-the-ide.md)
-- [VSSDK samples](https://aka.ms/vs2015sdksamples)
+- [VSSDK samples](https://github.com/Microsoft/VSSDK-Extensibility-Samples)

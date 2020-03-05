@@ -1,12 +1,12 @@
 ---
-title: "How to: Modify a Standard Menu Command in a Domain-Specific Language"
+title: "Modify standard menu command in DSL"
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
   - ".vsct files, adding commands to a domain-specific language"
   - "Domain-Specific Language, adding custom commands"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"
@@ -59,7 +59,8 @@ Create a new file that contains a partial declaration of the command set class.
     { internal partial class Language1CommandSet { ...
     ```
 
-     **Note** If you used the class file template to create the new file, you must correct both the namespace and the class name.
+    > [!NOTE]
+    > If you used the class file template to create the new file, you must correct both the namespace and the class name.
 
 ## Override the command methods
 

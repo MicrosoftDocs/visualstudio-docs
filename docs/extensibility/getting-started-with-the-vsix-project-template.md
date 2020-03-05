@@ -5,8 +5,8 @@ ms.topic: "conceptual"
 helpviewer_keywords:
   - "Visual Studio SDK, VSIX project template"
 ms.assetid: 89fac33e-9380-4723-9b45-048a6e16f0ed
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

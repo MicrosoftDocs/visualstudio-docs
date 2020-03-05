@@ -12,8 +12,8 @@ helpviewer_keywords:
   - "DisposableFieldsShouldBeDisposed"
 ms.assetid: e99442c9-70e2-47f3-b61a-d8ac003bc6e5
 caps.latest.revision: 17
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: "wpickett"
 ---
 # CA2213: Disposable fields should be disposed
@@ -50,4 +50,4 @@ manager: "wpickett"
 
 ## See Also
  <xref:System.IDisposable?displayProperty=fullName>
- [Dispose Pattern](http://msdn.microsoft.com/library/31a6c13b-d6a2-492b-9a9f-e5238c983bcb)
+ [Dispose Pattern](https://msdn.microsoft.com/library/31a6c13b-d6a2-492b-9a9f-e5238c983bcb)

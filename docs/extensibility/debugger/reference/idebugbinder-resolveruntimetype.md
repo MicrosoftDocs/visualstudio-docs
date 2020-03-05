@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugBinder::ResolveRuntimeType method"
 ms.assetid: 6456ab3e-1c03-4f3c-91f9-16797ab7f5e7
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -36,13 +36,11 @@ int ResolveRuntimeType(
 ```
 
 ## Parameters
- `pObject`\
+`pObject`\
+[in] The [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md) to be resolved.
 
- [in] The [IDebugObject](../../../extensibility/debugger/reference/idebugobject.md) to be resolved.
-
- `ppResolved`\
-
- [out] Returns the type of the object as an [IDebugField](../../../extensibility/debugger/reference/idebugfield.md).
+`ppResolved`\
+[out] Returns the type of the object as an [IDebugField](../../../extensibility/debugger/reference/idebugfield.md).
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

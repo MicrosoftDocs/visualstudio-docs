@@ -3,14 +3,14 @@ title: Customizing File Storage and XML Serialization
 ms.date: 11/04/2016
 ms.topic: conceptual
 f1_keywords:
-  - "vs.dsltools.dsldesigner.xmlbehavior"
+- vs.dsltools.dsldesigner.xmlbehavior
 helpviewer_keywords:
-  - "Domain-Specific Language, serialization"
-author: gewarren
-ms.author: gewarren
+- Domain-Specific Language, serialization
+author: JoshuaPartlow
+ms.author: joshuapa
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Customize File Storage and XML Serialization
 
@@ -300,7 +300,7 @@ Role data nodes are found under the source class nodes.
 |Role Element Name|Specifies the name of the XML element that is derived from the source role. The default value is the role property name.|
 |Use Full Form|If true, each target element or moniker is enclosed in an XML node representing the relationship. This should be set to true if the relationship has its own domain properties.|
 
-## See Also
+## See also
 
 - [Navigating and Updating a Model in Program Code](../modeling/navigating-and-updating-a-model-in-program-code.md)
 - [Generating Code from a Domain-Specific Language](../modeling/generating-code-from-a-domain-specific-language.md)

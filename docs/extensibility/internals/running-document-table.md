@@ -9,8 +9,8 @@ helpviewer_keywords:
   - "running document table (RDT), edit locks"
   - "document data objects, running document table"
 ms.assetid: bbec74f3-dd8e-48ad-99c1-2df503c15f5a
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -50,6 +50,6 @@ The IDE maintains the list of all currently open documents in an internal struct
 
 - Use the hierarchy or item ID to ask the project system for the full document path, and then look the item up in the RDT.
 
-## See Also
+## See also
 - [RDT_ReadLock Usage](../../extensibility/internals/rdt-readlock-usage.md)
 - [Persistence and the Running Document Table](../../extensibility/internals/persistence-and-the-running-document-table.md)

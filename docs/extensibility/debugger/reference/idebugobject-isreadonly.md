@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugObject::IsReadOnly method"
 ms.assetid: c460f772-d08a-4b36-81f3-dff6a51a93fd
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -34,9 +34,8 @@ int IsReadOnly(
 ```
 
 ## Parameters
- `pfIsReadOnly`\
-
- [out] Returns non-zero (`TRUE`) if this object is read-only; otherwise, returns zero (`FALSE`).
+`pfIsReadOnly`\
+[out] Returns non-zero (`TRUE`) if this object is read-only; otherwise, returns zero (`FALSE`).
 
 ## Return Value
  If successful, returns S_OK; otherwise, returns an error code.

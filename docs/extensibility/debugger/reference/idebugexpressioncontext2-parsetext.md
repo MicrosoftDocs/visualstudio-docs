@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugExpressionContext2::ParseText"
 ms.assetid: f58575db-f926-4ac8-83ff-7b3b86ab61e2
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -45,28 +45,22 @@ int ParseText(
 
 ## Parameters
 `pszCode`\
-
- [in] The expression to be parsed.
+[in] The expression to be parsed.
 
 `dwFlags`\
-
- [in] A combination of flags from the [PARSEFLAGS](../../../extensibility/debugger/reference/parseflags.md) enumeration that controls parsing.
+[in] A combination of flags from the [PARSEFLAGS](../../../extensibility/debugger/reference/parseflags.md) enumeration that controls parsing.
 
 `nRadix`\
-
- [in] The radix to be used in parsing any numerical information in `pszCode`.
+[in] The radix to be used in parsing any numerical information in `pszCode`.
 
 `ppExpr`\
-
- [out] Returns the [IDebugExpression2](../../../extensibility/debugger/reference/idebugexpression2.md) object that represents the parsed expression, which is ready for binding and evaluation.
+[out] Returns the [IDebugExpression2](../../../extensibility/debugger/reference/idebugexpression2.md) object that represents the parsed expression, which is ready for binding and evaluation.
 
 `pbstrError`\
-
- [out] Returns the error message if the expression contains an error.
+[out] Returns the error message if the expression contains an error.
 
 `pichError`\
-
- [out] Returns the character index of the error in `pszCode` if the expression contains an error.
+[out] Returns the character index of the error in `pszCode` if the expression contains an error.
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns an error code.

@@ -1,5 +1,5 @@
 ---
-title: "How to: Add a Property to a Custom SharePoint Project Item Type | Microsoft Docs"
+title: "Add property to custom SharePoint project item type"
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:

@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "project properties, supporting with Visual Studio SDK"
   - "configuration properties, supporting with Visual Studio SDK"
 ms.assetid: 9fcfaa0f-7b41-4b68-82ec-7a151dca5d7e
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -84,7 +84,7 @@ The **Properties** window in the [!INCLUDE[vsprvs](../../code-quality/includes/v
 
  The `MyConfigProp` configuration property appears on the configuration property page as **My Config Property** in the category, **My Category**. If the option is selected, the description, **My Description**, appears in the description panel.
 
-## See Also
+## See also
 - [Adding and Removing Property Pages](../../extensibility/adding-and-removing-property-pages.md)
 - [Projects](../../extensibility/internals/projects.md)
 - [Template Directory Description (.Vsdir) Files](../../extensibility/internals/template-directory-description-dot-vsdir-files.md)

@@ -3,24 +3,24 @@ title: Validate data in datasets
 ms.date: 11/04/2016
 ms.topic: conceptual
 f1_keywords:
-  - "DataTable.ColumnChanging"
-  - "System.Data.DataTable.ColumnChanging"
-  - "System.Data.DataTable.RowChanging"
-  - "DataTable.RowChanging"
+- DataTable.ColumnChanging
+- System.Data.DataTable.ColumnChanging
+- System.Data.DataTable.RowChanging
+- DataTable.RowChanging
 dev_langs:
-  - "VB"
-  - "CSharp"
+- VB
+- CSharp
 helpviewer_keywords:
-  - "data validation, datasets"
-  - "data validation"
-  - "validating data, datasets"
-  - "updating datasets, validating data"
+- data validation, datasets
+- data validation
+- validating data, datasets
+- updating datasets, validating data
 ms.assetid: 79500596-1e4d-478e-a991-a636fd73a622
-author: gewarren
-ms.author: gewarren
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "data-storage"
+- data-storage
 ---
 # Validate data in datasets
 Validating data is the process of confirming that the values being entered into data objects conform to the constraints within a dataset's schema. The validation process also confirms that these values are following the rules that have been established for your application. It's a good practice to validate data prior to sending updates to the underlying database. This reduces errors as well as the potential number of round trips between an application and the database.
@@ -30,7 +30,7 @@ You can confirm that data that's being written to a dataset is valid by building
 The best place to add validation to your application is in the dataset's partial class file. In [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] or [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)], open the **Dataset Designer** and double-click the column or table for which you want to create validation. This action automatically creates an <xref:System.Data.DataTable.ColumnChanging> or <xref:System.Data.DataTable.RowChanging> event handler.
 
 ## Validate data
- Validation within a dataset is accomplished in the following ways:
+Validation within a dataset is accomplished in the following ways:
 
 - By creating your own application-specific validation that can check values in an individual data column during changes. For more information, see [How to: Validate data during column changes](validate-data-in-datasets.md).
 

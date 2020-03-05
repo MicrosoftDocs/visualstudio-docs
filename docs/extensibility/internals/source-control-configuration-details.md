@@ -5,8 +5,8 @@ ms.topic: "conceptual"
 helpviewer_keywords:
   - "source control [Visual Studio SDK], configuration details"
 ms.assetid: adbee9fc-7a2e-4abe-a3b8-e6615bcd797f
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -44,7 +44,7 @@ In order to implement source control, you need to properly configure your projec
 
  For each add, rename, and remove action, there is an `OnQuery*` method and an `OnAfter*` method. Call the `OnQuery*` method to ask permission to add, rename, or remove the file or directory. Call the `OnAfter*` method after the file or directory has been added, renamed, or removed and the project state reflects the new state.
 
-## See Also
+## See also
 
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsPersistDocData>
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsQueryEditQuerySave2.QuerySaveFile%2A>

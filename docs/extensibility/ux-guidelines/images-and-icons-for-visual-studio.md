@@ -3,21 +3,22 @@ title: "Images and Icons for Visual Studio | Microsoft Docs"
 ms.date: "04/26/2017"
 ms.topic: "conceptual"
 ms.assetid: f410325e-9cf2-4f39-b6d7-b672121c2691
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
 ---
 # Images and Icons for Visual Studio
 ## <a name="BKMK_ImageUseInVisualStudio"></a> Image use in Visual Studio
- Before creating artwork, consider making use of the 1,000+ images in the [Visual Studio Image Library](http://www.microsoft.com/en-my/download/details.aspx?id=35825).
+ Before creating artwork, consider making use of the 1,000+ images in the [Visual Studio Image Library](https://www.microsoft.com/download/details.aspx?id=35825).
 
 ### Types of images
 
 - **Icons**. Small images that appear in commands, hierarchies, templates, and so on. The default icon size used in Visual Studio is a 16x16 PNG. Icons produced by the image service automatically generate the XAML format for HDPI support.
 
-     **NOTE:** While images are used in the menu system, you should not create an icon for every command. Consult [Menus and Commands for Visual Studio](../../extensibility/ux-guidelines/menus-and-commands-for-visual-studio.md) to see whether your command should get an icon.
+    > [!NOTE]
+    > While images are used in the menu system, you should not create an icon for every command. Consult [Menus and Commands for Visual Studio](../../extensibility/ux-guidelines/menus-and-commands-for-visual-studio.md) to see whether your command should get an icon.
 
 - **Thumbnails.** Images used in the preview area of a dialog, such as the New Project dialog.
 

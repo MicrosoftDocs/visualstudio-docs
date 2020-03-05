@@ -1,21 +1,21 @@
 ---
-title: "Walkthrough: Creating a WCF Data Service with WPF and Entity Framework"
+title: Create WCF Data Service with WPF & Entity Framework
 ms.date: 11/04/2016
 ms.topic: conceptual
 dev_langs:
-  - "VB"
-  - "CSharp"
+- VB
+- CSharp
 helpviewer_keywords:
-  - "data services in Visual Studio"
-  - "WCF Data Services, Visual Studio"
-  - "ADO.NET Data Services, Visual Studio"
-  - "WCF data services in Visual Studio"
+- data services in Visual Studio
+- WCF Data Services, Visual Studio
+- ADO.NET Data Services, Visual Studio
+- WCF data services in Visual Studio
 ms.assetid: da66ad1b-a25d-485c-af13-2d18f0422e3d
-author: gewarren
-ms.author: gewarren
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "data-storage"
+- data-storage
 ---
 # Walkthrough: Creating a WCF Data Service with WPF and Entity Framework
 This walkthrough demonstrates how to create a simple [!INCLUDE[ss_data_service](../data-tools/includes/ss_data_service_md.md)] that is hosted in an [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] web application and then access it from a Windows Forms application.
@@ -140,9 +140,9 @@ In the next step, you create and test the data service.
 In the next steps, you create a Windows Forms client application to consume the service.
 
 ## Creating the Client Application
- To create the client application, you add a second project, add a service reference to the project, configure a data source, and create a user interface to display the data from the service.
+To create the client application, you add a second project, add a service reference to the project, configure a data source, and create a user interface to display the data from the service.
 
- In the first step, you add a Windows Forms project to the solution and set it as the startup project.
+In the first step, you add a Windows Forms project to the solution and set it as the startup project.
 
 ### To create the client application
 
@@ -237,7 +237,7 @@ In the next step, you create the user interface that displays the data from the 
 In the next optional step, you learn how to filter the data that is returned by the service.
 
 ## Adding Filtering Capabilities
- In this step, you customize the application to filter the data by the customer's city.
+In this step, you customize the application to filter the data by the customer's city.
 
 ### To add filtering by city
 

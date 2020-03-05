@@ -1,20 +1,20 @@
 ---
-title: "Scenario: Change your design using visualization and modeling"
+title: 'Scenario: Change your design using visualization and modeling'
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "code visualization [Visual Studio ALM]"
-  - "modeling software [Visual Studio ALM]"
-  - "software modeling [Visual Studio ALM]"
-  - "walkthroughs [Visual Studio ALM], visualizing code"
-  - "walkthrough [Visual Studio ALM], visualizing code"
-  - "walkthrough [Visual Studio ALM], modeling software"
-  - "walkthroughs [Visual Studio ALM], modeling software"
-author: gewarren
-ms.author: gewarren
+- code visualization [Visual Studio ALM]
+- modeling software [Visual Studio ALM]
+- software modeling [Visual Studio ALM]
+- walkthroughs [Visual Studio ALM], visualizing code
+- walkthrough [Visual Studio ALM], visualizing code
+- walkthrough [Visual Studio ALM], modeling software
+- walkthroughs [Visual Studio ALM], modeling software
+author: JoshuaPartlow
+ms.author: joshuapa
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Scenario: Change your design using visualization and modeling
 
@@ -234,7 +234,7 @@ See:
 
 - [Validate your system during development](../modeling/validate-your-system-during-development.md)
 
-- [Use version control](http://go.microsoft.com/fwlink/?LinkID=525605)
+- [Use version control](/azure/devops/repos/tfvc/overview?view=azure-devops)
 
 - [Azure Pipelines](/azure/devops/pipelines/index?view=vsts)
 
@@ -349,11 +349,11 @@ A class diagram has the following major features:
 
 - Types such as classes, interfaces, and enumerations:
 
-    - A *class* is the definition of objects that share specific structural or behavioral characteristics.
+  - A *class* is the definition of objects that share specific structural or behavioral characteristics.
 
-    - An *interface* defines a part of the externally visible behavior of an object.
+  - An *interface* defines a part of the externally visible behavior of an object.
 
-    - An *enumeration* is a classifier that contains a list of literal values.
+  - An *enumeration* is a classifier that contains a list of literal values.
 
 - *Attributes* are values of a certain type that describe each instance of a *classifier*. A classifier is a general name for types, components, use cases, and even actors.
 
@@ -472,7 +472,7 @@ Dependency diagrams help you:
 
 |**Category**|**Links**|
 |-|-|
-|**Forums**|- [Visual Studio Visualization & Modeling Tools](http://go.microsoft.com/fwlink/?LinkId=184720)<br />- [Visual Studio Visualization & Modeling SDK (DSL Tools)](http://go.microsoft.com/fwlink/?LinkId=184721)|
+|**Forums**|- [Visual Studio Visualization & Modeling Tools](https://social.msdn.microsoft.com/Forums/en-US/home?forum=vsarch)<br />- [Visual Studio Visualization & Modeling SDK (DSL Tools)](https://social.msdn.microsoft.com/Forums/home?forum=dslvsarchx)|
 
 ## See also
 

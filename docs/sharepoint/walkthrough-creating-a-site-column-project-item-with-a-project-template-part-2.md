@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Creating a Site Column Project Item with a Project Template, Part 2 | Microsoft Docs"
+title: "Create site column project item with project template, part 2"
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 helpviewer_keywords:
@@ -32,7 +32,7 @@ ms.workload:
 - Debugging and testing the wizard.
 
 > [!NOTE]
-> For a series of sample workflows, see [SharePoint workflow samples](https://docs.microsoft.com/sharepoint/dev/general-development/sharepoint-workflow-samples).
+> For a series of sample workflows, see [SharePoint workflow samples](/sharepoint/dev/general-development/sharepoint-workflow-samples).
 
 ## Prerequisites
  To perform this walkthrough, you must first create the SiteColumnProjectItem solution by completing [Walkthrough: Creating a Site Column Project Item with a Project Template, Part 1](../sharepoint/walkthrough-creating-a-site-column-project-item-with-a-project-template-part-1.md).
@@ -47,7 +47,7 @@ ms.workload:
 
 - Wizards for project and item templates in Visual Studio. For more information, see [How to: Use Wizards with Project Templates](../extensibility/how-to-use-wizards-with-project-templates.md) and the <xref:Microsoft.VisualStudio.TemplateWizard.IWizard> interface.
 
-- Site columns in SharePoint. For more information, see [Columns](http://go.microsoft.com/fwlink/?LinkId=183547).
+- Site columns in SharePoint. For more information, see [Columns](/previous-versions/office/developer/sharepoint-2010/ms196085(v=office.14)).
 
 ## Understand the wizard components
  The wizard that is demonstrated in this walkthrough contains several components. The following table describes these components.
@@ -110,7 +110,7 @@ ms.workload:
 
 3. Make sure that the target framework is set to the .NET Framework 4.5, not the .NET Framework 4.5 Client Profile.
 
-     For more information, see [How to: Target a Version of the .NET Framework](../ide/how-to-target-a-version-of-the-dotnet-framework.md).
+     For more information, see [How to: Target a Version of the .NET Framework](../ide/visual-studio-multi-targeting-overview.md).
 
 4. Open the shortcut menu for the **ProjectTemplateWizard** project, choose **Add**, and then choose **New Item**.
 
@@ -227,7 +227,7 @@ ms.workload:
      [!code-xml[SPExtensibility.ProjectItem.SiteColumn#10](../sharepoint/codesnippet/Xaml/sitecolumnprojectitem/projecttemplatewizard/wizardwindow.xaml#10)]
 
     > [!NOTE]
-    > The window that's created in this XAML is derived from the <xref:Microsoft.VisualStudio.PlatformUI.DialogWindow> base class. When you add a custom WPF dialog box to Visual Studio, we recommend that you derive your dialog box from this class to have consistent styling with other Visual Studio dialog boxes and to avoid modal dialog issues that might otherwise occur. For more information, see [Creating and Managing Modal Dialog Boxes](/visualstudio/extensibility/creating-and-managing-modal-dialog-boxes).
+    > The window that's created in this XAML is derived from the <xref:Microsoft.VisualStudio.PlatformUI.DialogWindow> base class. When you add a custom WPF dialog box to Visual Studio, we recommend that you derive your dialog box from this class to have consistent styling with other Visual Studio dialog boxes and to avoid modal dialog issues that might otherwise occur. For more information, see [Creating and Managing Modal Dialog Boxes](../extensibility/creating-and-managing-modal-dialog-boxes.md).
 
 3. If you're developing a Visual Basic project, remove the `ProjectTemplateWizard` namespace from the `WizardWindow` class name in the `x:Class` attribute of the `Window` element. This element is in the first line of the XAML. When you're done, the first line should look like the following example.
 
@@ -397,7 +397,7 @@ ms.workload:
     </WizardExtension>
     ```
 
-     For more information about the `WizardExtension` element, see [WizardExtension Element &#40;Visual Studio Templates&#41;](/visualstudio/extensibility/wizardextension-element-visual-studio-templates).
+     For more information about the `WizardExtension` element, see [WizardExtension Element &#40;Visual Studio Templates&#41;](../extensibility/wizardextension-element-visual-studio-templates.md).
 
 3. Save and close the file.
 
@@ -530,11 +530,11 @@ ms.workload:
 
 4. Close both the experimental instance of Visual Studio and the instance in which the CustomActionProjectItem solution is open.
 
-     For information about how to deploy [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] extensions, see [Shipping Visual Studio Extensions](/visualstudio/extensibility/shipping-visual-studio-extensions).
+     For information about how to deploy [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] extensions, see [Shipping Visual Studio Extensions](../extensibility/shipping-visual-studio-extensions.md).
 
 ## See also
 - [Walkthrough: Create a site column project item with a project template, Part 1](../sharepoint/walkthrough-creating-a-site-column-project-item-with-a-project-template-part-1.md)
 - [Define custom SharePoint project item types](../sharepoint/defining-custom-sharepoint-project-item-types.md)
 - [Creating Item Templates and Project Templates for SharePoint Project Items](../sharepoint/creating-item-templates-and-project-templates-for-sharepoint-project-items.md)
-- [Visual Studio Template Schema Reference](/visualstudio/extensibility/visual-studio-template-schema-reference)
+- [Visual Studio Template Schema Reference](../extensibility/visual-studio-template-schema-reference.md)
 - [How to: Use Wizards with Project Templates](../extensibility/how-to-use-wizards-with-project-templates.md)

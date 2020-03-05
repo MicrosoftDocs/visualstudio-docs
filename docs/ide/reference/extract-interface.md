@@ -2,16 +2,16 @@
 title: Extract an interface refactoring
 ms.date: 01/26/2018
 ms.topic: reference
-author: gewarren
-ms.author: gewarren
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 f1_keywords:
-  - "vs.csharp.refactoring.extractinterface"
+- vs.csharp.refactoring.extractinterface
 dev_langs:
-  - CSharp
-  - VB
+- CSharp
+- VB
 ms.workload:
-  - "dotnet"
+- dotnet
 ---
 # Extract an interface refactoring
 

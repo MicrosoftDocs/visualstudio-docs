@@ -7,8 +7,8 @@ helpviewer_keywords:
   - "VSPackages, uninstalling"
   - "uninstalling VSPackages"
 ms.assetid: c4575ac7-82da-4af8-a375-ea756a101fbf
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -32,6 +32,6 @@ For the most part, Windows Installer can uninstall your VSPackage just by "undoi
 > [!NOTE]
 > `Installed` is the property Windows Installer sets when it detects that your VSPackage has already been installed on the system.
 
-## See Also
+## See also
 - [Windows Installer](https://msdn.microsoft.com/library/187d8965-c79d-4ecb-8689-10930fa8b3b5)
 - [Detecting System Requirements](../../extensibility/internals/detecting-system-requirements.md)

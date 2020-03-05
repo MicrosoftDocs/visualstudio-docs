@@ -3,12 +3,12 @@ title: Overview of Domain-Specific Language Tools
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "Domain-Specific Language"
-author: gewarren
-ms.author: gewarren
+- Domain-Specific Language
+author: JoshuaPartlow
+ms.author: joshuapa
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Overview of Domain-Specific Language Tools
 Domain-Specific Language Tools (DSL Tools), which are hosted in Visual Studio, let you design a domain-specific language and then generate everything that users must have to create models that are based on the language.
@@ -66,9 +66,9 @@ Domain-Specific Language Tools (DSL Tools), which are hosted in Visual Studio, l
 ## Distributing Your DSL Solution
  DSL Tools generates a package that is hosted in Visual Studio. The package displays a toolbox, a DSL explorer, and other UI elements that let users create models by using your domain-specific language.
 
- When you build and run the DSL Tools solution in Visual Studio, a second instance of Visual Studio shows you how your domain-specific language looks to the user of the language. After you verify that everything works correctly, you can distribute the `.vsix` file that you will find in the build folder of the DslPackage project. This file can be used to install the DSL as a Visual Studio extension on other computers.  For more information, see [Deploying Domain-Specific Language Solutions](../modeling/deploying-domain-specific-language-solutions.md).
+ When you build and run the DSL Tools solution in Visual Studio, a second instance of Visual Studio shows you how your domain-specific language looks to the user of the language. After you verify that everything works correctly, you can distribute the `.vsix` file that you will find in the build folder of the DslPackage project. This file can be used to install the DSL as a Visual Studio extension on other computers.  For more information, see [Deploying Domain-Specific Language Solutions](msi-and-vsix-deployment-of-a-dsl.md).
 
-## See Also
+## See also
 
 - [The Experimental Instance](../extensibility/the-experimental-instance.md)
 - [Domain-Specific Language Tools Glossary](https://msdn.microsoft.com/ca5e84cb-a315-465c-be24-76aa3df276aa)

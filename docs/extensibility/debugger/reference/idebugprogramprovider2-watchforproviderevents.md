@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugProgramProvider2::WatchForProviderEvents"
 ms.assetid: 2eb93653-b5fb-45b6-b136-56008c5d25ef
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -44,9 +44,8 @@ int WatchForProviderEvents(
 ```
 
 ## Parameters
- `Flags`\
-
- [in] A combination of flags from the [PROVIDER_FLAGS](../../../extensibility/debugger/reference/provider-flags.md) enumeration. The following flags are typical for this call:
+`Flags`\
+[in] A combination of flags from the [PROVIDER_FLAGS](../../../extensibility/debugger/reference/provider-flags.md) enumeration. The following flags are typical for this call:
 
 |Flag|Description|
 |----------|-----------------|
@@ -55,25 +54,20 @@ int WatchForProviderEvents(
 |`PFLAG_ATTACHED_TO_DEBUGGEE`|Caller was attached to but not launched by the debugger.|
 |`PFLAG_REASON_WATCH`|Caller wants to watch for events. If this flag is not set. then the callback event is removed and the caller no longer receives notifications.|
 
- `pPort`\
+`pPort`\
+[in] The port the calling process is running on.
 
- [in] The port the calling process is running on.
+`processId`\
+[in] An [AD_PROCESS_ID](../../../extensibility/debugger/reference/ad-process-id.md) structure holding the ID of the process that contains the program in question.
 
- `processId`\
+`EngineFilter`\
+[in] An array of GUIDs of debug engines associated with the process.
 
- [in] An [AD_PROCESS_ID](../../../extensibility/debugger/reference/ad-process-id.md) structure holding the ID of the process that contains the program in question.
+`guidLaunchingEngine`\
+[in] GUID of the debug engine that launched this process (if any).
 
- `EngineFilter`\
-
- [in] An array of GUIDs of debug engines associated with the process.
-
- `guidLaunchingEngine`\
-
- [in] GUID of the debug engine that launched this process (if any).
-
- `pEventCallback`\
-
- [in] An [IDebugPortNotify2](../../../extensibility/debugger/reference/idebugportnotify2.md) object that receives the event notifications.
+`pEventCallback`\
+[in] An [IDebugPortNotify2](../../../extensibility/debugger/reference/idebugportnotify2.md) object that receives the event notifications.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

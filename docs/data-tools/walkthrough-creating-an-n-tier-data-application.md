@@ -1,19 +1,19 @@
 ---
-title: "Walkthrough: Creating an N-Tier Data Application"
+title: 'Walkthrough: Creating an N-Tier Data Application'
 ms.date: 09/08/2017
 ms.topic: conceptual
 dev_langs:
-  - "VB"
-  - "CSharp"
+- VB
+- CSharp
 helpviewer_keywords:
-  - "n-tier applications, creating"
-  - "n-tier applications, walkthroughs"
+- n-tier applications, creating
+- n-tier applications, walkthroughs
 ms.assetid: d15e4d31-2839-48d9-9e0e-2e73404d82a2
-author: gewarren
-ms.author: gewarren
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "data-storage"
+- data-storage
 ---
 # Walkthrough: Create an n-tier data application
 *N-tier* data applications are applications that access data and are separated into multiple logical layers, or *tiers*. Separating application components into discrete tiers increases the maintainability and scalability of the application. It does this by enabling easier adoption of new technologies that can be applied to a single tier without requiring you to redesign the whole solution. N-tier architecture includes a presentation tier, a middle-tier, and a data tier. The middle tier typically includes a data access layer, a business logic layer, and shared components such as authentication and validation. The data tier includes a relational database. N-tier applications usually store sensitive information in the data access layer of the middle-tier to maintain isolation from end users who access the presentation tier. For more information, see [N-tier data applications overview](../data-tools/n-tier-data-applications-overview.md).
@@ -42,7 +42,7 @@ During this walkthrough, you perform the following steps:
 
 - Write code to populate the data tables.
 
-![link to video](../data-tools/media/playvideo.gif) For a video version of this topic, see [Video How to: Creating an n-tier data application](http://go.microsoft.com/fwlink/?LinkId=115188).
+![link to video](../data-tools/media/playvideo.gif) For a video version of this topic, see [Video How to: Creating an n-tier data application](/previous-versions/visualstudio/visual-studio-2008/cc178916(v=vs.90)).
 
 ## Prerequisites
 This walkthrough uses SQL Server Express LocalDB and the Northwind sample database.
@@ -62,7 +62,7 @@ This walkthrough uses SQL Server Express LocalDB and the Northwind sample databa
        After a short time, the query finishes running and the Northwind database is created.
 
 ## Create the n-tier solution and class library to hold the dataset (DataEntityTier)
- The first step of this walkthrough is to create a solution and two class library projects. The first class library holds the dataset (the generated typed `DataSet` class and DataTables that hold the application's data). This project is used as the data entity layer of the application and is typically located in the middle tier. The dataset creates the initial dataset and automatically separates the code into the two class libraries.
+The first step of this walkthrough is to create a solution and two class library projects. The first class library holds the dataset (the generated typed `DataSet` class and DataTables that hold the application's data). This project is used as the data entity layer of the application and is typically located in the middle tier. The dataset creates the initial dataset and automatically separates the code into the two class libraries.
 
 > [!NOTE]
 > Be sure to name the project and solution correctly before you click **OK**. Doing so will make it easier for you to complete this walkthrough.
@@ -82,7 +82,7 @@ This walkthrough uses SQL Server Express LocalDB and the Northwind sample databa
      An NTierWalkthrough solution that contains the DataEntityTier project is created and added to **Solution Explorer**.
 
 ## Create the class library to hold the TableAdapters (DataAccessTier)
- The next step after you create the DataEntityTier project is to create another class library project. This project holds the generated TableAdapters and is called the *data access tier* of the application. The data access tier contains the information that is required to connect to the database and is typically located in the middle tier.
+The next step after you create the DataEntityTier project is to create another class library project. This project holds the generated TableAdapters and is called the *data access tier* of the application. The data access tier contains the information that is required to connect to the database and is typically located in the middle tier.
 
 ### To create a separate class library for the TableAdapters
 
@@ -95,7 +95,7 @@ This walkthrough uses SQL Server Express LocalDB and the Northwind sample databa
      The DataAccessTier project is created and added to the NTierWalkthrough solution.
 
 ## Create the Dataset
- The next step is to create a typed dataset. Typed datasets are created with both the dataset class (including `DataTables` classes) and the `TableAdapter` classes in a single project. (All classes are generated into a single file.) When you separate the dataset and TableAdapters into different projects, it is the dataset class that is moved to the other project, leaving the `TableAdapter` classes in the original project. Therefore, create the dataset in the project that will ultimately contain the TableAdapters (the DataAccessTier project). You create the dataset by using the **Data Source Configuration Wizard**.
+The next step is to create a typed dataset. Typed datasets are created with both the dataset class (including `DataTables` classes) and the `TableAdapter` classes in a single project. (All classes are generated into a single file.) When you separate the dataset and TableAdapters into different projects, it is the dataset class that is moved to the other project, leaving the `TableAdapter` classes in the original project. Therefore, create the dataset in the project that will ultimately contain the TableAdapters (the DataAccessTier project). You create the dataset by using the **Data Source Configuration Wizard**.
 
 > [!NOTE]
 > You must have access to the Northwind sample database to create the connection. For information about how to set up the Northwind sample database, see [How to: Install sample databases](../data-tools/installing-database-systems-tools-and-samples.md).
@@ -134,7 +134,7 @@ This walkthrough uses SQL Server Express LocalDB and the Northwind sample databa
      NorthwindDataSet is added to the DataAccessTier project and appears in the **Data Sources** window.
 
 ## Separate the TableAdapters from the Dataset
- After you create the dataset, separate the generated dataset class from the TableAdapters. You do this by setting the **DataSet Project** property to the name of the project in which to store the separated out dataset class.
+After you create the dataset, separate the generated dataset class from the TableAdapters. You do this by setting the **DataSet Project** property to the name of the project in which to store the separated out dataset class.
 
 ### To separate the TableAdapters from the Dataset
 
@@ -167,7 +167,7 @@ This walkthrough demonstrates how to access the data access tier by using a WCF 
      The DataService project is created and added to the NTierWalkthrough solution.
 
 ## Create methods in the data access tier to return the customers and orders data
- The data service has to call two methods in the data access tier: `GetCustomers` and `GetOrders`. These methods return the Northwind `Customers` and `Orders` tables. Create the `GetCustomers` and `GetOrders` methods in the `DataAccessTier` project.
+The data service has to call two methods in the data access tier: `GetCustomers` and `GetOrders`. These methods return the Northwind `Customers` and `Orders` tables. Create the `GetCustomers` and `GetOrders` methods in the `DataAccessTier` project.
 
 ### To create a method in the data access tier that returns the Customers table
 
@@ -202,7 +202,7 @@ This walkthrough demonstrates how to access the data access tier by using a WCF 
 7. On the **Build** menu, click **Build Solution**.
 
 ## Add a reference to the data entity and data access tiers to the data service
- Because the data service requires information from the dataset and TableAdapters, add references to the **DataEntityTier** and **DataAccessTier** projects.
+Because the data service requires information from the dataset and TableAdapters, add references to the **DataEntityTier** and **DataAccessTier** projects.
 
 ### To add references to the data service
 
@@ -215,7 +215,7 @@ This walkthrough demonstrates how to access the data access tier by using a WCF 
 4. Click **OK**.
 
 ## Add functions to the service to call the GetCustomers and GetOrders methods in the data access tier
- Now that the data access tier contains the methods to return data, create methods in the data service to call the methods in the data access tier.
+Now that the data access tier contains the methods to return data, create methods in the data service to call the methods in the data access tier.
 
 > [!NOTE]
 > For C# projects, you must add a reference to the `System.Data.DataSetExtensions` assembly for the following code to compile.
@@ -278,7 +278,7 @@ This walkthrough demonstrates how to access the data access tier by using a WCF 
 5. On the **Build** menu, click **Build Solution**.
 
 ## Create a presentation tier to display data from the data service
- Now that the solution contains the data service that has methods, which call into the data access tier, create another project that calls into the data service and present the data to users. For this walkthrough, create a Windows Forms application; this is the presentation tier of the n-tier application.
+Now that the solution contains the data service that has methods, which call into the data access tier, create another project that calls into the data service and present the data to users. For this walkthrough, create a Windows Forms application; this is the presentation tier of the n-tier application.
 
 ### To create the presentation tier project
 
@@ -298,7 +298,7 @@ We'll set the **PresentationTier** project to be the startup project for the sol
 - In **Solution Explorer**, right-click **PresentationTier** and click **Set as StartUp Project**.
 
 ## Add References to the Presentation Tier
- The client application, PresentationTier requires a service reference to the data service in order to access the methods in the service. In addition, a reference to the dataset is required to enable type sharing by the WCF service. Until you enable type sharing through the data service, code added to the partial dataset class is not available to the presentation tier. Because you typically add code, such as validation code to the row and column changing events of a data table, it's likely that you'll want to access this code from the client.
+The client application, PresentationTier requires a service reference to the data service in order to access the methods in the service. In addition, a reference to the dataset is required to enable type sharing by the WCF service. Until you enable type sharing through the data service, code added to the partial dataset class is not available to the presentation tier. Because you typically add code, such as validation code to the row and column changing events of a data table, it's likely that you'll want to access this code from the client.
 
 ### To add a reference to the presentation tier
 
@@ -320,7 +320,7 @@ We'll set the **PresentationTier** project to be the startup project for the sol
     > If you have multiple services on the current computer, select the service that you created previously in this walkthrough (the service that contains the `GetCustomers` and `GetOrders` methods).
 
 ## Add DataGridViews to the form to display the data returned by the data service
- After you add the service reference to the data service, the **Data Sources** window is automatically populated with the data that is returned by the service.
+After you add the service reference to the data service, the **Data Sources** window is automatically populated with the data that is returned by the service.
 
 ### To add two data bound DataGridViews to the form
 
@@ -367,7 +367,7 @@ The default value for `maxReceivedMessageSize` is not large enough to hold the d
 Run the application by pressing **F5**. The data from the `Customers` and `Orders` tables is retrieved from the data service and displayed on the form.
 
 ## Next steps
- Depending on your application requirements, there are several steps that you may want to perform after you save related data in the Windows-based application. For example, you could make the following enhancements to this application:
+Depending on your application requirements, there are several steps that you may want to perform after you save related data in the Windows-based application. For example, you could make the following enhancements to this application:
 
 - Add validation to the dataset.
 

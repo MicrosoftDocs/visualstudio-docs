@@ -1,6 +1,6 @@
 ---
 title: "How to: Show the Developer tab on the ribbon"
-ms.date: "02/02/2017"
+ms.date: "08/14/2019"
 ms.topic: "conceptual"
 dev_langs:
   - "VB"
@@ -25,6 +25,8 @@ ms.workload:
 
 > [!NOTE]
 > Access doesn't have a **Developer** tab.
+
+[!include[Add-ins note](includes/addinsnote.md)]
 
 ## To show the Developer tab
 

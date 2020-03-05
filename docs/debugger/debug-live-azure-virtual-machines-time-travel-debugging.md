@@ -38,7 +38,7 @@ In this tutorial, you will:
 * Time Travel Debugging is available for the following Azure VM web apps:
   * ASP.NET applications (AMD64) running on .NET Framework 4.8 or later.
 
-## Open your project and start the Snapshot Debugger with Time Travel Debugging enabled
+## Start the Snapshot Debugger with Time Travel Debugging enabled
 
 1. Open the project for which you would like to collect a time travel recording.
 

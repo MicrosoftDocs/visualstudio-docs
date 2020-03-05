@@ -2,7 +2,7 @@
 title: Debugging techniques and tools
 description: "Write better code with less bugs by using Visual Studio to fix exceptions, fix errors, and improve your code"
 ms.custom: ['debug-experiment', 'seodec18']
-ms.date: "01/24/2019"
+ms.date: "02/14/2020"
 ms.topic: "conceptual"
 helpviewer_keywords:
   - "debugger"
@@ -34,14 +34,26 @@ The following code has some bugs that you can fix using the Visual Studio IDE. T
 
 To create the app:
 
-1. Open Visual Studio and choose **File** > **New** > **Project**. Under **Visual C#**, choose **Windows Desktop** or **.NET Core**, and then in the middle pane choose a **Console App**.
+1. You must have Visual Studio installed and either the **.NET Core cross platform development** or the **.NET desktop development** workload installed, depending on which app type you want to create.
 
-    > [!NOTE]
-    > If you don't see the **Console Application** project template, click the **Open Visual Studio Installer** link in the left pane of the **New Project** dialog box. The Visual Studio Installer launches. Choose the **.NET desktop development** or **.NET Core cross-platform development** workload, then choose **Modify**.
+    If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/) page to install it for free.
 
-2. In the **Name** field, type **Console_Parse_JSON** and click **OK**. Visual Studio creates the project.
+    If you need to install the workload but already have Visual Studio, click **Tools** > **Get Tools and Features**. The Visual Studio Installer launches. Choose the **.NET Core cross platform development** or **.NET desktop development** workload, then choose **Modify**.
 
-3. Replace the default code in the project's *Program.cs* file with the sample code below.
+1. Open Visual Studio.
+
+    ::: moniker range=">=vs-2019"
+    On the start window, choose **Create a new project**. Type **console** in the search box and then choose either **Console App (.NET Core)** or **Console App (.NET Framework)**. Choose **Next**. Type a project name like **Console_Parse_JSON** and click **Create**.
+    ::: moniker-end
+    ::: moniker range="vs-2017"
+    From the top menu bar, choose **File** > **New** > **Project**. In the left pane of the **New project** dialog box, under **Visual C#**, choose **Console App**, and then in the middle pane choose either **Console App (.NET Core)** or **Console App (.NET Framework)**. Type a name like **Console_Parse_JSON** and click **OK**.
+    ::: moniker-end
+
+    If you don't see the **Console App (.NET Core)** or **Console App (.NET Framework)** project template, go to **Tools** > **Get Tools and Features**, which opens the Visual Studio Installer. Choose either the **.NET Core cross platform development** or the **.NET desktop development** workload, then choose **Modify**.
+
+    Visual Studio creates the console project, which appears in Solution Explorer in the right pane.
+
+1. Replace the default code in the project's *Program.cs* file with the sample code below.
 
 ```csharp
 using System;
@@ -210,7 +222,7 @@ internal int points;
 
 The red squiggly lines in the code editor go away.
 
-Next, hover over the green squiggly in the declaration of the `points` data member. The code analyzer tells you the variable is never assigned a value.
+Next, hover over the green squiggle in the declaration of the `points` data member. The code analyzer tells you the variable is never assigned a value.
 
 ![Warning message for unassigned variable](../debugger/media/write-better-code-warning-message.png)
 
@@ -286,7 +298,7 @@ Here are a couple of important tips for exception handling:
     }
     ```
 
-* For unfamiliar functions that you include in your app, expecially those interacting with external data (such as a web request), check the documentation to see what exceptions the function is likely to throw. This can be critical information for proper error handling and for debugging your app.
+* For unfamiliar functions that you include in your app, especially those interacting with external data (such as a web request), check the documentation to see what exceptions the function is likely to throw. This can be critical information for proper error handling and for debugging your app.
 
 For the sample app, fix the `SerializationException` in the `GetJsonData` method by changing `4o` to `40`.
 

@@ -6,8 +6,8 @@ ms.technology: "vs-ide-general"
 ms.topic: conceptual
 ms.assetid: 31827b17-f933-413d-b28a-b19f903b64ca
 caps.latest.revision: 7
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # How to: Suppress Compiler Warnings
@@ -100,7 +100,7 @@ You can hide specific compiler warnings for Visual Basic by editing the .vbproj 
 
     The **Output** window no longer shows the warnings that you specified.
 
-   For more information, see [/nowarn](http://msdn.microsoft.com/library/7ebf2106-0652-4fdc-bf60-70fc86465d83).
+   For more information, see [/nowarn](https://msdn.microsoft.com/library/7ebf2106-0652-4fdc-bf60-70fc86465d83).
 
 ## See Also
 

@@ -3,20 +3,20 @@ title: Options dialog
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "vs.toolsoptionspages"
+- vs.toolsoptionspages
 helpviewer_keywords:
-  - "Tools Options settings"
-  - "Options dialog box"
-  - "Options dialog box, development environment"
-  - "tools [Visual Studio], customizing"
+- Tools Options settings
+- Options dialog box
+- Options dialog box, development environment
+- tools [Visual Studio], customizing
 ms.assetid: 02b09877-1df1-4531-a0d1-a4ca17c7f857
-author: gewarren
-ms.author: gewarren
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
-# Options Dialog Box (Visual Studio)
+# Options dialog box (Visual Studio)
 
 The **Options** dialog box enables you to configure the integrated development environment (IDE) to your needs. For example, you can establish a default save location for your projects, alter the default appearance and behavior of windows, and create shortcuts for commonly used commands. There are also options specific to your development language and platform. You can access **Options** from the **Tools** menu.
 

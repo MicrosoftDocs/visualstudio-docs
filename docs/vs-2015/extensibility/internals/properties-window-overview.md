@@ -32,7 +32,7 @@ The **Properties** window is used to display properties for objects selected in 
 |Interface Name|Description|  
 |--------------------|-----------------|  
 |<xref:Microsoft.VisualStudio.Shell.Interop.ICategorizeProperties>|Provides a list of categories to the **Properties** window and maps each property to a category.|  
-|[IDispatch Interface](http://msdn.microsoft.com/ebbff4bc-36b2-4861-9efa-ffa45e013eb5)|Exposes an object's methods and properties to programming tools and other applications that support automation.|  
+|[IDispatch Interface](https://msdn.microsoft.com/ebbff4bc-36b2-4861-9efa-ffa45e013eb5)|Exposes an object's methods and properties to programming tools and other applications that support automation.|  
 |<xref:Microsoft.VisualStudio.Shell.Interop.IProvidePropertyBuilder>|Provides ellipsis (...) buttons called *builders* that open modal dialog windows implemented by the object itself. Used when a value is not easily typed by the user in a text field. For example, it might be used to open a color picker that determines the RGB value for you.|  
 |<xref:Microsoft.VisualStudio.Shell.Interop.ISelectionContainer>|Provides access to objects used to update information displayed in the **Properties** window. <xref:Microsoft.VisualStudio.Shell.Interop.ISelectionContainer> is implemented by VSPackages for each window that contains selectable objects with related properties to be displayed.|  
 |<xref:Microsoft.VisualStudio.OLE.Interop.ITypeInfo>|Provides information about the type of an object such as methods of an interface and fields of a structure.|  

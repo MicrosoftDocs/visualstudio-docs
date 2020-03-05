@@ -12,8 +12,8 @@ helpviewer_keywords:
   - "CA2109"
 ms.assetid: 8f8fa0ee-e94e-400e-b516-24d8727725d7
 caps.latest.revision: 20
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: "wpickett"
 ---
 # CA2109: Review visible event handlers
@@ -60,4 +60,4 @@ manager: "wpickett"
 ## See Also
  <xref:System.Security.CodeAccessPermission.Demand%2A?displayProperty=fullName>
  <xref:System.EventArgs?displayProperty=fullName>
- [Security Demands](http://msdn.microsoft.com/324c14f8-54ff-494d-9fd1-bfd20962c8ba)
+ [Security Demands](https://msdn.microsoft.com/324c14f8-54ff-494d-9fd1-bfd20962c8ba)

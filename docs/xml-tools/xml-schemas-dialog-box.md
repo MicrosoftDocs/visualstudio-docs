@@ -3,13 +3,13 @@ title: XML schemas
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - vs.xmleditor.schemasdialog
+- vs.xmleditor.schemasdialog
 ms.assetid: 0271fa26-2205-49bd-96e0-ae1441571808
-author: gewarren
-ms.author: gewarren
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # XML Schemas dialog box
 

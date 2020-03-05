@@ -43,6 +43,10 @@ To quickly reattach to a process you attached to previously, see [Reattach to a 
 
 To debug a process on a remote computer, see [Attach to a process on a remote computer](#BKMK_Attach_to_a_process_on_a_remote_computer).
 
+::: moniker range=">= vs-2019"
+To debug a .NET Core process on a Linux Docker container, see [Attach to a Linux Docker container](#BKMK_Docker_Attach).
+::: moniker-end
+
 **To attach to a process on your local computer:**
 
 1. In Visual Studio, select **Debug** > **Attach to Process** (or press **Ctrl**+**Alt**+**P**) to open the **Attach to Process** dialog box.
@@ -141,6 +145,58 @@ In some cases, when you debug in a Remote Desktop (Terminal Services) session, t
 
 If neither of those workarounds is possible, a third option is to attach to the process by running `vsjitdebugger.exe -p <ProcessId>` from the Windows command line. You can determine the process ID using *tlist.exe*. To obtain *tlist.exe*, download and install Debugging Tools for Windows, available at  [WDK and WinDbg downloads](/windows-hardware/drivers/download-the-wdk).
 
+::: moniker range=">= vs-2019"
+
+## Attach to a .NET Core process running on Linux using SSH
+
+For more information, see [Remote debug .NET Core running on Linux using SSH](../debugger/remote-debugging-dotnet-core-linux-with-ssh.md).
+
+## <a name="BKMK_Docker_Attach"></a> Attach to a process running on a Linux Docker container
+
+You can attach the Visual Studio debugger to a process running in a Linux .NET Core Docker container on your local or remote machine using the **Attach to Process** dialog box.
+
+> [!IMPORTANT]
+> To use this feature, you must install the .NET Core Cross-Platform Development workload and have local access to the source code.
+
+**To attach to a running process in a Linux Docker container:**
+
+1. In Visual Studio, select **Debug > Attach to Process (CTRL+ALT+P)** to open the **Attach to Process** dialog box.
+
+![Attach to Process Menu](../debugger/media/attach-process-menu.png "Attach_To_Process_Menu")
+
+2. Set the **Connection type** to **Docker (Linux Container)**.
+3. Select **Find...** to set the **Connection target** via the **Select Docker Container** dialog box.
+
+    You can debug a Docker container process either locally or remotely.
+    
+    **To debug a Docker container process locally:**
+    1. Set **Docker CLI host** to **Local Machine**.
+    1. Select a running container to attach to from the list and hit **OK**.
+    
+    ![Select Docker Container Menu](../debugger/media/select-docker-container.png "Select_Docker_Container_Menu")
+ 
+    **B. To debug a Docker container process remotely:**
+    
+    > [!NOTE] 
+    > There are two options for connecting remotely to a running process in a Docker container. The first option, to use SSH, is ideal if you don't have Docker tools installed on your local machine.  If you do have Docker tools installed locally and you have a Docker daemon that's configured to accept remote requests, try the second option, using a Docker daemon.
+
+    1. ***To connect to a remote machine via SSH:***
+        1. Select **Add...** to connect to a remote system.<br/>
+        ![Connect to a Remote System](../debugger/media/connect-remote-system.png "Connect to a Remote System")
+        1. Select a running container to attach to after connecting to the SSH or daemon successfully and hit **OK**.
+
+    
+    1. ***To set the target to a remote container running a process via a [Docker daemon](https://docs.docker.com/engine/reference/commandline/dockerd/)***
+        1. Specify the daemon address (i.e. via TCP, IP, etc.) under **Docker host (Optional)** and click the refresh link.
+        1. Select a running container to attach to after connecting to the daemon successfully and hit **OK**.
+
+4. Choose the corresponding container process from the list of **Available processes** and select **Attach** to start debugging your C# container process in Visual Studio!
+
+    ![Completed Docker Attach Menu](../debugger/media/docker-attach-complete.png "Completed Docker Attach Menu")
+
+
+::: moniker-end
+
 ## <a name="BKMK_reattach"></a> Reattach to a process
 
 You can quickly reattach to processes that you were previously attached to by choosing **Debug** > **Reattach to Process** (**Shift**+**Alt**+**P**). When you choose this command, the debugger will immediately try to attach to the last processes you attached to by first attempting to match the previous process ID and if that fails, by matching to the previous process name. If no matches are found, or if several processes have the same name, the **Attach to Process** dialog box will open so you can select the correct process.
@@ -163,10 +219,11 @@ To quickly select a running process to attach to, in Visual Studio, type **Ctrl*
 |Scenario|Debug method|Process name|Notes and links|
 |-|-|-|-|
 |Remote debug ASP.NET 4 or 4.5 on an IIS server|Use remote tools and **Attach to Process**|*w3wp.exe*|See [Remote debugging ASP.NET on a remote IIS computer](../debugger/remote-debugging-aspnet-on-a-remote-iis-7-5-computer.md)|
-|Remote debug ASP.NET Core on an IIS server|Use remote tools and **Attach to Process**|*dotnet.exe*|For app deployment, see [Publish to IIS](https://docs.asp.net/en/latest/publishing/iis.html). For debugging, see [Remote debugging ASP.NET Core on a remote IIS computer](../debugger/remote-debugging-aspnet-on-a-remote-iis-computer.md)|
+|Remote debug ASP.NET Core on an IIS server|Use remote tools and **Attach to Process**|*dotnet.exe* or *appname.exe*|For app deployment, see [Publish to IIS](https://docs.asp.net/en/latest/publishing/iis.html). For debugging, see [Remote debugging ASP.NET Core on a remote IIS computer](../debugger/remote-debugging-aspnet-on-a-remote-iis-computer.md)|
 |Debug client-side script on a local IIS server, for supported app types |Use **Attach to Process**|*chrome.exe*, *MicrosoftEdgeCP.exe*, or *iexplore.exe*|Script debugging must be enabled. For Chrome, you must also run Chrome in debug mode and select **Webkit code** in the **Attach to** field.|
 |Debug a C#, Visual Basic, or C++ app on the local machine|Use either standard debugging (**F5**) or **Attach to Process**|*\<appname>.exe*|In most scenarios, use standard debugging and not **Attach to Process**.|
 |Remote debug a Windows desktop app|Remote tools|N/A| See [Remote debug a C# or Visual Basic app](../debugger/remote-debugging-csharp.md) or [Remote debug a C++ app](../debugger/remote-debugging-cpp.md)|
+|Debug .NET Core on Linux|Use **Attach to Process**|*dotnet.exe*|To use SSH, see [Remote debug .NET Core running on Linux using SSH](../debugger/remote-debugging-dotnet-core-linux-with-ssh.md). |
 |Debug an ASP.NET app on the local machine after you start the app without the debugger|Use **Attach to Process**|*iiexpress.exe*|This may be helpful to make your app load faster, such as (for example) when profiling. |
 |Debug other supported app types on a server process|If server is remote, use remote tools, and **Attach to Process**|*chrome.exe*, *iexplore.exe*, or other processes|If necessary, use Resource Monitor to help identify the process. See [Remote debugging](../debugger/remote-debugging.md).|
 |Remote debug a Universal Windows App (UWP), OneCore, HoloLens, or IoT app|Debug installed app package|N/A|See [Debug an installed app package](debug-installed-app-package.md) instead of using **Attach to Process**|

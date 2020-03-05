@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugCodeContext2::GetLanguageInfo"
 ms.assetid: 03002ef1-9fe6-44b6-b23b-ef7b86b2b21b
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -36,13 +36,11 @@ int GetLanguageInfo( 
 ```
 
 ## Parameters
- `pbstrLanguage`\
+`pbstrLanguage`\
+[in, out] Returns a string that contains the name of the language, such as "C++."
 
- [in, out] Returns a string that contains the name of the language, such as "C++."
-
- `pguidLanguage`\
-
- [in, out] Returns the GUID for the language of the code context, for example, `guidCPPLang`.
+`pguidLanguage`\
+[in, out] Returns the GUID for the language of the code context, for example, `guidCPPLang`.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

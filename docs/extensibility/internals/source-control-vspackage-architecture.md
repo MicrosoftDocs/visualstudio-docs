@@ -5,8 +5,8 @@ ms.topic: "conceptual"
 helpviewer_keywords:
   - "source control packages, architecture"
 ms.assetid: 453125fc-23dc-49b1-8476-94581f05e6c7
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -41,6 +41,6 @@ A source-control package is a VSPackage that uses services that the [!INCLUDE[vs
 
   Writing a VSPackage-based source-control package requires more advanced programming expertise than writing a Source Control Plug-in API-based plug-in.
 
-## See Also
+## See also
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage>
 - [Getting Started](../../extensibility/internals/getting-started-with-source-control-vspackages.md)

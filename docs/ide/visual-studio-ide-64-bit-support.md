@@ -3,14 +3,14 @@ title: 64 bit support
 ms.date: 02/21/2018
 ms.topic: conceptual
 helpviewer_keywords:
-  - "64-bit applications [C++]"
-  - "Visual Studio, 64-bit support"
-  - "64-bit programming [C++]"
-author: gewarren
-ms.author: gewarren
+- 64-bit applications [C++]
+- Visual Studio, 64-bit support
+- 64-bit programming [C++]
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Visual Studio IDE 64-Bit support
 

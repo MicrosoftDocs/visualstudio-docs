@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "VSCT XML schema elements, Define"
   - "Define element (VSCT XML schema)"
 ms.assetid: 5aee74e3-de41-4dc6-9618-93e158af56dd
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

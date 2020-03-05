@@ -6,6 +6,7 @@ ms.assetid: bd9ca972-e5bf-45a6-9a5d-ac30a4d9ee02
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jillfra
+monikerRange: 'vs-2017'
 ms.workload:
   - "multiple"
 ---
@@ -19,7 +20,7 @@ You can insert managed or native methods of the APIs of the [!INCLUDE[vsprvs](..
 
 Describes the C++ Profiling Tools methods.
 
-<xref:Microsoft.VisualStudio.Profiler>
+[Profiler](/previous-versions/ms242704(v=vs.140))
 
 Describes the .NET Profiling Tools methods.
 

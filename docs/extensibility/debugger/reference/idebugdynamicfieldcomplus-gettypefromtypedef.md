@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "GetTypeFromTypeDef"
   - "IDebugDynamicFieldCOMPlus::GetTypeFromTypeDef"
 ms.assetid: 7f6cd3d3-f4da-4893-be91-8dd104be8010
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -39,21 +39,17 @@ int GetTypeFromTypeDef(
 ```
 
 ## Parameters
- `ulAppDomainID`\
+`ulAppDomainID`\
+[in] Identifier of the application domain.
 
- [in] Identifier of the application domain.
+`guidModule`\
+[in] Unique identifier of the module.
 
- `guidModule`\
+`tokClass`\
+[in] Token that represents the type.
 
- [in] Unique identifier of the module.
-
- `tokClass`\
-
- [in] Token that represents the type.
-
- `ppType`\
-
- [out] Returns an [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) object that contains the type.
+`ppType`\
+[out] Returns an [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) object that contains the type.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

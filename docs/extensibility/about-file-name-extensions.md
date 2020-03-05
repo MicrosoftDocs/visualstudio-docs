@@ -6,8 +6,8 @@ helpviewer_keywords:
   - "file extensions"
   - "file name extensions"
 ms.assetid: 99f4f9ff-fb84-4258-9787-6890f308a57f
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

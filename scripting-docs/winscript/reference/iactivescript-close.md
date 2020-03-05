@@ -37,5 +37,5 @@ HRESULT Close(void);
 |`OLESCRIPT_S_PENDING`|The method was queued successfully, but the state has not changed yet. When the state changes, the site is to be called back on the [IActiveScriptSite::OnStateChange](../../winscript/reference/iactivescriptsite-onstatechange.md) method.|  
 |`S_FALSE`|The method succeeded, but the script has already been closed.|  
   
-## See Also  
+## See also  
  [IActiveScript](../../winscript/reference/iactivescript.md)

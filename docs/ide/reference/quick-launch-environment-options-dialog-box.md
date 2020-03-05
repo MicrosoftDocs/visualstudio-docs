@@ -3,17 +3,17 @@ title: Quick Launch, Environment, Options Dialog Box
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "VS.ToolsOptionsPages.Environment.QuickLaunch"
-  - "vs.quicklaunch"
+- VS.ToolsOptionsPages.Environment.QuickLaunch
+- vs.quicklaunch
 helpviewer_keywords:
-  - "searching IDE"
-  - "IDE, searching"
+- searching IDE
+- IDE, searching
 ms.assetid: 4200f297-d065-4723-9a30-d91ff2e26c9d
-author: gewarren
-ms.author: gewarren
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 monikerRange: vs-2017
 ---
 # Quick Launch, Environment, Options Dialog Box
@@ -41,7 +41,3 @@ You can use the following shortcuts to limit your search to specific categories.
 ## Show Previous Results
 
 By default, the search term that you enter is not persisted between search sessions. The search string is cleared if you search for a term, move the cursor outside the **Quick Launch** area, and then go back. To retain the search results, go to the **Options** dialog box, choose **Quick Launch**, and then select the **Show search results from previous search when Quick Launch is activated.** check box. The next time you do a search, leave the Quick Launch area, and come back, Quick Launch will retain the search term last used and also show you the search results.
-
-## See also
-
-- [Environment Options Dialog Box](../../ide/reference/environment-options-dialog-box.md)

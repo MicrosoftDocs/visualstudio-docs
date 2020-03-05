@@ -1,5 +1,5 @@
 ---
-title: "Report a problem"
+title: "Report a problem: States and FAQ"
 description: "Provides an overview of the Report a Problem tool, and includes problem states and definitions"
 ms.date: 11/15/2018
 ms.custom: "seodec18"
@@ -10,7 +10,7 @@ manager: jillfra
 ms.workload:
   - "multiple"
 ---
-# Overview: Report a Problem
+# Report a problem: States and FAQ
 
 The Report a Problem tool enables the Visual Studio developer community to submit issues. Each one of your problem reports becomes a work item in our core engineering system, empowering you to engage directly with our product teams to help us identify and resolve impactful issues. Your feedback submitted with rich diagnostic information is critical to improving the Visual Studio product family. We really appreciate you taking the time to report problems.
 
@@ -74,7 +74,7 @@ After you report a problem, states indicate where your submissions are in their 
 
 - - -
 
-![Closed - Not a Bug state for problem reporting on Developer Community](../ide/media/ProblemStates/ClosedNotaBug.jpg)
+![Closed - Not a Bug state for problem reporting on Developer Community](../ide/media/ProblemStates/ClosedNotABug.jpg)
 
 **Closed - Not a Bug**  indicates that we've determined that the reported functionality is by current design.
 
@@ -104,7 +104,7 @@ After you report a problem, states indicate where your submissions are in their 
 
 We recommend using search to ensure that the problem you're about to report hasn't already been reported. If you find an existing item matching your problem, follow and vote on that problem ticket.
 
- Provide all the information you can to help our teams reproduce what you're experiencing.  This information includes  necessary repro steps, code fragments, screenshots, repro recordings, log files, and other artifacts.  Here is [how to report a problem in Visual Studio](./how-to-report-a-problem-with-visual-studio.md).
+Provide all the information you can to help our teams reproduce what you're experiencing.  This information includes  necessary repro steps, code fragments, screenshots, repro recordings, log files, and other artifacts.  Here is [how to report a problem in Visual Studio](./how-to-report-a-problem-with-visual-studio.md).
 
 ### How is my feedback prioritized?
 

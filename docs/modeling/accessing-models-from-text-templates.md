@@ -3,14 +3,15 @@ title: Accessing Models from Text Templates
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "text templates, accessing models"
-author: gewarren
-ms.author: gewarren
+- text templates, accessing models
+author: JoshuaPartlow
+ms.author: joshuapa
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
-# Accessing Models from Text Templates
+# Access models from text templates
+
 By using text templates, you can create report files, source code files, and other text files that are based on domain-specific language models. For basic information about text templates, see [Code Generation and T4 Text Templates](../modeling/code-generation-and-t4-text-templates.md). The text templates will work in the experimental mode when you are debugging your DSL, and will also work on a computer on which you have deployed the DSL.
 
 > [!NOTE]
@@ -18,7 +19,7 @@ By using text templates, you can create report files, source code files, and oth
 
  To access a model from a text template:
 
-- Set the inherit property of the template directive to <xref:Microsoft.VisualStudio.TextTemplating.VSHost.ModelingTextTransformation>. This provides access to the Store.
+- Set the inherit property of the template directive to [Microsoft.VisualStudio.TextTemplating.VSHost.ModelingTextTransformation](/previous-versions/bb893209(v=vs.140)). This provides access to the Store.
 
 - Specify directive processors for the DSL that you want to access. This loads the assemblies for your DSL so that you can use its domain classes, properties, and relationships in the code of your text template. It also loads the model file that you specify.
 
@@ -129,7 +130,7 @@ For Each element As ExampleElement In Me.WorkModel.Elements
 ```
 
 ## Loading models dynamically
- If you want to determine at runtime which models to load, you can load a model file dynamically in your program code, instead of using the DSL-specific directive.
+ If you want to determine at run time which models to load, you can load a model file dynamically in your program code, instead of using the DSL-specific directive.
 
  However, one of the functions of the DSL-specific directive is to import the DSL namespace, so that the template code can use the domain classes defined in that DSL. Because you are not using the directive, you must add **\<assembly>** and **\<import>** directives for all the models that you might load. This is easy if the different models that you might load are all instances of the same DSL.
 

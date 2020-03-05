@@ -3,13 +3,13 @@ title: Extend dependency diagrams
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "dependency diagrams, creating extensions"
-  - "layer models"
-author: gewarren
-ms.author: gewarren
+- dependency diagrams, creating extensions
+- layer models
+author: JoshuaPartlow
+ms.author: joshuapa
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Extend dependency diagrams
 

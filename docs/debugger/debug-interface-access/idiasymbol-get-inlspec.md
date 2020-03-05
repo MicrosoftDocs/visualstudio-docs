@@ -42,6 +42,6 @@ HRESULT get_inlSpec(
 |Header:|dia2.h|
 |Version:|DIA SDK v8.0|
 
-## See Also
+## See also
 - [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
 - [inline, __inline, \__forceinline](/cpp/cpp/inline-functions-cpp)

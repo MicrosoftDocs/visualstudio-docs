@@ -3,20 +3,20 @@ title: International Settings, Environment, Options Dialog Box
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "VS.ToolsOptionsPages.Environment.InternationalSettings"
-  - "VS.ToolsOptionsPages.Environment.International_Settings"
-  - "VS.Environment.International Settings"
+- VS.ToolsOptionsPages.Environment.InternationalSettings
+- VS.ToolsOptionsPages.Environment.International_Settings
+- VS.Environment.International Settings
 helpviewer_keywords:
-  - "International Settings dialog box"
-  - "languages, environment settings"
-  - "Options dialog box, international settings"
-  - "languages, specifying default"
+- International Settings dialog box
+- languages, environment settings
+- Options dialog box, international settings
+- languages, specifying default
 ms.assetid: e3a8815c-6995-4099-8e88-34f91fad55b2
-author: gewarren
-ms.author: gewarren
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Options dialog box: Environment \> International Settings
 
@@ -32,4 +32,3 @@ Lists the available languages for the installed product language versions. If mu
 ### See also
 
 - [Install language packs](../../install/install-visual-studio.md#step-6---install-language-packs-optional)
-- [Environment Options Dialog Box](../../ide/reference/environment-options-dialog-box.md)

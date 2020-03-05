@@ -1,5 +1,5 @@
 ---
-title: Set up diagnostics for Azure Cloud Services and virtual machines | Microsoft Docs
+title: Diagnostics for Azure Cloud Services and virtual machines
 description: Learn how to set up diagnostics for debugging Azure cloud services and virtual machines (VMs) in Visual Studio.
 author: ghogen
 manager: jillfra
@@ -30,7 +30,7 @@ The connection string works differently in some key ways in Azure SDK 2.6 and la
 * In Azure SDK 2.4 and earlier, the connection string is used as a runtime by the diagnostics plug-in to get the storage account information for transferring diagnostics logs.
 * In Azure SDK 2.6 and later, Visual Studio uses the diagnostics connection string to set up the Azure Diagnostics Extension with the appropriate storage account information during publishing. You can use the connection string to define different storage accounts for different service configurations that Visual Studio uses during publishing. However, because the diagnostics plug-in is not available after Azure SDK 2.5, the .cscfg file by itself can't set up the diagnostics extension. You must set up the extension separately by using tools like Visual Studio or PowerShell.
 * To simplify the process of setting up the diagnostics extension by using PowerShell, the package output from Visual Studio includes the public configuration XML for the diagnostics extension for each role. Visual Studio uses the diagnostics connection string to populate the storage account information in the public configuration. The public config files are created in the Extensions folder. The public config files use the naming pattern PaaSDiagnostics.&lt;role name\>.PubConfig.xml. Any PowerShell-based deployments can use this pattern to map each configuration to a role.
-* The [Azure portal](http://go.microsoft.com/fwlink/p/?LinkID=525040) uses the connection string in the .cscfg file to access the diagnostics data. The data appears on the **Monitoring** tab. The connection string is required to set the service to show verbose monitoring data in the portal.
+* The [Azure portal](https://portal.azure.com) uses the connection string in the .cscfg file to access the diagnostics data. The data appears on the **Monitoring** tab. The connection string is required to set the service to show verbose monitoring data in the portal.
 
 ## Migrate projects to Azure SDK 2.6 and later
 When you migrate from Azure SDK 2.5 to Azure SDK 2.6 or later, if you had a diagnostics storage account specified in the .wadcfgx file, the storage account stays in that file. To take advantage of the flexibility of using different storage accounts for different storage configurations, manually add the connection string to your project. If you're migrating a project from Azure SDK 2.4 or earlier to Azure SDK 2.6, the diagnostics connection strings are preserved. However, note the changes in how connection strings are treated in Azure SDK 2.6, described in the preceding section.
@@ -77,7 +77,7 @@ In Visual Studio, you can collect diagnostics data for roles that run in Azure w
 5. To view the **Diagnostics configuration** dialog box, select **Configure**. Except for **General** and **Log Directories**, each tab represents a diagnostics data source that you can collect. The default **General** tab offers the following diagnostics data collection options: **Errors only**, **All information**, and **Custom plan**. The default **Errors only** option uses the least amount of storage, because it doesn’t transfer warnings or tracing messages. The **All information** option transfers the most information, uses the most storage, and therefore, is the most expensive option.
 
    > [!NOTE]
-   > Minimum supported size for “Disk Quota in MB” is 4GB. However, if you are collecting Memory dumps, increase this to a higher value like 10GB.
+   > Minimum supported size for “Disk Quota in MB” is 50MB, and the default size is 4GB. However, if you are collecting Memory dumps, increase this to a higher value like 10GB.
    >
 
     ![Enable Azure diagnostics and configuration](./media/vs-azure-tools-diagnostics-for-cloud-services-and-virtual-machines/IC758144.png)
@@ -102,7 +102,7 @@ In Visual Studio, you can collect diagnostics data for Azure virtual machines.
     ![Install an Azure virtual machine extension](./media/vs-azure-tools-diagnostics-for-cloud-services-and-virtual-machines/IC766024.png)
 
     > [!NOTE]
-   > Other diagnostics extensions are available for your virtual machines. For more information, see [Virtual machine extensions and features for Windows](https://docs.microsoft.com/azure/virtual-machines/windows/extensions-features).
+   > Other diagnostics extensions are available for your virtual machines. For more information, see [Virtual machine extensions and features for Windows](/azure/virtual-machines/windows/extensions-features).
    >
    >
 5. To add the extension and view its **Diagnostics configuration** dialog box, select **Add**.
@@ -188,7 +188,7 @@ The processes currently being tracked are listed in the next screenshot. Select 
 
 ![Crash dumps](./media/vs-azure-tools-diagnostics-for-cloud-services-and-virtual-machines/IC766026.png)
 
-For more information, see [Take control of logging and tracing in Microsoft Azure](https://msdn.microsoft.com/magazine/ff714589.aspx) and [Microsoft Azure Diagnostics Part 4: Custom logging components and Azure Diagnostics 1.3 changes](http://justazure.com/microsoft-azure-diagnostics-part-4-custom-logging-components-azure-diagnostics-1-3-changes/).
+For more information, see [Take control of logging and tracing in Microsoft Azure](https://msdn.microsoft.com/magazine/ff714589.aspx) and [Microsoft Azure Diagnostics Part 4: Custom logging components and Azure Diagnostics 1.3 changes](https://www.red-gate.com/simple-talk/cloud/platform-as-a-service/microsoft-azure-diagnostics-part-4-custom-logging-components-and-azure-diagnostics-1.3-changes/).
 
 ## View the diagnostics data
 After you’ve collected the diagnostics data for a cloud service or virtual machine, you can view it.
@@ -250,7 +250,7 @@ If you're investigating a problem with a cloud service that is already running, 
     If you change data collection in Server Explorer, the changes remain in effect until you fully redeploy your cloud service. If you use the default publish settings, the changes are not overwritten. The default publish setting is to update the existing deployment, rather than to do a full redeployment. To ensure that the settings clear at deployment time, go to the **Advanced Settings** tab in the Publish wizard, and then clear the **Deployment update** check box. When you redeploy with that check box cleared, the settings revert to those in the .wadcfgx (or .wadcfg) file as set through the **Properties** editor for the role. If you update your deployment, Azure keeps the earlier settings.
 
 ## Troubleshoot Azure cloud service issues
-If you experience problems with your cloud service projects, like a role that gets stuck in a "busy" status, repeatedly recycles, or throws an internal server error, there are tools and techniques that you can use to diagnose and fix the issue. For specific examples of common problems and solutions, and for an overview of the concepts and tools that you can use to diagnose and fix these errors, see [Azure PaaS compute diagnostics data](http://blogs.msdn.com/b/kwill/archive/2013/08/09/windows-azure-paas-compute-diagnostics-data.aspx).
+If you experience problems with your cloud service projects, like a role that gets stuck in a "busy" status, repeatedly recycles, or throws an internal server error, there are tools and techniques that you can use to diagnose and fix the issue. For specific examples of common problems and solutions, and for an overview of the concepts and tools that you can use to diagnose and fix these errors, see [Azure PaaS compute diagnostics data](https://blogs.msdn.microsoft.com/kwill/2013/08/09/windows-azure-paas-compute-diagnostics-data/).
 
 ## Q & A
 **What is the buffer size, and how large should it be?**

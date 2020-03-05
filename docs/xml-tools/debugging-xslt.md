@@ -2,13 +2,13 @@
 title: Ways to debug XSLT code
 ms.date: 03/05/2019
 ms.topic: conceptual
-author: gewarren
-ms.author: gewarren
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 dev_langs:
-  - "CSharp"
+- CSharp
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Debugging XSLT
 
@@ -19,7 +19,7 @@ You can execute code one line at a time by stepping into, stepping over, or step
 Once you start debugging, the XSLT debugger opens windows to show the input document and the XSLT output.
 
 > [!NOTE]
-> The XSLT debugger is only available in the Enterprise edition of Visual Studio.
+> The XSLT debugger is only available in the Professional and Enterprise editions of Visual Studio.
 
 ## Debug from the XML editor
 
@@ -70,7 +70,7 @@ namespace ConsoleApplication
       XslCompiledTransform xslt = new XslCompiledTransform(true);
 
       // Compile the style sheet.
-      xslt.Load(stylesheet)
+      xslt.Load(stylesheet);
 
       // Execute the XSLT transform.
       FileStream outputStream = new FileStream(outputFile, FileMode.Append);

@@ -1,5 +1,5 @@
 ---
-title: "Development best practices for COM, VSTO, and VBA add-ins in Office"
+title: "Development best practices: COM, VSTO, & VBA add-ins in Office"
 ms.date: "07/25/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -30,7 +30,7 @@ If your solution uses .NET 4.0 or later, use embedded interop types (NoPIA) inst
 If your solution uses an earlier version of .NET, we recommend that you update your solution to use .NET 4.0 or later. Using .NET 4.0 or later reduces runtime prerequisites on newer versions of Windows.
 
 ## Avoid depending on specific Office versions
-If your solution uses functionality that is only available in newer versions of Office, verify that the capability exists (if possible, at the feature level) at runtime (for example, using exception handling or by checking the version). Validate minimum versions, rather than specific versions, using supported APIs in the object model, such as the [Application.Version property](<xref:Microsoft.Office.Interop.Excel._Application.Version%2A>). We don’t recommend that you rely on Office binary metadata, installation paths, or registry keys because these can change between installations, environments, and versions.
+If your solution uses functionality that is only available in newer versions of Office, verify that the capability exists (if possible, at the feature level) at run time (for example, using exception handling or by checking the version). Validate minimum versions, rather than specific versions, using supported APIs in the object model, such as the [Application.Version property](<xref:Microsoft.Office.Interop.Excel._Application.Version%2A>). We don’t recommend that you rely on Office binary metadata, installation paths, or registry keys because these can change between installations, environments, and versions.
 
 ## Enable both 32-bit and 64-bit Office usage
 Your default build target should support both 32-bit (x86) and 64-bit (x64), unless your solution depends on libraries that are only available for a specific bitness. The 64-bit version of Office is increasing in adoption, especially in big data environments. Supporting both 32-bit and 64-bit makes it easier for your users to transition between 32-bit and 64-bit versions of Office.
@@ -55,7 +55,7 @@ Customers are asking ISVs to provide support statements for their COM, VSTO and 
 
 To provide support statements for Office client applications (for example, Word or Excel), first verify that your add-ins run in the current Office release, and then commit to providing updates if your add-in breaks in a future release. You do not have to test your add-ins when Microsoft releases a new build, or an update to Office. Microsoft rarely changes the COM, VSTO and VBA extensibility platform in Office, and these changes will be well documented.
 
->Important: Microsoft maintains a list of supported add-ins for readiness reports, and ISV contact information. To get your add-in listed, see [https://aka.ms/readyforwindows](https://aka.ms/readyforwindows).
+>Important: Microsoft maintains a list of supported add-ins for readiness reports, and ISV contact information. To get your add-in listed, see [/configmgr/desktop-analytics/ready-for-windows](/configmgr/desktop-analytics/ready-for-windows).
 
 ## Use Process Monitor to help debug installation or loading issues
 If your add-in has compatibility issues during installation or load, they might be related to issues with file or registry access. Use [Process Monitor](/sysinternals/downloads/procmon) or a similar debugging tool to log and compare behavior against a working environment to help identify the problem.

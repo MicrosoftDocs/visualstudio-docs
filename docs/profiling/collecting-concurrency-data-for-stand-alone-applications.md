@@ -1,5 +1,5 @@
 ---
-title: "Collect concurrency data for Stand-Alone Applications by Using the Profiler Command Line | Microsoft Docs"
+title: "Profiler command line to get stand-alone app concurrency data"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 helpviewer_keywords:
@@ -9,6 +9,7 @@ ms.assetid: 0a2c6d8a-50b3-48aa-b617-9137b049d21e
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jillfra
+monikerRange: 'vs-2017'
 ms.workload:
   - "multiple"
 ---

@@ -1,13 +1,13 @@
 ---
-title: "How to: Create a Grayscale Texture Shader"
+title: 'How to: Create a Grayscale Texture Shader'
 ms.date: 11/04/2016
 ms.topic: conceptual
 ms.assetid: 79181d81-44af-445e-9a18-03483dd70260
-author: gewarren
-ms.author: gewarren
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # How to: Create a grayscale texture shader
 
@@ -39,7 +39,7 @@ The following illustration shows the completed shader graph and a preview of the
 
 ![Shader graph and a preview of its effect](../designers/media/digit-grayscale-effect.png)
 
-Certain shapes might provide better previews for some shaders. For more information about previewing shaders in the Shader Designer, see [Shader Designer](../designers/shader-designer.md)
+Certain shapes might provide better previews for some shaders. For more information about previewing shaders in the Shader Designer, see [Shader Designer](../designers/shader-designer.md).
 
 ## See also
 

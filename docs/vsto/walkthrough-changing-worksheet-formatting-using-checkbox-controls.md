@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Change worksheet formatting using CheckBox controls"
+title: "Change worksheet formatting using CheckBox controls"
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:

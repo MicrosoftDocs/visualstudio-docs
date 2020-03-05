@@ -7,8 +7,8 @@ helpviewer_keywords:
   - "language services [managed package framework], outlining"
   - "outlining, supporting in language services [managed package framework]"
 ms.assetid: 7b5578b4-a20a-4b94-ad4c-98687ac133b9
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -111,6 +111,6 @@ namespace MyLanguagePackage
 }
 ```
 
-## See Also
+## See also
 - [Legacy Language Service Features](../../extensibility/internals/legacy-language-service-features1.md)
 - [Registering a Legacy Language Service](../../extensibility/internals/registering-a-legacy-language-service1.md)

@@ -3,8 +3,8 @@ title: "Managing Universal Windows Projects | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 ms.assetid: 47926aa1-3b41-410d-bca8-f77fc950cbe7
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -23,7 +23,7 @@ Starting in Visual Studio 2015, you do not install the Visual Studio SDK from th
 
 2. Add a reference to *Microsoft.VisualStudio.Shell.Interop.12.1.DesignTime.dll* and *Microsoft.VisualStudio.Shell.Interop.14.0.DesignTime.dll* (in the **Extensions** section).
 
-3. Open *TestUniversalProject.cs* and add the following `using` statements:
+3. Open *TestUniversalProject.cs* and add the following `using` directives:
 
     ```csharp
     using EnvDTE;
@@ -421,7 +421,7 @@ Starting in Visual Studio 2015, you do not install the Visual Studio SDK from th
 
 2. Add an event listener. Add a new class file to the project and call it *HierarchyEventListener.cs*.
 
-3. Open the *HierarchyEventListener.cs* file and add the following using statements:
+3. Open the *HierarchyEventListener.cs* file and add the following using directives:
 
    ```csharp
    using Microsoft.VisualStudio.Shell.Interop;

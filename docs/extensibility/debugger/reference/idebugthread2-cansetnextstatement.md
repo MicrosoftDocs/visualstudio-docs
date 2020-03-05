@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugThread2::CanSetNextStatement"
 ms.assetid: 7014af80-ff4f-4790-a34b-0528918d1fa3
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -36,12 +36,11 @@ int CanSetNextStatement ( 
 ```
 
 ## Parameters
- `pStackFrame`\
- Reserved for future use; set to a null value. If this is a null value, use the current stack frame.
+`pStackFrame`\
+Reserved for future use; set to a null value. If this is a null value, use the current stack frame.
 
- `pCodeContext`\
-
- [in] An [IDebugCodeContext2](../../../extensibility/debugger/reference/idebugcodecontext2.md) object that describes the code location about to be executed and its context.
+`pCodeContext`\
+[in] An [IDebugCodeContext2](../../../extensibility/debugger/reference/idebugcodecontext2.md) object that describes the code location about to be executed and its context.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

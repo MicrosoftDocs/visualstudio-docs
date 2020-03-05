@@ -29,7 +29,7 @@ You must complete several tasks to create a new project type. The following chec
   
     - Project factory, to manage creating new projects and opening existing projects. For more information, see [Creating Project Instances By Using Project Factories](../../extensibility/internals/creating-project-instances-by-using-project-factories.md).  
   
-    - Project hierarchy and command handling. For more information, see [Not in Build: Using HierUtil7 Project Classes to Implement a Project Type (C++)](http://msdn.microsoft.com/a5c16a09-94a2-46ef-87b5-35b815e2f346), [Elements of a Project Model](../../extensibility/internals/elements-of-a-project-model.md), [Project Model Core Components](../../extensibility/internals/project-model-core-components.md) and [MenuCommands Vs. OleMenuCommands](../../misc/menucommands-vs-olemenucommands.md).  
+    - Project hierarchy and command handling. For more information, see [Not in Build: Using HierUtil7 Project Classes to Implement a Project Type (C++)](https://msdn.microsoft.com/a5c16a09-94a2-46ef-87b5-35b815e2f346), [Elements of a Project Model](../../extensibility/internals/elements-of-a-project-model.md), [Project Model Core Components](../../extensibility/internals/project-model-core-components.md) and [MenuCommands Vs. OleMenuCommands](../../misc/menucommands-vs-olemenucommands.md).  
   
     - Project items management, including adding your project to the **New Project** dialog box. For more information, see [Adding Project and Project Item Templates](../../extensibility/internals/adding-project-and-project-item-templates.md) and [Registering Project and Item Templates](../../extensibility/internals/registering-project-and-item-templates.md).  
   

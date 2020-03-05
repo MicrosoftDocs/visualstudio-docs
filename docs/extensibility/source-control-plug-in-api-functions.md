@@ -5,8 +5,8 @@ ms.topic: "conceptual"
 helpviewer_keywords:
   - "source control plug-ins, functions"
 ms.assetid: 4b0536dd-4f92-4ef2-9031-4548281f37aa
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -79,6 +79,6 @@ The Source Control Plug-in API provides the following functions, which must be i
 
  (Supplied in the Environment SDK common includes folder, by default *[drive]*\Program Files\VSIP 8.0\EnvSDK\common\inc; also supplied in the VSIP folder with the MSSCCI sample, *[drive]*\Program Files\VSIP 8.0\MSSCCI).
 
-## See Also
+## See also
 - [Source Control Plug-ins](../extensibility/source-control-plug-ins.md)
 - [Creating a Source Control Plug-in](../extensibility/internals/creating-a-source-control-plug-in.md)

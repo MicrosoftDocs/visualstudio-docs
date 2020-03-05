@@ -1,17 +1,17 @@
 ---
-title: Visual C++ Enumerations in Class Designer
+title: C++ Enumerations in Class Designer
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "Class Designer [Visual Studio], enumerations"
+- Class Designer [Visual Studio], enumerations
 ms.assetid: 11e90ba1-18cd-44f8-9e26-e3746a7a19d1
-author: gewarren
-ms.author: gewarren
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "cplusplus"
+- cplusplus
 ---
-# Visual C++ enumerations in Class Designer
+# C++ enumerations in Class Designer
 
 **Class Designer** supports C++ `enum` and scoped `enum class` types. Following is an example:
 
@@ -38,5 +38,5 @@ For more information about using the `enum` type, see [Enumerations](/cpp/cpp/en
 
 ## See also
 
-- [Working with Visual C++ Code](working-with-visual-cpp-code.md)
+- [Working with C++ Code](working-with-visual-cpp-code.md)
 - [Enumerations](/cpp/cpp/enumerations-cpp)

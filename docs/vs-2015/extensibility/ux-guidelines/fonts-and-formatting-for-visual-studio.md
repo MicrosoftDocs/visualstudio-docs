@@ -411,11 +411,11 @@ protected static void SetFontStyles(Control topControl, Control parent, Font ref
 
 - Larger headings (environment font x 155% or greater) can be colored for these purposes:
 
-    - To provide visual appeal to signature Visual Studio UI
+  - To provide visual appeal to signature Visual Studio UI
 
-    - To call attention to a specific area
+  - To call attention to a specific area
 
-    - To offer relief from the standard dark gray/black environment text color
+  - To offer relief from the standard dark gray/black environment text color
 
 - Color in headings should leverage existing Visual Studio brand colors, primarily the main purple, #FF68217A.
 

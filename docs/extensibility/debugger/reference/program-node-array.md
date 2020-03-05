@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "PROGRAM_NODE_ARRAY structure"
 ms.assetid: 8eeea600-eda5-4b7c-868a-0b86d177b0a5
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"

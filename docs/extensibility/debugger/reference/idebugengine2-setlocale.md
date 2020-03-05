@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugEngine2::SetLocale"
 ms.assetid: cd0d2cf1-2aac-43da-a830-4bb3d696c219
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -34,9 +34,8 @@ int SetLocale( 
 ```
 
 ## Parameters
- `wLangID`\
-
- [in] Specifies the language locale. For example, 1033 for English.
+`wLangID`\
+[in] Specifies the language locale. For example, 1033 for English.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

@@ -35,4 +35,4 @@ When you debug a managed application, [!INCLUDE[vsprvs](../includes/vsprvs-md.md
  [Debugging Managed Code](../debugger/debugging-managed-code.md)   
  [Navigating through Code with the Debugger](../debugger/navigating-through-code-with-the-debugger.md)   
  [Attach to Running Processes](../debugger/attach-to-running-processes-with-the-visual-studio-debugger.md)   
- [Managed Execution Process](http://msdn.microsoft.com/library/476b03dc-2b12-49a7-b067-41caeaa2f533)
+ [Managed Execution Process](https://msdn.microsoft.com/library/476b03dc-2b12-49a7-b067-41caeaa2f533)

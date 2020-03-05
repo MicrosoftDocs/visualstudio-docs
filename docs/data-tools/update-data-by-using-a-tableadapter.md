@@ -3,21 +3,21 @@ title: Update data by using a TableAdapter
 ms.date: 11/04/2016
 ms.topic: conceptual
 dev_langs:
-  - "VB"
-  - "CSharp"
+- VB
+- CSharp
 helpviewer_keywords:
-  - "data [Visual Studio], saving"
-  - "data [Visual Studio], TableAdapters"
-  - "updating data, TableAdapters"
-  - "TableAdapters, updating data"
-  - "data [Visual Studio], updating"
-  - "saving data"
+- data [Visual Studio], saving
+- data [Visual Studio], TableAdapters
+- updating data, TableAdapters
+- TableAdapters, updating data
+- data [Visual Studio], updating
+- saving data
 ms.assetid: 5e32e10e-9bac-4969-9bdd-b8f6919d3516
-author: gewarren
-ms.author: gewarren
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "data-storage"
+- data-storage
 ---
 # Update data by using a TableAdapter
 
@@ -26,7 +26,7 @@ After the data in your dataset has been modified and validated, you can send the
 > [!NOTE]
 > When you try to update a data source with the contents of a dataset, you can get errors. To avoid errors, we recommend that you put the code that calls the adapter's `Update` method inside a `try`/`catch` block.
 
- The exact procedure for updating a data source can vary depending on business needs, but  includes the following steps:
+The exact procedure for updating a data source can vary depending on business needs, but  includes the following steps:
 
 1. Call the adapter's `Update` method in a `try`/`catch` block.
 

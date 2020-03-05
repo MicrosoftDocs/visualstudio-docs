@@ -4,11 +4,11 @@ description: This article describes some basic ways Visual Studio can help you f
 ms.date: 05/02/2018
 ms.topic: conceptual
 ms.assetid: c3a14d28-d811-4ff3-bd09-21dce14025ca
-author: gewarren
-ms.author: gewarren
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Make code work in Visual Studio
 
@@ -68,11 +68,11 @@ Code analyzers look for common code problems that can lead to run-time errors or
 
 ### C# and Visual Basic code analysis
 
-Visual Studio includes a built-in set of [.NET Compiler Platform analyzers](../code-quality/roslyn-analyzers-overview.md) that examine C# and Visual Basic code as you type. You can install additional analyzers as a Visual Studio extension, or as a NuGet package. If rule violations are found, they are reported both in the code editor as a squiggly under the offending code, and in the **Error List**.
+Visual Studio includes a built-in set of [.NET Compiler Platform analyzers](../code-quality/roslyn-analyzers-overview.md) that examine C# and Visual Basic code as you type. You can install additional analyzers as a Visual Studio extension, or as a NuGet package. If rule violations are found, they are reported both in the Error List and in the code editor as a squiggle under the offending code.
 
 ### C++ code analysis
 
-To analyze C++ code, run [static code analysis](../code-quality/quick-start-code-analysis-for-c-cpp.md). Get in the habit of running it once you've cleaned up the obvious errors that prevent a successful build, and take some time to address the warnings it may produce. You'll save yourself some headaches down the road, and you may learn a few code style techniques.
+To analyze C++ code, run [static code analysis](/cpp/code-quality/quick-start-code-analysis-for-c-cpp). Get in the habit of running it once you've cleaned up the obvious errors that prevent a successful build, and take some time to address the warnings it may produce. You'll save yourself some headaches down the road, and you may learn a few code style techniques.
 
 Press **Alt**+**F11** (or select **Analyze** > **Run Code Analysis on Solution** from the top menu) to start static code analysis.
 
@@ -163,5 +163,5 @@ To learn more about unit tests in Visual Studio and how they can help you create
 ## See also
 
 - [First look at the debugger](../debugger/debugger-feature-tour.md)
-- [Learn more about using the debugger](../debugger/index.md)
+- [Learn more about using the debugger](../debugger/index.yml)
 - [Generate and fix code](../ide/code-generation-in-visual-studio.md)

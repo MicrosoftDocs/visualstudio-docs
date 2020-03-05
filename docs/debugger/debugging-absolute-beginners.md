@@ -1,12 +1,12 @@
 ---
 title: "Debugging code for absolute beginners"
 description: "If you are debugging for the first time, learn a few principles to help you run your app in debugging mode with Visual Studio"
-ms.date: "07/06/2018"
-ms.topic: "tutorial"
+ms.date: 02/14/2020
+ms.topic: tutorial
 helpviewer_keywords:
   - "debugger"
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ms.workload:
   - "multiple"
@@ -79,13 +79,13 @@ Next, we will create an application that has a few bugs.
 1. Open Visual Studio.
 
     ::: moniker range=">=vs-2019"
-    On the start window, choose **Create a new project**. Type **console** in the search box and then choose **Console App (.NET Framework)** or **Console App (.NET Core)**. Choose **Next**. Type a project name like **ConsoleApp-FirstApp** and click **Create**.
+    On the start window, choose **Create a new project**. Type **console** in the search box and then choose either **Console App (.NET Core)** or **Console App (.NET Framework)**. Choose **Next**. Type a project name like **ConsoleApp-FirstApp** and click **Create**.
     ::: moniker-end
     ::: moniker range="vs-2017"
     From the top menu bar, choose **File** > **New** > **Project**. In the left pane of the **New project** dialog box, under **Visual C#**, choose **Console App**, and then in the middle pane choose either **Console App (.NET Framework)** or **Console App (.NET Core)**. Type a name like **ConsoleApp-FirstApp** and click **OK**.
     ::: moniker-end
 
-    If you don't see the **Console App (.NET Framework)** or **Console App (.NET Core)** project template, go to **Tools** > **Get Tools and Features**, which opens the Visual Studio Installer. Choose the **.NET desktop development** workload or the **.NET Core cross platform development** workload, then choose **Modify**.
+    If you don't see the **Console App (.NET Framework)** or **Console App (.NET Core)** project template, go to **Tools** > **Get Tools and Features**, which opens the Visual Studio Installer. Choose either the **.NET Core cross platform development** or the **.NET desktop development** workload, then choose **Modify**.
 
     Visual Studio creates the console project, which appears in Solution Explorer in the right pane.
 

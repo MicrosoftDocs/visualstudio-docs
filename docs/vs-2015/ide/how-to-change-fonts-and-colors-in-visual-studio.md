@@ -9,8 +9,8 @@ helpviewer_keywords:
   - "color themes, Visual Studio"
 ms.assetid: 60d91ba1-244b-4c43-847f-60b744f1352a
 caps.latest.revision: 16
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # How to: Change Fonts and Colors in Visual Studio
@@ -32,7 +32,7 @@ You can customize the color of the IDE frame and tool windows in Visual Studio i
     > [!IMPORTANT]
     > When you change a color theme, text in the IDE reverts to the default or previously customized fonts and sizes.
     >
-    >  If you have Visual Studio Professional, Visual Studio Premium, or Visual Studio Ultimate, you can install additional predefined color themes and create your own by downloading and installing the [Visual Studio 2013 Color Theme Editor](http://visualstudiogallery.msdn.microsoft.com/9e08e5d3-6eb4-4e73-a045-6ea2a5cbdabe).
+    >  If you have Visual Studio Professional, Visual Studio Premium, or Visual Studio Ultimate, you can install additional predefined color themes and create your own by downloading and installing the [Visual Studio 2013 Color Theme Editor](https://marketplace.visualstudio.com/items?itemName=MatthewJohnsonMSFT.VisualStudio2013ColorThemeEditor).
 
 ### Use Windows High Contrast Colors
 

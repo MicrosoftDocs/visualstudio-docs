@@ -4,8 +4,8 @@ ms.date: 10/31/2018
 ms.topic: conceptual
 helpviewer_keywords:
   - "Domain-Specific Language, namespace"
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ms.workload:
   - "multiple"

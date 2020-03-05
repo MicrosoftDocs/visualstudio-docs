@@ -40,5 +40,5 @@ DWORD linenum;
 pLine->get_lineNumber( &linenum );
 ```
 
-## See Also
+## See also
 - [IDiaLineNumber](../../debugger/debug-interface-access/idialinenumber.md)

@@ -1,5 +1,5 @@
 ---
-title: "Server and Client Configuration Issues in ClickOnce Deployments | Microsoft Docs"
+title: "Server/client configuration issues in ClickOnce deployments"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs:
@@ -35,7 +35,7 @@ If you use Internet Information Services (IIS) on Windows Server, and your deplo
 
   However, you can disable this option by clearing the **Use ".deploy" file extension** option on the [Publish Options Dialog Box](/previous-versions/visualstudio/visual-studio-2010/7z83t16a(v=vs.100)), in which case you must configure the Web server to unblock all file extensions used in the application.
 
-  You will have to configure *.manifest*, *.application*, and *.deploy*, for example, if you are using IIS where you have not installed the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)], or if you are using another Web server (for example, Apache).
+  You will have to configure *.manifest*, *.application*, and *.deploy*, for example, if you are using IIS where you have not installed the .NET Framework, or if you are using another Web server (for example, Apache).
 
 ## ClickOnce and Secure Sockets Layer (SSL)
  A [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application will work fine over SSL, except when Internet Explorer raises a prompt about the SSL certificate. The prompt can be raised when there is something wrong with the certificate, such as when the site names do not match or the certificate has expired. To make [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] work over an SSL connection, make sure that the certificate is up-to-date, and that the certificate data matches the site data.
@@ -43,7 +43,7 @@ If you use Internet Information Services (IIS) on Windows Server, and your deplo
 ## ClickOnce and proxy authentication
  [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] provides support for Windows Integrated proxy authentication starting in .NET Framework 3.5. No specific machine.config directives are required. [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] does not provide support for other authentication protocols such as Basic or Digest.
 
- You can also apply a hotfix to .NET Framework 2.0 to enable this feature. For more information, see http://go.microsoft.com/fwlink/?LinkId=158730.
+ You can also apply a hotfix to .NET Framework 2.0 to enable this feature. For more information, see [FIX: Error message when you try to install a ClickOnce application that you created in the .NET Framework 2.0 onto a client computer that is configured to use a proxy server: "Proxy authentication required"](https://support.microsoft.com/help/917952/fix-error-message-when-you-try-to-install-a-clickonce-application-that).
 
  For more information, see [\<defaultProxy> element (network settings)](/dotnet/framework/configure-apps/file-schema/network/defaultproxy-element-network-settings).
 
@@ -112,10 +112,10 @@ If you use Internet Information Services (IIS) on Windows Server, and your deplo
 
 - If you create a MIME type with extension "<em>" and the MIME type "application/octet-stream," it will allow files of unblocked file type to be downloaded. (However, blocked file types such as *.aspx</em> and *.asmx* cannot be downloaded.)
 
-  For specific instructions on configuring MIME types on Windows Server, refer to Microsoft Knowledge Base article KB326965, "IIS 6.0 does not serve unknown MIME types" at [http://support.microsoft.com/default.aspx?scid=kb;en-us;326965](http://support.microsoft.com/default.aspx?scid=kb;en-us;326965).
+  For specific instructions on configuring MIME types on Windows Server, see [How to add a MIME type to a Web site or application](/iis/configuration/system.webserver/staticcontent/mimemap#how-to-add-a-mime-type-to-a-web-site-or-application).
 
 ## Content type mappings
- When publishing over HTTP, the content type (also known as MIME type) for the *.application* file should be "application/x-ms-application." If you have [!INCLUDE[dnprdnlong](../code-quality/includes/dnprdnlong_md.md)] installed on the server, this will be set for you automatically. If this is not installed, then you need to create a MIME type association for the [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application vroot (or entire server).
+ When publishing over HTTP, the content type (also known as MIME type) for the *.application* file should be "application/x-ms-application." If you have .NET Framework 2.0 installed on the server, this will be set for you automatically. If this is not installed, then you need to create a MIME type association for the [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application vroot (or entire server).
 
  If you deploy using an IIS server, run <em>inetmgr.</em>exe and add a new content type of "application/x-ms-application" for the *.application* extension.
 
@@ -124,7 +124,7 @@ If you use Internet Information Services (IIS) on Windows Server, and your deplo
 
  If you are using IIS, you can easily enable HTTP compression. However, when you enable HTTP compression, it is only enabled for certain file types—namely, HTML and text files. To enable compression for assemblies (*.dll*), XML (*.xml*), deployment manifests (*.application*), and application manifests (*.manifest*), you must add these file types to the list of types for IIS to compress. Until you add the file types to your deployment, only text and HTML files will be compressed.
 
- For detailed instructions for IIS, see [How to specify additional document types for HTTP compression](http://go.microsoft.com/fwlink/?LinkId=178459).
+ For detailed instructions for IIS, see [How to specify additional document types for HTTP compression](https://support.microsoft.com/help/234497).
 
 ## See also
 - [Troubleshoot ClickOnce deployments](../deployment/troubleshooting-clickonce-deployments.md)

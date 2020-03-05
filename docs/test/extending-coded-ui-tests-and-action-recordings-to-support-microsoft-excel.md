@@ -1,12 +1,12 @@
 ---
-title: "Extend Coded UI Tests and Action Recordings"
+title: Extend Coded UI Tests and Action Recordings
 ms.date: 11/04/2016
 ms.topic: conceptual
-ms.author: gewarren
+ms.author: mikejo
 manager: jillfra
 ms.workload:
-  - "multiple"
-author: gewarren
+- multiple
+author: mikejo5000
 ---
 # Extend coded UI tests and action recordings
 
@@ -27,7 +27,7 @@ This [blog post](https://blogs.msdn.microsoft.com/gautamg/2010/01/05/3-introduci
 
 - <xref:Microsoft.VisualStudio.TestTools.UITesting.UITestPropertyProvider>
 - <xref:Microsoft.VisualStudio.TestTools.UITest.Extension.UITechnologyElement>
-- <xref:Microsoft.VisualStudio.TestTools.UITest.Common.UITestActionFilter>
+- [UITestActionFilter](/previous-versions/visualstudio/visual-studio-2012/dd985757(v=vs.110))
 - <xref:Microsoft.VisualStudio.TestTools.UITest.Extension.UITestExtensionPackage>
 - [Use UI automation to test your code](../test/use-ui-automation-to-test-your-code.md)
 - [Best practices for coded UI tests](../test/best-practices-for-coded-ui-tests.md)

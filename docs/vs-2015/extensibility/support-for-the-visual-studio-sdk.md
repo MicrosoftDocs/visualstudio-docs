@@ -23,24 +23,24 @@ Several support options are available for customers who have questions about how
 ## Free Support  
   
 ### MSDN Development Center  
- The [Visual Studio Extensibility Developer Center](http://go.microsoft.com/fwlink/?LinkID=84381) on MSDN contains resources that help answer questions about how to extend Visual Studio. For example, there are several links to VSIP developer blogs.  
+ The [Visual Studio Extensibility Developer Center](https://msdn.microsoft.com/vstudio/default.aspx) on MSDN contains resources that help answer questions about how to extend Visual Studio. For example, there are several links to VSIP developer blogs.  
   
 ### Microsoft Newsgroups  
  Members of the Visual Studio development team and other developers who extend Visual Studio often participate in the microsoft.public.vstudio.extensibility newsgroup. This newsgroup is a managed newsgroup. If you are an MSDN Universal Subscriber, make sure that you register a no-spam alias to make it possible for Microsoft to respond.  
   
 ### MSDN Forums  
- The [MSDN Forums](http://go.microsoft.com/fwlink/?LinkID=76632) provide another way to chat with peers and experts. The graphical user interface (UI) of the forums is designed to make them easier to use than newsgroups. The [Visual Studio Extensibility Forum](http://go.microsoft.com/fwlink/?LinkID=121964) is a good place to start to search for answers to extensibility questions. Always search before you ask a question because someone else may already have asked the same question.  
+ The [MSDN Forums](https://social.msdn.microsoft.com/forums/categories/) provide another way to chat with peers and experts. The graphical user interface (UI) of the forums is designed to make them easier to use than newsgroups. The [Visual Studio Extensibility Forum](https://msdn.microsoft.com/vsx/default.aspx) is a good place to start to search for answers to extensibility questions. Always search before you ask a question because someone else may already have asked the same question.  
   
 ### Visual Studio Marketplace  
  The [Visual Studio Marketplace](https://marketplace.visualstudio.com/) is the place for extensions and sample code. You can find tools that improve your productivity and user experience with Visual Studio, sample applications that show how to use VSPackages and the Managed Extensibility Framework (MEF), and other kinds of samples.  
   
 ### Codeplex  
- [CodePlex](http://go.microsoft.com/fwlink/?LinkId=76627) is the Microsoft open source project-hosting Web site. You can use CodePlex to create and share new projects, contribute to existing projects, or use the applications on the site and provide feedback. All PowerToys (and their documentation) that were included with earlier versions of the [!INCLUDE[vsipsdk](../includes/vsipsdk-md.md)] are now available on CodePlex.  
+ [CodePlex](https://www.codeplex.com/) is the Microsoft open source project-hosting Web site. You can use CodePlex to create and share new projects, contribute to existing projects, or use the applications on the site and provide feedback. All PowerToys (and their documentation) that were included with earlier versions of the [!INCLUDE[vsipsdk](../includes/vsipsdk-md.md)] are now available on CodePlex.  
   
 ## Included Support  
   
 ### Visual Studio Product Support  
- Some support is included with the purchase of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] products. For more information, see [Visual Studio Support](http://msdn.microsoft.com/vstudio/cc136615.aspx). Microsoft maintains a dedicated support team to answer questions about [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] extensibility.  
+ Some support is included with the purchase of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] products. For more information, see [Visual Studio Support](https://msdn.microsoft.com/vstudio/cc136615.aspx). Microsoft maintains a dedicated support team to answer questions about [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] extensibility.  
   
 ### MSDN Subscription Support  
  MSDN subscription packages may also include some support. For more information, see [MSDN Subscriber Support](https://msdn.microsoft.com/subscriptions/aa718661.aspx).  
@@ -57,7 +57,7 @@ Several support options are available for customers who have questions about how
   
  Questions about Premier Support offerings in conjunction with the VSIP program can be sent to [vsipsvs@microsoft.com](mailto:vsipsvs@microsoft.com). Questions about the new Partner Advantage program can be sent to [advantg@microsoft.com](mailto:advantg@microsoft.com).  
   
- Information about individual support requests can be found at [Individual Support Requests](http://go.microsoft.com/fwlink/?LinkID=82385).  
+ Information about individual support requests can be found at [Individual Support Requests](https://support.microsoft.com/oas/default.aspx?gprid=3040).  
   
 ## See Also  
  [Talk to Us](../ide/talk-to-us.md)

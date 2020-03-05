@@ -15,13 +15,13 @@ manager: jillfra
 # Visual Studio Debugger Extensibility
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
-Visual Studio includes a fully interactive source code debugger, providing a powerful and easy-to-use tool for tracking down bugs in your program. The debugger has complete support Visual Basic, C#, C/C++, and JavaScript. However, with the [!INCLUDE[vsipsdk](../../includes/vsipsdk-md.md)], that is available from the [Microsoft Download Center](http://go.microsoft.com/fwlink/?LinkId=214453),, other programming languages can be supported in the debugger with the same rich features.  
+Visual Studio includes a fully interactive source code debugger, providing a powerful and easy-to-use tool for tracking down bugs in your program. The debugger has complete support Visual Basic, C#, C/C++, and JavaScript. However, with the [!INCLUDE[vsipsdk](../../includes/vsipsdk-md.md)], that is available from the [Microsoft Download Center](https://www.microsoft.com/download/details.aspx?id=21835), other programming languages can be supported in the debugger with the same rich features.  
   
  The [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] debugger is the common front end (that is, the user interface) to the debugging components that are, in turn, specific to the language being debugged. For new languages, all that is necessary for support by the [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] debugger is to create the necessary back-end components, such as a debug engine (DE). That is where the [!INCLUDE[vsipsdk](../../includes/vsipsdk-md.md)] comes in.  
   
  The [!INCLUDE[vsipsdk](../../includes/vsipsdk-md.md)] includes a complete reference to all [!INCLUDE[vsprvs](../../includes/vsprvs-md.md)] elements required to create a new DE. In addition, there are samples and tutorials that will help get you started.  
   
- For an end-to-end sample of a language project system with debugging support, see the [IronPython sample](http://msdn.microsoft.com/4c41695c-12c1-4670-b43b-d8d84c9e4089).  
+ For an end-to-end sample of a language project system with debugging support, see the [IronPython sample](https://msdn.microsoft.com/4c41695c-12c1-4670-b43b-d8d84c9e4089).  
   
  The following sections describe how to extend the debugger by using the [!INCLUDE[vsipsdk](../../includes/vsipsdk-md.md)].  
   

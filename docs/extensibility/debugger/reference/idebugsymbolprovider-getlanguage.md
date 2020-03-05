@@ -7,8 +7,8 @@ f1_keywords:
 helpviewer_keywords:
   - "IDebugSymbolProvider::GetLanguage method"
 ms.assetid: e4142183-3d8b-418f-907f-4ee4c753d8ce
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -38,17 +38,14 @@ int GetLanguage(
 ```
 
 ## Parameters
- `pAddress`\
+`pAddress`\
+[in] An address object represented by an [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md) interface.
 
- [in] An address object represented by an [IDebugAddress](../../../extensibility/debugger/reference/idebugaddress.md) interface.
+`pguidLanguage`\
+[out] Returns a `GUID` that specifies the language.
 
- `pguidLanguage`\
-
- [out] Returns a `GUID` that specifies the language.
-
- `pguidLanguageVendor`\
-
- [out] Returns a `GUID` that specifies the language vendor.
+`pguidLanguageVendor`\
+[out] Returns a `GUID` that specifies the language vendor.
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

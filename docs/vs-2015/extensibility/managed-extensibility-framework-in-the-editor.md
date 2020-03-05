@@ -21,7 +21,7 @@ The editor is built by using Managed Extensibility Framework (MEF) components. Y
   
  The MEF is contained in the .NET Framework version 4 System.ComponentModel.Composition.dll assembly.  
   
- For more information about MEF, see [Managed Extensibility Framework (MEF)](http://msdn.microsoft.com/library/6c61b4ec-c6df-4651-80f1-4854f8b14dde).  
+ For more information about MEF, see [Managed Extensibility Framework (MEF)](https://msdn.microsoft.com/library/6c61b4ec-c6df-4651-80f1-4854f8b14dde).  
   
 ### Component Parts and Composition Containers  
  A component part is a class or a member of a class that can do one (or both) of the following:  

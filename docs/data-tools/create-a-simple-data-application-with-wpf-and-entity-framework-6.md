@@ -1,14 +1,14 @@
 ---
-title: Create a simple data application with WPF and Entity Framework 6
+title: Simple data application with WPF and Entity Framework 6
 ms.date: 08/22/2017
 ms.topic: conceptual
 dev_langs:
-  - "CSharp"
-author: gewarren
-ms.author: gewarren
+- CSharp
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "data-storage"
+- data-storage
 ---
 # Create a simple data application with WPF and Entity Framework 6
 

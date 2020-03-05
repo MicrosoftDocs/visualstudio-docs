@@ -8,14 +8,14 @@ f1_keywords:
   - "Blend.Start.Dev12"
 ms.assetid: efd12263-cc2d-4081-a2bb-9a2cc17c442c
 caps.latest.revision: 33
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # Creating a UI by using Blend for Visual Studio
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-Blend for Visual Studio helps you design XAML-based Windows desktop, web, [Windows Phone](http://msdn.microsoft.com/library/windowsphone/develop/jj683071.aspx), and [Windows Store](http://msdn.microsoft.com/library/windows/apps/jj129478.aspx) apps. It provides the same basic XAML design experience as Visual Studio and adds visual designers for advanced tasks such as animations and behaviors.
+Blend for Visual Studio helps you design XAML-based Windows desktop, web, [Windows Phone](https://msdn.microsoft.com/library/windowsphone/develop/jj683071.aspx), and [Windows Store](https://msdn.microsoft.com/library/windows/apps/jj129478.aspx) apps. It provides the same basic XAML design experience as Visual Studio and adds visual designers for advanced tasks such as animations and behaviors.
 
  Since Blend for Visual Studio is included as a part of Visual Studio, you don't need to download it. However, you need to select it in the Visual Studio installer for it to install on your system.
 

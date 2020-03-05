@@ -5,8 +5,8 @@ ms.topic: "conceptual"
 helpviewer_keywords:
   - "language services, migrating"
 ms.assetid: e0f666a0-92a7-4f9c-ba79-d05b13fb7f11
-author: "gregvanl"
-ms.author: "gregvanl"
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "vssdk"
@@ -101,5 +101,5 @@ You can migrate a legacy language service to a later version of Visual Studio by
 
 12. Start debugging. A second instance of Visual Studio opened.
 
-## See Also
+## See also
 - [Legacy Language Service Extensibility](../../extensibility/internals/legacy-language-service-extensibility.md)
