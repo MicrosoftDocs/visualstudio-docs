@@ -115,7 +115,7 @@ By default, the Visual Studio installation enables custom type inclusion in Bing
 
 **“PutCustomTypeInBingSearch” DWORD 0**
 
-The registry is located in the *Software\Microsoft\VisualStudio\16.0_{InstanceId}\Roslyn\Internal* directory of your private registry hive. For instructions on how to open the registry hive, see [editing the registry for a Visual Studio instance](tools-for-managing-visual-studio-instances.md?view=vs-2019#editing-the-registry-for-a-visual-studio-instance).
+The registry is located in the *Software\Microsoft\VisualStudio\16.0_{InstanceId}\Roslyn\Internal\Diagnostics\* directory of your private registry hive. For instructions on how to open the registry hive, see [editing the registry for a Visual Studio instance](tools-for-managing-visual-studio-instances.md?view=vs-2019#editing-the-registry-for-a-visual-studio-instance).
 
 
 ::: moniker-end
@@ -163,7 +163,7 @@ By default, the Visual Studio installation enables custom type inclusion in Bing
 
 **“PutCustomTypeInBingSearch” DWORD 0**
 
-The registry is located in the *Software\Microsoft\VisualStudio\15.0_{InstanceId}\Roslyn\Internal* directory of your private registry hive. For instructions on how to open the registry hive, see [editing the registry for a Visual Studio instance](tools-for-managing-visual-studio-instances.md?view=vs-2017#editing-the-registry-for-a-visual-studio-instance).
+The registry is located in the *Software\Microsoft\VisualStudio\15.0_{InstanceId}\Roslyn\Internal\Diagnostics\* directory of your private registry hive. For instructions on how to open the registry hive, see [editing the registry for a Visual Studio instance](tools-for-managing-visual-studio-instances.md?view=vs-2017#editing-the-registry-for-a-visual-studio-instance).
 
 ::: moniker-end
 
