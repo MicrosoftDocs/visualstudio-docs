@@ -113,9 +113,7 @@ We have several tools available to help you [detect and manage installed Visual 
 
 By default, the Visual Studio installation enables custom type inclusion in Bing searches from error list F1 and code links. You can configure Visual Studio to disable the search mechanism from including any custom user types by changing the value of the following registry key by policy:
 
-**[HKEY_LOCAL_MACHINE\Software\Microsoft\VisualStudio\14.0\Roslyn\Internal\Diagnostics\]**
-
-**“PutCustomTypeInBingSearch” DWORD0**
+**“PutCustomTypeInBingSearch” DWORD 0**
 
 The registry is located in the *Software\Microsoft\VisualStudio\16.0_{InstanceId}\Roslyn\Internal* directory of your private registry hive. For instructions on how to open the registry hive, see [editing the registry for a Visual Studio instance](tools-for-managing-visual-studio-instances.md?view=vs-2019#editing-the-registry-for-a-visual-studio-instance).
 
@@ -163,9 +161,7 @@ Advanced configuration
 
 By default, the Visual Studio installation enables custom type inclusion in Bing searches from error list F1 and code links. You can configure Visual Studio to disable the search mechanism from including any custom user types by changing the value of the following registry key by policy:
 
-**[HKEY_LOCAL_MACHINE\Software\Microsoft\VisualStudio\14.0\Roslyn\Internal\Diagnostics\]**
-
-**“PutCustomTypeInBingSearch” DWORD0**
+**“PutCustomTypeInBingSearch” DWORD 0**
 
 The registry is located in the *Software\Microsoft\VisualStudio\15.0_{InstanceId}\Roslyn\Internal* directory of your private registry hive. For instructions on how to open the registry hive, see [editing the registry for a Visual Studio instance](tools-for-managing-visual-studio-instances.md?view=vs-2017#editing-the-registry-for-a-visual-studio-instance).
 
