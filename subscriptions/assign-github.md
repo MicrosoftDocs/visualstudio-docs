@@ -3,7 +3,7 @@ title: Visual Studio + GitHub Enterprise offer | Microsoft Docs
 author: evanwindom
 ms.author: lank
 manager: lank
-ms.date: 07/28/2019
+ms.date: 03/03/2020
 ms.topic: conceptual
 description: Managing subscriptions in the Visual Studio + GitHub Enterprise offer
 ---
@@ -14,7 +14,7 @@ Customers who have Enterprise Agreements (EA) with Microsoft are eligible to pur
 When your organization purchases Visual Studio Subscriptions with GitHub Enterprise, they are provisioned and managed in two parts.
 
 ## Manage Visual Studio subscriptions
-When your organization purchases Visual Studio Subscriptions with GitHub Enterprise, the Visual Studio portion of the subscriptions is provisioned immediately and the subscriptions are available for assignment and management in the Visual Studio [Subscriptions Administration](https://manage.visualstudio.com) portal. 
+When your organization purchases Visual Studio Subscriptions with GitHub Enterprise, the Visual Studio portion of the subscriptions is provisioned immediately, and the subscriptions are available for assignment and management in the Visual Studio [Subscriptions Administration](https://manage.visualstudio.com) portal. 
 
 For more information about managing subscriptions, check out these topics:
 - [Using the Admin Portal](using-admin-portal.md)
@@ -26,7 +26,7 @@ For more information about managing subscriptions, check out these topics:
 > [!Important]
 > If Visual Studio Subscriptions with GitHub Enterprise are assigned by Visual Studio subscription admins and there has never been a purchase of those subscriptions, they will not be visible to GitHub Enterprise admins within the organization. To ensure GitHub Enterprise subscriptions are visible, a purchase including **at least one** Visual Studio Professional with GitHub Enterprise or Visual Studio Enterprise with GitHub Enterprise subscription should be made the first time the subscriptions are assigned.  
 >
-> It is the customer’s responsibility to ensure that for each GitHub subscription that is assigned there is a corresponding Visual Studio with GitHub subscription assigned in the Manage portal to remain in compliance with the licensing requirements for this subscription.
+> It is the customer’s responsibility to ensure that for each GitHub subscription that is assigned there is a corresponding Visual Studio with GitHub subscription assigned in the Visual Studio Subscriptions Administration portal to remain in compliance with the licensing requirements for this subscription.
 
 ## Manage GitHub Enterprise subscriptions
 When GitHub Enterprise subscriptions are purchased, GitHub partners with customers to help create and configure the organizations that will access GitHub and identify administrators.  Those administrators then receive a notification that they've been set up as admins.  
@@ -66,5 +66,20 @@ GitHub Help provides a variety of administrator guides to answer questions and g
 - Have a question about Visual Studio IDE, Azure DevOps Services or other Visual Studio products or services?  Visit [Visual Studio Support](https://visualstudio.microsoft.com/support/).
 - Get [technical support](https://support.microsoft.com/en-us/supportforbusiness/productselection?sapId=b77fe80f-5417-80bd-4b2a-275cf0018c24) for GitHub Enterprise.   
 
+## See also
+- [Visual Studio documentation](https://docs.microsoft.com/visualstudio/)
+- [Azure DevOps documentation](https://docs.microsoft.com/azure/devops/)
+- [Azure documentation](https://docs.microsoft.com/azure/)
+- [Microsoft 365 documentation](https://docs.microsoft.com/microsoft-365/)
+
 ## Next steps
+Learn more about managing Visual Studio subscriptions.
+- [Assign individual subscriptions](assign-license.md)
+- [Assign multiple subscriptions](assign-license-bulk.md)
+- [Edit subscriptions](edit-license.md)
+- [Delete subscriptions](delete-license.md)
+- [Determine maximum usage](maximum-usage.md)
+
 For more information about managing Visual Studio Subscriptions with GitHub Enterprise, check out the Visual Studio [subscriptions admin portal](https://visualstudio.microsoft.com/subscriptions-administration/).
+
+
