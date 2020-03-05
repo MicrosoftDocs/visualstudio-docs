@@ -3,19 +3,23 @@ title: Handle overallocated licenses | Microsoft Docs
 author: evanwindom
 ms.author: lank
 manager: lank
-ms.date: 07/24/2019
+ms.date: 03/03/2020
 ms.topic: conceptual
 description:  Learn how administrators can resolve overallocated subscriptions
 ---
 
 # Overallocated subscriptions
-Sometimes orders are changed after subscribers have been added, which can result in having more assigned subscriptions than licenses owned by your company. This is called "overallocation".  When this happens, the Subscribers tab shows an alert and provides you with further information about how many subscriptions have been overallocated.
+Sometimes orders are changed after subscribers have been added, which can result in having more assigned subscriptions than licenses owned by your company. This is called "overallocation".  
+
+To see your subscripton allocations, click on the top icon at the left to open the allocations pane.  
 
 > [!NOTE]
 > Overallocations are not allowed in Open License programs.  Also, other programs may display this information in the portal differently.
 >
 > [!div class="mx-imgBorder"]
 > ![Notice of Over-claimed Subscriptions](_img/over-claimed/over-claimed-alert.png)
+
+Notice that the display uses a hashed bar to indicate overallocated subscriptions.  The number of overallocations across all subscription types is included in the Overview section at the top, and each subscription level also displays its own allocation status.  
 
 ## Resolve overallocated subscriptions
 There are several ways to resolve overallocations:
@@ -30,6 +34,12 @@ If your organization has an Enterprise Agreement (EA), admins are able to assign
 > If Visual Studio Subscriptions with GitHub Enterprise are assigned by Visual Studio subscription admins and there has never been a purchase of those subscriptions, they will not be visible to GitHub Enterprise admins within the organization. To ensure GitHub Enterprise subscriptions are visible, a purchase including **at least one** Visual Studio Professional with GitHub Enterprise or Visual Studio Enterprise with GitHub Enterprise subscription should be made the first time the subscriptions are assigned.
 >
 > It is the customer’s responsibility to ensure that for each GitHub subscription that is assigned there is a corresponding Visual Studio with GitHub subscription assigned in the Manage portal to remain in compliance with the licensing requirements for this subscription.
+
+## See also
+- [Visual Studio documentation](https://docs.microsoft.com/visualstudio/)
+- [Azure DevOps documentation](https://docs.microsoft.com/azure/devops/)
+- [Azure documentation](https://docs.microsoft.com/azure/)
+- [Microsoft 365 documentation](https://docs.microsoft.com/microsoft-365/)
 
 ## Next steps
 - Learn more about managing [Visual Studio Subscriptions with GitHub Enterprise](assign-github.md).
