@@ -109,6 +109,14 @@ Before you deploy Visual Studio across your organization, there are a few decisi
 
 We have several tools available to help you [detect and manage installed Visual Studio instances](tools-for-managing-visual-studio-instances.md?view=vs-2019) on client machines.
 
+## Step 6 - (Optional) Advanced configuration
+
+By default, the Visual Studio installation enables custom type inclusion in Bing searches from error list F1 and code links. You can configure Visual Studio to disable the search mechanism from including any custom user types by changing the value of the following registry key by policy:
+
+**[HKEY_LOCAL_MACHINE\Software\Microsoft\VisualStudio\14.0\Roslyn\Internal\Diagnostics\]**
+
+**“PutCustomTypeInBingSearch” DWORD0**
+
 ::: moniker-end
 
 ::: moniker range="vs-2017"
@@ -147,6 +155,14 @@ We have several tools available to help you [detect and manage installed Visual 
 ## Step 5 - (Optional) Use Visual Studio tools
 
 We have several tools available to help you [detect and manage installed Visual Studio instances](tools-for-managing-visual-studio-instances.md?view=vs-2017) on client machines.
+
+## Step 6 - (Optional) Advanced configuration
+
+By default, the Visual Studio installation enables custom type inclusion in Bing searches from error list F1 and code links. You can configure Visual Studio to disable the search mechanism from including any custom user types by changing the value of the following registry key by policy:
+
+**[HKEY_LOCAL_MACHINE\Software\Microsoft\VisualStudio\14.0\Roslyn\Internal\Diagnostics\]**
+
+**“PutCustomTypeInBingSearch” DWORD0**
 
 ::: moniker-end
 
