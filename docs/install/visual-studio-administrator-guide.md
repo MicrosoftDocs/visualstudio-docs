@@ -157,7 +157,7 @@ The registry is located in the *Software\Microsoft\VisualStudio\16.0_{InstanceId
 
 We have several tools available to help you [detect and manage installed Visual Studio instances](tools-for-managing-visual-studio-instances.md?view=vs-2017) on client machines.
 
-Advanced configuration
+## Advanced configuration
 
 By default, the Visual Studio installation enables custom type inclusion in Bing searches from error list F1 and code links. You can configure Visual Studio to disable the search mechanism from including any custom user types by changing the value of the following registry key by policy:
 
