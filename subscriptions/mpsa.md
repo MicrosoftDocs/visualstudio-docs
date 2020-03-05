@@ -51,7 +51,7 @@ Upon association, all users meeting the criteria will typically provision as Vis
 ## Tenant association (unmanaged)
 If you registered to the Business Center with an email that was not a work account (not registered in the Azure Active Directory “Azure AD”), as explained above, the tenant association will be slightly different. You will need to perform what’s called a "domain take-over". During this process you will make yourself the Global Admin which will change your tenant from unmanaged to managed.
 
-For a more detailed explanation for this process, you may use the [Quick Start guides](https://www.microsoft.com/en-us/Licensing/existing-customer/business-center-training-and-resources.aspx). Please download the guide named *"Setup and Use Your Online Services"* which will guide you through a domain take-over. Once this is completed your Purchasing Account will also be associated to your tenant.
+For a more detailed explanation for this process, you may use the [Quick Start guides](https://www.microsoft.com/Licensing/existing-customer/business-center-training-and-resources.aspx). Please download the guide named *"Setup and Use Your Online Services"* which will guide you through a domain take-over. Once this is completed your Purchasing Account will also be associated to your tenant.
 
 > [!NOTE]
 > Once you complete the domain take-over process, you must adhere to the criteria from the five steps in the section for Pre Tenant Association (Managed). Once the criteria are met, it will only be necessary to contact MPSA Support to provision additional Visual Studio subscriptions administrators.
