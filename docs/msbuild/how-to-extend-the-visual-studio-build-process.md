@@ -132,9 +132,7 @@ In this example, this is an SDK-style project. As mentioned in the note about SD
 
 ```xml
 <Project>
-
 <Import Project="Sdk.props" Sdk="Microsoft.NET.Sdk" />
-
 
 <PropertyGroup>
    <TargetFramework>netcoreapp3.1</TargetFramework>
