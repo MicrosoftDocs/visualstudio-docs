@@ -24,6 +24,14 @@
       items:
       - name: Install FxCop analyzers
         href: install-fxcop-analyzers.md
+      - name: Migrate to FxCop analyzers
+        items:
+        - name: Migrate from legacy analysis to FxCop analyzers
+          href: migrate-from-legacy-analysis-to-fxcop-analyzers.md
+        - name: FAQ
+          href: fxcop-analyzers-faq.md
+        - name: Ported rules
+          href: fxcop-rule-port-status.md
       - name: Configure FxCop analyzers
         items:
         - name: Configure rules and projects
@@ -32,12 +40,6 @@
           href: fxcop-analyzer-options.md
         - name: Enable a category of rules
           href: analyzer-rule-sets.md
-      - name: Migrate from legacy analysis to FxCop analyzers
-        href: migrate-from-legacy-analysis-to-fxcop-analyzers.md
-        - name: FAQ
-          href: fxcop-analyzers-faq.md
-        - name: Ported rules
-          href: fxcop-rule-port-status.md
   - name: Legacy analysis
     items:
     - name: Overview
