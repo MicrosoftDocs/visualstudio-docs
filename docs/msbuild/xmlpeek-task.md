@@ -45,23 +45,23 @@ Here is a sample XML file `settings.config` to read:
 
 ```xml
 <appSettings>
-  <add key="Folder" value="S1" />
+  <add key="ProjectFolder" value="S1" />
 </appSettings>
 ```
 
-In this example, if you want to read `value`, then use
+In this example, if you want to read `value`, then use code like the following:
 
 ```xml
 <Target Name="BeforeBuild">
-    <XmlPeek XmlInputPath="settings.config" Query="appSettings/add[@key='Folder']/@value">
+    <XmlPeek XmlInputPath="settings.config" Query="appSettings/add[@key='ProjectFolder']/@value">
         <Output TaskParameter="Result" ItemName="value" />
     </XmlPeek>
-    <Message Text="Value read: @(value)" Importance="high" />
+    <Message Text="Using project folder @(value)." Importance="high" />
     <PropertyGroup>
-        <Folder>@(value)</Folder>
+        <ProjectFolder>@(value)</ProjectFolder>
     </PropertyGroup>
     <ItemGroup>
-        <Compile Include="Projects\$(Folder)\Controls\Control1.ascx.cs">
+        <Compile Include="Projects\$(ProjectFolder)\Controls\Control1.ascx.cs">
             <SubType>ASPXCodeBehind</SubType>
         </Compile>
     </ItemGroup>
