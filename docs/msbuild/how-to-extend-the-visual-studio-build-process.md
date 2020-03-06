@@ -22,7 +22,6 @@ The Visual Studio build process is defined by a series of MSBuild *.targets* fil
 - Overriding specific predefined targets defined in the common targets (*Microsoft.Common.targets* or the files that it imports).
 
 - Overriding the "DependsOn" properties defined in the common targets.
-## Override predefined targets
 
 ## Override predefined targets
 
@@ -124,6 +123,62 @@ Projects that import your project files can override these properties without ov
 |`BuildDependsOn`|The property to override if you want to insert custom targets before or after the entire build process.|
 |`CleanDependsOn`|The property to override if you want to clean up output from your custom build process.|
 |`CompileDependsOn`|The property to override if you want to insert custom processes before or after the compilation step.|
+
+## Example
+
+The following example shows how to extend the build by using `BuildDependsOn` to add your own task `CustomAfterBuild` that copies the output files after the build, and also add the corresponding `CustomClean` task by using `CleanDependsOn`.  
+
+In this example, this is an SDK-style project. As mentioned in the note about SDK-style projects earlier in this article, you must use the manual import method instead of the `Sdk` attribute that Visual Studio uses when it generates project files.
+
+```xml
+<Project>
+
+<Import Project="Sdk.props" Sdk="Microsoft.NET.Sdk" />
+
+
+<PropertyGroup>
+   <TargetFramework>netcoreapp3.1</TargetFramework>
+</PropertyGroup>
+
+<Import Project="Sdk.targets" Sdk="Microsoft.NET.Sdk" />
+
+<PropertyGroup>
+   <BuildDependsOn>
+      $(BuildDependsOn);CustomAfterBuild
+    </BuildDependsOn>
+
+    <CleanDependsOn>
+      $(CleanDependsOn);CustomClean
+    </CleanDependsOn>
+
+    <_OutputCopyLocation>$(OutputPath)..\..\CustomOutput\</_OutputCopyLocation>
+  </PropertyGroup>
+
+<Target Name="CustomAfterBuild">
+  <ItemGroup>
+    <_FilesToCopy Include="$(OutputPath)**\*"/>
+  </ItemGroup>
+  <Message Text="_FilesToCopy: @(_FilesToCopy)" Importance="high"/>
+
+  <Message Text="DestFiles:
+      @(_FilesToCopy->'$(_OutputCopyLocation)%(RecursiveDir)%(Filename)%(Extension)')"/>
+
+  <Copy SourceFiles="@(_FilesToCopy)"
+        DestinationFiles=
+        "@(_FilesToCopy->'$(_OutputCopyLocation)%(RecursiveDir)%(Filename)%(Extension)')"/>
+  </Target>
+
+  <Target Name="CustomClean">
+    <Message Text="Inside Custom Clean" Importance="high"/>
+    <ItemGroup>
+      <_CustomFilesToDelete Include="$(_OutputCopyLocation)**\*"/>
+    </ItemGroup>
+    <Delete Files='@(_CustomFilesToDelete)'/>
+  </Target>
+</Project>
+```
+
+The order of elements is important. The `BuildDependsOn` and `CleanDependsOn` elements must appear after importing the standard SDK targets file.
 
 ## See also
 
