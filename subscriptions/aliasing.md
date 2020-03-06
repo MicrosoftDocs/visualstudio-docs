@@ -34,7 +34,7 @@ A UPN mismatch can be encountered when a company has an Active Directory set up 
 
 #### How to fix a UPN mismatch
 
-1. Access the Visual Studio Administration Management portal https://manage.visualstudio.com 
+1. Access the Visual Studio Administration Management portal [https://manage.visualstudio.com](https://manage.visualstudio.com) 
 
 2. Locate the subscriber having the UPN mismatch issue. (The [Filter](search-license.md) feature can make it easy to find a subscriber.)
 
@@ -50,7 +50,7 @@ Personal subscription accounts can also experience issues if the email address u
 
 #### How to detect if your personal subscription account is impacted by an aliasing issue
 
-1. Sign in to https://my.visualstudio.com/subscriptions
+1. Sign in to [https://my.visualstudio.com/subscriptions](https://my.visualstudio.com/subscriptions)
 
 0. Verify that the sign-in email address listed at the top right of the page matches the address you used to sign in.  If the signed-in email address is not the same as the email address used to access the website there is a conflict between your account and the alias.
 
@@ -76,7 +76,7 @@ As an administrator, there are two options to ensure your subscribers have a suc
 - The second option (less secure), is to allow your subscribers to sign in using a different email address than their directory email address.
 
 Both of these options are configured in the admin portal by completing the following steps:  
-1. Sign into https://manage.visualstudio.com 
+1. Sign into [https://manage.visualstudio.com](https://manage.visualstudio.com) 
 
 0. If you are altering a single user, select that user in the table and right click to edit. This will open a panel where you can modify the sign-in email address. Make the necessary updates in the sign-in email address field. Click save and the changes will take effect.  
 
