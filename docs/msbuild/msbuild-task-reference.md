@@ -31,15 +31,15 @@ In addition to the parameters listed in the topics in this section, each task al
 
 - [Task base class](../msbuild/task-base-class.md)
 
- Adds several parameters to the tasks that derive from the <xref:Microsoft.Build.Utilities.Task> class.
+ Adds several parameters to the tasks that derive from the <xref:Microsoft.Build.Utilities.Task> class. Not intended to be used directly.
 
 - [TaskExtension base class](../msbuild/taskextension-base-class.md)
 
- Adds several parameters to the tasks that derive from the <xref:Microsoft.Build.Tasks.TaskExtension> class.
+ Adds several parameters to the tasks that derive from the <xref:Microsoft.Build.Tasks.TaskExtension> class. Not intended to be used directly.
 
 - [ToolTaskExtension base class](../msbuild/tooltaskextension-base-class.md)
 
- Adds several parameters to the tasks that derive from the <xref:Microsoft.Build.Tasks.ToolTaskExtension> class.
+ Adds several parameters to the tasks that derive from the <xref:Microsoft.Build.Tasks.ToolTaskExtension> class. Not intended to be used directly.
 
 - [AL (Assembly Linker) task](../msbuild/al-assembly-linker-task.md)
 
