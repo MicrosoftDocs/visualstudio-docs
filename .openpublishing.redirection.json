@@ -136,6 +136,11 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "docs/code-quality/fxcop-analyzers.yml",
+      "redirect_url": "/visualstudio/code-quality/migrate-from-legacy-analysis-to-fxcop-analyzers",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/code-quality/how-to-configure-code-analysis-for-an-aspnet-web-application.md",
       "redirect_url": "/visualstudio/code-quality/how-to-configure-code-analysis-for-a-managed-code-project",
       "redirect_document_id": false
