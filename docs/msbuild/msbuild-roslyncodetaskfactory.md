@@ -158,7 +158,7 @@ defines these three parameters:
 
 - `Tally` is an output parameter of type System.Int32.
 
-If the `Code` element has the `Type` attribute of `Fragment` or `Method`, then properties are automatically created for every parameter. Otherwise, properties must be explicitly declared in the task source code, and must exactly match their parameter definitions.
+If the `Code` element has the `Type` attribute of `Fragment` or `Method`, then properties are automatically created for every parameter.  In RoslynCodeTaskFactory, if the `Code` element has the `Type` attribute of `Class`, then you do not have to specify the `ParameterGroup`, since it is inferred from the source code (this is a difference from `CodeTaskFactory`). Otherwise, properties must be explicitly declared in the task source code, and must exactly match their parameter definitions.
 
 ## Example
 
