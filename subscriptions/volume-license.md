@@ -3,7 +3,7 @@ title: Accessing the Administration Portal for Volume License customers | Micros
 author: evanwindom
 ms.author: lank
 manager: lank
-ms.date: 08/22/2019
+ms.date: 03/03/2020
 ms.topic: conceptual
 description:  Learn how administrators on Volume License agreements can access the Visual Studio subscriptions Administration Portal
 ---
@@ -13,7 +13,7 @@ description:  Learn how administrators on Volume License agreements can access t
 If you are the primary or notices contact on your organization’s agreement, you will be automatically provisioned access to the portal upon setting up your Volume Licensing agreement. You’ll receive a system-triggered welcome email which will prompt you to sign into the portal. The email will indicate which email address to use to sign into the portal. 
 
    > [!div class="mx-imgBorder"]
-   > ![Volume License admin notification](_img/volume-license/super-admin-notice.png)
+   > ![Volume License admin notification](_img/volume-license/super-admin-notice-2020.png)
 
 Once you’re signed in, you will be automatically set up as a super admin and can begin managing subscriptions and other administrators. For information about the differences between super admins and administrators, take a look at our article about [admin roles](admin-roles.md).
 
@@ -21,6 +21,12 @@ This applies to all Volume Licensing agreement types including, but not limited 
 
 ## Resources
 - [Visual Studio Administration and Subscriptions Support](https://visualstudio.microsoft.com/support/support-overview-vs)
+
+## See also
+- [Visual Studio documentation](https://docs.microsoft.com/visualstudio/)
+- [Azure DevOps documentation](https://docs.microsoft.com/azure/devops/)
+- [Azure documentation](https://docs.microsoft.com/azure/)
+- [Microsoft 365 documentation](https://docs.microsoft.com/microsoft-365/)
 
 ## Next steps
 - Learn how to [assign subscriptions](assign-license.md)
