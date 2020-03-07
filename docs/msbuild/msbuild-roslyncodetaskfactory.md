@@ -16,7 +16,7 @@ ms.workload:
 Similar to the [CodeTaskFactory](../msbuild/msbuild-inline-tasks.md), RoslynCodeTaskFactory uses the cross-platform Roslyn compilers to generate in-memory task assemblies for use as inline tasks.  RoslynCodeTaskFactory tasks target .NET Standard and can work on .NET Framework and .NET Core runtimes as well as other platforms such as Linux and Mac OS.
 
 >[!NOTE]
->The RoslynCodeTaskFactory is available in MSBuild 15.8 and above only.
+>The RoslynCodeTaskFactory is available in MSBuild 15.8 and above only. MSBuild versions follow Visual Studio versions, so RoslynCodeTaskFactory is available in Visual Studio 15.8 and higher.
 
 ## The structure of an inline task with RoslynCodeTaskFactory
 
@@ -158,7 +158,7 @@ defines these three parameters:
 
 - `Tally` is an output parameter of type System.Int32.
 
-If the `Code` element has the `Type` attribute of `Fragment` or `Method`, then properties are automatically created for every parameter. Otherwise, properties must be explicitly declared in the task source code, and must exactly match their parameter definitions.
+If the `Code` element has the `Type` attribute of `Fragment` or `Method`, then properties are automatically created for every parameter.  In RoslynCodeTaskFactory, if the `Code` element has the `Type` attribute of `Class`, then you do not have to specify the `ParameterGroup`, since it is inferred from the source code (this is a difference from `CodeTaskFactory`). Otherwise, properties must be explicitly declared in the task source code, and must exactly match their parameter definitions.
 
 ## Example
 

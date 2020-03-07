@@ -54,5 +54,5 @@ If your project uses the build option to treat warnings as errors, FxCop analyze
 ## See also
 
 - [Overview of .NET Compiler Platform analyzers](roslyn-analyzers-overview.md)
-- [Get started with analyzers](fxcop-analyzers.yml)
+- [Migrate to FxCop analyzers](migrate-from-legacy-analysis-to-fxcop-analyzers.md)
 - [Install FxCop analyzers](install-fxcop-analyzers.md)

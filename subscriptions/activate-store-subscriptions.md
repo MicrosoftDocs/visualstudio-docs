@@ -26,12 +26,14 @@ If you've purchased a Visual Studio subscription through the Microsoft Store, th
 7. Enter the product key information available from the payment "Confirmation Page" or "Confirmation Email" and click **Activate**.
 8. The subscription should now be visible on the [Subscriptions](https://my.visualstudio.com/subscriptions?wt.mc_id=o~msft~docs) page and you should access to all your subscription benefits.
 
-## Next steps
-Visit the [Benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs) page to see all the tools, services, training and support benefits included in your subscription.  We recommend setting up your [Visual Studio](vs-ide-benefit.md) and [Azure DevOps](vs-azure-devops.md) to get started. 
-
 ## See also
 - [Visual Studio documentation](https://docs.microsoft.com/visualstudio/)
 - [Azure DevOps documentation](https://docs.microsoft.com/azure/devops/)
 - [Azure documentation](https://docs.microsoft.com/azure/)
 - [Microsoft 365 documentation](https://docs.microsoft.com/microsoft-365/)
+
+## Next steps
+Visit the [Benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs) page to see all the tools, services, training and support benefits included in your subscription.  We recommend setting up your [Visual Studio](vs-ide-benefit.md) and [Azure DevOps](vs-azure-devops.md) to get started. 
+
+
 

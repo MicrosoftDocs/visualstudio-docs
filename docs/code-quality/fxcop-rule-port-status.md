@@ -34,6 +34,7 @@ Rule ID | Title
 [CA1017](ca1017-mark-assemblies-with-comvisibleattribute.md) | Mark assemblies with ComVisible
 [CA1018](ca1018-mark-attributes-with-attributeusageattribute.md) | Mark attributes with AttributeUsageAttribute
 [CA1019](ca1019-define-accessors-for-attribute-arguments.md) | Define accessors for attribute arguments
+[CA1021](ca1021.md) | Avoid out parameters
 [CA1024](ca1024-use-properties-where-appropriate.md) | Use properties where appropriate
 [CA1027](ca1027-mark-enums-with-flagsattribute.md) | Mark enums with FlagsAttribute
 [CA1028](ca1028-enum-storage-should-be-int32.md) | Enum Storage should be Int32
