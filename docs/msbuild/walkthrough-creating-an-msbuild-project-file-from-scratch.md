@@ -153,7 +153,7 @@ Tasks in the Build target are executed sequentially. In this case, the Visual C#
 
 Before you can access MSBuild, you must extend the PATH environment variable to include the .NET Framework folder.
 
-Starting in Visual Studio 2013, you can find *MSBuild.exe* in the MSBuild folder (*%ProgramFiles%\MSBuild* on a 32-bit operating system or in *%ProgramFiles(x86)%\MSBuild* on a 64-bit operating system).
+Starting in Visual Studio 2013, you can find *MSBuild.exe* in the MSBuild folder (*%ProgramFiles%\MSBuild* on a 64-bit operating system or in *%ProgramFiles(x86)%\MSBuild* on a 32-bit operating system).
 
 At the command prompt, type **set PATH=%PATH%;%ProgramFiles%\MSBuild** or **set PATH=%PATH%;%ProgramFiles(x86)%\MSBuild**.
 
