@@ -3,7 +3,7 @@ title: Visual Studio subscriptions in a Microsoft Products and Services Agreemen
 author: evanwindom
 ms.author: lank
 manager: lank
-ms.date: 07/23/2019
+ms.date: 03/03/2020
 ms.topic: conceptual
 description:  Visual Studio subscriptions in a Microsoft Products and Services Agreement (MPSA)
 ---
@@ -38,7 +38,12 @@ Once you have met the criteria above you may proceed to associate your Purchasin
 4. Select your **tenant** (i.e. contoso.onmicrosoft.com).
 5. Click **Associate Domain**.
 
-Upon association, all users meeting the criteria will typically provision as Visual Studio subscriptions administrators within minutes. However, at times it may take up to 24 hours. Once your tenant is provisioned you will be able to access the Visual Studio Subscriptions Administration Portal. If this takes longer than 24 hours, please contact MPSA Support.
+Upon association, all users meeting the criteria will typically provision as Visual Studio subscriptions administrators within minutes. However, at times it may take up to 24 hours. Once your tenant is provisioned you will be able to access the Visual Studio Subscriptions Administration Portal. If this takes longer than 24 hours, please contact MPSA Support using these steps:
+1. Connect to https://www.microsoft.com/licensing/mpsa/default
+2. Click the **More** menu at the top of the page. 
+3. Choose **Support**
+4. Choose **Licensing support**
+5. Select the support option that best fits your needs. 
 
 > [!NOTE]
 > If there are new users that meet the criteria in steps 2 and 5 (after association) you must contact MPSA Support. MPSA Support will provide assistance to provision the new Visual Studio Subscriptions administrators.
@@ -46,7 +51,21 @@ Upon association, all users meeting the criteria will typically provision as Vis
 ## Tenant association (unmanaged)
 If you registered to the Business Center with an email that was not a work account (not registered in the Azure Active Directory “Azure AD”), as explained above, the tenant association will be slightly different. You will need to perform what’s called a "domain take-over". During this process you will make yourself the Global Admin which will change your tenant from unmanaged to managed.
 
-For a more detailed explanation for this process, you may use the [Quick Start guides](https://www.microsoft.com/en-us/Licensing/existing-customer/business-center-training-and-resources.aspx). Please download the guide named *"Setup and Use Your Online Services"* which will guide you through a domain take-over. Once this is completed your Purchasing Account will also be associated to your tenant.
+For a more detailed explanation for this process, you may use the [Quick Start guides](https://www.microsoft.com/Licensing/existing-customer/business-center-training-and-resources.aspx). Please download the guide named *"Setup and Use Your Online Services"* which will guide you through a domain take-over. Once this is completed your Purchasing Account will also be associated to your tenant.
 
 > [!NOTE]
 > Once you complete the domain take-over process, you must adhere to the criteria from the five steps in the section for Pre Tenant Association (Managed). Once the criteria are met, it will only be necessary to contact MPSA Support to provision additional Visual Studio subscriptions administrators.
+
+## See also
+- [Visual Studio documentation](https://docs.microsoft.com/visualstudio/)
+- [Azure DevOps documentation](https://docs.microsoft.com/azure/devops/)
+- [Azure documentation](https://docs.microsoft.com/azure/)
+- [Microsoft 365 documentation](https://docs.microsoft.com/microsoft-365/)
+
+## Next steps
+Learn more about managing Visual Studio subscriptions.
+- [Assign individual subscriptions](assign-license.md)
+- [Assign multiple subscriptions](assign-license-bulk.md)
+- [Edit subscriptions](edit-license.md)
+- [Delete subscriptions](delete-license.md)
+- [Determine maximum usage](maximum-usage.md)
