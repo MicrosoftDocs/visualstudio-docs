@@ -150,4 +150,4 @@ If you want to check whether the extension is installed, select **Extensions** >
 
 - [Overview of code analyzers in Visual Studio](../code-quality/roslyn-analyzers-overview.md)
 - [Use code analyzers in Visual Studio](../code-quality/use-roslyn-analyzers.md)
-- [Migrate from legacy analysis to code analyzers](../code-quality/fxcop-analyzers.yml)
+- [Migrate from legacy analysis to code analyzers](../code-quality/migrate-from-legacy-analysis-to-fxcop-analyzers.md)
