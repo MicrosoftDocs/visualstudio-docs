@@ -1,6 +1,6 @@
 ---
 title: Get started with unit testing
-ms.date: 02/13/2020
+ms.date: 03/04/2020
 ms.topic: conceptual
 helpviewer_keywords:
 - unit testing, create unit test plans
@@ -16,7 +16,7 @@ Use Visual Studio to define and run unit tests to maintain code health, ensure c
 
 ## Create unit tests
 
-This section describes at a high level how to create a unit test project.
+This section describes how to create a unit test project.
 
 1. Open the project that you want to test in Visual Studio.
 
@@ -66,7 +66,7 @@ This section describes at a high level how to create a unit test project.
 
 1. Add code to the unit test method.
 
-   For example, for an MSTest or NUnit test project, you might use the following code.
+   For example, for an MSTest project, you might use the following code.
 
    ```csharp
    using Microsoft.VisualStudio.TestTools.UnitTesting;
@@ -95,8 +95,42 @@ This section describes at a high level how to create a unit test project.
    }
    ```
 
+   Or, for an NUnit project, you might use the following code.
+
+   ```csharp
+   using using NUnit.Framework;
+   using System.IO;
+   using System;
+
+   namespace HelloWorldTests
+   {
+      [TestClass]
+      public class Tests
+      {
+         private const string Expected = "Hello World!";
+
+         [SetUp]
+         public void Setup()
+         {
+         }
+         [Test]
+         public void TestMethod1()
+         {
+            using (var sw = new StringWriter())
+            {
+               Console.SetOut(sw);
+               HelloWorldCore.Program.Main();
+
+               var result = sw.ToString().Trim();
+               Assert.AreEqual(Expected, result);
+            }
+         }
+      }
+   }
+   ```
+
 > [!TIP]
-> For a more detailed walkthrough of creating unit tests, see [Create and run unit tests for managed code](walkthrough-creating-and-running-unit-tests-for-managed-code.md).
+> For more details about creating unit tests, see [Create and run unit tests for managed code](walkthrough-creating-and-running-unit-tests-for-managed-code.md).
 
 ## Run unit tests
 
