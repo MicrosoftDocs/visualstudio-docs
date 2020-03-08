@@ -70,6 +70,26 @@ Select **Docker** from the debug drop-down in the toolbar, and start debugging t
 
 The **Container Tools** option in the **Output** window shows what actions are taking place. The first time, it might take a while to download the base image, but it's much faster on subsequent runs.
 
+### Changing launch settings
+
+You can edit your `launchSettings.json` to customize how Visual Studio runs your container. For instance, you can set fixed ports for `http` and `https` by modifying your `launchSettings`'s `Docker` property with the following parameters:
+
+```json
+{
+  "Docker": {
+    "commandName": "Docker",
+    "launchBrowser": true,
+    "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}/",
+    "publishAllPorts": true,
+    "useSSL": true,
+    "httpPort": 5000,
+    "sslPort":  5001
+  }
+}
+```
+
+For further customization check out the [Container Tools launch settings](https://docs.microsoft.com/en-us/visualstudio/containers/container-launch-settings?view=vs-2019) page.
+
 ## Containers window
 
 If you have Visual Studio 2019 version 16.4 or later, you can use the **Containers** window to view running containers on your machine, as well as images that you have available.
