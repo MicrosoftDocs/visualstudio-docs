@@ -28,7 +28,7 @@ Transforms an XML input by using an XSLT or compiled XSLT and outputs to an outp
 |Parameter|Description|
 |---------------|-----------------|
 |`OutputPaths`|Required <xref:Microsoft.Build.Framework.ITaskItem>`[]` parameter.<br /><br /> Specifies the output files for the XML transformation.|
-|`Parameters`|Optional `String` parameter.<br /><br /> Specifies the parameters to the XSLT Input document.  Provide the raw XML that holds each parameter as <Parameter Name="" Value="" Namespace="" />`.|
+|`Parameters`|Optional `String` parameter.<br /><br /> Specifies the parameters to the XSLT Input document.  Provide the raw XML that holds each parameter as `<Parameter Name="" Value="" Namespace="" />`.|
 |`XmlContent`|Optional `String` parameter.<br /><br /> Specifies the XML input as a string.|
 |`XmlInputPaths`|Optional <xref:Microsoft.Build.Framework.ITaskItem>`[]` parameter.<br /><br /> Specifies the XML input files.|
 |`XslCompiledDllPath`|Optional <xref:Microsoft.Build.Framework.ITaskItem> parameter.<br /><br /> Specifies the compiled XSLT.|
