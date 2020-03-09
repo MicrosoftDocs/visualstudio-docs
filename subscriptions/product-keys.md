@@ -3,7 +3,7 @@ title: Using Product Keys | Microsoft Docs
 author: evanwindom
 ms.author: lank
 manager: lank
-ms.date: 07/20/2019
+ms.date: 03/09/2020
 ms.topic: conceptual
 description:  Learn how to obtain and manage your product keys in Visual Studio subscriptions.
 ---
@@ -69,6 +69,12 @@ A variety of key types are available, depending on the product.
 |
 
 You can claim a key from the download page for the product, or you can search for the key you need on the [Product Keys](https://my.visualstudio.com/productkeys) page.
+
+## See also
+- [Visual Studio documentation](https://docs.microsoft.com/visualstudio/)
+- [Azure DevOps documentation](https://docs.microsoft.com/azure/devops/)
+- [Azure documentation](https://docs.microsoft.com/azure/)
+- [Microsoft 365 documentation](https://docs.microsoft.com/microsoft-365/)
 
 ## Next steps
 To claim keys, visit https://my.visualstudio.com/productkeys.  
