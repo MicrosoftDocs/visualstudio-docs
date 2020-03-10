@@ -2,7 +2,7 @@
 title: Sign in to Visual Studio
 titleSuffix: ''
 ms.custom: seodec18
-ms.date: 12/10/2018
+ms.date: 03/10/2020
 ms.topic: conceptual
 ms.assetid: b9531c25-e4cf-43ae-b331-a9f31a8cd171
 author: ornellaalt
@@ -39,6 +39,7 @@ Here's a full list of what you can expect and what you can do after you sign in:
 
 When you open Visual Studio for the first time, you're asked to sign in and provide some basic registration information. 
 
+[!div class="mx-imgBorder"]
 ![Sign-in prompt](../ide/media/vs2019_signinpopup.png)
 
 You should choose a Microsoft account or a work or school account that best represents you. If you don't have any of these accounts, you can create a Microsoft account for free by clicking the link under the sign in button. If you're having trouble, see [How do I sign up for a Microsoft account?](https://support.microsoft.com/help/4026324/microsoft-account-how-to-create)
@@ -47,10 +48,12 @@ Next, choose the UI settings and color theme that you want to use in Visual Stud
 
 After you provide the settings, Visual Studio starts, and you're signed in and ready to get started. To verify whether you're signed in, look for your name in the upper-right corner of the Visual Studio environment.
 
+[!div class="mx-imgBorder"]
 ![Currently logged in user in VS2019](../ide/media/vs2019_username.png)
 
 If you choose not to sign in when you first open Visual Studio, it's easy to do so later. Look for the **Sign in** link in the upper-right corner of the Visual Studio environment. 
 
+[!div class="mx-imgBorder"]
 ![Not signed in user](../ide/media/vs2019_usernotsignedin.png)
 
 Unless you sign out, you're automatically signed in to Visual Studio whenever you start it, and any changes to synchronized settings are automatically applied. To sign out, click on the icon with your profile name in the upper-right corner of the Visual Studio environment, choose the **Account settings** command, and then choose the **Sign out** link. To sign in again, choose the **Sign in** command in the upper-right corner of the Visual Studio environment.
