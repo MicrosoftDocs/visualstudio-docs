@@ -99,6 +99,9 @@ The following example shows how to use the `AfterTargets` attribute to add a cus
 </Project>
 ```
 
+> [!WARNING]
+> Be sure to use different names than the predefined targets listed in the table in the previous section (for example, we named the custom build target here `CustomAfterBuild`, not `AfterBuild`), since those predefined targets are overridden by the SDK import which also defines them. You don't see the import of the target file that overrides those targets, but it is implicitly added to the end of the project file when you use the `Sdk` attribute method of referencing an SDK.
+
 ## Override DependsOn properties
 
 Overriding predefined targets is an easy way to extend the build process, but, because MSBuild evaluates the definition of targets sequentially, there is no way to prevent another project that imports your project from overriding the targets you already have overridden. So, for example, the last `AfterBuild` target defined in the project file, after all other projects have been imported, will be the one that is used during the build.
