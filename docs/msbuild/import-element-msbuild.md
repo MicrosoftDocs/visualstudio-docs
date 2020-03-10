@@ -62,7 +62,7 @@ Imports the contents of one project file into another project file.
 
  By convention, shared imported project files are saved as *.targets* files, but they are standard MSBuild project files. MSBuild does not prevent you from importing a project that has a different file name extension, but we recommend that you use the *.targets* extension for consistency.
 
- Relative paths in imported projects are interpreted relative to the directory of the importing project. Therefore, if a project file is imported into several project files in different locations, the relative paths in the imported project file will be interpreted differently for each imported project.
+ Relative paths in imported projects are interpreted relative to the directory of the importing project (with a few exceptions described later in this paragraph). Therefore, if a project file is imported into several project files in different locations, the relative paths in the imported project file will be interpreted differently for each imported project. There are two exceptions. One exception is that in `Import` elements, the path is always interpreted relative to the project that contains the `Import` element. Another exception is that the `UsingTask` always interprets the relative path for the `AssemblyFile` attribute relative to the file that contains the `UsingTask` element.
 
  All MSBuild reserved properties that relate to the project file, for example, `MSBuildProjectDirectory` and `MSBuildProjectFile`, that are referenced in an imported project are assigned values based on the importing project file.
 
