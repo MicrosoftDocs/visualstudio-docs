@@ -38,6 +38,8 @@ Invokes the specified targets within the project file.
 
  If you want to build the default targets, use the [MSBuild task](../msbuild/msbuild-task.md) and set the `Projects` parameter equal to `$(MSBuildProjectFile)`.
 
+When using `CallTarget`, MSBuild evaluates the called target in a new scope, as opposed to the same scope it's called from. This means that any item and property changes in the called target are not visible to the calling target.  To pass information to the calling target, use the `TargetOutputs` output parameter.
+
  In addition to the parameters listed above, this task inherits parameters from the <xref:Microsoft.Build.Tasks.TaskExtension> class, which itself inherits from the <xref:Microsoft.Build.Utilities.Task> class. For a list of these additional parameters and their descriptions, see [TaskExtension base class](../msbuild/taskextension-base-class.md).
 
 ## Example
