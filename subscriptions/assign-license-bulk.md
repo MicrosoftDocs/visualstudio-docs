@@ -66,7 +66,7 @@ Using this feature makes it easy to stay on top of your subscription assignments
 > - All users must be in the top level of the group.  Nested groups are not supported
 > - Only trusted agreements are supported
 > - All members of the group must have an email address associated with their Azure AD account
-
+> - Separate email addresses for notifications are not supported for subscriptions added using Azure AD groups.  
 
 1. Sign in to the Visual Studio Subscriptions Administration Portal at [https://manage.visualstudio.com](https://manage.visualstudio.com).
 
