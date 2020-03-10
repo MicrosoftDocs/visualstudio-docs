@@ -63,6 +63,42 @@ The following table shows all of the targets in the common targets that you can 
 |`BeforeResolveReferences`, `AfterResolveReferences`|Tasks that are inserted in one of these targets run before or after assembly references are resolved.|
 |`BeforeResGen`, `AfterResGen`|Tasks that are inserted in one of these targets run before or after resources are generated.|
 
+## Example: AfterTargets and BeforeTargets
+
+The following example shows how to use the `AfterTargets` attribute to add a custom target that does something with the output files. In this case, it copies the output files to a new folder *CustomOutput*.  The example also shows how to clean up the files created by the custom build operation with a `CustomClean` target by using a `BeforeTargets` attribute and specifying that the custom clean operation runs before the `CoreClean` target.
+
+```xml
+<Project Sdk="Microsoft.NET.Sdk">
+
+<PropertyGroup>
+   <TargetFramework>netcoreapp3.1</TargetFramework>
+   <_OutputCopyLocation>$(OutputPath)..\..\CustomOutput\</_OutputCopyLocation>
+</PropertyGroup>
+
+<Target Name="CustomAfterBuild" AfterTargets="Build">
+  <ItemGroup>
+    <_FilesToCopy Include="$(OutputPath)**\*"/>
+  </ItemGroup>
+  <Message Text="_FilesToCopy: @(_FilesToCopy)" Importance="high"/>
+
+  <Message Text="DestFiles:
+      @(_FilesToCopy->'$(_OutputCopyLocation)%(RecursiveDir)%(Filename)%(Extension)')"/>
+
+  <Copy SourceFiles="@(_FilesToCopy)"
+        DestinationFiles=
+        "@(_FilesToCopy->'$(_OutputCopyLocation)%(RecursiveDir)%(Filename)%(Extension)')"/>
+  </Target>
+
+  <Target Name="CustomClean" BeforeTargets="CoreClean">
+    <Message Text="Inside Custom Clean" Importance="high"/>
+    <ItemGroup>
+      <_CustomFilesToDelete Include="$(_OutputCopyLocation)**\*"/>
+    </ItemGroup>
+    <Delete Files='@(_CustomFilesToDelete)'/>
+  </Target>
+</Project>
+```
+
 ## Override DependsOn properties
 
 Overriding predefined targets is an easy way to extend the build process, but, because MSBuild evaluates the definition of targets sequentially, there is no way to prevent another project that imports your project from overriding the targets you already have overridden. So, for example, the last `AfterBuild` target defined in the project file, after all other projects have been imported, will be the one that is used during the build.
@@ -124,9 +160,9 @@ Projects that import your project files can override these properties without ov
 |`CleanDependsOn`|The property to override if you want to clean up output from your custom build process.|
 |`CompileDependsOn`|The property to override if you want to insert custom processes before or after the compilation step.|
 
-## Example
+## Example: BuildDependsOn and CleanDependsOn
 
-The following example shows how to extend the build by using `BuildDependsOn` to add your own task `CustomAfterBuild` that copies the output files after the build, and also add the corresponding `CustomClean` task by using `CleanDependsOn`.  
+The following example is similar to the `BeforeTargets` and `AfterTargets` example, but shows how to achieve similar functionality. It extends the build by using `BuildDependsOn` to add your own task `CustomAfterBuild` that copies the output files after the build, and also adds the corresponding `CustomClean` task by using `CleanDependsOn`.  
 
 In this example, this is an SDK-style project. As mentioned in the note about SDK-style projects earlier in this article, you must use the manual import method instead of the `Sdk` attribute that Visual Studio uses when it generates project files.
 
