@@ -41,7 +41,14 @@ Transforms an XML input by using an XSLT or compiled XSLT and outputs to an outp
 
 ## Example
 
+In the following example, an XSL transform file *transform.xslt* is used to modify the xml file `$(FileName)`. The transformed XML is written to `output.xml`. The XSL transform takes `$(Parameter1)` as an input parameter.
 
+```xml
+    <XslTransformation XslInputPath="transform.xslt"
+                       XmlInputPaths="$(FileName)"
+                       OutputPaths="output.xml"
+                       Parameters="&lt;Parameter Name='Parameter1' Value='$(Parameter1)'/&gt;"/>
+```
 
 ## See also
 
