@@ -45,8 +45,7 @@ In this tutorial, you will:
 
 2. Set a second breakpoint at the end of the function or region of code that you want to analyze.
 
-    > [!TIP]
-    > By setting two breakpoints, you can limit data collection to the parts of code that you want to analyze.
+    By setting two breakpoints, you can limit data collection to the parts of code that you want to analyze.
 
 3. The **Diagnostic Tools** window appears automatically unless you have turned it off. To bring up the window again, click **Debug** > **Windows** > **Show Diagnostic Tools**.
 
@@ -72,6 +71,9 @@ In this tutorial, you will:
 
      When you choose **Record CPU Profile**, Visual Studio will begin recording your functions and how much time they take to execute. You can only view this collected data when your application is halted at a breakpoint.
 
+     > [!TIP]
+     > To help analyze performance, you can also use [PerfTips](../profiling/perftips.md) to step through code and identify how long it takes particular functions or code blocks to complete.
+
 8. Hit F5 to run the app to your second breakpoint.
 
      Now, you now have performance data for your application specifically for the region of code that runs between the two breakpoints.
@@ -89,6 +91,9 @@ In this tutorial, you will:
      ![Diagnostics Tools Selecting a Time Segment](../profiling/media/diag-tools-select-time-segment.png "DiagToolsSelectTimeSegment")
 
      At this point, you can begin to analyze the data.
+
+    > [!TIP]
+    >  When trying to identify performance issues, take multiple measurements. Performance naturally varies from run-to-run, and code paths typically execute slower the first time they run due to one-time initialization work such as loading DLLs, JIT compiling methods, and initializing caches. By taking multiple measurements, you get a better idea of the range and median of the metric being shown, whichs allow you to compare the first time versus the steady state performance of an area of code.
 
 ## Step 2: Analyze CPU usage data
 
