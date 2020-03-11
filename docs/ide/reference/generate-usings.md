@@ -1,12 +1,13 @@
 ---
 title: Generate usings
-ms.date: 02/19/2019
+ms.date: 03/10/2020
 ms.topic: reference
-author: kendrahavens
-ms.author: kehavens
+author: mikadumont
+ms.author: midumont
 manager: jillfra
 dev_langs:
   - CSharp
+  - VB
 ms.workload:
   - "dotnet"
 helpviewer_keywords:
@@ -17,6 +18,8 @@ helpviewer_keywords:
 This code generation applies to:
 
 - C#
+
+- Visual Basic
 
 **What:** Lets you immediately add the necessary imports or [using directives](/dotnet/csharp/language-reference/keywords/using-directive) for copy-and-pasted code.
 
