@@ -48,7 +48,7 @@ There are three ways of specifying a run settings file in Visual Studio 2019 ver
 
     - Project-level run settings is currently supported in C#, VB, C++, and F# projects.
     - A file specified for a project overrides any other run settings file specified in the solution.
-    - [These MSBuild properties](https://docs.microsoft.com/en-us/visualstudio/msbuild/msbuild-reserved-and-well-known-properties?view=vs-2019) can be used to specify the path to the runsettings file. 
+    - [These MSBuild properties](https://docs.microsoft.com/visualstudio/msbuild/msbuild-reserved-and-well-known-properties?view=vs-2019) can be used to specify the path to the runsettings file. 
 
     Example of specifying a *.runsettings* file for a project:
     
