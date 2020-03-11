@@ -45,7 +45,7 @@ Signs the specified file using the specified certificate.
 
 ## Example
 
- The following example uses the `SignFile` task to sign the files specified in the `FilesToSign` item collection with the certificate specified by the `Certificate` property.
+ The following example uses the `SignFile` task to sign the files specified in the `FilesToSign` item collection with the certificate specified by the `CertificateThumbprint` property.
 
 ```xml
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
