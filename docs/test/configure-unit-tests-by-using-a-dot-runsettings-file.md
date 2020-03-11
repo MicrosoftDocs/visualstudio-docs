@@ -44,10 +44,11 @@ The file appears on the Test menu, and you can select or deselect it. While sele
 
 There are three ways of specifying a run settings file in Visual Studio 2019 version 16.4 and later:
 
-- Add a build property to a project through either the project file or a Directory.Build.props file. The run settings file for a project is specified by the property **RunSettingsFilePath**. 
+- Add a build property to a project through either the project file or a Directory.Build.props file. The run settings file for a project is specified by the property **RunSettingsFilePath**.
 
     - Project-level run settings is currently supported in C#, VB, C++, and F# projects.
     - A file specified for a project overrides any other run settings file specified in the solution.
+    - [These MSBuild properties](https://docs.microsoft.com/en-us/visualstudio/msbuild/msbuild-reserved-and-well-known-properties?view=vs-2019) can be used to specify the path to the runsettings file. 
 
     Example of specifying a *.runsettings* file for a project:
     
