@@ -1,7 +1,7 @@
 ---
 title: "Write unit tests for C/C++"
 description: Write C++ unit tests in Visual Studio using various test frameworks including CTest, Boost.Test, and Google Test.
-ms.date: 01/08/2020
+ms.date: 02/08/2020
 ms.topic: conceptual
 ms.author: "corob"
 manager: markl
@@ -35,7 +35,7 @@ C++ unit test projects support [CodeLens](../ide/find-code-changes-and-other-his
 
 - **Boost.Test** is included as a default component of the **Desktop development with C++** workload. It's integrated with **Test Explorer**, but currently doesn't have a project template. It must be manually configured. For more information, see [How to: Use Boost.Test in Visual Studio](how-to-use-boost-test-for-cpp.md).
 
-- **CTest** support is included with the **C++ CMake tools** component, which is part of the **Desktop development with C++** workload. However, CTest isn't fully integrated with **Test Explorer** yet. For more information, see [How to: Use CTest in Visual Studio](how-to-use-ctest-for-cpp.md).
+- **CTest** support is included with the **C++ CMake tools** component, which is part of the **Desktop development with C++** workload. For more information, see [How to: Use CTest in Visual Studio](how-to-use-ctest-for-cpp.md).
 
 **Visual Studio 2015 and earlier**
 

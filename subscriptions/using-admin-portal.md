@@ -3,7 +3,7 @@ title: Get started with the Subscriptions Administration Portal | Visual Studio 
 author: evanwindom
 ms.author: lank
 manager: lank
-ms.date: 08/07/2019
+ms.date: 03/03/2020
 ms.topic: conceptual
 description: Learn how to get started managing your organization's Visual Studio subscriptions with the Subscriptions Administration Portal.
 ---
@@ -20,7 +20,7 @@ Keep these points in mind when you use the Visual Studio Subscriptions Administr
 - **Do not share subscriptions between subscribers.** Subscriptions must be assigned to named individuals.  Assignment of subscriptions to teams is not permitted.  You must assign a subscription to anyone who uses all or part of the subscription benefits (software for development and testing, Microsoft Azure, e-learning, etc.).
 
 ## The Subscribers page
-Once you’ve assigned subscriptions, the Subscribers tab provides detailed information about your subscribers, including:
+Once you’ve assigned subscriptions, the Manage subscribers tab provides detailed information about your subscribers, including:
 - The first and last name of each subscriber.
 - The email address for this user.
 - The subscription level that has been assigned to them.
@@ -32,12 +32,14 @@ Once you’ve assigned subscriptions, the Subscribers tab provides detailed info
 - Their language preference for the assignment communication email from the administration portal.
 - An optional field for a different email address used for communications than sign-in.
 
-On the left-hand side of this page you can see additional information about the number of subscription licenses purchased, assigned, and still available in your organization for each agreement.
+On the top left side of the page there are several icons you can select to reveal a subscription assignment overview, the agreement details and the maximum usage report.
+
+To see additional information about the number of subscription licenses purchased, assigned, and still available in your organization for each agreement, click the top icon to enable the slide-out panel.
 > [!div class="mx-imgBorder"]
 > ![Visual Studio Subscriptions Admin Portal Subscribers Page](_img/using-admin-portal/subscribers-page.png)
 
 ## The Details page
-For more information about the agreement you are viewing, select the Details tab. It shows the agreement status, purchase account, org details, super-admins and other pertinent information.
+For more information about the agreement you are viewing, select the second icon to see the Agreement Details tab. The slide-out panel shows the agreement status, purchase account, org details, super-admins and other pertinent information.
 > [!div class="mx-imgBorder"]
 > ![Visual Studio Subscriptions Admin Portal Details Page](_img/using-admin-portal/details-page.png)
 
@@ -47,6 +49,12 @@ For more information about the agreement you are viewing, select the Details tab
 - [Compare Visual Studio IDE features](https://visualstudio.microsoft.com/vs/compare)
 - [Visual Studio Administration and Subscriptions Support](https://visualstudio.microsoft.com/support/support-overview-vs)
 
+## See also
+- [Visual Studio documentation](https://docs.microsoft.com/visualstudio/)
+- [Azure DevOps documentation](https://docs.microsoft.com/azure/devops/)
+- [Azure documentation](https://docs.microsoft.com/azure/)
+- [Microsoft 365 documentation](https://docs.microsoft.com/microsoft-365/)
+
 ## Next steps
 Learn more about responsibilities for administrators:
 - [Overview of admin responsibilities](admin-responsibilities.md)
@@ -54,3 +62,4 @@ Learn more about responsibilities for administrators:
 - [Manage large teams and external contractors](manage-teams.md)
 - [Track user assignments and process orders](assignments-orders.md)
 - Use [Maximum Usage](maximum-usage.md) to track purchase commitments
+

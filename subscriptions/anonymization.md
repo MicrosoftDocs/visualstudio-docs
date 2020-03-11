@@ -36,11 +36,13 @@ A:  There are two ways to prevent the issue:
 - Deploy a single identity management system -- either MSA or AAD -- but not both.  
 - Associate the AAD and MSA identities via the tenant. 
 
-## Next steps
-Learn how to prevent anonymization by [associating MSA and AAD identities](https://docs.microsoft.com/azure/active-directory/b2b/add-users-administrator).
-
 ## See also
 - [Visual Studio documentation](https://docs.microsoft.com/visualstudio/)
 - [Azure DevOps documentation](https://docs.microsoft.com/azure/devops/)
 - [Azure documentation](https://docs.microsoft.com/azure/)
 - [Microsoft 365 documentation](https://docs.microsoft.com/microsoft-365/)
+
+## Next steps
+Learn how to prevent anonymization by [associating MSA and AAD identities](https://docs.microsoft.com/azure/active-directory/b2b/add-users-administrator).
+
+

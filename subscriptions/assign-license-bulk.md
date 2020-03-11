@@ -3,7 +3,7 @@ title: Assign licenses to groups of users for Visual Studio subscriptions | Micr
 author: evanwindom
 ms.author: lank
 manager: lank
-ms.date: 02/26/2020
+ms.date: 03/02/2020
 ms.topic: conceptual
 description:  Learn how administrators can assign licenses to multiple subscribers using either the Bulk add feature or Microsoft Azure Active Directory groups
 ---
@@ -13,6 +13,8 @@ The Subscriptions Administration Portal lets you add users one-at-a-time, or in 
 
 To add large groups of users, you can use the bulk add feature, or if your organization is using Microsoft Azure Active Directory (Azure AD), you can use Azure AD groups. This article will explain the process for both options. 
 
+> [!NOTE]
+> The use of Azure AD groups is being enabled in phases so you may not see it on your agreements immediately.
 
 ## Use Bulk add to assign subscriptions
 1. Sign into the Visual Studio Subscriptions Administration Portal at https://manage.visualstudio.com.
@@ -54,20 +56,17 @@ To add large groups of users, you can use the bulk add feature, or if your organ
    > [!div class="mx-imgBorder"]
    > ![Confirmation message if the upload of multiple subscribers succeeds](media/bulk-add-template-success.png)
 
-## Use Azure AD groups to assign subscriptions 
-Using this feature makes it easy to stay on top of your subscription assignments. You can add Azure AD Security Groups in the Subscriptions Administration Portal which will ensure that all individuals in the group are assigned a subscription. And to make it easier, when individuals leave your organization and are removed from Azure AD, their access to subscriptions is also removed.
-
-> [!NOTE]
-> This capability is being deployed in phases, so it may not be availability immediately for your organization.   
+## Use Azure Active Directory groups to assign subscriptions 
+Using this feature makes it easy to stay on top of your subscription assignments. You can add Azure Active Directory Security Groups in the Subscriptions Administration Portal which will ensure that all individuals in the group are assigned a subscription. And to make it easier, when individuals leave your organization and are removed from Azure Active Directory, their access to subscriptions is also removed. 
 
 > [!IMPORTANT]
 > The following limitations apply to the use of Azure AD groups for adding subscribers:
 > - Groups must contain at least one member.  Empty groups are not supported.
-> - Groups must have less than 1,000 users.
-> - All users must be in the top level of the group.  Nested groups are not supported.
-> - Only trusted agreements are supported.
-> - All members of the group must have an email address associated with their Azure AD account.
-
+> - Groups must have less than 1,000 users 
+> - All users must be in the top level of the group.  Nested groups are not supported
+> - Only trusted agreements are supported
+> - All members of the group must have an email address associated with their Azure AD account
+> - Separate email addresses for notifications are not supported for subscriptions added using Azure AD groups.  
 
 1. Sign in to the Visual Studio Subscriptions Administration Portal at [https://manage.visualstudio.com](https://manage.visualstudio.com).
 
@@ -112,6 +111,4 @@ A: Depending on how your organization has configured Azure AD, you may see delay
 ## Next steps
 - Have just one or two subscribers to add?  Check out [Add single users](assign-license.md)
 - Need help? Contact [Visual Studio Administration and Subscriptions Support](https://visualstudio.microsoft.com/support/support-overview-vs).
-
-
 
