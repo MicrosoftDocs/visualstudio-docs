@@ -45,29 +45,29 @@ The Python developer community has produced thousands of useful packages that yo
     main()
     ```
 
-4. Looking at the editor window, you'll notice that if you hover over the `numpy` and `matplotlib` import statements that they are not resolved. That's because the packages have not been installed to the default global environment.
+4. With a Python project open, you can also open the Python Environments window from Solution Explorer by right clicking on Python Environments and selecting **View All Python Environments**
+
+   ![Environment](media/environments/environments-view-all-2019.png)
+
+5. Looking at the editor window, you'll notice that if you hover over the `numpy` and `matplotlib` import statements that they are not resolved. That's because the packages have not been installed to the default global environment.
+
    ![Unresolved package import](media/packages-unresolved-import.png)
-
-5. With a Python project open, you can also open the Python Environments windo from Solution Explorer by right clicking on Python Environments and selecting **View All Python Environments**
-
-   ![Environtment](media/environments/environments-view-all.png)
-
 
 ## Install packages using the Python Environments window
 
 1. From the Python environments window, click on the default environment for new Python projects and select the **Packages** tab. You will then see a list of packages that are currently installed in the environment.
 
-   ![Packages installed in an environment](media/environments/environments-installed-packages-blue.png)
+   ![Packages installed in an environment](media/environments/environments-installed-packages-2019.png)
 
 2. Install `matplotlib` by entering its name into the search field and then selecting the **Run command: pip install matplotlib** option. This will install `matplotlib`, as well as any packages it depends on.
 
-   ![Installing matplotlib in the environment](media/environments/environments-add-matplotlib1.png)
+   ![Installing matplotlib in the environment](media/environments/environments-add-matplotlib-2019.png)
 
 5. Consent to elevation if prompted to do so.
 
 6. After the package is installed, it appears in the **Python Environments** window. The **X** to the right of the package uninstalls it.
 
-   ![Completion of installing matplotlib in the environment](media/environments/environments-add-matplotlib2.png)
+   ![Completion of installing matplotlib in the environment](media/environments/environments-add-matplotlib2-2019.png)
 
    A small progress bar may appear underneath the environment to indicate that Visual Studio is building its IntelliSense database for the newly-installed package. The **IntelliSense** tab also shows more detailed information. Note that until that database is complete, IntelliSense features like auto-completion and syntax checking won't be active in the editor for that package.
 
@@ -75,7 +75,7 @@ The Python developer community has produced thousands of useful packages that yo
 
 ## Run the program
 
-1. Run the program with (**F5**) or without the debugger (**Ctrl**+**F5**) to see the output:
+1. Now that [matplotlib](https://matplotlib.org/) is installed, run the program with (**F5**) or without the debugger (**Ctrl**+**F5**) to see the output:
 
    ![Output of matplotlib example](media/environments/environments-add-matplotlib3.png)
 
