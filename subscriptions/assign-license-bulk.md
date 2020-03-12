@@ -3,7 +3,7 @@ title: Assign licenses to groups of users for Visual Studio subscriptions | Micr
 author: evanwindom
 ms.author: lank
 manager: lank
-ms.date: 03/02/2020
+ms.date: 03/12/2020
 ms.topic: conceptual
 description:  Learn how administrators can assign licenses to multiple subscribers using either the Bulk add feature or Microsoft Azure Active Directory groups
 ---
@@ -58,6 +58,8 @@ To add large groups of users, you can use the bulk add feature, or if your organ
 
 ## Use Azure Active Directory groups to assign subscriptions 
 Using this feature makes it easy to stay on top of your subscription assignments. You can add Azure Active Directory Security Groups in the Subscriptions Administration Portal which will ensure that all individuals in the group are assigned a subscription. And to make it easier, when individuals leave your organization and are removed from Azure Active Directory, their access to subscriptions is also removed. 
+
+[Watch a video](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fyoutu.be%2FxPvOdB9GRRA&data=02%7C01%7Cv-evwin%40microsoft.com%7C175447c9b02e49837b3408d7c6aeefea%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637196326958998150&sdata=t6y2xBMCTlpAdwkzvif3%2FA6Ezm7bEToTea7bqy1ZuHM%3D&reserved=0) showing how to use this feature. 
 
 > [!IMPORTANT]
 > The following limitations apply to the use of Azure AD groups for adding subscribers:
