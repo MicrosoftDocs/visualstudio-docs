@@ -3,7 +3,7 @@ title: How to use connected Microsoft account and Azure Active Directory identit
 author: evanwindom
 ms.author: lank
 manager: lank
-ms.date: 09/27/2019
+ms.date: 03/11/2020
 ms.topic: conceptual
 robots: "noindex, nofollow"
 description:  Learn how to work with connected Microsoft accounts and Azure Active Directory identities
@@ -32,6 +32,12 @@ Adding an alternate account to your Visual Studio subscription allows you to acc
 ## Frequently asked questions
 ### Q: How can I contact my admin about this?
 A:  Please see our [Contact your subscriptions administrator](contact-my-admin.md) article for information about contacting your admin.  
+
+## See also
+- [Visual Studio documentation](https://docs.microsoft.com/visualstudio/)
+- [Azure DevOps documentation](https://docs.microsoft.com/azure/devops/)
+- [Azure documentation](https://docs.microsoft.com/azure/)
+- [Microsoft 365 documentation](https://docs.microsoft.com/microsoft-365/)
 
 ## Next steps
 After your admin connects your Azure AD and MSA accounts, we recommend verifying that you can successfully sign in to the [subscription portal](https://my.visualstudio.com?wt.mc_id=o~msft~docs) and access benefits like Azure DevOps, Visual Studio, and your Azure DevTest individual credit. 
