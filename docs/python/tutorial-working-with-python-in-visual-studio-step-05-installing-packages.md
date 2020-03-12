@@ -26,11 +26,11 @@ The Python developer community has produced thousands of useful packages that yo
    ![Python Environments window](media/environments/environments-default-view-2019.png)
 
    > [!NOTE]
-   > You can also open the Python Environments window by clicking on the Solution Explorer window and using the Ctrl+K, Ctrl+` keyboard shortcut. If the shortcut doesn't work and you can't find the Python Environments window in the menu, it's possible you haven't installed the Python workload. See [How to install Python support in Visual Studio](installing-python-support-in-visual-studio.md) for guidance on how to install Python.
+   > You can also open the Python Environments window by clicking on the Solution Explorer window and using the Ctrl+K, Ctrl+` keyboard shortcut. If the shortcut doesn't work and you can't find the Python Environments window in the menu, it's possible you haven't installed the Python workload. See [How to install Python support in Visual Studio](installing-python-support-in-visual-studio.md) for guidance about how to install Python.
 
 2. The environment's **Overview** tab provides quick access to an **Interactive** window for that environment along with the environment's installation folder and interpreters. For example, select **Open interactive window** and an **Interactive** window for that specific environment appears in Visual Studio.
 
-3. Now, create a new project with **File** > **New** > **Project**, selecting the **Python Application** template. In the code file that appears, paste the following code, which creates a cosine wave like the previous tutorial steps, only this time plotted graphically. Alternatively, you can just use the project you previously created and replace the code. 
+3. Now, create a new project with **File** > **New** > **Project**, selecting the **Python Application** template. In the code file that appears, paste the following code, which creates a cosine wave like the previous tutorial steps, only this time plotted graphically. Alternatively, you can use the project you previously created and replace the code. 
 
     ```python
     from math import radians
@@ -55,11 +55,11 @@ The Python developer community has produced thousands of useful packages that yo
 
 ## Install packages using the Python Environments window
 
-1. From the Python environments window, click on the default environment for new Python projects and select the **Packages** tab. You will then see a list of packages that are currently installed in the environment.
+1. From the Python Environments window, click on the default environment for new Python projects and select the **Packages** tab. You will then see a list of packages that are currently installed in the environment.
 
    ![Packages installed in an environment](media/environments/environments-installed-packages-2019.png)
 
-2. Install `matplotlib` by entering its name into the search field and then selecting the **Run command: pip install matplotlib** option. This will install `matplotlib`, as well as any packages it depends on.
+2. Install `matplotlib` by entering its name into the search field and then selecting the **Run command: pip install matplotlib** option. This will install `matplotlib`, as well as any packages it depends on (in this case that includes `numpy`).
 
    ![Installing matplotlib in the environment](media/environments/environments-add-matplotlib-2019.png)
 
