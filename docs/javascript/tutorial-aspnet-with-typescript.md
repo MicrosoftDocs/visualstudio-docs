@@ -34,6 +34,7 @@ In this tutorial, you learn how to:
 > * Add the NuGet package for TypeScript support
 > * Add some TypeScript code
 > * Run the app
+> * Add a third-party library using npm
 
 ## Prerequisites
 
@@ -52,6 +53,9 @@ In this tutorial, you learn how to:
 
 Visual Studio manages files for a single application in a *project*. The project includes source code, resources, and configuration files.
 
+>[!NOTE]
+> To start with an empty ASP.NET Core project and add a TypeScript frontend, see [ASP.NET Core with TypeScript](https://www.typescriptlang.org/docs/handbook/asp-net-core.html) instead.
+
 In this tutorial, you begin with a simple project containing code for an ASP.NET Core MVC app.
 
 1. Open Visual Studio.
@@ -59,14 +63,16 @@ In this tutorial, you begin with a simple project containing code for an ASP.NET
 1. Create a new project.
 
     ::: moniker range=">=vs-2019"
-    Press **Esc** to close the start window. Type **Ctrl + Q** to open the search box, type **ASP.NET**, then choose **ASP.NET Core Web Application - C#**. In the dialog box that appears, choose **Create**.
+    If the start window is not open, choose **File** > **Start Window**. On the start window, choose **Create a new project**. In the language drop-down list, choose **C#**. In the search box, type **ASP.NET**, then choose **ASP.NET Core Web Application**. Choose **Next**.
+
+    Type a name for the project and choose **Create**.
     ::: moniker-end
     ::: moniker range="vs-2017"
     From the top menu bar, choose **File** > **New** > **Project**. In the left pane of the **New Project** dialog box, expand **Visual C#**, then choose **.NET Core**. In the middle pane, choose **ASP.NET Core Web Application - C#**, then choose **OK**.
     ::: moniker-end
     If you don't see the **ASP.NET Core Web Application** project template, you must add the **ASP.NET and web development** workload. For detailed instructions, see the [Prerequisites](#prerequisites).
 
-1. After you choose **Create**, select **Web Application (Model-View-Controller)** in the dialog box, and then choose **Create**.
+1. In the dialog box that appears, select **Web Application (Model-View-Controller)** in the dialog box, and then choose **Create** (or **OK**).
 
    ![Choose the MVC template](../javascript/media/aspnet-core-ts-mvc-template.png)
 
@@ -206,20 +212,22 @@ In this tutorial, you begin with a simple project containing code for an ASP.NET
 
    The application pauses at the breakpoint. Now, you can inspect variables and use debugger features.
 
-## Add a third-party TypeScript npm package
+## Add TypeScript support for a third-party library
 
 1. Follow instructions in [npm package management](../javascript/npm-package-management.md##aspnet-core-projects) to add a package to your project.
 
 >[!NOTE]
 > For ASP.NET Core projects, you can also use [Library Manager](https://docs.microsoft.com/aspnet/core/client-side/libman/?view=aspnetcore-3.1) or yarn instead of npm to install client-side JavaScript and CSS files.
 
-1. In this example, add TypeScript jquery support to your project. Include the following in your *package.json* file.
+1. In this example, add a TypeScript definition file for jquery to your project. Include the following in your *package.json* file.
 
    ```json
    "devDependencies": {
       "@types/jquery": "3.3.33"
    }
    ```
+
+   This adds TypeScript support for jquery. The jquery library itself is already included in the MVC project template (look under wwwroot/lib in Solution Explorer).
 
 1. In Solution Explorer, right-click the scripts folder and choose **Add** > **New Item**.
 
