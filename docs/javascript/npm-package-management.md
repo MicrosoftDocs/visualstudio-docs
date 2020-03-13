@@ -65,6 +65,7 @@ npm packages are shown in Solution Explorer. The entries under the **npm** node 
 ![Search npm package](../javascript/media/solution-explorer-status.png)
 
 ### Package status
+
 * ![Installed package](../javascript/media/installed-npm.png) - Installed and listed in package.json
 * ![Extraneous package](../javascript/media/extraneous-npm.png) - Installed, but not explicitly
 listed in package.json
@@ -133,7 +134,7 @@ IntelliSense in *package.json* helps you select a particular version of an npm p
 
 When you save the file, Visual Studio adds the package under the **Dependencies / npm** node in Solution Explorer. If you don't see the node, right-click **package.json** and choose **Restore Packages**.
 
-Check progress on package installation by switching to **npm** output in the **Output** window.
+It may take several minutes to install a package. Check progress on package installation by switching to **npm** output in the **Output** window.
 
 ![npm output](../javascript/media/npm-output.png)
 
