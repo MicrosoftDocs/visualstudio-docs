@@ -37,7 +37,7 @@ For projects such as ASP.NET Core projects, you can integrate npm support in you
 * [Install packages using package.json](#npmInstallPackage)
 
 >[!NOTE]
-> For ASP.NET Core projects, you can also use [Library Manager](https://devblogs.microsoft.com/aspnet/library-manager-client-side-content-manager-for-web-apps/) instead of npm to install client-side JavaScript and CSS files.
+> For ASP.NET Core projects, you can also use [Library Manager](https://docs.microsoft.com/aspnet/core/client-side/libman/?view=aspnetcore-3.1) or yarn instead of npm to install client-side JavaScript and CSS files.
 
 ### <a name="npmAdd"></a> Add npm support to a project (ASP.NET Core)
 

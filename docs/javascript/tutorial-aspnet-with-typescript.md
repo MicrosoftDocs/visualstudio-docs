@@ -208,7 +208,10 @@ In this tutorial, you begin with a simple project containing code for an ASP.NET
 
 ## Add a third-party TypeScript npm package
 
-1. Follow instructions in [npm package management](../javascript/npm-package-management.md##ASP.NET-Core) to add a package to your project.
+1. Follow instructions in [npm package management](../javascript/npm-package-management.md##aspnet-core-projects) to add a package to your project.
+
+>[!NOTE]
+> For ASP.NET Core projects, you can also use [Library Manager](https://docs.microsoft.com/aspnet/core/client-side/libman/?view=aspnetcore-3.1) or yarn instead of npm to install client-side JavaScript and CSS files.
 
 1. In this example, add TypeScript jquery support to your project. Include the following in your *package.json* file.
 
@@ -227,7 +230,7 @@ In this tutorial, you begin with a simple project containing code for an ASP.NET
    ```ts
    var jqtest = {
       showMsg: function (): void {
-         var content = $("#ts-example-2")[0].innerHTML;
+         let content: any = $("#ts-example-2")[0].innerHTML;
          alert(content.toString());
          $("#ts-example-2")[0].innerHTML = content + " jquery!!";
       }
@@ -236,6 +239,12 @@ In this tutorial, you begin with a simple project containing code for an ASP.NET
    jqtest.showMsg();
    ```
 
+   For simplicity, this code displays a message using jquery and an alert.
+
+   With jquery added, you get IntelliSense support on jquery objects when you type a "." following a jquery object, as shown here.
+
+   ![jquery IntelliSense](../javascript/media/aspnet-core-ts-jquery-intellisense.png)
+
 1. In _Layout.cshtml, update the script references to include `library.js`.
 
    ```html
@@ -243,13 +252,21 @@ In this tutorial, you begin with a simple project containing code for an ASP.NET
    <script src="~/js/library.js"></script>
    ```
 
-1. In Index.cshtml, include the following code.
+1. In Index.cshtml, add the following HTML to the end of the file.
 
    ```html
    <div>
       <p id="ts-example-2">Hello</p>
    </div>
    ```
+
+1. Press **F5** (**Debug** > **Start Debugging**) to run the application.
+
+    The app opens in the browser.
+
+    ![jquery example](../javascript/media/aspnet-core-ts-jquery-example.png)
+
+    Click **OK* in the alert to see the message updated.
 
 ## Next steps
 
