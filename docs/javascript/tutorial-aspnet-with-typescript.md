@@ -227,7 +227,7 @@ In this tutorial, you begin with a simple project containing code for an ASP.NET
    }
    ```
 
-   This adds TypeScript support for jquery. The jquery library itself is already included in the MVC project template (look under wwwroot/lib in Solution Explorer).
+   This adds TypeScript support for jquery. The jquery library itself is already included in the MVC project template (look under wwwroot/lib in Solution Explorer). If you are using a different template, you may need to include the jquery npm package as well.
 
 1. In Solution Explorer, right-click the scripts folder and choose **Add** > **New Item**.
 
