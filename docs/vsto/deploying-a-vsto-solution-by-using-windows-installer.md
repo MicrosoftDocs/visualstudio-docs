@@ -218,7 +218,7 @@ Microsoft Office locates Add-ins by using registry keys. The keys in the HKEY\_C
 
 12. Right-click the **Description** value in the registry editor and click **Properties Window**. In the **Properties Window**, enter **Excel Demo AddIn** for the Value property.
 13. Select the **FriendlyName** key in the registry editor. In the **Properties Window**, change the **Value** property to **Excel Demo AddIn**.
-14. Select the **LoadBehavior** key in the registry editor. In the **Properties Window**, change the **Value** property to **3.** The value 3 for the LoadBehavior indicates that the add-in should be loaded at startup of the host application. For more information about load behavior, see [Registry entries for VSTO Add-ins](registry-entries-for-vsto-add-in.md).
+14. Select the **LoadBehavior** key in the registry editor. In the **Properties Window**, change the **Value** property to **3.** The value 3 for the LoadBehavior indicates that the add-in should be loaded at startup of the host application. For more information about load behavior, see [Registry entries for VSTO Add-ins](registry-entries-for-vsto-add-ins.md).
 
 15. Select the **Manifest** key in the registry editor. In the **Properties Window**, change the **Value** property to **file:///[TARGETDIR]ExcelAddIn.vsto|vstolocal**
 
