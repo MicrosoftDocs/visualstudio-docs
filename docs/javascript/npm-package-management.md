@@ -2,7 +2,7 @@
 title: "Manage npm packages"
 description: Visual Studio helps you to manage packages using the Node.js package manager (npm)
 ms.custom: "seodec18"
-ms.date: "06/06/2018"
+ms.date: "03/12/2020"
 ms.topic: "conceptual"
 ms.devlang: javascript
 author: "mikejo5000"
@@ -30,7 +30,26 @@ These features work together and synchronize with the project system and the *pa
 > NPM expects the *node_modules* folder and *package.json* in the project root. If your app's folder structure is different, you should update your folder structure if you want to manage npm packages using Visual Studio.
 
 > [!NOTE]
-> For existing NPM projects, use the **From existing Node.js code** solution template.
+> For existing npm projects, use the **From existing Node.js code** solution template.
+
+## Add npm support to an ASP.NET Core project
+
+If your project does not already include a *package.json* file, you can add one enable npm support by adding a package.json file to the project.
+
+1. To add the file, right-click the project in Solution Explorer and choose **Add** > **New Item**. Choose the **npm Configuration File**, use the default name, and click **Add**.
+
+   ![Add package.json to your project](../javascript/media/npm-add-package-json.png)
+
+1. Include one or more npm packages in the `dependencies` or `devDependencies` section of *package.json*. For example, you might add the following to the file:
+
+   ```json
+   "devDependencies": {
+      "gulp": "4.0.2",
+      "@types/jquery": "3.3.33"
+   }
+   ```
+
+When you save the file, Visual Studio adds the package under the **Dependencies / npm** node in Solution Explorer. If you don't see the node, right-click **package.json** and choose **Restore Packages**.
 
 ## <a name="npmInstallWindow"></a> Install packages from Solution Explorer
 
