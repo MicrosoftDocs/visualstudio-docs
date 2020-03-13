@@ -36,11 +36,11 @@ Visual Studio 2019 provides several options for integrating TypeScript compilati
 
 For projects developed in Visual Studio 2019, we encourage you to use the TypeScript NuGet and npm packages for greater portability across different platforms and environments.
 
-One common usage for the NuGet package is to TypeScript using the .NET Core CLI. Unless you manually edit your project file to import build targets from a TypeScript SDK installation, the NuGet package is the only way to enable TypeScript compilation using .NET Core CLI commands such as `dotnet build` and `dotnet publish`.
+One common usage for the NuGet package is to compile TypeScript using the .NET Core CLI. Unless you manually edit your project file to import build targets from a TypeScript SDK installation, the NuGet package is the only way to enable TypeScript compilation using .NET Core CLI commands such as `dotnet build` and `dotnet publish`.
 
 ## Remove default imports (ASP.NET Core projects)
 
-In older projects that use the non-SDK-style format, you may need to remove some project file elements.
+In older projects that use the [non-SDK-style format](https://docs.microsoft.com/nuget/resources/check-project-format), you may need to remove some project file elements.
 
 If you are using the NuGet package for MSBuild support for a project, the project file must not import `Microsoft.TypeScript.Default.props` or `Microsoft.TypeScript.targets`. The files get imported by the NuGet package, so including them separately could cause unintended behavior.
 

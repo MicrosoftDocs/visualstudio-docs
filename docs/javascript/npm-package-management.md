@@ -16,23 +16,30 @@ ms.workload:
 
 # Manage npm packages in Visual Studio
 
-npm allows you to install and manage packages for use in your Node.js applications. If you're unfamiliar with
+npm allows you to install and manage packages for use in your Node.js applications. Visual Studio makes it easy to interact with npm and issue npm commands through the UI or directly. If you're unfamiliar with
 npm and want to learn more, go to the [npm documentation](https://docs.npmjs.com/).
 
-Visual Studio makes it easy to interact with npm and issue npm commands through the UI or directly. You can use the following methods:
-* [Install packages from Solution Explorer](#npmInstallWindow)
-* [Manage installed packages from Solution Explorer](#solutionExplorer)
-* [Use the `.npm` command in the Node.js Interactive Window](#interactive)
-
-These features work together and synchronize with the project system and the *package.json* file in the project.
+Visual Studio integration with npm integration is different depending on your project type.
+* [ASP.NET Core](#ASP.NET-Core)
+* [Node.js](#Node.js)
+* [Open folder (Node.js)](../javascript/develop-javascript-code-without-solutions-or-projects.md)
 
 > [!Important]
-> NPM expects the *node_modules* folder and *package.json* in the project root. If your app's folder structure is different, you should update your folder structure if you want to manage npm packages using Visual Studio.
+> npm expects the *node_modules* folder and *package.json* in the project root. If your app's folder structure is different, you should modify your folder structure if you want to manage npm packages using Visual Studio.
 
 > [!NOTE]
-> For existing npm projects, use the **From existing Node.js code** solution template.
+> For existing Node.js projects, use the **From existing Node.js code** solution template to enable npm in your project.
 
-## Add npm support to an ASP.NET Core project
+## ASP.NET Core projects
+
+For projects such as ASP.NET Core projects, you can integrate npm support in your project and use npm to install packages.
+* [Add npm support to a project](#npmAdd)
+* [Install packages using package.json](#npmInstallPackage)
+
+>[!NOTE]
+> For ASP.NET Core projects, you can also use [Library Manager](https://devblogs.microsoft.com/aspnet/library-manager-client-side-content-manager-for-web-apps/) instead of npm to install client-side JavaScript and CSS files.
+
+### <a name="npmAdd"></a> Add npm support to a project (ASP.NET Core)
 
 If your project does not already include a *package.json* file, you can add one enable npm support by adding a package.json file to the project.
 
@@ -51,9 +58,34 @@ If your project does not already include a *package.json* file, you can add one 
 
 When you save the file, Visual Studio adds the package under the **Dependencies / npm** node in Solution Explorer. If you don't see the node, right-click **package.json** and choose **Restore Packages**.
 
-## <a name="npmInstallWindow"></a> Install packages from Solution Explorer
+### <a name="npmInstallPackage"></a>Install packages using package.json (ASP.NET Core)
 
-The easiest way to install npm packages is through the npm package installation window. To access this window, right-click the **npm** node in the project and select **Install New npm Packages**.
+For projects with npm included, you can configure npm packages using `package.json`. Right-click the npm node in Solution Explorer and choose **Open package.json**.
+
+![Search npm package](../javascript/media/npm-add-package.png)
+
+IntelliSense in *package.json* helps you select a particular version of an npm package.
+
+![Search npm package](../javascript/media/npm-add-package-intellisense.png)
+
+When you save the file, Visual Studio adds the package under the **Dependencies / npm** node in Solution Explorer. If you don't see the node, right-click **package.json** and choose **Restore Packages**.
+
+Check progress on package installation by switching to **npm** output in the **Output** window.
+
+![npm output](../javascript/media/npm-output.png)
+
+## Node.js projects
+
+For Node.js projects, use one the following methods:
+* [Install packages from Solution Explorer](#npmInstallWindow)
+* [Manage installed packages from Solution Explorer](#solutionExplorer)
+* [Use the `.npm` command in the Node.js Interactive Window](#interactive)
+
+These features work together and synchronize with the project system and the *package.json* file in the project.
+
+### <a name="npmInstallWindow"></a> Install packages from Solution Explorer (Node.js)
+
+For Node.js projects, the easiest way to install npm packages is through the npm package installation window. To access this window, right-click the **npm** node in the project and select **Install New npm Packages**.
 
 ![Install new npm package from solution explorer](../javascript/media/solution-explorer-install-package.png)
 
@@ -69,9 +101,9 @@ In this window you can search for a package, specify options, and install.
 You can see the progress of the installation in the npm tab in the Output window. This may take some time.
 
 > [!TIP]
-> You can search for scoped packages by prepending the search query with the scope you're interested in, for example, type `@types/mocha` to look for TypeScript definition files for mocha. Also, when installing type definitions for TypeScript, you can specify the TypeScript version you're targetting by adding `@ts2.6` in the npm argument field.
+> You can search for scoped packages by prepending the search query with the scope you're interested in, for example, type `@types/mocha` to look for TypeScript definition files for mocha. Also, when installing type definitions for TypeScript, you can specify the TypeScript version you're targeting by adding `@ts2.6` in the npm argument field.
 
-## <a name="solutionExplorer"></a>Manage installed packages in Solution Explorer
+### <a name="solutionExplorer"></a>Manage installed packages in Solution Explorer (Node.js)
 
 npm packages are shown in Solution Explorer. The entries under the **npm** node mimic the dependencies in the *package.json* file.
 
@@ -88,7 +120,7 @@ Right-click a package node or the **npm** node to take one of the following acti
 * **Update packages** to the latest version
 * **Uninstall a package** and remove from *package.json*
 
-## <a name="interactive"></a>Use the .npm command in the Node.js Interactive Window
+### <a name="interactive"></a>Use the .npm command in the Node.js Interactive Window (Node.js)
 
 You can also use the `.npm` command in the Node.js Interactive Window to execute
  npm commands. To open the window, right-click the project in Solution Explorer and choose **Open Node.js Interactive Window**.
