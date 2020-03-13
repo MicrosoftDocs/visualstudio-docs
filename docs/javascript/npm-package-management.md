@@ -21,7 +21,7 @@ npm allows you to install and manage packages for use in your Node.js applicatio
 Visual Studio integration with npm is different depending on your project type.
 * [Node.js](#nodejs-projects)
 * [ASP.NET Core](#aspnet-core-projects)
-* [Open folder (Node.js)](../javascript/develop-javascript-code-without-solutions-or-projects.md)
+* [Open folder (Node.js)](../javascript/develop-javascript-code-without-solutions-projects.md)
 
 > [!Important]
 > npm expects the *node_modules* folder and *package.json* in the project root. If your app's folder structure is different, you should modify your folder structure if you want to manage npm packages using Visual Studio.
