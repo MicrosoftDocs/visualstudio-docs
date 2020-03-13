@@ -44,7 +44,7 @@ ClickOnce can easily be used to create setups for your Add-ins and solutions. Ho
 
 Add-ins that require administrative privileges can be installed by using Windows Installer but it does require more effort to create the setup.
 
-For an overview of how to deploy a VSTO solution using ClickOnce, see [Deploy an Office solution by using ClickOnce](deploying-an-office-solution-by-using-clickonce).
+For an overview of how to deploy a VSTO solution using ClickOnce, see [Deploy an Office solution by using ClickOnce](deploying-an-office-solution-by-using-clickonce.md).
 
 ## Deploying Office solutions that target the VSTO runtime
 
@@ -191,7 +191,7 @@ To configure dependent components as prerequisites
     > [!NOTE]
     >Some of the configured prerequisite packages in your Visual Studio Setup Project are dependent on the selected build configuration. You must select the right prerequisite components for each build configuration that you use.
 
-Microsoft Office locates Add-ins by using registry keys. The keys in the HKEY\_CURRENT\_USER hive are used to register the add-in for each individual user. The keys under the HKEY\_LOCAL\_MACHINE hive are used to register the add-in for all users of the machine. For more information about registry keys, see [Registry entries for VSTO Add-ins](registry-entries-for-vsto-add-ins).
+Microsoft Office locates Add-ins by using registry keys. The keys in the HKEY\_CURRENT\_USER hive are used to register the add-in for each individual user. The keys under the HKEY\_LOCAL\_MACHINE hive are used to register the add-in for all users of the machine. For more information about registry keys, see [Registry entries for VSTO Add-ins](registry-entries-for-vsto-add-ins.md).
 
 ### To configure the registry
 
@@ -218,7 +218,7 @@ Microsoft Office locates Add-ins by using registry keys. The keys in the HKEY\_C
 
 12. Right-click the **Description** value in the registry editor and click **Properties Window**. In the **Properties Window**, enter **Excel Demo AddIn** for the Value property.
 13. Select the **FriendlyName** key in the registry editor. In the **Properties Window**, change the **Value** property to **Excel Demo AddIn**.
-14. Select the **LoadBehavior** key in the registry editor. In the **Properties Window**, change the **Value** property to **3.** The value 3 for the LoadBehavior indicates that the add-in should be loaded at startup of the host application. For more information about load behavior, see [Registry entries for VSTO Add-ins](registry-entries-for-vsto-add-ins).
+14. Select the **LoadBehavior** key in the registry editor. In the **Properties Window**, change the **Value** property to **3.** The value 3 for the LoadBehavior indicates that the add-in should be loaded at startup of the host application. For more information about load behavior, see [Registry entries for VSTO Add-ins](registry-entries-for-vsto-add-in.md).
 
 15. Select the **Manifest** key in the registry editor. In the **Properties Window**, change the **Value** property to **file:///[TARGETDIR]ExcelAddIn.vsto|vstolocal**
 
@@ -301,7 +301,7 @@ To check if the Interop Types will be embedded in your Add-in by performing the 
 3. View the properties windows by hitting F4 or selecting Properties from the Assemblies context menu.
 4. Check the value of the property **Embed Interop Types**.
 
-If the value is set to **True**, then the Types are being embedded and you can skip down to the [**To build the setup project**](#To-build-the-setup-project) section.
+If the value is set to **True**, then the Types are being embedded and you can skip down to the [**To build the setup project**](#to-build-the-setup-project) section.
 
 For more information, see [Type Equivalence and Embedded Interop Types](/dotnet/framework/interop/type-equivalence-and-embedded-interop-types)
 
