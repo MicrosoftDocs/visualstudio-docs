@@ -39,6 +39,8 @@ MSBuild items are inputs into the build system, and they typically represent fil
 </ItemGroup>
 ```
 
+The `Include` attribute is a path that is interpreted relative to the project file's folder, $(MSBuildProjectPath), even if the item is in an imported file such as a *.targets* file.
+
 ## Create items during execution
 
  Items that are outside [Target](../msbuild/target-element-msbuild.md) elements are assigned values during the evaluation phase of a build. During the subsequent execution phase, items can be created or modified in the following ways:
