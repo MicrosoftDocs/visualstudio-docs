@@ -194,10 +194,6 @@ In this tutorial, you begin with a simple project containing code for an ASP.NET
 
 1. Click the button to display the message we specified in the TypeScript file.
 
-## Add a third-party package
-
-
-
 ## Debug the application
 
 1. Set a breakpoint in the `greeter` function in `app.ts` by clicking in the left margin in the code editor.
@@ -209,6 +205,51 @@ In this tutorial, you begin with a simple project containing code for an ASP.NET
    You may need to respond to a message to enable script debugging.
 
    The application pauses at the breakpoint. Now, you can inspect variables and use debugger features.
+
+## Add a third-party TypeScript npm package
+
+1. Follow instructions in [npm package management](../javascript/npm-package-management.md##ASP.NET-Core) to add a package to your project.
+
+1. In this example, add TypeScript jquery support to your project. Include the following in your *package.json* file.
+
+   ```json
+   "devDependencies": {
+      "@types/jquery": "3.3.33"
+   }
+   ```
+
+1. In Solution Explorer, right-click the scripts folder and choose **Add** > **New Item**.
+
+1. Choose **TypeScript File**, type *library.ts*, and choose **Add**.
+
+1. In *library.ts*, add the following code.
+
+   ```ts
+   var jqtest = {
+      showMsg: function (): void {
+         var content = $("#ts-example-2")[0].innerHTML;
+         alert(content.toString());
+         $("#ts-example-2")[0].innerHTML = content + " jquery!!";
+      }
+   };
+
+   jqtest.showMsg();
+   ```
+
+1. In _Layout.cshtml, update the script references to include `library.js`.
+
+   ```html
+   <script src="~/js/app.js"></script>
+   <script src="~/js/library.js"></script>
+   ```
+
+1. In Index.cshtml, include the following code.
+
+   ```html
+   <div>
+      <p id="ts-example-2">Hello</p>
+   </div>
+   ```
 
 ## Next steps
 

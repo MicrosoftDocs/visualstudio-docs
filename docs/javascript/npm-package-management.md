@@ -19,9 +19,9 @@ ms.workload:
 npm allows you to install and manage packages for use in your Node.js applications. Visual Studio makes it easy to interact with npm and issue npm commands through the UI or directly. If you're unfamiliar with
 npm and want to learn more, go to the [npm documentation](https://docs.npmjs.com/).
 
-Visual Studio integration with npm integration is different depending on your project type.
-* [ASP.NET Core](#ASP.NET-Core)
-* [Node.js](#Node.js)
+Visual Studio integration with npm is different depending on your project type.
+* [ASP.NET Core](#aspnet-core-projects)
+* [Node.js](#nodejs-projects)
 * [Open folder (Node.js)](../javascript/develop-javascript-code-without-solutions-or-projects.md)
 
 > [!Important]
