@@ -212,7 +212,7 @@ In this tutorial, you begin with a simple project containing code for an ASP.NET
 
    The application pauses at the breakpoint. Now, you can inspect variables and use debugger features.
 
-## Add TypeScript support for a third-party library
+## Add TypeScript support for a third-party JavaScript library
 
 1. Follow instructions in [npm package management](../javascript/npm-package-management.md##aspnet-core-projects) to add a package to your project.
 
