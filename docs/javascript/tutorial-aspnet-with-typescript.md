@@ -274,7 +274,7 @@ In this tutorial, you begin with a simple project containing code for an ASP.NET
 
     ![jquery example](../javascript/media/aspnet-core-ts-jquery-example.png)
 
-    Click **OK* in the alert to see the message updated.
+    Click **OK** in the alert to see the page updated to **Hello jquery!!**.
 
 ## Next steps
 
