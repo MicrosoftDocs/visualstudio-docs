@@ -6,7 +6,7 @@ keywords:
 author: TerryGLee
 ms.author: tglee
 manager: jillfra
-ms.date: today
+ms.date: 03/16/2020
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
 ms.topic: include
@@ -373,7 +373,7 @@ Microsoft.VisualStudio.Component.Graphics.Tools | Graphics debugger and GPU prof
 Microsoft.VisualStudio.Component.VC.ASAN | C++ AddressSanitizer (Experimental) | 16.5.29515.121 | Recommended
 Microsoft.VisualStudio.Component.VC.DiagnosticTools | C++ profiling tools | 16.5.29515.121 | Recommended
 Microsoft.VisualStudio.Component.Windows10SDK.18362 | Windows 10 SDK (10.0.18362.0) | 16.1.28829.92 | Recommended
-Component.Android.NDK.R16B | Android NDK (R16B) | 16.5.29916.76 | Optional
+Component.Android.NDK.R16B | Android NDK (R16B) | 16.5.29916.74 | Optional
 Component.Android.SDK25.Private | Android SDK setup (API level 25) (local install for Mobile development with C++) | 16.0.28625.61 | Optional
 Component.Ant | Apache Ant (1.9.3) | 1.9.3.8 | Optional
 Component.Cocos | Cocos | 16.0.28315.86 | Optional
@@ -414,10 +414,10 @@ Component.Android.SDK25.Private | Android SDK setup (API level 25) (local instal
 Component.OpenJDK | OpenJDK (Microsoft distribution) | 16.1.28811.260 | Required
 Microsoft.VisualStudio.Component.IntelliCode | IntelliCode | 0.1 | Required
 Microsoft.VisualStudio.Component.VC.CoreIde | C++ core features | 16.0.28625.61 | Required
-Component.Android.NDK.R16B | Android NDK (R16B) | 16.5.29916.76 | Recommended
+Component.Android.NDK.R16B | Android NDK (R16B) | 16.5.29916.74 | Recommended
 Component.Ant | Apache Ant (1.9.3) | 1.9.3.8 | Recommended
 Component.MDD.Android | C++ Android development tools | 16.0.28517.75 | Recommended
-Component.Android.NDK.R16B_3264 | Android NDK (R16B) (32bit) | 16.5.29916.76 | Optional
+Component.Android.NDK.R16B_3264 | Android NDK (R16B) (32bit) | 16.5.29916.74 | Optional
 Component.Google.Android.Emulator.API25.Private | Google Android Emulator (API Level 25) (local install) | 16.1.28810.153 | Optional
 Component.HAXM.Private | Intel Hardware Accelerated Execution Manager (HAXM) (local install) | 16.0.28528.71 | Optional
 Component.Incredibuild | IncrediBuild - Build Acceleration | 16.5.29721.120 | Optional
