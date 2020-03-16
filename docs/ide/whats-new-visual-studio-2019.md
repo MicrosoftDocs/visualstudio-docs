@@ -216,6 +216,6 @@ Why send feedback to the Visual Studio team? Because we take customer feedback s
 
 * [Visual Studio 2019 release notes](/visualstudio/releases/2019/release-notes/)
 * [Visual Studio 2019 for Mac release notes](/visualstudio/releasenotes/vs2019-mac-relnotes/)
-* [What's New in the Visual Studio 2019 SDK](../extensibility/whats-new-visual-studio-2019-sdk.md)
+* [What's new in the Visual Studio 2019 SDK](../extensibility/whats-new-visual-studio-2019-sdk.md)
 * [Microsoft Build conference](https://www.microsoft.com/build)
-* [Microsoft Ignite conferences(https://www.microsoft.com/ignite)
+* [Microsoft Ignite conference](https://www.microsoft.com/ignite)
