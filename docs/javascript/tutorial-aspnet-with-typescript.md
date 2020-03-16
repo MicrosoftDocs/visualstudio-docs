@@ -1,7 +1,7 @@
 ---
 title: "Create an ASP.NET Core app with TypeScript"
 description: In this tutorial, you create an app using ASP.NET Core and TypeScript
-ms.date: 01/03/2020
+ms.date: 03/16/2020
 ms.topic: tutorial
 ms.devlang: javascript
 author: mikejo5000
@@ -232,7 +232,7 @@ In this tutorial, you begin with a simple project containing code for an ASP.NET
 1. If the package in Solution Explorer is not installed, right-click the npm node and choose **Restore Packages**.
 
    >[!NOTE]
-   > In some scenarios, Solution Explorer may indicate that an npm package is out of sync with *package.json* due to a known issue described [here](https://github.com/aspnet/Tooling/issues/479), and the package may appear as not installed when it is installed. In most cases, you can clean the solution by deleting *package.json*, restarting Visual Studio, and re-adding the *package.json* file as described earlier in this article.
+   > In some scenarios, Solution Explorer may indicate that an npm package is out of sync with *package.json* due to a known issue described [here](https://github.com/aspnet/Tooling/issues/479). For example, the package may appear as not installed when it is installed. In most cases, you can update Solution Explorer by deleting *package.json*, restarting Visual Studio, and re-adding the *package.json* file as described earlier in this article.
 
 1. In Solution Explorer, right-click the scripts folder and choose **Add** > **New Item**.
 

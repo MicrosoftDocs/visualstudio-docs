@@ -1,6 +1,6 @@
 ---
 title: JavaScript and TypeScript in Visual Studio 2019
-ms.date: "03/27/2019"
+ms.date: "03/16/2020"
 ms.technology: vs-javascript
 ms.topic: conceptual
 dev_langs:
