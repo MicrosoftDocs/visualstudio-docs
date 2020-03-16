@@ -5,7 +5,7 @@ description: A list of released versions and build numbers for Visual Studio, so
 author: ornellaalt
 ms.author: ornella
 manager: jillfra
-ms.date: 03/10/2020
+ms.date: 03/16/2020
 ms.topic: reference
 ms.workload:
 - multiple
