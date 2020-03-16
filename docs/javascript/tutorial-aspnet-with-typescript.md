@@ -212,18 +212,18 @@ In this tutorial, you begin with a simple project containing code for an ASP.NET
 
    The application pauses at the breakpoint. Now, you can inspect variables and use debugger features.
 
-## Add TypeScript support for a third-party JavaScript library
+## Add TypeScript support for a third-party library
 
 1. Follow instructions in [npm package management](../javascript/npm-package-management.md##aspnet-core-projects) to add a package to your project.
 
->[!NOTE]
-> For ASP.NET Core projects, you can also use [Library Manager](https://docs.microsoft.com/aspnet/core/client-side/libman/?view=aspnetcore-3.1) or yarn instead of npm to install client-side JavaScript and CSS files.
+   >[!NOTE]
+   > For ASP.NET Core projects, you can also use [Library Manager](https://docs.microsoft.com/aspnet/core/client-side/libman/?view=aspnetcore-3.1) or yarn instead of npm to install client-side JavaScript and CSS files.
 
 1. In this example, add a TypeScript definition file for jquery to your project. Include the following in your *package.json* file.
 
    ```json
    "devDependencies": {
-      "@types/jquery": "3.3.33"
+      "@types/jquery": "3.3.1"
    }
    ```
 
@@ -238,9 +238,10 @@ In this tutorial, you begin with a simple project containing code for an ASP.NET
    ```ts
    var jqtest = {
       showMsg: function (): void {
+         let v: any = jQuery.fn.jquery.toString();
          let content: any = $("#ts-example-2")[0].innerHTML;
          alert(content.toString());
-         $("#ts-example-2")[0].innerHTML = content + " jquery!!";
+         $("#ts-example-2")[0].innerHTML = content + " " + v + "!!";
       }
    };
 
@@ -264,7 +265,7 @@ In this tutorial, you begin with a simple project containing code for an ASP.NET
 
    ```html
    <div>
-      <p id="ts-example-2">Hello</p>
+      <p id="ts-example-2">jQuery version is</p>
    </div>
    ```
 
@@ -272,9 +273,9 @@ In this tutorial, you begin with a simple project containing code for an ASP.NET
 
     The app opens in the browser.
 
-    ![jquery example](../javascript/media/aspnet-core-ts-jquery-example.png)
+    Click **OK** in the alert to see the page updated to **jQuery version is 3.3.1!!**.
 
-    Click **OK** in the alert to see the page updated to **Hello jquery!!**.
+    ![jquery example](../javascript/media/aspnet-core-ts-jquery-example.png)
 
 ## Next steps
 
