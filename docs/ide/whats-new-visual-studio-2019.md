@@ -2,7 +2,7 @@
 title: "What's new in Visual Studio 2019"
 titleSuffix: ""
 description: "Learn about the new features in Visual Studio 2019."
-ms.date: 02/28/2020
+ms.date: 03/16/2020
 helpviewer_keywords:
   - "Visual Studio, what's new"
   - "what's new [Visual Studio]"
@@ -18,7 +18,7 @@ ms.workload:
 ---
 # What's new in Visual Studio 2019
 
-**Updated for the [16.4 release](/visualstudio/releases/2019/release-notes/)**
+**Updated for the [16.5 release](/visualstudio/releases/2019/release-notes/)**
 
 >[!div class="button"]
 >[Download Visual Studio 2019](https://visualstudio.microsoft.com/downloads)
@@ -216,5 +216,6 @@ Why send feedback to the Visual Studio team? Because we take customer feedback s
 
 * [Visual Studio 2019 release notes](/visualstudio/releases/2019/release-notes/)
 * [Visual Studio 2019 for Mac release notes](/visualstudio/releasenotes/vs2019-mac-relnotes/)
-* [What's New in the Visual Studio 2019 SDK](../extensibility/whats-new-visual-studio-2019-sdk.md)
+* [What's new in the Visual Studio 2019 SDK](../extensibility/whats-new-visual-studio-2019-sdk.md)
 * [Microsoft Build conference](https://www.microsoft.com/build)
+* [Microsoft Ignite conference](https://www.microsoft.com/ignite)

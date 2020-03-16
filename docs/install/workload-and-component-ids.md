@@ -44,7 +44,7 @@ For more information about how to use these lists, see the [Use command-line par
 
 ::: moniker range="vs-2019"
 
-**Updated for the [16.4 release](/visualstudio/releases/2019/release-notes/)**
+**Updated for the [16.5 release](/visualstudio/releases/2019/release-notes/)**
 
 | **Edition** | **ID** | **Description** |
 | ----------- | ------ | --------------- |
