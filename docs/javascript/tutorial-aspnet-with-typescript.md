@@ -219,15 +219,20 @@ In this tutorial, you begin with a simple project containing code for an ASP.NET
    >[!NOTE]
    > For ASP.NET Core projects, you can also use [Library Manager](https://docs.microsoft.com/aspnet/core/client-side/libman/?view=aspnetcore-3.1) or yarn instead of npm to install client-side JavaScript and CSS files.
 
-1. In this example, add a TypeScript definition file for jquery to your project. Include the following in your *package.json* file.
+1. In this example, add a TypeScript definition file for jQuery to your project. Include the following in your *package.json* file.
 
    ```json
    "devDependencies": {
-      "@types/jquery": "3.3.1"
+      "@types/jquery": "3.3.33"
    }
    ```
 
-   This adds TypeScript support for jquery. The jquery library itself is already included in the MVC project template (look under wwwroot/lib in Solution Explorer). If you are using a different template, you may need to include the jquery npm package as well.
+   This adds TypeScript support for jQuery. The jQuery library itself is already included in the MVC project template (look under wwwroot/lib in Solution Explorer). If you are using a different template, you may need to include the jquery npm package as well.
+
+1. If the package in Solution Explorer is not installed, right-click the npm node and choose **Restore Packages**.
+
+   >[!NOTE]
+   > In some scenarios, Solution Explorer may indicate that an npm package is out of sync with *package.json* due to a known issue described [here](https://github.com/aspnet/Tooling/issues/479), and the package may appear as not installed when it is installed. In most cases, you can clean the solution by deleting *package.json*, restarting Visual Studio, and re-adding the *package.json* file as described earlier in this article.
 
 1. In Solution Explorer, right-click the scripts folder and choose **Add** > **New Item**.
 
@@ -248,9 +253,9 @@ In this tutorial, you begin with a simple project containing code for an ASP.NET
    jqtest.showMsg();
    ```
 
-   For simplicity, this code displays a message using jquery and an alert.
+   For simplicity, this code displays a message using jQuery and an alert.
 
-   With jquery added, you get IntelliSense support on jquery objects when you type a "." following a jquery object, as shown here.
+   With TypeScript type definitions for jQuery added, you get IntelliSense support on jQuery objects when you type a "." following a jQuery object, as shown here.
 
    ![jquery IntelliSense](../javascript/media/aspnet-core-ts-jquery-intellisense.png)
 
@@ -265,7 +270,7 @@ In this tutorial, you begin with a simple project containing code for an ASP.NET
 
    ```html
    <div>
-      <p id="ts-example-2">jQuery version is</p>
+      <p id="ts-example-2">jQuery version is:</p>
    </div>
    ```
 
@@ -273,7 +278,7 @@ In this tutorial, you begin with a simple project containing code for an ASP.NET
 
     The app opens in the browser.
 
-    Click **OK** in the alert to see the page updated to **jQuery version is 3.3.1!!**.
+    Click **OK** in the alert to see the page updated to **jQuery version is: 3.3.1!!**.
 
     ![jquery example](../javascript/media/aspnet-core-ts-jquery-example.png)
 
