@@ -11616,6 +11616,11 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "docs/code-quality/how-to-enable-and-disable-full-solution-analysis-for-managed-code.md",
+      "redirect_url": "/visualstudio/code-quality/configure-live-code-analysis-scope-managed-code",
+      "redirect_document_id": true
+    },
+    {
       "source_path": "docs/azure/cognitive-services-connected-services.yml",
       "redirect_url": "/visualstudio/azure",
       "redirect_document_id": false
