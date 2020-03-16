@@ -1,12 +1,13 @@
 ---
 title: Refactor code to convert a for loop to a foreach statement
-ms.date: 05/10/2018
+ms.date: 03/10/2020
 ms.topic: reference
-author: TerryGLee
-ms.author: tglee
+author: mikadumont
+ms.author: midumont
 manager: jillfra
 dev_langs:
 - CSharp
+- VB
 ms.workload:
 - dotnet
 ---
@@ -21,6 +22,8 @@ If you have a [for](/dotnet/csharp/language-reference/keywords/for) loop in your
 This refactoring applies to:
 
 - C#
+
+- Visual Basic
 
 > [!NOTE]
 > The **Convert to foreach** Quick Action refactoring is only available for [for](/dotnet/csharp/language-reference/keywords/for) loops that contain all three parts: an initializer, condition, and iterator.
