@@ -3,7 +3,7 @@ title: Issues Signing in to Visual Studio Subscriptions | Microsoft Docs
 author: evanwindom
 ms.author: lank
 manager: lank
-ms.date: 07/19/2019
+ms.date: 03/11/2020
 ms.topic: conceptual
 description:  Learn about issues that may arise when signing in to Visual Studio subscriptions
 ---
@@ -56,6 +56,12 @@ Aliasing can be encountered when a company has a Microsoft Online Service for th
 
 ### What options do I have?
 From a subscriber perspective, it is important to first work with your administrator to understand your company’s identity configuration. If necessary, your administrator may have to update your account settings from their administration portal, or you may need to create a Microsoft Account (MSA) using your corporate email address. Before taking the steps to create an MSA, speak with your administrator regarding any policies or issues with taking this action. 
+
+## See also
+- [Visual Studio documentation](https://docs.microsoft.com/visualstudio/)
+- [Azure DevOps documentation](https://docs.microsoft.com/azure/devops/)
+- [Azure documentation](https://docs.microsoft.com/azure/)
+- [Microsoft 365 documentation](https://docs.microsoft.com/microsoft-365/)
 
 ## Next steps
 - Learn how to [link MSA and AAD accounts](/azure/active-directory/b2b/add-users-administrator) within AAD.
