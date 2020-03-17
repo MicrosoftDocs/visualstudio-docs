@@ -3,6 +3,7 @@ title:  Set agreement preferences in the Administration Portal
 author: evanwindom
 ms.author: lank
 manager: lank
+ms.assetid: 0fe9eaa4-f589-429e-a443-13bf86637d5a
 ms.date: 03/17/2020
 ms.topic: conceptual
 description: Learn how to set preferences for language, contacts, subscription level and others in the Administration Portal
