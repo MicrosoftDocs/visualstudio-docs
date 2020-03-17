@@ -3,6 +3,7 @@ title: Visual Studio + GitHub Enterprise offer | Microsoft Docs
 author: evanwindom
 ms.author: lank
 manager: lank
+ms.assetid: f271d623-dcde-442a-865c-4dca5ad8a9c5
 ms.date: 03/17/2020
 ms.topic: conceptual
 description: Managing subscriptions in the Visual Studio + GitHub Enterprise offer
