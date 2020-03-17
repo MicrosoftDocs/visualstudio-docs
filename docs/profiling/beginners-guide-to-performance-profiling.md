@@ -79,7 +79,7 @@ In this tutorial, you will:
      Now, you now have performance data for your application specifically for the region of code that runs between the two breakpoints.
 
      >[!TIP]
-     > When paused at a breakpoint or a code-stepping operation, you can also analyze performance using [PerfTips](#analyze-using-perftips).
+     > When paused at a breakpoint or a code-stepping operation, you can also analyze performance using [PerfTips](#analyze-performance-using-perftips).
 
      The profiler begins preparing thread data. Wait for it to finish.
 
