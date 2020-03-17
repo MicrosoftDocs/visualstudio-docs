@@ -74,6 +74,8 @@ Maps the task that is referenced in a [Task](../msbuild/task-element-msbuild.md)
 
  In MSBuild 4.0, using tasks can be loaded from *.overridetask* files.
 
+The assembly containing the custom task is loaded when the `Task` is first used.
+
 ## Example
 
  The following example shows how to use the `UsingTask` element with an `AssemblyName` attribute.
