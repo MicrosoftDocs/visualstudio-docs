@@ -49,7 +49,7 @@ Double-click on a function that you are interested in, and you will see a more d
 ![Diagnostic Tools caller callee "butterfly" view](../profiling/media/prof-tour-cpu-usage-caller-callee.png "Diagnostic Tools Caller Callee View")
 
 > [!TIP]
-> To help analyze performance, you can also use [PerfTips](#Examine-performance-events-using-perftips) to step through code and identify how long it takes particular functions or code blocks to complete.
+> To help analyze performance, you can also use [PerfTips](#Examine-performance-events-using-PerfTips) to step through code and identify how long it takes particular functions or code blocks to complete.
 
 ## Examine performance events using PerfTips
 
