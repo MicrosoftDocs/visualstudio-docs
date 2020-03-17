@@ -3,6 +3,7 @@ title: Assign licenses to groups of users for Visual Studio subscriptions | Micr
 author: evanwindom
 ms.author: lank
 manager: lank
+ms.assetid: c2853359-18fd-4be4-97a6-02230c862f92
 ms.date: 03/02/2020
 ms.topic: conceptual
 description:  Learn how administrators can assign licenses to multiple subscribers using either the Bulk add feature or Microsoft Azure Active Directory groups
