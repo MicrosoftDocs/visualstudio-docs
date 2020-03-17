@@ -28,7 +28,7 @@ In Visual Studio 2019 version 16.3 and later, you can install the [Microsoft.Cod
 
 2. Select **Install**.
 
-   Visual Studio installs the latest version of the Microsoft.CodeAnalyzers.FxCopAnalyzers package. The assemblies appear in **Solution Explorer** under **References** > **Analyzers**.
+   Visual Studio installs the latest version of the Microsoft.CodeAnalysis.FxCopAnalyzers package. The assemblies appear in **Solution Explorer** under **References** > **Analyzers**.
 
    ![Analyzers node in Solution Explorer](media/solution-explorer-analyzers-node.png)
 
