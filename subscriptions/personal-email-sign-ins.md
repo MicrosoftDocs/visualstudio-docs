@@ -3,6 +3,7 @@ title: Personal emails displayed in VLSC
 author: evanwindom
 ms.author: lank
 manager: lank
+ms.assetid: 3f4b0528-03f0-4a02-b3c3-a39292a9bbe1
 ms.date: 03/17/2020
 ms.topic: conceptual
 description:  Visual Studio Subscriptions – Why Am I Seeing Hotmail or Gmail Addresses for My Subscribers?
