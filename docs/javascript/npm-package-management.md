@@ -53,7 +53,9 @@ In this window you can search for a package, specify options, and install.
 * **Selected version** - Select the version of the package you want to install.
 * **Other npm arguments** - Specify other standard npm arguments. For example, you can enter a version value such as `@~0.8` to install a specific version that is not available in the versions list.
 
-You can see the progress of the installation in the npm tab in the Output window. This may take some time.
+You can see the progress of the installation in the **npm** output in the **Output** window. This may take some time.
+
+![npm output](../javascript/media/npm-output.png)
 
 > [!TIP]
 > You can search for scoped packages by prepending the search query with the scope you're interested in, for example, type `@types/mocha` to look for TypeScript definition files for mocha. Also, when installing type definitions for TypeScript, you can specify the TypeScript version you're targeting by adding `@ts2.6` in the npm argument field.
