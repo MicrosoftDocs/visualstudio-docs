@@ -9,7 +9,7 @@ ms.author: cabuschl
 ms.date: 3/3/2020
 ---
 
-Renewal and Cancellation
+# Renewal and Cancellation
 
 [!INCLUDE [How do I renew my subscriptions?](renewing-subscriptions.md)]
 
