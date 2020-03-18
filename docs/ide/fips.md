@@ -15,7 +15,7 @@ Starting with [version 16.4](/visualstudio/releases/2019/release-notes-v16.4/), 
 > [!NOTE]
 > Apps and solutions that you develop for non-Microsoft platforms like Linux, iOS, or Android might not use FIPS 140-2 approved algorithms. Third-party software included with Visual Studio or extensions that you install also might not use FIPS 140-2 approved algorithms. And, development for SharePoint solutions does not support FIPS 140-2 compliance mode.
 
-To configure FIPS 140-2 compliance mode for Visual Studio, install .NET Framework 4.8 and enable the Windows group policy setting: "System cryptography: Use FIPS compliant algorithms for encryption, hashing, and signing."
+To configure FIPS 140-2 compliance mode for Visual Studio, [install .NET Framework 4.8](https://dotnet.microsoft.com/download/dotnet-framework/net48) and then enable the Windows group policy setting: "System cryptography: Use FIPS compliant algorithms for encryption, hashing, and signing."
 
 ## What is FIPS?
 
@@ -33,5 +33,5 @@ Enabling FIPS mode also causes the .NET Framework to disallow the use of non-val
 
 ## See also
 
-- [Exempt Visual Studio from WIP](exempt-visual-studio-from-wip.md)
+- [Linux, C++, & Visual Studio: Set up FIPS-compliance secure remote](/cpp/linux/set-up-fips-compliant-secure-remote-linux-development/)
 - [App behavior with WIP](/windows/security/information-protection/windows-information-protection/app-behavior-with-wip)
