@@ -9,6 +9,8 @@ ms.author: cabuschl
 ms.date: 3/3/2020
 ---
 
+# Software downloads and benefits
+
 [!INCLUDE [How do my end users activate their subscription?](activating-subscriptions.md)]
 
 [!INCLUDE [What benefits and Software is available to my subscriber once a subscription has been assigned?](available-benefits.md)]
