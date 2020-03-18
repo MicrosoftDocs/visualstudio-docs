@@ -1,0 +1,20 @@
+---
+title: Renewal and Cancellation
+description: FAQs list for Renewal and Cancellation.
+ms.topic: conceptual
+ms.prod: 
+ms.custom: 
+ms.assetid: 1daecb05-7c40-4931-a246-093a9d9692b6
+ms.technology: 
+author: CaityBuschlen
+ms.author: cabuschl
+manager: 
+robots: 
+ms.date: 3/18/2020
+ms.faqid: Section4
+---
+
+[!INCLUDE [How do I renew my subscriptions?](/includes/group4_1.md)]
+
+[!INCLUDE [How long does it take for my cloud subscription to be cancelled?](/includes/group4_2.md)]
+
