@@ -2,14 +2,9 @@
 title: Software Downloads and Benefits
 description: FAQs list for Software Downloads and Benefits.
 ms.topic: conceptual
-ms.prod: 
-ms.custom: 
 ms.assetid: 17e2da46-6dc1-4a1c-a8e6-733bd7fa2c6b
-ms.technology: 
-author: profexorgeek
-ms.author: jusjohns
-manager: 
-robots: 
+author: CaityBuschlen
+ms.author: Caity.Buschlen
 ms.date: 3/3/2020
 ---
 
