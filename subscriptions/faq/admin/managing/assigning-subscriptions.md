@@ -2,7 +2,7 @@
 title: How do I assign Visual Studio subscriptions?
 description: You can assign subscriptions to your end users one at a time, or using the Bulk add feature to quickly and easily upload a larger...
 ms.faqid: group1_3
-ms.topic: reference
+ms.topic: include
 ms.assetid: 59eb35fd-ec94-41ce-b24c-a8a120976bac
 author: CaityBuschlen
 ms.author: cabuschl

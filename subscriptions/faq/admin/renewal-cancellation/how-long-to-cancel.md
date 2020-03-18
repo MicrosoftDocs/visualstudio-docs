@@ -2,7 +2,7 @@
 title: How long does it take for my cloud subscription to be cancelled?
 description: When you cancel a Visual Studio cloud subscription, you are canceling automatic renewal. The subscription continues until its normal...
 ms.faqid: group4_2
-ms.topic: reference
+ms.topic: include
 ms.assetid: 2c83cd19-2692-4aef-9cd7-b7842639cbce
 author: CaityBuschlen
 ms.author: cabuschl

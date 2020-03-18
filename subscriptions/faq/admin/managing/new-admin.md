@@ -2,7 +2,7 @@
 title: I'm a new administrator. Where is everything I need to know?
 description: The administrator webpage has all your updates, videos and important links. Then, written guidance on being an administrator is in our...
 ms.faqid: group1_1
-ms.topic: reference
+ms.topic: include
 ms.assetid: ccc3a5d5-885a-47f6-aefc-e8403aa7cde8
 ms.faqid: group1_1
 author: CaityBuschlen

@@ -2,7 +2,7 @@
 title: What is the difference between using a Microsoft Account vs Work account?
 description: A Microsoft Account (MSA) is a personal email account owned by an individual to access Microsoft services when an organization is not...
 ms.faqid: group3_1
-ms.topic: reference
+ms.topic: include
 ms.assetid: 7fc185d7-b658-4855-a663-ac56cf0f5355
 author: CaityBuschlen
 ms.author: cabuschl

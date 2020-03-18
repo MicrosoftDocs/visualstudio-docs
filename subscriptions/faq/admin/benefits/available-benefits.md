@@ -2,7 +2,7 @@
 title: What benefits and Software is available to my subscriber once a subscription has been assigned?
 description: The Visual Studio Subscription benefits page allows you to see and compare the full list of benefits and software downloads included...
 ms.faqid: group2_2
-ms.topic: reference
+ms.topic: include
 ms.assetid: e8b196c2-6118-47d1-8363-ceae3d9b6fb2
 author: CaityBuschlen
 ms.author: cabuschl

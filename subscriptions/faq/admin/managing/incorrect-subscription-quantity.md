@@ -2,7 +2,7 @@
 title: Why is the portal not showing the correct number of subscriptions for my agreement?
 description: If you're not seeing the correct number of subscriptions for your agreement, you may have the wrong agreement selected in the...
 ms.faqid: group1_6
-ms.topic: reference
+ms.topic: include
 ms.assetid: d97a767b-148d-488d-a860-778f406d8207
 author: CaityBuschlen
 ms.author: cabuschl

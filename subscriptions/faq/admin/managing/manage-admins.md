@@ -2,7 +2,7 @@
 title: How do I manage administrators?
 description: If you are a Super Admin you can add or remove other Super Admins or Administrators. Administrators can only add or remove subscribers...
 ms.faqid: group1_2
-ms.topic: reference
+ms.topic: include
 ms.assetid: 11274272-d834-44c7-acdb-09c9ba2f852d
 ms.technology: 
 author: CaityBuschlen
