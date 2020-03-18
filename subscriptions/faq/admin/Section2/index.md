@@ -1,6 +1,7 @@
 ---
 title: Software Downloads and Benefits
 description: FAQs list for Software Downloads and Benefits.
+ms.faqid: Section2
 ms.topic: conceptual
 ms.assetid: 17e2da46-6dc1-4a1c-a8e6-733bd7fa2c6b
 author: CaityBuschlen

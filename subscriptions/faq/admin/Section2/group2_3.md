@@ -1,15 +1,11 @@
 ---
 title: How do my developers activate software using product keys?
 description: Depending on what product your subscriber has downloaded it can either be activated by logging in using the email address tied to the...
-ms.topic: conceptual
-ms.prod: 
-ms.custom: 
+ms.faqid: group2_3
+ms.topic: reference
 ms.assetid: 248726b6-1e50-481c-aabf-0f509da5d710
-ms.technology: 
 author: CaityBuschlen
 ms.author: Caity.Buschlen
-manager: 
-robots: 
 ms.date: 3/3/2020
 ---
 

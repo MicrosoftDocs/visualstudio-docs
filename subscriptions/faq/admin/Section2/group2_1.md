@@ -1,15 +1,11 @@
 ---
 title: How do my end users activate their subscription?
 description: The subscription is active and can be used as soon as it has been assigned from within the Visual Studio Administrator portal. Your...
-ms.topic: conceptual
-ms.prod: 
-ms.custom: 
+ms.faqid:group2_1
+ms.topic: reference
 ms.assetid: 1530ca0a-f23f-44f1-9bde-792ea1265085
-ms.technology: 
 author: CaityBuschlen
 ms.author: Caity.Buschlen
-manager: 
-robots: 
 ms.date: 3/3/2020
 ---
 
