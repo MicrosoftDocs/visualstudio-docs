@@ -90,7 +90,7 @@ Using this feature makes it easy to stay on top of your subscription assignments
 
 8. Select **View subscribers** to display the members of the group. You can view details about the subscribers in the group, but you cannot make any edits to the subscribers or the subscriptions that they are assigned.    
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4rvvW]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4rvvW]
 
 ## Frequently asked questions
 ### Q: Can I choose multiple subscription levels to be assigned within an Azure AD group? 
