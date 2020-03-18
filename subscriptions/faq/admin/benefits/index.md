@@ -16,4 +16,3 @@ ms.date: 3/3/2020
 [!INCLUDE [How do my developers activate software using product keys?](activating-with-keys.md)]
 
 [!INCLUDE [How do my developers get 50% off Azure Dev Test Workloads?](azure-dev-test-discount.md)]
-
