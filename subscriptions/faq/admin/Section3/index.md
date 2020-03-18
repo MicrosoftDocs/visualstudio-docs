@@ -1,15 +1,11 @@
 ---
 title: Signing In
 description: FAQs list for Signing In.
+ms.faqid: Section3
 ms.topic: conceptual
-ms.prod: 
-ms.custom: 
 ms.assetid: e4573b81-b40c-4008-9c33-9e7437cb5796
-ms.technology: 
 author: CaityBuschlen
 ms.author: Caity.Buschlen
-manager: 
-robots: 
 ms.date: 3/3/2020
 ---
 
