@@ -77,8 +77,7 @@ Using this feature makes it easy to stay on top of your subscription assignments
    > [!div class="mx-imgBorder"]
    > ![Choose bulk add using Azure AD](_img/assign-license-bulk/bulk-add-aad.png)
 
-
-4. Begin to enter the name of the Azure AD group that you’d like to add into the form field. This will search the available Azure AD groups within your organization. 
+4. Begin to enter the name of the Azure AD group that you'd like to add into the form field. This will search the available Azure AD groups within your organization. 
 
 5. When you select the group, the field will automatically populate with the group name. You will have the option to view the users in that group before you add them. Next, you can choose the subscription level, download rights, and communication preferences for the group. You can add details into the reference field if you wish. 
 
@@ -91,6 +90,8 @@ Using this feature makes it easy to stay on top of your subscription assignments
 
 8. Select **View subscribers** to display the members of the group. You can view details about the subscribers in the group, but you cannot make any edits to the subscribers or the subscriptions that they are assigned.    
 
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4rvvW]
+
 ## Frequently asked questions
 ### Q: Can I choose multiple subscription levels to be assigned within an Azure AD group? 
 A: No -- everyone in the group receives the same subscription. 
@@ -98,9 +99,8 @@ A: No -- everyone in the group receives the same subscription.
 ### Q: Can I edit subscriber details of individuals added in an Azure AD group?  
 A: No -- To modify information for an individual subscriber, you will need to remove them from the Azure AD security group and assign them a subscription individually.  
 
-### Q: I added someone to my Azure AD security group, but I don’t see them added in the Subscriptions Administration Portal, and they don’t have a subscription. Why not?  
-A: Depending on how your organization has configured Azure AD, you may see delays of up to 24 hours before the user is added. If it’s been longer than 24 hours, [contact support](https://visualstudio.microsoft.com/support/support-overview-vs).  
-
+### Q: I added someone to my Azure AD security group, but I don't see them added in the Subscriptions Administration Portal, and they don't have a subscription. Why not?  
+A: Depending on how your organization has configured Azure AD, you may see delays of up to 24 hours before the user is added. If it's been longer than 24 hours, [contact support](https://visualstudio.microsoft.com/support/support-overview-vs).  
 
 ## See also
 - [Visual Studio documentation](https://docs.microsoft.com/visualstudio/)
@@ -111,4 +111,3 @@ A: Depending on how your organization has configured Azure AD, you may see delay
 ## Next steps
 - Have just one or two subscribers to add?  Check out [Add single users](assign-license.md)
 - Need help? Contact [Visual Studio Administration and Subscriptions Support](https://visualstudio.microsoft.com/support/support-overview-vs).
-
