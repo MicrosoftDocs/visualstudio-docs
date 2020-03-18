@@ -1,19 +1,15 @@
 ---
 title: Managing Visual Studio Subscriptions
 description: FAQs list for Managing Visual Studio Subscriptions.
+ms.faqid: Section1
 ms.topic: conceptual
-ms.prod: 
-ms.custom: 
 ms.assetid: 933c7f9e-dce9-46e7-939e-68682c65d972
-ms.technology: 
-author: profexorgeek
-ms.author: jusjohns
-manager: 
-robots: 
+author: CaityBuschlen
+ms.author: Caity.Buschlen
 ms.date: 3/3/2020
 ---
 
-[!INCLUDE [I’m a new administrator. Where is everything I need to know?](new-agreement.md)]
+[!INCLUDE [I'm a new administrator. Where is everything I need to know?](new-agreement.md)]
 
 [!INCLUDE [How do I manage administrators?](manage-admins.md)]
 
@@ -28,4 +24,3 @@ ms.date: 3/3/2020
 [!INCLUDE [How can I select an end date for a subscription?](select-end-date.md)]
 
 [!INCLUDE [Why does my SLP agreement have an end date, and why is it sometimes different for my subscribers?](slp-end-dates.md)]
-
