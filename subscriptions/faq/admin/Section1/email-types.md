@@ -1,15 +1,11 @@
 ---
 title: What is the difference between a Sign-in email address and a Notification email address?
 description: Individuals who are assigned a subscription will receive periodic communications from the Visual Studio team, including an email...
-ms.topic: conceptual
-ms.prod: 
-ms.custom: 
+ms.faqid: group1_4
+ms.topic: reference
 ms.assetid: 3b7b2932-3274-4275-9d80-b28406bcefc4
-ms.technology: 
 author: CaityBuschlen
-ms.author: jusjohns
-manager: 
-robots: 
+ms.author: Caity.Buschlen
 ms.date: 3/3/2020
 ---
 

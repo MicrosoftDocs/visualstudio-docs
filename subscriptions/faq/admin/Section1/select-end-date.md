@@ -1,15 +1,11 @@
 ---
 title: How can I select an end date for a subscription?
 description: Subscriptions are always assigned using the best available end date. For example, if your agreement has orders with an end date of...
-ms.topic: conceptual
-ms.prod: 
-ms.custom: 
+ms.faqid: group1_7
+ms.topic: reference
 ms.assetid: 387800f0-e420-496b-af7e-4f0cd7e4898b
-ms.technology: 
 author: CaityBuschlen
-ms.author: jusjohns
-manager: 
-robots: 
+ms.author: Caity.Buschlen
 ms.date: 3/3/2020
 ---
 
