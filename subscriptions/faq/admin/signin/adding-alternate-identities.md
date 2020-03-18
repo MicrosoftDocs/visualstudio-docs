@@ -5,7 +5,7 @@ ms.faqid: group3_2
 ms.topic: reference
 ms.assetid: a8fa961b-4e81-4af4-9913-67dd2c28897e
 author: CaityBuschlen
-ms.author: Caity.Buschlen
+ms.author: cabuschl
 ms.date: 3/3/2020
 ---
 

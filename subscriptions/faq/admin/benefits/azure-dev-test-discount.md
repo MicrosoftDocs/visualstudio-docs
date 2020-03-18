@@ -5,7 +5,7 @@ ms.faqid: group2_4
 ms.topic: conceptual
 ms.assetid: 86308cf3-909b-47a0-9230-5d1a93a2f87a
 author: CaityBuschlen
-ms.author: Caity.Buschlen
+ms.author: cabuschl
 ms.date: 3/3/2020
 ---
 
