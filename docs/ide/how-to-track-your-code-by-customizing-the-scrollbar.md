@@ -1,6 +1,6 @@
 ---
 title: Scroll bar map mode and bar mode
-ms.date: 09/25/2018
+ms.date: 03/19/2020
 ms.topic: conceptual
 author: TerryGLee
 ms.author: tglee
@@ -60,6 +60,9 @@ The following image shows the search example when map mode is on and the width i
 The following image shows the **Show Preview Tooltip** option:
 
 ![Visual Studio scroll bar with a tooltip](../ide/media/enhancedscrollbarsearchtooltip.png)
+
+> [!TIP]
+> To change the colors that you see in map mode, choose **Tools** > **Options** > **Environment** > **Fonts and Colors**. Next, in **Display items**, choose any of the items that are preceded with "Overview", make the color changes you want, and then choose **OK**.
 
 ## See also
 

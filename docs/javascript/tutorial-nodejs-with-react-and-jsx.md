@@ -401,10 +401,6 @@ For this scenario, use Chrome.
    For Microsoft Edge (Chromium), also shut down all instances of Chrome. Because both browsers share the chromium code base, this gives the best results.
    ::: moniker-end
 
-   ::: moniker range=">=vs-2019"
-   For Microsoft Edge (Chromium), also shut down all instances of Chrome. Because both browsers use the chromium code base, this gives the best results.
-   ::: moniker-end
-
 2. Start your browser with debugging enabled.
 
     ::: moniker range=">=vs-2019"
