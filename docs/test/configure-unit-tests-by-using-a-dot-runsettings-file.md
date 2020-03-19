@@ -75,7 +75,7 @@ There are three ways of specifying a run settings file in Visual Studio 2019 ver
 
 - In the IDE, select **Test** > **Configure Run Settings** > **Select Solution Wide runsettings File**, and then select the *.runsettings* file.
 
-   ![Select test solution wide runsettings file menu in Visual Studio 2019](media/vs-2019/select-solution-settings-file.png)
+   ![Select test solution-wide runsettings file menu in Visual Studio 2019](media/vs-2019/select-solution-settings-file.png)
       
    - This file overrides the ".runsettings" file at the root of the solution, if it exists, and is applied across all tests run.  
    - This file selection only persists locally. 
@@ -339,3 +339,4 @@ These settings are specific to the test adapter that runs test methods that have
 - [Configure a test run](https://github.com/microsoft/vstest-docs/blob/master/docs/configure.md)
 - [Customize code coverage analysis](../test/customizing-code-coverage-analysis.md)
 - [Visual Studio test task (Azure Test Plans)](/azure/devops/pipelines/tasks/test/vstest?view=vsts)
+
