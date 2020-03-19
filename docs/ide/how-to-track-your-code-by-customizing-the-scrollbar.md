@@ -62,7 +62,7 @@ The following image shows the **Show Preview Tooltip** option:
 ![Visual Studio scroll bar with a tooltip](../ide/media/enhancedscrollbarsearchtooltip.png)
 
 > [!TIP]
-> To change the colors that you see in map mode, choose **Tools** > **Options** > **Environment** > **Fonts and Colors**. Then, in **Display items**, choose any of the items that are preceded with "Overview", make the color changes you want, and then choose **OK**.
+> To change the colors that you see in map mode, choose **Tools** > **Options** > **Environment** > **Fonts and Colors**. Next, in **Display items**, choose any of the items that are preceded with "Overview", make the color changes you want, and then choose **OK**.
 
 ## See also
 
