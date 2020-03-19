@@ -1,6 +1,6 @@
 ---
 title: Scroll bar map mode and bar mode
-ms.date: 09/25/2018
+ms.date: 03/19/2020
 ms.topic: conceptual
 author: TerryGLee
 ms.author: tglee
