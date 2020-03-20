@@ -26,6 +26,8 @@
   items:
   - name: CPU usage
     href: cpu-usage.md
+  - name: Use PerfTips
+    href: perftips.md
   - name: Memory usage
     items:
     - name: Analyze memory usage
@@ -42,8 +44,6 @@
     href: gpu-usage.md
   - name: Analyze Resource Consumption
     href: application-timeline.md
-  - name: Use PerfTips
-    href: perftips.md
   - name: Analyze Network usage
     href: network-usage.md
   - name: Analyze JavaScript memory

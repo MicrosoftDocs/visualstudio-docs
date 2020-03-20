@@ -22,6 +22,7 @@ When debugging a .NET application, you may find that you want to view source cod
 > [!NOTE]
 > * Source code generation (decompilation) is only available for .NET applications and is based on the open source [ILSpy](https://github.com/icsharpcode/ILSpy) project.
 > * Decompilation is only available in Visual Studio 2019 16.5 and later.
+> * Applying the [SuppressIldasmAttribute](https://docs.microsoft.com/dotnet/api/system.runtime.compilerservices.suppressildasmattribute) attribute to an assembly or module prevents Visual Studio from attempting decompilation.
 
 ## Generate source code
 

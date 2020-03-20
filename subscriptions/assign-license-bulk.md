@@ -3,6 +3,7 @@ title: Assign licenses to groups of users for Visual Studio subscriptions | Micr
 author: evanwindom
 ms.author: lank
 manager: lank
+ms.assetid: c2853359-18fd-4be4-97a6-02230c862f92
 ms.date: 03/02/2020
 ms.topic: conceptual
 description:  Learn how administrators can assign licenses to multiple subscribers using either the Bulk add feature or Microsoft Azure Active Directory groups
@@ -47,17 +48,27 @@ To add large groups of users, you can use the bulk add feature, or if your organ
 
     If the template contains errors, the upload will fail, and you will be shown the errors so that you can correct the template and attempt the bulk upload again.
    > [!div class="mx-imgBorder"]
-   > ![Error message if the upload of multiple subscribers fails](media/bulk-add-template-failed.png)
+   > ![Error message if the upload of multiple subscribers fails](_img/assign-license-bulk/bulk-add-upload-failure.png)
+
+   If you encounter a failure follow these steps:
+   1. Open the Excel file you created, correct the problems, and save the file.
+   0. Return to the Adminstration Portal and choose **Add**.
+   0. Select **Bulk add**.
+   0. Since you already have the Excel file saved, you do not need to download the template.  Click **Browse**, locate the file you just saved, and click **Open**.
+   0. Click **OK**.
+
 
     When the upload is successful, you'll see the list of subscribers and a confirmation message.
    > [!div class="mx-imgBorder"]
-   > ![Confirmation message if the upload of multiple subscribers succeeds](media/bulk-add-template-success.png)
+   > ![Confirmation message if the upload of multiple subscribers succeeds](_img/assign-license-bulk/bulk-add-upload-success.png)
 
 ## Use Azure Active Directory groups to assign subscriptions 
 Using this feature makes it easy to stay on top of your subscription assignments. You can add Azure Active Directory Security Groups in the Subscriptions Administration Portal which will ensure that all individuals in the group are assigned a subscription. And to make it easier, when individuals leave your organization and are removed from Azure Active Directory, their access to subscriptions is also removed. 
 
+
 > [!IMPORTANT]
-> The use of Azure AD groups is being enabled in phases so you may not see it on your agreements immediately.
+>
+> The use of Azure AD groups is being enabled in phases.  You may not immediately see the feature enabled for your agreement(s).
 >
 > The following limitations apply to the use of Azure AD groups for adding subscribers:
 > - Groups must contain at least one member.  Empty groups are not supported.

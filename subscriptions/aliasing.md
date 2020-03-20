@@ -3,6 +3,7 @@ title: Signing in to Visual Studio Subscriptions May Fail When Using Aliases | M
 author: evanwindom
 ms.author: lank
 manager: lank
+ms.assetid: 97bf7474-c6c2-49b3-b2c9-f1b2808eed1a
 ms.date: 03/02/2020
 ms.topic: conceptual
 description: Sign-in may fail if aliases or friendly names are used
@@ -14,7 +15,7 @@ Depending on the account type used to sign in, available subscriptions may not b
 ## What is aliasing?
 The term “aliasing” refers to users having different identities to sign in to Windows (or your Active Directory) and to access email.
 
-Aliasing can be encountered when a company has a Microsoft Online Service for their directory sign-in, like 'JohnD@contoso.com', but users access their email accounts using aliases or friendly names, such as 'John.Doe@contoso.com'. For many customers who manage their subscriptions through the Volume Licensing Service Center (VLSC), this can result in an unsuccessful sign-in experience as the email address provided ('John.Doe@contoso.com') does not match the directory address ('JohnD@contoso.com') required for successful authentication through the “Work or School Account” option.  Make sure your users are using the “Sign-in Email Address” as listed in the admin portal at https://manage.visualstudio.com to access their subscriptions. 
+Aliasing can be encountered when a company has a Microsoft Online Service for their directory sign-in, like 'JohnD@contoso.com', but users access their email accounts using aliases or friendly names, such as 'John.Doe@contoso.com'. Make sure your users are using the “Sign-in Email Address” as listed in the admin portal at https://manage.visualstudio.com to access their subscriptions. 
 
 ## What are the potential issues?
 
