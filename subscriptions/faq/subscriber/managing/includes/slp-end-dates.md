@@ -1,15 +1,10 @@
 ---
 title: Why does my SLP agreement have an end date, and why is it sometimes different for my subscribers?
-description: SLP and MPSA agreements don’t expire, however our portal currently requires an end date when provisioning the agreement. We currently...
+description: SLP and MPSA agreements don't expire, however our portal currently requires an end date when provisioning the agreement. We currently...
 ms.topic: include
-ms.prod: 
-ms.custom: 
 ms.assetid: 0e848ebf-8c1c-4648-9909-606ba79b7884
-ms.technology: 
 author: CaityBuschlen
 ms.author: cabuschl
-manager: 
-robots: 
 ms.date: 3/18/2020
 ms.faqid: group1_8
 ---

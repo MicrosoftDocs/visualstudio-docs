@@ -2,14 +2,9 @@
 title: I have a new agreement. How do I move my subscribers?
 description: 'You can export your subscribers from your previous agreement and add them to your new agreement using the Bulk add button. Note: your...'
 ms.topic: include
-ms.prod: 
-ms.custom: 
 ms.assetid: 0d4deae3-2e5d-4318-9f36-c4d9d8979586
-ms.technology: 
 author: CaityBuschlen
 ms.author: cabuschl
-manager: 
-robots: 
 ms.date: 3/18/2020
 ms.faqid: group1_5
 ---
