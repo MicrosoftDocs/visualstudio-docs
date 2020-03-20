@@ -2,14 +2,9 @@
 title: What does it mean when my subscribers add alternate identities?
 description: Adding an alternate account allows your developers to access some of their Visual Studio subscription benefits (VS IDE, Azure DevOps...
 ms.topic: include
-ms.prod: 
-ms.custom: 
 ms.assetid: 1fcb7b0a-ac97-4763-a045-5617fa6cfa2b
-ms.technology: 
 author: CaityBuschlen
 ms.author: cabuschl
-manager: 
-robots: 
 ms.date: 3/18/2020
 ms.faqid: group3_2
 ---
