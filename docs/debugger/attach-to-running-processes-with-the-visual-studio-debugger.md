@@ -207,7 +207,7 @@ You can attach the Visual Studio debugger to a process running in a Windows Dock
 
 1. In Visual Studio, select **Debug > Attach to Process** (or **CTRL+ALT+P**) to open the **Attach to Process** dialog box.
 
-![Attach to Process Menu](../debugger/media/attach-process-menu-docker-windows.png "Attach_To_Process_Menu")
+   ![Attach to Process Menu](../debugger/media/attach-process-menu-docker-windows.png "Attach_To_Process_Menu")
 
 2. Set the **Connection type** to **Docker (Windows Container)**.
 3. Select **Find...** to set the **Connection target** using the **Select Docker Container** dialog box.
