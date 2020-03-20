@@ -214,7 +214,7 @@ In this tutorial, you begin with a simple project containing code for an ASP.NET
 
 ## Add TypeScript support for a third-party library
 
-1. Follow instructions in [npm package management](../javascript/npm-package-management.md##aspnet-core-projects) to add a package to your project.
+1. Follow instructions in [npm package management](../javascript/npm-package-management.md#aspnet-core-projects) to add a `package.json` file to your project. This adds npm support to your project.
 
    >[!NOTE]
    > For ASP.NET Core projects, you can also use [Library Manager](https://docs.microsoft.com/aspnet/core/client-side/libman/?view=aspnetcore-3.1) or yarn instead of npm to install client-side JavaScript and CSS files.
