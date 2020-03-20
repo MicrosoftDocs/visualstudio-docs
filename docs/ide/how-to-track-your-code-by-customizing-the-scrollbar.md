@@ -1,6 +1,6 @@
 ---
 title: Scroll bar map mode and bar mode
-ms.date: 03/19/2020
+ms.date: 03/20/2020
 ms.topic: conceptual
 author: TerryGLee
 ms.author: tglee
@@ -48,7 +48,7 @@ The scroll bar has two modes: bar mode and map mode.
 
 ### Map mode
 
-In *map mode*, when you click a location on the scroll bar, the cursor jumps to that location in the file instead of just scrolling up or down a page. Lines of code are shown, in miniature, on the scroll bar. You can choose how wide the map column is by selecting a value in **Source overview**. To enable a larger preview of the code when you rest the pointer on the map, select the **Show Preview Tooltip** option. Collapsed regions are shaded differently and expand when you double-click them.
+*Map mode* displays lines of code, in miniature, on the scroll bar. You can choose how wide the map column is by selecting a value in **Source overview**. To enable a larger preview of the code when you rest the pointer on the map, select the **Show Preview Tooltip** option. Collapsed regions are shaded differently and expand when you double-click them.
 
 > [!TIP]
 > You can turn the miniature code view off in map mode by setting **Source overview** to **Off**. If **Show Preview Tooltip** is selected, you still see a preview of the code at that location when you hover your pointer on the scroll bar, and the cursor still jumps to that location in the file when you click.
