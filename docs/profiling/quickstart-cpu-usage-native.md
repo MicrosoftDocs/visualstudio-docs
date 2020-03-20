@@ -136,8 +136,10 @@ Windows 8 and later is required to run profiling tools with the debugger (**Diag
 
      ![Set breakpoints for profiling](../profiling/media/quickstart-cpu-usage-breakpoints-cplusplus.png "Set breakpoints for profiling")
 
-    > [!TIP]
-    > By setting two breakpoints, you can limit data collection to the parts of code that you want to analyze.
+    By setting two breakpoints, you can limit data collection to the parts of code that you want to analyze.
+
+    >[!TIP]
+    > When paused at a breakpoint or a code-stepping operation, you can also analyze performance using [PerfTips](../profiling/perftips.md).
 
 3. The **Diagnostic Tools** window is already visible unless you have turned it off. To bring up the window again, click **Debug** > **Windows** > **Show Diagnostic Tools**.
 
