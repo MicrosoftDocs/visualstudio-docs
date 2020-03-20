@@ -2,14 +2,9 @@
 title: How do I renew my subscriptions?
 description: 'The process for renewing subscriptions depends on how they were purchased. Retail: For subscriptions acquired through the Microsoft...'
 ms.topic: include
-ms.prod: 
-ms.custom: 
 ms.assetid: c6c3d7e4-3952-43e3-9d02-6ed5ea504571
-ms.technology: 
 author: CaityBuschlen
 ms.author: cabuschl
-manager: 
-robots: 
 ms.date: 3/18/2020
 ms.faqid: group4_1
 ---
