@@ -9,10 +9,12 @@ ms.date: 3/18/2020
 ms.faqid: Section2
 ---
 
-[!INCLUDE [How do my end users activate their subscription?](/includes/activating-subscriptions.md)]
+# Software Downloads and Benefits
 
-[!INCLUDE [What benefits and Software is available to my subscriber once a subscription has been assigned?](/includes/available-benefits.md)]
+[!INCLUDE [How do my end users activate their subscription?](includes/activating-subscriptions.md)]
 
-[!INCLUDE [How do my developers activate software using product keys?](/includes/activating-with-keys.md)]
+[!INCLUDE [What benefits and Software is available to my subscriber once a subscription has been assigned?](includes/available-benefits.md)]
 
-[!INCLUDE [How do my developers get 50% off Azure Dev Test Workloads?](/includes/azure-dev-test-discount.md)]
+[!INCLUDE [How do my developers activate software using product keys?](includes/activating-with-keys.md)]
+
+[!INCLUDE [How do my developers get 50% off Azure Dev Test Workloads?](includes/azure-dev-test-discount.md)]

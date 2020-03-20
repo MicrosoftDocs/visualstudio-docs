@@ -9,6 +9,8 @@ ms.date: 3/18/2020
 ms.faqid: Section3
 ---
 
-[!INCLUDE [What is the difference between using a Microsoft Account vs Work account?](/includes/ms-vs-work-accounts.md)]
+# Signing in
 
-[!INCLUDE [What does it mean when my subscribers add alternate identities?](/includes/adding-alternate-identities.md)]
+[!INCLUDE [What is the difference between using a Microsoft Account vs Work account?](includes/ms-vs-work-accounts.md)]
+
+[!INCLUDE [What does it mean when my subscribers add alternate identities?](includes/adding-alternate-identities.md)]

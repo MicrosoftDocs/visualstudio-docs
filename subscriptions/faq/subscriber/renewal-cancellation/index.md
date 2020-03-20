@@ -9,6 +9,8 @@ ms.date: 3/18/2020
 ms.faqid: Section4
 ---
 
-[!INCLUDE [How do I renew my subscriptions?](/includes/renewing-subscriptions.md)]
+# Renewal and Cancellation
 
-[!INCLUDE [How long does it take for my cloud subscription to be cancelled?](/includes/how-long-to-cancel.md)]
+[!INCLUDE [How do I renew my subscriptions?](includes/renewing-subscriptions.md)]
+
+[!INCLUDE [How long does it take for my cloud subscription to be cancelled?](includes/how-long-to-cancel.md)]
