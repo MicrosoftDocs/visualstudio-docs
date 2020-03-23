@@ -15,9 +15,19 @@ ms.workload:
 
 Visual Studio Tools for Unity change log.
 
-## 2.5.1.0
+## 2.5.2.0
 
 Released March 23, 2020
+
+### Bug fixes
+
+- **Debugger:**
+
+  - Fixed registration of threads upon attach.
+
+## 2.5.1.0
+
+Released March 3, 2020
 
 ### New Features
 
