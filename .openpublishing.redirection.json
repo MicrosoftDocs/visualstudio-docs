@@ -5591,11 +5591,6 @@
       "redirect_document_id": false
     },
     {
-      "source_path": "docs/test/index.md",
-      "redirect_url": "/visualstudio/test/improve-code-quality",
-      "redirect_document_id": false
-    },
-    {
       "source_path": "docs/test/install-configure-test-agents.md",
       "redirect_url": "/visualstudio/test/lab-management/install-configure-test-agents",
       "redirect_document_id": false
