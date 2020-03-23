@@ -1,5 +1,9 @@
 - name: Testing tools in Visual Studio
-  href: improve-code-quality.md
+  href: index.yml
+- name: Overview
+  items:
+  - name: First look at testing tools
+    href: improve-code-quality.md
 - name: Unit testing
   items:
   - name: Unit test tools overview

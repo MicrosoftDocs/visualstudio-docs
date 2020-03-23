@@ -1,0 +1,72 @@
+### YamlMime:Landing
+
+title: Testing tools in Visual Studio # < 60 chars
+summary: Visual Studio testing tools can help you and your team develop and sustain high standards of code excellence. # < 160 chars
+
+metadata:
+  title: Testing tools in Visual Studio # Required; page title displayed in search results. Include the brand. < 60 chars.
+  description: Learn how to use Visual Studio to test your code.
+  ms.topic: landing-page
+  author: mikejo5000
+  ms.author: mikejo
+  manager: jillfra
+  ms.date: 03/23/2020
+
+# linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
+
+landingContent:
+# Cards and links should be based on top customer tasks or top subjects
+# Start card title with a verb
+  # Card (optional)
+  - title: About testing tools
+    linkLists:
+      - linkListType: overview
+        links:
+          - text: First look at testing tools
+            url: improve-code-quality.md
+          - text: Unit test tools overview
+            url: unit-test-your-code.md
+          - text: Live unit testing overview
+            url: live-unit-testing-intro.md
+         
+  # Card (optional)
+  - title: Get started
+    linkLists:
+      - linkListType: tutorial
+        links:
+          - text: Get started with unit testing
+            url: getting-started-with-unit-testing.md
+          - text: Create and run unit tests for managed code
+            url: walkthrough-creating-and-running-unit-tests-for-managed-code.md
+          - text: Run unit tests with Test Explorer
+            url: run-unit-tests-with-test-explorer.md
+          - text: Get started with Live Unit Testing
+            url: live-unit-testing-start.md
+          - text: Generate unit tests by using IntelliTest
+            url: generate-unit-tests-for-your-code-with-intellitest.md
+
+  # Card (optional)
+  - title: More testing tools
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+          - text: Use code coverage to determine how much code is being tested
+            url: using-code-coverage-to-determine-how-much-code-is-being-tested.md
+          - text: Isolate code under test with Microsoft Fakes
+            url: isolating-code-under-test-with-microsoft-fakes.md
+          - text: Coded UI (deprecated)
+            url: use-ui-automation-to-test-your-code.md
+          - text: Load testing (deprecated)
+            url: quickstart-create-a-load-test-project.md
+  
+  - title: Related tools (Azure DevOps)
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+          - text: Exploratory & manual testing (Azure Test Plans)
+            url: /azure/devops/test/overview?view=azure-devops
+          - text: Load testing (Azure Test Plans)
+            url: /azure/devops/test/load-test/getting-started-with-performance-testing?view=azure-devops
+          - text: Continuous testing (Azure Pipelines)
+            url: /azure/devops/pipelines/?view=azure-devops
+          
