@@ -15,6 +15,64 @@ ms.workload:
 
 Visual Studio Tools for Unity change log.
 
+## 2.5.1.0
+
+Released March 23, 2020
+
+### New Features
+
+- **Integration:**
+
+  - Added a suppressor for [`IDE0051`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/master/doc/USP0008.md). Private methods used with Invoke, InvokeRepeating, StartCoroutine or StopCoroutine should not be marked as unused.
+
+### Bug fixes
+
+- **Integration:**
+
+  - Fixed OnDrawGizmos/OnDrawGizmosSelected documentation
+
+- **Evaluation:**
+
+  - Fixed lambda argument inspection.
+
+## 2.5.0.1
+
+Released February 19, 2020
+
+### Bug fixes
+
+- **Integration:**
+
+  - Fixed [`UNT0006`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/master/doc/UNT0006.md) diagnostic checking for incorrect message signature. When inspecting types with multiple levels of inheritance, this diagnostic could fail with the following message: `warning AD0001: Analyzer 'Microsoft.Unity.Analyzers.MessageSignatureAnalyzer' threw an exception of type 'System.ArgumentException' with message 'An item with the same key has already been added`.
+
+## 2.5.0.0
+
+Released January 22, 2020
+
+### New Features
+
+- **Integration:**
+
+  - Added support for HLSL files.
+  
+  - Switched to a new folder dialog UI.
+  
+  - Switched to a new accessible property grid for settings.
+
+  - Added a suppressor for [`IDE0051`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/master/doc/USP0006.md). Private fields with the `SerializeField` attribute should not be marked as unused.
+
+  - Added a suppressor for [`CS0649`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/master/doc/USP0007.md). Fields with the `SerializeField` attribute should not be marked as unassigned.  
+
+### Bug fixes
+
+- **Integration:**
+
+  - Fixed project generation (`GenerateTargetFrameworkMonikerAttribute` target was not always located correctly)
+
+- **Evaluation:**
+
+  - Fixed string evaluation (not using ToString() calls)
+
 ## 2.4.2.0
 
 Released December 3, 2019
