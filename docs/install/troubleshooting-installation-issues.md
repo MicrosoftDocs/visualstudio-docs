@@ -1,7 +1,7 @@
 ---
 title: Troubleshoot installation or upgrade issues
 description: Sometimes, things can go wrong. If your Visual Studio installation or upgrade fails, this page can help.
-ms.date: 09/13/2019
+ms.date: 03/23/2019
 ms.custom: seodec18
 ms.topic: troubleshooting
 helpviewer_keywords:
@@ -19,7 +19,7 @@ ms.technology: vs-installation
 # Troubleshoot Visual Studio installation and upgrade issues
 
 > [!IMPORTANT]
-> Having a problem installing? We can help. We offer a [**live chat**](https://visualstudio.microsoft.com/vs/support/#talktous) (English only) support option.
+> Having a problem installing? We can help. We offer an [**installation chat**](https://visualstudio.microsoft.com/vs/support/#talktous) (English only) support option.
 
 This troubleshooting guide includes step-by-step instructions that should resolve most installation issues.
 
