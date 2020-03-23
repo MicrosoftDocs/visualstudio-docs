@@ -1,8 +1,9 @@
 ---
 title: Anonymization of Visual Studio subscriber data | Microsoft Docs
 author: evanwindom
-ms.author: lank
+ms.author: v-evwin
 manager: lank
+ms.assetid: ce5fc8a4-484c-4df6-97c3-cb60174fb66b
 ms.date: 02/20/2020
 ms.topic: conceptual
 description:  Learn how subscriber data is anonymized when access to subscriptions is lost.
