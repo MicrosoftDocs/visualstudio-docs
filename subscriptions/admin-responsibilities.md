@@ -3,6 +3,7 @@ title: Administrator Responsibilities | Visual Studio Marketplace
 author: evanwindom
 ms.author: lank
 manager: lank
+ms.assetid: b26b31dc-1eeb-4871-9ce6-2c980e703f1e
 ms.date: 07/20/2019
 ms.topic: conceptual
 description:  Learn about responsibilities of subscriptions administrators.

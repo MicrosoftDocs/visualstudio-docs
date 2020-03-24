@@ -3,6 +3,7 @@ title: How to Activate Visual Studio Subscriptions Purchased in the Microsoft St
 author: evanwindom
 ms.author: lank
 manager: lank
+ms.assetid: 4183a0f4-6f0b-42f4-8460-0d000e21bb16
 ms.date: 02/17/2020
 ms.topic: conceptual
 description:  Learn how to activate Visual Studio subscriptions you purchased in the Microsoft Store.
