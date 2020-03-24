@@ -3,6 +3,7 @@ title: Setting Up Administrators for Monthly Subscriptions | Microsoft Docs
 author: evanwindom
 ms.author: lank
 manager: lank
+ms.assetid: 8b30e2bc-2ac3-4fcc-b296-128731471032
 ms.date: 03/03/2020
 ms.topic: conceptual
 description: Setting Up Administrators for monthly Subscriptions

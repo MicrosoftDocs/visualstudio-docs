@@ -3,6 +3,7 @@ title: Using product keys to support internet demonstrations via Terminal Servic
 author: evanwindom
 ms.author: lank
 manager: lank
+ms.assetid: 1c5ede60-cb5a-4d5f-a6a2-a1f536f6c4ad
 ms.date: 03/09/2020
 ms.topic: conceptual
 description:  Learn how to use product keys to support internet demonstrations via Terminal Services and enable RDS access

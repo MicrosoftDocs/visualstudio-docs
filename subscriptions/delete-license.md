@@ -3,6 +3,7 @@ title:  Delete subscription assignments in the Visual Studio Subscriptions Admin
 author: evanwindom
 ms.author: lank
 manager: lank
+ms.assetid: e49242bc-e9f2-49e8-8caa-f574d508aba6
 ms.date: 03/03/2020
 ms.topic: conceptual
 description:  Learn how administrators can delete subscription assignments

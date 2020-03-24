@@ -3,6 +3,7 @@ title: Manage Visual Studio subscriptions offered through the Microsoft Partner 
 author: evanwindom
 ms.author: lank
 manager: lank
+ms.assetid: 83efe4ee-9a9d-4776-b27c-852d89dadafd
 ms.date: 03/09/2020
 ms.topic: conceptual
 description: How to assign Visual Studio subscriptions to your end users, for MPN partners.

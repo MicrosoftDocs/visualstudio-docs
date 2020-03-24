@@ -3,6 +3,7 @@ title: Signing in to Visual Studio Subscriptions with your GitHub account | Micr
 author: evanwindom
 ms.author: lank
 manager: lank
+ms.assetid: 1bdcb3c9-bba1-4e25-a609-9d7e539d78e0
 ms.date: 03/09/2020
 ms.topic: conceptual
 description:  Learn how to sign in to your Visual Studio subscription(s) with your GitHub account. 
