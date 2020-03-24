@@ -5481,6 +5481,16 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "docs/test/intellitest-manual/getting-started.md",
+      "redirect_url": "/visualstudio/test/intellitest-manual/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/test/intellitest-manual/introduction.md",
+      "redirect_url": "/visualstudio/test/intellitest-manual/index",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/test/sample-project-for-creating-unit-tests.md",
       "redirect_url": "/visualstudio/test/walkthrough-creating-and-running-unit-tests-for-managed-code",
       "redirect_document_id": false
@@ -5578,11 +5588,6 @@
     {
       "source_path": "docs/test/how-to-view-data-and-diagnostic-attachments-using-the-load-test-analyzer.md",
       "redirect_url": "/visualstudio/test/quickstart-create-a-load-test-project",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "docs/test/index.md",
-      "redirect_url": "/visualstudio/test/improve-code-quality",
       "redirect_document_id": false
     },
     {
