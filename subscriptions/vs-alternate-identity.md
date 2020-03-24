@@ -1,8 +1,9 @@
 ---
 title: Identities for Visual Studio subscribers
 author: evanwindom
-ms.author: lank
+ms.author: v-evwin
 manager: lank
+ms.assetid: 86f2856c-8adf-4085-9962-f4136679e5ed
 ms.date: 07/19/2019
 ms.topic: conceptual
 description:  How to add an alternate identity for your Visual Studio subscription, to use for Azure DevOps and Azure
@@ -52,3 +53,15 @@ A: Azure DevOps should automatically recognize your subscription when you sign i
 * Visit the [Visual Studio subscriber portal](https://my.visualstudio.com?wt.mc_id=o~msft~docs) at least once before you sign in to Azure DevOps.
 
 If Azure DevOps still doesn't recognize your subscription, contact [Azure DevOps support](https://azure.microsoft.com/support/devops/).
+
+## See also
+- [Visual Studio documentation](https://docs.microsoft.com/visualstudio/)
+- [Azure DevOps documentation](https://docs.microsoft.com/azure/devops/)
+- [Azure documentation](https://docs.microsoft.com/azure/)
+- [Microsoft 365 documentation](https://docs.microsoft.com/microsoft-365/)
+
+## Next steps 
+For more information about using Azure, Azure DevOps or Visual Studio IDE, check out these resources:
+- [Azure](vs-azure)
+- [Azure DevOps](vs-azure-devops)
+- [Visual Studio](vs-ide-benefit)
