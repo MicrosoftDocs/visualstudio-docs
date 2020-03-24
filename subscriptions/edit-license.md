@@ -3,6 +3,7 @@ title: Edit subscriptions in the Administration Portal | Microsoft Docs
 author: evanwindom
 ms.author: lank
 manager: lank
+ms.assetid: 97ac8e4d-7a03-42f8-98cb-15bcaa90ef65
 ms.date: 03/03/2020
 ms.topic: conceptual
 description:  Learn how administrators can edit subscription assignments.
