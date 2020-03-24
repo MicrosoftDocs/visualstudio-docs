@@ -3,6 +3,7 @@ title: Product availability for software downloads in Visual Studio subscription
 author: evanwindom
 ms.author: lank
 manager: lank
+ms.assetid: abf271b5-7547-4695-a46f-72b2878ba8d4
 ms.date: 03/09/2020
 ms.topic: conceptual
 description:  Learn about product availability in software downloads for Visual Studio subscriptions
