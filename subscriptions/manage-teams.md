@@ -3,6 +3,7 @@ title: Managing large teams and external contractors | Visual Studio Marketplace
 author: evanwindom
 ms.author: lank
 manager: lank
+ms.assetid: 3fc57f5f-2446-4774-9f8f-98ea1340f6b2
 ms.date: 03/09/2020
 ms.topic: conceptual
 description:  Learn about administrators' responsibility to manage subscriptions for large teams as well as external contractors.
