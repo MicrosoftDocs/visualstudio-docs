@@ -1,8 +1,9 @@
 ---
 title: What Software is Available for Download? | Microsoft Docs
 author: evanwindom
-ms.author: lank
+ms.author: v-evwin
 manager: lank
+ms.assetid: c2878e28-eb5d-4adb-8d7d-a95ffea703a9
 ms.date: 03/11/2020
 ms.topic: conceptual
 description:  Find a list of the software downloads included with your Visual Studio subscription.

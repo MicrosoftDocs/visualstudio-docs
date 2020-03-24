@@ -1,8 +1,9 @@
 ---
 title: How to use connected Microsoft account and Azure Active Directory identities  | Microsoft Docs
 author: evanwindom
-ms.author: lank
+ms.author: v-evwin
 manager: lank
+ms.assetid: 50ce0445-ef1a-4e92-b9d0-aebb2155a111
 ms.date: 03/11/2020
 ms.topic: conceptual
 robots: "noindex, nofollow"
