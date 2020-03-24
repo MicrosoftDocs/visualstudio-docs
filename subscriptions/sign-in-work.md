@@ -3,6 +3,7 @@ title: Signing in to Visual Studio Subscriptions with your work or school accoun
 author: evanwindom
 ms.author: lank
 manager: lank
+ms.assetid: f39a2672-c283-4755-93d3-31c7c7a032d0
 ms.date: 03/11/2020
 ms.topic: conceptual
 description:  Learn how to sign in to your Visual Studio subscription(s) with your work or school account. 
@@ -72,4 +73,4 @@ If you're still having trouble, you can reach out to our [subscriptions support]
 - [Microsoft 365 documentation](https://docs.microsoft.com/microsoft-365/)
 
 ## Next steps
-Once you've successfully signed in to the subscriptions portal, we recommend visiting the Benefits page at https://my.visualstudio.com/benefits and exploring the great tools, services, and offers available to you.  
+After you've successfully signed in to the subscriptions portal, we recommend visiting the Benefits page at https://my.visualstudio.com/benefits and exploring the great tools, services, and offers available to you.  

@@ -3,6 +3,7 @@ title: Issues Signing in to Visual Studio Subscriptions | Microsoft Docs
 author: evanwindom
 ms.author: lank
 manager: lank
+ms.assetid: 176c7f11-b19d-49e9-a6dd-b2e5da5e8480
 ms.date: 03/11/2020
 ms.topic: conceptual
 description:  Learn about issues that may arise when signing in to Visual Studio subscriptions
