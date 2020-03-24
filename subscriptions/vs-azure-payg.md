@@ -1,8 +1,9 @@
 ---
 title: Azure PAYG Benefit
 author: evanwindom
-ms.author: lank
+ms.author: v-evwin
 manager: lank
+ms.assetid: 5dc7f57e-883a-4cc1-a914-06245a8cb1ff
 ms.date: 07/30/2019
 ms.topic: conceptual
 description:  Learn how to set up your Azure Pay-As-You-Go account.
