@@ -1,9 +1,10 @@
 ---
 title: Visual Studio IDE Benefit in Visual Studio Subscription | Microsoft Docs
 author: evanwindom
-ms.author: lank
+ms.author: v-evwin
 manager: lank
-ms.date: 11/14/2019
+ms.assetid: c4b13464-76be-40f1-ad60-ed79ee264b12
+ms.date: 03/25/2020
 ms.topic: conceptual
 description:  Learn how to download and install the Visual Studio IDE included in your Visual Studio subscription.
 ---
@@ -75,6 +76,12 @@ Not sure which subscription you're using?  Connect to [https://my.visualstudio.c
   - Technical Support: [https://visualstudio.microsoft.com/support/](https://visualstudio.microsoft.com/support/)
   - [Documentation](/visualstudio/)
 - For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, contact Visual Studio [Subscriptions Support](https://visualstudio.microsoft.com/subscriptions/support/).
+
+## See also
+- [Visual Studio documentation](https://docs.microsoft.com/visualstudio/)
+- [Azure DevOps documentation](https://docs.microsoft.com/azure/devops/)
+- [Azure documentation](https://docs.microsoft.com/azure/)
+- [Microsoft 365 documentation](https://docs.microsoft.com/microsoft-365/)
 
 ## Next steps
 Once you have Visual Studio installed, don't forget to activate these other important benefits:
