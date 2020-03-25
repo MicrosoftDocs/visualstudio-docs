@@ -79,8 +79,9 @@ Save the following example Dockerfile to a new file on your disk. If the file is
 
    # Define the entry point for the Docker container.
    # This entry point starts the developer command prompt and launches the PowerShell shell.
-   ENTRYPOINT ["C:\\BuildTools\\Common7\\Tools\\VsDevCmd.bat", "&&", "powershell.exe", "-NoLogo", "-ExecutionPolicy", "Bypass"]
+   ENTRYPOINT ["C:\\BuildTools\\Common7\\Tools\\VsDevCmd.bat", "&&", "powershell.exe", "-NoLogo", "-ExecutionPolicy", "Bypass"
    ```
+
  > [!TIP]
    > For a list of workloads and components, see the [Visual Studio Build Tools component directory](workload-component-id-vs-build-tools.md).
    >
@@ -91,7 +92,7 @@ Save the following example Dockerfile to a new file on your disk. If the file is
    > Visual Studio 2017 version 15.8 or earlier (any product) will not properly install on mcr.microsoft.com/windows/servercore:1809 or later. No error is displayed.
    >
    > See [Windows container version compatibility](/virtualization/windowscontainers/deploy-containers/version-compatibility) to see which container OS versions are supported on which host OS versions, and [Known issues for containers](build-tools-container-issues.md) for known issues.
-
+   
    ::: moniker-end
 
    ::: moniker range="vs-2019"
@@ -122,6 +123,7 @@ Save the following example Dockerfile to a new file on your disk. If the file is
    # This entry point starts the developer command prompt and launches the PowerShell shell.
    ENTRYPOINT ["C:\\BuildTools\\Common7\\Tools\\VsDevCmd.bat", "&&", "powershell.exe", "-NoLogo", "-ExecutionPolicy", "Bypass"]
    ```
+
  > [!TIP]
    > For a list of workloads and components, see the [Visual Studio Build Tools component directory](workload-component-id-vs-build-tools.md).
    >
