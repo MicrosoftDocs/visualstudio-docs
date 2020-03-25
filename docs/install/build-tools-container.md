@@ -2,7 +2,7 @@
 title: Install Visual Studio Build Tools into a container
 titleSuffix: ''
 description: Learn how to install Visual Studio Build Tools into a Windows container to support continuous integration and continuous delivery (CI/CD) workflows.
-ms.date: 03/24/2020
+ms.date: 03/25/2020
 ms.custom: seodec18
 ms.topic: conceptual
 ms.assetid: d5c038e2-e70d-411e-950c-8a54917b578a
@@ -79,7 +79,7 @@ Save the following example Dockerfile to a new file on your disk. If the file is
 
    # Define the entry point for the Docker container.
    # This entry point starts the developer command prompt and launches the PowerShell shell.
-   ENTRYPOINT  ["C:\\BuildTools\\Common7\\Tools\\VsDevCmd.bat", "&&", "powershell.exe", "-NoLogo", "-ExecutionPolicy", "Bypass"]
+   ENTRYPOINT ["C:\\BuildTools\\Common7\\Tools\\VsDevCmd.bat", "&&", "powershell.exe", "-NoLogo", "-ExecutionPolicy", "Bypass"]
    ```
  > [!TIP]
    > For a list of workloads and components, see the [Visual Studio Build Tools component directory](workload-component-id-vs-build-tools.md).
