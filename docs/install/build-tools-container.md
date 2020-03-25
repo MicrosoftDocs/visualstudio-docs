@@ -79,7 +79,7 @@ Save the following example Dockerfile to a new file on your disk. If the file is
 
    # Define the entry point for the Docker container.
    # This entry point starts the developer command prompt and launches the PowerShell shell.
-   ENTRYPOINT ["C:\\BuildTools\\Common7\\Tools\\VsDevCmd.bat", "&&", "powershell.exe", "-NoLogo", "-ExecutionPolicy", "Bypass"
+   ENTRYPOINT ["C:\\BuildTools\\Common7\\Tools\\VsDevCmd.bat", "&&", "powershell.exe", "-NoLogo", "-ExecutionPolicy", "Bypass"]
    ```
 
  > [!TIP]
