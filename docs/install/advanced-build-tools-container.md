@@ -81,9 +81,7 @@ ADD https://aka.ms/vscollect.exe C:\TEMP\collect.exe
 ARG CHANNEL_URL=https://aka.ms/vs/15/release/channel
 ADD ${CHANNEL_URL} C:\TEMP\VisualStudio.chman
 
-# Install Build Tools with the Microsoft.VisualStudio.Workload.AzureBuildTools workload.
-# Exclude workloads and components with known issues.
-# Visit 'Visual Studio Build Tools component directory' page to see a list of workloads and components.
+# Install Build Tools with the Microsoft.VisualStudio.Workload.AzureBuildTools workload, and exclude workloads and components with known issues.
 ADD https://aka.ms/vs/15/release/vs_buildtools.exe C:\TEMP\vs_buildtools.exe
 RUN C:\TEMP\Install.cmd C:\TEMP\vs_buildtools.exe --quiet --wait --norestart --nocache `
     --installPath C:\BuildTools `
@@ -96,7 +94,7 @@ RUN C:\TEMP\Install.cmd C:\TEMP\vs_buildtools.exe --quiet --wait --norestart --n
     --remove Microsoft.VisualStudio.Component.Windows81SDK
 
 # Define the entry point for the docker container.
-# This entry point starts the developer command prompt and then launch the PowerShell shell.
+# This entry point starts the developer command prompt and launches the PowerShell shell.
 ENTRYPOINT  [ "C:\\BuildTools\\Common7\\Tools\\VsDevCmd.bat", "&&", "powershell.exe", "-NoLogo", "-ExecutionPolicy", "Bypass" ]
 ```
 
@@ -130,9 +128,7 @@ ADD https://aka.ms/vscollect.exe C:\TEMP\collect.exe
 ARG CHANNEL_URL=https://aka.ms/vs/16/release/channel
 ADD ${CHANNEL_URL} C:\TEMP\VisualStudio.chman
 
-# Install Build Tools with the Microsoft.VisualStudio.Workload.AzureBuildTools workload.
-# Exclude workloads and components with known issues.
-# Visit 'Visual Studio Build Tools component directory' page to see a list of workloads and components.
+# Install Build Tools with the Microsoft.VisualStudio.Workload.AzureBuildTools workload, and exclude workloads and components with known issues.
 ADD https://aka.ms/vs/16/release/vs_buildtools.exe C:\TEMP\vs_buildtools.exe
 RUN C:\TEMP\Install.cmd C:\TEMP\vs_buildtools.exe --quiet --wait --norestart --nocache `
     --installPath C:\BuildTools `
@@ -145,7 +141,7 @@ RUN C:\TEMP\Install.cmd C:\TEMP\vs_buildtools.exe --quiet --wait --norestart --n
     --remove Microsoft.VisualStudio.Component.Windows81SDK
 
 # Define the entry point for the docker container.
-# This entry point starts the developer command prompt and then launch the PowerShell shell.
+# This entry point starts the developer command prompt and launches the PowerShell shell.
 ENTRYPOINT  [ "C:\\BuildTools\\Common7\\Tools\\VsDevCmd.bat", "&&", "powershell.exe", "-NoLogo", "-ExecutionPolicy", "Bypass" ]
 ```
 
@@ -170,6 +166,10 @@ docker build -t buildtools2019:16.0.28714.193 -t buildtools2019:latest -m 2GB .
 ::: moniker-end
 
 Optionally pass either or both `FROM_IMAGE` or `CHANNEL_URL` arguments using the `--build-arg` command-line switch to specify a different base image or the location of an internal layout to maintain a fixed image.
+
+ > [!TIP]
+   > For a list of workloads and components, see the [Visual Studio Build Tools component directory](workload-component-id-vs-build-tools.md).
+   >
 
 ## Diagnosing install failures
 
