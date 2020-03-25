@@ -111,7 +111,7 @@ To analyze memory usage, click one of the links that opens up a detailed report 
 
  The top pane shows the count and size of the types in the snapshot, including the size of all objects that are referenced by the type (**Inclusive Size**).
 
- The **Paths to Root** tree in the bottom pane displays the objects that reference the type selected in the upper pane. The .NET Framework garbage collector cleans up the memory for an object only when the last type that references it has been released.
+ The **Paths to Root** tree in the bottom pane displays the objects that reference the type selected in the upper pane. The .NET garbage collector cleans up the memory for an object only when the last type that references it has been released.
 
  The **Referenced Objects** tree displays the references that are held by the type selected in the upper pane.
 
