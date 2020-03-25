@@ -83,13 +83,13 @@ In a snapshot report, you can expand **Object Type** entries to display child en
 
 If an **Object Type** is blue, you can select it to navigate to the object in the source code, in a separate window.
 
-Types that you can't identify or whose involvement in your code you don't understand are probably .NET Framework, operating system, or compiler objects. The **Memory Usage** tool displays these objects if they're involved in the ownership chains of your objects.
+Types that you can't identify or whose involvement in your code you don't understand are probably .NET, operating system, or compiler objects. The **Memory Usage** tool displays these objects if they're involved in the ownership chains of your objects.
 
 In the snapshot report:
 
 - The **Managed Heap** tree shows the types and instances in the report. Selecting a type or instance displays the **Paths to Root** and **Referenced Objects** trees for the selected item.
 
-- The **Paths to Root** tree shows the chain of objects that reference a type or instance. The .NET Framework garbage collector cleans up the memory for an object only when all references to it have been released.
+- The **Paths to Root** tree shows the chain of objects that reference a type or instance. The .NET garbage collector cleans up the memory for an object only when all references to it have been released.
 
 - The **Referenced Types** or **Referenced Objects** tree shows the objects that the selected type or instance references.
 
@@ -129,7 +129,7 @@ The **Managed Heap** tree in a snapshot details report has the following columns
 |**Module**|The module that contains the object.|
 
 ### <a name="BKMK_Paths_to_Root_tree__Snapshot_details_"></a> Paths to Root tree (Snapshot details reports)
-The **Paths to Root tree** shows the chain of objects that reference a type or instance. The .NET Framework garbage collector cleans up the memory for an object only when all references to it have been released.
+The **Paths to Root tree** shows the chain of objects that reference a type or instance. The .NET garbage collector cleans up the memory for an object only when all references to it have been released.
 
 For a type in the **Paths to Root** tree, the number of objects that hold references to that type appears in the **Reference Count** column.
 
@@ -179,7 +179,7 @@ The **Managed Heap** tree in a snapshot diff report has the following columns:
 
 ### <a name="BKMK_Paths_to_Root_tree__Snapshot_diff_"></a> Paths to Root tree (Snapshot diff reports)
 
-The **Paths to Root tree** shows the chain of objects that reference a type or instance. The .NET Framework garbage collector cleans up the memory for an object only when all references to it have been released.
+The **Paths to Root tree** shows the chain of objects that reference a type or instance. The .NET garbage collector cleans up the memory for an object only when all references to it have been released.
 
 For a type in the **Paths to Root** tree, the number of objects that hold references to that type appears in the **Reference Count** column. The difference in count from the previous snapshot is in the **Reference Diff** column.
 
