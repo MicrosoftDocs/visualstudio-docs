@@ -10,7 +10,7 @@ manager: jillfra
 ---
 # JavaScript in Visual Studio
 
-Visual Studio provides different tools and featurs to help you create apps using JavaScript or TypeScript.
+Visual Studio provides different tools and features to help you create apps using JavaScript or TypeScript.
 
 - [Node.js tools for Visual Studio](/visualstudio/ide/quickstart-nodejs)
 - [TypeScript support in Visual Studio](/visualstudio/javascript/javascript-in-vs-2019)
