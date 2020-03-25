@@ -67,9 +67,7 @@ Save the following example Dockerfile to a new file on your disk. If the file is
    # Download the Build Tools bootstrapper.
    ADD https://aka.ms/vs/15/release/vs_buildtools.exe C:\TEMP\vs_buildtools.exe
 
-   # Install Build Tools with the Microsoft.VisualStudio.Workload.AzureBuildTools workload.
-   # Exclude workloads and components with known issues.
-   # Visit 'Visual Studio Build Tools component directory' page to see a list of workloads and components.
+   # Install Build Tools with the Microsoft.VisualStudio.Workload.AzureBuildTools workload, excluding workloads and components with known issues.
    RUN C:\TEMP\vs_buildtools.exe --quiet --wait --norestart --nocache `
        --installPath C:\BuildTools `
        --add Microsoft.VisualStudio.Workload.AzureBuildTools `
@@ -79,10 +77,13 @@ Save the following example Dockerfile to a new file on your disk. If the file is
        --remove Microsoft.VisualStudio.Component.Windows81SDK `
     || IF "%ERRORLEVEL%"=="3010" EXIT 0
 
-   # Define the entry point for the docker container.
-   # This entry point starts the developer command prompt and then launch the PowerShell shell.
+   # Define the entry point for the Docker container.
+   # This entry point starts the developer command prompt and launches the PowerShell shell.
    ENTRYPOINT  [ "C:\\BuildTools\\Common7\\Tools\\VsDevCmd.bat", "&&", "powershell.exe", "-NoLogo", "-ExecutionPolicy", "Bypass" ]
    ```
+ > [!TIP]
+   > For a list of workloads and components, see the [Visual Studio Build Tools component directory](workload-component-id-vs-build-tools.md).
+   >
 
    > [!WARNING]
    > If you base your image directly on microsoft/windowsservercore or mcr.microsoft.com/windows/servercore (see [Microsoft syndicates container catalog](https://azure.microsoft.com/blog/microsoft-syndicates-container-catalog/)), the .NET Framework might not install properly and no install error is indicated. Managed code might not run after the install is complete. Instead, base your image on [microsoft/dotnet-framework:4.7.2](https://hub.docker.com/r/microsoft/dotnet-framework) or later. Also note that images that are tagged version 4.7.2 or later might use PowerShell as the default `SHELL`, which will cause the `RUN` and `ENTRYPOINT` instructions to fail.
@@ -107,9 +108,7 @@ Save the following example Dockerfile to a new file on your disk. If the file is
    # Download the Build Tools bootstrapper.
    ADD https://aka.ms/vs/16/release/vs_buildtools.exe C:\TEMP\vs_buildtools.exe
 
-   # Install Build Tools with the Microsoft.VisualStudio.Workload.AzureBuildTools workload.
-   # Exclude workloads and components with known issues.
-   # Visit 'Visual Studio Build Tools component directory' page to see a list of workloads and components.
+   # Install Build Tools with the Microsoft.VisualStudio.Workload.AzureBuildTools workload, excluding workloads and components with known issues.
    RUN C:\TEMP\vs_buildtools.exe --quiet --wait --norestart --nocache `
        --installPath C:\BuildTools `
        --add Microsoft.VisualStudio.Workload.AzureBuildTools `
@@ -120,9 +119,12 @@ Save the following example Dockerfile to a new file on your disk. If the file is
     || IF "%ERRORLEVEL%"=="3010" EXIT 0
 
    # Define the entry point for the docker container.
-   # This entry point starts the developer command prompt and then launch the PowerShell shell.
+   # This entry point starts the developer command prompt and launches the PowerShell shell.
    ENTRYPOINT  [ "C:\\BuildTools\\Common7\\Tools\\VsDevCmd.bat", "&&", "powershell.exe", "-NoLogo", "-ExecutionPolicy", "Bypass" ]
    ```
+ > [!TIP]
+   > For a list of workloads and components, see the [Visual Studio Build Tools component directory](workload-component-id-vs-build-tools.md).
+   >
 
    > [!WARNING]
    > If you base your image directly on microsoft/windowsservercore, the .NET Framework might not install properly and no install error is indicated. Managed code might not run after the install is complete. Instead, base your image on [microsoft/dotnet-framework:4.8](https://hub.docker.com/r/microsoft/dotnet-framework) or later. Also note that images that are tagged version 4.8 or later might use PowerShell as the default `SHELL`, which will cause the `RUN` and `ENTRYPOINT` instructions to fail.
@@ -187,11 +189,11 @@ Now that you have created an image, you can run it in a container to do both int
 To use this image for your CI/CD workflow, you can publish it to your own [Azure Container Registry](https://azure.microsoft.com/services/container-registry) or other internal [Docker registry](https://docs.docker.com/registry/deploying) so servers need only to pull it.
 
    > [!NOTE]
-   > If docker container fails to start, there's likely a Visual Studio installation issue.  You can update the Dockerfile to remove the step that calls into Visual Studio batch command.  This enables you to start the docker container and read the installation error logs.
+   > If the Docker container fails to start, there's likely a Visual Studio installation issue. You can update the Dockerfile to remove the step that calls the Visual Studio batch command. This enables you to start the Docker container and read the installation error logs.
    >
-   > In your Dockerfile file, remove "C:\\BuildTools\\Common7\\Tools\\VsDevCmd.bat" and "&&" parameters in the `ENTRYPOINT` command.  You need to rebuild the Dockerfile and then execute `run` command to access container files.  To locate the installation error logs, go to the `$env:TEMP` directory and locate the `dd_setup_<timestamp>_errors.log` file.
+   > In your Dockerfile file, remove the `C:\\BuildTools\\Common7\\Tools\\VsDevCmd.bat` and `&&` parameters from the `ENTRYPOINT` command. The command should now be `ENTRYPOINT ["powershell.exe", "-NoLogo", "-ExecutionPolicy", "Bypass"]`. Next, rebuild the Dockerfile and execute the `run` command to access container files. To locate the installation error logs, go to the `$env:TEMP` directory and locate the `dd_setup_<timestamp>_errors.log` file.
    >
-   > After you identify and fix the installation issue, you can add the "C:\\BuildTools\\Common7\\Tools\\VsDevCmd.bat" and "&&" parameters back to the `ENTRYPOINT` command and rebuild your Dockerfile.
+   > After you identify and fix the installation issue, you can add the `C:\\BuildTools\\Common7\\Tools\\VsDevCmd.bat` and `&&` parameters back to the `ENTRYPOINT` command and rebuild your Dockerfile.
    >
    > For more information, see [Known issues for containers](build-tools-container-issues.md).
 
