@@ -3,7 +3,7 @@ title: Create JavaScript apps in Visual Studio | Microsoft Docs
 description: Learn how use Visual Studio to create applications.
 ms.topic: conceptual
 ms.prod: visual-studio-windows
-ms.technology: vs-ide-nodejs
+ms.technology: vs-javascript
 ms.author: "mikejo"
 author: "mikejo5000"
 manager: jillfra
