@@ -1,9 +1,10 @@
 ---
 title: Billing FAQ for Visual Studio Enterprise and Visual Studio Professional cloud subscriptions
 author: evanwindom
-ms.author: lank
+ms.author: v-evwin
 manager: lank
-ms.date: 07/28/2019
+ms.assetid: 21e0471d-ad59-4d21-9c6f-13f7147569af
+ms.date: 03/24/2020
 ms.topic: conceptual
 description:  Billing questions for cloud subscriptions.
 ---
@@ -110,6 +111,12 @@ A:  Yes, you can, if your reseller participates in the Cloud Solution Provider (
 - [Visual Studio Subscriptions Administration portal](https://manage.visualstudio.com/)
 - [Visual Studio subscription support](https://visualstudio.microsoft.com/vs/support/)
 - [Visual Studio cloud subscription purchasing for CSPs](vscloud-csp.md)
+
+## See also
+- [Visual Studio documentation](https://docs.microsoft.com/visualstudio/)
+- [Azure DevOps documentation](https://docs.microsoft.com/azure/devops/)
+- [Azure documentation](https://docs.microsoft.com/azure/)
+- [Microsoft 365 documentation](https://docs.microsoft.com/microsoft-365/)
 
 ## Next steps
 Buy cloud subscriptions now

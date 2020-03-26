@@ -3,6 +3,7 @@ title:  Use the Maximum Usage feature in the Administration Portal
 author: evanwindom
 ms.author: lank
 manager: lank
+ms.assetid: c473b01f-2dfe-4cc2-ad29-bb5e2a268123
 ms.date: 03/03/2020
 ms.topic: conceptual
 description: Learn how to view the maximum number of assigned subscriptions in the admin portal
