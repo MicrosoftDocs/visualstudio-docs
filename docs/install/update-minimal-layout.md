@@ -1,13 +1,13 @@
 ---
 title: Update Visual Studio using a minimal offline layout
 description: Learn how to Update Visual Studio using a minimal offline layout.
-ms.date: 03/19/2020
+ms.date: 03/25/2020
 ms.custom: seodec18
 ms.topic: conceptual
 ms.assetid: 
-author: takulal
-ms.author: takulal
-manager: allend
+author: ornellaalt
+ms.author: ornella
+manager: jillfra
 ms.workload:
 - multiple
 ms.prod: visual-studio-windows
@@ -16,11 +16,15 @@ ms.technology: vs-installation
 # Update Visual Studio using a minimal offline layout
 
 For computers that are not connected to the internet, creating a minimal layout is the easiest and fastest way to update your offline Visual Studio instances.
-<br><br>You can use the minimal layout tool to generate a layout tailored specifically to your team's needs. Enterprise Administrators can use this tool to create update layout(s) for most versions for Visual Studio 2017 and 2019. Unlike a full Visual Studio layout, a minimal layout only contains the updated packages; and therefore, it is always smaller and faster to generate and deploy. Enterprise administrators can further minimize the size of the update layout by specifying only the language, workloads and components that their team needs.
+
+You can use the minimal layout tool to generate a layout tailored specifically to your team's needs. Enterprise administrators can use this tool to create update layout(s) for most versions for Visual Studio 2017 and 2019. Unlike a full Visual Studio layout, a minimal layout only contains the updated packages, so it is always smaller and faster to generate and deploy. Enterprise administrators can further minimize the size of the update layout by specifying only the desired languages, workloads, and components.
 
 > [!IMPORTANT]
-> - If you are not familiar with Layout creation and usage please refer this [doc](update-a-network-installation-of-visual-studio.md).
-> - For better understanding of Visual Studio life cycle, refer this [doc](https://docs.microsoft.com/en-us/visualstudio/releases/2019/servicing)
+> These instructions assume that you've previously  created and used layouts. For more information about how to do so, see the [Update a network-based installation of Visual Studio](update-a-network-installation-of-visual-studio.md) page.
+>
+> 
+> For a better understanding of the Visual Studio lifecycle, see the [Visual Studio Product Lifecycle and Servicing](/visualstudio/releases/2019/servicing) page.
+>
 
 ## How to generate a minimal layout to update an offline installation of Visual Studio
 
