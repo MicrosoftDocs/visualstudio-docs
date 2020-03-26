@@ -3,6 +3,7 @@ title: Search and filter | Microsoft Docs
 author: evanwindom
 ms.author: lank
 manager: lank
+ms.assetid: 9c0b9a4f-b9a3-491c-a68f-6e4bac7f7b3d
 ms.date: 03/03/2020
 ms.topic: conceptual
 description:  Learn how administrators can locate individual subscribers or groups in the Administration Portal.

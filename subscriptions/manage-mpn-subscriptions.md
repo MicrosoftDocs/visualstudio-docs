@@ -3,7 +3,8 @@ title: Manage Visual Studio subscriptions offered through the Microsoft Partner 
 author: evanwindom
 ms.author: lank
 manager: lank
-ms.date: 07/28/2019
+ms.assetid: 83efe4ee-9a9d-4776-b27c-852d89dadafd
+ms.date: 03/09/2020
 ms.topic: conceptual
 description: How to assign Visual Studio subscriptions to your end users, for MPN partners.
 ---
@@ -54,7 +55,13 @@ Microsoft Action Pack subscriber and Visual Studio subscriptions
   > The Technical Contact Role is required for Visual Studio subscriptions
   - Pg 8 – Assigning Visual Studio subscriptions for Competency Partners
 
+## See also
+- [Visual Studio documentation](https://docs.microsoft.com/visualstudio/)
+- [Azure DevOps documentation](https://docs.microsoft.com/azure/devops/)
+- [Azure documentation](https://docs.microsoft.com/azure/)
+- [Microsoft 365 documentation](https://docs.microsoft.com/microsoft-365/)
+
 ## Next steps
 Subscribers and Program Administrators should work directly with the Microsoft Partner Network support team to resolve any problems with subscribers accessing subscriptions. Visit the [Support for Partners](https://partner.microsoft.com/support) page for assistance. (Your MPN sign in credentials will be required.)
 
-https://r.search.yahoo.com/_ylt=AwrWnKI73ARewjwA1C0PxQt.;_ylu=X3oDMTEyN2cxcTlwBGNvbG8DZ3ExBHBvcwMxBHZ0aWQDQjg0OTJfMQRzZWMDc3I-/RV=2/RE=1577405628/RO=10/RU=https%3a%2f%2fassetsprod.microsoft.com%2fmpn%2fProgram-Administrator-Guide-to-Software-and-Online-Services-Benefits/RK=2/RS=xsA5OL.9t6QqJlvFYZ3OPnZkC_k-
+

@@ -20,7 +20,7 @@ ms.workload:
 ---
 # Measure application performance by analyzing CPU usage
 
-You can use Visual Studio profiling tools to analyze performance issues in your application. This procedure shows how to use **CPU Usage** tab of the Diagnostics Tools to obtain performance data for your app.
+You can use Visual Studio profiling tools to analyze performance issues in your application. This article shows how to use **CPU Usage** tab of the Diagnostics Tools to obtain performance data for your app, and also provides information on using PerfTips.
 
 When the debugger pauses, the **CPU Usage** tool collects information about the functions that are executing in your application. The tool lists the functions that were performing work, and provides a timeline graph you can use to focus on specific segments of the sampling session.
 
@@ -45,8 +45,7 @@ In this tutorial, you will:
 
 2. Set a second breakpoint at the end of the function or region of code that you want to analyze.
 
-    > [!TIP]
-    > By setting two breakpoints, you can limit data collection to the parts of code that you want to analyze.
+    By setting two breakpoints, you can limit data collection to the parts of code that you want to analyze.
 
 3. The **Diagnostic Tools** window appears automatically unless you have turned it off. To bring up the window again, click **Debug** > **Windows** > **Show Diagnostic Tools**.
 
@@ -72,9 +71,15 @@ In this tutorial, you will:
 
      When you choose **Record CPU Profile**, Visual Studio will begin recording your functions and how much time they take to execute. You can only view this collected data when your application is halted at a breakpoint.
 
+     > [!TIP]
+     > To help analyze performance, you can also use [PerfTips](../profiling/perftips.md) to step through code and identify how long it takes particular functions or code blocks to complete.
+
 8. Hit F5 to run the app to your second breakpoint.
 
      Now, you now have performance data for your application specifically for the region of code that runs between the two breakpoints.
+
+     >[!TIP]
+     > When paused at a breakpoint or a code-stepping operation, you can also analyze performance using [PerfTips](#analyze-performance-using-perftips).
 
      The profiler begins preparing thread data. Wait for it to finish.
 
@@ -89,6 +94,9 @@ In this tutorial, you will:
      ![Diagnostics Tools Selecting a Time Segment](../profiling/media/diag-tools-select-time-segment.png "DiagToolsSelectTimeSegment")
 
      At this point, you can begin to analyze the data.
+
+     > [!TIP]
+     >  When trying to identify performance issues, take multiple measurements. Performance naturally varies from run-to-run, and code paths typically execute slower the first time they run due to one-time initialization work such as loading DLLs, JIT compiling methods, and initializing caches. By taking multiple measurements, you get a better idea of the range and median of the metric being shown, whichs allow you to compare the first time versus the steady state performance of an area of code.
 
 ## Step 2: Analyze CPU usage data
 
@@ -149,6 +157,12 @@ We recommend that you begin analyzing your data by examining the list of functio
 
     > [!NOTE]
     > If you see code in the call tree marked as "broken" code or "unwalkable stack", this indicates that Event Tracing for Windows (ETW) events were likely dropped. Try collecting the same trace a second time to resolve the issue.
+
+## Analyze performance using PerfTips
+
+While running code in the debugger, you can also use [PerfTips](../profiling/perftips.md) for in-depth performance analysis. Using PerfTips, you can view performance information while interacting with your code. You can check information such as the duration of the event (measured from when the debugger was last paused, or when the app started). For example, if you step through code (F10, F11), PerfTips show you the app runtime duration from the previous step operation to the current step.
+
+![Analyze with PerfTips](../profiling/media/diag-tools-perftips.png "AnalyzeWithPerfTips")
 
 ## View external code
 

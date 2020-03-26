@@ -44,17 +44,18 @@ The file appears on the Test menu, and you can select or deselect it. While sele
 
 There are three ways of specifying a run settings file in Visual Studio 2019 version 16.4 and later:
 
-- Add a build property to a project through either the project file or a Directory.Build.props file. The run settings file for a project is specified by the property **RunSettingsFilePath**. 
+- Add a build property to a project through either the project file or a Directory.Build.props file. The run settings file for a project is specified by the property **RunSettingsFilePath**.
 
     - Project-level run settings is currently supported in C#, VB, C++, and F# projects.
     - A file specified for a project overrides any other run settings file specified in the solution.
+    - [These MSBuild properties](https://docs.microsoft.com/visualstudio/msbuild/msbuild-reserved-and-well-known-properties?view=vs-2019) can be used to specify the path to the runsettings file. 
 
     Example of specifying a *.runsettings* file for a project:
     
     ```xml
     <Project Sdk="Microsoft.NET.Sdk">
       <PropertyGroup>
-        <RunSettingsFilePath>$(SolutionDir)\example.runsettings</RunSettingsFilePath>
+        <RunSettingsFilePath>$(MSBuildProjectDirectory)\example.runsettings</RunSettingsFilePath>
       </PropertyGroup>
       ...
     </Project>
@@ -74,7 +75,7 @@ There are three ways of specifying a run settings file in Visual Studio 2019 ver
 
 - In the IDE, select **Test** > **Configure Run Settings** > **Select Solution Wide runsettings File**, and then select the *.runsettings* file.
 
-   ![Select test solution wide runsettings file menu in Visual Studio 2019](media/vs-2019/select-solution-settings-file.png)
+   ![Select test solution-wide runsettings file menu in Visual Studio 2019](media/vs-2019/select-solution-settings-file.png)
       
    - This file overrides the ".runsettings" file at the root of the solution, if it exists, and is applied across all tests run.  
    - This file selection only persists locally. 
@@ -252,6 +253,7 @@ The **RunConfiguration** element can include the following elements:
 |**TestAdaptersPaths**||One or more paths to the directory where the TestAdapters are located|
 |**MaxCpuCount**|1|This setting controls the degree of parallel test execution when running unit tests using available cores on the machine. The test execution engine starts as a distinct process on each available core, and gives each core a container with tests to run. A container can be an assembly, DLL, or relevant artifact. The test container is the scheduling unit. In each container, the tests are run according to the test framework. If there are many containers, then as processes finish executing the tests in a container, they're given the next available container.<br /><br />MaxCpuCount can be:<br /><br />n, where 1 <= n <= number of cores: up to n processes are launched<br /><br />n, where n = any other value: the number of processes launched can be up to the number of available cores. For instance, set n=0 to let the platform automatically decide the optimal number of processes to launch based on the environment.|
 |**TestSessionTimeout**||Allows users to terminate a test session when it exceeds a given timeout. Setting a timeout ensures that resources are well consumed and test sessions are constrained to a set time. The setting is available in **Visual Studio 2017 version 15.5** and later.|
+|**DotnetHostPath**||Specify a custom path to dotnet host that is used to run the testhost. This is useful when you are building your own dotnet, for example when building the dotnet/runtime repository. Specifying this option will skip looking for testhost.exe, and will always use the testhost.dll. 
 
 ### Diagnostic data adapters (data collectors)
 
@@ -337,3 +339,4 @@ These settings are specific to the test adapter that runs test methods that have
 - [Configure a test run](https://github.com/microsoft/vstest-docs/blob/master/docs/configure.md)
 - [Customize code coverage analysis](../test/customizing-code-coverage-analysis.md)
 - [Visual Studio test task (Azure Test Plans)](/azure/devops/pipelines/tasks/test/vstest?view=vsts)
+

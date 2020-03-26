@@ -136,6 +136,11 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "docs/code-quality/fxcop-analyzers.yml",
+      "redirect_url": "/visualstudio/code-quality/migrate-from-legacy-analysis-to-fxcop-analyzers",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/code-quality/how-to-configure-code-analysis-for-an-aspnet-web-application.md",
       "redirect_url": "/visualstudio/code-quality/how-to-configure-code-analysis-for-a-managed-code-project",
       "redirect_document_id": false
@@ -3358,7 +3363,7 @@
     {
       "source_path": "docs/docker/vs-azure-tools-docker-setup.md",
       "redirect_url": "/visualstudio/containers/",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/docker/vs-azure-tools-docker-troubleshooting-docker-errors.md",
@@ -5476,6 +5481,16 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "docs/test/intellitest-manual/getting-started.md",
+      "redirect_url": "/visualstudio/test/intellitest-manual/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/test/intellitest-manual/introduction.md",
+      "redirect_url": "/visualstudio/test/intellitest-manual/index",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/test/sample-project-for-creating-unit-tests.md",
       "redirect_url": "/visualstudio/test/walkthrough-creating-and-running-unit-tests-for-managed-code",
       "redirect_document_id": false
@@ -5573,11 +5588,6 @@
     {
       "source_path": "docs/test/how-to-view-data-and-diagnostic-attachments-using-the-load-test-analyzer.md",
       "redirect_url": "/visualstudio/test/quickstart-create-a-load-test-project",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "docs/test/index.md",
-      "redirect_url": "/visualstudio/test/improve-code-quality",
       "redirect_document_id": false
     },
     {
@@ -11609,6 +11619,11 @@
       "source_path": "subscriptions/vs-rstudio.md",
       "redirect_url": "/visualstudio/subscriptions",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/how-to-enable-and-disable-full-solution-analysis-for-managed-code.md",
+      "redirect_url": "/visualstudio/code-quality/configure-live-code-analysis-scope-managed-code",
+      "redirect_document_id": true
     },
     {
       "source_path": "docs/azure/cognitive-services-connected-services.yml",

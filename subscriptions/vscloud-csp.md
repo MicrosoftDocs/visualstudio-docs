@@ -1,9 +1,10 @@
 ---
 title: Visual Studio cloud subscription purchasing for CSPs
 author: evanwindom
-ms.author: lank
+ms.author: v-evwin
 manager: lank
-ms.date: 07/28/2019
+ms.assetid: d2ab13ed-ef79-4ef0-8736-eccd04bc6020
+ms.date: 03/24/2020
 ms.topic: conceptual
 description:  Information for Cloud Solution Providers on how to buy and manage Visual Studio cloud subscriptions for your customers.
 ---
@@ -102,3 +103,11 @@ A:  No, prices for Visual Studio subscriptions are flat. The same price is offer
 ### Q: Are there Azure dev/test pricing options for CSPs?
 A: Not at this time. Your customers can take advantage of [Azure dev/test pricing](https://azure.microsoft.com/pricing/dev-test/), but we do not have anything specifically for CSPs.
 
+## See also
+- [Visual Studio documentation](https://docs.microsoft.com/visualstudio/)
+- [Azure DevOps documentation](https://docs.microsoft.com/azure/devops/)
+- [Azure documentation](https://docs.microsoft.com/azure/)
+- [Microsoft 365 documentation](https://docs.microsoft.com/microsoft-365/)
+
+## Next steps
+See the [cloud billing FAQ](vscloud-billing-faq.md) for answers to common billing questions.  

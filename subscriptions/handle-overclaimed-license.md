@@ -3,6 +3,7 @@ title: Handle overallocated licenses | Microsoft Docs
 author: evanwindom
 ms.author: lank
 manager: lank
+ms.assetid: a747100c-6f08-41a4-aaad-05099741742b
 ms.date: 03/03/2020
 ms.topic: conceptual
 description:  Learn how administrators can resolve overallocated subscriptions

@@ -1,14 +1,15 @@
 ---
 title: Azure PAYG Benefit
 author: evanwindom
-ms.author: lank
+ms.author: v-evwin
 manager: lank
+ms.assetid: 5dc7f57e-883a-4cc1-a914-06245a8cb1ff
 ms.date: 07/30/2019
 ms.topic: conceptual
 description:  Learn how to set up your Azure Pay-As-You-Go account.
 ---
 
-# Azure Dev/Test Pay-As-You-Go subscriptions
+# Azure DevTest Pay-As-You-Go subscriptions
 Collaborate with your team in the cloud.  Create multiple Dev and Test Pay-As-You-Go subscriptions, enabling collaboration with other subscribers while also providing isolation between teams and environments.  You receive exclusive discounted hourly rates for dev/test and cloud use rights for your subscription software on Azure.
 
 ## Set up a subscription
@@ -37,6 +38,12 @@ A: To make changes to any of your Azure subscriptions:
 2. In the list in the left pane, select **Cost Management + Billing**.
 3. You'll see a list of your subscriptions in the **My subscriptions** box. Click the desired subscription.
 4. You'll now have options to manage or cancel the subscription, rename it, change the directory, or transfer billing ownership.
+
+## See also
+- [Visual Studio documentation](https://docs.microsoft.com/visualstudio/)
+- [Azure DevOps documentation](https://docs.microsoft.com/azure/devops/)
+- [Azure documentation](https://docs.microsoft.com/azure/)
+- [Microsoft 365 documentation](https://docs.microsoft.com/microsoft-365/)
 
 ## Next steps
 Many subscriptions include additional Azure-related benefits such as Azure DevOps and Azure DevTest individual credit.  For more information about these benefits, please see:

@@ -3,6 +3,7 @@ title: Assign licenses to Visual Studio subscriptions | Microsoft Docs
 author: evanwindom
 ms.author: lank
 manager: lank
+ms.assetid: 4e529a43-7aed-4eee-895d-862a631952df
 ms.date: 03/02/2020
 ms.topic: conceptual
 description:  Learn how administrators can assign licenses to subscribers

@@ -3,7 +3,8 @@ title: Partners managing Visual Studio subscriptions for customers | Microsoft D
 author: evanwindom
 ms.author: lank
 manager: lank
-ms.date: 08/21/2019
+ms.assetid: 6866dfab-c4fa-428e-bb0d-7b202c81f770
+ms.date: 03/09/2020
 ms.topic: conceptual
 description:  Learn how partners manage Visual Studio subscriptions for their customers.
 ---
@@ -45,9 +46,15 @@ This scenario applies to new partners, who have already placed new Open License 
 > The customer will receive a notification email informing them that a Partner has been added to the Open License. They can choose to remove the Partner’s access.
 
 ## Resources
-- [Visual Studio Licensing Whitepaper](https://visualstudio.microsoft.com/wp-content/uploads/2019/06/Visual-Studio-Licensing-Whitepaper-May-2019.pdf)
+- [Visual Studio Licensing Whitepaper](https://aka.ms/vslicensing)
 - [Visual Studio Administration and Subscriptions Support](https://visualstudio.microsoft.com/support/support-overview-vs)
 - [Volume Licensing Terms](https://www.microsoft.com/licensing/product-licensing/products.aspx)
+
+## See also
+- [Visual Studio documentation](https://docs.microsoft.com/visualstudio/)
+- [Azure DevOps documentation](https://docs.microsoft.com/azure/devops/)
+- [Azure documentation](https://docs.microsoft.com/azure/)
+- [Microsoft 365 documentation](https://docs.microsoft.com/microsoft-365/)
 
 ## Next steps
 - Visit the Visual Studio [Subscriptions Administration Portal](https://manage.visualstudio.com) to manage subscriptions.
