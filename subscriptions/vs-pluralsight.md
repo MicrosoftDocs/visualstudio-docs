@@ -1,9 +1,10 @@
 ---
 title: Pluralsight benefit in Visual Studio subscriptions | Microsoft Docs
 author: evanwindom
-ms.author: lank
+ms.author: v-evwin
 manager: lank
-ms.date: 11/18/2019
+ms.assetid: bc8b526c-2fed-4ac8-aaa2-73d2495256fd
+ms.date: 03/26/2020
 ms.topic: conceptual
 description:  Learn about the Pluralsight training subscription included with selected Visual Studio subscriptions.
 ---
@@ -91,6 +92,12 @@ A:  At the end of your free Pluralsight subscription, you may choose to purchase
 - [Pluralsight Help Center](https://help.pluralsight.com/help) provides assistance with taking Pluralsight courses or using the Pluralsight website.
 - For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, contact Visual Studio [Subscriptions Support](https://visualstudio.microsoft.com/subscriptions/support/).
 - Have a question about Visual Studio IDE, Azure DevOps Services or other Visual Studio products or services?  Visit [Visual Studio Support](https://visualstudio.microsoft.com/support/).
+
+## See also
+- [Visual Studio documentation](https://docs.microsoft.com/visualstudio/)
+- [Azure DevOps documentation](https://docs.microsoft.com/azure/devops/)
+- [Azure documentation](https://docs.microsoft.com/azure/)
+- [Microsoft 365 documentation](https://docs.microsoft.com/microsoft-365/)
 
 ## Next steps
 Once you've created your account, you're ready to start training.  Visit [https://www.pluralsight.com](https://www.pluralsight.com) and tap **log in** at the top right corner of the page to start a new course, or return to a course already in progress.
