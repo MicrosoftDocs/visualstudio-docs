@@ -1,9 +1,10 @@
 ---
 title: Parasoft Virtualize/SOAtest Professional Desktop Benefit | Microsoft Docs
 author: evanwindom
-ms.author: lank
+ms.author: v-evwin
 manager: lank
-ms.date: 11/18/2019
+ms.assetid: 00c1f300-d04e-4695-815e-775ffbf0f931
+ms.date: 03/26/2020
 ms.topic: conceptual
 description:  Learn how to activate the Parasoft Virtualize/SOA Test Professional subscription included in your Visual Studio subscription.
 ---
@@ -87,6 +88,12 @@ Test earlier and more often.  Simulate and test the behavior of unavailable evol
   - Parasoft Resource Center:  https://www.parasoft.com/resources/
 - For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, contact Visual Studio [Subscriptions Support](https://visualstudio.microsoft.com/subscriptions/support/).
 - Have a question about Visual Studio IDE, Azure DevOps Services or other Visual Studio products or services?  Visit [Visual Studio Support](https://visualstudio.microsoft.com/support/).
+
+## See also
+- [Visual Studio documentation](https://docs.microsoft.com/visualstudio/)
+- [Azure DevOps documentation](https://docs.microsoft.com/azure/devops/)
+- [Azure documentation](https://docs.microsoft.com/azure/)
+- [Microsoft 365 documentation](https://docs.microsoft.com/microsoft-365/)
 
 ## Next steps
 Take advantage of your own development sandbox by activating your [Azure DevTest individual credit](vs-azure.md). 
