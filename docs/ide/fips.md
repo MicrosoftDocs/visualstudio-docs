@@ -1,6 +1,6 @@
 ---
 title: Visual Studio support for FIPS compliance
-ms.date: 03/20/2020
+ms.date: 03/27/2020
 ms.topic: conceptual
 author: TerryGLee
 ms.author: tglee
