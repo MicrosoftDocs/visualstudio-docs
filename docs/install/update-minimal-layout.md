@@ -17,7 +17,9 @@ ms.technology: vs-installation
 
 For computers that are not connected to the internet, creating a minimal layout is the easiest and fastest way to update your offline Visual Studio instances.
 
-You can use the minimal layout tool to generate a layout tailored specifically to your team's needs. Enterprise administrators can use this tool to create update layout(s) for most versions for Visual Studio 2017 and 2019. Unlike a full Visual Studio layout, a minimal layout only contains the updated packages, so it is always smaller and faster to generate and deploy. Enterprise administrators can further minimize the size of the update layout by specifying only the desired languages, workloads, and components.
+The minimal layout tool generates a layout tailored specifically to your team's needs. Enterprise administrators can use this tool to create update layout(s) for most versions for Visual Studio 2017 and 2019. Unlike a full Visual Studio layout, a minimal layout only contains the updated packages, so it is always smaller and faster to generate and deploy. You can further minimize the size of the update layout by specifying only the desired languages, workloads, and components.
+
+## How to generate a minimal layout
 
 > [!IMPORTANT]
 > These instructions assume that you've previously  created and used layouts. For more information about how to do so, see the [Update a network-based installation of Visual Studio](update-a-network-installation-of-visual-studio.md) page.
@@ -26,42 +28,39 @@ You can use the minimal layout tool to generate a layout tailored specifically t
 > For a better understanding of the Visual Studio lifecycle, see the [Visual Studio Product Lifecycle and Servicing](/visualstudio/releases/2019/servicing) page.
 >
 
-## How to generate a minimal layout to update an offline installation of Visual Studio
+This tool creates update layouts for Visual Studio 2017 (15.9) and onwards. The layout can be deployed to network/offline machines to update Visual Studio instances. During [normal layout creation](update-a-network-installation-of-visual-studio.md), all the packages for that particular release are downloaded. Normal layout creation is required for repairing, uninstalling and other standard operations on Visual Studio instances. The minimal layout downloads only updated packages, so it's smaller and easier to copy to offline machines.
 
-This tool is used by enterprise IT administrators for easy deployments to network/offline deployment of VS 2017(15.9) and onwards. During [normal layout creation](update-a-network-installation-of-visual-studio.md), all the packages for that particular release is downloaded. Normal layout creation is required for repair, uninstall and other standard operations. This minimal layout however downloads only updated packages and is ideal for quick updates. Since this contains only updated packages, it is small and easy to copy to offline machines. Minimal layout is designed for quick and easy updates for network/offline scenarios.
+### Installing the minimal layout tool
+ 
+ * First, download the minimal layout tool located [here](https://aka.ms/vs/install/minimallayout). Make sure to choose **Save** when prompted, then select **Run**.
 
-### Installing Minimal layout tool
- -	MinimalLayout tool can be downloaded by clicking [here](https://aka.ms/vs/install/minimallayout). Make sure to choose **Save** the Microsoft.VisualStudio.Setup.MinimalLayout.msi. 
+ ![Save minimal layout tool](save-minimal-layout.png)
 
- ![Save MinimalLayout](media/save-minimal-layout.png "Save MinimalLayout tool")
+ * Next, accept the User Account Control prompt by clicking **Yes**.
 
- - Click on Run. Accept User account control prompt by clicking yes
+ ![Accept user account control](accept-user-account-control.png)
 
- ![Accept user account control](media/accept-user-account-control.png "Accept user account control")
+ * The minimal layout tool will be installed to `C:\Program Files (x86)\Microsoft Visual Studio\MinimalLayout`.
 
- - The minimal layout tool gets installed under “C:\Program Files (x86)\Microsoft Visual Studio\MinimalLayout” location. 
+### How to use the minimal layout tool
 
-### How to use Minimal layout tool
+`MinimalLayout.exe` uses the following commands and options to generate the layout. At least one command is required to run the tool. Here's how you'll run the tool:
 
-MinimalLayout.exe uses following commands and options to generate layout. A command is mandatory for the tool. Please refer to the following commands and option table for detail.
-
-> Syntax: `minimallayout.exe [command] <options>...`
-
-#### Commands: 
-1. **Preview**: Use this command to look at how many packages will download, and total space used while creating this layout.
-2. **Generate**: This command is used to generate the layout with updated packages
-3. **Regenerate**: This command can be used to Generate layout using already existing layout with same parameters. Every generation of a minimal layout produces a MinimalLayout.json file, which captures the original run inputs.  This allows you to easily re-run/replay.  Alternatively, it is an alternative mechanism for managing/setting the tool's parameters.
-   - For this command minimallayout.json file path from already generated layout is required. Here is an example:
+```MinimalLayout.exe [command] <options>...```
+#### Commands
+1. **Preview**: Use this command to preview how many packages will download, and the total space used to create this layout. 
+2. **Generate**: Use this command to generate the minimal layout for updating Visual Studio.
+3. **Regenerate**: Use this command to regenerate a layout using an existing minimal layout response file. Every minimal layout produces a `MinimalLayout.json` response file, which contains the original minimal layout input parameters. You can use the **Regenerate** command and a `MinimalLayout.json` response file to regenerate the minimal layout. This is useful if you want to create a minimal layout for a new Visual Studio update based on the previous minimal layout's response file. 
+   - For this command, a `MinimalLayout.json` file path from an already generated layout is required. 
 
     ```cmd
-    minimalLayout.exe regenerate --filePath C:\MinimalLayout\minimalLayout.json
+    MinimalLayout.exe regenerate --filePath C:\MinimalLayout\MinimalLayout.json
     ```
-4. **Verify**: This command determines if the layout folder is corrupted.
-5. **Fix**: This command fixes a corrupted layout folder, including replacing any /missing packages from the layout folder.
-<br>
-<br>
 
-#### Options: 
+4. **Verify**: Use this command to determine if the layout folder is corrupted.
+5. **Fix**: Use this command to fix a corrupted layout folder, including replacing any missing packages from the layout folder.
+
+#### Options 
 |Options    |Description    |Required/Optional|Example|
 |:----------|:-----------|:------------|:--------------|
 |--targetLocation &lt;dir&gt;    |Specifies a directory in which to create a minimal offline layout       |Required        |--targetLocation c:\VSLayout\
