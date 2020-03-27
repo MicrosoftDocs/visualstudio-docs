@@ -9,6 +9,7 @@ dev_langs:
   - CSharp
 ms.workload: 
   - "dotnet"
+monikerRange: vs-2019
 ---
 # Move type to namespace
 
