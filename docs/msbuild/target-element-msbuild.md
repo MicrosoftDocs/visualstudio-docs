@@ -54,7 +54,7 @@ Contains a set of tasks for MSBuild to execute sequentially.
 
 |Attribute|Description|
 |---------------|-----------------|
-|`Name`|Required attribute.<br /><br /> The name of the target.|
+|`Name`|Required attribute.<br /><br /> The name of the target. A target name may contain any character except `$@()%*?.`.|
 |`Condition`|Optional attribute.<br /><br /> The condition to be evaluated. If the condition evaluates to `false`, the target will not execute the body of the target or any targets that are set in the `DependsOnTargets` attribute. For more information about conditions, see [Conditions](../msbuild/msbuild-conditions.md).|
 |`Inputs`|Optional attribute.<br /><br /> The files that form inputs into this target. Multiple files are separated by semicolons. The timestamps of the files will be compared with the timestamps of files in `Outputs` to determine whether the `Target` is up to date. For more information, see [Incremental builds](../msbuild/incremental-builds.md), [How to: Build incrementally](../msbuild/how-to-build-incrementally.md), and [Transforms](../msbuild/msbuild-transforms.md).|
 |`Outputs`|Optional attribute.<br /><br /> The files that form outputs into this target. Multiple files are separated by semicolons. The timestamps of the files will be compared with the timestamps of files in `Inputs` to determine whether the `Target` is up to date. For more information, see [Incremental builds](../msbuild/incremental-builds.md), [How to: Build incrementally](../msbuild/how-to-build-incrementally.md), and [Transforms](../msbuild/msbuild-transforms.md).|
