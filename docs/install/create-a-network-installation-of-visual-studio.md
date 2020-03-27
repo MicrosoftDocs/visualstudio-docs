@@ -1,7 +1,7 @@
 ---
 title: Create a network-based installation
 description: Learn how to create a network install point for deploying Visual Studio within an enterprise.
-ms.date: 10/29/2019
+ms.date: 03/27/2020
 ms.custom: seodec18
 ms.topic: conceptual
 helpviewer_keywords:
@@ -234,6 +234,9 @@ When you install from a layout, the content that is installed is acquired from t
 > [!IMPORTANT]
 > The `--noWeb` option does not stop Visual Studio setup from checking for updates. For more information, see the [Control updates to network-based Visual Studio deployments](controlling-updates-to-visual-studio-deployments.md) page.
 
+> [!TIP]
+> For offline installations, if you want to install from offline source on a non-internet connected computer, specify both `--noWeb` and `--noUpdateInstaller`. The former prevents downloading updated workloads, components, and so on. The latter prevents the installer from self-updating from the web.
+
 ### Error codes
 
 If you used the `--wait` parameter, then depending on the result of the operation, the `%ERRORLEVEL%` environment variable is set to one of the following values:
@@ -288,3 +291,4 @@ We have other support options available, too. For a list, see our [Feedback](../
 - [Update Visual Studio while on a servicing baseline](update-servicing-baseline.md)
 - [Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md)
 - [Visual Studio workload and component IDs](workload-and-component-ids.md)
+- [Install certificates required for Visual Studio offline installation](/install-certificates-for-visual-studio-offline.md)
