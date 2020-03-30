@@ -235,7 +235,7 @@ When you install from a layout, the content that is installed is acquired from t
 > If you want to install from an offline source to a non-internet connected computer, specify both `--noWeb` and `--noUpdateInstaller`. The former prevents downloading updated workloads, components, and so on. The latter prevents the installer from self-updating from the web.
 
 > [!IMPORTANT]
-> The `--noWeb` option does not stop Visual Studio setup from checking for updates. For more information, see the [Control updates to network-based Visual Studio deployments](controlling-updates-to-visual-studio-deployments.md) page.
+> The `--noWeb` option does not stop Visual Studio setup on an internet-connected machine from checking for updates. For more information, see the [Control updates to network-based Visual Studio deployments](controlling-updates-to-visual-studio-deployments.md) page.
 
 ### Error codes
 
