@@ -232,10 +232,10 @@ Administrators can deploy Visual Studio onto client workstations as part of an i
 When you install from a layout, the content that is installed is acquired from the layout. However, if you select a component that isn't in the layout, it will be acquired from the internet.  If you want to prevent Visual Studio setup from downloading any content that is missing in your layout, use the `--noWeb` option. If `--noWeb` is used and the layout is missing any content that is selected to be installed, setup fails.
 
 > [!TIP]
-> If you want to install from an offline source on a non-internet connected computer, specify both `--noWeb` and `--noUpdateInstaller`. The former prevents downloading updated workloads, components, and so on. The latter prevents the installer from self-updating from the web.
+> If you want to install from an offline source on a non-internet connected computer, specify both the `--noWeb` and `--noUpdateInstaller` options. The former prevents downloading updated workloads, components, and so on. The latter prevents the installer from self-updating from the web.
 
 > [!IMPORTANT]
-> The `--noWeb` option does not stop Visual Studio setup on an internet-connected machine from checking for updates. For more information, see the [Control updates to network-based Visual Studio deployments](controlling-updates-to-visual-studio-deployments.md) page.
+> The `--noWeb` option does not stop Visual Studio setup on an internet-connected computer from checking for updates. For more information, see the [Control updates to network-based Visual Studio deployments](controlling-updates-to-visual-studio-deployments.md) page.
 
 ### Error codes
 
