@@ -8,7 +8,7 @@ manager: jillfra
 ms.workload:
 - dotnet
 ---
-# Add explicit cast to an expression quick action
+# Add explicit cast
 
 This code generation applies to:
 
