@@ -1,5 +1,5 @@
 ---
-title: Add explicit cast quick action
+title: Add explicit cast
 ms.date: 03/26/2020
 ms.topic: reference
 author: y87feng
@@ -23,12 +23,10 @@ This code generation applies to:
 ## How to use it
 
 1. Place your caret on the error.
-2. Press **Ctrl**+**.** to trigger the **Quick Actions and Refactorings** menu
-3. Select **Add explicit cast**
+2. Press **Ctrl**+**.** to trigger the **Quick Actions and Refactorings** menu.
+3. Select **Add explicit cast**.
 
    ![Add explicit cast quick action in Visual Studio](media/add-explicit-cast.png)
-
-   Visual Studio adds the cast to the expression.
 
 ## See also
 
