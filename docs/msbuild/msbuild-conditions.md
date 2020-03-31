@@ -47,14 +47,6 @@ You can use string methods in conditions, as shown in the following example, in 
         <!-- Properties for .NET Framework -->
     </PropertyGroup>
 
-    <!--
-        You can also do it like this, since, 'TargetFrameworkIdentifier', 'TargetFrameworkVersion'
-        will be available by now, as Properties are evaluated before Items.
-    -->
-    <ItemGroup Condition="'$(TargetFrameworkIdentifier)' == '.NETCoreApp'">
-        <!-- Items for .NET Core -->
-    </ItemGroup>
-
 </Project>
 ```
 
