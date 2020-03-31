@@ -57,7 +57,7 @@ productDirectory:
            text: Documentation
          - url: https://code.visualstudio.com/docs/remote/vsonline
            text: Use with Visual Studio Code
-         - url: https://online.visualstudio.com/login
+         - url: https://visualstudio.microsoft.com/services/visual-studio-online/
            text: Product page
     - title: Visual Studio App Center
       imageSrc: ./media/vs-mobile-center.svg
