@@ -38,3 +38,4 @@ To connect to a project:
 
 - [Team Explorer reference](reference/team-explorer-reference.md)
 - [Connect to a project (Azure DevOps)](/azure/devops/organizations/projects/connect-to-projects)
+- [Troubleshoot connecting to a project](/azure/devops/user-guide/troubleshoot-connection?view=azure-devops)
