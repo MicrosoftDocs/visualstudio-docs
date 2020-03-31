@@ -16,7 +16,7 @@ ms.workload:
 
 In Visual Studio, you can specify the version of .NET that you want your project to target. Framework targeting helps guarantee that the application uses only functionality that is available in the specified framework version. For .NET Framework apps to run on another computer, the framework version that the application targets must be compatible with the framework version that's installed on the computer.
 
-A Visual Studio solution can contain projects that target different versions of .NET.  However, note that you can only build against a single version .NET using reference conditionals.  For more information about target frameworks, see [Target frameworks](/dotnet/standard/frameworks).
+A Visual Studio solution can contain projects that target different versions of .NET.  However, note that you can only build against a single version of .NET either using reference conditionals for a single build or recursively build different binaries for each version.  For more information about target frameworks, see [Target frameworks](/dotnet/standard/frameworks).
 
 > [!TIP]
 > You can also target applications for different platforms. For more information, see [Multitargeting](../msbuild/msbuild-multitargeting-overview.md).
