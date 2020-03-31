@@ -1,6 +1,6 @@
 ---
 title: Connect to projects in Team Explorer
-ms.date: 12/04/2018
+ms.date: 03/31/2020
 ms.topic: conceptual
 ms.author: tglee
 author: TerryGLee
