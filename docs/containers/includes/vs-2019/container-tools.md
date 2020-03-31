@@ -70,6 +70,8 @@ Select **Docker** from the debug drop-down in the toolbar, and start debugging t
 
 The **Container Tools** option in the **Output** window shows what actions are taking place. The first time, it might take a while to download the base image, but it's much faster on subsequent runs.
 
+>[!NOTE] If you need to change ports for debugging, you can do that in the *launchSettings.json* file. See [Container Launch Settings](container-launch-settings.md).
+
 ## Containers window
 
 If you have Visual Studio 2019 version 16.4 or later, you can use the **Containers** window to view running containers on your machine, as well as images that you have available.
