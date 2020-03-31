@@ -38,7 +38,7 @@ If the icons show up in the same cells every game, it's not very challenging. To
     > [!NOTE]
     > The names "iconLabel" and "control" are used because they are descriptive. You can replace these names with any names, and the code will work exactly the same as long as you change the name in each statement inside the loop.
 
-     The `AssignIconsToSquares()` method iterates through each label control in the TableLayoutPanel and executes the same statements for each of them. Those statements pull a random icon from the list that you added in [Step 2: Add a Random object and a list of icons](../ide/step-2-add-a-random-object-and-a-list-of-icons.md). (That's why you included two of each icon in the list, so there would be a pair of icons assigned to random Label controls.)
+     The `AssignIconsToSquares()` method iterates through each label control in the TableLayoutPanel and executes the same statements for each of them. Those statements pull a random icon from the list that you added in [Step 2: Add a Random object and a list of icons](../ide/step-2-add-a-random-object-and-a-list-of-icons.md). As a reminder, each of these icons is a letter in the Webdings font, which is why they are expressed as text in this method. You included two of each icon in the list, so that there would be a pair of icons assigned to random Label controls.
 
      Look more closely at the code that runs inside the `foreach` or `For Each` loop. This code is reproduced here.
 
@@ -61,9 +61,9 @@ If the icons show up in the same cells every game, it's not very challenging. To
     End Sub
     ```
 
-4. Save your program and run it. It should show a form with random icons assigned to each label.
+4. Save your program and run it. It should show a form with random icons assigned to each label. 
 
-5. Close your program, and then run it again. Notice that different icons are assigned to each label, as shown in the following picture.
+5. Close your program, and then run it again. Notice that different icons are assigned to each label, as shown in the following picture. 
 
      ![Matching game with random icons](../ide/media/express_tut4step3.png)<br/>
 *Matching game with random icons*
