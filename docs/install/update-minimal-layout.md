@@ -34,11 +34,11 @@ This tool creates update layouts for Visual Studio 2017 (15.9) and onwards. The 
  
  * First, download the minimal layout tool located [here](https://aka.ms/vs/install/minimallayout). Make sure to choose **Save** when prompted, then select **Run**.
 
- ![Save minimal layout tool](save-minimal-layout.png)
+ ![Save minimal layout tool](media/save-minimal-layout.png)
 
  * Next, accept the User Account Control prompt by clicking **Yes**.
 
- ![Accept user account control](accept-user-account-control.png)
+ ![Accept user account control](media/accept-user-account-control.png)
 
  * The minimal layout tool will be installed to `C:\Program Files (x86)\Microsoft Visual Studio\MinimalLayout`.
 
@@ -74,7 +74,7 @@ This tool creates update layouts for Visual Studio 2017 (15.9) and onwards. The 
 |--includeRecommended	|Includes the recommended components for any workloads that are installed, but not the optional components	|optional	|for specific workload --add Microsoft.VisualStudio.Workload. ManagedDesktop;includeRecommended <br>Or apply to all workload *--includeRecommended* 
 |--includeOptional	|Includes the optional components for any workloads that are installed, but not the recommended components.	|optional	|for specific workload--add Microsoft.VisualStudio.Workload. ManagedDesktop;includeOptional <br>Or apply to all workload *--includeOptional*
 
-### How to create minimal layout
+### Generating a minimal layout
 
 > [!IMPORTANT]
 >  These instructions assume that you've previously created a network installation layout. For more information about how to do so, see the [Create a network installation of Visual Studio](create-a-network-installation-of-visual-studio.md) page.
