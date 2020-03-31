@@ -1,14 +1,14 @@
 ---
 title: .NET formatting conventions for EditorConfig
-ms.date: 07/17/2019
+ms.date: 03/31/2020
 ms.topic: reference
 dev_langs:
 - CSharp
 - VB
 helpviewer_keywords:
 - formatting conventions [EditorConfig]
-author: TerryGLee
-ms.author: tglee
+author: mikadumont
+ms.author: midumont
 manager: jillfra
 ms.workload:
 - dotnet
@@ -145,6 +145,8 @@ The formatting rules in this section apply only to C# code.
 - [Wrap options](#wrap-options)
   - csharp_preserve_single_line_statements
   - csharp_preserve_single_line_blocks
+- [Using directive options](#Using-directive-options) 
+  - csharp_using_directive_placement
 
 ### New-line options
 
@@ -1201,6 +1203,47 @@ public int Foo { get; set; }
 public int MyProperty
 {
     get; set;
+}
+```
+
+### Using directive options
+
+This formatting rule concerns the use of using directives being placed inside versus outside a namespace.
+
+Example *.editorconfig* file:
+
+```ini
+# 'using' directive preferences
+[*.cs]
+csharp_using_directive_placement = outside_namespace
+csharp_using_directive_placement = inside_namespace
+```
+
+#### csharp_using_directive_placement
+
+|||
+|-|-|
+| **Rule name** | csharp_using_directive_placement |
+| **Applicable languages** | C# |
+| **Introduced version** | Visual Studio 2019 version 16.1 |
+| **Values** | `outside_namespace` - Leave using directives outside namespace<br /><br />`inside_namespace` - Leave using directives inside namespace |
+| **Visual Studio default** | `outside_namespace` |
+
+Code examples:
+
+```csharp
+// csharp_using_directive_placement = outside_namespace
+using System;
+
+namespace Conventions
+{
+
+}
+
+// csharp_using_directive_placement = inside_namespace
+namespace Conventions
+{
+    using System;
 }
 ```
 
