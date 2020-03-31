@@ -1,6 +1,6 @@
 ---
 title: 'Walkthrough: Create a code snippet'
-ms.date: 06/10/2019
+ms.date: 03/31/2020
 ms.topic: conceptual
 helpviewer_keywords:
 - code snippets, creating

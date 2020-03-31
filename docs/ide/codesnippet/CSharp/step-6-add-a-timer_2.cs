@@ -13,6 +13,12 @@
 
         Label clickedLabel = sender as Label;
 
+        // If secondClicked is not null, the player has already 
+        // clicked twice and the game has not yet reset --
+        // ignore the click
+        if  (secondClicked !=  null)
+            return;
+
         if (clickedLabel != null)
         {
             // If the clicked label is black, the player clicked
