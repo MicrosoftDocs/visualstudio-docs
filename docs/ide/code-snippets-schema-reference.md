@@ -1,6 +1,6 @@
 ---
 title: Code snippets schema reference
-ms.date: 02/25/2019
+ms.date: 03/31/2020
 ms.topic: reference
 helpviewer_keywords:
 - schema reference [Visual Studio]
