@@ -229,7 +229,7 @@ A text value is required. This text describes the code snippet.
 Specifies a function to execute when the literal or object receives focus in Visual Studio.
 
 > [!NOTE]
-> The `Function` element is only supported in C# code snippets.
+> Not all languages support `function` elements. See language specific documentation for what functions are available.
 
 ```xml
 <Function>
