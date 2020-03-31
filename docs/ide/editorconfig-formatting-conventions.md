@@ -145,7 +145,7 @@ The formatting rules in this section apply only to C# code.
 - [Wrap options](#wrap-options)
   - csharp_preserve_single_line_statements
   - csharp_preserve_single_line_blocks
-- [Using directive options](#Using-directive-options) 
+- [Using directive options](#using-directive-options) 
   - csharp_using_directive_placement
 
 ### New-line options
@@ -1206,6 +1206,9 @@ public int MyProperty
 }
 ```
 
+- [Using directive options](#using-directive-options) 
+  - csharp_using_directive_placement
+  
 ### Using directive options
 
 This formatting rule concerns the use of using directives being placed inside versus outside a namespace.
