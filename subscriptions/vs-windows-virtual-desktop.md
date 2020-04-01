@@ -9,7 +9,7 @@ ms.topic: conceptual
 description:  Learn how you can take advantage of Microsoft Windows Virtual Desktop via your Visual Studio subscription 
 ---
 
-# Visual Studio subscriptions provide access to Windows Virtual Desktop 
+# Access Windows Virtual Desktop in subscriptions 
 Visual Studio subscribers are now able to use their Azure dev/test individual credits for Microsoft Windows Virtual Desktop services.  
 Windows Virtual Desktop is a comprehensive desktop and app virtualization service running in the cloud. It’s the only virtual desktop infrastructure (VDI) that delivers simplified management, multi-session Windows 10, optimizations for Office 365 ProPlus, and support for Remote Desktop Services (RDS) environments. Deploy and scale your Windows desktops and apps on Azure in minutes and get built-in security and compliance features.
 Here's what you can do when you run Windows Virtual Desktop on Azure:
@@ -21,7 +21,7 @@ Here's what you can do when you run Windows Virtual Desktop on Azure:
 - Manage Windows 10, Windows Server, and Windows 7 desktops and apps with a unified management experience
 For more information about what you can do with Windows Virtual Desktop, watch the [introductory video](https://docs.microsoft.com/azure/virtual-desktop/overview).
 
-## Use Windows Virtual Desktop with different Azure subscriptions
+## Use Windows Virtual Desktop with Azure 
 Visual Studio subscribers now have several ways to use Azure subscriptions to pay for Windows Virtual Desktop services:
 - [Azure DevTest individual credits](vs-azure.md).  Subscribers who receive Azure DevTest individual credits as part of their subscriptions can use those credits to pay for Windows Virtual Desktop services.  The amount of the monthly credit depends on the subscription level.
 - [Azure DevTest Pay-as-you-Go subscriptions](vs-azure-payg.md).  You can create Azure subscriptions and attach a payment instrument to have a seamless way to pay for your Windows Virtual Desktop usage. 
@@ -33,7 +33,7 @@ Windows Virtual Desktop requires an Azure Active Directory (Azure AD) to which V
 - A virtual machine running a Domain Controller promo.  This option requires more work to set up but offers most users a lower operating cost.
 To see a full list of prerequisites for using Windows Virtual Desktop, please visit the Windows Virtual Desktop [overview page](https://docs.microsoft.com/azure/virtual-desktop/overview#requirements). 
 
-## Get started with Windows Virtual Desktop
+## Get started 
 When all your prerequisites are in place, you’ll want to complete several actions to get your implementation in place.  Check out these tutorials to get started:
 - [Create a Windows Virtual Desktop tenant](https://docs.microsoft.com/azure/virtual-desktop/tenant-setup-azure-active-directory)
 - [Create a host pool](https://docs.microsoft.com/azure/virtual-desktop/create-host-pools-azure-marketplace) using the Azure portal
@@ -64,6 +64,6 @@ Not sure which subscription you're using?  Connect to [https://my.visualstudio.c
 
 ## Next steps
 -	If you need to purchase Visual Studio subscriptions, check out:
-> - [Pricing for retail purchases](https://visualstudio.microsoft.com/vs/pricing/) through the Microsoft Store
-> - [Volume Licensing programs](https://www.microsoft.com/licensing/default)
+     - [Pricing for retail purchases](https://visualstudio.microsoft.com/vs/pricing/) through the Microsoft Store
+     - [Volume Licensing programs](https://www.microsoft.com/licensing/default)
 -	Learn about [Windows Virtual Desktop](https://docs.microsoft.com/azure/virtual-desktop/overview) 
