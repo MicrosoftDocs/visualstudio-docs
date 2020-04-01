@@ -1,12 +1,12 @@
 ---
 title: .NET Naming Conventions For EditorConfig files
-ms.date: 08/07/2019
+ms.date: 03/31/2020
 ms.topic: reference
 helpviewer_keywords:
 - naming conventions [EditorConfig]
 - EditorConfig naming conventions
-author: TerryGLee
-ms.author: tglee
+author: mikadumont
+ms.author: midumont
 manager: jillfra
 ms.workload:
 - multiple
@@ -50,6 +50,9 @@ The following list shows the allowable values, and you can specify multiple valu
 - type_parameter
 - local
 - local_function
+
+> [!NOTE] 
+> Tuple members aren't currently supported.
 
 ### Accessibility levels of symbols
 
