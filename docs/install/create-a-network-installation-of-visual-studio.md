@@ -1,7 +1,7 @@
 ---
 title: Create a network-based installation
 description: Learn how to create a network install point for deploying Visual Studio within an enterprise.
-ms.date: 10/29/2019
+ms.date: 03/27/2020
 ms.custom: seodec18
 ms.topic: conceptual
 helpviewer_keywords:
@@ -231,8 +231,11 @@ Administrators can deploy Visual Studio onto client workstations as part of an i
 
 When you install from a layout, the content that is installed is acquired from the layout. However, if you select a component that isn't in the layout, it will be acquired from the internet.  If you want to prevent Visual Studio setup from downloading any content that is missing in your layout, use the `--noWeb` option. If `--noWeb` is used and the layout is missing any content that is selected to be installed, setup fails.
 
+> [!TIP]
+> If you want to install from an offline source on a non-internet connected computer, specify both the `--noWeb` and `--noUpdateInstaller` options. The former prevents downloading updated workloads, components, and so on. The latter prevents the installer from self-updating from the web.
+
 > [!IMPORTANT]
-> The `--noWeb` option does not stop Visual Studio setup from checking for updates. For more information, see the [Control updates to network-based Visual Studio deployments](controlling-updates-to-visual-studio-deployments.md) page.
+> The `--noWeb` option does not stop Visual Studio setup on an internet-connected computer from checking for updates. For more information, see the [Control updates to network-based Visual Studio deployments](controlling-updates-to-visual-studio-deployments.md) page.
 
 ### Error codes
 
@@ -274,7 +277,7 @@ If you need to create a layout for an older version of Visual Studio, go to [htt
 
 If you experience a problem with your offline installation, we want to know about it. The best way to tell us is by using the [Report a Problem](../ide/how-to-report-a-problem-with-visual-studio.md) tool. When you use this tool, you can send us the telemetry and logs we need to help us diagnose and fix the problem.
 
-We also offer a [**live chat**](https://visualstudio.microsoft.com/vs/support/#talktous) (English only) support option for installation-related issues.
+We also offer an [**installation chat**](https://visualstudio.microsoft.com/vs/support/#talktous) (English only) support option for installation-related issues.
 
 We have other support options available, too. For a list, see our [Feedback](../ide/feedback-options.md) page.
 
@@ -288,3 +291,4 @@ We have other support options available, too. For a list, see our [Feedback](../
 - [Update Visual Studio while on a servicing baseline](update-servicing-baseline.md)
 - [Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md)
 - [Visual Studio workload and component IDs](workload-and-component-ids.md)
+- [Install certificates required for Visual Studio offline installation](/install-certificates-for-visual-studio-offline.md)
