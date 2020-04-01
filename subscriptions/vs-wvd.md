@@ -60,7 +60,7 @@ Not sure which subscription you're using?  Connect to [https://my.visualstudio.c
 
 ## See also
 - [Azure documentation](https://docs.microsoft.com/azure/)
-- [Windows Virtual Desktop documentation](https://docs.microsoft.com/en-us/azure/virtual-desktop/)
+- [Windows Virtual Desktop documentation](https://docs.microsoft.com/azure/virtual-desktop/)
 
 ## Next steps
 -	If you need to purchase Visual Studio subscriptions, check out:
