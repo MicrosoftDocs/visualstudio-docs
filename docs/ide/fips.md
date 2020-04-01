@@ -33,7 +33,7 @@ Enabling FIPS mode also causes the .NET Framework to disallow the use of non-val
 
 ## FIPS mode in Visual Studio
 
-Say something here...
+Say something here...and include info about setting up a remote.
 
 ### Connect to the remote system in Visual Studio
 
@@ -68,15 +68,13 @@ Say something here...
 
    If the connection fails, the entry boxes that need to be changed are outlined in red.
 
-   ![Connection Manager Error](/cpp/media/settings_connectionmanagererror.png)
+   ![Connection Manager Error](/cpp/linux/media/settings_connectionmanagererror.png)
 
-   For more information on troubleshooting your connection, see [Connect to your remote Linux computer](connect-to-your-remote-linux-computer.md).
-
-Set up a remote
+   For more information on troubleshooting your connection, see [Connect to your remote Linux computer](/cpp/linux/connect-to-your-remote-linux-computer.md).
 
 ### Command-line utility for the Connection Manager  
 
-**Visual Studio 2019 version 16.5 or later**: ConnectionManager.exe is a command-line utility to manage remote development connections outside of Visual Studio. It's useful for tasks such as provisioning a new development machine. Or, you can use it to set up Visual Studio for continuous integration. For examples and a complete reference to the ConnectionManager command, see [ConnectionManager reference](connectionmanager-reference.md).  
+**Visual Studio 2019 version 16.5 or later**: ConnectionManager.exe is a command-line utility to manage remote development connections outside of Visual Studio. It's useful for tasks such as provisioning a new development machine. Or, you can use it to set up Visual Studio for continuous integration. For examples and a complete reference to the ConnectionManager command, see [ConnectionManager reference](/cpp/linux/connectionmanager-reference.md).  
 
 ## FIPS mode in Windows
 
