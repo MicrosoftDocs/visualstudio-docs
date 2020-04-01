@@ -102,7 +102,6 @@ The style rules in this section are applicable to both C# and Visual Basic.
   - dotnet\_style\_prefer\_inferred\_tuple_names
   - dotnet\_style\_prefer\_inferred\_anonymous\_type\_member_names
   - dotnet\_style\_prefer\_auto\_properties
-  - dotnet\_style\_prefer\_is\_null\_check\_over\_reference\_equality\_method
   - dotnet\_style\_prefer\_conditional\_expression\_over\_assignment
   - dotnet\_style\_prefer\_conditional\_expression\_over\_return
   - dotnet\_style\_prefer\_compound\_assignment
@@ -1124,7 +1123,7 @@ The style rules in this section are applicable to C# only.
   - csharp\_style\_throw_expression
   - csharp\_style\_conditional\_delegate_call
 - [Modifier preferences](#normalize-modifiers)
-  -csharp\_preferred\_modifier_order
+  - csharp\_preferred\_modifier_order
 - [Code block preferences](#code-block-preferences)
   - csharp\_prefer_braces
 - [Unused value preferences](#unused-value-preferences)
