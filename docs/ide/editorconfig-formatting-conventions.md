@@ -1206,9 +1206,6 @@ public int MyProperty
 }
 ```
 
-- [Using directive options](#using-directive-options) 
-  - csharp_using_directive_placement
-  
 ### Using directive options
 
 This formatting rule concerns the use of using directives being placed inside versus outside a namespace.
