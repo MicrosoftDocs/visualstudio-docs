@@ -156,7 +156,7 @@ For information on the scope of areas that are available for development, see th
 
 ## Extending The New Editor
 
-Visual Studio for Mac [introduces a new native Cocoa text editor UI](https://docs.microsoft.com/visualstudio/releasenotes/vs2019-mac-relnotes#RTW) built on top of the same editor layers from Visual Studio on Windows.
+Visual Studio for Mac [introduces a new native Cocoa text editor UI](https://docs.microsoft.com/visualstudio/releasenotes/vs2019-mac-relnotes) built on top of the same editor layers from Visual Studio on Windows.
 
 One of the many benefits of sharing the editor between Visual Studio and Visual Studio for Mac is that code targeting the Visual Studio editor can be adapted to run on Visual Studio for Mac.
 
