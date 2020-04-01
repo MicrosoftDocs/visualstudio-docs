@@ -1123,7 +1123,7 @@ The style rules in this section are applicable to C# only.
   - csharp\_style\_throw_expression
   - csharp\_style\_conditional\_delegate_call
 - [Modifier preferences](#normalize-modifiers)
-  -csharp\_preferred\_modifier_order
+  - csharp\_preferred\_modifier_order
 - [Code block preferences](#code-block-preferences)
   - csharp\_prefer_braces
 - [Unused value preferences](#unused-value-preferences)
