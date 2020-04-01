@@ -25,6 +25,12 @@ An implementation of an approved cryptographic algorithm is considered FIPS 140-
 
 The FIPS requirement to use approved and validated algorithms applies only to the protection of sensitive data. Systems and applications can use weak or non-validated cryptographic implementations for non-security purposes, such as in a hash table for indexing and lookup purposes.
 
+## What FIPS mode does 
+
+Enabling FIPS mode makes Windows and its subsystems use only FIPS-validated cryptographic algorithms. An example is [Schannel](/windows/win32/com/schannel), the system component that provides [SSL](/windows/win32/http/ssl-certificates) and TLS to applications. When FIPS mode is enabled, Schannel disallows SSL 2.0 and 3.0, protocols that fall short of the FIPS standards. Applications such as web browsers that use Schannel then cannot connect to HTTPS web sites that don't use at least TLS 1.0. 
+
+Enabling FIPS mode also causes the .NET Framework to disallow the use of non-validated algorithms.  
+
 ## FIPS mode in Visual Studio
 
 Say something here...
