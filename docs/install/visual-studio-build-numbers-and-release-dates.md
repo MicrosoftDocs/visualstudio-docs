@@ -5,7 +5,7 @@ description: A list of released versions and build numbers for Visual Studio, so
 author: ornellaalt
 ms.author: ornella
 manager: jillfra
-ms.date: 03/31/2020
+ms.date: 04/02/2020
 ms.topic: reference
 ms.workload:
 - multiple
@@ -22,6 +22,7 @@ The following table lists the build numbers and release dates for Visual Studio 
 
 | **Version**| **Channel** | **Release date** | **Build version** |
 | ---------------------- | ----------- | ---------------- | ----------------- |
+| 16.6.0 | Preview 2.1 | April 2, 2020 | 16.6.30001.183 |
 | 16.5.2 | Release | March 31, 2020 | 16.5.29926.136 |
 | 16.6.0 | Preview 2 | March 26, 2020 | 16.6.29924.181 |
 | 16.5.1 | Release | March 24, 2020 | 16.5.29920.165 |
