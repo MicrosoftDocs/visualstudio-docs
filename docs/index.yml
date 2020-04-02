@@ -50,6 +50,15 @@ productDirectory:
           text: Release notes
         - url: https://code.visualstudio.com
           text: Product page
+    - title: Visual Studio Online
+      imageSrc: ./media/vs-ide-2019.svg
+      links:
+         - url: https://docs.microsoft.com/visualstudio/online/
+           text: Documentation
+         - url: https://code.visualstudio.com/docs/remote/vsonline
+           text: Use with Visual Studio Code
+         - url: https://visualstudio.microsoft.com/services/visual-studio-online/
+           text: Product page
     - title: Visual Studio App Center
       imageSrc: ./media/vs-mobile-center.svg
       links:
@@ -68,4 +77,3 @@ productDirectory:
           text: Portal
         - url: https://manage.visualstudio.com
           text: Administration
-
