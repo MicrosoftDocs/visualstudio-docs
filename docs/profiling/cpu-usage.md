@@ -1,7 +1,7 @@
 ---
 title: "Analyze CPU usage | Microsoft Docs"
 ms.custom: "seodec18"
-ms.date: "11/04/2018"
+ms.date: "04/02/2020"
 ms.topic: "conceptual"
 ms.assetid: 7501a20d-04a1-480f-a69c-201524aa709d
 author: "mikejo5000"
@@ -27,7 +27,7 @@ Usually, the local machine best replicates installed app execution. For Windows 
 
 ## Collect CPU usage data
 
-1. In the Visual Studio project, set the solution configuration to **Release** and select **Local Machine** as the deployment target.
+1. In the Visual Studio project, set the solution configuration to **Release** and select **Local Windows Debugger** (or **Local Machine**) as the deployment target.
 
     ![Select Release and Local Machine](../profiling/media/cpuuse_selectreleaselocalmachine.png "Select Release and Local Machine")
 

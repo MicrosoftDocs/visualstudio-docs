@@ -28,6 +28,8 @@ In the example described in this article, you collect performance information fo
 
 * Familiarity with command-line tools
 
+* To collect performance information on a remote machine without Visual Studio installed, download the [Remote Tools for Visual Studio](../debugger/remote-debugging.md9#download-and-install-the-remote-tools) on the remote machine.
+
 ## Collect performance data
 
 Profiling using the Visual Studio Diagnostics CLI tools works by attaching the profiling tool, along with one of the collector agents, to a process. When you attach the profiling tool, you begin a diagnostic session that captures and stores profiling data until the tool is stopped, at which point that data is exported into a *.diagsession* file. Then you can open this file in Visual Studio to analyze results.

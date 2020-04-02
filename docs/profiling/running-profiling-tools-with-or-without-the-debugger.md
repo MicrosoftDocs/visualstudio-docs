@@ -1,6 +1,6 @@
 ---
 title: "Run profiling tools with or without the debugger | Microsoft Docs"
-ms.date: "11/04/2018"
+ms.date: "04/02/2020"
 ms.topic: "conceptual"
 ms.assetid: 3fcdccad-c1bd-4c67-bcec-bf33a8fb5d63
 author: "mikejo5000"
@@ -63,7 +63,9 @@ For more information, see [Searching and filtering the Events tab of the Diagnos
 
 To collect performance data without debugging, you can run the **Performance Profiler** tools. Some of the profiling tools require administrator privileges to run. You can open Visual Studio as an administrator, or you can run the tools as an administrator when you start the diagnostic session.
 
-1. With a project open in Visual Studio, select **Debug** > **Performance Profiler**, or press **Alt**+**F2**.
+1. With a project open in Visual Studio, set the solution configuration to **Release** and select **Local Windows Debugger** (or **Local Machine**) as the deployment target.
+
+1. Select **Debug** > **Performance Profiler**, or press **Alt**+**F2**.
 
 1. On the diagnostic launch page, select one or more tools to run. Only the tools that are applicable to the project type, operating system, and programming language are displayed. Select **Show all tools** to also see tools that are disabled for this diagnostic session. Here's how your choices might look for a C# UWP app:
 
@@ -101,9 +103,13 @@ You can save the reports, and open them from the **Recently Opened Sessions** li
 
  ![Choose diagnostic tools analysis target](../profiling/media/pdhub_chooseanalysistarget.png "PDHUB_ChooseAnalysisTarget")
 
- You can start apps that are already installed, or attach the diagnostic tools to apps and processes that are already running. When you select **Running App** or **Installed App**, you select the app from a list that finds the apps on the specified deployment target. This target can be a local or remote machine.
+ You can start apps that are already installed, or attach the diagnostic tools to apps and processes that are already running.
 
  ![Choose a running or installed app for diagnosis](../profiling/media/pdhub_selectrunningapp.png "PDHUB_SelectRunningApp")
+
+For a UWP app, when you select **Running App** or **Installed App**, you select the app from a list that finds the apps on the specified deployment target. This target can be a local or remote machine. To profile a UWP app on a remote machine, you need to select **Universal (Unencrypted Protocol)** in the **Remote Connections** dialog box.
+
+If you choose **Executable** as your analysis target, you can enter the path to an *.exe* on either a local or remote machine. In either case, the *.exe* runs locally. However, we do recommend that you profile your app by opening the solution in Visual Studio.
 
 ## See also
 
