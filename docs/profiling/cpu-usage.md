@@ -14,7 +14,7 @@ ms.workload:
 
 A good way to start investigating performance issues in your app is to understand its CPU usage. The **CPU Usage** performance tool shows the CPU time and percentage spent executing code in C++, C#/Visual Basic, and JavaScript apps.
 
-The **CPU Usage** tool can run on an open Visual Studio project, on an installed Microsoft Store app, or attached to a running app or process. You can run the tool on local or remote machines, or on a simulator or emulator. For more information, see [Run profiling tools with or without the debugger](../profiling/running-profiling-tools-with-or-without-the-debugger.md).
+The **CPU Usage** tool can run on an open Visual Studio project, on an installed Microsoft Store app, or attached to a running app or process. For more information, see [Run profiling tools with or without the debugger](../profiling/running-profiling-tools-with-or-without-the-debugger.md).
 
 You can run the **CPU Usage** tool with or without debugging. In the debugger, you can turn CPU profiling on and off, and see a per-function breakdown of CPU usage. You can view CPU usage results when execution is paused, for example at a breakpoint.
 

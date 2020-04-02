@@ -27,23 +27,21 @@ To help decide which tools and results to use, consider the following points:
 - The debugger itself changes performance times as it does necessary debugger operations like intercepting exception and module load events.
 - Release build performance numbers in the **Performance Profiler** tools are the most precise and accurate. Debugger-integrated tool results are most useful to compare with other debugging-related measurements.
 
+For CPU Usage, you can run the tool on a remote machine using the command-line tools.
+
 ## <a name="BKMK_Quick_start__Collect_diagnostic_data"></a> Collect profiling data while debugging
 
 When you start debugging in Visual Studio by selecting **Debug** > **Start Debugging** or pressing **F5**, the **Diagnostic Tools** window appears by default. To open it manually, select **Debug** > **Windows** > **Show Diagnostic Tools**. The **Diagnostic Tools** window shows information about events, process memory, and CPU usage.
 
 ![Diagnostic Tools](../profiling/media/diagnostictools-update1.png "Diagnostic Tools")
 
-- Use the **Settings** icon in the toolbar to select whether to view **Memory Usage**, **UI Analysis**, and **CPU Usage**.
+- Use the **Settings** icon in the toolbar to select whether to view **Memory Usage** or **CPU Usage**.
 
 - Select **Settings** in the **Settings** dropdown to open the **Diagnostic Tools Property Pages** with more options.
 
 - If you're running Visual Studio Enterprise, you can enable or disable IntelliTrace under Visual Studio **Tools** > **Options** > **IntelliTrace**.
 
 The diagnostic session ends when you stop debugging.
-
-You can also view **Diagnostic Tools** for remote debugging targets. For remote debugging and profiling, the Visual Studio remote debugger must be installed and running on the remote target.
-- For remote debugging and profiling desktop app projects, see [Remote debugging](../debugger/remote-debugging.md).
-- For remote debugging and profiling UWP apps, see [Debug UWP apps on remote machines](../debugger/run-windows-store-apps-on-a-remote-machine.md).
 
 ### The Events tab
 
