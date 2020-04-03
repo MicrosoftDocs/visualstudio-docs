@@ -1,16 +1,16 @@
 ---
-title: "Port Suppliers | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Port Suppliers | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "port suppliers"
-  - "debugging [Debugging SDK], port suppliers"
+- port suppliers
+- debugging [Debugging SDK], port suppliers
 ms.assetid: a8f3db96-1a13-4e93-9ef6-0861880369e0
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Port suppliers
 In the debugger architecture, a *port supplier*:

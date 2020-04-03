@@ -1,17 +1,17 @@
 ---
-title: "SccGetCommandOptions Function | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: SccGetCommandOptions Function | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 f1_keywords:
-  - "SccGetCommandOptions"
+- SccGetCommandOptions
 helpviewer_keywords:
-  - "SccGetCommandOptions function"
+- SccGetCommandOptions function
 ms.assetid: bbe4aa4e-b4b0-403e-b7a0-5dd6eb24e5a9
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # SccGetCommandOptions function
 This function prompts the user for advanced options for a given command.

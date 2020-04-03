@@ -1,16 +1,16 @@
 ---
-title: "How to: Manage a Private Gallery By Using Registry Settings | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: 'How to: Manage a Private Gallery By Using Registry Settings | Microsoft Docs'
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "VSIX private galleries, managing"
-  - "managing VSIX private galleries"
+- VSIX private galleries, managing
+- managing VSIX private galleries
 ms.assetid: 86b86442-4293-4cad-9fe2-876eef65f426
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # How to: Manage a private gallery by using registry settings
 If you are an administrator or the developer of an Isolated Shell extension, you can control access to the controls, templates, and tools in the Visual Studio Gallery, the Samples Gallery, or private galleries. To make a gallery available or unavailable, create a *.pkgdef* file that describes the modified registry keys and their values.

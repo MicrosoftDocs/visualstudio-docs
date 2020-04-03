@@ -1,15 +1,15 @@
 ---
-title: "Model for Source Control Packages | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Model for Source Control Packages | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "source control [Visual Studio SDK], model"
+- source control [Visual Studio SDK], model
 ms.assetid: 6164b2d3-a622-4de8-bef3-a6de985e9ebd
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Model for Source Control Packages
 The following model represents an example of a source control implementation. In the model, you see the interfaces that you must implement and the environment services that you must call. Like all services, you actually call the methods of a particular interface that you obtain by way of the service. The names of the classes are identified to make it easier to see how source control is carried out.

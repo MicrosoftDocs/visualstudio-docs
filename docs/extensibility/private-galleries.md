@@ -1,16 +1,16 @@
 ---
-title: "Private Galleries | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Private Galleries | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "VSIX galleries, private"
-  - "private galleries, VSIX"
+- VSIX galleries, private
+- private galleries, VSIX
 ms.assetid: b6b3dee7-91c5-4556-9f69-0d56b675e83b
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Private galleries
 You can share the controls, templates, and tools that you develop by posting them to a *private gallery* on the intranet for your organization, as follows:

@@ -1,17 +1,17 @@
 ---
-title: "IDebugProperty3 | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugProperty3 | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugProperty3"
+- IDebugProperty3
 helpviewer_keywords:
-  - "IDebugProperty3 interface"
+- IDebugProperty3 interface
 ms.assetid: 8f9be68d-4490-4eca-8f6b-8a10ed77e226
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # IDebugProperty3
 This interface provides support for:

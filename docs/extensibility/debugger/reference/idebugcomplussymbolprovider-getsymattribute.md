@@ -1,19 +1,19 @@
 ---
-title: "IDebugComPlusSymbolProvider::GetSymAttribute | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugComPlusSymbolProvider::GetSymAttribute | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
-  - "IDebugComPlusSymbolProvider::GetSymAttribute"
-  - "GetSymAttribute"
+- IDebugComPlusSymbolProvider::GetSymAttribute
+- GetSymAttribute
 ms.assetid: 6cbaac92-a60b-4165-a7f5-c34407770f3c
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugComPlusSymbolProvider::GetSymAttribute
 Retrieves the debug symbols with the given parent attribute for the specified module.

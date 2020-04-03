@@ -1,20 +1,20 @@
 ---
-title: "IDebugMethodField::EnumArguments | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugMethodField::EnumArguments | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugMethodField::EnumArguments"
+- IDebugMethodField::EnumArguments
 helpviewer_keywords:
-  - "IDebugMethodField::EnumArguments method"
+- IDebugMethodField::EnumArguments method
 ms.assetid: 3ab55488-2437-4ff6-a9ae-78ea6d7b23a8
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugMethodField::EnumArguments
 Creates an enumerator for the type of each argument required to call the method.

@@ -1,17 +1,17 @@
 ---
-title: "Exposing Properties to the Properties Window | Microsoft Docs"
-ms.date: "3/16/2019"
-ms.topic: "conceptual"
+title: Exposing Properties to the Properties Window | Microsoft Docs
+ms.date: 3/16/2019
+ms.topic: conceptual
 helpviewer_keywords:
-  - "properties [Visual Studio SDK], exposing in Property Browser"
-  - "properties [Visual Studio SDK]"
-  - "Property Browser, exposing properties"
+- properties [Visual Studio SDK], exposing in Property Browser
+- properties [Visual Studio SDK]
+- Property Browser, exposing properties
 ms.assetid: 47f295b5-1ca5-4e7b-bb52-7b926b136622
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Expose properties to the Properties window
 

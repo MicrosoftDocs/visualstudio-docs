@@ -1,17 +1,17 @@
 ---
-title: "IEnumDebugReferenceInfo2 | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IEnumDebugReferenceInfo2 | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IEnumDebugReferenceInfo2"
+- IEnumDebugReferenceInfo2
 helpviewer_keywords:
-  - "IEnumDebugReferenceInfo2"
+- IEnumDebugReferenceInfo2
 ms.assetid: 7ed01441-686f-4032-8268-a4c750f19f85
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # IEnumDebugReferenceInfo2
 This interface enumerates [DEBUG_REFERENCE_INFO](../../../extensibility/debugger/reference/debug-reference-info.md) structures.

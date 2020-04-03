@@ -1,16 +1,16 @@
 ---
-title: "Registering Interop Assembly Command Handlers | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Registering Interop Assembly Command Handlers | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "interop assemblies, command handlers"
-  - "command handling with interop assemblies, registering"
+- interop assemblies, command handlers
+- command handling with interop assemblies, registering
 ms.assetid: 303cd399-e29d-4ea1-8abe-5e0b59c12a0c
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Registering Interop Assembly Command Handlers
 A VSPackage must register with [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] so that the integrated development environment (IDE) routes its commands properly.

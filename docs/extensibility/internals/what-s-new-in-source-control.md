@@ -1,17 +1,17 @@
 ---
-title: "What's New in Source Control in the Visual Studio 2015 SDK | Microsoft Docs"
-titleSuffix: ""
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: What's New in Source Control in the Visual Studio 2015 SDK | Microsoft Docs
+titleSuffix: ''
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "what's new [Visual Studio SDK], source control"
-  - "source control [Visual Studio SDK], what's new"
+- what's new [Visual Studio SDK], source control
+- source control [Visual Studio SDK], what's new
 ms.assetid: bcf85418-18fb-4824-9dae-d14bf3d56a77
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # What's New in Source Control for the Visual Studio 2015 SDK
 

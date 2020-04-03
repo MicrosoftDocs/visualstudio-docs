@@ -1,21 +1,21 @@
 ---
-title: "IDebugMemoryBytes2::ReadAt | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugMemoryBytes2::ReadAt | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugMemoryBytes2::ReadAt"
+- IDebugMemoryBytes2::ReadAt
 helpviewer_keywords:
-  - "IDebugMemoryBytes2::ReadAt method"
-  - "ReadAt method"
+- IDebugMemoryBytes2::ReadAt method
+- ReadAt method
 ms.assetid: b413684d-4155-4bd4-ae30-ffa512243b5f
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugMemoryBytes2::ReadAt
 Reads a sequence of bytes, starting at a given location.

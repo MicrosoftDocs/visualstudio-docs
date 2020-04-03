@@ -1,14 +1,14 @@
 ---
-title: "VSPackage Setup Scenarios | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: VSPackage Setup Scenarios | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "VSPackages, deployment considerations"
-author: madskristensen
-ms.author: madsk
+- VSPackages, deployment considerations
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # VSPackage Setup Scenarios
 

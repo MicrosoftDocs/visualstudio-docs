@@ -1,15 +1,15 @@
 ---
-title: "Document Data and Document View in Custom Editors | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Document Data and Document View in Custom Editors | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "editors [Visual Studio SDK], custom - document data and document view"
+- editors [Visual Studio SDK], custom - document data and document view
 ms.assetid: 71eea623-f566-4feb-84cd-ca1ba71bc493
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Document data and document view in custom editors
 A custom editor consists of two parts: a document data object and a document view object. As the names suggest, the document data object represents the text data to be displayed. Similarly, the document view object (or "view") represents one or more windows in which to display the document data object.

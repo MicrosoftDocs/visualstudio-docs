@@ -1,17 +1,17 @@
 ---
-title: "Sample Implementation of Expression Evaluation | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Sample Implementation of Expression Evaluation | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "expression evaluators"
-  - "debugging [Debugging SDK], expression evaluators"
-  - "expression evaluation, examples"
+- expression evaluators
+- debugging [Debugging SDK], expression evaluators
+- expression evaluation, examples
 ms.assetid: 2a5f04b8-6c65-4232-bddd-9093653a22c4
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Sample implementation of expression evaluation
 > [!IMPORTANT]

@@ -1,16 +1,16 @@
 ---
-title: "Legacy Language Service Extensibility | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Legacy Language Service Extensibility | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "language services"
-  - "Visual Studio, language services"
+- language services
+- Visual Studio, language services
 ms.assetid: 2700cd4d-5f68-43fc-b62f-dc80c3f3aa85
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Legacy Language Service Extensibility
 A language service provides language-specific support for editing source code in the IDE.

@@ -1,13 +1,13 @@
 ---
-title: "What's New in the Visual Studio 2019 SDK | Microsoft Docs"
-ms.date: "03/29/2019"
-ms.topic: "conceptual"
+title: What's New in the Visual Studio 2019 SDK | Microsoft Docs
+ms.date: 03/29/2019
+ms.topic: conceptual
 ms.assetid: 4a07607b-0c87-4866-acd8-6d68358d6a47
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # What's New in the Visual Studio 2019 SDK
 

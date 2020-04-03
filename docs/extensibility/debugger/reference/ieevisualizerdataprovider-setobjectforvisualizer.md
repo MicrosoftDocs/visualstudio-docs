@@ -1,20 +1,20 @@
 ---
-title: "IEEVisualizerDataProvider::SetObjectForVisualizer | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IEEVisualizerDataProvider::SetObjectForVisualizer | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IEEVisualizerDataProvider::SetObjectForVisualizer"
+- IEEVisualizerDataProvider::SetObjectForVisualizer
 helpviewer_keywords:
-  - "IEEVisualizerDataProvider::SetObjectForVisualizer method"
+- IEEVisualizerDataProvider::SetObjectForVisualizer method
 ms.assetid: 40dad2be-57ff-4f74-9d82-c48039c125c4
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IEEVisualizerDataProvider::SetObjectForVisualizer
 This method changes the object that the visualizer represents.

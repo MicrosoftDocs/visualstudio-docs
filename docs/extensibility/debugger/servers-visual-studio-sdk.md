@@ -1,16 +1,16 @@
 ---
-title: "Servers (Visual Studio SDK) | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Servers (Visual Studio SDK) | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "servers, debugging"
-  - "debugging [Debugging SDK], servers"
+- servers, debugging
+- debugging [Debugging SDK], servers
 ms.assetid: 62236d64-7956-448c-9ac3-5528f3edac1d
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Servers (Visual Studio SDK)
 In the debugger architecture, a *server*:

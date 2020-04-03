@@ -1,20 +1,20 @@
 ---
-title: "BP_ERROR_TYPE | Microsoft Docs"
-ms.date: "11/04/2016"
+title: BP_ERROR_TYPE | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "BP_ERROR_TYPE"
+- BP_ERROR_TYPE
 helpviewer_keywords:
-  - "BP_ERROR_TYPE enumeration"
+- BP_ERROR_TYPE enumeration
 ms.assetid: c483eaab-db29-46de-bfdb-5c2a9a9cfb68
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # BP_ERROR_TYPE
 Specifies the error type of a breakpoint.

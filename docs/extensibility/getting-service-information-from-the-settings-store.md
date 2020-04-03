@@ -1,13 +1,13 @@
 ---
-title: "Getting Service Information from the Settings Store | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Getting Service Information from the Settings Store | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 ms.assetid: 7028d440-d16d-4b08-9b94-eb8cc93b25fc
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Get service information from the settings store
 You can use the settings store to find all available services or to determine whether a particular service is installed. You must know the type of the service class.

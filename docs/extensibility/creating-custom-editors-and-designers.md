@@ -1,16 +1,16 @@
 ---
-title: "Creating Custom Editors and Designers | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Creating Custom Editors and Designers | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "designers [Visual Studio SDK]"
-  - "editors [Visual Studio SDK], custom"
+- designers [Visual Studio SDK]
+- editors [Visual Studio SDK], custom
 ms.assetid: b6a5e8b2-0ae1-4fc3-812d-09d40051b435
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Create custom editors and designers
 

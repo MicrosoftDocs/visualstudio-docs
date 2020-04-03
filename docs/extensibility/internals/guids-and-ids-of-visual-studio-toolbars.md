@@ -1,21 +1,21 @@
 ---
-title: "GUIDs and IDs of Visual Studio Toolbars | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: GUIDs and IDs of Visual Studio Toolbars | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "visual studio groups"
-  - "toolbars"
-  - "visual studio toolbar"
-  - "id"
-  - "toolgar group"
-  - "tool window toolbar"
-  - "guid"
+- visual studio groups
+- toolbars
+- visual studio toolbar
+- id
+- toolgar group
+- tool window toolbar
+- guid
 ms.assetid: c9cacd57-9225-450f-a9ac-cbf3168ea844
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # GUIDs and IDs of Visual Studio toolbars
 This topic enumerates the GUID and ID values of the toolbars that are included in the Visual Studio integrated development environment (IDE), and of the groups they contain. These values are defined in *.vsct* files that are installed as part of the Visual Studio SDK. For more information, see [IDE-defined commands, menus, and groups](../../extensibility/internals/ide-defined-commands-menus-and-groups.md).

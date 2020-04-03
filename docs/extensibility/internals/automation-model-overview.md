@@ -1,16 +1,16 @@
 ---
-title: "Automation Model Overview | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Automation Model Overview | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "automation [Visual Studio SDK], about automation"
-  - "extensibility"
+- automation [Visual Studio SDK], about automation
+- extensibility
 ms.assetid: 12b6d6db-0d22-4aaa-aa7d-1365f759b7b0
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Automation model overview
 The automation model consists of a set of objects against which you can write a Visual Studio add-in or extension. An add-in is an application that can manipulate the Visual Studio environment and automate common tasks. A Visual Studio extension can create custom Visual Studio components or add to the functionality of standard components such as the text editor.

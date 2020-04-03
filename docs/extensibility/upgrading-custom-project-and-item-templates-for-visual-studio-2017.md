@@ -1,14 +1,14 @@
 ---
-title: "Upgrade custom project and item templates for Visual Studio 2017"
-titleSuffix: ""
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Upgrade custom project and item templates for Visual Studio 2017
+titleSuffix: ''
+ms.date: 11/04/2016
+ms.topic: conceptual
 ms.assetid: ad02477b-e101-4f32-aeb7-292bf95d5c2f
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 monikerRange: vs-2017
 ---
 # Upgrade Custom Project and Item Templates for Visual Studio 2017

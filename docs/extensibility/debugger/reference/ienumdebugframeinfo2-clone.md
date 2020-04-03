@@ -1,20 +1,20 @@
 ---
-title: "IEnumDebugFrameInfo2::Clone | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IEnumDebugFrameInfo2::Clone | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IEnumDebugFrameInfo2::Clone"
+- IEnumDebugFrameInfo2::Clone
 helpviewer_keywords:
-  - "IEnumDebugFrameInfo2::Clone"
+- IEnumDebugFrameInfo2::Clone
 ms.assetid: cdd10489-1772-47e3-815f-a6cfd32a3c60
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IEnumDebugFrameInfo2::Clone
 Returns a copy of the current enumeration as a separate object.

@@ -1,16 +1,16 @@
 ---
-title: "Ports | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Ports | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "ports"
-  - "debugging [Debugging SDK], ports"
+- ports
+- debugging [Debugging SDK], ports
 ms.assetid: 1d7f3aa7-7eff-4cab-bc53-0a566b1a9363
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Ports
 In the debugger architecture, a *port*:
