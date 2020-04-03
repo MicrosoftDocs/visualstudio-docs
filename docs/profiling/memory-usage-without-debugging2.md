@@ -1,7 +1,7 @@
 ---
 title: "Analyze memory usage without debugging | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/15/2018"
+ms.date: "04/02/2020"
 ms.topic: "conceptual"
 dev_langs:
   - "CSharp"
@@ -18,17 +18,21 @@ ms.workload:
 
 The **Memory Usage** tool monitors your app's memory use. You can use the tool to study the real-time memory effects of scenarios you're actively developing in Visual Studio. You can take detailed snapshots of the app's memory states, and compare snapshots to find the root causes of memory issues.
 
-The **Memory Usage** tool can run with or without the debugger. The following instructions show how to use the **Memory Usage** tool without the debugger in the Visual Studio **Performance Profiler**.
+The **Memory Usage** tool can run [with or without the debugger](../profiling/running-profiling-tools-with-or-without-the-debugger.md). In this article, we show how to use the **Memory Usage** tool without the debugger in the Visual Studio **Performance Profiler**.
 
 ## Memory Usage diagnostic sessions
 
 **To start a Memory Usage diagnostic session:**
 
-1. Open a C# Universal Windows (UWP) project in Visual Studio.
+1. Open a project in Visual Studio.
+
+   The Memory Usage tool supports .NET, ASP.NET, native, or mixed mode (.NET and native) apps.
+
+1. In the Debug menu, set the solution configuration to **Release** and select **Local Windows Debugger** (or **Local Machine**) as the deployment target.
 
 1. On the menu bar, choose  **Debug** > **Performance Profiler**.
 
-1. Select **Memory Usage**, and then select **Start**.
+1. Under **Available Tools**, select **Memory Usage**, and then select **Start**.
 
    ![Start a Memory Usage diagnostic session](../profiling/media/memuse_start_diagnosticssession.png "Start a Memory Usage diagnostic session")
 
