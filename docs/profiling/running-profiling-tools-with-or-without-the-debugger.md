@@ -97,17 +97,20 @@ You can save the reports, and open them from the **Recently Opened Sessions** li
 
 ## Run diagnostic sessions on installed or running apps
 
- Besides starting your app from the Visual Studio project, you can also run diagnostic sessions on alternative targets. For example, you might want to diagnose performance issues on an app that was installed from the Windows App Store.
+Besides starting your app from the Visual Studio project, you can also run diagnostic sessions on alternative targets. For example, you might want to diagnose performance issues on an app that was installed from the Windows App Store. In the Performance Profiler, select from the drop-down list under **Change Target**.
 
- ![Choose diagnostic tools analysis target](../profiling/media/pdhub_chooseanalysistarget.png "PDHUB_ChooseAnalysisTarget")
+![Choose diagnostic tools analysis target](../profiling/media/pdhub_chooseanalysistarget.png "PDHUB_ChooseAnalysisTarget")
 
- You can start apps that are already installed, or attach the diagnostic tools to apps and processes that are already running.
+You can start apps that are already installed, or attach the diagnostic tools to apps and processes that are already running.
 
- ![Choose a running or installed app for diagnosis](../profiling/media/pdhub_selectrunningapp.png "PDHUB_SelectRunningApp")
+If you choose **Executable** as your analysis target, you can enter the path to an *.exe* on either a local or remote machine. In either case, the *.exe* runs locally. However, we do recommend that you profile your app by opening the solution in Visual Studio.
 
 For a UWP app, when you select **Running App** or **Installed App**, you select the app from a list that finds the apps on the specified deployment target. This target can be a local or remote machine. To profile a UWP app on a remote machine, you need to select **Universal (Unencrypted Protocol)** in the **Remote Connections** dialog box.
 
-If you choose **Executable** as your analysis target, you can enter the path to an *.exe* on either a local or remote machine. In either case, the *.exe* runs locally. However, we do recommend that you profile your app by opening the solution in Visual Studio.
+![Choose a running or installed app for diagnosis](../profiling/media/pdhub_selectrunningapp.png "PDHUB_SelectRunningApp")
+
+> [!NOTE]
+> For other scenarios requiring remote use of profiling tools, see [Measure application performance from the command line](../profiling/profile-apps-from-the-command-line.md). You can use the command-line tools with CPU Usage and the .NET Object Allocation tool.
 
 ## See also
 
