@@ -2,9 +2,10 @@
 title: Install AI Tools
 description: Describes how to install AI Tools for Visual Studio
 keywords: ai, visual studio
-author: lisawong19
-ms.author: liwong
-manager: routlaw
+author: jillre
+ms.author: jillfra
+manager: jillfra
+monikerRange: vs-2017
 ms.date: 11/13/2017
 ms.topic: "conceptual"
 ms.workload:
