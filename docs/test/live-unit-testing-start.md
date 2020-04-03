@@ -155,17 +155,17 @@ So far, although you've written the tests for the StringLibrary class library, y
 1. Visual Studio starts Live Unit Test, which automatically runs all of your tests.
 
 ::: moniker range="vs-2017"
-When it finishes running your tests, **Test Explorer** displays both the overall results and the result of individual tests. In addition, the code window graphically displays both your test code coverage and the result for your tests. As the following illustration shows, all three tests have executed successfully. It also shows that our tests have covered all code paths in the `StartsWithUpper` method, and those tests all executed successfully (which is indicated by the green check mark, "✓"). Finally, it shows that none of the other methods in StringLibrary have code coverage (which is indicated by a blue line, "➖").
+When it finishes running your tests, **Test Explorer** displays both the overall results and the result of individual tests. In addition, the code editor window graphically displays both your test code coverage and the result for your tests. As the following illustration shows, all three tests have executed successfully. It also shows that our tests have covered all code paths in the `StartsWithUpper` method, and those tests all executed successfully (which is indicated by the green check mark, "✓"). Finally, it shows that none of the other methods in StringLibrary have code coverage (which is indicated by a blue line, "➖").
 
-![The Test Explorer and code window after starting Live Unit testing](media/lut-start/lut-results-cs.png)
+![The Test Explorer and code editor window after starting Live Unit testing](media/lut-start/lut-results-cs.png)
 ::: moniker-end
 ::: moniker range=">=vs-2019"
-When it finishes running your tests, **Live Test Explorer** displays both the overall results and the result of individual tests. In addition, the code editor window graphically displays both your test code coverage and the result for your tests. As the following illustration shows, all three tests have executed successfully. It also shows that our tests have covered all code paths in the `StartsWithUpper` method, and those tests all executed successfully (which is indicated by the green check mark, "✓"). Finally, it shows that none of the other methods in StringLibrary have code coverage (which is indicated by a blue line, "➖").
+When it finishes running your tests, **Live Unit Testing** displays both the overall results and the result of individual tests. In addition, the code editor window graphically displays both your test code coverage and the result for your tests. As the following illustration shows, all three tests have executed successfully. It also shows that our tests have covered all code paths in the `StartsWithUpper` method, and those tests all executed successfully (which is indicated by the green check mark, "✓"). Finally, it shows that none of the other methods in StringLibrary have code coverage (which is indicated by a blue line, "➖").
 
-![The Live Test Explorer and code window after starting Live Unit testing](media/lut-start/vs-2019/lut-results-cs.png)
+![The Live Test Explorer and code editor window after starting Live Unit testing](media/lut-start/vs-2019/lut-results-cs.png)
 ::: moniker-end
 
-You can also get more detailed information about test coverage and test results by selecting a particular code coverage icon in the code window. To examine this detail, do the following:
+You can also get more detailed information about test coverage and test results by selecting a particular code coverage icon in the code editor window. To examine this detail, do the following:
 
 1. Click on the green check mark on the line that reads `if (String.IsNullOrWhiteSpace(s))` in the `StartsWithUpper` method. As the following illustration shows, Live Unit Testing indicates that three tests cover that line of code, and that all have executed successfully.
 
@@ -263,9 +263,9 @@ This provides enough information for a preliminary investigation of the bug. Eit
 
     [!code-csharp[The TestHasEmbeddedSpaces test method](samples/snippets/csharp/lut-start/program2.cs#1)]
 
-1. Live Unit Testing automatically reruns the failed test method and updates the results in the code window and in **Test Explorer**, as the following illustration shows:
+1. Live Unit Testing automatically reruns the failed test method.
 
-    ![Successful HasEmbeddedSpaces test](media/lut-start/test-success-cs.png)
+   Live Unit Testing shows the updated results appear, which also appear in the code editor window.
 
 ## See also
 
