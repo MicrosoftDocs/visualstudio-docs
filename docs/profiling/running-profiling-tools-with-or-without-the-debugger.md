@@ -110,7 +110,7 @@ For a UWP app, when you select **Running App** or **Installed App**, you select 
 ![Choose a running or installed app for diagnosis](../profiling/media/pdhub_selectrunningapp.png "PDHUB_SelectRunningApp")
 
 > [!NOTE]
-> For other scenarios requiring remote use of profiling tools, see [Measure application performance from the command line](../profiling/profile-apps-from-the-command-line.md). You can use the command-line tools with CPU Usage and the .NET Object Allocation tool.
+> For other scenarios requiring remote use of profiling tools, see [Measure application performance from the command line](../profiling/profile-apps-from-command-line.md). You can use the command-line tools with CPU Usage and the .NET Object Allocation tool.
 
 ## See also
 
