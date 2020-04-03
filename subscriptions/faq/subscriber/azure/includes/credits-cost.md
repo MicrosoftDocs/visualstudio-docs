@@ -1,15 +1,10 @@
 ---
 title: How much does it cost?
-description: There is no cost to use these credits. They are included in your Visual Studio subscription. When you run out of the credit that’s...
+description: There is no cost to use these credits. They are included in your Visual Studio subscription. When you run out of the credit that's...
 ms.topic: include
-ms.prod: 
-ms.custom: 
 ms.assetid: 40528a58-d5ed-4c53-91d6-ce873017bead
-ms.technology: 
 author: CaityBuschlen
 ms.author: cabuschl
-manager: 
-robots: 
 ms.date: 4/3/2020
 ms.faqid: q5_2
 ---

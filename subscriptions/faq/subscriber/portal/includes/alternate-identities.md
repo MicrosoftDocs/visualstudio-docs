@@ -20,6 +20,6 @@ Adding an alternate account to your Visual Studio subscription allows you to acc
 
 This doesn't provide a copy of subscription to the other account; it only provides the ability to access the two benefits with the alternate account.
 
-For all subscriptions, you can add a \'work or school account\' so you can use that account with your benefits that require a login (VS IDE, Azure DevOps, and Azure).
+For all subscriptions, you can add a 'work or school account' so you can use that account with your benefits that require a login (VS IDE, Azure DevOps, and Azure).
 
-Adding an alternate ID is easy. Connect to , click on \'Add alternate account\', enter the email address and click \'Add\'.For more information on using alternate identities, check out our [Alternate identities](https://docs.microsoft.com/visualstudio/subscriptions/vs-alternate-identity) article.
+Adding an alternate ID is easy. Connect to , click on 'Add alternate account', enter the email address and click 'Add'.For more information on using alternate identities, check out our [Alternate identities](https://docs.microsoft.com/visualstudio/subscriptions/vs-alternate-identity) article.

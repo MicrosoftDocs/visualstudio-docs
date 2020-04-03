@@ -2,14 +2,10 @@
 title: What software downloads are available?
 description: The software downloads available depends on the subscription(s) you have. If you have more than one subscription, the downloads for the...
 ms.topic: include
-ms.prod: 
-ms.custom: 
 ms.assetid: 543dba4a-b4dc-48e3-94cb-8d803800b570
 ms.technology: 
 author: CaityBuschlen
 ms.author: cabuschl
-manager: 
-robots: 
 ms.date: 4/3/2020
 ms.faqid: q2_1
 ---

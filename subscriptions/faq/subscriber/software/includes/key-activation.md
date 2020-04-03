@@ -1,15 +1,10 @@
 ---
 title: How do I activate the software I just downloaded using product keys?
-description: Activation isn’t always required for a product. In some cases, a single key can be used multiple times. In general, if a product key is...
+description: Activation isn't always required for a product. In some cases, a single key can be used multiple times. In general, if a product key is...
 ms.topic: include
-ms.prod: 
-ms.custom: 
 ms.assetid: f4638a80-a11f-4662-954e-4dff118d8503
-ms.technology: 
 author: CaityBuschlen
 ms.author: cabuschl
-manager: 
-robots: 
 ms.date: 4/3/2020
 ms.faqid: q2_2
 ---
