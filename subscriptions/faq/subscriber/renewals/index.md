@@ -11,6 +11,6 @@ ms.faqid: Section4
 
 # Renewals
 
-[!INCLUDE [How do I renew my retail subscription? What is the renewal time period?](/includes/renewal-period.md)]
+[!INCLUDE [How do I renew my retail subscription? What is the renewal time period?](includes/renewal-period.md)]
 
-[!INCLUDE [How do I renew my cloud subscription?](/includes/cloud-renewal.md)]
+[!INCLUDE [How do I renew my cloud subscription?](includes/cloud-renewal.md)]

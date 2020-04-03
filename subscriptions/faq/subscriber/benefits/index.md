@@ -11,6 +11,6 @@ ms.faqid: Section3
 
 # Activating Subscription Benefits
 
-[!INCLUDE [What benefits are available?](/includes/available-benefits.md)]
+[!INCLUDE [What benefits are available?](includes/available-benefits.md)]
 
-[!INCLUDE [How do I use my benefits?](/includes/use-benefits.md)]
+[!INCLUDE [How do I use my benefits?](includes/use-benefits.md)]

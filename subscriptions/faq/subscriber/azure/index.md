@@ -11,20 +11,20 @@ ms.faqid: Section5
 
 # Azure Monthly Credit
 
-[!INCLUDE [What are the monthly Azure credits?](/includes/what-are-credits.md)]
+[!INCLUDE [What are the monthly Azure credits?](includes/what-are-credits.md)]
 
-[!INCLUDE [How much does it cost?](/includes/credits-cost.md)]
+[!INCLUDE [How much does it cost?](includes/credits-cost.md)]
 
-[!INCLUDE [How do I get started?](/includes/start-using-credits.md)]
+[!INCLUDE [How do I get started?](includes/start-using-credits.md)]
 
-[!INCLUDE [Can I use my monthly Azure credits to run production applications?](/includes/credits-for-production.md)]
+[!INCLUDE [Can I use my monthly Azure credits to run production applications?](includes/credits-for-production.md)]
 
-[!INCLUDE [Can I use my work account to sign in?](/includes/work-account-sign-in.md)]
+[!INCLUDE [Can I use my work account to sign in?](includes/work-account-sign-in.md)]
 
-[!INCLUDE [Are there any geographic or service restrictions impacting this benefit?](/includes/benefit-restrictions.md)]
+[!INCLUDE [Are there any geographic or service restrictions impacting this benefit?](includes/benefit-restrictions.md)]
 
-[!INCLUDE [My organization has multiple Visual Studio subscribers. Can their monthly Azure credits be pooled?](/includes/credit-pooling.md)]
+[!INCLUDE [My organization has multiple Visual Studio subscribers. Can their monthly Azure credits be pooled?](includes/credit-pooling.md)]
 
-[!INCLUDE [Are there any other limitations I should be aware of?](/includes/credit-limitations.md)]
+[!INCLUDE [Are there any other limitations I should be aware of?](includes/credit-limitations.md)]
 
-[!INCLUDE [Where do I find more information?](/includes/find-more-info.md)]
+[!INCLUDE [Where do I find more information?](includes/find-more-info.md)]
