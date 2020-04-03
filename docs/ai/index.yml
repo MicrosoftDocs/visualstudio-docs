@@ -6,9 +6,10 @@ metadata:
   title: Visual Studio Tools for AI | Microsoft Docs
   ms.prod: visual-studio-windows
   ms.technology: vs-ai-tools
-  author: lisawong19
-  ms.author: liwong
-  manager: routlaw
+  author: jillre
+  ms.author: jillfra
+  manager: jillfra
+  monikerRange: vs-2017
   ms.topic: landing-page
   ms.date: 10-25-2017
 abstract:
