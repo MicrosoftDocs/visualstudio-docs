@@ -1,20 +1,14 @@
 ---
-title: Software Downloads and Benefits
-description: FAQs list for Software Downloads and Benefits.
+title: Activating Subscription Benefits
+description: FAQs list for Activating Subscription Benefits.
 ms.topic: conceptual
-ms.assetid: 06be7f25-bf57-4b42-8efb-684d8ac068d1
+ms.assetid: bc1a67a8-25b3-40a1-a355-6de2e658113e
 author: CaityBuschlen
 ms.author: cabuschl
-ms.date: 3/18/2020
-ms.faqid: Section2
+ms.date: 4/3/2020
+ms.faqid: Section3
 ---
 
-# Software Downloads and Benefits
+[!INCLUDE [What benefits are available?](/includes/available-benefits.md)]
 
-[!INCLUDE [How do my end users activate their subscription?](includes/activating-subscriptions.md)]
-
-[!INCLUDE [What benefits and Software is available to my subscriber once a subscription has been assigned?](includes/available-benefits.md)]
-
-[!INCLUDE [How do my developers activate software using product keys?](includes/activating-with-keys.md)]
-
-[!INCLUDE [How do my developers get 50% off Azure Dev Test Workloads?](includes/azure-dev-test-discount.md)]
+[!INCLUDE [How do I use my benefits?](/includes/use-benefits.md)]

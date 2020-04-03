@@ -1,14 +1,14 @@
 ---
-title: What benefits and Software is available to my subscriber once a subscription has been assigned?
-description: The Visual Studio Subscription benefits page allows you to see and compare the full list of benefits and software downloads included...
+title: What benefits are available?
+description: Available benefits vary by subscription level and are subject to change. To see which benefits are included for each subscription...
 ms.topic: include
-ms.assetid: adbb49c0-897b-4565-a4a8-e26d5ddd030f
+ms.assetid: 61513da1-8850-48b9-829d-8643ecb9dc4c
 author: CaityBuschlen
 ms.author: cabuschl
-ms.date: 3/18/2020
-ms.faqid: group2_2
+ms.date: 4/3/2020
+ms.faqid: q3_1
 ---
 
-## What benefits and Software is available to my subscriber once a subscription has been assigned?
+## What benefits are available?
 
-The [Visual Studio Subscription benefits](https://visualstudio.microsoft.com/vs/benefits/) page allows you to see and compare the full list of benefits and [software downloads](https://docs.microsoft.com/visualstudio/subscriptions/software-download-list) included with a Visual Studio Subscription, based on subscription level.
+Available benefits vary by subscription level and are subject to change. To see which benefits are included for each subscription level, please visit .You can select the subscription you're interested in, and then see which benefits are available in the various categories - Tools, Azure, Software and Downloads, Services, Training, and Support.
