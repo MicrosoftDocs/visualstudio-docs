@@ -9,6 +9,8 @@ ms.date: 4/3/2020
 ms.faqid: Section3
 ---
 
+# Activating Subscription Benefits
+
 [!INCLUDE [What benefits are available?](/includes/available-benefits.md)]
 
 [!INCLUDE [How do I use my benefits?](/includes/use-benefits.md)]

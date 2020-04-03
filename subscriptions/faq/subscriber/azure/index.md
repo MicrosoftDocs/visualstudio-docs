@@ -2,17 +2,14 @@
 title: Azure Monthly Credit
 description: FAQs list for Azure Monthly Credit.
 ms.topic: conceptual
-ms.prod: 
-ms.custom: 
 ms.assetid: 2ba03860-8e3f-49d3-adb2-5f2e83b6c5ef
-ms.technology: 
 author: CaityBuschlen
 ms.author: cabuschl
-manager: 
-robots: 
 ms.date: 4/3/2020
 ms.faqid: Section5
 ---
+
+# Azure Monthly Credit
 
 [!INCLUDE [What are the monthly Azure credits?](/includes/what-are-credits.md)]
 

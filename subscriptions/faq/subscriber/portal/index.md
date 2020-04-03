@@ -9,6 +9,8 @@ ms.date: 4/3/2020
 ms.faqid: Section1
 ---
 
+# Using the Subscriber Portal
+
 [!INCLUDE [Should I sign in using my work email or my personal email?](/includes/work-or-personal-email.md)]
 
 [!INCLUDE [How do I access the My Visual Studio Subscribers Portal without knowing my login credentials associated with my work email?](/includes/access-without-credentials.md)]
