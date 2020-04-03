@@ -24,20 +24,20 @@
     href: running-profiling-tools-with-or-without-the-debugger.md
 - name: How-to guides
   items:
-  - name: CPU usage
-    href: cpu-usage.md
   - name: Use PerfTips
     href: perftips.md
+  - name: CPU usage
+    href: cpu-usage.md
   - name: Memory usage
     items:
     - name: Analyze memory usage
       href: analyze-memory-usage.md
     - name: Analyze memory usage for .NET objects
       href: dotnet-alloc-tool.md
-    - name: Custom native ETW heap events
-      href: custom-native-etw-heap-events.md
     - name: Memory usage without the debugger
       href: memory-usage-without-debugging2.md
+    - name: Custom native ETW heap events
+      href: custom-native-etw-heap-events.md
   - name: Measure performance from the command-line
     href: profile-apps-from-command-line.md
   - name: Analyze GPU usage
