@@ -11,4 +11,4 @@ ms.faqid: q5_2
 
 ## How much does it cost?
 
-There is no cost to use these credits. They are included in your Visual Studio subscription. When you run out of the credit that's allotted for the month,you won't be able to continue using it until it resets the next month.
+There is no cost to use these credits. They are included in your Visual Studio subscription. When you run out of the credit that's allotted for the month, you won't be able to continue using it until it resets the next month.
