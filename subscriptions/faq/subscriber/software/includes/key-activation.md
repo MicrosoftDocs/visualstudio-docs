@@ -16,7 +16,7 @@ Activation isn't always required for a product. In some cases, a single key can 
 You can obtain product keys in two places:
 
 - When you [download](https://my.visualstudio.com/downloads) a product you can click on the \'Get Key\' link listed next to the product you're downloading.
-- You can also find keys on the [Product Keys](https://my.visualstudio.com/ProductKeys) page in the Subscriber Portal.
+- You can also find keys on the [Product Keys](https://my.visualstudio.com/ProductKeys) page in the [Subscriber Portal](https://my.visualstudio.com/benefits).
 
 For more information about obtaining and using product keys, please see these articles:
 
