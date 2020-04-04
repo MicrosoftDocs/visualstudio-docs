@@ -11,7 +11,7 @@ ms.faqid: q5_8
 
 ## Are there any other limitations I should be aware of?
 
-The monthly Azure credit for Visual Studio subscribers is for development and testing only and does not carry a financially backed SLA. We reserve the right to suspend any instance(VM or cloud service) that runs continuously for more than 120 hours or if we determine that the instance is being used for production. We are making this capacity available to Visual Studio subscribers ona best-effort basis; there is no guarantee of capacity availability.
+The monthly Azure credit for Visual Studio subscribers is for development and testing only and does not carry a financially backed SLA. We reserve the right to suspend any instance (VM or cloud service) that runs continuously for more than 120 hours or if we determine that the instance is being used for production. We are making this capacity available to Visual Studio subscribers on a best-effort basis; there is no guarantee of capacity availability.
 
 The monthly credit does not apply toward purchase of the following services:
 
