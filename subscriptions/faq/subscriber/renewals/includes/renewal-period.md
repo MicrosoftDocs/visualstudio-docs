@@ -14,7 +14,7 @@ ms.faqid: q4_1
 
 If you currently have a retail subscription, there are two ways to renew:
 
-- Connect to and click on the \'Renew\' link.
+- Connect to the [Subscriptions page](https://my.visualstudio.com/Subscriptions) from the [Subscriptions Portal](https://my.visualstudio.com/benefits) and click on the \'Renew\' link.
 - Visit the [Microsoft Store](https://www.microsoft.com/store/b/home?rtc=1) and search for \'Visual Studio subscription\' to see the available renewal opportunities. Here are some quick links:
   - [Visual Studio Enterprise](https://www.microsoft.com/p/visual-studio-enterprise-subscription/dg7gmgf0dst4?activetab=pivot%3aoverviewtab)
   - [Visual Studio Professional](https://www.microsoft.com/p/visual-studio-professional-subscription/dg7gmgf0dst3?activetab=pivot%3aoverviewtab)
