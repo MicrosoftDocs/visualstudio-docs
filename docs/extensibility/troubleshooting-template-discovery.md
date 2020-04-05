@@ -1,12 +1,12 @@
 ---
-title: "Troubleshoot template discovery in Visual Studio | Microsoft Docs"
-ms.date: "01/02/2018"
-ms.topic: "conceptual"
-author: madskristensen
-ms.author: madsk
+title: Troubleshoot template discovery in Visual Studio | Microsoft Docs
+ms.date: 01/02/2018
+ms.topic: conceptual
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Troubleshooting template installation
 

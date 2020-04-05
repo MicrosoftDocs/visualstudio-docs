@@ -1,15 +1,15 @@
 ---
-title: "Web Site Support Templates | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Web Site Support Templates | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "we site projects, templates"
+- we site projects, templates
 ms.assetid: 37173c97-486b-4b3c-8ed3-cf5890c4de23
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Web Site Support Templates
 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] Web site project and item templates provide reusable and customizable Web site project and item stubs that accelerate the development process by removing the need to create new Web site projects and items from scratch. For more information on [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] templates, see [Creating Project and Item Templates](../../ide/creating-project-and-item-templates.md).

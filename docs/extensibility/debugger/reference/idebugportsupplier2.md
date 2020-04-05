@@ -1,17 +1,17 @@
 ---
-title: "IDebugPortSupplier2 | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugPortSupplier2 | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugPortSupplier2"
+- IDebugPortSupplier2
 helpviewer_keywords:
-  - "IDebugPortSupplier2 interface"
+- IDebugPortSupplier2 interface
 ms.assetid: 37067324-2ea6-4a01-8829-a6e9c7a70068
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # IDebugPortSupplier2
 This interface supplies ports to the session debug manager (SDM).

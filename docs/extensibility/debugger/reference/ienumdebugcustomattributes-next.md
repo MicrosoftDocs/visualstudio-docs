@@ -1,20 +1,20 @@
 ---
-title: "IEnumDebugCustomAttributes::Next | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IEnumDebugCustomAttributes::Next | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IEnumCustomAttributes::Next"
+- IEnumCustomAttributes::Next
 helpviewer_keywords:
-  - "IEnumDebugCustomAttributes::Next"
+- IEnumDebugCustomAttributes::Next
 ms.assetid: e36f856b-2619-42d1-b73e-4f2390fc22bd
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IEnumDebugCustomAttributes::Next
 Retrieves a specified number of custom attributes in an enumeration sequence.

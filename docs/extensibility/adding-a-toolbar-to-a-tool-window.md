@@ -1,16 +1,16 @@
 ---
-title: "Adding a Toolbar to a Tool Window | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Adding a Toolbar to a Tool Window | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "tool windows, adding toolbars"
-  - "toolbars [Visual Studio], adding to tool windows"
+- tool windows, adding toolbars
+- toolbars [Visual Studio], adding to tool windows
 ms.assetid: 172f64b3-87f8-4292-9c1c-65bffa2b0970
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Add a toolbar to a tool window
 This walkthrough shows how to add a toolbar to a tool window.

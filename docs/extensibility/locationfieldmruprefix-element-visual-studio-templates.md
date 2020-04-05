@@ -1,19 +1,19 @@
 ---
-title: "LocationFieldMRUPrefix Element (Visual Studio Templates) | Microsoft Docs"
-ms.date: "11/04/2016"
+title: LocationFieldMRUPrefix Element (Visual Studio Templates) | Microsoft Docs
+ms.date: 11/04/2016
 ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
-  - "http://schemas.microsoft.com/developer/vstemplate/2005#LocationFieldMRUPrefix"
+- http://schemas.microsoft.com/developer/vstemplate/2005#LocationFieldMRUPrefix
 helpviewer_keywords:
-  - "<LocationFieldMRUPrefix> element [Visual Studio Templates]"
-  - "LocationFieldMRUPrefix element [Visual Studio Templates]"
+- <LocationFieldMRUPrefix> element [Visual Studio Templates]
+- LocationFieldMRUPrefix element [Visual Studio Templates]
 ms.assetid: 03443691-9eb5-46f4-9169-cc2552a04bcb
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # LocationFieldMRUPrefix element (Visual Studio Templates)
 Specifies the most recently used (MRU) paths in the **New Project** and **Add New Item** dialog box.

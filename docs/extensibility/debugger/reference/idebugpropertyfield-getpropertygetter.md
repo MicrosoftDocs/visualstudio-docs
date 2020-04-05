@@ -1,20 +1,20 @@
 ---
-title: "IDebugPropertyField::GetPropertyGetter | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugPropertyField::GetPropertyGetter | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugPropertyField::GetPropertyGetter"
+- IDebugPropertyField::GetPropertyGetter
 helpviewer_keywords:
-  - "IDebugPropertyField::GetPropertyGetter method"
+- IDebugPropertyField::GetPropertyGetter method
 ms.assetid: ab9f861a-42ad-4a82-9ae6-2606176f755a
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugPropertyField::GetPropertyGetter
 Gets the method that gets the property.

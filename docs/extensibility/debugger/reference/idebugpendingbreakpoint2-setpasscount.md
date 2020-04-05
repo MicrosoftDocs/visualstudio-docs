@@ -1,21 +1,21 @@
 ---
-title: "IDebugPendingBreakpoint2::SetPassCount | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugPendingBreakpoint2::SetPassCount | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugPendingBreakpoint2::SetPassCount"
+- IDebugPendingBreakpoint2::SetPassCount
 helpviewer_keywords:
-  - "SetPassCount method"
-  - "IDebugPendingBreakpoint2::SetPassCount method"
+- SetPassCount method
+- IDebugPendingBreakpoint2::SetPassCount method
 ms.assetid: 08ddd328-57eb-42e0-baa9-8424dcd1bf04
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugPendingBreakpoint2::SetPassCount
 Sets or changes the pass count associated with the pending breakpoint.

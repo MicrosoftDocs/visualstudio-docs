@@ -1,18 +1,18 @@
 ---
-title: "Project Type Design Decisions | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Project Type Design Decisions | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "project types, project file persistence"
-  - "project types, commitment mechanics"
-  - "project types, items"
-  - "project types, design decisions"
+- project types, project file persistence
+- project types, commitment mechanics
+- project types, items
+- project types, design decisions
 ms.assetid: f68671fe-fd7a-4e56-a0b5-330b0f1fedb1
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Project Type Design Decisions
 Before you create a new project type, you must make several design decisions regarding your project type. You must decide what types of items your projects will contain, how project files will be persisted, and what commitment model you will use.

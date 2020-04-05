@@ -1,15 +1,15 @@
 ---
-title: "m_stateFlags Field | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: m_stateFlags Field | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "m_stateFlags field, Task class [.NET Framework debug engines]"
+- m_stateFlags field, Task class [.NET Framework debug engines]
 ms.assetid: 82b20efc-08f2-4cd2-91f6-4e01e3da906b
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # m_stateFlags field
 Stores information about the current state of the <xref:System.Threading.Tasks.Task> object.

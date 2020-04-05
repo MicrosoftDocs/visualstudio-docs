@@ -1,17 +1,17 @@
 ---
-title: "POPLISTFUNC | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: POPLISTFUNC | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 f1_keywords:
-  - "POPDIRLISTFUNC"
+- POPDIRLISTFUNC
 helpviewer_keywords:
-  - "POPLISTFUNC callback function"
+- POPLISTFUNC callback function
 ms.assetid: b2199fd5-d707-4628-92dd-e2a01e2f507a
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # POPLISTFUNC
 This callback is supplied to the [SccPopulateList](../extensibility/sccpopulatelist-function.md) by the IDE and is used by the source control plug-in to update a list of files or directories (also supplied to the `SccPopulateList` function).

@@ -1,20 +1,20 @@
 ---
-title: "METADATA_ADDRESS_LOCAL | Microsoft Docs"
-ms.date: "11/04/2016"
+title: METADATA_ADDRESS_LOCAL | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "METADATA_ADDRESS_LOCAL"
+- METADATA_ADDRESS_LOCAL
 helpviewer_keywords:
-  - "METADATA_ADDRESS_LOCAL structure"
+- METADATA_ADDRESS_LOCAL structure
 ms.assetid: 635f6bc5-c486-4e0e-83db-36f15e543843
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # METADATA_ADDRESS_LOCAL
 

@@ -1,16 +1,16 @@
 ---
-title: "Automation for Configuration and SelectedItem Objects | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Automation for Configuration and SelectedItem Objects | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "automation [Visual Studio SDK], SelectedItem object"
-  - "automation [Visual Studio SDK], builds"
+- automation [Visual Studio SDK], SelectedItem object
+- automation [Visual Studio SDK], builds
 ms.assetid: 120377f1-51aa-4445-b2f7-06ab7fc2b47f
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Automation for Configuration and SelectedItem objects
 

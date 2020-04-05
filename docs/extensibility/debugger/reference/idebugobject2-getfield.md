@@ -1,20 +1,20 @@
 ---
-title: "IDebugObject2::GetField | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugObject2::GetField | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugObject2::GetField"
+- IDebugObject2::GetField
 helpviewer_keywords:
-  - "IDebugObject2::GetField method"
+- IDebugObject2::GetField method
 ms.assetid: add6a6b5-e752-47dd-9613-29206ea809b0
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugObject2::GetField
 Gets the type of this object.

@@ -1,17 +1,17 @@
 ---
-title: "IDebugExpressionEvaluator | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugExpressionEvaluator | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugExpressionEvaluator"
+- IDebugExpressionEvaluator
 helpviewer_keywords:
-  - "IDebugExpressionEvaluator interface"
+- IDebugExpressionEvaluator interface
 ms.assetid: 0636d8c3-625a-49fa-94b6-516f22b7e1bc
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # IDebugExpressionEvaluator
 > [!IMPORTANT]

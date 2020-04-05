@@ -1,17 +1,17 @@
 ---
-title: "IDebugPortEx2 | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugPortEx2 | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugPortEx2"
+- IDebugPortEx2
 helpviewer_keywords:
-  - "IDebugPortEx2 interface"
+- IDebugPortEx2 interface
 ms.assetid: 144724d0-38ee-4c9b-87ca-8a504371182b
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # IDebugPortEx2
 This interface lets the session debug manager (SDM) control the programs and processes running on a port.

@@ -1,13 +1,13 @@
 ---
-title: "Color Theming Tools | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Color Theming Tools | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 ms.assetid: 89ab5741-c664-4b45-8662-3dd01a5761be
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Color theme tools
 The Visual Studio SDK provides several tools to help you create and manage color themes.

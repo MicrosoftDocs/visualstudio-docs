@@ -1,15 +1,15 @@
 ---
-title: "Application of Settings Across Multiple Project Connections | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Application of Settings Across Multiple Project Connections | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "source control plug-ins, application of settings"
+- source control plug-ins, application of settings
 ms.assetid: 2116d3d0-c46c-4d0a-b482-08a178584f46
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Application of settings across multiple project connections
 A source control plug-in built using the Source Control Plug-in API Version 1.2, can use a batch operation to execute the same source control operation across multiple projects or multiple connection contexts. Batches can be used to eliminate redundant, per-project dialog boxes from the user experience.

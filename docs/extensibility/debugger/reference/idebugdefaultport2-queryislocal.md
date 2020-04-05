@@ -1,17 +1,17 @@
 ---
-title: "IDebugDefaultPort2::QueryIsLocal | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugDefaultPort2::QueryIsLocal | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugDefaultPort2::QueryIsLocal"
+- IDebugDefaultPort2::QueryIsLocal
 helpviewer_keywords:
-  - "IDebugDefaultPort2::QueryIsLocal"
+- IDebugDefaultPort2::QueryIsLocal
 ms.assetid: 1a42e774-c6ed-419a-a0e3-cab5778652ca
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # IDebugDefaultPort2::QueryIsLocal
 This method determines whether this port is on the local machine.

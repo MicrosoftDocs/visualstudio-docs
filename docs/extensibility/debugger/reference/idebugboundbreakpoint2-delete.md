@@ -1,21 +1,21 @@
 ---
-title: "IDebugBoundBreakpoint2::Delete | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugBoundBreakpoint2::Delete | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugBoundBreakpoint2::Delete"
+- IDebugBoundBreakpoint2::Delete
 helpviewer_keywords:
-  - "Delete method"
-  - "IDebugBoundBreakpoint2::Delete method"
+- Delete method
+- IDebugBoundBreakpoint2::Delete method
 ms.assetid: 7088dc66-f24a-446f-a52a-397d02457a41
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugBoundBreakpoint2::Delete
 Deletes the breakpoint.

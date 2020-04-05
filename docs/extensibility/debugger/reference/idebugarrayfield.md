@@ -1,17 +1,17 @@
 ---
-title: "IDebugArrayField | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugArrayField | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugArrayField"
+- IDebugArrayField
 helpviewer_keywords:
-  - "IDebugArrayField interface"
+- IDebugArrayField interface
 ms.assetid: 9667b0a5-4295-46cc-9388-b75c1350be15
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # IDebugArrayField
 This interface describes an array symbol or type.
