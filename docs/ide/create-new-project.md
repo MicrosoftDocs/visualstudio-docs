@@ -61,7 +61,7 @@ If the Visual Studio development environment is already open, you can create a n
 
 On the **Create a new project** page, a list of your recently selected templates appears on the left. The templates are sorted by *most recently used*.
 
-If you're not selecting from the recently used templates, you can filter all available project templates by **Language** (for example, C# or C++), **Platform** (for example, Windows or Azure), and **Project type** (for example, Desktop or Web). You can also enter search text into the search box to further filter the templates, for example, **asp.net**.
+If you're not selecting from the recently used templates, you can filter all available project templates by **Language** (for example, C# or C++), **Platform** (for example, **Windows** or **Azure**), and **Project type** (for example, **Desktop** or **Web**). You can also enter search text into the search box to further filter the templates, for example, **asp.net**.
 
 ![Project template filters in Visual Studio 2019](media/vs-2019/create-new-project-filters.png)
 
