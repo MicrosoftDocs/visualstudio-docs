@@ -291,4 +291,4 @@ We have other support options available, too. For a list, see our [Feedback](../
 - [Update Visual Studio while on a servicing baseline](update-servicing-baseline.md)
 - [Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md)
 - [Visual Studio workload and component IDs](workload-and-component-ids.md)
-- [Install certificates required for Visual Studio offline installation](/install-certificates-for-visual-studio-offline.md)
+- [Install certificates required for Visual Studio offline installation](install-certificates-for-visual-studio-offline.md)
