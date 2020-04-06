@@ -1,20 +1,20 @@
 ---
-title: "IDebugModuleLoadEvent2::GetModule | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugModuleLoadEvent2::GetModule | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugModuleLoadEvent2::GetModule"
+- IDebugModuleLoadEvent2::GetModule
 helpviewer_keywords:
-  - "IDebugModuleLoadEvent2::GetModule"
+- IDebugModuleLoadEvent2::GetModule
 ms.assetid: c86482bb-9ce5-4e63-bbe0-969b50169424
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugModuleLoadEvent2::GetModule
 Gets the module that is being loaded or unloaded.

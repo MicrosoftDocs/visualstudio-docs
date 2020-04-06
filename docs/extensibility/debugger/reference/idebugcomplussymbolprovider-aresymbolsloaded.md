@@ -1,19 +1,19 @@
 ---
-title: "IDebugComPlusSymbolProvider::AreSymbolsLoaded | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugComPlusSymbolProvider::AreSymbolsLoaded | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
-  - "AreSymbolsLoaded"
-  - "IDebugComPlusSymbolProvider::AreSymbolsLoaded"
+- AreSymbolsLoaded
+- IDebugComPlusSymbolProvider::AreSymbolsLoaded
 ms.assetid: bbf8707d-f89c-4177-b019-d519f1ec6f4a
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugComPlusSymbolProvider::AreSymbolsLoaded
 Determines if the debug symbols are loaded for the specified module given the application domain identifier.

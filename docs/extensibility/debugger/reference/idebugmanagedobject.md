@@ -1,17 +1,17 @@
 ---
-title: "IDebugManagedObject | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugManagedObject | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugManagedObject"
+- IDebugManagedObject
 helpviewer_keywords:
-  - "IDebugManagedObject interface"
+- IDebugManagedObject interface
 ms.assetid: 3ae09d34-112c-4285-80ee-9f7f8dc414d7
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # IDebugManagedObject
 > [!IMPORTANT]

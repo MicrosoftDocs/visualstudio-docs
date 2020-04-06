@@ -1,17 +1,17 @@
 ---
-title: "IDebugBreakpointRequest2 | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugBreakpointRequest2 | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugBreakpointRequest2"
+- IDebugBreakpointRequest2
 helpviewer_keywords:
-  - "IDebugBreakpointRequest2 interface"
+- IDebugBreakpointRequest2 interface
 ms.assetid: 01ac4013-96f9-4235-b289-f55f9e99558f
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # IDebugBreakpointRequest2
 This interface represents the information necessary to create and bind any type of breakpoint.

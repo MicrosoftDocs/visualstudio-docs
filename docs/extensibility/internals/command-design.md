@@ -1,16 +1,16 @@
 ---
-title: "Command Design | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Command Design | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "commands"
-  - "commands, implementation"
+- commands
+- commands, implementation
 ms.assetid: 097108c3-f758-4b87-89d6-b32d12d9041a
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Command design
 When you add a command to a VSPackage, you must specify where it is to appear, when it is available, and how it is to be handled.

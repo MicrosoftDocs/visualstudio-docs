@@ -1,18 +1,18 @@
 ---
-title: "PORT_SUPPLIER_DESCRIPTION_FLAGS | Microsoft Docs"
-ms.date: "11/04/2016"
+title: PORT_SUPPLIER_DESCRIPTION_FLAGS | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
-  - "PORT_SUPPLIER_DESCRIPTION_FLAGS enumeration"
+- PORT_SUPPLIER_DESCRIPTION_FLAGS enumeration
 ms.assetid: 5acee0ee-3a20-41c9-a7dc-0dadae6a5ba5
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # PORT_SUPPLIER_DESCRIPTION_FLAGS
 

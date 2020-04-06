@@ -1,20 +1,20 @@
 ---
-title: "IDebugProviderProgramNode2::UnmarshalDebuggeeInterface | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugProviderProgramNode2::UnmarshalDebuggeeInterface | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugProviderProgramNode2::UnmarshalDebuggeeInterface"
+- IDebugProviderProgramNode2::UnmarshalDebuggeeInterface
 helpviewer_keywords:
-  - "IDebugProviderProgramNode2::UnmarshalDebuggeeInterface"
+- IDebugProviderProgramNode2::UnmarshalDebuggeeInterface
 ms.assetid: 2e4653c5-10f1-493c-9973-f31d266c5d48
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugProviderProgramNode2::UnmarshalDebuggeeInterface
 Obtains a specified interface across process boundaries.

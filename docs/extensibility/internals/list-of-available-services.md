@@ -1,16 +1,16 @@
 ---
-title: "List of Available Services | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: List of Available Services | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "services, Visual Studio"
-  - "Visual Studio, services"
+- services, Visual Studio
+- Visual Studio, services
 ms.assetid: 724eb24b-b87c-4971-a2e7-adee7afc03b2
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # List of Available Services
 

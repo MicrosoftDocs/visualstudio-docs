@@ -1,17 +1,17 @@
 ---
-title: "IDebugContainerField | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugContainerField | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugContainerField"
+- IDebugContainerField
 helpviewer_keywords:
-  - "IDebugContainerField interface"
+- IDebugContainerField interface
 ms.assetid: a8bbe061-c382-4fe9-a193-3f7d12216041
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # IDebugContainerField
 This interface represents a symbol or type that is a container for other symbols or types.

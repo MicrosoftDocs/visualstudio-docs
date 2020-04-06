@@ -1,16 +1,16 @@
 ---
-title: "Attaching and Detaching to a Program | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Attaching and Detaching to a Program | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "debug engines, attaching to programs"
-  - "debug engines, detaching from programs"
+- debug engines, attaching to programs
+- debug engines, detaching from programs
 ms.assetid: 79dcbb9b-c7f8-40fc-8a00-f37fe1934f51
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Attaching and detaching to a program
 Attaching the debugger requires sending the correct sequence of methods and events with the proper attributes.

@@ -1,20 +1,20 @@
 ---
-title: "IPropertyProxyEESide::GetInitialData | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IPropertyProxyEESide::GetInitialData | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IPropertyProxyEESide::GetInitialData"
+- IPropertyProxyEESide::GetInitialData
 helpviewer_keywords:
-  - "IPropertyProxyEESide::GetInitialData"
+- IPropertyProxyEESide::GetInitialData
 ms.assetid: 36cceb19-2604-4ef9-b42b-5dd30cbe24b1
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IPropertyProxyEESide::GetInitialData
 Returns the initial data for this object.

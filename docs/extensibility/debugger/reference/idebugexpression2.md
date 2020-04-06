@@ -1,17 +1,17 @@
 ---
-title: "IDebugExpression2 | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugExpression2 | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugExpression2"
+- IDebugExpression2
 helpviewer_keywords:
-  - "IDebugExpression2 interface"
+- IDebugExpression2 interface
 ms.assetid: f5e4b124-1e30-47c8-a511-80084a02dba5
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # IDebugExpression2
 This interface represents a parsed expression ready for binding and evaluating.

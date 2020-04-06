@@ -1,20 +1,20 @@
 ---
-title: "IDebugEvent2::GetAttributes | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugEvent2::GetAttributes | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugEvent2::GetAttributes"
+- IDebugEvent2::GetAttributes
 helpviewer_keywords:
-  - "IDebugEvent2::GetAttributes"
+- IDebugEvent2::GetAttributes
 ms.assetid: 2ac5b5fb-da17-43f7-811a-313f677e60d7
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugEvent2::GetAttributes
 Gets the attributes for this debug event.

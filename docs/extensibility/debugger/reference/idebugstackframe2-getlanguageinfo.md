@@ -1,20 +1,20 @@
 ---
-title: "IDebugStackFrame2::GetLanguageInfo | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugStackFrame2::GetLanguageInfo | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugStackFrame2::GetLanguageInfo"
+- IDebugStackFrame2::GetLanguageInfo
 helpviewer_keywords:
-  - "IDebugStackFrame2::GetLanguageInfo"
+- IDebugStackFrame2::GetLanguageInfo
 ms.assetid: 0e12fd92-f155-46a7-8272-cda279388cfb
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugStackFrame2::GetLanguageInfo
 

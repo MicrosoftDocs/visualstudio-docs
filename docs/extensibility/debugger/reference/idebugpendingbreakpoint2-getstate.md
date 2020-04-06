@@ -1,21 +1,21 @@
 ---
-title: "IDebugPendingBreakpoint2::GetState | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugPendingBreakpoint2::GetState | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugPendingBreakpoint2::GetState"
+- IDebugPendingBreakpoint2::GetState
 helpviewer_keywords:
-  - "GetState method"
-  - "IDebugPendingBreakpoint2::GetState method"
+- GetState method
+- IDebugPendingBreakpoint2::GetState method
 ms.assetid: e88d543f-2e83-4ba7-86ca-f874e39955ff
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugPendingBreakpoint2::GetState
 Gets the state of the pending breakpoint.

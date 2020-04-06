@@ -1,16 +1,16 @@
 ---
-title: "IDE GUIDs | Microsoft Docs"
+title: IDE GUIDs | Microsoft Docs
 ms.date: 03/22/2018
-ms.topic: "conceptual"
+ms.topic: conceptual
 helpviewer_keywords:
-  - "GUIDs, integrated development environment"
-  - "IDE, GUIDs"
+- GUIDs, integrated development environment
+- IDE, GUIDs
 ms.assetid: d31a0f97-b7be-4fb5-a942-8ba4527bc068
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # IDE GUIDs
 

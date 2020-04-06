@@ -1,20 +1,20 @@
 ---
-title: "FIELD_KIND | Microsoft Docs"
-ms.date: "11/04/2016"
+title: FIELD_KIND | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "FIELD_KIND"
+- FIELD_KIND
 helpviewer_keywords:
-  - "FIELD_KIND enumeration"
+- FIELD_KIND enumeration
 ms.assetid: fd522b9c-52e2-42fa-939d-343347d5c3b1
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # FIELD_KIND
 Specifies the kind of field contained in an [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) object.

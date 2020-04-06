@@ -1,19 +1,19 @@
 ---
 title: NumberOfParentCategoriesToRollUp element (templates)
-ms.date: "11/04/2016"
+ms.date: 11/04/2016
 ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
-  - "http://schemas.microsoft.com/developer/vstemplate/2005#NumberOfParentCategoriesToRollUp"
+- http://schemas.microsoft.com/developer/vstemplate/2005#NumberOfParentCategoriesToRollUp
 helpviewer_keywords:
-  - "NumberOfParentCategoriesToRollUp element [Visual Studio Templates]"
-  - "<NumberOfParentCategoriesToRollUp> element [Visual Studio Templates]"
+- NumberOfParentCategoriesToRollUp element [Visual Studio Templates]
+- <NumberOfParentCategoriesToRollUp> element [Visual Studio Templates]
 ms.assetid: 6f9d36f5-ae23-4a92-8132-b11799e2c21a
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # NumberOfParentCategoriesToRollUp element (Visual Studio templates)
 Specifies the number of parent categories that will display the template in the **New Project** dialog box.

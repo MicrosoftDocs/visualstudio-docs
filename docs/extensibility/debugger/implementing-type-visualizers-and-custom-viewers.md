@@ -1,16 +1,16 @@
 ---
-title: "Implementing Type Visualizers and Custom Viewers | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Implementing Type Visualizers and Custom Viewers | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "debugging [Debugging SDK], custom viewer"
-  - "debugging [Debugging SDK], type visualizer"
+- debugging [Debugging SDK], custom viewer
+- debugging [Debugging SDK], type visualizer
 ms.assetid: abef18c0-8272-4451-b82a-b4624edaba7d
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Implement type visualizers and custom viewers
 > [!IMPORTANT]

@@ -1,16 +1,16 @@
 ---
-title: "Visual Studio Debugger Glossary | Microsoft Docs"
-ms.date: "11/04/2016"
+title: Visual Studio Debugger Glossary | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
-  - "glossary [Debugging SDK]"
-  - "debugging [Debugging SDK], glossary"
+- glossary [Debugging SDK]
+- debugging [Debugging SDK], glossary
 ms.assetid: 4a2cfaab-1fbd-4a23-bd00-9ac4cc50d7fd
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Visual Studio Debugger Glossary
 The following are terms used in the [!INCLUDE[vsprvs](../../../code-quality/includes/vsprvs_md.md)] Debugging SDK.

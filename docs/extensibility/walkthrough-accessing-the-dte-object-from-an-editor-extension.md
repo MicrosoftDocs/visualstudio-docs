@@ -3,13 +3,13 @@ title: Access the DTE Object from an editor extension
 ms.date: 04/24/2019
 ms.topic: conceptual
 helpviewer_keywords:
-  - "editors [Visual Studio SDK], new - getting the DTE object"
+- editors [Visual Studio SDK], new - getting the DTE object
 ms.assetid: c1f40bab-c6ec-45b0-8333-ea5ceb02a39d
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Walkthrough: Access the DTE object from an editor extension
 

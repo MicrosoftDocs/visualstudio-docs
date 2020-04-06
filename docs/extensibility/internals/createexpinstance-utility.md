@@ -1,19 +1,19 @@
 ---
-title: "CreateExpInstance Utility | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: CreateExpInstance Utility | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "experimental builds"
-  - "experimental hive"
-  - "experimental instance"
-  - "createexpinstance"
-  - "createexpinst"
+- experimental builds
+- experimental hive
+- experimental instance
+- createexpinstance
+- createexpinst
 ms.assetid: 03779774-9401-49ae-997c-0c3ab25ed0d5
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # CreateExpInstance utility
 Use the **CreateExpInstance** utility to create, reset, or delete an experimental instance of Visual Studio. You can use the experimental instance to debug and test Visual Studio extensions without changing the underlying product.

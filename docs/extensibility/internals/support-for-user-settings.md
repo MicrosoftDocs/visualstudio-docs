@@ -1,17 +1,17 @@
 ---
-title: "Support for User Settings | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Support for User Settings | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "Custom Settings Points"
-  - "user settings [Visual Studio SDK], registering persistence support"
-  - "persistence, registering settings"
+- Custom Settings Points
+- user settings [Visual Studio SDK], registering persistence support
+- persistence, registering settings
 ms.assetid: ad9beac3-4f8d-4093-ad0e-6fb00444a709
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Support for User Settings
 A VSPackage may define one or more settings categories, which are groups of state variables that persist when a user chooses the **Import/Export Settings** command on the **Tools** menu. To enable this persistence, you use the settings APIs in the [!INCLUDE[vsipsdk](../../extensibility/includes/vsipsdk_md.md)].

@@ -1,17 +1,17 @@
 ---
-title: "SccDirQueryInfo Function | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: SccDirQueryInfo Function | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 f1_keywords:
-  - "SccDirQueryInfo"
+- SccDirQueryInfo
 helpviewer_keywords:
-  - "SccDirQueryInfo function"
+- SccDirQueryInfo function
 ms.assetid: 459e2d99-573d-47c4-b834-6d82c5e14162
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # SccDirQueryInfo function
 This function examines a list of fully qualified directories for their current status.

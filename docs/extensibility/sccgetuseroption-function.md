@@ -1,17 +1,17 @@
 ---
-title: "SccGetUserOption Function | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: SccGetUserOption Function | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 f1_keywords:
-  - "SccGetUserOption"
+- SccGetUserOption
 helpviewer_keywords:
-  - "SccGetUserOption function"
+- SccGetUserOption function
 ms.assetid: 17863747-1901-4c53-a2b3-ed996085e120
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # SccGetUserOption Function
 This function retrieves a variety of user-specific options.

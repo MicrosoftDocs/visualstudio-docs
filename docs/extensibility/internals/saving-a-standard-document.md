@@ -1,17 +1,17 @@
 ---
-title: "Saving a Standard Document | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Saving a Standard Document | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "editors [Visual Studio SDK], saving standard documents"
-  - "projects [Visual Studio SDK], saving standard documents"
-  - "persistence, saving standard documents"
+- editors [Visual Studio SDK], saving standard documents
+- projects [Visual Studio SDK], saving standard documents
+- persistence, saving standard documents
 ms.assetid: d692fedf-b46e-4d60-84bd-578635042235
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Saving a Standard Document
 The environment handles the Save, Save As, and Save All commands. When a user selects **Save**, **Save As**, or **Save All** from the **File** menu or closes the solution, resulting in a **Save All**, the following process occurs.

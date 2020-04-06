@@ -1,16 +1,16 @@
 ---
-title: "KeyBinding Element | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: KeyBinding Element | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "VSCT XML schema elements, KeyBindings"
-  - "KeyBinding element (VSCT XML schema)"
+- VSCT XML schema elements, KeyBindings
+- KeyBinding element (VSCT XML schema)
 ms.assetid: e55a1098-15df-42a9-9f87-e3a99cf437dd
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # KeyBinding element
 The KeyBinding element specifies keyboard shortcuts for the commands.

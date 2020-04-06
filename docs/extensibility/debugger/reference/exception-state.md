@@ -1,20 +1,20 @@
 ---
-title: "EXCEPTION_STATE | Microsoft Docs"
-ms.date: "11/04/2016"
+title: EXCEPTION_STATE | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "EXCEPTION_STATE"
+- EXCEPTION_STATE
 helpviewer_keywords:
-  - "EXCEPTION_STATE enumeration"
+- EXCEPTION_STATE enumeration
 ms.assetid: 597f4f4c-9b70-485c-b5dc-3c2e3aecc664
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # EXCEPTION_STATE
 Specifies the exception state.

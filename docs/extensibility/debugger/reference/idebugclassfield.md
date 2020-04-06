@@ -1,17 +1,17 @@
 ---
-title: "IDebugClassField | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugClassField | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugClassField"
+- IDebugClassField
 helpviewer_keywords:
-  - "IDebugClassField interface"
+- IDebugClassField interface
 ms.assetid: 49358cbc-8973-4862-9dcc-79b1248e6712
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # IDebugClassField
 This interface represents a class as a type.
