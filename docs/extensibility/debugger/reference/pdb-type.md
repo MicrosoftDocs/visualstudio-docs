@@ -1,20 +1,20 @@
 ---
-title: "PDB_TYPE | Microsoft Docs"
-ms.date: "11/04/2016"
+title: PDB_TYPE | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "PDB_TYPE"
+- PDB_TYPE
 helpviewer_keywords:
-  - "PDB_TYPE structure"
+- PDB_TYPE structure
 ms.assetid: 1c1bb772-77d6-4870-90b2-fd9247d0004e
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # PDB_TYPE
 

@@ -1,17 +1,17 @@
 ---
-title: "Dynamically Adding Menu Items | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Dynamically Adding Menu Items | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "DYNAMICITEMSTART"
-  - "menu items, adding dynamically"
-  - "menus, adding dynamic items"
+- DYNAMICITEMSTART
+- menu items, adding dynamically
+- menus, adding dynamic items
 ms.assetid: d281e9c9-b289-4d64-8d0a-094bac6c333c
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Dynamically add menu items
 You can add menu items at run time by specifying the `DynamicItemStart` command flag on a placeholder button definition in the Visual Studio command-table (*.vsct*) file, then defining (in code) the number of menu items to display and handling the command(s). When the VSPackage is loaded, the placeholder is replaced with the dynamic menu items.

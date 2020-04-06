@@ -1,13 +1,13 @@
 ---
-title: "Image Library Viewer | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Image Library Viewer | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 ms.assetid: 9d9c7fbb-ebae-4b20-9dd8-3c9070c0d0d1
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Image Library Viewer
 The Visual Studio Image Library Viewer tool can load and search image manifests, allowing the user to manipulate them in the same way Visual Studio would. The user can alter background, sizes, DPI, high contrast, and other settings. The tool also displays loading information for each image manifest and displays source information for each image in the image manifest. This tool is useful for:

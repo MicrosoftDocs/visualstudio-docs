@@ -1,20 +1,20 @@
 ---
-title: "IDebugProcess3::Step | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugProcess3::Step | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugProcess3::Step"
+- IDebugProcess3::Step
 helpviewer_keywords:
-  - "IDebugProcess3::Step"
+- IDebugProcess3::Step
 ms.assetid: 6ad9094c-27cc-4927-8a7c-1b4d97b2e436
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugProcess3::Step
 Causes the process to step one instruction or statement.

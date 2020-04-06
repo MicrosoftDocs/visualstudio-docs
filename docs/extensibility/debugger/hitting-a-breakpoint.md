@@ -1,16 +1,16 @@
 ---
-title: "Hitting a Breakpoint | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Hitting a Breakpoint | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "debugging [Debugging SDK], hitting breakpoints"
-  - "breakpoints, hitting"
+- debugging [Debugging SDK], hitting breakpoints
+- breakpoints, hitting
 ms.assetid: a77816e3-b15b-46a0-90cd-be7242e4d6c9
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Hit a breakpoint
 The following section describes the process when the debug engine (DE) hits a breakpoint while running or stepping:

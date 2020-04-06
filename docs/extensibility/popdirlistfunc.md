@@ -1,17 +1,17 @@
 ---
-title: "POPDIRLISTFUNC | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: POPDIRLISTFUNC | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 f1_keywords:
-  - "POPLISTFUNC"
+- POPLISTFUNC
 helpviewer_keywords:
-  - "POPDIRLISTFUNC callback function"
+- POPDIRLISTFUNC callback function
 ms.assetid: 0ee90fd2-5467-4154-ab4c-7eb02ac3a14c
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # POPDIRLISTFUNC
 This is a callback function given to the [SccPopulateDirList](../extensibility/sccpopulatedirlist-function.md) function to update a collection of directories and (optionally) file names to find out which are under source control.

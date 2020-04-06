@@ -1,17 +1,17 @@
 ---
-title: "Opening and Saving Project Items | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Opening and Saving Project Items | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "projects [Visual Studio SDK], file persistence"
-  - "files [Visual Studio], opening and saving"
-  - "editors [Visual Studio SDK], file persistence"
+- projects [Visual Studio SDK], file persistence
+- files [Visual Studio], opening and saving
+- editors [Visual Studio SDK], file persistence
 ms.assetid: f71898ad-335f-4c43-a177-4da87078afd1
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Opening and Saving Project Items
 When you add a new project type, you must manage the opening and saving of your projects files in the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] integrated development environment (IDE). The following topics discuss the different approaches to opening and saving files.

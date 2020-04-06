@@ -1,16 +1,16 @@
 ---
-title: "Groups Element | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Groups Element | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "VSCT XML schema elements, Groups"
-  - "Groups element (VSCT XML schema)"
+- VSCT XML schema elements, Groups
+- Groups element (VSCT XML schema)
 ms.assetid: 740ca4ec-79fa-4b98-8f9a-2a137f9f7f98
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Groups element
 Contains entries that define the command groups of a VSPackage.

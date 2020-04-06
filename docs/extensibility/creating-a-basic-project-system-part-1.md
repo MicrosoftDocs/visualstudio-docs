@@ -1,17 +1,17 @@
 ---
-title: "Creating a Basic Project System, Part 1 | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Creating a Basic Project System, Part 1 | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "writing a project system"
-  - "project system"
-  - "tutorial"
+- writing a project system
+- project system
+- tutorial
 ms.assetid: 882a10fa-bb1c-4b01-943a-7a3c155286dd
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Create a basic project system, part 1
 In Visual Studio, projects are the containers that developers use to organize source code files and other assets. Projects appear as children of solutions in the **Solution Explorer**. Projects let you organize, build, debug, and deploy source code and create references to Web services, databases, and other resources.

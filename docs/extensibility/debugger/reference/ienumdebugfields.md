@@ -1,17 +1,17 @@
 ---
-title: "IEnumDebugFields | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IEnumDebugFields | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IEnumDebugFields"
+- IEnumDebugFields
 helpviewer_keywords:
-  - "IEnumDebugFields interface"
+- IEnumDebugFields interface
 ms.assetid: 403c2a51-3ba5-431f-a1dd-2f3b2046c00c
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # IEnumDebugFields
 This interface represents a collection of objects implementing the [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) interface.

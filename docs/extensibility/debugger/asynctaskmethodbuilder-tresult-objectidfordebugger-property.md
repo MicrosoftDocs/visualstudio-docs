@@ -1,15 +1,15 @@
 ---
-title: "AsyncTaskMethodBuilder&lt;TResult&gt;.ObjectIdForDebugger Property | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: AsyncTaskMethodBuilder&lt;TResult&gt;.ObjectIdForDebugger Property | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "ObjectForDebugger property, AsyncTaskMethodBuilder<TResult> structure [.NET Framework debug engines]"
+- ObjectForDebugger property, AsyncTaskMethodBuilder<TResult> structure [.NET Framework debug engines]
 ms.assetid: 060b857f-daf5-43ea-bb51-abf9368e1e91
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # AsyncTaskMethodBuilder&lt;TResult&gt;.ObjectIdForDebugger property
 Gets an object that may be used to uniquely identify this builder to the debugger.

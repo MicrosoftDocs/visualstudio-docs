@@ -1,17 +1,17 @@
 ---
-title: "Evaluating Expressions | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Evaluating Expressions | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "expressions [Debugging SDK], evaluating"
-  - "debugging [Debugging SDK], expression evaluation"
-  - "expression evaluation"
+- expressions [Debugging SDK], evaluating
+- debugging [Debugging SDK], expression evaluation
+- expression evaluation
 ms.assetid: 5ccfcc80-dea5-48a1-8bae-6a26f8d3bc56
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Evaluate expressions
 Expressions are created from strings passed down from the **Autos**, **Watch**, **QuickWatch**, or **Immediate** windows. When an expression is evaluated, it generates a printable string that contains the name and type of variable or argument and its value. This string is displayed in the corresponding IDE window.

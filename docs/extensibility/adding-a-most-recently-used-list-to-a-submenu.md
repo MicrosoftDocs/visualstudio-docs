@@ -1,17 +1,17 @@
 ---
-title: "Adding a Most Recently Used List to a Submenu | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Adding a Most Recently Used List to a Submenu | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "MRU lists"
-  - "menus, creating MRU list"
-  - "most recently used"
+- MRU lists
+- menus, creating MRU list
+- most recently used
 ms.assetid: 27d4bbcf-99b1-498f-8b66-40002e3db0f8
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Add a most recently used list to a submenu
 This walkthrough builds on the demonstrations in [Add a submenu to a menu](../extensibility/adding-a-submenu-to-a-menu.md), and shows how to add a dynamic list to a submenu. The dynamic list forms the basis for creating a Most Recently Used (MRU) list.

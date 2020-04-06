@@ -1,20 +1,20 @@
 ---
-title: "IEEDataStorage::GetData | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IEEDataStorage::GetData | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IEEDataStorage::GetData"
+- IEEDataStorage::GetData
 helpviewer_keywords:
-  - "IEEDataStorage::GetData"
+- IEEDataStorage::GetData
 ms.assetid: 4d384039-73d4-40b4-ace6-a2474c546397
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IEEDataStorage::GetData
 Retrieves the specified number of bytes from the object.

@@ -1,13 +1,13 @@
 ---
-title: "Synchronously autoloaded extensions"
-ms.date: "12/11/2019"
-ms.topic: "conceptual"
+title: Synchronously autoloaded extensions
+ms.date: 12/11/2019
+ms.topic: conceptual
 ms.assetid: 822e3cf8-f723-4ff1-8467-e0fb42358a1f
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Synchronously autoloaded extensions
 

@@ -1,16 +1,16 @@
 ---
-title: "Compare Project Folder to Source Control Store | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Compare Project Folder to Source Control Store | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "source control plug-ins, comparing versions"
-  - "source control plug-ins, local project folders"
+- source control plug-ins, comparing versions
+- source control plug-ins, local project folders
 ms.assetid: 65217e8b-15a6-4446-92b0-4cff1c6220f5
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Optional Comparison of Local Project Folder to Source Control Store
 In Source control Plug-in API 1.2 the comparison between the local project folder and source control is accomplished by using the functions [SccDirQueryInfo](../../extensibility/sccdirqueryinfo-function.md) and [SccDirDiff](../../extensibility/sccdirdiff-function.md).

@@ -1,16 +1,16 @@
 ---
-title: "Authoring a Windows Installer Package | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Authoring a Windows Installer Package | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - ".msi files, VSPackages"
-  - "msi files, VSPackages"
+- .msi files, VSPackages
+- msi files, VSPackages
 ms.assetid: 0ce7c21d-0d3f-47fe-a0bb-eed506e32609
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Author a Windows Installer package
 Data drives the Windows Installer model. Rather than writing a procedural script to copy files and write registry entries, for example, you author rows and columns in database tables that contain file and registry data.

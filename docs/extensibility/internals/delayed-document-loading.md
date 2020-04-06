@@ -1,13 +1,13 @@
 ---
-title: "Delayed Document Loading | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Delayed Document Loading | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 ms.assetid: fb07b8e2-a4e3-4cb0-b04f-8eb11c491f35
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Delayed document loading
 

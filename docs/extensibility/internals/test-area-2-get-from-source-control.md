@@ -1,16 +1,16 @@
 ---
-title: "Test Area 2: Get From Source Control | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: 'Test Area 2: Get From Source Control | Microsoft Docs'
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "source control plug-ins, getting items from source control"
-  - "source control [Visual Studio SDK], getting items from"
+- source control plug-ins, getting items from source control
+- source control [Visual Studio SDK], getting items from
 ms.assetid: cbd345c5-ca43-4630-b7a4-85564f4e2090
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Test Area 2: Get From Source Control
 This test area covers test cases for retrieving items from the version store via the Get command. These test cases can be applied to both local and to Web projects.

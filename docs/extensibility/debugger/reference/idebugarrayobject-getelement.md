@@ -1,20 +1,20 @@
 ---
-title: "IDebugArrayObject::GetElement | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugArrayObject::GetElement | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugArrayObject::GetElement"
+- IDebugArrayObject::GetElement
 helpviewer_keywords:
-  - "IDebugArrayObject::GetElement method"
+- IDebugArrayObject::GetElement method
 ms.assetid: 08b44341-7bf1-4a8c-8b79-98ae5785b195
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugArrayObject::GetElement
 Gets an element of the array.

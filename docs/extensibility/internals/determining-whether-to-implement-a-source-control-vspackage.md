@@ -1,15 +1,15 @@
 ---
-title: "Determining Whether to Implement a Source Control VSPackage | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Determining Whether to Implement a Source Control VSPackage | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "source control packages, about source control packages"
+- source control packages, about source control packages
 ms.assetid: 60b3326e-e7e2-4729-95fc-b682e7ad5c99
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Determine whether to implement a source control VSPackage
 This section elaborates the choices of source control plug-ins and source control VSPackages for extending source control solutions and gives broad guidelines about choosing a suitable integration path.

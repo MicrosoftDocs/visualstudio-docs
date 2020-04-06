@@ -1,19 +1,19 @@
 ---
-title: "IDebugExpressionEvaluator2::Terminate | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugExpressionEvaluator2::Terminate | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
-  - "Terminate"
-  - "IDebugExpressionEvaluator2::Terminate"
+- Terminate
+- IDebugExpressionEvaluator2::Terminate
 ms.assetid: 38265100-4d80-4902-833a-07bb569f9ba8
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugExpressionEvaluator2::Terminate
 Stops and cleans up the expression evaluator.

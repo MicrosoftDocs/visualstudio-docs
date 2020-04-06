@@ -1,21 +1,21 @@
 ---
-title: "LPTEXTOUTPROC | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: LPTEXTOUTPROC | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 f1_keywords:
-  - "LPTEXTOUTPROC"
+- LPTEXTOUTPROC
 helpviewer_keywords:
-  - "SccMsgDataOnMessage structure"
-  - "SccMsgDataOnBeforeGetFile structure"
-  - "SccMsgDataIsCancelled structure"
-  - "LPTEXTOUTPROC callback function"
-  - "SccMsgDataOnAfterGetFile structure"
+- SccMsgDataOnMessage structure
+- SccMsgDataOnBeforeGetFile structure
+- SccMsgDataIsCancelled structure
+- LPTEXTOUTPROC callback function
+- SccMsgDataOnAfterGetFile structure
 ms.assetid: 2025c969-e3c7-4cf4-a5c5-099d342895ea
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # LPTEXTOUTPROC
 

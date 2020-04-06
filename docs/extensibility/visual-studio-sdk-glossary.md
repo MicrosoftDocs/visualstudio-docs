@@ -1,15 +1,15 @@
 ---
-title: "Visual Studio SDK Glossary | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Visual Studio SDK Glossary | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "glossary [Visual Studio SDK]"
+- glossary [Visual Studio SDK]
 ms.assetid: b64d432b-c39b-4904-ad18-3c3218b6e3aa
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Visual Studio SDK glossary
 This glossary provides definitions for terms that are used in the [!INCLUDE[vsipsdk](../extensibility/includes/vsipsdk_md.md)] documentation.

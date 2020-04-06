@@ -1,13 +1,13 @@
 ---
-title: "Common Control Patterns for Visual Studio | Microsoft Docs"
-ms.date: "04/26/2017"
-ms.topic: "conceptual"
+title: Common Control Patterns for Visual Studio | Microsoft Docs
+ms.date: 04/26/2017
+ms.topic: conceptual
 ms.assetid: 3e893949-6398-42f1-9eab-a8d8c2b7f02d
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Common Control Patterns for Visual Studio
 ## <a name="BKMK_CommonControls"></a> Common controls

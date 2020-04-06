@@ -1,15 +1,15 @@
 ---
-title: "IDebugPortSupplierEx2 | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugPortSupplierEx2 | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
-  - "IDebugPortSupplierEx2 interface"
+- IDebugPortSupplierEx2 interface
 ms.assetid: dae0050a-a50a-4f35-bfbd-e538f537b20f
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # IDebugPortSupplierEx2
 Provides support for a port supplier to select and interact with a core server.

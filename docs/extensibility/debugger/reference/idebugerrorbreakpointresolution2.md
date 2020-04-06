@@ -1,17 +1,17 @@
 ---
-title: "IDebugErrorBreakpointResolution2 | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugErrorBreakpointResolution2 | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugErrorBreakpointResolution2"
+- IDebugErrorBreakpointResolution2
 helpviewer_keywords:
-  - "IDebugErrorBreakpointResolution2"
+- IDebugErrorBreakpointResolution2
 ms.assetid: b1234216-0ac8-461d-b2a7-54f60f8f3262
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # IDebugErrorBreakpointResolution2
 This interface represents the resolution of a breakpoint error.

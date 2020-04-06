@@ -1,20 +1,20 @@
 ---
-title: "IDebugDocumentContext2::GetLanguageInfo | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugDocumentContext2::GetLanguageInfo | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugDocumentContext2::GetLanguageInfo"
+- IDebugDocumentContext2::GetLanguageInfo
 helpviewer_keywords:
-  - "IDebugDocumentContext2::GetLanguageInfo"
+- IDebugDocumentContext2::GetLanguageInfo
 ms.assetid: 6a212ee5-414c-4eb5-ab11-19db1786943d
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugDocumentContext2::GetLanguageInfo
 Gets the language associated with this document context.
