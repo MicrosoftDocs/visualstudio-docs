@@ -13,6 +13,8 @@ description: Learn how to get started managing your organization's Visual Studio
 
 The Visual Studio Subscriptions Administration Portal gives you the tools to manage your organization's subscriptions in one place. 
 
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4t9aW]
+
 ## Important considerations
 Keep these points in mind when you use the Visual Studio Subscriptions Administration Portal:
 - **Visual Studio subscriptions are licensed per user.** Each subscriber can use the software on as many computers as needed for development and testing.
