@@ -14,7 +14,7 @@ manager: jillfra
 ---
 # How to: Collect IntelliTrace data to help debug difficult issues
 
-You can configure the diagnostic data adapter for IntelliTrace to collect specific diagnostic trace information in Visual Stdio. Tests can use this adapter, the test can collect significant diagnostic events for the application that a developer can use later to trace through the code to find the cause of a bug. The diagnostic data adapter for IntelliTrace can be used for either manual or automated tests.
+You can configure the diagnostic data adapter for IntelliTrace to collect specific diagnostic trace information in Visual Studio. Tests can use this adapter, the test can collect significant diagnostic events for the application that a developer can use later to trace through the code to find the cause of a bug. The diagnostic data adapter for IntelliTrace can be used for either manual or automated tests.
 
 [!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
 
