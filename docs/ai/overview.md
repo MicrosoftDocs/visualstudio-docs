@@ -11,7 +11,7 @@ ms.workload:
 ---
 # Overview of Visual Studio Tools for AI
 
-Visual Studio Tools for AI is an integrated development environment to build, test, and deploy deep learning solutions. You can learn more about how to use AI Tools from the following tutorials and samples.
+Visual Studio Tools for AI is an integrated development environment (IDE) that you can use to build, test, and deploy deep learning solutions. Learn more about how to use AI Tools from the following tutorials and samples.
 
 ## Install the extension
 
