@@ -14,6 +14,9 @@ author: mikejo5000
 
 If you use Microsoft Test Manager and Lab Management for automated testing or for build-deploy-test automation, this topic explains how you can achieve the same goals using the [build and release](/azure/devops/pipelines/index?view=vsts) features in Azure Pipelines and Team Foundation Server (TFS).
 
+> [!NOTE]
+> Microsoft Test Manager is deprecated in Visual Studio 2017 and removed in Visual Studio 2019.
+
 ## Build-deploy-test automation
 
 Microsoft Test Manager and Lab Management rely on a XAML build definition to automate build, deployment, and testing of your applications. The XAML build relies on various constructs created in Microsoft Test Manager such as a lab environment, test suites, and testing settings, and on various infrastructure components such as a Build controller, Build agents, Test controller, and Test agents to achieve this goal. You can accomplish the same with fewer steps using Azure Pipelines or TFS.
