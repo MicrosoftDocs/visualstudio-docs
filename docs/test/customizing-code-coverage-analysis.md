@@ -80,7 +80,7 @@ For example, the following XML excludes a single assembly by specifying its name
 ```xml
 <ModulePaths>
   <Exclude>
-   <ModulePath>Fabrikam.Math.UnitTest.dll</ModulePath>
+   <ModulePath>.*Fabrikam.Math.UnitTest.dll</ModulePath>
    <!-- Add more ModulePath nodes here. -->
   </Exclude>
 </ModulePaths>
@@ -91,7 +91,7 @@ The following example specifies that only a single assembly should be included i
 ```xml
 <ModulePaths>
   <Include>
-   <ModulePath>Fabrikam.Math.dll</ModulePath>
+   <ModulePath>.*Fabrikam.Math.dll</ModulePath>
    <!-- Add more ModulePath nodes here. -->
   </Include>
 </ModulePaths>
