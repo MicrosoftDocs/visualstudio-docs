@@ -23,7 +23,9 @@ The XAML code editor
 
 | Icon | Location | Name | Function | Appears in... |
 | - | - | - | - | - |
-| ![Visual Live Tree - Show Runtime Tools](/media/livetree-show-runtime-tools.png) | Live Visual Tree| Show RunTime Tools in Application | (Add detailed description) | Debugger |
+| ![Visual Live Tree - Show Runtime Tools](../xaml-tools/media/livetree-show-runtime-tools.png) | Live Visual Tree| Show RunTime Tools in Application | (Add detailed description) | Debugger |
+| ![Visual Live Tree - Select Element](../xaml-tools/media/livetree-select-element.png) | Live Visual Tree| Show RunTime Tools in Application | (Add detailed description) | Debugger |
+| ![Visual Live Tree - Display Layout Adorners](../xaml-tools/media/livetree-display-layout-adorn.png) | Live Visual Tree| Show RunTime Tools in Application | (Add detailed description) | Debugger |
 
 
 ### Left side icons [see if we have docs for what the colors means]
