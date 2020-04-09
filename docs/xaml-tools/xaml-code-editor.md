@@ -1,6 +1,6 @@
 ---
 title: XAML code editor
-ms.date: 03/18/2020
+ms.date: 04/15/2020
 ms.topic: reference
 author: TerryGLee
 ms.author: tglee
@@ -17,6 +17,14 @@ The XAML code editor
 ### Buttons
 
 (example pop-up button, unique to XAML code editor)
+
+
+
+
+| Icon | Location | Name | Function | Appears in... |
+| - | - | - | - | - |
+| ![Visual Live Tree - Show Runtime Tools](/media/livetree-show-runtime-tools.png) | Live Visual Tree| Show RunTime Tools in Application | Add detailed description | Debugger |
+
 
 ### Left side icons [see if we have docs for what the colors means]
 
