@@ -68,8 +68,6 @@ Using this feature makes it easy to stay on top of your subscription assignments
 
 > [!IMPORTANT]
 >
-> The use of Azure AD groups is being enabled in phases.  You may not immediately see the feature enabled for your agreement(s).
->
 > The following limitations apply to the use of Azure AD groups for adding subscribers:
 > - Groups must contain at least one member.  Empty groups are not supported.
 > - Groups must have less than 1,000 users 
