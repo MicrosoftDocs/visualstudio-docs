@@ -23,7 +23,7 @@ The XAML code editor
 
 | Icon | Location | Name | Function | Appears in... |
 | - | - | - | - | - |
-| ![Visual Live Tree - Show Runtime Tools](/media/livetree-show-runtime-tools.png) | Live Visual Tree| Show RunTime Tools in Application | Add detailed description | Debugger |
+| ![Visual Live Tree - Show Runtime Tools](/media/livetree-show-runtime-tools.png) | Live Visual Tree| Show RunTime Tools in Application | (Add detailed description) | Debugger |
 
 
 ### Left side icons [see if we have docs for what the colors means]
