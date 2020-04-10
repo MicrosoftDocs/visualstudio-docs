@@ -1,19 +1,19 @@
 ---
-title: "IDebugPrimitiveTypeField::GetPrimitiveType | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugPrimitiveTypeField::GetPrimitiveType | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
-  - "GetPrimitiveType"
-  - "IDebugPrimitiveTypeField::GetPrimitiveType"
+- GetPrimitiveType
+- IDebugPrimitiveTypeField::GetPrimitiveType
 ms.assetid: a186c922-bbfe-478c-a744-b21eb4672d8f
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugPrimitiveTypeField::GetPrimitiveType
 Retrieves the primitive type that is associated with this field.

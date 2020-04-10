@@ -1,16 +1,16 @@
 ---
-title: "Creating a Breakpoint | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Creating a Breakpoint | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "breakpoints, creating"
-  - "debugging [Debugging SDK], creating breakpoints"
+- breakpoints, creating
+- debugging [Debugging SDK], creating breakpoints
 ms.assetid: 6f9f87bb-192e-45e0-9a7a-ffe729e87f7d
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Create a breakpoint
 The following describes the process of creating a breakpoint.

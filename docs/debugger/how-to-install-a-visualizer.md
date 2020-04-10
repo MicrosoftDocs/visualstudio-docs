@@ -29,6 +29,8 @@ After you have created a visualizer, you must install the visualizer so that it 
   
 1. Locate the DLL that contains the visualizer you built.
 
+   Typically, it is best if both the debugger-side DLL and the debuggee-side DLL specify **Any CPU** as the target platform. The debugger-side DLL must be either **Any CPU** or **32-bit**. The target platform for the debuggee-side DLL should correspond to the debugee process.
+
 2. Copy the [Debugger Side](create-custom-visualizers-of-data.md#to-create-the-debugger-side) DLL (and any DLLs it depends on) to either of the following locations:
 
     - *VisualStudioInstallPath* `\Common7\Packages\Debugger\Visualizers`

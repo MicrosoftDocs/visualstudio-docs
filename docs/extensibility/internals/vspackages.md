@@ -1,15 +1,15 @@
 ---
-title: "VSPackages | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: VSPackages | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "VSPackages"
+- VSPackages
 ms.assetid: cad0893a-9c5f-45b7-952a-e2294f83e324
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # VSPackages
 VSPackages are software modules that extend the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] integrated development environment (IDE) by providing UI elements, services, projects, editors, and designers.

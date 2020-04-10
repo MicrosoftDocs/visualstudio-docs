@@ -1,15 +1,15 @@
 ---
-title: "How to: Get a Service | Microsoft Docs"
-ms.date: "3/16/2019"
-ms.topic: "conceptual"
+title: 'How to: Get a Service | Microsoft Docs'
+ms.date: 3/16/2019
+ms.topic: conceptual
 helpviewer_keywords:
-  - "services, consuming"
+- services, consuming
 ms.assetid: 1f000020-8fb7-4e39-8e1e-2e38c7fec3d4
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # How to: Get a service
 

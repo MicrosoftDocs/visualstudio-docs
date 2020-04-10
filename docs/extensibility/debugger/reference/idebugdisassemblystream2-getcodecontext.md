@@ -1,20 +1,20 @@
 ---
-title: "IDebugDisassemblyStream2::GetCodeContext | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugDisassemblyStream2::GetCodeContext | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugDisassemblyStream2::GetCodeContext"
+- IDebugDisassemblyStream2::GetCodeContext
 helpviewer_keywords:
-  - "IDebugDisassemblyStream2::GetCodeContext"
+- IDebugDisassemblyStream2::GetCodeContext
 ms.assetid: a6d0ae82-7617-4915-9713-369abe3e2e53
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugDisassemblyStream2::GetCodeContext
 Returns a code context object corresponding to a specified code location identifier.

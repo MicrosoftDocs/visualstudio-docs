@@ -1,17 +1,17 @@
 ---
-title: "SccCheckout Function | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: SccCheckout Function | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 f1_keywords:
-  - "SccCheckout"
+- SccCheckout
 helpviewer_keywords:
-  - "SccCheckout function"
+- SccCheckout function
 ms.assetid: 06e9ecd7-fc09-40c1-9dd1-2b56c622c80b
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # SccCheckout function
 Given a list of fully qualified file names, this function checks them out to the local drive. The comment applies to all files being checked out. The comment argument can be a `null` string.

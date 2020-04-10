@@ -1,15 +1,15 @@
 ---
-title: "Walkthrough: Displaying Matching Braces | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: 'Walkthrough: Displaying Matching Braces | Microsoft Docs'
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "editors [Visual Studio SDK], new - brace matching"
+- editors [Visual Studio SDK], new - brace matching
 ms.assetid: 5af08ac7-1d08-4ccf-997e-01aa6cb3d3d7
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Walkthrough: Display matching braces
 Implement language-based features, such as, brace matching by defining the braces you want to match, and adding a text marker tag to the matching braces when the caret is on one of the braces. You can define braces in the context of a language, define your own file name extension and content type, and apply the tags to just that type or apply the tags to an existing content type (such as "text"). The following walkthrough shows how to apply brace matching tags to the "text" content type.

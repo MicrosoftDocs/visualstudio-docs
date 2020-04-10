@@ -1,15 +1,15 @@
 ---
-title: "Implementing a Legacy Language Service1 | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Implementing a Legacy Language Service1 | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "language services, managed"
+- language services, managed
 ms.assetid: df638f24-166d-4b80-be82-c9c39ca7a556
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Implementing a Legacy Language Service
 You can use classes in the managed package framework (MPF) to implement a legacy language service that supports a wide variety of features, such as syntax highlighting, brace matching, and IntelliSense completion.

@@ -1,17 +1,17 @@
 ---
-title: "IDebugEngineLaunch2 | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugEngineLaunch2 | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugEngineLaunch2"
+- IDebugEngineLaunch2
 helpviewer_keywords:
-  - "IDebugEngineLaunch2 interface"
+- IDebugEngineLaunch2 interface
 ms.assetid: 5eaf2ad8-3fbf-446e-b48b-5327ad3f5255
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # IDebugEngineLaunch2
 Used by a debug engine (DE) to launch and terminate programs.

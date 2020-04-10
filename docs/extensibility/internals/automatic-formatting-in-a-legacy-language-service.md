@@ -1,15 +1,15 @@
 ---
-title: "Automatic Formatting in a Legacy Language Service | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Automatic Formatting in a Legacy Language Service | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "language services, automatic formatting"
+- language services, automatic formatting
 ms.assetid: c210fc94-77bd-4694-b312-045087d8a549
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Automatic formatting in a legacy language service
 With automatic formatting, a language service automatically inserts a snippet of code when a user begins to type a known code construct.

@@ -1,15 +1,15 @@
 ---
 title: Solutions overview
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "solutions, about solutions"
+- solutions, about solutions
 ms.assetid: 3b21e3a1-170a-4485-941e-6b04b7b27886
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Solutions overview
 

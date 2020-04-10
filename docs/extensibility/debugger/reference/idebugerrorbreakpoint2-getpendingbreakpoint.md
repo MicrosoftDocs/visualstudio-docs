@@ -1,20 +1,20 @@
 ---
-title: "IDebugErrorBreakpoint2::GetPendingBreakpoint | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugErrorBreakpoint2::GetPendingBreakpoint | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugErrorBreakpoint2::GetPendingBreakpoint"
+- IDebugErrorBreakpoint2::GetPendingBreakpoint
 helpviewer_keywords:
-  - "IDebugErrorBreakpoint2::GetPendingBreakpoint"
+- IDebugErrorBreakpoint2::GetPendingBreakpoint
 ms.assetid: 59d0defc-99fd-445c-bdac-8224d5dea3f9
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugErrorBreakpoint2::GetPendingBreakpoint
 Gets the pending breakpoint that caused the error.

@@ -1,15 +1,15 @@
 ---
-title: "Single and Multi-tab Views | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Single and Multi-tab Views | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "editors [Visual Studio SDK], custom - single and multi-tab views"
+- editors [Visual Studio SDK], custom - single and multi-tab views
 ms.assetid: e3611704-349f-4323-b03c-f2b0a445d781
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Single and Multi-tab Views
 An editor can create different types of views. One example is a code editor window, another is a forms designer.

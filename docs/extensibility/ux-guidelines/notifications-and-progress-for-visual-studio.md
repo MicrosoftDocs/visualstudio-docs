@@ -1,13 +1,13 @@
 ---
-title: "Notifications and Progress for Visual Studio | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Notifications and Progress for Visual Studio | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 ms.assetid: f0ef65e9-0f1f-45f4-9f25-6e2398691168
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Notifications and Progress for Visual Studio
 ## <a name="BKMK_NotificationSystems"></a> Notification systems

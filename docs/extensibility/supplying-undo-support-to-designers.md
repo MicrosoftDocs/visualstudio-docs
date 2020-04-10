@@ -1,15 +1,15 @@
 ---
-title: "Supplying Undo Support to Designers | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Supplying Undo Support to Designers | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "designers [Visual Studio SDK], undo support"
+- designers [Visual Studio SDK], undo support
 ms.assetid: 43eb1f14-b129-404a-8806-5bf9b099b67b
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Supply undo support to designers
 

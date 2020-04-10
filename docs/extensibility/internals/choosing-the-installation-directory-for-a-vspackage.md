@@ -1,15 +1,15 @@
 ---
-title: "Choosing the Installation Directory for a VSPackage | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Choosing the Installation Directory for a VSPackage | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "VSPackages, installation directory"
+- VSPackages, installation directory
 ms.assetid: 01fbbb5b-f747-446c-afe0-2a081626a945
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Choose the installation directory for a VSPackage
 A VSPackage and its supporting files must be on a user's file system. The location depends on whether the VSPackage is managed or unmanaged, your side-by-side versioning scheme, and user choice.

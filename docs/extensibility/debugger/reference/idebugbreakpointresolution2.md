@@ -1,17 +1,17 @@
 ---
-title: "IDebugBreakpointResolution2 | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugBreakpointResolution2 | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugBreakpointResolution2"
+- IDebugBreakpointResolution2
 helpviewer_keywords:
-  - "IDebugBreakpointRequest2 interface"
+- IDebugBreakpointRequest2 interface
 ms.assetid: 451d5bce-b9c1-48ff-beaa-2b4c3e1ceea0
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # IDebugBreakpointResolution2
 This interface represents the information that describes a bound breakpoint.

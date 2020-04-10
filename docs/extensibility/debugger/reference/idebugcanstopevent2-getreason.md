@@ -1,20 +1,20 @@
 ---
-title: "IDebugCanStopEvent2::GetReason | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugCanStopEvent2::GetReason | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugCanStopEvent2::GetReason"
+- IDebugCanStopEvent2::GetReason
 helpviewer_keywords:
-  - "IDebugCanStopEvent2::GetReason"
+- IDebugCanStopEvent2::GetReason
 ms.assetid: f5de31ca-7b8d-4029-9cf9-ba860ac66af6
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugCanStopEvent2::GetReason
 Gets the reason why the debug engine (DE) wants to stop.

@@ -1,19 +1,19 @@
 ---
-title: "Registering Project and Item Templates | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Registering Project and Item Templates | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "projects [Visual Studio SDK], adding items"
-  - "registry, Add New Item dialog box"
-  - "Add New Item dialog box"
-  - "Add New Project dialog box"
-  - "registry, Add New Project dialog box"
+- projects [Visual Studio SDK], adding items
+- registry, Add New Item dialog box
+- Add New Item dialog box
+- Add New Project dialog box
+- registry, Add New Project dialog box
 ms.assetid: 6b909f93-d7f5-4aec-81c6-ee9ff0f31638
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Registering Project and Item Templates
 Project types must register the directories where their project and project-item templates are located. [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] uses the registration information associated with your project types to determine what to show in the **Add New Project** and **Add New Item** dialog boxes.

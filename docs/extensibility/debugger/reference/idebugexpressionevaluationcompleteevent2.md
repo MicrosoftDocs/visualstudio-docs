@@ -1,17 +1,17 @@
 ---
-title: "IDebugExpressionEvaluationCompleteEvent2 | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugExpressionEvaluationCompleteEvent2 | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugExpressionEvaluationCompleteEvent2"
+- IDebugExpressionEvaluationCompleteEvent2
 helpviewer_keywords:
-  - "IDebugExpressionEvaluationCompleteEvent2"
+- IDebugExpressionEvaluationCompleteEvent2
 ms.assetid: d538fc19-55bf-4231-9595-eb01e84fd1d8
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # IDebugExpressionEvaluationCompleteEvent2
 This interface is sent by the debug engine (DE) to the session debug manager (SDM) when asynchronous expression evaluation is complete.

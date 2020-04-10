@@ -1,16 +1,16 @@
 ---
-title: "Menu Element | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Menu Element | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "VSCT XML schema elements, Menus"
-  - "Menus element (VSCT XML schema)"
+- VSCT XML schema elements, Menus
+- Menus element (VSCT XML schema)
 ms.assetid: ce0560f3-b4c9-4ab2-a99c-d4e10f37b9e0
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Menu element
 Defines one menu item. These are the six kinds of menus: Context, Menu, MenuController, MenuControllerLatched, Toolbar, and ToolWindowToolbar.

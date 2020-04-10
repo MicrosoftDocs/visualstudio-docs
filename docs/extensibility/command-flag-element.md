@@ -1,16 +1,16 @@
 ---
-title: "Command Flag Element | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Command Flag Element | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "CommandFlag element (VSCT XML schema)"
-  - "VSCT XML schema elements, CommandFlag"
+- CommandFlag element (VSCT XML schema)
+- VSCT XML schema elements, CommandFlag
 ms.assetid: 5ef63399-d2db-4dc1-97ce-be1bd4ef4e39
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Command flag Eelement
 Modifies its parent element.

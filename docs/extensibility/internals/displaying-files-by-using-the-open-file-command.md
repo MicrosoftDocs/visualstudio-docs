@@ -1,17 +1,17 @@
 ---
-title: "Displaying Files By Using the Open File Command | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Displaying Files By Using the Open File Command | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "project types, supporting Open File command"
-  - "Open File command"
-  - "persistence, supporting Open File command"
+- project types, supporting Open File command
+- Open File command
+- persistence, supporting Open File command
 ms.assetid: 4fff0576-b2f3-4f17-9769-930f926f273c
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Display files by using the Open File command
 The following steps describe how the IDE handles the **Open File** command, which is available on the **File** menu in [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]. The steps also describe how projects should respond to calls that originate from this command.

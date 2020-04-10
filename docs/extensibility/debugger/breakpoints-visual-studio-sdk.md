@@ -1,15 +1,15 @@
 ---
-title: "Breakpoints (Visual Studio SDK) | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Breakpoints (Visual Studio SDK) | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "breakpoints"
+- breakpoints
 ms.assetid: acfcabed-9f2f-436c-ad18-7ca2f45d631b
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Breakpoints (Visual Studio SDK)
 There are three types of breakpoints: pending, bound, and error.

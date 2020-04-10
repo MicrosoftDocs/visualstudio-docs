@@ -1,15 +1,15 @@
 ---
-title: "Supported Event Types | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Supported Event Types | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "debugging [Debugging SDK], supported events"
+- debugging [Debugging SDK], supported events
 ms.assetid: a3c0386d-551e-4734-9a0c-368d1c2e6671
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Supported event types
 Visual Studio debugging currently supports the following event types:

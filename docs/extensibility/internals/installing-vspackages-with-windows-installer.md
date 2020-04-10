@@ -1,16 +1,16 @@
 ---
-title: "Installing VSPackages With Windows Installer | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Installing VSPackages With Windows Installer | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "installation [Visual Studio SDK], with Windows Installer"
-  - "VSPackages, deploying"
+- installation [Visual Studio SDK], with Windows Installer
+- VSPackages, deploying
 ms.assetid: 41d2c72c-0a97-4fcd-b3aa-33a8d3aa962a
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Installing VSPackages With Windows Installer
 Integrating your VSPackage into [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] requires more than just copying files to a user's computer. Your VSPackage's installer must install the VSPackage and its dependent files, and register and integrate them into [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]. Your VSPackage can take advantage of integration features such as displaying an icon on the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] splash screen and About dialog box.

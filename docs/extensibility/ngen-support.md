@@ -1,13 +1,13 @@
 ---
-title: "Ngen support in VSIX v3 | Microsoft Docs"
-ms.date: "11/09/2016"
-ms.topic: "conceptual"
+title: Ngen support in VSIX v3 | Microsoft Docs
+ms.date: 11/09/2016
+ms.topic: conceptual
 ms.assetid: 1472e884-c74e-4c23-9d4a-6d8bdcac043b
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Ngen support in VSIX v3
 

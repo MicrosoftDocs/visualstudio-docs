@@ -1,20 +1,20 @@
 ---
-title: "IEnumDebugPorts2::Next | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IEnumDebugPorts2::Next | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IEnumDebugPorts2::Next"
+- IEnumDebugPorts2::Next
 helpviewer_keywords:
-  - "IEnumDebugPorts2::Next"
+- IEnumDebugPorts2::Next
 ms.assetid: 3f43d18c-6bd1-4ddd-95ef-9550abd2ad09
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IEnumDebugPorts2::Next
 Returns the next set of elements from the enumeration.

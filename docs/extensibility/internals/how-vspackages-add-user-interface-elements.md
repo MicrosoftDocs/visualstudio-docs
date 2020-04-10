@@ -1,17 +1,17 @@
 ---
-title: "How VSPackages Add User Interface Elements | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: How VSPackages Add User Interface Elements | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "user interfaces, adding elements"
-  - "UI element design [Visual Studio SDK], VSPackages"
-  - "VSPackages, contributing UI elements"
+- user interfaces, adding elements
+- UI element design [Visual Studio SDK], VSPackages
+- VSPackages, contributing UI elements
 ms.assetid: abc5d9d9-b267-48a1-92ad-75fbf2f4c1b9
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # How VSPackages add user interface elements
 A VSPackage can add user interface (UI) elements, for example, menus, toolbars, and tool windows, to Visual Studio by means of the *.vsct* file.

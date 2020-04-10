@@ -1,19 +1,19 @@
 ---
-title: "SDK Helpers for Debugging | Microsoft Docs"
-ms.date: "11/04/2016"
+title: SDK Helpers for Debugging | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
-  - "dbgmetric.lib"
-  - "registry, Debugging SDK"
-  - "Debugging SDK, registry locations"
-  - "dbgmetric.h"
-  - "metrics [Debugging SDK]"
+- dbgmetric.lib
+- registry, Debugging SDK
+- Debugging SDK, registry locations
+- dbgmetric.h
+- metrics [Debugging SDK]
 ms.assetid: 80a52e93-4a04-4ab2-8adc-a7847c2dc20b
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # SDK Helpers for Debugging
 These functions and declarations are global helper functions for implementing debug engines, expression evaluators, and symbol providers in C++.

@@ -1,16 +1,16 @@
 ---
-title: "VSCT XML Schema Conditional Attributes | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: VSCT XML Schema Conditional Attributes | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "VSCT XML schema elements, conditional attributes"
-  - "conditional attributes (VSCT XML schema)"
+- VSCT XML schema elements, conditional attributes
+- conditional attributes (VSCT XML schema)
 ms.assetid: 754d4f32-319b-44c9-915f-f7c60e53222e
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # VSCT XML schema conditional attributes
 You can apply conditional attributes to all lists and items. Logical operators and symbol expansion expressions evaluate to true or false. If true, the associated list or item is included in the resulting output.
