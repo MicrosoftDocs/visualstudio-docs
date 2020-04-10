@@ -66,6 +66,9 @@ If you no longer need a Visual Studio subscription or credit but you want to con
 
 If you don’t take one of these actions, your Azure subscription will be disabled and deleted 30 days after receiving the email notification.  
 
+### Have a question?
+If you have questions about transferring resources, removing spending limits, or other Azure topics, you can [submit an Azure support request](https://portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade/overview) in the Azure portal. 
+
 ## Eligibility
 |                 Subscription Level / Program                 |           Benefit           |                         Renewable?                          |
 |--------------------------------------------------------------|-----------------------------|-------------------------------------------------------------|
