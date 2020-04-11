@@ -46,7 +46,7 @@ When your Visual Studio subscription has ended, all the subscription benefits, i
 There are several ways to continue using a monthly credit for Azure.  To save your Azure resources, you will need to [transfer your resources](https://docs.microsoft.com/azure/azure-resource-manager/management/move-resource-group-and-subscription) to another Azure subscription, regardless of the action you choose below. 
 
 - **If you purchase your Visual Studio subscription directly**, purchase a new subscription or renew your subscription through [Microsoft Store](https://www.microsoft.com/store/collections/visualstudiosubscription/#:~:text=).  
-- **If someone in your organization purchases subscriptions for your organization**, [contact your Visual Studio subscription administrator](https://docs.microsoft.com/en-us/visualstudio/subscriptions/contact-my-admin) and request a subscription that provides the monthly credit that you need.  
+- **If someone in your organization purchases subscriptions for your organization**, [contact your Visual Studio subscription administrator](https://docs.microsoft.com/visualstudio/subscriptions/contact-my-admin) and request a subscription that provides the monthly credit that you need.  
 - **If you have another active Visual Studio subscription** at the same subscription level that’s associated with another Microsoft account, you may transfer the Azure benefit to another active Visual Studio subscription by [adding an alternate account](https://docs.microsoft.com/visualstudio/subscriptions/manage-vs-subscriptions#managing-my-profile) in the Visual Studio [subscriptions portal](https://my.visualstudio.com/subscriptions).  
 
 You can determine your subscription level needed by the level of Azure credit you are trying to replace.  
