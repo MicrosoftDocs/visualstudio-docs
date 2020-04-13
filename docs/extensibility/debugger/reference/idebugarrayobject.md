@@ -1,17 +1,17 @@
 ---
-title: "IDebugArrayObject | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugArrayObject | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugArrayObject"
+- IDebugArrayObject
 helpviewer_keywords:
-  - "IDebugArrayObject method"
+- IDebugArrayObject method
 ms.assetid: a1c8e77e-dee1-4748-a516-6ab032a8f54f
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # IDebugArrayObject
 > [!IMPORTANT]

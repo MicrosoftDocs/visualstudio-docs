@@ -1,23 +1,23 @@
 ---
-title: "Devenv Command-Line Switches for VSPackage Development | Microsoft Docs"
-ms.date: "12/10/2018"
-ms.topic: "conceptual"
+title: Devenv Command-Line Switches for VSPackage Development | Microsoft Docs
+ms.date: 12/10/2018
+ms.topic: conceptual
 helpviewer_keywords:
-  - "/Setup command line switch"
-  - "/ResetSkipPkgs command line switch"
-  - "/RootSuffix command line switch"
-  - "/SafeMode command line switch"
-  - "/Splash command line switch"
-  - "command-line switches"
-  - "registry, Visual Studio SDK"
-  - "command line, switches"
-  - "Visual Studio SDK, command-line switches"
+- /Setup command line switch
+- /ResetSkipPkgs command line switch
+- /RootSuffix command line switch
+- /SafeMode command line switch
+- /Splash command line switch
+- command-line switches
+- registry, Visual Studio SDK
+- command line, switches
+- Visual Studio SDK, command-line switches
 ms.assetid: d65d2c04-dd84-42b0-b956-555b11f5a645
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Devenv command-line switches for VSPackage development
 

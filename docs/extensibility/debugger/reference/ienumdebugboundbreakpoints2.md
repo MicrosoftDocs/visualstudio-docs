@@ -1,17 +1,17 @@
 ---
-title: "IEnumDebugBoundBreakpoints2 | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IEnumDebugBoundBreakpoints2 | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IEnumDebugBoundBreakpoints2"
+- IEnumDebugBoundBreakpoints2
 helpviewer_keywords:
-  - "IEnumDebugBoundBreakpoints2"
+- IEnumDebugBoundBreakpoints2
 ms.assetid: ea03e7e1-28d6-40b7-8097-bbb61d3b7caa
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # IEnumDebugBoundBreakpoints2
 This interface enumerates the bound breakpoints associated with a pending breakpoint or breakpoint bound event.

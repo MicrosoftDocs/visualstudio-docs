@@ -1,17 +1,17 @@
 ---
 title: Solution (.Sln) file
 ms.date: 03/15/2019
-ms.topic: "conceptual"
+ms.topic: conceptual
 helpviewer_keywords:
-  - "sln files, VSPackages"
-  - "solutions, .sln files"
-  - ".sln files, VSPackages"
+- sln files, VSPackages
+- solutions, .sln files
+- .sln files, VSPackages
 ms.assetid: 7d7ef539-2e4b-4637-b853-8ec7626609df
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Solution (.sln) file
 

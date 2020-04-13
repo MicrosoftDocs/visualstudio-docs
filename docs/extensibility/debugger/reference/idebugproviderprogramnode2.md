@@ -1,17 +1,17 @@
 ---
-title: "IDebugProviderProgramNode2 | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugProviderProgramNode2 | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugProviderProgramNode2"
+- IDebugProviderProgramNode2
 helpviewer_keywords:
-  - "IDebugProviderProgramNode2"
+- IDebugProviderProgramNode2
 ms.assetid: f0bca1cc-afbe-44cf-b5aa-d078aa685d24
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # IDebugProviderProgramNode2
 This interface marshals program-related interfaces across process boundaries.

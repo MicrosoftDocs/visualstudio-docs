@@ -1,15 +1,15 @@
 ---
-title: "Language Service and Editor Extension Points | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Language Service and Editor Extension Points | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "editors [Visual Studio SDK], new - extension points"
+- editors [Visual Studio SDK], new - extension points
 ms.assetid: 91a6417e-a6fe-4bc2-9d9f-5173c634a99b
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Language service and editor extension points
 The editor provides extension points that you can extend as Managed Extensibility Framework (MEF) component parts, including most language service features. These are the main extension point categories:

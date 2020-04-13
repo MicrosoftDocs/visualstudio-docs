@@ -1,15 +1,15 @@
 ---
-title: "SetNotificationForWaitCompletion Method | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: SetNotificationForWaitCompletion Method | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "SetNotificationForWaitCompletion method, Task class [.NET Framework debug engines]"
+- SetNotificationForWaitCompletion method, Task class [.NET Framework debug engines]
 ms.assetid: da149c9a-20f4-4543-a29e-429c8c1d2e19
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # SetNotificationForWaitCompletion Method
 Sets or clears the TASK_STATE_WAIT_COMPLETION_NOTIFICATION state bit.

@@ -1,20 +1,20 @@
 ---
-title: "IEnumDebugFrameInfo2::Skip | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IEnumDebugFrameInfo2::Skip | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IEnumDebugFrameInfo2::Skip"
+- IEnumDebugFrameInfo2::Skip
 helpviewer_keywords:
-  - "IEnumDebugFrameInfo2::Skip"
+- IEnumDebugFrameInfo2::Skip
 ms.assetid: 68cd3948-022a-41ad-bd9f-9ab776cf6248
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IEnumDebugFrameInfo2::Skip
 Skips over the specified number of elements.

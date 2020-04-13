@@ -1,13 +1,13 @@
 ---
-title: "Roslyn Analyzers and Code-aware Library for ImmutableArrays | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Roslyn Analyzers and Code-aware Library for ImmutableArrays | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 ms.assetid: 0b0afa22-3fca-4d59-908e-352464c1d903
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Roslyn analyzers and code-aware library for ImmutableArrays
 

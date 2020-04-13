@@ -1,18 +1,18 @@
 ---
-title: "Making Commands Available | Microsoft Docs"
+title: Making Commands Available | Microsoft Docs
 ms.date: 03/22/2018
-ms.topic: "conceptual"
+ms.topic: conceptual
 helpviewer_keywords:
-  - "menus [Visual Studio SDK], commands"
-  - "best practices, menu and toolbar commands"
-  - "toolbars [Visual Studio], best practices"
-  - "menu commands, best practices"
+- menus [Visual Studio SDK], commands
+- best practices, menu and toolbar commands
+- toolbars [Visual Studio], best practices
+- menu commands, best practices
 ms.assetid: 3ffc4312-c6db-4759-a946-a4bb85f4a17a
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Making commands available
 

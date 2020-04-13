@@ -1,20 +1,20 @@
 ---
-title: "IEnumDebugObjects::Clone | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IEnumDebugObjects::Clone | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IEnumDebugObjects::Clone"
+- IEnumDebugObjects::Clone
 helpviewer_keywords:
-  - "IEnumDebugObjects::Clone method"
+- IEnumDebugObjects::Clone method
 ms.assetid: cb7df109-d29a-4218-b900-6809091459dd
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IEnumDebugObjects::Clone
 This method returns a copy of the current enumeration as a separate object.

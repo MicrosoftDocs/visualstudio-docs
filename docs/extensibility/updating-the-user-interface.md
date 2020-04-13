@@ -1,16 +1,16 @@
 ---
-title: "Updating the User Interface | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Updating the User Interface | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "user interfaces, updating"
-  - "commands, updating UI"
+- user interfaces, updating
+- commands, updating UI
 ms.assetid: 376e2f56-e7bf-4e62-89f5-3dada84a404b
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Updating the User Interface
 After you implement a command, you can add code to update the user interface with the state of your new commands.

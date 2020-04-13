@@ -1,20 +1,20 @@
 ---
-title: "IDebugBreakpointEvent2::EnumBreakpoints | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugBreakpointEvent2::EnumBreakpoints | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugBreakpointEvent2:::EnumBreakpoints"
+- IDebugBreakpointEvent2:::EnumBreakpoints
 helpviewer_keywords:
-  - "IDebugBreakpointEvent2:::EnumBreakpoints"
+- IDebugBreakpointEvent2:::EnumBreakpoints
 ms.assetid: 606a9625-ee43-4e84-9a47-af9a50d2d005
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugBreakpointEvent2::EnumBreakpoints
 Creates an enumerator for all the breakpoints that fired at the current code location.

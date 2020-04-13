@@ -1,17 +1,17 @@
 ---
-title: "IDebugMethodField | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugMethodField | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugMethodField"
+- IDebugMethodField
 helpviewer_keywords:
-  - "IDebugMethodField interface"
+- IDebugMethodField interface
 ms.assetid: a7dc9030-fc98-4cf1-b943-37a4003300b6
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # IDebugMethodField
 This interface describes a method.

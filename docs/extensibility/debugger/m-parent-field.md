@@ -1,15 +1,15 @@
 ---
-title: "m_parent Field | Microsoft Docs"
-ms.date: "11/04/2016"
+title: m_parent Field | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
-  - "m_parent field, Task class [.NET Framework debug engines]"
+- m_parent field, Task class [.NET Framework debug engines]
 ms.assetid: da9e3dc7-8e9b-4c3a-a9e0-12921b5300c6
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # m_parent field
 

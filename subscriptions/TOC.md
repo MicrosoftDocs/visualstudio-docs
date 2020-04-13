@@ -75,7 +75,6 @@
 ### [Super admins and administrators](admin-roles.md)
 ### [Set agreement preferences](admin-prefs.md)
 ### [Overview](using-admin-portal.md)
-### [Video tutorial: Use the admin portal](https://www.youtube.com/watch?v=XG-E-IDjA-w&list=PLReL099Y5nReJhZ6o8CQFPSBgzGCHX99_&index=3&t=0s)
 ### Assign subscriptions
 #### [Add single users](assign-license.md)
 #### [Add multiple users](assign-license-bulk.md)

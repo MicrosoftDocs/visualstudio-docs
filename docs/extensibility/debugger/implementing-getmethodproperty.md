@@ -1,16 +1,16 @@
 ---
-title: "Implementing GetMethodProperty | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Implementing GetMethodProperty | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "GetMethodProperty method"
-  - "IDebugExpressionEvaluator2 property"
+- GetMethodProperty method
+- IDebugExpressionEvaluator2 property
 ms.assetid: 6305874f-a2c4-4432-834c-07530ea84bff
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Implement GetMethodProperty
 > [!IMPORTANT]

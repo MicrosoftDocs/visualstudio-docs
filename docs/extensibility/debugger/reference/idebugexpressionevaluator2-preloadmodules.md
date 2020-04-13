@@ -1,19 +1,19 @@
 ---
-title: "IDebugExpressionEvaluator2::PreloadModules | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugExpressionEvaluator2::PreloadModules | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
-  - "IDebugExpressionEvaluator2::PreloadModules"
-  - "PreloadModules"
+- IDebugExpressionEvaluator2::PreloadModules
+- PreloadModules
 ms.assetid: bcf9b968-ee14-4a92-88ad-926268a44e03
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugExpressionEvaluator2::PreloadModules
 Preloads the modules designated by the specified symbol provider.

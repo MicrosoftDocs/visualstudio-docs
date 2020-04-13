@@ -86,3 +86,5 @@ For details about how to create TextMate Grammars, see [TextMate - Introduction 
 - [Add a Language Server Protocol extension](../extensibility/adding-an-lsp-extension.md)
 - [Walkthrough: Create a code snippet](../ide/walkthrough-creating-a-code-snippet.md)
 - [Walkthrough: Display statement completion](../extensibility/walkthrough-displaying-statement-completion.md)
+- [Example code: TextMate Grammar](https://github.com/microsoft/VSSDK-Extensibility-Samples/tree/master/TextmateGrammar)
+- [Example code: Custom language support](https://github.com/microsoft/VSSDK-Extensibility-Samples/tree/master/Ook_Language_Integration)

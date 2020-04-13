@@ -4,12 +4,15 @@ author: evanwindom
 ms.author: lank
 manager: lank
 ms.assetid: c473b01f-2dfe-4cc2-ad29-bb5e2a268123
-ms.date: 03/03/2020
+ms.date: 04/07/2020
 ms.topic: conceptual
 description: Learn how to view the maximum number of assigned subscriptions in the admin portal
 ---
 # Use the maximum usage feature to track the number of assigned subscriptions
 A new feature in the Visual Studio subscriptions administration portal helps you track how many subscriptions you've purchased and assigned, and identifies the peak number of subscriptions of each level you've assigned, both within the past year and throughout the duration of your agreement(s). 
+
+## Maximum usage overview
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4tdQK] 
 
 ## View your maximum usage
 To see the peak number of subscriptions assigned for any agreement and subscription level:

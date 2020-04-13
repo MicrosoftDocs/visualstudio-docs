@@ -1,17 +1,17 @@
 ---
-title: "SccAddFilesFromSCC Function | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: SccAddFilesFromSCC Function | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 f1_keywords:
-  - "SccAddFilesFromSCC"
+- SccAddFilesFromSCC
 helpviewer_keywords:
-  - "SccAddFilesFromSCC function"
+- SccAddFilesFromSCC function
 ms.assetid: f21a3500-ade8-4dd8-8647-10e2179be9c1
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # SccAddFilesFromSCC function
 This function adds a list of files from source control to the currently opened project.
