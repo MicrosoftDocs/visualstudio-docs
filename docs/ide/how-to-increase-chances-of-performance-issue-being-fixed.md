@@ -1,8 +1,8 @@
 ---
 title: How can you increase the chances of a performance issue being fixed
 description: Additional information and best practices for submitting performance issues in Visual Studio
-author: seaniyer
-ms.author: seiyer
+author: madskristensen
+ms.author: madsk
 ms.date: 11/19/2019 
 ms.topic: reference
 ---
@@ -139,7 +139,7 @@ reproduce the problem, and include sample source code that demonstrates the prob
 
 If an unresponsiveness manifests itself in an unpredictable fashion, on the next occurrence,
 launch a new instance of Visual Studio and report a problem from that instance.
-In the [“Record”
+In the ["Record"
 screen](/visualstudio/ide/how-to-report-a-problem-with-visual-studio?view=vs-2019#record-a-repro),
 be sure to select the Visual Studio session that is unresponsive.
 
