@@ -146,7 +146,7 @@ You can also add or delete *.natvis* files in a solution that you're debugging, 
 
 You can't update *.natvis* files that are embedded in *.pdb* files while you're debugging.
 
-If you modify the *.natvis* file outside of Visual Studio, the changes don't take effect automatically. To update the debugger windows, you can reevaluate the **.natvisreload** command in the **Watch** window. Then the changes take effect without restarting the debugging session.
+If you modify the *.natvis* file outside of Visual Studio, the changes don't take effect automatically. To update the debugger windows, you can reevaluate the **.natvisreload** command in the **Immediate** window. Then the changes take effect without restarting the debugging session.
 
 Also use the **.natvisreload** command to upgrade the *.natvis* file to a newer version. For example, the *.natvis* file may be checked into source control, and you want to pick up recent changes that somebody else made.
 
