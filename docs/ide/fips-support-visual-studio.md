@@ -10,7 +10,7 @@ ms.workload:
 ---
 # FIPS compliance mode support in Visual Studio
 
-Starting with [version 16.4](/visualstudio/releases/2019/release-notes-v16.4/), Visual Studio 2019 supports Federal Information Processing Standard (FIPS) Publication 140-2 compliance mode for Windows, Azure, and .NET apps and solutions. And, with [version 16.5](/visualstudio/releases/2019/release-notes), Visual Studio now supports FIPS 140-2 compliance mode when you develop [C++ applications that target a remote Linux system](/cpp/linux/set-up-fips-compliant-secure-remote-linux-development/).
+Starting with [version 16.4](/visualstudio/releases/2019/release-notes-v16.4/), Visual Studio 2019 supports Federal Information Processing Standard (FIPS) Publication 140-2 compliance mode for Windows, Azure, and .NET apps and solutions. And, with [version 16.5](/visualstudio/releases/2019/release-notes-v16.5/), Visual Studio now supports FIPS 140-2 compliance mode when you develop [C++ applications that target a remote Linux system](/cpp/linux/set-up-fips-compliant-secure-remote-linux-development/).
 
 > [!NOTE]
 > The tools that you use to develop apps for non-Microsoft platforms like iOS or Android might not use FIPS 140-2 approved algorithms. Third-party software included with Visual Studio or extensions that you install also might not use FIPS 140-2 approved algorithms. And, development for [SharePoint](/sharepoint/security-for-sharepoint-server/federal-information-processing-standard-security-standards/) solutions does not support FIPS 140-2 compliance mode.
