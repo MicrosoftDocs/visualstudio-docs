@@ -50,7 +50,7 @@ npm is the default package manager for the Node.js. The package manager makes it
 
 ### What is express?
 
-Express is a web application framework, used as a server framework for Node.js to build web applications. Express allows you to use choose different front-end frameworks to create a UI, such as Pug (formerly called Jade). Pug is used in this tutorial.
+Express is a web application framework, used as a server framework for Node.js to build web applications. Express allows you to choose different front-end frameworks to create a UI, such as Pug (formerly called Jade). Pug is used in this tutorial.
 
 ## Prerequisites
 
