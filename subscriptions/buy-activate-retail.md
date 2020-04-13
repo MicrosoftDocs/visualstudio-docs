@@ -20,7 +20,7 @@ Visual Studio subscriptions available through the Microsoft Store include:
 - [Visual Studio Professional](https://www.microsoft.com/p/visual-studio-professional-subscription/dg7gmgf0dst3?activetab=pivot%3aoverviewtab)
 - [Visual Studio Test Professional](https://www.microsoft.com/p/visual-studio-test-professional-subscription/dg7gmgf0dst6?activetab=pivot%3aoverviewtab)
 
-Each of these subscriptions offers the option to make an initial purchase or to renew an existing subscription.  Renewal pricing, which reflects a significant discount, is only available for exisiting subscriptions. 
+Each of these subscription offers the option to make an initial purchase or to renew an existing subscription.  Renewal pricing, which reflects a significant discount, is only available for existing subscriptions. 
 
 > [!IMPORTANT]
 > To qualify to renew subscriptions at the discounted renewal price, subscriptions should be renewed before they expire.  
@@ -40,7 +40,7 @@ After you purchase a Visual Studio subscription through the Microsoft Store, you
 8. The subscription should now be visible on the [Subscriptions](https://my.visualstudio.com/subscriptions?wt.mc_id=o~msft~docs) page and you should have access to all your subscription benefits.
 
 ## Support for Microsoft Store
-If you have any questions about purchasing throught the Microsoft Store, help is available.  Contact [Microsoft Store Support](https://support.microsoft.com/help/28808/microsoft-store-contact-support?ocid=MSCOMStoreFooter-ContactUs).
+If you have any questions about purchasing through the Microsoft Store, help is available.  Contact [Microsoft Store Support](https://support.microsoft.com/help/28808/microsoft-store-contact-support?ocid=MSCOMStoreFooter-ContactUs).
 
 ## See also
 - [Visual Studio documentation](https://docs.microsoft.com/visualstudio/)
