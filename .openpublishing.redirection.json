@@ -11634,6 +11634,11 @@
       "source_path": "docs/azure/cognitive-services-connected-services.yml",
       "redirect_url": "/visualstudio/azure",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "subscriptions/activate-store-subscriptions.md",
+      "redirect_url": "subscriptions/buy-activate-retail",
+      "redirect_document_id": true
     }
   ]
 }
