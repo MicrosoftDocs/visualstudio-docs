@@ -1335,6 +1335,8 @@
       href: ide/user-permissions-and-visual-studio.md
     - name: Windows Information Protection (WIP)
       href: ide/exempt-visual-studio-from-wip.md
+    - name: Federal Information Processing Standard (FIPS)
+      href: ide/fips-support-visual-studio.md      
   - name: Bidirectional language input
     href: ide/use-bidirectional-languages.md
   - name: Microsoft Help Viewer
