@@ -1,8 +1,8 @@
 {
   "redirections": [
     {
-      "source_path": "/visualstudio/ai/index.yml",
-      "redirect_url": "/visualstudio/ai/overview.md?view=vs-2017",
+      "source_path": "ai/index.yml",
+      "redirect_url": "/visualstudio/ai/overview?view=vs-2017",
       "redirect_document_id": false
     },    
     {
