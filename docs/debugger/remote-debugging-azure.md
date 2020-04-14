@@ -1,7 +1,7 @@
 ---
 title: "Remote Debug ASP.NET Core on IIS and Azure | Microsoft Docs"
 ms.custom: "remotedebugging"
-ms.date: "05/21/2018"
+ms.date: "04/14/2020"
 ms.topic: "conceptual"
 ms.assetid: a6c04b53-d1b9-4552-a8fd-3ed6f4902ce6
 author: "mikejo5000"
@@ -80,6 +80,8 @@ From Visual Studio, you can quickly publish and debug your app to a fully provis
     ![Publish to Azure App Service](../debugger/media/remotedbg_azure_app_service_profile.png)
 
 1. Open **Server Explorer** (**View** > **Server Explorer**), right-click on the App Service instance and choose **Attach Debugger**.
+
+   If you see a message instructing your to install Cloud Explorer, install it. Then, right-click on the App Service instance in Cloud Explorer and choose **Attach Debugger**.
 
 1. In the running ASP.NET application, click the link to the **About** page.
 
