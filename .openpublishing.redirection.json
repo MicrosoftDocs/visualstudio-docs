@@ -1,6 +1,11 @@
 {
   "redirections": [
     {
+      "source_path": "ai/index.yml",
+      "redirect_url": "/visualstudio/ai/overview?view=vs-2017",
+      "redirect_document_id": false
+    },    
+    {
       "source_path": "connected-environment/get-started-netcore-01.md",
       "redirect_url": "/azure/dev-spaces/get-started-netcore",
       "redirect_document_id": false
