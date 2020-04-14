@@ -11,7 +11,7 @@ ms.date: 3/3/2020
 
 # Managing Visual Studio subscriptions
 
-[!INCLUDE [I'm a new administrator. Where is everything I need to know?](includes/new-agreement.md)]
+[!INCLUDE [I'm a new administrator. Where is everything I need to know?](includes/new-admin.md)]
 
 [!INCLUDE [How do I manage administrators?](includes/manage-admins.md)]
 
