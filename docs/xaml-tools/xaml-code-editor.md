@@ -1,6 +1,6 @@
 ---
 title: XAML code editor
-ms.date: 04/15/2020
+ms.date: 04/20/2020
 ms.topic: reference
 author: TerryGLee
 ms.author: tglee
@@ -8,7 +8,8 @@ manager: jillfra
 ---
 # XAML code editor
 
-The XAML code editor
+The XAML code editor supports the Windows platform. It also supports the XAML Hot Reload feature, which allows you to edit your app's code and UI in real-time during debugging, debug your app on-the-fly in real-time, supports modern intelligence by way of IntelliCode, 
+
 
 ## Editor experience
 
@@ -23,9 +24,9 @@ The XAML code editor
 
 | Icon | Location | Name | Function | Appears in... |
 | - | - | - | - | - |
-| ![Visual Live Tree - Show Runtime Tools](../xaml-tools/media/livetree-show-runtime-tools.png) | Live Visual Tree| Show RunTime Tools in Application | (Add detailed description) | Debugger |
-| ![Visual Live Tree - Select Element](../xaml-tools/media/livetree-select-element.png) | Live Visual Tree| Show RunTime Tools in Application | (Add detailed description) | Debugger |
-| ![Visual Live Tree - Display Layout Adorners](../xaml-tools/media/livetree-display-layout-adorn.png) | Live Visual Tree| Show RunTime Tools in Application | (Add detailed description) | Debugger |
+| ![XAML code editor - name of feature](../xaml-tools/media/name-of-file.png) | Live Visual Tree | Tooltip description | (Add detailed description) | Code editor |
+| ![XAML code editor - name of feature](../xaml-tools/media/name-of-file.png) | Live Visual Tree | Tooltip description | (Add detailed description) | Code editor |
+| ![XAML code editor - name of feature](../xaml-tools/media/name-of-file.png) | Live Visual Tree | Tooltip description | (Add detailed description) | Code editor |
 
 
 ### Left side icons [see if we have docs for what the colors means]
