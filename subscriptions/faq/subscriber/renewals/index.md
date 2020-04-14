@@ -1,5 +1,5 @@
 ---
-title: Renewals
+title: Renewing Visual Studio Subscriptions 
 description: FAQs list for Renewals.
 ms.topic: conceptual
 ms.assetid: 3c8d8652-b971-4a5a-887f-3c6944b1decf
