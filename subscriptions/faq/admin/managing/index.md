@@ -15,7 +15,7 @@ ms.date: 3/3/2020
 
 [!INCLUDE [How do I manage administrators?](includes/manage-admins.md)]
 
-[!INCLUDE [How do I assign Visual Studio subscriptions?](includes/assigning-subscriptions.md)]
+[!INCLUDE [How do I assign Visual Studio subscriptions?](includes/assign-subscriptions.md)]
 
 [!INCLUDE [What is the difference between a Sign-in email address and a Notification email address?](includes/email-types.md)]
 
