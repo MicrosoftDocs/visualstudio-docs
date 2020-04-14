@@ -67,21 +67,25 @@ Debugging between two computers connected through a proxy is not supported. Debu
 
 From Visual Studio, you can quickly publish and debug your app to a fully provisioned instance of IIS. However, the configuration of IIS is preset and you cannot customize it. For more detailed instructions, see [Deploy an ASP.NET Core web app to Azure using Visual Studio](/aspnet/core/tutorials/publish-to-azure-webapp-using-vs). (If you need the ability to customize IIS, try debugging on an [Azure VM](#remote_debug_azure_vm).)
 
-#### To deploy the app and remote debug using Server Explorer
+#### To deploy the app and remote debug using Cloud Explorer
 
 1. In Visual Studio, right-click the project node and choose **Publish**.
 
     If you have previously configured any publishing profiles, the **Publish** pane appears. Click **New profile**.
 
-1. Choose **Azure App Service** from the **Publish** dialog box, select **Create New**, and follow the prompts to publish.
+1. Choose **Azure App Service** from the **Publish** dialog box, select **Create New**, and follow the prompts to create a profile.
 
     For detailed instructions, see [Deploy an ASP.NET Core web app to Azure using Visual Studio](/aspnet/core/tutorials/publish-to-azure-webapp-using-vs).
 
     ![Publish to Azure App Service](../debugger/media/remotedbg_azure_app_service_profile.png)
 
-1. Open **Server Explorer** (**View** > **Server Explorer**), right-click on the App Service instance and choose **Attach Debugger**.
+1. In the Publish window, choose **Edit Configuration** and switch to a Debug configuration, and then choose **Publish**.
 
-   If you see a message instructing your to install Cloud Explorer, install it. Then, right-click on the App Service instance in Cloud Explorer and choose **Attach Debugger**.
+   A Debug configuration is required to debug the app.
+
+1. Open **Cloud Explorer** (**View** > **Cloud Explorer**), right-click on the App Service instance and choose **Attach Debugger**.
+
+   If Cloud Explorer is not available, open Server Explorer instead. Then, right-click on the App Service instance in Server Explorer and choose **Attach Debugger**.
 
 1. In the running ASP.NET application, click the link to the **About** page.
 
