@@ -1,5 +1,5 @@
 ---
-title: Using the Subscriber Portal (my.visualstudio.com)
+title: Using the Visual Studio Subscriptions Subscriber Portal (my.visualstudio.com)
 description: FAQs list for Using the Subscriber Portal (my.visualstudio.com).
 ms.topic: conceptual
 ms.assetid: c4ce41f2-a5b2-475f-b1ac-cca28ee17fc2
