@@ -15,7 +15,7 @@ ms.faqid: Section5
 
 [!INCLUDE [How much does it cost?](includes/credits-cost.md)]
 
-[!INCLUDE [How do I get started?](includes/start-using-credits.md)]
+[!INCLUDE [How do I get started?](includes/get-started-with-azure-credits.md)]
 
 [!INCLUDE [Can I use my monthly Azure credits to run production applications?](includes/credits-for-production.md)]
 
@@ -23,7 +23,7 @@ ms.faqid: Section5
 
 [!INCLUDE [Are there any geographic or service restrictions impacting this benefit?](includes/benefit-restrictions.md)]
 
-[!INCLUDE [My organization has multiple Visual Studio subscribers. Can their monthly Azure credits be pooled?](includes/credit-pooling.md)]
+[!INCLUDE [My organization has multiple Visual Studio subscribers. Can their monthly Azure credits be pooled?](includes/pool-azure-credits.md)]
 
 [!INCLUDE [Are there any other limitations I should be aware of?](includes/credit-limitations.md)]
 
