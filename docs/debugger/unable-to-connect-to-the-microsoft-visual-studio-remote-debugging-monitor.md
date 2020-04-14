@@ -61,6 +61,16 @@ In the **Attach to Process** dialog box or in the project properties, make sure 
 
 If these values are correct and the message mentions **Windows Authentication** mode, check that the remote debugger is in the correct authentication mode (**Tools > Options**).
 
+## <a name="connection_terminated"></a> The connection with the remote endpoint was terminated
+
+If you are debugging an Azure App Service app, try using the [Attach Debugger](../debugger/remote-debugging-azure.md#remote_debug_azure_app_service) command from Server Explorer instead of **Attach to Process**.
+
+If you are using **Attach to Process** to debug:
+
+1. In the **Attach to Process** dialog box or in the project properties, make sure that the remote computer name and the port number matches the name and port number shown in the remote debugger window. If incorrect, fix and try again.
+
+2. If you see the same error, try restarting Visual Studio with Administrator privileges, and then try again.
+
 ## <a name="invalid_access"></a> Invalid access to memory location
 
 An internal error occurred. Restart Visual Studio and try again.
