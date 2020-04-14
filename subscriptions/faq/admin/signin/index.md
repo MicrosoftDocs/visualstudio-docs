@@ -1,5 +1,5 @@
 ---
-title: Signing In
+title: Visual Studio Subscriptions sign-in
 description: FAQs list for Signing In.
 ms.faqid: Section3
 ms.topic: conceptual
