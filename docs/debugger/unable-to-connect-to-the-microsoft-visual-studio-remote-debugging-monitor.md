@@ -1,6 +1,6 @@
 ---
 title: "Unable to Connect to the Microsoft Visual Studio Remote Debugging Monitor | Microsoft Docs"
-ms.date: "08/24/2017"
+ms.date: "04/14/2020"
 ms.topic: "reference"
 f1_keywords:
   - "vs.debug.error.remote_debug"
@@ -60,6 +60,18 @@ Try these steps:
 In the **Attach to Process** dialog box or in the project properties, make sure that the remote computer name and the port number matches the name and port number shown in the remote debugger window. If incorrect, fix and try again.
 
 If these values are correct and the message mentions **Windows Authentication** mode, check that the remote debugger is in the correct authentication mode (**Tools > Options**).
+
+## <a name="connection_terminated"></a> The connection with the remote endpoint was terminated
+
+If you are debugging an Azure App Service app, try using the [Attach Debugger](../debugger/remote-debugging-azure.md#remote_debug_azure_app_service) command from Cloud Explorer or Server Explorer instead of **Attach to Process**.
+
+If you are using **Attach to Process** to debug:
+
+1. In the **Attach to Process** dialog box or in the project properties, make sure that the remote computer name and the port number matches the name and port number shown in the remote debugger window. If incorrect, fix and try again.
+
+2. Check the application log on the server (Event Viewer on Windows) for more detailed information to help resolve the issue.
+
+3. Otherwise, try restarting Visual Studio with Administrator privileges, and then try again.
 
 ## <a name="invalid_access"></a> Invalid access to memory location
 
