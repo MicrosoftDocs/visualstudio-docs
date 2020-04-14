@@ -27,7 +27,11 @@ Learn how to build a deep learning solution from the [Train a TensorFlow model i
 
 ## Samples
 
-Browse samples in the [Samples repository](https://github.com/Microsoft/samples-for-ai) and the [Machine Learning gallery](https://gallery.cortanaintelligence.com/projects). 
+Browse samples in the [Samples repository](https://github.com/Microsoft/samples-for-ai) and the [Machine Learning gallery](https://gallery.cortanaintelligence.com/projects).
+
+## Next steps
+
+To learn even more about Visual Studio Tools for AI, including system requirements and support options, see the [About Visual Studio Tools for AI](about-ai-tools.md) page.
 
 ## See also
 [Visual Studio extensibility](/visualstudio/extensibility/?view=vs-2017)
