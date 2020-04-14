@@ -1,5 +1,5 @@
 ---
-title: Why is the portal not showing the correct number of subscriptions for my agreement?
+title: Why is the portal not showing the correct number of Visual Studio subscriptions for my agreement?
 description: If you're not seeing the correct number of subscriptions for your agreement, you may have the wrong agreement selected in the...
 ms.faqid: group1_6
 ms.topic: include
