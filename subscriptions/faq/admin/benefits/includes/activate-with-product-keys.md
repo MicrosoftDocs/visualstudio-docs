@@ -1,5 +1,5 @@
 ---
-title: How do my developers activate software using product keys?
+title: How do my developers activate software using product keys from their Visual Studio Subscription?
 description: Depending on what product your subscriber has downloaded it can either be activated by logging in using the email address tied to the...
 ms.faqid: group2_3
 ms.topic: include
