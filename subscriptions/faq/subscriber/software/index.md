@@ -1,5 +1,5 @@
 ---
-title: Downloading and Activating Software
+title: Downloading and activating software with a Visual Studio Subscription 
 description: FAQs list for Downloading and Activating Software.
 ms.topic: conceptual
 ms.assetid: f7d64255-9c98-4c97-8a7d-67d9dc7cf98f
@@ -9,7 +9,7 @@ ms.date: 4/3/2020
 ms.faqid: Section2
 ---
 
-# Downloading and Activating Software
+# Downloading and activating software
 
 [!INCLUDE [What software downloads are available?](includes/available-downloads.md)]
 
