@@ -13,4 +13,4 @@ ms.date: 3/3/2020
 
 [!INCLUDE [What is the difference between using a Microsoft Account vs Work account?](includes/ms-vs-work-accounts.md)]
 
-[!INCLUDE [What does it mean when my subscribers add alternate identities?](includes/adding-alternate-identities.md)]
+[!INCLUDE [What does it mean when my subscribers add alternate identities?](includes/add-alternate-identities.md)]
