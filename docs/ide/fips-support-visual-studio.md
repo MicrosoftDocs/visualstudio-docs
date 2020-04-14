@@ -29,4 +29,4 @@ To learn more about the FIPS 140-2 approved mode of operation for Visual Studio 
 
 ## See also
 
-[FIPS Publications](https://go.microsoft.com/fwlink/p/?LinkId=209157) (from NIST)
+[Secure applications](securing-applications.md)
