@@ -1,5 +1,5 @@
 ---
-title: Renewal and Cancellation
+title: Visual Studio Subscriptions renewal and cancellation
 description: FAQs list for Renewal and Cancellation.
 ms.faqid: Section4
 ms.topic: conceptual
