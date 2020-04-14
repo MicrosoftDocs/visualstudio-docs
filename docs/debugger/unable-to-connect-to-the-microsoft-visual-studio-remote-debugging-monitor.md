@@ -69,7 +69,9 @@ If you are using **Attach to Process** to debug:
 
 1. In the **Attach to Process** dialog box or in the project properties, make sure that the remote computer name and the port number matches the name and port number shown in the remote debugger window. If incorrect, fix and try again.
 
-2. If you see the same error, try restarting Visual Studio with Administrator privileges, and then try again.
+2. Check the application log on the server (Event Viewer on Windows) for more detailed information to help resolve the issue.
+
+3. Otherwise, try restarting Visual Studio with Administrator privileges, and then try again.
 
 ## <a name="invalid_access"></a> Invalid access to memory location
 
