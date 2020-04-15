@@ -166,7 +166,7 @@ Before we dig in to the details, here's a list of our most frequently requested 
 
 2. Enter the following parameters:
 
-     *DVDRoot* \\<*Installation File*\> \<`/quiet&#124;/passive`> [/`norestart`]/`Repair`
+     *DVDRoot* \\<*Installation File*\> \<`/quiet|/passive`> [/`norestart`]/`Repair`
 
 ## <a name="troubleshooting"></a> Troubleshoot an installation
  Use these resources to get help for setup and installation issues:
