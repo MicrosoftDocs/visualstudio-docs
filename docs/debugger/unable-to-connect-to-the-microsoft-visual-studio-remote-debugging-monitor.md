@@ -28,6 +28,7 @@ The `Unable to Connect to the Microsoft Visual Studio Remote Debugging Monitor` 
 
 - [The debugger cannot connect to the remote computer. The debugger was unable to resolve the specified computer name](#cannot_connect)
 - [Connection request was rejected by the remote debugger](#rejected)
+- [Connection with the remote endpoint was terminated](#connection_terminated)
 - [Invalid access to memory location](#invalid_access)
 - [There is no server by the specified name running on the remote computer](#no_server)
 - [The requested name was valid, but no data of the requested type was found](#valid_name)
@@ -61,7 +62,7 @@ In the **Attach to Process** dialog box or in the project properties, make sure 
 
 If these values are correct and the message mentions **Windows Authentication** mode, check that the remote debugger is in the correct authentication mode (**Tools > Options**).
 
-## <a name="connection_terminated"></a> The connection with the remote endpoint was terminated
+## <a name="connection_terminated"></a> Connection with the remote endpoint was terminated
 
 If you are debugging an Azure App Service app, try using the [Attach Debugger](../debugger/remote-debugging-azure.md#remote_debug_azure_app_service) command from Cloud Explorer or Server Explorer instead of **Attach to Process**.
 
