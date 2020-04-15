@@ -68,11 +68,13 @@ If you are debugging an Azure App Service app, try using the [Attach Debugger](.
 
 If you are using **Attach to Process** to debug:
 
-1. In the **Attach to Process** dialog box or in the project properties, make sure that the remote computer name and the port number matches the name and port number shown in the remote debugger window. If incorrect, fix and try again.
+- In the **Attach to Process** dialog box or in the project properties, make sure that the remote computer name and the port number matches the name and port number shown in the remote debugger window. If incorrect, fix and try again.
 
-2. Check the application log on the server (Event Viewer on Windows) for more detailed information to help resolve the issue.
+- If you are trying to connect using a host name, try an IP address instead.
 
-3. Otherwise, try restarting Visual Studio with Administrator privileges, and then try again.
+- Check the application log on the server (Event Viewer on Windows) for more detailed information to help resolve the issue.
+
+- Otherwise, try restarting Visual Studio with Administrator privileges, and then try again.
 
 ## <a name="invalid_access"></a> Invalid access to memory location
 
