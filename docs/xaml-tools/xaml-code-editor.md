@@ -1,7 +1,7 @@
 ---
 title: XAML code editor
 ms.date: 04/20/2020
-ms.topic: reference
+ms.topic: conceptual
 author: TerryGLee
 ms.author: tglee
 manager: jillfra
@@ -9,7 +9,6 @@ manager: jillfra
 # XAML code editor
 
 The XAML code editor supports the Windows platform. It also supports the XAML Hot Reload feature, which allows you to edit your app's code and UI in real-time during debugging, debug your app on-the-fly in real-time, supports modern intelligence by way of IntelliCode, 
-
 
 ## Editor experience
 
@@ -24,9 +23,9 @@ The XAML code editor supports the Windows platform. It also supports the XAML Ho
 
 | Icon | Location | Name | Function | Appears in... |
 | - | - | - | - | - |
-| ![XAML code editor - name of feature](../xaml-tools/media/name-of-file.png) | Live Visual Tree | Tooltip description | (Add detailed description) | Code editor |
-| ![XAML code editor - name of feature](../xaml-tools/media/name-of-file.png) | Live Visual Tree | Tooltip description | (Add detailed description) | Code editor |
-| ![XAML code editor - name of feature](../xaml-tools/media/name-of-file.png) | Live Visual Tree | Tooltip description | (Add detailed description) | Code editor |
+| ![XAML code editor - name of feature](../xaml-tools/media/name-of-file.png) | Code editor | Tooltip description | (Add detailed description) | Code editor |
+| ![XAML code editor - name of feature](../xaml-tools/media/name-of-file.png) | Code editor | Tooltip description | (Add detailed description) | Code editor |
+| ![XAML code editor - name of feature](../xaml-tools/media/name-of-file.png) | Code editor | Tooltip description | (Add detailed description) | Code editor |
 
 
 ### Left side icons [see if we have docs for what the colors means]
@@ -83,6 +82,10 @@ General
 Spacing
 Misc.
 Capitalize event handlers there to support proper casing, off by default since its new
+
+## Next steps
+
+To get started coding, see the []() page.
 
 ## See also
 
