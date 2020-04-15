@@ -36,7 +36,7 @@ To leverage this new functionality, you'll need:
         [Creating an AKS cluster](/azure/aks/kubernetes-walkthrough-portal#create-an-aks-cluster). Be sure to [connect to the cluster](/azure/aks/kubernetes-walkthrough#connect-to-the-cluster) from your development workstation.
 
     1. Helm CLI installed on your development workstation. For more information
-        see [Installing Helm](https://github.com/kubernetes/helm/blob/master/docs/install.md).
+        see [Installing Helm](https://github.com/helm/helm-www/blob/master/content/en/docs/helm/helm_install.md).
 
     1. Helm configured against your AKS cluster by using the `helm init` command. For more information on how to do this, see [How to configure Helm](/azure/aks/kubernetes-helm#configure-helm).
 ::: moniker-end

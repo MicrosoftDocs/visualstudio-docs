@@ -18,7 +18,7 @@ ms.workload:
 You can set and clear the **Word wrap** option. When this option is set, the portion of a long line that extends beyond the current width of the Code Editor window is displayed on the next line. When this option is cleared, for example, to facilitate the use of line numbering, you can scroll to the right to see the ends of long lines.
 
 > [!NOTE]
-> This topic applies to Visual Studio on Windows. For Visual Studio on Mac, see [Source editor: Word wrap](/visualstudio/mac/source-editor#word-wrap).
+> This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [Source editor: Word wrap](/visualstudio/mac/source-editor#word-wrap).
 
 ## To set word wrap preferences
 
