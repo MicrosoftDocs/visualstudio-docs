@@ -46,7 +46,6 @@ On the Benefits page, the subscription in use will be prominently displayed in t
 **Subscriptions acquired through programs:**  If you get your subscription through a program, your subscription is tied to your participation in the program. Please reach out to your program contacts for additional information.
 
 - [Imagine](https://imagine.microsoft.com/about)
-- [BizSpark](https://bizspark.microsoft.com/About/Offers)
 - [Microsoft Partner Network](https://partner.microsoft.com)
 - [Microsoft Certified Trainer](https://www.microsoft.com/learning/mct-certification.aspx)
 
@@ -100,7 +99,7 @@ A: Depending on the purchasing channel, Microsoft maintains customer data for di
 |    Volume Licensing Service Center (VLSC)              |    180          |
 |    Microsoft Products and Services Agreement (MPSA)    |    180          |
 |    Visual Studio Cloud Subscriptions                   |    180          |
-|    Program (e.g. MCT, BizSpark, MPN, Imagine)          |    180          |
+|    Program (e.g. MCT, MPN, Imagine)          |    180          |
 |    Not For Resale (e.g. MVP, MSP)                      |    180          |
 |    DevEssentials                                       |    30           |
 
