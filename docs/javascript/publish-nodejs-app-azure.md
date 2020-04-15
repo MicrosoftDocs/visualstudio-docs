@@ -173,7 +173,7 @@ and it is accessible at the URL created for the Azure App Service (by default th
 * If the node.exe process dies (that is, an unhandled exception occurs), the container restarts.
 * When the container starts up, it runs through various heuristics to figure out
 how to start the Node.js process. Details of the implementation can be seen at
-[generateStartupCommand.js](https://github.com/Azure-App-Service/node/).
+[generateStartupCommand.js](https://github.com/Azure/app-service-builtin-images/blob/master/node/8.9.4/startup/generateStartupCommand.js).
 * You can connect to the running container via SSH for investigations. This is easily done using the Azure portal. Select the App Service, and scroll down
 the list of tools until reaching **SSH** under the **Development Tools** section.
 * To aid in troubleshooting, go to the **Diagnostics logs** settings for the App Service, and change the **Docker Container logging** setting
