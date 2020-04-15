@@ -28,6 +28,7 @@ The `Unable to Connect to the Microsoft Visual Studio Remote Debugging Monitor` 
 
 - [The debugger cannot connect to the remote computer. The debugger was unable to resolve the specified computer name](#cannot_connect)
 - [Connection request was rejected by the remote debugger](#rejected)
+- [Connection with the remote endpoint was terminated](#connection_terminated)
 - [Invalid access to memory location](#invalid_access)
 - [There is no server by the specified name running on the remote computer](#no_server)
 - [The requested name was valid, but no data of the requested type was found](#valid_name)
@@ -61,17 +62,19 @@ In the **Attach to Process** dialog box or in the project properties, make sure 
 
 If these values are correct and the message mentions **Windows Authentication** mode, check that the remote debugger is in the correct authentication mode (**Tools > Options**).
 
-## <a name="connection_terminated"></a> The connection with the remote endpoint was terminated
+## <a name="connection_terminated"></a> Connection with the remote endpoint was terminated
 
 If you are debugging an Azure App Service app, try using the [Attach Debugger](../debugger/remote-debugging-azure.md#remote_debug_azure_app_service) command from Cloud Explorer or Server Explorer instead of **Attach to Process**.
 
 If you are using **Attach to Process** to debug:
 
-1. In the **Attach to Process** dialog box or in the project properties, make sure that the remote computer name and the port number matches the name and port number shown in the remote debugger window. If incorrect, fix and try again.
+- In the **Attach to Process** dialog box or in the project properties, make sure that the remote computer name and the port number matches the name and port number shown in the remote debugger window. If incorrect, fix and try again.
 
-2. Check the application log on the server (Event Viewer on Windows) for more detailed information to help resolve the issue.
+- If you are trying to connect using a host name, try an IP address instead.
 
-3. Otherwise, try restarting Visual Studio with Administrator privileges, and then try again.
+- Check the application log on the server (Event Viewer on Windows) for more detailed information to help resolve the issue.
+
+- Otherwise, try restarting Visual Studio with Administrator privileges, and then try again.
 
 ## <a name="invalid_access"></a> Invalid access to memory location
 
