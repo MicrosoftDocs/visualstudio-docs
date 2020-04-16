@@ -27,7 +27,9 @@ Following is a list of out-of-proc processes used by Visual Studio. This list is
 
 - Microsoft.Alm.Shared.Remoting.RemoteContainer.dll
 - Microsoft.CodeAnalysis.LiveUnitTesting.EntryPoint
+- MSBuild.exe
 - PerfWatson2.exe
+- ScriptedSandbox64.exe
 - ServiceHub.Host.CLR.x86.exe
 - ServiceHub.Host.Node.x86.exe
 - ServiceHub.IdentityHost.exe
@@ -35,6 +37,9 @@ Following is a list of out-of-proc processes used by Visual Studio. This list is
 - ServiceHub.RoslynCodeAnalysisService32.exe
 - ServiceHub.SettingsHost.exe
 - ServiceHub.VSDetouredHost.exe
+- VBCSCompiler.exe
+- VsHub.exe
+- vstest.discoveryengine.x86.exe
 - WaAppAgent.exe
 - WindowsAzureGuestAgent.exe
 - WindowsAzureTelemetryService.exe
