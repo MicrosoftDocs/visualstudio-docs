@@ -39,7 +39,7 @@ These features work together and synchronize with the project system and the *pa
 
 ### Prerequisites
 
-You need the **Node.js development workload** and the Node.js runtime installed to add npm support to your project. For detailed steps, see [Create a Node.js project](/visualstudio/ide/quickstart-nodejs?toc=/visualstudio/javascript/toc.json).
+You need the **Node.js development** workload and the Node.js runtime installed to add npm support to your project. For detailed steps, see [Create a Node.js project](/visualstudio/ide/quickstart-nodejs?toc=/visualstudio/javascript/toc.json).
 
 > [!NOTE]
 > For existing Node.js projects, use the **From existing Node.js code** solution template or the [Open folder (Node.js)](../javascript/develop-javascript-code-without-solutions-projects.md) project type to enable npm in your project.
@@ -123,7 +123,7 @@ If your project does not already include a *package.json* file, you can add one 
 
    ![Add package.json to your project](../javascript/media/npm-add-package-json.png)
 
-   If you don't see the npm Configuration File listed, Node.js development tools are not installed. You can use the Visual Studio Installer to add the **Node.js development workload**. Then repeat the previous step.
+   If you don't see the npm Configuration File listed, Node.js development tools are not installed. You can use the Visual Studio Installer to add the **Node.js development** workload. Then repeat the previous step.
 
 1. Include one or more npm packages in the `dependencies` or `devDependencies` section of *package.json*. For example, you might add the following to the file:
 
@@ -137,7 +137,7 @@ If your project does not already include a *package.json* file, you can add one 
 When you save the file, Visual Studio adds the package under the **Dependencies / npm** node in Solution Explorer. If you don't see the node, right-click **package.json** and choose **Restore Packages**.
 
 >[!NOTE]
-> In some scenarios, Solution Explorer may indicate that an npm package is out of sync with *package.json* due to a known issue described [here](https://github.com/aspnet/Tooling/issues/479). For example, the package may appear as not installed when it is installed. In most cases, you can update Solution Explorer by deleting *package.json*, restarting Visual Studio, and re-adding the *package.json* file as described earlier in this article.
+> In some scenarios, Solution Explorer may not show the correct status for installed npm packages due to a known issue described [here](https://github.com/aspnet/Tooling/issues/479). For example, the package may appear as not installed when it is installed. In most cases, you can update Solution Explorer by deleting *package.json*, restarting Visual Studio, and re-adding the *package.json* file as described earlier in this article.
 
 ### <a name="npmInstallPackage"></a>Install packages using package.json (ASP.NET Core)
 
