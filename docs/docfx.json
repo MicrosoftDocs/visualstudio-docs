@@ -86,7 +86,7 @@
       "titleSuffix": "Visual Studio",
       "toc_preview": true,
       "searchScope": [
-        "Visual Studio"
+        "VS IDE"
       ],
       "featureFlags": [
         "enable_uhf_ppe"
