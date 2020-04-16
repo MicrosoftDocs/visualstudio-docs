@@ -2,7 +2,7 @@
 title: "Manage npm packages"
 description: Visual Studio helps you to manage packages using the Node.js package manager (npm)
 ms.custom: "seodec18"
-ms.date: "03/12/2020"
+ms.date: "04/16/2020"
 ms.topic: "conceptual"
 ms.devlang: javascript
 author: "mikejo5000"
@@ -28,17 +28,21 @@ Visual Studio integration with npm is different depending on your project type.
 > [!Important]
 > npm expects the *node_modules* folder and *package.json* in the project root. If your app's folder structure is different, you should modify your folder structure if you want to manage npm packages using Visual Studio.
 
-> [!NOTE]
-> For existing Node.js projects, use the **From existing Node.js code** solution template to enable npm in your project.
-
 ## Node.js projects
 
-For Node.js projects, use one the following methods:
+For Node.js projects, you can perform the following tasks:
 * [Install packages from Solution Explorer](#npmInstallWindow)
 * [Manage installed packages from Solution Explorer](#solutionExplorer)
 * [Use the `.npm` command in the Node.js Interactive Window](#interactive)
 
 These features work together and synchronize with the project system and the *package.json* file in the project.
+
+### Prerequisites
+
+You need the **Node.js development workload** and the Node.js runtime installed to add npm support to your project. For detailed steps, see [Create a Node.js project](/visualstudio/ide/quickstart-nodejs?toc=/visualstudio/javascript/toc.json).
+
+> [!NOTE]
+> For existing Node.js projects, use the **From existing Node.js code** solution template or the [Open folder (Node.js)](../javascript/develop-javascript-code-without-solutions-projects.md) project type to enable npm in your project.
 
 ### <a name="npmInstallWindow"></a> Install packages from Solution Explorer (Node.js)
 
