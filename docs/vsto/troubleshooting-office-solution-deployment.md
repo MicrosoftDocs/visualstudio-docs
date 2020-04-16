@@ -53,8 +53,8 @@ ms.workload:
 ## Prerequisites for Microsoft Office aren't installed
  You can add the .NET Framework, the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)], and the Office primary interop assemblies to your Setup package as prerequisites that are deployed with your Office solution. For information about how to install the primary interop assemblies, see [Configure a computer to develop Office solutions](../vsto/configuring-a-computer-to-develop-office-solutions.md) and [How to: Install Office primary interop assemblies](../vsto/how-to-install-office-primary-interop-assemblies.md).
 
-## Publish using 'Localhost' can cause installation problems
- When you use "<http://localhost>" as the publish or installation location for document-level solutions, the **Publish Wizard** doesn't convert the string to the real computer name. In this case, the solution must be installed on the development computer. To make deployed solutions use IIS on the development computer, use the fully qualified name for all HTTP/HTTPS/FTP locations instead of localhost.
+## Publish using Localhost can cause installation problems
+ When you use `http://localhost` as the publish or installation location for document-level solutions, the **Publish Wizard** doesn't convert the string to the real computer name. In this case, the solution must be installed on the development computer. To make deployed solutions use IIS on the development computer, use the fully qualified name for all HTTP/HTTPS/FTP locations instead of localhost.
 
 ## Cached assemblies are loaded instead of updated assemblies
  Fusion, the .NET Framework assembly loader, loads the cached copy of assemblies when the project output path is on a network file share, the assembly is signed with a strong name, and the assembly version of the customization doesn't change. If you update an assembly that meets these conditions, the update won't appear the next time that you run the project because the cached copy is loaded.
@@ -108,7 +108,7 @@ ms.workload:
 ## Reinstall Office solutions causes an argument out of range exception
  When you reinstall an Office solution, a <xref:System.ArgumentOutOfRangeException> exception might appear with the following error message: Specified argument was out of the range of valid values.
 
- This situation occurs if the casing for the URL for the installation location is different. For example, this error would appear if you installed an Office solution from [http://fabrikam.com/ExcelSolution.vsto](http://fabrikam.com/ExcelSolution.vsto) the first time and then used [http://fabrikam.com/excelsolution.vsto](http://fabrikam.com/excelsolution.vsto) the second time.
+ This situation occurs if the casing for the URL for the installation location is different. For example, this error would appear if you installed an Office solution from `http://fabrikam.com/ExcelSolution.vsto` the first time and then used `http://fabrikam.com/excelsolution.vsto` the second time.
 
  To prevent the message from appearing, use the same casing when you install Office solutions.
 

@@ -606,7 +606,7 @@ manager: jillfra
 If you are trying to solve a problem and cannot find the information you need in the documentation, you can consult other resources such as Knowledge Base articles, the developer community, or product support.  
   
 ## Knowledge Base Articles  
- You can search the Knowledge Base (KB) online for articles about product issues. Not all issues have a corresponding KB article, but errors encountered by a significant number of customers are typically documented. You can access KB articles on the [Knowledge Base (MSBuild search results)](https://search.microsoft.com/supportresults.aspx?q=knowledge+base+MSBuild&x=0&y=0) Web site.  
+ You can search the Knowledge Base (KB) online for articles about product issues. Not all issues have a corresponding KB article, but errors encountered by a significant number of customers are typically documented. You can access KB articles on the [Knowledge Base](https://support.microsoft.com/help/242450/how-to-query-the-microsoft-knowledge-base-by-using-keywords-and-query) Web site.  
   
 ## Community Forums  
  Forums let you interact with other developers, and also Microsoft employees. If you encounter an error that you cannot find a resolution for, you can post questions about the issue on a forum. You can also search the newsgroups to see whether others have posted about the same issue. You can access the Visual Studio MSBuild forum on the [MSDN Forums](https://social.msdn.microsoft.com/forums/en-US/msbuild/threads/) Web site.  
