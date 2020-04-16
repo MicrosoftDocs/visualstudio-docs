@@ -14,19 +14,6 @@
         tocHref: /visualstudio/ide/
         topicHref: /visualstudio/ide/
         items:
-        - name: Overview
-          tocHref: /visualstudio/ide/
-          topicHref: /visualstudio/get-started/visual-studio-ide
-          items:
-          - name: About the code editor
-            tocHref: /visualstudio/ide/
-            topicHref: /visualstudio/get-started/tutorial-editor
-          - name: /visualstudio/get-started/tutorial-projects-solutions
-            tocHref: /visualstudio/ide/
-            topicHref: /visualstudio/get-started/tutorial-projects-solutions
-          - name: More Visual Studio features
-            tocHref: /visualstudio/ide/
-            topicHref: /visualstudio/ide/advanced-feature-overview
         - name: Code Quality
           tocHref: /visualstudio/code-quality/
           topicHref: /visualstudio/code-quality/analyzing-application-quality-by-using-code-analysis-tools
