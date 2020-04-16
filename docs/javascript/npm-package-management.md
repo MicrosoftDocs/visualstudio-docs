@@ -48,8 +48,7 @@ You need the **Node.js development** workload and the Node.js runtime installed 
 
 For Node.js projects, the easiest way to install npm packages is through the npm package installation window. To access this window, right-click the **npm** node in the project and select **Install New npm Packages**.
 
-[!div class="mx-imgBorder"]
-![Install new npm package from solution explorer](../javascript/media/solution-explorer-install-package.png)
+:::image type="content" source="../javascript/media/solution-explorer-install-package.png" alt-text="Install new npm package from solution explorer" border="true":::
 
 In this window you can search for a package, specify options, and install.
 
