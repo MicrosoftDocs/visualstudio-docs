@@ -65,7 +65,7 @@ Welcome to Visual Studio! We’ve got everything you need to create great apps f
 
 - [Azure Storage](https://azure.microsoft.com/documentation/services/storage/)
 
-- Integrate Office 365 REST APIs into your own app to connect to data stored in the cloud. For more information, see [these samples](https://docs.microsoft.com/en-us/samples/browse/?products=office-365&term=REST).
+- Integrate Office 365 REST APIs into your own app to connect to data stored in the cloud. For more information, see [these samples](https://docs.microsoft.com/samples/browse/?products=office-365&term=REST).
 
 ## Write great web apps with ASP.NET
  [ASP.NET 5](https://docs.microsoft.com/aspnet/core/?view=aspnetcore-3.0) is a major Update to MVC, WebAPI and SignalR, and runs on Windows, Mac, and Linux.  ASP.NET has been designed from the ground up to provide you with a lean and composable .NET stack for building modern cloud-based web apps and services.
@@ -73,7 +73,7 @@ Welcome to Visual Studio! We’ve got everything you need to create great apps f
 ## Build, test, and manage your code
 
 ### Check in your code
- If you work on a team, you need to share the latest versions of the code too so everyone on the team is using the same codebase. Visual Studio seamlessly integrates with Visual Studio Team Services or Team Foundation Server to provide version control with Git or TFVC (Team Foundation Version Control). Use Visual Studio Team Services to store your code in the cloud with no maintenance of a local server. Use Team Foundation Server if you want to have an on-premises server. Every time you create a code project, you have the option to add it to version control. To learn about which version control system is best for your needs, see [Choosing the right version control for your project](https://docs.microsoft.com/en-us/azure/devops/repos/tfvc/comparison-git-tfvc?view=azure-devops).
+ If you work on a team, you need to share the latest versions of the code too so everyone on the team is using the same codebase. Visual Studio seamlessly integrates with Visual Studio Team Services or Team Foundation Server to provide version control with Git or TFVC (Team Foundation Version Control). Use Visual Studio Team Services to store your code in the cloud with no maintenance of a local server. Use Team Foundation Server if you want to have an on-premises server. Every time you create a code project, you have the option to add it to version control. To learn about which version control system is best for your needs, see [Choosing the right version control for your project](https://docs.microsoft.com/azure/devops/repos/tfvc/comparison-git-tfvc?view=azure-devops).
 
 ### Build your app
  You can [build your app locally](./ide/compiling-and-building-in-visual-studio.md) and make sure that it works correctly. Then use the [debugging tools](./debugger/debugging-in-visual-studio.md) to fix any issues with your app. Or you can build projects on shared build servers or in the cloud. Automate your build process to build the code that the devs on your team have checked into version control. For example, you can build one or more projects nightly or every time that code is checked in.
@@ -91,7 +91,7 @@ Welcome to Visual Studio! We’ve got everything you need to create great apps f
 |||||
 |-|-|-|-|
 |[What’s new in Visual Studio 2015](./what-s-new-in-visual-studio-2015.md)|[What's New for C#](https://msdn.microsoft.com/library/9f18dc26-27fa-4603-a639-b573f07a117b)|[What’s new in .NET Framework](https://msdn.microsoft.com/library/1d971dd7-10fc-4692-8dac-30ca308fc0fa)|[What’s new for Azure DevOps Server](/azure/devops/server/whats-new)|
-|[What’s new for C++](https://docs.microsoft.com/en-us/previous-versions/hh409293(v=vs.140))|[What's New for Visual Basic](https://msdn.microsoft.com/library/d7e97396-7f42-4873-a81c-4ebcc4b6ca02)|[What’s new for JavaScript](https://docs.microsoft.com/visualstudio/javascript/javascript-in-visual-studio?view=vs-2015#whats-new-in-javascript)||
+|[What’s new for C++](https://docs.microsoft.com/previous-versions/hh409293(v=vs.140))|[What's New for Visual Basic](https://msdn.microsoft.com/library/d7e97396-7f42-4873-a81c-4ebcc4b6ca02)|[What’s new for JavaScript](https://docs.microsoft.com/visualstudio/javascript/javascript-in-visual-studio?view=vs-2015#whats-new-in-javascript)||
 |[Python](./python/getting-started-with-python.md)||||
 
 ## In this section
@@ -110,9 +110,9 @@ Welcome to Visual Studio! We’ve got everything you need to create great apps f
 
 - [Cross-Platform Mobile Development](./cross-platform/cross-platform-mobile-development-in-visual-studio.md)
 
-- [Visual Basic](https://docs.microsoft.com/en-us/dotnet/visual-basic/?view=vs-2015)
+- [Visual Basic](https://docs.microsoft.com/dotnet/visual-basic/?view=vs-2015)
 
-- [C#](https://docs.microsoft.com/en-us/dotnet/csharp/?view=vs-2015)
+- [C#](https://docs.microsoft.com/dotnet/csharp/?view=vs-2015)
 
 - [Visual C++](https://msdn.microsoft.com/library/e8dcc44c-a3e2-4ffe-887c-fd15b18dc458)
 
