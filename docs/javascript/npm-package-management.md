@@ -48,6 +48,7 @@ You need the **Node.js development** workload and the Node.js runtime installed 
 
 For Node.js projects, the easiest way to install npm packages is through the npm package installation window. To access this window, right-click the **npm** node in the project and select **Install New npm Packages**.
 
+[!div class="mx-imgBorder"]
 ![Install new npm package from solution explorer](../javascript/media/solution-explorer-install-package.png)
 
 In this window you can search for a package, specify options, and install.
@@ -147,6 +148,7 @@ For projects with npm included, you can configure npm packages using `package.js
 
 IntelliSense in *package.json* helps you select a particular version of an npm package.
 
+[!div class="mx-imgBorder"]
 ![Search npm package](../javascript/media/npm-add-package-intellisense.png)
 
 When you save the file, Visual Studio adds the package under the **Dependencies / npm** node in Solution Explorer. If you don't see the node, right-click **package.json** and choose **Restore Packages**.
