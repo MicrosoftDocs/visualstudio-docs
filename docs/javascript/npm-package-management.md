@@ -107,11 +107,13 @@ For projects such as ASP.NET Core projects, you can integrate npm support in you
 
 ### <a name="npmAdd"></a> Add npm support to a project (ASP.NET Core)
 
-If your project does not already include a *package.json* file, you can add one enable npm support by adding a package.json file to the project.
+If your project does not already include a *package.json* file, you can add one to enable npm support by adding a package.json file to the project.
 
 1. To add the file, right-click the project in Solution Explorer and choose **Add** > **New Item**. Choose the **npm Configuration File**, use the default name, and click **Add**.
 
    ![Add package.json to your project](../javascript/media/npm-add-package-json.png)
+
+   npm requires Node.js. If you don't see the npm Configuration File listed, Node.js development tools are not installed. You can use the Visual Studio Installer to add the **Node.js development workload**.
 
 1. Include one or more npm packages in the `dependencies` or `devDependencies` section of *package.json*. For example, you might add the following to the file:
 
