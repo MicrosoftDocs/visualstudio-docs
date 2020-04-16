@@ -147,8 +147,7 @@ For projects with npm included, you can configure npm packages using `package.js
 
 IntelliSense in *package.json* helps you select a particular version of an npm package.
 
-[!div class="mx-imgBorder"]
-![Search npm package](../javascript/media/npm-add-package-intellisense.png)
+:::image type="content" source="../javascript/media/npm-add-package-intellisense.png" alt-text="Select npm package version" border="true":::
 
 When you save the file, Visual Studio adds the package under the **Dependencies / npm** node in Solution Explorer. If you don't see the node, right-click **package.json** and choose **Restore Packages**.
 
