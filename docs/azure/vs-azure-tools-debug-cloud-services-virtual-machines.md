@@ -10,7 +10,6 @@ ms.workload: azure-vs
 ms.date: 11/11/2016
 ms.author: mikejo
 ms.technology: vs-ide-debug
-ms.custom: seodec18
 ---
 # Debugging an Azure cloud service or virtual machine in Visual Studio
 
