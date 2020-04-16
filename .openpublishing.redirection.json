@@ -11642,7 +11642,7 @@
     },
     {
       "source_path": "subscriptions/activate-store-subscriptions.md",
-      "redirect_url": "visualstudio/subscriptions/buy-activate-retail",
+      "redirect_url": "/visualstudio/subscriptions/buy-activate-retail",
       "redirect_document_id": true
     }
   ]
