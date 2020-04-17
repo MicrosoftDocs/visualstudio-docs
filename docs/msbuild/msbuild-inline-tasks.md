@@ -46,7 +46,7 @@ MSBuild tasks are typically created by compiling a class that implements the <xr
 
 - The `TaskFactory` attribute names the class that implements the inline task factory.
 
-- The `AssemblyFile` attribute gives the location of the inline task factory. Alternatively, you can use the `AssemblyName` attribute to specify the fully qualified name of the inline task factory class, which is typically located in the global assembly cache (GAC).
+- The `AssemblyFile` attribute gives the location of the inline task factory. Alternatively, you can use the `AssemblyName` attribute to specify the fully qualified name of the inline task factory class, which is typically located in `$(MSBuildToolsPath)\Microsoft.Build.Tasks.Core.dll`.
 
 The remaining elements of the `DoNothing` task are empty and are provided to illustrate the order and structure of an inline task. A more robust example is presented later in this topic.
 
