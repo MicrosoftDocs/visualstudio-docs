@@ -8,9 +8,11 @@ manager: jillfra
 ---
 # XAML code editor
 
-The XAML code editor supports the Windows platform. It also supports the XAML Hot Reload feature, which allows you to edit your app's code and UI in real-time during debugging, debug your app on-the-fly in real-time, supports modern intelligence by way of IntelliCode, 
+The XAML code editor in the [Visual Studio IDE](../../get-started/visual-studio-ide.md) is the creative launching pad that you can use to create WPF, UWP, and Xamarin apps for the Windows platform. The XAML code editor supports the [XAML Hot Reload]() feature, which allows you to edit your app's code and UI on-the-fly in real-time while you  during debugging, debug your app on-the-fly in real-time, supports modern intelligence by way of IntelliCode, 
 
-## Editor experience
+Here is a screenshot of the XAML code editor experience 
+
+[![The Visual Studio 2019 IDE code editor for WPF and XAML](../media/vs-2019/ide-overview.png)](../media/xaml-code-editor-overview.png#lightbox)
 
 [Screenshot of the XAML code editor]
 
