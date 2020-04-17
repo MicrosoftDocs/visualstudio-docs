@@ -8,15 +8,20 @@ manager: jillfra
 ---
 # XAML code editor
 
-The XAML code editor in the [Visual Studio IDE](../../get-started/visual-studio-ide.md) is the creative launching pad that you can use to create WPF, UWP, and Xamarin apps for the Windows platform. The XAML code editor supports the [XAML Hot Reload]() feature, which allows you to edit your app's code and UI on-the-fly in real-time while you  during debugging, debug your app on-the-fly in real-time, supports modern intelligence by way of IntelliCode, 
+The XAML code editor in the [Visual Studio IDE](../../get-started/visual-studio-ide.md) includes all the tools you need to create WPF and UWP apps for the Windows platform. The XAML code editor supports modern intelligence by way of IntelliCode. It also supports the [XAML Hot Reload](xaml-tools/xaml-hot-reload.md) feature, which allows you to edit your app's code and UI on-the-fly in real-time while debugging.
 
-Here is a screenshot of the XAML code editor experience 
+Here is a screenshot of the XAML code editor experience. (We'll break this down for you further; read on.) 
 
-[![The Visual Studio 2019 IDE code editor for WPF and XAML](../media/vs-2019/ide-overview.png)](../media/xaml-code-editor-overview.png#lightbox)
+![The XAML code editor in Visual Studio 2019](../media/xaml-code-editor-overview.png#lightbox)
 
-[Screenshot of the XAML code editor]
+## XAML code editor window
 
-### Buttons
+The code editor window for XAML apps has many of the features you find in our standard IDE, and also a few unique features that make developing XAML apps easier.
+
+First, in the following screenshot, let's take a look at the code window itself.
+
+![The XAML code editor window in Visual Studio 2019](../media/xaml-code-editor-window.png)
+
 
 (example pop-up button, unique to XAML code editor)
 
