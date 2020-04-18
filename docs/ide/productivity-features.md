@@ -1,6 +1,6 @@
 ---
-title: Productivity tips
-ms.date: 2/21/2019
+title: Productivity guide
+ms.date: 4/17/2020
 ms.topic: conceptual
 author: ornellaalt
 ms.author: ornella
@@ -10,9 +10,21 @@ ms.workload:
 ---
 # Productivity tips for Visual Studio
 
-This articles discusses tips for Visual Studio features that help you write, navigate, and debug your code more quickly and efficiently.
+This article discusses tips for Visual Studio features that help you write, navigate, and debug your code more quickly and efficiently.
+
+This guide serves as a tool for developers to save time when writing code in Visual Studio. Instead of searching for documentation, shortcuts, and other resources, you can find useful information in one place. This guide focuses on Visual Studio in the following areas: general tips on getting started, navigation and layout, debugging and error handling, refactoring, cloud, keybindings and shortcuts, performance, and extensions. 
 
 For information about helpful keyboard shortcuts, see [Productivity shortcuts](../ide/productivity-shortcuts.md). For a complete list of command shortcuts, see [Default keyboard shortcuts](../ide/default-keyboard-shortcuts-in-visual-studio.md).
+
+## Getting started
+
+Save time digging through menus by searching quickly and precisely for anything you need, including commands, settings, documentation, and install options. See keyboard shortcuts for commands within your search results in Visual Studio so you can memorize them more easily. 
+
+-**Mock code using task list**. If you don't have enough requirements to complete a piece of code, use Task List to track code comments that use tokens such as `TODO` and `HACK`, or custom tokens, and to manage shortcuts that take you directly to a predefined location in code. For more information, see [Use the Task List](https://docs.microsoft.com/en-us/visualstudio/ide/using-the-task-list?view=vs-2019).
+
+-**Use Solution Explorer shortcuts**. 
+
+-**Make Visual Studio more accessible**. Visual Studio has built-in accessibility features that are compatible with screen readers and other assistive technologies. See 
 
 ## Write code
 
