@@ -2,8 +2,8 @@
 title: Productivity tips
 ms.date: 2/21/2019
 ms.topic: conceptual
-author: TerryGLee
-ms.author: tglee
+author: ornellaalt
+ms.author: ornella
 manager: jillfra
 ms.workload:
 - multiple
