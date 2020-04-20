@@ -97,19 +97,24 @@ First, you'll create a Vue.js web application project.
 
 ## Build the project
 
+::: moniker range=">=vs-2019"
+1. Next, choose **Build** > **Build Solution** to build the project.
+
+1. Check the **Output** window to see build results, and choose **Build** from the **Show output from** list.
+::: moniker-end
+::: moniker range="vs-2017"
 1. (TypeScript project only) From Visual Studio, choose **Build** > **Clean Solution**.
 
-    ::: moniker range=">=vs-2019"
-    In the TypeScript template included with Visual Studio 2019, skip this step.
-    ::: moniker-end
+1. Next, choose **Build** > **Build Solution** to build the project.
 
-1. Next, choose **Build** > **Build Solution** to build the project. Check the **Output** window to see build results, and choose **Build** from the **Show output from** list.
+1. Check the **Output** window to see build results, and choose **Build** from the **Show output from** list.
+::: moniker-end
 
-    The JavaScript Vue.js project template (and older versions of the TypeScript template) use the `build` npm script by configuring a post build event. If you want to modify this setting, open the project file (*\<projectname\>.njsproj*) from Windows Explorer and locate this line of code:
+The JavaScript Vue.js project template (and older versions of the TypeScript template) use the `build` npm script by configuring a post build event. If you want to modify this setting, open the project file (*\<projectname\>.njsproj*) from Windows Explorer and locate this line of code:
 
-    ```xml
-    <PostBuildEvent>npm run build</PostBuildEvent>
-    ```
+```xml
+<PostBuildEvent>npm run build</PostBuildEvent>
+```
 
 ## Run the application
 
