@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: lank
 manager: lank
 ms.assetid: 872c5746-5357-4764-949b-aa525a0adf1a
-ms.date: 04/01/2020
+ms.date: 04/20/2020
 ms.topic: conceptual
 description:  Learn how you can take advantage of Microsoft Windows Virtual Desktop via your Visual Studio subscription 
 ---

@@ -28,7 +28,7 @@ After you create a custom editor, you can add more features to it.
 
 3. Implement an editor factory by setting up the <xref:Microsoft.VisualStudio.Shell.Interop.IVsEditorFactory> interface.
 
-     For more information, see [Editor factories](../extensibility/editor-factories.md).
+     For more information, see [Editor factories](/visualstudio/extensibility/editor-factories?view=vs-2015).
 
 4. Decide whether you want your editor to use in-place activation or simplified embedding to manage the document view object window.
 
