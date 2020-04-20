@@ -119,7 +119,7 @@ This app requires a number of npm modules to run correctly.
 
 1. In Solution Explorer (right pane), right-click the **npm** node in the project and choose **Install New npm Packages**.
 
-    In the **Install New npm Packages** dialog box, you can choose to install the most current package version or specify a version. If you choose to install the current version of these packages, but run into unexpected errors later, you may need to install the exact package versions described later in these steps.
+    In the **Install New npm Packages** dialog box, you can choose to install the most current package version or specify a version. If you choose to install the current version of these packages, but run into unexpected errors later, you may want to install the exact package versions described later in these steps.
 
 1. In the **Install New npm Packages** dialog box, search for the react package, and select **Install Package** to install it.
 
