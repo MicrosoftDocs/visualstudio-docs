@@ -188,7 +188,7 @@ IntelliSense is a Visual Studio tool that assists you as you write code.
 
     The last line of this message tells you that the JavaScript interpreter expected a comma (`,`).
 
-1. In the lower pane, click the **Error List** tab.
+1. In the lower pane, click the **Error List** tab and select **Build + IntelliSense** for the type of issues reported.
 
     You see the warning and description along with the filename and line number.
 
@@ -212,7 +212,7 @@ You're next going to run the app with the Visual Studio debugger attached. Befor
 
 ## Run the application
 
-1. Select the debug target in the Debug toolbar, such as Microsoft Edge or Chrome.
+1. Select the debug target in the Debug toolbar, such as **Web Server (Google Chrome)** or **Web Server (Microsoft Edge)**.
 
     ::: moniker range=">=vs-2019"
     ![Select the debug target](../javascript/media/vs-2019/tutorial-nodejs-deploy-target.png)

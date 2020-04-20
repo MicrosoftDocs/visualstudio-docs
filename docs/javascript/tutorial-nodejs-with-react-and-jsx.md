@@ -336,7 +336,7 @@ Starting in Visual Studio 2019, a build script is required. Instead of transpili
 
 ## Run the app
 
-1. Select either Microsoft Edge or Chrome as the current debug target.
+1. Select either **Web Server (Google Chrome)** or **Web Server (Microsoft Edge)** as the current debug target.
 
     ::: moniker range=">=vs-2019"
     ![Select Chrome as debug target](../javascript/media/vs-2019/tutorial-nodejs-react-debug-target.png)
@@ -345,12 +345,7 @@ Starting in Visual Studio 2019, a build script is required. Instead of transpili
     ![Select Chrome as debug target](../javascript/media/tutorial-nodejs-react-debug-target.png)
     ::: moniker-end
 
-    ::: moniker range=">=vs-2019"
-    If Chrome is available on your machine, but does not show up as an option, choose **Web Browser (browsername)** > **Select Web Browser** from the debug target dropdown list, and select **Chrome** as the default browser target.
-    ::: moniker-end
-    ::: moniker range="vs-2017"
-    If Chrome is available on your machine, but does not show up as an option, choose **Web Browser (browsername)** > **Google Chrome** from the debug target dropdown list, and select **Chrome** as the default browser target.
-    ::: moniker-end
+    If Chrome is available on your machine, but does not show up as an option, choose **Browse With** from the debug target dropdown list, and select Chrome as the default browser target (choose **Set as Default**).
 
 1. To run the app, press **F5** (**Debug** > **Start Debugging**) or the green arrow button.
 
