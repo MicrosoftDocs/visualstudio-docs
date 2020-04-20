@@ -236,4 +236,4 @@ Include this rule set in any custom rule set you create for native projects.
 |[C28306](../code-quality/c28306.md)|The annotation on parameter is obsolescent|
 |[C28307](../code-quality/c28307.md)|The annotation on parameter is obsolescent|
 |[C28350](../code-quality/c28350.md)|The annotation describes a situation that is not conditionally applicable.|
-|[C28351](../code-quality/c28351.md)|The annotation describes where a dynamic value (a variable) cannot be used in the condition.|
+|[C28351](/cpp/code-quality/c28351)|The annotation describes where a dynamic value (a variable) cannot be used in the condition.|

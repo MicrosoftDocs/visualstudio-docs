@@ -23,8 +23,6 @@ Visual Studio integration with npm is different depending on your project type.
 * [ASP.NET Core](#aspnet-core-projects)
 * [Open folder (Node.js)](../javascript/develop-javascript-code-without-solutions-projects.md)
 
-*package.json* is a file used by npm to manage package dependencies and package versions for locally-installed packages. For more information on this file, see [package.json configuration](../javascript/configure-packages-with-package-json.md).
-
 > [!Important]
 > npm expects the *node_modules* folder and *package.json* in the project root. If your app's folder structure is different, you should modify your folder structure if you want to manage npm packages using Visual Studio.
 
@@ -55,7 +53,7 @@ In this window you can search for a package, specify options, and install.
 ![Search npm package](../javascript/media/search-package.png)
 
 * **Dependency type** - Chose between **Standard**, **Development**, and **Optional** packages. Standard specifies that the package is a runtime dependency, whereas Development specifies that the package is only required during development.
-* **Add to package.json** - This option is deprecated
+* **Add to package.json** - Recommended. This configurable option is deprecated.
 * **Selected version** - Select the version of the package you want to install.
 * **Other npm arguments** - Specify other standard npm arguments. For example, you can enter a version value such as `@~0.8` to install a specific version that is not available in the versions list.
 
@@ -79,10 +77,28 @@ npm packages are shown in Solution Explorer. The entries under the **npm** node 
 listed in package.json
 * ![Missing package](../javascript/media/missing-npm.png) - Not installed, but listed in package.json
 
+::: moniker range=">=vs-2019"
+Right-click the **npm** node to take one of the following actions:
+
+* **Install New npm Packages** Opens the UI to install new packages
+* **Install npm Packages** Runs the npm install command to install all packages listed in *package.json*. (Runs `npm install`.)
+* **Update npm Packages** Updates a package to the version specified in *package.json*. (Runs `npm update --save`.)
+
+Right-click a package node to take one of the following actions:
+
+* **Install npm Package(s)** Runs the npm install command to install the package version listed in *package.json*. (Runs `npm install`.)
+* **Update npm Package(s)** Updates a package to the version specified in *package.json*. (Run `npm update --save`.)
+* **Uninstall npm Package(s)** Uninstall the package and remove it from *package.json* (Runs `npm uninstall --save`.)
+::: moniker-end
+::: moniker range="vs-2017"
 Right-click a package node or the **npm** node to take one of the following actions:
 * **Install missing packages** that are listed in *package.json*
-* **Update packages** to the latest version
+* **Update npm packages** to the latest version
 * **Uninstall a package** and remove from *package.json*
+::: moniker-end
+
+>[!NOTE]
+> For help resolving issues with npm packages, see [Troubleshooting](#troubleshooting-npm-packages).
 
 ### <a name="interactive"></a>Use the .npm command in the Node.js Interactive Window (Node.js)
 
@@ -137,7 +153,7 @@ If your project does not already include a *package.json* file, you can add one 
 When you save the file, Visual Studio adds the package under the **Dependencies / npm** node in Solution Explorer. If you don't see the node, right-click **package.json** and choose **Restore Packages**.
 
 >[!NOTE]
-> In some scenarios, Solution Explorer may not show the correct status for installed npm packages due to a known issue described [here](https://github.com/aspnet/Tooling/issues/479). For example, the package may appear as not installed when it is installed. In most cases, you can update Solution Explorer by deleting *package.json*, restarting Visual Studio, and re-adding the *package.json* file as described earlier in this article.
+> In some scenarios, Solution Explorer may not show the correct status for installed npm packages. For more information, see [Troubleshooting](#troubleshooting-npm-packages).
 
 ### <a name="npmInstallPackage"></a>Install packages using package.json (ASP.NET Core)
 
@@ -154,4 +170,14 @@ When you save the file, Visual Studio adds the package under the **Dependencies 
 It may take several minutes to install a package. Check progress on package installation by switching to **npm** output in the **Output** window.
 
 ![npm output](../javascript/media/npm-output.png)
+
+## Troubleshooting npm packages
+
+* npm requires Node.js If you don't have Node.js installed, we recommend you install the LTS version from the [Node.js](https://nodejs.org/en/download/) website for best compatibility with outside frameworks and libraries.
+
+* For Node.js projects, you must have the **Node.js development** workload installed for npm support.
+
+* In some scenarios, Solution Explorer may not show the correct status for installed npm packages due to a known issue described [here](https://github.com/aspnet/Tooling/issues/479). For example, the package may appear as not installed when it is installed. In most cases, you can update Solution Explorer by deleting *package.json*, restarting Visual Studio, and re-adding the *package.json* file as described earlier in this article. Or, when installing packages, you can use the npm Output window to verify installation status.
+
+* If you see any errors when building your app or transpiling TypeScript code, check for npm package incompatibilities as a potential source of errors. To help identify errors, check the npm Output window when installing the packages, as described previously in this article. For example, if one or more npm package versions has been deprecated and results in an error, you may need to install a more recent version to fix errors. For information on using *package.json* to control npm package versions, see [package.json configuration](../javascript/configure-packages-with-package-json.md).
 
