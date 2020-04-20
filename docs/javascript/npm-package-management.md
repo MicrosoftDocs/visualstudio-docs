@@ -53,7 +53,7 @@ In this window you can search for a package, specify options, and install.
 ![Search npm package](../javascript/media/search-package.png)
 
 * **Dependency type** - Chose between **Standard**, **Development**, and **Optional** packages. Standard specifies that the package is a runtime dependency, whereas Development specifies that the package is only required during development.
-* **Add to package.json** - The configurable option is deprecated.
+* **Add to package.json** - Recommended. This configurable option is deprecated.
 * **Selected version** - Select the version of the package you want to install.
 * **Other npm arguments** - Specify other standard npm arguments. For example, you can enter a version value such as `@~0.8` to install a specific version that is not available in the versions list.
 
@@ -77,10 +77,25 @@ npm packages are shown in Solution Explorer. The entries under the **npm** node 
 listed in package.json
 * ![Missing package](../javascript/media/missing-npm.png) - Not installed, but listed in package.json
 
+::: moniker range=">=vs-2019"
+Right-click the **npm** node to take one of the following actions:
+
+* **Install New npm Packages** Opens the UI to install new packages
+* **Install npm Packages** Runs the npm install command to install all packages listed in *package.json*. (Runs `npm install`.)
+* **Update npm Packages** Updates a package to the version specified in *package.json*. (Runs `npm update --save`.)
+
+Right-click a package node to take one of the following actions:
+
+* **Install npm Package(s)** Runs the npm install command to install the package version listed in *package.json*. (Runs `npm install`.)
+* **Update npm Package(s)** Updates a package to the version specified in *package.json*. (Run `npm update --save`.)
+* **Uninstall npm Package(s)** Uninstall the package and remove it from *package.json* (Runs `npm uninstall --save`.)
+::: moniker-end
+::: moniker range="vs-2017"
 Right-click a package node or the **npm** node to take one of the following actions:
 * **Install missing packages** that are listed in *package.json*
-* **Update packages** to the latest version
+* **Update npm packages** to the latest version
 * **Uninstall a package** and remove from *package.json*
+::: moniker-end
 
 >[!NOTE]
 > For help resolving issues with npm packages, see [Troubleshooting](#troubleshooting-npm-packages).
