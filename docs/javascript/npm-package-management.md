@@ -53,7 +53,7 @@ In this window you can search for a package, specify options, and install.
 ![Search npm package](../javascript/media/search-package.png)
 
 * **Dependency type** - Chose between **Standard**, **Development**, and **Optional** packages. Standard specifies that the package is a runtime dependency, whereas Development specifies that the package is only required during development.
-* **Add to package.json** - This option is deprecated
+* **Add to package.json** - The configurable option is deprecated.
 * **Selected version** - Select the version of the package you want to install.
 * **Other npm arguments** - Specify other standard npm arguments. For example, you can enter a version value such as `@~0.8` to install a specific version that is not available in the versions list.
 
