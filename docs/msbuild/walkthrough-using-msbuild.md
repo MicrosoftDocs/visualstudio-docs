@@ -124,7 +124,7 @@ MSBuild keeps track of the targets of a build, and guarantees that each target i
 
 The Message task is one of the many tasks that ships with MSBuild. For a complete list of available tasks and usage information, see [Task reference](../msbuild/msbuild-task-reference.md).
 
-The Message task takes the string value of the Text attribute as input and displays it on the output device [writes to the log??]. The HelloWorld target executes the Message task twice: first to display "Hello", and then to display "World".
+The Message task takes the string value of the Text attribute as input and displays it on the output device (or writes it to one or more logs, if applicable). The HelloWorld target executes the Message task twice: first to display "Hello", and then to display "World".
 
 ## Build the target
 
