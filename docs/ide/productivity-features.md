@@ -26,7 +26,7 @@ Save time digging through menus by searching quickly and precisely for anything 
 
 - **Check out the Visual Studio Product Lifecycle and Servicing**. For information on how to get updates for Visual Studio, support options for Enterprise and Professional customers, support for older versions of Visual Studio, and components not covered by Visual Studio servicing, see [Visual Studio Product Lifecycle and Servicing](https://docs.microsoft.com/en-us/visualstudio/releases/2019/servicing).
 
-- [**Identify and customize keyboard shortcuts in Visual Studio**](../ide/identifying-and-customizing-keyboard-shortcuts-in-visual-studio.md). You can identify keyboard shortcuts for Visual Studio commands, customize those shortcuts, and export them for others to use. You can always find and change a keyboard shortcut in the Options dialog box. 
+- **[Identify and customize keyboard shortcuts in Visual Studio](../ide/identifying-and-customizing-keyboard-shortcuts-in-visual-studio.md)**. You can identify keyboard shortcuts for Visual Studio commands, customize those shortcuts, and export them for others to use. You can always find and change a keyboard shortcut in the Options dialog box. 
 
 ## Write code
 
@@ -52,6 +52,10 @@ Write code more quickly by using the following features.
 
 - **Use sample applications**. You can speed up application development by downloading and installing sample applications from [Microsoft Developer Network](https://code.msdn.microsoft.com/). You can also learn a particular technology or programming concept by downloading and exploring a Sample Pack for that area.
 
+- **Change brace formatting with Formatting/New Lines**. 
+
+- **Change your indentation with Tabs**. Use custom editor settings–tailored to each codebase–to enforce consistent coding styles for multiple developers working on the same project across different editors and IDEs. Ensure your whole team follows the same language conventions, naming conventions, and formatting rules. Since these custom settings are portable and travel with your code, you can enforce coding styles even outside of Visual Studio.[Options, Text Editor, All Languages, Tabs](../ide/reference/options-text-editor-all-languages-tabs#tabs).
+
 ## Navigate within your code and the IDE
 
 You can use various techniques to find and move to specific locations in your code more quickly. You can also change the layout of your Visual Studio windows based on your preferences. 
@@ -66,7 +70,13 @@ You can use various techniques to find and move to specific locations in your co
 
 - **Browse the overall structure of your code**. In **Solution Explorer**, you can search and browse classes and their types and members in your projects. You can also search for symbols, view a method's Call Hierarchy, find symbol references, and perform other tasks. If you choose a code element in **Solution Explorer**, the associated file opens in a **Preview** tab, and the cursor moves to the element in the file. For more information, see [View the structure of code](../ide/viewing-the-structure-of-code.md).
 
-- **Jump to a location in a file with map mode**.
+- **Jump to a location in a file with map mode**. Map mode displays lines of code, in miniature, on the scroll bar. For more information about this display mode, see [How to: Customize the scroll bar](../ide/how-to-track-your-code-by-customizing-the-scrollbar#map-mode).
+
+- **Understand your code structure with code map**. Code maps can help you  visualize dependencies across your code, and see how it fits together without reading through files and lines of code. For more information, see [Map dependencies with code maps](../modeling/map-dependencies-across-your-solutions.md).
+
+- **See frequently used files with Edit/Go to Recent File**. Use Visual Studio's Go To commands to perform a focused search of your code to help you quickly find specified items. For  detailed instructions, see [Find code using Go To commands](../ide/go-to.md).
+
+- **Move the [Properties window](../ide/reference/properties-window.md) to the right-hand side**. If you're looking for a more familiar window layout, you can move the Visual Studio properties window by pressing **F4**.
 
 ## Find items faster
 
@@ -98,6 +108,8 @@ You can search across the IDE for commands, files, and options, in addition to f
 
 Debugging can consume a lot of time, but the following tips can help you speed up the process.
 
+- **Use the Visual Studio debugger tools**. In the Visual Studio context, when you *debug your app*, it usually means that you are running the application in debugger mode. When you do this, the debugger provides many ways to see what your code is doing while it runs. See [First look at the Visual Studio Debugger](../debugger/debugger-feature-tour.md) for a guide to getting started. 
+
 - **Test the same page, application, or site in different browsers**. As you debug your code, you can easily switch among the installed web browsers, including [Page Inspector (Visual Studio)](https://msdn.microsoft.com/Library/65880969-1ad2-47be-85b9-bb12c81bf209), without having to open the **Browse With** dialog box. You can use the **Debug Target** list, which is on the **Standard** toolbar next to the **Start Debugging** button, to quickly verify which browser you're using as you debug or view pages.
 
     ![Select web browser debug options](../ide/media/webbrowserdropdowntoolbar.png)
@@ -117,6 +129,12 @@ Debugging can consume a lot of time, but the following tips can help you speed u
 - **Clear the Immediate window**. You can erase the contents of the [Immediate window](../ide/reference/immediate-window.md) at design time by entering `>cls` or `>Edit.ClearAll`
 
      For more information about additional commands, see [Visual Studio command aliases](../ide/reference/visual-studio-command-aliases.md).
+
+- **[Find code changes and other history with CodeLens](../ide/find-code-changes-and-other-history-with-codelens.md)**. CodeLens lets you stay focused on your work while you find out what happened to your code–without leaving the editor. You can find references to a piece of code, changes to your code, linked bugs, work items, code reviews, and unit tests.
+
+- **Use Live Share to debug in real time with others**. Live Share enables you to collaboratively edit and debug with others in real time, regardless of the programming languages you're using or app types you're building. For more information, see [What is Visual Studio Live Share?](https://docs.microsoft.com/visualstudio/liveshare/). 
+
+- **Use Interactive Window to write and test small code**
 
 ## Access Visual Studio tools
 
