@@ -35,7 +35,7 @@ You can use the values in these fields along with other information in the sprea
 
 ### Upload your new assignments
 
-The final step is to download the **Bulk add** template, fill out the required information for the subscriptions you want to assign, and upload the template.  For a complete description of that process, please see our [Add mulitple users](assign-license-bulk.md) article.  
+The final step is to download the **Bulk add** template, fill out the required information for the subscriptions you want to assign, and upload the template.  For a complete description of that process, please see our [Add multiple users](assign-license-bulk.md) article.  
 
 > [!IMPORTANT]
 > To ensure a successful upload, please make sure that:
