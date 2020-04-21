@@ -123,7 +123,7 @@ This app requires a number of npm modules to run correctly.
 
 1. In the **Install New npm Packages** dialog box, search for the react package, and select **Install Package** to install it.
 
-    ![Install npm packages](../javascript/media/tutorial-nodejs-react-install-packages.png)
+    ![Install npm packages](../javascript/media/tutorial-nodejs-react-install-package.png)
 
     Select the **Output** window to see progress on installing the package (select **Npm** in the **Show output from** field). When installed, the package appears under the **npm** node.
 
@@ -156,7 +156,7 @@ This app requires a number of npm modules to run correctly.
 
     Here are the npm modules as they appear in Solution Explorer after they are installed.
 
-    ![npm packages](../javascript/media/tutorial-nodejs-react-npm-modules.png)
+    ![npm packages](../javascript/media/tutorial-nodejs-react-npm-modules-installed.png)
 
     > [!NOTE]
     > If you prefer to install npm packages using the command line, right-click the project node and choose **Open Command Prompt Here**. Use standard Node.js commands to install packages.
@@ -306,7 +306,7 @@ In the previous steps, you added *webpack-config.js* to the project. Next, you a
 
     The command prompt window shows the result.
 
-    ![Run webpack](../javascript/media/tutorial-nodejs-react-run-webpack.png)
+    ![Run webpack](../javascript/media/tutorial-nodejs-react-run-webpack-cmd.png)
 
     If you see any errors instead of the preceding output, you must resolve them before your app will work. If your npm package versions are different than the versions shown in this tutorial, that can be a source of errors. One way to fix errors is to use the exact versions shown in the earlier steps. Also, if one or more of these package versions has been deprecated and results in an error, you may need to install a more recent version to fix errors. For information on using *package.json* to control npm package versions, see [package.json configuration](../javascript/configure-packages-with-package-json.md).
 
