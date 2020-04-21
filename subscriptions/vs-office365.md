@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: v-evwin
 manager: lank
 ms.assetid: 9c70adf7-7d1b-4322-8e34-9149e8735a13
-ms.date: 03/26/2020
+ms.date: 04/20/2020
 ms.topic: conceptual
 description:  Learn about the Office 365 Pro Plus benefit included in some Visual Studio subscriptions.
 ---

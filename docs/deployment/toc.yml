@@ -94,8 +94,6 @@
         href: how-to-set-a-security-zone-for-a-clickonce-application.md
       - name: Set custom permissions for a ClickOnce application
         href: how-to-set-custom-permissions-for-a-clickonce-application.md
-      - name: Debug a ClickOnce application with restricted permissions
-        href: how-to-debug-a-clickonce-application-with-restricted-permissions.md
       - name: Add a trusted publisher to a client computer
         href: how-to-add-a-trusted-publisher-to-a-client-computer-for-clickonce-applications.md
       - name: Re-sign application and deployment manifests

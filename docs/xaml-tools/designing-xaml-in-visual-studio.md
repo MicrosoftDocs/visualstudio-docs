@@ -34,7 +34,7 @@ For most fundamental development tasks, Visual Studio and Blend for Visual Studi
 
 - **IntelliSense:** Both IDEs support IntelliSense capabilities such as statement completion.
 
-- **Debugging:** You can debug in [Visual Studio](../debugger/inspect-xaml-properties-while-debugging.md) and [Blend for Visual Studio](../xaml-tools/debug-xaml-in-blend.md), including setting breakpoints in code to debug a running app and using [Hot Reload](../xaml-tools/xaml-hot-reload.md) to change your XAML code while the app is running. To maintain a consistent debugging experience with Visual Studio, Blend for Visual Studio includes most of Visual Studio's debugging windows and toolbars.
+- **Debugging:** You can debug in [Visual Studio](inspect-xaml-properties-while-debugging.md) and [Blend for Visual Studio](../xaml-tools/debug-xaml-in-blend.md), including setting breakpoints in code to debug a running app and using [Hot Reload](../xaml-tools/xaml-hot-reload.md) to change your XAML code while the app is running. To maintain a consistent debugging experience with Visual Studio, Blend for Visual Studio includes most of Visual Studio's debugging windows and toolbars.
 
 - **File reload:** You can edit your XAML files in either Visual Studio or Blend for Visual Studio. Edited files that have been saved reload automatically as you switch between IDEs. You can control the reload behavior by navigating to **Tools** > **Options** > **Environment** > **Documents** in either IDE.
 

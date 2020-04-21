@@ -2,7 +2,7 @@
 title: "Create a Node.js and React app"
 description: In this tutorial, you create an app in using Node.js tools for Visual Studio
 ms.custom: "mvc"
-ms.date: 11/01/2019
+ms.date: 4/20/2020
 ms.topic: tutorial
 ms.devlang: javascript
 author: mikejo5000
@@ -66,7 +66,7 @@ webpack bundles JavaScript files so they can run in a browser. It can also trans
 
 * You must have the Node.js runtime installed.
 
-    This tutorial was tested with version 10.16.0.
+    This tutorial was tested with version 12.6.2.
 
     If you don't have it installed, we recommend you install the LTS version from the [Node.js](https://nodejs.org/en/download/) website for best compatibility with outside frameworks and libraries. Node.js is built for 32-bit and 64-bit architectures. The Node.js tools in Visual Studio, included in the Node.js workload, support both versions. Only one is required and the Node.js installer only supports one being installed at a time.
     
@@ -100,7 +100,7 @@ First, create a Node.js web application project.
 
     (3) The npm node shows any installed npm packages. You can right-click the npm node to search for and install npm packages using a dialog box or install and update packages using the settings in *package.json* and right-click options in the npm node.
 
-    (4) *package.json* is a file used by npm to manage package dependencies and package versions for locally-installed packages. For more information on this file, see [package.json configuration](../javascript/configure-packages-with-package-json.md)
+    (4) *package.json* is a file used by npm to manage package dependencies and package versions for locally-installed packages. For more information, see [Manage npm packages](../javascript/npm-package-management.md).
 
     (5) Project files such as *server.js* show up under the project node. *server.js* is the project startup file and that is why it shows up in **bold**. You can set the startup file by right-clicking a file in the project and selecting **Set as Node.js startup file**.
 
@@ -119,7 +119,7 @@ This app requires a number of npm modules to run correctly.
 
 1. In Solution Explorer (right pane), right-click the **npm** node in the project and choose **Install New npm Packages**.
 
-    In the **Install New npm Packages** dialog box, you can choose to install the most current package version or specify a version. If you choose to install the current version of these packages, but run into unexpected errors later, you may need to install the exact package versions described later in these steps.
+    In the **Install New npm Packages** dialog box, you can choose to install the most current package version or specify a version. If you choose to install the current version of these packages, but run into unexpected errors later, you may want to install the exact package versions described later in these steps.
 
 1. In the **Install New npm Packages** dialog box, search for the react package, and select **Install Package** to install it.
 
@@ -133,14 +133,14 @@ This app requires a number of npm modules to run correctly.
 
     ```json
     "dependencies": {
-      "express": "~4.16.4",
+      "express": "~4.17.1",
       "path": "~0.12.7",
-      "react": "~16.6.0",
-      "react-dom": "~16.6.0",
-      "ts-loader": "~5.3.0",
-      "typescript": "~3.1.5",
-      "webpack": "~4.23.1",
-      "webpack-cli": "~3.1.2"
+      "react": "~16.13.1",
+      "react-dom": "~16.13.1",
+      "ts-loader": "~7.0.1",
+      "typescript": "~3.8.3",
+      "webpack": "~4.42.1",
+      "webpack-cli": "~3.3.11"
     }
     ```
 
@@ -148,7 +148,9 @@ This app requires a number of npm modules to run correctly.
 
 1. Save the changes.
 
-1. Right-click **npm** node in your project and choose **Update npm Packages**.
+1. Right-click **npm** node in your project and choose **Install npm Packages**.
+
+    This command runs the npm install command directly.
 
     In the lower pane, select the **Output** window to see progress on installing the packages. Installation may take a few minutes and you may not see results immediately. To see the output, make sure that you select **Npm** in the **Show output from** field in the **Output** window.
 
@@ -334,7 +336,7 @@ Starting in Visual Studio 2019, a build script is required. Instead of transpili
 
 ## Run the app
 
-1. Select either Microsoft Edge or Chrome as the current debug target.
+1. Select either **Web Server (Google Chrome)** or **Web Server (Microsoft Edge)** as the current debug target.
 
     ::: moniker range=">=vs-2019"
     ![Select Chrome as debug target](../javascript/media/vs-2019/tutorial-nodejs-react-debug-target.png)
@@ -343,12 +345,7 @@ Starting in Visual Studio 2019, a build script is required. Instead of transpili
     ![Select Chrome as debug target](../javascript/media/tutorial-nodejs-react-debug-target.png)
     ::: moniker-end
 
-    ::: moniker range=">=vs-2019"
-    If Chrome is available on your machine, but does not show up as an option, choose **Web Browser (browsername)** > **Select Web Browser** from the debug target dropdown list, and select **Chrome** as the default browser target.
-    ::: moniker-end
-    ::: moniker range="vs-2017"
-    If Chrome is available on your machine, but does not show up as an option, choose **Web Browser (browsername)** > **Google Chrome** from the debug target dropdown list, and select **Chrome** as the default browser target.
-    ::: moniker-end
+    If Chrome is available on your machine, but does not show up as an option, choose **Browse With** from the debug target dropdown list, and select Chrome as the default browser target (choose **Set as Default**).
 
 1. To run the app, press **F5** (**Debug** > **Start Debugging**) or the green arrow button.
 
