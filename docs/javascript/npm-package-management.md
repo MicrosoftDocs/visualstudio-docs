@@ -80,15 +80,15 @@ listed in package.json
 ::: moniker range=">=vs-2019"
 Right-click the **npm** node to take one of the following actions:
 
-* **Install New npm Packages** Opens the UI to install new packages
+* **Install New npm Packages** Opens the UI to install new packages.
 * **Install npm Packages** Runs the npm install command to install all packages listed in *package.json*. (Runs `npm install`.)
-* **Update npm Packages** Updates a package to the version specified in *package.json*. (Runs `npm update --save`.)
+* **Update npm Packages** Updates packages to the lastest versions, according to the semver range specified in *package.json*. (Runs `npm update --save`.). Semver ranges are typically specified using "~" or "^". For more information, [package.json configuration](../javascript/configure-packages-with-package-json.md).
 
 Right-click a package node to take one of the following actions:
 
 * **Install npm Package(s)** Runs the npm install command to install the package version listed in *package.json*. (Runs `npm install`.)
-* **Update npm Package(s)** Updates a package to the version specified in *package.json*. (Run `npm update --save`.)
-* **Uninstall npm Package(s)** Uninstall the package and remove it from *package.json* (Runs `npm uninstall --save`.)
+* **Update npm Package(s)** Updates the package to the lastest version, according to the semver range specified in *package.json*. (Run `npm update --save`.) Semver ranges are typically specified using "~" or "^".
+* **Uninstall npm Package(s)** Uninstalls the package and removes it from *package.json* (Runs `npm uninstall --save`.)
 ::: moniker-end
 ::: moniker range="vs-2017"
 Right-click a package node or the **npm** node to take one of the following actions:
