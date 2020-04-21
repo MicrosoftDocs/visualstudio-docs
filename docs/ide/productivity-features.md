@@ -10,9 +10,7 @@ ms.workload:
 ---
 # Productivity tips for Visual Studio
 
-This article discusses tips for Visual Studio features that help you write, navigate, and debug your code more quickly and efficiently.
-
-This guide serves as a tool for developers to save time when writing code in Visual Studio. Instead of searching for documentation, shortcuts, and other resources, you can find useful information in one place. This guide focuses on Visual Studio in the following areas: general tips on getting started, navigation and layout, debugging and error handling, refactoring, cloud, keybindings and shortcuts, performance, and extensions. 
+This guide discusses tips for developers to save time when writing code in Visual Studio. Instead of searching for documentation, shortcuts, and other resources, you can find useful information in one place. This guide focuses on Visual Studio in the following areas: general tips on getting started, navigation and layout, debugging and error handling, refactoring, cloud, keybindings and shortcuts, performance, and extensions. 
 
 For information about helpful keyboard shortcuts, see [Productivity shortcuts](../ide/productivity-shortcuts.md). For a complete list of command shortcuts, see [Default keyboard shortcuts](../ide/default-keyboard-shortcuts-in-visual-studio.md).
 
@@ -20,11 +18,15 @@ For information about helpful keyboard shortcuts, see [Productivity shortcuts](.
 
 Save time digging through menus by searching quickly and precisely for anything you need, including commands, settings, documentation, and install options. See keyboard shortcuts for commands within your search results in Visual Studio so you can memorize them more easily. 
 
--**Mock code using task list**. If you don't have enough requirements to complete a piece of code, use Task List to track code comments that use tokens such as `TODO` and `HACK`, or custom tokens, and to manage shortcuts that take you directly to a predefined location in code. For more information, see [Use the Task List](https://docs.microsoft.com/en-us/visualstudio/ide/using-the-task-list?view=vs-2019).
+- **Mock code using task list**. If you don't have enough requirements to complete a piece of code, use Task List to track code comments that use tokens such as `TODO` and `HACK`, or custom tokens, and to manage shortcuts that take you directly to a predefined location in code. For more information, see [Use the Task List](../ide/using-the-task-list.md.
 
--**Use Solution Explorer shortcuts**. 
+- **Use Solution Explorer shortcuts**.  
 
--**Make Visual Studio more accessible**. Visual Studio has built-in accessibility features that are compatible with screen readers and other assistive technologies. See 
+- **Make Visual Studio more accessible**. Visual Studio has built-in accessibility features that are compatible with screen readers and other assistive technologies. See [Accessibility tips and tricks for Visual Studio](../ide/reference/accessibility-tips-and-tricks.md) for the full list of available features. 
+
+- **Check out the Visual Studio Product Lifecycle and Servicing**. For information on how to get updates for Visual Studio, support options for Enterprise and Professional customers, support for older versions of Visual Studio, and components not covered by Visual Studio servicing, see [Visual Studio Product Lifecycle and Servicing](https://docs.microsoft.com/en-us/visualstudio/releases/2019/servicing).
+
+- [**Identify and customize keyboard shortcuts in Visual Studio**](../ide/identifying-and-customizing-keyboard-shortcuts-in-visual-studio.md). You can identify keyboard shortcuts for Visual Studio commands, customize those shortcuts, and export them for others to use. You can always find and change a keyboard shortcut in the Options dialog box. 
 
 ## Write code
 
@@ -50,9 +52,9 @@ Write code more quickly by using the following features.
 
 - **Use sample applications**. You can speed up application development by downloading and installing sample applications from [Microsoft Developer Network](https://code.msdn.microsoft.com/). You can also learn a particular technology or programming concept by downloading and exploring a Sample Pack for that area.
 
-## Navigate within your code
+## Navigate within your code and the IDE
 
-You can use various techniques to find and move to specific locations in your code more quickly.
+You can use various techniques to find and move to specific locations in your code more quickly. You can also change the layout of your Visual Studio windows based on your preferences. 
 
 - **Bookmark lines of code**. You can use bookmarks to navigate quickly to specific lines of code in a file.
 
@@ -63,6 +65,8 @@ You can use various techniques to find and move to specific locations in your co
    To access this feature, on the menu bar, choose **Edit** > **Navigate To**.
 
 - **Browse the overall structure of your code**. In **Solution Explorer**, you can search and browse classes and their types and members in your projects. You can also search for symbols, view a method's Call Hierarchy, find symbol references, and perform other tasks. If you choose a code element in **Solution Explorer**, the associated file opens in a **Preview** tab, and the cursor moves to the element in the file. For more information, see [View the structure of code](../ide/viewing-the-structure-of-code.md).
+
+- **Jump to a location in a file with map mode**.
 
 ## Find items faster
 
