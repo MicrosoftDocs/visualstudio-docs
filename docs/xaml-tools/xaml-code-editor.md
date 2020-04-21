@@ -1,6 +1,6 @@
 ---
 title: XAML code editor
-ms.date: 04/22/2020
+ms.date: 04/24/2020
 ms.topic: conceptual
 author: TerryGLee
 ms.author: tglee
@@ -8,18 +8,18 @@ manager: jillfra
 ---
 # XAML code editor
 
-The XAML code editor in the [Visual Studio IDE](../../get-started/visual-studio-ide.md) includes all the tools you need to create WPF and UWP apps for the Windows platform. This article outlines the role the code editor plays when you develop XAML-based apps, and on the features that are unique to the XAML code editor in Visual Studio 2019. 
+The XAML code editor in the [Visual Studio IDE](../get-started/visual-studio-ide.md) includes all the tools you need to create WPF and UWP apps for the Windows platform. This article outlines the role the code editor plays when you develop XAML-based apps, and on the features that are unique to the XAML code editor in Visual Studio 2019. 
 
 To start, let's take a look at the IDE (integrated development environment) with an open WPF project. The following image shows several of the key IDE tools you'll use along with the XAML code editor. From the bottom left of the image going clockwise, they are: 
 
-[![The Visual Studio 2019 IDE](media/xaml-code-editor-overview.png "An annotated screenshot of the Visual Studio IDE with a WPF project open, which includes the XAML code editor window") ](media/xaml-code-editor-overview.png#lightbox)
+[![The Visual Studio 2019 IDE](media/xaml-code-editor-overview-sml.png "An annotated screenshot of the Visual Studio IDE with a WPF project open, which includes the XAML code editor window") ](media/xaml-code-editor-overview-lrg.png#lightbox)
 
 - The **[XAML code editor](#xaml-code-editor-window)** window&mdash;the subject of this article&mdash;where you create and edit your code. 
 - The **[XAML Designer](creating-a-ui-by-using-xaml-designer-in-visual-studio.md)** window, where you design your UI.
-- The **[Toolbox](../../ide/reference/toolbox.md)** dockable window, where you add controls to your UI.
-- The **[Debug](../../debugger/debugger-feature-tour.md)** button, where you run your code and debug it. <br>(You can also edit your code in real-time while you're debugging with [XAML Hot Reload](xaml-tools/xaml-hot-reload.md).)
-- The **[Solution Explorer](../../ide/solutions-and-projects-in-visual-studio.md)** window, where you manage your files, projects, and solutions. 
-- The **[Properties](../../ide/reference/properties-window.md)** window, where you change the way your UI looks.
+- The **[Toolbox](../ide/reference/toolbox.md)** dockable window, where you add controls to your UI.
+- The **[Debug](../debugger/debugger-feature-tour.md)** button, where you run your code and debug it. <br>(You can also edit your code in real-time while you're debugging with [XAML Hot Reload](xaml-tools/xaml-hot-reload.md).)
+- The **[Solution Explorer](../ide/solutions-and-projects-in-visual-studio.md)** window, where you manage your files, projects, and solutions. 
+- The **[Properties](../ide/reference/properties-window.md)** window, where you change the way your UI looks.
 
 To continue, let's learn more about the XAML code editor. 
 
@@ -50,7 +50,7 @@ Here's how to use each of these tabs and buttons:
 
 Continuing at the top right, and from left to right, there's a Vertical Split button, a Horizontal Split button, and a Collapse Panes button.
 
-![Screenshot of the first of the two top rows of the XAML code editor window in Visual Studio 2019, in which UI elements on the left are highlighted](media/xaml-code-editor-top-row-right.png)
+![Screenshot of the first of the two top rows of the XAML code editor window in Visual Studio 2019, in which UI elements on the right are highlighted](media/xaml-code-editor-top-row-right.png)
 
 Here's how to use each of these buttons:
 
