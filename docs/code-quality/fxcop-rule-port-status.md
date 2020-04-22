@@ -34,6 +34,7 @@ Rule ID | Title
 [CA1017](ca1017-mark-assemblies-with-comvisibleattribute.md) | Mark assemblies with ComVisible
 [CA1018](ca1018-mark-attributes-with-attributeusageattribute.md) | Mark attributes with AttributeUsageAttribute
 [CA1019](ca1019-define-accessors-for-attribute-arguments.md) | Define accessors for attribute arguments
+[CA1021](ca1021.md) | Avoid out parameters
 [CA1024](ca1024-use-properties-where-appropriate.md) | Use properties where appropriate
 [CA1027](ca1027-mark-enums-with-flagsattribute.md) | Mark enums with FlagsAttribute
 [CA1028](ca1028-enum-storage-should-be-int32.md) | Enum Storage should be Int32
@@ -279,7 +280,7 @@ The following FxCop legacy analysis rules are deprecated and won't be implemente
 - [CA1400](ca1400-p-invoke-entry-points-should-exist.md)
 - [CA1406](ca1406-avoid-int64-arguments-for-visual-basic-6-clients.md)
 - [CA1504](ca1504-review-misleading-field-names.md)
-- [CA1701](ca1701-resource-string-compound-words-should-be-cased-correctly.md)
+- [CA1701](ca1701.md)
 - [CA1702](ca1702.md)
 - [CA1703](ca1703.md)
 - [CA1800](ca1800.md)

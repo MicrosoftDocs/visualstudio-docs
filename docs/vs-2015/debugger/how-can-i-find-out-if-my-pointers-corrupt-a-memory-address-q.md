@@ -33,7 +33,7 @@ Problem Description
   
 #### Check for heap corruption  
   
-- Most memory corruption is actually due to heap corruption. Try using the Global Flags Utility (gflags.exe) or pageheap.exe. See [http://support.microsoft.com/default.aspx?scid=kb;en-us;286470](http://support.microsoft.com/default.aspx?scid=kb;en-us;286470).  
+- Most memory corruption is actually due to heap corruption. Try using the Global Flags Utility (gflags.exe) or pageheap.exe. See [GFlags and PageHeap](/windows-hardware/drivers/debugger/gflags-and-pageheap) and [How to use the PageHeap utility to detect memory errors in a Microsoft Visual C++ project](https://support.microsoft.com/help/264471/how-to-use-the-pageheap-utility-to-detect-memory-errors-in-a-microsoft).
   
 #### To find where the memory address is modified  
   

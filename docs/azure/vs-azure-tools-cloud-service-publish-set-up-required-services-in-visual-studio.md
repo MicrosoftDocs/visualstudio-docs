@@ -9,7 +9,6 @@ ms.workload: azure-vs
 ms.topic: conceptual
 ms.date: 11/10/2017
 ms.author: ghogen
-ms.custom: seodec18
 ---
 # Prepare to publish or deploy a cloud service from Visual Studio
 

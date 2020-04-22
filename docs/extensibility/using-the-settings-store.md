@@ -1,15 +1,15 @@
 ---
-title: "Using the Settings Store | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Using the Settings Store | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "Settings Store, using"
+- Settings Store, using
 ms.assetid: 447ec08a-eca5-40b8-89b0-f98fdf3d39a4
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Using the Settings Store
 There are two kinds of settings stores:

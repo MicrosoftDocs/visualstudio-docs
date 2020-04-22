@@ -1,20 +1,20 @@
 ---
-title: "IDebugProperty2::GetExtendedInfo | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugProperty2::GetExtendedInfo | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugProperty2::GetExtendedInfo"
+- IDebugProperty2::GetExtendedInfo
 helpviewer_keywords:
-  - "IDebugProperty2::GetExtendedInfo"
+- IDebugProperty2::GetExtendedInfo
 ms.assetid: 0c9c0b2b-7540-4424-adb5-fce7aa37a026
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugProperty2::GetExtendedInfo
 Gets extended information for the property.

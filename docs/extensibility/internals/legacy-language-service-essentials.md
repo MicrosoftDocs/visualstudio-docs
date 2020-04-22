@@ -1,18 +1,18 @@
 ---
-title: "Legacy Language Service Essentials | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Legacy Language Service Essentials | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "languages, integrating into Visual Studio"
-  - "language services, integrating programming languages"
-  - "Visual Studio, integrating programming languages"
-  - "programming languages, integrating into Visual Studio"
+- languages, integrating into Visual Studio
+- language services, integrating programming languages
+- Visual Studio, integrating programming languages
+- programming languages, integrating into Visual Studio
 ms.assetid: c15e0ccb-e7c5-4dbb-affb-fe3d3244debe
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Legacy Language Service Essentials
 You must provide a language service to integrate a programming language into Visual Studio. This topic explains the features available in legacy language services.

@@ -1,7 +1,7 @@
 ---
 title: Known issues for containers
 description: Learn more about the known issues that might occur when you install Visual Studio Build Tools into a Windows container.
-ms.date: 07/03/2019
+ms.date: 02/18/2020
 ms.custom: seodec18
 ms.topic: conceptual
 ms.assetid: 140083f1-05bc-4014-949e-fb5802397c7a
@@ -48,7 +48,11 @@ The following known issues might occur when you use a Build Tools container. To 
 
 * IntelliTrace might not work in [some scenarios](https://github.com/Microsoft/vstest/issues/940) within a container.
 * On older versions of Docker for Windows, the default container image size is only 20 GB and will not fit Build Tools. Follow [instructions to change image size](/virtualization/windowscontainers/manage-containers/container-storage#storage-limits) to 127 GB or more.
-
+To confirm a disk space issue, check the log files for more information. Your `vslogs\dd_setup_<timestamp>_errors.log` file will include the following if you run out of disk space: 
+```
+Pre-check verification: Visual Studio needs at least 91.99 GB of disk space. Try to free up space on C:\ or change your target drive.
+Pre-check verification failed with error(s) :  SizePreCheckEvaluator.
+```
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 
 ## See also

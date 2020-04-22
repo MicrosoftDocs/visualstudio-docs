@@ -1,19 +1,19 @@
 ---
-title: "Signing VSIX Packages | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Signing VSIX Packages | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "signature"
-  - "signing"
-  - "authenticode"
-  - "vsix"
-  - "packages"
+- signature
+- signing
+- authenticode
+- vsix
+- packages
 ms.assetid: e34cfc2c-361c-44f8-9cfe-9f2be229d248
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Signing VSIX Packages
 Extension assemblies do not need to be signed before they can run in Visual Studio, but it is a good practice to do so.

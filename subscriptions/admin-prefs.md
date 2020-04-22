@@ -3,13 +3,14 @@ title:  Set agreement preferences in the Administration Portal
 author: evanwindom
 ms.author: lank
 manager: lank
-ms.date: 08/21/2019
+ms.assetid: 0fe9eaa4-f589-429e-a443-13bf86637d5a
+ms.date: 03/17/2020
 ms.topic: conceptual
 description: Learn how to set preferences for language, contacts, subscription level and others in the Administration Portal
 ---
 
 # Set preferences for your agreements in the Administration Portal
-Super admins can now set certain preferences in the Administration Portal (admin portal) that will be applied globally for each agreement.  These preferences will determine what administrators on your agreements can set when they are adding subscribers, and can only be modified globally by super admins.  
+Super admins can set certain preferences in the Administration Portal (admin portal) that will be applied globally for each agreement.  These preferences will automatically populate subscription details for your administrators when they are adding subscribers, and can only be modified globally by super admins.  
 
 ## Access preferences
 You must be signed in to the [admin portal](https://manage.visualstudio.com) using a sign in ID that has super admin rights on the agreement in order to view or modify the preferences.  
@@ -35,13 +36,13 @@ If you have multiple agreements for which you're a super admin, you'll be able t
 If there is only one agreement associated with the email address you used to sign in, it will be displayed and the drop-down will be disabled. 
 
 ### Contact email address
-This preferences provides a way for your subscribers to reach out to administrators through the use of the **Contact my Admin** button on the [subscriptions page](https://my.visualstudio.com/subscriptions) of the subscriber portal.  If this preference is left blank, subscriber messages will be forwarded to all administrators and super admins on the agreement.  We recommend using a group email alias or security group to tailor your audience for this contact email. You can also choose to input an individual’s email address if you prefer.
+This preference provides a way for your subscribers to reach out to administrators through the use of the **Contact my Admin** button on the [subscriptions page](https://my.visualstudio.com/subscriptions) of the subscriber portal.  If this preference is left blank, subscriber messages will be forwarded to all administrators and super admins on the agreement.  We recommend using a group email alias or security group to tailor your audience for this contact email. You can also choose to input an individual’s email address if you prefer.
 
 > [!NOTE]
-> The email address you list here will NOT be provided to subscribers.  When a subscriber submits a **Contact my Admin** request in the subscriber portal, the message will be forwarded to the alias without exposing it to subscribers. 
+> The email address you list here will NOT be provided to subscribers.  When a subscriber submits a **Contact my Admin** request in the subscriber portal, the message will be forwarded to the alias without exposing it to the subscriber. 
 
 ### Default external subscribers setting
-This preference allows you to decide whether administrators can add subscribers from outside your organization's tenant/directory.  If you turn this off, no outside subscribers will be allowed.  If you enable it and an admin attempts to add an outside subscriber, they will be asked to confirm their choice, and will be allowed to assign the subscription. Admins cannot override this setting. 
+This preference allows you to decide whether administrators can add subscribers from outside your organization's tenant/directory.  If you turn this off, no outside subscribers will be allowed.  If you enable it and an admin attempts to add an outside subscriber, they will be asked to confirm their choice, and will be allowed to assign the subscription. Administrators cannot override this setting. 
 
 ### Default downloads setting
 Enabling this setting, which is on by default, will enable subscribers to access downloads when admins create new subscriptions.  Admins can still disable downloads on an individual subscription basis.  
@@ -68,7 +69,18 @@ A:  If no specific email address is set in the **Contact email address** prefere
 ## Resources
 - [Visual Studio Administration and Subscriptions Support](https://visualstudio.microsoft.com/support/support-overview-vs)
 
+## See also
+- [Visual Studio documentation](https://docs.microsoft.com/visualstudio/)
+- [Azure DevOps documentation](https://docs.microsoft.com/azure/devops/)
+- [Azure documentation](https://docs.microsoft.com/azure/)
+- [Microsoft 365 documentation](https://docs.microsoft.com/microsoft-365/)
+
 ## Next steps
-- Learn how to [assign subscriptions](assign-license.md)
-- Learn more about the full range of [subscription benefits](https://visualstudio.microsoft.com/vs/benefits/)
+Learn more about managing Visual Studio subscriptions.
+- [Assign individual subscriptions](assign-license.md)
+- [Assign multiple subscriptions](assign-license-bulk.md)
+- [Edit subscriptions](edit-license.md)
+- [Determine maximum usage](maximum-usage.md)
+
+
 

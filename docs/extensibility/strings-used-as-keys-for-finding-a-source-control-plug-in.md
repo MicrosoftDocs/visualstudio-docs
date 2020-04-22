@@ -1,15 +1,15 @@
 ---
-title: "Strings Used as Keys for Finding a Source Control Plug-in | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Strings Used as Keys for Finding a Source Control Plug-in | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "source control plug-ins, strings used for finding"
+- source control plug-ins, strings used for finding
 ms.assetid: c1e31f76-42a1-4c3d-afb2-664044ef12fd
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Strings Used as Keys for Finding a Source Control Plug-in
 The following strings are the keys for accessing the registry to find information about the source control plug-in.

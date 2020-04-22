@@ -20,9 +20,11 @@ ms.workload:
 - multiple
 ---
 # MakeDir task
+
 Creates directories and, if necessary, any parent directories.
 
 ## Parameters
+
 The following table describes the parameters of the `MakeDir` task.
 
 |Parameter|Description|
@@ -31,9 +33,11 @@ The following table describes the parameters of the `MakeDir` task.
 |`DirectoriesCreated`|Optional <xref:Microsoft.Build.Framework.ITaskItem>`[]` output parameter.<br /><br /> The directories that are created by this task. If some directories could not be created, this may not contain all of the items that were passed into the `Directories` parameter.|
 
 ## Remarks
+
 In addition to the parameters listed above, this task inherits parameters from the <xref:Microsoft.Build.Tasks.TaskExtension> class, which itself inherits from the <xref:Microsoft.Build.Utilities.Task> class. For a list of these additional parameters and their descriptions, see [TaskExtension base class](../msbuild/taskextension-base-class.md).
 
 ## Example
+
 The following code example uses the `MakeDir` task to create the directory specified by the `OutputDirectory` property.
 
 ```xml
@@ -52,5 +56,6 @@ The following code example uses the `MakeDir` task to create the directory speci
 ```
 
 ## See also
+
 - [Tasks](../msbuild/msbuild-tasks.md)
 - [Task reference](../msbuild/msbuild-task-reference.md)

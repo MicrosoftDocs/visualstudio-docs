@@ -1,16 +1,16 @@
 ---
-title: "Required Port Supplier Interfaces | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Required Port Supplier Interfaces | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "port suppliers, required interfaces"
-  - "debugging [Debugging SDK], port suppliers"
+- port suppliers, required interfaces
+- debugging [Debugging SDK], port suppliers
 ms.assetid: 0c2cdd40-9f6f-425e-b305-858f7734161e
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Required port supplier interfaces
 A port supplier must implement the [IDebugPortSupplier2](../../extensibility/debugger/reference/idebugportsupplier2.md) interface.[IDebugPortSupplier2](../../extensibility/debugger/reference/idebugportsupplier2.md)

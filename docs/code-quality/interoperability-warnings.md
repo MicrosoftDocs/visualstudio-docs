@@ -9,8 +9,8 @@ helpviewer_keywords:
   - "interoperability warnings"
   - "warnings, interoperability"
 ms.assetid: 95de6eb3-40c4-4063-9f59-25cb70e3b2b3
-author: jillre
-ms.author: jillfra
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ms.workload:
   - "multiple"

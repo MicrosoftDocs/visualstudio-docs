@@ -1,20 +1,20 @@
 ---
-title: "IDebugProgram2::GetProgramId | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugProgram2::GetProgramId | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugProgram2::GetProgramId"
+- IDebugProgram2::GetProgramId
 helpviewer_keywords:
-  - "IDebugProgram2::GetProgramId"
+- IDebugProgram2::GetProgramId
 ms.assetid: 2c31c0aa-2b71-46c7-849c-356e237d26f8
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugProgram2::GetProgramId
 Gets a GUID for this program.

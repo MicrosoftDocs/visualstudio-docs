@@ -1,17 +1,17 @@
 ---
-title: "IDebugProperty2 | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugProperty2 | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugProperty2"
+- IDebugProperty2
 helpviewer_keywords:
-  - "IDebugProperty2 interface"
+- IDebugProperty2 interface
 ms.assetid: a7d5c70f-a1a5-4120-9f70-184e01c25bff
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # IDebugProperty2
 This interface represents a stack frame property, a program document property, or some other property. The property is usually the result of an expression evaluation.

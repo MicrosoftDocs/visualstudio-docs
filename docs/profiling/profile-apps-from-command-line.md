@@ -1,8 +1,8 @@
 ---
-title: "Measure CPU usage from the command line"
-description: "Measure CPU performance in your application from the command line."
+title: "Measure performance from the command line"
+description: "Measure CPU performance and managed memory usage in your application from the command line."
 ms.custom: ""
-ms.date: "02/19/2019"
+ms.date: "02/21/2020"
 ms.topic: "conceptual"
 helpviewer_keywords: 
   - "Profiling Tools, command-line"
@@ -24,9 +24,11 @@ In the example described in this article, you collect performance information fo
 
 ## Prerequisites
 
-* Visual Studio 2019 Preview 3 or later versions
+* Visual Studio 2019 or later versions
 
 * Familiarity with command-line tools
+
+* To collect performance information on a remote machine without Visual Studio installed, install the [Performance Tools for Visual Studio](https://visualstudio.microsoft.com/downloads#performance-tools-for-visual-studio-2019) on the remote machine. The version of the tools must match your version of Visual Studio.
 
 ## Collect performance data
 
@@ -69,7 +71,7 @@ For convenience, you can store that information in an agent configuration file. 
 ```<Visual Studio installation folder>\2019\Preview\Team Tools\DiagnosticsHub\Collector\AgentConfigs\```
 
 * CpuUsage configurations (Base/High/Low), which corresponds to data collected for the [CPU Usage](../profiling/cpu-usage.md) profiling tool.
-* DotNetObjectAlloc configurations (Base/Low), which corresponds to data collected for the [.NET Object Allocation tool](https://devblogs.microsoft.com/visualstudio/visual-studio-2017-version-15-8-preview-3/#tooling).
+* DotNetObjectAlloc configurations (Base/Low), which corresponds to data collected for the [.NET Object Allocation tool](../profiling/dotnet-alloc-tool.md).
 
 Base/Low/High configurations refer to the sampling rate. For example, Low is 100 samples/second and High is 4000 samples/second.
 

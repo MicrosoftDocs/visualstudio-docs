@@ -1,20 +1,20 @@
 ---
-title: "IDebugProgramNodeAttach2::OnAttach | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugProgramNodeAttach2::OnAttach | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugProgramNodeAttach2::OnAttach"
+- IDebugProgramNodeAttach2::OnAttach
 helpviewer_keywords:
-  - "IDebugProgramNodeAttach2::OnAttach"
+- IDebugProgramNodeAttach2::OnAttach
 ms.assetid: 5fe52761-a508-4ab5-abdb-334fb6590334
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugProgramNodeAttach2::OnAttach
 Attaches to the associated program or defers the attach process to the [Attach](../../../extensibility/debugger/reference/idebugengine2-attach.md) method.

@@ -1,7 +1,7 @@
 ---
 title: "Create an ASP.NET Core app with TypeScript"
 description: In this tutorial, you create an app using ASP.NET Core and TypeScript
-ms.date: 01/03/2020
+ms.date: 03/16/2020
 ms.topic: tutorial
 ms.devlang: javascript
 author: mikejo5000
@@ -34,6 +34,7 @@ In this tutorial, you learn how to:
 > * Add the NuGet package for TypeScript support
 > * Add some TypeScript code
 > * Run the app
+> * Add a third-party library using npm
 
 ## Prerequisites
 
@@ -52,6 +53,9 @@ In this tutorial, you learn how to:
 
 Visual Studio manages files for a single application in a *project*. The project includes source code, resources, and configuration files.
 
+>[!NOTE]
+> To start with an empty ASP.NET Core project and add a TypeScript frontend, see [ASP.NET Core with TypeScript](https://www.typescriptlang.org/docs/handbook/asp-net-core.html) instead.
+
 In this tutorial, you begin with a simple project containing code for an ASP.NET Core MVC app.
 
 1. Open Visual Studio.
@@ -59,14 +63,16 @@ In this tutorial, you begin with a simple project containing code for an ASP.NET
 1. Create a new project.
 
     ::: moniker range=">=vs-2019"
-    Press **Esc** to close the start window. Type **Ctrl + Q** to open the search box, type **ASP.NET**, then choose **ASP.NET Core Web Application - C#**. In the dialog box that appears, choose **Create**.
+    If the start window is not open, choose **File** > **Start Window**. On the start window, choose **Create a new project**. In the language drop-down list, choose **C#**. In the search box, type **ASP.NET**, then choose **ASP.NET Core Web Application**. Choose **Next**.
+
+    Type a name for the project and choose **Create**.
     ::: moniker-end
     ::: moniker range="vs-2017"
     From the top menu bar, choose **File** > **New** > **Project**. In the left pane of the **New Project** dialog box, expand **Visual C#**, then choose **.NET Core**. In the middle pane, choose **ASP.NET Core Web Application - C#**, then choose **OK**.
     ::: moniker-end
     If you don't see the **ASP.NET Core Web Application** project template, you must add the **ASP.NET and web development** workload. For detailed instructions, see the [Prerequisites](#prerequisites).
 
-1. After you choose **Create**, select **Web Application (Model-View-Controller)** in the dialog box, and then choose **Create**.
+1. In the dialog box that appears, select **Web Application (Model-View-Controller)** in the dialog box, and then choose **Create** (or **OK**).
 
    ![Choose the MVC template](../javascript/media/aspnet-core-ts-mvc-template.png)
 
@@ -205,6 +211,76 @@ In this tutorial, you begin with a simple project containing code for an ASP.NET
    You may need to respond to a message to enable script debugging.
 
    The application pauses at the breakpoint. Now, you can inspect variables and use debugger features.
+
+## Add TypeScript support for a third-party library
+
+1. Follow instructions in [npm package management](../javascript/npm-package-management.md#aspnet-core-projects) to add a `package.json` file to your project. This adds npm support to your project.
+
+   >[!NOTE]
+   > For ASP.NET Core projects, you can also use [Library Manager](https://docs.microsoft.com/aspnet/core/client-side/libman/?view=aspnetcore-3.1) or yarn instead of npm to install client-side JavaScript and CSS files.
+
+1. In this example, add a TypeScript definition file for jQuery to your project. Include the following in your *package.json* file.
+
+   ```json
+   "devDependencies": {
+      "@types/jquery": "3.3.33"
+   }
+   ```
+
+   This adds TypeScript support for jQuery. The jQuery library itself is already included in the MVC project template (look under wwwroot/lib in Solution Explorer). If you are using a different template, you may need to include the jquery npm package as well.
+
+1. If the package in Solution Explorer is not installed, right-click the npm node and choose **Restore Packages**.
+
+   >[!NOTE]
+   > In some scenarios, Solution Explorer may indicate that an npm package is out of sync with *package.json* due to a known issue described [here](https://github.com/aspnet/Tooling/issues/479). For example, the package may appear as not installed when it is installed. In most cases, you can update Solution Explorer by deleting *package.json*, restarting Visual Studio, and re-adding the *package.json* file as described earlier in this article.
+
+1. In Solution Explorer, right-click the scripts folder and choose **Add** > **New Item**.
+
+1. Choose **TypeScript File**, type *library.ts*, and choose **Add**.
+
+1. In *library.ts*, add the following code.
+
+   ```ts
+   var jqtest = {
+      showMsg: function (): void {
+         let v: any = jQuery.fn.jquery.toString();
+         let content: any = $("#ts-example-2")[0].innerHTML;
+         alert(content.toString());
+         $("#ts-example-2")[0].innerHTML = content + " " + v + "!!";
+      }
+   };
+
+   jqtest.showMsg();
+   ```
+
+   For simplicity, this code displays a message using jQuery and an alert.
+
+   With TypeScript type definitions for jQuery added, you get IntelliSense support on jQuery objects when you type a "." following a jQuery object, as shown here.
+
+   ![jquery IntelliSense](../javascript/media/aspnet-core-ts-jquery-intellisense.png)
+
+1. In _Layout.cshtml, update the script references to include `library.js`.
+
+   ```html
+   <script src="~/js/app.js"></script>
+   <script src="~/js/library.js"></script>
+   ```
+
+1. In Index.cshtml, add the following HTML to the end of the file.
+
+   ```html
+   <div>
+      <p id="ts-example-2">jQuery version is:</p>
+   </div>
+   ```
+
+1. Press **F5** (**Debug** > **Start Debugging**) to run the application.
+
+    The app opens in the browser.
+
+    Click **OK** in the alert to see the page updated to **jQuery version is: 3.3.1!!**.
+
+    ![jquery example](../javascript/media/aspnet-core-ts-jquery-example.png)
 
 ## Next steps
 

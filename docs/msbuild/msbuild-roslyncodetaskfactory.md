@@ -12,12 +12,14 @@ ms.workload:
 - multiple
 ---
 # MSBuild inline tasks with RoslynCodeTaskFactory
+
 Similar to the [CodeTaskFactory](../msbuild/msbuild-inline-tasks.md), RoslynCodeTaskFactory uses the cross-platform Roslyn compilers to generate in-memory task assemblies for use as inline tasks.  RoslynCodeTaskFactory tasks target .NET Standard and can work on .NET Framework and .NET Core runtimes as well as other platforms such as Linux and Mac OS.
 
 >[!NOTE]
->The RoslynCodeTaskFactory is available in MSBuild 15.8 and above only.
+>The RoslynCodeTaskFactory is available in MSBuild 15.8 and above only. MSBuild versions follow Visual Studio versions, so RoslynCodeTaskFactory is available in Visual Studio 15.8 and higher.
 
 ## The structure of an inline task with RoslynCodeTaskFactory
+
  RoslynCodeTaskFactory inline tasks are declared in an identical way as [CodeTaskFactory](../msbuild/msbuild-inline-tasks.md), the only difference being that they target .NET Standard.  The inline task and the `UsingTask` element that contains it are typically included in a *.targets* file and imported into other project files as required. Here is a basic inline task. Notice that it does nothing.
 
 ```xml
@@ -62,6 +64,7 @@ The remaining elements of the `DoNothing` task are empty and are provided to ill
 > Elements contained by the `Task` element are specific to the task factory, in this case, the code task factory.
 
 ### Code element
+
 The last child element to appear within the `Task` element is the `Code` element. The `Code` element contains or locates the code that you want to be compiled into a task. What you put in the `Code` element depends on how you want to write the task.
 
 The `Language` attribute specifies the language in which your code is written. Acceptable values are `cs` for C#, `vb` for Visual Basic.
@@ -82,6 +85,7 @@ Alternatively, you can use the `Source` attribute of the `Code` element to speci
 > When defining the task class in the source file, the class name must agree with the `TaskName` attribute of the corresponding [UsingTask](../msbuild/usingtask-element-msbuild.md) element.
 
 ## Hello World
+
  Here is a more robust inline task with RoslynCodeTaskFactory. The HelloWorld task displays "Hello, world!" on the default error logging device, which is typically the system console or the Visual Studio **Output** window. The `Reference` element in the example is included just for illustration.
 
 ```xml
@@ -119,6 +123,7 @@ You could save the HelloWorld task in a file that is named *HelloWorld.targets*,
 ```
 
 ## Input and output parameters
+
  Inline task parameters are child elements of a `ParameterGroup` element. Every parameter takes the name of the element that defines it. The following code defines the parameter `Text`.
 
 ```xml
@@ -153,9 +158,10 @@ defines these three parameters:
 
 - `Tally` is an output parameter of type System.Int32.
 
-If the `Code` element has the `Type` attribute of `Fragment` or `Method`, then properties are automatically created for every parameter. Otherwise, properties must be explicitly declared in the task source code, and must exactly match their parameter definitions.
+If the `Code` element has the `Type` attribute of `Fragment` or `Method`, then properties are automatically created for every parameter.  In RoslynCodeTaskFactory, if the `Code` element has the `Type` attribute of `Class`, then you do not have to specify the `ParameterGroup`, since it is inferred from the source code (this is a difference from `CodeTaskFactory`). Otherwise, properties must be explicitly declared in the task source code, and must exactly match their parameter definitions.
 
 ## Example
+
  The following inline task logs some messages and returns a string.
 
 ```xml
@@ -248,5 +254,6 @@ These inline tasks can combine paths and get the file name.
 ```
 
 ## See also
+
 - [Tasks](../msbuild/msbuild-tasks.md)
 - [Walkthrough: Create an inline task](../msbuild/walkthrough-creating-an-inline-task.md)

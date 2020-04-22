@@ -1,20 +1,20 @@
 ---
-title: "IDebugThread2::SetThreadName | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugThread2::SetThreadName | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugThread2::SetThreadName"
+- IDebugThread2::SetThreadName
 helpviewer_keywords:
-  - "IDebugThread2::SetThreadName"
+- IDebugThread2::SetThreadName
 ms.assetid: fa934121-3f58-44dc-9c30-d3f752e44c8b
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugThread2::SetThreadName
 Sets the name of the thread.

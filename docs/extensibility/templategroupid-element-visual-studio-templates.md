@@ -1,19 +1,19 @@
 ---
-title: "TemplateGroupID Element (Visual Studio Templates) | Microsoft Docs"
-ms.date: "11/04/2016"
+title: TemplateGroupID Element (Visual Studio Templates) | Microsoft Docs
+ms.date: 11/04/2016
 ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
-  - "http://schemas.microsoft.com/developer/vstemplate/2005#TemplateGroupID"
+- http://schemas.microsoft.com/developer/vstemplate/2005#TemplateGroupID
 helpviewer_keywords:
-  - "TemplateGroupID element [Visual Studio Templates]"
-  - "<TemplateGroupID> element [Visual Studio Templates]"
+- TemplateGroupID element [Visual Studio Templates]
+- <TemplateGroupID> element [Visual Studio Templates]
 ms.assetid: bce7b49a-90bc-4691-aff3-a87e209f6d83
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # TemplateGroupID Element (Visual Studio Templates)
 Specifies what kind of project an item templates will show up in. This element is significant when [ShowByDefault (Visual Studio Templates)](../extensibility/showbydefault-visual-studio-templates.md) is set to `false`. When [ShowByDefault (Visual Studio Templates)](../extensibility/showbydefault-visual-studio-templates.md) is set to `true`, then an item template is available in all project types.

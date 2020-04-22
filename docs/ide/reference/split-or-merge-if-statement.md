@@ -1,12 +1,13 @@
 ---
 title: Split or merge if statements
-ms.date: 06/12/2019
+ms.date: 03/10/2020
 ms.topic: reference
 author: mikadumont
 ms.author: midumont
 manager: jillfra
 dev_langs:
   - CSharp
+  - VB
 ms.workload: 
   - "dotnet"
 ---
@@ -15,6 +16,8 @@ ms.workload:
 This refactoring applies to:
 
 - C#
+
+- Visual Basic
 
 **What:** **What:** Split or merge [if](/dotnet/csharp/language-reference/keywords/if-else) statements.
 

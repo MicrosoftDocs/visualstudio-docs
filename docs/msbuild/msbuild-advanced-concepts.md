@@ -12,6 +12,7 @@ ms.workload:
 - multiple
 ---
 # MSBuild advanced concepts
+
 The documents in this section describe how to use advanced techniques to improve builds that you run by using MSBuild.
 
 ## Related topics
@@ -26,5 +27,6 @@ The documents in this section describe how to use advanced techniques to improve
 |[Best practices](../msbuild/msbuild-best-practices.md)|Recommends best practices for writing MSBuild scripts.|
 
 ## See also
+
 - [MSBuild concepts](../msbuild/msbuild-concepts.md)
 - [Logging in MSBuild](../msbuild/logging-in-msbuild.md)

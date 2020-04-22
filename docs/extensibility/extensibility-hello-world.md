@@ -1,13 +1,13 @@
 ---
-title: "Hello World extension tutorial | Microsoft Docs"
-ms.date: "03/14/2019"
-ms.topic: "conceptual"
+title: Hello World extension tutorial | Microsoft Docs
+ms.date: 03/14/2019
+ms.topic: conceptual
 ms.assetid: f74e1ad1-1ee5-4360-9bd5-d82467b884ca
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Create your first extension: Hello World
 

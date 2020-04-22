@@ -425,7 +425,7 @@ ms.workload:
 
    - Adds `ProjectItem` elements for each filethat's included in each project instance.
 
-   - Uses the namespace "<http://schemas.microsoft.com/developer/vstemplate/2005>". Other project files in this solution use the "<http://schemas.microsoft.com/developer/msbuild/2003>" namespace. Therefore, XML schema warning messages will be generated, but you can disregard them in this walkthrough.
+   - Uses the namespace `http://schemas.microsoft.com/developer/vstemplate/2005`. Other project files in this solution use the `http://schemas.microsoft.com/developer/msbuild/2003` namespace. Therefore, XML schema warning messages will be generated, but you can disregard them in this walkthrough.
 
      For more information about the contents of *.vstemplate* files, see [Visual Studio Template Schema Reference](../extensibility/visual-studio-template-schema-reference.md).
 

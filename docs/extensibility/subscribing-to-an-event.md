@@ -1,16 +1,16 @@
 ---
-title: "Subscribing to an Event | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Subscribing to an Event | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "running document table (RDT), responding to events"
-  - "running document table (RDT), subscribing to events"
+- running document table (RDT), responding to events
+- running document table (RDT), subscribing to events
 ms.assetid: e94a4fea-94df-488e-8560-9538413422bc
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Subscribing to an Event
 This walkthrough explains how to create a tool window that responds to events in a running document table (RDT). A tool window hosts a user control that implements <xref:Microsoft.VisualStudio.Shell.Interop.IVsRunningDocTableEvents>. The <xref:Microsoft.VisualStudio.Shell.Interop.IVsRunningDocumentTable.AdviseRunningDocTableEvents%2A> method connects the interface to the events.

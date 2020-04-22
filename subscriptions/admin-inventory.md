@@ -3,7 +3,8 @@ title: Inventory of pre-production environments | Visual Studio Marketplace
 author: evanwindom
 ms.author: lank
 manager: lank
-ms.date: 07/23/2019
+ms.assetid: 7d74e113-8fb2-490e-8502-48cce7b1327a
+ms.date: 03/06/2020
 ms.topic: conceptual
 description:  Learn about administrators' responsibilty to conduct pre-production inventories
 ---
@@ -24,9 +25,18 @@ Here are some ways to simplify taking inventory of your pre-production environme
 - [Visual Studio Administration and Subscriptions Support](https://visualstudio.microsoft.com/support/support-overview-vs)
 - [Volume Licensing terms](https://www.microsoft.com/licensing/product-licensing/products.aspx)
 
+## See also
+- [Visual Studio documentation](https://docs.microsoft.com/visualstudio/)
+- [Azure DevOps documentation](https://docs.microsoft.com/azure/devops/)
+- [Azure documentation](https://docs.microsoft.com/azure/)
+- [Microsoft 365 documentation](https://docs.microsoft.com/microsoft-365/)
+
 ## Next steps
 Learn more about responsibilities for administrators:
 - [Administrator responsibilities](admin-responsibilities.md)
 - [Manage large teams and external contractors](manage-teams.md)
 - [Track user assignments and process orders](assignments-orders.md)
 - Use [Maximum Usage](maximum-usage.md) to track purchase commitments
+
+
+

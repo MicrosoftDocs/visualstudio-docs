@@ -1,15 +1,15 @@
 ---
-title: "Choosing a Debug Engine Implementation Strategy | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Choosing a Debug Engine Implementation Strategy | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "debug engines, implementation strategies"
+- debug engines, implementation strategies
 ms.assetid: 90458fdd-2d34-4f10-82dc-6d8f31b66d8b
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Choose a debug engine implementation strategy
 Use the run-time architecture to determine your debug engine (DE) implementation strategy. You can create the debug engine in-process to the program you're debugging. Create the debug engine in-process to the Visual Studio session debug manager (SDM). Or, create the debug engine out-of-process to both of them. The following guidelines should help you choose among these three strategies.

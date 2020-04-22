@@ -1,15 +1,15 @@
 ---
-title: "Properties Display Grid | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Properties Display Grid | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "properties [Visual Studio SDK], grid"
+- properties [Visual Studio SDK], grid
 ms.assetid: 318e41b0-acf5-4842-b85e-421c9d5927c5
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Properties display grid
 

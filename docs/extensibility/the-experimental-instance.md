@@ -1,17 +1,17 @@
 ---
-title: "The Experimental Instance | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: The Experimental Instance | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "experimental builds"
-  - "VSPackages, experimental builds"
-  - "VSIP, experimental builds"
+- experimental builds
+- VSPackages, experimental builds
+- VSIP, experimental builds
 ms.assetid: ead0df4e-6f88-4b42-9297-581b7902f050
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # The Experimental Instance
 To safeguard your Visual Studio development environment from untested applications that might change it, the VSSDK provides an experimental space that you can use to experiment. You develop new applications by using Visual Studio as usual, but you run them by using this experimental instance.

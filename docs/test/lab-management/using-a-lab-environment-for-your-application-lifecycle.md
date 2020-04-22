@@ -47,6 +47,7 @@ You can perform automated testing and build-deploy-test automation using the [bu
 
 For more information, see [Use Build or Release management](use-build-or-rm-instead-of-lab-management.md).
 
+::: moniker range="vs-2017"
 ## Use the Visual Studio Lab Management features of Microsoft Test Manager
 
 You can create and manage lab environments with the Visual Studio Lab Management features of Microsoft Test Manager when you use Visual Studio Enterprise edition.
@@ -131,6 +132,7 @@ For information about setting up environments, see:
 * [Standard lab environments](https://msdn.microsoft.com/library/ee390842.aspx)
 * [SCVMM (virtual) environments](https://msdn.microsoft.com/library/ee943322.aspx)
 * [Creating and using a network isolated environment](https://msdn.microsoft.com/library/ee518924.aspx)
+::: moniker-end
 
 ## See also
 

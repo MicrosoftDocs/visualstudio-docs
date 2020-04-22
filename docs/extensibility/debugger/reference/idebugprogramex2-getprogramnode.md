@@ -1,20 +1,20 @@
 ---
-title: "IDebugProgramEx2::GetProgramNode | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugProgramEx2::GetProgramNode | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugProgramEx2::Attach"
+- IDebugProgramEx2::Attach
 helpviewer_keywords:
-  - "IDebugProgramEx2::Attach"
+- IDebugProgramEx2::Attach
 ms.assetid: 1545ffbf-1422-4b5d-9bb9-314ba8665041
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugProgramEx2::GetProgramNode
 Gets the program node associated with a program.

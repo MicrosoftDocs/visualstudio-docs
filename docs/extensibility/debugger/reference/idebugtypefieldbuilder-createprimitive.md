@@ -1,19 +1,19 @@
 ---
-title: "IDebugTypeFieldBuilder::CreatePrimitive | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugTypeFieldBuilder::CreatePrimitive | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
-  - "CreatePrimitive"
-  - "IDebugTypeFieldBuilder::CreatePrimitive"
+- CreatePrimitive
+- IDebugTypeFieldBuilder::CreatePrimitive
 ms.assetid: 512c6ff0-97c5-409f-939f-4cc969bc4bb9
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugTypeFieldBuilder::CreatePrimitive
 Creates an object that represents a primitive type.

@@ -1,16 +1,16 @@
 ---
-title: "Registering an Expression Evaluator | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Registering an Expression Evaluator | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "debugging [Debugging SDK], expression evaluation"
-  - "expression evaluators, registering"
+- debugging [Debugging SDK], expression evaluation
+- expression evaluators, registering
 ms.assetid: 236be234-e05f-4ad8-9200-24ce51768ecf
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Register an expression evaluator
 > [!IMPORTANT]

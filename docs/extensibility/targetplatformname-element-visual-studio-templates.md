@@ -1,14 +1,14 @@
 ---
-title: "TargetPlatformName Element (Visual Studio Templates) | Microsoft Docs"
-ms.date: "11/04/2016"
+title: TargetPlatformName Element (Visual Studio Templates) | Microsoft Docs
+ms.date: 11/04/2016
 ms.technology: vs-ide-general
 ms.topic: reference
 ms.assetid: 3a6b1f45-b5d6-418e-add1-87ee8f15033d
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # TargetPlatformName Element (Visual Studio Templates)
 Specifies the platform that the project template targets. This element is used to specify that a project template is used to create [!INCLUDE[win8_appname_long](../debugger/includes/win8_appname_long_md.md)] apps.

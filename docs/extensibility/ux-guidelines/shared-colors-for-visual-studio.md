@@ -1,13 +1,13 @@
 ---
-title: "Shared Colors for Visual Studio | Microsoft Docs"
-ms.date: "04/26/2017"
-ms.topic: "conceptual"
+title: Shared Colors for Visual Studio | Microsoft Docs
+ms.date: 04/26/2017
+ms.topic: conceptual
 ms.assetid: 8d11b9a0-6175-4f2e-8e7f-79daee1bfd41
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Shared colors for Visual Studio
 When you're designing UI that uses common Visual Studio shell elements, or you'd like your interface element to be consistent with similar features, use existing token names in package definition files to choose and assign colors. This ensures that your UI stays consistent with the overall Visual Studio environment and that it updates automatically when themes are added or updated.
@@ -1149,7 +1149,7 @@ An individual menu item consists of the menu text and an optional icon, check bo
 | Element | Token name: Category.color |
 | --- | --- |
 | Background | `Environment.CommandBarMenuItemMouseOver` |
-| Foreground (Text) | `Environment.CommandBarMenuItemMouseOver` |
+| Foreground (Text) | `Environment.CommandBarMenuItemMouseOverText` |
 | Foreground (Submenu glyph) | `Environment.CommandBarMenuMouseOverSubmenuGlyph` |
 | Check mark | `Environment.CommandBarCheckBoxMouseOver` |
 | Check mark background | `Environment.CommandBarHoverOverSelectedIcon` |

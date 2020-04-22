@@ -1,18 +1,18 @@
 ---
-title: "Icon Element (Visual Studio Templates) | Microsoft Docs"
-ms.date: "11/04/2016"
+title: Icon Element (Visual Studio Templates) | Microsoft Docs
+ms.date: 11/04/2016
 ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
-  - "http://schemas.microsoft.com/developer/vstemplate/2005#Icon"
+- http://schemas.microsoft.com/developer/vstemplate/2005#Icon
 helpviewer_keywords:
-  - "Icon element [Visual Studio project templates]"
+- Icon element [Visual Studio project templates]
 ms.assetid: ec01d903-f4c2-4ca2-9cbc-e939ec84016c
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Icon element (Visual Studio templates)
 Specifies the path and the filename of the image file that serves as the icon, which appears in either the **New Project** or the **Add New Item** dialog box, for the template.

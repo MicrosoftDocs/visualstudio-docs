@@ -18,24 +18,24 @@ ms.workload:
 ---
 # MSBuild reference
 
-[!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] is the build system for [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. The following links lead to topics that contain [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] reference information.
+MSBuild is the build system for Visual Studio. The following links lead to topics that contain MSBuild reference information.
 
 ## In this section
 
 - [Project file schema reference](../msbuild/msbuild-project-file-schema-reference.md)\
- Describes the XML elements that make up the [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] file format.
+ Describes the XML elements that make up the MSBuild file format.
 
 - [Task reference](../msbuild/msbuild-task-reference.md)\
- Describes some of the typical tasks that are included with [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)].
+ Describes some of the typical tasks that are included with MSBuild.
 
 - [Conditions](../msbuild/msbuild-conditions.md)\
- Describes the conditions that are available in [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] files.
+ Describes the conditions that are available in MSBuild files.
 
 - [Conditional constructs](../msbuild/msbuild-conditional-constructs.md)\
  Describes how to use the `Choose`, `When`, and `Otherwise` elements.
 
 - [MSBuild reserved and well-known properties](../msbuild/msbuild-reserved-and-well-known-properties.md)\
- Describes the [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] reserved properties.
+ Describes the MSBuild reserved properties.
 
 - [Common MSBuild project properties](../msbuild/common-msbuild-project-properties.md)\
  Describes project properties that are common to all project types, and also properties that are often used by particular project types.
@@ -44,10 +44,10 @@ ms.workload:
  Describes project items that are common to all project types, and also items that are often used by particular project types.
 
 - [Command-line reference](../msbuild/msbuild-command-line-reference.md)\
- Describes the arguments and switches that can be used with [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)].exe.
+ Describes the arguments and switches that can be used with MSBuild.exe.
 
 - [.Targets files](../msbuild/msbuild-dot-targets-files.md)\
- Describes the *.Targets* file that is included in [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)].
+ Describes the *.Targets* file that is included in MSBuild.
 
 - [Well-known item metadata](../msbuild/msbuild-well-known-item-metadata.md)\
  Lists the metadata that is created together with every item.
@@ -56,10 +56,10 @@ ms.workload:
  Explains the *.rsp* files that contain command-line switches.
 
 - [Additional resources](https://social.msdn.microsoft.com/forums/vstudio/home?forum=msbuild)\
- Provides links to [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] websites and newsgroups.
+ Provides links to MSBuild websites and newsgroups.
 
 - [WPF MSBuild reference](../msbuild/wpf-msbuild-reference.md)\
- Contains an [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] targets and task reference for Windows Presentation Foundation (WPF).
+ Contains an MSBuild targets and task reference for Windows Presentation Foundation (WPF).
 
 - [Special characters to escape](../msbuild/special-characters-to-escape.md)\
  Lists the characters that may have to be "escaped" to be interpreted correctly. An escape sequence is a series of characters that signifies that what follows is an alternative interpretation.

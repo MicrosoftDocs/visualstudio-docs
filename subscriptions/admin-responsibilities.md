@@ -3,6 +3,7 @@ title: Administrator Responsibilities | Visual Studio Marketplace
 author: evanwindom
 ms.author: lank
 manager: lank
+ms.assetid: b26b31dc-1eeb-4871-9ce6-2c980e703f1e
 ms.date: 07/20/2019
 ms.topic: conceptual
 description:  Learn about responsibilities of subscriptions administrators.
@@ -28,6 +29,12 @@ Visual Studio subscriptions allow development team members to install and use so
 | Not intended for production environments | Visual Studio subscriptions software is not licensed for production environments, including any environment accessed by end users for more than acceptance testing or feedback, an environment connecting to a production database, supporting disaster recovery or production backup, or used for production during peak periods of activity. Exceptions to this include specific benefits for certain subscription levels, outlined in the [Visual Studio Licensing White Paper](https://visualstudio.microsoft.com/wp-content/uploads/2019/06/Visual-Studio-Licensing-Whitepaper-May-2019.pdf).                                                                                            |
 | License reassignment                     | When a user leaves a team and no longer requires a license, you may reassign the license after 90 days have passed. When you reassign a license, any product keys that were already used will still be available but will not be replaced. For organizations that have Enterprise Agreements (EA), any benefits that were used by the original user, such as Pluralsight training, will be reset.                                                                                                                                                                                                                                                 |
 | Exception for end users                  | At the end of a software development project, end users typically review an application and determine whether it meets the necessary criteria for release. This process is called user acceptance testing (UAT). Team members such as a business sponsor or a product manager can act as proxies for end users. End users who do not have a Visual Studio subscription may access the software for UAT if use of the software otherwise complies with all Visual Studio licensing terms. It is rare that someone whose primary role is designing, developing, or testing the software would also qualify as an “end user”. |
+
+## See also
+- [Visual Studio documentation](https://docs.microsoft.com/visualstudio/)
+- [Azure DevOps documentation](https://docs.microsoft.com/azure/devops/)
+- [Azure documentation](https://docs.microsoft.com/azure/)
+- [Microsoft 365 documentation](https://docs.microsoft.com/microsoft-365/)
 
 ## Next steps
 Learn more about responsibilities for administrators:

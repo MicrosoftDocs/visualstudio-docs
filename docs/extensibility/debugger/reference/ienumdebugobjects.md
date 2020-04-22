@@ -1,17 +1,17 @@
 ---
-title: "IEnumDebugObjects | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IEnumDebugObjects | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IEnumDebugObjects"
+- IEnumDebugObjects
 helpviewer_keywords:
-  - "IEnumDebugObjects interface"
+- IEnumDebugObjects interface
 ms.assetid: 0950364c-6c8a-4b6c-ba37-c6aa359fa72c
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # IEnumDebugObjects
 > [!IMPORTANT]

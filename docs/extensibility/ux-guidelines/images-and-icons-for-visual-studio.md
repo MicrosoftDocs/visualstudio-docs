@@ -1,13 +1,13 @@
 ---
-title: "Images and Icons for Visual Studio | Microsoft Docs"
-ms.date: "04/26/2017"
-ms.topic: "conceptual"
+title: Images and Icons for Visual Studio | Microsoft Docs
+ms.date: 04/26/2017
+ms.topic: conceptual
 ms.assetid: f410325e-9cf2-4f39-b6d7-b672121c2691
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Images and Icons for Visual Studio
 ## <a name="BKMK_ImageUseInVisualStudio"></a> Image use in Visual Studio

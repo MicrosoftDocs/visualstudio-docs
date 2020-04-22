@@ -1,20 +1,20 @@
 ---
-title: "IDebugAlias::Dispose | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugAlias::Dispose | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugAlias::Dispose"
+- IDebugAlias::Dispose
 helpviewer_keywords:
-  - "IDebugAlias::Dispose method"
+- IDebugAlias::Dispose method
 ms.assetid: e84909a4-d378-4f48-bf25-2c014c77c8e3
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugAlias::Dispose
 Marks this alias for removal.

@@ -1,17 +1,17 @@
 ---
-title: "Changing the Appearance of a Command | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Changing the Appearance of a Command | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "commands, changing appearance"
-  - "menu commands, changing appearance"
-  - "menus, changing command appearance"
+- commands, changing appearance
+- menu commands, changing appearance
+- menus, changing command appearance
 ms.assetid: da2474fa-f92d-4e9e-b8bf-67c61bf249c2
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Change the appearance of a command
 You can provide feedback to your user by changing the appearance of a command. For example, you may want a command to look different when it is unavailable. You can make commands available or unavailable, hide or show them, or check or uncheck them on the menu.

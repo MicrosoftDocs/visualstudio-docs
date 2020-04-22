@@ -1,9 +1,10 @@
 ---
 title: How to purchase Visual Studio cloud subscriptions
 author: evanwindom
-ms.author: lank
+ms.author: v-evwin
 manager: lank
-ms.date: 07/28/2019
+ms.assetid: af1f7888-6942-4515-9475-0928ecf49dab
+ms.date: 03/24/2020
 ms.topic: conceptual
 description:  Rent Visual Studio Professional or Visual Studio Enterprise on a month-to-month or annual basis, with no long-term contract.
 ---
@@ -115,6 +116,12 @@ A:  Although they will not be able to buy another Cloud Annual subscription, the
 - [Visual Studio subscription support](https://visualstudio.microsoft.com/vs/support/)
 - [Visual Studio cloud subscription billing FAQ](vscloud-billing-faq.md)
 - [Visual Studio cloud subscription purchasing for CSPs](vscloud-csp.md)
+
+## See also
+- [Visual Studio documentation](https://docs.microsoft.com/visualstudio/)
+- [Azure DevOps documentation](https://docs.microsoft.com/azure/devops/)
+- [Azure documentation](https://docs.microsoft.com/azure/)
+- [Microsoft 365 documentation](https://docs.microsoft.com/microsoft-365/)
 
 ## Next steps
 Buy cloud subscriptions

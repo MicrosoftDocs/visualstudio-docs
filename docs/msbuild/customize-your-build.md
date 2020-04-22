@@ -183,6 +183,72 @@ For example, you could define a new target to write a custom log message after b
 </Project>
 ```
 
+## Customize all .NET builds
+
+When maintaining a build server, you might need to configure MSBuild settings globally for all builds on the server.  In principle, you could modify the global *Microsoft.Common.Targets* or *Microsoft.Common.Props* files, but there is a better way. You can affect all builds of a certain project type (such as all C# projects) by using certain MSBuild properties and adding certain custom `.targets` and `.props` files.
+
+To affect all C# or Visual Basic builds governed by an installation of MSBuild or Visual Studio, create a file *Custom.Before.Microsoft.Common.Targets* or *Custom.After.Microsoft.Common.Targets* with targets that will run before or after *Microsoft.Common.targets*, or a file *Custom.Before.Microsoft.Common.Props* or *Custom.After.Microsoft.Common.Props* with properties that will be processed before or after *Microsoft.Common.props*.
+
+You can specify the locations of these files by using the following MSBuild properties:
+
+- CustomBeforeMicrosoftCommonProps
+- CustomBeforeMicrosoftCommonTargets
+- CustomAfterMicrosoftCommonProps
+- CustomAfterMicrosoftCommonTargets
+- CustomBeforeMicrosoftCSharpProps
+- CustomBeforeMicrosoftVisualBasicProps
+- CustomAfterMicrosoftCSharpProps
+- CustomAfterMicrosoftVisualBasicProps
+- CustomBeforeMicrosoftCSharpTargets
+- CustomBeforeMicrosoftVisualBasicTargets
+- CustomAfterMicrosoftCSharpTargets
+- CustomAfterMicrosoftVisualBasicTargets
+
+The *Common* versions of these properties affect both C# and Visual Basic projects. You can set these properties in the MSBuild command line.
+
+```cmd
+msbuild /p:CustomBeforeMicrosoftCommonTargets="C:\build\config\Custom.Before.Microsoft.Common.Targets" MyProject.csproj
+```
+
+The best approach depends on your scenario. If you have a dedicated build server and want to ensure that certain targets always execute on all builds of the appropriate project type that execute on that server, then using a global custom `.targets` or `.props` file makes sense.  If you want the custom targets to only execute when certain conditions apply, then use another file location and set the path to that file by setting the appropriate MSBuild property in the MSBuild command line only when needed.
+
+> [!WARNING]
+> Visual Studio uses the custom `.targets` or `.props` files if it finds them in the MSBuild folder whenever it builds any project of the matching type. This can have unintended consequences, and if done incorrectly, can disable the ability of Visual Studio to build on your computer.
+
+## Customize all C++ builds
+
+For C++ projects, the previously mentioned custom `.targets` and `.props` files are ignored. For C++ projects, you can create `.targets` files for each platform and place them in the appropriate import folders for those platforms.
+
+The `.targets` file for the Win32 platform, *Microsoft.Cpp.Win32.targets*, contains the following `Import` element:
+
+```xml
+<Import Project="$(VCTargetsPath)\Platforms\Win32\ImportBefore\*.targets"
+        Condition="Exists('$(VCTargetsPath)\Platforms\Win32\ImportBefore')"
+/>
+```
+
+There's a similar element near the end of the same file:
+
+```xml
+<Import Project="$(VCTargetsPath)\Platforms\Win32\ImportAfter\*.targets"
+        Condition="Exists('$(VCTargetsPath)\Platforms\Win32\ImportAfter')"
+/>
+```
+
+Similar import elements exist for other target platforms in *%ProgramFiles32%\MSBuild\Microsoft.Cpp\v{version}\Platforms\*.
+
+Once you place the `.targets` file in the appropriate folder according to the platform, MSBuild imports your file into every C++ build for that platform. You can put multiple `.targets` files there, if needed.
+
+### Specify a custom import on the command line
+
+For custom `.targets` that you want to include for a specific build of a C++ project, set one or both of the properties `ForceImportBeforeCppTargets` and `ForceImportAfterCppTargets` on the command line.
+
+```cmd
+msbuild /p:ForceImportBeforeCppTargets="C:\build\config\Custom.Before.Microsoft.Cpp.Targets" MyCppProject.vcxproj
+```
+
+For a global setting (to affect, say, all C++ builds for a platform on a build server), there are two methods. First, you can set these properties using a system environment variable that is always set. This works because MSBuild always reads the environment and creates (or overrides) properties for all the environment variables.
+
 ## See also
 
 - [MSBuild concepts](../msbuild/msbuild-concepts.md)

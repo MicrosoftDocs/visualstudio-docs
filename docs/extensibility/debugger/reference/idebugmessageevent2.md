@@ -1,17 +1,17 @@
 ---
-title: "IDebugMessageEvent2 | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugMessageEvent2 | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugMessageEvent2"
+- IDebugMessageEvent2
 helpviewer_keywords:
-  - "IDebugMessageEvent2 interface"
+- IDebugMessageEvent2 interface
 ms.assetid: a9ff3d00-e9ac-4cd6-bda9-584a4815aff8
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # IDebugMessageEvent2
 This interface is used by the debug engine (DE) to send a message to Visual Studio that requires a response from the user.

@@ -1,20 +1,20 @@
 ---
-title: "IEEDataStorage::GetSize | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IEEDataStorage::GetSize | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IEEDataStorage::GetSize"
+- IEEDataStorage::GetSize
 helpviewer_keywords:
-  - "IEEDataStorage::GetSize"
+- IEEDataStorage::GetSize
 ms.assetid: 33d232c4-1239-4abc-922b-e1bc5b908169
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IEEDataStorage::GetSize
 Returns the number of bytes contained in this object.
