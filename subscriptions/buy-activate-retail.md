@@ -10,7 +10,7 @@ description:  Learn how to purchase Visual Studio subscriptions in the Microsoft
 ---
 
 # Visual Studio subscriptions are available through the Microsoft Store
-Visual Studio subscriptions are available through a variety of channels, including [Volume Licensing](https://www.microsoft.com/licensing/default), Cloud Solution Providers, the [Visual Studio Marketplace](https://marketplace.visualstudio.com/subscriptions), and Microsoft Store.  This article will explore purchasing and activating subscriptions through the [Microsoft Store](https://www.microsoft.com/search?q=visual+studio+subscription).  
+Visual Studio subscriptions are available through a variety of channels, including [Volume Licensing](https://www.microsoft.com/licensing/default), Cloud Solution Providers, the [Visual Studio Marketplace](https://marketplace.visualstudio.com/subscriptions), and Microsoft Store.  This article will explore purchasing and activating subscriptions through the [Microsoft Store](https://www.microsoft.com/store/collections/visualstudio).  
 
 ## How to buy subscriptions
 Need help deciding which subscription is right for you?  Check out our [subscription benefits page](https://visualstudio.microsoft.com/vs/benefits/).  
