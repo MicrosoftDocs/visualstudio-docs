@@ -3,7 +3,8 @@ title:  Super admin and administrator roles in the Administration Portal
 author: evanwindom
 ms.author: lank
 manager: lank
-ms.date: 03/02/2020
+ms.assetid: 6601c395-f778-48c1-ab76-cf454b9193e4
+ms.date: 04/07/2020
 ms.topic: conceptual
 description: Learn about the super admin and administrator roles, and how to assign administrators. 
 ---
@@ -15,6 +16,8 @@ There are two different roles in the new Visual Studio Subscriptions Administrat
 **Super admins:** When an organization is initially set up, the Primary or Notices Contact becomes a super admin by default. The Primary or Notices Contact can choose to assign additional super admins or administrators. A super admin can add and remove other administrators as well as subscribers. If there are more than two super admins in the system, a super-admin can delete all but the last two for security.
 
 **Administrators:** An administrator can only be assigned by a super admin. An administrator can only manage subscribers in the agreements that the super admin assigns to them.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4th6L]
 
 ## Assigning administrators
 To assign new administrators (admins):

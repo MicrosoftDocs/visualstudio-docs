@@ -1,17 +1,17 @@
 ---
-title: "SccRename Function | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: SccRename Function | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 f1_keywords:
-  - "SccRename"
+- SccRename
 helpviewer_keywords:
-  - "SccRename function"
+- SccRename function
 ms.assetid: b467ade6-a1db-4c0b-b60f-7850ec4f79eb
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # SccRename Function
 This function renames a file in the source control system.

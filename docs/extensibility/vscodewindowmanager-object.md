@@ -1,18 +1,18 @@
 ---
-title: "VSCodeWindowManager Object | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: VSCodeWindowManager Object | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 f1_keywords:
-  - "VSCodeWindowManager"
+- VSCodeWindowManager
 helpviewer_keywords:
-  - "VsCodeWindowManager object"
-  - "views [Visual Studio SDK], VSCodeWindowManager object"
+- VsCodeWindowManager object
+- views [Visual Studio SDK], VSCodeWindowManager object
 ms.assetid: e313add5-afdb-4d8d-abd1-764e1fc10c44
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # VSCodeWindowManager object
 

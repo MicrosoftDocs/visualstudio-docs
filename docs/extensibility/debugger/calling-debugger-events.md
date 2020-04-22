@@ -1,15 +1,15 @@
 ---
-title: "Calling Debugger Events | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Calling Debugger Events | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "debugging [Debugging SDK], events"
+- debugging [Debugging SDK], events
 ms.assetid: b3440ac3-80af-40c6-bef4-cbf00fa67885
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Call debugger events
 Events in debugging sessions occur in a specific order.

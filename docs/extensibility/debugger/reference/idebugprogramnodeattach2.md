@@ -1,17 +1,17 @@
 ---
-title: "IDebugProgramNodeAttach2 | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugProgramNodeAttach2 | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugProgramNodeAttach2"
+- IDebugProgramNodeAttach2
 helpviewer_keywords:
-  - "IDebugProgramNodeAttach2 interface"
+- IDebugProgramNodeAttach2 interface
 ms.assetid: 46b37ac9-a026-4ad3-997b-f19e2f8deb73
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # IDebugProgramNodeAttach2
 Allows a program node to be notified of an attempt to attach to the associated program.

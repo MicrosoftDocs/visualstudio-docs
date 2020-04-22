@@ -1,18 +1,18 @@
 ---
-title: "TemplateData Element (Visual Studio Templates) | Microsoft Docs"
-ms.date: "11/04/2016"
+title: TemplateData Element (Visual Studio Templates) | Microsoft Docs
+ms.date: 11/04/2016
 ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
-  - "http://schemas.microsoft.com/developer/vstemplate/2005#TemplateData"
+- http://schemas.microsoft.com/developer/vstemplate/2005#TemplateData
 helpviewer_keywords:
-  - "TemplateData element [Visual Studio project templates]"
+- TemplateData element [Visual Studio project templates]
 ms.assetid: db17ec9b-bfdf-46b1-bbe7-5ccc140056e2
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # TemplateData Element (Visual Studio Templates)
 Categorizes the template and defines how it displays in either the **New Project** or the **Add New Item** dialog box.

@@ -34,6 +34,7 @@ You can download agents for Visual Studio 2017, Visual Studio 2015, and Visual S
 
 These installers are available as ISO files for easy installation on virtual machines.
 
+::: moniker range="vs-2017"
 ## Compatible versions of TFS, Microsoft Test Manager, the test controller, and test agent
 
 You can mix different versions of TFS, Microsoft Test Manager, the test controller, and the test agent, according to the following table:
@@ -47,6 +48,23 @@ You can mix different versions of TFS, Microsoft Test Manager, the test controll
 | 2015: new install | 2013 | 2013 | 2013 |
 | 2015: upgrade from 2013 or new install | 2015 | 2013 | 2013 |
 | 2013 | 2015 | 2013 | 2013 |
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+## Compatible versions of TFS, the test controller, and test agent
+
+You can mix different versions of TFS, the test controller, and the test agent, according to the following table:
+
+| TFS | Controller | Agent |
+| --- | -------------------------------------- | ---------- | ----- |
+| 2017: upgrade from 2015 or new install | 2017 | 2017 |
+| 2017: upgrade from 2015 or new install | 2013 Update 5 | 2013 Update 5 |
+| 2017: upgrade from 2015 or new install | 2013 Update 5 | 2013 Update 5 |
+| 2015: upgrade from 2013 | 2013 |2013 |
+| 2015: new install | 2013 | 2013 |
+| 2015: upgrade from 2013 or new install | 2013 | 2013 |
+| 2013 | 2013 | 2013 |
+::: moniker-end
 
 > [!NOTE]
 > Lab management scenarios in TFS 2018 and Azure DevOps Services are deprecated. For more information see [TFS 2018 Release Notes](/visualstudio/releasenotes/tfs2018-relnotes#--removing-support-for-lab-center-and-automated-testing-flows-in-microsoft-test-manager).
@@ -61,5 +79,5 @@ The following table shows the scenarios supported by Agents for Visual Studio 20
 | - | - |
 | Build-Deploy-Test workflow in Visual Studio | Users can use a [build pipeline](/azure/devops/pipelines/index?view=vsts) (not a XAML build) for build, deploy, and test scenarios in TFS. |
 | Load testing (performance testing) using on-premises remote machines | Use Test Controller and Test Agents 2013 Update 5 to run load tests on-premises. |
-| Remote execution of automated tests from Microsoft Test Manager using a lab environment | Currently there is no alternative for this scenario. We recommend you use the Run Functional Tests task in build and release definitions (not in a XAML build) to execute tests remotely. |
+| Remote execution of automated tests from Microsoft Test Manager (deprecated in Visual Studio 2017) using a lab environment | Currently there is no alternative for this scenario. We recommend you use the Run Functional Tests task in build and release definitions (not in a XAML build) to execute tests remotely. |
 | Developers executing remote tests in Visual Studio | No longer supported. |

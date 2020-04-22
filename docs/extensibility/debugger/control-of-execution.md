@@ -1,15 +1,15 @@
 ---
-title: "Control of Execution | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Control of Execution | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "debugging [Debugging SDK], control of execution"
+- debugging [Debugging SDK], control of execution
 ms.assetid: 97071846-007e-450f-95a6-f072d0f5e61e
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Control of execution
 The debug engine (DE) typically sends one of the following events as the last startup event:

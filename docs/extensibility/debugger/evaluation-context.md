@@ -1,16 +1,16 @@
 ---
-title: "Evaluation Context | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Evaluation Context | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "debugging [Debugging SDK], expression evaluation"
-  - "expression evaluation, context"
+- debugging [Debugging SDK], expression evaluation
+- expression evaluation, context
 ms.assetid: 008a20c7-1b27-4013-bf96-d6a3f510da02
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Evaluation context
 > [!IMPORTANT]

@@ -1,17 +1,17 @@
 ---
-title: "Elimination of ~SAK Files | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Elimination of ~SAK Files | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "temporary files"
-  - "~sak files"
-  - "source control plug-ins, ~SAK files"
+- temporary files
+- ~sak files
+- source control plug-ins, ~SAK files
 ms.assetid: 5277b5fa-073b-4bd1-8ba1-9dc913aa3c50
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Elimination of ~SAK files
 In Source Control Plug-in API 1.2, the *~SAK* files have been replaced by capability flags and new functions that detect whether a source control plug-in supports the *MSSCCPRJ* file and shared checkouts.

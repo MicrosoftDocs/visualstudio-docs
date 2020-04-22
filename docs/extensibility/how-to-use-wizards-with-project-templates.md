@@ -1,19 +1,19 @@
 ---
-title: "How to: Use Wizards with Project Templates"
-ms.date: "3/16/2019"
-ms.topic: "conceptual"
+title: 'How to: Use Wizards with Project Templates'
+ms.date: 3/16/2019
+ms.topic: conceptual
 helpviewer_keywords:
-  - "project templates [Visual Studio], wizards"
-  - "Visual Studio templates, wizards"
-  - "wizards [Visual Studio], project templates"
-  - "templates [Visual Studio], wizards"
-  - "IWizard interface"
+- project templates [Visual Studio], wizards
+- Visual Studio templates, wizards
+- wizards [Visual Studio], project templates
+- templates [Visual Studio], wizards
+- IWizard interface
 ms.assetid: 47ee26cf-67b7-4ff1-8a9d-ab11a725405c
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # How to: Use wizards with project templates
 

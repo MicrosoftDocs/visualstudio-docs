@@ -1,13 +1,13 @@
 ---
-title: "Roslyn Analyzers and Code-aware Library for ImmutableArrays | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Roslyn Analyzers and Code-aware Library for ImmutableArrays | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 ms.assetid: 0b0afa22-3fca-4d59-908e-352464c1d903
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Roslyn analyzers and code-aware library for ImmutableArrays
 
@@ -306,4 +306,4 @@ You can see all the finished code [here](https://github.com/DustinCampbell/CoreF
 * [Completed code on GitHub](https://github.com/DustinCampbell/CoreFxAnalyzers/tree/master/Source/CoreFxAnalyzers)
 * [Several examples on GitHub, grouped into three kinds of analyzers](https://github.com/dotnet/roslyn/blob/master/docs/analyzers/Analyzer%20Samples.md)
 * [Other docs on the GitHub OSS site](https://github.com/dotnet/roslyn/tree/master/docs/analyzers)
-* [FxCop rules implemented with Roslyn analyzers on GitHub](https://github.com/dotnet/roslyn/tree/master/src/Diagnostics/FxCop)
+* [FxCop rules implemented with Roslyn analyzers on GitHub](https://github.com/dotnet/roslyn/tree/master/src/Features/Core/Portable/Diagnostics/Analyzers)

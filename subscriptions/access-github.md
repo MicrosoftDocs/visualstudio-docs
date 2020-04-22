@@ -3,6 +3,7 @@ title: Visual Studio + GitHub Offer | Microsoft Docs
 author: evanwindom
 ms.author: lank
 manager: lank
+ms.assetid: 2249b32a-46d7-4e29-b543-4769c71ceda6
 ms.date: 02/17/2020
 ms.topic: conceptual
 description: Learn about the new Visual Studio + GitHub offer

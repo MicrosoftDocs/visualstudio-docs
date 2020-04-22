@@ -2,9 +2,10 @@
 title: Create a project
 description: create project using sample from azure machine learning gallery
 keywords: ai, visual studio, azure machine learning
-author: lisawong19
-ms.author: liwong
-manager: routlaw
+author: jillre
+ms.author: jillfra
+manager: jillfra
+monikerRange: vs-2017
 ms.date: 11/13/2017
 ms.topic: "conceptual"
 ms.workload:

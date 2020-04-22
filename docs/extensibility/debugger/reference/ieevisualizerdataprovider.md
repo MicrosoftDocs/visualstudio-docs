@@ -1,20 +1,20 @@
 ---
-title: "IEEVisualizerDataProvider | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IEEVisualizerDataProvider | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IEEVisualizerDataProvider"
+- IEEVisualizerDataProvider
 helpviewer_keywords:
-  - "IEEVisualizerDataProvider interface"
+- IEEVisualizerDataProvider interface
 ms.assetid: 5fdfe6e3-b94e-4edb-acc5-41d8773d8ca5
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IEEVisualizerDataProvider
 > [!IMPORTANT]

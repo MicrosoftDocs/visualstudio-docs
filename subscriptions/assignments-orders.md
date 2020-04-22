@@ -3,6 +3,7 @@ title: Track user assignments and process orders | Visual Studio Marketplace
 author: evanwindom
 ms.author: lank
 manager: lank
+ms.assetid: 83a9162a-b9e7-43a4-b07f-6c1fd8580f78
 ms.date: 03/02/2020
 ms.topic: conceptual
 description:  Learn about administrators' responsibilty to track user assignments and process orders.

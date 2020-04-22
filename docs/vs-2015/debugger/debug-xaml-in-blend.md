@@ -108,7 +108,7 @@ You can use the tools in [!INCLUDE[blend_first](../includes/blend-first-md.md)] 
   
 4. Double-click "The member 'content' is not recognized or is not accessible." The `c` in `content` should be upper-case. Replace the lower-case "c" with an upper-case "c."  
   
-5. Double-click "The property 'Mame' does not exist in the '<https://schemas.microsoft.com/winfx/2006/xaml>' namespace." The "M" in "Mame" should be an "N." Replace the "M" with an "N." Now that the XAML can be parsed, the app appears on the design surface.  
+5. Double-click "The property 'Mame' does not exist in the `https://schemas.microsoft.com/winfx/2006/xaml` namespace." The "M" in "Mame" should be an "N." Replace the "M" with an "N." Now that the XAML can be parsed, the app appears on the design surface.  
   
     ![Debugging XAML in Blend for Visual Studio](../debugger/media/blend-debugartboard-xaml.png "blend_debugArtboard_XAML")  
   

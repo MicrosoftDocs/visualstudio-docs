@@ -47,7 +47,7 @@
           topicHref: /visualstudio/profiling/index
         - name: Testing
           tocHref: /visualstudio/test/
-          topicHref: /visualstudio/test/improve-code-quality
+          topicHref: /visualstudio/test/index
         - name: Workflow Designer
           tocHref: /visualstudio/workflow-designer/
           topicHref: /visualstudio/workflow-designer/developing-applications-with-the-workflow-designer
@@ -102,3 +102,6 @@
         - name: VSTO
           tocHref: /visualstudio/vsto/
           topicHref: /visualstudio/vsto/create-vsto-add-ins-for-office-by-using-visual-studio
+      - name: Azure Development
+        tocHref: /visualstudio/azure
+        topicHref: /visualstudio/azure/index

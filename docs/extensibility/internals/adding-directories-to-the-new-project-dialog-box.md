@@ -1,15 +1,15 @@
 ---
-title: "Adding Directories to the New Project Dialog Box | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Adding Directories to the New Project Dialog Box | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "New Project dialog box, extending"
+- New Project dialog box, extending
 ms.assetid: 53b328f5-20bb-49a3-bf9e-1818f4fbdf50
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Add directories to the New Project dialog box
 When you create new project types, you also can register a new directory in the **New Project** dialog box to display them for use as templates. The following code example explains how to register a new directory, also known as a node. In the example, templates exposed by the VSPackage, *CLSID_Package*, are registered. As a result, the left side of the **New Project** dialog box offers the added node, with a name determined by the *Folder_Label_ResID* resource. This resource is loaded from the VSPackage satellite DLL.

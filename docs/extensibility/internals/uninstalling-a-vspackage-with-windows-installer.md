@@ -1,17 +1,17 @@
 ---
-title: "Uninstalling a VSPackage With Windows Installer | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Uninstalling a VSPackage With Windows Installer | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "packages, uninstalling"
-  - "VSPackages, uninstalling"
-  - "uninstalling VSPackages"
+- packages, uninstalling
+- VSPackages, uninstalling
+- uninstalling VSPackages
 ms.assetid: c4575ac7-82da-4af8-a375-ea756a101fbf
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Uninstalling a VSPackage With Windows Installer
 For the most part, Windows Installer can uninstall your VSPackage just by "undoing" what it did to install your VSPackage. The custom actions discussed in [Commands That Must Be Run After Installation](../../extensibility/internals/commands-that-must-be-run-after-installation.md) must be run after an uninstall as well. Because the calls to devenv.exe occur just before the InstallFinalize standard action for both installation and uninstallation, the CustomAction and InstallExecuteSequence table entries serve both cases.

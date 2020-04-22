@@ -1,20 +1,20 @@
 ---
-title: "IDebugParsedExpression::EvaluateSync | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugParsedExpression::EvaluateSync | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugParsedExpression::EvaluateSync"
+- IDebugParsedExpression::EvaluateSync
 helpviewer_keywords:
-  - "IDebugParsedExpression::EvaluateSync method"
+- IDebugParsedExpression::EvaluateSync method
 ms.assetid: 0ea04cfa-de87-4b6c-897e-4572c1a28942
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugParsedExpression::EvaluateSync
 This method evaluates the parsed expression and optionally casts the result to another data type.

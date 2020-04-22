@@ -1,20 +1,20 @@
 ---
-title: "IDebugEngine3::SetSymbolPath | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugEngine3::SetSymbolPath | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugEngine3::SetSymbolPath"
+- IDebugEngine3::SetSymbolPath
 helpviewer_keywords:
-  - "IDebugEngine3::SetSymbolPath"
+- IDebugEngine3::SetSymbolPath
 ms.assetid: 47b48f84-8a96-401f-84df-0baa8a96d26e
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugEngine3::SetSymbolPath
 Sets the path or paths that are searched for debugging symbols.

@@ -1,9 +1,10 @@
 ---
 title: Office 365 Pro Plus Benefit | Microsoft Docs
 author: evanwindom
-ms.author: lank
+ms.author: v-evwin
 manager: lank
-ms.date: 08/02/2019
+ms.assetid: 9c70adf7-7d1b-4322-8e34-9149e8735a13
+ms.date: 04/20/2020
 ms.topic: conceptual
 description:  Learn about the Office 365 Pro Plus benefit included in some Visual Studio subscriptions.
 ---

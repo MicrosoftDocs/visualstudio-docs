@@ -1,16 +1,16 @@
 ---
-title: "New Project Generation: Under the Hood, Part Two | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: 'New Project Generation: Under the Hood, Part Two | Microsoft Docs'
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "projects [Visual Studio], new project dialog"
-  - "projects [Visual Studio], new project generation"
+- projects [Visual Studio], new project dialog
+- projects [Visual Studio], new project generation
 ms.assetid: 73ce91d8-0ab1-4a1f-bf12-4d3c49c01e13
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # New Project Generation: Under the Hood, Part Two
 

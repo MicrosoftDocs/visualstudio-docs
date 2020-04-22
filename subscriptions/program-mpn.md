@@ -3,6 +3,7 @@ title: Visual Studio subscriptions offered to partners in the Microsoft Partner 
 author: evanwindom
 ms.author: lank
 manager: lank
+ms.assetid: 7f4399d8-41da-41e5-a666-acc34958b8c0
 ms.date: 03/09/2020
 ms.topic: conceptual
 description:  Details on what subscriptions are offered, what rules apply, and how many subscriptions are offered in MPN.

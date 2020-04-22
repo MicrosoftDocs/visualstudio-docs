@@ -1,21 +1,21 @@
 ---
-title: "IDebugMemoryBytes2::GetSize | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugMemoryBytes2::GetSize | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugMemoryBytes2::GetSize"
+- IDebugMemoryBytes2::GetSize
 helpviewer_keywords:
-  - "IDebugMemoryBytes2::GetSize method"
-  - "GetSize method"
+- IDebugMemoryBytes2::GetSize method
+- GetSize method
 ms.assetid: dae64c5f-5b54-40c3-b32f-ec3b16c093f7
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugMemoryBytes2::GetSize
 Retrieves the size, in bytes, of the memory represented by this [IDebugMemoryBytes2](../../../extensibility/debugger/reference/idebugmemorybytes2.md) object.

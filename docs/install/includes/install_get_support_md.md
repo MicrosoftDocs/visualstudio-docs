@@ -2,7 +2,7 @@
 author: ornellaalt
 ms.author: ornella
 manager: jillfra
-ms.date: 03/02/2019
+ms.date: 03/23/2020
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
 ms.topic: include
@@ -11,7 +11,7 @@ ms.topic: include
 
 Sometimes, things can go wrong. If your Visual Studio installation fails, see [Troubleshoot Visual Studio installation and upgrade issues](../troubleshooting-installation-issues.md) for step-by-step guidance.
 
-We also offer a [**live chat**](https://visualstudio.microsoft.com/vs/support/#talktous) (English only) support option for installation-related issues.
+We also offer an [**installation chat**](https://visualstudio.microsoft.com/vs/support/#talktous) (English only) support option for installation-related issues.
 
 Here are a few more support options:
 

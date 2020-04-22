@@ -1,20 +1,20 @@
 ---
-title: "IDebugProgramNode2::GetEngineInfo | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugProgramNode2::GetEngineInfo | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugProgramNode2::GetEngineInfo"
+- IDebugProgramNode2::GetEngineInfo
 helpviewer_keywords:
-  - "IDebugProgramNode2::GetEngineInfo"
+- IDebugProgramNode2::GetEngineInfo
 ms.assetid: 664e7fe5-9100-4b7d-9dc5-e5a4dd0d0451
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugProgramNode2::GetEngineInfo
 Gets the name and identifier of the debug engine (DE) running a program.

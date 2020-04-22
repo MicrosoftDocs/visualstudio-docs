@@ -3,6 +3,7 @@ title: Inventory of pre-production environments | Visual Studio Marketplace
 author: evanwindom
 ms.author: lank
 manager: lank
+ms.assetid: 7d74e113-8fb2-490e-8502-48cce7b1327a
 ms.date: 03/06/2020
 ms.topic: conceptual
 description:  Learn about administrators' responsibilty to conduct pre-production inventories

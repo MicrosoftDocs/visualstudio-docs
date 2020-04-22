@@ -30,6 +30,21 @@ The **Diagnostic Tools** window is often the preferred way to profile apps, but 
 > [!NOTE]
 > You can use the post-mortem tools with Windows 7 and later. Windows 8 and later is required to run profiling tools with the debugger (**Diagnostic Tools** window).
 
+## Examine performance using PerfTips
+
+Often, the easiest way to view performance information is to use [PerfTips](../profiling/perftips.md). Using PerfTips, you can view performance information while interacting with your code. You can check information such as the duration of the event (measured from when the debugger was last paused, or when the app started). For example, if you step through code (F10, F11), PerfTips show you the app runtime duration from the previous step operation to the current step.
+
+![Profiling Tour PerfTips](../profiling/media/prof-tour-perf-tips.png "Profiling Tour PerfTips")
+
+You can use PerfTips to examine how long it takes for a code block to execute, or how long it takes for a single function to complete.
+
+PerfTips show the same events that also show up in the **Events** view of the Diagnostic Tools. In the **Events** view, you can view different events that occur while you are debugging, such as the setting of a breakpoint or a code stepping operation.
+
+![Diagnostic Tools Events view](../profiling/media/prof-tour-events.png "Diagnostic Tools View Events")
+
+ > [!NOTE]
+ > If you have Visual Studio Enterprise, you can also see [IntelliTrace events](../debugger/intellitrace.md) in this tab.
+
 ## Analyze CPU Usage
 
 The CPU Usage tool is a good place to start analyzing your app's performance. It will tell you more about CPU resources that your app is consuming. For a more detailed walkthrough of the CPU Usage tool, see [Measure application performance by analyzing CPU usage](../profiling/beginners-guide-to-performance-profiling.md).
@@ -48,29 +63,11 @@ Double-click on a function that you are interested in, and you will see a more d
 
 ![Diagnostic Tools caller callee "butterfly" view](../profiling/media/prof-tour-cpu-usage-caller-callee.png "Diagnostic Tools Caller Callee View")
 
-> [!TIP]
-> To help analyze performance, you can also use [PerfTips](#examine-performance-events-using-perftips) to step through code and identify how long it takes particular functions or code blocks to complete.
-
-## Examine performance events using PerfTips
-
-Often, the easiest way to view performance information is to use [PerfTips](../profiling/perftips.md). Using PerfTips, you can view performance information while interacting with your code. You can check information such as the duration of the event (measured from when the debugger was last paused, or when the app started). For example, if you step through code (F10, F11), PerfTips show you the app runtime duration from the previous step operation to the current step.
-
-![Profiling Tour PerfTips](../profiling/media/prof-tour-perf-tips.png "Profiling Tour PerfTips")
-
-You can use PerfTips to examine how long it takes for a code block to execute, or how long it takes for a single function to complete.
-
-PerfTips show the same events that also show up in the **Events** view of the Diagnostic Tools. In the **Events** view, you can view different events that occur while you are debugging, such as the setting of a breakpoint or a code stepping operation.
-
-![Diagnostic Tools Events view](../profiling/media/prof-tour-events.png "Diagnostic Tools View Events")
-
- > [!NOTE]
- > If you have Visual Studio Enterprise, you can also see [IntelliTrace events](../debugger/intellitrace.md) in this tab.
-
 ## Analyze memory usage
 
-The **Diagnostic Tools** window also allows you to evaluate memory usage in your app. For example, you can look at the number and size of objects on the heap. For more detailed instructions to analyze memory, see [Analyze memory usage](../profiling/memory-usage.md).
+The **Diagnostic Tools** window also allows you to evaluate memory usage in your app using the **Memory Usage** tool. For example, you can look at the number and size of objects on the heap. For more detailed instructions to analyze memory, see [Analyze memory usage](../profiling/memory-usage.md). Another memory analysis tool, the [.NET Object Allocation tool](../profiling/dotnet-alloc-tool.md), helps you identify allocation patterns and anomalies in your .NET code.
 
-To analyze memory usage while debugging, you need to take at least one memory snapshot. Often, the best way to analyze memory is to take two snapshots; the first right before a suspected memory issue, and the second snapshot right after a suspected memory issue occurs. Then you can view a diff of the two snapshots and see exactly what changed.
+To analyze memory usage with the debugger-integrated Memory Usage too, you need to take at least one memory snapshot. Often, the best way to analyze memory is to take two snapshots; the first right before a suspected memory issue, and the second snapshot right after a suspected memory issue occurs. Then you can view a diff of the two snapshots and see exactly what changed.
 
 ![Take a snapshot in the Diagnostic Tools](../profiling/media/prof-tour-take-snapshots.gif "Diagnostic Tools Take Snapshots")
 

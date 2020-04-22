@@ -1,15 +1,15 @@
 ---
-title: "IDebugProgram3 | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugProgram3 | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
-  - "IDebugProgram3 interface"
+- IDebugProgram3 interface
 ms.assetid: 4301ba23-c00c-4ce5-8b1e-3f27da312034
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # IDebugProgram3
 This interface represents a program that is running in a process and extends [Execute](../../../extensibility/debugger/reference/idebugprogram2-execute.md) by providing thread information.

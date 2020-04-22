@@ -3,6 +3,7 @@ title: Downloading software titles in Visual Studio subscriptions | Microsoft Do
 author: evanwindom
 ms.author: lank
 manager: lank
+ms.assetid: e2f2619c-7736-47e5-a066-5940d5994db9
 ms.date: 03/07/2020
 ms.topic: conceptual
 description:  Learn how to locate and download Microsoft software titles in Visual Studio subscriptions

@@ -20,7 +20,7 @@ ms.workload:
 ---
 # Measure application performance by analyzing CPU usage
 
-You can use Visual Studio profiling tools to analyze performance issues in your application. This article shows how to use **CPU Usage** tab of the Diagnostics Tools to obtain performance data for your app, and also provides information on using PerfTips.
+You can use Visual Studio profiling tools to analyze performance issues in your application. This article shows how to use **CPU Usage** tab of the Diagnostics Tools to obtain performance data for your app.
 
 When the debugger pauses, the **CPU Usage** tool collects information about the functions that are executing in your application. The tool lists the functions that were performing work, and provides a timeline graph you can use to focus on specific segments of the sampling session.
 
@@ -29,7 +29,7 @@ The Diagnostic hub offers you a lot of other options to run and manage your diag
 > [!Important]
 > The Diagnostics Tools are supported for .NET development in Visual Studio, including ASP.NET, and for native/C++ development.
 
-In this article, we'll discuss analyzing CPU usage in your normal debugging workflow. You can also analyze CPU usage without a debugger attached or by targeting a running app - for more information see [Collect profiling data without debugging](../profiling/running-profiling-tools-with-or-without-the-debugger.md#collect-profiling-data-without-debugging) in [Run profiling tools with or without the debugger](../profiling/running-profiling-tools-with-or-without-the-debugger.md).
+In this article, we'll discuss analyzing CPU usage in your normal debugging workflow. You can also analyze CPU usage without a debugger attached or by targeting a running app. For more information, see [Run profiling tools with or without the debugger](../profiling/running-profiling-tools-with-or-without-the-debugger.md). You can also use another profiling tool, [PerfTips](../profiling/perftips.md), to step through code and identify how long it takes particular functions or code blocks to complete.
 
 You can use the profiling tools without the debugger with Windows 7 and later. Windows 8 and later is required to run profiling tools with the debugger (**Diagnostic Tools** window).
 
@@ -71,15 +71,9 @@ In this tutorial, you will:
 
      When you choose **Record CPU Profile**, Visual Studio will begin recording your functions and how much time they take to execute. You can only view this collected data when your application is halted at a breakpoint.
 
-     > [!TIP]
-     > To help analyze performance, you can also use [PerfTips](../profiling/perftips.md) to step through code and identify how long it takes particular functions or code blocks to complete.
-
 8. Hit F5 to run the app to your second breakpoint.
 
      Now, you now have performance data for your application specifically for the region of code that runs between the two breakpoints.
-
-     >[!TIP]
-     > When paused at a breakpoint or a code-stepping operation, you can also analyze performance using [PerfTips](#analyze-performance-using-perftips).
 
      The profiler begins preparing thread data. Wait for it to finish.
 
@@ -157,12 +151,6 @@ We recommend that you begin analyzing your data by examining the list of functio
 
     > [!NOTE]
     > If you see code in the call tree marked as "broken" code or "unwalkable stack", this indicates that Event Tracing for Windows (ETW) events were likely dropped. Try collecting the same trace a second time to resolve the issue.
-
-## Analyze performance using PerfTips
-
-While running code in the debugger, you can also use [PerfTips](../profiling/perftips.md) for in-depth performance analysis. Using PerfTips, you can view performance information while interacting with your code. You can check information such as the duration of the event (measured from when the debugger was last paused, or when the app started). For example, if you step through code (F10, F11), PerfTips show you the app runtime duration from the previous step operation to the current step.
-
-![Analyze with PerfTips](../profiling/media/diag-tools-perftips.png "AnalyzeWithPerfTips")
 
 ## View external code
 

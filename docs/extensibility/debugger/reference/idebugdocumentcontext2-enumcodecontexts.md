@@ -1,20 +1,20 @@
 ---
-title: "IDebugDocumentContext2::EnumCodeContexts | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugDocumentContext2::EnumCodeContexts | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugDocumentContext2::EnumCodeContexts"
+- IDebugDocumentContext2::EnumCodeContexts
 helpviewer_keywords:
-  - "IDebugDocumentContext2::EnumCodeContexts"
+- IDebugDocumentContext2::EnumCodeContexts
 ms.assetid: 627af69c-5cce-4e1d-8233-5f4d8dbc62e5
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugDocumentContext2::EnumCodeContexts
 Retrieves a list of all code contexts associated with this document context.

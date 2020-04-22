@@ -1,13 +1,13 @@
 ---
-title: "Image Service and Catalog | Microsoft Docs"
-ms.date: "04/01/2019"
-ms.topic: "conceptual"
+title: Image Service and Catalog | Microsoft Docs
+ms.date: 04/01/2019
+ms.topic: conceptual
 ms.assetid: 34990c37-ae98-4140-9b1e-a91c192220d9
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Image service and catalog
 This cookbook contains guidance and best practices for adopting the Visual Studio Image Service and Image Catalog introduced in Visual Studio 2015.

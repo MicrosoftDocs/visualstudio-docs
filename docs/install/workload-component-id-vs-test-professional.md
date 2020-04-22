@@ -15,6 +15,7 @@ ms.assetid: 70c03438-8434-4921-ada0-c172519af431
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
 monikerRange: vs-2017
+open_to_public_contributors: false
 ---
 # Visual Studio Test Professional component directory
 

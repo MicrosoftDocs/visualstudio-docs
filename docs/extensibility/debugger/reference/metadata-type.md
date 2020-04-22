@@ -1,20 +1,20 @@
 ---
-title: "METADATA_TYPE | Microsoft Docs"
-ms.date: "11/04/2016"
+title: METADATA_TYPE | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "METADATA_TYPE"
+- METADATA_TYPE
 helpviewer_keywords:
-  - "METADATA_TYPE structure"
+- METADATA_TYPE structure
 ms.assetid: 2d8b78f6-0aef-4d79-809a-cff9b2c24659
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # METADATA_TYPE
 This structure specifies information about a field type taken from metadata.

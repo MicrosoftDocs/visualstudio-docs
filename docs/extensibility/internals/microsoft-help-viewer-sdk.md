@@ -1,13 +1,13 @@
 ---
-title: "Microsoft Help Viewer SDK | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Microsoft Help Viewer SDK | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 ms.assetid: 620d7dcd-d462-475e-a449-fbfa06ff12c5
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Microsoft Help Viewer SDK
 

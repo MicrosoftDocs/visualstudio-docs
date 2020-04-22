@@ -1,20 +1,20 @@
 ---
-title: "IDebugEngine2::GetEngineID | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugEngine2::GetEngineID | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugEngine2::GetEngineID"
+- IDebugEngine2::GetEngineID
 helpviewer_keywords:
-  - "IDebugEngine2::GetEngineID"
+- IDebugEngine2::GetEngineID
 ms.assetid: 0d5674c8-a9b9-4b72-8211-d2d68695775a
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugEngine2::GetEngineID
 Gets the GUID of the debug engine (DE).

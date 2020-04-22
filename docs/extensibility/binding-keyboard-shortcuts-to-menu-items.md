@@ -1,19 +1,19 @@
 ---
-title: "Binding Keyboard Shortcuts to Menu Items | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Binding Keyboard Shortcuts to Menu Items | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "keyboard command"
-  - "keyboards"
-  - "command key"
-  - "keyboard shortcuts"
-  - "menu items"
+- keyboard command
+- keyboards
+- command key
+- keyboard shortcuts
+- menu items
 ms.assetid: 19f483b6-4d3e-424e-9d68-dc129c788e47
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Bind keyboard shortcuts to menu items
 To bind a keyboard shortcut to a custom menu command, just add an entry to the *.vsct* file for the package. This topic explains how to map a keyboard shortcut to a custom button, menu item, or toolbar command, and how to apply the keyboard mapping in the default editor or limit it to a custom editor.
