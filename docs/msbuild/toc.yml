@@ -299,8 +299,6 @@
         href: task-base-class.md
       - name: TaskExtension base class
         href: taskextension-base-class.md
-      - name: ToolTaskExtension base class
-        href: tooltaskextension-base-class.md
       - name: Diagnosing task failures
         href: diagnosing-task-failures.md
       - name: AL (Assembly Linker) task

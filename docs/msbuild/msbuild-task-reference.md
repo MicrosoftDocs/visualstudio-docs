@@ -37,10 +37,6 @@ In addition to the parameters listed in the topics in this section, each task al
 
  Adds several parameters to the tasks that derive from the <xref:Microsoft.Build.Tasks.TaskExtension> class. Not intended to be used directly.
 
-- [ToolTaskExtension base class](../msbuild/tooltaskextension-base-class.md)
-
- Adds several parameters to the tasks that derive from the <xref:Microsoft.Build.Tasks.ToolTaskExtension> class. Not intended to be used directly.
-
 - [AL (Assembly Linker) task](../msbuild/al-assembly-linker-task.md)
 
  Creates an assembly with a manifest from one or more files that are either modules or resource files.

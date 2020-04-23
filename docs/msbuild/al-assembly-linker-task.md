@@ -64,9 +64,7 @@ The AL task wraps *AL.exe*, a tool that is distributed with the Windows Software
 | `Win32Icon` | Optional `String` parameter.<br /><br /> Inserts an *.ico* file in the assembly. The *.ico* file gives the output file the desired appearance in File Explorer. This parameter corresponds to the `/win32icon` option in [Al.exe (Assembly Linker)](/dotnet/framework/tools/al-exe-assembly-linker). |
 | `Win32Resource` | Optional `String` parameter.<br /><br /> Inserts a Win32 resource (*.res* file) in the output file. For more information, see the documentation for the `/win32res` option in [Al.exe (Assembly Linker)](/dotnet/framework/tools/al-exe-assembly-linker). |
 
-## Remarks
-
- In addition to the parameters listed above, this task inherits parameters from the <xref:Microsoft.Build.Tasks.ToolTaskExtension> class, which itself inherits from the <xref:Microsoft.Build.Utilities.ToolTask> class. For a list of these additional parameters and their descriptions, see [ToolTaskExtension base class](../msbuild/tooltaskextension-base-class.md).
+[!INCLUDE [ToolTaskExtension arguments](tooltaskextension-base-class.md)]
 
 ## Example
 

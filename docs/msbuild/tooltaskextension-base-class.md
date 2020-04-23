@@ -14,13 +14,13 @@ manager: jillfra
 ms.workload:
 - multiple
 ---
-# ToolTaskExtension base class
 
-Many tasks inherit from the <xref:Microsoft.Build.Tasks.ToolTaskExtension> class, which inherits from the <xref:Microsoft.Build.Utilities.ToolTask> class, which itself inherits from the <xref:Microsoft.Build.Utilities.Task> class. This inheritance chain adds several parameters to the tasks that derive from them. These parameters are listed in this document.
 
-## Parameters
+### ToolTaskExtension Parameters
 
- The following table describes the parameters of the base classes.
+This task inherits from the <xref:Microsoft.Build.Tasks.ToolTaskExtension> class, which inherits from the <xref:Microsoft.Build.Utilities.ToolTask> class, which itself inherits from the <xref:Microsoft.Build.Utilities.Task> class. This inheritance chain adds several parameters to the tasks that derive from them.
+
+The following table describes the parameters of the base classes.
 
 | Parameter | Description |
 | - | - |
@@ -35,8 +35,3 @@ Many tasks inherit from the <xref:Microsoft.Build.Tasks.ToolTaskExtension> class
 | <xref:Microsoft.Build.Utilities.ToolTask.ToolPath%2A> | Optional `string` parameter.<br /><br /> Specifies the location from where the task loads the underlying executable file. If this parameter is not specified, the task uses the SDK installation path that corresponds to the version of the framework that is running MSBuild. |
 | <xref:Microsoft.Build.Utilities.ToolTask.UseCommandProcessor%2A> | Optional `bool` parameter.<br /><br /> When set to `true`, this task creates a batch file for the command line and executes it by using the command-processor instead of executing the command directly. |
 | <xref:Microsoft.Build.Utilities.ToolTask.YieldDuringToolExecution%2A> | Optional `bool` parameter.<br /><br /> When set to `true`, this task yields the node when its task is executing. |
-
-## See also
-
-- [Task reference](../msbuild/msbuild-task-reference.md)
-- [Tasks](../msbuild/msbuild-tasks.md)
