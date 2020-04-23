@@ -37,7 +37,7 @@ The following table describes the parameters for the `LC` task.
 |`SdkToolsPath`|Optional `String` parameter.<br /><br /> Specifies the path to the SDK tools, such as *resgen.exe*.|
 |`Sources`|Required <xref:Microsoft.Build.Framework.ITaskItem>`[]` parameter.<br /><br /> Specifies the items that contain licensed components to include in the *.licenses* file. For more information, see the documentation for the `/complist` switch in [Lc.exe (License Compiler)](/dotnet/framework/tools/lc-exe-license-compiler).|
 
-[!INCLUDE [ToolTaskExtension arguments](tooltaskextension-base-params.md)]
+[!INCLUDE [ToolTaskExtension arguments](../includes/tooltaskextension-base-params.md)]
 
 ## Example
 

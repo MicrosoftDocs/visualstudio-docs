@@ -76,7 +76,7 @@ The following table describes the parameters of the `Csc` task.
 | `Win32Manifest` | Optional `String` parameter.<br /><br /> Specifies the Win32 manifest to be included. |
 | `Win32Resource` | Optional `String` parameter.<br /><br /> Inserts a Win32 resource (*.res*) file in the output file. For more information, see [-win32res (C# compiler options)](/dotnet/csharp/language-reference/compiler-options/win32res-compiler-option). |
 
-[!INCLUDE [ToolTaskExtension arguments](tooltaskextension-base-params.md)]
+[!INCLUDE [ToolTaskExtension arguments](../includes/tooltaskextension-base-params.md)]
 
 ## Example
 
