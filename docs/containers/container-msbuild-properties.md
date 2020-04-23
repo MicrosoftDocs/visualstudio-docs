@@ -44,7 +44,7 @@ The following table shows the MSBuild properties available for container project
 
 ## Example
 
-The following example shows a project file with examples of some of these settings.
+The following project file shows examples of some of these settings.
 
 ```xml
  <Project Sdk="Microsoft.NET.Sdk.Web">
