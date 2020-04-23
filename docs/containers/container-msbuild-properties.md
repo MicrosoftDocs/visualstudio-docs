@@ -53,13 +53,14 @@ The following example shows a project file with examples of some of these settin
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <UserSecretsId>feae72bf-2368-4487-b6c6-546c19338cb1</UserSecretsId>
     <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
-    <!-- In CI/CD scenarios, you might need to change the context. By default, Visual Studio uses the folder above the Dockerfile.
-         The path is relative to the Dockerfile, so here the context is set to the same folder as the Dockerfile. -->
+    <!-- In CI/CD scenarios, you might need to change the context. By default, Visual Studio uses the
+         folder above the Dockerfile. The path is relative to the Dockerfile, so here the context is
+         set to the same folder as the Dockerfile. -->
     <DockerfileContext>.</DockerfileContext>
     <!-- Set `docker run` arguments to mount a volume -->
     <DockerfileRunArguments>-v $(pwd)/host-folder:/container-folder:ro</DockerfileRunArguments>
     <!-- Set `docker build` arguments to add a custom tag -->
-    <DockerfileBuildArguments> -t contoso/front-end:v2.0</DockerfileBuildArguments>
+    <DockerfileBuildArguments>-t contoso/front-end:v2.0</DockerfileBuildArguments>
   </PropertyGroup>
 
   <ItemGroup>
