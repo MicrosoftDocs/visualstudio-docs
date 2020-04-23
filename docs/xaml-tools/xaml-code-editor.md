@@ -60,23 +60,23 @@ Here's how to use each of these buttons:
 
 ### Top left, second row
 
-In the second row of the top left, there are two Window dropdown menus.
+In the second row of the top left, there are two Window dropdown lists.
 
-![Screenshot of the second of the two top rows of the XAML code editor window in Visual Studio 2019, in which both Window dropdown menu UI elements are visible](media/xaml-code-editor-top-row-windows.png)
+![Screenshot of the second of the two top rows of the XAML code editor window in Visual Studio 2019, in which both Window dropdown lists are visible](media/xaml-code-editor-top-row-windows.png)
 
 Although the Window dropdown menus share the same name, they have different functions:
 
-- To view and navigate to sibling or parent elements, choose the **Element: Window** on the left.
+- To view and navigate to sibling or parent elements, choose **Element: Window** on the left.
 
-    ![Screenshot of the Element: Window dropdown menu in Visual Studio 2019](media/xaml-element-window-dropdown.png)
+    ![Screenshot of the Element: Window dropdown list in Visual Studio 2019](media/xaml-element-window-dropdown.png)
 
-    The Element: Window shows you an outline-like view that reveals the tag structure of your code. When you select from list, your focus in the code editor will snap to the line of code that includes the element you selected.
+    The Element: Window shows you an outline-like view that reveals the tag structure of your code. When you select from the list, your focus in the code editor will snap to the line of code that includes the element you selected.
 
-- To view and navigate to attribute or child elements, choose the **Member: Window** on the right. 
+- To view and navigate to attribute or child elements, choose **Member: Window** on the right. 
 
-    ![Screenshot of the Member: Window dropdown menu in Visual Studio 2019](media/xaml-member-window-dropdown.png)
+    ![Screenshot of the Member: Window dropdown list in Visual Studio 2019](media/xaml-member-window-dropdown.png)
 
-    The Member: Window shows you list view the properties in your code. When you select from the list, your focus in the code editor will snap to the line of code that includes the property you selected.
+    The Member: Window shows you a list of the properties in your code. When you select from the list, your focus in the code editor will snap to the line of code that includes the property you selected.
     
 ### Middle pane, left side icons 
 
@@ -118,11 +118,13 @@ Highlight unique things
 
 Where to go to change code editor settings (Text Editors > XAML > General)
 
-![Screenshot of the Options menu for the XAML text editor](media/xaml-tools-options.png)
+![Screenshot of the Options list for the XAML text editor](media/xaml-tools-options.png)
 
-![Screenshot of the Options menu for the XAML text editor](media/xaml-tools-options-test.png)
+![Screenshot of the Options list for the XAML text editor](media/xaml-tools-options-test.png)
 
 ## XAML-specific tools
+
+There are many ways to customize your experience by changing the settings in Options (the Tools > Options menu in Visual Studio. Here are the options that are specific to XAML code editor.
 
 What's specific to XAML:
 
