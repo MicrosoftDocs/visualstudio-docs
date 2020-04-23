@@ -1,6 +1,6 @@
 ---
 title: XAML code editor
-ms.date: 04/24/2020
+ms.date: 04/28/2020
 ms.topic: conceptual
 author: TerryGLee
 ms.author: tglee
@@ -23,11 +23,11 @@ To start, let's take a look at the IDE (integrated development environment) with
 
 To continue, let's learn more about the XAML code editor. 
 
-## XAML code editor window
+## XAML code editor UI
 
-The code editor window for XAML apps has many of the features you find in our standard IDE, and also a few unique features that make developing XAML apps easier.
+The code editor window for XAML apps shares some UI (user interface) elements that also appear in our standard IDE, it also includes a few unique features that make developing XAML apps easier.
 
-Here's a look at the code window itself.
+Here's a look at the XAML code editor window itself.
 
 ![Screenshot of the XAML code editor window in Visual Studio 2019](media/xaml-code-editor-window.png)
 
@@ -58,24 +58,32 @@ Here's how to use each of these buttons:
 - To change the location of the XAML Designer and the XAML code editor in the IDE from a vertical alignment to a horizontal alignment, choose the **Horizontal Split** button.
 - To hide the XAML code editor temporarily while you focus on using the XAML Designer within the IDE, choose the **Collapse Pane** button. (To restore the XAML code editor, choose the same button again, now named the **Expand Pane** button.)
 
-(example pop-up button, unique to XAML code editor)
+### Top left, second row
 
-| Icon | Location | Name | Function | Appears in... |
-| - | - | - | - | - |
-| ![XAML code editor - name of feature](media/name-of-file.png) | Code editor | Tooltip description | (Add detailed description) | Code editor |
-| ![XAML code editor - name of feature](media/name-of-file.png) | Code editor | Tooltip description | (Add detailed description) | Code editor |
-| ![XAML code editor - name of feature](media/name-of-file.png) | Code editor | Tooltip description | (Add detailed description) | Code editor |
+In the second row of the top left, there are two Window dropdown menus.
 
-### Left side icons 
+![Screenshot of the second of the two top rows of the XAML code editor window in Visual Studio 2019, in which both Window dropdown menu UI elements are visible](media/xaml-code-editor-top-row-windows.png)
+
+Although the Window dropdown menus share the same name, they have different functions:
+
+- To view and navigate to sibling or parent elements, choose the **Element: Window** on the left.
+
+    ![Screenshot of the Element: Window dropdown menu in Visual Studio 2019](media/xaml-element-window-dropdown.png)
+
+    The Element: Window shows you an outline-like view that reveals the tag structure of your code. When you select from list, your focus in the code editor will snap to the line of code that includes the element you selected.
+
+- To view and navigate to attribute or child elements, choose the **Member: Window** on the right. 
+
+    ![Screenshot of the Member: Window dropdown menu in Visual Studio 2019](media/xaml-member-window-dropdown.png)
+
+    The Member: Window shows you list view the properties in your code. When you select from the list, your focus in the code editor will snap to the line of code that includes the property you selected.
+    
+### Middle pane, left side icons 
 
 [see if we have docs for what the colors means]
 
-### Right side scrollbar indicators
+### Middle pane, right side scrollbar indicators
 
-#### Various buttons on the right side such as:
-
-- Swap designer with editor
-- Expanse/Collapse
 - Button to drag out two parallel code editors
 - Unused Usings, lightbulb for removing
 
@@ -92,11 +100,6 @@ Right-click menu
 - Surround With
 - Insert Snippet
 - Outline
-
-Dropdowns over the code editor
-
-- left: Document outline like
-- right: Properties of selected item
 
 Highlight unique things
 
