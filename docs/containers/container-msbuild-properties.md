@@ -34,11 +34,11 @@ The following table shows the MSBuild properties available for container project
 | DockerDefaultTargetOS | The default target operating system used when building the Docker image. | Set by Visual Studio. |1.0.1985401 or newer|
 | DockerImageLabels | The default set of labels applied to the Docker image. | com.microsoft.created-by=visual-studio;com.microsoft.visual-studio.project-name=$(MSBuildProjectName) |1.5.4 or newer|
 | DockerFastModeProjectMountDirectory|In **Fast Mode**, this property controls where the project output directory is volume-mounted into the running container.|C:\app (Windows) or /app (Linux)|1.9.2 or newer|
-| DockerfileBuildArguments | Additional arguments passed to the Docker build command. | Not applicable. |1.0.1872750 or newer|
+| DockerfileBuildArguments | Additional arguments passed to the [Docker build](https://docs.docker.com/engine/reference/commandline/build/) command. | Not applicable. |1.0.1872750 or newer|
 | DockerfileContext | The default context used when building the Docker image, as a path relative to the Dockerfile. | Set by Visual Studio. |1.0.1872750 or newer|
 | DockerfileFastModeStage | The Dockerfile stage (that is, target) to be used when building the image in debug mode. | First stage found in the Dockerfile (base) |
 | DockerfileFile | Describes the default Dockerfile that will be used to build/run the container for the project. This can be a path as well. | Dockerfile |1.0.1872750 or newer|
-| DockerfileRunArguments | Additional arguments passed to the Docker run command. | Not applicable. |1.0.1872750 or newer|
+| DockerfileRunArguments | Additional arguments passed to the [Docker run](https://docs.docker.com/engine/reference/commandline/run/) command. | Not applicable. |1.0.1872750 or newer|
 | DockerfileRunEnvironmentFiles | Semicolon-delimited list of environment files applied during Docker run. | Not applicable. |1.0.1872750 or newer|
 | DockerfileTag | The tag that will be used when building the Docker image. In debugging, a ":dev" is appended to the tag. | Assembly name after stripping non-alphanumeric characters with the following rules: <br/> If the resultant tag is all numeric, then "image" is inserted as a prefix (for example, image2314) <br/> If the resultant tag is an empty string, then "image" is used as the tag. |1.0.1872750 or newer|
 
