@@ -14,10 +14,10 @@ To start, let's take a look at the IDE (integrated development environment) with
 
 [![The Visual Studio 2019 IDE](media/xaml-code-editor-overview-sml.png "An annotated screenshot of the Visual Studio IDE with a WPF project open, which includes the XAML code editor window") ](media/xaml-code-editor-overview-lrg.png#lightbox)
 
-- The **[XAML code editor](#xaml-code-editor-window)** window&mdash;the subject of this article&mdash;where you create and edit your code. 
+- The **[XAML code editor](#xaml-code-editor-ui)** window&mdash;the subject of this article&mdash;where you create and edit your code. 
 - The **[XAML Designer](creating-a-ui-by-using-xaml-designer-in-visual-studio.md)** window, where you design your UI.
 - The **[Toolbox](../ide/reference/toolbox.md)** dockable window, where you add controls to your UI.
-- The **[Debug](../debugger/debugger-feature-tour.md)** button, where you run your code and debug it. <br>(You can also edit your code in real-time while you're debugging with [XAML Hot Reload](xaml-tools/xaml-hot-reload.md).)
+- The **[Debug](../debugger/debugger-feature-tour.md)** button, where you run your code and debug it. <br>(You can also edit your code in real-time while you're debugging with [XAML Hot Reload](xaml-hot-reload.md).)
 - The **[Solution Explorer](../ide/solutions-and-projects-in-visual-studio.md)** window, where you manage your files, projects, and solutions. 
 - The **[Properties](../ide/reference/properties-window.md)** window, where you change the way your UI looks.
 
@@ -138,6 +138,6 @@ To get started coding, see the [Title Name](pagename.md) page.
 
 ## See also
 
-- [Visual Studio code editor features](../../ide/writing-code-in-the-code-and-text-editor.md)
+- [Visual Studio code editor features](../ide/writing-code-in-the-code-and-text-editor.md)
 - [XAML in UWP apps](/windows/uwp/xaml-platform/xaml-overview)
 - [XAML in Xamarin.Forms apps](/xamarin/xamarin-forms/xaml/)
