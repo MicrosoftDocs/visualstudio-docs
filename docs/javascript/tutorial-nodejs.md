@@ -1,7 +1,7 @@
 ---
 title: "Create a Node.js and Express app"
 description: In this tutorial, you create an app in using Node.js tools for Visual Studio
-ms.date: 09/24/2018
+ms.date: 04/20/2020
 ms.topic: tutorial
 ms.devlang: javascript
 author: mikejo5000
@@ -103,13 +103,13 @@ In this tutorial, you begin with a simple project containing code for a Node.js 
 
     (3) The npm node shows any installed npm packages. You can right-click the npm node to search for and install npm packages using a dialog box or install and update packages using the settings in *package.json* and right-click options in the npm node.
 
-    (4) *package.json* is a file used by npm to manage package dependencies and package versions for locally-installed packages. For more information on this file, see [package.json configuration](../javascript/configure-packages-with-package-json.md)
+    (4) *package.json* is a file used by npm to manage package dependencies and package versions for locally-installed packages. For more information, see [Manage npm packages](../javascript/npm-package-management.md).
 
     (5) Project files such as *app.js* show up under the project node. *app.js* is the project startup file and that is why it shows up in **bold**. You can set the startup file by right-clicking a file in the project and selecting **Set as Node.js startup file**.
 
 1. Open the **npm** node and make sure that all the required npm packages are present.
 
-    If any packages are missing (exclamation point icon), you can right-click the **npm** node and choose **Install Missing npm Packages**.
+    If any packages are missing (exclamation point icon), you can right-click the **npm** node and choose **Install npm Packages**.
 
 ## Add some code
 
@@ -188,7 +188,7 @@ IntelliSense is a Visual Studio tool that assists you as you write code.
 
     The last line of this message tells you that the JavaScript interpreter expected a comma (`,`).
 
-1. In the lower pane, click the **Error List** tab.
+1. In the lower pane, click the **Error List** tab and select **Build + IntelliSense** for the type of issues reported.
 
     You see the warning and description along with the filename and line number.
 
@@ -212,7 +212,7 @@ You're next going to run the app with the Visual Studio debugger attached. Befor
 
 ## Run the application
 
-1. Select the debug target in the Debug toolbar, such as Microsoft Edge or Chrome.
+1. Select the debug target in the Debug toolbar, such as **Web Server (Google Chrome)** or **Web Server (Microsoft Edge)**.
 
     ::: moniker range=">=vs-2019"
     ![Select the debug target](../javascript/media/vs-2019/tutorial-nodejs-deploy-target.png)
