@@ -84,9 +84,7 @@ Wraps *vbc.exe*, which produces executables (*.exe*), dynamic-link libraries (*.
 | `Win32Icon` | Optional `String` parameter.<br /><br /> Inserts an *.ico* file in the assembly, which gives the output file the desired appearance in **File Explorer**. This parameter corresponds to the [-win32icon](/dotnet/visual-basic/reference/command-line-compiler/win32icon) switch of the *vbc.exe* compiler. |
 | `Win32Resources` | Optional `String` parameter.<br /><br /> Inserts a Win32 resource (*.res*) file in the output file. This parameter corresponds to the [-win32resource](/dotnet/visual-basic/reference/command-line-compiler/win32resource) switch of the *vbc.exe* compiler. |
 
-## Remarks
-
- In addition to the parameters listed above, this task inherits parameters from the <xref:Microsoft.Build.Tasks.ToolTaskExtension> class, which itself inherits from the <xref:Microsoft.Build.Utilities.ToolTask> class. For a list of these additional parameters and their descriptions, see [ToolTaskExtension base class](../msbuild/tooltaskextension-base-class.md).
+[!INCLUDE [ToolTaskExtension arguments](tooltaskextension-base-params.md)]
 
 ## Example
 
