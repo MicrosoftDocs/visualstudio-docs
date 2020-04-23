@@ -15,7 +15,7 @@ ms.workload:
 ---
 # How to: Specify which target to build first
 
-A project file can contain one or more `Target` elements that define how the project is built. The Microsoft Build Engine (MSBuild) engine builds the first project it finds, and any dependencies, unless the project file contains a `DefaultTargets` attribute, an `InitialTargets` attribute, or a target is specified at the command line using the **-target** switch.
+A project file can contain one or more `Target` elements that define how the project is built. The Microsoft Build Engine (MSBuild) engine builds the first target it finds, and any dependencies, unless the project file contains a `DefaultTargets` attribute, an `InitialTargets` attribute, or a target is specified at the command line using the **-target** switch.
 ## Use the InitialTargets attribute
 
 The `InitialTargets` attribute of the `Project` element specifies a target that will run first, even if targets are specified on the command line or in the `DefaultTargets` attribute.

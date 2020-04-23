@@ -44,6 +44,7 @@ The final step is to download the **Bulk add** template, fill out the required i
 
 > [!IMPORTANT]
 > To ensure a successful upload, please make sure that:
+> - You are using the template linked in the dialog box when you select **Bulk add**.  Do not use a locally stored copy of the template, as it may not contain all the required fields.  Using an old template will cause the upload to fail. 
 > - All fields shown as **Required** in template are complete.
 > - There are no errors listed in the **Error message** column.
 > - Each GUID is used only once in the template. 
