@@ -79,7 +79,33 @@ Do not specify `ExcludeAssets=runtime` for the Microsoft.Build.Locator package.
 
 ### Register instance before calling MSBuild
 
-Add a call to the Locator API before calling any method that uses MSBuild. This is important because the just-in-time (JIT) compiler needs to understand the types of the objects it compiles, and when trying to build a project using a specific version of MSBuild, it has to inspect that version before it compiles the code in case those types have changed. Since the JIT compiler works at a method-level granularity, if the call to the Locator API is in the same method as the first use of an MSBuild type (even if it precedes it, and the code involving the type has not yet been executed), the JIT compiler will not be able to JIT the whole method, causing an error. Some types that require the call to the MSBuildLocator API to have already been called include ProjectRootElement, ProjectInstance, and BuildManager.
+> [!IMPORTANT]
+> You cannot reference any MSBuild types (from the `Microsoft.Build` namespace) in the method that calls MSBuildLocator. For example, you cannot do this:
+>
+> ```csharp
+> void ThisWillFail()
+> {
+>     MSBuildLocator.RegisterDefaults();
+>     Project p = new Project(SomePath); // Could be any MSBuild type
+>     // Code that uses the MSBuild type
+> }
+> ```
+>
+> Instead, you must do this:
+>
+> ```csharp
+> void MethodThatDoesNotDirectlyCallMSBuild()
+> {
+>     MSBuildLocator.RegisterDefaults();
+>     MethodThatCallsMSBuild();
+> }
+> 
+> void MethodThatCallsMSBuild()
+> {
+>     Project p = new Project(SomePath);
+>     // Code that uses the MSBuild type
+> }
+> ```
 
 The simplest way to add the call to the Locator API is to add a call to
 
