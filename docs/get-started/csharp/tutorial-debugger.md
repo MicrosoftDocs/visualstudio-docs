@@ -171,7 +171,7 @@ First, you'll create a .NET Core console application project. The project type c
 
     Breakpoints are a useful feature when you know the line of code or the section of code that you want to examine in detail. For information on the different types of breakpoints you can set, such as conditional breakpoints, see [Using breakpoints](../../debugger/using-breakpoints.md).
 
-## Navigate code and inspect data using datatips
+## Navigate code and inspect data using data tips
 
 Mostly, we use the keyboard shortcuts here, because it's a good way to get fast at executing your app in the debugger (equivalent commands such as menu commands are shown in parentheses).
 
