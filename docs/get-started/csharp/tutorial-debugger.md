@@ -2,7 +2,7 @@
 title: "Tutorial: Debug C# code"
 description: "Learn how to start the Visual Studio debugger, step through code, and inspect data."
 ms.custom: "debug-experiment, seodec18, get-started"
-ms.date: 01/31/2020
+ms.date: 04/23/2020
 ms.technology: "vs-ide-debug"
 ms.topic: tutorial
 dev_langs:
@@ -181,7 +181,7 @@ Mostly, we use the keyboard shortcuts here, because it's a good way to get fast 
 
 1. Expand the `letters` variable to see its properties, which include all the elements that the variable contains.
 
-     ![View a data tip](../csharp/media/get-started-view-data-tip.gif "View a Data Tip")
+     ![View a data tip](../csharp/media/get-started-view-data-tip.png "View a Data Tip")
 
 1. Next, hover over the `name` variable, and you see its current value, an empty string.
 
