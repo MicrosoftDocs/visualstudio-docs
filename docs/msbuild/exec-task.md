@@ -43,7 +43,7 @@ The following table describes the parameters for the `Exec` task.
 |`StdOutEncoding`|Optional `String` output parameter.<br /><br /> Specifies the encoding of the captured task standard output stream. The default is the current console output encoding.|
 |`WorkingDirectory`|Optional `String` parameter.<br /><br /> Specifies the directory in which the command will run.<br /><br />Default: The project's current working directory.|
 
-[!INCLUDE [ToolTaskExtension arguments](includes/tooltaskextension-base-params.md)]-params.md)]
+[!INCLUDE [ToolTaskExtension arguments](includes/tooltaskextension-base-params.md)])]
 
 ## Remarks
 
