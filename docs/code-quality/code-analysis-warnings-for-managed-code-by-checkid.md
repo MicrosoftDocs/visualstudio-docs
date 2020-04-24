@@ -157,6 +157,10 @@ f1_keywords:
 - CA1823
 - CA1824
 - CA1825
+- CA1826
+- CA1827
+- CA1828
+- CA1829
 - CA1900
 - CA1901
 - CA1903
@@ -415,6 +419,10 @@ The following table lists Code Analysis warnings for managed code by the CheckId
 | CA1823 | [CA1823: Avoid unused private fields](../code-quality/ca1823.md) | Private fields were detected that do not appear to be accessed in the assembly. |
 | CA1824 |[CA1824: Mark assemblies with NeutralResourcesLanguageAttribute](../code-quality/ca1824.md) | The NeutralResourcesLanguage attribute informs the resource manager of the language that was used to display the resources of a neutral culture for an assembly. This improves lookup performance for the first resource that you load and can reduce your working set. |
 | CA1825 |[CA1825: Avoid zero-length array allocations](../code-quality/ca1825.md) | Initializing a zero-length array leads to unnecessary memory allocation. Instead, use the statically allocated empty array instance by calling <xref:System.Array.Empty%2A?displayProperty=nameWithType>. The memory allocation is shared across all invocations of this method. |
+| CA1826 |[CA1826: Use property instead of Linq Enumerable method](../code-quality/ca1826.md) | <xref:System.Linq.Enumerable> LINQ method was used on a type that supports an equivalent, more efficient property. |
+| CA1827 |[CA1827: Do not use Count/LongCount when Any can be used](../code-quality/ca1827.md) | <xref:System.Linq.Enumerable.Count%2A> or <xref:System.Linq.Enumerable.LongCount%2A> method was used where <xref:System.Linq.Enumerable.Any%2A> method would be more efficient. |
+| CA1828 |[CA1828: Do not use CountAsync/LongCountAsync when AnyAsync can be used](../code-quality/ca1828.md) | <xref:Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.CountAsync%2A> or <xref:Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.LongCountAsync%2A> method was used where <xref:Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.AnyAsync%2A> method would be more efficient. |
+| CA1829 |[CA1829: Use Length/Count property instead of Enumerable.Count method](../code-quality/ca1829.md) | <xref:System.Linq.Enumerable.Count%2A> LINQ method was used on a type that supports an equivalent, more efficient `Length` or `Count` property. |
 | CA1900 | [CA1900: Value type fields should be portable](../code-quality/ca1900.md) | This rule checks that structures that are declared by using explicit layout will align correctly when marshaled to unmanaged code on 64-bit operating systems. |
 | CA1901 | [CA1901: P/Invoke declarations should be portable](../code-quality/ca1901.md) | This rule evaluates the size of each parameter and the return value of a P/Invoke, and verifies that the size of the parameter is correct when marshaled to unmanaged code on 32-bit and 64-bit operating systems. |
 | CA1903 | [CA1903: Use only API from targeted framework](../code-quality/ca1903.md) | A member or type is using a member or type that was introduced in a service pack that was not included together with the targeted framework of the project. |

@@ -108,8 +108,6 @@ CA1509 | Invalid entry in code metrics rule specification file
 [CA1822](ca1822.md) | Mark members as static
 [CA1823](ca1823.md) | Avoid unused private fields
 [CA1824](ca1824.md) | Mark assemblies with NeutralResourcesLanguageAttribute
-CA1825 | Avoid zero-length array allocations.
-CA1826 | Do not use Enumerable methods on indexable collections. Instead use the collection directly
 [CA2000](ca2000.md) | Dispose objects before losing scope
 [CA2002](ca2002.md) | Do not lock on objects with weak identity
 [CA2007](ca2007.md) | Consider calling ConfigureAwait on the awaited task
