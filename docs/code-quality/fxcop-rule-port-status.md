@@ -62,8 +62,8 @@ Rule ID | Title
 [CA1063](ca1063.md) | Implement IDisposable Correctly
 [CA1064](ca1064.md) | Exceptions should be public
 [CA1065](ca1065.md) | Do not raise exceptions in unexpected locations
-CA1066 | Type {0} should implement IEquatable\<T> because it overrides Equals
-CA1067 | Override Object.Equals(object) when implementing IEquatable\<T>
+[CA1066](ca1066.md) | Type {0} should implement IEquatable\<T> because it overrides Equals
+[CA1067](ca1067.md) | Override Object.Equals(object) when implementing IEquatable\<T>
 [CA1068](ca1068.md) | CancellationToken parameters must come last
 CA1200 | Avoid using cref tags with a prefix
 [CA1303](ca1303.md) | Do not pass literals as localized parameters
@@ -78,7 +78,7 @@ CA1200 | Avoid using cref tags with a prefix
 [CA1505](ca1505.md) | Avoid unmaintainable code
 [CA1506](ca1506.md) | Avoid excessive class coupling
 [CA1507](ca1507.md) | Use nameof to express symbol names
-CA1508 | Avoid dead conditional code
+[CA1508](ca1508.md) | Avoid dead conditional code
 CA1509 | Invalid entry in code metrics rule specification file
 [CA1707](ca1707.md) | Identifiers should not contain underscores
 [CA1708](ca1708.md) | Identifiers should differ by more than case
@@ -108,6 +108,8 @@ CA1509 | Invalid entry in code metrics rule specification file
 [CA1822](ca1822.md) | Mark members as static
 [CA1823](ca1823.md) | Avoid unused private fields
 [CA1824](ca1824.md) | Mark assemblies with NeutralResourcesLanguageAttribute
+[CA1825](ca1825.md) | Avoid zero-length array allocations.
+CA1826 | Do not use Enumerable methods on indexable collections. Instead use the collection directly
 [CA2000](ca2000.md) | Dispose objects before losing scope
 [CA2002](ca2002.md) | Do not lock on objects with weak identity
 [CA2007](ca2007.md) | Consider calling ConfigureAwait on the awaited task
@@ -164,34 +166,34 @@ CA2244 | Do not duplicate indexed element initializations
 [CA3010](ca3010.md) | Review code for XAML injection vulnerabilities
 [CA3011](ca3011.md) | Review code for DLL injection vulnerabilities
 [CA3012](ca3012.md) | Review code for regex injection vulnerabilities
-CA3061 | Do Not Add Schema By URL
+[CA3061](ca3061.md) | Do Not Add Schema By URL
 [CA3075](ca3075.md) | Insecure DTD processing in XML
 [CA3076](ca3076.md) | Insecure XSLT script processing.
 [CA3077](ca3077.md) | Insecure Processing in API Design, XmlDocument, and XmlTextReader
 [CA3147](ca3147.md) | Mark Verb Handlers With Validate Antiforgery Token
 [CA5350](ca5350.md) | Do Not Use Weak Cryptographic Algorithms
 [CA5351](ca5351.md) | Do Not Use Broken Cryptographic Algorithms
-CA5358 | Do Not Use Unsafe Cipher Modes
+[CA5358](ca5358.md) | Do Not Use Unsafe Cipher Modes
 CA5359 | Do Not Disable Certificate Validation
 CA5360 | Do Not Call Dangerous Methods In Deserialization
-CA5361 | Do Not Disable SChannel Use of Strong Crypto
+[CA5361](ca5361.md) | Do Not Disable SChannel Use of Strong Crypto
 CA5362 | Do Not Refer Self In Serializable Class
-CA5363 | Do Not Disable Request Validation
-CA5364 | Do Not Use Deprecated Security Protocols
+[CA5363](ca5363.md) | Do Not Disable Request Validation
+[CA5364](ca5364.md) | Do Not Use Deprecated Security Protocols
 CA5365 | Do Not Disable HTTP Header Checking
 CA5366 | Use XmlReader For DataSet Read Xml
 CA5367 | Do Not Serialize Types With Pointer Fields
 CA5368 | Set ViewStateUserKey For Classes Derived From Page
-CA5369 | Use XmlReader For Deserialize
-CA5370 | Use XmlReader For Validating Reader
-CA5371 | Use XmlReader For Schema Read
-CA5372 | Use XmlReader For XPathDocument
-CA5373 | Do not use obsolete key derivation function
+[CA5369](ca5369.md) | Use XmlReader For Deserialize
+[CA5370](ca5370.md) | Use XmlReader For Validating Reader
+[CA5371](ca5371.md) | Use XmlReader For Schema Read
+[CA5372](ca5372.md) | Use XmlReader For XPathDocument
+[CA5373](ca5373.md) | Do not use obsolete key derivation function
 CA5374 | Do Not Use XslTransform
 CA5375 | Do Not Use Account Shared Access Signature
 CA5376 | Use SharedAccessProtocol HttpsOnly
 CA5377 | Use Container Level Access Policy
-CA5378 | Do not disable ServicePointManagerSecurityProtocols
+[CA5378](ca5378.md) | Do not disable ServicePointManagerSecurityProtocols
 CA5379 | Do Not Use Weak Key Derivation Function Algorithm
 CA9999 | Analyzer version mismatch
 
