@@ -45,7 +45,7 @@ Creates an XML serialization assembly for types in the specified assembly. This 
 | `Types` | Optional `String[]` parameter.<br /><br /> Gets or sets a list of specific Types to generate serialization code for. SGen will generate serialization code only for those types. |
 | `UseProxyTypes` | Required `Boolean` parameter.<br /><br /> If `true`, the SGen task generates serialization code only for the XML Web service proxy types. |
 
-[!INCLUDE [ToolTaskExtension arguments](includes/tooltaskextension-base-params.md)]-params.md)]
+[!INCLUDE [ToolTaskExtension arguments](includes/tooltaskextension-base-params.md)]
 
 ## See also
 

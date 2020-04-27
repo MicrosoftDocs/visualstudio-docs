@@ -44,7 +44,7 @@ The following table describes the parameters of the `AspNetCompiler` task.
 |`Updateable`|Optional `Boolean` parameter.<br /><br /> If this parameter is `true`, the precompiled application will be updateable.  The default value is `false`. This parameter corresponds to the **-u** switch on *aspnet_compiler.exe*.|
 |`VirtualPath`|Optional `String` parameter.<br /><br /> The virtual path of the application to be compiled. If `PhysicalPath` specified, the physical path is used to locate the application. Otherwise, the IIS metabase is used, and the application is assumed to be in the default site. This parameter corresponds to the **-v** switch on *aspnet_compiler.exe*.|
 
-[!INCLUDE [ToolTaskExtension arguments](includes/tooltaskextension-base-params.md)]-params.md)]
+[!INCLUDE [ToolTaskExtension arguments](includes/tooltaskextension-base-params.md)]
 
 ## Example
 
