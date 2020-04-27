@@ -2,7 +2,7 @@
 title: "Tutorial: Debug C# code"
 description: "Learn how to start the Visual Studio debugger, step through code, and inspect data."
 ms.custom: "debug-experiment, seodec18, get-started"
-ms.date: 01/31/2020
+ms.date: 04/23/2020
 ms.technology: "vs-ide-debug"
 ms.topic: tutorial
 dev_langs:
@@ -163,7 +163,7 @@ First, you'll create a .NET Core console application project. The project type c
 
 2. Press **F5** or the **Start Debugging** button ![Start Debugging](../../debugger/media/dbg-tour-start-debugging.png "Start Debugging"), the app starts, and the debugger runs to the line of code where you set the breakpoint.
 
-    ![Set and hit a breakpoint](../csharp/media/get-started-set-breakpoint.png)
+    ![Set and hit a breakpoint](../csharp/media/get-started-set-breakpoint.gif)
 
     The yellow arrow represents the statement on which the debugger paused, which also suspends app execution at the same point (this statement has not yet executed).
 
@@ -171,13 +171,35 @@ First, you'll create a .NET Core console application project. The project type c
 
     Breakpoints are a useful feature when you know the line of code or the section of code that you want to examine in detail. For information on the different types of breakpoints you can set, such as conditional breakpoints, see [Using breakpoints](../../debugger/using-breakpoints.md).
 
-## Navigate code in the debugger using step commands
+## Navigate code and inspect data using data tips
 
 Mostly, we use the keyboard shortcuts here, because it's a good way to get fast at executing your app in the debugger (equivalent commands such as menu commands are shown in parentheses).
 
-1. While paused in the `for` loop in the `Main` method, press **F11** (or choose **Debug > Step Into**) twice to to advance to the `SendMessage` method call.
+1. While paused on the `name += letters[i]` statement, hover over the `letters` variable and you see it's default value, the value of the first element in the array, `char[10]`.
 
-     After pressing **F11** twice, you should be at this line of code:
+     Features that allow you to inspect variables are one of the most useful features of the debugger, and there are different ways to do it. Often, when you try to debug an issue, you are attempting to find out whether variables are storing the values that you expect them to have at a particular time.
+
+1. Expand the `letters` variable to see its properties, which include all the elements that the variable contains.
+
+     ![View a data tip](../csharp/media/get-started-view-data-tip.png "View a Data Tip")
+
+1. Next, hover over the `name` variable, and you see its current value, an empty string.
+
+1. Press **F10** (or choose **Debug > Step Over**) twice to advance to the `SendMessage` method call, and then press **F10** one more time.
+
+     F10 advances the debugger to the next statement without stepping into functions or methods in your app code (the code still executes). By pressing F10 on the `SendMessage` method call, we skipped over the implementation code for `SendMessage` (which maybe we're not interested in right now).
+
+1. Press **F10** (or **Debug** > **Step Over**) a few times to iterate several times through the `for` loop, pausing again at the breakpoint, and hovering over the `name` variable each time to check its value.
+
+     ![View a data tip](../csharp/media/get-started-data-tip.gif "View a Data Tip")
+
+     The value of the variable changes with each iteration of the `for` loop, showing values of `f`, then `fr`, then `fre`, and so on. To advance the debugger through the loop faster in this scenario, you can press **F5** (or choose **Debug** > **Continue**) instead, which advances you to the breakpoint instead of the next statement.
+
+     Often, when debugging, you want a quick way to check property values on variables, to see whether they are storing the values that you expect them to store, and the data tips are a good way to do it.
+
+1. While still paused in the `for` loop in the `Main` method, press **F11** (or choose **Debug > Step Into**) until you pause at the `SendMessage` method call.
+
+     You should be at this line of code:
 
      `SendMessage(name, a[i]);`
 
@@ -187,7 +209,7 @@ Mostly, we use the keyboard shortcuts here, because it's a good way to get fast 
 
      ![Use F11 to Step Into code](../csharp/media/get-started-f11.png "F10 Step Into")
 
-     F11 is the **Step Into** command and advances the app execution one statement at a time. F11 is a good way to examine the execution flow in the most detail. (To move faster through code, we show you some other options also.) By default, the debugger skips over non-user code (if you want more details, see [Just My Code](../../debugger/just-my-code.md)).
+     F11 is the **Step Into** command and advances the app execution one statement at a time. F11 is a good way to examine the execution flow in the most detail. By default, the debugger skips over non-user code (if you want more details, see [Just My Code](../../debugger/just-my-code.md)).
 
      Let's say that you are done examining the `SendMessage` method, and you want to get out of the method but stay in the debugger. You can do this using the **Step Out** command.
 
@@ -195,15 +217,7 @@ Mostly, we use the keyboard shortcuts here, because it's a good way to get fast 
 
      This command resumes app execution (and advances the debugger) until the current method or function returns.
 
-     You should be back in the `for` loop in the `Main` method, paused at the `SendMessage` method call.
-
-1. Press **F11** several times until you get back to the `SendMessage` method call again.
-
-1. While paused at the method call, press **F10** (or choose **Debug > Step Over**) once.
-
-     ![Use F10 to Step Over code](../csharp/media/get-started-step-over.png "F10 Step Over")
-
-     Notice this time that the debugger does not step into the `SendMessage` method. **F10** advances the debugger without stepping into functions or methods in your app code (the code still executes). By pressing **F10** on the `SendMessage` method call (instead of **F11**), we skipped over the implementation code for `SendMessage` (which maybe we're not interested in right now). For more information on different ways to move through your code, see [Navigate code in the debugger](../../debugger/navigating-through-code-with-the-debugger.md).
+     You should be back in the `for` loop in the `Main` method, paused at the `SendMessage` method call. For more information on different ways to move through your code, see [Navigate code in the debugger](../../debugger/navigating-through-code-with-the-debugger.md).
 
 ## Navigate code using Run to Click
 
@@ -229,24 +243,6 @@ Click the **Restart** ![Restart App](../../debugger/media/dbg-tour-restart.png "
 When you press **Restart**, it saves time versus stopping the app and restarting the debugger. The debugger pauses at the first breakpoint that is hit by executing code.
 
 The debugger stops again at the breakpoint you previously set inside the `for` loop.
-
-## Inspect variables with data tips
-
-Features that allow you to inspect variables are one of the most useful features of the debugger, and there are different ways to do it. Often, when you try to debug an issue, you are attempting to find out whether variables are storing the values that you expect them to have at a particular time.
-
-1. While paused on the `name += letters[i]` statement, hover over the `letters` variable and you see it's default value, the value of the first element in the array, `char[10]`.
-
-1. Expand the `letters` variable to see its properties, which include all the elements that the variable contains.
-
-1. Next, hover over the `name` variable, and you see its current value, an empty string.
-
-1. Press **F5** (or **Debug** > **Continue**) a few times to iterate several times through the `for` loop, pausing again at the breakpoint, and hovering over the `name` variable each time to check its value.
-
-     ![View a data tip](../csharp/media/get-started-data-tip.gif "View a Data Tip")
-
-     The value of the variable changes with each iteration of the `for` loop, showing values of `f`, then `fr`, then `fre`, and so on.
-
-     Often, when debugging, you want a quick way to check property values on variables, to see whether they are storing the values that you expect them to store, and the data tips are a good way to do it.
 
 ## Inspect variables with the Autos and Locals windows
 
