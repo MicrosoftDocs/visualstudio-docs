@@ -537,6 +537,14 @@
           href: ca1824.md
         - name: "CA1825: Avoid zero-length array allocations"
           href: ca1825.md
+        - name: "CA1826: Use property instead of Linq Enumerable method"
+          href: ca1826.md
+        - name: "CA1827: Do not use Count/LongCount when Any can be used"
+          href: ca1827.md
+        - name: "CA1828: Do not use CountAsync/LongCountAsync when AnyAsync can be used"
+          href: ca1828.md
+        - name: "CA1829: Use Length/Count property instead of Enumerable.Count method"
+          href: ca1829.md
       - name: Portability warnings
         items:
         - name: Overview
