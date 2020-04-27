@@ -43,13 +43,13 @@ The following table describes the parameters for the `Exec` task.
 |`StdOutEncoding`|Optional `String` output parameter.<br /><br /> Specifies the encoding of the captured task standard output stream. The default is the current console output encoding.|
 |`WorkingDirectory`|Optional `String` parameter.<br /><br /> Specifies the directory in which the command will run.<br /><br />Default: The project's current working directory.|
 
+[!INCLUDE [ToolTaskExtension arguments](includes/tooltaskextension-base-params.md)]
+
 ## Remarks
 
 This task is useful when a specific MSBuild task for the job that you want to perform is not available. However, the `Exec` task, unlike a more specific task, cannot do additional processing or conditional operations based on the result of the tool or command that it runs.
 
 The `Exec` task calls *cmd.exe* instead of directly invoking a process.
-
-In addition to the parameters listed in this document, this task inherits parameters from the <xref:Microsoft.Build.Tasks.ToolTaskExtension> class, which itself inherits from the <xref:Microsoft.Build.Utilities.ToolTask> class. For a list of these additional parameters and their descriptions, see [ToolTaskExtension base class](../msbuild/tooltaskextension-base-class.md).
 
 ## Example
 
