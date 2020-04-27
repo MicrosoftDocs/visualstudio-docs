@@ -4,7 +4,7 @@ ms.author: ghogen
 ms.topic: include
 ms.date: 4/23/2020
 ---
-### ToolTaskExtension Parameters
+### ToolTaskExtension parameters
 
 This task inherits from the <xref:Microsoft.Build.Tasks.ToolTaskExtension> class, which inherits from the <xref:Microsoft.Build.Utilities.ToolTask> class, which itself inherits from the <xref:Microsoft.Build.Utilities.Task> class. This inheritance chain adds several parameters to the tasks that derive from them.
 
