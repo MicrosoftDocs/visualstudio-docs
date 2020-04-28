@@ -121,7 +121,11 @@ Highlight unique things
 
 ## XAML code editor settings
 
-Where to go to change code editor settings (Text Editors > XAML > General)
+You can use the [Options]() dialog box to change the default settings for the XAML code editor. 
+
+To view the different settings, choose **Tools** > **Options** > **Text Editor** > **XAML**. Alternatively, Then, choose 
+
+Text Editors > XAML > General)
 
 ![Screenshot of the Options list for the XAML text editor](media/xaml-tools-options.png)
 
