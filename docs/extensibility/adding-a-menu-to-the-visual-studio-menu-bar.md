@@ -37,8 +37,6 @@ Starting in Visual Studio 2015, you do not install the Visual Studio SDK from th
 
 ## Create a menu on the IDE menu bar
 
-::: moniker range="vs-2017"
-
 1. In **Solution Explorer**, open *TestCommandPackage.vsct*.
 
     At the end of the file, there is a \<Symbols> node that contains several \<GuidSymbol> nodes. In the node named guidTestCommandPackageCmdSet, add a new symbol, as follows:
@@ -79,53 +77,6 @@ Starting in Visual Studio 2015, you do not install the Visual Studio SDK from th
    ```
 
     This makes the group part of the new menu.
-
-::: moniker-end
-
-::: moniker range=">=vs-2019"
-
-1. In **Solution Explorer**, open *TopLevelMenuPackage.vsct*.
-
-    At the end of the file, there is a \<Symbols> node that contains several \<GuidSymbol> nodes. In the node named guidTopLevelMenuPackageCmdSet, add a new symbol, as follows:
-
-   ```xml
-   <IDSymbol name="TopLevelMenu" value="0x1021"/>
-   ```
-
-2. Create an empty \<Menus> node in the \<Commands> node, just before \<Groups>. In the \<Menus> node, add a \<Menu> node, as follows:
-
-   ```xml
-   <Menus>
-         <Menu guid="guidTopLevelMenuPackageCmdSet" id="TopLevelMenu" priority="0x700" type="Menu">
-           <Parent guid="guidSHLMainMenu"
-                   id="IDG_VS_MM_TOOLSADDINS" />
-           <Strings>
-             <ButtonText>TestMenu</ButtonText>
-             <CommandName>TestMenu</CommandName>
-           </Strings>
-       </Menu>
-   </Menus>
-   ```
-
-    The `guid` and `id` values of the menu specify the command set and the specific menu in the command set.
-
-    The `guid` and `id` values of the parent position the menu on the section of the Visual Studio menu bar that contains the Tools and Add-ins menus.
-
-    The value of the `CommandName` string specifies that the text should appear in the menu item.
-
-3. In the \<Groups> section, find the \<Group> and change the \<Parent> element to point to the menu we just added:
-
-   ```csharp
-   <Groups>
-         <Group guid="guidTopLevelMenuPackageCmdSet" id="MyMenuGroup" priority="0x0600">
-           <Parent guid="guidTopLevelMenuPackageCmdSet" id="TopLevelMenu"/>
-         </Group>
-       </Groups>
-   ```
-
-    This makes the group part of the new menu.
-
-::: moniker-end
 
 4. Find the `Buttons` section. Notice that the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Package template has generated a `Button` element that has its parent set to `MyMenuGroup`. As a result, this command appears on your menu.
 
