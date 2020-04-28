@@ -51,13 +51,9 @@
   - name: Data inspection
     items:
     - name: Inspect data in debugger windows
-<<<<<<< HEAD
-      href: debugger-windows.md     
-=======
       href: debugger-windows.md
     - name: Inspect exceptions
       href: exception-helper.md 
->>>>>>> upstream/master
     - name: Inspect variables
       href: autos-and-locals-windows.md
     - name: Watch variables
