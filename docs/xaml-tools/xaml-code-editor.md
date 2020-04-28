@@ -35,28 +35,28 @@ Next, let's take a look at the functions of each of the UI elements in the code 
 
 ### Top left, first row
 
-Starting at the top left, and from left to right, there's a Design tab, a Swap Panes button, a XAML tab, and a Pop-Out XAML button.
+Starting at the top left, and from left to right, there's a **Design** tab, a **Swap Panes** button, a **XAML** tab, and a **Pop-Out XAML** button.
 
 ![Screenshot of the first of the two top rows of the XAML code editor window in Visual Studio 2019, in which UI elements on the left are highlighted](media/xaml-code-editor-top-row-left.png)
 
-Here's how to use each of these tabs and buttons: 
+Here's how they work: 
 
-- To change the focus from the XAML code editor to the XAML Designer, choose the **Design** tab.
-- To reverse the location of the XAML Designer and the XAML code editor in the IDE, choose the **Swap Panes** button.
-- To change the focus back to the XAML code editor, choose the **XAML** tab.
-- To create a separate XAML code editor window that is outside of the IDE, choose the **Pop Out XAML** button.
+- The **Design** tab changes the focus from the XAML code editor to the XAML Designer.
+- The **Swap Panes** button reverses the location of the XAML Designer and the XAML code editor in the IDE.
+- The **XAML** tab changes the focus back to the XAML code editor.
+- The **Pop Out XAML** button creates a separate XAML code editor window that's outside of the IDE.
 
 ### Top right, first row
 
-Continuing at the top right, and from left to right, there's a Vertical Split button, a Horizontal Split button, and a Collapse Panes button.
+Continuing at the top right, and from left to right, there's a **Vertical Split** button, a **Horizontal Split** button, and a **Collapse Panes** button.
 
 ![Screenshot of the first of the two top rows of the XAML code editor window in Visual Studio 2019, in which UI elements on the right are highlighted](media/xaml-code-editor-top-row-right.png)
 
-Here's how to use each of these buttons:
+Here's how they work:
 
-- To change the location of the XAML Designer and the XAML code editor in the IDE from a horizontal alignment to a vertical alignment, choose the **Vertical Split** button.
-- To change the location of the XAML Designer and the XAML code editor in the IDE from a vertical alignment to a horizontal alignment, choose the **Horizontal Split** button.
-- To hide the XAML code editor temporarily while you focus on using the XAML Designer within the IDE, choose the **Collapse Pane** button. (To restore the XAML code editor, choose the same button again, now named the **Expand Pane** button.)
+- The **Vertical Split** button changes the location of the XAML Designer and the XAML code editor in the IDE from a horizontal alignment to a vertical alignment.
+- The **Horizontal Split** button changes the location of the XAML Designer and the XAML code editor in the IDE from a vertical alignment to a horizontal alignment.
+- The **Collapse Pane** button hides the XAML code editor temporarily while you focus on using the XAML Designer within the IDE. (To restore the XAML code editor, choose the same button again, which is now named the **Expand Pane** button.)
 
 > [!TIP]
 > You can run two parallel instances of the XAML code editor concurrently by using both the **Pop Out XAML** button and the **Expand Pane** button.
@@ -71,18 +71,18 @@ In the second row of the top left, there are two Window dropdown lists. However,
 
 The Window dropdown lists have different functions, as follows:
 
-- To view and navigate to sibling or parent elements, choose **Element: Window** on the left.
+- The **Element: Window** on the left helps you view and navigate to sibling or parent elements. 
+
+  Specifically, it shows you an outline-like view that reveals the tag structure of your code. When you select from the list, your focus in the code editor will snap to the line of code that includes the element you selected.
 
     ![Screenshot of the Element: Window dropdown list in Visual Studio 2019](media/xaml-element-window-dropdown.png)
 
-    The Element: Window shows you an outline-like view that reveals the tag structure of your code. When you select from the list, your focus in the code editor will snap to the line of code that includes the element you selected.
+- The **Member: Window** on the right helps you view and navigate to attribute or child elements.
 
-- To view and navigate to attribute or child elements, choose **Member: Window** on the right. 
+    Specifically, it shows you a list of the properties in your code. When you select from the list, your focus in the code editor will snap to the line of code that includes the property you selected.
 
     ![Screenshot of the Member: Window dropdown list in Visual Studio 2019](media/xaml-member-window-dropdown.png)
 
-    The Member: Window shows you a list of the properties in your code. When you select from the list, your focus in the code editor will snap to the line of code that includes the property you selected.
-    
 ### Middle pane + right-side scroll indicators
 
 The middle pane is the "code" part of the XAML code editor. It includes most of the features that you'll find in the [IDE code editor](../get-started/tutorial-editor.md), along with a few unique-to-XAML features that we'll describe in more detail. 
@@ -94,7 +94,9 @@ In the code editor,
 
 #### Color indicators
 
-Annotated with highlights
+The code editor highlights the changes you make to your code, while you're making them.
+
+When you make a change to your code, the 
 
 Right-click menu
 
@@ -125,6 +127,8 @@ Highlight unique things
 
 You can use the [Options](../ide/reference/options-dialog-box-visual-studio.md) dialog box to change the default settings for the XAML code editor. To view the settings, choose **Tools** > **Options** > **Text Editor** > **XAML**. 
 
+![Screenshot of the Options list for the XAML text editor](media/xaml-tools-options.png)
+
 > [!NOTE]
 > Here's how to use keyboard shortcuts to access the Options dialog box: 
 >
@@ -132,15 +136,9 @@ You can use the [Options](../ide/reference/options-dialog-box-visual-studio.md) 
 >  
 > For more information about keyboard shortcuts, see the [Shortcut tips for Visual Studio](../ide/productivity-shortcuts.md#code-editor) page.
 
-![Screenshot of the Options list for the XAML text editor](media/xaml-tools-options.png)
-
-![Screenshot of the Options list for the XAML text editor](media/xaml-tools-options-test.png)
-
 ### XAML-specific tools
 
-There are many ways to customize your experience by changing the settings in Options (the Tools > Options menu in Visual Studio. Here are the options that are specific to XAML code editor.
-
-What's specific to XAML:
+Here are the settings in the Options dialog that can enhance your editing experience when you develop XAML apps.
 
 - Formatting Options (XAML specific) described
 - General
