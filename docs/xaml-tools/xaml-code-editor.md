@@ -65,11 +65,11 @@ Here's how to use each of these buttons:
 
 ### Top left, second row
 
-In the second row of the top left, there are two Window dropdown lists.
+In the second row of the top left, there are two Window dropdown lists. However, if you view the Tooltip for these UI elements, it further identifies them as the "Element: Window" and the "Member: Window".
 
 ![Screenshot of the second of the two top rows of the XAML code editor window in Visual Studio 2019, in which both Window dropdown lists are visible](media/xaml-code-editor-top-row-windows.png)
 
-Although the Window dropdown menus share the same name, they have different functions:
+The Window dropdown lists have different functions, as follows:
 
 - To view and navigate to sibling or parent elements, choose **Element: Window** on the left.
 
@@ -83,14 +83,16 @@ Although the Window dropdown menus share the same name, they have different func
 
     The Member: Window shows you a list of the properties in your code. When you select from the list, your focus in the code editor will snap to the line of code that includes the property you selected.
     
-### Middle pane, left side icons 
+### Middle pane + right-side scroll indicators
 
-[see if we have docs for what the colors means]
+The middle pane is the "code" part of the XAML code editor. It includes most of the features that you'll find in the [IDE code editor](../get-started/tutorial-editor.md), along with a few unique-to-XAML features that we'll describe in more detail. 
 
-### Middle pane, right side scrollbar indicators
+In the code editor, 
 
 - Button to drag out two parallel code editors
 - Unused Usings, lightbulb for removing
+
+#### Color indicators
 
 Annotated with highlights
 
@@ -112,26 +114,29 @@ Highlight unique things
 - XAML #regions
 - XAML Comments
 - Lightbulbs
-- All Platforms - Adding missing namespace
-- UWP – Add conditional XAML
+    - All Platforms - Adding missing namespace
+    - UWP – Add conditional XAML
 - XAML Rename namespace using F2
 - Structure Analyzers (dotted lines between the tags vertically)
 - Only between tags and not container properties
 - Settings
 
-## XAML code editor settings
+## XAML code editor optional settings
 
-You can use the [Options]() dialog box to change the default settings for the XAML code editor. 
+You can use the [Options](../ide/reference/options-dialog-box-visual-studio.md) dialog box to change the default settings for the XAML code editor. To view the settings, choose **Tools** > **Options** > **Text Editor** > **XAML**. 
 
-To view the different settings, choose **Tools** > **Options** > **Text Editor** > **XAML**. Alternatively, Then, choose 
-
-Text Editors > XAML > General)
+> [!NOTE]
+> Here's how to use keyboard shortcuts to access the Options dialog box: 
+>
+> Press **Ctrl**+**Q** to search the IDE, type **Options**, and then press **Enter**. Next, press **Ctrl**+**E** to search the Options dialog box, type **Text Editor** and press **Enter**, and then type **XAML** and press **Enter**.
+>  
+> For more information about keyboard shortcuts, see the [Shortcut tips for Visual Studio](../ide/productivity-shortcuts.md#code-editor) page.
 
 ![Screenshot of the Options list for the XAML text editor](media/xaml-tools-options.png)
 
 ![Screenshot of the Options list for the XAML text editor](media/xaml-tools-options-test.png)
 
-## XAML-specific tools
+### XAML-specific tools
 
 There are many ways to customize your experience by changing the settings in Options (the Tools > Options menu in Visual Studio. Here are the options that are specific to XAML code editor.
 
@@ -145,7 +150,7 @@ What's specific to XAML:
 
 ## Next steps
 
-To get started coding, see the [Title Name](pagename.md) page.
+To learn more about how to edit your code in real-time while you're running your app in debug mode, see the [XAML Hot Reload](xaml-hot-reload.md) page.
 
 ## See also
 
