@@ -83,22 +83,31 @@ The Window dropdown lists have different functions, as follows:
 
     ![Screenshot of the Member: Window dropdown list in Visual Studio 2019](media/xaml-member-window-dropdown.png)
 
-### Middle pane + right-side scroll indicators
+### Middle pane, code editor
 
-The middle pane is the "code" part of the XAML code editor. It includes most of the features that you'll find in the [IDE code editor](../get-started/tutorial-editor.md), along with a few unique-to-XAML features that we'll describe in more detail. 
+The middle pane is the "code" part of the XAML code editor. It includes most of the features that you'll find in the [IDE code editor](../get-started/tutorial-editor.md). We'll touch on several of the universal IDE features that can help you develop your XAML code. We'll also highlight the unique-to-XAML features in the IDE, too.
 
-In the code editor, 
+![Screenshot of the XAML code editor, middle pane only, in Visual Studio 2019](media/xaml-code-editor-middle.png)
 
-- Button to drag out two parallel code editors
-- Unused Usings, lightbulb for removing
+#### Quick actions
 
-#### Color indicators
+- Unused Usings, lightbulb for removing (Quick Actions)
 
-The code editor highlights the changes you make to your code, while you're making them.
+#### Change tracking
 
-When you make a change to your code, the 
+The color of the left margin allows you to keep track of the changes you have made in a file. Here's how the colors relate to the actions you take:
 
-Right-click menu
+- Changes you have made since the file was opened but not saved are denoted by a **yellow** bar on the left margin (known as the selection margin). 
+- After you have saved the changes (but before closing the file), the bar turns **green**. 
+- If you undo a change after you have saved the file, the bar turns **orange**. 
+
+To turn this feature off and on, change the **Track changes** option in the **Text Editor** settings (**Tools** > **Options** > **Text Editor**).
+
+#### Right-click menu
+
+When you are editing your code in the XAML code editor, there are several features that you can access by using the right-click menu. 
+
+![Screenshot of the XAML code editor's right-click menu in Visual Studio 2019](media/xaml-code-editor-right-click-menu.png)
 
 - Quick Actions
 - Only expands a lightbulb if its available
@@ -110,7 +119,15 @@ Right-click menu
 - Insert Snippet
 - Outline
 
-Highlight unique things
+### Middle pane, scroll bar
+
+In the scroll bar of the code editor, there's a **Split** button at the top right. When you choose it, you can open another code editor pane. This is useful because they operate independently of each other, so you can use them to work on code in different locations. 
+
+![Screenshot of the XAML code editor, middle pane only, in Visual Studio 2019](media/code-editor-split-window-button.png)
+
+For more information, see the [Manage editor windows](../ide/how-to-manage-editor-windows.md).
+
+## XAML-specific features
 
 - XAML support for snippets
 - XAML #regions
@@ -123,20 +140,20 @@ Highlight unique things
 - Only between tags and not container properties
 - Settings
 
-## XAML code editor optional settings
+## XAML optional settings
 
 You can use the [Options](../ide/reference/options-dialog-box-visual-studio.md) dialog box to change the default settings for the XAML code editor. To view the settings, choose **Tools** > **Options** > **Text Editor** > **XAML**. 
 
 ![Screenshot of the Options list for the XAML text editor](media/xaml-tools-options.png)
 
 > [!NOTE]
-> Here's how to use keyboard shortcuts to access the Options dialog box: 
+> You can also use keyboard shortcuts to access the Options dialog box. Here's how: 
 >
-> Press **Ctrl**+**Q** to search the IDE, type **Options**, and then press **Enter**. Next, press **Ctrl**+**E** to search the Options dialog box, type **Text Editor** and press **Enter**, and then type **XAML** and press **Enter**.
+> Press **Ctrl**+**Q** to search the IDE, type **Options**, and then press **Enter**. Next, press **Ctrl**+**E** to search the Options dialog box, type **Text Editor**, press **Enter**, type **XAML**, and then press **Enter**.
 >  
 > For more information about keyboard shortcuts, see the [Shortcut tips for Visual Studio](../ide/productivity-shortcuts.md#code-editor) page.
 
-### XAML-specific tools
+### XAML-specific options
 
 Here are the settings in the Options dialog that can enhance your editing experience when you develop XAML apps.
 
