@@ -17,7 +17,7 @@ XAML Hot Reload for Xamarin.Forms is built into Visual Studio for Mac in version
 
 XAML Hot Reload can be enabled by checking the **Enable Xamarin Hot Reload** checkbox at **Visual Studio > Preferences > Projects > Xamarin Hot Reload**.
 
-For more information on Hot Reload, see the [XAML Hot Reload for Xamarin.Forms guide](https://docs.microsoft.com/en-us/xamarin/xamarin-forms/xaml/hot-reload) within the documentation.
+For more information on Hot Reload, see the [XAML Hot Reload for Xamarin.Forms guide](/xamarin/xamarin-forms/xaml/hot-reload) within the documentation.
 
 ## Android
 
@@ -36,7 +36,7 @@ The iOS Designer is fully integrated with Visual Studio for Mac and enables visu
 
 ![iOS Storyboard designer](media/intro-image30.png)
 
-For more information on using the iOS Designer, see the [Designer](https://docs.microsoft.com/xamarin/ios/user-interface/designer/?tabs=macos) guides.
+For more information on using the iOS Designer, see the [Designer](/xamarin/ios/user-interface/designer/?tabs=macos) guides.
 
 ### Mac
 

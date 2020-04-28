@@ -1,16 +1,16 @@
 ---
-title: "Custom Colorable Items | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Custom Colorable Items | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "colorable items"
-  - "language services, custom colorable items"
+- colorable items
+- language services, custom colorable items
 ms.assetid: b4d0ddee-c04b-48dc-ba82-f6068570cef0
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Custom colorable items
 You can override the list of types for colorizing, such as keywords and comments, by implementing custom colorable items as part of your language service.

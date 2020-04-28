@@ -7,8 +7,8 @@ ms.technology: vs-ide-general
 ms.prod: visual-studio-windows
 ms.topic: tutorial
 ms.devlang: vb
-author: TerryGLee
-ms.author: tglee
+author: ornellaalt
+ms.author: ornella
 manager: jillfra
 dev_langs:
   - vb
@@ -126,6 +126,8 @@ Let's create an app that prompts you for your name and then displays it along wi
 
    ![Code window showing the What Is Your Name code](./media/vs-2019/vb-codewindow-what-name-dark.png)
 
+1. Use the green **Start** button, or press **F5** to build and run your first app.
+
 1. When the console window opens, enter your name. Your console window should look similar to the following screenshot:
 
    ![Console window showing What Is Your Name, the time and date, and Press any key to continue message](media/vb-console-what-name.png)
@@ -142,7 +144,7 @@ Let's create an app that prompts you for your name and then displays it along wi
      Console.WriteLine(vbCrLf + "What is your name? ")
      Dim name = Console.ReadLine()
      Dim currentDate = DateTime.Now
-     Console.WriteLine($"{vbCrLf}Hello, {name}, on {currentDate:d} at {currentDate:t}")
+     Console.WriteLine($"{vbCrLf}Hello, {name}, on {currentDate:d} at {currentDate:t}!")
      Console.Write(vbCrLf + "Press any key to exit... ")
      Console.ReadKey(True)
     ```
@@ -150,6 +152,8 @@ Let's create an app that prompts you for your name and then displays it along wi
     This code replaces the existing <xref:System.Console.WriteLine%2A>, <xref:System.Console.Write%2A>, and <xref:System.Console.ReadKey%2A> statements.
 
    ![Code window showing the What Is Your Name code](./media/vs-2019/vb-codewindow-what-name-dark.png)
+
+1. Use the green **Start** button, or press **F5** to build and run your first app.
 
 1. When the console window opens, enter your name. Your console window should look similar to the following screenshot:
 
@@ -202,7 +206,7 @@ Let's create an app that prompts you for your name and then displays it along wi
 
 1. After you apply the language and platform filters, choose the **Console App (.NET Core)** template, and then choose **Next**.
 
-   Then, in the **Configure your new project** window, type or enter *WhatIsYourName* in the **Project name** box. Next, choose **Create**.
+   Then, in the **Configure your new project** window, type or enter *CalculateThis* in the **Project name** box. Next, choose **Create**.
 
 1. Enter the following code between the `Module Program` line and `End Module` line:
 

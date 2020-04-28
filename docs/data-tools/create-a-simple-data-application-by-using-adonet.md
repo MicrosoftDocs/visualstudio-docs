@@ -3,14 +3,14 @@ title: Create a simple data application by using ADO.NET
 ms.date: 08/23/2017
 ms.topic: conceptual
 dev_langs:
-  - "VB"
-  - "CSharp"
+- VB
+- CSharp
 ms.assetid: 2222841f-e443-4a3d-8c70-4506aa905193
-author: jillre
-ms.author: jillfra
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "data-storage"
+- data-storage
 ---
 # Create a simple data application by using ADO.NET
 

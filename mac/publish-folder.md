@@ -16,7 +16,7 @@ You can use the Publish tool to publish .NET Core Console or ASP.NET Core apps t
 ## Prerequisites
 
 - [Visual Studio 2019 for Mac](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs4mac2019) installed with .NET Core enabled.
-- A .NET Core console or ASP.NET Core project. If you don’t already have a project, you can [create a new one](https://docs.microsoft.com/visualstudio/mac/create-new-projects?view=vsmac-2019).
+- A .NET Core console or ASP.NET Core project. If you don’t already have a project, you can [create a new one](/visualstudio/mac/create-new-projects?view=vsmac-2019).
 
 ## Publish to Folder
 
@@ -46,7 +46,7 @@ Using Visual Studio for Mac you can publish your .NET Core projects to a folder 
 
 ## Customize Publish Options
 
-To change the name of the publish profile (which is displayed in the publish context menu), rename the publish profile file. Make sure to not change the extension of the file (`.puxbml`).
+To change the name of the publish profile (which is displayed in the publish context menu), rename the publish profile file. Make sure to not change the extension of the file (`.pubxml`).
 
 To change the publish folder path, open the publish profile and edit the `publishUrl` value.
 

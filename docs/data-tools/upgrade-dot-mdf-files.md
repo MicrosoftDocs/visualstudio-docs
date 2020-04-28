@@ -3,17 +3,17 @@ title: Upgrade .mdf files
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "SQL Server Express"
-  - "SQL Server LocalDB"
-  - "LocalDB"
-  - "SQLEXPRESS"
-  - "upgrading SQLExpress to SQLExpress"
-  - "upgrading to LocalDB"
-author: jillre
-ms.author: jillfra
+- SQL Server Express
+- SQL Server LocalDB
+- LocalDB
+- SQLEXPRESS
+- upgrading SQLExpress to SQLExpress
+- upgrading to LocalDB
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "data-storage"
+- data-storage
 ---
 # Upgrade .mdf files
 

@@ -1,16 +1,16 @@
 ---
-title: "Buttons Element | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Buttons Element | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "Buttons element (VSCT XML schema)"
-  - "VSCT XML schema elements, Buttons"
+- Buttons element (VSCT XML schema)
+- VSCT XML schema elements, Buttons
 ms.assetid: 9f2cf94d-dec5-4776-a836-9a89c75f0c87
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Buttons element
 Groups [Button](../extensibility/button-element.md) elements, which represent individual commands.

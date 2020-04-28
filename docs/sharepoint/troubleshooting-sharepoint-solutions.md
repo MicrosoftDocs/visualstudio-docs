@@ -166,9 +166,9 @@ ms.workload:
 ### Resolution
  To resolve this issue, delete the model manually, and then deploy the solution again.  You can delete the model by using either of the following tools:
 
-- SharePoint 2010 Central Administration. For more information, see [BDC Model Management](/previous-versions/office/sharepoint-server-2010/ee524073(v=office.14)#deleteamodel) on the Microsoft TechNet Web site.
+- SharePoint 2010 Central Administration. For more information, see [BDC Model Management](/previous-versions/office/sharepoint-server-2010/ee524073(v=office.14)#delete-a-bdc-model) on the Microsoft TechNet Web site.
 
-- Windows PowerShell. You can delete the model by typing this command at the command prompt: **Remove-SPBusinessDataCatalogModel**. For more information, see [General cmdlets (SharePoint Server 2010)](/powershell/module/sharepoint-server/&view=sharepoint-ps) on the Microsoft TechNet Web site.
+- Windows PowerShell. You can delete the model by typing this command at the command prompt: **Remove-SPBusinessDataCatalogModel**. For more information, see [General cmdlets (SharePoint Server 2010)](/powershell/module/sharepoint-server) on the Microsoft TechNet Web site.
 
 ## An error appears when you try to view a visual web part in SharePoint
  This problem occurs when the **Path** property of the user control does not begin with the string "CONTROLTEMPLATES\\".
@@ -275,4 +275,4 @@ ms.workload:
 
 - [Troubleshoot SharePoint packaging and deployment](../sharepoint/troubleshooting-sharepoint-packaging-and-deployment.md)
 - [Build and debug SharePoint solutions](../sharepoint/building-and-debugging-sharepoint-solutions.md)
-- [Debugging in Visual Studio](../debugger/debugging-in-visual-studio.md)
+- [Debugging in Visual Studio](../debugger/debugger-feature-tour.md)

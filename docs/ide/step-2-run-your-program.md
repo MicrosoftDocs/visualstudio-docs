@@ -1,15 +1,15 @@
 ---
-title: "Step 2: Run your picture viewer app"
+title: 'Step 2: Run your picture viewer app'
 ms.date: 09/06/2019
 ms.assetid: 9a8fe90e-c97b-4e98-b6c8-0c6b3962c49d
 ms.topic: tutorial
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
-author: TerryGLee
-ms.author: tglee
+author: ornellaalt
+ms.author: ornella
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Step 2: Run your picture viewer app
 

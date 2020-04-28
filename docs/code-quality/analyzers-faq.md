@@ -3,12 +3,12 @@ title: EditorConfig versus analyzers
 ms.date: 03/11/2019
 ms.topic: conceptual
 helpviewer_keywords:
-  - "analyzers, faq"
-author: jillre
-ms.author: jillfra
+- analyzers, faq
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Code analysis FAQ
 
@@ -81,6 +81,12 @@ In addition to rule sets and EditorConfig files, some analyzers are configured t
      <Import Project="..\packages\Microsoft.CodeAnalysis.FxCopAnalyzers.2.6.5\build\Microsoft.CodeAnalysis.FxCopAnalyzers.props" Condition="Exists('..\packages\Microsoft.CodeAnalysis.FxCopAnalyzers.2.6.5\build\Microsoft.CodeAnalysis.FxCopAnalyzers.props')" />
      ...
      ```
+
+## Code analysis solution property page
+
+**Q**: Where is the Code Analysis property page for the solution?
+
+**A**: The Code Analysis property page at the solution level was removed in favor of the more reliable shared property group. For managing Code Analysis at the project level, the Code Analysis property page is still available. (For managed projects, we also recommend migrating from rulesets to EditorConfig for rule configuration.)  For sharing rulesets across multiple/all projects in a solution or a repo, we recommend defining a property group with CodeAnalysisRuleSet property in a shared props/targets file or Directory.props/Directory.targets file. If you don't have any such common props or targets that all your projects import, you should consider [adding such a property group to a Directory.props or a Directory.targets at a top level solution directory, which is automatically imported in all project files defined in the directory or its sub-directories](https://docs.microsoft.com/visualstudio/msbuild/customize-your-build?directorybuildprops-and-directorybuildtargets).
 
 ## See also
 

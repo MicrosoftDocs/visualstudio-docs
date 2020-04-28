@@ -1,20 +1,20 @@
 ---
-title: "IDebugProperty2::GetDerivedMostProperty | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugProperty2::GetDerivedMostProperty | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugProperty2::GetDerivedMostProperty"
+- IDebugProperty2::GetDerivedMostProperty
 helpviewer_keywords:
-  - "IDebugProperty2::GetDerivedMostProperty"
+- IDebugProperty2::GetDerivedMostProperty
 ms.assetid: cc86b461-62d1-4340-8209-c65037fd8b02
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugProperty2::GetDerivedMostProperty
 Gets the derived-most property of a property.

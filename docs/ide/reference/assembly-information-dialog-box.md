@@ -3,15 +3,15 @@ title: Assembly Information Dialog Box
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "vb.ProjectPropertiesAssemblyInfo"
+- vb.ProjectPropertiesAssemblyInfo
 helpviewer_keywords:
-  - "Assembly Information dialog box"
+- Assembly Information dialog box
 ms.assetid: 8f1f6449-e03d-4a5b-9076-d3b1f84ada48
-author: jillre
-ms.author: jillfra
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Assembly Information dialog box
 

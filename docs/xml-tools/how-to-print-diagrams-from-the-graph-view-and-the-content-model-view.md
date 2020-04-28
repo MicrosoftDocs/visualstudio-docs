@@ -1,13 +1,13 @@
 ---
-title: "XML Schema: Print diagrams in Graph View & Content Model View"
+title: 'XML Schema: Print diagrams in Graph View & Content Model View'
 ms.date: 11/04/2016
 ms.topic: conceptual
 ms.assetid: 7e1785e4-4aaf-4c66-8735-51e7ca035565
-author: jillre
-ms.author: jillfra
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # How to: Print diagrams from the Graph View and the Content Model View
 

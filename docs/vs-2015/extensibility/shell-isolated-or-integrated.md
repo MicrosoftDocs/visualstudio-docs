@@ -49,7 +49,7 @@ You can create your own Visual Studio-based application in either integrated or 
 > - your own EULA that requires your customers to agree to terms that protect the Visual Studio integrated or isolated shell at least as much as the Microsoft End User License Terms for the shell software  
   
 ## Additional Resources  
- For more information about redistributable packages, see the [Visual Studio Extensibility Downloads](http://go.microsoft.com/fwlink/?LinkID=119298) Web site.  
+ For more information about redistributable packages, see the [Visual Studio Extensibility Downloads](https://msdn.microsoft.com/vstudio/bb984878.aspx) Web site.  
   
 ## See Also  
  [Shipping Visual Studio Extensions](../extensibility/shipping-visual-studio-extensions.md)

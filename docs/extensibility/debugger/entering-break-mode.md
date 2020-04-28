@@ -1,16 +1,16 @@
 ---
-title: "Entering Break Mode | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Entering Break Mode | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "break mode"
-  - "debugging [Debugging SDK], entering break mode"
+- break mode
+- debugging [Debugging SDK], entering break mode
 ms.assetid: e9a8a241-cd21-4d4e-999a-283554c288b1
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Enter break mode
 The following information describes the process that occurs when a breakpoint is encountered after stepping into a function, running to the line of source code that has the cursor in it, or running to a breakpoint.

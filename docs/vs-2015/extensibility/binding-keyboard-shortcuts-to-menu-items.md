@@ -71,7 +71,7 @@ To bind a keyboard shortcut to a custom menu command, just add an entry to the .
   
    In most situations, **Shift** should not be used without a second modifier because pressing it already causes most alphanumeric keys to type an uppercase letter or a symbol.  
   
-   Virtual-key codes let you access special keys that do not have a character associated with them, for example, function keys and the **BACKSPACE** key. For more information, see [Virtual-Key Codes](http://go.microsoft.com/fwlink/?LinkID=105932).  
+   Virtual-key codes let you access special keys that do not have a character associated with them, for example, function keys and the **BACKSPACE** key. For more information, see [Virtual-Key Codes](https://msdn2.microsoft.com/library/ms645540.aspx).  
   
    To make the command available in the Visual Studio editor, set the `editor` attribute to `guidVSStd97`.  
   

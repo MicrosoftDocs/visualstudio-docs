@@ -1,16 +1,16 @@
 ---
-title: "Support for Project and Configuration Properties | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Support for Project and Configuration Properties | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "project properties, supporting with Visual Studio SDK"
-  - "configuration properties, supporting with Visual Studio SDK"
+- project properties, supporting with Visual Studio SDK
+- configuration properties, supporting with Visual Studio SDK
 ms.assetid: 9fcfaa0f-7b41-4b68-82ec-7a151dca5d7e
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Support for Project and Configuration Properties
 The **Properties** window in the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] integrated development environment (IDE) can display project and configuration properties. You can provide a property page for your own project type so that the user can set properties for your application.

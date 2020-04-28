@@ -1,7 +1,7 @@
 ---
 title: "Change Log (Visual Studio Tools for Unity, Windows) | Microsoft Docs"
 ms.custom: ""
-ms.date: "09/18/2019"
+ms.date: "3/23/2019"
 ms.technology: vs-unity-tools
 ms.topic: "conceptual"
 ms.assetid: ea490b7e-fc0d-44b1-858a-a725ce20e396
@@ -14,6 +14,104 @@ ms.workload:
 # Change log (Visual Studio Tools for Unity, Windows)
 
 Visual Studio Tools for Unity change log.
+
+## 4.5.1.0
+
+Released March 16, 2020
+
+### New Features
+
+- **Integration:**
+
+  - Added a suppressor for [`IDE0051`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/master/doc/USP0008.md). Private methods used with Invoke, InvokeRepeating, StartCoroutine or StopCoroutine should not be marked as unused.
+
+### Bug fixes
+
+- **Integration:**
+
+  - Fixed OnDrawGizmos/OnDrawGizmosSelected documentation
+
+- **Evaluation:**
+
+  - Fixed lambda argument inspection.
+
+## 4.5.0.1
+
+Released February 19, 2020
+
+### Bug fixes
+
+- **Integration:**
+
+  - Fixed [`UNT0006`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/master/doc/UNT0006.md) diagnostic checking for incorrect message signature. When inspecting types with multiple levels of inheritance, this diagnostic could fail with the following message: `warning AD0001: Analyzer 'Microsoft.Unity.Analyzers.MessageSignatureAnalyzer' threw an exception of type 'System.ArgumentException' with message 'An item with the same key has already been added`.
+
+## 4.5.0.0
+
+Released January 22, 2020
+
+### New Features
+
+- **Integration:**
+
+  - Added support for HLSL files.
+  
+  - Added a suppressor for [`IDE0051`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/master/doc/USP0006.md). Private fields with the `SerializeField` attribute should not be marked as unused.
+  
+  - Added a suppressor for [`CS0649`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/master/doc/USP0007.md). Fields with the `SerializeField` attribute should not be marked as unassigned.  
+
+### Bug fixes
+
+- **Integration:**
+
+  - Fixed project generation (`GenerateTargetFrameworkMonikerAttribute` target was not always located correctly)
+
+## 4.4.2.0
+
+Released December 3, 2019
+
+### Bug fixes
+
+- **Integration:**
+
+  - Fixed diagnostics with user-defined interfaces.
+
+  - Fixed quick tooltips with malformed expressions.
+
+## 4.4.1.0
+
+Released November 6, 2019
+
+### New Features
+
+- **Integration:**
+
+  - Added support for Unity background processes. (The debugger is able to auto-connect to the main process instead of a child process).
+  
+  - Added a quick tooltip for Unity messages, displaying the associated documentation.
+
+### Bug fixes
+
+- **Integration:**
+
+  - Fixed the tag comparison analyzer [`UNT0002`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/master/doc/UNT0002.md) with advanced binary and invocation expressions.
+
+### Deprecated Features
+
+- **Integration:**
+
+  - Going forward, Visual Studio Tools for Unity will only support Visual Studio 2017+.
+
+## 4.4.0.0
+
+Released October 15, 2019
+
+### New Features
+
+- **Integration:**
+
+  - Added a suppressor for [`IDE0060`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/master/doc/USP0005.md) (unused parameter) for all Unity messages.
+  
+  - Added a quick tooltip for fields tagged with `TooltipAttribute`. (This will work for a simple get accessor using this field as well).
 
 ## 4.3.3.0
 
@@ -34,21 +132,21 @@ Released September 16, 2019
 - **Integration:**
 
   - We've deepened the understanding that Visual Studio has for Unity projects by adding new diagnostics specific to Unity. We've also made the IDE smarter by suppressing general C# diagnostics that don't apply to Unity projects. For example, the IDE won't show a quick-fix to change an inspector variable to `readonly` which would prevent you from modifying the variable in the Unity Editor.
-    - `UNT0001`: Unity messages are called by the runtime even if they are empty, do not declare them to avoid uncesseray processing by the Unity runtime.
-    - `UNT0002`: Tag comparison using string equality is slower than the built-in CompareTag method.
-    - `UNT0003`: Usage of the generic form of GetComponent is preferred for type safety.
-    - `UNT0004`: Update message is frame-rate dependent, and should use Time.deltaTime instead of Time.fixedDeltaTime.
-    - `UNT0005`: FixedUpdate message is frame-rate independent, and should use Time.fixedDeltaTime instead of Time.deltaTime.
-    - `UNT0006`: An incorrect method signature was detected for this Unity message.
-    - `UNT0007`: Unity overrides the null comparison operator for Unity objects which is incompatible with null coalescing.
-    - `UNT0008`: Unity overrides the null comparison operator for Unity objects which is incompatible with null propagation.
-    - `UNT0009`: When applying the InitializeOnLoad attribute to a class, you need to provide a static constructor. InitializeOnLoad attribute ensures that it will be called as the editor launches.
-    - `UNT0010`: MonoBehaviours should only be created using AddComponent(). MonoBehaviour is a component, and needs to be attached to a GameObject.
-    - `UNT0011`: ScriptableObject should only be created using CreateInstance(). ScriptableObject needs to be created by the Unity engine to handle Unity message methods.
-    - `USP0001` for `IDE0029`: Unity objects should not use null coalescing.
-    - `USP0002` for `IDE0031`: Unity objects should not use null propagation.
-    - `USP0003` for `IDE0051`: Unity messages are invoked by the Unity runtime.
-    - `USP0004` for `IDE0044`: Fields with a SerializeField attribute should not be made readonly.
+    - [`UNT0001`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/master/doc/UNT0001.md): Unity messages are called by the runtime even if they are empty, do not declare them to avoid uncesseray processing by the Unity runtime.
+    - [`UNT0002`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/master/doc/UNT0002.md): Tag comparison using string equality is slower than the built-in CompareTag method.
+    - [`UNT0003`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/master/doc/UNT0003.md): Usage of the generic form of GetComponent is preferred for type safety.
+    - [`UNT0004`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/master/doc/UNT0004.md): Update message is frame-rate dependent, and should use Time.deltaTime instead of Time.fixedDeltaTime.
+    - [`UNT0005`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/master/doc/UNT0005.md): FixedUpdate message is frame-rate independent, and should use Time.fixedDeltaTime instead of Time.deltaTime.
+    - [`UNT0006`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/master/doc/UNT0006.md): An incorrect method signature was detected for this Unity message.
+    - [`UNT0007`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/master/doc/UNT0007.md): Unity overrides the null comparison operator for Unity objects which is incompatible with null coalescing.
+    - [`UNT0008`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/master/doc/UNT0008.md): Unity overrides the null comparison operator for Unity objects which is incompatible with null propagation.
+    - [`UNT0009`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/master/doc/UNT0009.md): When applying the InitializeOnLoad attribute to a class, you need to provide a static constructor. InitializeOnLoad attribute ensures that it will be called as the editor launches.
+    - [`UNT0010`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/master/doc/UNT0010.md): MonoBehaviours should only be created using AddComponent(). MonoBehaviour is a component, and needs to be attached to a GameObject.
+    - [`UNT0011`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/master/doc/UNT0011.md): ScriptableObject should only be created using CreateInstance(). ScriptableObject needs to be created by the Unity engine to handle Unity message methods.
+    - [`USP0001`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/master/doc/USP0001.md) for `IDE0029`: Unity objects should not use null coalescing.
+    - [`USP0002`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/master/doc/USP0002.md) for `IDE0031`: Unity objects should not use null propagation.
+    - [`USP0003`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/master/doc/USP0003.md) for `IDE0051`: Unity messages are invoked by the Unity runtime.
+    - [`USP0004`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/master/doc/USP0004.md) for `IDE0044`: Fields with a SerializeField attribute should not be made readonly.
 
 ## 4.3.1.0
 

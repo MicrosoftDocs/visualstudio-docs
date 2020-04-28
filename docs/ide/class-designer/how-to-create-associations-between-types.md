@@ -1,21 +1,21 @@
 ---
-title: "How to: Create Associations Between Types (Class Designer)"
+title: 'How to: Create Associations Between Types (Class Designer)'
 ms.date: 11/04/2016
 ms.topic: conceptual
 f1_keywords:
-  - "vs.classdesigner.associationline"
+- vs.classdesigner.associationline
 helpviewer_keywords:
-  - "types [Visual Studio], associations"
-  - "association lines, defining (Class Designer)"
-  - "defining association lines (Class Designer)"
-  - "associations, types"
-  - "association lines"
+- types [Visual Studio], associations
+- association lines, defining (Class Designer)
+- defining association lines (Class Designer)
+- associations, types
+- association lines
 ms.assetid: adccb9c8-2f8a-4086-9fa9-f70f99fb6e00
-author: jillre
-ms.author: jillfra
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # How to: Create associations between types in Class Designer
 

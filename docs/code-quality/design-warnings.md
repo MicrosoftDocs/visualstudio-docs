@@ -3,21 +3,21 @@ title: Design Warnings
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "vs.codeanalysis.designrules"
+- vs.codeanalysis.designrules
 helpviewer_keywords:
-  - "design warnings"
-  - "managed code analysis warnings, design warnings"
-  - "warnings, design"
+- design warnings
+- managed code analysis warnings, design warnings
+- warnings, design
 ms.assetid: 34e65a18-560c-423f-814f-519089e318cf
-author: jillre
-ms.author: jillfra
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Design warnings
 
-Design warnings support adherence to the [.NET Design Guidelines](/dotnet/standard/design-guidelines/).
+Design warnings support adherence to the [.NET Framework Design Guidelines](/dotnet/standard/design-guidelines/).
 
 ## In This Section
 
@@ -84,5 +84,7 @@ Design warnings support adherence to the [.NET Design Guidelines](/dotnet/standa
 | [CA1063: Implement IDisposable correctly](../code-quality/ca1063.md) | All IDisposable types should implement the Dispose pattern correctly. |
 | [CA1064: Exceptions should be public](../code-quality/ca1064.md) | An internal exception is visible only inside its own internal scope. After the exception falls outside the internal scope, only the base exception can be used to catch the exception. If the internal exception is inherited from <xref:System.Exception?displayProperty=fullName>, <xref:System.SystemException?displayProperty=fullName>, or <xref:System.ApplicationException?displayProperty=fullName>, the external code will not have sufficient information to know what to do with the exception. |
 | [CA1065: Do not raise exceptions in unexpected locations](../code-quality/ca1065.md) | A method that is not expected to throw exceptions throws an exception. |
+| [CA1066: Implement IEquatable when overriding Equals](../code-quality/ca1066.md) | A value type overrides <xref:System.Object.Equals%2A> method, but does not implement <xref:System.IEquatable%601>. |
+| [CA1067: Override Equals when implementing IEquatable](../code-quality/ca1067.md) | A type implements <xref:System.IEquatable%601>, but does not override <xref:System.Object.Equals%2A> method. |
 | [CA1068: CancellationToken parameters must come last](../code-quality/ca1068.md) | A method has a CancellationToken parameter that is not the last parameter. |
 | [CA2210: Assemblies should have valid strong names](../code-quality/ca2210.md) | The strong name protects clients from unknowingly loading an assembly that has been tampered with. Assemblies without strong names should not be deployed outside very limited scenarios. If you share or distribute assemblies that are not correctly signed, the assembly can be tampered with, the common language runtime might not load the assembly, or the user might have to disable verification on his or her computer. |

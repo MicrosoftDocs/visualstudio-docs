@@ -1,12 +1,12 @@
 ---
-title: "Configure Network Emulation Using Test Settings"
+title: Configure Network Emulation Using Test Settings
 ms.date: 10/03/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "test settings, network emulation"
+- test settings, network emulation
 ms.assetid: ff275cfb-5df9-4710-9a91-9caabaaad34f
-author: jillre
-ms.author: jillfra
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ---
 # How to: Configure network emulation using test settings in Visual Studio
@@ -18,12 +18,19 @@ You can configure the diagnostic data adapter to test your application under var
 
 [!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
 
+::: moniker range="vs-2017"
 The following procedure describes how to configure network emulation from the configuration editor. These steps apply to both the configuration editor in Microsoft Test Manager and Visual Studio.
+::: moniker-end
+::: moniker range=">=vs-2019"
+The following procedure describes how to configure network emulation from the configuration editor. These steps apply to the configuration editor in Visual Studio.
+::: moniker-end
 
 > [!NOTE]
-> The network emulation diagnostic data adapter is only applicable to Visual Studio test settings. It is not used for test settings in Microsoft Test Manager.
+> The network emulation diagnostic data adapter is only applicable to Visual Studio test settings. It is not used for test settings in Microsoft Test Manager (deprecated in Visual Studio 2017).
 
+::: moniker range="vs-2017"
 An account that has administrator privileges must be used for network emulation. If you have selected network emulation for a local role that runs manual tests, you must start Microsoft Test Manager by using administrator privileges. If you have selected network emulation for any other role, you must verify that the test agent on the machine for that role uses a user account that is a member of the administrators group. For more information about how to set up the account for your test agent, see [Install and configure test agents](../test/lab-management/install-configure-test-agents.md).
+::: moniker-end
 
 > [!NOTE]
 > The Network Service account, which is the default account for the test agent, is not a member of the administrators group.

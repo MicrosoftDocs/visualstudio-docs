@@ -39,13 +39,13 @@ Here’s how to upgrade your extension.
   
 2. Remove the VS SDK reference assemblies from the project by selecting them, right click and **Remove**.  
   
-3. Add the NuGet versions of the VS SDK reference assemblies.  While still in the **Solution Explorer References** node, open the **Manage NuGet Packages…** dialog.  If you want to learn more about this dialog, see [Manage NuGet Packages Using the Dialog](http://docs.nuget.org/Consume/Package-Manager-Dialog). The VS SDK reference assemblies are published on [nuget.org](http://www.nuget.org) by [VisualStudioExtensibility](http://www.nuget.org/profiles/VisualStudioExtensibility).  
+3. Add the NuGet versions of the VS SDK reference assemblies.  While still in the **Solution Explorer References** node, open the **Manage NuGet Packages…** dialog.  If you want to learn more about this dialog, see [Manage NuGet Packages Using the Dialog](/nuget/consume-packages/install-use-packages-visual-studio). The VS SDK reference assemblies are published on [nuget.org](https://www.nuget.org/) by [VisualStudioExtensibility](https://www.nuget.org/profiles/VisualStudioExtensibility).  
   
 4. Using **nuget.org** as your **Package Source**, search for the NuGet package name which matches the desired reference assembly (for example: Microsoft.VisualStudio.Shell.14.0) and install it in your project.  NuGet may add multiple reference assemblies in order to satisfy the initial assembly’s dependencies.  
   
-     If you prefer, you can add all the VS SDK reference assemblies at once by installing the VS SDK [Meta package](http://www.nuget.org/packages/VSSDK_Reference_Assemblies).  
+     If you prefer, you can add all the VS SDK reference assemblies at once by installing the VS SDK [Meta package](https://www.nuget.org/packages/VSSDK_Reference_Assemblies).  
   
-5. You can also switch to using the NuGet version of the VS SDK build tools. This NuGet package is [Microsoft.VSSDK.BuildTools](http://www.nuget.org/packages/Microsoft.VSSDK.BuildTools) and once added to your project will include the necessary tools and target files to let you build your extensibility project on a computer without the VS SDK installed.  
+5. You can also switch to using the NuGet version of the VS SDK build tools. This NuGet package is [Microsoft.VSSDK.BuildTools](https://www.nuget.org/packages/Microsoft.VSSDK.BuildTools) and once added to your project will include the necessary tools and target files to let you build your extensibility project on a computer without the VS SDK installed.  
   
 > [!NOTE]
 > It is not required that you update your existing extensibility projects to use NuGet reference assemblies and tools.  They can continue to build using reference assemblies and tools installed with the VS SDK.

@@ -34,7 +34,7 @@ UML models help you understand, discuss, and design software systems. Visual Stu
  UML modeling diagrams and layer diagrams can exist only inside a modeling project. Each modeling project contains a shared UML model and several UML diagrams. Each diagram is a partial view of the model. The UML model contains all the elements on the UML diagrams and can be viewed by using UML Model Explorer. For information about models and their relationship to diagrams, see [Edit UML models and diagrams](../modeling/edit-uml-models-and-diagrams.md). For information about modeling projects under version control, see [Manage models and diagrams under version control](../modeling/manage-models-and-diagrams-under-version-control.md) and [Structure your modeling solution](../modeling/structure-your-modeling-solution.md)
 
 > [!NOTE]
-> There is another kind of diagram, the .NET class diagram, which is used to visualize program code. For more information, see [Designing and Viewing Classes and Types](http://go.microsoft.com/fwlink/?LinkId=142231).
+> There is another kind of diagram, the .NET class diagram, which is used to visualize program code. For more information, see [Designing and Viewing Classes and Types](https://msdn.microsoft.com/library/ab7aty24.aspx).
 
 ## <a name="CreatingModelingDiagrams"></a> Create a Diagram in a Modeling Project
  To see which versions of Visual Studio support this feature, see [Version support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport).

@@ -1,15 +1,15 @@
 ---
 title: Supported Visual Studio Editions for Visualization and Modeling SDK
-titleSuffix: ""
+titleSuffix: ''
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "Domain-Specific Language Tools, supported Visual Studio editions"
-author: jillre
-ms.author: jillfra
+- Domain-Specific Language Tools, supported Visual Studio editions
+author: JoshuaPartlow
+ms.author: joshuapa
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Supported Visual Studio Editions for Visualization & Modeling SDK
 

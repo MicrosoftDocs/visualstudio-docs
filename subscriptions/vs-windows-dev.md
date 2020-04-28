@@ -1,9 +1,10 @@
 ---
 title:  Windows Developer Account Benefit in Visual Studio Subscriptions | Microsoft Docs
 author: evanwindom
-ms.author: lank
+ms.author: v-evwin
 manager: lank
-ms.date: 07/31/2019
+ms.assetid: 588480a3-8806-4ea5-9915-c25974770069
+ms.date: 04/20/2020
 ms.topic: conceptual
 description:  Learn about the Windows Developer Account included with your Visual Studio subscription.
 ---
@@ -13,7 +14,7 @@ Your Windows Developer Account, included with selected Visual Studio subscriptio
 ## Activation steps
 To use your Windows Developer Account, you’ll need to set up an account or sign in using an existing account.
 
-We recommend that you create a "private" browser window for this process.  For example, in Google Chrome, create a new "incongnito" window.  In Internet Explorer, create a new "InPrivate" window.
+We recommend that you create a "private" browser window for this process.  For example, in Google Chrome, create a new "incognito" window.  In Internet Explorer, create a new "InPrivate" window.
 
 1. Sign in to [https://my.visualstudio.com/benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs).
 2. Locate the Windows Developer Account tile in the Tools section and click on the **Get Code** link at the bottom of the benefit tile.  Copy the code to your clipboard, then click **Activate**.
@@ -37,7 +38,9 @@ We recommend that you create a "private" browser window for this process.  For e
 | Subscription Level                                                 |     Channels                                            | Benefit                                                          | Renewable?    |
 |--------------------------------------------------------------------|---------------------------------------------------------|------------------------------------------------------------------|---------------|
 | Visual Studio Enterprise (Standard)   | VL, Azure, Retail,  selected NFR<sup>1</sup> | Included       |  Yes|
+| Visual Studio Enterprise with GitHub Enterprise   | VL  | Included       |  Yes|
 | Visual Studio Professional (Standard) | VL, Azure, Retail                                       | Included                                                            |Yes|
+| Visual Studio Professional with GitHub Enterprise | VL                                        | Included                                                            |Yes|
 | Visual Studio Test Professional (Standard)                         | VL, Retail                                              | Not available                                            |  NA|
 | MSDN Platforms (Standard)                                          | VL, Retail                                              |  Not available                                            |  NA|
 | Visual Studio Enterprise, Visual Studio Professional (monthly cloud) | Azure                                       | Not available                                                           |NA|
@@ -57,5 +60,14 @@ Not sure which subscription you're using?  Connect to [https://my.visualstudio.c
 - For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, contact Visual Studio [Subscriptions Support](https://visualstudio.microsoft.com/subscriptions/support/).
 - Have a question about Visual Studio IDE, Azure DevOps Services or other Visual Studio products or services?  Visit [Visual Studio Support](https://visualstudio.microsoft.com/support/).
 
+## See also
+- [Visual Studio documentation](https://docs.microsoft.com/visualstudio/)
+- [Azure DevOps documentation](https://docs.microsoft.com/azure/devops/)
+- [Azure documentation](https://docs.microsoft.com/azure/)
+- [Microsoft 365 documentation](https://docs.microsoft.com/microsoft-365/)
+
 ## Next steps
-Azure is your personal sandbox for dev/test.  You can provision virtual machines, cloud services, and other Azure resources. Be sure to activate your [Azure benefit](vs-azure.md) to get started using your Azure DevTest individual credit.
+Be sure to activate these great benefits to make the most of your Visual Studio subscription:
+- [Visual Studio](vs-ide-benefit.md)
+- [Azure DevOps](vs-azure-devops.md)
+- [Azure DevTest individual credit](vs-azure.md)

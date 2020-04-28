@@ -3,16 +3,16 @@ title: Devenv command line switches
 ms.date: 12/10/2018
 ms.topic: reference
 helpviewer_keywords:
-  - "switches, Devenv"
-  - "command-line switches, Devenv"
-  - "command line [Visual Studio], switches"
-  - "Devenv"
+- switches, Devenv
+- command-line switches, Devenv
+- command line [Visual Studio], switches
+- Devenv
 ms.assetid: e12bc6ed-74fd-4bea-8d7c-89b99c20bad8
-author: jillre
-ms.author: jillfra
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Devenv command-line switches
 

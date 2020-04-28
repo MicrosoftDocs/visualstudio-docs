@@ -3,18 +3,18 @@ title: Options dialog
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "vs.toolsoptionspages"
+- vs.toolsoptionspages
 helpviewer_keywords:
-  - "Tools Options settings"
-  - "Options dialog box"
-  - "Options dialog box, development environment"
-  - "tools [Visual Studio], customizing"
+- Tools Options settings
+- Options dialog box
+- Options dialog box, development environment
+- tools [Visual Studio], customizing
 ms.assetid: 02b09877-1df1-4531-a0d1-a4ca17c7f857
-author: jillre
-ms.author: jillfra
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Options dialog box (Visual Studio)
 

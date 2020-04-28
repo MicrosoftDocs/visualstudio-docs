@@ -1,17 +1,17 @@
 ---
-title: "Choosing Between Shared and Versioned VSPackages | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Choosing Between Shared and Versioned VSPackages | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "SxS"
-  - "side-by-side installation"
-  - "installation [Visual Studio SDK], side-by-side"
+- SxS
+- side-by-side installation
+- installation [Visual Studio SDK], side-by-side
 ms.assetid: e3128ac3-2e92-48e9-87ab-3b6c9d80e8c9
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Choose between shared and versioned VSPackages
 Different versions of Visual Studio can coexist on the same computer. VSPackages can support any mix of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] versions.

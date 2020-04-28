@@ -1,9 +1,10 @@
 ---
 title: EMS Benefit | Microsoft Docs
 author: evanwindom
-ms.author: lank
+ms.author: v-evwin
 manager: lank
-ms.date: 08/05/2019
+ms.assetid: bada7a96-a969-4459-a2ac-7f253149d925
+ms.date: 03/25/2020
 ms.topic: conceptual
 description:  Learn about the Enterprise Mobility + Security benefit included in your Visual Studio subscription.
 ---
@@ -12,8 +13,11 @@ description:  Learn about the Enterprise Mobility + Security benefit included in
 
 Visual Studio Enterprise annual cloud and standard subscriptions include Enterprise Mobility + Security (EMS).  Secure and manage your identities, devices, apps and data with EMS - Azure Active Directory, Microsoft Intune, Azure Information Protection, Microsoft Advanced Threat Analytics, and Microsoft Cloud App Security. 
 
-> [!IMPORTANT]
-> The Enterprise Mobility + Security (EMS) benefit is currently not available for new activations while we make important changes to this benefit.  If you have already activated it, you can continue to use it normally.  
+## Who should install EMS?
+If you already have an Office 365 Developer (E3) tenant, you should install EMS.  Otherwise, you should install [Microsoft 365](vs-m365.md), which includes both EMS and Office 365 Developer (E5) as well as:
+- Advanced analytics with Power BI
+- Office 365 Advanced Threat Protection
+- Azure Active Directory for building advanced identity and access management solutions
 
 ## Eligibility
 
@@ -39,3 +43,14 @@ Not sure which subscription you're using?  Connect to [https://my.visualstudio.c
 - For technical support with any component of EMS, please visit the [EMS Support FAQ](https://docs.microsoft.com/enterprise-mobility-security/solutions/ems-support-faq) to find the right support for your question.
 - For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, contact Visual Studio [Subscriptions Support](https://visualstudio.microsoft.com/subscriptions/support/).
 - Have a question about Visual Studio IDE, Azure DevOps Services or other Visual Studio products or services?  Visit [Visual Studio Support](https://visualstudio.microsoft.com/support/).
+
+## See also
+- [Visual Studio documentation](https://docs.microsoft.com/visualstudio/)
+- [Azure DevOps documentation](https://docs.microsoft.com/azure/devops/)
+- [Azure documentation](https://docs.microsoft.com/azure/)
+- [Microsoft 365 documentation](https://docs.microsoft.com/microsoft-365/)
+
+## Next steps
+If you haven't already activated the Azure DevTest individual credit benefit that comes with your subscription, visit [https://my.visualstudio.com/benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs) and click on the Azure tile in the Tools category to set up your Azure subscription and redeem your Azure DevTest individual credit.
+
+Check out the rest of the great benefits included with your subscription. Visit [https://my.visualstudio.com/benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs).

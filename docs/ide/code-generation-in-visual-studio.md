@@ -2,11 +2,11 @@
 title: Code generation features
 ms.date: 01/11/2018
 ms.topic: conceptual
-author: jillre
-ms.author: jillfra
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "dotnet"
+- dotnet
 ---
 # Code generation features in Visual Studio
 

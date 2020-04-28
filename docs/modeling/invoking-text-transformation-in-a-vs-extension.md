@@ -2,11 +2,11 @@
 title: Invoking Text Transformation in a VS Extension
 ms.date: 11/04/2016
 ms.topic: conceptual
-author: jillre
-ms.author: jillfra
+author: JoshuaPartlow
+ms.author: joshuapa
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Invoke text transformation in a Visual Studio extension
 

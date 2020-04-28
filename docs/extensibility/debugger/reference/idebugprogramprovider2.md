@@ -1,17 +1,17 @@
 ---
-title: "IDebugProgramProvider2 | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugProgramProvider2 | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugProgramProvider2"
+- IDebugProgramProvider2
 helpviewer_keywords:
-  - "IDebugProgramProvider2 interface"
+- IDebugProgramProvider2 interface
 ms.assetid: a9ec7b3e-a59c-4069-b2ee-6f45916eeb78
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # IDebugProgramProvider2
 This registered interface allows the session debug manager (SDM) to obtain information about programs that have been "published" through the [IDebugProgramPublisher2](../../../extensibility/debugger/reference/idebugprogrampublisher2.md) interface.

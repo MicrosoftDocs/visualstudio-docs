@@ -3,16 +3,16 @@ title: Customize build debug tasks using tasks.vs.json launch.vs.json
 ms.date: 02/21/2018
 ms.topic: conceptual
 helpviewer_keywords:
-  - NMAKE [Visual Studio]
-  - makefiles [Visual Studio]
-  - customize codebases [Visual Studio]
-  - tasks.vs.json file [Visual Studio]
-  - launch.vs.json file [Visual Studio]
-author: jillre
-ms.author: jillfra
+- NMAKE [Visual Studio]
+- makefiles [Visual Studio]
+- customize codebases [Visual Studio]
+- tasks.vs.json file [Visual Studio]
+- launch.vs.json file [Visual Studio]
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Customize build and debug tasks for "Open Folder" development
 
@@ -218,6 +218,8 @@ You can create tasks for any file or folder by specifying its name in the `appli
 |`${fileExtname}`| The extension of the selected file (for example,  *.js*)|
 
 ## Configure debugging with launch.vs.json
+
+To configure CMake projects for debugging, see [Configure CMake debugging sessions](/cpp/build/configure-cmake-debugging-sessions).
 
 1. To configure your codebase for debugging, in **Solution Explorer** choose the **Debug and Launch Settings** menu item from the right-click or context menu of your executable file.
 

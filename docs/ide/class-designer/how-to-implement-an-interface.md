@@ -1,16 +1,16 @@
 ---
-title: "How to: Implement an Interface (Class Designer)"
+title: 'How to: Implement an Interface (Class Designer)'
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "interfaces [Visual Studio], implementing"
-  - "interfaces [Visual Studio]"
+- interfaces [Visual Studio], implementing
+- interfaces [Visual Studio]
 ms.assetid: 81d2cf46-7f60-448c-83e3-1d16bb88ca36
-author: jillre
-ms.author: jillfra
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # How to: Implement an interface in Class Designer
 

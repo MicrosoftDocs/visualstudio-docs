@@ -22,7 +22,7 @@ You can create a custom Start Page either by using the Start Page Project Templa
   
 #### To create a custom Start Page by using the Start Page project template  
   
-1. Download and install the [Start Page project template](http://go.microsoft.com/fwlink/?LinkId=186204) from Visual Studio Gallery.  
+1. Download and install the [Start Page project template](https://visualstudiogallery.msdn.microsoft.com/f655a5dc-1a2d-4eca-b774-76c352c03b87) from Visual Studio Gallery.  
   
     > [!WARNING]
     > At this time the Visual Studio 2010 Start Page project template has not been upgraded. For information about how to upgrade this template, see [How to: Upgrade a Visual Studio Custom Start Page](../misc/how-to-upgrade-a-visual-studio-custom-start-page.md).  

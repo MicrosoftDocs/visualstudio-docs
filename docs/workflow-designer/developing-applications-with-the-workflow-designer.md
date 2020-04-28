@@ -1,21 +1,21 @@
 ---
-title: "Developing Applications with the Workflow Designer"
+title: Developing Applications with the Workflow Designer
 ms.date: 11/04/2016
 ms.topic: conceptual
 f1_keywords:
-  - "DefaultWorkflowDesigner"
-  - "DefaultWorkflowDesigner.UI"
+- DefaultWorkflowDesigner
+- DefaultWorkflowDesigner.UI
 helpviewer_keywords:
-  - "Visual Studio Workflow Designer [WFD], overview"
-  - "Workflow Designer [WFD]"
-  - "Visual Studio Workflow Designer [WFD]"
-  - "Workflow Designer [WFD], overview"
+- Visual Studio Workflow Designer [WFD], overview
+- Workflow Designer [WFD]
+- Visual Studio Workflow Designer [WFD]
+- Workflow Designer [WFD], overview
 ms.assetid: 4cd062b1-b496-4668-bbc1-ee85545e066d
-author: jillre
-ms.author: jillfra
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Develop apps with the Workflow Designer
 

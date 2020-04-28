@@ -1,21 +1,21 @@
 ---
-title: "IDebugModule2::GetInfo | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugModule2::GetInfo | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugModule2::GetInfo"
+- IDebugModule2::GetInfo
 helpviewer_keywords:
-  - "GetInfo method"
-  - "IDebugModule2::GetInfo method"
+- GetInfo method
+- IDebugModule2::GetInfo method
 ms.assetid: de337e66-294f-4ac9-b21e-71fac7418e36
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugModule2::GetInfo
 Gets information about this module.

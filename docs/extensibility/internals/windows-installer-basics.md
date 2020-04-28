@@ -1,16 +1,16 @@
 ---
-title: "Windows Installer Basics | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Windows Installer Basics | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "Windows Installer, VSPackages"
-  - "VSPackages, Windows Installer basics"
+- Windows Installer, VSPackages
+- VSPackages, Windows Installer basics
 ms.assetid: 497e479b-add8-4644-870a-917f15306b97
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Windows Installer Basics
 The Windows Installer installs and uninstalls applications or software products on a user's computer, performing these tasks in units called Windows Installer components (sometimes called WICs or just components). A GUID identifies each WIC, which is the basic unit of installation and reference counting for setups using Windows Installer.

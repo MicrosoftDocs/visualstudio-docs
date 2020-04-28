@@ -1,20 +1,20 @@
 ---
-title: "IDebugArrayField::GetRank | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugArrayField::GetRank | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugArrayField::GetRank"
+- IDebugArrayField::GetRank
 helpviewer_keywords:
-  - "IDebugArrayField::GetRank method"
+- IDebugArrayField::GetRank method
 ms.assetid: 2364b876-5be1-4bab-9b8f-3b6121da35c6
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugArrayField::GetRank
 Gets the rank or number of dimensions of the array.

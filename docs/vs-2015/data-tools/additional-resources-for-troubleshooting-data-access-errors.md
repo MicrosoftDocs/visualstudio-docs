@@ -237,28 +237,28 @@ robots: noindex,nofollow
 
 You can find assistance with troubleshooting errors and warnings in the Microsoft Developer Network (MSDN) public forums. The following table lists the data related forums available on MSDN.
 
- [Windows Forms Data Controls and Databinding](http://go.microsoft.com/fwlink/?LinkId=160179)
+ [Windows Forms Data Controls and Databinding](https://social.msdn.microsoft.com/Forums/en-US/winformsdatacontrols/threads)
  Provides a forum for questions about and general discussions of data access in Windows Forms.
 
- [ADO.NET DataSet Forum](http://go.microsoft.com/fwlink/?LinkId=160180)
+ [ADO.NET DataSet Forum](https://social.msdn.microsoft.com/Forums/en-US/adodotnetdataset/threads)
  Provides a forum for questions about and general discussions of Datasets.
 
- [ADO.NET Entity Framework and LINQ to Entities](http://go.microsoft.com/fwlink/?LinkId=191520)
+ [ADO.NET Entity Framework and LINQ to Entities](https://social.msdn.microsoft.com/Forums/en-US/adodotnetentityframework/)
  Provides a forum for questions about and general discussions of Entity Framework applications and the LINQ to Entities language.
 
- [WCF Data Services Forum](http://go.microsoft.com/fwlink/?LinkId=160181)
+ [WCF Data Services Forum](https://social.msdn.microsoft.com/Forums/en-US/adodotnetdataservices/threads)
  Provides a forum for questions about and general discussions of data services.
 
- [SQL Server Data Access Forum](http://go.microsoft.com/fwlink/?LinkID=160184)
+ [SQL Server Data Access Forum](https://social.msdn.microsoft.com/Forums/en-US/sqldataaccess/threads)
  Provides a forum for questions about and general discussions of accessing data in Microsoft SQL Server.
 
- [Linq to SQL Forum](http://go.microsoft.com/fwlink/?LinkId=160183)
+ [Linq to SQL Forum](https://social.msdn.microsoft.com/Forums/en-US/linqtosql/threads)
  Provides a forum for questions about and general discussions of Linq to SQL.
 
- [ADO.NET Data Providers Forum](http://go.microsoft.com/fwlink/?LinkId=160182)
+ [ADO.NET Data Providers Forum](https://social.msdn.microsoft.com/Forums/en-US/adodotnetdataproviders/threads)
  Provides a forum for questions about and general discussions of the different .NET Framework Data Providers.
 
- For information about how to troubleshoot connectivity to SQL Server, see [How to Troubleshoot Connecting to the SQL Server Database Engine](http://go.microsoft.com/fwlink/?LinkID=246151).
+ For information about how to troubleshoot connectivity to SQL Server, see [How to Troubleshoot Connecting to the SQL Server Database Engine](https://social.technet.microsoft.com/wiki/contents/articles/2102.how-to-troubleshoot-connecting-to-the-sql-server-database-engine.aspx).
 
 ## See Also
  [Visual Studio data tools for .NET](../data-tools/visual-studio-data-tools-for-dotnet.md)

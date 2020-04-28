@@ -3,15 +3,15 @@ title: -RunExit (devenv.exe)
 ms.date: 12/10/2018
 ms.topic: reference
 helpviewer_keywords:
-  - "RunExit Devenv switch"
-  - "Devenv, /RunExit switch"
-  - "/RunExit Devenv switch"
+- RunExit Devenv switch
+- Devenv, /RunExit switch
+- /RunExit Devenv switch
 ms.assetid: bfc94875-5fc0-4110-b961-d59c0b403790
-author: jillre
-ms.author: jillfra
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # /RunExit (devenv.exe)
 

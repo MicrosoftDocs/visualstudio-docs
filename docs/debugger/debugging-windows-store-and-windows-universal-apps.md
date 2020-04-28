@@ -27,4 +27,4 @@ The Visual Studio debugger provides complete support for debugging UWP apps. See
 |Analyze the effect of the ContentPrefetcher class on UWP apps.|[Prefetch content for UWP apps](../debugger/prefetch-content-for-windows-store-apps.md)|
 
 ## See also
-- [Analyze code quality using static code analysis](/visualstudio/code-quality/code-analysis-for-managed-code-overview)
+- [Analyze code quality using static code analysis](../code-quality/code-analysis-for-managed-code-overview.md)

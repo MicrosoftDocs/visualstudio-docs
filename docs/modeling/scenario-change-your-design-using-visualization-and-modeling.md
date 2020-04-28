@@ -1,20 +1,20 @@
 ---
-title: "Scenario: Change your design using visualization and modeling"
+title: 'Scenario: Change your design using visualization and modeling'
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "code visualization [Visual Studio ALM]"
-  - "modeling software [Visual Studio ALM]"
-  - "software modeling [Visual Studio ALM]"
-  - "walkthroughs [Visual Studio ALM], visualizing code"
-  - "walkthrough [Visual Studio ALM], visualizing code"
-  - "walkthrough [Visual Studio ALM], modeling software"
-  - "walkthroughs [Visual Studio ALM], modeling software"
-author: jillre
-ms.author: jillfra
+- code visualization [Visual Studio ALM]
+- modeling software [Visual Studio ALM]
+- software modeling [Visual Studio ALM]
+- walkthroughs [Visual Studio ALM], visualizing code
+- walkthrough [Visual Studio ALM], visualizing code
+- walkthrough [Visual Studio ALM], modeling software
+- walkthroughs [Visual Studio ALM], modeling software
+author: JoshuaPartlow
+ms.author: joshuapa
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Scenario: Change your design using visualization and modeling
 
@@ -180,7 +180,7 @@ See:
 
 - [Use the visual designer](/azure/devops/pipelines/get-started-designer)
 
-- [TFVC gated check-in](/azure/devops/pipelines/build/triggers#gated)
+- [TFVC gated check-in](/azure/devops/pipelines/build/triggers)
 
 - [Build and release tasks](/azure/devops/pipelines/tasks/index)
 

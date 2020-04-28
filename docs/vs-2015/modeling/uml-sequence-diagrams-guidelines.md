@@ -29,7 +29,7 @@ manager: jillfra
 
 In Visual Studio, you can draw a *sequence diagram* to show an interaction. An interaction is a sequence of messages between typical instances of classes, components, subsystems, or actors.
 
- UML sequence diagrams are part of a UML model and exist only within UML modeling projects. To create a UML sequence diagram, on the **Architecture** menu, click **New UML or Layer Diagram**. Find out more about [UML sequence diagram elements](../modeling/uml-sequence-diagrams-reference.md) or [UML modeling diagrams](../modeling/edit-uml-models-and-diagrams.md) in general. For a video demonstration, see [Sketching Interactions by using Sequence Diagrams (2010)](http://channel9.msdn.com/Blogs/clinted/UML-with-VS-2010-Part-7-Sketching-Interactions-with-Sequence-Diagrams).
+ UML sequence diagrams are part of a UML model and exist only within UML modeling projects. To create a UML sequence diagram, on the **Architecture** menu, click **New UML or Layer Diagram**. Find out more about [UML sequence diagram elements](../modeling/uml-sequence-diagrams-reference.md) or [UML modeling diagrams](../modeling/edit-uml-models-and-diagrams.md) in general. For a video demonstration, see [Sketching Interactions by using Sequence Diagrams (2010)](https://channel9.msdn.com/Blogs/clinted/UML-with-VS-2010-Part-7-Sketching-Interactions-with-Sequence-Diagrams).
 
  To see which versions of Visual Studio support this feature, see [Version support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#VersionSupport).
 
@@ -443,4 +443,4 @@ In Visual Studio, you can draw a *sequence diagram* to show an interaction. An i
  [UML Class Diagrams: Reference](../modeling/uml-class-diagrams-reference.md)
  [UML Component Diagrams: Reference](../modeling/uml-component-diagrams-reference.md)
  [UML Component Diagrams: Reference](../modeling/uml-component-diagrams-reference.md)
- [Video: Sketching Interactions by using Sequence Diagrams](http://go.microsoft.com/fwlink/?LinkId=201113)
+ [Video: Sketching Interactions by using Sequence Diagrams](https://channel9.msdn.com/posts/clinted/UML-with-VS-2010-Part-2-Organizing-Features-Into-Use-Cases)

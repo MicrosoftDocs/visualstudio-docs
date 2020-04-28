@@ -1,14 +1,14 @@
 ---
-title: "Best Practices for Coded UI Tests"
+title: Best Practices for Coded UI Tests
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "coded UI tests, best practices"
-author: jillre
-ms.author: jillfra
+- coded UI tests, best practices
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Best practices for coded UI tests
 

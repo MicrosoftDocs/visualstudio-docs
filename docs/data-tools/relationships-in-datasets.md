@@ -3,18 +3,18 @@ title: Use DataRelation to create relationships between datasets
 ms.date: 11/04/2016
 ms.topic: conceptual
 f1_keywords:
-  - "vbData.Microsoft.VSDesigner.DataSource.DesignRelation"
-  - "vbdata.Microsoft.VSDesigner.DataSource.DesignRelation"
+- vbData.Microsoft.VSDesigner.DataSource.DesignRelation
+- vbdata.Microsoft.VSDesigner.DataSource.DesignRelation
 helpviewer_keywords:
-  - "relationships, about relationships"
-  - "datasets [Visual Basic], relationships"
-  - "relationships, datasets"
+- relationships, about relationships
+- datasets [Visual Basic], relationships
+- relationships, datasets
 ms.assetid: cfe274f0-71fe-40f6-994e-7c7f6273c9ba
-author: jillre
-ms.author: jillfra
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "data-storage"
+- data-storage
 ---
 # Create relationships between datasets
 Datasets that contain related data tables use <xref:System.Data.DataRelation> objects to represent a parent/child relationship between the tables and to return related records from one another. Adding related tables to datasets by using the **Data Source Configuration Wizard**, or the **Dataset Designer**, creates and configures the <xref:System.Data.DataRelation> object for you.

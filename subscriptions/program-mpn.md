@@ -3,7 +3,8 @@ title: Visual Studio subscriptions offered to partners in the Microsoft Partner 
 author: evanwindom
 ms.author: lank
 manager: lank
-ms.date: 07/28/2019
+ms.assetid: 7f4399d8-41da-41e5-a666-acc34958b8c0
+ms.date: 03/09/2020
 ms.topic: conceptual
 description:  Details on what subscriptions are offered, what rules apply, and how many subscriptions are offered in MPN.
 ---
@@ -42,7 +43,7 @@ Regardless of how many competencies a partner earns, the number of Visual Studio
 
 ## Subscriptions for partners purchasing the Action Pack
 
-Partners with a competency are not eligible to purchase the Action Pack. Only one Action Pack can be purchased per partner.
+Partners with a competency are eligible to purchase the Action Pack. Only one Action Pack can be purchased per partner.
 
 With the Action Pack, the partner earns **3 Visual Studio Professional (MPN) subscriptions**. Visual Studio Professional (MPN) is a custom offering without a commercially-available equivalent in the market. Here is what is included:
 
@@ -52,7 +53,7 @@ With the Action Pack, the partner earns **3 Visual Studio Professional (MPN) sub
 
 Visual Studio Professional (MPN) subscribers can also download and use software for their development, including the SQL Server Developer Edition.
 
-The Visual Studio Professional (MPN) subscription does not include Azure DevOps Services benefits, Azure DevTest individiaul credit, technical support, training, or other subscriber benefits that are available with Visual Studio subscriptions that are offered commercially.
+The Visual Studio Professional (MPN) subscription does not include Azure DevOps Services benefits, Azure DevTest individual credit, technical support, training, or other subscriber benefits that are available with Visual Studio subscriptions that are offered commercially.
 
 ## Internal use-only restriction
 
@@ -68,7 +69,14 @@ With Visual Studio subscriptions offered via MPN, the licensed user must sign in
 
 - [MPN Program Administrator Guide](https://assets.microsoft.com/en-us/Program-Administrator-Guide-to-Software-and-Online-Services-Benefits_1.pdf) - includes instructions on how to assign Visual Studio subscriptions to MPN employees.
 - [Assign Visual Studio subscriptions to MPN employees](manage-mpn-subscriptions.md)
-- [Use terms](http://www.microsoft.com/useterms/) - Visual Studio subscriptions offered via MPN are subject to the Visual Studio subscriptions not for resale (NFR) EULA.
+- [Use terms](https://www.microsoft.com/useterms/) - Visual Studio subscriptions offered via MPN are subject to the Visual Studio subscriptions not for resale (NFR) EULA.
+
+
+## See also
+- [Visual Studio documentation](https://docs.microsoft.com/visualstudio/)
+- [Azure DevOps documentation](https://docs.microsoft.com/azure/devops/)
+- [Azure documentation](https://docs.microsoft.com/azure/)
+- [Microsoft 365 documentation](https://docs.microsoft.com/microsoft-365/)
 
 ## Next steps
 

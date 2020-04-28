@@ -363,22 +363,22 @@ In this walkthrough, you will create a simple Windows Presentation Foundation (W
 ## External Resources
 
 ### Videos
- ![link to video](../data-tools/media/playvideo.gif "PlayVideo") [Coded UI Tests-DeepDive-Episode1-GettingStarted](http://go.microsoft.com/fwlink/?LinkID=230573)
+ ![link to video](../data-tools/media/playvideo.gif "PlayVideo") [Coded UI Tests-DeepDive-Episode1-GettingStarted](https://skydrive.live.com/?cid=2db0e1efe1c1d3b8&id=2DB0E1EFE1C1D3B8%21118)
 
- ![link to video](../data-tools/media/playvideo.gif "PlayVideo") [Coded UI Tests-DeepDive-Episode2-MaintainenceAndDebugging](http://go.microsoft.com/fwlink/?LinkID=230574)
+ ![link to video](../data-tools/media/playvideo.gif "PlayVideo") [Coded UI Tests-DeepDive-Episode2-MaintainenceAndDebugging](https://skydrive.live.com/?cid=2db0e1efe1c1d3b8&id=2DB0E1EFE1C1D3B8%21116)
 
- ![link to video](../data-tools/media/playvideo.gif "PlayVideo") [Coded UI Tests-DeepDive-Episode3-HandCoding](http://go.microsoft.com/fwlink/?LinkID=230575)
+ ![link to video](../data-tools/media/playvideo.gif "PlayVideo") [Coded UI Tests-DeepDive-Episode3-HandCoding](https://skydrive.live.com/?cid=2db0e1efe1c1d3b8&id=2DB0E1EFE1C1D3B8%21117)
 
 ### Hands on lab
- [MSDN Virtual Lab: Introduction to Creating Coded UI Tests with Visual Studio 2010](http://go.microsoft.com/fwlink/?LinkID=22508)
+ [MSDN Virtual Lab: Introduction to Creating Coded UI Tests with Visual Studio 2010](https://windows.microsoft.com/en-US/windows/products/windows-media-player)
 
 ### FAQ
- [Coded UI Tests FAQ - 1](http://go.microsoft.com/fwlink/?LinkID=230576)
+ [Coded UI Tests FAQ - 1](https://blogs.msdn.com/b/mathew_aniyan/archive/tags/faq/)
 
- [Coded UI Tests FAQ -2](http://go.microsoft.com/fwlink/?LinkID=230578)
+ [Coded UI Tests FAQ -2](https://social.msdn.microsoft.com/Forums/en-US/vsautotest/thread/3a74dd2c-cef8-4923-abbf-7a91f489e6c4)
 
 ### Forum
- [Visual Studio UI Automation Testing (includes CodedUI)](http://go.microsoft.com/fwlink/?LinkID=224497)
+ [Visual Studio UI Automation Testing (includes CodedUI)](https://social.msdn.microsoft.com/Forums/en-US/vsautotest)
 
 ## See Also
  [Use UI Automation To Test Your Code](../test/use-ui-automation-to-test-your-code.md)

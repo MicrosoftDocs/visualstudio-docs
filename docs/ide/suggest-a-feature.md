@@ -3,15 +3,15 @@ title: Suggest a feature
 description: "Describes what suggestions are on Developer Community, how to make a suggestion, and how suggestions are used by Microsoft in the Visual Studio road map."
 ms.date: 12/17/2018
 ms.topic: conceptual
-author: seaniyer
-ms.author: seiyer
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "multiple"
 ---
-# Overview: Suggest a Feature
+# Suggest a feature for Visual Studio
 
-We've introduced a new experience for suggesting features alongside the current ability to report problems on [Visual Studio Developer Community](https://developercommunity.visualstudio.com). This is a new way you can be empowered to engage directly with Visual Studio’s engineering workflow.
+We've introduced a new experience for suggesting features alongside the current ability to report problems on [Visual Studio Developer Community](https://developercommunity.visualstudio.com). This is a new way you can be empowered to engage directly with Visual Studio's engineering workflow.
 
 ![Suggest a Feature button on Developer Community](media/suggest-a-feature/suggest-feature-button.png)
 
@@ -77,7 +77,7 @@ A feature suggestion marked **Need More Info** means that we need more details s
 
 ![Closed - Not Enough Info state for suggestions on Developer Community](../ide/media/SuggestStates/ClosedNotEnoughInfo.jpg)
 
-**Closed - Not Enough Info** indicates that after several attempts, we haven’t received enough information to understand your feature suggestion fully. We have to close the new feature suggestion as we're unable to take any further action at this stage.
+**Closed - Not Enough Info** indicates that after several attempts, we haven't received enough information to understand your feature suggestion fully. We have to close the new feature suggestion as we're unable to take any further action at this stage.
 
 Found the information we were looking for? You may request to reactivate the ticket when you have the additional information.
 
@@ -97,7 +97,7 @@ Found the information we were looking for? You may request to reactivate the tic
 
 ## FAQ
 
-### Why can’t I see my User Voice idea in Developer Community?
+### Why can't I see my User Voice idea in Developer Community?
 
 New feature suggestions from the old User Voice forum have been migrated to Developer Community based on the impact to the broader community and our product road map priorities. If you think we've missed migrating your suggestion, add it as a new suggestion to Developer Community.
 

@@ -44,9 +44,9 @@ You can use the visualization and modeling tools in Visual Studio to help you un
 
 |**Category**|**Links**|
 |------------------|---------------|
-|**Forums**|-   [Visual Studio Visualization & Modeling Tools](http://go.microsoft.com/fwlink/?LinkId=184720)<br />-   [Visual Studio Visualization & Modeling SDK (DSL Tools)](http://go.microsoft.com/fwlink/?LinkId=184721)|
-|**Blogs**|[Visual Studio ALM + Team Foundation Server Blog](http://go.microsoft.com/fwlink/?LinkID=201340)|
-|**Technical Articles and Journals**|[MSDN Architecture Forum](http://go.microsoft.com/fwlink/?LinkId=201343)|
+|**Forums**|-   [Visual Studio Visualization & Modeling Tools](https://social.msdn.microsoft.com/Forums/en-US/home?forum=vsarch)<br />-   [Visual Studio Visualization & Modeling SDK (DSL Tools)](https://social.msdn.microsoft.com/Forums/home?forum=dslvsarchx)|
+|**Blogs**|[Visual Studio ALM + Team Foundation Server Blog](https://blogs.msdn.com/b/visualstudioalm)|
+|**Technical Articles and Journals**|[MSDN Architecture Forum](https://msdn.microsoft.com/architecture/default.aspx)|
 
 ## See Also
  [Scenario: Change your design using visualization and modeling](../modeling/scenario-change-your-design-using-visualization-and-modeling.md)

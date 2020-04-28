@@ -1,18 +1,18 @@
 ---
-title: "Walkthrough: Creating a Custom Text Template Host"
+title: 'Walkthrough: Creating a Custom Text Template Host'
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "walkthroughs [text templates], custom host"
-  - "text templates, custom host walkthrough"
-author: jillre
-ms.author: jillfra
+- walkthroughs [text templates], custom host
+- text templates, custom host walkthrough
+author: JoshuaPartlow
+ms.author: joshuapa
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 dev_langs:
- - CSharp
- - VB
+- CSharp
+- VB
 ---
 # Walkthrough: Create a Custom Text Template Host
 

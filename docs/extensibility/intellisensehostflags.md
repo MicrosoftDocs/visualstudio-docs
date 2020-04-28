@@ -1,18 +1,18 @@
 ---
-title: "IntelliSenseHostFlags | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: IntelliSenseHostFlags | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 f1_keywords:
-  - "IntellisenseHostFlags"
+- IntellisenseHostFlags
 helpviewer_keywords:
-  - "IntelliSense, IntellisenseHostFlags enumeration"
-  - "IntellisenseHostFlags enumeration"
+- IntelliSense, IntellisenseHostFlags enumeration
+- IntellisenseHostFlags enumeration
 ms.assetid: 0930640b-eb84-48ef-a8f7-d4268f55c99c
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # IntelliSenseHostFlags
 Specifies IntelliSense host flags.

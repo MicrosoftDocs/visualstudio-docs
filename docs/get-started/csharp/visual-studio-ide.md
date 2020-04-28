@@ -4,13 +4,13 @@ ms.date: 03/19/2019
 ms.technology: vs-ide-general
 ms.custom: get-started
 ms.topic: conceptual
-author: jillre
-ms.author: jillfra
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 dev_langs:
- - CSharp
+- CSharp
 ms.workload:
-  - "dotnet"
+- dotnet
 ---
 # Welcome to the Visual Studio IDE | C\#
 
@@ -40,7 +40,7 @@ Explore Visual Studio further by following along with one of these introductory 
 > [Learn to use the code editor](tutorial-editor.md)
 
 > [!div class="nextstepaction"]
-> [Learn about projects and solutions](tutorial-projects-solutions.md)
+> [Learn about projects and solutions](../tutorial-projects-solutions.md)
 
 ## See also
 

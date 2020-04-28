@@ -1,15 +1,15 @@
 ---
-title: "Command Implementation | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Command Implementation | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "commands, implementation"
+- commands, implementation
 ms.assetid: c782175c-cce4-4bd0-8374-4a897ceb1b3d
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Command implementation
 To implement a command in a VSPackage, you must perform the following tasks:

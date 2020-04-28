@@ -1,16 +1,16 @@
 ---
-title: "Support for the Navigation Bar in a Legacy Language Service | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Support for the Navigation Bar in a Legacy Language Service | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "Navigation bar, supporting in language services [managed package framework]"
-  - "language services [managed package framework], Navigation bar"
+- Navigation bar, supporting in language services [managed package framework]
+- language services [managed package framework], Navigation bar
 ms.assetid: 2d301ee6-4523-4b82-aedb-be43f352978e
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Support for the Navigation Bar in a Legacy Language Service
 The Navigation bar at the top of the editor view displays the types and members in the file. Types are shown in the left drop-down, and members are shown in the right drop-down. When the user selects a type, the caret is placed on the first line of the type. When the user selects a member, the caret is placed on the definition of the member. The drop-down boxes are updated to reflect the current location of the caret.

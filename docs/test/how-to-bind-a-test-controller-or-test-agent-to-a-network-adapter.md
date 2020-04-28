@@ -1,15 +1,15 @@
 ---
-title: "Bind a Test Controller or Test Agent to a Network Adapter"
+title: Bind a Test Controller or Test Agent to a Network Adapter
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "controllers, netwrok adapter"
-  - "agents, configuring"
-  - "agents, network adapter"
-  - "controllers, configuring"
+- controllers, netwrok adapter
+- agents, configuring
+- agents, network adapter
+- controllers, configuring
 ms.assetid: 7eb9290a-f9f6-4e41-9caa-796fcfaf0610
-author: jillre
-ms.author: jillfra
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ---
 # How to: Bind a test controller or test agent to a network adapter

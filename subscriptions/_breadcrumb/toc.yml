@@ -1,3 +1,11 @@
 - name: Docs
   tocHref: /
   topicHref: /
+  items:
+  - name: Visual Studio
+    tocHref: /visualstudio/products/
+    topicHref: /visualstudio/products
+    items:
+      - name: Subscriptions
+        tocHref: /visualstudio/subscriptions/
+        topicHref: /visualstudio/subscriptions

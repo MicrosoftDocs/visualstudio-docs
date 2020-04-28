@@ -1,17 +1,17 @@
 ---
-title: "SccEndBatch Function | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: SccEndBatch Function | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 f1_keywords:
-  - "SccEndBatch"
+- SccEndBatch
 helpviewer_keywords:
-  - "SccEndBatch function"
+- SccEndBatch function
 ms.assetid: 100e7833-fe0a-45c0-9fca-3e61fd1165b7
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # SccEndBatch function
 This function concludes a batch of source control operations. These batches may not be nested.

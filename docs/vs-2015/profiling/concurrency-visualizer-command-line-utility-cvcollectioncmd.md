@@ -18,10 +18,10 @@ manager: jillfra
 You can use the Concurrency Visualizer command-line utility (CVCollectionCmd.exe) to collect traces from the command line so that you can view them in the Concurrency Visualizer for Visual Studio . The ools can be used on computers that do not have Visual Studio installed.  
   
 > [!NOTE]
-> Starting in Visual Studio 2013, the Concurrency Visualizer is an optional extension. (Previously it had been included in Visual Studio.) You can download the [Concurrency Visualizer Collection Tools for Visual Studio 2015](http://www.microsoft.com/download/details.aspx?id=49103) from the Download Center.  
+> Starting in Visual Studio 2013, the Concurrency Visualizer is an optional extension. (Previously it had been included in Visual Studio.) You can download the [Concurrency Visualizer Collection Tools for Visual Studio 2015](https://www.microsoft.com/download/details.aspx?id=49103) from the Download Center.  
   
 ## Download the Concurrency Visualizer Command-Line Utility  
- To download and install the command-line utility, go to [Concurrency Visualizer Collection Tools for Visual Studio 2015](http://www.microsoft.com/download/details.aspx?id=49103) and follow the instructions. By default, CVCollectionCmd.exe is installed in %ProgramFiles%\Microsoft Concurrency Visualizer Collection Tools\ (%ProgramFiles(x86)%\Microsoft Concurrency Visualizer Collection Tools\ on x64 computers).  
+ To download and install the command-line utility, go to [Concurrency Visualizer Collection Tools for Visual Studio 2015](https://www.microsoft.com/download/details.aspx?id=49103) and follow the instructions. By default, CVCollectionCmd.exe is installed in %ProgramFiles%\Microsoft Concurrency Visualizer Collection Tools\ (%ProgramFiles(x86)%\Microsoft Concurrency Visualizer Collection Tools\ on x64 computers).  
   
 ## Collect a trace with CVCollectionCmd  
  You can collect a trace by starting the app with CVCollectionCmd, or by attaching to it. See the command reference below for your options. For example  
@@ -65,7 +65,7 @@ You can use the Concurrency Visualizer command-line utility (CVCollectionCmd.exe
 |MinorVersion|Specifies the minor version of the config file.|Must be 0 for [!INCLUDE[vs_dev11_long](../includes/vs-dev11-long-md.md)] projects. If not 0, the utility will not work.|  
 |IncludeEnvSymbolPath|Sets a value that determines whether the environment symbol path (_NT_SYMBOL_PATH) is used.|-   True<br />-   False|  
 |DeleteEtlsAfterAnalysis|Sets a value that determines whether the ETL files are deleted when analysis completes.|-   True<br />-   False|  
-|SymbolPath|Specifies the path of the symbol server. For more information, see [Use the Microsoft Symbol Server to obtain debug symbol files](http://go.microsoft.com/fwlink/?LinkID=149389).|A directory name or URL.|  
+|SymbolPath|Specifies the path of the symbol server. For more information, see [Use the Microsoft Symbol Server to obtain debug symbol files](https://support.microsoft.com/kb/311503).|A directory name or URL.|  
 |Markers|Contains the list of marker providers.|May contain zero or more MarkerProvider elements.|  
 |MarkerProvider|Specifies a single marker provider.|Must contain these elements:<br /><br /> -   Level<br />-   GUID<br />-   Name<br /><br /> Can contain these elements:<br /><br /> -   Categories<br />-   IsEnabled|  
 |Level|Sets the importance level of a MarkerProvider.|-   Low<br />-   Normal<br />-   High<br />-   Critical<br />-   Everything|  

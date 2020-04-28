@@ -1,9 +1,10 @@
 ---
 title: Azure DevOps benefits for Visual Studio subscribers | Microsoft Docs
 author: evanwindom
-ms.author: lank
+ms.author: v-evwin
 manager: lank
-ms.date: 07/30/2019
+ms.assetid: fe826200-9600-4b29-a64e-0d66ba3caf3d
+ms.date: 03/24/2020
 ms.topic: conceptual
 description:  Understand how you can use Azure DevOps as a Visual Studio subscriber.
 ---
@@ -11,6 +12,11 @@ description:  Understand how you can use Azure DevOps as a Visual Studio subscri
 As an active Visual Studio subscriber, you can use a range of features in Azure DevOps that are included with your subscription as a benefit. You'll be able to use these same features in each Azure DevOps organization in which you are a member, whether you created the organization or were added by someone else.
 
 ## Sign in
+
+   > [!div class="mx-imgBorder"]
+   > ![Azure DevOps Tile](_img/vs-azure-devops/vs-azure-devops-tile.png)
+
+   
 When you sign in to Azure DevOps using either the identity that you used for activating your Visual Studio subscription or your [alternate identity](vs-alternate-identity.md), we recognize this automatically.  This way you can also add a work or school account (which you use when logging into Visual Studio, Office 365, or your corporate or school network), allowing you to access Azure DevOps using both your personal account and your work or school account.
 
 [Sign up for a free Azure DevOps organization](https://visualstudio.microsoft.com/team-services/)
@@ -19,7 +25,9 @@ When you sign in to Azure DevOps using either the identity that you used for act
 | Subscription Level                                                 |     Channels                                            | Benefit                                                          | Renewable?    |
 |--------------------------------------------------------------------|---------------------------------------------------------|------------------------------------------------------------------|---------------|
 | Visual Studio Enterprise (Standard, monthly cloud)   | VL, Azure, Retail,  selected NFR<sup>1</sup>  | Azure Boards & Repos (Basic), Azure Test Plans, Azure Pipelines (self-hosted)       |  Yes          |
-| Visual Studio Professional (Standard, monthly cloud) | VL, Azure, Retail,                                        | Azure Boards & Repos (Basic)                                                            |  Yes          |
+| Visual Studio Enterprise with GitHub Enterprise   | VL| Azure Boards & Repos (Basic), Azure Test Plans, Azure Pipelines (self-hosted)       |  Yes          |
+| Visual Studio Professional (Standard, monthly cloud) | VL, Azure, Retail                                        | Azure Boards & Repos (Basic)                                                            |  Yes          |
+| Visual Studio Professional with GitHub Enterprise | VL| Azure Boards & Repos (Basic)                                                            |  Yes          |
 | Visual Studio Test Professional (Standard)                         | VL, Retail                                              | Azure Boards & Repos (Basic), Azure Test Plans                                              |  Yes          |
 | MSDN Platforms (Standard)                                          | VL, Retail                                              | Azure Boards & Repos (Basic), Azure Test Plans                                              |  Yes          |
 ||
@@ -39,8 +47,16 @@ If you don't see all your subscriptions, you may have one or more assigned to a 
 - Have a question about Visual Studio IDE, Azure DevOps, or other Visual Studio products or services?  Visit [Visual Studio support](https://visualstudio.microsoft.com/support/).
 - [Azure DevOps documentation](/azure/devops/).
 
+## See also
+- [Visual Studio documentation](https://docs.microsoft.com/visualstudio/)
+- [Azure DevOps documentation](https://docs.microsoft.com/azure/devops/)
+- [Azure documentation](https://docs.microsoft.com/azure/)
+- [Microsoft 365 documentation](https://docs.microsoft.com/microsoft-365/)
+
 ## Next steps
 Learn more about Azure DevOps features:
-- [Azure Boards & Repos (Basic)](https://azure.microsoft.com/services/devops/compare-features/)
+- [Azure Boards & Repos (Basic Plan)](https://azure.microsoft.com/services/devops/compare-features/)
 - [Azure Test Plans](https://marketplace.visualstudio.com/items?itemName=ms.vss-testmanager-web)
 - [Azure Artifacts](https://marketplace.visualstudio.com/items?itemName=ms.feed)
+
+Learn how to activate your [Azure DevTest individual credit](vs-azure.md).

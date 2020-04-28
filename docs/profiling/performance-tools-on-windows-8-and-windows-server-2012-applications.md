@@ -5,6 +5,7 @@ ms.topic: "conceptual"
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jillfra
+monikerRange: 'vs-2017'
 ms.workload:
   - "multiple"
 ---
@@ -31,7 +32,7 @@ These profiling features and options are not supported when profiling UWP apps:
 
 For more information about profiling UWP apps, see the following articles:
 
-- [Run UWP apps on the local machine](/visualstudio/debugger/start-a-debugging-session-for-a-store-app-in-visual-studio-vb-csharp-cpp-and-xaml)
+- [Run UWP apps on the local machine](../debugger/start-a-debugging-session-for-a-store-app-in-visual-studio-vb-csharp-cpp-and-xaml.md)
 - [Run UWP apps on a remote machine](../debugger/run-windows-store-apps-on-a-remote-machine.md)
 - [First look at profiling tools](profiling-feature-tour.md)
 - [JavaScript memory](../profiling/javascript-memory.md)

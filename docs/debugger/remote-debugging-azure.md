@@ -1,7 +1,7 @@
 ---
 title: "Remote Debug ASP.NET Core on IIS and Azure | Microsoft Docs"
 ms.custom: "remotedebugging"
-ms.date: "05/21/2018"
+ms.date: "04/14/2020"
 ms.topic: "conceptual"
 ms.assetid: a6c04b53-d1b9-4552-a8fd-3ed6f4902ce6
 author: "mikejo5000"
@@ -67,19 +67,25 @@ Debugging between two computers connected through a proxy is not supported. Debu
 
 From Visual Studio, you can quickly publish and debug your app to a fully provisioned instance of IIS. However, the configuration of IIS is preset and you cannot customize it. For more detailed instructions, see [Deploy an ASP.NET Core web app to Azure using Visual Studio](/aspnet/core/tutorials/publish-to-azure-webapp-using-vs). (If you need the ability to customize IIS, try debugging on an [Azure VM](#remote_debug_azure_vm).)
 
-#### To deploy the app and remote debug using Server Explorer
+#### To deploy the app and remote debug using Cloud Explorer
 
 1. In Visual Studio, right-click the project node and choose **Publish**.
 
     If you have previously configured any publishing profiles, the **Publish** pane appears. Click **New profile**.
 
-1. Choose **Azure App Service** from the **Publish** dialog box, select **Create New**, and follow the prompts to publish.
+1. Choose **Azure App Service** from the **Publish** dialog box, select **Create New**, and follow the prompts to create a profile.
 
     For detailed instructions, see [Deploy an ASP.NET Core web app to Azure using Visual Studio](/aspnet/core/tutorials/publish-to-azure-webapp-using-vs).
 
     ![Publish to Azure App Service](../debugger/media/remotedbg_azure_app_service_profile.png)
 
-1. Open **Server Explorer** (**View** > **Server Explorer**), right-click on the App Service instance and choose **Attach Debugger**.
+1. In the Publish window, choose **Edit Configuration** and switch to a Debug configuration, and then choose **Publish**.
+
+   A Debug configuration is required to debug the app.
+
+1. Open **Cloud Explorer** (**View** > **Cloud Explorer**), right-click on the App Service instance and choose **Attach Debugger**.
+
+   If Cloud Explorer is not available, open Server Explorer instead. Then, right-click on the App Service instance in Server Explorer and choose **Attach Debugger**.
 
 1. In the running ASP.NET application, click the link to the **About** page.
 
@@ -165,9 +171,9 @@ After the app deploys successfully, it should start automatically. If the app do
 
 ## (Optional) Deploy by publishing to a local folder
 
-You can use this option to deploy your app if you want to copy the app to IIS using Powershell, RoboCopy, or you want to manually copy the files.
+You can use this option to deploy your app if you want to copy the app to IIS using PowerShell, RoboCopy, or you want to manually copy the files.
 
-### <a name="BKMK_deploy_asp_net"></a> Configure the ASP.NET Web site on the Windows Server computer
+### <a name="BKMK_deploy_asp_net"></a> Configure the ASP.NET Core Web site on the Windows Server computer
 
 If you are importing publish settings, you can skip this section.
 
@@ -175,7 +181,7 @@ If you are importing publish settings, you can skip this section.
 
 2. Right-click the **Default Web Site** node and select **Add Application**.
 
-3. Set the **Alias** field to **MyASPApp** and the Application pool field to **No Managed Code**. Set the **Physical path** to **C:\Publish** (where you will later deploy the ASP.NET project).
+3. Set the **Alias** field to **MyASPApp** and the Application pool field to **No Managed Code**. Set the **Physical path** to **C:\Publish** (where you will later deploy the ASP.NET Core project).
 
 4. With the site selected in the IIS Manager, choose **Edit Permissions**, and make sure that IUSR, IIS_IUSRS, or the user configured for the Application Pool is an authorized user with Read & Execute rights.
 

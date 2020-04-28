@@ -3,15 +3,15 @@ title: Configuring Warnings in Visual Basic
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "errors [Visual Basic], warnings"
-  - "run-time errors, warnings"
-  - "warnings, configuring"
+- errors [Visual Basic], warnings
+- run-time errors, warnings
+- warnings, configuring
 ms.assetid: 99cf4781-bd4d-47b4-91b9-217933509f82
-author: jillre
-ms.author: jillfra
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Configuring warnings in Visual Basic
 

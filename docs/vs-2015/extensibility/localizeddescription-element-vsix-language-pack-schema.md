@@ -48,7 +48,7 @@ Required. Provides a localized description of the extension.
   
 |                 |                                                           |
 |-----------------|-----------------------------------------------------------|
-|    Namespace    | http://schemas.microsoft.com/developer/vsx-schema-lp/2010 |
+|    Namespace    | `http://schemas.microsoft.com/developer/vsx-schema-lp/2010` |
 |   Schema Name   |                 VSIX Language Pack Schema                 |
 | Validation File |                VSIXLanguagePackSchema.xsd                 |
 |  Can be Empty   |                      Not applicable                       |
@@ -56,4 +56,4 @@ Required. Provides a localized description of the extension.
 ## See Also  
  [VSX Language Pack Schema Reference](../extensibility/vsx-language-pack-schema-reference.md)   
  [Localizing VSIX Packages](../extensibility/localizing-vsix-packages.md)   
- [VSIX Extension Schema 1.0 Reference](https://msdn.microsoft.com/76e410ec-b1fb-4652-ac98-4a4c52e09a2b)
+ [VSIX Extension Schema 1.0 Reference](/previous-versions/dd393700(v=vs.110))

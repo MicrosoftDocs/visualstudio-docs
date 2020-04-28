@@ -2,11 +2,11 @@
 title: Adding References Using NuGet Versus an Extension SDK
 ms.date: 08/02/2019
 ms.topic: conceptual
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # NuGet versus SDK as a project reference
 

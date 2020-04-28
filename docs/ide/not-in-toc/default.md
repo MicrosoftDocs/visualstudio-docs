@@ -4,11 +4,11 @@ ms.date: 02/28/2018
 ms.topic: troubleshooting
 robots: noindex,nofollow
 f1_keywords:
- - "vs.texteditor"
- - "vs.ambient"
+- vs.texteditor
+- vs.ambient
 manager: jillfra
-author: jillre
-ms.author: jillfra
+author: TerryGLee
+ms.author: tglee
 ---
 # F1 help
 

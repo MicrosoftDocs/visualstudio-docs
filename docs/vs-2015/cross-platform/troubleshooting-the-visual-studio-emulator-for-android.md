@@ -128,7 +128,7 @@ This topic contains information to help you resolve issues that you may experien
 
      ![Android&#95;Emu&#95;V&#95;Switch&#95;Man](../cross-platform/media/android-emu-v-switch-man.png "Android_Emu_V_Switch_Man")
 
-     If the setup is incorrect and you are using Windows 10, you might try  to [Reinstall network devices using netcfg –d command](http://windows.microsoft.com/windows-10/fix-network-connection-issues) (section 6).
+     If the setup is incorrect and you are using Windows 10, you might try  to [Reinstall network devices using netcfg –d command](https://support.microsoft.com/help/10741/windows-fix-network-connection-issues) (section 6).
 
 - If these steps do not resolve the issue, see [Emulator fails to start (first use)](#NoStart) for information on 3rd party software that may be interfering with the emulator.
 
@@ -305,6 +305,6 @@ This topic contains information to help you resolve issues that you may experien
 ## <a name="Support"></a> Support Resources
  If your host computer meets the system requirements and you encounter an issue not covered in this troubleshooting guide:
 
-- Ask a question on StackOverflow using the [android-emulator](http://stackoverflow.com/questions/tagged/android-emulator) and visual-studio tags.
+- Ask a question on StackOverflow using the [android-emulator](https://stackoverflow.com/questions/tagged/android-emulator) and visual-studio tags.
 
 - Report an issue using the Send a Smile tool in Visual Studio or in the Emulator Manager.

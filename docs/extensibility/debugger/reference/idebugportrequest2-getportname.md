@@ -1,20 +1,20 @@
 ---
-title: "IDebugPortRequest2::GetPortName | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugPortRequest2::GetPortName | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugPortRequest2::GetPortName"
+- IDebugPortRequest2::GetPortName
 helpviewer_keywords:
-  - "IDebugPortRequest2::GetPortName"
+- IDebugPortRequest2::GetPortName
 ms.assetid: 53e2a3a4-bb34-4a02-a983-6bd84ea70587
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugPortRequest2::GetPortName
 Gets the name of the port.

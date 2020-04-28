@@ -3,8 +3,8 @@ title: "Debug XAML in Blend | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 ms.assetid: 29a37182-2a2c-47e4-a4a9-2d5412738fed
-author: "mikejo5000"
-ms.author: "mikejo"
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.technology: vs-ide-debug
 ms.workload:
@@ -103,7 +103,7 @@ When XAML errors are detected, the design surface displays an alert that your pr
 
 4. Double-click "The member 'content' is not recognized or is not accessible." The `c` in `content` should be upper-case. Replace the lower-case "c" with an upper-case "c."
 
-5. Double-click "The property 'Mame' does not exist in the '<http://schemas.microsoft.com/winfx/2006/xaml>' namespace." The "M" in "Mame" should be an "N." Replace the "M" with an "N." Now that the XAML can be parsed, the app appears on the design surface.
+5. Double-click "The property 'Mame' does not exist in the `http://schemas.microsoft.com/winfx/2006/xaml` namespace." The "M" in "Mame" should be an "N." Replace the "M" with an "N." Now that the XAML can be parsed, the app appears on the design surface.
 
     ![Debugging XAML in Blend for Visual Studio](../debugger/media/blend_debugartboard_xaml.png "blend_debugArtboard_XAML")
 
@@ -113,7 +113,7 @@ When XAML errors are detected, the design surface displays an alert that your pr
 
 You can open Blend projects in Visual Studio to more easily debug the code in your app. To open a Blend project in Visual Studio, right-click the project in the **Projects** panel, and then click **Edit in Visual Studio**. After you have finished your debugging session in Visual Studio, press Ctrl+Shift+S to save all your changes, and then switch back to Blend. You will be prompted to reload the project. Click **Yes to All** to continue working in Blend.
 
-For more information about debugging your app, see [Debug UWP apps in Visual Studio](../debugger/debug-store-apps-in-visual-studio.md).
+For more information about debugging your app, see [Debug UWP apps in Visual Studio](../debugger/debugging-windows-store-and-windows-universal-apps.md).
 
 ## Get help
 

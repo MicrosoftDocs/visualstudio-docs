@@ -1,12 +1,12 @@
 ---
 title: Set color theme and fonts
-ms.date: 11/20/2017
+ms.date: 03/23/2020
 ms.topic: quickstart
-author: jillre
-ms.author: jillfra
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Personalize the Visual Studio IDE and Editor
 
@@ -46,8 +46,19 @@ The default color theme for Visual Studio's user interface is called **Blue**. L
 
    ::: moniker-end
 
+::: moniker range="vs-2017"
+
 > [!TIP]
 > You can install additional predefined themes by installing the **Visual Studio Color Theme Editor** from the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=VisualStudioPlatformTeam.VisualStudio2017ColorThemeEditor). After you install this tool, additional color themes appear in the **Color theme** drop-down list.
+
+::: moniker-end
+
+::: moniker range="vs-2019"
+
+> [!TIP]
+> You can create your own themes by installing the **Visual Studio Color Theme Designer** from the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=ms-madsk.ColorThemeDesigner).
+
+::: moniker-end
 
 ## Change text color
 

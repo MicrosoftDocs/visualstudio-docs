@@ -3,13 +3,13 @@ title: Generating Files with the TextTransform Utility
 ms.date: 07/26/2019
 ms.topic: conceptual
 helpviewer_keywords:
-  - "text templates, TextTransform utility"
-  - "TextTransform.exe"
-author: jillre
-ms.author: jillfra
+- text templates, TextTransform utility
+- TextTransform.exe
+author: JoshuaPartlow
+ms.author: joshuapa
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Generate files with the TextTransform utility
 

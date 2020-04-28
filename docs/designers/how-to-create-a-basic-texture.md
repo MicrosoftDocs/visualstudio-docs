@@ -1,13 +1,13 @@
 ---
-title: "How to: Create a Basic Texture"
+title: 'How to: Create a Basic Texture'
 ms.date: 11/04/2016
 ms.topic: conceptual
 ms.assetid: 0222e8bf-d29f-421b-9b1f-123d500fa179
-author: jillre
-ms.author: jillfra
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # How to: Create a basic texture
 

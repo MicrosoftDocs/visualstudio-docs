@@ -3,19 +3,19 @@ title: Add editor support for other languages
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "syntax colorization"
-  - "IntelliSense"
-  - "IDE, navigation"
-  - "documents [Visual Studio], navigation"
-  - "TextMate bundle"
-  - "TextMate language grammar"
-  - "language support"
+- syntax colorization
+- IntelliSense
+- IDE, navigation
+- documents [Visual Studio], navigation
+- TextMate bundle
+- TextMate language grammar
+- language support
 ms.assetid: d78c43ee-4ef2-42e5-984e-d137de4e7e92
-author: jillre
-ms.author: jillfra
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Add Visual Studio editor support for other languages
 
@@ -86,3 +86,5 @@ For details about how to create TextMate Grammars, see [TextMate - Introduction 
 - [Add a Language Server Protocol extension](../extensibility/adding-an-lsp-extension.md)
 - [Walkthrough: Create a code snippet](../ide/walkthrough-creating-a-code-snippet.md)
 - [Walkthrough: Display statement completion](../extensibility/walkthrough-displaying-statement-completion.md)
+- [Example code: TextMate Grammar](https://github.com/microsoft/VSSDK-Extensibility-Samples/tree/master/TextmateGrammar)
+- [Example code: Custom language support](https://github.com/microsoft/VSSDK-Extensibility-Samples/tree/master/Ook_Language_Integration)

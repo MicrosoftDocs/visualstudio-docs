@@ -1,14 +1,14 @@
 ---
 title: Get started with unit testing
-ms.date: 04/01/2019
+ms.date: 04/07/2020
 ms.topic: conceptual
 helpviewer_keywords:
-  - "unit testing, create unit test plans"
-author: jillre
-ms.author: jillfra
+- unit testing, create unit test plans
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Get started with unit testing
 
@@ -16,20 +16,22 @@ Use Visual Studio to define and run unit tests to maintain code health, ensure c
 
 ## Create unit tests
 
-This section describes at a high level how to create a unit test project.
+This section describes how to create a unit test project.
 
 1. Open the project that you want to test in Visual Studio.
 
-   For the purposes of demonstrating an example unit test, this article tests a simple "Hello World" project. The sample code for such a project is as follows:
+   For the purposes of demonstrating an example unit test, this article tests a simple "Hello World" project named **HelloWorldCore**. The sample code for such a project is as follows:
 
    ```csharp
-   public class Program
-   {
-       public static void Main()
-       {
-           Console.WriteLine("Hello World!");
-       }
-   }
+   namespace HelloWorldCore
+
+      public class Program
+      {
+         public static void Main()
+         {
+            Console.WriteLine("Hello World!");
+         }
+      }
    ```
 
 1. In **Solution Explorer**, select the solution node. Then, from the top menu bar, select **File** > **Add** > **New Project**.
@@ -64,14 +66,81 @@ This section describes at a high level how to create a unit test project.
 
 1. Add code to the unit test method.
 
-   ![Add code to your unit test method in Visual Studio](media/vs-2019/unit-test-method.png)
+   For example, for an MSTest project, you might use the following code.
+
+   ```csharp
+   using Microsoft.VisualStudio.TestTools.UnitTesting;
+   using System.IO;
+   using System;
+
+   namespace HelloWorldTests
+   {
+      [TestClass]
+      public class UnitTest1
+      {
+         private const string Expected = "Hello World!";
+         [TestMethod]
+         public void TestMethod1()
+         {
+            using (var sw = new StringWriter())
+            {
+               Console.SetOut(sw);
+               HelloWorldCore.Program.Main();
+
+               var result = sw.ToString().Trim();
+               Assert.AreEqual(Expected, result);
+            }
+         }
+      }
+   }
+   ```
+
+   Or, for an NUnit project, you might use the following code.
+
+   ```csharp
+   using NUnit.Framework;
+   using System.IO;
+   using System;
+
+   namespace HelloWorldTests
+   {
+      public class Tests
+      {
+         private const string Expected = "Hello World!";
+
+         [SetUp]
+         public void Setup()
+         {
+         }
+         [Test]
+         public void TestMethod1()
+         {
+            using (var sw = new StringWriter())
+            {
+               Console.SetOut(sw);
+               HelloWorldCore.Program.Main();
+
+               var result = sw.ToString().Trim();
+               Assert.AreEqual(Expected, result);
+            }
+         }
+      }
+   }
+   ```
 
 > [!TIP]
-> For a more detailed walkthrough of creating unit tests, see [Create and run unit tests for managed code](walkthrough-creating-and-running-unit-tests-for-managed-code.md).
+> For more details about creating unit tests, see [Create and run unit tests for managed code](walkthrough-creating-and-running-unit-tests-for-managed-code.md).
 
 ## Run unit tests
 
-1. Open [Test Explorer](../test/run-unit-tests-with-test-explorer.md) by choosing **Test** > **Windows** > **Test Explorer** from the top menu bar.
+1. Open [Test Explorer](../test/run-unit-tests-with-test-explorer.md).
+
+   ::: moniker range=">=vs-2019"
+   To open Test Explorer, choose **Test** > **Test Explorer** from the top menu bar.
+   ::: moniker-end
+   ::: moniker range="vs-2017"
+   To open Test Explorer, choose **Test** > **Windows** > **Test Explorer** from the top menu bar.
+   ::: moniker-end
 
 1. Run your unit tests by clicking **Run All**.
 

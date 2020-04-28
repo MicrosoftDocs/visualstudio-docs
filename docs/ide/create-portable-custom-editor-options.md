@@ -3,9 +3,9 @@ title: EditorConfig settings
 ms.date: 08/01/2018
 ms.topic: conceptual
 helpviewer_keywords:
-  - "editorconfig [Visual Studio]"
-author: jillre
-ms.author: jillfra
+- editorconfig [Visual Studio]
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ---
 # Create portable, custom editor settings with EditorConfig
@@ -98,7 +98,7 @@ There are a couple other ways you can add an EditorConfig file to your project:
 
 - The [code inference feature](/visualstudio/intellicode/code-style-inference) of IntelliCode for Visual Studio infers your code styles from existing code. It then creates a non-empty EditorConfig file with your code-style preferences already defined.
 
-- Starting in Visual Studio 2019, you can [generate an EditorConfig file based on your code-style settings](/visualstudio/ide/code-styles-and-code-cleanup#code-styles-in-editorconfig-files) in **Tools** > **Options**.
+- Starting in Visual Studio 2019, you can [generate an EditorConfig file based on your code-style settings](code-styles-and-code-cleanup.md#code-styles-in-editorconfig-files) in **Tools** > **Options**.
 
 ## File hierarchy and precedence
 

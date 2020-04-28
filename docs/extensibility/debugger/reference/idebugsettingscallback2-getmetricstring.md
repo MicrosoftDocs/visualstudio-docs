@@ -1,19 +1,19 @@
 ---
-title: "IDebugSettingsCallback2::GetMetricString | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugSettingsCallback2::GetMetricString | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
-  - "IDebugSettingsCallback2::GetMetricString"
-  - "GetMetricString"
+- IDebugSettingsCallback2::GetMetricString
+- GetMetricString
 ms.assetid: ecc875a2-8ac6-444c-a839-5191a780fd6b
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugSettingsCallback2::GetMetricString
 Retrieves the value string of the metric given its name.

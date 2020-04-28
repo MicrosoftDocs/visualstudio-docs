@@ -57,9 +57,9 @@ Below are the errors and warning dialog boxes you may encounter while debugging 
 
  [Remote Debugging Errors](../debugger/remote-debugging-errors-and-troubleshooting.md)
 
- [Attach Errors](https://docs.microsoft.com/previous-versions/visualstudio/visual-studio-2010/8dbb3we5(v=vs.100))
+ [Attach Errors](/previous-versions/visualstudio/visual-studio-2010/8dbb3we5(v=vs.100))
 
- [Troubleshooting SQL Debugging Setup](https://docs.microsoft.com/previous-versions/visualstudio/visual-studio-2010/s7ahaxtd(v=vs.100))
+ [Troubleshooting SQL Debugging Setup](/previous-versions/visualstudio/visual-studio-2010/s7ahaxtd(v=vs.100))
 
  [Debugging native code FAQs](../debugger/debugging-native-code-faqs.md)
 

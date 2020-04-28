@@ -78,4 +78,4 @@ Visual Studio*Graphics Diagnostics* is a set of tools for recording and then ana
 |Title|Description|  
 |-----------|-----------------|  
 |[Debugging in Visual Studio](../debugger/debugging-in-visual-studio.md)|Introduces the debugging functionality in [!INCLUDE[vsprvs](../includes/vsprvs-md.md)].|  
-|[DirectX Graphics and Gaming](http://go.microsoft.com/fwlink/?LinkId=256498)|Provides articles that discuss DirectX graphics technologies.|
+|[DirectX Graphics and Gaming](https://msdn.microsoft.com/library/ee663274(v=vs.85).aspx)|Provides articles that discuss DirectX graphics technologies.|

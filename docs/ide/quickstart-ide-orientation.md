@@ -1,13 +1,13 @@
 ---
 title: Tour of the Visual Studio IDE
-titleSuffix: ""
+titleSuffix: ''
 ms.date: 02/21/2019
 ms.topic: quickstart
-author: jillre
-ms.author: jillfra
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Quickstart: First look at the Visual Studio IDE
 

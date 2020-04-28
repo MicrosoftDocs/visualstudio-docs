@@ -24,7 +24,7 @@ It is often said that the price of security is constant vigilance. Despite your 
 
  In addition, not only must you remain vigilant about your own application, you must also keep current on security threats and flaws for the platform on which your application runs and for other products on which your application depends.
 
- [Security, Privacy, and Accounts](http://go.microsoft.com/fwlink/?LinkId=72881)
+ [Security, Privacy, and Accounts](https://windows.microsoft.com/windows/security-privacy-accounts-help#security-privacy-accounts-help=windows-8&v0h=winrttab1&v1h=win8tab1&v2h=win7tab1&v3h=winvistatab1)
  Get help with security, privacy, and user accounts, including info about viruses, passwords, parental controls, firewalls, and drive encryption..
 
  [Microsoft Security Bulletin Search](/security-updates/)

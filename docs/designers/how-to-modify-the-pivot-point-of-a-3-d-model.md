@@ -1,13 +1,13 @@
 ---
-title: "How to: Modify the Pivot Point of a 3D Model"
+title: 'How to: Modify the Pivot Point of a 3D Model'
 ms.date: 11/04/2016
 ms.topic: conceptual
 ms.assetid: c20b4ec8-29f5-4ca5-bc39-d4548ca6f573
-author: jillre
-ms.author: jillfra
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # How to: Modify the pivot point of a 3D model
 

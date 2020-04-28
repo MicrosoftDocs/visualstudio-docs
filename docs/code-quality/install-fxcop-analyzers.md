@@ -3,12 +3,12 @@ title: Install FxCop analyzers
 ms.date: 08/03/2018
 ms.topic: conceptual
 helpviewer_keywords:
-  - "fxcop analyzers"
-author: jillre
-ms.author: jillfra
+- fxcop analyzers
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ms.workload:
-  - "dotnet"
+- dotnet
 ---
 # Install FxCop analyzers in Visual Studio
 
@@ -28,7 +28,7 @@ In Visual Studio 2019 version 16.3 and later, you can install the [Microsoft.Cod
 
 2. Select **Install**.
 
-   Visual Studio installs the latest version of the Microsoft.CodeAnalyzers.FxCopAnalyzers package. The assemblies appear in **Solution Explorer** under **References** > **Analyzers**.
+   Visual Studio installs the latest version of the Microsoft.CodeAnalysis.FxCopAnalyzers package. The assemblies appear in **Solution Explorer** under **References** > **Analyzers**.
 
    ![Analyzers node in Solution Explorer](media/solution-explorer-analyzers-node.png)
 
@@ -150,4 +150,4 @@ If you want to check whether the extension is installed, select **Extensions** >
 
 - [Overview of code analyzers in Visual Studio](../code-quality/roslyn-analyzers-overview.md)
 - [Use code analyzers in Visual Studio](../code-quality/use-roslyn-analyzers.md)
-- [Migrate from legacy analysis to code analyzers](../code-quality/fxcop-analyzers.yml)
+- [Migrate from legacy analysis to code analyzers](../code-quality/migrate-from-legacy-analysis-to-fxcop-analyzers.md)

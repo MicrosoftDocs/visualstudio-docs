@@ -3,16 +3,16 @@ title: Configure Code Analysis
 ms.date: 04/04/2018
 ms.topic: conceptual
 f1_keywords:
-  - "vs.codeanalysis.propertypages.csvb"
-  - "vs.codeanalysis.propertypages.solution"
+- vs.codeanalysis.propertypages.csvb
+- vs.codeanalysis.propertypages.solution
 helpviewer_keywords:
-  - "code analysis, selecting rule sets"
-  - "code analysis, rule sets"
-author: jillre
-ms.author: jillfra
+- code analysis, selecting rule sets
+- code analysis, rule sets
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ms.workload:
-  - "dotnet"
+- dotnet
 ---
 # How to: Configure legacy analysis for managed code
 
@@ -39,7 +39,7 @@ In Visual Studio, you can choose from a list of code analysis [rule sets](../cod
 
 ::: moniker range=">=vs-2019"
 
-3. To run code analysis every time the project is built using the selected configuration, select **Run on build** in the **Binary analyzers** section. You can also run code analysis manually by selecting **Analyze** > **Run Code Analysis** > **Run Code Analysis on \<projectname>**.
+3. To run code analysis every time the project is built using the selected configuration, select **Run on build** in the **Binary analyzers** section. You can also run legacy code analysis manually, see [How to: Run Legacy Code Analysis Manually for Managed Code](how-to-run-legacy-code-analysis-manually-for-managed-code.md) for more details.
 
 ::: moniker-end
 
@@ -60,11 +60,11 @@ In Visual Studio, you can choose from a list of code analysis [rule sets](../cod
 
 ::: moniker-end
 
-    - Select the rule set that you want to use.
+   - Select the rule set that you want to use.
 
-    - Select **\<Browse>** to find an existing custom rule set that is not in the list.
+   - Select **\<Browse>** to find an existing custom rule set that is not in the list.
 
-    - Define a [custom rule set](../code-quality/how-to-create-a-custom-rule-set.md).
+   - Define a [custom rule set](../code-quality/how-to-create-a-custom-rule-set.md).
 
 ## Specify rule sets for multiple projects in a solution
 

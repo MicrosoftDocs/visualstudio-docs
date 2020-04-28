@@ -2,11 +2,11 @@
 title: Exempt from Windows Information Protection
 ms.date: 06/01/2018
 ms.topic: conceptual
-author: jillre
-ms.author: jillfra
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Configure Visual Studio as a WIP-exempt app
 

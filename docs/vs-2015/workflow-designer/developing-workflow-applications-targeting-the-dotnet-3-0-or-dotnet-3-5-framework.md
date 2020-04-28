@@ -23,4 +23,4 @@ manager: jillfra
  [Debugging Legacy Workflows](../workflow-designer/debugging-legacy-workflows.md)
 
 ## Related Sections
- [Windows Workflow Foundation Programming Guide](http://go.microsoft.com/fwlink?LinkID=65012)
+ [Windows Workflow Foundation Programming Guide](https://msdn2.microsoft.com/library/bb628474.aspx)

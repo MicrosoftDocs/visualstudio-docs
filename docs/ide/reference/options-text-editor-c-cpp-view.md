@@ -6,8 +6,8 @@ f1_keywords:
   - "VS.ToolsOptionsPages.Text_Editor.C/C++.View"
   - "VS.ToolsOptionsPages.Text_Editor.C%2FC%2B%2B.View"
   - "VS.ToolsOptionsPages.Text_Editor.C\\C++.View"
-author: mikeblome
-ms.author: mblome
+author: corob-msft
+ms.author: corob
 manager: markl
 ms.workload:
   - "cplusplus"

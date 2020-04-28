@@ -1,7 +1,7 @@
 ---
 title: "Create custom views of C++ objects"
 description: Use the Natvis framework to customize the way that Visual Studio displays native types in the debugger
-ms.date: "10/31/2018"
+ms.date: "03/02/2020"
 ms.topic: "conceptual"
 f1_keywords:
   - "natvis"
@@ -19,6 +19,9 @@ ms.workload:
 The Visual Studio *Natvis* framework customizes the way native types appear in debugger variable windows, such as the **Locals** and **Watch** windows, and in **DataTips**. Natvis visualizations can help make the types you create more visible during debugging.
 
 Natvis replaces the *autoexp.dat* file in earlier versions of Visual Studio with XML syntax, better diagnostics, versioning, and multiple file support.
+
+> [!NOTE]
+> Natvis customizations work with classes and structs, but not typedefs.
 
 ## <a name="BKMK_Why_create_visualizations_"></a>Natvis visualizations
 
@@ -85,6 +88,30 @@ The Visual Studio debugger loads *.natvis* files in C++ projects automatically, 
 >[!NOTE]
 >Natvis rules loaded from a *.pdb* apply only to the types in the modules that the *.pdb* refers to. For example, if *Module1.pdb* has a Natvis entry for a type named `Test`, it only applies to the `Test` class in *Module1.dll*. If another module also defines a class named `Test`, the *Module1.pdb* Natvis entry does not apply to it.
 
+**To install and register a *.natvis* file via a VSIX package:**
+
+A VSIX package can install and register *.natvis* files. No matter where are they installed, all registered *.natvis* files are automatically picked up during debugging.
+
+1. Include the *.natvis* file in the VSIX package. For example, for the following project file:
+   ```xml
+   <?xml version="1.0" encoding="utf-8"?>
+   <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="14.0">
+     <ItemGroup>
+       <VSIXSourceItem Include="Visualizer.natvis" />
+     </ItemGroup>
+   </Project>
+   ```
+
+2. Register the *.natvis* file in the *source.extension.vsixmanifest* file:
+   ```xml
+   <?xml version="1.0" encoding="utf-8"?>
+   <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+     <Assets>
+       <Asset Type="NativeVisualizer" Path="Visualizer.natvis"  />
+     </Assets>
+   </PackageManifest>
+   ```
+
 ### <a name="BKMK_natvis_location"></a> Natvis file locations
 
 You can add *.natvis* files to your user directory or to a system directory, if you want them to apply to multiple projects.
@@ -95,19 +122,21 @@ The *.natvis* files are evaluated in the following order:
 
 2. Any *.natvis* files that are in a loaded C++ project or top-level solution. This group includes all loaded C++ projects, including class libraries, but not projects in other languages.
 
+3. Any *.natvis* files installed and registered via a VSIX package.
+
 ::: moniker range="vs-2017"
 
-3. The user-specific Natvis directory (for example, *%USERPROFILE%\Documents\Visual Studio 2017\Visualizers*).
+4. The user-specific Natvis directory (for example, *%USERPROFILE%\Documents\Visual Studio 2017\Visualizers*).
 
 ::: moniker-end
 
 ::: moniker range=">= vs-2019"
 
-3. The user-specific Natvis directory (for example, *%USERPROFILE%\Documents\Visual Studio 2019\Visualizers*).
+4. The user-specific Natvis directory (for example, *%USERPROFILE%\Documents\Visual Studio 2019\Visualizers*).
 
 ::: moniker-end
 
-4. The system-wide Natvis directory (*%VSINSTALLDIR%\Common7\Packages\Debugger\Visualizers*). This directory has the *.natvis* files that are installed with Visual Studio. If you have administrator permissions, you can add files to this directory.
+5. The system-wide Natvis directory (*%VSINSTALLDIR%\Common7\Packages\Debugger\Visualizers*). This directory has the *.natvis* files that are installed with Visual Studio. If you have administrator permissions, you can add files to this directory.
 
 ## Modify .natvis files while debugging
 
@@ -117,7 +146,7 @@ You can also add or delete *.natvis* files in a solution that you're debugging, 
 
 You can't update *.natvis* files that are embedded in *.pdb* files while you're debugging.
 
-If you modify the *.natvis* file outside of Visual Studio, the changes don't take effect automatically. To update the debugger windows, you can reevaluate the **.natvisreload** command in the **Watch** window. Then the changes take effect without restarting the debugging session.
+If you modify the *.natvis* file outside of Visual Studio, the changes don't take effect automatically. To update the debugger windows, you can reevaluate the **.natvisreload** command in the **Immediate** window. Then the changes take effect without restarting the debugging session.
 
 Also use the **.natvisreload** command to upgrade the *.natvis* file to a newer version. For example, the *.natvis* file may be checked into source control, and you want to pick up recent changes that somebody else made.
 
@@ -502,7 +531,10 @@ The debugger evaluates the `NextPointer` and `ValueNode` expressions in the cont
 `ValueNode` can be left empty, or use `this` to refer to the `LinkedListItems` node itself.
 
 #### CustomListItems expansion
+
 The `CustomListItems` expansion allows you to write custom logic for traversing a data structure such as a hashtable. Use `CustomListItems` to visualize data structures that can use C++ expressions for everything you need to evaluate, but don't quite fit the mold for `ArrayItems`, `IndexListItems`, or `LinkedListItems`.
+
+You can use `Exec` to execute code inside of a `CustomListItems` expansion, using the variables and objects defined in the expansion. You can use logical operators, arithmetic operators, and assignment operators with `Exec`. You can't use `Exec` to evaluate functions, except for [debugger intrinsic functions](../debugger/expressions-in-the-debugger.md#BKMK_Using_debugger_intrinisic_functions_to_maintain_state) supported by the C++ expression evaluator.
 
 The following visualizer for `CAtlMap` is an excellent example where `CustomListItems` is appropriate.
 
@@ -534,24 +566,6 @@ The following visualizer for `CAtlMap` is an excellent example where `CustomList
     </Expand>
 </Type>
 ```
-
-You can use `Exec` to execute code inside of a `CustomListItems` expansion, using the variables and objects defined in the expansion. You can use logical operators, arithmetic operators, and assignment operators with `Exec`. You can't use `Exec` to evaluate functions.
-
-`CustomListItems` supports the following intrinsic functions:
-
-- `strlen`, `wcslen`, `strnlen`, `wcsnlen`, `strcmp`, `wcscmp`, `_stricmp`, `_strcmpi`, `_wcsicmp`, `strncmp`, `wcsncmp`, `_strnicmp`, `_wcsnicmp`, `memcmp`, `memicmp`, `wmemcmp`, `strchr`, `wcschr`, `memchr`, `wmemchr`, `strstr`, `wcsstr`, `__log2`, `__findNonNull`
-- `GetLastError`, `TlsGetValue`, `DecodeHString`, `WindowsGetStringLen`, `WindowsGetStringRawBuffer`, `WindowsCompareStringOrdinal`, `RoInspectCapturedStackBackTrace`, `CoDecodeProxy`, `GetEnvBlockLength`, `DecodeWinRTRestrictedException`, `DynamicMemberLookup`, `DecodePointer`, `DynamicCast`
-- `ConcurrencyArray_OperatorBracket_idx // Concurrency::array<>::operator[index<>] and operator(index<>)`
-- `ConcurrencyArray_OperatorBracket_int // Concurrency::array<>::operator(int, int, ...)`
-- `ConcurrencyArray_OperatorBracket_tidx // Concurrency::array<>::operator[tiled_index<>] and operator(tiled_index<>)`
-- `ConcurrencyArrayView_OperatorBracket_idx // Concurrency::array_view<>::operator[index<>] and operator(index<>)`
-- `ConcurrencyArrayView_OperatorBracket_int // Concurrency::array_view<>::operator(int, int, ...)`
-- `ConcurrencyArrayView_OperatorBracket_tidx // Concurrency::array_view<>::operator[tiled_index<>] and operator(tiled_index<>)`
-- `Stdext_HashMap_Int_OperatorBracket_idx`
-- `Std_UnorderedMap_Int_OperatorBracket_idx`
-- `TreeTraverse_Init // Initializes a new tree traversal`
-- `TreeTraverse_Next // Returns nodes in a tree`
-- `TreeTraverse_Skip // Skips nodes in a pending tree traversal`
 
 #### <a name="BKMK_TreeItems_expansion"></a> TreeItems expansion
  If the visualized type represents a tree, the debugger can walk the tree and display its children by using a `TreeItems` node. Here's the visualization for the `std::map` type using a `TreeItems` node:
@@ -673,7 +687,7 @@ Each type defined in the *.natvis* file must explicitly list any UI visualizers 
 </Type>
 ```
 
- You can see an example of a `UIVisualizer` in the [Image Watch](https://marketplace.visualstudio.com/items?itemName=VisualCPPTeam.ImageWatch2017) extension used to view in-memory bitmaps.
+ You can see an example of a `UIVisualizer` in the [Image Watch](https://marketplace.visualstudio.com/search?term=%22Image%20Watch%22&target=VS&category=All%20categories&vsVersion=&sortBy=Relevance) extension used to view in-memory bitmaps.
 
 ### <a name="BKMK_CustomVisualizer"></a>CustomVisualizer element
  `CustomVisualizer` is an extensibility point that specifies a VSIX extension that you write to control visualizations in Visual Studio code. For more information about writing VSIX extensions, see the [Visual Studio SDK](../extensibility/visual-studio-sdk.md).
@@ -681,3 +695,9 @@ Each type defined in the *.natvis* file must explicitly list any UI visualizers 
 It's a lot more work to write a custom visualizer than an XML Natvis definition, but you're free from constraints about what Natvis does or doesn't support. Custom visualizers have access to the full set of debugger extensibility APIs, which can query and modify the debuggee process or communicate with other parts of Visual Studio.
 
  You can use the `Condition`, `IncludeView`, and `ExcludeView` attributes on `CustomVisualizer` elements.
+
+ ## Limitations
+
+Natvis customizations work with classes and structs, but not typedefs.
+
+Natvis does not support visualizers for primitive types (for example, `int`, `bool`) or for pointers to primitive types. In this scenario, one option is to use the [format specifier](../debugger/format-specifiers-in-cpp.md) appropriate to your use case. For example, if you use `double* mydoublearray` in your code, then you can use an array format specifier in the debugger's **Watch** window, such as the expression `mydoublearray, [100]`, which shows the first 100 elements.

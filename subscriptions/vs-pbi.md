@@ -1,9 +1,10 @@
 ---
 title: Power BI Pro Benefit in Visual Studio Subscriptions | Microsoft Docs
 author: evanwindom
-ms.author: jaunger
-manager: evelynp
-ms.date: 12/19/2018
+ms.author: v-evwin
+manager: lank
+ms.assetid: 383fc910-3f4c-474a-a3f8-0f13525f05e9
+ms.date: 03/26/2020
 ms.topic: conceptual
 description:  Learn about the Power BI Pro subscription included with selected Visual Studio subscriptions.
 ---
@@ -58,7 +59,9 @@ To use Power BI Pro, you’ll need to set up an account or sign in using an exis
 | Subscription Level                                                 |     Channels                                            | Benefit                                                          | Renewable?    |
 |--------------------------------------------------------------------|---------------------------------------------------------|------------------------------------------------------------------|---------------|
 | Visual Studio Enterprise (Standard)   | VL, Azure, Retail,  selected NFR<sup>1</sup> | Available       |  Yes|
+| Visual Studio Enterprise with GitHub Enterprise  | VL | Available       |  Yes|
 | Visual Studio Professional (Standard, monthly cloud) | VL, Azure, Retail                                       | Not available                                                            |NA         |
+| Visual Studio Professional with GitHub Enterprise | VL                                      | Not available                                                            |NA         |
 | Visual Studio Test Professional (Standard)                         | VL, Retail                                              | Not available                                                            |NA         |
 | MSDN Platforms (Standard)                                          | VL, Retail                                              | Available       |  Yes|
 | Visual Studio Enterprise (monthly cloud) | Azure                                       | Not available                                  |NA|
@@ -105,5 +108,12 @@ A:  No.  The Power BI Pro benefit cannot be added to government tenants.
 - For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, contact Visual Studio [Subscriptions Support](https://visualstudio.microsoft.com/subscriptions/support/).
 - Have a question about Visual Studio IDE, Azure DevOps Services or other Visual Studio products or services?  Visit [Visual Studio Support](https://visualstudio.microsoft.com/support/).
 
+## See also
+- [Visual Studio documentation](https://docs.microsoft.com/visualstudio/)
+- [Azure DevOps documentation](https://docs.microsoft.com/azure/devops/)
+- [Azure documentation](https://docs.microsoft.com/azure/)
+- [Microsoft 365 documentation](https://docs.microsoft.com/microsoft-365/)
+
 ## Next steps
-To activate your Power BI Pro benefit, visit [https://my.visualstudio.com/benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs)
+- To activate your Power BI Pro benefit, visit [https://my.visualstudio.com/benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs).
+- Take advantage of your own development sandbox by activating your [Azure DevTest individual credit](vs-azure.md). 

@@ -3,18 +3,18 @@ title: Using 3D Assets in Your Game or App
 ms.date: 11/04/2016
 ms.topic: conceptual
 f1_keywords:
-  - "VC.Project.ImageContentTask.ContentOutput"
-  - "VC.Project.MeshContentTask.ContentOutput"
-  - "VC.Project.ImageContentTask.GeneratePremultipliedAlpha"
-  - "VC.Project.ImageContentTask.Compress"
-  - "VC.Project.ShaderGraphContentTask.ContentOutput"
-  - "VC.Project.ImageContentTask.GenerateMips"
+- VC.Project.ImageContentTask.ContentOutput
+- VC.Project.MeshContentTask.ContentOutput
+- VC.Project.ImageContentTask.GeneratePremultipliedAlpha
+- VC.Project.ImageContentTask.Compress
+- VC.Project.ShaderGraphContentTask.ContentOutput
+- VC.Project.ImageContentTask.GenerateMips
 ms.assetid: ea587909-e434-46a8-abf8-9b3e95a58b4f
-author: jillre
-ms.author: jillfra
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # How to: Use 3D assets in your game or app
 

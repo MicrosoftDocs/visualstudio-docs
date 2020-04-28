@@ -4,7 +4,7 @@ description: Describes how to improve your ability to debug and diagnose your co
 author: ghogen
 ms.author: ghogen
 ms.topic: conceptual
-ms.date: 10/16/2019
+ms.date: 01/20/2020
 ms.technology: vs-azure
 monikerRange: vs-2019
 ---
@@ -15,7 +15,7 @@ You can view what's going on inside the containers that host your app by using t
 ## Prerequisites
 
 - [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows)
-- [Visual Studio 2019 version 16.4 Preview 2](https://visualstudio.microsoft.com/downloads) or later, or if you are using an earlier version of Visual Studio 2019, install the [Containers window extension](https://aka.ms/vscontainerspreview).
+- [Visual Studio 2019 version 16.4 Preview 2](https://visualstudio.microsoft.com/downloads) or later, or if you are using an earlier version of Visual Studio 2019, install the [Containers window extension](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vs-containers-tools-extensions).
 
 ## View information about your containers
 
@@ -26,7 +26,7 @@ The **Containers** window opens automatically when you start a containerized .NE
 On the left side, you see the list of containers on your local machine. The containers associated with your solution are shown under **Solution Containers**. To the right, you see a pane with tabs for **Environment**, **Ports**, **Logs**, and **Files**.
 
 > [!TIP]
-> You can easily customize where the **Containers** tool window is docked in Visual Studio. See [Customizing window layouts in Visual Studio](/visualstudio/ide/customizing-window-layouts-in-visual-studio). By default, the **Containers** window is docked with the **Watch** window when the debugger is running.
+> You can easily customize where the **Containers** tool window is docked in Visual Studio. See [Customizing window layouts in Visual Studio](../ide/customizing-window-layouts-in-visual-studio.md). By default, the **Containers** window is docked with the **Watch** window when the debugger is running.
 
 ## View environment variables
 

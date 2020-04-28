@@ -1,16 +1,16 @@
 ---
-title: "Component Management | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Component Management | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "installation [Visual Studio SDK], components"
-  - "installation [Visual Studio SDK], file management"
+- installation [Visual Studio SDK], components
+- installation [Visual Studio SDK], file management
 ms.assetid: 029bffa2-6841-4caa-a41a-442467e1aedc
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Component management
 Units of tasks in the Windows Installer are referred to as Windows Installer components (sometimes called WICs or just components). A GUID identifies each WIC, which is the basic unit of installation and reference counting for setups that use Windows Installer.

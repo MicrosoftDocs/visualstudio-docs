@@ -111,11 +111,11 @@ To analyze memory usage, click one of the links that opens up a detailed report 
 
  The top pane shows the count and size of the types in the snapshot, including the size of all objects that are referenced by the type (**Inclusive Size**).
 
- The **Paths to Root** tree in the bottom pane displays the objects that reference the type selected in the upper pane. The .NET Framework garbage collector cleans up the memory for an object only when the last type that references it has been released.
+ The **Paths to Root** tree in the bottom pane displays the objects that reference the type selected in the upper pane. The .NET garbage collector cleans up the memory for an object only when the last type that references it has been released.
 
- The **Referenced Types** tree displays the references that are held by the type selected in the upper pane.
+ The **Referenced Objects** tree displays the references that are held by the type selected in the upper pane.
 
- ![Managed referenced types report view](../profiling/media/dbgdiag_mem_managedtypesreport_referencedtypes.png "DBGDIAG_MEM_ManagedTypesReport_ReferencedTypes")
+ ![Managed referenced objects report view](../profiling/media/dbgdiag_mem_managedtypesreport_referencedtypes.png "DBGDIAG_MEM_ManagedTypesReport_ReferencedTypes")
 
  To display the instances of a selected type in the upper pane, choose the ![Instance icon](../profiling/media/dbgdiag_mem_instanceicon.png "DBGDIAG_MEM_InstanceIcon") icon.
 

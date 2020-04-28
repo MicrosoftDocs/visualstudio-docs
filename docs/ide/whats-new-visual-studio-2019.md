@@ -2,7 +2,7 @@
 title: "What's new in Visual Studio 2019"
 titleSuffix: ""
 description: "Learn about the new features in Visual Studio 2019."
-ms.date: 09/24/2019
+ms.date: 03/16/2020
 helpviewer_keywords:
   - "Visual Studio, what's new"
   - "what's new [Visual Studio]"
@@ -18,7 +18,7 @@ ms.workload:
 ---
 # What's new in Visual Studio 2019
 
-**Updated for the [16.3 release](/visualstudio/releases/2019/release-notes/)**
+**Updated for the [16.5 release](/visualstudio/releases/2019/release-notes/)**
 
 >[!div class="button"]
 >[Download Visual Studio 2019](https://visualstudio.microsoft.com/downloads)
@@ -104,7 +104,7 @@ For more information, see the [Better multi-monitor experience with Visual Studi
 
 ### .NET Core
 
-**New in 16.3**: We've included support for .NET Core 3.0. Cross-platform, open source&mdash;and fully supported by Microsoft. 
+**New in 16.3**: We've included support for .NET Core 3.0. Cross-platform, open source&mdash;and fully supported by Microsoft.
 
 For more information, see the [Announcing .NET Core 3.0](https://devblogs.microsoft.com/dotnet/announcing-net-core-3-0/) blog post.
 
@@ -114,7 +114,7 @@ View the following video to learn more about how you can team up to solve issues
 
 > [!VIDEO https://www.youtube.com/embed/dKLJsiK1QU8]
 
-### Cloud-first workflow
+### Git-first workflow
 
 Something you'll notice when you open Visual Studio 2019 is its new start window.
 
@@ -190,9 +190,17 @@ For more information, see the [Debug live ASP.NET Azure apps using the Snapshot 
 
    ![A screenshot that shows JavaScript code rendering in a browser](media/vs-2019/edge-chromium-breakpoint.png)
 
+### Pinnable Properties tool
+
+**New in 16.4**: Now, it's easier to identify objects by their properties while debugging with the new Pinnable Properties tool. Just hover the cursor over a property you want to display in the debugger window of the Watch, Autos, and Locals windows, select the pin icon, and immediately see the information you're looking for at the top of the window!
+
+   ![An animation that shows how to pin properties in the Visual Studio debugger by using the Pinnable Properties tool](media/vs-2019/debugger-pinnable-properties.gif)
+
+For more information, see the [Pinnable Properties: Debug & Display Managed Objects YOUR Way](https://devblogs.microsoft.com/visualstudio/pinnable-properties-debug-display-managed-objects-your-way/) blog post.
+
 ## What's next
 
-We update Visual Studio 2019 often with new features that can make your development experience even better. To learn more about our latest innovations, check out the [Visual Studio Blog](https://devblogs.microsoft.com/visualstudio/). And for a record of what we've released in preview to date, take a look at the [Preview Release Notes](/visualstudio/releases/2019/release-notes-preview/).
+We update Visual Studio 2019 often with new features that can make your development experience even better. To learn more about our latest innovations, check out the [Visual Studio Blog](https://devblogs.microsoft.com/visualstudio/). For a record of what we've released in preview to date, take a look at the [Preview Release Notes](/visualstudio/releases/2019/release-notes-preview/). And for a list of what we're planning to release next, see the [Visual Studio Roadmap](/visualstudio/productinfo/vs-roadmap).
 
 Want to know more about what else is in the works for Visual Studio 2019? See the [Visual Studio Roadmap](/visualstudio/productinfo/vs-roadmap/).
 
@@ -207,7 +215,7 @@ Why send feedback to the Visual Studio team? Because we take customer feedback s
 ## See also
 
 * [Visual Studio 2019 release notes](/visualstudio/releases/2019/release-notes/)
-* [What's New in the Visual Studio 2019 SDK](../extensibility/whats-new-visual-studio-2019-sdk.md)
 * [Visual Studio 2019 for Mac release notes](/visualstudio/releasenotes/vs2019-mac-relnotes/)
-* [Microsoft Build 2019 conference](https://www.microsoft.com/build)
-* [Microsoft Connect(); 2018 conference](https://www.microsoft.com/connectevent)
+* [What's new in the Visual Studio 2019 SDK](../extensibility/whats-new-visual-studio-2019-sdk.md)
+* [Microsoft Build conference](https://www.microsoft.com/build)
+* [Microsoft Ignite conference](https://www.microsoft.com/ignite)

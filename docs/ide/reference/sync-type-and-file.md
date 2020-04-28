@@ -2,14 +2,14 @@
 title: Rename a filename to match a type
 ms.date: 01/26/2018
 ms.topic: reference
-author: jillre
-ms.author: jillfra
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 dev_langs:
-  - CSharp
-  - VB
+- CSharp
+- VB
 ms.workload:
-  - "dotnet"
+- dotnet
 ---
 # Sync a type to a filename, or a filename to a type refactoring
 

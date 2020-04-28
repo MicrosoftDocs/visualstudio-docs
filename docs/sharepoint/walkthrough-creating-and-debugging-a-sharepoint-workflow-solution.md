@@ -279,7 +279,7 @@ ms.workload:
 
 - To learn more about SharePoint workflow activities, see [Workflow Activities for SharePoint Foundation](/previous-versions/office/developer/sharepoint-2010/ms446847(v=office.14)).
 
-- To learn more about Windows Workflow Foundation activities, see [System.Workflow.Activities Namespace](/dotnet/api/system.workflow.activities&view=netframework-4.8).
+- To learn more about Windows Workflow Foundation activities, see [System.Workflow.Activities Namespace](/dotnet/api/system.windows.media.color).
 
 ## See also
 - [Create SharePoint workflow solutions](../sharepoint/creating-sharepoint-workflow-solutions.md)

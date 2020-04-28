@@ -1,17 +1,17 @@
 ---
-title: "IEEVisualizerService | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IEEVisualizerService | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IEEVisualizerService"
+- IEEVisualizerService
 helpviewer_keywords:
-  - "IEEVisualizerService interface"
+- IEEVisualizerService interface
 ms.assetid: 3bdb124b-c582-47ba-b465-13c6a1cdb702
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # IEEVisualizerService
 > [!IMPORTANT]

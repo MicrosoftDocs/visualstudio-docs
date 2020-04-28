@@ -4,16 +4,16 @@ ms.date: 06/20/2017
 ms.technology: vs-ide-compile
 ms.topic: reference
 f1_keywords:
-  - "cs.ProjectPropertiesBuild"
+- cs.ProjectPropertiesBuild
 helpviewer_keywords:
-  - "Build options [C#]"
-  - "Project Designer, Build page"
+- Build options [C#]
+- Project Designer, Build page
 ms.assetid: 77ff1bfc-d633-4634-ba29-9afdb6d7e362
-author: jillre
-ms.author: jillfra
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "dotnet"
+- dotnet
 ---
 # Build Page, Project Designer (C#)
 
@@ -59,6 +59,12 @@ Defines TRACE as a symbol in all source code files in your app. Selecting this i
 Specifies the processor to be targeted by the output file. Choose **x86** for any 32-bit Intel-compatible processor, choose **x64** for any 64-bit Intel-compatible processor, choose **ARM** for ARM processors, or choose **Any CPU** to specify that any processor is acceptable. **Any CPU** is the default value for projects, because it allows the application to run on the broadest range of hardware.
 
 For more information, see [/platform (C# Compiler Options)](/dotnet/csharp/language-reference/compiler-options/platform-compiler-option).
+
+**Nullable**
+
+Specifies the project-wide C# nullable context. This UI option was introduced in Visual Studio 16.5, and is only enabled for projects that use C# 8.0 or later.
+
+For more information, see [Nullable Contexts](/dotnet/csharp/nullable-references#nullable-contexts).
 
 **Prefer 32-bit**
 

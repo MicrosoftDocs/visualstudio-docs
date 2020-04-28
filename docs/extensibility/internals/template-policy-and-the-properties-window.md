@@ -1,15 +1,15 @@
 ---
-title: "Template Policy and the Properties Window | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Template Policy and the Properties Window | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "Properties window, template policy"
+- Properties window, template policy
 ms.assetid: 1d8019d3-5e57-47ba-b358-526b0796a63b
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Template Policy and the Properties Window
 When a project is contained inside an enterprise template project, that enterprise template project can enforce policy. Template policy becomes a constraining system that can be used to set default values for properties, hide properties, add properties, and so on.

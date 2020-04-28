@@ -94,7 +94,7 @@ Enhanced security features in Windows 8 and Windows Server 2012 required signifi
   
  To profile applications on devices that do not have Visual Studio installed, do one of the following:  
   
-- Download the tools as part of the Remote Tools for Visual Studio from the [MSDN web site](http://go.microsoft.com/fwlink/?LinkID=219549).  
+- Download the tools as part of the Remote Tools for Visual Studio from the [MSDN web site](https://www.microsoft.com/visualstudio/eng#downloads+d-additional-software).  
   
 - Copy and run the stand-alone profiler tools installation program from your Visual Studio computer. The installation programs are in *%VSInstallDir%* **\Team Tools\Performance Tools\Setups** folder. Choose the setup program for the operating system (x86/x64) of the remote computer.  
   

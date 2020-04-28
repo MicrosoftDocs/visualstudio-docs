@@ -1,15 +1,15 @@
 ---
-title: "m_taskId Field | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: m_taskId Field | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "m_taskId field, Task class [.NET Framework debug engines]"
+- m_taskId field, Task class [.NET Framework debug engines]
 ms.assetid: 9e4b827e-7c41-4fa3-b646-830aba2ec736
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # m_taskId field
 The backing field for the <xref:System.Threading.Tasks.Task.Id%2A?displayProperty=fullName> property.

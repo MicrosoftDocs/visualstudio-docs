@@ -80,7 +80,7 @@ The Visual Studio simulator for Windows Store apps is a desktop application that
  You can switch the device orientation between portrait and landscape by rotating the simulator 90 degrees in any direction.  
   
 > [!NOTE]
-> The simulator does not respect [DisplayProperties.AutoRotationPreferences](http://go.microsoft.com/fwlink/?LinkId=249460) property of a project. For example, if your project sets the orientation to `Landscape`, and you then rotate the simulator to a portrait orientation, the simulator display image will also be rotated and resized. Test these settings on an actual device.  
+> The simulator does not respect [DisplayProperties.AutoRotationPreferences](https://msdn.microsoft.com/library/windows/apps/windows.graphics.display.displayproperties.autorotationpreferences.aspx) property of a project. For example, if your project sets the orientation to `Landscape`, and you then rotate the simulator to a portrait orientation, the simulator display image will also be rotated and resized. Test these settings on an actual device.  
   
 > [!NOTE]
 > If you rotate the simulator so that one edge of the simulator is larger than the screen it is displayed on, the simulator is automatically resized to fit within the screen. The simulator is not resized to its original size if you rotate it again.  
@@ -132,10 +132,10 @@ The Visual Studio simulator for Windows Store apps is a desktop application that
   
    [Quickstart: Managing metered network cost constraints](https://msdn.microsoft.com/library/windows/apps/Hh750310.aspx)  
   
-   [Network information sample](http://code.msdn.microsoft.com/windowsapps/Network-Information-Sample-63aaa201)  
+   [Network information sample](https://code.msdn.microsoft.com/windowsapps/Network-Information-Sample-63aaa201)  
   
    [Analyze energy use](../profiling/analyze-energy-use-in-store-apps.md)  
-  
+    
    [Windows.Networking.Connectivity](https://msdn.microsoft.com/library/windows/apps/windows.networking.connectivity.aspx)  
   
    [How to respond to system events with background tasks](https://msdn.microsoft.com/f7c86e86-a7ae-4abb-a923-76b03337a80a)  

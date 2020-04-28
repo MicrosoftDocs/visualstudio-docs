@@ -1,19 +1,19 @@
 ---
-title: "Visual Studio SDK | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Visual Studio SDK | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 f1_keywords:
-  - "VSSDK.v90.StartPage"
+- VSSDK.v90.StartPage
 helpviewer_keywords:
-  - "Visual Studio SDK"
-  - "VS SDK (see Visual Studio SDK)"
-  - "Visual Studio, SDK"
+- Visual Studio SDK
+- VS SDK (see Visual Studio SDK)
+- Visual Studio, SDK
 ms.assetid: 1f7c348a-114c-4243-b392-3531e9c9c6fd
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Visual Studio SDK
 The Visual Studio SDK helps you extend Visual Studio features or integrate new features into Visual Studio. You can distribute your extensions to other users, as well as to the Visual Studio Marketplace. The following are some of the ways in which you can extend Visual Studio:
@@ -54,7 +54,7 @@ The Visual Studio SDK helps you extend Visual Studio features or integrate new f
  You can find the Visual Studio SDK API reference at [Visual Studio SDK Reference](../extensibility/visual-studio-sdk-reference.md).
 
 ## Visual Studio SDK samples
- You can find open source examples of VS SDK extensions on GitHub at [Visual Studio Samples](https://aka.ms/vs2015sdksamples). This GitHub repo contains samples that illustrate various extensible features in Visual Studio.
+ You can find open source examples of VS SDK extensions on GitHub at [Visual Studio Samples](https://github.com/Microsoft/VSSDK-Extensibility-Samples). This GitHub repo contains samples that illustrate various extensible features in Visual Studio.
 
 ## Other Visual Studio SDK resources
  If you have questions about the VSSDK or want to share your experiences developing extensions, you can use the [Visual Studio Extensibility Forum](https://social.msdn.microsoft.com/Forums/vstudio/home?forum=vsx) or the [ExtendVS Gitter Chatroom](https://gitter.im/Microsoft/extendvs).
@@ -68,9 +68,10 @@ The Visual Studio SDK helps you extend Visual Studio features or integrate new f
 - [Extending Visual Studio](https://blog.slaks.net/2013-10-18/extending-visual-studio-part-1-getting-started/)
 
 ## See also
+
 - [Create an extension with a menu command](../extensibility/creating-an-extension-with-a-menu-command.md)
 - [How to: Migrate extensibility projects to Visual Studio 2017](../extensibility/how-to-migrate-extensibility-projects-to-visual-studio-2017.md)
-- [FAQ: Converting add-ins to VSPackage extensions](../extensibility/faq-converting-add-ins-to-vspackage-extensions.md)
+- [FAQ: Converting add-ins to VSPackage extensions](/visualstudio/extensibility/faq-converting-add-ins-to-vspackage-extensions?view=vs-2015)
 - [Manage multiple threads in managed code](../extensibility/managing-multiple-threads-in-managed-code.md)
 - [Extend menus and commands](../extensibility/extending-menus-and-commands.md)
 - [Add commands to toolbars](../extensibility/adding-commands-to-toolbars.md)
@@ -87,5 +88,4 @@ The Visual Studio SDK helps you extend Visual Studio features or integrate new f
 - [Ship Visual Studio extensions](../extensibility/shipping-visual-studio-extensions.md)
 - [Inside the Visual Studio SDK](../extensibility/internals/inside-the-visual-studio-sdk.md)
 - [Support for the Visual Studio SDK](../extensibility/support-for-the-visual-studio-sdk.md)
-- [Archive](../extensibility/archive.md)
 - [Visual Studio SDK reference](../extensibility/visual-studio-sdk-reference.md)

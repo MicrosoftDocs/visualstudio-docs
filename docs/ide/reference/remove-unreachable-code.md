@@ -1,20 +1,23 @@
 ---
 title: Remove unreachable code refactoring
-ms.date: 01/26/2018
+ms.date: 03/10/2020
 ms.topic: reference
-author: jillre
-ms.author: jillfra
+author: mikadumont
+ms.author: midumont
 manager: jillfra
 dev_langs:
-  - CSharp
+- CSharp
+- VB
 ms.workload:
-  - "dotnet"
+- dotnet
 ---
 # Remove unreachable code refactoring
 
 This refactoring applies to:
 
 - C#
+
+- Visual Basic
 
 **What:** Removes code that will never be executed.
 

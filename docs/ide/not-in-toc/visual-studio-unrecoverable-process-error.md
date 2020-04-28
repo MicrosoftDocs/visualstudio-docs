@@ -3,13 +3,13 @@ title: A process has encountered an unrecoverable error
 ms.date: 06/22/2018
 ms.topic: troubleshooting
 helpviewer_keywords:
-  - "unrecoverable error"
-  - "error, process"
-author: jillre
-ms.author: jillfra
+- unrecoverable error
+- error, process
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Visual Studio unrecoverable process error
 
@@ -27,16 +27,21 @@ Following is a list of out-of-proc processes used by Visual Studio. This list is
 
 - Microsoft.Alm.Shared.Remoting.RemoteContainer.dll
 - Microsoft.CodeAnalysis.LiveUnitTesting.EntryPoint
+- MSBuild.exe
 - PerfWatson2.exe
+- ScriptedSandbox64.exe
+- ServiceHub.Host.CLR.x86.exe
 - ServiceHub.Host.Node.x86.exe
 - ServiceHub.IdentityHost.exe
-- ServiceHub.VSDetouredHost.exe
-- ServiceHub.SettingsHost.exe
-- ServiceHub.Host.CLR.x86.exe
-- ServiceHub.RoslynCodeAnalysisService32.exe
 - ServiceHub.RoslynCodeAnalysisService.exe
+- ServiceHub.RoslynCodeAnalysisService32.exe
+- ServiceHub.SettingsHost.exe
+- ServiceHub.VSDetouredHost.exe
+- VBCSCompiler.exe
+- VsHub.exe
+- vstest.discoveryengine.x86.exe
+- WaAppAgent.exe
 - WindowsAzureGuestAgent.exe
 - WindowsAzureTelemetryService.exe
-- WaAppAgent.exe
 
 If any of these processes terminates unexpectedly, some functionality within Visual Studio stops working. For some processes, the loss of functionality may be insignificant. For others, the stability of Visual Studio is affected and an error message is displayed.

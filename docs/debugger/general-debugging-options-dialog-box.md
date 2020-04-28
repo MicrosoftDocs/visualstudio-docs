@@ -1,6 +1,6 @@
 ---
 title: "General, Debugging, Options Dialog Box | Microsoft Docs"
-ms.date: "11/09/2018"
+ms.date: "11/12/2019"
 ms.topic: "reference"
 f1_keywords:
   - "vs.debug.options.General"
@@ -94,7 +94,7 @@ Tells the Visual Studio debugger to get source files from source servers that im
     When source server support is enabled, this setting overrides the default behavior of prompting when running an untrusted command.
 
 **Enable Source Link support**:
-    Tells the Visual Studio debugger to download source files for *.pdb* files that contain Source Link information. For more information about Source Link, see the [Source link specification](https://github.com/dotnet/core/blob/master/Documentation/diagnostics/source_link.md).
+    Tells the Visual Studio debugger to download source files for *.pdb* files that contain Source Link information. For more information about Source Link, see the [Source link specification](/dotnet/standard/library-guidance/sourcelink).
 
 > [!IMPORTANT]
 > Because Source Link will download files using http or https, make sure you trust the *.pdb* file.
@@ -170,6 +170,14 @@ The Live Visual Tree and the Live Property Explore windows will appear when you 
 
 - **Enable XAML Hot Reload**:
     Allows you to use the XAML Hot Reload feature with XAML code when your app is running. (This feature was previously called "XAML Edit and Continue")
+
+::: moniker range=">= vs-2019" 
+- **Enable Just My XAML**:
+    Starting in Visual Studio 2019 version 16.4, the **Live Visual Tree** by default shows only XAML that is classified as user code. If you disable this option, all generated XAML code is shown in the tool.
+
+- **Turn off selection mode when an element is selected**
+    Starting in Visual Studio 2019 version 16.4, the in-app toolbar element selector button (**Enable selection**) switches off when an element is selected. If you disable this option, element selection stays on until you click the in-app toolbar button again.
+::: moniker-end
 
 **Enable Diagnostic Tools while debugging**:
 The **Diagnostic Tools** window appears while you are debugging.

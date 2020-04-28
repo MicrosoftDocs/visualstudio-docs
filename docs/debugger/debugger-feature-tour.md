@@ -3,7 +3,7 @@ title: "First look at the debugger"
 description: "Get started debugging applications using the Visual Studio debugger"
 ms.custom: ""
 ms.date: 04/08/2019
-ms.topic: conceptual
+ms.topic: tutorial
 helpviewer_keywords:
   - "debugger"
 ms.assetid: c763d706-3213-494f-b4d2-990b6e1ec456
@@ -118,7 +118,7 @@ In most languages supported by Visual Studio, you can edit your code in the midd
 
 For more information on using the feature and on feature limitations, see [Edit and Continue](../debugger/edit-and-continue.md).
 
-To modify XAML code during a debugging session, see [Write and debug running XAML code with XAML Hot Reload](xaml-hot-reload.md).
+To modify XAML code during a debugging session, see [Write and debug running XAML code with XAML Hot Reload](../xaml-tools/xaml-hot-reload.md).
 
 ## Inspect variables with data tips
 
@@ -223,6 +223,10 @@ You can navigate and view snapshots by using the **Step Backward** and **Step Fo
 ![Step Backward and Forward Buttons](../debugger/media/intellitrace-step-back-icons-description.png  "Step Backward and Forward buttons")
 
 For more information, see the [Inspect previous app states using IntelliTrace](../debugger/view-historical-application-state.md) page.
+
+## Debug performance issues
+
+If your app runs too slowly or uses too much memory, you may need to test your app with the profiling tools early on. For more information about profiling tools such as the CPU Usage tool and the Memory Analyzer, see [First look at the profiling tools](../profiling/profiling-feature-tour.md).
 
 ## Next steps
 

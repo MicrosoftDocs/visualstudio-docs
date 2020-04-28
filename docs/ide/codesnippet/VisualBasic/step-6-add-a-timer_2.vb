@@ -17,6 +17,12 @@
 
         Dim clickedLabel = TryCast(sender, Label)
 
+        ' If secondClicked is not Nothing, the player has already 
+        ' clicked twice and the game has not yet reset --
+        ' ignore the click
+        If secondClicked IsNot Nothing Then
+            Exit Sub
+
         If clickedLabel IsNot Nothing Then
             ' If the clicked label is black, the player clicked
             ' an icon that's already been revealed --

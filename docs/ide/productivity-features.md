@@ -2,11 +2,11 @@
 title: Productivity tips
 ms.date: 2/21/2019
 ms.topic: conceptual
-author: jillre
-ms.author: jillfra
+author: ornellaalt
+ms.author: ornella
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Productivity tips for Visual Studio
 

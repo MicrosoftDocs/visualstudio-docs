@@ -1,14 +1,14 @@
 ---
-title: "Think Times for load testing"
+title: Think Times for load testing
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "load tests, think times"
-  - "load tests, adding delays"
-  - "load tests, changing think times"
+- load tests, think times
+- load tests, adding delays
+- load tests, changing think times
 ms.assetid: 8e03bee5-ab7b-4b40-9497-9dbe91ccb90e
-author: jillre
-ms.author: jillfra
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ---
 # Edit think times to simulate website human interaction delays in load tests scenarios

@@ -1,15 +1,15 @@
 ---
-title: "How to: Provide a Service | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: 'How to: Provide a Service | Microsoft Docs'
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "services, providing"
+- services, providing
 ms.assetid: 12bc1f12-47b1-44f6-b8db-862aa88d50d1
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # How to: Provide a service
 A VSPackage can provide services that other VSPackages can use. To provide a service, a VSPackage must register the service with Visual Studio and add the service.
