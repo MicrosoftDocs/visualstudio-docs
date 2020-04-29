@@ -15,10 +15,10 @@ ms.workload:
 # How to: Use the same target in multiple project files
 
 If you have authored several MSBuild project files, you might have discovered that you need to use the same tasks and targets in different project files. Instead of including the complete description of those tasks or targets in every project file, you can save a target in a separate project file and then import that project into any other project that needs to use the target.
+
 ## Use the Import element
 
- The `Import` element is used to insert one project file into another project file. The project file that is being imported must be a valid MSBuild project file and contain well-formed XML. The `Project` attribute specifies the path to the imported project file. For more information on the `Import` element, see [Import element (MSBuild)](../msbuild/import-element-msbuild.md).
- The `Import` element is used to insert one project file into another project file. The project file that is being imported must be a valid MSBuild project file and contain well-formed XML. The `Project` attribute specifies the path to the imported project file. For more information on the `Import` element, see [Import element (MSBuild)](../msbuild/import-element-msbuild.md).
+The `Import` element is used to insert one project file into another project file. The project file that is being imported must be a valid MSBuild project file and contain well-formed XML. The `Project` attribute specifies the path to the imported project file. For more information on the `Import` element, see [Import element (MSBuild)](../msbuild/import-element-msbuild.md).
 
 #### To import a project
 

@@ -67,8 +67,8 @@
 ## [Unity Game Development](/visualstudio/mac/unity-tools)
 ### [Setup](/visualstudio/mac/setup-vsmac-tools-unity)
 ### [Using Unity Tools](/visualstudio/mac/using-vsmac-tools-unity)
-### [Using .NET 4.x in Unity](/visualstudio/mac//visualstudio/cross-platform/unity-scripting-upgrade/?context=visualstudio/mac/context)
-### [Change Log](/visualstudio/mac//visualstudio/cross-platform/change-log-visual-studio-tools-for-unity-mac/?context=visualstudio/mac/context)
+### [Using .NET 4.x in Unity](/visualstudio/cross-platform/unity-scripting-upgrade/?context=visualstudio/mac/context)
+### [Change Log](/visualstudio/cross-platform/change-log-visual-studio-tools-for-unity-mac/?context=visualstudio/mac/context)
 ## [Mobile apps with Xamarin](/visualstudio/mac/xamarin)
 
 # [Accessibility](/visualstudio/mac/accessibility)
