@@ -21,6 +21,11 @@ For groups of users, you have choices for how you assign subscriptions.
 ## Add a single subscriber
 Here's how to assign a Visual Studio subscription to a new user so that they can access the subscription benefits.
 
+<br>
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4vpPh]
+
+
 1. Sign in to the [administration portal](https://manage.visualstudio.com).
 2. To assign a license to a single Visual Studio subscriber, at the top of the table, select **Add**, then choose **Individual subscriber**.
    > [!div class="mx-imgBorder"]
