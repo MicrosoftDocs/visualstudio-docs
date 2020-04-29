@@ -217,7 +217,25 @@ The best approach depends on your scenario. If you have a dedicated build server
 
 ## Customize all C++ builds
 
-For C++ projects, the previously mentioned custom `.targets` and `.props` files are ignored. For C++ projects, you can create `.targets` files for each platform and place them in the appropriate import folders for those platforms.
+For C++ projects, the previously mentioned custom *.targets* and *.props* files cannot be used in the same way to override default settings. *Directory.Build.props* is imported by *Microsoft.Common.props*, which is imported in `Microsoft.Cpp.Default.props` while most of the defaults are defined in *Microsoft.Cpp.props* and for a number of properties a "if not yet defined" condition cannot be used, as the property has been already defined, but the default needs to be different for particular project properties defined in PropertyGroup with Label="Configuration (see [.vcxproj and .props file structure](/cpp/build/reference/vcxproj-file-structure).
+
+But, you can use the following properties to specify .props file(s) to be automatically imported before/after *Microsoft.Cpp.\** files:
+
+ForceImportAfterCppDefaultProps
+ForceImportBeforeCppProps
+ForceImportAfterCppProps
+ForceImportBeforeCppTargets
+ForceImportAfterCppTargets
+
+To customize the default values of properties for all C++ builds, create another *.props* file (say, *MyProps.props*), and define the `ForceImportAfterCppProps` property in `Directory.Build.props` pointing to it:
+
+<PropertyGroup>
+  <ForceImportAfterCppProps>$(MsbuildThisFileDirectory)\MyProps.props<ForceImportAfterCppProps>
+</PropertyGroup>
+
+*MyProps.props* will be automatically imported at the very end of *Microsoft.Cpp.props*.
+
+Also, for C++ projects, you can create `.targets` files for each platform and place them in the appropriate import folders for those platforms.
 
 The `.targets` file for the Win32 platform, *Microsoft.Cpp.Win32.targets*, contains the following `Import` element:
 
