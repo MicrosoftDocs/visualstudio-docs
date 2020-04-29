@@ -373,7 +373,7 @@ In this walkthrough, you will create a simple Windows Presentation Foundation (W
  [MSDN Virtual Lab: Introduction to Creating Coded UI Tests with Visual Studio 2010](https://windows.microsoft.com/en-US/windows/products/windows-media-player)
 
 ### FAQ
- [Coded UI Tests FAQ - 1](https://blogs.msdn.com/b/mathew_aniyan/archive/tags/faq/)
+ [Coded UI Tests FAQ - 1](https://docs.microsoft.com/archive/blogs/mathew_aniyan/content-index-for-coded-ui-test)
 
  [Coded UI Tests FAQ -2](https://social.msdn.microsoft.com/Forums/en-US/vsautotest/thread/3a74dd2c-cef8-4923-abbf-7a91f489e6c4)
 

@@ -26,7 +26,7 @@ The Concurrency Visualizer helps developers to visualize the behavior of a multi
   
  As shown in the following illustration, the Concurrency Visualizer can also expose this symptom in the CPU Utilization View, where, despite the presence of multiple threads, the application consumes only one logical core.  
   
- For more information, see "Performance Pattern 1: Identifying Lock Contention" in Hazim Shafi's [Parallel Performance Tools For Windows](https://blogs.msdn.com/hshafi) blog on the MSDN blog Web site.  
+ For more information, see "Performance Pattern 1: Identifying Lock Contention" in Hazim Shafi's [Parallel Performance Tools For Windows](https://docs.microsoft.com/archive/blogs/hshafi/) blog on the MSDN blog Web site.  
   
  ![Lock Contention](../profiling/media/lockcontention-2.png "LockContention_2")  
   
