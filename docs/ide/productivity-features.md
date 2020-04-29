@@ -18,7 +18,7 @@ For information about helpful keyboard shortcuts, see [Productivity shortcuts](.
 
 Save time digging through menus by quickly searching for anything you need, including commands, settings, documentation, and install options. See keyboard shortcuts for commands within your search results in Visual Studio so you can memorize them more easily. 
 
-- **Mock code using task list**. If you don't have enough requirements to complete a piece of code, use Task List to track code comments that use tokens such as `TODO` and `HACK`, or custom tokens, and to manage shortcuts that take you directly to a predefined location in code. For more information, see [Use the Task List](../ide/using-the-task-list.md.
+- **Mock code using task list**. If you don't have enough requirements to complete a piece of code, use Task List to track code comments that use tokens such as `TODO` and `HACK`, or custom tokens, and to manage shortcuts that take you directly to a predefined location in code. For more information, see [Use the Task List](../ide/using-the-task-list.md.).
 
 - **Use Solution Explorer shortcuts**. If you're new to Visual Studio, these shortcuts will come in handy and save you time while you're coming up to speed on a new codebase. For the full list of shortcuts, see [Default keyboard shortcuts in Visual Studio](https://docs.microsoft.com/visualstudio/ide/default-keyboard-shortcuts-in-visual-studio?view=vs-2019#bkmk_solutionexplorerGLOBAL).
 
@@ -56,7 +56,7 @@ Write code more quickly by using the following features.
 
 - **Change brace formatting with Formatting/New Lines**. Use the **formatting**  options page to set options  for formatting code in the code editor, including new lines. For more information on how to use this setting in C#, see [Options dialog box: Text Editor > C# > Code Style > Formatting](https://docs.microsoft.com/visualstudio/ide/reference/options-text-editor-csharp-formatting?view=vs-2019). For C++, see [Set your C++ coding preferences in Visual Studio](https://docs.microsoft.com/cpp/ide/how-to-set-preferences?view=vs-2019). For Python, see [Format Python code](https://docs.microsoft.com/visualstudio/python/formatting-python-code?view=vs-2019).
 
-- **Change your indentation with Tabs**. Use custom editor settings, tailored to each codebase, to enforce consistent coding styles for multiple developers working on the same project across different editors and IDEs. Ensure your whole team follows the same language conventions, naming conventions, and formatting rules. Since these custom settings are portable and travel with your code, you can enforce coding styles even outside of Visual Studio.[Options, Text Editor, All Languages, Tabs](https://docs.microsoft.com/visualstudio/ide/reference/options-text-editor-all-languages-tabs#tabs).
+- **Change your indentation with Tabs**. Use custom editor settings, tailored to each codebase, to enforce consistent coding styles for multiple developers working on the same project across different editors and IDEs. Ensure your whole team follows the same language conventions, naming conventions, and formatting rules. Since these custom settings are portable and travel with your code, you can enforce coding styles even outside of Visual Studio. For more information, see [Options, Text Editor, All Languages, Tabs](https://docs.microsoft.com/visualstudio/ide/reference/options-text-editor-all-languages-tabs#tabs).
 
 ## Navigate within your code and the IDE
 
