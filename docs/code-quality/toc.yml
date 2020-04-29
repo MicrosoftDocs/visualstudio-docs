@@ -577,6 +577,8 @@
           href: ca2007.md
         - name: "CA2009: Do not call ToImmutableCollection on an ImmutableCollection value"
           href: ca2009.md
+        - name: "CA2011: Do not assign property within its setter"
+          href: ca2011.md
       - name: Security warnings
         items:
         - name: Overview
