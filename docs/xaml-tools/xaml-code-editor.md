@@ -2,6 +2,7 @@
 title: XAML code editor
 ms.date: 04/28/2020
 ms.topic: conceptual
+monikerRange: vs-2019
 author: TerryGLee
 ms.author: tglee
 manager: jillfra
