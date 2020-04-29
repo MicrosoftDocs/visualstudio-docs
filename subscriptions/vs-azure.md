@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: lank
 manager: lank
 ms.assetid: 872c5746-5357-4764-949b-aa525a0adf1a
-ms.date: 04/10/2020
+ms.date: 04/28/2020
 ms.topic: conceptual
 description:  Learn how to activate the Azure DevTest individual credit benefit included in your Visual Studio subscription.
 ---
@@ -36,10 +36,9 @@ As a Visual Studio subscriber, you can use Microsoft Azure at no extra charge.  
 
 0. Bookmark the [Azure portal](https://portal.azure.com) for easy access in the future.
 
-## Using Azure without a Visual Studio subscription
-When your Visual Studio subscription has ended, all the subscription benefits, including the monthly Azure dev/test individual credit are no longer available. To continue using Azure with a monthly credit, you will need to renew your subscription, purchase a new subscription, or transfer the Azure benefit to an active subscription that includes the Azure dev/test individual credit.  You can also choose to continue to use Azure without a monthly credit by converting your current Azure subscription to Pay-As-You-Go.
+## Maintain a subscription to use monthly credits
+If your Visual Studio subscription expires or is removed, all the subscription benefits, including the monthly Azure dev/test individual credit are no longer available. To continue using Azure with a monthly credit, you will need to renew your subscription, purchase a new subscription, or transfer the Azure benefit to an active subscription that includes the Azure dev/test individual credit.  
 
-### Continue using Azure with a monthly credit
 > [!IMPORTANT]
 > You must transfer your resources to another Azure subscription before your current Azure subscription is disabled or you will lose access to your data.  
 
@@ -49,24 +48,16 @@ There are several ways to continue using a monthly credit for Azure.  To save yo
 - **If someone in your organization purchases subscriptions for your organization**, [contact your Visual Studio subscription administrator](https://docs.microsoft.com/visualstudio/subscriptions/contact-my-admin) and request a subscription that provides the monthly credit that you need.  
 - **If you have another active Visual Studio subscription** at the same subscription level that’s associated with another Microsoft account, you may transfer the Azure benefit to another active Visual Studio subscription by [adding an alternate account](https://docs.microsoft.com/visualstudio/subscriptions/manage-vs-subscriptions#managing-my-profile) in the Visual Studio [subscriptions portal](https://my.visualstudio.com/subscriptions).  
 
-You can determine your subscription level needed by the level of Azure credit you are trying to replace.  
+Use the Eligibility table below to determine how many credits are included with each subscription type.  
 
-| Visual Studio Subscription Level | Monthly Azure Credit |
-|----------------------------------|----------------------|
-| Visual Studio Enterprise         | $150                 |
-| Visual Studio Professional       | $50                  |
-| Visual Studio Test Professional  | $50                  |
-| MSDN Platforms*                  | $100                 |
 
-*Subscribers with MSDN Platforms must contact an admin to request a new subscription be assigned to them. 
-
-### Continue using Azure without a monthly credit
+## Convert your Azure subscription to Pay-As-You-Go
 
 If you no longer need a Visual Studio subscription or credit but you want to continue using your Azure resources, [transfer your resources](https://docs.microsoft.com/azure/azure-resource-manager/management/move-resource-group-and-subscription) to another Azure subscription, or convert your Azure subscription to pay-as-you-go pricing by [removing your spending limit](https://docs.microsoft.com/azure/cost-management-billing/manage/spending-limit#remove-the-spending-limit-in-azure-portal). 
 
 If you don’t take one of these actions, your Azure subscription will be disabled and deleted 30 days after receiving the email notification.  
 
-### Have a question?
+## Have a question?
 If you have questions about transferring resources, removing spending limits, or other Azure topics, you can [submit an Azure support request](https://portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade/overview) in the Azure portal. 
 
 ## Eligibility
