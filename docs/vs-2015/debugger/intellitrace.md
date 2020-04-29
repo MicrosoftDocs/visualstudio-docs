@@ -180,7 +180,7 @@ You can spend less time debugging your application when you use IntelliTrace to 
  [Using saved IntelliTrace data](../debugger/using-saved-intellitrace-data.md)  
   
 ### Blogs  
- [Visual Studio ALM + Team Foundation Server](https://blogs.msdn.com/b/visualstudioalm)  
+ [Visual Studio ALM + Team Foundation Server](https://devblogs.microsoft.com/devops/welcome-to-the-visual-studio-alm-team-foundation-server-blog/)  
   
 ### Forums  
  [Visual Studio Diagnostics](https://social.msdn.microsoft.com/Forums/vsdebug)

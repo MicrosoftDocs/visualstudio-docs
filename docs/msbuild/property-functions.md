@@ -334,6 +334,10 @@ Output:
 -->
 ```
 
+## MSBuild condition functions
+
+The functions `Exists` and `HasTrailingSlash` are not property functions. They are available for use with the `Condition` attribute. See [MSBuild conditions](msbuild-conditions.md).
+
 ## See also
 
 - [MSBuild properties](../msbuild/msbuild-properties.md)
