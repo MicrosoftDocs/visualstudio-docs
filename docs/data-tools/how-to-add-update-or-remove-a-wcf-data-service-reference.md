@@ -34,7 +34,7 @@ You can use the **Connected Services** node in **Solution Explorer** to access t
 
 1. In **Solution Explorer**, right-click the name of the project to which you want to add the service, and then click **Add Service Reference**.
 
-The **Add Service Reference** dialog box appears.
+   The **Add Service Reference** dialog box appears.
 
 1. In the **Address** box, enter the URL for the service, and then click **Go** to search for the service. If the service implements user name and password security, you may be prompted for a user name and password.
 
@@ -56,7 +56,7 @@ The **Add Service Reference** dialog box appears.
 ::: moniker range=">=vs-2019"
 1. In **Solution Explorer**, choose the **Connected Services** node.
 
-   The **Connected Services** page opens.
+   The **Configure Services** tab opens.
 
 1. Choose **Microsoft WCF Web Service Reference Provider**.
 
@@ -85,13 +85,9 @@ The **Add Service Reference** dialog box appears.
 
 ::: moniker range="vs-2017"
 
-1. In **Solution Explorer**, choose the **Connected Services** node. 
+1. In **Solution Explorer**, right-click the name of the project to which you want to add the service, and then click **Add Service Reference**.
 
-   The **Connected Services** page opens.
-
-1. Choose **Microsoft WCF Web Service Reference Provider**.
-
-   The **Configure WCF Web Service Reference** dialog appears.
+    The **Add Service Reference** dialog box appears.
 
 1. Click **Discover**.
 
@@ -106,9 +102,13 @@ The **Add Service Reference** dialog box appears.
     A service client (proxy) generates, and metadata that describes the service is added to the *app.config* file.
 ::: moniker-end
 ::: moniker range=">=vs-2019"
-1. In **Solution Explorer**, right-click the name of the project to which you want to add the service, and then click **Add Service Reference**.
+1. In **Solution Explorer**, choose the **Connected Services** node. 
 
-    The **Add Service Reference** dialog box appears.
+   The **Configure Services** tab opens.
+
+1. Choose **Microsoft WCF Web Service Reference Provider**.
+
+   The **Configure WCF Web Service Reference** dialog appears.
 
 1. Click **Discover**.
 
