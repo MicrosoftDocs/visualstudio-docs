@@ -98,13 +98,12 @@ This section describes how to create a unit test project.
    Or, for an NUnit project, you might use the following code.
 
    ```csharp
-   using using NUnit.Framework;
+   using NUnit.Framework;
    using System.IO;
    using System;
 
    namespace HelloWorldTests
    {
-      [TestClass]
       public class Tests
       {
          private const string Expected = "Hello World!";
