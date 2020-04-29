@@ -17,7 +17,9 @@ manager: jillfra
 # DA0024: Excessive GC CPU Time
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-Rule Id|DA0024|  
+|||  
+|-|-|  
+|Rule Id|DA0024|  
 |Category|.NET Framework Usage|  
 |Profiling method|All|  
 |Message|% Time in GC is very high. There is an excessive amount of garbage collection overhead.|  
