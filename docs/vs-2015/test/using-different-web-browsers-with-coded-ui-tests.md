@@ -138,7 +138,7 @@ Coded UI tests can automate testing for web applications by recording your tests
  [Testing for Continuous Delivery with Visual Studio 2012 – Chapter 5: Automating System Tests](https://msdn.microsoft.com/library/jj159335.aspx)
 
 ### FAQ
- [Coded UI Tests FAQ - 1](https://blogs.msdn.com/b/mathew_aniyan/archive/tags/faq/)
+ [Coded UI Tests FAQ - 1](https://docs.microsoft.com/archive/blogs/mathew_aniyan/content-index-for-coded-ui-test)
 
  [Coded UI Tests FAQ -2](https://social.msdn.microsoft.com/Forums/en-US/vsautotest/thread/3a74dd2c-cef8-4923-abbf-7a91f489e6c4)
 
