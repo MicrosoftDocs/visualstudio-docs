@@ -80,10 +80,10 @@ To quickly iterate changes, you can start your application in a container. Then,
 
     ```csharp
     public Startup(IConfiguration configuration, IWebHostEnvironment webHostEnvironment)
-        {
-            Configuration = configuration;
-            Env = webHostEnvironment;
-        }
+    {
+        Configuration = configuration;
+        Env = webHostEnvironment;
+    }
     ```
 
    For more information, see [Razor file compilation in ASP.NET Core](/aspnet/core/mvc/views/view-compilation?view=aspnetcore-3.1).
