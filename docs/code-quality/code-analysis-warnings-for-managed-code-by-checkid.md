@@ -107,6 +107,7 @@ f1_keywords:
 - CA1506
 - CA1507
 - CA1508
+- CA1509
 - CA1600
 - CA1601
 - CA1700
@@ -377,6 +378,7 @@ The following table lists Code Analysis warnings for managed code by the CheckId
 | CA1506 | [CA1506: Avoid excessive class coupling](../code-quality/ca1506.md) | This rule measures class coupling by counting the number of unique type references that a type or method contains. |
 | CA1507 | [CA1507: Use nameof in place of string](../code-quality/ca1507.md) | A string literal is used as an argument where a `nameof` expression could be used. |
 | CA1508 | [CA1508: Avoid dead conditional code](../code-quality/ca1508.md) | A method has conditional code that always evaluates to `true` or `false` at runtime. This leads to dead code in the `false` branch of the condition. |
+| CA1509 | [CA1509: Invalid entry in code metrics configuration file](../code-quality/ca1509.md) | Code metrics rules, such as [CA1501](ca1501.md), [CA1502](ca1502.md), [CA1505](ca1505.md) and [CA1506](ca1506.md), supplied a configuration file named `CodeMetricsConfig.txt` that has an invalid entry. |
 | CA1600 | [CA1600: Do not use idle process priority](../code-quality/ca1600.md) | Do not set process priority to Idle. Processes that have System.Diagnostics.ProcessPriorityClass.Idle will occupy the CPU when it would otherwise be idle, and will therefore block standby. |
 | CA1601 | [CA1601: Do not use timers that prevent power state changes](../code-quality/ca1601.md) | Higher-frequency periodic activity will keep the CPU busy and interfere with power-saving idle timers that turn off the display and hard disks. |
 | CA1700 | [CA1700: Do not name enum values 'Reserved'](../code-quality/ca1700.md) | This rule assumes that an enumeration member that has a name that contains "reserved" is not currently used but is a placeholder to be renamed or removed in a future version. Renaming or removing a member is a breaking change. |

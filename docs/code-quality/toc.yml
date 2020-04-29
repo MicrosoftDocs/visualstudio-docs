@@ -432,6 +432,8 @@
           href: ca1507.md
         - name: "CA1508: Avoid dead conditional code"
           href: ca1508.md
+        - name: "CA1509: Invalid entry in code metrics configuration file"
+          href: ca1509.md
       - name: Mobility warnings
         items:
         - name: Overview
