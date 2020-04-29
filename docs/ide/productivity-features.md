@@ -20,7 +20,7 @@ Save time digging through menus by quickly searching for anything you need, incl
 
 - **Mock code using task list**. If you don't have enough requirements to complete a piece of code, use Task List to track code comments that use tokens such as `TODO` and `HACK`, or custom tokens, and to manage shortcuts that take you directly to a predefined location in code. For more information, see [Use the Task List](../ide/using-the-task-list.md.).
 
-- **Use Solution Explorer shortcuts**. If you're new to Visual Studio, these shortcuts will come in handy and save you time while you're coming up to speed on a new codebase. For the full list of shortcuts, see [Default keyboard shortcuts in Visual Studio](../ide/default-keyboard-shortcuts-in-visual-studio#bkmk_solutionexplorerGLOBAL).
+- **Use Solution Explorer shortcuts**. If you're new to Visual Studio, these shortcuts will come in handy and save you time while you're coming up to speed on a new codebase. For the full list of shortcuts, see [Default keyboard shortcuts in Visual Studio](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_solutionexplorerGLOBAL).
 
 - **[Identify and customize keyboard shortcuts in Visual Studio](../ide/identifying-and-customizing-keyboard-shortcuts-in-visual-studio.md)**. You can identify keyboard shortcuts for Visual Studio commands, customize those shortcuts, and export them for others to use. You can always find and change a keyboard shortcut in the Options dialog box.
 
@@ -54,9 +54,9 @@ Write code more quickly by using the following features.
 
 - **Use sample applications**. You can speed up application development by downloading and installing sample applications from [Microsoft Developer Network](https://code.msdn.microsoft.com/). You can also learn a particular technology or programming concept by downloading and exploring a Sample Pack for that area.
 
-- **Change brace formatting with Formatting/New Lines**. Use the **Formatting**  options page to set options  for formatting code in the code editor, including new lines. For more information on how to use this setting in C#, see [Options dialog box: Text Editor > C# > Code Style > Formatting](../ide/reference/options-text-editor-csharp-formatting.md). For C++, see [Set your C++ coding preferences in Visual Studio](../cpp/ide/how-to-set-preferences.md). For Python, see [Format Python code](../python/formatting-python-code.md).
+- **Change brace formatting with Formatting/New Lines**. Use the **Formatting**  options page to set options  for formatting code in the code editor, including new lines. For more information on how to use this setting in C#, see [Options dialog box: Text Editor > C# > Code Style > Formatting](../ide/reference/options-text-editor-csharp-formatting.md). For C++, see [Set your C++ coding preferences in Visual Studio](https://docs.microsoft.com/cpp/ide/how-to-set-preferences). For Python, see [Format Python code](../python/formatting-python-code.md).
 
-- **Change your indentation with Tabs**. Use custom editor settings, tailored to each codebase, to enforce consistent coding styles for multiple developers working on the same project across different editors and IDEs. Ensure your whole team follows the same language conventions, naming conventions, and formatting rules. Since these custom settings are portable and travel with your code, you can enforce coding styles even outside of Visual Studio. For more information, see [Options, Text Editor, All Languages, Tabs](../ide/reference/options-text-editor-all-languages-tabs#tabs).
+- **Change your indentation with Tabs**. Use custom editor settings, tailored to each codebase, to enforce consistent coding styles for multiple developers working on the same project across different editors and IDEs. Ensure your whole team follows the same language conventions, naming conventions, and formatting rules. Since these custom settings are portable and travel with your code, you can enforce coding styles even outside of Visual Studio. For more information, see [Options, Text Editor, All Languages, Tabs](../ide/reference/options-text-editor-all-languages-tabs.md#tabs).
 
 ## Navigate within your code and the IDE
 
@@ -72,7 +72,7 @@ You can use various techniques to find and move to specific locations in your co
 
 - **Browse the overall structure of your code**. In **Solution Explorer**, you can search and browse classes and their types and members in your projects. You can also search for symbols, view a method's Call Hierarchy, find symbol references, and perform other tasks. If you choose a code element in **Solution Explorer**, the associated file opens in a **Preview** tab, and the cursor moves to the element in the file. For more information, see [View the structure of code](../ide/viewing-the-structure-of-code.md).
 
-- **Jump to a location in a file with map mode**. Map mode displays lines of code, in miniature, on the scroll bar. For more information about this display mode, see [How to: Customize the scroll bar](../ide/how-to-track-your-code-by-customizing-the-scrollbar#map-mode).
+- **Jump to a location in a file with map mode**. Map mode displays lines of code, in miniature, on the scroll bar. For more information about this display mode, see [How to: Customize the scroll bar](../ide/how-to-track-your-code-by-customizing-the-scrollbar.md#map-mode).
 
 - **Understand your code structure with code map**. Code maps can help you  visualize dependencies across your code, and see how it fits together without reading through files and lines of code. For more information, see [Map dependencies with code maps](../modeling/map-dependencies-across-your-solutions.md).
 
