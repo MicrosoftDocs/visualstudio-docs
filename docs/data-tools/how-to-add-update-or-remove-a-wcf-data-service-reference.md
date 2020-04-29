@@ -62,6 +62,9 @@ You can use the **Connected Services** node in **Solution Explorer** to access t
 
    The **Configure WCF Web Service Reference** dialog appears.
 
+   ![Screenshot of WCF Web Service Provider dialog box](media/vs-2019/configure-wcf-web-service-reference-dialog.png)
+
+
 1. In the **URI** box, enter the URL for the service, and then click **Go** to search for the service. If the service implements user name and password security, you may be prompted for a user name and password.
 
     > [!NOTE]
