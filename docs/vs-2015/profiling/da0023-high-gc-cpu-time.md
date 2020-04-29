@@ -17,7 +17,9 @@ manager: jillfra
 # DA0023: High GC CPU time
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-Rule Id|DA0023|  
+|||  
+|-|-|  
+|Rule Id|DA0023|  
 |Category|.NET Framework Usage|  
 |Profiling method|All|  
 |Message|% Time in GC is fairly high. This indication of excessive amount of garbage collection overhead could be impacting the responsiveness of your application. You can gather .NET memory allocation data and object lifetime information to understand the pattern of memory allocation your application uses better.|  
