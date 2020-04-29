@@ -10,13 +10,13 @@ ms.workload:
 ---
 # Productivity guide for Visual Studio
 
-This guide discusses tips for developers to save time when writing code in Visual Studio. Instead of searching for documentation, shortcuts, and other resources, you can find useful information in one place. This guide focuses on Visual Studio in the following areas: general tips on getting started, writing code, navigation, debugging and error handling, and keybindings and shortcuts. 
+This guide discusses tips for developers to save time when writing code in Visual Studio. Instead of searching for documentation, shortcuts, and other resources, you can find useful information in one place. This guide focuses on Visual Studio in the following areas: general tips on getting started, writing code, navigation, debugging and error handling, and keyboard shortcuts. 
 
 For information about helpful keyboard shortcuts, see [Productivity shortcuts](../ide/productivity-shortcuts.md). For a complete list of command shortcuts, see [Default keyboard shortcuts](../ide/default-keyboard-shortcuts-in-visual-studio.md).
 
 ## Getting started
 
-Save time digging through menus by searching quickly and precisely for anything you need, including commands, settings, documentation, and install options. See keyboard shortcuts for commands within your search results in Visual Studio so you can memorize them more easily. 
+Save time digging through menus by quickly searching for anything you need, including commands, settings, documentation, and install options. See keyboard shortcuts for commands within your search results in Visual Studio so you can memorize them more easily. 
 
 - **Mock code using task list**. If you don't have enough requirements to complete a piece of code, use Task List to track code comments that use tokens such as `TODO` and `HACK`, or custom tokens, and to manage shortcuts that take you directly to a predefined location in code. For more information, see [Use the Task List](../ide/using-the-task-list.md.
 
@@ -36,7 +36,7 @@ Write code more quickly by using the following features.
 
 - **Use convenience commands**. Visual Studio contains various commands to help you accomplish common editing tasks faster. For example, you can choose a command to easily duplicate a line of code without having to copy it, reposition the cursor, and then paste it. Choose **Edit** > **Duplicate** or press **Ctrl**+**E**,**V**. You can also quickly expand or contract a selection of text by choosing **Edit** > **Advanced** > **Expand Selection** or **Edit** > **Advanced** > **Contract Selection**, or by pressing **Shift**+**Alt**+**=** or **Shift**+**Alt**+**-**.
 
-- **Use IntelliSense**. As you enter code in the editor, IntelliSense information, such as List Members, Parameter Info, Quick Info, Signature Help, and Complete Word, appears. These features support fuzzy matching of text; for example, the results lists for List Members includes not only entries that start with the characters that you have entered but also entries that contain the character combination anywhere in their names. For more information, see [Use IntelliSense](../ide/using-intellisense.md).
+- **Use IntelliSense**. As you enter code in the editor, IntelliSense information, such as List Members, Parameter Info, Quick Info, Signature Help, and Complete Word, appears. These features support fuzzy matching of text; for example, the results lists for List Members include not only entries that start with the characters that you have entered but also entries that contain the character combination anywhere in their names. For more information, see [Use IntelliSense](../ide/using-intellisense.md).
 
 - **Change auto-insertion of IntelliSense options as you enter code**. By switching IntelliSense to suggestion mode, you can specify that IntelliSense options are inserted only if you explicitly choose them.
 
@@ -54,9 +54,9 @@ Write code more quickly by using the following features.
 
 - **Use sample applications**. You can speed up application development by downloading and installing sample applications from [Microsoft Developer Network](https://code.msdn.microsoft.com/). You can also learn a particular technology or programming concept by downloading and exploring a Sample Pack for that area.
 
-- **Change brace formatting with Formatting/New Lines**. Use the **formatting**  options page to set options  for formatting code in the code editor, including new lines. For more information on how to do this in C#, see [Options dialog box: Text Editor > C# > Code Style > Formatting](https://docs.microsoft.com/visualstudio/ide/reference/options-text-editor-csharp-formatting?view=vs-2019). For C++, see [Set your C++ coding preferences in Visual Studio](https://docs.microsoft.com/cpp/ide/how-to-set-preferences?view=vs-2019). For Python, see [Format Python code](https://docs.microsoft.com/visualstudio/python/formatting-python-code?view=vs-2019).
+- **Change brace formatting with Formatting/New Lines**. Use the **formatting**  options page to set options  for formatting code in the code editor, including new lines. For more information on how to use this setting in C#, see [Options dialog box: Text Editor > C# > Code Style > Formatting](https://docs.microsoft.com/visualstudio/ide/reference/options-text-editor-csharp-formatting?view=vs-2019). For C++, see [Set your C++ coding preferences in Visual Studio](https://docs.microsoft.com/cpp/ide/how-to-set-preferences?view=vs-2019). For Python, see [Format Python code](https://docs.microsoft.com/visualstudio/python/formatting-python-code?view=vs-2019).
 
-- **Change your indentation with Tabs**. Use custom editor settings,tailored to each codebase, to enforce consistent coding styles for multiple developers working on the same project across different editors and IDEs. Ensure your whole team follows the same language conventions, naming conventions, and formatting rules. Since these custom settings are portable and travel with your code, you can enforce coding styles even outside of Visual Studio.[Options, Text Editor, All Languages, Tabs](https://docs.microsoft.com/visualstudio/ide/reference/options-text-editor-all-languages-tabs#tabs).
+- **Change your indentation with Tabs**. Use custom editor settings, tailored to each codebase, to enforce consistent coding styles for multiple developers working on the same project across different editors and IDEs. Ensure your whole team follows the same language conventions, naming conventions, and formatting rules. Since these custom settings are portable and travel with your code, you can enforce coding styles even outside of Visual Studio.[Options, Text Editor, All Languages, Tabs](https://docs.microsoft.com/visualstudio/ide/reference/options-text-editor-all-languages-tabs#tabs).
 
 ## Navigate within your code and the IDE
 
@@ -110,7 +110,7 @@ You can search across the IDE for commands, files, and options, in addition to f
 
 Debugging can consume a lot of time, but the following tips can help you speed up the process.
 
-- **Use the Visual Studio debugger tools**. In the Visual Studio context, when you *debug your app*, it usually means that you are running the application in debugger mode. When you do this, the debugger provides many ways to see what your code is doing while it runs. See [First look at the Visual Studio Debugger](../debugger/debugger-feature-tour.md) for a guide to getting started. 
+- **Use the Visual Studio debugger tools**. In the Visual Studio context, when you *debug your app*, it usually means that you are running the application in debugger mode. The debugger provides many ways to see what your code is doing while it runs. See [First look at the Visual Studio Debugger](../debugger/debugger-feature-tour.md) for a guide to getting started. 
 
 - **Test the same page, application, or site in different browsers**. As you debug your code, you can easily switch among the installed web browsers, including [Page Inspector (Visual Studio)](https://msdn.microsoft.com/Library/65880969-1ad2-47be-85b9-bb12c81bf209), without having to open the **Browse With** dialog box. You can use the **Debug Target** list, which is on the **Standard** toolbar next to the **Start Debugging** button, to quickly verify which browser you're using as you debug or view pages.
 
@@ -160,7 +160,7 @@ You can quickly access the Developer Command Prompt, or another Visual Studio to
 
 At any one time, you may be working in multiple code files and moving among several tool windows as you develop an application. You can keep organized by using the following tips:
 
-- **Keep files that you frequently use visible in the editor**. You can pin files to the left side of the tab well so that they remain visible regardless of how many files are open in the editor.
+- **Keep files that you frequently use visible in the editor**. You can pin files to the left side of the tab so that they remain visible regardless of how many files are open in the editor.
 
    To pin a file, choose the file's tab, and then choose the **Toggle Pin Status** button.
 
