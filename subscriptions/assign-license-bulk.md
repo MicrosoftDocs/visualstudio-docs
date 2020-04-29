@@ -103,7 +103,7 @@ Using this feature makes it easy to stay on top of your subscription assignments
 
 <br>
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4rvvW]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4vxNq]
 
 ## Frequently asked questions
 ### Q: Can I choose multiple subscription levels to be assigned within an Azure AD group? 
