@@ -23,7 +23,7 @@ Here's how to assign a Visual Studio subscription to a new user so that they can
 
 <br>
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4vpPh}
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4vpPh]
 
 
 1. Sign in to the [administration portal](https://manage.visualstudio.com).
