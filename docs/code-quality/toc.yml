@@ -575,6 +575,8 @@
           href: ca2006.md
         - name: "CA2007: Do not directly await a Task"
           href: ca2007.md
+        - name: "CA2009: Do not call ToImmutableCollection on an ImmutableCollection value"
+          href: ca2009.md
       - name: Security warnings
         items:
         - name: Overview
