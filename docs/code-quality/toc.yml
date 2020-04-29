@@ -332,6 +332,10 @@
           href: ca1064.md
         - name: "CA1065: Do not raise exceptions in unexpected locations"
           href: ca1065.md
+        - name: "CA1066: Implement IEquatable when overriding Equals"
+          href: ca1066.md
+        - name: "CA1067: Override Equals when implementing IEquatable"
+          href: ca1067.md
         - name: "CA1068: CancellationToken parameters must come last"
           href: ca1068.md
         - name: "CA2210: Assemblies should have valid strong names"
@@ -426,6 +430,8 @@
           href: ca1506.md
         - name: "CA1507: Use nameof in place of string"
           href: ca1507.md
+        - name: "CA1508: Avoid dead conditional code"
+          href: ca1508.md
       - name: Mobility warnings
         items:
         - name: Overview
@@ -531,6 +537,14 @@
           href: ca1824.md
         - name: "CA1825: Avoid zero-length array allocations"
           href: ca1825.md
+        - name: "CA1826: Use property instead of Linq Enumerable method"
+          href: ca1826.md
+        - name: "CA1827: Do not use Count/LongCount when Any can be used"
+          href: ca1827.md
+        - name: "CA1828: Do not use CountAsync/LongCountAsync when AnyAsync can be used"
+          href: ca1828.md
+        - name: "CA1829: Use Length/Count property instead of Enumerable.Count method"
+          href: ca1829.md
       - name: Portability warnings
         items:
         - name: Overview
@@ -561,6 +575,8 @@
           href: ca2006.md
         - name: "CA2007: Do not directly await a Task"
           href: ca2007.md
+        - name: "CA2009: Do not call ToImmutableCollection on an ImmutableCollection value"
+          href: ca2009.md
       - name: Security warnings
         items:
         - name: Overview
