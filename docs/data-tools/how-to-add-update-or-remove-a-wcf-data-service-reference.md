@@ -54,7 +54,7 @@ You can use the **Connected Services** node in **Solution Explorer** to access t
      A service client (proxy) is generated, and metadata that describes the service is added to the *app.config* file.
 ::: moniker-end
 ::: moniker range=">=vs-2019"
-1. In **Solution Explorer**, choose the **Connected Services** node.
+1. In **Solution Explorer**, double-click or tap the **Connected Services** node.
 
    The **Configure Services** tab opens.
 
@@ -102,7 +102,7 @@ You can use the **Connected Services** node in **Solution Explorer** to access t
     A service client (proxy) generates, and metadata that describes the service is added to the *app.config* file.
 ::: moniker-end
 ::: moniker range=">=vs-2019"
-1. In **Solution Explorer**, choose the **Connected Services** node. 
+1. In **Solution Explorer**, double-click or tap the **Connected Services** node. 
 
    The **Configure Services** tab opens.
 
