@@ -10,6 +10,8 @@ dev_langs:
 helpviewer_keywords:
 - MSBuild, conditions
 - conditions [MSBuild]
+- Exists, MSBuild condition function
+- HasTrailingSlash, MSBuild condition function
 ms.assetid: 9d7aa308-b667-48ed-b4c9-a61e49eb0a85
 author: ghogen
 ms.author: ghogen
