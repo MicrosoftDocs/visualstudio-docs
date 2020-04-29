@@ -863,5 +863,7 @@
           href: ca2242.md
         - name: "CA2243: Attribute string literals should parse correctly"
           href: ca2243.md
+        - name: "CA2245: Do not assign a property to itself"
+          href: ca2245.md
       - name: Automatic feature suspension
         href: automatic-feature-suspension.md
