@@ -3,6 +3,7 @@ title: Signing in to Visual Studio Subscriptions May Fail When Using Aliases | M
 author: evanwindom
 ms.author: lank
 manager: lank
+ms.assetid: 97bf7474-c6c2-49b3-b2c9-f1b2808eed1a
 ms.date: 03/02/2020
 ms.topic: conceptual
 description: Sign-in may fail if aliases or friendly names are used
@@ -14,7 +15,7 @@ Depending on the account type used to sign in, available subscriptions may not b
 ## What is aliasing?
 The term “aliasing” refers to users having different identities to sign in to Windows (or your Active Directory) and to access email.
 
-Aliasing can be encountered when a company has a Microsoft Online Service for their directory sign-in, like 'JohnD@contoso.com', but users access their email accounts using aliases or friendly names, such as 'John.Doe@contoso.com'. For many customers who manage their subscriptions through the Volume Licensing Service Center (VLSC), this can result in an unsuccessful sign-in experience as the email address provided ('John.Doe@contoso.com') does not match the directory address ('JohnD@contoso.com') required for successful authentication through the “Work or School Account” option.  Make sure your users are using the “Sign-in Email Address” as listed in the admin portal at https://manage.visualstudio.com to access their subscriptions. 
+Aliasing can be encountered when a company has a Microsoft Online Service for their directory sign-in, like 'JohnD@contoso.com', but users access their email accounts using aliases or friendly names, such as 'John.Doe@contoso.com'. Make sure your users are using the “Sign-in Email Address” as listed in the admin portal at https://manage.visualstudio.com to access their subscriptions. 
 
 ## What are the potential issues?
 
@@ -34,7 +35,7 @@ A UPN mismatch can be encountered when a company has an Active Directory set up 
 
 #### How to fix a UPN mismatch
 
-1. Access the Visual Studio Administration Management portal https://manage.visualstudio.com 
+1. Access the Visual Studio Administration Management portal [https://manage.visualstudio.com](https://manage.visualstudio.com) 
 
 2. Locate the subscriber having the UPN mismatch issue. (The [Filter](search-license.md) feature can make it easy to find a subscriber.)
 
@@ -50,7 +51,7 @@ Personal subscription accounts can also experience issues if the email address u
 
 #### How to detect if your personal subscription account is impacted by an aliasing issue
 
-1. Sign in to https://my.visualstudio.com/subscriptions
+1. Sign in to [https://my.visualstudio.com/subscriptions](https://my.visualstudio.com/subscriptions)
 
 0. Verify that the sign-in email address listed at the top right of the page matches the address you used to sign in.  If the signed-in email address is not the same as the email address used to access the website there is a conflict between your account and the alias.
 
@@ -76,7 +77,7 @@ As an administrator, there are two options to ensure your subscribers have a suc
 - The second option (less secure), is to allow your subscribers to sign in using a different email address than their directory email address.
 
 Both of these options are configured in the admin portal by completing the following steps:  
-1. Sign into https://manage.visualstudio.com 
+1. Sign into [https://manage.visualstudio.com](https://manage.visualstudio.com) 
 
 0. If you are altering a single user, select that user in the table and right click to edit. This will open a panel where you can modify the sign-in email address. Make the necessary updates in the sign-in email address field. Click save and the changes will take effect.  
 

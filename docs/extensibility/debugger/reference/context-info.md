@@ -1,20 +1,20 @@
 ---
-title: "CONTEXT_INFO | Microsoft Docs"
-ms.date: "11/04/2016"
+title: CONTEXT_INFO | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "CONTEXT_INFO"
+- CONTEXT_INFO
 helpviewer_keywords:
-  - "CONTEXT_INFO structure"
+- CONTEXT_INFO structure
 ms.assetid: 6b513f4e-e7b0-4969-adf0-2205ccc1e09b
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # CONTEXT_INFO
 This structure describes a memory context or code context.

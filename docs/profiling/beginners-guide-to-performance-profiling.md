@@ -20,7 +20,7 @@ ms.workload:
 ---
 # Measure application performance by analyzing CPU usage
 
-You can use Visual Studio profiling tools to analyze performance issues in your application. This procedure shows how to use **CPU Usage** tab of the Diagnostics Tools to obtain performance data for your app.
+You can use Visual Studio profiling tools to analyze performance issues in your application. This article shows how to use **CPU Usage** tab of the Diagnostics Tools to obtain performance data for your app.
 
 When the debugger pauses, the **CPU Usage** tool collects information about the functions that are executing in your application. The tool lists the functions that were performing work, and provides a timeline graph you can use to focus on specific segments of the sampling session.
 
@@ -29,7 +29,7 @@ The Diagnostic hub offers you a lot of other options to run and manage your diag
 > [!Important]
 > The Diagnostics Tools are supported for .NET development in Visual Studio, including ASP.NET, and for native/C++ development.
 
-In this article, we'll discuss analyzing CPU usage in your normal debugging workflow. You can also analyze CPU usage without a debugger attached or by targeting a running app - for more information see [Collect profiling data without debugging](../profiling/running-profiling-tools-with-or-without-the-debugger.md#collect-profiling-data-without-debugging) in [Run profiling tools with or without the debugger](../profiling/running-profiling-tools-with-or-without-the-debugger.md).
+In this article, we'll discuss analyzing CPU usage in your normal debugging workflow. You can also analyze CPU usage without a debugger attached or by targeting a running app. For more information, see [Run profiling tools with or without the debugger](../profiling/running-profiling-tools-with-or-without-the-debugger.md). You can also use another profiling tool, [PerfTips](../profiling/perftips.md), to step through code and identify how long it takes particular functions or code blocks to complete.
 
 You can use the profiling tools without the debugger with Windows 7 and later. Windows 8 and later is required to run profiling tools with the debugger (**Diagnostic Tools** window).
 
@@ -45,8 +45,7 @@ In this tutorial, you will:
 
 2. Set a second breakpoint at the end of the function or region of code that you want to analyze.
 
-    > [!TIP]
-    > By setting two breakpoints, you can limit data collection to the parts of code that you want to analyze.
+    By setting two breakpoints, you can limit data collection to the parts of code that you want to analyze.
 
 3. The **Diagnostic Tools** window appears automatically unless you have turned it off. To bring up the window again, click **Debug** > **Windows** > **Show Diagnostic Tools**.
 
@@ -89,6 +88,9 @@ In this tutorial, you will:
      ![Diagnostics Tools Selecting a Time Segment](../profiling/media/diag-tools-select-time-segment.png "DiagToolsSelectTimeSegment")
 
      At this point, you can begin to analyze the data.
+
+     > [!TIP]
+     >  When trying to identify performance issues, take multiple measurements. Performance naturally varies from run-to-run, and code paths typically execute slower the first time they run due to one-time initialization work such as loading DLLs, JIT compiling methods, and initializing caches. By taking multiple measurements, you get a better idea of the range and median of the metric being shown, whichs allow you to compare the first time versus the steady state performance of an area of code.
 
 ## Step 2: Analyze CPU usage data
 

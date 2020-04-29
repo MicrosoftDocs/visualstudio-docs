@@ -49,7 +49,7 @@ Here is a sample.xml to modify:
 </Package>
 ```
 
-In this example, if you want to modify `/Package/mp:PhoneIdentity/PhonePublisherId`, then use
+In this example, if you want to modify `/Package/mp:PhoneIdentity/PhoneProductId`, then use
 
 ```xml
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">

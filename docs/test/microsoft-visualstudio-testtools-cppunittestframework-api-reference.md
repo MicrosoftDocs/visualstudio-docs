@@ -96,7 +96,7 @@ Header and lib paths are automatically configured in a Native Test project.
 TEST_CLASS(className)
 ```
 
-Required for each class containing test methods. Identifies *className* as a test class. `TEST_CLASS` must be declared at namescape scope.
+Required for each class containing test methods. Identifies *className* as a test class. `TEST_CLASS` must be declared at namespace scope.
 
 ```cpp
 TEST_METHOD(methodName)

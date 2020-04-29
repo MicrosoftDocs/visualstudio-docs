@@ -1,20 +1,20 @@
 ---
-title: "IDebugEngineProgram2::WatchForExpressionEvaluationOnThread | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugEngineProgram2::WatchForExpressionEvaluationOnThread | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugEngineProgram2::WatchForExpressionEvaluationOnThread"
+- IDebugEngineProgram2::WatchForExpressionEvaluationOnThread
 helpviewer_keywords:
-  - "IDebugEngineProgram2::WatchForExpressionEvaluationOnThread"
+- IDebugEngineProgram2::WatchForExpressionEvaluationOnThread
 ms.assetid: 01d05e77-8cac-4d1b-b19f-25756767ed27
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugEngineProgram2::WatchForExpressionEvaluationOnThread
 Allows (or disallows) expression evaluation to occur on the given thread, even if the program has stopped.

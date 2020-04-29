@@ -1,20 +1,20 @@
 ---
-title: "IDebugMethodField::GetGlobalContainer | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugMethodField::GetGlobalContainer | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugMethodField::GetGlobalContainer"
+- IDebugMethodField::GetGlobalContainer
 helpviewer_keywords:
-  - "IDebugMethodField::GetGlobalContainer method"
+- IDebugMethodField::GetGlobalContainer method
 ms.assetid: 041ac5aa-0b80-4310-b9ae-b88f8e7e0e5f
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugMethodField::GetGlobalContainer
 Gets the global container of the method.

@@ -1,17 +1,17 @@
 ---
-title: "Stack Frames | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Stack Frames | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "stack frames, debugging"
-  - "debugging [Debugging SDK], stack frames"
-  - "stack frames"
+- stack frames, debugging
+- debugging [Debugging SDK], stack frames
+- stack frames
 ms.assetid: b5e439d4-1e9d-4e13-9cad-bb8b136d4ca8
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Stack frames
 In the debugger architecture, a *stack frame*:

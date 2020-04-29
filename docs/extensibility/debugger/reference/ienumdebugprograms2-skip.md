@@ -1,20 +1,20 @@
 ---
-title: "IEnumDebugPrograms2::Skip | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IEnumDebugPrograms2::Skip | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IEnumDebugPrograms2::Skip"
+- IEnumDebugPrograms2::Skip
 helpviewer_keywords:
-  - "IEnumDebugPrograms2::Skip"
+- IEnumDebugPrograms2::Skip
 ms.assetid: b283858b-b375-4760-bfec-ab37de89958d
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IEnumDebugPrograms2::Skip
 Skips over the specified number of elements.

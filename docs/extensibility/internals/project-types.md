@@ -1,16 +1,16 @@
 ---
-title: "Project Types | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Project Types | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "project types, adding"
-  - "projects [Visual Studio SDK], adding new types"
+- project types, adding
+- projects [Visual Studio SDK], adding new types
 ms.assetid: 263a084f-f97a-4e09-add7-f0e8a6a27daf
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Project Types
 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] includes several project types for languages such as [!INCLUDE[csprcs](../../data-tools/includes/csprcs_md.md)] and [!INCLUDE[vbprvb](../../code-quality/includes/vbprvb_md.md)]. [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] also lets you create your own project types.

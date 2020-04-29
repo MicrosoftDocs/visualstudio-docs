@@ -1,9 +1,10 @@
 ---
 title: EMS Benefit | Microsoft Docs
 author: evanwindom
-ms.author: lank
+ms.author: v-evwin
 manager: lank
-ms.date: 11/13/2019
+ms.assetid: bada7a96-a969-4459-a2ac-7f253149d925
+ms.date: 03/25/2020
 ms.topic: conceptual
 description:  Learn about the Enterprise Mobility + Security benefit included in your Visual Studio subscription.
 ---
@@ -42,6 +43,12 @@ Not sure which subscription you're using?  Connect to [https://my.visualstudio.c
 - For technical support with any component of EMS, please visit the [EMS Support FAQ](https://docs.microsoft.com/enterprise-mobility-security/solutions/ems-support-faq) to find the right support for your question.
 - For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, contact Visual Studio [Subscriptions Support](https://visualstudio.microsoft.com/subscriptions/support/).
 - Have a question about Visual Studio IDE, Azure DevOps Services or other Visual Studio products or services?  Visit [Visual Studio Support](https://visualstudio.microsoft.com/support/).
+
+## See also
+- [Visual Studio documentation](https://docs.microsoft.com/visualstudio/)
+- [Azure DevOps documentation](https://docs.microsoft.com/azure/devops/)
+- [Azure documentation](https://docs.microsoft.com/azure/)
+- [Microsoft 365 documentation](https://docs.microsoft.com/microsoft-365/)
 
 ## Next steps
 If you haven't already activated the Azure DevTest individual credit benefit that comes with your subscription, visit [https://my.visualstudio.com/benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs) and click on the Azure tile in the Tools category to set up your Azure subscription and redeem your Azure DevTest individual credit.

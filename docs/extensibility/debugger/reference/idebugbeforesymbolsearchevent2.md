@@ -1,15 +1,15 @@
 ---
-title: "IDebugBeforeSymbolSearchEvent2 | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugBeforeSymbolSearchEvent2 | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
-  - "IDebugBeforeSymbolSearchEvent2 interface"
+- IDebugBeforeSymbolSearchEvent2 interface
 ms.assetid: 679fd7b1-765a-41a8-a046-63240c09a499
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # IDebugBeforeSymbolSearchEvent2
 The debug engine (DE) sends this interface to the session debug manager (SDM) to set the status bar message during symbol loads.

@@ -1,17 +1,17 @@
 ---
-title: "Getting Started with Debugger Extensibility | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Getting Started with Debugger Extensibility | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "getting started, Debugging SDK"
-  - "debugging [Debugging SDK], getting started"
-  - "Debugging SDK, getting started"
+- getting started, Debugging SDK
+- debugging [Debugging SDK], getting started
+- Debugging SDK, getting started
 ms.assetid: d6ce6f43-1409-4bf7-93cd-f3464ca23504
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Get started with debugger extensibility
 The [!INCLUDE[vsipsdk](../../extensibility/includes/vsipsdk_md.md)] provides the information that you need to create and customize debugger components used to debug programs from within the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] environment.

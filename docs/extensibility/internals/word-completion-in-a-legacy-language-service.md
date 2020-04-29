@@ -1,17 +1,17 @@
 ---
-title: "Word Completion in a Legacy Language Service | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Word Completion in a Legacy Language Service | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "language services [managed package framework], IntelliSense Complete Word"
-  - "IntelliSense, Complete Word"
-  - "Complete Word"
+- language services [managed package framework], IntelliSense Complete Word
+- IntelliSense, Complete Word
+- Complete Word
 ms.assetid: 0ace5ac3-f9e1-4e6d-add4-42967b1f96a6
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Word Completion in a Legacy Language Service
 Word completion fills in the missing characters on a partially typed word. If there is only one possible completion, the word is completed when the completion character is entered. If the partial word matches more than one possibility, a list of possible completions is displayed. A completion character can be any character that is not used for identifiers.

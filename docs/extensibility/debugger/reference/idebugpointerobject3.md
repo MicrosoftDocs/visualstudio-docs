@@ -1,15 +1,15 @@
 ---
-title: "IDebugPointerObject3 | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugPointerObject3 | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
-  - "IDebugPointerObject3 interface"
+- IDebugPointerObject3 interface
 ms.assetid: 11d26af4-1079-435e-96fa-d5269cbea8eb
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # IDebugPointerObject3
 > [!IMPORTANT]

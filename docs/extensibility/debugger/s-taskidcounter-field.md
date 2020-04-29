@@ -1,15 +1,15 @@
 ---
-title: "s_taskIdCounter Field | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: s_taskIdCounter Field | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "m_taskIdCounter field, Task class [.NET Framework debug engines]"
+- m_taskIdCounter field, Task class [.NET Framework debug engines]
 ms.assetid: 7e5a1907-c652-4046-b207-d2f1ef7b8029
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # s_taskIdCounter Field
 The next available identifier for a <xref:System.Threading.Tasks.Task> object.

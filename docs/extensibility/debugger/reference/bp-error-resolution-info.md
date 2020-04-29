@@ -1,20 +1,20 @@
 ---
-title: "BP_ERROR_RESOLUTION_INFO | Microsoft Docs"
-ms.date: "11/04/2016"
+title: BP_ERROR_RESOLUTION_INFO | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "BP_ERROR_RESOLUTION_INFO"
+- BP_ERROR_RESOLUTION_INFO
 helpviewer_keywords:
-  - "BP_ERROR_RESOLUTION_INFO structure"
+- BP_ERROR_RESOLUTION_INFO structure
 ms.assetid: a6b83242-5728-4716-80f3-840c96d59c6c
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # BP_ERROR_RESOLUTION_INFO
 Describes the resolution of an error breakpoint, including location, program, and thread.

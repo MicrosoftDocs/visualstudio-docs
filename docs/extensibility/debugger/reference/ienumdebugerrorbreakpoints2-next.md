@@ -1,20 +1,20 @@
 ---
-title: "IEnumDebugErrorBreakpoints2::Next | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IEnumDebugErrorBreakpoints2::Next | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IEnumDebugErrorBreakpoints2::Next"
+- IEnumDebugErrorBreakpoints2::Next
 helpviewer_keywords:
-  - "IEnumDebugErrorBreakpoints2::Next"
+- IEnumDebugErrorBreakpoints2::Next
 ms.assetid: 6a3dee11-5267-4d77-9e28-6a38413ba70b
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IEnumDebugErrorBreakpoints2::Next
 Returns the next set of elements from the enumeration.

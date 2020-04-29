@@ -1,17 +1,17 @@
 ---
-title: "CustomDataSignature Element (Visual Studio Templates) | Microsoft Docs"
-ms.date: "11/04/2016"
+title: CustomDataSignature Element (Visual Studio Templates) | Microsoft Docs
+ms.date: 11/04/2016
 ms.technology: vs-ide-general
 ms.topic: reference
 helpviewer_keywords:
-  - "<CustomDataSignature> Element (Visual Studio Templates)"
-  - "CustomDataSignature Element (Visual Studio Templates)"
+- <CustomDataSignature> Element (Visual Studio Templates)
+- CustomDataSignature Element (Visual Studio Templates)
 ms.assetid: 8c3db51d-7014-4484-802a-15aa1353dbdb
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # CustomDataSignature element (Visual Studio templates)
 Specifies the text signature to locate the custom data.

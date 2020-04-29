@@ -1,17 +1,17 @@
 ---
-title: "IDebugSymbolProvider | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugSymbolProvider | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugSymbolProvider"
+- IDebugSymbolProvider
 helpviewer_keywords:
-  - "IDebugSymbolProvider interface"
+- IDebugSymbolProvider interface
 ms.assetid: df5f095f-1dee-46f9-84cf-92417c71d5fb
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # IDebugSymbolProvider
 This interface represents a symbol provider that provides symbols and types, returning them as fields.

@@ -1,20 +1,20 @@
 ---
-title: "IEEVisualizerDataProvider::CanSetObjectForVisualizer | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IEEVisualizerDataProvider::CanSetObjectForVisualizer | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IEEVisualizerDataProvider::CanSetObjectForVisualizer"
+- IEEVisualizerDataProvider::CanSetObjectForVisualizer
 helpviewer_keywords:
-  - "IEEVisualizerDataProvider::CanSetObjectForVisualizer method"
+- IEEVisualizerDataProvider::CanSetObjectForVisualizer method
 ms.assetid: 70fd3c6f-2f82-43a3-993b-c1dc8aa080bf
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IEEVisualizerDataProvider::CanSetObjectForVisualizer
 This method determines whether the visualizer can have the data object it represents updated.

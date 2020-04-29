@@ -1,15 +1,15 @@
 ---
-title: "Managing Side-by-Side File Associations | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Managing Side-by-Side File Associations | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "verbs, setting default"
+- verbs, setting default
 ms.assetid: 9b6df3bc-d15c-4a5d-9015-948a806193b7
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 
 # Manage side-by-side file associations

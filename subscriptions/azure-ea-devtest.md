@@ -3,6 +3,7 @@ title: Azure Enterprise Agreement DevTest offer
 author: evanwindom
 ms.author: lank
 manager: lank
+ms.assetid: a335ed23-34ee-40cb-83c6-6c93dee57424
 ms.date: 02/23/2020
 ms.topic: conceptual
 description:  Learn how to take advantage of special Azure DevTest pricing available to customers with Enterprise Agreements
@@ -20,7 +21,7 @@ A [tutorial video](https://channel9.msdn.com/blogs/EA.Azure.com/Enabling-and-Cre
 
 ## Enable offers in the EA Portal
 To enable the offers:
-1. Sign in to https://ea.azure.com/manage.
+1. Sign in to [https://ea.azure.com/manage](https://ea.azure.com/manage).
 0. Click the **Account** menu.
 0. Locate the account for which you want to enable offers.  If you have numerous accounts, you may wish to use the **Search** to quickly locate the account. 
 0. Hover over the name of the account. 
@@ -30,7 +31,7 @@ To enable the offers:
 
 ## Create individual subscriptions within the account
 Each subscriber on the account can create a subscription by following these steps:
-1. Sign in to https://account.windowsazure.com/signup?showCatalogs=True.
+1. Sign in to [https://account.windowsazure.com/signup?showCatalogs=True](https://account.windowsazure.com/signup?showCatalogs=True).
 0. Choose the **Enterprise Dev/Test** offer.
 0. Click the check box to acknowledge that the subscription is governed by the Enterprise Agreement. 
 0. Click **Purchase**.  (With this offer, you're not actually purchasing anything.)

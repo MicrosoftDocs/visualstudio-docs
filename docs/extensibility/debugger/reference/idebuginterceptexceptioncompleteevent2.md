@@ -1,17 +1,17 @@
 ---
-title: "IDebugInterceptExceptionCompleteEvent2 | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugInterceptExceptionCompleteEvent2 | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugInterceptExceptionCompleteEvent2"
+- IDebugInterceptExceptionCompleteEvent2
 helpviewer_keywords:
-  - "IDebugInterceptExceptionCompleteEvent2"
+- IDebugInterceptExceptionCompleteEvent2
 ms.assetid: 8ebc256b-5428-4ed6-a505-6aedc8242b8e
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # IDebugInterceptExceptionCompleteEvent2
 This interface is sent by the debug engine (DE) to the session debug manager (SDM) when the DE has completed the handling of an intercepted event.

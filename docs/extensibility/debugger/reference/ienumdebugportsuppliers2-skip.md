@@ -1,20 +1,20 @@
 ---
-title: "IEnumDebugPortSuppliers2::Skip | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IEnumDebugPortSuppliers2::Skip | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IEnumDebugPortSuppliers2::Skip"
+- IEnumDebugPortSuppliers2::Skip
 helpviewer_keywords:
-  - "IEnumDebugPortSuppliers2::Skip"
+- IEnumDebugPortSuppliers2::Skip
 ms.assetid: bd95d7e9-274f-485d-8bf6-865306ae1b81
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IEnumDebugPortSuppliers2::Skip
 Skips over the specified number of elements.

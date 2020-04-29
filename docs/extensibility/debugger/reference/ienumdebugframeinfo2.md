@@ -1,17 +1,17 @@
 ---
-title: "IEnumDebugFrameInfo2 | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IEnumDebugFrameInfo2 | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IEnumDebugFrameInfo2"
+- IEnumDebugFrameInfo2
 helpviewer_keywords:
-  - "IEnumDebugFrameInfo2"
+- IEnumDebugFrameInfo2
 ms.assetid: 994e30ad-435a-4f9e-9272-d96d9e01099c
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # IEnumDebugFrameInfo2
 This interface enumerates [FRAMEINFO](../../../extensibility/debugger/reference/frameinfo.md) structures.

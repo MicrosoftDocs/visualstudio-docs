@@ -1,16 +1,16 @@
 ---
-title: "Test Area 5: Change Source Control | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: 'Test Area 5: Change Source Control | Microsoft Docs'
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "source control [Visual Studio SDK], changing"
-  - "source control plug-ins, changing source control"
+- source control [Visual Studio SDK], changing
+- source control plug-ins, changing source control
 ms.assetid: fdf09e00-108c-4d51-bbd5-72452d52a490
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Test Area 5: Change Source Control
 This source-control plug-in test area covers changing the source control via the **Change Source Control** command.

@@ -1,20 +1,20 @@
 ---
-title: "IDebugCustomAttributeQuery2::GetCustomAttributeByName | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugCustomAttributeQuery2::GetCustomAttributeByName | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugCustomAttributeQuery2::GetCustomAttributeByName"
+- IDebugCustomAttributeQuery2::GetCustomAttributeByName
 helpviewer_keywords:
-  - "IDebugCustomAttributeQuery2::GetCustomAttributeByName"
+- IDebugCustomAttributeQuery2::GetCustomAttributeByName
 ms.assetid: 7428dfeb-8929-41b2-9b99-cb343a86c02d
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugCustomAttributeQuery2::GetCustomAttributeByName
 Obtains the custom attributes bytes given the name of the custom attribute.

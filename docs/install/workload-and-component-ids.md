@@ -6,7 +6,7 @@ keywords:
 author: ornellaalt
 ms.author: ornella
 manager: jillfra
-ms.date: 12/03/2019
+ms.date: 03/16/2020
 ms.topic: reference
 helpviewer_keywords:
 - workload ID, Visual Studio
@@ -16,6 +16,7 @@ ms.custom: seodec18
 ms.assetid: 34e19ef1-abfb-44fd-aad2-33c5d7874482
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
+open_to_public_contributors: false
 ---
 # Visual Studio workload and component IDs
 
@@ -44,7 +45,7 @@ For more information about how to use these lists, see the [Use command-line par
 
 ::: moniker range="vs-2019"
 
-**Updated for the [16.4 release](/visualstudio/releases/2019/release-notes/)**
+**Updated for the [16.5 release](/visualstudio/releases/2019/release-notes/)**
 
 | **Edition** | **ID** | **Description** |
 | ----------- | ------ | --------------- |

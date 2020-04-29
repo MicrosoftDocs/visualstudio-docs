@@ -1,15 +1,15 @@
 ---
-title: "Capability Flags | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Capability Flags | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "source control plug-ins, capability flags"
+- source control plug-ins, capability flags
 ms.assetid: a3f6071c-eac8-4bcd-8ffd-8d0a2d24a252
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Capability flags
 The SCC_CAP_*xxx* flags are bit flags used to indicate the capabilities of a source control plug-in. The SCC_EXCAP_*xxx* flags are incremental flags that indicate extended capabilities and resolve to integer values.

@@ -1,12 +1,13 @@
 ---
 title: Move variable declaration near reference
-ms.date: 01/26/2018
+ms.date: 03/10/2020
 ms.topic: reference
-author: TerryGLee
-ms.author: tglee
+author: mikadumont
+ms.author: midumont
 manager: jillfra
 dev_langs:
 - CSharp
+- VB
 ms.workload:
 - dotnet
 ---
@@ -15,6 +16,8 @@ ms.workload:
 This refactoring applies to:
 
 - C#
+
+- Visual Basic
 
 **What:** Lets you move variable declarations closer to their usage.
 

@@ -1,15 +1,15 @@
 ---
-title: "Interfaces (Visual Studio Debugging) | Microsoft Docs"
-ms.date: "11/04/2016"
+title: Interfaces (Visual Studio Debugging) | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
-  - "debugging [Debugging SDK], interfaces"
+- debugging [Debugging SDK], interfaces
 ms.assetid: 79875cbb-f946-49d4-94eb-941d0e1a40b2
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Interfaces (Visual Studio Debugging)
 Methods are listed alphabetically under each interface in the table of contents and on the interface page in Vtable order.

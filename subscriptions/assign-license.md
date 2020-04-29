@@ -3,6 +3,7 @@ title: Assign licenses to Visual Studio subscriptions | Microsoft Docs
 author: evanwindom
 ms.author: lank
 manager: lank
+ms.assetid: 4e529a43-7aed-4eee-895d-862a631952df
 ms.date: 03/02/2020
 ms.topic: conceptual
 description:  Learn how administrators can assign licenses to subscribers
@@ -19,6 +20,11 @@ For groups of users, you have choices for how you assign subscriptions.
 
 ## Add a single subscriber
 Here's how to assign a Visual Studio subscription to a new user so that they can access the subscription benefits.
+
+<br>
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4vpPh]
+
 
 1. Sign in to the [administration portal](https://manage.visualstudio.com).
 2. To assign a license to a single Visual Studio subscriber, at the top of the table, select **Add**, then choose **Individual subscriber**.

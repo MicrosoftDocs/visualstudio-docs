@@ -1,16 +1,16 @@
 ---
-title: "Exposing Project Objects | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Exposing Project Objects | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "project objects, exposing"
-  - "extensibility, project objects"
+- project objects, exposing
+- extensibility, project objects
 ms.assetid: 5bb24967-434a-4ef4-87a0-2f3250c9e22d
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Expose project objects
 

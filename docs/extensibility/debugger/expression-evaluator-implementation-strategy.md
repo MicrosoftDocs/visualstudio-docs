@@ -1,16 +1,16 @@
 ---
-title: "Expression Evaluator Implementation Strategy | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Expression Evaluator Implementation Strategy | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "expression evaluation, implementation strategy"
-  - "debug engines, implementation strategies"
+- expression evaluation, implementation strategy
+- debug engines, implementation strategies
 ms.assetid: 1bccaeb3-8109-4128-ae79-16fd8fbbaaa2
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Expression evaluator implementation strategy
 > [!IMPORTANT]

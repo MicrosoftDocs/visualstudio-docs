@@ -1,20 +1,20 @@
 ---
-title: "IDebugClassField::EnumNestedEnums | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugClassField::EnumNestedEnums | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugClassField::EnumNestedEnums"
+- IDebugClassField::EnumNestedEnums
 helpviewer_keywords:
-  - "IDebugClassField::EnumNestedEnums method"
+- IDebugClassField::EnumNestedEnums method
 ms.assetid: 90fd0cef-9145-4de6-91d4-6c881df39d6e
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugClassField::EnumNestedEnums
 Creates an enumerator for the nested enumerators of this class.

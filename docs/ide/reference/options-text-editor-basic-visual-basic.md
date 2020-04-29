@@ -1,4 +1,4 @@
----
+﻿---
 title: Options, Text Editor, Basic (VB), Advanced
 ms.date: 01/16/2019
 ms.topic: reference
@@ -24,9 +24,9 @@ The **VB Specific** property page, in the **Basic** folder of the **Text Editor*
 
 ## Analysis
 
-- Enable full solution analysis
+- Live code analysis or Background analysis scope
 
-   Enables code analysis on all files in the solution, not just open code files. For more information, see [Full solution analysis](../../code-quality/how-to-enable-and-disable-full-solution-analysis-for-managed-code.md).
+   Configure the background analysis scope for managed code. For more information, see [How to: Configure live code analysis scope for managed code](../../code-quality/configure-live-code-analysis-scope-managed-code.md).
 
 ## Using Directives
 

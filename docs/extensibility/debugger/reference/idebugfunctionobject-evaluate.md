@@ -1,20 +1,20 @@
 ---
-title: "IDebugFunctionObject::Evaluate | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugFunctionObject::Evaluate | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugFunctionObject::Evaluate"
+- IDebugFunctionObject::Evaluate
 helpviewer_keywords:
-  - "IDebugFunctionObject::Evaluate method"
+- IDebugFunctionObject::Evaluate method
 ms.assetid: 29349ea3-d5c1-4135-aa76-ced073ab9683
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugFunctionObject::Evaluate
 Calls the function and returns the resulting value as an object.

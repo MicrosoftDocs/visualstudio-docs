@@ -1,20 +1,20 @@
 ---
-title: "IDebugFunctionObject::CreateArrayObject | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugFunctionObject::CreateArrayObject | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugFunctionObject::CreateArrayObject"
+- IDebugFunctionObject::CreateArrayObject
 helpviewer_keywords:
-  - "IDebugFunctionObject::CreateArrayObject method"
+- IDebugFunctionObject::CreateArrayObject method
 ms.assetid: a380e53c-15f1-401f-927f-f366eea789e6
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugFunctionObject::CreateArrayObject
 Creates an array object. This array can contain either primitive or object instance values.

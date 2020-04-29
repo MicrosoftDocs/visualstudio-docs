@@ -1,8 +1,8 @@
 ---
 title: How can you increase the chances of a performance issue being fixed
 description: Additional information and best practices for submitting performance issues in Visual Studio
-author: seaniyer
-ms.author: seiyer
+author: madskristensen
+ms.author: madsk
 ms.date: 11/19/2019 
 ms.topic: reference
 ---
@@ -79,17 +79,17 @@ and be sure to include:
 If you're not sure what's causing your crashes or they seem random, then you can capture dumps locally each time Visual Studio crashes and attach those to separate feedback items. To save dumps locally when Visual Studio crashes, run the following commands in an administrator command window:
 
 ```
-reg add "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\Windows Error
-Reporting\\LocalDumps\\devenv.exe"
+reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\Windows Error
+Reporting\LocalDumps\devenv.exe"
 
-reg add "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\Windows Error
-Reporting\\LocalDumps\\devenv.exe" /v DumpType /t REG_DWORD /d 2
+reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\Windows Error
+Reporting\LocalDumps\devenv.exe" /v DumpType /t REG_DWORD /d 2
 
-reg add "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\Windows Error
-Reporting\\LocalDumps\\devenv.exe" /v DumpCount /t REG_DWORD /d 2
+reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\Windows Error
+Reporting\LocalDumps\devenv.exe" /v DumpCount /t REG_DWORD /d 2
 
-reg add "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\Windows Error
-Reporting\\LocalDumps\\devenv.exe" /v DumpFolder /t REG_SZ /d "C:\\CrashDumps"
+reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\Windows Error
+Reporting\LocalDumps\devenv.exe" /v DumpFolder /t REG_SZ /d "C:\CrashDumps"
 ```
 
 Customize the dump count and dump folder as appropriate. Find more information
@@ -139,7 +139,7 @@ reproduce the problem, and include sample source code that demonstrates the prob
 
 If an unresponsiveness manifests itself in an unpredictable fashion, on the next occurrence,
 launch a new instance of Visual Studio and report a problem from that instance.
-In the [“Record”
+In the ["Record"
 screen](/visualstudio/ide/how-to-report-a-problem-with-visual-studio?view=vs-2019#record-a-repro),
 be sure to select the Visual Studio session that is unresponsive.
 

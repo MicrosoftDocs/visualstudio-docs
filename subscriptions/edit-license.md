@@ -3,6 +3,7 @@ title: Edit subscriptions in the Administration Portal | Microsoft Docs
 author: evanwindom
 ms.author: lank
 manager: lank
+ms.assetid: 97ac8e4d-7a03-42f8-98cb-15bcaa90ef65
 ms.date: 03/03/2020
 ms.topic: conceptual
 description:  Learn how administrators can edit subscription assignments.
@@ -24,7 +25,13 @@ To edit a subscriber, select the ellipses (…) that appear next to the subscrib
 You can update the subscriber’s first name, last name, subscription level, email address, country, language, downloads and reference field. Edit the subscriber’s information, and click **Save**.
 
 ## Edit multiple subscribers using bulk edit
+
+
 You can edit multiple subscribers at once using the bulk edit process. This feature is primarily used for organizations that are going through corporate email address changes or if an organization has decided to restrict access to downloads.
+
+<br>
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4vkAF]
 
    > [!IMPORTANT]
    > Subscription levels (i.e. Enterprise, Professional, etc.) and subscription GUIDs cannot be altered using Bulk edit.  If you need to assign specific subscription GUIDs to you users, use the process for adding users by choosing the subscription ID. If you attempt an upload with these items changed in the Bulk edit template, the upload will fail.

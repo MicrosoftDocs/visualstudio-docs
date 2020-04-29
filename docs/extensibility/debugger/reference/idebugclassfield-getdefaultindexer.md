@@ -1,20 +1,20 @@
 ---
-title: "IDebugClassField::GetDefaultIndexer | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugClassField::GetDefaultIndexer | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugClassField::GetDefaultIndexer"
+- IDebugClassField::GetDefaultIndexer
 helpviewer_keywords:
-  - "IDebugClassField::GetDefaultIndexer method"
+- IDebugClassField::GetDefaultIndexer method
 ms.assetid: 47ce4f45-3816-4b40-909c-5032d0692d75
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugClassField::GetDefaultIndexer
 Gets the name of the default indexer.

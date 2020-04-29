@@ -1,17 +1,17 @@
 ---
-title: "IDebugOutputStringEvent2 | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugOutputStringEvent2 | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugOutputStringEvent2"
+- IDebugOutputStringEvent2
 helpviewer_keywords:
-  - "IDebugOutputStringEvent2 interface"
+- IDebugOutputStringEvent2 interface
 ms.assetid: 86596fd1-cecc-4813-8add-dc3d70068f9b
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # IDebugOutputStringEvent2
 This interface is sent by the debug engine (DE) to the session debug manager (SDM) to output a string.

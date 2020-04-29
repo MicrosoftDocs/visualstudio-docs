@@ -1,17 +1,17 @@
 ---
-title: "IDebugPropertyCreateEvent2 | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugPropertyCreateEvent2 | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugPropertyCreateEvent2"
+- IDebugPropertyCreateEvent2
 helpviewer_keywords:
-  - "IDebugPropertyCreateEvent2 interface"
+- IDebugPropertyCreateEvent2 interface
 ms.assetid: 33b3082b-a42e-488a-a1e4-dadf506f922c
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # IDebugPropertyCreateEvent2
 This interface is sent by the debug engine (DE) to the session debug manager (SDM) when it creates a property that is associated with a specific document.

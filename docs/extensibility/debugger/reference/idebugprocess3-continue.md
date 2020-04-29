@@ -1,20 +1,20 @@
 ---
-title: "IDebugProcess3::Continue | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugProcess3::Continue | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugProcess3::Continue"
+- IDebugProcess3::Continue
 helpviewer_keywords:
-  - "IDebugProcess3::Continue"
+- IDebugProcess3::Continue
 ms.assetid: 57506242-5763-4c08-adb9-8a78ce02cebb
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugProcess3::Continue
 Continues running this process from a stopped state. Any previous execution state (such as a step) is preserved, and the process starts executing again.

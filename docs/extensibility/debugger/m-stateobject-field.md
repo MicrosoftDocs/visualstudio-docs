@@ -1,15 +1,15 @@
 ---
-title: "m_stateObject Field | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: m_stateObject Field | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "m_stateObject field, Task class [.NET Framework debug engines]"
+- m_stateObject field, Task class [.NET Framework debug engines]
 ms.assetid: 68c54b22-3e1c-4031-b9c7-b972c519d8a0
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # m_stateObject field
 An object that represents data that the action will use.

@@ -1,17 +1,17 @@
 ---
-title: "Visual Studio Debugging Samples | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Visual Studio Debugging Samples | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "sample applications [Debugging SDK]"
-  - "debugging [Debugging SDK], samples"
-  - "Debugging SDK, samples"
+- sample applications [Debugging SDK]
+- debugging [Debugging SDK], samples
+- Debugging SDK, samples
 ms.assetid: fbcc42a7-7851-487f-b981-8c4ae7ec7347
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Visual Studio debugging samples
 Two samples show how to extend the Visual Studio debugger using [!INCLUDE[vsipsdk](../../extensibility/includes/vsipsdk_md.md)].

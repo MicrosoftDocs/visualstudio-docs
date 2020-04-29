@@ -1,16 +1,16 @@
 ---
-title: "VisibilityItem Element | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: VisibilityItem Element | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "VisibilityItem element (VSCT XML schema)"
-  - "VSCT XML schema elements, VisibilityItem"
+- VisibilityItem element (VSCT XML schema)
+- VSCT XML schema elements, VisibilityItem
 ms.assetid: 0932f551-972d-4194-84bb-426e3e4375e4
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # VisibilityItem element
 The `VisibilityItem` element determines the static visibility of commands and toolbars. Every entry identifies a command or menu, and also an associated command UI context. Visual Studio detects commands, menus, and toolbars, and their visibility, without loading the VSPackages that define them. The IDE uses the <xref:Microsoft.VisualStudio.Shell.Interop.IVsMonitorSelection.IsCmdUIContextActive%2A> method to determine whether a command UI context is active.

@@ -1,20 +1,20 @@
 ---
-title: "MODULE_SYMBOL_SEARCH_INFO | Microsoft Docs"
-ms.date: "11/04/2016"
+title: MODULE_SYMBOL_SEARCH_INFO | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "MODULE_SYMBOL_SEARCH_INFO"
+- MODULE_SYMBOL_SEARCH_INFO
 helpviewer_keywords:
-  - "MODULE_SYMBOL_SEARCH_INFO structure"
+- MODULE_SYMBOL_SEARCH_INFO structure
 ms.assetid: 432aff03-08a5-4c5a-b2d5-e212090fc70a
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # MODULE_SYMBOL_SEARCH_INFO
 

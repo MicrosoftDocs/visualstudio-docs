@@ -1,15 +1,15 @@
 ---
-title: "Notifying the Port | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Notifying the Port | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "ports, notification"
+- ports, notification
 ms.assetid: f9fce48e-7d4e-4627-a0fb-77b75428146a
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Notify the port
 After launching a program, the port must be notified, as follows:
