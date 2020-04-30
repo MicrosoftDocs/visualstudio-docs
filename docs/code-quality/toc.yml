@@ -579,6 +579,8 @@
           href: ca2007.md
         - name: "CA2009: Do not call ToImmutableCollection on an ImmutableCollection value"
           href: ca2009.md
+        - name: "CA2011: Do not assign property within its setter"
+          href: ca2011.md
       - name: Security warnings
         items:
         - name: Overview
@@ -863,5 +865,7 @@
           href: ca2242.md
         - name: "CA2243: Attribute string literals should parse correctly"
           href: ca2243.md
+        - name: "CA2245: Do not assign a property to itself"
+          href: ca2245.md
       - name: Automatic feature suspension
         href: automatic-feature-suspension.md

@@ -76,6 +76,16 @@ To quickly iterate changes, you can start your application in a container. Then,
     }
     ```
 
+    Modify the `Startup` method as follows:
+
+    ```csharp
+    public Startup(IConfiguration configuration, IWebHostEnvironment webHostEnvironment)
+    {
+        Configuration = configuration;
+        Env = webHostEnvironment;
+    }
+    ```
+
    For more information, see [Razor file compilation in ASP.NET Core](/aspnet/core/mvc/views/view-compilation?view=aspnetcore-3.1).
 
 1. Set **Solution Configuration** to **Debug**. Then, press **Ctrl**+**F5** to build your Docker image and run it locally.
