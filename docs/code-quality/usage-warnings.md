@@ -66,4 +66,5 @@ Usage warnings support proper usage of .NET.
 |[CA2241: Provide correct arguments to formatting methods](../code-quality/ca2241.md)|The format argument passed to System.String.Format does not contain a format item that corresponds to each object argument, or vice versa.|
 |[CA2242: Test for NaN correctly](../code-quality/ca2242.md)|This expression tests a value against Single.Nan or Double.Nan. Use Single.IsNan(Single) or Double.IsNan(Double) to test the value.|
 |[CA2243: Attribute string literals should parse correctly](../code-quality/ca2243.md)|An attribute's string literal parameter does not parse correctly for a URL, a GUID, or a version.|
+|[CA2244: Do not duplicate indexed element initializations](../code-quality/ca2244.md)|An object initializer has more than one indexed element initializer with the same constant index. All but the last initializer are redundant.|
 |[CA2245: Do not assign a property to itself](../code-quality/ca2245.md)|A property was accidentally assigned to itself.|
