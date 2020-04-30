@@ -1,15 +1,15 @@
 ---
-title: "Project Type Essentials | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Project Type Essentials | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "project types [Visual Studio SDK]"
+- project types [Visual Studio SDK]
 ms.assetid: 09991589-2300-430e-b6a4-7f2b95fe676f
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Project Type Essentials
 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] includes several project types for languages such as [!INCLUDE[csprcs](../../data-tools/includes/csprcs_md.md)] or [!INCLUDE[vbprvb](../../code-quality/includes/vbprvb_md.md)]. [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] also lets you create your own project types.

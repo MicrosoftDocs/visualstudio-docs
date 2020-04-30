@@ -1,17 +1,17 @@
 ---
-title: "Project Property User Interface | Microsoft Docs"
+title: Project Property User Interface | Microsoft Docs
 ms.date: 03/22/2018
-ms.topic: "conceptual"
+ms.topic: conceptual
 helpviewer_keywords:
-  - "project properties [Visual Studio], user interface"
-  - "projects [Visual Studio SDK], properties UI"
-  - "project properties UI"
+- project properties [Visual Studio], user interface
+- projects [Visual Studio SDK], properties UI
+- project properties UI
 ms.assetid: b6aec634-8533-476c-9ebd-36536a2288e2
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Project Property User Interface
 

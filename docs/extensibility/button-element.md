@@ -1,16 +1,16 @@
 ---
-title: "Button Element | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Button Element | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "Buttons element (VSCT XML schema)"
-  - "VSCT XML schema elements, Buttons"
+- Buttons element (VSCT XML schema)
+- VSCT XML schema elements, Buttons
 ms.assetid: 96dccf51-2b00-4700-9d28-924b34c21ecd
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Button element
 Defines an element that the user can interact with. Buttons can be of different kinds: Button, MenuButton, and SplitDropDown.

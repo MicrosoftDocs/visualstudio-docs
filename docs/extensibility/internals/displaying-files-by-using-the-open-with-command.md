@@ -1,17 +1,17 @@
 ---
-title: "Displaying Files By Using the Open With Command | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Displaying Files By Using the Open With Command | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "project types, supporting Open With command"
-  - "Open With command"
-  - "persistence, supporting Open With command"
+- project types, supporting Open With command
+- Open With command
+- persistence, supporting Open With command
 ms.assetid: 53794bc3-1b73-4d40-954e-cfade1abddcf
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Display files by using the Open With command
 A project can ask the IDE to display the **Open With** dialog box. This request prompts the user to open a file that has a selection of standard editors. The following steps describe this process:

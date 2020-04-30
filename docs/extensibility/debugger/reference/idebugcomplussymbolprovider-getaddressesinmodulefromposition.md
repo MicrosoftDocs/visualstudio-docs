@@ -1,19 +1,19 @@
 ---
-title: "IDebugComPlusSymbolProvider::GetAddressesInModuleFromPosition | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugComPlusSymbolProvider::GetAddressesInModuleFromPosition | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
-  - "GetAddressesInModuleFromPosition"
-  - "IDebugComPlusSymbolProvider::GetAddressesInModuleFromPosition"
+- GetAddressesInModuleFromPosition
+- IDebugComPlusSymbolProvider::GetAddressesInModuleFromPosition
 ms.assetid: f901c66e-f53c-4ea0-8004-d8fcbf46f916
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugComPlusSymbolProvider::GetAddressesInModuleFromPosition
 Maps a document position in the specified module to an array of debug addresses.

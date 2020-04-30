@@ -1,20 +1,20 @@
 ---
-title: "IDebugExpression2::Abort | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugExpression2::Abort | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugExpression2::Abort"
+- IDebugExpression2::Abort
 helpviewer_keywords:
-  - "IDebugExpression2::Abort"
+- IDebugExpression2::Abort
 ms.assetid: 4fcb712e-1bdb-4b75-a440-35cc79ee147e
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugExpression2::Abort
 This method cancels asynchronous expression evaluation as started by a call to the [EvaluateAsync](../../../extensibility/debugger/reference/idebugexpression2-evaluateasync.md) method.

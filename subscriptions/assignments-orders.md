@@ -3,7 +3,8 @@ title: Track user assignments and process orders | Visual Studio Marketplace
 author: evanwindom
 ms.author: lank
 manager: lank
-ms.date: 07/23/2019
+ms.assetid: 83a9162a-b9e7-43a4-b07f-6c1fd8580f78
+ms.date: 03/02/2020
 ms.topic: conceptual
 description:  Learn about administrators' responsibilty to track user assignments and process orders.
 ---
@@ -31,6 +32,12 @@ You may be assigning subscriptions through  programs like Open License and Open 
 ## Enterprise, MPSA and Select Agreements
 Microsoft Enterprise Agreements (EA), MPSA and Select Plus Agreements give you flexibility in how you use and license Visual Studio software over time. Visual Studio administrators must make an annual True-Up order to bring their software licenses up to the maximum usage established during the agreement period.
 
+## See also
+- [Visual Studio documentation](https://docs.microsoft.com/visualstudio/)
+- [Azure DevOps documentation](https://docs.microsoft.com/azure/devops/)
+- [Azure documentation](https://docs.microsoft.com/azure/)
+- [Microsoft 365 documentation](https://docs.microsoft.com/microsoft-365/)
+
 ## Next steps
 Learn more about responsibilities for administrators:
 - [Administrator responsibilities](admin-responsibilities.md)
@@ -38,7 +45,3 @@ Learn more about responsibilities for administrators:
 - [Manage large teams and external contractors](manage-teams.md)
 - Use [Maximum Usage](maximum-usage.md) to track purchase commitments
 
-## See also
-- [Visual Studio documentation](/visualstudio/)
-- [Azure documentation](/azure/)
-- [Azure DevOps](/azure/devops/)

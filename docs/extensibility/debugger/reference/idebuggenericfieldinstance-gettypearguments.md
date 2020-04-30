@@ -1,19 +1,19 @@
 ---
-title: "IDebugGenericFieldInstance::GetTypeArguments | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugGenericFieldInstance::GetTypeArguments | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
-  - "GetTypeArguments"
-  - "IDebugGenericFieldInstance::GetTypeArguments"
+- GetTypeArguments
+- IDebugGenericFieldInstance::GetTypeArguments
 ms.assetid: 6e7e0f95-181a-4805-adb3-c2407de0ab93
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugGenericFieldInstance::GetTypeArguments
 Retrieves the type parameter arguments for this instance.

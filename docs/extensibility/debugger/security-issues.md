@@ -1,16 +1,16 @@
 ---
-title: "Security Issues | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Security Issues | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "security [Debugging SDK]"
-  - "debugging [Debugging SDK], security"
+- security [Debugging SDK]
+- debugging [Debugging SDK], security
 ms.assetid: d6ffff0a-afb4-4f38-86d8-476c881c4e4b
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Security issues
 To debug a program using Visual Studio, the only permissions needed are the same ones a developer requires to run the program. This includes remote debugging for most situations. Some situations, involving other services, such as the Internet Information Service, may require a higher level of permissions.

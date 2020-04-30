@@ -1,19 +1,19 @@
 ---
-title: "IDebugComPlusSymbolProvider::GetAssemblyName | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugComPlusSymbolProvider::GetAssemblyName | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
-  - "IDebugComPlusSymbolProvider::GetAssemblyName"
-  - "GetAssemblyName"
+- IDebugComPlusSymbolProvider::GetAssemblyName
+- GetAssemblyName
 ms.assetid: a08cd609-b9b9-47bd-bf73-cbf851285907
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugComPlusSymbolProvider::GetAssemblyName
 Retrieves the name of the assembly given its module and application domain.

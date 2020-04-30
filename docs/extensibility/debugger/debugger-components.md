@@ -1,17 +1,17 @@
 ---
-title: "Debugger Components | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Debugger Components | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "debugging [Visual Studio], components"
-  - "components [Visual Studio SDK], debugging"
-  - "debugging [Debugging SDK], components"
+- debugging [Visual Studio], components
+- components [Visual Studio SDK], debugging
+- debugging [Debugging SDK], components
 ms.assetid: 8b8ab77f-a134-495c-be42-3bc51aa62dfb
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Debugger components
 The [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] debugger is implemented as a VSPackage and manages the entire debug session. The debug session comprises the following elements:

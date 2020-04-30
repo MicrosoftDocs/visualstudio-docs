@@ -1,20 +1,20 @@
 ---
-title: "IDebugCoreServer2::GetMachineInfo | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugCoreServer2::GetMachineInfo | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugCoreServer2::GetInfo"
+- IDebugCoreServer2::GetInfo
 helpviewer_keywords:
-  - "IDebugCoreServer2::GetInfo"
+- IDebugCoreServer2::GetInfo
 ms.assetid: 8fa1a1d3-9fcb-4fb3-bf4e-e7172ac08d77
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugCoreServer2::GetMachineInfo
 Retrieves a description of the machine the core server is running on.

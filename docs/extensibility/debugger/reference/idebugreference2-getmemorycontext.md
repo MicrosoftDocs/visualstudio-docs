@@ -1,20 +1,20 @@
 ---
-title: "IDebugReference2::GetMemoryContext | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugReference2::GetMemoryContext | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugReference2::GetMemoryContext"
+- IDebugReference2::GetMemoryContext
 helpviewer_keywords:
-  - "IDebugReference2::GetMemoryContext"
+- IDebugReference2::GetMemoryContext
 ms.assetid: 47fc3827-07a0-4eee-b7f4-fc1c62e6b25c
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugReference2::GetMemoryContext
 Gets a memory context of a reference. Reserved for future use.

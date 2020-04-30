@@ -8,8 +8,8 @@ dev_langs:
 - CSharp
 - VB
 ms.assetid: c66f3831-b4a0-40bc-a109-8f46f4db35ed
-author: TerryGLee
-ms.author: tglee
+author: ornellaalt
+ms.author: ornella
 manager: jillfra
 ms.workload:
 - multiple
@@ -26,7 +26,7 @@ In the fourth part of this tutorial, you'll write a method, `CheckTheAnswer()`, 
 > [!NOTE]
 > If you're following along in Visual Basic, you'll use the `Function` keyword instead of the usual `Sub` keyword because this method returns a value. It's really that simple: a sub doesn't return a value, but a function does.
 
-1. Add the `CheckTheAnswer()` method.
+1. Add the `CheckTheAnswer()` method. This method should be in line with the other methods you made, such as `StartTheQuiz()`.
 
      When this method is called, it adds the values of addend1 and addend2 and compares the result to the value in the sum <xref:System.Windows.Forms.NumericUpDown> control. If the values are equal, the method returns a value of `true`. Otherwise, the method returns a value of `false`. Your code should look like the following.
 
@@ -37,7 +37,7 @@ In the fourth part of this tutorial, you'll write a method, `CheckTheAnswer()`, 
 
      Next, you'll check the answer by updating the code in the method for the timer's <xref:System.Windows.Forms.Timer.Tick> event handler to call the new `CheckTheAnswer()` method.
 
-2. Add the following code to the `if else` statement.
+2. Add the following code to the `if else` statement in the `Timer1_Tick()` method, so that the timer stops when the user gets the answer right.
 
      [!code-vb[VbExpressTutorial3Step4#10](../ide/codesnippet/VisualBasic/step-4-add-the-checktheanswer-parens-method_2.vb)]
      [!code-csharp[VbExpressTutorial3Step4#10](../ide/codesnippet/CSharp/step-4-add-the-checktheanswer-parens-method_2.cs)]

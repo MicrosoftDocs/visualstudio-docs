@@ -22,6 +22,7 @@ When debugging a .NET application, you may find that you want to view source cod
 > [!NOTE]
 > * Source code generation (decompilation) is only available for .NET applications and is based on the open source [ILSpy](https://github.com/icsharpcode/ILSpy) project.
 > * Decompilation is only available in Visual Studio 2019 16.5 and later.
+> * Applying the [SuppressIldasmAttribute](https://docs.microsoft.com/dotnet/api/system.runtime.compilerservices.suppressildasmattribute) attribute to an assembly or module prevents Visual Studio from attempting decompilation.
 
 ## Generate source code
 
@@ -77,13 +78,13 @@ When debugging code that was decompiled from an assembly that was compiled using
 - Local variables may not have accurate names.
 - Some variables may not be available for evaluation.
 
-More details can be found in the GitHub issue: [IChsarpCompiler.Decompiler integration into VS Debugger](https://github.com/icsharpcode/ILSpy/issues/1901).
+More details can be found in the GitHub issue: [ICSharpCode.Decompiler integration into VS Debugger](https://github.com/icsharpcode/ILSpy/issues/1901).
 
 ### Decompilation reliability
 
 A relatively small percentage of decompilation attempts may result in failure. This is due to a sequence point null-reference error in ILSpy.  We have mitigated the failure by catching these issues and gracefully failing the decompilation attempt.
 
-More details can be found in the GitHub issue: [IChsarpCompiler.Decompiler integration into VS Debugger](https://github.com/icsharpcode/ILSpy/issues/1901).
+More details can be found in the GitHub issue: [ICSharpCode.Decompiler integration into VS Debugger](https://github.com/icsharpcode/ILSpy/issues/1901).
 
 ### Limitations with async code
 

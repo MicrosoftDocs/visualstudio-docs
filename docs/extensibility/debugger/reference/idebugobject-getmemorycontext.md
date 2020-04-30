@@ -1,20 +1,20 @@
 ---
-title: "IDebugObject::GetMemoryContext | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugObject::GetMemoryContext | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugObject::GetMemoryContext"
+- IDebugObject::GetMemoryContext
 helpviewer_keywords:
-  - "IDebugObject::GetMemoryContext method"
+- IDebugObject::GetMemoryContext method
 ms.assetid: 6760a0d3-a898-4e81-b68f-c45c584b225b
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugObject::GetMemoryContext
 Gets the memory context that represents the address of the value of the object.

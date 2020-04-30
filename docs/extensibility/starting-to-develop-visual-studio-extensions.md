@@ -1,16 +1,16 @@
 ---
-title: "Starting to Develop Visual Studio Extensions | Microsoft Docs"
-ms.date: "09/18/2017"
-ms.topic: "conceptual"
+title: Starting to Develop Visual Studio Extensions | Microsoft Docs
+ms.date: 09/18/2017
+ms.topic: conceptual
 helpviewer_keywords:
-  - "getting started, Visual Studio integration"
-  - "Visual Studio, integration"
+- getting started, Visual Studio integration
+- Visual Studio, integration
 ms.assetid: 8fe5e2ab-a424-4173-9d39-dd082c4d58d0
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Starting to Develop Visual Studio Extensions
 

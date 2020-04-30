@@ -1,13 +1,13 @@
 ---
-title: "Installing the Visual Studio SDK | Microsoft Docs"
-ms.date: "07/12/2018"
-ms.topic: "conceptual"
+title: Installing the Visual Studio SDK | Microsoft Docs
+ms.date: 07/12/2018
+ms.topic: conceptual
 ms.assetid: c730edb6-5099-4c16-85a8-08def09f1455
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Install the Visual Studio SDK
 

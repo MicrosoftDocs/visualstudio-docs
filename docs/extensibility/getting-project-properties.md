@@ -1,16 +1,16 @@
 ---
-title: "Getting Project Properties | Microsoft Docs"
-ms.date: "3/16/2019"
-ms.topic: "conceptual"
+title: Getting Project Properties | Microsoft Docs
+ms.date: 3/16/2019
+ms.topic: conceptual
 helpviewer_keywords:
-  - "project properties, displaying in tool window"
-  - "tool windows, displaying project properties"
+- project properties, displaying in tool window
+- tool windows, displaying project properties
 ms.assetid: 96ba07ca-0811-4013-8602-12550ac4ba79
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Get project properties
 

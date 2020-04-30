@@ -2,7 +2,7 @@
 # [What's New](whats-new-in-subscriptions.md)
 # Subscriptions
 ## Buy subscriptions
-### [Retail](https://visualstudio.microsoft.com/vs/pricing)
+### [Retail](buy-activate-retail.md)
 ### Cloud 
 #### [Overview](vscloud-overview.md)
 #### [Billing FAQ](vscloud-billing-faq.md)
@@ -13,7 +13,6 @@
 #### [Manage subscriptions for MPN](manage-mpn-subscriptions.md)
 ### [Microsoft for Startups](program-startups.md)
 ## Sign in 
-### [Activate retail subscriptions](activate-store-subscriptions.md)
 ### [Sign in with Microsoft Accounts](sign-in-msa.md)
 ### [Sign in with work/school accounts](sign-in-work.md)
 ### [Sign in with GitHub](sign-in-github.md)
@@ -27,18 +26,20 @@
 ### Tools
 #### [Azure DevTest individual credit](vs-azure.md)
 #### [Azure DevOps](vs-azure-devops.md)
-#### [Azure Pay-As-You-Go](vs-azure-payg.md)
+#### [Azure DevTest Pay-As-You-Go](vs-azure-payg.md)
+#### [Azure EA DevTest](azure-ea-devtest.md)
 #### [CAST Highlight](vs-cast.md)
 #### [CloudPilot](vs-cloudpilot.md)
 #### [Enterprise Mobility & Security](vs-ems.md)
-#### [Microsoft 365](vs-m365.md)
-#### [Office 365 subscription](vs-office365.md)
+#### [Microsoft 365 developer](vs-m365.md)
+#### [Office 365 Pro Plus](vs-office365.md)
 #### [Parasoft](vs-parasoft.md)
 #### [Power BI Pro](vs-pbi.md)
 #### [Visual Studio App Center](vs-visual-studio-app-center.md)
 #### [Visual Studio IDE](vs-ide-benefit.md)
 #### [WhiteSource Bolt](vs-whitesource.md)
 #### [Windows Developer Account](vs-windows-dev.md)
+#### [Windows Virtual Desktop](vs-windows-virtual-desktop.md)
 ### Professional development
 #### [CODE Magazine](vs-code-magazine.md)
 #### [DataCamp](vs-datacamp.md)
@@ -73,10 +74,10 @@
 ### [Super admins and administrators](admin-roles.md)
 ### [Set agreement preferences](admin-prefs.md)
 ### [Overview](using-admin-portal.md)
-### [Video tutorial: Use the admin portal](https://www.youtube.com/watch?v=XG-E-IDjA-w&list=PLReL099Y5nReJhZ6o8CQFPSBgzGCHX99_&index=3&t=0s)
 ### Assign subscriptions
 #### [Add single users](assign-license.md)
 #### [Add multiple users](assign-license-bulk.md)
+#### [Assign specific subscriptions](assign-guid.md)
 ### [Edit subscriptions](edit-license.md)
 ### [Delete subscriptions](delete-license.md)
 ### [Search for a subscription](search-license.md)
@@ -84,7 +85,7 @@
 ### [Overallocations](handle-overclaimed-license.md)
 ### [Maximum usage](maximum-usage.md)
 ### [Expired subscriptions](handle-expired-license.md)
-### [Subscribers using aliases](aliasing.md)
+### [Subscriber sign-in scenarios ](aliasing.md)
 ### [Subscribers with personal email sign-ins](personal-email-sign-ins.md)
 ### [Managing Visual Studio with GitHub Enterprise](assign-github.md)
 # Resources

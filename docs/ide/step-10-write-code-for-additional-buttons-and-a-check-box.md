@@ -8,8 +8,8 @@ ms.technology: vs-ide-general
 dev_langs:
 - CSharp
 - VB
-author: TerryGLee
-ms.author: tglee
+author: ornellaalt
+ms.author: ornella
 manager: jillfra
 ms.workload:
 - multiple

@@ -1,17 +1,17 @@
 ---
-title: "IEnumDebugThreads2 | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IEnumDebugThreads2 | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IEnumDebugThreads2"
+- IEnumDebugThreads2
 helpviewer_keywords:
-  - "IEnumDebugThreads2"
+- IEnumDebugThreads2
 ms.assetid: 1854f078-3b49-42c2-b65b-33e3b506fd63
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # IEnumDebugThreads2
 This interface enumerates the threads running in the current debug session.

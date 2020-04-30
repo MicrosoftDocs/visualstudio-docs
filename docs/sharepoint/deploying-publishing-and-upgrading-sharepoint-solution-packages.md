@@ -48,7 +48,7 @@ ms.workload:
  You can also add commands to run before and after deployment. For more information, see [How to: Set SharePoint deployment commands](../sharepoint/how-to-set-sharepoint-deployment-commands.md).
 
 ## Publish packages to a remote or local server
- To publish a sandboxed SharePoint solution to a remote server, on the menu bar, choose **Build**, **Publish**, and then, in the **Publish** dialog box, choose the **Publish to SharePoint Site** option button, providing the remote server's URL, such as **https://someremoteserver.sharepoint.microsoftonline.com**.
+ To publish a sandboxed SharePoint solution to a remote server, on the menu bar, choose **Build**, **Publish**, and then, in the **Publish** dialog box, choose the **Publish to SharePoint Site** option button, providing the remote server's URL, such as `https://someremoteserver.sharepoint.microsoftonline.com`.
 
  To publish a SharePoint solution to a local server, in the **Publish** dialog box, choose the **Publish to File System** option button, providing a local system path.
 

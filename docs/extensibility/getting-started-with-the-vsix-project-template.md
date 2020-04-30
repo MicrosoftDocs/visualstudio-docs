@@ -1,15 +1,15 @@
 ---
-title: "Getting Started with the VSIX Project Template | Microsoft Docs"
-ms.date: "3/16/2019"
-ms.topic: "conceptual"
+title: Getting Started with the VSIX Project Template | Microsoft Docs
+ms.date: 3/16/2019
+ms.topic: conceptual
 helpviewer_keywords:
-  - "Visual Studio SDK, VSIX project template"
+- Visual Studio SDK, VSIX project template
 ms.assetid: 89fac33e-9380-4723-9b45-048a6e16f0ed
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Get started with the VSIX Project template
 

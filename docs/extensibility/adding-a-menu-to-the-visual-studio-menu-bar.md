@@ -1,16 +1,16 @@
 ---
-title: "Adding a Menu to the Visual Studio Menu Bar | Microsoft Docs"
-ms.date: "3/16/2019"
-ms.topic: "conceptual"
+title: Adding a Menu to the Visual Studio Menu Bar | Microsoft Docs
+ms.date: 3/16/2019
+ms.topic: conceptual
 helpviewer_keywords:
-  - "menus, creating top level"
-  - "top-level menus"
+- menus, creating top level
+- top-level menus
 ms.assetid: 58fc1a31-2aeb-441c-8e48-c7d5cbcfe501
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Add a menu to the Visual Studio menu bar
 

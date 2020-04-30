@@ -9,8 +9,8 @@ helpviewer_keywords:
   - "projects [C++], upgrading"
 ms.assetid: 9a283ebb-f6d8-49c0-a73e-323979ff56a2
 caps.latest.revision: 26
-author: "mikeblome"
-ms.author: "mblome"
+author: "corob-msft"
+ms.author: "corob"
 manager: jillfra
 ---
 # How to: Upgrade Visual C++ Projects to Visual Studio 2015

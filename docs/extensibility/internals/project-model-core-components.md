@@ -1,16 +1,16 @@
 ---
-title: "Project Model Core Components | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Project Model Core Components | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "project models, objects and interfaces"
-  - "project models, services"
+- project models, objects and interfaces
+- project models, services
 ms.assetid: b2f572d3-b26d-4846-92d1-84055fac141a
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Project Model Core Components
 The following tables expand on the project model. The tables present brief descriptions of the interfaces and services identified in the model, and the interfaces and services associated with specific objects. Additionally, the tables detail other interfaces that are optional in project creation and maintenance depending on the requirements of your specific project type.

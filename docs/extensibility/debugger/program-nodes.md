@@ -1,18 +1,18 @@
 ---
-title: "Program Nodes | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Program Nodes | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "program nodes, debugging context"
-  - "debugging [Debugging SDK], program nodes"
-  - "program nodes, adding"
-  - "program nodes, superceding"
+- program nodes, debugging context
+- debugging [Debugging SDK], program nodes
+- program nodes, adding
+- program nodes, superceding
 ms.assetid: 1c5a5c13-c14d-42c3-af11-4c63f1032c8d
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Program nodes
 In the debugger architecture, a *program node*:

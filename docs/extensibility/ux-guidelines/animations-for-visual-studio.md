@@ -1,13 +1,13 @@
 ---
-title: "Animations for Visual Studio | Microsoft Docs"
-ms.date: "04/26/2017"
-ms.topic: "conceptual"
+title: Animations for Visual Studio | Microsoft Docs
+ms.date: 04/26/2017
+ms.topic: conceptual
 ms.assetid: 446773a9-e6f7-4c0c-8dbc-9e303bf32eb1
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Animations for Visual Studio
 ## Animation fundamentals

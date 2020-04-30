@@ -47,13 +47,18 @@ The following table lists the LCIDs of the languages supported by Visual Studio.
 |--------------|----------|
 |Chinese (Simplified)|2052|
 |Chinese (Traditional)|1028|
+|Czech|1029|
 |English|1033|
 |French|1036|
 |German|1031|
 |Italian|1040|
 |Japanese|1041|
 |Korean|1042|
+|Polish|1045|
+|Portuguese (Brazil)|1046|
+|Russian|1049|
 |Spanish|3082|
+|Turkish|1055
 
 ## Example
 

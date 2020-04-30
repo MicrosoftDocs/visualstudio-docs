@@ -1,20 +1,20 @@
 ---
-title: "NATIVE_ADDRESS | Microsoft Docs"
-ms.date: "11/04/2016"
+title: NATIVE_ADDRESS | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "NATIVE_ADDRESS"
+- NATIVE_ADDRESS
 helpviewer_keywords:
-  - "NATIVE_ADDRESS structure"
+- NATIVE_ADDRESS structure
 ms.assetid: 7a0cd085-bfc8-45cc-a3d4-4459070e207a
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # NATIVE_ADDRESS
 

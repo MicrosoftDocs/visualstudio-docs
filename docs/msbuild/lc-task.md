@@ -20,9 +20,11 @@ ms.workload:
 - multiple
 ---
 # LC task
+
 Wraps *LC.exe*, which generates a *.license* file from a *.licx* file. For more information on *LC.exe*, see [Lc.exe (License Compiler)](/dotnet/framework/tools/lc-exe-license-compiler).
 
 ## Parameters
+
 The following table describes the parameters for the `LC` task.
 
 |Parameter|Description|
@@ -35,9 +37,10 @@ The following table describes the parameters for the `LC` task.
 |`SdkToolsPath`|Optional `String` parameter.<br /><br /> Specifies the path to the SDK tools, such as *resgen.exe*.|
 |`Sources`|Required <xref:Microsoft.Build.Framework.ITaskItem>`[]` parameter.<br /><br /> Specifies the items that contain licensed components to include in the *.licenses* file. For more information, see the documentation for the `/complist` switch in [Lc.exe (License Compiler)](/dotnet/framework/tools/lc-exe-license-compiler).|
 
- In addition to the parameters listed above, this task inherits parameters from the <xref:Microsoft.Build.Tasks.ToolTaskExtension> class, which itself inherits from the <xref:Microsoft.Build.Utilities.ToolTask> class. For a list of these additional parameters and their descriptions, see [ToolTaskExtension base class](../msbuild/tooltaskextension-base-class.md).
+[!INCLUDE [ToolTaskExtension arguments](includes/tooltaskextension-base-params.md)]
 
 ## Example
+
 The following example uses the `LC` task to compile licenses.
 
 ```xml
@@ -61,5 +64,6 @@ The following example uses the `LC` task to compile licenses.
 ```
 
 ## See also
+
 - [Tasks](../msbuild/msbuild-tasks.md)
 - [Task reference](../msbuild/msbuild-task-reference.md)

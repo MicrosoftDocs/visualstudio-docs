@@ -38,4 +38,4 @@ Script Debugging is currently disabled in Internet Explorer
      The new settings will now be in effect.
 
 ## See also
-- [How to: Attach to Script](../debugger/how-to-attach-to-script.md)
+- [How to: Attach to Script](attach-to-running-processes-with-the-visual-studio-debugger.md)

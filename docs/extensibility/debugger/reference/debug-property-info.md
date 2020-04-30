@@ -1,20 +1,20 @@
 ---
-title: "DEBUG_PROPERTY_INFO | Microsoft Docs"
-ms.date: "11/04/2016"
+title: DEBUG_PROPERTY_INFO | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "DEBUG_PROPERTY_INFO"
+- DEBUG_PROPERTY_INFO
 helpviewer_keywords:
-  - "DEBUG_PROPERTY_INFO structure"
+- DEBUG_PROPERTY_INFO structure
 ms.assetid: 5a085d18-62c6-4740-b9e9-3f5db6bfdf7f
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # DEBUG_PROPERTY_INFO
 Contains information about a debug property.

@@ -1,15 +1,15 @@
 ---
-title: "Web Project Essentials | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Web Project Essentials | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "web projects, essentials"
+- web projects, essentials
 ms.assetid: ca2f4e43-322c-4431-8680-52da846940bc
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Web Project Essentials
 Web projects create Web applications. You can use a Web project to create a Web application that has smart Web pages. A smart Web page has server-side code that renders the Web page on demand.

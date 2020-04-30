@@ -1,20 +1,20 @@
 ---
-title: "IEnumDebugPropertyInfo2::Reset | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IEnumDebugPropertyInfo2::Reset | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IEnumDebugPropertyInfo2::Reset"
+- IEnumDebugPropertyInfo2::Reset
 helpviewer_keywords:
-  - "IEnumDebugPropertyInfo2::Reset"
+- IEnumDebugPropertyInfo2::Reset
 ms.assetid: fa4201c1-4633-4596-93aa-bd415c4ed71a
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IEnumDebugPropertyInfo2::Reset
 Resets the enumeration to the first element.

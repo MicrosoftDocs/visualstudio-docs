@@ -1,6 +1,6 @@
 ---
 title: "Run profiling tools with or without the debugger | Microsoft Docs"
-ms.date: "11/04/2018"
+ms.date: "04/02/2020"
 ms.topic: "conceptual"
 ms.assetid: 3fcdccad-c1bd-4c67-bcec-bf33a8fb5d63
 author: "mikejo5000"
@@ -27,23 +27,21 @@ To help decide which tools and results to use, consider the following points:
 - The debugger itself changes performance times as it does necessary debugger operations like intercepting exception and module load events.
 - Release build performance numbers in the **Performance Profiler** tools are the most precise and accurate. Debugger-integrated tool results are most useful to compare with other debugging-related measurements.
 
+For CPU Usage, you can run the tool on a remote machine using the command-line tools.
+
 ## <a name="BKMK_Quick_start__Collect_diagnostic_data"></a> Collect profiling data while debugging
 
 When you start debugging in Visual Studio by selecting **Debug** > **Start Debugging** or pressing **F5**, the **Diagnostic Tools** window appears by default. To open it manually, select **Debug** > **Windows** > **Show Diagnostic Tools**. The **Diagnostic Tools** window shows information about events, process memory, and CPU usage.
 
 ![Diagnostic Tools](../profiling/media/diagnostictools-update1.png "Diagnostic Tools")
 
-- Use the **Settings** icon in the toolbar to select whether to view **Memory Usage**, **UI Analysis**, and **CPU Usage**.
+- Use the **Settings** icon in the toolbar to select whether to view **Memory Usage** or **CPU Usage**.
 
 - Select **Settings** in the **Settings** dropdown to open the **Diagnostic Tools Property Pages** with more options.
 
 - If you're running Visual Studio Enterprise, you can enable or disable IntelliTrace under Visual Studio **Tools** > **Options** > **IntelliTrace**.
 
 The diagnostic session ends when you stop debugging.
-
-You can also view **Diagnostic Tools** for remote debugging targets. For remote debugging and profiling, the Visual Studio remote debugger must be installed and running on the remote target.
-- For remote debugging and profiling desktop app projects, see [Remote debugging](../debugger/remote-debugging.md).
-- For remote debugging and profiling UWP apps, see [Debug UWP apps on remote machines](../debugger/run-windows-store-apps-on-a-remote-machine.md).
 
 ### The Events tab
 
@@ -63,7 +61,9 @@ For more information, see [Searching and filtering the Events tab of the Diagnos
 
 To collect performance data without debugging, you can run the **Performance Profiler** tools. Some of the profiling tools require administrator privileges to run. You can open Visual Studio as an administrator, or you can run the tools as an administrator when you start the diagnostic session.
 
-1. With a project open in Visual Studio, select **Debug** > **Performance Profiler**, or press **Alt**+**F2**.
+1. With a project open in Visual Studio, set the solution configuration to **Release** and select **Local Windows Debugger** (or **Local Machine**) as the deployment target.
+
+1. Select **Debug** > **Performance Profiler**, or press **Alt**+**F2**.
 
 1. On the diagnostic launch page, select one or more tools to run. Only the tools that are applicable to the project type, operating system, and programming language are displayed. Select **Show all tools** to also see tools that are disabled for this diagnostic session. Here's how your choices might look for a C# UWP app:
 
@@ -97,13 +97,20 @@ You can save the reports, and open them from the **Recently Opened Sessions** li
 
 ## Run diagnostic sessions on installed or running apps
 
- Besides starting your app from the Visual Studio project, you can also run diagnostic sessions on alternative targets. For example, you might want to diagnose performance issues on an app that was installed from the Windows App Store.
+Besides starting your app from the Visual Studio project, you can also run diagnostic sessions on alternative targets. For example, you might want to diagnose performance issues on an app that was installed from the Windows App Store. In the Performance Profiler, select from the drop-down list under **Change Target**.
 
- ![Choose diagnostic tools analysis target](../profiling/media/pdhub_chooseanalysistarget.png "PDHUB_ChooseAnalysisTarget")
+![Choose diagnostic tools analysis target](../profiling/media/pdhub_chooseanalysistarget.png "PDHUB_ChooseAnalysisTarget")
 
- You can start apps that are already installed, or attach the diagnostic tools to apps and processes that are already running. When you select **Running App** or **Installed App**, you select the app from a list that finds the apps on the specified deployment target. This target can be a local or remote machine.
+You can start apps that are already installed, or attach the diagnostic tools to apps and processes that are already running.
 
- ![Choose a running or installed app for diagnosis](../profiling/media/pdhub_selectrunningapp.png "PDHUB_SelectRunningApp")
+If you choose **Executable** as your analysis target, you can enter the path to an *.exe* on either a local or remote machine. In either case, the *.exe* runs locally. However, we do recommend that you profile your app by opening the solution in Visual Studio.
+
+For a UWP app, when you select **Running App** or **Installed App**, you select the app from a list that finds the apps on the specified deployment target. This target can be a local or remote machine. To profile a UWP app on a remote machine, you need to select **Universal (Unencrypted Protocol)** in the **Remote Connections** dialog box.
+
+![Choose a running or installed app for diagnosis](../profiling/media/pdhub_selectrunningapp.png "PDHUB_SelectRunningApp")
+
+> [!NOTE]
+> For other scenarios requiring remote use of profiling tools, see [Measure application performance from the command line](../profiling/profile-apps-from-command-line.md). You can use the command-line tools with CPU Usage and the .NET Object Allocation tool.
 
 ## See also
 

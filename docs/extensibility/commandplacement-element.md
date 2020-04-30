@@ -1,16 +1,16 @@
 ---
-title: "CommandPlacement Element | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: CommandPlacement Element | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "CommandPlacements element (VSCT XML schema)"
-  - "VSCT XML schema elements, CommandPlacements"
+- CommandPlacements element (VSCT XML schema)
+- VSCT XML schema elements, CommandPlacements
 ms.assetid: 2cbd7ac8-c55a-43d8-a26d-713b3d790016
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # CommandPlacement element
 The CommandPlacement element enables buttons, groups, and menus to be included in more than one group or menu. By using the CommandPlacement element, you do not have to completely redefine these items in order to modify the look of a user interface.

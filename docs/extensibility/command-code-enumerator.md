@@ -1,16 +1,16 @@
 ---
-title: "Command Code Enumerator | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Command Code Enumerator | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "command code enumerator"
-  - "source control plug-ins, command code enumeration"
+- command code enumerator
+- source control plug-ins, command code enumeration
 ms.assetid: 5d2c360c-59e4-4da8-bcb4-dd07c7441e40
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Command code enumerator
 This enumerator is used in the options for the [SccGetCommandOptions](../extensibility/sccgetcommandoptions-function.md) and the [SccPopulateList](../extensibility/sccpopulatelist-function.md)to indicate the command for which the options are specified.

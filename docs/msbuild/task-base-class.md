@@ -15,9 +15,11 @@ ms.workload:
 - multiple
 ---
 # Task base class
+
 Many tasks ultimately inherit from the <xref:Microsoft.Build.Utilities.Task> class. This class adds several parameters to the tasks that derive from them. These parameters are listed in this document.
 
 ## Parameters
+
  The following table describes the parameters of this base class.
 
 |Parameter|Description|
@@ -29,5 +31,6 @@ Many tasks ultimately inherit from the <xref:Microsoft.Build.Utilities.Task> cla
 |<xref:Microsoft.Build.Utilities.Task.Log%2A>|Optional <xref:Microsoft.Build.Utilities.TaskLoggingHelper> read-only parameter.<br /><br /> The logging helper object..|
 
 ## See also
+
 - [Task reference](../msbuild/msbuild-task-reference.md)
 - [Tasks](../msbuild/msbuild-tasks.md)
