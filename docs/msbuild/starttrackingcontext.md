@@ -17,6 +17,7 @@ ms.workload:
 - multiple
 ---
 # StartTrackingContext
+
 Start a tracking context.
 
 ## Syntax
@@ -26,6 +27,7 @@ HRESULT WINAPI StartTrackingContext(LPCTSTR intermediateDirectory, LPCTSTR taskN
 ```
 
 #### Parameters
+
 [in] `intermediateDirectory`
 
  The directory in which to store the tracking log.
@@ -35,7 +37,9 @@ HRESULT WINAPI StartTrackingContext(LPCTSTR intermediateDirectory, LPCTSTR taskN
  Identifies the tracking context. This name is used to create the log file name.
 
 ## Return value
+
  An **HRESULT** with the **SUCCEEDED** bit set if the tracking context was created.
 
 ## Requirements
+
  **Header:** *FileTracker.h*

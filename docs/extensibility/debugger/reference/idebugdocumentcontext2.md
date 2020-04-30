@@ -1,17 +1,17 @@
 ---
-title: "IDebugDocumentContext2 | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugDocumentContext2 | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugDocumentContext2"
+- IDebugDocumentContext2
 helpviewer_keywords:
-  - "IDebugDocumentContext2"
+- IDebugDocumentContext2
 ms.assetid: 2a446c71-8100-4c09-a1cc-fd446bd74030
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # IDebugDocumentContext2
 This interface represents a position in a source file document.

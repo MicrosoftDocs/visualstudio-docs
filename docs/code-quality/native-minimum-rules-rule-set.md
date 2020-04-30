@@ -152,4 +152,4 @@ Include this rule set in any custom rule set you create for native projects.
 |[C28304](../code-quality/c28304.md)|An improperly placed \_Notref\_ operator was found applied to token.|
 |[C28305](../code-quality/c28305.md)|An error while parsing a token was discovered.|
 |[C28350](../code-quality/c28350.md)|The annotation describes a situation that is not conditionally applicable.|
-|[C28351](../code-quality/c28351.md)|The annotation describes where a dynamic value (a variable) cannot be used in the condition.|
+|[C28351](/cpp/code-quality/c28351)|The annotation describes where a dynamic value (a variable) cannot be used in the condition.|

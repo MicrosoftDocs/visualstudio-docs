@@ -1,6 +1,7 @@
 ---
 title: "Troubleshooting the Visual Studio Emulator for Android | Microsoft Docs"
 ms.custom: ""
+ms.prod: visual-studio-dev15
 ms.date: "11/04/2016"
 ms.technology: vs-ide-mobile
 ms.topic: "conceptual"
@@ -8,6 +9,7 @@ ms.assetid: f3fb5df4-3aae-40e4-9450-bbe15b0c5af5
 author: conceptdev
 ms.author: crdun
 manager: crdun
+monikerRange: 'vs-2017'
 ms.workload:
   - "multiple"
 ---

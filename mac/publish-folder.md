@@ -46,7 +46,7 @@ Using Visual Studio for Mac you can publish your .NET Core projects to a folder 
 
 ## Customize Publish Options
 
-To change the name of the publish profile (which is displayed in the publish context menu), rename the publish profile file. Make sure to not change the extension of the file (`.puxbml`).
+To change the name of the publish profile (which is displayed in the publish context menu), rename the publish profile file. Make sure to not change the extension of the file (`.pubxml`).
 
 To change the publish folder path, open the publish profile and edit the `publishUrl` value.
 

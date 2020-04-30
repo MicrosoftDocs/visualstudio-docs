@@ -1,20 +1,20 @@
 ---
-title: "IDebugMethodField::EnumStaticLocals | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugMethodField::EnumStaticLocals | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugMethodField::EnumStaticLocals"
+- IDebugMethodField::EnumStaticLocals
 helpviewer_keywords:
-  - "IDebugMethodField::EnumStaticLocals method"
+- IDebugMethodField::EnumStaticLocals method
 ms.assetid: e0c522c4-f759-4c32-ae87-7abcb573e77d
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugMethodField::EnumStaticLocals
 Creates an enumerator for static local variables of the method.

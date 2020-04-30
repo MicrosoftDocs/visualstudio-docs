@@ -58,7 +58,7 @@ With an active Azure subscription, create an App Service with an empty Web App a
 
 Create a temporary App Service without needing an Azure subscription as follows:
 
-1. Open your browser to [try.azurewebsites.net](https://try.azurewebsites.net).
+1. Open your browser to [https://azure.microsoft.com/try/app-service/web/](https://azure.microsoft.com/try/app-service/web/).
 1. Select **Web App** for the app type, then select **Next**.
 1. Select **Empty Site**, followed by **Create**.
 1. Sign in with a social login of your choice, and after a short time your site is ready at the displayed URL.

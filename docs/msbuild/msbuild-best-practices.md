@@ -13,6 +13,7 @@ ms.workload:
 - multiple
 ---
 # MSBuild best practices
+
 We recommend the following best practices for writing MSBuild scripts:
 
 - Default property values are best handled by using the `Condition` attribute, and not by declaring a property whose default value can be overridden on the command line. For example, use
@@ -23,7 +24,8 @@ We recommend the following best practices for writing MSBuild scripts:
 </MyProperty>
 ```
 
-- Avoid wildcards when you select items. Instead, specify files explicitly. This makes it easier to track down errors that may occur when you add or delete files.
+- In general, avoid the use of wildcards when you select items. Instead, specify files explicitly. This is because in most project types, MSBuild expands wildcards at various times, such as when adding or removing items, which can lead to unexpected behavior. An exception to this is in .NET Core SDK-style projects, which do process wildcards correctly.
 
 ## See also
+
 - [Advanced concepts](../msbuild/msbuild-advanced-concepts.md)

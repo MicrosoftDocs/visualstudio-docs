@@ -36,7 +36,7 @@ productDirectory:
           text: .NET Core Support
         - url: ~/asp-net-core.md
           text: Getting Started with .NET Core
-        - url: https://docs.microsoft.com/aspnet/core/?view=aspnetcore-2.1#build-web-apis-and-web-ui-using-aspnet-core-mvc
+        - url: https://docs.microsoft.com/aspnet/core/?view=aspnetcore-2.1
           text: ASP.NET Documentation
     - title: Azure
       imageSrc: https://docs.microsoft.com/media/logos/logo_azure.svg

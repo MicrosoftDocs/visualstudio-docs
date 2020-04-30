@@ -13,7 +13,7 @@ ms.custom: video
 To start developing native, cross-platform .NET apps on macOS, install Visual Studio 2019 for Mac following the steps below.
 
  > [!div class="button"]
- > [Download Visual Studio for Mac](https://aka.ms/vsmac)
+ > [Download Visual Studio for Mac](https://visualstudio.microsoft.com/vs/mac/)
 
 ## Requirements
 
@@ -26,7 +26,7 @@ To build Xamarin apps for iOS or macOS, you'll also need:
 
 ## Installation instructions
 
-1. Download the installer from the [Visual Studio for Mac download page](https://aka.ms/vsmac).
+1. Download the installer from the [Visual Studio for Mac download page](https://visualstudio.microsoft.com/vs/mac/).
 2. Once the download is complete, click the **VisualStudioforMacInstaller.dmg** to mount the installer, then run it by double-clicking the arrow logo:
 
     [![Click the large arrow to begin installation](media/install-installer-sml.png)](media/install-installer.png#lightbox)

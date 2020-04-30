@@ -1,13 +1,13 @@
 ---
-title: "When package payloads change after a release"
-description: "When creating a layout, learn how to determine if package payloads changed after a release has already shipped."
+title: When package payloads change after a release
+description: When creating a layout, learn how to determine if package payloads changed after a release has already shipped.
 ms.date: 05/22/2019
 ms.topic: conceptual
-author: et13
-ms.author: tglee
+author: ornellaalt
+ms.author: ornella
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
 ---

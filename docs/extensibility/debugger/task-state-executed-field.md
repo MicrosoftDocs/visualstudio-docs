@@ -1,15 +1,15 @@
 ---
-title: "TASK_STATE_EXECUTED Field | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: TASK_STATE_EXECUTED Field | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "TASK_STATE_EXECUTED field, Task class [.NET Framework debug engines]"
+- TASK_STATE_EXECUTED field, Task class [.NET Framework debug engines]
 ms.assetid: 75b8f9d0-b908-40d0-b109-70feaed2ab0c
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # TASK_STATE_EXECUTED field
 The task is running but has not yet completed.

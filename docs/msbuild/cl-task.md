@@ -23,9 +23,11 @@ ms.workload:
 - multiple
 ---
 # CL task
-Wraps the Microsoft C++ compiler tool, *cl.exe*. The compiler produces executable (*.exe*) files, dynamic-link library (*.dll*) files, or code module (*.netmodule*) files. For more information, see [Compiler options](/cpp/build/reference/compiler-options).
+
+Wraps the Microsoft C++ compiler tool, *cl.exe*. The compiler produces executable (*.exe*) files, dynamic-link library (*.dll*) files, or code module (*.netmodule*) files. For more information, see [Compiler options](/cpp/build/reference/compiler-options) and [Use MSBuild from the command line](/cpp/build/msbuild-visual-cpp) and [Use the Microsoft C++ toolset from the command line](/cpp/build/building-on-the-command-line).
 
 ## Parameters
+
  The following list describes the parameters of the **CL** task. Most task parameters, and a few sets of parameters, correspond to a command-line option.
 
 - **AdditionalIncludeDirectories**
@@ -795,4 +797,5 @@ Wraps the Microsoft C++ compiler tool, *cl.exe*. The compiler produces executabl
    For more information, see the **TLogReadFiles** and **TLogWriteFiles** parameters in this table.
 
 ## See also
+
 - [Task reference](../msbuild/msbuild-task-reference.md)

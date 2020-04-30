@@ -1,20 +1,20 @@
 ---
-title: "IEnumCodePaths2::Reset | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IEnumCodePaths2::Reset | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IEnumCodePaths2::Reset"
+- IEnumCodePaths2::Reset
 helpviewer_keywords:
-  - "IEnumCodePaths2::Reset"
+- IEnumCodePaths2::Reset
 ms.assetid: 490c0e19-ff4b-4673-bd06-cdee996ac226
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IEnumCodePaths2::Reset
 Resets the enumeration to the first element.

@@ -20,6 +20,7 @@ ms.workload:
 - multiple
 ---
 # Output element (MSBuild)
+
 Stores task output values in items and properties.
 
  \<Project>
@@ -36,6 +37,7 @@ Stores task output values in items and properties.
 ```
 
 ## Attributes and elements
+
  The following sections describe attributes, child elements, and parent elements.
 
 ### Attributes
@@ -48,15 +50,17 @@ Stores task output values in items and properties.
 |`Condition`|Optional attribute.<br /><br /> Condition to be evaluated. For more information, see [Conditions](../msbuild/msbuild-conditions.md).|
 
 ### Child elements
+
  None.
 
 ### Parent elements
 
 | Element | Description |
 | - | - |
-| [Task](../msbuild/task-element-msbuild.md) | Creates and executes an instance of an [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] task. |
+| [Task](../msbuild/task-element-msbuild.md) | Creates and executes an instance of an MSBuild task. |
 
 ## Example
+
  The following code example shows the `Csc` task being executed inside of a `Target` element. The items and properties passed to the task parameters are declared outside of the scope of this example. The value from the output parameter `OutputAssembly` is stored in the `FinalAssemblyName` item, and the value from the output parameter `BuildSucceeded` is stored in the `BuildWorked` property. For more information, see [Tasks](../msbuild/msbuild-tasks.md).
 
 ```xml
@@ -77,5 +81,6 @@ Stores task output values in items and properties.
 ```
 
 ## See also
+
 - [Project file schema reference](../msbuild/msbuild-project-file-schema-reference.md)
 - [Tasks](../msbuild/msbuild-tasks.md)

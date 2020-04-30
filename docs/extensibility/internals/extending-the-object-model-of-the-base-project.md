@@ -1,17 +1,17 @@
 ---
-title: "Extending the Object Model of the Base Project | Microsoft Docs"
+title: Extending the Object Model of the Base Project | Microsoft Docs
 ms.date: 03/22/2018
-ms.topic: "conceptual"
+ms.topic: conceptual
 helpviewer_keywords:
-  - "automation object model, extending"
-  - "project subtypes, extending automation object model"
-  - "automation object model"
+- automation object model, extending
+- project subtypes, extending automation object model
+- automation object model
 ms.assetid: 2f95cc53-dff6-476c-bacd-500fb0ff7725
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Extend the object model of the base project
 

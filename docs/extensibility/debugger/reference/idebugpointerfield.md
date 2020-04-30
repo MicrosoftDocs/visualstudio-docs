@@ -1,17 +1,17 @@
 ---
-title: "IDebugPointerField | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugPointerField | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugPointerField"
+- IDebugPointerField
 helpviewer_keywords:
-  - "IDebugPointerField interface"
+- IDebugPointerField interface
 ms.assetid: d51bd5b2-f18e-4e27-b4fb-e6f652fbf635
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # IDebugPointerField
 This interface represents a pointer type.

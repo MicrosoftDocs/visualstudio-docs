@@ -1,15 +1,15 @@
 ---
-title: "Registering a Custom Debug Engine | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Registering a Custom Debug Engine | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "debug engines, registering"
+- debug engines, registering
 ms.assetid: 9984cd3d-d34f-4662-9ace-31766499abf5
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Register a custom debug engine
 The debug engine must register itself as a class factory, following COM conventions as well as register with Visual Studio through the Visual Studio registry subkey.

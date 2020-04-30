@@ -74,7 +74,6 @@
       "feedback_product_url": "https://developercommunity.visualstudio.com/",
       "breadcrumb_path": "/visualstudio/_breadcrumb/toc.json",
       "extendBreadcrumb": "true",
-      "ROBOTS": "INDEX,FOLLOW",
       "manager": "jillfra",
       "author": "jillre",
       "ms.author": "jillfra",
@@ -137,7 +136,8 @@
         "vs-2015/**/*.md": "/visualstudio/_breadcrumb/vs-2015/toc.json"
       },
       "feedback_system": {
-        "vs-2015/**/*": "None"
+        "vs-2015/**/*": "None",
+        "extensibility/**/*": "None"
       },
       "searchScope": {
         "extensibility/**/*.md": [

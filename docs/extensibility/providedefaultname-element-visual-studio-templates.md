@@ -1,18 +1,18 @@
 ---
-title: "ProvideDefaultName Element (Visual Studio Templates) | Microsoft Docs"
-ms.date: "11/04/2016"
+title: ProvideDefaultName Element (Visual Studio Templates) | Microsoft Docs
+ms.date: 11/04/2016
 ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
-  - "http://schemas.microsoft.com/developer/vstemplate/2005#ProvideDefaultName"
+- http://schemas.microsoft.com/developer/vstemplate/2005#ProvideDefaultName
 helpviewer_keywords:
-  - "ProvideDefaultName element [Visual Studio project templates]"
+- ProvideDefaultName element [Visual Studio project templates]
 ms.assetid: 7b0e7b20-fd6b-42e2-81d0-e5100cea0528
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # ProvideDefaultName element (Visual Studio templates)
 Specifies whether the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] project system will generate a default name for the template in the **Add New Item** or **New Project** dialog box.

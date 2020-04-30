@@ -1,17 +1,17 @@
 ---
-title: "IDebugProgramEx2 | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugProgramEx2 | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugProgramEx2"
+- IDebugProgramEx2
 helpviewer_keywords:
-  - "IDebugProgramEx2 interface"
+- IDebugProgramEx2 interface
 ms.assetid: 663359ed-635a-4539-addb-0cc52f19d1bd
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # IDebugProgramEx2
 This interface lets the session debug manager (SDM) attach to a program and get the program node associated with a program.

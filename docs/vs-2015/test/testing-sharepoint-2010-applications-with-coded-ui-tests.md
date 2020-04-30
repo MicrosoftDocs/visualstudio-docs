@@ -19,7 +19,7 @@ Including coded UI tests in a SharePoint application lets you verify that the wh
 - Visual Studio Enterprise
 
 ## What else should I know about coded UI tests?
- To learn more about the benefits of using coded UI tests, see [Use UI Automation To Test Your Code](../test/use-ui-automation-to-test-your-code.md) and [Testing for Continuous Delivery with Visual Studio 2012 – Chapter 5 Automating System Tests](https://go.microsoft.com/fwlink/?LinkID=255196).
+ To learn more about the benefits of using coded UI tests, see [Use UI Automation To Test Your Code](../test/use-ui-automation-to-test-your-code.md) and [Testing for Continuous Delivery with Visual Studio 2012 – Chapter 5 Automating System Tests](https://msdn.microsoft.com/library/jj159335.aspx).
 
  **Notes**
 
@@ -132,10 +132,10 @@ uiGridKeyboardInputEdit.Text=value;
  [Content Index for Coded UI Test](https://blogs.msdn.microsoft.com/mathew_aniyan/2013/02/18/content-index-for-coded-ui-test/)
 
 ### Guidance
- [Testing for Continuous Delivery with Visual Studio 2012 – Chapter 5 Automating System Tests](https://go.microsoft.com/fwlink/?LinkID=255196)
+ [Testing for Continuous Delivery with Visual Studio 2012 – Chapter 5 Automating System Tests](https://msdn.microsoft.com/library/jj159335.aspx)
 
 ### Forum
- [Visual Studio ALM + Team Foundation Server Blog](https://go.microsoft.com/fwlink/?LinkID=254496)
+ [Visual Studio ALM + Team Foundation Server Blog](https://devblogs.microsoft.com/devops/welcome-to-the-visual-studio-alm-team-foundation-server-blog/)
 
 ## See Also
  [Use UI Automation To Test Your Code](../test/use-ui-automation-to-test-your-code.md)

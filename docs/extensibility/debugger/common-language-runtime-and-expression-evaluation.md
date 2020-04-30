@@ -1,16 +1,16 @@
 ---
-title: "Common Language Runtime and Expression Evaluation | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Common Language Runtime and Expression Evaluation | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "debugging [Debugging SDK], expression evaluation"
-  - "expression evaluation, and common language runtime"
+- debugging [Debugging SDK], expression evaluation
+- expression evaluation, and common language runtime
 ms.assetid: b36c1eb5-1aaf-48a6-b287-ee7a273d2b1c
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Common language runtime and expression evaluation
 > [!IMPORTANT]

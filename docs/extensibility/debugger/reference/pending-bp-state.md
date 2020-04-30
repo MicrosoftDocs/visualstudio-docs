@@ -1,20 +1,20 @@
 ---
-title: "PENDING_BP_STATE | Microsoft Docs"
-ms.date: "11/04/2016"
+title: PENDING_BP_STATE | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "PENDING_BP_STATE"
+- PENDING_BP_STATE
 helpviewer_keywords:
-  - "PENDING_BP_STATE enumeration"
+- PENDING_BP_STATE enumeration
 ms.assetid: ac04ad72-fa92-4a15-ade2-0d0bbbadfc7f
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # PENDING_BP_STATE
 Specifies the state of a pending breakpoint (a breakpoint that has not yet been bound).

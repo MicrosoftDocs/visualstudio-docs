@@ -37,7 +37,7 @@ Build your project to run assembly-based discovery.
 ::: moniker range="vs-2017"
 Build your project and make sure assembly-based discovery is turned on in **Tools** > **Options** > **Test**.
 ::: moniker-end
-[Real-time test discovery](https://go.microsoft.com/fwlink/?linkid=862824) is source-based test discovery. It can’t discover tests that use theories, custom adapters, custom traits, `#ifdef` statements, and more because they're defined at run time. A build is required for those tests to be accurately found. In Visual Studio 2017 version 15.6 and later, assembly-based discovery (the traditional discoverer) runs only after builds. This setting means real-time test discovery finds as many tests as it can while you're editing, and assembly-based discovery allows dynamically defined tests to appear after a build. Real-time test discovery improves responsiveness, but still allows you to get complete and precise results after a build.
+[Real-time test discovery](https://devblogs.microsoft.com/dotnet/real-time-test-discovery/) is source-based test discovery. It can’t discover tests that use theories, custom adapters, custom traits, `#ifdef` statements, and more because they're defined at run time. A build is required for those tests to be accurately found. In Visual Studio 2017 version 15.6 and later, assembly-based discovery (the traditional discoverer) runs only after builds. This setting means real-time test discovery finds as many tests as it can while you're editing, and assembly-based discovery allows dynamically defined tests to appear after a build. Real-time test discovery improves responsiveness, but still allows you to get complete and precise results after a build.
 
 ## Test Explorer '+' (plus) symbol
 
@@ -61,13 +61,13 @@ Go to **Tools** > **Options** > **Test** and check the box for **Additionally di
 
 **Tests now appear in Test Explorer while I type, without having to build my project. What changed?**
 
-This feature is called [Real-time test discovery](https://go.microsoft.com/fwlink/?linkid=862824). It uses a Roslyn analyzer to find tests and populate Test Explorer in real time, without requiring you to build your project. For more information about test discovery behavior for dynamically defined tests such as theories or custom traits, see [Dynamic test discovery](#dynamic-test-discovery).
+This feature is called [Real-time test discovery](https://devblogs.microsoft.com/dotnet/real-time-test-discovery/). It uses a Roslyn analyzer to find tests and populate Test Explorer in real time, without requiring you to build your project. For more information about test discovery behavior for dynamically defined tests such as theories or custom traits, see [Dynamic test discovery](#dynamic-test-discovery).
 
 ## Real-time test discovery compatibility
 
 **What languages and test frameworks can use Real Time Test Discovery?**
 
-[Real-time test discovery](https://go.microsoft.com/fwlink/?linkid=862824) only works for the managed languages (C# and Visual Basic), since it's built using the Roslyn compiler. For now, real-time test discovery only works for the xUnit, NUnit, and MSTest frameworks.
+[Real-time test discovery](https://devblogs.microsoft.com/dotnet/real-time-test-discovery/) only works for the managed languages (C# and Visual Basic), since it's built using the Roslyn compiler. For now, real-time test discovery only works for the xUnit, NUnit, and MSTest frameworks.
 
 ## Test Explorer logs
 

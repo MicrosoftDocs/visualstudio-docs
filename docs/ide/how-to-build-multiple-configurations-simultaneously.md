@@ -18,11 +18,13 @@ You can build most types of projects with multiple, or even all, of their build 
 
 2. All Visual Basic projects.
 
+If a solution contains any project of those two project types, then **Batch Build** is not available for that solution. In that case, the command doesn't appear on the **Build** menu.
+
    For more information about build configurations, see [Understand build configurations](../ide/understanding-build-configurations.md).
 
 ## To build a project in multiple build configurations
 
-1. On the menu bar, choose **Build** > **Batch Build**.
+1. On the menu bar, choose **Build** > **Batch Build**. Or, press **Ctrl**+**Q** to open the search box, and search for `Batch Build`.
 
 2. In the **Build** column, select the check boxes for the configurations in which you want to build a project.
 

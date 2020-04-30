@@ -12,12 +12,14 @@ ms.workload:
 - multiple
 ---
 # Logging in MSBuild
+
 Logging provides a way for you to monitor the progress of a build. Logging captures build events, messages, warnings, and errors in a log file.
 
 ## In this section
+
 - [Obtain build logs](../msbuild/obtaining-build-logs-with-msbuild.md)
 
- Describes the various aspects of logging in [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)].
+ Describes the various aspects of logging in MSBuild.
 
 - [Build loggers](../msbuild/build-loggers.md)
 
@@ -36,5 +38,6 @@ Logging provides a way for you to monitor the progress of a build. Logging captu
  Outlines how to create custom forwarding loggers.
 
 ## See also
+
 - [Build multiple projects in parallel](../msbuild/building-multiple-projects-in-parallel-with-msbuild.md)
  Describes how to build multiple projects faster by running them in parallel.

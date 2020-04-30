@@ -1,16 +1,16 @@
 ---
-title: "Workflow Designer - How to: Add comments to a workflow"
+title: 'Workflow Designer - How to: Add comments to a workflow'
 ms.date: 11/04/2016
 ms.topic: conceptual
 f1_keywords:
-  - "System.Activities.Presentation.Annotations.Annotation.UI"
-  - "Annotation"
+- System.Activities.Presentation.Annotations.Annotation.UI
+- Annotation
 ms.assetid: 9aa0e8d6-8129-4438-8389-d460611581a7
-ms.author: jillfra
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
-author: jillre
+- multiple
+author: TerryGLee
 ---
 # How to: Add comments to a workflow in the Workflow Designer
 

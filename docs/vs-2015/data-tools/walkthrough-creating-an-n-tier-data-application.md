@@ -47,7 +47,7 @@ N-tier* data applications are applications that access data and are separated in
 
 - Write code to populate the data tables.
 
-  ![link to video](../data-tools/media/playvideo.gif "PlayVideo") For a video version of this topic, see [Video How to: Creating an N-Tier Data Application](https://go.microsoft.com/fwlink/?LinkId=115188).
+  ![link to video](../data-tools/media/playvideo.gif "PlayVideo") For a video version of this topic, see [Video How to: Creating an N-Tier Data Application](https://msdn2.microsoft.com/library/cc178916.aspx).
 
 ## Prerequisites
  To complete this walkthrough, you need:

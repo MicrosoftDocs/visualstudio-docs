@@ -1,20 +1,20 @@
 ---
-title: "IDebugProcess2::GetInfo | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugProcess2::GetInfo | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugProcess2::GetInfo"
+- IDebugProcess2::GetInfo
 helpviewer_keywords:
-  - "IDebugProcess2::GetInfo"
+- IDebugProcess2::GetInfo
 ms.assetid: 46021dce-bb97-46c3-b0cc-e5b3b68acc35
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugProcess2::GetInfo
 Gets a description of the process.

@@ -1,16 +1,16 @@
 ---
-title: "Registration and Selection (Source Control VSPackage) | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Registration and Selection (Source Control VSPackage) | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "registration, source control packages"
-  - "source control packages, registration"
+- registration, source control packages
+- source control packages, registration
 ms.assetid: 7d21fe48-489a-4f55-acb5-73da64c4e155
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Registration and Selection (Source Control VSPackage)
 A source control VSPackage must be registered to expose it to the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]. If more than one source control VSPackage is registered, the user can select which VSPackage to load at appropriate times. See [VSPackages](../../extensibility/internals/vspackages.md) for more details on VSPackages and how to register them.

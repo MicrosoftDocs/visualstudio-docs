@@ -1,16 +1,16 @@
 ---
-title: "Project Configuration for Building | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Project Configuration for Building | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "projects [Visual Studio SDK], configuration for building"
-  - "project configurations, building"
+- projects [Visual Studio SDK], configuration for building
+- project configurations, building
 ms.assetid: 2c83615d-fa4d-4b9f-b315-7a69b3000da0
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Project Configuration for Building
 The list of solution configurations for a given solution is managed by the Solution Configurations dialog box.

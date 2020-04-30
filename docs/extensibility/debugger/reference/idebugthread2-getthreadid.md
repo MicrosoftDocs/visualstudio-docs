@@ -1,20 +1,20 @@
 ---
-title: "IDebugThread2::GetThreadId | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugThread2::GetThreadId | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugThread2::GetThreadId"
+- IDebugThread2::GetThreadId
 helpviewer_keywords:
-  - "IDebugThread2::GetThreadId"
+- IDebugThread2::GetThreadId
 ms.assetid: db8b1c07-6b86-47f9-b292-bac19c276d36
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugThread2::GetThreadId
 Gets the system thread identifier.

@@ -1,20 +1,20 @@
 ---
-title: "IEnumDebugBoundBreakpoints2::GetCount | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IEnumDebugBoundBreakpoints2::GetCount | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IEnumDebugBoundBreakpoints2::GetCount"
+- IEnumDebugBoundBreakpoints2::GetCount
 helpviewer_keywords:
-  - "IEnumDebugBoundBreakpoints2::GetCount"
+- IEnumDebugBoundBreakpoints2::GetCount
 ms.assetid: 5a572eeb-beb7-4fc7-8259-792d277069be
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IEnumDebugBoundBreakpoints2::GetCount
 Returns the number of elements in the enumeration.

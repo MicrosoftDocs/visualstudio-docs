@@ -1,16 +1,16 @@
 ---
-title: "Menus Element | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Menus Element | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "VSCT XML schema elements, Menus"
-  - "Menus element (VSCT XML schema)"
+- VSCT XML schema elements, Menus
+- Menus element (VSCT XML schema)
 ms.assetid: d825a99b-e05c-4dd9-8933-a180216d667a
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Menus element
 Defines all the menus and toolbars that a VSPackage implements.

@@ -1,17 +1,17 @@
 ---
-title: "SccQueryChanges Function | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: SccQueryChanges Function | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 f1_keywords:
-  - "SccQueryChanges"
+- SccQueryChanges
 helpviewer_keywords:
-  - "SccQueryChanges function"
+- SccQueryChanges function
 ms.assetid: 4cd58eb3-6952-49b1-9620-8682e3eaa604
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # SccQueryChanges Function
 This function enumerates a given list of files, providing information about name changes for each file via a callback function.

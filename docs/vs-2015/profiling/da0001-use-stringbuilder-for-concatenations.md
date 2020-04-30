@@ -18,7 +18,7 @@ manager: jillfra
 # DA0001: Use StringBuilder for concatenations
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-For the latest documentation on Visual Studio, see [DA0001: Use StringBuilder for concatenations](https://docs.microsoft.com/visualstudio/profiling/da0001-use-stringbuilder-for-concatenations).  
+For the latest documentation on Visual Studio, see [DA0001: Use StringBuilder for concatenations](/visualstudio/profiling/da0001-use-stringbuilder-for-concatenations).  
   
 |||  
 |-|-|  
@@ -39,4 +39,4 @@ For the latest documentation on Visual Studio, see [DA0001: Use StringBuilder fo
 ## How to Investigate a Warning  
  Double-click the message in the Error List window to navigate to the [Function Details View](../profiling/function-details-view.md) of the sampling profile data. Find the sections of the program that make the most frequent use of string concatenation. Use the StringBuilder class for complex string manipulations, including frequent string concatenation operations.  
   
- For more information about how to work with strings, the [String Operations](https://go.microsoft.com/fwlink/?LinkId=177816) section of [Chapter 5 - Improving Managed Code Performance](https://go.microsoft.com/fwlink/?LinkId=177817) in the Microsoft Patterns and Practices library.
+ For more information about how to work with strings, the [String Operations](https://msdn.microsoft.com/library/ms998547.aspx#scalenetchapt05_topic26) section of [Chapter 5 - Improving Managed Code Performance](https://msdn.microsoft.com/library/ms998547.aspx) in the Microsoft Patterns and Practices library.

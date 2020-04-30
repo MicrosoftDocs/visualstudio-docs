@@ -818,4 +818,4 @@ For the Runtime API, see [Windows Help API](https://msdn.microsoft.com/library/w
 
 For more information on how to leverage the Help API, see [Help Viewer Code Examples](https://marketplace.visualstudio.com/items?itemName=RobChandlerHelpMVP.HelpViewer20CodeExamples).
 
-For updates on breaking issues, see the [Help Viewer Readme](https://go.microsoft.com/fwlink/?LinkID=231397&clcid=0x409).
+For updates on breaking issues, see the [Help Viewer Readme](https://go.microsoft.com/fwlink/?LinkId=255960).

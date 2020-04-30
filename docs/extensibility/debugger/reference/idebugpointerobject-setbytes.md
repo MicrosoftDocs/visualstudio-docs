@@ -1,20 +1,20 @@
 ---
-title: "IDebugPointerObject::SetBytes | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugPointerObject::SetBytes | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugPointerObject::SetBytes"
+- IDebugPointerObject::SetBytes
 helpviewer_keywords:
-  - "IDebugPointerObject::SetBytes method"
+- IDebugPointerObject::SetBytes method
 ms.assetid: 8c578b38-38d7-46f3-bb2e-8a730fccd334
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugPointerObject::SetBytes
 Sets the value pointed to from a series of consecutive bytes.

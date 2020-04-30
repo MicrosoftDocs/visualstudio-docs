@@ -60,6 +60,12 @@ Specifies the processor to be targeted by the output file. Choose **x86** for an
 
 For more information, see [/platform (C# Compiler Options)](/dotnet/csharp/language-reference/compiler-options/platform-compiler-option).
 
+**Nullable**
+
+Specifies the project-wide C# nullable context. This UI option was introduced in Visual Studio 16.5, and is only enabled for projects that use C# 8.0 or later.
+
+For more information, see [Nullable Contexts](/dotnet/csharp/nullable-references#nullable-contexts).
+
 **Prefer 32-bit**
 
 If the **Prefer32-bit** check box is selected, the application runs as a 32-bit application on both 32-bit and 64-bit versions of Windows. If the check box is cleared, the application runs as a 32-bit application on 32-bit versions of Windows and as a 64-bit application on 64-bit versions of Windows.

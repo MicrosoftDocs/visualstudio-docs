@@ -13,7 +13,7 @@ manager: jillfra
 [!INCLUDE[vs2017banner](../../includes/vs2017banner.md)]
 
 ## <a name="BKMK_ImageUseInVisualStudio"></a> Image use in Visual Studio
- Before creating artwork, consider making use of the 1,000+ images in the [Visual Studio Image Library](http://www.microsoft.com/en-my/download/details.aspx?id=35825).
+ Before creating artwork, consider making use of the 1,000+ images in the [Visual Studio Image Library](https://www.microsoft.com/download/details.aspx?id=35825).
 
 ### Types of images
 

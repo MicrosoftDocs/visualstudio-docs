@@ -1,19 +1,19 @@
 ---
-title: "IDebugGenericParamField::GetFlags | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugGenericParamField::GetFlags | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
-  - "GetFlags"
-  - "IDebugGenericParamField::GetFlags"
+- GetFlags
+- IDebugGenericParamField::GetFlags
 ms.assetid: adcbbca1-8960-4c88-86b0-8b9467056c97
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugGenericParamField::GetFlags
 Retrieves the flags for this generic parameter.

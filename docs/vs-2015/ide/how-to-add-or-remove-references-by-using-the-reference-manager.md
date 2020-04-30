@@ -48,7 +48,7 @@ You can use the **Reference Manager** dialog box to add and manage references to
 - Browse, with the Recent subgroup.
 
 ## Assemblies tab
- The **Assemblies** tab lists all .NET Framework assemblies that are available for referencing. The **Assemblies** tab doesn’t list any assemblies from the global assembly cache (GAC) because assemblies in the GAC are part of the run-time environment. If you deploy or copy an application that contains a reference to an assembly that’s registered in the GAC, the assembly won’t be deployed or copied with the application, regardless of the Copy Local setting. For more information, see [Project References](https://go.microsoft.com/fwlink/?LinkId=238512).
+ The **Assemblies** tab lists all .NET Framework assemblies that are available for referencing. The **Assemblies** tab doesn’t list any assemblies from the global assembly cache (GAC) because assemblies in the GAC are part of the run-time environment. If you deploy or copy an application that contains a reference to an assembly that’s registered in the GAC, the assembly won’t be deployed or copied with the application, regardless of the Copy Local setting. For more information, see [Project References](https://msdn.microsoft.com/library/ez524kew.aspx).
 
  When you manually add a reference to any of the EnvDTE namespaces (EnvDTE, EnvDTE80, EnvDTE90, EnvDTE90a, or EnvDTE100), set the Embed Interop Types property of the reference to False in the Properties window. Setting this property to True can cause build issues because of certain EnvDTE properties that can’t be embedded.
 

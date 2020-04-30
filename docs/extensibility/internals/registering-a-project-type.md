@@ -1,17 +1,17 @@
 ---
-title: "Registering a Project Type | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Registering a Project Type | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "projects [Visual Studio SDK], new project registry entries"
-  - "registry, new project types"
-  - "registration, new project types"
+- projects [Visual Studio SDK], new project registry entries
+- registry, new project types
+- registration, new project types
 ms.assetid: dfc0e231-6b4e-447d-9d64-0e66dea3394a
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Registering a Project Type
 When you create a new project type, you must create registry entries that enable [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] to recognize and work with your project type. You typically create these registry entries by using a registry script (.rgs) file.

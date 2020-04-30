@@ -30,7 +30,7 @@ NOTE]
   
  You can use the Concurrency Visualizer to see how your multithreaded app performs. The views in the Concurrency Visualizer provide graphical, tabular, and textual data that shows the temporal relationships between the threads in your program and the system as a whole. You can use the Concurrency Visualizer to locate performance bottlenecks, CPU underutilization, thread contention, cross-core thread migration, synchronization delays, DirectX activity, areas of overlapped I/O, and other information. The views provide data that you can act on by linking its graphical output to call stacks and source code.  
   
- The Concurrency Visualizer relies on [Event Tracing for Windows](https://go.microsoft.com/fwlink/?LinkId=234579) functionality.  
+ The Concurrency Visualizer relies on [Event Tracing for Windows](https://msdn.microsoft.com/library/bb968803(VS.85).aspx) functionality.  
   
 > [!NOTE]
 > The Concurrency Visualizer doesn't support Web projects.  
@@ -43,7 +43,7 @@ NOTE]
 |[Threads View](../profiling/threads-view-parallel-performance.md)|Describes how to analyze the interactions between threads in your program.|  
 |[Cores View](../profiling/cores-view.md)|Describes how to analyze thread migration across cores.|  
 |[Common Patterns for Poorly-Behaved Multithreaded Applications](../profiling/common-patterns-for-poorly-behaved-multithreaded-applications.md)|Describes several common patterns and shows how they appear in the Concurrency Visualizer.|  
-|[Parallel Development in Visual Studio blog](https://go.microsoft.com/fwlink/?LinkId=235385)|Provides tips and best practices for the Concurrency Visualizer.|  
+|[Parallel Development in Visual Studio blog](https://docs.microsoft.com/archive/blogs/visualizeparallel/)|Provides tips and best practices for the Concurrency Visualizer.|  
 |[Performance Report Views](../profiling/performance-report-views.md)|Provides reference information for the reports and views of Visual Studio Profiling Tools.|  
 |[Concurrency Visualizer SDK](../profiling/concurrency-visualizer-sdk.md)|Describes how to instrument your source code to display additional information in the Concurrency Visualizer.|  
 |[Concurrency Visualizer Command-Line Utility (CVCollectionCmd)](../profiling/concurrency-visualizer-command-line-utility-cvcollectioncmd.md)|Describes how to use the Concurrency Visualizer command line utility (CVCollectionCmd.exe) to collect and process traces on machines that don't have Visual Studio.|  

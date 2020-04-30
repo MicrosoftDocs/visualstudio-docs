@@ -133,17 +133,17 @@ Coded UI tests can automate testing for web applications by recording your tests
  [Troubleshoot cross browser test failures](https://skydrive.live.com/redir?resid=AE5CD7309CCCC43C!182&authkey=!AEpS48i295B49FI)
 
 ### Guidance
- [Testing for Continuous Delivery with Visual Studio 2012 – Chapter 2: Unit Testing: Testing the Inside](https://go.microsoft.com/fwlink/?LinkID=255188)
+ [Testing for Continuous Delivery with Visual Studio 2012 – Chapter 2: Unit Testing: Testing the Inside](https://msdn.microsoft.com/library/jj159340.aspx)
 
- [Testing for Continuous Delivery with Visual Studio 2012 – Chapter 5: Automating System Tests](https://go.microsoft.com/fwlink/?LinkID=255196)
+ [Testing for Continuous Delivery with Visual Studio 2012 – Chapter 5: Automating System Tests](https://msdn.microsoft.com/library/jj159335.aspx)
 
 ### FAQ
- [Coded UI Tests FAQ - 1](https://go.microsoft.com/fwlink/?LinkID=230576)
+ [Coded UI Tests FAQ - 1](https://docs.microsoft.com/archive/blogs/mathew_aniyan/content-index-for-coded-ui-test)
 
- [Coded UI Tests FAQ -2](https://go.microsoft.com/fwlink/?LinkID=230578)
+ [Coded UI Tests FAQ -2](https://social.msdn.microsoft.com/Forums/en-US/vsautotest/thread/3a74dd2c-cef8-4923-abbf-7a91f489e6c4)
 
 ### Forum
- [Visual Studio UI Automation Testing (includes Coded UI)](https://go.microsoft.com/fwlink/?LinkID=224497)
+ [Visual Studio UI Automation Testing (includes Coded UI)](https://social.msdn.microsoft.com/Forums/en-US/vsautotest)
 
 ## See Also
  [Use UI Automation To Test Your Code](../test/use-ui-automation-to-test-your-code.md)

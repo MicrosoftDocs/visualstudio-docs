@@ -1,15 +1,15 @@
 ---
-title: "TASK_STATE_RAN_TO_COMPLETION Field | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: TASK_STATE_RAN_TO_COMPLETION Field | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "TASK_STATE_RAN_TO_COMPLETION field, Task class [.NET Framework debug engines]"
+- TASK_STATE_RAN_TO_COMPLETION field, Task class [.NET Framework debug engines]
 ms.assetid: 0f4830af-fe0c-4141-b768-817f4e426b8c
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # TASK_STATE_RAN_TO_COMPLETION field
 The task completed execution successfully.

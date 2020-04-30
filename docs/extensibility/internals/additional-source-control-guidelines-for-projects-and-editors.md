@@ -1,15 +1,15 @@
 ---
-title: "Additional Source Control Guidelines for Projects and Editors | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Additional Source Control Guidelines for Projects and Editors | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "source control [Visual Studio SDK], guidelines for projects and editors"
+- source control [Visual Studio SDK], guidelines for projects and editors
 ms.assetid: 2483cce5-321c-4d3c-9c5c-ee8385263f74
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Additional source control guidelines for projects and editors
 There are a number of guidelines that projects and editors should adhere to in order to support source control.

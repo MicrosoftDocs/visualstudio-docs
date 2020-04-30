@@ -1,20 +1,20 @@
 ---
-title: "THREADPROPERTIES | Microsoft Docs"
-ms.date: "11/04/2016"
+title: THREADPROPERTIES | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "THREADPROPERTIES"
+- THREADPROPERTIES
 helpviewer_keywords:
-  - "THREADPROPERTIES structure"
+- THREADPROPERTIES structure
 ms.assetid: 7d397207-db03-4ec0-9f79-3794056ed89f
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # THREADPROPERTIES
 Describes the properties of a thread.

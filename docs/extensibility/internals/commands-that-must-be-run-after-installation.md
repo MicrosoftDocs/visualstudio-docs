@@ -1,15 +1,15 @@
 ---
-title: "Commands That Must Be Run After Installation | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Commands That Must Be Run After Installation | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "post-install commands"
+- post-install commands
 ms.assetid: c9601f2e-2c6e-4da9-9a6e-e707319b39e2
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Commands that must be run after installation
 If you deploy your extension through a *.msi* file, you must run **devenv /setup** as part of your installation in order for Visual Studio to discover your extensions.

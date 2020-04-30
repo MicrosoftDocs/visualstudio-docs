@@ -51,7 +51,7 @@ By default, diagnostics are enabled for the Web role. The Azure cloud service pr
 
 ## Settings page
 
-On the **Settings** page, you can add settings to a configuration as name-value pairs. Code running in the role can read the values of your configuration settings at runtime using classes provided by the [Azure Managed Library](https://go.microsoft.com/fwlink?LinkID=171026), specifically, the [GetConfigurationSettingValue](https://msdn.microsoft.com/library/azure/microsoft.windowsazure.serviceruntime.roleenvironment.getconfigurationsettingvalue.aspx) method.
+On the **Settings** page, you can add settings to a configuration as name-value pairs. Code running in the role can read the values of your configuration settings at runtime using classes provided by the [Azure Managed Library](/previous-versions/azure/dn602775(v=azure.11)), specifically, the [GetConfigurationSettingValue](/previous-versions/azure/reference/ee772857(v=azure.100)) method.
 
 ### Configuring a connection string for a storage account
 

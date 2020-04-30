@@ -1,7 +1,7 @@
 ---
 title: "Analyze memory usage without debugging | Microsoft Docs"
 ms.custom: ""
-ms.date: "11/15/2018"
+ms.date: "04/02/2020"
 ms.topic: "conceptual"
 dev_langs:
   - "CSharp"
@@ -18,21 +18,21 @@ ms.workload:
 
 The **Memory Usage** tool monitors your app's memory use. You can use the tool to study the real-time memory effects of scenarios you're actively developing in Visual Studio. You can take detailed snapshots of the app's memory states, and compare snapshots to find the root causes of memory issues.
 
-The **Memory Usage** tool can run with or without the debugger. The following instructions show how to use the **Memory Usage** tool without the debugger in the Visual Studio **Performance Profiler**.
-
->[!NOTE]
->- To measure memory usage for a .NET Core app, you must use the **Memory Usage** tool with the debugger. For instructions, see [Profile memory usage in Visual Studio](memory-usage.md).
->- To analyze memory use in JavaScript or HTML UWP apps, use the [JavaScript Memory](../profiling/javascript-memory.md) tool in **Performance Profiler**.
+The **Memory Usage** tool can run [with or without the debugger](../profiling/running-profiling-tools-with-or-without-the-debugger.md). In this article, we show how to use the **Memory Usage** tool without the debugger in the Visual Studio **Performance Profiler**.
 
 ## Memory Usage diagnostic sessions
 
 **To start a Memory Usage diagnostic session:**
 
-1. Open a C# Universal Windows (UWP) project in Visual Studio.
+1. Open a project in Visual Studio.
+
+   The Memory Usage tool supports .NET, ASP.NET, native, or mixed mode (.NET and native) apps.
+
+1. In the Debug menu, set the solution configuration to **Release** and select **Local Windows Debugger** (or **Local Machine**) as the deployment target.
 
 1. On the menu bar, choose  **Debug** > **Performance Profiler**.
 
-1. Select **Memory Usage**, and then select **Start**.
+1. Under **Available Tools**, select **Memory Usage**, and then select **Start**.
 
    ![Start a Memory Usage diagnostic session](../profiling/media/memuse_start_diagnosticssession.png "Start a Memory Usage diagnostic session")
 
@@ -87,13 +87,13 @@ In a snapshot report, you can expand **Object Type** entries to display child en
 
 If an **Object Type** is blue, you can select it to navigate to the object in the source code, in a separate window.
 
-Types that you can't identify or whose involvement in your code you don't understand are probably .NET Framework, operating system, or compiler objects. The **Memory Usage** tool displays these objects if they're involved in the ownership chains of your objects.
+Types that you can't identify or whose involvement in your code you don't understand are probably .NET, operating system, or compiler objects. The **Memory Usage** tool displays these objects if they're involved in the ownership chains of your objects.
 
 In the snapshot report:
 
 - The **Managed Heap** tree shows the types and instances in the report. Selecting a type or instance displays the **Paths to Root** and **Referenced Objects** trees for the selected item.
 
-- The **Paths to Root** tree shows the chain of objects that reference a type or instance. The .NET Framework garbage collector cleans up the memory for an object only when all references to it have been released.
+- The **Paths to Root** tree shows the chain of objects that reference a type or instance. The .NET garbage collector cleans up the memory for an object only when all references to it have been released.
 
 - The **Referenced Types** or **Referenced Objects** tree shows the objects that the selected type or instance references.
 
@@ -133,7 +133,7 @@ The **Managed Heap** tree in a snapshot details report has the following columns
 |**Module**|The module that contains the object.|
 
 ### <a name="BKMK_Paths_to_Root_tree__Snapshot_details_"></a> Paths to Root tree (Snapshot details reports)
-The **Paths to Root tree** shows the chain of objects that reference a type or instance. The .NET Framework garbage collector cleans up the memory for an object only when all references to it have been released.
+The **Paths to Root tree** shows the chain of objects that reference a type or instance. The .NET garbage collector cleans up the memory for an object only when all references to it have been released.
 
 For a type in the **Paths to Root** tree, the number of objects that hold references to that type appears in the **Reference Count** column.
 
@@ -183,7 +183,7 @@ The **Managed Heap** tree in a snapshot diff report has the following columns:
 
 ### <a name="BKMK_Paths_to_Root_tree__Snapshot_diff_"></a> Paths to Root tree (Snapshot diff reports)
 
-The **Paths to Root tree** shows the chain of objects that reference a type or instance. The .NET Framework garbage collector cleans up the memory for an object only when all references to it have been released.
+The **Paths to Root tree** shows the chain of objects that reference a type or instance. The .NET garbage collector cleans up the memory for an object only when all references to it have been released.
 
 For a type in the **Paths to Root** tree, the number of objects that hold references to that type appears in the **Reference Count** column. The difference in count from the previous snapshot is in the **Reference Diff** column.
 

@@ -1,17 +1,17 @@
 ---
-title: "SccAdd Function | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: SccAdd Function | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 f1_keywords:
-  - "SccAdd"
+- SccAdd
 helpviewer_keywords:
-  - "SccAdd function"
+- SccAdd function
 ms.assetid: 545268f3-8e83-446a-a398-1a9db9e866e8
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # SccAdd function
 This function adds new files to the source control system.

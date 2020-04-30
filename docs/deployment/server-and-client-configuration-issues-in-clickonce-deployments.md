@@ -43,7 +43,7 @@ If you use Internet Information Services (IIS) on Windows Server, and your deplo
 ## ClickOnce and proxy authentication
  [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] provides support for Windows Integrated proxy authentication starting in .NET Framework 3.5. No specific machine.config directives are required. [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] does not provide support for other authentication protocols such as Basic or Digest.
 
- You can also apply a hotfix to .NET Framework 2.0 to enable this feature. For more information, see http://go.microsoft.com/fwlink/?LinkId=158730.
+ You can also apply a hotfix to .NET Framework 2.0 to enable this feature. For more information, see [FIX: Error message when you try to install a ClickOnce application that you created in the .NET Framework 2.0 onto a client computer that is configured to use a proxy server: "Proxy authentication required"](https://support.microsoft.com/help/917952/fix-error-message-when-you-try-to-install-a-clickonce-application-that).
 
  For more information, see [\<defaultProxy> element (network settings)](/dotnet/framework/configure-apps/file-schema/network/defaultproxy-element-network-settings).
 
@@ -112,7 +112,7 @@ If you use Internet Information Services (IIS) on Windows Server, and your deplo
 
 - If you create a MIME type with extension "<em>" and the MIME type "application/octet-stream," it will allow files of unblocked file type to be downloaded. (However, blocked file types such as *.aspx</em> and *.asmx* cannot be downloaded.)
 
-  For specific instructions on configuring MIME types on Windows Server, refer to Microsoft Knowledge Base article KB326965, "IIS 6.0 does not serve unknown MIME types" at [http://support.microsoft.com/default.aspx?scid=kb;en-us;326965](http://support.microsoft.com/default.aspx?scid=kb;en-us;326965).
+  For specific instructions on configuring MIME types on Windows Server, see [How to add a MIME type to a Web site or application](/iis/configuration/system.webserver/staticcontent/mimemap#how-to-add-a-mime-type-to-a-web-site-or-application).
 
 ## Content type mappings
  When publishing over HTTP, the content type (also known as MIME type) for the *.application* file should be "application/x-ms-application." If you have .NET Framework 2.0 installed on the server, this will be set for you automatically. If this is not installed, then you need to create a MIME type association for the [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application vroot (or entire server).

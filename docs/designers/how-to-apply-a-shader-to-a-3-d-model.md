@@ -1,13 +1,13 @@
 ---
-title: "How to: Apply a Shader to a 3D Model"
+title: 'How to: Apply a Shader to a 3D Model'
 ms.date: 11/04/2016
 ms.topic: conceptual
 ms.assetid: a3877bd6-abd8-4a9d-842c-6848b6c2f335
-author: jillre
-ms.author: jillfra
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # How to: Apply a shader to a 3D model
 

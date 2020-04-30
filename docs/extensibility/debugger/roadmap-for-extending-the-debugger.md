@@ -1,16 +1,16 @@
 ---
-title: "Roadmap for Extending the Debugger | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Roadmap for Extending the Debugger | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "debugging [Debugging SDK], roadmap"
-  - "Debugging SDK, roadmap"
+- debugging [Debugging SDK], roadmap
+- Debugging SDK, roadmap
 ms.assetid: 1f4096a8-f7aa-4dfa-84e1-6d59263e70bb
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Roadmap for extending the debugger
 This documentation provides guide and reference information for extending the [!INCLUDE[vs_current_short](../../code-quality/includes/vs_current_short_md.md)] debugger with the [!INCLUDE[vsipsdk](../../extensibility/includes/vsipsdk_md.md)].

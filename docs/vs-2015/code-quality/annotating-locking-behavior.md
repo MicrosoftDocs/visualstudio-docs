@@ -30,8 +30,8 @@ f1_keywords:
   - "_Lock_kind_event_"
 ms.assetid: 07769c25-9b97-4ab7-b175-d1c450308d7a
 caps.latest.revision: 11
-author: mikeblome
-ms.author: mblome
+author: corob-msft
+ms.author: corob
 manager: jillfra
 ---
 # Annotating Locking Behavior
@@ -111,4 +111,4 @@ To avoid concurrency bugs in your multithreaded program, always follow an approp
  [Specifying When and Where an Annotation Applies](../code-quality/specifying-when-and-where-an-annotation-applies.md)   
  [Intrinsic Functions](../code-quality/intrinsic-functions.md)   
  [Best Practices and Examples](../code-quality/best-practices-and-examples-sal.md)   
- [Code Analysis Team Blog](https://go.microsoft.com/fwlink/p/?LinkId=251197)
+ [Code Analysis Team Blog](https://blogs.msdn.com/b/codeanalysis/)

@@ -1,20 +1,20 @@
 ---
-title: "IEnumDebugReferenceInfo2::Next | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IEnumDebugReferenceInfo2::Next | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IEnumDebugReferenceInfo2::Next"
+- IEnumDebugReferenceInfo2::Next
 helpviewer_keywords:
-  - "IEnumDebugReferenceInfo2::Next"
+- IEnumDebugReferenceInfo2::Next
 ms.assetid: 70b31a57-1701-4757-9e7e-63ec60a71b3c
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IEnumDebugReferenceInfo2::Next
 Returns the next set of elements from the enumeration.

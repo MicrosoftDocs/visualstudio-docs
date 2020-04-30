@@ -1,16 +1,16 @@
 ---
-title: "VSCT Compiler Command-Line Flags | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: VSCT Compiler Command-Line Flags | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "VSCT files, compiling"
-  - "command-table file compilation (VSCT files)"
+- VSCT files, compiling
+- command-table file compilation (VSCT files)
 ms.assetid: 9dc6c33f-e6cf-4cf2-9b05-e8f7bfac1cfb
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # VSCT Compiler Command-Line Flags
 The Visual Studio Command Table (VSCT) compiler provides command-line switches to ensure successful compilation of .vsct files.

@@ -1,20 +1,20 @@
 ---
-title: "IEnumDebugFrameInfo2::GetCount | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IEnumDebugFrameInfo2::GetCount | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IEnumDebugFrameInfo2::GetCount"
+- IEnumDebugFrameInfo2::GetCount
 helpviewer_keywords:
-  - "IEnumDebugFrameInfo2::GetCount"
+- IEnumDebugFrameInfo2::GetCount
 ms.assetid: d02a08e3-f34f-461e-8195-5157e154c481
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IEnumDebugFrameInfo2::GetCount
 Returns the number of elements in the enumeration.

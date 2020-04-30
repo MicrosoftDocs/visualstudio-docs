@@ -1,20 +1,20 @@
 ---
-title: "BP_LOCATION_TYPE | Microsoft Docs"
-ms.date: "11/04/2016"
+title: BP_LOCATION_TYPE | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "BP_LOCATION_TYPE"
+- BP_LOCATION_TYPE
 helpviewer_keywords:
-  - "BP_LOCATION_TYPE structure"
+- BP_LOCATION_TYPE structure
 ms.assetid: 0248430a-3b61-4809-87a9-e9b6bb7d1130
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # BP_LOCATION_TYPE
 Specifies the location type of the breakpoint for a breakpoint request.
