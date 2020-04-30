@@ -867,5 +867,7 @@
           href: ca2243.md
         - name: "CA2245: Do not assign a property to itself"
           href: ca2245.md
+        - name: "CA2246: Do not assign a symbol and its member in the same statement"
+          href: ca2246.md
       - name: Automatic feature suspension
         href: automatic-feature-suspension.md

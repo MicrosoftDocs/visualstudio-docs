@@ -67,3 +67,4 @@ Usage warnings support proper usage of .NET.
 |[CA2242: Test for NaN correctly](../code-quality/ca2242.md)|This expression tests a value against Single.Nan or Double.Nan. Use Single.IsNan(Single) or Double.IsNan(Double) to test the value.|
 |[CA2243: Attribute string literals should parse correctly](../code-quality/ca2243.md)|An attribute's string literal parameter does not parse correctly for a URL, a GUID, or a version.|
 |[CA2245: Do not assign a property to itself](../code-quality/ca2245.md)|A property was accidentally assigned to itself.|
+|[CA2246: Do not assign a symbol and its member in the same statement](../code-quality/ca2246.md)|Assigning a symbol and its member, i.e. a field or a property, in the same statement is not recommended. It is not clear if the member access was intended to use symbol's old value prior to the assignment or new value from the assignment in this statement.|
