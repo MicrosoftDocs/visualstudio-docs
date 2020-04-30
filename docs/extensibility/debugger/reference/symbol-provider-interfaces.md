@@ -1,17 +1,17 @@
 ---
-title: "Symbol Provider Interfaces | Microsoft Docs"
-ms.date: "11/04/2016"
+title: Symbol Provider Interfaces | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
-  - "interfaces, symbol handler"
-  - "symbol handler, interfaces"
-  - "symbol handler, evaluating variables"
+- interfaces, symbol handler
+- symbol handler, interfaces
+- symbol handler, evaluating variables
 ms.assetid: 4201f10e-c9f7-4b38-bb45-40fe0082d5bf
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Symbol Provider Interfaces
 The following are the Symbol Handling Interfaces for the [!INCLUDE[vsipsdk](../../../extensibility/includes/vsipsdk_md.md)].

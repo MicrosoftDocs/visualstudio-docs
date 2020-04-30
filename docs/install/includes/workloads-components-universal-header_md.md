@@ -1,7 +1,8 @@
 ---
-author: TerryGLee
-ms.author: tglee
-ms.date: 03/02/2019
+author: ornellaalt
+ms.author: ornella
+manager: jillfra
+ms.date: 03/16/2020
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
 ms.topic: include

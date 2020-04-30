@@ -1,16 +1,16 @@
 ---
-title: "Extending and Customizing Tool Windows | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Extending and Customizing Tool Windows | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "user interfaces, essentials"
-  - "tool windows, standard"
+- user interfaces, essentials
+- tool windows, standard
 ms.assetid: 46b2892e-7b2b-4b3f-83a7-b884f1e114ee
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Extend and customize tool windows
 Visual Studio provides several different types of windows, for example tool windows, document windows, and dialog windows. Other windows such as the **Properties** window, the **Output** window, and the **Task List** window, are types of tool windows.

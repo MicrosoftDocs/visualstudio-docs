@@ -1,16 +1,16 @@
 ---
-title: "Enumerating Locals | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Enumerating Locals | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "debugging [Debugging SDK], enumerating locals"
-  - "expression evaluation, enumerating locals"
+- debugging [Debugging SDK], enumerating locals
+- expression evaluation, enumerating locals
 ms.assetid: 254a88e7-d3a7-447a-bd0c-8985e73d85cf
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Enumerate locals
 > [!IMPORTANT]

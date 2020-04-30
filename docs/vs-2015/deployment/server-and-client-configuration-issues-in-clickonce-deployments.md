@@ -46,7 +46,7 @@ If you use Internet Information Services (IIS) on Windows Server, and your deplo
 ## ClickOnce and Proxy Authentication  
  [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] provides support for Windows Integrated proxy authentication starting in .NET Framework 3.5. No specific machine.config directives are required. [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] does not provide support for other authentication protocols such as Basic or Digest.  
   
- You can also apply a hotfix to .NET Framework 2.0 to enable this feature. For more information, see https://go.microsoft.com/fwlink/?LinkId=158730.  
+ You can also apply a hotfix to .NET Framework 2.0 to enable this feature. For more information, see [FIX: Error message when you try to install a ClickOnce application that you created in the .NET Framework 2.0 onto a client computer that is configured to use a proxy server: "Proxy authentication required"](https://support.microsoft.com/en-in/help/917952/fix-error-message-when-you-try-to-install-a-clickonce-application-that). 
   
  For more information, see [\<defaultProxy> Element (Network Settings)](https://msdn.microsoft.com/library/9d663c4b-07b4-4f6f-9b12-efbd3630354f).  
   
@@ -115,7 +115,7 @@ If you use Internet Information Services (IIS) on Windows Server, and your deplo
   
 - If you create a MIME type with extension "*" and the MIME type "application/octet-stream," it will allow files of unblocked file type to be downloaded. (However, blocked file types such as .aspx and .asmx cannot be downloaded.)  
   
-  For specific instructions on configuring MIME types on Windows Server, refer to Microsoft Knowledge Base article KB326965, "IIS 6.0 Does Not Serve Unknown MIME Types" at [https://support.microsoft.com/default.aspx?scid=kb;en-us;326965](https://support.microsoft.com/default.aspx?scid=kb;en-us;326965).  
+  For specific instructions on configuring MIME types on Windows Server, see [How to add a MIME type to a Web site or application](/iis/configuration/system.webserver/staticcontent/mimemap#how-to-add-a-mime-type-to-a-web-site-or-application).  
   
 ## Content Type Mappings  
  When publishing over HTTP, the content type (also known as MIME type) for the .application file should be "application/x-ms-application." If you have [!INCLUDE[dnprdnlong](../includes/dnprdnlong-md.md)] installed on the server, this will be set for you automatically. If this is not installed, then you need to create a MIME type association for the [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)] application vroot (or entire server).  
@@ -126,8 +126,6 @@ If you use Internet Information Services (IIS) on Windows Server, and your deplo
  With [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)], you can perform downloads that use HTTP compression, a Web server technology that uses the GZIP algorithm to compress a data stream before sending the stream to the client. The client—in this case, [!INCLUDE[ndptecclick](../includes/ndptecclick-md.md)]—decompresses the stream before reading the files.  
   
  If you are using IIS, you can easily enable HTTP compression. However, when you enable HTTP compression, it is only enabled for certain file types—namely, HTML and text files. To enable compression for assemblies (.dll), XML (.xml), deployment manifests (.application), and application manifests (.manifest), you must add these file types to the list of types for IIS to compress. Until you add the file types to your deployment, only text and HTML files will be compressed.  
-  
- For detailed instructions for IIS, see [How to specify additional document types for HTTP compression](https://go.microsoft.com/fwlink/?LinkId=178459).  
   
 ## See Also  
  [Troubleshooting ClickOnce Deployments](../deployment/troubleshooting-clickonce-deployments.md)   

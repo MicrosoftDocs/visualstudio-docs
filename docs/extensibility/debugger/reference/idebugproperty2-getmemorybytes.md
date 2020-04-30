@@ -1,20 +1,20 @@
 ---
-title: "IDebugProperty2::GetMemoryBytes | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugProperty2::GetMemoryBytes | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugProperty2::GetMemoryBytes"
+- IDebugProperty2::GetMemoryBytes
 helpviewer_keywords:
-  - "IDebugProperty2::GetMemoryBytes"
+- IDebugProperty2::GetMemoryBytes
 ms.assetid: b32042ed-7a06-4b4a-99ef-fe03b0aa61cc
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugProperty2::GetMemoryBytes
 Gets the memory bytes that compose the value of a property.

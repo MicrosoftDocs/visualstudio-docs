@@ -1,16 +1,16 @@
 ---
-title: "Walkthrough: Implementing Code Snippets | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: 'Walkthrough: Implementing Code Snippets | Microsoft Docs'
+ms.date: 11/04/2016
+ms.topic: conceptual
 ms.assetid: adbc5382-d170-441c-9fd0-80faa1816478
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 dev_langs:
- - CSharp
- - VB
+- CSharp
+- VB
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Walkthrough: Implement code snippets
 You can create code snippets and include them in an editor extension so that users of the extension can add them to their own code.

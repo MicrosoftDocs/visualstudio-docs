@@ -24,12 +24,14 @@ ms.workload:
 - multiple
 ---
 # DownloadFile task
+
 Downloads the specified files using the Hyper-Text Transfer Protocol (HTTP).
 
 >[!NOTE]
 >The DownloadFile task is available in MSBuild 15.8 and above only.
 
 ## Parameters
+
 The following table describes the parameters of the `DownloadFile` task.
 
 |Parameter|Description|
@@ -43,9 +45,11 @@ The following table describes the parameters of the `DownloadFile` task.
 |`SourceUrl`|Required `String` parameter.<br /><br /> Specifies the URL to download.|
 
 ## Remarks
+
 In addition to the parameters listed above, this task inherits parameters from the <xref:Microsoft.Build.Tasks.TaskExtension> class, which itself inherits from the <xref:Microsoft.Build.Utilities.Task> class. For a list of these additional parameters and their descriptions, see [TaskExtension base class](../msbuild/taskextension-base-class.md).
 
 ## Example
+
 The following example downloads a file and includes it in the `Content` items prior to building the project.
 
 ```xml
@@ -67,5 +71,6 @@ The following example downloads a file and includes it in the `Content` items pr
 ```
 
 ## See also
+
 - [Tasks](../msbuild/msbuild-tasks.md)
 - [Task reference](../msbuild/msbuild-task-reference.md)

@@ -60,7 +60,7 @@ In this version of [!INCLUDE[vsprvs](../includes/vsprvs-md.md)], you can specify
 > In Express editions of Visual Studio, you cannot set the target framework in the **New Project** dialog box.
 
 ## Resolving System and User Assembly References
- To target a .NET Framework version, you must first install the appropriate assembly references. Assembly references for the .NET Framework versions 2.0, 3.0, and 3.5 are included in the .NET Framework 3.5 SP1, which you can download from the [Microsoft Download Center, Microsoft Visual Studio](https://www.microsoft.com/download/details.aspx?id=25150) website. Assembly references for the .NET Framework 3.5 Client Profile, the .NET Framework 4, the .NET Framework 4 Client Profile, and Silverlight are also available from the [Visual Studio Downloads](https://go.microsoft.com/fwlink/?LinkId=179687) website.
+ To target a .NET Framework version, you must first install the appropriate assembly references. Assembly references for the .NET Framework versions 2.0, 3.0, and 3.5 are included in the .NET Framework 3.5 SP1, which you can download from the [Microsoft Download Center, Microsoft Visual Studio](https://www.microsoft.com/download/details.aspx?id=25150) website. Assembly references for the .NET Framework 3.5 Client Profile, the .NET Framework 4, the .NET Framework 4 Client Profile, and Silverlight are also available from the [Visual Studio Downloads](https://msdn.microsoft.com/vstudio/bb984878.aspx) website.
 
 > [!NOTE]
 > A .NET Framework client profile is a subset of the .NET Framework that provides a limited set of libraries and features. For more information about client profiles, see [.NET Framework Client Profile](https://msdn.microsoft.com/library/f0219919-1f02-4588-8704-327a62fd91f1).

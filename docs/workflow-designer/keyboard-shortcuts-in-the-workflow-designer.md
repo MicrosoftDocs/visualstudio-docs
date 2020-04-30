@@ -1,15 +1,15 @@
 ---
-title: "Workflow Designer: Keyboard shortcuts"
+title: 'Workflow Designer: Keyboard shortcuts'
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "WFDKeyboardShortcuts.UI"
+- WFDKeyboardShortcuts.UI
 ms.assetid: 9be75438-a4a3-4781-94e5-45b7ec082358
-author: jillre
-ms.author: jillfra
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Keyboard Shortcuts in the Workflow Designer
 

@@ -1,20 +1,20 @@
 ---
-title: "IDebugExpressionContext2::ParseText | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugExpressionContext2::ParseText | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugExpressionContext2::ParseText"
+- IDebugExpressionContext2::ParseText
 helpviewer_keywords:
-  - "IDebugExpressionContext2::ParseText"
+- IDebugExpressionContext2::ParseText
 ms.assetid: f58575db-f926-4ac8-83ff-7b3b86ab61e2
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugExpressionContext2::ParseText
 Parses an expression in text form for later evaluation.

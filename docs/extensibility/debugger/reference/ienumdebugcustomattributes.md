@@ -1,17 +1,17 @@
 ---
-title: "IEnumDebugCustomAttributes | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IEnumDebugCustomAttributes | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IEnumCustomAttributes"
+- IEnumCustomAttributes
 helpviewer_keywords:
-  - "IEnumDebugCustomAttributes interface"
+- IEnumDebugCustomAttributes interface
 ms.assetid: 11aa768d-1852-44d6-9de3-17f9bafaded2
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # IEnumDebugCustomAttributes
 Enumerates custom attributes.

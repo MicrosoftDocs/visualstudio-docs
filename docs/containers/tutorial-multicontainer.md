@@ -3,7 +3,7 @@ title: "Multicontainer tutorial using Docker Compose & ASP.NET Core"
 author: ghogen
 description: Learn how to use multiple containers with Docker Compose
 ms.author: ghogen
-ms.date: 02/21/2019
+ms.date: 01/10/2020
 ms.technology: vs-azure
 ms.topic: include
 ---
@@ -78,6 +78,9 @@ Add a project to the same solution and call it *MyWebAPI*. Select **API** as the
        }
     }
    ```
+   
+    > [!NOTE]
+    > In real-world code, you shouldn't dispose `HttpClient` after every request. For best practices, see [Use HttpClientFactory to implement resilient HTTP requests](https://docs.microsoft.com/dotnet/architecture/microservices/implement-resilient-applications/use-httpclientfactory-to-implement-resilient-http-requests).
 
    For .NET Core 3.1 in Visual Studio 2019 or later, the Web API template uses a WeatherForecast API, so uncomment that line and comment out the line for ASP.NET 2.x.
 
@@ -92,7 +95,7 @@ Add a project to the same solution and call it *MyWebAPI*. Select **API** as the
     
       <div class="text-center">
           <h1 class="display-4">Welcome</h1>
-          <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+          <p>Learn about <a href="/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
           <p>@ViewData["Message"]</p>
       </div>
       ```
@@ -108,7 +111,7 @@ Add a project to the same solution and call it *MyWebAPI*. Select **API** as the
         }
       ```
 
-    With .NET Core 3.1, you don't need this, because you can use the WeatherForecast API that is already there. However, you need to comment out the call to `UseHttpsRedirections` in the `Configure` method in *Startup.cs*, because this code uses HTTP not HTTPS to call the Web API.
+    With .NET Core 3.1, you don't need this, because you can use the WeatherForecast API that is already there. However, you need to comment out the call to <xref:Microsoft.AspNetCore.Builder.HttpsPolicyBuilderExtensions.UseHttpsRedirection*>  in the `Configure` method in *Startup.cs*, because this code uses HTTP, not HTTPS, to call the Web API.
 
     ```csharp
                 //app.UseHttpsRedirection();

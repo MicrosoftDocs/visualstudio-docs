@@ -19,17 +19,17 @@ This topic describes how use the **Rule Condition Editor** dialog box in the leg
 
  You create and modify declarative rule conditions by using the **Rule Condition Editor** dialog box. These rule conditions are exposed as properties on the following Windows Workflow Foundation out-of-box activities:
 
-- [ConditionedActivityGroup](https://go.microsoft.com/fwlink?LinkID=65017)
+- [ConditionedActivityGroup](https://msdn2.microsoft.com/library/system.workflow.activities.conditionedactivitygroup.aspx)
 
-- [IfElseBranchActivity](https://go.microsoft.com/fwlink?LinkID=65034)
+- [IfElseBranchActivity](https://msdn2.microsoft.com/library/system.workflow.activities.ifelsebranchactivity.aspx)
 
-- [ReplicatorActivity](https://go.microsoft.com/fwlink?LinkID=65039)
+- [ReplicatorActivity](https://msdn2.microsoft.com/library/system.workflow.activities.replicatoractivity.aspx)
 
-- [WhileActivity](https://go.microsoft.com/fwlink?LinkID=65049)
+- [WhileActivity](https://msdn2.microsoft.com/library/system.workflow.activities.whileactivity.aspx)
 
-- [SequentialWorkflowActivity](https://go.microsoft.com/fwlink?LinkID=65040)
+- [SequentialWorkflowActivity](https://msdn2.microsoft.com/library/system.workflow.activities.sequentialworkflowactivity.aspx)
 
-- [StateMachineWorkflowActivity](https://go.microsoft.com/fwlink?LinkID=65045)
+- [StateMachineWorkflowActivity](https://msdn2.microsoft.com/library/system.workflow.activities.statemachineworkflowactivity.aspx)
 
   You access the **Rule Condition Editor** dialog box by using the [Select Condition Dialog Box (Legacy)](../workflow-designer/select-condition-dialog-box-legacy.md).
 
@@ -73,13 +73,13 @@ This topic describes how use the **Rule Condition Editor** dialog box in the leg
 
   this.i == 1U (resolves as an unsigned int)
 
-  For more information about conditions, see [Using Conditions in Workflows](https://go.microsoft.com/fwlink?LinkID=65009).
+  For more information about conditions, see [Using Conditions in Workflows](https://msdn2.microsoft.com/library/bb628447.aspx).
 
 ## See Also
- [IfElseActivity](https://go.microsoft.com/fwlink?LinkID=65033)
- [ConditionedActivityGroup](https://go.microsoft.com/fwlink?LinkID=65017)
- [ReplicatorActivity](https://go.microsoft.com/fwlink?LinkID=65039)
- [WhileActivity](https://go.microsoft.com/fwlink?LinkID=65049)
+ [IfElseActivity](https://msdn2.microsoft.com/library/system.workflow.activities.ifelseactivity.aspx)
+ [ConditionedActivityGroup](https://msdn2.microsoft.com/library/system.workflow.activities.conditionedactivitygroup.aspx)
+ [ReplicatorActivity](https://msdn2.microsoft.com/library/system.workflow.activities.replicatoractivity.aspx)
+ [WhileActivity](https://msdn2.microsoft.com/library/system.workflow.activities.whileactivity.aspx)
  [Select Condition Dialog Box (Legacy)](../workflow-designer/select-condition-dialog-box-legacy.md)
- [Using Conditions in Workflows](https://go.microsoft.com/fwlink?LinkID=65009)
+ [Using Conditions in Workflows](https://msdn2.microsoft.com/library/bb628447.aspx)
  [Legacy Designer for Windows Workflow Foundation UI Help](../workflow-designer/legacy-designer-for-windows-workflow-foundation-ui-help.md)

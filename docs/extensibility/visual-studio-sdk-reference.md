@@ -1,16 +1,16 @@
 ---
-title: "Visual Studio SDK Reference | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Visual Studio SDK Reference | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "Visual Studio SDK, reference"
-  - "reference, Visual Studio SDK"
+- Visual Studio SDK, reference
+- reference, Visual Studio SDK
 ms.assetid: a6930db5-a112-4651-8de3-e520df851f82
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Visual Studio SDK reference
 

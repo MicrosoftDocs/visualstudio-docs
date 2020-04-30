@@ -1,20 +1,20 @@
 ---
-title: "IDebugDisassemblyStream2::GetDocument | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugDisassemblyStream2::GetDocument | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugDisassemblyStream2::GetDocument"
+- IDebugDisassemblyStream2::GetDocument
 helpviewer_keywords:
-  - "IDebugDisassemblyStream2::GetDocument"
+- IDebugDisassemblyStream2::GetDocument
 ms.assetid: 3d039a44-ebaa-4413-ac18-7cfd92c408bd
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugDisassemblyStream2::GetDocument
 Gets the source document associated with this input stream.

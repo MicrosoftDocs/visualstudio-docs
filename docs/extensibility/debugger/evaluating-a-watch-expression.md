@@ -1,16 +1,16 @@
 ---
-title: "Evaluating a Watch Expression | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Evaluating a Watch Expression | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "expression evaluation, watch expressions"
-  - "watch expressions"
+- expression evaluation, watch expressions
+- watch expressions
 ms.assetid: 8317cd52-6fea-4e8f-a739-774dc06bd44b
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Evaluate a watch expression
 > [!IMPORTANT]

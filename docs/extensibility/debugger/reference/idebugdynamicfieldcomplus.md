@@ -1,15 +1,15 @@
 ---
-title: "IDebugDynamicFieldCOMPlus | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugDynamicFieldCOMPlus | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
-  - "IDebugDynamicFieldCOMPlus interface"
+- IDebugDynamicFieldCOMPlus interface
 ms.assetid: c3a25f27-327a-4bdb-b026-27d436ddcd0c
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # IDebugDynamicFieldCOMPlus
 Represents a dynamic field for an [IDebugBinder](../../../extensibility/debugger/reference/idebugbinder.md) object.

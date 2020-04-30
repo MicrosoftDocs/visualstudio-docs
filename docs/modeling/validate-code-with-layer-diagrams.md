@@ -164,7 +164,7 @@ Use these tasks to manage validation errors in the **Error List** window:
 
 ## Validate code automatically
 
-You can perform layer validation every time that you run a local build. If your team uses Azure DevOps, you can perform layer validation with gated check-ins, which you can specify by creating a custom MSBuild task, and use build reports to collect validation errors. To create gated check-in builds, see [TFVC gated check-in](/azure/devops/pipelines/build/triggers#gated).
+You can perform layer validation every time that you run a local build. If your team uses Azure DevOps, you can perform layer validation with gated check-ins, which you can specify by creating a custom MSBuild task, and use build reports to collect validation errors. To create gated check-in builds, see [TFVC gated check-in](/azure/devops/pipelines/build/triggers).
 
 ### To validate code automatically during a local build
 

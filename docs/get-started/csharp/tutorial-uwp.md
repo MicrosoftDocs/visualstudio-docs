@@ -7,8 +7,8 @@ ms.date: "09/20/2019"
 ms.technology: vs-ide-general
 ms.topic: tutorial
 ms.devlang: CSharp
-author: TerryGLee
-ms.author: tglee
+author: ornellaalt
+ms.author: ornella
 manager: jillfra
 dev_langs:
   - CSharp
@@ -36,6 +36,9 @@ First, create a Universal Windows Platform project. The project type comes with 
 1. From the top menu bar, choose **File** > **New** > **Project**.
 
 1. In the left pane of the **New Project** dialog box, expand **Visual C#**, and then choose **Windows Universal**. In the middle pane, choose **Blank App (Universal Windows)**. Then, name the project *HelloWorld* and choose **OK**.
+
+   > [!NOTE]
+   > Make sure that the location of the source project is on a **New Technology File System (NTFS)** formatted drive, such as your Operating System (OS) drive. Otherwise, you might have trouble building and running your project. 
 
    ![Windows Universal project template in the New Project dialog box in the Visual Studio IDE](media/new-project-csharp-uwp-helloworld.png)
 

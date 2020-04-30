@@ -1,17 +1,17 @@
 ---
-title: "Inside the Visual Studio SDK | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Inside the Visual Studio SDK | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "roadmap, Visual Studio integration SDK"
-  - "Visual Studio integration SDK roadmap"
-  - "integration roadmap, Visual Studio SDK"
+- roadmap, Visual Studio integration SDK
+- Visual Studio integration SDK roadmap
+- integration roadmap, Visual Studio SDK
 ms.assetid: 9118eaa4-0453-4dc5-9e16-c7062d254869
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Inside the Visual Studio SDK
 

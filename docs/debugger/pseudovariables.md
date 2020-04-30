@@ -41,7 +41,7 @@ Pseudovariables are terms used to display certain information in a variable wind
 |`$clk`|Displays the time in clock cycles.|
 |`$user`|Displays a structure with account information for the account running the application. For security reasons, the password information is not displayed.|
 |`$exceptionstack`|Displays the stack trace of the current Windows Runtime exception. `$ exceptionstack` works only in UWP apps. `$ exceptionstack` is not supported for C++ and SEH exceptions|
-|`$returnvalue`|Displays the return value of a .NET method.|
+|`$returnvalue`|Displays the return value of a method.|
 
  In C# you can use the pseudovariables shown in the following table:
 

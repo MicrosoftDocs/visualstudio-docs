@@ -1,6 +1,6 @@
 ---
-title: Static local function refactorings
-ms.date: 09/28/2019
+title: Static local function refactor options
+ms.date: 02/10/2020
 ms.topic: reference
 author: governesss
 ms.author: midumont

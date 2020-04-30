@@ -1,17 +1,17 @@
 ---
-title: "Expression Evaluator | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Expression Evaluator | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "expressions [Debugging SDK]"
-  - "debugging [Debugging SDK], expression evaluation"
-  - "expression evaluation"
+- expressions [Debugging SDK]
+- debugging [Debugging SDK], expression evaluation
+- expression evaluation
 ms.assetid: f9381b2f-99aa-426c-aea0-d9c15f3c859b
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Expression evaluator
 Expression evaluators (EE) examine the syntax of a language to parse and evaluate variables and expressions at run time, allowing them to be viewed by the user when the IDE is in break mode.

@@ -1,16 +1,16 @@
 ---
-title: "Adding a Tool Window | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Adding a Tool Window | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "tutorials"
-  - "tool windows"
+- tutorials
+- tool windows
 ms.assetid: 8e16c381-03c8-404e-92ef-3614cdf3150a
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Add a tool window
 

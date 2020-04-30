@@ -130,7 +130,7 @@ To visualize your software system's high-level, logical architecture, create a *
 - [Find potential problems using code map analyzers](../modeling/find-potential-problems-using-code-map-analyzers.md)
 
 ## See Also
- [Channel 9 Video: Design and validate your architecture using layer diagrams](https://go.microsoft.com/fwlink/?LinkID=252073)
+ [Channel 9 Video: Design and validate your architecture using layer diagrams](https://s.ch9.ms/Series/Visual-Studio-2012-Premium-and-Ultimate-Overview/Visual-Studio-Ultimate-2012-Using-layer-diagrams-to-design-and-validate-your-architecture)
  [Layer Diagrams: Reference](../modeling/layer-diagrams-reference.md)
  [Layer Diagrams: Guidelines](../modeling/layer-diagrams-guidelines.md)
  [Validate code with layer diagrams](../modeling/validate-code-with-layer-diagrams.md)

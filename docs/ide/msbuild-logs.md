@@ -5,8 +5,8 @@ ms.technology: vs-ide-compile
 ms.topic: conceptual
 helpviewer_keywords:
   - msbuild logs"
-author: mikeblome
-ms.author: mblome
+author: corob-msft
+ms.author: corob
 manager: jillfra
 dev_langs:
  - CSharp

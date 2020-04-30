@@ -1,16 +1,16 @@
 ---
-title: "ContingentProperties Class - Internal Members | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: ContingentProperties Class - Internal Members | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "ContingentProperties class [.NET Framework debug engines]"
-  - "debug engines, ContingentProperties class [.NET Framework]"
+- ContingentProperties class [.NET Framework debug engines]
+- debug engines, ContingentProperties class [.NET Framework]
 ms.assetid: c49d1362-ab1c-4b6d-9950-fcae40e0e66b
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # ContingentProperties class - internal members
 Contains additional properties for a <xref:System.Threading.Tasks.Task> object.

@@ -5,8 +5,8 @@ ms.date: 07/17/2019
 ms.custom: seodec18
 ms.topic: conceptual
 ms.assetid: 
-author: jillre
-ms.author: jillfra
+author: ornellaalt
+ms.author: ornella
 manager: jillfra
 ms.workload:
 - multiple
@@ -56,7 +56,7 @@ Another option to control updates on a client is to [turn off update notificatio
 
 When an update for a servicing baseline is available, fixed-version bootstrapper files are made available for the servicing update at [My.VisualStudio.com](https://my.visualstudio.com/Downloads?q=visual%20studio%202019%20version%2016.0).
 
-For administrators who deploy by using a network layout install, the administrator should update the [layout location](update-a-network-installation-of-visual-studio.md). Clients that installed from the location will receive update notifications. If the update must be deployed to clients, follow [these instructions](update-a-network-installation-of-visual-studio.md#how-to-deploy-an-update-to-client-machines). When you modify the 'response.json' for an update, do not add additional workloads, components, or languages. Managing these settings must be done as a 'modify' deployment after the product has been updated.
+For administrators who deploy by using a network layout install, the administrator should update the [layout location](update-a-network-installation-of-visual-studio.md). Clients that installed from the location will receive update notifications. If the update must be deployed to clients, follow [these instructions](update-a-network-installation-of-visual-studio.md#deploy-an-update-to-client-machines). When you modify the 'response.json' for an update, do not add additional workloads, components, or languages. Managing these settings must be done as a 'modify' deployment after the product has been updated.
 
 For an internet-based installation, run the new fixed version bootstrapper with the `--channelUri` parameter pointing to a non-existent channel manifest on the client. If the update is deployed in quiet or passive mode, use two separate commands:
 

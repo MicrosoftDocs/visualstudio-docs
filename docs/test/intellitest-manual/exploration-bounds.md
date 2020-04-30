@@ -4,11 +4,11 @@ ms.date: 05/02/2017
 ms.topic: reference
 helpviewer_keywords:
   - "IntelliTest, Exploration bounds"
-ms.author: jillfra
+ms.author: mikejo
 manager: jillfra
 ms.workload:
   - "multiple"
-author: jillre
+author: mikejo5000
 ---
 # Exploration bounds
 

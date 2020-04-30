@@ -1,19 +1,19 @@
 ---
-title: "WizardData Element (Visual Studio Templates) | Microsoft Docs"
-ms.date: "11/04/2016"
+title: WizardData Element (Visual Studio Templates) | Microsoft Docs
+ms.date: 11/04/2016
 ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
-  - "http://schemas.microsoft.com/developer/vstemplate/2005#WizardData"
+- http://schemas.microsoft.com/developer/vstemplate/2005#WizardData
 helpviewer_keywords:
-  - "WizardData element [Visual Studio Templates]"
-  - "<WizardData> element [Visual Studio Templates]"
+- WizardData element [Visual Studio Templates]
+- <WizardData> element [Visual Studio Templates]
 ms.assetid: d0403a16-5d07-4fe5-b474-19ae3d9fd3ab
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # WizardData Element (Visual Studio Templates)
 

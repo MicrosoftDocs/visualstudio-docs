@@ -2,11 +2,11 @@
 title: "Microsoft.VisualStudio.TestTools.CppUnitTestFramework API"
 ms.date: 09/27/2019
 ms.topic: reference
-ms.author: mblome
+ms.author: corob
 manager: jillfra
 ms.workload:
   - "multiple"
-author: mikeblome
+author: corob-msft
 ---
 # Microsoft.VisualStudio.TestTools.CppUnitTestFramework API reference
 
@@ -96,7 +96,7 @@ Header and lib paths are automatically configured in a Native Test project.
 TEST_CLASS(className)
 ```
 
-Required for each class containing test methods. Identifies *className* as a test class. `TEST_CLASS` must be declared at namescape scope.
+Required for each class containing test methods. Identifies *className* as a test class. `TEST_CLASS` must be declared at namespace scope.
 
 ```cpp
 TEST_METHOD(methodName)

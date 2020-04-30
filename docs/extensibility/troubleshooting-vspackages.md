@@ -1,16 +1,16 @@
 ---
-title: "Troubleshooting VSPackages | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Troubleshooting VSPackages | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "VSPackages, troubleshooting"
-  - "debugging, VSPackages"
+- VSPackages, troubleshooting
+- debugging, VSPackages
 ms.assetid: 274673e7-72e7-476f-a263-3411b5b874be
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Troubleshooting VSPackages
 Following are common problems that you might have with your VSPackage and tips to resolve the issues.
@@ -93,7 +93,7 @@ Following are common problems that you might have with your VSPackage and tips t
 
     2. Add this **Symbol file (.pdb) location**:
 
-         [http://msdl.microsoft.com/download/symbols](http://msdl.microsoft.com/download/symbols)
+         `https://msdl.microsoft.com/download/symbols`
 
     3. To improve performance, specify a symbol cache folder, for example:
 

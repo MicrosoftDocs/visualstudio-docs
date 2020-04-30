@@ -1,17 +1,17 @@
 ---
-title: "IDebugBreakEvent2 | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugBreakEvent2 | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugBreakEvent2"
+- IDebugBreakEvent2
 helpviewer_keywords:
-  - "IDebugBreakEvent2 interface"
+- IDebugBreakEvent2 interface
 ms.assetid: 57dfdbc2-4e68-4dbf-9579-006cd6fb1c62
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # IDebugBreakEvent2
 This interface tells the session debug manager (SDM) that an asynchronous break has been successfully completed.

@@ -1,20 +1,20 @@
 ---
-title: "IEnumDebugFields::Reset | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IEnumDebugFields::Reset | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IEnumDebugFields::Reset"
+- IEnumDebugFields::Reset
 helpviewer_keywords:
-  - "IEnumDebugFields::Reset method"
+- IEnumDebugFields::Reset method
 ms.assetid: 38ff61e4-0120-42e8-971a-16be6050b425
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IEnumDebugFields::Reset
 This method resets the enumeration to the first element.

@@ -1,15 +1,15 @@
 ---
-title: "IDebugModOpt | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugModOpt | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
-  - "IDebugModOpt interface"
+- IDebugModOpt interface
 ms.assetid: ebd525e3-d140-4071-9d8c-41871de4125e
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # IDebugModOpt
 Represents a debug optional modifier.

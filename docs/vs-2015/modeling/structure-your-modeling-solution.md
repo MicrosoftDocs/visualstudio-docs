@@ -29,7 +29,7 @@ In a medium or large project, the structure of the team is based on the structur
 
 #### To divide an application into layers
 
-1. Base the structure of your solutions on the structure of your application, such as web application, service application, or desktop application. A variety of common architectures is discussed in [Application Archetypes in the Microsoft Application Architecture Guide](https://go.microsoft.com/fwlink/?LinkId=196681).
+1. Base the structure of your solutions on the structure of your application, such as web application, service application, or desktop application. A variety of common architectures is discussed in [Application Archetypes in the Microsoft Application Architecture Guide](/previous-versions/msp-n-p/ee658107(v=pandp.10)).
 
 2. Create a [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] solution, which we will call the Architecture solution. This solution will be used to create the overall design of the system. It will contain models but no code.
 
@@ -95,7 +95,7 @@ For example, if you frequently use solutions that have Presentation, Business, a
 
 #### To create a solution template
 
-1. [Download and install the Export Template Wizard](https://go.microsoft.com/fwlink/?LinkId=196686), if you have not already done this.
+1. [Download and install the Export Template Wizard](https://marketplace.visualstudio.com/items?itemName=VisualStudioProductTeam.ExportTemplateWizard), if you have not already done this.
 
 2. Create the solution structure that you want to use as a starting point for future projects.
 
@@ -104,7 +104,7 @@ For example, if you frequently use solutions that have Presentation, Business, a
 4. Following the instructions in the wizard, select the projects that you want to include in the template, provide a name and description for the template, and specify an output location.
 
 > [!NOTE]
-> The material in this topic is abstracted and paraphrased from the Visual Studio Architecture Tooling Guidance, written by the Visual Studio ALM Rangers, which is a collaboration between Most Valued Professionals (MVPs), Microsoft Services, and the Visual Studio product team and writers. [Click here to download the complete Guidance package.](https://go.microsoft.com/fwlink/?LinkID=191984)
+> The material in this topic is abstracted and paraphrased from the Visual Studio Architecture Tooling Guidance, written by the Visual Studio ALM Rangers, which is a collaboration between Most Valued Professionals (MVPs), Microsoft Services, and the Visual Studio product team and writers. [Click here to download the complete Guidance package.](https://archive.codeplex.com/?p=vsarchitectureguide)
 
 ## Related materials
 

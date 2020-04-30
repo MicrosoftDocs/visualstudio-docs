@@ -20,6 +20,7 @@ ms.workload:
 - multiple
 ---
 # When element (MSBuild)
+
 Specifies a possible block of code for the `Choose` element to select.
 
  \<Project>
@@ -42,6 +43,7 @@ Specifies a possible block of code for the `Choose` element to select.
 ```
 
 ## Attributes and elements
+
  The following sections describe attributes, child elements, and parent elements.
 
 ### Attributes
@@ -65,11 +67,13 @@ Specifies a possible block of code for the `Choose` element to select.
 |[Choose element (MSBuild)](../msbuild/choose-element-msbuild.md)|Evaluates child elements to select one section of code to execute.|
 
 ## Remarks
+
  If the `Condition` attribute evaluates to true, the child `ItemGroup` and `PropertyGroup` elements of the `When` element are executed and all subsequent `When` elements are skipped.
 
  The `Choose`, `When`, and `Otherwise` elements are used together to provide a way to select one section of code to execute out of a number of possible alternatives. For more information, see [Conditional constructs](../msbuild/msbuild-conditional-constructs.md).
 
 ## Example
+
  The following project uses the `Choose` element to select which set of property values in the `When` elements to set. If the `Condition` attributes of both `When` elements evaluate to `false`, the property values in the `Otherwise` element are set.
 
 ```xml
@@ -118,5 +122,6 @@ Specifies a possible block of code for the `Choose` element to select.
 ```
 
 ## See also
+
 - [Conditional constructs](../msbuild/msbuild-conditional-constructs.md)
 - [Project file schema reference](../msbuild/msbuild-project-file-schema-reference.md)

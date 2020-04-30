@@ -94,7 +94,7 @@ Tells the Visual Studio debugger to get source files from source servers that im
     When source server support is enabled, this setting overrides the default behavior of prompting when running an untrusted command.
 
 **Enable Source Link support**:
-    Tells the Visual Studio debugger to download source files for *.pdb* files that contain Source Link information. For more information about Source Link, see the [Source link specification](https://github.com/dotnet/core/blob/master/Documentation/diagnostics/source_link.md).
+    Tells the Visual Studio debugger to download source files for *.pdb* files that contain Source Link information. For more information about Source Link, see the [Source link specification](/dotnet/standard/library-guidance/sourcelink).
 
 > [!IMPORTANT]
 > Because Source Link will download files using http or https, make sure you trust the *.pdb* file.

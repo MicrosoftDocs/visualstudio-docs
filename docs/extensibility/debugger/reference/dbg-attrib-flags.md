@@ -1,20 +1,20 @@
 ---
-title: "DBG_ATTRIB_FLAGS | Microsoft Docs"
-ms.date: "11/04/2016"
+title: DBG_ATTRIB_FLAGS | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "DBG_ATTRIB_FLAGS"
+- DBG_ATTRIB_FLAGS
 helpviewer_keywords:
-  - "DBGPROP_ATTRIB_FLAGS enumerations"
+- DBGPROP_ATTRIB_FLAGS enumerations
 ms.assetid: 2f13e601-dadc-476e-a8ec-01c4515082e7
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # DBG_ATTRIB_FLAGS
 Describes various attributes for an [IDebugProperty2](../../../extensibility/debugger/reference/idebugproperty2.md) or an [IDebugReference2](../../../extensibility/debugger/reference/idebugreference2.md) interface. Member of the [DEBUG_PROPERTY_INFO](../../../extensibility/debugger/reference/debug-property-info.md) structure.

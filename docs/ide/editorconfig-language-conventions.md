@@ -1,14 +1,14 @@
 ---
 title: .NET language conventions for EditorConfig
-ms.date: 09/23/2019
+ms.date: 03/31/2020
 ms.topic: reference
 dev_langs:
 - CSharp
 - VB
 helpviewer_keywords:
 - language code style rules [EditorConfig]
-author: TerryGLee
-ms.author: tglee
+author: mikadumont
+ms.author: midumont
 manager: jillfra
 ms.workload:
 - dotnet
@@ -88,7 +88,6 @@ The style rules in this section are applicable to both C# and Visual Basic.
   - dotnet\_style\_predefined\_type\_for\_member_access
 - [Modifier preferences](#normalize-modifiers)
   - dotnet\_style\_require\_accessibility_modifiers
-  - csharp\_preferred\_modifier_order
   - visual\_basic\_preferred\_modifier_order
   - dotnet\_style\_readonly\_field
 - [Parentheses preferences](#parentheses-preferences)
@@ -103,13 +102,13 @@ The style rules in this section are applicable to both C# and Visual Basic.
   - dotnet\_style\_prefer\_inferred\_tuple_names
   - dotnet\_style\_prefer\_inferred\_anonymous\_type\_member_names
   - dotnet\_style\_prefer\_auto\_properties
-  - dotnet\_style\_prefer\_is\_null\_check\_over\_reference\_equality\_method
   - dotnet\_style\_prefer\_conditional\_expression\_over\_assignment
   - dotnet\_style\_prefer\_conditional\_expression\_over\_return
   - dotnet\_style\_prefer\_compound\_assignment
 - ["Null" checking preferences](#null-checking-preferences)
   - dotnet\_style\_coalesce_expression
   - dotnet\_style\_null_propagation
+  - dotnet\_style\_prefer\_is\_null\_check\_over\_reference\_equality\_method
 
 ### <a name="this-and-me"></a>"This." and "Me." qualifiers
 
@@ -401,6 +400,43 @@ Code examples:
 Public Class MyClass
     Private Shared ReadOnly daysInYear As Int = 365
 End Class
+```
+
+#### visual_basic_style_unused_value_expression_statement_preference
+
+|||
+|-|-|
+| **Rule name** | visual_basic_style_unused_value_expression_statement_preference |
+| **Rule ID** | IDE0058 |
+| **Applicable languages** | Visual Basic |
+| **Values** | `unused_local_variable:silent` |
+| **Visual Studio default** | `unused_local_variable:silent` |
+
+Code examples:
+
+```vb
+' visual_basic_style_unused_value_expression_statement_preference = unused_local_variable:silent
+
+Dim unused = Computation()
+```
+
+#### visual_basic_style_unused_value_assignment_preference
+
+|||
+|-|-|
+| **Rule name** | visual_basic_style_unused_value_assignment_preference |
+| **Rule ID** | IDE0059 |
+| **Applicable languages** | Visual Basic |
+| **Values** | `unused_local_variable:silent` |
+| **Visual Studio default** | `unused_local_variable:silent` |
+
+Code examples:
+
+```vb
+' visual_basic_style_unused_value_assignment_preference = unused_local_variable:suggestion
+
+Dim unused = Computation()
+Dim x = 1;
 ```
 
 #### dotnet_style_readonly_field
@@ -935,6 +971,7 @@ These rules could appear in an *.editorconfig* file as follows:
 [*.{cs,vb}]
 dotnet_style_coalesce_expression = true:suggestion
 dotnet_style_null_propagation = true:suggestion
+dotnet_style_prefer_is_null_check_over_reference_equality_method = true:silent
 ```
 
 #### dotnet\_style\_coalesce_expression
@@ -996,6 +1033,16 @@ Dim v = o?.ToString()
 Dim v = If(o Is Nothing, Nothing, o.ToString()) ' or
 Dim v = If(o IsNot Nothing, o.ToString(), Nothing)
 ```
+
+### dotnet\_style\_prefer\_is\_null\_check\_over\_reference\_equality\_method
+
+|||
+|-|-|
+| **Rule name** | dotnet_style_prefer_is_null_check_over_reference_equality_method |
+| **Rule ID** | IDE0041 |
+| **Applicable languages** | C# 6.0+ and Visual Basic 14+ |
+| **Values** | `true` - Prefer is null check over reference equality method<br /><br />`false` - Prefer reference equality method over is null check |
+| **Visual Studio default** | `true:silent` |
 
 ## .NET code quality settings
 
@@ -1075,6 +1122,8 @@ The style rules in this section are applicable to C# only.
 - ["Null" checking preferences](#c-null-checking-preferences)
   - csharp\_style\_throw_expression
   - csharp\_style\_conditional\_delegate_call
+- [Modifier preferences](#normalize-modifiers)
+  - csharp\_preferred\_modifier_order
 - [Code block preferences](#code-block-preferences)
   - csharp\_prefer_braces
 - [Unused value preferences](#unused-value-preferences)
@@ -1552,7 +1601,7 @@ csharp_prefer_braces = true:silent
 | **Rule name** | csharp_prefer_braces |
 | **Rule ID** | IDE0011 |
 | **Applicable languages** | C# |
-| **Values** | `true` - Prefer curly braces even for one line of code<br /><br />`false` - Prefer no curly braces if allowed |
+| **Values** | `true` - Prefer curly braces even for one line of code<br /><br />`false` - Prefer no curly braces if allowed<br /><br />`when_multiline` - Prefer curly braces on multiple lines |
 | **Visual Studio default** | `true:silent` |
 
 Code examples:

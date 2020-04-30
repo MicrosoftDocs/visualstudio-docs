@@ -37,7 +37,9 @@ In this 5-10 minute introduction to the Visual Studio integrated development env
 
 * You must have the Node.js runtime installed.
 
-    If you don't have it installed, install the LTS version from the [Node.js](https://nodejs.org/en/download/) website. In general, Visual Studio automatically detects the installed Node.js runtime. If it does not detect an installed runtime, you can configure your project to reference the installed runtime in the properties page (after you create a project, right-click the project node and choose **Properties**).
+    If you don't have it installed, we recommend you install the LTS version from the [Node.js](https://nodejs.org/en/download/) website for best compatibility with outside frameworks and libraries. Node.js is built for 32-bit and 64-bit architectures. The Node.js tools in Visual Studio, included in the Node.js workload, support both versions. Only one is required and the Node.js installer only supports one being installed at a time.
+    
+    In general, Visual Studio automatically detects the installed Node.js runtime. If it does not detect an installed runtime, you can configure your project to reference the installed runtime in the properties page (after you create a project, right-click the project node, choose **Properties**, and set the **Node.exe path**). You can use a global installation of Node.js or you can specify the path to a local interpreter in each of your Node.js projects. 
 
 ## Create a project
 
@@ -45,7 +47,7 @@ First, you'll create a Vue.js web application project.
 
 1. If you don't have the Node.js runtime already installed, install the LTS version from the [Node.js](https://nodejs.org/en/download/) website.
 
-    In general, Visual Studio automatically detects the installed Node.js runtime. If it doesn't detect an installed runtime, you can configure your project to reference the installed runtime in the properties page (after you create a project, right-click the project node and choose **Properties**).
+    For more information, see the prerequisites.
 
 1. Open Visual Studio.
 
@@ -95,19 +97,24 @@ First, you'll create a Vue.js web application project.
 
 ## Build the project
 
+::: moniker range=">=vs-2019"
+1. Next, choose **Build** > **Build Solution** to build the project.
+
+1. Check the **Output** window to see build results, and choose **Build** from the **Show output from** list.
+::: moniker-end
+::: moniker range="vs-2017"
 1. (TypeScript project only) From Visual Studio, choose **Build** > **Clean Solution**.
 
-    ::: moniker range=">=vs-2019"
-    In the TypeScript template included with Visual Studio 2019, skip this step.
-    ::: moniker-end
+1. Next, choose **Build** > **Build Solution** to build the project.
 
-1. Next, choose **Build** > **Build Solution** to build the project. Check the **Output** window to see build results, and choose **Build** from the **Show output from** list.
+1. Check the **Output** window to see build results, and choose **Build** from the **Show output from** list.
+::: moniker-end
 
-    The JavaScript Vue.js project template (and older versions of the TypeScript template) use the `build` npm script by configuring a post build event. If you want to modify this setting, open the project file (*\<projectname\>.njsproj*) from Windows Explorer and locate this line of code:
+The JavaScript Vue.js project template (and older versions of the TypeScript template) use the `build` npm script by configuring a post build event. If you want to modify this setting, open the project file (*\<projectname\>.njsproj*) from Windows Explorer and locate this line of code:
 
-    ```xml
-    <PostBuildEvent>npm run build</PostBuildEvent>
-    ```
+```xml
+<PostBuildEvent>npm run build</PostBuildEvent>
+```
 
 ## Run the application
 
@@ -127,6 +134,6 @@ Congratulations on completing this Quickstart! We hope you learned a little bit 
 
 ## Next steps
 
+- Go through the article for [Vue.js](create-application-with-vuejs.md)
 - Go through the [Tutorial for Node.js and Express](tutorial-nodejs.md)
-- Go through the [Tutorial for Node.js and React](tutorial-nodejs-with-react-and-jsx.md)
 - [Deploy the app to Linux App Service](../javascript/publish-nodejs-app-azure.md)

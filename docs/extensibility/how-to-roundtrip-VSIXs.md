@@ -9,11 +9,11 @@ manager: "justinclareburt"
 ms.workload:
   - "willbrown"
 ---
-# How to: Make extensions compatible with Visual Studio 2017 and Visual Studio 2015
+# How to: Make extensions compatible with Visual Studio 2019/2017 and Visual Studio 2015
 
-This document explains how to make extensibility projects round-trip between Visual Studio 2015 and Visual Studio 2017. After completing this upgrade, a project will be able to open, build, install, and run in both Visual Studio 2015 and Visual Studio 2017. As a reference, some extensions that can round-trip between Visual Studio 2015 and Visual Studio 2017 can be found in the [VS SDK extensibility samples](https://github.com/Microsoft/VSSDK-Extensibility-Samples).
+This document explains how to make extensibility projects round-trip between Visual Studio 2015 and Visual Studio 2019 or Visual Studio 2017. After completing this upgrade, a project will be able to open, build, install, and run in both Visual Studio 2015 and Visual Studio 2019 or 2017. As a reference, some extensions that can round-trip between Visual Studio 2015 and Visual Studio 2019 or 2017 can be found in the [VS SDK extensibility samples](https://github.com/Microsoft/VSSDK-Extensibility-Samples).
 
-If you only intend to build in Visual Studio 2017, but want the output VSIX to run in both Visual Studio 2015 and Visual Studio 2017, then refer to the [Extension migration document](how-to-migrate-extensibility-projects-to-visual-studio-2017.md).
+If you only intend to build in Visual Studio 2019/2017, but want the output VSIX to run in both Visual Studio 2015 and Visual Studio 2019/2017, then refer to the [Extension migration document](how-to-migrate-extensibility-projects-to-visual-studio-2017.md).
 
 > [!NOTE]
 > Due to changes in Visual Studio between versions, some things that worked in one version don't work in another. Ensure that the features you are trying to access are available in both versions or the extension will have unexpected results.
@@ -37,11 +37,11 @@ Here is an outline of the steps you'll complete in this document to round-trip a
 This document assumes that you have the following installed on your machine:
 
 * Visual Studio 2015 with the VS SDK installed
-* Visual Studio 2017 with the Extensibility workload installed
+* Visual Studio 2019 or 2017 with the Extensibility workload installed
 
 ## Recommended approach
 
-It is highly recommended to start this upgrade with Visual Studio 2015, instead of Visual Studio 2017. The main benefit of developing in Visual Studio 2015 is to ensure that you do not reference assemblies that are not available in Visual Studio 2015. If you do development in Visual Studio 2017, there is a risk that you might introduce a dependency on an assembly that only exists in Visual Studio 2017.
+It is highly recommended to start this upgrade with Visual Studio 2015, instead of Visual Studio 2019 or 2017. The main benefit of developing in Visual Studio 2015 is to ensure that you do not reference assemblies that are not available in Visual Studio 2015. If you do development in Visual Studio 2019 or 2017, there is a risk that you might introduce a dependency on an assembly that only exists in Visual Studio 2019 or 2017.
 
 ## Ensure there is no reference to project.json
 
@@ -61,12 +61,12 @@ If your project contains a *project.json* file:
 
 We need to be sure to add build tools that will allow us to build and debug appropriately. Microsoft has created an assembly for this called Microsoft.VisualStudio.Sdk.BuildTasks.
 
-To build and deploy a VSIXv3 in both Visual Studio 2015 and 2017, you will require the following NuGet packages:
+To build and deploy a VSIXv3 in both Visual Studio 2015 and 2019/2017, you will require the following NuGet packages:
 
 Version | Built Tools
 --- | ---
 Visual Studio 2015 | Microsoft.VisualStudio.Sdk.BuildTasks.14.0
-Visual Studio 2017 | Microsoft.VSSDK.BuildTool
+Visual Studio 2019 or 2017 | Microsoft.VSSDK.BuildTool
 
 To do so:
 
@@ -106,7 +106,7 @@ To do this manually:
 * Save and close the file.
 
 > [!NOTE]
-> You may need to manually edit the Prerequisite version to ensure it is compatible with all versions of Visual Studio 2017. This is because the designer will insert the minimum version as your current version of Visual Studio (for example, 15.0.26208.0). However, since other users may have an earlier version, you will want to manually edit this to 15.0.
+> You may need to manually edit the Prerequisite version to ensure it is compatible with all versions of Visual Studio 2019 or 2017. This is because the designer will insert the minimum version as your current version of Visual Studio (for example, 15.0.26208.0). However, since other users may have an earlier version, you will want to manually edit this to 15.0.
 
 At this point, your manifest file should look something like this:
 
@@ -189,9 +189,10 @@ For example:
 <Error Condition="'$(VisualStudioVersion)' == '14.0' And Exists('packages\Microsoft.VisualStudio.Sdk.BuildTasks.14.0.14.0…" />
 ```
 
-* Save the csproj file and close it.
+* Save the csproj file and close it. 
+  * Note that if you are using more than one project in the solution, set this project as Startup Project by using "Set as Startup Project" on the project context menu). This ensures that Visual Studio reopens this project after you unload it.
 
-## Test the extension installs in Visual Studio 2015 and Visual Studio 2017
+## Test the extension installs in Visual Studio 2015 and Visual Studio 2019 or 2017
 
 At this point, your project should be ready to build a VSIXv3 that can install on both Visual Studio 2015 and Visual Studio 2017.
 
@@ -199,7 +200,7 @@ At this point, your project should be ready to build a VSIXv3 that can install o
 * Build your project and confirm in the output that a VSIX builds correctly.
 * Navigate to your project directory.
 * Open the *\bin\Debug* folder.
-* Double-click on the VSIX file and install your extension on Visual Studio 2015 and Visual Studio 2017.
+* Double-click on the VSIX file and install your extension on Visual Studio 2015 and Visual Studio 2019/2017.
 * Make sure that you can see the extension in **Tools** > **Extensions and Updates** in the **Installed** section.
 * Attempt to run/use the extension to check that it works.
 

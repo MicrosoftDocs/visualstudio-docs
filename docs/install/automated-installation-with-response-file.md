@@ -9,8 +9,8 @@ helpviewer_keywords:
 - automate
 - installation
 - command-line
-author: jillre
-ms.author: jillfra
+author: ornellaalt
+ms.author: ornella
 manager: jillfra
 ms.workload:
 - multiple

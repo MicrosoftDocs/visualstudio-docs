@@ -3,7 +3,8 @@ title: Product availability for software downloads in Visual Studio subscription
 author: evanwindom
 ms.author: lank
 manager: lank
-ms.date: 07/29/2019
+ms.assetid: abf271b5-7547-4695-a46f-72b2878ba8d4
+ms.date: 03/09/2020
 ms.topic: conceptual
 description:  Learn about product availability in software downloads for Visual Studio subscriptions
 ---
@@ -31,6 +32,12 @@ The number and type of downloads depends on your subscription level and program 
 > If you have multiple subscriptions associated with the same email address, the software titles available to you are determined by the **highest** level subscription you have.  For example, if you have a Visual Studio Enterprise subscription and a Visual Studio Test Professional subscription, you will have access to the software titles included with the Visual Studio Enterprise subscription, regardless of which subscription is currently in use in the subscriptions portal. 
 
 Not sure which subscription you're using?  Connect to [https://my.visualstudio.com/subscriptions](https://my.visualstudio.com/subscriptions?wt.mc_id=o~msft~docs) to see all the subscriptions assigned to your email address. If you don't see all your subscriptions, you may have one or more assigned to a different email address.  You'll need to sign in with that email address to see those subscriptions.
+
+## See also
+- [Visual Studio documentation](https://docs.microsoft.com/visualstudio/)
+- [Azure DevOps documentation](https://docs.microsoft.com/azure/devops/)
+- [Azure documentation](https://docs.microsoft.com/azure/)
+- [Microsoft 365 documentation](https://docs.microsoft.com/microsoft-365/)
 
 ## Next steps
 - Some software downloads may require a product key to install and activate them.  Check out our [product keys](product-keys.md) article for details on how to obtain and manage your product keys. 

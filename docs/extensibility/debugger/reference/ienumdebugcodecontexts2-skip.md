@@ -1,20 +1,20 @@
 ---
-title: "IEnumDebugCodeContexts2::Skip | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IEnumDebugCodeContexts2::Skip | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IEnumDebugCodeContexts2::Skip"
+- IEnumDebugCodeContexts2::Skip
 helpviewer_keywords:
-  - "IEnumDebugCodeContexts2::Skip"
+- IEnumDebugCodeContexts2::Skip
 ms.assetid: 3451a3eb-bf5b-4ec5-acc9-aa5a24363801
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IEnumDebugCodeContexts2::Skip
 Skips over the specified number of elements.

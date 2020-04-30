@@ -1,19 +1,19 @@
 ---
-title: "Reference Element (Visual Studio Templates) | Microsoft Docs"
-ms.date: "11/04/2016"
+title: Reference Element (Visual Studio Templates) | Microsoft Docs
+ms.date: 11/04/2016
 ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
-  - "http://schemas.microsoft.com/developer/vstemplate/2005#Reference"
+- http://schemas.microsoft.com/developer/vstemplate/2005#Reference
 helpviewer_keywords:
-  - "Reference element [Visual Studio templates]"
-  - "<Reference> element [Visual Studio templates]"
+- Reference element [Visual Studio templates]
+- <Reference> element [Visual Studio templates]
 ms.assetid: 852772ea-c324-42e9-8c8a-6d565414a109
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Reference element (Visual Studio templates)
 Specifies the assembly reference to add when the item is added to a project.

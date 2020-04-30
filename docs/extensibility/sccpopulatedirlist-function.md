@@ -1,17 +1,17 @@
 ---
-title: "SccPopulateDirList Function | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: SccPopulateDirList Function | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 f1_keywords:
-  - "SccPopulateDirList"
+- SccPopulateDirList
 helpviewer_keywords:
-  - "SccPopulateDirList function"
+- SccPopulateDirList function
 ms.assetid: dfff634b-b155-498b-a356-6eb252ac4fad
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # SccPopulateDirList Function
 This function determines which directories and (optionally) files are stored in source control, given a list of directories to examine.

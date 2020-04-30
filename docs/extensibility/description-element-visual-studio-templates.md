@@ -1,16 +1,16 @@
 ---
-title: "Description Element (Visual Studio Templates) | Microsoft Docs"
-ms.date: "11/04/2016"
+title: Description Element (Visual Studio Templates) | Microsoft Docs
+ms.date: 11/04/2016
 ms.technology: vs-ide-general
 ms.topic: reference
 helpviewer_keywords:
-  - "Description element [Visual Studio project templates]"
+- Description element [Visual Studio project templates]
 ms.assetid: 6e12be73-081f-4c7d-898f-027c307a9fe1
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Description element (Visual Studio templates)
 Specifies the description of the template as it appears in either the **New Project** or **Add New Item** dialog box.

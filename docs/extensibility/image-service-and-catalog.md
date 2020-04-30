@@ -1,13 +1,13 @@
 ---
-title: "Image Service and Catalog | Microsoft Docs"
-ms.date: "04/01/2019"
-ms.topic: "conceptual"
+title: Image Service and Catalog | Microsoft Docs
+ms.date: 04/01/2019
+ms.topic: conceptual
 ms.assetid: 34990c37-ae98-4140-9b1e-a91c192220d9
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Image service and catalog
 This cookbook contains guidance and best practices for adopting the Visual Studio Image Service and Image Catalog introduced in Visual Studio 2015.
@@ -714,7 +714,7 @@ b714fcf7-855e-4e4c-802a-1fd87144ccad,2,fda30684-682d-421c-8be4-650a2967058e,200
 3. Update your code to use the image service to request monikers via the updated mapping. (This might mean updating to **CrispImages** for managed code, or requesting HBITMAPs or HICONs from the image service and passing them around for native code.)
 
 ## Testing your images
- You can use the Image Library Viewer tool to test your image manifests to make sure everything is authored correctly. You can find the tool in the [Visual Studio 2015 SDK](visual-studio-sdk.md). Documentation for this tool and others can be found [here](https://aka.ms/VSImageThemeTools).
+ You can use the Image Library Viewer tool to test your image manifests to make sure everything is authored correctly. You can find the tool in the [Visual Studio 2015 SDK](visual-studio-sdk.md). Documentation for this tool and others can be found [here](/visualstudio/extensibility/internals/vssdk-utilities?view=vs-2015).
 
 ## Additional resources
 

@@ -1,16 +1,16 @@
 ---
-title: "Checklist: Creating New Project Types | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: 'Checklist: Creating New Project Types | Microsoft Docs'
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "projects [Visual Studio SDK], creating new types"
-  - "project types, checklist for creating"
+- projects [Visual Studio SDK], creating new types
+- project types, checklist for creating
 ms.assetid: 29eb9c3b-1933-4741-aa85-65a33f0825ba
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Checklist: Create new project types
 You must complete several tasks to create a new project type. The following checklist provides a guide to those tasks:

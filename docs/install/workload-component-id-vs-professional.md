@@ -3,10 +3,10 @@ title: Visual Studio Professional workload and component IDs
 titleSuffix: ''
 description: Use workload and component IDs to install Visual Studio by using the command line or to specify as a dependency in a VSIX manifest
 keywords: 
-author: jillre
-ms.author: jillfra
+author: ornellaalt
+ms.author: ornella
 manager: jillfra
-ms.date: 12/03/2019
+ms.date: 03/16/2020
 ms.topic: reference
 helpviewer_keywords:
 - workload ID, Visual Studio
@@ -15,6 +15,7 @@ helpviewer_keywords:
 ms.assetid: 5719032b-2c2e-416e-a281-a4573ec74e38
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
+open_to_public_contributors: false
 ---
 # Visual Studio Professional component directory
 

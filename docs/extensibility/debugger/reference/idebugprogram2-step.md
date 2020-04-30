@@ -1,20 +1,20 @@
 ---
-title: "IDebugProgram2::Step | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugProgram2::Step | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugProgram2::Step"
+- IDebugProgram2::Step
 helpviewer_keywords:
-  - "IDebugProgram2::Step"
+- IDebugProgram2::Step
 ms.assetid: e4c2ffce-9810-4088-8162-eac9ef04f2a9
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugProgram2::Step
 Performs a step.

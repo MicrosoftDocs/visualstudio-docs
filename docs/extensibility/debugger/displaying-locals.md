@@ -1,16 +1,16 @@
 ---
-title: "Displaying Locals | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Displaying Locals | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "debugging [Debugging SDK], expression evaluation"
-  - "expression evaluation, displaying locals"
+- debugging [Debugging SDK], expression evaluation
+- expression evaluation, displaying locals
 ms.assetid: 62264cec-845b-4233-aed7-0b038fa79250
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Display locals
 > [!IMPORTANT]

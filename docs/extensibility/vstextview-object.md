@@ -1,18 +1,18 @@
 ---
-title: "VSTextView Object | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: VSTextView Object | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 f1_keywords:
-  - "VSTextView"
+- VSTextView
 helpviewer_keywords:
-  - "VSTextView object, reference"
-  - "views [Visual Studio SDK], reference"
+- VSTextView object, reference
+- views [Visual Studio SDK], reference
 ms.assetid: 78272ddc-9718-4c65-a94e-a44a2e8d54f4
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # VSTextView object
 

@@ -1,20 +1,20 @@
 ---
-title: "FIELD_MODIFIERS | Microsoft Docs"
-ms.date: "11/04/2016"
+title: FIELD_MODIFIERS | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "FIELD_MODIFIERS"
+- FIELD_MODIFIERS
 helpviewer_keywords:
-  - "FIELD_MODIFIERS enumeration"
+- FIELD_MODIFIERS enumeration
 ms.assetid: 1e44681c-1f03-41a9-9c04-b79f231b0822
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # FIELD_MODIFIERS
 Specifies modifiers for a field type.

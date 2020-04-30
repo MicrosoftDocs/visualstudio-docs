@@ -9,7 +9,6 @@ ms.workload: azure-vs
 ms.topic: conceptual
 ms.date: 11/10/2017
 ms.author: ghogen
-ms.custom: seodec18
 ---
 # How to: Migrate and Publish a Web Application to an Azure Cloud Service from Visual Studio
 

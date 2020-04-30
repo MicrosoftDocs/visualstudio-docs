@@ -1,18 +1,18 @@
 ---
-title: "IDebugPortSupplierLocale2::SetLocale | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugPortSupplierLocale2::SetLocale | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
-  - "IDebugPortSupplierLocale2::SetLocale"
+- IDebugPortSupplierLocale2::SetLocale
 ms.assetid: 21e88510-caac-405e-ba45-cb00e19a28bc
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugPortSupplierLocale2::SetLocale
 Sets the locale for the port supplier.

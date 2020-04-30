@@ -155,7 +155,7 @@ To see the effect, run the app first to see that no polls yet exist. Then visit 
 
 ### Question: Is it possible to initialize the database using the Django administrative utility?
 
-Answer: Yes, you can use the [django-admin loaddata command](https://docs.djangoproject.com/en/1.9/ref/django-admin/#loaddata) to accomplish the same task as the seeding page in the app. When working on a full web app, you might use a combination of the two methods: initialize a database from the command line, then convert the seed page here to an API to which you can send any other arbitrary JSON rather than relying on a hard-coded file.
+Answer: Yes, you can use the [django-admin loaddata command](https://docs.djangoproject.com/en/2.0/ref/django-admin/#loaddata) to accomplish the same task as the seeding page in the app. When working on a full web app, you might use a combination of the two methods: initialize a database from the command line, then convert the seed page here to an API to which you can send any other arbitrary JSON rather than relying on a hard-coded file.
 
 ## Step 6-3: Use migrations
 

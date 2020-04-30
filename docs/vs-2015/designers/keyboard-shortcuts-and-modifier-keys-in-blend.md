@@ -29,7 +29,7 @@ Keyboard shortcuts can speed up your work by reducing an action that would requi
    ![](../designers/media/f147fc85-9fc5-4e8a-8039-bead80a3e595.png "f147fc85-9fc5-4e8a-8039-bead80a3e595")
   Shortcut keys that appear next to menu items that have shortcuts
 
-  For more information about accessibility and features, see [Accessibility at Microsoft](https://go.microsoft.com/fwlink/?LinkId=75069).
+  For more information about accessibility and features, see [Accessibility at Microsoft](https://www.microsoft.com/enable).
 
 ## Modifier keys
  Some keyboard shortcuts do not have associated menu items, which means that you can't use the [!INCLUDE[blend_subs](../includes/blend-subs-md.md)] user interface to discover them. The following topics list shortcuts that modify the behavior of tools, or that modify an action, such as resizing an object:

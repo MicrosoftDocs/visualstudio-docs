@@ -17,12 +17,12 @@ ms.author: ghogen
 
 Cloud Explorer enables you to view your Azure resources and resource groups, inspect their properties, and perform key developer diagnostics actions from within Visual Studio.
 
-Like the [Azure portal](https://go.microsoft.com/fwlink/p/?LinkID=525040), Cloud Explorer is built on the Azure Resource Manager stack. Therefore, Cloud Explorer understands resources such as Azure resource groups and Azure services such as Logic apps and API apps, and it supports [role-based access control](/azure/role-based-access-control/role-assignments-portal) (RBAC).
+Like the [Azure portal](https://portal.azure.com/), Cloud Explorer is built on the Azure Resource Manager stack. Therefore, Cloud Explorer understands resources such as Azure resource groups and Azure services such as Logic apps and API apps, and it supports [role-based access control](/azure/role-based-access-control/role-assignments-portal) (RBAC).
 
 ## Prerequisites
 
 * Visual Studio 2015 with the [Microsoft Azure SDK for .NET 2.9](https://www.microsoft.com/download/details.aspx?id=51657).
-* Microsoft Azure account - If you don't have an account, you can [sign up for a free trial](https://go.microsoft.com/fwlink/?LinkId=623901) or [activate your Visual Studio subscriber benefits](https://go.microsoft.com/fwlink/?LinkId=623901).
+* Microsoft Azure account - If you don't have an account, you can [sign up for a free trial](https://azure.microsoft.com/pricing/member-offers/msdn-benefits-details/) or [activate your Visual Studio subscriber benefits](https://azure.microsoft.com/pricing/member-offers/msdn-benefits-details/).
 
 > [!NOTE]
 > To view Cloud Explorer, select **View** > **Cloud Explorer** on the menu bar.
@@ -73,7 +73,7 @@ To view your Azure resources, you can choose either **Resource Types** or **Reso
 
 1. From the context menu, select the desired view:
 
-   * **Resource Types** view - The common view used on the [Azure portal](https://go.microsoft.com/fwlink/p/?LinkID=525040), shows your Azure resources categorized by their type, such as web apps, storage accounts, and virtual machines.
+   * **Resource Types** view - The common view used on the [Azure portal](https://portal.azure.com/), shows your Azure resources categorized by their type, such as web apps, storage accounts, and virtual machines.
    * **Resource Groups** view - Categorizes Azure resources by the Azure resource group with which they're associated. A resource group is a bundle of Azure resources, typically used by a specific application. To learn more about Azure resource groups, see [Azure Resource Manager Overview](/azure/azure-resource-manager/resource-group-overview).
 
    The following image shows a comparison of the two resource views:
@@ -92,7 +92,7 @@ The following image shows an example comparison of what you see on each tab for 
 
   ![Screenshot of Cloud Explorer](./media/vs-azure-tools-resources-managing-with-cloud-explorer/actions-and-properties.png)
 
-Every resource has the action **Open in portal**. When you choose this action, Cloud Explorer displays the selected resource in the [Azure portal](https://go.microsoft.com/fwlink/p/?LinkID=525040). The **Open in portal** feature is handy for navigating to deeply nested resources.
+Every resource has the action **Open in portal**. When you choose this action, Cloud Explorer displays the selected resource in the [Azure portal](https://portal.azure.com/). The **Open in portal** feature is handy for navigating to deeply nested resources.
 
 Additional actions and property values may also appear based on the Azure resource. For example, web apps and logic apps also have the actions **Open in browser** and **Attach debugger** in addition to **Open in portal**. Actions to open editors appear when you choose a storage account blob, queue, or table. Azure apps have **URL** and **Status** properties, while storage resources have key and connection string properties.
 

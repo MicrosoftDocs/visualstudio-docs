@@ -10,7 +10,7 @@ ms.custom: video
 
 # Getting Started with ASP.NET Core
 
- Visual Studio for Mac makes it easy to develop your app’s service with its support for the latest ASP.NET Core Web development platform. ASP.NET Core runs on .NET Core, the latest evolution of the .NET Framework and runtime. It’s been tuned for fast performance, factored for small install sizes, and reimagined to run on Linux and macOS, as well as Windows.
+ Visual Studio for Mac makes it easy to develop your app's service with its support for the latest ASP.NET Core Web development platform. ASP.NET Core runs on .NET Core, the latest evolution of the .NET Framework and runtime. It's been tuned for fast performance, factored for small install sizes, and reimagined to run on Linux and macOS, as well as Windows.
 
 ## Installing .NET Core
 
@@ -37,7 +37,7 @@ Select the **ASP.NET Core Empty Web Application** and press **Next**. Give the P
 
 ![New ASP.NET Core Empty Project view](media/asp-net-core-2019-empty-project.png)
 
-The ASP.NET Core Empty template creates a web application with two default files: **Program.cs** and **Startup.cs**, which are explained below. It also creates a Dependencies folder, which contains your project’s NuGet package dependencies such as ASP.NET Core, the .NET Core framework, and the MSBuild targets that build the project:
+The ASP.NET Core Empty template creates a web application with two default files: **Program.cs** and **Startup.cs**, which are explained below. It also creates a Dependencies folder, which contains your project's NuGet package dependencies such as ASP.NET Core, the .NET Core framework, and the MSBuild targets that build the project:
 
 ![Solution Pad displaying dependencies](media/asp-net-core-2019-solution-dependencies.png)
 
@@ -231,7 +231,7 @@ Make sure to complete all steps successfully to ensure that .NET Core is install
 
 This guide gave an introduction to ASP.NET Core. It describes what it is, when to use it, and provided information on using it in Visual Studio for Mac.
 For more information on the next steps from here, refer to the following guides:
-- [ASP.NET Core](/aspnet/core/?view=aspnetcore-2.1#build-web-apis-and-web-ui-using-aspnet-core-mvc) docs.
+- [ASP.NET Core](/aspnet/core/?view=aspnetcore-2.1) docs.
 - [Creating Backend Services for Native Mobile Applications](/aspnet/core/mobile/native-mobile-backend), which shows how to build a REST service using ASP.NET Core for a Xamarin.Forms app.
 - [ASP.NET Core hands-on lab](https://github.com/Microsoft/vs4mac-labs/tree/master/Web/Getting-Started).
 

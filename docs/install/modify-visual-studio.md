@@ -1,9 +1,8 @@
 ---
-title: "Modify Visual Studio"
-titleSuffix: ""
-description: "Learn how to modify Visual Studio, step-by-step."
-ms.custom: "H1Hack27Feb2017,seodec18"
-ms.date: 12/19/2019
+title: Modify Visual Studio
+titleSuffix: ''
+description: Learn how to modify Visual Studio, step-by-step.
+ms.date: 02/10/2019
 ms.topic: conceptual
 helpviewer_keywords:
 - modify Visual Studio
@@ -11,8 +10,8 @@ helpviewer_keywords:
 - changing Visual Studio
 - customize Visual Studio
 ms.assetid: 3399ea7b-a291-4a9e-80a1-b861a21afa1d
-author: jillre
-ms.author: jillfra
+author: ornellaalt
+ms.author: ornella
 manager: jillfra
 ms.workload:
 - multiple
@@ -119,6 +118,9 @@ Here's how.
 
  Workloads contain the features you need for the programming language or platform that you're using. Use workloads to modify Visual Studio so that it supports the work you want to do, when you want to do it.
 
+ > [!TIP]
+>For more information about which tool and component bundles you need for development, see [Visual Studio workloads](https://visualstudio.microsoft.com/vs/#workloads).
+
 1. In in the Visual Studio Installer, choose the **Workloads** tab, and then select or deselect the workloads that you want.
 
     ![Visual Studio 2019 setup dialog](media/vs-2019/vs-installer-modify-workloads.png "Choose a workload in Visual Studio 2019")
@@ -138,6 +140,9 @@ Here's how.
 ## Modify individual components
 
 If you don't want to use workloads to customize your Visual Studio installation, choose the **Individual Components** tab in the Visual Studio Installer, select the components you want, and then follow the prompts.
+
+>[!TIP]
+> For information about the SQL Server Data Tools (SSDT) component, see [Download and install SSDT for Visual Studio](/sql/ssdt/download-sql-server-data-tools-ssdt?view=sql-server-ver15).
 
 ## Modify language packs
 

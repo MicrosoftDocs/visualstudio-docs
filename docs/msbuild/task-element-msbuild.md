@@ -1,5 +1,5 @@
 ---
-title: Task Element (MSBuild) | Microsoft Docs
+title: Task Element of Target (MSBuild) | Microsoft Docs
 ms.date: 03/13/2017
 ms.topic: reference
 dev_langs:
@@ -17,8 +17,9 @@ manager: jillfra
 ms.workload:
 - multiple
 ---
-# Task element (MSBuild)
-Creates and executes an instance of an [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] task. The element name is determined by the name of the task being created.
+# Task element of Target (MSBuild)
+
+Creates and executes an instance of an MSBuild task. The element name is determined by the name of the task being created.
 
  \<Project>
  \<Target>
@@ -34,6 +35,7 @@ Creates and executes an instance of an [!INCLUDE[vstecmsbuild](../extensibility/
 ```
 
 ## Attributes and elements
+
  The following sections describe attributes, child elements, and parent elements.
 
 ### Attributes
@@ -54,14 +56,16 @@ Creates and executes an instance of an [!INCLUDE[vstecmsbuild](../extensibility/
 
 | Element | Description |
 | - | - |
-| [Target](../msbuild/target-element-msbuild.md) | Container element for [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] tasks. |
+| [Target](../msbuild/target-element-msbuild.md) | Container element for MSBuild tasks. |
 
 ## Remarks
- A `Task` element in an [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] project file creates an instance of a task, sets properties on it, and executes it. The `Output` element stores output parameters in properties or items to be used elsewhere in the project file.
+
+ A `Task` element in an MSBuild project file creates an instance of a task, sets properties on it, and executes it. The `Output` element stores output parameters in properties or items to be used elsewhere in the project file.
 
  If there are any [OnError](../msbuild/onerror-element-msbuild.md) elements in the parent `Target` element of a task, they will still be evaluated if the task fails and `ContinueOnError` has a value of `false`. For more information on tasks, see [Tasks](../msbuild/msbuild-tasks.md).
 
 ## Example
+
  The following code example creates an instance of the [Csc task](../msbuild/csc-task.md) class, sets six of the properties, and executes the task. After execution, the value of the `OutputAssembly` property of the object is placed into an item list named `FinalAssemblyName`.
 
 ```xml
@@ -79,6 +83,7 @@ Creates and executes an instance of an [!INCLUDE[vstecmsbuild](../extensibility/
 ```
 
 ## See also
+
 - [Tasks](../msbuild/msbuild-tasks.md)
 - [Task reference](../msbuild/msbuild-task-reference.md)
 - [Project file schema reference](../msbuild/msbuild-project-file-schema-reference.md)

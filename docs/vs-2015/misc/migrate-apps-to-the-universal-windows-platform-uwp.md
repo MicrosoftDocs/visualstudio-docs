@@ -685,7 +685,7 @@ Make the necessary manual changes to your existing project files for Windows Sto
 
    ```
 
-8. Find the \<ItemGroup> that has \<Reference> children elements to NuGet packages. Take note of the NuGet packages that are referenced, because you will need this information for a future step. One significant difference between the Windows 10 project format between Visual Studio 2015 RC and Visual Studio 2015 RTM is that the RTM format uses [NuGet](https://docs.microsoft.com/nuget/) version 3.
+8. Find the \<ItemGroup> that has \<Reference> children elements to NuGet packages. Take note of the NuGet packages that are referenced, because you will need this information for a future step. One significant difference between the Windows 10 project format between Visual Studio 2015 RC and Visual Studio 2015 RTM is that the RTM format uses [NuGet](/nuget/) version 3.
 
     Remove the \<ItemGroup> and all its children. For example, a UWP project created with Visual Studio RC will have the following NuGet packages that need to be removed:
 
@@ -733,7 +733,7 @@ Make the necessary manual changes to your existing project files for Windows Sto
 
     2. Save your changes.
 
-14. Use the NuGet manager to add the packages that you deleted in the earlier step. One significant difference between the Windows 10 project format between Visual Studio 2015 RC and Visual Studio 2015 RTM is that the RTM format uses [NuGet](https://docs.microsoft.com/nuget/) version 3.
+14. Use the NuGet manager to add the packages that you deleted in the earlier step. One significant difference between the Windows 10 project format between Visual Studio 2015 RC and Visual Studio 2015 RTM is that the RTM format uses [NuGet](/nuget/) version 3.
 
     You can now code, build, and debug your app.
 

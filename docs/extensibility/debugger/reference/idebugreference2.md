@@ -1,17 +1,17 @@
 ---
-title: "IDebugReference2 | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugReference2 | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugReference2"
+- IDebugReference2
 helpviewer_keywords:
-  - "IDebugReference2 interface"
+- IDebugReference2 interface
 ms.assetid: 3cfed312-f532-4bce-84a5-1677c14567d7
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # IDebugReference2
 This interface represents a reference to a stack frame property or some other property.

@@ -1,18 +1,18 @@
 ---
-title: "VisibilityConstraints Element | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: VisibilityConstraints Element | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 f1_keywords:
-  - "VisibilityConstraints"
+- VisibilityConstraints
 helpviewer_keywords:
-  - "VSCT XML schema elements, VisibilityConstraints"
-  - "VisibilityConstraints element (VSCT XML schema)"
+- VSCT XML schema elements, VisibilityConstraints
+- VisibilityConstraints element (VSCT XML schema)
 ms.assetid: d6dcd314-6fe4-4693-a189-91fa026c7b34
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # VisibilityConstraints element
 The VisibilityConstraints element determines the static visibility of groups of commands and toolbars. The visibility is first controlled by the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] integrated development environment (IDE) without loading the VSPackage.

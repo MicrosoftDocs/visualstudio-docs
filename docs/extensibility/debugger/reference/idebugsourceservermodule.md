@@ -1,15 +1,15 @@
 ---
-title: "IDebugSourceServerModule | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugSourceServerModule | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
-  - "IDebugSourceServerModule interface"
+- IDebugSourceServerModule interface
 ms.assetid: 38213060-451d-46e6-8b4a-efc123e01a2c
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # IDebugSourceServerModule
 Represents the source server information that is contained in a PDB file.

@@ -1,20 +1,20 @@
 ---
-title: "IDebugProgramNode2::DetachDebugger_V7 | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugProgramNode2::DetachDebugger_V7 | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugProgramNode2::DetachDebugger"
+- IDebugProgramNode2::DetachDebugger
 helpviewer_keywords:
-  - "IDebugProgramNode2::DetachDebugger"
-  - "IDebugProgramNode2::DetachDebugger_V7"
-author: madskristensen
-ms.author: madsk
+- IDebugProgramNode2::DetachDebugger
+- IDebugProgramNode2::DetachDebugger_V7
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugProgramNode2::DetachDebugger_V7
 

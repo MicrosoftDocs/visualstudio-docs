@@ -1,17 +1,17 @@
 ---
-title: "Elements of a Project Model | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Elements of a Project Model | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "projects [Visual Studio SDK], implementation considerations"
-  - "project models"
-  - "projects [Visual Studio SDK], elements"
+- projects [Visual Studio SDK], implementation considerations
+- project models
+- projects [Visual Studio SDK], elements
 ms.assetid: a1dbe0dc-68da-45d7-8704-5b43ff7e4fc4
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Elements of a project model
 The interfaces and implementations of all projects in [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] share a basic structure: the project model for your project type. In your project model, which is the VSPackage you are developing, you create objects that comply with your design decisions and work together with global functionality provided by the IDE. Although you control how a project item is persisted, for example, you do not control notification that a file must be persisted. When a user places the focus on an open project item and chooses **Save** on the **File** menu on the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] menu bar, your project type code must intercept the command from the IDE, persist the file, and send notification back to the IDE that the file is no longer changed.
