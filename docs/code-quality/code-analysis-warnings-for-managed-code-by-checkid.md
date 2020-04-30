@@ -266,6 +266,7 @@ f1_keywords:
 - CA2242
 - CA2243
 - CA5122
+- CA5374
 ms.assetid: 5cb221f6-dc59-4abf-9bfa-adbd6f907f96
 author: mikejo5000
 ms.author: mikejo
@@ -528,3 +529,4 @@ The following table lists Code Analysis warnings for managed code by the CheckId
 | CA2242 |[CA2242: Test for NaN correctly](../code-quality/ca2242.md) | This expression tests a value against Single.Nan or Double.Nan. Use Single.IsNan(Single) or Double.IsNan(Double) to test the value. |
 | CA2243 |[CA2243: Attribute string literals should parse correctly](../code-quality/ca2243.md) | The string literal parameter of an attribute does not parse correctly for a URL, a GUID, or a version. |
 | CA5122 | [CA5122 P/Invoke declarations should not be safe critical](../code-quality/ca5122.md) | Methods are marked as SecuritySafeCritical when they perform a security sensitive operation, but are also safe to be used by transparent code. Transparent code may never directly call native code through a P/Invoke. Therefore, marking a P/Invoke as security safe critical will not enable transparent code to call it, and is misleading for security analysis. |
+| CA5374 | [CA5374 Do Not Use XslTransform](../code-quality/ca5374.md) | This rule checks if <xref:System.Xml.Xsl.XslTransform?displayProperty=nameWithType> is instantiated in the code. <xref:System.Xml.Xsl.XslTransform?displayProperty=nameWithType> is now obsolete and shouldn’t be used. |
