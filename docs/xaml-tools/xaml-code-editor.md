@@ -13,7 +13,7 @@ The XAML code editor in the [Visual Studio IDE](../get-started/visual-studio-ide
 
 To start, let's take a look at the IDE (integrated development environment) with an open WPF project. The following image shows several of the key IDE tools you'll use along with the XAML code editor. From the bottom left of the image going clockwise, they are: 
 
-[![The Visual Studio 2019 IDE](media/xaml-code-editor-overview-sml.png)](media/xaml-code-editor-overview-lrg.png#lightbox)
+[![The Visual Studio 2019 IDE with an open WPF project](media/xaml-code-editor-overview-sml.png)](media/xaml-code-editor-overview-lrg.png#lightbox)
 
 - The **[XAML code editor](#xaml-code-editor-ui)** window&mdash;the subject of this article&mdash;where you create and edit your code. 
 - The **[XAML Designer](creating-a-ui-by-using-xaml-designer-in-visual-studio.md)** window, where you design your UI.
@@ -110,6 +110,13 @@ When you are editing your code in the XAML code editor, there are several featur
 
 ![Screenshot of the XAML code editor's right-click menu in Visual Studio 2019](media/xaml-code-editor-right-click-menu.png)
 
+Some of these features are available universally in the Visual Studio IDE, and some are specific to the XAML code editor. Here's what each feature does and how it's useful.
+
+
+
+
+- View Code. This setting  
+
 - Quick Actions
 - Only expands a lightbulb if its available
 - Rename (namespaces only)
@@ -127,6 +134,8 @@ In the scroll bar of the code editor, there's a **Split** button at the top righ
 ![Screenshot of the XAML code editor, middle pane only, in Visual Studio 2019](media/code-editor-split-window-button.png)
 
 For more information, see the [Manage editor windows](../ide/how-to-manage-editor-windows.md).
+
+You can also change how the scroll bar looks and what additional features it contains. For example, many people appreciate using map mode, which 
 
 ## XAML-specific features
 
