@@ -20,6 +20,7 @@ ms.workload:
 - multiple
 ---
 # ItemDefinitionGroup element (MSBuild)
+
 The `ItemDefinitionGroup` element lets you define a set of Item Definitions, which are metadata values that are applied to all items in the project, by default. ItemDefinitionGroup supersedes the need to use the [CreateItem task](../msbuild/createitem-task.md) and the [CreateProperty task](../msbuild/createproperty-task.md). For more information, see [Item definitions](../msbuild/item-definitions.md).
 
 \<Project>
@@ -35,6 +36,7 @@ The `ItemDefinitionGroup` element lets you define a set of Item Definitions, whi
 ```
 
 ## Attributes and elements
+
 The following sections describe attributes, child elements, and parent elements.
 
 ### Attributes
@@ -53,9 +55,10 @@ The following sections describe attributes, child elements, and parent elements.
 
 | Element | Description |
 | - | - |
-| [Project](../msbuild/project-element-msbuild.md) | Required root element of an [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)] project file. |
+| [Project](../msbuild/project-element-msbuild.md) | Required root element of an MSBuild project file. |
 
 ## Example
+
 The following code example defines two metadata items, m and n, in an ItemDefinitionGroup. In this example, the default metadata "m" is applied to Item "i" because metadata "m" is not explicitly defined by Item "i". However, default metadata "n" is not applied to Item "i" because metadata "n" is already defined by Item "i".
 
 ```xml
@@ -77,5 +80,6 @@ The following code example defines two metadata items, m and n, in an ItemDefini
 ```
 
 ## See also
+
 - [Project file schema reference](../msbuild/msbuild-project-file-schema-reference.md)
 - [Items](../msbuild/msbuild-items.md)

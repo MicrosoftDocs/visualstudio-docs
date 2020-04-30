@@ -1,20 +1,20 @@
 ---
-title: "IDebugProgramNode2::Attach_V7 | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugProgramNode2::Attach_V7 | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugProgramNode2::Attach"
+- IDebugProgramNode2::Attach
 helpviewer_keywords:
-  - "IDebugProgramNode2::Attach_V7"
-  - "IDebugProgramNode2::Attach"
-author: madskristensen
-ms.author: madsk
+- IDebugProgramNode2::Attach_V7
+- IDebugProgramNode2::Attach
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugProgramNode2::Attach_V7
 

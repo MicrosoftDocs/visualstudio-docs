@@ -1,16 +1,16 @@
 ---
-title: "Deleting a Breakpoint | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Deleting a Breakpoint | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "breakpoints, deleting"
-  - "debugging [Debugging SDK], deleting breakpoints"
+- breakpoints, deleting
+- debugging [Debugging SDK], deleting breakpoints
 ms.assetid: 75a046cc-d20a-4c79-ad2d-1f18426ac5d0
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Deleting a breakpoint
 The following describes the process when deleting a pending breakpoint:

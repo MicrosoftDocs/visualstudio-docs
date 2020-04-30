@@ -1,18 +1,18 @@
 ---
-title: "RDT_ReadLock Usage | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: RDT_ReadLock Usage | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "RDT_ReadLock"
-  - "visible"
-  - "RDT_EditLock"
-  - "invisible"
+- RDT_ReadLock
+- visible
+- RDT_EditLock
+- invisible
 ms.assetid: b935fc82-9d6b-4a8d-9b70-e9a5c5ad4a55
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # RDT_ReadLock Usage
 

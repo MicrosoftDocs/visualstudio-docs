@@ -1,15 +1,15 @@
 ---
-title: "Document Lock Holder Management | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Document Lock Holder Management | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "editors [Visual Studio SDK], custom - document locking"
+- editors [Visual Studio SDK], custom - document locking
 ms.assetid: fa1ce513-eb7d-42bc-b6e8-cb2433d051d5
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Document lock holder management
 

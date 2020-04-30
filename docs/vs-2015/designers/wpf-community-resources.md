@@ -16,7 +16,7 @@ manager: jillfra
 Microsoft exposes a variety of community resources for you to learn about, discuss, and provide feedback on Windows Presentation Foundation (WPF), including blogs produced by WPF team members and community leaders, forums, and the Microsoft Connect feedback center.
 
 ## Community
- [WPF Forum](https://go.microsoft.com/fwlink/?LinkId=187440)
+ [WPF Forum](https://social.msdn.microsoft.com/forums/en-US/wpf/threads/)
 
  [Stack Overflow](https://stackoverflow.com/questions/tagged/wpf)
 

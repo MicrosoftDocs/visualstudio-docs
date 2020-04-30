@@ -1,17 +1,17 @@
 ---
-title: "IDebugEngineCreateEvent2 | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugEngineCreateEvent2 | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugEngineCreateEvent2"
+- IDebugEngineCreateEvent2
 helpviewer_keywords:
-  - "IDebugEngineCreateEvent2 interface"
+- IDebugEngineCreateEvent2 interface
 ms.assetid: 37c0a841-1c8d-4802-a990-36b54bca3ef7
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # IDebugEngineCreateEvent2
 The debug engine (DE) sends this interface to the session debug manager (SDM) when an instance of the DE is created.

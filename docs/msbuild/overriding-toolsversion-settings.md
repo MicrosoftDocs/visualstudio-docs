@@ -13,6 +13,7 @@ ms.workload:
 - multiple
 ---
 # Override ToolsVersion settings
+
 You can change the Toolset for projects and solutions in one of three ways:
 
 1. By using the `-ToolsVersion` switch (or `-tv`, for short) when you build the project or solution from the command line.
@@ -22,6 +23,7 @@ You can change the Toolset for projects and solutions in one of three ways:
 3. By setting the `$(ProjectToolsVersion)` property on a project within a solution. This lets you build a project in a solution with a Toolset version that differs from that of the other projects.
 
 ## Override the ToolsVersion settings of projects and solutions on command line builds
+
  Although Visual Studio projects typically build with the ToolsVersion specified in the project file, you can use the `-ToolsVersion` (or `-tv`) switch on the command line to override that value and build all of the projects and their project-to-project dependencies with a different Toolset. For example:
 
 ```cmd
@@ -33,6 +35,7 @@ msbuild.exe someproj.proj -tv:12.0 -p:Configuration=Debug
  When using the `-tv` switch on the command line, you can optionally use the `$(ProjectToolsVersion)` property in individual projects to build them with a different ToolsVersion value than the other projects in the solution.
 
 ## Override the ToolsVersion settings using the ToolsVersion parameter of the MSBuild task
+
  The MSBuild task is the primary means for one project to build another. To enable the MSBuild task to build a project with a different ToolsVersion than the one specified in the project, it provides an optional task parameter named `ToolsVersion`. The following example demonstrates how to use this parameter:
 
 1. Create a file that's named *projectA.proj* and that contains the following code:
@@ -89,6 +92,7 @@ msbuild.exe someproj.proj -tv:12.0 -p:Configuration=Debug
     ```
 
 ## Order of precedence
+
  The order of precedence, from highest to lowest, used to determine the `ToolsVersion` is:
 
 1. The `ToolsVersion` attribute on the MSBuild task used to build the project, if any.
@@ -118,6 +122,7 @@ msbuild.exe someproj.proj -tv:12.0 -p:Configuration=Debug
     4. Otherwise, use the current `ToolsVersion`.
 
 ## See also
+
 - [Multitargeting](../msbuild/msbuild-multitargeting-overview.md)
 - [MSBuild concepts](../msbuild/msbuild-concepts.md)
 - [Toolset (ToolsVersion)](../msbuild/msbuild-toolset-toolsversion.md)

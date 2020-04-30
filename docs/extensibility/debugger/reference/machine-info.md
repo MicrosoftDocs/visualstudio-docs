@@ -1,20 +1,20 @@
 ---
-title: "MACHINE_INFO | Microsoft Docs"
-ms.date: "11/04/2016"
+title: MACHINE_INFO | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "MACHINE_INFO"
+- MACHINE_INFO
 helpviewer_keywords:
-  - "MACHINE_INFO structure"
+- MACHINE_INFO structure
 ms.assetid: e7564ff2-00b5-4750-8fd5-dc1029a16912
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # MACHINE_INFO
 Describes a particular machine.

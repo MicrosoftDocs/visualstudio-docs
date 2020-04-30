@@ -1,19 +1,19 @@
 ---
-title: "IDebugComPlusSymbolProvider::LoadSymbolsFromStream | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugComPlusSymbolProvider::LoadSymbolsFromStream | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
-  - "IDebugComPlusSymbolProvider::LoadSymbolsFromStream"
-  - "LoadSymbolsFromStream"
+- IDebugComPlusSymbolProvider::LoadSymbolsFromStream
+- LoadSymbolsFromStream
 ms.assetid: 1de272f0-24f4-4548-8b70-a205cddd4727
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugComPlusSymbolProvider::LoadSymbolsFromStream
 Loads debug symbols given the data stream.

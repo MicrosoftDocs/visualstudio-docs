@@ -1,20 +1,20 @@
 ---
-title: "IDebugCanStopEvent2::GetCodeContext | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugCanStopEvent2::GetCodeContext | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugCanStopEvent2::GetCodeContext"
+- IDebugCanStopEvent2::GetCodeContext
 helpviewer_keywords:
-  - "IDebugCanStopEvent2::GetCodeContext"
+- IDebugCanStopEvent2::GetCodeContext
 ms.assetid: eecf08b6-f9b7-4358-941b-3a448a92ac62
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugCanStopEvent2::GetCodeContext
 Gets the code context that describes the location of this event.

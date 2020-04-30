@@ -1,16 +1,16 @@
 ---
-title: "EnableEditOfLocationField Element (Visual Studio Templates) | Microsoft Docs"
-ms.date: "11/04/2016"
+title: EnableEditOfLocationField Element (Visual Studio Templates) | Microsoft Docs
+ms.date: 11/04/2016
 ms.technology: vs-ide-general
 ms.topic: reference
 helpviewer_keywords:
-  - "EnableEditOfLocationField (Visual Studio project templates)"
+- EnableEditOfLocationField (Visual Studio project templates)
 ms.assetid: 51a91963-8a3f-4741-928e-bc90c11473bb
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # EnableEditOfLocationField element (Visual Studio templates)
 Specifies if the user can edit the location field.

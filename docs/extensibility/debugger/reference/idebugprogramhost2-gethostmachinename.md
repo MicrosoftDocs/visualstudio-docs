@@ -1,20 +1,20 @@
 ---
-title: "IDebugProgramHost2::GetHostMachineName | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugProgramHost2::GetHostMachineName | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugProgramHost2::GetHostMachineName"
+- IDebugProgramHost2::GetHostMachineName
 helpviewer_keywords:
-  - "IDebugProgramHost2::GetHostMachineName"
+- IDebugProgramHost2::GetHostMachineName
 ms.assetid: 4677ffe4-aa9b-4450-a63b-74cd3984d956
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugProgramHost2::GetHostMachineName
 Gets the name of the machine that the process hosting this program is running on.

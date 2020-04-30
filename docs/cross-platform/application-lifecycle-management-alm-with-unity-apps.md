@@ -87,7 +87,7 @@ Reference link: **[Azure Pipelines](/azure/devops/pipelines/index?view=vsts)**
 |Manual testing|Yes||
 |Test Manager (record and playback tests)|Windows devices and Android emulators only||
 |Code coverage|n/a|Not applicable as unit testing happens within Unity and not Visual Studio, see below.|
-|[Unit test your code](../test/unit-test-your-code.md)|Within Unity, but not Visual Studio|Unity provides its own unit test framework as part of [Unity test tools](https://www.assetstore.unity3d.com/en/#!/content/13802) (Unity Asset Store). Unit test results are reported within Unity and will not be surfaced within Visual Studio.|
+|[Unit test your code](../test/unit-test-your-code.md)|Within Unity, but not Visual Studio|Unity provides its own unit test framework as part of [Unity test tools](https://assetstore.unity.com/packages/tools/utilities/unity-test-tools-13802) (Unity Asset Store). Unit test results are reported within Unity and will not be surfaced within Visual Studio.|
 |[Use UI automation to test your code](../test/use-ui-automation-to-test-your-code.md)|No|Coded UI tests rely on readable controls in the app's UI; Unity apps are graphical in nature and so content isn't readable by the Coded UI test tools.|
 
 ## Improve code quality
@@ -99,7 +99,7 @@ Reference link: **[Improve code quality](../test/improve-code-quality.md)**
 |[Analyze managed code quality](../code-quality/code-analysis-for-managed-code-overview.md)|Yes|Can analyze the C# script code within Visual Studio.|
 |[Find duplicate code by using code clone detection](https://msdn.microsoft.com/library/hh205279.aspx)|Yes|Can analyze the C# script code within Visual Studio.|
 |[Measure complexity and maintainability of managed code](../code-quality/code-metrics-values.md)|Yes|Can analyze the C# script code within Visual Studio.|
-|[Performance Explorer](../profiling/performance-explorer.md)|No|Use the [Unity Profiler](https://docs.unity3d.com/Manual/Profiler.html) (Unity website).|
+|[Performance tools](../profiling/performance-explorer.md)|No|Use the [Unity Profiler](https://docs.unity3d.com/Manual/Profiler.html) (Unity website).|
 |[Analyze .NET Framework memory issues](https://msdn.microsoft.com/library/dn342825.aspx)|No|Visual Studio tools do not have hooks into the Mono framework (as used by Unity) for profiling. Use the [Unity Profiler](http://docs.unity3d.com/Manual/Profiler.html) (Unity documentation).|
 
 ## Release management
@@ -118,4 +118,4 @@ Reference link: **[Monitor with HockeyApp](https://www.hockeyapp.net/features/)*
 
 |Feature|Supported with Unity|Additional Comments|
 |-------------|--------------------------|-------------------------|
-|Crash analytics, telemetry, and beta distribution|Yes|HockeyApp is primarily useful for handling beta distribution and obtaining crash reports.<br /><br /> For telemetry from C# scripts, it is possible to use any analytics framework provided that it runs on the version of .NET that is used by Unity. However, this allows for analytics only within game scripts and not more deeply inside the Unity engine. At present there is no plugin for Application Insights, but plugins are available for other analytics solutions such as [Unity Analytics](https://www.assetstore.unity3d.com/en/#!/content/28120) and [Google Analytics](https://github.com/googleanalytics/google-analytics-plugin-for-unity). Services like Unity Analytics that understand the nature of a Unity project will, of course, provide much more meaningful analysis than generic frameworks.|
+|Crash analytics, telemetry, and beta distribution|Yes|HockeyApp is primarily useful for handling beta distribution and obtaining crash reports.<br /><br /> For telemetry from C# scripts, it is possible to use any analytics framework provided that it runs on the version of .NET that is used by Unity. However, this allows for analytics only within game scripts and not more deeply inside the Unity engine. At present there is no plugin for Application Insights, but plugins are available for other analytics solutions such as [Unity Analytics](https://assetstore.unity.com/packages/add-ons/services/analytics/unity-analytics-28120) and [Google Analytics](https://github.com/googleanalytics/google-analytics-plugin-for-unity). Services like Unity Analytics that understand the nature of a Unity project will, of course, provide much more meaningful analysis than generic frameworks.|

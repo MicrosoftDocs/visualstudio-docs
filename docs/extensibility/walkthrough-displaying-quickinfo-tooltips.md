@@ -1,15 +1,18 @@
 ---
-title: "Walkthrough: Displaying QuickInfo Tooltips | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: 'Walkthrough: Displaying QuickInfo Tooltips | Microsoft Docs'
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "editors [Visual Studio SDK], new - QuickInfo"
+- editors [Visual Studio SDK], new - QuickInfo
 ms.assetid: 23fb8384-4f12-446f-977f-ce7910347947
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
+dev_langs:
+- csharp
+- vb
 ---
 # Walkthrough: Display QuickInfo tooltips
 QuickInfo is an IntelliSense feature that displays method signatures and descriptions when a user moves the pointer over a method name. You can implement language-based features such as QuickInfo by defining the identifiers for which you want to provide QuickInfo descriptions, and then creating a tooltip in which to display the content. You can define QuickInfo in the context of a language service, or you can define your own file name extension and content type and display the QuickInfo for just that type, or you can display QuickInfo for an existing content type (such as "text"). This walkthrough shows how to display QuickInfo for the "text" content type.

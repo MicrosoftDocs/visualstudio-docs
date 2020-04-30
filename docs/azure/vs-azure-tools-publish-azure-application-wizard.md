@@ -9,7 +9,6 @@ ms.workload: azure-vs
 ms.topic: conceptual
 ms.date: 03/21/2017
 ms.author: ghogen
-ms.custom: seodec18
 ---
 # Using the Visual Studio Publish Azure Application Wizard
 

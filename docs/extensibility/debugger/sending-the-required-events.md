@@ -1,15 +1,15 @@
 ---
-title: "Sending the Required Events | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Sending the Required Events | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "debugging [Debugging SDK], required events"
+- debugging [Debugging SDK], required events
 ms.assetid: 08319157-43fb-44a9-9a63-50b919fe1377
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Send the required events
 Use this procedure for sending required events.

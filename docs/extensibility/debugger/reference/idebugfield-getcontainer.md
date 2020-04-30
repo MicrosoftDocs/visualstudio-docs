@@ -1,20 +1,20 @@
 ---
-title: "IDebugField::GetContainer | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugField::GetContainer | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugField::GetContainer"
+- IDebugField::GetContainer
 helpviewer_keywords:
-  - "IDebugField::GetContainer method"
+- IDebugField::GetContainer method
 ms.assetid: 6d6c8213-6181-4adf-9584-3e4cac163dd8
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugField::GetContainer
 This method gets the container of a field.

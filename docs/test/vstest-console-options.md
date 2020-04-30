@@ -20,6 +20,8 @@ ms.workload:
 >
 > To run automated tests on an ARM architecture-based machine, you must use *VSTest.Console.exe*.
 
+Open a [Developer Command Prompt](/dotnet/framework/tools/developer-command-prompt-for-vs) to use the command-line tool, or you can find the tool in *%Program Files(x86)%\Microsoft Visual Studio\\<version\>\\<edition\>\common7\ide\CommonExtensions\\<Platform | Microsoft>*.
+
 ## General command-line options
 
 The following table lists all the options for *VSTest.Console.exe* and short descriptions of them. You can see a similar summary by typing `VSTest.Console/?` at a command line.
@@ -35,10 +37,10 @@ The following table lists all the options for *VSTest.Console.exe* and short des
 |**/UseVsixExtensions**|This option makes the *vstest.console.exe* process use or skip the VSIX extensions installed (if any) in the test run.<br />This option is deprecated. Starting from the next major release of Visual Studio this option may be removed. Move to consuming extensions made available as a NuGet package.<br />Example: `/UseVsixExtensions:true`|
 |**/TestAdapterPath:[*path*]**|Forces the *vstest.console.exe* process to use custom test adapters from a specified path (if any) in the test run.<br />Example: `/TestAdapterPath:[pathToCustomAdapters]`|
 |**/Platform:[*platform type*]**|Target platform architecture to be used for test execution.<br />Valid values are x86, x64, and ARM.|
-|**/Framework: [*framework version*]**|Target .NET version to be used for test execution.<br />Example values are `Framework35`, `Framework40`, `Framework45`, `FrameworkUap10`, `.NETCoreApp,Version=v1.1`.<br />If the target framework is specified as **Framework35**, the tests run in CLR 4.0 "compatibly mode".<br />Example: `/Framework:framework40`|
+|**/Framework: [*framework version*]**|Target .NET version to be used for test execution.<br />Example values are `Framework35`, `Framework40`, `Framework45`, `FrameworkUap10`, `.NETCoreApp,Version=v1.1`.<br />TargetFrameworkAttribute is used to automatically detect this option from your assembly, and defaults to `Framework40` when the attribute is not present. You must specify this option explicitly if you remove the [TargetFrameworkAttribute](https://docs.microsoft.com/dotnet/api/system.runtime.versioning.targetframeworkattribute) from your .NET Core assemblies.<br />If the target framework is specified as **Framework35**, the tests run in CLR 4.0 "compatibility mode".<br />Example: `/Framework:framework40`|
 |**/TestCaseFilter:[*expression*]**|Run tests that match the given expression.<br /><Expression\> is of the format <property\>=<value\>[\|<Expression\>].<br />Example: `/TestCaseFilter:"Priority=1"`<br />Example: `/TestCaseFilter:"TestCategory=Nightly|FullyQualifiedName=Namespace.ClassName.MethodName"`<br />The **/TestCaseFilter** command-line option cannot be used with the **/Tests** command-line option. <br />For information about creating and using expressions, see [TestCase filter](https://github.com/Microsoft/vstest-docs/blob/master/docs/filter.md).|
 |**/?**|Displays usage information.|
-|**/Logger:[*uri/friendlyname*]**|Specify a logger for test results.<br />Example: To log results into a Visual Studio Test Results File (TRX), use **/Logger:trx**.<br />Example: To publish test results to Team Foundation Server, use TfsPublisher:<br />**/logger:TfsPublisher;**<br />**Collection=<project url\>;**<br />**BuildName=<build name\>;**<br />**TeamProject=<project name\>;**<br />**[;Platform=\<Defaults to "Any CPU">]**<br />**[;Flavor=\<Defaults to "Debug">]**<br />**[;RunTitle=<title\>]**|
+|**/Logger:[*uri/friendlyname*]**|Specify a logger for test results.<br />Example: To log results into a Visual Studio Test Results File (TRX), use<br />**/Logger:trx**<br />**[;LogFileName=\<Defaults to unique file name>]**|
 |**/ListTests:[*file name*]**|Lists discovered tests from the given test container.|
 |**/ListDiscoverers**|Lists installed test discoverers.|
 |**/ListExecutors**|Lists installed test executors.|
@@ -49,7 +51,7 @@ The following table lists all the options for *VSTest.Console.exe* and short des
 |**/ResultsDirectory:[*path*]**|Test results directory will be created in specified path if not exists.<br />Example: `/ResultsDirectory:<pathToResultsDirectory>`|
 |**/ParentProcessId:[*parentProcessId*]**|Process ID of the Parent Process responsible for launching current process.|
 |**/Port:[*port*]**|The Port for socket connection and receiving the event messages.|
-|**/Collect:[*dataCollector friendlyName*]**|Enables data collector for the test run. [More information](https://aka.ms/vstest-collect).|
+|**/Collect:[*dataCollector friendlyName*]**|Enables data collector for the test run. [More information](https://github.com/Microsoft/vstest-docs/blob/master/docs/analyze.md).|
 
 > [!TIP]
 > The options and values are not case-sensitive.

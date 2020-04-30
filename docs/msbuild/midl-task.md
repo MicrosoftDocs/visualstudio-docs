@@ -28,9 +28,11 @@ ms.workload:
 - multiple
 ---
 # MIDL task
+
 Wraps the Microsoft Interface Definition Language (MIDL) compiler tool, *midl.exe*. For more information, see [MIDL command-line reference](/windows/desktop/Midl/midl-command-line-reference).
 
 ## Parameters
+
  The following describes the parameters of the **MIDL** task. Most task parameters, and a few sets of parameters, correspond to a command-line option.
 
 - **AdditionalIncludeDirectories**
@@ -410,4 +412,5 @@ Wraps the Microsoft Interface Definition Language (MIDL) compiler tool, *midl.ex
      For more information, see the **/W** option in [MIDL command-line reference](/windows/desktop/Midl/midl-command-line-reference). Also, see the **WarnAsError** parameter in this table.
 
 ## See also
+
 - [Task reference](../msbuild/msbuild-task-reference.md)

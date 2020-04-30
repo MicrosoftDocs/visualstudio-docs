@@ -1,14 +1,14 @@
 ---
-title: "IDebugStopCompleteEvent2 | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugStopCompleteEvent2 | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
-  - "IDebugStopCompleteEvent2 interface"
-author: madskristensen
-ms.author: madsk
+- IDebugStopCompleteEvent2 interface
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # IDebugStopCompleteEvent2
 

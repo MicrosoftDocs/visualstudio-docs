@@ -1,20 +1,20 @@
 ---
-title: "IEnumDebugObjects::GetCount | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IEnumDebugObjects::GetCount | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IEnumDebugObjects::GetCount"
+- IEnumDebugObjects::GetCount
 helpviewer_keywords:
-  - "IEnumDebugObjects::GetCount method"
+- IEnumDebugObjects::GetCount method
 ms.assetid: 9cbc5db4-03ae-479f-a664-13cad66ad210
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IEnumDebugObjects::GetCount
 This method returns the number of elements in the enumeration.

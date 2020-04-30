@@ -1,17 +1,17 @@
 ---
-title: "Member Completion in a Legacy Language Service | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Member Completion in a Legacy Language Service | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "IntelliSense, Member Completion tool tip"
-  - "Member Completion, supporting in language services [managed package framework]"
-  - "language services [managed package framework], IntelliSense Member Completion"
+- IntelliSense, Member Completion tool tip
+- Member Completion, supporting in language services [managed package framework]
+- language services [managed package framework], IntelliSense Member Completion
 ms.assetid: 500f718d-9028-49a4-8615-ba95cf47fc52
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Member Completion in a Legacy Language Service
 

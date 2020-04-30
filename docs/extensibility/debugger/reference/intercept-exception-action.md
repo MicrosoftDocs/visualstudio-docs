@@ -1,20 +1,20 @@
 ---
-title: "INTERCEPT_EXCEPTION_ACTION | Microsoft Docs"
-ms.date: "11/04/2016"
+title: INTERCEPT_EXCEPTION_ACTION | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "INTERCEPT_EXCEPTION_ACTION"
+- INTERCEPT_EXCEPTION_ACTION
 helpviewer_keywords:
-  - "INTERCEPT_EXCEPTION_ACTION enumeration"
+- INTERCEPT_EXCEPTION_ACTION enumeration
 ms.assetid: e647f1eb-2932-4447-8c78-3b0d706fb972
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # INTERCEPT_EXCEPTION_ACTION
 Specifies what actions to take when intercepting exceptions.

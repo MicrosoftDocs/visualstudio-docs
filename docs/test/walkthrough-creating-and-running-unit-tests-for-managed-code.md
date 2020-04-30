@@ -18,6 +18,8 @@ author: mikejo5000
 
 This article steps you through creating, running, and customizing a series of unit tests using the Microsoft unit test framework for managed code and Visual Studio **Test Explorer**. You start with a C# project that is under development, create tests that exercise its code, run the tests, and examine the results. Then you change the project code and rerun the tests.
 
+
+
 ## Create a project to test
 
 ::: moniker range="vs-2017"
@@ -423,7 +425,7 @@ public void Debit_WhenAmountIsMoreThanBalance_ShouldThrowArgumentOutOfRange()
 
 ### Retest, rewrite, and reanalyze
 
-Assume there's a bug in the method under test and the `Debit` method doesn't even throw an <xref:System.ArgumentOutOfRangeException> never mind output the correct message with the exception. Currently, the test method doesn't handle this case. If the `debitAmount` value is valid (that is, less than the balance and greater than zero), no exception is caught, so the assert never fires. Yet, the test method passes. This is not good, because you want the test method to fail if no exception is thrown.
+Currently, the test method doesn't handle all the cases that it should. If the method under test, the `Debit` method, failed to throw an <xref:System.ArgumentOutOfRangeException> when the `debitAmount` was larger than the balance (or less than zero), the test method would pass. This is not good, because you want the test method to fail if no exception is thrown.
 
 This is a bug in the test method. To resolve the issue, add an <xref:Microsoft.VisualStudio.TestTools.UnitTesting.Assert.Fail%2A> assert at the end of the test method to handle the case where no exception is thrown.
 

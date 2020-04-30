@@ -36,7 +36,7 @@ Targets group tasks together in a particular order and allow the build process t
 </Target>
 ```
 
- If AfterBuild executes, it displays only "Second occurrence".
+ If `AfterBuild` executes, it displays only "Second occurrence", because the second definition of `AfterBuild` hides the first.
 
  MSBuild is import-order dependent, and the last definition of a target is the definition used.
 
@@ -99,6 +99,7 @@ Reference: 4.0
  If all output items are up-to-date, MSBuild skips the target, which significantly improves the build speed. This is called an incremental build of the target. If only some files are up-to-date, MSBuild executes the target without the up-to-date items. This is called a partial incremental build of the target. For more information, see [Incremental builds](../msbuild/incremental-builds.md).
 
 ## Default build targets
+
 The following lists the public targets in Microsoft.Common.CurrentVersion.Targets.
 
 ```

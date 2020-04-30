@@ -11,16 +11,18 @@ helpviewer_keywords:
   - "MSBuild, UpdateManifest task"
   - "UpdateManifest task [MSBuild]"
 ms.assetid: 1291fd33-b89e-4e15-8fb1-69f9625cf2d2
-author: mikejo5000
-ms.author: mikejo
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
   - "multiple"
 ---
 # UpdateManifest task
+
 Updates selected properties in a manifest and resigns.
 
 ## Parameters
+
  The following table describes the parameters of the `UpdateManifest` task.
 
 |Parameter|Description|
@@ -31,8 +33,10 @@ Updates selected properties in a manifest and resigns.
 |`OutputManifest`|Optional <xref:Microsoft.Build.Framework.ITaskItem> output parameter.<br /><br /> Specifies the manifest that contains updated properties.|
 
 ## Remarks
+
  In addition to having the parameters that are listed in the table, this task inherits parameters from the <xref:Microsoft.Build.Utilities.Task> class. For a list of these additional parameters and their descriptions, see [Task base class](../msbuild/task-base-class.md).
 
 ## See also
+
 - [Tasks](../msbuild/msbuild-tasks.md)
 - [Task reference](../msbuild/msbuild-task-reference.md)

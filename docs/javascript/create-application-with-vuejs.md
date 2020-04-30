@@ -46,7 +46,7 @@ The following new features support Vue.js application development in Visual Stud
 
     If you don't have it installed, install the LTS version from the [Node.js](https://nodejs.org/en/download/) website. In general, Visual Studio automatically detects the installed Node.js runtime. If it does not detect an installed runtime, you can configure your project to reference the installed runtime in the properties page. (After you create a project, right-click the project node and choose **Properties**).
 
-## Create a Vue.js project using a template
+## Create a Vue.js project using Node.js
 
 You can use the new Vue.js templates to create a new project. Use of the template is the easiest way to get started. For detailed steps, see [Use Visual Studio to create your first Vue.js app](../javascript/quickstart-vuejs-with-nodejs.md).
 

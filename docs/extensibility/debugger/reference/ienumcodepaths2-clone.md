@@ -1,20 +1,20 @@
 ---
-title: "IEnumCodePaths2::Clone | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IEnumCodePaths2::Clone | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IEnumCodePaths2::Clone"
+- IEnumCodePaths2::Clone
 helpviewer_keywords:
-  - "IEnumCodePaths2::Clone"
+- IEnumCodePaths2::Clone
 ms.assetid: 9d5c6bc6-7e72-4f1b-801c-7192458f3ba8
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IEnumCodePaths2::Clone
 Returns a copy of the current enumeration as a separate object.

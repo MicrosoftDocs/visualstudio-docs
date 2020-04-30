@@ -1,16 +1,16 @@
 ---
-title: "Symbols Element | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Symbols Element | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "Symbols element (VSCT XML schema)"
-  - "VSCT XML schema elements, Symbols"
+- Symbols element (VSCT XML schema)
+- VSCT XML schema elements, Symbols
 ms.assetid: 1cda43d8-42a5-4b1b-a3c8-cf0401c3202f
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Symbols Element
 Defines GUIDs and IDs that are used by other VSCT elements. For unmanaged code, this information typically comes from the header files that are specified by [Extern Element](../extensibility/extern-element.md). Managed code uses the child elements of the Symbols element to define this information.

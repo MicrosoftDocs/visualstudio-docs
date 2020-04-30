@@ -5,8 +5,8 @@ ms.date: 03/30/2019
 ms.custom: seodec18
 ms.topic: conceptual
 ms.assetid: 837F31AA-F121-46e9-9996-F8BCE768E579
-author: jillre
-ms.author: jillfra
+author: ornellaalt
+ms.author: ornella
 manager: jillfra
 ms.workload:
 - multiple
@@ -45,7 +45,7 @@ For lists of the workloads and components that you can install by using the comm
    ```
 
   > [!NOTE]
-  > Both commands are required. The first command updates the Visual Studio Installer. The second command updates the Visual Studio instance. To avoid a User Account Control dialog, run the command prompt as an Administrator.
+  > Both commands are advised. The first command updates the Visual Studio Installer. The second command updates the Visual Studio instance. To avoid a User Account Control dialog, run the command prompt as an Administrator.
 
 * Install a desktop instance of Visual Studio silently, with the French language pack, returning only when the product is installed.
 
@@ -88,7 +88,7 @@ For lists of the workloads and components that you can install by using the comm
 * Download the Visual Studio core editor (the most minimal Visual Studio configuration). Only include the English language pack:
 
   ```cmd
-   vs_community.exe --layout C:\VS
+   vs_community.exe --layout C:\VS ^
    --lang en-US ^
    --add Microsoft.VisualStudio.Workload.CoreEditor
   ```

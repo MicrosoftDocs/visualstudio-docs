@@ -1,20 +1,20 @@
 ---
-title: "IEEVisualizerServiceProvider::CreateVisualizerService | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IEEVisualizerServiceProvider::CreateVisualizerService | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IEEVisualizerServiceProvider::CreateVisualizerService"
+- IEEVisualizerServiceProvider::CreateVisualizerService
 helpviewer_keywords:
-  - "IEEVisualizerServiceProvider::CreateVisualizerService method"
+- IEEVisualizerServiceProvider::CreateVisualizerService method
 ms.assetid: f366f7c9-358d-46c8-993f-32ff86539833
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IEEVisualizerServiceProvider::CreateVisualizerService
 This method creates a visualizer service.

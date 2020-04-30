@@ -1,20 +1,20 @@
 ---
-title: "IDebugProperty2::GetSize | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugProperty2::GetSize | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugProperty2::GetSize"
+- IDebugProperty2::GetSize
 helpviewer_keywords:
-  - "IDebugProperty2::GetSize"
+- IDebugProperty2::GetSize
 ms.assetid: 0deb8ec5-d6fb-4622-bb14-0c46b9459cc6
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugProperty2::GetSize
 Gets the size, in bytes, of the property value.

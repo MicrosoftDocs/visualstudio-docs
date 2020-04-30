@@ -68,6 +68,8 @@ f1_keywords:
 - CA1063
 - CA1064
 - CA1065
+- CA1066
+- CA1067
 - CA1068
 - CA1200
 - CA1300
@@ -104,6 +106,8 @@ f1_keywords:
 - CA1505
 - CA1506
 - CA1507
+- CA1508
+- CA1509
 - CA1600
 - CA1601
 - CA1700
@@ -155,6 +159,10 @@ f1_keywords:
 - CA1823
 - CA1824
 - CA1825
+- CA1826
+- CA1827
+- CA1828
+- CA1829
 - CA1900
 - CA1901
 - CA1903
@@ -165,6 +173,7 @@ f1_keywords:
 - CA2004
 - CA2006
 - CA2007
+- CA2009
 - CA2100
 - CA2101
 - CA2102
@@ -270,7 +279,6 @@ The following table lists Code Analysis warnings for managed code by the CheckId
 
 | CheckId | Warning | Description |
 |---------| - | - |
-| CA2007 | [CA2007: Do not directly await a Task](ca2007.md) | An asynchronous method [awaits](/dotnet/csharp/language-reference/keywords/await) a <xref:System.Threading.Tasks.Task> directly. When an asynchronous method awaits a <xref:System.Threading.Tasks.Task> directly, continuation occurs in the same thread that created the task. This behavior can be costly in terms of performance and can result in a deadlock on the UI thread. Consider calling <xref:System.Threading.Tasks.Task.ConfigureAwait(System.Boolean)?displayProperty=nameWithType> to signal your intention for continuation. |
 | CA1000 | [CA1000: Do not declare static members on generic types](../code-quality/ca1000.md) | When a static member of a generic type is called, the type argument must be specified for the type. When a generic instance member that does not support inference is called, the type argument must be specified for the member. In these two cases, the syntax for specifying the type argument is different and easily confused. |
 | CA1001 | [CA1001: Types that own disposable fields should be disposable](../code-quality/ca1001.md) | A class declares and implements an instance field that is a System.IDisposable type, and the class does not implement IDisposable. A class that declares an IDisposable field indirectly owns an unmanaged resource and should implement the IDisposable interface. |
 | CA1002 | [CA1002: Do not expose generic lists](../code-quality/ca1002.md) | System.Collections.Generic.List<(Of \<(T>)>) is a generic collection that is designed for performance, not inheritance. Therefore, List does not contain any virtual members. The generic collections that are designed for inheritance should be exposed instead. |
@@ -332,6 +340,8 @@ The following table lists Code Analysis warnings for managed code by the CheckId
 | CA1063 | [CA1063: Implement IDisposable correctly](../code-quality/ca1063.md) | All IDisposable types should implement the Dispose pattern correctly. |
 | CA1064 | [CA1064: Exceptions should be public](../code-quality/ca1064.md) | An internal exception is visible only inside its own internal scope. After the exception falls outside the internal scope, only the base exception can be used to catch the exception. If the internal exception is inherited from <xref:System.Exception>, <xref:System.SystemException>, or <xref:System.ApplicationException>, the external code will not have sufficient information to know what to do with the exception. |
 | CA1065 | [CA1065: Do not raise exceptions in unexpected locations](../code-quality/ca1065.md) | A method that is not expected to throw exceptions throws an exception. |
+| CA1066 | [CA1066: Implement IEquatable when overriding Equals](../code-quality/ca1066.md) | A value type overrides <xref:System.Object.Equals%2A> method, but does not implement <xref:System.IEquatable%601>. |
+| CA1067 | [CA1067: Override Equals when implementing IEquatable](../code-quality/ca1067.md) | A type implements <xref:System.IEquatable%601>, but does not override <xref:System.Object.Equals%2A> method. |
 | CA1068 | [CA1068: CancellationToken parameters must come last](../code-quality/ca1068.md) | A method has a CancellationToken parameter that is not the last parameter. |
 | CA1200 | [CA1200: Avoid using cref tags with a prefix](../code-quality/ca1200.md) | The [cref](/dotnet/csharp/programming-guide/xmldoc/cref-attribute) attribute in an XML documentation tag means "code reference". It specifies that the inner text of the tag is a code element, such as a type, method, or property. Avoid using `cref` tags with prefixes, because it prevents the compiler from verifying references. It also prevents the Visual Studio integrated development environment (IDE) from finding and updating these symbol references during refactorings. |
 | CA1300 | [CA1300: Specify MessageBoxOptions](../code-quality/ca1300.md) | To correctly display a message box for cultures that use a right-to-left reading order, the RightAlign and RtlReading members of the MessageBoxOptions enumeration must be passed to the Show method. |
@@ -365,7 +375,10 @@ The following table lists Code Analysis warnings for managed code by the CheckId
 | CA1502 | [CA1502: Avoid excessive complexity](../code-quality/ca1502.md) | This rule measures the number of linearly independent paths through the method, which is determined by the number and complexity of conditional branches. |
 | CA1504 | [CA1504: Review misleading field names](../code-quality/ca1504.md) | The name of an instance field starts with "s_", or the name of a static (Shared in Visual Basic) field starts with "m_". |
 | CA1505 | [CA1505: Avoid unmaintainable code](../code-quality/ca1505.md) | A type or method has a low maintainability index value. A low maintainability index indicates that a type or method is probably difficult to maintain and would be a good candidate for redesign. |
-| CA1506 |[CA1506: Avoid excessive class coupling](../code-quality/ca1506.md) | This rule measures class coupling by counting the number of unique type references that a type or method contains. |
+| CA1506 | [CA1506: Avoid excessive class coupling](../code-quality/ca1506.md) | This rule measures class coupling by counting the number of unique type references that a type or method contains. |
+| CA1507 | [CA1507: Use nameof in place of string](../code-quality/ca1507.md) | A string literal is used as an argument where a `nameof` expression could be used. |
+| CA1508 | [CA1508: Avoid dead conditional code](../code-quality/ca1508.md) | A method has conditional code that always evaluates to `true` or `false` at runtime. This leads to dead code in the `false` branch of the condition. |
+| CA1509 | [CA1509: Invalid entry in code metrics configuration file](../code-quality/ca1509.md) | Code metrics rules, such as [CA1501](ca1501.md), [CA1502](ca1502.md), [CA1505](ca1505.md) and [CA1506](ca1506.md), supplied a configuration file named `CodeMetricsConfig.txt` that has an invalid entry. |
 | CA1600 | [CA1600: Do not use idle process priority](../code-quality/ca1600.md) | Do not set process priority to Idle. Processes that have System.Diagnostics.ProcessPriorityClass.Idle will occupy the CPU when it would otherwise be idle, and will therefore block standby. |
 | CA1601 | [CA1601: Do not use timers that prevent power state changes](../code-quality/ca1601.md) | Higher-frequency periodic activity will keep the CPU busy and interfere with power-saving idle timers that turn off the display and hard disks. |
 | CA1700 | [CA1700: Do not name enum values 'Reserved'](../code-quality/ca1700.md) | This rule assumes that an enumeration member that has a name that contains "reserved" is not currently used but is a placeholder to be renamed or removed in a future version. Renaming or removing a member is a breaking change. |
@@ -411,6 +424,10 @@ The following table lists Code Analysis warnings for managed code by the CheckId
 | CA1823 | [CA1823: Avoid unused private fields](../code-quality/ca1823.md) | Private fields were detected that do not appear to be accessed in the assembly. |
 | CA1824 |[CA1824: Mark assemblies with NeutralResourcesLanguageAttribute](../code-quality/ca1824.md) | The NeutralResourcesLanguage attribute informs the resource manager of the language that was used to display the resources of a neutral culture for an assembly. This improves lookup performance for the first resource that you load and can reduce your working set. |
 | CA1825 |[CA1825: Avoid zero-length array allocations](../code-quality/ca1825.md) | Initializing a zero-length array leads to unnecessary memory allocation. Instead, use the statically allocated empty array instance by calling <xref:System.Array.Empty%2A?displayProperty=nameWithType>. The memory allocation is shared across all invocations of this method. |
+| CA1826 |[CA1826: Use property instead of Linq Enumerable method](../code-quality/ca1826.md) | <xref:System.Linq.Enumerable> LINQ method was used on a type that supports an equivalent, more efficient property. |
+| CA1827 |[CA1827: Do not use Count/LongCount when Any can be used](../code-quality/ca1827.md) | <xref:System.Linq.Enumerable.Count%2A> or <xref:System.Linq.Enumerable.LongCount%2A> method was used where <xref:System.Linq.Enumerable.Any%2A> method would be more efficient. |
+| CA1828 |[CA1828: Do not use CountAsync/LongCountAsync when AnyAsync can be used](../code-quality/ca1828.md) | <xref:Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.CountAsync%2A> or <xref:Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.LongCountAsync%2A> method was used where <xref:Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.AnyAsync%2A> method would be more efficient. |
+| CA1829 |[CA1829: Use Length/Count property instead of Enumerable.Count method](../code-quality/ca1829.md) | <xref:System.Linq.Enumerable.Count%2A> LINQ method was used on a type that supports an equivalent, more efficient `Length` or `Count` property. |
 | CA1900 | [CA1900: Value type fields should be portable](../code-quality/ca1900.md) | This rule checks that structures that are declared by using explicit layout will align correctly when marshaled to unmanaged code on 64-bit operating systems. |
 | CA1901 | [CA1901: P/Invoke declarations should be portable](../code-quality/ca1901.md) | This rule evaluates the size of each parameter and the return value of a P/Invoke, and verifies that the size of the parameter is correct when marshaled to unmanaged code on 32-bit and 64-bit operating systems. |
 | CA1903 | [CA1903: Use only API from targeted framework](../code-quality/ca1903.md) | A member or type is using a member or type that was introduced in a service pack that was not included together with the targeted framework of the project. |
@@ -420,6 +437,8 @@ The following table lists Code Analysis warnings for managed code by the CheckId
 | CA2003 |[CA2003: Do not treat fibers as threads](../code-quality/ca2003.md) | A managed thread is being treated as a [!INCLUDE[TLA2#tla_win32](../code-quality/includes/tla2sharptla_win32_md.md)] thread. |
 | CA2004 | [CA2004: Remove calls to GC.KeepAlive](../code-quality/ca2004.md) | If you convert to SafeHandle usage, remove all calls to GC.KeepAlive (object). In this case, classes should not have to call GC.KeepAlive. This assumes they do not have a finalizer but rely on SafeHandle to finalize the OS handle for them. |
 | CA2006 | [CA2006: Use SafeHandle to encapsulate native resources](../code-quality/ca2006.md) | Use of IntPtr in managed code might indicate a potential security and reliability problem. All uses of IntPtr must be reviewed to determine whether use of a SafeHandle, or similar technology, is required in its place. |
+| CA2007 | [CA2007: Do not directly await a Task](ca2007.md) | An asynchronous method [awaits](/dotnet/csharp/language-reference/keywords/await) a <xref:System.Threading.Tasks.Task> directly. When an asynchronous method awaits a <xref:System.Threading.Tasks.Task> directly, continuation occurs in the same thread that created the task. This behavior can be costly in terms of performance and can result in a deadlock on the UI thread. Consider calling <xref:System.Threading.Tasks.Task.ConfigureAwait(System.Boolean)?displayProperty=nameWithType> to signal your intention for continuation. |
+| CA2009 | [CA2009: Do not call ToImmutableCollection on an ImmutableCollection value](ca2009.md) | `ToImmutable` method was unnecessarily called on an immutable collection from <xref:System.Collections.Immutable> namespace. |
 | CA2100 | [CA2100: Review SQL queries for security vulnerabilities](../code-quality/ca2100.md) | A method sets the System.Data.IDbCommand.CommandText property by using a string that is built from a string argument to the method. This rule assumes that the string argument contains user input. A SQL command string that is built from user input is vulnerable to SQL injection attacks. |
 | CA2101 |[CA2101: Specify marshaling for P/Invoke string arguments](../code-quality/ca2101.md) | A platform invoke member allows partially trusted callers, has a string parameter, and does not explicitly marshal the string. This can cause a potential security vulnerability. |
 | CA2102 | [CA2102: Catch non-CLSCompliant exceptions in general handlers](../code-quality/ca2102.md) | A member in an assembly that is not marked by using the RuntimeCompatibilityAttribute or is marked RuntimeCompatibility(WrapNonExceptionThrows = false) contains a catch block that handles System.Exception and does not contain an immediately following general catch block. |

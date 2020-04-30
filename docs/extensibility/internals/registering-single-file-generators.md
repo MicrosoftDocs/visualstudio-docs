@@ -1,16 +1,16 @@
 ---
-title: "Registering Single File Generators | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Registering Single File Generators | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "registration, custom tools"
-  - "custom tools, defining registry settings"
+- registration, custom tools
+- custom tools, defining registry settings
 ms.assetid: db7592c0-1273-4843-9617-6e2ddabb6ca8
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Registering Single File Generators
 To make a custom tool available in [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)], you must register it so [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] can instantiate it and associates it with a particular project type.

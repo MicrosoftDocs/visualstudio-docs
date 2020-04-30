@@ -12,7 +12,8 @@ ms.workload:
   - "dotnetcore"
 ---
 # Remote Debug ASP.NET Core on a Remote IIS Computer in Visual Studio
-To debug an ASP.NET application that has been deployed to IIS, install and run the remote tools on the computer where you deployed your app, and then attach to your running app from Visual Studio.
+
+To debug an ASP.NET Core application that has been deployed to IIS, install and run the remote tools on the computer where you deployed your app, and then attach to your running app from Visual Studio.
 
 ![Remote debugger components](../debugger/media/remote-debugger-aspnet.png "Remote_debugger_components")
 
@@ -118,11 +119,11 @@ After the app deploys successfully, it should start automatically. If the app do
 
 ## (Optional) Deploy by publishing to a local folder
 
-You can use this option to deploy your app if you want to copy the app to IIS using Powershell, RoboCopy, or you want to manually copy the files.
+You can use this option to deploy your app if you want to copy the app to IIS using PowerShell, RoboCopy, or you want to manually copy the files.
 
-### <a name="BKMK_deploy_asp_net"></a> Configure the ASP.NET Web site on the Windows Server computer
+### <a name="BKMK_deploy_asp_net"></a> Configure the ASP.NET Core Web site on the Windows Server computer
 
-1. Open Windows Explorer and create a new folder, **C:\Publish**, where you will later deploy the ASP.NET project.
+1. Open Windows Explorer and create a new folder, **C:\Publish**, where you will later deploy the ASP.NET Core project.
 
 2. If it's not already open, open the **Internet Information Services (IIS) Manager**. (In the left pane of Server Manager, select **IIS**. Right-click the server and select **Internet Information Services (IIS) Manager**.)
 
@@ -192,11 +193,11 @@ For information on running the remote debugger as a service, see [Run the remote
 
 6. Type the first letter of your process name to quickly find your app.
 
-    * Select **dotnet.exe**.
+    * If your are using the [in-process hosting model](/aspnet/core/host-and-deploy/aspnet-core-module?view=aspnetcore-3.1#hosting-models) on IIS, select the correct **w3wp.exe** process. Starting in .NET Core 3, this is the default.
 
-      If you have multiple processes showing **dotnet.exe**, check the **User Name** column. In some scenarios, the **User Name** column shows your app pool name, such as **IIS APPPOOL\DefaultAppPool**. If you see the App Pool, an easy way to identify the correct process is to create a new named App Pool for the app instance you want to debug, and then you can find it easily in the **User Name** column.
+    * Otherwise, select the **dotnet.exe** process. (This is the out-of-process hosting model.)
 
-    * In some IIS scenarios, you may find your app name in the process list, such as **MyASPApp.exe**. You can attach to this process instead.
+    If you have multiple processes showing *w3wp.exe* or *dotnet.exe*, check the **User Name** column. In some scenarios, the **User Name** column shows your app pool name, such as **IIS APPPOOL\DefaultAppPool**. If you see the App Pool, but it's not unique, create a new named App Pool for the app instance you want to debug, and then you can find it easily in the **User Name** column.
 
     ::: moniker range=">=vs-2019"
     ![RemoteDBG_AttachToProcess](../debugger/media/vs-2019/remotedbg-attachtoprocess-aspnetcore.png "RemoteDBG_AttachToProcess")

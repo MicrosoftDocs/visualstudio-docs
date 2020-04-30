@@ -1,20 +1,20 @@
 ---
-title: "BP_COND_STYLE | Microsoft Docs"
-ms.date: "11/04/2016"
+title: BP_COND_STYLE | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "BP_COND_STYLE"
+- BP_COND_STYLE
 helpviewer_keywords:
-  - "BP_COND_STYLE enumeration"
+- BP_COND_STYLE enumeration
 ms.assetid: a93b1412-f447-48a1-af9d-38f3dbb3092f
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # BP_COND_STYLE
 Specifies the breakpoint condition style for pending and bound breakpoints.

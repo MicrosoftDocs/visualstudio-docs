@@ -26,7 +26,7 @@ EXPOSE 80
 EXPOSE 443
 ```
 
-The lines in the Dockerfile begin with the Nano Server image from Microsoft Container Registry (mcr.microsoft.com) and create an intermediate image `base` that exposes ports 80 and 443, and sets the working directory to `/app`.
+The lines in the Dockerfile begin with the Debian image from Microsoft Container Registry (mcr.microsoft.com) and create an intermediate image `base` that exposes ports 80 and 443, and sets the working directory to `/app`.
 
 The next stage is `build`, which appears as follows:
 
@@ -97,7 +97,7 @@ Warmup will only happen in **Fast** mode, so the running container will have the
 
 ## Volume mapping
 
-For debugging to work in containers, Visual Studio uses volume mapping to map the debugger and NuGet folders from the host machine. Here are the volumes that are mounted in your container:
+For debugging to work in containers, Visual Studio uses volume mapping to map the debugger and NuGet folders from the host machine. Volume mapping is described in the Docker documentation [here](https://docs.docker.com/storage/volumes/). Here are the volumes that are mounted in your container:
 
 |||
 |-|-|
@@ -110,11 +110,11 @@ For ASP.NET core web apps, there might be two additional folders for the SSL cer
 
 ## SSL-enabled ASP.NET Core apps
 
-Container tools in Visual Studio support debugging an SSL-enabled ASP.NET core app with a dev certificate, the same way you'd expect it to work without containers. To make that happen, Visual Studio adds a couple of more steps to export the certificate and make it available to the container. Here is the flow:
+Container tools in Visual Studio support debugging an SSL-enabled ASP.NET core app with a dev certificate, the same way you'd expect it to work without containers. To make that happen, Visual Studio adds a couple of more steps to export the certificate and make it available to the container. Here is the flow that Visual Studio handles for you when debugging in the container:
 
-1. Ensure the local development certificate is present and trusted on the host machine through the `dev-certs` tool.
-2. Export the certificate to %APPDATA%\ASP.NET\Https with a secure password that is stored in the user secrets store for this particular app.
-3. Volume mount the following directories:
+1. Ensures the local development certificate is present and trusted on the host machine through the `dev-certs` tool.
+2. Exports the certificate to %APPDATA%\ASP.NET\Https with a secure password that is stored in the user secrets store for this particular app.
+3. Volume-mounts the following directories:
 
    - *%APPDATA%\Microsoft\UserSecrets*
    - *%APPDATA%\ASP.NET\Https*
@@ -134,7 +134,9 @@ ASP.NET Core looks for a certificate that matches the assembly name under the *H
 }
 ```
 
-For more information about using SSL with ASP.NET Core apps in containers, see [Hosting ASP.NET Core images with Docker over HTTPS](https://docs.microsoft.com/aspnet/core/security/docker-https).
+If your configuration supports both containerized and non-containerized builds, you should use the environment variables, because the paths are specific to the container environment.
+
+For more information about using SSL with ASP.NET Core apps in containers, see [Hosting ASP.NET Core images with Docker over HTTPS](/aspnet/core/security/docker-https)).
 
 ## Debugging
 

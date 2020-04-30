@@ -1,20 +1,20 @@
 ---
-title: "IDebugMethodField::EnumAllLocals | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugMethodField::EnumAllLocals | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugMethodField::EnumAllLocals"
+- IDebugMethodField::EnumAllLocals
 helpviewer_keywords:
-  - "IDebugMethodField::EnumAllLocals method"
+- IDebugMethodField::EnumAllLocals method
 ms.assetid: 0bc7cc13-2628-4bd8-8c06-4d2aa6755ea8
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugMethodField::EnumAllLocals
 Creates an enumerator for all local variables of the method, including those generated internally by a compiler.

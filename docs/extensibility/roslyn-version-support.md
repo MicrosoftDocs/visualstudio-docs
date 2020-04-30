@@ -4,8 +4,8 @@ ms.date: 04/29/2019
 ms.topic: reference
 helpviewer_keywords:
 - roslyn package versions
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
 - vssdk

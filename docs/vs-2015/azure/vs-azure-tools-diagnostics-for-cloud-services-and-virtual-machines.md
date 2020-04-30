@@ -32,7 +32,7 @@ The connection string works differently in some key ways in Azure SDK 2.6 and la
 * In Azure SDK 2.4 and earlier, the connection string is used as a runtime by the diagnostics plug-in to get the storage account information for transferring diagnostics logs.
 * In Azure SDK 2.6 and later, Visual Studio uses the diagnostics connection string to set up the Azure Diagnostics Extension with the appropriate storage account information during publishing. You can use the connection string to define different storage accounts for different service configurations that Visual Studio uses during publishing. However, because the diagnostics plug-in is not available after Azure SDK 2.5, the .cscfg file by itself can't set up the diagnostics extension. You must set up the extension separately by using tools like Visual Studio or PowerShell.
 * To simplify the process of setting up the diagnostics extension by using PowerShell, the package output from Visual Studio includes the public configuration XML for the diagnostics extension for each role. Visual Studio uses the diagnostics connection string to populate the storage account information in the public configuration. The public config files are created in the Extensions folder. The public config files use the naming pattern PaaSDiagnostics.&lt;role name\>.PubConfig.xml. Any PowerShell-based deployments can use this pattern to map each configuration to a role.
-* The [Azure portal](https://go.microsoft.com/fwlink/p/?LinkID=525040) uses the connection string in the .cscfg file to access the diagnostics data. The data appears on the **Monitoring** tab. The connection string is required to set the service to show verbose monitoring data in the portal.
+* The [Azure portal](https://portal.azure.com/) uses the connection string in the .cscfg file to access the diagnostics data. The data appears on the **Monitoring** tab. The connection string is required to set the service to show verbose monitoring data in the portal.
 
 ## Migrate projects to Azure SDK 2.6 and later
 When you migrate from Azure SDK 2.5 to Azure SDK 2.6 or later, if you had a diagnostics storage account specified in the .wadcfgx file, the storage account stays in that file. To take advantage of the flexibility of using different storage accounts for different storage configurations, manually add the connection string to your project. If you're migrating a project from Azure SDK 2.4 or earlier to Azure SDK 2.6, the diagnostics connection strings are preserved. However, note the changes in how connection strings are treated in Azure SDK 2.6, described in the preceding section.
@@ -104,7 +104,7 @@ In Visual Studio, you can collect diagnostics data for Azure virtual machines.
     ![Install an Azure virtual machine extension](./media/vs-azure-tools-diagnostics-for-cloud-services-and-virtual-machines/IC766024.png)
 
     > [!NOTE]
-   > Other diagnostics extensions are available for your virtual machines. For more information, see [Virtual machine extensions and features for Windows](https://docs.microsoft.com/azure/virtual-machines/windows/extensions-features).
+   > Other diagnostics extensions are available for your virtual machines. For more information, see [Virtual machine extensions and features for Windows](/azure/virtual-machines/windows/extensions-features).
    >
    >
 5. To add the extension and view its **Diagnostics configuration** dialog box, select **Add**.

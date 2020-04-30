@@ -13,8 +13,8 @@ dev_langs:
 helpviewer_keywords:
   - "MSBuild (C++), ClangCompile task"
   - "ClangCompile task (MSBuild (C++))"
-author: mikeblome
-ms.author: mblome
+author: corob-msft
+ms.author: corob
 ms.workload:
   - "multiple"
 ---

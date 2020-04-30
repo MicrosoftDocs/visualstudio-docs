@@ -52,8 +52,14 @@ The screen and voice recorder can be used with either manual or automated tests.
 
 7. Choose **OK**. The diagnostic trace collector settings are now configured and saved for your test settings.
 
+    ::: moniker range="vs-2017"
     > [!TIP]
     > To reset the configuration for this diagnostic data adapter, choose **Reset to default configuration** for Visual Studio and **Reset to default** for Microsoft Test Manager.
+    ::: moniker-end
+    ::: moniker range=">=vs-2019"
+    > [!TIP]
+    > To reset the configuration for this diagnostic data adapter, choose **Reset to default configuration** in Visual Studio.
+    ::: moniker-end
 
 ## See also
 

@@ -1,17 +1,17 @@
 ---
-title: "IDebugProcessCreateEvent2 | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugProcessCreateEvent2 | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugProcessCreateEvent2"
+- IDebugProcessCreateEvent2
 helpviewer_keywords:
-  - "IDebugProcessCreateEvent2"
+- IDebugProcessCreateEvent2
 ms.assetid: c660439d-8b23-4dbb-923e-ebb5e1d7edf5
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # IDebugProcessCreateEvent2
 This interface is sent when a process is launched.

@@ -22,7 +22,7 @@ ms.workload:
 - You can install additional analyzers as a NuGet package or a Visual Studio extension. For example:
 
   - [FxCop analyzers](../code-quality/install-fxcop-analyzers.md), Microsoft's recommended code quality analyzers
-  - Third party analyzers, such as [StyleCop](https://www.nuget.org/packages/StyleCop.Analyzers/), [Roslynator](https://www.nuget.org/packages/Roslynator/), [XUnit Analyzers](https://www.nuget.org/packages/xunit.analyzers/), and [Sonar Analyzer](https://www.nuget.org/packages/SonarAnalyzer.CSharp/)
+  - Third party analyzers, such as [StyleCop](https://www.nuget.org/packages/StyleCop.Analyzers/), [Roslynator](https://www.nuget.org/packages/Roslynator.Analyzers/), [XUnit Analyzers](https://www.nuget.org/packages/xunit.analyzers/), and [Sonar Analyzer](https://www.nuget.org/packages/SonarAnalyzer.CSharp/)
 
 If rule violations are found by an analyzer, they're reported in the code editor (as a *squiggle* under the offending code) and in the Error List window.
 
@@ -38,7 +38,7 @@ Like legacy analysis rule violations, source code analysis violations appear in 
 
 ![Squiggles in the code editor in Visual Studio](media/diagnostics-severity-colors.png)
 
-Code analyzers inspect code at build time, like legacy analysis if it's enabled, but also live as you type. If you enable [full solution analysis](../code-quality/how-to-enable-and-disable-full-solution-analysis-for-managed-code.md#toggle-full-solution-analysis), code analyzers also provide design-time analysis of code files that aren't open in the editor.
+Code analyzers inspect code at build time, like legacy analysis if it's enabled, but also live as you type. You can configure the scope of live code analysis to execute for the current document only, all open documents, or the entire solution. See [How to: Configure the scope of live code analysis](./configure-live-code-analysis-scope-managed-code.md).
 
 > [!TIP]
 > Build-time errors and warnings from code analyzers are shown only if the analyzers are installed as a NuGet package. The built-in analyzers (for example, IDE0067 and IDE0068) never run during build.
@@ -46,7 +46,7 @@ Code analyzers inspect code at build time, like legacy analysis if it's enabled,
 Not only do Roslyn code analyzers report the same types of problems that legacy analysis does, but they make it easy for you to fix one or all occurrences of the violation in your file or project. These actions are called *code fixes*. Code fixes are IDE-specific; in Visual Studio, they're implemented as [Quick Actions](../ide/quick-actions.md). Not all analyzer diagnostics have an associated code fix.
 
 > [!NOTE]
-> The **Analyze** > **Run Code Analysis** menu option applies only to legacy analysis.
+> Prior to Visual Studio 2019 16.5 release, **Analyze** > **Run Code Analysis** menu option executes legacy analysis. Starting Visual Studio 2019 16.5, **Run Code Analysis** menu option executes Roslyn-based analyzers for the selected project or solution.
 
 To differentiate between violations from code analyzers and legacy analysis in the Error List, look at the **Tool** column. If the Tool value matches one of the analyzer assemblies in **Solution Explorer**, for example **Microsoft.CodeQuality.Analyzers**, the violation comes from a code analyzer. Otherwise, the violation originates from legacy analysis.
 

@@ -124,3 +124,7 @@ See [Attach to a running processes](attach-to-running-processes-with-the-visual-
 ### Debug multithreaded applications
 
 See [Debug multithreaded applications](debug-multithreaded-applications-in-visual-studio.md).
+
+### Fix performance issues
+
+See [First look at the profiling tools](../profiling/profiling-feature-tour.md)

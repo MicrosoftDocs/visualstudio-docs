@@ -18,9 +18,11 @@ ms.workload:
 - multiple
 ---
 # FindInList task
+
 In a specified list, finds an item that has the matching itemspec.
 
 ## Parameters
+
  The following table describes the parameters of the [FindInList task](../msbuild/findinlist-task.md).
 
 |Parameter|Description|
@@ -33,8 +35,10 @@ In a specified list, finds an item that has the matching itemspec.
 |`MatchFileNameOnly`|Optional `Boolean` parameter.<br /><br /> If `true`, match against just the file name part of the itemspec; otherwise, match against the whole itemspec. Default value is `true`.|
 
 ## Remarks
+
  In addition to the parameters listed above, this task inherits parameters from the <xref:Microsoft.Build.Tasks.TaskExtension> class, which itself inherits from the <xref:Microsoft.Build.Utilities.Task> class. For a list of these additional parameters and their descriptions, see [TaskExtension base class](../msbuild/taskextension-base-class.md).
 
 ## See also
+
 - [Tasks](../msbuild/msbuild-tasks.md)
 - [Task reference](../msbuild/msbuild-task-reference.md)

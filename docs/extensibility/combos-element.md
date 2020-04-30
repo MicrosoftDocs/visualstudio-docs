@@ -1,16 +1,16 @@
 ---
-title: "Combos Element | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Combos Element | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "Combos element (VSCT XML schema)"
-  - "VSCT XML schema elements, Combos"
+- Combos element (VSCT XML schema)
+- VSCT XML schema elements, Combos
 ms.assetid: ef48d2d2-0c47-4f93-8cfe-52026b6c463e
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Combos element
 Groups [Combo element](../extensibility/combo-element.md) elements.

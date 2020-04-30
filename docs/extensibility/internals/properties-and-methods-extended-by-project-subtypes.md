@@ -1,16 +1,16 @@
 ---
-title: "Properties and Methods Extended by Project Subtypes | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Properties and Methods Extended by Project Subtypes | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "project subtypes, extended methods"
-  - "project subtypes, extended properties"
+- project subtypes, extended methods
+- project subtypes, extended properties
 ms.assetid: 2b9833bf-8551-4ae1-93db-197ba645c65e
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Properties and Methods Extended by Project Subtypes
 A project subtype has a lot of power to influence the behavior of the project because it is constructed as an aggregator of a base project. This section summarizes some of the features that can be enhanced or modified by project subtypes.

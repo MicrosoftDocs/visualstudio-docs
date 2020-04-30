@@ -1,23 +1,23 @@
 ---
-title: "Supporting Symbol-Browsing Tools | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Supporting Symbol-Browsing Tools | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "symbols, symbol-browsing tools"
-  - "browsers, symbol browsers"
-  - "symbol-browsing tools"
-  - "libraries"
-  - "IVsLibrary2 interface, symbol-browsing tools"
-  - "IVsSimpleLibrary2 interface, symbol-browsing tools"
-  - "symbol-browsing tools, library manager"
-  - "symbols"
-  - "libraries, symbol-browsing tools"
+- symbols, symbol-browsing tools
+- browsers, symbol browsers
+- symbol-browsing tools
+- libraries
+- IVsLibrary2 interface, symbol-browsing tools
+- IVsSimpleLibrary2 interface, symbol-browsing tools
+- symbol-browsing tools, library manager
+- symbols
+- libraries, symbol-browsing tools
 ms.assetid: 70d8c9e5-4b0b-4a69-b3b3-90f36debe880
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Supporting Symbol-Browsing Tools
 **Object Browser**, **Class View**, **Call Browser** and **Find Symbol Results** tools provide symbol browsing capabilities in Visual Studio. These tools display hierarchical tree views of symbols and show the relationships between the symbols in the tree. The symbols may represent namespaces, objects, classes, class members, and other language elements contained in various components. The components include Visual Studio projects, external .NET Framework components and type (.tlb) libraries. For more information, see [Viewing the Structure of Code](../../ide/viewing-the-structure-of-code.md).

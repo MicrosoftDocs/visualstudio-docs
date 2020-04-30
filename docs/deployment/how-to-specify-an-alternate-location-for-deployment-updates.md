@@ -40,9 +40,9 @@ You can install your [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_m
 
 1. Open a .NET Framework command prompt.
 
-2. Set the update location using the following command. In this example, *HelloWorld.exe.application* is the path to your [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application manifest, which always has the .application extension, and *<http://adatum.com/Update/Path>* is the URL that [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] will check for application updates.
+2. Set the update location using the following command. In this example, *HelloWorld.exe.application* is the path to your [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application manifest, which always has the .application extension, and `http://adatum.com/Update/Path` is the URL that [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] will check for application updates.
 
-    **Mage -Update HelloWorld.exe.application -ProviderUrl http://adatum.com/Update/Path**
+    **Mage -Update HelloWorld.exe.application -ProviderUrl http:\//adatum.com/Update/Path**
 
 3. Save the file.
 

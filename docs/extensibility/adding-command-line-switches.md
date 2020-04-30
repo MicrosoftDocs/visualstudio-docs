@@ -1,18 +1,18 @@
 ---
-title: "Adding Command-Line Switches | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Adding Command-Line Switches | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "command-line switches, adding"
-  - "command-line switches, retrieving"
-  - "IVsAppCommandLine::GetOption method"
-  - "command line, switches"
+- command-line switches, adding
+- command-line switches, retrieving
+- IVsAppCommandLine::GetOption method
+- command line, switches
 ms.assetid: 8bbbd87e-76fe-4fb5-8ef9-65f5e31967cf
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Add command-line switches
 You can add command-line switches that apply to your VSPackage when *devenv.exe* is executed. Use <xref:Microsoft.VisualStudio.Shell.ProvideAppCommandLineAttribute> to declare the name of the switch and its properties. In this example, the MySwitch switch is added for a subclass of VSPackage named **AddCommandSwitchPackage** with no arguments and with the VSPackage loaded automatically.

@@ -1,20 +1,20 @@
 ---
-title: "IEnumCodePaths2::GetCount | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IEnumCodePaths2::GetCount | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IEnumCodePaths2::GetCount"
+- IEnumCodePaths2::GetCount
 helpviewer_keywords:
-  - "IEnumCodePaths2::GetCount"
+- IEnumCodePaths2::GetCount
 ms.assetid: 988c5092-fcc5-43a1-a94c-c261edd56ebf
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IEnumCodePaths2::GetCount
 Returns the number of elements in the enumeration.

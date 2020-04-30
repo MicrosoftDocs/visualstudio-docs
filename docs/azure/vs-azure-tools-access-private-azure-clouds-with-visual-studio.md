@@ -9,7 +9,6 @@ ms.workload: azure-vs
 ms.topic: conceptual
 ms.date: 11/13/2017
 ms.author: ghogen
-ms.custom: seodec18
 ---
 # Accessing private Azure clouds with Visual Studio
 

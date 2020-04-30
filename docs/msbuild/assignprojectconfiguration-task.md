@@ -15,9 +15,11 @@ ms.workload:
 - multiple
 ---
 # AssignProjectConfiguration task
+
 This task accepts a list configuration strings and assigns them to specified projects.
 
 ## Task parameters
+
  The following table describes the parameters of the `AssignProjectConfiguration` task.
 
 |Parameter|Description|
@@ -35,8 +37,10 @@ This task accepts a list configuration strings and assigns them to specified pro
 |`UnassignedProjects`|Optional <xref:Microsoft.Build.Framework.ITaskItem>`[]` output parameter.<br /><br /> Contains the list of project reference items that could not be resolved using the pre-resolved list of outputs.|
 
 ## Remarks
+
  In addition to the parameters listed above, this task inherits parameters from the <xref:Microsoft.Build.Tasks.TaskExtension> class, which itself inherits from the <xref:Microsoft.Build.Utilities.Task> class. For a list of these additional parameters and their descriptions, see [TaskExtension base class](../msbuild/taskextension-base-class.md).
 
 ## See also
+
 - [Tasks](../msbuild/msbuild-tasks.md)
 - [Task reference](../msbuild/msbuild-task-reference.md)

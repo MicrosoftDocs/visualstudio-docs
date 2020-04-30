@@ -1,17 +1,17 @@
 ---
-title: "SccDirDiff Function | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: SccDirDiff Function | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 f1_keywords:
-  - "SccDirDiff"
+- SccDirDiff
 helpviewer_keywords:
-  - "SccDirDiff function"
+- SccDirDiff function
 ms.assetid: 26c9ba92-e3b9-4dd2-bd5e-76b17745e308
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # SccDirDiff function
 This function displays the differences between the current local directory on the client disk and the corresponding project under source control.

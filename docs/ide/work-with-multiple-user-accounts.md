@@ -2,8 +2,8 @@
 title: Work with multiple user accounts
 ms.date: 07/23/2019
 ms.topic: conceptual
-author: jillre
-ms.author: jillfra
+author: ornellaalt
+ms.author: ornella
 manager: jillfra
 ms.workload:
 - multiple

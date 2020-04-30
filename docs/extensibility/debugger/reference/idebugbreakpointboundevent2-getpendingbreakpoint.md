@@ -1,20 +1,20 @@
 ---
-title: "IDebugBreakpointBoundEvent2::GetPendingBreakpoint | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugBreakpointBoundEvent2::GetPendingBreakpoint | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugBreakpointBoundEvent2::GetPendingBreakpoint"
+- IDebugBreakpointBoundEvent2::GetPendingBreakpoint
 helpviewer_keywords:
-  - "IDebugBreakpointBoundEvent2::GetPendingBreakpoint"
+- IDebugBreakpointBoundEvent2::GetPendingBreakpoint
 ms.assetid: 6da7ed86-b412-4964-b6a3-0687a66f63fe
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugBreakpointBoundEvent2::GetPendingBreakpoint
 Gets the pending breakpoint that is being bound.

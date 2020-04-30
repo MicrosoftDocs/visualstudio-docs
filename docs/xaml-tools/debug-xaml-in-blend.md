@@ -3,8 +3,8 @@ title: "Debug XAML in Blend | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 ms.assetid: 29a37182-2a2c-47e4-a4a9-2d5412738fed
-author: "mikejo5000"
-ms.author: "mikejo"
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.technology: vs-ide-debug
 ms.workload:
@@ -103,7 +103,7 @@ When XAML errors are detected, the design surface displays an alert that your pr
 
 4. Double-click "The member 'content' is not recognized or is not accessible." The `c` in `content` should be upper-case. Replace the lower-case "c" with an upper-case "c."
 
-5. Double-click "The property 'Mame' does not exist in the '<http://schemas.microsoft.com/winfx/2006/xaml>' namespace." The "M" in "Mame" should be an "N." Replace the "M" with an "N." Now that the XAML can be parsed, the app appears on the design surface.
+5. Double-click "The property 'Mame' does not exist in the `http://schemas.microsoft.com/winfx/2006/xaml` namespace." The "M" in "Mame" should be an "N." Replace the "M" with an "N." Now that the XAML can be parsed, the app appears on the design surface.
 
     ![Debugging XAML in Blend for Visual Studio](../debugger/media/blend_debugartboard_xaml.png "blend_debugArtboard_XAML")
 

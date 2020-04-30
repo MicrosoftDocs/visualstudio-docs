@@ -1,17 +1,17 @@
 ---
-title: "IDebugDocumentText2 | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugDocumentText2 | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugDocumentText2"
+- IDebugDocumentText2
 helpviewer_keywords:
-  - "IDebugDocumentText2 interface"
+- IDebugDocumentText2 interface
 ms.assetid: e85f50a3-211c-4220-a9f4-789950ba2782
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # IDebugDocumentText2
 This interface represents a text document.

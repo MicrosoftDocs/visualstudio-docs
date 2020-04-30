@@ -1,20 +1,20 @@
 ---
-title: "IDebugThread2::GetLogicalThread | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugThread2::GetLogicalThread | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugThread2::GetLogicalThread"
+- IDebugThread2::GetLogicalThread
 helpviewer_keywords:
-  - "IDebugThread2::GetLogicalThread"
+- IDebugThread2::GetLogicalThread
 ms.assetid: bce6230e-41d4-49b7-a050-2dde5efb6805
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugThread2::GetLogicalThread
 Debug engines do not implement this method.

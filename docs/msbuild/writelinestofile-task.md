@@ -20,9 +20,11 @@ ms.workload:
 - multiple
 ---
 # WriteLinesToFile task
+
 Writes the paths of the specified items to the specified text file.
 
 ## Task parameters
+
  The following table describes the parameters of the `WriteLinestoFile` task.
 
 |Parameter|Description|
@@ -34,11 +36,13 @@ Writes the paths of the specified items to the specified text file.
 |`WriteOnlyWhenDifferent`|Optional `Boolean` parameter.<br /><br /> If `true`, the target file specified, if it exists, will be read first to compare against what the task would have written. If identical, the file is not written to disk and the timestamp will be preserved.|
 
 ## Remarks
+
  If `Overwrite` is `true`, creates a new file, write the contents to the file, and then closes the file. If the target file already exists, it is overwritten. If `Overwrite` is `false`, appends the contents to file, creating the target file if it does not already exist.
 
  In addition to the parameters listed above, this task inherits parameters from the <xref:Microsoft.Build.Tasks.TaskExtension> class, which itself inherits from the <xref:Microsoft.Build.Utilities.Task> class. For a list of these additional parameters and their descriptions, see [TaskExtension base class](../msbuild/taskextension-base-class.md).
 
 ## Example
+
  The following example uses the `WriteLinesToFile` task to write the paths of the items in the `MyItems` item collection to the file specified by the `MyTextFile` item collection.
 
 ```xml
@@ -86,5 +90,6 @@ dotnet %~dp0$(AssemblyName).dll %*
 ```
 
 ## See also
+
 - [Tasks](../msbuild/msbuild-tasks.md)
 - [Task reference](../msbuild/msbuild-task-reference.md)

@@ -1,18 +1,18 @@
 ---
-title: "Creating an Extension with a Menu Command | Microsoft Docs"
-ms.date: "3/16/2019"
-ms.topic: "conceptual"
+title: Creating an Extension with a Menu Command | Microsoft Docs
+ms.date: 3/16/2019
+ms.topic: conceptual
 helpviewer_keywords:
-  - "write a vspackage"
-  - "vspackage"
-  - "tutorials"
-  - "visual studio package"
+- write a vspackage
+- vspackage
+- tutorials
+- visual studio package
 ms.assetid: f97104c8-2bcb-45c7-a3c9-85abeda8df98
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Create an extension with a menu command
 

@@ -1,20 +1,20 @@
 ---
-title: "IDebugPortEx2::GetProgram | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugPortEx2::GetProgram | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugPortEx2::GetProgram"
+- IDebugPortEx2::GetProgram
 helpviewer_keywords:
-  - "IDebugPortEx2::GetProgram"
+- IDebugPortEx2::GetProgram
 ms.assetid: cd83a111-bfd5-4eae-b576-526466c6b6ec
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugPortEx2::GetProgram
 Gets the program associated with a program node.
