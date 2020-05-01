@@ -865,6 +865,8 @@
           href: ca2242.md
         - name: "CA2243: Attribute string literals should parse correctly"
           href: ca2243.md
+        - name: "CA2244: Do not duplicate indexed element initializations"
+          href: ca2244.md
         - name: "CA2245: Do not assign a property to itself"
           href: ca2245.md
         - name: "CA2246: Do not assign a symbol and its member in the same statement"
