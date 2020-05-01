@@ -71,6 +71,8 @@ f1_keywords:
 - CA1066
 - CA1067
 - CA1068
+- CA1069
+- CA1070
 - CA1200
 - CA1300
 - CA1301
@@ -346,6 +348,8 @@ The following table lists Code Analysis warnings for managed code by the CheckId
 | CA1066 | [CA1066: Implement IEquatable when overriding Equals](../code-quality/ca1066.md) | A value type overrides <xref:System.Object.Equals%2A> method, but does not implement <xref:System.IEquatable%601>. |
 | CA1067 | [CA1067: Override Equals when implementing IEquatable](../code-quality/ca1067.md) | A type implements <xref:System.IEquatable%601>, but does not override <xref:System.Object.Equals%2A> method. |
 | CA1068 | [CA1068: CancellationToken parameters must come last](../code-quality/ca1068.md) | A method has a CancellationToken parameter that is not the last parameter. |
+| CA1069 | [CA1069: Enums should not have duplicate values](../code-quality/ca1069.md) | An enumeration has multiple members which are explicitly assigned the same constant value. |
+| CA1070 | [CA1070: Do not declare event fields as virtual](../code-quality/ca1070.md) | A [field-like event](/dotnet/csharp/language-reference/language-specification/classes#field-like-events) was declared as virtual. |
 | CA1200 | [CA1200: Avoid using cref tags with a prefix](../code-quality/ca1200.md) | The [cref](/dotnet/csharp/programming-guide/xmldoc/cref-attribute) attribute in an XML documentation tag means "code reference". It specifies that the inner text of the tag is a code element, such as a type, method, or property. Avoid using `cref` tags with prefixes, because it prevents the compiler from verifying references. It also prevents the Visual Studio integrated development environment (IDE) from finding and updating these symbol references during refactorings. |
 | CA1300 | [CA1300: Specify MessageBoxOptions](../code-quality/ca1300.md) | To correctly display a message box for cultures that use a right-to-left reading order, the RightAlign and RtlReading members of the MessageBoxOptions enumeration must be passed to the Show method. |
 | CA1301 | [CA1301: Avoid duplicate accelerators](../code-quality/ca1301.md) | An access key, also known as an accelerator, enables keyboard access to a control by using the ALT key. When multiple controls have duplicate access keys, the behavior of the access key is not well-defined. |
