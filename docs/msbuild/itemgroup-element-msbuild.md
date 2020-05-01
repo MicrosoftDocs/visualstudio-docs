@@ -81,6 +81,10 @@ The following code example shows the user-defined item collections `Res` and `Co
 </Project>
 ```
 
+In a simple project file, you normally use a single `ItemGroup` element, but you can also use multiple `ItemGroup` elements. When multiple `ItemGroup` elements are used, items are combined into a single `ItemGroup`. For example, some items might be included by a separate `ItemGroup` element that's defined in an imported file.
+
+ItemGroups can have conditions applied by using the `Condition` attribute. In that case, the items are only added to the item list if the condition is satisfied. See [MSBuild conditions](msbuild-conditions.md)
+
 ## See also
 
 - [Project file schema reference](../msbuild/msbuild-project-file-schema-reference.md)
