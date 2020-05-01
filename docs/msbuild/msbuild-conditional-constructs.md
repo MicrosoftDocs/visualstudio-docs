@@ -73,6 +73,17 @@ MSBuild provides a mechanism for either/or processing with the [Choose](../msbui
 </Project>
 ```
 
+In this example, a condition on a compiler constant `DEFINED_CONSTANT` is used. These are included in the `DefinedConstants` property. The regular expression is used to match the exact constant in a semicolon-separated list.
+
+```xml
+<Choose>
+   <When Condition="$([System.Text.RegularExpressions.Regex]::IsMatch($(DefineConstants), '^(.*;)*DEFINED_CONSTANT(;.*)*$'))">
+      <!-- When DEFINED_CONSTANT is defined. -->
+   </When>
+   <!-- other conditions -->
+</Choose>
+```
+
 ## See also
 
 - [Choose element (MSBuild)](../msbuild/choose-element-msbuild.md)
