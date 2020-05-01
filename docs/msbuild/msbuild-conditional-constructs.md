@@ -77,7 +77,8 @@ In this example, a condition on a compiler constant `DEFINED_CONSTANT` is used. 
 
 ```xml
 <Choose>
-   <When Condition="$([System.Text.RegularExpressions.Regex]::IsMatch($(DefineConstants), '^(.*;)*DEFINED_CONSTANT(;.*)*$'))">
+   <When Condition="$([System.Text.RegularExpressions.Regex]::IsMatch(
+         $(DefineConstants), '^(.*;)*DEFINED_CONSTANT(;.*)*$'))">
       <!-- When DEFINED_CONSTANT is defined. -->
    </When>
    <!-- other conditions -->
