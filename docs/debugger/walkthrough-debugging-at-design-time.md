@@ -77,13 +77,13 @@ The following example is in Visual Basic. You can also use the **Immediate** win
 
 1. Open the XAML page containing the custom control that you want to debug.
 
-   For UWP projects targeting Windows build 16299 or above, this step will start the *UwpSurface.exe* process. For WPF or UWP versions prior to Windows build 16299, this step will start the *XDesProc.exe* process.
+   For UWP projects targeting Windows build 16299 or above, this step will start the *UwpSurface.exe* process. For WPF projects targeting Windows build 16299 or above, this step will start the *WpfSurface.exe* process. For WPF or UWP versions prior to Windows build 16299, this step will start the *XDesProc.exe* process. 
 
 1. Open a second instance of Visual Studio. Do not open a solution or project in the second instance.
 
 1. In the second instance of Visual Studio, open the **Debug** menu and choose **Attach to Process…**.
 
-1. Depending on your project type (see preceding steps), select either the *UwpSurface.exe* or the *XDesProc.exe* process from the list of available processes.
+1. Depending on your project type (see preceding steps), select the *UwpSurface.exe*, *WpfSurface.exe*, or the *XDesProc.exe* process from the list of available processes.
 
 1. In the **Attach to** field of the **Attach to Process** dialog, choose the correct code type for the custom control you want to debug.
 
