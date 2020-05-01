@@ -80,6 +80,10 @@ Using this feature makes it easy to stay on top of your subscription assignments
 > - All members of the group must have an email address associated with their Azure AD account.
 > - Separate email addresses for notifications are not supported for subscriptions added using Azure AD groups.  
 
+<br>
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4t4cl]
+
 1. Sign in to the Visual Studio Subscriptions Administration Portal at [https://manage.visualstudio.com](https://manage.visualstudio.com).
 
 2. To add multiple subscribers at one time, navigate to the **Manage subscribers** tab.
