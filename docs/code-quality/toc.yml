@@ -338,6 +338,8 @@
           href: ca1067.md
         - name: "CA1068: CancellationToken parameters must come last"
           href: ca1068.md
+        - name: "CA1070: Do not declare event fields as virtual"
+          href: ca1070.md
         - name: "CA2210: Assemblies should have valid strong names"
           href: ca2210.md
       - name: Documentation warnings
