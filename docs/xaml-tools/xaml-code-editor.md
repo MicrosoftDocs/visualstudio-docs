@@ -129,13 +129,21 @@ Some of these features are available universally in the Visual Studio IDE, and s
 
 ### Middle pane, scroll bar
 
+The scroll bar can do more than scroll through your code. You can also use it to open another code editor pane. And, you can use the scroll bar to help you code more efficiently by adding annotations to it, or by using different display modes.
+
+#### Split the code window
+
 In the scroll bar of the code editor, there's a **Split** button at the top right. When you choose it, you can open another code editor pane. This is useful because they operate independently of each other, so you can use them to work on code in different locations. 
 
 ![Screenshot of the XAML code editor, middle pane only, in Visual Studio 2019](media/code-editor-split-window-button.png)
 
-For more information, see the [Manage editor windows](../ide/how-to-manage-editor-windows.md).
+For more information about how to split an editor window, see the [Manage editor windows](../ide/how-to-manage-editor-windows.md) page.
 
-You can also change how the scroll bar looks and what additional features it contains. For example, many people appreciate using map mode, which 
+#### Use annotations or map mode
+
+You can also change how the scroll bar looks and what additional features it contains. For example, many people like to include *annotations* in the scroll bar, which provide visual cues such as code changes, breakpoints, bookmarks, errors, and caret position. Others appreciate using *map mode*, which displays lines of code, in miniature, on the scroll bar. 
+
+For more information about how to change the default settings of the scroll bar, see the  [Customize the scroll bar](../ide/how-to-track-your-code-by-customizing-the-scrollbar.md) page.
 
 ## XAML-specific features
 
@@ -150,18 +158,27 @@ You can also change how the scroll bar looks and what additional features it con
 - Only between tags and not container properties
 - Settings
 
+[Features of the code editor](../ide/writing-code-in-the-code-and-text-editor.md)
+
+[Quick Actions](../ide/quick-actions.md)
+
+[Sort usings](../ide/reference/sort-usings.md)
+
 ## XAML optional settings
 
 You can use the [Options](../ide/reference/options-dialog-box-visual-studio.md) dialog box to change the default settings for the XAML code editor. To view the settings, choose **Tools** > **Options** > **Text Editor** > **XAML**. 
 
 ![Screenshot of the Options list for the XAML text editor](media/xaml-tools-options.png)
 
-> [!NOTE]
-> You can also use keyboard shortcuts to access the Options dialog box. Here's how: 
->
-> Press **Ctrl**+**Q** to search the IDE, type **Options**, and then press **Enter**. Next, press **Ctrl**+**E** to search the Options dialog box, type **Text Editor**, press **Enter**, type **XAML**, and then press **Enter**.
->  
-> For more information about keyboard shortcuts, see the [Shortcut tips for Visual Studio](../ide/productivity-shortcuts.md#code-editor) page.
+In the [Options](../ide/reference/options-text-editor-xaml-formatting.md) dialog box for XAML, the following first three items are universal to all the Visual Studio IDE.
+
+|Name  |More info  |
+|---------|---------|
+|General  |         |
+|Scroll bars | [Customize the scroll bar](../ide/how-to-track-your-code-by-customizing-the-scrollbar.md)  |
+|Tabs  |         |
+
+For more information about these settings, see the []() page
 
 ### XAML-specific options
 
@@ -172,6 +189,14 @@ Here are the settings in the Options dialog that can enhance your editing experi
 - Spacing
 - Misc.
 - Capitalize event handlers there to support proper casing, off by default since its new
+
+
+> [!NOTE]
+> You can also use keyboard shortcuts to access the Options dialog box. Here's how: 
+>
+> Press **Ctrl**+**Q** to search the IDE, type **Options**, and then press **Enter**. Next, press **Ctrl**+**E** to search the Options dialog box, type **Text Editor**, press **Enter**, type **XAML**, and then press **Enter**.
+>  
+> For more information about keyboard shortcuts, see the [Shortcut tips for Visual Studio](../ide/productivity-shortcuts.md#code-editor) page.
 
 ## Next steps
 
