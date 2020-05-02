@@ -193,7 +193,7 @@ For information on running the remote debugger as a service, see [Run the remote
 
 6. Type the first letter of your process name to quickly find your app.
 
-    * If your are using the [in-process hosting model](/aspnet/core/host-and-deploy/aspnet-core-module?view=aspnetcore-3.1#hosting-models) on IIS, select the correct **w3wp.exe** process. Starting in .NET Core 3, this is the default.
+    * If you're using the [in-process hosting model](/aspnet/core/host-and-deploy/aspnet-core-module?view=aspnetcore-3.1#hosting-models) on IIS, select the correct **w3wp.exe** process. Starting in .NET Core 3, this is the default.
 
     * Otherwise, select the **dotnet.exe** process. (This is the out-of-process hosting model.)
 
