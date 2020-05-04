@@ -237,7 +237,7 @@ To customize the default values of properties for all C++ builds, create another
 
 ## Customize all C++ builds
 
-For C++ projects, you can create `.targets` files for each platform and place them in the appropriate import folders for those platforms.
+Customizing the Visual Studio installation isn't recommended, since it's not easy to keep track of such customizations, but if you're extending Visual Studio to customize C++ builds for a particular platform, you can create `.targets` files for each platform and place them in the appropriate import folders for those platforms as part of a Visual Studio extension.
 
 The `.targets` file for the Win32 platform, *Microsoft.Cpp.Win32.targets*, contains the following `Import` element:
 
@@ -257,7 +257,9 @@ There's a similar element near the end of the same file:
 
 Similar import elements exist for other target platforms in *%ProgramFiles32%\MSBuild\Microsoft.Cpp\v{version}\Platforms\*.
 
-Once you place the `.targets` file in the appropriate folder according to the platform, MSBuild imports your file into every C++ build for that platform. You can put multiple `.targets` files there, if needed.
+Once you place the `.targets` file in the appropriate `ImportAfter` folder according to the platform, MSBuild imports your file into every C++ build for that platform. You can put multiple `.targets` files there, if needed. 
+
+Using Visual Studio Extensibility, further customizations are possible, such as defining a new platform. For more information, see [C++ project extensibility](../extensibility/visual-cpp-project-extensibility.md).
 
 ### Specify a custom import on the command line
 
