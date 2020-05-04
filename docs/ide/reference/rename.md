@@ -1,6 +1,6 @@
 ---
 title: Refactor rename
-ms.date: 01/26/2018
+ms.date: 05/04/2020
 ms.topic: reference
 author: TerryGLee
 ms.author: tglee
@@ -73,6 +73,8 @@ This refactoring applies to:
    ![Rename Conflict](media/rename-conflict-cs.png)
 
 - Another way to rename a symbol is to change its name in the editor. Then, with the cursor in the symbol name, press **Ctrl**+**.** or just expand the light bulb icon menu that appears and choose **Rename \<old name> to \<new name>**.
+
+   ![Rename in the editor](media/rename-with-editor-cs.png)
 
 ## See also
 
