@@ -217,9 +217,9 @@ The best approach depends on your scenario. If you have a dedicated build server
 
 ## Customize C++ builds
 
-For C++ projects, the previously mentioned custom *.targets* and *.props* files cannot be used in the same way to override default settings. *Directory.Build.props* is imported by *Microsoft.Common.props*, which is imported in `Microsoft.Cpp.Default.props` while most of the defaults are defined in *Microsoft.Cpp.props* and for a number of properties a "if not yet defined" condition cannot be used, as the property has been already defined, but the default needs to be different for particular project properties defined in PropertyGroup with Label="Configuration (see [.vcxproj and .props file structure](/cpp/build/reference/vcxproj-file-structure).
+For C++ projects, the previously mentioned custom *.targets* and *.props* files cannot be used in the same way to override default settings. *Directory.Build.props* is imported by *Microsoft.Common.props*, which is imported in `Microsoft.Cpp.Default.props` while most of the defaults are defined in *Microsoft.Cpp.props* and for a number of properties a "if not yet defined" condition cannot be used, as the property is already defined, but the default needs to be different for particular project properties defined in `PropertyGroup` with `Label="Configuration"` (see [.vcxproj and .props file structure](/cpp/build/reference/vcxproj-file-structure).
 
-But, you can use the following properties to specify .props file(s) to be automatically imported before/after *Microsoft.Cpp.\** files:
+But, you can use the following properties to specify *.props* file(s) to be automatically imported before/after *Microsoft.Cpp.\** files:
 
 ForceImportAfterCppDefaultProps
 ForceImportBeforeCppProps
