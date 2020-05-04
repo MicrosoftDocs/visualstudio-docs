@@ -235,7 +235,7 @@ As in the following screenshot, if you run the app and divide number 42 by the n
 
 Let's fix the code so that it handles decimals.
 
-1. Press **Ctrl** + **F** to open the **Find and Replace** control.
+1. Press **Ctrl** + **H** to open the **Find and Replace** control.
 
 1. Change each instance of the `int` variable to `float`.
 
@@ -251,7 +251,7 @@ Let's fix the code so that it handles decimals.
 
 However, the app produces only a decimal result. Let's make a few more tweaks to the code so that the app can calculate decimals too.
 
-1. Use the **Find and Replace** control (**Ctrl** + **F**) to change each instance of the `float` variable to `double`, and to change each instance of the `Convert.ToInt32` method to `Convert.ToDouble`.
+1. Use the **Find and Replace** control (**Ctrl** + **H**) to change each instance of the `float` variable to `double`, and to change each instance of the `Convert.ToInt32` method to `Convert.ToDouble`.
 
 1. Run your calculator app and divide the number **42.5** by the number **119.75**.
 
