@@ -223,11 +223,11 @@ For C++ projects, the previously mentioned custom *.targets* and *.props* files 
 
 But, you can use the following properties to specify *.props* file(s) to be automatically imported before/after *Microsoft.Cpp.\** files:
 
-|ForceImportAfterCppDefaultProps|
-|ForceImportBeforeCppProps|
-|ForceImportAfterCppProps|
-|ForceImportBeforeCppTargets|
-|ForceImportAfterCppTargets|
+- ForceImportAfterCppDefaultProps
+- ForceImportBeforeCppProps
+- ForceImportAfterCppProps
+- ForceImportBeforeCppTargets
+- ForceImportAfterCppTargets
 
 To customize the default values of properties for all C++ builds, create another *.props* file (say, *MyProps.props*), and define the `ForceImportAfterCppProps` property in `Directory.Build.props` pointing to it:
 
