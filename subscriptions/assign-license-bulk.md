@@ -82,7 +82,7 @@ Using this feature makes it easy to stay on top of your subscription assignments
 
 <br>
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4t4cl]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4rvvW]
 
 1. Sign in to the Visual Studio Subscriptions Administration Portal at [https://manage.visualstudio.com](https://manage.visualstudio.com).
 
