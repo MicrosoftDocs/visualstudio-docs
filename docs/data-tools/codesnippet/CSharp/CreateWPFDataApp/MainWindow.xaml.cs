@@ -150,11 +150,30 @@ namespace WpfApp1
                 // For CustomerID, address, etc we use the values from current customer.  
                 // User can modify these in the datagrid after the order is entered.  
 
+                Customer currentCustomer = (Customer)custViewSource.View.CurrentItem;
+                int employeeID = 0;
+                try
+                {
+                    employeeID = Int32.Parse(add_employeeIDTextBox.Text); 
+                }
+                catch
+                {
+                    MessageBox.Show("EmployeeID must be a valid integer value.");
+                    return;
+                }
                 Order newOrder = new Order()
                 {
+                    EmployeeID = employeeID,
                     OrderDate = add_orderDatePicker.SelectedDate,
                     RequiredDate = add_requiredDatePicker.SelectedDate,
-                    ShippedDate = add_shippedDatePicker.SelectedDate
+                    ShippedDate = add_shippedDatePicker.SelectedDate,
+                    CustomerID = currentCustomer.CustomerID,
+                    ShipAddress = currentCustomer.Address,
+                    ShipCity = currentCustomer.City,
+                    ShipCountry = currentCustomer.Country,
+                    ShipName = currentCustomer.CompanyName,
+                    ShipPostalCode = currentCustomer.PostalCode,
+                    ShipRegion = currentCustomer.Region
                 };
 
                 try
