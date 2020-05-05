@@ -39,7 +39,7 @@ This refactoring applies to:
 
        ![Highlighted code - Visual Basic](media/rename-highlight-vb.png)
 
-2. Next, do one of the following:
+2. Next, use your keyboard or mouse as follows:
 
    - **Keyboard**
       - Press **Ctrl+R**, then **Ctrl+R**. (Note that your keyboard shortcut may be different based on which profile you've selected.)
@@ -64,7 +64,7 @@ This refactoring applies to:
 
 ## Remarks
 
-- Starting in Visual Studio 2019 version 16.3, when you rename a type that matches the name of the file it's in, a checkbox appears that enable you to rename the file at the same time. This option appears when you rename a class, interface, or enumeration. This option is not supported for partial types with multiple definitions.
+- Starting in Visual Studio 2019 version 16.3, when you rename a type that matches the name of the file it's in, a checkbox appears that enables you to rename the file at the same time. This option appears when you rename a class, interface, or enumeration. This option is not supported for partial types with multiple definitions.
 
    ![Rename animation with file - C#](media/rename-with-file-animated-cs.gif)
 
