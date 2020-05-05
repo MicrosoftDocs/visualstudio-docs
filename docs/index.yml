@@ -74,6 +74,6 @@ productDirectory:
         - url: https://visualstudio.microsoft.com/subscriptions
           text: Info on visualstudio.com
         - url: https://my.visualstudio.com
-          text: Portal
+          text: Subscriber portal
         - url: https://manage.visualstudio.com
-          text: Administration
+          text: Administrator portal
