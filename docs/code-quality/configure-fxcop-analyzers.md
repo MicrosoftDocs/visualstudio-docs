@@ -62,7 +62,7 @@ The syntax for configuring an option for a *specific* rule is as follows:
 
 ### VS2019 16.3 and later + FxCopAnalyzers package version 3.3.x and later
 
-To enable EditorConfig-based configuration for specific document(s), folder(s), project(s), solution(s) or entire repo add an *.editorconfig* file with the options in the corresponding directory. This file can also contain .editorconfig based diagnostic severity configuration entries. See [here](use-roslyn-analyzers#rule-severity) for more details.
+To enable EditorConfig-based configuration for specific document(s), folder(s), project(s), solution(s) or entire repo, add an *.editorconfig* file with the options in the corresponding directory. This file can also contain .editorconfig based diagnostic severity configuration entries. See [here](use-roslyn-analyzers#rule-severity) for more details.
 
 ### Prior to VS2019 16.3 or using an FxCopAnalyzers package version prior to 3.3.x
 
