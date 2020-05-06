@@ -90,12 +90,14 @@ int main()
 **rojects\CoreCheckExample\Debug\CoreCheckExample.pdb (Full PDB)**  
 **c:\users\username\documents\visual studio 2015\projects\corecheckexample\coreche**  
 **ckexample\corecheckexample.cpp(6): warning C26494: Variable 'arr' is uninitializ**  
-**ed. Always initialize an object. (type.5: https://go.microsoft.com/fwlink/p/?Link**  
+**ed. Always initialize an object. (type.5: https:\//go.microsoft.com/fwlink/p/?Link**  
 **ID=620421)**  
 **c:\users\username\documents\visual studio 2015\projects\corecheckexample\coreche**  
 **ckexample\corecheckexample.cpp(7): warning C26485: Expression 'arr': No array to**  
-**pointer decay. (bounds.3: https://go.microsoft.com/fwlink/p/?LinkID=620415)**  
-**========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========** The C++ Core Guidelines are there to help you write better and safer code. However, if you have an instance where a rule or a profile shouldn’t be applied, it’s easy to suppress it directly in the code. You can use the `gsl::suppress` attribute to keep C++ Core Check from detecting and reporting any violation of a rule in the following code block. You can mark individual statements to suppress specific rules. You can even suppress the entire bounds profile by writing `[[gsl::suppress(bounds)]]` without including a specific rule number.  
+**pointer decay. (bounds.3: https:\//go.microsoft.com/fwlink/p/?LinkID=620415)**  
+**========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========** 
+
+The C++ Core Guidelines are there to help you write better and safer code. However, if you have an instance where a rule or a profile shouldn’t be applied, it’s easy to suppress it directly in the code. You can use the `gsl::suppress` attribute to keep C++ Core Check from detecting and reporting any violation of a rule in the following code block. You can mark individual statements to suppress specific rules. You can even suppress the entire bounds profile by writing `[[gsl::suppress(bounds)]]` without including a specific rule number.  
   
 ## Use the Guideline Support Library  
  The Microsoft.CppCoreCheck NuGet package also installs a package that contains Microsoft’s implementation of the Guideline Support Library (GSL). The GSL is also available in standalone form at [http://www.nuget.org/packages/Microsoft.Gsl](https://www.nuget.org/packages/Microsoft.Gsl). This library is helpful if you want to follow the Core Guidelines. The GSL includes definitions that let you replace error-prone constructs with safer alternatives. For example, you can replace a `T*, length` pair of parameters with the `span<T>` type. The GSL is open source, so if you want to take a look at the library sources, comment, or contribute, the project can be found at [https://github.com/Microsoft/GSL](https://github.com/Microsoft/GSL).

@@ -14,6 +14,10 @@ The Subscriptions Administration Portal lets you add users one-at-a-time, or in 
 
 To add large groups of users, you can use the bulk add feature, or if your organization is using Microsoft Azure Active Directory (Azure AD), you can use Azure AD groups. This article will explain the process for both options. 
 
+<br>
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4vxNq]
+
 ## Use Bulk add to assign subscriptions
 1. Sign into the Visual Studio Subscriptions Administration Portal at https://manage.visualstudio.com.
 
@@ -76,6 +80,10 @@ Using this feature makes it easy to stay on top of your subscription assignments
 > - All members of the group must have an email address associated with their Azure AD account.
 > - Separate email addresses for notifications are not supported for subscriptions added using Azure AD groups.  
 
+<br>
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4rvvW]
+
 1. Sign in to the Visual Studio Subscriptions Administration Portal at [https://manage.visualstudio.com](https://manage.visualstudio.com).
 
 2. To add multiple subscribers at one time, navigate to the **Manage subscribers** tab.
@@ -101,9 +109,6 @@ Using this feature makes it easy to stay on top of your subscription assignments
 > [!NOTE]
 > If you have already assigned subscriptions individually to users who are subsequently added as part of an Azure AD group, they will be added as part of the group and will no longer be listed individually. However, if the individual subscription is for a different subscription level, they will have two subscriptions.  Example:  If a user has an individual Visual Studio Professional subscription, and they are a member of a group to which you assign Visual Studio Enterprise subscriptions, they will have both.  
 
-<br>
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4vxNq]
 
 ## Frequently asked questions
 ### Q: Can I choose multiple subscription levels to be assigned within an Azure AD group? 
