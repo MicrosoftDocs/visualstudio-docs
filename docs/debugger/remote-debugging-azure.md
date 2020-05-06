@@ -112,7 +112,7 @@ This article includes steps on setting up a basic configuration of IIS on Window
 
   * Before you begin, follow all the steps described in [Install and run IIS](/azure/virtual-machines/windows/quick-create-portal).
 
-  * When you open port 80 in the Network security group, also open the [correct port](#bkmk_openports) for the remote debugger (4024 or 4022). That way, you won't have to open it later.
+  * When you open port 80 in the Network security group, also open the [correct port](#bkmk_openports) for the remote debugger (4024 or 4022). That way, you won't have to open it later. If you're using Web Deploy, also open port 8172.
 
 ### Update browser security settings on Windows Server
 
@@ -170,11 +170,14 @@ You can use this option create a publish settings file and import it into Visual
 
 [!INCLUDE [install-web-deploy-with-hosting-server](../deployment/includes/import-publish-settings-vs.md)]
 
-After the app deploys successfully, it should start automatically. If the app does not start from Visual Studio, start the app in IIS. For ASP.NET Core, you need to make sure that the Application pool field for the **DefaultAppPool** is set to **No Managed Code**.
+    > [!NOTE]
+    > If you restart an Azure VM, the IP address may change.
+
+After the app deploys successfully, it should start automatically. If the app does not start from Visual Studio, start the app in IIS to verify that it runs correctly. For ASP.NET Core, you also need to make sure that the Application pool field for the **DefaultAppPool** is set to **No Managed Code**.
 
 1. In the **Settings** dialog box, enable debugging by clicking **Next**, choose a **Debug** configuration, and then choose **Remove additional files at destination** under the **File Publish** options.
 
-    > [!NOTE]
+    > [!IMPORTANT]
     > If you choose a Release configuration, you disable debugging in the *web.config* file when you publish.
 
 1. Click **Save** and then republish the app.

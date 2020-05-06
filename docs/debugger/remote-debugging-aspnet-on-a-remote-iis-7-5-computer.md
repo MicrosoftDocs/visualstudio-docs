@@ -123,7 +123,7 @@ After the app deploys successfully, it should start automatically. If the app do
 
 1. In the **Settings** dialog box, enable debugging by clicking **Next**, choose a **Debug** configuration, and then choose **Remove additional files at destination** under the **File Publish** options.
 
-    > [!NOTE]
+    > [!IMPORTANT]
     > If you choose a Release configuration, you disable debugging in the *web.config* file when you publish.
 
 1. Click **Save** and then republish the app.
