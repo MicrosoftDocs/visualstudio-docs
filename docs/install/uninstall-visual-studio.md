@@ -2,7 +2,7 @@
 title: Uninstall Visual Studio
 titleSuffix: ''
 description: Learn how to uninstall Visual Studio, step-by-step.
-ms.date: 12/19/2019
+ms.date: 05/06/2020
 ms.custom: seodec18
 ms.topic: conceptual
 f1_keywords:
@@ -23,6 +23,13 @@ This page walks you through uninstalling Visual Studio, our integrated suite of 
 
 > [!NOTE]
 > This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [Uninstall Visual Studio for Mac](/visualstudio/mac/uninstall).
+
+> [!TIP]
+> If you're having trouble with your instance of Visual Studio, try the **Repair** tool. For more information, see [Repair Visual Studio](../install/repair-visual-studio). 
+>
+> If you want to change the location for some of your Visual Studio files, it's possible to do so without uninstalling your current instance. For more information, see [Select the installation locations in Visual Studio](../install/change-installation-locations).
+>
+> For general troubleshooting tips, see [Troubleshoot Visual Studio installation and upgrade issues](../install/troubleshooting-installation-issues).
 
 ::: moniker range="vs-2017"
 
