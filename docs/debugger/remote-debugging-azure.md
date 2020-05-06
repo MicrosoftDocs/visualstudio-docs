@@ -1,7 +1,7 @@
 ---
 title: "Remote Debug ASP.NET Core on IIS and Azure | Microsoft Docs"
 ms.custom: "remotedebugging"
-ms.date: "04/14/2020"
+ms.date: 05/06/2020
 ms.topic: "conceptual"
 ms.assetid: a6c04b53-d1b9-4552-a8fd-3ed6f4902ce6
 author: "mikejo5000"
@@ -100,6 +100,7 @@ You can create an Azure VM for Windows Server and then install and configure IIS
 These procedures have been tested on these server configurations:
 * Windows Server 2012 R2 and IIS 8
 * Windows Server 2016 and IIS 10
+* Windows Server 2019 and IIS 10
 
 ### App already running in IIS on the Azure VM?
 
@@ -126,7 +127,10 @@ When you download the software, you may get requests to grant permission to load
 
 ### Install ASP.NET Core on Windows Server
 
-1. Install the [.NET Core Windows Server Hosting](https://aka.ms/dotnetcore-2-windowshosting) bundle on the hosting system. The bundle will install the .NET Core Runtime, .NET Core Library, and the ASP.NET Core Module. For more in-depth instructions, see [Publishing to IIS](/aspnet/core/publishing/iis?tabs=aspnetcore2x#iis-configuration).
+1. Install the .NET Core Hosting Bundle on the hosting system. The bundle installs the .NET Core Runtime, .NET Core Library, and the ASP.NET Core Module. For more in-depth instructions, see [Publishing to IIS](/aspnet/core/publishing/iis?tabs=aspnetcore2x#iis-configuration).
+
+    For .NET Core 3, install the [.NET Core Hosting Bundle](https://dotnet.microsoft.com/permalink/dotnetcore-current-windows-runtime-bundle-installer).
+    For .NET Core 2, install the [.NET Core Windows Server Hosting](https://aka.ms/dotnetcore-2-windowshosting).
 
     > [!NOTE]
     > If the system doesn't have an Internet connection, obtain and install the *[Microsoft Visual C++ 2015 Redistributable](https://www.microsoft.com/download/details.aspx?id=53840)* before installing the .NET Core Windows Server Hosting bundle.
