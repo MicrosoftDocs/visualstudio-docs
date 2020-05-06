@@ -271,6 +271,7 @@ f1_keywords:
 - CA2245
 - CA2246
 - CA5122
+- CA5374
 ms.assetid: 5cb221f6-dc59-4abf-9bfa-adbd6f907f96
 author: mikejo5000
 ms.author: mikejo
@@ -540,3 +541,4 @@ The following table lists Code Analysis warnings for managed code by the CheckId
 | CA2246 | [CA2246: Do not assign a symbol and its member in the same statement](../code-quality/ca2246.md) | Assigning a symbol and its member, that is, a field or a property, in the same statement is not recommended. It is not clear if the member access was intended to use the symbol's old value prior to the assignment or the new value from the assignment in this statement. |
 | CA5122 | [CA5122 P/Invoke declarations should not be safe critical](../code-quality/ca5122.md) | Methods are marked as SecuritySafeCritical when they perform a security sensitive operation, but are also safe to be used by transparent code. Transparent code may never directly call native code through a P/Invoke. Therefore, marking a P/Invoke as security safe critical will not enable transparent code to call it, and is misleading for security analysis. |
 | CA5366 | [CA5366 Use XmlReader For DataSet Read XML](../code-quality/ca5366.md) | Using a <xref:System.Data.DataSet> to read XML with untrusted data may load dangerous external references, which should be restricted by using an <xref:System.Xml.XmlReader> with a secure resolver or with DTD processing disabled. |
+| CA5374 | [CA5374 Do Not Use XslTransform](../code-quality/ca5374.md) | This rule checks if <xref:System.Xml.Xsl.XslTransform?displayProperty=nameWithType> is instantiated in the code. <xref:System.Xml.Xsl.XslTransform?displayProperty=nameWithType> is now obsolete and shouldn’t be used. |

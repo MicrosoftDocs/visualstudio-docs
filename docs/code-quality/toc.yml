@@ -764,6 +764,8 @@
           href: ca5372.md
         - name: "CA5373: Do not use obsolete key derivation function"
           href: ca5373.md
+        - name: "CA5374: Do Not Use XslTransform"
+          href: ca5374.md
         - name: "CA5378: Do not disable ServicePointManagerSecurityProtocols"
           href: ca5378.md
         - name: "CA5380: Do not add certificates to root store"
