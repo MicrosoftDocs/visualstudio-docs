@@ -35,7 +35,7 @@ To see a full list of prerequisites for using Windows Virtual Desktop, please vi
 
 ## Get started 
 When all your prerequisites are in place, you’ll want to complete several actions to get your implementation in place.  Check out these tutorials to get started:
-- [Create a Windows Virtual Desktop tenant](https://docs.microsoft.com/azure/virtual-desktop/tenant-setup-azure-active-directory)
+- [Create a Windows Virtual Desktop tenant](https://docs.microsoft.com/azure/virtual-desktop/virtual-desktop-fall-2019/tenant-setup-azure-active-directory)
 - [Create a host pool](https://docs.microsoft.com/azure/virtual-desktop/create-host-pools-azure-marketplace) using the Azure portal
 - [Manage app groups](https://docs.microsoft.com/azure/virtual-desktop/manage-app-groups) for Windows Virtual Desktop
 
