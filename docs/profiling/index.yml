@@ -48,6 +48,29 @@ landingContent:
             url: beginners-guide-to-performance-profiling.md
           - text: Get started measuring memory usage
             url: memory-usage.md
+            
+
+- title: Performance tools
+linkLists:
+  - linkListType: how-to-guide
+    links:
+      - text: CPU Usage
+        url: cpu-usage.md
+      - text: Database
+        url: analyze-database.md
+      - text: Events Viewer
+        url: events-viewer.md
+      - text: Memory Usage
+        url: memory-usage-without-debugging2.md
+      - text: .NET Object Allocation Tracking
+        url: dotnet-alloc-tool.md
+      - text: GPU Usage
+        url: gpu-usage.md
+      - text: .NET Async
+        url: analyze-async.md
+      - text: Instrumentation
+        url: instrumentation.md
+
 
   # Card (optional)
   - title: More performance tools
@@ -58,8 +81,6 @@ landingContent:
             url: perftips.md
           - text: Measure CPU usage from the command line
             url: profile-apps-from-command-line.md
-          - text: Measure memory usage for .NET objects
-            url: dotnet-alloc-tool.md
           - text: Analyze resource consumption (XAML)
             url: application-timeline.md
           - text: Analyze GPU usage (Direct3D)
@@ -69,3 +90,4 @@ landingContent:
           - text: Analyze energy usage (UWP)
             url: analyze-energy-use-in-store-apps.md
           
+        
