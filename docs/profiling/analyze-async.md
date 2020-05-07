@@ -16,12 +16,12 @@ ms.workload:
 The .NET Async Tool allows you to analyze the performance of asynchronous code in your application.
 
 >[!NOTE]
-> The .NET Async tool requires Visual Studio 2019 version <= 16.7
-and a .NET project using async/await.
+> The .NET Async tool requires Visual Studio 2019 version <= 16.7 and a .NET project using async/await.
 
 ## Setup
 
 1. Open the Performance Profiler **(Alt + F2)** in Visual Studio.
+
 2. Select the **.NET Async** checkbox.
 
 ![.NET Async Tool Selected](./media/async_tool_selected.png ".NET Async Tool Selected")
@@ -34,10 +34,6 @@ and a .NET project using async/await.
 
 ![.NET Async Tool Stopped](./media/async_tool_opened.png ".NET Async Tool Stopped")
 
-The queries will be organized chronologically, but can be sorted by any of the columns (more columns can be enabled by right clicking the column titles), clicking the Duration column will order the queries from longest lasting to shortest, and once you’ve found a query you’d like to investigate, you can right click the query and select “Go to Source File” to see what code is responsible for that query.
+Asynchronous events will be organized into activites chronologically, and will display their respective start time, end time and duration. If a row corresponds to a [Task](https://docs.microsoft.com/en-us/dotnet/api/system.threading.tasks) it will be labeled in the 'Name' column. If a Task name cannot be resolved a 'Task in' label will appear followed by the name of the method the Task occurs within. If an asynchronous activity does not complete within the collection session, it will be indicated by an 'Incomplete' label in the End Time column. To investigate a specific Task or activity further you can right click on the row and click '"Go to Source File" to see where in your code that activity happens.
 
-![Allocation](./media/async_tool_gotosource.png "Allocation")
-
-Selecting a time range on graph will also filter the query table to only queries that occcured during that time range. This can be especially useful when running this alongside the [CPU Usage tool](https://docs.microsoft.com/en-us/visualstudio/profiling/cpu-usage?view=vs-2019).
-
-task in, task, incomplete
+![.NET Async Go To Source](./media/async_tool_gotosource.png ".NET Async Go To Source")
