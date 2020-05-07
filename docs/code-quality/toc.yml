@@ -752,6 +752,8 @@
           href: ca5363.md
         - name: "CA5364: Do not use deprecated security protocols"
           href: ca5364.md
+        - name: "CA5365: Do Not Disable HTTP Header Checking"
+          href: ca5365.md
         - name: "CA5366: Use XmlReader For DataSet Read XML"
           href: ca5366.md
         - name: "CA5369: Use XmlReader for Deserialize"
