@@ -49,10 +49,10 @@ landingContent:
           - text: Get started measuring memory usage
             url: memory-usage.md
             
-
+    # Card (optional)
     - title: Performance tools
     linkLists:
-      - linkListType: how-to-guide
+      - linkListType: reference
         links:
           - text: CPU Usage
             url: cpu-usage.md
