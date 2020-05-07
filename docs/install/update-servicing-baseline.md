@@ -12,7 +12,7 @@ ms.workload:
 - multiple
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
-monikerRange: >=vs-2019
+monikerRange: ">=vs-2019"
 ---
 # Update Visual Studio while on a servicing baseline
 
