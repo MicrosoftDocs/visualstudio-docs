@@ -4,7 +4,7 @@ ms.date: "5/5/2020"
 ms.topic: "conceptual"
 helpviewer_keywords:
   - "asynchronous, async, profiling"
-author: "Esteban Herrera"
+author: "esteban-herrera"
 ms.author: "esherrer"
 manager: AndSter
 ms.workload:
@@ -24,7 +24,7 @@ The .NET Async Tool allows you to analyze the performance of asynchronous code i
 
 2. Select the **.NET Async** checkbox.
 
-![.NET Async Tool Selected](./media/async_tool_selected.png ".NET Async Tool Selected")
+![.NET Async Tool Selected](../profiling/media/async_tool_selected.png ".NET Async Tool Selected")
 
 3. Click the **Start** button to run the tool.
 
@@ -32,8 +32,8 @@ The .NET Async Tool allows you to analyze the performance of asynchronous code i
 
 5. After collection is stopped, you'll see a table of the activities that happened during your profiling session.
 
-![.NET Async Tool Stopped](./media/async_tool_opened.png ".NET Async Tool Stopped")
+![.NET Async Tool Stopped](../profiling/media/async_tool_opened.png ".NET Async Tool Stopped")
 
 Asynchronous events will be organized into activites chronologically, and will display their respective start time, end time and duration. If a row corresponds to a [Task](https://docs.microsoft.com/en-us/dotnet/api/system.threading.tasks) it will be labeled in the 'Name' column. If a Task name cannot be resolved a 'Task in' label will appear followed by the name of the method the Task occurs within. If an asynchronous activity does not complete within the collection session, it will be indicated by an 'Incomplete' label in the End Time column. To investigate a specific Task or activity further you can right click on the row and click '"Go to Source File" to see where in your code that activity happens.
 
-![.NET Async Go To Source](./media/async_tool_gotosource.png ".NET Async Go To Source")
+![.NET Async Go To Source](../profiling/media/async_tool_gotosource.png ".NET Async Go To Source")
