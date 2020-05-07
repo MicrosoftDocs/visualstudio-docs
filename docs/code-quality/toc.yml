@@ -338,6 +338,10 @@
           href: ca1067.md
         - name: "CA1068: CancellationToken parameters must come last"
           href: ca1068.md
+        - name: "CA1069: Enums should not have duplicate values"
+          href: ca1069.md
+        - name: "CA1070: Do not declare event fields as virtual"
+          href: ca1070.md
         - name: "CA2210: Assemblies should have valid strong names"
           href: ca2210.md
       - name: Documentation warnings
@@ -579,6 +583,8 @@
           href: ca2007.md
         - name: "CA2009: Do not call ToImmutableCollection on an ImmutableCollection value"
           href: ca2009.md
+        - name: "CA2011: Do not assign property within its setter"
+          href: ca2011.md
       - name: Security warnings
         items:
         - name: Overview
@@ -746,6 +752,8 @@
           href: ca5363.md
         - name: "CA5364: Do not use deprecated security protocols"
           href: ca5364.md
+        - name: "CA5365: Do Not Disable HTTP Header Checking"
+          href: ca5365.md
         - name: "CA5368: Set ViewStateUserKey For Classes Derived From Page"
           href: ca5368.md
         - name: "CA5369: Use XmlReader for Deserialize"
@@ -758,6 +766,8 @@
           href: ca5372.md
         - name: "CA5373: Do not use obsolete key derivation function"
           href: ca5373.md
+        - name: "CA5374: Do Not Use XslTransform"
+          href: ca5374.md
         - name: "CA5378: Do not disable ServicePointManagerSecurityProtocols"
           href: ca5378.md
         - name: "CA5380: Do not add certificates to root store"
@@ -865,5 +875,11 @@
           href: ca2242.md
         - name: "CA2243: Attribute string literals should parse correctly"
           href: ca2243.md
+        - name: "CA2244: Do not duplicate indexed element initializations"
+          href: ca2244.md
+        - name: "CA2245: Do not assign a property to itself"
+          href: ca2245.md
+        - name: "CA2246: Do not assign a symbol and its member in the same statement"
+          href: ca2246.md
       - name: Automatic feature suspension
         href: automatic-feature-suspension.md
