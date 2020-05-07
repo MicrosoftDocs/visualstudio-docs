@@ -754,6 +754,8 @@
           href: ca5363.md
         - name: "CA5364: Do not use deprecated security protocols"
           href: ca5364.md
+        - name: "CA5365: Do Not Disable HTTP Header Checking"
+          href: ca5365.md
         - name: "CA5369: Use XmlReader for Deserialize"
           href: ca5369.md
         - name: "CA5370: Use XmlReader for validating reader"
@@ -764,6 +766,8 @@
           href: ca5372.md
         - name: "CA5373: Do not use obsolete key derivation function"
           href: ca5373.md
+        - name: "CA5374: Do Not Use XslTransform"
+          href: ca5374.md
         - name: "CA5378: Do not disable ServicePointManagerSecurityProtocols"
           href: ca5378.md
         - name: "CA5380: Do not add certificates to root store"
