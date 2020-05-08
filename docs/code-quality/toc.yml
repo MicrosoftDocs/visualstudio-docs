@@ -770,6 +770,10 @@
           href: ca5381.md
         - name: "CA5386: Avoid hardcoding SecurityProtocolType value"
           href: ca5386.md
+        - name: "CA5387: Do Not Use Weak Key Derivation Function With Insufficient Iteration Count"
+          href: ca5387.md
+        - name: "CA5388: Ensure Sufficient Iteration Count When Using Weak Key Derivation Function"
+          href: ca5388.md
         - name: "CA5389: Do not add archive item's path to the target file system path"
           href: ca5389.md
         - name: "CA5397: Do not use deprecated SslProtocols values"
