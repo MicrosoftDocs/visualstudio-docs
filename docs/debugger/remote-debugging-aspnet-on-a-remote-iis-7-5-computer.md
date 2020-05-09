@@ -1,7 +1,7 @@
 ---
 title: "Remote debug ASP.NET on an IIS computer"
 ms.custom: ['remotedebugging', 'seodec18']
-ms.date: "05/21/2018"
+ms.date: 05/06/2020
 ms.topic: "conceptual"
 ms.assetid: 9cb339b5-3caf-4755-aad1-4a5da54b2a23
 author: "mikejo5000"
@@ -105,7 +105,7 @@ If you need help to deploy the app to IIS, consider these options:
 You can use this option create a publish settings file and import it into Visual Studio.
 
 > [!NOTE]
-> This deployment method uses Web Deploy. If you want to configure Web Deploy manually in Visual Studio instead of importing the settings, you can install Web Deploy 3.6 instead of Web Deploy 3.6 for Hosting Servers. However, if you configure Web Deploy manually, you will need to make sure that an app folder on the server is configured with the correct values and permissions (see [Configure ASP.NET Web site](#BKMK_deploy_asp_net)).
+> This deployment method uses Web Deploy, which must be installed on the server. If you want to configure Web Deploy manually instead of importing the settings, you can install Web Deploy 3.6 instead of Web Deploy 3.6 for Hosting Servers. However, if you configure Web Deploy manually, you will need to make sure that an app folder on the server is configured with the correct values and permissions (see [Configure ASP.NET Web site](#BKMK_deploy_asp_net)).
 
 ### Install and configure Web Deploy for Hosting Servers on Windows Server
 
@@ -123,7 +123,7 @@ After the app deploys successfully, it should start automatically. If the app do
 
 1. In the **Settings** dialog box, enable debugging by clicking **Next**, choose a **Debug** configuration, and then choose **Remove additional files at destination** under the **File Publish** options.
 
-    > [!NOTE]
+    > [!IMPORTANT]
     > If you choose a Release configuration, you disable debugging in the *web.config* file when you publish.
 
 1. Click **Save** and then republish the app.
