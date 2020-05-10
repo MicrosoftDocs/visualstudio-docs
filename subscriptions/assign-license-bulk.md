@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: lank
 manager: lank
 ms.assetid: c2853359-18fd-4be4-97a6-02230c862f92
-ms.date: 03/02/2020
+ms.date: 05/10/2020
 ms.topic: conceptual
 description:  Learn how administrators can assign licenses to multiple subscribers using either the Bulk add feature or Microsoft Azure Active Directory groups
 ---
@@ -73,6 +73,7 @@ Using this feature makes it easy to stay on top of your subscription assignments
 > [!IMPORTANT]
 >
 > The following limitations apply to the use of Azure AD groups for adding subscribers:
+> - The administrator must be a member of the AAD tenant when initially adding a group to the adminstration portal.  After the group has been added, changes to the membership of the groups does not require admin involvement. 
 > - Groups must contain at least one member.  Empty groups are not supported.
 > - Groups must have less than 1,000 users. 
 > - All users must be in the top level of the group.  Nested groups are not supported.
