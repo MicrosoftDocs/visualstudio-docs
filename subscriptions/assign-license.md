@@ -34,6 +34,10 @@ Here's how to assign a Visual Studio subscription to a new user so that they can
    > [!div class="mx-imgBorder"]
    > ![Subscriber details](_img/assign-license-add/subscriber-details.png)
 
+    > [!NOTE]
+    > In order for members of an Azure Active Directory tenant to be visible when you enter a subscriber name, the administrator must be a member of the tenant. 
+
+
     If you want this subscriber to have access to software downloads when they sign into the [Visual Studio Subscriptions Portal](https://my.visualstudio.com?wt.mc_id=o~msft~docs), make sure to leave the downloads toggle enabled in the **Download Settings** section. If you choose to disable downloads, the user will not have access to software downloads, but will still have access to all other benefits included in the subscription.
    > [!div class="mx-imgBorder"]
    > ![Access to downloads](media/access-to-downloads.png)
