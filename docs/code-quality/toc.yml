@@ -551,6 +551,8 @@
           href: ca1828.md
         - name: "CA1829: Use Length/Count property instead of Enumerable.Count method"
           href: ca1829.md
+        - name: "CA1835: Prefer the memory overloads of Stream ReadAsync/WriteAsync methods"
+          href: ca1835.md
       - name: Portability warnings
         items:
         - name: Overview
