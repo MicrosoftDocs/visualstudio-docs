@@ -27,9 +27,6 @@ During installation, ensure that Visual Studio is checked in the list of compone
 
 ![unity hub installation](media/vstu_unity-hub.png)
 
-#### Unity Download Assistant
-
-![unity download assistant installation](media/vstu_download-assistant.png)
 
 #### Check for updates to Visual Studio
 
@@ -39,7 +36,7 @@ The version of Visual Studio included with your Unity installation may not be th
 
 ### Manual installation
 
-If you already have Visual Studio 2017 installed, or prefer to manually install, run the Visual Studio installer.
+If you already have Visual Studio 2019 installed, or prefer to manually install, run the Visual Studio installer.
 
 1. [Download the Visual Studio installer](../install/install-visual-studio.md), or open it if already installed.
 
