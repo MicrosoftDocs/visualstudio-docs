@@ -1,7 +1,7 @@
 ---
 title: "How to: Build multiple configurations"
 ms.date: 05/13/2020
-ms.technology: vs-ide-compqile
+ms.technology: vs-ide-compile
 ms.topic: conceptual
 ms.assetid: ba830937-3317-4674-8cc2-c0cd565603c5
 author: ghogen
