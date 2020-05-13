@@ -67,7 +67,7 @@ With Visual Studio subscriptions offered via MPN, the licensed user must sign in
 
 ## Resources
 
-- [MPN Program Administrator Guide](https://assets.microsoft.com/en-us/Program-Administrator-Guide-to-Software-and-Online-Services-Benefits_1.pdf) - includes instructions on how to assign Visual Studio subscriptions to MPN employees.
+- [Microsoft Partner Network Programs Guide](https://assets.microsoft.com/MPN-MAPS-Product-Usage-Guide.pdf?tpqid=300-000121)
 - [Assign Visual Studio subscriptions to MPN employees](manage-mpn-subscriptions.md)
 - [Use terms](https://www.microsoft.com/useterms/) - Visual Studio subscriptions offered via MPN are subject to the Visual Studio subscriptions not for resale (NFR) EULA.
 
