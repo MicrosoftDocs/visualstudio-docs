@@ -37,13 +37,9 @@ During installation, ensure that Visual Studio is checked in the list of compone
 #### Unity Download Assistant
 
 ![unity download assistant installation](media/vs-2017/vstu_download-assistant.png)
+
+The version of Visual Studio included with your Unity installation may not be the latest. If you are asked to install Visual Studio 2017, then we recommend manually installing a newer version of Visual Studio.
 :::moniker-end
-
-#### Check for updates to Visual Studio
-
-The version of Visual Studio included with your Unity installation may not be the latest. It is recommended to check for updates to ensure you have access to the latest tools and features.
-
-- [Update Visual Studio](../install/update-visual-studio.md)
 
 ### Manual installation
 
@@ -63,6 +59,14 @@ If you already have Visual Studio installed, or prefer to manually install, run 
    :::moniker-end
 
 1. Click **Modify** (if already installed) or **Install** (for new installations) in the bottom-right corner of the installer window.
+
+
+#### Check for updates to Visual Studio
+
+It is recommended to check for updates within Visual Studio to ensure you have access to the latest tools and features. This will not break your Unity project.
+
+- [Update Visual Studio](../install/update-visual-studio.md)
+
 
 ## Configure Unity for use with Visual Studio
 
@@ -109,12 +113,6 @@ Download and install Visual Studio Tools for Unity from the Visual Studio Market
 - For Visual Studio 2015 Community, Visual Studio 2015 Professional, or Visual Studio 2015 Enterprise:
 
    [Download Visual Studio 2015 Tools for Unity](https://marketplace.visualstudio.com/items?itemName=SebastienLebreton.VisualStudio2015ToolsforUnity)
-
-:::moniker range="vs-2017"
-> [!NOTE]
-> Visual Studio Tools for Unity requires Unity 5.2 and above, as well as a version of Visual Studio that supports extensions, such as Visual Studio Community, Professional, Premium, or Enterprise. To verify that Visual Studio Tools for Unity are enabled in your installation of Unity, select **About Unity** from the **Help** menu and look for the text "Microsoft Visual Studio Tools for Unity enabled" in the bottom-left of the dialog.
-> ![about Unity](media/vs-2017/vstu_about-unity.png)
-:::moniker-end
 
 :::moniker range=">=vs-2019"
 > [!NOTE]
