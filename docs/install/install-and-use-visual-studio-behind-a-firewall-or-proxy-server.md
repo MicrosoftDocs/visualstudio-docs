@@ -1,7 +1,7 @@
 ---
 title: Install and use behind a firewall or proxy server
 description: Review the domain URLs, ports, and protocols that you might want to add to an allow list or open if your organization uses a firewall or a proxy server
-ms.date: 02/01/2020
+ms.date: 05/13/2020
 ms.custom: seodec18
 ms.topic: conceptual
 helpviewer_keywords:
@@ -126,11 +126,11 @@ To make sure that you have access to everything you want when you use Visual Stu
 | Developer Community | sendvsfeedback2.azurewebsites.net/api | https/443 | Used to call Developer Community Feedback Tool APIs (my issues, search, vote, comment, submit, upload, resume) |
 | Intellicode | \*.intellicode.vsengsaas.visualstudio.com | https/443 | Used to call Intellicode APIs |
 | Live Share | \*.liveshare.vsengsaas.visualstudio.com| https/443 | Used to call Live Share APIs |
-| Visual Studio Online | \*.online.visualstudio.com | https/443 | Used to call Visual Studio Online APIs |
+| Visual Studio Codespaces | \*.online.visualstudio.com | https/443 | Used to call Visual Studio Codespaces APIs |
 | JavaScript Automatic Type Acquisition | registry.npmjs.org | https/443 | Used to install TypeScript type definitions to provide Intellisense for popular JavaScript libraries |
 | Visual Studio Subscriptions Licensing Service | app.vssps.visualstudio.com/apis/<br/>Licensing/ClientRights | https/443 | Licensing for online activation |
 | Debugger | 1. <br>vsdebugger.blob.core.windows.net <br>vsdebugger.azureedge.net <br><br>2. <br>download.visualstudio.com/\*/<br/>onecore.msvsmon.\*.zip<br><br> 3. referencesource.microsoft.com/symbols <br><br> 4. <br>symbols.nuget.org/download/symbols<br><br> 5. visualstudio.com<br><br>6. msdl.microsoft.com/download/symbols | https/443 | 1. <br>Used for downloading debugger bits for .NET Core debugging on Unix / macOS over SSH <br><br>2. <br>Used for downloading debugger bits for remote Windows Docker container debugging<br><br> 3. Used for .NET framework source stepping <br><br> 4. <br>(If user opts-in) Used for downloading symbols published to nuget.org symbol server.<br><br> 5. (If user opts-in) Used for downloading MS symbols and binaries, might also be needed for debugging managed code in dumps |
-| Visual Studio Online| \*.online.visualstudio.com | https/443 | Used to call Visual Studio Online APIs |
+| Visual Studio Codespaces| \*.online.visualstudio.com | https/443 | Used to call Visual Studio Codespaces APIs |
 | Xamarin Android App Publishing | \*.googleapis.com <br/> play.google.com <br/>accounts.google.com | https/443 | Used to interact with Google Play Store service to publish/upload Xamarin Android Applications directly from Visual Studio. |
 | Azure Container Registry | *.azurecr.io | https/443 | Access container registries hosted on Azure, for configuration of CICD pipelines |
 | | | | |

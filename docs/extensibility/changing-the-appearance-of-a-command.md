@@ -45,8 +45,9 @@ To change the appearance of a command, perform one of these actions:
 4. In the *ChangeMenuText.cs* file, replace the code in the ShowMessageBox method with the following:
 
     ```csharp
-    private void ShowMessageBox(object sender, EventArgs e)
+    private void Execute(object sender, EventArgs e)
     {
+        ThreadHelper.ThrowIfNotOnUIThread();
         var command = sender as OleMenuCommand;
         if (command.Text == "New Text")
             ChangeMyCommand(command.CommandID.ID, false);
@@ -59,8 +60,7 @@ To change the appearance of a command, perform one of these actions:
     public bool ChangeMyCommand(int cmdID, bool enableCmd)
     {
         bool cmdUpdated = false;
-        var mcs = this.ServiceProvider.GetService(typeof(IMenuCommandService))
-            as OleMenuCommandService;
+        var mcs = this.package.GetService<IMenuCommandService, OleMenuCommandService>();
         var newCmdID = new CommandID(new Guid(ChangeMenuTextPackageGuids.guidChangeMenuTextPackageCmdSet), cmdID);
         MenuCommand mc = mcs.FindCommand(newCmdID);
         if (mc != null)
