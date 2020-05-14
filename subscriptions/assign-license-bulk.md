@@ -32,6 +32,9 @@ To add large groups of users, you can use the bulk add feature, or if your organ
 
 3. In the Excel spreadsheet, fill out the fields with the information for the individuals that you want to assign subscriptions to. (*Reference* is an optional field.) Save the file locally after you're done.
 
+    > [!NOTE]
+    > One of the fields in the template allows admins to enable or disable subscribers' ability to download software.  Disabling downloads also disables their access to product keys.
+
    To help ensure a smooth upload, observe the following best practices:
 
     - Ensure that none of the form fields contain commas.
