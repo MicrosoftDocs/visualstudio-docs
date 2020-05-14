@@ -12,7 +12,10 @@ ms.assetid: D2717D3A-9225-40A8-8155-7D0143B2CA60
 
 This guide offers an introduction to creating your first Blazor web app. For more in-depth guidance, see [Introduction to ASP.NET Core Blazor](/aspnet/core/blazor/index).
 
-Visual Studio for Mac (starting with version 8.4) includes support for developing and publishing ASP.NET Core Blazor Server applications. Blazor is a framework for building interactive client-side web UI with .NET, which offers the following advantages to web developers:
+ASP.NET Core Blazor supports two different hosting options; Blazor Server and Blazor WebAssembly. Visual Studio for Mac supports both hosting models. Visual Studio for Mac 8.4+ supports Blazor Server and Visual Studio for Mac 8.6+ supports both. For more info on Blazor hosting models see [ASP.NET Core Blazor hosting models
+](https://docs.microsoft.com/en-us/aspnet/core/blazor/hosting-models?view=aspnetcore-3.1). Support for debugging Blazor WebAssembly projects in Visual Studio for Mac will come in a release after 8.6.
+
+What is Blazor? Blazor is a framework for building interactive client-side web UI with .NET, which offers the following advantages to web developers:
 
 * Write code in C# instead of JavaScript.
 * Leverage the existing .NET ecosystem of .NET libraries.
@@ -21,7 +24,7 @@ Visual Studio for Mac (starting with version 8.4) includes support for developin
 * Stay productive with Visual Studio on PC, Linux, and macOS.
 * Build on a common set of languages, frameworks, and tools that are stable, feature-rich, and easy to use.
 
-## Creating a new Blazor project
+## Creating a new Blazor Server project
 
 1. On the **Start Window**, select **New** to create a new project:
 
@@ -44,9 +47,9 @@ Visual Studio for Mac (starting with version 8.4) includes support for developin
 
 ## Blazor support in Visual Studio for Mac
 
-Visual Studio for Mac (starting with version 8.4) includes new features to help you create new Blazor server projects. As well, it provides you the standard support you would expect such as building, running and debugging Blazor projects. 
+Visual Studio for Mac (starting with version 8.4) includes new features to help you create new Blazor server projects. As well, it provides you the standard support you would expect such as building, running and debugging Blazor projects. In Visual Studio for Mac 8.6 support for creating, building and running Blazor WebAssembly projects was added.
 
-In the walkthrough above, we saw how the Blazor Server App project template helps you create a new Blazor Server App project. Let's take a look at some of the additional features in Visual Studio for Mac to support Blazor server project development.
+In the walkthrough above, we saw how the Blazor Server App project template helps you create a new Blazor Server App project. Let's take a look at some of the additional features in Visual Studio for Mac to support Blazor project development.
 
 ### Editor support for *.razor* files
 Visual Studio for Mac includes support for editing .razor files - majority of the files that you’ll be using when creating Blazor applications. The Windows and Mac version of the IDE share the same editor for .razor files. You’ll see full colorization and completion support for your .razor files including completions for Razor components declared in the project.
