@@ -114,11 +114,10 @@ Download and install Visual Studio Tools for Unity from the Visual Studio Market
 
    [Download Visual Studio 2015 Tools for Unity](https://marketplace.visualstudio.com/items?itemName=SebastienLebreton.VisualStudio2015ToolsforUnity)
 
-:::moniker range=">=vs-2019"
 > [!NOTE]
 > Visual Studio Tools for Unity requires Unity 5.2 and above, as well as a version of Visual Studio that supports extensions, such as Visual Studio Community, Professional, Premium, or Enterprise. To verify that Visual Studio Tools for Unity are enabled in your installation of Unity, select **About Unity** from the **Help** menu and look for the text "Microsoft Visual Studio Tools for Unity enabled" in the bottom-left of the dialog.
 > ![about Unity](media/vs-2019/vstu_about-unity.png)
-:::moniker-end
+
 
 ## Next steps
 
