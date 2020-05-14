@@ -4,7 +4,7 @@ ms.date: "5/5/2020"
 ms.topic: "conceptual"
 helpviewer_keywords:
   - "database, profiling"
-author: "Esteban Herrera"
+author: "esteban-herrera"
 ms.author: "esherrer"
 manager: AndSter
 ms.workload:
