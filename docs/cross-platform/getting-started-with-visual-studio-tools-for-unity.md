@@ -26,17 +26,17 @@ During installation, ensure that Visual Studio is checked in the list of compone
 #### Unity Hub
 
 :::moniker range="vs-2017"
-![unity hub installation](media/vs-2017/vstu_unity-hub.png)
+![unity hub installation](media/vs-2017/vstu-unity-hub.png)
 :::moniker-end
 :::moniker range=">=vs-2019"
-![unity hub installation](media/vs-2019/vstu_unity-hub.png)
+![unity hub installation](media/vs-2019/vstu-unity-hub.png)
 :::moniker-end
 
 :::moniker range="vs-2017"
 
 #### Unity Download Assistant
 
-![unity download assistant installation](media/vs-2017/vstu_download-assistant.png)
+![unity download assistant installation](media/vs-2017/vstu-download-assistant.png)
 
 The version of Visual Studio included with your Unity installation may not be the latest. If you are asked to install Visual Studio 2017, then we recommend manually installing a newer version of Visual Studio.
 :::moniker-end
@@ -52,10 +52,10 @@ If you already have Visual Studio installed, or prefer to manually install, run 
 1. On the **Workloads** tab, scroll to the **Mobile & Gaming** section and select the **Game development with Unity** workload.
 
    :::moniker range="vs-2017"
-   ![Unity workload](media/vs-2017/vstu_unity-workload.png)
+   ![Unity workload](media/vs-2017/vstu-unity-workload.png)
    :::moniker-end
    :::moniker range=">=vs-2019"
-   ![Unity workload](media/vs-2019/vstu_unity-workload.png)
+   ![Unity workload](media/vs-2019/vstu-unity-workload.png)
    :::moniker-end
 
 1. Click **Modify** (if already installed) or **Install** (for new installations) in the bottom-right corner of the installer window.
@@ -75,10 +75,10 @@ Starting with Unity 2018.1, Visual Studio should be the default external script 
 1. Select **Preferences** from the **Edit** menu.
 
    :::moniker range="vs-2017"
-   ![Select Preferences](media/vs-2017/vstu_unity-preferences.png)
+   ![Select Preferences](media/vs-2017/vstu-unity-preferences.png)
    :::moniker-end
    :::moniker range=">=vs-2019"
-   ![Select Preferences](media/vs-2019/vstu_unity-preferences.png)
+   ![Select Preferences](media/vs-2019/vstu-unity-preferences.png)
    :::moniker-end
 
 2. In the Preferences dialog, select the **External Tools** tab.
@@ -86,20 +86,20 @@ Starting with Unity 2018.1, Visual Studio should be the default external script 
 3. From the **External Script Editor** dropdown list, choose your desired version of Visual Studio if it is listed, otherwise select **Browse...**.
 
    :::moniker range="vs-2017"
-   ![Select Visual Studio](media/vs-2017/vstu_unity-external-tools.png)
+   ![Select Visual Studio](media/vs-2017/vstu-unity-external-tools.png)
    :::moniker-end
    :::moniker range=">=vs-2019"
-   ![Select Visual Studio](media/vs-2019/vstu_unity-external-tools.png)
+   ![Select Visual Studio](media/vs-2019/vstu-unity-external-tools.png)
    :::moniker-end
 
 
 4. If **Browse...** was selected, navigate to the **Common7/IDE** directory inside your Visual Studio installation directory and select **devenv.exe**. Then click **Open**.
 
    :::moniker range="vs-2017"
-   ![Select Open](media/vs-2017/vstu_browse-for-application.png)
+   ![Select Open](media/vs-2017/vstu-browse-for-application.png)
    :::moniker-end
    :::moniker range=">=vs-2019"
-   ![Select Open](media/vs-2019/vstu_browse-for-application.png)
+   ![Select Open](media/vs-2019/vstu-browse-for-application.png)
    :::moniker-end
 
 5. Once Visual Studio is selected in the **External Script Editor** list, confirm that the **Editor Attaching** checkbox is selected.
@@ -116,7 +116,7 @@ Download and install Visual Studio Tools for Unity from the Visual Studio Market
 
 > [!NOTE]
 > Visual Studio Tools for Unity requires Unity 5.2 and above, as well as a version of Visual Studio that supports extensions, such as Visual Studio Community, Professional, Premium, or Enterprise. To verify that Visual Studio Tools for Unity are enabled in your installation of Unity, select **About Unity** from the **Help** menu and look for the text "Microsoft Visual Studio Tools for Unity enabled" in the bottom-left of the dialog.
-> ![about Unity](media/vs-2019/vstu_about-unity.png)
+> ![about Unity](media/vs-2019/vstu-about-unity.png)
 
 
 ## Next steps
