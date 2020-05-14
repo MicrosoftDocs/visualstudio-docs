@@ -16,7 +16,7 @@ The Database Tool allows you to record the database queries that your applicatio
 
 >[!NOTE]
 > The database tool requires Visual Studio 2019 version <= 16.3
-and a .NET Core project on Windows using either [ADO.NET]( https://docs.microsoft.com/en-us/dotnet/framework/data/adonet/ado-net-overview) or [Entity Framework Core](https://docs.microsoft.com/en-us/ef/core/).
+and a .NET Core project on Windows using either [ADO.NET]( https://docs.microsoft.com/dotnet/framework/data/adonet/ado-net-overview) or [Entity Framework Core](https://docs.microsoft.com/en-us/ef/core/).
 
 ## Setup
 
@@ -41,4 +41,4 @@ The queries will be organized chronologically, but can be sorted by any of the c
 
 ![Allocation](./media/db_gotosource.png "Allocation")
 
-Selecting a time range on graph will also filter the query table to only queries that occcured during that time range. This can be especially useful when running this alongside the [CPU Usage tool](https://docs.microsoft.com/en-us/visualstudio/profiling/cpu-usage?view=vs-2019).
+Selecting a time range on graph will also filter the query table to only queries that occcured during that time range. This can be especially useful when running this alongside the [CPU Usage tool](https://docs.microsoft.com/visualstudio/profiling/cpu-usage?view=vs-2019).
