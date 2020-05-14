@@ -16,7 +16,7 @@ The Database Tool allows you to record the database queries that your applicatio
 
 >[!NOTE]
 > The database tool requires Visual Studio 2019 version <= 16.3
-and a .NET Core project on Windows using either [ADO.NET]( https://docs.microsoft.com/dotnet/framework/data/adonet/ado-net-overview) or [Entity Framework Core](https://docs.microsoft.com/en-us/ef/core/).
+and a .NET Core project on Windows using either [ADO.NET]( https://docs.microsoft.com/dotnet/framework/data/adonet/ado-net-overview) or [Entity Framework Core](https://docs.microsoft.com/ef/core/).
 
 ## Setup
 
