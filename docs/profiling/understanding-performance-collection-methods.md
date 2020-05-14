@@ -9,14 +9,14 @@ helpviewer_keywords:
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jillfra
-monikerRange: 'vs-2019'
+monikerRange: '>= vs-2017'
 ms.workload:
   - "multiple"
 ---
 
-::: moniker range="vs-2019"
-
 # Understand performance collection methods
+
+::: moniker range="vs-2019"
 
 ## Sampling
 
@@ -24,12 +24,10 @@ Sampling profiling methods collect statistical data about the work that is perfo
 
 ## Instrumentation
 
-Instrumentation profiling collects detailed information about the work that is performed by an application during a profiling run. This is done by tools either injecting code into a binary file that captures timing information or using callback hooks to collect and emit exact timing and call count information as an application runs. The instrumentation method has a high overhead when compared to sampling based approaches. Tools in the Performance Profiler that use this include the [Instrumentation](../profiling/instrumentation.md) tool and the [NET Object Allocation](../profiling/dotnet-alloc-tool.md) Tool.
+Instrumentation profiling collects detailed information about the work that is performed by an application during a profiling run. This is done by tools either injecting code into a binary file that captures timing information or using callback hooks to collect and emit exact timing and call count information as an application runs. The instrumentation method has a high overhead when compared to sampling based approaches. Tools in the Performance Profiler that use this include the [NET Object Allocation](../profiling/dotnet-alloc-tool.md) Tool.
 ::: moniker-end
 
 ::: moniker range="vs-2017"
-
-# Understand performance collection methods
 
 The Visual Studio Profiling Tools provide five methods that you can use to collect performance data. This topic describes the different methods and suggests some scenarios in which collecting data with a particular method can be appropriate.
 
