@@ -216,9 +216,9 @@ To manage your ptvsd installation:
 
 ## Troubleshooting
 
+### For Visual Studio 2019 (Version 16.4 and earlier) upgrade ptvsd
 If you have issues with the debugger, first upgrade your version of the debugger as follows:
 
-### For Visual Studio 2019 (Version 16.4 and earlier)
 1. Navigate to the **Packages** tab in the **Python Environments** window.
 
 1. Enter `ptvsd --upgrade` in the search box, then select **Run command: pip install ptvsd --upgrade**. (You can also use the same command from PowerShell.)
@@ -227,13 +227,8 @@ If you have issues with the debugger, first upgrade your version of the debugger
 
    If issues persist, please file an issue on the [PTVS GitHub repository](https://github.com/Microsoft/ptvs/issues).
 
-### For Visual Studio 2019 (Version 16.5 and later)
-
-1. Navigate to the **Packages** tab in the **Python Environments** window.
-
-1. Enter `debugpy --upgrade` in the search box, then select **Run command: pip install debugpy --upgrade**. (You can also use the same command from PowerShell.)
-
-   If issues persist, please file an issue on the [debugpy GitHub repository](https://github.com/Microsoft/debugpy/issues).
+   > [!NOTE]
+   > For Visual Studio 2019 version 16.5 and later, debugpy is part of the Visual Studio Python workload and is updated along with Visual Studio.
 
 ### Enable debugger logging
 

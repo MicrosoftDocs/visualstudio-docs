@@ -70,7 +70,7 @@ For details on creating a firewall rule for an Azure VM, see [Open ports to a VM
 
    ```python
    import debugpy
-   ptvsd.listen()
+   debugpy.listen(5678)
    ```
 
 1. Save the file and run `python3 guessing-game.py`. The call to `listen` runs in the background and waits for incoming connections as you otherwise interact with the program. If desired, the `wait_for_client` function can be called after `listen` to block the program until the debugger attaches.
@@ -112,7 +112,7 @@ In these steps, we set a simple breakpoint to stop the remote process.
 1. Check that the secret in the **Connection Target** exactly matches the secret in the remote code.
 1. Check that the IP address in the **Connection Target** matches that of the remote computer.
 1. Check that you've opened the remote debugging port on the remote computer, and that you've included the port suffix in the connection target, such as `:5678`.
-    - If you need to use a different port, you can specify it in the `listen`, as in `debugpy.listen(host, port)`. In this case, open that specific port in the firewall.
+    - If you need to use a different port, you can specify it in the `listen`, as in `debugpy.listen((host, port))`. In this case, open that specific port in the firewall.
 1. Check that the version of debugpy installed on the remote computer as returned by `pip3 list` matches that used by the version of the Python tools you're using in Visual Studio in the table below. If necessary, update debugpy on the remote computer.
 
     | Visual Studio version | Python tools/debugpy version |
