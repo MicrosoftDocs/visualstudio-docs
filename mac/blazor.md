@@ -13,7 +13,7 @@ ms.assetid: D2717D3A-9225-40A8-8155-7D0143B2CA60
 This guide offers an introduction to creating your first Blazor web app. For more in-depth guidance, see [Introduction to ASP.NET Core Blazor](/aspnet/core/blazor/index).
 
 ASP.NET Core Blazor supports two different hosting options; Blazor Server and Blazor WebAssembly. Visual Studio for Mac supports both hosting models. Visual Studio for Mac 8.4+ supports Blazor Server and Visual Studio for Mac 8.6+ supports both. For more info on Blazor hosting models see [ASP.NET Core Blazor hosting models
-](https://docs.microsoft.com/en-us/aspnet/core/blazor/hosting-models?view=aspnetcore-3.1). Support for debugging Blazor WebAssembly projects in Visual Studio for Mac will come in a release after 8.6.
+](https://docs.microsoft.com/aspnet/core/blazor/hosting-models?view=aspnetcore-3.1). Support for debugging Blazor WebAssembly projects in Visual Studio for Mac will come in a release after 8.6.
 
 What is Blazor? Blazor is a framework for building interactive client-side web UI with .NET, which offers the following advantages to web developers:
 
