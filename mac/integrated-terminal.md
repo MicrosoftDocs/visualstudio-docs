@@ -7,7 +7,7 @@ ms.date: 05/14/2020
 ms.assetid: EFD53CE9-8174-4FE4-8863-2984D22FD921
 ---
 # Integrated Terminal
-In Visual Studio for Mac you can open an integrated terminal window, initially starting at the root of your solution. This can be useful for a variety of situations – running front-end tasks (e.g. npm, ng, or vue), managing containers, running advanced git commands, scaffolding, automating builds, executing Entity Framework commands, viewing dotnet CLI output, adding NuGet packages, and more. 
+In Visual Studio for Mac you can open an integrated terminal window, initially starting at the root of your solution. The terminal can be useful for different kinds of situations – running front-end tasks (for example: npm, ng, or vue), managing containers, running advanced git commands, executing Entity Framework commands, viewing dotnet CLI output, adding NuGet packages, and more. 
 
 To open the terminal:
 - Use the **Ctrl + `** keyboard shortcut to show or hide the terminal window.
@@ -37,7 +37,7 @@ You can search the content of the terminal window by using the **Search > Find..
 |Decrease font size|**⌘-**|
 
 ## Multiple instances
-Multiple instances of the terminal may be running at any time. You can create a new instance by using the **Ctrl+'** keyboard shortcut. You can switch between instances by either clicking on the tab for each instance, or using the **Ctrl+tab** shortcut to bring up the window picker dialog.
+Multiple instances of the terminal may be running at any time. You can create a new instance by using the **Ctrl+'** keyboard shortcut. You can switch between instances by clicking on the tab for each instance, or using the **Ctrl+tab** shortcut to use the window picker dialog.
 
 ![*Multiple terminal instances in Visual Studio for Mac*](media/integrated-terminal-multiple-instances.png) 
 
@@ -47,5 +47,5 @@ You can change the font and size used for Terminal Contents in the Preferences >
 
 ![*Customizing the font settings for the integrated terminal*](media/integrated-terminal-change-font.png)
 
-### Re-using system terminal customizations
+### Reusing system terminal customizations
 The integrated terminal uses the same defaults and configuration as your macOS system terminal. That means that your terminal customizations (zsh, oh-my-zsh, etc.) also work in the integrated terminal.
