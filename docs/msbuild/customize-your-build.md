@@ -33,7 +33,7 @@ However, now you can add a new property to every project in one step by defining
 
 ### Directory.Build.props example
 
-For example, if you wanted to enable all of your projects to access the new Roslyn **/deterministic** feature (which is exposed in the Roslyn `CoreCompile` target by the property `$(Deterministic)`), you could do the following.
+For example, if you wanted to set the assembly version for all your projects (in a .NET Core build), you could do the following.
 
 1. Create a new file in the root of your repo called *Directory.Build.props*.
 2. Add the following XML to the file.
@@ -41,12 +41,16 @@ For example, if you wanted to enable all of your projects to access the new Rosl
    ```xml
    <Project>
     <PropertyGroup>
-      <Deterministic>true</Deterministic>
+      <Version>1.2.3.4</Version>
     </PropertyGroup>
    </Project>
    ```
 
+  The `$(Version)` property is specific to .NET Core, so this won't work in .NET Framework projects.
+
 3. Run MSBuild. Your project’s existing imports of *Microsoft.Common.props* and *Microsoft.Common.targets* find the file and import it.
+
+4. Use `ILDasm.exe` at the Developer command prompt to inspect your assemblies and verify the version number.
 
 ### Search scope
 
@@ -67,7 +71,9 @@ The location of the solution file is irrelevant to *Directory.Build.props*.
 
 *Directory.Build.props* is imported very early in *Microsoft.Common.props*, and properties defined later are unavailable to it. So, avoid referring to properties that are not yet defined (and will evaluate to empty).
 
-*Directory.Build.targets* is imported from *Microsoft.Common.targets* after importing *.targets* files from NuGet packages. So, it can override properties and targets defined in most of the build logic, but sometimes you may need to customize the project file after the final import.
+Property value that are set in *Directory.Build.props* can be overriden elsewhere in the project file or in imported files, so you should think of the settings in *Directory.Build.props* as specifying the defaults for your projects.
+
+*Directory.Build.targets* is imported from *Microsoft.Common.targets* after importing *.targets* files from NuGet packages. So, it can override properties and targets defined in most of the build logic, or set properties for all your projects regardless of what the individual projects set. When you need to override any prior configuration in an individual project, you can set a property value or redefine a target in the project file after the final import. In order to do this in an SDK-style project, you first have to replace the SDK-style attribute with the equivalent imports. See [How to use MSBuild project SDKs](how-to-use-project-sdk.md).
 
 ### Use case: multi-level merging
 
