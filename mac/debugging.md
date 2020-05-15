@@ -85,7 +85,7 @@ Here are the four buttons:
 
 While the debugger is paused, an arrow in the margin shows which line of code will be executed next. You can click and drag the arrow to a different line of code to change which statement will be executed. You can achieve the same thing by also right-clicking on a line of code and selecting **Set Next Statement** from the context menu.
 
-![Drag and drop arrow to set next statement](media/debugging-drag-setnextstatement.gif)
+![Drag and drop arrow to set next statement](media/debugger-drag-setnextstatement.gif)
 
 > [!CAUTION]
 > Changing the current line of execution can cause unexpected behavior in an application. There are also some conditions where changing the next statement to execute is not possible. For example, dragging the arrow from one method to another method will not work. In these unsupported cases, Visual Studio for Mac will display a dialog to let you know it was not possible to change the current line of execution. 
