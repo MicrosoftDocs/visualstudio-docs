@@ -16,7 +16,7 @@ ms.workload:
 The .NET Async Tool allows you to analyze the performance of asynchronous code in your application.
 
 >[!NOTE]
-> The .NET Async tool requires Visual Studio 2019 version <= 16.7 and a .NET project using async/await.
+> The .NET Async tool requires Visual Studio 2019 version >= 16.7 and a .NET project using async/await.
 
 ## Setup
 
