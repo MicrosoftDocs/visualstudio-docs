@@ -52,7 +52,8 @@ For more information on how to make the tool more performant, see [Optimizing Pr
 ## Understand Your Data
 
 ![Graph Dotnet Alloc](../profiling/media/graphdotnetalloc.png "Graph Dotnet Alloc")
-The graphical view shows the live number of your objects in your application in the top graph as well as the percentage change of objects in your application in the bottom graph. The red bars in the Object delta graph help you denote where Garbage collection took place.
+The graphical view shows the live number of objects in your application in the top graph as well as the percentage change of objects in your application in the bottom graph. The red bars in the **Object delta** graph help you denote where garbage collection took place.
+
 
 ![Graph Dotnet Alloc Time Filtered](../profiling/media/graphdotnetalloctimefiltered.png "Graph Dotnet Alloc Time Filtered")
 You can also select a time range on the graph to filter the tabular data to display the activity for only that specified time range. Furthermore, you can zoom in or out of the graph.
