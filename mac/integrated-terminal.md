@@ -17,8 +17,8 @@ To open the terminal:
 ![*The Visual Studio for Mac integrated terminal immediately after being launched.*](media/integrated-terminal-intro.png)
 
 By default, when the terminal is launched it will:
-- Set the working directory to the path of the current solution
-- Load the default system shell
+- Set the working directory to the path of the current solution.
+- Load the default system shell.
 
 ## Search
 You can search the content of the terminal window by using the **Search > Find...** menu.
