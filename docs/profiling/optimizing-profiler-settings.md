@@ -25,7 +25,7 @@ Progress on symbol loading can be seen in the **Output** window under the **Diag
 
 ![Symbol loading progress](../profiling/media/symbolloadingprogress.png "Symbol Loading Progress")
 
-Once downloaded symbols will be cached which will speed up future analysis but still requires loading and analyzing the files. If symbol loading is slowing down analysis try and turn off symbol servers and clear your symbol cache. Instead rely on symbols built locally for your project.
+Once downloaded, symbols are cached, which will speed up future analysis but still requires loading and analyzing the files. If symbol loading is slowing down analysis, try turning off symbol servers and clear your symbol cache. Instead, rely on symbols built locally for your project.
 
 ## Show External Code
 
