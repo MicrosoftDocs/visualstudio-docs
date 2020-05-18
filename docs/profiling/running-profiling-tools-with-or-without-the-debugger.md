@@ -83,50 +83,50 @@ You can save the reports, and open them from the **Recently Opened Sessions** li
 
 ## Collecting profiling data with the command line
 
-To measure performance data from the command line, you can use VSDiagnostics.exe which is included with either Visual Studio or the Remote Tools. This is useful for capturing performance traces on systems where Visual Studio is not installed or for scripting the collection of performance traces. When you use VSDiagnostics.exe, you begin a diagnostic session that captures and stores profiling data until the tool is stopped, at which point that data is exported into a .diagsession file. Then you can open this file in Visual Studio to analyze results.
+To measure performance data from the command line you can use VSDiagnostics.exe which is included with either Visual Studio or the Remote Tools. This is useful for capturing performance traces on systems where Visual Studio is not installed or for scripting the collection of performance traces. When you use VSDiagnostics.exe, you begin a diagnostic session that captures and stores profiling data until the tool is stopped, at which point that data is exported into a .diagsession file. Then you can open this file in Visual Studio to analyze results.
 
 ### Launching an application
 
 1. Open a command prompt and change to the directory with VSDiagnostics.exe
 
 ```
-<Visual Studio Install Folder>\Team Tools\DiagnosticsHub\Collector\
+**Visual Studio Install Folder**\Team Tools\DiagnosticsHub\Collector\
 ```
 
 2. Start VSDiagnostics.exe with the following command:
 
 ```
-VSDiagnostics.exe start <id> /launch:<appToLaunch> /loadConfig:<configFile>
+VSDiagnostics.exe start **id** /launch:**appToLaunch** /loadConfig:**configFile**
 ```
 
 The arguments that must be included are:
 
-- <id> Identifies the collection session. The ID must be a number between 1-255
-- <appToLaunch> The executable to launch and profile
-- <configFile> Configuration file for the collection agent you wish to launch. For more information see Configuration files for agents.
+- **id** - Identifies the collection session. The ID must be a number between 1-255
+- **appToLaunch** - The executable to launch and profile
+- **configFile** - Configuration file for the collection agent you wish to launch. For more information see Configuration files for agents.
 
 3. To stop collection and view your results follow the steps under Stopping Collection.
 
 ### Attaching to an existing application
 
-1. Start Notepad, and then open Task Manager to get its process ID (PID). In Task Manager, find the PID in the Details tab.
+1. Open an application, such as Notepad, and then open Task Manager to get its process ID (PID). In Task Manager, find the PID in the Details tab.
 2. Open a command prompt and change to the directory with the collection agent executable, typically here.
 
 ```
-<Visual Studio installation folder>\2019\Preview\Team Tools\DiagnosticsHub\Collector\
+**Visual Studio installation folder**\2019\Preview\Team Tools\DiagnosticsHub\Collector\
 ```
 
 3. Start VSDiagnostics.exe by typing the following command.
 
 ```
-VSDiagnostics.exe start <id> /attach:<pid> /loadConfig:<configFile>
+VSDiagnostics.exe start **id** /attach:**pid** /loadConfig:**configFile**
 ```
 
 The arguments that must be included are:
 
-- <id> Identifies the collection session. The ID must be a number between 1-255.
-- <pid> PID of the process you wish to profile, in this case the PID you found in step 1.
-- <configFile> configuration file for the collection agent you wish to launch. For more information, see [Configuration files for agents](../profiling/profile-apps-from-command-line.md).
+- **id** - Identifies the collection session. The ID must be a number between 1-255.
+- **pid** - PID of the process you wish to profile, in this case the PID you found in step 1.
+- **configFile** - configuration file for the collection agent you wish to launch. For more information, see [Configuration files for agents](../profiling/profile-apps-from-command-line.md).
 
 4. To stop collection and view your results follow the steps under Stopping Collection.
 
