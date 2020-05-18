@@ -82,7 +82,8 @@ The following icons are in the Allocation, Call Tree, and Functions Tab:
 
 The **Call Tree** view allows you to see the function execution paths that contain objects allocating a lot of memory.
 - The **Function Name** column shows the process or name of the function containing objects allocating memory based on the level of the node you are inspecting.
-- The **Total (Allocations)** and **Total Size (Bytes)** columns show the total amount of objects allocated and memory taken up respectively of a given function and any other functions it calls.
+- The **Total (Allocations)** and **Total Size (Bytes)** columns show the total number of objects allocated and the total amount of memory taken up by a given function and any other functions it calls.
+
 - The **Self (Allocations)** and **Self Size (Bytes)** columns show the total amount of objects allocated and memory taken up respectively for the single selected function or allocation type.
 - The **Average Size (Bytes)** column shows the same information as it did in the **Allocations View**.
 - The **Module name** column shows the module that contains the function or process that is calling.
