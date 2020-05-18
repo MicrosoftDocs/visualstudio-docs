@@ -80,7 +80,8 @@ The following icons are in the Allocation, Call Tree, and Functions Tab:
 
 - ![Reference Type Icon](../profiling/media/referencetypeicon.png "Reference Type Icon") - Reference Type (for example, string)
 
-- ![Reference Type Collection Icon](../profiling/media/referencetypecollectionicon.png "Reference Type Collection Icon") - Reference Type Collection (ex: array of strings)
+- ![Reference Type Collection Icon](../profiling/media/referencetypecollectionicon.png "Reference Type Collection Icon") - Reference Type Collection (for example, array of strings)
+
 
 ### Call Tree
 
