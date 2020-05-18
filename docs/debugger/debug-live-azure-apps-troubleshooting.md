@@ -32,7 +32,7 @@ Take these steps:
 * Make sure that your Visual Studio personalization account has permissions to the Azure subscription and resource that you are attaching to. A quick way to determine this is to check whether the resource is available in the dialog box from **Debug** > **Attach Snapshot Debugger...** > **Azure Resource** > **Select Existing**, or in  Cloud Explorer.
 * If this error continues to persist, use one of the feedback channels described in the beginning of this article.
 
-If you have enabled Authentication/Authorization (EasyAuth) on your App Service, you may encounter a 401 error with LaunchAgentAsync in the call stack erro message. Please ensure **Action to take when request is not authenticated** is set to **Allow Anonymous requests (no action)** in the Azure portal and provide an authorization.json in D:\Home\sites\wwwroot with the following content instead. 
+If you have enabled Authentication/Authorization (EasyAuth) on your App Service, you may encounter a 401 error with LaunchAgentAsync in the call stack error message. Please ensure **Action to take when request is not authenticated** is set to **Allow Anonymous requests (no action)** in the Azure portal and provide an authorization.json in D:\Home\sites\wwwroot with the following content instead. 
 
 ```
 {
