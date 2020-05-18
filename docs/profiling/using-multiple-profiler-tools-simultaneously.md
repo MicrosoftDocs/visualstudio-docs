@@ -1,5 +1,5 @@
 ---
-title: "Using multiple profiler tools simulataneously | Microsoft Docs"
+title: "Using multiple profiler tools simultaneously | Microsoft Docs"
 ms.date: "4/29/2020"
 ms.topic: "conceptual"
 helpviewer_keywords:
@@ -11,7 +11,7 @@ ms.workload:
   - "multiple"
 ---
 
-# Using multiple profiler tools simulataneously
+# Using multiple profiler tools simultaneously
 
 The Performance Profiler was designed with the idea that multiple tools can be used in the same session to aid in understanding performance issues. Most tools in the Performance Profiler support running concurrently such as the [CPU Usage](../profiling/cpu-usage.md), [.NET Async Tool](../profiling/analyze-async.md), and [Database](../profiling/analyze-database.md) tool. To run tools simultaneously in the same diagnostic session simply click the check box next to them and then start the diagnostic session.
 
