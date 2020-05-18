@@ -24,7 +24,7 @@ Sampling profiling methods collect statistical data about the work that is perfo
 
 ## Instrumentation
 
-Instrumentation profiling collects detailed information about the work that is performed by an application during a profiling run. This is done by tools either injecting code into a binary file that captures timing information or using callback hooks to collect and emit exact timing and call count information as an application runs. The instrumentation method has a high overhead when compared to sampling based approaches. Tools in the Performance Profiler that use this include the [NET Object Allocation](../profiling/dotnet-alloc-tool.md) Tool.
+Instrumentation profiling collects detailed information about the work that is performed by an application during a profiling run. This is done by tools either injecting code into a binary file that captures timing information or using callback hooks to collect and emit exact timing and call count information as an application runs. The instrumentation method has a high overhead when compared to sampling based approaches. Tools in the Performance Profiler that use this include the [.NET Object Allocation](../profiling/dotnet-alloc-tool.md) Tool.
 ::: moniker-end
 
 ::: moniker range="vs-2017"
