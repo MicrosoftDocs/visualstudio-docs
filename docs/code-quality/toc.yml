@@ -772,7 +772,7 @@
           href: ca5374.md
         - name: "CA5378: Do not disable ServicePointManagerSecurityProtocols"
           href: ca5378.md
-        - name: "CA5379: Do Not Use Weak Key Derivation Function Algorithm"
+        - name: "CA5379: Do not use weak key derivation function algorithm"
           href: ca5379.md
         - name: "CA5380: Do not add certificates to root store"
           href: ca5380.md
