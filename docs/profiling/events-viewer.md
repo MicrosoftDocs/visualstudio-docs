@@ -47,7 +47,7 @@ For more information on how to make the tool more performant, see [Optimizing Pr
 |Process Name|Name of the process if it is actively running.|
 |Thread ID|The ID of the thread from which the event was fired (if known).|
 
-If a few of the columns are missing by default, right click on one of the existing column headers and select the column you would like to add.
+If a few of the columns are missing by default, right-click on one of the existing column headers and select the column you would like to add.
 
 ![Event Viewer Add Columns](../profiling/media/eventvieweraddcolumns.png "Event Viewer Add Columns")
 
