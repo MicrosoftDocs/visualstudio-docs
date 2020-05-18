@@ -21,7 +21,7 @@ The symbols settings found in the debugger options (Debug > Options > Symbols) w
 
 ![Symbol loading page](../profiling/media/symbolloading.png "Symbol Loading")
 
-Progress on symbol loading can be seen in the Output window under the Diagnostic Tools heading.
+Progress on symbol loading can be seen in the **Output** window under the **Diagnostic Tools** heading.
 
 ![Symbol loading progress](../profiling/media/symbolloadingprogress.png "Symbol Loading Progress")
 
