@@ -65,6 +65,6 @@ The event viewer displays up to 20,00 events at a time. To focus on the events o
 
 ![Event Viewer Event Filter](../profiling/media/eventviewereventfilter.png "Event Viewer Event Filter")
 
-You can filter by provider using the Provider Filter. Again showing what percentage of the total number of events were fired by each one. Hovering over a single provider also brings up a similar tooltip with provider name, % of total events, and event count.
+You can filter by provider using the **Provider Filter**, which shows what percentage of the total number of events were fired by each one. Hovering over a single provider also brings up a similar tooltip with provider name, % of total events, and event count.
 
 ![Event Viewer Provider Filter](../profiling/media/eventviewerproviderfilter.png "Event Viewer Provider Filter")
