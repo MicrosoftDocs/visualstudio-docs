@@ -153,7 +153,7 @@ For convenience, you can store that information in an agent configuration file. 
 - DotNetObjectAlloc configurations (Base/Low), which corresponds to data collected for the [NET Object Allocation tool](../profiling/dotnet-alloc-tool.md).
 
 Base/Low/High configurations refer to the sampling rate. For example, Low is 100 samples/second and High is 4000 samples/second.
-For the VSDiagnostics.exe tool to work with a collection agent, it requires both a DLL and a COM CLSID for the appropriate agent, and the agent might have additional configuration options as well. If you use an agent without a configuration file, use the format in the following command.
+For the VSDiagnostics.exe tool to work with a collection agent, it requires both a DLL and a COM CLSID for the appropriate agent, and the agent might have additional configuration options as well. If you use an agent without a configuration file, use the format in the following command:
 
 ```
 VSDiagnostics.exe start <id> /attach:<pid> /loadAgent:<agentCLSID>;<agentName>[;<config>]
