@@ -23,3 +23,10 @@ The Performance Profiler was designed with the idea that multiple tools can be u
 During analysis time filtering operations are applied across tools, thus you can use information in one tool to narrow down a time range and filter data in another tool. This helps guide analysis to specific points in a trace and understand the state of the application.
 
 ![Diag Hub Time Filtering](../profiling/media/diaghubtimefiltering.png "Diag Hub Time Filtering")
+
+## See also
+
+[Optimizing profiler settings](../profiling/optimizing-profiling-settings.md)
+[Running profiling tools with or without the debugger](../profiling/running-profiling-tools-with-or-without-the-debugger.md)
+[Understanding performance collection methods](../profiling/understanding-performance-collection-methods.md)
+
