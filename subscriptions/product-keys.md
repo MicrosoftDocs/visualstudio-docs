@@ -17,6 +17,9 @@ Visual Studio subscriptions typically include five product keys for current vers
 
 Most product keys also allow multiple activations of the product for each key.  Many products also allow you to install and use the product for 30 days or more without activation.  For most subscribers, this provides more than enough activations to meet their needs.  However, if you have exhausted the available activations for a product, you can submit a request for additional keys through Visual Studio [Subscriptions Customer Service](https://visualstudio.microsoft.com/subscriptions/support/).
 
+> [!NOTE]
+> If your subscription is provided to you by your work or school, your subscription administrator controls whether you have access to software downloads.  If access to downloads is disabled for your subscription, access to product keys is also disabled.  If you need downloads and/or product keys, [contact your administrator](contact-my-admin.md).
+
 ## Activating a product
 Activation is required for certain products.  Generally, in Visual Studio subscriptions this is limited to Windows, Windows Server, Microsoft Office client applications, and Expression Studio. When activation is required, many products — including Windows and Office — allow you to install and use the product without activation for 30 days or more. If you re-image your computers frequently (at least once every 30 days), consider NOT activating the product. Product keys supplied as part of your Visual Studio subscription do not allow unlimited activations of a product.
 

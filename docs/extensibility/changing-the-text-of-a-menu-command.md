@@ -53,25 +53,15 @@ The following steps show how to change the text label of a menu command by using
     Here is what it should look like:
 
     ```csharp
-    private ChangeMenuText(Package package)
+    private ChangeMenuText(AsyncPackage package, OleMenuCommandService commandService)
     {
-        if (package == null)
-        {
-            throw new ArgumentNullException(nameof(package));
-        }
-
-        this.package = package;
-
-        OleMenuCommandService commandService = this.ServiceProvider.GetService(typeof(IMenuCommandService)) as OleMenuCommandService;
-        if (commandService != null)
-        {
-            CommandID menuCommandID = new CommandID(MenuGroup, CommandId);
-            EventHandler eventHandler = this.ShowMessageBox;
-            OleMenuCommand menuItem = new OleMenuCommand(ShowMessageBox, menuCommandID);
-            menuItem.BeforeQueryStatus +=
-                new EventHandler(OnBeforeQueryStatus);
-            commandService.AddCommand(menuItem);
-        }
+        this.package = package ?? throw new ArgumentNullException(nameof(package));
+        commandService = commandService ?? throw new ArgumentNullException(nameof(commandService));
+        
+        var menuCommandID = new CommandID(CommandSet, CommandId);
+        var menuItem = new OleMenuCommand(this.Excute, menuCommandID);
+        menuItem.BeforeQueryStatus += new EventHandler(OnBeforeQueryStatus);
+        commandService.AddCommand(menuItem);
     }
     ```
 
