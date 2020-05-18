@@ -146,7 +146,7 @@ Collection Agents are interchangeable components that collect different types of
 For convenience, you can store that information in an agent configuration file. The configuration file is a .json file that contains at minimum the name of the .dll and its COM CLSID. Here are the example configuration files that you can find in the following folder:
 
 ```
-<Visual Studio installation folder>\2019\Preview\Team Tools\DiagnosticsHub\Collector\AgentConfigs\
+<Visual Studio installation folder>\Team Tools\DiagnosticsHub\Collector\AgentConfigs\
 ```
 
 - CpuUsage configurations (Base/High/Low), which corresponds to data collected for the [CPU Usage](../profiling/cpu-usage.md) profiling tool.
