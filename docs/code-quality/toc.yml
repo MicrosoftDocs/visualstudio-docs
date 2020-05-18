@@ -772,9 +772,9 @@
           href: ca5380.md
         - name: "CA5381: Ensure certificates are not added to root store"
           href: ca5381.md
-        - name: "CA5382: Use Secure Cookies In ASP.Net Core"
+        - name: "CA5382: Use secure cookies in ASP.NET Core"
           href: ca5382.md
-        - name: "CA5383: Ensure Use Secure Cookies In ASP.Net Core"
+        - name: "CA5383: Ensure use secure cookies in ASP.NET Core"
           href: ca5383.md
         - name: "CA5386: Avoid hardcoding SecurityProtocolType value"
           href: ca5386.md
