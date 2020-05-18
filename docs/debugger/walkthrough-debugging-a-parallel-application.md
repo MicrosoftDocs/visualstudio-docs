@@ -226,9 +226,9 @@ This walkthrough shows how to use the **Parallel Tasks** and **Parallel Stacks**
 
 2. On the **Debug** menu, point to **Windows** and then click **Threads**. Dock the **Threads** window at the bottom of Visual Studio.
 
-3. On the **Debug** menu, point to **Windows** and click **Call Stack**. Dock the **Call Stack** window at the bottom Visual Studio.
+3. On the **Debug** menu, point to **Windows** and click **Call Stack**. Dock the **Call Stack** window at the bottom of Visual Studio.
 
-4. Double-click a thread in the **Threads** window to makes it current. Current threads have the yellow arrow. When you change the current thread, the other windows are updated. Next, we will examine tasks.
+4. Double-click a thread in the **Threads** window to make it current. Current threads have the yellow arrow. When you change the current thread, the other windows are updated. Next, we will examine tasks.
 
 5. On the **Debug** menu, point to **Windows**, and then click **Tasks**. The following illustration shows the **Tasks** window.
 
