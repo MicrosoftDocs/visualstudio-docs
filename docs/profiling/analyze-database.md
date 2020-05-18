@@ -26,7 +26,7 @@ and a .NET Core project on Windows using either [ADO.NET]( https://docs.microso
 ![Database Tool Selected](./media/db_launch.png "Database Tool Selected")
 >[!NOTE]
 >If the tool is not available to click, uncheck every other tool as some tools need to run by themselves. To learn more about running tools together, see "Running tools from CLI"
-If the tool still isn't available, please check that your project meets the requirements above.
+>If the tool still isn't available, please check that your project meets the requirements above.
 Make sure your Project is in Release mode in order to capture the most accurate data.
 
 3. Click the **Start** button to run the tool.
