@@ -15,7 +15,7 @@ ms.workload:
 The Database Tool allows you to record the database queries that your application makes during a given diagnostic session. You can then analyze information about individual queries in order to find places where your app's performance can be improved.
 
 >[!NOTE]
-> The database tool requires Visual Studio 2019 version <= 16.3
+> The database tool requires Visual Studio 2019 version >= 16.3
 and a .NET Core project on Windows using either [ADO.NET]( https://docs.microsoft.com/dotnet/framework/data/adonet/ado-net-overview) or [Entity Framework Core](https://docs.microsoft.com/ef/core/).
 
 ## Setup
