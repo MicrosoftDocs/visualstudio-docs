@@ -40,9 +40,6 @@ Alternatively, report a problem in **Visual Studio Installer** if you can't inst
 
 1. If you don't find the problem you encountered, choose **Report new problem** at the bottom of the screen.
 
-   > [!NOTE]
-   > The **Report new problem** button only appears in the Visual Studio interface for Developer Community. You can't report a problem directly on the [Developer Community](https://developercommunity.visualstudio.com/) website.
-
 1. Create a descriptive title for the problem that helps us route it to the correct Visual Studio team.
 
 1. Give us any additional details, and if possible, provide us with the steps to reproduce the problem.

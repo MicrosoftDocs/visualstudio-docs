@@ -746,6 +746,8 @@
           href: ca3147.md
         - name: "CA5358: Do Not Use Unsafe Cipher Modes"
           href: ca5358.md
+        - name: "CA5359: Do not disable certificate validation"
+          href: ca5359.md
         - name: "CA5361: Do not disable SChannel use of strong crypto"
           href: ca5361.md
         - name: "CA5363: Do not disable request validation"
@@ -758,6 +760,8 @@
           href: ca5366.md
         - name: "CA5367: Do Not Serialize Types With Pointer Fields"
           href: ca5367.md
+        - name: "CA5368: Set ViewStateUserKey For Classes Derived From Page"
+          href: ca5368.md
         - name: "CA5369: Use XmlReader for Deserialize"
           href: ca5369.md
         - name: "CA5370: Use XmlReader for validating reader"
@@ -772,6 +776,8 @@
           href: ca5374.md
         - name: "CA5378: Do not disable ServicePointManagerSecurityProtocols"
           href: ca5378.md
+        - name: "CA5379: Do not use weak key derivation function algorithm"
+          href: ca5379.md
         - name: "CA5380: Do not add certificates to root store"
           href: ca5380.md
         - name: "CA5381: Ensure certificates are not added to root store"

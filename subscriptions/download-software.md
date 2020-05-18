@@ -12,8 +12,9 @@ description:  Learn how to locate and download Microsoft software titles in Visu
 # Downloading software titles in Visual Studio subscriptions
 Depending on which Visual Studio subscription you have, a wide variety of Microsoft software titles may be available to you.  This article will outline how to locate and download the software you need to get the most out of your subscription. 
 
-> [!NOTE]
-> Only the downloads included with your subscription are displayed for you on the [Downloads](https://my.visualstudio.com/downloads/featured) page.  If you have more than one subscription or program membership, the downloads shown will be for the **highest subscription** you hold, even if you are currently viewing a different subscription.  For example, if you have a Visual Studio Enterprise subscription and a Visual Studio Professional subscription both associated with the same sign-in ID, the downloads shown will be those included in the Enterprise subscription, even if you’re currently viewing your Professional subscription benefits.
+Only the downloads included with your subscription are displayed for you on the [Downloads](https://my.visualstudio.com/downloads/featured) page.  If you have more than one subscription or program membership, the downloads shown will be for the **highest subscription** you hold, even if you are currently viewing a different subscription.  For example, if you have a Visual Studio Enterprise subscription and a Visual Studio Professional subscription both associated with the same sign-in ID, the downloads shown will be those included in the Enterprise subscription, even if you’re currently viewing your Professional subscription benefits.  
+
+If your subscription is provided by your work or school, your subscriptions administrator controls whether you have access to downloads. Disabling access to downloads also disables access to product keys. If you don't have access to downloads and product keys and need them, [contact your administrator](contact-my-admin.md).
 
 > [!NOTE]
 > We are aware of an issue regarding the availability of Office 365 product keys.  We are investigating the cause and will update this article when the issue is resolved. 
