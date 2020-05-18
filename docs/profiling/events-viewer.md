@@ -13,7 +13,7 @@ ms.workload:
 
 # Events Viewer
 
-The generic events viewer allows you to view the activity of your application through a list of events such module load, thread start, and system configurations to help better diagnose how your application is performing right within the Visual Studio profiler.
+The generic events viewer allows you to view the activity of your application through a list of events, such as module load, thread start, and system configurations, to help better diagnose how your application is performing right within the Visual Studio profiler.
 
 
 ## Setup
