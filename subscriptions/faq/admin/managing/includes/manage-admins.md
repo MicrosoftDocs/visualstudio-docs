@@ -12,7 +12,7 @@ ms.date: 3/3/2020
 
 ## How do I manage administrators?
 
-If you are a Super Admin you can add or remove other Super Admins or Administrators. Administrators can only add or remove subscribers and will not see the Manage Administrators tab in the [Admin Portal](manage.visualstudio.com).
+If you are a Super Admin you can add or remove other Super Admins or Administrators. Administrators can only add or remove subscribers and will not see the Manage Administrators tab in the [Admin Portal](https://manage.visualstudio.com).
 
 To manage administrators:
 
