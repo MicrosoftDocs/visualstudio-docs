@@ -33,7 +33,7 @@ Many of the tools within the **Performance Profiler and Diagnostic Tools** windo
 
 ## Trace Duration
 
-Profiling smaller durations will result in less data which is faster to analyze. Typically we recommend that users try and limit their traces to no longer than 5 minutes of performance data. Some tools such as the [CPU Usage](../profiling/cpu-usage.md) tool allow you to pause data collection while it is running so that you can limit the amount of data that is collected to the scenario that you are interested in analyzing.
+Profiling smaller durations results in less data, which is faster to analyze. Typically we recommend that users try to limit their traces to no longer than 5 minutes of performance data. Some tools such as the [CPU Usage](../profiling/cpu-usage.md) tool allow you to pause data collection while it is running, so that you can limit the amount of data that is collected to the scenario that you are interested in analyzing.
 
 ## Sampling Frequency
 
