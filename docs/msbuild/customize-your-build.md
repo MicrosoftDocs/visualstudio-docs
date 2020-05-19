@@ -33,7 +33,7 @@ However, now you can add a new property to every project in one step by defining
 
 ### Directory.Build.props example
 
-For example, if you wanted to set the assembly version for all your projects (in a .NET Core build), you could do the following.
+For example, if you wanted to enable all of your projects to access the new Roslyn **/deterministic** feature (which is exposed in the Roslyn `CoreCompile` target by the property `$(Deterministic)`), you could do the following.
 
 1. Create a new file in the root of your repo called *Directory.Build.props*.
 2. Add the following XML to the file.
@@ -41,16 +41,12 @@ For example, if you wanted to set the assembly version for all your projects (in
    ```xml
    <Project>
     <PropertyGroup>
-      <Version>1.2.3.4</Version>
+      <Deterministic>true</Deterministic>
     </PropertyGroup>
    </Project>
    ```
 
-  The `$(Version)` property is specific to .NET Core, so this won't work in .NET Framework projects.
-
 3. Run MSBuild. Your project’s existing imports of *Microsoft.Common.props* and *Microsoft.Common.targets* find the file and import it.
-
-4. Use `ILDasm.exe` at the Developer command prompt to inspect your assemblies and verify the version number.
 
 ### Search scope
 
