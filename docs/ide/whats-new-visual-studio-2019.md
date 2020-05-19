@@ -2,7 +2,7 @@
 title: "What's new in Visual Studio 2019"
 titleSuffix: ""
 description: "Learn about the new features in Visual Studio 2019."
-ms.date: 03/16/2020
+ms.date: 05/19/2020
 helpviewer_keywords:
   - "Visual Studio, what's new"
   - "what's new [Visual Studio]"
@@ -18,7 +18,7 @@ ms.workload:
 ---
 # What's new in Visual Studio 2019
 
-**Updated for the [16.5 release](/visualstudio/releases/2019/release-notes/)**
+**Updated for the [16.6 release](/visualstudio/releases/2019/release-notes/)**
 
 >[!div class="button"]
 >[Download Visual Studio 2019](https://visualstudio.microsoft.com/downloads)
