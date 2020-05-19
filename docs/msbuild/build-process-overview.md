@@ -218,6 +218,17 @@ The following table describes these targets; some targets are applicable only to
 
 Many of the targets in the previous table are found in language-specific imports, such as *Microsoft.CSharp.targets*. This file defines the steps in the standard build process specific for C# .NET projects. For example, it contains the `Compile` target that actually calls the C# compiler.
 
+## User-configurable imports
+
+In addition to the standard imports, there are several imports that you can add to customize the build process.
+
+- *Directory.Build.props*
+- *Directory.Build.targets*
+
+These are read in by the standard imports for any projects in any subfolder of the folder where they are placed. That's commonly at the solution level for settings to control all the projects in the solution, but could also be higher up in the filesystem, up to the root of the drive.
+
+The *Directory.Build.props* file is read in by *Microsoft.Common.target*s (actually one of its imports), so the properties set there are available in the project file, and can be overridden in the project file. The *Directory.Build.targets* file is read in after the project file. It typically contains targets, but here you can also place any properties that you don't want to be overridden by individual projects.
+
 ## Next steps
 
 The MSBuild process has several other extension points other than the ones described here that you can use to customize and extend the build process. See [Customize your build](customize-your-build.md). and [How to extend the Visual Studio build process](how-to-extend-the-visual-studio-build-process.md).
