@@ -10,7 +10,7 @@ manager: jillfra
 ms.workload:
 - multiple
 ---
-# MSBuild process overview
+# How MSBuild builds projects
 
 How does MSBuild actually work? In this article, you'll learn how MSBuild processes your project files, whether invoked from Visual Studio, or from a command line or script. Knowing how MSBuild works can help you better diagnose problems and better customize your build process. This article describes the build process and is largely applicable to all project types.
 
