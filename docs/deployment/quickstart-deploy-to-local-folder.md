@@ -26,19 +26,19 @@ You can use the **Publish** tool to publish ASP.NET, ASP.NET Core, .NET Core, an
 
     ![The Publish command on the project context menu in Solution Explorer](../deployment/media/quickstart-publish.png "Choose Publish")
 
-1. If you have previously configured any publishing profiles, the **Publish** pane appears. Select **Create new profile**.
+1. In the **Publish** dialog, select **Folder**.
 
-1. In the **Pick a publish target** dialog box, choose **Folder**.
+    ![Choose folder as a publish target](../deployment/media/quickstart-publish-folder.png "Choose Folder")
 
-    ![Choose local folder as a publish target](../deployment/media/quickstart-publish-folder.png "Choose Folder")
+1. Enter a path or select **Browse** to specify a folder.
 
-1. Enter a path or select **Browse** to specify a local folder.
+    ![Specify the path to the folder](../deployment/media/quickstart-publish-folder-path.png "Choose Folder")
 
 1. Select **Publish**. Visual Studio builds the project and publishes it to the specified folder. The project properties **Publish** pane appears, showing a profile summary.
 
     ![Publish property pane showing a profile summary](../deployment/media/quickstart-publish-folder-summary.png)
 
-1. To configure deployment settings, select **Configure** in the profile summary and select the **Settings** tab.
+1. To configure deployment settings, select **Edit** in the publish profile summary and select the **Settings** tab.
 
     ![Profile settings](../deployment/media/quickstart-profile-settings.png "Profile settings")
 

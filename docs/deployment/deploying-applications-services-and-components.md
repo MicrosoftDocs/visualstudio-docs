@@ -72,7 +72,7 @@ Deployment to a local folder is typically used for testing, or to begin a staged
 
     In Solution Explorer, right-click the project and choose **Publish**. (If you have previously configured any publishing profiles, you must then click **Create new profile**.) In the Publish tool, choose the option you want and follow the configuration steps.
 
-    ![Choose IIS, FTP, etc.](../deployment/media/quickstart-publish-iis-ftp.png)
+    ![Choose IIS](../deployment/media/quickstart-publish-iis.png)
 
     For information on importing a publish profile in Visual Studio, see [Import publish settings and deploy to IIS](../deployment/tutorial-import-publish-settings-iis.md).
 
