@@ -585,7 +585,7 @@
           href: ca2009.md
         - name: "CA2011: Do not assign property within its setter"
           href: ca2011.md
-        - name: "CA2015: Do not define finalizers for types derived from MemoryManager&gt;T&lt;"
+        - name: "CA2015: Do not define finalizers for types derived from MemoryManager<T>"
           href: ca2015.md
       - name: Security warnings
         items:
