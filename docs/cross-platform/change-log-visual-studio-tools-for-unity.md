@@ -67,7 +67,6 @@ Released April 14, 2020
 
   - Fixed handling of aliased usings.
 
-
 ## 4.5.1.0
 
 Released March 16, 2020
