@@ -794,6 +794,8 @@
           href: ca5388.md
         - name: "CA5389: Do not add archive item's path to the target file system path"
           href: ca5389.md
+        - name: "CA5390: Do not hard-code encryption key"
+          href: ca5390.md
         - name: "CA5397: Do not use deprecated SslProtocols values"
           href: ca5397.md
         - name: "CA5398: Avoid hardcoded SslProtocols values"
