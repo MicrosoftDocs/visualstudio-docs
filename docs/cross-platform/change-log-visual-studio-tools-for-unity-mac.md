@@ -37,8 +37,6 @@ Released April 14, 2020
 
 - **Integration:**
 
-  - Added support for CodeLens (Unity scripts and messages).
-
   - Added [`UNT0012`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/master/doc/UNT0012.md) diagnostic. Detect and wrap calls to coroutines in `StartCoroutine()`.
 
   - Added [`UNT0013`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/master/doc/UNT0013.md) diagnostic. Detect and remove invalid or redundant `SerializeField` attribute.
