@@ -87,8 +87,6 @@ This command resumes app execution (and advances the debugger) until the current
 
 ## Run to cursor
 
-Stop the debugger by pressing the **Stop Debugging** red button ![Stop Debugging](../debugger/media/dbg-tour-stop-debugging.png "Stop Debugging") or **Shift** + **F5**.
-
 Right-click a line of code in your app and choose **Run to Cursor**. This command starts debugging and sets a temporary breakpoint on the current line of code.
 
 ![Run to Cursor](../debugger/media/dbg-tour-run-to-cursor.png "Run to Cursor")
