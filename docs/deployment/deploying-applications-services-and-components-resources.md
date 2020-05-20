@@ -21,26 +21,26 @@ By deploying an application, service, or component, you distribute it for instal
 
 For many common app types, you can deploy your application right from Solution Explorer in Visual Studio. For a quick tour of this capability, see [First look at deployment](../deployment/deploying-applications-services-and-components.md).
 
-![Choose a publishing option](../deployment/media/quickstart-publish-azure.png)
+![Choose a publishing option](../deployment/media/quickstart-publish-dialog.png)
 
 ## What publishing options are right for me?
 
 From within Visual Studio, applications can be published directly to the following targets:
 
-- [Azure App Service](#azure-app-service)
-- [Azure Virtual Machines](#azure-virtual-machines)
-- [File system](#file-system)
-- [Custom targets (IIS, FTP, etc.)](#custom-targets-iis-ftp), which includes all arbitrary web servers.
+- [Azure](#azure)
+- [Docker Container Registry](#docker-container-registry)
+- [Folder](#folder)
+- [Custom targets (IIS, FTP)](#Custom targets (IIS, FTP))
 
 On the **Publish** tab, you can select an existing publish profile, import an existing one, or create a new one using the options described here. For a tour of the publishing options in the IDE for different app types, see [First look at deployment](../deployment/deploying-applications-services-and-components.md).
 
-## Azure App Service
+## Azure 
 
-[Azure App Service](/azure/app-service/app-service-web-overview) and [App Service on Linux](/azure/app-service/containers/app-service-linux-intro) help developers quickly create a variety of scalable web applications and services without maintaining infrastructure.
+### Azure App Service
+
+[Azure App Service](/azure/app-service/app-service-web-overview) which help developers quickly create scalable web applications and services without maintaining infrastructure. An App Service runs on cloud-hosted virtual machines in Azure, but those virtual machines are managed for you. Each app in an App Service will be assigned a unique \*.azurewebsites.net URL; all pricing tiers other than Free allow assigning custom domain names to the site.
 
 You determine how much computing power an App Service has by choosing a [pricing tier or plan](/azure/app-service/azure-web-sites-web-hosting-plans-in-depth-overview) for the containing App Service. You can have multiple Web apps (and other app types) share the same App Service without changing the pricing tier. For example, you can host development, staging, and production Web apps together on the same App Service.
-
-An App Service runs on cloud-hosted virtual machines in Azure, but those virtual machines are managed for you. Each app in an App Service will be assigned a unique \*.azurewebsites.net URL; all pricing tiers other than Free allow assigning custom domain names to the site.
 
 ### When to choose Azure App Service
 
@@ -53,7 +53,7 @@ An App Service runs on cloud-hosted virtual machines in Azure, but those virtual
 
 For more information on publishing to App Service, see [Quickstart - Publish to Azure App Service](quickstart-deploy-to-azure.md) and [Quickstart - Publish ASP.NET Core to Linux](quickstart-deploy-to-linux.md).
 
-## Azure Virtual Machines
+### Azure Virtual Machines
 
 [Azure Virtual Machines (VMs)](https://azure.microsoft.com/documentation/services/virtual-machines/) let you create and manage any number of computing resources in the cloud. By assuming responsibility for all software and updates on the VMs, you can customize them as much as desired as required by your application. You can access the virtual machines directly through Remote Desktop, and each one will maintain its assigned IP address as long as desired.
 
@@ -70,7 +70,15 @@ For additional information, refer to the [detailed comparison](https://azure.mic
 
 > If you want to use Azure Virtual Machines in your own datacenter or other on-premises computers, you can do so using the [Azure Stack](https://azure.microsoft.com/overview/azure-stack/).
 
-## File system
+## Docker Container Registry
+
+If your application is using Docker you can publish your containerized application to a Docker Container Registry.
+
+### When to choose Docker Container Registry
+
+- You want to deploy a containerized application
+
+## Folder
 
 Deploying to the file system means to simply copy your application's files to a specific folder on your own computer. This is most often used for testing purposes, or to deploy the application for use by a limited number of people if the computer is also running a server. If the target folder is shared on a network, then deploying to the file system can make the web application files available to others who might then deploy it to specific servers.
 
