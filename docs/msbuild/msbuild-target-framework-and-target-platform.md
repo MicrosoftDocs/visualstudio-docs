@@ -83,7 +83,7 @@ A *target platform* is the particular platform that your project is built to run
 
 ```
 
-A *target configuration* is a subset of a target platform. For example, the `x86``Debug` configuration does not include most code optimizations. The target configuration is specified in the `Configuration` build property in a project file. You can change the target configuration by using the project property pages or the **Configuration Manager**.
+A *target configuration* is a subset of a target platform. For example, the `x86` `Debug` configuration does not include most code optimizations. The target configuration is specified in the `Configuration` build property in a project file. You can change the target configuration by using the project property pages or the **Configuration Manager**.
 
 ```xml
 <PropertyGroup>
