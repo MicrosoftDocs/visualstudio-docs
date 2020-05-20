@@ -109,6 +109,7 @@ There are three attributes available for the Code element:
    |`VB`|Identifies a Visual Basic code snippet.|
    |`CSharp`|Identifies a C# code snippet.|
    |`CPP`|Identifies a C++ code snippet.|
+   |`XAML`|Identifies a XAML code snippet.|
    |`XML`|Identifies an XML code snippet.|
    |`JavaScript`|Identifies a JavaScript code snippet.|
    |`TypeScript`|Identifies a TypeScript code snippet.|
