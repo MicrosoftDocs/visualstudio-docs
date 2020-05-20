@@ -103,7 +103,7 @@ You can create applications that reference projects or assemblies that target a 
 
 For more information, see [Framework targeting overview](../ide/visual-studio-multi-targeting-overview.md).
 
-## Project-to project references
+## Project-to-project references
 
 Project-to-project references are references to projects that contain assemblies; you add project references by using the **Projects** tab of the Reference Manager dialog box. Visual Studio can find an assembly when given a path to the project.
 
