@@ -29,7 +29,7 @@ Once downloaded, symbols are cached, which will speed up future analysis but sti
 
 ## Show External Code
 
-Many of the tools within the **Performance Profiler and Diagnostic Tools** window have a concept of user code vs external code. User code is any code that is built by the open solution or open workspace; external code is anything else. Keeping the **Show external code** setting disabled, or **Show just my code** enabled, allows the tools to aggregate external code to a single first level frame and greatly reduce the amount of processing that is required to show results. This allows users to see what was called in external code that created the slow down yet keep the data to be processed to a minimum. When possible, leave **Show external code** disabled and ensure you have the solution or workspace open for the diagsession you are analyzing.
+Many of the tools within the **Performance Profiler** and **Diagnostic Tools** window have a concept of user code versus external code. User code is any code that is built by the open solution or open workspace. External code is anything else. By keeping the **Show external code** setting disabled, or **Show just my code** enabled, you allow the tools to aggregate external code to a single first level frame, greatly reducing the amount of processing that is required to show results. This allows users to see what was called in external code that created the slow down while keeping the data to be processed to a minimum. When possible, leave **Show external code** disabled and ensure that you have the solution or workspace open for the diagsession you are analyzing.
 
 ## Trace Duration
 
