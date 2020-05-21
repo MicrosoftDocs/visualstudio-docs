@@ -406,7 +406,7 @@ Item1: notebook
 -->
 ```
 
-The `Update` attribute supports qualified metadata references to facilitate importing metadata from two or more items.
+In MSBuild version 16.6 and later, the `Update` attribute supports qualified metadata references to facilitate importing metadata from two or more items.
 
 ```xml
 <Project>
