@@ -804,6 +804,10 @@
           href: ca5397.md
         - name: "CA5398: Avoid hardcoded SslProtocols values"
           href: ca5398.md
+        - name: "CA5401: Do not use CreateEncryptor with non-default IV"
+          href: ca5401.md
+        - name: "CA5402: Use CreateEncryptor with the default IV"
+          href: ca5402.md
         - name: "CA5403: Do not hard-code certificate"
           href: ca5403.md
       - name: Usage warnings
