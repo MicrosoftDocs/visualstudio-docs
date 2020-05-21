@@ -750,7 +750,7 @@
           href: ca5359.md
         - name: "CA5361: Do not disable SChannel use of strong crypto"
           href: ca5361.md
-        - name: "CA5362: Do Not Refer Self In Serializable Class"
+        - name: "CA5362: Potential reference cycle in deserialized object graph"
           href: ca5362.md
         - name: "CA5363: Do not disable request validation"
           href: ca5363.md
