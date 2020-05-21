@@ -92,7 +92,15 @@ The middle pane is the "code" part of the XAML code editor. It includes most of 
 
 #### Quick actions
 
-- Unused Usings, lightbulb for removing (Quick Actions)
+You can use [Quick Actions](..ide/quick-actions.md) to complete many "housekeeping" tasks while you're coding, such as removing unnecessary usings.
+
+Here's how: Hover over a using statement, choose the lightbulb icon, and then choose **Remove Unnecessary Usings** from the drop-down list. 
+
+![Screenshot of the XAML code editor's "Remove Unnecessary Usings" option from the Quick Actions menu](media/xaml-code-editor-remove-usings.png)
+
+You can also access this IntelliSense feature from the menu bar. To do so, choose **Edit** > **IntelliSense** > **Remove and Sort Usings**.
+
+For more information, see the [Quick Actions](..ide/quick-actions.md) page and the [Sort usings](../ide/reference/sort-usings.md) page.
 
 #### Change tracking
 
@@ -117,7 +125,7 @@ Some of these features are available universally in the Visual Studio IDE, and s
 
 - View Code. This setting  
 
-- Quick Actions
+- [Quick Actions](..ide/quick-actions.md): Quick Actions let you easily refactor, generate, or otherwise modify code with a single action.
 - Only expands a lightbulb if its available
 - Rename (namespaces only)
 - Peek Definition
