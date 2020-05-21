@@ -18,25 +18,25 @@ The complete build process consists of [initial startup](#startup), [evaluation]
 
 ## Startup
 
-MSBuild may be invoked from Visual Studio through the MSBuild object model in *Microsoft.Build.dll*, or by invoking the executable directly on the command line, or in a script, such as in CI systems. In either case, inputs that effect the build process include the project file (or project object internal to Visual Studio), possibly a solution file, environment variables, and command-line switches or their object model equivalents. During the startup phase, the command-line options or object model equivalents are used to configure MSBuild settings such as configuring loggers. Properties set on the command line using the `-property` or `-p` switch are set as global properties, which override any values that would be set in the project files, even though project files are read in later.
+MSBuild can be invoked from Visual Studio through the MSBuild object model in *Microsoft.Build.dll*, or by invoking the executable directly on the command line, or in a script, such as in CI systems. In either case, inputs that affect the build process include the project file (or project object internal to Visual Studio), possibly a solution file, environment variables, and command-line switches or their object model equivalents. During the startup phase, the command-line options or object model equivalents are used to configure MSBuild settings such as configuring loggers. Properties set on the command line using the `-property` or `-p` switch are set as global properties, which override any values that would be set in the project files, even though project files are read in later.
 
 The next sections are about the input files, such as solution files or project files.
 
 ### Solutions and projects
 
-MSBuild instances may consist of one project, or many projects as part of a solution. The solution file is not an MSBuild XML file, but MSBuild interprets it to know all the projects that are required to be built for the given configuration and platform settings. This is referred to as the solution build. It has some extensible points that allow you to run something at every solution build, but since this build is a separate run from the individual project builds, no settings of properties or target definitions from the solution build are relevant to each project build.
+MSBuild instances may consist of one project, or many projects as part of a solution. The solution file is not an MSBuild XML file, but MSBuild interprets it to know all the projects that are required to be built for the given configuration and platform settings. When MSBuild processes this XML input, it's referred to as the solution build. It has some extensible points that allow you to run something at every solution build, but since this build is a separate run from the individual project builds, no settings of properties or target definitions from the solution build are relevant to each project build.
 
 You can find out how to extend the solution build at [Customize the solution build](customize-your-build.md#customize-the-solution-build).
 
 ### Visual Studio builds vs. MSBuild.exe builds
 
-There are some significant differences between when projects build in Visual Studio vs. when MSBuild is invoked (either directly through the MSBuild executable, or when you use the MSBuild object model to start a build). Visual Studio manages the project build order for Visual Studio builds; it only calls MSBuild at the individual project level, and when it does, a couple of Boolean properties (`BuildingInsideVisualStudio`, `BuildProjectReferences`) are set that significantly affect what MSBuild does. Inside each project, execution occurs the same as when invoked through MSBuild, but the different arises with dependent projects. In MSBuild, when dependent projects are required, a build actually occurs; that is, tasks and tools are launched, and the output is generated. With a Visual Studio build, all MSBuild does is return the expected outputs; it lets Visual Studio control the building of those other projects. Visual Studio determines the build order and calls into MSBuild separately (as needed), all completely under Visual Studio's control.
+There are some significant differences between when projects build in Visual Studio vs. when you invoke MSBuild directly, either through the MSBuild executable, or when you use the MSBuild object model to start a build. Visual Studio manages the project build order for Visual Studio builds; it only calls MSBuild at the individual project level, and when it does, a couple of Boolean properties (`BuildingInsideVisualStudio`, `BuildProjectReferences`) are set that significantly affect what MSBuild does. Inside each project, execution occurs the same as when invoked through MSBuild, but the difference arises with referenced projects. In MSBuild, when referenced projects are required, a build actually occurs; that is, it runs tasks and tools, and generates the output. When a Visual Studio build finds a referenced project, MSBuild only returns the expected outputs from the referenced project; it lets Visual Studio control the building of those other projects. Visual Studio determines the build order and calls into MSBuild separately (as needed), all completely under Visual Studio's control.
 
-Another differences arises when MSBuild is invoked with a solution file, MSBuild parses the solution file, creates a standard XML input file, evaluates and executes it as a project. The solution build is executed before any project. When building from Visual Studio, none of this happens; MSBuild never sees the solution file. As a consequence, solution build customization (using *before.SolutionName.sln.targets* and *after.SolutionName.sln.targets*) only applies to MSBuild.exe or object model driven, not Visual Studio builds.
+Another difference arises when MSBuild is invoked with a solution file, MSBuild parses the solution file, creates a standard XML input file, evaluates it, and executes it as a project. The solution build is executed before any project. When building from Visual Studio, none of this happens; MSBuild never sees the solution file. As a consequence, solution build customization (using *before.SolutionName.sln.targets* and *after.SolutionName.sln.targets*) only applies to MSBuild.exe or object model driven, not Visual Studio builds.
 
 ### Project SDKs
 
-The SDK feature for MSBuild project files is relatively new. Prior to this, project files explicitly imported the *.targets* and *.props* files that defined the build process for a particular project type.
+The SDK feature for MSBuild project files is relatively new. Prior to this change, project files explicitly imported the *.targets* and *.props* files that defined the build process for a particular project type.
 
 .NET Core projects import the version of the .NET SDK appropriate to them. See the overview, [.NET Core project SDKs](/dotnet/core/project-sdk/overview), and the reference to the [properties](/dotnet/core/project-sdk/msbuild-props).
 
@@ -67,7 +67,11 @@ In this phase, the entire input XML is read in, including the project files and 
 
 As a consequence of MSBuild reading all the XML input files early on in its process, any changes to those inputs during the build process do not affect the current build.
 
-Because the properties are processed in order in the properties pass, and before items are evaluated, you cannot access the value of any item during any part of the properties pass. 
+Properties outside of any target are handled differently from properties within targets. In this phase, only the properties defined outside of any target are evaluated.
+
+Because properties are processed in order in the properties pass, a property at any point in the input can access property values that appear earlier in the input, but not properties that appear later.
+
+Because the properties are processed before items are evaluated, you cannot access the value of any item during any part of the properties pass. 
 
 ### Evaluate item definitions
 
@@ -75,7 +79,7 @@ In this phase, [item definitions](item-definitions.md) are interpreted and an in
 
 ### Evaluate items
 
-In this phase, items and their associated metadata are processed.  Metadata set by item definitions is overridden by metadata setting on items. Because items are processed in the order that they appear, you can reference items that have been defined earlier, but not ones that appear later. Because the items pass is after the properties pass, items can access any property if defined outside a targets, regardless of whether the property definition appears later.
+Items defined inside a target are handled differently from items outside any target. In this phase, items outside any target, and their associated metadata, are processed.  Metadata set by item definitions is overridden by metadata setting on items. Because items are processed in the order that they appear, you can reference items that have been defined earlier, but not ones that appear later. Because the items pass is after the properties pass, items can access any property if defined outside any targets, regardless of whether the property definition appears later.
 
 ### Evaluate `UsingTask` elements
 
@@ -87,7 +91,7 @@ In this phase, all target object structures are created in memory, in preparatio
 
 ## Execution phase
 
-In the execution phase, the targets are ordered and run, and all tasks are executed. But first, properties and items that are defined within targets (known as dynamic properties and items) are evaluated together in a single phase in the order in which they appear. The order of processing is notably different from how  properties  and items that are not in a target are processed: all properties first, and then all items, in separate passes. Changes to properties and items within a target can be observed after the target where they were changed.
+In the execution phase, the targets are ordered and run, and all tasks are executed. But first, properties and items that are defined within targets are evaluated together in a single phase in the order in which they appear. The order of processing is notably different from how  properties  and items that are not in a target are processed: all properties first, and then all items, in separate passes. Changes to properties and items within a target can be observed after the target where they were changed.
 
 ### Target build order
 
@@ -103,13 +107,13 @@ There are two code paths that MSBuild can take, the normal one, described here, 
 
 Individual projects specify their dependence on other projects through `ProjectReference` items. When a project on the top of the stack begins building, it reaches the point where the `ResolveProjectReferences` target executes, a standard target defined in the common target files.
 
-`ResolveProjectReferences` invokes the MSBuild task with inputs of the `ProjectReference` items to get the outputs. The `ProjectReference` items are transformed to local items such as `Reference`. The MSBuild execution phase for the current project pauses while the execution phase begins to process the dependent project (the evaluation phase is done first as needed). This only happens after you start building the project, and so this create a the tree of projects building.
+`ResolveProjectReferences` invokes the MSBuild task with inputs of the `ProjectReference` items to get the outputs. The `ProjectReference` items are transformed to local items such as `Reference`. The MSBuild execution phase for the current project pauses while the execution phase begins to process the referenced project (the evaluation phase is done first as needed). The referenced project only builds after you start building the dependent project, and so this creates a tree of projects building.
 
-Visual Studio allows creating project dependencies in solution (.sln) files. These are stored in the solution file and are only respected when building a solution or inside Visual Studio. If you build a single project, this type of dependency is ignored. Solution references are transformed by MSBuild into `ProjectReference` items and thereafter are treated in the same manner.
+Visual Studio allows creating project dependencies in solution (.sln) files. The dependencies are specified in the solution file and are only respected when building a solution, or when building inside Visual Studio. If you build a single project, this type of dependency is ignored. Solution references are transformed by MSBuild into `ProjectReference` items and thereafter are treated in the same manner.
 
 ### Graph option
 
-If you specify the graph build switch (`-graphBuild` or `-graph`), the `ProjectReference` becomes a first-class concept used by MSBuild. MSBuild will parse all the projects and construct the build order graph, an actual dependency graph of projects, which is then traversed to determine the build order. As with targets in individual projects, MSBuild ensures that dependent projects are built after the projects they depend on.
+If you specify the graph build switch (`-graphBuild` or `-graph`), the `ProjectReference` becomes a first-class concept used by MSBuild. MSBuild will parse all the projects and construct the build order graph, an actual dependency graph of projects, which is then traversed to determine the build order. As with targets in individual projects, MSBuild ensures that referenced projects are built after the projects they depend on.
 
 ## Parallel execution
 
@@ -188,8 +192,8 @@ The following table describes these targets; some targets are applicable only to
 | BuildOnlySettings | Settings for real builds only, not for when MSBuild is invoked on project load by Visual Studio. |
 | PrepareForBuild | Prepare the prerequisites for building |
 | PreBuildEvent | Extension point for projects to define tasks to execute before build |
-| ResolveProjectReferences | Analyze project dependencies and build dependent projects |
-| ResolveAssemblyReferences| Locate dependent assemblies. |
+| ResolveProjectReferences | Analyze project dependencies and build referenced projects |
+| ResolveAssemblyReferences| Locate referenced assemblies. |
 | ResolveReferences | Consists of `ResolveProjectReferences` and `ResolveAssemblyReferences` to find all the dependencies |
 | PrepareResources | Process resource files |
 | ResolveKeySource| Resolve the strong name key used to sign the assembly as well as the certificate used to sign the [ClickOnce](../deployment/clickonce-security-and-deployment.md) manifests. |
@@ -214,13 +218,13 @@ In addition to the standard imports, there are several imports that you can add 
 - *Directory.Build.props*
 - *Directory.Build.targets*
 
-These are read in by the standard imports for any projects in any subfolder of the folder where they are placed. That's commonly at the solution level for settings to control all the projects in the solution, but could also be higher up in the filesystem, up to the root of the drive.
+These files are read in by the standard imports for any projects in any subfolder under them. That's commonly at the solution level for settings to control all the projects in the solution, but could also be higher up in the filesystem, up to the root of the drive.
 
-The *Directory.Build.props* file is read in by *Microsoft.Common.target*s (actually one of its imports), so the properties set there are available in the project file, and can be overridden in the project file. The *Directory.Build.targets* file is read in after the project file. It typically contains targets, but here you can also place any properties that you don't want to be overridden by individual projects.
+The *Directory.Build.props* file is read in by *Microsoft.Common.targets* (actually one of its imports), so the properties defined therein are available in the project file. They can be redefined in the project file to customize the values on a per-project basis. The *Directory.Build.targets* file is read in after the project file. It typically contains targets, but here you can also define properties that you don't want individual projects to redefine.
 
 ## Next steps
 
-The MSBuild process has several other extension points other than the ones described here that you can use to customize and extend the build process. See [Customize your build](customize-your-build.md). and [How to extend the Visual Studio build process](how-to-extend-the-visual-studio-build-process.md).
+The MSBuild process has several other extension points other than the ones described here. See [Customize your build](customize-your-build.md). and [How to extend the Visual Studio build process](how-to-extend-the-visual-studio-build-process.md).
 
 ## See also
 
