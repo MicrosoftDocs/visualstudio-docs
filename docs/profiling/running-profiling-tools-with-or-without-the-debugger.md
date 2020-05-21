@@ -63,7 +63,7 @@ To collect performance data without debugging, you can run the **Performance Pro
 
 1. Select **Debug** > **Performance Profiler**, or press **Alt**+**F2**.
 
-1. On the diagnostic launch page, select one or more tools to run. Only the tools that are applicable to the project type, operating system, and programming language are displayed. Select **Show all tools** to also see tools that are disabled for this diagnostic session.
+1. On the diagnostic tools launch page, select one or more tools to run. Only the tools that are applicable to the project type, operating system, and programming language are displayed. Select **Show all tools** to also see tools that are disabled for this diagnostic session.
 
    ![Select the diagnostic tools](../profiling/media/diaghubsummarypage.png "DIAG_SelectTool")
 
