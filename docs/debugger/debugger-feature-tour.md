@@ -87,7 +87,7 @@ This command resumes app execution (and advances the debugger) until the current
 
 ## Run to cursor
 
-Right-click a line of code in your app and choose **Run to Cursor**. This command starts debugging and sets a temporary breakpoint on the current line of code.
+When you are editing code (rather than paused in the debugger), right-click a line of code in your app and choose **Run to Cursor**. This command starts debugging and sets a temporary breakpoint on the current line of code.
 
 ![Run to Cursor](../debugger/media/dbg-tour-run-to-cursor.png "Run to Cursor")
 
