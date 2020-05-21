@@ -28,6 +28,12 @@ MSBuild instances may consist of one project, or many projects as part of a solu
 
 You can find out how to extend the solution build at [Customize the solution build](customize-your-build.md#customize-the-solution-build).
 
+### Visual Studio builds vs. MSBuild.exe builds
+
+There are some significant differences between when projects build in Visual Studio vs. when MSBuild is invoked (either directly through the MSBuild executable, or when you use the MSBuild object model to start a build). Visual Studio manages the project build order for Visual Studio builds; it only calls MSBuild at the individual project level, and when it does, a couple of Boolean properties (`BuildingInsideVisualStudio`, `BuildProjectReferences`) are set that significantly affect what MSBuild does. Inside each project, execution occurs the same as when invoked through MSBuild, but the different arises with dependent projects. In MSBuild, when dependent projects are required, a build actually occurs; that is, tasks and tools are launched, and the output is generated. With a Visual Studio build, all MSBuild does is return the expected outputs; it lets Visual Studio control the building of those other projects. Visual Studio determines the build order and calls into MSBuild separately (as needed), all completely under Visual Studio's control.
+
+Another differences arises when MSBuild is invoked with a solution file, MSBuild parses the solution file, creates a standard XML input file, evaluates and executes it as a project. The solution build is executed before any project. When building from Visual Studio, none of this happens; MSBuild never sees the solution file. As a consequence, solution build customization (using *before.SolutionName.sln.targets* and *after.SolutionName.sln.targets*) only applies to MSBuild.exe or object model driven, not Visual Studio builds.
+
 ### Project SDKs
 
 The SDK feature for MSBuild project files is relatively new. Prior to this, project files explicitly imported the *.targets* and *.props* files that defined the build process for a particular project type.
@@ -38,7 +44,7 @@ The SDK feature for MSBuild project files is relatively new. Prior to this, proj
 
 This section discusses how these input files are processed and parsed to produce in-memory objects that determine what will be built.
 
-The purpose of the evaluation phase is to create the object structures in memory based on the input XML files and local environment. The evaluation phase consists of five passes that process the input files such as the project XML files or solution file, and the imported XML files, generally named as *.props* or *.targets* files, depending on whether they primarily set properties or define build targets. Each pass builds a part of the in-memory objects that are later used in the execution phase to build the projects, but no actual build actions occur during the evaluation phase. Within each pass, elements are processed in the order in which they appear.
+The purpose of the evaluation phase is to create the object structures in memory based on the input XML files and local environment. The evaluation phase consists of five passes that process the input files such as the project XML files or, and the imported XML files, generally named as *.props* or *.targets* files, depending on whether they primarily set properties or define build targets. Each pass builds a part of the in-memory objects that are later used in the execution phase to build the projects, but no actual build actions occur during the evaluation phase. Within each pass, elements are processed in the order in which they appear.
 
 The passes in the evaluation phase are as follows:
 
@@ -49,7 +55,7 @@ The passes in the evaluation phase are as follows:
 - Evaluate [UsingTask](usingtask-element-msbuild.md) elements
 - Evaluate targets
 
-The order of these passes has significant implications and is important to know when customize the project file. See [Property and item evaluation order](comparing-properties-and-items.md#property-and-item-evaluation-order).
+The order of these passes has significant implications and is important to know when customizing the project file. See [Property and item evaluation order](comparing-properties-and-items.md#property-and-item-evaluation-order).
 
 ### Evaluate environment variables
 
@@ -57,9 +63,11 @@ In this phase, environment variables are used to set equivalent properties. For 
 
 ### Evaluate imports and properties
 
-In this phase, the entire input XML is read in, including the project files and the entire chain of imports. MSBuild creates an in-memory XML structure that represents the XML of the project and all imported files. At this time, static properties are evaluated and set.  Static properties are properties set outside of any target.
+In this phase, the entire input XML is read in, including the project files and the entire chain of imports. MSBuild creates an in-memory XML structure that represents the XML of the project and all imported files. At this time, properties that are not in targets are evaluated and set.
 
 As a consequence of MSBuild reading all the XML input files early on in its process, any changes to those inputs during the build process do not affect the current build.
+
+Because the properties are processed in order in the properties pass, and before items are evaluated, you cannot access the value of any item during any part of the properties pass. 
 
 ### Evaluate item definitions
 
@@ -67,11 +75,11 @@ In this phase, [item definitions](item-definitions.md) are interpreted and an in
 
 ### Evaluate items
 
-In this phase, items and their associated metadata are processed.  Metadata set by item definitions is overridden by metadata setting on items.
+In this phase, items and their associated metadata are processed.  Metadata set by item definitions is overridden by metadata setting on items. Because items are processed in the order that they appear, you can reference items that have been defined earlier, but not ones that appear later. Because the items pass is after the properties pass, items can access any property if defined outside a targets, regardless of whether the property definition appears later.
 
 ### Evaluate `UsingTask` elements
 
-In this phase, [UsingTask](usingtask-element-msbuild.md) elements are read, and the tasks are instantiated and ready to be used later during the execution phase.
+In this phase, [UsingTask](usingtask-element-msbuild.md) elements are read, and the tasks are declared for later use during the execution phase.
 
 ### Evaluate targets
 
@@ -79,21 +87,29 @@ In this phase, all target object structures are created in memory, in preparatio
 
 ## Execution phase
 
-In the execution phase, the targets are ordered and run, and all tasks are executed. But first, properties and items that are defined within targets (known as dynamic properties and items) are evaluated together in a single phase in the order in which they appear. The order of processing is notably different from how static properties are processed: all properties first, and then all items, in separate passes.
+In the execution phase, the targets are ordered and run, and all tasks are executed. But first, properties and items that are defined within targets (known as dynamic properties and items) are evaluated together in a single phase in the order in which they appear. The order of processing is notably different from how  properties  and items that are not in a target are processed: all properties first, and then all items, in separate passes. Changes to properties and items within a target can be observed after the target where they were changed.
 
-In a single project, targets execute serially. The central issue is how to determine what order to build everything in so that dependencies are used to build the targets in the right order.  There are two code paths that MSBuild can take, the normal one, described here, and the graph option described in the next section.
+### Target build order
 
-The execution phase begins with determining the target build order. The rules for ordering are described in [Determine the target build order](target-build-order.md#determine-the-target-build-order). The normal process is determined by a stack structure containing targets to build. The target at the top of this task starts execution, and if it depends on anything else, then those targets are pushed onto the top of the stack, and they start executing.  When there's a target without any dependencies, it executes to completion and its parent target resumes.
+In a single project, targets execute serially. The central issue is how to determine what order to build everything in so that dependencies are used to build the targets in the right order.  
 
-As with targets in individual projects, MSBuild ensures that dependent projects are built after the projects they depend on. Individual projects specify their dependence on other projects through `ProjectReference` items. When a project on the top of the stack begins building, it reaches the point where the `ResolveProjectReferences` target executes, a standard target defined in the common target files.
+The target build order is determined by the use of the `BeforeTargets`, `DependsOnTargets`, and `AfterTargets` attributes on each target. The order of later targets can be influenced during execution of an earlier target if the earlier target modifies a property that's referenced in these attributes.
 
-`ResolveProjectReferences` invokes the MSBuild task with inputs of the `ProjectReference` items to get the outputs. The `ProjectReference` items are transformed to local items such as `Reference`. This only happens after you start building the project, and so this create a the tree of projects building.
+The rules for ordering are described in [Determine the target build order](target-build-order.md#determine-the-target-build-order). The process is determined by a stack structure containing targets to build. The target at the top of this task starts execution, and if it depends on anything else, then those targets are pushed onto the top of the stack, and they start executing.  When there's a target without any dependencies, it executes to completion and its parent target resumes.
+
+### Project References
+
+There are two code paths that MSBuild can take, the normal one, described here, and the graph option described in the next section.
+
+Individual projects specify their dependence on other projects through `ProjectReference` items. When a project on the top of the stack begins building, it reaches the point where the `ResolveProjectReferences` target executes, a standard target defined in the common target files.
+
+`ResolveProjectReferences` invokes the MSBuild task with inputs of the `ProjectReference` items to get the outputs. The `ProjectReference` items are transformed to local items such as `Reference`. The MSBuild execution phase for the current project pauses while the execution phase begins to process the dependent project (the evaluation phase is done first as needed). This only happens after you start building the project, and so this create a the tree of projects building.
 
 Visual Studio allows creating project dependencies in solution (.sln) files. These are stored in the solution file and are only respected when building a solution or inside Visual Studio. If you build a single project, this type of dependency is ignored. Solution references are transformed by MSBuild into `ProjectReference` items and thereafter are treated in the same manner.
 
 ### Graph option
 
-If you specify the graph build switch (`-graphBuild` or `-graph`), the `ProjectReference` becomes a first-class concept used by MSBuild. MSBuild will parse all the projects and construct the build order graph, an actual dependency graph of projects, which is then traversed to determine the build order.
+If you specify the graph build switch (`-graphBuild` or `-graph`), the `ProjectReference` becomes a first-class concept used by MSBuild. MSBuild will parse all the projects and construct the build order graph, an actual dependency graph of projects, which is then traversed to determine the build order. As with targets in individual projects, MSBuild ensures that dependent projects are built after the projects they depend on.
 
 ## Parallel execution
 
