@@ -68,7 +68,8 @@ The allocation view allows you to see the location of objects that are allocatin
 - The **Allocations** column shows the number of objects within a particular allocation type or function that are taking up memory (in the **Allocation**, **Call Tree**, and **Functions View**).
 - The **Bytes** and **Average Size (Bytes)** columns are not on by default. To enable them, right click on the **Type**, or **Allocations** columns and then click **Bytes** and **Average Size (Bytes)** options to add them to the chart. The two columns are similar to **Total (Allocations)** and **Self (Allocations)** except that instead of showing the number of objects taking up memory, they show the total amount of memory in bytes that those objects are taking up. (**Allocation** view only)
 - The **Module name** column shows the module that contains the function or process that is calling.
-- All of these columns are sortable. In the case of the **Type**  or **Modules** column, the items are sorted alphabetically (either forward or backwards). For **Allocations**, **Bytes** and **Average Size (Bytes)**, you can sort numerically (either increasingly or decreasingly).
+- All of these columns are sortable. For the **Type**  or **Modules** column, the items are sorted alphabetically (either forward or backwards). For **Allocations**, **Bytes** and **Average Size (Bytes)**, you can sort numerically (either increasing or decreasing).
+
 
 #### Icons
 
