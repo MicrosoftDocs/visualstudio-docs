@@ -30,34 +30,7 @@ You can find out how to extend the solution build at [Customize the solution bui
 
 ### Project SDKs
 
-The SDK feature for MSBuild project files is relatively new. Prior to this, project files explicitly imported the *.targets* and *.props* files that defined the build process for a particular project type. Project SDKs make this implicit with syntax with the `Sdk` attribute on the Project element:
-
-```xml
-<Project Sdk="Microsoft.NET.Sdk">
-  ...
-</Project>
-```
-
-or with the `Sdk` element:
-
-```xml
-<Project>
-  <Sdk Name="Microsoft.NET.Sdk" />
-  ...
-</Project>
-```
-
-This syntax is expanded to first line (*sdk.props*) and last line (*sdk.targets*). SDK's define a lot of their SDK-specific functionality in their *.props* and *.targets* files, including many configurable settings that you can override in project files. 
-
-<Project>
-  <!-- Implicit top import -->
-  <Import Project="Sdk.props" Sdk="Microsoft.NET.Sdk" />
-  ...
-  <!-- Implicit bottom import -->
-  <Import Project="Sdk.targets" Sdk="Microsoft.NET.Sdk" />
-</Project>
-
-This results in smaller, simpler project files that are easier to read, but is otherwise equivalent to importing the *.props* and *.targets* files directly.
+The SDK feature for MSBuild project files is relatively new. Prior to this, project files explicitly imported the *.targets* and *.props* files that defined the build process for a particular project type.
 
 .NET Core projects import the version of the .NET SDK appropriate to them. See the overview, [.NET Core project SDKs](/dotnet/core/project-sdk/overview), and the reference to the [properties](/dotnet/core/project-sdk/msbuild-props).
 
