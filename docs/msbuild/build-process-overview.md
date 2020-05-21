@@ -24,7 +24,7 @@ The next sections are about the input files, such as solution files or project f
 
 ### Solutions and projects
 
-MSBuild instances may consist of one project, or many projects as part of a solution. The solution file is not an MSBuild XML file, but MSBuild interprets it to know all the projects that are required to be built for the given configuration and platform settings. When MSBuild processes this XML input, it's referred to as the solution build. It has some extensible points that allow you to run something at every solution build, but since this build is a separate run from the individual project builds, no settings of properties or target definitions from the solution build are relevant to each project build.
+MSBuild instances may consist of one project, or many projects as part of a solution. The solution file isn't an MSBuild XML file, but MSBuild interprets it to know all the projects that are required to be built for the given configuration and platform settings. When MSBuild processes this XML input, it's referred to as the solution build. It has some extensible points that allow you to run something at every solution build, but since this build is a separate run from the individual project builds, no settings of properties or target definitions from the solution build are relevant to each project build.
 
 You can find out how to extend the solution build at [Customize the solution build](customize-your-build.md#customize-the-solution-build).
 
@@ -63,15 +63,15 @@ In this phase, environment variables are used to set equivalent properties. For 
 
 ### Evaluate imports and properties
 
-In this phase, the entire input XML is read in, including the project files and the entire chain of imports. MSBuild creates an in-memory XML structure that represents the XML of the project and all imported files. At this time, properties that are not in targets are evaluated and set.
+In this phase, the entire input XML is read in, including the project files and the entire chain of imports. MSBuild creates an in-memory XML structure that represents the XML of the project and all imported files. At this time, properties that aren't in targets are evaluated and set.
 
-As a consequence of MSBuild reading all the XML input files early on in its process, any changes to those inputs during the build process do not affect the current build.
+As a consequence of MSBuild reading all the XML input files early on in its process, any changes to those inputs during the build process don't affect the current build.
 
 Properties outside of any target are handled differently from properties within targets. In this phase, only the properties defined outside of any target are evaluated.
 
 Because properties are processed in order in the properties pass, a property at any point in the input can access property values that appear earlier in the input, but not properties that appear later.
 
-Because the properties are processed before items are evaluated, you cannot access the value of any item during any part of the properties pass. 
+Because the properties are processed before items are evaluated, you can't access the value of any item during any part of the properties pass. 
 
 ### Evaluate item definitions
 
@@ -91,7 +91,7 @@ In this phase, all target object structures are created in memory, in preparatio
 
 ## Execution phase
 
-In the execution phase, the targets are ordered and run, and all tasks are executed. But first, properties and items that are defined within targets are evaluated together in a single phase in the order in which they appear. The order of processing is notably different from how  properties  and items that are not in a target are processed: all properties first, and then all items, in separate passes. Changes to properties and items within a target can be observed after the target where they were changed.
+In the execution phase, the targets are ordered and run, and all tasks are executed. But first, properties and items that are defined within targets are evaluated together in a single phase in the order in which they appear. The order of processing is notably different from how  properties  and items that aren't in a target are processed: all properties first, and then all items, in separate passes. Changes to properties and items within a target can be observed after the target where they were changed.
 
 ### Target build order
 
@@ -117,7 +117,7 @@ If you specify the graph build switch (`-graphBuild` or `-graph`), the `ProjectR
 
 ## Parallel execution
 
-If using multiprocessor support (`-maxCpuCount` or `-m` switch), MSBuild creates nodes, which are MSBuild processes that utilize the available CPU cores. Each project is submitted to an available node. Within a node, individual project builds execute serially.
+If using multiprocessor support (`-maxCpuCount` or `-m` switch), MSBuild creates nodes, which are MSBuild processes that use the available CPU cores. Each project is submitted to an available node. Within a node, individual project builds execute serially.
 
 Tasks may be enabled for parallel execution by setting a boolean variable <xref:Microsoft.Build.Tasks.MSBuild.BuildInParallel%2A>, which is set according to the value of the `$(BuildInParallel)` property in MSBuild. For tasks that are enabled for parallel execution, a work scheduler manages nodes and assigns work to nodes.
 
@@ -127,7 +127,7 @@ See [Building multiple projects in parallel with MSBuild](building-multiple-proj
 
 *Microsoft.Common.props* and *Microsoft.Common.targets* are both imported by .NET project files (explicitly or implicitly in SDK-style projects) and are located in the *MSBuild\Current\bin* folder in a Visual Studio installation. C++ projects have their own hierarchy of imports; see [MSBuild Internals for C++ projects](/cpp/build/reference/msbuild-visual-cpp-overview).
 
-The *Microsoft.Common.props* file sets defaults you can override. It is imported (explicitly or implicitly) at the beginning of a project file. That way, your project's settings appear after the defaults, so that they override them.
+The *Microsoft.Common.props* file sets defaults you can override. It's imported (explicitly or implicitly) at the beginning of a project file. That way, your project's settings appear after the defaults, so that they override them.
 
 The *Microsoft.Common.targets* file and the target files it imports defines the standard build process for .NET projects. It also provides extension points you can use to customize the build.
 
@@ -149,7 +149,7 @@ In implementation, *Microsoft.Common.targets* is a thin wrapper that imports *Mi
       Returns="@(TargetPathWithTargetPlatformMoniker)" />
 ```
 
-`BeforeBuild` and `AfterBuild` are extension points. They are empty in the *Microsoft.Common.CurrentVersion.targets* file, but projects can provide their own `BeforeBuild` and `AfterBuild` targets with tasks that need to be performed before or after the main build process. `AfterBuild` is run before the no-op target, `Build`, because `AfterBuild` appears in the DependsOn attribute on the `Build` target, but it occurs after `CoreBuild`.
+`BeforeBuild` and `AfterBuild` are extension points. They're empty in the *Microsoft.Common.CurrentVersion.targets* file, but projects can provide their own `BeforeBuild` and `AfterBuild` targets with tasks that need to be performed before or after the main build process. `AfterBuild` is run before the no-op target, `Build`, because `AfterBuild` appears in the DependsOn attribute on the `Build` target, but it occurs after `CoreBuild`.
 
 The `CoreBuild` target contains the calls to the build tools, as follows:
 
@@ -196,7 +196,7 @@ The following table describes these targets; some targets are applicable only to
 | ResolveAssemblyReferences| Locate referenced assemblies. |
 | ResolveReferences | Consists of `ResolveProjectReferences` and `ResolveAssemblyReferences` to find all the dependencies |
 | PrepareResources | Process resource files |
-| ResolveKeySource| Resolve the strong name key used to sign the assembly as well as the certificate used to sign the [ClickOnce](../deployment/clickonce-security-and-deployment.md) manifests. |
+| ResolveKeySource| Resolve the strong name key used to sign the assembly and the certificate used to sign the [ClickOnce](../deployment/clickonce-security-and-deployment.md) manifests. |
 | Compile | Invokes the compiler |
 | ExportWindowsMDFile | Generate a [WinMD](/uwp/winrt-cref/winmd-files) file from the WinMDModule files generated by the compiler. |
 | UnmanagedUnregistration | Remove/clean the [COM Interop](/dotnet/standard/native-interop/cominterop) registry entries from a previous build |
@@ -204,7 +204,7 @@ The following table describes these targets; some targets are applicable only to
 | CreateSatelliteAssemblies | Create one satellite assembly for every unique culture in the resources. |
 | Generate Manifests | Generates [ClickOnce](../deployment/clickonce-security-and-deployment.md) application and deployment manifests or a native manifest. |
 | GetTargetPath | Return an item containing the build product (executable or assembly) for this project, with metadata. |
-| PrepareForRun | Copy the build outputs to the final directory if they have changed. |
+| PrepareForRun | Copy the build outputs to the final directory if they've changed. |
 | UnmanagedRegistration | Set registry entries for [COM Interop](/dotnet/standard/native-interop/cominterop) |
 | IncrementalClean | Remove files that were produced in a prior build but weren't produced in the current build. This is necessary to make `Clean` work in incremental builds. |
 | PostBuildEvent | Extension point for projects to define tasks to run after build |
