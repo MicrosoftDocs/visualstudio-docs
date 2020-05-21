@@ -13,7 +13,7 @@ ms.workload:
 
 # Using multiple profiler tools simultaneously
 
-The Performance Profiler was designed with the idea that multiple tools can be used in the same session to aid in understanding performance issues. Most tools in the Performance Profiler support running concurrently such as the [CPU Usage](../profiling/cpu-usage.md), [.NET Async Tool](../profiling/analyze-async.md), and [Database](../profiling/analyze-database.md) tool. To run tools simultaneously in the same diagnostic session simply click the check box next to them and then start the diagnostic session.
+The Performance Profiler was designed with the idea that multiple tools can be used in the same session to aid in understanding performance issues. Most tools in the Performance Profiler support running concurrently such as the [CPU Usage](../profiling/cpu-usage.md), [.NET Async Tool](../profiling/analyze-async.md), and [Database](../profiling/analyze-database.md) tool. To run tools simultaneously in the same diagnostic session, click the check box next to them and then start the diagnostic session.
 
 ![Diag Hub All Tools Selected](../profiling/media/diaghuballtoolsselected.png "Diag Hub All Tools Selected")
 
