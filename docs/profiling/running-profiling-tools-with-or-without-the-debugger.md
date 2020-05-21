@@ -103,7 +103,7 @@ The arguments that must be included are:
 
 - **id** - Identifies the collection session. The ID must be a number between 1-255
 - **appToLaunch** - The executable to launch and profile
-- **configFile** - Configuration file for the collection agent you wish to launch. For more information see Configuration files for agents.
+- **configFile** - Configuration file for the collection agent you wish to launch. For more information, see Configuration files for agents.
 
 3. To stop collection and view your results follow the steps under Stopping Collection.
 
