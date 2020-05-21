@@ -92,15 +92,20 @@ The middle pane is the "code" part of the XAML code editor. It includes most of 
 
 #### Quick actions
 
-You can use [Quick Actions](..ide/quick-actions.md) to complete many "housekeeping" tasks while you're coding, such as removing unnecessary usings.
+You can use [Quick Actions](..ide/quick-actions.md) to refactor, generate, or otherwise modify code with a single action.
 
-Here's how: Hover over a using statement, choose the lightbulb icon, and then choose **Remove Unnecessary Usings** from the drop-down list. 
+**Remove unnecessary usings**
 
+One useful task is to remove the unnecessary usings from your code. Here's how:
+
+1. Hover over a using statement, choose the lightbulb icon, and then choose **Remove Unnecessary Usings** from the drop-down list.
 ![Screenshot of the XAML code editor's "Remove Unnecessary Usings" option from the Quick Actions menu](media/xaml-code-editor-remove-usings.png)
+1. Choose whether you want to fix all occurrences in the **Document**, the **Project**, or the **Solution**.
+1. View the **Preview** dialog, and then choose **Apply**. 
 
-You can also access this IntelliSense feature from the menu bar. To do so, choose **Edit** > **IntelliSense** > **Remove and Sort Usings**.
+You can also access this feature from the menu bar. To do so, choose **Edit** > **IntelliSense** > **Remove and Sort Usings**.
 
-For more information, see the [Quick Actions](..ide/quick-actions.md) page and the [Sort usings](../ide/reference/sort-usings.md) page.
+For more information about usings settings, see the [Sort usings](../ide/reference/sort-usings.md) page.
 
 #### Change tracking
 
@@ -168,43 +173,38 @@ For more information about how to change the default settings of the scroll bar,
 
 [Features of the code editor](../ide/writing-code-in-the-code-and-text-editor.md)
 
-[Quick Actions](../ide/quick-actions.md)
-
-[Sort usings](../ide/reference/sort-usings.md)
-
 ## XAML optional settings
 
 You can use the [Options](../ide/reference/options-dialog-box-visual-studio.md) dialog box to change the default settings for the XAML code editor. To view the settings, choose **Tools** > **Options** > **Text Editor** > **XAML**. 
 
 ![Screenshot of the Options list for the XAML text editor](media/xaml-tools-options.png)
 
-In the [Options](../ide/reference/options-text-editor-xaml-formatting.md) dialog box for XAML, the following first three items are universal to all the Visual Studio IDE.
+> [!NOTE]
+> You can also use keyboard shortcuts to access the Options dialog box. Here's how: Press **Ctrl**+**Q** to search the IDE, type **Options**, and then press **Enter**. Next, press **Ctrl**+**E** to search the Options dialog box, type **Text Editor**, press **Enter**, type **XAML**, and then press **Enter**.
+>  
+> For more information about keyboard shortcuts, see the [Shortcut tips for Visual Studio](../ide/productivity-shortcuts.md#code-editor) page.
+
+### Universal text editor options
+
+In the [Options](../ide/reference/options-text-editor-xaml-formatting.md) dialog box for XAML, the following first three items are universal to all languages that the Visual Studio IDE supports. Visit the linked information in the following table to find out more about these options and how to use them.
 
 |Name  |More info  |
 |---------|---------|
-|General  |         |
-|Scroll bars | [Customize the scroll bar](../ide/how-to-track-your-code-by-customizing-the-scrollbar.md)  |
-|Tabs  |         |
+|General  | [Options dialog box: Text Editor > All Languages](../ide/reference/options-text-editor-all-languages.md) |
+|Scroll bars | [Options, Text Editor, All Languages, Scroll Bars]() |
+|Tabs  |  [Options, Text Editor, All Languages, Tabs](../ide/reference/options-text-editor-all-languages-tabs.md) |
 
-For more information about these settings, see the []() page
+### XAML-specific text editor options
 
-### XAML-specific options
+The following table lists the settings in the [Options](../ide/reference/options-text-editor-xaml-formatting.md) dialog box that can enhance your editing experience when you develop XAML apps. Visit the linked information to find out more about these options and how to use them.
 
-Here are the settings in the Options dialog that can enhance your editing experience when you develop XAML apps.
+|Name  |More info  |
+|---------|---------|
+|Formatting | [Options, Text Editor, XAML, Formatting](../ide/reference/options-text-editor-xaml-formatting.md) |
+|Miscellaneous |  [Options, Text Editor, XAML, Miscellaneous](..ide/reference/options-text-editor-xaml-miscellaneous.md) |
 
-- Formatting Options (XAML specific) described
-- General
-- Spacing
-- Misc.
-- Capitalize event handlers there to support proper casing, off by default since its new
-
-
-> [!NOTE]
-> You can also use keyboard shortcuts to access the Options dialog box. Here's how: 
->
-> Press **Ctrl**+**Q** to search the IDE, type **Options**, and then press **Enter**. Next, press **Ctrl**+**E** to search the Options dialog box, type **Text Editor**, press **Enter**, type **XAML**, and then press **Enter**.
->  
-> For more information about keyboard shortcuts, see the [Shortcut tips for Visual Studio](../ide/productivity-shortcuts.md#code-editor) page.
+> [!TIP]
+> The **Capitalize event handler method name** setting in the **Miscellaneous** section is especially useful to XAML developers. This setting is *off* by default because it's new, but we suggest that you set it to *on* to support proper casing in your code.
 
 ## Next steps
 
