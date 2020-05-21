@@ -105,7 +105,7 @@ One useful task is to remove the unnecessary usings from your code. Here's how:
 
 You can also access this feature from the menu bar. To do so, choose **Edit** > **IntelliSense** > **Remove and Sort Usings**.
 
-For more information about usings settings, see the [Sort usings](../ide/reference/sort-usings.md) page.
+For more information about usings settings, see the [Sort usings](../ide/reference/sort-usings.md) page. And, for more information about some of the more typical ways that developers use Quick Actions, see the [Common Quick Actions](../ide/common-quick-actions.md) page.
 
 #### Change tracking
 
@@ -125,7 +125,11 @@ When you are editing your code in the XAML code editor, there are several featur
 
 Some of these features are available universally in the Visual Studio IDE, and some are specific to the XAML code editor. Here's what each feature does and how it's useful.
 
-
+|Name  |More info  |
+|---------|---------|
+|View Code  | []() |
+|View Designer | []()  |
+|Quick Actions and Refactorings  |  []() |
 
 
 - View Code. This setting  
