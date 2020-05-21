@@ -6,6 +6,8 @@
       href: ide-tour.md
     - name: Visual Studio for Mac for Windows Users
       href: vsmac-for-windows-users.md
+    - name: Integrated Terminal
+      href: integrated-terminal.md
 - name: Installation
   items: 
     - name: Installing Visual Studio 2019 for Mac
