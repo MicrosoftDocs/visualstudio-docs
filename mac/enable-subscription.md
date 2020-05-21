@@ -3,7 +3,7 @@ title: "Enable Subscription"
 description: This article describes how to use your Microsoft account to enable your subscription and unlock features in Visual Studio for Mac
 author: heiligerdankgesang
 ms.author: dominicn
-ms.date: 09/18/2019
+ms.date: 01/21/2020
 ms.assetid: 898DFEB8-5757-4CCE-8AD2-8BC7706F5855
 ---
 
