@@ -1,6 +1,6 @@
 ---
 title: XAML code editor
-ms.date: 05/22/2020
+ms.date: 05/26/2020
 ms.topic: conceptual
 monikerRange: vs-2019
 author: TerryGLee
@@ -9,20 +9,22 @@ manager: jillfra
 ---
 # XAML code editor
 
-The XAML code editor in the [Visual Studio IDE](../get-started/visual-studio-ide.md) includes all the tools you need to create WPF and UWP apps for the Windows platform. This article outlines the role the code editor plays when you develop XAML-based apps, and on the features that are unique to the XAML code editor in Visual Studio 2019. 
+The XAML code editor in the [Visual Studio IDE](../get-started/visual-studio-ide.md) includes all the tools you need to create WPF and UWP apps for the Windows platform. This article outlines the role the code editor plays when you develop XAML-based apps, and on the features that are unique to the XAML code editor in Visual Studio 2019.
 
-To start, let's take a look at the IDE (integrated development environment) with an open WPF project. The following image shows several of the key IDE tools you'll use along with the XAML code editor. From the bottom left of the image going clockwise, they are: 
+To start, let's take a look at the IDE (integrated development environment) with an open WPF project. The following image shows several of the key IDE tools you'll use along with the XAML code editor. From the bottom left of the image going clockwise, they are:
 
-[![The Visual Studio 2019 IDE with an open WPF project](media/xaml-code-editor-overview-sml.png)](media/xaml-code-editor-overview-lrg.png#lightbox)
+<!-- [![The Visual Studio 2019 IDE with an open WPF project](media/xaml-code-editor-overview-sml.png)](media/xaml-code-editor-overview-lrg.png#lightbox) -->
 
-- The **[XAML code editor](#xaml-code-editor-ui)** window&mdash;the subject of this article&mdash;where you create and edit your code. 
+:::image type="content" source="media/xaml-code-editor-overview-sml.png" alt-text="The Visual Studio 2019 IDE with an open WPF project in XAML" lightbox="media/xaml-code-editor-overview-lrg.png":::
+
+- The **[XAML code editor](#xaml-code-editor-ui)** window&mdash;the subject of this article&mdash;where you create and edit your code.
 - The **[XAML Designer](creating-a-ui-by-using-xaml-designer-in-visual-studio.md)** window, where you design your UI.
 - The **[Toolbox](../ide/reference/toolbox.md)** dockable window, where you add controls to your UI.
 - The **[Debug](../debugger/debugger-feature-tour.md)** button, where you run your code and debug it. <br>(You can also edit your code in real-time while you're debugging with [XAML Hot Reload](xaml-hot-reload.md).)
-- The **[Solution Explorer](../ide/solutions-and-projects-in-visual-studio.md)** window, where you manage your files, projects, and solutions. 
+- The **[Solution Explorer](../ide/solutions-and-projects-in-visual-studio.md)** window, where you manage your files, projects, and solutions.
 - The **[Properties](../ide/reference/properties-window.md)** window, where you change the way your UI looks.
 
-To continue, let's learn more about the XAML code editor. 
+To continue, let's learn more about the XAML code editor.
 
 ## XAML code editor UI
 
@@ -40,7 +42,7 @@ Starting at the top left, and from left to right, there's a **Design** tab, a **
 
 ![Screenshot of the first of the two top rows of the XAML code editor window in Visual Studio 2019, in which UI elements on the left are highlighted](media/xaml-code-editor-top-row-left.png)
 
-Here's how they work: 
+Here's how they work:
 
 - The **Design** tab changes the focus from the XAML code editor to the XAML Designer.
 - The **Swap Panes** button reverses the location of the XAML Designer and the XAML code editor in the IDE.
@@ -72,7 +74,7 @@ In the second row of the top left, there are two Window dropdown lists. However,
 
 The Window dropdown lists have different functions, as follows:
 
-- The **Element: Window** on the left helps you view and navigate to sibling or parent elements. 
+- The **Element: Window** on the left helps you view and navigate to sibling or parent elements.
 
   Specifically, it shows you an outline-like view that reveals the tag structure of your code. When you select from the list, your focus in the code editor will snap to the line of code that includes the element you selected.
 
@@ -101,7 +103,7 @@ One useful task is to remove the unnecessary usings from your code. Here's how:
 1. Hover over a using statement, choose the lightbulb icon, and then choose **Remove Unnecessary Usings** from the drop-down list.
 ![Screenshot of the XAML code editor's "Remove Unnecessary Usings" option from the Quick Actions menu](media/xaml-code-editor-remove-usings.png)
 1. Choose whether you want to fix all occurrences in the **Document**, the **Project**, or the **Solution**.
-1. View the **Preview** dialog, and then choose **Apply**. 
+1. View the **Preview** dialog, and then choose **Apply**.
 
 You can also access this feature from the menu bar. To do so, choose **Edit** > **IntelliSense** > **Remove and Sort Usings**.
 
@@ -111,25 +113,25 @@ For more information about usings settings, see the [Sort usings](../ide/referen
 
 The color of the left margin allows you to keep track of the changes you have made in a file. Here's how the colors relate to the actions you take:
 
-- Changes you have made since the file was opened but not saved are denoted by a **yellow** bar on the left margin (known as the selection margin). 
-- After you have saved the changes (but before closing the file), the bar turns **green**. 
-- If you undo a change after you have saved the file, the bar turns **orange**. 
+- Changes you have made since the file was opened but not saved are denoted by a **yellow** bar on the left margin (known as the selection margin).
+- After you have saved the changes (but before closing the file), the bar turns **green**.
+- If you undo a change after you have saved the file, the bar turns **orange**.
 
 To turn this feature off and on, change the **Track changes** option in the **Text Editor** settings (**Tools** > **Options** > **Text Editor**).
 
 #### Right-click menu
 
-When you are editing your code in the XAML code editor, there are several features that you can access by using the right-click menu. 
+When you are editing your code in the XAML code editor, there are several features that you can access by using the right-click menu.
 
 ![Screenshot of the XAML code editor's right-click menu in Visual Studio 2019](media/xaml-code-editor-right-click-menu.png)
 
-Most of these features are available universally in the Visual Studio IDE, while some are specific to the XAML code editor. Here's what each feature does and how it's useful.
+Most of these features are available universally in the Visual Studio IDE, while some are specific to using a code editor along with a Design window. Here's what each feature does and how it's useful.
 
 |Name  |More info  |
 |---------|---------|
-|View Code  | Opens the programming language code window, which is typically tabbed next to the default view that includes the Design window and the XAML code editor. |
-|View Designer | Opens the default view that includes the Design window and the XAML code editor. (If you are already in the default view, it does nothing.)  |
-|Quick Actions and Refactorings | Refactors, generates, or otherwise modifies code with a single action. You'll see a lightbulb icon when a quick action or refactoring is available. <br>See also: [Quick Actions](..ide/quick-actions.md) and [Refactor code](../ide/refactoring-in-visual-studio.md).|
+|View Code | Opens the programming language code window, which is typically tabbed next to the default view that includes the Design window and the XAML code editor. |
+|View Designer | Opens the default view that includes the Design window and the XAML code editor. (If you are already in the default view, it does nothing.) |
+|Quick Actions and Refactorings | Refactors, generates, or otherwise modifies code with a single action. When you hover over code, you'll see a lightbulb icon when a quick action or refactoring is available. <br>See also: [Quick Actions](..ide/quick-actions.md) and [Refactor code](../ide/refactoring-in-visual-studio.md).|
 | Rename... | Renames namespaces only. If you don't have a namespace to rename, you'll receive an error message that says "Only namespace prefixes and be renamed." |
 | Remove and Sort Namespaces | Removes unused namespaces and then sorts those that remain. |
 | Peek Definition | Previews the definition of a type without leaving your current location in the editor.<br> See also: [Peek Definition](..de/go-to-and-peek-definition.md#peek-definition) and [View and edit code by using Peek Definition](../ide/how-to-view-and-edit-code-by-using-peek-definition-alt-plus-f12.md) |
@@ -148,7 +150,7 @@ The scroll bar can do more than scroll through your code. You can also use it to
 
 #### Split the code window
 
-In the scroll bar of the code editor, there's a **Split** button at the top right. When you choose it, you can open another code editor pane. This is useful because they operate independently of each other, so you can use them to work on code in different locations. 
+In the scroll bar of the code editor, there's a **Split** button at the top right. When you choose it, you can open another code editor pane. This is useful because they operate independently of each other, so you can use them to work on code in different locations.
 
 ![Screenshot of the XAML code editor, middle pane only, in Visual Studio 2019](media/code-editor-split-window-button.png)
 
@@ -156,28 +158,64 @@ For more information about how to split an editor window, see the [Manage editor
 
 #### Use annotations or map mode
 
-You can also change how the scroll bar looks and what additional features it contains. For example, many people like to include *annotations* in the scroll bar, which provide visual cues such as code changes, breakpoints, bookmarks, errors, and caret position. Others appreciate using *map mode*, which displays lines of code, in miniature, on the scroll bar. 
+You can also change how the scroll bar looks and what additional features it contains. For example, many people like to include *annotations* in the scroll bar, which provide visual cues such as code changes, breakpoints, bookmarks, errors, and caret position.
+
+Others appreciate using *map mode*, which displays lines of code in miniature on the scroll bar. Developers who have a lot of code in a file might find that map mode tracks to lines of code more effectively than does the default scroll bar.
 
 For more information about how to change the default settings of the scroll bar, see the  [Customize the scroll bar](../ide/how-to-track-your-code-by-customizing-the-scrollbar.md) page.
 
 ## XAML-specific features
 
-- XAML support for snippets
-- XAML #regions
-- XAML Comments
-- Lightbulbs
-    - All Platforms - Adding missing namespace
-    - UWP – Add conditional XAML
-- XAML Rename namespace using F2
-- Structure Analyzers (dotted lines between the tags vertically)
-- Only between tags and not container properties
-- Settings
+Some of the following features are universally available in the Visual Studio IDE, yet there are added dimensions to these features that make coding easier for XAML developers.
 
-[Features of the code editor](../ide/writing-code-in-the-code-and-text-editor.md)
+### XAML support for snippets
+
+Add text here!
+
+### XAML #regions
+
+Add text here!
+
+### XAML Comments
+
+Add text here!
+
+### Lightbulbs
+
+Lightbulb icons that appear in your XAML code are part of the [Quick Actions](..ide/quick-actions.md) that you can use to refactor, generate, or otherwise modify code. Here's an example of how they can benefit your XAML coding experience:
+
+- Item 1
+- Item 2
+
+Add more text here!
+
+#### All Platforms - Adding missing namespace
+
+Add text here!  
+
+#### UWP – Add conditional XAML
+
+Add text here!
+
+### XAML Rename namespace using F2
+
+Add text here!
+
+### Structure Analyzers (dotted lines between the tags vertically)
+
+Add text here!
+
+### Only between tags and not container properties
+
+Add text here!
+
+### Settings
+
+For more information, see the [Features of the code editor](../ide/writing-code-in-the-code-and-text-editor.md) page.
 
 ## XAML optional settings
 
-You can use the [Options](../ide/reference/options-dialog-box-visual-studio.md) dialog box to change the default settings for the XAML code editor. To view the settings, choose **Tools** > **Options** > **Text Editor** > **XAML**. 
+You can use the [Options](../ide/reference/options-dialog-box-visual-studio.md) dialog box to change the default settings for the XAML code editor. To view the settings, choose **Tools** > **Options** > **Text Editor** > **XAML**.
 
 ![Screenshot of the Options list for the XAML text editor](media/xaml-tools-options.png)
 
@@ -188,7 +226,7 @@ You can use the [Options](../ide/reference/options-dialog-box-visual-studio.md) 
 
 ### Universal text editor options
 
-In the [Options](../ide/reference/options-text-editor-xaml-formatting.md) dialog box for XAML, the following first three items are universal to all languages that the Visual Studio IDE supports. Visit the linked information in the following table to find out more about these options and how to use them.
+In the [Options](../ide/reference/options-text-editor-xaml-formatting.md) dialog box for XAML, the following first three items are universal to all programming languages that the Visual Studio IDE supports. Visit the linked information in the following table to find out more about these options and how to use them.
 
 |Name  |More info  |
 |---------|---------|
