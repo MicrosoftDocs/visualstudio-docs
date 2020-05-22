@@ -34,6 +34,8 @@ Here's a look at the XAML code editor window itself.
 
 ![Screenshot of the XAML code editor window in Visual Studio 2019](media/xaml-code-editor-window.png)
 
+:::image type="content" source="media/xaml-code-editor-window.png) alt-text="Screenshot of the XAML code editor window in Visual Studio 2019":::
+
 Next, let's take a look at the functions of each of the UI elements in the code editor.
 
 ### Top left, first row
@@ -94,7 +96,7 @@ The middle pane is the "code" part of the XAML code editor. It includes most of 
 
 #### Quick actions
 
-You can use [Quick Actions](..ide/quick-actions.md) to refactor, generate, or otherwise modify code with a single action.
+You can use [Quick Actions](../ide/quick-actions.md) to refactor, generate, or otherwise modify code with a single action.
 
 **Remove unnecessary usings**
 
@@ -119,7 +121,7 @@ The color of the left margin allows you to keep track of the changes you have ma
 
 To turn this feature off and on, change the **Track changes** option in the **Text Editor** settings (**Tools** > **Options** > **Text Editor**).
 
-#### Right-click menu
+#### Right-click context menu
 
 When you are editing your code in the XAML code editor, there are several features that you can access by using the right-click menu.
 
@@ -131,7 +133,7 @@ Most of these features are available universally in the Visual Studio IDE, while
 |---------|---------|
 |View Code | Opens the programming language code window, which is typically tabbed next to the default view that includes the Design window and the XAML code editor. |
 |View Designer | Opens the default view that includes the Design window and the XAML code editor. (If you are already in the default view, it does nothing.) |
-|Quick Actions and Refactorings | Refactors, generates, or otherwise modifies code with a single action. When you hover over code, you'll see a lightbulb icon when a quick action or refactoring is available. <br>See also: [Quick Actions](..ide/quick-actions.md) and [Refactor code](../ide/refactoring-in-visual-studio.md).|
+|Quick Actions and Refactorings | Refactors, generates, or otherwise modifies code with a single action. When you hover over code, you'll see a lightbulb icon when a quick action or refactoring is available. <br>See also: [Quick Actions](../ide/quick-actions.md) and [Refactor code](../ide/refactoring-in-visual-studio.md).|
 | Rename... | Renames namespaces only. If you don't have a namespace to rename, you'll receive an error message that says "Only namespace prefixes and be renamed." |
 | Remove and Sort Namespaces | Removes unused namespaces and then sorts those that remain. |
 | Peek Definition | Previews the definition of a type without leaving your current location in the editor.<br> See also: [Peek Definition](..de/go-to-and-peek-definition.md#peek-definition) and [View and edit code by using Peek Definition](../ide/how-to-view-and-edit-code-by-using-peek-definition-alt-plus-f12.md) |
@@ -182,7 +184,7 @@ Add text here!
 
 ### Lightbulbs
 
-Lightbulb icons that appear in your XAML code are part of the [Quick Actions](..ide/quick-actions.md) that you can use to refactor, generate, or otherwise modify code. Here's an example of how they can benefit your XAML coding experience:
+Lightbulb icons that appear in your XAML code are part of the [Quick Actions](../ide/quick-actions.md) that you can use to refactor, generate, or otherwise modify code. Here's an example of how they can benefit your XAML coding experience:
 
 - Item 1
 - Item 2
@@ -241,7 +243,7 @@ The following table lists the settings in the [Options](../ide/reference/options
 |Name  |More info  |
 |---------|---------|
 |Formatting | [Options, Text Editor, XAML, Formatting](../ide/reference/options-text-editor-xaml-formatting.md) |
-|Miscellaneous |  [Options, Text Editor, XAML, Miscellaneous](..ide/reference/options-text-editor-xaml-miscellaneous.md) |
+|Miscellaneous |  [Options, Text Editor, XAML, Miscellaneous](../ide/reference/options-text-editor-xaml-miscellaneous.md) |
 
 > [!TIP]
 > The **Capitalize event handler method name** setting in the **Miscellaneous** section is especially useful to XAML developers. This setting is *off* by default because it's new, but we suggest that you set it to *on* to support proper casing in your code.
