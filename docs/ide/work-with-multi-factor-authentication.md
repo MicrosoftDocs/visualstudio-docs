@@ -10,6 +10,7 @@ ms.workload:
 ---
 # How to use Visual Studio with accounts that require multi-factor authentication
 
+## What is multi-factor authentication?
 When collaborating with external guest users, it's a good idea to protect your apps and data with conditional access (CA) policies such as multi-factor authentication (MFA).  
 
 Once enabled, guest users will need more than just a username and password to access your resources as they'll need to satisfy additional security requirements to access them. MFA policies can be enforced at the tenant, app, or individual guest user level, the same way that they are enabled for members of your own organization. 
@@ -22,7 +23,7 @@ Visual Studio 2019 Update 16.6 added new capabilities that streamline how users 
 
 Warning: Not using this workflow could trigger a degraded experience resulting in multiple additional authentication prompts when adding or re-authenticating Visual Studio accounts. 
 
-## Enabling system web browser  
+### Enabling system web browser  
 
  
 
@@ -32,7 +33,7 @@ To enable this workflow, go to Visual Studio's Options dialog (Tools > Options�
 
  
 
-Sign in or adding additional accounts with CA / MFA policies 
+### Sign in or adding additional accounts with CA / MFA policies 
 
  
 
@@ -54,7 +55,7 @@ Both actions will open your system's default web browser and ask you to sign int
 
  
 
-Reauthenticating an account  
+## Reauthenticating an account  
 
  
 
@@ -68,4 +69,4 @@ Clicking on "Reenter your credentials" will open your system's default web brows
 
  
 
-[!NOTE] Keep your browser open through the whole process for the best experience as closing the browser might trigger additional authorization prompts. 
+> [!NOTE] Keep your browser open through the whole process for the best experience as closing the browser might trigger additional authorization prompts. 
