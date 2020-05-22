@@ -585,6 +585,8 @@
           href: ca2009.md
         - name: "CA2011: Do not assign property within its setter"
           href: ca2011.md
+        - name: "CA2015: Do not define finalizers for types derived from MemoryManager<T>"
+          href: ca2015.md
       - name: Security warnings
         items:
         - name: Overview
@@ -796,10 +798,16 @@
           href: ca5389.md
         - name: "CA5390: Do not hard-code encryption key"
           href: ca5390.md
+        - name: "CA5394: Do not use insecure randomness"
+          href: ca5394.md
         - name: "CA5397: Do not use deprecated SslProtocols values"
           href: ca5397.md
         - name: "CA5398: Avoid hardcoded SslProtocols values"
           href: ca5398.md
+        - name: "CA5401: Do not use CreateEncryptor with non-default IV"
+          href: ca5401.md
+        - name: "CA5402: Use CreateEncryptor with the default IV"
+          href: ca5402.md
         - name: "CA5403: Do not hard-code certificate"
           href: ca5403.md
       - name: Usage warnings
