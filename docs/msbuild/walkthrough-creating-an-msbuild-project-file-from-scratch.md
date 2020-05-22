@@ -43,7 +43,7 @@ To complete the walkthrough, you must have Visual Studio installed because it in
 
 ## Extend the path
 
-Before you can use MSBuild, you must extend the PATH environment variable to include all the required tools. You can use the **Developer Command Prompt for Visual Studio**, or to set up the environment in an ordinary command prompt, or a scripting environment, you can run *VSDevCmd.bat* in the *Common7/Tools* subfolder of a Visual Studio installation.
+Before you can use MSBuild, you must extend the PATH environment variable to include all the required tools. You can use the **Developer Command Prompt for Visual Studio**. Search for it on Windows 10 in the search box in the Windows task bar. To set up the environment in an ordinary command prompt or in a scripting environment, run *VSDevCmd.bat* in the *Common7/Tools* subfolder of a Visual Studio installation.
 
 ## Create a minimal application
 
