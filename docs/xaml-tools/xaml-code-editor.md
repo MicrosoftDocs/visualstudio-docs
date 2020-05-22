@@ -127,22 +127,20 @@ Some of these features are available universally in the Visual Studio IDE, and s
 
 |Name  |More info  |
 |---------|---------|
-|View Code  | []() |
-|View Designer | []()  |
-|Quick Actions and Refactorings  |  []() |
-
-
-- View Code. This setting  
-
-- [Quick Actions](..ide/quick-actions.md): Quick Actions let you easily refactor, generate, or otherwise modify code with a single action.
-- Only expands a lightbulb if its available
-- Rename (namespaces only)
-- Peek Definition
-- Go To Definition
-- Snippet Features
-- Surround With
-- Insert Snippet
-- Outline
+|View Code  | Opens the programming language code window, which is typically tabbed next to the default view that includes the Design window and the XAML code editor. |
+|View Designer | Opens the default view that includes the Design window and the XAML code editor. (If you are already in the default view, it does nothing.)  |
+|Quick Actions and Refactorings | Refactors, generates, or otherwise modifies code with a single action. You'll see a lightbulb icon when a quick action or refactoring is available. <br>See also: [Quick Actions](..ide/quick-actions.md) and [Refactor code](../ide/refactoring-in-visual-studio.md).|
+| Rename... | Renames namespaces only. If you don't have a namespace to rename, you'll receive an error message that says "Only namespace prefixes and be renamed." |
+| Remove and Sort Namespaces | Removes unused namespaces and then sorts those that remain. |
+| Peek Definition | Previews the definition of a type without leaving your current location in the editor.<br> See also: [View type and member definitions](..de/go-to-and-peek-definition.md#peek-definition) |
+| Go To Definition | Navigates to the source of a type or member, and opens the result in a new tab. See also: [Peek Definition](../ide/go-to-and-peek-definition.md#go-to-definition) and [View and edit code by using Peek Definition](../ide/how-to-view-and-edit-code-by-using-peek-definition-alt-plus-f12.md) |
+| Surround with... |  |
+| Insert Snippet | Inserts a code snippet at the cursor location. |
+| Cut |  |
+| Copy |  |
+| Paste |  |
+| Outlining |  |
+| Source Control |  |
 
 ### Middle pane, scroll bar
 
