@@ -48,16 +48,16 @@ The Visual Studio SDK helps you extend Visual Studio features or integrate new f
  Take advantage of the [Image service and catalog](../extensibility/image-service-and-catalog.md) for great image management and support for high DPI and theming.
 
 ## Find and install existing Visual Studio extensions
- You can find Visual Studio extensions in the **Extensions and Updates** dialog on the **Tools** menu. For more information, see [Find and Use Visual Studio Extensions](../ide/finding-and-using-visual-studio-extensions.md). You can also find extensions in the [Visual Studio Marketplace](https://marketplace.visualstudio.com/)
+ You can find Visual Studio extensions in the **Manage Extensions** dialog on the **Extensions** menu. For more information, see [Manage extensions for Visual Studio](../ide/finding-and-using-visual-studio-extensions.md). You can also find extensions in the [Visual Studio Marketplace](https://marketplace.visualstudio.com/)
 
 ## Visual Studio SDK reference
- You can find the Visual Studio SDK API reference at [Visual Studio SDK Reference](../extensibility/visual-studio-sdk-reference.md).
+ You can find the Visual Studio SDK API reference at [Visual Studio SDK reference](../extensibility/visual-studio-sdk-reference.md).
 
 ## Visual Studio SDK samples
  You can find open source examples of VS SDK extensions on GitHub at [Visual Studio Samples](https://github.com/Microsoft/VSSDK-Extensibility-Samples). This GitHub repo contains samples that illustrate various extensible features in Visual Studio.
 
 ## Other Visual Studio SDK resources
- If you have questions about the VSSDK or want to share your experiences developing extensions, you can use the [Visual Studio Extensibility Forum](https://social.msdn.microsoft.com/Forums/vstudio/home?forum=vsx) or the [ExtendVS Gitter Chatroom](https://gitter.im/Microsoft/extendvs).
+ If you have questions about the VSSDK or want to share your experiences developing extensions, you can use the [Visual Studio Integrate Forum](https://social.msdn.microsoft.com/Forums/vstudio/home?forum=vsx) or the [ExtendVS Gitter Chatroom](https://gitter.im/Microsoft/extendvs).
 
  You can find more information in the [VSX Arcana blog](https://blogs.msdn.microsoft.com/vsx/) and a number of blogs written by Microsoft MVPs:
 
