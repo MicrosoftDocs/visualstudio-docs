@@ -342,4 +342,4 @@ To get help for functions you can use at the Windows PowerShell command prompt, 
 | Test-WebApplication |This function isn't implemented. You can add commands in this function to test your application. |
 
 ## Next steps
-Learn more about PowerShell scripting by reading [Scripting with Windows PowerShell](https://technet.microsoft.com/library/bb978526.aspx) and see other Azure PowerShell scripts at the [Script Center](https://azure.microsoft.com/documentation/scripts/).
+Learn more about PowerShell scripting by reading [Scripting with Windows PowerShell](/powershell/scripting/overview) and see other Azure PowerShell scripts at the [Script Center](https://azure.microsoft.com/documentation/scripts/).
