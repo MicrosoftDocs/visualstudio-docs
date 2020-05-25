@@ -776,6 +776,10 @@
           href: ca5380.md
         - name: "CA5381: Ensure certificates are not added to root store"
           href: ca5381.md
+        - name: "CA5384: Do not use digital signature algorithm (DSA)"
+          href: ca5384.md
+        - name: "CA5385: Use Rivest–Shamir–Adleman (RSA) algorithm with sufficient key size"
+          href: ca5385.md
         - name: "CA5386: Avoid hardcoding SecurityProtocolType value"
           href: ca5386.md
         - name: "CA5389: Do not add archive item's path to the target file system path"
