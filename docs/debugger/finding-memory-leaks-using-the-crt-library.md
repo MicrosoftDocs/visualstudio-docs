@@ -66,7 +66,7 @@ By default, `_CrtDumpMemoryLeaks` outputs the memory-leak report to the **Debug*
 You can use `_CrtSetReportMode` to redirect the report to another location, or back to the **Output** window as shown here:
 
 ```cpp
-_CrtSetReportMode( _CRT_ERROR, _CRTDBG_MODE_DEBUG );
+_CrtSetReportMode( _CRT_WARN, _CRTDBG_MODE_DEBUG );
 ```
 
 ## Interpret the memory-leak report

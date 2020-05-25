@@ -70,7 +70,7 @@ Represents a native manifest file or a reference to such a file.
 
 ### ProjectReference
 
-Represents a reference to another project.
+Represents a reference to another project. `ProjectReference` items are transformed into [Reference](#reference) items by the `ResolveProjectReferences` target, so any valid metadata on a Reference may be valid on `ProjectReference`, if the transformation process doesn't overwrite it.
 
 |Item metadata name|Description|
 |---------------|-----------------|
