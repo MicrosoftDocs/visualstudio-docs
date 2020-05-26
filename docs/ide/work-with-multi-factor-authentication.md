@@ -32,7 +32,7 @@ To enable this workflow, go to Visual Studio's Options dialog **(Tools > Options
 
 ### Sign into additional accounts with MFA policies 
 Once the system web browser workflow is enabled, you can sign in or add accounts to Visual Studio as you normally would, via the Account Settings dialog **(File > Account Settings…)**.   
-
+</br>
 :::image type="content" source="media/add-personalization-account.png" alt-text="Add a new personalization account to Visual Studio." border="false":::
 
 This action will open your system's default web browser, ask you to sign into your account, and validate any required MFA policy. 
