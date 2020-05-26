@@ -76,11 +76,11 @@ landingContent:
         links:
           - text: PerfTips
             url: perftips.md
-          - text: Optimizing Profiler Settings
+          - text: Optimizing profiler settings
             url: optimizing-profiler-settings.md
           - text: Measure CPU usage from the command line
             url: profile-apps-from-command-line.md
-          - text: Understanding Performance Collection Methods
+          - text: Understanding performance collection methods
             url: understanding-performance-collection-methods.md
           - text: Using multiple profiler tools simultaneously
             url: using-multiple-profiler-tools-simultaneously.md
