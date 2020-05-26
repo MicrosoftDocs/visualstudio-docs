@@ -80,6 +80,8 @@ landingContent:
             url: optimizing-profiler-settings.md
           - text: Measure CPU usage from the command line
             url: profile-apps-from-command-line.md
+          - text: Understanding Performance Collection Methods
+            url: understanding-performance-collection-methods.md
           - text: Analyze resource consumption (XAML)
             url: application-timeline.md
           - text: Analyze GPU usage (Direct3D)
