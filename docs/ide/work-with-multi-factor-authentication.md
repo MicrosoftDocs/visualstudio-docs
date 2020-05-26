@@ -51,3 +51,9 @@ Clicking on **Reenter your credentials** will open your system's default web bro
 
 > [!NOTE] 
 > Keep your browser open through the whole process for the best experience as closing the browser might trigger additional authorization prompts. 
+
+## See also
+
+- [Sign in to Visual Studio](signing-in-to-visual-studio.md)
+- [Sign in to Visual Studio for Mac](/visualstudio/mac/signing-in)
+- [Work with multiple user accounts](work-with-multiple-user-accounts.md)
