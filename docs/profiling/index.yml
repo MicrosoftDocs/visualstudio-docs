@@ -76,6 +76,8 @@ landingContent:
         links:
           - text: PerfTips
             url: perftips.md
+          - text: Optimizing Profiler Settings
+            url: optimizing-profiler-settings.md
           - text: Measure CPU usage from the command line
             url: profile-apps-from-command-line.md
           - text: Analyze resource consumption (XAML)
@@ -88,5 +90,6 @@ landingContent:
             url: analyze-energy-use-in-store-apps.md
           - text: Application timeline
             url: application-timeline.md
+          
           
         
