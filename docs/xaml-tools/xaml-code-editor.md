@@ -103,7 +103,9 @@ You can use [Quick Actions](../ide/quick-actions.md) to refactor, generate, or o
 One useful task is to remove the unnecessary usings from your code. Here's how:
 
 1. Hover over a using statement, choose the lightbulb icon, and then choose **Remove Unnecessary Usings** from the drop-down list.
-![Screenshot of the XAML code editor's "Remove Unnecessary Usings" option from the Quick Actions menu](media/xaml-code-editor-remove-usings.png)
+
+    ![Screenshot of the XAML code editor's "Remove Unnecessary Usings" option from the Quick Actions menu](media/xaml-code-editor-remove-usings.png)
+    
 1. Choose whether you want to fix all occurrences in the **Document**, the **Project**, or the **Solution**.
 1. View the **Preview** dialog, and then choose **Apply**.
 
