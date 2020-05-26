@@ -72,7 +72,7 @@ For additional information, refer to the [detailed comparison](https://azure.mic
 
 ## Docker Container Registry
 
-If your application is using Docker you can publish your containerized application to a Docker Container Registry.
+If your application is using Docker, you can publish your containerized application to a Docker Container Registry.
 
 ### When to choose Docker Container Registry
 
