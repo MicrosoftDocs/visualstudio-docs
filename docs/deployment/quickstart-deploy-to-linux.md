@@ -32,7 +32,7 @@ This article describes how to use the **Publish** tool for one-time deployment.
 
     ![Choose publish target](../deployment/media/quickstart-publish-azure.png)
 
-1. Select **Azure App Service (Linux) **and **Next**.
+1. Select **Azure App Service (Linux)** and **Next**.
 
     ![Choose Azure App Service on Linux](../deployment/media/quickstart-publish-linux-select-azure-service.png)
 
@@ -40,11 +40,11 @@ This article describes how to use the **Publish** tool for one-time deployment.
 
     ![Link to create new instance of Azure App Service](../deployment/media/quickstart-publish-linux-create-new-link.png)
 
-1. In the **Create Azure App Service (Linux)** dialog the **App Name**, **Resource Group**, and **App Service Plan** entry fields are populated. You can keep these names or change them. When ready select **Create**.
+1. In the **Create Azure App Service (Linux)** dialog, the **App Name**, **Resource Group**, and **App Service Plan** entry fields are populated. You can keep these names or change them. When ready, select **Create**.
 
     ![Choose Azure App Service](../deployment/media/quickstart-publish-linux-create-new-dialog.png)
 
-1. In the **Publish** dialog the newly created instance has been automatically selected. When ready click **Finish**.
+1. In the **Publish** dialog, the newly created instance has been automatically selected. When ready, click **Finish**.
 
     ![Choose Azure App Service](../deployment/media/quickstart-publish-linux-select-instance.png)
 
