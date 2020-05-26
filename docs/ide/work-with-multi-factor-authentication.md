@@ -29,40 +29,20 @@ To enable this workflow, go to Visual Studio's Options dialog **(Tools > Options
 
 :::image type="content" source="media/select-system-web-browser.png" alt-text="Select system web browser from the menu.":::
 
-### Sign in or adding additional accounts with CA / MFA policies 
+### Sign into additional accounts with MFA policies 
+Once the system web browser workflow is enabled, you can sign in or add accounts to Visual Studio as you normally would, via the Account Settings dialog **(File > Account Settings…)**.   
 
- 
+:::image type="content" source="media/add-personalization-account.png" alt-text="Add a new personalization account to Visual Studio." border="false":::
 
-Once the System web browser flow is enabled, you can add accounts to Visual Studio as you normally would via the Account Settings dialog (File > Account Settings…).   
+This will open your system's default web browser, ask you to sign into your account, and validate any required MFA policy. 
 
- 
-
- 
-
- 
-
- 
-
-Both actions will open your system's default web browser and ask you to sign into your account and validate any required MFA policy. 
-
- 
-
-> [!NOTE] Keep your browser open through the whole process for the best experience as closing the browser might trigger additional authorization prompts. 
-
- 
+> [!NOTE] Keep your browser open through the whole process for the best experience, as closing the browser might trigger additional authorization prompts. 
 
 ## Reauthenticating an account  
-
- 
-
 If there's a problem with your account, Visual Studio might ask you to reenter your account credentials.  
 
- 
+:::image type="content" source="media/reauthenticate-account.png" alt-text="Reauthenticate your Visual Studio account.":::
 
- 
-
-Clicking on "Reenter your credentials" will open your system's default web browser and attempt to refresh your credentials without your input. If not possible, you'll be asked to sign into your account and validate any required MFA policy. 
-
- 
+Clicking on **Reenter your credentials** will open your system's default web browser and attempt to automatically refresh your credentials. If unsuccessful, you'll be asked to sign into your account and validate any required MFA policy. 
 
 > [!NOTE] Keep your browser open through the whole process for the best experience as closing the browser might trigger additional authorization prompts. 
