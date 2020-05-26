@@ -19,6 +19,8 @@ Once enabled, guest users will need more than just a username and password to ac
 ## How is the Visual Studio experience affected when using CA policies such as MFA?
 Versions of Visual Studio prior to 16.6 may have degraded authentication experiences when used with accounts that have enabled CA policies such as MFA, and are associated with two or more tenants.
 
+These issues can cause your instance of Visual Studio to prompt reauthentication multiple times per day. You may have to re-enter your credentials for previously authenticated tenants, even during the course of the same Visual Studio session.
+
 ## Using Visual Studio with MFA policies
 In the 16.6 release, we added new capabilities to Visual Studio 2019 that streamline how users can access resources secured via CA policies such as MFA. To use this enhanced workflow, you'll need to opt into using your system's default web browser as the mechanism to add and reauthenticate Visual Studio accounts.  
 
