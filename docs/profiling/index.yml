@@ -82,6 +82,8 @@ landingContent:
             url: profile-apps-from-command-line.md
           - text: Understanding Performance Collection Methods
             url: understanding-performance-collection-methods.md
+          - text: Using multiple profiler tools simultaneously
+            url: using-multiple-profiler-tools-simultaneously.md
           - text: Analyze resource consumption (XAML)
             url: application-timeline.md
           - text: Analyze GPU usage (Direct3D)
