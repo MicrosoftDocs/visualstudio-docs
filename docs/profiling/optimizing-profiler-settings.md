@@ -29,15 +29,15 @@ Once downloaded, symbols are cached, which will speed up future analysis but sti
 
 ## Show External Code
 
-Many of the tools within the **Performance Profiler** and **Diagnostic Tools** window have a concept of user code versus external code. User code is any code that is built by the open solution or open workspace. External code is anything else. By keeping the **Show external code** setting disabled, or **Show just my code** enabled, you allow the tools to aggregate external code to a single first level frame, greatly reducing the amount of processing that is required to show results. This allows users to see what was called in external code that created the slow down while keeping the data to be processed to a minimum. When possible, leave **Show external code** disabled and ensure that you have the solution or workspace open for the diagsession you are analyzing.
+Many of the tools within the **Performance Profiler** and **Diagnostic Tools** window have a concept of user code versus external code. User code is any code that's built by the open solution or open workspace. External code is anything else. By keeping the **Show external code** setting disabled, or **Show just my code** enabled, you allow the tools to aggregate external code to a single first level frame, greatly reducing the amount of processing that's required to show results. This allows users to see what was called in external code that created the slow down while keeping the data to be processed to a minimum. When possible, leave **Show external code** disabled and ensure that you have the solution or workspace open for the diagsession you are analyzing.
 
 ## Trace Duration
 
-Profiling smaller durations results in less data, which is faster to analyze. Typically we recommend that users try to limit their traces to no longer than five minutes of performance data. Some tools such as the [CPU Usage](../profiling/cpu-usage.md) tool allow you to pause data collection while it is running, so that you can limit the amount of data that is collected to the scenario that you are interested in analyzing.
+Profiling smaller durations results in less data, which is faster to analyze. Typically we recommend that you try to limit your traces to no longer than five minutes of performance data. Some tools, such as the [CPU Usage](../profiling/cpu-usage.md) tool, allow you to pause data collection while the tool is running, so that you can limit the amount of data that's collected to the scenario that you are interested in analyzing.
 
 ## Sampling Frequency
 
-Certain tools such as the [CPU Usage](../profiling/cpu-usage.md) tool and [NET Object Allocation](../profiling/dotnet-alloc-tool.md) tool allow you to adjust a sampling frequency. Increasing this sampling frequency lets you measure more precisely, but increases the amount of data that is generated. Typically it is best to leave this setting at the default rate unless a specific issue is being investigated.
+Certain tools, such as the [CPU Usage](../profiling/cpu-usage.md) tool and [NET Object Allocation](../profiling/dotnet-alloc-tool.md) tool, allow you to adjust a sampling frequency. Increasing this sampling frequency lets you measure more precisely, but increases the amount of data that's generated. Typically, it's best to leave this setting at the default rate unless a specific issue is being investigated.
 
 ![Diag Hub Properties Page](../profiling/media/diaghubpropertiespage.png "Diag Hub Properties Page")
 

@@ -31,13 +31,15 @@ After running the tool, you can see the function execution paths where objects a
 
 ![Stop Collection](../profiling/media/stopcollectionlighttheme.png "Stop Collection")
 
-5. Click on the **Allocation** tab and you should see an image similar to the one shown below.
+5. Click the **Allocation** tab and you should see an image similar to the one shown below.
+
 
 ![Allocation](../profiling/media/allocationview.png "Allocation")
 
 Congrats! You can now analyze the memory allocation of the objects.
 
-The .NET Object Allocation Tracking tool can slow down the application you are trying to profile during collection. If you find that performance of the .NET Object Allocation Tracking tool or application you are trying to profile is slow, and you don’t necessarily need to track every object, you can adjust the sampling rate to track every Nth object allocated. Click on the gear icon next to the .NET Object Allocation Tracking tool in the profiler summary page.
+The .NET Object Allocation Tracking tool can slow down the application you are trying to profile during collection. If you find that performance of the .NET Object Allocation Tracking tool or the application you are trying to profile is slow, and you don’t necessarily need to track every object, you can adjust the sampling rate to track every Nth object allocated. Click the gear icon next to the .NET Object Allocation Tracking tool in the profiler summary page.
+
 
 
 ![Settings For Dotnet Alloc Tool](../profiling/media/dotnetallocsettings.png "Settings For Dotnet Alloc Tool")
@@ -64,9 +66,11 @@ You can also select a time range on the graph to filter the tabular data to disp
 
 The allocation view allows you to see the location of objects that are allocating memory and how much memory those objects are allocating.
 
-- The **Type** column is a list of various classes and structures that are taking up memory. Double click on a type to view its backtrace (inverted call tree) and see items within that category taking up memory. (**Allocation** view only)
+- The **Type** column is a list of various classes and structures that are taking up memory. Double-click on a type to view its backtrace (inverted call tree) and see items within that category taking up memory. (**Allocation** view only)
+
 - The **Allocations** column shows the number of objects within a particular allocation type or function that are taking up memory (in the **Allocation**, **Call Tree**, and **Functions View**).
-- The **Bytes** and **Average Size (Bytes)** columns are not on by default. To enable them, right click on the **Type**, or **Allocations** columns and then click **Bytes** and **Average Size (Bytes)** options to add them to the chart. The two columns are similar to **Total (Allocations)** and **Self (Allocations)** except that instead of showing the number of objects taking up memory, they show the total amount of memory in bytes that those objects are taking up. (**Allocation** view only)
+- The **Bytes** and **Average Size (Bytes)** columns are not on by default. To enable them, right-click on the **Type** or **Allocations** columns, and then click the **Bytes** and **Average Size (Bytes)** options to add them to the chart. The two columns are similar to **Total (Allocations)** and **Self (Allocations)** except that instead of showing the number of objects taking up memory, they show the total amount of memory in bytes that those objects are taking up. (**Allocation** view only)
+
 - The **Module name** column shows the module that contains the function or process that is calling.
 - All of these columns are sortable. For the **Type**  or **Modules** column, the items are sorted alphabetically (either forward or backwards). For **Allocations**, **Bytes** and **Average Size (Bytes)**, you can sort numerically (either increasing or decreasing).
 
