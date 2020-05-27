@@ -1,6 +1,6 @@
 ---
 title: Work with accounts that require multi-factor authentication
-ms.date: 05/22/2020
+ms.date: 05/27/2020
 ms.topic: conceptual
 description: "Learn how to use Visual Studio with accounts that require multi-factor authentication."
 author: ornellaalt
@@ -19,7 +19,7 @@ Once enabled, guest users will need more than just a username and password to ac
 ## How is the Visual Studio experience affected by MFA policies?
 Versions of Visual Studio prior to 16.6 may have degraded authentication experiences when used with accounts that have enabled CA policies such as MFA, and are associated with two or more tenants.
 
-These issues can cause your instance of Visual Studio to prompt reauthentication multiple times per day. You may have to re-enter your credentials for previously authenticated tenants, even during the course of the same Visual Studio session.
+These issues can cause your instance of Visual Studio to prompt reauthentication multiple times per day. You may have to reenter your credentials for previously authenticated tenants, even during the course of the same Visual Studio session.
 
 ## Using Visual Studio with MFA policies
 In the 16.6 release, we added new capabilities to Visual Studio 2019 that streamline how users can access resources secured via CA policies such as MFA. To use this enhanced workflow, you'll need to opt into using your system's default web browser as the mechanism to add and reauthenticate Visual Studio accounts.  
@@ -54,12 +54,12 @@ Clicking on **Reenter your credentials** will open your system's default web bro
 
 ## How to opt out of using a specific Azure Active Directory tenant in Visual Studio
 
-Visual Studio 2019 version 16.6 offers the flexibility to filter out specific tenants, which hides them from Visual Studio. This eliminates the need to authenticate with that tenant, but it also means that you won't be able to access any associated resources. 
+Visual Studio 2019 version 16.6 offers the flexibility to filter out specific tenants, which hides them from Visual Studio. Filtering eliminates the need to authenticate with that tenant, but it also means that you won't be able to access any associated resources. 
 
 This functionality is useful when you have multiple tenants, but want to optimize your development environment by targeting a specific subset. It can also help in instances when you can't validate a particular CA/MFA policy, as you can filter out the offending tenant. 
 
 ### How to filter out a tenant
-To filter tenants that are associated with  your Visual Studio account, open the Account Settings dialog **(File > Account Settings…)** and click on **Apply filter…**. 
+To filter tenants that are associated with  your Visual Studio account, open the Account Settings dialog **(File > Account Settings…)** and click on **Apply filter**. 
 </br>
 </br>
 
