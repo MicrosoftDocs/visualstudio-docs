@@ -910,6 +910,8 @@
       href: ide/signing-in-to-visual-studio.md
     - name: Work with multiple user accounts
       href: ide/work-with-multiple-user-accounts.md
+    - name: Work with accounts that require multi-factor authentication
+      href: ide/work-with-multi-factor-authentication.md
     - name: Extend a trial version or update a license
       href: ide/how-to-unlock-visual-studio.md
   - name: Tuning the performance of Visual Studio
