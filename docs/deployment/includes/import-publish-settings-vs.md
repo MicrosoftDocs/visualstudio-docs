@@ -9,7 +9,7 @@
 
 1. Navigate to the location of the publish settings file that you created in the previous section.
 
-1. In the **Import Publish Settings File** dialog box, navigate to and select the profile that you created in the previous section, and click **Open**.
+1. In the **Import Publish Settings File** dialog, navigate to and select the profile that you created in the previous section, and click **Open**.
 
     Visual Studio begins the deployment process, and the Output window shows progress and results.
 
