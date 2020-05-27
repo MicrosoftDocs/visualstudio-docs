@@ -71,6 +71,8 @@ f1_keywords:
 - CA1066
 - CA1067
 - CA1068
+- CA1069
+- CA1070
 - CA1200
 - CA1300
 - CA1301
@@ -174,6 +176,8 @@ f1_keywords:
 - CA2006
 - CA2007
 - CA2009
+- CA2011
+- CA2015
 - CA2100
 - CA2101
 - CA2102
@@ -265,7 +269,10 @@ f1_keywords:
 - CA2241
 - CA2242
 - CA2243
+- CA2245
+- CA2246
 - CA5122
+- CA5374
 ms.assetid: 5cb221f6-dc59-4abf-9bfa-adbd6f907f96
 author: mikejo5000
 ms.author: mikejo
@@ -343,6 +350,8 @@ The following table lists Code Analysis warnings for managed code by the CheckId
 | CA1066 | [CA1066: Implement IEquatable when overriding Equals](../code-quality/ca1066.md) | A value type overrides <xref:System.Object.Equals%2A> method, but does not implement <xref:System.IEquatable%601>. |
 | CA1067 | [CA1067: Override Equals when implementing IEquatable](../code-quality/ca1067.md) | A type implements <xref:System.IEquatable%601>, but does not override <xref:System.Object.Equals%2A> method. |
 | CA1068 | [CA1068: CancellationToken parameters must come last](../code-quality/ca1068.md) | A method has a CancellationToken parameter that is not the last parameter. |
+| CA1069 | [CA1069: Enums should not have duplicate values](../code-quality/ca1069.md) | An enumeration has multiple members which are explicitly assigned the same constant value. |
+| CA1070 | [CA1070: Do not declare event fields as virtual](../code-quality/ca1070.md) | A [field-like event](/dotnet/csharp/language-reference/language-specification/classes#field-like-events) was declared as virtual. |
 | CA1200 | [CA1200: Avoid using cref tags with a prefix](../code-quality/ca1200.md) | The [cref](/dotnet/csharp/programming-guide/xmldoc/cref-attribute) attribute in an XML documentation tag means "code reference". It specifies that the inner text of the tag is a code element, such as a type, method, or property. Avoid using `cref` tags with prefixes, because it prevents the compiler from verifying references. It also prevents the Visual Studio integrated development environment (IDE) from finding and updating these symbol references during refactorings. |
 | CA1300 | [CA1300: Specify MessageBoxOptions](../code-quality/ca1300.md) | To correctly display a message box for cultures that use a right-to-left reading order, the RightAlign and RtlReading members of the MessageBoxOptions enumeration must be passed to the Show method. |
 | CA1301 | [CA1301: Avoid duplicate accelerators](../code-quality/ca1301.md) | An access key, also known as an accelerator, enables keyboard access to a control by using the ALT key. When multiple controls have duplicate access keys, the behavior of the access key is not well-defined. |
@@ -439,6 +448,8 @@ The following table lists Code Analysis warnings for managed code by the CheckId
 | CA2006 | [CA2006: Use SafeHandle to encapsulate native resources](../code-quality/ca2006.md) | Use of IntPtr in managed code might indicate a potential security and reliability problem. All uses of IntPtr must be reviewed to determine whether use of a SafeHandle, or similar technology, is required in its place. |
 | CA2007 | [CA2007: Do not directly await a Task](ca2007.md) | An asynchronous method [awaits](/dotnet/csharp/language-reference/keywords/await) a <xref:System.Threading.Tasks.Task> directly. When an asynchronous method awaits a <xref:System.Threading.Tasks.Task> directly, continuation occurs in the same thread that created the task. This behavior can be costly in terms of performance and can result in a deadlock on the UI thread. Consider calling <xref:System.Threading.Tasks.Task.ConfigureAwait(System.Boolean)?displayProperty=nameWithType> to signal your intention for continuation. |
 | CA2009 | [CA2009: Do not call ToImmutableCollection on an ImmutableCollection value](ca2009.md) | `ToImmutable` method was unnecessarily called on an immutable collection from <xref:System.Collections.Immutable> namespace. |
+| CA2011 | [CA2011: Do not assign property within its setter](ca2011.md) | A property was accidentally assigned a value within its own [set accessor](/dotnet/csharp/programming-guide/classes-and-structs/using-properties#the-set-accessor). |
+| CA2015 | [CA2015: Do not define finalizers for types derived from MemoryManager&lt;T&gt;](ca2015.md) | Adding a finalizer to a type derived from <xref:System.Buffers.MemoryManager%601> may permit memory to be freed while it is still in use by a <xref:System.Span%601>. |
 | CA2100 | [CA2100: Review SQL queries for security vulnerabilities](../code-quality/ca2100.md) | A method sets the System.Data.IDbCommand.CommandText property by using a string that is built from a string argument to the method. This rule assumes that the string argument contains user input. A SQL command string that is built from user input is vulnerable to SQL injection attacks. |
 | CA2101 |[CA2101: Specify marshaling for P/Invoke string arguments](../code-quality/ca2101.md) | A platform invoke member allows partially trusted callers, has a string parameter, and does not explicitly marshal the string. This can cause a potential security vulnerability. |
 | CA2102 | [CA2102: Catch non-CLSCompliant exceptions in general handlers](../code-quality/ca2102.md) | A member in an assembly that is not marked by using the RuntimeCompatibilityAttribute or is marked RuntimeCompatibility(WrapNonExceptionThrows = false) contains a catch block that handles System.Exception and does not contain an immediately following general catch block. |
@@ -527,4 +538,22 @@ The following table lists Code Analysis warnings for managed code by the CheckId
 | CA2241 | [CA2241: Provide correct arguments to formatting methods](../code-quality/ca2241.md) | The format argument that is passed to System.String.Format does not contain a format item that corresponds to each object argument, or vice versa. |
 | CA2242 |[CA2242: Test for NaN correctly](../code-quality/ca2242.md) | This expression tests a value against Single.Nan or Double.Nan. Use Single.IsNan(Single) or Double.IsNan(Double) to test the value. |
 | CA2243 |[CA2243: Attribute string literals should parse correctly](../code-quality/ca2243.md) | The string literal parameter of an attribute does not parse correctly for a URL, a GUID, or a version. |
+| CA2244 | [CA2244: Do not duplicate indexed element initializations](../code-quality/ca2244.md) | An object initializer has more than one indexed element initializer with the same constant index. All but the last initializer are redundant. |
+| CA2245 | [CA2245: Do not assign a property to itself](../code-quality/ca2245.md) | A property was accidentally assigned to itself. |
+| CA2246 | [CA2246: Do not assign a symbol and its member in the same statement](../code-quality/ca2246.md) | Assigning a symbol and its member, that is, a field or a property, in the same statement is not recommended. It is not clear if the member access was intended to use the symbol's old value prior to the assignment or the new value from the assignment in this statement. |
 | CA5122 | [CA5122 P/Invoke declarations should not be safe critical](../code-quality/ca5122.md) | Methods are marked as SecuritySafeCritical when they perform a security sensitive operation, but are also safe to be used by transparent code. Transparent code may never directly call native code through a P/Invoke. Therefore, marking a P/Invoke as security safe critical will not enable transparent code to call it, and is misleading for security analysis. |
+| CA5359 | [CA5359 Do not disable certificate validation](../code-quality/ca5359.md) | A certificate can help authenticate the identity of the server. Clients should validate the server certificate to ensure requests are sent to the intended server. If the ServerCertificateValidationCallback always returns `true`, any certificate will pass validation. |
+| CA5365 | [CA5365 Do Not Disable HTTP Header Checking](../code-quality/ca5365.md) | HTTP header checking enables encoding of the carriage return and newline characters, \r and \n, that are found in response headers. This encoding can help to avoid injection attacks that exploit an application that echoes untrusted data contained by the header. |
+| CA5366 | [CA5366 Use XmlReader For DataSet Read XML](../code-quality/ca5366.md) | Using a <xref:System.Data.DataSet> to read XML with untrusted data may load dangerous external references, which should be restricted by using an <xref:System.Xml.XmlReader> with a secure resolver or with DTD processing disabled. |
+| CA5367 | [CA5367 Do Not Serialize Types With Pointer Fields](../code-quality/ca5367.md) | This rule checks whether there’s a serializable class with a pointer field or property. Members that can’t be serialized can be a pointer, such as static members or fields marked with <xref:System.NonSerializedAttribute>. |
+| CA5368 | [CA5368 Set ViewStateUserKey For Classes Derived From Page](../code-quality/ca5368.md) | Setting the <xref:System.Web.UI.Page.ViewStateUserKey> property can help you prevent attacks on your application by allowing you to assign an identifier to the view-state variable for individual users so that attackers cannot use the variable to generate an attack. Otherwise, there will be vulnerabilities to cross-site request forgery. |
+| CA5374 | [CA5374 Do Not Use XslTransform](../code-quality/ca5374.md) | This rule checks if <xref:System.Xml.Xsl.XslTransform?displayProperty=nameWithType> is instantiated in the code. <xref:System.Xml.Xsl.XslTransform?displayProperty=nameWithType> is now obsolete and shouldn’t be used. |
+| CA5379 | [CA5379 Do not use weak key derivation function algorithm](../code-quality/ca5379.md) | The <xref:System.Security.Cryptography.Rfc2898DeriveBytes> class defaults to using the <xref:System.Security.Cryptography.HashAlgorithmName.SHA1> algorithm. You should specify the hash algorithm to use in some overloads of the constructor with <xref:System.Security.Cryptography.HashAlgorithmName.SHA256> or higher. Note, <xref:System.Security.Cryptography.Rfc2898DeriveBytes.HashAlgorithm> property only has a `get` accessor and doesn't have a `overriden` modifier. |
+| CA5382 | [CA5382 Use secure cookies in ASP.NET Core](../code-quality/ca5382.md) | Applications available over HTTPS must use secure cookies, which indicate to the browser that the cookie should only be transmitted using Secure Sockets Layer (SSL). |
+| CA5383 | [CA5383 Ensure use secure cookies in ASP.NET Core](../code-quality/ca5383.md) | Applications available over HTTPS must use secure cookies, which indicate to the browser that the cookie should only be transmitted using Secure Sockets Layer (SSL). |
+| CA5387 | [CA5387 Do not use weak key derivation function with insufficient iteration count](../code-quality/ca5387.md) | This rule checks if a cryptographic key was generated by <xref:System.Security.Cryptography.Rfc2898DeriveBytes> with an iteration count of less than 100,000. A higher iteration count can help mitigate against dictionary attacks that try to guess the generated cryptographic key. |
+| CA5388 | [CA5388 Ensure sufficient iteration count when using weak key derivation function](../code-quality/ca5388.md) | This rule checks if a cryptographic key was generated by <xref:System.Security.Cryptography.Rfc2898DeriveBytes> with an iteration count that may be less than 100,000. A higher iteration count can help mitigate against dictionary attacks that try to guess the generated cryptographic key. |
+| CA5390 | [CA5390 Do not hard-code encryption key](../code-quality/ca5390.md) | For a symmetric algorithm to be successful, the secret key must be known only to the sender and the receiver. When a key is hard-coded, it is easily discovered. Even with compiled binaries, it is easy for malicious users to extract it. Once the private key is compromised, the cipher text can be decrypted directly and is not protected anymore. |
+| CA5394 | [CA5394 Do not use insecure randomness](../code-quality/ca5394.md) | Using a cryptographically weak pseudo-random number generator may allow an attacker to predict what security-sensitive value will be generated. |
+| CA5401 | [CA5401 Do not use CreateEncryptor with non-default IV](../code-quality/ca5401.md) | Symmetric encryption should always use a non-repeatable initialization vector to prevent dictionary attacks. |
+| CA5402 | [CA5402 Use CreateEncryptor with the default IV](../code-quality/ca5402.md) | Symmetric encryption should always use a non-repeatable initialization vector to prevent dictionary attacks. |

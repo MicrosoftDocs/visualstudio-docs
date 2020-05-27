@@ -2,8 +2,8 @@
 title: Add explicit cast
 ms.date: 03/26/2020
 ms.topic: reference
-author: y87feng
-ms.author: t-yufen
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
 - dotnet
