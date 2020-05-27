@@ -1,5 +1,5 @@
 ---
-title: "Optimizing Profiler Settings | Microsoft Docs"
+title: "Optimizing Profiler settings | Microsoft Docs"
 ms.date: "4/29/2020"
 ms.topic: "conceptual"
 helpviewer_keywords:
@@ -11,7 +11,7 @@ ms.workload:
   - "multiple"
 ---
 
-# Optimizing Profiler Settings
+# Optimizing Profiler settings
 
 The Performance Profiler and Diagnostic Tools window in Visual Studio have many different settings which affect the overall performance of the tools. Changing some settings can cause analysis to run quickly or cause additional wait times while processing results in tools. Below is a summary of certain settings and their impact on performance.
 
