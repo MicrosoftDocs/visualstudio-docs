@@ -45,7 +45,7 @@ This preference provides a way for your subscribers to reach out to administrato
 This preference allows you to decide whether administrators can add subscribers from outside your organization's tenant/directory.  If you turn this off, no outside subscribers will be allowed.  If you enable it and an admin attempts to add an outside subscriber, they will be asked to confirm their choice, and will be allowed to assign the subscription. Administrators cannot override this setting. 
 
 ### Default downloads setting
-Enabling this setting, which is on by default, will enable subscribers to access downloads when admins create new subscriptions.  Admins can still disable downloads on an individual subscription basis.  
+Enabling this setting, which is on by default, will enable subscribers to access downloads when admins create new subscriptions.  Admins can still disable downloads on an individual subscription basis.  Disabling access to downloads also disables access to product keys.  
 
 ### Default subscription level
 You can use this setting to determine which of the subscription levels included in your agreement is selected by default when a subscription is assigned to a user.  Admins can change the setting to any subscription level in your agreement -- This just prevents having to repeatedly make your most common choice. 

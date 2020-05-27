@@ -1,6 +1,6 @@
 ---
 title: XAML overview
-ms.date: 01/10/2020
+ms.date: 05/20/2020
 ms.topic: reference
 author: TerryGLee
 ms.author: tglee
@@ -30,7 +30,7 @@ The articles in this documentation set discuss the XAML Designer in Visual Studi
 
 ## What's new
 
-For the latest information, see the [What’s new in XAML developer tools in Visual Studio 2019](https://devblogs.microsoft.com/visualstudio/whats-new-in-xaml-developer-tools-in-visual-studio-2019-for-wpf-uwp/) blog post and the [New XAML features in Visual Studio](https://youtu.be/yI9OyA4ZM2E) video on YouTube.
+For the latest information, see the [What’s new in XAML developer tools in Visual Studio 2019](https://devblogs.microsoft.com/visualstudio/whats-new-in-xaml-developer-tools-in-visual-studio-2019-for-wpf-uwp/) blog post, the [Improvements to XAML tooling in Visual Studio 2019 version 16.7 Preview 1](https://devblogs.microsoft.com/visualstudio/improvements-to-xaml-tooling-in-visual-studio-2019-version-16-7-preview-1/) blog post, and the [New XAML features in Visual Studio](https://youtu.be/yI9OyA4ZM2E) video on YouTube.
 
 ## See also
 
