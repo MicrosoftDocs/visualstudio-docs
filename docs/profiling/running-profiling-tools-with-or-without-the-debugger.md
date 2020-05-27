@@ -1,6 +1,6 @@
 ---
 title: "Run profiling tools with or without the debugger | Microsoft Docs"
-ms.date: "11/04/2018"
+ms.date: "5/26/2020"
 ms.topic: "conceptual"
 ms.assetid: 3fcdccad-c1bd-4c67-bcec-bf33a8fb5d63
 author: "mikejo5000"
