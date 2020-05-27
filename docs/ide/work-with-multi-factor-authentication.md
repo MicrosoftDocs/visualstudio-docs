@@ -52,6 +52,23 @@ Clicking on **Reenter your credentials** will open your system's default web bro
 > [!NOTE] 
 > Keep your browser open through the whole process for the best experience as closing the browser might trigger additional authorization prompts. 
 
+## How to opt out of using a specific Azure Active Directory tenant in Visual Studio
+
+Visual Studio 2019 version 16.6 offers the flexibility to filter out specific tenants, which hides them from Visual Studio. This eliminates the need to authenticate with that tenant, but it also means that you won't be able to access any associated resources. 
+
+This functionality is useful when you have multiple tenants, but want to optimize your development environment by targeting a specific subset. It can also help in instances when you can't validate a particular CA/MFA policy, as you can filter out the offending tenant. 
+
+### How to filter out a tenant
+To filter tenants that are associated with  your Visual Studio account, open the Account Settings dialog **(File > Account Settings…)** and click on **Apply filter…**. 
+</br>
+</br>
+
+:::image type="content" source="media/apply-filter.png" alt-text="Apply filter." border="false":::
+
+The **Filter account** dialog will appear, allowing you to select which tenants you want to use with your account. 
+
+:::image type="content" source="media/select-filter-account.png" alt-text="Select account to filter.":::
+
 ## See also
 
 - [Sign in to Visual Studio](signing-in-to-visual-studio.md)
