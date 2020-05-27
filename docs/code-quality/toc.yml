@@ -800,6 +800,10 @@
           href: ca5397.md
         - name: "CA5398: Avoid hardcoded SslProtocols values"
           href: ca5398.md
+        - name: "CA5399: Definitely disable HttpClient certificate revocation list check"
+          href: ca5399.md
+        - name: "CA5400: Ensure HttpClient certificate revocation list check is not disabled"
+          href: ca5400.md
         - name: "CA5403: Do not hard-code certificate"
           href: ca5403.md
       - name: Usage warnings
