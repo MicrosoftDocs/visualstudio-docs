@@ -25,9 +25,6 @@ The supported frameworks are:
 * Jest ([jestjs.io](https://jestjs.io/))
 * Export Runner (this framework is specific to Node.js Tools for Visual Studio)
 
-> [!WARNING]
-> An issue in Tape currently prevents Tape tests from running. If [PR #361](https://github.com/substack/tape/pull/361) is merged, the issue should be resolved.
-
 If your favorite framework is not supported, see [Add support for a unit test framework](#addingFramework) for information on adding support.
 
 ## Write unit tests
