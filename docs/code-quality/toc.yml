@@ -802,6 +802,8 @@
           href: ca5390.md
         - name: "CA5394: Do not use insecure randomness"
           href: ca5394.md
+        - name: "CA5396: Set HttpOnly to true for HttpCookie"
+          href: ca5396.md
         - name: "CA5397: Do not use deprecated SslProtocols values"
           href: ca5397.md
         - name: "CA5398: Avoid hardcoded SslProtocols values"
