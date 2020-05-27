@@ -23,7 +23,7 @@ ms.workload:
 >[!div class="button"]
 >[Download Visual Studio 2019](https://visualstudio.microsoft.com/downloads)
 
-Visual Studio is constantly changing to meet the demands of developers. In the following video from the **[Microsoft Build](https://mybuild.microsoft.com/)** library, join us for a tour of some of the newest features and a sneak peek at what's to come: 
+Visual Studio is constantly changing to meet the demands of developers. In the following video from the **[Microsoft Build](https://mybuild.microsoft.com/)** library, join us for a tour of some of the [newest features](/visualstudio/releases/2019/release-notes/) and a [sneak peek](/visualstudio/releases/2019/release-notes-preview/) at what's to come: <br><br>*Video length: 44.58 minutes*
 
 > [!VIDEO https://channel9.msdn.com/Events/Build/2020/BOD111/player]
 
