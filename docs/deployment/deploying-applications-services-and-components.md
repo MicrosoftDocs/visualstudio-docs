@@ -104,8 +104,8 @@ If you require more a complex installation of a desktop application than [ClickO
 
 - An MSI or EXE installer package can be created using [InstallShield](https://www.flexerasoftware.com/producer/products/software-installation/installshield-software-installer/tab/requirements) from Flexera Software. InstallShield may be used with Visual Studio 2017 and later versions (Community Edition not supported). 
 
-  [!NOTE]
-  InstallShield Limited Edition is no longer included with Visual Studio and is not supported in Visual Studio 2017 and later versions; check with [Flexera Software](http://learn.flexerasoftware.com/content/IS-EVAL-InstallShield-Limited-Edition-Visual-Studio) about future availability.
+  > [!NOTE]
+  > InstallShield Limited Edition is no longer included with Visual Studio and is not supported in Visual Studio 2017 and later versions; check with [Flexera Software](http://learn.flexerasoftware.com/content/IS-EVAL-InstallShield-Limited-Edition-Visual-Studio) about future availability.
 
 - An MSI or EXE installer package can be created using a Setup project (vdproj). To use this option, install the [Visual Studio Installer Projects extension](https://marketplace.visualstudio.com/items?itemName=VisualStudioProductTeam.MicrosoftVisualStudio2017InstallerProjects#overview).
 
