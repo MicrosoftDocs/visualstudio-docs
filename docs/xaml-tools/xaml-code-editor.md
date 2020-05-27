@@ -125,28 +125,26 @@ To turn this feature off and on, change the **Track changes** option in the **Te
 
 #### Right-click context menu
 
-When you are editing your code in the XAML code editor, there are several features that you can access by using the right-click menu.
+When you are editing your code in the XAML code editor, there are several features that you can access by using the right-click context menu. Most of these features are available universally in the Visual Studio IDE, while some are specific to using a code editor along with a Design window. 
 
 ![Screenshot of the XAML code editor's right-click menu in Visual Studio 2019](media/xaml-code-editor-right-click-menu.png)
 
-Most of these features are available universally in the Visual Studio IDE, while some are specific to using a code editor along with a Design window. Here's what each feature does and how it's useful.
+Here's what each feature does and how it's useful:
 
-|Name  |More info  |
-|---------|---------|
-|View Code | Opens the programming language code window, which is typically tabbed next to the default view that includes the Design window and the XAML code editor. |
-|View Designer | Opens the default view that includes the Design window and the XAML code editor. (If you are already in the default view, it does nothing.) |
-|Quick Actions and Refactorings | Refactors, generates, or otherwise modifies code with a single action. When you hover over code, you'll see a lightbulb icon when a quick action or refactoring is available. <br>See also: [Quick Actions](../ide/quick-actions.md) and [Refactor code](../ide/refactoring-in-visual-studio.md).|
-| Rename... | Renames namespaces only. If you don't have a namespace to rename, you'll receive an error message that says "Only namespace prefixes and be renamed." |
-| Remove and Sort Namespaces | Removes unused namespaces and then sorts those that remain. |
-| Peek Definition | Previews the definition of a type without leaving your current location in the editor.<br> See also: [Peek Definition](..de/go-to-and-peek-definition.md#peek-definition) and [View and edit code by using Peek Definition](../ide/how-to-view-and-edit-code-by-using-peek-definition-alt-plus-f12.md) |
-| Go To Definition | Navigates to the source of a type or member, and opens the result in a new tab. <br>See also: [Go To Definition](../ide/go-to-and-peek-definition.md#go-to-definition) |
-| Surround with... | Use surround-with code snippets, which are added around a selected block of code. <br>See also: [Expansion snippets and surround-with snippets](../ide/code-snippets.md#expansion-snippets-and-surround-with-snippets) |
-| Insert Snippet | Inserts a code snippet at the cursor location. |
-| Cut | Self-explanatory |
-| Copy | Self-explanatory |
-| Paste | Self-explanatory |
-| Outlining | Expand and collapse sections of code. <br>See also: [Outlining](../ide/outlining.md) |
-| Source Control | View the history of code contributions to an open source repository. |
+- **View Code** - Opens the programming language code window, which is typically tabbed next to the default view that includes the Design window and the XAML code editor. 
+- **View Designer** - Opens the default view that includes the Design window and the XAML code editor. (If you are already in the default view, it does nothing.) 
+- **Quick Actions and Refactorings** - Refactors, generates, or otherwise modifies code with a single action. When you hover over code, you'll see a lightbulb icon when a quick action or refactoring is available. See also: [Quick Actions](../ide/quick-actions.md) and [Refactor code](../ide/refactoring-in-visual-studio.md).
+- **Rename...** - Renames namespaces only. If you don't have a namespace to rename, you'll receive an error message that says "Only namespace prefixes and be renamed." 
+- **Remove and Sort Namespaces** - Removes unused namespaces and then sorts those that remain. 
+- **Peek Definition** - Previews the definition of a type without leaving your current location in the editor. See also: [Peek Definition](..de/go-to-and-peek-definition.md#peek-definition) and [View and edit code by using Peek Definition](../ide/how-to-view-and-edit-code-by-using-peek-definition-alt-plus-f12.md).
+- **Go To Definition** - Navigates to the source of a type or member, and opens the result in a new tab. See also: [Go To Definition](../ide/go-to-and-peek-definition.md#go-to-definition).
+- **Surround with...** - Use surround-with code snippets, which are added around a selected block of code. See also: [Expansion snippets and surround-with snippets](../ide/code-snippets.md#expansion-snippets-and-surround-with-snippets).
+- **Insert Snippet** - Inserts a code snippet at the cursor location. 
+- **Cut** - Self-explanatory 
+- **Copy** - Self-explanatory 
+- **Paste** - Self-explanatory 
+- **Outlining** - Expand and collapse sections of code. See also: [Outlining](../ide/outlining.md). 
+- **Source Control** - View the history of code contributions to an open source repository. 
 
 ### Middle pane, scroll bar
 
@@ -193,17 +191,16 @@ Lightbulb icons that appear in your XAML code are part of the [Quick Actions](..
 
 Add more text here!
 
-#### All Platforms - Adding missing namespace
-
-Add text here!  
-
 #### UWP – Add conditional XAML
 
 Add text here!
 
 ### XAML Rename namespace using F2
 
-Add text here!
+This feature, available both from the right-click context menu and by highlighting a value and then pressing **F12**, makes it easy to change settings on-the-fly. For example,  
+
+[Move type to namespace](../ide/reference/move-type-to-namespace.md)
+
 
 ### Structure Analyzers (dotted lines between the tags vertically)
 
