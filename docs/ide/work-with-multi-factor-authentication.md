@@ -2,6 +2,7 @@
 title: Work with accounts that require multi-factor authentication
 ms.date: 05/22/2020
 ms.topic: conceptual
+description: "Learn how to use Visual Studio with accounts that require multi-factor authentication."
 author: ornellaalt
 ms.author: ornella
 manager: jillfra
@@ -11,12 +12,11 @@ monikerRange: ">=vs-2019"
 ---
 # How to use Visual Studio with accounts that require multi-factor authentication
 
-## What is multi-factor authentication?
 When collaborating with external guest users, it's a good idea to protect your apps and data with **conditional access (CA)** policies such as **multi-factor authentication (MFA)**.  
 
 Once enabled, guest users will need more than just a username and password to access your resources, and must satisfy additional security requirements. MFA policies can be enforced at the tenant, app, or individual guest user level, the same way that they are enabled for members of your own organization. 
 
-## How is the Visual Studio experience affected when using CA policies such as MFA?
+## How is the Visual Studio experience affected by MFA policies?
 Versions of Visual Studio prior to 16.6 may have degraded authentication experiences when used with accounts that have enabled CA policies such as MFA, and are associated with two or more tenants.
 
 These issues can cause your instance of Visual Studio to prompt reauthentication multiple times per day. You may have to re-enter your credentials for previously authenticated tenants, even during the course of the same Visual Studio session.
