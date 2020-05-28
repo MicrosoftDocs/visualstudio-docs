@@ -128,7 +128,7 @@ Follow the tasks below to create a visualizer.
 
    That is the end of the debugger side code. There is one more step, however; the attribute that tells the debuggee side which collection of classes comprises the visualizer.
 
-### To add the debuggee-side code
+### To add the type to visualize for the debuggee-side code
 
 In the debugger-side code, you specify the type to visualize (the object source) for the debuggee using the <xref:System.Diagnostics.DebuggerVisualizerAttribute> attribute. The `Target` property sets the type to visualize.
 
