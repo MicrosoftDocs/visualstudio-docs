@@ -94,7 +94,7 @@ In these steps, we set a simple breakpoint to stop the remote process.
 
 1. Press **Enter** to populate the list of available debugpy processes on that computer:
 
-    ![Entering the connection target and listing processes](../../media/remote-debugging-qualifier.png)
+    ![Entering the connection target and listing processes](../../media/remote-debugging-attach.png)
 
     If you happen to start another program on the remote computer after populating this list, select the **Refresh** button.
 
