@@ -752,6 +752,8 @@
           href: ca5359.md
         - name: "CA5361: Do not disable SChannel use of strong crypto"
           href: ca5361.md
+        - name: "CA5362: Potential reference cycle in deserialized object graph"
+          href: ca5362.md
         - name: "CA5363: Do not disable request validation"
           href: ca5363.md
         - name: "CA5364: Do not use deprecated security protocols"
@@ -804,6 +806,8 @@
           href: ca5394.md
         - name: "CA5395: Miss HttpVerb attribute for action methods"
           href: ca5395.md
+        - name: "CA5396: Set HttpOnly to true for HttpCookie"
+          href: ca5396.md
         - name: "CA5397: Do not use deprecated SslProtocols values"
           href: ca5397.md
         - name: "CA5398: Avoid hardcoded SslProtocols values"

@@ -1,7 +1,7 @@
 ---
 title: "Write a visualizer in Visual Basic | Microsoft Docs"
 ms.custom: "seodec18"
-ms.date: "04/12/2019"
+ms.date: "05/27/2020"
 ms.topic: "conceptual"
 dev_langs:
   - "CSharp"
@@ -19,6 +19,7 @@ ms.workload:
   - "multiple"
 ---
 # Walkthrough: Writing a Visualizer in Visual Basic
+
 This walkthrough shows how to write a simple visualizer by using [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)]. The visualizer you will create in this walkthrough displays the contents of a string using a Windows Forms message box. This simple string visualizer is a basic example to show how you can create visualizers for other data types more applicable to your projects.
 
 > [!NOTE]
@@ -132,7 +133,9 @@ Visualizer code must be placed in a DLL that will be read by the debugger. The f
 ## Add the Necessary Attribute
  That is the end of the debugger-side code. There is one more step, however: the attribute that tells the debuggee side which collection of classes comprises the visualizer.
 
-### To add the debugee-side code
+### To add the type to visualize for the debuggee-side code
+
+In the debugger-side code, you specify the type to visualize (the object source) for the debuggee using the <xref:System.Diagnostics.DebuggerVisualizerAttribute> attribute. The `Target` property sets the type to visualize.
 
 1. Add the following attribute code to DebuggerSide.vb, after the `Imports` statements but before `namespace MyFirstVisualizer`:
 
