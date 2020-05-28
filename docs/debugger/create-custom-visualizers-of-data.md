@@ -68,9 +68,9 @@ To create the visualizer user interface on the debugger side, you create a class
 
 ### To create the visualizer object source for the debuggee side
 
-You specify the debuggee-side object source by using the <xref:System.Diagnostics.DebuggerVisualizerAttribute> in the debugger-side code.
+You specify the type to visualize (the debuggee-side object source) by using the <xref:System.Diagnostics.DebuggerVisualizerAttribute> in the debugger-side code.
 
-1. In the debugger side code, apply <xref:System.Diagnostics.DebuggerVisualizerAttribute>, giving it a visualizer (<xref:Microsoft.VisualStudio.DebuggerVisualizers.DialogDebuggerVisualizer>) and the object source (<xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerObjectSource>). If you omit the object source, the visualizer will use a default object source.
+1. In the debugger side code, edit the <xref:System.Diagnostics.DebuggerVisualizerAttribute>, giving it the object source (<xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerObjectSource>). The `Target` property sets the object source. If you omit the object source, the visualizer will use a default object source.
 
 1. To let the visualizer edit as well as display data objects, override the `TransferData` or `CreateReplacementObject` methods from <xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerObjectSource>.
 
