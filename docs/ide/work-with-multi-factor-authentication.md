@@ -39,7 +39,7 @@ Once the system web browser workflow is enabled, you can sign in or add accounts
 
 This action will open your system's default web browser, ask you to sign into your account, and validate any required MFA policy.
 
-Based on your development activities and resource configuration, you may be prompted to reenter your credentials during your session. This can occur when you add a new resource, or try accessing a resource for which CA/MFA challenges have not been previously satisfied.
+Based on your development activities and resource configuration, you may be prompted to reenter your credentials during your session. This can occur when you add a new resource, or try accessing a resource without having previously met its CA/MFA authorization requirements.
 
 > [!NOTE] 
 > For the best experience, keep your browser open until all CA/MFA policies are validated for your resources. Closing the browser may result in losing the previously built MFA state, and may prompt additional authorization prompts.
