@@ -790,6 +790,10 @@
           href: ca5382.md
         - name: "CA5383: Ensure use secure cookies in ASP.NET Core"
           href: ca5383.md
+        - name: "CA5384: Do not use digital signature algorithm (DSA)"
+          href: ca5384.md
+        - name: "CA5385: Use Rivest–Shamir–Adleman (RSA) algorithm with sufficient key size"
+          href: ca5385.md
         - name: "CA5386: Avoid hardcoding SecurityProtocolType value"
           href: ca5386.md
         - name: "CA5387: Do not use weak key derivation function with insufficient iteration count"
