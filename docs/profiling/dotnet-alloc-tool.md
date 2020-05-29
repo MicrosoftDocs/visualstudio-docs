@@ -48,7 +48,7 @@ Adjust the sampling rate to your desired rate. This should help speed up perform
 
 ![Adjusted sampling rate](../profiling/media/adjustedsamplingratedotnetalloctool.png "Adjusted sampling rate")
 
-For more information on how to make the tool more performant, see [Optimizing Profiler Settings](../profiling/optimizing-profiler-settings.md).
+For more information on how to make the tool more performant, see [Optimizing Profiler Settings](../profiling/optimize-profiler-settings.md).
 
 
 ## Understand Your Data
