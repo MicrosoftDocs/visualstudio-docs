@@ -69,3 +69,4 @@ Usage warnings support proper usage of .NET.
 |[CA2244: Do not duplicate indexed element initializations](../code-quality/ca2244.md)|An object initializer has more than one indexed element initializer with the same constant index. All but the last initializer are redundant.|
 |[CA2245: Do not assign a property to itself](../code-quality/ca2245.md)|A property was accidentally assigned to itself.|
 |[CA2246: Do not assign a symbol and its member in the same statement](../code-quality/ca2246.md)|Assigning a symbol and its member, that is, a field or a property, in the same statement is not recommended. It is not clear if the member access was intended to use the symbol's old value prior to the assignment or the new value from the assignment in this statement.|
+|[CA2248: Provide correct 'enum' argument to 'Enum.HasFlag'](../code-quality/ca2248.md)|The enum type passed as an argument to the `HasFlag` method call is different from the calling enum type.|

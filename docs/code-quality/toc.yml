@@ -790,6 +790,10 @@
           href: ca5382.md
         - name: "CA5383: Ensure use secure cookies in ASP.NET Core"
           href: ca5383.md
+        - name: "CA5384: Do not use digital signature algorithm (DSA)"
+          href: ca5384.md
+        - name: "CA5385: Use Rivest–Shamir–Adleman (RSA) algorithm with sufficient key size"
+          href: ca5385.md
         - name: "CA5386: Avoid hardcoding SecurityProtocolType value"
           href: ca5386.md
         - name: "CA5387: Do not use weak key derivation function with insufficient iteration count"
@@ -808,6 +812,10 @@
           href: ca5397.md
         - name: "CA5398: Avoid hardcoded SslProtocols values"
           href: ca5398.md
+        - name: "CA5399: Definitely disable HttpClient certificate revocation list check"
+          href: ca5399.md
+        - name: "CA5400: Ensure HttpClient certificate revocation list check is not disabled"
+          href: ca5400.md
         - name: "CA5401: Do not use CreateEncryptor with non-default IV"
           href: ca5401.md
         - name: "CA5402: Use CreateEncryptor with the default IV"
@@ -911,5 +919,7 @@
           href: ca2245.md
         - name: "CA2246: Do not assign a symbol and its member in the same statement"
           href: ca2246.md
+        - name: "CA2248: Provide correct enum argument to Enum.HasFlag"
+          href: ca2248.md
       - name: Automatic feature suspension
         href: automatic-feature-suspension.md
