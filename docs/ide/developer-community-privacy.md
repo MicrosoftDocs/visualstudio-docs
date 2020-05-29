@@ -21,7 +21,7 @@ If you're concerned about revealing your identity, [create a new Microsoft accou
 
 ## Data privacy
 
-If you're concerned about data privacy, don't put anything you want to keep private in the title or content of the initial report, which is always public. Instead, create the report, and then note that you'll send details privately in a separate comment. Once the problem report is created, you can specify who can see replies and attachments:
+If you're concerned about data privacy, don't put anything you want to keep private in the title or content of the initial report, which is always public. Instead, create the report, and then note that you'll send details privately in a separate comment. Once the problem report is created, you can specify who can see replies and attachments.
 
 1. In the report you created, choose **Add comment** to create a private description of the problem.
 
@@ -34,7 +34,8 @@ If you're concerned about data privacy, don't put anything you want to keep priv
 3. Add the description and any other information, images, and file attachments needed for your repro. Choose the **Submit** button to send this information privately.
 
    > [!NOTE]
-   > There is a 2-GB limit on attached files, and a maximum of 10 files. If you need to upload a larger file, you can either submit a new problem report or request an upload URL from a Microsoft employee in a private comment.
+   > On the Developer Community website, there is a 2-GB limit on attached files, and a maximum of 10 files. If you need to upload a larger file, you can either submit a new problem report or request an upload URL from a Microsoft employee in a private comment.
+   > When we close an issue, associated attachments will be deleted within 90 days.
 
 To maintain your privacy and keep sensitive information out of public view, take care to keep all interactions with Microsoft to replies under a visibility-restricted comment. Replies to other comments may cause you to accidentally disclose sensitive information.
 
