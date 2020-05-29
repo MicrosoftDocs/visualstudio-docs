@@ -29,7 +29,7 @@ The generic events viewer allows you to view the activity of your application th
 
 ![Stop Collection](../profiling/media/stopcollectioneventsviewer.png "Stop Collection")
 
-For more information on how to make the tool more performant, see [Optimizing Profiling Settings](../profiling/optimizing-profiler-settings.md).
+For more information on how to make the tool more performant, see [Optimizing Profiling Settings](../profiling/optimize-profiler-settings.md).
 
 ## Understand Your Data
 
