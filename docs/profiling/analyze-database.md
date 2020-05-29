@@ -1,5 +1,5 @@
 ---
-title: "Analyze Database usage for .NET Core projects | Microsoft Docs"
+title: "Analyze database usage for .NET Core projects | Microsoft Docs"
 ms.date: "5/5/2020"
 ms.topic: "conceptual"
 helpviewer_keywords:
@@ -41,3 +41,7 @@ The queries will be organized chronologically, but can be sorted by any of the c
 ![Allocation](./media/db_gotosource.png "Allocation")
 
 Selecting a time range on graph also filters the query table to show only queries that occurred during that time range. This can be especially useful when running this alongside the [CPU Usage tool](https://docs.microsoft.com/visualstudio/profiling/cpu-usage?view=vs-2019).
+
+## See also
+
+- [Optimizing Profiler Settings](../profiling/optimizing-profiler-settings.md)
