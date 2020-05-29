@@ -16,6 +16,8 @@ ms.workload:
 
 # Understand performance collection methods
 
+This document outlines the data collection methods that tools within the Visual Studio Performance Profiler utilize. 
+
 ::: moniker range="vs-2019"
 
 ## Sampling
