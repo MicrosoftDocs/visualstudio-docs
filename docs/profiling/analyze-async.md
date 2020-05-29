@@ -1,5 +1,5 @@
 ---
-title: "Analyze Performance of .NET Asynchronous Code | Microsoft Docs"
+title: "Analyze performance of .NET asynchronous code | Microsoft Docs"
 ms.date: "5/5/2020"
 ms.topic: "conceptual"
 helpviewer_keywords:
@@ -37,3 +37,7 @@ The .NET Async Tool allows you to analyze the performance of asynchronous code i
 Asynchronous events are organized into activities chronologically, and they display their respective start time, end time, and duration. If a row corresponds to a [Task](https://docs.microsoft.com/dotnet/api/system.threading.tasks), it's labeled in the Name column. If a Task name cannot be resolved, a **Task in** label appears followed by the name of the method the Task occurs within. If an asynchronous activity doesn't complete within the collection session, it's indicated by an **Incomplete** label in the End Time column. To investigate a specific Task or activity further, you can right-click the row and choose **Go to Source File** to see where in your code that activity happens.
 
 ![.NET Async Go To Source](../profiling/media/async_tool_gotosource.png ".NET Async Go To Source")
+
+## See also
+
+- [Optimizing Profiler Settings](../profiling/optimizing-profiler-settings.md)
