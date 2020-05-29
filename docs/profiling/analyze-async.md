@@ -24,7 +24,7 @@ The .NET Async Tool allows you to analyze the performance of asynchronous code i
 
 2. Select the **.NET Async** checkbox.
 
-![.NET Async Tool Selected](../profiling/media/async_tool_selected.png ".NET Async Tool Selected")
+![.NET Async Tool Selected](../profiling/media/async-tool-selected.png ".NET Async Tool Selected")
 
 3. Click the **Start** button to run the tool.
 
@@ -32,12 +32,12 @@ The .NET Async Tool allows you to analyze the performance of asynchronous code i
 
 5. After collection is stopped, you'll see a table of the activities that happened during your profiling session.
 
-![.NET Async Tool Stopped](../profiling/media/async_tool_opened.png ".NET Async Tool Stopped")
+![.NET Async Tool Stopped](../profiling/media/async-tool-opened.png ".NET Async Tool Stopped")
 
 Asynchronous events are organized into activities chronologically, and they display their respective start time, end time, and duration. If a row corresponds to a [Task](https://docs.microsoft.com/dotnet/api/system.threading.tasks), it's labeled in the Name column. If a Task name cannot be resolved, a **Task in** label appears followed by the name of the method the Task occurs within. If an asynchronous activity doesn't complete within the collection session, it's indicated by an **Incomplete** label in the End Time column. To investigate a specific Task or activity further, you can right-click the row and choose **Go to Source File** to see where in your code that activity happens.
 
-![.NET Async Go To Source](../profiling/media/async_tool_gotosource.png ".NET Async Go To Source")
+![.NET Async Go To Source](../profiling/media/async-tool-gotosource.png ".NET Async Go To Source")
 
 ## See also
 
-- [Optimizing Profiler Settings](../profiling/optimizing-profiler-settings.md)
+- [Optimizing Profiler Settings](../profiling/optimize-profiler-settings.md)
