@@ -1,6 +1,6 @@
 ---
 title: XAML code editor
-ms.date: 05/26/2020
+ms.date: 05/29/2020
 ms.topic: conceptual
 monikerRange: vs-2019
 author: TerryGLee
@@ -33,8 +33,6 @@ The code editor window for XAML apps shares some UI (user interface) elements th
 Here's a look at the XAML code editor window itself.
 
 ![Screenshot of the XAML code editor window in Visual Studio 2019](media/xaml-code-editor-window.png)
-
-:::image type="content" source="media/xaml-code-editor-window.png) alt-text="Screenshot of the XAML code editor window in Visual Studio 2019":::
 
 Next, let's take a look at the functions of each of the UI elements in the code editor.
 
@@ -136,7 +134,7 @@ Here's what each feature does and how it's useful:
 - **Quick Actions and Refactorings** - Refactors, generates, or otherwise modifies code with a single action. When you hover over code, you'll see a lightbulb icon when a quick action or refactoring is available. See also: [Quick Actions](../ide/quick-actions.md) and [Refactor code](../ide/refactoring-in-visual-studio.md).
 - **Rename...** - Renames namespaces only. If you don't have a namespace to rename, you'll receive an error message that says "Only namespace prefixes and be renamed." 
 - **Remove and Sort Namespaces** - Removes unused namespaces and then sorts those that remain. 
-- **Peek Definition** - Previews the definition of a type without leaving your current location in the editor. See also: [Peek Definition](..de/go-to-and-peek-definition.md#peek-definition) and [View and edit code by using Peek Definition](../ide/how-to-view-and-edit-code-by-using-peek-definition-alt-plus-f12.md).
+- **Peek Definition** - Previews the definition of a type without leaving your current location in the editor. See also: [Peek Definition](../ide/go-to-and-peek-definition.md#peek-definition) and [View and edit code by using Peek Definition](../ide/how-to-view-and-edit-code-by-using-peek-definition-alt-plus-f12.md).
 - **Go To Definition** - Navigates to the source of a type or member, and opens the result in a new tab. See also: [Go To Definition](../ide/go-to-and-peek-definition.md#go-to-definition).
 - **Surround with...** - Use surround-with code snippets, which are added around a selected block of code. See also: [Expansion snippets and surround-with snippets](../ide/code-snippets.md#expansion-snippets-and-surround-with-snippets).
 - **Insert Snippet** - Inserts a code snippet at the cursor location. 
