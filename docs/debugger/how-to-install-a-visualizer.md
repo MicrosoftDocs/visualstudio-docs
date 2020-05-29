@@ -37,7 +37,7 @@ After you have created a visualizer, you must install the visualizer so that it 
 
     - `My Documents\` *VisualStudioVersion* `\Visualizers`
     
-3. Copy the [Debuggee Side](create-custom-visualizers-of-data.md#to-create-the-debuggee-side) DLL to either of the following locations:
+3. Copy the [Debuggee Side](create-custom-visualizers-of-data.md#to-create-the-visualizer-object-source-for-the-debuggee-side) DLL to either of the following locations:
 
     - *VisualStudioInstallPath* `\Common7\Packages\Debugger\Visualizers\` *Framework*
 

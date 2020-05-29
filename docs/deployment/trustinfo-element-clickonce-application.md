@@ -1,5 +1,5 @@
 ---
-title: "&lt;trustInfo&gt; Element (ClickOnce Application) | Microsoft Docs"
+title: "&lt;trustInfo&gt; element (ClickOnce application) | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 f1_keywords:
