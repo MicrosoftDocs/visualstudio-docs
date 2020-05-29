@@ -20,6 +20,8 @@ The Performance Profiler was designed with the idea that multiple tools can be u
 >[!NOTE]
 >Certain tools such as the [.NET Object Allocation](../profiling/dotnet-alloc-tool.md) tool cannot be run with other tools due to their high overhead or due to other technical limitations.
 
+## Time Filtering 
+
 During analysis, time filtering operations are applied across tools, so you can use information in one tool to narrow down a time range and filter data in another tool. This feature helps guide analysis to specific points in a trace and helps you understand the state of the application.
 
 ![Diag Hub Time Filtering](../profiling/media/diaghubtimefiltering.png "Diag Hub Time Filtering")
