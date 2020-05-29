@@ -778,6 +778,12 @@
           href: ca5373.md
         - name: "CA5374: Do Not Use XslTransform"
           href: ca5374.md
+        - name: "CA5375: Do not use account shared access signature"
+          href: ca5375.md
+        - name: "CA5376: Use SharedAccessProtocol HttpsOnly"
+          href: ca5376.md
+        - name: "CA5377: Use container level access policy"
+          href: ca5377.md
         - name: "CA5378: Do not disable ServicePointManagerSecurityProtocols"
           href: ca5378.md
         - name: "CA5379: Do not use weak key derivation function algorithm"
