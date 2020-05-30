@@ -810,8 +810,12 @@
           href: ca5389.md
         - name: "CA5390: Do not hard-code encryption key"
           href: ca5390.md
+        - name: "CA5391: Use antiforgery tokens in ASP.NET Core MVC controllers"
+          href: ca5391.md
         - name: "CA5394: Do not use insecure randomness"
           href: ca5394.md
+        - name: "CA5395: Miss HttpVerb attribute for action methods"
+          href: ca5395.md
         - name: "CA5396: Set HttpOnly to true for HttpCookie"
           href: ca5396.md
         - name: "CA5397: Do not use deprecated SslProtocols values"
