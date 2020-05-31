@@ -14,7 +14,7 @@ ms.workload:
 ---
 # How to: Change fonts and colors in Visual Studio
 
-You can change the fonts and the colors in Visual Studio in many ways. For example, you can change the default blue color theme to the dark theme. And, you can change the default default font and text size to different font and size.
+You can change the fonts and the colors in Visual Studio in many ways. For example, you can change the default blue color theme to the dark theme. And, you can change the default font and text size to a different font and size.
 
 ## Change the color theme
 
@@ -51,7 +51,7 @@ You can change the font and text size for all the IDE frame and tool windows, or
 
 1. In the **Size** list, choose a text size, and then choose the **OK** button.
 
-You can also change the default font and colors for other certain foreground and background items in the IDE. For example, to change either the Tooltip or Tooltip border colors, choose those items from the **Display items** list and then make the changes you want.
+You can also change the default font and colors for foreground and background items in the IDE. For example, to change either the Tooltip or Tooltip border colors, choose those items from the **Display items** list, and then make the changes you want.
 
 ### To change the font and text size in the editor
 
@@ -95,7 +95,7 @@ Use the following procedures to toggle the Visual Studio extra contrast option:
 
 ## Next steps
 
-To learn more about the fonts and colors that you can change in an app you're developing in Visual Studio, see the [Fonts and Colors, Environment, Options Dialog Box](../ide/reference/fonts-and-colors-environment-options-dialog-box.md) page. 
+To learn more about the fonts and colors that you can change in an app you're developing with Visual Studio, see the [Fonts and Colors, Environment, Options Dialog Box](../ide/reference/fonts-and-colors-environment-options-dialog-box.md) page. 
 
 ## See also
 
