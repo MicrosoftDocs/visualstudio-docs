@@ -34,7 +34,7 @@ Here's how to change the color theme of the IDE frame and the tool windows in Vi
 
 ## Change fonts and text size
 
-You can change the font and text size for all the IDE frame and tool windows, or for only certain windows or text elements. You can also change the font and text size in the code editor, too.
+You can change the font and text size for all the IDE frame and tool windows, or for only certain windows or text elements. You can also change the font and text size in the editor, too.
 
 ### To change the font and text size in the IDE
 
@@ -44,22 +44,26 @@ You can change the font and text size for all the IDE frame and tool windows, or
 
 1. In the **Show settings for** list, choose **Environment**.
 
+   ![Screenshot of the Options dialog box to change fonts and colors in the IDE](media/fonts-colors-environment.png)
+
     > [!NOTE]
     > If you want to change the font for tool windows only, in the **Show settings for** list, choose **All Text Tool Windows**.
 
-1. In the **Font** list, choose a font.
+1. Modify the **Font** and **Size** options to change the font and text size for the IDE.
 
-1. In the **Size** list, choose a text size, and then choose the **OK** button.
-
-You can also change the default font and colors for foreground and background items in the IDE. For example, to change either the Tooltip or Tooltip border colors, choose those items from the **Display items** list, and then make the changes you want.
+1. Select the appropriate item in **Display items**, and then modify the **Item foreground** and **Item background** options.
 
 ### To change the font and text size in the editor
 
-1. Select **Options** from the **Tools** menu. Under **Environment**, select **Fonts and Colors**.
+1. On the menu bar, choose **Tools** > **Options**.
 
-1. In **Show settings for**, select **Text Editor**.
+1. In the options list, choose **Environment** > **Fonts and Colors**.
 
-1. Modify the **Font** and **Size** options to change the font face and size for all text elements in all editors.
+1. In **Show settings for** list, select **Text Editor**.
+
+   ![Screenshot of the Options dialog box to change fonts and colors in the IDE](media/fonts-colors-text-editor.png)
+
+1. Modify the **Font** and **Size** options to change the font and text size for the editor.
 
 1. Select the appropriate item in **Display items**, and then modify the **Item foreground** and **Item background** options.
 
@@ -88,10 +92,10 @@ Use the following procedures to toggle the Visual Studio extra contrast option:
 
 1. In the **Color theme** drop-down list, choose the **Blue (Extra Contrast)** theme, and then choose **OK**.
 
-    To learn more about other Visual Studio accessibility options available to you, see the [Accessibility features of Visual Studio](../ide/reference/accessibility-features-of-visual-studio.md) page.
+To learn more about other Visual Studio accessibility options available to you, see the [Accessibility features of Visual Studio](../ide/reference/accessibility-features-of-visual-studio.md) page.
     
-    > [!TIP]
-    > If there is an accessibility option for colors or fonts that you think would be useful but isn't currently available in Visual Studio, please let us know in the **[Suggest a feature](../ide/suggest-a-feature.md)** forum.
+> [!TIP]
+> If there is an accessibility option for colors or fonts that you think might be useful but isn't currently available in Visual Studio, please let us know in the **[Suggest a feature](../ide/suggest-a-feature.md)** forum.
 
 ## Next steps
 
