@@ -34,7 +34,7 @@ Here's how to change the color theme of the IDE frame and the tool windows in Vi
 
 ## Change fonts and text size
 
-You can change the font and text size for all the IDE frame and tool windows in the IDE, or for only certain windows or text elements. You can also change the font and text size in the code editor, too.
+You can change the font and text size for all the IDE frame and tool windows, or for only certain windows or text elements. You can also change the font and text size in the code editor, too.
 
 ### To change the font and text size in the IDE
 
@@ -55,7 +55,7 @@ You can also change the default font and colors for other certain foreground and
 
 ### To change the font and text size in the editor
 
-1. Select **Options** from the **Tools** menu. Under **Environment**, select [Fonts and Colors](fonts-and-colors-environment-options-dialog-box.md).
+1. Select **Options** from the **Tools** menu. Under **Environment**, select **Fonts and Colors**.
 
 1. In **Show settings for**, select **Text Editor**.
 
@@ -95,7 +95,7 @@ Use the following procedures to toggle the Visual Studio extra contrast option:
 
 ## Next steps
 
-To learn more about the fonts and colors that you can change in an app you're developing in Visual Studio, see the [Fonts and Colors, Environment, Options Dialog Box](../reference/fonts-and-colors-environment-options-dialog-box.md) page. 
+To learn more about the fonts and colors that you can change in an app you're developing in Visual Studio, see the [Fonts and Colors, Environment, Options Dialog Box](../ide/reference/fonts-and-colors-environment-options-dialog-box.md) page. 
 
 ## See also
 
