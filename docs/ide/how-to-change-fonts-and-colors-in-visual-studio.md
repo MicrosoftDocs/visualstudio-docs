@@ -112,7 +112,7 @@ To learn more about other Visual Studio accessibility options available to you, 
 
 ## Next steps
 
-To learn more about the fonts and colors that you can change in an app you're developing with Visual Studio, see the [Fonts and Colors, Environment, Options Dialog Box](../ide/reference/fonts-and-colors-environment-options-dialog-box.md) page.
+To learn more details about all the user interface (UI) elements for which you can change font and color schemes, see the [Fonts and Colors, Environment, Options Dialog Box](../ide/reference/fonts-and-colors-environment-options-dialog-box.md) page.
 
 ## See also
 
