@@ -18,7 +18,7 @@ You can change the fonts and the colors in Visual Studio in many ways. For examp
 
 ## Change the color theme
 
-Here's how to change the color theme of the IDE frame and the tool windows in Visual Studio. (When you change the color theme, some font colors will also change.)
+Here's how to change the color theme of the IDE frame and the tool windows in Visual Studio.
 
 1. On the menu bar, choose **Tools** > **Options**.
 
