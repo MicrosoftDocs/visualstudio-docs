@@ -26,11 +26,24 @@ Here's how to change the color theme of the IDE frame and the tool windows in Vi
 
 1. In the **Color theme** list, choose either the default **Blue** theme, the **Light** theme, the **Dark** theme, or the **Blue (Extra Contrast)** theme.
 
+   ![Screenshot of the Options dialog box to change the color theme](media/fonts-colors-theme.png)
+
     > [!NOTE]
     > When you change a color theme, text in the IDE reverts to the default or previously customized fonts and sizes for that theme.
-    
+
+    :::moniker range="vs-2017"
+
     > [!TIP]
-    > You can create and edit Visual Studio themes by installing the [Visual Studio Color Theme Editor](https://marketplace.visualstudio.com/items?itemName=VisualStudioPlatformTeam.VisualStudio2017ColorThemeEditor).
+    > You can create and edit your own Visual Studio themes by installing the [Color Theme Editor for Visual Studio 2017](https://marketplace.visualstudio.com/items?itemName=VisualStudioPlatformTeam.VisualStudio2017ColorThemeEditor).
+
+    :::moniker-end
+
+    :::moniker range="vs-2019"
+
+    > [!TIP]
+    > You can create and edit your own Visual Studio themes by installing the [Visual Studio Color Theme Designer](https://marketplace.visualstudio.com/items?itemName=ms-madsk.ColorThemeDesigner).
+
+    :::moniker-end
 
 ## Change fonts and text size
 
@@ -61,7 +74,7 @@ You can change the font and text size for all the IDE frame and tool windows, or
 
 1. In **Show settings for** list, select **Text Editor**.
 
-   ![Screenshot of the Options dialog box to change fonts and colors in the IDE](media/fonts-colors-text-editor.png)
+   ![Screenshot of the Options dialog box to change fonts and colors in the editor](media/fonts-colors-text-editor.png)
 
 1. Modify the **Font** and **Size** options to change the font and text size for the editor.
 
@@ -93,13 +106,13 @@ Use the following procedures to toggle the Visual Studio extra contrast option:
 1. In the **Color theme** drop-down list, choose the **Blue (Extra Contrast)** theme, and then choose **OK**.
 
 To learn more about other Visual Studio accessibility options available to you, see the [Accessibility features of Visual Studio](../ide/reference/accessibility-features-of-visual-studio.md) page.
-    
+
 > [!TIP]
 > If there is an accessibility option for colors or fonts that you think might be useful but isn't currently available in Visual Studio, please let us know in the **[Suggest a feature](../ide/suggest-a-feature.md)** forum.
 
 ## Next steps
 
-To learn more about the fonts and colors that you can change in an app you're developing with Visual Studio, see the [Fonts and Colors, Environment, Options Dialog Box](../ide/reference/fonts-and-colors-environment-options-dialog-box.md) page. 
+To learn more about the fonts and colors that you can change in an app you're developing with Visual Studio, see the [Fonts and Colors, Environment, Options Dialog Box](../ide/reference/fonts-and-colors-environment-options-dialog-box.md) page.
 
 ## See also
 
