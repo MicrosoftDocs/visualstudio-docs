@@ -44,7 +44,7 @@ ms.workload:
  For more information about code access security and ClickOnce, see [Code access security for ClickOnce applications](../deployment/code-access-security-for-clickonce-applications.md).
 
 ## Code-signing certificates
- To publish an application by using [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment, you can sign the application and deployment manifests for the application by using a public/private key pair. The tools for signing a manifest are available on the **Signing** page of the **Project Designer**. For more information, see [Signing Page, Project Designer](../ide/reference/signing-page-project-designer.md). Alternatively, you can sign the manifests with a key file during the publishing process, using the Publish Wizard.
+ To publish an application by using [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment, you can sign the application and deployment manifests for the application by using a public/private key pair. The tools for signing a manifest are available on the **Signing** page of the **Project Designer**. For more information, see [Signing Page, Project Designer](../ide/reference/signing-page-project-designer.md).
 
  After the manifests are signed, the publisher information based on the Authenticode signature will be displayed to the user in the permissions dialog box during installation, to show the user that the application originated from a trusted source.
 

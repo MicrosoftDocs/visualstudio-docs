@@ -778,6 +778,12 @@
           href: ca5373.md
         - name: "CA5374: Do Not Use XslTransform"
           href: ca5374.md
+        - name: "CA5375: Do not use account shared access signature"
+          href: ca5375.md
+        - name: "CA5376: Use SharedAccessProtocol HttpsOnly"
+          href: ca5376.md
+        - name: "CA5377: Use container level access policy"
+          href: ca5377.md
         - name: "CA5378: Do not disable ServicePointManagerSecurityProtocols"
           href: ca5378.md
         - name: "CA5379: Do not use weak key derivation function algorithm"
@@ -804,8 +810,12 @@
           href: ca5389.md
         - name: "CA5390: Do not hard-code encryption key"
           href: ca5390.md
+        - name: "CA5391: Use antiforgery tokens in ASP.NET Core MVC controllers"
+          href: ca5391.md
         - name: "CA5394: Do not use insecure randomness"
           href: ca5394.md
+        - name: "CA5395: Miss HttpVerb attribute for action methods"
+          href: ca5395.md
         - name: "CA5396: Set HttpOnly to true for HttpCookie"
           href: ca5396.md
         - name: "CA5397: Do not use deprecated SslProtocols values"
