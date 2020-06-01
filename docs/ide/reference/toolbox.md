@@ -16,7 +16,7 @@ ms.workload:
 ---
 # Toolbox
 
-The **Toolbox** window displays controls that you can add to Visual Studio projects. To open Toolbox, press **Ctrl**+**Alt**+**X** or choose **View** > **Toolbox** from the menu bar.
+The **Toolbox** window displays controls that you can add to Visual Studio projects. To open Toolbox, choose **View** > **Toolbox** from the menu bar, or press **Ctrl**+**Alt**+**X**.
 
 ![Toolbox window](media/vs-2019/toolbox.png)
 
@@ -68,7 +68,7 @@ You can create custom **Toolbox** controls, starting either with a project templ
 
 ## Help on Toolbox tabs
 
-The following topics provide more information about some of the available **Toolbox** tabs:
+The following links provide more information about some of the available **Toolbox** tabs:
 
 - [Toolbox, Data Tab](../../ide/reference/toolbox-data-tab.md)
 - [Toolbox, Components Tab](../../ide/reference/toolbox-components-tab.md)
