@@ -121,7 +121,7 @@ The color of the left margin allows you to keep track of the changes you have ma
 
 To turn this feature off and on, change the **Track changes** option in the **Text Editor** settings (**Tools** > **Options** > **Text Editor**).
 
-For more information about change tracking, to include the wavy lines (also known as "squiggles") that appear under code strings while you're coding, see the **[Editor features](../ide/writing-code-in-the-code-and-text-editor.md#editor-features)** section of the [Features of the Visual Studio code editor](../ide/writing-code-in-the-code-and-text-editor.md) page.
+For more information about change tracking&mdash;to include the wavy lines (also known as "squiggles") that appear under code strings while you're coding&mdash;see the **[Editor features](../ide/writing-code-in-the-code-and-text-editor.md#editor-features)** section of the [Features of the Visual Studio code editor](../ide/writing-code-in-the-code-and-text-editor.md) page.
 
 #### Right-click context menu
 
@@ -176,7 +176,7 @@ Add text here!
 
 ### XAML #regions
 
-Add text here!
+- CDATA ...? Regular XML stuff...
 
 ### XAML Comments
 
@@ -184,27 +184,25 @@ Add text here!
 
 ### Lightbulbs
 
-Lightbulb icons that appear in your XAML code are part of the [Quick Actions](../ide/quick-actions.md) that you can use to refactor, generate, or otherwise modify code. Here's an example of how they can benefit your XAML coding experience:
+Lightbulb icons that appear in your XAML code are part of the [Quick Actions](../ide/quick-actions.md) that you can use to refactor, generate, or otherwise modify code. Here's an example of how they can benefit your XAML coding experience.
 
-- Item 1
-- Item 2
+**Remove unnecessary namespaces**. In the XAML code editor, unnecessary namespaces appear in dimmed text. If you hover your cursor over an unnecessary using, a lightbulb will appear. When you choose the **Remove Unnecessary Namespaces** option from the drop-down list, you'll see a preview of that which you can remove.
 
-Add more text here!
+![Screenshot of the XAML code editor's Remove Unnecessary Namespaces option from the Quick Actions lightbulb](media/xaml-code-editor-dimmed-namespaces-preview.png)
 
 #### UWP – Add conditional XAML
 
 Add text here!
 
-### XAML Rename namespace using F2
+### XAML Rename namespace by using F2
 
 This feature, available both from the right-click context menu and by highlighting a value and then pressing **F12**, makes it easy to change settings on-the-fly. For example,  
 
 [Move type to namespace](../ide/reference/move-type-to-namespace.md)
 
-
 ### Structure Analyzers (dotted lines between the tags vertically)
 
-Add text here!
+Add text here! Basically, hierarchy view by tabs/gridlines. Especially useful in files with a lot of code in them, so that you can see where you're at in the structure of your code.
 
 ### Only between tags and not container properties
 
@@ -212,7 +210,7 @@ Add text here!
 
 ### Settings
 
-For more information, see the [Features of the code editor](../ide/writing-code-in-the-code-and-text-editor.md) page.
+For more information about all the settings in the Visual Studio IDE, see the [Features of the code editor](../ide/writing-code-in-the-code-and-text-editor.md) page.
 
 ## XAML optional settings
 
