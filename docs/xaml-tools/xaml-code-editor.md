@@ -11,11 +11,13 @@ manager: jillfra
 
 The XAML code editor in the [Visual Studio IDE](../get-started/visual-studio-ide.md) includes all the tools you need to create WPF and UWP apps for the Windows platform. This article outlines the role the code editor plays when you develop XAML-based apps, and on the features that are unique to the XAML code editor in Visual Studio 2019.
 
-To start, let's take a look at the IDE (integrated development environment) with an open WPF project. The following image shows several of the key IDE tools you'll use along with the XAML code editor. From the bottom left of the image going clockwise, they are:
+To start, let's take a look at the IDE (integrated development environment) with an open WPF project. The following image shows several of the key IDE tools you'll use along with the XAML code editor.
 
 <!-- [![The Visual Studio 2019 IDE with an open WPF project](media/xaml-code-editor-overview-sml.png)](media/xaml-code-editor-overview-lrg.png#lightbox) -->
 
 :::image type="content" source="media/xaml-code-editor-overview-sml.png" alt-text="The Visual Studio 2019 IDE with an open WPF project in XAML" lightbox="media/xaml-code-editor-overview-lrg.png":::
+
+From the bottom left of the image going clockwise, the key IDE tools are as follows:
 
 - The **[XAML code editor](#xaml-code-editor-ui)** window&mdash;the subject of this article&mdash;where you create and edit your code.
 - The **[XAML Designer](creating-a-ui-by-using-xaml-designer-in-visual-studio.md)** window, where you design your UI.
