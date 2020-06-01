@@ -18,17 +18,7 @@ ms.workload:
 
 The **Toolbox** window displays controls that you can add to Visual Studio projects. To open Toolbox, press **Ctrl**+**Alt**+**X**, or choose **View** > **Toolbox** from the menu bar.
 
-::: moniker range="vs-2017"
-
-![Toolbox window](media/toolbox.png)
-
-::: moniker-end
-
-::: moniker range="vs-2019"
-
 ![Toolbox window](media/vs-2019/toolbox.png)
-
-::: moniker-end
 
 You can drag and drop different controls onto the surface of the designer you are using, and resize and position the controls.
 
