@@ -1,6 +1,6 @@
 ---
 title: Toolbox window
-ms.date: 05/29/2020
+ms.date: 06/01/2020
 ms.topic: reference
 f1_keywords:
 - vs.toolbox.general
@@ -16,7 +16,7 @@ ms.workload:
 ---
 # Toolbox
 
-The **Toolbox** window displays controls that you can add to Visual Studio projects. To open Toolbox, press **Ctrl**+**Alt**+**X**, or choose **View** > **Toolbox** from the menu bar.
+The **Toolbox** window displays controls that you can add to Visual Studio projects. To open Toolbox, press **Ctrl**+**Alt**+**X** or choose **View** > **Toolbox** from the menu bar.
 
 ![Toolbox window](media/vs-2019/toolbox.png)
 
@@ -44,7 +44,7 @@ By default, **Toolbox** is collapsed along the left side of the Visual Studio ID
 
 You can rearrange the items in a **Toolbox** tab or add custom tabs and items by using the following commands on the right-click menu:
 
-- **Rename item** - Renames the selected item.
+- **Rename Item** - Renames the selected item.
 
 - **List View** - Shows the controls in a vertical list. If unchecked, the controls appear horizontally.
 
