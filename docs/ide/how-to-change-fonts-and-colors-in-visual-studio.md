@@ -74,7 +74,7 @@ You can change the font and text size for all the IDE frame and tool windows, or
 
 1. In **Show settings for** list, select **Text Editor**.
 
-   ![Screenshot of the Options dialog box to change fonts and colors in the editor](media/fonts-colors-text-editor.png)
+   ![Screenshot of the Options dialog box to change fonts and colors in the editor](media/fonts-colors-text-editor.png "Screenshot of the Options dialog box to change the fonts and colors in the editor")
 
 1. Modify the **Font** and **Size** options to change the font and text size for the editor.
 
