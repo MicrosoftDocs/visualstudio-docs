@@ -1,6 +1,6 @@
 ---
 title: Toolbox window
-ms.date: 01/18/2018
+ms.date: 05/29/2020
 ms.topic: reference
 f1_keywords:
 - vs.toolbox.general
@@ -16,34 +16,53 @@ ms.workload:
 ---
 # Toolbox
 
-The **Toolbox** window displays controls that you can add to Visual Studio projects. To open Toolbox, choose **Toolbox** on the **View** menu.
+The **Toolbox** window displays controls that you can add to Visual Studio projects. To open Toolbox, press **Ctrl**+**Alt**+**X**, or choose **View** > **Toolbox** from the menu bar.
+
+::: moniker range="vs-2017"
 
 ![Toolbox window](media/toolbox.png)
 
+::: moniker-end
+
+::: moniker range="vs-2019"
+
+![Toolbox window](media/vs-2019/toolbox.png)
+
+::: moniker-end
+
 You can drag and drop different controls onto the surface of the designer you are using, and resize and position the controls.
 
-Toolbox appears in conjunction with designer views, such as the designer view of a XAML file. **Toolbox** displays only those controls that can be used in the current designer. You can search within **Toolbox** to further filter the items that appear.
+Toolbox appears in conjunction with designer views, such as the designer view of a XAML file or a Windows Forms App project. **Toolbox** displays only those controls that can be used in the current designer. You can search within **Toolbox** to further filter the items that appear.
 
 > [!NOTE]
 > For some project types, **Toolbox** may not show any items.
 
 The .NET version that your project targets also affects the set of controls visible in Toolbox. You can change the target framework version from the project's property pages, if necessary. Select the project node in **Solution Explorer**, and then on the menu bar, choose **Project** > **projectname Properties**. On the **Application** tab, use the **Target framework** drop-down.
 
+::: moniker range="vs-2019"
+
+![Toolbox window](media/vs-2019/toolbox-change-dotnet-version.png)
+
+::: moniker-end
+
 ## Manage the Toolbox window and its controls
 
-By default **Toolbox** is collapsed along the left side of the Visual Studio IDE, and appears when the cursor is moved over it. You can pin **Toolbox** (by clicking the **Pin** icon on its toolbar) so that it remains open when you move the cursor. You can also undock the **Toolbox** window and drag it anywhere on your screen. You can dock, undock, and hide **Toolbox** by right-clicking its toolbar and selecting one of the options.
+By default, **Toolbox** is collapsed along the left side of the Visual Studio IDE and appears when the cursor is moved over it. You can pin **Toolbox** (by clicking the **Pin** icon on its toolbar) so that it remains open when you move the cursor. You can also undock the **Toolbox** window and drag it anywhere on your screen. You can dock, undock, and hide **Toolbox** by right-clicking its toolbar and selecting one of the options.
+
+> [!TIP]
+> If the Toolbox no longer appears as collapsed along the left side of the Visual Studio IDE, you can add it back by choosing **Window** > **Reset Window Layout** from the menu bar.
 
 You can rearrange the items in a **Toolbox** tab or add custom tabs and items by using the following commands on the right-click menu:
 
 - **Rename item** - Renames the selected item.
 
-- **Show All** - Shows all possible controls (not just the ones that apply to the current designer).
-
 - **List View** - Shows the controls in a vertical list. If unchecked, the controls appear horizontally.
+
+- **Show All** - Shows all possible controls (not just the ones that apply to the current designer).
 
 - **Choose Items** - Opens the **Choose Toolbox Items** dialog box so that you can specify the items that appear in the **Toolbox**. You can show or hide an item by selecting or clearing its check box.
 
-- **Sort items alphabetically** - Sorts the items by name.
+- **Sort Items Alphabetically** - Sorts the items by name.
 
 - **Reset Toolbar** - Restores the default **Toolbox** settings and items.
 
