@@ -750,6 +750,8 @@
           href: ca5358.md
         - name: "CA5359: Do not disable certificate validation"
           href: ca5359.md
+        - name: "CA5360: Do not call dangerous methods in deserialization"
+          href: ca5360.md
         - name: "CA5361: Do not disable SChannel use of strong crypto"
           href: ca5361.md
         - name: "CA5362: Potential reference cycle in deserialized object graph"
