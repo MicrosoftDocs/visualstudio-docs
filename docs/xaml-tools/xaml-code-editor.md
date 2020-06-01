@@ -24,7 +24,7 @@ From the bottom left of the image going clockwise, the key IDE tools are as foll
 - The **[Toolbox](../ide/reference/toolbox.md)** dockable window, where you add controls to your UI.
 - The **[Debug](../debugger/debugger-feature-tour.md)** button, where you run your code and debug it. <br>(You can also edit your code in real-time while you're debugging with [XAML Hot Reload](xaml-hot-reload.md).)
 - The **[Solution Explorer](../ide/solutions-and-projects-in-visual-studio.md)** window, where you manage your files, projects, and solutions.
-- The **[Properties](../ide/reference/properties-window.md)** window, where you change the way your UI looks.
+- The **[Properties](../ide/reference/properties-window.md)** window, where you change the way your UI looks and how the UI controls work.
 
 To continue, let's learn more about the XAML code editor.
 
@@ -123,7 +123,7 @@ The color of the left margin allows you to keep track of the changes you have ma
 
 To turn this feature off and on, change the **Track changes** option in the **Text Editor** settings (**Tools** > **Options** > **Text Editor**).
 
-For more information about change tracking&mdash;to include the wavy lines (also known as "squiggles") that appear under code strings while you're coding&mdash;see the **[Editor features](../ide/writing-code-in-the-code-and-text-editor.md#editor-features)** section of the [Features of the Visual Studio code editor](../ide/writing-code-in-the-code-and-text-editor.md) page.
+For more information about change tracking&mdash;to include the wavy lines (also known as "squiggles") that appear under code strings&mdash;see the **[Editor features](../ide/writing-code-in-the-code-and-text-editor.md#editor-features)** section of the [Features of the Visual Studio code editor](../ide/writing-code-in-the-code-and-text-editor.md) page.
 
 #### Right-click context menu
 
@@ -135,17 +135,17 @@ Here's what each feature does and how it's useful:
 
 - **View Code** - Opens the programming language code window, which is typically tabbed next to the default view that includes the Design window and the XAML code editor. 
 - **View Designer** - Opens the default view that includes the Design window and the XAML code editor. (If you are already in the default view, it does nothing.) 
-- **Quick Actions and Refactorings** - Refactors, generates, or otherwise modifies code with a single action. When you hover over code, you'll see a lightbulb icon when a quick action or refactoring is available. See also: [Quick Actions](../ide/quick-actions.md) and [Refactor code](../ide/refactoring-in-visual-studio.md).
+- **Quick Actions and Refactorings** - Refactors, generates, or otherwise modifies code with a single action. When you hover over code, you'll see a lightbulb icon when a quick action or refactoring is available. <br>See also: [Quick Actions](../ide/quick-actions.md) and [Refactor code](../ide/refactoring-in-visual-studio.md).
 - **Rename...** - Renames namespaces only. If you don't have a namespace to rename, you'll receive an error message that says "Only namespace prefixes and be renamed." 
 - **Remove and Sort Namespaces** - Removes unused namespaces and then sorts those that remain. 
-- **Peek Definition** - Previews the definition of a type without leaving your current location in the editor. See also: [Peek Definition](../ide/go-to-and-peek-definition.md#peek-definition) and [View and edit code by using Peek Definition](../ide/how-to-view-and-edit-code-by-using-peek-definition-alt-plus-f12.md).
-- **Go To Definition** - Navigates to the source of a type or member, and opens the result in a new tab. See also: [Go To Definition](../ide/go-to-and-peek-definition.md#go-to-definition).
-- **Surround with...** - Use surround-with code snippets, which are added around a selected block of code. See also: [Expansion snippets and surround-with snippets](../ide/code-snippets.md#expansion-snippets-and-surround-with-snippets).
+- **Peek Definition** - Previews the definition of a type without leaving your current location in the editor. <br>See also: [Peek Definition](../ide/go-to-and-peek-definition.md#peek-definition) and [View and edit code by using Peek Definition](../ide/how-to-view-and-edit-code-by-using-peek-definition-alt-plus-f12.md).
+- **Go To Definition** - Navigates to the source of a type or member, and opens the result in a new tab. <br>See also: [Go To Definition](../ide/go-to-and-peek-definition.md#go-to-definition).
+- **Surround with...** - Use surround-with code snippets, which are added around a selected block of code. <br>See also: [Expansion snippets and surround-with snippets](../ide/code-snippets.md#expansion-snippets-and-surround-with-snippets).
 - **Insert Snippet** - Inserts a code snippet at the cursor location. 
 - **Cut** - Self-explanatory 
 - **Copy** - Self-explanatory 
 - **Paste** - Self-explanatory 
-- **Outlining** - Expand and collapse sections of code. See also: [Outlining](../ide/outlining.md). 
+- **Outlining** - Expand and collapse sections of code. <br>See also: [Outlining](../ide/outlining.md). 
 - **Source Control** - View the history of code contributions to an open source repository. 
 
 ### Middle pane, scroll bar
@@ -174,15 +174,18 @@ Some of the following features are universally available in the Visual Studio ID
 
 ### XAML support for snippets
 
-Add text here!
+C# code snippets first. File on disk in a specific format in a specific place, and can be manifested in IntelliSense (link)
+
+XAML team added parity. Save you typing repetitive code. Creates a region, tabbed into the place where the region is, and type. See 16.4 release notes and blogs. Column, row, setting, tag, region.
 
 ### XAML #regions
 
 - CDATA ...? Regular XML stuff...
+Regions in XAML is the same as C# ... makes it collapsible. Incremental improvements.
 
 ### XAML Comments
 
-Add text here!
+We support comments; identical to C#
 
 ### Lightbulbs
 
@@ -194,7 +197,7 @@ Lightbulb icons that appear in your XAML code are part of the [Quick Actions](..
 
 #### UWP – Add conditional XAML
 
-Add text here!
+Unique feature. Say its supported. Documented to page that Dmitry linked in chat.
 
 ### XAML Rename namespace by using F2
 
@@ -205,10 +208,6 @@ This feature, available both from the right-click context menu and by highlighti
 ### Structure Analyzers (dotted lines between the tags vertically)
 
 Add text here! Basically, hierarchy view by tabs/gridlines. Especially useful in files with a lot of code in them, so that you can see where you're at in the structure of your code.
-
-### Only between tags and not container properties
-
-Add text here!
 
 ### Settings
 
