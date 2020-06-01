@@ -37,7 +37,7 @@ The following requirements for using the GPU Usage tool add to the Graphics Diag
 
 2. In the Performance and Diagnostics hub, check the box next to **GPU Usage**. Optionally, check the boxes next to other tools you're interested in. You can run several Performance and Diagnostics tools concurrently to get a fuller picture of your app's performance.
 
-    ![Choose the diagnostic tools you want to use.](media/gfx_diag_diagsession_tools.png "gfx_diag_diagsession_tools")
+    ![GPU Usage Tool Selected](media/gpuusageselected.png "GPU Usage Selected")
 
    > [!NOTE]
    > Not all Performance and Diagnostics tools can be used at the same time.
