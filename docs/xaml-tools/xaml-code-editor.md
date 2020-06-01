@@ -1,6 +1,6 @@
 ---
 title: XAML code editor
-ms.date: 05/29/2020
+ms.date: 06/01/2020
 ms.topic: conceptual
 monikerRange: vs-2019
 author: TerryGLee
@@ -120,6 +120,8 @@ The color of the left margin allows you to keep track of the changes you have ma
 - If you undo a change after you have saved the file, the bar turns **orange**.
 
 To turn this feature off and on, change the **Track changes** option in the **Text Editor** settings (**Tools** > **Options** > **Text Editor**).
+
+For more information about change tracking, to include the wavy lines (also known as "squiggles") that appear under code strings while you're coding, see the **[Editor features](../ide/writing-code-in-the-code-and-text-editor.md#editor-features)** section of the [Features of the Visual Studio code editor](../ide/writing-code-in-the-code-and-text-editor.md) page.
 
 #### Right-click context menu
 
