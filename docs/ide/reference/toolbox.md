@@ -66,9 +66,9 @@ You can rearrange the items in a **Toolbox** tab or add custom tabs and items by
 
 You can create custom **Toolbox** controls, starting either with a project template that's based on [Windows Presentation Foundation](../../extensibility/creating-a-wpf-toolbox-control.md) or on [Windows Forms](../../extensibility/creating-a-windows-forms-toolbox-control.md). You can then distribute your custom control to your teammates, or publish it on the web by using the [Toolbox Controls Installer](https://download.microsoft.com/download/8/3/6/836657BD-9CCB-4ED4-B9D2-FB769473B284/TCI_whitepaper.docx).
 
-## Help on Toolbox tabs
+## Next steps
 
-The following links provide more information about some of the available **Toolbox** tabs:
+Peruse the following links to learn more about some of the available **Toolbox** tabs:
 
 - [Toolbox, Data Tab](../../ide/reference/toolbox-data-tab.md)
 - [Toolbox, Components Tab](../../ide/reference/toolbox-components-tab.md)
