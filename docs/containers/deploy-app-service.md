@@ -104,7 +104,7 @@ The following steps guide you through creating a basic ASP.NET Core app that wil
 
    You can view the details about these options at [Azure App Service plan overview](/azure/app-service/overview-hosting-plans).
 
-1. Once you're done selecting or creating these resources, choose **Finish**. Your container is deployed to Azure in the resource group and container registry you selected. This process takes a bit of time. When it's completed, the **Publish** tab shows information about what was published, including the site URL.
+1. Once you're done selecting or creating these resources, choose **Finish**. Your container is deployed to Azure in the resource group and app service you selected. This process takes a bit of time. When it's completed, the **Publish** tab shows information about what was published, including the site URL.
 
    ![Screenshot of publish tab](media/deploy-app-service/publish-succeeded-windows.png)
 
@@ -112,7 +112,7 @@ The following steps guide you through creating a basic ASP.NET Core app that wil
 
    ![Screenshot of web application](media/deploy-app-service/web-application-running2.png)
 
-1. The publishing profile is saved with all the details you selected, such as the resource group and container registry.
+1. The publishing profile is saved with all the details you selected, such as the resource group and app service.
 
 1. To deploy again with the same publishing profile, use the **Publish** button, the **Publish** button on the **Web Publish Activity** window, or right-click on the project in **Solution Explorer** and choose the **Publish** item on the context-menu.
 :::moniker-end
@@ -135,7 +135,7 @@ In the Azure portal, choose **Resource groups**, select the resource group to op
 
 ## Next steps
 
-Learn more about [Azure App Service Linux](/azure/app-service/containers/app-service-linux-intro).
+Learn more about [Azure App Service](/azure/app-service/overview).
 
 ## See also
 
