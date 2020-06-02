@@ -177,6 +177,7 @@ f1_keywords:
 - CA2007
 - CA2009
 - CA2011
+- CA2013
 - CA2015
 - CA2100
 - CA2101
@@ -449,6 +450,7 @@ The following table lists Code Analysis warnings for managed code by the CheckId
 | CA2007 | [CA2007: Do not directly await a Task](ca2007.md) | An asynchronous method [awaits](/dotnet/csharp/language-reference/keywords/await) a <xref:System.Threading.Tasks.Task> directly. When an asynchronous method awaits a <xref:System.Threading.Tasks.Task> directly, continuation occurs in the same thread that created the task. This behavior can be costly in terms of performance and can result in a deadlock on the UI thread. Consider calling <xref:System.Threading.Tasks.Task.ConfigureAwait(System.Boolean)?displayProperty=nameWithType> to signal your intention for continuation. |
 | CA2009 | [CA2009: Do not call ToImmutableCollection on an ImmutableCollection value](ca2009.md) | `ToImmutable` method was unnecessarily called on an immutable collection from <xref:System.Collections.Immutable> namespace. |
 | CA2011 | [CA2011: Do not assign property within its setter](ca2011.md) | A property was accidentally assigned a value within its own [set accessor](/dotnet/csharp/programming-guide/classes-and-structs/using-properties#the-set-accessor). |
+| CA2013 | [CA2013: Do not use ReferenceEquals with value types](ca2013.md) | When comparing values using <xref:System.Object.ReferenceEquals%2A?displayProperty=fullName>, if objA and objB are value types, they are boxed before they are passed to the <xref:System.Object.ReferenceEquals%2A> method. This means that even if both objA and objB represent the same instance of a value type, the <xref:System.Object.ReferenceEquals%2A> method nevertheless returns false. |
 | CA2015 | [CA2015: Do not define finalizers for types derived from MemoryManager&lt;T&gt;](ca2015.md) | Adding a finalizer to a type derived from <xref:System.Buffers.MemoryManager%601> may permit memory to be freed while it is still in use by a <xref:System.Span%601>. |
 | CA2100 | [CA2100: Review SQL queries for security vulnerabilities](../code-quality/ca2100.md) | A method sets the System.Data.IDbCommand.CommandText property by using a string that is built from a string argument to the method. This rule assumes that the string argument contains user input. A SQL command string that is built from user input is vulnerable to SQL injection attacks. |
 | CA2101 |[CA2101: Specify marshaling for P/Invoke string arguments](../code-quality/ca2101.md) | A platform invoke member allows partially trusted callers, has a string parameter, and does not explicitly marshal the string. This can cause a potential security vulnerability. |
