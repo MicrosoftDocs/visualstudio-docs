@@ -121,7 +121,7 @@ The following steps guide you through creating a basic ASP.NET Core app that wil
 
 In the [Azure portal](https://portal.azure.com), you can open your deployed App Service.
 
-You can view settings for your deployed App Service by opening the **Container settings* menu (when you are using Visual Studio 2019 version 16.4 or later).
+You can view settings for your deployed App Service by opening the **Container settings** menu (when you are using Visual Studio 2019 version 16.4 or later).
 
 ![Screenshot of Container Settings menu in the Azure portal](media/deploy-app-service/container-settings-menu.png)
 
