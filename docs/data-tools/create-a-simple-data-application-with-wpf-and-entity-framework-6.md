@@ -12,7 +12,7 @@ ms.workload:
 ---
 # Create a simple data application with WPF and Entity Framework 6
 
-This walkthrough shows how to create a basic "forms over data" application in Visual Studio. The app uses SQL Server LocalDB, the Northwind database, Entity Framework 6, and Windows Presentation Foundation. It shows how to do basic databinding with a master-detail view, and it also has a custom Binding Navigator with buttons for **Move Next**, **Move Previous**, **Move to beginning**, **Move to end**, **Update** and **Delete**.
+This walkthrough shows how to create a basic "forms over data" application in Visual Studio. The app uses SQL Server LocalDB, the Northwind database, Entity Framework 6 (not Entity Framework Core), and Windows Presentation Foundation for .NET Framework (not .NET Core). It shows how to do basic databinding with a master-detail view, and it also has a custom Binding Navigator with buttons for **Move Next**, **Move Previous**, **Move to beginning**, **Move to end**, **Update** and **Delete**.
 
 This article focuses on using data tools in Visual Studio, and does not attempt to explain the underlying technologies in any depth. It assumes that you have a basic familiarity with XAML, Entity Framework, and SQL. This example also does not demonstrate Model-View-ViewModel (MVVM) architecture, which is standard for WPF applications. However, you can copy this code into your own MVVM application with few modifications.
 
@@ -38,9 +38,9 @@ This example uses SQL Server Express LocalDB and the Northwind sample database. 
 
 ## Configure the project
 
-1. In Visual Studio, create a new C# **WPF App** project.
+1. In Visual Studio, create a new C# **WPF App (.NET Framework)** project.
 
-2. Add the NuGet package for Entity Framework 6. In **Solution Explorer**, select the project node. In the main menu, choose **Project** > **Manage NuGet Packages**.
+2. Add the NuGet package for Entity Framework 6 (Entity Framework Core is not supported). In **Solution Explorer**, select the project node. In the main menu, choose **Project** > **Manage NuGet Packages**.
 
      ![Manage NuGet Packages menu item](../data-tools/media/raddata_vs2015_manage_nuget_packages.png)
 
