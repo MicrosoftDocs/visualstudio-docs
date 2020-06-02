@@ -129,9 +129,9 @@ See [Building multiple projects in parallel with MSBuild](building-multiple-proj
 
 The *Microsoft.Common.props* file sets defaults you can override. It's imported (explicitly or implicitly) at the beginning of a project file. That way, your project's settings appear after the defaults, so that they override them.
 
-The *Microsoft.Common.targets* file and the target files it imports defines the standard build process for .NET projects. It also provides extension points you can use to customize the build.
+The *Microsoft.Common.targets* file and the target files it imports define the standard build process for .NET projects. It also provides extension points you can use to customize the build.
 
-In implementation, *Microsoft.Common.targets* is a thin wrapper that imports *Microsoft.Common.CurrentVersion.targets*. This file contains settings for standard properties, and defines the actual targets that define the build process. The `Build` target is defined here, but is actually itself empty. However, the `Build` target contains the `DependsOn` attribute that specifies the individual targets that make up the actual build steps, which are `BeforeBuild`, `CoreBuild`, `AfterBuild`. The `Build` target is defined as follows:
+In implementation, *Microsoft.Common.targets* is a thin wrapper that imports *Microsoft.Common.CurrentVersion.targets*. This file contains settings for standard properties, and defines the actual targets that define the build process. The `Build` target is defined here, but is actually itself empty. However, the `Build` target contains the `DependsOn` attribute that specifies the individual targets that make up the actual build steps, which are `BeforeBuild`, `CoreBuild`, and `AfterBuild`. The `Build` target is defined as follows:
 
 ```xml
   <PropertyGroup>
@@ -149,7 +149,7 @@ In implementation, *Microsoft.Common.targets* is a thin wrapper that imports *Mi
       Returns="@(TargetPathWithTargetPlatformMoniker)" />
 ```
 
-`BeforeBuild` and `AfterBuild` are extension points. They're empty in the *Microsoft.Common.CurrentVersion.targets* file, but projects can provide their own `BeforeBuild` and `AfterBuild` targets with tasks that need to be performed before or after the main build process. `AfterBuild` is run before the no-op target, `Build`, because `AfterBuild` appears in the DependsOn attribute on the `Build` target, but it occurs after `CoreBuild`.
+`BeforeBuild` and `AfterBuild` are extension points. They're empty in the *Microsoft.Common.CurrentVersion.targets* file, but projects can provide their own `BeforeBuild` and `AfterBuild` targets with tasks that need to be performed before or after the main build process. `AfterBuild` is run before the no-op target, `Build`, because `AfterBuild` appears in the `DependsOn` attribute on the `Build` target, but it occurs after `CoreBuild`.
 
 The `CoreBuild` target contains the calls to the build tools, as follows:
 
@@ -220,7 +220,13 @@ In addition to the standard imports, there are several imports that you can add 
 
 These files are read in by the standard imports for any projects in any subfolder under them. That's commonly at the solution level for settings to control all the projects in the solution, but could also be higher up in the filesystem, up to the root of the drive.
 
-The *Directory.Build.props* file is read in by *Microsoft.Common.targets* (actually one of its imports), so the properties defined therein are available in the project file. They can be redefined in the project file to customize the values on a per-project basis. The *Directory.Build.targets* file is read in after the project file. It typically contains targets, but here you can also define properties that you don't want individual projects to redefine.
+The *Directory.Build.props* file is imported by *Microsoft.Common.props*, so the properties defined therein are available in the project file. They can be redefined in the project file to customize the values on a per-project basis. The *Directory.Build.targets* file is read in after the project file. It typically contains targets, but here you can also define properties that you don't want individual projects to redefine.
+
+## Customizations in a project file
+
+Visual Studio updates your project files as you make changes in **Solution Explorer**, the **Properties** window, or in **Project Properties**, but you can also make your own changes by directly editing the project file.
+
+Many build behaviors can be configured by setting MSBuild properties, either in the project file for settings local to a project, or as mentioned in the previous section, by creating a *Directory.Build.props* file to set properties globally for entire folders of projects and solutions. For ad hoc builds on the command line, or scripts, you can also use the `/p` option on the command line to set properties for a particular invocation of MSBuild. See [Common MSBuild project properties](common-msbuild-project-properties.md) for information about properties you can set.
 
 ## Next steps
 
