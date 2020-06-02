@@ -13,8 +13,6 @@ The XAML code editor in the [Visual Studio IDE](../get-started/visual-studio-ide
 
 To start, let's take a look at the IDE (integrated development environment) with an open WPF project. The following image shows several of the key IDE tools you'll use along with the XAML code editor.
 
-<!-- [![The Visual Studio 2019 IDE with an open WPF project](media/xaml-code-editor-overview-sml.png)](media/xaml-code-editor-overview-lrg.png#lightbox) -->
-
 :::image type="content" source="media/xaml-code-editor-overview-sml.png" alt-text="The Visual Studio 2019 IDE with an open WPF project in XAML" lightbox="media/xaml-code-editor-overview-lrg.png":::
 
 From the bottom left of the image going clockwise, the key IDE tools are as follows:
@@ -34,7 +32,7 @@ The code editor window for XAML apps shares some UI (user interface) elements th
 
 Here's a look at the XAML code editor window itself.
 
-![Screenshot of the XAML code editor window in Visual Studio 2019](media/xaml-code-editor-window.png)
+![Screenshot of the XAML code editor window in Visual Studio 2019](media/xaml-code-editor-window.png "Screenshot of the XAML code editor window in Visual Studio 2019")
 
 Next, let's take a look at the functions of each of the UI elements in the code editor.
 
@@ -42,7 +40,7 @@ Next, let's take a look at the functions of each of the UI elements in the code 
 
 Starting at the top left, and from left to right, there's a **Design** tab, a **Swap Panes** button, a **XAML** tab, and a **Pop-Out XAML** button.
 
-![Screenshot of the first of the two top rows of the XAML code editor window in Visual Studio 2019, in which UI elements on the left are highlighted](media/xaml-code-editor-top-row-left.png)
+![Screenshot of the first of the two top rows of the XAML code editor window in Visual Studio 2019, in which UI elements on the left are highlighted](media/xaml-code-editor-top-row-left.png "Screenshot of the first of the two top rows of the XAML code editor window in Visual Studio 2019, in which UI elements on the left are highlighted")
 
 Here's how they work:
 
@@ -55,7 +53,7 @@ Here's how they work:
 
 Continuing at the top right, and from left to right, there's a **Vertical Split** button, a **Horizontal Split** button, and a **Collapse Panes** button.
 
-![Screenshot of the first of the two top rows of the XAML code editor window in Visual Studio 2019, in which UI elements on the right are highlighted](media/xaml-code-editor-top-row-right.png)
+![Screenshot of the first of the two top rows of the XAML code editor window in Visual Studio 2019, in which UI elements on the right are highlighted](media/xaml-code-editor-top-row-right.png "Screenshot of the first of the two top rows of the XAML code editor window in Visual Studio 2019, in which UI elements on the right are highlighted")
 
 Here's how they work:
 
@@ -72,7 +70,7 @@ Here's how they work:
 
 In the second row of the top left, there are two Window dropdown lists. However, if you view the Tooltip for these UI elements, it further identifies them as the "Element: Window" and the "Member: Window".
 
-![Screenshot of the second of the two top rows of the XAML code editor window in Visual Studio 2019, in which both Window dropdown lists are visible](media/xaml-code-editor-top-row-windows.png)
+![Screenshot of the second of the two top rows of the XAML code editor window in Visual Studio 2019, in which both Window dropdown lists are visible](media/xaml-code-editor-top-row-windows.png "Screenshot of the second of the two top rows of the XAML code editor window in Visual Studio 2019, in which both Window dropdown lists are visible")
 
 The Window dropdown lists have different functions, as follows:
 
@@ -80,19 +78,19 @@ The Window dropdown lists have different functions, as follows:
 
   Specifically, it shows you an outline-like view that reveals the tag structure of your code. When you select from the list, your focus in the code editor will snap to the line of code that includes the element you selected.
 
-    ![Screenshot of the Element: Window dropdown list in Visual Studio 2019](media/xaml-element-window-dropdown.png)
+    ![Screenshot of the Element: Window dropdown list in Visual Studio 2019](media/xaml-element-window-dropdown.png "Screenshot of the Element: Window dropdown list in Visual Studio 2019")
 
 - The **Member: Window** on the right helps you view and navigate to attribute or child elements.
 
     Specifically, it shows you a list of the properties in your code. When you select from the list, your focus in the code editor will snap to the line of code that includes the property you selected.
 
-    ![Screenshot of the Member: Window dropdown list in Visual Studio 2019](media/xaml-member-window-dropdown.png)
+    ![Screenshot of the Member: Window dropdown list in Visual Studio 2019](media/xaml-member-window-dropdown.png "Screenshot of the Member: Window dropdown list in Visual Studio 2019")
 
 ### Middle pane, code editor
 
 The middle pane is the "code" part of the XAML code editor. It includes most of the features that you'll find in the [IDE code editor](../get-started/tutorial-editor.md). We'll touch on several of the universal IDE features that can help you develop your XAML code. We'll also highlight the unique-to-XAML features in the IDE, too.
 
-![Screenshot of the XAML code editor, middle pane only, in Visual Studio 2019](media/xaml-code-editor-middle.png)
+![Screenshot of the XAML code editor, middle pane only, in Visual Studio 2019](media/xaml-code-editor-middle.png "Screenshot of the XAML code editor, middle pane only, in Visual Studio 2019")
 
 #### Quick actions
 
@@ -104,7 +102,7 @@ One useful task is to remove the unnecessary usings from your code. Here's how:
 
 1. Hover over a using statement, choose the lightbulb icon, and then choose **Remove Unnecessary Usings** from the drop-down list.
 
-    ![Screenshot of the XAML code editor's "Remove Unnecessary Usings" option from the Quick Actions menu](media/xaml-code-editor-remove-usings.png)
+    ![Screenshot of the XAML code editor's "Remove Unnecessary Usings" option from the Quick Actions menu](media/xaml-code-editor-remove-usings.png "Screenshot of the XAML code editor's "Remove Unnecessary Usings" option from the Quick Actions menu")
     
 1. Choose whether you want to fix all occurrences in the **Document**, the **Project**, or the **Solution**.
 1. View the **Preview** dialog, and then choose **Apply**.
@@ -129,7 +127,7 @@ For more information about change tracking&mdash;to include the wavy lines (also
 
 When you are editing your code in the XAML code editor, there are several features that you can access by using the right-click context menu. Most of these features are available universally in the Visual Studio IDE, while some are specific to using a code editor along with a Design window. 
 
-![Screenshot of the XAML code editor's right-click menu in Visual Studio 2019](media/xaml-code-editor-right-click-menu.png)
+![Screenshot of the XAML code editor's right-click context menu in Visual Studio 2019](media/xaml-code-editor-right-click-menu.png "Screenshot of the XAML code editor's right-click context menu in Visual Studio 2019")
 
 Here's what each feature does and how it's useful:
 
@@ -156,7 +154,7 @@ The scroll bar can do more than scroll through your code. You can also use it to
 
 In the scroll bar of the code editor, there's a **Split** button at the top right. When you choose it, you can open another code editor pane. This is useful because they operate independently of each other, so you can use them to work on code in different locations.
 
-![Screenshot of the XAML code editor, middle pane only, in Visual Studio 2019](media/code-editor-split-window-button.png)
+![Screenshot of the XAML code editor, middle pane only, in Visual Studio 2019](media/code-editor-split-window-button.png "Screenshot of the XAML code editor, middle pane only, in Visual Studio 2019")
 
 For more information about how to split an editor window, see the [Manage editor windows](../ide/how-to-manage-editor-windows.md) page.
 
@@ -193,7 +191,7 @@ Lightbulb icons that appear in your XAML code are part of the [Quick Actions](..
 
 **Remove unnecessary namespaces**. In the XAML code editor, unnecessary namespaces appear in dimmed text. If you hover your cursor over an unnecessary using, a lightbulb will appear. When you choose the **Remove Unnecessary Namespaces** option from the drop-down list, you'll see a preview of that which you can remove.
 
-![Screenshot of the XAML code editor's Remove Unnecessary Namespaces option from the Quick Actions lightbulb](media/xaml-code-editor-dimmed-namespaces-preview.png)
+![Screenshot of the XAML code editor's Remove Unnecessary Namespaces option from the Quick Actions lightbulb](media/xaml-code-editor-dimmed-namespaces-preview.png "Screenshot of the XAML code editor's Remove Unnecessary Namespaces option from the Quick Actions lightbulb")
 
 #### UWP – Add conditional XAML
 
@@ -217,7 +215,7 @@ For more information about all the settings in the Visual Studio IDE, see the [F
 
 You can use the [Options](../ide/reference/options-dialog-box-visual-studio.md) dialog box to change the default settings for the XAML code editor. To view the settings, choose **Tools** > **Options** > **Text Editor** > **XAML**.
 
-![Screenshot of the Options list for the XAML text editor](media/xaml-tools-options.png)
+![Screenshot of the Options list for the XAML text editor](media/xaml-tools-options.png "Screenshot of the Options list for the XAML text editor")
 
 > [!NOTE]
 > You can also use keyboard shortcuts to access the Options dialog box. Here's how: Press **Ctrl**+**Q** to search the IDE, type **Options**, and then press **Enter**. Next, press **Ctrl**+**E** to search the Options dialog box, type **Text Editor**, press **Enter**, type **XAML**, and then press **Enter**.
