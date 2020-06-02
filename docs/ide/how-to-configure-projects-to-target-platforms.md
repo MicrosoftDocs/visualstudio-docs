@@ -47,7 +47,7 @@ The **Configuration Manager** provides a way for you to quickly add a new platfo
 The properties for all projects that target the 64-bit platform are updated, and the next build of the project will be optimized for 64-bit platforms.
 
 > [!NOTE]
-> The **Win32** platform is used for C++ projects, and it means **x86**. Visual Studio considers both project-level platforms and solution-level platforms, and the project platforms come from the language-specific project systems. C++ projects use **Win32** and **x64**, but the solution platforms use **x86** and **x64**. When you choose **x86** as the solution configuration, Visual Studio selects the **Win32** platform for C++ projects.
+> The **Win32** platform name is used for C++ projects, and it means **x86**. Visual Studio considers both project-level platforms and solution-level platforms, and the project platforms come from the language-specific project systems. C++ projects use **Win32** and **x64**, but the solution platforms use **x86** and **x64**. When you choose **x86** as the solution configuration, Visual Studio selects the **Win32** platform for C++ projects.
 
 ## Target platforms in the Project Designer
 
