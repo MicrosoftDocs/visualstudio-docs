@@ -100,9 +100,9 @@ The following steps guide you through creating a basic ASP.NET Core app that wil
 
 1. You can accept the default hosting plan or change the hosting plan now, or later in the Azure portal. The default is `S1` (small) in one of the supported regions. To create a hosting plan, choose **New** next to the **Hosting Plan** dropdown. The **Hosting Plan** window appears.
 
-   ![Screenshot showing hosting plan options](media/deploy-app-service/hosting-plans.png)
+   ![Screenshot showing hosting plan options](media/deploy-app-service/hosting-plan.png)
 
-   You can view the details about these options at [Azure App Service plan overview](https://docs.microsoft.com/en-us/azure/app-service/overview-hosting-plans).
+   You can view the details about these options at [Azure App Service plan overview](/azure/app-service/overview-hosting-plans).
 
 1. Once you're done selecting or creating these resources, choose **Finish**. Your container is deployed to Azure in the resource group and container registry you selected. This process takes a bit of time. When it's completed, the **Publish** tab shows information about what was published, including the site URL.
 
