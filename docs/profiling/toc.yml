@@ -20,12 +20,22 @@
     href: memory-usage.md
 - name: Concepts
   items:
+  - name: Optimizing profiler settings
+    href: optimize-profiler-settings.md
   - name: Run profiling tools with or without the debugger
     href: running-profiling-tools-with-or-without-the-debugger.md
+  - name: Using multiple profiler tools simultaneously
+    href: use-multiple-profiler-tools-simultaneously.md  
 - name: How-to guides
   items:
   - name: Use PerfTips
     href: perftips.md
+  - name: .NET Async
+    href: analyze-async.md
+  - name: Database
+    href: analyze-database.md
+  - name: Events Viewer
+    href: events-viewer.md 
   - name: CPU usage
     href: cpu-usage.md
   - name: Memory usage
