@@ -27,6 +27,6 @@ MSBuild provides a basic XML schema that you can use to control how the build pl
 | [MSBuild special characters](../msbuild/msbuild-special-characters.md) | Explains how to escape some characters that MSBuild reserves for special use in specific contexts. |
 | [Walkthrough: Creating an MSBuild project file from scratch](../msbuild/walkthrough-creating-an-msbuild-project-file-from-scratch.md) | Shows how to create a basic project file incrementally, by using only a text editor. |
 | [Walkthrough: Using MSBuild](../msbuild/walkthrough-using-msbuild.md) | Introduces the building blocks of MSBuild and shows how to write, manipulate, and debug MSBuild projects without closing the Visual Studio integrated development environment (IDE). |
-| [How MSBuild builds projects](build-process-overview.md)) | Describes the internal build process used within MSBuild |
+| [How MSBuild builds projects](build-process-overview.md) | Describes the internal build process used within MSBuild |
 | [MSBuild reference](../msbuild/msbuild-reference.md) | Links to documents that contain reference information. |
 | [MSBuild](../msbuild/msbuild.md) | Presents an overview of the XML schema for a project file and shows how it controls processes that builds software. |
