@@ -27,7 +27,7 @@ Fakes come in two flavors:
 
 - Visual Studio Enterprise
 - A .NET Framework project
-- .NET Core and SDK-style project support is currently in preivew. [Read More](https://docs.microsoft.com/en-us/visualstudio/releases/2019/release-notes#microsoft-fakes-for-net-core-and-sdk-style-projects)
+- .NET Core and SDK-style project support is currently in preivew. [Read More](https://docs.microsoft.com/visualstudio/releases/2019/release-notes#microsoft-fakes-for-net-core-and-sdk-style-projects)
 
 > [!NOTE]
 > - .NET Standard projects are not supported.
