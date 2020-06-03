@@ -16,9 +16,9 @@ ms.workload:
 ---
 # Toolbox
 
-The **Toolbox** window displays controls that you can add to Visual Studio projects. To open Toolbox, choose **View** > **Toolbox** from the menu bar, or press **Ctrl**+**Alt**+**X**.
+The **Toolbox** window displays controls that you can add to Visual Studio projects. To open **Toolbox**, choose **View** > **Toolbox** from the menu bar, or press **Ctrl**+**Alt**+**X**.
 
-![Toolbox window](media/vs-2019/toolbox.png)
+![Toolbox window](media/vs-2019/toolbox.png "Screenshot of the Toolbox window")
 
 You can drag and drop different controls onto the surface of the designer you are using, and resize and position the controls.
 
@@ -31,7 +31,7 @@ The .NET version that your project targets also affects the set of controls visi
 
 ::: moniker range="vs-2019"
 
-![Toolbox window](media/vs-2019/toolbox-change-dotnet-version.png)
+![Toolbox window](media/vs-2019/toolbox-change-dotnet-version.png "Screenshot of the dialog box where you can change the .NET version")
 
 ::: moniker-end
 
@@ -42,7 +42,7 @@ By default, **Toolbox** is collapsed along the left side of the Visual Studio ID
 > [!TIP]
 > If the Toolbox no longer appears as collapsed along the left side of the Visual Studio IDE, you can add it back by choosing **Window** > **Reset Window Layout** from the menu bar.
 
-You can rearrange the items in a **Toolbox** tab or add custom tabs and items by using the following commands on the right-click menu:
+You can rearrange the items in a **Toolbox** tab or add custom tabs and items by using the following commands on the right-click context menu:
 
 - **Rename Item** - Renames the selected item.
 
