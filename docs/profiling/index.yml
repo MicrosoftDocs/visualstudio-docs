@@ -84,7 +84,7 @@ landingContent:
         links:
           - text: Optimizing profiler settings
             url: optimize-profiler-settings.md
-          - text: Measure CPU usage from the command line
+          - text: Measure performance from the command line
             url: profile-apps-from-command-line.md
           - text: Using multiple profiler tools simultaneously
             url: use-multiple-profiler-tools-simultaneously.md
