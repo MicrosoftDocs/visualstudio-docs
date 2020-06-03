@@ -9,27 +9,12 @@ helpviewer_keywords:
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jillfra
-monikerRange: '>= vs-2017'
+monikerRange: 'vs-2017'
 ms.workload:
   - "multiple"
 ---
 
 # Understand performance collection methods
-
-This document outlines the data collection methods that tools within the Visual Studio Performance Profiler utilize. 
-
-::: moniker range="vs-2019"
-
-## Sampling
-
-Sampling profiling methods collect statistical data about the work that is performed by an application during a profiling run. This is done by collecting information on the application at a regular interval or sampling frequency such as every millisecond and then analyzing this to create a model of where time was spent in the application. The sampling method is lightweight and has little effect on the execution of the application being profiled. Tools in the Performance Profiler that utilize this method include the [CPU Usage](../profiling/cpu-usage.md) tool.
-
-## Instrumentation
-
-Instrumentation profiling collects detailed information about the work that is performed by an application during a profiling run. This is done by tools either injecting code into a binary file that captures timing information or using callback hooks to collect and emit exact timing and call count information as an application runs. The instrumentation method has a high overhead when compared to sampling based approaches. Tools in the Performance Profiler that use this include the [.NET Object Allocation](../profiling/dotnet-alloc-tool.md) Tool.
-::: moniker-end
-
-::: moniker range="vs-2017"
 
 The Visual Studio Profiling Tools provide five methods that you can use to collect performance data. This topic describes the different methods and suggests some scenarios in which collecting data with a particular method can be appropriate.
 
@@ -144,5 +129,3 @@ Tier interaction data that is collected by Profiling Tools
 
 [How to: Collect performance data for a web site](../profiling/how-to-collect-performance-data-for-a-web-site.md)
 [Beginner's guide to performance profiling](../profiling/beginners-guide-to-performance-profiling.md)
-
-::: moniker-end
