@@ -30,7 +30,7 @@ This article describes how to use the **Publish** tool for one-time deployment.
 
 1. In the **Publish** dialog, select **Azure**.
 
-    ![Choose publish target](../deployment/media/quickstart-publish-azure.png)
+    ![Choose publish target](../deployment/media/quickstart-publish-azure-new.png)
 
 1. Select **Azure App Service (Linux)** and **Next**.
 

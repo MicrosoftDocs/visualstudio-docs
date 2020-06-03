@@ -2746,6 +2746,11 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "docs/profiling/profiling-overview.md",
+      "redirect_url": "/visualstudio/profiling/profiling-feature-tour",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/debugger/gpu-usage.md",
       "redirect_url": "/visualstudio/profiling/gpu-usage",
       "redirect_document_id": false
