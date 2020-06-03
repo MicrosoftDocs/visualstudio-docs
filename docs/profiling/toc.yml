@@ -4,6 +4,8 @@
   items:
   - name: First look at profiling
     href: profiling-feature-tour.md
+  - name: Run profiling tools with or without the debugger
+    href: running-profiling-tools-with-or-without-the-debugger.md
 - name: Quickstarts
   items:
   - name: Analyze CPU usage (managed)
@@ -20,12 +22,10 @@
     href: memory-usage.md
 - name: Concepts
   items:
-  - name: Optimize profiler settings
-    href: optimize-profiler-settings.md
   - name: Understanding performance collection methods
     href: understanding-performance-collection-methods-perf-profiler.md
-  - name: Run profiling tools with or without the debugger
-    href: running-profiling-tools-with-or-without-the-debugger.md
+  - name: Optimize profiler settings
+    href: optimize-profiler-settings.md
   - name: Using multiple profiler tools simultaneously
     href: use-multiple-profiler-tools-simultaneously.md  
 - name: How-to guides
