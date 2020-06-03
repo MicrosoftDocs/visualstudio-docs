@@ -53,7 +53,7 @@ Deployment to a local folder is typically used for testing, or to begin a staged
 
   To use the **Publish** tool, right-click the project in Solution Explorer and choose **Publish**. (If you have previously configured any publishing profiles, you must then click **Create new profile**.) In the Publish dialog box, choose either **App Service** or **Azure Virtual Machines**, and then follow the configuration steps.
 
-  ![Choose Azure App Service](../deployment/media/quickstart-publish-azure.png "Choose Azure App Service")
+  ![Choose Azure App Service](../deployment/media/quickstart-publish-azure-new.png "Choose Azure App Service")
 
   Starting in Visual Studio 2017 version 15.7, you can deploy ASP.NET Core apps to **App Service for Linux**.
 

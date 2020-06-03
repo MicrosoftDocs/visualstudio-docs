@@ -13,6 +13,8 @@
     - name: Overview
       displayName: "msbuild concepts"
       href: msbuild-concepts.md
+    - name: How MSBuild builds projects
+      href: build-process-overview.md
     - name: Properties
       items:
       - name: MSBuild properties

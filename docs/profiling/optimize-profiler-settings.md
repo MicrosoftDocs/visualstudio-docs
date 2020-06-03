@@ -45,4 +45,4 @@ Certain tools, such as the [CPU Usage](../profiling/cpu-usage.md) tool and [NET 
 
 - [Running profiling tools with or without the debugger](../profiling/running-profiling-tools-with-or-without-the-debugger.md)
 - [Using multiple profiler tools simultaneously](../profiling/use-multiple-profiler-tools-simultaneously.md)
-- [Understanding performance collection methods](../profiling/understanding-performance-collection-methods.md)
+- [Understanding performance collection methods](../profiling/understanding-performance-collection-methods-perf-profiler.md)
