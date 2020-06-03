@@ -82,7 +82,7 @@ The following steps guide you through creating a basic ASP.NET Core app that wil
 1. Right-click your project in **Solution Explorer** and choose **Publish**.
 1. On the **Publish** dialog, choose the **Azure** target.
 
-   ![Screenshot of Publish wizard][media/deploy-app-service/publish-choices.png]
+   ![Screenshot of Publish wizard](media/deploy-app-service/publish-choices.png)
 
 1. On the **Specific target** tab, choose the appropriate deployment target, such as **App Service (Windows)** or **App Service (Linux)**, depending on your container type.
 
