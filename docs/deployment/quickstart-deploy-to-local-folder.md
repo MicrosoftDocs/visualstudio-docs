@@ -28,7 +28,7 @@ You can use the **Publish** tool to publish ASP.NET, ASP.NET Core, .NET Core, an
 
 1. In the **Publish** dialog, select **Folder**.
 
-    ![Choose folder as a publish target](../deployment/media/quickstart-publish-folder.png "Choose Folder")
+    ![Choose folder as a publish target](../deployment/media/quickstart-publish-folder-new.png "Choose Folder")
 
 1. Enter a path or select **Browse** to specify a folder.
 
