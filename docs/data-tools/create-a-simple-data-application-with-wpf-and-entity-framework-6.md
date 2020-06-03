@@ -41,9 +41,9 @@ This example uses SQL Server Express LocalDB and the Northwind sample database. 
 
 ## Configure the project
 
-1. In Visual Studio, create a new C# **WPF App (.NET Framework)** project.
+1. In Visual Studio, create a new C# **WPF App** project.
 
-2. Add the NuGet package for Entity Framework 6 (Entity Framework Core is not supported). In **Solution Explorer**, select the project node. In the main menu, choose **Project** > **Manage NuGet Packages**.
+2. Add the NuGet package for Entity Framework 6. In **Solution Explorer**, select the project node. In the main menu, choose **Project** > **Manage NuGet Packages**.
 
      ![Manage NuGet Packages menu item](../data-tools/media/raddata_vs2015_manage_nuget_packages.png)
 
