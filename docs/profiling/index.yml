@@ -28,6 +28,8 @@ landingContent:
         links:
          - text: Ways to run profiling tools
            url: running-profiling-tools-with-or-without-the-debugger.md
+         - text: Understanding performance collection methods
+           url: understanding-performance-collection-methods-perf-profiler.md
          
            
 
@@ -80,8 +82,6 @@ landingContent:
     linkLists:
       - linkListType: how-to-guide
         links:
-          - text: Understanding performance collection methods
-            url: understanding-performance-collection-methods.md
           - text: Optimizing profiler settings
             url: optimize-profiler-settings.md
           - text: Measure CPU usage from the command line

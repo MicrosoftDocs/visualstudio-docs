@@ -20,8 +20,10 @@
     href: memory-usage.md
 - name: Concepts
   items:
-  - name: Optimizing profiler settings
+  - name: Optimize profiler settings
     href: optimize-profiler-settings.md
+  - name: Understanding performance collection methods
+    href: understanding-performance-collection-methods-perf-profiler.md
   - name: Run profiling tools with or without the debugger
     href: running-profiling-tools-with-or-without-the-debugger.md
   - name: Using multiple profiler tools simultaneously
