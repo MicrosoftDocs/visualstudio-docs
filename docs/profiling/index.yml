@@ -10,7 +10,7 @@ metadata:
   author: mikejo5000
   ms.author: mikejo
   manager: jillfra
-  ms.date: 10/30/2019
+  ms.date: 06/03/2020
 
 # linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
 
@@ -48,11 +48,15 @@ landingContent:
             url: beginners-guide-to-performance-profiling.md
           - text: Get started measuring memory usage
             url: memory-usage.md
+      - linkListType: how-to-guide
+        links:
+          - text: PerfTips
+            url: perftips.md
             
   # Card (optional)
   - title: Performance tools
     linkLists:
-      - linkListType: reference
+      - linkListType: how-to-guide
         links:
           - text: CPU Usage
             url: cpu-usage.md
@@ -64,36 +68,27 @@ landingContent:
             url: memory-usage-without-debugging2.md
           - text: .NET Object Allocation Tracking
             url: dotnet-alloc-tool.md
-          - text: GPU Usage
+          - text: GPU Usage (Direct3D)
             url: gpu-usage.md
           - text: .NET Async
             url: analyze-async.md
+          - text: Analyze resource consumption (XAML)
+            url: application-timeline.md
 
   # Card (optional)
-  - title: More performance tools
+  - title: Guides
     linkLists:
       - linkListType: how-to-guide
         links:
-          - text: PerfTips
-            url: perftips.md
+          - text: Understanding performance collection methods
+            url: understanding-performance-collection-methods.md
           - text: Optimizing profiler settings
             url: optimize-profiler-settings.md
           - text: Measure CPU usage from the command line
             url: profile-apps-from-command-line.md
-          - text: Understanding performance collection methods
-            url: understanding-performance-collection-methods.md
           - text: Using multiple profiler tools simultaneously
             url: use-multiple-profiler-tools-simultaneously.md
-          - text: Analyze resource consumption (XAML)
-            url: application-timeline.md
-          - text: Analyze GPU usage (Direct3D)
-            url: gpu-usage.md
-          - text: Analyze network usage (UWP)
-            url: network-usage.md
-          - text: Analyze energy usage (UWP)
-            url: analyze-energy-use-in-store-apps.md
-          - text: Application timeline
-            url: application-timeline.md
+
           
           
         
