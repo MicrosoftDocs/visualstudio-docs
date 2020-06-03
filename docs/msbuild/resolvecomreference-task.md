@@ -78,7 +78,7 @@ In addition to the parameters listed above, this task inherits parameters from t
 
 The COM DLL doesn't need to be registered on the machine for this task to work.
 
-If you try to run a project that uses the ResolveCOMReference task from the `dotnet` CLI commands, you may get the error:
+If you try to run a project that uses the `ResolveCOMReference` task from the `dotnet` CLI commands, you may get the error:
 
 ```output
 MSB4803: The task "ResolveComReference" is not supported on the .NET Core version of MSBuild. Please use the .NET Framework version of MSBuild.
