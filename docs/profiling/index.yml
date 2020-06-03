@@ -36,14 +36,6 @@ landingContent:
   # Card (optional)
   - title: Get started
     linkLists:
-      - linkListType: quickstart
-        links:
-          - text: Analyze CPU usage (C#, Visual Basic)
-            url: quickstart-cpu-usage-managed.md
-          - text: Analyze CPU usage (C++)
-            url: quickstart-cpu-usage-native.md
-          - text: Analyze CPU usage (ASP.NET)
-            url: quickstart-cpu-usage-aspnet.md
       - linkListType: tutorial
         links:
           - text: Get started analyzing CPU usage
@@ -82,11 +74,11 @@ landingContent:
     linkLists:
       - linkListType: how-to-guide
         links:
-          - text: Optimizing profiler settings
+          - text: Optimize profiler settings
             url: optimize-profiler-settings.md
           - text: Measure performance from the command line
             url: profile-apps-from-command-line.md
-          - text: Using multiple profiler tools simultaneously
+          - text: Use multiple profiler tools simultaneously
             url: use-multiple-profiler-tools-simultaneously.md
 
           
