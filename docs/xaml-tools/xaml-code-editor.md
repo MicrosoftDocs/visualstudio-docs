@@ -170,11 +170,11 @@ For more information about how to change the default settings of the scroll bar,
 
 Some of the following features are universally available in the Visual Studio IDE, yet there are added dimensions to these features that make coding easier for XAML developers.
 
-### XAML support for snippets
+### XAML code snippets
 
-C# code snippets first. File on disk in a specific format in a specific place, and can be manifested in IntelliSense (link)
+Code snippets are small blocks of reusable code that can be inserted in a code file using a right-click context menu command or a combination of hotkeys. We've enhanced IntelliSense so that it supports showing XAML snippets, which works for both built-in snippets and any custom snippets that you add manually. Some out-of-the-box XAML snippets include `#region`, `Column definition`, `Row definition`, `Setter`, and `Tag`.
 
-XAML team added parity. Save you typing repetitive code. Creates a region, tabbed into the place where the region is, and type. See 16.4 release notes and blogs. Column, row, setting, tag, region.
+For more information, see the [Code snippets](../ide/code-snippets.md) and [C# code snippets](../ide/visual-csharp-code-snippets.md) pages. 
 
 ### XAML #regions
 
@@ -185,7 +185,7 @@ Regions in XAML is the same as C# ... makes it collapsible. Incremental improvem
 
 We support comments; identical to C#
 
-### Lightbulbs
+### XAML lightbulbs
 
 Lightbulb icons that appear in your XAML code are part of the [Quick Actions](../ide/quick-actions.md) that you can use to refactor, generate, or otherwise modify code. Here's an example of how they can benefit your XAML coding experience.
 
@@ -205,11 +205,11 @@ This feature, available both from the right-click context menu and by highlighti
 
 ### Structure Analyzers (dotted lines between the tags vertically)
 
-Add text here! Basically, hierarchy view by tabs/gridlines. Especially useful in files with a lot of code in them, so that you can see where you're at in the structure of your code.
+ADD TEXT HERE! Basically, hierarchy view by tabs/gridlines. Especially useful in files with a lot of code in them, so that you can see where you're at in the structure of your code.
 
 ### Settings
 
-For more information about all the settings in the Visual Studio IDE, see the [Features of the code editor](../ide/writing-code-in-the-code-and-text-editor.md) page.
+For more information about *all* the settings in the Visual Studio IDE, see the [Features of the code editor](../ide/writing-code-in-the-code-and-text-editor.md) page.
 
 ## XAML optional settings
 
