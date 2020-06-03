@@ -18,22 +18,6 @@ landingContent:
 # Cards and links should be based on top customer tasks or top subjects
 # Start card title with a verb
   # Card (optional)
-  - title: About profiling
-    linkLists:
-      - linkListType: overview
-        links:
-          - text: First look at profiling tools
-            url: profiling-feature-tour.md
-      - linkListType: concept
-        links:
-         - text: Ways to run profiling tools
-           url: running-profiling-tools-with-or-without-the-debugger.md
-         - text: Understanding performance collection methods
-           url: understanding-performance-collection-methods-perf-profiler.md
-         
-           
-
-  # Card (optional)
   - title: Get started
     linkLists:
       - linkListType: tutorial
@@ -46,6 +30,20 @@ landingContent:
         links:
           - text: PerfTips
             url: perftips.md
+
+  # Card (optional)
+  - title: Fundamentals
+    linkLists:
+      - linkListType: overview
+        links:
+          - text: First look at profiling tools
+            url: profiling-feature-tour.md
+          - text: Ways to run profiling tools
+            url: running-profiling-tools-with-or-without-the-debugger.md
+      - linkListType: concept
+        links:
+         - text: Understanding performance collection methods
+           url: understanding-performance-collection-methods-perf-profiler.md
             
   # Card (optional)
   - title: Performance tools
