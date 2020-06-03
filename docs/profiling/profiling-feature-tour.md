@@ -17,7 +17,7 @@ ms.workload:
 
 Visual Studio provides a variety of profiling tools to help you diagnose different kinds of performance issues depending on your app type. In this article, we give a quick look at the most common profiling tools.
 
-## Examine performance while debugging
+## View performance while debugging
 
 The profiling tools that you can access during a debugging session are available in the Diagnostic Tools window. The Diagnostic Tools window appears automatically unless you have turned it off. To bring up the window, click **Debug / Windows / Show Diagnostic Tools**. With the window open, you can select tools for which you want to collect data.
 
@@ -85,7 +85,7 @@ Profiling tools like CPU Usage and Memory Usage can be used with the debugger (s
 
 ![Performance Profiler](../profiling/media/prof-tour-performance-profiler.png "Performance Profiler")
 
-Open the Performance Profiler by choosing **Debug** > **Performance Profiler**.
+Open the Performance Profiler by choosing **Debug** > **Performance Profiler** (or **Alt + F2**).
 
 The window will allow you to select [multiple profiling tools](../profiling/use-multiple-profiler-tools-simultaneously.md) in some scenarios. Tools such as CPU Usage may provide complementary data that you can use to help in your analysis. You can also use the [command-line profiler](../profiling/profile-apps-from-command-line.md) to enable scenarios involving multiple profiling tools.
 
