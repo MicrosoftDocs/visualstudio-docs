@@ -551,6 +551,12 @@
           href: ca1828.md
         - name: "CA1829: Use Length/Count property instead of Enumerable.Count method"
           href: ca1829.md
+        - name: "CA1831: Use AsSpan instead of Range-based indexers for string when appropriate"
+          href: ca1831.md
+        - name: "CA1832: Use AsSpan or AsMemory instead of Range-based indexers for getting ReadOnlySpan or ReadOnlyMemory portion of an array"
+          href: ca1832.md
+        - name: "CA1833: Use AsSpan or AsMemory instead of Range-based indexers for getting Span or Memory portion of an array"
+          href: ca1833.md
       - name: Portability warnings
         items:
         - name: Overview
