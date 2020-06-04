@@ -35,7 +35,7 @@ Combines the specified paths into a single path.
 
  In addition to the parameters listed above, this task inherits parameters from the <xref:Microsoft.Build.Tasks.TaskExtension> class, which itself inherits from the <xref:Microsoft.Build.Utilities.Task> class. For a list of these additional parameters and their descriptions, see [TaskExtension base class](../msbuild/taskextension-base-class.md).
 
- The following example shows how to create an output folder structure using `CombinedPaths` to construct the property `$(OutputDirectory)` by combining a root path `$(PublishRoot)` concatened with `$(ReleaseDirectory)` and a subfolder list `$(LangDirectories)`.
+ The following example shows how to create an output folder structure using `CombinePath` to construct the property `$(OutputDirectory)` by combining a root path `$(PublishRoot)` concatened with `$(ReleaseDirectory)` and a subfolder list `$(LangDirectories)`.
 
  ```xml
   <PropertyGroup>
@@ -55,7 +55,7 @@ Combines the specified paths into a single path.
   </Target>
 ```
 
-The only property that `CombinePaths` allows to be a list is `Paths`, in which case the output is also a list. So, if `$(PublishRoot)` is *C:\Site\\*, and `$(ReleaseDirectory)` is *Release\\*, and `$(LangDirectories)` is *en-us\;fr-fr\\*, then this examples creates the folders:
+The only property that `CombinePath` allows to be a list is `Paths`, in which case the output is also a list. So, if `$(PublishRoot)` is *C:\Site\\*, and `$(ReleaseDirectory)` is *Release\\*, and `$(LangDirectories)` is *en-us\;fr-fr\\*, then this examples creates the folders:
 
  - C:\Site\Release\en-us\
  - C:\Site\Release\fr-fr\
