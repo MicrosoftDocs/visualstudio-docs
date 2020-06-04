@@ -78,6 +78,8 @@ In addition to the parameters listed above, this task inherits parameters from t
 
 The COM DLL doesn't need to be registered on the machine for this task to work.
 
+## MSB4803 Error
+
 If you try to run a project that uses the `ResolveCOMReference` task from the `dotnet` CLI commands, you get the error:
 
 ```output
