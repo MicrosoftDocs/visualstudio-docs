@@ -193,15 +193,15 @@ Lightbulb icons that appear in your XAML code are part of the [Quick Actions](..
 
 ![Screenshot of the XAML code editor's Remove Unnecessary Namespaces option from the Quick Actions lightbulb](media/xaml-code-editor-dimmed-namespaces-preview.png "Screenshot of the XAML code editor's Remove Unnecessary Namespaces option from the Quick Actions lightbulb")
 
+**Rename namespace** MORE TEXT HERE. by using F2. This feature, available both from the right-click context menu and by highlighting a value and then pressing **F12**, makes it easy to change settings on-the-fly. For example,  
+
+[Move type to namespace](../ide/reference/move-type-to-namespace.md)
+
 #### UWP – Add conditional XAML
 
 Unique feature. Say its supported. Documented to page that Dmitry linked in chat.
 
-### XAML Rename namespace by using F2
-
-This feature, available both from the right-click context menu and by highlighting a value and then pressing **F12**, makes it easy to change settings on-the-fly. For example,  
-
-[Move type to namespace](../ide/reference/move-type-to-namespace.md)
+### XAML 
 
 ### Structure Analyzers (dotted lines between the tags vertically)
 
