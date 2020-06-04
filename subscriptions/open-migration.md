@@ -25,7 +25,7 @@ This applies to partners that already have access to the [Visual Studio Subscrip
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4vkAG]
 
 Steps for partners to add a new license:
-- Sign in to https://manage.visualstudio.com.
+- Sign in to <https://manage.visualstudio.com>.
 - Select the agreement dropdown and scroll to the bottom where there is an option to **New open license**.
 - In the pop-out panel, enter the authorization number, license number, customer email address that is on the agreement, select the checkbox, and then click **Submit**.
 
@@ -47,7 +47,7 @@ This applies to new partners placing new Open License orders, but who register o
 
 ## New partners visiting the Visual Studio Subscriptions Administration Portal directly
 This scenario applies to new partners, who have already placed new Open License orders, but who haven’t registered on the [VLSC](https://www.microsoft.com/Licensing/servicecenter/default.aspx) and go directly to the [Visual Studio Subscriptions Administration Portal](https://manage.visualstudio.com).  Follow these steps:
-- Visit https://manage.visualstudio.com.
+- Visit <https://manage.visualstudio.com>.
 - You receive an error that you are not a recognized user.
 - Select the **OLP Partners** registration option and enter the authorization number, license number, customer email address used on the order, select the checkbox, and click **Submit**.
 
