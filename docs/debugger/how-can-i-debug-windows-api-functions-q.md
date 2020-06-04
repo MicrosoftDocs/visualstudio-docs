@@ -35,8 +35,8 @@ If you want to debug a Windows API function that has NT symbols loaded, you must
     ```
 
      To obtain the decorated name, see [Viewing Decorated Names](https://msdn.microsoft.com/library/f79e2717-a4db-4d12-a689-69830cce2be0).
-     
-     You can test the decorated name and view it in disassembly code. While paused at the function in the Visual Studio debugger, right-click the function in the code editor and choose **Go to Disassembly**.
+
+     You can test the decorated name and view it in disassembly code. While paused at the function in the Visual Studio debugger, right-click the function in the code editor or call stack window and choose **Go to Disassembly**.
 
 - In 64-bit code, you can use the undecorated name.
 
