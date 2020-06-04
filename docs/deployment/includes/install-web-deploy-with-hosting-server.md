@@ -1,12 +1,12 @@
 Web Deploy 3.6 for Hosting Servers provides additional configuration features that enable the creation of the publish settings file from the UI.
 
-1. If you have Web Deploy 3.6 already installed on Windows Server, uninstall it using **Control Panel** > **Programs** > **Uninstall a Program**.
+1. If you have Web Deploy already installed on Windows Server, uninstall it using **Control Panel** > **Programs** > **Uninstall a Program**.
 
 2. Next, install Web Deploy 3.6 for Hosting Servers on Windows Server.
 
-    To install Web Deploy for Hosting Servers, use the [Web Platform Installer (WebPI)](https://www.microsoft.com/web/downloads/platform.aspx). (To find the Web Platform Installer link from IIS, select **IIS** in the left pane of Server Manager. Right-click the server and select **Internet Information Services (IIS) Manager**.)
+    To install Web Deploy for Hosting Servers, use the Web Platform Installer (WebPI). (To find the Web Platform Installer link from IIS, select **IIS** in the left pane of Server Manager. In the server pane, right-click the server and select **Internet Information Services (IIS) Manager**. Then use the **Get New Web Platform Components** link in the **Actions** window.) You can also obtain the Web Platform Installer (WebPI) from [downloads](https://www.microsoft.com/web/downloads/platform.aspx).
 
-    In the Web Platform Installer, you find **Web Deploy for Hosting Servers** in the Applications tab.
+    In the Web Platform Installer, you find **Web Deploy 3.6 for Hosting Servers** in the Applications tab.
 
 3. If you did not already install **IIS Management Scripts and Tools**, install it now.
 

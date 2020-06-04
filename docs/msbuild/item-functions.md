@@ -96,6 +96,10 @@ The following example shows how to use intrinsic item functions.
   -->
 ```
 
+## MSBuild condition functions
+
+The functions `Exists` and `HasTrailingSlash` are not item functions. They are available for use with the `Condition` attribute. See [MSBuild conditions](msbuild-conditions.md).
+
 ## See also
 
 - [Items](../msbuild/msbuild-items.md)

@@ -19,14 +19,14 @@ ms.workload:
 # Common MSBuild project items
 
 In MSBuild, an item is a named reference to one or more files. Items contain metadata such as file names, paths, and version numbers. All project types in Visual Studio have several items in common. These items are defined in the file *Microsoft.Build.CommonTypes.xsd*.
+
 ## Common items
 
- The following is a list of all the common project items.
- The following is a list of all the common project items.
+The following is a list of all the common project items.
 
 ### Reference
 
- Represents an assembly (managed) reference in the project.
+Represents an assembly (managed) reference in the project.
 
 |Item metadata name|Description|
 |---------------|-----------------|
@@ -39,7 +39,7 @@ In MSBuild, an item is a named reference to one or more files. Items contain met
 
 ### COMReference
 
- Represents a COM (unmanaged) component reference in the project. This item applies only to .NET projects.
+Represents a COM (unmanaged) component reference in the project. This item applies only to .NET projects.
 
 |Item metadata name|Description|
 |---------------|-----------------|
@@ -53,7 +53,7 @@ In MSBuild, an item is a named reference to one or more files. Items contain met
 
 ### COMFileReference
 
- Represents a list of type libraries that are passed to the `TypeLibFiles` parameter of the [ResolveComReference](resolvecomreference-task.md) target. This item applies only to .NET projects.
+Represents a list of type libraries that are passed to the `TypeLibFiles` parameter of the [ResolveComReference](resolvecomreference-task.md) target. This item applies only to .NET projects.
 
 |Item metadata name|Description|
 |---------------|-----------------|
@@ -61,7 +61,7 @@ In MSBuild, an item is a named reference to one or more files. Items contain met
 
 ### NativeReference
 
- Represents a native manifest file or a reference to such a file.
+Represents a native manifest file or a reference to such a file.
 
 |Item metadata name|Description|
 |---------------|-----------------|
@@ -70,7 +70,7 @@ In MSBuild, an item is a named reference to one or more files. Items contain met
 
 ### ProjectReference
 
- Represents a reference to another project.
+Represents a reference to another project. `ProjectReference` items are transformed into [Reference](#reference) items by the `ResolveProjectReferences` target, so any valid metadata on a Reference may be valid on `ProjectReference`, if the transformation process doesn't overwrite it.
 
 |Item metadata name|Description|
 |---------------|-----------------|
@@ -81,7 +81,7 @@ In MSBuild, an item is a named reference to one or more files. Items contain met
 
 ### Compile
 
- Represents the source files for the compiler.
+Represents the source files for the compiler.
 
 | Item metadata name | Description |
 |-----------------------| - |
@@ -93,7 +93,7 @@ In MSBuild, an item is a named reference to one or more files. Items contain met
 
 ### EmbeddedResource
 
- Represents resources to be embedded in the generated assembly.
+Represents resources to be embedded in the generated assembly.
 
 | Item metadata name | Description |
 |-----------------------| - |
@@ -108,7 +108,7 @@ In MSBuild, an item is a named reference to one or more files. Items contain met
 
 ### Content
 
- Represents files that are not compiled into the project, but may be embedded or published together with it.
+Represents files that are not compiled into the project, but may be embedded or published together with it.
 
 | Item metadata name | Description |
 |-----------------------| - |
@@ -124,7 +124,7 @@ In MSBuild, an item is a named reference to one or more files. Items contain met
 
 ### None
 
- Represents files that should have no role in the build process.
+Represents files that should have no role in the build process.
 
 | Item metadata name | Description |
 |-----------------------| - |
@@ -138,7 +138,7 @@ In MSBuild, an item is a named reference to one or more files. Items contain met
 
 ### AssemblyMetadata
 
- Represents assembly attributes to be generated as `[AssemblyMetadata(key, value)]`.
+Represents assembly attributes to be generated as `[AssemblyMetadata(key, value)]`.
 
 | Item metadata name | Description |
 |-----------------------| - |
@@ -150,16 +150,17 @@ In MSBuild, an item is a named reference to one or more files. Items contain met
 
 ### BaseApplicationManifest
 
- Represents the base application manifest for the build, and contains ClickOnce deployment security information.
+Represents the base application manifest for the build, and contains ClickOnce deployment security information.
 
 ### CodeAnalysisImport
 
- Represents the FxCop project to import.
+Represents the FxCop project to import.
 
 ### Import
 
- Represents assemblies whose namespaces should be imported by the Visual Basic compiler.
+Represents assemblies whose namespaces should be imported by the Visual Basic compiler.
 
 ## See also
 
 - [Common MSBuild project properties](../msbuild/common-msbuild-project-properties.md)
+- [MSBuild properties for .NET Core SDK projects](/dotnet/core/project-sdk/msbuild-props)

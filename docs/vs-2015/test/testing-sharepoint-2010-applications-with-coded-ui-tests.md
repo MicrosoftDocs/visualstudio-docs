@@ -135,7 +135,7 @@ uiGridKeyboardInputEdit.Text=value;
  [Testing for Continuous Delivery with Visual Studio 2012 – Chapter 5 Automating System Tests](https://msdn.microsoft.com/library/jj159335.aspx)
 
 ### Forum
- [Visual Studio ALM + Team Foundation Server Blog](https://blogs.msdn.com/b/visualstudioalm/)
+ [Visual Studio ALM + Team Foundation Server Blog](https://devblogs.microsoft.com/devops/welcome-to-the-visual-studio-alm-team-foundation-server-blog/)
 
 ## See Also
  [Use UI Automation To Test Your Code](../test/use-ui-automation-to-test-your-code.md)
