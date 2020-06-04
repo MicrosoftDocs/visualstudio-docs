@@ -39,26 +39,27 @@ Combines the specified paths into a single path.
 
  ```xml
   <PropertyGroup>
-    <PublishRoot>C:\Site\</PublishRoot>
-    <ReleaseDirectory>Release\</ReleaseDirectory>
-    <LangDirectories>en-us\;fr-fr\</LangDirectories>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <PublishRoot>C:\Site1\Release</PublishRoot>
   </PropertyGroup>
 
+  <ItemGroup>
+    <LangDirectories Include="en-us\;fr-fr\"/>
+  </ItemGroup>
+
   <Target Name="CreateOutputDirectories" AfterTargets="Build">
-
-    <CombinePath BasePath ="$(PublishRoot)$(ReleaseDirectory)" Paths ="$(LangDirectories)" >
-      <Output TaskParameter ="CombinedPaths" PropertyName="OutputDirectories"/>
+    <CombinePath BasePath="$(PublishRoot)" Paths="@(LangDirectories)" >
+      <Output TaskParameter="CombinedPaths" ItemName="OutputDirectories"/>
     </CombinePath>
-
-    <MakeDir Directories="$(OutputDirectories)" />
-
+    <MakeDir Directories="@(OutputDirectories)" />
   </Target>
 ```
 
-The only property that `CombinePath` allows to be a list is `Paths`, in which case the output is also a list. So, if `$(PublishRoot)` is *C:\Site\\*, and `$(ReleaseDirectory)` is *Release\\*, and `$(LangDirectories)` is *en-us\;fr-fr\\*, then this examples creates the folders:
+The only property that `CombinePath` allows to be a list is `Paths`, in which case the output is also a list. So, if `$(PublishRoot)` is *C:\Site1\\*, and `$(ReleaseDirectory)` is *Release\\*, and `@(LangDirectories)` is *en-us\;fr-fr\\*, then this examples creates the folders:
 
- - C:\Site\Release\en-us\
- - C:\Site\Release\fr-fr\
+- C:\Site1\Release\en-us\
+- C:\Site1\Release\fr-fr\
 
 ## See also
 
