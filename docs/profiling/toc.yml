@@ -1,11 +1,13 @@
 - name: Profiling documentation
   href: index.yml
 - name: Overview
-  href: profiling-overview.md
-- name: Quickstarts
   items:
   - name: First look at profiling
     href: profiling-feature-tour.md
+  - name: Run profiling tools with or without the debugger
+    href: running-profiling-tools-with-or-without-the-debugger.md
+- name: Quickstarts
+  items:
   - name: Analyze CPU usage (managed)
     href: quickstart-cpu-usage-managed.md
   - name: Analyze CPU usage (native)
@@ -20,15 +22,15 @@
     href: memory-usage.md
 - name: Concepts
   items:
-  - name: Optimizing profiler settings
+  - name: Understanding performance collection methods
+    href: understanding-performance-collection-methods-perf-profiler.md
+  - name: Optimize profiler settings
     href: optimize-profiler-settings.md
-  - name: Run profiling tools with or without the debugger
-    href: running-profiling-tools-with-or-without-the-debugger.md
   - name: Using multiple profiler tools simultaneously
     href: use-multiple-profiler-tools-simultaneously.md  
 - name: How-to guides
   items:
-  - name: Use PerfTips
+  - name: PerfTips
     href: perftips.md
   - name: .NET Async
     href: analyze-async.md
