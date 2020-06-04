@@ -18,9 +18,8 @@ To add large groups of users, you can use the bulk add feature, or if your organ
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4vxNq]
 
-## Use Bulk add to assign subscriptions 
-
-1. Sign into the Visual Studio Subscriptions Administration Portal at https://manage.visualstudio.com.
+## Use Bulk add to assign subscriptions
+1. Sign into the Visual Studio Subscriptions Administration Portal at <https://manage.visualstudio.com>.
 
 1. To add multiple subscribers at one time, navigate to the **Manage Subscribers** tab. Choose the **Add** tab, then choose **Bulk add** in the drop-down.  
 
