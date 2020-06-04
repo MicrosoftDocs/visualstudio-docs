@@ -46,7 +46,7 @@ Combines the specified paths into a single path.
 
   <Target Name="CreateOutputDirectories" AfterTargets="Build">
 
-    <CombinePath BasePath ="$(PublishRoot)$(ReleaseDirectory)" Paths ="$(LangDirectories)" >
+    <CombinePath BasePath="$(PublishRoot)$(ReleaseDirectory)" Paths="$(LangDirectories)" >
       <Output TaskParameter ="CombinedPaths" PropertyName="OutputDirectories"/>
     </CombinePath>
 
