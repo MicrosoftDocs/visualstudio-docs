@@ -43,6 +43,8 @@ Here are the basic steps:
 
 3. Select **Application Timeline** and then click **Start** at the bottom of the window.
 
+   ![Application Timeline Tool Selected](../profiling/media/apptimelineselect.png "Application Timeline Tool")
+
    > [!NOTE]
    > You might see a User Account Control window requesting your permission to run *VsEtwCollector.exe*. Click **Yes**.
 

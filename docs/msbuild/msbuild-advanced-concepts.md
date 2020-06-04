@@ -30,3 +30,4 @@ The documents in this section describe how to use advanced techniques to improve
 
 - [MSBuild concepts](../msbuild/msbuild-concepts.md)
 - [Logging in MSBuild](../msbuild/logging-in-msbuild.md)
+- [How MSBuild builds projects](build-process-overview.md)

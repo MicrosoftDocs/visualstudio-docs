@@ -53,7 +53,7 @@ Deployment to a local folder is typically used for testing, or to begin a staged
 
   To use the **Publish** tool, right-click the project in Solution Explorer and choose **Publish**. (If you have previously configured any publishing profiles, you must then click **Create new profile**.) In the Publish dialog box, choose either **App Service** or **Azure Virtual Machines**, and then follow the configuration steps.
 
-  ![Choose Azure App Service](../deployment/media/quickstart-publish-azure.png "Choose Azure App Service")
+  ![Choose Azure App Service](../deployment/media/quickstart-publish-azure-new.png "Choose Azure App Service")
 
   Starting in Visual Studio 2017 version 15.7, you can deploy ASP.NET Core apps to **App Service for Linux**.
 
@@ -86,7 +86,7 @@ From Visual Studio, you can create app packages for deployment to Microsoft Stor
 
 - **UWP**: You can package your app and deploy it using menu items. For more information, see [Package a UWP app by using Visual Studio](/windows/uwp/packaging/packaging-uwp-apps).
 
-    ![Create an app package](../deployment/media/feature-tour-create-app-package.jpg)
+    ![Create an app package](../deployment/media/feature-tour-create-app-package.png)
 
 - **Windows desktop**: You can deploy to the Microsoft Store using the Desktop Bridge starting in Visual Studio 2017 version 15.4. To do this, start by creating a Windows Application Packaging Project. For more information, see [Package a desktop app for Microsoft Store (Desktop Bridge)](/windows/uwp/porting/desktop-to-uwp-packaging-dot-net).
 

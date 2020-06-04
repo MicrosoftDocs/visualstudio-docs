@@ -37,20 +37,22 @@ Once the system web browser workflow is enabled, you can sign in or add accounts
 </br>
 :::image type="content" source="media/add-personalization-account.png" alt-text="Add a new personalization account to Visual Studio." border="false":::
 
-This action will open your system's default web browser, ask you to sign into your account, and validate any required MFA policy. 
+This action will open your system's default web browser, ask you to sign into your account, and validate any required MFA policy.
+
+Based on your development activities and resource configuration, you may be prompted to reenter your credentials during your session. This can occur when you add a new resource, or try accessing a resource without having previously met its CA/MFA authorization requirements.
 
 > [!NOTE] 
-> Keep your browser open through the whole process for the best experience, as closing the browser might trigger additional authorization prompts. 
+> For the best experience, keep your browser open until all CA/MFA policies are validated for your resources. Closing the browser may result in losing the previously built MFA state, and may prompt additional authorization prompts.
 
 ## Reauthenticating an account  
 If there's a problem with your account, Visual Studio might ask you to reenter your account credentials.  
 
 :::image type="content" source="media/reauthenticate-account.png" alt-text="Reauthenticate your Visual Studio account.":::
 
-Clicking on **Reenter your credentials** will open your system's default web browser and attempt to automatically refresh your credentials. If unsuccessful, you'll be asked to sign into your account and validate any required MFA policy. 
+Clicking on **Reenter your credentials** will open your system's default web browser and attempt to automatically refresh your credentials. If unsuccessful, you'll be asked to sign into your account and validate any required CA/MFA policy.
 
 > [!NOTE] 
-> Keep your browser open through the whole process for the best experience as closing the browser might trigger additional authorization prompts. 
+> For the best experience, keep your browser open until all CA/MFA policies are validated for your resources. Closing the browser may result in losing the previously built MFA state, and may prompt additional authorization prompts.
 
 ## How to opt out of using a specific Azure Active Directory tenant in Visual Studio
 

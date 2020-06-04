@@ -156,7 +156,7 @@ In this tutorial, you begin with a simple project containing code for an ASP.NET
 
     Select `lastName` to add the last name back to the code.
 
-1. Open the *Views/Home* folder, and then open *index.html*.
+1. Open the *Views/Home* folder, and then open *Index.cshtml*.
 
 1. Add the following HTML code to the end of the file.
 

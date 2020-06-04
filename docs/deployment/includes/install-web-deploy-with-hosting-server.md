@@ -1,6 +1,6 @@
 Web Deploy 3.6 for Hosting Servers provides additional configuration features that enable the creation of the publish settings file from the UI.
 
-1. If you have Web Deploy 3.6 already installed on Windows Server, uninstall it using **Control Panel** > **Programs** > **Uninstall a Program**.
+1. If you have Web Deploy already installed on Windows Server, uninstall it using **Control Panel** > **Programs** > **Uninstall a Program**.
 
 2. Next, install Web Deploy 3.6 for Hosting Servers on Windows Server.
 

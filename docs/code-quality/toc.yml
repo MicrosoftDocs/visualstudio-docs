@@ -585,6 +585,8 @@
           href: ca2009.md
         - name: "CA2011: Do not assign property within its setter"
           href: ca2011.md
+        - name: "CA2013: Do not use ReferenceEquals with value types"
+          href: ca2013.md
         - name: "CA2015: Do not define finalizers for types derived from MemoryManager<T>"
           href: ca2015.md
       - name: Security warnings
@@ -750,6 +752,8 @@
           href: ca5358.md
         - name: "CA5359: Do not disable certificate validation"
           href: ca5359.md
+        - name: "CA5360: Do not call dangerous methods in deserialization"
+          href: ca5360.md
         - name: "CA5361: Do not disable SChannel use of strong crypto"
           href: ca5361.md
         - name: "CA5362: Potential reference cycle in deserialized object graph"
@@ -778,6 +782,12 @@
           href: ca5373.md
         - name: "CA5374: Do Not Use XslTransform"
           href: ca5374.md
+        - name: "CA5375: Do not use account shared access signature"
+          href: ca5375.md
+        - name: "CA5376: Use SharedAccessProtocol HttpsOnly"
+          href: ca5376.md
+        - name: "CA5377: Use container level access policy"
+          href: ca5377.md
         - name: "CA5378: Do not disable ServicePointManagerSecurityProtocols"
           href: ca5378.md
         - name: "CA5379: Do not use weak key derivation function algorithm"
@@ -790,6 +800,10 @@
           href: ca5382.md
         - name: "CA5383: Ensure use secure cookies in ASP.NET Core"
           href: ca5383.md
+        - name: "CA5384: Do not use digital signature algorithm (DSA)"
+          href: ca5384.md
+        - name: "CA5385: Use Rivest–Shamir–Adleman (RSA) algorithm with sufficient key size"
+          href: ca5385.md
         - name: "CA5386: Avoid hardcoding SecurityProtocolType value"
           href: ca5386.md
         - name: "CA5387: Do not use weak key derivation function with insufficient iteration count"
@@ -800,14 +814,22 @@
           href: ca5389.md
         - name: "CA5390: Do not hard-code encryption key"
           href: ca5390.md
+        - name: "CA5391: Use antiforgery tokens in ASP.NET Core MVC controllers"
+          href: ca5391.md
         - name: "CA5394: Do not use insecure randomness"
           href: ca5394.md
+        - name: "CA5395: Miss HttpVerb attribute for action methods"
+          href: ca5395.md
         - name: "CA5396: Set HttpOnly to true for HttpCookie"
           href: ca5396.md
         - name: "CA5397: Do not use deprecated SslProtocols values"
           href: ca5397.md
         - name: "CA5398: Avoid hardcoded SslProtocols values"
           href: ca5398.md
+        - name: "CA5399: Definitely disable HttpClient certificate revocation list check"
+          href: ca5399.md
+        - name: "CA5400: Ensure HttpClient certificate revocation list check is not disabled"
+          href: ca5400.md
         - name: "CA5401: Do not use CreateEncryptor with non-default IV"
           href: ca5401.md
         - name: "CA5402: Use CreateEncryptor with the default IV"
@@ -911,5 +933,7 @@
           href: ca2245.md
         - name: "CA2246: Do not assign a symbol and its member in the same statement"
           href: ca2246.md
+        - name: "CA2248: Provide correct enum argument to Enum.HasFlag"
+          href: ca2248.md
       - name: Automatic feature suspension
         href: automatic-feature-suspension.md

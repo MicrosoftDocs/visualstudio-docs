@@ -21,16 +21,16 @@ To add large groups of users, you can use the bulk add feature, or if your organ
 ## Use Bulk add to assign subscriptions
 1. Sign into the Visual Studio Subscriptions Administration Portal at <https://manage.visualstudio.com>.
 
-2. To add multiple subscribers at one time, navigate to the **Manage Subscribers** tab. Choose the **Add** tab, then choose **Bulk add** in the drop-down.  
+1. To add multiple subscribers at one time, navigate to the **Manage Subscribers** tab. Choose the **Add** tab, then choose **Bulk add** in the drop-down.  
 
-2. Bulk add uses a Microsoft Excel template to upload subscriber information. In the Upload Multiple Subscribers dialog box, click **Download** to download the template.
+1. Bulk add uses a Microsoft Excel template to upload subscriber information. In the Upload Multiple Subscribers dialog box, click **Download** to download the template.
    > [!div class="mx-imgBorder"]
    > ![Download the Excel template to upload multiple subscribers](media/download-template-upload-subscribers.png)
    >
    > [!NOTE]
    > Always download the latest version of this template. If you use an older version, your bulk upload may fail.
 
-3. In the Excel spreadsheet, fill out the fields with the information for the individuals that you want to assign subscriptions to. (*Reference* is an optional field.) Save the file locally after you're done.
+1. In the Excel spreadsheet, fill out the fields with the information for the individuals that you want to assign subscriptions to. (*Reference* is an optional field.) Save the file locally after you're done.
 
     > [!NOTE]
     > One of the fields in the template allows admins to enable or disable subscribers' ability to download software.  Disabling downloads also disables their access to product keys.
@@ -43,11 +43,11 @@ To add large groups of users, you can use the bulk add feature, or if your organ
     - Make sure all required fields are completed. 
     - Check the **Error message** column.  If any errors are listed, resolve those before attempting to upload the file. 
 
-4. Return to the Visual Studio Subscriptions Administration portal. In the **Upload Multiple Subscribers** dialog box, click **Browse**.
+1. Return to the Visual Studio Subscriptions Administration portal. In the **Upload Multiple Subscribers** dialog box, click **Browse**.
    > [!div class="mx-imgBorder"]
    > ![Browse to your saved template to upload multiple subscribers](media/bulk-add-browse-saved-template.png)
 
-5. Navigate to the Excel file that you saved, and then click **OK**.
+1. Navigate to the Excel file that you saved, and then click **OK**.
    > [!div class="mx-imgBorder"]
    > ![Upload the Excel template to upload multiple subscribers](media/bulk-upload-subscribers.png)
 
