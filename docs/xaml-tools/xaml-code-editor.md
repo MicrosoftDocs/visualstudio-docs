@@ -168,7 +168,7 @@ For more information about how to change the default settings of the scroll bar,
 
 ## XAML-specific features
 
-Some of the following features are universally available in the Visual Studio IDE, yet there are added dimensions to these features that make coding easier for XAML developers.
+Most of the following features are universally available in the Visual Studio IDE, yet there are added dimensions to some of them that make coding easier for XAML developers.
 
 ### XAML code snippets
 
@@ -176,10 +176,21 @@ Code snippets are small blocks of reusable code that can be inserted in a code f
 
 For more information, see the [Code snippets](../ide/code-snippets.md) and [C# code snippets](../ide/visual-csharp-code-snippets.md) pages. 
 
-### XAML #regions
+### XAML #region support
 
-- CDATA ...? Regular XML stuff...
-Regions in XAML is the same as C# ... makes it collapsible. Incremental improvements.
+Starting with Visual Studio 2015, we've made #region support available for XAML developers for WPF and UWP apps, and more recently for Xamarin.Forms, too. In Visual Studio 2019, we continue to make incremental improvements to #region support. For example, in [version 16.4](/visualstudio/releases/2019/release-notes-v16.4.md) and later, #region options show as you begin to type `<!`.
+
+![Screenshot of the XAML code editor with #region options showing in IntelliSense](media/code-editor-xaml-region.png "Screenshot of the XAML code editor with #region options showing in IntelliSense")
+
+You can use regions when you want to group sections of your code that you also want to expand or collapse. 
+
+```xaml
+    <!--#region NameOfRegion-->
+    Your code is here
+    <!--#endregion-->
+```
+
+For more information about regions, see the [#region (C# Reference)](/dotnet/csharp/language-reference/preprocessor-directives/preprocessor-region.md) page. And for more information about expanding and collapsing sections of code, see the [Outlining](../ide/outlining.md) page.
 
 ### XAML Comments
 
@@ -199,7 +210,7 @@ Lightbulb icons that appear in your XAML code are part of the [Quick Actions](..
 
 #### UWP – Add conditional XAML
 
-Unique feature. Say its supported. Documented to page that Dmitry linked in chat.
+Unique feature. Say its supported. Documented to page that Dmitry linked in chat. IS THIS XAML ISLANDS?
 
 ### XAML 
 
