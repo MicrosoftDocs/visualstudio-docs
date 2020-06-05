@@ -32,7 +32,7 @@ Writes the paths of the specified items to the specified text file.
 |`File`|Required <xref:Microsoft.Build.Framework.ITaskItem> parameter.<br /><br /> Specifies the file to write the items to.|
 |`Lines`|Optional <xref:Microsoft.Build.Framework.ITaskItem>`[]` parameter.<br /><br /> Specifies the items to write to the file. Default is the empty list.|
 |`Overwrite`|Optional `Boolean` parameter.<br /><br /> If `true`, the task overwrites any existing content in the file. Default is `false`.|
-|`Encoding`|Optional `String` parameter.<br /><br /> Selects the character encoding, for example, "Unicode". Default is UTF8.  See also <xref:System.Text.Encoding>.|
+|`Encoding`|Optional `String` parameter.<br /><br /> Selects the character encoding, for example, "Unicode". Default is UTF-8.  See also <xref:System.Text.Encoding>.|
 |`WriteOnlyWhenDifferent`|Optional `Boolean` parameter.<br /><br /> If `true`, the target file specified, if it exists, will be read first to compare against what the task would have written. If identical, the file is not written to disk and the timestamp will be preserved. Default is `false`.|
 
 ## Remarks
