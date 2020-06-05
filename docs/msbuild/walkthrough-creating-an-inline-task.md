@@ -250,8 +250,10 @@ To create and run the tasks, use Visual Studio and the **Visual Studio Command P
 <Code Type="Fragment" Language="cs">
   <![CDATA[
 
-  // Your code goes here.
-
+  if (Files.Length > 0)
+  {
+      // Your code goes here.
+  }
   ]]>
 </Code>
 ```

@@ -816,6 +816,10 @@
           href: ca5390.md
         - name: "CA5391: Use antiforgery tokens in ASP.NET Core MVC controllers"
           href: ca5391.md
+        - name: "CA5392: Use DefaultDllImportSearchPaths attribute for P/Invokes"
+          href: ca5392.md
+        - name: "CA5393: Do not use unsafe DllImportSearchPath value"
+          href: ca5393.md
         - name: "CA5394: Do not use insecure randomness"
           href: ca5394.md
         - name: "CA5395: Miss HttpVerb attribute for action methods"
