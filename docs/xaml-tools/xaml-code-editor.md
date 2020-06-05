@@ -1,6 +1,6 @@
 ---
 title: XAML code editor
-ms.date: 06/01/2020
+ms.date: 06/05/2020
 ms.topic: conceptual
 monikerRange: vs-2019
 author: TerryGLee
@@ -98,18 +98,18 @@ You can use [Quick Actions](../ide/quick-actions.md) to refactor, generate, or o
 
 **Remove unnecessary usings**
 
-One useful task is to remove the unnecessary usings from your code. Here's how:
+One useful task is to remove the unnecessary usings from the code in the **MainWindow.xaml.cs** tab. Here's how:
 
 1. Hover over a using statement, choose the lightbulb icon, and then choose **Remove Unnecessary Usings** from the drop-down list.
 
-    ![Screenshot of the XAML code editor's "Remove Unnecessary Usings" option from the Quick Actions menu](media/xaml-code-editor-remove-usings.png "Screenshot of the XAML code editor's "Remove Unnecessary Usings" option from the Quick Actions menu")
+    ![Screenshot of the IDE editor's "Remove Unnecessary Usings" option from the Quick Actions menu](media/xaml-code-editor-remove-usings.png "Screenshot of the IDE editor's Remove Unnecessary Usings option from the Quick Actions menu")
     
 1. Choose whether you want to fix all occurrences in the **Document**, the **Project**, or the **Solution**.
 1. View the **Preview** dialog, and then choose **Apply**.
 
 You can also access this feature from the menu bar. To do so, choose **Edit** > **IntelliSense** > **Remove and Sort Usings**.
 
-For more information about usings settings, see the [Sort usings](../ide/reference/sort-usings.md) page. And, for more information about some of the more typical ways that developers use Quick Actions, see the [Common Quick Actions](../ide/common-quick-actions.md) page.
+For more information about usings settings, see the [Sort usings](../ide/reference/sort-usings.md) page. And, for more information about some of the typical ways that developers use Quick Actions, see the [Common Quick Actions](../ide/common-quick-actions.md) page.
 
 #### Change tracking
 
@@ -172,13 +172,16 @@ Most of the following features are universally available in the Visual Studio ID
 
 ### XAML code snippets
 
-Code snippets are small blocks of reusable code that can be inserted in a code file using a right-click context menu command or a combination of hotkeys. We've enhanced IntelliSense so that it supports showing XAML snippets, which works for both built-in snippets and any custom snippets that you add manually. Some out-of-the-box XAML snippets include `#region`, `Column definition`, `Row definition`, `Setter`, and `Tag`.
+Code snippets are small blocks of reusable code that you can insert into in a code file by using the right-click context menu command **Insert snippet** or a combination of hotkeys (**Ctrl**+**K**, **Ctrl**+**X**). We've enhanced IntelliSense so that it supports showing XAML snippets, which works for both built-in snippets and any custom snippets that you add manually. Some out-of-the-box XAML snippets include `#region`, `Column definition`, `Row definition`, `Setter`, and `Tag`.
+
+
+![Screenshot of the XAML code editor with #region options showing in IntelliSense](media/xaml-code-snippets.png "Screenshot of the XAML code editor with #region options showing in IntelliSense")
 
 For more information, see the [Code snippets](../ide/code-snippets.md) and [C# code snippets](../ide/visual-csharp-code-snippets.md) pages. 
 
 ### XAML #region support
 
-Starting with Visual Studio 2015, we've made #region support available for XAML developers for WPF and UWP apps, and more recently for Xamarin.Forms, too. In Visual Studio 2019, we continue to make incremental improvements to #region support. For example, in [version 16.4](/visualstudio/releases/2019/release-notes-v16.4.md) and later, #region options show as you begin to type `<!`.
+Starting with Visual Studio 2015, we made #region support available for XAML developers in WPF and UWP, and more recently in Xamarin.Forms, too. In Visual Studio 2019, we continue to make incremental improvements to #region support. For example, in [version 16.4](/visualstudio/releases/2019/release-notes-v16.4.md) and later, #region options show as you begin to type `<!`.
 
 ![Screenshot of the XAML code editor with #region options showing in IntelliSense](media/code-editor-xaml-region.png "Screenshot of the XAML code editor with #region options showing in IntelliSense")
 
@@ -198,15 +201,17 @@ We support comments; identical to C#
 
 ### XAML lightbulbs
 
-Lightbulb icons that appear in your XAML code are part of the [Quick Actions](../ide/quick-actions.md) that you can use to refactor, generate, or otherwise modify code. Here's an example of how they can benefit your XAML coding experience.
+Lightbulb icons that appear in your XAML code are part of the [Quick Actions](../ide/quick-actions.md) that you can use to refactor, generate, or otherwise modify code. 
 
-**Remove unnecessary namespaces**. In the XAML code editor, unnecessary namespaces appear in dimmed text. If you hover your cursor over an unnecessary using, a lightbulb will appear. When you choose the **Remove Unnecessary Namespaces** option from the drop-down list, you'll see a preview of that which you can remove.
+Here are a few examples of how they can benefit your XAML coding experience:
 
-![Screenshot of the XAML code editor's Remove Unnecessary Namespaces option from the Quick Actions lightbulb](media/xaml-code-editor-dimmed-namespaces-preview.png "Screenshot of the XAML code editor's Remove Unnecessary Namespaces option from the Quick Actions lightbulb")
+- **Remove unnecessary namespaces**. In the XAML code editor, unnecessary namespaces appear in dimmed text. If you hover your cursor over an unnecessary using, a lightbulb will appear. When you choose the **Remove Unnecessary Namespaces** option from the drop-down list, you'll see a preview of that which you can remove.
 
-**Rename namespace** MORE TEXT HERE. by using F2. This feature, available both from the right-click context menu and by highlighting a value and then pressing **F12**, makes it easy to change settings on-the-fly. For example,  
+  ![Screenshot of the XAML code editor's Remove Unnecessary Namespaces option from the Quick Actions lightbulb](media/xaml-code-editor-dimmed-namespaces-preview.png "Screenshot of the XAML code editor's Remove Unnecessary Namespaces option from the Quick Actions lightbulb")
 
-[Move type to namespace](../ide/reference/move-type-to-namespace.md)
+- **Rename namespace** ***MORE TEXT HERE!*** by using F2. This feature, available both from the right-click context menu and by highlighting a value and then pressing **F12**, makes it easy to change settings on-the-fly. For example,  
+
+  For more information, see the [Move type to namespace](../ide/reference/move-type-to-namespace.md) page.
 
 #### UWP – Add conditional XAML
 
