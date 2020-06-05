@@ -102,6 +102,8 @@ ms.workload:
 |-------------|----------------------------|
 |Internet Explorer|2.0, 3.0, 3.5, 3.5 SP1, 4|
 |Firefox|2.0 SP1, 3.5 SP1, 4|
+|Chrome|3.5|
+|Microsoft Edge|3.5|
 
 ## See also
 - [ClickOnce deployment on Windows Vista](../deployment/clickonce-deployment-on-windows-vista.md)
