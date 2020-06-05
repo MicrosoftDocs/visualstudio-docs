@@ -38,7 +38,7 @@ Next, let's take a look at the functions of each of the UI elements in the code 
 
 ### Top left, first row
 
-Starting at the top left, and from left to right, there's a **Design** tab, a **Swap Panes** button, a **XAML** tab, and a **Pop-Out XAML** button.
+Starting at the top left, and from left to right, there's a **Design** tab, a **Swap Panes** button, a **XAML** tab, and a **Pop Out XAML** button.
 
 ![Screenshot of the first of the two top rows of the XAML code editor window in Visual Studio 2019, in which UI elements on the left are highlighted](media/xaml-code-editor-top-row-left.png "Screenshot of the first of the two top rows of the XAML code editor window in Visual Studio 2019, in which UI elements on the left are highlighted")
 
@@ -103,7 +103,7 @@ One useful task is to remove the unnecessary usings from the code in the **MainW
 1. Hover over a using statement, choose the lightbulb icon, and then choose **Remove Unnecessary Usings** from the drop-down list.
 
     ![Screenshot of the IDE editor's "Remove Unnecessary Usings" option from the Quick Actions menu](media/xaml-code-editor-remove-usings.png "Screenshot of the IDE editor's Remove Unnecessary Usings option from the Quick Actions menu")
-    
+
 1. Choose whether you want to fix all occurrences in the **Document**, the **Project**, or the **Solution**.
 1. View the **Preview** dialog, and then choose **Apply**.
 
@@ -117,7 +117,6 @@ The color of the left margin allows you to keep track of the changes you have ma
 
 - Changes you have made since the file was opened but not saved are denoted by a **yellow** bar on the left margin (known as the selection margin).
 - After you have saved the changes (but before closing the file), the bar turns **green**.
-- If you undo a change after you have saved the file, the bar turns **orange**.
 
 To turn this feature off and on, change the **Track changes** option in the **Text Editor** settings (**Tools** > **Options** > **Text Editor**).
 
@@ -125,26 +124,26 @@ For more information about change tracking&mdash;to include the wavy lines (also
 
 #### Right-click context menu
 
-When you are editing your code in the XAML code editor, there are several features that you can access by using the right-click context menu. Most of these features are available universally in the Visual Studio IDE, while some are specific to using a code editor along with a Design window. 
+When you are editing your code in the XAML code editor, there are several features that you can access by using the right-click context menu. Most of these features are available universally in the Visual Studio IDE, while some are specific to using a code editor along with a Design window.
 
 ![Screenshot of the XAML code editor's right-click context menu in Visual Studio 2019](media/xaml-code-editor-right-click-menu.png "Screenshot of the XAML code editor's right-click context menu in Visual Studio 2019")
 
 Here's what each feature does and how it's useful:
 
-- **View Code** - Opens the programming language code window, which is typically tabbed next to the default view that includes the Design window and the XAML code editor. 
-- **View Designer** - Opens the default view that includes the Design window and the XAML code editor. (If you are already in the default view, it does nothing.) 
+- **View Code** - Opens the programming language code window, which is typically tabbed next to the default view that includes the Design window and the XAML code editor.
+- **View Designer** - Opens the default view that includes the Design window and the XAML code editor. (If you are already in the default view, it does nothing.)
 - **Quick Actions and Refactorings** - Refactors, generates, or otherwise modifies code with a single action. When you hover over code, you'll see a lightbulb icon when a quick action or refactoring is available. <br>See also: [Quick Actions](../ide/quick-actions.md) and [Refactor code](../ide/refactoring-in-visual-studio.md).
-- **Rename...** - Renames namespaces only. If you don't have a namespace to rename, you'll receive an error message that says "Only namespace prefixes and be renamed." 
-- **Remove and Sort Namespaces** - Removes unused namespaces and then sorts those that remain. 
+- **Rename...** - Renames namespaces only. If you don't have a namespace to rename, you'll receive an error message that says "Only namespace prefixes and be renamed."
+- **Remove and Sort Namespaces** - Removes unused namespaces and then sorts those that remain.
 - **Peek Definition** - Previews the definition of a type without leaving your current location in the editor. <br>See also: [Peek Definition](../ide/go-to-and-peek-definition.md#peek-definition) and [View and edit code by using Peek Definition](../ide/how-to-view-and-edit-code-by-using-peek-definition-alt-plus-f12.md).
 - **Go To Definition** - Navigates to the source of a type or member, and opens the result in a new tab. <br>See also: [Go To Definition](../ide/go-to-and-peek-definition.md#go-to-definition).
 - **Surround with...** - Use surround-with code snippets, which are added around a selected block of code. <br>See also: [Expansion snippets and surround-with snippets](../ide/code-snippets.md#expansion-snippets-and-surround-with-snippets).
-- **Insert Snippet** - Inserts a code snippet at the cursor location. 
-- **Cut** - Self-explanatory 
-- **Copy** - Self-explanatory 
-- **Paste** - Self-explanatory 
-- **Outlining** - Expand and collapse sections of code. <br>See also: [Outlining](../ide/outlining.md). 
-- **Source Control** - View the history of code contributions to an open source repository. 
+- **Insert Snippet** - Inserts a code snippet at the cursor location.
+- **Cut** - Self-explanatory
+- **Copy** - Self-explanatory
+- **Paste** - Self-explanatory
+- **Outlining** - Expand and collapse sections of code. <br>See also: [Outlining](../ide/outlining.md).
+- **Source Control** - View the history of code contributions to an open source repository.
 
 ### Middle pane, scroll bar
 
@@ -174,10 +173,9 @@ Most of the following features are universally available in the Visual Studio ID
 
 Code snippets are small blocks of reusable code that you can insert into in a code file by using the right-click context menu command **Insert snippet** or a combination of hotkeys (**Ctrl**+**K**, **Ctrl**+**X**). We've enhanced IntelliSense so that it supports showing XAML snippets, which works for both built-in snippets and any custom snippets that you add manually. Some out-of-the-box XAML snippets include `#region`, `Column definition`, `Row definition`, `Setter`, and `Tag`.
 
-
 ![Screenshot of the XAML code editor with #region options showing in IntelliSense](media/xaml-code-snippets.png "Screenshot of the XAML code editor with #region options showing in IntelliSense")
 
-For more information, see the [Code snippets](../ide/code-snippets.md) and [C# code snippets](../ide/visual-csharp-code-snippets.md) pages. 
+For more information, see the [Code snippets](../ide/code-snippets.md) and [C# code snippets](../ide/visual-csharp-code-snippets.md) pages.
 
 ### XAML #region support
 
@@ -185,7 +183,7 @@ Starting with Visual Studio 2015, we made #region support available for XAML dev
 
 ![Screenshot of the XAML code editor with #region options showing in IntelliSense](media/code-editor-xaml-region.png "Screenshot of the XAML code editor with #region options showing in IntelliSense")
 
-You can use regions when you want to group sections of your code that you also want to expand or collapse. 
+You can use regions when you want to group sections of your code that you also want to expand or collapse.
 
 ```xaml
     <!--#region NameOfRegion-->
@@ -195,33 +193,49 @@ You can use regions when you want to group sections of your code that you also w
 
 For more information about regions, see the [#region (C# Reference)](/dotnet/csharp/language-reference/preprocessor-directives/preprocessor-region.md) page. And for more information about expanding and collapsing sections of code, see the [Outlining](../ide/outlining.md) page.
 
-### XAML Comments
+### XAML comments
 
-We support comments; identical to C#
+Developers often prefer to document their code by using a special comment syntax that contains XML text. XAML developers are no different in this, and the XAML code editor supports using comments in XAML code. As in C# code, all you must do is enter triple forward slashes `///` before any comment that you want add to your XAML code.
+
+For more information about comments in code, see the [Documentation comments](/dotnet/csharp/language-reference/language-specification/documentation-comments.md) page.
 
 ### XAML lightbulbs
 
-Lightbulb icons that appear in your XAML code are part of the [Quick Actions](../ide/quick-actions.md) that you can use to refactor, generate, or otherwise modify code. 
+Lightbulb icons that appear in your XAML code are part of the [Quick Actions](../ide/quick-actions.md) that you can use to refactor, generate, or otherwise modify code.
 
 Here are a few examples of how they can benefit your XAML coding experience:
 
 - **Remove unnecessary namespaces**. In the XAML code editor, unnecessary namespaces appear in dimmed text. If you hover your cursor over an unnecessary using, a lightbulb will appear. When you choose the **Remove Unnecessary Namespaces** option from the drop-down list, you'll see a preview of that which you can remove.
 
-  ![Screenshot of the XAML code editor's Remove Unnecessary Namespaces option from the Quick Actions lightbulb](media/xaml-code-editor-dimmed-namespaces-preview.png "Screenshot of the XAML code editor's Remove Unnecessary Namespaces option from the Quick Actions lightbulb")
+  ![Screenshot of the XAML code editor's Remove Unnecessary Namespaces option by using the Quick Actions lightbulb](media/xaml-code-editor-dimmed-namespaces-preview.png "Screenshot of the XAML code editor's Remove Unnecessary Namespaces option by using the Quick Actions lightbulb")
 
-- **Rename namespace** ***MORE TEXT HERE!*** by using F2. This feature, available both from the right-click context menu and by highlighting a value and then pressing **F12**, makes it easy to change settings on-the-fly. For example,  
+- **Rename namespace**. This feature, available from the right-click context menu after you highlight a namespace, makes it easy to change settings on-the-fly. You can also access this feature by using the menu bar, **Edit** > **Refactor** > **Rename**, or by pressing **Ctrl**+**R**, and then **Ctrl**+**R** again.
 
-  For more information, see the [Move type to namespace](../ide/reference/move-type-to-namespace.md) page.
+  ![Screenshot of the XAML code editor's Rename Namespace option by using the right-click context menu or by pressing F2](media/code-editor-rename-namespace.png "Screenshot of the XAML code editor's Rename Namespace option by using the right-click context menu or by pressing F2")
 
-#### UWP – Add conditional XAML
+  For more information, see the [Rename a code symbol refactoring](../ide/reference/rename.md) page.
 
-Unique feature. Say its supported. Documented to page that Dmitry linked in chat. IS THIS XAML ISLANDS?
+### Conditional XAML for UWP
 
-### XAML 
+Conditional XAML provides a way to use the [ApiInformation.IsApiContractPresent](https://docs.microsoft.com/uwp/api/windows.foundation.metadata.apiinformation.isapicontractpresent) method in XAML markup. This lets you set properties and instantiate objects in markup based on the presence of an API without needing to use code behind.
 
-### Structure Analyzers (dotted lines between the tags vertically)
+For more information, see the [Conditional XAML](/windows/uwp/debug-test-perf/conditional-xaml.md) page, and the [Host UWP XAML controls in desktop apps (XAML Islands)](/windows/apps/desktop/modernize/xaml-islands.md) page.
 
-ADD TEXT HERE! Basically, hierarchy view by tabs/gridlines. Especially useful in files with a lot of code in them, so that you can see where you're at in the structure of your code.
+### XAML Structure Visualizer
+
+The Structure Visualizer feature in the code editor shows structure guide lines, which are vertical dashed lines that indicate matching open and closed tag elements in your code. These vertical lines make it easier to see where logical blocks begin and end.
+
+For more information, see the [Navigate code](../ide/navigating-code.md) page.
+
+### IntelliCode for XAML
+
+When you add a XAML tag to your code, you typically start with a left angle bracket `<`. When you type that angle bracket, an IntelliCode menu appears that lists several of the more popular XAML tags. Choose the one that you want to quickly add it to your code.
+
+You can recognize the IntelliCode selections because they appear at the top of the list and are starred.
+
+![Screenshot of the IntelliCode list for the XAML text editor](media/xaml-intellicode-selection.png "Screenshot of the IntelliCode list for the XAML text editor")
+
+For more information, see the [Overview of IntelliCode](/visualstudio/intellicode/overview.md) page.
 
 ### Settings
 
