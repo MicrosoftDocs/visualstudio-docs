@@ -35,7 +35,7 @@ Combines the specified paths into a single path.
 
  In addition to the parameters listed above, this task inherits parameters from the <xref:Microsoft.Build.Tasks.TaskExtension> class, which itself inherits from the <xref:Microsoft.Build.Utilities.Task> class. For a list of these additional parameters and their descriptions, see [TaskExtension base class](../msbuild/taskextension-base-class.md).
 
- The following example shows how to create an output folder structure using `CombinePath` to construct the property `$(OutputDirectory)` by combining a root path `$(PublishRoot)` concatened with `$(ReleaseDirectory)` and a subfolder list `$(LangDirectories)`.
+ The following example shows how to create an output folder structure using `CombinePath` to construct the property `$(OutputDirectory)` by combining a root path `$(PublishRoot)` concatenated with `$(ReleaseDirectory)` and a subfolder list `$(LangDirectories)`.
 
  ```xml
   <PropertyGroup>
