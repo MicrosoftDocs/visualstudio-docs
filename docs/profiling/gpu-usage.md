@@ -10,11 +10,11 @@ ms.workload:
 ---
 # GPU usage
 
-Use the GPU Usage tool in the Visual Studio Performance and Diagnostics Hub to better understand the high-level hardware usage of your Direct3D app. It helps you see whether the performance of your app is CPU-bound or GPU-bound, and gain insight into how you can use the platform's hardware more effectively. GPU Usage supports apps that use Direct3D 12, Direct3D 11, and Direct3D 10. It doesn't support other graphics APIs, such as Direct2D or OpenGL.
+Use the GPU Usage tool in the Visual Studio Performance and Diagnostics hub to better understand the high-level hardware usage of your Direct3D app. It helps you see whether the performance of your app is CPU-bound or GPU-bound, and gain insight into how you can use the platform's hardware more effectively. GPU Usage supports apps that use Direct3D 12, Direct3D 11, and Direct3D 10. It doesn't support other graphics APIs, such as Direct2D or OpenGL.
 
 Here's what the **GPU Usage Report** window looks like:
 
-![Screenshot of the GPU Usage report, with CPU and GPU timelines](media/gfx_diag_gpu_usage_report.png "gfx_diag_gpu_usage_report")
+![Screenshot of GPU Usage Report, with CPU and GPU timelines](media/gfx_diag_gpu_usage_report.png "gfx_diag_gpu_usage_report")
 
 ## Requirements
 
@@ -54,7 +54,7 @@ When you want to look at a performance or utilization issue more closely, stop c
 
 To generate and view the GPU Usage report:
 
-1. In the bottom portion of the diagnostics session window, choose the **Stop Collection** link, or press **Stop** in the upper left-hand corner.
+1. In the bottom portion of the diagnostics session window, choose the **Stop Collection** link, or select **Stop** in the upper left-hand corner.
 
    ![Screenshot of the diagnostics session window](media/gfx_diag_gpu_usage_collect.png "gfx_diag_gpu_usage_collect")
 
@@ -80,7 +80,7 @@ Starting with Visual Studio 2017, you can open this data with [GPUView](/windows
 
 The top portion of the GPU Usage report shows timelines for the CPU processing activity, GPU rendering activity, and GPU copy activity. These timelines are divided by light-gray, vertical bars that indicate the display's vsync. The frequency of the bars matches the refresh rate of one of the displays (selected by using the **Display** drop-down list) that GPU usage data was collected from.
 
-Because the display might have a higher refresh rate than your app's performance target, there might not be a 1-to-1 relationship between vsync and the frame-rate you want your app to achieve. To meet its performance target, an app must complete all processing, do the rendering, and make a `Present()` call at the targeted framerate. The rendered frame won't be displayed until the next vsync after `Present()`, though.
+Because the display might have a higher refresh rate than your app's performance target, there might not be a 1-to-1 relationship between vsync and the frame-rate you want your app to achieve. To meet its performance target, an app must complete all processing, do the rendering, and make a `Present()` call at the targeted framerate. The rendered frame won't be shown until the next vsync after `Present()`, though.
 
 The bottom portion of the GPU Usage report lists the graphics events that occurred during the time period of the report. When you select an event, a marker appears at corresponding events in the relevant timelines. Typically, one event on a CPU thread shows the API call, while another event on one of the GPU timelines shows when the GPU completed the task. Likewise, when you select an event in a timeline, the report highlights the corresponding graphics event in the bottom portion of the report.
 
@@ -98,7 +98,7 @@ To help find what you're looking for, filter the GPU Usage report based on proce
 |**Filter**|Keywords that you're interested in. Events in the bottom portion of the report will only include the ones that match a keyword, wholly or partially. You can specify multiple keywords by separating them with a semicolon (;).|
 |**Hierarchy Sort**|A check box that indicates whether event hierarchies, defined through user markers, are preserved or ignored.|
 
-The list of events in the bottom portion of the GPU Usage report displays the details of each event.
+The list of events in the bottom portion of the GPU Usage report shows the details of each event.
 
 |Column|Description|
 |------------|-----------------|
