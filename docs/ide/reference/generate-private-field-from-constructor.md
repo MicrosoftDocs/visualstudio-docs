@@ -1,5 +1,5 @@
 --- 
-title: Generate private field from constructor
+title: Generate private field and property from constructor
 ms.date: 02/19/2020 
 ms.topic: reference 
 author: mikadumont
@@ -10,17 +10,17 @@ dev_langs:
 ms.workload:  
   - "dotnet" 
 --- 
-# Generate private field from constructor
+# Generate private field and property from constructor
 
 This refactoring applies to: 
 
 - C# 
 
-**What:** Generate a private field from a constructor. 
+**What:** Generate a private field or property from a constructor. 
 
-**When:** You want to quickly add a private field from a constructor.
+**When:** You want to quickly add and initialize a private field or property from a constructor.
 
-**Why:** Writing private fields can be time consuming and repetitive. Using this refactoring is quick and makes the program more robust.
+**Why:** Writing private fields and properties can be time consuming and repetitive. Using this refactoring is quick and makes the program more robust.
 
 ## How-to 
 
@@ -28,7 +28,13 @@ This refactoring applies to:
 
 2. Press **Ctrl**+**.** to trigger the **Quick Actions and Refactorings** menu.
    
-3. Select the option to **Create and initialize field**.
+3. Next, select from one of the following:
+
+- Select **Create and initialize field**:
+
+   ![Generate private field from constructor](media/generate-private-field-from-constructor.png)
+
+- Select **Create and initialize property**:
 
    ![Generate private field from constructor](media/generate-private-field-from-constructor.png)
 
