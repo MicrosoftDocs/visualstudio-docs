@@ -1,6 +1,6 @@
 ---
 title: MSBuild Batching | Microsoft Docs
-ms.date: 11/04/2016
+ms.date: 06/09/2020
 ms.topic: conceptual
 helpviewer_keywords:
 - batching [MSBuild]
@@ -80,6 +80,110 @@ The following example shows a `Target` element that contains an `Outputs` attrib
 ```
 
 For another example of target batching, see [Item metadata in target batching](../msbuild/item-metadata-in-target-batching.md).
+
+## Target batching vs. task batching
+
+Because target batching and task batching are two different MSBuild operations, it is important to understand exactly which form of batching MSBuild uses in each case. When the batching syntax `%(\<ItemMetaDataName>)` appears in a task in a target, but not in the `Outputs` attribute on the Target, then MSBuild uses task batching. The only way to specify target batching is by using the batching syntax on a Target attribute, usually the `Outputs` attribute.
+
+With both target batching and task batching, batches can be considered to run in parallel. All batches begin with a copy of the same initial state of property and item metadata values. Any mutations of property values during batch execution is not visible to other batches. Consider the following example:
+
+```xml
+  <ItemGroup>
+    <Thing Include="2" Color="blue" />
+    <Thing Include="1" Color="red" />
+  </ItemGroup>
+
+  <Target Name="DemoParallelBatches">
+    <ItemGroup>
+      <Thing Condition=" '%(Color)' == 'blue' ">
+        <Color>red</Color>
+        <NeededColorChange>true</NeededColorChange>
+      </Thing>
+    </ItemGroup>
+    <Message Importance="high"
+             Text="Things: @(Thing->'%(Identity) is %(Color); needed change=%(NeededColorChange)')"/>
+  </Target>
+```
+
+The output is:
+
+```output
+Target DemoParallelBatches:
+  Things: 2 is red; needed change=true;1 is red; needed change=
+```
+
+The `ItemGroup` in the target is implicitly a task, and with the `%(Color)` in the `Condition` attribute, task batching is performed. There are two batches: one for red and the other for blue. The property `%(NeededColorChange)` is only set if the `%(Color)` metadata is blue, and the setting only affects the individual item that matched the condition when the blue batch was run. The `Message` task's `Text` attribute does not trigger batching, despite the `%(\<ItemMetadataName>)` syntax.
+
+Although batches run logically in parallel, it's important to consider the difference between target batching and task batching and know which type applies to your situation. Consider the following example to understand better the importance of this distinction.
+
+Tasks can be implicit, rather than explicit, which can be confusing when task batching occurs with implicit tasks. When a `PropertyGroup` or `ItemGroup` element appears in a `Target`, each property declaration in the group is implicitly treated as a separate [CreateProperty](createproperty-task) or [CreateItem](createitem-task.md) task. This means that the behavior is different when the target is batched, versus when the target is not batched (that is, when it lacks the `%(\<ItemMetadataName>)` syntax in the `Outputs` attribute). When the target is batched, the `ItemGroup` executes once per target, but when the target is not batched, the implicit `CreateItem` or `CreateProperty` tasks are batched using task batching, so the target only executes once, but for each item or property in the group, it is batched separately.
+
+The following example illustrates target batching vs task batching in the case where metadata is mutated. Consider a situation where you have folders A and B with some files:
+
+```
+A\1.stub
+B\2.stub
+B\3.stub
+```
+
+Now look at the output of these two similar projects.
+
+```xml
+    <ItemGroup>
+      <_StubFiles Include="$(MSBuildThisFileDirectory)**\*.stub"/>
+
+      <_StubDirs Include="@(_StubFiles->'%(RecursiveDir)')"/>
+    </ItemGroup>
+
+    <Target Name="Test1" AfterTargets="Build" Outputs="%(_StubDirs.Identity)">
+      <PropertyGroup>
+        <_ComponentDir>%(_StubDirs.Identity)</_ComponentDir>
+        <_ComponentName>$(_ComponentDir.TrimEnd('\'))</_ComponentName>
+      </PropertyGroup>
+
+      <Message Text=">> %(_StubDirs.Identity) '$(_ComponentDir)' '$(_ComponentName)'"/>
+    </Target>
+```
+
+The output is:
+
+```output
+Test1:
+  >> A\ 'A\' 'A'
+Test1:
+  >> B\ 'B\' 'B'
+```
+
+Now remove the `Outputs` attribute that specified target batching.
+
+```xml
+    <ItemGroup>
+      <_StubFiles Include="$(MSBuildThisFileDirectory)**\*.stub"/>
+
+      <_StubDirs Include="@(_StubFiles->'%(RecursiveDir)')"/>
+    </ItemGroup>
+
+    <Target Name="Test1" AfterTargets="Build">
+      <PropertyGroup>
+        <_ComponentDir>%(_StubDirs.Identity)</_ComponentDir>
+        <_ComponentName>$(_ComponentDir.TrimEnd('\'))</_ComponentName>
+      </PropertyGroup>
+
+      <Message Text=">> %(_StubDirs.Identity) '$(_ComponentDir)' '$(_ComponentName)'"/>
+    </Target>
+```
+
+The output is:
+
+```output
+Test1:
+  >> A\ 'B\' 'B'
+  >> B\ 'B\' 'B'
+```
+
+Notice that the heading `Test1` is only printed once, whereas in the previous example, it was printed twice. That means the target is not batched.  And as a result, the output is confusingly different.
+
+The reason is that when using target batching, each target batch executes everything in the target with its own independent copy of all the properties and items, but when you omit the `Outputs` attribute, the individual lines in the property group are treated as distinct, potentially batched tasks. In this case, the _ComponentDir task is batched (it uses the `%(\<ItemMetadataName>)` syntax), so that by the time the `ComponentName` line executes, both batches of the `ComponentDir` line have completed, and the second one that ran determined the value as seen in the second line.
 
 ## Property functions using metadata
 
