@@ -57,7 +57,7 @@ When you select an event, the **Additional Properties** window appears. **Common
 
 ## Organize your data
 
-All columns except for the text column are sortable.
+All columns except for the **Text** column are sortable.
 
 ![The event viewer trace](../profiling/media/eventviewertrace.png "The event viewer trace")
 

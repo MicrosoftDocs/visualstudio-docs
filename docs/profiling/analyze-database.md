@@ -14,7 +14,7 @@ ms.workload:
 
 Use the Database tool to record the database queries that your app makes during a diagnostic session. You can then analyze information about individual queries to find places to improve your app's performance.
 
->[!NOTE]
+> [!NOTE]
 > The Database tool requires Visual Studio 2019 version 16.3 or later and a .NET Core project on Windows using either [ADO.NET]( https://docs.microsoft.com/dotnet/framework/data/adonet/ado-net-overview) or [Entity Framework Core](https://docs.microsoft.com/ef/core/).
 
 ## Setup
@@ -25,10 +25,10 @@ Use the Database tool to record the database queries that your app makes during 
 
    ![Database tool selected](./media/db-launch.png "Database tool selected")
 
-   >[!NOTE]
-   >If the tool isn't available for selection, clear every other tool's check box because some tools need to run alone. To learn more about running tools together, see "Running tools from CLI"
+   > [!NOTE]
+   > If the tool isn't available for selection, clear every other tool's check box because some tools need to run alone. To learn more about running tools together, see "Running tools from CLI"
    >
-   >If the tool still isn't available, check that your project meets the preceding requirements. Make sure your project is in Release mode to capture the most accurate data.
+   > If the tool still isn't available, check that your project meets the preceding requirements. Make sure your project is in Release mode to capture the most accurate data.
 
 1. Select the **Start** button to run the tool.
 
