@@ -70,12 +70,12 @@ Starting in Visual Studio 2015, you do not install the Visual Studio SDK from th
 
 3. In the \<Groups> section, find the \<Group> and change the \<Parent> element to point to the menu we just added:
 
-   ```csharp
+   ```xml
    <Groups>
-         <Group guid="guidTestCommandPackageCmdSet" id="MyMenuGroup" priority="0x0600">
+       <Group guid="guidTestCommandPackageCmdSet" id="MyMenuGroup" priority="0x0600">
            <Parent guid="guidTestCommandPackageCmdSet" id="TopLevelMenu"/>
-         </Group>
-       </Groups>
+       </Group>
+   </Groups>
    ```
 
     This makes the group part of the new menu.
@@ -115,12 +115,12 @@ Starting in Visual Studio 2015, you do not install the Visual Studio SDK from th
 
 3. In the \<Groups> section, find the \<Group> and change the \<Parent> element to point to the menu we just added:
 
-   ```csharp
+   ```xml
    <Groups>
-         <Group guid="guidTopLevelMenuPackageCmdSet" id="MyMenuGroup" priority="0x0600">
+       <Group guid="guidTopLevelMenuPackageCmdSet" id="MyMenuGroup" priority="0x0600">
            <Parent guid="guidTopLevelMenuPackageCmdSet" id="TopLevelMenu"/>
-         </Group>
-       </Groups>
+       </Group>
+   </Groups>
    ```
 
     This makes the group part of the new menu.
