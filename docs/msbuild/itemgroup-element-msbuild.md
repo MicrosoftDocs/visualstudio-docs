@@ -45,7 +45,7 @@ The following sections describe attributes, child elements, and parent elements.
 |Attribute|Description|
 |---------------|-----------------|
 |`Condition`|Optional attribute. Condition to be evaluated. For more information, see [Conditions](../msbuild/msbuild-conditions.md).|
-|`Label`|Optional attribute. Identifies the `ItemGroup`.|
+|`Label`|Optional attribute. Identifies the `ItemGroup`. This attribute is not used in MSBuild target files to control any build behaviors, but you can use it to declare intent, which makes your project files more readable.|
 
 ### Child elements
 
