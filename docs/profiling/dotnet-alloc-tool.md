@@ -116,9 +116,9 @@ The **Functions** view shows processes, modules, and functions that are allocati
 
    - **Total (Allocations)**
    - **Self (Allocations)**
-    - **Total Size (Bytes)**
-    - **Self Size (Bytes)**
-    - **Average Size (Bytes)**
+   - **Total Size (Bytes)**
+   - **Self Size (Bytes)**
+   - **Average Size (Bytes)**
 
 ### Collection
 
