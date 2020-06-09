@@ -96,10 +96,7 @@ Visual Studio 2017 and later versions do not use a registry key for the path to 
 > [!NOTE]
 > To be read correctly, `<configSections>` must be the first subsection in the `<configuration>` section.
 
- `ToolsetConfigurationSection` is a custom configuration section that can be used by any MSBuild host for custom configuration. If you use a custom Toolset, a host does not have to do anything to initialize the build engine except provide the configuration file entries. By defining entries in the registry, you can specify computer-wide Toolsets that apply to *MSBuild.exe*, Visual Studio, and all hosts of MSBuild.
-
-> [!NOTE]
-> If a configuration file defines settings for a `ToolsVersion` that was already defined in the registry, the two definitions are not merged. The definition in the configuration file takes precedence and the settings in the registry for that `ToolsVersion` are ignored.
+ `ToolsetConfigurationSection` is a custom configuration section that can be used by any MSBuild host for custom configuration. If you use a custom Toolset, a host does not have to do anything to initialize the build engine except provide the configuration file entries.
 
  The following properties are specific to the value of `ToolsVersion` that is used in projects:
 
