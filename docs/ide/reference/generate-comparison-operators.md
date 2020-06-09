@@ -22,7 +22,7 @@ This code generation applies to:
 
 ## How-to
 
-1. Place your cursor either inside the class on on the IComparable keyword.
+1. Place your cursor either inside the class or on the IComparable keyword.
 
 2. Next, do one of the following:
 

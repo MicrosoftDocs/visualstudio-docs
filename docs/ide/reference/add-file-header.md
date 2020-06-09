@@ -33,7 +33,7 @@ This code generation applies to:
     ![EditorConfig file header rule](media/add-file-header-rule.png)
 
 > [!NOTE]
-> You cannot have explicit multi lines in an EditorConfig and will need to use the Unix newline character to insert new lines.
+> You cannot have explicit multilines in an EditorConfig and will need to use the Unix newline character to insert new lines.
 
 4. Place your caret on the first line of any C# or Visual Basic file.
 

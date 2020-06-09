@@ -18,7 +18,7 @@ This code generation applies to:
 
 **When:** You want to [pin properties](https://docs.microsoft.com/visualstudio/debugger/view-data-values-in-data-tips-in-the-code-editor#pin-properties-in-datatips) within the debugger programmatically in your code.
 
-**Why:** Pinning properties allows you to quickly inspect objects by their properties by bubbling up that property to the top of hte object's property list within the debugger. 
+**Why:** Pinning properties allows you to quickly inspect objects by their properties by bubbling up that property to the top of the object's property list within the debugger. 
 
 ## How-to
 
