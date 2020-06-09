@@ -14,7 +14,7 @@ ms.workload:
 ---
 # MSBuild batching
 
-MSBuild has the ability to divide item lists into different categories, or batches, based on item metadata, and run a target or task one time with each batch.
+MSBuild divides item lists into different categories, or batches, based on item metadata, and run a target or task one time with each batch.
 
 ## Task batching
 
@@ -51,9 +51,9 @@ For more specific batching examples, see [Item metadata in task batching](../msb
 
 ## Target batching
 
-MSBuild checks if the inputs and outputs of a target are up-to-date before it runs the target. If both inputs and outputs are up-to-date, the target is skipped. If a task inside of a target uses batching, MSBuild needs to determine if the inputs and outputs for each batch of items is up-to-date. Otherwise, the target is executed every time it is hit.
+MSBuild checks if the inputs and outputs of a target are up to date before it runs the target. If both inputs and outputs are up to date, the target is skipped. If a task inside of a target uses batching, MSBuild needs to determine if the inputs and outputs for each batch of items is up to date. Otherwise, the target is executed every time it's hit.
 
-The following example shows a `Target` element that contains an `Outputs` attribute with the %(<ItemMetaDataName>) notation. MSBuild will divide the `Example` item list into batches based on the `Color` item metadata, and analyze the timestamps of the output files for each batch. If the outputs from a batch are not up-to-date, the target is run. Otherwise, the target is skipped.
+The following example shows a `Target` element that contains an `Outputs` attribute with the %(<ItemMetaDataName>) notation. MSBuild will divide the `Example` item list into batches based on the `Color` item metadata, and analyze the timestamps of the output files for each batch. If the outputs from a batch aren't up to date, the target is run. Otherwise, the target is skipped.
 
 ```xml
 <Project
@@ -183,7 +183,7 @@ Test1:
   >> B\ 'B\' 'B'
 ```
 
-Notice that the heading `Test1` is only printed once, whereas in the previous example, it was printed twice. That means the target is not batched.  And as a result, the output is confusingly different.
+Notice that the heading `Test1` is only printed once, but in the previous example, it was printed twice. That means the target is not batched.  And as a result, the output is confusingly different.
 
 The reason is that when using target batching, each target batch executes everything in the target with its own independent copy of all the properties and items, but when you omit the `Outputs` attribute, the individual lines in the property group are treated as distinct, potentially batched tasks. In this case, the `ComponentDir` task is batched (it uses the `%(<ItemMetadataName>)` syntax), so that by the time the `ComponentName` line executes, both batches of the `ComponentDir` line have completed, and the second one that ran determined the value as seen in the second line.
 
