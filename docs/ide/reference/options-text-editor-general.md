@@ -88,6 +88,10 @@ When selected, displays a gray box around the line of code in which the cursor i
 
 When selected, vertical lines appear in the editor that line up with structured code blocks, which lets you easily identify the individual blocks of code.
 
+### Show file health indicator
+
+When selected, a file health indicator status (errors, warnings) bar, with code cleanup options, will be displayed in the lower left corner of the editor.
+
 ## See also
 
 - [Options, Text Editor, All Languages](../../ide/reference/options-text-editor-all-languages.md)

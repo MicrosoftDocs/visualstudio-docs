@@ -1,19 +1,19 @@
 ---
-title: "IEEVisualizerService::GetValueDisplayStringCount | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IEEVisualizerService::GetValueDisplayStringCount | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
-  - "IEEVisualizerService::GetValueDisplayStringCount"
-  - "GetValueDisplayStringCount"
+- IEEVisualizerService::GetValueDisplayStringCount
+- GetValueDisplayStringCount
 ms.assetid: d683a833-fbfb-4042-84df-6905124a268a
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IEEVisualizerService::GetValueDisplayStringCount
 Retrieves the number of value strings to display for the specified property or field.

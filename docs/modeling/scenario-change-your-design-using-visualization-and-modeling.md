@@ -180,7 +180,7 @@ See:
 
 - [Use the visual designer](/azure/devops/pipelines/get-started-designer)
 
-- [TFVC gated check-in](/azure/devops/pipelines/build/triggers#gated)
+- [TFVC gated check-in](/azure/devops/pipelines/build/triggers)
 
 - [Build and release tasks](/azure/devops/pipelines/tasks/index)
 

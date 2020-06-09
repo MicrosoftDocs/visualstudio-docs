@@ -1,13 +1,13 @@
 ---
-title: "UI Text and Help for Visual Studio | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: UI Text and Help for Visual Studio | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 ms.assetid: e8747d07-6c90-46cc-b425-55b589f7e9e4
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # UI Text and Help for Visual Studio
 ## <a name="BKMK_UITextAndTerminology"></a> UI text and terminology

@@ -1,15 +1,15 @@
 ---
-title: "IDebugDocumentChecksum2 | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugDocumentChecksum2 | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
-  - "IDebugDocumentChecksum2 interface"
+- IDebugDocumentChecksum2 interface
 ms.assetid: 6d22fa94-21aa-46cb-b5b5-32a6399ebb20
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # IDebugDocumentChecksum2
 Represents a checksum for a debug document and enables passing the checksum between components.

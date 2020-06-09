@@ -4,8 +4,8 @@ description: "Find out how to report a problem with Visual Studio"
 ms.date: 03/11/2018
 ms.topic: conceptual
 ms.assetid: bee01179-cde5-4419-9095-190ee0ba5902
-ms.author: seiyer
-author: seaniyer
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "multiple"
@@ -38,10 +38,7 @@ Alternatively, report a problem in **Visual Studio Installer** if you can't inst
 
    ![Search and vote for similar problems](../ide/media/search-and-vote.png)
 
-1. If you don’t find the problem you encountered, choose **Report new problem** at the bottom of the screen.
-
-   > [!NOTE]
-   > The **Report new problem** button only appears in the Visual Studio interface for Developer Community. You can't report a problem directly on the [Developer Community](https://developercommunity.visualstudio.com/) website.
+1. If you don't find the problem you encountered, choose **Report new problem** at the bottom of the screen.
 
 1. Create a descriptive title for the problem that helps us route it to the correct Visual Studio team.
 

@@ -1,13 +1,13 @@
 ---
-title: "Colors and Styling for Visual Studio | Microsoft Docs"
-ms.date: "07/31/2017"
-ms.topic: "conceptual"
+title: Colors and Styling for Visual Studio | Microsoft Docs
+ms.date: 07/31/2017
+ms.topic: conceptual
 ms.assetid: 0e384ea1-4d9e-4307-8884-6e183900732c
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Colors and Styling for Visual Studio
 

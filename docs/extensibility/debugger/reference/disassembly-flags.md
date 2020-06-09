@@ -1,20 +1,20 @@
 ---
-title: "DISASSEMBLY_FLAGS | Microsoft Docs"
-ms.date: "11/04/2016"
+title: DISASSEMBLY_FLAGS | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "DISASSEMBLY_FLAGS"
+- DISASSEMBLY_FLAGS
 helpviewer_keywords:
-  - "DISASSEMBLY_FLAGS enumeration"
+- DISASSEMBLY_FLAGS enumeration
 ms.assetid: c1ec5a4d-5d42-4660-932c-7348550140cb
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # DISASSEMBLY_FLAGS
 Specifies the flags for disassembly.

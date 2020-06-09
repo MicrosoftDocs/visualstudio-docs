@@ -4,8 +4,8 @@ description: "Provides an overview of the Report a Problem tool, and includes pr
 ms.date: 11/15/2018
 ms.custom: "seodec18"
 ms.topic: conceptual
-author: seaniyer
-ms.author: seiyer
+author: madskristensen
+ms.author: madsk
 manager: jillfra
 ms.workload:
   - "multiple"

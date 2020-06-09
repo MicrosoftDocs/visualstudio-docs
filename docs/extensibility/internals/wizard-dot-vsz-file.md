@@ -1,17 +1,17 @@
 ---
-title: "Wizard (.Vsz) File | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Wizard (.Vsz) File | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - ".vsz files"
-  - "vsz files"
-  - "wizards, files"
+- .vsz files
+- vsz files
+- wizards, files
 ms.assetid: 72e1d0f3-eef1-455e-b803-96827f030f50
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Wizard (.Vsz) File
 

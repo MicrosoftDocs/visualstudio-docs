@@ -1,16 +1,16 @@
 ---
-title: "Implementing an Expression Evaluator | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Implementing an Expression Evaluator | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "expression evaluators"
-  - "debugging [Debugging SDK], expression evaluators"
+- expression evaluators
+- debugging [Debugging SDK], expression evaluators
 ms.assetid: e9ada7be-845e-4baa-bf8f-e4890e7ba490
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Implement an expression evaluator
 > [!IMPORTANT]

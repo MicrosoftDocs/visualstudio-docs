@@ -1,15 +1,15 @@
 ---
-title: "COM Constants in Managed Code | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: COM Constants in Managed Code | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "managed VSPackages, COM constants and macros"
+- managed VSPackages, COM constants and macros
 ms.assetid: b6663608-b049-44b0-a75b-080fdc5faafc
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # COM constants in managed code
 The Managed Package Framework (MPF) makes some standard COM constants available to managed code. These constants are listed below for your reference.

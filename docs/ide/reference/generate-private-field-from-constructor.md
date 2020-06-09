@@ -1,12 +1,13 @@
 --- 
 title: Generate private field and property from constructor
-ms.date: 02/19/2020 
+ms.date: 06/20/2020 
 ms.topic: reference 
 author: mikadumont
 ms.author: midumont
 manager: jillfra 
 dev_langs: 
   - CSharp 
+  - VB
 ms.workload:  
   - "dotnet" 
 --- 

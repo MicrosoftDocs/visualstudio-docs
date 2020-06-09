@@ -16,6 +16,7 @@ ms.assetid: a3c0cc76-e3ce-435c-a1af-a6318b5a4dbe
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
 monikerRange: vs-2017
+open_to_public_contributors: false
 ---
 # Visual Studio Desktop Express component directory
 

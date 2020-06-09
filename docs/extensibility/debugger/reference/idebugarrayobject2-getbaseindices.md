@@ -1,19 +1,19 @@
 ---
-title: "IDebugArrayObject2::GetBaseIndices | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugArrayObject2::GetBaseIndices | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
-  - "GetBaseIndices"
-  - "IDebugArrayObject2::GetBaseIndices"
+- GetBaseIndices
+- IDebugArrayObject2::GetBaseIndices
 ms.assetid: 882951a2-3da0-49bf-8d1e-7daedd13ffe6
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugArrayObject2::GetBaseIndices
 Retrieves the base indices (lower bounds) for each index given the number of dimensions in the array.

@@ -1,15 +1,15 @@
 ---
-title: "Source Control Plug-ins | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Source Control Plug-ins | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "source control plug-ins, reference"
+- source control plug-ins, reference
 ms.assetid: 964980ca-21c5-4706-8535-6ea23e1c9cc9
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Source Control Plug-ins
 The Source Control Plug-in SDK reference section contains the complete interface specification that enables source control systems to be integrated with [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. It specifies the syntax and semantics of the various functions and data types that the source control plug-in must implement to interface with the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] integrated development environment (IDE).

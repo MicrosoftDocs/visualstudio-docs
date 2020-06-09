@@ -3,7 +3,8 @@ title:  Set agreement preferences in the Administration Portal
 author: evanwindom
 ms.author: lank
 manager: lank
-ms.date: 03/02/2020
+ms.assetid: 0fe9eaa4-f589-429e-a443-13bf86637d5a
+ms.date: 03/17/2020
 ms.topic: conceptual
 description: Learn how to set preferences for language, contacts, subscription level and others in the Administration Portal
 ---
@@ -35,16 +36,16 @@ If you have multiple agreements for which you're a super admin, you'll be able t
 If there is only one agreement associated with the email address you used to sign in, it will be displayed and the drop-down will be disabled. 
 
 ### Contact email address
-This preferences provides a way for your subscribers to reach out to administrators through the use of the **Contact my Admin** button on the [subscriptions page](https://my.visualstudio.com/subscriptions) of the subscriber portal.  If this preference is left blank, subscriber messages will be forwarded to all administrators and super admins on the agreement.  We recommend using a group email alias or security group to tailor your audience for this contact email. You can also choose to input an individual’s email address if you prefer.
+This preference provides a way for your subscribers to reach out to administrators through the use of the **Contact my Admin** button on the [subscriptions page](https://my.visualstudio.com/subscriptions) of the subscriber portal.  If this preference is left blank, subscriber messages will be forwarded to all administrators and super admins on the agreement.  We recommend using a group email alias or security group to tailor your audience for this contact email. You can also choose to input an individual’s email address if you prefer.
 
 > [!NOTE]
-> The email address you list here will NOT be provided to subscribers.  When a subscriber submits a **Contact my Admin** request in the subscriber portal, the message will be forwarded to the alias without exposing it the subscriber. 
+> The email address you list here will NOT be provided to subscribers.  When a subscriber submits a **Contact my Admin** request in the subscriber portal, the message will be forwarded to the alias without exposing it to the subscriber. 
 
 ### Default external subscribers setting
 This preference allows you to decide whether administrators can add subscribers from outside your organization's tenant/directory.  If you turn this off, no outside subscribers will be allowed.  If you enable it and an admin attempts to add an outside subscriber, they will be asked to confirm their choice, and will be allowed to assign the subscription. Administrators cannot override this setting. 
 
 ### Default downloads setting
-Enabling this setting, which is on by default, will enable subscribers to access downloads when admins create new subscriptions.  Admins can still disable downloads on an individual subscription basis.  
+Enabling this setting, which is on by default, will enable subscribers to access downloads when admins create new subscriptions.  Admins can still disable downloads on an individual subscription basis.  Disabling access to downloads also disables access to product keys.  
 
 ### Default subscription level
 You can use this setting to determine which of the subscription levels included in your agreement is selected by default when a subscription is assigned to a user.  Admins can change the setting to any subscription level in your agreement -- This just prevents having to repeatedly make your most common choice. 

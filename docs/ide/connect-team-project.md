@@ -1,6 +1,6 @@
 ---
 title: Connect to projects in Team Explorer
-ms.date: 12/04/2018
+ms.date: 05/19/2020
 ms.topic: conceptual
 ms.author: tglee
 author: TerryGLee
@@ -13,7 +13,7 @@ Use the **Team Explorer** tool window to coordinate your code efforts with other
 ![Team Explorer Home page in Visual Studio](media/team-explorer/team-explorer.png)
 
 > [!TIP]
-> If you open Visual Studio and **Team Explorer** doesn't appear, open it by choosing **View** > **Team Explorer** from the menu bar.
+> If you open Visual Studio and **Team Explorer** doesn't appear, open it by choosing **View** > **Team Explorer** from the menu bar, or by pressing **Ctrl**+**&#92;**, **Ctrl**+**M**.
 
 ## Connect to a project or repository
 
@@ -38,3 +38,4 @@ To connect to a project:
 
 - [Team Explorer reference](reference/team-explorer-reference.md)
 - [Connect to a project (Azure DevOps)](/azure/devops/organizations/projects/connect-to-projects)
+- [Troubleshoot connecting to a project](/azure/devops/user-guide/troubleshoot-connection?view=azure-devops)

@@ -3,7 +3,8 @@ title: Using Product Keys | Microsoft Docs
 author: evanwindom
 ms.author: lank
 manager: lank
-ms.date: 07/20/2019
+ms.assetid: 89e3fcf9-fe5d-4266-8dd7-5567d05fe869
+ms.date: 03/09/2020
 ms.topic: conceptual
 description:  Learn how to obtain and manage your product keys in Visual Studio subscriptions.
 ---
@@ -15,6 +16,9 @@ Visual Studio subscriptions provide access to a wide range of Microsoft products
 Visual Studio subscriptions typically include five product keys for current versions of Windows and Office products, and three keys for older versions.
 
 Most product keys also allow multiple activations of the product for each key.  Many products also allow you to install and use the product for 30 days or more without activation.  For most subscribers, this provides more than enough activations to meet their needs.  However, if you have exhausted the available activations for a product, you can submit a request for additional keys through Visual Studio [Subscriptions Customer Service](https://visualstudio.microsoft.com/subscriptions/support/).
+
+> [!NOTE]
+> If your subscription is provided to you by your work or school, your subscription administrator controls whether you have access to software downloads.  If access to downloads is disabled for your subscription, access to product keys is also disabled.  If you need downloads and/or product keys, [contact your administrator](contact-my-admin.md).
 
 ## Activating a product
 Activation is required for certain products.  Generally, in Visual Studio subscriptions this is limited to Windows, Windows Server, Microsoft Office client applications, and Expression Studio. When activation is required, many products — including Windows and Office — allow you to install and use the product without activation for 30 days or more. If you re-image your computers frequently (at least once every 30 days), consider NOT activating the product. Product keys supplied as part of your Visual Studio subscription do not allow unlimited activations of a product.
@@ -69,6 +73,12 @@ A variety of key types are available, depending on the product.
 |
 
 You can claim a key from the download page for the product, or you can search for the key you need on the [Product Keys](https://my.visualstudio.com/productkeys) page.
+
+## See also
+- [Visual Studio documentation](https://docs.microsoft.com/visualstudio/)
+- [Azure DevOps documentation](https://docs.microsoft.com/azure/devops/)
+- [Azure documentation](https://docs.microsoft.com/azure/)
+- [Microsoft 365 documentation](https://docs.microsoft.com/microsoft-365/)
 
 ## Next steps
 To claim keys, visit https://my.visualstudio.com/productkeys.  

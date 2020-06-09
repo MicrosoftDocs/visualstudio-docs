@@ -2,7 +2,7 @@
 title: "Measure performance with profiling tools"
 description: "Take a brief look at the different diagnostic tools available in Visual Studio."
 ms.custom: "mvc"
-ms.date: 05/18/2018
+ms.date: 06/03/2020
 ms.topic: quickstart
 helpviewer_keywords:
   - "diagnostic tools"
@@ -15,7 +15,9 @@ ms.workload:
 ---
 # Quickstart: First look at profiling tools
 
-Visual Studio provides a variety of profiling tools to help you diagnose different kinds of performance issues depending on your app type.
+Visual Studio provides a variety of profiling tools to help you diagnose different kinds of performance issues depending on your app type. In this article, we give a quick look at the most common profiling tools.
+
+## View performance while debugging
 
 The profiling tools that you can access during a debugging session are available in the Diagnostic Tools window. The Diagnostic Tools window appears automatically unless you have turned it off. To bring up the window, click **Debug / Windows / Show Diagnostic Tools**. With the window open, you can select tools for which you want to collect data.
 
@@ -25,10 +27,25 @@ While you are debugging, you can use the **Diagnostic Tools** window to analyze 
 
 ![Diagnostic Tools Summary view](../profiling/media/prof-tour-cpu-and-memory-graph.gif "Diagnostic Tools Summary")
 
-The **Diagnostic Tools** window is often the preferred way to profile apps, but for Release builds you can also do a post-mortem analysis of your app instead. If you want more information on different approaches, see [Run profiling tools with or without the debugger](../profiling/running-profiling-tools-with-or-without-the-debugger.md). To see profiling tool support for different app types, see [Which tool should I use?](#which-tool-should-i-use).
+The **Diagnostic Tools** window is a common way to profile apps, but for Release builds you can also do a post-mortem analysis of your app instead. For more information on different approaches, see [Run profiling tools with or without the debugger](../profiling/running-profiling-tools-with-or-without-the-debugger.md). To see profiling tool support for different app types, see [Which tool should I use?](#which-tool-should-i-use).
 
 > [!NOTE]
 > You can use the post-mortem tools with Windows 7 and later. Windows 8 and later is required to run profiling tools with the debugger (**Diagnostic Tools** window).
+
+## Examine performance using PerfTips
+
+Often, the easiest way to view performance information is to use [PerfTips](../profiling/perftips.md). Using PerfTips, you can view performance information while interacting with your code. You can check information such as the duration of the event (measured from when the debugger was last paused, or when the app started). For example, if you step through code (F10, F11), PerfTips show you the app runtime duration from the previous step operation to the current step.
+
+![Profiling Tour PerfTips](../profiling/media/prof-tour-perf-tips.png "Profiling Tour PerfTips")
+
+You can use PerfTips to examine how long it takes for a code block to execute, or how long it takes for a single function to complete.
+
+PerfTips show the same events that also show up in the **Events** view of the Diagnostic Tools. In the **Events** view, you can view different events that occur while you are debugging, such as the setting of a breakpoint or a code stepping operation.
+
+![Diagnostic Tools Events view](../profiling/media/prof-tour-events.png "Diagnostic Tools View Events")
+
+ > [!NOTE]
+ > If you have Visual Studio Enterprise, you can also see [IntelliTrace events](../debugger/intellitrace.md) in this tab.
 
 ## Analyze CPU Usage
 
@@ -38,7 +55,7 @@ From the **Summary** view of the Diagnostic Tools, choose **Enable CPU Profiling
 
 ![Enable CPU usage in the Diagnostic Tools](../profiling/media/prof-tour-enable-cpu-profiling.png "Diagnostic Tools Enable CPU Usage")
 
-To use the tool most effectively, set two breakpoints in your code, one at the beginning and one at the end of the function or the region of code you want to analyze. Examine the profiling data when you are paused at the second breakpoint.
+One way to use the tool is to set two breakpoints in your code, one at the beginning and one at the end of the function or the region of code you want to analyze. Examine the profiling data when you are paused at the second breakpoint.
 
 The **CPU Usage** view shows you a list of functions ordered by longest running, with the longest running function at the top. This can help guide you to functions where performance bottlenecks are happening.
 
@@ -50,9 +67,9 @@ Double-click on a function that you are interested in, and you will see a more d
 
 ## Analyze memory usage
 
-The **Diagnostic Tools** window also allows you to evaluate memory usage in your app. For example, you can look at the number and size of objects on the heap. For more detailed instructions to analyze memory, see [Analyze memory usage](../profiling/memory-usage.md).
+The **Diagnostic Tools** window also allows you to evaluate memory usage in your app using the **Memory Usage** tool. For example, you can look at the number and size of objects on the heap. For more detailed instructions to analyze memory, see [Analyze memory usage](../profiling/memory-usage.md). Another memory analysis tool, the [.NET Object Allocation tool](../profiling/dotnet-alloc-tool.md), helps you identify allocation patterns and anomalies in your .NET code.
 
-To analyze memory usage while debugging, you need to take at least one memory snapshot. Often, the best way to analyze memory is to take two snapshots; the first right before a suspected memory issue, and the second snapshot right after a suspected memory issue occurs. Then you can view a diff of the two snapshots and see exactly what changed.
+To analyze memory usage with the debugger-integrated Memory Usage too, you need to take at least one memory snapshot. Often, the best way to analyze memory is to take two snapshots; the first right before a suspected memory issue, and the second snapshot right after a suspected memory issue occurs. Then you can view a diff of the two snapshots and see exactly what changed.
 
 ![Take a snapshot in the Diagnostic Tools](../profiling/media/prof-tour-take-snapshots.gif "Diagnostic Tools Take Snapshots")
 
@@ -62,34 +79,15 @@ When you select one of the arrow links, you are given a differential view of the
 
 If you click the link on the left instead in the **Memory Usage** view, the heap view is organized by object count; the objects of a particular type that increased the most in number are shown at the top (sorted by **Count Diff** column).
 
-## Examine performance events
-
-The **Events** view in the Diagnostic Tools shows you different events that occur while you are debugging, such as the setting of a breakpoint or a code stepping operation. You can check information such as the duration of the event (measured from when the debugger was last paused, or when the app started). For example, if you step through code (F10, F11), the **Events** view shows you the app runtime duration from the previous step operation to the current step.
-
-![Diagnostic Tools Events view](../profiling/media/prof-tour-events.png "Diagnostic Tools View Events")
-
- > [!NOTE]
- > If you have Visual Studio Enterprise, you can also see [IntelliTrace events](../debugger/intellitrace.md) in this tab.
-
-The same events also show up in the code editor, which you can view as PerfTips.
-
-![Profiling Tour PerfTips](../profiling/media/prof-tour-perf-tips.png "Profiling Tour PerfTips")
-
 ## <a name="post_mortem"></a> Profile release builds without the debugger
 
 Profiling tools like CPU Usage and Memory Usage can be used with the debugger (see earlier sections), or you can run profiling tools post-mortem using the Performance Profiler, which is intended to provide analysis for **Release** builds. In the Performance Profiler, you can collect diagnostic info while the app is running, and then examine the collected information after the app is stopped. For more information on these different approaches, see [Run profiling tools with or without the debugger](../profiling/running-profiling-tools-with-or-without-the-debugger.md). Additional tools such as the [.NET Object Allocation tool](../profiling/dotnet-alloc-tool.md) are also available in the Performance Profiler.
 
 ![Performance Profiler](../profiling/media/prof-tour-performance-profiler.png "Performance Profiler")
 
-Open the Performance Profiler by choosing **Debug** > **Performance Profiler**.
+Open the Performance Profiler by choosing **Debug** > **Performance Profiler** (or **Alt + F2**).
 
-The window will allow you to select multiple profiling tools in some scenarios. Tools such as CPU Usage may provide complementary data that you can use to help in your analysis. You can also use the [command-line profiler](../profiling/profile-apps-from-command-line.md) to enable scenarios involving multiple profiling tools.
-
-## Examine UI performance and accessibility events (UWP)
-
-In your UWP apps, you can enable **UI Analysis** in the **Diagnostic Tools** window. The tool searches for common performance or accessibility issues and displays them in the **Events** view while you are debugging. The event descriptions provide information that can help resolve issues.
-
-![View UI analysis events in the diagnostic tools](../profiling/media/prof-tour-ui-analysis.png "Diagnostic Tools View UI Analysis Events")
+The window will allow you to select [multiple profiling tools](../profiling/use-multiple-profiler-tools-simultaneously.md) in some scenarios. Tools such as CPU Usage may provide complementary data that you can use to help in your analysis. You can also use the [command-line profiler](../profiling/profile-apps-from-command-line.md) to enable scenarios involving multiple profiling tools.
 
 ## Analyze resource consumption (XAML)
 
@@ -102,6 +100,40 @@ Low framerates in the **Visual throughput** graph may correspond to visual probl
 In the Timeline details view, you can find information such as the type of activity (or the UI element involved) along with the duration of the activity. For example, in the illustration, a **Layout** event for a Grid control takes 57.53 ms.
 
 For more information, see [Application Timeline](../profiling/application-timeline.md).
+
+::: moniker range=">=vs-2019"
+
+## Examine application events
+
+The generic [events viewer](../profiling/events-viewer.md) allows you to view the activity of your application through a list of events, such as module load, thread start, and system configurations, to help better diagnose how your application is performing right within the Visual Studio profiler. This tool is available in the Performance Profiler. Open the Performance Profiler by choosing **Debug** > **Performance Profiler** (or **Alt + F2**).
+
+The tool shows each event in a list view. Columns provide information about each event, such as the event name, timestamp, and process ID.
+
+![Event Viewer Trace](../profiling/media/eventviewertrace.png "Event Viewer Trace")
+
+## Analyze asynchronous code (.NET)
+
+The [.NET Async Tool](../profiling/analyze-async.md) allows you to analyze the performance of asynchronous code in your application. This tool is available in the Performance Profiler. Open the Performance Profiler by choosing **Debug** > **Performance Profiler** (or **Alt + F2**).
+
+The tool shows each async operation in a list view. You can see information such as the start time, end time, and total time for an async operation.
+
+![.NET Async Tool Stopped](../profiling/media/async-tool-opened.png ".NET Async Tool Stopped")
+
+## Analyze database performance (.NET Core)
+
+For .NET Core apps that use ADO.NET or Entity Framework Core, the [Database Tool](../profiling/analyze-database.md) allows you to record the database queries that your application makes during a diagnostic session. You can then analyze information about individual queries in order to find places where your app's performance can be improved. This tool is available in the Performance Profiler. Open the Performance Profiler by choosing **Debug** > **Performance Profiler** (or **Alt + F2**).
+
+The tool shows each query in a list view. You can see information such as the query start time and duration.
+
+![Allocation](./media/db-gotosource.png "Allocation")
+
+::: moniker-end
+
+## Examine UI performance and accessibility events (UWP)
+
+In your UWP apps, you can enable **UI Analysis** in the **Diagnostic Tools** window. The tool searches for common performance or accessibility issues and displays them in the **Events** view while you are debugging. The event descriptions provide information that can help resolve issues.
+
+![View UI analysis events in the diagnostic tools](../profiling/media/prof-tour-ui-analysis.png "Diagnostic Tools View UI Analysis Events")
 
 ## Analyze GPU Usage (Direct3D)
 
@@ -160,13 +192,16 @@ Here is a table that lists the different tools Visual Studio offers and the diff
 ::: moniker range=">=vs-2019"
 |Performance Tool|Windows desktop|UWP|ASP.NET/ASP.NET Core|
 |----------------------|---------------------|-------------|-------------|
+|[PerfTips](../profiling/perftips.md)|yes|yes|yes|
 |[CPU Usage](../profiling/cpu-usage.md)|yes|yes|yes|
 |[Memory Usage](../profiling/memory-usage.md)|yes|yes|yes|
 |[.NET Object Allocation](../profiling/dotnet-alloc-tool.md)|yes (.NET only)|yes|yes|
 |[GPU Usage](/visualstudio/debugger/graphics/gpu-usage)|yes|yes|no|
 |[Application Timeline](../profiling/application-timeline.md)|yes|yes|no|
-|[PerfTips](../profiling/perftips.md)|yes|yes for XAML, no for HTML|yes|
-|[Performance Explorer](../profiling/performance-explorer.md)|yes|no|yes|
+|[Events viewer](../profiling/perftips.md)|yes|yes|yes|
+|[.NET Async](../profiling/perftips.md)|yes (.NET only)|yes|yes|
+|[Database](../profiling/perftips.md)|yes (.NET Core only)|no|yes (ASP.NET Core only)|
+|[Performance Explorer](../profiling/performance-explorer.md)|no|no|no|
 |[IntelliTrace](../debugger/intellitrace.md)|.NET with Visual Studio Enterprise only|.NET with Visual Studio Enterprise only|.NET with Visual Studio Enterprise only|
 ::: moniker-end
 

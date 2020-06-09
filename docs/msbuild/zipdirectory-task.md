@@ -37,7 +37,7 @@ Creates a *.zip* archive from the contents of a directory.
 |Parameter|Description|
 |---------------|-----------------|
 |`DestinationFile`|Required <xref:Microsoft.Build.Framework.ITaskItem> parameter<br /><br /> The full path to the *.zip* file to create.|
-|`Overwrite`|Optional `Boolean` parameter.<br /><br /> If `true`, skips the destination file will be overwritten if it exists. Defaults to `false`.|
+|`Overwrite`|Optional `Boolean` parameter.<br /><br /> If `true`, the destination file will be overwritten if it exists. Defaults to `false`.|
 |`SourceDirectory`|Required <xref:Microsoft.Build.Framework.ITaskItem> parameter.<br /><br /> Specifies the directory to create a *.zip* archive from.|
 
 ## Remarks
@@ -46,7 +46,7 @@ Creates a *.zip* archive from the contents of a directory.
 
 ## Example
 
- The following example creates a *.zip* archive from the output directory after building a project.
+ The following example (if used as an imported *.targets* file) creates a *.zip* archive from the output directory after building a project. The `$(OutputPath)` property would normally be defined in an MSBuild project file, so a project file that imports the following file would produce a zip archive `output.zip`:
 
 ```xml
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">

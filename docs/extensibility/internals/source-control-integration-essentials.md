@@ -1,17 +1,17 @@
 ---
-title: "Source Control Integration Essentials | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Source Control Integration Essentials | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "Source Control Integration, essentials"
-  - "Source Control Integration,overview"
-  - "essentials, Source Control Integration"
+- Source Control Integration, essentials
+- Source Control Integration,overview
+- essentials, Source Control Integration
 ms.assetid: 442057cb-fd54-4283-96f8-2f6dc8bf2de7
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Source Control Integration Essentials
 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] supports two types of source control integration: a source control plug-in that provides basic functionality and is built using the Source Control Plug-in API (formerly known as the MSSCCI API), and a VSPackage-based source control integration solution that provides more robust functionality.

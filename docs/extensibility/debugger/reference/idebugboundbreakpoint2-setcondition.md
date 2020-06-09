@@ -1,21 +1,21 @@
 ---
-title: "IDebugBoundBreakpoint2::SetCondition | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugBoundBreakpoint2::SetCondition | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugBoundBreakpoint2::SetCondition"
+- IDebugBoundBreakpoint2::SetCondition
 helpviewer_keywords:
-  - "SetCondition method"
-  - "IDebugBoundBreakpoint2::SetCondition method"
+- SetCondition method
+- IDebugBoundBreakpoint2::SetCondition method
 ms.assetid: 5d366876-efed-43d0-8ea1-dfdb009cbfac
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugBoundBreakpoint2::SetCondition
 Sets or changes the condition associated with this bound breakpoint.

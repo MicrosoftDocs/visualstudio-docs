@@ -3,11 +3,12 @@ title: Setting Up Administrators for Monthly Subscriptions | Microsoft Docs
 author: evanwindom
 ms.author: lank
 manager: lank
-ms.date: 03/02/2020
+ms.assetid: 8b30e2bc-2ac3-4fcc-b296-128731471032
+ms.date: 03/03/2020
 ms.topic: conceptual
-description: Setting Up Administrators for Monthly Subscriptions
+description: Setting Up Administrators for monthly Subscriptions
 ---
-# Set up administrators for Visual Studio Monthly subscriptions
+# Set up administrators for Visual Studio monthly subscriptions
 
 Visual Studio monthly subscriptions are managed by administrators. These individuals can assign subscriptions, edit assignments, add or delete subscriptions, and perform other subscription management tasks.
 
@@ -27,13 +28,21 @@ To add administrators:
 
 1. Connect to the Azure Portal at [portal.azure.com](https://portal.azure.com).
 2. Sign in with the account you used to purchase the Visual Studio monthly subscriptions.
-3. In the left navigation pane, scroll down to **Cost Management + Billing**.
+3. Under **Azure services**, choose **Cost Management + Billing**.
+   > [!div class="mx-imgBorder"]
+   > ![Choose Cost Management + Billing under Azure services](_img/cloud-admin/azure-cost-billing.png)
 4. In the **My subscriptions** list, choose the Azure subscription that you used to make the purchase.
-5. Click **Access control**, which is located near the top of the list in the left navigation pane.
+   > [!div class="mx-imgBorder"]
+   > ![Choose subscription](_img/cloud-admin/subscription-list.png)
+5. Click **Access control (IAM)**, which is located near the top of the list in the left navigation pane.
 6. Click the **Add** tab at the top of the page.
 7. Click **Add role assignment**.
+   > [!div class="mx-imgBorder"]
+   > ![Choose Access control, Add, Add role assignment](_img/cloud-admin/access-control-add.png)
 8. In the fly-out pane on the right, click on the **Role** drop-down at the top of the pane, scroll down, and select **User Access Administrator**.
 9. In the list of users, scroll down to the user you wish to make an admin, and select them. 
+   > [!div class="mx-imgBorder"]
+   > ![Choose Role, User access admin](_img/cloud-admin/add-role-user-access-admin.png)
 10. Click **Save**.
 11. Click on the **Role assignments** tab to verify that the user you selected now appears as a User Access Administrator.
 

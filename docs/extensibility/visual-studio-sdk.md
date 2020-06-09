@@ -1,19 +1,19 @@
 ---
-title: "Visual Studio SDK | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Visual Studio SDK | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 f1_keywords:
-  - "VSSDK.v90.StartPage"
+- VSSDK.v90.StartPage
 helpviewer_keywords:
-  - "Visual Studio SDK"
-  - "VS SDK (see Visual Studio SDK)"
-  - "Visual Studio, SDK"
+- Visual Studio SDK
+- VS SDK (see Visual Studio SDK)
+- Visual Studio, SDK
 ms.assetid: 1f7c348a-114c-4243-b392-3531e9c9c6fd
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Visual Studio SDK
 The Visual Studio SDK helps you extend Visual Studio features or integrate new features into Visual Studio. You can distribute your extensions to other users, as well as to the Visual Studio Marketplace. The following are some of the ways in which you can extend Visual Studio:
@@ -37,8 +37,8 @@ The Visual Studio SDK helps you extend Visual Studio features or integrate new f
 ## Install the Visual Studio SDK
  The Visual Studio SDK is an optional feature in Visual Studio setup. You can also install the VS SDK later on. For more information, see [Install the Visual Studio SDK](../extensibility/installing-the-visual-studio-sdk.md).
 
-## What's new in the Visual Studio 2017 SDK
- The Visual Studio SDK has some new features such as the VSIX v3 format as well as breaking changes, which may require you to update your extension. For more information, see [What's new in the Visual Studio 2017 SDK](../extensibility/what-s-new-in-the-visual-studio-2017-sdk.md).
+## What's new in the Visual Studio SDK
+ The Visual Studio SDK has some new features such as the synchronously autoloaded extensions warning and VSIX v3 format as well as breaking changes, which may require you to update your extension. For more information, see [What's new in the Visual Studio 2019 SDK](../extensibility/whats-new-visual-studio-2019-sdk.md) and [What's new in the Visual Studio 2017 SDK](../extensibility/what-s-new-in-the-visual-studio-2017-sdk.md).
 
 ## Visual Studio user experience guidelines
  Get great tips for designing the UI for your extension in [Visual Studio user experience guidelines](../extensibility/ux-guidelines/visual-studio-user-experience-guidelines.md).

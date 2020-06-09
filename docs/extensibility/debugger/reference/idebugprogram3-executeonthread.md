@@ -1,18 +1,18 @@
 ---
-title: "IDebugProgram3::ExecuteOnThread | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugProgram3::ExecuteOnThread | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
-  - "IDebugProgram3::ExecuteOnThread"
+- IDebugProgram3::ExecuteOnThread
 ms.assetid: 2f5211e3-7a3f-47bf-9595-dfc8b4895d0d
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugProgram3::ExecuteOnThread
 Executes the debugger program. The thread is returned to give the debugger information on which thread the user is viewing when executing the program.

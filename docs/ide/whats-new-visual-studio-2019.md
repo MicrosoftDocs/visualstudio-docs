@@ -2,7 +2,7 @@
 title: "What's new in Visual Studio 2019"
 titleSuffix: ""
 description: "Learn about the new features in Visual Studio 2019."
-ms.date: 12/10/2019
+ms.date: 05/20/2020
 helpviewer_keywords:
   - "Visual Studio, what's new"
   - "what's new [Visual Studio]"
@@ -18,14 +18,18 @@ ms.workload:
 ---
 # What's new in Visual Studio 2019
 
-**Updated for the [16.4 release](/visualstudio/releases/2019/release-notes/)**
+**Updated for the [16.6 release](/visualstudio/releases/2019/release-notes/)**
 
 >[!div class="button"]
 >[Download Visual Studio 2019](https://visualstudio.microsoft.com/downloads)
 
-With Visual Studio 2019, you'll get best-in-class tools and services for any developer, any app, and any platform. Whether you're using Visual Studio for the first time or you've been using it for years, there's a lot to like in this new version!
+Visual Studio is constantly changing to meet the demands of developers. In the following video from the **[Microsoft Build](https://mybuild.microsoft.com/)** library, join us for a tour of some of the [newest features](/visualstudio/releases/2019/release-notes/) and a [sneak peek](/visualstudio/releases/2019/release-notes-preview/) at what's to come: <br><br>*Video length: 44.58 minutes*
 
-Here's a high-level recap of what's new:
+> [!VIDEO https://channel9.msdn.com/Events/Build/2020/BOD111/player]
+
+With Visual Studio 2019, you'll get best-in-class tools and services for any developer, any app, and any platform. Whether you're using Visual Studio for the first time or you've been using it for years, there's a lot to like in our latest version!
+
+Here's a high-level recap of what's new, all-up:
 
 * **[Develop](#develop)**: Stay focused and productive with improved performance, instant code cleanup, and better search results.
 * **[Collaborate](#collaborate)**: Enjoy natural collaboration through a Git-first workflow, real-time editing and debugging, and code reviews right in Visual Studio.
@@ -200,7 +204,7 @@ For more information, see the [Pinnable Properties: Debug & Display Managed Obje
 
 ## What's next
 
-We update Visual Studio 2019 often with new features that can make your development experience even better. To learn more about our latest innovations, check out the [Visual Studio Blog](https://devblogs.microsoft.com/visualstudio/). And for a record of what we've released in preview to date, take a look at the [Preview Release Notes](/visualstudio/releases/2019/release-notes-preview/).
+We update Visual Studio 2019 often with new features that can make your development experience even better. To learn more about our latest innovations, check out the [Visual Studio Blog](https://devblogs.microsoft.com/visualstudio/). For a record of what we've released in preview to date, take a look at the [Preview Release Notes](/visualstudio/releases/2019/release-notes-preview/). And for a list of what we're planning to release next, see the [Visual Studio Roadmap](/visualstudio/productinfo/vs-roadmap).
 
 Want to know more about what else is in the works for Visual Studio 2019? See the [Visual Studio Roadmap](/visualstudio/productinfo/vs-roadmap/).
 
@@ -215,7 +219,7 @@ Why send feedback to the Visual Studio team? Because we take customer feedback s
 ## See also
 
 * [Visual Studio 2019 release notes](/visualstudio/releases/2019/release-notes/)
-* [What's New in the Visual Studio 2019 SDK](../extensibility/whats-new-visual-studio-2019-sdk.md)
 * [Visual Studio 2019 for Mac release notes](/visualstudio/releasenotes/vs2019-mac-relnotes/)
-* [Microsoft Build 2019 conference](https://www.microsoft.com/build)
-* [Microsoft Connect(); 2018 conference](https://www.microsoft.com/connectevent)
+* [What's new in the Visual Studio 2019 SDK](../extensibility/whats-new-visual-studio-2019-sdk.md)
+* [Microsoft Build conference](https://www.microsoft.com/build)
+* [Microsoft Ignite conference](https://www.microsoft.com/ignite)

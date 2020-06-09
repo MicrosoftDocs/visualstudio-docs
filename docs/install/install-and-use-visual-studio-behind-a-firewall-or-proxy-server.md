@@ -1,7 +1,7 @@
 ---
 title: Install and use behind a firewall or proxy server
 description: Review the domain URLs, ports, and protocols that you might want to add to an allow list or open if your organization uses a firewall or a proxy server
-ms.date: 02/01/2020
+ms.date: 05/29/2020
 ms.custom: seodec18
 ms.topic: conceptual
 helpviewer_keywords:
@@ -92,7 +92,7 @@ To make sure that you have access to everything you want when you use Visual Stu
 | AI Project <br>Integration | az861674.vo.msecnd.net | 443<br> | Used to configure new projects to send usage data to your registered Application Insights account |
 | Code Lens | codelensprodscus1su0.app.<br>codelens.visualstudio.com | 443 | Used to provide information in the editor about when a file was last updated, the timeline of changes, the work items that changes are associated with, the authors, and more |
 | Experimental <br>feature enabling | visualstudio-devdiv-c2s.msedge.net | 80 | Used to activate experimental new features or feature changes |
-| Identity “badge” <br>(user name and avatar)<br>and <br>Roaming settings | app.vssps.visualstudio.com <br><br>app.vsspsext.visualstudio.com<br><br>app.vssps.visualstudio.com<br><br> ns-sb2-prod-ch1-002.cloudapp.net <br><br>az700632.vo.msecnd.net<br><br>api.vstsusers.visualstudio.com/profiles/* | 443 | Used to display the user's name and avatar in the IDE <br><br> Used to make sure that setting changes roam from one machine to another |
+| Identity "badge" <br>(user name and avatar)<br>and <br>Roaming settings | app.vssps.visualstudio.com <br><br>app.vsspsext.visualstudio.com<br><br>app.vssps.visualstudio.com<br><br> ns-sb2-prod-ch1-002.cloudapp.net <br><br>az700632.vo.msecnd.net<br><br>api.vstsusers.visualstudio.com/profiles/* | 443 | Used to display the user's name and avatar in the IDE <br><br> Used to make sure that setting changes roam from one machine to another |
 | Remote Settings | az700632.vo.msecnd.net | 443 | Used to turn off extensions that are known to cause problems in Visual Studio |
 | Windows Tools | developer.microsoft.com <br><br>dev.windows.com  <br><br>appdev.microsoft.com | https/443 | Used for Windows app store scenarios |
 | JSON Schema <br>Discovery <br><br>JSON Schema <br>Definition<br><br>JSON Schema <br>Support for <br>Azure Resources | json.schemastore.org <br>schemastoreorg.azurewebsites.net<br><br>json-schema.org<br><br>schema.management.azure.com | http/80<br>https/443<br><br>http/80<br><br>https/443 | Used to discover and download JSON schemas that the user might use when editing JSON documents <br><br>Used to obtain the meta-validation schema for JSON<br><br>Used to obtain the current schema for Azure Resource Manager deployment templates |
@@ -123,14 +123,15 @@ To make sure that you have access to everything you want when you use Visual Stu
 | Azure Data Lake | &#42;.azuredatalakestore.net <br>&#42;.azuredatalakeanalytics.net | https/443 | Used to compile, submit, view, diagnose, and debug  jobs; used to browse ADLS files; used to upload and download files |
 | Packaging Service | [account].visualstudio.com <br/> [account].\*.visualstudio.com <br/> \*.blob.core.windows.net <br/> registry.npmjs.org </br> nodejs.org <br/> dist.nuget.org <br/> nuget.org | https/443 | The \*.npmjs.org, \*.nuget.org, and \*.nodejs.org are only required for certain build task scenarios (for example: NuGet Tool Installer, Node Tool Installer) or if you intend to use public upstream with your Feeds. The other three domains are required for core functionality of the Packaging service. |
 | Azure DevOps Services | \*.vsassets.io <br/> static2.sharepointonline.com <br/> dev.azure.com | | Used to connect with Azure DevOps Services |
+| Azure Service Bus | \*.servicebus.windows.net | ampq/5671 and 5672, </br> sbmp/9350-9354, </br> http/80, </br> https/443 | Used to create queues, topics, and subscriptions. </br> Also used to send/receive messages to/from Service Bus queues and topics. |
 | Developer Community | sendvsfeedback2.azurewebsites.net/api | https/443 | Used to call Developer Community Feedback Tool APIs (my issues, search, vote, comment, submit, upload, resume) |
 | Intellicode | \*.intellicode.vsengsaas.visualstudio.com | https/443 | Used to call Intellicode APIs |
 | Live Share | \*.liveshare.vsengsaas.visualstudio.com| https/443 | Used to call Live Share APIs |
-| Visual Studio Online | \*.online.visualstudio.com | https/443 | Used to call Visual Studio Online APIs |
+| Visual Studio Codespaces | \*.online.visualstudio.com | https/443 | Used to call Visual Studio Codespaces APIs |
 | JavaScript Automatic Type Acquisition | registry.npmjs.org | https/443 | Used to install TypeScript type definitions to provide Intellisense for popular JavaScript libraries |
 | Visual Studio Subscriptions Licensing Service | app.vssps.visualstudio.com/apis/<br/>Licensing/ClientRights | https/443 | Licensing for online activation |
 | Debugger | 1. <br>vsdebugger.blob.core.windows.net <br>vsdebugger.azureedge.net <br><br>2. <br>download.visualstudio.com/\*/<br/>onecore.msvsmon.\*.zip<br><br> 3. referencesource.microsoft.com/symbols <br><br> 4. <br>symbols.nuget.org/download/symbols<br><br> 5. visualstudio.com<br><br>6. msdl.microsoft.com/download/symbols | https/443 | 1. <br>Used for downloading debugger bits for .NET Core debugging on Unix / macOS over SSH <br><br>2. <br>Used for downloading debugger bits for remote Windows Docker container debugging<br><br> 3. Used for .NET framework source stepping <br><br> 4. <br>(If user opts-in) Used for downloading symbols published to nuget.org symbol server.<br><br> 5. (If user opts-in) Used for downloading MS symbols and binaries, might also be needed for debugging managed code in dumps |
-| Visual Studio Online| \*.online.visualstudio.com | https/443 | Used to call Visual Studio Online APIs |
+| Visual Studio Codespaces| \*.online.visualstudio.com | https/443 | Used to call Visual Studio Codespaces APIs |
 | Xamarin Android App Publishing | \*.googleapis.com <br/> play.google.com <br/>accounts.google.com | https/443 | Used to interact with Google Play Store service to publish/upload Xamarin Android Applications directly from Visual Studio. |
 | Azure Container Registry | *.azurecr.io | https/443 | Access container registries hosted on Azure, for configuration of CICD pipelines |
 | | | | |
@@ -141,7 +142,7 @@ Sometimes, you might run in to network- or proxy-related errors when you install
 
 ## Get support
 
-We offer a [**live chat**](https://visualstudio.microsoft.com/vs/support/#talktous) (English only) support option for installation-related issues.
+We offer an [**installation chat**](https://visualstudio.microsoft.com/vs/support/#talktous) (English only) support option for installation-related issues.
 
 Here are a few more support options:
 

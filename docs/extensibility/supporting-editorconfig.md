@@ -1,15 +1,15 @@
 ---
-title: "Extend language service to support EditorConfig"
-ms.date: "11/22/2017"
-ms.topic: "conceptual"
+title: Extend language service to support EditorConfig
+ms.date: 11/22/2017
+ms.topic: conceptual
 helpviewer_keywords:
-  - "editorconfig [extensibility]"
-  - "editorconfig, supporting in a language service"
-author: madskristensen
-ms.author: madsk
+- editorconfig [extensibility]
+- editorconfig, supporting in a language service
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Supporting EditorConfig for your language service
 

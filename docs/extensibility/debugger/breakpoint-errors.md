@@ -1,17 +1,17 @@
 ---
-title: "Breakpoint Errors | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Breakpoint Errors | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "breakpoints, errors"
-  - "debugging [Debugging SDK], breakpoint errors"
-  - "errors [Debugging SDK]"
+- breakpoints, errors
+- debugging [Debugging SDK], breakpoint errors
+- errors [Debugging SDK]
 ms.assetid: 79221c6b-a924-4c8e-a778-e312e4e0c0c8
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Breakpoint errors
 The following describes the process when a breakpoint attempts to bind to code but fails.

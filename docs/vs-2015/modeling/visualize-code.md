@@ -45,7 +45,7 @@ You can use the visualization and modeling tools in Visual Studio to help you un
 |**Category**|**Links**|
 |------------------|---------------|
 |**Forums**|-   [Visual Studio Visualization & Modeling Tools](https://social.msdn.microsoft.com/Forums/en-US/home?forum=vsarch)<br />-   [Visual Studio Visualization & Modeling SDK (DSL Tools)](https://social.msdn.microsoft.com/Forums/home?forum=dslvsarchx)|
-|**Blogs**|[Visual Studio ALM + Team Foundation Server Blog](https://blogs.msdn.com/b/visualstudioalm)|
+|**Blogs**|[Visual Studio ALM + Team Foundation Server Blog](https://devblogs.microsoft.com/devops/welcome-to-the-visual-studio-alm-team-foundation-server-blog/)|
 |**Technical Articles and Journals**|[MSDN Architecture Forum](https://msdn.microsoft.com/architecture/default.aspx)|
 
 ## See Also

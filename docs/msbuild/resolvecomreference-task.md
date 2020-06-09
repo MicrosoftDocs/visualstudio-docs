@@ -78,6 +78,16 @@ In addition to the parameters listed above, this task inherits parameters from t
 
 The COM DLL doesn't need to be registered on the machine for this task to work.
 
+## MSB4803 Error
+
+If you try to run a project that uses the `ResolveCOMReference` task from the `dotnet` CLI commands, you get the error:
+
+```output
+MSB4803: The task "ResolveComReference" is not supported on the .NET Core version of MSBuild. Please use the .NET Framework version of MSBuild.
+```
+
+This task is not supported on the .NET Core version of MSBuild, which is what's used when you run the `dotnet build` command from the command line. Try building the project by invoking [MSBuild.exe](msbuild-command-line-reference.md) from the Visual Studio Developer Command Prompt, since this uses the .NET Framework version of MSBuild.
+
 ## See also
 
 - [Tasks](../msbuild/msbuild-tasks.md)

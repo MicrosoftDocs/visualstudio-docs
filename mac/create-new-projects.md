@@ -19,7 +19,7 @@ There are a few ways to create a new project in Visual Studio for Mac. When you 
 
 If Visual Studio for Mac is already open with a solution loaded, you can create a new solution by going to the menu bar and choosing **File > New Solution**. Creating a new solution this way closes the solution that is already loaded.
 
-## Creating a New Project from a Template
+## Creating a New Project
 
 The **New Project** dialog, by default, will show your recently used templates sorted by *most recently used*.
 

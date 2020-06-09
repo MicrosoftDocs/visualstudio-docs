@@ -1,16 +1,16 @@
 ---
-title: "How to: Identify Symbols in a Library | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: 'How to: Identify Symbols in a Library | Microsoft Docs'
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "Call Browser tool, identifying symbols in the library"
-  - "Call Browser tool"
+- Call Browser tool, identifying symbols in the library
+- Call Browser tool
 ms.assetid: 8fb0de61-71e7-42d1-8b41-2ad915474384
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # How to: Identify symbols in a library
 Symbol-browsing tools display hierarchical views of symbols. The symbols represent namespaces, objects, classes, class members, and other language elements.

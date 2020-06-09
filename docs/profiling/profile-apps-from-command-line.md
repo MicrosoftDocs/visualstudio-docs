@@ -24,9 +24,11 @@ In the example described in this article, you collect performance information fo
 
 ## Prerequisites
 
-* Visual Studio 2019 Preview 3 or later versions
+* Visual Studio 2019 or later versions
 
 * Familiarity with command-line tools
+
+* To collect performance information on a remote machine without Visual Studio installed, install the [Performance Tools for Visual Studio](https://visualstudio.microsoft.com/downloads#performance-tools-for-visual-studio-2019) on the remote machine. The version of the tools must match your version of Visual Studio.
 
 ## Collect performance data
 

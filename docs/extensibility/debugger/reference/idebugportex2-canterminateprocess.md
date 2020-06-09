@@ -1,20 +1,20 @@
 ---
-title: "IDebugPortEx2::CanTerminateProcess | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugPortEx2::CanTerminateProcess | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugPortEx2::CanTerminateProcess"
+- IDebugPortEx2::CanTerminateProcess
 helpviewer_keywords:
-  - "IDebugPortEx2::CanTerminateProcess"
+- IDebugPortEx2::CanTerminateProcess
 ms.assetid: 111f65d8-5a1a-42b3-9de3-dd9bb03a33fd
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugPortEx2::CanTerminateProcess
 Determines whether a process can be terminated.

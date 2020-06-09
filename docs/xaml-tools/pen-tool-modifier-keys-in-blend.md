@@ -32,6 +32,6 @@ The following table lists shortcuts that you can use to modify a path while you 
 
 ## See also
 
-- [Artboard modifier keys](../designers/artboard-modifier-keys-in-blend.md)
+- [Artboard modifier keys](artboard-modifier-keys-in-blend.md)
 - [Direct Selection tool modifier keys](direct-selection-tool-modifier-keys-in-blend.md)
 - [Draw shapes and paths](draw-shapes-and-paths.md)

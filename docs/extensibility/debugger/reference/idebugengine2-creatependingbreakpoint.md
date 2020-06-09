@@ -1,20 +1,20 @@
 ---
-title: "IDebugEngine2::CreatePendingBreakpoint | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugEngine2::CreatePendingBreakpoint | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugEngine2::CreatePendingBreakpoint"
+- IDebugEngine2::CreatePendingBreakpoint
 helpviewer_keywords:
-  - "IDebugEngine2::CreatePendingBreakpoint"
+- IDebugEngine2::CreatePendingBreakpoint
 ms.assetid: 92e85b90-a931-48d9-89a7-a6edcb83ae5a
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugEngine2::CreatePendingBreakpoint
 Creates a pending breakpoint in the debug engine (DE).

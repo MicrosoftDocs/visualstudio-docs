@@ -1,20 +1,20 @@
 ---
-title: "IDebugArrayObject::GetElements | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugArrayObject::GetElements | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugArrayObject::GetElements"
+- IDebugArrayObject::GetElements
 helpviewer_keywords:
-  - "IDebugArrayObject::GetElements method"
+- IDebugArrayObject::GetElements method
 ms.assetid: f6a6262f-5183-46ce-8a45-33ef46088b98
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugArrayObject::GetElements
 Gets an enumerator of all elements of the array.

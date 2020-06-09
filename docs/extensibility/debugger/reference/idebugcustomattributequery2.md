@@ -1,18 +1,18 @@
 ---
-title: "IDebugCustomAttributeQuery2 | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugCustomAttributeQuery2 | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugCustomAttributeQuery2"
+- IDebugCustomAttributeQuery2
 helpviewer_keywords:
-  - "IDebugCustomAttributeQuery interface"
-  - "IDebugCustomAttributeQuery2 interface"
+- IDebugCustomAttributeQuery interface
+- IDebugCustomAttributeQuery2 interface
 ms.assetid: 7cfa23e4-a05a-47a3-af6c-bd40c655014b
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # IDebugCustomAttributeQuery2
 Determines the existence of a custom attribute for this field and, if it exists, returns the attribute information.

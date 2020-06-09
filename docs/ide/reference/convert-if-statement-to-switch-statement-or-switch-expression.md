@@ -1,6 +1,6 @@
 ---
 title: Convert if statement to switch statement or switch expression
-ms.date: 02/12/2020
+ms.date: 03/10/2020
 ms.topic: reference
 author: mikadumont
 ms.author: midumont
@@ -26,9 +26,15 @@ This refactoring applies to:
 
 1. Place your cursor in the `if` keyword.
 2. Press **Ctrl**+**.** to trigger the **Quick Actions and Refactorings** menu.
-3. Select **Convert to 'switch' statement**.
+3. Select from the following two options: 
 
-   ![Convert if statement to switch statement or switch expression](media/convert-if-statement-to-switch-statement-or-switch-expression.png) 
+    Select **Convert to 'switch' statement**.
+
+   ![Convert if statement to switch statement](media/convert-if-to-switch-statement.png) 
+
+    Select **Convert to 'switch' expression**. 
+
+    ![Convert if statement to switch expression](media/convert-if-to-switch-expression.png) 
 
 ## See also
 

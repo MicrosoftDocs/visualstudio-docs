@@ -1,17 +1,17 @@
 ---
-title: "IDebugStackFrame2 | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugStackFrame2 | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugStackFrame2"
+- IDebugStackFrame2
 helpviewer_keywords:
-  - "IDebugStackFrame2 interface"
+- IDebugStackFrame2 interface
 ms.assetid: bd212a6a-dcc6-4756-a77a-e8dfda38b104
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # IDebugStackFrame2
 This interface represents a single stack frame in a call stack in a particular thread.

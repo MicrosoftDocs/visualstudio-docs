@@ -1,17 +1,17 @@
 ---
-title: "Getting a List of Installed Code Snippets (Legacy) | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Getting a List of Installed Code Snippets (Legacy) | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "snippets, retrieving list"
-  - "code snippets, retrieving list"
-  - "GetSnippets method"
+- snippets, retrieving list
+- code snippets, retrieving list
+- GetSnippets method
 ms.assetid: 7d142f8b-35b1-44c4-a13e-f89f6460c906
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Walkthrough: Getting a List of Installed Code Snippets (Legacy Implementation)
 A code snippet is a piece of code that can be inserted into the source buffer either with a menu command (which allows choosing among a list of installed code snippets) or by selecting a snippet shortcut from an IntelliSense completion list.

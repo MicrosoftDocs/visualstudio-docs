@@ -1,17 +1,17 @@
 ---
-title: "Getting Local Properties | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Getting Local Properties | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "expression evaluation, getting local properties"
-  - "debugging [Debugging SDK], local properties"
-  - "expression evaluation, local properties"
+- expression evaluation, getting local properties
+- debugging [Debugging SDK], local properties
+- expression evaluation, local properties
 ms.assetid: 6c3a79e8-1ba1-4863-97c3-0216c3d9f092
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Get local properties
 > [!IMPORTANT]

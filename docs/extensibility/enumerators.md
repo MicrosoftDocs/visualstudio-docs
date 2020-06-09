@@ -1,15 +1,15 @@
 ---
-title: "Enumerators | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Enumerators | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "source control plug-ins, enumerators"
+- source control plug-ins, enumerators
 ms.assetid: a60030c5-e1d1-47e1-84bb-cbfe838ab479
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Enumerators
 This section lists the enumerator data types in the Source Control Plug-in API that the source control plug-in must know about.

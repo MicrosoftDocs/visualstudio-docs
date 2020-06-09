@@ -1,16 +1,16 @@
 ---
-title: "Sample Implementation of Locals | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Sample Implementation of Locals | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "debugging [Debugging SDK], local variables"
-  - "expression evaluation, local variables"
+- debugging [Debugging SDK], local variables
+- expression evaluation, local variables
 ms.assetid: 66a2e00a-f558-4e87-96b8-5ecf5509e04c
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Sample implementation of locals
 > [!IMPORTANT]

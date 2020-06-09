@@ -1,9 +1,10 @@
 ---
 title: Technical Support Benefit
 author: evanwindom
-ms.author: lank
+ms.author: v-evwin
 manager: lank
-ms.date: 11/18/2019
+ms.assetid: 2e0fd8bb-8f20-487c-b350-b8fde405ea5e
+ms.date: 03/26/2020
 ms.topic: conceptual
 description: Learn how to activate the technical support benefit included with your Visual Studio subscription.
 ---
@@ -11,7 +12,7 @@ description: Learn how to activate the technical support benefit included with y
 The Technical Support benefit in Visual Studio subscriptions is for resolving break-fix issues in **non-production environments** for products that are still in the mainstream support phase of the [support lifecycle](https://support.microsoft.com/lifecycle/search). Visual Studio Enterprise standard and annual cloud subscriptions receive four incidents, while Visual Studio Professional standard and annual cloud subscriptions receive two incidents, for up to 1 year from benefit activation. Benefit activation must occur while the subscription is current.
 
 > [!NOTE]
-> Microsoft no longer offers Visual Studio Professional Annual subscriptions and Visual Studio Enterprise Annual subscriptions in Cloud Subscriptions. There will be no change to existing customers experience and ability to renew, increase, decrease, or cancel their subscriptions. New customers are encouraged to go to https://visualstudio.microsoft.com/vs/pricing/ to explore different options to purchase Visual Studio subscriptions.
+> Microsoft no longer offers Visual Studio Professional Annual subscriptions and Visual Studio Enterprise Annual subscriptions in Cloud Subscriptions. There will be no change to existing customers experience and ability to renew, increase, decrease, or cancel their subscriptions. New customers are encouraged to go to <https://visualstudio.microsoft.com/vs/pricing/> to explore different options to purchase Visual Studio subscriptions.
 
 > [!NOTE]
 > Not all subscriptions at a given level are eligible to receive support incidents. Subscriptions acquired through FTE, NFR, MPN, MCT and other programs do not receive support incidents. If your subscription is not eligible to receive technical support incidents, the Technical Support tile will not appear in your available benefits.
@@ -26,7 +27,7 @@ Non-developer products (such as SQL, Windows, SharePoint) downloaded from Visual
 Product level descriptions: Expand **Unavailable support plans**. If you see **Support plan cannot be used for support on the specified product (Code: 8)**, your support contract cannot be used for the product version you selected.
 
 ## How to activate the benefit
-1. Go to https://my.visualstudio.com/Benefits, scroll down to the Support section and on the Technical Support tile click **Chat to activate**.
+1. Go to <https://my.visualstudio.com/Benefits>, scroll down to the Support section and on the Technical Support tile click **Chat to activate**.
     > [!div class="mx-imgBorder"]
     > ![Technical Support Benefit Tile](_img/vs-tech-support/vs-tech-support-tile.png)
 2. This will initiate a chat session with a representative who can create your **Contract ID** and **Access ID** and provide those to you via email so you will have them for your records.
@@ -119,6 +120,12 @@ To use your Visual Studio subscription technical support benefit for issues rela
 <sup>2</sup> *Includes: Imagine Standard.*
 
 Not sure which subscription you're using?  Connect to [https://my.visualstudio.com/subscriptions](https://my.visualstudio.com/subscriptions?wt.mc_id=o~msft~docs) to see all the subscriptions assigned to your email address. If you don't see all your subscriptions, you may have one or more assigned to a different email address.  You'll need to sign in with that email address to see those subscriptions.
+
+## See also
+- [Visual Studio documentation](https://docs.microsoft.com/visualstudio/)
+- [Azure DevOps documentation](https://docs.microsoft.com/azure/devops/)
+- [Azure documentation](https://docs.microsoft.com/azure/)
+- [Microsoft 365 documentation](https://docs.microsoft.com/microsoft-365/)
 
 ## Next steps
 Be sure to activate these great benefits to make the most of your Visual Studio subscription:

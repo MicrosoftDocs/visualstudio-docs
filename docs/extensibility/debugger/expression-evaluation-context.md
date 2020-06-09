@@ -1,15 +1,15 @@
 ---
-title: "Expression Evaluation Context | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Expression Evaluation Context | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "expression evaluation, context"
+- expression evaluation, context
 ms.assetid: a2fd3758-09bd-45ae-8ecc-2d276c0036ba
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Expression evaluation context
 In [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] debugging, an **expression evaluation context**:

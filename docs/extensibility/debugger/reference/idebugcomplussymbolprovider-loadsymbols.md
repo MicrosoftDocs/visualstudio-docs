@@ -1,19 +1,19 @@
 ---
-title: "IDebugComPlusSymbolProvider::LoadSymbols | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugComPlusSymbolProvider::LoadSymbols | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
-  - "LoadSymbols"
-  - "IDebugComPlusSymbolProvider::LoadSymbols"
+- LoadSymbols
+- IDebugComPlusSymbolProvider::LoadSymbols
 ms.assetid: 3499680d-0b9a-4f20-8432-c89a41b29b87
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugComPlusSymbolProvider::LoadSymbols
 Loads the specified debug symbols in memory.

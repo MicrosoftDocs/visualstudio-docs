@@ -1,17 +1,17 @@
 ---
-title: "Hierarchies and Selection | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Hierarchies and Selection | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "Visual Studio, hierarchies"
-  - "selection"
-  - "hierarchies"
+- Visual Studio, hierarchies
+- selection
+- hierarchies
 ms.assetid: cad0a859-7a84-4ce5-b0a9-f7f64e5f8ebb
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Hierarchies and selection
 When you customize [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)], you should understand how [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] handles hierarchies such as projects and how it uses selection context to determine what is displayed to the user. This section discusses the concepts of [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] hierarchies and selection.

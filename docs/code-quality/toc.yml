@@ -10,39 +10,38 @@
     - name: Overview
       displayName: roslyn analyzers, source analysis
       href: roslyn-analyzers-overview.md
-    - name: Installation
+    - name: Install source code analyzers
       href: install-roslyn-analyzers.md
-    - name: Configuration
+    - name: Configure source code analyzers
       href: use-roslyn-analyzers.md
+    - name: Live code analysis scope
+      href: configure-live-code-analysis-scope-managed-code.md
+    - name: Run code analysis manually
+      href: how-to-run-code-analysis-manually-for-managed-code.md
     - name: Disable code analysis
       href: disable-code-analysis.md
-    - name: Enable full solution analysis
-      href: how-to-enable-and-disable-full-solution-analysis-for-managed-code.md
     - name: FAQ
       href: analyzers-faq.md
     - name: FxCop analyzers
       items:
-      - name: Overview
-        displayName: "fxcop analyzers"
-        href: fxcop-analyzers.yml
-      - name: Installation
+      - name: Install FxCop analyzers
         href: install-fxcop-analyzers.md
-      - name: Configuration
+      - name: Migrate to FxCop analyzers
         items:
-        - name: Overview
+        - name: Migrate from legacy analysis to FxCop analyzers
+          href: migrate-from-legacy-analysis-to-fxcop-analyzers.md
+        - name: FAQ
+          href: fxcop-analyzers-faq.md
+        - name: Ported rules
+          href: fxcop-rule-port-status.md
+      - name: Configure FxCop analyzers
+        items:
+        - name: Configure rules and projects
           href: configure-fxcop-analyzers.md
         - name: Scope options
           href: fxcop-analyzer-options.md
         - name: Enable a category of rules
           href: analyzer-rule-sets.md
-      - name: FAQ
-        href: fxcop-analyzers-faq.md
-    - name: Migrate from legacy analysis to FxCop analyzers
-      items:
-      - name: Overview
-        href: fxcop-analyzers.yml
-      - name: Ported rules
-        href: fxcop-rule-port-status.md
   - name: Legacy analysis
     items:
     - name: Overview
@@ -50,10 +49,10 @@
       href: static-code-analysis-for-managed-code-overview.md
     - name: Legacy analysis walkthrough
       href: walkthrough-analyzing-managed-code-for-code-defects.md
-    - name: Migration
-      href: fxcop-analyzers.yml
+    - name: Migrate to FxCop analyzers
+      href: migrate-from-legacy-analysis-to-fxcop-analyzers.md
     - name: Run legacy analysis manually
-      href: how-to-run-code-analysis-manually-for-managed-code.md
+      href: how-to-run-legacy-code-analysis-manually-for-managed-code.md
     - name: Configuration
       items:
       - name: Configure legacy analysis
@@ -333,8 +332,16 @@
           href: ca1064.md
         - name: "CA1065: Do not raise exceptions in unexpected locations"
           href: ca1065.md
+        - name: "CA1066: Implement IEquatable when overriding Equals"
+          href: ca1066.md
+        - name: "CA1067: Override Equals when implementing IEquatable"
+          href: ca1067.md
         - name: "CA1068: CancellationToken parameters must come last"
           href: ca1068.md
+        - name: "CA1069: Enums should not have duplicate values"
+          href: ca1069.md
+        - name: "CA1070: Do not declare event fields as virtual"
+          href: ca1070.md
         - name: "CA2210: Assemblies should have valid strong names"
           href: ca2210.md
       - name: Documentation warnings
@@ -427,6 +434,10 @@
           href: ca1506.md
         - name: "CA1507: Use nameof in place of string"
           href: ca1507.md
+        - name: "CA1508: Avoid dead conditional code"
+          href: ca1508.md
+        - name: "CA1509: Invalid entry in code metrics configuration file"
+          href: ca1509.md
       - name: Mobility warnings
         items:
         - name: Overview
@@ -532,6 +543,16 @@
           href: ca1824.md
         - name: "CA1825: Avoid zero-length array allocations"
           href: ca1825.md
+        - name: "CA1826: Use property instead of Linq Enumerable method"
+          href: ca1826.md
+        - name: "CA1827: Do not use Count/LongCount when Any can be used"
+          href: ca1827.md
+        - name: "CA1828: Do not use CountAsync/LongCountAsync when AnyAsync can be used"
+          href: ca1828.md
+        - name: "CA1829: Use Length/Count property instead of Enumerable.Count method"
+          href: ca1829.md
+        - name: "CA1835: Prefer the memory overloads of Stream ReadAsync/WriteAsync methods"
+          href: ca1835.md
       - name: Portability warnings
         items:
         - name: Overview
@@ -562,6 +583,14 @@
           href: ca2006.md
         - name: "CA2007: Do not directly await a Task"
           href: ca2007.md
+        - name: "CA2009: Do not call ToImmutableCollection on an ImmutableCollection value"
+          href: ca2009.md
+        - name: "CA2011: Do not assign property within its setter"
+          href: ca2011.md
+        - name: "CA2013: Do not use ReferenceEquals with value types"
+          href: ca2013.md
+        - name: "CA2015: Do not define finalizers for types derived from MemoryManager<T>"
+          href: ca2015.md
       - name: Security warnings
         items:
         - name: Overview
@@ -723,12 +752,26 @@
           href: ca3147.md
         - name: "CA5358: Do Not Use Unsafe Cipher Modes"
           href: ca5358.md
+        - name: "CA5359: Do not disable certificate validation"
+          href: ca5359.md
+        - name: "CA5360: Do not call dangerous methods in deserialization"
+          href: ca5360.md
         - name: "CA5361: Do not disable SChannel use of strong crypto"
           href: ca5361.md
+        - name: "CA5362: Potential reference cycle in deserialized object graph"
+          href: ca5362.md
         - name: "CA5363: Do not disable request validation"
           href: ca5363.md
         - name: "CA5364: Do not use deprecated security protocols"
           href: ca5364.md
+        - name: "CA5365: Do Not Disable HTTP Header Checking"
+          href: ca5365.md
+        - name: "CA5366: Use XmlReader For DataSet Read XML"
+          href: ca5366.md
+        - name: "CA5367: Do Not Serialize Types With Pointer Fields"
+          href: ca5367.md
+        - name: "CA5368: Set ViewStateUserKey For Classes Derived From Page"
+          href: ca5368.md
         - name: "CA5369: Use XmlReader for Deserialize"
           href: ca5369.md
         - name: "CA5370: Use XmlReader for validating reader"
@@ -739,20 +782,64 @@
           href: ca5372.md
         - name: "CA5373: Do not use obsolete key derivation function"
           href: ca5373.md
+        - name: "CA5374: Do Not Use XslTransform"
+          href: ca5374.md
+        - name: "CA5375: Do not use account shared access signature"
+          href: ca5375.md
+        - name: "CA5376: Use SharedAccessProtocol HttpsOnly"
+          href: ca5376.md
+        - name: "CA5377: Use container level access policy"
+          href: ca5377.md
         - name: "CA5378: Do not disable ServicePointManagerSecurityProtocols"
           href: ca5378.md
+        - name: "CA5379: Do not use weak key derivation function algorithm"
+          href: ca5379.md
         - name: "CA5380: Do not add certificates to root store"
           href: ca5380.md
         - name: "CA5381: Ensure certificates are not added to root store"
           href: ca5381.md
+        - name: "CA5382: Use secure cookies in ASP.NET Core"
+          href: ca5382.md
+        - name: "CA5383: Ensure use secure cookies in ASP.NET Core"
+          href: ca5383.md
+        - name: "CA5384: Do not use digital signature algorithm (DSA)"
+          href: ca5384.md
+        - name: "CA5385: Use Rivest–Shamir–Adleman (RSA) algorithm with sufficient key size"
+          href: ca5385.md
         - name: "CA5386: Avoid hardcoding SecurityProtocolType value"
           href: ca5386.md
+        - name: "CA5387: Do not use weak key derivation function with insufficient iteration count"
+          href: ca5387.md
+        - name: "CA5388: Ensure sufficient iteration count when using weak key derivation function"
+          href: ca5388.md
         - name: "CA5389: Do not add archive item's path to the target file system path"
           href: ca5389.md
+        - name: "CA5390: Do not hard-code encryption key"
+          href: ca5390.md
+        - name: "CA5391: Use antiforgery tokens in ASP.NET Core MVC controllers"
+          href: ca5391.md
+        - name: "CA5392: Use DefaultDllImportSearchPaths attribute for P/Invokes"
+          href: ca5392.md
+        - name: "CA5393: Do not use unsafe DllImportSearchPath value"
+          href: ca5393.md
+        - name: "CA5394: Do not use insecure randomness"
+          href: ca5394.md
+        - name: "CA5395: Miss HttpVerb attribute for action methods"
+          href: ca5395.md
+        - name: "CA5396: Set HttpOnly to true for HttpCookie"
+          href: ca5396.md
         - name: "CA5397: Do not use deprecated SslProtocols values"
           href: ca5397.md
         - name: "CA5398: Avoid hardcoded SslProtocols values"
           href: ca5398.md
+        - name: "CA5399: Definitely disable HttpClient certificate revocation list check"
+          href: ca5399.md
+        - name: "CA5400: Ensure HttpClient certificate revocation list check is not disabled"
+          href: ca5400.md
+        - name: "CA5401: Do not use CreateEncryptor with non-default IV"
+          href: ca5401.md
+        - name: "CA5402: Use CreateEncryptor with the default IV"
+          href: ca5402.md
         - name: "CA5403: Do not hard-code certificate"
           href: ca5403.md
       - name: Usage warnings
@@ -846,5 +933,13 @@
           href: ca2242.md
         - name: "CA2243: Attribute string literals should parse correctly"
           href: ca2243.md
+        - name: "CA2244: Do not duplicate indexed element initializations"
+          href: ca2244.md
+        - name: "CA2245: Do not assign a property to itself"
+          href: ca2245.md
+        - name: "CA2246: Do not assign a symbol and its member in the same statement"
+          href: ca2246.md
+        - name: "CA2248: Provide correct enum argument to Enum.HasFlag"
+          href: ca2248.md
       - name: Automatic feature suspension
         href: automatic-feature-suspension.md

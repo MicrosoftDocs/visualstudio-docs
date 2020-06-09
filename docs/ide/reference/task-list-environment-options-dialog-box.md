@@ -58,4 +58,4 @@ Click to make changes to an existing token using the values entered in the **Nam
 ## See also
 
 - [Use the Task List](../../ide/using-the-task-list.md)
-- [Sett Bookmarks in Code](../../ide/setting-bookmarks-in-code.md)
+- [Set Bookmarks in Code](../../ide/setting-bookmarks-in-code.md)

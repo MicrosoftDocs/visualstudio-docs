@@ -30,4 +30,4 @@ The code analysis tool in Visual Studio examines your code for a set of common d
 |||
 |-|-|
 |[Code analysis in the MSDN Library](https://msdn.microsoft.com/library/dd264897.aspx)|Find more information about using code analysis in Visual Studio Ultimate, Visual Studio Premium, and Visual Studio Professional.|
-|[MSDN code analysis team blog](https://blogs.msdn.com/codeanalysis/)|Find more information, including technical papers and samples on the code analysis team blog.|
+|[MSDN code analysis team blog](https://blogs.msdn.com/b/codeanalysis/)|Find more information, including technical papers and samples on the code analysis team blog.|
