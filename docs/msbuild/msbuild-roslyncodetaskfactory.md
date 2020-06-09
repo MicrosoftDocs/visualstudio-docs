@@ -255,7 +255,7 @@ These inline tasks can combine paths and get the file name.
 
 ## Provide backward compatibility
 
-`RoslynCodeTaskFactory` first became available in MSBuild version 15.8. Suppose you have a situation where you want to support previous versions of Visual Studio and MSBuild, when `RoslynCodeTaskFactory` was not available, but `CodeTaskFactory` was. You can use a `Choose` construct that uses the `$(MSBuildVersion)` property to decide whether to use the `RoslynCodeTaskFactory`, as in the following example:
+`RoslynCodeTaskFactory` first became available in MSBuild version 15.8. Suppose you have a situation where you want to support previous versions of Visual Studio and MSBuild, when `RoslynCodeTaskFactory` was not available, but `CodeTaskFactory` was, but you want to use the same build script. You can use a `Choose` construct that uses the `$(MSBuildVersion)` property to decide at build time whether to use the `RoslynCodeTaskFactory` or fall back to `CodeTaskFactory`, as in the following example:
 
 ```xml
 <Project Sdk="Microsoft.NET.Sdk">
