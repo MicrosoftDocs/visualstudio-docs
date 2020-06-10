@@ -80,6 +80,8 @@ You specify the type to visualize (the debuggee-side object source) by using the
    <TargetFrameworks>net20;netstandard2.0;netcoreapp2.0</TargetFrameworks>
    ```
 
+   These are the only supported TFMs.
+
 ## See also
 
 - [Walkthrough: Write a visualizer in C#](../debugger/walkthrough-writing-a-visualizer-in-csharp.md)
