@@ -37,6 +37,11 @@ ms.workload:
 |![Map Symbol](../ide/media/vxmap_icon.gif)|Map|![Error Exclamation Point Symbol](../ide/media/vxerror_icon.gif)|Unknown|
 |![Type Forwarding Symbol](../ide/media/ob_type_forward.gif)|Type Forwarding|||
 
+> [!NOTE]
+> To best view the icons on this page, make sure that your Microsoft Docs theme is set to **Light**. You can toggle this theme from the control that's located at the bottom left of the page, as shown in the following screenshot:
+>
+> ![Docs theme](../ide/media/toggle-docs-color-theme.png "Toggle the color theme for Microsoft Docs pages")
+
 ## Signal icons
 
 The following signal icons apply to all the previous icons and indicate their accessibility.
