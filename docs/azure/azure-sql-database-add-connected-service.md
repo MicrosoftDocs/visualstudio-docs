@@ -8,6 +8,7 @@ ms.workload: azure-vs
 ms.topic: conceptual
 ms.date: 06/10/2020
 ms.author: angelpe
+monikerRange: ">= vs-2019"
 ---
 # Add a connection to Azure SQL Database
 
