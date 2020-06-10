@@ -14,7 +14,7 @@ ms.workload:
   - "multiple"
 ---
 # CompilandDetails
-Compiland information is split between symbols with a `SymTagCompiland` tag (low detail) and a `SymTagCompilandDetails` tag (high detail). `SymTagCompilandDetails` requires loading additional symbols. However, it provides a wealth of information about the compiland that is not available with a `SymTagCompiland` symbol.
+Compiland information is split between symbols with a `SymTagCompiland` tag (low detail) and a `SymTagCompilandDetails` tag (high detail). `SymTagCompilandDetails` provides a wealth of information about the compiland that is not available with a `SymTagCompiland` symbol.
 
 ## Properties
  The following table shows the properties that are valid for this symbol type.
