@@ -68,6 +68,10 @@ landingContent:
 
   - title: Connected Services
     linkLists:
+    - linkListType: overview
+      links:
+        - text: Overview
+          href: connected-services-overview.md
     - linkListType: tutorial
       links:
         - text: Azure Active Directory
@@ -75,7 +79,7 @@ landingContent:
         - text: Azure Cache for Redis
           url: azure-cache-for-redis-add-connected-service.md
         - text: Azure CosmosDB
-          url: cosmosdb-add-connected-service.md
+          url: azure-cosmosdb-add-connected-service.md
         - text: Azure Key Vault
           url: /azure/key-vault/vs-key-vault-add-connected-service
         - text: Azure SignalR

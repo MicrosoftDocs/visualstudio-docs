@@ -17,6 +17,8 @@
 - name: Connect to Azure services
   expanded: false
   items:
+  - name: Overview
+    href: connected-services-overview.md
   - name: Add Azure Active Directory (AD)
     href: /azure/active-directory/develop/vs-active-directory-add-connected-service?toc=/visualstudio/azure/toc.json&bc=/visualstudio/azure/breadcrumb/toc.json
   - name: Add Azure App Insights
@@ -24,7 +26,7 @@
   - name: Add Azure Cache for Redis
     href: azure-cache-for-redis-add-connected-service.md
   - name: Add Azure CosmosDB
-    href: cosmosdb-add-connected-service.md
+    href: azure-cosmosdb-add-connected-service.md
   - name: Add Azure Key Vault
     href: /azure/key-vault/vs-key-vault-add-connected-service?toc=/visualstudio/azure/toc.json&bc=/visualstudio/azure/breadcrumb/toc.json
   - name: Add Azure SignalR
