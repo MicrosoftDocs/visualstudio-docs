@@ -89,21 +89,21 @@ To measure performance data from the command line, you can use VSDiagnostics.exe
 
 1. Open a command prompt, and change to the directory with VSDiagnostics.exe:
 
-```
-**Visual Studio Install Folder**\Team Tools\DiagnosticsHub\Collector\
-```
+   ```
+   **Visual Studio Install Folder**\Team Tools\DiagnosticsHub\Collector\
+   ```
 
 2. Start VSDiagnostics.exe with the following command:
 
-```
-VSDiagnostics.exe start **id** /launch:**appToLaunch** /loadConfig:**configFile**
-```
+   ```
+   VSDiagnostics.exe start **id** /launch:**appToLaunch** /loadConfig:**configFile**
+   ```
 
-You must include the following arguments:
+   You must include the following arguments:
 
-- **id**: Identifies the collection session. The ID must be a number between 1-255.
-- **appToLaunch**: The executable file to launch and profile.
-- **configFile**: The configuration file for the collection agent you want to launch.
+   - **id**: Identifies the collection session. The ID must be a number between 1-255.
+   - **appToLaunch**: The executable file to launch and profile.
+   - **configFile**: The configuration file for the collection agent you want to launch.
 
 3. To stop collection and view your results, follow the steps in the "Stop collection" section later in this article.
 
@@ -112,21 +112,21 @@ You must include the following arguments:
 1. Open an application, such as Notepad, and then open **Task Manager** to get its process ID (PID). In Task Manager, find the PID in the **Details** tab.
 2. Open a command prompt, and change to the directory with the collection agent executable. Typically, it's here:
 
-```
-**Visual Studio installation folder**\2019\Preview\Team Tools\DiagnosticsHub\Collector\
-```
+   ```
+   **Visual Studio installation folder**\2019\Preview\Team Tools\DiagnosticsHub\Collector\
+   ```
 
 3. Start the VSDiagnostics.exe file by typing the following command.
 
-```
-VSDiagnostics.exe start **id** /attach:**pid** /loadConfig:**configFile**
-```
+   ```
+   VSDiagnostics.exe start **id** /attach:**pid** /loadConfig:**configFile**
+   ```
 
-You must include the following arguments:
+   You must include the following arguments:
 
-- **id**: Identifies the collection session. The ID must be a number between 1-255.
-- **pid**: The PID of the process you want to profile, which in this case is the PID you found in step 1.
-- **configFile**: The configuration file for the collection agent you want to launch. For more information, see [Configuration files for agents](../profiling/profile-apps-from-command-line.md).
+   - **id**: Identifies the collection session. The ID must be a number between 1-255.
+   - **pid**: The PID of the process you want to profile, which in this case is the PID you found in step 1.
+   - **configFile**: The configuration file for the collection agent you want to launch. For more information, see [Configuration files for agents](../profiling/profile-apps-from-command-line.md).
 
 4. To stop collection and view your results, follow the steps in the next section.
 
@@ -134,9 +134,9 @@ You must include the following arguments:
 
 1. Stop the collection session, and send output to a file, by typing the following command.
 
-```
-VSDiagnostics.exe stop <id> /output:<path to file>
-```
+   ```
+   VSDiagnostics.exe stop <id> /output:<path to file>
+   ```
 
 2. Go to the file output from the previous command, and open it in Visual Studio to examine the information collected.
 
