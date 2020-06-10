@@ -71,7 +71,7 @@ landingContent:
     - linkListType: overview
       links:
         - text: Overview
-          href: connected-services-overview.md
+          url: connected-services-overview.md
     - linkListType: tutorial
       links:
         - text: Azure Active Directory
