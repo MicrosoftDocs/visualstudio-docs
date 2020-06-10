@@ -31,11 +31,7 @@ This refactoring applies to:
    
 3. Next, select from one of the following:
 
-- Select **Create and initialize field**:
-
-   ![Generate private field from constructor](media/generate-private-field-from-constructor.png)
-
-- Select **Create and initialize property**:
+- **Create and initialize field** or **Create and initialize property**.
 
    ![Generate private field from constructor](media/generate-private-field-from-constructor.png)
 
