@@ -87,13 +87,13 @@ To measure performance data from the command line, you can use VSDiagnostics.exe
 
 ### Launch an application
 
-1. Open a command prompt, and change to the directory with the VSDiagnostics.exe file:
+1. Open a command prompt, and change to the directory with VSDiagnostics.exe:
 
 ```
 **Visual Studio Install Folder**\Team Tools\DiagnosticsHub\Collector\
 ```
 
-2. Start the VSDiagnostics.exe file with the following command:
+2. Start VSDiagnostics.exe with the following command:
 
 ```
 VSDiagnostics.exe start **id** /launch:**appToLaunch** /loadConfig:**configFile**
