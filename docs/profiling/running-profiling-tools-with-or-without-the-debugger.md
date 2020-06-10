@@ -83,7 +83,7 @@ You can save the reports, and open them from the **Recently Opened Sessions** li
 
 ## Collect profiling data from the command line
 
-To measure performance data from the command line, you can use the VSDiagnostics.exe file, which is included with either Visual Studio or the Remote Tools. This is useful for capturing performance traces on systems where Visual Studio isn't installed, or for scripting the collection of performance traces. When you use the VSDiagnostics.exe file, you begin a diagnostic session that captures and stores profiling data until the tool is stopped. At that point, that data is exported into a .diagsession file, and you can open this file in Visual Studio to analyze results.
+To measure performance data from the command line, you can use VSDiagnostics.exe, which is included with either Visual Studio or the Remote Tools. This is useful for capturing performance traces on systems where Visual Studio isn't installed, or for scripting the collection of performance traces. When you use VSDiagnostics.exe, you begin a diagnostic session that captures and stores profiling data until the tool is stopped. At that point, that data is exported into a .diagsession file, and you can open this file in Visual Studio to analyze results.
 
 ### Launch an application
 
