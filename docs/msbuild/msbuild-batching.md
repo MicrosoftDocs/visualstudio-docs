@@ -114,7 +114,7 @@ Target DemoParallelBatches:
   Things: 2 is red; needed change=true;1 is red; needed change=
 ```
 
-The `ItemGroup` in the target is implicitly a task, and with the `%(Color)` in the `Condition` attribute, task batching is performed. There are two batches: one for red and the other for blue. The property `%(NeededColorChange)` is only set if the `%(Color)` metadata is blue, and the setting only affects the individual item that matched the condition when the blue batch was run. The `Message` task's `Text` attribute does not trigger batching, despite the `%(<ItemMetadataName>)` syntax.
+The `ItemGroup` in the target is implicitly a task, and with the `%(Color)` in the `Condition` attribute, task batching is performed. There are two batches: one for red and the other for blue. The property `%(NeededColorChange)` is only set if the `%(Color)` metadata is blue, and the setting only affects the individual item that matched the condition when the blue batch was run. The `Message` task's `Text` attribute does not trigger batching, despite the `%(<ItemMetadataName>)` syntax, because it is used inside an item transform.
 
 Although batches run logically in parallel, it's important to consider the difference between target batching and task batching and know which type applies to your situation. Consider the following example to understand better the importance of this distinction.
 
