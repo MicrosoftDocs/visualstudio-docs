@@ -20,7 +20,7 @@ MSBuild divides item lists into different categories, or batches, based on item 
 
 Task batching allows you to simplify your project files by providing a way to divide item lists into different batches and pass each of those batches into a task separately. This means that a project file only needs to have the task and its attributes declared once, even though it can be run several times.
 
-You specify that you want MSBuild to perform batching with a task by using the %(ItemMetaDataName) notation in one of the task attributes. The following example splits the `Example` item list into batches based on the `Color` item metadata value, and passes each of the batches to the `MyTask` task separately.
+You specify that you want MSBuild to perform batching with a task by using the `%(ItemMetaDataName)` notation in one of the task attributes. The following example splits the `Example` item list into batches based on the `Color` item metadata value, and passes each of the batches to the `MyTask` task separately.
 
 > [!NOTE]
 > If you do not reference the item list elsewhere in the task attributes, or the metadata name may be ambiguous, you can use the %(<ItemCollection.ItemMetaDataName>) notation to fully qualify the item metadata value to use for batching.
@@ -53,7 +53,7 @@ For more specific batching examples, see [Item metadata in task batching](../msb
 
 MSBuild checks if the inputs and outputs of a target are up to date before it runs the target. If both inputs and outputs are up to date, the target is skipped. If a task inside of a target uses batching, MSBuild needs to determine if the inputs and outputs for each batch of items is up to date. Otherwise, the target is executed every time it's hit.
 
-The following example shows a `Target` element that contains an `Outputs` attribute with the %(ItemMetadataName) notation. MSBuild will divide the `Example` item list into batches based on the `Color` item metadata, and analyze the timestamps of the output files for each batch. If the outputs from a batch aren't up to date, the target is run. Otherwise, the target is skipped.
+The following example shows a `Target` element that contains an `Outputs` attribute with the `%(ItemMetadataName)` notation. MSBuild will divide the `Example` item list into batches based on the `Color` item metadata, and analyze the timestamps of the output files for each batch. If the outputs from a batch aren't up to date, the target is run. Otherwise, the target is skipped.
 
 ```xml
 <Project
