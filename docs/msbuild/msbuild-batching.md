@@ -85,7 +85,7 @@ For another example of target batching, see [Item metadata in target batching](.
 
 This section describes how to understand the effects of changing properties and/or item metadata, when using target batching or task batching.
 
-Because target batching and task batching are two different MSBuild operations, it is important to understand exactly which form of batching MSBuild uses in each case. When the batching syntax `%(<ItemMetaDataName>)` appears in a task in a target, but not in the `Outputs` attribute on the Target, then MSBuild uses task batching. The only way to specify target batching is by using the batching syntax on a Target attribute, usually the `Outputs` attribute.
+Because target batching and task batching are two different MSBuild operations, it is important to understand exactly which form of batching MSBuild uses in each case. When the batching syntax `%(<ItemMetaDataName>)` appears in a task in a target, but not in an attribute on the Target, then MSBuild uses task batching. The only way to specify target batching is by using the batching syntax on a Target attribute, usually the `Outputs` attribute.
 
 With both target batching and task batching, batches can be considered to run independently. All batches begin with a copy of the same initial state of property and item metadata values. Any mutations of property values during batch execution is not visible to other batches. Consider the following example:
 
@@ -116,19 +116,21 @@ Target DemoIndependentBatches:
 
 The `ItemGroup` in the target is implicitly a task, and with the `%(Color)` in the `Condition` attribute, task batching is performed. There are two batches: one for red and the other for blue. The property `%(NeededColorChange)` is only set if the `%(Color)` metadata is blue, and the setting only affects the individual item that matched the condition when the blue batch was run. The `Message` task's `Text` attribute does not trigger batching, despite the `%(<ItemMetadataName>)` syntax, because it is used inside an item transform.
 
-Batches run independently, but not in parallel. That makes a difference when you access metadata values that change in the batched execution. In the case where you seta property based on some metadata in the batched execution, the property would take the *last* value set.
+Batches run independently, but not in parallel. That makes a difference when you access metadata values that change in the batched execution. In the case where you set a property based on some metadata in the batched execution, the property would take the *last* value set:
 
 ```xml
    <PropertyGroup>
-       <SomeProperty>%(SomeItem.Value)</SomeProperty>
+       <SomeProperty>%(SomeItem.MetadataValue)</SomeProperty>
    </PropertyGroup>
 ```
 
+After batch execution, the property retains the final value of `%(MetadataValue)`.
+
 Although batches run independently, it's important to consider the difference between target batching and task batching and know which type applies to your situation. Consider the following example to understand better the importance of this distinction.
 
-Tasks can be implicit, rather than explicit, which can be confusing when task batching occurs with implicit tasks. When a `PropertyGroup` or `ItemGroup` element appears in a `Target`, each property declaration in the group is implicitly treated somewhat like a separate [CreateProperty](createproperty-task.md) or [CreateItem](createitem-task.md) task. This means that the behavior is different when the target is batched, versus when the target is not batched (that is, when it lacks the `%(<ItemMetadataName>)` syntax in the `Outputs` attribute). When the target is batched, the `ItemGroup` executes once per target, but when the target is not batched, the implicit equivalents of the `CreateItem` or `CreateProperty` tasks are batched using task batching, so the target only executes once, but for each item or property in the group, it is batched separately.
+Tasks can be implicit, rather than explicit, which can be confusing when task batching occurs with implicit tasks. When a `PropertyGroup` or `ItemGroup` element appears in a `Target`, each property declaration in the group is implicitly treated somewhat like a separate [CreateProperty](createproperty-task.md) or [CreateItem](createitem-task.md) task. This means that the behavior is different when the target is batched, versus when the target is not batched (that is, when it lacks the `%(<ItemMetadataName>)` syntax in the `Outputs` attribute). When the target is batched, the `ItemGroup` executes once per target, but when the target is not batched, the implicit equivalents of the `CreateItem` or `CreateProperty` tasks are batched using task batching, so the target only executes once, and each item or property in the group is batched separately using task batching.
 
-The following example illustrates target batching vs task batching in the case where metadata is mutated. Consider a situation where you have folders A and B with some files:
+The following example illustrates target batching vs. task batching in the case where metadata is mutated. Consider a situation where you have folders A and B with some files:
 
 ```
 A\1.stub
