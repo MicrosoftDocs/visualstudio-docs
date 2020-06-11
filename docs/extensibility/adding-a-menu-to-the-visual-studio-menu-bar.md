@@ -22,8 +22,10 @@ Menus are declared in the *.vsct* file of the project. For more information abou
 
 By completing this walkthrough, you can create a menu named **TestMenu** that contains one command.
 
+:::moniker range=">=vs-2019"
 > [!NOTE]
-> In VS 2019, top level menus contributed by extensions are placed under the **Extensions** menu.
+> Starting in Visual Studio 2019, top level menus contributed by extensions are placed under the **Extensions** menu.
+:::moniker-end
 
 ## Prerequisites
 
