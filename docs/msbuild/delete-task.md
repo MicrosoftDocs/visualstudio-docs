@@ -68,27 +68,27 @@ If you need to track the deleted files, set `TaskParameter` to `DeletedFiles` wi
     </Target>
 ```
 
-Instead of directly using wildcards in the `Delete` task, create an `ItemGroup` of files to delete and run the `Delete` task on that. But, be sure to place the `ItemGroup` carefully. If you put an `ItemGroup` at the top level in a project file, it gets evaluated early on, before the build starts, so you can't include any files that were built as part of the build process. So, put the `ItemGroup` that creates the list of items to delete in a target close to the delete task. You could also put a condition on the ItemGroup to check that the property is not empty, so that you won't create an item list with a path that starts at the root of the drive.
+Instead of directly using wildcards in the `Delete` task, create an `ItemGroup` of files to delete and run the `Delete` task on that. But, be sure to place the `ItemGroup` carefully. If you put an `ItemGroup` at the top level in a project file, it gets evaluated early on, before the build starts, so you can't include any files that were built as part of the build process. So, put the `ItemGroup` that creates the list of items to delete in a target close to the delete task. You could also put a condition to check that the property is not empty, so that you won't create an item list with a path that starts at the root of the drive.
 
 The `Delete` task is intended for deleting files. If you want to delete a directory, use [RemoveDir](removedir-task.md). Using them both together, the following example shows how to safely delete a folder and all its contents.
 
 ```xml
 <Target Name="DeleteMyFiles" AfterTargets="Build">
-   <ItemGroup Condition="'$(TmpDir)' != ''" >
+   <ItemGroup>
      <DeleteItems Include="$(TmpDir)/**/*"/>
    </ItemGroup>
-   <Delete Files="@(DeleteItems)" />
-   <RemoveDir Directories="$(TmpDir)/**"/>
+   <Delete Condition="'$(TmpDir)' != ''" Files="@(DeleteItems)" />
+   <RemoveDir Condition="'$(TmpDir)' != ''" Directories="$(TmpDir)/**"/>
 </Target>
 ```
 
-The `Delete` task doesn't provide an option to delete read-only files. To delete read-only files, you can use the `Exec` task to run the `del` command or equivalent, with the appropriate option to enable deleting read-ony files.
+The `Delete` task doesn't provide an option to delete read-only files. To delete read-only files, you can use the `Exec` task to run the `del` command or equivalent, with the appropriate option to enable deleting read-only files.
 
 ```xml
 <ItemGroup>
     <FileToDelete Include="$(TmpDir)\**\*.*"/>
 </ItemGroup>
-<Exec Command="del /F /Q &quot;@(FileToDelete)&quot;"/>
+<Exec Condition="$(TmpDir) != ''" Command="del /F /Q &quot;@(FileToDelete)&quot;"/>
 ```
 
 In general, when writing build scripts, consider whether your deletion is logically part of a `Clean` operation. If you need to set some files to be cleaned as part of a normal `Clean` operation, you can add them to the `@(FileWrites)` list and they will be deleted on the next `Clean`. If more custom processing is needed, define a target and specify for it to run by setting the attribute `BeforeTargets="Clean"` or `AfterTargets="Clean"`, or define your custom version of the `BeforeClean` or `AfterClean` targets. See [Customize your build](customize-your-build.md).
