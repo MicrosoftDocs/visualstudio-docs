@@ -1,6 +1,6 @@
 ---
 title: Delete Task | Microsoft Docs
-ms.date: 11/04/2016
+ms.date: 06/11/2020
 ms.topic: reference
 f1_keywords:
 - http://schemas.microsoft.com/developer/msbuild/2003#Delete
@@ -57,7 +57,33 @@ The following example deletes the file *MyApp.pdb*.
 </Project>
 ```
 
+If you need to track the deleted files, set `TaskParameter` to `DeletedFiles` in an output element with the item name that will take the item list, as follows:
+
+```xml
+    <Target Name="DeleteFiles">
+        <Delete Files="$(AppName).pdb" >
+              <Output TaskParameter="DeletedFiles" ItemName="DeletedList"/>
+        <Delete>
+        <Message Text="Deleted files: '@(DeletedList)'">
+    </Target>
+```
+
+Instead of directly using wildcards in the `Delete` task, create an `ItemGroup` of files to delete and run the `Delete` task on that. But, be sure to place the `ItemGroup` carefully. If you put an `ItemGroup` at the top level in a project file, it gets evaluated early on, before the build starts, so you can't include any files that were built as part of the build process. So, put the `ItemGroup` that creates the list of items to delete in a target close to the delete task. You could also put a condition on the ItemGroup to check that the property is not empty, so that you won't create an item list with a path that starts at the root of the drive.
+
+The `Delete` task is intended for deleting files. If you want to delete a directory, use [RemoveDir](removedir-task.md). The following example shows how to safely delete a temporary folder and all its contents.
+
+```xml
+<Target Name="DeleteMyFiles" AfterTargets="Build">
+   <ItemGroup Condition="'$(TmpDir)' != ''" >
+     <DeleteItems Include="$(TmpDir)/**/*"/>
+   </ItemGroup>
+   <Delete Files="@(DeleteItems)" />
+   <RemoveDir Directories="$(TmpDir)/**/*"/>
+</Target>
+```
+
 ## See also
 
+- [RemoveDir task](removedir-task.md)
 - [Tasks](../msbuild/msbuild-tasks.md)
 - [Task reference](../msbuild/msbuild-task-reference.md)
