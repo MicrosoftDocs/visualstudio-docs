@@ -1,6 +1,6 @@
 ---
 title: "How to: Install a Visualizer | Microsoft Docs"
-ms.date: "11/04/2016"
+ms.date: "06/10/2020"
 ms.topic: "conceptual"
 dev_langs:
   - "CSharp"
@@ -47,6 +47,8 @@ After you have created a visualizer, you must install the visualizer so that it 
     - `net2.0` for debuggees running the `.NET Framework` runtime.
     - `netstandard2.0` for debuggees using a runtime that supports `netstandard 2.0` (`.NET Framework v4.6.1+` or `.NET Core 2.0+`).
     - `netcoreapp` for debuggees running the `.NET Core` runtime. (supports `.NET Core 2.0+`)
+
+    If you are multi-targeting the debuggee-side code, the debuggee-side DLL must be placed into the folder for minimum-supported TFM.
 
 4. Restart the debugging session.
 
