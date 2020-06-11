@@ -28,7 +28,7 @@ After running the tool, you can see the function execution paths where objects a
 
 1. Select the **Start** button to run the tool.
 
-1. After the tool starts running, go through the profiled scenario in your app. Then select **Stop collection** or close your app to see your data.
+1. After the tool starts running, go through the scenario you want to profile in your app. Then select **Stop collection** or close your app to see your data.
 
    ![A window showing Stop collection](../profiling/media/stopcollectionlighttheme.png "A window showing Stop collection")
 

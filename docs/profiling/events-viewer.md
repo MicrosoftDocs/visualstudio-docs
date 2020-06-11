@@ -25,7 +25,7 @@ The generic events viewer shows app activity through a list of events like modul
 
 1. Select the **Start** button to run the tool.
 
-1. After the tool starts running, go through the profiled scenario in your app. Then select **Stop collection** or close your app to see your data.
+1. After the tool starts running, go through the scenario to profile in your app. Then select **Stop collection** or close your app to see your data.
 
    ![A window showing Stop collection](../profiling/media/stopcollectioneventsviewer.png "A window showing Stop collection")
 
@@ -61,7 +61,7 @@ All columns except for the **Text** column are sortable.
 
 ![The event viewer trace](../profiling/media/eventviewertrace.png "The event viewer trace")
 
-The event viewer displays up to 2,000 events at a time. To focus on the events of interest, you can filter the display of events by selecting the event filter. You can also see what percentage of the total number of events occurred for each provider. Hover over a single event filter to see a tooltip that shows the:
+The event viewer displays up to 20,000 events at a time. To focus on the events of interest, you can filter the display of events by selecting the event filter. You can also see what percentage of the total number of events occurred for each provider. Hover over a single event filter to see a tooltip that shows the:
 
 - Event name
 - Provider

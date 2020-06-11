@@ -28,7 +28,7 @@ Use the .NET Async tool to analyze the performance of asynchronous code in your 
 
 1. Click the **Start** button to run the tool.
 
-1. After the tool starts running, go through the profiled scenario in your app. Then select **Stop collection** or close your app to see your data.
+1. After the tool starts running, go through the scenario you want to profile in your app. Then select **Stop collection** or close your app to see your data.
 
 1. After collection stops, you see a table of the activities that happened during your profiling session.
 

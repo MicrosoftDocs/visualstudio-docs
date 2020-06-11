@@ -26,13 +26,13 @@ Use the Database tool to record the database queries that your app makes during 
    ![Database tool selected](./media/db-launch.png "Database tool selected")
 
    > [!NOTE]
-   > If the tool isn't available for selection, clear every other tool's check box because some tools need to run alone. To learn more about running tools together, see "Running tools from CLI"
+   > If the tool isn't available for selection, clear every other tool's check box because some tools need to run alone. To learn more about running tools together, see [Using profiling tools from the command line](../profiling/using-the-profiling-tools-from-the-command-line.md).
    >
    > If the tool still isn't available, check that your project meets the preceding requirements. Make sure your project is in Release mode to capture the most accurate data.
 
 1. Select the **Start** button to run the tool.
 
-1. After the tool starts running, go through the profiled scenario in your app. Then select **Stop collection** or close your app to see your data.
+1. After the tool starts running, go through the scenario you want to profile in your app. Then select **Stop collection** or close your app to see your data.
 
 1. After collection stops, you see a table of the queries that ran during your profiling session.
 

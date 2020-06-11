@@ -135,7 +135,7 @@ Tier-interaction profiling adds information to a profiling data file about synch
 
 ![Tier-interaction profiling dataflow](../profiling/media/tierinteraction_profilingtools.png "Tier-interaction profiling dataflow")
 
-Tier-interaction data that is collected by profiling tools
+For information on tier-interaction data that is collected by profiling tools, see the following articles.
 
 [Collect tier-interaction data](../profiling/collecting-tier-interaction-data.md)
 
