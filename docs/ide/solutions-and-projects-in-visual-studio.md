@@ -70,6 +70,9 @@ Many menu commands are available from the right-click menu on various items in *
 
 For ASP.NET Core projects, you can customize how files are nested in **Solution Explorer**. For more information, see [Customize file nesting in Solution Explorer](file-nesting-solution-explorer.md).
 
+> [!TIP]
+> To view a list of some of the icons that appear in Solution Explorer, see the [Class View and Object Browser icons](class-view-and-object-browser-icons.md) page.
+
 ## See also
 
 - [Visual Studio IDE](../get-started/visual-studio-ide.md)
