@@ -27,7 +27,11 @@ In the 16.6 release, we added new capabilities to Visual Studio 2019 that stream
 > [!WARNING]
 > Not using this workflow could trigger a degraded experience resulting in multiple additional authentication prompts when adding or reauthenticating Visual Studio accounts. 
 
-### Enabling system web browser  
+### Enabling system web browser
+
+> [!NOTE] 
+> For the best experience, we recommend that you clear your system’s default web browser data before proceeding with this workflow. Additionally, if you have Work or School accounts in your Windows 10 Settings under **Access work or school**, please verify that they are properly authenticated.
+
 To enable this workflow, go to Visual Studio's Options dialog **(Tools > Options…)**, select the **Accounts** tab and pick **System web browser** under the **Add and reauthenticate accounts using:** dropdown. 
 
 :::image type="content" source="media/select-system-web-browser.png" alt-text="Select system web browser from the menu.":::
