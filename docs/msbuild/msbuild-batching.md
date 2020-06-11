@@ -114,7 +114,7 @@ Target DemoIndependentBatches:
   Things: 2 is red; needed change=true;1 is red; needed change=
 ```
 
-The `ItemGroup` in the target is implicitly a task, and with the `%(Color)` in the `Condition` attribute, task batching is performed. There are two batches: one for red and the other for blue. The property `%(NeededColorChange)` is only set if the `%(Color)` metadata is blue, and the setting only affects the individual item that matched the condition when the blue batch was run. The `Message` task's `Text` attribute does not trigger batching, despite the `%(<ItemMetadataName>)` syntax.
+The `ItemGroup` in the target is implicitly a task, and with the `%(Color)` in the `Condition` attribute, task batching is performed. There are two batches: one for red and the other for blue. The property `%(NeededColorChange)` is only set if the `%(Color)` metadata is blue, and the setting only affects the individual item that matched the condition when the blue batch was run. The `Message` task's `Text` attribute does not trigger batching, despite the `%(<ItemMetadataName>)` syntax, because it is used inside an item transform.
 
 Batches run independently, but not in parallel. That makes a difference when you access metadata values that change in the batched execution. In the case where you seta property based on some metadata in the batched execution, the property would take the *last* value set.
 
