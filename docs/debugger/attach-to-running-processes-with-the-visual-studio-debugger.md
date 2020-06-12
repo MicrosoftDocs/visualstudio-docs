@@ -287,7 +287,7 @@ In some local debugging scenarios, you can debug in Visual Studio with no access
 
 ## <a name="BKMK_Troubleshoot_attach_errors"></a> Troubleshoot attach errors
 
-In some scenarios, the debugger may fail to automatically detect the code type correctly. You can assist the debugger by selecting the most appropriate connection type in the **Connection type** list. If you are using the Default connection type, then you can select the specific type of code to connect to, as described later in this section.
+In some scenarios, the debugger may fail to automatically detect the code type correctly. You can assist the debugger by selecting the most appropriate connection type in the **Connection type** list, which may be required,for example, if you are debugging a Linux or Python app. If you are using the Default connection type, then you can select the specific type of code to connect to, as described later in this section.
 
 When the debugger attaches to a running process, the process can contain one or more types of code. The code types the debugger can attach to are displayed and selected in the [Select Code Type](../debugger/select-code-type-dialog-box.md) dialog box.
 
