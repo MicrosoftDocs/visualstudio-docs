@@ -1,7 +1,7 @@
 ---
 title: "Attach to running processes with the debugger | Microsoft Docs"
 ms.custom: "seodec18"
-ms.date: "04/14/2020"
+ms.date: "06/12/2020"
 ms.topic: "conceptual"
 f1_keywords:
   - "vs.debug.processes.attach"
@@ -69,6 +69,7 @@ To debug a .NET Core process on a Linux Docker container, see [Attach to a Linux
    To select code types manually:
    1. Click **Select**.
    1. In the **Select Code Type** dialog box, select **Debug these code types**.
+      You can use the [Select Code Type](../debugger/select-code-type-dialog-box.md) dialog box to help [troubleshoot issues](#BKMK_Troubleshoot_attach_errors) that involve a failure to attach the debugger.
    1. Select the code types you want to debug.
    1. Select **OK**.
 
@@ -133,6 +134,7 @@ For more complete instructions for debugging ASP.NET applications that have been
    To select code types manually:
    1. Click **Select**.
    1. In the **Select Code Type** dialog box, select **Debug these code types**.
+      You can use the [Select Code Type](../debugger/select-code-type-dialog-box.md) dialog box to help [troubleshoot issues](#BKMK_Troubleshoot_attach_errors) that involve a failure to attach the debugger.
    1. Select the code types you want to debug.
    1. Select **OK**.
 
@@ -273,7 +275,7 @@ For remote debugging scenarios, you must have the source code (or a copy of the 
 In some local debugging scenarios, you can debug in Visual Studio with no access to the source if the correct symbol files are present with the app. By default, this requires a debug build. For more information, see [Specify symbol and source files](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md).
 
 ## <a name="BKMK_Troubleshoot_attach_errors"></a> Troubleshoot attach errors
- When the debugger attaches to a running process, the process can contain one or more types of code. The code types the debugger can attach to are displayed and selected in the **Select Code Type** dialog box.
+ When the debugger attaches to a running process, the process can contain one or more types of code. The code types the debugger can attach to are displayed and selected in the [Select Code Type](../debugger/select-code-type-dialog-box.md) dialog box.
 
  Sometimes, the debugger can successfully attach to one code type, but not to another code type. This might occur if you are trying to attach to a process that is running on a remote computer. The remote computer might have remote debugging components installed for some code types but not for others. It can also occur if you try to attach to two or more processes for direct database debugging. SQL debugging supports attaching to a single process only.
 
