@@ -101,7 +101,7 @@ Refer to the following articles for further discussion:
 ## See also
 
 - [Project migration and upgrade reference for Visual Studio 2019](port-migrate-and-upgrade-visual-studio-projects.md?view=vs-2019)
-- [Visual Studio product lifecycle and servicing](/visualstudio/releases/2019/servicing.md)
+- [Visual Studio product lifecycle and servicing](/visualstudio/releases/2019/servicing/)
 
 ::: moniker-end
 
@@ -195,6 +195,6 @@ Refer to the following articles for further discussion:
 ## See also
 
 - [Project migration and upgrade reference for Visual Studio 2017](/visualstudio/porting/port-migrate-and-upgrade-visual-studio-projects?view=vs-2017)
-- [Visual Studio product lifecycle and servicing](/visualstudio/releases/2019/servicing.md)
+- [Visual Studio product lifecycle and servicing](/visualstudio/releases/2019/servicing/)
 
 ::: moniker-end
