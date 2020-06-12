@@ -11,60 +11,66 @@ ms.workload:
   - "multiple"
 ---
 
-# Events Viewer
+# Events viewer
 
-The generic events viewer allows you to view the activity of your application through a list of events, such as module load, thread start, and system configurations, to help better diagnose how your application is performing right within the Visual Studio profiler.
-
+The generic events viewer shows app activity through a list of events like module load, thread start, and system configuration. This view helps you better diagnose how your app is doing within the Visual Studio profiler.
 
 ## Setup
 
-1. Open the Performance Profiler (**Alt + F2)** in Visual Studio.
-2. Select the **Events Viewer** checkbox.
+1. Select **Alt+F2** to open the performance profiler in Visual Studio.
 
-![Event Viewer Selected](../profiling/media/eventsviewerselected.png "Event Viewer Selected")
+1. Select the **Events Viewer** check box.
 
-3. Click the **Start** button to run the tool.
+   ![The Events Viewer check box selected](../profiling/media/eventsviewerselected.png "The Events Viewer check box selected")
 
-4. Once the tool starts running, go through the desired scenario in your app, then press **Stop Collection** or close your app to see your data.
+1. Select the **Start** button to run the tool.
 
-![Stop Collection](../profiling/media/stopcollectioneventsviewer.png "Stop Collection")
+1. After the tool starts running, go through the scenario to profile in your app. Then select **Stop collection** or close your app to see your data.
 
-For more information on how to make the tool more performant, see [Optimizing Profiling Settings](../profiling/optimize-profiler-settings.md).
+   ![A window showing Stop collection](../profiling/media/stopcollectioneventsviewer.png "A window showing Stop collection")
 
-## Understand Your Data
+For more information on how to make the tool more efficient, see [Optimizing Profiling settings](../profiling/optimize-profiler-settings.md).
 
-![Event Viewer Trace](../profiling/media/eventviewertrace.png "Event Viewer Trace")
+## Understand your data
 
-|Column Name|Description|
+![An event viewer trace](../profiling/media/eventviewertrace.png "An event viewer trace")
+
+|Column name|Description|
 |----------|---------------------|
-|Provider Name|Shows the event source.|
-|Event Name|Shows the event that took place as specified by the provider.|
-|Text|Provides descriptions about the provider, event name, and IDs for a given event|
-|Timestamp (ms)|Shows the time that event took place.|
-|Provider Guid|The ID of the event provider.|
-|Event ID|The ID of the event that fired.|
-|Process ID|The process from which the event was fired (if known).|
-|Process Name|Name of the process if it is actively running.|
-|Thread ID|The ID of the thread from which the event was fired (if known).|
+|Provider Name|The event source|
+|Event Name|The event as specified by its provider|
+|Text|Descriptions of the provider, event name, and ID for the event|
+|Timestamp (ms)|When the event took place|
+|Provider Guid|The ID of the event provider|
+|Event ID|The ID of the event|
+|Process ID|The process from which the event occurred (if known)|
+|Process Name|The name of the process if it's actively running|
+|Thread ID|The ID of the thread from which the event occurred (if known)|
 
-If a few of the columns are missing by default, right-click on one of the existing column headers and select the column you would like to add.
+If any column is missing by default, right-click one of the existing column headers and select the column you want to add.
 
-![Event Viewer Add Columns](../profiling/media/eventvieweraddcolumns.png "Event Viewer Add Columns")
+![Adding columns to the event viewer](../profiling/media/eventvieweraddcolumns.png "Adding columns to the event viewer")
 
-When you click on a given event the additional properties window pops up. The **Common Properties** are the list of properties that will show up for any event. The **Payload Properties** are properties specific to that event. For some events you can also view **Stacks**.
+When you select an event, the **Additional Properties** window appears. **Common Properties** shows the list of properties that will appear for any event. **Payload Properties** shows properties specific to the event. For some events, you can also view **Stacks**.
 
-![Event Viewer Stacks](../profiling/media/eventviewerstacks.png "Event Viewer Stacks")
+![The event viewer showing stacks](../profiling/media/eventviewerstacks.png "The event viewer showing stacks")
 
-## Organize Your Data
+## Organize your data
 
-All of the columns except for the text column are all sortable. 
+All columns except for the **Text** column are sortable.
 
-![Event Viewer Trace](../profiling/media/eventviewertrace.png "Event Viewer Trace")
+![The event viewer trace](../profiling/media/eventviewertrace.png "The event viewer trace")
 
-The event viewer displays up to 20,00 events at a time. To focus on the events of interest you can filter the display of events by clicking on the Event Filter. You can also see what percentage of the total number of events were fired by each provider. Hovering over a single event filter brings up a tooltip showing the event name, provider, GUID, % of total events, and event count. 
+The event viewer displays up to 20,000 events at a time. To focus on the events of interest, you can filter the display of events by selecting the event filter. You can also see what percentage of the total number of events occurred for each provider. Hover over a single event filter to see a tooltip that shows the:
 
-![Event Viewer Event Filter](../profiling/media/eventviewereventfilter.png "Event Viewer Event Filter")
+- Event name
+- Provider
+- GUID
+- Percentage of total events
+- Event count
 
-You can filter by provider using the **Provider Filter**, which shows what percentage of the total number of events were fired by each one. Hovering over a single provider also brings up a similar tooltip with provider name, % of total events, and event count.
+![The event viewer event filter](../profiling/media/eventviewereventfilter.png "The event viewer event filter")
 
-![Event Viewer Provider Filter](../profiling/media/eventviewerproviderfilter.png "Event Viewer Provider Filter")
+The provider filter shows what percentage of the total number of events occurred for each provider. Hover over a single provider to see a similar tooltip with provider name, percentage of total events, and event count.
+
+![The event viewer provider filter](../profiling/media/eventviewerproviderfilter.png "The event viewer provider filter")

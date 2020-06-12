@@ -74,6 +74,14 @@ You specify the type to visualize (the debuggee-side object source) by using the
 
 1. To let the visualizer edit as well as display data objects, override the `TransferData` or `CreateReplacementObject` methods from <xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerObjectSource>.
 
+1. If you need to support multi-targeting in your visualizer, you can use the following Target Framework Monikers (TFMs) in the debuggee-side project file.
+
+   ```xml
+   <TargetFrameworks>net20;netstandard2.0;netcoreapp2.0</TargetFrameworks>
+   ```
+
+   These are the only supported TFMs.
+
 ## See also
 
 - [Walkthrough: Write a visualizer in C#](../debugger/walkthrough-writing-a-visualizer-in-csharp.md)
