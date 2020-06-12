@@ -287,15 +287,14 @@ In some local debugging scenarios, you can debug in Visual Studio with no access
 
 ## <a name="BKMK_Troubleshoot_attach_errors"></a> Troubleshoot attach errors
 
+In some scenarios, the debugger may fail to automatically detect the code type correctly. You can assist the debugger by selecting the most appropriate connection type in the **Connection type** list. If you are using the Default connection type, then you can select the specific type of code to connect to, as described later in this section.
+
 When the debugger attaches to a running process, the process can contain one or more types of code. The code types the debugger can attach to are displayed and selected in the [Select Code Type](../debugger/select-code-type-dialog-box.md) dialog box.
 
 Sometimes, the debugger can successfully attach to one code type, but not to another code type. Typically, this occurs when:
 
 - You try to attach to a process that is running on a remote computer. The remote computer might have remote debugging components installed for some code types but not for others.
 - You try to attach to two or more processes for direct database debugging. SQL debugging supports attaching to a single process only.
-
-[!NOTE]
-> The procedure described here may also help in other scenarios in which the debugger fails to detect the code type correctly.
 
 If the debugger is able to attach to some, but not all, code types, you see a message identifying which types failed to attach.
 
