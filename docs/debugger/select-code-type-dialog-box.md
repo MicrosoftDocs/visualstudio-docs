@@ -48,7 +48,7 @@ From the list provided, choose the type(s) of code you want to debug. This can b
    - Script - Specifies the general script debugger for JavaScript. Use more restrictive options if they apply to your scenario, such as JavaScript (Chrome).
    - T-SQL - Transact-SQL
    - Unity - Unity
-   - Managed Compatibility Mode - Specifies the legacy debugger either for use in mixed-mode debugging (to support Edit and Continue scenarios) or for C++/CLR code.
+   - Managed Compatibility Mode - Specifies the legacy debugger for managed code, for use typically in mixed-mode debugging with C++/CLR code (enables Edit and Continue for mixed mode) or to support extensions that targeted the legacy debugger. In most mixed-mode debugging scenarios, select **Native** and the appropriate **Managed** code types instead of Managed Compatibility Mode.
    ::: moniker-end
 
 ## See also
