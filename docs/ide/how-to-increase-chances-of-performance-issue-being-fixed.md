@@ -80,9 +80,6 @@ If you're not sure what's causing your crashes or they seem random, then you can
 
 ```
 reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\Windows Error
-Reporting\LocalDumps\devenv.exe"
-
-reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\Windows Error
 Reporting\LocalDumps\devenv.exe" /v DumpType /t REG_DWORD /d 2
 
 reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\Windows Error
