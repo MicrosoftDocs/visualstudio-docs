@@ -42,53 +42,69 @@ In addition to the parameters listed above, this task inherits parameters from t
 
 ## Example
 
-The following example deletes the file *MyApp.pdb*.
+The following example deletes the file *MyApp.pdb* when you build the `DeleteDebugSymbolFile` target.
 
 ```xml
-<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
 
     <PropertyGroup>
-        <AppName>MyApp</AppName>
+        <AppName>ConsoleApp1</AppName>
     </PropertyGroup>
 
     <Target Name="DeleteDebugSymbolFile">
-        <Delete Files="$(AppName).pdb" />
+        <Message Text="Deleting $(OutDir)$(AppName).pdb"/>
+        <Delete Files="$(OutDir)$(AppName).pdb" />
     </Target>
+  
 </Project>
+
 ```
 
 If you need to track the deleted files, set `TaskParameter` to `DeletedFiles` with the item name, as follows:
 
 ```xml
-    <Target Name="DeleteDebugSymbolFile">
-        <Delete Files="$(AppName).pdb" >
+      <Target Name="DeleteDebugSymbolFile">
+        <Delete Files="$(OutDir)$(AppName).pdb" >
               <Output TaskParameter="DeletedFiles" ItemName="DeletedList"/>
         </Delete>
         <Message Text="Deleted files: '@(DeletedList)'"/>
     </Target>
 ```
 
-Instead of directly using wildcards in the `Delete` task, create an `ItemGroup` of files to delete and run the `Delete` task on that. But, be sure to place the `ItemGroup` carefully. If you put an `ItemGroup` at the top level in a project file, it gets evaluated early on, before the build starts, so you can't include any files that were built as part of the build process. So, put the `ItemGroup` that creates the list of items to delete in a target close to the delete task. You could also put a condition to check that the property is not empty, so that you won't create an item list with a path that starts at the root of the drive.
+Instead of directly using wildcards in the `Delete` task, create an `ItemGroup` of files to delete and run the `Delete` task on that. But, be sure to place the `ItemGroup` carefully. If you put an `ItemGroup` at the top level in a project file, it gets evaluated early on, before the build starts, so you can't include any files that were built as part of the build process. So, put the `ItemGroup` that creates the list of items to delete in a target close to the `Delete` task. You can also specify a condition to check that the property is not empty, so that you won't create an item list with a path that starts at the root of the drive.
 
 The `Delete` task is intended for deleting files. If you want to delete a directory, use [RemoveDir](removedir-task.md). Using them both together, the following example shows how to safely delete a folder and all its contents.
 
+The following target can be called to remove the `obj` folder and all its contents.
+
 ```xml
-<Target Name="DeleteMyFiles" AfterTargets="Build">
+<Target Name="DeleteTempFiles">
+    <PropertyGroup>
+        <TmpDir>$(IntermediateOutputPath)</TmpDir>
+    </PropertyGroup>
    <ItemGroup>
      <DeleteItems Include="$(TmpDir)/**/*"/>
    </ItemGroup>
+   <Message Text="Files to delete: @(DeleteItems) "/>
    <Delete Condition="'$(TmpDir)' != ''" Files="@(DeleteItems)" />
-   <RemoveDir Condition="'$(TmpDir)' != ''" Directories="$(TmpDir)/**"/>
+   <RemoveDir Condition="'$(TmpDir)' != ''" Directories="$(TmpDir)"/>
 </Target>
 ```
 
-The `Delete` task doesn't provide an option to delete read-only files. To delete read-only files, you can use the `Exec` task to run the `del` command or equivalent, with the appropriate option to enable deleting read-only files.
+The `Delete` task doesn't provide an option to delete read-only files. To delete read-only files, you can use the `Exec` task to run the `del` command or equivalent, with the appropriate option to enable deleting read-only files. You have to pay attention to the length of the input item list, since there is a length limitation on the command line, as well as making sure to handle filenames with spaces, as in this example:
 
 ```xml
-<ItemGroup>
-    <FileToDelete Include="$(TmpDir)\**\*.*"/>
-</ItemGroup>
-<Exec Condition="$(TmpDir) != ''" Command="del /F /Q &quot;@(FileToDelete)&quot;"/>
+<Target Name="DeleteReadOnly">
+  <ItemGroup>
+    <FileToDelete Include="read only file.txt"/>
+  </ItemGroup>
+  <Exec Command="del /F /Q &quot;@(FileToDelete)&quot;"/>
+</Target>
 ```
 
 In general, when writing build scripts, consider whether your deletion is logically part of a `Clean` operation. If you need to set some files to be cleaned as part of a normal `Clean` operation, you can add them to the `@(FileWrites)` list and they will be deleted on the next `Clean`. If more custom processing is needed, define a target and specify for it to run by setting the attribute `BeforeTargets="Clean"` or `AfterTargets="Clean"`, or define your custom version of the `BeforeClean` or `AfterClean` targets. See [Customize your build](customize-your-build.md).
