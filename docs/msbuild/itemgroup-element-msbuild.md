@@ -85,7 +85,7 @@ In a simple project file, you normally use a single `ItemGroup` element, but you
 
 ItemGroups can have conditions applied by using the `Condition` attribute. In that case, the items are only added to the item list if the condition is satisfied. See [MSBuild conditions](msbuild-conditions.md)
 
-The `Label` attribute is used in some build systems as a way to control build behaviors. You can use it only in declarations, as a way to create more understandable MSBuild scripts, or as a control setting to affect build actions. For .NET build system, it is only used to declare intent, but in the C++ build system, it is used to control behavior.
+The `Label` attribute is used in some build systems as a way to control build behaviors. You can use it only in declarations, as a way to create more understandable MSBuild scripts, or as a control setting to affect build actions.
 
 ## See also
 
