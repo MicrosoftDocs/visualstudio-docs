@@ -51,6 +51,8 @@ From the list provided, choose the type(s) of code you want to debug. This can b
    - Managed Compatibility Mode - Specifies the legacy debugger for managed code, for use typically in mixed-mode debugging with C++/CLR code (enables Edit and Continue for mixed mode) or to support extensions that targeted the legacy debugger. In most mixed-mode debugging scenarios, select **Native** and the appropriate **Managed** code types instead of Managed Compatibility Mode.
    ::: moniker-end
 
+   For most scenarios, attaching multiple debuggers in the same debugging session is not supported. You may be able to do this using a second instance of Visual Studio.
+
 ## See also
 - [Debugger Security](../debugger/debugger-security.md)
 - [Attach to Running Processes](../debugger/attach-to-running-processes-with-the-visual-studio-debugger.md)

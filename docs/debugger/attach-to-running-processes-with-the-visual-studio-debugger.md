@@ -275,17 +275,24 @@ For remote debugging scenarios, you must have the source code (or a copy of the 
 In some local debugging scenarios, you can debug in Visual Studio with no access to the source if the correct symbol files are present with the app. By default, this requires a debug build. For more information, see [Specify symbol and source files](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md).
 
 ## <a name="BKMK_Troubleshoot_attach_errors"></a> Troubleshoot attach errors
- When the debugger attaches to a running process, the process can contain one or more types of code. The code types the debugger can attach to are displayed and selected in the [Select Code Type](../debugger/select-code-type-dialog-box.md) dialog box.
 
- Sometimes, the debugger can successfully attach to one code type, but not to another code type. This might occur if you are trying to attach to a process that is running on a remote computer. The remote computer might have remote debugging components installed for some code types but not for others. It can also occur if you try to attach to two or more processes for direct database debugging. SQL debugging supports attaching to a single process only.
+When the debugger attaches to a running process, the process can contain one or more types of code. The code types the debugger can attach to are displayed and selected in the [Select Code Type](../debugger/select-code-type-dialog-box.md) dialog box.
 
- If the debugger is able to attach to some, but not all, code types, you see a message identifying which types failed to attach.
+Sometimes, the debugger can successfully attach to one code type, but not to another code type. Typically, this occurs when:
 
- If the debugger successfully attaches to at least one code type, you can proceed to debug the process. You will be able to debug only the code types that were successfully attached. The unattached code in the process will still run, but you won't be able to set breakpoints, view data, or perform other debugging operations on that code.
+- You try to attach to a process that is running on a remote computer. The remote computer might have remote debugging components installed for some code types but not for others.
+- You try to attach to two or more processes for direct database debugging. SQL debugging supports attaching to a single process only.
 
- If you want more specific information about why the debugger failed to attach to a code type, try to reattach to only that code type.
+[!NOTE]
+> The procedure described here may also help in other scenarios in which the debugger fails to detect the code type correctly.
 
- **To obtain specific information about why a code type failed to attach:**
+If the debugger is able to attach to some, but not all, code types, you see a message identifying which types failed to attach.
+
+If the debugger successfully attaches to at least one code type, you can proceed to debug the process. You will be able to debug only the code types that were successfully attached. The unattached code in the process will still run, but you won't be able to set breakpoints, view data, or perform other debugging operations on that code.
+
+If you want more specific information about why the debugger failed to attach to a code type, try to reattach to only that code type.
+
+**To obtain specific information about why a code type failed to attach:**
 
 1. Detach from the process. On the **Debug** menu, select **Detach All**.
 
