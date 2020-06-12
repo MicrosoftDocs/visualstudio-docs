@@ -51,11 +51,15 @@ To debug a .NET Core process on a Linux Docker container, see [Attach to a Linux
 
 1. In Visual Studio, select **Debug** > **Attach to Process** (or press **Ctrl**+**Alt**+**P**) to open the **Attach to Process** dialog box.
 
-   **Connection type** should be set to **Default**. **Connection target** should be your local machine name.
+1. Check the **Connection type**.
+
+   In most scenarios, you can use **Default**. But if you want to manually select the connection type, choose from the drop-down list.
+
+1. Set the **Connection target** your local machine name.
 
    ![DBG_Basics_Attach_To_Process](../debugger/media/DBG_Basics_Attach_To_Process.png "DBG_Basics_Attach_To_Process")
 
-2. In the **Available processes** list, find and select the process or processes you want to attach to.
+1. In the **Available processes** list, find and select the process or processes you want to attach to.
 
    - To quickly select a process, type its name or first letter in the **Filter processes** box.
 
@@ -64,7 +68,9 @@ To debug a .NET Core process on a Linux Docker container, see [Attach to a Linux
    >[!TIP]
    >Processes can start and stop in the background while the **Attach to Process** dialog box is open, so the list of running processes may not always be current. You can select **Refresh** at any time to see the current list.
 
-3. In the **Attach to** field, make sure the type of code you plan to debug is listed. The default **Automatic** setting works for most app types.
+1. In the **Attach to** field, make sure the type of code you plan to debug is listed. The default **Automatic** setting works for most app types.
+
+   If you are using the **Default** connection type, you can manually select the type of code you want to attach to. Otherwise, the **Select** option may be disabled.
 
    To select code types manually:
    1. Click **Select**.
@@ -73,7 +79,7 @@ To debug a .NET Core process on a Linux Docker container, see [Attach to a Linux
    1. Select the code types you want to debug.
    1. Select **OK**.
 
-4. Select **Attach**.
+1. Select **Attach**.
 
 >[!NOTE]
 >You can be attached to multiple apps for debugging, but only one app is active in the debugger at a time. You can set the active app in the Visual Studio **Debug Location** toolbar or **Processes** window.
@@ -88,7 +94,11 @@ For more complete instructions for debugging ASP.NET applications that have been
 
 1. In Visual Studio, select **Debug** > **Attach to Process** (or press **Ctrl**+**Alt**+**P**) to open the **Attach to Process** dialog box.
 
-2. **Connection type** should be **Default** for most cases. In the **Connection target** box, select the remote computer, using one of the following methods:
+1. Check the **Connection type**.
+
+   In most scenarios, you can use **Default**. But if you want to manually select the connection type, choose from the drop-down list.
+
+1. In the **Connection target** box, select the remote computer, using one of the following methods:
 
    - Select the drop-down arrow next to **Connection target**, and select the computer name from the drop-down list.
    - Type the computer name in the **Connection target** box and press **Enter**.
@@ -131,6 +141,8 @@ For more complete instructions for debugging ASP.NET applications that have been
 
 5. In the **Attach to** field, make sure the type of code you plan to debug is listed. The default **Automatic** setting works for most app types.
 
+   If you are using the **Default** connection type, you can manually select the type of code you want to attach to. Otherwise, the **Select** option may be disabled.
+
    To select code types manually:
    1. Click **Select**.
    1. In the **Select Code Type** dialog box, select **Debug these code types**.
@@ -148,7 +160,6 @@ In some cases, when you debug in a Remote Desktop (Terminal Services) session, t
 If neither of those workarounds is possible, a third option is to attach to the process by running `vsjitdebugger.exe -p <ProcessId>` from the Windows command line. You can determine the process ID using *tlist.exe*. To obtain *tlist.exe*, download and install Debugging Tools for Windows, available at  [WDK and WinDbg downloads](/windows-hardware/drivers/download-the-wdk).
 
 ::: moniker range=">= vs-2019"
-
 
 ## Attach to a .NET Core process running on Linux using SSH
 
@@ -260,7 +271,7 @@ To quickly select a running process to attach to, in Visual Studio, type **Ctrl*
 |Debug client-side script on a local IIS server, for supported app types |Use **Attach to Process**|*chrome.exe*, *MicrosoftEdgeCP.exe*, or *iexplore.exe*|Script debugging must be enabled. For Chrome, you must also run Chrome in debug mode (type `chrome.exe --remote-debugging-port=9222` from a command line) and select **JavaScript (Chrome)** in the **Attach to** field.|
 |Debug a C#, Visual Basic, or C++ app on the local machine|Use either standard debugging (**F5**) or **Attach to Process**|*\<appname>.exe*|In most scenarios, use standard debugging and not **Attach to Process**.|
 |Remote debug a Windows desktop app|Remote tools|N/A| See [Remote debug a C# or Visual Basic app](../debugger/remote-debugging-csharp.md) or [Remote debug a C++ app](../debugger/remote-debugging-cpp.md)|
-|Debug .NET Core on Linux|Use **Attach to Process**|*dotnet.exe*|To use SSH, see [Remote debug .NET Core running on Linux using SSH](../debugger/remote-debugging-dotnet-core-linux-with-ssh.md). |
+|Debug .NET Core on Linux|Use **Attach to Process**|*dotnet.exe*|To use SSH, see [Remote debug .NET Core running on Linux using SSH](../debugger/remote-debugging-dotnet-core-linux-with-ssh.md). For containerized apps, see the preceding sections in this article.|
 |Debug an ASP.NET app on the local machine after you start the app without the debugger|Use **Attach to Process**|*iiexpress.exe*|This may be helpful to make your app load faster, such as (for example) when profiling. |
 |Debug other supported app types on a server process|If server is remote, use remote tools, and **Attach to Process**|*chrome.exe*, *iexplore.exe*, or other processes|If necessary, use Resource Monitor to help identify the process. See [Remote debugging](../debugger/remote-debugging.md).|
 |Remote debug a Universal Windows App (UWP), OneCore, HoloLens, or IoT app|Debug installed app package|N/A|See [Debug an installed app package](debug-installed-app-package.md) instead of using **Attach to Process**|
