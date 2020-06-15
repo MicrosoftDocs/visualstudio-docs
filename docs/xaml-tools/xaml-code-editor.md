@@ -92,9 +92,9 @@ The middle pane is the "code" part of the XAML code editor. It includes most of 
 
 #### Quick Actions
 
-You can use [Quick Actions](../ide/quick-actions.md) to refactor, generate, or otherwise modify code with a single action. 
+You can use [Quick Actions](../ide/quick-actions.md) to refactor, generate, or otherwise modify code with a single action.
 
-For example, one useful task is that you can perform by using Quick Actions is to **Remove unnecessary usings** from the code in the **MainWindow.xaml.cs** tab. 
+For example, one useful task is that you can perform by using Quick Actions is to **Remove unnecessary usings** from the code in the **MainWindow.xaml.cs** tab.
 
 Here's how:
 
@@ -174,7 +174,7 @@ Most of the following features are universally available in the Visual Studio ID
 
 ### XAML code snippets
 
-Code snippets are small blocks of reusable code that you can insert into in a code file by using the right-click context menu command **Insert snippet** or a combination of hotkeys (**Ctrl**+**K**, **Ctrl**+**X**). We've enhanced [IntelliSense](../ide/using-intellisense.md) so that it supports showing XAML snippets, which work for both built-in snippets and any custom snippets that you add manually. Some out-of-the-box XAML snippets include `#region`, `Column definition`, `Row definition`, `Setter`, and `Tag`.
+Code snippets are small blocks of reusable code that you can insert into in a code file by using the right-click context menu command **Insert snippet** or a combination of keyboard shortcuts (**Ctrl**+**K**, **Ctrl**+**X**). We've enhanced [IntelliSense](../ide/using-intellisense.md) so that it supports showing XAML snippets, which work for both built-in snippets and any custom snippets that you add manually. Some out-of-the-box XAML snippets include `#region`, `Column definition`, `Row definition`, `Setter`, and `Tag`.
 
 ![The XAML code editor with #region options showing in IntelliSense](media/xaml-code-snippets.png "Screenshot of the XAML code editor with #region options showing in IntelliSense")
 
@@ -198,9 +198,20 @@ For more information about regions, see the [#region (C# Reference)](/dotnet/csh
 
 ### XAML comments
 
-Developers often prefer to document their code by using comments. You can add comments in either of the following two ways:
+Developers often prefer to document their code by using comments. You can add comments to the XAML code that's in the **MainWindow.xaml** tab in the following ways:
 
-For more information about comments in code, see the [Documentation comments](/dotnet/csharp/language-reference/language-specification/documentation-comments.md) page.
+- Enter `<!--` before a comment and then add `-->` after the comment.
+- Enter `<!` and then choose `!--` from the list of options.
+
+  ![The XAML code editor right-click add comments dialog](media/xaml-code-editor-comments.png "Screenshot of the right-click context menu to add comments in the XAML code editor")
+
+- Select code that you want to surround with a comment and then choose the **Comment** button from the toolbar in the IDE. To reverse the action, choose the **Uncomment** button.
+
+  ![The Comment button and the Uncomment button in the IDE toolbar](media/comment-undo-comment-buttons.png "Screenshot of the Comment button and the Uncomment button in the IDE toolbar")
+
+- Select code that you want to surround with a comment, and then press **Ctrl**+**K**, **Ctrl**+**C**. To uncomment selected code, press **Ctrl**+**K**, **Ctrl**+**U**.
+
+For more information about how to use comments in the C# code that's in the **MainWindow.xaml.cs** tab, see the [Documentation comments](/dotnet/csharp/language-reference/language-specification/documentation-comments.md) page.
 
 ### XAML lightbulbs
 
