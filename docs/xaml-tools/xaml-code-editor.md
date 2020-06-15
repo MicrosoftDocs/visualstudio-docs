@@ -9,7 +9,7 @@ manager: jillfra
 ---
 # XAML code editor
 
-The XAML code editor in the [Visual Studio IDE](../get-started/visual-studio-ide.md) includes all the tools you need to create WPF and UWP apps for the Windows platform, and for [Xamarin.Forms](/xamarin/xamarin-forms/user-interface/text/editor.md). This article outlines both the role the code editor plays when you develop XAML-based apps and the features that are unique to the XAML code editor in Visual Studio 2019.
+The XAML code editor in the [Visual Studio IDE](../get-started/visual-studio-ide.md) includes all the tools you need to create WPF and UWP apps for the Windows platform, and for [Xamarin.Forms](/xamarin/xamarin-forms/user-interface/text/editor.md). This article outlines both the role the code editor plays when you develop XAML-based apps as well as the features that are unique to the XAML code editor in Visual Studio 2019.
 
 To start, let's take a look at the IDE (integrated development environment) with an open WPF project. The following image shows several of the key IDE tools you'll use along with the XAML code editor.
 
@@ -36,11 +36,11 @@ Here's a look at the XAML code editor window itself.
 
 Next, let's take a look at the functions of each of the UI elements in the code editor.
 
-### Top left, first row
+### First row
 
 Starting at the top left, and from left to right, there's a **Design** tab, a **Swap Panes** button, a **XAML** tab, and a **Pop Out XAML** button.
 
-![The first of the two top rows of the XAML code editor window in Visual Studio, with the left side highlighted](media/xaml-code-editor-top-row-left.png "Screenshot of the first of the two top rows of the XAML code editor window in Visual Studio 2019, in which UI elements on the left are highlighted")
+![The first of the two top rows of the XAML code editor window in Visual Studio, with the left side of the first row highlighted](media/xaml-code-editor-top-row-left.png "Screenshot of the first of the two top rows of the XAML code editor window in Visual Studio 2019, in which UI elements on the left are highlighted")
 
 Here's how they work:
 
@@ -49,11 +49,9 @@ Here's how they work:
 - The **XAML** tab changes the focus back to the XAML code editor.
 - The **Pop Out XAML** button creates a separate XAML code editor window that's outside of the IDE.
 
-### Top right, first row
-
 Continuing at the top right, and from left to right, there's a **Vertical Split** button, a **Horizontal Split** button, and a **Collapse Panes** button.
 
-![The first of the two top rows of the XAML code editor window in Visual Studio, with the right side highlighted](media/xaml-code-editor-top-row-right.png "Screenshot of the first of the two top rows of the XAML code editor window in Visual Studio 2019, in which UI elements on the right are highlighted")
+![The first of the two top rows of the XAML code editor window in Visual Studio, with the right side of the first row highlighted](media/xaml-code-editor-top-row-right.png "Screenshot of the first of the two top rows of the XAML code editor window in Visual Studio 2019, in which UI elements on the right are highlighted")
 
 Here's how they work:
 
@@ -67,7 +65,7 @@ Enables you to collapse the bottom pane in the code editor, whether it's the cod
 >
 > You might find it useful to have one larger window open that reveals more of your code in context and a smaller pane open that has its focus directly on the code that you're working on. -->
 
-### Top left, second row
+### Second row
 
 In the second row of the top left, there are two Window dropdown lists. However, if you view the Tooltip for these UI elements, it further identifies them as the "Element: Window" and the "Member: Window".
 
