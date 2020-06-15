@@ -38,7 +38,7 @@ Next, let's take a look at the functions of each of the UI elements in the code 
 
 ### First row
 
-Starting at the top left, and from left to right, there's a **Design** tab, a **Swap Panes** button, a **XAML** tab, and a **Pop Out XAML** button.
+In the first row at the top of the XAML code window, on the left, there's a **Design** tab, a **Swap Panes** button, a **XAML** tab, and a **Pop Out XAML** button.
 
 ![The first of the two top rows of the XAML code editor window in Visual Studio, with the left side of the first row highlighted](media/xaml-code-editor-top-row-left.png "Screenshot of the first of the two top rows of the XAML code editor window in Visual Studio 2019, in which UI elements on the left are highlighted")
 
@@ -49,7 +49,7 @@ Here's how they work:
 - The **XAML** tab changes the focus back to the XAML code editor.
 - The **Pop Out XAML** button creates a separate XAML code editor window that's outside of the IDE.
 
-Continuing at the top right, and from left to right, there's a **Vertical Split** button, a **Horizontal Split** button, and a **Collapse Panes** button.
+Continuing at the right, there's a **Vertical Split** button, a **Horizontal Split** button, and a **Collapse Panes** button.
 
 ![The first of the two top rows of the XAML code editor window in Visual Studio, with the right side of the first row highlighted](media/xaml-code-editor-top-row-right.png "Screenshot of the first of the two top rows of the XAML code editor window in Visual Studio 2019, in which UI elements on the right are highlighted")
 
@@ -57,8 +57,7 @@ Here's how they work:
 
 - The **Vertical Split** button changes the location of the XAML Designer and the XAML code editor in the IDE from a horizontal alignment to a vertical alignment.
 - The **Horizontal Split** button changes the location of the XAML Designer and the XAML code editor in the IDE from a vertical alignment to a horizontal alignment.
-- The **Collapse Pane** button hides the XAML code editor temporarily while you focus on using the XAML Designer within the IDE. (To restore the XAML code editor, choose the same button again, which is now named the **Expand Pane** button.)
-Enables you to collapse the bottom pane in the code editor, whether it's the code editor or the Designer. 
+- The **Collapse Pane** button enables you to collapse what's in the bottom pane, whether that's the code editor or the Designer. (To restore the bottom pane, choose the same button again, which is now named the **Expand Pane** button.)
 
 <!-- [!TIP]
 > You can run two parallel instances of the XAML code editor concurrently by using both the **Pop Out XAML** button and the **Expand Pane** button.
@@ -67,7 +66,7 @@ Enables you to collapse the bottom pane in the code editor, whether it's the cod
 
 ### Second row
 
-In the second row of the top left, there are two Window dropdown lists. However, if you view the Tooltip for these UI elements, it further identifies them as the "Element: Window" and the "Member: Window".
+In the second row at the top of the XAML code window, there are two Window dropdown lists. However, if you view the Tooltip for these UI elements, it further identifies them as the "Element: Window" and the "Member: Window".
 
 ![The second of the two top rows of the XAML code editor window in Visual Studio, where both Window dropdown lists are visible](media/xaml-code-editor-top-row-windows.png "Screenshot of the second of the two top rows of the XAML code editor window in Visual Studio 2019, in which both Window dropdown lists are visible")
 
@@ -91,13 +90,13 @@ The middle pane is the "code" part of the XAML code editor. It includes most of 
 
 ![The XAML code editor, middle pane only, in Visual Studio](media/xaml-code-editor-middle.png "Screenshot of the XAML code editor, middle pane only, in Visual Studio 2019")
 
-#### Quick actions
+#### Quick Actions
 
-You can use [Quick Actions](../ide/quick-actions.md) to refactor, generate, or otherwise modify code with a single action.
+You can use [Quick Actions](../ide/quick-actions.md) to refactor, generate, or otherwise modify code with a single action. 
 
-**Remove unnecessary usings**
+For example, one useful task is that you can perform by using Quick Actions is to **Remove unnecessary usings** from the code in the **MainWindow.xaml.cs** tab. 
 
-One useful task is to remove the unnecessary usings from the code in the **MainWindow.xaml.cs** tab. Here's how:
+Here's how:
 
 1. Hover over a using statement, choose the lightbulb icon, and then choose **Remove Unnecessary Usings** from the drop-down list.
 
@@ -199,7 +198,7 @@ For more information about regions, see the [#region (C# Reference)](/dotnet/csh
 
 ### XAML comments
 
-Developers often prefer to document their code by using a special comment syntax that contains XML text. XAML developers are no different in this, and the XAML code editor supports using comments in XAML code. As in C# code, all you must do is enter triple forward slashes `///` before any comment that you want add to your XAML code.
+Developers often prefer to document their code by using comments. You can add comments in either of the following two ways:
 
 For more information about comments in code, see the [Documentation comments](/dotnet/csharp/language-reference/language-specification/documentation-comments.md) page.
 
