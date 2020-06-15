@@ -30,6 +30,7 @@ ms.workload:
   - "multiple"
 ---
 # Attach to running processes with the Visual Studio debugger
+
 You can attach the Visual Studio debugger to a running process on a local or remote computer. After the process is running, select **Debug** > **Attach to Process** or press **Ctrl**+**Alt**+**P** in Visual Studio, and use the **Attach to Process** dialog to attach the debugger to the process.
 
 You can use **Attach to Process** to debug running apps on local or remote computers, debug multiple processes simultaneously, debug apps that weren't created in Visual Studio, or debug any app you didn't start from Visual Studio with the debugger attached. For example, if you're running an app without the debugger and hit an exception, you can then attach the debugger to the process running the app and begin debugging.
@@ -41,19 +42,13 @@ You can use **Attach to Process** to debug running apps on local or remote compu
 
 To quickly reattach to a process you attached to previously, see [Reattach to a process](#BKMK_reattach).
 
-To debug a process on a remote computer, see [Attach to a process on a remote computer](#BKMK_Attach_to_a_process_on_a_remote_computer).
-
-::: moniker range=">= vs-2019"
-To debug a .NET Core process on a Linux Docker container, see [Attach to a Linux Docker container](#BKMK_Linux_Docker_Attach).
-::: moniker-end
-
 **To attach to a process on your local computer:**
 
 1. In Visual Studio, select **Debug** > **Attach to Process** (or press **Ctrl**+**Alt**+**P**) to open the **Attach to Process** dialog box.
 
 1. Check the **Connection type**.
 
-   In most scenarios, you can use **Default**. But if you want to manually select the connection type, choose from the drop-down list.
+   In most scenarios, you can use **Default**. Some scenarios may require a different connection type. For more info, see other sections in this article or [Common debugging scenarios](#BKMK_Scenarios).
 
 1. Set the **Connection target** your local machine name.
 
@@ -75,7 +70,7 @@ To debug a .NET Core process on a Linux Docker container, see [Attach to a Linux
    To select code types manually:
    1. Click **Select**.
    1. In the **Select Code Type** dialog box, select **Debug these code types**.
-      You can use the [Select Code Type](../debugger/select-code-type-dialog-box.md) dialog box to help [troubleshoot issues](#BKMK_Troubleshoot_attach_errors) that involve a failure to attach the debugger.
+      If you experience a failure when you try to attach to a process in the list, you can use the [Select Code Type](../debugger/select-code-type-dialog-box.md) dialog box to help [troubleshoot](#BKMK_Troubleshoot_attach_errors) the issue.
    1. Select the code types you want to debug.
    1. Select **OK**.
 
@@ -96,7 +91,7 @@ For more complete instructions for debugging ASP.NET applications that have been
 
 1. Check the **Connection type**.
 
-   In most scenarios, you can use **Default**. But if you want to manually select the connection type, choose from the drop-down list.
+   In most scenarios, you can use **Default**. Some scenarios, such as debugging Linux or a containerized app, require a different connection type. For more info, see other sections in this article or [Common debugging scenarios](#BKMK_Scenarios).
 
 1. In the **Connection target** box, select the remote computer, using one of the following methods:
 
@@ -146,8 +141,7 @@ For more complete instructions for debugging ASP.NET applications that have been
    To select code types manually:
    1. Click **Select**.
    1. In the **Select Code Type** dialog box, select **Debug these code types**.
-      You can use the [Select Code Type](../debugger/select-code-type-dialog-box.md) dialog box to help [troubleshoot issues](#BKMK_Troubleshoot_attach_errors) that involve a failure to attach the debugger.
-   1. Select the code types you want to debug.
+      If you experience a failure when you try to attach to a process in the list, you can use the [Select Code Type](../debugger/select-code-type-dialog-box.md) dialog box to help [troubleshoot](#BKMK_Troubleshoot_attach_errors) the issue.
    1. Select **OK**.
 
 6. Select **Attach**.
@@ -272,6 +266,7 @@ To quickly select a running process to attach to, in Visual Studio, type **Ctrl*
 |Debug a C#, Visual Basic, or C++ app on the local machine|Use either standard debugging (**F5**) or **Attach to Process**|*\<appname>.exe*|In most scenarios, use standard debugging and not **Attach to Process**.|
 |Remote debug a Windows desktop app|Remote tools|N/A| See [Remote debug a C# or Visual Basic app](../debugger/remote-debugging-csharp.md) or [Remote debug a C++ app](../debugger/remote-debugging-cpp.md)|
 |Debug .NET Core on Linux|Use **Attach to Process**|*dotnet.exe*|To use SSH, see [Remote debug .NET Core running on Linux using SSH](../debugger/remote-debugging-dotnet-core-linux-with-ssh.md). For containerized apps, see the preceding sections in this article.|
+|Remote debug Python on Linux|Use **Attach to Process**|*debugpy*|See [Attach remotely from Python Tools](../debugging-python-code-on-remote-linux-machines.md#attach-remotely-from-python-tools)|
 |Debug an ASP.NET app on the local machine after you start the app without the debugger|Use **Attach to Process**|*iiexpress.exe*|This may be helpful to make your app load faster, such as (for example) when profiling. |
 |Debug other supported app types on a server process|If server is remote, use remote tools, and **Attach to Process**|*chrome.exe*, *iexplore.exe*, or other processes|If necessary, use Resource Monitor to help identify the process. See [Remote debugging](../debugger/remote-debugging.md).|
 |Remote debug a Universal Windows App (UWP), OneCore, HoloLens, or IoT app|Debug installed app package|N/A|See [Debug an installed app package](debug-installed-app-package.md) instead of using **Attach to Process**|
@@ -287,7 +282,7 @@ In some local debugging scenarios, you can debug in Visual Studio with no access
 
 ## <a name="BKMK_Troubleshoot_attach_errors"></a> Troubleshoot attach errors
 
-In some scenarios, the debugger may fail to automatically detect the code type correctly. You can assist the debugger by selecting the most appropriate connection type in the **Connection type** list, which may be required,for example, if you are debugging a Linux or Python app. If you are using the Default connection type, then you can select the specific type of code to connect to, as described later in this section.
+In some scenarios, the debugger may need help to correctly identify the type of code to debug. If the connection values are set correctly (you can view the correct process in the **Available processes** list), but the debugger fails to attach, try to select the most appropriate connection type in the **Connection type** list, which may be required, for example, if you are debugging a Linux or Python app. If you are using the Default connection type, then you can alternatively select the specific type of code to connect to, as described later in this section.
 
 When the debugger attaches to a running process, the process can contain one or more types of code. The code types the debugger can attach to are displayed and selected in the [Select Code Type](../debugger/select-code-type-dialog-box.md) dialog box.
 
