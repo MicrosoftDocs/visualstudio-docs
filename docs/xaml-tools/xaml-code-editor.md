@@ -182,7 +182,7 @@ For more information, see the [Code snippets](../ide/code-snippets.md) and [C# c
 
 ### XAML #region support
 
-Starting with Visual Studio 2015, we made #region support available for XAML developers in WPF and UWP, and more recently in [Xamarin.Forms](/xamarin/xamarin-forms/user-interface/text/editor/), too. In Visual Studio 2019, we continue to make incremental improvements to #region support. For example, in [version 16.4](/visualstudio/releases/2019/release-notes-v16.4.md) and later, #region options show as you begin to type `<!`.
+Starting with Visual Studio 2015, we made #region support available for XAML developers in WPF and UWP, and more recently in [Xamarin.Forms](/xamarin/xamarin-forms/user-interface/text/editor/), too. In Visual Studio 2019, we continue to make incremental improvements to #region support. For example, in [version 16.4](/visualstudio/releases/2019/release-notes-v16.4/) and later, #region options show as you begin to type `<!`.
 
 ![The XAML code editor with #region options showing in IntelliSense](media/code-editor-xaml-region.png "Screenshot of the XAML code editor with #region options showing in IntelliSense")
 
@@ -194,7 +194,7 @@ You can use regions when you want to group sections of your code that you also w
     <!--#endregion-->
 ```
 
-For more information about regions, see the [#region (C# Reference)](/dotnet/csharp/language-reference/preprocessor-directives/preprocessor-region.md) page. And for more information about expanding and collapsing sections of code, see the [Outlining](../ide/outlining.md) page.
+For more information about regions, see the [#region (C# Reference)](/dotnet/csharp/language-reference/preprocessor-directives/preprocessor-region/) page. And for more information about expanding and collapsing sections of code, see the [Outlining](../ide/outlining.md) page.
 
 ### XAML comments
 
@@ -211,7 +211,7 @@ Developers often prefer to document their code by using comments. You can add co
 
 - Select code that you want to surround with a comment, and then press **Ctrl**+**K**, **Ctrl**+**C**. To uncomment selected code, press **Ctrl**+**K**, **Ctrl**+**U**.
 
-For more information about how to use comments in the C# code that's in the **MainWindow.xaml.cs** tab, see the [Documentation comments](/dotnet/csharp/language-reference/language-specification/documentation-comments.md) page.
+For more information about how to use comments in the C# code that's in the **MainWindow.xaml.cs** tab, see the [Documentation comments](/dotnet/csharp/language-reference/language-specification/documentation-comments/) page.
 
 ### XAML lightbulbs
 
@@ -231,9 +231,9 @@ Here are a few examples of how they can benefit your XAML coding experience:
 
 ### Conditional XAML for UWP
 
-Conditional XAML provides a way to use the [ApiInformation.IsApiContractPresent](https://docs.microsoft.com/uwp/api/windows.foundation.metadata.apiinformation.isapicontractpresent) method in XAML markup. This lets you set properties and instantiate objects in markup based on the presence of an API without needing to use code behind.
+Conditional XAML provides a way to use the [ApiInformation.IsApiContractPresent](/uwp/api/windows.foundation.metadata.apiinformation.isapicontractpresent/) method in XAML markup. This lets you set properties and instantiate objects in markup based on the presence of an API without needing to use code behind.
 
-For more information, see the [Conditional XAML](/windows/uwp/debug-test-perf/conditional-xaml.md) page, and the [Host UWP XAML controls in desktop apps (XAML Islands)](/windows/apps/desktop/modernize/xaml-islands.md) page.
+For more information, see the [Conditional XAML](/windows/uwp/debug-test-perf/conditional-xaml/) page, and the [Host UWP XAML controls in desktop apps (XAML Islands)](/windows/apps/desktop/modernize/xaml-islands/) page.
 
 ### XAML Structure Visualizer
 
@@ -249,7 +249,7 @@ You can recognize the IntelliCode selections because they appear at the top of t
 
 ![The IntelliCode list for the XAML text editor](media/xaml-intellicode-selection.png "Screenshot of the IntelliCode list for the XAML text editor")
 
-For more information, see the [Overview of IntelliCode](/visualstudio/intellicode/overview.md) page.
+For more information, see the [Overview of IntelliCode](/visualstudio/intellicode/overview/) page.
 
 ### Settings
 
@@ -295,5 +295,5 @@ To learn more about how to edit your code in real time while you're running your
 ## See also
 
 - [Visual Studio code editor features](../ide/writing-code-in-the-code-and-text-editor.md)
-- [XAML in UWP apps](/windows/uwp/xaml-platform/xaml-overview)
+- [XAML in UWP apps](/windows/uwp/xaml-platform/xaml-overview/)
 - [XAML in Xamarin.Forms apps](/xamarin/xamarin-forms/xaml/)
