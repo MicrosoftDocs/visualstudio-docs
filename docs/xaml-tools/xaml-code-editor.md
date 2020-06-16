@@ -9,7 +9,7 @@ manager: jillfra
 ---
 # XAML code editor
 
-The XAML code editor in the [Visual Studio IDE](../get-started/visual-studio-ide.md) includes all the tools you need to create WPF and UWP apps for the Windows platform, and for [Xamarin.Forms](/xamarin/xamarin-forms/user-interface/text/editor.md). This article outlines both the role the code editor plays when you develop XAML-based apps as well as the features that are unique to the XAML code editor in Visual Studio 2019.
+The XAML code editor in the [Visual Studio IDE](../get-started/visual-studio-ide.md) includes all the tools you need to create WPF and UWP apps for the Windows platform, and for [Xamarin.Forms](/xamarin/xamarin-forms/user-interface/text/editor.md). This article outlines both the role the code editor plays when you develop XAML-based apps and the features that are unique to the XAML code editor in Visual Studio 2019.
 
 To start, let's take a look at the IDE (integrated development environment) with an open WPF project. The following image shows several of the key IDE tools you'll use along with the XAML code editor.
 
@@ -94,7 +94,7 @@ The middle pane is the "code" part of the XAML code editor. It includes most of 
 
 You can use [Quick Actions](../ide/quick-actions.md) to refactor, generate, or otherwise modify code with a single action.
 
-For example, one useful task is that you can perform by using Quick Actions is to **Remove unnecessary usings** from the code in the **MainWindow.xaml.cs** tab.
+For example, one useful task that you can perform by using Quick Actions is to **Remove unnecessary usings** from the C# code in the **MainWindow.xaml.cs** tab.
 
 Here's how:
 
@@ -127,7 +127,7 @@ For more information about change tracking&mdash;to include the wavy lines (also
 
 #### Right-click context menu
 
-When you are editing your code in the XAML code editor, there are several features that you can access by using the right-click context menu. Most of these features are available universally in the Visual Studio IDE, while some are specific to using a code editor along with a Design window.
+When you're editing your code in the XAML code editor, there are several features that you can access by using the right-click context menu. Most of these features are available universally in the Visual Studio IDE, while some are specific to using a code editor along with a Design window.
 
 ![The XAML code editor's right-click context menu in Visual Studio](media/xaml-code-editor-right-click-menu.png "Screenshot of the XAML code editor's right-click context menu in Visual Studio 2019")
 
@@ -137,7 +137,7 @@ Here's what each feature does and how it's useful:
 - **View Designer** - Opens the default view that includes the Design window and the XAML code editor. (If you are already in the default view, it does nothing.)
 - **Quick Actions and Refactorings** - Refactors, generates, or otherwise modifies code with a single action. When you hover over code, you'll see a lightbulb icon when a quick action or refactoring is available. <br>See also: [Quick Actions](../ide/quick-actions.md) and [Refactor code](../ide/refactoring-in-visual-studio.md).
 - **Rename...** - Renames namespaces only. If you don't have a namespace to rename, you'll receive an error message that says "Only namespace prefixes can be renamed."
-- **Remove and Sort Namespaces** - Removes unused namespaces and then sorts those that remain.
+- **Remove and Sort Namespaces** - Removes unused namespaces and then sorts those namespaces that remain.
 - **Peek Definition** - Previews the definition of a type without leaving your current location in the editor. <br>See also: [Peek Definition](../ide/go-to-and-peek-definition.md#peek-definition) and [View and edit code by using Peek Definition](../ide/how-to-view-and-edit-code-by-using-peek-definition-alt-plus-f12.md).
 - **Go To Definition** - Navigates to the source of a type or member, and opens the result in a new tab. <br>See also: [Go To Definition](../ide/go-to-and-peek-definition.md#go-to-definition).
 - **Surround with...** - Use surround-with code snippets, which are added around a selected block of code. <br>See also: [Expansion snippets and surround-with snippets](../ide/code-snippets.md#expansion-snippets-and-surround-with-snippets).
