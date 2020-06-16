@@ -1,6 +1,6 @@
 ---
 title: XAML code editor
-ms.date: 06/15/2020
+ms.date: 06/16/2020
 ms.topic: conceptual
 monikerRange: vs-2019
 author: TerryGLee
