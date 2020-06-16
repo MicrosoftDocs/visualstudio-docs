@@ -18,14 +18,18 @@ ms.technology: vs-installation
 
 Sometimes your Visual Studio installation becomes damaged or corrupted. A repair is useful for fixing install-time issues across all install operations, including updates.
 
-**When to Use Repair**
+## When to Use Repair
 * If you're having installation payload issues. This may happen when writing the file to disk is not successful, and can't be fixed by deleting the corrupted file. Repair can re-acquire needed files. 
 * If you're having client-side download issues. Assuming you've resolved any connection or proxy issues, repair may help. 
-* If the install issue is caused by an issue in an underlying Windows service, like Windows Installer. A repair may help, but may hit the same issue if it is systemic, such as a broken Windows Installer or internet connection. To check if this is the case, use the error report generated from the installation operation.
+* If you're having issues updating Visual Studio. Repair fixes many common update issues. 
+
+> [!TIP] 
+> If the install issue is caused by an issue in an underlying Windows service, like Windows Installer, repair may hit the same issue. Systemic issues can include a broken Windows Installer or unstable internet connection. To check for a systemic issue, use the error report generated from the installation operation.
 
 > [!NOTE] 
 > Repairing Visual Studio resets user settings, and re-installs the assemblies you already have. If you're experiencing a product issue, create a [Visual Studio Feedback Ticket](https://developercommunity.visualstudio.com/content/problem/post.html?space=8), as Repair may not solve the issue.
 
+## How to Repair
 ::: moniker range="vs-2017"
 
 1. Find the **Visual Studio Installer** on your computer.
