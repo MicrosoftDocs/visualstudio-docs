@@ -297,4 +297,5 @@ To learn more about how to edit your code in real time while you're running your
 - [Visual Studio code editor features](../ide/writing-code-in-the-code-and-text-editor.md)
 - [XAML in UWP apps](/windows/uwp/xaml-platform/xaml-overview/)
 - [XAML in Xamarin.Forms apps](/xamarin/xamarin-forms/xaml/)
+- [Xamarin mobile app development (Mac)](/visualstudio/mac/xamarin/)
 - [Visual Studio 2019 for Mac - IDE tour](/visualstudio/mac/ide-tour/)
