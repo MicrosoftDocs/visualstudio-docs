@@ -1,6 +1,6 @@
 ---
 title: Connect to projects in Team Explorer
-ms.date: 03/31/2020
+ms.date: 05/19/2020
 ms.topic: conceptual
 ms.author: tglee
 author: TerryGLee
@@ -13,7 +13,7 @@ Use the **Team Explorer** tool window to coordinate your code efforts with other
 ![Team Explorer Home page in Visual Studio](media/team-explorer/team-explorer.png)
 
 > [!TIP]
-> If you open Visual Studio and **Team Explorer** doesn't appear, open it by choosing **View** > **Team Explorer** from the menu bar.
+> If you open Visual Studio and **Team Explorer** doesn't appear, open it by choosing **View** > **Team Explorer** from the menu bar, or by pressing **Ctrl**+**&#92;**, **Ctrl**+**M**.
 
 ## Connect to a project or repository
 

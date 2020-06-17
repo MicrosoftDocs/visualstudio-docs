@@ -184,6 +184,7 @@ For more information, see [Multitargeting](../msbuild/msbuild-multitargeting-ove
 | [Conditions](../msbuild/msbuild-conditions.md) | Discusses how to use the `Condition` attribute in an MSBuild element. |
 | [Advanced concepts](../msbuild/msbuild-advanced-concepts.md) | Presents batching, performing transforms, multitargeting, and other advanced techniques. |
 | [Logging in MSBuild](../msbuild/logging-in-msbuild.md) | Describes how to log build events, messages, and errors. |
+| [How MSBuild builds projects](build-process-overview.md) | Describes the internal build process used within MSBuild |
 | [Additional resources](https://social.msdn.microsoft.com/forums/vstudio/home?forum=msbuild) | Lists community and support resources for more information about MSBuild. |
 
 ## Reference

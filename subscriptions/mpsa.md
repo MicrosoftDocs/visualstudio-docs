@@ -40,7 +40,7 @@ Once you have met the criteria above you may proceed to associate your Purchasin
 5. Click **Associate Domain**.
 
 Upon association, all users meeting the criteria will typically provision as Visual Studio subscriptions administrators within minutes. However, at times it may take up to 24 hours. Once your tenant is provisioned you will be able to access the Visual Studio Subscriptions Administration Portal. If this takes longer than 24 hours, please contact MPSA Support using these steps:
-1. Connect to https://www.microsoft.com/licensing/mpsa/default
+1. Connect to <https://www.microsoft.com/licensing/mpsa/default>
 2. Click the **More** menu at the top of the page. 
 3. Choose **Support**
 4. Choose **Licensing support**

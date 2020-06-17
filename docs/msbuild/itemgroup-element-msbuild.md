@@ -45,7 +45,7 @@ The following sections describe attributes, child elements, and parent elements.
 |Attribute|Description|
 |---------------|-----------------|
 |`Condition`|Optional attribute. Condition to be evaluated. For more information, see [Conditions](../msbuild/msbuild-conditions.md).|
-|`Label`|Optional attribute. Identifies the `ItemGroup`.|
+|`Label`|Optional attribute. Identifies the `ItemGroup`. |
 
 ### Child elements
 
@@ -80,6 +80,12 @@ The following code example shows the user-defined item collections `Res` and `Co
 ...
 </Project>
 ```
+
+In a simple project file, you normally use a single `ItemGroup` element, but you can also use multiple `ItemGroup` elements. When multiple `ItemGroup` elements are used, items are combined into a single `ItemGroup`. For example, some items might be included by a separate `ItemGroup` element that's defined in an imported file.
+
+ItemGroups can have conditions applied by using the `Condition` attribute. In that case, the items are only added to the item list if the condition is satisfied. See [MSBuild conditions](msbuild-conditions.md)
+
+The `Label` attribute is used in some build systems as a way to control build behaviors. You can use it only in declarations, as a way to create more understandable MSBuild scripts, or as a control setting to affect build actions.
 
 ## See also
 

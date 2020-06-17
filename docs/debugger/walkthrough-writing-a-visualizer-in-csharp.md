@@ -1,7 +1,7 @@
 ---
 title: "Write a visualizer in C# | Microsoft Docs"
 ms.custom: "seodec18"
-ms.date: "04/12/2019"
+ms.date: "05/27/2020"
 ms.topic: "conceptual"
 dev_langs:
   - "CSharp"
@@ -16,6 +16,7 @@ ms.workload:
   - "dotnet"
 ---
 # Walkthrough: Writing a Visualizer in C\#
+
 This walkthrough shows how to write a simple visualizer by using C#. The visualizer you will create in this walkthrough displays the contents of a string using a Windows forms message box. This simple string visualizer is not especially useful in itself, but it shows the basic steps that you must follow to create more useful visualizers for other data types.
 
 > [!NOTE]
@@ -127,7 +128,9 @@ Follow the tasks below to create a visualizer.
 
    That is the end of the debugger side code. There is one more step, however; the attribute that tells the debuggee side which collection of classes comprises the visualizer.
 
-### To add the debuggee-side code
+### To add the type to visualize for the debuggee-side code
+
+In the debugger-side code, you specify the type to visualize (the object source) for the debuggee using the <xref:System.Diagnostics.DebuggerVisualizerAttribute> attribute. The `Target` property sets the type to visualize.
 
 1. Add the following attribute code to DebuggerSide.cs, after the `using` directives but before `namespace MyFirstVisualizer`:
 
@@ -226,6 +229,8 @@ Follow the tasks below to create a visualizer.
 
    If you want to use your visualizer in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] rather than just calling it from the test harness, you have to install it. For more information, see [How to: Install a Visualizer](../debugger/how-to-install-a-visualizer.md).
 
+::: moniker range="vs-2017"
+
 ## Create a visualizer using the Visualizer item template
 
 So far, this walkthrough has shown you how to create a visualizer manually. This was done as a learning exercise. Now that you know how a simple visualizer works, there is an easier way to create one: using the visualizer item template.
@@ -259,6 +264,7 @@ First, you have to create a new class library project.
 5. Click **Add**.
 
    That is all there is to it. Look at the file SecondVisualizer.cs and view the code that the template added for you. Go ahead and experiment with the code. Now that you know the basics, you are on your way to creating more complex and useful visualizers of your own.
+::: moniker-end
 
 ## See also
 

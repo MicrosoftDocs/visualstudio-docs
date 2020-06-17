@@ -15,7 +15,7 @@ As a Visual Studio subscriptions administrator, you can use the administration p
 For groups of users, you have choices for how you assign subscriptions.  
 - You can assign subscriptions one at a time.
 - You can also quickly and easily upload lists of subscribers and their subscription information using the [Bulk add](assign-license-bulk.md) feature.
-- If your organization uses Microsoft Azure Active Directory (Azure AD), you can use Azure AD groups to assign subscriptions to groups of users.  (This feature is being deployed in phases and may not be immediately available to your organization.)
+- If your organization uses Microsoft Azure Active Directory (Azure AD), you can [use Azure AD groups to assign subscriptions](https://docs.microsoft.com/visualstudio/subscriptions/assign-license-bulk#use-azure-active-directory-groups-to-assign-subscriptions) to groups of users.  
 
 
 ## Add a single subscriber
@@ -34,7 +34,11 @@ Here's how to assign a Visual Studio subscription to a new user so that they can
    > [!div class="mx-imgBorder"]
    > ![Subscriber details](_img/assign-license-add/subscriber-details.png)
 
-    If you want this subscriber to have access to software downloads when they sign into the [Visual Studio Subscriptions Portal](https://my.visualstudio.com?wt.mc_id=o~msft~docs), make sure to leave the downloads toggle enabled in the **Download Settings** section. If you choose to disable downloads, the user will not have access to software downloads, but will still have access to all other benefits included in the subscription.
+    > [!NOTE]
+    > In order for members of an Azure Active Directory tenant to be visible when you enter a subscriber name, the administrator must be a member of the tenant. 
+
+
+    If you want this subscriber to have access to software downloads when they sign into the [Visual Studio Subscriptions Portal](https://my.visualstudio.com?wt.mc_id=o~msft~docs), make sure to leave the downloads toggle enabled in the **Download Settings** section. If you choose to disable downloads, the user will not have access to software downloads.  Access to product keys will also be disabled.  The subscriber will still have access to all other benefits included in the subscription.
    > [!div class="mx-imgBorder"]
    > ![Access to downloads](media/access-to-downloads.png)
 

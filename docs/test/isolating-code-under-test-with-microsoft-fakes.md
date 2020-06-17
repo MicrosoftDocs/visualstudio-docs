@@ -1,6 +1,6 @@
 ---
 title: Isolating Code Under Test with Microsoft Fakes
-ms.date: 11/04/2016
+ms.date: 06/03/2020
 ms.topic: conceptual
 ms.author: mikejo
 manager: jillfra
@@ -27,6 +27,7 @@ Fakes come in two flavors:
 
 - Visual Studio Enterprise
 - A .NET Framework project
+- .NET Core and SDK-style project support is currently in preview. [Read More](https://docs.microsoft.com/visualstudio/releases/2019/release-notes#microsoft-fakes-for-net-core-and-sdk-style-projects)
 
 > [!NOTE]
 > - .NET Standard projects are not supported.
