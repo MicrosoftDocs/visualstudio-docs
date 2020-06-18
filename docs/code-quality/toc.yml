@@ -595,6 +595,8 @@
           href: ca2011.md
         - name: "CA2013: Do not use ReferenceEquals with value types"
           href: ca2013.md
+        - name: "CA2014: Do not use stackalloc in loops"
+          href: ca2014.md
         - name: "CA2015: Do not define finalizers for types derived from MemoryManager<T>"
           href: ca2015.md
       - name: Security warnings
