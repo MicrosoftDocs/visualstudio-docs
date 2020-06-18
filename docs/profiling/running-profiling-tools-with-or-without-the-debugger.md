@@ -124,7 +124,7 @@ To measure performance data from the command line, you can use VSDiagnostics.exe
 
    You must include the following arguments:
 
-   - <id>: Identifies the collection session. The ID must be a number between 1-255.
+   - \<id\>: Identifies the collection session. The ID must be a number between 1-255.
    - <pid>: The PID of the process you want to profile, which in this case is the PID you found in step 1.
    - <configFile>: The configuration file for the collection agent you want to launch. For more information, see [Configuration files for agents](../profiling/profile-apps-from-command-line.md).
 
