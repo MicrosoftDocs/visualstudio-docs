@@ -24,7 +24,7 @@ XAML is also used to define workflows in [Windows WorkFlow Foundation (WF) apps]
 
 ## XAML code editor
 
-The [XAML code editor](xaml-code-editor.md) in the Visual Studio IDE includes all the tools you need to create WPF and UWP apps for the Windows platform, and for Xamarin.Forms.
+The [XAML code editor](xaml-code-editor.md) in the Visual Studio IDE includes all the tools you need to create WPF and UWP apps for the Windows platform, and for Xamarin.Forms. 
 
 ## XAML Designer
 
