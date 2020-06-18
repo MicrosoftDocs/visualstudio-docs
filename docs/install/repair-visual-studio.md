@@ -2,7 +2,7 @@
 title: Repair Visual Studio
 titleSuffix: ''
 description: Learn how to repair an installation of Visual Studio 2017
-ms.date: 07/31/2019
+ms.date: 06/15/2020
 ms.custom: seodec18
 ms.topic: conceptual
 author: ornellaalt
@@ -16,9 +16,21 @@ ms.technology: vs-installation
 
 # Repair Visual Studio
 
-::: moniker range="vs-2017"
+Sometimes your Visual Studio installation becomes damaged or corrupted. A repair is useful for fixing install-time issues across all install operations, including updates.
 
-Sometimes your Visual Studio installation becomes damaged or corrupted. A repair can fix this.
+## When to use repair
+* If you're having installation payload issues. This may happen when writing the file to disk is not successful, and can't be fixed by deleting the corrupted file. Repair can re-acquire needed files. 
+* If you're having client-side download issues. Assuming you've resolved any connection or proxy issues, repair may help. 
+* If you're having issues updating Visual Studio. Repair fixes many common update issues. 
+
+> [!TIP] 
+> If the install issue is caused by an issue in an underlying Windows service, like Windows Installer, repair may hit the same issue. Systemic issues can include a broken Windows Installer or unstable internet connection. To check for a systemic issue, use the error report generated from the installation operation.
+
+> [!NOTE] 
+> Repairing Visual Studio resets user settings, and re-installs the assemblies you already have. If you're experiencing a product issue, create a [Visual Studio Feedback Ticket](https://developercommunity.visualstudio.com/content/problem/post.html?space=8), as repair might not solve the issue.
+
+## How to repair
+::: moniker range="vs-2017"
 
 1. Find the **Visual Studio Installer** on your computer.
 
@@ -45,7 +57,7 @@ Sometimes your Visual Studio installation becomes damaged or corrupted. A repair
 
 ::: moniker range="vs-2019"
 
-1. Find the Visual Studio Installer on your computer.
+1. Find the **Visual Studio Installer** on your computer.
 
      For example, on a computer running Windows 10, select **Start**, and then scroll to the letter **V**, where it's listed as **Visual Studio Installer**.
 
