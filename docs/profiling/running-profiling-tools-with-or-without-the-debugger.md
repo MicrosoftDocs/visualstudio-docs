@@ -149,7 +149,7 @@ For convenience, you can store that information in an agent configuration file. 
 <Visual Studio installation folder>\Team Tools\DiagnosticsHub\Collector\AgentConfigs\
 ```
 
-Please see the following links to agent configuration files:
+Please see the following links to download and view agent configuration files:
 
 - https://aka.ms/vs/diaghub/agentconfig/cpubase
 - https://aka.ms/vs/diaghub/agentconfig/cpuhigh
