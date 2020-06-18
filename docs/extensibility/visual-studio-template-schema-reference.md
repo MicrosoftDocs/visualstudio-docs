@@ -1,18 +1,18 @@
 ---
-title: "Visual Studio Template Schema Reference | Microsoft Docs"
-ms.date: "11/04/2016"
+title: Visual Studio Template Schema Reference | Microsoft Docs
+ms.date: 11/04/2016
 ms.technology: vs-ide-general
 ms.topic: reference
 helpviewer_keywords:
-  - "VSTEMPLATE files"
-  - "Visual Studio templates, schema"
-  - ".vstemplate files"
+- VSTEMPLATE files
+- Visual Studio templates, schema
+- .vstemplate files
 ms.assetid: 6f74a2d5-3811-43d6-8b10-eb5823ad8995
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Visual Studio template schema reference
 This section contains information about XML elements in *.vstemplate* files, which are files that store metadata for project templates, item templates, and Starter Kits.

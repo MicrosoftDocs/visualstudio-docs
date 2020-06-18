@@ -3,19 +3,19 @@ title: Class View and Object Browser Icons
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
-  - "icons, in Object Browser"
-  - "signal icons"
-  - "Class View tool, symbols"
-  - "graphic symbols"
-  - "IntelliSense, icons"
-  - "icons, IntelliSense"
-  - "symbols, Object Browser icons"
-  - "Object Browser, icons in Class View"
-author: jillre
-ms.author: jillfra
+- icons, in Object Browser
+- signal icons
+- Class View tool, symbols
+- graphic symbols
+- IntelliSense, icons
+- icons, IntelliSense
+- symbols, Object Browser icons
+- Object Browser, icons in Class View
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Class View and Object Browser icons
 
@@ -36,6 +36,11 @@ ms.workload:
 |![Exception Symbol](../ide/media/vxexception_icon.gif)|Exception|![Template Symbol](../ide/media/vxtemplate_icon.gif)|Template|
 |![Map Symbol](../ide/media/vxmap_icon.gif)|Map|![Error Exclamation Point Symbol](../ide/media/vxerror_icon.gif)|Unknown|
 |![Type Forwarding Symbol](../ide/media/ob_type_forward.gif)|Type Forwarding|||
+
+> [!TIP]
+> To best view the icons on this page, make sure that your Microsoft Docs theme is set to **Light**. You can toggle this color theme from the control that's located at the bottom left of the page, as shown in the following screenshot:
+>
+> ![Docs theme](../ide/media/toggle-docs-color-theme.png "Toggle the color theme for Microsoft Docs pages")
 
 ## Signal icons
 

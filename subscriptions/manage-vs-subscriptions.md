@@ -3,7 +3,8 @@ title:  Manage Visual Studio Subscriptions
 author: evanwindom
 ms.author: lank
 manager: lank
-ms.date: 07/17/2019
+ms.assetid: 196c6d04-9a33-47d5-b0f1-038e7c3a7ac9
+ms.date: 03/09/2020
 ms.topic: conceptual
 description: Learn how to get the most out of your Visual Studio subscriptions
 ---
@@ -37,7 +38,7 @@ On the Benefits page, the subscription in use will be prominently displayed in t
 ## Renewing my subscriptions
 
 **Standard subscriptions**
-- Microsoft Store: If you purchased your subscription from the [Microsoft Store](http://www.microsoft.com/store), you can renew it there as well.
+- Microsoft Store: If you purchased your subscription from the [Microsoft Store](https://www.microsoft.com/store), you can renew it there as well.
 - Volume License:  If your company buys subscriptions through a Volume License, your admin should contact a reseller to renew your subscriptions.
 
 **Cloud subscriptions:**  Cloud subscriptions don't need to be renewed. As long as your subscription is paid, it will remain active.
@@ -45,7 +46,6 @@ On the Benefits page, the subscription in use will be prominently displayed in t
 **Subscriptions acquired through programs:**  If you get your subscription through a program, your subscription is tied to your participation in the program. Please reach out to your program contacts for additional information.
 
 - [Imagine](https://imagine.microsoft.com/about)
-- [BizSpark](https://bizspark.microsoft.com/About/Offers)
 - [Microsoft Partner Network](https://partner.microsoft.com)
 - [Microsoft Certified Trainer](https://www.microsoft.com/learning/mct-certification.aspx)
 
@@ -99,10 +99,24 @@ A: Depending on the purchasing channel, Microsoft maintains customer data for di
 |    Volume Licensing Service Center (VLSC)              |    180          |
 |    Microsoft Products and Services Agreement (MPSA)    |    180          |
 |    Visual Studio Cloud Subscriptions                   |    180          |
-|    Program (e.g. MCT, BizSpark, MPN, Imagine)          |    180          |
+|    Program (e.g. MCT, MPN, Imagine)          |    180          |
 |    Not For Resale (e.g. MVP, MSP)                      |    180          |
 |    DevEssentials                                       |    30           |
 
 > [!NOTE]
 > - If you choose to close your Microsoft Account or Azure AD, your personal data will be anonymized immediately.
 > - We will not fully remove all your personal data if you have active subscriptions.
+
+## See also
+- [Visual Studio documentation](https://docs.microsoft.com/visualstudio/)
+- [Azure DevOps documentation](https://docs.microsoft.com/azure/devops/)
+- [Azure documentation](https://docs.microsoft.com/azure/)
+- [Microsoft 365 documentation](https://docs.microsoft.com/microsoft-365/)
+
+## Next steps
+Do you manage subscriptions for your organization?  Learn more about managing Visual Studio subscriptions:
+- [Assign individual subscriptions](assign-license.md)
+- [Assign multiple subscriptions](assign-license-bulk.md)
+- [Edit subscriptions](edit-license.md)
+- [Delete subscriptions](delete-license.md)
+- [Determine maximum usage](maximum-usage.md)

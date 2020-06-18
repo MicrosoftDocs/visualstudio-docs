@@ -1,4 +1,4 @@
-﻿---
+---
 title: Using Windows PowerShell Scripts to Publish to Dev and Test Environments | Microsoft Docs
 description: Learn how to use Windows PowerShell scripts from Visual Studio to publish to development and test environments.
 author: ghogen
@@ -20,13 +20,13 @@ Using these scripts, you can provision customized versions (also known as dev an
 
 ## Prerequisites
 
-* Azure SDK 2.3 or later. See [Visual Studio Downloads](http://go.microsoft.com/fwlink/?LinkID=624384). (You don't need the Azure SDK to generate the scripts for web projects. This feature is for web projects, not web roles in cloud services.)
+* Azure SDK 2.3 or later. See [Visual Studio Downloads](https://visualstudio.microsoft.com/downloads/). (You don't need the Azure SDK to generate the scripts for web projects. This feature is for web projects, not web roles in cloud services.)
 * Azure PowerShell 0.7.4 or later. See [How to install and configure Azure PowerShell](/powershell/azure/overview).
-* [Windows PowerShell 3.0](http://go.microsoft.com/?linkid=9811175) or later.
+* [Windows PowerShell 3.0](/aspnet/aspnet/overview/developing-apps-with-windows-azure/building-real-world-cloud-apps-with-windows-azure/source-control) or later.
 
 ## Additional tools
 
-Additional tools and resources for working with PowerShell in Visual Studio for Azure development are available. See [PowerShell Tools for Visual Studio](http://go.microsoft.com/fwlink/?LinkId=404012).
+Additional tools and resources for working with PowerShell in Visual Studio for Azure development are available. See [PowerShell Tools for Visual Studio](https://visualstudiogallery.msdn.microsoft.com/c9eb3ba8-0c59-4944-9a62-6eee37294597).
 
 ## Generating the publish scripts
 
@@ -246,7 +246,7 @@ To automate building your project, add code that calls MSBuild to `New-WebDeploy
         #Write a function to build and package your web application
     ```
 
-    To build your web application, use MsBuild.exe. For help, see MSBuild Command-Line Reference at: [http://go.microsoft.com/fwlink/?LinkId=391339](http://go.microsoft.com/fwlink/?LinkId=391339)
+    To build your web application, use MsBuild.exe. For help, see MSBuild Command-Line Reference at: [http://go.microsoft.com/fwlink/?LinkId=391339](https://msdn.microsoft.com/library/ms164311.aspx)
 
     ```powershell
     Write-VerboseWithTime 'Build-WebDeployPackage: Start'
@@ -344,4 +344,4 @@ To get help for functions you can use at the Windows PowerShell command prompt, 
 | Test-WebApplication |This function isn't implemented. You can add commands in this function to test your application. |
 
 ## Next steps
-Learn more about PowerShell scripting by reading [Scripting with Windows PowerShell](https://technet.microsoft.com/library/bb978526.aspx) and see other Azure PowerShell scripts at the [Script Center](https://azure.microsoft.com/documentation/scripts/).
+Learn more about PowerShell scripting by reading [Scripting with Windows PowerShell](/powershell/scripting/overview) and see other Azure PowerShell scripts at the [Script Center](https://azure.microsoft.com/documentation/scripts/).

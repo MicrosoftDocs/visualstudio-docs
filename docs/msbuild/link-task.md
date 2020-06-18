@@ -1,40 +1,42 @@
 ---
-title: "Link Task | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "reference"
+title: Link Task | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: reference
 f1_keywords:
-  - "VC.Project.VCLinkerTool.ForceFileOutput"
-  - "VC.Project.VCLinkerTool.LinkStatus"
-  - "VC.Project.VCLinkerTool.CLRUnmanagedCodeCheck"
-  - "VC.Project.VCLinkerTool.SpecifySectionAttributes"
-  - "VC.Project.VCLinkerTool.SupportNobindOfDelayLoadedDLL"
-  - "VC.Project.VCLinkerTool.MinimumRequiredVersion"
-  - "VC.Project.VCLinkerTool.PerUserRedirection"
-  - "VC.Project.VCLinkerTool.CreateHotPatchableImage"
-  - "VC.Project.VCLinkerTool.DataExecutionPrevention"
-  - "VC.Project.VCLinkerTool.TreatLinkerWarningsAsErrors"
-  - "vc.task.link"
-  - "VC.Project.VCLinkerTool.ImageHasSafeExceptionHandlers"
-  - "VC.Project.VCLinkerTool.CLRSupportLastError"
+- VC.Project.VCLinkerTool.ForceFileOutput
+- VC.Project.VCLinkerTool.LinkStatus
+- VC.Project.VCLinkerTool.CLRUnmanagedCodeCheck
+- VC.Project.VCLinkerTool.SpecifySectionAttributes
+- VC.Project.VCLinkerTool.SupportNobindOfDelayLoadedDLL
+- VC.Project.VCLinkerTool.MinimumRequiredVersion
+- VC.Project.VCLinkerTool.PerUserRedirection
+- VC.Project.VCLinkerTool.CreateHotPatchableImage
+- VC.Project.VCLinkerTool.DataExecutionPrevention
+- VC.Project.VCLinkerTool.TreatLinkerWarningsAsErrors
+- vc.task.link
+- VC.Project.VCLinkerTool.ImageHasSafeExceptionHandlers
+- VC.Project.VCLinkerTool.CLRSupportLastError
 dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
+- VB
+- CSharp
+- C++
+- jsharp
 helpviewer_keywords:
-  - "MSBuild (C++), Link task"
-  - "Link task (MSBuild (C++))"
+- MSBuild (C++), Link task
+- Link task (MSBuild (C++))
 ms.assetid: 0a61f168-3113-4fa7-83a3-d9142e2a33f8
-author: mikejo5000
-ms.author: mikejo
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Link task
-Wraps the Microsoft C++ linker tool, *link.exe*. The linker tool links Common Object File Format (COFF) object files and libraries to create an executable (*.exe*) file or a dynamic-link library (DLL). For more information, see [Linker options](/cpp/build/reference/linker-options).
+
+Wraps the Microsoft C++ linker tool, *link.exe*. The linker tool links Common Object File Format (COFF) object files and libraries to create an executable (*.exe*) file or a dynamic-link library (DLL). For more information, see [Linker options](/cpp/build/reference/linker-options) and [Use MSBuild from the command line](/cpp/build/msbuild-visual-cpp) and [Use the Microsoft C++ toolset from the command line](/cpp/build/building-on-the-command-line).
 
 ## Parameters
+
  The following describes the parameters of the **Link** task. Most task parameters, and a few sets of parameters, correspond to a command-line option.
 
 - **AdditionalDependencies**
@@ -918,4 +920,5 @@ Wraps the Microsoft C++ linker tool, *link.exe*. The linker tool links Common Ob
   For more information, see [/VERSION (Version information)](/cpp/build/reference/version-version-information).
 
 ## See also
+
 - [Task reference](../msbuild/msbuild-task-reference.md)

@@ -1,18 +1,18 @@
 ---
-title: "VSCodeWindow Object | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: VSCodeWindow Object | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 f1_keywords:
-  - "VSCodeWindow"
+- VSCodeWindow
 helpviewer_keywords:
-  - "views [Visual Studio SDK], VSCodeWindow object"
-  - "VsCodeWindow object"
+- views [Visual Studio SDK], VSCodeWindow object
+- VsCodeWindow object
 ms.assetid: cf5fe926-e784-4098-bc01-cac49c7c55c6
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # VSCodeWindow object
 A code window is a specialized document window that can include one or more text views, usually the <xref:Microsoft.VisualStudio.TextManager.Interop.VsTextView> object.

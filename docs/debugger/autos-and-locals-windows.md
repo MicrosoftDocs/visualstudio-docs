@@ -65,6 +65,20 @@ Use the left and right arrows (Shift+F3 and F3, respectively) to navigate betwee
 
 To make your search more or less thorough, use the **Search Deeper** dropdown at the top of the **Autos** or **Locals** window to select how many levels deep you want to search into nested objects. 
 
+## Pin properties in the Autos or Locals window
+
+> [!NOTE]
+> This feature is supported for .NET Core 3.0 or higher.
+
+You can quickly inspect objects by their properties in the Autos and Locals windows with the **Pinnable Properties** tool.  To use this tool, hover over a property and select the pin icon that appears or right-click and select the **Pin Member as Favorite** option in the resulting context menu.  This bubbles up that property to the top of the object’s property list, and the property name and value is displayed in the **Value** column.  To unpin a property, select the pin icon again or select the **Unpin Member as Favorite** option in the context menu.
+
+![Pin properties in the Locals window](../debugger/media/basic-pin.gif "Pin properties in the Locals window")
+
+You can also toggle property names and filter out non-pinned properties when viewing the object’s property list in the Autos or Locals windows.  You can access each option by selecting the buttons in the toolbar above the Autos or Locals windows.
+
+![Filter favorite properties](../debugger/media/filter-pinned-properties-locals.png "Filter favorite properties")
+![Toggle property names](../debugger/media/toggle-property-names.gif "Toggle property names")
+
 ::: moniker-end
 
 ## Change the context for the Autos or Locals window

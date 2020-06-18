@@ -1,16 +1,16 @@
 ---
-title: "Launching a Program | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Launching a Program | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "debug engines, launching"
-  - "programs, launching"
+- debug engines, launching
+- programs, launching
 ms.assetid: 6857e9c6-e44a-468a-afa4-f7c4a0b77844
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Launch a program
 Users who want to debug a program can press **F5** to run the debugger from the IDE. This begins a series of events that ultimately result in the IDE's connecting to a debug engine (DE), which is in turn connected, or attached, to the program as follows:

@@ -1,8 +1,8 @@
 ---
 title: "Create a Node.js and React app"
 description: In this tutorial, you create an app in using Node.js tools for Visual Studio
-ms.custom: "mvc"
-ms.date: 11/01/2019
+ms.custom: ""
+ms.date: 4/21/2020
 ms.topic: tutorial
 ms.devlang: javascript
 author: mikejo5000
@@ -66,9 +66,11 @@ webpack bundles JavaScript files so they can run in a browser. It can also trans
 
 * You must have the Node.js runtime installed.
 
-    This tutorial was tested with version 10.16.0.
+    This tutorial was tested with version 12.6.2.
 
-    If you don't have it installed, install the LTS version from the [Node.js](https://nodejs.org/en/download/) website. In general, Visual Studio automatically detects the installed Node.js runtime. If it does not detect an installed runtime, you can configure your project to reference the installed runtime in the properties page (after you create a project, right-click the project node and choose **Properties**).
+    If you don't have it installed, we recommend you install the LTS version from the [Node.js](https://nodejs.org/en/download/) website for best compatibility with outside frameworks and libraries. Node.js is built for 32-bit and 64-bit architectures. The Node.js tools in Visual Studio, included in the Node.js workload, support both versions. Only one is required and the Node.js installer only supports one being installed at a time.
+    
+    In general, Visual Studio automatically detects the installed Node.js runtime. If it does not detect an installed runtime, you can configure your project to reference the installed runtime in the properties page (after you create a project, right-click the project node, choose **Properties**, and set the **Node.exe path**). You can use a global installation of Node.js or you can specify the path to a local interpreter in each of your Node.js projects. 
 
 ## Create a project
 
@@ -79,7 +81,9 @@ First, create a Node.js web application project.
 1. Create a new project.
 
     ::: moniker range=">=vs-2019"
-    Press **Esc** to close the start window. Type **Ctrl + Q** to open the search box, type **Node.js**, then choose **Blank Node.js Web Application** (JavaScript). In the dialog box that appears, choose **Create**.
+    Press **Esc** to close the start window. Type **Ctrl + Q** to open the search box, type **Node.js**, then choose **Blank Node.js Web Application - JavaScript**. (Although this tutorial uses the TypeScript compiler, the steps require that you start with the **JavaScript** template.)
+    
+    In the dialog box that appears, choose **Create**.
     ::: moniker-end
     ::: moniker range="vs-2017"
     From the top menu bar, choose **File** > **New** > **Project**. In the left pane of the **New Project** dialog box, expand **JavaScript**, then choose **Node.js**. In the middle pane, choose **Blank Node.js Web Application**, type the name **NodejsWebAppBlank**, then choose **OK**.
@@ -96,7 +100,7 @@ First, create a Node.js web application project.
 
     (3) The npm node shows any installed npm packages. You can right-click the npm node to search for and install npm packages using a dialog box or install and update packages using the settings in *package.json* and right-click options in the npm node.
 
-    (4) *package.json* is a file used by npm to manage package dependencies and package versions for locally-installed packages. For more information on this file, see [package.json configuration](../javascript/configure-packages-with-package-json.md)
+    (4) *package.json* is a file used by npm to manage package dependencies and package versions for locally-installed packages. For more information, see [Manage npm packages](../javascript/npm-package-management.md).
 
     (5) Project files such as *server.js* show up under the project node. *server.js* is the project startup file and that is why it shows up in **bold**. You can set the startup file by right-clicking a file in the project and selecting **Set as Node.js startup file**.
 
@@ -115,11 +119,11 @@ This app requires a number of npm modules to run correctly.
 
 1. In Solution Explorer (right pane), right-click the **npm** node in the project and choose **Install New npm Packages**.
 
-    In the **Install New npm Packages** dialog box, you can choose to install the most current package version or specify a version. If you choose to install the current version of these packages, but run into unexpected errors later, you may need to install the exact package versions described later in these steps.
+    In the **Install New npm Packages** dialog box, you can choose to install the most current package version or specify a version. If you choose to install the current version of these packages, but run into unexpected errors later, you may want to install the exact package versions described later in these steps.
 
 1. In the **Install New npm Packages** dialog box, search for the react package, and select **Install Package** to install it.
 
-    ![Install npm packages](../javascript/media/tutorial-nodejs-react-install-packages.png)
+    ![Install npm packages](../javascript/media/tutorial-nodejs-react-install-package.png)
 
     Select the **Output** window to see progress on installing the package (select **Npm** in the **Show output from** field). When installed, the package appears under the **npm** node.
 
@@ -129,14 +133,14 @@ This app requires a number of npm modules to run correctly.
 
     ```json
     "dependencies": {
-      "express": "~4.16.4",
+      "express": "~4.17.1",
       "path": "~0.12.7",
-      "react": "~16.6.0",
-      "react-dom": "~16.6.0",
-      "ts-loader": "~5.3.0",
-      "typescript": "~3.1.5",
-      "webpack": "~4.23.1",
-      "webpack-cli": "~3.1.2"
+      "react": "~16.13.1",
+      "react-dom": "~16.13.1",
+      "ts-loader": "~7.0.1",
+      "typescript": "~3.8.3",
+      "webpack": "~4.42.1",
+      "webpack-cli": "~3.3.11"
     }
     ```
 
@@ -144,13 +148,15 @@ This app requires a number of npm modules to run correctly.
 
 1. Save the changes.
 
-1. Right-click **npm** node in your project and choose **Update npm Packages**.
+1. Right-click **npm** node in your project and choose **Install npm Packages**.
+
+    This command runs the npm install command directly.
 
     In the lower pane, select the **Output** window to see progress on installing the packages. Installation may take a few minutes and you may not see results immediately. To see the output, make sure that you select **Npm** in the **Show output from** field in the **Output** window.
 
     Here are the npm modules as they appear in Solution Explorer after they are installed.
 
-    ![npm packages](../javascript/media/tutorial-nodejs-react-npm-modules.png)
+    ![npm packages](../javascript/media/tutorial-nodejs-react-npm-modules-installed.png)
 
     > [!NOTE]
     > If you prefer to install npm packages using the command line, right-click the project node and choose **Open Command Prompt Here**. Use standard Node.js commands to install packages.
@@ -300,7 +306,7 @@ In the previous steps, you added *webpack-config.js* to the project. Next, you a
 
     The command prompt window shows the result.
 
-    ![Run webpack](../javascript/media/tutorial-nodejs-react-run-webpack.png)
+    ![Run webpack](../javascript/media/tutorial-nodejs-react-run-webpack-cmd.png)
 
     If you see any errors instead of the preceding output, you must resolve them before your app will work. If your npm package versions are different than the versions shown in this tutorial, that can be a source of errors. One way to fix errors is to use the exact versions shown in the earlier steps. Also, if one or more of these package versions has been deprecated and results in an error, you may need to install a more recent version to fix errors. For information on using *package.json* to control npm package versions, see [package.json configuration](../javascript/configure-packages-with-package-json.md).
 
@@ -330,7 +336,7 @@ Starting in Visual Studio 2019, a build script is required. Instead of transpili
 
 ## Run the app
 
-1. Select either Microsoft Edge or Chrome as the current debug target.
+1. Select either **Web Server (Google Chrome)** or **Web Server (Microsoft Edge)** as the current debug target.
 
     ::: moniker range=">=vs-2019"
     ![Select Chrome as debug target](../javascript/media/vs-2019/tutorial-nodejs-react-debug-target.png)
@@ -339,12 +345,7 @@ Starting in Visual Studio 2019, a build script is required. Instead of transpili
     ![Select Chrome as debug target](../javascript/media/tutorial-nodejs-react-debug-target.png)
     ::: moniker-end
 
-    ::: moniker range=">=vs-2019"
-    If Chrome is available on your machine, but does not show up as an option, choose **Web Browser (browsername)** > **Select Web Browser** from the debug target dropdown list, and select **Chrome** as the default browser target.
-    ::: moniker-end
-    ::: moniker range="vs-2017"
-    If Chrome is available on your machine, but does not show up as an option, choose **Web Browser (browsername)** > **Google Chrome** from the debug target dropdown list, and select **Chrome** as the default browser target.
-    ::: moniker-end
+    If Chrome is available on your machine, but does not show up as an option, choose **Browse With** from the debug target dropdown list, and select Chrome as the default browser target (choose **Set as Default**).
 
 1. To run the app, press **F5** (**Debug** > **Start Debugging**) or the green arrow button.
 
@@ -394,7 +395,7 @@ For this scenario, use Chrome.
    Other browser instances can prevent the browser from opening with debugging enabled. (Browser extensions may be running and preventing full debug mode, so you may need to open Task Manager to find unexpected instances of Chrome.)
 
    ::: moniker range=">=vs-2019"
-   For Microsoft Edge (Chromium), also shut down all instances of Chrome. Because both browsers use the chromium code base, this gives the best results.
+   For Microsoft Edge (Chromium), also shut down all instances of Chrome. Because both browsers share the chromium code base, this gives the best results.
    ::: moniker-end
 
 2. Start your browser with debugging enabled.
@@ -507,7 +508,6 @@ For this scenario, use Chrome.
       * You closed all browser instances, including Chrome extensions (using the Task Manager), so that you can run the browser in debug mode. Make sure you start the browser in debug mode.
 
       * Make sure that your source map file includes a reference to *./app.tsx* and not *webpack:///./app.tsx*, which prevents the Visual Studio debugger from locating *app.tsx*.
-
        Alternatively, if you need to break into code in *app.tsx* and are unable to do it, try using the `debugger;` statement in *app.tsx*, or set breakpoints in the Chrome Developer Tools (or F12 Tools for Microsoft Edge) instead.
 
    * If you need to break into code in *app-bundle.js* and are unable to do it, remove the source map file, *app-bundle.js.map*.

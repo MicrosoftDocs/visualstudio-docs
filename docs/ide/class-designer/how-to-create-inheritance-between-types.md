@@ -1,18 +1,18 @@
 ---
-title: "How to: Create Inheritance Between Types (Class Designer)"
+title: 'How to: Create Inheritance Between Types (Class Designer)'
 ms.date: 11/04/2016
 ms.topic: conceptual
 f1_keywords:
-  - "vs.classdesigner.inheritanceline"
+- vs.classdesigner.inheritanceline
 helpviewer_keywords:
-  - "inheritance, relationship defining"
-  - "relationships, defining inheritance"
+- inheritance, relationship defining
+- relationships, defining inheritance
 ms.assetid: 3786a21c-8022-4bf5-9d13-740fd354e93c
-author: jillre
-ms.author: jillfra
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # How to: Create inheritance between types in Class Designer
 

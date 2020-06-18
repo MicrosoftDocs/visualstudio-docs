@@ -1,15 +1,15 @@
 ---
-title: "IDebugProgramDestroyEventFlags2 | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugProgramDestroyEventFlags2 | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
-  - "IDebugProgramDestroyEventFlags2 interface"
+- IDebugProgramDestroyEventFlags2 interface
 ms.assetid: d384ff71-dc71-40b9-a871-801f8b6a3418
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # IDebugProgramDestroyEventFlags2
 Enables a debug engine to override the default behavior of the [!INCLUDE[vsprvs](../../../code-quality/includes/vsprvs_md.md)] UI when you end a debug session.

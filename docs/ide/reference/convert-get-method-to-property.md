@@ -1,23 +1,26 @@
 ---
 title: Convert Get method to property; convert property to Get method
-ms.date: 01/26/2018
+ms.date: 03/10/2020
 ms.topic: reference
 ms.devlang: csharp
-author: jillre
-ms.author: jillfra
+author: mikadumont
+ms.author: midumont
 manager: jillfra
 f1_keywords:
-  - "vs.csharp.refactoring.convertmethodtoproperty"
+- vs.csharp.refactoring.convertmethodtoproperty
 dev_langs:
-  - CSharp
+- CSharp
+- VB
 ms.workload:
-  - "dotnet"
+- dotnet
 ---
 # Convert Get method to property / Convert property to Get method refactorings
 
 These refactorings apply to:
 
 - C#
+
+- Visual Basic
 
 ## Convert Get method to property
 

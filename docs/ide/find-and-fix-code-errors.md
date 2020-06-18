@@ -4,11 +4,11 @@ description: This article describes some basic ways Visual Studio can help you f
 ms.date: 05/02/2018
 ms.topic: conceptual
 ms.assetid: c3a14d28-d811-4ff3-bd09-21dce14025ca
-author: jillre
-ms.author: jillfra
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Make code work in Visual Studio
 
@@ -72,7 +72,7 @@ Visual Studio includes a built-in set of [.NET Compiler Platform analyzers](../c
 
 ### C++ code analysis
 
-To analyze C++ code, run [static code analysis](../code-quality/quick-start-code-analysis-for-c-cpp.md). Get in the habit of running it once you've cleaned up the obvious errors that prevent a successful build, and take some time to address the warnings it may produce. You'll save yourself some headaches down the road, and you may learn a few code style techniques.
+To analyze C++ code, run [static code analysis](/cpp/code-quality/quick-start-code-analysis-for-c-cpp). Get in the habit of running it once you've cleaned up the obvious errors that prevent a successful build, and take some time to address the warnings it may produce. You'll save yourself some headaches down the road, and you may learn a few code style techniques.
 
 Press **Alt**+**F11** (or select **Analyze** > **Run Code Analysis on Solution** from the top menu) to start static code analysis.
 

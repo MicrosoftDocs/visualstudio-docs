@@ -1,12 +1,12 @@
 ---
-title: "Configure unit tests with a .runsettings file"
-ms.date: 06/14/2019
+title: Configure unit tests with a .runsettings file
+ms.date: 10/03/2019
 ms.topic: conceptual
-ms.author: jillfra
+ms.author: mikejo
 manager: jillfra
 ms.workload:
-  - "multiple"
-author: jillre
+- multiple
+author: mikejo5000
 ---
 # Configure unit tests by using a *.runsettings* file
 
@@ -32,11 +32,53 @@ The file appears on the Test Settings menu, and you can select or deselect it. W
 
 ::: moniker range=">=vs-2019"
 
+#### Visual Studio 2019 version 16.3 and earlier
+
 To specify a run settings file in the IDE, select **Test** > **Select Settings File**. Browse to and select the *.runsettings* file.
 
 ![Select test settings file menu in Visual Studio 2019](media/vs-2019/select-settings-file.png)
 
 The file appears on the Test menu, and you can select or deselect it. While selected, the run settings file applies whenever you select **Analyze Code Coverage**.
+
+#### Visual Studio 2019 version 16.4 and later
+
+There are three ways of specifying a run settings file in Visual Studio 2019 version 16.4 and later:
+
+- Add a build property to a project through either the project file or a Directory.Build.props file. The run settings file for a project is specified by the property **RunSettingsFilePath**.
+
+    - Project-level run settings is currently supported in C#, VB, C++, and F# projects.
+    - A file specified for a project overrides any other run settings file specified in the solution.
+    - [These MSBuild properties](https://docs.microsoft.com/visualstudio/msbuild/msbuild-reserved-and-well-known-properties?view=vs-2019) can be used to specify the path to the runsettings file. 
+
+    Example of specifying a *.runsettings* file for a project:
+    
+    ```xml
+    <Project Sdk="Microsoft.NET.Sdk">
+      <PropertyGroup>
+        <RunSettingsFilePath>$(MSBuildProjectDirectory)\example.runsettings</RunSettingsFilePath>
+      </PropertyGroup>
+      ...
+    </Project>
+    ```
+
+- Place a run settings file named ".runsettings" at the root of your solution.
+
+  If auto detection of run settings files is enabled, the settings in this file are applied across all tests run. You can turn on auto detection of runsettings files from two places:
+  
+    - **Tools** > **Options** > **Test** > **Auto Detect runsettings Files**
+
+      ![Auto detect runsettings file option in Visual Studio 2019](media/vs-2019/auto-detect-runsettings-tools-window.png)
+      
+    - **Test** > **Configure Run Settings** > **Auto Detect runsettings Files**
+    
+      ![Auto detect runsettings file menu in Visual Studio 2019](media/vs-2019/auto-detect-runsettings-menu.png)
+
+- In the IDE, select **Test** > **Configure Run Settings** > **Select Solution Wide runsettings File**, and then select the *.runsettings* file.
+
+   ![Select test solution-wide runsettings file menu in Visual Studio 2019](media/vs-2019/select-solution-settings-file.png)
+      
+   - This file overrides the ".runsettings" file at the root of the solution, if it exists, and is applied across all tests run.  
+   - This file selection only persists locally. 
 
 ::: moniker-end
 
@@ -209,8 +251,9 @@ The **RunConfiguration** element can include the following elements:
 |**TargetPlatform**|x86|x86, x64|
 |**TreatTestAdapterErrorsAsWarnings**|false|false, true|
 |**TestAdaptersPaths**||One or more paths to the directory where the TestAdapters are located|
-|**MaxCpuCount**|1|This setting controls the degree of parallel test execution when running unit tests using available cores on the machine. The test execution engine starts as a distinct process on each available core, and gives each core a container with tests to run. A container can be an assembly, DLL, or relevant artifact. The test container is the scheduling unit. In each container, the tests are run according to the test framework. If there are many containers, then as processes finish executing the tests in a container, they're given the next available container.<br /><br />MaxCpuCount can be:<br /><br />n, where 1 <= n <= number of cores: up to n processes are launched<br /><br />n, where n = any other value: the number of processes launched can be up to the number of available cores|
+|**MaxCpuCount**|1|This setting controls the degree of parallel test execution when running unit tests using available cores on the machine. The test execution engine starts as a distinct process on each available core, and gives each core a container with tests to run. A container can be an assembly, DLL, or relevant artifact. The test container is the scheduling unit. In each container, the tests are run according to the test framework. If there are many containers, then as processes finish executing the tests in a container, they're given the next available container.<br /><br />MaxCpuCount can be:<br /><br />n, where 1 <= n <= number of cores: up to n processes are launched<br /><br />n, where n = any other value: the number of processes launched can be up to the number of available cores. For instance, set n=0 to let the platform automatically decide the optimal number of processes to launch based on the environment.|
 |**TestSessionTimeout**||Allows users to terminate a test session when it exceeds a given timeout. Setting a timeout ensures that resources are well consumed and test sessions are constrained to a set time. The setting is available in **Visual Studio 2017 version 15.5** and later.|
+|**DotnetHostPath**||Specify a custom path to dotnet host that is used to run the testhost. This is useful when you are building your own dotnet, for example when building the dotnet/runtime repository. Specifying this option will skip looking for testhost.exe, and will always use the testhost.dll. 
 
 ### Diagnostic data adapters (data collectors)
 
@@ -281,7 +324,7 @@ These settings are specific to the test adapter that runs test methods that have
 |Configuration|Default|Values|
 |-|-|-|
 |**ForcedLegacyMode**|false|In Visual Studio 2012, the MSTest adapter was optimized to make it faster and more scalable. Some behavior, such as the order in which tests are run, might not be exactly as it was in previous editions of Visual Studio. Set this value to **true** to use the older test adapter.<br /><br />For example, you might use this setting if you have an *app.config* file specified for a unit test.<br /><br />We recommend that you consider refactoring your tests to allow you to use the newer adapter.|
-|**IgnoreTestImpact**|false|The test impact feature prioritizes tests that are affected by recent changes, when run in MSTest or from Microsoft Test Manager. This setting deactivates the feature. For more information, see [Which tests should be run since a previous build](https://msdn.microsoft.com/library/dd286589).|
+|**IgnoreTestImpact**|false|The test impact feature prioritizes tests that are affected by recent changes, when run in MSTest or from Microsoft Test Manager (deprecated in Visual Studio 2017). This setting deactivates the feature. For more information, see [Which tests should be run since a previous build](https://msdn.microsoft.com/library/dd286589).|
 |**SettingsFile**||You can specify a test settings file to use with the MSTest adapter here. You can also specify a test settings file [from the settings menu](#ide).<br /><br />If you specify this value, you must also set the **ForcedlegacyMode** to **true**.<br /><br />`<ForcedLegacyMode>true</ForcedLegacyMode>`|
 |**KeepExecutorAliveAfterLegacyRun**|false|After a test run is completed, MSTest is shut down. Any process that is launched as part of the test is also killed. If you want to keep the test executor alive, set the value to **true**. For example, you could use this setting to keep the browser running between coded UI tests.|
 |**DeploymentEnabled**|true|If you set the value to **false**, deployment items that you've specified in your test method aren't copied to the deployment directory.|
@@ -296,3 +339,4 @@ These settings are specific to the test adapter that runs test methods that have
 - [Configure a test run](https://github.com/microsoft/vstest-docs/blob/master/docs/configure.md)
 - [Customize code coverage analysis](../test/customizing-code-coverage-analysis.md)
 - [Visual Studio test task (Azure Test Plans)](/azure/devops/pipelines/tasks/test/vstest?view=vsts)
+

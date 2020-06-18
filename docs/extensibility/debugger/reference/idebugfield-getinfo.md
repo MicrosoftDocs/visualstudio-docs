@@ -1,20 +1,20 @@
 ---
-title: "IDebugField::GetInfo | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugField::GetInfo | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugField::GetInfo"
+- IDebugField::GetInfo
 helpviewer_keywords:
-  - "IDebugField::GetInfo method"
+- IDebugField::GetInfo method
 ms.assetid: 7d508200-89ce-400f-a8ea-f28e7610cb2b
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugField::GetInfo
 This method gets displayable information about the field.

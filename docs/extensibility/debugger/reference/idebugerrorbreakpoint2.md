@@ -1,17 +1,17 @@
 ---
-title: "IDebugErrorBreakpoint2 | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugErrorBreakpoint2 | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugErrorBreakpoint2"
+- IDebugErrorBreakpoint2
 helpviewer_keywords:
-  - "IDebugErrorBreakpoint2 interface"
+- IDebugErrorBreakpoint2 interface
 ms.assetid: 1f2a4b94-3713-46e9-8272-3917187792bd
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # IDebugErrorBreakpoint2
 This interface represents an error or warning breakpoint, such as an invalid location, an invalid expression, or the reasons why the pending breakpoint has not bound (code not loaded yet, and so on).

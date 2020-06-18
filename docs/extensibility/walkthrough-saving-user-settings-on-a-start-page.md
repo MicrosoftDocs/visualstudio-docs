@@ -1,13 +1,13 @@
 ---
-title: "Walkthrough: Saving User Settings on a Start Page | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: 'Walkthrough: Saving User Settings on a Start Page | Microsoft Docs'
+ms.date: 11/04/2016
+ms.topic: conceptual
 ms.assetid: 754b9bf3-8681-4c77-b0a4-09146a4e1d2d
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 monikerRange: vs-2017
 ---
 # Walkthrough: Save user settings on a Start Page

@@ -1,13 +1,13 @@
 ---
-title: "Images and Icons for Visual Studio | Microsoft Docs"
-ms.date: "04/26/2017"
-ms.topic: "conceptual"
+title: Images and Icons for Visual Studio | Microsoft Docs
+ms.date: 04/26/2017
+ms.topic: conceptual
 ms.assetid: f410325e-9cf2-4f39-b6d7-b672121c2691
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Images and Icons for Visual Studio
 ## <a name="BKMK_ImageUseInVisualStudio"></a> Image use in Visual Studio
@@ -380,45 +380,3 @@ ms.workload:
 |||||
 |-|-|-|-|
 |![Alert icon](../../extensibility/ux-guidelines/media/0405-45_alert.png "0405-45_Alert")<br />Alert|![Warning icon](../../extensibility/ux-guidelines/media/0405-48_warning.png "0405-48_Warning")<br />Warning|![Complete icon](../../extensibility/ux-guidelines/media/0405-46_complete.png "0405-46_Complete")<br />Complete|![Stop icon](../../extensibility/ux-guidelines/media/0405-47_stop.png "0405-47_Stop")<br />Stop|
-
-### Visual Studio Online
- In general, Visual Studio Online consists of features hosted in a browser. The color varies in different environments, but the style remains the same.
-
-|Group|Usage|Name|Value (all themes)|Swatch|
-|-----------|-----------|----------|--------------------------|------------|
-|TFS|Background|TFSO BG|656565/ 101, 101, 101|![Swatch 656565](../../extensibility/ux-guidelines/media/0405_656565.png "0405_656565")|
-|TFS|Outline|TFSO OUT|FFFFFF / 255, 255, 255|![Swatch FFFFFF](../../extensibility/ux-guidelines/media/0405_ffffff.png "0405_FFFFFF")|
-|Napa|Background|White|FFFFFF / 255, 255, 255|![Swatch FFFFFF](../../extensibility/ux-guidelines/media/0405_ffffff.png "0405_FFFFFF")|
-|Monaco|Background|White|FFFFFF / 255, 255, 255|![Swatch FFFFFF](../../extensibility/ux-guidelines/media/0405_ffffff.png "0405_FFFFFF")|
-|F12|Background|White|FFFFFF / 255, 255, 255|![Swatch FFFFFF](../../extensibility/ux-guidelines/media/0405_ffffff.png "0405_FFFFFF")|
-|F12|Normal|F12 Grey_Primary|555555 / 85, 85, 85|![Swatch 555555](../../extensibility/ux-guidelines/media/0405_555555.png "0405_555555")|
-|F12|Hover|F12 Blue_Hover|2279BF / 34,121,191|![Swatch 2279BF](../../extensibility/ux-guidelines/media/0405_2279bf.png "0405_2279BF")|
-|F12|Disabled|F12 LtGrey_Disabled|ABABAC / 171,171,172|![Swatch ABABAC](../../extensibility/ux-guidelines/media/0405_ababac.png "0405_ABABAC")|
-|F12|Hover background|Hover bg|D9EBF7 / 217,235,247|![Swatch D9EBF7](../../extensibility/ux-guidelines/media/0405_d9ebf7.png "0405_D9EBF7")|
-|F12|Pressed background|Pressed bg|B2D7F0 / 178,215,240|![Swatch B2D7F0](../../extensibility/ux-guidelines/media/0405_b2d7f0.png "0405_B2D7F0")|
-|F12|Outline|VS OUT|F6F6F6 / 246,246,246|![Swatch F6F6F6](../../extensibility/ux-guidelines/media/0405_f6f6f6.png "0405_F6F6F6")|
-|F12|Information|Information|00BCF2 / 0,188,242|![Swatch 00BCF2](../../extensibility/ux-guidelines/media/0405_00bcf2.png "0405_00BCF2")|
-|F12|Warning|Warning|F28300 / 242,131,0|![Swatch F28300](../../extensibility/ux-guidelines/media/0405_f28300.png "0405_F28300")|
-|F12|Error / Negative|Error_Negative|E81123 / 232,17,35|![Swatch E81123](../../extensibility/ux-guidelines/media/0405_e81123.png "0405_E81123")|
-|F12|Start / Positive|Start_Positive|009E49 / 0,158,73|![Swatch 009E49](../../extensibility/ux-guidelines/media/0405_009e49.png "0405_009E49")|
-|F12|Break type|Break type|9B4F96 / 155,79,150|![Swatch 9B4F96](../../extensibility/ux-guidelines/media/0405_9b4f96.png "0405_9B4F96")|
-|F12|Event Mark|Event Mark|A51F00 / 165,31,0|![Swatch A51F00](../../extensibility/ux-guidelines/media/0405_a51f00.png "0405_A51F00")|
-|F12|User Mark|User Mark|F16220 / 241,98,32|![Swatch F16220](../../extensibility/ux-guidelines/media/0405_f16220.png "0405_F16220")|
-
-#### Examples of Visual Studio Online icons
-
-|TFS Online||||
-|----------------|-|-|-|
-|![TFS Online team icon](../../extensibility/ux-guidelines/media/0405-49_tfsonlineteam.png "0405-49_TFSOnlineTeam")<br />Online Team|![TFS information icon](../../extensibility/ux-guidelines/media/0405-50_tfsinformation.png "0405-50_TFSInformation")<br />Information|![TFS history icon](../../extensibility/ux-guidelines/media/0405-51_tfshistory.png "0405-51_TFSHistory")<br />History|![TFS branch icon](../../extensibility/ux-guidelines/media/0405-52_tfsbranch.png "0405-52_TFSBranch")<br />Branch|
-
-|Napa||||
-|----------|-|-|-|
-|![Napa content icon](../../extensibility/ux-guidelines/media/0405-53_napacontent.png "0405-53_NapaContent")<br />Content|![Napa office mail icon](../../extensibility/ux-guidelines/media/0405-54_napaofficemail.png "0405-54_NapaOfficeMail")<br />Office Mail|![Napa SharePoint icon](../../extensibility/ux-guidelines/media/0405-55_napasharepoint.png "0405-55_NapaSharePoint")<br />SharePoint|![Napa task pane icon](../../extensibility/ux-guidelines/media/0405-56_napataskpane.png "0405-56_NapaTaskPane")<br />Task Pane|
-
-|Monaco||||
-|------------|-|-|-|
-|![Monaco files icon](../../extensibility/ux-guidelines/media/0405-57_monacofiles.png "0405-57_MonacoFiles")<br />Files|![Monaco Git icon](../../extensibility/ux-guidelines/media/0405-58_monacogit.png "0405-58_MonacoGit")<br />Git|![Monaco search icon](../../extensibility/ux-guidelines/media/0405-59_monacosearch.png "0405-59_MonacoSearch")<br />Search|![Monaco text icon](../../extensibility/ux-guidelines/media/0405-60_monacotext.png "0405-60_MonacoText")<br />Text|
-
-|F12|||
-|---------|-|-|
-|![F12 pretty code icon](../../extensibility/ux-guidelines/media/0405-61_f12prettycode.png "0405-61_F12PrettyCode")<br />Pretty Code|![F12 Warning icon](../../extensibility/ux-guidelines/media/0405-62_f12warning.png "0405-62_F12Warning")<br />Warning|![F12 Emulate icon](../../extensibility/ux-guidelines/media/0405-63_f12emulate.png "0405-63_F12Emulate")<br />Emulate|

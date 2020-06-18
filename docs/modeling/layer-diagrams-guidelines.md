@@ -1,17 +1,17 @@
 ---
-title: "Dependency Diagrams: Guidelines"
+title: 'Dependency Diagrams: Guidelines'
 ms.date: 09/28/2018
 ms.topic: conceptual
 helpviewer_keywords:
-  - "architecture, dependency diagrams"
-  - "dependency diagrams"
-  - "diagrams - modeling, layer"
-  - "constraints, architectural"
-author: jillre
-ms.author: jillfra
+- architecture, dependency diagrams
+- dependency diagrams
+- diagrams - modeling, layer
+- constraints, architectural
+author: JoshuaPartlow
+ms.author: joshuapa
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Dependency diagrams: guidelines
 

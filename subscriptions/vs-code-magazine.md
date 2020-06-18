@@ -1,9 +1,10 @@
 ---
 title: The CODE Magazine benefit in Visual Studio subscriptions | Microsoft Docs
 author: evanwindom
-ms.author: lank
+ms.author: v-evwin
 manager: lank
-ms.date: 10/13/2019
+ms.assetid: e5768153-2758-46d3-a323-3272def213ee
+ms.date: 03/25/2020
 ms.topic: conceptual
 description:  Learn about the CODE Magazine benefit included in your Visual Studio subscription.
 ---
@@ -34,7 +35,7 @@ The process to set up your CODE Magazine subscription is simple.  Just follow th
       > ![CODE Magazine subscription details](_img/vs-code-magazine/vs-code-magazine-details.png "Subscription details and price")
 6. Next, you'll need to provide your subscriber information and a delivery address.  (The delivery address is required even for digital subscriptions, as it supports fulfillment, offer selection, and digital access processes.)
 7. If you live outside of the United States and chose to receive a printed magazine subscription, you may be asked to provide a billing address and payment information to cover the costs of shipping. 
-8. You can opt in to CODE HTML Newletter by clicking on the check box.
+8. You can opt in to CODE HTML Newsletter by clicking on the check box.
    > [!div class="mx-imgBorder"]
    > ![CODE Magazine subscriber information](_img/vs-code-magazine/vs-code-magazine-subscriber-info.png "Subscriber information and deliver address")
 9. Click **Place Order** to complete your subscription.  
@@ -69,6 +70,12 @@ A:  CODE Magazine collects your address, regardless of whether the subscription 
 - Have questions about your CODE Magazine subscription?  Contact [CODE Magazine](https://www.codemag.com/contact) via email or phone, or submit an online support request.
 - For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, contact Visual Studio [Subscriptions Support](https://visualstudio.microsoft.com/subscriptions/support/).
 - Have a question about Visual Studio IDE, Azure DevOps Services or other Visual Studio products or services?  Visit [Visual Studio Support](https://visualstudio.microsoft.com/support/).
+
+## See also
+- [Visual Studio documentation](https://docs.microsoft.com/visualstudio/)
+- [Azure DevOps documentation](https://docs.microsoft.com/azure/devops/)
+- [Azure documentation](https://docs.microsoft.com/azure/)
+- [Microsoft 365 documentation](https://docs.microsoft.com/microsoft-365/)
 
 ## Next steps
 Check out the rest of the great benefits included with your subscription. Visit [https://my.visualstudio.com/benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs).

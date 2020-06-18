@@ -26,7 +26,7 @@ manager: jillfra
 # IntelliTrace
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IntelliTrace](https://docs.microsoft.com/visualstudio/debugger/intellitrace) .  
+The latest version of this topic can be found at [IntelliTrace](/visualstudio/debugger/intellitrace) .  
   
 You can spend less time debugging your application when you use IntelliTrace to record and trace your code's execution history. You can find bugs easily because IntelliTrace lets you:  
   
@@ -130,7 +130,7 @@ You can spend less time debugging your application when you use IntelliTrace to 
   
 - **SharePoint 2010 and SharePoint 2013 application events**  
   
-   You can record user profile events and a subset of Unified Logging System (ULS) events for SharePoint 2010 and 2013 applications running outside Visual Studio. You can save these events to an .iTrace file. Requires Visual Studio Enterprise 2015, a previous version of Visual Studio Ultimate, or [Microsoft Monitoring Agent](http://go.microsoft.com/fwlink/?LinkId=320384) running in **Trace** mode.  
+   You can record user profile events and a subset of Unified Logging System (ULS) events for SharePoint 2010 and 2013 applications running outside Visual Studio. You can save these events to an .iTrace file. Requires Visual Studio Enterprise 2015, a previous version of Visual Studio Ultimate, or [Microsoft Monitoring Agent](https://go.microsoft.com/fwlink/?LinkID=309771) running in **Trace** mode.  
   
    When you open the .iTrace file, enter a SharePoint correlation ID to find its matching web request, view the recorded events, and start debugging from a specific event. If the file contains unhandled exceptions, you can choose a correlation ID to start debugging an exception.  
   
@@ -180,7 +180,7 @@ You can spend less time debugging your application when you use IntelliTrace to 
  [Using saved IntelliTrace data](../debugger/using-saved-intellitrace-data.md)  
   
 ### Blogs  
- [Visual Studio ALM + Team Foundation Server](http://go.microsoft.com/fwlink/?LinkID=201340)  
+ [Visual Studio ALM + Team Foundation Server](https://devblogs.microsoft.com/devops/welcome-to-the-visual-studio-alm-team-foundation-server-blog/)  
   
 ### Forums  
- [Visual Studio Diagnostics](http://go.microsoft.com/fwlink/?LinkId=262263)
+ [Visual Studio Diagnostics](https://social.msdn.microsoft.com/Forums/vsdebug)

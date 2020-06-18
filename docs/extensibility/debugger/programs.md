@@ -1,16 +1,16 @@
 ---
-title: "Programs | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Programs | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "debugging [Debugging SDK], programs"
-  - "programs, debugging"
+- debugging [Debugging SDK], programs
+- programs, debugging
 ms.assetid: e1f955d8-95da-493b-837e-e97741a26d7e
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Programs
 In the debugger architecture, a *program*:

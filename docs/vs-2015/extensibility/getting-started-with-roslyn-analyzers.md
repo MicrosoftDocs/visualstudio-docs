@@ -19,15 +19,15 @@ With live, project-based code analyzers in Visual Studio, API authors can ship d
 
 [Adding Code Fixes Walkthrough: Provide Users Fixes for Analyzer Issues](https://msdn.microsoft.com/magazine/dn904670.aspx)
 
-[Introduction and Walkthrough of Real World Analyzer Talk](http://channel9.msdn.com/events/Build/2015/3-725)
+[Introduction and Walkthrough of Real World Analyzer Talk](https://channel9.msdn.com/events/Build/2015/3-725)
 
-[Real World Roslyn Analyzer](../extensibility/roslyn-analyzers-and-code-aware-library-for-immutablearrays.md) that you can also watch as a [talk](http://channel9.msdn.com/events/Build/2015/3-725)
+[Real World Roslyn Analyzer](../extensibility/roslyn-analyzers-and-code-aware-library-for-immutablearrays.md) that you can also watch as a [talk](https://channel9.msdn.com/events/Build/2015/3-725)
 
 [Several examples on GitHub, grouped into three kinds of analyzers](https://github.com/dotnet/roslyn/blob/master/docs/analyzers/Analyzer%20Samples.md)
 
-[Introduction and Tour of a Few Analyzers Talk](http://channel9.msdn.com/Events/dotnetConf/2015/NET-Compiler-Platform-Roslyn-Analyzers-and-the-Rise-of-Code-Aware-Libraries)
+[Introduction and Tour of a Few Analyzers Talk](https://channel9.msdn.com/Events/dotnetConf/2015/NET-Compiler-Platform-Roslyn-Analyzers-and-the-Rise-of-Code-Aware-Libraries)
 
 ## Other Resources
 [More docs on the GitHub OSS site](https://github.com/dotnet/roslyn/tree/master/docs/analyzers)
 
-[FxCop rules implemented with Roslyn analyzers on GitHub](https://github.com/dotnet/roslyn/tree/master/src/Diagnostics/FxCop)
+[FxCop rules implemented with Roslyn analyzers on GitHub](https://github.com/dotnet/roslyn/tree/master/src/Features/Core/Portable/Diagnostics/Analyzers)

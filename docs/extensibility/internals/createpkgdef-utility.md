@@ -1,18 +1,18 @@
 ---
-title: "CreatePkgDef Utility | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: CreatePkgDef Utility | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "package definition"
-  - "create pkgdef"
-  - "pkgdef"
-  - "createpkgdef"
+- package definition
+- create pkgdef
+- pkgdef
+- createpkgdef
 ms.assetid: c745cb76-47a6-49ff-9eed-16af0f748e35
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # CreatePkgDef utility
 Takes a .dll file for a Visual Studio extension as a parameter and creates a *.pkgdef* file to accompany the *.dll* file. The *.pkgdef* file contains all the information that would otherwise be written to the system registry when the extension is installed.

@@ -1,19 +1,19 @@
 ---
-title: "ProjectTemplateLink Element (Visual Studio Templates) | Microsoft Docs"
-ms.date: "11/04/2016"
+title: ProjectTemplateLink Element (Visual Studio Templates) | Microsoft Docs
+ms.date: 11/04/2016
 ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
-  - "http://schemas.microsoft.com/developer/vstemplate/2005#ProjectTemplateLink"
+- http://schemas.microsoft.com/developer/vstemplate/2005#ProjectTemplateLink
 helpviewer_keywords:
-  - "<ProjectTemplateLink> element [Visual Studio Templates]"
-  - "ProjectTemplateLink element [Visual Studio Templates]"
+- <ProjectTemplateLink> element [Visual Studio Templates]
+- ProjectTemplateLink element [Visual Studio Templates]
 ms.assetid: b0449111-8b48-45a1-a031-ea24b765e969
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # ProjectTemplateLink element (Visual Studio templates)
 Specifies the path to the *.vstemplate* file of one project in a multi-project template.

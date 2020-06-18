@@ -1,9 +1,10 @@
 ---
 title: Enhance your data science skills today with the DataCamp benefit in selected Visual Studio subscriptions. | Microsoft Docs
 author: evanwindom
-ms.author: lank
+ms.author: v-evwin
 manager: lank
-ms.date: 11/13/2019
+ms.assetid: fc33d419-78cf-485e-b558-5b7efa900f14
+ms.date: 04/17/2020
 ms.topic: conceptual
 description:  Learn about the DataCamp training subscription included with selected Visual Studio subscriptions.
 ---
@@ -45,7 +46,7 @@ Eligible Visual Studio subscriptions include subscriptions to DataCamp.  With Da
    > [!div class="mx-imgBorder"]
    > ![DataCamp Getting Started](_img/vs-datacamp/vs-datacamp-getting-started.png)
 
-You can stop at any point, and resume your training in your next session.  Just visit [http://www.datacamp.com](http://www.datacamp.com), and sign in.  You'll see your dashboard and can resume your training right where you paused. Simply click **Continue Track**.
+You can stop at any point, and resume your training in your next session.  Just visit [https://www.datacamp.com](https://www.datacamp.com), and sign in.  You'll see your dashboard and can resume your training right where you paused. Simply click **Continue Track**.
 
 > [!div class="mx-imgBorder"]
 > ![DataCamp Continue Training](_img/vs-datacamp/vs-datacamp-continue-training.png)
@@ -77,10 +78,15 @@ Not sure which subscription you're using?  Connect to [https://my.visualstudio.c
 - For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, contact Visual Studio [Subscriptions Support](https://visualstudio.microsoft.com/subscriptions/support/).
 - Have a question about Visual Studio IDE, Azure DevOps Services or other Visual Studio products or services?  Visit [Visual Studio Support](https://visualstudio.microsoft.com/support/).
 
+## See also
+- [Visual Studio documentation](https://docs.microsoft.com/visualstudio/)
+- [Azure DevOps documentation](https://docs.microsoft.com/azure/devops/)
+- [Azure documentation](https://docs.microsoft.com/azure/)
+- [Microsoft 365 documentation](https://docs.microsoft.com/microsoft-365/)
+
 ## Next steps
 Check out more professional development opportunities in your subscription:
 - [Pluralsight](vs-pluralsight.md)
 - [LinkedIn Learning](vs-linkedin-learning.md)
-- [MSDN Magazine](vs-msdn.md)
 
 If you haven't already activated the Azure DevTest individual credit benefit that comes with your subscription, visit [https://my.visualstudio.com/benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs) and click on the Azure tile in the Tools category to set up your Azure subscription and redeem your Azure DevTest individual credit.

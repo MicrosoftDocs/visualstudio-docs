@@ -1,20 +1,20 @@
 ---
-title: "IPropertyProxyEESide::InPlaceUpdateObject | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IPropertyProxyEESide::InPlaceUpdateObject | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IPropertyProxyEESide::InPlaceUpdateObject"
+- IPropertyProxyEESide::InPlaceUpdateObject
 helpviewer_keywords:
-  - "IPropertyProxyEESide::InPlaceUpdateObject"
+- IPropertyProxyEESide::InPlaceUpdateObject
 ms.assetid: abf89411-1853-4f23-b244-d5e0afa197b1
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IPropertyProxyEESide::InPlaceUpdateObject
 Updates the object's data with the given data object and returns a new data object representing the object's new data.

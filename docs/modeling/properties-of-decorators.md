@@ -3,12 +3,12 @@ title: Properties of Decorators
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
-  - "Domain-Specific Language, decorators"
-author: jillre
-ms.author: jillfra
+- Domain-Specific Language, decorators
+author: JoshuaPartlow
+ms.author: joshuapa
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Properties of Decorators
 Decorators are icons, text, or expand/collapse chevrons that can appear on shapes or connectors on the diagram. The following tables show the properties for the three kinds of decorator. Some of the properties appear only on shape decorators or only on connector decorators.

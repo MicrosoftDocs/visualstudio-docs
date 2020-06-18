@@ -1,15 +1,15 @@
 ---
-title: "Workflow Designer - AddToCollection<T> Activity Designer"
+title: Workflow Designer - AddToCollection<T> Activity Designer
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "System.Activities.Statements.AddToCollection`1.UI"
+- System.Activities.Statements.AddToCollection`1.UI
 ms.assetid: f7fc0702-164e-4370-8946-bb2f9f9384b7
-author: jillre
-ms.author: jillfra
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # AddToCollection\<T> Activity Designer
 

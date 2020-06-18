@@ -1,34 +1,36 @@
 ---
-title: "MT Task | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "reference"
+title: MT Task | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: reference
 f1_keywords:
-  - "VC.Project.VCManifestTool.ResourceOutputFileName"
-  - "VC.Project.VCManifestTool.SuppressDependencyElement"
-  - "VC.Project.VCManifestTool.ManifestFromManagedAssembly"
-  - "VC.Project.VCManifestTool.GenerateCategoryTags"
-  - "VC.Project.VCManifestTool.EnableDPIAwareness"
-  - "vc.task.mt"
+- VC.Project.VCManifestTool.ResourceOutputFileName
+- VC.Project.VCManifestTool.SuppressDependencyElement
+- VC.Project.VCManifestTool.ManifestFromManagedAssembly
+- VC.Project.VCManifestTool.GenerateCategoryTags
+- VC.Project.VCManifestTool.EnableDPIAwareness
+- vc.task.mt
 dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
-  - "C++"
+- VB
+- CSharp
+- C++
+- jsharp
+- C++
 helpviewer_keywords:
-  - "MSBUILD (C++), MT task"
-  - "MT task (MSBuild (C++))"
+- MSBUILD (C++), MT task
+- MT task (MSBuild (C++))
 ms.assetid: bb94913c-1042-4968-9f08-b394518e899f
-author: mikejo5000
-ms.author: mikejo
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # MT task
+
 Wraps the Microsoft Manifest Tool, *mt.exe*. For more information, see [Mt.exe](/windows/desktop/SbsCs/mt-exe).
 
 ## Parameters
+
  The following table describes the parameters of the **MT** task. Most task parameters, and a few sets of parameters, correspond to a command-line option.
 
 > [!NOTE]
@@ -63,4 +65,5 @@ Wraps the Microsoft Manifest Tool, *mt.exe*. For more information, see [Mt.exe](
 |**VerboseOutput**|Optional `Boolean` parameter.<br /><br /> If `true`, displays verbose debugging information.<br /><br /> For more information, see the **/verbose** option in [Mt.exe](/windows/desktop/SbsCs/mt-exe).|
 
 ## See also
+
 - [Task reference](../msbuild/msbuild-task-reference.md)

@@ -270,8 +270,6 @@
     items:
     - name: Remote Debugging Errors and Troubleshooting
       href: remote-debugging-errors-and-troubleshooting.md
-    - name: The Microsoft Visual Studio Remote Debugging Monitor on the remote computer does not have permission to connect to this computer
-      href: error-the-microsoft-visual-studio-remote-debugging-monitor-on-the-remote-computer-does-not-have-permission-to-connect-to-this-computer.md
     - name: A DCOM error occurred trying to contact the remote computer. Access is denied.
       href: a-dcom-error-occurred-trying-to-contact-the-remote-computer-access-is-denied.md
     - name: The Microsoft Visual Studio Remote Debugging Monitor on the remote computer is running as a different user
@@ -284,8 +282,6 @@
       href: error-kerberos-authentication-failed.md
     - name: Ensure that DNS is Correctly Configured on the Target Computer
       href: error-ensure-that-dns-is-correctly-configured-on-the-target-computer.md
-    - name: The Microsoft Visual Studio Remote Debugging Monitor (MSVSMON.EXE) does not appear to be running on the remote computer.
-      href: error-the-microsoft-visual-studio-remote-debugging-monitor-msvsmon-exe-does-not-appear-to-be-running-on-the-remote-computer.md
     - name: Unable to Connect to the Microsoft Visual Studio Remote Debugging Monitor
       href: unable-to-connect-to-the-microsoft-visual-studio-remote-debugging-monitor.md
     - name: Unable to initiate DCOM communication

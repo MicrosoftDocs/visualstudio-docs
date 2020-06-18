@@ -3,17 +3,17 @@ title: Symbol Path Command
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "debug.symbolpath"
+- debug.symbolpath
 helpviewer_keywords:
-  - "symbol path command"
-  - "Debug.SymbolPath command"
-  - "SymbolPath command"
+- symbol path command
+- Debug.SymbolPath command
+- SymbolPath command
 ms.assetid: b697ef2d-3f5d-40df-b113-7068a5bec0d4
-author: jillre
-ms.author: jillfra
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Symbol Path Command
 Sets the list of directories for the debugger to search for symbols.

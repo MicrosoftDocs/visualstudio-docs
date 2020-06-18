@@ -1,15 +1,15 @@
 ---
-title: "Run and debug unit tests with Test Explorer"
+title: Run and debug unit tests with Test Explorer
 description: Learn how to run tests with Test Explorer in Visual Studio. This topic covers how to enable automatic test runs after build, view test results, group and filter the test list, create playlists, debug tests, and use test shortcuts.
 ms.date: 07/29/2019
 ms.topic: conceptual
 f1_keywords:
-  - "vs.unittesting.testexplorer.overview"
-author: jillre
-ms.author: jillfra
+- vs.unittesting.testexplorer.overview
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Run unit tests with Test Explorer
 
@@ -21,9 +21,7 @@ Visual Studio includes the Microsoft unit testing frameworks for both managed an
 
 ## Run tests in Test Explorer
 
-
-When you build the test project, the tests appear in Test Explorer. If Test Explorer is not visible, choose **Test** on the Visual Studio menu, choose **Windows**, and then choose **Test Explorer**.
-
+When you [build the test project](../test/getting-started-with-unit-testing.md), the tests appear in Test Explorer. If Test Explorer is not visible, choose **Test** on the Visual Studio menu, choose **Windows**, and then choose **Test Explorer**.
 
 ::: moniker range="vs-2017"
 ![Unit Test Explorer](../test/media/ute_failedpassednotrunsummary.png)
@@ -305,7 +303,7 @@ You can use Test Explorer to start a debugging session for your tests. Stepping 
 
 ### Diagnose test method performance issues
 
-To diagnose why a test method is taking too much time, select the method in Test Explorer and then choose **Profile Selected Test** on the right-click menu. See [Performance Explorer](../profiling/performance-explorer.md).
+To diagnose why a test method is taking too much time, select the method in Test Explorer and then choose **Profile Selected Test** on the right-click menu. See [Instrumentation profiling report](../profiling/understanding-instrumentation-data-values.md?view=vs-2017).
 
 ### Analyze unit test code coverage
 

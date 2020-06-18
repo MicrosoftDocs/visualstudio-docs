@@ -87,9 +87,7 @@ This command resumes app execution (and advances the debugger) until the current
 
 ## Run to cursor
 
-Stop the debugger by pressing the **Stop Debugging** red button ![Stop Debugging](../debugger/media/dbg-tour-stop-debugging.png "Stop Debugging") or **Shift** + **F5**.
-
-Right-click a line of code in your app and choose **Run to Cursor**. This command starts debugging and sets a temporary breakpoint on the current line of code.
+When you are editing code (rather than paused in the debugger), right-click a line of code in your app and choose **Run to Cursor**. This command starts debugging and sets a temporary breakpoint on the current line of code.
 
 ![Run to Cursor](../debugger/media/dbg-tour-run-to-cursor.png "Run to Cursor")
 
@@ -223,6 +221,10 @@ You can navigate and view snapshots by using the **Step Backward** and **Step Fo
 ![Step Backward and Forward Buttons](../debugger/media/intellitrace-step-back-icons-description.png  "Step Backward and Forward buttons")
 
 For more information, see the [Inspect previous app states using IntelliTrace](../debugger/view-historical-application-state.md) page.
+
+## Debug performance issues
+
+If your app runs too slowly or uses too much memory, you may need to test your app with the profiling tools early on. For more information about profiling tools such as the CPU Usage tool and the Memory Analyzer, see [First look at the profiling tools](../profiling/profiling-feature-tour.md).
 
 ## Next steps
 

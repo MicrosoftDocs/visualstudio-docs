@@ -1,20 +1,20 @@
 ---
-title: "IDebugPortEvents2::Event | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugPortEvents2::Event | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugPortEvents2::Event"
+- IDebugPortEvents2::Event
 helpviewer_keywords:
-  - "IDebugPortEvents2::Event"
+- IDebugPortEvents2::Event
 ms.assetid: 5cc813f7-04a1-4462-9ea7-fbddcf0e0143
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugPortEvents2::Event
 This method sends events that signify the creation and destruction of processes and programs on a port.

@@ -1,16 +1,16 @@
 ---
-title: "Adding Visual Studio Commands to a Start Page | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Adding Visual Studio Commands to a Start Page | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "start page commands"
-  - "vs:VSCommands"
+- start page commands
+- vs:VSCommands
 ms.assetid: a8e2765c-cfb5-47b5-a414-6e48b434e0c2
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 monikerRange: vs-2017
 ---
 # Add Visual Studio commands to a Start Page

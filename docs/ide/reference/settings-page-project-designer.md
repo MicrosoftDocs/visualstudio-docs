@@ -5,13 +5,13 @@ ms.topic: reference
 f1_keywords:
 - ApplicationSettingsOverview
 helpviewer_keywords:
-  - "Settings page in Project Designer"
-  - "Project Designer, Settings page"
-author: jillre
-ms.author: jillfra
+- Settings page in Project Designer
+- Project Designer, Settings page
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Settings page, Project Designer
 

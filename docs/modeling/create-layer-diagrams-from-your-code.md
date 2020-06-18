@@ -3,15 +3,15 @@ title: Create dependency diagrams from your code
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "architecture, dependency diagrams"
-  - "dependency diagrams"
-  - "diagrams - modeling, layer"
-  - "constraints, architectural"
-author: jillre
-ms.author: jillfra
+- architecture, dependency diagrams
+- dependency diagrams
+- diagrams - modeling, layer
+- constraints, architectural
+author: JoshuaPartlow
+ms.author: joshuapa
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Create dependency diagrams from your code
 

@@ -31,7 +31,7 @@ manager: jillfra
 
 ### <a name="expose"></a> To expose a DSL Definition to Model Bus
 
-1. Download and install the Visual Studio Model Bus extension, unless you have already installed it. For more information, see [Visualization and Modeling SDK](http://go.microsoft.com/fwlink/?LinkID=185579).
+1. Download and install the Visual Studio Model Bus extension, unless you have already installed it. For more information, see [Visualization and Modeling SDK](https://www.visualstudio.com/).
 
 2. Open the DSL definition file. Right-click the design surface and then click **Enable Modelbus**.
 

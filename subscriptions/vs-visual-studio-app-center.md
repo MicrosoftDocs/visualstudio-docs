@@ -1,9 +1,10 @@
 ---
 title: Visual Studio App Center Benefit in Visual Studio Subscriptions | Microsoft Docs
 author: evanwindom
-ms.author: lank
+ms.author: v-evwin
 manager: lank
-ms.date: 07/31/2019
+ms.assetid: badd1d4a-90a6-46de-a037-945a91e6019b
+ms.date: 04/20/2020
 ms.topic: conceptual
 description:  Learn about the Visual Studio App Center benefit included in Visual Studio subscriptions.
 ---
@@ -37,7 +38,9 @@ Getting started with Visual Studio App Center is easy.
 | Subscription Level                                                 |     Channels                                            | Benefit                                                          | Renewable?    |
 |--------------------------------------------------------------------|---------------------------------------------------------|------------------------------------------------------------------|---------------|
 | Visual Studio Enterprise (Standard, monthly cloud)   | VL, Azure, Retail,  NFR<sup>1</sup> | Included       |  Yes          |
+| Visual Studio Enterprise with GitHub Enterprise  | VL | Included       |  Yes          |
 | Visual Studio Professional (Standard, monthly cloud) | VL, Azure, Retail                                       | Included                                                            |Yes |
+| Visual Studio Professional with GitHub Enterprise | VL                                      | Included                                                            |Yes |
 | Visual Studio Test Professional (Standard)                         | VL, Retail                                              | Included                                                            |Yes |
 | MSDN Platforms (Standard)                                          | VL, Retail                                              | Included                                                            |Yes |
 ||
@@ -66,5 +69,14 @@ You should now be able to access the App Center portal and create your account.
 - For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, contact Visual Studio [Subscriptions Support](https://visualstudio.microsoft.com/subscriptions/support/).
 - Have a question about Visual Studio IDE, Azure DevOps Services or other Visual Studio products or services?  Visit [Visual Studio Support](https://visualstudio.microsoft.com/support/).
 
+## See also
+- [Visual Studio documentation](https://docs.microsoft.com/visualstudio/)
+- [Azure DevOps documentation](https://docs.microsoft.com/azure/devops/)
+- [Azure documentation](https://docs.microsoft.com/azure/)
+- [Microsoft 365 documentation](https://docs.microsoft.com/microsoft-365/)
+
 ## Next steps
-Azure is your personal sandbox for dev/test.  You can provision virtual machines, cloud services, and other Azure resources. If you haven't already, activate your [Azure benefit](vs-azure.md). 
+Be sure to activate these great benefits to make the most of your Visual Studio subscription:
+- [Visual Studio](vs-ide-benefit.md)
+- [Azure DevOps](vs-azure-devops.md)
+- [Azure DevTest individual credit](vs-azure.md)

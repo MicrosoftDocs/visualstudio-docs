@@ -42,7 +42,7 @@ In Visual Studio, you can use a *layer diagram* to visualize the high-level, log
 
 - Reinforce the intended architecture during the development and maintenance of your code by including validation with your check-in and build operations.
 
-  This topic describes the elements that you can use on a layer diagram. For more detailed information about how to create and draw layer diagrams, see [Layer Diagrams: Guidelines](../modeling/layer-diagrams-guidelines.md). For more information about layering patterns, visit the [Patterns & Practices site](http://go.microsoft.com/fwlink/?LinkId=145794).
+  This topic describes the elements that you can use on a layer diagram. For more detailed information about how to create and draw layer diagrams, see [Layer Diagrams: Guidelines](../modeling/layer-diagrams-guidelines.md). For more information about layering patterns, visit the [Patterns & Practices site](https://apparch.codeplex.com/Wiki/View.aspx?title=Application Patterns&referringTitle=Home).
 
 ## Reading Layer Diagrams
  ![Elements on layer diagrams](../modeling/media/uml-layerrefreading.png "UML_LayerRefReading")

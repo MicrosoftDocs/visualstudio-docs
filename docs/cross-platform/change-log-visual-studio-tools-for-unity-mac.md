@@ -1,7 +1,7 @@
 ---
 title: "Change Log (Visual Studio Tools for Unity, Mac) | Microsoft Docs"
 ms.custom: ""
-ms.date: "09/18/2019"
+ms.date: "5/19/2020"
 ms.technology: vs-unity-tools
 ms.topic: "conceptual"
 ms.assetid: 33a6ac54-d997-4308-b5a0-af7387460849
@@ -14,6 +14,176 @@ ms.workload:
 # Change Log (Visual Studio Tools for Unity, Mac)
 
 Visual Studio Tools for Unity change log.
+
+## 2.6.1.0
+Released May 19, 2020
+
+### Bug fixes
+
+- **Integration:**
+
+  - Warn if we are unable to create the messaging server on the Unity side.
+
+  - Properly run analyzers during lightweight compilation.
+
+  - Fixed API documentation with Unity Hub installations.
+  
+  - Fixed debugger visualizer crashes.
+
+## 2.6.0.0
+Released April 14, 2020
+
+### New Features
+
+- **Integration:**
+
+  - Added [`UNT0012`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/master/doc/UNT0012.md) diagnostic. Detect and wrap calls to coroutines in `StartCoroutine()`.
+
+  - Added [`UNT0013`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/master/doc/UNT0013.md) diagnostic. Detect and remove invalid or redundant `SerializeField` attribute.
+
+  - Added [`UNT0014`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/master/doc/UNT0014.md) diagnostic. Detect `GetComponent()` called with non-Component or non-Interface Type.
+
+  - Added [`USP0009`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/master/doc/USP0009.md) suppressor for `IDE0051`. Don't flag methods with the `ContextMenu` attribute or referenced by a field with the `ContextMenuItem` attribute as unused.
+
+  - Added [`USP0010`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/master/doc/USP0010.md) suppressor for `IDE0051`. Don't flag fields with the `ContextMenuItem` attribute as unused.
+
+  - Added [`USP0011`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/master/doc/USP0011.md) suppressor for `IDE0044`. Don't make fields with the `ContextMenuItem` attribute read-only.
+
+  - [`USP0004`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/master/doc/USP0004.md), [`USP0006`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/master/doc/USP0006.md) and [`USP0007`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/master/doc/USP0007.md) are now working for both `SerializeReference` and `SerializeField` attributes.
+
+### Bug fixes
+
+- **Integration:**
+
+  - Only send start/stop commands to Unity when the Editor is able to communicate.
+
+  - Fixed QuickInfo documentation with inherited messages.
+
+  - Fixed message scope for `CreateInspectorGUI` message.
+
+  - Do not report [`UNT0001`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/master/doc/UNT0001.md) on methods with polymorphic modifiers.
+
+- **Evaluation:**
+
+  - Fixed handling of aliased usings.
+  
+  - Fixed handling of null values.  
+
+## 2.5.2.0
+
+Released March 23, 2020
+
+### Bug fixes
+
+- **Debugger:**
+
+  - Fixed registration of threads upon attach.
+
+## 2.5.1.0
+
+Released March 3, 2020
+
+### New Features
+
+- **Integration:**
+
+  - Added [`USP0008`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/master/doc/USP0008.md) suppressor for `IDE0051`. Private methods used with Invoke, InvokeRepeating, StartCoroutine or StopCoroutine should not be marked as unused.
+
+### Bug fixes
+
+- **Integration:**
+
+  - Fixed OnDrawGizmos/OnDrawGizmosSelected documentation.
+
+- **Evaluation:**
+
+  - Fixed lambda argument inspection.
+
+## 2.5.0.1
+
+Released February 19, 2020
+
+### Bug fixes
+
+- **Integration:**
+
+  - Fixed [`UNT0006`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/master/doc/UNT0006.md) diagnostic checking for incorrect message signature. When inspecting types with multiple levels of inheritance, this diagnostic could fail with the following message: `warning AD0001: Analyzer 'Microsoft.Unity.Analyzers.MessageSignatureAnalyzer' threw an exception of type 'System.ArgumentException' with message 'An item with the same key has already been added`.
+
+## 2.5.0.0
+
+Released January 22, 2020
+
+### New Features
+
+- **Integration:**
+
+  - Added support for HLSL files.
+  
+  - Switched to a new folder dialog UI.
+  
+  - Switched to a new accessible property grid for settings.
+
+  - Added [`USP0006`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/master/doc/USP0006.md) suppressor for `IDE0051`. Private fields with the `SerializeField` attribute should not be marked as unused.
+
+  - Added [`USP0007`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/master/doc/USP0007.md) suppressor for `CS0649`. Fields with the `SerializeField` attribute should not be marked as unassigned.  
+
+### Bug fixes
+
+- **Integration:**
+
+  - Fixed project generation (`GenerateTargetFrameworkMonikerAttribute` target was not always located correctly).
+
+- **Evaluation:**
+
+  - Fixed string evaluation (not using ToString() calls)
+
+## 2.4.2.0
+
+Released December 3, 2019
+
+### Bug fixes
+
+- **Integration:**
+
+  - Fixed diagnostics with user-defined interfaces.
+
+  - Fixed quick tooltips with malformed expressions.
+  
+## 2.4.1.0
+
+Released November 6, 2019
+
+### New Features
+
+- **Integration:**
+
+  - Added support for Unity background processes. (The debugger is able to auto-connect to the main process instead of a child process).
+
+  - Added a quick tooltip for Unity messages, displaying the associated documentation.
+
+### Bug fixes
+
+- **Integration:**
+
+  - Fixed the tag comparison analyzer `UNT0002` with advanced binary and invocation expressions.
+
+### Deprecated Features
+
+- **Integration:**
+
+  - Going forward, Visual Studio Tools for Unity will only support Visual Studio 2017+.
+
+## 2.4.0.0
+
+Released October 15, 2019
+
+### New Features
+
+- **Integration:**
+
+  - Added [`USP0005`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/master/doc/USP0005.md) suppressor for `IDE0060` (unused parameter) for all Unity messages.
+
+  - Added a quick tooltip for fields tagged with `TooltipAttribute`. (This will work for a simple get accessor using this field as well).
 
 ## 2.3.3.0
 

@@ -1,15 +1,16 @@
 ---
 title: WhiteSource Bolt Benefit | Microsoft Docs
 author: evanwindom
-ms.author: lank
+ms.author: v-evwin
 manager: lank
-ms.date: 08/01/2019
+ms.assetid: 5e5d3f1a-533d-42eb-960e-01bb6bc7ca16
+ms.date: 04/20/2020
 ms.topic: conceptual
 description:  Learn how to activate the WhiteSource Bolt subscription included with your Visual Studio subscription.
 ---
 # WhiteSource Bolt in Visual Studio subscriptions
 
-Find and fix open source vulnerabilities and generate comprehensive inventory and license reports of all open source components in your build. 
+Find and fix open source vulnerabilities and generate comprehensive inventory and license reports of all open source components in your build. Visual Studio Enterprise subscriptions receive six months of unlimited scans.
 
 ## Activation steps
 
@@ -32,12 +33,36 @@ Find and fix open source vulnerabilities and generate comprehensive inventory an
 9. For more information, visit the WhiteSource Bolt [FAQ page](https://bolt.whitesourcesoftware.com/azure/faq/). 
 
 ## Eligibility
-WhiteSource Bolt is now available free in the Visual Studio Marketplace. 
+
+| Subscription Level                                                 |     Channels                                            | Benefit                                                          | Renewable?    |
+|--------------------------------------------------------------------|---------------------------------------------------------|------------------------------------------------------------------|---------------|
+| Visual Studio Enterprise (Standard)   | VL, Azure, Retail,  selected NFR<sup>1</sup> | 6 months       |  Yes       |
+| Visual Studio Enterprise with GitHub Enterprise | VL | 6 months       |  Yes       |
+| Visual Studio Professional (Standard) | VL, Azure, Retail                                       | Not available                                                           |NA         |
+| Visual Studio Professional with GitHub Enterprise | VL                                      | Not available                                                           |NA         |
+| Visual Studio Test Professional (Standard)                         | VL, Retail                                              | Not available                                                           |NA         |
+| MSDN Platforms (Standard)                                          | VL, Retail                                              | Not available                                                           |NA         |
+| Visual Studio Enterprise, Visual Studio Professional (monthly cloud) | Azure                                       | Not available                                                           |NA|
+||
+
+<sup>1</sup>  *Includes: Microsoft Partner Network (Enterprise).  Excludes:  Not for Resale (NFR), Visual Studio Industry Partner (VSIP), FTE, MCT Software & Services Developer, BizSpark, Imagine, Most Valuable Professional (MVP), Regional Director (RD).  MCT Software & Services.*
+
+> [!NOTE]
+> Microsoft no longer offers Visual Studio Professional Annual subscriptions and Visual Studio Enterprise Annual subscriptions in Cloud Subscriptions. There will be no change to existing customers experience and ability to renew, increase, decrease, or cancel their subscriptions. New customers are encouraged to go to [https://visualstudio.microsoft.com/vs/pricing/](https://visualstudio.microsoft.com/vs/pricing/) to explore different options to purchase Visual Studio.
 
 ## Support resources
 - Need help with WhiteSource Bolt?  Chat with a WhiteSource Bolt representative live at https://www.whitesourcesoftware.com/vse_whitesource_bolt/
 - For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, contact Visual Studio [Subscriptions Support](https://visualstudio.microsoft.com/subscriptions/support/).
 - Have a question about Visual Studio IDE, Azure DevOps Services or other Visual Studio products or services?  Visit [Visual Studio Support](https://visualstudio.microsoft.com/support/).
 
+## See also
+- [Visual Studio documentation](https://docs.microsoft.com/visualstudio/)
+- [Azure DevOps documentation](https://docs.microsoft.com/azure/devops/)
+- [Azure documentation](https://docs.microsoft.com/azure/)
+- [Microsoft 365 documentation](https://docs.microsoft.com/microsoft-365/)
+
 ## Next steps
-As a Visual Studio subscriber, you can use Microsoft Azure at no extra charge.  With your [monthly Azure DevTest individual credit](vs-azure.md), Azure is your personal sandbox for dev/test.  You can provision virtual machines, cloud services, and other Azure resources.  Credit amounts vary by subscription level.
+Be sure to activate these great benefits to make the most of your Visual Studio subscription:
+- [Visual Studio](vs-ide-benefit.md)
+- [Azure DevOps](vs-azure-devops.md)
+- [Azure DevTest individual credit](vs-azure.md)

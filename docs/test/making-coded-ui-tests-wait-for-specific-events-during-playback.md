@@ -1,12 +1,12 @@
 ---
-title: "Make Coded UI Tests Wait For Specific Events"
+title: Make Coded UI Tests Wait For Specific Events
 ms.date: 11/04/2016
 ms.topic: conceptual
-author: jillre
-ms.author: jillfra
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Make coded UI tests wait for specific events during playback
 

@@ -1,16 +1,16 @@
 ---
 title: "Signing in to Visual Studio for Mac"
 description: "How to sign in to Visual Studio for Mac"
-author: asb3993
-ms.author: amburns
-ms.date: 09/18/2019
+author: heiligerdankgesang
+ms.author: dominicn
+ms.date: 01/21/2020
 ms.assetid: E4CFD03C-03AF-48CA-B409-6DB1CA45E991
 ---
 # Sign in to Visual Studio for Mac
 
 Signing in to Visual Studio for Mac is how you [activate your subscription](enable-subscription.md). When you download Visual Studio for Mac, you'll always get the Community edition by default. If you have a [Professional or Enterprise license](https://visualstudio.microsoft.com/vs/compare/), you should sign-in on first run to unlock any additional features. In addition you'll also get the following:
 
-* **Access to the Visual Studio Dev Essentials program** – This program includes free software offerings, training, support, and more. See [Visual Studio Dev Essentials](https://aka.ms/vsdevhelp) for more information.
+* **Access to the Visual Studio Dev Essentials program** – This program includes free software offerings, training, support, and more. See [Visual Studio Dev Essentials](https://visualstudio.microsoft.com/dev-essentials/) for more information.
 
 * **Automatically connect to Azure** in the IDE without prompting again for credentials for the same account.
 
@@ -45,7 +45,7 @@ Visual Studio for Mac supports adding multiple accounts to your personalization 
 
 To add additional user accounts, choose the **Visual Studio > Account...** menu from Visual Studio for Mac. Click the **Add...** button to enter additional account credentials.
 
-![Manage accounts](media/signing-in-image15.png)
+![Manage accounts](media/user-accounts-login.png)
 
 ## View or change your profile information
 

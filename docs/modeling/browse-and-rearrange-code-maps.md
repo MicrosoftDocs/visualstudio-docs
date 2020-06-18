@@ -3,25 +3,25 @@ title: Browse and rearrange code maps
 ms.date: 11/04/2016
 ms.topic: conceptual
 f1_keywords:
-  - "vs.progression.dgmlgraph.layouthelp"
-  - "vs.progression.graphdocument"
-  - "vs.progression.dgmlgraph.message.notUlt.noexpandgroup"
-  - "vs.progression.colorsetpicker"
-  - "vs.progression.iconsetpicker"
+- vs.progression.dgmlgraph.layouthelp
+- vs.progression.graphdocument
+- vs.progression.dgmlgraph.message.notUlt.noexpandgroup
+- vs.progression.colorsetpicker
+- vs.progression.iconsetpicker
 helpviewer_keywords:
-  - "Visual Studio Ultimate, dependency graphs"
-  - "code visualization [Visual Studio ALM]"
-  - "graph documents, browsing"
-  - "Visual Studio ALM, dependency graphs"
-  - "code visualization"
-  - "Visual Studio ALM, graph documents"
-  - "Visual Studio Ultimate, graph documents"
-  - "dependency graphs, browsing"
-author: jillre
-ms.author: jillfra
+- Visual Studio Ultimate, dependency graphs
+- code visualization [Visual Studio ALM]
+- graph documents, browsing
+- Visual Studio ALM, dependency graphs
+- code visualization
+- Visual Studio ALM, graph documents
+- Visual Studio Ultimate, graph documents
+- dependency graphs, browsing
+author: JoshuaPartlow
+ms.author: joshuapa
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Browse and rearrange code maps
 

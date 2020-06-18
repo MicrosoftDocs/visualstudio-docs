@@ -1,16 +1,16 @@
 ---
-title: "Modules | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Modules | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "modules"
-  - "debugging [Debugging SDK], modules"
+- modules
+- debugging [Debugging SDK], modules
 ms.assetid: c4cf2809-dbdb-4e75-9273-b3d3d77b67d0
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Modules
 In terms of the debugger architecture, a *module*:

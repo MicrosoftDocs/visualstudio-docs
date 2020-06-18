@@ -1,8 +1,8 @@
 ---
 title: "Visual Studio for Mac for Windows users"
 description: "Introduction of accessibility features in Visual Studio for Mac and how they can be enabled."
-author: alclark
-ms.author: alcl
+author: heiligerdankgesang
+ms.author: dominicn
 ms.date: 09/25/2019
 ms.assetid: 61CB6883-08CE-470F-8599-6F7570DB756E
 ---

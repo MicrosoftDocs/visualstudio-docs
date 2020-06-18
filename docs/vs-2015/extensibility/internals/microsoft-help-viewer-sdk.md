@@ -816,6 +816,6 @@ some F# code
 
 For the Runtime API, see [Windows Help API](https://msdn.microsoft.com/library/windows/desktop/hh447318\(v=vs.85\).aspx).
 
-For more information on how to leverage the Help API, see [Help Viewer Code Examples](http://visualstudiogallery.msdn.microsoft.com/f08f296f-7076-4aec-8da3-8f0fbe04461e).
+For more information on how to leverage the Help API, see [Help Viewer Code Examples](https://marketplace.visualstudio.com/items?itemName=RobChandlerHelpMVP.HelpViewer20CodeExamples).
 
-For updates on breaking issues, see the [Help Viewer Readme](http://go.microsoft.com/fwlink/?LinkID=231397&clcid=0x409).
+For updates on breaking issues, see the [Help Viewer Readme](https://go.microsoft.com/fwlink/?LinkId=255960).

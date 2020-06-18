@@ -126,7 +126,7 @@ Tests run in the background and **Test Explorer** updates each test's status as 
 Because unit tests are pieces of code, they are subject to bugs just like any other code and occasionally need to be run in a debugger. In the debugger you can set breakpoints, examine variables, and step through code. Visual Studio also provides diagnostic tools for unit tests.
 
 > [!Note]
-> By default, test debugging uses the ptvsd 4 debugger. If you would like to instead use ptvsd 3, you can select the **Use Legacy Debugger** option on **Tools** > **Options** > **Python** > **Debugging**. 
+> By default, test debugging uses the ptvsd 4 debugger for Visual Studio 2017 (versions 15.8 and later) and debugpy for Visual Studio 2019 (versions 16.5 and later). If you would like to instead use ptvsd 3, you can select the **Use Legacy Debugger** option on **Tools** > **Options** > **Python** > **Debugging**. 
 
 To start debugging, set an initial breakpoint in your code, then right-click the test (or a selection) in **Test Explorer** and select **Debug Selected Tests**. Visual Studio starts the Python debugger as it would for application code.
 

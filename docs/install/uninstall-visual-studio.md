@@ -1,19 +1,19 @@
 ---
-title: "Uninstall Visual Studio"
-titleSuffix: ""
-description: "Learn how to uninstall Visual Studio, step-by-step."
-ms.date: 07/31/2019
-ms.custom: "seodec18"
+title: Uninstall Visual Studio
+titleSuffix: ''
+description: Learn how to uninstall Visual Studio, step-by-step.
+ms.date: 05/06/2020
+ms.custom: seodec18
 ms.topic: conceptual
 f1_keywords:
-  - "uninstall"
-  - "uninstall Visual Studio"
+- uninstall
+- uninstall Visual Studio
 ms.assetid: 0e445255-b796-426d-ad93-a4d8e36da2c5
-author: TerryGLee
-ms.author: tglee
+author: ornellaalt
+ms.author: ornella
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
 ---
@@ -24,13 +24,20 @@ This page walks you through uninstalling Visual Studio, our integrated suite of 
 > [!NOTE]
 > This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [Uninstall Visual Studio for Mac](/visualstudio/mac/uninstall).
 
+> [!TIP]
+> If you're having trouble with your instance of Visual Studio, try the **Repair** tool. For more information, see [Repair Visual Studio](../install/repair-visual-studio.md). 
+>
+> If you want to change the location for some of your Visual Studio files, it's possible to do so without uninstalling your current instance. For more information, see [Select the installation locations in Visual Studio](../install/change-installation-locations.md).
+>
+> For general troubleshooting tips, see [Troubleshoot Visual Studio installation and upgrade issues](../install/troubleshooting-installation-issues.md).
+
 ::: moniker range="vs-2017"
 
 1. Find the Visual Studio Installer on your computer.
 
      For example, on a computer running Windows 10 Anniversary Update or later, select **Start** and scroll to the letter **V**, where it's listed as **Visual Studio Installer**.
 
-     ![Visual Studio Installer](media/vs2017-locate-the-visual-studio-installer.PNG "Locate the Microsoft Visual Studio Installer")
+     ![Visual Studio Installer](media/locate-the-visual-studio-installer.png "Locate the Microsoft Visual Studio Installer")
 
    > [!NOTE]
    > On some computers, the Visual Studio Installer might be listed under the letter **"M"** as the **Microsoft Visual Studio Installer**.<br/><br/> Alternatively, you can find the Visual Studio Installer in the following location: `C:\Program Files (x86)\Microsoft Visual Studio\Installer\vs_installer.exe`
@@ -92,10 +99,13 @@ To remove all installations of Visual Studio 2019 and the Visual Studio Installe
 
 ::: moniker-end
 
+## Remove all files
+
+If you experience a catastrophic error and can't uninstall Visual Studio by using the previous instructions, there is a "last resort" option that you can consider using instead. For more information about how to remove all Visual Studio installation files and product information completely, see the [Remove Visual Studio](remove-visual-studio.md) page.
+
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 
 ## See also
 
 * [Modify Visual Studio](modify-visual-studio.md)
 * [Update Visual Studio](update-visual-studio.md)
-* [Uninstall Visual Studio for Mac](/visualstudio/mac/uninstall)

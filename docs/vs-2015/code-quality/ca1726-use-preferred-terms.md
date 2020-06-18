@@ -18,7 +18,7 @@ manager: "wpickett"
 # CA1726: Use preferred terms
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-For the latest documentation on Visual Studio, see [CA1726: Use preferred terms](https://docs.microsoft.com/visualstudio/code-quality/ca1726-use-preferred-terms).
+For the latest documentation on Visual Studio, see [CA1726: Use preferred terms](/visualstudio/code-quality/ca1726-use-preferred-terms).
 
 |||
 |-|-|

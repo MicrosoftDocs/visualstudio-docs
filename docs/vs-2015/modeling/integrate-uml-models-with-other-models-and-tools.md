@@ -34,17 +34,11 @@ UML models can be integrated with other models and with domain-specific language
 
    For more information, see [Define a profile to extend UML](../modeling/define-a-profile-to-extend-uml.md).
 
-   For a sample project in which a profile is deployed together with menu commands and gesture handlers, see [Sample: UML Profiles](http://go.microsoft.com/fwlink/?LinkID=213811).
-
 - **References.** You can attach a set of strings to any UML element. You could write code that stores the information such as a filename or the GUID of another element. This can be done without providing additional definitions. References are not directly visible to the user.
 
-   For more information, see [Attach reference strings to UML model elements](../modeling/attach-reference-strings-to-uml-model-elements.md). For a sample, see [Link UML Elements to Diagrams or other Files](http://go.microsoft.com/fwlink/?LinkId=213813).
-
-  There are two ways to encode references to model elements:
+There are two ways to encode references to model elements:
 
 - **GUID and Filename** of the target model element and the model that contains it, or a particular diagram that displays it.
-
-   For an example, see [Link UML Elements to Diagrams or other Files](http://go.microsoft.com/fwlink/?LinkId=213813).
 
 - **ModelBus References.** ModelBus is a framework for creating and resolving references between models. It includes the ModelBus Picker, which lets the user select an element in a model. It also helps the user to resolve references that are lost because of changes in the target model.
 
@@ -55,8 +49,6 @@ UML models can be integrated with other models and with domain-specific language
 
 1. **VMSDK Rules** can be used to propagate changes inside the same model.
 
-    For an example, see [Link UML Elements to Diagrams or other Files](http://go.microsoft.com/fwlink/?LinkId=213813).
-
 2. **VMSDK Events** can be used to propagate changes outside the model – for example, to change the filename of a linked document, or to change an element in another model.
 
    For information about both these mechanisms, see [How to: Respond to Changes in a UML Model](../misc/how-to-respond-to-changes-in-a-uml-model.md).
@@ -66,35 +58,8 @@ UML models can be integrated with other models and with domain-specific language
 
    For more information see [Define a gesture handler on a modeling diagram](../modeling/define-a-gesture-handler-on-a-modeling-diagram.md) and [How to: Add a Drag-and-Drop Handler](../modeling/how-to-add-a-drag-and-drop-handler.md).
 
-## Samples
- Please see the code sample [Link UML Elements to Diagrams or other Files](http://go.microsoft.com/fwlink/?LinkId=213813). The sample lets users drag a file onto any UML element, and later open the file by double-clicking the element. For example, you could link an activity diagram to a use case element. An icon shows which elements have links.
-
- This code sample demonstrates the following techniques:
-
-- [Attach reference strings to UML model elements](../modeling/attach-reference-strings-to-uml-model-elements.md)
-
-   The sample code stores file paths and element GUIDs in reference strings that are associated with the element.
-
-- How to add decorators to UML elements. For general information about decorators, see [Customizing Text and Image Fields](../modeling/customizing-text-and-image-fields.md).
-
-   The sample adds an image decorator to the UML shapes.
-
-- [How to: Respond to Changes in a UML Model](../misc/how-to-respond-to-changes-in-a-uml-model.md)
-
-   The sample demonstrates how to define a rule that responds to new shapes appearing on a diagram.
-
-- [Define a menu command on a modeling diagram](../modeling/define-a-menu-command-on-a-modeling-diagram.md)
-
-- [Define a gesture handler on a modeling diagram](../modeling/define-a-gesture-handler-on-a-modeling-diagram.md)
-
-   The sample demonstrates how to handle items dragged from Windows Explorer (or File Explorer), Solution Explorer, and other UML elements.
-
-  For an example in which a UML model is be read by a DSL, see [How to: Add a Drag-and-Drop Handler](../modeling/how-to-add-a-drag-and-drop-handler.md).
-
 ## See Also
  [Define a menu command on a modeling diagram](../modeling/define-a-menu-command-on-a-modeling-diagram.md)
  [Define a gesture handler on a modeling diagram](../modeling/define-a-gesture-handler-on-a-modeling-diagram.md)
  [How to: Add a Drag-and-Drop Handler](../modeling/how-to-add-a-drag-and-drop-handler.md)
  [How to: Respond to Changes in a UML Model](../misc/how-to-respond-to-changes-in-a-uml-model.md)
- [Sample: UML Profiles](http://go.microsoft.com/fwlink/?LinkID=213811)
- [Link UML Elements to Diagrams or other Files](http://go.microsoft.com/fwlink/?LinkId=213813)

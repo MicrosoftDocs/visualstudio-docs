@@ -1,19 +1,19 @@
 ---
 title: Suppress code analysis warnings
 ms.date: 12/01/2018
-ms.topic: "conceptual"
+ms.topic: conceptual
 helpviewer_keywords:
-  - "source suppression, code analysis"
-  - "code analysis, source suppression"
-author: jillre
-ms.author: jillfra
+- source suppression, code analysis
+- code analysis, source suppression
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 dev_langs:
- - CSharp
- - VB
- - CPP
+- CSharp
+- VB
+- CPP
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Suppress code analysis warnings
 
@@ -72,19 +72,21 @@ The properties of the attribute include:
 
 - **Scope** - The target on which the warning is being suppressed. If the target is not specified, it is set to the target of the attribute. Supported [scopes](xref:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute.Scope) include the following:
 
-  - `module`
+  - [`module`](#module-suppression-scope) - This scope suppresses warnings against an assembly. It is a global suppression that applies to the entire project.
 
-  - `resource`
+  - `resource` - ([legacy FxCop](../code-quality/static-code-analysis-for-managed-code-overview.md) only) This scope suppresses warnings in diagnostic info written to resource files that are part of the module (assembly). This scope is not read/respected in C#/VB compilers for Roslyn analyzer diagnostics, which only analyzes source files.
 
-  - `type`
+  - `type` - This scope suppresses warnings against a type.
 
-  - `member`
+  - `member` - This scope suppresses warnings against a member.
 
   - `namespace` - This scope suppresses warnings against the namespace itself. It does not suppress warnings against types within the namespace.
 
-  - `namespaceanddescendants` - (New for Visual Studio 2019) This scope suppresses warnings in a namespace and all its descendant symbols. The `namespaceanddescendants` value is ignored by legacy analysis.
+  - `namespaceanddescendants` - (Requires compiler version 3.x or higher and Visual Studio 2019) This scope suppresses warnings in a namespace and all its descendant symbols. The `namespaceanddescendants` value is ignored by legacy analysis.
 
 - **Target** - An identifier that is used to specify the target on which the warning is being suppressed. It must contain a fully qualified item name.
+
+When you see warnings in Visual Studio, you can view examples of `SuppressMessage` by [adding a suppression to the global suppression file](../code-quality/use-roslyn-analyzers.md#suppress-violations). The suppression attribute and its required properties appear in a preview window.
 
 ## SuppressMessage usage
 
@@ -141,15 +143,6 @@ public class Animal
 }
 ```
 
-## Generated code
-
-Managed code compilers and some third-party tools generate code to facilitate rapid code development. Compiler-generated code that appears in source files is usually marked with the `GeneratedCodeAttribute` attribute.
-
-You can choose whether to suppress code analysis warnings and errors for generated code. For information about how to suppress such warnings and errors, see [How to: Suppress Warnings for Generated Code](../code-quality/how-to-suppress-code-analysis-warnings-for-generated-code.md).
-
-> [!NOTE]
-> Code analysis ignores `GeneratedCodeAttribute` when it is applied to either an entire assembly or a single parameter.
-
 ## Global-level suppressions
 
 The managed code analysis tool examines `SuppressMessage` attributes that are applied at the assembly, module, type, member, or parameter level. It also fires violations against resources and namespaces. These violations must be applied at the global level and are scoped and targeted. For example, the following message suppresses a namespace violation:
@@ -168,9 +161,33 @@ Global-level suppressions are the only way to suppress messages that refer to co
 > [!NOTE]
 > `Target` always contains the fully qualified item name.
 
-## Global suppression file
+### Global suppression file
 
 The global suppression file maintains suppressions that are either global-level suppressions or suppressions that do not specify a target. For example, suppressions for assembly-level violations are stored in this file. Additionally, some ASP.NET suppressions are stored in this file because project-level settings are not available for code behind a form. A global suppression file is created and added to your project the first time that you select the **In Project Suppression File** option of the **Suppress** command in the **Error List** window.
+
+### Module suppression scope
+
+You can suppress code quality violations for the entire assembly by using the **module** scope.
+
+For example, the following attribute in your _GlobalSuppressions_ project file will suppress the ConfigureAwait violation for an ASP.NET Core project:
+
+`[assembly: System.Diagnostics.CodeAnalysis.SuppressMessage("Reliability", "CA2007:Consider calling ConfigureAwait on the awaited task", Justification = "ASP.NET Core doesn't use thread context to store request context.", Scope = "module")]`
+
+## Generated code
+
+Managed code compilers and some third-party tools generate code to facilitate rapid code development. Compiler-generated code that appears in source files is usually marked with the `GeneratedCodeAttribute` attribute.
+
+For source code analysis (FxCop analyzers), you can suppress messages in generated code using the [.editorconfig](../code-quality/configure-fxcop-analyzers.md) file in the root of your project or solution. Use a file pattern to match the generated code. For example, to exclude CS1591 warnings in **.designer.cs* files, use this in the configuration file.
+
+``` cmd
+[*.designer.cs]
+dotnet_diagnostic.CS1591.severity = none
+```
+
+For legacy code analysis, you can choose whether to suppress code analysis warnings and errors for generated code. For information about how to suppress such warnings and errors, see [How to: Suppress Warnings for Generated Code](../code-quality/how-to-suppress-code-analysis-warnings-for-generated-code.md).
+
+> [!NOTE]
+> Code analysis ignores `GeneratedCodeAttribute` when it is applied to either an entire assembly or a single parameter.
 
 ## See also
 

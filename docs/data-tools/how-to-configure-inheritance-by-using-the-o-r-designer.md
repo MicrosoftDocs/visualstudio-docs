@@ -1,13 +1,13 @@
 ---
-title: "How to: Configure inheritance by using the O-R Designer"
+title: 'How to: Configure inheritance by using the O-R Designer'
 ms.date: 11/04/2016
 ms.topic: conceptual
 ms.assetid: e594af12-e777-434a-bc08-7dd2dac84cdc
-author: jillre
-ms.author: jillfra
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "data-storage"
+- data-storage
 ---
 # How to: Configure inheritance by using the O/R Designer
 The **Object Relational Designer** (**O/R Designer**) supports the concept of single-table inheritance as it is often implemented in relational systems. In single-table inheritance, there is a single database table that contains fields for both parent information and child information. With relational data, a discriminator column contains the value that determines which class any record belongs to.

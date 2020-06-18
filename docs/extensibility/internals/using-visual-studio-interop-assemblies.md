@@ -1,17 +1,17 @@
 ---
-title: "Using Visual Studio Interop Assemblies | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Using Visual Studio Interop Assemblies | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "Visual Studio, interop assemblies"
-  - "interop assemblies, Visual Studio"
-  - "managed VSPackages, interop assemblies"
+- Visual Studio, interop assemblies
+- interop assemblies, Visual Studio
+- managed VSPackages, interop assemblies
 ms.assetid: 1043eb95-4f0d-4861-be21-2a25395b3b3c
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Using Visual Studio Interop Assemblies
 Visual Studio interop assemblies allow managed applications to access the COM interfaces that provide Visual Studio extensibility. There are some differences between straight COM interfaces and their interop versions. For example, HRESULTs are generally represented as int values and need to be handled in the same way as exceptions, and parameters (especially out parameters) are treated differently.

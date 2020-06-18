@@ -2,13 +2,13 @@
 title: "Tutorial: Create a simple C# console app"
 description: "Learn how to create a C# console app in Visual Studio, step-by-step."
 ms.custom: "seodec18, get-started"
-ms.date: 03/23/2019
+ms.date: 02/18/2020
 ms.technology: vs-ide-general
 ms.prod: visual-studio-windows
 ms.topic: tutorial
 ms.devlang: CSharp
-author: TerryGLee
-ms.author: tglee
+author: ornellaalt
+ms.author: ornella
 manager: jillfra
 dev_langs:
   - CSharp
@@ -128,9 +128,12 @@ Let's start with some basic integer math in C#.
 
     Notice that when you do so, the IntelliSense feature in Visual Studio offers you the option to autocomplete the entry.
 
+    > [!NOTE]
+    > The following animation isn't intended to duplicate the preceding code. It's intended only to show how the autocomplete feature works.
+
     ![Animation of integer math code that shows the IntelliSense autocomplete feature in the Visual Studio IDE](./media/integer-math-intellisense.gif)
 
-1. Choose **Calculator** to run your program, or press **F5**.
+1. Choose the green **Start** button next to **Calculator** to build and run your program, or press **F5**.
 
    ![Choose the Calculator button to run the app from the toolbar](./media/csharp-console-calculator-button.png)
 
@@ -232,7 +235,7 @@ As in the following screenshot, if you run the app and divide number 42 by the n
 
 Let's fix the code so that it handles decimals.
 
-1. Press **Ctrl** + **F** to open the **Find and Replace** control.
+1. Press **Ctrl** + **H** to open the **Find and Replace** control.
 
 1. Change each instance of the `int` variable to `float`.
 
@@ -248,7 +251,7 @@ Let's fix the code so that it handles decimals.
 
 However, the app produces only a decimal result. Let's make a few more tweaks to the code so that the app can calculate decimals too.
 
-1. Use the **Find and Replace** control (**Ctrl** + **F**) to change each instance of the `float` variable to `double`, and to change each instance of the `Convert.ToInt32` method to `Convert.ToDouble`.
+1. Use the **Find and Replace** control (**Ctrl** + **H**) to change each instance of the `float` variable to `double`, and to change each instance of the `Convert.ToInt32` method to `Convert.ToDouble`.
 
 1. Run your calculator app and divide the number **42.5** by the number **119.75**.
 
@@ -262,18 +265,21 @@ However, the app produces only a decimal result. Let's make a few more tweaks to
 
 We've improved on our basic calculator app, but it doesn't yet have fail safes in place to handle exceptions, such as user input errors.
 
-For example, if you try to divide a number by zero, or enter an alpha character when the app expects a numeric character (or vice versa), the app stops working and returns an error.
+For example, if you try to divide a number by zero, or enter an alpha character when the app expects a numeric character (or vice versa), the app might stop working, return an error, or return an unexpected nonnumeric result.
 
-Let's walk through a few common user input errors, locate them in the debugger, and fix them in the code.
+Let's walk through a few common user input errors, locate them in the debugger if they appear there, and fix them in the code.
 
->[!TIP]
->For more information about the debugger and how it works, see the [First look at the Visual Studio debugger](../../debugger/debugger-feature-tour.md) page.
+> [!TIP]
+> For more information about the debugger and how it works, see the [First look at the Visual Studio debugger](../../debugger/debugger-feature-tour.md) page.
 
 ### Fix the "divide by zero" error
 
-When you try to divide a number by zero, the console app freezes. Visual Studio then shows you what's wrong in the code editor.
+When you try to divide a number by zero, the console app might freeze and then show you what's wrong in the code editor.
 
    ![The Visual Studio code editor shows the divide-by-zero error](./media/csharp-console-calculator-dividebyzero-error.png)
+
+> [!NOTE]
+> Sometimes, the app doesn't freeze and the debugger won't show a divide-by-zero error. Instead, the app might return an unexpected nonnumeric result, such as an infinity symbol. The following code fix still applies.
 
 Let's change the code to handle this error.
 
@@ -317,15 +323,15 @@ The `Calculator` class will handle the bulk of the calculation work, and the `Pr
 
 Let's get started.
 
-1. Delete everything *after* the following code block:
+1. Delete everything in the `Calculator` namespace between its opening and closing braces:
 
     ```csharp
-
     using System;
 
     namespace Calculator
     {
-
+        
+    }
     ```
 
 1. Next, add a new `Calculator` class, as follows:

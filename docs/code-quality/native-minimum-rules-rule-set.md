@@ -3,11 +3,11 @@ title: Native Minimum Rules rule set
 ms.date: 11/04/2016
 ms.topic: reference
 ms.assetid: 2d898bc4-fba5-472e-8f09-b0c6b511c5a3
-author: jillre
-ms.author: jillfra
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Native Minimum Rules rule set
 
@@ -152,4 +152,4 @@ Include this rule set in any custom rule set you create for native projects.
 |[C28304](../code-quality/c28304.md)|An improperly placed \_Notref\_ operator was found applied to token.|
 |[C28305](../code-quality/c28305.md)|An error while parsing a token was discovered.|
 |[C28350](../code-quality/c28350.md)|The annotation describes a situation that is not conditionally applicable.|
-|[C28351](../code-quality/c28351.md)|The annotation describes where a dynamic value (a variable) cannot be used in the condition.|
+|[C28351](/cpp/code-quality/c28351)|The annotation describes where a dynamic value (a variable) cannot be used in the condition.|

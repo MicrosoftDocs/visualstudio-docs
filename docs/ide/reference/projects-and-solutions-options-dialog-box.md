@@ -3,16 +3,16 @@ title: Projects and Solutions, Options dialog box
 ms.date: 07/26/2019
 ms.topic: reference
 f1_keywords:
-  - "VS.ToolsOptionsPages.Projects.General"
+- VS.ToolsOptionsPages.Projects.General
 helpviewer_keywords:
-  - "Projects and Solutions Options dialog box"
-  - "Options dialog box, Projects and Solutions"
+- Projects and Solutions Options dialog box
+- Options dialog box, Projects and Solutions
 ms.assetid: 2801f24e-a138-488a-ae3c-e1f99a678ac0
-author: jillre
-ms.author: jillfra
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Options dialog box: Projects and Solutions \> General
 

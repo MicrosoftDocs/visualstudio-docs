@@ -1,20 +1,20 @@
 ---
-title: "IDebugBreakpointResolution2::GetBreakpointType | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugBreakpointResolution2::GetBreakpointType | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugBreakpointResolution2::GetBreakpointType"
+- IDebugBreakpointResolution2::GetBreakpointType
 helpviewer_keywords:
-  - "IDebugBreakpointResolution2::GetBreakpointType"
+- IDebugBreakpointResolution2::GetBreakpointType
 ms.assetid: 2b707fb9-f703-4c78-91bf-7434f57790a0
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugBreakpointResolution2::GetBreakpointType
 Gets the type of the breakpoint represented by this resolution.

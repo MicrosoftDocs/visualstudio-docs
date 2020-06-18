@@ -1,20 +1,20 @@
 ---
-title: "IDebugReference2::GetReferenceInfo | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugReference2::GetReferenceInfo | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugReference2::GetReferenceInfo"
+- IDebugReference2::GetReferenceInfo
 helpviewer_keywords:
-  - "IDebugReference2::GetReferenceInfo"
+- IDebugReference2::GetReferenceInfo
 ms.assetid: ae611714-f114-4cf2-b5bb-37461e6ff289
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugReference2::GetReferenceInfo
 Gets the [DEBUG_REFERENCE_INFO](../../../extensibility/debugger/reference/debug-reference-info.md) structure that describes a reference. Reserved for future use.

@@ -1,19 +1,19 @@
 ---
-title: "IDebugComPlusSymbolProvider2::LoadSymbolsWithCorModule | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugComPlusSymbolProvider2::LoadSymbolsWithCorModule | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
-  - "IDebugComPlusSymbolProvider2::LoadSymbolsWithCorModule"
-  - "LoadSymbolsWithCorModule"
+- IDebugComPlusSymbolProvider2::LoadSymbolsWithCorModule
+- LoadSymbolsWithCorModule
 ms.assetid: b6abf3a4-ce60-4e66-9637-82ce911148de
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugComPlusSymbolProvider2::LoadSymbolsWithCorModule
 Loads debug symbols given the **ICorDebugModule** object.

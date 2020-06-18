@@ -3,8 +3,8 @@ documentType: LandingData
 title: Visual Studio for Mac Samples
 metadata:
   description: Sample apps that work with Visual Studio for Mac.
-  author: asb3993
-  ms.author: amburns
+  author: heiligerdankgesang
+  ms.author: dominicn
   ms.date: 07/31/2019
   ms.topic: sample
 abstract:

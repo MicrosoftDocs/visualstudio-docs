@@ -1,20 +1,20 @@
 ---
-title: "IDebugPointerObject::GetBytes | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugPointerObject::GetBytes | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugPointerObject::GetBytes"
+- IDebugPointerObject::GetBytes
 helpviewer_keywords:
-  - "IDebugPointerObject::GetBytes method"
+- IDebugPointerObject::GetBytes method
 ms.assetid: e986c188-87fb-4b51-86e9-ee6a0035bdab
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugPointerObject::GetBytes
 Gets the value pointed to as a series of consecutive bytes.

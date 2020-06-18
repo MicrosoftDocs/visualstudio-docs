@@ -1,21 +1,21 @@
 ---
-title: "Import or export installation configurations"
-titleSuffix: ""
-description: "Learn how to export your installation configuration to a .vsconfig file to share with others, and how to import it to clone."
+title: Import or export installation configurations
+titleSuffix: ''
+description: Learn how to export your installation configuration to a .vsconfig file to share with others, and how to import it to clone.
 ms.date: 05/18/2019
 ms.topic: conceptual
 f1_keywords:
-  - "vs.about"
+- vs.about
 helpviewer_keywords:
-  - "import installation configuration"
-  - "export installation configuration"
-  - "install Visual Studio"
-  - "Visual Studio installer"
-author: TerryGLee
-ms.author: tglee
+- import installation configuration
+- export installation configuration
+- install Visual Studio
+- Visual Studio installer
+author: ornellaalt
+ms.author: ornella
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
 ---

@@ -33,7 +33,7 @@ If you write text templates that read a model that contains [!INCLUDE[vsprvs](..
 
 1. If the target DSL solution does not have a **ModelBusAdapter** project, create one by using the Modelbus Extension wizard:
 
-    1. Download and install the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] ModelBus Extension, if you have not already done this. For more information, see [Visualization and Modeling SDK](http://go.microsoft.com/fwlink/?LinkID=185579).
+    1. Download and install the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] ModelBus Extension, if you have not already done this. For more information, see [Visualization and Modeling SDK](https://www.visualstudio.com/).
 
     2. Open the DSL definition file. Right-click the design surface and then click **Enable Modelbus**.
 
@@ -178,7 +178,7 @@ inherits="Microsoft.VisualStudio.TextTemplating.Modeling.ModelBusEnabledTextTran
 
 2. In the DSL Definition diagram, right-click a blank part of the diagram that is not near the top, and then click **Enable Modelbus**.
 
-   - If you do not see **Enable Modelbus**, you must download and install the VMSDK ModelBus extension. Find it on the VMSDK site: [Visualization and Modeling SDK](http://go.microsoft.com/fwlink/?LinkID=185579).
+   - If you do not see **Enable Modelbus**, you must download and install the VMSDK ModelBus extension. Find it on the VMSDK site: [Visualization and Modeling SDK](https://www.visualstudio.com/).
 
 3. In the **Enable Modelbus** dialog box, select **Expose this DSL to the ModelBus**, and then click **OK**.
 

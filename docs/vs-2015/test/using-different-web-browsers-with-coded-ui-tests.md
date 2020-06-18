@@ -32,19 +32,19 @@ Coded UI tests can automate testing for web applications by recording your tests
 
   - Windows Internet Explorer 10
 
-  - For supported versions of Mozilla Firefox and Google Chrome, go [here](http://visualstudiogallery.msdn.microsoft.com/11cfc881-f8c9-4f96-b303-a2780156628d/)
+  - For supported versions of Mozilla Firefox and Google Chrome, go [here](https://marketplace.visualstudio.com/items?itemName=AtinBansal.SeleniumcomponentsforCodedUICrossBrowserTesting)
 
-- Install the [Selenium components for Coded UI Cross Browser Testing](http://visualstudiogallery.msdn.microsoft.com/11cfc881-f8c9-4f96-b303-a2780156628d/).
+- Install the [Selenium components for Coded UI Cross Browser Testing](https://marketplace.visualstudio.com/items?itemName=AtinBansal.SeleniumcomponentsforCodedUICrossBrowserTesting).
 
   **What’s supported across all web browsers?**
 
-- [Add custom code for controlling features](http://blogs.msdn.com/b/visualstudioalm/archive/2012/12/10/coded-ui-test-configuring-search-properties-while-recording-on-internet-explorer.aspx) such as properties, search, and playback waiters.
+- [Add custom code for controlling features](https://devblogs.microsoft.com/devops/coded-ui-test-configuring-search-properties-while-recording-on-internet-explorer/) such as properties, search, and playback waiters.
 
 - Pop-ups and dialog boxes
 
-- [Execute basic JavaScript with no return type](http://blogs.msdn.com/b/visualstudioalm/archive/2013/01/18/introducing-jscript-execution-on-internetexplorer-and-crossbrowser-in-coded-ui-test.aspx)
+- [Execute basic JavaScript with no return type](https://devblogs.microsoft.com/devops/introducing-javascript-execution-on-internetexplorer-and-crossbrowser-in-coded-ui-test/)
 
-- Search resilience (using smart match) and [performance improvements](http://blogs.msdn.com/b/visualstudioalm/archive/2012/02/01/guidelines-on-improving-performance-of-coded-ui-test-playback.aspx)
+- Search resilience (using smart match) and [performance improvements](https://devblogs.microsoft.com/devops/guidelines-on-improving-performance-of-coded-ui-test-playback/)
 
 ## Why should I use coded UI tests across multiple web browser types?
  By testing your web application using a variety of web browser types, you better emulate the UI experience of your users who may run different browsers. For example, your application might include a control or code in Internet Explorer that is not compatible with other web browsers. By running your coded UI tests across other browsers, you can discover and correct any issue before it impacts your customers.
@@ -70,7 +70,7 @@ Coded UI tests can automate testing for web applications by recording your tests
 3. Highlight the extension and choose **Download**.
 
    > [!TIP]
-   > You can also download the Selenium components for Coded UI Cross Browser Testing from [here](http://visualstudiogallery.msdn.microsoft.com/11cfc881-f8c9-4f96-b303-a2780156628d/).
+   > You can also download the Selenium components for Coded UI Cross Browser Testing from [here](https://marketplace.visualstudio.com/items?itemName=AtinBansal.SeleniumcomponentsforCodedUICrossBrowserTesting).
 
    For more information about creating and using coded UI tests, see [Creating Coded UI Tests](../test/use-ui-automation-to-test-your-code.md#VerifyingCodeUsingCUITCreate).
 
@@ -133,17 +133,17 @@ Coded UI tests can automate testing for web applications by recording your tests
  [Troubleshoot cross browser test failures](https://skydrive.live.com/redir?resid=AE5CD7309CCCC43C!182&authkey=!AEpS48i295B49FI)
 
 ### Guidance
- [Testing for Continuous Delivery with Visual Studio 2012 – Chapter 2: Unit Testing: Testing the Inside](http://go.microsoft.com/fwlink/?LinkID=255188)
+ [Testing for Continuous Delivery with Visual Studio 2012 – Chapter 2: Unit Testing: Testing the Inside](https://msdn.microsoft.com/library/jj159340.aspx)
 
- [Testing for Continuous Delivery with Visual Studio 2012 – Chapter 5: Automating System Tests](http://go.microsoft.com/fwlink/?LinkID=255196)
+ [Testing for Continuous Delivery with Visual Studio 2012 – Chapter 5: Automating System Tests](https://msdn.microsoft.com/library/jj159335.aspx)
 
 ### FAQ
- [Coded UI Tests FAQ - 1](http://go.microsoft.com/fwlink/?LinkID=230576)
+ [Coded UI Tests FAQ - 1](https://docs.microsoft.com/archive/blogs/mathew_aniyan/content-index-for-coded-ui-test)
 
- [Coded UI Tests FAQ -2](http://go.microsoft.com/fwlink/?LinkID=230578)
+ [Coded UI Tests FAQ -2](https://social.msdn.microsoft.com/Forums/en-US/vsautotest/thread/3a74dd2c-cef8-4923-abbf-7a91f489e6c4)
 
 ### Forum
- [Visual Studio UI Automation Testing (includes Coded UI)](http://go.microsoft.com/fwlink/?LinkID=224497)
+ [Visual Studio UI Automation Testing (includes Coded UI)](https://social.msdn.microsoft.com/Forums/en-US/vsautotest)
 
 ## See Also
  [Use UI Automation To Test Your Code](../test/use-ui-automation-to-test-your-code.md)

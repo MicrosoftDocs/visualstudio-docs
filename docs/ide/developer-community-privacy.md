@@ -3,13 +3,13 @@ title: Private data for problem reports
 ms.date: 06/21/2018
 ms.topic: conceptual
 helpviewer_keywords:
-  - developer community privacy
-  - privacy, developer community
-author: jillre
-ms.author: jillfra
+- developer community privacy
+- privacy, developer community
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Developer Community data privacy
 
@@ -34,7 +34,8 @@ If you're concerned about data privacy, don't put anything you want to keep priv
 3. Add the description and any other information, images, and file attachments needed for your repro. Choose the **Submit** button to send this information privately.
 
    > [!NOTE]
-   > There is a 2-GB limit on attached files, and a maximum of 10 files. If you need to upload a larger file, you can either submit a new problem report or request an upload URL from a Microsoft employee in a private comment.
+   > On the Developer Community website, there is a 2-GB limit on attached files, and a maximum of 10 files. If you need to upload a larger file, you can either submit a new problem report or request an upload URL from a Microsoft employee in a private comment.
+   > When we close an issue, associated attachments will be deleted after 90 days.
 
 To maintain your privacy and keep sensitive information out of public view, take care to keep all interactions with Microsoft to replies under a visibility-restricted comment. Replies to other comments may cause you to accidentally disclose sensitive information.
 
@@ -75,7 +76,7 @@ If **Report a problem** is initiated from Visual Studio, we collect one or more 
   - Dump file
 
 > [!NOTE]
-> Log files, screenshots and recording data are sent to Microsoft only when you provide permission by submitting the problem report with which they are included. You can see which files are included on the 'Summary' step of the 'Report a Problem' window (see the screenshot included in this note). Collected logs and files are stored in the %temp% folder and are cleaned up regularly and after each upload. If you don't want to include a log in your problem report, delete the file from the %temp% folder before submitting the report.
+> Log files, screenshots and recording data you send can significantly increase Microsoft's ability understand and respond to your issue.  So we recommend including them. To protect your privacy, any attached log files, screenshots and recording data are sent only to Microsoft when you provide permission by submitting the problem report with which they are included. You can see which files are included on the 'Summary' step of the 'Report a Problem' window before submitting the report. You can exclude system log files from the report by unchecking 'Attach system logs' in the 'Summary' step. For reference, see the following screenshot. 
   > ![Report a Problem - Summary of logs collected](media/report-a-problem-logs-collected.png)
 
 

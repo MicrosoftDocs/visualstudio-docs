@@ -21,7 +21,7 @@ manager: jillfra
 # Debug 64-Bit Applications
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [Debug 64-Bit Applications](https://docs.microsoft.com/visualstudio/debugger/debug-64-bit-applications) .  
+The latest version of this topic can be found at [Debug 64-Bit Applications](/visualstudio/debugger/debug-64-bit-applications) .  
   
 You can debug a 64-bit application that is running on the local computer or on a remote computer.  
   

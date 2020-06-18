@@ -1,9 +1,9 @@
 ---
 title: "Extending Visual Studio for Mac"
 description: "Visual Studio for Mac's features and functionality can be extended with modules called extension packages. The first part of this guide creates a simple Visual Studio for Mac extension package to insert the date and time into a document. The second part of this guide introduces the fundamentals of the extension package system and some of the core APIs that form the foundation of Visual Studio for Mac."
-author: conceptdev
-ms.author: crdun
-ms.date: 05/07/2019
+author: heiligerdankgesang
+ms.author: dominicn
+ms.date: 12/20/2019
 ms.technology: vs-ide-sdk
 ms.assetid: D5245AB0-8404-426B-B538-F49125E672B2
 ---
@@ -67,10 +67,10 @@ Command Extensions are defined by adding entries to the `/MonoDevelop/Ide/Comman
 
  ```xml
 <Extension path="/MonoDevelop/Ide/Commands/Edit">
-  <command id="DateInserter.DateInserterCommands.InsertDate"
+  <Command id="DateInserter.DateInserterCommands.InsertDate"
             _label="Insert Date"
             _description="Insert the current date"
-            defaulthandler="DateInserter.InsertDateHandler" />
+            defaultHandler="DateInserter.InsertDateHandler" />
 </Extension>
 ```
 
@@ -87,7 +87,7 @@ A CommandItem extension that plugs into the `/MonoDevelop/Ide/MainMenu/Edit` ext
 
 ```xml
 <Extension path="/MonoDevelop/Ide/MainMenu/Edit">
-  <commanditem id="DateInserter.DateInserterCommands.InsertDate" />
+  <CommandItem id="DateInserter.DateInserterCommands.InsertDate" />
 </Extension>
 ```
 
@@ -156,7 +156,7 @@ For information on the scope of areas that are available for development, see th
 
 ## Extending The New Editor
 
-Visual Studio for Mac [introduces a new native Cocoa text editor UI](https://aka.ms/vs/mac/editor/learn-more) built on top of the same editor layers from Visual Studio on Windows.
+Visual Studio for Mac [introduces a new native Cocoa text editor UI](https://docs.microsoft.com/visualstudio/releasenotes/vs2019-mac-relnotes) built on top of the same editor layers from Visual Studio on Windows.
 
 One of the many benefits of sharing the editor between Visual Studio and Visual Studio for Mac is that code targeting the Visual Studio editor can be adapted to run on Visual Studio for Mac.
 
@@ -186,7 +186,7 @@ For a given [`MonoDevelop.Ide.Gui.Document`](http://source.monodevelop.com/#Mono
 ## Additional Information
 
 > [!NOTE]
-> We are currently working on improving the extensibility scenarios for Visual Studio for Mac. If you are creating extensions and need additional help or information, or would like to provide feedback, please fill in the [Visual Studio for Mac Extension Authoring](https://aka.ms/vsmac-extensions-survey) form.
+> We are currently working on improving the extensibility scenarios for Visual Studio for Mac. If you are creating extensions and need additional help or information, or would like to provide feedback, please fill in the [Visual Studio for Mac Extension Authoring](https://forms.office.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR3YufGX_azhFl7MkrQO9i9JUNVMyMklVVlAzQVdURDg2NjQxTFRBVTJURC4u) form.
 
 ## See also
 

@@ -1,15 +1,15 @@
 ---
-title: "Properties Window Fields and Interfaces | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Properties Window Fields and Interfaces | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "Properties window, fields and interfaces"
+- Properties window, fields and interfaces
 ms.assetid: 0328f0e5-2380-4a7a-a872-b547cb775050
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Properties Window Fields and Interfaces
 The model for selection to determine what information is displayed in the **Properties** window is based on the window that has focus in the IDE. Every window, and object within the selected window, can have its selection context object pushed to the global selection context. The environment updates the global selection context with values from a window frame when that window has the focus. When the focus changes, so does the selection context.

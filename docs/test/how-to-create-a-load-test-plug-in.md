@@ -1,16 +1,16 @@
 ---
-title: "Create a Load Test Plug-In"
+title: Create a Load Test Plug-In
 ms.date: 10/19/2016
 ms.topic: conceptual
 f1_keywords:
-  - "vs.test.load.loadtestplugin"
+- vs.test.load.loadtestplugin
 helpviewer_keywords:
-  - "code, load tests"
-  - "plug-ins, load test"
-  - "load tests, plug-ins"
+- code, load tests
+- plug-ins, load test
+- load tests, plug-ins
 ms.assetid: 27806972-1b15-4388-833d-6d0632816f1f
-author: jillre
-ms.author: jillfra
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ---
 # How to: Create a load test plug-in

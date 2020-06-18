@@ -2,11 +2,11 @@
 title: Mixed Recommended Rules rule set
 ms.date: 11/04/2016
 ms.topic: reference
-author: jillre
-ms.author: jillfra
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Mixed Recommended Rules rule set
 
@@ -233,7 +233,7 @@ Include this rule set in any custom rule set you create for your C++ projects th
 |[C28306](../code-quality/c28306.md)|The annotation on parameter is obsolescent|
 |[C28307](../code-quality/c28307.md)|The annotation on parameter is obsolescent|
 |[C28350](../code-quality/c28350.md)|The annotation describes a situation that is not conditionally applicable.|
-|[C28351](../code-quality/c28351.md)|The annotation describes where a dynamic value (a variable) cannot be used in the condition.|
+|[C28351](/cpp/code-quality/c28351)|The annotation describes where a dynamic value (a variable) cannot be used in the condition.|
 |[CA1001](../code-quality/ca1001.md)|Types that own disposable fields should be disposable|
 |[CA1009](../code-quality/ca1009.md)|Declare event handlers correctly|
 |[CA1016](../code-quality/ca1016.md)|Mark assemblies with AssemblyVersionAttribute|

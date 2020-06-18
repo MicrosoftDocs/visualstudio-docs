@@ -30,7 +30,7 @@ Rule Id|DA0006|
 ## Rule Description  
  For value types, the inherited implementation of Equals uses the <xref:System.Reflection> library and compares the contents of all fields in the type. Reflection is computationally expensive, and comparing every field for equality might be unnecessary. If you expect users to compare or sort instances or to use them as hash table keys, your value type should implement Equals. If your programming language supports operator overloading, you should also provide an implementation of the equality and inequality operators.  
   
- For more information about how to override Equals and the equality operators, see [Guidelines for Implementing Equals and the Equality Operator (==)](http://go.microsoft.com/fwlink/?LinkId=177818).  
+ For more information about how to override Equals and the equality operators, see [Guidelines for Implementing Equals and the Equality Operator (==)](https://msdn.microsoft.com/library/7h9bszxx.aspx).  
   
 ## How to Investigate a Warning  
  For an example of implementing the Equals and equality operators, see the code analysis rule [CA1815: Override equals and operator equals on value types](../code-quality/ca1815-override-equals-and-operator-equals-on-value-types.md)

@@ -1,21 +1,21 @@
 ---
-title: "IDebugMessageEvent2::GetMessage | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugMessageEvent2::GetMessage | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugMessageEvent2::GetMessage"
+- IDebugMessageEvent2::GetMessage
 helpviewer_keywords:
-  - "GetMessage method"
-  - "IDebugMessageEvent2::GetMessage method"
+- GetMessage method
+- IDebugMessageEvent2::GetMessage method
 ms.assetid: 9fca7285-f7f1-422d-8565-92bf0e0db60a
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugMessageEvent2::GetMessage
 Gets the message to be displayed.

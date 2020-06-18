@@ -1,16 +1,16 @@
 ---
-title: "VSCT XML Schema Reference | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: VSCT XML Schema Reference | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "Visual Studio command table configuration files (VSCT), XML schema"
-  - "VSCT XML schema elements"
+- Visual Studio command table configuration files (VSCT), XML schema
+- VSCT XML schema elements
 ms.assetid: 49e7efae-e713-4762-a824-96fdaf92cdc9
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # VSCT XML schema reference
 Provides a table of Command Table Compiler schema elements, with allowed child elements and attributes for each.

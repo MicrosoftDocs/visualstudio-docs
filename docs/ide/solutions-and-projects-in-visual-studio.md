@@ -3,23 +3,23 @@ title: Solutions and projects
 ms.date: 10/05/2017
 ms.topic: conceptual
 f1_keywords:
-  - "vs.addnewitem"
-  - "vs.addnewsolutionitem"
-  - "vs.openproject"
-  - "vs.addexistingitem"
-  - "vs.addexistingsolutionitem"
-  - "vs.environment.projects"
-  - "vs.environment.solutions"
-  - "VS.SolutionExplorer"
-  - "VS.SolutionExplorer.Solutions"
+- vs.addnewitem
+- vs.addnewsolutionitem
+- vs.openproject
+- vs.addexistingitem
+- vs.addexistingsolutionitem
+- vs.environment.projects
+- vs.environment.solutions
+- VS.SolutionExplorer
+- VS.SolutionExplorer.Solutions
 helpviewer_keywords:
-  - "solutions [Visual Studio]"
-  - "projects [Visual Studio]"
-author: jillre
-ms.author: jillfra
+- solutions [Visual Studio]
+- projects [Visual Studio]
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Solutions and projects in Visual Studio
 
@@ -69,6 +69,9 @@ After you create a new project, you can use **Solution Explorer** to view and ma
 Many menu commands are available from the right-click menu on various items in **Solution Explorer**. These commands include building a project, managing NuGet packages, adding a reference, renaming a file, and running tests, just to name a few. The toolbar across the top of **Solution Explorer** has buttons to switch from a solution view to a folder view, show hidden files, collapse all nodes, and more.
 
 For ASP.NET Core projects, you can customize how files are nested in **Solution Explorer**. For more information, see [Customize file nesting in Solution Explorer](file-nesting-solution-explorer.md).
+
+> [!TIP]
+> To view a list of some of the icons that appear in Solution Explorer, see the [Class View and Object Browser icons](class-view-and-object-browser-icons.md) page.
 
 ## See also
 

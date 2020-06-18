@@ -19,7 +19,7 @@ You can extend Visual Studio with a UML profile. A profile lets you add stereoty
 
  If you receive a UML model that has been created using profiles, some properties will not be displayed unless you install the same profiles.
 
- A profile is distributed inside a Visual Studio Extension. An extension might also contain other features such as menu commands. For more information, see [Managing Visual Studio Extensions](http://go.microsoft.com/fwlink/?LinkId=160728).
+ A profile is distributed inside a Visual Studio Extension. An extension might also contain other features such as menu commands. For more information, see [Managing Visual Studio Extensions](https://msdn.microsoft.com/library/dd293638(VS.100).aspx).
 
 ### To install a UML Profile on your computer
 

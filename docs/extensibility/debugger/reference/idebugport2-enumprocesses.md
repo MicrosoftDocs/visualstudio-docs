@@ -1,20 +1,20 @@
 ---
-title: "IDebugPort2::EnumProcesses | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugPort2::EnumProcesses | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugPort2::EnumProcesses"
+- IDebugPort2::EnumProcesses
 helpviewer_keywords:
-  - "IDebugPort2::EnumProcesses"
+- IDebugPort2::EnumProcesses
 ms.assetid: aafb32c5-5790-4807-a448-878a80256438
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugPort2::EnumProcesses
 Returns a list of all the processes running on a port.

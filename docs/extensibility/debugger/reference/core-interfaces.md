@@ -1,15 +1,15 @@
 ---
-title: "Core Interfaces | Microsoft Docs"
-ms.date: "11/04/2016"
+title: Core Interfaces | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
-  - "debugging [Debugging SDK], core interfaces"
+- debugging [Debugging SDK], core interfaces
 ms.assetid: 666b9116-8550-4bdd-bc15-55fc57de87df
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Core Interfaces
 The following interfaces are the core interfaces for extending debugger by using the [!INCLUDE[vsipsdk](../../../extensibility/includes/vsipsdk_md.md)].

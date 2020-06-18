@@ -1,20 +1,20 @@
 ---
-title: "METADATA_ADDRESS_FIELD | Microsoft Docs"
-ms.date: "11/04/2016"
+title: METADATA_ADDRESS_FIELD | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "METADATA_ADDRESS_FIELD"
+- METADATA_ADDRESS_FIELD
 helpviewer_keywords:
-  - "METADATA_ADDRESS_FIELD structure"
+- METADATA_ADDRESS_FIELD structure
 ms.assetid: 15ab45fe-6b3b-4e09-880b-31b34f523607
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # METADATA_ADDRESS_FIELD
 

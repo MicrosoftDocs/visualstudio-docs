@@ -6,20 +6,20 @@ ms.author: dominicn
 ms.date: 05/23/2019
 ms.assetid: 5880BB10-0A12-47E2-8A82-7A2D59C4D579
 ---
-# Creating a New Project
+# Create a New Project
 
 ## Opening the Project Creation Dialog
 
-There are a few ways to create a new project in Visual Studio for Mac. When you first open Visual Studio for Mac, the welcome screen will be shown. From here you can choose **New** which will take you to the project creation screen.
+There are a few ways to create a new project in Visual Studio for Mac. When you first open Visual Studio for Mac, the start window is shown. From here you can choose **New** which takes you to the project creation screen.
 
 > [!TIP]
-> Additionally, from the welcome screen, you can also open, and search for, recent projects and solutions. You can also open recent projects by going to the menu bar and choosing **File > Recent Solutions**
+> Additionally, from the start window, you can also open and search for recent projects and solutions. You can also open recent projects by going to the menu bar and choosing **File > Recent Solutions**
 
-![Welcome screen with create new project](media/first-run-project.png)
+![Start window with create new project](media/first-run-project.png)
 
-If Visual Studio for Mac is already open with a solution loaded, you can create a new solution by going to the menu bar and choosing **File > New Solution**. Creating a new solution this way will close the solution that is already loaded.
+If Visual Studio for Mac is already open with a solution loaded, you can create a new solution by going to the menu bar and choosing **File > New Solution**. Creating a new solution this way closes the solution that is already loaded.
 
-## Creating a New Project from a Template
+## Creating a New Project
 
 The **New Project** dialog, by default, will show your recently used templates sorted by *most recently used*.
 

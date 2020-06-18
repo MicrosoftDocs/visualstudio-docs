@@ -1,36 +1,38 @@
 ---
-title: "MIDL Task | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "reference"
+title: MIDL Task | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: reference
 f1_keywords:
-  - "VC.Project.VCMidlTool.ServerStubFile"
-  - "VC.Project.VCMidlTool.ApplicationConfigurationMode"
-  - "VC.Project.VCMidlTool.GenerateServerFiles"
-  - "VC.Project.VCMidlTool.ClientStubFile"
-  - "VC.Project.VCMidlTool.LocaleID"
-  - "VC.Project.VCMidlTool.GenerateClientFiles"
-  - "VC.Project.VCMidlTool.SuppressCompilerWarnings"
-  - "VC.Project.VCMidlTool.TypeLibFormat"
-  - "vc.task.midl"
+- VC.Project.VCMidlTool.ServerStubFile
+- VC.Project.VCMidlTool.ApplicationConfigurationMode
+- VC.Project.VCMidlTool.GenerateServerFiles
+- VC.Project.VCMidlTool.ClientStubFile
+- VC.Project.VCMidlTool.LocaleID
+- VC.Project.VCMidlTool.GenerateClientFiles
+- VC.Project.VCMidlTool.SuppressCompilerWarnings
+- VC.Project.VCMidlTool.TypeLibFormat
+- vc.task.midl
 dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
+- VB
+- CSharp
+- C++
+- jsharp
 helpviewer_keywords:
-  - "MSBuild (C++), MIDL task"
-  - "MIDL task (MSBuild (C++))"
+- MSBuild (C++), MIDL task
+- MIDL task (MSBuild (C++))
 ms.assetid: 727efa8c-3336-40b8-8bef-ae6cbd77a422
-author: mikejo5000
-ms.author: mikejo
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # MIDL task
+
 Wraps the Microsoft Interface Definition Language (MIDL) compiler tool, *midl.exe*. For more information, see [MIDL command-line reference](/windows/desktop/Midl/midl-command-line-reference).
 
 ## Parameters
+
  The following describes the parameters of the **MIDL** task. Most task parameters, and a few sets of parameters, correspond to a command-line option.
 
 - **AdditionalIncludeDirectories**
@@ -410,4 +412,5 @@ Wraps the Microsoft Interface Definition Language (MIDL) compiler tool, *midl.ex
      For more information, see the **/W** option in [MIDL command-line reference](/windows/desktop/Midl/midl-command-line-reference). Also, see the **WarnAsError** parameter in this table.
 
 ## See also
+
 - [Task reference](../msbuild/msbuild-task-reference.md)

@@ -1,14 +1,14 @@
 ---
-title: "Use a lab environment for devops"
+title: Use a lab environment for devops
 ms.date: 05/02/2017
 ms.topic: conceptual
 helpviewer_keywords:
-  - "lab environment, test lab"
-ms.author: jillfra
+- lab environment, test lab
+ms.author: mikejo
 manager: jillfra
 ms.workload:
-  - "multiple"
-author: jillre
+- multiple
+author: mikejo5000
 ---
 # Use a lab environment for your devops
 
@@ -47,6 +47,7 @@ You can perform automated testing and build-deploy-test automation using the [bu
 
 For more information, see [Use Build or Release management](use-build-or-rm-instead-of-lab-management.md).
 
+::: moniker range="vs-2017"
 ## Use the Visual Studio Lab Management features of Microsoft Test Manager
 
 You can create and manage lab environments with the Visual Studio Lab Management features of Microsoft Test Manager when you use Visual Studio Enterprise edition.
@@ -131,9 +132,10 @@ For information about setting up environments, see:
 * [Standard lab environments](https://msdn.microsoft.com/library/ee390842.aspx)
 * [SCVMM (virtual) environments](https://msdn.microsoft.com/library/ee943322.aspx)
 * [Creating and using a network isolated environment](https://msdn.microsoft.com/library/ee518924.aspx)
+::: moniker-end
 
 ## See also
 
 * [Install and configure test agents](../../test/lab-management/install-configure-test-agents.md)
-* [Visual Studio Lab Management Guide](https://aka.ms/vsarsolutions)
+* [Visual Studio Lab Management Guide](https://blogs.msdn.microsoft.com/visualstudioalmrangers/2015/04/22/library-of-tooling-and-guidance-solutions-aka-msvsarsolutions/)
 * [Microsoft DevOps Blog](https://devblogs.microsoft.com/devops/)

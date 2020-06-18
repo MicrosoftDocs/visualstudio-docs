@@ -1,16 +1,16 @@
 ---
-title: "New Project Generation: Under the Hood, Part One | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: 'New Project Generation: Under the Hood, Part One | Microsoft Docs'
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "projects [Visual Studio], new project dialog"
-  - "projects [Visual Studio], new project generation"
+- projects [Visual Studio], new project dialog
+- projects [Visual Studio], new project generation
 ms.assetid: 66778698-0258-467d-8b8b-c351744510eb
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # New Project Generation: Under the Hood, Part One
 Ever thought about how to create your own project type? Wonder what actually happens when you create a new project? Let's take a peek under the hood and see what's really going on.

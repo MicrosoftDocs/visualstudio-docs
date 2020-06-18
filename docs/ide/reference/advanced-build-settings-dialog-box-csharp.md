@@ -4,15 +4,15 @@ ms.date: 08/05/2019
 ms.technology: vs-ide-compile
 ms.topic: reference
 f1_keywords:
-  - "cs.AdvancedBuildSettings"
+- cs.AdvancedBuildSettings
 helpviewer_keywords:
-  - "Build options [C#], advanced"
+- Build options [C#], advanced
 ms.assetid: 141f2dee-1563-4ce6-ba37-32920b082519
-author: ghogen
-ms.author: ghogen
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "dotnet"
+- dotnet
 ---
 # Advanced Build Settings dialog box (C#)
 

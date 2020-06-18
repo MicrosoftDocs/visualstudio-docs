@@ -1,15 +1,15 @@
 ---
-title: "Attaching to the Program | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Attaching to the Program | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "debug engines, attaching to programs"
+- debug engines, attaching to programs
 ms.assetid: 9a3f5b83-60b5-4ef0-91fe-a432105bd066
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Attach to the program
 After you have registered your programs with the appropriate port, you must attach the debugger to the program you want to debug.

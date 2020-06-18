@@ -1,18 +1,18 @@
 ---
-title: "CommandTable Element | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: CommandTable Element | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 f1_keywords:
-  - "CommandTable"
+- CommandTable
 helpviewer_keywords:
-  - "CommandTable element (VSCT XML schema)"
-  - "VSCT XML schema elements, CommandTable"
+- CommandTable element (VSCT XML schema)
+- VSCT XML schema elements, CommandTable
 ms.assetid: 15c38159-660a-4ef4-9643-aa6fcfca82a9
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # CommandTable element
 CommandTable is the root element of the *.vsct* file. This is the file that defines the actual layout and type of the commands that a VSPackage provides to the IDE. Commands may include menu items, menus, toolbars, and combo boxes. For more information, see [Visual Studio command table (.vsct) files](../extensibility/internals/visual-studio-command-table-dot-vsct-files.md).
@@ -40,7 +40,7 @@ CommandTable is the root element of the *.vsct* file. This is the file that defi
 
 | Attribute | Description |
 |-----------| - |
-| xmlns | Required. XML namespaces:<br /><br /> xmlns="<http://schemas.microsoft.com/VisualStudio/2005-10-18/CommandTable>"<br /><br /> xmlns:xs="<http://www.w3.org/2001/XMLSchema>" |
+| xmlns | Required. XML namespaces:<br /><br /> `xmlns=http://schemas.microsoft.com/VisualStudio/2005-10-18/CommandTable`<br /><br /> xmlns:xs="<http://www.w3.org/2001/XMLSchema>" |
 | language | Optional. The language attribute may be used to specify the default language of all \<Strings> elements in the command table.  If the language is not specified, the language of the current process will be used:<br /><br /> language="en-us" |
 
 ### Child Elements

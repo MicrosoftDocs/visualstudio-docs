@@ -3,12 +3,12 @@ title: FxCop code analysis and FxCop analyzers
 ms.date: 09/06/2018
 ms.topic: conceptual
 helpviewer_keywords:
-  - "code analysis FAQ"
-author: jillre
-ms.author: jillfra
+- code analysis FAQ
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ms.workload:
-  - "dotnet"
+- dotnet
 ---
 # Frequently asked questions about FxCop and FxCop analyzers
 
@@ -25,11 +25,11 @@ FxCop analyzers are based on the .NET Compiler Platform ("Roslyn"). You [install
 
 ## Does the Run Code Analysis command run FxCop analyzers?
 
-No. When you select **Analyze** > **Run Code Analysis**, it executes legacy analysis. **Run Code Analysis** has no effect on Roslyn-based analyzers, including the Roslyn-based FxCop analyzers.
+Prior to Visual Studio 2019 16.5 release, when you select **Analyze** > **Run Code Analysis**, it executes legacy analysis. Starting Visual Studio 2019 16.5, **Run Code Analysis** menu option executes Roslyn-based analyzers for the selected project or solution. If you have installed Roslyn-based FxCop analyzers, they would also be executed. For more information, see [How to: Run Code Analysis Manually for Managed Code](how-to-run-code-analysis-manually-for-managed-code.md).
 
 ## Does the RunCodeAnalysis msbuild project property run analyzers?
 
-No. The **RunCodeAnalysis** property in a project file (for example, *.csproj*) is only used to execute legacy FxCop. It runs a post-build msbuild task that invokes **FxCopCmd.exe**. This is equivalent to selecting **Analyze** > **Run Code Analysis** in Visual Studio.
+No. The **RunCodeAnalysis** property in a project file (for example, *.csproj*) is only used to execute legacy FxCop. It runs a post-build msbuild task that invokes **FxCopCmd.exe**.
 
 ## So how do I run FxCop analyzers then?
 
@@ -54,5 +54,5 @@ If your project uses the build option to treat warnings as errors, FxCop analyze
 ## See also
 
 - [Overview of .NET Compiler Platform analyzers](roslyn-analyzers-overview.md)
-- [Get started with analyzers](fxcop-analyzers.yml)
+- [Migrate to FxCop analyzers](migrate-from-legacy-analysis-to-fxcop-analyzers.md)
 - [Install FxCop analyzers](install-fxcop-analyzers.md)

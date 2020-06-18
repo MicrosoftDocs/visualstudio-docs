@@ -1,15 +1,15 @@
 ---
-title: "AsyncVoidMethodBuilder.m_objectIdForDebugger Field | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: AsyncVoidMethodBuilder.m_objectIdForDebugger Field | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "m_objectIdForDebugger field, AsyncVoidMethodBuilder structure [.NET Framework debug engines]"
+- m_objectIdForDebugger field, AsyncVoidMethodBuilder structure [.NET Framework debug engines]
 ms.assetid: 81331a7b-6bec-46e4-a53e-515d0fad2400
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # AsyncVoidMethodBuilder.m_objectIdForDebugger field
 Represents the lazily initialized object used by the debugger to uniquely identify this builder.

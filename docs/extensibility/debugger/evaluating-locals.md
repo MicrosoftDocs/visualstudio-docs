@@ -1,16 +1,16 @@
 ---
-title: "Evaluating Locals | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Evaluating Locals | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "debugging [Debugging SDK], evaluating locals"
-  - "expression evaluation, evaluating locals"
+- debugging [Debugging SDK], evaluating locals
+- expression evaluation, evaluating locals
 ms.assetid: 7d1ed528-4e7a-4d8f-87b4-162440644a75
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Evaluate locals
 > [!IMPORTANT]

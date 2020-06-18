@@ -1,20 +1,20 @@
 ---
-title: "PROCESS_INFO | Microsoft Docs"
-ms.date: "11/04/2016"
+title: PROCESS_INFO | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "PROCESS_INFO"
+- PROCESS_INFO
 helpviewer_keywords:
-  - "PROCESS_INFO structure"
+- PROCESS_INFO structure
 ms.assetid: 260c33cc-a05e-4645-84b6-536d0b3b0537
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # PROCESS_INFO
 Contains information about a process.

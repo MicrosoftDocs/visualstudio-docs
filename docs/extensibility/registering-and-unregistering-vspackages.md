@@ -1,16 +1,16 @@
 ---
-title: "Registering and Unregistering VSPackages | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Registering and Unregistering VSPackages | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "registration, VSPackages"
-  - "VSPackages, registering"
+- registration, VSPackages
+- VSPackages, registering
 ms.assetid: e25e7a46-6a55-4726-8def-ca316f553d6b
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Register and unregister VSPackages
 You use attributes to register a VSPackage, but

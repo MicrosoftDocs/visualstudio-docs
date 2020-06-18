@@ -65,6 +65,9 @@ Visual Studio (2017 version 15.5 and later) supports mixed-mode debugging from a
 
     ![Selecting the Python/Native debugger in a C/C++ project](media/mixed-mode-debugging-select-cpp-debugger.png)
 
+> [!Note]
+> If you don't have the option to select **Python/Native Debugging** you need to first install the **Python native development tools** using the VS installer. You can find it as an option under the Python development workload. For additional information, see [How to install Python support in Visual Studio on Windows](installing-python-support-in-visual-studio.md).
+
 Using this method, be aware that you can't debug the *py.exe* launcher itself, because it spawns a child *python.exe* process that the debugger won't be attached to. If you want to launch *python.exe* directly with arguments, change the **Command** option in the **Python/Native Debugging** properties (shown in the previous image) to specify the full path to *python.exe*, then specify arguments in **Command Arguments**.
 
 ### Attaching the mixed-mode debugger

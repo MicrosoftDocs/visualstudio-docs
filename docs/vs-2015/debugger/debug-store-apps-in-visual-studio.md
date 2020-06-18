@@ -33,4 +33,4 @@ The Visual Studio debugger allows you to control the execution of a program and 
 |[Trigger suspend, resume, and background events for Windows Store)](../debugger/how-to-trigger-suspend-resume-and-background-events-for-windows-store-apps-in-visual-studio.md)|The debugger disables Windows Process Lifetime Management (PLM) events that suspend, resume, and terminate apps. You can trigger these events from the debugger toolbar.<br /><br /> Background tasks enable you to perform important operations even when you app has been suspended. The debugger enables you start and debug these background task.|
 
 ## See Also
- [Debugging in Visual Studio (in the MSDN Library)](http://go.microsoft.com/fwlink/?LinkID=226896)
+ [Debugging in Visual Studio (in the MSDN Library)](https://msdn.microsoft.com/library/sc65sadd(VS.110).aspx)

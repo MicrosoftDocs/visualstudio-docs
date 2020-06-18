@@ -1,34 +1,36 @@
 ---
-title: "MSBuild Target Framework and Target Platform | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: MSBuild Target Framework and Target Platform | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 ms.assetid: df6517c5-edd6-4cc4-97ad-b3cdfc78e799
-author: mikejo5000
-ms.author: mikejo
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # MSBuild target framework and target platform
-A project can be built to run on a *target framework*, which is a particular version of the .NET Framework, and a *target platform*, which is a particular software architecture.  For example, you can target an application to run on the .NET Framework 2.0 on a 32-bit platform that is compatible with the 802x86 processor family ("x86"). The combination of target framework and target platform is known as the *target context*.
+
+A project can be built to run on a *target framework*, which is a particular version of the .NET Framework, and a *target platform*, which is a particular software architecture.  For example, you can target an application to run on the .NET Framework 2.0 on a 32-bit platform that is compatible with the 80x86 processor family ("x86"). The combination of target framework and target platform is known as the *target context*.
 
 > [!IMPORTANT]
 > This article shows the old way to specify a target framework. SDK-style projects enable different TargetFrameworks like netstandard. For more info, see [Target frameworks](/dotnet/standard/frameworks).
 
 ## Target framework and profile
+
  A target framework is the particular version of the .NET Framework that your project is built to run on. Specification of a target framework is required because it enables compiler features and assembly references that are exclusive to that version of the framework.
 
  Currently, the following versions of the .NET Framework are available for use:
 
 - The .NET Framework 2.0 (included in Visual Studio 2005)
 
-- The .NET Framework 3.0 (included in [!INCLUDE[wiprlhext](../debugger/includes/wiprlhext_md.md)])
+- The .NET Framework 3.0 (included in Windows Vista)
 
-- The .NET Framework 3.5 (included in [!INCLUDE[vs_orcas_long](../debugger/includes/vs_orcas_long_md.md)])
+- The .NET Framework 3.5 (included in Visual Studio 2008)
 
 - The .NET Framework 4.5.2
 
-- The .NET Framework 4.6 (included in [!INCLUDE[vs_dev14](../misc/includes/vs_dev14_md.md)])
+- The .NET Framework 4.6 (included in Visual Studio 2015)
 
 - The .NET Framework 4.6.1
 
@@ -63,6 +65,7 @@ The target framework is specified in the `TargetFrameworkVersion` property in th
 ```
 
 ## Target platform
+
  A *platform* is combination of hardware and software that defines a particular runtime environment. For example,
 
 - `x86` designates a 32-bit Windows operating system that is running on an Intel 80x86 processor or its equivalent.
@@ -80,7 +83,7 @@ A *target platform* is the particular platform that your project is built to run
 
 ```
 
-A *target configuration* is a subset of a target platform. For example, the `x86``Debug` configuration does not include most code optimizations. The target configuration is specified in the `Configuration` build property in a project file. You can change the target configuration by using the project property pages or the **Configuration Manager**.
+A *target configuration* is a subset of a target platform. For example, the `x86` `Debug` configuration does not include most code optimizations. The target configuration is specified in the `Configuration` build property in a project file. You can change the target configuration by using the project property pages or the **Configuration Manager**.
 
 ```xml
 <PropertyGroup>
@@ -91,4 +94,5 @@ A *target configuration* is a subset of a target platform. For example, the `x86
 ```
 
 ## See also
+
 - [Multitargeting](../msbuild/msbuild-multitargeting-overview.md)

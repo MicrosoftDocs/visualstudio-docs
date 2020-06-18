@@ -3,19 +3,19 @@ title: Coded UI tests
 ms.date: 12/04/2018
 ms.topic: conceptual
 f1_keywords:
-  - "vs.codedUITest"
-  - "vs.codedUITest.recorder"
-  - "vs.codedUITest.testbuilder"
-  - "vs.codedUITest.addAssertions"
-  - "vs.codedUITest.createdialog"
+- vs.codedUITest
+- vs.codedUITest.recorder
+- vs.codedUITest.testbuilder
+- vs.codedUITest.addAssertions
+- vs.codedUITest.createdialog
 helpviewer_keywords:
-  - "automated tests, testing UI interface"
-  - "coded UI test"
-author: jillre
-ms.author: jillfra
+- automated tests, testing UI interface
+- coded UI test
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Use Coded UI test to test your code
 
@@ -429,7 +429,12 @@ You can analyze Coded UI tests using Coded UI test logs. Coded UI test logs filt
 
 ## What's next?
 
+::: moniker range="vs-2017"
 **Additional options for running Coded UI tests:** You can run Coded UI tests directly from Visual Studio, as described earlier in this topic. Additionally, you can run automated UI tests from Microsoft Test Manager, or using Azure Pipelines. When Coded UI tests are automated, they have to interact with the desktop when you run them, unlike other automated tests.
+::: moniker-end
+::: moniker range=">=vs-2019"
+**Additional options for running Coded UI tests:** You can run Coded UI tests directly from Visual Studio, as described earlier in this topic. Additionally, you can run automated UI tests using Azure Pipelines. When Coded UI tests are automated, they have to interact with the desktop when you run them, unlike other automated tests.
+::: moniker-end
 
 - [Run unit tests with Test Explorer](../test/run-unit-tests-with-test-explorer.md)
 
@@ -443,7 +448,7 @@ You can analyze Coded UI tests using Coded UI test logs. Coded UI test logs filt
 
 - [Extend coded UI tests and action recordings](../test/extending-coded-ui-tests-and-action-recordings-to-support-microsoft-excel.md)
 
-Coded UI tests are often used to automate manual tests. For more information about manual tests, see [Run manual tests with Microsoft Test Manager](/azure/devops/test/mtm/run-manual-tests-with-microsoft-test-manager?view=vsts). For more information about automated tests, see [Test tools in Visual Studio](../test/improve-code-quality.md).
+Coded UI tests are often used to automate manual tests. For more information about automated tests, see [Test tools in Visual Studio](../test/improve-code-quality.md).
 
 ## See also
 

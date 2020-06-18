@@ -49,7 +49,7 @@ If you have Visual Studio installed, but don't have the workloads you need, sele
 1. Open Visual Studio and create a project.
 
     ::: moniker range=">=vs-2019"
-    Press **Esc** to close the start window. Type **Ctrl + Q** to open the search box, type **Empty Project**, choose **Templates**, then choose **Create new Empty Project project** for C++. In the dialog box that appears, choose **Create**. Then, type a name like **Mixed_Mode_Debugging** and click **Create**.
+    Press **Esc** to close the start window. Type **Ctrl + Q** to open the search box, type **Empty Project**, choose **Templates**, then choose **Empty Project** for C++. In the dialog box that appears, choose **Create**. Then, type a name like **Mixed_Mode_Debugging** and click **Create**.
     ::: moniker-end
     ::: moniker range="vs-2017"
     From the top menu bar, choose **File** > **New** > **Project**. In the left pane of the **New project** dialog box, under **Visual C++**, choose **Other**, and then in the middle pane choose **Empty Project**. Then, type a name like **Mixed_Mode_Debugging** and click **OK**.
@@ -58,12 +58,6 @@ If you have Visual Studio installed, but don't have the workloads you need, sele
     If you don't see the **Empty Project** project template, go to **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer. The Visual Studio Installer launches. Choose the **Desktop development with C++** workload, then choose **Modify**.
 
     Visual Studio creates the project.
-
-1. In the **New Project** dialog box, under **Visual C++**, select **Other**, and then select **Empty Project** in the middle pane.
-
-1. In the **Name** field, type **Mixed_Mode_Debugging**, and then select **OK**.
-
-   Visual Studio creates the empty project and displays it in **Solution Explorer**.
 
 1. In **Solution Explorer**, select **Source Files**, and then select **Project** > **Add New Item**. Or, right-click **Source Files** and select **Add** > **New Item**.
 
@@ -126,7 +120,7 @@ If you have Visual Studio installed, but don't have the workloads you need, sele
 1. Open Visual Studio and create a new project.
 
     ::: moniker range=">=vs-2019"
-    Press **Esc** to close the start window. Type **Ctrl + Q** to open the search box, type **console**, choose **Templates**, and then choose **Create new Console App (.NET Framework) project** for C#. In the dialog box that appears, choose **Create**.
+    Press **Esc** to close the start window. Type **Ctrl + Q** to open the search box, type **console**, choose **Templates**, and then choose **Console App (.NET Core)** or **Console App (.NET Framework)** for C#. In the dialog box that appears, choose **Create**.
 
     Then, type a name like **Mixed_Mode_Calling_App** and click **Create**.
     ::: moniker-end
@@ -139,7 +133,7 @@ If you have Visual Studio installed, but don't have the workloads you need, sele
     If you don't see the **Console App** project template, go to **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer. Choose the **.NET desktop development** workload, then choose **Modify**.
 
     > [!NOTE]
-    > Although you could also add the new managed project to your existing C++ solution, creating a new solution supports more debugging scenarios.
+    > You could also add the new managed project to your existing C++ solution. We are creating the project in a new solution to make the mixed-mode debugging task more difficult.
 
    Visual Studio creates the empty project and displays it in **Solution Explorer**.
 

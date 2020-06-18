@@ -3,22 +3,22 @@ title: Fill datasets by using TableAdapters
 ms.date: 11/04/2016
 ms.topic: conceptual
 dev_langs:
-  - "VB"
-  - "CSharp"
+- VB
+- CSharp
 helpviewer_keywords:
-  - "datasets [Visual Basic]"
-  - "datasets [Visual Basic], loading data"
-  - "data retrieval"
-  - "retrieving data"
-  - "datasets [Visual Basic], filling"
-  - "data [Visual Studio], retrieving"
-  - "data [Visual Studio], datasets"
+- datasets [Visual Basic]
+- datasets [Visual Basic], loading data
+- data retrieval
+- retrieving data
+- datasets [Visual Basic], filling
+- data [Visual Studio], retrieving
+- data [Visual Studio], datasets
 ms.assetid: 55f3bfbe-db78-4486-add3-c62f49e6b9a0
-author: jillre
-ms.author: jillfra
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "data-storage"
+- data-storage
 ---
 # Fill datasets by using TableAdapters
 

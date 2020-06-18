@@ -1,21 +1,22 @@
 ---
 title: Visual Studio workload and component IDs
-titleSuffix: ""
-description: "Use workload and component IDs to install Visual Studio by using a command line, or to specify as a dependency in a VSIX manifest"
-keywords:
-author: TerryGLee
-ms.author: tglee
+titleSuffix: ''
+description: Use workload and component IDs to install Visual Studio by using a command line, or to specify as a dependency in a VSIX manifest
+keywords: 
+author: ornellaalt
+ms.author: ornella
 manager: jillfra
-ms.date: 09/23/2019
+ms.date: 05/19/2020
 ms.topic: reference
 helpviewer_keywords:
-  - "workload ID, Visual Studio"
-  - "component ID, Visual Studio"
-  - "install Visual Studio, administrator guide"
-ms.custom: "seodec18"
+- workload ID, Visual Studio
+- component ID, Visual Studio
+- install Visual Studio, administrator guide
+ms.custom: seodec18
 ms.assetid: 34e19ef1-abfb-44fd-aad2-33c5d7874482
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
+open_to_public_contributors: false
 ---
 # Visual Studio workload and component IDs
 
@@ -44,7 +45,7 @@ For more information about how to use these lists, see the [Use command-line par
 
 ::: moniker range="vs-2019"
 
-**Updated for the [16.3 release](/visualstudio/releases/2019/release-notes/)**
+**Updated for the [16.6 release](/visualstudio/releases/2019/release-notes/)**
 
 | **Edition** | **ID** | **Description** |
 | ----------- | ------ | --------------- |

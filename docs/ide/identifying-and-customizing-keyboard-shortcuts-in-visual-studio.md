@@ -3,20 +3,20 @@ title: Identify and customize keyboard shortcuts
 ms.date: 11/04/2016
 ms.topic: conceptual
 f1_keywords:
-  - "VS.ToolsOptionsPages.Environment.Keyboard"
+- VS.ToolsOptionsPages.Environment.Keyboard
 helpviewer_keywords:
-  - "keyboard shortcuts [Visual Studio], customizing"
-  - "importing shortcut keys [Visual Studio]"
-  - "shortcut key combinations [Visual Studio]"
-  - "commands [Visual Studio], shortcut keys"
-  - "custom shortcut keys [Visual Studio]"
-  - "customizing keyboard shortcuts [Visual Studio]"
-  - "exporting shortcut keys [Visual Studio]"
-author: jillre
-ms.author: jillfra
+- keyboard shortcuts [Visual Studio], customizing
+- importing shortcut keys [Visual Studio]
+- shortcut key combinations [Visual Studio]
+- commands [Visual Studio], shortcut keys
+- custom shortcut keys [Visual Studio]
+- customizing keyboard shortcuts [Visual Studio]
+- exporting shortcut keys [Visual Studio]
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Identify and customize keyboard shortcuts in Visual Studio
 

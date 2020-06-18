@@ -97,7 +97,7 @@ ms.workload:
  For complete information about the Excel object model, you can refer to the Excel primary interop assembly (PIA) reference and the VBA object model reference.
 
 ### Primary interop assembly reference
- The Excel PIA reference documentation describes the types in the primary interop assembly for Excel. This documentation is available from the following location: [Excel 2010 primary interop assembly reference](/visualstudio/vsto/office-primary-interop-assemblies).
+ The Excel PIA reference documentation describes the types in the primary interop assembly for Excel. This documentation is available from the following location: [Excel 2010 primary interop assembly reference](office-primary-interop-assemblies.md).
 
  For more information about the design of the Excel PIA, such as the differences between classes and interfaces in the PIA and how events in the PIA are implemented, see [Overview of classes and interfaces in the Office primary interop assemblies](/previous-versions/office/office-12/ms247299(v=office.12)).
 

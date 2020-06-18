@@ -1,20 +1,20 @@
 ---
-title: "IDebugProgram2::GetDisassemblyStream | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugProgram2::GetDisassemblyStream | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugProgram2::GetDisassemblyStream"
+- IDebugProgram2::GetDisassemblyStream
 helpviewer_keywords:
-  - "IDebugProgram2::GetDisassemblyStream"
+- IDebugProgram2::GetDisassemblyStream
 ms.assetid: beda0da5-267e-4bf3-96c4-b659d29e2254
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugProgram2::GetDisassemblyStream
 Gets the disassembly stream for this program or a part of this program.

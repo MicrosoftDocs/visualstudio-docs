@@ -1,14 +1,14 @@
 ---
-title: "Tutorial 2: Create a timed math quiz"
+title: 'Tutorial 2: Create a timed math quiz'
 ms.date: 10/16/2019
 ms.assetid: d7165d08-ace3-457d-b57d-fb8f80760a6f
 ms.topic: tutorial
 ms.technology: vs-ide-general
-author: TerryGLee
-ms.author: tglee
+author: ornellaalt
+ms.author: ornella
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Tutorial 2: Create a timed math quiz
 

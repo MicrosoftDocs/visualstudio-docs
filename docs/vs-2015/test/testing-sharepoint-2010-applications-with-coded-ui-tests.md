@@ -19,7 +19,7 @@ Including coded UI tests in a SharePoint application lets you verify that the wh
 - Visual Studio Enterprise
 
 ## What else should I know about coded UI tests?
- To learn more about the benefits of using coded UI tests, see [Use UI Automation To Test Your Code](../test/use-ui-automation-to-test-your-code.md) and [Testing for Continuous Delivery with Visual Studio 2012 – Chapter 5 Automating System Tests](http://go.microsoft.com/fwlink/?LinkID=255196).
+ To learn more about the benefits of using coded UI tests, see [Use UI Automation To Test Your Code](../test/use-ui-automation-to-test-your-code.md) and [Testing for Continuous Delivery with Visual Studio 2012 – Chapter 5 Automating System Tests](https://msdn.microsoft.com/library/jj159335.aspx).
 
  **Notes**
 
@@ -98,7 +98,7 @@ uiGridKeyboardInputEdit.Text=value;
 
 1. Make sure that you have Visual Studio 2012.1 or later installed.
 
-2. Install the [Microsoft Visual Studio UI Test Plugin for Silverlight](http://visualstudiogallery.msdn.microsoft.com/28312a61-9451-451a-990c-c9929b751eb4).
+2. Install the [Microsoft Visual Studio UI Test Plugin for Silverlight](https://marketplace.visualstudio.com/items?itemName=PrachiBoraMSFT.MicrosoftVisualStudioUITestPluginforSilverlight).
 
 3. Install [Fiddler](http://www.fiddler2.com/fiddler2/). This is simply a tool that captures and logs the HTTP traffic.
 
@@ -118,24 +118,24 @@ uiGridKeyboardInputEdit.Text=value;
 
 5. You should confirm that the generated code references the Microsoft.VisualStudio.TestTools.UITest.Extension.Silverlight.dll.
 
-     For more information, see [UI Testing SharePoint 2010 with Visual Studio 2012](http://blogs.msdn.com/b/visualstudioalm/archive/2012/11/01/ui-testing-sharepoint-2010-with-visual-studio-2012.aspx)
+     For more information, see [UI Testing SharePoint 2010 with Visual Studio 2012](https://devblogs.microsoft.com/devops/ui-testing-sharepoint-2010-with-visual-studio-2012/)
 
 ## External resources
 
 ### Blogs
- [UI Testing SharePoint 2010 with Visual Studio 2012](http://blogs.msdn.com/b/visualstudioalm/archive/2012/11/01/ui-testing-sharepoint-2010-with-visual-studio-2012.aspx)
+ [UI Testing SharePoint 2010 with Visual Studio 2012](https://devblogs.microsoft.com/devops/ui-testing-sharepoint-2010-with-visual-studio-2012/)
 
- [Understanding the Search logic for Silverlight controls in Coded UI Test](http://blogs.msdn.com/b/tapas_sahoos_blog/archive/2010/11/16/understanding-the-search-logic-for-silverlight-controls-in-coded-ui-test.aspx)
+ [Understanding the Search logic for Silverlight controls in Coded UI Test](https://tapas-techsnips.blogspot.com/)
 
- [Fetching Property of a Silverlight control](http://blogs.msdn.com/b/tapas_sahoos_blog/archive/2010/11/16/fetching-property-of-a-silverlight-control.aspx)
+ [Fetching Property of a Silverlight control](https://tapas-techsnips.blogspot.com/)
 
- [Content Index for Coded UI Test](http://blogs.msdn.com/b/mathew_aniyan/archive/2010/02/11/content-index-for-coded-ui-test.aspx)
+ [Content Index for Coded UI Test](https://blogs.msdn.microsoft.com/mathew_aniyan/2013/02/18/content-index-for-coded-ui-test/)
 
 ### Guidance
- [Testing for Continuous Delivery with Visual Studio 2012 – Chapter 5 Automating System Tests](http://go.microsoft.com/fwlink/?LinkID=255196)
+ [Testing for Continuous Delivery with Visual Studio 2012 – Chapter 5 Automating System Tests](https://msdn.microsoft.com/library/jj159335.aspx)
 
 ### Forum
- [Visual Studio ALM + Team Foundation Server Blog](http://go.microsoft.com/fwlink/?LinkID=254496)
+ [Visual Studio ALM + Team Foundation Server Blog](https://devblogs.microsoft.com/devops/welcome-to-the-visual-studio-alm-team-foundation-server-blog/)
 
 ## See Also
  [Use UI Automation To Test Your Code](../test/use-ui-automation-to-test-your-code.md)

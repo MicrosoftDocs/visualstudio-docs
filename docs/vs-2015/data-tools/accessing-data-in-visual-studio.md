@@ -69,7 +69,7 @@ In Visual Studio, you can create applications that connect to data in virtually 
 ### .NET languages
  All .NET data access, including in .NET Core,  is based on ADO.NET, a set of classes that defines an interface for accessing any kind of data source, both relational and non-relational. Visual Studio has several tools and designers that work with ADO.NET to help you connect to databases, manipulate the data, and present the data to the user. The documentation in this section describes how to use those tools. You can also program directly against the ADO.NET command objects. For more information about calling the ADO.NET APIs directly, see [ADO.NET](https://msdn.microsoft.com/library/e80y5yhx\(v=vs.110\).aspx) in the MSDN Library.
 
- For data-access documentation specifically related to ASP.NET, see  [Working with Data](http://www.asp.net/web-forms/overview/presenting-and-managing-data) on the ASP.NET site. For a tutorial on using Entity Framework with ASP.NET MVC, see [Getting Started with Entity Framework 6 Code First using MVC 5](http://www.asp.net/mvc/overview/getting-started/getting-started-with-ef-using-mvc/creating-an-entity-framework-data-model-for-an-asp-net-mvc-application).
+ For data-access documentation specifically related to ASP.NET, see  [Working with Data](/aspnet/web-forms/overview/presenting-and-managing-data/) on the ASP.NET site. For a tutorial on using Entity Framework with ASP.NET MVC, see [Getting Started with Entity Framework 6 Code First using MVC 5](/aspnet/mvc/overview/getting-started/getting-started-with-ef-using-mvc/creating-an-entity-framework-data-model-for-an-asp-net-mvc-application).
 
  Universal Windows Platform (UWP) apps in C# or Visual Basic can use the      Microsoft Azure SDK for .NET to access Azure Storage and other Azure services. The Windows.Web.HttpClient class enables communication with any RESTful service. For more information, see [How to connect to an HTTP server using Windows.Web.Http](https://msdn.microsoft.com/library/windows/apps/dn469430.aspx).
 
@@ -99,10 +99,10 @@ In Visual Studio, you can create applications that connect to data in virtually 
 
  C++ programs that consume REST services can use the [C++ REST SDK](https://github.com/Microsoft/cpprestsdk).
 
- C++ programs that work with Microsoft Azure Storage can use the [Microsoft Azure Storage Client](http://www.nuget.org/packages/wastorage).
+ C++ programs that work with Microsoft Azure Storage can use the [Microsoft Azure Storage Client](https://www.nuget.org/packages/wastorage).
 
 #### Data modeling
- Visual Studio  does not provide an ORM layer for C++.  [ODB](http://www.codesynthesis.com/products/odb/) is a popular open-source ORM for C++.
+ Visual Studio  does not provide an ORM layer for C++.  [ODB](https://www.codesynthesis.com/products/odb/) is a popular open-source ORM for C++.
 
  For more information about legacy Visual C++ data-access technologies, see  [Data Access](https://msdn.microsoft.com/library/a9455752-39c4-4457-b14e-197772d3df0b)
 
@@ -139,7 +139,7 @@ In Visual Studio, you can create applications that connect to data in virtually 
  Describes how to create data applications that allow developers to program against a conceptual model instead of directly against a relational database.
 
  [WCF Data Services 4.5](https://msdn.microsoft.com/library/73d2bec3-7c92-4110-b905-11bb0462357a)
- Describes how to use [!INCLUDE[ssAstoria](../includes/ssastoria-md.md)] to deploy data services on the web or an intranet that implement the [Open Data Protocol (OData)](http://go.microsoft.com/fwlink/?LinkID=182204).
+ Describes how to use [!INCLUDE[ssAstoria](../includes/ssastoria-md.md)] to deploy data services on the web or an intranet that implement the [Open Data Protocol (OData)](https://www.odata.org/).
 
  [Data in Office Solutions](https://msdn.microsoft.com/library/8478c095-864b-4ed3-8a70-1fc19b411c6a)
  Contains links to topics that explain how data works in Office solutions. This includes information about schema-oriented programming, data caching, and server-side data access.

@@ -1,15 +1,15 @@
 ---
-title: "Introduction Live Unit Testing"
+title: Introduction Live Unit Testing
 description: Learn about the advantages of Live Unit Testing and how to use it when unit testing your projects.
 ms.date: 09/11/2017
 ms.topic: conceptual
 helpviewer_keywords:
-  - "Live Unit Testing"
-author: jillre
-ms.author: jillfra
+- Live Unit Testing
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ms.workload:
-  - "dotnet"
+- dotnet
 ---
 # Live Unit Testing overview
 

@@ -1,16 +1,16 @@
 ---
-title: "Creating a Multi-Instance Tool Window | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Creating a Multi-Instance Tool Window | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "multi"
-  - "tool windows"
+- multi
+- tool windows
 ms.assetid: 4a7872f1-acc9-4f43-8932-5a526b36adea
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Create a multi-instance tool window
 You can program a tool window so that multiple instances of it can be open simultaneously. By default, tool windows can have only one instance open.

@@ -15,7 +15,7 @@ manager: jillfra
 # Concurrency Visualizer SDK
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-You can instrument your source code by using the Concurrency Visualizer SDK to display additional information in the Concurrency Visualizer. You can associate the additional data with phases and events in your code. These additional visualizations are known as *markers*.  For an introductory walkthrough, see [Introducing the Concurrency Visualizer SDK](http://go.microsoft.com/fwlink/?LinkId=235405).
+You can instrument your source code by using the Concurrency Visualizer SDK to display additional information in the Concurrency Visualizer. You can associate the additional data with phases and events in your code. These additional visualizations are known as *markers*.  For an introductory walkthrough, see [Introducing the Concurrency Visualizer SDK](https://docs.microsoft.com/archive/blogs/visualizeparallel/introducing-the-concurrency-visualizer-sdk).
 
 ## Properties
  Flags, spans, and messages each have two properties: category and importance. In the [Advanced Settings](../profiling/advanced-settings-dialog-box-concurrency-visualizer.md) dialog box, you can use these properties to filter the set of markers that are displayed. In addition, these properties affect the visual representation of markers. For example, the size of flags is used to represent importance. In addition, color is used to indicate category.

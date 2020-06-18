@@ -15,8 +15,6 @@ manager: jillfra
 
 This topic explains the basic concepts in defining and using a domain-specific language (DSL) created with the Modeling SDK for Visual Studio.
 
- If you are new to DSLs, we recommend that you work through the **DSL Tools Lab**, which you can find in this site: [Visualizaton and Modeling SDK](http://go.microsoft.com/fwlink/?LinkID=186128)
-
 ## What can you do with a Domain-Specific Language?
  A domain-specific language is a notation, usually graphical, that is designed to be used for a particular purpose. By contrast, languages such as UML are general-purpose. In a DSL, you can define the types of model element and their relationships, and how they are presented on the screen.
 
@@ -35,8 +33,8 @@ This topic explains the basic concepts in defining and using a domain-specific l
 
 |||
 |-|-|
-|[!INCLUDE[vsprvs](../includes/vsprvs-md.md)]|[http://go.microsoft.com/fwlink/?LinkId=185579](http://go.microsoft.com/fwlink/?LinkId=185579)|
-|[!INCLUDE[vssdk_current_short](../includes/vssdk-current-short-md.md)]|[http://go.microsoft.com/fwlink/?LinkId=185580](http://go.microsoft.com/fwlink/?LinkId=185580)|
+|[!INCLUDE[vsprvs](../includes/vsprvs-md.md)]|[http://go.microsoft.com/fwlink/?LinkId=185579](https://www.visualstudio.com/)|
+|[!INCLUDE[vssdk_current_short](../includes/vssdk-current-short-md.md)]|[http://go.microsoft.com/fwlink/?LinkId=185580](/azure/devops/integrate/index?view=azure-devops&viewFallbackFrom=vsts)|
 |Modeling SDK for Visual Studio|[Download MSDK](https://www.microsoft.com/download/details.aspx?id=48148)|
 
 ## Creating a DSL Solution
@@ -395,4 +393,4 @@ This topic explains the basic concepts in defining and using a domain-specific l
 ## See Also
  [Understanding Models, Classes and Relationships](../modeling/understanding-models-classes-and-relationships.md)
  [How to Define a Domain-Specific Language](../modeling/how-to-define-a-domain-specific-language.md)
- [Visualizaton and Modeling SDK](http://go.microsoft.com/fwlink/?LinkID=186128)
+ [Visualizaton and Modeling SDK](https://www.microsoft.com/download/details.aspx?id=48148)

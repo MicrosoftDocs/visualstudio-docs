@@ -1,16 +1,16 @@
 ---
-title: "Adding a Menu to the Visual Studio Menu Bar | Microsoft Docs"
-ms.date: "3/16/2019"
-ms.topic: "conceptual"
+title: Adding a Menu to the Visual Studio Menu Bar | Microsoft Docs
+ms.date: 3/16/2019
+ms.topic: conceptual
 helpviewer_keywords:
-  - "menus, creating top level"
-  - "top-level menus"
+- menus, creating top level
+- top-level menus
 ms.assetid: 58fc1a31-2aeb-441c-8e48-c7d5cbcfe501
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Add a menu to the Visual Studio menu bar
 
@@ -22,8 +22,10 @@ Menus are declared in the *.vsct* file of the project. For more information abou
 
 By completing this walkthrough, you can create a menu named **TestMenu** that contains one command.
 
+:::moniker range=">=vs-2019"
 > [!NOTE]
-> In VS 2019, top level menus contributed by extensions are placed under the **Extensions** menu.
+> Starting in Visual Studio 2019, top level menus contributed by extensions are placed under the **Extensions** menu.
+:::moniker-end
 
 ## Prerequisites
 
@@ -70,12 +72,12 @@ Starting in Visual Studio 2015, you do not install the Visual Studio SDK from th
 
 3. In the \<Groups> section, find the \<Group> and change the \<Parent> element to point to the menu we just added:
 
-   ```csharp
+   ```xml
    <Groups>
-         <Group guid="guidTestCommandPackageCmdSet" id="MyMenuGroup" priority="0x0600">
+       <Group guid="guidTestCommandPackageCmdSet" id="MyMenuGroup" priority="0x0600">
            <Parent guid="guidTestCommandPackageCmdSet" id="TopLevelMenu"/>
-         </Group>
-       </Groups>
+       </Group>
+   </Groups>
    ```
 
     This makes the group part of the new menu.
@@ -115,12 +117,12 @@ Starting in Visual Studio 2015, you do not install the Visual Studio SDK from th
 
 3. In the \<Groups> section, find the \<Group> and change the \<Parent> element to point to the menu we just added:
 
-   ```csharp
+   ```xml
    <Groups>
-         <Group guid="guidTopLevelMenuPackageCmdSet" id="MyMenuGroup" priority="0x0600">
+       <Group guid="guidTopLevelMenuPackageCmdSet" id="MyMenuGroup" priority="0x0600">
            <Parent guid="guidTopLevelMenuPackageCmdSet" id="TopLevelMenu"/>
-         </Group>
-       </Groups>
+       </Group>
+   </Groups>
    ```
 
     This makes the group part of the new menu.

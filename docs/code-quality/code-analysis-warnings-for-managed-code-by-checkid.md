@@ -3,266 +3,287 @@ title: Code Analysis Warnings for Managed Code by CheckId
 ms.date: 04/18/2019
 ms.topic: reference
 f1_keywords:
-  - "CA1000"
-  - "CA1001"
-  - "CA1002"
-  - "CA1003"
-  - "CA1004"
-  - "CA1005"
-  - "CA1006"
-  - "CA1007"
-  - "CA1008"
-  - "CA1009"
-  - "CA1010"
-  - "CA1011"
-  - "CA1012"
-  - "CS1013"
-  - "CS1014"
-  - "CA1016"
-  - "CA1017"
-  - "CA1018"
-  - "CA1019"
-  - "CA1020"
-  - "CA1021"
-  - "CA1022"
-  - "CA1023"
-  - "CA1024"
-  - "CS1025"
-  - "CA1026"
-  - "CA1027"
-  - "CA1028"
-  - "CA1029"
-  - "CA1030"
-  - "CA1031"
-  - "CA1032"
-  - "CA1033"
-  - "CA1034"
-  - "CA1035"
-  - "CA1036"
-  - "CA1037"
-  - "CA1038"
-  - "CA1039"
-  - "CA1040"
-  - "CA1041"
-  - "CA1042"
-  - "CA1043"
-  - "CA1044"
-  - "CA1045"
-  - "CA1046"
-  - "CA1047"
-  - "CA1048"
-  - "CA1049"
-  - "CA1050"
-  - "CA1051"
-  - "CA1052"
-  - "CA1053"
-  - "CA1054"
-  - "CA1055"
-  - "CA1056"
-  - "CA1057"
-  - "CA1058"
-  - "CA1059"
-  - "CA1060"
-  - "CA1061"
-  - "CA1062"
-  - "CA1063"
-  - "CA1064"
-  - "CA1065"
-  - "CA1068"
-  - "CA1200"
-  - "CA1300"
-  - "CA1301"
-  - "CA1302"
-  - "CA1303"
-  - "CA1304"
-  - "CA1305"
-  - "CA1306"
-  - "CA1307"
-  - "CA1308"
-  - "CA1309"
-  - "CA1400"
-  - "CA1401"
-  - "CA1402"
-  - "CA1403"
-  - "CA1404"
-  - "CA1405"
-  - "CA1406"
-  - "CA1407"
-  - "CA1408"
-  - "CA1409"
-  - "CA1410"
-  - "CA1411"
-  - "CA1412"
-  - "CA1413"
-  - "CA1414"
-  - "CA1415"
-  - "CA1500"
-  - "CA1501"
-  - "CA1502"
-  - "CA1503"
-  - "CA1504"
-  - "CA1505"
-  - "CA1506"
-  - "CA1507"
-  - "CA1600"
-  - "CA1601"
-  - "CA1700"
-  - "CA1701"
-  - "CA1702"
-  - "CA1703"
-  - "CA1704"
-  - "CA1707"
-  - "CA1708"
-  - "CA1709"
-  - "CA1710"
-  - "CA1711"
-  - "CA1712"
-  - "CA1713"
-  - "CA1714"
-  - "CA1715"
-  - "VA1716"
-  - "CA1717"
-  - "CA1719"
-  - "CA1720"
-  - "CA1721"
-  - "CA1722"
-  - "CA1723"
-  - "CA1724"
-  - "CA1725"
-  - "CA1726"
-  - "CA1727"
-  - "CA1728"
-  - "CA1729"
-  - "CA1730"
-  - "CA1800"
-  - "CA1801"
-  - "CA1802"
-  - "CA1803"
-  - "CA1804"
-  - "CA1806"
-  - "CA1809"
-  - "CA1810"
-  - "CA1811"
-  - "CA1812"
-  - "CA1813"
-  - "CA1814"
-  - "CA1815"
-  - "CA1816"
-  - "CA1819"
-  - "CA1820"
-  - "CA1821"
-  - "CA1822"
-  - "CA1823"
-  - "CA1824"
-  - "CA1825"
-  - "CA1900"
-  - "CA1901"
-  - "CA1903"
-  - "CA2000"
-  - "CA2001"
-  - "CA2002"
-  - "CA2003"
-  - "CA2004"
-  - "CA2006"
-  - "CA2007"
-  - "CA2100"
-  - "CA2101"
-  - "CA2102"
-  - "CA2103"
-  - "CA2104"
-  - "CA2105"
-  - "CA2106"
-  - "CA2107"
-  - "CA2108"
-  - "CA2109"
-  - "CA2110"
-  - "CA2111"
-  - "CA2112"
-  - "CA2114"
-  - "CA2115"
-  - "CA2116"
-  - "CA2117"
-  - "CA2118"
-  - "CA2119"
-  - "CA2120"
-  - "CA2121"
-  - "CA2122"
-  - "CA2123"
-  - "CA2124"
-  - "CA2126"
-  - "CA2127"
-  - "CA2128"
-  - "CA2129"
-  - "CA2130"
-  - "CA2131"
-  - "CA2132"
-  - "CA2133"
-  - "CA2134"
-  - "CA2135"
-  - "CA2136"
-  - "CA2137"
-  - "CA2138"
-  - "CA2139"
-  - "CA2140"
-  - "CA2141"
-  - "CA2142"
-  - "CA2143"
-  - "CA2144"
-  - "CA2145"
-  - "CA2146"
-  - "CA2147"
-  - "CA2148"
-  - "CA2149"
-  - "CA2150"
-  - "CA2151"
-  - "CA2200"
-  - "CA2201"
-  - "CA2202"
-  - "CA2204"
-  - "CA2205"
-  - "CA2207"
-  - "CA2208"
-  - "CA2210"
-  - "CA2211"
-  - "CA2212"
-  - "CA2213"
-  - "CA2214"
-  - "CA2215"
-  - "CA2216"
-  - "CA2217"
-  - "CA2218"
-  - "CA2219"
-  - "CA2220"
-  - "CA2221"
-  - "CA2222"
-  - "CA2223"
-  - "CA2224"
-  - "CA2225"
-  - "CA2226"
-  - "CA2228"
-  - "CA2229"
-  - "CA2227"
-  - "CA2230"
-  - "CA2231"
-  - "CA2232"
-  - "CA2233"
-  - "CA2234"
-  - "CA2235"
-  - "CA2236"
-  - "CA2237"
-  - "CA2238"
-  - "CA2239"
-  - "CA2240"
-  - "CA2241"
-  - "CA2242"
-  - "CA2243"
-  - "CA5122"
+- CA1000
+- CA1001
+- CA1002
+- CA1003
+- CA1004
+- CA1005
+- CA1006
+- CA1007
+- CA1008
+- CA1009
+- CA1010
+- CA1011
+- CA1012
+- CS1013
+- CS1014
+- CA1016
+- CA1017
+- CA1018
+- CA1019
+- CA1020
+- CA1021
+- CA1022
+- CA1023
+- CA1024
+- CS1025
+- CA1026
+- CA1027
+- CA1028
+- CA1029
+- CA1030
+- CA1031
+- CA1032
+- CA1033
+- CA1034
+- CA1035
+- CA1036
+- CA1037
+- CA1038
+- CA1039
+- CA1040
+- CA1041
+- CA1042
+- CA1043
+- CA1044
+- CA1045
+- CA1046
+- CA1047
+- CA1048
+- CA1049
+- CA1050
+- CA1051
+- CA1052
+- CA1053
+- CA1054
+- CA1055
+- CA1056
+- CA1057
+- CA1058
+- CA1059
+- CA1060
+- CA1061
+- CA1062
+- CA1063
+- CA1064
+- CA1065
+- CA1066
+- CA1067
+- CA1068
+- CA1069
+- CA1070
+- CA1200
+- CA1300
+- CA1301
+- CA1302
+- CA1303
+- CA1304
+- CA1305
+- CA1306
+- CA1307
+- CA1308
+- CA1309
+- CA1400
+- CA1401
+- CA1402
+- CA1403
+- CA1404
+- CA1405
+- CA1406
+- CA1407
+- CA1408
+- CA1409
+- CA1410
+- CA1411
+- CA1412
+- CA1413
+- CA1414
+- CA1415
+- CA1500
+- CA1501
+- CA1502
+- CA1503
+- CA1504
+- CA1505
+- CA1506
+- CA1507
+- CA1508
+- CA1509
+- CA1600
+- CA1601
+- CA1700
+- CA1701
+- CA1702
+- CA1703
+- CA1704
+- CA1707
+- CA1708
+- CA1709
+- CA1710
+- CA1711
+- CA1712
+- CA1713
+- CA1714
+- CA1715
+- VA1716
+- CA1717
+- CA1719
+- CA1720
+- CA1721
+- CA1722
+- CA1723
+- CA1724
+- CA1725
+- CA1726
+- CA1727
+- CA1728
+- CA1729
+- CA1730
+- CA1800
+- CA1801
+- CA1802
+- CA1803
+- CA1804
+- CA1806
+- CA1809
+- CA1810
+- CA1811
+- CA1812
+- CA1813
+- CA1814
+- CA1815
+- CA1816
+- CA1819
+- CA1820
+- CA1821
+- CA1822
+- CA1823
+- CA1824
+- CA1825
+- CA1826
+- CA1827
+- CA1828
+- CA1829
+- CA1831
+- CA1832
+- CA1833
+- CA1835
+- CA1900
+- CA1901
+- CA1903
+- CA2000
+- CA2001
+- CA2002
+- CA2003
+- CA2004
+- CA2006
+- CA2007
+- CA2009
+- CA2011
+- CA2013
+- CA2015
+- CA2100
+- CA2101
+- CA2102
+- CA2103
+- CA2104
+- CA2105
+- CA2106
+- CA2107
+- CA2108
+- CA2109
+- CA2110
+- CA2111
+- CA2112
+- CA2114
+- CA2115
+- CA2116
+- CA2117
+- CA2118
+- CA2119
+- CA2120
+- CA2121
+- CA2122
+- CA2123
+- CA2124
+- CA2126
+- CA2127
+- CA2128
+- CA2129
+- CA2130
+- CA2131
+- CA2132
+- CA2133
+- CA2134
+- CA2135
+- CA2136
+- CA2137
+- CA2138
+- CA2139
+- CA2140
+- CA2141
+- CA2142
+- CA2143
+- CA2144
+- CA2145
+- CA2146
+- CA2147
+- CA2148
+- CA2149
+- CA2150
+- CA2151
+- CA2200
+- CA2201
+- CA2202
+- CA2204
+- CA2205
+- CA2207
+- CA2208
+- CA2210
+- CA2211
+- CA2212
+- CA2213
+- CA2214
+- CA2215
+- CA2216
+- CA2217
+- CA2218
+- CA2219
+- CA2220
+- CA2221
+- CA2222
+- CA2223
+- CA2224
+- CA2225
+- CA2226
+- CA2228
+- CA2229
+- CA2227
+- CA2230
+- CA2231
+- CA2232
+- CA2233
+- CA2234
+- CA2235
+- CA2236
+- CA2237
+- CA2238
+- CA2239
+- CA2240
+- CA2241
+- CA2242
+- CA2243
+- CA2245
+- CA2246
+- CA5122
+- CA5374
 ms.assetid: 5cb221f6-dc59-4abf-9bfa-adbd6f907f96
-author: jillre
-ms.author: jillfra
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ms.workload:
-  - "dotnet"
+- dotnet
 ---
 # Code analysis warnings for managed code by CheckId
 
@@ -270,7 +291,6 @@ The following table lists Code Analysis warnings for managed code by the CheckId
 
 | CheckId | Warning | Description |
 |---------| - | - |
-| CA2007 | [CA2007: Do not directly await a Task](ca2007.md) | An asynchronous method [awaits](/dotnet/csharp/language-reference/keywords/await) a <xref:System.Threading.Tasks.Task> directly. When an asynchronous method awaits a <xref:System.Threading.Tasks.Task> directly, continuation occurs in the same thread that created the task. This behavior can be costly in terms of performance and can result in a deadlock on the UI thread. Consider calling <xref:System.Threading.Tasks.Task.ConfigureAwait(System.Boolean)?displayProperty=nameWithType> to signal your intention for continuation. |
 | CA1000 | [CA1000: Do not declare static members on generic types](../code-quality/ca1000.md) | When a static member of a generic type is called, the type argument must be specified for the type. When a generic instance member that does not support inference is called, the type argument must be specified for the member. In these two cases, the syntax for specifying the type argument is different and easily confused. |
 | CA1001 | [CA1001: Types that own disposable fields should be disposable](../code-quality/ca1001.md) | A class declares and implements an instance field that is a System.IDisposable type, and the class does not implement IDisposable. A class that declares an IDisposable field indirectly owns an unmanaged resource and should implement the IDisposable interface. |
 | CA1002 | [CA1002: Do not expose generic lists](../code-quality/ca1002.md) | System.Collections.Generic.List<(Of \<(T>)>) is a generic collection that is designed for performance, not inheritance. Therefore, List does not contain any virtual members. The generic collections that are designed for inheritance should be exposed instead. |
@@ -332,7 +352,11 @@ The following table lists Code Analysis warnings for managed code by the CheckId
 | CA1063 | [CA1063: Implement IDisposable correctly](../code-quality/ca1063.md) | All IDisposable types should implement the Dispose pattern correctly. |
 | CA1064 | [CA1064: Exceptions should be public](../code-quality/ca1064.md) | An internal exception is visible only inside its own internal scope. After the exception falls outside the internal scope, only the base exception can be used to catch the exception. If the internal exception is inherited from <xref:System.Exception>, <xref:System.SystemException>, or <xref:System.ApplicationException>, the external code will not have sufficient information to know what to do with the exception. |
 | CA1065 | [CA1065: Do not raise exceptions in unexpected locations](../code-quality/ca1065.md) | A method that is not expected to throw exceptions throws an exception. |
+| CA1066 | [CA1066: Implement IEquatable when overriding Equals](../code-quality/ca1066.md) | A value type overrides <xref:System.Object.Equals%2A> method, but does not implement <xref:System.IEquatable%601>. |
+| CA1067 | [CA1067: Override Equals when implementing IEquatable](../code-quality/ca1067.md) | A type implements <xref:System.IEquatable%601>, but does not override <xref:System.Object.Equals%2A> method. |
 | CA1068 | [CA1068: CancellationToken parameters must come last](../code-quality/ca1068.md) | A method has a CancellationToken parameter that is not the last parameter. |
+| CA1069 | [CA1069: Enums should not have duplicate values](../code-quality/ca1069.md) | An enumeration has multiple members which are explicitly assigned the same constant value. |
+| CA1070 | [CA1070: Do not declare event fields as virtual](../code-quality/ca1070.md) | A [field-like event](/dotnet/csharp/language-reference/language-specification/classes#field-like-events) was declared as virtual. |
 | CA1200 | [CA1200: Avoid using cref tags with a prefix](../code-quality/ca1200.md) | The [cref](/dotnet/csharp/programming-guide/xmldoc/cref-attribute) attribute in an XML documentation tag means "code reference". It specifies that the inner text of the tag is a code element, such as a type, method, or property. Avoid using `cref` tags with prefixes, because it prevents the compiler from verifying references. It also prevents the Visual Studio integrated development environment (IDE) from finding and updating these symbol references during refactorings. |
 | CA1300 | [CA1300: Specify MessageBoxOptions](../code-quality/ca1300.md) | To correctly display a message box for cultures that use a right-to-left reading order, the RightAlign and RtlReading members of the MessageBoxOptions enumeration must be passed to the Show method. |
 | CA1301 | [CA1301: Avoid duplicate accelerators](../code-quality/ca1301.md) | An access key, also known as an accelerator, enables keyboard access to a control by using the ALT key. When multiple controls have duplicate access keys, the behavior of the access key is not well-defined. |
@@ -365,7 +389,10 @@ The following table lists Code Analysis warnings for managed code by the CheckId
 | CA1502 | [CA1502: Avoid excessive complexity](../code-quality/ca1502.md) | This rule measures the number of linearly independent paths through the method, which is determined by the number and complexity of conditional branches. |
 | CA1504 | [CA1504: Review misleading field names](../code-quality/ca1504.md) | The name of an instance field starts with "s_", or the name of a static (Shared in Visual Basic) field starts with "m_". |
 | CA1505 | [CA1505: Avoid unmaintainable code](../code-quality/ca1505.md) | A type or method has a low maintainability index value. A low maintainability index indicates that a type or method is probably difficult to maintain and would be a good candidate for redesign. |
-| CA1506 |[CA1506: Avoid excessive class coupling](../code-quality/ca1506.md) | This rule measures class coupling by counting the number of unique type references that a type or method contains. |
+| CA1506 | [CA1506: Avoid excessive class coupling](../code-quality/ca1506.md) | This rule measures class coupling by counting the number of unique type references that a type or method contains. |
+| CA1507 | [CA1507: Use nameof in place of string](../code-quality/ca1507.md) | A string literal is used as an argument where a `nameof` expression could be used. |
+| CA1508 | [CA1508: Avoid dead conditional code](../code-quality/ca1508.md) | A method has conditional code that always evaluates to `true` or `false` at runtime. This leads to dead code in the `false` branch of the condition. |
+| CA1509 | [CA1509: Invalid entry in code metrics configuration file](../code-quality/ca1509.md) | Code metrics rules, such as [CA1501](ca1501.md), [CA1502](ca1502.md), [CA1505](ca1505.md) and [CA1506](ca1506.md), supplied a configuration file named `CodeMetricsConfig.txt` that has an invalid entry. |
 | CA1600 | [CA1600: Do not use idle process priority](../code-quality/ca1600.md) | Do not set process priority to Idle. Processes that have System.Diagnostics.ProcessPriorityClass.Idle will occupy the CPU when it would otherwise be idle, and will therefore block standby. |
 | CA1601 | [CA1601: Do not use timers that prevent power state changes](../code-quality/ca1601.md) | Higher-frequency periodic activity will keep the CPU busy and interfere with power-saving idle timers that turn off the display and hard disks. |
 | CA1700 | [CA1700: Do not name enum values 'Reserved'](../code-quality/ca1700.md) | This rule assumes that an enumeration member that has a name that contains "reserved" is not currently used but is a placeholder to be renamed or removed in a future version. Renaming or removing a member is a breaking change. |
@@ -411,6 +438,14 @@ The following table lists Code Analysis warnings for managed code by the CheckId
 | CA1823 | [CA1823: Avoid unused private fields](../code-quality/ca1823.md) | Private fields were detected that do not appear to be accessed in the assembly. |
 | CA1824 |[CA1824: Mark assemblies with NeutralResourcesLanguageAttribute](../code-quality/ca1824.md) | The NeutralResourcesLanguage attribute informs the resource manager of the language that was used to display the resources of a neutral culture for an assembly. This improves lookup performance for the first resource that you load and can reduce your working set. |
 | CA1825 |[CA1825: Avoid zero-length array allocations](../code-quality/ca1825.md) | Initializing a zero-length array leads to unnecessary memory allocation. Instead, use the statically allocated empty array instance by calling <xref:System.Array.Empty%2A?displayProperty=nameWithType>. The memory allocation is shared across all invocations of this method. |
+| CA1826 |[CA1826: Use property instead of Linq Enumerable method](../code-quality/ca1826.md) | <xref:System.Linq.Enumerable> LINQ method was used on a type that supports an equivalent, more efficient property. |
+| CA1827 |[CA1827: Do not use Count/LongCount when Any can be used](../code-quality/ca1827.md) | <xref:System.Linq.Enumerable.Count%2A> or <xref:System.Linq.Enumerable.LongCount%2A> method was used where <xref:System.Linq.Enumerable.Any%2A> method would be more efficient. |
+| CA1828 |[CA1828: Do not use CountAsync/LongCountAsync when AnyAsync can be used](../code-quality/ca1828.md) | <xref:Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.CountAsync%2A> or <xref:Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.LongCountAsync%2A> method was used where <xref:Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.AnyAsync%2A> method would be more efficient. |
+| CA1829 |[CA1829: Use Length/Count property instead of Enumerable.Count method](../code-quality/ca1829.md) | <xref:System.Linq.Enumerable.Count%2A> LINQ method was used on a type that supports an equivalent, more efficient `Length` or `Count` property. |
+| CA1831 |[CA1831: Use AsSpan instead of Range-based indexers for string when appropriate](../code-quality/ca1831.md) | When using a range-indexer on a string and implicitly assigning the value to  ReadOnlySpan&lt;char&gt; type, the method <xref:System.String.Substring%2A?#System_String_Substring_System_Int32_System_Int32_> will be used instead of <xref:System.Span%601.Slice%2A?#System_Span_1_Slice_System_Int32_System_Int32_>, which produces a copy of requested portion of the string. |
+| CA1832 |[CA1832: Use AsSpan or AsMemory instead of Range-based indexers for getting ReadOnlySpan or ReadOnlyMemory portion of an array](../code-quality/ca1832.md) | When using a range-indexer on an array and implicitly assigning the value to a <xref:System.ReadOnlySpan%601> or <xref:System.ReadOnlyMemory%601> type, the method <xref:System.Runtime.CompilerServices.RuntimeHelpers.GetSubArray%2A> will be used instead of <xref:System.Span%601.Slice%2A?#System_Span_1_Slice_System_Int32_System_Int32_>, which produces a copy of requested portion of the array. |
+| CA1833 |[CA1833: Use AsSpan or AsMemory instead of Range-based indexers for getting Span or Memory portion of an array](../code-quality/ca1833.md) | When using a range-indexer on an array and implicitly assigning the value to a <xref:System.Span%601> or <xref:System.Memory%601> type, the method <xref:System.Runtime.CompilerServices.RuntimeHelpers.GetSubArray%2A> will be used instead of <xref:System.Span%601.Slice%2A?#System_Span_1_Slice_System_Int32_System_Int32_>, which produces a copy of requested portion of the array. |
+| CA1835 |[CA1835: Prefer the 'Memory'-based overloads for 'ReadAsync' and 'WriteAsync'](../code-quality/ca1835.md) | 'Stream' has a 'ReadAsync' overload that takes a 'Memory&lt;Byte&gt;' as the first argument, and a 'WriteAsync' overload that takes a 'ReadOnlyMemory&lt;Byte&gt;' as the first argument. Prefer calling the memory based overloads, which are more efficient. |
 | CA1900 | [CA1900: Value type fields should be portable](../code-quality/ca1900.md) | This rule checks that structures that are declared by using explicit layout will align correctly when marshaled to unmanaged code on 64-bit operating systems. |
 | CA1901 | [CA1901: P/Invoke declarations should be portable](../code-quality/ca1901.md) | This rule evaluates the size of each parameter and the return value of a P/Invoke, and verifies that the size of the parameter is correct when marshaled to unmanaged code on 32-bit and 64-bit operating systems. |
 | CA1903 | [CA1903: Use only API from targeted framework](../code-quality/ca1903.md) | A member or type is using a member or type that was introduced in a service pack that was not included together with the targeted framework of the project. |
@@ -420,6 +455,11 @@ The following table lists Code Analysis warnings for managed code by the CheckId
 | CA2003 |[CA2003: Do not treat fibers as threads](../code-quality/ca2003.md) | A managed thread is being treated as a [!INCLUDE[TLA2#tla_win32](../code-quality/includes/tla2sharptla_win32_md.md)] thread. |
 | CA2004 | [CA2004: Remove calls to GC.KeepAlive](../code-quality/ca2004.md) | If you convert to SafeHandle usage, remove all calls to GC.KeepAlive (object). In this case, classes should not have to call GC.KeepAlive. This assumes they do not have a finalizer but rely on SafeHandle to finalize the OS handle for them. |
 | CA2006 | [CA2006: Use SafeHandle to encapsulate native resources](../code-quality/ca2006.md) | Use of IntPtr in managed code might indicate a potential security and reliability problem. All uses of IntPtr must be reviewed to determine whether use of a SafeHandle, or similar technology, is required in its place. |
+| CA2007 | [CA2007: Do not directly await a Task](ca2007.md) | An asynchronous method [awaits](/dotnet/csharp/language-reference/keywords/await) a <xref:System.Threading.Tasks.Task> directly. When an asynchronous method awaits a <xref:System.Threading.Tasks.Task> directly, continuation occurs in the same thread that created the task. This behavior can be costly in terms of performance and can result in a deadlock on the UI thread. Consider calling <xref:System.Threading.Tasks.Task.ConfigureAwait(System.Boolean)?displayProperty=nameWithType> to signal your intention for continuation. |
+| CA2009 | [CA2009: Do not call ToImmutableCollection on an ImmutableCollection value](ca2009.md) | `ToImmutable` method was unnecessarily called on an immutable collection from <xref:System.Collections.Immutable> namespace. |
+| CA2011 | [CA2011: Do not assign property within its setter](ca2011.md) | A property was accidentally assigned a value within its own [set accessor](/dotnet/csharp/programming-guide/classes-and-structs/using-properties#the-set-accessor). |
+| CA2013 | [CA2013: Do not use ReferenceEquals with value types](ca2013.md) | When comparing values using <xref:System.Object.ReferenceEquals%2A?displayProperty=fullName>, if objA and objB are value types, they are boxed before they are passed to the <xref:System.Object.ReferenceEquals%2A> method. This means that even if both objA and objB represent the same instance of a value type, the <xref:System.Object.ReferenceEquals%2A> method nevertheless returns false. |
+| CA2015 | [CA2015: Do not define finalizers for types derived from MemoryManager&lt;T&gt;](ca2015.md) | Adding a finalizer to a type derived from <xref:System.Buffers.MemoryManager%601> may permit memory to be freed while it is still in use by a <xref:System.Span%601>. |
 | CA2100 | [CA2100: Review SQL queries for security vulnerabilities](../code-quality/ca2100.md) | A method sets the System.Data.IDbCommand.CommandText property by using a string that is built from a string argument to the method. This rule assumes that the string argument contains user input. A SQL command string that is built from user input is vulnerable to SQL injection attacks. |
 | CA2101 |[CA2101: Specify marshaling for P/Invoke string arguments](../code-quality/ca2101.md) | A platform invoke member allows partially trusted callers, has a string parameter, and does not explicitly marshal the string. This can cause a potential security vulnerability. |
 | CA2102 | [CA2102: Catch non-CLSCompliant exceptions in general handlers](../code-quality/ca2102.md) | A member in an assembly that is not marked by using the RuntimeCompatibilityAttribute or is marked RuntimeCompatibility(WrapNonExceptionThrows = false) contains a catch block that handles System.Exception and does not contain an immediately following general catch block. |
@@ -508,4 +548,36 @@ The following table lists Code Analysis warnings for managed code by the CheckId
 | CA2241 | [CA2241: Provide correct arguments to formatting methods](../code-quality/ca2241.md) | The format argument that is passed to System.String.Format does not contain a format item that corresponds to each object argument, or vice versa. |
 | CA2242 |[CA2242: Test for NaN correctly](../code-quality/ca2242.md) | This expression tests a value against Single.Nan or Double.Nan. Use Single.IsNan(Single) or Double.IsNan(Double) to test the value. |
 | CA2243 |[CA2243: Attribute string literals should parse correctly](../code-quality/ca2243.md) | The string literal parameter of an attribute does not parse correctly for a URL, a GUID, or a version. |
+| CA2244 | [CA2244: Do not duplicate indexed element initializations](../code-quality/ca2244.md) | An object initializer has more than one indexed element initializer with the same constant index. All but the last initializer are redundant. |
+| CA2245 | [CA2245: Do not assign a property to itself](../code-quality/ca2245.md) | A property was accidentally assigned to itself. |
+| CA2246 | [CA2246: Do not assign a symbol and its member in the same statement](../code-quality/ca2246.md) | Assigning a symbol and its member, that is, a field or a property, in the same statement is not recommended. It is not clear if the member access was intended to use the symbol's old value prior to the assignment or the new value from the assignment in this statement. |
 | CA5122 | [CA5122 P/Invoke declarations should not be safe critical](../code-quality/ca5122.md) | Methods are marked as SecuritySafeCritical when they perform a security sensitive operation, but are also safe to be used by transparent code. Transparent code may never directly call native code through a P/Invoke. Therefore, marking a P/Invoke as security safe critical will not enable transparent code to call it, and is misleading for security analysis. |
+| CA5359 | [CA5359 Do not disable certificate validation](../code-quality/ca5359.md) | A certificate can help authenticate the identity of the server. Clients should validate the server certificate to ensure requests are sent to the intended server. If the ServerCertificateValidationCallback always returns `true`, any certificate will pass validation. |
+| CA5360 | [CA5360 Do not call dangerous methods in deserialization](../code-quality/ca5360.md) | Insecure deserialization is a vulnerability which occurs when untrusted data is used to abuse the logic of an application, inflict a Denial-of-Service (DoS) attack, or even execute arbitrary code upon it being deserialized. It's frequently possible for malicious users to abuse these deserialization features when the application is deserializing untrusted data which is under their control. Specifically, invoke dangerous methods in the process of deserialization. Successful insecure deserialization attacks could allow an attacker to carry out attacks such as DoS attacks, authentication bypasses, and remote code execution. |
+| CA5362 | [CA5362 Potential reference cycle in deserialized object graph](../code-quality/ca5362.md) | If deserializing untrusted data, then any code processing the deserialized object graph needs to handle reference cycles without going into infinite loops. This includes both code that's part of a deserialization callback and code that processes the object graph after deserialization completed. Otherwise, an attacker could perform a Denial-of-Service attack with malicious data containing a reference cycle. |
+| CA5365 | [CA5365 Do Not Disable HTTP Header Checking](../code-quality/ca5365.md) | HTTP header checking enables encoding of the carriage return and newline characters, \r and \n, that are found in response headers. This encoding can help to avoid injection attacks that exploit an application that echoes untrusted data contained by the header. |
+| CA5366 | [CA5366 Use XmlReader For DataSet Read XML](../code-quality/ca5366.md) | Using a <xref:System.Data.DataSet> to read XML with untrusted data may load dangerous external references, which should be restricted by using an <xref:System.Xml.XmlReader> with a secure resolver or with DTD processing disabled. |
+| CA5367 | [CA5367 Do Not Serialize Types With Pointer Fields](../code-quality/ca5367.md) | This rule checks whether there’s a serializable class with a pointer field or property. Members that can’t be serialized can be a pointer, such as static members or fields marked with <xref:System.NonSerializedAttribute>. |
+| CA5368 | [CA5368 Set ViewStateUserKey For Classes Derived From Page](../code-quality/ca5368.md) | Setting the <xref:System.Web.UI.Page.ViewStateUserKey> property can help you prevent attacks on your application by allowing you to assign an identifier to the view-state variable for individual users so that attackers cannot use the variable to generate an attack. Otherwise, there will be vulnerabilities to cross-site request forgery. |
+| CA5374 | [CA5374 Do Not Use XslTransform](../code-quality/ca5374.md) | This rule checks if <xref:System.Xml.Xsl.XslTransform?displayProperty=nameWithType> is instantiated in the code. <xref:System.Xml.Xsl.XslTransform?displayProperty=nameWithType> is now obsolete and shouldn’t be used. |
+| CA5375 | [CA5375 Do not use account shared access signature](../code-quality/ca5375.md) | An account SAS can delegate access to read, write, and delete operations on blob containers, tables, queues, and file shares that are not permitted with a service SAS. However, it doesn't support container-level policies and has less flexibility and control over the permissions that are granted. Once malicious users get it, your storage account will be compromised easily. |
+| CA5376 | [CA5376 Use SharedAccessProtocol HttpsOnly](../code-quality/ca5376.md) | SAS is sensitive data that can't be transported in plain text on HTTP. |
+| CA5377 | [CA5377 Use container level access policy](../code-quality/ca5377.md) | A container-level access policy can be modified or revoked at any time. It provides greater flexibility and control over the permissions that are granted. |
+| CA5379 | [CA5379 Do not use weak key derivation function algorithm](../code-quality/ca5379.md) | The <xref:System.Security.Cryptography.Rfc2898DeriveBytes> class defaults to using the <xref:System.Security.Cryptography.HashAlgorithmName.SHA1> algorithm. You should specify the hash algorithm to use in some overloads of the constructor with <xref:System.Security.Cryptography.HashAlgorithmName.SHA256> or higher. Note, <xref:System.Security.Cryptography.Rfc2898DeriveBytes.HashAlgorithm> property only has a `get` accessor and doesn't have a `overriden` modifier. |
+| CA5382 | [CA5382 Use secure cookies in ASP.NET Core](../code-quality/ca5382.md) | Applications available over HTTPS must use secure cookies, which indicate to the browser that the cookie should only be transmitted using Secure Sockets Layer (SSL). |
+| CA5383 | [CA5383 Ensure use secure cookies in ASP.NET Core](../code-quality/ca5383.md) | Applications available over HTTPS must use secure cookies, which indicate to the browser that the cookie should only be transmitted using Secure Sockets Layer (SSL). |
+| CA5384 | [CA5384 Do not use digital signature algorithm (DSA)](../code-quality/ca5384.md) | DSA is a weak asymmetric encryption algorithm. |
+| CA5385 | [CA5385 Use Rivest–Shamir–Adleman (RSA) algorithm with sufficient key size](../code-quality/ca5385.md) | An RSA key smaller than 2048 bits is more vulnerable to brute force attacks. |
+| CA5387 | [CA5387 Do not use weak key derivation function with insufficient iteration count](../code-quality/ca5387.md) | This rule checks if a cryptographic key was generated by <xref:System.Security.Cryptography.Rfc2898DeriveBytes> with an iteration count of less than 100,000. A higher iteration count can help mitigate against dictionary attacks that try to guess the generated cryptographic key. |
+| CA5388 | [CA5388 Ensure sufficient iteration count when using weak key derivation function](../code-quality/ca5388.md) | This rule checks if a cryptographic key was generated by <xref:System.Security.Cryptography.Rfc2898DeriveBytes> with an iteration count that may be less than 100,000. A higher iteration count can help mitigate against dictionary attacks that try to guess the generated cryptographic key. |
+| CA5390 | [CA5390 Do not hard-code encryption key](../code-quality/ca5390.md) | For a symmetric algorithm to be successful, the secret key must be known only to the sender and the receiver. When a key is hard-coded, it is easily discovered. Even with compiled binaries, it is easy for malicious users to extract it. Once the private key is compromised, the cipher text can be decrypted directly and is not protected anymore. |
+| CA5391 | [CA5391 Use antiforgery tokens in ASP.NET Core MVC controllers](../code-quality/ca5391.md) | Handling a `POST`, `PUT`, `PATCH`, or `DELETE` request without validating an antiforgery token may be vulnerable to cross-site request forgery attacks. A cross-site request forgery attack can send malicious requests from an authenticated user to your ASP.NET Core MVC controller. |
+| CA5392 | [CA5392 Use DefaultDllImportSearchPaths attribute for P/Invokes](../code-quality/ca5392.md) | By default, P/Invoke functions using <xref:System.Runtime.InteropServices.DllImportAttribute> probe a number of directories, including the current working directory for the library to load. This can be a security issue for certain applications, leading to DLL hijacking. |
+| CA5393 | [CA5393 Do not use unsafe DllImportSearchPath value](../code-quality/ca5393.md) | There could be a malicious DLL in the default DLL search directories and assembly directories. Or, depending on where your application is run from, there could be a malicious DLL in the application's directory. |
+| CA5394 | [CA5394 Do not use insecure randomness](../code-quality/ca5394.md) | Using a cryptographically weak pseudo-random number generator may allow an attacker to predict what security-sensitive value will be generated. |
+| CA5395 | [CA5395 Miss HttpVerb attribute for action methods](../code-quality/ca5395.md) | All the action methods that create, edit, delete, or otherwise modify data needs to be protected with the antiforgery attribute from cross-site request forgery attacks. Performing a GET operation should be a safe operation that has no side effects and doesn't modify your persisted data. |
+| CA5396 | [CA5396 Set HttpOnly to true for HttpCookie](../code-quality/ca5396.md) | As a defense in depth measure, ensure security sensitive HTTP cookies are marked as HttpOnly. This indicates web browsers should disallow scripts from accessing the cookies. Injected malicious scripts are a common way of stealing cookies. |
+| CA5399 | [CA5399 Definitely disable HttpClient certificate revocation list check](../code-quality/ca5399.md) | A revoked certificate isn't trusted anymore. It could be used by attackers passing some malicious data or stealing sensitive data in HTTPS communication. |
+| CA5400 | [CA5400 Ensure HttpClient certificate revocation list check is not disabled](../code-quality/ca5400.md) | A revoked certificate isn't trusted anymore. It could be used by attackers passing some malicious data or stealing sensitive data in HTTPS communication. |
+| CA5401 | [CA5401 Do not use CreateEncryptor with non-default IV](../code-quality/ca5401.md) | Symmetric encryption should always use a non-repeatable initialization vector to prevent dictionary attacks. |
+| CA5402 | [CA5402 Use CreateEncryptor with the default IV](../code-quality/ca5402.md) | Symmetric encryption should always use a non-repeatable initialization vector to prevent dictionary attacks. |

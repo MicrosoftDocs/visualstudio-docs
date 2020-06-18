@@ -3,13 +3,13 @@ title: Options, Text Editor, C#, Advanced
 ms.date: 01/16/2019
 ms.topic: reference
 f1_keywords:
-  - "VS.ToolsOptionsPages.Text_Editor.CSharp.Outlining"
-  - "VS.ToolsOptionsPages.Text_Editor.CSharp.Advanced"
-author: jillre
-ms.author: jillfra
+- VS.ToolsOptionsPages.Text_Editor.CSharp.Outlining
+- VS.ToolsOptionsPages.Text_Editor.CSharp.Advanced
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "dotnet"
+- dotnet
 ---
 # Options, Text Editor, C#, Advanced
 
@@ -20,9 +20,9 @@ Use the **Advanced** options page to modify the settings for editor formatting, 
 
 ## Analysis
 
-- Enable full solution analysis
+- Live code analysis or Background analysis scope
 
-   Enables code analysis on all files in the solution, not just open code files. For more information, see [Full solution analysis](../../code-quality/how-to-enable-and-disable-full-solution-analysis-for-managed-code.md).
+   Configure the background analysis scope for managed code. For more information, see [How to: Configure live code analysis scope for managed code](../../code-quality/configure-live-code-analysis-scope-managed-code.md).
 
 ## Using Directives
 
@@ -81,7 +81,7 @@ Use the **Advanced** options page to modify the settings for editor formatting, 
    using System.Linq;
    ```
 
-- Suggest usings for types in reference assemblies
+- Suggest usings for types in .NET Framework assemblies
 - Suggest usings for types in NuGet packages
 
    When these options are selected, a [Quick Action](../quick-actions.md) is available to install a NuGet package and add a `using` directive for unreferenced types.

@@ -1,20 +1,20 @@
 ---
-title: "IDebugProgramEx2::Attach | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugProgramEx2::Attach | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugProgramEx2::Attach"
+- IDebugProgramEx2::Attach
 helpviewer_keywords:
-  - "IDebugProgramEx2::Attach"
+- IDebugProgramEx2::Attach
 ms.assetid: 33b22b2f-431e-4205-9441-d28a9c928c97
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugProgramEx2::Attach
 Attach a session to a program.

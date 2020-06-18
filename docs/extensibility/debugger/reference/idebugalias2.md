@@ -1,15 +1,15 @@
 ---
-title: "IDebugAlias2 | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugAlias2 | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
-  - "IDebugAlias2 interface"
+- IDebugAlias2 interface
 ms.assetid: 5252dcbb-8bfe-4d8a-a8e5-b022b194df19
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # IDebugAlias2
 > [!IMPORTANT]

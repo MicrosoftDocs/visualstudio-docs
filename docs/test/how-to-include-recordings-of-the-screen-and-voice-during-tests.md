@@ -3,10 +3,10 @@ title: Record Screen and Voice During Tests
 ms.date: 10/03/2016
 ms.topic: conceptual
 helpviewer_keywords:
- - "test settings, recording desktop video"
+- test settings, recording desktop video
 ms.assetid: 2cefe8c2-430a-4cb4-bbe0-f3edb2e5bc03
-author: jillre
-ms.author: jillfra
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ---
 # How to: Include recordings of the screen and voice during tests using test settings
@@ -52,8 +52,14 @@ The screen and voice recorder can be used with either manual or automated tests.
 
 7. Choose **OK**. The diagnostic trace collector settings are now configured and saved for your test settings.
 
+    ::: moniker range="vs-2017"
     > [!TIP]
     > To reset the configuration for this diagnostic data adapter, choose **Reset to default configuration** for Visual Studio and **Reset to default** for Microsoft Test Manager.
+    ::: moniker-end
+    ::: moniker range=">=vs-2019"
+    > [!TIP]
+    > To reset the configuration for this diagnostic data adapter, choose **Reset to default configuration** in Visual Studio.
+    ::: moniker-end
 
 ## See also
 

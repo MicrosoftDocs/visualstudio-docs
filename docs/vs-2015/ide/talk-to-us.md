@@ -15,7 +15,7 @@ manager: jillfra
 # Talk to Us
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-For the latest documentation on Visual Studio, see [Talk to Us](https://docs.microsoft.com/visualstudio/ide/feedback-options).
+For the latest documentation on Visual Studio, see [Talk to Us](/visualstudio/ide/feedback-options).
 
 We're interested in your ideas for improving our documentation. We can’t respond personally, but we’ll make sure your feedback gets to the right person.
 
@@ -32,20 +32,17 @@ We're interested in your ideas for improving our documentation. We can’t respo
  Pre-release versions of Visual Studio have a **Rate this Product** menu item that enables you to send feedback on the quality of the build you are running. You won't see this in released versions of the product.
 
 ## I need help!
- See [Microsoft Support](http://go.microsoft.com/fwlink/?LinkID=99019) for online help.
+ See [Microsoft Support](https://support.microsoft.com/) for online help.
 
- Support outside the United States and Canada may vary. For a list of regional contacts, see [Microsoft Worldwide Sites](http://www.microsoft.com/worldwide/).
+ Support outside the United States and Canada may vary. For a list of regional contacts, see [Microsoft Worldwide Sites](https://www.microsoft.com/worldwide/).
 
- For more options, see [Support Overview](http://www.visualstudio.com/support/support-overview-vs).
+ For more options, see [Support Overview](https://visualstudio.microsoft.com/support/).
 
- For larger organizations that require managed support directly from Microsoft, contracts are available through various Premier Support offerings. For more information, see [Microsoft Services Premier Support](http://go.microsoft.com/fwlink/?LinkId=258223).
+ For larger organizations that require managed support directly from Microsoft, contracts are available through various Premier Support offerings. For more information, see [Microsoft Services Premier Support](https://www.microsoft.com/industry/services/support).
 
  If the product came installed with a new computer or device, the hardware manufacturer provides technical support and assistance for this software. Contact the manufacturer directly for support.
 
  Microsoft support services are subject to then-current prices, terms, and conditions. Prices, terms, and conditions are subject to change without notice.
-
-## I want to get involved in the developer community
- If you want to share your questions and answers with other developers, you can use the [MSDN Forums](http://social.msdn.microsoft.com/Forums/home) or [StackOverflow](http://stackoverflow.com/). You can view code from other developers and share your own examples on the [Developer code samples](http://code.msdn.microsoft.com/) and [CodePlex](http://www.codeplex.com/) websites.
 
 ## See Also
  [How to Report a Problem with Visual Studio 2015](../ide/how-to-report-a-problem-with-visual-studio-2015.md)
