@@ -101,7 +101,7 @@ To measure performance data from the command line, you can use VSDiagnostics.exe
 
    You must include the following arguments:
 
-   - <id>: Identifies the collection session. The ID must be a number between 1-255.
+   - \<id\>: Identifies the collection session. The ID must be a number between 1-255.
    - <appToLaunch>: The executable file to launch and profile.
    - <configFile>: The configuration file for the collection agent you want to launch.
 
