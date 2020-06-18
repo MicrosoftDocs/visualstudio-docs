@@ -593,6 +593,8 @@
           href: ca2009.md
         - name: "CA2011: Do not assign property within its setter"
           href: ca2011.md
+        - name: "CA2012: Use ValueTasks correctly"
+          href: ca2012.md
         - name: "CA2013: Do not use ReferenceEquals with value types"
           href: ca2013.md
         - name: "CA2015: Do not define finalizers for types derived from MemoryManager<T>"
