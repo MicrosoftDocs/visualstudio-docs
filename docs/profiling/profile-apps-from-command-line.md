@@ -81,7 +81,7 @@ Please see the following links to download and view agent configuration files:
 - https://aka.ms/vs/diaghub/agentconfig/dotnetalloclow
 
 CpuUsage configurations (Base/High/Low) correspond to data collected for the [CPU Usage](../profiling/cpu-usage.md) profiling tool.
-* DotNetObjectAlloc configurations (Base/Low), which corresponds to data collected for the [.NET Object Allocation tool](../profiling/dotnet-alloc-tool.md).
+DotNetObjectAlloc configurations (Base/Low) correspond to data collected for the [.NET Object Allocation tool](../profiling/dotnet-alloc-tool.md).
 
 Base/Low/High configurations refer to the sampling rate. For example, Low is 100 samples/second and High is 4000 samples/second.
 
