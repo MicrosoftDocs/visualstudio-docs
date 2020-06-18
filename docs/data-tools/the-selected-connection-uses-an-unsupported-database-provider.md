@@ -1,7 +1,7 @@
 ---
 title: The selected connection uses an unsupported database provider
 ms.date: 11/04/2016
-ms.topic: reference
+ms.topic: error-reference
 ms.assetid: 4d25dfa1-8fa4-4529-9b90-973bc2ec2993
 author: ghogen
 ms.author: ghogen
