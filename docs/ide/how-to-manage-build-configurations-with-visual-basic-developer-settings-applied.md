@@ -2,7 +2,7 @@
 title: Manage build configurations with Visual Basic developer settings
 ms.date: 11/21/2018
 ms.technology: vs-ide-compile
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - advanced build configurations
 - building with Visual Basic developer settings (Visual Studio)

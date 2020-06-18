@@ -1,7 +1,7 @@
 ---
 title: Use Help Viewer table of contents
 ms.date: 11/02/2017
-ms.topic: conceptual
+ms.topic: how-to
 f1_keywords:
   - "hv_contents"
 helpviewer_keywords:

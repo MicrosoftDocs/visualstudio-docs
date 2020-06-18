@@ -1,7 +1,7 @@
 ---
 title: Save data back to the database
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - datasets [Visual Basic], validating data
 - data validation, datasets

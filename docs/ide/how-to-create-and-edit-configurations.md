@@ -2,7 +2,7 @@
 title: 'How to: Create and edit configurations'
 ms.date: 06/21/2017
 ms.technology: vs-ide-compile
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - solution build configurations, editing
 - build configurations, creating
