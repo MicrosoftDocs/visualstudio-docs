@@ -21,6 +21,7 @@ ms.workload:
   - "multiple"
 ---
 # Create custom data visualizers
+
  A *visualizer* is part of the [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)] debugger user interface that displays a variable or object in a manner appropriate to its data type. For example, an HTML visualizer interprets an HTML string and displays the result as it would appear in a browser window. A bitmap visualizer interprets a bitmap structure and displays the graphic it represents. Some visualizers let you modify as well as view the data.
 
  The [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)] debugger includes six standard visualizers. The text, HTML, XML, and JSON visualizers work on string objects. The WPF Tree visualizer displays the properties of a WPF object visual tree. The dataset visualizer works for DataSet, DataView, and DataTable objects.
@@ -68,13 +69,17 @@ To create the visualizer user interface on the debugger side, you create a class
 
 ### To create the visualizer object source for the debuggee side
 
-You specify the type to visualize (the debuggee-side object source) by using the <xref:System.Diagnostics.DebuggerVisualizerAttribute> in the debugger-side code.
+In the debugger side code, edit the <xref:System.Diagnostics.DebuggerVisualizerAttribute>, giving it the type to visualize (the debuggee-side object source) (<xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerObjectSource>). The `Target` property sets the object source. If you omit the object source, the visualizer will use a default object source.
 
-1. In the debugger side code, edit the <xref:System.Diagnostics.DebuggerVisualizerAttribute>, giving it the object source (<xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerObjectSource>). The `Target` property sets the object source. If you omit the object source, the visualizer will use a default object source.
+::: moniker range=">=vs-2019"
+The debuggee side code contains the object source that gets visualized. The data object can override methods of <xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerObjectSource>. A debuggee side DLL is necessary if you want to create a standalone visualizer.
+::: moniker-end
 
-1. To let the visualizer edit as well as display data objects, override the `TransferData` or `CreateReplacementObject` methods from <xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerObjectSource>.
+In the debuggee-side code:
 
-1. If you need to support multi-targeting in your visualizer, you can use the following Target Framework Monikers (TFMs) in the debuggee-side project file.
+- To let the visualizer edit data objects, the object source must inherit from from <xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerObjectSource> and override the `TransferData` or `CreateReplacementObject` methods.
+
+- If you need to support multi-targeting in your visualizer, you can use the following Target Framework Monikers (TFMs) in the debuggee-side project file.
 
    ```xml
    <TargetFrameworks>net20;netstandard2.0;netcoreapp2.0</TargetFrameworks>
