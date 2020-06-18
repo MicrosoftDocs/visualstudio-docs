@@ -1,5 +1,6 @@
 ---
 title: XAML code editor
+description: Take a tour of the XAML code editor in Visual Studio
 ms.date: 06/16/2020
 ms.topic: conceptual
 monikerRange: vs-2019
@@ -9,7 +10,7 @@ manager: jillfra
 ---
 # XAML code editor
 
-The XAML code editor in the [Visual Studio IDE](../get-started/visual-studio-ide.md) includes all the tools you need to create WPF and UWP apps for the Windows platform, and for [Xamarin.Forms](/xamarin/xamarin-forms/user-interface/text/editor/). This article outlines both the role the code editor plays when you develop XAML-based apps and the features that are unique to the XAML code editor in Visual Studio 2019.
+The XAML code editor in the [Visual Studio IDE](../get-started/visual-studio-ide.md) includes all the tools you need to create WPF and UWP apps for the Windows platform, and for [Xamarin.Forms](/xamarin/xamarin-forms/user-interface/text/editor/). This article outlines both the role the code editor plays when you develop XAML-based apps, and the features that are unique to the XAML code editor in Visual Studio 2019.
 
 To start, let's take a look at the IDE (integrated development environment) with an open WPF project. The following image shows several of the key IDE tools you'll use along with the XAML code editor.
 
@@ -176,7 +177,7 @@ Most of the following features are universally available in the Visual Studio ID
 
 Code snippets are small blocks of reusable code that you can insert into in a code file by using the right-click context menu command **Insert snippet** or a combination of keyboard shortcuts (**Ctrl**+**K**, **Ctrl**+**X**). We've enhanced [IntelliSense](../ide/using-intellisense.md) so that it supports showing XAML snippets, which work for both built-in snippets and any custom snippets that you add manually. Some out-of-the-box XAML snippets include `#region`, `Column definition`, `Row definition`, `Setter`, and `Tag`.
 
-![The XAML code editor with #region options showing in IntelliSense](media/xaml-code-snippets.png "Screenshot of the XAML code editor with #region options showing in IntelliSense")
+![The XAML code editor with XAML code snippet options showing in IntelliSense](media/xaml-code-snippets.png "Screenshot of the XAML code editor with XAML code snippet options showing in IntelliSense")
 
 For more information, see the [Code snippets](../ide/code-snippets.md) and [C# code snippets](../ide/visual-csharp-code-snippets.md) pages.
 
