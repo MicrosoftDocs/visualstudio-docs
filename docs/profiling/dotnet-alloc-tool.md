@@ -92,8 +92,6 @@ The **Functions** view shows processes, modules, and functions that are allocati
 
 The **Allocations**, **Call Tree**, and **Functions** views all contain the **Show Just My Code**, **Show Native Code**, and **Search** options:
 
-![Filter Bar](../profiling/media/filterbar.png "Filter Bar")
-
 - **Show Just My Code** collapses systems, frameworks, and other non-user code and into **[External Code]** frames so that user-code can be focused on. For more information, see [Debug user code with Just My Code](../debugger/just-my-code.md).
 - **Show Native Code** shows native code within the analysis target including non-user code if selected.
 - The **Filter box** allows you to filter down the **Name** or **Function name** column based on the parameter you provide. Simply type in the field and the table should filter down to show only types that contain the string provided.
