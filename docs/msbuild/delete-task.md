@@ -78,23 +78,7 @@ If you need to track the deleted files, set `TaskParameter` to `DeletedFiles` wi
 
 Instead of directly using wildcards in the `Delete` task, create an `ItemGroup` of files to delete and run the `Delete` task on that. But, be sure to place the `ItemGroup` carefully. If you put an `ItemGroup` at the top level in a project file, it gets evaluated early on, before the build starts, so you can't include any files that were built as part of the build process. So, put the `ItemGroup` that creates the list of items to delete in a target close to the `Delete` task. You can also specify a condition to check that the property is not empty, so that you won't create an item list with a path that starts at the root of the drive.
 
-The `Delete` task is intended for deleting files. If you want to delete a directory, use [RemoveDir](removedir-task.md). Using them both together, the following example shows how to safely delete a folder and all its contents.
-
-The following target can be called to remove the `obj` folder and all its contents.
-
-```xml
-<Target Name="DeleteTempFiles">
-    <PropertyGroup>
-        <TmpDir>$(IntermediateOutputPath)</TmpDir>
-    </PropertyGroup>
-   <ItemGroup>
-     <DeleteItems Include="$(TmpDir)/**/*"/>
-   </ItemGroup>
-   <Message Text="Files to delete: @(DeleteItems) "/>
-   <Delete Condition="'$(TmpDir)' != ''" Files="@(DeleteItems)" />
-   <RemoveDir Condition="'$(TmpDir)' != ''" Directories="$(TmpDir)"/>
-</Target>
-```
+The `Delete` task is intended for deleting files. If you want to delete a directory, use [RemoveDir](removedir-task.md).
 
 The `Delete` task doesn't provide an option to delete read-only files. To delete read-only files, you can use the `Exec` task to run the `del` command or equivalent, with the appropriate option to enable deleting read-only files. You have to pay attention to the length of the input item list, since there is a length limitation on the command line, as well as making sure to handle filenames with spaces, as in this example:
 
