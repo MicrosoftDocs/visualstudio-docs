@@ -76,7 +76,7 @@ If you need to track the deleted files, set `TaskParameter` to `DeletedFiles` wi
     </Target>
 ```
 
-Instead of directly using wildcards in the `Delete` task, create an `ItemGroup` of files to delete and run the `Delete` task on that. But, be sure to place the `ItemGroup` carefully. If you put an `ItemGroup` at the top level in a project file, it gets evaluated early on, before the build starts, so you can't include any files that were built as part of the build process. So, put the `ItemGroup` that creates the list of items to delete in a target close to the `Delete` task. You can also specify a condition to check that the property is not empty, so that you won't create an item list with a path that starts at the root of the drive.
+Instead of directly using wildcards in the `Delete` task, create an `ItemGroup` of files to delete and run the `Delete` task on that. But, be sure to place the `ItemGroup` carefully. If you put an `ItemGroup` at the top level in a project file, it gets evaluated early on, before the build starts, so it won't include any files that were built as part of the build process. So, put the `ItemGroup` that creates the list of items to delete in a target close to the `Delete` task. You can also specify a condition to check that the property is not empty, so that you won't create an item list with a path that starts at the root of the drive.
 
 The `Delete` task is intended for deleting files. If you want to delete a directory, use [RemoveDir](removedir-task.md).
 
