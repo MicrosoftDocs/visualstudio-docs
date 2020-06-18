@@ -48,9 +48,9 @@ As an example, if you decide not to synchronize Visual Studio's settings on comp
 > [!NOTE]
 > If you choose not to synchronize settings by deselecting the option on the **Tools** > **Options** > **Environment** > **Accounts** page, other versions or editions of Visual Studio that you have on the same computer aren't affected. Those side-by-side installations of Visual Studio will continue to synchronize their settings (unless you uncheck the option there, too).
 
-## Synchronize settings across Visual Studio family products and editions
+## Synchronize settings across Visual Studio IDE products and editions
 
-Settings are synchronized across versions and editions of Visual Studio installed *side-by-side*. Settings are also synchronized across Visual Studio family products, including Blend for Visual Studio. However, an individual family product may have its own settings that aren't shared with Visual Studio. For example, settings specific to Blend for Visual Studio on computer "A" are not shared with Visual Studio on computers "A" or "B".
+Settings are synchronized across versions and editions of Visual Studio installed *side-by-side*. Settings are also synchronized across Visual Studio IDE products, including Blend for Visual Studio. However, an individual IDE product may have its own settings that aren't shared with Visual Studio. For example, settings specific to Blend for Visual Studio on computer "A" are not shared with Visual Studio on computers "A" or "B".
 
 ## Side-by-side synchronized settings
 
@@ -88,3 +88,4 @@ To reset all settings to their defaults, sign in to Visual Studio, and then sele
 - [Personalize the IDE](../ide/personalizing-the-visual-studio-ide.md)
 - [Environment settings](../ide/environment-settings.md)
 - [Environment > Accounts Options dialog box](reference/accounts-environment-options-dialog-box.md)
+- [Install Visual Studio versions side-by-side](../install/synchronized-settings-in-visual-studio.md)
