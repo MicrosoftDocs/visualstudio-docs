@@ -165,6 +165,7 @@ f1_keywords:
 - CA1827
 - CA1828
 - CA1829
+- CA1830
 - CA1831
 - CA1832
 - CA1833
@@ -442,6 +443,7 @@ The following table lists Code Analysis warnings for managed code by the CheckId
 | CA1827 |[CA1827: Do not use Count/LongCount when Any can be used](../code-quality/ca1827.md) | <xref:System.Linq.Enumerable.Count%2A> or <xref:System.Linq.Enumerable.LongCount%2A> method was used where <xref:System.Linq.Enumerable.Any%2A> method would be more efficient. |
 | CA1828 |[CA1828: Do not use CountAsync/LongCountAsync when AnyAsync can be used](../code-quality/ca1828.md) | <xref:Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.CountAsync%2A> or <xref:Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.LongCountAsync%2A> method was used where <xref:Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.AnyAsync%2A> method would be more efficient. |
 | CA1829 |[CA1829: Use Length/Count property instead of Enumerable.Count method](../code-quality/ca1829.md) | <xref:System.Linq.Enumerable.Count%2A> LINQ method was used on a type that supports an equivalent, more efficient `Length` or `Count` property. |
+| CA1830 |[CA1830: Prefer strongly-typed Append and Insert method overloads on StringBuilder](../code-quality/ca1830.md) | <xref:System.Text.StringBuilder.Append> and <xref:System.Text.StringBuilder.Insert> provide overloads for multiple types beyond <xref:System.String>.  When possible, prefer the strongly-typed overloads over using ToString() and the string-based overload. |
 | CA1831 |[CA1831: Use AsSpan instead of Range-based indexers for string when appropriate](../code-quality/ca1831.md) | When using a range-indexer on a string and implicitly assigning the value to  ReadOnlySpan&lt;char&gt; type, the method <xref:System.String.Substring%2A?#System_String_Substring_System_Int32_System_Int32_> will be used instead of <xref:System.Span%601.Slice%2A?#System_Span_1_Slice_System_Int32_System_Int32_>, which produces a copy of requested portion of the string. |
 | CA1832 |[CA1832: Use AsSpan or AsMemory instead of Range-based indexers for getting ReadOnlySpan or ReadOnlyMemory portion of an array](../code-quality/ca1832.md) | When using a range-indexer on an array and implicitly assigning the value to a <xref:System.ReadOnlySpan%601> or <xref:System.ReadOnlyMemory%601> type, the method <xref:System.Runtime.CompilerServices.RuntimeHelpers.GetSubArray%2A> will be used instead of <xref:System.Span%601.Slice%2A?#System_Span_1_Slice_System_Int32_System_Int32_>, which produces a copy of requested portion of the array. |
 | CA1833 |[CA1833: Use AsSpan or AsMemory instead of Range-based indexers for getting Span or Memory portion of an array](../code-quality/ca1833.md) | When using a range-indexer on an array and implicitly assigning the value to a <xref:System.Span%601> or <xref:System.Memory%601> type, the method <xref:System.Runtime.CompilerServices.RuntimeHelpers.GetSubArray%2A> will be used instead of <xref:System.Span%601.Slice%2A?#System_Span_1_Slice_System_Int32_System_Int32_>, which produces a copy of requested portion of the array. |
