@@ -1,7 +1,7 @@
 ---
 title: This related method is the backing method for the following default insert, update, or delete methods
 ms.date: 11/04/2016
-ms.topic: reference
+ms.topic: error-reference
 ms.assetid: 62afa6da-97cf-48b9-8de3-33e4d72a0377
 author: jillre
 ms.author: jillfra

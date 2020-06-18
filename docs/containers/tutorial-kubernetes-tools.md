@@ -1,7 +1,7 @@
 ---
 title: "Kubernetes tools tutorial | Microsoft Docs"
 ms.date: "06/08/2018"
-ms.topic: "conceptual"
+ms.topic: tutorial
 author: ghogen
 ms.author: ghogen
 manager: jillfra
