@@ -24,19 +24,19 @@ XAML is also used to define workflows in [Windows WorkFlow Foundation (WF) apps]
 
 ## XAML code editor
 
-The XAML code editor in the [Visual Studio IDE](../get-started/visual-studio-ide.md) includes all the tools you need to create WPF and UWP apps for the Windows platform, and for [Xamarin.Forms](/xamarin/xamarin-forms/user-interface/text/editor/).
+The [XAML code editor](xaml-code-editor.md) in the Visual Studio IDE includes all the tools you need to create WPF and UWP apps for the Windows platform, and for Xamarin.Forms.
 
 ## XAML Designer
 
-Visual Studio and Blend for Visual Studio provide a XAML Designer that helps you build user interfaces (UI) for WPF, UWP, and Xamarin.Forms apps. You can drag controls from the Toolbox or Assets window and set properties in the Properties window. When you do so, Visual Studio and Blend for Visual Studio create the corresponding XAML code. If you prefer to edit the XAML code directly, you can do that too.
+Visual Studio and Blend for Visual Studio provide a [XAML Designer](creating-a-ui-by-using-xaml-designer-in-visual-studio.md) that helps you build user interfaces (UI) for WPF, UWP, and Xamarin.Forms apps. You can drag controls from the Toolbox or Assets window and set properties in the Properties window. When you do so, Visual Studio and Blend for Visual Studio create the corresponding XAML code. If you prefer to edit the XAML code directly, you can do that too.
 
 ## What's new
 
 For the latest information, refer the following resources:
 
-- The [What’s new in XAML developer tools in Visual Studio 2019](https://devblogs.microsoft.com/visualstudio/whats-new-in-xaml-developer-tools-in-visual-studio-2019-for-wpf-uwp/) blog post
-- The [New XAML features in Visual Studio](https://youtu.be/yI9OyA4ZM2E) video on YouTube
-- The [Improvements to XAML tooling in Visual Studio 2019 version 16.7 Preview 1](https://devblogs.microsoft.com/visualstudio/improvements-to-xaml-tooling-in-visual-studio-2019-version-16-7-preview-1/) blog post
+- The **[What’s new in XAML developer tools in Visual Studio 2019](https://devblogs.microsoft.com/visualstudio/whats-new-in-xaml-developer-tools-in-visual-studio-2019-for-wpf-uwp/)** blog post
+- The **[New XAML features in Visual Studio](https://youtu.be/yI9OyA4ZM2E)** video on YouTube
+- The **[Improvements to XAML tooling in Visual Studio 2019 version 16.7 Preview 1](https://devblogs.microsoft.com/visualstudio/improvements-to-xaml-tooling-in-visual-studio-2019-version-16-7-preview-1/)** blog post
 
 
 ## See also
