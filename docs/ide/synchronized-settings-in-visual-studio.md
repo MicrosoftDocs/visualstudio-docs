@@ -1,6 +1,6 @@
 ---
 title: Synchronize settings
-ms.date: 12/10/2018
+ms.date: 06/18/2020
 ms.topic: conceptual
 ms.assetid: a3d2ea29-be5d-4012-9820-44b06adbb7dd
 author: TerryGLee
@@ -43,14 +43,14 @@ By default, the following settings are synchronized:
 
 Synchronized settings for Visual Studio are turned on by default. You can turn off synchronized settings on a computer by going to the **Tools** > **Options** > **Environment** > **Accounts** page and unchecking **Synchronize settings across devices when signed into Visual Studio**.
 
-As an example, if you decide not to synchronize Visual Studio's settings on computer "A", any setting changes made on computer "A" do not appear on computer "B" or computer "C". Computers "B" and "C" will continue to synchronize with each other, but not with computer "A".
+As an example, if you decide not to synchronize the settings in Visual Studio on computer "A", any setting changes made on computer "A" do not appear on computer "B" or computer "C". Computers "B" and "C" will continue to synchronize with each other, but not with computer "A".
 
 > [!NOTE]
 > If you choose not to synchronize settings by deselecting the option on the **Tools** > **Options** > **Environment** > **Accounts** page, other versions or editions of Visual Studio that you have on the same computer aren't affected. Those side-by-side installations of Visual Studio will continue to synchronize their settings (unless you uncheck the option there, too).
 
 ## Synchronize settings across Visual Studio IDE products and editions
 
-Settings are synchronized across versions and editions of Visual Studio installed *side-by-side*. Settings are also synchronized across Visual Studio IDE products, including Blend for Visual Studio. However, an individual IDE product may have its own settings that aren't shared with Visual Studio. For example, settings specific to Blend for Visual Studio on computer "A" are not shared with Visual Studio on computers "A" or "B".
+Settings are synchronized across versions and editions of Visual Studio installed *side-by-side*. Settings are also synchronized across Visual Studio IDE products, including Blend for Visual Studio. However, an individual Visual Studio IDE product might have its own settings that aren't shared with Visual Studio. For example, settings specific to Blend for Visual Studio on computer "A" are not shared with Visual Studio on computers "A" or "B".
 
 ## Side-by-side synchronized settings
 
