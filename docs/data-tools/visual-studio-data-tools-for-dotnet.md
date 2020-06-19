@@ -1,7 +1,7 @@
 ---
 title: Data tools for .NET
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: overview
 ms.assetid: c3175080-1dfb-4ab8-a460-92dadbb844b4
 author: ghogen
 ms.author: ghogen

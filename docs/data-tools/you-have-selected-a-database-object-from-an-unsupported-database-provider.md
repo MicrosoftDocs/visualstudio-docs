@@ -1,7 +1,7 @@
 ---
 title: You have selected a database object from an unsupported database provider
 ms.date: 11/04/2016
-ms.topic: reference
+ms.topic: error-reference
 ms.assetid: c0f1298e-31aa-471e-ae19-1bafffd2ae40
 author: ghogen
 ms.author: ghogen

@@ -6,7 +6,7 @@ manager: jillfra
 ms.assetid: 9394adfd-a645-4664-9354-dd5df08e8c91
 ms.custom: vs-azure
 ms.workload: azure-vs
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 11/10/2017
 ms.author: ghogen
 ---

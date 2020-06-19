@@ -1,7 +1,7 @@
 ---
 title: Data tools for C++
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: overview
 dev_langs:
 - CPP
 author: ghogen
