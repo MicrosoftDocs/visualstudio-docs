@@ -1,7 +1,7 @@
 ---
 title: Add new data sources
 ms.date: 11/21/2018
-ms.topic: conceptual
+ms.topic: how-to
 f1_keywords:
 - vs.datasource.datasourcefieldspicker
 helpviewer_keywords:

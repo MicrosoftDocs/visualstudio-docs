@@ -5,7 +5,7 @@ author: ghogen
 manager: jillfra
 ms.technology: vs-azure
 ms.devlang: dotnet
-ms.topic: article
+ms.topic: how-to
 ms.date: 01/27/2020
 ms.author: ghogen
 ---

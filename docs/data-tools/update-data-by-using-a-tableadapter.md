@@ -1,7 +1,7 @@
 ---
 title: Update data by using a TableAdapter
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 dev_langs:
 - VB
 - CSharp

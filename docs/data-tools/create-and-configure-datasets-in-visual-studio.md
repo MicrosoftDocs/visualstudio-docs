@@ -1,7 +1,7 @@
 ---
 title: Create and configure datasets
 ms.date: 11/21/2018
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - typed datasets, creating
 - datasets, creating
