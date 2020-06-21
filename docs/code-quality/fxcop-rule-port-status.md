@@ -25,7 +25,9 @@ Rule ID | Title
 --------|---------
 [CA1000](ca1000.md) | Do not declare static members on generic types
 [CA1001](ca1001.md) | Types that own disposable fields should be disposable
+[CA1002](ca1002.md) | Do not expose generic lists
 [CA1003](ca1003.md) | Use generic event handler instances
+[CA1005](ca1005.md) | Avoid excessive parameters on generic types
 [CA1008](ca1008.md) | Enums should have zero value
 [CA1010](ca1010.md) | Collections should implement generic interface
 [CA1012](ca1012.md) | Abstract types should not have constructors
@@ -48,6 +50,9 @@ Rule ID | Title
 [CA1041](ca1041.md) | Provide ObsoleteAttribute message
 [CA1043](ca1043.md) | Use Integral Or String Argument For Indexers
 [CA1044](ca1044.md) | Properties should not be write only
+[CA1045](ca1045.md) | Do not pass types by reference
+[CA1046](ca1046.md) | Do not overload operator equals on reference types
+[CA1047](ca1047.md) | Do not declare protected members in sealed types
 [CA1050](ca1050.md) | Declare types in namespaces
 [CA1051](ca1051.md) | Do not declare visible instance fields
 [CA1052](ca1052.md) | Static holder types should be static or NotInheritable
@@ -80,11 +85,13 @@ CA1200 | Avoid using cref tags with a prefix
 [CA1507](ca1507.md) | Use nameof to express symbol names
 [CA1508](ca1508.md) | Avoid dead conditional code
 CA1509 | Invalid entry in code metrics rule specification file
+[CA1700](ca1700.md) | Do not name enum values 'Reserved'
 [CA1707](ca1707.md) | Identifiers should not contain underscores
 [CA1708](ca1708.md) | Identifiers should differ by more than case
 [CA1710](ca1710.md) | Identifiers should have correct suffix
 [CA1711](ca1711.md) | Identifiers should not have incorrect suffix
 [CA1712](ca1712.md) | Do not prefix enum values with type name
+[CA1713](ca1713.md) | Events should not have before or after prefix
 [CA1714](ca1714.md) | Flags enums should have plural names
 [CA1715](ca1715.md) | Identifiers should have correct prefix
 [CA1716](ca1716.md) | Identifiers should not match keywords
@@ -95,6 +102,7 @@ CA1509 | Invalid entry in code metrics rule specification file
 [CA1725](ca1725.md) | Parameter names should match base declaration
 [CA1801](ca1801.md) | Review unused parameters
 [CA1802](ca1802.md) | Use literals where appropriate
+[CA1804](ca1804.md) | Remove unused locals
 [CA1806](ca1806.md) | Do not ignore method results
 [CA1810](ca1810.md) | Initialize reference type static fields inline
 [CA1812](ca1812.md) | Avoid uninstantiated internal classes
@@ -118,6 +126,7 @@ CA2009 | Do not call ToImmutableCollection on an ImmutableCollection value
 CA2010 | Always consume the value returned by methods marked with PreserveSigAttribute
 [CA2100](ca2100.md) | Review SQL queries for security vulnerabilities
 [CA2101](ca2101.md) | Specify marshaling for P/Invoke string arguments
+[CA2109](ca2109.md) | Review visible event handlers
 [CA2119](ca2119.md) | Seal methods that satisfy private interfaces
 [CA2153](ca2153.md) | Do Not Catch Corrupted State Exceptions
 [CA2200](ca2200.md) | Rethrow to preserve stack details.
@@ -127,6 +136,7 @@ CA2010 | Always consume the value returned by methods marked with PreserveSigAtt
 [CA2211](ca2211.md) | Non-constant fields should not be visible
 [CA2213](ca2213.md) | Disposable fields should be disposed
 [CA2214](ca2214.md) | Do not call overridable methods in constructors
+[CA2215](ca2215.md) | Dispose methods should call base class dispose
 [CA2216](ca2216.md) | Disposable types should declare finalizer
 [CA2217](ca2217.md) | Do not mark enums with FlagsAttribute
 [CA2218](ca2218.md) | Override GetHashCode on overriding Equals
@@ -207,17 +217,11 @@ The following FxCop legacy analysis rules haven't yet been implemented as analyz
 
 Rule ID | Tracking issue
 --- | ---
-[CA1002](ca1002.md) | [https://github.com/dotnet/roslyn-analyzers/issues/369](https://github.com/dotnet/roslyn-analyzers/issues/369)
 [CA1004](ca1004.md) | [https://github.com/dotnet/roslyn-analyzers/issues/370](https://github.com/dotnet/roslyn-analyzers/issues/370)
-[CA1005](ca1005.md) | [https://github.com/dotnet/roslyn-analyzers/issues/371](https://github.com/dotnet/roslyn-analyzers/issues/371)
 [CA1006](ca1006.md) | [https://github.com/dotnet/roslyn-analyzers/issues/372](https://github.com/dotnet/roslyn-analyzers/issues/372)
 [CA1007](ca1007.md) | [https://github.com/dotnet/roslyn-analyzers/issues/373](https://github.com/dotnet/roslyn-analyzers/issues/373)
 [CA1011](ca1011.md) | [https://github.com/dotnet/roslyn-analyzers/issues/375](https://github.com/dotnet/roslyn-analyzers/issues/375)
-[CA1021](ca1021.md) | [https://github.com/dotnet/roslyn-analyzers/issues/377](https://github.com/dotnet/roslyn-analyzers/issues/377)
 [CA1023](ca1023.md) | [https://github.com/dotnet/roslyn-analyzers/issues/378](https://github.com/dotnet/roslyn-analyzers/issues/378)
-[CA1045](ca1045.md) | [https://github.com/dotnet/roslyn-analyzers/issues/391](https://github.com/dotnet/roslyn-analyzers/issues/391)
-[CA1046](ca1046.md) | [https://github.com/dotnet/roslyn-analyzers/issues/392](https://github.com/dotnet/roslyn-analyzers/issues/392)
-[CA1047](ca1047.md) | [https://github.com/dotnet/roslyn-analyzers/issues/393](https://github.com/dotnet/roslyn-analyzers/issues/393)
 [CA1048](ca1048.md) | [https://github.com/dotnet/roslyn-analyzers/issues/394](https://github.com/dotnet/roslyn-analyzers/issues/394)
 [CA1049](ca1049.md) | [https://github.com/dotnet/roslyn-analyzers/issues/395](https://github.com/dotnet/roslyn-analyzers/issues/395)
 [CA1057](ca1057.md) | [https://github.com/dotnet/roslyn-analyzers/issues/401](https://github.com/dotnet/roslyn-analyzers/issues/401)
@@ -240,24 +244,19 @@ Rule ID | Tracking issue
 [CA1500](ca1500.md) | [https://github.com/dotnet/roslyn-analyzers/issues/432](https://github.com/dotnet/roslyn-analyzers/issues/432)
 [CA1600](ca1600.md) | [https://github.com/dotnet/roslyn-analyzers/issues/438](https://github.com/dotnet/roslyn-analyzers/issues/438)
 [CA1601](ca1601.md) | [https://github.com/dotnet/roslyn-analyzers/issues/439](https://github.com/dotnet/roslyn-analyzers/issues/439)
-[CA1700](ca1700.md) | [https://github.com/dotnet/roslyn-analyzers/issues/440](https://github.com/dotnet/roslyn-analyzers/issues/440)
 [CA1704](ca1704.md) | [https://github.com/dotnet/roslyn-analyzers/issues/443](https://github.com/dotnet/roslyn-analyzers/issues/443)
 [CA1709](ca1709.md) | [https://github.com/dotnet/roslyn-analyzers/issues/445](https://github.com/dotnet/roslyn-analyzers/issues/445)
-[CA1713](ca1713.md) | [https://github.com/dotnet/roslyn-analyzers/issues/449](https://github.com/dotnet/roslyn-analyzers/issues/449)
 [CA1719](ca1719.md) | [https://github.com/dotnet/roslyn-analyzers/issues/453](https://github.com/dotnet/roslyn-analyzers/issues/453)
 [CA1722](ca1722.md) | [https://github.com/dotnet/roslyn-analyzers/issues/455](https://github.com/dotnet/roslyn-analyzers/issues/455)
 [CA1726](ca1726.md) | [https://github.com/dotnet/roslyn-analyzers/issues/458](https://github.com/dotnet/roslyn-analyzers/issues/458)
-[CA1804](ca1804.md) | [https://github.com/dotnet/roslyn-analyzers/issues/461](https://github.com/dotnet/roslyn-analyzers/issues/461)
 [CA1811](ca1811.md) | [https://github.com/dotnet/roslyn-analyzers/issues/464](https://github.com/dotnet/roslyn-analyzers/issues/464)
 [CA1900](ca1900.md) | [https://github.com/dotnet/roslyn-analyzers/issues/474](https://github.com/dotnet/roslyn-analyzers/issues/474)
 [CA2001](ca2001.md) | [https://github.com/dotnet/roslyn-analyzers/issues/477](https://github.com/dotnet/roslyn-analyzers/issues/477)
 [CA2004](ca2004.md) | [https://github.com/dotnet/roslyn-analyzers/issues/479](https://github.com/dotnet/roslyn-analyzers/issues/479)
 [CA2006](ca2006.md) | [https://github.com/dotnet/roslyn-analyzers/issues/480](https://github.com/dotnet/roslyn-analyzers/issues/480)
-[CA2109](ca2109.md) | [https://github.com/dotnet/roslyn-analyzers/issues/488](https://github.com/dotnet/roslyn-analyzers/issues/488)
 [CA2204](ca2204.md) | [https://github.com/dotnet/roslyn-analyzers/issues/529](https://github.com/dotnet/roslyn-analyzers/issues/529)
 [CA2205](ca2205.md) | [https://github.com/dotnet/roslyn-analyzers/issues/530](https://github.com/dotnet/roslyn-analyzers/issues/530)
 [CA2212](ca2212.md) | [https://github.com/dotnet/roslyn-analyzers/issues/534](https://github.com/dotnet/roslyn-analyzers/issues/534)
-[CA2215](ca2215.md) | [https://github.com/dotnet/roslyn-analyzers/issues/535](https://github.com/dotnet/roslyn-analyzers/issues/535)
 [CA2232](ca2232.md) | [https://github.com/dotnet/roslyn-analyzers/issues/545](https://github.com/dotnet/roslyn-analyzers/issues/545)
 [CA2236](ca2236.md) | [https://github.com/dotnet/roslyn-analyzers/issues/548](https://github.com/dotnet/roslyn-analyzers/issues/548)
 [CA2238](ca2238.md) | [https://github.com/dotnet/roslyn-analyzers/issues/549](https://github.com/dotnet/roslyn-analyzers/issues/549)
