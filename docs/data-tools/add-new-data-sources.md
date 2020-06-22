@@ -16,6 +16,11 @@ ms.workload:
 ---
 # Add new data sources
 
+:::moniker range="vs-2019"
+> [!NOTE]
+> The features described in this article apply to .NET Framework Windows Forms and WPF development. In Visual Studio 2019 (and previous versions), the features are not supported for .NET Core development, for both WPF and Windows Forms.
+:::moniker-end
+
 In the context of .NET data tools in Visual Studio, the term *data source* refers to .NET objects that connect to a data store and make the data available to a .NET application. The Visual Studio designers can consume the output of the data source to generate the boilerplate code that binds the data to forms when you drag and drop database objects from the **Data Sources** window. This kind of data source can be:
 
 - A class in an Entity Framework model that is associated with some kind of database.
@@ -30,9 +35,6 @@ In the context of .NET data tools in Visual Studio, the term *data source* refer
 
 > [!NOTE]
 > If you're not using data-binding features, datasets, Entity Framework, LINQ to SQL, WCF, or SharePoint, the concept of a "data source" does not apply. Just connect directly to the database by using the SQLCommand objects and communicate directly with the database.
-
-> [!NOTE]
-> The Data Sources feature described in this article applies to .NET Framework Windows Forms and WPF development. It is not supported for .NET Core development, for both WPF and Windows Forms, in the current release of Visual Studio.
 
 You create and edit data sources by using the **Data Source Configuration Wizard** in a Windows Forms or Windows Presentation Foundation application. For Entity Framework, first create your entity classes, and then start the wizard by selecting **Project** > **Add New Data Source** (described in more detail later in this article).
 
