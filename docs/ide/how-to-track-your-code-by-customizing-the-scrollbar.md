@@ -1,7 +1,7 @@
 ---
 title: Scroll bar map mode and bar mode
 ms.date: 03/20/2020
-ms.topic: conceptual
+ms.topic: how-to
 author: TerryGLee
 ms.author: tglee
 manager: jillfra
