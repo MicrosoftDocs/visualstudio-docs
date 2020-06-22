@@ -1,7 +1,7 @@
 ---
 title: Create multi-project templates
 ms.date: 04/17/2019
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - Visual Studio templates, creating multi-project
 - project templates, multi-project
