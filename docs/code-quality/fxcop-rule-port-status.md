@@ -102,7 +102,6 @@ CA1509 | Invalid entry in code metrics rule specification file
 [CA1725](ca1725.md) | Parameter names should match base declaration
 [CA1801](ca1801.md) | Review unused parameters
 [CA1802](ca1802.md) | Use literals where appropriate
-[CA1804](ca1804.md) | Remove unused locals
 [CA1806](ca1806.md) | Do not ignore method results
 [CA1810](ca1810.md) | Initialize reference type static fields inline
 [CA1812](ca1812.md) | Avoid uninstantiated internal classes
@@ -283,6 +282,7 @@ The following FxCop legacy analysis rules are deprecated and won't be implemente
 - [CA1702](ca1702.md)
 - [CA1703](ca1703.md)
 - [CA1800](ca1800.md)
+- [CA1804](ca1804.md) ([justification](https://github.com/dotnet/roslyn-analyzers/issues/2109))
 - [CA1809](ca1809.md)
 - [CA1901](ca1901.md)
 - [CA1903](ca1903.md)
