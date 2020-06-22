@@ -133,8 +133,6 @@ The **Collection** view shows how many objects were collected or retained during
 
 The **Allocations**, **Call Tree**, and **Functions** views all contain the **Show Just My Code** and **Show Native Code** options and a filter box.
 
-![The filter bar](../profiling/media/filterbar.png "The filter bar")
-
 - **Show Just My Code** collapses systems, frameworks, and other nonuser code into **[External Code]** frames so that you can focus on just your code. For more information, see [Debug user code with Just My Code](../debugger/just-my-code.md).
 - **Show Native Code** shows native code within the analysis target and can include nonuser code.
 - With the filter box, you can filter down the **Name** or **Function name** column based on the value you provide. Enter a string value in the box. The table then shows only types that contain that string.
