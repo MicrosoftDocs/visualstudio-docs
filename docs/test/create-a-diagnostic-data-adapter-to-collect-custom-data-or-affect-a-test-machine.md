@@ -1,10 +1,10 @@
 ---
 title: Create a Diagnostic Data Adapter for testing
 ms.date: 10/19/2016
-ms.topic: conceptual
-helpviewer_keywords:
-- Diagnostic Data Adapter [Visual Studio ALM]
-- Diagnostic Data Adapter
+ms.topic: how-to
+helpviewer_keywords: 
+  - Diagnostic Data Adapter [Visual Studio ALM]
+  - Diagnostic Data Adapter
 ms.assetid: b0b53fae-7007-4ad9-a604-21685937622f
 author: mikejo5000
 ms.author: mikejo

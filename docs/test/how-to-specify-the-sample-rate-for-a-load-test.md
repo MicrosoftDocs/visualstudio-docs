@@ -1,9 +1,9 @@
 ---
 title: 'How to: Specify the Sample Rate for a Load Test Run Setting'
 ms.date: 10/19/2016
-ms.topic: conceptual
-helpviewer_keywords:
-- load tests, run settings
+ms.topic: how-to
+helpviewer_keywords: 
+  - load tests, run settings
 ms.assetid: 51cbe7d6-5dfd-4842-bca3-f7f8a665dc84
 author: mikejo5000
 ms.author: mikejo

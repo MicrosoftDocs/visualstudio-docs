@@ -1,11 +1,11 @@
 ---
 title: Configure unit tests with a .runsettings file
 ms.date: 10/03/2019
-ms.topic: conceptual
+ms.topic: how-to
 ms.author: mikejo
 manager: jillfra
-ms.workload:
-- multiple
+ms.workload: 
+  - multiple
 author: mikejo5000
 ---
 # Configure unit tests by using a *.runsettings* file

@@ -1,10 +1,10 @@
 ---
 title: Add a data source to a web performance test
 ms.date: 10/03/2016
-ms.topic: conceptual
-helpviewer_keywords:
-- Web performance tests, walkthroughs
-- Web performance tests, data binding (database)
+ms.topic: how-to
+helpviewer_keywords: 
+  - Web performance tests, walkthroughs
+  - Web performance tests, data binding (database)
 ms.assetid: 2ada376d-f168-455d-9643-6acb535360c1
 author: mikejo5000
 ms.author: mikejo

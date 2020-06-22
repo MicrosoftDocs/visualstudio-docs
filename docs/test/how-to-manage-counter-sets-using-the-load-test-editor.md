@@ -1,14 +1,14 @@
 ---
 title: Load test counter sets
 ms.date: 10/19/2016
-ms.topic: conceptual
-f1_keywords:
-- vs.test.load.dialog.countersetmapping
-helpviewer_keywords:
-- counters, counter sets
-- performance counters
-- counter sets
-- load tests, counter sets
+ms.topic: how-to
+f1_keywords: 
+  - vs.test.load.dialog.countersetmapping
+helpviewer_keywords: 
+  - counters, counter sets
+  - performance counters
+  - counter sets
+  - load tests, counter sets
 ms.assetid: 64315c2f-a0b2-4378-be16-0774b99beef5
 author: mikejo5000
 ms.author: mikejo
