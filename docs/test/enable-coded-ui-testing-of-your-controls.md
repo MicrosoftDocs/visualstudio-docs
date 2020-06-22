@@ -1,11 +1,11 @@
 ---
 title: Enable Coded UI Testing of Your Controls
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 ms.author: mikejo
 manager: jillfra
-ms.workload:
-- multiple
+ms.workload: 
+  - multiple
 author: mikejo5000
 ---
 # Enable coded UI testing of your controls

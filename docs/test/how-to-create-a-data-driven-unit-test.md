@@ -1,18 +1,18 @@
 ---
 title: Create Data-Driven Unit Tests
 ms.date: 05/08/2019
-ms.topic: conceptual
-f1_keywords:
-- vs.test.testresults.unittest.datadriven
-- vs.test.testresults.unittest.datadriven.failure
-helpviewer_keywords:
-- unit tests, running
-- unit tests, data-driven
-- data-driven unit tests
+ms.topic: how-to
+f1_keywords: 
+  - vs.test.testresults.unittest.datadriven
+  - vs.test.testresults.unittest.datadriven.failure
+helpviewer_keywords: 
+  - unit tests, running
+  - unit tests, data-driven
+  - data-driven unit tests
 ms.author: mikejo
 manager: jillfra
-ms.workload:
-- multiple
+ms.workload: 
+  - multiple
 author: mikejo5000
 ---
 # How to: Create a data-driven unit test
