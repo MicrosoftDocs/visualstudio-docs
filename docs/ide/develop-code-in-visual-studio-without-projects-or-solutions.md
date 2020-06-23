@@ -30,7 +30,7 @@ You can open code into Visual Studio in the following ways:
 - Choose the **Open Folder** link on the Visual Studio **Start Page**.
 
     > [!IMPORTANT]
-    > Not all code can be opened by using the **Open Folder** link from the Visual Studio **Start Page**. For example, if your code file was saved as part of a solution&mdash;in other words, in an .sln file&mdash;you must use one of the other options in this list to open your code.
+    > Not all code can be opened by using the **Open Folder** link from the Visual Studio **Start Page**. For example, if your code file was saved as part of a solution&mdash;in other words, in an .sln file&mdash;you must use one of the other options listed here to open your code.
 
 ::: moniker-end
 
@@ -38,7 +38,7 @@ You can open code into Visual Studio in the following ways:
 - Choose the **Open Folder** link on the start window.
 
     > [!IMPORTANT]
-    > Not all code can be opened by using the **Open Folder** link from the Visual Studio start window. For example, if your code file was saved as part of a solution&mdash;in other words, in an .sln file&mdash;you must use one of the other options in this list to open your code.
+    > Not all code can be opened by using the **Open Folder** link from the Visual Studio start window. For example, if your code file was saved as part of a solution&mdash;in other words, in an .sln file&mdash;you must use one of the other options listed here to open your code.
 
 ::: moniker-end
 
