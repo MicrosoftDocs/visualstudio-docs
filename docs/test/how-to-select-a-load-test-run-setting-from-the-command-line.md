@@ -1,10 +1,10 @@
 ---
 title: Set load test run settings from the command line
 ms.date: 10/19/2016
-ms.topic: conceptual
-helpviewer_keywords:
-- load tests, command line
-- load tests, run settings, selecting
+ms.topic: how-to
+helpviewer_keywords: 
+  - load tests, command line
+  - load tests, run settings, selecting
 ms.assetid: 175d1d58-f09a-4449-b132-a29a394a7c8e
 author: mikejo5000
 ms.author: mikejo

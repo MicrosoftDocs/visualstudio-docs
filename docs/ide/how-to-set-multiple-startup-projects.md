@@ -1,7 +1,7 @@
 ---
 title: 'How to: Set multiple startup projects'
 ms.date: 06/21/2017
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - startup projects, setting multiple startup projects
 ms.assetid: 6131eb80-8745-4eb9-bdab-433e69b41651

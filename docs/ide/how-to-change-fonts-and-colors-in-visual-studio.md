@@ -1,7 +1,7 @@
 ---
 title: Change fonts and colors
 ms.date: 06/01/2020
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - Visual Studio, color themes
 - color themes, Visual Studio

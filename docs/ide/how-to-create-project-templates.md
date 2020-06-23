@@ -1,7 +1,7 @@
 ---
 title: Create project templates
 ms.date: 01/02/2018
-ms.topic: conceptual
+ms.topic: how-to
 f1_keywords:
 - VS.ExportTemplateWizard
 helpviewer_keywords:
