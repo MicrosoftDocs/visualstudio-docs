@@ -1,5 +1,5 @@
 ---
-title: Web.Config file: Instrument & profile dynamic compiled ASP.NET web app
+title: Web.Config file - Instrument & profile dynamic compiled ASP.NET web app
 ms.date: 11/04/2016
 ms.topic: how-to
 ms.assetid: a92e5692-2183-4ae3-9431-b067c6a7aab4
