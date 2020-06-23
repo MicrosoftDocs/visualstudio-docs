@@ -3,9 +3,9 @@ title: marker_series Class | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords: 
-- cvmarkersobj/Concurrency: :diagnostic::marker_series
+- cvmarkersobj/Concurrency, diagnostic::marker_series
 helpviewer_keywords: 
-- Concurrency: :diagnostic::marker_series class
+- Concurrency, diagnostic::marker_series class
 ms.assetid: b8445ed0-c512-4f92-b6b4-3d05c044f939
 author: mikejo5000
 ms.author: mikejo

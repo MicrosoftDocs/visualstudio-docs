@@ -3,9 +3,9 @@ title: diagnostic Namespace | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords: 
-- cvmarkersobj/Concurrency: :diagnostic
+- cvmarkersobj/Concurrency, diagnostic
 helpviewer_keywords: 
-- Concurrency: :diagnostic namespace
+- Concurrency, diagnostic namespace
 ms.assetid: ad786b19-7c4c-46ee-bfb6-c4752b373a09
 author: mikejo5000
 ms.author: mikejo
