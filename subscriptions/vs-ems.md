@@ -1,5 +1,5 @@
 ---
-title: EMS Benefit | Microsoft Docs
+title: Enterprise Mobility + Security Benefit in Visual Studio subscriptions | Microsoft Docs
 author: evanwindom
 ms.author: v-evwin
 manager: lank
@@ -11,9 +11,9 @@ description:  Learn about the Enterprise Mobility + Security benefit included in
 
 # Enterprise Mobility + Security (EMS) in Visual Studio Subscriptions
 
-Enterprise Mobility + Security (EMS), which has previously been available independently in selected Visual Studio subscriptions, is now included in the Microsoft 365 developer subscription that is included in those same selected Visual Studio subscriptions.  
+Enterprise Mobility + Security, which has previously been available independently in selected Visual Studio subscriptions, is now included in the Microsoft 365 developer subscription that is included in those same selected Visual Studio subscriptions.  
 
-As a result, EMS will no longer be offered separately.  
+As a result, Enterprise Mobility + Security will no longer be offered separately.  
 
 To activate your Microsoft 365 developer subscription:
 1. Sign in to the [Visual Studio subscriptions portal](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs)
@@ -23,8 +23,8 @@ To activate your Microsoft 365 developer subscription:
 Learn more information about activating you [Microsoft 365 developer subscription](vs-m365.md). 
 
 ## Support resources
-- Need help with EMS?  Check out the online [EMS documentation](/enterprise-mobility-security/).
-- For technical support with any component of EMS, please visit the [EMS Support FAQ](https://docs.microsoft.com/enterprise-mobility-security/solutions/ems-support-faq) to find the right support for your question.
+- Need help with EMS?  Check out the online [Enterprise Mobility + Security documentation](/enterprise-mobility-security/).
+- For technical support with any component of EMS, please visit the [Enterprise Mobility + Security Support FAQ](https://docs.microsoft.com/enterprise-mobility-security/solutions/ems-support-faq) to find the right support for your question.
 - For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, contact Visual Studio [Subscriptions Support](https://visualstudio.microsoft.com/subscriptions/support/).
 - Have a question about Visual Studio IDE, Azure DevOps Services or other Visual Studio products or services?  Visit [Visual Studio Support](https://visualstudio.microsoft.com/support/).
 
