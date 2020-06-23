@@ -7,6 +7,9 @@ author: CaityBuschlen
 ms.author: cabuschl
 ms.date: 6/18/2020
 ms.faqid: q5_6
+user.type: subscriber, admin
+tags: sign-in
+subscription.type: vl
 ---
 
 ## Only your administrator has permission to change your sign-in email. Please use the Contact my admin button from within the [Subscriber portal](https://my.visualstudio.com/benefits) to send a message with your request to your admin. 
