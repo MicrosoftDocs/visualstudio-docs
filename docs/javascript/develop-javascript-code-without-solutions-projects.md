@@ -4,7 +4,7 @@ titleSuffix: ""
 description: Visual Studio provides support for creating code without a dependence on a project file or solution file
 ms.custom: "seodec18"
 ms.date: "09/24/2018"
-ms.topic: "conceptual"
+ms.topic: "how-to"
 ms.devlang: javascript
 author: "mikejo5000"
 ms.author: "mikejo"
