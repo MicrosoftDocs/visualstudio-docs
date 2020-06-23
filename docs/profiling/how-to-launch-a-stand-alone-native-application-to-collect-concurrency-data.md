@@ -1,5 +1,5 @@
 ---
-title: Profiler command line: Open native client app, get concurrency data
+title: Profiler command line - Open native client app, get concurrency data
 ms.date: 11/04/2016
 ms.topic: how-to
 ms.assetid: e5aed651-afed-4b70-9a7e-1a6032cc614f

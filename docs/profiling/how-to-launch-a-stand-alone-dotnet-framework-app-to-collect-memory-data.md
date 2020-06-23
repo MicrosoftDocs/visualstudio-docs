@@ -1,5 +1,5 @@
 ---
-title: Profiler command line: Open client .NET Framework app, get memory data
+title: Profiler command line - Open client .NET Framework app, get memory data
 ms.date: 11/04/2016
 ms.topic: how-to
 ms.assetid: 3bc53041-91b7-4ad0-8413-f8bf2c4b3f5e

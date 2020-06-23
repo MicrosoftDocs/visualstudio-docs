@@ -1,5 +1,5 @@
 ---
-title: Profiler command line: Instrument to get service timing detail
+title: Profiler command line - Instrument to get service timing detail
 ms.date: 11/04/2016
 ms.topic: how-to
 ms.assetid: 6116e1df-ed3e-4b0d-ac7f-22f7d7ac00ea

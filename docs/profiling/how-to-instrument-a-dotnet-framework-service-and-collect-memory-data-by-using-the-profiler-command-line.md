@@ -1,5 +1,5 @@
 ---
-title: Profiler command line: Instrument .NET service, get memory data
+title: Profiler command line - Instrument .NET service, get memory data
 ms.date: 11/04/2016
 ms.topic: how-to
 ms.assetid: 2fa072fc-05fe-4420-99c0-51d2ea3ac4ce

@@ -1,5 +1,5 @@
 ---
-title: Profiler command line: Instrument .NET service, get timing detail
+title: Profiler command line - Instrument .NET service, get timing detail
 ms.date: 11/04/2016
 ms.topic: how-to
 author: mikejo5000

@@ -1,5 +1,5 @@
 ---
-title: Profiler command line: Launch stand-alone app, get app stats
+title: Profiler command line - Launch stand-alone app, get app stats
 ms.date: 11/04/2016
 ms.topic: how-to
 ms.assetid: 52dcee2b-f178-4a76-bddc-e36c50bfcb78

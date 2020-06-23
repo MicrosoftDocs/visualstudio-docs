@@ -1,5 +1,5 @@
 ---
-title: Profiler command line: Instrument dynamic ASP.NET app, get timing data
+title: Profiler command line - Instrument dynamic ASP.NET app, get timing data
 ms.date: 11/04/2016
 ms.topic: how-to
 author: mikejo5000

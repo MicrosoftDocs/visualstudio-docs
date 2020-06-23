@@ -1,5 +1,5 @@
 ---
-title: Profiler command line: Instrument dynamic ASP.NET app, get memory data
+title: Profiler command line - Instrument dynamic ASP.NET app, get memory data
 ms.date: 11/04/2016
 ms.topic: how-to
 ms.assetid: 2cdd9903-39db-47e8-93dd-5e6a21bc3435

@@ -1,5 +1,5 @@
 ---
-title: Profiler command line: Instrument static ASP.NET app, get timing data
+title: Profiler command line - Instrument static ASP.NET app, get timing data
 ms.date: 11/04/2016
 ms.topic: how-to
 ms.assetid: b260ce68-76e6-4c3b-8062-3c00bd5cf7b8

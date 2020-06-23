@@ -1,5 +1,5 @@
 ---
-title: Profiler command line: Instrument client .NET component, get time data
+title: Profiler command line - Instrument client .NET component, get time data
 ms.date: 11/04/2016
 ms.topic: how-to
 ms.assetid: b7dcc27b-45c6-4302-9552-6fa5b1e94b56

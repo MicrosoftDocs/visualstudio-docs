@@ -1,5 +1,5 @@
 ---
-title: Profiler command line: Timing data detail for stand-alone app
+title: Profiler command line - Timing data detail for stand-alone app
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords: 

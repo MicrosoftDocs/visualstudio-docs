@@ -1,5 +1,5 @@
 ---
-title: Profiler command line: Instrument native component, get timing data
+title: Profiler command line - Instrument native component, get timing data
 ms.date: 11/04/2016
 ms.topic: how-to
 ms.assetid: 36883074-9be8-4e90-a66f-7e87f21fcd30
