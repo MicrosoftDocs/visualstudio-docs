@@ -1,7 +1,7 @@
 ---
 title: Filter and sort data in a Windows Forms application
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 dev_langs:
 - VB
 - CSharp

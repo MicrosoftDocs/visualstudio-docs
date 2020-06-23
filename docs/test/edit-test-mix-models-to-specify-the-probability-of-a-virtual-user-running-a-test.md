@@ -1,10 +1,10 @@
 ---
 title: Editing Text Mix Models
 ms.date: 10/19/2016
-ms.topic: conceptual
-helpviewer_keywords:
-- load tests, scenarios
-- load tests, virtual users
+ms.topic: how-to
+helpviewer_keywords: 
+  - load tests, scenarios
+  - load tests, virtual users
 ms.assetid: e3b7d952-9012-400a-8131-3444390a6066
 author: mikejo5000
 ms.author: mikejo

@@ -1,7 +1,7 @@
 ---
 title: Distribute code snippets as an extension
 ms.date: 03/21/2019
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - code snippets, distributing
 ms.assetid: 5f717abd-e167-47ae-818c-6b0bae100ceb

@@ -1,7 +1,7 @@
 ---
 title: Connect to data in an Access database
 ms.date: 07/18/2019
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - data [Visual Studio], connecting
 - connecting to data, Access databases

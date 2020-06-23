@@ -1,11 +1,11 @@
 ---
-title: "How to use CTest for C++"
+title: How to use CTest for C++
 ms.date: 01/23/2020
-ms.topic: conceptual
+ms.topic: how-to
 ms.author: corob
 manager: jillfra
-ms.workload:
-  - "cplusplus"
+ms.workload: 
+  - cplusplus
 author: corob-msft
 ---
 # How to use CTest for C++ in Visual Studio 2017 and later

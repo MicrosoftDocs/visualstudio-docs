@@ -116,7 +116,7 @@ The following example shows the metadata for a project template for a Visual C# 
         <Name>My template</Name>
         <Description>A basic template</Description>
         <Icon>TemplateIcon.ico</Icon>
-        <ProjectType>CSharp</ProjectType>
+        <ProjectType>csharp</ProjectType>
         <LanguageTag>C#</LanguageTag>
         <PlatformTag>windows</PlatformTag>
         <PlatformTag>linux</PlatformTag>
