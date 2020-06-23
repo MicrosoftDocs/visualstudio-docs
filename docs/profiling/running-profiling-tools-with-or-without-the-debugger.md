@@ -90,20 +90,20 @@ To measure performance data from the command line, you can use VSDiagnostics.exe
 1. Open a command prompt, and change to the directory with VSDiagnostics.exe:
 
    ```
-   **Visual Studio Install Folder**\Team Tools\DiagnosticsHub\Collector\
+   <Visual Studio Install Folder>\Team Tools\DiagnosticsHub\Collector\
    ```
 
 2. Start VSDiagnostics.exe with the following command:
 
    ```
-   VSDiagnostics.exe start **id** /launch:**appToLaunch** /loadConfig:**configFile**
+   VSDiagnostics.exe start <id> /launch:<appToLaunch> /loadConfig:<configFile>
    ```
 
    You must include the following arguments:
 
-   - **id**: Identifies the collection session. The ID must be a number between 1-255.
-   - **appToLaunch**: The executable file to launch and profile.
-   - **configFile**: The configuration file for the collection agent you want to launch.
+   - \<id\>: Identifies the collection session. The ID must be a number between 1-255.
+   - \<appToLaunch\>: The executable file to launch and profile.
+   - \<configFile\>: The configuration file for the collection agent you want to launch.
 
 3. To stop collection and view your results, follow the steps in the "Stop collection" section later in this article.
 
@@ -113,20 +113,20 @@ To measure performance data from the command line, you can use VSDiagnostics.exe
 2. Open a command prompt, and change to the directory with the collection agent executable. Typically, it's here:
 
    ```
-   **Visual Studio installation folder**\2019\Preview\Team Tools\DiagnosticsHub\Collector\
+   <Visual Studio installation folder>\2019\Preview\Team Tools\DiagnosticsHub\Collector\
    ```
 
 3. Start the VSDiagnostics.exe file by typing the following command.
 
    ```
-   VSDiagnostics.exe start **id** /attach:**pid** /loadConfig:**configFile**
+   VSDiagnostics.exe start <id> /attach:<pid> /loadConfig:<configFile>
    ```
 
    You must include the following arguments:
 
-   - **id**: Identifies the collection session. The ID must be a number between 1-255.
-   - **pid**: The PID of the process you want to profile, which in this case is the PID you found in step 1.
-   - **configFile**: The configuration file for the collection agent you want to launch. For more information, see [Configuration files for agents](../profiling/profile-apps-from-command-line.md).
+   - \<id\>: Identifies the collection session. The ID must be a number between 1-255.
+   - \<pid\>: The PID of the process you want to profile, which in this case is the PID you found in step 1.
+   - \<configFile\>: The configuration file for the collection agent you want to launch. For more information, see [Configuration files for agents](../profiling/profile-apps-from-command-line.md).
 
 4. To stop collection and view your results, follow the steps in the next section.
 
@@ -149,8 +149,18 @@ For convenience, you can store that information in an agent configuration file. 
 <Visual Studio installation folder>\Team Tools\DiagnosticsHub\Collector\AgentConfigs\
 ```
 
-- CpuUsage configurations (Base/High/Low), which corresponds to data collected for the [CPU Usage](../profiling/cpu-usage.md) profiling tool.
-- DotNetObjectAlloc configurations (Base/Low), which corresponds to data collected for the [.NET Object Allocation tool](../profiling/dotnet-alloc-tool.md).
+Please see the following links to download and view agent configuration files:
+
+- https://aka.ms/vs/diaghub/agentconfig/cpubase
+- https://aka.ms/vs/diaghub/agentconfig/cpuhigh
+- https://aka.ms/vs/diaghub/agentconfig/cpulow
+- https://aka.ms/vs/diaghub/agentconfig/database
+- https://aka.ms/vs/diaghub/agentconfig/dotnetasyncbase
+- https://aka.ms/vs/diaghub/agentconfig/dotnetallocbase
+- https://aka.ms/vs/diaghub/agentconfig/dotnetalloclow
+
+CpuUsage configurations (Base/High/Low) correspond to data collected for the [CPU Usage](../profiling/cpu-usage.md) profiling tool.
+DotNetObjectAlloc configurations (Base/Low) correspond to data collected for the [.NET Object Allocation tool](../profiling/dotnet-alloc-tool.md).
 
 Base/Low/High configurations refer to the sampling rate. For example, Low is 100 samples/second and High is 4000 samples/second.
 For the VSDiagnostics.exe tool to work with a collection agent, it requires both a DLL and a COM CLSID for the appropriate agent. The agent might also have additional configuration options. If you use an agent without a configuration file, use the format in the following command:
