@@ -1,14 +1,14 @@
 ---
-title: "Analyze CPU usage | Microsoft Docs"
-ms.custom: "seodec18"
-ms.date: "04/02/2020"
-ms.topic: "conceptual"
+title: Analyze CPU usage | Microsoft Docs
+ms.custom: seodec18
+ms.date: 04/02/2020
+ms.topic: how-to
 ms.assetid: 7501a20d-04a1-480f-a69c-201524aa709d
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
-ms.workload:
-  - "multiple"
+ms.workload: 
+  - multiple
 ---
 # Analyze CPU usage
 

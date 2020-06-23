@@ -1,22 +1,22 @@
 ---
-title: "Analyze HTML UI responsiveness in UWP Apps | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-dev_langs:
-  - "JavaScript"
-helpviewer_keywords:
-  - "performance, JavaScript [UWP apps]"
-  - "performance tools, JavaScript [UWP apps]"
-  - "UI Responsiveness Profiler [JavaScript]"
-  - "profiler, UI responsiveness [JavaScript]"
-  - "profiler, JavaScript [UWP apps]"
-author: "mikejo5000"
-ms.author: "mikejo"
+title: Analyze HTML UI responsiveness in UWP Apps | Microsoft Docs
+ms.custom: 
+ms.date: 11/04/2016
+ms.topic: how-to
+dev_langs: 
+  - JavaScript
+helpviewer_keywords: 
+  - performance, JavaScript [UWP apps]
+  - performance tools, JavaScript [UWP apps]
+  - UI Responsiveness Profiler [JavaScript]
+  - profiler, UI responsiveness [JavaScript]
+  - profiler, JavaScript [UWP apps]
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 monikerRange: vs-2017
-ms.workload:
-  - "uwp"
+ms.workload: 
+  - uwp
 ---
 # Analyze HTML UI responsiveness in Universal Windows Apps
 This topic describes how to isolate performance problems in your apps using the UI Responsiveness Profiler, a performance tool available for Universal Windows Apps.
