@@ -1,18 +1,18 @@
 ---
-title: "DA0506: Maximum Private Bytes allocated for the Process being profiled | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-f1_keywords:
-  - "vs.performance.rules.DA0506"
-  - "vs.performance.DA0506"
-  - "vs.performance.506"
+title: DA0506: Maximum Private Bytes allocated for the Process being profiled | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: reference
+f1_keywords: 
+  - vs.performance.rules.DA0506
+  - vs.performance.DA0506
+  - vs.performance.506
 ms.assetid: e9c43554-9a85-4d98-9fa4-3b19986e7b62
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 monikerRange: 'vs-2017'
-ms.workload:
-  - "multiple"
+ms.workload: 
+  - multiple
 ---
 # DA0506: Maximum Private Bytes allocated for the Process being profiled
 

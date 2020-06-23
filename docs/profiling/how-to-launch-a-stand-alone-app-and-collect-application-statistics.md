@@ -1,14 +1,14 @@
 ---
-title: "Profiler command line: Launch stand-alone app, get app stats"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Profiler command line: Launch stand-alone app, get app stats
+ms.date: 11/04/2016
+ms.topic: how-to
 ms.assetid: 52dcee2b-f178-4a76-bddc-e36c50bfcb78
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 monikerRange: 'vs-2017'
-ms.workload:
-  - "multiple"
+ms.workload: 
+  - multiple
 ---
 # How to: Launch a stand-alone application with the profiler and collect application statistics by using the command line
 This topic describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools command-line tools to start a stand-alone (client) application and collect performance statistics by using the sampling method.

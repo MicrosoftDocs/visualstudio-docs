@@ -1,16 +1,16 @@
 ---
-title: "How to: Limit Instrumentation to Specific Functions | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-helpviewer_keywords:
-  - "performance tools, limiting instrumentation to functions"
+title: How to: Limit Instrumentation to Specific Functions | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: how-to
+helpviewer_keywords: 
+  - performance tools, limiting instrumentation to functions
 ms.assetid: bd98d6bf-2560-4eba-b063-2facb09f87c4
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 monikerRange: 'vs-2017'
-ms.workload:
-  - "multiple"
+ms.workload: 
+  - multiple
 ---
 # How to: Limit instrumentation to specific functions
 You can limit instrumentation and data collection to one or more functions by setting options in the **Advanced** page of the **Performance Session** or target binary property pages:

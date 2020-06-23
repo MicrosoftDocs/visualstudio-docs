@@ -1,17 +1,17 @@
 ---
-title: "Profiler command line: Timing data detail for stand-alone app"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-helpviewer_keywords:
-  - "profiling tools,instrumentation method"
-  - "instrumentation profiling method"
+title: Profiler command line: Timing data detail for stand-alone app
+ms.date: 11/04/2016
+ms.topic: how-to
+helpviewer_keywords: 
+  - profiling tools,instrumentation method
+  - instrumentation profiling method
 ms.assetid: 4017d9d1-d609-4f41-8e4e-976abae746b3
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 monikerRange: 'vs-2017'
-ms.workload:
-  - "multiple"
+ms.workload: 
+  - multiple
 ---
 # Collect detailed timing data for a stand-alone application by using the profiler command line
 This section describes the procedures and options for collecting detailed performance data for a client (stand-alone) component by using the instrumentation method from the command line.

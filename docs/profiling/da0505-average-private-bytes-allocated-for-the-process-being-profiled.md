@@ -1,18 +1,18 @@
 ---
-title: "DA0505: Average Private Bytes allocated for the Process being profiled | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-f1_keywords:
-  - "vs.performance.DA0505"
-  - "vs.performance.rules.DA0505"
-  - "vs.performance.505"
+title: DA0505: Average Private Bytes allocated for the Process being profiled | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: reference
+f1_keywords: 
+  - vs.performance.DA0505
+  - vs.performance.rules.DA0505
+  - vs.performance.505
 ms.assetid: 32c612ea-d077-44ba-8e6f-3a96333bad00
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 monikerRange: 'vs-2017'
-ms.workload:
-  - "multiple"
+ms.workload: 
+  - multiple
 ---
 # DA0505: Average Private Bytes allocated for the Process being profiled
 

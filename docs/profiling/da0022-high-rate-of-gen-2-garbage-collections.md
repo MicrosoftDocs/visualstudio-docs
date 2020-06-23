@@ -1,18 +1,18 @@
 ---
-title: "DA0022: High rate of Gen 2 garbage collections | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-f1_keywords:
-  - "vs.performance.DA0022"
-  - "vs.performance.rules.DA0022"
-  - "vs.performance.22"
+title: DA0022: High rate of Gen 2 garbage collections | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: reference
+f1_keywords: 
+  - vs.performance.DA0022
+  - vs.performance.rules.DA0022
+  - vs.performance.22
 ms.assetid: f871a547-0e6f-4b11-b2d7-174d30fc2ed8
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 monikerRange: 'vs-2017'
-ms.workload:
-  - "multiple"
+ms.workload: 
+  - multiple
 ---
 # DA0022: High rate of Gen 2 garbage collections
 

@@ -1,14 +1,14 @@
 ---
-title: "Profiler command line: Instrument native component, get timing data"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Profiler command line: Instrument native component, get timing data
+ms.date: 11/04/2016
+ms.topic: how-to
 ms.assetid: 36883074-9be8-4e90-a66f-7e87f21fcd30
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 monikerRange: 'vs-2017'
-ms.workload:
-  - "cplusplus"
+ms.workload: 
+  - cplusplus
 ---
 # How to: Instrument a native stand-alone component and collect timing data with the profiler from the command line
 This topic describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools command-line tools to instrument a native component such as a C++ .*exe* or .*dll* file, and to collect detailed timing data.

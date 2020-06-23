@@ -1,22 +1,22 @@
 ---
-title: "VSPerfMon | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-helpviewer_keywords:
-  - "VSPerfMon tool"
-  - "command line, tools"
-  - "command-line tools, VSPerfMon tool"
-  - "data [Visual Studio ALM], VSPerfMon tool"
-  - "performance data, VSPerfMon tool"
-  - "performance tools, VSPerfMon tool"
-  - "profilng tools,VSPerfCmd"
+title: VSPerfMon | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: reference
+helpviewer_keywords: 
+  - VSPerfMon tool
+  - command line, tools
+  - command-line tools, VSPerfMon tool
+  - data [Visual Studio ALM], VSPerfMon tool
+  - performance data, VSPerfMon tool
+  - performance tools, VSPerfMon tool
+  - profilng tools,VSPerfCmd
 ms.assetid: 37052afb-7a58-441f-bb17-f1587cc57068
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 monikerRange: 'vs-2017'
-ms.workload:
-  - "multiple"
+ms.workload: 
+  - multiple
 ---
 # VSPerfMon
 You can use VSPerfMon tool to collect performance data for an application; typically this tool is launched by *VSPerfCmd.exe*. VSPerfMon displays additional information about process attach or detach which is not available by using the VSPerfCmd tool. To view this information, start VSPerfMon in a separate window. To invoke VSPerfMon use the following syntax:

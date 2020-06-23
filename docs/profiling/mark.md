@@ -1,14 +1,14 @@
 ---
-title: "Mark | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Mark | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: reference
 ms.assetid: 1d72cef3-bb09-4bbb-8864-6ea0ab623ff9
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 monikerRange: 'vs-2017'
-ms.workload:
-  - "multiple"
+ms.workload: 
+  - multiple
 ---
 # Mark
 The *VSPerfCmd.exe* **Mark** option inserts the specified information into the profiling data file. Mark can be listed in a separate VSPerfReport report or in the Mark Report view of the profiler UI. **Mark** can be used to specify start and end points in report and view filters.

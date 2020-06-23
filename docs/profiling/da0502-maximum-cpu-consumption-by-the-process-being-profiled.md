@@ -1,18 +1,18 @@
 ---
-title: "DA0502: Maximum CPU consumption by the Process being profiled | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-f1_keywords:
-  - "vs.performance.rules.DA0502"
-  - "vs.performance.DA0502"
-  - "vs.performance.502"
+title: DA0502: Maximum CPU consumption by the Process being profiled | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: reference
+f1_keywords: 
+  - vs.performance.rules.DA0502
+  - vs.performance.DA0502
+  - vs.performance.502
 ms.assetid: 1ee53df5-b0dc-4265-9d4f-527830d08725
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 monikerRange: 'vs-2017'
-ms.workload:
-  - "multiple"
+ms.workload: 
+  - multiple
 ---
 # DA0502: Maximum CPU consumption by the process being profiled
 

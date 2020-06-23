@@ -1,14 +1,14 @@
 ---
-title: "Profiler command line: Instrument client .NET component, get time data"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Profiler command line: Instrument client .NET component, get time data
+ms.date: 11/04/2016
+ms.topic: how-to
 ms.assetid: b7dcc27b-45c6-4302-9552-6fa5b1e94b56
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 monikerRange: 'vs-2017'
-ms.workload:
-  - "dotnet"
+ms.workload: 
+  - dotnet
 ---
 # How to: Instrument a stand-alone .NET Framework component and collect timing data with the profiler from the command line
 This topic describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools command-line tools to instrument a .NET Framework component such as an .*exe* or .*dll* file, and to collect detailed timing data.

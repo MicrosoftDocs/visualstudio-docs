@@ -1,14 +1,14 @@
 ---
-title: "How to: Set Performance Data File Name Options | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: How to: Set Performance Data File Name Options | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: how-to
 ms.assetid: d7a8d6b9-ab23-46fb-98ed-774781157860
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 monikerRange: 'vs-2017'
-ms.workload:
-  - "multiple"
+ms.workload: 
+  - multiple
 ---
 # How to: Set performance data file name options
 

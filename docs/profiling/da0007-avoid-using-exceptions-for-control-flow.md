@@ -1,19 +1,19 @@
 ---
-title: "DA0007: Avoid using exceptions for control flow | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-f1_keywords:
-  - "vs.performance.rules.DAExceptionsThrown"
-  - "vs.performance.7"
-  - "vs.performance.rules.DA0007"
-  - "vs.performance.DA0007"
+title: DA0007: Avoid using exceptions for control flow | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: reference
+f1_keywords: 
+  - vs.performance.rules.DAExceptionsThrown
+  - vs.performance.7
+  - vs.performance.rules.DA0007
+  - vs.performance.DA0007
 ms.assetid: ee8ba8b5-2313-46c9-b129-3f3a2a232898
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 monikerRange: 'vs-2017'
-ms.workload:
-  - "multiple"
+ms.workload: 
+  - multiple
 ---
 # DA0007: Avoid using exceptions for control flow
 

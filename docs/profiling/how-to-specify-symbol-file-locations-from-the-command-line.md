@@ -1,14 +1,14 @@
 ---
-title: "How to: Specify Symbol File Locations from the Command Line | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: How to: Specify Symbol File Locations from the Command Line | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: how-to
 ms.assetid: 8aa067bb-e8bf-4081-aff0-cfbcf65934a0
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 monikerRange: 'vs-2017'
-ms.workload:
-  - "multiple"
+ms.workload: 
+  - multiple
 ---
 # How to: Specify symbol file locations from the command line
 To display symbol information such as function names and line numbers, the VSPerfReport command-line tool requires access to the symbol (.*pdb*) files of the profiled components and the Windows system files. Symbol files are created when a component is compiled. For more information, see [VSPerfReport](../profiling/vsperfreport.md). VSPerfReport automatically searches the following locations for symbol files:

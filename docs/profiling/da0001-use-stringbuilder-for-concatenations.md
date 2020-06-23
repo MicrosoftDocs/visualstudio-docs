@@ -1,19 +1,19 @@
 ---
-title: "DA0001: Use StringBuilder for concatenations | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-f1_keywords:
-  - "vs.performance.DA0001"
-  - "vs.performance.rules.DAUseStringBuilder"
-  - "vs.performance.1"
-  - "vs.performance.rules.DA0001"
+title: DA0001: Use StringBuilder for concatenations | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: reference
+f1_keywords: 
+  - vs.performance.DA0001
+  - vs.performance.rules.DAUseStringBuilder
+  - vs.performance.1
+  - vs.performance.rules.DA0001
 ms.assetid: a7cc7613-ad5f-48c8-bd2b-56372cc12dfc
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 monikerRange: 'vs-2017'
-ms.workload:
-  - "multiple"
+ms.workload: 
+  - multiple
 ---
 # DA0001: Use StringBuilder for concatenations
 

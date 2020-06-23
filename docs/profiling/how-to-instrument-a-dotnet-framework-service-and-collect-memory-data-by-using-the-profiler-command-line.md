@@ -1,14 +1,14 @@
 ---
-title: "Profiler command line: Instrument .NET service, get memory data"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Profiler command line: Instrument .NET service, get memory data
+ms.date: 11/04/2016
+ms.topic: how-to
 ms.assetid: 2fa072fc-05fe-4420-99c0-51d2ea3ac4ce
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 monikerRange: 'vs-2017'
-ms.workload:
-  - "dotnet"
+ms.workload: 
+  - dotnet
 ---
 # How to: Instrument a .NET Framework service and collect memory data by using the profiler command line
 This article describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools command-line tools to instrument a .NET Framework service and collect memory usage data. You can collect memory allocation data, or you can collect both memory allocation and object lifetime data.

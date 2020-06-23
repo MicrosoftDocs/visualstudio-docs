@@ -1,18 +1,18 @@
 ---
-title: "Analyze memory usage without debugging | Microsoft Docs"
-ms.custom: ""
-ms.date: "04/02/2020"
-ms.topic: "conceptual"
-dev_langs:
-  - "CSharp"
-  - "VB"
-  - "FSharp"
-  - "C++"
-author: "mikejo5000"
-ms.author: "mikejo"
+title: Analyze memory usage without debugging | Microsoft Docs
+ms.custom: 
+ms.date: 04/02/2020
+ms.topic: how-to
+dev_langs: 
+  - CSharp
+  - VB
+  - FSharp
+  - C++
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
-ms.workload:
-  - "multiple"
+ms.workload: 
+  - multiple
 ---
 # Analyze memory usage without the debugger
 
