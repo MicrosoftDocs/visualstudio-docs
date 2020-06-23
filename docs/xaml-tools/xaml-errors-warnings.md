@@ -3,7 +3,7 @@ title: XAML Errors and Warnings
 ms.date: 03/06/2018
 ms.topic: reference
 ms.assetid: 34eac8a0-7ec5-4c40-b97a-0126ed367931
-author: LyalinDotCom
+author: TerryGLee
 ms.author: tglee
 manager: jillfra
 ms.workload:
