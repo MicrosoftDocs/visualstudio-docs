@@ -1,5 +1,5 @@
 ---
-title: DA0010: Expensive GetHashCode | Microsoft Docs
+title: DA0010 - Expensive GetHashCode | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords: 

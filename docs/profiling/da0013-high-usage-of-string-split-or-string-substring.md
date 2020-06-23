@@ -1,5 +1,5 @@
 ---
-title: DA0013: High usage of String.Split or String.Substring | Microsoft Docs
+title: DA0013 - High usage of String.Split or String.Substring | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords: 

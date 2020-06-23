@@ -1,5 +1,5 @@
 ---
-title: DA0039: Very High Rate of Lock contentions | Microsoft Docs
+title: DA0039 - Very High Rate of Lock contentions | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords: 

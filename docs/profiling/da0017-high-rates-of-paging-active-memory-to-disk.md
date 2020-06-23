@@ -1,5 +1,5 @@
 ---
-title: DA0017: High rates of paging active memory to disk | Microsoft Docs
+title: DA0017 - High rates of paging active memory to disk | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords: 

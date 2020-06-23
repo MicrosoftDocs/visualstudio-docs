@@ -1,5 +1,5 @@
 ---
-title: DA0024: Excessive GC CPU Time | Microsoft Docs
+title: DA0024 - Excessive GC CPU Time | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords: 

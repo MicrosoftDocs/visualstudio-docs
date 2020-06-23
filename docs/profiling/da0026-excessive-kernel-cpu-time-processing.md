@@ -1,5 +1,5 @@
 ---
-title: DA0026: Excessive kernel CPU time processing | Microsoft Docs
+title: DA0026 - Excessive kernel CPU time processing | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords: 

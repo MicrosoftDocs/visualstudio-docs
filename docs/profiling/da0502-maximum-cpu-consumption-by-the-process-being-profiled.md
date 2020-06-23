@@ -1,5 +1,5 @@
 ---
-title: DA0502: Maximum CPU consumption by the Process being profiled | Microsoft Docs
+title: DA0502 - Maximum CPU consumption by the Process being profiled | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords: 

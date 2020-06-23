@@ -1,5 +1,5 @@
 ---
-title: DA0023: High GC CPU time | Microsoft Docs
+title: DA0023 - High GC CPU time | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords: 

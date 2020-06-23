@@ -1,5 +1,5 @@
 ---
-title: DA0021: High rate of Gen 1 garbage collections | Microsoft Docs
+title: DA0021 - High rate of Gen 1 garbage collections | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords: 

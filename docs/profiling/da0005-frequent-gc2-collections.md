@@ -1,5 +1,5 @@
 ---
-title: DA0005: Frequent GC2 collections | Microsoft Docs
+title: DA0005 - Frequent GC2 collections | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords: 

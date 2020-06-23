@@ -1,5 +1,5 @@
 ---
-title: DA0007: Avoid using exceptions for control flow | Microsoft Docs
+title: DA0007 - Avoid using exceptions for control flow | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords: 

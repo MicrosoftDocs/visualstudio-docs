@@ -1,5 +1,5 @@
 ---
-title: DA0002: VSPerfCorProf.dll is missing | Microsoft Docs
+title: DA0002 - VSPerfCorProf.dll is missing | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords: 

@@ -1,5 +1,5 @@
 ---
-title: DA0012: Significant amount of Reflection | Microsoft Docs
+title: DA0012 - Significant amount of Reflection | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords: 

@@ -1,5 +1,5 @@
 ---
-title: DA0003: Many kernel samples | Microsoft Docs
+title: DA0003 - Many kernel samples | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords: 

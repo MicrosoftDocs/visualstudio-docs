@@ -1,5 +1,5 @@
 ---
-title: VSPerfCmd: Attach profiler to native service to get concurrency data
+title: VSPerfCmd - Attach profiler to native service to get concurrency data
 ms.date: 11/04/2016
 ms.topic: how-to
 ms.assetid: 283a1ee1-b43e-4daf-95ae-1311925a42a8

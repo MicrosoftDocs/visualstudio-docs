@@ -1,5 +1,5 @@
 ---
-title: VSPerfCmd: Attach profiler to native service to get app stats
+title: VSPerfCmd - Attach profiler to native service to get app stats
 ms.date: 11/04/2016
 ms.topic: how-to
 ms.assetid: f783817f-77a0-4eb8-985b-ec3b77eadc42

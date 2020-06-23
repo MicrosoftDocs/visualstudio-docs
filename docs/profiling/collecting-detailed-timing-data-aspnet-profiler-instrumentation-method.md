@@ -1,5 +1,5 @@
 ---
-title: VSPerfCmd: Get timing data for ASP.NET web app using instrumentation
+title: VSPerfCmd - Get timing data for ASP.NET web app using instrumentation
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords: 

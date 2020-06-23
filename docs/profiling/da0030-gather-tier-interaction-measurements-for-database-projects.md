@@ -1,5 +1,5 @@
 ---
-title: DA0030: Gather Tier Interaction measurements for database projects | Microsoft Docs
+title: DA0030 - Gather Tier Interaction measurements for database projects | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords: 
