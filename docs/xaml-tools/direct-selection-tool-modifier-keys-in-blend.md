@@ -2,7 +2,7 @@
 title: Direct Selection tool modifier keys
 titleSuffix: Blend for Visual Studio
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: reference
 ms.assetid: 21f9b951-dc2b-4d09-bd70-75caed8fb964
 author: jillre
 ms.author: jillfra

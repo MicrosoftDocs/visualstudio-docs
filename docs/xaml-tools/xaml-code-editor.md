@@ -2,7 +2,7 @@
 title: XAML code editor
 description: Take a tour of the XAML code editor in Visual Studio
 ms.date: 06/16/2020
-ms.topic: conceptual
+ms.topic: overview
 monikerRange: vs-2019
 author: TerryGLee
 ms.author: tglee

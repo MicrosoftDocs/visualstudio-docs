@@ -2,7 +2,7 @@
 title: Blend for Visual Studio feature tour
 titleSuffix: ''
 ms.date: 07/31/2019
-ms.topic: conceptual
+ms.topic: overview
 f1_keywords:
 - Blend.Start.Dev12
 author: TerryGLee
