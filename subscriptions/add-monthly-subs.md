@@ -1,10 +1,10 @@
 ---
-title: Add new monthly subscriptions to Subscriptions Administration Portal | Microsoft Docs
+title: Add new monthly Visual Studio subscriptions to Subscriptions Administration Portal | Microsoft Docs
 author: evanwindom
 ms.author: cabuschl
 manager: cabuschl
 ms.assetid: 36f0d9f1-fe28-469f-a54c-dc46638270a8
-ms.date: 06/15/2020
+ms.date: 06/23/2020
 ms.topic: conceptual
 description:  Learn how to newly purchased monthly Visual Studio subscriptions to the Subscriptions Administration Portal
 ---
@@ -17,7 +17,7 @@ The steps to add monthly subscriptions depend on what kinds of subscriptions you
 - If you have previously added or administered monthly subscriptions, we check for new monthly subscriptions each time you sign in. 
 - If you are already an administrator for subscriptions acquired through Volume Licensing but haven't previously added or managed monthly subscriptions, you will need to add them using the steps provided below.
 
-## How to add monthly subscriptions to the Subscriptions Administration Portal
+## How to add monthly subscriptions
 1. Sign in to the Subscriptions Administration Portal at <https://manage.visualstudio.com>
 1. On the **Manage subscribers** tab, choose the **New agreement** drop-down 
 1. Choose **New monthly subscriptions** in the drop-down
