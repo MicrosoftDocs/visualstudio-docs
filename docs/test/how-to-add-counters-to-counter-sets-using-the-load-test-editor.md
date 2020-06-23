@@ -1,11 +1,11 @@
 ---
 title: Add Counters to Counter Sets for load testing
 ms.date: 10/19/2016
-ms.topic: conceptual
-helpviewer_keywords:
-- counters, counter sets
-- counter sets
-- load tests, counter sets
+ms.topic: how-to
+helpviewer_keywords: 
+  - counters, counter sets
+  - counter sets
+  - load tests, counter sets
 ms.assetid: e17d0e71-f982-4fc1-a2df-a1065d37473d
 author: mikejo5000
 ms.author: mikejo

@@ -1,15 +1,15 @@
 ---
 title: Isolating Code Under Test with Microsoft Fakes
 ms.date: 06/03/2020
-ms.topic: conceptual
+ms.topic: how-to
 ms.author: mikejo
 manager: jillfra
-ms.workload:
-- multiple
+ms.workload: 
+  - multiple
 author: mikejo5000
-dev_langs:
-- VB
-- CSharp
+dev_langs: 
+  - VB
+  - CSharp
 ---
 # Isolate code under test with Microsoft Fakes
 
