@@ -74,6 +74,7 @@
 ### [Super admins and administrators](admin-roles.md)
 ### [Set agreement preferences](admin-prefs.md)
 ### [Overview](using-admin-portal.md)
+### [Add monthly subscriptions](add-monthly-subs.md)
 ### Assign subscriptions
 #### [Add single users](assign-license.md)
 #### [Add multiple users](assign-license-bulk.md)
