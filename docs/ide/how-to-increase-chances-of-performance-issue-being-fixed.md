@@ -4,7 +4,7 @@ description: Additional information and best practices for submitting performanc
 author: madskristensen
 ms.author: madsk
 ms.date: 11/19/2019 
-ms.topic: reference
+ms.topic: conceptual
 ---
 
 # How to increase the chances of a performance issue being fixed

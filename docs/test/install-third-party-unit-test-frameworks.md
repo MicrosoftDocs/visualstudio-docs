@@ -1,11 +1,11 @@
 ---
 title: Install third-party unit test frameworks
 ms.date: 04/01/2019
-ms.topic: conceptual
+ms.topic: how-to
 ms.author: mikejo
 manager: jillfra
-ms.workload:
-- multiple
+ms.workload: 
+  - multiple
 author: mikejo5000
 ---
 # Install unit test frameworks

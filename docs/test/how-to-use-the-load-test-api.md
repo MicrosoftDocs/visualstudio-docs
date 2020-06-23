@@ -1,11 +1,11 @@
 ---
 title: Load Test API
 ms.date: 10/19/2016
-ms.topic: conceptual
-helpviewer_keywords:
-- code, load tests
-- plug-ins, load test
-- APIs, load tests
+ms.topic: how-to
+helpviewer_keywords: 
+  - code, load tests
+  - plug-ins, load test
+  - APIs, load tests
 ms.assetid: e15567bc-1f21-4feb-b81d-f17ba35cfde5
 author: mikejo5000
 ms.author: mikejo

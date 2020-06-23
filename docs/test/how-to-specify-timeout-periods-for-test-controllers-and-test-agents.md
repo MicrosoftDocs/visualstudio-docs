@@ -1,12 +1,12 @@
 ---
 title: Timeout Periods for Test Controllers and Test Agents
 ms.date: 10/19/2016
-ms.topic: conceptual
-helpviewer_keywords:
-- agents, configuring
-- agetns, timeouts
-- controllers, configuring
-- controllers, timeouts
+ms.topic: how-to
+helpviewer_keywords: 
+  - agents, configuring
+  - agetns, timeouts
+  - controllers, configuring
+  - controllers, timeouts
 ms.assetid: 777d0db5-0073-458a-a2a3-58b1c1f24c60
 author: mikejo5000
 ms.author: mikejo
