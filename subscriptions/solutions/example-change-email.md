@@ -7,7 +7,7 @@ author: CaityBuschlen
 ms.author: cabuschl
 ms.date: 6/18/2020
 user.type: subscriber, admin
-tags: sign-in, contact my admin
+tags: sign-in, contact-my-admin
 subscription.type: vl, cloud
 ---
 
