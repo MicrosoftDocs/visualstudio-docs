@@ -48,3 +48,5 @@ Documentation for the MSBuild API can be found by using the [.NET API Browser](/
 | [Microsoft.Build.Tasks.Hosting](/dotnet/api/Microsoft.Build.Tasks.Hosting) | All | Contains classes used internally by MSBuild. |
 | [Microsoft.Build.Tasks.Xaml](/dotnet/api/Microsoft.Build.Tasks.Xaml) | .NET Framework only | Contains classes related to XAML build tasks. |
 | [Microsoft.Build.Utilities](/dotnet/api/Microsoft.Build.Utilities) | All | Contains helper classes that you can use to create your own MSBuild loggers and tasks.|
+
+In the previous table, All in the Applies To column means the types in the namespace are available in both the .NET Framework and the .NET Core versions of the MSBuild API.
