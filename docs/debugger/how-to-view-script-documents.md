@@ -1,20 +1,20 @@
 ---
-title: "How to: View Script Documents | Microsoft Docs"
-ms.date: "11/05/2019"
-ms.topic: "conceptual"
-dev_langs:
-  - "CSharp"
-  - "VB"
-  - "FSharp"
-  - "C++"
-helpviewer_keywords:
-  - "Script Explorer"
+title: How to: View Script Documents | Microsoft Docs
+ms.date: 11/05/2019
+ms.topic: how-to
+dev_langs: 
+  - CSharp
+  - VB
+  - FSharp
+  - C++
+helpviewer_keywords: 
+  - Script Explorer
 ms.assetid: 8b621e53-4508-4b4a-9995-70995b0b9ac8
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
-ms.workload:
-  - "multiple"
+ms.workload: 
+  - multiple
 ---
 # How to: View Script Documents (JavaScript)
 

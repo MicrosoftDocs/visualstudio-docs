@@ -1,29 +1,29 @@
 ---
-title: "Get back to the function that called MFC if halted | Microsoft Docs"
-ms.custom: "seodec18"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-f1_keywords:
-  - "vs.debug.mfc"
-dev_langs:
-  - "CSharp"
-  - "VB"
-  - "FSharp"
-  - "C++"
-helpviewer_keywords:
-  - "functions [C++], debugging"
-  - "function calls, returning to calling function"
-  - "debugging [MFC], returning to calling function"
-  - "debugging [MFC], functions"
-  - "Break command"
-  - "programs, halting"
-  - "functions [debugger]"
+title: Get back to the function that called MFC if halted | Microsoft Docs
+ms.custom: seodec18
+ms.date: 11/04/2016
+ms.topic: how-to
+f1_keywords: 
+  - vs.debug.mfc
+dev_langs: 
+  - CSharp
+  - VB
+  - FSharp
+  - C++
+helpviewer_keywords: 
+  - functions [C++], debugging
+  - function calls, returning to calling function
+  - debugging [MFC], returning to calling function
+  - debugging [MFC], functions
+  - Break command
+  - programs, halting
+  - functions [debugger]
 ms.assetid: d254a5a9-afbd-4923-9d7a-7422d824cabf
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
-ms.workload:
-  - "multiple"
+ms.workload: 
+  - multiple
 ---
 # How to: Get Back to the Function that Called MFC If Halted
 

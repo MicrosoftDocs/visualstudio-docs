@@ -1,22 +1,22 @@
 ---
-title: "How to: Test and Debug a Visualizer | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-dev_langs:
-  - "CSharp"
-  - "VB"
-  - "FSharp"
-  - "C++"
-helpviewer_keywords:
-  - "visualizers, testing"
-  - "visualizers, debugging"
-  - "debugging [Visual Studio], visualizers"
+title: How to: Test and Debug a Visualizer | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: how-to
+dev_langs: 
+  - CSharp
+  - VB
+  - FSharp
+  - C++
+helpviewer_keywords: 
+  - visualizers, testing
+  - visualizers, debugging
+  - debugging [Visual Studio], visualizers
 ms.assetid: 5cc12ce8-c819-48e4-b487-98d403001b28
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
-ms.workload:
-  - "multiple"
+ms.workload: 
+  - multiple
 ---
 # How to: Test and Debug a Visualizer
 Once you have written a visualizer, you need to debug and test it.

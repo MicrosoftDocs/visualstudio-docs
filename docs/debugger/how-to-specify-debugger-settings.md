@@ -1,24 +1,24 @@
 ---
-title: "How to: Specify Debugger Settings | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-dev_langs:
-  - "CSharp"
-  - "VB"
-  - "FSharp"
-  - "C++"
-  - "JScript"
-helpviewer_keywords:
-  - "debug builds, debugger settings"
-  - "debugger, setting options"
-  - "debugging [Visual Studio], debugger settings"
-  - "options, debugging"
+title: How to: Specify Debugger Settings | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: how-to
+dev_langs: 
+  - CSharp
+  - VB
+  - FSharp
+  - C++
+  - JScript
+helpviewer_keywords: 
+  - debug builds, debugger settings
+  - debugger, setting options
+  - debugging [Visual Studio], debugger settings
+  - options, debugging
 ms.assetid: ea172841-7fef-47bf-bd02-e7da4c3c7109
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
-ms.workload:
-  - "multiple"
+ms.workload: 
+  - multiple
 ---
 # How to: Specify Debugger Settings
 In [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], you can specify various settings for debugger behavior, including how variables are displayed, whether certain warnings are presented, how breakpoints are set, and how breaking affects running programs. You specify debugger settings in the **Options** dialog box.

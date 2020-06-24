@@ -1,26 +1,26 @@
 ---
-title: "How to: Debug Optimized Code | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-f1_keywords:
-  - "vs.debug"
-dev_langs:
-  - "CSharp"
-  - "VB"
-  - "FSharp"
-  - "C++"
-helpviewer_keywords:
-  - "breakpoints, in optimized code"
-  - "debugging [C++], optimized code"
-  - "optimization, debug builds"
-  - "debug builds, optimizing"
-  - "optimized code, debugging"
+title: How to: Debug Optimized Code | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: how-to
+f1_keywords: 
+  - vs.debug
+dev_langs: 
+  - CSharp
+  - VB
+  - FSharp
+  - C++
+helpviewer_keywords: 
+  - breakpoints, in optimized code
+  - debugging [C++], optimized code
+  - optimization, debug builds
+  - debug builds, optimizing
+  - optimized code, debugging
 ms.assetid: fc8eeeb8-6629-4c9b-99f7-2016aee81dff
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
-ms.workload:
-  - "multiple"
+ms.workload: 
+  - multiple
 ---
 # How to: Debug Optimized Code
 

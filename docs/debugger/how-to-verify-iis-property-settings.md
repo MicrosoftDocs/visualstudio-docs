@@ -1,24 +1,24 @@
 ---
-title: "How to: Verify IIS Property Settings | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-dev_langs:
-  - "CSharp"
-  - "VB"
-  - "FSharp"
-  - "C++"
-helpviewer_keywords:
-  - "IIS, property settings"
-  - "debugging Web applications, troubleshooting"
-  - "IIS administration tool"
-  - "Web applications, setting properties"
-  - "properties [debugger], setting with IIS administration tool"
+title: How to: Verify IIS Property Settings | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: how-to
+dev_langs: 
+  - CSharp
+  - VB
+  - FSharp
+  - C++
+helpviewer_keywords: 
+  - IIS, property settings
+  - debugging Web applications, troubleshooting
+  - IIS administration tool
+  - Web applications, setting properties
+  - properties [debugger], setting with IIS administration tool
 ms.assetid: 9efc50bf-02fb-4750-9b3e-f03c38f10d8b
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
-ms.workload:
-  - "multiple"
+ms.workload: 
+  - multiple
 ---
 # How to: Verify IIS Property Settings
 

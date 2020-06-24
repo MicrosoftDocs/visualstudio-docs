@@ -1,22 +1,22 @@
 ---
-title: "Debug HTML and CSS in UWP apps | Microsoft Docs"
-ms.date: "07/17/2018"
-ms.topic: "conceptual"
-f1_keywords:
-  - "VS.WebClient.DomExplorer"
-dev_langs:
-  - "JavaScript"
-helpviewer_keywords:
-  - "debugging, CSS"
-  - "debugging, HTML"
-  - "debugging, JavaScript [UWP apps]"
-  - "DOM Explorer [UWP apps]"
-author: "mikejo5000"
-ms.author: "mikejo"
+title: Debug HTML and CSS in UWP apps | Microsoft Docs
+ms.date: 07/17/2018
+ms.topic: how-to
+f1_keywords: 
+  - VS.WebClient.DomExplorer
+dev_langs: 
+  - JavaScript
+helpviewer_keywords: 
+  - debugging, CSS
+  - debugging, HTML
+  - debugging, JavaScript [UWP apps]
+  - DOM Explorer [UWP apps]
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 monikerRange: vs-2017
-ms.workload:
-  - "uwp"
+ms.workload: 
+  - uwp
 ---
 # Debug HTML and CSS in UWP apps in Visual Studio
 

@@ -1,22 +1,22 @@
 ---
-title: "How to: Debug ASP.NET Exceptions | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-dev_langs:
-  - "CSharp"
-  - "VB"
-  - "FSharp"
-  - "C++"
-helpviewer_keywords:
-  - "debugging [Visual Studio], ASP.NET exceptions"
-  - "ASP.NET, exceptions"
-  - "exceptions, ASP.NET"
+title: How to: Debug ASP.NET Exceptions | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: how-to
+dev_langs: 
+  - CSharp
+  - VB
+  - FSharp
+  - C++
+helpviewer_keywords: 
+  - debugging [Visual Studio], ASP.NET exceptions
+  - ASP.NET, exceptions
+  - exceptions, ASP.NET
 ms.assetid: 1810096e-de8c-435e-be3d-f365d0cd0a6a
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
-ms.workload:
-  - "aspnet"
+ms.workload: 
+  - aspnet
 ---
 # How to: Debug ASP.NET Exceptions
 Debugging exceptions is an important part of developing a robust [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] application. General information about how to debug exceptions is at [Managing Exceptions with the Debugger](../debugger/managing-exceptions-with-the-debugger.md).

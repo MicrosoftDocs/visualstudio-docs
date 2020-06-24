@@ -1,34 +1,34 @@
 ---
-title: "Create a visual map of the call stack | Microsoft Docs"
-ms.date: "11/26/2018"
-ms.topic: "conceptual"
-f1_keywords:
-  - "vs.progression.debugwithcodemaps"
-dev_langs:
-  - "CSharp"
-  - "VB"
-  - "FSharp"
-  - "C++"
-helpviewer_keywords:
-  - "call stacks, code maps"
-  - "Call Stack window, mapping calls"
-  - "debugging [Visual Studio], diagramming the call stack"
-  - "call stacks, mapping"
-  - "Call Stack window, visualizing"
-  - "debugging code visually"
-  - "debugging [Visual Studio], mapping the call stack"
-  - "call stacks, visualizing"
-  - "debugging, code maps"
-  - "Call Stack window, tracing calls visually"
-  - "Call Stack window, show on code map"
-  - "debugging [Visual Studio], tracing the call stack visually"
-  - "debugging [Visual Studio], visualizing the call stack"
+title: Create a visual map of the call stack | Microsoft Docs
+ms.date: 11/26/2018
+ms.topic: how-to
+f1_keywords: 
+  - vs.progression.debugwithcodemaps
+dev_langs: 
+  - CSharp
+  - VB
+  - FSharp
+  - C++
+helpviewer_keywords: 
+  - call stacks, code maps
+  - Call Stack window, mapping calls
+  - debugging [Visual Studio], diagramming the call stack
+  - call stacks, mapping
+  - Call Stack window, visualizing
+  - debugging code visually
+  - debugging [Visual Studio], mapping the call stack
+  - call stacks, visualizing
+  - debugging, code maps
+  - Call Stack window, tracing calls visually
+  - Call Stack window, show on code map
+  - debugging [Visual Studio], tracing the call stack visually
+  - debugging [Visual Studio], visualizing the call stack
 ms.assetid: d6a72e5e-f88d-46fc-94a3-1789d34805ef
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
-ms.workload:
-  - "multiple"
+ms.workload: 
+  - multiple
 ---
 # Create a visual map of the call stack while debugging (C#, Visual Basic, C++, JavaScript)
 
