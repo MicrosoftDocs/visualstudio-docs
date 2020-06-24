@@ -1,5 +1,5 @@
 ---
-title: How to: Set a Thread Name in Managed Code | Microsoft Docs
+title: How to - Set a Thread Name in Managed Code | Microsoft Docs
 ms.date: 04/27/2017
 ms.topic: how-to
 dev_langs: 

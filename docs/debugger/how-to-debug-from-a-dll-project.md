@@ -1,5 +1,5 @@
 ---
-title: How to: Debug from a DLL Project | Microsoft Docs
+title: How to - Debug from a DLL Project | Microsoft Docs
 ms.date: 10/10/2018
 ms.topic: how-to
 dev_langs: 

@@ -1,5 +1,5 @@
 ---
-title: How to: Page Up or Down in Memory | Microsoft Docs
+title: How to - Page Up or Down in Memory | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs: 

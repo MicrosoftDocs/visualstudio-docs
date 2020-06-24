@@ -1,5 +1,5 @@
 ---
-title: How to: Use the WPF Tree Visualizer | Microsoft Docs
+title: How to - Use the WPF Tree Visualizer | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs: 

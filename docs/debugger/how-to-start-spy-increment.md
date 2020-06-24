@@ -1,5 +1,5 @@
 ---
-title: How to: Start Spy++ | Microsoft Docs
+title: How to - Start Spy++ | Microsoft Docs
 ms.date: 12/16/2018
 ms.topic: how-to
 helpviewer_keywords: 

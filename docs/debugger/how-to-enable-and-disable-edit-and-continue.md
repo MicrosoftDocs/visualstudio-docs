@@ -1,5 +1,5 @@
 ---
-title: How to: Enable and disable Edit and Continue | Microsoft Docs
+title: How to - Enable and disable Edit and Continue | Microsoft Docs
 ms.custom: seodec18
 ms.date: 10/04/2018
 ms.topic: how-to
