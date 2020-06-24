@@ -1,5 +1,5 @@
 ---
-title: How to: Run legacy code analysis manually for managed code
+title: How to run legacy code analysis manually for managed code
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords: 

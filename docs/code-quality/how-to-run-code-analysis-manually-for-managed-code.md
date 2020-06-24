@@ -1,5 +1,5 @@
 ---
-title: How to: Run code analysis manually for managed code
+title: How to run code analysis manually for managed code
 ms.date: 11/04/2019
 ms.topic: how-to
 helpviewer_keywords: 
