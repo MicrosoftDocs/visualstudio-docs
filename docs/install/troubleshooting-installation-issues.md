@@ -143,7 +143,7 @@ If the solutions listed in this troubleshooting guide do not help you to success
 
 ## See also
 
-* [Repair Visual Studio](install/repair-visual-studio.md)
+* [Repair Visual Studio](repair-visual-studio.md)
 * [Remove Visual Studio](remove-visual-studio.md)
 * [Install and use Visual Studio and Azure Services behind a firewall or proxy server](install-and-use-visual-studio-behind-a-firewall-or-proxy-server.md)
 * [Tools for detecting and managing Visual Studio instances](tools-for-managing-visual-studio-instances.md)
