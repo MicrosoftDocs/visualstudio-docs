@@ -1,16 +1,16 @@
 ---
-title: "Collecting .NET Memory Allocation and Lifetime Data | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-helpviewer_keywords:
-  - ".NET memory profiling method"
-  - "Profiling Tools,.NET memory method"
-author: "mikejo5000"
-ms.author: "mikejo"
+title: Collecting .NET Memory Allocation and Lifetime Data | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: how-to
+helpviewer_keywords: 
+  - .NET memory profiling method
+  - Profiling Tools,.NET memory method
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 monikerRange: 'vs-2017'
-ms.workload:
-  - "dotnet"
+ms.workload: 
+  - dotnet
 ---
 # Collect .NET memory allocation and lifetime data
 

@@ -1,14 +1,14 @@
 ---
-title: "WinCounter | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: WinCounter | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: reference
 ms.assetid: ff319ffc-f249-4c3f-9eb2-06e392e3ae80
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 monikerRange: 'vs-2017'
-ms.workload:
-  - "multiple"
+ms.workload: 
+  - multiple
 ---
 # WinCounter
 The **WinCounter** option specifies a Windows or application performance counter to collect at set intervals during the profile run. Windows and application performance counters are listed as marks in the profiling data file. You can specify multiple performance counters to collect in separate options.
