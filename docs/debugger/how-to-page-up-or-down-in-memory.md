@@ -1,24 +1,24 @@
 ---
-title: "How to: Page Up or Down in Memory | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-dev_langs:
-  - "CSharp"
-  - "VB"
-  - "FSharp"
-  - "C++"
-  - "JScript"
-helpviewer_keywords:
-  - "debugger, paging up or down in memory"
-  - "memory, paging up or down"
-  - "Disassembly window, viewing memory space"
-  - "Memory window, paging up or down in memory"
+title: How to - Page Up or Down in Memory | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: how-to
+dev_langs: 
+  - CSharp
+  - VB
+  - FSharp
+  - C++
+  - JScript
+helpviewer_keywords: 
+  - debugger, paging up or down in memory
+  - memory, paging up or down
+  - Disassembly window, viewing memory space
+  - Memory window, paging up or down in memory
 ms.assetid: 50b30a68-66f6-43f8-a48b-59ce12c95471
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
-ms.workload:
-  - "multiple"
+ms.workload: 
+  - multiple
 ---
 # How to: Page Up or Down in Memory
 

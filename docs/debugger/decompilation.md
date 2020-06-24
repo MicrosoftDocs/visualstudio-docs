@@ -1,17 +1,17 @@
 ---
-title: "Decompile .NET code while debugging | Microsoft Docs"
-ms.date: "2/2/2020"
-ms.topic: "conceptual"
-dev_langs:
-  - "CSharp"
-helpviewer_keywords:
-  - "decompilation, debugger, exception"
-  - "debugging [Visual Studio], decompilation, source not found"
-author: "mikejo5000"
-ms.author: "mikejo"
+title: Decompile .NET code while debugging | Microsoft Docs
+ms.date: 2/2/2020
+ms.topic: how-to
+dev_langs: 
+  - CSharp
+helpviewer_keywords: 
+  - decompilation, debugger, exception
+  - debugging [Visual Studio], decompilation, source not found
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
-ms.workload:
-  - "multiple"
+ms.workload: 
+  - multiple
 monikerRange: '>= vs-2019'
 ---
 

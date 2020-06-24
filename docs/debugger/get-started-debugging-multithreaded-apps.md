@@ -1,22 +1,22 @@
 ---
-title: "Learn to debug multithreaded applications"
+title: Learn to debug multithreaded applications
 description: Debug using the Parallel Stacks and Parallel Watch windows in Visual Studio
-ms.custom: ""
-ms.date: "02/14/2020"
-ms.topic: "conceptual"
-dev_langs:
-  - "CSharp"
-  - "VB"
-  - "FSharp"
-  - "C++"
-helpviewer_keywords:
-  - "multithreaded debugging, tutorial"
-  - "tutorials, multithreaded debugging"
-author: "mikejo5000"
-ms.author: "mikejo"
+ms.custom: 
+ms.date: 02/14/2020
+ms.topic: how-to
+dev_langs: 
+  - CSharp
+  - VB
+  - FSharp
+  - C++
+helpviewer_keywords: 
+  - multithreaded debugging, tutorial
+  - tutorials, multithreaded debugging
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
-ms.workload:
-  - "multiple"
+ms.workload: 
+  - multiple
 ---
 # Get started debugging multithreaded applications (C#, Visual Basic, C++)
 
