@@ -1,21 +1,21 @@
 ---
-title: "Beginners guide to CPU sampling"
-ms.custom: "seodec18"
-ms.date: "02/27/2017"
-ms.topic: "conceptual"
-f1_keywords:
-  - "vs.performance.wizard.intropage"
-helpviewer_keywords:
-  - "Profiling Tools, quick start"
-  - "performance tools, wizard"
-  - "Performance Wizard"
+title: Beginners guide to CPU sampling
+ms.custom: seodec18
+ms.date: 02/27/2017
+ms.topic: how-to
+f1_keywords: 
+  - vs.performance.wizard.intropage
+helpviewer_keywords: 
+  - Profiling Tools, quick start
+  - performance tools, wizard
+  - Performance Wizard
 ms.assetid: 85161cc4-18ee-49b3-9487-33680e687597
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 monikerRange: 'vs-2017'
-ms.workload:
-  - "multiple"
+ms.workload: 
+  - multiple
 ---
 # Beginners guide to CPU sampling
 You can use Visual Studio profiling tools to analyze performance issues in your application. This procedure shows how to use **Sampling** data.

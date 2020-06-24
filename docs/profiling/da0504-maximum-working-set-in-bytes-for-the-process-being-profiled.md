@@ -1,18 +1,18 @@
 ---
-title: "DA0504: Maximum Working Set in Bytes for the Process being profiled | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-f1_keywords:
-  - "vs.performance.DA0504"
-  - "vs.performance.504"
-  - "vs.performance.rules.DA0504"
+title: DA0504 - Maximum Working Set in Bytes for the Process being profiled | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: reference
+f1_keywords: 
+  - vs.performance.DA0504
+  - vs.performance.504
+  - vs.performance.rules.DA0504
 ms.assetid: 36e71603-ece7-4000-85fc-9da4eed61bf2
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 monikerRange: 'vs-2017'
-ms.workload:
-  - "multiple"
+ms.workload: 
+  - multiple
 ---
 # DA0504: Maximum Working Set in Bytes for the Process being profiled
 
