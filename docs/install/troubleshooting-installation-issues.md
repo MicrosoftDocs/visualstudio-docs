@@ -41,11 +41,15 @@ There are some known issues with the Visual Studio Installer that Microsoft is w
 
 ::: moniker-end
 
-### Step 2 - Check with the developer community
+### Step 2 - Try repairing Visual Studio
+
+Repair fixes many common update issues. For more information on when and how to use the repair functionality in Visual Studio, see [Repair Visual Studio](repair-visual-studio.md).
+
+### Step 3 - Check with the developer community
 
 Search on your error message with the [Visual Studio Developer Community](https://developercommunity.visualstudio.com/spaces/8/index.html). Other members of the community might have documented a solution to your problem.
 
-### Step 3 - Delete the Visual Studio Installer directory to fix upgrade problems
+### Step 4 - Delete the Visual Studio Installer directory to fix upgrade problems
 
 The Visual Studio Installer bootstrapper is a minimal light-weight executable that installs the rest of the Visual Studio Installer. Deleting Visual Studio Installer files and then rerunning the bootstrapper might solve some update failures.
 
@@ -70,7 +74,7 @@ The Visual Studio Installer bootstrapper is a minimal light-weight executable th
 
 ::: moniker-end
 
-### Step 4 - Report a problem
+### Step 5 - Report a problem
 
 In some situations, such as those related to corrupted files, the problems might have to be looked at on a case-by-case basis. To help us help you, please do the following:
 
@@ -94,7 +98,7 @@ In some situations, such as those related to corrupted files, the problems might
 
 ::: moniker-end
 
-### Step 5 - Run InstallCleanup.exe to remove installation files
+### Step 6 - Run InstallCleanup.exe to remove installation files
 
 As a last resort, you can [remove Visual Studio](remove-visual-studio.md) to remove all installation files and product information.
 
@@ -102,7 +106,7 @@ As a last resort, you can [remove Visual Studio](remove-visual-studio.md) to rem
 2. Rerun the bootstrapper that's described in [Step 3 - Delete the Visual Studio Installer directory to fix upgrade problems](#step-3---delete-the-visual-studio-installer-directory-to-fix-upgrade-problems).
 3. Try to install or update Visual Studio again.
 
-### Step 6 - Contact us (optional)
+### Step 7 - Contact us (optional)
 
 If none of the previous steps help you successfully install or upgrade Visual Studio, contact us by using our [**live chat**](https://visualstudio.microsoft.com/vs/support/#talktous) support option (English only) for further assistance.
 
@@ -139,6 +143,7 @@ If the solutions listed in this troubleshooting guide do not help you to success
 
 ## See also
 
+* [Repair Visual Studio](install/repair-visual-studio.md)
 * [Remove Visual Studio](remove-visual-studio.md)
 * [Install and use Visual Studio and Azure Services behind a firewall or proxy server](install-and-use-visual-studio-behind-a-firewall-or-proxy-server.md)
 * [Tools for detecting and managing Visual Studio instances](tools-for-managing-visual-studio-instances.md)
