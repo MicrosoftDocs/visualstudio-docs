@@ -1,14 +1,14 @@
 ---
-title: "Creating Basic Profiling Reports from the Command Line | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Creating Basic Profiling Reports from the Command Line | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: how-to
 ms.assetid: 6d73e21e-c04e-48ea-91cc-e517a5f2cd3f
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 monikerRange: 'vs-2017'
-ms.workload:
-  - "multiple"
+ms.workload: 
+  - multiple
 ---
 # Create basic profiling reports from the command line
 This article describes the basic VSPerfReport commands that generate comma-separated value (.*csv*) reports from a .*vsp* or .*vsps* profiling data file. For a description of all report options, see [VSPerfReport](../profiling/vsperfreport.md).

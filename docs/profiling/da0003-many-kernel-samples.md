@@ -1,19 +1,19 @@
 ---
-title: "DA0003: Many kernel samples | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-f1_keywords:
-  - "vs.performance.rules.DA0003"
-  - "vs.performance.DA0003"
-  - "vs.performance.3"
-  - "vs.performance.rules.DAManyKernelSamples"
+title: DA0003 - Many kernel samples | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: reference
+f1_keywords: 
+  - vs.performance.rules.DA0003
+  - vs.performance.DA0003
+  - vs.performance.3
+  - vs.performance.rules.DAManyKernelSamples
 ms.assetid: c1f46f77-eb95-42e5-b340-d86bc9de41b4
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 monikerRange: 'vs-2017'
-ms.workload:
-  - "multiple"
+ms.workload: 
+  - multiple
 ---
 # DA0003: Many kernel samples
 

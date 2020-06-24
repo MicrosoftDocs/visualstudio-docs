@@ -1,15 +1,15 @@
 ---
-title: "How to: Limit Instrumentation to Specific DLLs | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-helpviewer_keywords:
-  - "performance tools, runtime profiling control window"
-author: "mikejo5000"
-ms.author: "mikejo"
+title: How to - Limit Instrumentation to Specific DLLs | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: how-to
+helpviewer_keywords: 
+  - performance tools, runtime profiling control window
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 monikerRange: 'vs-2017'
-ms.workload:
-  - "multiple"
+ms.workload: 
+  - multiple
 ---
 # How to: Limit instrumentation to specific DLLs
 
