@@ -1,9 +1,9 @@
 ---
 title: 'Load test: Set virtual user percentage using web cache data'
 ms.date: 10/19/2016
-ms.topic: conceptual
-helpviewer_keywords:
-- load tests, virtual users
+ms.topic: how-to
+helpviewer_keywords: 
+  - load tests, virtual users
 ms.assetid: f66d5d43-4121-4487-b27f-d0a0baaf7601
 author: mikejo5000
 ms.author: mikejo

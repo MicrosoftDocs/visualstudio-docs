@@ -1,9 +1,9 @@
 ---
 title: Configure a test agent
 ms.date: 09/18/2018
-ms.topic: conceptual
-helpviewer_keywords:
-- agents, configuring for interaction with desktop
+ms.topic: how-to
+helpviewer_keywords: 
+  - agents, configuring for interaction with desktop
 ms.assetid: 3a94dd07-6d17-402c-ae8f-7947143755c9
 author: mikejo5000
 ms.author: mikejo

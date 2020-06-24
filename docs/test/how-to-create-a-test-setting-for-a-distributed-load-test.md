@@ -1,9 +1,9 @@
 ---
 title: Create a Test Setting for a Distributed Load Test
 ms.date: 10/19/2016
-ms.topic: conceptual
-helpviewer_keywords:
-- test settings, for distributed load tests
+ms.topic: how-to
+helpviewer_keywords: 
+  - test settings, for distributed load tests
 ms.assetid: b63d4b71-3b74-4872-b2d1-f0bd1a9a8544
 author: mikejo5000
 ms.author: mikejo

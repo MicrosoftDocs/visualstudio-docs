@@ -1,14 +1,14 @@
 ---
-title: "Analyze memory usage for .NET objects | Microsoft Docs"
-ms.date: "12/9/2019"
-ms.topic: "conceptual"
-helpviewer_keywords:
-  - "memory allocation, memory usage"
-author: "Sagar-S-S"
-ms.author: "sashe"
+title: Analyze memory usage for .NET objects | Microsoft Docs
+ms.date: 12/9/2019
+ms.topic: how-to
+helpviewer_keywords: 
+  - memory allocation, memory usage
+author: Sagar-S-S
+ms.author: sashe
 manager: AndSter
-ms.workload:
-  - "multiple"
+ms.workload: 
+  - multiple
 ---
 
 

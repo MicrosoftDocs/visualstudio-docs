@@ -1,27 +1,27 @@
 ---
-title: "Debug Windows API functions | Microsoft Docs"
-ms.custom: "seodec18"
-ms.date: "06/03/2020"
-ms.topic: "conceptual"
-f1_keywords:
-  - "vs.debug.api"
-dev_langs:
-  - "CSharp"
-  - "VB"
-  - "FSharp"
-  - "C++"
-helpviewer_keywords:
-  - "debugging [C++], Windows API functions"
-  - "NT symbols and debugging Windows API functions"
-  - "Windows API functions, debugging"
-  - "Windows API, debugging API functions"
-  - "APIs, debugging"
+title: Debug Windows API functions | Microsoft Docs
+ms.custom: seodec18
+ms.date: 06/03/2020
+ms.topic: how-to
+f1_keywords: 
+  - vs.debug.api
+dev_langs: 
+  - CSharp
+  - VB
+  - FSharp
+  - C++
+helpviewer_keywords: 
+  - debugging [C++], Windows API functions
+  - NT symbols and debugging Windows API functions
+  - Windows API functions, debugging
+  - Windows API, debugging API functions
+  - APIs, debugging
 ms.assetid: 7c126f57-62ab-4d94-9805-632d696ba1f0
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
-ms.workload:
-  - "multiple"
+ms.workload: 
+  - multiple
 ---
 # How Can I Debug Windows API Functions?
 If you want to debug a Windows API function that has NT symbols loaded, you must do the following.

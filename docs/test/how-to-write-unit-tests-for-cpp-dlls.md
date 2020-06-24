@@ -1,11 +1,11 @@
 ---
-title: "Write Unit tests for C++ DLLs"
+title: Write Unit tests for C++ DLLs
 ms.date: 05/01/2019
-ms.topic: conceptual
+ms.topic: how-to
 ms.author: corob
 manager: markl
-ms.workload:
-  - "cplusplus"
+ms.workload: 
+  - cplusplus
 author: corob-msft
 ---
 # Write unit tests for C++ DLLs in Visual Studio

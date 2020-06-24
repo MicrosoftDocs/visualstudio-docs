@@ -1,14 +1,14 @@
 ---
-title: "CrossSession | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: CrossSession | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: reference
 ms.assetid: b9fcb9c3-7903-478c-9b7c-dbd94092fcba
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 monikerRange: 'vs-2017'
-ms.workload:
-  - "multiple"
+ms.workload: 
+  - multiple
 ---
 # CrossSession
 The *VSPerfCmd.exe* **CrossSession** option enables the profiler to collect data from any console session. The **CrossSession** option must be used with the **Start** option.

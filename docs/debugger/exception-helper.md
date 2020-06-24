@@ -1,21 +1,21 @@
 ---
-title: "Inspect an exception - Visual Studio | Microsoft Docs"
-ms.date: "1/18/2020"
-ms.topic: "conceptual"
-dev_langs:
-  - "CSharp"
-  - "VB"
-  - "FSharp"
-  - "C++"
-  - "JavaScript"
-helpviewer_keywords:
-  - "exception helper, debugger, exception"
-  - "debugging [Visual Studio], exception helper, Examine an exception"
-author: "mikejo5000"
-ms.author: "mikejo"
+title: Inspect an exception - Visual Studio | Microsoft Docs
+ms.date: 1/18/2020
+ms.topic: how-to
+dev_langs: 
+  - CSharp
+  - VB
+  - FSharp
+  - C++
+  - JavaScript
+helpviewer_keywords: 
+  - exception helper, debugger, exception
+  - debugging [Visual Studio], exception helper, Examine an exception
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
-ms.workload:
-  - "multiple"
+ms.workload: 
+  - multiple
 ---
 # Inspect an exception using the Exception Helper 
 

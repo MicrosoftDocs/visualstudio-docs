@@ -1,14 +1,14 @@
 ---
-title: "Profiler command line: Instrument static ASP.NET app, get timing data"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Profiler command line - Instrument static ASP.NET app, get timing data
+ms.date: 11/04/2016
+ms.topic: how-to
 ms.assetid: b260ce68-76e6-4c3b-8062-3c00bd5cf7b8
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 monikerRange: 'vs-2017'
-ms.workload:
-  - "aspnet"
+ms.workload: 
+  - aspnet
 ---
 # How to: Instrument a statically compiled ASP.NET web application and collect detailed timing data with the profiler by using the command line
 This article describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools command-line tools to instrument a precompiled [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] web component or web site and collect detailed timing data.

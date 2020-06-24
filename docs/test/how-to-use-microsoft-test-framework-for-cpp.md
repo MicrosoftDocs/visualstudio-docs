@@ -1,12 +1,12 @@
 ---
-title: "Use the Microsoft Unit Testing Framework for C++"
+title: Use the Microsoft Unit Testing Framework for C++
 description: Use the Microsoft Unit Testing Framework for C++ to create unit tests for your C++ code.
 ms.date: 01/08/2020
-ms.topic: conceptual
+ms.topic: how-to
 ms.author: corob
 manager: markl
-ms.workload:
-  - "cplusplus"
+ms.workload: 
+  - cplusplus
 author: corob-msft
 ---
 # Use the Microsoft Unit Testing Framework for C++ in Visual Studio

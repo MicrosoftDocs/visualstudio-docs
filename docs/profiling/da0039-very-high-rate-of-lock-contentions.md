@@ -1,18 +1,18 @@
 ---
-title: "DA0039: Very High Rate of Lock contentions | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-f1_keywords:
-  - "vs.performance.39"
-  - "vs.performance.DA0039"
-  - "vs.performance.rules.DA0039"
+title: DA0039 - Very High Rate of Lock contentions | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: reference
+f1_keywords: 
+  - vs.performance.39
+  - vs.performance.DA0039
+  - vs.performance.rules.DA0039
 ms.assetid: 5a9fc57d-9097-413b-af0c-8726b1a57048
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 monikerRange: 'vs-2017'
-ms.workload:
-  - "multiple"
+ms.workload: 
+  - multiple
 ---
 # DA0039: Very high rate of lock contentions
 

@@ -1,14 +1,14 @@
 ---
-title: "Profiler command line: Open client .NET app, get concurrency data"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Profiler command line - Open client .NET app, get concurrency data
+ms.date: 11/04/2016
+ms.topic: how-to
 ms.assetid: 17a48848-bd3e-44ef-9971-e39836ff1df2
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 monikerRange: 'vs-2017'
-ms.workload:
-  - "dotnet"
+ms.workload: 
+  - dotnet
 ---
 # How to: Launch a stand-alone .NET Framework application with the profiler to collect concurrency data by using the command line
 This topic describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools command-line tools to start a .NET Framework stand-alone (client) application and collect process and thread concurrency data

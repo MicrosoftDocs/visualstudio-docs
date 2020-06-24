@@ -1,14 +1,14 @@
 ---
 title: Run a unit test as a 64-bit process
 ms.date: 03/10/2020
-ms.topic: conceptual
-helpviewer_keywords:
-- unit tests, creating
-- unit tests, running
+ms.topic: how-to
+helpviewer_keywords: 
+  - unit tests, creating
+  - unit tests, running
 ms.author: mikejo
 manager: jillfra
-ms.workload:
-- multiple
+ms.workload: 
+  - multiple
 author: mikejo5000
 ---
 # Run a unit test as a 64-bit process

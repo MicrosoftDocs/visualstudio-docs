@@ -1,14 +1,14 @@
 ---
-title: "VSPerf | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: VSPerf | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: reference
 ms.assetid: b5854e62-279e-4850-bfeb-0c6ef82f4805
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 monikerRange: 'vs-2017'
-ms.workload:
-  - "multiple"
+ms.workload: 
+  - multiple
 ---
 # VSPerf
 Use the **VsPerf** command line tool to:

@@ -1,18 +1,18 @@
 ---
-title: "Debug live ASP.NET Azure Kubernetes Services"
-description: "Learn how to set snappoints and view snapshots with the Snapshot Debugger."
-ms.custom: ""
-ms.date: "02/11/2019"
-ms.topic: "conceptual"
-helpviewer_keywords:
-  - "debugger"
-author: "poppastring"
-ms.author: "madownie"
+title: Debug live ASP.NET Azure Kubernetes Services
+description: Learn how to set snappoints and view snapshots with the Snapshot Debugger.
+ms.custom: 
+ms.date: 02/11/2019
+ms.topic: how-to
+helpviewer_keywords: 
+  - debugger
+author: poppastring
+ms.author: madownie
 manager: andster
 monikerRange: '>= vs-2019'
-ms.workload:
-  - "aspnet"
-  - "azure"
+ms.workload: 
+  - aspnet
+  - azure
 ---
 # Debug live ASP.NET Azure Kubernetes Services using the Snapshot Debugger
 
