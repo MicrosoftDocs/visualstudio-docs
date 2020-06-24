@@ -1,14 +1,14 @@
 ---
 title: Learn how to test your code with Live Unit Test
 ms.date: 04/03/2020
-ms.topic: conceptual
-helpviewer_keywords:
-- Live Unit Testing
+ms.topic: how-to
+helpviewer_keywords: 
+  - Live Unit Testing
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.workload:
-- dotnet
+ms.workload: 
+  - dotnet
 ---
 # Get started with Live Unit Testing
 

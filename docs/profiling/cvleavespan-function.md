@@ -1,17 +1,17 @@
 ---
-title: "CvLeaveSpan Function | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-f1_keywords:
-  - "cvmarkers/CvLeaveSpan"
-helpviewer_keywords:
-  - "CvLeaveSpan method"
+title: CvLeaveSpan Function | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: reference
+f1_keywords: 
+  - cvmarkers/CvLeaveSpan
+helpviewer_keywords: 
+  - CvLeaveSpan method
 ms.assetid: 3bf65fdf-a471-4efd-ac7a-03e701bbae5d
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
-ms.workload:
-  - "multiple"
+ms.workload: 
+  - multiple
 ---
 # CvLeaveSpan function
 Marks the end of span.

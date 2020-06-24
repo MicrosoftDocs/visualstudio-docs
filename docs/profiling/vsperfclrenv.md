@@ -1,19 +1,19 @@
 ---
-title: "VSPerfCLREnv | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-helpviewer_keywords:
-  - "command-line tools, VSPerfCLREnv"
-  - "command line, tools"
-  - "performance tools, VSPerfCLREnv"
-  - "profiling tools,VSPerfCLREnv"
-  - "VSPerfCLREnv tool"
-author: "mikejo5000"
-ms.author: "mikejo"
+title: VSPerfCLREnv | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: reference
+helpviewer_keywords: 
+  - command-line tools, VSPerfCLREnv
+  - command line, tools
+  - performance tools, VSPerfCLREnv
+  - profiling tools,VSPerfCLREnv
+  - VSPerfCLREnv tool
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 monikerRange: 'vs-2017'
-ms.workload:
-  - "multiple"
+ms.workload: 
+  - multiple
 ---
 # VSPerfCLREnv
 

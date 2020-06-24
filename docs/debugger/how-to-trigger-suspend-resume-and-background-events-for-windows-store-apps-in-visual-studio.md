@@ -1,20 +1,20 @@
 ---
-title: "Trigger suspend/resume/background events when debugging UWP"
-ms.custom: "seodec18"
-ms.date: "01/16/2018"
-ms.topic: "conceptual"
-f1_keywords:
-  - "vs.debug.error.background_task_activate_failure"
-dev_langs:
-  - "CSharp"
-  - "VB"
-  - "FSharp"
-  - "C++"
-author: "mikejo5000"
-ms.author: "mikejo"
+title: Trigger suspend/resume/background events when debugging UWP
+ms.custom: seodec18
+ms.date: 01/16/2018
+ms.topic: how-to
+f1_keywords: 
+  - vs.debug.error.background_task_activate_failure
+dev_langs: 
+  - CSharp
+  - VB
+  - FSharp
+  - C++
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
-ms.workload:
-  - "uwp"
+ms.workload: 
+  - uwp
 ---
 # How to trigger suspend, resume, and background events while debugging UWP apps in Visual Studio
 

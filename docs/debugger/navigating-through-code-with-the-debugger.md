@@ -1,20 +1,20 @@
 ---
-title: "Navigate code with the debugger | Microsoft Docs"
-ms.custom: "seodec18"
-ms.date: "11/12/2018"
-ms.topic: "conceptual"
-f1_keywords:
-  - "vs.debug.execution"
-helpviewer_keywords:
-  - "stepping"
-  - "debugging [Visual Studio], execution control"
-  - "execution, controlling in debugger"
+title: Navigate code with the debugger | Microsoft Docs
+ms.custom: seodec18
+ms.date: 11/12/2018
+ms.topic: how-to
+f1_keywords: 
+  - vs.debug.execution
+helpviewer_keywords: 
+  - stepping
+  - debugging [Visual Studio], execution control
+  - execution, controlling in debugger
 ms.assetid: 759072ba-4aaa-447e-8e51-0dd1456fe896
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
-ms.workload:
-  - "multiple"
+ms.workload: 
+  - multiple
 ---
 # Navigate through code with the Visual Studio debugger
 

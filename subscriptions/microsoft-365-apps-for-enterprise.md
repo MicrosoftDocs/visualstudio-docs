@@ -1,50 +1,50 @@
 ---
-title: Office 365 Pro Plus Benefit | Microsoft Docs
+title: Microsoft 365 apps for enterprise benefit in Visual Studio subscriptions | Microsoft Docs
 author: evanwindom
 ms.author: v-evwin
-manager: lank
-ms.assetid: 9c70adf7-7d1b-4322-8e34-9149e8735a13
-ms.date: 04/20/2020
+manager: cabuschl
+ms.assetid: d1257931-392a-4a65-bf26-177737505122
+ms.date: 06/24/2020
 ms.topic: conceptual
-description:  Learn about the Office 365 Pro Plus benefit included in some Visual Studio subscriptions.
+description:  Learn about and install Microsoft 365 apps for enterprise
 ---
 
-# Office 365 Pro Plus in Visual Studio Subscriptions
+# Microsoft 365 apps for enterprise in Visual Studio subscriptions
+Microsoft 365 apps for enterprise (formerly Office 365 Pro Plus) is available in selected Visual Studio subscriptions. 
 
 Create your best work. Work anywhere with apps that are always updated. Office 365 Pro Plus is a subscription that comes with premium apps like Word, Excel, PowerPoint, OneNote, Outlook, Publisher, and Access (Publisher and Access available on PC only). The apps can be installed on multiple devices, including PCs, Macs, iPads, iPhones, Android tablets, and Android phones. With a subscription, you get the latest versions of the apps and automatically receive updates when they happen.
 
 > [!NOTE]
-> Your Visual Studio subscription entitles you to use Office 365 Pro Plus for production use.  
+> When included in your Visual Studio subscription, you are licensed to use Microsoft 365 apps for enterprise for production use.  
 
-> [!IMPORTANT]
-> We have become aware of an issue with obtaining product keys for Office 365 Pro Plus.  We are working on the issue and will provide an update when the issue is resolved. 
+## Activation steps
+The process for activating your Microsoft 365 apps for enterprise subscription is simple.  Follow these steps to activate your subscription and install your applications:
 
+1. Sign in to your Visual Studio subscription at [https://my.visualstudio.com](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs)
+1. Locate the Microsoft 365 apps for enterprise tile and click **Activate**.
+   > [!div class="mx-imgBorder"]
+   > ![Microsoft 365 apps for enterprise tile](_img/microsoft-365-apps-for-enterprise/tile-activate.png "Click 'Activate' to get started with your subscription.")
 
-## Getting started with Office 365 Pro Plus
+1. In the "Welcome, let's get to know you" dialog, provide the requested personal contact information and then click **Next**.
+   > [!div class="mx-imgBorder"]
+   > ![Microsoft 365 apps for enterprise customer information](_img/microsoft-365-apps-for-enterprise/get-to-know-you.png "Enter your contact information")
 
-Follow these steps to download and activate Office 365 Pro Plus:
-1. Sign in to your Visual Studio Enterprise subscription.
-2. Click on **Downloads** tab.
-3. You'll see a list of featured downloads. In the Office list, choose **Office 365 Pro Plus**.
+1. In the "Create your user ID" dialog, create your username and password for your tenant, then click **Create my acccount**.
    > [!div class="mx-imgBorder"]
-   > ![Office 365 Pro Plus Downloads](_img/vs-office365/vs-office365-downloads.png)
-0. To install Office 365 Pro Plus, you'll need a product key.  Click on the **Get key** link under the Office 365 Pro Plus listing.
+   > ![Microsoft 365 apps for enterprise user ID creation](_img/microsoft-365-apps-for-enterprise/create-your-user-id.png "Create your user ID and password")
+
+1. Next, you'll be asked to provide a code to prove you're not a robot.  You can have the code sent to you as a text message.  Enter the code and click **Next**. 
    > [!div class="mx-imgBorder"]
-   > ![Office 365 Pro Plus Get Product Key](_img/vs-office365/vs-office365-get-key.png)
-0. A fly-out window will show you any keys you've already claimed as well as those that are available to you.  To obtain a new key, click **Claim key** under the **Office Professional Plus 2019** listing.
+   > ![Microsoft 365 apps for enterprise prove you're not a robot](_img/microsoft-365-apps-for-enterprise/prove-youre-not-a-robot.png "Request a code and enter it to continue")
+
+1. After your account has been successfully created, you'll see a dialog displaying the sign-in page for the Office portal, and your new user ID.  Make note of this information for your later use, and click **Start Setup** to begin installing your Microsoft 365 apps.
    > [!div class="mx-imgBorder"]
-   > ![Office 365 Pro Plus Claim Product Key](_img/vs-office365/vs-office365-claim-key.png)
-0. Record the key you just claimed. (You can always return to this list to see it again.)
-0. Close the fly-out window.
-0. Click the **Download** button.
+   > ![Microsoft 365 apps for enterprise Save this info](_img/microsoft-365-apps-for-enterprise/save-this-info.png "Save your new user ID, and the link to the Office portal.")
+
+1. You'll automatically be logged into the Office portal, and you're now ready to install your applications.  Click the **Install** button to get started.
    > [!div class="mx-imgBorder"]
-   > ![Office 365 Pro Plus Start Download](_img/vs-office365/vs-office365-download-button.png)
-0. Sign in with your Microsoft account. (If you're already signed in, click **Next**.)
-0. Enter your product key, country or region, and language, then click **Next**.
-   > [!div class="mx-imgBorder"]
-   > ![Office 365 Pro Plus Enter Product Key](_img/vs-office365/vs-office365-enter-key.png)
-0. Click **Next** again.
-0. Click **Install** to install the Office applications.
+   > ![Microsoft 365 apps for enterprise Install](_img/microsoft-365-apps-for-enterprise/install-your-office-apps.png "Click the 'install' button to install your applications.")
+1. Follow the prompts to install your selected apps.  
 
 ## Eligibility
 
@@ -68,7 +68,7 @@ Follow these steps to download and activate Office 365 Pro Plus:
 Not sure which subscription you're using?  Connect to [https://my.visualstudio.com/subscriptions](https://my.visualstudio.com/subscriptions?wt.mc_id=o~msft~docs) to see all the subscriptions assigned to your email address. If you don't see all your subscriptions, you may have one or more assigned to a different email address.  You'll need to sign in with that email address to see those subscriptions.
 
 ## Support resources
-- For technical support with any component of EMS, please visit https://support.microsoft.com/allproducts and select the product.
+- For technical support with any component of Microsoft 365 apps for enterprise, please visit https://support.microsoft.com/allproducts and select the product.
 - For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, contact Visual Studio [Subscriptions Support](https://visualstudio.microsoft.com/subscriptions/support/).
 - Have a question about Visual Studio IDE, Azure DevOps or other Visual Studio products or services?  Visit [Visual Studio Support](https://visualstudio.microsoft.com/support/).
 
@@ -84,4 +84,3 @@ Be sure to activate these great benefits to make the most of your Visual Studio 
 - [Azure DevOps](vs-azure-devops.md)
 - [Azure DevTest individual credit](vs-azure.md)
 If you're planning to develop applications for Office, you'll want to activate your [Office Developer Subscription](vs-office-dev.md)
-

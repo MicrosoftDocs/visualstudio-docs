@@ -1,29 +1,29 @@
 ---
-title: "View memory for variables in the debugger | Microsoft Docs"
-ms.custom: ""
-ms.date: "10/04/2018"
-ms.topic: "conceptual"
-f1_keywords:
-  - "vs.debug.memory"
-dev_langs:
-  - "CSharp"
-  - "VB"
-  - "FSharp"
-  - "C++"
-  - "JScript"
-helpviewer_keywords:
-  - "Memory window"
-  - "strings [Visual Studio], viewing"
-  - "debugger [Visual Studio], Memory window"
-  - "memory [Visual Studio], debugging"
-  - "debugging [Visual Studio], Memory window"
-  - "buffers, viewing"
+title: View memory for variables in the debugger | Microsoft Docs
+ms.custom: 
+ms.date: 10/04/2018
+ms.topic: how-to
+f1_keywords: 
+  - vs.debug.memory
+dev_langs: 
+  - CSharp
+  - VB
+  - FSharp
+  - C++
+  - JScript
+helpviewer_keywords: 
+  - Memory window
+  - strings [Visual Studio], viewing
+  - debugger [Visual Studio], Memory window
+  - memory [Visual Studio], debugging
+  - debugging [Visual Studio], Memory window
+  - buffers, viewing
 ms.assetid: 7f7a0439-10e4-4966-bb2d-51f04cda4fe2
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
-ms.workload:
-  - "multiple"
+ms.workload: 
+  - multiple
 ---
 # Use the Memory windows in the Visual Studio debugger (C#, C++, Visual Basic, F#)
 

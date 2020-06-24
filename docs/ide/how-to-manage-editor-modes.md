@@ -1,7 +1,7 @@
 ---
 title: Full screen and virtual space mode
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - word wrap
 - views, virtual space

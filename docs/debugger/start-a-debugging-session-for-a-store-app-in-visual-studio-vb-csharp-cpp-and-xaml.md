@@ -1,40 +1,40 @@
 ---
-title: "Start a debugging session for a UWP app | Microsoft Docs"
-ms.custom: "seodec18"
-ms.date: "11/20/2018"
-ms.topic: "conceptual"
-f1_keywords:
-  - "VC.Project.IVCAppHostRemoteDebugPageObject.MachineName"
-  - "VC.Project.IVCAppHostRemoteDebugPageObject.BreakpointBehavior"
-  - "VC.Project.IVCAppHostLocalDebugPageObject.GPUDebuggerTargetType"
-  - "VC.Project.IVCAppHostTetheredDebugPageObject.DebuggerType"
-  - "VC.Project.IVCAppHostLocalDebugPageObject.BreakpointBehavior"
-  - "VC.Project.IVCAppHostRemoteDebugPageObject.LaunchApplication"
-  - "VC.Project.IVCAppHostRemoteDebugPageObject.GPUDebuggerTargetType"
-  - "VC.Project.IVCAppHostLocalDebugPageObject.DebuggerType"
-  - "VC.Project.IVCAppHostSimulatorDebugPageObject.DebuggerType"
-  - "ImmersiveProjects.Properties.Debug"
-  - "VC.Project.IVCAppHostTetheredDebugPageObject.LaunchApplication"
-  - "VC.Project.IVCAppHostSimulatorDebugPageObject.LaunchApplication"
-  - "VC.Project.IVCAppHostSimulatorDebugPageObject.GPUDebuggerTargetType"
-  - "VC.Project.IVCAppHostLocalDebugPageObject.LaunchApplication"
-  - "VC.Project.IVCAppHostLocalDebugPageObject.AllowLocalNetworkLoopback"
-  - "AppPackage.Properties.Debug"
-  - "VC.Project.IVCAppHostRemoteDebugPageObject.Authentication"
-  - "VC.Project.IVCAppHostRemoteDebugPageObject.DebuggerType"
-  - "VC.Project.IVCAppHostSimulatorDebugPageObject.BreakpointBehavior"
-  - "vs.debug.installedapppackagelauncher"
-  - "vs.debug.error.wwahost_scriptdebuggingdisabled"
-dev_langs:
-  - "CSharp"
-  - "VB"
-  - "FSharp"
-  - "C++"
-author: "mikejo5000"
-ms.author: "mikejo"
+title: Start a debugging session for a UWP app | Microsoft Docs
+ms.custom: seodec18
+ms.date: 11/20/2018
+ms.topic: how-to
+f1_keywords: 
+  - VC.Project.IVCAppHostRemoteDebugPageObject.MachineName
+  - VC.Project.IVCAppHostRemoteDebugPageObject.BreakpointBehavior
+  - VC.Project.IVCAppHostLocalDebugPageObject.GPUDebuggerTargetType
+  - VC.Project.IVCAppHostTetheredDebugPageObject.DebuggerType
+  - VC.Project.IVCAppHostLocalDebugPageObject.BreakpointBehavior
+  - VC.Project.IVCAppHostRemoteDebugPageObject.LaunchApplication
+  - VC.Project.IVCAppHostRemoteDebugPageObject.GPUDebuggerTargetType
+  - VC.Project.IVCAppHostLocalDebugPageObject.DebuggerType
+  - VC.Project.IVCAppHostSimulatorDebugPageObject.DebuggerType
+  - ImmersiveProjects.Properties.Debug
+  - VC.Project.IVCAppHostTetheredDebugPageObject.LaunchApplication
+  - VC.Project.IVCAppHostSimulatorDebugPageObject.LaunchApplication
+  - VC.Project.IVCAppHostSimulatorDebugPageObject.GPUDebuggerTargetType
+  - VC.Project.IVCAppHostLocalDebugPageObject.LaunchApplication
+  - VC.Project.IVCAppHostLocalDebugPageObject.AllowLocalNetworkLoopback
+  - AppPackage.Properties.Debug
+  - VC.Project.IVCAppHostRemoteDebugPageObject.Authentication
+  - VC.Project.IVCAppHostRemoteDebugPageObject.DebuggerType
+  - VC.Project.IVCAppHostSimulatorDebugPageObject.BreakpointBehavior
+  - vs.debug.installedapppackagelauncher
+  - vs.debug.error.wwahost_scriptdebuggingdisabled
+dev_langs: 
+  - CSharp
+  - VB
+  - FSharp
+  - C++
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
-ms.workload:
-  - "uwp"
+ms.workload: 
+  - uwp
 ---
 # Start a debugging session for a UWP app
 

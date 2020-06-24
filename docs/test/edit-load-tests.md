@@ -1,10 +1,10 @@
 ---
 title: Editing Load Tests
 ms.date: 10/19/2016
-ms.topic: conceptual
-helpviewer_keywords:
-- Load Test Editor
-- load tests, Load Test Editor
+ms.topic: how-to
+helpviewer_keywords: 
+  - Load Test Editor
+  - load tests, Load Test Editor
 ms.assetid: ba16ed02-137e-40bf-a4cb-45d87d922d37
 author: mikejo5000
 ms.author: mikejo

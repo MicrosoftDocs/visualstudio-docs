@@ -1,11 +1,11 @@
 ---
-title: "How to test a C++ DLL for UWP apps"
+title: How to test a C++ DLL for UWP apps
 ms.date: 05/01/2019
-ms.topic: conceptual
+ms.topic: how-to
 ms.author: corob
 manager: jillfra
-ms.workload:
-  - "uwp"
+ms.workload: 
+  - uwp
 author: corob-msft
 ---
 # How to test a C++ DLL

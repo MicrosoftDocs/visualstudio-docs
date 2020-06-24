@@ -1,22 +1,22 @@
 ---
-title: "How to: Install a Visualizer | Microsoft Docs"
-ms.date: "06/10/2020"
-ms.topic: "conceptual"
-dev_langs:
-  - "CSharp"
-  - "VB"
-  - "FSharp"
-  - "C++"
-  - "JScript"
-helpviewer_keywords:
-  - "debugger, visualizers"
-  - "visualizers, installing"
+title: How to - Install a Visualizer | Microsoft Docs
+ms.date: 06/10/2020
+ms.topic: how-to
+dev_langs: 
+  - CSharp
+  - VB
+  - FSharp
+  - C++
+  - JScript
+helpviewer_keywords: 
+  - debugger, visualizers
+  - visualizers, installing
 ms.assetid: 3310ef43-515c-4d97-b0f9-51047247d3da
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
-ms.workload:
-  - "multiple"
+ms.workload: 
+  - multiple
 ---
 # How to: Install a Visualizer
 After you have created a visualizer, you must install the visualizer so that it will be available in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. Installing a visualizer is a simple process.

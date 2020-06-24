@@ -1,15 +1,15 @@
 ---
-title: "Attach profiler to .NET Framework stand-alone app; get app stats"
-ms.custom: "seodec18"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Attach profiler to .NET Framework stand-alone app; get app stats
+ms.custom: seodec18
+ms.date: 11/04/2016
+ms.topic: how-to
 ms.assetid: b62fcbc1-791f-474e-890a-a6c332e0c9ea
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 monikerRange: 'vs-2017'
-ms.workload:
-  - "dotnet"
+ms.workload: 
+  - dotnet
 ---
 # How to: Attach the profiler to a .NET Framework stand-alone application and collect application statistics by using the command line
 This article describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools command-line tools to attach the profiler to a running .NET Framework stand-alone (client) application and collect performance statistics by using the sampling method.
