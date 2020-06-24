@@ -1,27 +1,27 @@
 ---
-title: "View Disassembly Code in the debugger | Microsoft Docs"
-ms.custom: "seodec18"
-ms.date: "10/30/2018"
-ms.topic: "conceptual"
-f1_keywords:
-  - "vs.debug.disassembly"
-dev_langs:
-  - "CSharp"
-  - "VB"
-  - "FSharp"
-  - "C++"
-  - "JScript"
-helpviewer_keywords:
-  - "assembly language, debugging inline assembly code"
-  - "breakpoints, Disassembly window"
-  - "Disassembly window"
-  - "machine code"
+title: View Disassembly Code in the debugger | Microsoft Docs
+ms.custom: seodec18
+ms.date: 10/30/2018
+ms.topic: how-to
+f1_keywords: 
+  - vs.debug.disassembly
+dev_langs: 
+  - CSharp
+  - VB
+  - FSharp
+  - C++
+  - JScript
+helpviewer_keywords: 
+  - assembly language, debugging inline assembly code
+  - breakpoints, Disassembly window
+  - Disassembly window
+  - machine code
 ms.assetid: eaf84dd0-c82d-481b-af51-690b74e7794c
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
-ms.workload:
-  - "multiple"
+ms.workload: 
+  - multiple
 ---
 # View disassembly code in the Visual Studio debugger (C#, C++, Visual Basic, F#)
 

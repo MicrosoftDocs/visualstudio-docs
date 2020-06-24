@@ -1,15 +1,15 @@
 ---
-title: "Debug Azure services | Microsoft Docs"
-ms.date: "09/14/2018"
-ms.topic: "conceptual"
-helpviewer_keywords:
-  - "debugger"
+title: Debug Azure services | Microsoft Docs
+ms.date: 09/14/2018
+ms.topic: how-to
+helpviewer_keywords: 
+  - debugger
 ms.assetid: 3d434de3-ee5f-419d-9a94-ac4ac02d635b
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
-ms.workload:
-  - "azure"
+ms.workload: 
+  - azure
 ---
 # Debug Azure services in Visual Studio
 

@@ -1,13 +1,13 @@
 ---
-title: "Debug user code with Just My Code | Microsoft Docs"
-ms.date: "02/13/2019"
-ms.topic: "conceptual"
+title: Debug user code with Just My Code | Microsoft Docs
+ms.date: 02/13/2019
+ms.topic: how-to
 ms.assetid: 0f0df097-bbaf-46ad-9ad1-ef5f40435079
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
-ms.workload:
-  - "multiple"
+ms.workload: 
+  - multiple
 ---
 # Debug only user code with Just My Code
 

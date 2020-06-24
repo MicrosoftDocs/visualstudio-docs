@@ -1,21 +1,21 @@
 ---
-title: "Find the running ASP.NET process | Microsoft Docs"
-ms.date: "11/04/2018"
-ms.topic: "conceptual"
-dev_langs:
-  - "CSharp"
-  - "VB"
-  - "FSharp"
-  - "C++"
-helpviewer_keywords:
-  - "ASP.NET debugging, ASP.NET process"
-  - "ASP.NET process"
+title: Find the running ASP.NET process | Microsoft Docs
+ms.date: 11/04/2018
+ms.topic: how-to
+dev_langs: 
+  - CSharp
+  - VB
+  - FSharp
+  - C++
+helpviewer_keywords: 
+  - ASP.NET debugging, ASP.NET process
+  - ASP.NET process
 ms.assetid: 931a7597-b0f0-4a28-931d-46e63344435f
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
-ms.workload:
-  - "aspnet"
+ms.workload: 
+  - aspnet
 ---
 # Find the name of the ASP.NET process
 
