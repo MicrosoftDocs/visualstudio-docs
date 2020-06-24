@@ -1,39 +1,39 @@
 ---
-title: "Use breakpoints in the debugger | Microsoft Docs"
-ms.custom: ""
-ms.date: "10/28/2019"
-ms.topic: "conceptual"
-f1_keywords:
-  - "vs.debug.breakpointswin"
-  - "vs.debug.disassembly.insert"
-  - "vs.debug.sourcewin.edit"
-  - "vs.debug.file"
-  - "vs.debug.breakpt.new"
-  - "vs.debug.whenbreakpointishit"
-  - "vs.debug.breakpt.location.address"
-  - "vs.debug.breakpt.constraints"
-  - "vs.debug.breakpoints.delete"
-  - "vs.debug.breakpt.location.data"
-  - "vc.breakpoints"
-  - "vs.debug.breakpt.condition"
-  - "vs.debug.breakpt.location.function"
-  - "vs.debug.breakpoints"
-  - "vs.debug.menu.insert"
-  - "vs.debug.filenames"
-  - "vs.debug.breakpt.action"
-  - "vs.debug.sourcewin.insert"
-  - "vs.debug.address"
-  - "vs.debug.data"
-  - "vs.debug.func"
-  - "vs.debug.breakpt.location.file"
-helpviewer_keywords:
-  - "breakpoints, about breakpoints"
+title: Use breakpoints in the debugger | Microsoft Docs
+ms.custom: 
+ms.date: 10/28/2019
+ms.topic: how-to
+f1_keywords: 
+  - vs.debug.breakpointswin
+  - vs.debug.disassembly.insert
+  - vs.debug.sourcewin.edit
+  - vs.debug.file
+  - vs.debug.breakpt.new
+  - vs.debug.whenbreakpointishit
+  - vs.debug.breakpt.location.address
+  - vs.debug.breakpt.constraints
+  - vs.debug.breakpoints.delete
+  - vs.debug.breakpt.location.data
+  - vc.breakpoints
+  - vs.debug.breakpt.condition
+  - vs.debug.breakpt.location.function
+  - vs.debug.breakpoints
+  - vs.debug.menu.insert
+  - vs.debug.filenames
+  - vs.debug.breakpt.action
+  - vs.debug.sourcewin.insert
+  - vs.debug.address
+  - vs.debug.data
+  - vs.debug.func
+  - vs.debug.breakpt.location.file
+helpviewer_keywords: 
+  - breakpoints, about breakpoints
 ms.assetid: 020b2e97-3b3e-4b2c-872d-b5c6025e120e
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
-ms.workload:
-  - "multiple"
+ms.workload: 
+  - multiple
 ---
 # Use breakpoints in the Visual Studio debugger
 

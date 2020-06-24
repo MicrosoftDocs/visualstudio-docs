@@ -1,17 +1,17 @@
 ---
-title: "Display custom info using DebuggerDisplay | Microsoft Docs"
-ms.date: "01/09/2019"
-ms.topic: "conceptual"
-helpviewer_keywords:
-  - "attributes, debugger"
-  - "DebuggerDisplay attribute"
-  - "DebuggerDisplayAttribute class"
+title: Display custom info using DebuggerDisplay | Microsoft Docs
+ms.date: 01/09/2019
+ms.topic: how-to
+helpviewer_keywords: 
+  - attributes, debugger
+  - DebuggerDisplay attribute
+  - DebuggerDisplayAttribute class
 ms.assetid: f4eb7c76-af4e-493b-9ab6-9cb05949d9b3
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
-ms.workload:
-  - "multiple"
+ms.workload: 
+  - multiple
 ---
 # Tell the debugger what to show using the DebuggerDisplay Attribute (C#, Visual Basic, F#, C++/CLI)
 

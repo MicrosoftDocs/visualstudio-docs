@@ -1,15 +1,15 @@
 ---
-title: "Debug using the Just-In-Time Debugger | Microsoft Docs"
-ms.date: "09/24/2018"
-ms.topic: "conceptual"
-helpviewer_keywords:
-  - "debugging [Visual Studio], Just-In-Time"
-  - "Just-In-Time debugging"
-author: "mikejo5000"
-ms.author: "mikejo"
+title: Debug using the Just-In-Time Debugger | Microsoft Docs
+ms.date: 09/24/2018
+ms.topic: how-to
+helpviewer_keywords: 
+  - debugging [Visual Studio], Just-In-Time
+  - Just-In-Time debugging
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
-ms.workload:
-  - "multiple"
+ms.workload: 
+  - multiple
 ---
 # Debug using the Just-In-Time Debugger in Visual Studio
 
