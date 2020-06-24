@@ -19,7 +19,9 @@ ms.workload:
 ---
 # MSBuild well-known item metadata
 
-The following table describes the metadata assigned to every item upon creation. In each example, the following item declaration was used to include the file *C:\MyProject\Source\Program.cs* in the project.
+Item metadata are values attached to items. Some are assigned by MSBuild to items when items are create, but you can also define any metadata you need. Some user-defined metadata values have meaning to MSBuild or to some SDKs such as the .NET SDK.
+
+The first table in this article describes the metadata assigned to every item upon creation. The next table shows some optional metadata that has meaning for MSBuild, which you can define to control build behavior. In each example, the following item declaration was used to include the file *C:\MyProject\Source\Program.cs* in the project.
 
 ```xml
 <ItemGroup>
@@ -40,6 +42,12 @@ The following table describes the metadata assigned to every item upon creation.
 |%(ModifiedTime)|Contains the timestamp from the last time the item was modified. For example:<br /><br /> `2004-07-01 00:21:31.5073316`|
 |%(CreatedTime)|Contains the timestamp from when the item was created. For example:<br /><br /> `2004-06-25 09:26:45.8237425`|
 |%(AccessedTime)|Contains the timestamp from the last time the item was accessed.<br /><br /> `2004-08-14 16:52:36.3168743`|
+
+The following table describes optional item metadata that have meaning for MSBuild, but that are not set by default for every item. You can set these to influence build behavior.
+
+| Item metadata | Description |
+|---------------|-------------|
+|%(Link)|The Visual Studio project system uses `Link` metadata (if present) to alter what shows up in the project tree; you can put a file in a different logical folder structure in **Solution Explorer**.<br />In addition, the `AssignTargetPath` task looks at `Link` to determine where in the output directory to copy a file to, if it’s one of the items that gets copied.|
 
 ## See also
 
