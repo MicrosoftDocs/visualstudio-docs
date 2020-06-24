@@ -103,7 +103,7 @@ In some situations, such as those related to corrupted files, the problems might
 As a last resort, you can [remove Visual Studio](remove-visual-studio.md) to remove all installation files and product information.
 
 1. Follow the instructions in [Remove Visual Studio](remove-visual-studio.md).
-2. Rerun the bootstrapper that's described in [Step 3 - Delete the Visual Studio Installer directory to fix upgrade problems](#step-3---delete-the-visual-studio-installer-directory-to-fix-upgrade-problems).
+2. Rerun the bootstrapper that's described in [Step 4 - Delete the Visual Studio Installer directory to fix upgrade problems](#step-4---delete-the-visual-studio-installer-directory-to-fix-upgrade-problems).
 3. Try to install or update Visual Studio again.
 
 ### Step 7 - Contact us (optional)
