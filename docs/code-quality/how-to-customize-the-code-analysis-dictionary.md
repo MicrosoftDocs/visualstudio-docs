@@ -1,17 +1,17 @@
 ---
 title: 'How to: Customize the Code Analysis Dictionary'
 ms.date: 11/04/2016
-ms.topic: conceptual
-helpviewer_keywords:
-- code analysis dictionary
-- custom dictionary, code analysis
-- dictionary, code analysis
+ms.topic: how-to
+helpviewer_keywords: 
+  - code analysis dictionary
+  - custom dictionary, code analysis
+  - dictionary, code analysis
 ms.assetid: 667e3b4e-beff-48be-b3d1-376e1716a895
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.workload:
-- multiple
+ms.workload: 
+  - multiple
 ---
 # How to: Customize the Code Analysis Dictionary
 

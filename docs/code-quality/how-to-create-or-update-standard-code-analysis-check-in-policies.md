@@ -1,16 +1,16 @@
 ---
 title: Create or Update Standard Code Analysis Check-in Policies
 ms.date: 11/04/2016
-ms.topic: conceptual
-f1_keywords:
-- vs.codeanalysis.policyeditor
-helpviewer_keywords:
-- code analysis, migrating check-in policy
+ms.topic: how-to
+f1_keywords: 
+  - vs.codeanalysis.policyeditor
+helpviewer_keywords: 
+  - code analysis, migrating check-in policy
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.workload:
-- multiple
+ms.workload: 
+  - multiple
 ---
 # How to: Create or Update Standard Code Analysis Check-in Policies
 

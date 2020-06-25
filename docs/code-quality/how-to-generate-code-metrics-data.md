@@ -1,16 +1,16 @@
 ---
 title: Generate code metrics from the IDE or command line
 ms.date: 11/02/2018
-ms.topic: conceptual
-helpviewer_keywords:
-- code metrics data
-- code metrics results
-- code metrics [Visual Studio]
+ms.topic: how-to
+helpviewer_keywords: 
+  - code metrics data
+  - code metrics results
+  - code metrics [Visual Studio]
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.workload:
-- multiple
+ms.workload: 
+  - multiple
 ---
 # How to: Generate code metrics data
 
