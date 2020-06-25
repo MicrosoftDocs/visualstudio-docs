@@ -1,5 +1,5 @@
 ---
-title: How to: Automatically Increment the ClickOnce Publish Version | Microsoft Docs
+title: How to - Automatically Increment the ClickOnce Publish Version | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs: 

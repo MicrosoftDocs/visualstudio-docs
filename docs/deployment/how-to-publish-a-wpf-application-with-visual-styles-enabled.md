@@ -1,5 +1,5 @@
 ---
-title: How to: Publish a WPF Application with Visual Styles Enabled | Microsoft Docs
+title: How to - Publish a WPF Application with Visual Styles Enabled | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: how-to
 ms.assetid: 73b22b02-fc75-42aa-82d3-51fdcaf8e5c8

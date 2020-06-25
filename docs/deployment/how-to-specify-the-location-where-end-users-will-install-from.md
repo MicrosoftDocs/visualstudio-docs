@@ -1,5 +1,5 @@
 ---
-title: How to: Specify the Location Where End Users Will Install From | Microsoft Docs
+title: How to - Specify the Location Where End Users Will Install From | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs: 

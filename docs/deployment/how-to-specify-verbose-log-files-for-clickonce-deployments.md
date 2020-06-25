@@ -1,5 +1,5 @@
 ---
-title: How to: Specify Verbose Log Files for ClickOnce Deployments | Microsoft Docs
+title: How to - Specify Verbose Log Files for ClickOnce Deployments | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs: 

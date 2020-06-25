@@ -1,5 +1,5 @@
 ---
-title: How to: Configure the ClickOnce Trust Prompt Behavior | Microsoft Docs
+title: How to - Configure the ClickOnce Trust Prompt Behavior | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs: 

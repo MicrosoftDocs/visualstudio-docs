@@ -1,5 +1,5 @@
 ---
-title: How to: Specify a Publish Page for a ClickOnce Application | Microsoft Docs
+title: How to - Specify a Publish Page for a ClickOnce Application | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs: 

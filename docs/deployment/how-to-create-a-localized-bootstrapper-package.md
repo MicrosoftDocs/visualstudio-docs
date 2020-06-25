@@ -1,5 +1,5 @@
 ---
-title: How to: Create a Localized Bootstrapper Package | Microsoft Docs
+title: How to - Create a Localized Bootstrapper Package | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords: 
