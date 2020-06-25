@@ -1,10 +1,11 @@
 ---
 title: "How Local Process with Kubernetes works"
-services: azure-dev-spaces
+ms.technology: vs-azure
 ms.date: 06/02/2020
 ms.topic: "conceptual"
 description: "Describes the processes for using Local Process with Kubernetes to connect your development computer to your Kubernetes cluster"
-keywords: "Local Process with Kubernetes, Azure Dev Spaces, Dev Spaces, Docker, Kubernetes, Azure, AKS, Azure Kubernetes Service, containers"
+keywords: "Local Process with Kubernetes, Azure Dev Spaces, Dev Spaces, Docker, Kubernetes, Azure, containers"
+monikerRange: ">=vs-2019"
 ---
 
 # How Local Process with Kubernetes works
@@ -17,7 +18,7 @@ Local Process with Kubernetes redirects traffic between your connected Kubernete
 
 ## Using Local Process with Kubernetes
 
-To use Local Process with Kubernetes, you need [Visual Studio Code][vs-code] with the [Azure Dev Spaces][azds-vs-code] and [Azure Kubernetes Service][az-aks-vs-code] extensions installed and running on macOS or Windows 10 as well as the [Azure Dev Spaces CLI installed][azds-cli]. You can also use [Visual Studio 2019][visual-studio] running on Windows 10 with the *ASP.NET and web development* and *Azure development* workloads installed and the *AzureDevSpacesTools.LocalKubernetesDebugging* Preview feature flag enabled as well as the [Azure Dev Spaces CLI installed][azds-cli]. When you use Local Process with Kubernetes to establish a connection to your Kubernetes cluster, you have the option of redirecting all traffic to and from an existing pod in the cluster to your development computer.
+To use Local Process with Kubernetes in Visual Studio, you need [Visual Studio 2019][visual-studio] running on Windows 10 with the *ASP.NET and web development* and *Azure development* workloads installed and the *AzureDevSpacesTools.LocalKubernetesDebugging* Preview feature flag enabled as well as the [Azure Dev Spaces CLI installed][azds-cli]. When you use Local Process with Kubernetes to establish a connection to your Kubernetes cluster, you have the option of redirecting all traffic to and from an existing pod in the cluster to your development computer.
 
 > [!NOTE]
 > When using Local Process with Kubernetes, you are prompted for the name of the service to redirect to your development computer. This option is a convenient way to identify a pod for redirection. All redirection between your Kubernetes cluster and your development computer is for a pod.
@@ -28,7 +29,7 @@ When Local Process with Kubernetes establishes a connection to your cluster, it:
 * Replaces the container in the pod on the cluster with a remote agent container that redirects traffic to your development computer.
 * Runs [kubectl port-forward][kubectl-port-forward] on your development computer to forward traffic from your development computer to the remote agent running in your cluster.
 * Collects environment information from your cluster using the remote agent. This environment information includes environment variables, visible services, volume mounts, and secret mounts.
-* Sets up the environment in Visual Studio or Visual Studio Code so the service on your development computer can access the same variables as if it were running on the cluster.  
+* Sets up the environment in Visual Studio so the service on your development computer can access the same variables as if it were running on the cluster.  
 * Updates your hosts file to map services on your cluster to local IP addresses on your development computer. These hosts file entries allow code running on your development computer to make requests to other services running in your cluster. To update your hosts file, Local Process with Kubernetes will ask for administrator access on your development computer when connecting to your cluster.
 * Starts running and debugging your code on your development computer. If necessary, Local Process with Kubernetes will free required ports on your development computer by stopping services or processes that are currently using those ports.
 
@@ -36,7 +37,7 @@ After you establish a connection to your cluster, you can run and debug code nat
 
 ## Diagnostics and logging
 
-When using Local Process with Kubernetes to connect to your cluster, diagnostic logs from your cluster are logged to your development computer's [temporary directory][azds-tmp-dir]. Using Visual Studio Code, you can also use the *Show diagnostic info* command to print the current environment variables and DNS entries from your cluster.
+When using Local Process with Kubernetes to connect to your cluster, diagnostic logs from your cluster are logged to your development computer's [temporary directory][azds-tmp-dir].
 
 ## Limitations
 
@@ -49,16 +50,11 @@ Local Process with Kubernetes has the following limitations:
 
 ## Next steps
 
-To get started using Local Process with Kubernetes to connect to your local development computer to your cluster, see [Use Local Process with Kubernetes with Visual Studio Code][local-process-kubernetes-vs-code] and [Use Local Process with Kubernetes with Visual Studio][local-process-kubernetes-vs].
+To get started using Local Process with Kubernetes to connect to your local development computer to your cluster, see [Use Local Process with Kubernetes][local-process-kubernetes.md].
 
 [azds-cli]: how-to/install-dev-spaces.md#install-the-client-side-tools
-[azds-tmp-dir]: troubleshooting.md#before-you-begin
-[azds-vs-code]: https://marketplace.visualstudio.com/items?itemName=azuredevspaces.azds
+[azds-tmp-dir]: /azure/dev-spaces/troubleshooting#before-you-begin
 [azure-cli]: /cli/azure/install-azure-cli?view=azure-cli-latest
-[az-aks-vs-code]: https://marketplace.visualstudio.com/items?itemName=ms-kubernetes-tools.vscode-aks-tools
-[local-process-kubernetes-vs-code]: how-to/local-process-kubernetes-vs-code.md
-[local-process-kubernetes-vs]: how-to/local-process-kubernetes-visual-studio.md
+[local-process-kubernetes-vs]: local-process-kubernetes.md
 [how-it-works-routing]: how-dev-spaces-works-routing.md
 [kubectl-port-forward]: https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#port-forward
-[visual-studio]: https://www.visualstudio.com/vs/
-[vs-code]: https://code.visualstudio.com/download

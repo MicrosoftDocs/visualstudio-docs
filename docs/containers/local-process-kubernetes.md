@@ -1,13 +1,14 @@
 ---
 title: "Use Local Process with Kubernetes with Visual Studio (preview)"
-services: azure-dev-spaces
+ms.technology: vs.azure
 ms.date: 06/02/2020
 ms.topic: "conceptual"
 description: "Learn how to use Local Process with Kubernetes with Visual Studio to connect your development computer to a Kubernetes cluster with Azure Dev Spaces"
-keywords: "Local Process with Kubernetes, Azure Dev Spaces, Dev Spaces, Docker, Kubernetes, Azure, AKS, Azure Kubernetes Service, containers"
+keywords: "Local Process with Kubernetes, Azure Dev Spaces, Dev Spaces, Docker, Kubernetes, Azure, containers"
+monikerRange: ">=vs-2019"
 ---
 
-# Use Local Process with Kubernetes with Visual Studio (preview)
+# Use Local Process with Kubernetes (preview)
 
 Local Process with Kubernetes allows you to run and debug code on your development computer, while still connected to your Kubernetes cluster with the rest of your application or services. For example, if you have a large microservices architecture with many interdependent services and databases, replicating those dependencies on your development computer can be difficult. Additionally, building and deploying code to your Kubernetes cluster for each code change during inner-loop development can be slow, time consuming, and difficult to use with a debugger.
 
@@ -90,7 +91,7 @@ Open *dev-spaces/samples/BikeSharingApp/ReservationEngine/app.csproj* from the [
 
 In your project, select *Local Process with Kubernetes* from the launch settings dropdown as shown below.
 
-![Choose Local Process with Kubernetes](../media/local-process-kubernetes-visual-studio/choose-local-process.png)
+![Choose Local Process with Kubernetes](../media/local-process-kubernetes/choose-local-process.png)
 
 Click on the start button next to *Local Process with Kubernetes*. In the *Local Process with Kubernetes* dialog:
 
@@ -101,7 +102,7 @@ Click on the start button next to *Local Process with Kubernetes*. In the *Local
 * Select *app* for the launch profile.
 * Select `http://dev.bikesharingweb.EXTERNAL_IP.nip.io` for the URL to launch your browser.
 
-![Choose Local Process with Kubernetes Cluster](../media/local-process-kubernetes-visual-studio/choose-local-process-cluster.png)
+![Choose Local Process with Kubernetes Cluster](../media/local-process-kubernetes/choose-local-process-cluster.png)
 
 > [!IMPORTANT]
 > You can only redirect services that have a single pod.
@@ -115,7 +116,7 @@ All traffic in the Kubernetes cluster is redirected for the *reservationengine* 
 
 Your development computer is connected when the status bar shows you are connected to the *reservationengine* service.
 
-![Development computer connected](../media/local-process-kubernetes-visual-studio/development-computer-connected.png)
+![Development computer connected](../media/local-process-kubernetes/development-computer-connected.png)
 
 > [!NOTE]
 > On subesquent launches, you will not be prompted with the *Local Process with Kubernetes* dialog. You update these settings in the *Debug* pane in the project properties.
@@ -154,17 +155,17 @@ Learn how to use Azure Dev Spaces and GitHub Actions to test changes from a pull
 > [!div class="nextstepaction"]
 > [GitHub Actions & Azure Kubernetes Service][gh-actions]
 
-[azds-cli]: install-dev-spaces.md#install-the-client-side-tools
-[azds-tmp-dir]: ../troubleshooting.md#before-you-begin
+[azds-cli]: /azure/dev-spaces/how-to/install-dev-spaces#install-the-client-side-tools
+[azds-tmp-dir]: /azure/dev-spaces/troubleshooting#before-you-begin
 [azds-vs-code]: https://marketplace.visualstudio.com/items?itemName=azuredevspaces.azds
-[azure-cli]: /cli/azure/install-azure-cli?view=azure-cli-latest
-[azure-cloud-shell]: ../../cloud-shell/overview.md
+[azure-cli]: /cli/azure/install-azure-cli?view=azure-cli-lates
+[azure-cloud-shell]: /azure/cloud-shell/w.md
 [az-aks-get-credentials]: /cli/azure/aks?view=azure-cli-latest#az-aks-get-credentials
 [az-aks-vs-code]: https://marketplace.visualstudio.com/items?itemName=ms-kubernetes-tools.vscode-aks-tools
 [bike-sharing-github]: https://github.com/Azure/dev-spaces/tree/master/samples/BikeSharingApp
-[gh-actions]: github-actions.md
+[gh-actions]: /azure/dev-spaces/how-to/github-actions
 [preview-terms]: https://azure.microsoft.com/support/legal/preview-supplemental-terms/
 [bikeshelper-cs-breakpoint]: https://github.com/Azure/dev-spaces/blob/master/samples/BikeSharingApp/ReservationEngine/BikesHelper.cs#L26
 [supported-regions]: https://azure.microsoft.com/global-infrastructure/services/?products=kubernetes-service
-[troubleshooting]: ../troubleshooting.md#fail-to-restore-original-configuration-of-deployment-on-cluster
+[troubleshooting]: /azure/dev-spaces/troubleshooting#fail-to-restore-original-configuration-of-deployment-on-cluster
 [visual-studio]: https://www.visualstudio.com/vs/
