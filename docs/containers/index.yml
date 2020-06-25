@@ -91,7 +91,7 @@ landingContent:
         links:
           - text: Use Local Process with Kubernetes with Visual Studio
             url: local-process-kubernetes.md
-      - linkListType: how-to-guides
+      - linkListType: how-to-guide
         links:
           - text: How Local Process with Kubernetes works
             url: how-dev-spaces-works-local-process-kubernetes.md
