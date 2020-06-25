@@ -205,11 +205,21 @@ You can create and save a list of tests that you want to run or view as a group.
 
 The playlist opens in a new Test Explorer tab. You can use this playlist once and then discard it, or you can click the **Save** button in the playlist window's toolbar, and then select a name and location to save the playlist.
 
-![Playlist opens in separate test explorer tab](../test/media/vs-2019/test-explorer-playlist-tab-16-2.png)
+![Playlist opens in separate test explorer tab](../test/media/vs-2019/test-explorer-playlist-tab-16-7.png)
 
 **To create a playlist**, choose one or more tests in Test Explorer. Right-click and choose **Add to Playlist** > **New playlist**.
 
 **To open a playlist**, choose the playlist icon in the Visual Studio toolbar and select a previously saved playlist file from the menu.
+
+**To edit a playlist**, you can right-click on any test and use the menu options to add or remove it from a playlist.
+
+New in Visual Studio 2019 Update 16.7, you can choose the edit button in the toolbar. Check boxes will appear next to your tests showing what tests are included and excluded in the playlist. Edit groups as desired.
+
+![Edit Playlist button](../test/media/vs-2019/test-explorer-playlist-edit-16-7.png)
+
+You can also check or uncheck the boxes of the parent groups in the hierarchy. This will create a dyanmic playlist that will always update the playlist based on what tests are in that group. For example, if you place a check mark next to a class, any test added from that class will also be a part of this playlist. If you delete a test from that class it would be removed from the playlist. You can learn more about the rules by saving the playlist with the save button in the toolbar and opening the .playlist file that is created on your disk. This file lists all the rules and individual tests that make up a playlist.
+
+![Playlist xml file](../test/media/vs-2019/test-explorer-playlist-xml-file.png)
 ::: moniker-end
 
 ::: moniker range=">=vs-2019"
