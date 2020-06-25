@@ -81,8 +81,8 @@ landingContent:
           - text: Configure container tools
             url: container-tools-configure.md
 
-    - title: Kubernetes development
-      linkLists:
+  - title: Kubernetes development
+    linkLists:
       - linkListType: tutorial
         links:
           - text: Visual Studio Tools for Kubernetes

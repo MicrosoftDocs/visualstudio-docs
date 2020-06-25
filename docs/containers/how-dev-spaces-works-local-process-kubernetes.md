@@ -52,7 +52,7 @@ Local Process with Kubernetes has the following limitations:
 
 To get started using Local Process with Kubernetes to connect to your local development computer to your cluster, see [Use Local Process with Kubernetes][local-process-kubernetes.md].
 
-[azds-cli]: how-to/install-dev-spaces.md#install-the-client-side-tools
+[azds-cli]: /azure/dev-spaces/how-to/install-dev-spaces#install-the-client-side-tools
 [azds-tmp-dir]: /azure/dev-spaces/troubleshooting#before-you-begin
 [azure-cli]: /cli/azure/install-azure-cli?view=azure-cli-latest
 [local-process-kubernetes-vs]: local-process-kubernetes.md
