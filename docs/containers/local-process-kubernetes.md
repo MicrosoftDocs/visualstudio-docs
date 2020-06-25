@@ -91,7 +91,7 @@ Open *dev-spaces/samples/BikeSharingApp/ReservationEngine/app.csproj* from the [
 
 In your project, select *Local Process with Kubernetes* from the launch settings dropdown as shown below.
 
-![Choose Local Process with Kubernetes](../media/local-process-kubernetes/choose-local-process.png)
+![Choose Local Process with Kubernetes](media/local-process-kubernetes/choose-local-process.png)
 
 Click on the start button next to *Local Process with Kubernetes*. In the *Local Process with Kubernetes* dialog:
 
@@ -102,7 +102,7 @@ Click on the start button next to *Local Process with Kubernetes*. In the *Local
 * Select *app* for the launch profile.
 * Select `http://dev.bikesharingweb.EXTERNAL_IP.nip.io` for the URL to launch your browser.
 
-![Choose Local Process with Kubernetes Cluster](../media/local-process-kubernetes/choose-local-process-cluster.png)
+![Choose Local Process with Kubernetes Cluster](media/local-process-kubernetes/choose-local-process-cluster.png)
 
 > [!IMPORTANT]
 > You can only redirect services that have a single pod.
@@ -116,7 +116,7 @@ All traffic in the Kubernetes cluster is redirected for the *reservationengine* 
 
 Your development computer is connected when the status bar shows you are connected to the *reservationengine* service.
 
-![Development computer connected](../media/local-process-kubernetes/development-computer-connected.png)
+![Development computer connected](media/local-process-kubernetes/development-computer-connected.png)
 
 > [!NOTE]
 > On subesquent launches, you will not be prompted with the *Local Process with Kubernetes* dialog. You update these settings in the *Debug* pane in the project properties.
