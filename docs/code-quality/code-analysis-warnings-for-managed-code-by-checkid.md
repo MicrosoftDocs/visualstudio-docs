@@ -279,6 +279,7 @@ f1_keywords:
 - CA2243
 - CA2245
 - CA2246
+- CA2247
 - CA5122
 - CA5374
 ms.assetid: 5cb221f6-dc59-4abf-9bfa-adbd6f907f96
@@ -557,6 +558,7 @@ The following table lists Code Analysis warnings for managed code by the CheckId
 | CA2244 | [CA2244: Do not duplicate indexed element initializations](../code-quality/ca2244.md) | An object initializer has more than one indexed element initializer with the same constant index. All but the last initializer are redundant. |
 | CA2245 | [CA2245: Do not assign a property to itself](../code-quality/ca2245.md) | A property was accidentally assigned to itself. |
 | CA2246 | [CA2246: Do not assign a symbol and its member in the same statement](../code-quality/ca2246.md) | Assigning a symbol and its member, that is, a field or a property, in the same statement is not recommended. It is not clear if the member access was intended to use the symbol's old value prior to the assignment or the new value from the assignment in this statement. |
+| CA2247 | [CA2247: Argument passed to TaskCompletionSource constructor should be TaskCreationOptions enum instead of TaskContinuationOptions enum.](../code-quality/ca2247.md) | TaskCompletionSource has constructors that take TaskCreationOptions that control the underlying Task, and constructors that take object state that's stored in the task.  Accidentally passing a TaskContinuationOptions instead of a TaskCreationOptions will result in the call treating the options as state. |
 | CA5122 | [CA5122 P/Invoke declarations should not be safe critical](../code-quality/ca5122.md) | Methods are marked as SecuritySafeCritical when they perform a security sensitive operation, but are also safe to be used by transparent code. Transparent code may never directly call native code through a P/Invoke. Therefore, marking a P/Invoke as security safe critical will not enable transparent code to call it, and is misleading for security analysis. |
 | CA5359 | [CA5359 Do not disable certificate validation](../code-quality/ca5359.md) | A certificate can help authenticate the identity of the server. Clients should validate the server certificate to ensure requests are sent to the intended server. If the ServerCertificateValidationCallback always returns `true`, any certificate will pass validation. |
 | CA5360 | [CA5360 Do not call dangerous methods in deserialization](../code-quality/ca5360.md) | Insecure deserialization is a vulnerability which occurs when untrusted data is used to abuse the logic of an application, inflict a Denial-of-Service (DoS) attack, or even execute arbitrary code upon it being deserialized. It's frequently possible for malicious users to abuse these deserialization features when the application is deserializing untrusted data which is under their control. Specifically, invoke dangerous methods in the process of deserialization. Successful insecure deserialization attacks could allow an attacker to carry out attacks such as DoS attacks, authentication bypasses, and remote code execution. |
