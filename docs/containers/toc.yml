@@ -18,8 +18,6 @@
     items:
     - name: Multi-container app with Docker Compose
       href: tutorial-multicontainer.md
-    - name: Kubernetes in Visual Studio
-      href: tutorial-kubernetes-tools.md
   - name: How to
     items:
     - name: Debug app in a local Docker container
@@ -48,4 +46,11 @@
       href: docker-compose-properties.md
     - name: Launch settings
       href: container-launch-settings.md
-      
+- name: Kubernetes
+  items:
+    - name: Kubernetes in Visual Studio
+      href: tutorial-kubernetes-tools.md
+    - name: Use Local Process with Kubernetes with Visual Studio
+      href: local-process-kubernetes.md
+    - name: How Local Process with Kubernetes works
+      href: how-dev-spaces-works-local-process-kubernetes.md
