@@ -1,23 +1,23 @@
 ---
-title: "How to: Configure the ClickOnce Trust Prompt Behavior | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
-helpviewer_keywords:
-  - "ClickOnce deployment, install without prompting"
-  - "deploying applications [ClickOnce], trust prompt"
-  - "ClickOnce applications, install without prompting"
-  - "ClickOnce applications, trust prompt"
-  - "ClickOnce deployment, trust prompt"
+title: How to - Configure the ClickOnce Trust Prompt Behavior | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: how-to
+dev_langs: 
+  - VB
+  - CSharp
+  - C++
+helpviewer_keywords: 
+  - ClickOnce deployment, install without prompting
+  - deploying applications [ClickOnce], trust prompt
+  - ClickOnce applications, install without prompting
+  - ClickOnce applications, trust prompt
+  - ClickOnce deployment, trust prompt
 ms.assetid: cc04fa75-012b-47c9-9347-f4216be23cf2
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.workload:
-  - "multiple"
+ms.workload: 
+  - multiple
 ---
 # How to: Configure the ClickOnce trust prompt behavior
 You can configure the ClickOnce trust prompt to control whether end users are given the option of installing ClickOnce applications, such as Windows Forms applications, Windows Presentation Foundation applications, console applications, WPF browser applications, and Office solutions. You configure the trust prompt by setting registry keys on each end user's computer.

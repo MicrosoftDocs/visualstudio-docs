@@ -1,21 +1,21 @@
 ---
-title: "Set custom log file location for ClickOnce deploy errors"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
-helpviewer_keywords:
-  - "troubleshooting ClickOnce deployments"
-  - "ClickOnce deployment, troubleshooting"
-  - "ClickOnce deployment, error logging"
+title: Set custom log file location for ClickOnce deploy errors
+ms.date: 11/04/2016
+ms.topic: how-to
+dev_langs: 
+  - VB
+  - CSharp
+  - C++
+helpviewer_keywords: 
+  - troubleshooting ClickOnce deployments
+  - ClickOnce deployment, troubleshooting
+  - ClickOnce deployment, error logging
 ms.assetid: 77424414-7f0e-4b99-94bb-ea130de92d09
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.workload:
-  - "multiple"
+ms.workload: 
+  - multiple
 ---
 # How to: Set a custom log file location for ClickOnce deployment errors
 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] maintains activation log files for all deployments. These logs document any errors pertaining to installing and initializing a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment. By default, [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] creates one log file for each deployment activation. It stores these log files in the Temporary Internet Files folder. The log file for a deployment is displayed to the user when an activation failure occurs, and the user clicks **Details** in the resulting error dialog box.
