@@ -50,7 +50,7 @@
   items:
     - name: Kubernetes in Visual Studio
       href: tutorial-kubernetes-tools.md
-    - name: Use Local Process with Kubernetes with Visual Studio
-      href: local-process-kubernetes.md
     - name: How Local Process with Kubernetes works
       href: how-dev-spaces-works-local-process-kubernetes.md
+    - name: Use Local Process with Kubernetes with Visual Studio
+      href: local-process-kubernetes.md
