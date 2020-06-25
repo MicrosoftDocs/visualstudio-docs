@@ -1,17 +1,17 @@
 ---
-title: "How to: Create a Localized Bootstrapper Package | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-helpviewer_keywords:
-  - "localized bootstrapper packages"
-  - "dependencies, creating localized bootstrapper packages"
-  - "prerequisites, creating localized bootstrapper packages"
+title: How to: Create a Localized Bootstrapper Package | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: how-to
+helpviewer_keywords: 
+  - localized bootstrapper packages
+  - dependencies, creating localized bootstrapper packages
+  - prerequisites, creating localized bootstrapper packages
 ms.assetid: 66a1bc7e-6540-4164-963d-557196a69d8a
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.workload:
-  - "multiple"
+ms.workload: 
+  - multiple
 ---
 # How to: Create a localized bootstrapper package
 After you create a bootstrapper package, you can create localized versions of the bootstrapper package by creating two more files for each locale: a software license terms file (such as a *eula.rtf*) and a package manifest (*package.xml*).

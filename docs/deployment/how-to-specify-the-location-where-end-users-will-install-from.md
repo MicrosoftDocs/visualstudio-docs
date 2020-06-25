@@ -1,22 +1,22 @@
 ---
-title: "How to: Specify the Location Where End Users Will Install From | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
-helpviewer_keywords:
-  - "deploying applications [ClickOnce], specifying an installation URL"
-  - "URLs, specifying an installation URL"
-  - "installation, specifying installation an URL"
-  - "Installation URL property"
+title: How to: Specify the Location Where End Users Will Install From | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: how-to
+dev_langs: 
+  - VB
+  - CSharp
+  - C++
+helpviewer_keywords: 
+  - deploying applications [ClickOnce], specifying an installation URL
+  - URLs, specifying an installation URL
+  - installation, specifying installation an URL
+  - Installation URL property
 ms.assetid: 04a804bf-ed55-4a7a-a1e6-f63ed99c0276
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.workload:
-  - "multiple"
+ms.workload: 
+  - multiple
 ---
 # How to: Specify the location where end users will install from
 When publishing a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application, the location where users go to download and install the application is not necessarily the location where you initially publish the application. For example, in some organizations a developer might publish an application to a staging server, and then an administrator would move the application to a Web server.

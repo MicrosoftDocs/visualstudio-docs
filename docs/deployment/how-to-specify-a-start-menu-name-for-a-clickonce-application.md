@@ -1,21 +1,21 @@
 ---
-title: "How to: Specify a Start Menu Name for a ClickOnce Application | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
-helpviewer_keywords:
-  - "Start menu resource name"
-  - "Start menu name"
-  - "ClickOnce deployment, Start menu name"
+title: How to: Specify a Start Menu Name for a ClickOnce Application | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: how-to
+dev_langs: 
+  - VB
+  - CSharp
+  - C++
+helpviewer_keywords: 
+  - Start menu resource name
+  - Start menu name
+  - ClickOnce deployment, Start menu name
 ms.assetid: 4b5183b2-2fd4-4433-9310-4a73bb12c4e3
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.workload:
-  - "multiple"
+ms.workload: 
+  - multiple
 ---
 # How to: Specify a Start menu name for a ClickOnce application
 When a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application is installed for both online and offline use, an entry is added to the **Start** menu and the **Add or Remove Programs** list. By default, the display name is the same as the name of the application assembly, but you can change the display name by setting **Product name** in the **Publish Options** dialog box.
