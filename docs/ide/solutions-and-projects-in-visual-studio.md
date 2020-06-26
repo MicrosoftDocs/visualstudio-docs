@@ -1,6 +1,6 @@
 ---
 title: Solutions and projects
-ms.date: 10/05/2017
+ms.date: 06/10/2020
 ms.topic: conceptual
 f1_keywords:
 - vs.addnewitem
@@ -67,6 +67,9 @@ After you create a new project, you can use **Solution Explorer** to view and ma
 ![Solution Explorer](../ide/media/vs2015_solution_explorer.png)
 
 Many menu commands are available from the right-click menu on various items in **Solution Explorer**. These commands include building a project, managing NuGet packages, adding a reference, renaming a file, and running tests, just to name a few. The toolbar across the top of **Solution Explorer** has buttons to switch from a solution view to a folder view, show hidden files, collapse all nodes, and more.
+
+> [!NOTE]
+> If you've closed Solution Explorer and you want to open it again, choose **Window** > **Reset Window Layout** from the menu bar.
 
 For ASP.NET Core projects, you can customize how files are nested in **Solution Explorer**. For more information, see [Customize file nesting in Solution Explorer](file-nesting-solution-explorer.md).
 
