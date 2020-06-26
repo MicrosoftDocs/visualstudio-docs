@@ -75,7 +75,7 @@ UWP tests target a different runtime when the app is deployed. This means that t
 
 **How does sorting test results work in the hierarchy view?**
 
-The hierarchy view sorts tests alphabetically as opposed to by outcome. Previous group by settings sorted test results by outcome and then alphabetically. You can still enable sorting by outcome by right-clicking on the column header in the Test Explorer, enabling the 'State' column, and then clicking on the 'State' column header to apply sorting on that column. You can provide feedback about the design [in this GitHub issue](https://github.com/Microsoft/vstest/issues/1425).
+The hierarchy view sorts tests alphabetically as opposed to by outcome. Previous group by settings sorted test results by outcome and then alphabetically. You can still enable sorting by outcome by right-clicking on the column header in Test Explorer, enabling the State column, and then clicking on the State column header to apply sorting on that column. You can provide feedback about the design in this [GitHub issue](https://github.com/Microsoft/vstest/issues/1425).
 
 ## Test Explorer hierarchy view
 
