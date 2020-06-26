@@ -1,7 +1,7 @@
 ---
-title: "Error: Windows file sharing has been configured... | Microsoft Docs"
+title: "Error - Windows file sharing has been configured... | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "troubleshooting"
+ms.topic: "error-reference"
 f1_keywords:
   - "vs.debug.error.remote_credentials_prohibited"
 dev_langs:

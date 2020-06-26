@@ -4,7 +4,7 @@ titleSuffix: ''
 description: Learn more about how to deploy Visual Studio in an enterprise environment.
 ms.date: 03/09/2020
 ms.custom: seodec18
-ms.topic: conceptual
+ms.topic: overview
 helpviewer_keywords:
 - network installation, Visual Studio
 - administrator guide, Visual Studio

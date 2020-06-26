@@ -1,7 +1,7 @@
 ---
 title: "IDiaSymbol::get_isMultipleInheritance | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 ms.assetid: 0aa356a1-5c5c-4ee4-8b48-bae0a2610013

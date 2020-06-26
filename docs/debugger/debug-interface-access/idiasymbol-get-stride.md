@@ -1,7 +1,7 @@
 ---
 title: "IDiaSymbol::get_stride | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 ms.assetid: 4264742a-3d91-44b9-9d14-87adbc77f0f0
