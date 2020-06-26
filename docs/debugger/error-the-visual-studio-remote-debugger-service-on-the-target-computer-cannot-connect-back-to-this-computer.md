@@ -1,9 +1,9 @@
 ---
-title: "Error: The Visual Studio Remote Debugger service on the target computer cannot connect back to this computer"
+title: "Error - The Visual Studio Remote Debugger service on the target computer cannot connect back to this computer"
 titleSuffix: ""
 ms.custom: "seodec18"
 ms.date: "11/04/2016"
-ms.topic: "troubleshooting"
+ms.topic: "error-reference"
 f1_keywords:
   - "vs.debug.error.service_access_denied_oncallback"
 dev_langs:
