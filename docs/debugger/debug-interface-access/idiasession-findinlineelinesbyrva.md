@@ -1,7 +1,7 @@
 ---
 title: "IDiaSession::findInlineeLinesByRVA | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 ms.assetid: 7a74d5ee-0dbf-47c0-92b4-47ec03b13ce9

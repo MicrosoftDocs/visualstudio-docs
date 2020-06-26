@@ -1,7 +1,7 @@
 ---
-title: "Error: Site Uses IP Address | Microsoft Docs"
+title: "Error - Site Uses IP Address | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "troubleshooting"
+ms.topic: "error-reference"
 f1_keywords:
   - "vs.debug.error.webdbg_siteusesipaddress"
 dev_langs:
