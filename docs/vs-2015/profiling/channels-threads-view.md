@@ -22,7 +22,7 @@ The Concurrency Visualizer shows four kinds of channels: thread channels, disk c
 ## Thread Channels  
  A thread channel shows thread state, by color, for just one thread. When you pause on the channel name, the start function for the given thread is displayed. The Concurrency Visualizer detects several kinds of threads. The most common kinds are shown in the following table.  
   
-|||  
+|Thread|Description|  
 |-|-|  
 |Main thread|The thread that started the app.|  
 |Worker thread|A thread that was created by the application main thread.|  
