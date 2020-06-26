@@ -312,34 +312,34 @@ manager: jillfra
 ##### Examples
  Green is used for positive action modifiers such as “Add,” “Run,” “Play,” and “Validate.”
 
-|Run|Stop|Delete|Save|Navigate Back|
-|-|-|-|-|-|
-|![Run icon](../../extensibility/ux-guidelines/media/0405-03_actionmodifierrun.png "0405-03_ActionModifierRun")|![Stop icon](../../extensibility/ux-guidelines/media/0405-19_stop.png "0405-19_Stop")|![Delete icon](../../extensibility/ux-guidelines/media/0405-20_delete.png "0405-20_Delete")|![Save icon](../../extensibility/ux-guidelines/media/0405-21_save.png "0405-21_Save")|![Navigate back icon](../../extensibility/ux-guidelines/media/0405-22_navigateback.png "0405-22_NavigateBack")|
+|Run|Execute query|Play all steps|Add Control|
+|-|-|-|-|
+|![Run icon](../../extensibility/ux-guidelines/media/0405-03-actionmodifierrun.png "0405-03_ActionModifierRun")|![Execute query icon](../../extensibility/ux-guidelines/media/0405-04-executequery.png "0405-04_ExecuteQuery")|![Play all steps icon](../../extensibility/ux-guidelines/media/0405-05-playallsteps.png "0405-05_PlayAllSteps")|![Add control icon](../../extensibility/ux-guidelines/media/0405-06-addcontrol.png "0405-06_AddControl")|
 
  Red is used for negative action modifiers such as “Delete,” “Stop,” “Cancel,” and “Close.”
 
 |Delete Relationship|Delete Column|Stop Query|Connection Offline|
 |-|-|-|-|
-|![Delete relationship icon](../../extensibility/ux-guidelines/media/0405-07_deleterelationship.png "0405-07_DeleteRelationship")|![Delete column icon](../../extensibility/ux-guidelines/media/0405-08_deletecolumn.png "0405-08_DeleteColumn")|![Stop query icon](../../extensibility/ux-guidelines/media/0405-09_stopquery.png "0405-09_StopQuery")|![Connection offline icon](../../extensibility/ux-guidelines/media/0405-10_connectionoffline.png "0405-10_ConnectionOffline")|
+|![Delete relationship icon](../../extensibility/ux-guidelines/media/0405-07-deleterelationship.png "0405-07_DeleteRelationship")|![Delete column icon](../../extensibility/ux-guidelines/media/0405-08-deletecolumn.png "0405-08_DeleteColumn")|![Stop query icon](../../extensibility/ux-guidelines/media/0405-09-stopquery.png "0405-09_StopQuery")|![Connection offline icon](../../extensibility/ux-guidelines/media/0405-10-connectionoffline.png "0405-10_ConnectionOffline")|
 
  Blue is applied to neutral action modifiers most commonly represented as arrows, such as “Open,” “Next,” “Previous,” “Import,” and “Export.”
 
 |Go to Field|Batched Check-In|Address Editor|Association Editor|
 |-|-|-|-|
-|![Go to field icon](../../extensibility/ux-guidelines/media/0405-11_gotofield.png "0405-11_GoToField")|![Batched check&#45;in icon](../../extensibility/ux-guidelines/media/0405-12_batchedcheckin.png "0405-12_BatchedCheckIn")|![Address editor icon](../../extensibility/ux-guidelines/media/0405-13_addresseditor.png "0405-13_AddressEditor")|![Association editor icon](../../extensibility/ux-guidelines/media/0405-14_associationeditor.png "0405-14_AssociationEditor")|
+|![Go to field icon](../../extensibility/ux-guidelines/media/0405-11-gotofield.png "0405-11_GoToField")|![Batched check&#45;in icon](../../extensibility/ux-guidelines/media/0405-12-batchedcheckin.png "0405-12_BatchedCheckIn")|![Address editor icon](../../extensibility/ux-guidelines/media/0405-13-addresseditor.png "0405-13_AddressEditor")|![Association editor icon](../../extensibility/ux-guidelines/media/0405-14-associationeditor.png "0405-14_AssociationEditor")|
 
  Dark gold is primarily used for the “New” modifier.
 
 |New Project|Create New Graph|New Unit Test|New List Item|
 |-|-|-|-|
-|![New project icon](../../extensibility/ux-guidelines/media/0405-15_newproject.png "0405-15_NewProject")|![Create new graph icon](../../extensibility/ux-guidelines/media/0405-16_createnewgraph.png "0405-16_CreateNewGraph")|![New unit test icon](../../extensibility/ux-guidelines/media/0405-17_newunittest.png "0405-17_NewUnitTest")|![New list item icon](../../extensibility/ux-guidelines/media/0405-18_newlistitem.png "0405-18_NewListItem")|
+|![New project icon](../../extensibility/ux-guidelines/media/0405-15-newproject.png "0405-15_NewProject")|![Create new graph icon](../../extensibility/ux-guidelines/media/0405-16-createnewgraph.png "0405-16_CreateNewGraph")|![New unit test icon](../../extensibility/ux-guidelines/media/0405-17-newunittest.png "0405-17_NewUnitTest")|![New list item icon](../../extensibility/ux-guidelines/media/0405-18-newlistitem.png "0405-18_NewListItem")|
 
 #### Special cases
  In special cases, a colored action modifier may be used independently as a standalone icon. The color used for the icon reflects the actions that the icon is associated with. This use is limited to a small subset of icons, including:
 
 |Run|Stop|Delete|Save|Navigate Back|
 |-|-|-|-|-|
-|![Run icon](../../extensibility/ux-guidelines/media/0405-03_actionmodifierrun.png "0405-03_ActionModifierRun")|![Stop icon](../../extensibility/ux-guidelines/media/0405-19_stop.png "0405-19_Stop")|![Delete icon](../../extensibility/ux-guidelines/media/0405-20_delete.png "0405-20_Delete")|![Save icon](../../extensibility/ux-guidelines/media/0405-21_save.png "0405-21_Save")|![Navigate back icon](../../extensibility/ux-guidelines/media/0405-22_navigateback.png "0405-22_NavigateBack")|
+|![Run icon](../../extensibility/ux-guidelines/media/0405-03-actionmodifierrun.png "0405-03_ActionModifierRun")|![Stop icon](../../extensibility/ux-guidelines/media/0405-19-stop.png "0405-19_Stop")|![Delete icon](../../extensibility/ux-guidelines/media/0405-20-delete.png "0405-20_Delete")|![Save icon](../../extensibility/ux-guidelines/media/0405-21-save.png "0405-21_Save")|![Navigate back icon](../../extensibility/ux-guidelines/media/0405-22-navigateback.png "0405-22_NavigateBack")|
 ### Code hierarchy palette
 
 #### Folder
