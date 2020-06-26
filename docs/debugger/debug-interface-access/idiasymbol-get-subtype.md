@@ -1,7 +1,7 @@
 ---
 title: "IDiaSymbol::get_subType | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 ms.assetid: 0b3cbf77-8f11-434a-ad60-ea9829fec6fa

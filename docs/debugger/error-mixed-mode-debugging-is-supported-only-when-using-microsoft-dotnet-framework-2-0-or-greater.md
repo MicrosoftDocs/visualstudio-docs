@@ -1,7 +1,7 @@
 ---
-title: "Error: Mixed mode debugging is supported only when using Microsoft .NET Framework 2.0 or greater | Microsoft Docs"
+title: "Error - Mixed mode debugging is supported only when using Microsoft .NET Framework 2.0 or greater | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "troubleshooting"
+ms.topic: "error-reference"
 f1_keywords:
   - "vs.debug.error.interop_unsupported_to_old"
 dev_langs:

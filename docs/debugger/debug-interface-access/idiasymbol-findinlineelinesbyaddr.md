@@ -1,7 +1,7 @@
 ---
 title: "IDiaSymbol::findInlineeLinesByAddr | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 ms.assetid: f1ab47ca-c851-48ea-9c12-47fb80b31102
