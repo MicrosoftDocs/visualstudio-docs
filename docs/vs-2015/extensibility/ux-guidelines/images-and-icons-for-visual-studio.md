@@ -367,11 +367,11 @@ manager: jillfra
 
 |VB|C#|F#|JavaScript|Python|
 |-|-|-|-|-|-|
-|![Visual Basic icon](../../extensibility/ux-guidelines/media/0405-25_vb.png "0405-25_VB")|![C&#35; icon](../../extensibility/ux-guidelines/media/0405-26_csharp.png "0405-26_CSharp")|![C&#43;&#43; icon](../../extensibility/ux-guidelines/media/0405-27_cplusplus.png "0405-27_CPlusPlus")|![F&#35; icon](../../extensibility/ux-guidelines/media/0405-28_fsharp.png "0405-28_FSharp")|![JavaScript icon](../../extensibility/ux-guidelines/media/0405-29_javascript.png "0405-29_JavaScript")|![Python icon](../../extensibility/ux-guidelines/media/0405-30_python.png "0405-30_Python")|
+|![Visual Basic icon](../../extensibility/ux-guidelines/media/0405-25-vb.png "0405-25_VB")|![C&#35; icon](../../extensibility/ux-guidelines/media/0405-26-csharp.png "0405-26_CSharp")|![C&#43;&#43; icon](../../extensibility/ux-guidelines/media/0405-27-cplusplus.png "0405-27_CPlusPlus")|![F&#35; icon](../../extensibility/ux-guidelines/media/0405-28-fsharp.png "0405-28_FSharp")|![JavaScript icon](../../extensibility/ux-guidelines/media/0405-29-javascript.png "0405-29_JavaScript")|![Python icon](../../extensibility/ux-guidelines/media/0405-30-python.png "0405-30_Python")|
 
 |HTML|WPF|ASP|CSS|TypeScript|
 |-|-|-|-|-|-|
-|![HTML icon](../../extensibility/ux-guidelines/media/0405-31_html.png "0405-31_HTML")<br />HTML|![WPF icon](../../extensibility/ux-guidelines/media/0405-32_wpf.png "0405-32_WPF")<br />WPF|![ASP icon](../../extensibility/ux-guidelines/media/0405-33_asp.png "0405-33_ASP")<br />ASP|![CSS icon](../../extensibility/ux-guidelines/media/0405-34_css.png "0405-34_CSS")<br />CSS|![TypeScript icon](../../extensibility/ux-guidelines/media/0405-35_typescript.png "0405-35_TypeScript")<br />TypeScript||
+|![HTML icon](../../extensibility/ux-guidelines/media/0405-31-html.png "0405-31_HTML")<br />HTML|![WPF icon](../../extensibility/ux-guidelines/media/0405-32-wpf.png "0405-32_WPF")<br />WPF|![ASP icon](../../extensibility/ux-guidelines/media/0405-33-asp.png "0405-33_ASP")<br />ASP|![CSS icon](../../extensibility/ux-guidelines/media/0405-34-css.png "0405-34_CSS")<br />CSS|![TypeScript icon](../../extensibility/ux-guidelines/media/0405-35-typescript.png "0405-35_TypeScript")<br />TypeScript||
 
 #### IntelliSense
  IntelliSense icons use an exclusive color palette. These colors are used to help users quickly distinguish between the different items in the IntelliSense popup list.
@@ -389,11 +389,11 @@ manager: jillfra
 
 |Class|Private Event|Delegate|Method Friend|Field|
 |-|-|-|-|-|
-|![IntelliSense class icon](../../extensibility/ux-guidelines/media/0405-36_intellisenseclass.png "0405-36_IntelliSenseClass")|![IntelliSense private event icon](../../extensibility/ux-guidelines/media/0405-37_intellisenseprivateevent.png "0405-37_IntelliSensePrivateEvent")|![IntelliSense delegate icon](../../extensibility/ux-guidelines/media/0405-38_intellisensedelegate.png "0405-38_IntelliSenseDelegate")|![IntelliSense method friend icon](../../extensibility/ux-guidelines/media/0405-39_intellisensemethodfriend.png "0405-39_IntelliSenseMethodFriend")|![Field icon](../../extensibility/ux-guidelines/media/0405-40_field.png "0405-40_Field")|
+|![IntelliSense class icon](../../extensibility/ux-guidelines/media/0405-36-intellisenseclass.png "0405-36_IntelliSenseClass")|![IntelliSense private event icon](../../extensibility/ux-guidelines/media/0405-37-intellisenseprivateevent.png "0405-37_IntelliSensePrivateEvent")|![IntelliSense delegate icon](../../extensibility/ux-guidelines/media/0405-38-intellisensedelegate.png "0405-38_IntelliSenseDelegate")|![IntelliSense method friend icon](../../extensibility/ux-guidelines/media/0405-39-intellisensemethodfriend.png "0405-39_IntelliSenseMethodFriend")|![Field icon](../../extensibility/ux-guidelines/media/0405-40-field.png "0405-40_Field")|
 
 |Protected Enum Item|Object|Template|Exception Shortcut|
 |-|-|-|-|
-|![IntelliSense protected enum item icon](../../extensibility/ux-guidelines/media/0405-41_intellisenseprotectedenumitem.png "0405-41_IntelliSenseProtectedEnumItem")|![IntelliSense object icon](../../extensibility/ux-guidelines/media/0405-42_intellisenseobject.png "0405-42_IntelliSenseObject")|![IntelliSense template icon](../../extensibility/ux-guidelines/media/0405-43_intellisensetemplate.png "0405-43_IntelliSenseTemplate")|![IntelliSense exception shortcut icon](../../extensibility/ux-guidelines/media/0405-44_intellisenseexceptionshortcut.png "0405-44_IntelliSenseExceptionShortcut")|
+|![IntelliSense protected enum item icon](../../extensibility/ux-guidelines/media/0405-41-intellisenseprotectedenumitem.png "0405-41_IntelliSenseProtectedEnumItem")|![IntelliSense object icon](../../extensibility/ux-guidelines/media/0405-42-intellisenseobject.png "0405-42_IntelliSenseObject")|![IntelliSense template icon](../../extensibility/ux-guidelines/media/0405-43-intellisensetemplate.png "0405-43_IntelliSenseTemplate")|![IntelliSense exception shortcut icon](../../extensibility/ux-guidelines/media/0405-44-intellisenseexceptionshortcut.png "0405-44_IntelliSenseExceptionShortcut")|
 
 ### Notifications
  Notifications in Visual Studio are used to indicate status. The notification palette uses the following four colors, as well as black or white foreground fill options, to define notifications with the following status levels.
@@ -411,7 +411,7 @@ manager: jillfra
 
 |Alert|Warning|Complete|Stop|
 |-|-|-|-|
-|![Alert icon](../../extensibility/ux-guidelines/media/0405-45_alert.png "0405-45_Alert")|![Warning icon](../../extensibility/ux-guidelines/media/0405-48_warning.png "0405-48_Warning")|![Complete icon](../../extensibility/ux-guidelines/media/0405-46_complete.png "0405-46_Complete")|![Stop icon](../../extensibility/ux-guidelines/media/0405-47_stop.png "0405-47_Stop")|
+|![Alert icon](../../extensibility/ux-guidelines/media/0405-45-alert.png "0405-45_Alert")|![Warning icon](../../extensibility/ux-guidelines/media/0405-48-warning.png "0405-48_Warning")|![Complete icon](../../extensibility/ux-guidelines/media/0405-46-complete.png "0405-46_Complete")|![Stop icon](../../extensibility/ux-guidelines/media/0405-47-stop.png "0405-47_Stop")|
 
 ### Visual Studio Online
  In general, Visual Studio Online consists of features hosted in a browser. The color varies in different environments, but the style remains the same.
