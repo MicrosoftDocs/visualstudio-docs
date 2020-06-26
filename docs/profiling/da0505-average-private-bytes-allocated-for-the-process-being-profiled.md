@@ -16,7 +16,7 @@ ms.workload:
 ---
 # DA0505: Average Private Bytes allocated for the Process being profiled
 
-|Property|Value|
+|Item|Value|
 |-|-|
 |Rule Id|DA0505|
 |Category|Resource Management|
