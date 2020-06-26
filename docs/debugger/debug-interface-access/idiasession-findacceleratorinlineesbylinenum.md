@@ -1,7 +1,7 @@
 ---
 title: "IDiaSession::findAcceleratorInlineesByLinenum | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 ms.assetid: 386c87aa-f7b2-4d38-9dd6-fffba9ff01f0

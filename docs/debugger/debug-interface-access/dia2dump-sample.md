@@ -1,7 +1,7 @@
 ---
 title: "Dia2dump Sample | Microsoft Docs"
 ms.date: "07/24/2018"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
