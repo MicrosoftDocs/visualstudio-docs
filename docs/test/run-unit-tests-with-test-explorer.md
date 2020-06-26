@@ -217,7 +217,7 @@ New in Visual Studio 2019 Update 16.7, you can choose the edit button in the too
 
 ![Edit Playlist button](../test/media/vs-2019/test-explorer-playlist-edit-16-7.png)
 
-You can also check or uncheck the boxes of the parent groups in the hierarchy. This will create a dyanmic playlist that will always update the playlist based on what tests are in that group. For example, if you place a check mark next to a class, any test added from that class will also be a part of this playlist. If you delete a test from that class it would be removed from the playlist. You can learn more about the rules by saving the playlist with the save button in the toolbar and opening the .playlist file that is created on your disk. This file lists all the rules and individual tests that make up a playlist.
+You can also check or uncheck the boxes of the parent groups in the hierarchy. This will create a dynamic playlist that will always update the playlist based on what tests are in that group. For example, if you place a check mark next to a class, any test added from that class will also be a part of this playlist. If you delete a test from that class it would be removed from the playlist. You can learn more about the rules by saving the playlist with the save button in the toolbar and opening the .playlist file that is created on your disk. This file lists all the rules and individual tests that make up a playlist.
 
 ![Playlist xml file](../test/media/vs-2019/test-explorer-playlist-xml-file.png)
 ::: moniker-end
