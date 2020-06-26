@@ -17,7 +17,7 @@ ms.workload:
 ---
 # DA0008: Few samples collected
 
-|Property|Value|
+|Item|Value|
 |-|-|
 |Rule Id|DA0008|
 |Category|Profiling Tools Usage|

@@ -16,7 +16,7 @@ ms.workload:
 ---
 # DA0022: High rate of Gen 2 garbage collections
 
-|Property|Value|
+|Item|Value|
 |-|-|
 |Rule Id|DA0022|
 |Category|.NET Framework Usage|

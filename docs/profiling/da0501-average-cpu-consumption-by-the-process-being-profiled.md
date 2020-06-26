@@ -16,7 +16,7 @@ ms.workload:
 ---
 # DA0501: Average CPU consumption by the process being profiled.
 
-|Property|Value|
+|Item|Value|
 |-|-|
 |Rule Id|DA501|
 |Category|Resource Monitoring|

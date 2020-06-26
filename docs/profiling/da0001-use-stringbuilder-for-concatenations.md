@@ -17,7 +17,7 @@ ms.workload:
 ---
 # DA0001: Use StringBuilder for concatenations
 
-|Property|Value|
+|Item|Value|
 |-|-|
 |Rule Id|DA0001|
 |Category|.NET Framework Usage|

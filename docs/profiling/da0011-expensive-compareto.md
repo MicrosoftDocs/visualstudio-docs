@@ -17,7 +17,7 @@ ms.workload:
 ---
 # DA0011: Expensive CompareTo
 
-|Property|Value|
+|Item|Value|
 |-|-|
 |Rule Id|DA0011|
 |Category|.NET Framework Usage|

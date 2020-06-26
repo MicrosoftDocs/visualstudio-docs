@@ -19,7 +19,7 @@ ms.workload:
 ---
 # DA0029: Unsupported CLR version
 
-|Property|Value|
+|Item|Value|
 |-|-|
 |Rule Id|DA0029|
 |Category|Profiling Tools Usage|
