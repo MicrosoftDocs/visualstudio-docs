@@ -16,16 +16,6 @@ author: kendrahavens
 manager: jillfra
 ---
 # Visual Studio Test Explorer FAQ
-::: moniker range=">=vs-2019"
-
-## Where is group by Traits in Visual Studio 2019?
-This Trait grouping was moved to be a column. With the multi-tiered and customizable hierarchy in Visual Studio 2019 version 16.2, we thought including traits as a grouping created unneeded visual complexity. We are definitely listening to feedback on this design! https://developercommunity.visualstudio.com/content/problem/588029/no-longer-able-to-group-by-trait-in-test-explorer.html
-
-For now, you can right click on the column in the Test Explorer and select Columns. Check the Trait column and it will appear in the Test Explorer. You can now filter this column by what traits you are interested in.
-
-![Display the Trait column](media/vs-2019/trait-column.png)
-![Filter the trait column](media/vs-2019/trait-column-filter.png)
-::: moniker-end
 
 ## Dynamic test discovery
 
@@ -85,9 +75,7 @@ UWP tests target a different runtime when the app is deployed. This means that t
 
 **How does sorting test results work in the hierarchy view?**
 
-The hierarchy view sorts tests alphabetically as opposed to by outcome. The other group by settings normally sort test results by outcome and then alphabetically. See the different group by options in the following image for comparison. You can provide feedback about the design [in this GitHub issue](https://github.com/Microsoft/vstest/issues/1425).
-
-![SortingExamples](media/testex-sortingex.png)
+The hierarchy view sorts tests alphabetically as opposed to by outcome. The other group by settings normally sort test results by outcome and then alphabetically. You can provide feedback about the design [in this GitHub issue](https://github.com/Microsoft/vstest/issues/1425).
 
 ## Test Explorer hierarchy view
 
@@ -147,7 +135,12 @@ To fix this error:
 ```XML
 <SDKReference Include="TestPlatform.Universal, Version=$(UnitTestPlatformVersion)" />
 ```
+::: moniker range=">=vs-2019"
+## Using preview features
 
+In Visual Studio 2019 you can opt into preview features in **Tools > Options > Environment > Preview Features**.
+::: moniker-end
+::: moniker range=">=vs-2017"
 ## Using feature flags
 
 **How can I turn on feature flags to try out new testing features?**
@@ -164,7 +157,7 @@ vsregedit set “C:\Program Files (x86)\Microsoft Visual Studio\Preview\Enterpri
 
 > [!NOTE]
 > You can turn off the flag with the same command, by using a value of 0 instead of 1 after dword.
-
+::: moniker-end
 ## See also
 
 - <xref:Microsoft.VisualStudio.TestTools.UnitTesting?displayProperty=fullName>
