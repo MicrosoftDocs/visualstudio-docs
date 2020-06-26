@@ -5,7 +5,7 @@ ms.custom: "seodec18, get-started"
 ms.date: 04/23/2019
 ms.technology: vs-ide-general
 ms.prod: visual-studio-windows
-ms.topic: conceptual
+ms.topic: tutorial
 dev_langs:
   - "VB"
 ms.assetid: f84339c7-d617-4f56-bfcd-af2215c347ba
