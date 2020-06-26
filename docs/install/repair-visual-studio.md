@@ -4,7 +4,7 @@ titleSuffix: ''
 description: Learn how to repair an installation of Visual Studio 2017
 ms.date: 06/15/2020
 ms.custom: seodec18
-ms.topic: conceptual
+ms.topic: how-to
 author: ornellaalt
 ms.author: ornella
 manager: jillfra
