@@ -1,7 +1,7 @@
 ---
-title: "Error: Unable to set data breakpoint | Microsoft Docs"
+title: "Error - Unable to set data breakpoint | Microsoft Docs"
 ms.date: "12/3/2019"
-ms.topic: "troubleshooting"
+ms.topic: "error-reference"
 f1_keywords:
   - "vs.debug.error.unable_to_set_data_breakpoint"
 dev_langs:
