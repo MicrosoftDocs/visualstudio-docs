@@ -138,7 +138,7 @@ To fix this error:
 ::: moniker range=">=vs-2019"
 ## Using preview features
 
-In Visual Studio 2019 you can opt into preview features in **Tools > Options > Environment > Preview Features**.
+In Visual Studio 2019, you can opt into preview features in **Tools > Options > Environment > Preview Features**.
 ::: moniker-end
 ::: moniker range=">=vs-2017"
 ## Using feature flags
