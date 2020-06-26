@@ -19,7 +19,7 @@ manager: "wpickett"
 # CA2117: APTCA types should only extend APTCA base types
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-|||
+|Item|Value|
 |-|-|
 |TypeName|AptcaTypesShouldOnlyExtendAptcaBaseTypes|
 |CheckId|CA2117|

@@ -20,7 +20,7 @@ ms.workload:
 ---
 # DA0013: High usage of String.Split or String.Substring
 
-|||
+|Property|Value|
 |-|-|
 |Rule Id|DA0013|
 |Category|.NET Framework Usage Guidance|

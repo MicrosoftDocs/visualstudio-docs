@@ -16,7 +16,7 @@ ms.workload:
 ---
 # DA0503: Average working set in bytes for the process being profiled
 
-|||
+|Property|Value|
 |-|-|
 |Rule Id|DA0503|
 |Category|Resource Monitoring|

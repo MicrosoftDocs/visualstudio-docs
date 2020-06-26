@@ -17,7 +17,7 @@ ms.workload:
 ---
 # DA0004: High processor usage
 
-|||
+|Property|Value|
 |-|-|
 |Rule Id|DA0004|
 |Category|Profiling Tools Usage|

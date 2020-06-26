@@ -17,7 +17,7 @@ ms.workload:
 ---
 # DA0003: Many kernel samples
 
-|||
+|Property|Value|
 |-|-|
 |Rule Id|DA0003|
 |Category|Profiling Tools Usage|

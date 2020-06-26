@@ -16,7 +16,7 @@ ms.workload:
 ---
 # DA0504: Maximum Working Set in Bytes for the Process being profiled
 
-|||
+|Property|Value|
 |-|-|
 |Rule Id|DA0504|
 |Category|Resource Management|

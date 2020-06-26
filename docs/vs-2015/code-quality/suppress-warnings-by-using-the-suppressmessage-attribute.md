@@ -27,7 +27,7 @@ It is often useful to indicate that the warning is nonapplicable to let team mem
 
 ## In This Section
 
-|||
+|Title|Description|
 |-|-|
 |[In Source Suppression Overview](../code-quality/in-source-suppression-overview.md)|Learn about ISS and how to use it in your code.|
 |[How to: Suppress Warnings by Using the Menu Item](../code-quality/how-to-suppress-warnings-by-using-the-menu-item.md)|Learn how to suppress warnings in the [!INCLUDE[vsprvs](../includes/vsprvs-md.md)] IDE by using the shortcut menu.|

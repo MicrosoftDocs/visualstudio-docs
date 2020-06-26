@@ -19,7 +19,7 @@ manager: "wpickett"
 # CA1304: Specify CultureInfo
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-|||
+|Item|Value|
 |-|-|
 |TypeName|SpecifyCultureInfo|
 |CheckId|CA1304|

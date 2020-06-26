@@ -19,7 +19,7 @@ The following are lists of the Visual Studio editions that are supported with [!
 
 To define a DSL, you must have installed the following components:
 
-|||
+|Product|Download link|
 |-|-|
 |Visual Studio|[http://go.microsoft.com/fwlink/?LinkId=185579](https://visualstudio.microsoft.com/)|
 |Visual Studio SDK|[http://go.microsoft.com/fwlink/?LinkId=185580](/azure/devops/integrate/index?view=azure-devops&viewFallbackFrom=vsts)|

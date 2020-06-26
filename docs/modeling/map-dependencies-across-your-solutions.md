@@ -183,7 +183,7 @@ Suppose you have a code review to perform in some files with pending changes. To
 
     For an **assembly**, choose:
 
-    |||
+    |Option|Description|
     |-|-|
     |**Show Assemblies This References**|Add assemblies that this assembly references. External assemblies appear in the **Externals** group.|
     |**Show Assemblies Referencing This**|Add assemblies in the solution that reference this assembly.|
@@ -192,7 +192,7 @@ Suppose you have a code review to perform in some files with pending changes. To
 
     For a **class** or **interface**, choose:
 
-    |||
+    |Option|Description|
     |-|-|
     |**Show Base Types**|For a class, add the base class and the implemented interfaces.<br /><br /> For an interface, add the base interfaces.|
     |**Show Derived Types**|For a class, add the derived classes.<br /><br /> For an interface, add the derived interfaces and the implementing classes or structs.|
@@ -205,7 +205,7 @@ Suppose you have a code review to perform in some files with pending changes. To
 
      For a **method**, choose:
 
-    |||
+    |Option|Description|
     |-|-|
     |**Show Methods This Calls**|Add methods that this method calls.|
     |**Show Fields This References**|Add fields that this method references.|
@@ -215,7 +215,7 @@ Suppose you have a code review to perform in some files with pending changes. To
 
      For a **field** or **property**, choose:
 
-    |||
+    |Option|Description|
     |-|-|
     |**Show Containing Type**|Add the parent type.|
     |**Show Containing Type, Namespace, and Assembly**|Add the parent container hierarchy.|

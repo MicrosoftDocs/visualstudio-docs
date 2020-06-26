@@ -16,7 +16,7 @@ ms.workload:
 ---
 # DA0023: High GC CPU time
 
-|||
+|Property|Value|
 |-|-|
 |Rule Id|DA0023|
 |Category|.NET Framework Usage|

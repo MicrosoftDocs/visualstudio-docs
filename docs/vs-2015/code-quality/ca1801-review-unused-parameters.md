@@ -22,7 +22,7 @@ manager: "wpickett"
 
 For the latest documentation on Visual Studio, see [CA1801: Review unused parameters](/visualstudio/code-quality/ca1801-review-unused-parameters).
 
-|||
+|Item|Value|
 |-|-|
 |TypeName|ReviewUnusedParameters|
 |CheckId|CA1801|

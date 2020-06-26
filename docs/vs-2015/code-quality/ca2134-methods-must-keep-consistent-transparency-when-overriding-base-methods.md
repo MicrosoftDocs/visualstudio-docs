@@ -15,7 +15,7 @@ manager: "wpickett"
 # CA2134: Methods must keep consistent transparency when overriding base methods
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-|||
+|Item|Value|
 |-|-|
 |TypeName|MethodsMustOverrideWithConsistentTransparency|
 |CheckId|CA2134|

@@ -12,7 +12,7 @@ manager: "wpickett"
 # CA2153: Avoid Handling Corrupted State Exceptions
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-|||
+|Item|Value|
 |-|-|
 |TypeName|AvoidHandlingCorruptedStateExceptions|
 |CheckId|CA2153|

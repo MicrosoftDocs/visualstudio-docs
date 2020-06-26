@@ -50,7 +50,7 @@ In this topic:
 
  where *ElementType* is a type of the model element such as `IClass` or `IUseCase`.
 
-|||
+|Syntax|Description|
 |-|-|
 |`anElement.Shapes ()`|All the `IShapes` that represent this element in open diagrams.|
 |`anElement.Shapes(aDiagram)`|All the `IShapes` that represent this element on a particular diagram.|
@@ -64,7 +64,7 @@ In this topic:
 
 ## <a name="Moving"></a> Moving and resizing shapes
 
-|||
+|Syntax|Description|
 |-|-|
 |`anIShape.Move(x, y, [width], [height])`|Move or resize a shape.|
 |`IDiagram.EnsureVisible( IEnumerable<IShape> shapes, bool zoomToFit = false)`|Activate the window and scroll the diagram so that all the given shapes are visible. The shapes must all be on the diagram. If `zoomToFit` is true, the diagram will be scaled if necessary so that all of the shapes are visible.|

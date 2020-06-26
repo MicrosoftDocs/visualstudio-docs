@@ -12,7 +12,7 @@ manager: "wpickett"
 # CA3075: Insecure DTD Processing
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-|||
+|Item|Value|
 |-|-|
 |TypeName|InsecureDTDProcessing|
 |CheckId|CA3075|

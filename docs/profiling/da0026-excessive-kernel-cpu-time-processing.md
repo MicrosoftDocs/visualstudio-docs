@@ -16,7 +16,7 @@ ms.workload:
 ---
 # DA0026: Excessive kernel CPU time processing
 
-|||
+|Property|Value|
 |-|-|
 |Rule Id|TODO|
 |Category|Profiling Tools Usage|

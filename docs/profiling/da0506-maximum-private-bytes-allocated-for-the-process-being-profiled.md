@@ -16,7 +16,7 @@ ms.workload:
 ---
 # DA0506: Maximum Private Bytes allocated for the Process being profiled
 
-|||
+|Property|Value|
 |-|-|
 |Rule Id|DA0506|
 |Category|Resource Monitoring|
