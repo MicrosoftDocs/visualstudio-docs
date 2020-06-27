@@ -48,7 +48,7 @@ If your project is checked in to source code control, every **Class View** eleme
 
 The **Class View** toolbar contains the following commands:
 
-|||
+|Name|Description|
 |-|-|
 |**New Folder**|Creates a virtual folder or subfolder in which you can organize frequently used elements. They are saved in the active solution (*.suo*) file. After you rename or delete an element in your code, it might appear in a virtual folder as an error node. To correct this problem, delete the error node. If you renamed an element, you can move it from the project hierarchy into the folder again.|
 |**Back**|Navigates to the previously selected item.|
@@ -59,7 +59,7 @@ The **Class View** toolbar contains the following commands:
 
 The **Class View Settings** button on the toolbar has the following settings:
 
-|||
+|Name|Description|
 |-|-|
 |**Show Base Types**|Base types are displayed.|
 |**Show Project References**|Project references are displayed.|
@@ -74,7 +74,7 @@ The **Class View Settings** button on the toolbar has the following settings:
 
 The shortcut (or right-click) menu in **Class View** may contain the following commands, depending on the kind of project selected:
 
-|||
+|Name|Description|
 |-|-|
 |**Go To Definition**|Finds the definition of the element in the source code, or in the **Object Browser**, if the element is not defined in the open project.|
 |**Browse Definition**|Displays the selected item in the **Object Browser**.|
@@ -106,7 +106,7 @@ The **Call Hierarchy** window does not find method group references, which inclu
 
 The shortcut menu in the **Call Hierarchy** window contains the following commands:
 
-|||
+|Name|Description|
 |-|-|
 |**Add as New Root**|Adds the selected node as a new root node.|
 |**Remove Root**|Removes the selected root node from the tree view pane.|
@@ -145,7 +145,7 @@ You can use the **Object Browser** to add an assembly reference to an open solut
 
 By using the **Object Browser Settings** button on the toolbar, you can specify one of the following views:
 
-|||
+|Name|Description|
 |-|-|
 |**View Namespaces**|Displays namespaces rather than physical containers, in the left pane. Namespaces stored in multiple physical containers are merged.|
 |**View Containers**|Displays physical containers rather than namespaces, in the left pane. **View Namespaces** and **View Containers** are mutually exclusive settings.|
@@ -162,7 +162,7 @@ By using the **Object Browser Settings** button on the toolbar, you can specify 
 
 The shortcut (or right-click) menu in **Object Browser** may contain the following commands, depending on the kind of item selected:
 
-|||
+|Name|Description|
 |-|-|
 |**Browse Definition**|Shows the primary node for the selected item.|
 |**Find All References**|Finds the currently selected object item and displays the results in a **Find Results** window.|
@@ -191,7 +191,7 @@ Although this window is read-only, you can set breakpoints or bookmarks in it. T
 
 The shortcut (or right-click) menu in the **Code Definition** window may contain the following commands:
 
-|||
+|Name|Description|
 |-|-|
 |**Quick Actions and Refactorings**||
 |**Rename**||

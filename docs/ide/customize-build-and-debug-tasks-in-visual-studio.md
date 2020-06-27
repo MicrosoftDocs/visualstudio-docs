@@ -195,7 +195,7 @@ This section describes some of the properties you can specify in *tasks.vs.json*
 
 You can create tasks for any file or folder by specifying its name in the `appliesTo` field, for example `"appliesTo": "hello.js"`. The following file masks can be used as values:
 
-|||
+|File mask|Description|
 |-|-|
 |`"*"`| task is available to all files and folders in the workspace|
 |`"*/"`| task is available to all folders in the workspace|
@@ -207,7 +207,7 @@ You can create tasks for any file or folder by specifying its name in the `appli
 
 #### Macros for tasks.vs.json
 
-|||
+|Macro|Description|
 |-|-|
 |`${env.<VARIABLE>}`| Specifies any environment variable (for example,  ${env.PATH}, ${env.COMSPEC} and so on) that is set for the developer command prompt. For more information, see [Developer command prompt for Visual Studio](/dotnet/framework/tools/developer-command-prompt-for-vs).|
 |`${workspaceRoot}`| The full path to the workspace folder (for example, *C:\sources\hello*)|

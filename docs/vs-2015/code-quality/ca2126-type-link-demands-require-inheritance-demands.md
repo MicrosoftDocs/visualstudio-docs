@@ -19,7 +19,7 @@ manager: "wpickett"
 # CA2126: Type link demands require inheritance demands
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-|||
+|Item|Value|
 |-|-|
 |TypeName|TypeLinkDemandsRequireInheritanceDemands|
 |CheckId|CA2126|

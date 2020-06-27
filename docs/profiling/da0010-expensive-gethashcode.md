@@ -17,7 +17,7 @@ ms.workload:
 ---
 # DA0010: Expensive GetHashCode
 
-|||
+|Item|Value|
 |-|-|
 |Rule Id|DA0010|
 |Category|.NET Framework Usage|

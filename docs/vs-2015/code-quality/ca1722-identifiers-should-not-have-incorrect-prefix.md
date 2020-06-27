@@ -19,7 +19,7 @@ manager: "wpickett"
 # CA1722: Identifiers should not have incorrect prefix
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-|||
+|Item|Value|
 |-|-|
 |TypeName|IdentifiersShouldNotHaveIncorrectPrefix|
 |CheckId|CA1722|

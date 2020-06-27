@@ -16,7 +16,7 @@ ms.workload:
 ---
 # DA0030: Gather tier interaction measurements for database projects
 
-|||
+|Item|Value|
 |-|-|
 |Rule Id|DA0030|
 |Category|Profiling Tools Usage|

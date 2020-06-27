@@ -19,7 +19,7 @@ manager: "wpickett"
 # CA1708: Identifiers should differ by more than case
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-|||
+|Item|Value|
 |-|-|
 |TypeName|IdentifiersShouldDifferByMoreThanCase|
 |CheckId|CA1708|

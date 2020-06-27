@@ -19,7 +19,7 @@ manager: "wpickett"
 # CA2229: Implement serialization constructors
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-|||
+|Item|Value|
 |-|-|
 |TypeName|ImplementSerializationConstructors|
 |CheckId|CA2229|

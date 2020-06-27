@@ -20,7 +20,7 @@ manager: "wpickett"
 
 For the latest documentation on Visual Studio, see [CA1726: Use preferred terms](/visualstudio/code-quality/ca1726-use-preferred-terms).
 
-|||
+|Item|Value|
 |-|-|
 |TypeName|UsePreferredTerms|
 |CheckId|CA1726|

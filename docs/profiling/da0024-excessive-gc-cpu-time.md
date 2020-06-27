@@ -16,7 +16,7 @@ ms.workload:
 ---
 # DA0024: Excessive GC CPU time
 
-|||
+|Item|Value|
 |-|-|
 |Rule Id|DA0024|
 |Category|.NET Framework Usage|

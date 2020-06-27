@@ -19,7 +19,7 @@ manager: "wpickett"
 # CA1407: Avoid static members in COM visible types
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-|||
+|Item|Value|
 |-|-|
 |TypeName|AvoidStaticMembersInComVisibleTypes|
 |CheckId|CA1407|

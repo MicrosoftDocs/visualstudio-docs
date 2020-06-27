@@ -19,7 +19,7 @@ manager: "wpickett"
 # CA1309: Use ordinal StringComparison
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-|||
+|Item|Value|
 |-|-|
 |TypeName|UseOrdinalStringComparison|
 |CheckId|CA1309|
