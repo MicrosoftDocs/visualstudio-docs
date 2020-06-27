@@ -4,7 +4,7 @@ titleSuffix: ''
 description: Learn how to uninstall Visual Studio, step-by-step.
 ms.date: 05/06/2020
 ms.custom: seodec18
-ms.topic: conceptual
+ms.topic: how-to
 f1_keywords:
 - uninstall
 - uninstall Visual Studio

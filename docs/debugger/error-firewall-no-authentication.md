@@ -1,7 +1,7 @@
 ---
-title: "Error: Firewall No Authentication | Microsoft Docs"
+title: "Error - Firewall No Authentication | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "troubleshooting"
+ms.topic: "error-reference"
 f1_keywords:
   - "vs.debug.error.firewall.noauth"
 dev_langs:

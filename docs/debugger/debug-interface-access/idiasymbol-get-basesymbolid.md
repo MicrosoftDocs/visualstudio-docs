@@ -1,7 +1,7 @@
 ---
 title: "IDiaSymbol::get_baseSymbolId | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 ms.assetid: cd504d2b-194f-4106-8de5-2de827a79cbd

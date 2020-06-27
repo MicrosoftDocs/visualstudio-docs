@@ -1,7 +1,7 @@
 ---
 title: "IDiaSymbol::get_objectFileName | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 ms.assetid: 21793872-4879-4e4d-b527-dcf70aa7fb31
