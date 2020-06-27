@@ -3,7 +3,7 @@ title: "How to: Create Office projects in Visual Studio"
 titleSuffix: ""
 ms.custom: "seodec18"
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: "how-to"
 f1_keywords:
   - "VST.SelectDocWizard.Page1"
   - "VST.SelectDocWizard.Http"
