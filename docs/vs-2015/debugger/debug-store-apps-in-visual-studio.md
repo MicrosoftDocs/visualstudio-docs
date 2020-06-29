@@ -22,7 +22,7 @@ The Visual Studio debugger allows you to control the execution of a program and 
 
 ## In this section
 
-|||
+|Title|Description|
 |-|-|
 |[Start a debug session  (JavaScript)](../debugger/start-a-debugging-session-for-store-apps-in-visual-studio-javascript.md)|How to start a debugging session describes different options for configuring and starting a debugging session for a JavaScript app.|
 |[Control execution in a debug session (JavaScript)](../debugger/control-execution-of-a-store-app-in-a-visual-studio-debug-session-for-windows-store-apps-javascript.md)|Debugger navigation takes you through a simple app that demonstrates how to start and stop debugging, how navigate through code, and how to view the program state.|

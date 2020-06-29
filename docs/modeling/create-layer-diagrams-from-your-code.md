@@ -1,7 +1,7 @@
 ---
 title: Create dependency diagrams from your code
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - architecture, dependency diagrams
 - dependency diagrams

@@ -19,7 +19,7 @@ manager: "wpickett"
 # CA1051: Do not declare visible instance fields
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-|||
+|Item|Value|
 |-|-|
 |TypeName|DoNotDeclareVisibleInstanceFields|
 |CheckId|CA1051|

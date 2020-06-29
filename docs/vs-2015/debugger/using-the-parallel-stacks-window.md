@@ -45,9 +45,8 @@ The **Parallel Stacks** window is useful when you are debugging multithreaded ap
 ## Method Context Icons  
  The following table describes the icons that provide information about the active and current stack frames:  
   
-|||  
-|-|-|  
 |Icon|Description|  
+|-|-|
 |![Parallel Stacks Yellow Arrow](../debugger/media/icon-parallelyellowarrow.gif "Icon_ParallelYellowArrow")|Indicates that the method context contains the active stack frame of the current thread.|  
 |![Parallel Stacks Threads Icon](../debugger/media/icon-parallelthreads.gif "Icon_ParallelThreads")|Indicates that the method context contains the active stack frame of a non-current thread.|  
 |![Parallel Stacks Green Arrow](../debugger/media/icon-parallelgreenarrow.gif "Icon_ParallelGreenArrow")|Indicates that the method context contains the current stack frame. That method name is bold in all nodes in which it appears.|  

@@ -26,9 +26,8 @@ The Visual Studio integrated shell includes the integrated development environme
   
 ## Features in the Integrated Shell  
   
-|||  
-|-|-|  
 |Feature Area|Feature|  
+|-|-|  
 |Language Support|-   None|  
 |IDE|<ul><li>Settings<br /><br /> <ul><li>Create settings</li><li>Import and export settings</li><li>Reset settings</li></ul></li><li>**Toolbox** integration</li><li>**Task List** integration</li><li>Help integration</li><li>**Options** dialog box</li><li>Fonts and colors management</li><li>**Output** window</li><li>**Command** window</li><li>Window management</li><li>Commands, menus, and key bindings</li><li>Domain-specific language (DSL) runtime</li></ul>|  
 |Project System and Project Types|-   Solutions and solution folders<br />-   Solution configuration manager<br />-   Item management<br />-   Single-project and multi-project solutions<br />-   Application Designer (simplified project properties)<br />-   Add Web Reference<br />-   Add Service Reference<br />-   Single-project<br />-   Web site project types<br />-   Web application projects|  

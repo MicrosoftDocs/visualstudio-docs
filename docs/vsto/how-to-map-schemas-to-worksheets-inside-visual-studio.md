@@ -3,7 +3,7 @@ title: "How to: Map schemas to worksheets inside Visual Studio"
 titleSuffix: ""
 ms.custom: "seodec18"
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: "how-to"
 dev_langs:
   - "VB"
   - "CSharp"

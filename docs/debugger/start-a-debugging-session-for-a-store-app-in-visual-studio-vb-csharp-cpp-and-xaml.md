@@ -70,7 +70,7 @@ Debugging continues until a breakpoint is reached, you manually suspend executio
 
 You can set the debugging target in the Visual Studio toolbar or the project's debugging property page. Select one of the following options:
 
-|||
+|Name|Description|
 |-|-|
 |**Local Machine**|Debug the app in the current session on your local machine.|
 |**Simulator**|Debug the app in the Visual Studio simulator for UWP apps. The simulator is a desktop window that simulates device functions, like touch gestures and device rotation, that may not exist on the local machine. The simulator option is available only if your app's **Target Platform Min. Version** is less than or equal to the operating system on the local machine. For more information, see [Run UWP apps in the simulator](../debugger/run-windows-store-apps-in-the-simulator.md).|
@@ -108,7 +108,7 @@ In C++ apps, Visual Studio debugs native code by default. You can choose to debu
 
 - For C++ apps, select one of the following debuggers from the **Debugger Type** dropdown on the **Debugging** property page.
 
-|||
+|Name|Description|
 |-|-|
 |**Managed Only**|Debug managed code in your app. JavaScript code and native C/C++ code are ignored.|
 |**Native Only**|Debug native C/C++ code in your app. Managed code and JavaScript code are ignored.|

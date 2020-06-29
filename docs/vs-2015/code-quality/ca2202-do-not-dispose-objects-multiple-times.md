@@ -19,7 +19,7 @@ manager: "wpickett"
 # CA2202: Do not dispose objects multiple times
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-|||
+|Item|Value|
 |-|-|
 |TypeName|DoNotDisposeObjectsMultipleTimes|
 |CheckId|CA2202|

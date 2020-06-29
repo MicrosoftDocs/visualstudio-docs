@@ -19,7 +19,7 @@ manager: "wpickett"
 # CA1812: Avoid uninstantiated internal classes
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-|||
+|Item|Value|
 |-|-|
 |TypeName|AvoidUninstantiatedInternalClasses|
 |CheckId|CA1812|

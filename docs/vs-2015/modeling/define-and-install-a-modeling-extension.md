@@ -66,7 +66,7 @@ In Visual Studio, you can define extensions to modeling diagrams. In this manner
 
     2. For a component with code, set these fields in the **Add New Asset** dialog box:
 
-        |||
+        |Field|Value|
         |-|-|
         |**Type** =|**Microsoft.VisualStudio.MefComponent**|
         |**Source** =|**A project in current solution**|

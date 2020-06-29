@@ -67,9 +67,8 @@ This article describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsp
 
    - By default, performance data is sampled every 10,000,000 non-halted processor clock cycles. This is approximately one time every 10 seconds on a 1GH processor. You can specify one of the following options to change the clock cycle interval or to specify a different sampling event.[/targetclr](../profiling/targetclr.md)**:**`Version` specifies the version of the CLR to profile when more than one version of the runtime is loaded in an application. Optional.
 
-   |||
-   |-|-|
    |Sample event|Description|
+   |-|-|
    |[/timer](../profiling/timer.md) **:** `Interval`|Changes the sampling interval to the number of non-halted clock cycles that are specified by `Interval`.|
    |[/pf](../profiling/pf.md) [**:**`Interval`]|Changes the sampling event to page faults. If `Interval` is specified, sets the number of page faults between samples. Default is 10.|
    |[/sys](../profiling/sys-vsperfcmd.md) [**:**`Interval`]|Changes the sampling event to system calls from the process to the operating system kernel (syscalls). If `Interval` is specified, sets the number of calls between samples. Default is 10.|

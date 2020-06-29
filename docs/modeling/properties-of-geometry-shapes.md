@@ -6,8 +6,8 @@ f1_keywords:
   - "vs.dsltools.dsldesigner.geometryshape"
 helpviewer_keywords:
   - "Domain-Specific Language, geometry shape"
-author: jillre
-ms.author: jillfra
+author: JoshuaPartlow
+ms.author: joshuapa
 manager: jillfra
 ms.workload:
   - "multiple"

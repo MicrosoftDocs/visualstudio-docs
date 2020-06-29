@@ -15,7 +15,7 @@ manager: "wpickett"
 # CA2143: Transparent methods should not use security demands
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-|||
+|Item|Value|
 |-|-|
 |TypeName|TransparentMethodsShouldNotDemand|
 |CheckId|CA2143|

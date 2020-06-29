@@ -19,7 +19,7 @@ manager: "wpickett"
 # CA1017: Mark assemblies with ComVisibleAttribute
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-|||
+|Item|Value|
 |-|-|
 |TypeName|MarkAssembliesWithComVisible|
 |CheckId|CA1017|

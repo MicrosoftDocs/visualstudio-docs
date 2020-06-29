@@ -21,7 +21,7 @@ manager: "wpickett"
 
 For the latest documentation on Visual Studio, see [CA1715: Identifiers should have correct prefix](/visualstudio/code-quality/ca1715-identifiers-should-have-correct-prefix).
 
-|||
+|Item|Value|
 |-|-|
 |TypeName|IdentifiersShouldHaveCorrectPrefix|
 |CheckId|CA1715|
