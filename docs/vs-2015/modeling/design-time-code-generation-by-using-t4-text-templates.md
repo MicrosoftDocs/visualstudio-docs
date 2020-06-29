@@ -327,7 +327,7 @@ Warning("A warning message");
 
 4. Verify the following properties of the **.tt** file:
 
-    |||
+    |Property|Value|
     |-|-|
     |**Custom Tool =**|**TextTemplatingFileGenerator**|
     |**Build Action =**|**None**|

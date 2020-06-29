@@ -1,7 +1,7 @@
 ---
 title: Overview of the Domain-Specific Language Tools User Interface
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: overview
 f1_keywords:
 - vs.dsltools.dsldesigner.editor
 helpviewer_keywords:

@@ -16,7 +16,7 @@ ms.workload:
 ---
 # DA0502: Maximum CPU consumption by the process being profiled
 
-|||
+|Item|Value|
 |-|-|
 |Rule Id|DA0502|
 |Category|Resource Monitoring|

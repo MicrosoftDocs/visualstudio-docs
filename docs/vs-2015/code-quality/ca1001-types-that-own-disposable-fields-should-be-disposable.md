@@ -19,7 +19,7 @@ manager: "wpickett"
 # CA1001: Types that own disposable fields should be disposable
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-|||
+|Item|Value|
 |-|-|
 |TypeName|TypesThatOwnDisposableFieldsShouldBeDisposable|
 |CheckId|CA1001|

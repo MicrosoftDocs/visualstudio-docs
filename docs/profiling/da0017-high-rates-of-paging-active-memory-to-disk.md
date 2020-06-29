@@ -16,7 +16,7 @@ ms.workload:
 ---
 # DA0017: High rates of paging active memory to disk
 
-|||
+|Item|Value|
 |-|-|
 |Rule Id|DA0017|
 |Category|Memory and Paging|

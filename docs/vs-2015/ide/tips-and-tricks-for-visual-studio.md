@@ -34,7 +34,7 @@ You can navigate in Visual Studio more easily by using the shortcuts in this top
 
 ## <a name="BKMK_WindowMgmt"></a> Window Management
 
-|||
+|Command|Shortcut|
 |-|-|
 |Drag Off Floating Tab Wells|Ctrl+click for multi-select|
 |Maximize Floating Window|Double-click on title bar|
@@ -45,7 +45,7 @@ You can navigate in Visual Studio more easily by using the shortcuts in this top
 
 ## <a name="BKMK_WindowShortcuts"></a> Window Shortcuts
 
-|||
+|Command|Shortcut|
 |-|-|
 |Move/Dock Floating Windows|Win+Left / Win+Right|
 |Maximize/Minimize Windows|Win+Up / Win+Down|
@@ -55,7 +55,7 @@ You can navigate in Visual Studio more easily by using the shortcuts in this top
 
 ## <a name="BKMK_Search"></a> Visual Studio Search
 
-|||
+|Command|Shortcut|
 |-|-|
 |Solution Explorer Search|Ctrl+;|
 |Place Focus in Search box in any tool window|Alt+` when the tool window has focus|
@@ -65,7 +65,7 @@ You can navigate in Visual Studio more easily by using the shortcuts in this top
 
 ## <a name="BKMK_EditorFind"></a> Editor Find
 
-|||
+|Command|Shortcut|
 |-|-|
 |Quick Find|Ctrl+F|
 |Quick Find Next Result|Enter|
@@ -80,7 +80,7 @@ You can navigate in Visual Studio more easily by using the shortcuts in this top
 
 ## <a name="BKMK_CodeEditor"></a> Code Editor
 
-|||
+|Command|Shortcut|
 |-|-|
 |IntelliSense Suggestion Mode|Ctrl+Alt+Space (Toggle)|
 |Force Show IntelliSense|Ctrl+J|
@@ -105,7 +105,7 @@ You can navigate in Visual Studio more easily by using the shortcuts in this top
 
 ## <a name="BKMK_Toolbars"></a> Toolbars
 
-|||
+|Command|Shortcut|
 |-|-|
 |Add Buttons|Click toolbar overflow button|
 |Find Combo in Standard toolbar|Ctrl+D|
@@ -114,7 +114,7 @@ You can navigate in Visual Studio more easily by using the shortcuts in this top
 
 ## <a name="BKMK_Debugging"></a> Debugging
 
-|||
+|Command|Shortcut|
 |-|-|
 |Start Debugging|F5|
 |Stop Debugging|Shift+F5|

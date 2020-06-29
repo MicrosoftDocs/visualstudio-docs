@@ -19,7 +19,7 @@ manager: "wpickett"
 # CA1400: P/Invoke entry points should exist
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-|||
+|Item|Value|
 |-|-|
 |TypeName|PInvokeEntryPointsShouldExist|
 |CheckId|CA1400|

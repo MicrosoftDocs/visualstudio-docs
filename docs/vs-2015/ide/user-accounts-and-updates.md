@@ -21,7 +21,7 @@ Visual Studio itself is a connected environment. By signing-in you enable access
 
 ## In this section
 
-|||
+|Title|Description|
 |-|-|
 |[Signing in to Visual Studio](../ide/signing-in-to-visual-studio.md)|Describes how and why to sign in to Visual Studio.|
 |[Work with multiple user accounts](../ide/work-with-multiple-user-accounts.md)|Describes how to associate multiple Microsoft accounts and/or work or school accounts to enable access to resources and services from all your accounts.|

@@ -73,7 +73,7 @@ Use Test Explorer to run unit tests from Visual Studio or third-party unit test 
 > [!WARNING]
 > Running unit tests after every build is supported in Visual Studio Enterprise.
 
-|||
+|Image|Description|
 |-|-|
 |![Run after build](../test/media/ute-runafterbuild-btn.png "UTE_RunAfterBuild_btn")|To run your unit tests after each local build, choose **Test** on the standard menu, and then choose **Run Tests After Build** on the Test Explorer toolbar.|
 

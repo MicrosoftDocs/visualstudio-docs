@@ -163,7 +163,7 @@ In Visual Studio, you can define additional menu items on the shortcut menus of 
 ## <a name="Implementing"></a> Implementing the Menu Command
  The menu command class implements the required methods for <xref:Microsoft.VisualStudio.Modeling.ExtensionEnablement.ICommandExtension>.
 
-|||
+|Signature|Description|
 |-|-|
 |`string Text { get; }`|Return the label of your menu item.|
 |`void QueryStatus(IMenuCommand command);`|Called when the user right-clicks in the diagram.<br /><br /> This method should not change the model.<br /><br /> Use `DiagramContext.CurrentDiagram.SelectedShapes` to determine whether you want the command to appear and be enabled.<br /><br /> Set:<br /><br /> -   `command.Visible` to `true` if the command must appear in the menu when the user right-clicks in the diagram<br />-   `command.Enabled` to `true` if the user can click the command in the menu<br />-   `command.Text` to set the menu label dynamically|

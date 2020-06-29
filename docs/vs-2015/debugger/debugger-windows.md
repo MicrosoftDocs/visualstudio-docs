@@ -15,9 +15,8 @@ manager: jillfra
 
 You can open most debugger windows while you are debugging your program. To see a list of debugger windows, set a breakpoint and start debugging. When you hit the breakpoint and execution stops,  click **Debug / Windows**.  
   
-||||  
-|-|-|-|  
 |**Window**|**Hotkey**|**See Topic**|  
+|-|-|-|  
 |Breakpoints|CTRL+ALT+B|[Using Breakpoints](../debugger/using-breakpoints.md)|  
 |Exception Settings|CTRL+ALT+E|[Managing Exceptions with the Debugger](../debugger/managing-exceptions-with-the-debugger.md)|  
 |Output|CTRL+ALT+O|[Output Window](../ide/reference/output-window.md)|  

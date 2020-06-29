@@ -12,7 +12,7 @@ manager: "wpickett"
 # CA3077: Insecure Processing in API Design, XML Document and XML Text Reader
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-|||
+|Item|Value|
 |-|-|
 |TypeName|InsecureDTDProcessingInAPIDesign|
 |CheckId|CA3077|
