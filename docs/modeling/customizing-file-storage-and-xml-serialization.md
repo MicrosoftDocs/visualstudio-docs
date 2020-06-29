@@ -1,7 +1,7 @@
 ---
 title: Customizing File Storage and XML Serialization
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 f1_keywords:
 - vs.dsltools.dsldesigner.xmlbehavior
 helpviewer_keywords:
