@@ -10,7 +10,6 @@ ms.custom: seodec18
 ms.workload:
   - python
   - data-science
-ms.topic: include
 ---
 
 ## Discover and view tests
