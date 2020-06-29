@@ -5,8 +5,8 @@ ms.topic: conceptual
 helpviewer_keywords:
   - "Domain-Specific Language, programming domain models"
   - "Domain-Specific Language, rules"
-author: jillre
-ms.author: jillfra
+author: JoshuaPartlow
+ms.author: joshuapa
 manager: jillfra
 ms.workload:
   - "multiple"
