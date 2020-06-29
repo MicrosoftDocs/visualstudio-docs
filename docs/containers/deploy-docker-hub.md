@@ -23,17 +23,17 @@ If you don't have a Docker Hub repository, create one at [Docker Hub](https://hu
 
 1. Right-click on the project node and choose **Publish...**. A screen showing deployment options appears.
 
-   ![](media/deploy-docker-hub/container-tools-docker-hub-deploy.png)
+   ![Screenshot of deployment options](media/deploy-docker-hub/container-tools-docker-hub-deploy.png)
 
 1. Under **Pick a publish target**, choose **Container Registry**, and then choose **Docker Hub**. THe **Docker Hub** dialog appears.
 
-   ![](media/deploy-docker-hub/container-tools-docker-hub-credentials.png)
+   ![Screenshot of Docker Hub dialog](media/deploy-docker-hub/container-tools-docker-hub-credentials.png)
 
 1. If you are connecting to your own repository (not part of an organization), leave the checkbox for **Publish to a personal repository** checked. If the repository is owned by an organization, clear the checkbox, and enter the organization name. Enter your Docker username and password for your Docker account that has permissions to access the repository that you are connecting to, and then select **Save**.  
 
-   Visual Studio attempts to deploy your image to the Docker Hub.  If successful, the **Publish** screen appears with the URL for the repository image, the image tag, repository, and the build configuration** (for example, **Release**).
+   Visual Studio attempts to deploy your image to the Docker Hub.  If successful, the **Publish** screen appears with the URL for the repository image, the image tag, repository, and the build configuration (for example, **Release**).
 
-   ![](media/deploy-docker-hub/container-tools-docker-hub-finished.png)
+   ![Screenshot of Publish screen](media/deploy-docker-hub/container-tools-docker-hub-finished.png)
 
 1. You can update the image at any time by clicking on the **Publish** button on this page.  Or, you can modify or remove the profile, by using the links underneath the URL.
 

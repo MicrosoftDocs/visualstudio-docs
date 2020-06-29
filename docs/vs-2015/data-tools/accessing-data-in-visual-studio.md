@@ -34,30 +34,41 @@ In Visual Studio, you can create applications that connect to data in virtually 
 
  **Microsoft Azure**
 
-||||
-|-|-|-|
-|SQL Database|DocumentDB|Storage (blobs, tables, queues, files)|
-|SQL Data Warehouse|SQL Server Stretch Database|StorSimple|
+- SQL Database
+
+- DocumentDB
+
+-Storage (blobs, tables, queues, files)
+
+- SQL Data Warehouse
+
+- SQL Server Stretch Database
+
+- StorSimple
 
  And more...
 
  **SQL**
 
-||||
-|-|-|-|
-|SQL Server 2005–2016, including Express and LocalDB|Firebird|MariaDB|
-|MySQL|Oracle|PostgreSQL|
-|SQLite|||
+- SQL Server 2005–2016, including Express and LocalDB
+- Firebird
+- MariaDB
+- MySQL
+- Oracle
+- PostgreSQL
+- SQLite
 
  And more...
 
  **NoSQL**
 
-||||
-|-|-|-|
-|Apache Cassandra|CouchDB|MongoDB|
-|NDatabase|OrientDB|RavenDB|
-|VelocityDB|||
+- Apache Cassandra
+- CouchDB
+- MongoDB
+- NDatabase
+- OrientDB
+- RavenDB
+- VelocityDB
 
  And more...
 

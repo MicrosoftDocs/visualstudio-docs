@@ -1,7 +1,7 @@
 ---
 title: "How to: Programmatically add rows and columns to Word tables"
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: "how-to"
 dev_langs:
   - "VB"
   - "CSharp"

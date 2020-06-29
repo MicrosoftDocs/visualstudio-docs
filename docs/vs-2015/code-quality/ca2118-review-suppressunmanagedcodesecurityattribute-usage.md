@@ -19,7 +19,7 @@ manager: "wpickett"
 # CA2118: Review SuppressUnmanagedCodeSecurityAttribute usage
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-|||
+|Item|Value|
 |-|-|
 |TypeName|ReviewSuppressUnmanagedCodeSecurityUsage|
 |CheckId|CA2118|

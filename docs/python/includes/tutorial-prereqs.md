@@ -1,5 +1,5 @@
 ---
-ms.topic: "include"
+ms.topic: include
 ---
 ## Prerequisites
 

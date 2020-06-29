@@ -21,7 +21,7 @@ manager: "wpickett"
 
 For the latest documentation on Visual Studio, see [CA1822: Mark members as static](/visualstudio/code-quality/ca1822-mark-members-as-static).
 
-|||
+|Item|Value|
 |-|-|
 |TypeName|MarkMembersAsStatic|
 |CheckId|CA1822|

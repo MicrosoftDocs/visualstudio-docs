@@ -117,7 +117,7 @@ We recommend that, before you change an existing application, you make sure that
 
    3. Edit the Include and Library directories:
 
-       |||
+       |Property|Value|
        |-|-|
        |**Include Directories**|**$(VCInstallDir)UnitTest\include;$(IncludePath)**|
        |**Library Directories**|**$(VCInstallDir)UnitTest\lib;$(LibraryPath)**|

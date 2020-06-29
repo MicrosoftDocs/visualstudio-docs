@@ -19,7 +19,7 @@ manager: "wpickett"
 # CA1005: Avoid excessive parameters on generic types
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-|||
+|Item|Value|
 |-|-|
 |TypeName|AvoidExcessiveParametersOnGenericTypes|
 |CheckId|CA1005|

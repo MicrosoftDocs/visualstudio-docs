@@ -19,7 +19,7 @@ manager: "wpickett"
 # CA2109: Review visible event handlers
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-|||
+|Item|Value|
 |-|-|
 |TypeName|ReviewVisibleEventHandlers|
 |CheckId|CA2109|

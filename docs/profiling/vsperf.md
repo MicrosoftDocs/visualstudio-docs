@@ -22,7 +22,7 @@ Use the **VsPerf** command line tool to:
 ## UWP apps only
  These options apply only to UWP apps.
 
-|||
+|Option|Description|
 |-|-|
 |**/app:{AppName}**|Starts the profiler and waits for the specified app to be launched from the Start menu.<br /><br /> Run `vsperf /listapps` to view the app Name and PackageFullName of installed apps.|
 |**/package:{PackageFullName}**|Starts the profiler and waits for the specified app to be launched from the Start menu.<br /><br /> Run `vsperf /listapps` to view the app Name and PackageFullName of installed apps.|
@@ -33,7 +33,7 @@ Use the **VsPerf** command line tool to:
 ## Windows 8 desktop applications and Windows Server 2012 applications only
  These options do not work on UWP apps.
 
-|||
+|Option|Description|
 |-|-|
 |**/launch:{Executable}**|Starts and begins profiling the specified executable file.|
 |**/args:{ExecutableArguments}**|Specifies command line arguments to pass the **/launch** target.|
@@ -42,7 +42,7 @@ Use the **VsPerf** command line tool to:
 ## All applications
  These option apply to any Windows 8 or Windows Server 2012 application.
 
-|||
+|Option|Description|
 |-|-|
 |**/attach:{PID&#124;ProcessName}[,PID&#124;ProcessName]...**|Collects data from the specified processes.<br /><br /> Use Task Manager to view the process id (PID) and process names of running apps.|
 |**/file:{ReportName}**|Optional. Specifies output file (overwrites existing file).<br /><br /> Use only with /package or /attach.|

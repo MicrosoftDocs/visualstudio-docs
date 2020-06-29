@@ -19,7 +19,7 @@ manager: "wpickett"
 # CA1720: Identifiers should not contain type names
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-|||
+|Item|Value|
 |-|-|
 |TypeName|IdentifiersShouldNotContainTypeNames|
 |CheckId|CA1720|

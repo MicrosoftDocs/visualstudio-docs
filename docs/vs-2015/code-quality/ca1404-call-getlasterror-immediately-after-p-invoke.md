@@ -19,7 +19,7 @@ manager: "wpickett"
 # CA1404: Call GetLastError immediately after P/Invoke
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-|||
+|Item|Value|
 |-|-|
 |TypeName|CallGetLastErrorImmediatelyAfterPInvoke|
 |CheckId|CA1404|

@@ -19,7 +19,7 @@ manager: "wpickett"
 # CA1043: Use integral or string argument for indexers
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-|||
+|Item|Value|
 |-|-|
 |TypeName|UseIntegralOrStringArgumentForIndexers|
 |CheckId|CA1043|
