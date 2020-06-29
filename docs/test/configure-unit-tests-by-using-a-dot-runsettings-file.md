@@ -199,6 +199,15 @@ The following XML shows the contents of a typical *.runsettings* file. Each elem
           </MediaRecorder>​
         </Configuration>
       </DataCollector>
+
+      <!-- Configuration for blame data collector -->
+      <DataCollector friendlyName="blame" enabled="True">
+        <Configuration>
+          <ResultsDirectory>C:\TestResults</ResultsDirectory>
+          <CollectDump CollectAlways="true" DumpType="mini" />
+        </Configuration>
+      </DataCollector>
+
     </DataCollectors>
   </DataCollectionRunSettings>
 
@@ -305,6 +314,27 @@ The video data collector captures a screen recording when tests are run. This re
 
 To customize any other type of diagnostic data adapters, use a [test settings file](../test/collect-diagnostic-information-using-test-settings.md).
 
+
+### Blame data collector
+
+```xml
+<DataCollector friendlyName="blame" enabled="True">
+  <Configuration>
+    <ResultsDirectory>C:\TestResults</ResultsDirectory>
+    <CollectDump CollectAlways="true" DumpType="mini" />
+  </Configuration>
+</DataCollector>
+```
+
+This option is helpful in isolating the problematic test causing test host crash. It creates an output file (`Sequence.xml`) in directory specifying by ***ResultsDirectory*** node, that captures the order of execution of test before the crash. 
+
+When you choose to collect dump, by default, a mini dump will be collected on a crash. You may also choose to override this default behaviour by some optional parameters: 
+
+|Parameter|Values|Description|
+|-|-|-|
+|`CollectAlways`| **true/false** | To collect dump on exit even if there is no crash| 
+|`DumpType`| **mini/full**|To specify dump type|
+
 ### TestRunParameters
 
 ```xml
@@ -380,6 +410,31 @@ These settings are specific to the test adapter that runs test methods that have
 |**MapInconclusiveToFailed**|false|If a test completes with an inconclusive status, it is mapped to the skipped status in **Test Explorer**. If you want inconclusive tests to be shown as failed, set the value to **true**.|
 |**InProcMode**|false|If you want your tests to be run in the same process as the MSTest adapter, set this value to **true**. This setting provides a minor performance gain. But if a test exits with an exception, the remaining tests don't run.|
 |**AssemblyResolution**|false|You can specify paths to additional assemblies when finding and running unit tests. For example, use these paths for dependency assemblies that aren't in the same directory as the test assembly. To specify a path, use a **Directory Path** element. Paths can include environment variables.<br /><br />`<AssemblyResolution>  <Directory Path="D:\myfolder\bin\" includeSubDirectories="false"/> </AssemblyResolution>`|
+
+
+## Specifying environment variables in *.runsettings* file
+
+The environment variables can be set in *.runsettings* file which can directly interact with the test host. Specifying environment variables in the *.runsettings* file is necessary to support non-trivial projects that require settings environment variables like *DOTNET_ROOT*. These variables are set while spawning the test host process, thus will be available in the host.
+
+#### Example
+Below is a sample runsettings for passing environment variables :
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<!-- File name extension must be .runsettings -->
+<RunSettings>
+  <RunConfiguration>
+    <EnvironmentVariables>
+      <!-- List of environment variables we want to set-->
+      <DOTNET_ROOT>C:\ProgramFiles\dotnet</DOTNET_ROOT>
+      <SDK_PATH>C:\Codebase\Sdk</SDK_PATH>
+    </EnvironmentVariables>
+  </RunConfiguration>
+</RunSettings>
+```
+The **RunConfiguration** node should contain a **EnvironmentVariables** node. The different environment variables can be specified as element name and it's value.
+
+> [!NOTE]
+   > Since these environment variables should always be set when the test host is started, the tests should always run in a separate process. For this, the */InIsolation* flag will be set when there are environment variables so that the test host is always invoked.
 
 ## See also
 
