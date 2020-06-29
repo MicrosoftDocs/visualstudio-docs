@@ -1,7 +1,7 @@
 ---
 title: Overview of Domain-Specific Language Tools
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: overview
 helpviewer_keywords:
 - Domain-Specific Language
 author: JoshuaPartlow

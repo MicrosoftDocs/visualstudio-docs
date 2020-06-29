@@ -39,7 +39,7 @@ Blend for Visual Studio helps you design XAML-based Windows desktop, web, [Windo
 
  ![Tools panel](../designers/media/blend5toolspanel.png "Blend5Toolspanel")
 
-|||||
+|Image|Tool type|Image|Tool type|
 |-|-|-|-|
 |![](../designers/media/b1-1.png "B1_1")|**Selection tools** Select objects and paths.<br /><br /> Use the **Direct Selection** tool to select nested objects and path segments.|![Callout A](../designers/media/b5-label-a.png "b5_label_A")|**Gradient and brush tools**|
 |![](../designers/media/b1-2.png "B1_2")|**View tools** Adjust the view of the artboard, such as for panning and zooming.|![Callout B](../designers/media/b5-label-b.png "b5_label_B")|**Path tools**|
@@ -55,7 +55,7 @@ Blend for Visual Studio helps you design XAML-based Windows desktop, web, [Windo
 
  ![Assets panel](../designers/media/blend5-assets-panel.png "Blend5_Assets_panel")
 
-|||
+|Image|Description|
 |-|-|
 |![](../designers/media/b1-1.png "B1_1")|**Search box** Type in the **Search** box to filter the list of assets.|
 |![](../designers/media/b1-2.png "B1_2")|**Grid mode and List mode** Switch between the **Grid mode** view and the **List mode** view of assets.|
@@ -68,7 +68,7 @@ Blend for Visual Studio helps you design XAML-based Windows desktop, web, [Windo
 
  ![Object and Timeline panel in animation mode](../designers/media/b5-object-timeline-animation.png "b5_object_timeline_animation")
 
-|||
+|Image|Description|
 |-|-|
 |![](../designers/media/b1-1.png "B1_1")|**Objects view** View a visual tree of a document. You can drill down to varying levels of detail. You can also add layers to further organize objects on the artboard. That way you can lock and hide them as a group.|
 |![](../designers/media/b1-2.png "B1_2")|**Record mode indicator** See whether you’re recording property changes in a timeline.|

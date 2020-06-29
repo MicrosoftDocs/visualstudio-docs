@@ -114,7 +114,7 @@ if (performance && performance.mark) {
   
  ![Energy profiler report page](../profiling/media/energyprof-all.png "ENERGYPROF_All")  
   
-|||  
+|Image|Description|  
 |-|-|  
 |![Step 1](../profiling/media/procguid-1.png "ProcGuid_1")|The report file is named Report*YYYYMMDD-HHMM*.diagsession. You can change the name if you decide to save the report.|  
 |![Step 2](../profiling/media/procguid-2.png "ProcGuid_2")|The timeline shows the length of the profiling session, app lifecycle activation events, and user marks.|  

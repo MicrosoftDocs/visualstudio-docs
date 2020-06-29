@@ -30,7 +30,7 @@ This page includes detailed information to help you with installing **Visual Stu
 
 Before we dig in to the details, here's a list of our most frequently requested links.
 
-|||
+|Title|Description|
 |------------------|----------------|
 |![Download Visual Studio](../install/media/downloads.png "Downloads") |**Downloads**: To install Visual Studio 2015, you can download a product executable file from the  [My.VisualStudio.com](https://my.visualstudio.com/downloads?q=visual%20studio%20enterprise%202015) page (subscription required), or use the installation media from the boxed product. [Learn more about how to download current or previous versions of Visual Studio](https://www.visualstudio.com/vs/older-downloads/).|
 |![Learn more about features](../install/media/features.png "Features") |**Features**: To learn  more about the features in Visual Studio 2015, see the release notes for [RTM](https://docs.microsoft.com/visualstudio/releasenotes/vs2015-rtm-vs), [Update 1](https://docs.microsoft.com/visualstudio/releasenotes/vs2015-update1-vs), [Update 2](https://docs.microsoft.com/visualstudio/releasenotes/vs2015-update2-vs), and [Update 3](https://docs.microsoft.com/visualstudio/releasenotes/vs2015-update3-vs).|

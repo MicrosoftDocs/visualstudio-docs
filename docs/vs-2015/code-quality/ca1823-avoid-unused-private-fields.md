@@ -19,7 +19,7 @@ manager: "wpickett"
 # CA1823: Avoid unused private fields
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-|||
+|Item|Value|
 |-|-|
 |TypeName|AvoidUnusedPrivateFields|
 |CheckId|CA1823|

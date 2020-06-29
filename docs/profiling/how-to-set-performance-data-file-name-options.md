@@ -18,7 +18,7 @@ By default, you save a profiling data (.*vsp*) file by using the following synta
 
 You can change any naming parameter on the **General** page of the properties dialog box for the performance session.
 
-|||
+|Parameter|Description|
 |-|-|
 |*Path*|The directory that contains the report. The default location is the solution folder or the default location for the user's projects and solutions.|
 |*VSP-File*|The name of the profiling data file. The default name is the name of the solution or executable that is profiled.|
@@ -33,7 +33,7 @@ You can change any naming parameter on the **General** page of the properties di
 
 3. Under **Report**, change any of the following settings:
 
-    |||
+    |Name|Description|
     |-|-|
     |**Report location**|Specify a directory to store the profiling data files.|
     |**Report name**|Specify a base name for the files.|

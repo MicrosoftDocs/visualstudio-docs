@@ -18,7 +18,7 @@ manager: "wpickett"
 # CA2242: Test for NaN correctly
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-|||
+|Item|Value|
 |-|-|
 |TypeName|TestForNaNCorrectly|
 |CheckId|CA2242|

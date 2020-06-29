@@ -19,7 +19,7 @@ manager: "wpickett"
 # CA2107: Review deny and permit only usage
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-|||
+|Item|Value|
 |-|-|
 |TypeName|ReviewDenyAndPermitOnlyUsage|
 |CheckId|CA2107|

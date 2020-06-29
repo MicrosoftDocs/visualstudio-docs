@@ -170,8 +170,8 @@ You can use this option create a publish settings file and import it into Visual
 
 [!INCLUDE [install-web-deploy-with-hosting-server](../deployment/includes/import-publish-settings-vs.md)]
 
-    > [!NOTE]
-    > If you restart an Azure VM, the IP address may change.
+> [!NOTE]
+> If you restart an Azure VM, the IP address may change.
 
 After the app deploys successfully, it should start automatically. If the app does not start from Visual Studio, start the app in IIS to verify that it runs correctly. For ASP.NET Core, you also need to make sure that the Application pool field for the **DefaultAppPool** is set to **No Managed Code**.
 

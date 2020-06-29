@@ -19,7 +19,7 @@ manager: "wpickett"
 # CA1058: Types should not extend certain base types
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-|||
+|Item|Value|
 |-|-|
 |TypeName|TypesShouldNotExtendCertainBaseTypes|
 |CheckId|CA1058|

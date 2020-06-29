@@ -23,9 +23,8 @@ You can add command-line switches that apply to your VSPackage when *devenv.exe*
 
  The named parameters are shown in the following descriptions.
 
-||||
-|-|-|-|-|
-| Parameter | Description|
+|Name|Description|
+|-|-|
 | Arguments | The number of arguments for the switch. Can be "*", or a list of arguments. |
 | DemandLoad | Load the VSPackage automatically if this is set to 1, otherwise set to 0. |
 | HelpString | The help string or resource ID of the string to display with **devenv /?**. |

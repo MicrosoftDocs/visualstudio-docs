@@ -16,7 +16,7 @@ ms.workload:
 ---
 # DA0039: Very high rate of lock contentions
 
-|||
+|Item|Value|
 |-|-|
 |Rule Id|DA0039|
 |Category|.NET Framework Usage|

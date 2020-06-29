@@ -18,7 +18,7 @@ manager: "wpickett"
 # CA1821: Remove empty finalizers
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-|||
+|Item|Value|
 |-|-|
 |TypeName|RemoveEmptyFinalizers|
 |CheckId|CA1821|

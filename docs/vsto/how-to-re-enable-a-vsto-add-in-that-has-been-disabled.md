@@ -1,7 +1,7 @@
 ---
 title: "How to: Re-enable a VSTO Add-in that has been disabled"
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: "how-to"
 f1_keywords:
   - "VST.Warning.DisabledAddIn"
 dev_langs:

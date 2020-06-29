@@ -19,7 +19,7 @@ manager: "wpickett"
 # CA2236: Call base class methods on ISerializable types
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-|||
+|Item|Value|
 |-|-|
 |TypeName|CallBaseClassMethodsOnISerializableTypes|
 |CheckId|CA2236|
