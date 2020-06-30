@@ -8,7 +8,6 @@ ms.author: tglee
 manager: jillfra
 ms.workload:
   - "multiple"
-author: jillre
 ---
 # How to: Use Search in the Workflow Designer
 
