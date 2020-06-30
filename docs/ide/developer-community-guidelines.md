@@ -1,5 +1,5 @@
 ---
-title: Developer Community Guidelines
+title: Developer Community guidelines
 description: "Describes the guidelines for working with the Visual Studio Developer Community."
 ms.date: 6/30/2020
 ms.topic: conceptual
@@ -9,7 +9,7 @@ manager: jillfra
 ms.workload:
   - "multiple"
 ---
-# Developer Community Guidelines
+# Developer Community guidelines
 
 The Developer Community tracks issues and feature suggestions for Visual Studio.
 
