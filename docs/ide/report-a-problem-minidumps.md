@@ -1,7 +1,7 @@
 ---
 title: Create minidumps with all call stacks
 ms.date: 06/27/2019
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
   - minidumps for Visual Studio issues"
 author: corob-msft

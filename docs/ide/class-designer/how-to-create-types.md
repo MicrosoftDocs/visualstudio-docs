@@ -1,7 +1,7 @@
 ---
 title: 'How to: Create Types by using Class Designer'
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 f1_keywords:
 - VS.Clr.ClrAttributesDialog
 helpviewer_keywords:

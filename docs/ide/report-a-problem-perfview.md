@@ -1,7 +1,7 @@
 ---
 title: Collect an ETL trace with PerfView
 ms.date: 09/27/2019
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
   - "perfview"
   - "ETL Trace"
