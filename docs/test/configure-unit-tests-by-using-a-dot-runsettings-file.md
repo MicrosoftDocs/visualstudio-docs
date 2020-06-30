@@ -326,9 +326,9 @@ To customize any other type of diagnostic data adapters, use a [test settings fi
 </DataCollector>
 ```
 
-This option is helpful in isolating the problematic test causing test host crash. It creates an output file (`Sequence.xml`) in directory specifying by ***ResultsDirectory*** node, that captures the order of execution of test before the crash. 
+This option is helpful in isolating the problematic test causing test host crash. It creates an output file (*Sequence.xml*) in the directory specified by the ResultsDirectory node, which captures the order of execution of the test before the crash. 
 
-When you choose to collect dump, by default, a mini dump will be collected on a crash. You may also choose to override this default behaviour by some optional parameters: 
+When you choose to collect a dump, by default, a mini dump will be collected on a crash. You may also choose to override this default behavior by some optional parameters: 
 
 |Parameter|Values|Description|
 |-|-|-|
@@ -414,10 +414,10 @@ These settings are specific to the test adapter that runs test methods that have
 
 ## Specifying environment variables in *.runsettings* file
 
-The environment variables can be set in *.runsettings* file which can directly interact with the test host. Specifying environment variables in the *.runsettings* file is necessary to support non-trivial projects that require settings environment variables like *DOTNET_ROOT*. These variables are set while spawning the test host process, thus will be available in the host.
+The environment variables can be set in the *.runsettings* file, which can directly interact with the test host. Specifying environment variables in the *.runsettings* file is necessary to support non-trivial projects that require setting environment variables like *DOTNET_ROOT*. These variables are set while spawning the test host process, and so will be available in the host.
 
 #### Example
-Below is a sample runsettings for passing environment variables :
+The following is a sample runsettings for passing environment variables :
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <!-- File name extension must be .runsettings -->
@@ -431,10 +431,10 @@ Below is a sample runsettings for passing environment variables :
   </RunConfiguration>
 </RunSettings>
 ```
-The **RunConfiguration** node should contain a **EnvironmentVariables** node. The different environment variables can be specified as element name and it's value.
+The RunConfiguration node should contain a EnvironmentVariables node. The different environment variables can be specified as element name and it's value.
 
 > [!NOTE]
-   > Since these environment variables should always be set when the test host is started, the tests should always run in a separate process. For this, the */InIsolation* flag will be set when there are environment variables so that the test host is always invoked.
+> Because these environment variables should always be set when the test host is started, the tests should always run in a separate process. For this, the */InIsolation* flag will be set when there are environment variables so that the test host is always invoked.
 
 ## See also
 

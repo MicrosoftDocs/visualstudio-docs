@@ -46,7 +46,7 @@ The following table lists all the options for *VSTest.Console.exe* and short des
 |**/ListExecutors**|Lists installed test executors.|
 |**/ListLoggers**|Lists installed test loggers.|
 |**/ListSettingsProviders**|Lists installed test settings providers.|
-|**/Blame**|Runs the tests in blame mode. This option is helpful in isolating problematic tests that cause the test host to crash. When a crash is detected, it creates a sequence file in ```TestResults/<Guid>/<Guid>_Sequence.xml``` that captures the order of tests that were run before the crash. [More information](https://github.com/Microsoft/vstest-docs/blob/master/docs/extensions/blame-datacollector.md).|
+|**/Blame**|Runs the tests in blame mode. This option is helpful in isolating problematic tests that cause the test host to crash. When a crash is detected, it creates a sequence file in `TestResults/<Guid>/<Guid>_Sequence.xml` that captures the order of tests that were run before the crash. For more information, see [Blame data collector](https://github.com/Microsoft/vstest-docs/blob/master/docs/extensions/blame-datacollector.md).|
 |**/Diag:[*file name*]**|Writes diagnostic trace logs to the specified file.|
 |**/ResultsDirectory:[*path*]**|Test results directory will be created in specified path if not exists.<br />Example: `/ResultsDirectory:<pathToResultsDirectory>`|
 |**/ParentProcessId:[*parentProcessId*]**|Process ID of the Parent Process responsible for launching current process.|
@@ -58,36 +58,36 @@ The following table lists all the options for *VSTest.Console.exe* and short des
 
 ## Examples
 
-The syntax for running **vstest.console.exe** is:
+The syntax for running *vstest.console.exe* is:
 
 `vstest.console.exe [TestFileNames] [Options]`
 
-The following command runs **vstest.console.exe** for the test library **myTestProject.dll**:
+The following command runs *vstest.console.exe* for the test library *myTestProject.dll*:
 
 ```cmd
 vstest.console.exe myTestProject.dll
 ```
 
-The following command runs **vstest.console.exe** with multiple test files. Separate test file names with spaces:
+The following command runs *vstest.console.exe* with multiple test files. Separate test file names with spaces:
 
 ```cmd
 vstest.console.exe myTestFile.dll myOtherTestFile.dll
 ```
 
-The following command runs **vstest.console.exe** with several options. It runs the tests in the **myTestFile.dll** file in an isolated process and uses settings specified in the *Local.RunSettings* file. Additionally, it only runs tests marked "Priority=1", and logs the results to a **.trx** file.
+The following command runs *vstest.console.exe* with several options. It runs the tests in the *myTestFile.dll* file in an isolated process and uses settings specified in the *Local.RunSettings* file. Additionally, it only runs tests marked "Priority=1", and logs the results to a *.trx* file.
 
 ```cmd
 vstest.console.exe myTestFile.dll /Settings:Local.RunSettings /InIsolation /TestCaseFilter:"Priority=1" /Logger:trx
 ```
 
-The following command runs **vstest.console.exe** with **/blame** option for the test library **myTestProject.dll**:
+The following command runs *vstest.console.exe* with `/blame` option for the test library *myTestProject.dll*:
 
 ```cmd
 vstest.console.exe myTestFile.dll /blame
 ```
-If testhost crash happened, **sequence.xml** file will be generated, containing fully qualified names of the tests in their sequence of execution up to and including the specific test that was running at the time of the crash.
+If a testhost crash happened, the *sequence.xml* file will be generated, containing fully qualified names of the tests in their sequence of execution up to and including the specific test that was running at the time of the crash.
 
-If there is no testhost crash, **sequence.xml** file will not be generated.
+If there is no testhost crash, *sequence.xml* file will not be generated.
 
 Example of generated **sequence.xml file** : 
 
