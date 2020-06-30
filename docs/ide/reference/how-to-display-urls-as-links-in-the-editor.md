@@ -1,7 +1,7 @@
 ---
 title: 'How to: Display URLs as Links in the Editor'
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - URLs, opening
 - Code Editor, displaying URLs
