@@ -5,8 +5,8 @@ ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
   - "VS.ToolsOptionsPages.Text_Editor.HTML.Miscellaneous"
-author: jillre
-ms.author: jillfra
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
   - "multiple"
@@ -23,7 +23,7 @@ Use the **Miscellaneous** options page to set preferences for how the HTML edito
 
 - **Require '<' to trigger tag completion window**
 
-   When this check box is selected, the tag completion window appears when you type the less than character ("<").
+   When this check box is selected, the tag completion window appears when you type the less-than character ("<").
 
 ## See also
 
