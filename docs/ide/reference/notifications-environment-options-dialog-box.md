@@ -5,8 +5,8 @@ ms.topic: reference
 f1_keywords:
   - "VS.ToolsOptionsPages.Environment.Notifications"
 ms.assetid: 71cf7380-f2c6-436f-a17c-fdd5f90f5865
-author: jillre
-ms.author: jillfra
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
   - "multiple"
