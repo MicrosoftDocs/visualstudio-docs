@@ -1,7 +1,7 @@
 ---
 title: Develop code without projects or solutions
 ms.date: 06/22/2020
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - open folder [Visual Studio]
 - anycode [Visual Studio]
