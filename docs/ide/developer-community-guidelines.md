@@ -15,7 +15,7 @@ The Developer Community tracks issues and feature suggestions for Visual Studio.
 
 ## Submitting problems and suggestions
 
-The [Developer Community](https://developercommunity.visualstudio.com/) tracks issues and feature suggestions for Visual Studio.
+The [Visual Studio Developer Community](https://developercommunity.visualstudio.com/) tracks issues and feature suggestions for Visual Studio.
 
 ### Before submitting an issue
 
@@ -29,21 +29,21 @@ If you can't find an existing issue that describes your bug or feature, submit a
 
 1. File only one problem or feature request per issue.
 
-    - Combining multiple problems or feature requests into a single issue makes it harder for us to diagnose, and harder for other users to vote for your issue.
-    - Don't add your issue as a comment to an existing issue unless it's for the identical input. Many issues look similar but have different causes, which makes it harder for us to diagnose your issue.
+    1. Combining multiple problems or feature requests into a single issue makes it harder for us to diagnose, and harder for other users to vote for your issue.
+    2. Don't add your issue as a comment to an existing issue unless it's for the identical input. Many issues look similar but have different causes, which makes it harder for us to diagnose your issue.
 
 2. The more information you can provide, the easier it will be for us to reproduce and fix your issue.
 3. Include the following steps with each issue.
 
-    - Reproducible steps (1... 2... 3...) and what you expected versus what you experienced.
-    - Images, animations, or a link to a video. Images and animations illustrate repro-steps but _don't_ replace them.
-    - As appropriate, a code snippet that demonstrates the issue or a link to a code repository we can easily pull down onto our machine to recreate the issue.
+    1. Reproducible steps (1... 2... 3...) and what you expected versus what you experienced.
+    2. Images, animations, or a link to a video. Images and animations illustrate repro-steps but _don't_ replace them.
+    3. As appropriate, a code snippet that demonstrates the issue or a link to a code repository we can easily pull down onto our machine to recreate the issue.
 
 4. Remember to do the following steps:
 
-    - Search to see if there exists a duplicate. If so, vote up the existing issue, providing additional comments or clarifications as needed.
-    - Recreate the issue after disabling all extensions. If you find the issue is caused by an extension you've installed, file an issue on the extension respectively.
-    - Simplify your code around the issue so we can better isolate the problem.
+    1. Search to see if there exists a duplicate. If so, vote up the existing issue, providing additional comments or clarifications as needed.
+    2. Recreate the issue after disabling all extensions. If you find the issue is caused by an extension you've installed, file an issue on the extension respectively.
+    3. Simplify your code around the issue so we can better isolate the problem.
 
 Even with issues that include rich details, we may be unable to reproduce the issue and may ask for more information!
 
@@ -55,7 +55,7 @@ After you report a problem, states indicate where your submissions are in their 
 
 When an issue is missing important information, we assign the _Needs More Info_ state. We comment on the issue with the specific information we need, and you'll receive an email notification. If we don't receive the information within seven days, then we send you a reminder. After that, we close the ticket after 14 days of inactivity.
 
-### Won't fix Bugs
+### Won't fix bugs
 
 We close some bugs if there's a negative cost-benefit balance. For example, if the fix is so complex it risks regressions for many users, fixing may not be a reasonable choice. When we close a bug like this, we'll explain why we do so.
 
@@ -85,10 +85,14 @@ Track the progress of your feature suggestion by referencing the [Suggestion sta
 
 To keep the conversation clear and transparent, limit discussion to English and keep things relevant to the issue. Be considerate to others and always try to be courteous and professional.
 
-For more information, ee the [Microsoft Community Code of Conduct](https://answers.microsoft.com/en-us/page/codeofconduct).
+For more information, see the [Microsoft Community Code of Conduct](https://answers.microsoft.com/page/codeofconduct).
 
 Any violations to the discussion etiquette can lead to removal of the comment and eventually banning the user.
 
-## Data Privacy
+## Data privacy
 
 Comments and replies are publicly visible, but any attached files are privately shared with Microsoft only. This visibility is beneficial because it allows the entire community to see the issues and solutions found by other users. If you're concerned about the privacy of your data or identity, you have options. Read more about [Developer Community data privacy](https://docs.microsoft.com/visualstudio/ide/developer-community-privacy).
+
+## Next steps
+
+Head on over to the [Visual Studio Developer Community](https://developercommunity.visualstudio.com/) to report problems, suggest features, or browse through the existing tickets. Enjoy!
