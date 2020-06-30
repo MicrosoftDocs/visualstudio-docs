@@ -29,21 +29,21 @@ If you can't find an existing issue that describes your bug or feature, submit a
 
 1. File only one problem or feature request per issue.
 
-- Combining multiple problems or feature requests into a single issue makes it harder for us to diagnose, and harder for other users to vote for your issue.
-- Don't add your issue as a comment to an existing issue unless it's for the identical input. Many issues look similar but have different causes, which makes it harder for us to diagnose your issue.
+    - Combining multiple problems or feature requests into a single issue makes it harder for us to diagnose, and harder for other users to vote for your issue.
+    - Don't add your issue as a comment to an existing issue unless it's for the identical input. Many issues look similar but have different causes, which makes it harder for us to diagnose your issue.
 
 2. The more information you can provide, the easier it will be for us to reproduce and fix your issue.
 3. Include the following steps with each issue.
 
-- Reproducible steps (1... 2... 3...) and what you expected versus what you experienced.
-- Images, animations, or a link to a video. Images and animations illustrate repro-steps but _don't_ replace them.
-- As appropriate, a code snippet that demonstrates the issue or a link to a code repository we can easily pull down onto our machine to recreate the issue.
+    - Reproducible steps (1... 2... 3...) and what you expected versus what you experienced.
+    - Images, animations, or a link to a video. Images and animations illustrate repro-steps but _don't_ replace them.
+    - As appropriate, a code snippet that demonstrates the issue or a link to a code repository we can easily pull down onto our machine to recreate the issue.
 
 4. Remember to do the following steps:
 
-- Search to see if there exists a duplicate. If so, vote up the existing issue, providing additional comments or clarifications as needed.
-- Recreate the issue after disabling all extensions. If you find the issue is caused by an extension you've installed, file an issue on the extension respectively.
-- Simplify your code around the issue so we can better isolate the problem.
+    - Search to see if there exists a duplicate. If so, vote up the existing issue, providing additional comments or clarifications as needed.
+    - Recreate the issue after disabling all extensions. If you find the issue is caused by an extension you've installed, file an issue on the extension respectively.
+    - Simplify your code around the issue so we can better isolate the problem.
 
 Note that even with issues that include rich details, we may not be able to reproduce the issue and may ask for more information!
 
