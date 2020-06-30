@@ -598,7 +598,7 @@
         - name: "CA2015: Do not define finalizers for types derived from MemoryManager<T>"
           href: ca2015.md
         - name: "CA2016: Forward the CancellationToken parameter to methods that take one"
-        - href: ca2016.md
+          href: ca2016.md
       - name: Security warnings
         items:
         - name: Overview
