@@ -1,7 +1,7 @@
 ---
 title: Export and save code maps
 ms.date: 05/16/2018
-ms.topic: conceptual
+ms.topic: how-to
 author: JoshuaPartlow
 ms.author: joshuapa
 manager: jillfra

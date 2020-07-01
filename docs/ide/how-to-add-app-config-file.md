@@ -1,7 +1,7 @@
 ---
 title: How to add an app.config file to a project
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 dev_langs:
 - CSharp
 helpviewer_keywords:

@@ -1,9 +1,9 @@
 ---
 title: "How to: Migrate a Domain-Specific Language to a New Version"
 ms.date: 11/04/2016
-ms.topic: conceptual
-author: jillre
-ms.author: jillfra
+ms.topic: how-to
+author: JoshuaPartlow
+ms.author: joshuapa
 manager: jillfra
 ms.workload:
   - "multiple"

@@ -1,7 +1,7 @@
 ---
 title: 'How to: Add Comments to Class Diagrams (Class Designer)'
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 f1_keywords:
 - vs.classdesigner.comment
 helpviewer_keywords:

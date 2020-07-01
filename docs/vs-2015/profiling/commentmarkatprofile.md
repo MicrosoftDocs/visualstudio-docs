@@ -64,7 +64,7 @@ PROFILE_COMMAND_STATUS PROFILERAPI CommentMarkAtProfile (
   
 ## Function Information  
   
-|||  
+|Item|Value|  
 |-|-|  
 |**Header**|Include VSPerf.h|  
 |**Library**|Use VSPerf.lib|  

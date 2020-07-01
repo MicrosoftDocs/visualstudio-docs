@@ -10,8 +10,8 @@ helpviewer_keywords:
   - "performance"
   - "low-memory"
 ms.assetid: 572c15aa-1fd0-468c-b6be-9fa50e170914
-author: TerryGLee
-ms.author: tglee
+author: Mikejo5000
+ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple

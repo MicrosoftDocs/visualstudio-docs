@@ -1,7 +1,7 @@
 ---
 title: "How to: Configure inclusion list security"
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: "how-to"
 dev_langs:
   - "VB"
   - "CSharp"

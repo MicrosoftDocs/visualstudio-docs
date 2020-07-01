@@ -1,7 +1,7 @@
 ---
 title: 'How to: Customize Class Diagrams (Class Designer)'
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - class diagrams, customizing
 - shapes, removing type from class diagrams

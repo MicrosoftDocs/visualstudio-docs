@@ -1,7 +1,7 @@
 ---
 title: "Troubleshoot errors in Office solutions"
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: "troubleshooting"
 f1_keywords:
   - "VST.Project.DesignerDisabled"
   - "VST.Designer.CannotActivate"

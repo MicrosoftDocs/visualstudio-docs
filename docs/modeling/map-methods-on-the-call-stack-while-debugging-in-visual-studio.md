@@ -1,7 +1,7 @@
 ---
 title: Map methods on the call stack while debugging
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 f1_keywords:
 - vs.progression.debugwithcodemaps
 dev_langs:

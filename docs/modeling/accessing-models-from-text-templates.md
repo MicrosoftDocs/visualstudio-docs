@@ -1,7 +1,7 @@
 ---
 title: Accessing Models from Text Templates
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - text templates, accessing models
 author: JoshuaPartlow

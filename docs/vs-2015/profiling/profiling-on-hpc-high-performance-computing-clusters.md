@@ -46,7 +46,7 @@ You can profile on compute nodes of Microsoft Windows HPC clusters by using the 
   
     3. `clusrun /all /scheduler:` *%HeadNode% %ProfilerPath%* `/q /norestart`  
   
-|||  
+|Syntax element|Description|  
 |-|-|  
 |*%HeadNode%*|Name of the head node for the cluster.|  
 |*%FxPath%*|Path to the [!INCLUDE[net_v40_long](../includes/net-v40-long-md.md)] installer. On the [!INCLUDE[vsPreShort](../includes/vspreshort-md.md)] installation media the path is: WCU\dotNetFramework\dotNetFx40_Full_x86_x64.exe|  

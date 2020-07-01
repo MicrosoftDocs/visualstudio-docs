@@ -31,7 +31,7 @@ This topic explains the basic concepts in defining and using a domain-specific l
 ## Prerequisites
  To define a DSL, you must have installed the following components:
 
-|||
+|Product|Download link|
 |-|-|
 |[!INCLUDE[vsprvs](../includes/vsprvs-md.md)]|[http://go.microsoft.com/fwlink/?LinkId=185579](https://www.visualstudio.com/)|
 |[!INCLUDE[vssdk_current_short](../includes/vssdk-current-short-md.md)]|[http://go.microsoft.com/fwlink/?LinkId=185580](/azure/devops/integrate/index?view=azure-devops&viewFallbackFrom=vsts)|

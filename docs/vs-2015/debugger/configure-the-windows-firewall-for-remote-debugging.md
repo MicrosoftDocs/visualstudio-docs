@@ -70,18 +70,16 @@ This topic describes how to configure the firewall to enable remote debugging on
   
 ## Ports on the remote computer that enable remote debugging  
   
-|||||  
-|-|-|-|-|  
 |**Ports**|**Incoming/Outgoing**|**Protocol**|**Description**|  
+|-|-|-|-|
 |3702|Outgoing|UDP|Required for remote debugger discovery.|  
 |4020||TCP|For VS 2015. The port number is incremented by 2 for each Visual Studio version. For more information, see  Visual Studio Remote Debugger Port Assignments.|  
 |4021||TCP|For VS 2015. The port number is incremented by 2 for each Visual Studio version. For more information, see  Visual Studio Remote Debugger Port Assignments.|  
   
 ## Ports on the remote computer that enable remote debugging with managed or native compatibility mode  
   
-|||||  
-|-|-|-|-|  
 |**Ports**|**Incoming/Outgoing**|**Protocol**|**Description**|  
+|-|-|-|-|  
 |135, 139, 445|Outgoing|TCP|Required.|  
 |137, 138|Outgoing|UDP|Required.|  
 |500, 4500|Outgoing|UDP|Required if your domain policy requires network communication to be performed through IPSec.|  

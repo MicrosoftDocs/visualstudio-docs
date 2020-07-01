@@ -1,7 +1,7 @@
 ---
 title: "How to: Change the position of a tab on the ribbon"
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: "how-to"
 dev_langs:
   - "VB"
   - "CSharp"

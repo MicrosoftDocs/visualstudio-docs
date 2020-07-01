@@ -17,7 +17,7 @@ ms.workload:
 ---
 # DA0006: Override Equals() for value types
 
-|||
+|Item|Value|
 |-|-|
 |Rule Id|DA0006|
 |Category|.NET Framework Usage|

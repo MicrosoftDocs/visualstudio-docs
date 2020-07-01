@@ -23,7 +23,7 @@ manager: "wpickett"
 # CA1013: Overload operator equals on overloading add and subtract
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-|||
+|Item|Value|
 |-|-|
 |TypeName|OverloadOperatorEqualsOnOverloadingAddAndSubtract|
 |CheckId|CA1013|

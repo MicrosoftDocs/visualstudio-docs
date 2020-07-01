@@ -21,7 +21,7 @@ manager: "wpickett"
 
 For the latest documentation on Visual Studio, see [CA1702: Compound words should be cased correctly](/visualstudio/code-quality/ca1702-compound-words-should-be-cased-correctly).
 
-|||
+|Item|Value|
 |-|-|
 |TypeName|CompoundWordsShouldBeCasedCorrectly|
 |CheckId|CA1702|
