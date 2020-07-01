@@ -5,7 +5,7 @@ ms.date: "01/18/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "reference"
 helpviewer_keywords: 
   - "Active Script Debugging overview"
 ms.assetid: ce4ec768-d017-4dfa-a7e3-cced3a29e679

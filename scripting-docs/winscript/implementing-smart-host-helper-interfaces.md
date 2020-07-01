@@ -5,7 +5,7 @@ ms.date: "01/18/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "reference"
 helpviewer_keywords: 
   - "Smart Host Helper Interfaces, implementing"
 ms.assetid: b9c44246-4d4d-469e-91be-00c8f5796fa5
