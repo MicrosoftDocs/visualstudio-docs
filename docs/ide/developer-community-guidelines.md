@@ -27,23 +27,23 @@ If you can't find an existing issue that describes your bug or feature, submit a
 
 ### Writing a good bug report or feature suggestion
 
-1. File only one problem or feature request per issue.
+- File only one problem or feature request per issue.
 
-    1. Combining multiple problems or feature requests into a single issue makes it harder for us to diagnose, and harder for other users to vote for your issue.
-    2. Don't add your issue as a comment to an existing issue unless it's for the identical input. Many issues look similar but have different causes, which makes it harder for us to diagnose your issue.
+  - Combining multiple problems or feature requests into a single issue makes it harder for us to diagnose, and harder for other users to vote for your issue.
+  - Don't add your issue as a comment to an existing issue unless it's for the identical input. Many issues look similar but have different causes, which makes it harder for us to diagnose your issue.
 
-2. The more information you can provide, the easier it will be for us to reproduce and fix your issue.
-3. Include the following steps with each issue.
+- The more information you can provide, the easier it will be for us to reproduce and fix your issue.
+- Include the following steps with each issue.
 
-    1. Reproducible steps (1... 2... 3...) and what you expected versus what you experienced.
-    2. Images, animations, or a link to a video. Images and animations illustrate repro-steps but _don't_ replace them.
-    3. As appropriate, a code snippet that demonstrates the issue or a link to a code repository we can easily pull down onto our machine to recreate the issue.
+  - Reproducible steps (1... 2... 3...) and what you expected versus what you experienced.
+  - Images, animations, or a link to a video. Images and animations illustrate repro-steps but _don't_ replace them.
+  - As appropriate, a code snippet that demonstrates the issue or a link to a code repository we can easily pull down onto our machine to recreate the issue.
 
-4. Remember to do the following steps:
+- Remember to do the following steps:
 
-    1. Search to see if there exists a duplicate. If so, vote up the existing issue, providing additional comments or clarifications as needed.
-    2. Recreate the issue after disabling all extensions. If you find the issue is caused by an extension you've installed, file an issue on the extension respectively.
-    3. Simplify your code around the issue so we can better isolate the problem.
+  - Search to see if there exists a duplicate. If so, vote up the existing issue, providing additional comments or clarifications as needed.
+  - Recreate the issue after disabling all extensions. If you find the issue is caused by an extension you've installed, file an issue on the extension respectively.
+  - Simplify your code around the issue so we can better isolate the problem.
 
 Even with issues that include rich details, we may be unable to reproduce the issue and may ask for more information!
 
@@ -57,7 +57,7 @@ When an issue is missing important information, we assign the _Needs More Info_ 
 
 ### Won't fix bugs
 
-We close some bugs if there's a negative cost-benefit balance. For example, if the fix is so complex it risks regressions for many users, fixing may not be a reasonable choice. When we close a bug like this, we'll explain why we do so.
+We close some bugs when there's a negative cost-benefit balance. For example, if the fix is so complex it risks regressions for many users, fixing may not be reasonable. When we close a bug like this, we'll explain why we do so.
 
 #### Additional information
 
@@ -77,7 +77,7 @@ In our decision-making process, we look at the following characteristics about t
 - Does it have community support, as indicated by votes and comments?
 - Do we love it, even with low community support?
 
-When we can't answer "yes" to any of these questions, we'll close the suggestion. But often the suggestion will stay open as _Under Review_ to gather more community feedback.
+When we can't answer "yes" to any of these questions, we'll close it. But often the suggestion will stay open as _Under Review_ to gather more community feedback.
 
 Track the progress of your feature suggestion by referencing the [Suggestion states and FAQ](https://docs.microsoft.com/visualstudio/ide/report-a-problem).
 
