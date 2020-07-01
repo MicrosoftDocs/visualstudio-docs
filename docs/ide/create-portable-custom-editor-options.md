@@ -1,7 +1,7 @@
 ---
 title: EditorConfig settings
 ms.date: 08/01/2018
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - editorconfig [Visual Studio]
 author: TerryGLee

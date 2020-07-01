@@ -3,7 +3,7 @@ title: "Troubleshooting and known issues (VS Tools for Unity)"
 ms.custom: ""
 ms.date: "07/03/2018"
 ms.technology: vs-unity-tools
-ms.topic: "conceptual"
+ms.topic: troubleshooting
 ms.assetid: 8f5db192-8d78-4627-bd07-dbbc803ac554
 author: therealjohn
 ms.author: johmil

@@ -1,7 +1,7 @@
 ---
 title: Design Windows Forms apps
 ms.date: 08/09/2019
-ms.topic: conceptual
+ms.topic: overview
 helpviewer_keywords:
 - Windows Forms Designer
 author: TerryGLee

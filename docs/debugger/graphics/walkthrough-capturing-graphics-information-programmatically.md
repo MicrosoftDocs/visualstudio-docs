@@ -31,7 +31,7 @@ This section shows how to do these tasks:
 - Capturing graphics information
 
 > [!NOTE]
-> Previous implementations of programmatic capture relied on Remote Tools for Visual Studio for [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] to provide capture functionality.
+> Previous implementations of programmatic capture relied on Remote Tools for Visual Studio to provide capture functionality.
 
 ### Preparing your app to use programmatic capture
 To use programmatic capture in your app, it must include the necessary headers. These headers are part of the Windows 10 SDK.

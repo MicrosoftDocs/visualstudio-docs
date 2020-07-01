@@ -1,7 +1,7 @@
 ---
 title: Using Peek Definition
 ms.date: 01/10/2018
-ms.topic: conceptual
+ms.topic: how-to
 author: TerryGLee
 ms.author: tglee
 manager: jillfra

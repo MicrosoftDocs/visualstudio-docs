@@ -1,7 +1,7 @@
 ---
 title: 'How to: Switch Between Views and the XML editor'
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 ms.assetid: cb69fbbd-d99c-439e-9498-5df9050f8df0
 author: TerryGLee
 ms.author: tglee
