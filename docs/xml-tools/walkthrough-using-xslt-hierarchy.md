@@ -1,7 +1,7 @@
 ---
 title: 'Walkthrough: Using XSLT Hierarchy'
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 author: TerryGLee
 ms.author: tglee
 manager: jillfra
