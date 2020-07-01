@@ -1,7 +1,7 @@
 ---
 title: XML Schema Designer
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: overview
 ms.assetid: ffdf63ee-faa6-45b7-bbf9-a5644dc8aca2
 author: TerryGLee
 ms.author: tglee
