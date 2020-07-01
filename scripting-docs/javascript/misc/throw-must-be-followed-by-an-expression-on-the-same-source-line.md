@@ -3,7 +3,7 @@ title: "Throw must be followed by an expression on the same source line | Micros
 ms.date: "01/18/2017"
 ms.prod: visual-studio-windows
 ms.technology: vs-javascript
-ms.topic: reference
+ms.topic: error-reference
 f1_keywords: 
   - "VS.WebClient.Help.SCRIPT1035"
 dev_langs: 

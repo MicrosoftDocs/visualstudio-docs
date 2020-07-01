@@ -1,7 +1,7 @@
 ---
 title: Create an XML Schema
 ms.date: 03/05/2019
-ms.topic: conceptual
+ms.topic: how-to
 ms.assetid: 1d6700a9-fd67-4794-8997-399589e99bec
 author: TerryGLee
 ms.author: tglee
