@@ -1,7 +1,7 @@
 ---
 title: 'Workflow Designer - How to: Set Breakpoints in Workflows'
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 ms.assetid: e41b21c9-c061-4358-8e2f-eb5e412864a8
 author: TerryGLee
 ms.author: tglee

@@ -3,7 +3,7 @@ title: "The use of a future reserved word for an identifier is invalid | Microso
 ms.date: "01/18/2017"
 ms.prod: visual-studio-windows
 ms.technology: vs-javascript
-ms.topic: reference
+ms.topic: error-reference
 f1_keywords: 
   - "VS.WebClient.Help.SCRIPT1049"
 dev_langs: 

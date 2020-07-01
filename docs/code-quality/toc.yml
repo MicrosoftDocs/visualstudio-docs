@@ -511,6 +511,8 @@
           href: ca1802.md
         - name: "CA1804: Remove unused locals"
           href: ca1804.md
+        - name: "CA1805: Do not initialize unnecessarily"
+          href: ca1805.md
         - name: "CA1806: Do not ignore method results"
           href: ca1806.md
         - name: "CA1809: Avoid excessive locals"

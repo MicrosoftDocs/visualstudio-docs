@@ -3,7 +3,7 @@ title: "Share the Unity Log Callback with VSTU | Microsoft Docs"
 ms.custom: ""
 ms.date: "07/26/2018"
 ms.technology: vs-unity-tools
-ms.topic: "conceptual"
+ms.topic: how-to
 ms.assetid: 5d71f906-6e50-4399-b59b-d38c6dfef7ee
 author: therealjohn
 ms.author: johmil
