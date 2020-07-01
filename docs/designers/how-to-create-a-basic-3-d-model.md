@@ -1,7 +1,7 @@
 ---
 title: 'How to: Create a Basic 3D Model'
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 ms.assetid: a0d97966-2df8-449b-a8cf-5a19684dc773
 author: TerryGLee
 ms.author: tglee
