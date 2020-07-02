@@ -1,7 +1,7 @@
 ---
 title: Localizing Menu Commands | Microsoft Docs
 ms.date: 10/08/2019
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - localize
 - localization

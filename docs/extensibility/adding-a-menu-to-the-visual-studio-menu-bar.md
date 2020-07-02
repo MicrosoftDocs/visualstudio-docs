@@ -1,7 +1,7 @@
 ---
 title: Adding a Menu to the Visual Studio Menu Bar | Microsoft Docs
 ms.date: 3/16/2019
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - menus, creating top level
 - top-level menus
