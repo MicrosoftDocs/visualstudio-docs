@@ -3,7 +3,7 @@ title: Tutorial - Create a Multi-Container App with Docker Compose
 description: Learn how to manage more than one container and communicate between them in Visual Studio for Mac
 author: heiligerdankgesang
 ms.author: dominicn
-ms.date: 06/17/2019
+ms.date: 07/03/2020
 ---
 
 # Create a Multi-Container App with Docker Compose
@@ -18,9 +18,9 @@ In this tutorial, you'll learn how to manage more than one container and communi
 ## Create an ASP.NET Core Web Application and Add Docker Support
 
 1. Create a new solution by going to **File > New Solution**.
-1. Under **.NET Core > App** choose the **Web Application** template:
+1. Under **Web and Console > App** choose the **Web Application** template:
 ![Create a new ASP.NET application](media/docker-quickstart-1.png)
-1. Select the target framework. In this example we will use .NET Core 2.2:
+1. Select the target framework. In this example we will use .NET Core 3.1:
 ![Set target framework](media/docker-quickstart-2.png)
 1. Enter the project details, such as Project Name (_DockerDemoFrontEnd_ in this example) and Solution Name (_DockerDemo_). The created project contains all the basics you need to build and run an ASP.NET Core web site.
 1. In the Solution Pad, right click the DockerDemoFrontEnd project and select **Add > Add Docker Support**:
@@ -33,8 +33,8 @@ Visual Studio for Mac will automatically add a new project to your solution call
 Next we will create a second project which will act as our backend API. The **.NET Core API** template includes a controller that allows us to handle RESTful requests.
 
 1. Add a new project to the existing solution by right-clicking on the solution and choosing **Add > Add New Project**.
-1. Under **.NET Core > App** choose the **API** template.
-1. Select the target framework. In this example we will use .NET Core 2.2
+1. Under **Web and Console > App** choose the **API** template.
+1. Select the target framework. In this example we will use .NET Core 3.1.
 1. Enter the project details, such as Project Name (_DockerDemoAPI_ in this example).
 1. Once created, go to the Solution Pad and right click the DockerDemoAPI project and select **Add > Add Docker Support**.
 
@@ -61,7 +61,7 @@ services:
 
 We now have two ASP.NET projects in our solution and both are configured with Docker support. Next we need to add some code!
 
-1. In the `DockerDemoFrontEnd` project, open the *Index.cshtml.cs* file, and replace the `OnGet` method with the following code:
+1. In the `DockerDemoFrontEnd` project, open the *Pages/Index.cshtml.cs* file, and replace the `OnGet` method with the following code:
 
    ```csharp
     public async Task OnGet()
@@ -72,12 +72,18 @@ We now have two ASP.NET projects in our solution and both are configured with Do
        {
           // Call *mywebapi*, and display its response in the page
           var request = new System.Net.Http.HttpRequestMessage();
-          request.RequestUri = new Uri("http://dockerdemoapi/api/values/1");
+          request.RequestUri = new Uri("http://mywebapi/WeatherForecast"); // ASP.NET 3 (VS 2019 only)
+          // request.RequestUri = new Uri("http://mywebapi/api/values/1"); // ASP.NET 2.x
           var response = await client.SendAsync(request);
           ViewData["Message"] += " and " + await response.Content.ReadAsStringAsync();
        }
     }
    ```
+   
+    > [!NOTE]
+    > In real-world code, you shouldn't dispose `HttpClient` after every request. For best practices, see [Use HttpClientFactory to implement resilient HTTP requests](https://docs.microsoft.com/dotnet/architecture/microservices/implement-resilient-applications/use-httpclientfactory-to-implement-resilient-http-requests).
+
+   For .NET Core 3.1 in Visual Studio 2019 for Mac or later, the Web API template uses a WeatherForecast API, so uncomment that line and comment out the line for ASP.NET 2.x.
 
 1. In the *Index.cshtml* file, add a line to display `ViewData["Message"]` so that the file looks like the following code:
 
@@ -91,11 +97,11 @@ We now have two ASP.NET projects in our solution and both are configured with Do
       <div class="text-center">
           <h1 class="display-4">Welcome</h1>
           <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-          <p>@ViewData["Message"]</p>
+          <p>@ViewData["Message"]</p>s
       </div>
       ```
 
-1. Now in the Web API project, add code to the Values controller to customize the message returned by the API for the call you added from *webfrontend*:
+1. (ASP.NET 2.x only) Now in the Web API project, add code to the Values controller to customize the message returned by the API for the call you added from *webfrontend*:
 
       ```csharp
         // GET api/values/5
@@ -105,6 +111,12 @@ We now have two ASP.NET projects in our solution and both are configured with Do
             return "webapi (with value " + id + ")";
         }
       ```
+
+With .NET Core 3.1, you don't need this, because you can use the WeatherForecast API that is already there. However, you need to comment out the call to <xref:Microsoft.AspNetCore.Builder.HttpsPolicyBuilderExtensions.UseHttpsRedirection*>  in the `Configure` method in *Startup.cs*, because this code uses HTTP, not HTTPS, to call the Web API.
+
+    ```csharp
+                //app.UseHttpsRedirection();
+    ```
 
 1. Set the `docker-compose` project as the startup project and go to **Run > Start Debugging**. If everything is configured correctly, you see the message "Hello from webfrontend and webapi (with value 1).":
 
