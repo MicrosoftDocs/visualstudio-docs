@@ -4,6 +4,7 @@ description: Learn how to manage more than one container and communicate between
 author: heiligerdankgesang
 ms.author: dominicn
 ms.date: 06/17/2019
+ms.topic: tutorial
 ---
 
 # Create a Multi-Container App with Docker Compose
