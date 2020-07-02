@@ -1,7 +1,7 @@
 ---
 title: Troubleshoot template discovery in Visual Studio | Microsoft Docs
 ms.date: 01/02/2018
-ms.topic: conceptual
+ms.topic: troubleshooting
 author: acangialosi
 ms.author: anthc
 manager: jillfra
