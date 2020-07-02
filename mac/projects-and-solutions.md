@@ -6,6 +6,7 @@ author: heiligerdankgesang
 ms.author: dominicn
 ms.date: 05/23/2019
 ms.assetid: 8254505D-D96E-48BD-8A5E-CF6A917897EA
+ms.topic: overview
 ---
 # Projects and Solutions in Visual Studio for Mac
 
