@@ -1,7 +1,7 @@
 ---
 title: Creating a WPF Toolbox Control | Microsoft Docs
 ms.date: 3/16/2019
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - toolbox control
 - toolbox

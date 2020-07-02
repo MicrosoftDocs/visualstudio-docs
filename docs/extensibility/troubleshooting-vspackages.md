@@ -1,7 +1,7 @@
 ---
 title: Troubleshooting VSPackages | Microsoft Docs
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: troubleshooting
 helpviewer_keywords:
 - VSPackages, troubleshooting
 - debugging, VSPackages
