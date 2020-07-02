@@ -5,7 +5,7 @@ ms.author: v-evwin
 manager: lank
 ms.assetid: e5768153-2758-46d3-a323-3272def213ee
 ms.date: 03/25/2020
-ms.topic: conceptual
+ms.topic: how-to
 description:  Learn about the CODE Magazine benefit included in your Visual Studio subscription.
 ---
 
