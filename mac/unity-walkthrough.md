@@ -6,6 +6,7 @@ ms.author: dominicn
 ms.date: 05/20/2019
 ms.technology: vs-ide-general
 ms.assetid: D07FA43B-9D18-4DFA-8343-CD538FAD84DB
+ms.topic: how-to
 ---
 
 # Getting started building games with Unity in Visual Studio for Mac
