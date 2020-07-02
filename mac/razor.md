@@ -6,6 +6,7 @@ ms.author: sayedha
 ms.date: 05/03/2018
 ms.technology: vs-ide-general
 ms.assetid: F898CB6E-05ED-44CD-8DB6-427B2592CCC6
+ms.topic: how-to
 ---
 
 # Create Razor web apps
