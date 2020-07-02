@@ -5,6 +5,7 @@ ms.assetid: 3E5ADF4A-6655-42AD-BFC1-CE5E437C457B
 author: heiligerdankgesang
 ms.author: dominicn
 ms.date: 05/06/2018
+ms.topic: overview
 ---
 
 # Azure
