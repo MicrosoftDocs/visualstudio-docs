@@ -1,7 +1,7 @@
 ---
 title: "Walkthrough: Import Items from an Existing SharePoint Site | Microsoft Docs"
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: how-to
 dev_langs:
   - "VB"
   - "CSharp"

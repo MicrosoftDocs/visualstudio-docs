@@ -1,7 +1,7 @@
 ---
 title: "Get data for built-in SharePoint node in Server Explorer"
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: how-to
 dev_langs:
   - "VB"
   - "CSharp"

@@ -1,7 +1,7 @@
 ---
 title: "Walkthrough: Deploying a Project Task List Definition | Microsoft Docs"
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: how-to
 dev_langs:
   - "VB"
   - "CSharp"
