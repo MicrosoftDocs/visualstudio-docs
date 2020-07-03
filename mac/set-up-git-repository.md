@@ -5,6 +5,7 @@ author: therealjohn
 ms.author: johmil
 ms.date: 05/13/2020
 ms.assetid: E992FA1D-B2AD-4A28-ADC6-47E4FC471060
+ms.topic: how-to
 ---
 # Set up a Git repository
 
