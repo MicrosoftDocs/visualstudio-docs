@@ -85,7 +85,7 @@ Track the progress of your feature suggestion by referencing the [Suggestion sta
 
 To keep the conversation clear and transparent, limit discussion to English and keep things relevant to the issue. Be considerate to others and always try to be courteous and professional.
 
-For more information, see the [Microsoft Community Code of Conduct](https://answers.microsoft.com/page/codeofconduct).
+For more information, see the [Microsoft Community Code of Conduct](https://answers.microsoft.com/en-us/page/codeofconduct).
 
 Any violations to the discussion etiquette can lead to removal of the comment and eventually banning the user.
 

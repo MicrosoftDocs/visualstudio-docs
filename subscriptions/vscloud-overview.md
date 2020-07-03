@@ -5,7 +5,7 @@ ms.author: v-evwin
 manager: lank
 ms.assetid: af1f7888-6942-4515-9475-0928ecf49dab
 ms.date: 03/24/2020
-ms.topic: conceptual
+ms.topic: overview
 description:  Rent Visual Studio Professional or Visual Studio Enterprise on a month-to-month or annual basis, with no long-term contract.
 ---
 # Buy Visual Studio Professional and Visual Studio Enterprise cloud subscriptions
