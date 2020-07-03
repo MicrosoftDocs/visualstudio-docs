@@ -8,6 +8,7 @@ author: sayedihashimi
 ms.author: sayedha
 manager: unniravindranathan
 ms.prod: visual-studio-mac
+ms.topic: how-to
 ---
 # Publish to a folder using Visual Studio for Mac
 

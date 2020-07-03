@@ -6,6 +6,7 @@ ms.author: dominicn
 ms.date: 05/06/2018
 ms.assetid: CC1B72D6-12FF-4CCC-A9D4-00F2DC14589F
 ms.custom: video
+ms.topic: how-to
 ---
 
 # Creating and editing build configurations
