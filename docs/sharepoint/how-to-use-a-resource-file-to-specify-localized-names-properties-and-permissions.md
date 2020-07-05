@@ -1,7 +1,7 @@
 ---
 title: "How to: Use a Resource File to Specify Localized Names, Properties, and Permissions | Microsoft Docs"
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: how-to
 dev_langs:
   - "VB"
   - "CSharp"
