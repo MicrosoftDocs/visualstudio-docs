@@ -5,7 +5,7 @@ ms.author: lank
 manager: lank
 ms.assetid: 83efe4ee-9a9d-4776-b27c-852d89dadafd
 ms.date: 03/09/2020
-ms.topic: conceptual
+ms.topic: how-to
 description: How to assign Visual Studio subscriptions to your end users, for MPN partners.
 ---
 

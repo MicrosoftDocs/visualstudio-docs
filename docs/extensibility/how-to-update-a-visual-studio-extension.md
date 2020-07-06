@@ -1,7 +1,7 @@
 ---
 title: 'How to: Update a Visual Studio Extension | Microsoft Docs'
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - update package
 - update extension

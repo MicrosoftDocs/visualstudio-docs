@@ -5,7 +5,7 @@ ms.author: v-evwin
 manager: lank
 ms.assetid: 383fc910-3f4c-474a-a3f8-0f13525f05e9
 ms.date: 03/26/2020
-ms.topic: conceptual
+ms.topic: how-to
 description:  Learn about the Power BI Pro subscription included with selected Visual Studio subscriptions.
 ---
 

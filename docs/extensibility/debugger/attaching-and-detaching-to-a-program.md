@@ -1,7 +1,7 @@
 ---
 title: Attaching and Detaching to a Program | Microsoft Docs
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - debug engines, attaching to programs
 - debug engines, detaching from programs

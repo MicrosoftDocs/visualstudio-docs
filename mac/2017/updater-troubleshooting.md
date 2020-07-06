@@ -6,6 +6,7 @@ ms.author: dominicn
 ms.date: 04/13/2019
 ms.technology: vs-ide-install
 ms.assetid: 8825BBAD-65C0-480F-9868-A01E64F28250
+ms.topic: troubleshooting
 ---
 
 # Troubleshooting: Updater has errors retrieving information
