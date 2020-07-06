@@ -5,6 +5,7 @@ author: sayedihashimi
 ms.author: sayedha
 ms.date: 05/30/2019
 ms.assetid: 771C2F8E-46BC-4280-AFE8-ED9D5C7790CE
+ms.topic: how-to
 ---
 
 # Building ASP.NET Core applications in Visual Studio for Mac

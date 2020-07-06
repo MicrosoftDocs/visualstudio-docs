@@ -5,6 +5,7 @@ author: sayedihashimi
 ms.author: sayedha
 ms.date: 10/18/2019
 ms.assetid: 047f5e36-f38e-4bf6-a1c5-3fde32978b7d
+ms.topic: tutorial
 ---
 
 # Tutorial: Extending an existing ASP.NET Core web application

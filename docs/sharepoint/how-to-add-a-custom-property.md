@@ -1,7 +1,7 @@
 ---
 title: "How to: Add a Custom Property | Microsoft Docs"
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: how-to
 f1_keywords:
   - "VS.SharePointTools.BDC.Property_Editor"
 dev_langs:

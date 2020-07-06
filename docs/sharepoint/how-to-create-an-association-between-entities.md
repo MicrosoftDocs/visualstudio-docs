@@ -1,7 +1,7 @@
 ---
 title: "How to: Create an Association between Entities | Microsoft Docs"
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: how-to
 f1_keywords:
   - "AssociationGroupTool"
 dev_langs:
