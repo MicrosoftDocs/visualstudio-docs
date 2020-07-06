@@ -1,7 +1,7 @@
 ---
 title: "Create external list in SharePoint using business data"
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: how-to
 dev_langs:
   - "VB"
   - "CSharp"
