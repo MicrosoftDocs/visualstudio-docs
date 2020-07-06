@@ -1,7 +1,7 @@
 ---
 title: "Package designer: Add & remove features and items to package"
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: how-to
 f1_keywords:
   - "VS.SharePointTools.RAD.PackageDesignerDesign"
 dev_langs:
