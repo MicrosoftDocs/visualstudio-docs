@@ -1,7 +1,7 @@
 ---
 title: "Unit testing JavaScript and TypeScript"
 description: Visual Studio provides support unit testing JavaScript and TypeScript code using the Node.js Tools for Visual Studio
-ms.date: "06/06/2018"
+ms.date: "07/06/2020"
 ms.topic: "how-to"
 ms.devlang: javascript
 author: "mikejo5000"
@@ -72,26 +72,32 @@ After opening Test Explorer (choose **Test** > **Windows** > **Test Explorer**),
 ![Test Explorer](../javascript/media/UnitTestsDiscoveryMocha.png)
 
 > [!NOTE]
-> Do not use the `outdir` or `outfile` option in *tsconfig.json*, because Test Explorer won't be able to find your unit tests in TypeScript files.
+> For TypeScript, do not use the `outdir` or `outfile` option in *tsconfig.json*, because Test Explorer won't be able to find your unit tests.
 
 ## Run tests
 
-You can run tests in Visual Studio 2017 or from the command line.
+You can run tests in Visual Studio or from the command line.
 
-### Run tests in Visual Studio 2017
+### Run tests in Visual Studio
 
+::: moniker range=">=vs-2019"
+You can run the tests by clicking the **Run All** link in Test Explorer. Or, you can run tests by selecting one or more tests or groups, right-clicking, and selecting **Run** from the shortcut menu. Tests run in the background, and Test Explorer automatically updates and shows the results. Furthermore, you can also debug selected tests by right-clicking and selecting **Debug**.
+::: moniker-end
+::: moniker range="vs-2017"
 You can run the tests by clicking the **Run All** link in Test Explorer. Or, you can run tests by selecting one or more tests or groups, right-clicking, and selecting **Run Selected Tests** from the shortcut menu. Tests run in the background, and Test Explorer automatically updates and shows the results. Furthermore, you can also debug selected tests by selecting **Debug Selected Tests**.
+::: moniker-end
 
-> [!Warning]
-> Debugging unit tests using Node 8+ currently only works for JavaScript test files,
-> TypeScript test files will fail to hit breakpoints. As a workaround use the `debugger` keyword.
+For TypeScript, unit tests are run against the generated JavaScript code.
+
+> [!NOTE]
+> In most TypeScript scenarios, you can debug a unit test by setting a breakpoint in TypeScript code, right-clicking a test in Test Explorer, and choosing **Debug**. In more complex scenarios, such as some scenarios that use source maps, you may have difficulty hitting breakpoints in TypeScript code. As a workaround, try using the `debugger` keyword.
 
 > [!NOTE]
 > We don't currently support profiling tests, or code coverage.
 
 ### Run tests from the command line
 
-You can run the tests from the [Developer Command Prompt](/dotnet/framework/tools/developer-command-prompt-for-vs) for Visual Studio 2017 using the following command:
+You can run the tests from the [Developer Command Prompt](/dotnet/framework/tools/developer-command-prompt-for-vs) for Visual Studio using the following command:
 
 ```
 vstest.console.exe <path to project file>\NodejsConsoleApp23.njsproj /TestAdapterPath:<VisualStudioFolder>\Common7\IDE\Extensions\Microsoft\NodeJsTools\TestAdapter
