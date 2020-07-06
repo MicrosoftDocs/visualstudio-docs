@@ -38,9 +38,9 @@
     href: nodejs-interactive-repl.md
   - name: JavaScript IntelliSense
     href: /visualstudio/ide/javascript-intellisense?toc=/visualstudio/javascript/toc.json
-  - name: Debug a JavaScript application
+  - name: Debug
     href: debug-nodejs.md
-  - name: Unit testing JavaScript
+  - name: Unit testing
     href: unit-testing-javascript-with-visual-studio.md
 - name: Resources
   items:
