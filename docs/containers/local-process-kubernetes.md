@@ -150,10 +150,10 @@ Use the provided script to remove the sample application from your cluster.
 
 ## Next steps
 
-Learn how to use Azure Dev Spaces and GitHub Actions to test changes from a pull request directly in AKS before the pull request is merged into your repository’s main branch.
+Learn how Local Process Kubernetes works.
 
 > [!div class="nextstepaction"]
-> [GitHub Actions & Azure Kubernetes Service][gh-actions]
+> [How Local Process with Kubernetes works](how-dev-spaces-works-local-process-kubernetes.md)
 
 [azds-cli]: /azure/dev-spaces/how-to/install-dev-spaces#install-the-client-side-tools
 [azds-tmp-dir]: /azure/dev-spaces/troubleshooting#before-you-begin
@@ -163,7 +163,6 @@ Learn how to use Azure Dev Spaces and GitHub Actions to test changes from a pull
 [az-aks-get-credentials]: /cli/azure/aks?view=azure-cli-latest#az-aks-get-credentials
 [az-aks-vs-code]: https://marketplace.visualstudio.com/items?itemName=ms-kubernetes-tools.vscode-aks-tools
 [bike-sharing-github]: https://github.com/Azure/dev-spaces/tree/master/samples/BikeSharingApp
-[gh-actions]: /azure/dev-spaces/how-to/github-actions
 [preview-terms]: https://azure.microsoft.com/support/legal/preview-supplemental-terms/
 [bikeshelper-cs-breakpoint]: https://github.com/Azure/dev-spaces/blob/master/samples/BikeSharingApp/ReservationEngine/BikesHelper.cs#L26
 [supported-regions]: https://azure.microsoft.com/global-infrastructure/services/?products=kubernetes-service

@@ -46,7 +46,7 @@
       href: docker-compose-properties.md
     - name: Launch settings
       href: container-launch-settings.md
-- name: Kubernetes
+- name: Develop with Kubernetes
   items:
     - name: Kubernetes in Visual Studio
       href: tutorial-kubernetes-tools.md
