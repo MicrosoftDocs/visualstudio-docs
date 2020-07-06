@@ -1,7 +1,7 @@
 ---
 title: "Create site column project item with project template, part 1"
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: how-to
 dev_langs:
   - "VB"
   - "CSharp"

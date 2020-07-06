@@ -1,7 +1,7 @@
 ---
 title: "Developing SharePoint Solutions | Microsoft Docs"
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: overview
 f1_keywords:
   - "VS.SharePointTools.Project.ProjectProperties"
   - "VS.SharePointTools.Project.ProjectItemProperties"

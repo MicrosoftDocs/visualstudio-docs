@@ -1,7 +1,7 @@
 ---
 title: "Creating SharePoint Workflow Solutions | Microsoft Docs"
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: overview
 f1_keywords:
   - "VSTO.NewSharePointWorkflowWizard.Page3"
   - "VS.SharePointTools.Workflow.WorkflowName"
