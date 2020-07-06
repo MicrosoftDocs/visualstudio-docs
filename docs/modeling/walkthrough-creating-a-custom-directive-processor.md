@@ -1,7 +1,7 @@
 ---
 title: 'Walkthrough: Creating a Custom Directive Processor'
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - text templates, custom directive processors
 - walkthroughs [text templates], directive processor

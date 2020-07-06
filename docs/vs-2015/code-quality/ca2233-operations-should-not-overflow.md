@@ -19,7 +19,7 @@ manager: "wpickett"
 # CA2233: Operations should not overflow
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-|||
+|Item|Value|
 |-|-|
 |TypeName|OperationsShouldNotOverflow|
 |CheckId|CA2233|

@@ -19,7 +19,7 @@ manager: "wpickett"
 # CA1041: Provide ObsoleteAttribute message
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-|||
+|Item|Value|
 |-|-|
 |TypeName|ProvideObsoleteAttributeMessage|
 |CheckId|CA1041|

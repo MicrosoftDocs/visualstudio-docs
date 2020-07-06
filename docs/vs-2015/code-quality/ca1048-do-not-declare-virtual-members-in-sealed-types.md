@@ -19,7 +19,7 @@ manager: "wpickett"
 # CA1048: Do not declare virtual members in sealed types
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-|||
+|Item|Value|
 |-|-|
 |TypeName|DoNotDeclareVirtualMembersInSealedTypes|
 |CheckId|CA1048|

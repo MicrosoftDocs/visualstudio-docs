@@ -19,7 +19,7 @@ manager: "wpickett"
 # CA1409: Com visible types should be creatable
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-|||
+|Item|Value|
 |-|-|
 |TypeName|ComVisibleTypesShouldBeCreatable|
 |CheckId|CA1409|

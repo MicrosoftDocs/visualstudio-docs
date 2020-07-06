@@ -17,7 +17,7 @@ ms.workload:
 ---
 # DA0002: VSPerfCorProf.dll is missing
 
-|||
+|Item|Value|
 |-|-|
 |Rule Id|DA0002|
 |Category|Profiling Tools Usage|

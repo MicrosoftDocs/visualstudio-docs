@@ -1,7 +1,7 @@
 ---
 title: "IDiaSymbol::get_isSdl | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 ms.assetid: 6aa0e116-da75-4643-a4d7-d8e142231e21

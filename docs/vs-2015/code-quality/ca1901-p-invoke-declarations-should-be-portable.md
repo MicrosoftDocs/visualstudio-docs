@@ -19,7 +19,7 @@ manager: "wpickett"
 # CA1901: P/Invoke declarations should be portable
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-|||
+|Item|Value|
 |-|-|
 |TypeName|PInvokeDeclarationsShouldBePortable|
 |CheckId|CA1901|

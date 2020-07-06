@@ -511,6 +511,8 @@
           href: ca1802.md
         - name: "CA1804: Remove unused locals"
           href: ca1804.md
+        - name: "CA1805: Do not initialize unnecessarily"
+          href: ca1805.md
         - name: "CA1806: Do not ignore method results"
           href: ca1806.md
         - name: "CA1809: Avoid excessive locals"
@@ -551,6 +553,8 @@
           href: ca1828.md
         - name: "CA1829: Use Length/Count property instead of Enumerable.Count method"
           href: ca1829.md
+        - name: "CA1830: Prefer strongly-typed Append and Insert method overloads on StringBuilder"
+          href: ca1830.md
         - name: "CA1831: Use AsSpan instead of Range-based indexers for string when appropriate"
           href: ca1831.md
         - name: "CA1832: Use AsSpan or AsMemory instead of Range-based indexers for getting ReadOnlySpan or ReadOnlyMemory portion of an array"
@@ -601,6 +605,8 @@
           href: ca2014.md
         - name: "CA2015: Do not define finalizers for types derived from MemoryManager<T>"
           href: ca2015.md
+        - name: "CA2016: Forward the CancellationToken parameter to methods that take one"
+          href: ca2016.md
       - name: Security warnings
         items:
         - name: Overview
@@ -949,6 +955,8 @@
           href: ca2245.md
         - name: "CA2246: Do not assign a symbol and its member in the same statement"
           href: ca2246.md
+        - name: "CA2247: Argument passed to TaskCompletionSource constructor should be TaskCreationOptions enum instead of TaskContinuationOptions enum"
+          href: ca2247.md
         - name: "CA2248: Provide correct enum argument to Enum.HasFlag"
           href: ca2248.md
       - name: Automatic feature suspension

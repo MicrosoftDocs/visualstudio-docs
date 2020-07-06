@@ -1,7 +1,7 @@
 ---
 title: "IDiaSymbol::findInlineFramesByVA | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 ms.assetid: 54295d3e-bbb6-4c10-ab9d-adcfc22b1f71

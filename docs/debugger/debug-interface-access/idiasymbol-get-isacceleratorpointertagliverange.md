@@ -1,7 +1,7 @@
 ---
 title: "IDiaSymbol::get_isAcceleratorPointerTagLiveRange | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 ms.assetid: d195aec4-6d3c-42e0-88a5-3d463539f0b8

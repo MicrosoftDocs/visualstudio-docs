@@ -120,7 +120,7 @@ Visual Studio allows loading of VSPackages when certain well-known <xref:Microso
 ## Term Types
  Here are the various types of term that are supported:
 
-|||
+|Term type|Description|
 |-|-|
 |{nnnnnnnn-nnnn-nnnn-nnnn-nnnnnnnnnnnn}|The GUID refers to a UI Context. The term will be true whenever the UI Context is active and false otherwise.|
 |HierSingleSelectionName:\<pattern>|The term will be true whenever the selection in the active hierarchy is a single item and the name of the selected item matches the .Net regular expression given by "pattern".|

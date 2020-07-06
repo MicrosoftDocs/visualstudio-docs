@@ -1,7 +1,7 @@
 ---
 title: Publish extension using command line
 ms.date: 07/12/2018
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - publishing extensions
 - extension, publishing

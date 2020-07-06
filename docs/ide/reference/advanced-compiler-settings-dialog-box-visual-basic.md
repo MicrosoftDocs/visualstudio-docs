@@ -9,8 +9,8 @@ helpviewer_keywords:
 - Advanced Compiler Settings dialog box
 ms.assetid: 1f81133a-293f-4dba-bc1c-8baafb01d857
 author: TerryGLee
-ms.author: tglee
-manager: jillfra
+ms.author: ghogen
+manager: ghogen
 ms.workload:
 - multiple
 ---

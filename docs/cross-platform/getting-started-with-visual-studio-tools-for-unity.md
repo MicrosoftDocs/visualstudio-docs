@@ -3,7 +3,7 @@ title: "Getting Started with Visual Studio Tools for Unity | Microsoft Docs"
 ms.custom: ""
 ms.date: "05/11/2020"
 ms.technology: vs-unity-tools
-ms.topic: "conceptual"
+ms.topic: how-to
 ms.assetid: 66b5b4eb-13b5-4071-98d2-87fafa4598a8
 author: "indiesaudi"
 ms.author: "crdun"

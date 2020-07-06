@@ -5,7 +5,7 @@ ms.author: lank
 manager: lank
 ms.assetid: 97ac8e4d-7a03-42f8-98cb-15bcaa90ef65
 ms.date: 03/03/2020
-ms.topic: conceptual
+ms.topic: how-to
 description:  Learn how administrators can edit subscription assignments.
 ---
 

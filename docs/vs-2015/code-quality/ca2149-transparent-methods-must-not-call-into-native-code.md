@@ -15,7 +15,7 @@ manager: "wpickett"
 # CA2149: Transparent methods must not call into native code
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-|||
+|Item|Value|
 |-|-|
 |TypeName|TransparentMethodsMustNotCallNativeCode|
 |CheckId|CA2149|

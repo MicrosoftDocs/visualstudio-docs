@@ -1,7 +1,7 @@
 ---
 title: 'Scenario: Change your design using visualization and modeling'
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: overview
 helpviewer_keywords:
 - code visualization [Visual Studio ALM]
 - modeling software [Visual Studio ALM]

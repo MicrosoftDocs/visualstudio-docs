@@ -2,7 +2,7 @@
 title: When package payloads change after a release
 description: When creating a layout, learn how to determine if package payloads changed after a release has already shipped.
 ms.date: 05/22/2019
-ms.topic: conceptual
+ms.topic: how-to
 author: ornellaalt
 ms.author: ornella
 manager: jillfra

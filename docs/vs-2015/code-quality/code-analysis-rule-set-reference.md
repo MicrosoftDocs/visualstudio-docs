@@ -20,7 +20,7 @@ When you configure code analysis for managed code projects in [!INCLUDE[vsPreLon
 ## Available Rule Sets
  The following table lists the default rule sets:
 
-|||
+|Item|Value|
 |-|-|
 |[All Rules rule set](../code-quality/all-rules-rule-set.md)|This rule set contains all rules. Running this rule set may result in a large number of warnings being reported. Use this rule set to get a comprehensive picture of all issues in your code. This can help you decide which of the more focused rule sets are most appropriate to run for your projects.|
 |[Basic Correctness Rules rule set for managed code](../code-quality/basic-correctness-rules-rule-set-for-managed-code.md)|These rules focus on logic errors and common mistakes made in the usage of framework APIs. Include this rule set to expand on the list of warnings reported by the minimum recommended rules.|

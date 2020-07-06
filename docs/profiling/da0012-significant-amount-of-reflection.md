@@ -17,7 +17,7 @@ ms.workload:
 ---
 # DA0012: Significant amount of Reflection
 
-|||
+|Item|Value|
 |-|-|
 |Rule Id|DA0012|
 |Category|.NET Framework Usage|

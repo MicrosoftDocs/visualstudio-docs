@@ -83,7 +83,7 @@ PROFILE_COMMAND_STATUS PROFILERAPI NameProfile(
 
 ## Function information
 
-|||
+|Item|Value|
 |-|-|
 |**Header**|Include *VSPerf.h*|
 |**Library**|Use *VSPerf.lib*|

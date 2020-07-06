@@ -1,7 +1,7 @@
 ---
 title: Creating an Extension with a Menu Command | Microsoft Docs
 ms.date: 3/16/2019
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - write a vspackage
 - vspackage

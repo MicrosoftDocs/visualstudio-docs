@@ -93,7 +93,7 @@ Visual Studio now offers you a choice of performance tools, some of which (for e
 ## The profiling report  
  ![Diagnostic tools report](../profiling/media/diag-report.png "DIAG_Report")  
   
-|||  
+|Image|Description|  
 |-|-|  
 |![Step 1](../profiling/media/procguid-1.png "ProcGuid_1")|The timeline shows the length of the profiling session, app lifecycle activation events, and user marks.|  
 |![Step 2](../profiling/media/procguid-2.png "ProcGuid_2")|You can restrict the report to a part of the timeline by dragging the blue bars to select a region of the timeline.|  

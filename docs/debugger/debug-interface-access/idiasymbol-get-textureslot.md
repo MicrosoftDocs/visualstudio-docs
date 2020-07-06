@@ -1,7 +1,7 @@
 ---
 title: "IDiaSymbol::get_textureSlot | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 ms.assetid: 166a1a3a-2e10-4baa-ace1-9104b56185ce

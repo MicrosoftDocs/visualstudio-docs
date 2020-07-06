@@ -12,7 +12,7 @@ manager: "wpickett"
 # CA5351 Do Not Use Broken Cryptographic Algorithms
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-|||
+|Item|Value|
 |-|-|
 |TypeName|DoNotUseBrokenCryptographicAlgorithms|
 |CheckId|CA5351|

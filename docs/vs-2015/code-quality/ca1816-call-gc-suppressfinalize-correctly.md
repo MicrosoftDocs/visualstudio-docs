@@ -19,7 +19,7 @@ manager: "wpickett"
 # CA1816: Call GC.SuppressFinalize correctly
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-|||
+|Item|Value|
 |-|-|
 |TypeName|CallGCSuppressFinalizeCorrectly|
 |CheckId|CA1816|

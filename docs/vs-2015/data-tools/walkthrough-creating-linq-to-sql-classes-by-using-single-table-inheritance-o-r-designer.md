@@ -64,9 +64,8 @@ The [LINQ to SQL Tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visu
 
 2. Copy the following data into the table. (You can copy it and then paste it into the table by selecting the whole row in the Results Pane.)
 
-    ||||||
-    |-|-|-|-|-|
     |**ID**|**Type**|**FirstName**|**LastName**|**Manager**|
+    |-|-|-|-|-|
     |**1**|**1**|**Anne**|**Wallace**|**NULL**|
     |**2**|**1**|**Carlos**|**Grilo**|**NULL**|
     |**3**|**1**|**Yael**|**Peled**|**NULL**|

@@ -428,75 +428,102 @@ some F# code
 
   **Branding.xml**
 
-|||
-|-|-|
-|Feature:|**CollapsibleArea**|
-|Use:|Expand collapses content control text|
+Feature: **CollapsibleArea**
+Use: Expand collapses content control text
+
 |**Element**|**Value**|
+|-|-|
 |ExpandText|Expand|
 |CollapseText|Collapse|
-|Feature:|**CodeSnippet**|
-|Use:|Code snippet control text.  Note: Code snippet content with “Non-Breaking” space will be changed to space.|
+
+Feature:**CodeSnippet**
+Use: Code snippet control text.  Note: Code snippet content with “Non-Breaking” space will be changed to space.
+
 |**Element**|**Value**|
+|-|-|
 |CopyToClipboard|Copy to Clipboard|
 |ViewColorizedText|View Colorized|
 |CombinedVBTabDisplayLanguage|Visual Basic (Sample)|
 |VBDeclaration|Declaration|
 |VBUsage|Usage|
-|Feature:|**Feedback, Footer, and Logo**|
-|Use:|Provide a Feedback control for customer to supply feedback on the current topic via e-mail.  Copyright text for the content.  Logo definition.|
+
+Feature: **Feedback, Footer, and Logo**
+Use: Provide a Feedback control for customer to supply feedback on the current topic via e-mail.  Copyright text for the content.  Logo definition.
+
 |**Element**|**Value  (These strings can be modified to meet content adopter need.)**|
+|-|-|
 |CopyRight|© 2013 Microsoft Corporation. All rights reserved.|
 |SendFeedback|\<a href="{0}" {1}>Send Feedback\</a> on this topic to Microsoft.|
 |FeedbackLink||
 |LogoTitle|[!INCLUDE[vs_dev12](../../includes/vs-dev12-md.md)]|
 |LogoFileName|vs_logo_bk.gif|
 |LogoFileNameHC|vs_logo_wh.gif|
-|Feature:|**Disclaimer**|
-|Use:|A set of case specific disclaimers for machine translated content.|
+
+Feature: **Disclaimer**
+Use: A set of case specific disclaimers for machine translated content.
+
 |**Element**|**Value**|
+|-|-|
 |MT_Editable|This article was machine translated. If you have an Internet connection, select "View this topic online" to view this page in editable mode with the original English content at the same time.|
 |MT_NonEditable|This article was machine translated. If you have an Internet connection, select "View this topic online" to view this page in editable mode with the original English content at the same time.|
 |MT_QualityEditable|This article was manually translated. If you have an Internet connection, select "View this topic online" to view this page in editable mode with the original English content at the same time.|
 |MT_QualityNonEditable|This article was manually translated. If you have an Internet connection, select "View this topic online" to view this page in editable mode with the original English content at the same time.|
 |MT_BetaContents|This article was machine translated for a preliminary release. If you have an Internet connection, select "View this topic online" to view this page in editable mode with the original English content at the same time.|
 |MT_BetaRecycledContents|This article was manually translated for a preliminary release. If you have an Internet connection, select "View this topic online" to view this page in editable mode with the original English content at the same time.|
-|Feature:|**LinkTable**|
-|Use:|Support for online topic links|
+
+Feature: **LinkTable**
+Use: Support for online topic links
+
 |**Element**|**Value**|
+|-|-|
 |LinkTableTitle|Link Table|
 |TopicEnuLinkText|View the English version\</a> of this topic that is available on your computer.|
 |TopicOnlineLinkText|View this topic \<a href="{0}" {1}>online\</a>|
 |OnlineText|Online|
-|Feature:|**Video Audio control**|
-|Use:|Display elements and text for video content|
+
+Feature: **Video Audio control**
+Use: Display elements and text for video content
+
 |**Element**|**Value**|
+|-|-|
 |MultiMediaNotSupported|Internet Explorer 9 or greater must be installed to support {0} content.|
 |VideoText|displaying video|
 |AudioText|streaming audio|
 |OnlineVideoLinkText|\<p>To view the video associated with this topic, click {0}\<a href="{1}">{2}here\</a>.\</p>|
 |OnlineAudioLinkText|\<p>To listen to the audio associated with this topic, click {0}\<a href="{1}">{2}here\</a>.\</p>|
-|Feature:|**Content Not Installed control**|
-|Use:|Text elements (strings) used for the rendering of contentnotinstalled.htm|
+
+Feature: **Content Not Installed control**
+Use: Text elements (strings) used for the rendering of contentnotinstalled.htm
+
 |**Element**|**Value**|
+|-|-|
 |ContentNotInstalledTitle|No content was found on your computer.|
 |ContentNotInstalledDownloadContentText|\<p>To download content to your computer, \<a href="{0}" {1}>click the Manage tab\</a>.\</p>|
 |ContentNotInstalledText|\<p>No content is installed on your computer. See your Administrator for local Help content installation.\</p>|
-|Feature:|**Topic Not Found control**|
-|Use:|Text elements (strings) used for the rendering of topicnotfound.htm|
+
+Feature: **Topic Not Found control**
+Use: Text elements (strings) used for the rendering of topicnotfound.htm
+
 |**Element**|**Value**|
+|-|-|
 |TopicNotFoundTitle|Cannot find requested topic on your computer.|
 |TopicNotFoundViewOnlineText|\<p>The topic you requested was not found on your computer, but you can \<a href="{0}" {1}>view the topic online\</a>.\</p>|
 |TopicNotFoundDownloadContentText|\<p>See the navigation pane for links to similar topics, or \<a href="{0}" {1}>click the Manage tab\</a> to download content to your computer.\</p>|
 |TopicNotFoundText|\<p>The topic you requested was not found on your computer.\</p>|
-|Feature:|**Topic Corrupted Control**|
-|Use:|Text elements (strings) used for the rendering of topiccorrupted.htm|
+
+Feature: **Topic Corrupted Control**
+Use: Text elements (strings) used for the rendering of topiccorrupted.htm
+
 |**Element**|**Value**|
+|-|-|
 |TopicCorruptedTitle|Unable to display the requested topic.|
 |TopicCorruptedViewOnlineText|\<p>Help Viewer is unable to display the requested topic. There may be an error in the topic's content or an underlying system dependency.\</p>|
-|Feature:|**Home Page control**|
-|Use:|Text supporting the display of the Help Viewer top level node content.|
+
+Feature: **Home Page control**
+Use: Text supporting the display of the Help Viewer top level node content.
+
 |**Element**|**Value**|
+|-|-|
 |HomePageTitle|Help Viewer Home|
 |HomePageIntroduction|\<p>Welcome to the Microsoft Help Viewer, an essential source of information for everyone who uses Microsoft tools, products, technologies, and services. The Help Viewer gives you access to how-to and reference information, sample code, technical articles, and more. To find the content you need, browse the table of contents, use full-text search, or navigate through content using the keyword index.\</p>|
 |HomePageContentInstallText|\<p>\<br />Use the \<a href="{0}" {1}>Manage Content\</a> tab to do the following:\<ul>\<li>Add content to your computer.\</li>\<li>Check for updates to your local content.\</li>\<li>Remove content from your computer.\</li>\</ul>\</p>|
@@ -510,9 +537,8 @@ some F# code
 
  The branding.js file contains JavaScript used by the Visual Studio Help Viewer branding elements.  Below is a list of the branding elements and the supporting JavaScript function.  All strings to be localized for this file are defined in the “Localizable Strings” section at the top of this file.  ICL file has been created for loc strings within the branding.js file.
 
-||||
-|-|-|-|
 |**Branding Feature**|**JavaScript Function**|**Description**|
+|-|-|-|
 |Var …||Define variables|
 |Get the user code language|setUserPreferenceLang|maps an index # to code language|
 |Set and Get cookie values|getCookie, setCookie||
@@ -547,9 +573,8 @@ some F# code
 
  The branding package contains a set of HTM files that support scenarios for communicating key information to Help content users, for example a homepage that contains a section describing which content sets are installed and pages telling the user when topics cannot be found in the local set of topics. These HTM files can be modified per product.  ISO Shell vendors are able to take the default branding package and change the behavior and content of these pages to suite their need.  These files refer to their respective branding package in order for the branding tags to get the corresponding content from the branding.xml file.
 
-||||
-|-|-|-|
 |**File**|**Use**|**Displayed Content Source**|
+|-|-|-|
 |homepage.htm|This is a page that displays currently installed content, and any other message appropriate to present to the user about their content.  This file has the additional meta data attribute "Microsoft.Help.Id" content="-1"  which places this content at the top of the local content TOC.||
 ||<META_HOME_PAGE_TITLE_ADD />|Branding.xml, tag \<HomePageTitle>|
 ||<HOME_PAGE_INTRODUCTION_SECTION_ADD />|Branding.xml, tag \<HomePageIntroduction>|
@@ -582,9 +607,8 @@ some F# code
 
   Visual Studio content displays a Visual Studio logo as well as other graphics.  The complete list of graphic files in the Visual Studio Help Viewer branding package is shown below.
 
-||||
-|-|-|-|
 |**File**|**Use**|**Examples**|
+|-|-|-|
 |clear.gif|Used to render Collapsible Area||
 |footer_slice.gif|Footer presentation||
 |info_icon.gif|Used when displaying information|Disclaimer|
@@ -608,7 +632,7 @@ some F# code
 
  Sample HelpContentSetup.msha file: (Replace “content set name 1” and “content set name 2” etc. with your file names.)
 
-```
+```html
 <html>
 <head />
 <body class="vendor-book">

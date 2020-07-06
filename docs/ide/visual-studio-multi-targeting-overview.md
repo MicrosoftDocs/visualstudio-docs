@@ -1,7 +1,7 @@
 ---
 title: Targeted .NET frameworks
 ms.date: 03/31/2020
-ms.topic: conceptual
+ms.topic: overview
 helpviewer_keywords:
 - targeting .NET Framework [Visual Studio]
 - framework targeting [Visual Studio]

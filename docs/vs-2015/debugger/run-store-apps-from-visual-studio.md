@@ -24,7 +24,7 @@ Store apps run on a broad range of devices, and Visual Studio provides you with 
 
 ## In this section
 
-|||
+|Title|Description|
 |-|-|
 |[Run Windows Store apps on the local machine](../debugger/run-windows-store-apps-on-the-local-machine.md)|Run your Windows Store app on the Visual Studio device.|
 |[Run Windows Store apps in the simulator](../debugger/run-windows-store-apps-in-the-simulator.md)|Run your Windows Store app in a desktop window that simulates [!INCLUDE[win8_appname_long](../includes/win8-appname-long-md.md)] functionality such as touch and orientation.|

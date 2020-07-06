@@ -1,7 +1,7 @@
 ---
-title: "Error: Transact-SQL execution ended without debugging | Microsoft Docs"
+title: "Error - Transact-SQL execution ended without debugging | Microsoft Docs"
 ms.date: "11/08/2018"
-ms.topic: "troubleshooting"
+ms.topic: "error-reference"
 f1_keywords:
   - "vs.debug.error.sqlde_sql_executed_but_not_debugged"
 dev_langs:

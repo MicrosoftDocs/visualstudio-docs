@@ -5,7 +5,7 @@ ms.author: lank
 manager: lank
 ms.assetid: 872c5746-5357-4764-949b-aa525a0adf1a
 ms.date: 04/28/2020
-ms.topic: conceptual
+ms.topic: how-to
 description:  Learn how to activate the Azure DevTest individual credit benefit included in your Visual Studio subscription.
 ---
 # Use Microsoft Azure in Visual Studio subscriptions

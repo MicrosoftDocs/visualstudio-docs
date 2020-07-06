@@ -87,7 +87,7 @@ Find memory leaks and inefficient memory use in .NET Framework code by using the
 ### <a name="BKMK_Filter_the_list_of_objects"></a> Filter the list of objects  
  By default, the memory analyzer filters the list of objects in a memory snapshot to show only the types and instances that are user code, and to show only those types whose total inclusive size exceed a threshold percentage of the total heap size. You can change these options in the **View Settings** list:  
   
-|||  
+|Name|Description|  
 |-|-|  
 |**Enable Just My Code**|Just My Code hides most common system objects, so that only the types that you create are displayed in the list.<br /><br /> You can also set the Just My Code option in the Visual Studio **Options** dialog box. On the **Debug** menu, choose **Options and Settings**. In the **Debugging**/**General** tab, choose or clear **Just My Code**.|  
 |**Collapse Small Objects**|**Collapse Small Objects** hides all types whose total inclusive size is less than 0.5 percent of the total heap size.|  

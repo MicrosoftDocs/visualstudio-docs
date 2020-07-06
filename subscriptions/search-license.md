@@ -5,7 +5,7 @@ ms.author: lank
 manager: lank
 ms.assetid: 9c0b9a4f-b9a3-491c-a68f-6e4bac7f7b3d
 ms.date: 03/03/2020
-ms.topic: conceptual
+ms.topic: how-to
 description:  Learn how administrators can locate individual subscribers or groups in the Administration Portal.
 ---
 

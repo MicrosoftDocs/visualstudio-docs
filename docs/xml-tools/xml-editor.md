@@ -1,7 +1,7 @@
 ---
 title: XML editor
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: overview
 author: TerryGLee
 ms.author: tglee
 manager: jillfra

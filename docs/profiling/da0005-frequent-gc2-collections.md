@@ -17,7 +17,7 @@ ms.workload:
 ---
 # DA0005: Frequent GC2 collections
 
-|||
+|Item|Value|
 |-|-|
 |RuleId|DA0005|
 |Category|.NET Framework Usage|

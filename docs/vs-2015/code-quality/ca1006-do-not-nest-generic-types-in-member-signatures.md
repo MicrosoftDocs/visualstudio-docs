@@ -19,7 +19,7 @@ manager: "wpickett"
 # CA1006: Do not nest generic types in member signatures
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-|||
+|Item|Value|
 |-|-|
 |TypeName|DoNotNestGenericTypesInMemberSignatures|
 |CheckId|CA1006|

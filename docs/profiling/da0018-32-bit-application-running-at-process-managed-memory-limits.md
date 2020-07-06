@@ -16,7 +16,7 @@ ms.workload:
 ---
 # DA0018: 32-bit Application running at process-managed memory limits
 
-|||
+|Item|Value|
 |-|-|
 |Rule Id|DA0018|
 |Category|Profiling Tools Usage|
