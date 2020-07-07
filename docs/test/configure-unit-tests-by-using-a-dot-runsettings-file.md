@@ -202,10 +202,6 @@ The following XML shows the contents of a typical *.runsettings* file. Each elem
 
       <!-- Configuration for blame data collector -->
       <DataCollector friendlyName="blame" enabled="True">
-        <Configuration>
-          <ResultsDirectory>C:\TestResults</ResultsDirectory>
-          <CollectDump CollectAlways="true" DumpType="mini" />
-        </Configuration>
       </DataCollector>
 
     </DataCollectors>
@@ -236,6 +232,7 @@ The following XML shows the contents of a typical *.runsettings* file. Each elem
           <LogFileName>foo.html</LogFileName>
         </Configuration>
       </Logger>
+      <Logger friendlyName="blame" enabled="True" />
     </Loggers>
   </LoggerRunSettings>
 
@@ -319,21 +316,10 @@ To customize any other type of diagnostic data adapters, use a [test settings fi
 
 ```xml
 <DataCollector friendlyName="blame" enabled="True">
-  <Configuration>
-    <ResultsDirectory>C:\TestResults</ResultsDirectory>
-    <CollectDump CollectAlways="true" DumpType="mini" />
-  </Configuration>
 </DataCollector>
 ```
 
-This option is helpful in isolating the problematic test causing test host crash. It creates an output file (*Sequence.xml*) in the directory specified by the ResultsDirectory node, which captures the order of execution of the test before the crash. 
-
-When you choose to collect a dump, by default, a mini dump will be collected on a crash. You may also choose to override this default behavior by some optional parameters: 
-
-|Parameter|Values|Description|
-|-|-|-|
-|`CollectAlways`| **true/false** | To collect dump on exit even if there is no crash| 
-|`DumpType`| **mini/full**|To specify dump type|
+This option is helpful in isolating the problematic test causing test host crash. It creates an output file (*Sequence.xml*) in the *TestResults*, which captures the order of execution of the test before the crash. 
 
 ### TestRunParameters
 
