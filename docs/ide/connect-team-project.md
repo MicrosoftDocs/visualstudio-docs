@@ -1,6 +1,6 @@
 ---
 title: Connect to projects in Team Explorer
-ms.date: 05/19/2020
+ms.date: 07/07/2020
 ms.topic: conceptual
 ms.author: tglee
 author: TerryGLee
@@ -36,6 +36,7 @@ To connect to a project:
 
 ## See also
 
+- [Tutorial: Open a project from a repo](../get-started/tutorial-open-project-from-repo.md)
 - [Team Explorer reference](reference/team-explorer-reference.md)
 - [Connect to a project (Azure DevOps)](/azure/devops/organizations/projects/connect-to-projects)
 - [Troubleshoot connecting to a project](/azure/devops/user-guide/troubleshoot-connection?view=azure-devops)
