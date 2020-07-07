@@ -80,14 +80,15 @@ The following command runs *vstest.console.exe* with several options. It runs th
 vstest.console.exe myTestFile.dll /Settings:Local.RunSettings /InIsolation /TestCaseFilter:"Priority=1" /Logger:trx
 ```
 
-The following command runs *vstest.console.exe* with `/blame` option for the test library *myTestProject.dll*:
+The following command runs *vstest.console.exe* with the `/blame` option for the test library *myTestProject.dll*:
 
 ```cmd
 vstest.console.exe myTestFile.dll /blame
 ```
-If a testhost crash happened, the *sequence.xml* file will be generated, containing fully qualified names of the tests in their sequence of execution up to and including the specific test that was running at the time of the crash.
 
-If there is no testhost crash, *sequence.xml* file will not be generated.
+If a test host crash happened, the *sequence.xml* file will be generated, containing fully qualified names of the tests in their sequence of execution up to and including the specific test that was running at the time of the crash.
+
+If there is no test host crash, the *sequence.xml* file will not be generated.
 
 Example of generated **sequence.xml file** : 
 
