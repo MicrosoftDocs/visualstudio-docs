@@ -1,7 +1,7 @@
 ---
 title: "Browsing SharePoint Connections Using Server Explorer | Microsoft Docs"
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: overview
 f1_keywords:
   - "VS.SharePointTools.SharePointExplorer.SharePointConnection"
 dev_langs:

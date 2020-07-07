@@ -1,7 +1,7 @@
 ---
 title: Hello World extension tutorial | Microsoft Docs
 ms.date: 03/14/2019
-ms.topic: conceptual
+ms.topic: tutorial
 ms.assetid: f74e1ad1-1ee5-4360-9bd5-d82467b884ca
 author: acangialosi
 ms.author: anthc
@@ -9,7 +9,7 @@ manager: jillfra
 ms.workload:
 - vssdk
 ---
-# Create your first extension: Hello World
+# Tutorial - Create your first extension: Hello World
 
 This Hello World example walks you through creating your first extension for Visual Studio. This tutorial shows you how to add a new command to Visual Studio.
 

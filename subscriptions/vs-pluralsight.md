@@ -5,7 +5,7 @@ ms.author: v-evwin
 manager: lank
 ms.assetid: bc8b526c-2fed-4ac8-aaa2-73d2495256fd
 ms.date: 04/20/2020
-ms.topic: conceptual
+ms.topic: how-to
 description:  Learn about the Pluralsight training subscription included with selected Visual Studio subscriptions.
 ---
 

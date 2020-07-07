@@ -1,7 +1,7 @@
 ---
 title: 'How to: Implement Nested Projects | Microsoft Docs'
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - nested projects, implementing
 - projects [Visual Studio SDK], nesting

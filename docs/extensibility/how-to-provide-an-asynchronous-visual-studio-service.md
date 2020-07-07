@@ -1,7 +1,7 @@
 ---
 title: 'How to: Provide an Asynchronous Visual Studio Service | Microsoft Docs'
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 ms.assetid: 0448274c-d3d2-4e12-9d11-8aca78a1f3f5
 author: acangialosi
 ms.author: anthc

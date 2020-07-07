@@ -5,7 +5,7 @@ ms.author: cabuschl
 manager: cabuschl
 ms.assetid: 36f0d9f1-fe28-469f-a54c-dc46638270a8
 ms.date: 06/23/2020
-ms.topic: conceptual
+ms.topic: how-to
 description:  Learn how to newly purchased monthly Visual Studio subscriptions to the Subscriptions Administration Portal
 ---
 # Add new monthly Visual Studio subscriptions to the Subscriptions Administration Portal

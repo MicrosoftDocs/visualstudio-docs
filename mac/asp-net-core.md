@@ -6,6 +6,7 @@ ms.author: sayedha
 ms.date: 04/02/2019
 ms.assetid: 6E8B0C90-33D6-4546-8207-CE0787584565
 ms.custom: video
+ms.topic: how-to
 ---
 
 # Getting Started with ASP.NET Core

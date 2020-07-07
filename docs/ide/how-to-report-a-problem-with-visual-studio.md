@@ -2,7 +2,7 @@
 title: "How to report a problem with Visual Studio"
 description: "Find out how to report a problem with Visual Studio"
 ms.date: 03/11/2018
-ms.topic: conceptual
+ms.topic: how-to
 ms.assetid: bee01179-cde5-4419-9095-190ee0ba5902
 author: madskristensen
 ms.author: madsk

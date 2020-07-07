@@ -1,7 +1,7 @@
 ---
 title: 'How to: Create Associations Between Types (Class Designer)'
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 f1_keywords:
 - vs.classdesigner.associationline
 helpviewer_keywords:

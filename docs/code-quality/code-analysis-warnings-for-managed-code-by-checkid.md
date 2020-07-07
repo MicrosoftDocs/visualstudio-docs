@@ -145,6 +145,7 @@ f1_keywords:
 - CA1802
 - CA1803
 - CA1804
+- CA1805
 - CA1806
 - CA1809
 - CA1810
@@ -186,6 +187,7 @@ f1_keywords:
 - CA2013
 - CA2014
 - CA2015
+- CA2016
 - CA2100
 - CA2101
 - CA2102
@@ -426,6 +428,7 @@ The following table lists Code Analysis warnings for managed code by the CheckId
 | CA1801 | [CA1801: Review unused parameters](../code-quality/ca1801.md) | A method signature includes a parameter that is not used in the method body. |
 | CA1802 |[CA1802: Use Literals Where Appropriate](../code-quality/ca1802.md) |A field is declared static and read-only (Shared and ReadOnly in [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)]), and is initialized by using a value that is computable at compile time. Because the value that is assigned to the targeted field is computable at compile time, change the declaration to a const (Const in [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)]) field so that the value is computed at compile time instead of at run time. |
 | CA1804 | [CA1804: Remove unused locals](../code-quality/ca1804.md) | Unused local variables and unnecessary assignments increase the size of an assembly and decrease performance. |
+| CA1805 | [CA1805: Do not initialize unnecessarily](../code-quality/ca1805.md) | The .NET runtime initializes all fields of reference types to their default values before running the constructor. In most cases, explicitly initializing a field to its default value is redundant, which adds to maintenance costs and may degrade performance (such as with increased assembly size). |
 | CA1806 | [CA1806: Do not ignore method results](../code-quality/ca1806.md) | A new object is created but never used; or a method that creates and returns a new string is called and the new string is never used; or a COM or P/Invoke method returns an HRESULT or error code that is never used. |
 | CA1809 |[CA1809: Avoid excessive locals](../code-quality/ca1809.md) | A common performance optimization is to store a value in a processor register instead of memory, which is referred to as "enregistering the value". To increase the chance that all local variables are enregistered, limit the number of local variables to 64. |
 | CA1810 | [CA1810: Initialize reference type static fields inline](../code-quality/ca1810.md) | When a type declares an explicit static constructor, the just-in-time (JIT) compiler adds a check to each static method and instance constructor of the type to make sure that the static constructor was previously called. Static constructor checks can decrease performance. |
@@ -467,6 +470,7 @@ The following table lists Code Analysis warnings for managed code by the CheckId
 | CA2013 | [CA2013: Do not use ReferenceEquals with value types](ca2013.md) | When comparing values using <xref:System.Object.ReferenceEquals%2A?displayProperty=fullName>, if objA and objB are value types, they are boxed before they are passed to the <xref:System.Object.ReferenceEquals%2A> method. This means that even if both objA and objB represent the same instance of a value type, the <xref:System.Object.ReferenceEquals%2A> method nevertheless returns false. |
 | CA2014 | [CA2014: Do not use stackalloc in loops.](ca2014.md) | Stack space allocated by a stackalloc is only released at the end of the current method's invocation.  Using it in a loop can result in unbounded stack growth and eventual stack overflow conditions. |
 | CA2015 | [CA2015: Do not define finalizers for types derived from MemoryManager&lt;T&gt;](ca2015.md) | Adding a finalizer to a type derived from <xref:System.Buffers.MemoryManager%601> may permit memory to be freed while it is still in use by a <xref:System.Span%601>. |
+| CA2016 | [CA2016: Forward the CancellationToken parameter to methods that take one](ca2016.md) | Forward the `CancellationToken` parameter to methods that take one to ensure the operation cancellation notifications gets properly propagated, or pass in `CancellationToken.None` explicitly to indicate intentionally not propagating the token. |
 | CA2100 | [CA2100: Review SQL queries for security vulnerabilities](../code-quality/ca2100.md) | A method sets the System.Data.IDbCommand.CommandText property by using a string that is built from a string argument to the method. This rule assumes that the string argument contains user input. A SQL command string that is built from user input is vulnerable to SQL injection attacks. |
 | CA2101 |[CA2101: Specify marshaling for P/Invoke string arguments](../code-quality/ca2101.md) | A platform invoke member allows partially trusted callers, has a string parameter, and does not explicitly marshal the string. This can cause a potential security vulnerability. |
 | CA2102 | [CA2102: Catch non-CLSCompliant exceptions in general handlers](../code-quality/ca2102.md) | A member in an assembly that is not marked by using the RuntimeCompatibilityAttribute or is marked RuntimeCompatibility(WrapNonExceptionThrows = false) contains a catch block that handles System.Exception and does not contain an immediately following general catch block. |

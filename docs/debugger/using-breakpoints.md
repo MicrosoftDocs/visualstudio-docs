@@ -1,7 +1,7 @@
 ---
 title: Use breakpoints in the debugger | Microsoft Docs
 ms.custom: 
-ms.date: 10/28/2019
+ms.date: 06/30/2020
 ms.topic: how-to
 f1_keywords: 
   - vs.debug.breakpointswin
@@ -44,7 +44,7 @@ Breakpoints are one of the most important debugging techniques in your developer
 
 ## <a name="BKMK_Overview"></a> Set breakpoints in source code
 
-You can set a breakpoint on any line of executable code. For example, in the following C# code, you could set a breakpoint on the variable declaration, the `for` loop, or any code inside the `for` loop. You can't set a breakpoint on declarations for a namespace, class, or variable, or on the method signature.
+You can set a breakpoint on any line of executable code. For example, in the following C# code, you could set a breakpoint on the line of code with the variable assignment (`int testInt = 1`), the `for` loop, or any code inside the `for` loop. You can't set a breakpoint on method signatures, declarations for a namespace or class, or variable declarations if there's no assignment and no getter/setter.
 
 To set a breakpoint in source code, click in the far left margin next to a line of code. You can also select the line and press **F9**, select **Debug** > **Toggle Breakpoint**, or right-click and select **Breakpoint** > **Insert breakpoint**. The breakpoint appears as a red dot in the left margin.
 
