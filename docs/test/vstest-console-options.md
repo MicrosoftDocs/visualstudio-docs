@@ -86,11 +86,11 @@ The following command runs *vstest.console.exe* with the `/blame` option for the
 vstest.console.exe myTestFile.dll /blame
 ```
 
-If a test host crash happened, the *sequence.xml* file will be generated, containing fully qualified names of the tests in their sequence of execution up to and including the specific test that was running at the time of the crash.
+If a test host crash happened, the *sequence.xml* file is generated. The file contains fully qualified names of the tests in their sequence of execution up to and including the specific test that was running at the time of the crash.
 
 If there is no test host crash, the *sequence.xml* file will not be generated.
 
-Example of generated **sequence.xml file** : 
+Example of a generated *sequence.xml* file: 
 
 ```xml
 <?xml version="1.0"?>
