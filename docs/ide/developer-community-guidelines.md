@@ -59,6 +59,17 @@ When an issue is missing important information, we assign the _Needs More Info_ 
 
 We close some bugs when there's a negative cost-benefit balance. For example, if the fix is so complex it risks regressions for many users, fixing may not be reasonable. When we close a bug like this, we'll explain why we do so.
 
+### Other product
+
+Sometimes when reporting an issue, it turns out to be caused by another product and not Visual Studio. It could be another related application or an extension. 
+
+When that happens, we'll close the issue and ask you to open it with the other product. Here are some common places to file those issues:
+
+* [SQL Server](https://feedback.azure.com/forums/908035-sql-server)
+* [Visual Studio Subscription Support](https://feedback.azure.com/forums/908035-sql-server)
+* [Office](https://support.office.com/article/how-do-i-give-feedback-on-microsoft-office-2b102d44-b43f-4dd2-9ff4-23cf144cfb11)
+* [Window](https://support.microsoft.com/help/4021566/windows-10-send-feedback-to-microsoft-with-feedback-hub-app)
+
 #### Additional information
 
 - [How to increase the chances of a performance issue being fixed](https://docs.microsoft.com/visualstudio/ide/how-to-increase-chances-of-performance-issue-being-fixed)
