@@ -68,7 +68,7 @@ When that happens, we'll close the issue and ask you to open it with the other p
 * [SQL Server](https://feedback.azure.com/forums/908035-sql-server)
 * [Visual Studio Subscription Support](https://feedback.azure.com/forums/908035-sql-server)
 * [Office](https://support.office.com/article/how-do-i-give-feedback-on-microsoft-office-2b102d44-b43f-4dd2-9ff4-23cf144cfb11)
-* [Window](https://support.microsoft.com/help/4021566/windows-10-send-feedback-to-microsoft-with-feedback-hub-app)
+* [Windows](https://support.microsoft.com/help/4021566/windows-10-send-feedback-to-microsoft-with-feedback-hub-app)
 
 #### Additional information
 
