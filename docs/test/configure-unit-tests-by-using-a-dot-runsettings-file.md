@@ -61,7 +61,7 @@ There are three ways of specifying a run settings file in Visual Studio 2019 ver
     </Project>
     ```
 
-- Place a run settings file named ".runsettings" at the root of your solution.
+- Place a run settings file named *.runsettings* at the root of your solution.
 
   If auto detection of run settings files is enabled, the settings in this file are applied across all tests run. You can turn on auto detection of runsettings files from two places:
   
@@ -319,7 +319,7 @@ To customize any other type of diagnostic data adapters, use a [test settings fi
 </DataCollector>
 ```
 
-This option is helpful in isolating the problematic test causing test host crash. It creates an output file (*Sequence.xml*) in the *TestResults*, which captures the order of execution of the test before the crash. 
+This option can help you isolate a problematic test that causes a test host crash. Running the collector creates an output file (*sequence.xml*) in *TestResults*, which captures the order of execution of the test before the crash. 
 
 ### TestRunParameters
 
@@ -366,7 +366,7 @@ To use test run parameters, add a private <xref:Microsoft.VisualStudio.TestTools
   </LoggerRunSettings>
 ```
 
-`LoggerRunSettings` section defines one or more loggers to be used for the test run. The most common loggers are console, trx and html. 
+The `LoggerRunSettings` section defines one or more loggers to be used for the test run. The most common loggers are console, trx and html. 
 
 ### MSTest run settings
 
@@ -397,13 +397,14 @@ These settings are specific to the test adapter that runs test methods that have
 |**InProcMode**|false|If you want your tests to be run in the same process as the MSTest adapter, set this value to **true**. This setting provides a minor performance gain. But if a test exits with an exception, the remaining tests don't run.|
 |**AssemblyResolution**|false|You can specify paths to additional assemblies when finding and running unit tests. For example, use these paths for dependency assemblies that aren't in the same directory as the test assembly. To specify a path, use a **Directory Path** element. Paths can include environment variables.<br /><br />`<AssemblyResolution>  <Directory Path="D:\myfolder\bin\" includeSubDirectories="false"/> </AssemblyResolution>`|
 
+## Specify environment variables in the *.runsettings* file
 
-## Specifying environment variables in *.runsettings* file
+Environment variables can be set in the *.runsettings* file, which can directly interact with the test host. Specifying environment variables in the *.runsettings* file is necessary to support nontrivial projects that require setting environment variables like *DOTNET_ROOT*. These variables are set while spawning the test host process and they are available in the host.
 
-The environment variables can be set in the *.runsettings* file, which can directly interact with the test host. Specifying environment variables in the *.runsettings* file is necessary to support non-trivial projects that require setting environment variables like *DOTNET_ROOT*. These variables are set while spawning the test host process, and so will be available in the host.
+### Example
 
-#### Example
-The following is a sample runsettings for passing environment variables :
+The following code is a sample *.runsettings* file that passes environment variables:
+
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <!-- File name extension must be .runsettings -->
@@ -417,7 +418,8 @@ The following is a sample runsettings for passing environment variables :
   </RunConfiguration>
 </RunSettings>
 ```
-The RunConfiguration node should contain a EnvironmentVariables node. The different environment variables can be specified as element name and it's value.
+
+The **RunConfiguration** node should contain an **EnvironmentVariables** node. An environment variable can be specified as an element name and its value.
 
 > [!NOTE]
 > Because these environment variables should always be set when the test host is started, the tests should always run in a separate process. For this, the */InIsolation* flag will be set when there are environment variables so that the test host is always invoked.
