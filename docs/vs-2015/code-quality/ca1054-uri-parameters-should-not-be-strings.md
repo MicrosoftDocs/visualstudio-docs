@@ -19,7 +19,7 @@ manager: "wpickett"
 # CA1054: URI parameters should not be strings
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-|||
+|Item|Value|
 |-|-|
 |TypeName|UriParametersShouldNotBeStrings|
 |CheckId|CA1054|

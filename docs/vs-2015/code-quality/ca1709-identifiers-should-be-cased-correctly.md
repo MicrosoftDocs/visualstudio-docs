@@ -21,7 +21,7 @@ manager: "wpickett"
 
 For the latest documentation on Visual Studio, see [CA1709: Identifiers should be cased correctly](/visualstudio/code-quality/ca1709-identifiers-should-be-cased-correctly).
 
-|||
+|Item|Value|
 |-|-|
 |TypeName|IdentifiersShouldBeCasedCorrectly|
 |CheckId|CA1709|

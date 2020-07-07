@@ -19,7 +19,7 @@ manager: "wpickett"
 # CA1402: Avoid overloads in COM visible interfaces
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-|||
+|Item|Value|
 |-|-|
 |TypeName|AvoidOverloadsInComVisibleInterfaces|
 |CheckId|CA1402|

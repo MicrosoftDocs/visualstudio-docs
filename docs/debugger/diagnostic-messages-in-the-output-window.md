@@ -1,26 +1,26 @@
 ---
-title: "Send messages to the Output window | Microsoft Docs"
-ms.date: "11/08/2018"
-ms.topic: "conceptual"
-helpviewer_keywords:
-  - "diagnostic messages [C#]"
-  - "System.Diagnostics.Debug class, Output window"
-  - "messages, diagnostic"
-  - "Debug.Print replacements"
-  - "diagnosis"
-  - "Output window, diagnostic messages"
-  - "System.Diagnostics.Trace class, Output window"
-  - "Trace class, diagnostic messages"
-  - "diagnostics"
-  - "debugger, Output window"
-  - "debugging [Visual Studio], diagnostic messages in Output window"
-  - "Debug class"
+title: Send messages to the Output window | Microsoft Docs
+ms.date: 11/08/2018
+ms.topic: how-to
+helpviewer_keywords: 
+  - diagnostic messages [C#]
+  - System.Diagnostics.Debug class, Output window
+  - messages, diagnostic
+  - Debug.Print replacements
+  - diagnosis
+  - Output window, diagnostic messages
+  - System.Diagnostics.Trace class, Output window
+  - Trace class, diagnostic messages
+  - diagnostics
+  - debugger, Output window
+  - debugging [Visual Studio], diagnostic messages in Output window
+  - Debug class
 ms.assetid: 386e9524-be17-4573-83fb-4f7c5cae0be0
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
-ms.workload:
-  - "multiple"
+ms.workload: 
+  - multiple
 ---
 # Send messages to the Output window
 

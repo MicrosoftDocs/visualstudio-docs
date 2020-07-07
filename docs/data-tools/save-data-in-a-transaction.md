@@ -1,7 +1,7 @@
 ---
 title: 'Walkthrough: Save data in a transaction'
 ms.date: 09/08/2017
-ms.topic: conceptual
+ms.topic: how-to
 dev_langs:
 - VB
 - CSharp

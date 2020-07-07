@@ -19,7 +19,7 @@ manager: "wpickett"
 # CA1030: Use events where appropriate
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-|||
+|Item|Value|
 |-|-|
 |TypeName|UseEventsWhereAppropriate|
 |CheckId|CA1030|

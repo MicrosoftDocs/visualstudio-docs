@@ -1,133 +1,138 @@
 ---
-title: "Analyze memory usage for .NET objects | Microsoft Docs"
-ms.date: "12/9/2019"
-ms.topic: "conceptual"
-helpviewer_keywords:
-  - "memory allocation, memory usage"
-author: "Sagar-S-S"
-ms.author: "sashe"
+title: Analyze memory usage for .NET objects | Microsoft Docs
+ms.date: 12/9/2019
+ms.topic: how-to
+helpviewer_keywords: 
+  - memory allocation, memory usage
+author: Sagar-S-S
+ms.author: sashe
 manager: AndSter
-ms.workload:
-  - "multiple"
+ms.workload: 
+  - multiple
 ---
 
 
-# Analyze memory usage using the .NET Object Allocation tool
+# Analyze memory usage by using the .NET Object Allocation tool
 
-You can see how much memory your app is using and what code paths allocate the most memory using the .NET Object Allocation tool.
+You can see how much memory your app uses and what code paths allocate the most memory by using the .NET Object Allocation tool.
 
-After running the tool, you can see the function execution paths where objects are being allocated so that you can trace back to the root of the call tree that is taking up the most amount of memory.
+After running the tool, you can see the function execution paths where objects are being allocated. You can then trace back to the root of the call tree that is taking up the most memory.
 
 ## Setup
 
-1. Open the Performance Profiler (**Alt + F2)** in Visual Studio.
-2. Select the **.NET Object Allocation Tracking** checkbox.
+1. Select **Alt+F2** to open the performance profiler in Visual Studio.
 
-![Dotnet Alloc Tool Selected](../profiling/media/dotnetalloctoolselected.png "Dotnet Alloc Tool Selected")
+1. Select the **.NET Object Allocation Tracking** check box.
 
-3. Click the **Start** button to run the tool.
+   ![The Dotnet Object Allocation Tracking tool selected](../profiling/media/dotnetalloctoolselected.png "The Dotnet Object Allocation Tracking tool selected")
 
-4. Once the tool starts running, go through the desired scenario in your app, then press **Stop Collection** or close your app to see your data.
+1. Select the **Start** button to run the tool.
 
-![Stop Collection](../profiling/media/stopcollectionlighttheme.png "Stop Collection")
+1. After the tool starts running, go through the scenario you want to profile in your app. Then select **Stop collection** or close your app to see your data.
 
-5. Click the **Allocation** tab and you should see an image similar to the one shown below.
+   ![A window showing Stop collection](../profiling/media/stopcollectionlighttheme.png "A window showing Stop collection")
 
+1. Select the **Allocation** tab. Window contents similar to the following screenshot appear.
 
-![Allocation](../profiling/media/allocationview.png "Allocation")
+   ![The Allocation tab](../profiling/media/allocationview.png "The Allocation tab")
 
-Congrats! You can now analyze the memory allocation of the objects.
+You can now analyze the memory allocation of the objects.
 
-The .NET Object Allocation Tracking tool can slow down the application you are trying to profile during collection. If you find that performance of the .NET Object Allocation Tracking tool or the application you are trying to profile is slow, and you don’t necessarily need to track every object, you can adjust the sampling rate to track every Nth object allocated. Click the gear icon next to the .NET Object Allocation Tracking tool in the profiler summary page.
+During collection, the tracking tool can slow down the profiled app. If performance of the tracking tool or the app is slow, and if you don't need to track every object, you can adjust the sampling rate. To do so, select the gear symbol next to the tracking tool in the profiler summary page.
 
+![Settings for the Dotnet Allocation tool](../profiling/media/dotnetallocsettings.png "Settings for the Dotnet Allocation tool")
 
+Adjust the sampling rate to the rate you want. This change helps speed up performance of your app during collection and analysis.
 
-![Settings For Dotnet Alloc Tool](../profiling/media/dotnetallocsettings.png "Settings For Dotnet Alloc Tool")
+![An adjusted sampling rate](../profiling/media/adjustedsamplingratedotnetalloctool.png "An adjusted sampling rate")
 
-Adjust the sampling rate to your desired rate. This should help speed up performance of your application during collection and analysis.
+For more information on how to make the tool more efficient, see [Optimizing Profiler settings](../profiling/optimize-profiler-settings.md).
 
-![Adjusted sampling rate](../profiling/media/adjustedsamplingratedotnetalloctool.png "Adjusted sampling rate")
+## Understand your data
 
-For more information on how to make the tool more performant, see [Optimizing Profiler Settings](../profiling/optimize-profiler-settings.md).
+![A graph for the Dotnet Allocation tool](../profiling/media/graphdotnetalloc.png "A graph for the Dotnet Allocation tool")
 
+In the preceding graphical view, the top graph shows the number of live objects in your app. The bottom **Object delta** graph shows the percentage change of app objects. Red bars denote when garbage collection took place.
 
-## Understand Your Data
+![A filtered graph of the Dotnet Allocation time](../profiling/media/graphdotnetalloctimefiltered.png "A filtered graph of the Dotnet Allocation time")
 
-![Graph Dotnet Alloc](../profiling/media/graphdotnetalloc.png "Graph Dotnet Alloc")
-The graphical view shows the live number of objects in your application in the top graph as well as the percentage change of objects in your application in the bottom graph. The red bars in the **Object delta** graph help you denote where garbage collection took place.
-
-
-![Graph Dotnet Alloc Time Filtered](../profiling/media/graphdotnetalloctimefiltered.png "Graph Dotnet Alloc Time Filtered")
-You can also select a time range on the graph to filter the tabular data to display the activity for only that specified time range. Furthermore, you can zoom in or out of the graph.
+You can filter the tabular data to display activity for only a specified time range. You can also zoom into or out of the graph.
 
 ### Allocation
 
-![Allocation Expanded](../profiling/media/allocationexpandedlight.png "Allocation Expanded")
+![The Allocation view expanded](../profiling/media/allocationexpandedlight.png "The Allocation view expanded")
 
-The allocation view allows you to see the location of objects that are allocating memory and how much memory those objects are allocating.
+The **Allocation** view shows the location of objects that are allocating memory and how much memory those objects are allocating.
 
-- The **Type** column is a list of various classes and structures that are taking up memory. Double-click on a type to view its backtrace (inverted call tree) and see items within that category taking up memory. (**Allocation** view only)
+- The **Type** column is a list of classes and structures that take up memory. Double-click a type to view its backtrace as an inverted call tree. In the **Allocation** view only, you can see items within the selected category that take up memory.
 
-- The **Allocations** column shows the number of objects within a particular allocation type or function that are taking up memory (in the **Allocation**, **Call Tree**, and **Functions View**).
-- The **Bytes** and **Average Size (Bytes)** columns are not on by default. To enable them, right-click on the **Type** or **Allocations** columns, and then click the **Bytes** and **Average Size (Bytes)** options to add them to the chart. The two columns are similar to **Total (Allocations)** and **Self (Allocations)** except that instead of showing the number of objects taking up memory, they show the total amount of memory in bytes that those objects are taking up. (**Allocation** view only)
+- The **Allocations** column shows the number of objects that take up memory within a particular allocation type or function. This column appears only in the **Allocation**, **Call Tree**, and **Functions** views.
+
+- The **Bytes** and **Average Size (Bytes)** columns don't appear by default. To show them, right-click the **Type** or **Allocations** column, and then select the **Bytes** and **Average Size (Bytes)** options to add them to the chart. 
+
+   The two columns are similar to **Total (Allocations)** and **Self (Allocations)**, except they show the amount of memory taken up instead of the number of objects taking up memory. These columns appear only in the **Allocation** view.
 
 - The **Module name** column shows the module that contains the function or process that is calling.
-- All of these columns are sortable. For the **Type**  or **Modules** column, the items are sorted alphabetically (either forward or backwards). For **Allocations**, **Bytes** and **Average Size (Bytes)**, you can sort numerically (either increasing or decreasing).
 
+All of these columns are sortable. For the **Type** and **Module Name** columns, you can sort items alphabetically in either ascending or descending order. For **Allocations**, **Bytes** and **Average Size (Bytes)**, you can sort items by increasing or decreasing numeric value.
 
-#### Icons
+#### Symbols
 
-The following icons are in the Allocation, Call Tree, and Functions Tab:
+The following symbols appear in the **Allocation**, **Call Tree**, and **Functions** tabs:
 
-- ![Value Type Icon](../profiling/media/valuetypeicon.png "Value Type Icon") - Value Type (for example, integer)
+- ![The value type symbol](../profiling/media/valuetypeicon.png "The value type symbol") - A value type like integer
 
-- ![Value Type Collection Icon](../profiling/media/valuetypecollectionicon.png "Value Type Collection Icon") - Value Type Collection (for example, array of integers)
+- ![The value-type collection symbol](../profiling/media/valuetypecollectionicon.png "The value-type collection symbol") - A value-type collection like array of integers
 
-- ![Reference Type Icon](../profiling/media/referencetypeicon.png "Reference Type Icon") - Reference Type (for example, string)
+- ![The reference type symbol](../profiling/media/referencetypeicon.png "The reference type symbol") - A reference type like string
 
-- ![Reference Type Collection Icon](../profiling/media/referencetypecollectionicon.png "Reference Type Collection Icon") - Reference Type Collection (for example, array of strings)
-
+- ![The reference-type collection symbol](../profiling/media/referencetypecollectionicon.png "The reference-type collection symbol") - A reference-type collection like array of strings
 
 ### Call Tree
 
-![Call Tree](../profiling/media/calltreelight.png "Call Tree")
+![The Call Tree view](../profiling/media/calltreelight.png "The Call Tree view")
 
-The **Call Tree** view allows you to see the function execution paths that contain objects allocating a lot of memory.
-- The **Function Name** column shows the process or name of the function containing objects allocating memory based on the level of the node you are inspecting.
-- The **Total (Allocations)** and **Total Size (Bytes)** columns show the total number of objects allocated and the total amount of memory taken up by a given function and any other functions it calls.
-- The **Self (Allocations)** and **Self Size (Bytes)** columns show the total number of objects allocated and the total amount of memory taken up by a single selected function or allocation type.
-- The **Average Size (Bytes)** column shows the same information as it did in the **Allocations View**.
+The **Call Tree** view shows the function execution paths that contain objects allocating much memory.
+
+- The **Function Name** column shows the process or name of the function containing objects that allocate memory. The display is based on the level of the node you're inspecting.
+- The **Total (Allocations)** and **Total Size (Bytes)** columns show the number of allocated objects and the amount of memory that is used by a function and all other functions it calls.
+- The **Self (Allocations)** and **Self-Size (Bytes)** columns show the number of allocated objects and the amount of memory that is used by a single selected function or allocation type.
+- The **Average Size (Bytes)** column shows the same information as it does in the **Allocations** view.
 - The **Module name** column shows the module that contains the function or process that is calling.
 
-![Hot Path](../profiling/media/hotpathlight.png "Hot Path")
+   ![A hot path expanded](../profiling/media/hotpathlight.png "A hot path expanded")
 
-- The **Expand Hot Path** button highlights a function execution pathway that contains a lot of objects that are allocating memory. The algorithm starts at a user-selected node of interest and highlights the path of most allocations, guiding a user in their investigation.
-- The **Show Hot Path** button toggles on or off the flame icons that indicate which node are a part of the **Hot Path**.
+- The **Expand Hot Path** button highlights a function execution pathway that contains many objects that are allocating memory. The algorithm starts at a node you select and highlights the path of the most allocations, guiding you in your investigation.
+- The **Show Hot Path** button shows or hides the flame symbols that indicate which nodes are part of the hot path.
 
 ### Functions
 
-![Functions](../profiling/media/functionslight.png "Functions")
+![The Functions view](../profiling/media/functionslight.png "The Functions view")
 
 The **Functions** view shows processes, modules, and functions that are allocating memory.
 
-- The **Name** column shows processes as the highest-level nodes. Underneath processes are modules, and under modules are functions.
-- The **Total (Allocations)**, **Self (Allocations)**, **Total Size (Bytes)**, **Self Size (Bytes)**, and **Average Size (Bytes)** columns show the same information as they did in the **Allocation** and **Call Tree** views.
+- The **Name** column shows processes as the highest-level nodes. Underneath processes are modules, and underneath modules are functions.
+- These columns show the same information as they do in the **Allocation** and **Call tree** views:
+
+   - **Total (Allocations)**
+   - **Self (Allocations)**
+   - **Total Size (Bytes)**
+   - **Self Size (Bytes)**
+   - **Average Size (Bytes)**
 
 ### Collection
 
-![Collection](../profiling/media/collectionlight.png "Collection")
+![The Collection view](../profiling/media/collectionlight.png "The Collection view")
 
-The collection view allows you to see how many objects were collected during garbage collection and how many were retained. This view also provides a few pie charts to visualize collected and survived objects by type.
+The **Collection** view shows how many objects were collected or retained during garbage collection. This view also shows pie charts to visualize collected and survived objects by type.
 
 - The **Collected** column shows the number of objects that the garbage collector collected.
 - The **Survived** column shows the number of objects that survived after the garbage collector was run.
 
-### Filtering Tools
+### Filtering tools
 
-The **Allocations**, **Call Tree**, and **Functions** views all contain the **Show Just My Code**, **Show Native Code**, and **Search** options:
+The **Allocations**, **Call Tree**, and **Functions** views all contain the **Show Just My Code** and **Show Native Code** options and a filter box.
 
-![Filter Bar](../profiling/media/filterbar.png "Filter Bar")
-
-- **Show Just My Code** collapses systems, frameworks, and other non-user code and into **[External Code]** frames so that user-code can be focused on. For more information, see [Debug user code with Just My Code](../debugger/just-my-code.md).
-- **Show Native Code** shows native code within the analysis target including non-user code if selected.
-- The **Filter box** allows you to filter down the **Name** or **Function name** column based on the parameter you provide. Simply type in the field and the table should filter down to show only types that contain the string provided.
+- **Show Just My Code** collapses systems, frameworks, and other nonuser code into **[External Code]** frames so that you can focus on just your code. For more information, see [Debug user code with Just My Code](../debugger/just-my-code.md).
+- **Show Native Code** shows native code within the analysis target and can include nonuser code.
+- With the filter box, you can filter down the **Name** or **Function name** column based on the value you provide. Enter a string value in the box. The table then shows only types that contain that string.

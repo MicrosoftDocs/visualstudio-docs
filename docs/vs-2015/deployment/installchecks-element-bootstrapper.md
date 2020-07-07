@@ -153,7 +153,7 @@ The `InstallChecks` element supports starting a variety of tests against the loc
 ## InstallConditions  
  When `InstallChecks` are evaluated, they produce properties. The properties are then used by `InstallConditions` to determine whether a package should install, bypass, or fail. The following table lists the `InstallConditions`:  
   
-|||  
+|Name|Description|
 |-|-|  
 |`FailIf`|If any `FailIf` condition evaluates to true, the package will fail. The rest of the conditions will not be evaluated.|  
 |`BypassIf`|If any `BypassIf` condition evaluates to true, the package will be bypassed. The rest of the conditions will not be evaluated.|  

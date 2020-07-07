@@ -19,7 +19,7 @@ manager: "wpickett"
 # CA1820: Test for empty strings using string length
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-|||
+|Item|Value|
 |-|-|
 |TypeName|TestForEmptyStringsUsingStringLength|
 |CheckId|CA1820|

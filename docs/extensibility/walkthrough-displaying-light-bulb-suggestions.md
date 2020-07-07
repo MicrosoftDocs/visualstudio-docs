@@ -1,7 +1,7 @@
 ---
 title: 'Walkthrough: Displaying Light Bulb Suggestions | Microsoft Docs'
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 ms.assetid: 99e5566d-450e-4660-9bca-454e1c056a02
 author: acangialosi
 ms.author: anthc

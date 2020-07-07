@@ -21,7 +21,7 @@ manager: "wpickett"
 
 For the latest documentation on Visual Studio, see [CA1707: Identifiers should not contain underscores](/visualstudio/code-quality/ca1707-identifiers-should-not-contain-underscores).
 
-|||
+|Item|Value|
 |-|-|
 |TypeName|IdentifiersShouldNotContainUnderscores|
 |CheckId|CA1707|

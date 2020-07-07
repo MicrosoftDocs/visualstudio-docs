@@ -1,11 +1,11 @@
 ---
 title: "How to: Change the namespace of a domain-specific language"
 ms.date: 10/31/2018
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
   - "Domain-Specific Language, namespace"
-author: jillre
-ms.author: jillfra
+author: JoshuaPartlow
+ms.author: joshuapa
 manager: jillfra
 ms.workload:
   - "multiple"

@@ -18,6 +18,14 @@ You can personalize and optimize your development experience in Visual Studio by
 > [!NOTE]
 > This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [Sign in to Visual Studio for Mac](/visualstudio/mac/signing-in).
 
+::: moniker range="vs-2017"
+
+> [! WARNING]
+> Using Visual Studio 2017 to access resources configured for conditional access may trigger a degraded authentication experience, prompting reauthentication several times within the same Visual Studio session. 
+> To work with resources configured for conditional access, upgrade to Visual Studio 2019 Update 16.6 or later. For more information, see [How to use Visual Studio with accounts that require multi-factor authentication](work-with-multi-factor-authentication.md).
+
+::: moniker-end
+
 ## Why should I sign in to Visual Studio?
 
 When you sign in, you enrich your Visual Studio experience. For example, after you sign in, you can [synchronize your settings](synchronized-settings-in-visual-studio.md) across devices, extend a trial, and automatically connect to an Azure service, to name a few.

@@ -3,7 +3,7 @@ title: "'with' not available in the ECMA 327 Compact Profile | Microsoft Docs"
 ms.date: "01/18/2017"
 ms.prod: visual-studio-windows
 ms.technology: vs-javascript
-ms.topic: reference
+ms.topic: error-reference
 f1_keywords: 
   - "VS.WebClient.Help.SCRIPT1036"
 dev_langs: 

@@ -1,13 +1,13 @@
 ---
-title: "Diagnose problems after deployment | Microsoft Docs"
-ms.date: "04/10/2018"
-ms.topic: "conceptual"
+title: Diagnose problems after deployment | Microsoft Docs
+ms.date: 04/10/2018
+ms.topic: how-to
 ms.assetid: a3463eab-a352-4d17-8551-adbaad526db0
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
-ms.workload:
-  - "multiple"
+ms.workload: 
+  - multiple
 ---
 # Diagnose problems after deployment using IntelliTrace (C#, Visual Basic)
 

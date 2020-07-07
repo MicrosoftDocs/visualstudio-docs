@@ -1,24 +1,24 @@
 ---
-title: "Debug a C++ access violation | Microsoft Docs"
-ms.custom: "seodec18"
-ms.date: "02/05/2019"
-ms.topic: "conceptual"
-f1_keywords:
-  - "vs.debug.access"
-dev_langs:
-  - "CSharp"
-  - "VB"
-  - "FSharp"
-  - "C++"
-helpviewer_keywords:
-  - "access violation debugging"
-  - "debugging [Visual Studio], access violations"
+title: Debug a C++ access violation | Microsoft Docs
+ms.custom: seodec18
+ms.date: 02/05/2019
+ms.topic: how-to
+f1_keywords: 
+  - vs.debug.access
+dev_langs: 
+  - CSharp
+  - VB
+  - FSharp
+  - C++
+helpviewer_keywords: 
+  - access violation debugging
+  - debugging [Visual Studio], access violations
 ms.assetid: 9311d754-0ce9-4145-b147-88b6ca77ba63
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
-ms.workload:
-  - "cplusplus"
+ms.workload: 
+  - cplusplus
 ---
 # How Can I Debug a C++ Access Violation?
 

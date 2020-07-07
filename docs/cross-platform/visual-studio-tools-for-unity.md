@@ -3,7 +3,7 @@ title: "Visual Studio Tools for Unity | Microsoft Docs"
 ms.custom: ""
 ms.date: "10/25/2019"
 ms.technology: vs-unity-tools
-ms.topic: "conceptual"
+ms.topic: overview
 ms.assetid: 6cabc626-5310-4622-a743-210a9abb5535
 author: therealjohn
 ms.author: johmil

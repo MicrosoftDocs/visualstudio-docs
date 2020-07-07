@@ -5,6 +5,7 @@ author: heiligerdankgesang
 ms.author: dominicn
 ms.date: 09/19/2019
 ms.assetid: E4B6CB42-9FE2-43B9-93B7-BD4BD50518B1
+ms.topic: how-to
 ---
 
 # Building and cleaning projects and solutions

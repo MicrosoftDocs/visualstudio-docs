@@ -1,18 +1,18 @@
 ---
 title: Configure Code Analysis
 ms.date: 04/04/2018
-ms.topic: conceptual
-f1_keywords:
-- vs.codeanalysis.propertypages.csvb
-- vs.codeanalysis.propertypages.solution
-helpviewer_keywords:
-- code analysis, selecting rule sets
-- code analysis, rule sets
+ms.topic: how-to
+f1_keywords: 
+  - vs.codeanalysis.propertypages.csvb
+  - vs.codeanalysis.propertypages.solution
+helpviewer_keywords: 
+  - code analysis, selecting rule sets
+  - code analysis, rule sets
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.workload:
-- dotnet
+ms.workload: 
+  - dotnet
 ---
 # How to: Configure legacy analysis for managed code
 

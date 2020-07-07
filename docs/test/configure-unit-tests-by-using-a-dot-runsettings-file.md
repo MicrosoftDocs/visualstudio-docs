@@ -1,11 +1,11 @@
 ---
 title: Configure unit tests with a .runsettings file
 ms.date: 10/03/2019
-ms.topic: conceptual
+ms.topic: how-to
 ms.author: mikejo
 manager: jillfra
-ms.workload:
-- multiple
+ms.workload: 
+  - multiple
 author: mikejo5000
 ---
 # Configure unit tests by using a *.runsettings* file
@@ -208,6 +208,27 @@ The following XML shows the contents of a typical *.runsettings* file. Each elem
     <Parameter name="webAppUserName" value="Admin" />
     <Parameter name="webAppPassword" value="Password" />
   </TestRunParameters>
+  
+  <!-- Configuration for loggers -->
+  <LoggerRunSettings>
+    <Loggers>      
+      <Logger friendlyName="console" enabled="True">
+        <Configuration>
+            <Verbosity>quiet</Verbosity>
+        </Configuration>
+      </Logger>
+      <Logger friendlyName="trx" enabled="True">
+        <Configuration>
+          <LogFileName>foo.trx</LogFileName>
+        </Configuration>
+      </Logger>
+      <Logger friendlyName="html" enabled="True">
+        <Configuration>
+          <LogFileName>foo.html</LogFileName>
+        </Configuration>
+      </Logger>
+    </Loggers>
+  </LoggerRunSettings>
 
   <!-- Adapter Specific sections -->
 
@@ -304,6 +325,32 @@ public void HomePageTest()
 ```
 
 To use test run parameters, add a private <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext> field and a public <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext> property to your test class.
+
+### Logger run settings
+
+```xml
+<LoggerRunSettings>
+    <Loggers>        
+      <Logger friendlyName="console" enabled="True">
+        <Configuration>
+            <Verbosity>quiet</Verbosity>
+        </Configuration>
+      </Logger>
+      <Logger friendlyName="trx" enabled="True">
+        <Configuration>
+          <LogFileName>foo.trx</LogFileName>
+        </Configuration>
+      </Logger>
+      <Logger friendlyName="html" enabled="True">
+        <Configuration>
+          <LogFileName>foo.html</LogFileName>
+        </Configuration>
+      </Logger>
+    </Loggers>
+  </LoggerRunSettings>
+```
+
+`LoggerRunSettings` section defines one or more loggers to be used for the test run. The most common loggers are console, trx and html. 
 
 ### MSTest run settings
 

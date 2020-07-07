@@ -1,7 +1,7 @@
 ---
 title: 'How to: Copy Class Diagram Elements to a Microsoft Office Document (Class Designer)'
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - class diagrams, copying elements to Office documents
 - Office documents [Visual Studio]

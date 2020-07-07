@@ -1,7 +1,7 @@
 ---
 title: Image Library
 ms.date: 11/04/2016
-ms.topic: sample
+ms.topic: conceptual
 helpviewer_keywords:
 - animation [Visual Studio]
 - graphics [Visual Studio], Image Library

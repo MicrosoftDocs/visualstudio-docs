@@ -1,7 +1,7 @@
 ---
 title: "The workbook used to create this project contains ActiveX controls that the designer cannot load"
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: "error-reference"
 f1_keywords:
   - "VST.SelectDocWizard.ContainsActiveXControls"
 dev_langs:

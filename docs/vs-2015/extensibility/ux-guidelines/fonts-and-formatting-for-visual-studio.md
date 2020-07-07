@@ -430,49 +430,49 @@ protected static void SetFontStyles(Control topControl, Control parent, Font ref
 
 #### 375% Environment font + Light
 
-|||
+|Usage|Appearance|
 |-|-|
 |**Usage:** Rare. Unique branded UI only.<br /><br /> **Do:**<br /><br /> -   Use sentence case<br />-   Always use Light weight<br /><br /> **Do not:**<br /><br /> -   Use for UI other than signature UI such as Start Page<br />-   Bold, italic, or bold italic<br />-   Use for body text<br />-   Use in tool windows|**Appears as:** 34 pt Segoe UI Light<br /><br /> **Visual example:**<br /><br /> *Currently not used. May be used in the Start Page.*|
 
 #### 310% Environment font + Light
 
-|||
+|Usage|Appearance|
 |-|-|
 |**Usage:**<br /><br /> -   Larger heading in signature dialogs<br />-   Main report heading<br /><br /> **Do:**<br /><br /> -   Use sentence case<br />-   Always use Light weight<br /><br /> **Do not:**<br /><br /> -   Use for UI other than signature UI such as Start Page<br />-   Bold, italic, or bold italic<br />-   Use for body text<br />-   Use in tool windows|**Appears as:** 28 pt Segoe UI Light<br /><br /> **Visual example:**<br /><br /> ![Example of 310% Environment font &#43; Light heading](../../extensibility/ux-guidelines/media/0202-a-ef310.png "0202-a_EF310")|
 
 #### 200% Environment font + Semilight
 
-|||
+|Usage|Appearance|
 |-|-|
 |**Usage:**<br /><br /> -   Subheadings<br />-   Titles in small and medium dialogs<br /><br /> **Do:**<br /><br /> -   Use sentence case<br />-   Always use Semilight weight<br /><br /> **Do not:**<br /><br /> -   Bold, italic, or bold italic<br />-   Use for body text<br />-   Use in tool windows|**Appears as:** 18 pt Segoe UI Semillight<br /><br /> **Visual example:**<br /><br /> ![Example of 200% Environment font &#43; Semilight](../../extensibility/ux-guidelines/media/0202-b-ef200.png "0202-b_EF200")|
 
 #### 155% Environment font
 
-|||
+|Usage|Appearance|
 |-|-|
 |**Usage:**<br /><br /> -   Section headings in document well UI<br />-   Reports<br /><br /> **Do:** Use sentence case<br /><br /> **Do not:**<br /><br /> -   Bold, italic, or bold italic<br />-   Use for body text<br />-   Use in standard Visual Studio controls<br />-   Use in tool windows|**Appears as:** 14 pt Segoe UI<br /><br /> **Visual example:**<br /><br /> ![Example of 155% Environment font heading](../../extensibility/ux-guidelines/media/0202-c-ef155.png "0202-c_EF155")|
 
 #### 133% Environment font
 
-|||
+|Usage|Appearance|
 |-|-|
 |**Usage:**<br /><br /> -   Smaller subheadings in signature dialogs<br />-   Smaller subheadings in document well UI<br /><br /> **Do:** Use sentence case<br /><br /> **Do not:**<br /><br /> -   Bold, italic, or bold italic<br />-   Use for body text<br />-   Use in standard Visual Studio controls<br />-   Use in tool windows|**Appears as:** 12 pt Segoe UI<br /><br /> **Visual example:**<br /><br /> ![Example of 133% Environment font heading](../../extensibility/ux-guidelines/media/0202-d-ef133.png "0202-d_EF133")|
 
 #### 122% Environment font
 
-|||
+|Usage|Appearance|
 |-|-|
 |**Usage:**<br /><br /> -   Section headings in signature dialogs<br />-   Top nodes in tree view<br />-   Vertical tab navigation<br /><br /> **Do:** Use sentence case<br /><br /> **Do not:**<br /><br /> -   Bold, italic, or bold italic<br />-   Use for body text<br />-   Use in standard Visual Studio controls<br />-   Use in tool windows|**Appears as:** 11 pt Segoe UI<br /><br /> **Visual example:**<br /><br /> ![Example of 122% Environment font heading](../../extensibility/ux-guidelines/media/0202-e-ef122.png "0202-e_EF122")|
 
 #### Environment font + bold
 
-|||
+|Usage|Appearance|
 |-|-|
 |**Usage:**<br /><br /> -   Labels and subheads in signature dialogs<br />-   Labels and subheads in reports<br />-   Labels and subheads in document well UI<br /><br /> **Do:**<br /><br /> -   Use sentence case<br />-   Use bold weight<br /><br /> **Do not:**<br /><br /> -   Italic or bold italic<br />-   Use for body text<br />-   Use in standard Visual Studio controls<br />-   Use in tool windows|**Appears as:** bolded 9 pt Segoe UI<br /><br /> **Visual example:**<br /><br /> ![Example of Environment font &#43; Bold heading](../../extensibility/ux-guidelines/media/0202-f-efb.png "0202-f_EFB")|
 
 #### Environment font
 
-|||
+|Usage|Appearance|
 |-|-|
 |**Usage:** All other text<br /><br /> **Do:** Use sentence case<br /><br /> **Do not:** Italic or bold italic|**Appears as:** 9 pt Segoe UI<br /><br /> **Visual example:**<br /><br /> ![Example of Environment font](../../extensibility/ux-guidelines/media/0202-g-ef.png "0202-g_EF")|
 

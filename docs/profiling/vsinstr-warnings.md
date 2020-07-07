@@ -1,20 +1,20 @@
 ---
-title: "VSInstr Warnings | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-helpviewer_keywords:
-  - "instrumentation, VSInstr tool"
-  - "warnings"
-  - "VSInstr tool"
-  - "warnings, VSInstr tool"
-  - "performance tools, VSInstr tool"
+title: VSInstr Warnings | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: reference
+helpviewer_keywords: 
+  - instrumentation, VSInstr tool
+  - warnings
+  - VSInstr tool
+  - warnings, VSInstr tool
+  - performance tools, VSInstr tool
 ms.assetid: 47512bc9-a8e9-4628-883a-d9888edab786
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 monikerRange: 'vs-2017'
-ms.workload:
-  - "multiple"
+ms.workload: 
+  - multiple
 ---
 # VSInstr warnings
 The following table lists warnings issued by the *VSInstr.exe* tool. You can use the NOWARN option along with the warning numbers to suppress the warning from appearing.

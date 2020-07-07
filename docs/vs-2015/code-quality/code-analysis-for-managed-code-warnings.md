@@ -39,7 +39,7 @@ The Managed Code Analysis tool provides warnings that indicate rule violations i
 
 ## In This Section
 
-|||
+|Item|Value|
 |-|-|
 |[Warnings By CheckId](../code-quality/code-analysis-warnings-for-managed-code-by-checkid.md)|Lists all warnings by CheckId|
 |[Cryptography Warnings](../code-quality/cryptography-warnings.md)|Warnings that support safer libraries and applications through the correct use of cryptography.|

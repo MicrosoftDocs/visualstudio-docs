@@ -1,7 +1,7 @@
 ---
 title: Design-Time Code Generation by using T4 Text Templates
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - text templates, guidelines for code generation
 - text templates, data source model

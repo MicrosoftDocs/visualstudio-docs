@@ -1,7 +1,7 @@
 ---
-title: "Error: Kerberos Authentication Failed | Microsoft Docs"
+title: "Error - Kerberos Authentication Failed | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "troubleshooting"
+ms.topic: "error-reference"
 f1_keywords:
   - "vs.debug.error.callback_kerberos_auth_failed"
 dev_langs:

@@ -55,44 +55,38 @@ manager: jillfra
 #### Concept development
  Visual Studio has within its UI a wide variety of icon types. Carefully consider the icon type during development. Don't use unclear or uncommon UI objects for your icon elements. Opt for the symbolic in these cases, such as with the Smart Tag icon. Note that the meaning of the abstract tag on the left is more obvious than the vague, UI-based version on the right:
 
-|||
-|-|-|
 |**Correct use of symbolic imagery**|**Incorrect use of symbolic imagery**|
+|-|-|
 |![Correct Smart Tag icon](../../extensibility/ux-guidelines/media/0404-01-smarttagcorrect.png "0404-01_SmartTagCorrect")|![Incorrect Smart Tag icon](../../extensibility/ux-guidelines/media/0404-02-smarttagincorrect.png "0404-02_SmartTagIncorrect")|
 
  There are instances in which standard, easily recognizable UI elements do work well for icons. Add Window is one such example:
 
-|||
-|-|-|
 |**Correct UI element in an icon**|**Incorrect UI element in an icon**|
+|-|-|
 |![Correct Add Window icon](../../extensibility/ux-guidelines/media/0404-03-addwindowcorrect.png "0404-03_AddWindowCorrect")|![Incorrect Add Window icon](../../extensibility/ux-guidelines/media/0404-04-addwindowincorrect.png "0404-04_AddWindowIncorrect")|
 
  Don't use a document as a base element unless it is essential to the icon's meaning. Without the document element on Add Document (below) the meaning is lost, whereas with Refresh the document element is unnecessary to communicate the meaning.
 
-|||
-|-|-|
 |**Correct use of document icon**|**Incorrect use of document icon**|
+|-|-|
 |![Correct Document icon](../../extensibility/ux-guidelines/media/0404-05-documenticoncorrect.png "0404-05_DocumentIconCorrect")|![Incorrect Document icon](../../extensibility/ux-guidelines/media/0404-06-documenticonincorrect.png "0404-06_DocumentIconIncorrect")|
 
  The concept of "show" should be represented by the icon which best illustrates what is being shown, such as with the Show All Files example. A lens metaphor may be used to indicate the concept of "view" if necessary, such as with the Resource View example.
 
-|||
-|-|-|
 |**“Show”**|**“View”**|
+|-|-|
 |![Show icon](../../extensibility/ux-guidelines/media/0404-07-show.png "0404-07_Show")|![View icon](../../extensibility/ux-guidelines/media/0404-08-view.png "0404-08_View")|
 
  The right-facing magnifying glass icon should represent only Search, Find, and Browse. The left-facing variant with the plus sign or minus sign should represent only zoom in/zoom out.
 
-|||
-|-|-|
 |**“Search”**|**“Zoom”**|
+|-|-|
 |![Search icon](../../extensibility/ux-guidelines/media/0404-09-search.png "0404-09_Search")|![Zoom icon](../../extensibility/ux-guidelines/media/0404-10-zoom.png "0404-10_Zoom")|
 
  In tree views, do not use both the folder icon and a modifier. When available, use only the modifier.
 
-|||
-|-|-|
 |**Correct tree view icons**|**Incorrect tree view icons**|
+|-|-|
 |![Correct tree view icon &#40;1&#41;](../../extensibility/ux-guidelines/media/0404-11-treeviewcorrect1.png "0404-11_TreeViewCorrect1") ![Correct tree view icon &#40;2&#41;](../../extensibility/ux-guidelines/media/0404-12-treeviewcorrect2.png "0404-12_TreeViewCorrect2")|![Incorrect tree view icon &#40;1&#41;](../../extensibility/ux-guidelines/media/0404-13-treeviewincorrect1.png "0404-13_TreeViewIncorrect1") ![Incorrect tree view icon &#40;2&#41;](../../extensibility/ux-guidelines/media/0404-14-treeviewincorrect2.png "0404-14_TreeViewIncorrect2")|
 
 ### Style details
@@ -136,23 +130,20 @@ manager: jillfra
 
  To achieve ideal alignment and balance, avoid obstructing the icon's base element with action glyphs. Place the glyph near the top left of the base element. When adding an additional element, consider the alignment and balance of the icon.
 
-|||
-|-|-|
 |**Correct alignment and balance**|**Incorrect alignment and balance**|
+|-|-|
 |![Correct icon balance and alignment](../../extensibility/ux-guidelines/media/0404-22-alignbalancecorrect.png "0404-22_AlignBalanceCorrect")|![Incorrect icon balance and alignment](../../extensibility/ux-guidelines/media/0404-23-alignbalanceincorrect.png "0404-23_AlignBalanceIncorrect")|
 
  Ensure size parity for icons that share elements and are used in sets. Note that in the incorrect pairing, the circle and arrow are oversized and don't match.
 
-|||
-|-|-|
 |**Correct size parity**|**Incorrect size parity**|
+|-|-|
 |![Correct icon size and parity](../../extensibility/ux-guidelines/media/0404-24-sizeparitycorrect.png "0404-24_SizeParityCorrect")|![Incorrect icon size and parity](../../extensibility/ux-guidelines/media/0404-25-sizeparityincorrect.png "0404-25_SizeParityIncorrect")|
 
  Use consistent line and visual weights. Evaluate how the icon you are building compares to other icons by using a side-by-side comparison. Never use the entire 16x16 frame, use 15x15 or smaller. The negative-to-positive (dark-to-light) ratio should be 50/50.
 
-|||
-|-|-|
 |**Correct negative-to-positive ratio**|**Incorrect negative-to-positive ratio**|
+|-|-|
 |![Correct visual weight for icons &#40;1&#41;](../../extensibility/ux-guidelines/media/0404-26-visualweightcorrect1.png "0404-26_VisualWeightCorrect1")<br /><br /> ![Correct visual weight for icons &#40;2&#41;](../../extensibility/ux-guidelines/media/0404-27-visualweightcorrect2.png "0404-27_VisualWeightCorrect2")<br /><br /> ![Correct visual weight for icons &#40;3&#41;](../../extensibility/ux-guidelines/media/0404-28-visualweightcorrect3.png "0404-28_VisualWeightCorrect3")|![Incorrect visual weight for icons](../../extensibility/ux-guidelines/media/0404-29-visualweightincorrect.png "0404-29_VisualWeightIncorrect")|
 
  Use simple, comparable shapes and complementary angles to build your elements without sacrificing element integrity. Use 45° or 90° angles where possible.
@@ -176,16 +167,14 @@ manager: jillfra
 
  Use light sources only when adding necessary clarity to an object.
 
-|||
-|-|-|
 |**Correct light source**|**Incorrect light source**|
+|-|-|
 |![Correct light sources for icons](../../extensibility/ux-guidelines/media/0404-34-lightsourcescorrect.png "0404-34_LightSourcesCorrect")|![Incorrect light sources for icons](../../extensibility/ux-guidelines/media/0404-35-lightsourcesincorrect.png "0404-35_LightSourcesIncorrect")|
 
  Use outlines only to enhance legibility or to better communicate the metaphor. The negative-positive (dark-light) balance should be 50/50.
 
-|||
-|-|-|
 |**Correct use of outlines**|**Incorrect use of outlines**|
+|-|-|
 |![Correct outlines](../../extensibility/ux-guidelines/media/0404-36-outlinescorrect.png "0404-36_OutlinesCorrect")|![Incorrect outlines](../../extensibility/ux-guidelines/media/0404-37-outlinesincorrect.png "0404-37_OutlinesIncorrect")|
 
 #### Icon types
@@ -323,35 +312,34 @@ manager: jillfra
 ##### Examples
  Green is used for positive action modifiers such as “Add,” “Run,” “Play,” and “Validate.”
 
-|||||
+|Run|Execute query|Play all steps|Add Control|
 |-|-|-|-|
-|![Run icon](../../extensibility/ux-guidelines/media/0405-03-actionmodifierrun.png "0405-03_ActionModifierRun") **Run**|![Execute query icon](../../extensibility/ux-guidelines/media/0405-04-executequery.png "0405-04_ExecuteQuery") **Execute Query**|![Play all steps icon](../../extensibility/ux-guidelines/media/0405-05-playallsteps.png "0405-05_PlayAllSteps") **Play All Steps**|![Add control icon](../../extensibility/ux-guidelines/media/0405-06-addcontrol.png "0405-06_AddControl") **Add Control**|
+|![Run icon](../../extensibility/ux-guidelines/media/0405-03-actionmodifierrun.png "0405-03_ActionModifierRun")|![Execute query icon](../../extensibility/ux-guidelines/media/0405-04-executequery.png "0405-04_ExecuteQuery")|![Play all steps icon](../../extensibility/ux-guidelines/media/0405-05-playallsteps.png "0405-05_PlayAllSteps")|![Add control icon](../../extensibility/ux-guidelines/media/0405-06-addcontrol.png "0405-06_AddControl")|
 
  Red is used for negative action modifiers such as “Delete,” “Stop,” “Cancel,” and “Close.”
 
-|||||
+|Delete Relationship|Delete Column|Stop Query|Connection Offline|
 |-|-|-|-|
-|![Delete relationship icon](../../extensibility/ux-guidelines/media/0405-07-deleterelationship.png "0405-07_DeleteRelationship") **Delete Relationship**|![Delete column icon](../../extensibility/ux-guidelines/media/0405-08-deletecolumn.png "0405-08_DeleteColumn") **Delete Column**|![Stop query icon](../../extensibility/ux-guidelines/media/0405-09-stopquery.png "0405-09_StopQuery") **Stop Query**|![Connection offline icon](../../extensibility/ux-guidelines/media/0405-10-connectionoffline.png "0405-10_ConnectionOffline") **Connection Offline**|
+|![Delete relationship icon](../../extensibility/ux-guidelines/media/0405-07-deleterelationship.png "0405-07_DeleteRelationship")|![Delete column icon](../../extensibility/ux-guidelines/media/0405-08-deletecolumn.png "0405-08_DeleteColumn")|![Stop query icon](../../extensibility/ux-guidelines/media/0405-09-stopquery.png "0405-09_StopQuery")|![Connection offline icon](../../extensibility/ux-guidelines/media/0405-10-connectionoffline.png "0405-10_ConnectionOffline")|
 
  Blue is applied to neutral action modifiers most commonly represented as arrows, such as “Open,” “Next,” “Previous,” “Import,” and “Export.”
 
-|||||
+|Go to Field|Batched Check-In|Address Editor|Association Editor|
 |-|-|-|-|
-|![Go to field icon](../../extensibility/ux-guidelines/media/0405-11-gotofield.png "0405-11_GoToField") **Go to Field**|![Batched check&#45;in icon](../../extensibility/ux-guidelines/media/0405-12-batchedcheckin.png "0405-12_BatchedCheckIn") **Batched Check-In**|![Address editor icon](../../extensibility/ux-guidelines/media/0405-13-addresseditor.png "0405-13_AddressEditor") **Address Editor**|![Association editor icon](../../extensibility/ux-guidelines/media/0405-14-associationeditor.png "0405-14_AssociationEditor") **Association Editor**|
+|![Go to field icon](../../extensibility/ux-guidelines/media/0405-11-gotofield.png "0405-11_GoToField")|![Batched check&#45;in icon](../../extensibility/ux-guidelines/media/0405-12-batchedcheckin.png "0405-12_BatchedCheckIn")|![Address editor icon](../../extensibility/ux-guidelines/media/0405-13-addresseditor.png "0405-13_AddressEditor")|![Association editor icon](../../extensibility/ux-guidelines/media/0405-14-associationeditor.png "0405-14_AssociationEditor")|
 
  Dark gold is primarily used for the “New” modifier.
 
-|||||
+|New Project|Create New Graph|New Unit Test|New List Item|
 |-|-|-|-|
-|![New project icon](../../extensibility/ux-guidelines/media/0405-15-newproject.png "0405-15_NewProject") **New Project**|![Create new graph icon](../../extensibility/ux-guidelines/media/0405-16-createnewgraph.png "0405-16_CreateNewGraph") **Create New Graph**|![New unit test icon](../../extensibility/ux-guidelines/media/0405-17-newunittest.png "0405-17_NewUnitTest") **New Unit Test**|![New list item icon](../../extensibility/ux-guidelines/media/0405-18-newlistitem.png "0405-18_NewListItem") **New List Item**|
+|![New project icon](../../extensibility/ux-guidelines/media/0405-15-newproject.png "0405-15_NewProject")|![Create new graph icon](../../extensibility/ux-guidelines/media/0405-16-createnewgraph.png "0405-16_CreateNewGraph")|![New unit test icon](../../extensibility/ux-guidelines/media/0405-17-newunittest.png "0405-17_NewUnitTest")|![New list item icon](../../extensibility/ux-guidelines/media/0405-18-newlistitem.png "0405-18_NewListItem")|
 
 #### Special cases
  In special cases, a colored action modifier may be used independently as a standalone icon. The color used for the icon reflects the actions that the icon is associated with. This use is limited to a small subset of icons, including:
 
-||||||
+|Run|Stop|Delete|Save|Navigate Back|
 |-|-|-|-|-|
-|![Run icon](../../extensibility/ux-guidelines/media/0405-03-actionmodifierrun.png "0405-03_ActionModifierRun") **Run**|![Stop icon](../../extensibility/ux-guidelines/media/0405-19-stop.png "0405-19_Stop") **Stop**|![Delete icon](../../extensibility/ux-guidelines/media/0405-20-delete.png "0405-20_Delete") **Delete**|![Save icon](../../extensibility/ux-guidelines/media/0405-21-save.png "0405-21_Save") **Save**|![Navigate back icon](../../extensibility/ux-guidelines/media/0405-22-navigateback.png "0405-22_NavigateBack") **Navigate Back**|
-
+|![Run icon](../../extensibility/ux-guidelines/media/0405-03-actionmodifierrun.png "0405-03_ActionModifierRun")|![Stop icon](../../extensibility/ux-guidelines/media/0405-19-stop.png "0405-19_Stop")|![Delete icon](../../extensibility/ux-guidelines/media/0405-20-delete.png "0405-20_Delete")|![Save icon](../../extensibility/ux-guidelines/media/0405-21-save.png "0405-21_Save")|![Navigate back icon](../../extensibility/ux-guidelines/media/0405-22-navigateback.png "0405-22_NavigateBack")|
 ### Code hierarchy palette
 
 #### Folder
@@ -377,10 +365,13 @@ manager: jillfra
 
 ##### Examples of icons with language modifiers
 
-|||||||
+|VB|C#|F#|JavaScript|Python|
 |-|-|-|-|-|-|
-|![Visual Basic icon](../../extensibility/ux-guidelines/media/0405-25-vb.png "0405-25_VB") **VB**|![C&#35; icon](../../extensibility/ux-guidelines/media/0405-26-csharp.png "0405-26_CSharp") **C#**|![C&#43;&#43; icon](../../extensibility/ux-guidelines/media/0405-27-cplusplus.png "0405-27_CPlusPlus") **C++**|![F&#35; icon](../../extensibility/ux-guidelines/media/0405-28-fsharp.png "0405-28_FSharp") **F#**|![JavaScript icon](../../extensibility/ux-guidelines/media/0405-29-javascript.png "0405-29_JavaScript") **JavaScript**|![Python icon](../../extensibility/ux-guidelines/media/0405-30-python.png "0405-30_Python") **Python**|
-|![HTML icon](../../extensibility/ux-guidelines/media/0405-31-html.png "0405-31_HTML") **HTML**|![WPF icon](../../extensibility/ux-guidelines/media/0405-32-wpf.png "0405-32_WPF") **WPF**|![ASP icon](../../extensibility/ux-guidelines/media/0405-33-asp.png "0405-33_ASP") **ASP**|![CSS icon](../../extensibility/ux-guidelines/media/0405-34-css.png "0405-34_CSS") **CSS**|![TypeScript icon](../../extensibility/ux-guidelines/media/0405-35-typescript.png "0405-35_TypeScript") **TypeScript**||
+|![Visual Basic icon](../../extensibility/ux-guidelines/media/0405-25-vb.png "0405-25_VB")|![C&#35; icon](../../extensibility/ux-guidelines/media/0405-26-csharp.png "0405-26_CSharp")|![C&#43;&#43; icon](../../extensibility/ux-guidelines/media/0405-27-cplusplus.png "0405-27_CPlusPlus")|![F&#35; icon](../../extensibility/ux-guidelines/media/0405-28-fsharp.png "0405-28_FSharp")|![JavaScript icon](../../extensibility/ux-guidelines/media/0405-29-javascript.png "0405-29_JavaScript")|![Python icon](../../extensibility/ux-guidelines/media/0405-30-python.png "0405-30_Python")|
+
+|HTML|WPF|ASP|CSS|TypeScript|
+|-|-|-|-|-|-|
+|![HTML icon](../../extensibility/ux-guidelines/media/0405-31-html.png "0405-31_HTML")<br />HTML|![WPF icon](../../extensibility/ux-guidelines/media/0405-32-wpf.png "0405-32_WPF")<br />WPF|![ASP icon](../../extensibility/ux-guidelines/media/0405-33-asp.png "0405-33_ASP")<br />ASP|![CSS icon](../../extensibility/ux-guidelines/media/0405-34-css.png "0405-34_CSS")<br />CSS|![TypeScript icon](../../extensibility/ux-guidelines/media/0405-35-typescript.png "0405-35_TypeScript")<br />TypeScript||
 
 #### IntelliSense
  IntelliSense icons use an exclusive color palette. These colors are used to help users quickly distinguish between the different items in the IntelliSense popup list.
@@ -395,10 +386,14 @@ manager: jillfra
 
 ##### Examples of IntelliSense icons
 
-||||||
+
+|Class|Private Event|Delegate|Method Friend|Field|
 |-|-|-|-|-|
-|![IntelliSense class icon](../../extensibility/ux-guidelines/media/0405-36-intellisenseclass.png "0405-36_IntelliSenseClass") **Class**|![IntelliSense private event icon](../../extensibility/ux-guidelines/media/0405-37-intellisenseprivateevent.png "0405-37_IntelliSensePrivateEvent") **Private Event**|![IntelliSense delegate icon](../../extensibility/ux-guidelines/media/0405-38-intellisensedelegate.png "0405-38_IntelliSenseDelegate") **Delegate**|![IntelliSense method friend icon](../../extensibility/ux-guidelines/media/0405-39-intellisensemethodfriend.png "0405-39_IntelliSenseMethodFriend") **Method Friend**|![Field icon](../../extensibility/ux-guidelines/media/0405-40-field.png "0405-40_Field") **Field**|
-|![IntelliSense protected enum item icon](../../extensibility/ux-guidelines/media/0405-41-intellisenseprotectedenumitem.png "0405-41_IntelliSenseProtectedEnumItem") **Protected Enum Item**|![IntelliSense object icon](../../extensibility/ux-guidelines/media/0405-42-intellisenseobject.png "0405-42_IntelliSenseObject") **Object**|![IntelliSense template icon](../../extensibility/ux-guidelines/media/0405-43-intellisensetemplate.png "0405-43_IntelliSenseTemplate") **Template**|![IntelliSense exception shortcut icon](../../extensibility/ux-guidelines/media/0405-44-intellisenseexceptionshortcut.png "0405-44_IntelliSenseExceptionShortcut") **Exception Shortcut**||
+|![IntelliSense class icon](../../extensibility/ux-guidelines/media/0405-36-intellisenseclass.png "0405-36_IntelliSenseClass")|![IntelliSense private event icon](../../extensibility/ux-guidelines/media/0405-37-intellisenseprivateevent.png "0405-37_IntelliSensePrivateEvent")|![IntelliSense delegate icon](../../extensibility/ux-guidelines/media/0405-38-intellisensedelegate.png "0405-38_IntelliSenseDelegate")|![IntelliSense method friend icon](../../extensibility/ux-guidelines/media/0405-39-intellisensemethodfriend.png "0405-39_IntelliSenseMethodFriend")|![Field icon](../../extensibility/ux-guidelines/media/0405-40-field.png "0405-40_Field")|
+
+|Protected Enum Item|Object|Template|Exception Shortcut|
+|-|-|-|-|
+|![IntelliSense protected enum item icon](../../extensibility/ux-guidelines/media/0405-41-intellisenseprotectedenumitem.png "0405-41_IntelliSenseProtectedEnumItem")|![IntelliSense object icon](../../extensibility/ux-guidelines/media/0405-42-intellisenseobject.png "0405-42_IntelliSenseObject")|![IntelliSense template icon](../../extensibility/ux-guidelines/media/0405-43-intellisensetemplate.png "0405-43_IntelliSenseTemplate")|![IntelliSense exception shortcut icon](../../extensibility/ux-guidelines/media/0405-44-intellisenseexceptionshortcut.png "0405-44_IntelliSenseExceptionShortcut")|
 
 ### Notifications
  Notifications in Visual Studio are used to indicate status. The notification palette uses the following four colors, as well as black or white foreground fill options, to define notifications with the following status levels.
@@ -414,9 +409,9 @@ manager: jillfra
 
 #### Examples of notification icons
 
-|||||
+|Alert|Warning|Complete|Stop|
 |-|-|-|-|
-|![Alert icon](../../extensibility/ux-guidelines/media/0405-45-alert.png "0405-45_Alert") **Alert**|![Warning icon](../../extensibility/ux-guidelines/media/0405-48-warning.png "0405-48_Warning") **Warning**|![Complete icon](../../extensibility/ux-guidelines/media/0405-46-complete.png "0405-46_Complete") **Complete**|![Stop icon](../../extensibility/ux-guidelines/media/0405-47-stop.png "0405-47_Stop") **Stop**|
+|![Alert icon](../../extensibility/ux-guidelines/media/0405-45-alert.png "0405-45_Alert")|![Warning icon](../../extensibility/ux-guidelines/media/0405-48-warning.png "0405-48_Warning")|![Complete icon](../../extensibility/ux-guidelines/media/0405-46-complete.png "0405-46_Complete")|![Stop icon](../../extensibility/ux-guidelines/media/0405-47-stop.png "0405-47_Stop")|
 
 ### Visual Studio Online
  In general, Visual Studio Online consists of features hosted in a browser. The color varies in different environments, but the style remains the same.

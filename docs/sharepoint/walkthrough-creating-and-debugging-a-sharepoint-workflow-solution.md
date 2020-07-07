@@ -1,7 +1,7 @@
 ---
 title: "Create & debug SharePoint workflow solution"
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: how-to
 f1_keywords:
   - "VS.SharePointTools.Workflow.WorkflowConditions"
   - "VS.SharePointTools.Workflow.WorkflowList"

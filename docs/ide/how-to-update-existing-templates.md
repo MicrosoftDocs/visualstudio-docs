@@ -1,7 +1,7 @@
 ---
 title: Update existing project item templates
 ms.date: 01/02/2018
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - item templates, updating
 - Visual Studio templates, updating

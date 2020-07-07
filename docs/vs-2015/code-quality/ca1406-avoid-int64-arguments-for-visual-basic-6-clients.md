@@ -19,7 +19,7 @@ manager: "wpickett"
 # CA1406: Avoid Int64 arguments for Visual Basic 6 clients
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-|||
+|Item|Value|
 |-|-|
 |TypeName|AvoidInt64ArgumentsForVB6Clients|
 |CheckId|CA1406|

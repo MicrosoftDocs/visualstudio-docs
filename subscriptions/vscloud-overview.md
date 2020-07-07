@@ -5,7 +5,7 @@ ms.author: v-evwin
 manager: lank
 ms.assetid: af1f7888-6942-4515-9475-0928ecf49dab
 ms.date: 03/24/2020
-ms.topic: conceptual
+ms.topic: overview
 description:  Rent Visual Studio Professional or Visual Studio Enterprise on a month-to-month or annual basis, with no long-term contract.
 ---
 # Buy Visual Studio Professional and Visual Studio Enterprise cloud subscriptions
@@ -48,7 +48,7 @@ to start downloading software and using other subscriber benefits.
 > ![Go to Visual Studio subscriber portal](_img/buy-vs-subscriptions/view-subscription-benefits-subscriptions-portal.png)
 
 If you purchased more than one subscription, proceed to the
-    [Visual Studio Subscriptions Administration portal](https://manage.visualstudio.com) to assign subscriptions to others.
+    [Visual Studio Subscriptions Administration portal](https://manage.visualstudio.com) to assign subscriptions to others.  You may need to [add your new subscriptions](add-monthly-subs.md) to the Administration Portal if this is the first time you've purchased them.
 
 > [!div class="mx-imgBorder"]
 > ![Assign subscriptions to others](_img/buy-vs-subscriptions/buy-vs-sub-success-many.png)

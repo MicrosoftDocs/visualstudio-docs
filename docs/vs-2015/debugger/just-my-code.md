@@ -178,7 +178,7 @@ Developers who use .NET Framework languages are familiar with the Just My Code d
   
  JavaScript Just My Code controls stepping and call stack display by categorizing code in one of these classifications:  
   
-|||  
+|Name|Description|
 |-|-|  
 |**MyCode**|User code that you own and control.|  
 |**LibraryCode**|Non-user code from libraries that you use regularly and your application relies on to function correctly (for example WinJS or jQuery).|  
@@ -276,7 +276,7 @@ Developers who use .NET Framework languages are familiar with the Just My Code d
   
  The **Eval**, **Function**, and **ScriptBlock** key value pairs determine how dynamically generated code is classified.  
   
-|||  
+|Name|Description|
 |-|-|  
 |**Eval**|Script that is executed by passing a string to the host-provided `eval` function. By default, Eval script is classified as **MyCode**.|  
 |**Function**|Script that is executed by passing a string to the `Function` constructor. By default, Function script is classified as **LibraryCode**.|  
@@ -294,7 +294,7 @@ Developers who use .NET Framework languages are familiar with the Just My Code d
   
   The **MyCode**, **Libraries**, and **Unrelated** key value pairs specify the urls or files that you want to include in a classification:  
   
-|||  
+|Name|Description|
 |-|-|  
 |**MyCode**|An array of urls or files that are classified as **MyCode**.|  
 |**Libraries**|An array of urls or files that are classified as **LibraryCode**.|  

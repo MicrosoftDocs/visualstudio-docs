@@ -1,7 +1,7 @@
 ---
 title: "IDiaSymbol::findInlineeLinesByVA | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 ms.assetid: 61427d33-30d2-4ac9-9bd6-c58c6c705072

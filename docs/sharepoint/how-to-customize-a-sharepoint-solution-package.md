@@ -1,7 +1,7 @@
 ---
 title: "How to: Customize a SharePoint Solution Package | Microsoft Docs"
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: how-to
 f1_keywords:
   - "VS.SharePointTools.RAD.PackageDesignerAdvanced"
   - "VS.SharePointTools.RAD.PackageDesigner.Manifest"

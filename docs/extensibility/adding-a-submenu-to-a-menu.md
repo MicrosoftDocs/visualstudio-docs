@@ -1,7 +1,7 @@
 ---
 title: Adding a Submenu to a Menu | Microsoft Docs
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - context menus
 - submenus, cascading
