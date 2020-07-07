@@ -319,7 +319,7 @@ To customize any other type of diagnostic data adapters, use a [test settings fi
 </DataCollector>
 ```
 
-This option can help you isolate a problematic test that causes a test host crash. Running the collector creates an output file (*sequence.xml*) in *TestResults*, which captures the order of execution of the test before the crash. 
+This option can help you isolate a problematic test that causes a test host crash. Running the collector creates an output file (*Sequence.xml*) in *TestResults*, which captures the order of execution of the test before the crash. 
 
 ### TestRunParameters
 
