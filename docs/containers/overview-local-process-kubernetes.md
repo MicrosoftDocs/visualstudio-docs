@@ -4,7 +4,7 @@ ms.technology: vs-azure
 ms.date: 06/02/2020
 ms.topic: "conceptual"
 description: "Describes the processes for using Local Process with Kubernetes to connect your development computer to your Kubernetes cluster"
-keywords: "Local Process with Kubernetes, Azure Dev Spaces, Dev Spaces, Docker, Kubernetes, Azure, containers"
+keywords: "Local Process with Kubernetes, Docker, Kubernetes, Azure, containers"
 monikerRange: ">=vs-2019"
 ---
 

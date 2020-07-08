@@ -87,11 +87,11 @@ landingContent:
         links:
           - text: Visual Studio Tools for Kubernetes
             url: tutorial-kubernetes-tools.md
-      - linkListType: overview
+      - linkListType: quickstart
         links:
           - text: Use Local Process with Kubernetes with Visual Studio
             url: local-process-kubernetes.md
-      - linkListType: how-to-guide
+      - linkListType: overview
         links:
           - text: How Local Process with Kubernetes works
-            url: how-dev-spaces-works-local-process-kubernetes.md
+            url: overview-local-process-kubernetes.md

@@ -11,8 +11,8 @@
       href: container-tools.md
     - name: React.js Single-page App in a Container
       href: container-tools-react.md
-    - name: Kubernetes development with Azure Dev Spaces >>
-      href: /azure/dev-spaces/quickstart-netcore-visualstudio
+    - name: Kubernetes development
+      href: local-process-kubernetes.md
   - name: Tutorials  
     expanded: true
     items:
@@ -53,4 +53,4 @@
     - name: Local Process with Kubernetes (Preview)
       href: local-process-kubernetes.md
     - name: How Local Process with Kubernetes works (Preview)
-      href: how-dev-spaces-works-local-process-kubernetes.md
+      href: overview-local-process-kubernetes.md
