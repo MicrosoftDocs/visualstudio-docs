@@ -81,7 +81,12 @@ Use the **Advanced** options page to modify the settings for editor formatting, 
    using System.Linq;
    ```
 
+::: moniker range=">=vs-2019"                                              
 - Suggest usings for types in .NET Framework assemblies
+::: moniker-end                                                            
+::: moniker range="vs-2017"                                                
+- Suggest usings for types in reference assemblies
+::: moniker-end                                                            
 - Suggest usings for types in NuGet packages
 
    When these options are selected, a [Quick Action](../quick-actions.md) is available to install a NuGet package and add a `using` directive for unreferenced types.
