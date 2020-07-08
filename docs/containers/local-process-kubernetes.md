@@ -3,7 +3,7 @@ title: "Use Local Process with Kubernetes with Visual Studio (preview)"
 ms.technology: vs-azure
 ms.date: 06/02/2020
 ms.topic: "conceptual"
-description: "Learn how to use Local Process with Kubernetes with Visual Studio to connect your development computer to a Kubernetes cluster with Azure Dev Spaces"
+description: "Learn how to use Local Process with Kubernetes with Visual Studio to connect your development computer to a Kubernetes cluster"
 keywords: "Local Process with Kubernetes, Azure Dev Spaces, Dev Spaces, Docker, Kubernetes, Azure, containers"
 monikerRange: ">=vs-2019"
 ---
@@ -23,7 +23,7 @@ In this guide, you will learn how to use Local Process with Kubernetes to redire
 
 ## Before you begin
 
-This guide uses the [Azure Dev Spaces Bike Sharing sample application][bike-sharing-github] to demonstrate connecting your development computer to a Kubernetes cluster. If you already have your own application running on a Kubernetes cluster, you can still follow the steps below and use the names of your own services.
+This guide uses the [Bike Sharing sample application][bike-sharing-github] to demonstrate connecting your development computer to a Kubernetes cluster. If you already have your own application running on a Kubernetes cluster, you can still follow the steps below and use the names of your own services.
 
 ### Prerequisites
 
@@ -87,7 +87,7 @@ On your development computer, download and configure the Kubernetes CLI to conne
 az aks get-credentials --resource-group MyResourceGroup --name MyAKS
 ```
 
-Open *dev-spaces/samples/BikeSharingApp/ReservationEngine/app.csproj* from the [Azure Dev Spaces Bike Sharing sample application][bike-sharing-github] in Visual Studio.
+Open *dev-spaces/samples/BikeSharingApp/ReservationEngine/app.csproj* from the [Bike Sharing sample application][bike-sharing-github] in Visual Studio.
 
 In your project, select *Local Process with Kubernetes* from the launch settings dropdown as shown below.
 
@@ -153,7 +153,7 @@ Use the provided script to remove the sample application from your cluster.
 Learn how Local Process Kubernetes works.
 
 > [!div class="nextstepaction"]
-> [How Local Process with Kubernetes works](how-dev-spaces-works-local-process-kubernetes.md)
+> [How Local Process with Kubernetes works](overview-local-process-kubernetes.md)
 
 [azds-cli]: /azure/dev-spaces/how-to/install-dev-spaces#install-the-client-side-tools
 [azds-tmp-dir]: /azure/dev-spaces/troubleshooting#before-you-begin
