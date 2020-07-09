@@ -1,6 +1,6 @@
 ---
-title: "Tutorial: Create a simple C# console app"
-description: "Learn how to create a C# console app in Visual Studio, step-by-step."
+title: "Tutorial: Extend a simple C# console app"
+description: "Learn how to develop a C# console app in Visual Studio, step-by-step."
 ms.custom: "get-started"
 ms.date: 07/09/2020
 ms.technology: vs-ide-general
