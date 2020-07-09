@@ -48,7 +48,7 @@ Real-world code involves many projects working together in a solution. Now, let'
 
 1. We now have to add a project reference, so that the first project can use APIs exposed by the new class library.  Right-click on the **References** node in the first project and choose **Add Project Reference**.
 
-   ![Screenshot of Add Project Reference menu item](media/vs-2019/calculator2-solution-explorer-add-project-reference.png)
+   ![Screenshot of Add Project Reference menu item](media/vs-2019/calculator2-add-project-reference.png)
 
    The **Reference Manager** dialog box appears. This lets you add references to other projects, as well assemblies and COM DLLs that your projects need.
 
@@ -213,7 +213,7 @@ Real-world code involves many projects working together in a solution. Now, let'
 
 1. Search for Newtonsoft.Json package, and choose **Install**.
 
-   ![Screenshot of Newtonsoft NuGet package infomation](media/vs-2019/calculator2-nuget-newtonsoft.json)
+   ![Screenshot of Newtonsoft NuGet package infomation](media/vs-2019/calculator2-nuget-newtonsoft-json.png)
 
    The package is dowloaded, and added to your project and a new entry appears in the References node in **Solution Explorer**.
 
