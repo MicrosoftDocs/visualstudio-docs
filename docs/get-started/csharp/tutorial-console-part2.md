@@ -118,6 +118,8 @@ Real-world code involves many projects working together in a solution. Now, let'
    namespace CalculatorProgram
    ```
 
+## Reference .NET libraries: write to a log
+
 1. Suppose you now want to add a log of all the operations, and write it out to a text file. The .NET Framework Trace class can do this. (It's useful for basic print debugging techniques as well.)  The Trace class is in System.Diagnostics, so start by adding a using directive:
 
    ```csharp
@@ -198,6 +200,8 @@ Real-world code involves many projects working together in a solution. Now, let'
     1 + 2 = 3
     3 * 3 = 9
     ```
+
+## Add a NuGet Package: write to a JSON file
 
 1. Now suppose we want to output the operations in a JSON format, a popular and portable format for storing object data. To help with this, we will need to reference the NuGet package Newtonsoft.Json. NuGet packages are the primary vehicle for distribution of .NET class libraries. In **Solution Explorer**, right-click on the **References** node for the CalculatorLibrary project, and choose **Manage NuGet Packages**.
 
