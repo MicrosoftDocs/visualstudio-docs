@@ -34,7 +34,7 @@ Anyone with [owner](https://docs.microsoft.com/azure/role-based-access-control/b
 
 4. Select the number of subscriptions to buy.
     > [!div class="mx-imgBorder"]
-    > ![Select number of subscriptions](_img/buy-vs-subscriptions/buy-vs-sub-users.png)
+    > ![Select number of subscriptions](_img/buy-vs-subscriptions/buy-vs-sub-users.png "Choose the number of subscriptions to buy")
 
     If you don't want subscriptions assigned to yourself, clear **Assign this subscription to me**.
 
@@ -58,12 +58,19 @@ If you purchased more than one subscription, proceed to the
 
 ## <a name="manage-subscriptions"></a>Cancel renewals of cloud subscriptions you've purchased
 
-* To change the number of purchased subscriptions:
+To cancel subscriptions, you just need to set the number of subscriptions for your agreement to zero (0).  Follow these steps to reduce the number of subscriptions:
+1. Sign in to <https://manage.visualstudio.com>
+1. If you have more than one agreement, choose the desired agreement from the drop-down list.
+1. Click the **Overview** icon at the top left to display information about your subscriptions.  
+> [!div class="mx-imgBorder"]
+> ![Display subscription overview](_img/buy-vs-subscriptions/overview-button.png "Click overview button to display subscription details")
+
+4. Locate the entry for the subscriptions you wish to cancel, and click **Change quantity**.
+1. Set the quantity to zero (0). 
+Your subscriptions will remain in place until their scheduled billing date, but will not renew when the billing date is reached.   
 
 > [!div class="mx-imgBorder"]
-> ![Change subscriptions](_img/buy-vs-subscriptions/manage-subscriptions.png)
-
-* To cancel these subscriptions, reduce the number of subscriptions to zero (0). They won't renew at the start of the next billing period (the first of the next month for monthly cloud subscriptions; 12 months later for annual cloud subscriptions).
+> ![Change subscriptions](_img/buy-vs-subscriptions/manage-subscriptions.png "Click 'Change quantity' to cancel subscriptions")
 
 ## Frequently asked questions
 
