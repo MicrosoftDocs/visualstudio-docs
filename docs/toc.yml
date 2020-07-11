@@ -319,6 +319,12 @@
         items:
         - name: Common Quick Actions
           href: ide/common-quick-actions.md
+        - name: Add explicit cast
+          href: ide/reference/add-explicit-cast.md
+        - name: Add file header
+          href: ide/reference/add-file-header.md
+        - name: Add parameter to method
+          href: ide/reference/add-parameter.md
         - name: Generate class/type
           href: ide/reference/generate-class-type.md
         - name: Generate method
@@ -333,12 +339,6 @@
           href: ide/reference/generate-deconstructor.md
         - name: Generate IEquatable operators for structs
           href: ide/reference/generate-equals-structs.md
-        - name: Add file header
-          href: ide/reference/add-file-header.md
-        - name: Add explicit cast
-          href: ide/reference/add-explicit-cast.md
-        - name: Add parameter to method
-          href: ide/reference/add-parameter.md
         - name: Generate parameter
           href: ide/reference/generate-parameter.md
         - name: Generate private field from constructor
