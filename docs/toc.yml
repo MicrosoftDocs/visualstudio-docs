@@ -335,6 +335,8 @@
           href: ide/reference/generate-equals-structs.md
         - name: Add file header
           href: ide/reference/add-file-header.md
+        - name: Add debugger display attribute
+          href: ide/reference/add-debugger-display-attribute.md
         - name: Add explicit cast
           href: ide/reference/add-explicit-cast.md
         - name: Add parameter to method
