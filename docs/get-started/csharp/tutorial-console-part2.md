@@ -32,11 +32,7 @@ Real-world code involves many projects working together in a solution. Now, let'
 
    ![Screenshot of Class Library project template selection](media/vs-2019/calculator2-add-project-dark.png)
 
-1. Type the project name **CalculatorLibrary**, and choose **Create**.
-
-   ![Screenshot of CalculatorLibrary project creation screen](media/vs-2019/calculator2-add-project2-dark.png)
-
-   Visual Studio creates the new project and adds it to the solution.
+1. Type the project name **CalculatorLibrary**, and choose **Create**. Visual Studio creates the new project and adds it to the solution.
 
    ![Screenshot of Solution Explorer with CalculatorLibrary class library project added](media/vs-2019/calculator2-solution-explorer-with-class-library-dark.png)
 
