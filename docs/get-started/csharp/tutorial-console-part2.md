@@ -30,15 +30,15 @@ Real-world code involves many projects working together in a solution. Now, let'
 
 1. Choose the C# project template **Class library (.NET Standard)**.
 
-   ![Screenshot of Class Library project template selection](media/vs-2019/calculator2-add-project.png)
+   ![Screenshot of Class Library project template selection](media/vs-2019/calculator2-add-project-dark.png)
 
 1. Type the project name **CalculatorLibrary**, and choose **Create**.
 
-   ![Screenshot of CalculatorLibrary project creation screen](media/vs-2019/calculator2-add-project2.png)
+   ![Screenshot of CalculatorLibrary project creation screen](media/vs-2019/calculator2-add-project2-dark.png)
 
    Visual Studio creates the new project and adds it to the solution.
 
-   ![Screenshot of Solution Explorer with CalculatorLibrary class library project added](media/vs-2019/calculator2-solution-explorer-with-class-library.png)
+   ![Screenshot of Solution Explorer with CalculatorLibrary class library project added](media/vs-2019/calculator2-solution-explorer-with-class-library-dark.png)
 
 1. Instead of having *Class1.cs*, rename the file **CalculatorLibrary.cs**. You can click on the name in **Solution Explorer** to rename it, or right-click and choose **Rename**, or press the **F2** key.
 
@@ -46,15 +46,15 @@ Real-world code involves many projects working together in a solution. Now, let'
 
 1. We now have to add a project reference, so that the first project can use APIs exposed by the new class library.  Right-click on the **References** node in the first project and choose **Add Project Reference**.
 
-   ![Screenshot of Add Project Reference menu item](media/vs-2019/calculator2-add-project-reference.png)
+   ![Screenshot of Add Project Reference menu item](media/vs-2019/calculator2-add-project-reference-dark.png)
 
    The **Reference Manager** dialog box appears. This lets you add references to other projects, as well assemblies and COM DLLs that your projects need.
 
-   ![Screenshot of Reference Manager dialog box](media/vs-2019/calculator2-ref-manager.png)
+   ![Screenshot of Reference Manager dialog box](media/vs-2019/calculator2-ref-manager-dark.png)
 
 1. In the **Reference Manager** dialog box, select the checkbox for the **CalculatorLibrary** project, and choose **OK**.  The project reference appears under a **Projects** node in **Solution Explorer**.
 
-   ![Screenshot of Solution Explorer with project reference](media/vs-2019/calculator2-solution-explorer-with-project-reference.png)
+   ![Screenshot of Solution Explorer with project reference](media/vs-2019/calculator2-solution-explorer-with-project-reference-dark.png)
 
 1. In *Program.cs*, select the `Calculator` class and all its code, and press **CTRL+X** to cut it from Program.cs. Then in **CalculatorLibrary**, in *CalculatorLibrary.cs*, paste the code into the `CalculatorLibrary` namespace. Then, make the Calculator class `public` to expose it outside the library. The code in *CalculatorLibrary.cs* should now resemble the following:
 
@@ -203,15 +203,15 @@ Real-world code involves many projects working together in a solution. Now, let'
 
 1. Now suppose we want to output the operations in a JSON format, a popular and portable format for storing object data. To help with this, we will need to reference the NuGet package Newtonsoft.Json. NuGet packages are the primary vehicle for distribution of .NET class libraries. In **Solution Explorer**, right-click on the **References** node for the CalculatorLibrary project, and choose **Manage NuGet Packages**.
 
-   ![Screenshot of Manage NuGet Packages on the shortcut menu](media/vs-2019/calculator2-manage-nuget-packages.png)
+   ![Screenshot of Manage NuGet Packages on the shortcut menu](media/vs-2019/calculator2-manage-nuget-packages-dark.png)
 
    The NuGet Package Manager opens.
 
-   ![Screenshot of NuGet Package Manager](media/vs-2019/calculator2-nuget-package-manager.png)
+   ![Screenshot of NuGet Package Manager](media/vs-2019/calculator2-nuget-package-manager-dark.png)
 
 1. Search for Newtonsoft.Json package, and choose **Install**.
 
-   ![Screenshot of Newtonsoft NuGet package infomation](media/vs-2019/calculator2-nuget-newtonsoft-json.png)
+   ![Screenshot of Newtonsoft NuGet package infomation](media/vs-2019/calculator2-nuget-newtonsoft-json-dark.png)
 
    The package is dowloaded, and added to your project and a new entry appears in the References node in **Solution Explorer**.
 
