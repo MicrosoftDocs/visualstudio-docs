@@ -26,7 +26,7 @@ If you just completed the [first part](tutorial-console.md) of this series, you 
 
 Real-world code involves many projects working together in a solution. Now, let's add another project to the Calculator app. This will be a class library that provides some of the calculator functions.
 
-1. In Visual Studio, you can use the top-level menu command **File** > **Add** > **New Project** to add a new project, but you can also right-click on the existing project name (called the "project node") and open up the project's shortcut menu (or context menu). This shortcut menu contains a lot of useful ways to add functionality to your projects. So, right-click on your project node in **Solution Explorer**, and choose **Add** > **New Project**.
+1. In Visual Studio, you can use the top-level menu command **File** > **Add** > **New Project** to add a new project, but you can also right-click on the existing project name (called the "project node") and open up the project's shortcut menu (or context menu). This shortcut menu contains many ways to add functionality to your projects. So, right-click on your project node in **Solution Explorer**, and choose **Add** > **New Project**.
 
 1. Choose the C# project template **Class library (.NET Standard)**.
 
@@ -48,7 +48,7 @@ Real-world code involves many projects working together in a solution. Now, let'
 
    ![Screenshot of Add Project Reference menu item](media/vs-2019/calculator2-add-project-reference-dark.png)
 
-   The **Reference Manager** dialog box appears. This lets you add references to other projects, as well assemblies and COM DLLs that your projects need.
+   The **Reference Manager** dialog box appears. This dialog box lets you add references to other projects, as well assemblies and COM DLLs that your projects need.
 
    ![Screenshot of Reference Manager dialog box](media/vs-2019/calculator2-ref-manager-dark.png)
 
@@ -56,7 +56,7 @@ Real-world code involves many projects working together in a solution. Now, let'
 
    ![Screenshot of Solution Explorer with project reference](media/vs-2019/calculator2-solution-explorer-with-project-reference-dark.png)
 
-1. In *Program.cs*, select the `Calculator` class and all its code, and press **CTRL+X** to cut it from Program.cs. Then in **CalculatorLibrary**, in *CalculatorLibrary.cs*, paste the code into the `CalculatorLibrary` namespace. Then, make the Calculator class `public` to expose it outside the library. The code in *CalculatorLibrary.cs* should now resemble the following:
+1. In *Program.cs*, select the `Calculator` class and all its code, and press **CTRL+X** to cut it from Program.cs. Then in **CalculatorLibrary**, in *CalculatorLibrary.cs*, paste the code into the `CalculatorLibrary` namespace. Then, make the Calculator class `public` to expose it outside the library. The code in *CalculatorLibrary.cs* should now resemble the following code:
 
    ```csharp
    using System;
@@ -110,7 +110,7 @@ Real-world code involves many projects working together in a solution. Now, let'
    using CalculatorLibrary;
    ```
 
-   This should let you remove the CalculatorLibrary namespace from the call site, but there's now an ambiguity. Is `Calculator` the class in CalculatorLibrary, or is Calculator the namespace?  To resolve the ambiguity, rename the namespace `CalculatorProgram`.
+   This change should let you remove the CalculatorLibrary namespace from the call site, but there's now an ambiguity. Is `Calculator` the class in CalculatorLibrary, or is Calculator the namespace?  To resolve the ambiguity, rename the namespace `CalculatorProgram`.
 
    ```csharp
    namespace CalculatorProgram
@@ -118,7 +118,7 @@ Real-world code involves many projects working together in a solution. Now, let'
 
 ## Reference .NET libraries: write to a log
 
-1. Suppose you now want to add a log of all the operations, and write it out to a text file. The .NET Framework Trace class can do this. (It's useful for basic print debugging techniques as well.)  The Trace class is in System.Diagnostics, so start by adding a using directive:
+1. Suppose you now want to add a log of all the operations, and write it out to a text file. The .NET `Trace` class provides this functionality. (It's useful for basic print debugging techniques as well.)  The Trace class is in System.Diagnostics, so start by adding a using directive:
 
    ```csharp
    using System.Diagnostics;
@@ -140,7 +140,7 @@ Real-world code involves many projects working together in a solution. Now, let'
         {
    ```
 
-1. And we need to change the static `DoOperation` method into a member method.  Let's also add output to each calculation for the log, so that DoOperation looks like this.
+1. And we need to change the static `DoOperation` method into a member method.  Let's also add output to each calculation for the log, so that DoOperation looks like the following code:
 
    ```csharp
    public double DoOperation(double num1, double num2, string op)
@@ -201,7 +201,7 @@ Real-world code involves many projects working together in a solution. Now, let'
 
 ## Add a NuGet Package: write to a JSON file
 
-1. Now suppose we want to output the operations in a JSON format, a popular and portable format for storing object data. To help with this, we will need to reference the NuGet package Newtonsoft.Json. NuGet packages are the primary vehicle for distribution of .NET class libraries. In **Solution Explorer**, right-click on the **References** node for the CalculatorLibrary project, and choose **Manage NuGet Packages**.
+1. Now suppose we want to output the operations in a JSON format, a popular and portable format for storing object data. To implement that functionality, we will need to reference the NuGet package Newtonsoft.Json. NuGet packages are the primary vehicle for distribution of .NET class libraries. In **Solution Explorer**, right-click on the **References** node for the CalculatorLibrary project, and choose **Manage NuGet Packages**.
 
    ![Screenshot of Manage NuGet Packages on the shortcut menu](media/vs-2019/calculator2-manage-nuget-packages-dark.png)
 
@@ -213,7 +213,7 @@ Real-world code involves many projects working together in a solution. Now, let'
 
    ![Screenshot of Newtonsoft NuGet package infomation](media/vs-2019/calculator2-nuget-newtonsoft-json-dark.png)
 
-   The package is dowloaded, and added to your project and a new entry appears in the References node in **Solution Explorer**.
+   The package is downloaded, and added to your project and a new entry appears in the References node in **Solution Explorer**.
 
 1. Add a using directive for the Newtonsoft.Json package at the beginning of *CalculatorLibrary.cs*.
 
