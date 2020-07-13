@@ -43,15 +43,9 @@ The first table in this article describes the metadata assigned to every item up
 |%(CreatedTime)|Contains the timestamp from when the item was created. For example:<br /><br /> `2004-06-25 09:26:45.8237425`|
 |%(AccessedTime)|Contains the timestamp from the last time the item was accessed.<br /><br /> `2004-08-14 16:52:36.3168743`|
 
-The following table describes optional item metadata that have meaning for some MSBuild SDKs or targets, but that are not set by default for every item. You can set these to influence build behavior, but only if the SDK or target files you are using recognize it.
-
-| Item metadata | SDKs | Description |
-|---------------| ------- | -------------|
-|%(Link)| All |The Visual Studio project system uses `Link` metadata (if present) to alter what shows up in the project tree; you can put a file in a different logical folder structure in **Solution Explorer**.<br />In addition, the `AssignTargetPath` task looks at `Link` to determine where in the output directory to copy a file to, if it’s one of the items that gets copied.|
-|%(LinkBase)| .NET Core SDK | Used to set the folder to be used for `Link` metadata for groups of items. |
-
 ## See also
 
+- [Common MSBuild item metadata](common-msbuild-item-metadata.md)
 - [Items](../msbuild/msbuild-items.md)
 - [Batching](../msbuild/msbuild-batching.md)
 - [MSBuild reference](../msbuild/msbuild-reference.md)
