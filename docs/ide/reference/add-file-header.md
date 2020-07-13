@@ -1,6 +1,6 @@
 ---
 title: Add File Header
-ms.date: 06/08/2020
+ms.date: 07/10/2020
 ms.topic: reference
 author: mikadumont
 ms.author: midumont
@@ -8,7 +8,7 @@ manager: jillfra
 ms.workload:
 - dotnet
 ---
-# Add DebuggerDisplay Attribute
+# Add File Header
 
 This code generation applies to:
 
