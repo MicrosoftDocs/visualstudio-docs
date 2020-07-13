@@ -20,7 +20,7 @@ We recommend that you create a "private" browser window for this process.  For e
 2. Locate the Windows Developer Account tile in the Tools section and click on the **Get Code** link at the bottom of the benefit tile.  Copy the code to your clipboard, then click **Activate**.
    > [!div class="mx-imgBorder"]
    > ![Windows Developer Benefit Tile](_img/vs-windows-dev/vs-windows-dev-tile.png)
-3. On the [https://developer.microsoft.com](https://developer.microsoft.com) site you can begin the registration process.  Click **Sign up** to continue.
+3. On the [https://developer.microsoft.com/store/register/](https://developer.microsoft.com/store/register/) site you can begin the registration process.  Click **Sign up** to continue.
    > [!div class="mx-imgBorder"]
    > ![Windows Developer Benefit Registration](_img/vs-windows-dev/vs-windows-dev-register1-cropped.png)
 4. Sign in to your subscription.  If you have multiple accounts, choose the one associated with your Enterprise subscription.
