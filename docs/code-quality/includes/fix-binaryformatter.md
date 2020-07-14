@@ -1,0 +1,2 @@
+- Use a secure serializer instead, and **don't allow an attacker to specify an arbitrary type to deserialize**. For more information see the [Preferred alternatives](/dotnet/standard/serialization/binaryformatter-security-guide#preferred-alternatives).
+- Make the serialized data tamper-proof. After serialization, cryptographically sign the serialized data. Before deserialization, validate the cryptographic signature. Protect the cryptographic key from being disclosed and design for key rotations.
