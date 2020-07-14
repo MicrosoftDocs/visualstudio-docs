@@ -13,7 +13,7 @@ manager: jillfra
 # How to: Upgrade from a Trial Edition of Visual Studio
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-You can evaluate the pre-release version of Visual Studio for 14 days without registering the product. After you register by signing in with a Microsoft account, the pre-release license is valid until the time-bomb date.
+You can evaluate the pre-release version of Visual Studio for 14 days without registering the product. After you register by signing in with a Microsoft account, the pre-release license is valid until the expiration date.
 
  You can evaluate the release version of Professional and Enterprise editions of Visual Studio for 30 days, starting when you install the product. [Signing in to Visual Studio](../ide/signing-in-to-visual-studio.md) adds 60 days to the evaluation period, for a total of 90 days. If you don't register a trial edition of Visual Studio within 30 days, the trial period expires 30 days after you install them.
 
