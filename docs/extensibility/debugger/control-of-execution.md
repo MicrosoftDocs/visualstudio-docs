@@ -51,7 +51,7 @@ The debug engine (DE) typically sends one of the following events as the last st
 
    If the debug package is to ignore a particular stopping event, the debug package calls the SDM, which calls [IDebugProgram2::Continue](../../extensibility/debugger/reference/idebugprogram2-continue.md). If the program was stepping into, over, or out of a function when it encountered the stopping condition, it continues the step. This implies that the program maintains a stepping state, so that it knows how to continue.
 
-   The calls the SDM makes to `Step`, **Execute**, and **Continue** are asynchronous, which means that the SDM expects the call to return quickly. If the DE sends the SDM a stopping event on the same thread before `Step`, **Execute**, or **Continue** returns, the SDM hangs.
+   The calls the SDM makes to `Step`, **Execute**, and **Continue** are asynchronous, which means that the SDM expects the call to return quickly. If the DE sends the SDM a stopping event on the same thread before `Step`, **Execute**, or **Continue** returns, the SDM stops responding.
 
 ## See also
 - [Debug tasks](../../extensibility/debugger/debugging-tasks.md)
