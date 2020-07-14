@@ -709,9 +709,9 @@
         - name: "CA2329: Do not deserialize with JsonSerializer using an insecure configuration"
           href: ca2329.md
         - name: "CA2350: Ensure DataTable.ReadXml()'s input is trusted"
-          href: ca2305.md
+          href: ca2350.md
         - name: "CA2351: Ensure DataSet.ReadXml()'s input is trusted"
-          href: ca2315.md
+          href: ca2351.md
         - name: "CA2352: Unsafe DataSet or DataTable in serializable type can be vulnerable to remote code execution attacks"
           href: ca2352.md
         - name: "CA2353: Unsafe DataSet or DataTable in serializable type"
