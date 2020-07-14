@@ -1,5 +1,5 @@
 ---
-title: Add File Header
+title: Add file header
 ms.date: 07/10/2020
 ms.topic: reference
 author: mikadumont
@@ -8,7 +8,7 @@ manager: jillfra
 ms.workload:
 - dotnet
 ---
-# Add File Header
+# Add file header
 
 This code generation applies to:
 
