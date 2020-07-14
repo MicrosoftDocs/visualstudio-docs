@@ -1,0 +1,1 @@
+`BinaryFormatter` is insecure and cannot be made secure. For more information see the [BinaryFormatter security guide](/dotnet/standard/serialization/binaryformatter-security-guide).
