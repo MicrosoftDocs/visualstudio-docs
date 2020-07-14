@@ -114,7 +114,7 @@ Now that you've successfully built your code and performed a little clean up, ru
 
 Stop your app by pressing **Shift**+**F5** or by clicking the **Stop** button. Or, you can just close the app's main window (or command-line dialog).
 
-If your code ran perfectly and exactly as expected, congratulations! However, if it hung, or crashed, or gave you some strange results, you'll need to find the source of those problems and fix the bugs.
+If your code ran perfectly and exactly as expected, congratulations! However, if it stops responding, or crashed, or gave you some strange results, you'll need to find the source of those problems and fix the bugs.
 
 ### Set simple breakpoints
 
@@ -126,7 +126,7 @@ Set a breakpoint by clicking in the far margin of the line where you want the br
 
 Common uses for breakpoints include:
 
-- To narrow down the source of a crash or hang, scatter breakpoints throughout and around the code of the method call you think is causing the failure. As you run code in the debugger, remove and then reset the breakpoints closer together until you find the offending line of code. See the next section to learn how to run code in the debugger.
+- To narrow down the source of a crash or unresponsive program, scatter breakpoints throughout and around the code of the method call you think is causing the failure. As you run code in the debugger, remove and then reset the breakpoints closer together until you find the offending line of code. See the next section to learn how to run code in the debugger.
 
 - When you introduce new code, set a breakpoint at the beginning of it, and run the code to make sure it is behaving as expected.
 

@@ -14,11 +14,11 @@ Visual Studio collects system-generated logs to fix problems and improve the qua
 
 ## Types of collected data
 
-Visual Studio collects system-generated logs for crashes, hangs, UI unresponsiveness, and high CPU or memory usage. We also collect information about errors encountered during product installation or usage. The collected data varies based on the error, and may include stack traces, memory dumps, and exception information:
+Visual Studio collects system-generated logs for crashes, UI unresponsiveness, and high CPU or memory usage. We also collect information about errors encountered during product installation or usage. The collected data varies based on the error, and may include stack traces, memory dumps, and exception information:
 
 - For high CPU usage and unresponsiveness, stack traces of relevant Visual Studio threads are collected.
 
-- For cases where stack traces of some threads aren't enough to determine the root cause of the issue, for example, crashes, hangs or high memory usage, we collect a memory *dump*. The dump represents the state of the process when the error occurred.
+- For cases where stack traces of some threads aren't enough to determine the root cause of the issue, for example, crashes, unresponsiveness or high memory usage, we collect a memory *dump*. The dump represents the state of the process when the error occurred.
 
 - For unexpected error conditions, for example, an exception while trying to write to a file on disk, we collect information about the exception. The information includes the name of the exception, the stack trace of the thread where the exception occurred, the message associated with the exception, and other information relevant to the specific exception.
 

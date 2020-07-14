@@ -64,7 +64,7 @@ Trace and heap dump files are useful in helping us diagnose problems. We appreci
 
 1. Select the **Record** tab.
 
-1. Under **Record your actions**, select the current instance of Visual Studio if you can reproduce the problem there. If you can't, for example if Visual Studio is hung, select **\<Create a new instance>** to record the actions in a new instance of Visual Studio.
+1. Under **Record your actions**, select the current instance of Visual Studio if you can reproduce the problem there. If you can't, for example if Visual Studio stops responding, select **\<Create a new instance>** to record the actions in a new instance of Visual Studio.
 
 1. Select **Start Recording**. Give permission to run the tool.
 
