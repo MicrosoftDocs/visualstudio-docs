@@ -42,6 +42,8 @@
     items:
     - name: Run unit tests with Test Explorer
       href: run-unit-tests-with-test-explorer.md
+    - name: Debug unit tests with Test Explorer
+      href: debug-unit-tests-with-test-explorer.md
     - name: Test Explorer FAQ
       href: test-explorer-faq.md
   - name: Run tests from the command line
