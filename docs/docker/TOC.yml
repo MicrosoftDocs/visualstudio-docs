@@ -1,0 +1,18 @@
+- name: Introduction to Docker for Visual Studio 
+# Auto-expanded node
+  items:
+  - name: Visual Studio Tools for AI
+    href: overview.md
+  - name: Getting Started
+    href: index.md
+  - name: Our Application
+    href: our-application.md
+    - name: Our Application
+    href: our-application.md
+
+  - name: Sources
+    items:
+    - name: GitHub
+      href: https://github.com/docker/awesome-compose
+    - name: Docker ACI integration 
+      href: https://github.com/docker/aci-integration-beta/
