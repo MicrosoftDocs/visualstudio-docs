@@ -56,7 +56,7 @@ int Step(
 ## Remarks
  In case there is any thread synchronization or communication between threads, other threads in the process should run when a particular thread is stepping.
 
- **Warning** Do not send a stopping event or an immediate (synchronous) event to [Event](../../../extensibility/debugger/reference/idebugeventcallback2-event.md) while handling this call; otherwise the debugger may hang.
+ **Warning** Do not send a stopping event or an immediate (synchronous) event to [Event](../../../extensibility/debugger/reference/idebugeventcallback2-event.md) while handling this call; otherwise the debugger may stop responding.
 
 ## See also
 - [IDebugProcess3](../../../extensibility/debugger/reference/idebugprocess3.md)

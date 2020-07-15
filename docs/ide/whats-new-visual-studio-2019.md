@@ -214,7 +214,7 @@ Why send feedback to the Visual Studio team? Because we take customer feedback s
 
 * If you want to make a suggestion about how we can improve Visual Studio, you can do so by using the [Suggest a Feature](suggest-a-feature.md) tool.
 
-* If you experience a hang, crash, or other performance issue, you can easily share repro steps and supporting files with us by using the [Report a Problem](how-to-report-a-problem-with-visual-studio.md) tool.
+* If you experience an issue where Visual Studio stops responding, crashes, or other performance issue, you can easily share repro steps and supporting files with us by using the [Report a Problem](how-to-report-a-problem-with-visual-studio.md) tool.
 
 ## See also
 

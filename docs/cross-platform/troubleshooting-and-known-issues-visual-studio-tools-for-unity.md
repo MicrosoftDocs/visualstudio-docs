@@ -44,9 +44,9 @@ This should fix your issue. In case you are still experiencing the problem, run 
  devenv /setup
 ```
 
-## Visual Studio hangs
+## Visual Studio stops responding
 
-Several Unity plugins like Parse, FMOD, UMP (Universal Media Player), ZFBrowser, or Embedded Browser are using native threads. It’s an issue when a plugin ends up attaching a native thread to the runtime, which then does blocking calls to the OS. This means Unity can't interrupt that thread for the debugger (or domain reload) and hang.
+Several Unity plugins like Parse, FMOD, UMP (Universal Media Player), ZFBrowser, or Embedded Browser are using native threads. It’s an issue when a plugin ends up attaching a native thread to the runtime, which then does blocking calls to the OS. This means Unity can't interrupt that thread for the debugger (or domain reload) and stop responding.
 
 For FMOD, there is a workaround, you can pass `FMOD_STUDIO_INIT_SYNCHRONOUS_UPDATE` initialization [flag](https://www.fmod.com/resources/documentation-studio?version=2.0&page=https://fmod.com/resources/documentation-api?version=2.0&page=studio-api-system.html#fmod_studio_initflags) to disable asynchronous processing and perform all processing on the main thread.
 

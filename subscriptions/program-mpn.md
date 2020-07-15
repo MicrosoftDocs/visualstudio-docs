@@ -39,7 +39,7 @@ Regardless of how many competencies a partner earns, the number of Visual Studio
 
 | Maximum benefit for partners with only silver competencies                   | Maximum benefit for partners with at least one gold competency               |
 |------------------------------------------------------------------------------|------------------------------------------------------------------------------|
-| 25 Visual Studio Enterprise subscriptions per country; 75 worldwide          | 50 Visual Studio Enterprise subscriptions per country; 150 worldwide         |
+| 25 Visual Studio Enterprise subscriptions per country/region; 75 worldwide          | 50 Visual Studio Enterprise subscriptions per country/region; 150 worldwide         |
 
 ## Subscriptions for partners purchasing the Action Pack
 
