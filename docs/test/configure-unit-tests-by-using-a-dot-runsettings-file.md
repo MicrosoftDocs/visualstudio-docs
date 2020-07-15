@@ -53,13 +53,11 @@ To turn the custom settings off and on, deselect or select the file on the **Tes
 ## Specify a run settings file in the IDE
 
 ::: moniker range="vs-2017"
-
 To specify a run settings file in the IDE, select **Test** > **Test Settings** > **Select Test Settings File**, and then select the *.runsettings* file.
 
 ![Select test settings file menu in Visual Studio 2017](media/select-test-settings-file.png)
 
 The file appears on the Test Settings menu, and you can select or deselect it. While selected, the run settings file applies whenever you select **Analyze Code Coverage**.
-
 ::: moniker-end
 
 ::: moniker range=">=vs-2019"
@@ -67,6 +65,10 @@ The file appears on the Test Settings menu, and you can select or deselect it. W
 ### Visual Studio 2019 version 16.4 and later
 
 There are three ways of specifying a run settings file in Visual Studio 2019 version 16.4 and later.
+
+- [Autodetect the run settings](#autodetect-the-run-settings-file)
+- [Manually set the run settings](#manually-select-the-run-settings-file)
+- [Set a build property](#set-a-build-property)
 
 #### Autodetect the run settings file
 
@@ -110,6 +112,13 @@ Example of specifying a *.runsettings* file for a project:
 </Project>
 ```
 
+### Visual Studio 2019 version 16.3 and earlier
+
+To specify a run settings file in the IDE, select **Test** > **Select Settings File**. Browse to and select the *.runsettings* file.
+
+![Select test settings file menu in Visual Studio 2019](media/vs-2019/select-settings-file.png)
+
+The file appears on the Test menu, and you can select or deselect it. While selected, the run settings file applies whenever you select **Analyze Code Coverage**.
 ::: moniker-end
 
 ### Specify a run settings file from the command line
@@ -143,14 +152,6 @@ To run tests from the command line, use *vstest.console.exe*, and specify the se
    ```
 
 For more information, see [VSTest.Console.exe command-line options](vstest-console-options.md).
-
-### Visual Studio 2019 version 16.3 and earlier
-
-To specify a run settings file in the IDE, select **Test** > **Select Settings File**. Browse to and select the *.runsettings* file.
-
-![Select test settings file menu in Visual Studio 2019](media/vs-2019/select-settings-file.png)
-
-The file appears on the Test menu, and you can select or deselect it. While selected, the run settings file applies whenever you select **Analyze Code Coverage**.
 
 ## The *.runsettings* file
 
