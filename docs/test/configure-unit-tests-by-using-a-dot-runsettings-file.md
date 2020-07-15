@@ -52,6 +52,8 @@ If you want to turn the custom settings off and on in the IDE, deselect or selec
 
 ## Specify a run settings file in the IDE
 
+The methods available depend on your version of Visual Studio.
+
 ::: moniker range="vs-2017"
 To specify a run settings file in the IDE, select **Test** > **Test Settings** > **Select Test Settings File**, and then select the *.runsettings* file.
 
