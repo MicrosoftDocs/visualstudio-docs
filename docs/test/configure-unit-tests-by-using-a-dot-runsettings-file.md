@@ -1,7 +1,7 @@
 ---
 title: Configure unit tests with a .runsettings file
 ms.date: 07/15/2020
-ms.topic: how-to
+ms.topic: conceptual
 ms.author: mikejo
 manager: jillfra
 ms.workload: 
