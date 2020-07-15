@@ -1,6 +1,6 @@
 ---
 title: Configure unit tests with a .runsettings file
-ms.date: 10/03/2019
+ms.date: 07/15/2020
 ms.topic: how-to
 ms.author: mikejo
 manager: jillfra
@@ -29,7 +29,7 @@ Run settings files are optional. If you don't require any special configuration,
 
    - [Visual Studio IDE](#specify-a-run-settings-file-in-the-IDE)
    - [Command line](#specify-a-run-settings-file-from-the-command-line)
-   - [build workflow](/azure/devops/pipelines/test/getting-started-with-continuous-testing?view=vsts) using Azure Test Plans or Team Foundation Server (TFS).
+   - [Build workflow](/azure/devops/pipelines/test/getting-started-with-continuous-testing?view=vsts) using Azure Test Plans or Team Foundation Server (TFS).
 
 4. Run the unit tests to use the custom run settings.
 
@@ -64,36 +64,9 @@ The file appears on the Test Settings menu, and you can select or deselect it. W
 
 ::: moniker range=">=vs-2019"
 
-### Visual Studio 2019 version 16.3 and earlier
-
-To specify a run settings file in the IDE, select **Test** > **Select Settings File**. Browse to and select the *.runsettings* file.
-
-![Select test settings file menu in Visual Studio 2019](media/vs-2019/select-settings-file.png)
-
-The file appears on the Test menu, and you can select or deselect it. While selected, the run settings file applies whenever you select **Analyze Code Coverage**.
-
 ### Visual Studio 2019 version 16.4 and later
 
 There are three ways of specifying a run settings file in Visual Studio 2019 version 16.4 and later.
-
-#### Set a build property
-
-Add a build property to a project through either the project file or a Directory.Build.props file. The run settings file for a project is specified by the property **RunSettingsFilePath**.
-
-- Project-level run settings is currently supported in C#, VB, C++, and F# projects.
-- A file specified for a project overrides any other run settings file specified in the solution.
-- [These MSBuild properties](https://docs.microsoft.com/visualstudio/msbuild/msbuild-reserved-and-well-known-properties?view=vs-2019) can be used to specify the path to the runsettings file. 
-
-Example of specifying a *.runsettings* file for a project:
-    
-```xml
-<Project Sdk="Microsoft.NET.Sdk">
-  <PropertyGroup>
-    <RunSettingsFilePath>$(MSBuildProjectDirectory)\example.runsettings</RunSettingsFilePath>
-  </PropertyGroup>
-  ...
-</Project>
-```
 
 #### Autodetect the run settings file
 
@@ -117,6 +90,25 @@ In the IDE, select **Test** > **Configure Run Settings** > **Select Solution Wid
    - This file selection only persists locally.
 
 ![Select test solution-wide runsettings file menu in Visual Studio 2019](media/vs-2019/select-solution-settings-file.png)
+
+#### Set a build property
+
+Add a build property to a project through either the project file or a Directory.Build.props file. The run settings file for a project is specified by the property **RunSettingsFilePath**.
+
+- Project-level run settings is currently supported in C#, VB, C++, and F# projects.
+- A file specified for a project overrides any other run settings file specified in the solution.
+- [These MSBuild properties](https://docs.microsoft.com/visualstudio/msbuild/msbuild-reserved-and-well-known-properties?view=vs-2019) can be used to specify the path to the runsettings file. 
+
+Example of specifying a *.runsettings* file for a project:
+    
+```xml
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <RunSettingsFilePath>$(MSBuildProjectDirectory)\example.runsettings</RunSettingsFilePath>
+  </PropertyGroup>
+  ...
+</Project>
+```
 
 ::: moniker-end
 
@@ -151,6 +143,14 @@ To run tests from the command line, use *vstest.console.exe*, and specify the se
    ```
 
 For more information, see [VSTest.Console.exe command-line options](vstest-console-options.md).
+
+### Visual Studio 2019 version 16.3 and earlier
+
+To specify a run settings file in the IDE, select **Test** > **Select Settings File**. Browse to and select the *.runsettings* file.
+
+![Select test settings file menu in Visual Studio 2019](media/vs-2019/select-settings-file.png)
+
+The file appears on the Test menu, and you can select or deselect it. While selected, the run settings file applies whenever you select **Analyze Code Coverage**.
 
 ## The *.runsettings* file
 
@@ -189,7 +189,7 @@ The **RunConfiguration** element can include the following elements:
 |**TestSessionTimeout**||Allows users to terminate a test session when it exceeds a given timeout. Setting a timeout ensures that resources are well consumed and test sessions are constrained to a set time. The setting is available in **Visual Studio 2017 version 15.5** and later.|
 |**DotnetHostPath**||Specify a custom path to dotnet host that is used to run the testhost. This is useful when you are building your own dotnet, for example when building the dotnet/runtime repository. Specifying this option will skip looking for testhost.exe, and will always use the testhost.dll. 
 
-## Diagnostic data adapters (data collectors)
+## DataCollectors element (diagnostic data adapters)
 
 The **DataCollectors** element specifies settings of diagnostic data adapters. Diagnostic data adapters gather additional information about the environment and the application under test. Each adapter has default settings, and you only have to provide settings if you don't want to use the defaults.
 
@@ -218,7 +218,7 @@ The code coverage data collector creates a log of which parts of the application
 
 ### VideoRecorder data collector
 
-The video data collector captures a screen recording when tests are run. This recording is useful for troubleshooting UI tests. The video data collector is available in **Visual Studio 2017 version 15.5** and later. For an example of this data collector, see the [Example *.runsettings file](#example-runsettings-file).
+The video data collector captures a screen recording when tests are run. This recording is useful for troubleshooting UI tests. The video data collector is available in **Visual Studio 2017 version 15.5** and later. For an example of configuring this data collector, see the [Example *.runsettings file](#example-runsettings-file).
 
 To customize any other type of diagnostic data adapters, use a [test settings file](../test/collect-diagnostic-information-using-test-settings.md).
 
