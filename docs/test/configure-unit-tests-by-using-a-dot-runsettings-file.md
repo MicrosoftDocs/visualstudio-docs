@@ -16,7 +16,7 @@ Run settings files can be used to configure tests that are run from the [command
 
 Run settings files are optional. If you don't require any special configuration, you don't need a *.runsettings* file.
 
-## Create a *.runsettings file and customize it
+## Create a run settings file and customize it
 
 1. Add a run settings file to your solution. In **Solution Explorer**, on the shortcut menu of your solution, choose **Add** > **New Item**, and select **XML File**. Save the file with a name such as *test.runsettings*.
 
@@ -25,9 +25,9 @@ Run settings files are optional. If you don't require any special configuration,
 
 2. Add the content from [Example *.runsettings file](#example-runsettings-file), and then customize it to your needs as described in the sections that follow.
 
-3. Specify the *.runsettings file that you want to use by choosing one of the following methods:
+3. Specify the *.runsettings file that you want using one of the following methods:
 
-   - [Visual Studio IDE](#specify-a-run-settings-file-in-the-IDE)
+   - [Visual Studio IDE](#specify-a-run-settings-file-in-the-ide)
    - [Command line](#specify-a-run-settings-file-from-the-command-line)
    - [Build workflow](/azure/devops/pipelines/test/getting-started-with-continuous-testing?view=vsts) using Azure Test Plans or Team Foundation Server (TFS).
 
@@ -35,7 +35,7 @@ Run settings files are optional. If you don't require any special configuration,
 
 ::: moniker range="vs-2017"
 
-To turn the custom settings off and on, deselect or select the file in the **Test** > **Test Settings** menu.
+If you want to turn the custom settings off and on in the IDE, deselect or select the file in the **Test** > **Test Settings** menu.
 
 ![Test settings menu with custom settings file in Visual Studio 2017](../test/media/codecoverage-settingsfile.png)
 
@@ -43,7 +43,7 @@ To turn the custom settings off and on, deselect or select the file in the **Tes
 
 ::: moniker range=">=vs-2019"
 
-To turn the custom settings off and on, deselect or select the file on the **Test** menu.
+If you want to turn the custom settings off and on in the IDE, deselect or select the file on the **Test** menu.
 
 ::: moniker-end
 
@@ -121,7 +121,7 @@ To specify a run settings file in the IDE, select **Test** > **Select Settings F
 The file appears on the Test menu, and you can select or deselect it. While selected, the run settings file applies whenever you select **Analyze Code Coverage**.
 ::: moniker-end
 
-### Specify a run settings file from the command line
+## Specify a run settings file from the command line
 
 To run tests from the command line, use *vstest.console.exe*, and specify the settings file by using the **/Settings** parameter.
 
@@ -299,7 +299,7 @@ These settings are specific to the test adapter that runs test methods that have
 |-|-|-|
 |**ForcedLegacyMode**|false|In Visual Studio 2012, the MSTest adapter was optimized to make it faster and more scalable. Some behavior, such as the order in which tests are run, might not be exactly as it was in previous editions of Visual Studio. Set this value to **true** to use the older test adapter.<br /><br />For example, you might use this setting if you have an *app.config* file specified for a unit test.<br /><br />We recommend that you consider refactoring your tests to allow you to use the newer adapter.|
 |**IgnoreTestImpact**|false|The test impact feature prioritizes tests that are affected by recent changes, when run in MSTest or from Microsoft Test Manager (deprecated in Visual Studio 2017). This setting deactivates the feature. For more information, see [Which tests should be run since a previous build](https://msdn.microsoft.com/library/dd286589).|
-|**SettingsFile**||You can specify a test settings file to use with the MSTest adapter here. You can also specify a test settings file [from the settings menu](#ide).<br /><br />If you specify this value, you must also set the **ForcedlegacyMode** to **true**.<br /><br />`<ForcedLegacyMode>true</ForcedLegacyMode>`|
+|**SettingsFile**||You can specify a test settings file to use with the MSTest adapter here. You can also specify a test settings file [from the settings menu](#specify-a-run-settings-file-in-the-ide).<br /><br />If you specify this value, you must also set the **ForcedlegacyMode** to **true**.<br /><br />`<ForcedLegacyMode>true</ForcedLegacyMode>`|
 |**KeepExecutorAliveAfterLegacyRun**|false|After a test run is completed, MSTest is shut down. Any process that is launched as part of the test is also killed. If you want to keep the test executor alive, set the value to **true**. For example, you could use this setting to keep the browser running between coded UI tests.|
 |**DeploymentEnabled**|true|If you set the value to **false**, deployment items that you've specified in your test method aren't copied to the deployment directory.|
 |**CaptureTraceOutput**|true|You can write to the debug trace from your test method using <xref:System.Diagnostics.Trace.WriteLine%2A?displayProperty=nameWithType>.|
