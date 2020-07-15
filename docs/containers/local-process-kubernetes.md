@@ -57,11 +57,11 @@ az aks create \
 
 ## Install the sample application
 
-Install the sample application on your cluster using the provided script. You can run this script on your development computer or using the [Azure Cloud Shell][azure-cloud-shell].
+Install the sample application on your cluster using the provided script. You can run this script using the [Azure Cloud Shell][azure-cloud-shell].
 
 ```azurecli-interactive
-git clone https://github.com/Azure/dev-spaces
-cd dev-spaces/
+git clone https://github.com/Microsoft/mindaro
+cd mindaro
 chmod +x ./local-process-quickstart.sh
 ./local-process-quickstart.sh -g MyResourceGroup -n MyAKS
 ```
@@ -70,14 +70,14 @@ Navigate to the sample application running your cluster by opening its public UR
 
 ```console
 $ ./local-process-quickstart.sh -g MyResourceGroup -n MyAKS
-Defaulting Dev spaces repository root to current directory : ~/dev-spaces
+Defaulting Dev spaces repository root to current directory : ~/mindaro
 Setting the Kube context
 ...
 To try out the app, open the url:
-dev.bikesharingweb.EXTERNAL_IP.nip.io
+bikeapp.bikesharingweb.EXTERNAL_IP.nip.io
 ```
 
-In the above sample, the public URL is `dev.bikesharingweb.EXTERNAL_IP.nip.io`.
+In the above sample, the public URL is `bikeapp.bikesharingweb.EXTERNAL_IP.nip.io`.
 
 ## Connect to your cluster and debug a service
 
@@ -87,7 +87,7 @@ On your development computer, download and configure the Kubernetes CLI to conne
 az aks get-credentials --resource-group MyResourceGroup --name MyAKS
 ```
 
-Open *dev-spaces/samples/BikeSharingApp/ReservationEngine/app.csproj* from the [Bike Sharing sample application][bike-sharing-github] in Visual Studio.
+Open *mindaro/samples/BikeSharingApp/ReservationEngine/app.csproj* from the [Bike Sharing sample application][bike-sharing-github] in Visual Studio.
 
 In your project, select *Local Process with Kubernetes* from the launch settings dropdown as shown below.
 
@@ -100,7 +100,7 @@ Click on the start button next to *Local Process with Kubernetes*. In the *Local
 * Select *dev* for your namespace.
 * Select *reservationengine* for the service to redirect.
 * Select *app* for the launch profile.
-* Select `http://dev.bikesharingweb.EXTERNAL_IP.nip.io` for the URL to launch your browser.
+* Select `http://bikeapp.bikesharingweb.EXTERNAL_IP.nip.io` for the URL to launch your browser.
 
 ![Choose Local Process with Kubernetes Cluster](media/local-process-kubernetes/choose-local-process-cluster.png)
 
@@ -162,9 +162,9 @@ Learn how Local Process Kubernetes works.
 [azure-cloud-shell]: /azure/cloud-shell/w.md
 [az-aks-get-credentials]: /cli/azure/aks?view=azure-cli-latest#az-aks-get-credentials
 [az-aks-vs-code]: https://marketplace.visualstudio.com/items?itemName=ms-kubernetes-tools.vscode-aks-tools
-[bike-sharing-github]: https://github.com/Azure/dev-spaces/tree/master/samples/BikeSharingApp
+[bike-sharing-github]: https://github.com/Microsoft/mindaro
 [preview-terms]: https://azure.microsoft.com/support/legal/preview-supplemental-terms/
-[bikeshelper-cs-breakpoint]: https://github.com/Azure/dev-spaces/blob/master/samples/BikeSharingApp/ReservationEngine/BikesHelper.cs#L26
+[bikeshelper-cs-breakpoint]: https://github.com/Microsoft/mindaro/blob/master/samples/BikeSharingApp/ReservationEngine/BikesHelper.cs#L26
 [supported-regions]: https://azure.microsoft.com/global-infrastructure/services/?products=kubernetes-service
 [troubleshooting]: /azure/dev-spaces/troubleshooting#fail-to-restore-original-configuration-of-deployment-on-cluster
 [visual-studio]: https://www.visualstudio.com/vs/
