@@ -367,15 +367,14 @@ The following example shows how these functions are used.
         <Message Text="Value5 = $(Value5)" />
     </Target>
 </Project>
+```
 
-<!--
-Output:
-  Value1 = .NETCoreApp
-  Value2 = 5.0
-  Value3 = windows
-  Value4 = 7.0
-  Value5 = True
--->
+```output
+Value1 = .NETCoreApp
+Value2 = 5.0
+Value3 = windows
+Value4 = 7.0
+Value5 = True
 ```
 
 ## MSBuild condition functions
