@@ -29,7 +29,8 @@ This guide uses the [Bike Sharing sample application][bike-sharing-github] to de
 
 * An Azure subscription. If you don't have an Azure subscription, you can create a [free account](https://azure.microsoft.com/free).
 * [Azure CLI installed][azure-cli].
-* [Visual Studio 2019][visual-studio] version 16.7 Preview 2 or greater running on Windows 10 with the *ASP.NET and web development* and *Azure development* workloads installed.
+* [Visual Studio 2019][visual-studio] version 16.7 Preview 4 or greater running on Windows 10 with the *ASP.NET and web development* and *Azure development* workloads installed.
+* [Local Process for Kubernetes extension installed][lpk-extension]
 * [Azure Dev Spaces CLI installed][azds-cli].
 
 ### Enable the Local Process with Kubernetes preview feature in Visual Studio
@@ -168,3 +169,4 @@ Learn how Local Process Kubernetes works.
 [supported-regions]: https://azure.microsoft.com/global-infrastructure/services/?products=kubernetes-service
 [troubleshooting]: /azure/dev-spaces/troubleshooting#fail-to-restore-original-configuration-of-deployment-on-cluster
 [visual-studio]: https://www.visualstudio.com/vs/
+[lpk-extension]: https://marketplace.visualstudio.com/items?itemName=ms-azuretools.mindaro
