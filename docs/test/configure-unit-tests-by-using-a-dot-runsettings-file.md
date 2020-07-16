@@ -155,18 +155,18 @@ To run tests from the command line, use *vstest.console.exe*, and specify the se
 
 For more information, see [VSTest.Console.exe command-line options](vstest-console-options.md).
 
-## The *.runsettings* file
+## The *.runsettings file
 
-The *.runsettings file contains different configuration elements within the **RunSettings** element. The sections that follow detail the different elements.
+The *.runsettings file is an XML file that contains different configuration elements within the **RunSettings** element. The sections that follow detail the different elements. For a complete sample, see [Example *.runsettings file](#example-runsettings-file).
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <RunSettings>
-  <!-- custom configuration -->
+  <!-- configuration elements -->
 </RunSettings>
 ```
 
-Each of the other elements of the file is optional because it has a default value.
+Each of the configuration elements is optional because it has a default value.
 
 ## RunConfiguration element
 
@@ -197,6 +197,14 @@ The **RunConfiguration** element can include the following elements:
 ## DataCollectors element (diagnostic data adapters)
 
 The **DataCollectors** element specifies settings of diagnostic data adapters. Diagnostic data adapters gather additional information about the environment and the application under test. Each adapter has default settings, and you only have to provide settings if you don't want to use the defaults.
+
+```xml
+<DataCollectionRunSettings>
+  <DataCollectors>
+    <!-- data collectors -->
+  </DataCollectors>
+</DataCollectionRunSettings>
+```
 
 ### CodeCoverage data collector
 
@@ -238,6 +246,8 @@ This option can help you isolate a problematic test that causes a test host cras
 
 ## TestRunParameters element
 
+Test run parameters provide a way to define variables and values that are available to the tests at run time. 
+
 ```xml
 <TestRunParameters>
     <Parameter name="webAppUrl" value="http://localhost" />
@@ -245,7 +255,7 @@ This option can help you isolate a problematic test that causes a test host cras
 </TestRunParameters>
 ```
 
-Test run parameters provide a way to define variables and values that are available to the tests at run time. Access the parameters using the <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.Properties%2A?displayProperty=nameWithType> property:
+In your test code, access the parameters using the <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.Properties%2A?displayProperty=nameWithType> property:
 
 ```csharp
 [TestMethod]
