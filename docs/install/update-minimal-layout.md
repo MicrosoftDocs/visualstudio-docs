@@ -1,7 +1,7 @@
 ---
 title: Update Visual Studio using a minimal offline layout
 description: Learn how to Update Visual Studio using a minimal offline layout.
-ms.date: 03/25/2020
+ms.date: 07/16/2020
 ms.custom: seodec18
 ms.topic: conceptual
 ms.assetid: 
@@ -53,9 +53,9 @@ This tool creates update layouts for Visual Studio 2017 (15.9) and onwards. The 
 3. **Regenerate**: Use this command to regenerate a layout using an existing minimal layout response file. Every minimal layout produces a `MinimalLayout.json` response file, which contains the original minimal layout input parameters. You can use the **Regenerate** command and a `MinimalLayout.json` response file to regenerate the minimal layout. This is useful if you want to create a minimal layout for a new Visual Studio update based on the previous minimal layout's response file. 
    - For this command, a `MinimalLayout.json` file path from an already generated layout is required. 
 
-    ```cmd
-    MinimalLayout.exe regenerate --filePath C:\MinimalLayout\MinimalLayout.json
-    ```
+        ```cmd
+        MinimalLayout.exe regenerate --filePath C:\MinimalLayout\MinimalLayout.json
+        ```
 
 4. **Verify**: Use this command to determine if the layout folder is corrupted.
 5. **Fix**: Use this command to fix a corrupted layout folder, including replacing any missing packages from the layout folder.
@@ -78,9 +78,9 @@ This tool creates update layouts for Visual Studio 2017 (15.9) and onwards. The 
 > [!IMPORTANT]
 >  These instructions assume that you've previously created a network installation layout. For more information about how to do so, see the [Create a network installation of Visual Studio](create-a-network-installation-of-visual-studio.md) page.
 
-Create a minimal layout using the **regenerate** command for your specified range of versions. You'll also need to know the productId, languages, and any specific workloads required. This minimal layout will update any Visual Studio instance from the base version up to and including the target version.
+Create a minimal layout using the **generate** command for your specified range of versions. You'll also need to know the productId, languages, and any specific workloads required. This minimal layout will update any Visual Studio instance from the base version up to and including the target version.
 
-Before creating the layout, you can find out the total size of the download and the number of packages included by using the **preview** command. This command takes the same options as the ***generate*** command, and the details are written to the console.
+Before creating the layout, you can find out the total size of the download and the number of packages included by using the **preview** command. This command takes the same options as the **generate** command, and the details are written to the console.
 
 Let's walk through a few examples of how to preview, generate, and regenerate a minimal layout:
 
@@ -96,13 +96,13 @@ Let's walk through a few examples of how to preview, generate, and regenerate a 
     MinimalLayout.exe generate --targetLocation c:\VSLayout\ --productId Microsoft.VisualStudio.Product.Enterprise --baseVersion 16.4.0 --targetVersion 16.4.4 --add Microsoft.VisualStudio.Workload.ManagedDesktop;includeOptional --languages en-US
     ```
 
-- Here's how to regenerate a minimal offline layout using an existing response file. 
+- And here's how to regenerate a minimal offline layout using an existing response file. 
 
     ```cmd
     MinimalLayout.exe regenerate -filepath c:\VSLayout\MinimalLayout.json
     ```
 
-Few other examples of ***generate*** command
+A couple of other examples using the **generate** command:
 
 - Here's how to add an additional workload, and include only the recommended packages. 
 
@@ -120,7 +120,7 @@ Few other examples of ***generate*** command
 
 Use the **verify** and **fix** commands to maintain your minimal layout after it's created. The **verify** command determines if there are any corrupt or missing packages in the minimal layout. If you encounter any problems after running the **verify** command, use the **fix** command to correct those missing or corrupt packages.
 
-- Here's how to verify is a layout has corrupt or missing packages: 
+- Here's how to verify if a layout has corrupt or missing packages: 
 
     ```cmd
     MinimalLayout.exe Verify --targetLocation c:\VSLayout\ --productId Microsoft.VisualStudio.Product.Enterprise --baseVersion 16.4.0 --targetVersion 16.4.4 --add Microsoft.VisualStudio.Workload.ManagedDesktop --includeRecommended --languages en-US
@@ -162,7 +162,7 @@ The update is applied to a Visual Studio instance in 2 steps. Start by updating 
 
     To update Visual Studio, you need to specify the installPath of the Visual Studio instance you wish to update. If multiple instances of Visual Studio are installed, each one needs to be updated separately. We strongly recommend you specify the `–noWeb` option with the update command to prevent the installation of components that aren't in the minimal layout. This prevents you from leaving Visual Studio in an unusable state.
 
-    Run the following command, substituting thee installPath command line parameter appropriately. Be sure to use the correct bootstrapper application name as well.
+    Run the following command, substituting the installPath command line parameter appropriately. Be sure to use the correct bootstrapper application name as well.
 
     ```cmd
     vs_enterprise.exe update --noWeb --quiet --installpath "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise"
