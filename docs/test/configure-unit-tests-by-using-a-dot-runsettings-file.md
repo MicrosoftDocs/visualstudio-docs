@@ -61,7 +61,7 @@ There are three ways of specifying a run settings file in Visual Studio 2019 ver
     </Project>
     ```
 
-- Place a run settings file named ".runsettings" at the root of your solution.
+- Place a run settings file named *.runsettings* at the root of your solution.
 
   If auto detection of run settings files is enabled, the settings in this file are applied across all tests run. You can turn on auto detection of runsettings files from two places:
   
@@ -199,6 +199,11 @@ The following XML shows the contents of a typical *.runsettings* file. Each elem
           </MediaRecorder>​
         </Configuration>
       </DataCollector>
+
+      <!-- Configuration for blame data collector -->
+      <DataCollector friendlyName="blame" enabled="True">
+      </DataCollector>
+
     </DataCollectors>
   </DataCollectionRunSettings>
 
@@ -227,6 +232,7 @@ The following XML shows the contents of a typical *.runsettings* file. Each elem
           <LogFileName>foo.html</LogFileName>
         </Configuration>
       </Logger>
+      <Logger friendlyName="blame" enabled="True" />
     </Loggers>
   </LoggerRunSettings>
 
@@ -305,6 +311,16 @@ The video data collector captures a screen recording when tests are run. This re
 
 To customize any other type of diagnostic data adapters, use a [test settings file](../test/collect-diagnostic-information-using-test-settings.md).
 
+
+### Blame data collector
+
+```xml
+<DataCollector friendlyName="blame" enabled="True">
+</DataCollector>
+```
+
+This option can help you isolate a problematic test that causes a test host crash. Running the collector creates an output file (*Sequence.xml*) in *TestResults*, which captures the order of execution of the test before the crash. 
+
 ### TestRunParameters
 
 ```xml
@@ -350,7 +366,7 @@ To use test run parameters, add a private <xref:Microsoft.VisualStudio.TestTools
   </LoggerRunSettings>
 ```
 
-`LoggerRunSettings` section defines one or more loggers to be used for the test run. The most common loggers are console, trx and html. 
+The `LoggerRunSettings` section defines one or more loggers to be used for the test run. The most common loggers are console, trx and html. 
 
 ### MSTest run settings
 
@@ -380,6 +396,33 @@ These settings are specific to the test adapter that runs test methods that have
 |**MapInconclusiveToFailed**|false|If a test completes with an inconclusive status, it is mapped to the skipped status in **Test Explorer**. If you want inconclusive tests to be shown as failed, set the value to **true**.|
 |**InProcMode**|false|If you want your tests to be run in the same process as the MSTest adapter, set this value to **true**. This setting provides a minor performance gain. But if a test exits with an exception, the remaining tests don't run.|
 |**AssemblyResolution**|false|You can specify paths to additional assemblies when finding and running unit tests. For example, use these paths for dependency assemblies that aren't in the same directory as the test assembly. To specify a path, use a **Directory Path** element. Paths can include environment variables.<br /><br />`<AssemblyResolution>  <Directory Path="D:\myfolder\bin\" includeSubDirectories="false"/> </AssemblyResolution>`|
+
+## Specify environment variables in the *.runsettings* file
+
+Environment variables can be set in the *.runsettings* file, which can directly interact with the test host. Specifying environment variables in the *.runsettings* file is necessary to support nontrivial projects that require setting environment variables like *DOTNET_ROOT*. These variables are set while spawning the test host process and they are available in the host.
+
+### Example
+
+The following code is a sample *.runsettings* file that passes environment variables:
+
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<!-- File name extension must be .runsettings -->
+<RunSettings>
+  <RunConfiguration>
+    <EnvironmentVariables>
+      <!-- List of environment variables we want to set-->
+      <DOTNET_ROOT>C:\ProgramFiles\dotnet</DOTNET_ROOT>
+      <SDK_PATH>C:\Codebase\Sdk</SDK_PATH>
+    </EnvironmentVariables>
+  </RunConfiguration>
+</RunSettings>
+```
+
+The **RunConfiguration** node should contain an **EnvironmentVariables** node. An environment variable can be specified as an element name and its value.
+
+> [!NOTE]
+> Because these environment variables should always be set when the test host is started, the tests should always run in a separate process. For this, the */InIsolation* flag will be set when there are environment variables so that the test host is always invoked.
 
 ## See also
 

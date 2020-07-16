@@ -68,7 +68,7 @@ You can use these keyboard shortcuts with the **Peek Definition** window:
 |-------------------|:-----------------------:|
 |Open the definition window|**Alt**+**F12**|
 |Close the definition window|**Esc**|
-|Promote the definition window to a regular document tab|**Shift**+**Alt**+**Home**|
+|Promote the definition window to a regular document tab|**Ctrl**+**Alt**+**Home**|
 |Navigate between definition windows|**Ctrl**+**Alt**+**-** and **Ctrl**+**Alt**+**=**|
 |Navigate between multiple results|**F8** and **Shift**+**F8**|
 |Toggle between the code editor window and the definition window|**Shift**+**Esc**|

@@ -31,7 +31,7 @@ To activate your LinkedIn Premium subscription and LinkedIn Learning benefit:
 
 5. Enter your personal information, choose a username and password, and click **Join now**.
 
-6. Specify your country and ZIP code, then click **Next**.
+6. Specify your country/region and ZIP code, then click **Next**.
 
 7. Next, you’ll provide some information about yourself for your profile.  Indicate whether you’re a student, and provide your most recent job title, company, and industry.
 

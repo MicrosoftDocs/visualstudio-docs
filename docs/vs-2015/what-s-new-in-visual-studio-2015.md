@@ -253,8 +253,8 @@ The following are new or improved tools that perform different types of diagnosi
 
  Click the yellow smiley face on the title bar, then click **Send a Frown**. Tell us what you did not like then click the Send a frown button. For more information, see [Talk to Us](./ide/talk-to-us.md).
 
-### Report crashes, hangs and performance issues
- Sometimes, a quick note in a frown just isn’t enough to convey the full impact of something that you do not like. For the times when you have a hang, crash or performance issue, you can easily share repro steps, crash dumps and trace files by using the dialog that’s displayed after you send a frown.
+### Report crashes, unresponsive and performance issues
+ Sometimes, a quick note in a frown just isn’t enough to convey the full impact of something that you do not like. For the times when Visual Studio stops responding, crashes or experiences another performance issue, you can easily share repro steps, crash dumps and trace files by using the dialog that’s displayed after you send a frown.
 
  First, send a frown as described above. On the dialog that pops up, you can tag your feedback with either one of the default tags or create your own tag. Tags help us route your feedback to the appropriate feature team. In the **Choose a category** drop down list, select the option that represents the issue you’re reporting then follow the steps to reproduce the issue. Detailed steps on how to use Visual Studio to report feedback are also available. For more information, see [Visual Studio Send a Smile Instructions](https://msdn.microsoft.com/library/5cc9b67a-54d0-41b0-aa8f-80dff4475a6b).
 
