@@ -154,6 +154,7 @@ Text transformation happens before other tasks in the build process. You can def
   <Target Name="CustomPostTransform">
     <Message Text="In CustomPostTransform..." Importance="High" />
   </Target>
+</PropertyGroup>
 ```
 
 In `AfterTransform`, you can reference lists of files:
