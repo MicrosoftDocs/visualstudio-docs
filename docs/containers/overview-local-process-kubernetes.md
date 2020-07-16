@@ -35,6 +35,41 @@ When Local Process with Kubernetes establishes a connection to your cluster, it:
 
 After you establish a connection to your cluster, you can run and debug code natively on your computer, without containerization, and the code can directly interact with the rest of your cluster. Any network traffic the remote agent receives is redirected to the local port specified during the connection so your natively running code can accept and process that traffic. The environment variables, volumes, and secrets from your cluster are made available to code running on your development computer. Also, due to the hosts file entries and port forwarding added to your developer computer by Local Process with Kubernetes, your code can send network traffic to services running on your cluster using the service names from your cluster, and that traffic gets forwarded to the services that are running in your cluster. Traffic is routed between your development computer and your cluster the entire time you're connected.
 
+## Using routing capabilities for developing in isolation
+
+By default, Local Process with Kubernetes redirects all traffic for a service to your development computer. You also have the option to use routing capabilities to only redirect requests to a service originating from a subdomain to your development computer. These routing capabilities allow you to use Local Process with Kubernetes to develop in isolation and avoid disrupting other traffic in your cluster.
+
+When you enable working in isolation, Local Process with Kubernetes does the following in addition to connecting to your Kubernetes cluster:
+
+* Verifies Kubernetes cluster does not have Azure Dev Spaces enabled.
+* Replicates your chosen service in the cluster in the same namespace and adds a *routing.visualstudio.io/route-from=SERVICE_NAME* label and *routing.visualstudio.io/route-on-header=kubernetes-route-as: GENERATED_NAME* annotation.
+* Configures and starts the routing manager in the same namespace on the Kubernetes cluster. The routing manager uses a label selector to look for the *routing.visualstudio.io/route-from=SERVICE_NAME* label and  *routing.visualstudio.io/route-on-header=kubernetes-route-as: GENERATED_NAME* annotation when configuring routing in your namespace.
+
+If Local Process with Kubernetes detects that Azure Dev Spaces is enabled on your Kubernetes cluster, you are prompted to disable Azure Dev Spaces before you can use Local Process with Kubernetes.
+
+The routing manager does the following when it starts up:
+* Duplicates all ingresses found in the namespace using the *GENERATED_NAME* for the subdomain. 
+* Creates an envoy pod for each service associated with duplicated ingresses with the *GENERATED_NAME* subdomain.
+* Creates an additional envoy pod for the service you are working on in isolation. This allows requests with the subdomain to be routed to your development computer.
+* Configures routing rules for each envoy pod to handle routing for services with the subdomain.
+
+When a request with the *GENERATED_NAME* subdomain is received on the cluster, a *kubernetes-route-as=GENERATED_NAME* header is added to the to the request. The envoy pods handle routing that request to the appropriate service in the cluster. If the request is routed to the service that is being worked on in isolation, that request is redirected to your development computer by the remote agent.
+
+When a request without the *GENERATED_NAME* subdomain is received on the cluster, no header is added to the request. The envoy pods handle routing that request to the appropriate service in the cluster. If the request is routed to the service that is being replaced, that request is instead routed to the original service instead of the remote agent.
+
+> [!IMPORTANT]
+> Each service on your cluster must forward the *kubernetes-route-as=GENERATED_NAME* header when making additional requests. For example, when *serviceA* receives a request, it then makes a request to *serviceB* before return a response. In this example, *serviceA* needs to forward the *kubernetes-route-as=GENERATED_NAME* header in its request to *serviceB*. Some languages, such as [ASP.NET][asp-net-header], may have methods for handling header propagation.
+
+When you disconnect from your cluster, by default, Local Process with Kubernetes will remove all the envoy pods and the duplicate service. 
+
+> [NOTE]
+> The routing manager deployment and service will remain running in your namespace. To remove the deployment and service run the following commands for your namespace.
+>
+> ```azurecli
+> kubectl delete deployment routingmanager-deployment -n NAMESPACE
+> kubectl delete service routingmanager-service -n NAMESPACE
+> ```
+
 ## Diagnostics and logging
 
 When using Local Process with Kubernetes to connect to your cluster, diagnostic logs from your cluster are logged to your development computer's [temporary directory][azds-tmp-dir].
@@ -47,11 +82,17 @@ Local Process with Kubernetes has the following limitations:
 * A service must be backed by a single pod in order to connect to that service. You can't connect to a service with multiple pods, such as a service with replicas.
 * A pod may only have a single container running in that pod for Local Process with Kubernetes to successfully connect. Local Process with Kubernetes can't connect to services with pods that have additional containers, such as sidecar containers injected by services meshes.
 * Local Process with Kubernetes needs elevated permissions to run on your development computer in order to edit your hosts file.
+* Local Process with Kubernetes can't be used on clusters with Azure Dev Spaces enabled.
+
+### Local Process with Kubernetes and clusters with Azure Dev Spaces enabled
+
+You can't use Local Process with Kubernetes on a cluster with Azure Dev Spaces enabled. The routing capabilities provided by Azure Dev Spaces are not compatible with Local Process with Kubernetes when working in isolation. If you would like to use Local Process with Kubernetes on a cluster with Azure Dev Spaces enabled, you must disable Azure Dev Spaces before connecting to your cluster.
 
 ## Next steps
 
 To get started using Local Process with Kubernetes to connect to your local development computer to your cluster, see [Use Local Process with Kubernetes][local-process-kubernetes.md].
 
+[asp-net-header]: https://www.nuget.org/packages/Microsoft.AspNetCore.HeaderPropagation/
 [azds-cli]: /azure/dev-spaces/how-to/install-dev-spaces#install-the-client-side-tools
 [azds-tmp-dir]: /azure/dev-spaces/troubleshooting#before-you-begin
 [azure-cli]: /cli/azure/install-azure-cli?view=azure-cli-latest
