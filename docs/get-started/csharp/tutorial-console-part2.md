@@ -180,7 +180,7 @@ Real-world code involves many projects working together in a solution. Now, let'
    Calculator calculator = new Calculator();
    ```
 
-   And modify the call site for DoSomething as follows.
+   And modify the call site for `DoOperation` as follows:
 
    ```csharp
    result = calculator.DoOperation(cleanNum1, cleanNum2, op);
@@ -328,6 +328,9 @@ Congratulations on completing this tutorial! To learn even more, continue with t
 
 > [!div class="nextstepaction"]
 > [Continue with more C# tutorials](/dotnet/csharp/tutorials/)
+
+> [!div class="nextstepaction"]
+> [Continue with Visual Studio IDE overview](/../visual-studio-ide.md)
 
 ## See also
 
