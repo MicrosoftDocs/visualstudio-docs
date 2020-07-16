@@ -1,20 +1,20 @@
 ---
-title: "IDebugProgramPublisher2::PublishProgram | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugProgramPublisher2::PublishProgram | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugProgramPublisher2::PublishProgram"
+- IDebugProgramPublisher2::PublishProgram
 helpviewer_keywords:
-  - "IDebugProgramPublisher2::PublishProgram"
+- IDebugProgramPublisher2::PublishProgram
 ms.assetid: 92ff63f0-e869-4040-b3ae-b2c899e708ff
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugProgramPublisher2::PublishProgram
 This method makes a program available for debug engines (DEs) and the session debug manager.

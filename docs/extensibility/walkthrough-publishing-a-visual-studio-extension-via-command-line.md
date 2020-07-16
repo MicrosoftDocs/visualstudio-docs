@@ -1,16 +1,16 @@
 ---
-title: "Publish extension using command line"
-ms.date: "07/12/2018"
-ms.topic: "conceptual"
+title: Publish extension using command line
+ms.date: 07/12/2018
+ms.topic: how-to
 helpviewer_keywords:
-  - "publishing extensions"
-  - "extension, publishing"
+- publishing extensions
+- extension, publishing
 ms.assetid: 6ff9efc4-919d-4071-a80d-6dbdd2ceb2f8
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Walkthrough: Publishing a Visual Studio extension via command line
 

@@ -1,17 +1,17 @@
 ---
-title: "Best Practices for Implementing a Source Control Plug-in | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Best Practices for Implementing a Source Control Plug-in | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "source control plug-ins, best practices"
-  - "best practices, source control plug-ins"
-  - "source control [Visual Studio SDK], plug-ins"
+- source control plug-ins, best practices
+- best practices, source control plug-ins
+- source control [Visual Studio SDK], plug-ins
 ms.assetid: 85e73b73-29dc-464f-8734-ed308742c435
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Best practices for implementing a source control plug-in
 The following technical details can help you reliably implement a source control plug-in in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].

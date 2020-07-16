@@ -5,12 +5,13 @@ description: A list of released versions and build numbers for Visual Studio, so
 author: ornellaalt
 ms.author: ornella
 manager: jillfra
-ms.date: 03/25/2020
+ms.date: 07/14/2020
 ms.topic: reference
 ms.workload:
 - multiple
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
+open_to_public_contributors: false
 ---
 # Visual Studio build numbers and release dates
 
@@ -22,6 +23,35 @@ The following table lists the build numbers and release dates for Visual Studio 
 
 | **Version**| **Channel** | **Release date** | **Build version** |
 | ---------------------- | ----------- | ---------------- | ----------------- |
+| 16.7.0 | Preview 4 | July 14, 2020 | 16.7.30310.162 |
+| 16.6.4 | Release | July 14, 2020 | 16.6.30309.148 |
+| 16.4.11 | Release | July 14, 2020 | 16.4.30308.118 |
+| 16.0.16 | Release | July 14, 2020 | 16.0.28803.791 |
+| 16.6.3 | Release | June 30, 2020 | 16.6.30225.117 |
+| 16.7.0 | Preview 3.1 | June 25, 2020 | 16.7.30223.230 |
+| 16.7.0 | Preview 3 | June 23, 2020 | 16.7.30218.91 |
+| 16.0.15 | Release | June 9, 2020 | 16.0.28803.753 |
+| 16.6.2 | Release | June 9, 2020 | 16.6.30204.135 |
+| 16.4.10 | Release | June 9, 2020 | 16.4.30204.51 |
+| 16.7.0 | Preview 2 | June 2, 2020 | 16.7.30128.36 |
+| 16.6.1 | Release | June 1, 2020 | 16.6.30128.74 |
+| 16.4.9 | Release | May 27, 2020 | 16.4.30120.98 |
+| 16.7.0 | Preview 1 | May 19, 2020 | 16.7.30114.128 |
+| 16.6.0 | Release | May 19, 2020 | 16.6.30114.105 |
+| 16.5.5 | Release | May 12, 2020 | 16.5.30104.148 |
+| 16.4.8 | Release | May 12, 2020 | 16.4.30107.140 |
+| 16.0.14 | Release | May 12, 2020 | 16.0.28803.735 |
+| 16.6.0 | Preview 6 | May 7, 2020 | 16.6.30105.148 |
+| 16.6.0 | Preview 5 | April 30, 2020 | 16.6.30028.174 |
+| 16.6.0 | Preview 4 | April 23, 2020 | 16.6.30021.99 |
+| 16.6.0 | Preview 3 | April 16, 2020 | 16.6.30014.187 |
+| 16.0.13 | Release | April 14, 2020 | 16.0.28803.718 |
+| 16.4.7 | Release | April 14, 2020 | 16.4.30011.19 |
+| 16.5.4 | Release | April 14, 2020 | 16.5.30011.22 |
+| 16.5.3 | Release | April 7, 2020 | 16.5.30002.166 |
+| 16.6.0 | Preview 2.1 | April 2, 2020 | 16.6.30001.183 |
+| 16.5.2 | Release | March 31, 2020 | 16.5.29926.136 |
+| 16.6.0 | Preview 2 | March 26, 2020 | 16.6.29924.181 |
 | 16.5.1 | Release | March 24, 2020 | 16.5.29920.165 |
 | 16.6.0 | Preview 1 | March 16, 2020 | 16.6.29911.98 |
 | 16.5.0 | Release | March 16, 2020 | 16.5.29911.84 |
@@ -125,6 +155,10 @@ The following table lists the build numbers and release dates for Visual Studio 
 
 | **Version**| **Channel** | **Release date** | **Build version** |
 | ---------------------- | ----------- | ---------------- | ----------------- |
+| 15.9.25 | Release | July 14, 2020 | 15.9.28307.1216 |
+| 15.9.24 | Release | June 9, 2020 | 15.9.28307.1177 |
+| 15.9.23 | Release | May 12, 2020 | 15.9.28307.1146 |
+| 15.9.22 | Release | April 14, 2020 | 15.9.28307.1093 |
 | 15.9.21 | Release | March 10, 2020 | 15.9.28307.1064 |
 | 15.9.20 | Release | February 11, 2020 | 15.9.28307.1033 |
 | 15.9.19 | Release | January 14, 2020 | 15.9.28307.1000 |

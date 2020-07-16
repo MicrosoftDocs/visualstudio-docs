@@ -1,18 +1,18 @@
 ---
-title: "IDebugPortSupplierDescription2::GetDescription | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugPortSupplierDescription2::GetDescription | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
-  - "IDebugPortSupplierDescription2::GetDescription"
+- IDebugPortSupplierDescription2::GetDescription
 ms.assetid: bff5f536-1cd1-4313-8856-db7b05818305
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugPortSupplierDescription2::GetDescription
 Retrieves the description and description metadata for the port supplier.

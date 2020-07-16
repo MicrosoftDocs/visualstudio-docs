@@ -1,7 +1,7 @@
 ---
 title: Bind Windows Forms controls to data
 ms.date: 11/03/2017
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - data [Windows Forms], data sources
 - Windows Forms, data binding

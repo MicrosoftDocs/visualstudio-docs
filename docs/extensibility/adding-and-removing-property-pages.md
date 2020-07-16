@@ -1,20 +1,20 @@
 ---
-title: "Adding and Removing Property Pages | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Adding and Removing Property Pages | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: how-to
 helpviewer_keywords:
-  - "property pages, adding"
-  - "property pages, project subtypes"
-  - "property pages, removing"
+- property pages, adding
+- property pages, project subtypes
+- property pages, removing
 ms.assetid: 34853412-ab8a-4caa-9601-7d0727b2985d
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 dev_langs:
- - CSharp
- - VB
+- CSharp
+- VB
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Add and remove property pages
 

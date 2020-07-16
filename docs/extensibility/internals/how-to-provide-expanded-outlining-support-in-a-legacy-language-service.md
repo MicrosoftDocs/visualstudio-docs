@@ -1,17 +1,17 @@
 ---
-title: "Provide Outlining Support in a Language Service | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Provide Outlining Support in a Language Service | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: how-to
 helpviewer_keywords:
-  - "editors [Visual Studio SDK], outlining support"
-  - "language services, supporting outlining"
-  - "outlining, supporting"
+- editors [Visual Studio SDK], outlining support
+- language services, supporting outlining
+- outlining, supporting
 ms.assetid: df759e89-8193-418c-8038-6626304d387b
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # How to: Provide expanded outlining support in a legacy language service
 There are two options for extending outlining support for your language beyond supporting the **Collapse to Definitions** command. You can add editor-controlled outline regions and add client-controlled outline regions.

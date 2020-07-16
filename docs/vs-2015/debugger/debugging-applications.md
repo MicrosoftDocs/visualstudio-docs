@@ -22,7 +22,7 @@ The following sections deal with debugging for specific types of applications. D
   
 ## Debugging for different types of applications  
   
-|||  
+|Title|Description|  
 |-|-|  
 |[Debugging Windows Store and Windows Universal apps](../debugger/debugging-windows-store-and-windows-universal-apps.md)|Describes how to debug Windows Store apps and Windows Universal apps.|  
 |[Debugging Managed Code](../debugger/debugging-managed-code.md)|Describes how to debug managed code (Visual C#, Visual Basic, and F3).|  

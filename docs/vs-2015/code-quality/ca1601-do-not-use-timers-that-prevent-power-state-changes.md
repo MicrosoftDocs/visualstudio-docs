@@ -19,7 +19,7 @@ manager: "wpickett"
 # CA1601: Do not use timers that prevent power state changes
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-|||
+|Item|Value|
 |-|-|
 |TypeName|DoNotUseTimersThatPreventPowerStateChanges|
 |CheckId|CA1601|

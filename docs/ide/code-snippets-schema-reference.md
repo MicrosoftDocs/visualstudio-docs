@@ -1,6 +1,6 @@
 ---
 title: Code snippets schema reference
-ms.date: 02/25/2019
+ms.date: 03/31/2020
 ms.topic: reference
 helpviewer_keywords:
 - schema reference [Visual Studio]
@@ -109,6 +109,7 @@ There are three attributes available for the Code element:
    |`VB`|Identifies a Visual Basic code snippet.|
    |`CSharp`|Identifies a C# code snippet.|
    |`CPP`|Identifies a C++ code snippet.|
+   |`XAML`|Identifies a XAML code snippet.|
    |`XML`|Identifies an XML code snippet.|
    |`JavaScript`|Identifies a JavaScript code snippet.|
    |`TypeScript`|Identifies a TypeScript code snippet.|
@@ -229,7 +230,7 @@ A text value is required. This text describes the code snippet.
 Specifies a function to execute when the literal or object receives focus in Visual Studio.
 
 > [!NOTE]
-> The `Function` element is only supported in C# code snippets.
+> Not all languages support `function` elements. See language specific documentation for what functions are available.
 
 ```xml
 <Function>

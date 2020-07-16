@@ -1,7 +1,7 @@
 ---
 title: Customize the Help Viewer
 ms.date: 11/02/2017
-ms.topic: conceptual
+ms.topic: how-to
 f1_keywords:
   - "hv_options"
 helpviewer_keywords:

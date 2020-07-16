@@ -1,17 +1,17 @@
 ---
-title: "IDebugCustomAttribute | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugCustomAttribute | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugCustomAttribute"
+- IDebugCustomAttribute
 helpviewer_keywords:
-  - "IDebugCustomAttribute interface"
+- IDebugCustomAttribute interface
 ms.assetid: c5ae41e9-00b9-4cca-871d-b8de9ef390d1
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # IDebugCustomAttribute
 This interface represents a custom attribute, and it can provide the name, parent, and class type of the attribute.

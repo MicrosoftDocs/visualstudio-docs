@@ -1,16 +1,16 @@
 ---
 title: Generate code metrics from the IDE or command line
 ms.date: 11/02/2018
-ms.topic: conceptual
-helpviewer_keywords:
-- code metrics data
-- code metrics results
-- code metrics [Visual Studio]
+ms.topic: how-to
+helpviewer_keywords: 
+  - code metrics data
+  - code metrics results
+  - code metrics [Visual Studio]
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.workload:
-- multiple
+ms.workload: 
+  - multiple
 ---
 # How to: Generate code metrics data
 
@@ -28,7 +28,7 @@ The [FxCopAnalyzers NuGet package](https://www.nuget.org/packages/Microsoft.Code
 
 - [CA1501](ca1501-avoid-excessive-inheritance.md)
 - [CA1502](ca1502.md)
-- [CA1505](ca1505-avoid-unmaintainable-code.md)
+- [CA1505](ca1505.md)
 - [CA1506](ca1506.md)
 
 These rules are disabled by default but you can enable them from [**Solution Explorer**](use-roslyn-analyzers.md#set-rule-severity-from-solution-explorer) or in a [rule set](using-rule-sets-to-group-code-analysis-rules.md) file. For example, to enable rule CA1502 as a warning, your .ruleset file would contain the following entry:

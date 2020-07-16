@@ -1,7 +1,7 @@
 ---
 title: Rename and move classes and types in Class Designer
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 f1_keywords:
 - vs.ClassDesigner.OverrideMembersDialog
 helpviewer_keywords:

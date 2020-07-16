@@ -1,20 +1,20 @@
 ---
-title: "IDebugFunctionPosition2::GetOffset | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugFunctionPosition2::GetOffset | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugFunctionPosition2::GetOffset"
+- IDebugFunctionPosition2::GetOffset
 helpviewer_keywords:
-  - "IDebugFunctionPosition2::GetOffset"
+- IDebugFunctionPosition2::GetOffset
 ms.assetid: 60943782-aec7-4be2-b222-1984ed53a543
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugFunctionPosition2::GetOffset
 Retrieves the position of the function in the source document.

@@ -1,15 +1,15 @@
 ---
-title: "Document Position | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Document Position | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "debugging [Debugging SDK], contexts"
+- debugging [Debugging SDK], contexts
 ms.assetid: b59d739c-7572-427f-a70d-4e5df63d02c1
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Document position
 In [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] debugging, a *document position*:

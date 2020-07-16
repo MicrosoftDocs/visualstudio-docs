@@ -1,9 +1,9 @@
 ---
 title: Generate a constructor quick action
-ms.date: 01/26/2018
+ms.date: 07/10/2020
 ms.topic: reference
-author: TerryGLee
-ms.author: tglee
+author: mikadumont
+ms.author: midumont
 manager: jillfra
 ms.workload:
 - dotnet
@@ -25,6 +25,7 @@ This code generation applies to:
 **How:** There are several ways to generate a constructor:
 
 - [Generate constructor and pick members](#pick)
+- [Generate constructor with properties](#with)
 - [Generate constructor from selected fields](#selection)
 - [Generate constructor from new usage](#usage)
 - [Add parameter to existing constructor](#addparameter)
@@ -60,6 +61,16 @@ This code generation applies to:
    The constructor is created with the specified parameters.
 
    ![Generate constructor result](media/constructor1-result-cs.png)
+
+## <a id = "with"></a> Generate constructor with properties (C# only)
+
+1. Place your cursor on the instance.
+
+2. Press **Ctrl**+**.** to trigger the **Quick Actions and Refactorings** menu.
+
+3. Select **Generate constructor in `<QualifiedName>`(with properties)**.
+
+   ![Generate Constructor preview](media/generate-constructor-with-properties.png)
 
 ## <a id="selection"></a> Generate constructor from selected fields (C# only)
 

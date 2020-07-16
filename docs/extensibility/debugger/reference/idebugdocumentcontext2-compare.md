@@ -1,20 +1,20 @@
 ---
-title: "IDebugDocumentContext2::Compare | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugDocumentContext2::Compare | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugDocumentContext2::Compare"
+- IDebugDocumentContext2::Compare
 helpviewer_keywords:
-  - "IDebugDocumentContext2::Compare"
+- IDebugDocumentContext2::Compare
 ms.assetid: 2327b1ba-52d0-42fb-a01e-63cb4b332d2f
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugDocumentContext2::Compare
 Compares this document context to a given array of document contexts.

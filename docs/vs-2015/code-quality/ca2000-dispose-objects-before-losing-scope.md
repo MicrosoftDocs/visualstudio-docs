@@ -20,7 +20,7 @@ manager: "wpickett"
 # CA2000: Dispose objects before losing scope
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-|||
+|Item|Value|
 |-|-|
 |TypeName|DisposeObjectsBeforeLosingScope|
 |CheckId|CA2000|

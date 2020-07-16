@@ -1,7 +1,7 @@
 ---
 title: "How to: Configure a computer to develop Office solutions"
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: "how-to"
 dev_langs:
   - "VB"
   - "CSharp"

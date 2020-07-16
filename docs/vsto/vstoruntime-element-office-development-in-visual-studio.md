@@ -1,7 +1,7 @@
 ---
 title: "&lt;vstoRuntime&gt; element (Office development in Visual Studio)"
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "VB"
   - "CSharp"

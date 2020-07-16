@@ -53,7 +53,7 @@ Auto-formatting may occur when any of the following events is detected.
 
   You can specify which events cause auto-formatting.
 
-|||
+|Name|Description|
 |-|-|
 |**On completion of end tag or simple tag**|Auto-formatting occurs when you finish typing an end tag or a simple tag. A simple tag has no attributes, for example `<Button />`.|
 |**On completion of start tag**|Auto-formatting occurs when you finish typing a start tag.|
@@ -64,7 +64,7 @@ This setting indicates whether attribute values are enclosed in single or double
 
 Once you set this option, only attributes subsequently added either using the designer or manually in the XAML view are affected.
 
-|||
+|Name|Description|
 |-|-|
 |**Double quotes (")**|Attribute values are enclosed in double quotes.<br /><br /> `<Button Name="button1">Hello</Button>`|
 |**Single quotes (')**|Attribute values are enclosed in single quotes.<br /><br /> `<Button Name='button1'>Hello</Button>`|
@@ -72,7 +72,7 @@ Once you set this option, only attributes subsequently added either using the de
 ## Tag Wrapping
 You can specify a line length for tag wrapping. When tag wrapping is enabled, any XAML subsequently added by using the designer will be wrapped appropriately.
 
-|||
+|Name|Description|
 |-|-|
 |**Wrap tags that exceed specified length**|Specifies whether lines are wrapped at the line length specified by **Length**.|
 |**Length**|The number of characters a line may contain. If necessary, some XAML lines might exceed the specified line length.|
@@ -80,7 +80,7 @@ You can specify a line length for tag wrapping. When tag wrapping is enabled, an
 ## Attribute Spacing
 Use this setting to control how attributes are arranged in your XAML document
 
-|||
+|Name|Description|
 |-|-|
 |**Preserve newlines and spaces between attributes**|New lines and spaces between attributes are not affected by auto-formatting.<br /><br /> `<Button Height="23" Name="button1"`<br /><br /> `Width="75">Hello</Button>`|
 |**Insert a single space between attributes**|Attributes occupy one line, with one space separating adjacent attributes. Tag wrapping settings are applied.<br /><br /> `<Button Height="23" Name="button1" Width="75">Hello</Button>`|
@@ -99,7 +99,7 @@ Use this setting to control how elements are arranged in your XAML document
 ## Auto Insert
 Use this setting to control when tags and quotes are automatically generated.
 
-|||
+|Name|Description|
 |-|-|
 |**Closing tags**|Specifies whether an element's closing tag is automatically generated when you close the opening tag with the greater than character (>).|
 |**Attribute quotes**|Specifies whether enclosing quotes are generated when an attribute value is selected from the statement completion drop-down list.|
@@ -109,14 +109,14 @@ Use this setting to control when tags and quotes are automatically generated.
 ## Default View
 Use this setting to control whether Design view appears when XAML documents are loaded.
 
-|||
+|Name|Description|
 |-|-|
 |**Always open documents in full XAML view**|Specifies whether XAML documents appear only in XAML view, without Design view. Useful for loading large documents.|
 
 ## Toolbox
 Use this setting to specify whether user controls and custom controls are shown in the Toolbox.
 
-|||
+|Name|Description|
 |-|-|
 |**Automatically populate toolbox items**|Specifies whether user controls and custom controls in the current solution are shown in the Toolbox automatically.|
 

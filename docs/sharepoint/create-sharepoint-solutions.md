@@ -1,7 +1,7 @@
 ---
 title: "Create SharePoint Solutions | Microsoft Docs"
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: overview
 dev_langs:
   - "VB"
   - "CSharp"
@@ -16,12 +16,12 @@ ms.workload:
 # Create SharePoint solutions
   You can create SharePoint applications in Visual Studio as an alternative to creating them in SharePoint Designer. Visual Studio promotes rapid SharePoint development by providing such features as advanced debugging tools, IntelliSense, statement completion, and project templates. Visual Studio also takes advantage of advanced .NET Framework-based tools and languages. You can develop SharePoint projects by using either Visual Basic or Visual C#, and you can develop app for SharePoint projects by using JavaScript.
 
- For information about SharePoint 2013 and SharePoint add-ins, see [SharePoint 2013](https://products.office.com/previous-versions/microsoft-sharepoint-2013) and [Build apps for SharePoint](/sharepoint/dev/sp-add-ins/sharepoint-add-ins).
+ For information about SharePoint 2013 and SharePoint add-ins, see [SharePoint 2013](https://www.microsoft.com/microsoft-365/previous-versions/microsoft-sharepoint-2013) and [Build apps for SharePoint](/sharepoint/dev/sp-add-ins/sharepoint-add-ins).
 
 > [!NOTE]
 > Find out how to use the new [SharePoint add-in model](/sharepoint/dev/sp-add-ins/sharepoint-add-ins) to extend the SharePoint experience for your users. These add-ins have very small footprints compared to SharePoint solutions, and you can build them by using almost any web programming technology such as HTML5, JavaScript, CSS3, and XML.
 
-|||
+|Content area|Articles|
 |-|-|
 |![Documentation](../sharepoint/media/vs-icon-documentation.gif "Documentation")|**Documentation**<br /><br /> -   [Get started &#40;SharePoint development in Visual Studio&#41;](../sharepoint/getting-started-sharepoint-development-in-visual-studio.md)<br />-   [Develop SharePoint solutions](../sharepoint/developing-sharepoint-solutions.md)<br />-   [Localize SharePoint solutions](../sharepoint/localizing-sharepoint-solutions.md)<br />-   [Build and debug SharePoint solutions](../sharepoint/building-and-debugging-sharepoint-solutions.md)<br />-   [Package and Deploy SharePoint solutions](../sharepoint/packaging-and-deploying-sharepoint-solutions.md)<br />-   [Extend the SharePoint tools in Visual Studio](../sharepoint/extending-the-sharepoint-tools-in-visual-studio.md)|
 |![Documentation](../sharepoint/media/vs-icon-documentation.gif "Documentation")|**Featured Tasks**<br /><br /> -   [Walkthrough: Create a site column, content type, and list for SharePoint](../sharepoint/walkthrough-create-a-site-column-content-type-and-list-for-sharepoint.md)<br />-   [How to: Create an event receiver](../sharepoint/how-to-create-an-event-receiver.md)<br />-   [How to: Create a BDC model](../sharepoint/how-to-create-a-bdc-model.md)<br />-   [How to: Create a SharePoint Web Part](../sharepoint/how-to-create-a-sharepoint-web-part.md)<br />-   [How to: Create a User Control for a SharePoint application page or web part](../sharepoint/how-to-create-a-user-control-for-a-sharepoint-application-page-or-web-part.md)|

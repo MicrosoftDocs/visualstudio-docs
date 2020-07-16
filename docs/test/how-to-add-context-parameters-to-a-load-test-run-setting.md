@@ -1,10 +1,10 @@
 ---
 title: Add Context Parameters to a Load Test Run Setting
 ms.date: 10/19/2016
-ms.topic: conceptual
-helpviewer_keywords:
-- load tests, run settings, context parameters
-- load tests, context parameters
+ms.topic: how-to
+helpviewer_keywords: 
+  - load tests, run settings, context parameters
+  - load tests, context parameters
 ms.assetid: a8a0b97e-8040-4711-85ab-36548b130ed2
 author: mikejo5000
 ms.author: mikejo

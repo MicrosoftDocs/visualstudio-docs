@@ -1,17 +1,17 @@
 ---
-title: "Creating a Windows Forms Toolbox Control | Microsoft Docs"
-ms.date: "3/16/2019"
-ms.topic: "conceptual"
+title: Creating a Windows Forms Toolbox Control | Microsoft Docs
+ms.date: 3/16/2019
+ms.topic: how-to
 helpviewer_keywords:
-  - "winforms"
-  - "toolbox"
-  - "windows forms"
+- winforms
+- toolbox
+- windows forms
 ms.assetid: 0be6ffc1-8afd-4d02-9a5d-e27dde05fde6
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Create a Windows Forms Toolbox Control
 

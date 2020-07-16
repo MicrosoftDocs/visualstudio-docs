@@ -1,7 +1,7 @@
 ---
 title: Disable legacy code analysis
 ms.date: 10/04/2019
-ms.topic: conceptual
+ms.topic: how-to
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra

@@ -2,7 +2,7 @@
 title: Publish a Python app to Azure App Service on Windows
 description: How to publish a Python web application directly to Azure App Service on Windows from Visual Studio, including the necessary content for the web.config file.
 ms.date: 01/07/2019
-ms.topic: conceptual
+ms.topic: how-to
 author: JoshuaPartlow
 ms.author: joshuapa
 manager: jillfra
@@ -58,7 +58,7 @@ With an active Azure subscription, create an App Service with an empty Web App a
 
 Create a temporary App Service without needing an Azure subscription as follows:
 
-1. Open your browser to [try.azurewebsites.net](https://try.azurewebsites.net).
+1. Open your browser to [https://azure.microsoft.com/try/app-service/web/](https://azure.microsoft.com/try/app-service/web/).
 1. Select **Web App** for the app type, then select **Next**.
 1. Select **Empty Site**, followed by **Create**.
 1. Sign in with a social login of your choice, and after a short time your site is ready at the displayed URL.
@@ -204,7 +204,7 @@ As part of this process, Visual Studio also does the following steps:
 - Create a `web.config` file on the server that contains appropriate pointers to the app's `wsgi_app` function and to App Service's default Python 3.4 interpreter.
 - Turn off processing for files in the project's `static` folder (rules for this are in `web.config`).
 - Publish the virtual environment to the server.
-- Add a `web.debug.config` file and the ptvsd debugging tools to enable remote debugging.
+- Add a `web.debug.config` file and the debugging tools to enable remote debugging. For Visual Studio 2019 version 16.4 and earlier, the debugging tools are ptvsd. For Visual Studio 2019 version 16.5 and later, the debugging tools are debugpy.
 
 As noted earlier, these automatic steps simplify the publishing process but make it more difficult to control the Python environment. For example, the `web.config` file is created only on the server but not added to your project. The publishing process also takes longer because it's copying the whole virtual environment from your development computer rather than relying on the server configuration.
 

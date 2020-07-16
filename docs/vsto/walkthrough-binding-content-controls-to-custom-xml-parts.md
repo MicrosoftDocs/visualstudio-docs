@@ -267,7 +267,7 @@ ms.workload:
 
 2. Verify that the table in the document resembles the following table. Each of the strings in the second column is obtained from an element in the custom XML part in the document.
 
-    |||
+    |Column|Value|
     |-|-|
     |**Employee Name**|**Karina Leal**|
     |**Hire Date**|**April 1, 1999**|

@@ -21,7 +21,7 @@ manager: "wpickett"
 
 For the latest documentation on Visual Studio, see [CA1900: Value type fields should be portable](/visualstudio/code-quality/ca1900-value-type-fields-should-be-portable).
 
-|||
+|Item|Value|
 |-|-|
 |TypeName|ValueTypeFieldsShouldBePortable|
 |CheckId|CA1900|

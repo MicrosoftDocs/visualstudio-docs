@@ -1,20 +1,20 @@
 ---
-title: "Localizing Menu Commands | Microsoft Docs"
-ms.date: "10/08/2019"
-ms.topic: "conceptual"
+title: Localizing Menu Commands | Microsoft Docs
+ms.date: 10/08/2019
+ms.topic: how-to
 helpviewer_keywords:
-  - "localize"
-  - "localization"
-  - "vsct"
-  - "menu commands"
-  - "localize visual studio"
-  - "localize vsct"
+- localize
+- localization
+- vsct
+- menu commands
+- localize visual studio
+- localize vsct
 ms.assetid: b04ee0f6-82ea-47e6-853a-72382267d6da
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Localize menu commands
 

@@ -1,20 +1,20 @@
 ---
-title: "IDebugObject::IsNullReference | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugObject::IsNullReference | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugObject::IsNullReference"
+- IDebugObject::IsNullReference
 helpviewer_keywords:
-  - "IDebugObject::IsNullReference method"
+- IDebugObject::IsNullReference method
 ms.assetid: 6dbfcdb0-954f-4486-8fac-7ea8d003e3a9
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugObject::IsNullReference
 Tests whether this object is a null reference.

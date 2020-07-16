@@ -1,7 +1,7 @@
 ---
 title: Display related data in WPF applications
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - data [WPF], displaying
 - WPF, data binding in Visual Studio

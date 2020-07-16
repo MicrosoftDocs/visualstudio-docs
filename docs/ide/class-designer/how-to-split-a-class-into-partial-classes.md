@@ -1,7 +1,7 @@
 ---
 title: 'How to: Split a Class into Partial Classes (Class Designer)'
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - Class Designer, partial classes
 - partial classes, Class Designer

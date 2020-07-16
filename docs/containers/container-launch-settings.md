@@ -5,7 +5,7 @@ description: Overview of the Container Tools build process
 ms.author: ghogen
 ms.date: 08/15/2019
 ms.technology: vs-azure
-ms.topic: conceptual
+ms.topic: reference
 ---
 # Container Tools launch settings
 
@@ -55,7 +55,7 @@ The commandName setting identifies that this section applies to Container Tools.
 
 | Setting name         | Example                                               | Description                                                                                                             |
 | -------------------- | ----------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
-| commandLineArgs      | "commandLineArgs": "--mysetting myvalue"              | These command-line arguments are used when launching your project in the container.                                     |
+| commandLineArgs      | "commandLineArgs": "--mysetting myvalue"              | These command-line arguments for starting your app are used when launching your project in the container.                                     |
 | environmentVariables | "environmentVariables": {                             | These environment variable values are passed to the process when it is launched in the container.                       |
 |                      | "ASPNETCORE_URLS": "https://+:443;http://+:80",       |                                                                                                                         |
 |                      | "ASPNETCORE_HTTPS_PORT": "44381"                      |                                                                                                                         |

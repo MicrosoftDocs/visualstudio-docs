@@ -4,8 +4,8 @@ author: evanwindom
 ms.author: v-evwin
 manager: lank
 ms.assetid: 5bba2205-d32f-413d-9b58-724a24993842
-ms.date: 03/25/2020
-ms.topic: conceptual
+ms.date: 04/17/2020
+ms.topic: how-to
 description:  Learn about the LinkedIn Learning benefit included as part of a LinkedIn Premium subscription included in selected Visual Studio subscriptions.
 ---
 
@@ -22,7 +22,7 @@ To activate your LinkedIn Premium subscription and LinkedIn Learning benefit:
 
 2. Locate the LinkedIn Learning tile in the Education category, and click the **Get code** link.
    > [!div class="mx-imgBorder"]
-   > ![LinkedIn Learning Benefit Tile](_img/vs-linkedin/vs-linkedin-3-month-tile.png)
+   > ![LinkedIn Learning Benefit Tile](_img/vs-linkedin/vs-linkedin-6-month-tile.png)
 
 3. If you already have a LinkedIn account and you’re signed in automatically, you’ll immediately be taken to the LinkedIn Learning benefit activation page.  If you have a LinkedIn account but you’re not automatically signed in, simply enter your username and password, and then click **Sign in**.  Please skip to [this step](#activate-your-offer) to activate your offer.
 
@@ -31,7 +31,7 @@ To activate your LinkedIn Premium subscription and LinkedIn Learning benefit:
 
 5. Enter your personal information, choose a username and password, and click **Join now**.
 
-6. Specify your country and ZIP code, then click **Next**.
+6. Specify your country/region and ZIP code, then click **Next**.
 
 7. Next, you’ll provide some information about yourself for your profile.  Indicate whether you’re a student, and provide your most recent job title, company, and industry.
 

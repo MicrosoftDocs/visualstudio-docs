@@ -1,18 +1,18 @@
 ---
-title: "VSTemplate Element (Visual Studio Templates) | Microsoft Docs"
-ms.date: "11/04/2016"
+title: VSTemplate Element (Visual Studio Templates) | Microsoft Docs
+ms.date: 11/04/2016
 ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
-  - "http://schemas.microsoft.com/developer/vstemplate/2005#VSTemplate"
+- http://schemas.microsoft.com/developer/vstemplate/2005#VSTemplate
 helpviewer_keywords:
-  - "VSTemplate element [Visual Studio project templates]"
+- VSTemplate element [Visual Studio project templates]
 ms.assetid: f8ac561b-3b0b-4246-9ec9-118d2447e9a9
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # VSTemplate element (Visual Studio Templates)
 Contains all the metadata about the project template, item template, or starter kit.

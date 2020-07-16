@@ -1,20 +1,20 @@
 ---
-title: "IDebugProgramHost2::GetHostId | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugProgramHost2::GetHostId | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugProgramHost2::GetHostId"
+- IDebugProgramHost2::GetHostId
 helpviewer_keywords:
-  - "IDebugProgramHost2::GetHostId"
+- IDebugProgramHost2::GetHostId
 ms.assetid: 7702e221-feb1-446b-a224-cb46c420987e
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugProgramHost2::GetHostId
 Gets the process identifier of the process hosting this program.

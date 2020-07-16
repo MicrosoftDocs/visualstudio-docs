@@ -9,8 +9,8 @@ helpviewer_keywords:
 - Project Designer, Debug page
 - Debug page in Project Designer
 ms.assetid: ef11eae9-df96-4e20-aabd-2678ba317140
-author: TerryGLee
-ms.author: tglee
+author: Mikejo5000
+ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
@@ -81,5 +81,5 @@ Select or clear this check box to enable or disable debugging of SQL procedures 
 - [First look at the debugger](../../debugger/debugger-feature-tour.md)
 - [Project Settings for  C# Debug Configurations](../../debugger/project-settings-for-csharp-debug-configurations.md)
 - [Project Settings for a Visual Basic Debug Configuration](../../debugger/project-settings-for-a-visual-basic-debug-configuration.md)
-- [How to: Debug a ClickOnce Application with Restricted Permissions](../../deployment/how-to-debug-a-clickonce-application-with-restricted-permissions.md)
+- [Secure ClickOnce apps](../../deployment/securing-clickonce-applications.md)
 - [How to: Create and Edit Configurations](../../ide/how-to-create-and-edit-configurations.md)

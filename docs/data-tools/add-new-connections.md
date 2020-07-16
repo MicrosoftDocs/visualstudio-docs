@@ -1,7 +1,7 @@
 ---
 title: Add new connections
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 author: ghogen
 ms.author: ghogen
 manager: jillfra

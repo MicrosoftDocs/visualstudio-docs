@@ -1,17 +1,17 @@
 ---
-title: "MaxFrameworkVersion Element (Visual Studio Templates) | Microsoft Docs"
-ms.date: "11/04/2016"
+title: MaxFrameworkVersion Element (Visual Studio Templates) | Microsoft Docs
+ms.date: 11/04/2016
 ms.technology: vs-ide-general
 ms.topic: reference
 helpviewer_keywords:
-  - "<MaxFrameworkVersion> Element (Visual Studio Templates)"
-  - "MaxFrameworkVersion Element (Visual Studio Templates)"
+- <MaxFrameworkVersion> Element (Visual Studio Templates)
+- MaxFrameworkVersion Element (Visual Studio Templates)
 ms.assetid: f732a9d3-fc29-405b-9298-01ea83fc58b8
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # MaxFrameworkVersion element (Visual Studio templates)
 

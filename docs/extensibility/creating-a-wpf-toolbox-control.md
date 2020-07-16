@@ -1,17 +1,17 @@
 ---
-title: "Creating a WPF Toolbox Control | Microsoft Docs"
-ms.date: "3/16/2019"
-ms.topic: "conceptual"
+title: Creating a WPF Toolbox Control | Microsoft Docs
+ms.date: 3/16/2019
+ms.topic: how-to
 helpviewer_keywords:
-  - "toolbox control"
-  - "toolbox"
-  - "wpf"
+- toolbox control
+- toolbox
+- wpf
 ms.assetid: 9cc34db9-b0d1-4951-a02f-7537fbbb51ad
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Create a WPF Toolbox Control
 

@@ -1,18 +1,21 @@
 ---
 title: Use Azure Pipelines for automated testing
 ms.date: 10/19/2018
-ms.topic: conceptual
-helpviewer_keywords:
-- automated testing, lab management, test lab
+ms.topic: how-to
+helpviewer_keywords: 
+  - automated testing, lab management, test lab
 ms.author: mikejo
 manager: jillfra
-ms.workload:
-- multiple
+ms.workload: 
+  - multiple
 author: mikejo5000
 ---
 # Use Azure Test Plans instead of Lab Management for automated testing
 
 If you use Microsoft Test Manager and Lab Management for automated testing or for build-deploy-test automation, this topic explains how you can achieve the same goals using the [build and release](/azure/devops/pipelines/index?view=vsts) features in Azure Pipelines and Team Foundation Server (TFS).
+
+> [!NOTE]
+> Microsoft Test Manager is deprecated in Visual Studio 2017 and removed in Visual Studio 2019.
 
 ## Build-deploy-test automation
 

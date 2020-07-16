@@ -1,34 +1,38 @@
 ---
-title: "Analyze memory usage without debugging | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/15/2018"
-ms.topic: "conceptual"
-dev_langs:
-  - "CSharp"
-  - "VB"
-  - "FSharp"
-  - "C++"
-author: "mikejo5000"
-ms.author: "mikejo"
+title: Analyze memory usage without debugging | Microsoft Docs
+ms.custom: 
+ms.date: 04/02/2020
+ms.topic: how-to
+dev_langs: 
+  - CSharp
+  - VB
+  - FSharp
+  - C++
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
-ms.workload:
-  - "multiple"
+ms.workload: 
+  - multiple
 ---
 # Analyze memory usage without the debugger
 
 The **Memory Usage** tool monitors your app's memory use. You can use the tool to study the real-time memory effects of scenarios you're actively developing in Visual Studio. You can take detailed snapshots of the app's memory states, and compare snapshots to find the root causes of memory issues.
 
-The **Memory Usage** tool can run with or without the debugger. The following instructions show how to use the **Memory Usage** tool without the debugger in the Visual Studio **Performance Profiler**.
+The **Memory Usage** tool can run [with or without the debugger](../profiling/running-profiling-tools-with-or-without-the-debugger.md). In this article, we show how to use the **Memory Usage** tool without the debugger in the Visual Studio **Performance Profiler**.
 
 ## Memory Usage diagnostic sessions
 
 **To start a Memory Usage diagnostic session:**
 
-1. Open a C# Universal Windows (UWP) project in Visual Studio.
+1. Open a project in Visual Studio.
+
+   The Memory Usage tool supports .NET, ASP.NET, native, or mixed mode (.NET and native) apps.
+
+1. In the Debug menu, set the solution configuration to **Release** and select **Local Windows Debugger** (or **Local Machine**) as the deployment target.
 
 1. On the menu bar, choose  **Debug** > **Performance Profiler**.
 
-1. Select **Memory Usage**, and then select **Start**.
+1. Under **Available Tools**, select **Memory Usage**, and then select **Start**.
 
    ![Start a Memory Usage diagnostic session](../profiling/media/memuse_start_diagnosticssession.png "Start a Memory Usage diagnostic session")
 
@@ -66,7 +70,7 @@ The numbers are links that open detailed **Memory Usage** report views in new Vi
 
   ![Snapshot view links](../profiling/media/memuse__snapshotview_numbered.png "Snapshot view links")
 
-|||
+|Image|Description|
 |-|-|
 |![Step 1](../profiling/media/procguid_1.png "ProcGuid_1")|The total number of bytes in memory when the snapshot was taken.<br /><br /> Select this link to display a snapshot details report sorted by the total size of the type instances.|
 |![Step 2](../profiling/media/procguid_2.png "ProcGuid_2")|The total number of objects in memory when the snapshot was taken.<br /><br /> Select this link to display a snapshot details report sorted by the count of instances of the types.|
@@ -120,7 +124,7 @@ Both links open the same report. The only difference is the starting sort order 
 
 The **Managed Heap** tree in a snapshot details report has the following columns:
 
-|||
+|Name|Description|
 |-|-|
 |**Object Type**|The name of the type or object instance.|
 |**Count**|The number of object instances of the type. **Count**  is always 1 for an instance.|
@@ -142,7 +146,7 @@ The **Referenced Types** or **Referenced Objects** tree shows the objects that t
 
 A **Referenced Types** tree in a snapshot details report has the following columns. A **Referenced Objects** tree does not have the **Reference Count** column.
 
-|||
+|Name|Description|
 |-|-|
 |**Object Type** or **Instance**|The name of the type or instance.|
 |**Reference Count**|For types, the number of object instances of the type.|
@@ -166,7 +170,7 @@ Both links open the same report. The only difference is the starting sort order 
 
 The **Managed Heap** tree in a snapshot diff report has the following columns:
 
-|||
+|Name|Description|
 |-|-|
 |**Object Type**|The name of the type or object instance.|
 |**Count**|The number of instances of a type in the primary snapshot. **Count** is always 1 for an instance.|
@@ -193,7 +197,7 @@ The **Referenced Types** or **Referenced Objects** tree shows the objects that t
 
 A **Referenced Types** tree in a snapshot diff report has the following columns. A **Referenced Objects** tree has the **Instance**, **Size (Bytes)**, **Inclusive Size (Bytes)**, and **Module** columns.
 
-|||
+|Name|Description|
 |-|-|
 |**Object Type** or **Instance**|The name of the type or object instance.|
 |**Reference Count**|The number of instances of a type in the primary snapshot.|

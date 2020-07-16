@@ -1,27 +1,27 @@
 ---
-title: "Starting to Develop Visual Studio Extensions | Microsoft Docs"
-ms.date: "09/18/2017"
-ms.topic: "conceptual"
+title: Starting to Develop Visual Studio Extensions | Microsoft Docs
+ms.date: 09/18/2017
+ms.topic: conceptual
 helpviewer_keywords:
-  - "getting started, Visual Studio integration"
-  - "Visual Studio, integration"
+- getting started, Visual Studio integration
+- Visual Studio, integration
 ms.assetid: 8fe5e2ab-a424-4173-9d39-dd082c4d58d0
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Starting to Develop Visual Studio Extensions
 
-If you've never written a Visual Studio extension before, you probably have some questions. We've listed some of the most common ones here. If you don't see the information you're looking for, use the feedback buttons (**Was this page helpful?** at the bottom of the screen) to ask for what you want.
+If you've never written a Visual Studio extension before, you probably have some questions. We've listed some of the most common ones here. If you don't see the information you're looking for, use the feedback buttons (**Is this page helpful?** in the upper right of the screen) to ask for what you want.
 
 > [!NOTE]
 > This article applies to Visual Studio on Windows. For Visual Studio for Mac, see [Extending Visual Studio for Mac](/visualstudio/mac/extending-visual-studio-mac). For Visual Studio Code, see [Visual Studio Code Extension API](https://code.visualstudio.com/api).
 
 ## What software do I need to develop Visual Studio extensions?
 
-You need to install the Visual Studio SDK in addition to Visual Studio in order to develop Visual Studio extensions. You can install the Visual Studio SDK as part of regular setup, or you can install it later on. For more information about installing the Visual Studio SDK, see [Visual Studio SDK](../extensibility/visual-studio-sdk.md).
+You need to install the Visual Studio SDK in addition to Visual Studio in order to develop Visual Studio extensions. You can install the Visual Studio SDK as part of regular setup, or you can install it later on. For more information about installing the Visual Studio SDK, see [Install the Visual Studio SDK](../extensibility/installing-the-visual-studio-sdk.md).
 
 ## What kinds of things can I do with Visual Studio extensions?
 

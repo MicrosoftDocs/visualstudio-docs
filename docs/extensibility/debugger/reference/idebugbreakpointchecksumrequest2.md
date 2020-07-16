@@ -1,15 +1,15 @@
 ---
-title: "IDebugBreakpointChecksumRequest2 | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugBreakpointChecksumRequest2 | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
-  - "IDebugBreakpointChecksumRequest2 interface"
+- IDebugBreakpointChecksumRequest2 interface
 ms.assetid: 9cfdbca5-052c-48e9-8411-e2e9e4065d00
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # IDebugBreakpointChecksumRequest2
 Represents a document checksum for a breakpoint request.

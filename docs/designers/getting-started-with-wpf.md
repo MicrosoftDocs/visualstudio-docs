@@ -1,7 +1,7 @@
 ---
 title: What is WPF?
 ms.date: 04/16/2018
-ms.topic: conceptual
+ms.topic: overview
 ms.assetid: f3be98cb-870f-472c-9da5-cb815e4f6598
 author: TerryGLee
 ms.author: tglee

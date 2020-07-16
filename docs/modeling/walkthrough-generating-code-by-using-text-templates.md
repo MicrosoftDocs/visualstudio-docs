@@ -1,7 +1,7 @@
 ---
 title: 'Walkthrough: Generating Code by using Text Templates'
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - walkthroughs [text templates], generating application code
 - walkthroughs [text templates]

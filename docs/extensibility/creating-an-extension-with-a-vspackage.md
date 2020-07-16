@@ -1,13 +1,13 @@
 ---
-title: "Creating an Extension with a VSPackage | Microsoft Docs"
-ms.date: "3/16/2019"
-ms.topic: "conceptual"
+title: Creating an Extension with a VSPackage | Microsoft Docs
+ms.date: 3/16/2019
+ms.topic: how-to
 ms.assetid: c0cc5e08-4897-44f2-8309-e3478f1f999e
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Create an extension with a VSPackage
 

@@ -1,15 +1,15 @@
 ---
-title: "Walkthrough: Linking a Content Type to a File Name Extension | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: 'Walkthrough: Linking a Content Type to a File Name Extension | Microsoft Docs'
+ms.date: 11/04/2016
+ms.topic: how-to
 helpviewer_keywords:
-  - "editors [Visual Studio SDK], new - link content type to file name extension"
+- editors [Visual Studio SDK], new - link content type to file name extension
 ms.assetid: 21ee64ce-9afe-4b08-94a0-8389cc4dc67c
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Walkthrough: Link a content type to a file name extension
 You can define your own content type and link a file name extension to it by using the editor Managed Extensibility Framework (MEF) extensions. In some cases, the file name extension is already defined by a language service. But, to use it with MEF, you must still link it to a content type.

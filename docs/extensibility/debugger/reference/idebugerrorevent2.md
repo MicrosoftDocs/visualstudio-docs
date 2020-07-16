@@ -1,17 +1,17 @@
 ---
-title: "IDebugErrorEvent2 | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugErrorEvent2 | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugErrorEvent2"
+- IDebugErrorEvent2
 helpviewer_keywords:
-  - "IDebugErrorEvent2 interface"
+- IDebugErrorEvent2 interface
 ms.assetid: 275b6f38-b3d4-4cae-8491-491177f524fb
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # IDebugErrorEvent2
 This interface specifies an error message to be reported to the user.

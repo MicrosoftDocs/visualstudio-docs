@@ -1,20 +1,20 @@
 ---
-title: "IEnumDebugPropertyInfo2::Clone | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IEnumDebugPropertyInfo2::Clone | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IEnumDebugPropertyInfo2::Clone"
+- IEnumDebugPropertyInfo2::Clone
 helpviewer_keywords:
-  - "IEnumDebugPropertyInfo2::Clone"
+- IEnumDebugPropertyInfo2::Clone
 ms.assetid: 0ede1667-1071-4aa4-b887-260ea103d724
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IEnumDebugPropertyInfo2::Clone
 Returns a copy of the current enumeration as a separate object.

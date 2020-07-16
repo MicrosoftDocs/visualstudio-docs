@@ -447,7 +447,7 @@
       - name: Inspect XAML properties while debugging
         href: inspect-xaml-properties-while-debugging.md
       - name: Write and debug running XAML code
-        href: xaml-hot-reload.md
+        href: ../xaml-tools/xaml-hot-reload.md
       - name: Debug XAML in Blend
         href: ../xaml-tools/debug-xaml-in-blend.md?toc=/visualstudio/debugger/toc.json
       - name: HTML and CSS
@@ -507,7 +507,7 @@
         - name: Inspect XAML properties while debugging
           href: inspect-xaml-properties-while-debugging.md
         - name: Write and debug running XAML code
-          href: xaml-hot-reload.md
+          href: ../xaml-tools/xaml-hot-reload.md
         - name: Use the WPF Tree Visualizer
           href: how-to-use-the-wpf-tree-visualizer.md
         - name: Display WPF trace information

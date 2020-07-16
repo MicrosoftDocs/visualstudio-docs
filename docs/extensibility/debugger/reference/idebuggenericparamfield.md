@@ -1,15 +1,15 @@
 ---
-title: "IDebugGenericParamField | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugGenericParamField | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
-  - "IDebugGenericParamField interface"
+- IDebugGenericParamField interface
 ms.assetid: ba24f499-5ba7-4c67-83e6-923229b52327
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # IDebugGenericParamField
 Represents a parameter for a managed code generic type.

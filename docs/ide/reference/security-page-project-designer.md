@@ -9,8 +9,8 @@ f1_keywords:
 helpviewer_keywords:
 - Project Designer, Security page
 - Security page in Project Designer
-author: TerryGLee
-ms.author: tglee
+author: Mikejo5000
+ms.author: mikejo
 manager: jillfra
 ms.workload:
 - multiple
@@ -74,7 +74,7 @@ Opens the [Advanced Security Settings Dialog Box](../../ide/reference/advanced-s
 - [How to: Enable ClickOnce Security Settings](../../deployment/how-to-enable-clickonce-security-settings.md)
 - [How to: Set a Security Zone for a ClickOnce Application](../../deployment/how-to-set-a-security-zone-for-a-clickonce-application.md)
 - [How to: Set Custom Permissions for a ClickOnce Application](../../deployment/how-to-set-custom-permissions-for-a-clickonce-application.md)
-- [How to: Debug a ClickOnce Application with Restricted Permissions](../../deployment/how-to-debug-a-clickonce-application-with-restricted-permissions.md)
+- [Secure ClickOnce apps](../../deployment/securing-clickonce-applications.md)
 - [ClickOnce Security and Deployment](../../deployment/clickonce-security-and-deployment.md)
 - [Project Properties Reference](../../ide/reference/project-properties-reference.md)
 - [Advanced Security Settings Dialog Box](../../ide/reference/advanced-security-settings-dialog-box.md)

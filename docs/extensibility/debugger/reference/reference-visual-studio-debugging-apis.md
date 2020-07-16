@@ -1,17 +1,17 @@
 ---
-title: "Reference (Visual Studio Debugging APIs) | Microsoft Docs"
-ms.date: "11/04/2016"
+title: Reference (Visual Studio Debugging APIs) | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
-  - "reference, Debugging SDK"
-  - "debugging [Debugging SDK], reference"
-  - "Debugging SDK, reference"
+- reference, Debugging SDK
+- debugging [Debugging SDK], reference
+- Debugging SDK, reference
 ms.assetid: 9810fc50-43c7-4916-9916-1cf333037b51
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Reference (Visual Studio Debugging APIs)
 

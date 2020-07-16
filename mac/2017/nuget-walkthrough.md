@@ -6,6 +6,7 @@ ms.author: dominicn
 ms.date: 04/14/2017
 ms.assetid: 5C800815-0B13-4B27-B017-95FCEF1A0EA2
 ms.custom: video
+ms.topic: how-to
 ---
 
 # Include a NuGet package in your project

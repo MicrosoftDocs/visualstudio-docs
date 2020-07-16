@@ -1,7 +1,7 @@
 ---
 title: 'How to: Add Class Diagrams to Projects (Class Designer)'
 ms.date: 05/08/2018
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - class diagrams, creating
 - Class Designer [Visual Studio], opening

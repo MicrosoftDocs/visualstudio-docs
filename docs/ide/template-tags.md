@@ -87,7 +87,7 @@ Visual Studio offers a list of built-in tags. When you add a built-in tag, the t
 
 The following list shows built-in tags that are available in Visual Studio. Corresponding values are shown in parentheses.
 
-| Language | Platform | Project type |
+| Language tag | Platform tag | Project type tag |
 | -- | -- | -- |
 | C++ (`cpp`) | Android (`android`) | Cloud (`cloud`) |
 | C# (`csharp`) | Azure (`azure`) | Console (`console`) |
@@ -116,7 +116,7 @@ The following example shows the metadata for a project template for a Visual C# 
         <Name>My template</Name>
         <Description>A basic template</Description>
         <Icon>TemplateIcon.ico</Icon>
-        <ProjectType>CSharp</ProjectType>
+        <ProjectType>csharp</ProjectType>
         <LanguageTag>C#</LanguageTag>
         <PlatformTag>windows</PlatformTag>
         <PlatformTag>linux</PlatformTag>

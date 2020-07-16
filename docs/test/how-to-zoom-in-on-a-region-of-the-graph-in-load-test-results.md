@@ -1,12 +1,12 @@
 ---
 title: Zoom in on load test result graphs
 ms.date: 10/19/2016
-ms.topic: conceptual
-f1_keywords:
-- vs.test.load.monitor.graphzoom
-helpviewer_keywords:
-- graphs, analyzing load tests
-- load tests, zooming with graphs
+ms.topic: how-to
+f1_keywords: 
+  - vs.test.load.monitor.graphzoom
+helpviewer_keywords: 
+  - graphs, analyzing load tests
+  - load tests, zooming with graphs
 ms.assetid: 729b4c30-4bc3-4698-91b3-17a676897443
 author: mikejo5000
 ms.author: mikejo

@@ -1,20 +1,20 @@
 ---
-title: "IDebugBreakpointBoundEvent2::EnumBoundBreakpoints | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugBreakpointBoundEvent2::EnumBoundBreakpoints | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugBreakpointBoundEvent2::EnumBoundBreakpoints"
+- IDebugBreakpointBoundEvent2::EnumBoundBreakpoints
 helpviewer_keywords:
-  - "IDebugBreakpointBoundEvent2::EnumBoundBreakpoints"
+- IDebugBreakpointBoundEvent2::EnumBoundBreakpoints
 ms.assetid: 1f588feb-522e-488d-be92-7bc19b9e3688
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugBreakpointBoundEvent2::EnumBoundBreakpoints
 Creates an enumerator of breakpoints that were bound on this event.

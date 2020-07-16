@@ -20,7 +20,7 @@ manager: jillfra
 
 For the latest documentation on Visual Studio, see [DA0001: Use StringBuilder for concatenations](/visualstudio/profiling/da0001-use-stringbuilder-for-concatenations).  
   
-|||  
+|Item|Value|  
 |-|-|  
 |Rule Id|DA0001|  
 |Category|.NET Framework Usage|  

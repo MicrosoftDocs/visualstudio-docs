@@ -22,7 +22,7 @@ IntelliSense Code Snippets are pre-authored pieces of code that are ready to be 
 
 ## IntelliSense Code Snippets Schema Elements
 
-||||
+|Element|Element|Element|
 |-|-|-|
 |[Assembly Element](../ide/code-snippets-schema-reference.md#assembly)|[HelpUrl Element](../ide/code-snippets-schema-reference.md#helpurl)|[References Element](../ide/code-snippets-schema-reference.md#references)|
 |[Author Element](../ide/code-snippets-schema-reference.md#author)|[ID Element](../ide/code-snippets-schema-reference.md#id)|[Shortcut Element](../ide/code-snippets-schema-reference.md#shortcut)|

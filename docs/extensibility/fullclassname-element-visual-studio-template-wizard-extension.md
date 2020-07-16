@@ -1,18 +1,18 @@
 ---
-title: "FullClassName element (VS template wizard extension)"
-ms.date: "11/04/2016"
-ms.technology: "vs-ide-general"
-ms.topic: "conceptual"
+title: FullClassName element (VS template wizard extension)
+ms.date: 11/04/2016
+ms.technology: vs-ide-general
+ms.topic: reference
 f1_keywords:
-  - "http://schemas.microsoft.com/developer/vstemplate/2005#FullClassName"
+- http://schemas.microsoft.com/developer/vstemplate/2005#FullClassName
 helpviewer_keywords:
-  - "FullClassName element [Visual Studio project template]"
+- FullClassName element [Visual Studio project template]
 ms.assetid: 651e1010-d529-4856-85ff-c77ceca5d2ed
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # FullClassName element (Visual Studio template wizard extension)
 The fully qualified name of the class that implements the `IWizard` interface.

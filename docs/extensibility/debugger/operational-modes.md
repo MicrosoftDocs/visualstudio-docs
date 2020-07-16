@@ -1,15 +1,15 @@
 ---
-title: "Operational Modes | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Operational Modes | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "debug engines, modes"
+- debug engines, modes
 ms.assetid: f69972d0-809d-40df-9da3-04738791391c
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Operational modes
 There are three modes in which the IDE can operate, as follows:

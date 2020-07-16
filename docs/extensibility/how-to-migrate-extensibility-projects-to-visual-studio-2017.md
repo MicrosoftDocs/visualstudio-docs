@@ -1,13 +1,13 @@
 ---
-title: "How to: Migrate Extensibility Projects to Visual Studio 2017 | Microsoft Docs"
-ms.date: "11/09/2016"
-ms.topic: "conceptual"
+title: 'How to: Migrate Extensibility Projects to Visual Studio 2017 | Microsoft Docs'
+ms.date: 11/09/2016
+ms.topic: how-to
 ms.assetid: 8ca07b00-a3ff-40ab-b647-c0a93b55e86a
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 monikerRange: vs-2017
 ---
 # How to: Migrate extensibility projects to Visual Studio 2017

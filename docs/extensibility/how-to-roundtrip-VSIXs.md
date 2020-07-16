@@ -1,7 +1,7 @@
 ---
 title: How to Roundtrip Extensions
 ms.date: "06/25/2017"
-ms.topic: "conceptual"
+ms.topic: how-to
 ms.assetid: 2d6cf53c-011e-4c9e-9935-417edca8c486
 author: "willbrown"
 ms.author: madsk
@@ -207,5 +207,4 @@ At this point, your project should be ready to build a VSIXv3 that can install o
 ![Find a VSIX](media/finding-a-VSIX-example.png)
 
 > [!NOTE]
-> If your project hangs with the message **opening the file**, force shut down Visual Studio, navigate to your project directory, show hidden folders, and delete the *.vs* folder.
- 
+> If your project stops responding with the message **opening the file**, force shut down Visual Studio, navigate to your project directory, show hidden folders, and delete the *.vs* folder.

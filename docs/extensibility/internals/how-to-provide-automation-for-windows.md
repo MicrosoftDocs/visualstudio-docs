@@ -1,16 +1,16 @@
 ---
-title: "How to: Provide Automation for Windows | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: 'How to: Provide Automation for Windows | Microsoft Docs'
+ms.date: 11/04/2016
+ms.topic: how-to
 helpviewer_keywords:
-  - "automation [Visual Studio SDK], tool windows"
-  - "tool windows, automation"
+- automation [Visual Studio SDK], tool windows
+- tool windows, automation
 ms.assetid: 512ab2a4-7987-4912-8f40-8804bf66f829
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # How to: Provide automation for windows
 

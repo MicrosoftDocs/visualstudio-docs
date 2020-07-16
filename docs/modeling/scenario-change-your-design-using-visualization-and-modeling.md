@@ -1,7 +1,7 @@
 ---
 title: 'Scenario: Change your design using visualization and modeling'
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: overview
 helpviewer_keywords:
 - code visualization [Visual Studio ALM]
 - modeling software [Visual Studio ALM]
@@ -180,7 +180,7 @@ See:
 
 - [Use the visual designer](/azure/devops/pipelines/get-started-designer)
 
-- [TFVC gated check-in](/azure/devops/pipelines/build/triggers#gated)
+- [TFVC gated check-in](/azure/devops/pipelines/build/triggers)
 
 - [Build and release tasks](/azure/devops/pipelines/tasks/index)
 

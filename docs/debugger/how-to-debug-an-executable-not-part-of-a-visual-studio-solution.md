@@ -1,25 +1,25 @@
 ---
-title: "Debug an app that isn't part of a Visual Studio solution"
-titleSuffix: ""
-ms.custom: ""
-ms.date: "02/21/2020"
-ms.topic: "conceptual"
-dev_langs:
-  - "CSharp"
-  - "VB"
-  - "FSharp"
-  - "C++"
-  - "JScript"
-helpviewer_keywords:
-  - "debugging [Visual Studio], executables"
-  - "executable files, importing"
-  - "executable files, debugging outside of projects"
+title: Debug an app that isn't part of a Visual Studio solution
+titleSuffix: 
+ms.custom: 
+ms.date: 02/21/2020
+ms.topic: how-to
+dev_langs: 
+  - CSharp
+  - VB
+  - FSharp
+  - C++
+  - JScript
+helpviewer_keywords: 
+  - debugging [Visual Studio], executables
+  - executable files, importing
+  - executable files, debugging outside of projects
 ms.assetid: 3ea176e8-1ce5-42c4-b7a2-abe3a2765033
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
-ms.workload:
-  - "multiple"
+ms.workload: 
+  - multiple
 ---
 # Debug an app that isn't part of a Visual Studio solution (C++, C#, Visual Basic, F#)
 

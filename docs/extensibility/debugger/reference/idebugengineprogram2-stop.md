@@ -1,20 +1,20 @@
 ---
-title: "IDebugEngineProgram2::Stop | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugEngineProgram2::Stop | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugEngineProgram2::Stop"
+- IDebugEngineProgram2::Stop
 helpviewer_keywords:
-  - "IDebugEngineProgram2::Stop"
+- IDebugEngineProgram2::Stop
 ms.assetid: 6e1c3d56-fb67-4a5b-80f9-8ee5131972bf
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugEngineProgram2::Stop
 Stops all threads running in this program.

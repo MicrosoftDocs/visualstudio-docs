@@ -1,19 +1,19 @@
 ---
-title: "SolutionFolder Element (Visual Studio Templates) | Microsoft Docs"
-ms.date: "11/04/2016"
+title: SolutionFolder Element (Visual Studio Templates) | Microsoft Docs
+ms.date: 11/04/2016
 ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
-  - "http://schemas.microsoft.com/developer/vstemplate/2005#SolutionFolder"
+- http://schemas.microsoft.com/developer/vstemplate/2005#SolutionFolder
 helpviewer_keywords:
-  - "<SolutionFolder> element [Visual Studio Templates]"
-  - "SolutionFolder element [Visual Studio Templates]"
+- <SolutionFolder> element [Visual Studio Templates]
+- SolutionFolder element [Visual Studio Templates]
 ms.assetid: 963f0398-fb50-4d8e-879d-d48f8b7c6d80
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # SolutionFolder Element (Visual Studio Templates)
 Groups projects in multi-project templates.

@@ -1,12 +1,12 @@
 ---
-title: "How to: Use Rule-based UI Context for Visual Studio Extensions | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: 'How to: Use Rule-based UI Context for Visual Studio Extensions | Microsoft Docs'
+ms.date: 11/04/2016
+ms.topic: how-to
 ms.assetid: 8dd2cd1d-d8ba-49b9-870a-45acf3a3259d
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # How to: Use rule-based UI Context for Visual Studio extensions
 

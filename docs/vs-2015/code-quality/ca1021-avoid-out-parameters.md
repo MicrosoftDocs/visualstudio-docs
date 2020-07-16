@@ -19,7 +19,7 @@ manager: "wpickett"
 # CA1021: Avoid out parameters
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-|||
+|Item|Value|
 |-|-|
 |TypeName|AvoidOutParameters|
 |CheckId|CA1021|

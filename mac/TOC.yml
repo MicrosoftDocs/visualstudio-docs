@@ -6,6 +6,8 @@
       href: ide-tour.md
     - name: Visual Studio for Mac for Windows Users
       href: vsmac-for-windows-users.md
+    - name: Integrated Terminal
+      href: integrated-terminal.md
 - name: Installation
   items: 
     - name: Installing Visual Studio 2019 for Mac
@@ -175,9 +177,9 @@
         - name: Using Unity Tools
           href: using-vsmac-tools-unity.md
         - name: Using .NET 4.x in Unity
-          href: /visualstudio/cross-platform/unity-scripting-upgrade/?context=visualstudio/mac/context
+          href: /visualstudio/cross-platform/unity-scripting-upgrade?context=visualstudio/mac/context
         - name: Change Log
-          href: /visualstudio/cross-platform/change-log-visual-studio-tools-for-unity-mac/?context=visualstudio/mac/context
+          href: /visualstudio/cross-platform/change-log-visual-studio-tools-for-unity-mac?context=visualstudio/mac/context
     - name: Mobile apps with Xamarin
       href: /visualstudio/mac/xamarin
 - name: Accessibility

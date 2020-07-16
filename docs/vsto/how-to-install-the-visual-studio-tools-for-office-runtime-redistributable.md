@@ -3,7 +3,7 @@ title: "How to: Install the Visual Studio Tools for Office runtime redistributab
 titleSuffix: ""
 ms.custom: "seodec18"
 ms.date: "08/14/2019"
-ms.topic: "conceptual"
+ms.topic: "how-to"
 dev_langs:
   - "VB"
   - "CSharp"

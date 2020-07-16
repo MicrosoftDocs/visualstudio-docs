@@ -1,7 +1,7 @@
 ---
 title: Validate data in datasets
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 f1_keywords:
 - DataTable.ColumnChanging
 - System.Data.DataTable.ColumnChanging

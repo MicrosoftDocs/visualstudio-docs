@@ -1,7 +1,7 @@
 ---
 title: "IDiaSymbol::findSymbolsByRVAForAcceleratorPointerTag | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 ms.assetid: 024ccd78-5867-4ca7-bc26-548758e9ac53

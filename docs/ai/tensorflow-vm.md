@@ -2,9 +2,10 @@
 title: Run a TensorFlow model in the cloud
 description: run a tensorflow model in azure deep learning vm
 keywords: ai, visual studio, deep learning virtual machine
-author: lisawong19
-ms.author: liwong
-manager: routlaw
+author: jillre
+ms.author: jillfra
+manager: jillfra
+monikerRange: vs-2017
 ms.date: 11/13/2017
 ms.topic: tutorial
 ms.devlang: python

@@ -1,19 +1,19 @@
 ---
-title: "IDebugComPlusSymbolProvider2::FunctionHasLineInfo | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugComPlusSymbolProvider2::FunctionHasLineInfo | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
-  - "FunctionHasLineInfo"
-  - "IDebugComPlusSymbolProvider2::FunctionHasLineInfo"
+- FunctionHasLineInfo
+- IDebugComPlusSymbolProvider2::FunctionHasLineInfo
 ms.assetid: e1b508f1-6521-492f-b110-ab957744a037
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugComPlusSymbolProvider2::FunctionHasLineInfo
 Determines if the specified method has line information.

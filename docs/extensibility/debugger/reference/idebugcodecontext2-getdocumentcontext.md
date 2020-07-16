@@ -1,20 +1,20 @@
 ---
-title: "IDebugCodeContext2::GetDocumentContext | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugCodeContext2::GetDocumentContext | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugCodeContext2::GetDocumentContext"
+- IDebugCodeContext2::GetDocumentContext
 helpviewer_keywords:
-  - "IDebugCodeContext2::GetDocumentContext"
+- IDebugCodeContext2::GetDocumentContext
 ms.assetid: d552cc92-963f-43c1-949f-ae6b63a427b8
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugCodeContext2::GetDocumentContext
 Gets the document context that corresponds to this code context. The document context represents a position in the source file that corresponds to the source code that generated this instruction.

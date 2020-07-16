@@ -33,7 +33,7 @@ You can use the visualization and modeling tools in Visual Studio to help you un
 
 ## What do you want to do?
 
-|||
+|Scenario|Articles|
 |-|-|
 |**Understand code and its relationships:**<br /><br /> Map relationships between specific pieces of code.<br /><br /> See an overview of the relationships in your code for the entire solution.<br /><br /> **Note**: In this release of Visual Studio, the term *code map* is used in place of *dependency graph*.|-   [Map dependencies across your solutions](../modeling/map-dependencies-across-your-solutions.md)<br />-   [Use code maps to debug your applications](../modeling/use-code-maps-to-debug-your-applications.md)<br />-   [Find potential problems using code map analyzers](../modeling/find-potential-problems-using-code-map-analyzers.md)<br />-   [Map methods on the call stack while debugging](../debugger/map-methods-on-the-call-stack-while-debugging-in-visual-studio.md)|
 |**Understand class structures:**<br /><br /> Visualize the structure of classes in a project by creating class diagrams from code.|[How to: Add Class Diagrams to Projects (Class Designer)](../ide/how-to-add-class-diagrams-to-projects-class-designer.md)|
@@ -45,7 +45,7 @@ You can use the visualization and modeling tools in Visual Studio to help you un
 |**Category**|**Links**|
 |------------------|---------------|
 |**Forums**|-   [Visual Studio Visualization & Modeling Tools](https://social.msdn.microsoft.com/Forums/en-US/home?forum=vsarch)<br />-   [Visual Studio Visualization & Modeling SDK (DSL Tools)](https://social.msdn.microsoft.com/Forums/home?forum=dslvsarchx)|
-|**Blogs**|[Visual Studio ALM + Team Foundation Server Blog](https://blogs.msdn.com/b/visualstudioalm)|
+|**Blogs**|[Visual Studio ALM + Team Foundation Server Blog](https://devblogs.microsoft.com/devops/welcome-to-the-visual-studio-alm-team-foundation-server-blog/)|
 |**Technical Articles and Journals**|[MSDN Architecture Forum](https://msdn.microsoft.com/architecture/default.aspx)|
 
 ## See Also

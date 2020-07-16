@@ -1,29 +1,29 @@
 ---
-title: "How to: Debug Injected Code | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-f1_keywords:
-  - "vs.debug.injected"
-dev_langs:
-  - "CSharp"
-  - "VB"
-  - "FSharp"
-  - "C++"
-helpviewer_keywords:
-  - "assembly language, viewing"
-  - "debugging [C++], viewing assembly code"
-  - "debugging [C++], injected code"
-  - "debugging [C++], enabling source annotation"
-  - "injected code"
-  - "Show Source Code command [debugger]"
-  - "debugging [C++], using attributes"
-  - "disassembly code, debugging"
+title: How to - Debug Injected Code | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: how-to
+f1_keywords: 
+  - vs.debug.injected
+dev_langs: 
+  - CSharp
+  - VB
+  - FSharp
+  - C++
+helpviewer_keywords: 
+  - assembly language, viewing
+  - debugging [C++], viewing assembly code
+  - debugging [C++], injected code
+  - debugging [C++], enabling source annotation
+  - injected code
+  - Show Source Code command [debugger]
+  - debugging [C++], using attributes
+  - disassembly code, debugging
 ms.assetid: a1b4104d-d49e-451f-a91e-e39ceaf35875
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
-ms.workload:
-  - "multiple"
+ms.workload: 
+  - multiple
 ---
 # How to: Debug Injected Code
 

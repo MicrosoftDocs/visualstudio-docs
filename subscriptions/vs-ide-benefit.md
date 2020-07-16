@@ -4,8 +4,8 @@ author: evanwindom
 ms.author: v-evwin
 manager: lank
 ms.assetid: c4b13464-76be-40f1-ad60-ed79ee264b12
-ms.date: 03/25/2020
-ms.topic: conceptual
+ms.date: 04/17/2020
+ms.topic: how-to
 description:  Learn how to download and install the Visual Studio IDE included in your Visual Studio subscription.
 ---
 

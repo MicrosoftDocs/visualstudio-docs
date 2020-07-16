@@ -1,7 +1,7 @@
 ---
 title: 'Walkthrough: Create a code snippet'
-ms.date: 06/10/2019
-ms.topic: conceptual
+ms.date: 03/31/2020
+ms.topic: how-to
 helpviewer_keywords:
 - code snippets, creating
 - code snippets, shortcut
@@ -48,7 +48,7 @@ The following XML is the basic snippet template:
 
 2. Fill in the title of the snippet in the **Title** element. Use the title **Square Root**.
 
-3. Fill in the language of the snippet in the **Language** attribute of the **Code** element. For C#, use **CSharp**, and for Visual Basic, use **VB**.
+3. Fill in the language of the snippet in the **Language** attribute of the **Code** element. For C#, use **CSharp**, for Visual Basic, use **VB**, and for C++, use **CPP**.
 
    > [!TIP]
    > To see all the available language values, browse the [Code element attributes section](code-snippets-schema-reference.md#attributes) on the [Code snippets schema reference](code-snippets-schema-reference.md) page.

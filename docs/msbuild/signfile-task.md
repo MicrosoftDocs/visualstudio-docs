@@ -35,7 +35,7 @@ Signs the specified file using the specified certificate.
 |Parameter|Description|
 |---------------|-----------------|
 |`CertificateThumbprint`|Required `String` parameter.<br /><br /> Specifies the certificate to use for signing. This certificate must be in the current user's personal store.|
-|`SigningTarget`|Required <xref:Microsoft.Build.Framework.ITaskItem> parameter.<br /><br /> Specifies the files to sign with the certificate.|
+|`SigningTarget`|Required <xref:Microsoft.Build.Framework.ITaskItem> parameter.<br /><br /> Specifies the files to sign with the certificate, of type .exe or .dll.|
 |`TimestampUrl`|Optional `String` parameter.<br /><br /> Specifies the URL of a time stamping server.|
 |`TargetFrameworkVersion`|The version of the .NET Framework that is used for the target.|
 

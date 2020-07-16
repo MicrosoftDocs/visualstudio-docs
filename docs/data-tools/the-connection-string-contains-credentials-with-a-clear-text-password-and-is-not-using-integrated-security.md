@@ -1,7 +1,7 @@
 ---
 title: The connection string contains credentials with a clear text password and is not using integrated security
 ms.date: 11/04/2016
-ms.topic: reference
+ms.topic: error-reference
 ms.assetid: 501d85af-92e0-4471-b280-8a59c0688575
 author: ghogen
 ms.author: ghogen

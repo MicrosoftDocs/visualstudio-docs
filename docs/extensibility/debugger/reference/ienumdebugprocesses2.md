@@ -1,17 +1,17 @@
 ---
-title: "IEnumDebugProcesses2 | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IEnumDebugProcesses2 | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IEnumDebugProcesses2"
+- IEnumDebugProcesses2
 helpviewer_keywords:
-  - "IEnumDebugProcesses2"
+- IEnumDebugProcesses2
 ms.assetid: 06a1368f-10f0-44eb-af61-e388c2327111
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # IEnumDebugProcesses2
 This interface enumerates the processes running on a debug port.

@@ -1,20 +1,20 @@
 ---
-title: "THREADSTATE | Microsoft Docs"
-ms.date: "11/04/2016"
+title: THREADSTATE | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "THREADSTATE"
+- THREADSTATE
 helpviewer_keywords:
-  - "THREADSTATE enumeration"
+- THREADSTATE enumeration
 ms.assetid: 62efdd7c-25b1-4fd3-9d06-ac1830a418a9
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # THREADSTATE
 Specifies the state of the thread.

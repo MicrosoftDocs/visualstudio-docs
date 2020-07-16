@@ -4,13 +4,12 @@ description: Debugging a Cloud Service or Virtual Machine in Visual Studio
 author: mikejo5000
 manager: jillfra
 ms.assetid: 945e06e0-2100-41af-b218-72347367ddab
-ms.topic: conceptual
+ms.topic: how-to
 ms.custom: vs-azure
 ms.workload: azure-vs
 ms.date: 11/11/2016
 ms.author: mikejo
 ms.technology: vs-ide-debug
-ms.custom: seodec18
 ---
 # Debugging an Azure cloud service or virtual machine in Visual Studio
 

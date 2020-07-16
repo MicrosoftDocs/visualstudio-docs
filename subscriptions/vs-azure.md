@@ -4,8 +4,8 @@ author: evanwindom
 ms.author: lank
 manager: lank
 ms.assetid: 872c5746-5357-4764-949b-aa525a0adf1a
-ms.date: 03/18/2020
-ms.topic: conceptual
+ms.date: 04/28/2020
+ms.topic: how-to
 description:  Learn how to activate the Azure DevTest individual credit benefit included in your Visual Studio subscription.
 ---
 # Use Microsoft Azure in Visual Studio subscriptions
@@ -36,6 +36,32 @@ As a Visual Studio subscriber, you can use Microsoft Azure at no extra charge.  
 
 0. Bookmark the [Azure portal](https://portal.azure.com) for easy access in the future.
 
+## Maintain a subscription to use monthly credits
+If your Visual Studio subscription expires or is removed, all the subscription benefits, including the monthly Azure dev/test individual credit are no longer available. To continue using Azure with a monthly credit, you will need to renew your subscription, purchase a new subscription, or transfer the Azure benefit to an active subscription that includes the Azure dev/test individual credit.  
+
+> [!IMPORTANT]
+> You must transfer your resources to another Azure subscription before your current Azure subscription is disabled or you will lose access to your data.  
+
+There are several ways to continue using a monthly credit for Azure.  To save your Azure resources, you will need to [transfer your resources](https://docs.microsoft.com/azure/azure-resource-manager/management/move-resource-group-and-subscription) to another Azure subscription, regardless of the action you choose below. 
+
+- **If you purchase your Visual Studio subscription directly**, purchase a new subscription or renew your subscription through Microsoft Store.  
+    - [Visual Studio Enterprise](https://www.microsoft.com/p/visual-studio-enterprise-subscription/dg7gmgf0dst4?activetab=pivot%3aoverviewtab)
+    - [Visual Studio Professional](https://www.microsoft.com/p/visual-studio-professional-subscription/dg7gmgf0dst3?activetab=pivot%3aoverviewtab)
+    - [Visual Studio Test Professional](https://www.microsoft.com/p/visual-studio-test-professional-subscription/dg7gmgf0dst6?activetab=pivot%3aoverviewtab)
+- **If someone in your organization purchases subscriptions for your organization**, [contact your Visual Studio subscription administrator](https://docs.microsoft.com/visualstudio/subscriptions/contact-my-admin) and request a subscription that provides the monthly credit that you need.  
+- **If you have another active Visual Studio subscription** at the same subscription level that’s associated with another Microsoft account, you may transfer the Azure benefit to another active Visual Studio subscription by [adding an alternate account](https://docs.microsoft.com/visualstudio/subscriptions/manage-vs-subscriptions#managing-my-profile) in the Visual Studio [subscriptions portal](https://my.visualstudio.com/subscriptions).  
+
+Use the Eligibility table below to determine how many credits are included with each subscription type.  
+
+
+## Convert your Azure subscription to Pay-As-You-Go
+
+If you no longer need a Visual Studio subscription or credit but you want to continue using your Azure resources, [transfer your resources](https://docs.microsoft.com/azure/azure-resource-manager/management/move-resource-group-and-subscription) to another Azure subscription, or convert your Azure subscription to pay-as-you-go pricing by [removing your spending limit](https://docs.microsoft.com/azure/cost-management-billing/manage/spending-limit#remove-the-spending-limit-in-azure-portal). 
+
+If you don’t take one of these actions, your Azure subscription will be disabled and deleted 30 days after receiving the email notification.  
+
+## Have a question?
+If you have questions about transferring resources, removing spending limits, or other Azure topics, you can [submit an Azure support request](https://portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade/overview) in the Azure portal. 
 
 ## Eligibility
 |                 Subscription Level / Program                 |           Benefit           |                         Renewable?                          |
@@ -74,31 +100,8 @@ A:  Submitting a support incident from the Azure portal is a three-step process.
 
 Please visit the [Technical support](vs-tech-support.md) documentation for complete details.
 
-### Q: How owns the intellectual property I create using my Azure DevTest individual credit?
+### Q: Who owns the intellectual property I create using my Azure DevTest individual credit?
 A:  Intellectual property produced by an employee created on resources provided by that company is thereby intellectual property of the company providing the resource. So, if you received your Visual Studio subscription through your employer, their intellectual property policies would apply. 
-
-### Q: I’ve received a message stating that my access to Azure will end soon.  What can I do to continue using Azure?
-A:  You’re receiving this email because you use the Azure benefit associated with your Visual Studio subscription, and that subscription has expired or been removed.  To continue to use Azure, you have several options:
-
-**Recommended action:**
-
-To continue using your Visual Studio Azure DevTest individual credit and discounts, take one of the following steps:
-
-If someone in your team or organization purchases subscriptions on your behalf, contact your organization’s Visual Studio administrator and request a Visual Studio subscription that entitles you to the Azure DevTest individual credit amount you need.   Please request the administrator to assign the new subscription to the same user ID that your previous subscription was assigned to, so that you don’t have to worry about transferring your Azure subscription.
-
-If you can purchase a subscription directly, take advantage of a discount by renewing your current subscription through the [Microsoft Store](https://www.microsoft.com/en-us/search/result.aspx?q=visual+studio+subscription).
-
-Compare all the [subscriptions and their benefits](https://visualstudio.microsoft.com/vs/pricing/).
-
-If you have another active Visual Studio subscription at the **same** subscription level under a Microsoft account, you can link it to this Azure benefit by adding an [alternate account](manage-vs-subscriptions.md#linking-my-subscription-to-existing-azure-devops-services-or-azure-subscriptions) in the Visual Studio subscription portal. If this doesn’t work, you can also try [transferring your Azure benefit](/azure/billing/billing-subscription-transfer/) to the active Visual Studio subscription.
-
-If you have another active Visual Studio subscription at a **different** subscription level and under a Microsoft account, contact [Azure support](https://portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade) for assistance.
-
-If your subscription has a spending limit and you take no action before it expires, the Azure subscription(s) your Azure subscription will be disabled. To convert it to a pay-as-you-go offer and continue to use it, add a payment instrument and [remove your spending limit](/azure/billing/billing-spending-limit/).
-
-If you prefer not to continue this Visual Studio Azure subscription, you may transfer your resources such as virtual machines and databases to another Azure subscription and [cancel](https://azure.microsoft.com/support/cancel-account/) this subscription any time.
-
-If you believe you’ve received this email in error, please contact [Azure customer support](https://portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade).
 
 ## Support resources
 - Need help with Azure?  Check out these resources:

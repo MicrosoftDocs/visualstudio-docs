@@ -73,7 +73,7 @@ To enable access to the functions in the project under test, add a reference to 
 
 ### Link to object or library files
 
-If the test code doesn't export the functions that you want to test, you can add the output .obj or .lib files to the dependencies of the test project. For more information, see [To link the tests to the object or library files](/visualstudio/test/how-to-use-microsoft-test-framework-for-cpp#object_files).
+If the test code doesn't export the functions that you want to test, you can add the output .obj or .lib files to the dependencies of the test project. For more information, see [To link the tests to the object or library files](how-to-use-microsoft-test-framework-for-cpp.md#object_files).
 
 ### Add #include directives for header files
 

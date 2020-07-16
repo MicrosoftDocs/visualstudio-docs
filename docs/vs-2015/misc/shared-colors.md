@@ -1608,9 +1608,8 @@ Use …
   
 ## Color value reference  
   
-|||||||||  
-|-|-|-|-|-|-|-|-|  
-|Component|Part|Element|State|Light|Dark|Blue|High Contrast|  
+|Component|Part|Element|State|Light|Dark|Blue|High Contrast|
+|---------|----|-------|-----|-----|----|----|----|  
 |Divider lines|||Default|FFEEEEF2|FF2D2D30|FFEEEEF2|ControlDark|  
 |Expander glyph||Foreground|Default|||||  
 |Expander glyph||Foreground|Hover|||||  

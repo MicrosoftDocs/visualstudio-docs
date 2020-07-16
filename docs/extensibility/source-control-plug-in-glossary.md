@@ -1,16 +1,16 @@
 ---
-title: "Source Control Plug-in Glossary | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Source Control Plug-in Glossary | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "glossary [Visual Studio SDK]"
-  - "source control plug-ins, glossary"
+- glossary [Visual Studio SDK]
+- source control plug-ins, glossary
 ms.assetid: f224bbc9-38fc-4c80-ab09-51dcc8969f8e
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Source Control Plug-in Glossary
 The following helpful terms and definitions pertain to the Source Control Plug-in SDK documentation.

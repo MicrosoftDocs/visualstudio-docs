@@ -4,8 +4,8 @@ author: evanwindom
 ms.author: v-evwin
 manager: lank
 ms.assetid: bc8b526c-2fed-4ac8-aaa2-73d2495256fd
-ms.date: 03/26/2020
-ms.topic: conceptual
+ms.date: 04/20/2020
+ms.topic: how-to
 description:  Learn about the Pluralsight training subscription included with selected Visual Studio subscriptions.
 ---
 
@@ -20,7 +20,7 @@ The table below details what Pluralsight subscription benefits are available to 
 ## Activation steps
 1. To activate your subscription, connect to [https://my.visualstudio.com/benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs) and click on the **Get code** link on the Pluralsight benefit tile, located in the Professional Development section.
    > [!div class="mx-imgBorder"]
-   > ![Pluralsight Benefit Tile](_img/vs-pluralsight/vs-pluralsight-3month-tile.png)
+   > ![Pluralsight Benefit Tile](_img/vs-pluralsight/vs-pluralsight-6month-tile.png)
    >
    > [!IMPORTANT]
    > When you click on the "Get Code" link on the Pluralsight benefit tile, you may receive the following message:

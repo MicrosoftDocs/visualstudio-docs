@@ -19,7 +19,7 @@ manager: "wpickett"
 # CA1018: Mark attributes with AttributeUsageAttribute
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-|||
+|Item|Value|
 |-|-|
 |TypeName|MarkAttributesWithAttributeUsage|
 |CheckId|CA1018|

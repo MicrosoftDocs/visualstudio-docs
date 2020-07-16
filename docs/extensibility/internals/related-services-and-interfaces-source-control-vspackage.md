@@ -1,16 +1,16 @@
 ---
-title: "Related Services and Interfaces (Source Control VSPackage) | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Related Services and Interfaces (Source Control VSPackage) | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "source control packages, interfaces"
-  - "interfaces, source control packages"
+- source control packages, interfaces
+- interfaces, source control packages
 ms.assetid: 3e96e838-5675-46bb-99cf-40d420086038
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Related Services and Interfaces (Source Control VSPackage)
 This section lists all the source control VSPackage-related interfaces in the [!INCLUDE[vsipsdk](../../extensibility/includes/vsipsdk_md.md)]. The source control VSPackage implements some of these interfaces and uses others to accomplish source control tasks.

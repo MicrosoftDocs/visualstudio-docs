@@ -1,18 +1,18 @@
 ---
-title: "Create custom views of C++ objects"
+title: Create custom views of C++ objects
 description: Use the Natvis framework to customize the way that Visual Studio displays native types in the debugger
-ms.date: "03/02/2020"
-ms.topic: "conceptual"
-f1_keywords:
-  - "natvis"
-dev_langs:
-  - "C++"
+ms.date: 03/02/2020
+ms.topic: how-to
+f1_keywords: 
+  - natvis
+dev_langs: 
+  - C++
 ms.assetid: 2d9a177a-e14b-404f-a6af-49498eff0bd7
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
-ms.workload:
-  - "cplusplus"
+ms.workload: 
+  - cplusplus
 ---
 # Create custom views of C++ objects in the debugger using the Natvis framework
 
@@ -146,7 +146,7 @@ You can also add or delete *.natvis* files in a solution that you're debugging, 
 
 You can't update *.natvis* files that are embedded in *.pdb* files while you're debugging.
 
-If you modify the *.natvis* file outside of Visual Studio, the changes don't take effect automatically. To update the debugger windows, you can reevaluate the **.natvisreload** command in the **Watch** window. Then the changes take effect without restarting the debugging session.
+If you modify the *.natvis* file outside of Visual Studio, the changes don't take effect automatically. To update the debugger windows, you can reevaluate the **.natvisreload** command in the **Immediate** window. Then the changes take effect without restarting the debugging session.
 
 Also use the **.natvisreload** command to upgrade the *.natvis* file to a newer version. For example, the *.natvis* file may be checked into source control, and you want to pick up recent changes that somebody else made.
 

@@ -1,16 +1,16 @@
 ---
-title: "Bitmap Element | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Bitmap Element | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "VSCT XML schema elements, Bitmaps"
-  - "Bitmaps element (VSCT XML schema)"
+- VSCT XML schema elements, Bitmaps
+- Bitmaps element (VSCT XML schema)
 ms.assetid: edcd7891-f4e7-416d-809d-5e2eed9f17e4
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Bitmap element
 Defines a bitmap. The bitmap is loaded either from a resource or from a file.
