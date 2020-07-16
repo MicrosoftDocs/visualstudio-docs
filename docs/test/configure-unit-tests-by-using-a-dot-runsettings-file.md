@@ -127,19 +127,7 @@ The file appears on the Test menu, and you can select or deselect it. While sele
 
 To run tests from the command line, use *vstest.console.exe*, and specify the settings file by using the **/Settings** parameter.
 
-1. Launch the Visual Studio Developer Command Prompt:
-
-   ::: moniker range="vs-2017"
-
-   On the Windows **Start** menu, choose **Visual Studio 2017** > **Developer Command Prompt for VS 2017**.
-
-   ::: moniker-end
-
-   ::: moniker range=">=vs-2019"
-
-   On the Windows **Start** menu, choose **Visual Studio 2019** > **Developer Command Prompt for VS 2019**.
-
-   ::: moniker-end
+1. Open a [Developer Command Prompt](/dotnet/framework/tools/developer-command-prompt-for-vs) for Visual Studio.
 
 2. Enter a command similar to:
 
