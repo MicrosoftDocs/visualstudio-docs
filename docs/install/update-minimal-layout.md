@@ -27,7 +27,7 @@ The minimal layout tool generates a layout tailored specifically to your team's 
 > For a better understanding of the Visual Studio lifecycle, see the [Visual Studio Product Lifecycle and Servicing](/visualstudio/releases/2019/servicing) page.
 >
 
-This tool creates update layouts for Visual Studio 2017 (15.9) and onwards. The layout can be deployed to network/offline machines to update Visual Studio instances. During [normal layout creation](update-a-network-installation-of-visual-studio.md), all the packages for that particular release are downloaded. Normal layout creation is required for repairing, uninstalling and other standard operations on Visual Studio instances. The minimal layout downloads only updated packages, so it's smaller and easier to copy to offline machines.
+This tool creates update layouts for Visual Studio 2017 (15.9) and onwards. The layout can be deployed to network/offline machines to update Visual Studio instances. During [normal layout creation](update-a-network-installation-of-visual-studio.md), all the packages for that particular release are downloaded. Normal layout creation is required for repairing, uninstalling, and other standard operations on Visual Studio instances. The minimal layout downloads only updated packages, so it's smaller and easier to copy to offline machines.
 
 ### Installing the minimal layout tool
  
@@ -68,7 +68,7 @@ This tool creates update layouts for Visual Studio 2017 (15.9) and onwards. The 
 |--targetVersion &lt;version&gt;|The minimal offline layout will be generated up to and including this version.|Required|--targetVersion 16.4.4
 |--languages    |Specifies the languages to include in the minimal offline layout. Multiple values can be specified, separated by spaces.    |Required    |--languages en-US fr-FR
 |--productId &lt;id&gt;    |The ID of the product from which the minimal offline layout will be generated. <br> <ul><li>Microsoft.VisualStudio.Product.Enterprise</li><li>Microsoft.VisualStudio.Product.Professional</li><li>Microsoft.VisualStudio.Product.BuildTools</li><li>Microsoft.VisualStudio.Product.TestAgent</li><li>Microsoft.VisualStudio.Product.TestController</li><li>Microsoft.VisualStudio.Product.TeamExplorer</li></ul>|Required|--productId Microsoft.VisualStudio.Product.Enterprise
-|--filePath    |The file path of the MinimalLayout.json file from an already created layout. This is only used with the Regenerate command.     |Required for Regenerate command    |--filePath C:\VSLayout\minimalLayout.json <br><br> **Note that the Regenerate command only takes --filePath as an option.**
+|--filePath    |The file path of the MinimalLayout.json file from an already created layout. This option is only used with the Regenerate command.     |Required for Regenerate command    |--filePath C:\VSLayout\minimalLayout.json <br><br> **Note that the Regenerate command only takes --filePath as an option.**
 |--add &lt;one or more workload or component IDs&gt;    |Specifies one or more workload or component IDs to add. Additional components can be added globally using --includeRecommended and/or <br> –-includeOptional. Multiple workloads or component IDs can be specified, separated by a space.    |Optional    |--add Microsoft.VisualStudio.Workload.ManagedDesktop Microsoft.VisualStudio.Workload.NetWeb Component.GitHub.VisualStudio
 |--includeRecommended    |Includes the recommended components for any workloads that are installed, but not the optional components.    |Optional    |For a  specific workload: <br> --add Microsoft.VisualStudio.Workload. ManagedDesktop;includeRecommended <br><br> To apply to all workloads: --includeRecommended 
 |--includeOptional |Includes the optional components for any workloads that are installed, including the recommended components.    |Optional    |For a specific workload: <br>--add Microsoft.VisualStudio.Workload. ManagedDesktop;includeOptional <br><br> To apply to all workloads: --includeOptional
@@ -148,7 +148,7 @@ Navigate to the folder and identify the bootstrapper application name. The name 
 |Microsoft.VisualStudio.Product.Professional    |vs_professional.exe|
 |Microsoft.VisualStudio.Product.BuildTools    |vs_buildtools.exe|
 
-The update is applied to a Visual Studio instance in 2 steps. Start by updating the Visual Studio Installer, then update Visual Studio.
+The update is applied to a Visual Studio instance in two steps. Start by updating the Visual Studio Installer, then update Visual Studio.
 
 1. **Update the Visual Studio Installer** 
 
@@ -162,7 +162,7 @@ The update is applied to a Visual Studio instance in 2 steps. Start by updating 
 
     To update Visual Studio, you need to specify the installPath of the Visual Studio instance you wish to update. If multiple instances of Visual Studio are installed, each one needs to be updated separately. We strongly recommend you specify the `–noWeb` option with the update command to prevent the installation of components that aren't in the minimal layout. This prevents you from leaving Visual Studio in an unusable state.
 
-    Run the following command, substituting the installPath command line parameter appropriately. Be sure to use the correct bootstrapper application name as well.
+    Run the following command, substituting the installPath command-line parameter appropriately. Be sure to use the correct bootstrapper application name as well.
 
     ```cmd
     vs_enterprise.exe update --noWeb --quiet --installpath "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise"
