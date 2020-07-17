@@ -56,5 +56,4 @@ To get started using Local Process with Kubernetes to connect to your local deve
 [azds-tmp-dir]: /azure/dev-spaces/troubleshooting#before-you-begin
 [azure-cli]: /cli/azure/install-azure-cli?view=azure-cli-latest
 [local-process-kubernetes-vs]: local-process-kubernetes.md
-[how-it-works-routing]: how-dev-spaces-works-routing.md
 [kubectl-port-forward]: https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#port-forward
