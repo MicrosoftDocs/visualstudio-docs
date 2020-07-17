@@ -18,7 +18,7 @@ Local Process with Kubernetes redirects traffic between your connected Kubernete
 
 ## Using Local Process with Kubernetes
 
-To use Local Process with Kubernetes in Visual Studio, you need [Visual Studio 2019][visual-studio] running on Windows 10 with the *ASP.NET and web development* workload installed and the [Local Process Kubernetes Extension][lpk-extension] installed. When you use Local Process with Kubernetes to establish a connection to your Kubernetes cluster, you have the option of redirecting all traffic to and from an existing pod in the cluster to your development computer.
+To use Local Process with Kubernetes in Visual Studio, you need [Visual Studio 2019][visual-studio] version 16.7 Preview 4 or greater running on Windows 10 with the *ASP.NET and web development* workload installed and the [Local Process Kubernetes Extension][lpk-extension] installed. When you use Local Process with Kubernetes to establish a connection to your Kubernetes cluster, you have the option of redirecting all traffic to and from an existing pod in the cluster to your development computer.
 
 > [!NOTE]
 > When using Local Process with Kubernetes, you are prompted for the name of the service to redirect to your development computer. This option is a convenient way to identify a pod for redirection. All redirection between your Kubernetes cluster and your development computer is for a pod.
