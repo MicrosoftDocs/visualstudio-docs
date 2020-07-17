@@ -1,9 +1,9 @@
 ---
 title: Update Visual Studio using a minimal offline layout
 description: Learn how to Update Visual Studio using a minimal offline layout.
-ms.date: 07/16/2020
+ms.date: 07/17/2020
 ms.custom: seodec18
-ms.topic: conceptual
+ms.topic: how-to
 ms.assetid: 
 author: ornellaalt
 ms.author: ornella
@@ -31,7 +31,7 @@ This tool creates update layouts for Visual Studio 2017 (15.9) and onwards. The 
 
 ### Installing the minimal layout tool
  
- * First, download the minimal layout tool located [here](http://aka.ms/vs/installer/minimallayout). Make sure to choose **Save** when prompted, then select **Run**.
+ * First, download the minimal layout tool located [here](https://aka.ms/vs/installer/minimallayout). Make sure to choose **Save** when prompted, then select **Run**.
 
  ![Save minimal layout tool](media/save-minimal-layout.png)
 
@@ -61,6 +61,7 @@ This tool creates update layouts for Visual Studio 2017 (15.9) and onwards. The 
 5. **Fix**: Use this command to fix a corrupted layout folder, including replacing any missing packages from the layout folder.
 
 #### Options 
+
 |Options    |Description    |Required/Optional|Example|
 |:----------|:-----------|:------------|:--------------|
 |--targetLocation &lt;dir&gt;    |Specifies a directory in which to create a minimal offline layout.       |Required        |--targetLocation c:\VSLayout\
