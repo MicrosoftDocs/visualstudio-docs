@@ -62,8 +62,8 @@ This tool creates update layouts for Visual Studio 2017 (15.9) and onwards. The 
 
 #### Options 
 
-|Options    |Description    |Required or Optional |Example |
-|:----------|:-----------|:------------|:--------------|
+|Options    |Description    |Required/Optional |Example |
+|----------|-----------|------------|--------------|
 |--targetLocation &lt;dir&gt;    |Specifies a directory in which to create a minimal offline layout.       |Required        |--targetLocation c:\VSLayout\
 |--baseVersion &lt;version&gt;|The minimal offline layout will be generated starting with this version.   |Required|--baseVersion 16.4.0
 |--targetVersion &lt;version&gt;|The minimal offline layout will be generated up to and including this version.|Required|--targetVersion 16.4.4
