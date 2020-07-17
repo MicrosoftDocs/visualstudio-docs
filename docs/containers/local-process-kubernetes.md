@@ -33,10 +33,6 @@ This guide uses the [Bike Sharing sample application][bike-sharing-github] to de
 * [Local Process for Kubernetes extension installed][lpk-extension]
 * [Azure Dev Spaces CLI installed][azds-cli].
 
-### Enable the Local Process with Kubernetes preview feature in Visual Studio
-
-To enable Local Process with Kubernetes in Visual Studio, click *Tools* > *Options* > *Environment* > *Preview Features*. Select *Enable local debugging for Kubernetes services*.
-
 Also, for .NET console applications, install the *Microsoft.VisualStudio.Azure.Kubernetes.Tools.Targets* NuGet Package.
 
 ## Create a Kubernetes cluster
