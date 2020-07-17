@@ -103,7 +103,7 @@ Not all error messages have a specific associated Help topic. If the information
 
 ## Knowledge Base articles
 
-You can search the Knowledge Base (KB) online for articles about product issues. Not all issues have a corresponding KB article, but errors encountered by a significant number of customers are typically documented. You can can view Visual Studio-specific KB articles on the [Visual Studio troubleshooting](/troubleshoot/visualstudio/welcome-visual-studio/) page. And, you can access KB articles for most Microsoft products and services on the [Microsoft Support](https://support.microsoft.com) website.
+You can search the Knowledge Base (KB) online for articles about product issues. Not all issues have a corresponding KB article, but errors encountered by a significant number of customers are typically documented. You can access KB articles on the [Microsoft Support](https://support.microsoft.com) website. You can also view a collection of KB articles for Visual Studio on the [Visual Studio troubleshooting](/troubleshoot/visualstudio/welcome-visual-studio/) page.
 
 ## Developer forums
 
