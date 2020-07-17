@@ -57,3 +57,4 @@ To get started using Local Process with Kubernetes to connect to your local deve
 [azure-cli]: /cli/azure/install-azure-cli?view=azure-cli-latest
 [local-process-kubernetes-vs]: local-process-kubernetes.md
 [kubectl-port-forward]: https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#port-forward
+[visual-studio]: https://visualstudio.microsoft.com/downloads/
