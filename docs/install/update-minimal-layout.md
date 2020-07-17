@@ -31,7 +31,7 @@ This tool creates update layouts for Visual Studio 2017 (15.9) and onwards. The 
 
 ### Installing the minimal layout tool
  
- * First, download the minimal layout tool located [here](https://aka.ms/vs/install/minimallayout). Make sure to choose **Save** when prompted, then select **Run**.
+ * First, download the minimal layout tool located [here](http://aka.ms/vs/installer/minimallayout). Make sure to choose **Save** when prompted, then select **Run**.
 
  ![Save minimal layout tool](media/save-minimal-layout.png)
 
