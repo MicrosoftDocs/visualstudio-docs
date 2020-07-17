@@ -29,9 +29,8 @@ This guide uses the [Bike Sharing sample application][bike-sharing-github] to de
 
 * An Azure subscription. If you don't have an Azure subscription, you can create a [free account](https://azure.microsoft.com/free).
 * [Azure CLI installed][azure-cli].
-* [Visual Studio 2019][visual-studio] version 16.7 Preview 4 or greater running on Windows 10 with the *ASP.NET and web development* and *Azure development* workloads installed.
-* [Local Process for Kubernetes extension installed][lpk-extension]
-* [Azure Dev Spaces CLI installed][azds-cli].
+* [Visual Studio 2019][visual-studio] version 16.7 Preview 4 or greater running on Windows 10 with the *Azure development* workload installed.
+* [Local Process for Kubernetes extension installed][lpk-extension].
 
 Also, for .NET console applications, install the *Microsoft.VisualStudio.Azure.Kubernetes.Tools.Targets* NuGet Package.
 
