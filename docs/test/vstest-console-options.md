@@ -29,7 +29,7 @@ The following table lists all the options for *VSTest.Console.exe* and short des
 | Option | Description |
 |---|---|
 |**[*test file names*]**|Run tests from the specified files. Separate multiple test file names with spaces.<br />Examples: `mytestproject.dll`, `mytestproject.dll myothertestproject.exe`|
-|**/Settings:[*file name*]**|Run tests with additional settings such as data collectors. For more information, see [Configure unit tests using a .runsettings file](../test/configure-unit-tests-by-using-a-dot-runsettings-file)<br />Example: `/Settings:local.runsettings`|
+|**/Settings:[*file name*]**|Run tests with additional settings such as data collectors. For more information, see [Configure unit tests using a .runsettings file](../test/configure-unit-tests-by-using-a-dot-runsettings-file.md)<br />Example: `/Settings:local.runsettings`|
 |**/Tests:[*test name*]**|Run tests with names that contain the provided values. To provide multiple values, separate them by commas.<br />Example: `/Tests:TestMethod1,testMethod2`<br />The **/Tests** command-line option cannot be used with the **/TestCaseFilter** command-line option.|
 |**/Parallel**|Specifies that the tests be executed in parallel. By default, up to all available cores on the machine can be used. You can configure the number of cores to use in a settings file.|
 |**/Enablecodecoverage**|Enables data diagnostic adapter CodeCoverage in the test run.<br />Default settings are used if not specified using settings file.|
