@@ -80,3 +80,18 @@ landingContent:
             url: docker-compose-properties.md
           - text: Configure container tools
             url: container-tools-configure.md
+
+  - title: Kubernetes development
+    linkLists:
+      - linkListType: tutorial
+        links:
+          - text: Visual Studio Tools for Kubernetes
+            url: tutorial-kubernetes-tools.md
+      - linkListType: quickstart
+        links:
+          - text: Use Local Process with Kubernetes with Visual Studio
+            url: local-process-kubernetes.md
+      - linkListType: overview
+        links:
+          - text: How Local Process with Kubernetes works
+            url: overview-local-process-kubernetes.md
