@@ -40,6 +40,19 @@ Before you install versions side-by-side, review the following conditions:
 
 * Visual Studio doesn't automatically upgrade extensions because not all extensions are compatible. You must reinstall the extensions from the [Visual Studio Marketplace](https://marketplace.visualstudio.com/) or the software publisher.
 
+# Install minor Visual Studio versions side-by-side
+
+When upgrading a minor version to the next the Visual Studio installer will update your current install to the next version in that channel by default. For example, when installing the 16.6.4 preview the installer will try to replace your current install of 16.6.3 preview since they are in the 16.6 preview channel. This helps ensure older versions of Visual Studio aren't taking up room on your machine. In some specific cases, it may be helpful to install minor releases side-by-side. In our example that would mean both 16.6.4 and 16.6.3 are on the same machine.
+
+1. Download the [boostrap installer](https://docs.microsoft.com/visualstudio/releases/2019/history#installing-an-earlier-release) for the minor version you would like to install without replacing any of your current Visual Studio installs.
+2. Open command prompt in administrator mode.
+3. Run the command below after replacing the .exe name with the bootstrapper's exe name and specifying a new folder path for the installation location. 
+```
+vs_Enterprise.exe --installPath "C:\Program Files (x86)\Microsoft Visual Studio\<2019 AddNewPath>"
+```
+4. The new side-by-side minor version should appear in the Visual Studio installer next to your other versions.
+5. Keep in mind that you may need to manually uninstall one of these channels when they are no longer needed since the Visual Studio installer won't clean up these separate channels automatically.
+
 ## .NET Framework versions and side-by-side installations
 
 Visual Basic, Visual C#, and Visual F# projects use the **Target Framework** option in the **Project Designer** to specify which version of the .NET Framework that a project uses. For a C++ project, you can manually change the target framework by modifying the .vcxproj file. For more information, see the [Version compatibility in the .NET Framework](/dotnet/framework/migration-guide/version-compatibility) page.
