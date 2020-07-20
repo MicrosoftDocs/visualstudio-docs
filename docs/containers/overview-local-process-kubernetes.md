@@ -39,6 +39,10 @@ After you establish a connection to your cluster, you can run and debug code nat
 
 By default, Local Process with Kubernetes redirects all traffic for a service to your development computer. You also have the option to use routing capabilities to only redirect requests to a service originating from a subdomain to your development computer. These routing capabilities allow you to use Local Process with Kubernetes to develop in isolation and avoid disrupting other traffic in your cluster.
 
+The following animation shows two developers working on the same cluster in isolation:
+
+![Animated GIF illustrating isolation](media/local-process-kubernetes/lpk-graphic-isolated.gif)
+
 When you enable working in isolation, Local Process with Kubernetes does the following in addition to connecting to your Kubernetes cluster:
 
 * Verifies Kubernetes cluster does not have Azure Dev Spaces enabled.
@@ -86,7 +90,7 @@ Local Process with Kubernetes has the following limitations:
 
 ### Local Process with Kubernetes and clusters with Azure Dev Spaces enabled
 
-You can't use Local Process with Kubernetes on a cluster with Azure Dev Spaces enabled. The routing capabilities provided by Azure Dev Spaces are not compatible with Local Process with Kubernetes when working in isolation. If you would like to use Local Process with Kubernetes on a cluster with Azure Dev Spaces enabled, you must disable Azure Dev Spaces before connecting to your cluster.
+You can't use Local Process with Kubernetes on a cluster with Azure Dev Spaces enabled. If you would like to use Local Process with Kubernetes on a cluster with Azure Dev Spaces enabled, you must disable Azure Dev Spaces before connecting to your cluster.
 
 ## Next steps
 
