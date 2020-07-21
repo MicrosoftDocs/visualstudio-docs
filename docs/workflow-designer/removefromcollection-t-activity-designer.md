@@ -5,8 +5,8 @@ ms.topic: reference
 f1_keywords:
   - "System.Activities.Statements.RemoveFromCollection`1.UI"
 ms.assetid: 6617ba26-c8bc-4aed-b746-112bf490d288
-author: jillre
-ms.author: jillfra
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
   - "multiple"
