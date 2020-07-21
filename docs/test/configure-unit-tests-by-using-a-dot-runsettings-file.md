@@ -232,9 +232,7 @@ This option can help you isolate a problematic test that causes a test host cras
 </DataCollector>
 ```
 
-## TestRunParameters element
-
-Test run parameters provide a way to define variables and values that are available to the tests at run time. 
+### TestRunParameters
 
 ```xml
 <TestRunParameters>
@@ -243,17 +241,20 @@ Test run parameters provide a way to define variables and values that are availa
 </TestRunParameters>
 ```
 
-In your test code, access the parameters using the <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.Properties%2A?displayProperty=nameWithType> property:
+Test run parameters provide a way to define variables and values that are available to the tests at run time. Access the parameters using the MSTest <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.Properties%2A?displayProperty=nameWithType> property (or the NUnit [TestContext](https://docs.nunit.org/articles/nunit/writing-tests/TestContext.html)):
 
 ```csharp
-[TestMethod]
+private string _appUrl;
+public TestContext TestContext { get; set; }
+
+[TestMethod] // [Test] for NUnit
 public void HomePageTest()
 {
-    string appURL = TestContext.Properties["webAppUrl"];
+    string _appURL = TestContext.Properties["webAppUrl"];
 }
 ```
 
-To use test run parameters, add a private <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext> field and a public <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext> property to your test class.
+To use test run parameters, add a public <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext> property to your test class.
 
 ## LoggerRunSettings element
 
