@@ -17,7 +17,7 @@ To start developing native, cross-platform .NET apps on macOS, install Visual St
 
 ## Requirements
 
-- A Mac with macOS Sierra 10.12 or above.
+- A Mac with macOS High Sierra 10.13 or above.
 
 To build Xamarin apps for iOS or macOS, you'll also need:
 
