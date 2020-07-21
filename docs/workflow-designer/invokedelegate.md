@@ -10,7 +10,6 @@ author: TerryGLee
 ms.author: tglee
 ms.workload:
   - "multiple"
-author: jillre
 ---
 # InvokeDelegate
 
