@@ -31,15 +31,15 @@ This tool creates update layouts for Visual Studio 2017 (15.9) and onwards. The 
 
 ### Installing the minimal layout tool
  
- * First, download the minimal layout tool located [here](https://aka.ms/vs/installer/minimallayout). Make sure to choose **Save** when prompted, then select **Run**.
+ 1. First, download the minimal layout tool located [here](https://aka.ms/vs/installer/minimallayout). Make sure to choose **Save** when prompted, then select **Run**.
 
- ![Save minimal layout tool](media/save-minimal-layout.png)
+     ![Save minimal layout tool](media/save-minimal-layout.png)
 
- * Next, accept the User Account Control prompt by clicking **Yes**.
+ 2. Next, accept the User Account Control prompt by clicking **Yes**.
 
- ![Accept user account control](media/accept-user-account-control.png)
+     ![Accept user account control](media/accept-user-account-control.png)
 
- * The minimal layout tool will be installed to `C:\Program Files (x86)\Microsoft Visual Studio\MinimalLayout`.
+ 3. The minimal layout tool will be installed to `C:\Program Files (x86)\Microsoft Visual Studio\MinimalLayout`.
 
 ### How to use the minimal layout tool
 
@@ -48,17 +48,17 @@ This tool creates update layouts for Visual Studio 2017 (15.9) and onwards. The 
 ```MinimalLayout.exe [command] <options>...```
 
 #### Commands
-1. **Preview**: Use this command to preview how many packages will download, and the total space used to create this layout. 
-2. **Generate**: Use this command to generate the minimal layout for updating Visual Studio.
-3. **Regenerate**: Use this command to regenerate a layout using an existing minimal layout response file. Every minimal layout produces a `MinimalLayout.json` response file, which contains the original minimal layout input parameters. You can use the **Regenerate** command and a `MinimalLayout.json` response file to regenerate the minimal layout. This is useful if you want to create a minimal layout for a new Visual Studio update based on the previous minimal layout's response file. 
+* **Preview**: Use this command to preview how many packages will download, and the total space used to create this layout. 
+* **Generate**: Use this command to generate the minimal layout for updating Visual Studio.
+* **Regenerate**: Use this command to regenerate a layout using an existing minimal layout response file. Every minimal layout produces a `MinimalLayout.json` response file, which contains the original minimal layout input parameters. You can use the **Regenerate** command and a `MinimalLayout.json` response file to regenerate the minimal layout. This is useful if you want to create a minimal layout for a new Visual Studio update based on the previous minimal layout's response file. 
    - For this command, a `MinimalLayout.json` file path from an already generated layout is required. 
 
         ```cmd
         MinimalLayout.exe regenerate --filePath C:\MinimalLayout\MinimalLayout.json
         ```
 
-4. **Verify**: Use this command to determine if the layout folder is corrupted.
-5. **Fix**: Use this command to fix a corrupted layout folder, including replacing any missing packages from the layout folder.
+* **Verify**: Use this command to determine if the layout folder is corrupted.
+* **Fix**: Use this command to fix a corrupted layout folder, including replacing any missing packages from the layout folder.
 
 #### Options 
 
