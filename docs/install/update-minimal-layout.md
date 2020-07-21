@@ -1,7 +1,7 @@
 ---
 title: Update Visual Studio using a minimal offline layout
 description: Learn how to Update Visual Studio using a minimal offline layout.
-ms.date: 07/20/2020
+ms.date: 07/21/2020
 ms.custom: seodec18
 ms.topic: how-to
 ms.assetid: 
@@ -63,16 +63,16 @@ This tool creates update layouts for Visual Studio 2017 (15.9) and onwards. The 
 #### Options 
 
 |Options    |Description    |Required/Optional |Example |
-|----------|-----------|------------|--------------|
-|--targetLocation &lt;dir&gt;    |Specifies a directory in which to create a minimal offline layout.       |Required        |--targetLocation c:\VSLayout\
-|--baseVersion &lt;version&gt;|The minimal offline layout will be generated starting with this version.   |Required|--baseVersion 16.4.0
-|--targetVersion &lt;version&gt;|The minimal offline layout will be generated up to and including this version.|Required|--targetVersion 16.4.4
-|--languages    |Specifies the languages to include in the minimal offline layout. Multiple values can be specified, separated by spaces.    |Required    |--languages en-US fr-FR
-|--productId &lt;id&gt;    |The ID of the product from which the minimal offline layout will be generated. <br> <ul><li>Microsoft.VisualStudio.Product.Enterprise</li><li>Microsoft.VisualStudio.Product.Professional</li><li>Microsoft.VisualStudio.Product.BuildTools</li><li>Microsoft.VisualStudio.Product.TestAgent</li><li>Microsoft.VisualStudio.Product.TestController</li><li>Microsoft.VisualStudio.Product.TeamExplorer</li></ul>|Required|--productId Microsoft.VisualStudio.Product.Enterprise
-|--filePath    |The file path of the MinimalLayout.json file from an already created layout. This option is only used with the Regenerate command.     |Required for Regenerate command    |--filePath C:\VSLayout\minimalLayout.json <br><br> **Note that the Regenerate command only takes --filePath as an option.**
-|--add &lt;one or more workload or component IDs&gt;    |Specifies one or more workload or component IDs to add. Additional components can be added globally using --includeRecommended and/or <br> –-includeOptional. Multiple workloads or component IDs can be specified, separated by a space.    |Optional    |--add Microsoft.VisualStudio.Workload.ManagedDesktop Microsoft.VisualStudio.Workload.NetWeb Component.GitHub.VisualStudio
-|--includeRecommended    |Includes the recommended components for any workloads that are installed, but not the optional components.    |Optional    |For a  specific workload: <br> --add Microsoft.VisualStudio.Workload. ManagedDesktop;includeRecommended <br><br> To apply to all workloads: --includeRecommended 
-|--includeOptional |Includes the optional components for any workloads that are installed, including the recommended components.    |Optional    |For a specific workload: <br>--add Microsoft.VisualStudio.Workload. ManagedDesktop;includeOptional <br><br> To apply to all workloads: --includeOptional
+|:----------|:-----------|:------------|:--------------|
+|--targetLocation &lt;dir&gt; |Specifies a directory in which to create a minimal offline layout.       |Required        |--targetLocation c:\VSLayout\ |
+|--baseVersion &lt;version&gt;|The minimal offline layout will be generated starting with this version.   |Required|--baseVersion 16.4.0 |
+|--targetVersion &lt;version&gt;|The minimal offline layout will be generated up to and including this version.|Required|--targetVersion 16.4.4|
+|--languages    |Specifies the languages to include in the minimal offline layout. Multiple values can be specified, separated by spaces.    |Required    |--languages en-US fr-FR |
+|--productId &lt;id&gt;    |The ID of the product from which the minimal offline layout will be generated. <br> <ul><li>Microsoft.VisualStudio.Product.Enterprise</li><li>Microsoft.VisualStudio.Product.Professional</li><li>Microsoft.VisualStudio.Product.BuildTools</li><li>Microsoft.VisualStudio.Product.TestAgent</li><li>Microsoft.VisualStudio.Product.TestController</li><li>Microsoft.VisualStudio.Product.TeamExplorer</li></ul>|Required|--productId Microsoft.VisualStudio.Product.Enterprise |
+|--filePath    |The file path of the MinimalLayout.json file from an already created layout. This option is only used with the Regenerate command.     |Required for Regenerate command    |--filePath C:\VSLayout\minimalLayout.json <br><br> **Note that the Regenerate command only takes --filePath as an option.** |
+|--add &lt;one or more workload or component IDs&gt;    |Specifies one or more workload or component IDs to add. Additional components can be added globally using --includeRecommended and/or <br> –-includeOptional. Multiple workloads or component IDs can be specified, separated by a space.    |Optional    |--add Microsoft.VisualStudio.Workload.ManagedDesktop Microsoft.VisualStudio.Workload.NetWeb Component.GitHub.VisualStudio |
+|--includeRecommended    |Includes the recommended components for any workloads that are installed, but not the optional components.    |Optional    |For a  specific workload: <br> --add Microsoft.VisualStudio.Workload. ManagedDesktop;includeRecommended <br><br> To apply to all workloads: --includeRecommended |
+|--includeOptional |Includes the optional components for any workloads that are installed, including the recommended components.    |Optional    |For a specific workload: <br>--add Microsoft.VisualStudio.Workload. ManagedDesktop;includeOptional <br><br> To apply to all workloads: --includeOptional |
 
 ### Generating a minimal layout
 
