@@ -35,35 +35,35 @@ Learn how to deploy Visual Studio to your enterprise in networked and offline en
 
 ## Installing Visual Studio 
 
-Learn how to install Visual Studio through common scenarios. 
+Learn how to install Visual Studio in common enterprise scenarios. 
 
-Use command-line parameters to install Visual Studio. Use a variety of parameters to control or customize your Visual Studio installation. Automate the installation process or create a cache of the installation files for later use. 
+- **[Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md)**. Use a variety of parameters to control or customize your Visual Studio installation. Automate the installation process or create a cache of the installation files for later use. 
 
-See examples of command-line parameters for Visual Studio installation. To illustrate how to use command-line parameters to install Visual Studio, view several examples that you can customize to match your needs. 
+- **See [command-line parameter examples for Visual Studio installation](command-line-parameter-examples)**. To illustrate how to use command-line parameters to install Visual Studio, view several examples that you can customize to match your needs. 
 
-Install and use Visual Studio and Azure Services behind a firewall or proxy server. If you or your organization uses security measures such as a firewall or a proxy server, then there are domain URLs that you might want to add to an "allow list" and ports and protocols that you might want to open so that you have the best experience when you install and use Visual Studio and Azure Services. 
+- **[Install and use Visual Studio and Azure Services behind a firewall or proxy server](install-and-use-visual-studio-behind-a-firewall-or-proxy-server.md)**. If your organization uses security measures such as a firewall or a proxy server, then there are domain URLs that you might want to add to an "allow list" and ports and protocols that you might want to open so that you have the best experience when you install and use Visual Studio and Azure Services. 
 
-Create a network installation of Visual Studio. Cache the files for the initial installation along with all product updates to a single folder. 
-
-Update a network-based installation of Visual Studio. Update a network installation layout of Visual Studio with the latest product updates so that it can be used both as an installation point for the latest update of Visual Studio and also to maintain installations that are already deployed to client workstations. 
+- **[Create a network installation of Visual Studio](create-a-network-installation-of-visual-studio.md)**. Cache the files for the initial installation along with all product updates to a single folder.  
 
 ## Updating Visual Studio 
 
 Learn how to update Visual Studio successfully and fix update issues. 
 
-Use repair to fix update issues. Sometimes your Visual Studio installation becomes damaged or corrupted. A repair is useful for fixing install-time issues across all install operations, including updates. 
+- **[Update a network-based installation of Visual Studio](update-a-network-installation-of-visual-studio.md)**. Update a network installation layout of Visual Studio with the latest product updates so that it can be used both as an installation point for the latest update of Visual Studio and also to maintain installations that are already deployed to client workstations.
 
-Update Visual Studio while on a servicing baseline. Understand the value in updating on a baseline and learn the difference between minor releases and servicing updates. 
+- **[Update Visual Studio while on a servicing baseline](update-servicing-baseline.md)**. Understand the value in updating on a baseline and learn the difference between minor releases and servicing updates. 
 
-Allen’s Minimal Diff Doc 
+- **[Update Visual Studio using a minimal offline layout](update-minimal-layout.md)**. For computers that are not connected to the internet, creating a minimal layout is the easiest and fastest way to update your offline Visual Studio instances.
 
-Follow Windows security baselines. Microsoft is dedicated to providing its customers with secure operating systems, such as Windows 10 and Windows Server, and secure apps, such as Microsoft Edge. In addition to the security assurance of its products, Microsoft also enables you to have fine control over your environments by providing various configuration capabilities. 
+- **[Repair Visual Studio](repair-visual-studio.md) to fix update issues**. Sometimes your Visual Studio installation becomes damaged or corrupted. A repair is useful for fixing install-time issues across all install operations, including updates. 
+
+- **Follow [Windows security baselines](https://docs.microsoft.com/windows/security/threat-protection/windows-security-baselines)**. Microsoft is dedicated to providing its customers with secure operating systems, such as Windows 10 and Windows Server, and secure apps, such as Microsoft Edge. In addition to the security assurance of its products, Microsoft also enables you to have fine control over your environments by providing various configuration capabilities. 
 
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 
 ## See also 
 
-Productivity guide for Visual Studio 
+- [Productivity guide for Visual Studio](../ide/productivity-features.md)
 
 
 
