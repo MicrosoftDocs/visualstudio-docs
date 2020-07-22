@@ -39,7 +39,7 @@ Learn how to install Visual Studio in common enterprise scenarios.
 
 - **[Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md)**. Use a variety of parameters to control or customize your Visual Studio installation. Automate the installation process or create a cache of the installation files for later use. 
 
-- **See [command-line parameter examples for Visual Studio installation](command-line-parameter-examples)**. To illustrate how to use command-line parameters to install Visual Studio, view several examples that you can customize to match your needs. 
+- **See [command-line parameter examples for Visual Studio installation](command-line-parameter-examples.md)**. To illustrate how to use command-line parameters to install Visual Studio, view several examples that you can customize to match your needs. 
 
 - **[Install and use Visual Studio and Azure Services behind a firewall or proxy server](install-and-use-visual-studio-behind-a-firewall-or-proxy-server.md)**. If your organization uses security measures such as a firewall or a proxy server, then there are domain URLs that you might want to add to an "allow list" and ports and protocols that you might want to open so that you have the best experience when you install and use Visual Studio and Azure Services. 
 
