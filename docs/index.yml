@@ -53,11 +53,11 @@ productDirectory:
     - title: Visual Studio Codespaces
       imageSrc: ./media/vs-ide-2019.svg
       links:
-         - url: https://docs.microsoft.com/visualstudio/online/
+         - url: https://docs.microsoft.com/visualstudio/codespaces/
            text: Documentation
-         - url: https://code.visualstudio.com/docs/remote/vsonline
+         - url: https://code.visualstudio.com/docs/remote/codespaces
            text: Use with Visual Studio Code
-         - url: https://visualstudio.microsoft.com/services/visual-studio-online/
+         - url: https://visualstudio.microsoft.com/services/visual-studio-codespaces/
            text: Product page
     - title: Visual Studio App Center
       imageSrc: ./media/vs-mobile-center.svg
