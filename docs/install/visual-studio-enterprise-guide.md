@@ -1,6 +1,6 @@
 ---
 title: Visual Studio enterprise guide
-description: Troubleshoot Visual Studio in an enterprise environment.
+description: Set up and troubleshoot Visual Studio in an enterprise environment.
 ms.date: 07/21/2020
 ms.custom: seodec18
 ms.topic: overview
@@ -18,20 +18,20 @@ ms.prod: visual-studio-windows
 ms.technology: vs-installation
 ---
 # Visual Studio enterprise self-help guide
+If you’re looking to save time while you're getting your company running on Visual Studio, start here. This enterprise guide includes tips that can help you install and update Visual Studio in common enterprise scenarios, get unblocked if you experience issues, and learn how to report a problem if you need more help. 
 
 ## Get started 
+Learn how to deploy Visual Studio to your enterprise in networked and offline environments. 
 
-If you’re looking to save time on getting your company running on Visual Studio, then start here. Get unblocked if you experience issues and learn how to report a problem if you need help. 
+- **Understand options for enterprise deployment in networked environments**. The [Visual Studio administrator guide](visual-studio-administrator-guide.md) provides scenario-based guidance for system administrators. 
 
-Support enterprise deployment. This administrator guide provides scenario-based guidance for enterprise deployment in networked environments. 
+- **[Get troubleshooting tips](troubleshooting-installation-issues.md)**. Get help when you’re installing or updating Visual Studio, and learn how to report a problem if you’re blocked. These tips include step-by-step instructions that should resolve most online or offline installation issues. 
 
-Get troubleshooting tips. Get help when you’re installing or updating Visual Studio. Learn how to report a problem if you’re blocked. These tips include step-by-step instructions that should resolve most online or offline installation issues. 
+- **[Create an offline installation of Visual Studio](create-an-offline-installation-of-visual-studio.md)**. If you’re not connected to the Internet or have limited Internet connectivity, find options for installing Visual Studio. 
 
-Create an offline installation of Visual Studio. If you’re not connected to the Internet or have limited Internet connectivity, find options for installing Visual Studio. 
+- **[Create bootstrapper packages](../deployment/creating-bootstrapper-packages.md)**. Learn how to create custom bootstrapper packages by creating product and package manifests. 
 
-Create bootstrapper packages. Learn how to create custom bootstrapper (or installer) packages by creating product and package manifests. 
-
-Automatically apply product keys when deploying Visual Studio. You can apply your product key programmatically as part of a script that is used to automate the deployment of Visual Studio. You can set a product key on a device programmatically either during an installation of Visual Studio or after an installation completes. 
+- **[Automatically apply product keys when deploying Visual Studio](automatically-apply-product-keys-when-deploying-visual-studio.md)**. You can apply your product key programmatically as part of a script that is used to automate the deployment of Visual Studio. You can set a product key on a device programmatically, either during an installation of Visual Studio, or after an installation completes. 
 
 ## Installing Visual Studio 
 
