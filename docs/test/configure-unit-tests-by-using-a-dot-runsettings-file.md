@@ -232,7 +232,7 @@ This option can help you isolate a problematic test that causes a test host cras
 </DataCollector>
 ```
 
-### TestRunParameters
+## TestRunParameters
 
 ```xml
 <TestRunParameters>
