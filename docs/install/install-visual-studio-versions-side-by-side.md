@@ -40,7 +40,7 @@ Before you install versions side-by-side, review the following conditions:
 
 * Visual Studio doesn't automatically upgrade extensions because not all extensions are compatible. You must reinstall the extensions from the [Visual Studio Marketplace](https://marketplace.visualstudio.com/) or the software publisher.
 
-# Install minor Visual Studio versions side-by-side
+## Install minor Visual Studio versions side-by-side
 
 When upgrading a minor version to the next the Visual Studio installer will update your current install to the next version in that channel by default. For example, when installing the 16.6.4 preview the installer will try to replace your current install of 16.6.3 preview since they are in the 16.6 preview channel. This helps ensure older versions of Visual Studio aren't taking up room on your machine. In some specific cases, it may be helpful to install minor releases side-by-side. In our example that would mean both 16.6.4 and 16.6.3 are on the same machine.
 
@@ -51,8 +51,8 @@ When upgrading a minor version to the next the Visual Studio installer will upda
 vs_Enterprise.exe --installPath "C:\Program Files (x86)\Microsoft Visual Studio\<2019 AddNewPath>"
 ```
 4. Follow the installer dialogs to select components to finish the install.
-5. The new side-by-side minor version should appear in the Visual Studio installer next to your other versions.
-6. Keep in mind that you may need to manually uninstall one of these channels when they are no longer needed since the Visual Studio installer won't clean up these separate channels automatically.
+5. The new side-by-side minor version will now appear in the Visual Studio installer next to your other versions.
+6. Keep in mind that you may need to manually uninstall when a version is no longer needed since the Visual Studio installer won't clean up similar versions automatically.
 
 ## .NET Framework versions and side-by-side installations
 
