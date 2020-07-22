@@ -178,7 +178,7 @@ If you're working with Python 2.7, refer instead to [Extending Python 2.7 with C
     #include <Python.h>
     ```
 
-1. Modify the `tanh_impl` method to accept and return Python types (a `PyOjbect*`, that is):
+1. Modify the `tanh_impl` method to accept and return Python types (a `PyObject*`, that is):
 
     ```cpp
     PyObject* tanh_impl(PyObject *, PyObject* o) {
