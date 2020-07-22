@@ -50,9 +50,7 @@ When upgrading a minor version to the next the Visual Studio installer will upda
 ```
 vs_Enterprise.exe --installPath "C:\Program Files (x86)\Microsoft Visual Studio\<2019 AddNewPath>"
 ```
-4. Follow the installer dialogs to select components to finish the install.
-5. The new side-by-side minor version will now appear in the Visual Studio installer next to your other versions.
-6. Keep in mind that you may need to manually uninstall when a version is no longer needed since the Visual Studio installer won't clean up similar versions automatically.
+4. Follow the installer dialogs to select components to finish the install. The new side-by-side minor version will now appear in the Visual Studio installer next to your other versions.
 
 ## .NET Framework versions and side-by-side installations
 
