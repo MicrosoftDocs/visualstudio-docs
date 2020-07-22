@@ -17,7 +17,7 @@ ms.workload:
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
 ---
-# Visual Studio enterprise self-help guide
+# Visual Studio enterprise guide
 If you’re looking to save time while you're getting your company running on Visual Studio, start here. This enterprise guide includes tips that can help you install and update Visual Studio in common enterprise scenarios, get unblocked if you experience issues, and learn how to report a problem if you need more help. 
 
 ## Get started 

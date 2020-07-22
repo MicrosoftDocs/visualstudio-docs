@@ -42,6 +42,8 @@
     items:
     - name: Overview
       href: install/visual-studio-administrator-guide.md
+    - name: Visual Studio enterprise guide
+      href: install/visual-studio-enterprise-guide.md
     - name: Use the command line
       items:
       - name: Use command-line parameters to install Visual Studio
