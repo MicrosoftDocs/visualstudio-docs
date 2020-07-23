@@ -41,7 +41,7 @@ Next we will create a second project which will act as our backend API. The **.N
 
 The **docker-compose.yml** file in the **docker-compose** project will be automatically updated to include the API project alongside the existing Web App project. When we build and run the **docker-compose** project, each of these projects will be deployed to a separate Docker container.
 
-```
+```yaml
 version: '3.4'
 
 services:
@@ -99,7 +99,7 @@ We now have two ASP.NET projects in our solution and both are configured with Do
       </div>
       ```
   
-  1. In both the Front End and Web API projects, comment out the call to <xref:Microsoft.AspNetCore.Builder.HttpsPolicyBuilderExtensions.UseHttpsRedirection*> in the `Configure` method in *Startup.cs*, because this sample code uses HTTP, not HTTPS, to call the Web API.
+1. In both the Front End and Web API projects, comment out the call to <xref:Microsoft.AspNetCore.Builder.HttpsPolicyBuilderExtensions.UseHttpsRedirection%2A?displayProperty=nameWithType> in the `Configure` method in *Startup.cs*, because this sample code uses HTTP, not HTTPS, to call the Web API.
 
       ```csharp
                   //app.UseHttpsRedirection();
