@@ -8,7 +8,7 @@ keywords: "Local Process with Kubernetes, Azure Dev Spaces, Dev Spaces, Docker, 
 monikerRange: ">=vs-2019"
 ---
 
-# Use Local Process with Kubernetes (preview)
+# Use Local Process with Kubernetes (Preview)
 
 Local Process with Kubernetes allows you to run and debug code on your development computer, while still connected to your Kubernetes cluster with the rest of your application or services. For example, if you have a large microservices architecture with many interdependent services and databases, replicating those dependencies on your development computer can be difficult. Additionally, building and deploying code to your Kubernetes cluster for each code change during inner-loop development can be slow, time consuming, and difficult to use with a debugger.
 
