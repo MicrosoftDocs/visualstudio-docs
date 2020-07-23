@@ -24,8 +24,8 @@ When you sign in to Azure DevOps using either the identity that you used for act
 ## Eligibility
 | Subscription Level                                                 |     Channels                                            | Benefit                                                          | Renewable?    |
 |--------------------------------------------------------------------|---------------------------------------------------------|------------------------------------------------------------------|---------------|
-| Visual Studio Enterprise (Standard, monthly cloud)   | VL, Azure, Retail,  selected NFR<sup>1</sup>  | Azure Boards & Repos (Basic<sup>2</sup>), Azure Test Plans [Learn more](https://docs.microsoft.com/azure/devops/organizations/security/access-levels?view=azure-devops)     |  Yes          |
-| Visual Studio Enterprise with GitHub Enterprise   | VL| Azure Boards & Repos (Basic<sup>2</sup>), Azure Test Plans [Learn more](https://docs.microsoft.com/azure/devops/organizations/security/access-levels?view=azure-devops) |  Yes          |
+| Visual Studio Enterprise (Standard, monthly cloud)   | VL, Azure, Retail,  selected NFR<sup>1</sup>  | Azure Boards & Repos (Basic<sup>2</sup>), Azure Test Plans, self-hosted parallel jobs [Learn more](https://docs.microsoft.com/azure/devops/organizations/security/access-levels?view=azure-devops)     |  Yes          |
+| Visual Studio Enterprise with GitHub Enterprise   | VL| Azure Boards & Repos (Basic<sup>2</sup>), Azure Test Plans, self-hosted parallel jobs [Learn more](https://docs.microsoft.com/azure/devops/organizations/security/access-levels?view=azure-devops) |  Yes          |
 | Visual Studio Professional (Standard, monthly cloud) | VL, Azure, Retail                                        | Azure Boards & Repos (Basic<sup>2</sup>) [Learn more](https://docs.microsoft.com/azure/devops/organizations/security/access-levels?view=azure-devops)                                                            |  Yes          |
 | Visual Studio Professional with GitHub Enterprise | VL| Azure Boards & Repos (Basic<sup>2</sup>)  [Learn more](https://docs.microsoft.com/azure/devops/organizations/security/access-levels?view=azure-devops)                                                            |  Yes          |
 | Visual Studio Test Professional (Standard)                         | VL, Retail                                              | Azure Boards & Repos (Basic<sup>2</sup>), Azure Test Plans [Learn more](https://docs.microsoft.com/azure/devops/organizations/security/access-levels?view=azure-devops)                                             |  Yes          |
@@ -42,6 +42,10 @@ When you sign in to Azure DevOps using either the identity that you used for act
 
 Not sure which subscription you're using?  Connect to [https://my.visualstudio.com/subscriptions](https://my.visualstudio.com/subscriptions?wt.mc_id=o~msft~docs) to see all the subscriptions assigned to you.
 If you don't see all your subscriptions, you may have one or more assigned to a different email address.  You'll need to sign in with that email address to see those subscriptions.
+
+## Frequently asked questions
+### Q: As a Visual Studio Enterprise subscriber, do I get additional parallel jobs for TFS and Azure Pipelines?
+A:  Yes. Visual Studio Enterprise subscribers get one parallel job in Team Foundation Server 2017 or later and one self-hosted parallel job in each Azure DevOps Services organization where they are a member.
 
 ## Support resources
 - For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, contact Visual Studio [Subscriptions support](https://visualstudio.microsoft.com/subscriptions/support/).
