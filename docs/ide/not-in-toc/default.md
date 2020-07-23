@@ -1,6 +1,6 @@
 ---
 title: Default page for F1 help
-ms.date: 02/28/2018
+ms.date: 07/20/2020
 ms.topic: troubleshooting
 robots: noindex,nofollow
 f1_keywords:
@@ -16,11 +16,12 @@ It looks like we couldn't find what you were looking for, and we apologize. You 
 
 ## Cursor position
 
-If you're looking for F1 help on a keyword or API name, be sure the cursor is positioned inside or just to the right of the word before pressing **F1**. If that still doesn't work, select from the [useful links](#useful-links) list, or do a search on https://docs.microsoft.com.
+If you're looking for F1 help on a keyword or API name, be sure you position the cursor inside or just to the right of the word before you press **F1**. If that still doesn't work, select from the following [useful links](#useful-links) list, or do a search on https://docs.microsoft.com.
 
 ## Useful links
 
 - Search for reference documentation on [.NET API browser](/dotnet/api/).
+- Browse a list of Knowledge Base articles on the [Visual Studio troubleshooting](/troubleshoot/visualstudio/welcome-visual-studio/) page.
 - For C# help, see the [C# guide](/dotnet/csharp/index).
 - For Visual Basic help, see the [Visual Basic guide](/dotnet/visual-basic/).
 - For F# help, see the [F# guide](/dotnet/fsharp/).

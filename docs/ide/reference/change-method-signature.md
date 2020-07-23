@@ -1,7 +1,7 @@
 ---
 title: Change method signature
 description: Add, Remove, or change the order of a method's parameters. Right-click the method, select Quick Actions and Refactorings, and select Change Signature.
-ms.date: 06/08/2020
+ms.date: 07/20/2020
 ms.topic: reference
 author: mikadumont
 ms.author: midumont
@@ -69,18 +69,9 @@ This refactoring applies to:
 
     ![Add Parameter dialog - C#](media/add-parameter-dialog.png)
 
-5. When you are finished adding a parameter, press the **OK** button to preview the changes.
+5. When you are finished adding a parameter, press **OK** to preview the changes.
 
     ![Change Signature dialog](media/change-signature.png)
-
-6. Press **OK** to view the changes.
-   - C#:
-
-      ![Change Signature result - C#](media/changesignature-result-cs.png)
-
-   - Visual Basic:
-
-      ![Change Signature result - Visual Basic](media/changesignature-result-vb.png)
 
 ## See also
 
