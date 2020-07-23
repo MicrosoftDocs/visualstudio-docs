@@ -15,7 +15,7 @@ ms.workload:
 
 You can add TypeScript support to your projects using the TypeScript SDK, available by default in the Visual Studio installer, or by using the npm or NuGet package. For projects developed in Visual Studio 2019, we encourage you to use the TypeScript NuGet or the TypeScript npm package for greater portability across different platforms and environments.
 
-For ASP.NET Core projects, one common usage for the NuGet package is to compile TypeScript using the .NET Core CLI. Unless you manually edit your project file to import build targets from a TypeScript SDK installation, the NuGet package is the only way to enable TypeScript compilation using .NET Core CLI commands such as `dotnet build` and `dotnet publish`. Also, if you need MSBuild integration with TypeScript, choose the NuGet package over the npm package.
+For ASP.NET Core projects, one common usage for the NuGet package is to compile TypeScript using the .NET Core CLI. Unless you manually edit your project file to import build targets from a TypeScript SDK installation, the NuGet package is the only way to enable TypeScript compilation using .NET Core CLI commands such as `dotnet build` and `dotnet publish`. Also, if you need [MSBuild integration](https://www.staging-typescript.org/docs/handbook/compiler-options-in-msbuild.html) with TypeScript, choose the NuGet package over the npm package.
 
 ## Build with npm (Node.js and ASP.NET Core)
 
@@ -70,7 +70,7 @@ For ASP.NET Core projects, one common usage for the NuGet package is to compile 
 
 ## Build the application
 
-1. If you are using an older non-SDK style project, follow instructions in [Remove default imports](#Remove-default-imports-NuGet-only)
+1. If you are using an older non-SDK style project, follow instructions in [Remove default imports](#Remove-default-imports-NuGet) before building.
 
 1. Choose **Build > Build Solution**.
 
@@ -79,6 +79,16 @@ For ASP.NET Core projects, one common usage for the NuGet package is to compile 
    If you generated source maps, open the folder specified in the *outDir* option and you find the generated *.js file(s). If you created source maps, you also find the generated *js.map file(s).
 
    Source map files are required for debugging.
+
+1. To build when you save the project, use the *compileOnSave* option in *.tsconfig.
+
+   ```json
+   ```{
+      "compileOnSave":  true,
+      "compilerOptions": {
+      }
+   }
+   ```
 
 ### NuGet package structure details
 
@@ -123,7 +133,7 @@ For ASP.NET Core projects, one common usage for the NuGet package is to compile 
 
         Versions prior to 3.1 contained a `tsc.exe` executable to run the compilation. In version 3.1, this was removed in favor of using `node.exe`.
 
-### Remove default imports (NuGet only)
+### Remove default imports (NuGet)
 
 In older ASP.NET Core projects that use the [non-SDK-style format](https://docs.microsoft.com/nuget/resources/check-project-format), you may need to remove some project file elements.
 
@@ -149,3 +159,6 @@ If you are using the NuGet package for MSBuild support for a project, the projec
       Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets')" />
    ```
 
+## See also
+
+[MSBuild integration with TypeScript](https://www.staging-typescript.org/docs/handbook/compiler-options-in-msbuild.html)
