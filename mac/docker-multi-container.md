@@ -101,9 +101,9 @@ We now have two ASP.NET projects in our solution and both are configured with Do
   
   1. In both the Front End and Web API projects, comment out the call to <xref:Microsoft.AspNetCore.Builder.HttpsPolicyBuilderExtensions.UseHttpsRedirection*> in the `Configure` method in *Startup.cs*, because this sample code uses HTTP, not HTTPS, to call the Web API.
 
-    ```csharp
-                //app.UseHttpsRedirection();
-    ```
+      ```csharp
+                  //app.UseHttpsRedirection();
+      ```
 
 1. Set the `docker-compose` project as the startup project and go to **Run > Start Debugging**. If everything is configured correctly, you see the message "Hello from webfrontend and webapi (with value 1).":
 
