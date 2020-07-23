@@ -34,7 +34,7 @@ Real-world code involves many projects working together in a solution. Now, let'
 
 1. Type the project name **CalculatorLibrary**, and choose **Create**. Visual Studio creates the new project and adds it to the solution.
 
-   ![Screenshot of Solution Explorer with CalculatorLibrary class library project added](media/vs-2019/calculator2-solution-explorer-with-class-library-dark.png)
+   ![Screenshot of Solution Explorer with CalculatorLibrary class library project added](media/vs-2019/calculator2-solution-explorer-with-class-library-dark2.png)
 
 1. Instead of having *Class1.cs*, rename the file **CalculatorLibrary.cs**. You can click on the name in **Solution Explorer** to rename it, or right-click and choose **Rename**, or press the **F2** key.
 
@@ -50,7 +50,7 @@ Real-world code involves many projects working together in a solution. Now, let'
 
 1. In the **Reference Manager** dialog box, select the checkbox for the **CalculatorLibrary** project, and choose **OK**.  The project reference appears under a **Projects** node in **Solution Explorer**.
 
-   ![Screenshot of Solution Explorer with project reference](media/vs-2019/calculator2-solution-explorer-with-project-reference-dark.png)
+   ![Screenshot of Solution Explorer with project reference](media/vs-2019/calculator2-solution-explorer-with-project-reference-dark2.png)
 
 1. In *Program.cs*, select the `Calculator` class and all its code, and press **CTRL+X** to cut it from Program.cs. Then in **CalculatorLibrary**, in *CalculatorLibrary.cs*, paste the code into the `CalculatorLibrary` namespace. Then, make the Calculator class `public` to expose it outside the library. The code in *CalculatorLibrary.cs* should now resemble the following code:
 
@@ -199,7 +199,7 @@ Real-world code involves many projects working together in a solution. Now, let'
 
 1. Now suppose we want to output the operations in a JSON format, a popular and portable format for storing object data. To implement that functionality, we will need to reference the NuGet package Newtonsoft.Json. NuGet packages are the primary vehicle for distribution of .NET class libraries. In **Solution Explorer**, right-click on the **References** node for the CalculatorLibrary project, and choose **Manage NuGet Packages**.
 
-   ![Screenshot of Manage NuGet Packages on the shortcut menu](media/vs-2019/calculator2-manage-nuget-packages-dark.png)
+   ![Screenshot of Manage NuGet Packages on the shortcut menu](media/vs-2019/calculator2-manage-nuget-packages-dark2.png)
 
    The NuGet Package Manager opens.
 
@@ -207,7 +207,7 @@ Real-world code involves many projects working together in a solution. Now, let'
 
 1. Search for Newtonsoft.Json package, and choose **Install**.
 
-   ![Screenshot of Newtonsoft NuGet package infomation](media/vs-2019/calculator2-nuget-newtonsoft-json-dark.png)
+   ![Screenshot of Newtonsoft NuGet package infomation](media/vs-2019/calculator2-nuget-newtonsoft-json-dark2.png)
 
    The package is downloaded, and added to your project and a new entry appears in the References node in **Solution Explorer**.
 
