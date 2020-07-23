@@ -36,8 +36,8 @@ Next we will create a second project which will act as our backend API. The **.N
 1. Add a new project to the existing solution by right-clicking on the solution and choosing **Add > Add New Project**.
 1. Under **Web and Console > App** choose the **API** template.
 1. Select the target framework. In this example we will use .NET Core 3.1.
-1. Enter the project details, such as Project Name (_DockerDemoAPI_ in this example).
-1. Once created, go to the Solution Pad and right click the DockerDemoAPI project and select **Add > Add Docker Support**.
+1. Enter the project details, such as Project Name (_MyWebAPI_ in this example).
+1. Once created, go to the Solution Pad and right click the MyWebAPI project and select **Add > Add Docker Support**.
 
 The **docker-compose.yml** file in the **docker-compose** project will be automatically updated to include the API project alongside the existing Web App project. When we build and run the **docker-compose** project, each of these projects will be deployed to a separate Docker container.
 
@@ -51,11 +51,11 @@ services:
       context: .
       dockerfile: DockerDemoFrontEnd/Dockerfile
 
-  dockerdemoapi:
-    image: ${DOCKER_REGISTRY-}dockerdemoapi
+  mywebapi:
+    image: ${DOCKER_REGISTRY-}mywebapi
     build:
       context: .
-      dockerfile: DockerDemoAPI/Dockerfile
+      dockerfile: MyWebAPI/Dockerfile
 ```
 
 ## Integrate The Two Containers
@@ -73,8 +73,7 @@ We now have two ASP.NET projects in our solution and both are configured with Do
        {
           // Call *mywebapi*, and display its response in the page
           var request = new System.Net.Http.HttpRequestMessage();
-          request.RequestUri = new Uri("http://mywebapi/WeatherForecast"); // ASP.NET 3 (VS 2019 only)
-          // request.RequestUri = new Uri("http://mywebapi/api/values/1"); // ASP.NET 2.x
+          request.RequestUri = new Uri("http://mywebapi/WeatherForecast");
           var response = await client.SendAsync(request);
           ViewData["Message"] += " and " + await response.Content.ReadAsStringAsync();
        }
@@ -82,9 +81,7 @@ We now have two ASP.NET projects in our solution and both are configured with Do
    ```
    
     > [!NOTE]
-    > In real-world code, you shouldn't dispose `HttpClient` after every request. For best practices, see [Use HttpClientFactory to implement resilient HTTP requests](https://docs.microsoft.com/dotnet/architecture/microservices/implement-resilient-applications/use-httpclientfactory-to-implement-resilient-http-requests).
-
-   For .NET Core 3.1 in Visual Studio 2019 for Mac or later, the Web API template uses a WeatherForecast API, so uncomment that line and comment out the line for ASP.NET 2.x.
+    > In production code, you shouldn't dispose `HttpClient` after every request. For best practices, see [Use HttpClientFactory to implement resilient HTTP requests](https://docs.microsoft.com/dotnet/architecture/microservices/implement-resilient-applications/use-httpclientfactory-to-implement-resilient-http-requests).
 
 1. In the *Index.cshtml* file, add a line to display `ViewData["Message"]` so that the file looks like the following code:
 
@@ -101,19 +98,8 @@ We now have two ASP.NET projects in our solution and both are configured with Do
           <p>@ViewData["Message"]</p>
       </div>
       ```
-
-1. (ASP.NET 2.x only) Now in the Web API project, add code to the Values controller to customize the message returned by the API for the call you added from *webfrontend*:
-
-      ```csharp
-        // GET api/values/5
-        [HttpGet("{id}")]
-        public ActionResult<string> Get(int id)
-        {
-            return "webapi (with value " + id + ")";
-        }
-      ```
-
-With .NET Core 3.1, you don't need this, because you can use the WeatherForecast API that is already there. However, you need to comment out the call to <xref:Microsoft.AspNetCore.Builder.HttpsPolicyBuilderExtensions.UseHttpsRedirection*>  in the `Configure` method in *Startup.cs*, because this code uses HTTP, not HTTPS, to call the Web API.
+  
+  1. In both the Front End and Web API projects, comment out the call to <xref:Microsoft.AspNetCore.Builder.HttpsPolicyBuilderExtensions.UseHttpsRedirection*> in the `Configure` method in *Startup.cs*, because this sample code uses HTTP, not HTTPS, to call the Web API.
 
     ```csharp
                 //app.UseHttpsRedirection();
