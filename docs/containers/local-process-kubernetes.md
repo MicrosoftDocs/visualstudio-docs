@@ -1,5 +1,5 @@
 ---
-title: "Use Local Process with Kubernetes with Visual Studio (preview)"
+title: "Use Local Process with Kubernetes with Visual Studio (Preview)"
 ms.technology: vs-azure
 ms.date: 06/02/2020
 ms.topic: "conceptual"
