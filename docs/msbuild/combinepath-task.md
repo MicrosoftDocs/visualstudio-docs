@@ -35,6 +35,32 @@ Combines the specified paths into a single path.
 
  In addition to the parameters listed above, this task inherits parameters from the <xref:Microsoft.Build.Tasks.TaskExtension> class, which itself inherits from the <xref:Microsoft.Build.Utilities.Task> class. For a list of these additional parameters and their descriptions, see [TaskExtension base class](../msbuild/taskextension-base-class.md).
 
+ The following example shows how to create an output folder structure using `CombinePath` to construct the property `$(OutputDirectory)` by combining a root path `$(PublishRoot)` concatenated with `$(ReleaseDirectory)` and a subfolder list `$(LangDirectories)`.
+
+ ```xml
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <PublishRoot>C:\Site1\Release</PublishRoot>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <LangDirectories Include="en-us\;fr-fr\"/>
+  </ItemGroup>
+
+  <Target Name="CreateOutputDirectories" AfterTargets="Build">
+    <CombinePath BasePath="$(PublishRoot)" Paths="@(LangDirectories)" >
+      <Output TaskParameter="CombinedPaths" ItemName="OutputDirectories"/>
+    </CombinePath>
+    <MakeDir Directories="@(OutputDirectories)" />
+  </Target>
+```
+
+The only property that `CombinePath` allows to be a list is `Paths`, in which case the output is also a list. So, if `$(PublishRoot)` is *C:\Site1\\*, and `$(ReleaseDirectory)` is *Release\\*, and `@(LangDirectories)` is *en-us\;fr-fr\\*, then this examples creates the folders:
+
+- C:\Site1\Release\en-us\
+- C:\Site1\Release\fr-fr\
+
 ## See also
 
 - [Tasks](../msbuild/msbuild-tasks.md)

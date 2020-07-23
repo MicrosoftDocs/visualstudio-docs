@@ -1,13 +1,13 @@
 ---
 title: Use Azure Pipelines for automated testing
 ms.date: 10/19/2018
-ms.topic: conceptual
-helpviewer_keywords:
-- automated testing, lab management, test lab
+ms.topic: how-to
+helpviewer_keywords: 
+  - automated testing, lab management, test lab
 ms.author: mikejo
 manager: jillfra
-ms.workload:
-- multiple
+ms.workload: 
+  - multiple
 author: mikejo5000
 ---
 # Use Azure Test Plans instead of Lab Management for automated testing

@@ -19,7 +19,7 @@ manager: "wpickett"
 # CA1064: Exceptions should be public
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-|||
+|Item|Value|
 |-|-|
 |TypeName|ExceptionsShouldBePublic|
 |CheckId|CA1064|

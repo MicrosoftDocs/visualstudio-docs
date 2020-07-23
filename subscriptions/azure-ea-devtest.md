@@ -5,7 +5,7 @@ ms.author: lank
 manager: lank
 ms.assetid: a335ed23-34ee-40cb-83c6-6c93dee57424
 ms.date: 02/23/2020
-ms.topic: conceptual
+ms.topic: how-to
 description:  Learn how to take advantage of special Azure DevTest pricing available to customers with Enterprise Agreements
 ---
 

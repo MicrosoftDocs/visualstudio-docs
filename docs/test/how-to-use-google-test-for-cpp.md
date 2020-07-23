@@ -1,12 +1,12 @@
 ---
-title: "How to use Google Test for C++"
+title: How to use Google Test for C++
 description: Use Google Test to create C++ unit tests in Visual Studio.
 ms.date: 05/06/2017
-ms.topic: conceptual
+ms.topic: how-to
 ms.author: corob
 manager: markl
-ms.workload:
-  - "cplusplus"
+ms.workload: 
+  - cplusplus
 author: corob-msft
 ---
 

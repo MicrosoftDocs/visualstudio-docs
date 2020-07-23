@@ -1,7 +1,7 @@
 ---
 title: "IDiaSymbol::findSymbolsForAcceleratorPointerTag | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 ms.assetid: fb66852c-c5f7-4140-b9fe-20cb4e51a9fe

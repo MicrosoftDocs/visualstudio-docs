@@ -1,27 +1,27 @@
 ---
-title: "Find out who is passing a wrong parameter value | Microsoft Docs"
-ms.custom: "seodec18"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-f1_keywords:
-  - "vs.debug.parameters"
-dev_langs:
-  - "CSharp"
-  - "VB"
-  - "FSharp"
-  - "C++"
-helpviewer_keywords:
-  - "debugging [C++], parameters"
-  - "parameters [debugger]"
-  - "passing parameters, troubleshooting wrong values"
-  - "functions [debugger], detecting wrong parameter values"
-  - "parameter values, troubleshooting"
+title: Find out who is passing a wrong parameter value | Microsoft Docs
+ms.custom: seodec18
+ms.date: 11/04/2016
+ms.topic: how-to
+f1_keywords: 
+  - vs.debug.parameters
+dev_langs: 
+  - CSharp
+  - VB
+  - FSharp
+  - C++
+helpviewer_keywords: 
+  - debugging [C++], parameters
+  - parameters [debugger]
+  - passing parameters, troubleshooting wrong values
+  - functions [debugger], detecting wrong parameter values
+  - parameter values, troubleshooting
 ms.assetid: 1f1ae455-0e25-4e9d-b33f-53908f5bd6ce
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
-ms.workload:
-  - "multiple"
+ms.workload: 
+  - multiple
 ---
 # How Can I Find Out Who Is Passing a Wrong Parameter Value?
 ## Problem Description

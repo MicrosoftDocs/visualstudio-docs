@@ -5,6 +5,7 @@ author: alanjclark
 ms.author: dominicn
 ms.date: 09/23/2019
 ms.assetid: 2C4AAC2E-3B4A-4496-8BE0-1F5A7F81D1CA
+ms.topic: overview
 ---
 
 # Accessibility

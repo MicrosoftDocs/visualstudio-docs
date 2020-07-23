@@ -1,7 +1,7 @@
 ---
 title: Adding and Removing Property Pages | Microsoft Docs
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - property pages, adding
 - property pages, project subtypes

@@ -1,7 +1,7 @@
 ---
 title: "IDiaSession::findInlineFramesByVA | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 ms.assetid: df9e68f6-e0a4-4cf6-b11d-61c40351e0cd

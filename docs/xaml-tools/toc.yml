@@ -2,6 +2,8 @@
   href: index.yml
 - name: XAML overview
   href: xaml-overview.md
+- name: XAML code editor
+  href: xaml-code-editor.md
 - name: XAML Designer
   items:
   - name: Design XAML in Visual Studio and Blend

@@ -1,7 +1,7 @@
 ---
 title: Display line numbers for code
 ms.date: 03/28/2019
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - line numbers, displaying
 - Code Editor, line numbers

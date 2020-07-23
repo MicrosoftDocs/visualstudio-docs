@@ -5,7 +5,7 @@ ms.author: lank
 manager: lank
 ms.assetid: 19038bb0-2858-49df-9624-cbf8bfbb5d39
 ms.date: 03/11/2020
-ms.topic: conceptual
+ms.topic: how-to
 description:  How to Sign In to Your Visual Studio Subscription with your Microsoft Account (MSA)
 ---
 

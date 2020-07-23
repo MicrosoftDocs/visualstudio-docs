@@ -58,13 +58,27 @@ The syntax for configuring an option for a *specific* rule is as follows:
 |-|-|
 | dotnet_code_quality.RuleId.OptionName = OptionValue | `dotnet_code_quality.CA1040.api_surface = public` |
 
-## Per-project configuration
+## Enabling Editorconfig based configuration
+
+### VS2019 16.3 and later + FxCopAnalyzers package version 3.3.x and later
+
+EditorConfig-based analyzer configuration can be enabled for the following scopes:
+
+- Specific document(s)
+- Specific folder(s)
+- Specific project(s)
+- Specific solution(s)
+- Entire repo
+
+To enable configuration, add an *.editorconfig* file with the options in the corresponding directory. This file can also contain EditorConfig-based diagnostic severity configuration entries. See [here](use-roslyn-analyzers.md#rule-severity) for more details.
+
+### Prior to VS2019 16.3 or using an FxCopAnalyzers package version prior to 3.3.x
+
+#### Per-project configuration
 
 To enable EditorConfig-based analyzer configuration for a specific project, add an *.editorconfig* file to the project's root directory.
 
-Currently there is no hierarchical support for "combining" .editorconfig files that exist at different directory levels, for example, the solution and project level.
-
-## Shared configuration
+#### Shared configuration
 
 You can share an .editorconfig file for FxCop analyzer configuration between two or more projects, but it requires some additional steps.
 

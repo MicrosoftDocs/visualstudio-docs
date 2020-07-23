@@ -1,7 +1,7 @@
 ---
 title: "IDiaSymbol::get_numberOfModifiers | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 ms.assetid: 61ff7431-1994-4f7e-a182-1817f16f60a9

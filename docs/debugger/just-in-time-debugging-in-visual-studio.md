@@ -37,4 +37,4 @@ If you don't have Visual Studio installed, you can prevent Just-In-Time debuggin
 
 After you disable Just-In-Time debugging, the app may be able to handle the error and run normally.
 
-If the app still has an unhandled error, you may see an error message, or the app may crash or hang. The app won't run normally until the error is fixed. You can try to contact the owner of the app and ask them to fix it.
+If the app still has an unhandled error, you may see an error message, or the app may crash or stop responding. The app won't run normally until the error is fixed. You can try to contact the owner of the app and ask them to fix it.

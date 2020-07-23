@@ -1,7 +1,7 @@
 ---
 title: Create and configure TableAdapters
 ms.date: 09/01/2017
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - table adapters, creating
 - creating TableAdapters

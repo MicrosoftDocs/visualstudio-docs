@@ -1,7 +1,7 @@
 ---
 title: Add references in the Reference Manager
 ms.date: 08/02/2019
-ms.topic: conceptual
+ms.topic: how-to
 f1_keywords:
 - VS.ReferenceManager
 helpviewer_keywords:

@@ -325,7 +325,7 @@ manager: jillfra
 > [!NOTE]
 > Users have to tab to these buttons (there are no access keys), so place them in a sensible order. Map the name property of the button to the action that it takes so that screen readers correctly interpret the button action.
 
-|||
+|Name|Image|
 |-|-|
 |Add|![Graphical "Add" button](../../extensibility/ux-guidelines/media/070703-08-buttonadd.png "070703-08_ButtonAdd")|
 |Remove|![Graphical "Remove" button](../../extensibility/ux-guidelines/media/070703-09-buttonremove.png "070703-09_ButtonRemove")|

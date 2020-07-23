@@ -43,6 +43,8 @@ Here are the basic steps:
 
 3. Select **Application Timeline** and then click **Start** at the bottom of the window.
 
+   ![Application Timeline Tool Selected](../profiling/media/apptimelineselect.png "Application Timeline Tool")
+
    > [!NOTE]
    > You might see a User Account Control window requesting your permission to run *VsEtwCollector.exe*. Click **Yes**.
 
@@ -92,7 +94,7 @@ The details view is where you spend most of your time analyzing the report. It s
 
 The following events are supported:
 
-|||
+|Name|Description|
 |-|-|
 |**Parsing**|Time spent parsing XAML files and creating objects.<br /><br /> Expanding a **Parsing** node in **Timeline details** displays the dependency chain of all the XAML files that were parsed because of the root event. This tip lets you identify unnecessary file parsing and object creation in performance sensitive scenarios and optimize them out.|
 |**Layout**|In large applications, thousands of elements may be shown on the screen at the same time. This display might result in a low UI frame rate and correspondingly poor application responsiveness. The Layout event accurately determines the cost of laying out each element (that is, the time spent in Arrange, Measure, ApplyTemplate, ArrangeOverride, and MeasureOverride). It also builds the visual trees that took part in a Layout pass. You can use this visualization to determine which logical trees to prune, or to evaluate other deferral mechanisms to optimize your layout pass.|
@@ -108,7 +110,7 @@ The following events are supported:
 
 Use the **Timeline details** toolbar to sort, filter, and specify the annotations of **Timeline details** view entries.
 
-|||
+|Name|Description|
 |-|-|
 |**Sort by**|Sort by start time or the length of events.|
 |![Group events by frame](../profiling/media/timeline_groupbyframes.png "TIMELINE_GroupByFrames")|Adds or removes a top-level **Frame** category that groups events by frame.|

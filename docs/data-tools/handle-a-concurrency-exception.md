@@ -1,7 +1,7 @@
 ---
 title: Handle a concurrency exception
 ms.date: 09/11/2017
-ms.topic: conceptual
+ms.topic: how-to
 dev_langs:
 - VB
 - CSharp

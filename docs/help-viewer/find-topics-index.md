@@ -1,7 +1,7 @@
 ---
 title: Use Help Viewer index
 ms.date: 11/02/2017
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
   - "Index tab [Help Viewer]"
   - "Help Viewer, using the index"

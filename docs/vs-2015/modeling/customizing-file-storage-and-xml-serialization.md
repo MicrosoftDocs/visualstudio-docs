@@ -263,9 +263,8 @@ When the user saves an instance, or *model*, of a domain-specific language (DSL)
 ### Xml Class data
  These elements are found in DSL Explorer under **Xml Serialization Behavior\Class Data**.
 
-|||
-|-|-|
 |Property|Description|
+|-|-|
 |Has Custom Element Schema|If True, indicates that the domain class has a custom element schema|
 |Is Custom|Set this to **True** if you want to write your own serialization and deserialization code for this domain class.<br /><br /> Build the solution and investigate the errors to discover detailed instructions.|
 |Domain Class|Domain class to which this class data node applies. Read-only.|
@@ -280,9 +279,8 @@ When the user saves an instance, or *model*, of a domain-specific language (DSL)
 ### Xml Property Data
  Xml Property nodes are found under the class nodes.
 
-|||
-|-|-|
 |Property|Description|
+|-|-|
 |Domain Property|Property to which the xml serialization configuration data applies. Read-only.|
 |Is Moniker Key|If True, the property is used as the key for creating monikers that reference instances of this domain class.|
 |Is Moniker Qualifier|If True, the property is used for creating the qualifier in monikers. If false, and if SerializeId is not true for this domain class, monikers are qualified by the moniker of the parent element in the embedding tree.|

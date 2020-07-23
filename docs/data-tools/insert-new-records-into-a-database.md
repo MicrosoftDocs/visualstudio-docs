@@ -1,7 +1,7 @@
 ---
 title: Insert new records into a database
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 dev_langs:
 - VB
 - CSharp

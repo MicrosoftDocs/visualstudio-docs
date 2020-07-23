@@ -20,14 +20,14 @@ The code analysis tool in Visual Studio examines your code for a set of common d
 
 ## In this section
 
-|||
+|Title|Description|
 |-|-|
 |[Analyze Visual Basic and C# code quality](../test/analyze-visual-basic-and-csharp-code-quality-in-store-apps-using-visual-studio-static-code-analysis.md)|Use code analysis in Visual Basic and C# projects.|
 |[Analyze C++ code quality](../test/analyze-cpp-code-quality-of-store-apps-using-visual-studio-static-code-analysis.md)|Use code analysis in C++ projects.|
 
 ## More code analysis info
 
-|||
+|Title|Description|
 |-|-|
 |[Code analysis in the MSDN Library](https://msdn.microsoft.com/library/dd264897.aspx)|Find more information about using code analysis in Visual Studio Ultimate, Visual Studio Premium, and Visual Studio Professional.|
-|[MSDN code analysis team blog](https://blogs.msdn.com/codeanalysis/)|Find more information, including technical papers and samples on the code analysis team blog.|
+|[MSDN code analysis team blog](https://blogs.msdn.com/b/codeanalysis/)|Find more information, including technical papers and samples on the code analysis team blog.|

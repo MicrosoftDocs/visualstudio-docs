@@ -1,7 +1,7 @@
 ---
 title: "IDiaSymbol::get_isAcceleratorStubFunction | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 ms.assetid: cc4ea375-76f6-4ba8-baed-c5fa82108137

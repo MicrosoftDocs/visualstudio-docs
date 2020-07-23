@@ -5,7 +5,7 @@ ms.date: "01/18/2017"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
-ms.topic: "article"
+ms.topic: "reference"
 ms.assetid: 387a856b-f5dc-4371-8620-bd574e046c2c
 caps.latest.revision: 5
 author: "mikejo5000"

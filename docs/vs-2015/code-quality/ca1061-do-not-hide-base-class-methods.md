@@ -19,7 +19,7 @@ manager: "wpickett"
 # CA1061: Do not hide base class methods
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-|||
+|Item|Value|
 |-|-|
 |TypeName|DoNotHideBaseClassMethods|
 |CheckId|CA1061|

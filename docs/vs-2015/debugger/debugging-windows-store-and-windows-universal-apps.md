@@ -26,7 +26,7 @@ The Visual Studio debugger provides complete support for debugging Windows Store
   
 ## In this section  
   
-|||  
+|Title|Description|  
 |-|-|  
 |[Run apps from Visual Studio](../debugger/run-store-apps-from-visual-studio.md)|Run Store apps on a local machine, in an app simulator or emulator, or on a remote device.|  
 |[Debug apps in Visual Studio](../debugger/debug-store-apps-in-visual-studio.md)|Find and fix bugs in your Store apps by using the Visual Studio debugger.|  

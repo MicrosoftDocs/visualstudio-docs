@@ -1,36 +1,36 @@
 ---
-title: "Set debug and release configurations | Microsoft Docs"
-ms.date: "10/05/2018"
-ms.topic: "reference"
-f1_keywords:
-  - "vs.debug.builds"
-dev_langs:
-  - "CSharp"
-  - "VB"
-  - "FSharp"
-  - "C++"
-  - "JScript"
-helpviewer_keywords:
-  - "configurations, release"
-  - "build configurations, release"
-  - "projects [Visual Studio], release configurations"
-  - "debugging [Visual Studio], release configurations"
-  - "release builds, changing settings"
-  - "debug builds"
-  - "debug builds, switching to release build"
-  - "debug builds, changing configuration settings"
-  - "debugging [Visual Studio], debug configurations"
-  - "projects [Visual Studio], debug configurations"
-  - "build configurations, debug"
-  - "debug configurations"
-  - "release builds, switching to debug build"
-  - "Visual Basic projects, debug and release builds"
+title: Set debug and release configurations | Microsoft Docs
+ms.date: 10/05/2018
+ms.topic: how-to
+f1_keywords: 
+  - vs.debug.builds
+dev_langs: 
+  - CSharp
+  - VB
+  - FSharp
+  - C++
+  - JScript
+helpviewer_keywords: 
+  - configurations, release
+  - build configurations, release
+  - projects [Visual Studio], release configurations
+  - debugging [Visual Studio], release configurations
+  - release builds, changing settings
+  - debug builds
+  - debug builds, switching to release build
+  - debug builds, changing configuration settings
+  - debugging [Visual Studio], debug configurations
+  - projects [Visual Studio], debug configurations
+  - build configurations, debug
+  - debug configurations
+  - release builds, switching to debug build
+  - Visual Basic projects, debug and release builds
 ms.assetid: 57b6bbb7-f2af-48f7-8773-127d75034ed2
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
-ms.workload:
-  - "multiple"
+ms.workload: 
+  - multiple
 ---
 # Set debug and release configurations in Visual Studio
 

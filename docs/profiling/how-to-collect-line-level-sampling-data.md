@@ -1,16 +1,16 @@
 ---
-title: "How to: Collect Line-Level Sampling Data | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-helpviewer_keywords:
-  - "performance tools, line-level sampling"
+title: How to - Collect Line-Level Sampling Data | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: how-to
+helpviewer_keywords: 
+  - performance tools, line-level sampling
 ms.assetid: 44803aad-dd39-4c2e-9209-d35185d44983
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 monikerRange: 'vs-2017'
-ms.workload:
-  - "multiple"
+ms.workload: 
+  - multiple
 ---
 # How to: Collect line-level sampling data
 Line-level sampling is the ability of the profiler to determine where in the code of a processor-intensive function, such as a function that has high exclusive samples, the processor has to spend most of its time.

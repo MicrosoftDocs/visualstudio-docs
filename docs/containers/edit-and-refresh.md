@@ -5,7 +5,7 @@ ms.author: ghogen
 author: ghogen
 manager: jillfra
 ms.assetid: 480e3062-aae7-48ef-9701-e4f9ea041382
-ms.topic: conceptual
+ms.topic: how-to
 ms.workload: multiple
 ms.date: 07/25/2019
 ms.technology: vs-azure
@@ -73,6 +73,16 @@ To quickly iterate changes, you can start your application in a container. Then,
     #endif
     
         // code omitted for brevity
+    }
+    ```
+
+    Modify the `Startup` method as follows:
+
+    ```csharp
+    public Startup(IConfiguration configuration, IWebHostEnvironment webHostEnvironment)
+    {
+        Configuration = configuration;
+        Env = webHostEnvironment;
     }
     ```
 

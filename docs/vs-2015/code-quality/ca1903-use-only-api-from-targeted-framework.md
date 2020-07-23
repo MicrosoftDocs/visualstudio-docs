@@ -21,7 +21,7 @@ manager: "wpickett"
 
 For the latest documentation on Visual Studio, see [CA1903: Use only API from targeted framework](/visualstudio/code-quality/ca1903-use-only-api-from-targeted-framework).
 
-|||
+|Item|Value|
 |-|-|
 |TypeName|UseOnlyApiFromTargetedFramework|
 |CheckId|CA1903|
@@ -36,7 +36,7 @@ For the latest documentation on Visual Studio, see [CA1903: Use only API from ta
 
  **Target Framework and Service Pack Dependencies**
 
-|||
+|Item|Value|
 |-|-|
 |When target framework is|Fires on usages of members introduced in|
 |.NET Framework 2.0|.NET Framework 2.0 SP1, .NET Framework 2.0 SP2|

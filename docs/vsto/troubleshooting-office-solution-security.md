@@ -1,7 +1,7 @@
 ---
 title: "Troubleshoot Office solution security"
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: "troubleshooting"
 dev_langs:
   - "VB"
   - "CSharp"

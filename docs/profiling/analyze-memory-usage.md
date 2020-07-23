@@ -15,7 +15,7 @@ To find memory leaks and inefficient memory usage, you can use tools such as the
 
 The Memory Usage tool lets you take one or more *snapshots* of the managed and native memory heap. You can collect snapshots of .NET, ASP.NET, native, or mixed mode (.NET and native) apps. The **Memory Usage** tool can run on an open Visual Studio project, on an installed Microsoft Store app, or attached to a running app or process. You can run the **Memory Usage** tool with or without debugging. For more information, see [Run profiling tools with or without the debugger](../profiling/running-profiling-tools-with-or-without-the-debugger.md). In the debugger, you can turn memory profiling on and off, and see a per-object breakdown of memory usage. You can view memory usage results when execution is paused, for example at a breakpoint.
 
-The **.NET Object Allocation** tool helps you identify allocation patterns and anomalies in your .NET code. This tool runs only as a post-mortem tool. You can run this tool on local or remoted machines.
+The **.NET Object Allocation** tool helps you identify allocation patterns and anomalies in your .NET code. This tool runs only as a post-mortem tool. You can run this tool on local or remote machines.
 
 For detailed instructions that describe how to use the memory analysis tools, see the [Analyze memory usage](../profiling/memory-usage.md) tutorial and the [.NET Object Allocation tool](../profiling/dotnet-alloc-tool.md).
 

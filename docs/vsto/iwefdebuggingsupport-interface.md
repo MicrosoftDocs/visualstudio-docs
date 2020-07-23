@@ -1,7 +1,7 @@
 ---
 title: "IWefDebuggingSupport interface"
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: "interface"
 dev_langs:
   - "VB"
   - "CSharp"

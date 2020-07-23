@@ -14,9 +14,8 @@ This cookbook contains guidance and best practices for adopting the Visual Studi
 
  The image service introduced in Visual Studio 2015 lets developers get the best images for the device and the user’s chosen theme to display the image, including correct theming for the context in which they are displayed. Adopting the image service will help eliminate major pain points related to asset maintenance, HDPI scaling, and theming.  
 
-|||  
-|-|-|  
 |**Problems today**|**Solutions**|  
+|-|-|  
 |Background color blending|Built-in alpha blending|  
 |Theming (some) images|Theme metadata|  
 |High Contrast mode|Alternate High Contrast resources|  
@@ -96,9 +95,8 @@ This cookbook contains guidance and best practices for adopting the Visual Studi
 </Symbols>  
 ```  
 
-|||  
-|-|-|  
 |**Subelement**|**Definition**|  
+|-|-|  
 |Import|Imports the symbols of the given manifest file for use in the current manifest|  
 |Guid|The symbol represents a GUID and must match GUID formatting|  
 |ID|The symbol represents an ID and must be a nonnegative integer|  
@@ -114,9 +112,8 @@ This cookbook contains guidance and best practices for adopting the Visual Studi
 
  Some symbols are predefined for all manifests. These can be used in the Uri attribute of the \<Source> or \<Import> element to reference paths on the local machine.  
 
-|||  
-|-|-|  
 |**Symbol**|**Description**|  
+|-|-|  
 |CommonProgramFiles|The value of the %CommonProgramFiles% environment variable|  
 |LocalAppData|The value of the %LocalAppData% environment variable|  
 |ManifestFolder|The folder containing the manifest file|  
@@ -138,9 +135,8 @@ This cookbook contains guidance and best practices for adopting the Visual Studi
 </Image>  
 ```  
 
-|||  
-|-|-|  
 |**Attribute**|**Definition**|  
+|-|-|  
 |Guid|[Required] The GUID portion of the image moniker|  
 |ID|[Required] The ID portion of the image moniker|  
 |AllowColorInversion|[Optional, default true] Indicates whether the image can have its colors programmatically inverted when used on a dark background.|  
@@ -164,9 +160,8 @@ This cookbook contains guidance and best practices for adopting the Visual Studi
 
  A \<Source> element can have exactly one of the following optional subelements:  
 
-||||  
-|-|-|-|  
 |**Element**|**Attributes (all required)**|**Definition**|  
+|-|-|-|  
 |\<Size>|Value|The source will be used for images of the given size (in device units). The image will be square.|  
 |\<SizeRange>|MinSize, MaxSize|The source will be used for images from MinSize to MaxSize (in device units) inclusively. The image will be square.|  
 |\<Dimensions>|Width, Height|The source will be used for images of the given width and height (in device units).|  
@@ -178,9 +173,8 @@ This cookbook contains guidance and best practices for adopting the Visual Studi
 <NativeResource Type="type" ID="int" />  
 ```  
 
-|||  
-|-|-|  
 |**Attribute**|**Definition**|  
+|-|-|  
 |Type|[Required] The type of the native resource, either XAML or PNG|  
 |ID|[Required] The integer ID portion of the native resource|  
 
@@ -195,9 +189,8 @@ This cookbook contains guidance and best practices for adopting the Visual Studi
  </ImageList>  
 ```  
 
-|||  
-|-|-|  
 |**Attribute**|**Definition**|  
+|-|-|  
 |Guid|[Required] The GUID portion of the image moniker|  
 |ID|[Required] The ID portion of the image moniker|  
 |External|[Optional, default false] Indicates whether the image moniker references an image in the current manifest.|  
@@ -684,9 +677,8 @@ b714fcf7-855e-4e4c-802a-1fd87144ccad,2,fda30684-682d-421c-8be4-650a2967058e,200
 
   - These were removed when CPS was updated to use monikers. You no longer need to call the **StockIconService**, just pass the desired **KnownMoniker** to the method or property using the **ToProjectSystemType()** extension method in the CPS utilities. You can find a mapping from **ImageName** to **KnownMonikers** below:  
 
-    |||  
-    |-|-|  
     |**ImageName**|**KnownMoniker**|  
+    |-|-|  
     |ImageName.OfflineWebApp|KnownImageIds.Web|  
     |ImageName.WebReferencesFolder|KnownImageIds.Web|  
     |ImageName.OpenReferenceFolder|KnownImageIds.FolderOpened|  
@@ -752,7 +744,7 @@ b714fcf7-855e-4e4c-802a-1fd87144ccad,2,fda30684-682d-421c-8be4-650a2967058e,200
 
   - I am updating my completion list provider. What **KnownMonikers** match to the old **StandardGlyphGroup** and **StandardGlyph** values?  
 
-    ||||  
+    |Name|Name|Name|  
     |-|-|-|  
     |GlyphGroupClass|GlyphItemPublic|ClassPublic|  
     |GlyphGroupClass|GlyphItemInternal|ClassInternal|  

@@ -1,7 +1,7 @@
 ---
 title: Set control to create when dragging from Data Sources window
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - Data Sources Window, select controls
 - Windows Forms, displaying data

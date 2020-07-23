@@ -1,7 +1,7 @@
 ---
 title: Install and use behind a firewall or proxy server
 description: Review the domain URLs, ports, and protocols that you might want to add to an allow list or open if your organization uses a firewall or a proxy server
-ms.date: 02/01/2020
+ms.date: 06/17/2020
 ms.custom: seodec18
 ms.topic: conceptual
 helpviewer_keywords:
@@ -106,7 +106,7 @@ To make sure that you have access to everything you want when you use Visual Stu
 | Office web <br>add-in <br> Manifest <br>Verification <br>Service | verificationservice.osi.office.net | https/443 | Used to validate manifests for Office web add-ins |
 | SharePoint and <br>Office Add-ins | sharepoint.com<br> office365.com<br> microsoftonline.com <br> outlook.com | https/443 | Used to publish and test SharePoint and Office Add-ins to SharePoint Online and Office 365 |
 | Workflow Manager <br>Test Service<br> Host | | http/12292 | A firewall rule that is created automatically for testing SharePoint add-ins with workflows |
-| Automatically collected <br>reliability statistics <br>and other <br>Customer Experience <br>Improvement Programs (CEIP)<br> for Azure SDK and <br>for SQL Tools <br><br> | vortex.data.microsoft.com<br> <br>dc.services.visualstudio.com | https/443 | Used to send reliability statistics (crash/hang data) from the user to Microsoft. Actual crash/hang dumps will still be uploaded if Windows Error Reporting is enabled; only statistical information will be suppressed; <br>Used to reveal anonymous usage patterns for the Azure Tools SDK extension to Visual Studio, and for usage patterns for the SQL tooling to Visual Studio |
+| Automatically collected <br>reliability statistics <br>and other <br>Customer Experience <br>Improvement Programs (CEIP)<br> for Azure SDK and <br>for SQL Tools <br><br> | vortex.data.microsoft.com<br> <br>dc.services.visualstudio.com | https/443 | Used to send reliability statistics (crash/unresponsive data) from the user to Microsoft. Actual crash/unresponsive dumps will still be uploaded if Windows Error Reporting is enabled; only statistical information will be suppressed; <br>Used to reveal anonymous usage patterns for the Azure Tools SDK extension to Visual Studio, and for usage patterns for the SQL tooling to Visual Studio |
 | Visual Studio <br> Customer Experience <br>Improvement Program (CEIP) <br><br>PerfWatson.exe | vortex.data.microsoft.com<br>dc.services.visualstudio.com<br>visualstudio-devdiv-c2s.msedge.net<br>az667904.vo.msecnd.net <br>scus-breeziest-in.cloudapp.net<br> | https/443 | Used to collect anonymous usage patterns and error logs <br><br>Used to track UI freeze issues |
 | Creation and<br>Management of <br>Azure resources | management.azure.com <br>management.core.windows.net | https/443 | Used for creating Azure Websites or other resources to support the publishing of web applications, Azure Functions, or WebJobs |
 | Updated web publish tooling <br>checks and extension <br>recommendations | marketplace.visualstudio.com | https/443 | Used for checking for the availability of updated publish tooling. If disabled, a potential recommended extension for web publishing may not be shown |
@@ -123,14 +123,16 @@ To make sure that you have access to everything you want when you use Visual Stu
 | Azure Data Lake | &#42;.azuredatalakestore.net <br>&#42;.azuredatalakeanalytics.net | https/443 | Used to compile, submit, view, diagnose, and debug  jobs; used to browse ADLS files; used to upload and download files |
 | Packaging Service | [account].visualstudio.com <br/> [account].\*.visualstudio.com <br/> \*.blob.core.windows.net <br/> registry.npmjs.org </br> nodejs.org <br/> dist.nuget.org <br/> nuget.org | https/443 | The \*.npmjs.org, \*.nuget.org, and \*.nodejs.org are only required for certain build task scenarios (for example: NuGet Tool Installer, Node Tool Installer) or if you intend to use public upstream with your Feeds. The other three domains are required for core functionality of the Packaging service. |
 | Azure DevOps Services | \*.vsassets.io <br/> static2.sharepointonline.com <br/> dev.azure.com | | Used to connect with Azure DevOps Services |
+| Azure Service Bus | \*.servicebus.windows.net | ampq/5671 and 5672, </br> sbmp/9350-9354, </br> http/80, </br> https/443 | Used to create queues, topics, and subscriptions. </br> Also used to send/receive messages to/from Service Bus queues and topics. |
+| Azure Cosmos DB | \*.documents.azure.com | https/443 | Used to call core document database APIs. |
 | Developer Community | sendvsfeedback2.azurewebsites.net/api | https/443 | Used to call Developer Community Feedback Tool APIs (my issues, search, vote, comment, submit, upload, resume) |
 | Intellicode | \*.intellicode.vsengsaas.visualstudio.com | https/443 | Used to call Intellicode APIs |
 | Live Share | \*.liveshare.vsengsaas.visualstudio.com| https/443 | Used to call Live Share APIs |
-| Visual Studio Online | \*.online.visualstudio.com | https/443 | Used to call Visual Studio Online APIs |
+| Visual Studio Codespaces | \*.online.visualstudio.com | https/443 | Used to call Visual Studio Codespaces APIs |
 | JavaScript Automatic Type Acquisition | registry.npmjs.org | https/443 | Used to install TypeScript type definitions to provide Intellisense for popular JavaScript libraries |
 | Visual Studio Subscriptions Licensing Service | app.vssps.visualstudio.com/apis/<br/>Licensing/ClientRights | https/443 | Licensing for online activation |
 | Debugger | 1. <br>vsdebugger.blob.core.windows.net <br>vsdebugger.azureedge.net <br><br>2. <br>download.visualstudio.com/\*/<br/>onecore.msvsmon.\*.zip<br><br> 3. referencesource.microsoft.com/symbols <br><br> 4. <br>symbols.nuget.org/download/symbols<br><br> 5. visualstudio.com<br><br>6. msdl.microsoft.com/download/symbols | https/443 | 1. <br>Used for downloading debugger bits for .NET Core debugging on Unix / macOS over SSH <br><br>2. <br>Used for downloading debugger bits for remote Windows Docker container debugging<br><br> 3. Used for .NET framework source stepping <br><br> 4. <br>(If user opts-in) Used for downloading symbols published to nuget.org symbol server.<br><br> 5. (If user opts-in) Used for downloading MS symbols and binaries, might also be needed for debugging managed code in dumps |
-| Visual Studio Online| \*.online.visualstudio.com | https/443 | Used to call Visual Studio Online APIs |
+| Visual Studio Codespaces| \*.online.visualstudio.com | https/443 | Used to call Visual Studio Codespaces APIs |
 | Xamarin Android App Publishing | \*.googleapis.com <br/> play.google.com <br/>accounts.google.com | https/443 | Used to interact with Google Play Store service to publish/upload Xamarin Android Applications directly from Visual Studio. |
 | Azure Container Registry | *.azurecr.io | https/443 | Access container registries hosted on Azure, for configuration of CICD pipelines |
 | | | | |

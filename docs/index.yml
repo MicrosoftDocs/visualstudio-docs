@@ -6,7 +6,7 @@ metadata:
   title: Visual Studio product family documentation
   description: Explore documentation for the Visual Studio family of products.
   ms.topic: hub-page
-  ms.date: 11/13/2019
+  ms.date: 05/13/2020
   searchScope: []
   titleSuffix: ""
   ms.author: ghogen
@@ -50,14 +50,14 @@ productDirectory:
           text: Release notes
         - url: https://code.visualstudio.com
           text: Product page
-    - title: Visual Studio Online
+    - title: Visual Studio Codespaces
       imageSrc: ./media/vs-ide-2019.svg
       links:
-         - url: https://docs.microsoft.com/visualstudio/online/
+         - url: https://docs.microsoft.com/visualstudio/codespaces/
            text: Documentation
-         - url: https://code.visualstudio.com/docs/remote/vsonline
+         - url: https://code.visualstudio.com/docs/remote/codespaces
            text: Use with Visual Studio Code
-         - url: https://visualstudio.microsoft.com/services/visual-studio-online/
+         - url: https://visualstudio.microsoft.com/services/visual-studio-codespaces/
            text: Product page
     - title: Visual Studio App Center
       imageSrc: ./media/vs-mobile-center.svg
@@ -74,6 +74,6 @@ productDirectory:
         - url: https://visualstudio.microsoft.com/subscriptions
           text: Info on visualstudio.com
         - url: https://my.visualstudio.com
-          text: Portal
+          text: Subscriber portal
         - url: https://manage.visualstudio.com
-          text: Administration
+          text: Administrator portal

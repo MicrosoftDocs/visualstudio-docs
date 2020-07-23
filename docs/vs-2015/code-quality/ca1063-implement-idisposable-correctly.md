@@ -19,7 +19,7 @@ manager: "wpickett"
 # CA1063: Implement IDisposable correctly
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-|||
+|Item|Value|
 |-|-|
 |TypeName|ImplementIDisposableCorrectly|
 |CheckId|CA1063|

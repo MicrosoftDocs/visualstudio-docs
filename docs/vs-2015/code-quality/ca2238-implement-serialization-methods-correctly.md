@@ -21,7 +21,7 @@ manager: "wpickett"
 
 For the latest documentation on Visual Studio, see [CA2238: Implement serialization methods correctly](/visualstudio/code-quality/ca2238-implement-serialization-methods-correctly).
 
-|||
+|Item|Value|
 |-|-|
 |TypeName|ImplementSerializationMethodsCorrectly|
 |CheckId|CA2238|

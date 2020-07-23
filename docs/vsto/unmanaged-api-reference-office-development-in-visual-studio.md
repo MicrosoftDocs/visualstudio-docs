@@ -1,7 +1,7 @@
 ---
 title: "Unmanaged API reference (Office development in Visual Studio)"
 ms.date: "08/14/2019"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "VB"
   - "CSharp"

@@ -1,14 +1,14 @@
 ---
-title: "Creating Profiler Reports from the Command Line | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Creating Profiler Reports from the Command Line | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: how-to
 ms.assetid: c886f8af-2014-4fec-9b24-d98b68ecafb7
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 monikerRange: 'vs-2017'
-ms.workload:
-  - "multiple"
+ms.workload: 
+  - multiple
 ---
 # Create profiler reports from the command line
 The **VSPerfReport** command-line tool enables you to create .*xml* or comma-separated value (.*csv*) reports from profiling data (.*vsp*) files. VSPerfReport report types closely match the table-based views of the interface for [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. You can filter the report to show only your code and to show only a segment of the profiling data file. For more information, see [VSPerfReport](../profiling/vsperfreport.md).

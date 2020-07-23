@@ -1,7 +1,7 @@
 ---
 title: Code Generation in a Build Process
 ms.date: 03/22/2018
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - text templates, build tasks
 - text templates, transforming by using msbuild

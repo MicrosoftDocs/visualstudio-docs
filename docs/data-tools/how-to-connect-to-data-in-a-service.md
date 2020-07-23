@@ -1,7 +1,7 @@
 ---
 title: 'How to: Connect to Data in a Service'
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - data [Visual Studio], connecting to web services
 - data sources, creating from web services

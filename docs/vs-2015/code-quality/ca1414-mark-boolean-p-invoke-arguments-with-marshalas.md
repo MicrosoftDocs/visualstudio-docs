@@ -19,7 +19,7 @@ manager: "wpickett"
 # CA1414: Mark boolean P/Invoke arguments with MarshalAs
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-|||
+|Item|Value|
 |-|-|
 |TypeName|MarkBooleanPInvokeArgumentsWithMarshalAs|
 |CheckId|CA1414|

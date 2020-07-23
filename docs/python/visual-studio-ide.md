@@ -2,7 +2,7 @@
 title: Overview of Visual Studio for Python developers
 titleSuffix: ""
 ms.date: 03/13/2019
-ms.topic: conceptual
+ms.topic: overview
 author: JoshuaPartlow
 ms.author: joshuapa
 manager: jillfra

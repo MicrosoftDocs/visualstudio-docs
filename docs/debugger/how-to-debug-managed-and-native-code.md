@@ -133,7 +133,7 @@ If you have Visual Studio installed, but don't have the workloads you need, sele
     If you don't see the **Console App** project template, go to **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer. Choose the **.NET desktop development** workload, then choose **Modify**.
 
     > [!NOTE]
-    > Although you could also add the new managed project to your existing C++ solution, creating a new solution supports more debugging scenarios.
+    > You could also add the new managed project to your existing C++ solution. We are creating the project in a new solution to make the mixed-mode debugging task more difficult.
 
    Visual Studio creates the empty project and displays it in **Solution Explorer**.
 

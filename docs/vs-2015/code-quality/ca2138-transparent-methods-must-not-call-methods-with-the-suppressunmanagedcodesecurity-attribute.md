@@ -15,7 +15,7 @@ manager: "wpickett"
 # CA2138: Transparent methods must not call methods with the SuppressUnmanagedCodeSecurity attribute
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-|||
+|Item|Value|
 |-|-|
 |TypeName|TransparentMethodsMustNotCallSuppressUnmanagedCodeSecurityMethods|
 |CheckId|CA2138|
