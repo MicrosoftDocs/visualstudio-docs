@@ -55,7 +55,7 @@ When upgrading from one minor version of Visual Studio to the next, the Visual S
 ```
 vs_Enterprise.exe --installPath "C:\Program Files (x86)\Microsoft Visual Studio\<2019 AddNewPath>"
 ```
-4. Follow the installer dialogs to select the components you need for your installation. For more information, see [Install Visual Studio](install-visual-studio?view=vs-2019#step-4---choose-workloads).
+4. Follow the installer dialogs to select the components you need for your installation. For more information, see [Install Visual Studio](install-visual-studio.md?view=vs-2019#step-4---choose-workloads.md).
 
 ## .NET Framework versions and side-by-side installations
 
