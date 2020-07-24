@@ -25,10 +25,10 @@ To assign new administrators (admins):
 2. Click on the tab labeled **Manage Administrators**.
 3. Click **Add**.
    > [!div class="mx-imgBorder"]
-   > ![Add administrators](_img/admin-roles/add-admins.png)
+   > ![Add administrators](_img/admin-roles/add-admins.png "Click the Manage Administrators blade, then click Add to assign new administrators.")
 4. Complete the form with the new admin's information.  
    > [!div class="mx-imgBorder"]
-   > ![Add administrator form](_img/admin-roles/add-form.png)
+   > ![Add administrator form](_img/admin-roles/add-form.png "Enter the sign-in information for the new admin, and choose whether to make them a super admin.  Then click Add.")
 
    > [!NOTE]
    > If you want this admin to be able to assign additional admins, remember to check the **Super Admin** box.
