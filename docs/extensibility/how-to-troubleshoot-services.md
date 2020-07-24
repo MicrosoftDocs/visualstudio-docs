@@ -64,3 +64,4 @@ if (log == null) return;
 - [List of available services](../extensibility/internals/list-of-available-services.md)
 - [Use and provide services](../extensibility/using-and-providing-services.md)
 - [Service essentials](../extensibility/internals/service-essentials.md)
+- [Visual Studio troubleshooting](/troubleshoot/visualstudio/welcome-visual-studio/)

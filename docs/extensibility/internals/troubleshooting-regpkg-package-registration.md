@@ -32,3 +32,4 @@ ms.workload:
 
 ## See also
 - [VSPackages](../../extensibility/internals/vspackages.md)
+- [Visual Studio troubleshooting](/troubleshoot/visualstudio/welcome-visual-studio/)

@@ -44,3 +44,4 @@ ms.workload:
 
 ## See also
 - [Secure Office solutions](../vsto/securing-office-solutions.md)
+- [Visual Studio troubleshooting](/troubleshoot/visualstudio/welcome-visual-studio/)
