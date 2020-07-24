@@ -81,6 +81,3 @@ Learn more about managing Visual Studio subscriptions.
 - [Assign multiple subscriptions](assign-license-bulk.md)
 - [Edit subscriptions](edit-license.md)
 - [Determine maximum usage](maximum-usage.md)
-
-
-
