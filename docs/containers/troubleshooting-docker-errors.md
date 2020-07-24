@@ -91,3 +91,7 @@ Click **Apply** to restart Docker. These steps modify the configuration file at 
 ## Microsoft/DockerTools GitHub repo
 
 For any other issues you encounter, see  [Microsoft/DockerTools](https://github.com/microsoft/dockertools/issues) issues.
+
+## See also
+
+- [Visual Studio troubleshooting](/troubleshoot/visualstudio/welcome-visual-studio/)
