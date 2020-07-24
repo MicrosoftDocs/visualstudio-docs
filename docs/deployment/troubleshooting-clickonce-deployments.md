@@ -54,3 +54,4 @@ This topic helps you diagnose and resolve the most common issues with [!INCLUDE[
 
 - [ClickOnce deployment manifest](../deployment/clickonce-deployment-manifest.md)
 - [ClickOnce application manifest](../deployment/clickonce-application-manifest.md)
+- [Visual Studio troubleshooting](/troubleshoot/visualstudio/welcome-visual-studio/)

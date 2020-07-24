@@ -126,3 +126,7 @@ A Msbuild.binlog file will be created in the directory that you ran MSBuild from
     ```
 
     An Msbuild.log file will be created in the directory that you ran msbuild from.
+
+## See also
+
+- [Visual Studio troubleshooting](/troubleshoot/visualstudio/welcome-visual-studio/)
