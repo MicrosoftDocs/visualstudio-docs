@@ -1,7 +1,7 @@
 ---
 title: Adding a Most Recently Used List to a Submenu | Microsoft Docs
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - MRU lists
 - menus, creating MRU list

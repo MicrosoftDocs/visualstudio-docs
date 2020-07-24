@@ -57,7 +57,7 @@ Welcome to Visual Studio! After you have [downloaded](https://visualstudio.micro
 
 ## In this section
 
-|||
+|Title|Description|
 |-|-|
 |[Getting Started with Visual C# and Visual Basic](../ide/getting-started-with-visual-csharp-and-visual-basic.md)|[Writing JavaScript Code](https://msdn.microsoft.com/library/cte3c772\(v=vs.94\).aspx)|
 |[Visual C++ for Cross-Platform Mobile Development](../cross-platform/visual-cpp-for-cross-platform-mobile-development.md)|[Introduction to Functional Programming with F#](https://msdn.microsoft.com/library/vstudio/dd233147.aspx)|

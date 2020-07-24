@@ -1,7 +1,7 @@
 ---
 title: "Create Silverlight web part displaying OData for SharePoint"
 ms.date: "02/22/2017"
-ms.topic: "conceptual"
+ms.topic: how-to
 f1_keywords:
   - "VS.SharePointTools.SPE.SilverlightWebPart"
 dev_langs:

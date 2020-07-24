@@ -1,7 +1,7 @@
 ---
 title: "Extending the SharePoint Tools in Visual Studio | Microsoft Docs"
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: overview
 dev_langs:
   - "VB"
   - "CSharp"

@@ -17,7 +17,7 @@ The articles in this section of the documentation contain examples that demonstr
 
 ## Related topics
 
-|||
+|Title|Description|
 |-|-|
 |[How to: Create a Basic Color Shader](../designers/how-to-create-a-basic-color-shader.md)|Demonstrates a shader that applies a constant color to an object.|
 |[How to: Create a Basic Lambert Shader](../designers/how-to-create-a-basic-lambert-shader.md)|Demonstrates a shader that applies the classic Lambert lighting model to an object.|

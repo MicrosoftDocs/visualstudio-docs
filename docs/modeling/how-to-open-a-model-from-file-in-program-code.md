@@ -1,7 +1,7 @@
 ---
 title: 'How to: Open a Model from File in Program Code'
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 author: JoshuaPartlow
 ms.author: joshuapa
 manager: jillfra

@@ -17,7 +17,7 @@ ms.workload:
 ---
 # DA0014: Extremely high rates of paging active memory to disk
 
-|||
+|Item|Value|
 |-|-|
 |Rule Id|DA0014|
 |Category|Memory and Paging|

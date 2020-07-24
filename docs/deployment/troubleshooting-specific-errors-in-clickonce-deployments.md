@@ -133,3 +133,4 @@ This article lists the following common errors that can occur when you deploy a 
 ## See also
 - [ClickOnce security and deployment](../deployment/clickonce-security-and-deployment.md)
 - [Troubleshoot ClickOnce deployments](../deployment/troubleshooting-clickonce-deployments.md)
+- [Visual Studio troubleshooting](/troubleshoot/visualstudio/welcome-visual-studio/)

@@ -5,7 +5,7 @@ description: A list of released versions and build numbers for Visual Studio, so
 author: ornellaalt
 ms.author: ornella
 manager: jillfra
-ms.date: 06/25/2020
+ms.date: 07/21/2020
 ms.topic: reference
 ms.workload:
 - multiple
@@ -23,10 +23,18 @@ The following table lists the build numbers and release dates for Visual Studio 
 
 | **Version**| **Channel** | **Release date** | **Build version** |
 | ---------------------- | ----------- | ---------------- | ----------------- |
+| 16.7.0 | Preview 5 | July 21, 2020 | 16.7.30317.65 |
+| 16.6.5 | Release | July 21, 2020 | 16.6.30320.27 |
+| 16.7.0 | Preview 4 | July 14, 2020 | 16.7.30310.162 |
+| 16.6.4 | Release | July 14, 2020 | 16.6.30309.148 |
+| 16.4.11 | Release | July 14, 2020 | 16.4.30308.118 |
+| 16.0.16 | Release | July 14, 2020 | 16.0.28803.791 |
+| 16.6.3 | Release | June 30, 2020 | 16.6.30225.117 |
 | 16.7.0 | Preview 3.1 | June 25, 2020 | 16.7.30223.230 |
 | 16.7.0 | Preview 3 | June 23, 2020 | 16.7.30218.91 |
 | 16.0.15 | Release | June 9, 2020 | 16.0.28803.753 |
 | 16.6.2 | Release | June 9, 2020 | 16.6.30204.135 |
+| 16.4.10 | Release | June 9, 2020 | 16.4.30204.51 |
 | 16.7.0 | Preview 2 | June 2, 2020 | 16.7.30128.36 |
 | 16.6.1 | Release | June 1, 2020 | 16.6.30128.74 |
 | 16.4.9 | Release | May 27, 2020 | 16.4.30120.98 |
@@ -149,6 +157,7 @@ The following table lists the build numbers and release dates for Visual Studio 
 
 | **Version**| **Channel** | **Release date** | **Build version** |
 | ---------------------- | ----------- | ---------------- | ----------------- |
+| 15.9.25 | Release | July 14, 2020 | 15.9.28307.1216 |
 | 15.9.24 | Release | June 9, 2020 | 15.9.28307.1177 |
 | 15.9.23 | Release | May 12, 2020 | 15.9.28307.1146 |
 | 15.9.22 | Release | April 14, 2020 | 15.9.28307.1093 |
@@ -326,7 +335,8 @@ The following table lists the build numbers and release dates for Visual Studio 
 
 ## See also
 
-* [Visual Studio release rhythm](/visualstudio/productinfo/release-rhythm/)
+* [Visual Studio Roadmap](/visualstudio/productinfo/vs-roadmap)
+* [Visual Studio release rhythm](/visualstudio/productinfo/release-rhythm)
 * [Visual Studio administrator guide](visual-studio-administrator-guide.md)
 * [Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md)
 * [Tools for detecting and managing Visual Studio instances](tools-for-managing-visual-studio-instances.md)

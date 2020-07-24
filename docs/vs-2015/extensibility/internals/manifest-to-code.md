@@ -19,9 +19,8 @@ The Manifest to Code tool is a console application that takes an .imagemanifest 
   
  **Arguments**  
   
-||||  
-|-|-|-|  
 |**Switch name**|**Notes**|**Required or Optional**|  
+|-|-|-|  
 |/manifest|The path to the image manifest to use to create or update the code wrapper.|Required|  
 |/language|The language in which to generate the code wrapper.<br /><br /> Valid values: CPP, C++, CS, CSharp, C#, VB, or VSCT The values are case-insensitive.<br /><br /> For the VSCT language option, the /monikerClass, /classAccess, and /namespace options are ignored.|Required|  
 |/imageIdClass|The name of the imageIdClass and the associated file created by the tool. For the C++ language option, only .h files are generated.<br /><br /> Default: \<Manifest Path>\MyImageIds.\<Lang Ext>|Optional|  

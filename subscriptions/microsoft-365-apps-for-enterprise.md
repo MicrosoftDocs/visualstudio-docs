@@ -5,7 +5,7 @@ ms.author: v-evwin
 manager: cabuschl
 ms.assetid: d1257931-392a-4a65-bf26-177737505122
 ms.date: 06/24/2020
-ms.topic: conceptual
+ms.topic: how-to
 description:  Learn about and install Microsoft 365 apps for enterprise
 ---
 

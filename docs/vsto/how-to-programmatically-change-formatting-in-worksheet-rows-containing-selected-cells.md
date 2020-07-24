@@ -1,7 +1,7 @@
 ---
 title: "Change formats in rows containing selected cells through code"
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: "how-to"
 dev_langs:
   - "VB"
   - "CSharp"

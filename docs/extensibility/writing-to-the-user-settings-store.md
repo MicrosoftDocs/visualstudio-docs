@@ -1,7 +1,7 @@
 ---
 title: Writing to the User Settings Store | Microsoft Docs
 ms.date: 05/23/2019
-ms.topic: conceptual
+ms.topic: how-to
 ms.assetid: efd27f00-7fe5-45f8-9b97-371af732be97
 author: acangialosi
 ms.author: anthc

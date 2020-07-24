@@ -1,7 +1,7 @@
 ---
 title: Troubleshooting RegPkg Package Registration | Microsoft Docs
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: troubleshooting
 helpviewer_keywords:
 - RegPkg
 ms.assetid: f33f822f-697a-4bad-9c10-554b4c8f6246
@@ -32,3 +32,4 @@ ms.workload:
 
 ## See also
 - [VSPackages](../../extensibility/internals/vspackages.md)
+- [Visual Studio troubleshooting](/troubleshoot/visualstudio/welcome-visual-studio/)

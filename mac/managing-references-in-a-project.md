@@ -5,6 +5,7 @@ author: jmatthiesen
 ms.author: jomatthi
 ms.date: 05/06/2018
 ms.assetid: 4AD51385-B0A8-4BA7-B2D4-BF2BD167A142
+ms.topic: overview
 ---
 
 # Managing References in a Project

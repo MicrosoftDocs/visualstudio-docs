@@ -19,7 +19,7 @@ manager: "wpickett"
 # CA2119: Seal methods that satisfy private interfaces
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-|||
+|Item|Value|
 |-|-|
 |TypeName|SealMethodsThatSatisfyPrivateInterfaces|
 |CheckId|CA2119|

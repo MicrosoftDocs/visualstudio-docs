@@ -34,7 +34,7 @@ You can choose to hide some code from view by collapsing a region of code so tha
 
  The following commands can be found on the **Edit/Outlining** submenu.
 
-|||
+|Command|Description|
 |-|-|
 |Hide Selection|(CTRL + M , CTRL + H) - Collapses a selected block of code that would not normally be available for outlining, for example an `if` block. To remove the custom region, use **Stop Hiding Current** (or CTRL + M, CTRL + U). Not available in Visual Basic.|
 |Toggle Outlining Expansion|- Reverses the current hidden or expanded state of the innermost outlining section when the cursor lies in a nested collapsed section.|

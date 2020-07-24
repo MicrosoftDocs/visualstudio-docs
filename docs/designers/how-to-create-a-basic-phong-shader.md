@@ -1,7 +1,7 @@
 ---
 title: 'How to: Create a Basic Phong Shader'
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 ms.assetid: c7c69da8-142b-4d3b-9be9-4be0d5970b25
 author: TerryGLee
 ms.author: tglee

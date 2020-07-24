@@ -19,7 +19,7 @@ manager: "wpickett"
 # CA1034: Nested types should not be visible
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-|||
+|Item|Value|
 |-|-|
 |TypeName|NestedTypesShouldNotBeVisible|
 |CheckId|CA1034|

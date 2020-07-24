@@ -3,7 +3,7 @@ title: "Operator Summary (JavaScript) | Microsoft Docs"
 ms.date: "01/18/2017"
 ms.prod: visual-studio-windows
 ms.technology: vs-javascript
-ms.topic: reference
+ms.topic: error-reference
 dev_langs: 
   - "JavaScript"
   - "TypeScript"

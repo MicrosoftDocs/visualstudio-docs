@@ -17,7 +17,7 @@ ms.workload:
 ---
 # DA0007: Avoid using exceptions for control flow
 
-|||
+|Item|Value|
 |-|-|
 |Rule Id|DA0007|
 |Category|.NET Framework Usage|

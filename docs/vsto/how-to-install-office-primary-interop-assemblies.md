@@ -1,7 +1,7 @@
 ---
 title: "How to: Install Office primary interop assemblies"
 ms.date: "08/14/2019"
-ms.topic: "conceptual"
+ms.topic: "how-to"
 dev_langs:
   - "VB"
   - "CSharp"

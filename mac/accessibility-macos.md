@@ -5,6 +5,7 @@ author: alanjclark
 ms.author: dominicn
 ms.date: 09/23/2019
 ms.assetid: 598FC25A-6DA3-44BB-B128-AD979E9F86EA
+ms.topic: how-to
 ---
 
 # Accessibility features of macOS

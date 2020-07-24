@@ -1,7 +1,7 @@
 ---
 title: 'How to: Provide Automation for Windows | Microsoft Docs'
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - automation [Visual Studio SDK], tool windows
 - tool windows, automation

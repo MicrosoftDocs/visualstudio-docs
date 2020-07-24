@@ -88,7 +88,7 @@ This walkthrough illustrates how to use a data source defined in an app.config f
 
  In the second `add` element, create the following attributes and values for a connection to a Microsoft Excel spreadsheet:
 
-|||
+|Attribute|Values|
 |-|-|
 |`name`|`"MyExcelConn"`|
 |`connectionString`|`"Dsn=Excel Files;dbq=data.xlsx;defaultdir=.; driverid=790;maxbuffersize=2048;pagetimeout=5"`|
@@ -96,7 +96,7 @@ This walkthrough illustrates how to use a data source defined in an app.config f
 
  The `connectionStrings` element should look similar to this:
 
-```
+```xml
 <connectionStrings>
     <add name="MyJetConn" connectionString="Provider=Microsoft.Jet.OLEDB.4.0; Data Source=C:\testdatasource.accdb; Persist Security Info=False;" providerName="System.Data.OleDb" />
     <add name="MyExcelConn" connectionString="Dsn=Excel Files;dbq=data.xlsx;defaultdir=.; driverid=790;maxbuffersize=2048;pagetimeout=5" providerName="System.Data.Odbc" />
@@ -126,7 +126,7 @@ This walkthrough illustrates how to use a data source defined in an app.config f
 
 4. In the first `add` element, create the following attributes and values for a Microsoft Access data source:
 
-|Attribute|Values|
+|Attribute|Value|
 |---------------|------------|
 |`name`|`"MyJetDataSource"`|
 |`connectionString`|`"MyJetConn"`|
@@ -135,7 +135,7 @@ This walkthrough illustrates how to use a data source defined in an app.config f
 
  In the second `add` element, create the following attributes and values for a Microsoft Excel data source:
 
-|||
+|Attribute|Value|
 |-|-|
 |`Name`|`"MyExcelDataSource"`|
 |`connectionString`|`"MyExcelConn"`|
@@ -144,7 +144,7 @@ This walkthrough illustrates how to use a data source defined in an app.config f
 
  The `microsoft.visualstudio.testtools` element should look similar to this:
 
-```
+```xml
 <microsoft.visualstudio.testtools>
     <dataSources>
         <add name="MyJetDataSource" connectionString="MyJetConn" dataTableName="MyDataTable" dataAccessMethod="Sequential"/>
@@ -155,7 +155,7 @@ This walkthrough illustrates how to use a data source defined in an app.config f
 
  The final app.config file should look similar to this:
 
-```
+```xml
 <?xml version="1.0" encoding="utf-8" ?>
 <configuration>
     <configSections>
@@ -217,7 +217,7 @@ This walkthrough illustrates how to use a data source defined in an app.config f
 
 2. Replace the auto-generated contents of the unit test with the following code:
 
-    ```
+    ```csharp
     using System;
     using Microsoft.VisualStudio.TestTools.UnitTesting;
 

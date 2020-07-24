@@ -1,13 +1,13 @@
 ---
 title: "How to: Set CLR Attributes on an Element"
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 f1_keywords:
   - "vs.dsltools.EditAttributesDialog"
 helpviewer_keywords:
   - "Domain-Specific Language, custom attrributes"
-author: jillre
-ms.author: jillfra
+author: JoshuaPartlow
+ms.author: joshuapa
 manager: jillfra
 ms.workload:
   - "multiple"

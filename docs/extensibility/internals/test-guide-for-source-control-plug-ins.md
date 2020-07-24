@@ -1,7 +1,7 @@
 ---
 title: Test Guide for Source Control Plug-ins | Microsoft Docs
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: overview
 helpviewer_keywords:
 - plug-ins, source control
 - source control [Visual Studio SDK], testing plug-ins

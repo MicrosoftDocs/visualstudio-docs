@@ -1,7 +1,7 @@
 ---
 title: "Importing Items from an Existing SharePoint Site | Microsoft Docs"
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: overview
 f1_keywords:
   - "VS.SharePointTools.WSPImport.SelectionDependency"
   - "VS.SharepointTools.WSPImport.SpecifyProjectSource"

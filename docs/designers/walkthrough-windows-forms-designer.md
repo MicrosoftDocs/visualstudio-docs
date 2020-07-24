@@ -1,14 +1,14 @@
 ---
 title: Windows Forms Designer tutorial
 ms.date: 08/09/2019
-ms.topic: conceptual
+ms.topic: tutorial
 helpviewer_keywords:
 - Windows Forms Designer, get started
 author: TerryGLee
 ms.author: tglee
 manager: jillfra
 ---
-# Walkthrough: Get started with Windows Forms Designer
+# Tutorial: Get started with Windows Forms Designer
 
 The Windows Forms Designer provides many tools for building Windows Forms applications. This article illustrates how to build an app using the various tools provided by the designer, including the following tasks:
 

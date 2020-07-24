@@ -13,7 +13,7 @@ manager: jillfra
 ms.workload:
   - "multiple"
 ---
-# Quickstart: First look at profiling tools
+# First look at profiling tools
 
 Visual Studio provides a variety of profiling tools to help you diagnose different kinds of performance issues depending on your app type. In this article, we give a quick look at the most common profiling tools.
 
@@ -198,9 +198,9 @@ Here is a table that lists the different tools Visual Studio offers and the diff
 |[.NET Object Allocation](../profiling/dotnet-alloc-tool.md)|yes (.NET only)|yes|yes|
 |[GPU Usage](/visualstudio/debugger/graphics/gpu-usage)|yes|yes|no|
 |[Application Timeline](../profiling/application-timeline.md)|yes|yes|no|
-|[Events viewer](../profiling/perftips.md)|yes|yes|yes|
-|[.NET Async](../profiling/perftips.md)|yes (.NET only)|yes|yes|
-|[Database](../profiling/perftips.md)|yes (.NET Core only)|no|yes (ASP.NET Core only)|
+|[Events viewer](../profiling/events-viewer.md)|yes|yes|yes|
+|[.NET Async](../profiling/analyze-async.md)|yes (.NET only)|yes|yes|
+|[Database](../profiling/analyze-database.md)|yes (.NET Core only)|no|yes (ASP.NET Core only)|
 |[Performance Explorer](../profiling/performance-explorer.md)|no|no|no|
 |[IntelliTrace](../debugger/intellitrace.md)|.NET with Visual Studio Enterprise only|.NET with Visual Studio Enterprise only|.NET with Visual Studio Enterprise only|
 ::: moniker-end
