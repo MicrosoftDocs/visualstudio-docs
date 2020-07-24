@@ -108,9 +108,7 @@
       }
     },
     "template": [],
-    "xref": [
-      "missingapi.yml"
-    ],
+    "xref": [],
     "dest": "mac",
     "groups": {
       "vsmac-2017": {
