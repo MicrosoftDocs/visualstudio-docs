@@ -17,7 +17,7 @@ You can add TypeScript support to your projects using the TypeScript SDK, availa
 
 For ASP.NET Core projects, one common usage for the NuGet package is to compile TypeScript using the .NET Core CLI. Unless you manually edit your project file to import build targets from a TypeScript SDK installation, the NuGet package is the only way to enable TypeScript compilation using .NET Core CLI commands such as `dotnet build` and `dotnet publish`. Also, for [MSBuild integration](https://www.staging-typescript.org/docs/handbook/compiler-options-in-msbuild.html) with ASP.NET Core and TypeScript, choose the NuGet package over the npm package.
 
-## Build with npm (Node.js)
+## Add TypeScript support using npm (Node.js)
 
 The [TypeScript npm package](https://www.npmjs.com/package/typescript) adds TypeScript support. When the npm package for TypeScript 2.1 or higher is installed into your project, the corresponding version of the TypeScript language service gets loaded in the editor.
 
@@ -32,8 +32,6 @@ The [TypeScript npm package](https://www.npmjs.com/package/typescript) adds Type
    For a Node.js project, you can install the TypeScript npm package using the command line or the IDE. To install using the IDE, right-click the npm node in Solution Explorer, choose **Install New npm package**, search for **TypeScript**, and install the package.
 
    Check the **npm** option in the **Output** window to see package installation progress. The installed package shows up under the **npm** node in Solution Explorer.
-
-### Build the application (Node.js)
 
 1. If your project doesn't already include it, add a *.tsconfig* file to your project root. To add the file, right-click the project node and choose **Add > New Item**. Choose the **TypeScript JSON Configuration File**, and then click **Add**.
 
@@ -66,6 +64,8 @@ The [TypeScript npm package](https://www.npmjs.com/package/typescript) adds Type
 
    The previous configuration provides only a basic introduction to configuring TypeScript. For information on other options, see [tsconfig.json](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html).
 
+## Build the application (Node.js)
+
 1. In *package.json*, add support for Visual Studio build and clean commands using the following scripts.
 
    ```json
@@ -75,7 +75,7 @@ The [TypeScript npm package](https://www.npmjs.com/package/typescript) adds Type
    },
    ```
 
-1. Add TypeScript *.ts* files to your project and add TypeScript code.
+1. Add TypeScript *.ts* files to your project, and then add TypeScript code.
 
 1. Choose **Build > Build Solution**.
 
@@ -85,7 +85,7 @@ The [TypeScript npm package](https://www.npmjs.com/package/typescript) adds Type
 
    Source map files are required for debugging.
 
-## Build with NuGet (ASP.NET Core)
+## Add TypeScript support with NuGet (ASP.NET Core)
 
 [The TypeScript NuGet package](https://www.nuget.org/packages/Microsoft.TypeScript.MSBuild) adds TypeScript support. When the NuGet package for TypeScript 3.2 or higher is installed into your project, the corresponding version of the TypeScript language service gets loaded in the editor.
 
@@ -137,9 +137,9 @@ The [TypeScript npm package](https://www.npmjs.com/package/typescript) adds Type
 
 ### Build the application (ASP.NET Core)
 
-1. If you are using an older non-SDK style project, follow instructions in [Remove default imports](#Remove-default-imports-NuGet) before building.
+1. If you are using an older non-SDK style project, follow instructions in [Remove default imports](#remove-default-imports-nuget) before building.
 
-1. Add TypeScript *.ts* files to your project and add TypeScript code.
+1. Add TypeScript *.ts* files to your project, and then add TypeScript code.
 
 1. Choose **Build > Build Solution**.
 
