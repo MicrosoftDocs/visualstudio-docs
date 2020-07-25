@@ -29,7 +29,7 @@
   - name: Write and edit code
     href: write-and-edit-code.md
   - name: Compile TypeScript code
-    href: compile-and-build-typescript.md
+    href: compile-typescript-code.md
   - name: Manage npm packages
     href: npm-package-management.md
   - name: Develop without projects or solutions ("Open Folder")
