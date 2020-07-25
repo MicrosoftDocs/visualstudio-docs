@@ -66,6 +66,13 @@ The [TypeScript npm package](https://www.npmjs.com/package/typescript) adds Type
 
 ## Build the application (Node.js)
 
+1. Add TypeScript *.ts* files to your project, and then add TypeScript code. For a simple example of TypeScript, use the following:
+
+   ```typescript
+   let message: string = 'Hello World';
+   console.log(message);
+   ```
+
 1. In *package.json*, add support for Visual Studio build and clean commands using the following scripts.
 
    ```json
@@ -74,8 +81,6 @@ The [TypeScript npm package](https://www.npmjs.com/package/typescript) adds Type
      "clean": "tsc --build --clean"
    },
    ```
-
-1. Add TypeScript *.ts* files to your project, and then add TypeScript code.
 
 1. Choose **Build > Build Solution**.
 
@@ -137,9 +142,14 @@ The [TypeScript npm package](https://www.npmjs.com/package/typescript) adds Type
 
 ### Build the application (ASP.NET Core)
 
-1. If you are using an older non-SDK style project, follow instructions in [Remove default imports](#remove-default-imports-nuget) before building.
+1. Add TypeScript *.ts* files to your project, and then add TypeScript code. For a simple example of TypeScript, use the following:
 
-1. Add TypeScript *.ts* files to your project, and then add TypeScript code.
+   ```typescript
+   let message: string = 'Hello World';
+   console.log(message);
+   ```
+
+1. If you are using an older non-SDK style project, follow instructions in [Remove default imports](#remove-default-imports-nuget) before building.
 
 1. Choose **Build > Build Solution**.
 
@@ -180,7 +190,7 @@ The [TypeScript npm package](https://www.npmjs.com/package/typescript) adds Type
 
     Package versions prior to 2.3 only contain a tsc folder. *Microsoft.TypeScript.targets* and *TypeScript.Tasks.dll* are located at the root level.
 
-    In package versions 2.3 and later, the root level contains `Microsoft.TypeScript.targets` and `Microsoft.TypeScript.Default.props`. For more details on these files, see [MSBuild Configuration](xref:msbuild).
+    In package versions 2.3 and later, the root level contains `Microsoft.TypeScript.targets` and `Microsoft.TypeScript.Default.props`. For more details on these files, see [MSBuild Configuration](https://www.typescriptlang.org/docs/handbook/compiler-options-in-msbuild.html).
 
     Additionally, the folder contains three subfolders:
 
