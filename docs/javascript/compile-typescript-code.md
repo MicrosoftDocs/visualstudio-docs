@@ -82,7 +82,7 @@ The [TypeScript npm package](https://www.npmjs.com/package/typescript) adds Type
    },
    ```
 
-   To build using webpack, use the following entry:
+   If you need to build using webpack, add a webpack configuration file along with the required npm packages, and use the following entry:
 
    ```json
    "scripts": {
@@ -90,7 +90,7 @@ The [TypeScript npm package](https://www.npmjs.com/package/typescript) adds Type
    }
    ```
 
-   For an example of using a webpack configuration file with React, see [Create a web app with Node.js and React](../javascript/tutorial-nodejs-with-react-and-jsx.md).
+   For an example of using webpack with React, see [Create a web app with Node.js and React](../javascript/tutorial-nodejs-with-react-and-jsx.md).
 
 1. Choose **Build > Build Solution**.
 
