@@ -2,7 +2,7 @@
 title: Compile and build TypeScript code
 description: Learn how to compile and build TypeScript in Visual Studio.
 ms.date: 7/23/2020
-ms.topic: how-to
+ms.topic: conceptual
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jillfra
@@ -15,15 +15,79 @@ ms.workload:
 
 You can add TypeScript support to your projects using the TypeScript SDK, available by default in the Visual Studio installer, or by using the npm or NuGet package. For projects developed in Visual Studio 2019, we encourage you to use the TypeScript NuGet or the TypeScript npm package for greater portability across different platforms and environments.
 
-For ASP.NET Core projects, one common usage for the NuGet package is to compile TypeScript using the .NET Core CLI. Unless you manually edit your project file to import build targets from a TypeScript SDK installation, the NuGet package is the only way to enable TypeScript compilation using .NET Core CLI commands such as `dotnet build` and `dotnet publish`. Also, if you need [MSBuild integration](https://www.staging-typescript.org/docs/handbook/compiler-options-in-msbuild.html) with TypeScript, choose the NuGet package over the npm package.
+For ASP.NET Core projects, one common usage for the NuGet package is to compile TypeScript using the .NET Core CLI. Unless you manually edit your project file to import build targets from a TypeScript SDK installation, the NuGet package is the only way to enable TypeScript compilation using .NET Core CLI commands such as `dotnet build` and `dotnet publish`. Also, for [MSBuild integration](https://www.staging-typescript.org/docs/handbook/compiler-options-in-msbuild.html) with ASP.NET Core and TypeScript, choose the NuGet package over the npm package.
 
-## Build with npm (Node.js and ASP.NET Core)
+## Build with npm (Node.js)
 
-[The TypeScript npm package](https://www.npmjs.com/package/typescript). When the npm package for TypeScript 2.1 or higher is installed into your project, the corresponding version of the TypeScript language service gets loaded in the editor.
+The [TypeScript npm package](https://www.npmjs.com/package/typescript) adds TypeScript support. When the npm package for TypeScript 2.1 or higher is installed into your project, the corresponding version of the TypeScript language service gets loaded in the editor.
+
+1. [Follow instructions](/visualstudio/ide/quickstart-nodejs?toc=/visualstudio/javascript/toc.json) to install the Node.js development workload and the Node.js runtime. 
+
+   For the simplest integration with Visual Studio, create your project using one of the Node.js TypeScript templates, such as the Blank Node.js Web Application template. Otherwise, use either a Node.js JavaScript template included with Visual Studio, or use an [Open Folder](../javascript/develop-javascript-code-without-solutions-projects.md) project.
+
+1. If your project doesn't already include it, install the [TypeScript npm package](https://www.npmjs.com/package/typescript).
+
+   From Solution Explorer (right pane), open the *package.json* in the project root. The packages listed correspond to packages under the npm node in Solution Explorer. For more information, see [Manage npm packages](../javascript/npm-package-management.md).
+
+   For a Node.js project, you can install the TypeScript npm package using the command line or the IDE. To install using the IDE, right-click the npm node in Solution Explorer, choose **Install New npm package**, search for **TypeScript**, and install the package.
+
+   Check the **npm** option in the **Output** window to see package installation progress. The installed package shows up under the **npm** node in Solution Explorer.
+
+### Build the application (Node.js)
+
+1. If your project doesn't already include it, add a *.tsconfig* file to your project root. To add the file, right-click the project node and choose **Add > New Item**. Choose the **TypeScript JSON Configuration File**, and then click **Add**.
+
+   Visual Studio adds the *tsconfig.json* file to the project root. You can use this file to [configure options](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html) for the TypeScript compiler.
+
+1. Open *tsconfig.json* and update to set the compiler options that you want.
+
+   The following is an example of a simple *tsconfig.json* file.
+
+   ```json
+   {
+     "compilerOptions": {
+       "noImplicitAny": false,
+       "noEmitOnError": true,
+       "removeComments": false,
+       "sourceMap": true,
+       "target": "es5",
+       "outDir": "dist"
+     },
+     "include": [
+       "scripts/**/*"
+     ]
+   }
+   ```
+
+   In this example:
+   - *include* tells the compiler where to find TypeScript (*.ts) files.
+   - *outDir* option specifies the output folder for the plain JavaScript files that are transpiled by the TypeScript compiler.
+   - *sourceMap* option indicates whether the compiler generates *sourceMap* files.
+
+   The previous configuration provides only a basic introduction to configuring TypeScript. For information on other options, see [tsconfig.json](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html).
+
+1. In *package.json*, add support for Visual Studio build and clean commands using the following scripts.
+
+   ```json
+   "scripts": {
+     "build": "tsc --build",
+     "clean": "tsc --build --clean"
+   },
+   ```
+
+1. Add TypeScript *.ts* files to your project and add TypeScript code.
+
+1. Choose **Build > Build Solution**.
+
+   Although the app builds automatically when you run it, we want to take a look at something that happens during the build process:
+
+   If you generated source maps, open the folder specified in the *outDir* option and you find the generated *.js file(s) along with the generated *js.map file(s).
+
+   Source map files are required for debugging.
 
 ## Build with NuGet (ASP.NET Core)
 
-[The TypeScript NuGet package](https://www.nuget.org/packages/Microsoft.TypeScript.MSBuild). When the NuGet package for TypeScript 3.2 or higher is installed into your project, the corresponding version of the TypeScript language service gets loaded in the editor.
+[The TypeScript NuGet package](https://www.nuget.org/packages/Microsoft.TypeScript.MSBuild) adds TypeScript support. When the NuGet package for TypeScript 3.2 or higher is installed into your project, the corresponding version of the TypeScript language service gets loaded in the editor.
 
 1. Open your ASP.NET Core project in Visual Studio.
 
@@ -64,23 +128,28 @@ For ASP.NET Core projects, one common usage for the NuGet package is to compile 
    }
    ```
 
-   In this example, the *sourceMap* option indicates that the compiler will generate *sourceMap* files. The *outDir* option specifies the output folder for the plain JavaScript files that are transpiled by the TypeScript compiler.
+   In this example:
+   - *include* tells the compiler where to find TypeScript (*.ts) files.
+   - *outDir* option specifies the output folder for the plain JavaScript files that are transpiled by the TypeScript compiler.
+   - *sourceMap* option indicates whether the compiler generates *sourceMap* files.
 
-   The previous configuration provides only a basic introduction to using TypeScript.
+   The previous configuration provides only a basic introduction to configuring TypeScript. For information on other options, see [tsconfig.json](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html).
 
-## Build the application
+### Build the application (ASP.NET Core)
 
 1. If you are using an older non-SDK style project, follow instructions in [Remove default imports](#Remove-default-imports-NuGet) before building.
+
+1. Add TypeScript *.ts* files to your project and add TypeScript code.
 
 1. Choose **Build > Build Solution**.
 
    Although the app builds automatically when you run it, we want to take a look at something that happens during the build process:
 
-   If you generated source maps, open the folder specified in the *outDir* option and you find the generated *.js file(s). If you created source maps, you also find the generated *js.map file(s).
+   If you generated source maps, open the folder specified in the *outDir* option and you find the generated *.js file(s) along with the generated *js.map file(s).
 
    Source map files are required for debugging.
 
-1. To build when you save the project, use the *compileOnSave* option in *.tsconfig.
+1. If you want to compile every time you save the project, use the *compileOnSave* option in *.tsconfig.
 
    ```json
    ```{
@@ -158,7 +227,3 @@ If you are using the NuGet package for MSBuild support for a project, the projec
       Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets"
       Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets')" />
    ```
-
-## See also
-
-[MSBuild integration with TypeScript](https://www.staging-typescript.org/docs/handbook/compiler-options-in-msbuild.html)
