@@ -55,7 +55,7 @@ landingContent:
         links:
           - text: Write and edit code
             url: write-and-edit-code.md
-          - text: Compile and build TypeScript
+          - text: Compile TypeScript code
             url: compile-and-build-typescript.md
           - text: Manage npm packages
             url: npm-package-management.md

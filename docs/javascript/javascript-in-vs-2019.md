@@ -35,7 +35,7 @@ Visual Studio 2019 provides several options for integrating TypeScript compilati
 * The TypeScript SDK, available by default in the Visual Studio installer, as well as a standalone SDK download from the [VS Marketplace](https://marketplace.visualstudio.com/items?itemName=TypeScriptTeam.typescript-395).
 
 > [!TIP]
-> For projects developed in Visual Studio 2019, we encourage you to use the TypeScript NuGet or the TypeScript npm package for greater portability across different platforms and environments. For more information, see [Compile and build TypeScript](../javascript/compile-and-build-typescript.md).
+> For projects developed in Visual Studio 2019, we encourage you to use the TypeScript NuGet or the TypeScript npm package for greater portability across different platforms and environments. For more information, see [Compile TypeScript code](../javascript/compile-and-build-typescript.md).
 
 ## Projects
 

@@ -28,7 +28,7 @@
   items:
   - name: Write and edit code
     href: write-and-edit-code.md
-  - name: Compile and build TypeScript
+  - name: Compile TypeScript code
     href: compile-and-build-typescript.md
   - name: Manage npm packages
     href: npm-package-management.md

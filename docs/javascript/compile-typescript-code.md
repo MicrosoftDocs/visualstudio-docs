@@ -11,7 +11,7 @@ dev_langs:
 ms.workload:
   - nodejs
 ---
-# Compile and build TypeScript code
+# Compile TypeScript code
 
 You can add TypeScript support to your projects using the TypeScript SDK, available by default in the Visual Studio installer, or by using the npm or NuGet package. For projects developed in Visual Studio 2019, we encourage you to use the TypeScript NuGet or the TypeScript npm package for greater portability across different platforms and environments.
 
