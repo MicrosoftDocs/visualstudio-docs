@@ -21,9 +21,9 @@ For ASP.NET Core projects, one common usage for the NuGet package is to compile 
 
 The [TypeScript npm package](https://www.npmjs.com/package/typescript) adds TypeScript support. When the npm package for TypeScript 2.1 or higher is installed into your project, the corresponding version of the TypeScript language service gets loaded in the editor.
 
-1. [Follow instructions](/visualstudio/ide/quickstart-nodejs?toc=/visualstudio/javascript/toc.json) to install the Node.js development workload and the Node.js runtime. 
+1. [Follow instructions](/visualstudio/ide/quickstart-nodejs?toc=/visualstudio/javascript/toc.json) to install the Node.js development workload and the Node.js runtime.
 
-   For the simplest integration with Visual Studio, create your project using one of the Node.js TypeScript templates, such as the Blank Node.js Web Application template. Otherwise, use either a Node.js JavaScript template included with Visual Studio, or use an [Open Folder](../javascript/develop-javascript-code-without-solutions-projects.md) project.
+   For the simplest integration with Visual Studio, create your project using one of the Node.js TypeScript templates, such as the Blank Node.js Web Application template. Otherwise, use either a Node.js JavaScript template included with Visual Studio and following instructions here, or use an [Open Folder](../javascript/develop-javascript-code-without-solutions-projects.md) project.
 
 1. If your project doesn't already include it, install the [TypeScript npm package](https://www.npmjs.com/package/typescript).
 
@@ -66,7 +66,7 @@ The [TypeScript npm package](https://www.npmjs.com/package/typescript) adds Type
 
 ## Build the application (Node.js)
 
-1. Add TypeScript *.ts* files to your project, and then add TypeScript code. For a simple example of TypeScript, use the following:
+1. Add TypeScript (*.ts*) or TypeScript JSX (*.tsx*) files to your project, and then add TypeScript code. For a simple example of TypeScript, use the following:
 
    ```typescript
    let message: string = 'Hello World';
@@ -81,6 +81,16 @@ The [TypeScript npm package](https://www.npmjs.com/package/typescript) adds Type
      "clean": "tsc --build --clean"
    },
    ```
+
+   To build using webpack, use the following entry:
+
+   ```json
+   "scripts": {
+      "build": "webpack-cli app.tsx --config webpack-config.js"
+   }
+   ```
+
+   For an example of using a webpack configuration file with React, see [Create a web app with Node.js and React](../javascript/tutorial-nodejs-with-react-and-jsx.md).
 
 1. Choose **Build > Build Solution**.
 
@@ -142,7 +152,7 @@ The [TypeScript npm package](https://www.npmjs.com/package/typescript) adds Type
 
 ### Build the application (ASP.NET Core)
 
-1. Add TypeScript *.ts* files to your project, and then add TypeScript code. For a simple example of TypeScript, use the following:
+1. Add TypeScript (*.ts*) or TypeScript JSX (*.tsx*) files to your project, and then add TypeScript code. For a simple example of TypeScript, use the following:
 
    ```typescript
    let message: string = 'Hello World';
