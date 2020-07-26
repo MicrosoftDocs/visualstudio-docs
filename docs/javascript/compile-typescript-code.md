@@ -23,7 +23,7 @@ The [TypeScript npm package](https://www.npmjs.com/package/typescript) adds Type
 
 1. [Follow instructions](/visualstudio/ide/quickstart-nodejs?toc=/visualstudio/javascript/toc.json) to install the Node.js development workload and the Node.js runtime.
 
-   For the simplest integration with Visual Studio, create your project using one of the Node.js TypeScript templates, such as the Blank Node.js Web Application template. Otherwise, use either a Node.js JavaScript template included with Visual Studio and following instructions here, or use an [Open Folder](../javascript/develop-javascript-code-without-solutions-projects.md) project.
+   For the simplest integration with Visual Studio, create your project using one of the Node.js TypeScript templates, such as the Blank Node.js Web Application template. Otherwise, use either a Node.js JavaScript template included with Visual Studio and follow instructions here, or use an [Open Folder](../javascript/develop-javascript-code-without-solutions-projects.md) project.
 
 1. If your project doesn't already include it, install the [TypeScript npm package](https://www.npmjs.com/package/typescript).
 
