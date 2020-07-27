@@ -28,8 +28,10 @@
   items:
   - name: Write and edit code
     href: write-and-edit-code.md
-  - name: Compile TypeScript code
-    href: compile-typescript-code.md
+  - name: Compile TypeScript code using tsc
+    href: compile-typescript-code-npm.md
+  - name: Compile TypeScript code using NuGet
+    href: compile-typescript-code-nuget.md
   - name: Manage npm packages
     href: npm-package-management.md
   - name: Develop without projects or solutions ("Open Folder")

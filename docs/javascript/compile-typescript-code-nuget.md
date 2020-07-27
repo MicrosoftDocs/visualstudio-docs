@@ -1,5 +1,5 @@
 ---
-title: Compile and build TypeScript code
+title: Compile and build TypeScript code using NuGet
 description: Learn how to compile and build TypeScript in Visual Studio.
 ms.date: 7/23/2020
 ms.topic: conceptual
@@ -11,98 +11,17 @@ dev_langs:
 ms.workload:
   - nodejs
 ---
-# Compile TypeScript code
+# Compile TypeScript code (ASP.NET Core)
 
-You can add TypeScript support to your projects using the TypeScript SDK, available by default in the Visual Studio installer, or by using the npm or NuGet package. For projects developed in Visual Studio 2019, we encourage you to use the TypeScript NuGet or the TypeScript npm package for greater portability across different platforms and environments.
+You can add TypeScript support to your projects using the TypeScript SDK, available by default in the Visual Studio installer or by using the NuGet package. For projects developed in Visual Studio 2019, we encourage you to use the TypeScript NuGet for greater portability across different platforms and environments.
 
 For ASP.NET Core projects, one common usage for the NuGet package is to compile TypeScript using the .NET Core CLI. Unless you manually edit your project file to import build targets from a TypeScript SDK installation, the NuGet package is the only way to enable TypeScript compilation using .NET Core CLI commands such as `dotnet build` and `dotnet publish`. Also, for [MSBuild integration](https://www.staging-typescript.org/docs/handbook/compiler-options-in-msbuild.html) with ASP.NET Core and TypeScript, choose the NuGet package over the npm package.
 
-## Add TypeScript support using npm (Node.js)
-
-The [TypeScript npm package](https://www.npmjs.com/package/typescript) adds TypeScript support. When the npm package for TypeScript 2.1 or higher is installed into your project, the corresponding version of the TypeScript language service gets loaded in the editor.
-
-1. [Follow instructions](/visualstudio/ide/quickstart-nodejs?toc=/visualstudio/javascript/toc.json) to install the Node.js development workload and the Node.js runtime.
-
-   For the simplest integration with Visual Studio, create your project using one of the Node.js TypeScript templates, such as the Blank Node.js Web Application template. Otherwise, use either a Node.js JavaScript template included with Visual Studio and follow instructions here, or use an [Open Folder](../javascript/develop-javascript-code-without-solutions-projects.md) project.
-
-1. If your project doesn't already include it, install the [TypeScript npm package](https://www.npmjs.com/package/typescript).
-
-   From Solution Explorer (right pane), open the *package.json* in the project root. The packages listed correspond to packages under the npm node in Solution Explorer. For more information, see [Manage npm packages](../javascript/npm-package-management.md).
-
-   For a Node.js project, you can install the TypeScript npm package using the command line or the IDE. To install using the IDE, right-click the npm node in Solution Explorer, choose **Install New npm package**, search for **TypeScript**, and install the package.
-
-   Check the **npm** option in the **Output** window to see package installation progress. The installed package shows up under the **npm** node in Solution Explorer.
-
-1. If your project doesn't already include it, add a *.tsconfig* file to your project root. To add the file, right-click the project node and choose **Add > New Item**. Choose the **TypeScript JSON Configuration File**, and then click **Add**.
-
-   Visual Studio adds the *tsconfig.json* file to the project root. You can use this file to [configure options](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html) for the TypeScript compiler.
-
-1. Open *tsconfig.json* and update to set the compiler options that you want.
-
-   The following is an example of a simple *tsconfig.json* file.
-
-   ```json
-   {
-     "compilerOptions": {
-       "noImplicitAny": false,
-       "noEmitOnError": true,
-       "removeComments": false,
-       "sourceMap": true,
-       "target": "es5",
-       "outDir": "dist"
-     },
-     "include": [
-       "scripts/**/*"
-     ]
-   }
-   ```
-
-   In this example:
-   - *include* tells the compiler where to find TypeScript (*.ts) files.
-   - *outDir* option specifies the output folder for the plain JavaScript files that are transpiled by the TypeScript compiler.
-   - *sourceMap* option indicates whether the compiler generates *sourceMap* files.
-
-   The previous configuration provides only a basic introduction to configuring TypeScript. For information on other options, see [tsconfig.json](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html).
-
-## Build the application (Node.js)
-
-1. Add TypeScript (*.ts*) or TypeScript JSX (*.tsx*) files to your project, and then add TypeScript code. For a simple example of TypeScript, use the following:
-
-   ```typescript
-   let message: string = 'Hello World';
-   console.log(message);
-   ```
-
-1. In *package.json*, add support for Visual Studio build and clean commands using the following scripts.
-
-   ```json
-   "scripts": {
-     "build": "tsc --build",
-     "clean": "tsc --build --clean"
-   },
-   ```
-
-   If you need to build using webpack, add a webpack configuration file along with the required npm packages, and use the following entry:
-
-   ```json
-   "scripts": {
-      "build": "webpack-cli app.tsx --config webpack-config.js"
-   }
-   ```
-
-   For an example of using webpack with React, see [Create a web app with Node.js and React](../javascript/tutorial-nodejs-with-react-and-jsx.md).
-
-1. Choose **Build > Build Solution**.
-
-   Although the app builds automatically when you run it, we want to take a look at something that happens during the build process:
-
-   If you generated source maps, open the folder specified in the *outDir* option and you find the generated *.js file(s) along with the generated *js.map file(s).
-
-   Source map files are required for debugging.
-
-## Add TypeScript support with NuGet (ASP.NET Core)
+## Add TypeScript support with NuGet
 
 [The TypeScript NuGet package](https://www.nuget.org/packages/Microsoft.TypeScript.MSBuild) adds TypeScript support. When the NuGet package for TypeScript 3.2 or higher is installed into your project, the corresponding version of the TypeScript language service gets loaded in the editor.
+
+If Visual Studio is installed, then the node.exe bundled with it will automatically be picked up by Visual Studio. If you don't have Node.js installed, we recommend you install the LTS version from the [Node.js](https://nodejs.org/en/download/) website.
 
 1. Open your ASP.NET Core project in Visual Studio.
 
@@ -150,7 +69,7 @@ The [TypeScript npm package](https://www.npmjs.com/package/typescript) adds Type
 
    The previous configuration provides only a basic introduction to configuring TypeScript. For information on other options, see [tsconfig.json](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html).
 
-### Build the application (ASP.NET Core)
+### Build the application
 
 1. Add TypeScript (*.ts*) or TypeScript JSX (*.tsx*) files to your project, and then add TypeScript code. For a simple example of TypeScript, use the following:
 
@@ -178,6 +97,10 @@ The [TypeScript npm package](https://www.npmjs.com/package/typescript) adds Type
       }
    }
    ```
+
+For an example of using gulp with the Task Runner to build, see [ASP.NET Core and TypeScript](https://www.typescriptlang.org/docs/handbook/asp-net-core.html).
+
+If you run into issues where Visual Studio is using a version of Node.js or a third-party tool that is different than what the version you expected, you may need to set the path for Visual Studio to use. Choose **Tools** > **Options**. Under **Projects and solutions**, choose **Web Package Management** > **External Web Tools**.
 
 ### NuGet package structure details
 
@@ -222,7 +145,7 @@ The [TypeScript npm package](https://www.npmjs.com/package/typescript) adds Type
 
         Versions prior to 3.1 contained a `tsc.exe` executable to run the compilation. In version 3.1, this was removed in favor of using `node.exe`.
 
-### Remove default imports (NuGet)
+### Remove default imports
 
 In older ASP.NET Core projects that use the [non-SDK-style format](https://docs.microsoft.com/nuget/resources/check-project-format), you may need to remove some project file elements.
 
