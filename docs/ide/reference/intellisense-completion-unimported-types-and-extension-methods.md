@@ -1,7 +1,7 @@
 ---
 title: IntelliSense completion for unimported types and extension methods
 description: How to use IntelliSense completion for types and extension methods that you haven't imported yet with a `using` directive.
-ms.date: 03/10/2020
+ms.date: 07/27/2020
 ms.topic: reference
 author: mikadumont
 ms.author: midumont
@@ -33,7 +33,7 @@ This refactoring applies to:
 
    > [!TIP]
    > You can show/hide items from unimported namespaces on demand, using the **Expander button (Alt + A)** that appears at the bottom left of the completion list. To change the default behavior, go to **Tools** > **Options** > **Text Editor** > **C#** / **Basic** > **IntelliSense** and look for **Show items from unimported namespaces**.
-   
+
 2. Select and commit an unimported item. 
 
    The using statement will be automatically added to your file.
