@@ -94,7 +94,8 @@ The [TypeScript npm package](https://www.npmjs.com/package/typescript) adds Type
 
 1. If you need to configure options such as the startup page, path to the Node.js runtime, application port, or runtime arguments, right-click the project node in Solution Explorer, and choose **Properties**.
 
-   If you run into issues where Visual Studio is using a version of Node.js or a third-party tool that is different than what the version you expected or the version used in the command line, you may need to set the path for Visual Studio to use. Choose **Tools** > **Options**. Under **Projects and solutions**, choose **Web Package Management** > **External Web Tools**.
+   >[!NOTE]
+   > When configuring third-party tools, Node.js projects do not use the paths that are configured under **Tools** > **Options** > **Projects and solutions** > **Web Package Management** > **External Web Tools**. These settings are used for other project types.
 
 1. Choose **Build > Build Solution**.
 
@@ -106,7 +107,7 @@ The [TypeScript npm package](https://www.npmjs.com/package/typescript) adds Type
 
 ## Automate build tasks
 
-You can use Task Runner Explorer in Visual Studio to help automate tasks for third-party tools like npm and Webpack.
+You can use Task Runner Explorer in Visual Studio to help automate tasks for third-party tools like npm and webpack.
 
 - [NPM Task Runner](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.NPMTaskRunner) - Adds support for npm scripts defined in *package.json*. Supports yarn.
 - [Webpack Task Runner](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.WebPackTaskRunner) - Adds support for webpack.
