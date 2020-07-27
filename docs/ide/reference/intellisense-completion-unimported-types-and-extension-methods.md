@@ -23,19 +23,24 @@ This refactoring applies to:
 
 **What:** IntelliSense gives completion for unimported types and extension methods.
 
-**When:** You want to use a type or extension methods that already has a dependency in your project but the import statement has not yet been added to your file. 
+**When:** You want to use a type or extension methods that already has a dependency in your project but the using statement has not yet been added to your file. 
 
-**Why:** You don't have to manually add the import statement to your file.
+**Why:** You don't have to manually add the using statement to your file.
 
 ## How-to
 
-1. Once you start typing the name of a type or extension method that has a dependency in your project, IntelliSense will give you suggestions.
-2. Press **Tab**. 
+1. Once you start typing the name of a type or extension method that has a dependency in your project, IntelliSense will give you suggestions. Items from unimported namespaces would have their containing namespace shown as suffix.
 
-   The import statement will be added to your file.
+   > [!TIP]
+   > You can show/hide items from unimported namespaces on demand, using the **Expander button (Alt + A)** that appears at the bottom left of the completion list. To change the default behavior, go to **Tools** > **Options** > **Text Editor** > **C#** / **Basic** > **IntelliSense** and look for **Show items from unimported namespaces**.
+   
+2. Select and commit an unimported item. 
+
+   The using statement will be automatically added to your file.
 
    ![IntelliSense completion for unimported types](media/intellisense-completion-unimported-types.png)
 
 ## See also
 
+- [IntelliSense](../using-intellisense.md)
 - [Refactoring](../refactoring-in-visual-studio.md)
