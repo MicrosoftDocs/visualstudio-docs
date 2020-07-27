@@ -1,5 +1,5 @@
 [!WARNING]
-`BinaryFormatter` is insecure and cannot be made secure. For more information, see the [BinaryFormatter security guide](/dotnet/standard/serialization/binaryformatter-security-guide).
+`BinaryFormatter` is insecure and can't be made secure. For more information, see the [BinaryFormatter security guide](/dotnet/standard/serialization/binaryformatter-security-guide).
 
 <!--
 Prefer to just say it can't be made secure and send them off for more details. 
