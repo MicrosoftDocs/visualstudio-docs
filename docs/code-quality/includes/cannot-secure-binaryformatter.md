@@ -1,1 +1,1 @@
-`BinaryFormatter` is insecure and cannot be made secure.
+`BinaryFormatter` is insecure and can't be made secure.
