@@ -123,3 +123,4 @@ ms.workload:
 
 - [Troubleshoot ClickOnce deployments](../deployment/troubleshooting-clickonce-deployments.md)
 - [Deploy an Office solution](../vsto/deploying-an-office-solution.md)
+- [Visual Studio troubleshooting](/troubleshoot/visualstudio/welcome-visual-studio/)
