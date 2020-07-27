@@ -403,7 +403,7 @@
         - name: Inline temporary variable
           href: ide/reference/inline-temporary-variable.md
         - name: IntelliSense completion unimported types and extension methods
-          href: ide/reference/intellisense-completion-unimported-types-and-extension-methods.md
+          href: ide/reference/intellisense-completion-unimported-types-extension-methods.md
         - name: Invert conditional expressions and logical operations
           href: ide/reference/invert-conditional-logical.md
         - name: Invert if statement
