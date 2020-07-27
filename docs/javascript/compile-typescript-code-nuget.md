@@ -78,7 +78,7 @@ If Visual Studio is installed, then the node.exe bundled with it will automatica
    console.log(message);
    ```
 
-1. If you are using an older non-SDK style project, follow instructions in [Remove default imports](#remove-default-imports-nuget) before building.
+1. If you are using an older non-SDK style project, follow instructions in [Remove default imports](#remove-default-imports) before building.
 
 1. Choose **Build > Build Solution**.
 
