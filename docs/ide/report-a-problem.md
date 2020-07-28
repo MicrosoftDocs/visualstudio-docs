@@ -92,12 +92,6 @@ After you report a problem, states indicate where your submissions are in their 
 
 - - -
 
-![Closed - Won't Fix state for problem reporting on Developer Community](../ide/media/ProblemStates/ClosedWontFix.jpg)
-
-**Closed - Won't Fix** indicates that we aren't pursuing this issue due to factors such as lack of product direction alignment or community impact. See the comment from Microsoft for any additional clarity.  Although we're unable to address this particular issue, be assured that all your feedback is valuable and helps improve Visual Studio.
-
-- - -
-
 ## FAQ
 
 ### How can I increase the chance of my problem getting resolved quickly?
