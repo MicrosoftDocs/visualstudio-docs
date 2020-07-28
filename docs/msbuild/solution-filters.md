@@ -14,6 +14,7 @@ ms.author: ghogen
 manager: jillfra
 ms.workload:
   - "multiple"
+monikerRange: ">= vs-2019"
 ---
 # Solution filters in MSBuild
 
