@@ -16,7 +16,7 @@ monikerRange: ">= vs-2019"
 Solution filter files are JSON files with the extension *.snlf* that indicate which projects to build or load from all the projects in a solution. Starting with MSBuild 16.7, you can invoke MSBuild with the solution filter file to build the solution with filtering enabled. See [Filtered solutions](../ide/filtered-solutions.md).
 
 > [!NOTE]
-> As the solution filter file only reduces the set of projects that will be loaded or built and simplifies the format. The solution file is still required.
+> The solution filter file reduces the set of projects that will be loaded or built and simplifies the format. The solution file is still required.
 
 ## Build a solution filter from the command line
 
