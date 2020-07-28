@@ -3,18 +3,12 @@ title: "Solution filters in MSBuild"
 description: "Explains solution filters and shows how to build a solution filter file with MSBuild."
 ms.date: "07/28/2020"
 ms.topic: "reference"
-dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
 helpviewer_keywords:
   - "MSBuild, solution filters"
   - "solution filters [MSBuild]"
 author: ghogen
 ms.author: ghogen
 manager: jillfra
-ms.workload:
-  - "multiple"
 monikerRange: ">= vs-2019"
 ---
 # Solution filters in MSBuild
