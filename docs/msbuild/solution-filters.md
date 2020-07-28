@@ -17,12 +17,12 @@ ms.workload:
 ---
 # Solution filters in MSBuild
 
-Solution filter files are JSON files that indicate which projects to build or load from all the projects in a solution. Starting with Visual Studio 2019 version 16.7, you can invoke MSBuild with the solution filter file to build the solution with filtering enabled. See [Filtered solutions](../ide/filtered-solutions.md).
+Solution filter files are JSON files with the extension *.snlf* that indicate which projects to build or load from all the projects in a solution. Starting with MSBuild 16.7, you can invoke MSBuild with the solution filter file to build the solution with filtering enabled. See [Filtered solutions](../ide/filtered-solutions.md).
 
 > [!NOTE]
-> As the solution filter file only reduces the set of projects that will be loaded or built and simplifies the format, the solution file is still necessary.
+> As the solution filter file only reduces the set of projects that will be loaded or built and simplifies the format. The solution file is still required.
 
-## Building a solution filter
+## Build a solution filter from the command line
 
 Building a solution filter file from the command line uses exactly the same syntax as building a solution file. Specify the solution filter file instead of the solution to build with filtering enabled, as follows:
 
@@ -73,7 +73,7 @@ Here's the solution filter file that Visual Studio generates:
 }
 ```
 
-In this example, when you build with filtering enabled (by using the command `MSBuild [options] Myfilter.slnf`), MSBuilds builds MyApplication and ProjectA because they're explicitly listed in the solution filter file, but MSBuild also builds ClassLibrary1, because ProjectA directly depends on it.  ProjectB is not built.
+In this example, when you build with filtering enabled (by using the command `MSBuild [options] Myfilter.slnf`), MSBuild builds MyApplication and ProjectA because they're explicitly listed in the solution filter file, but MSBuild also builds ClassLibrary1, because ProjectA depends on it.  ProjectB is not built. (This discussion assumes a clean build. If projects were built previously, the usual rules apply for skipping projects that are already up-to-date.)
 
 ## See also
 
