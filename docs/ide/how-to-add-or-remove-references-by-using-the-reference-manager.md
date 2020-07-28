@@ -42,8 +42,8 @@ The Reference Manager dialog box shows different categories on the left side, de
 
 - **Browse**, with **Recent** subgroup
  
-> [!NOTE]
-> You might not see **Browse** in the Reference Manager if you are developing a C++ projects.
+    > [!NOTE]
+    > You might not see **Browse** in the Reference Manager dialog box if you're developing C++ projects.
 
 ## Add a reference
 
