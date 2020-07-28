@@ -69,7 +69,7 @@ Here's the solution filter file that Visual Studio generates:
 }
 ```
 
-In this example, when you build with filtering enabled (by using the command `MSBuild [options] Myfilter.slnf`), MSBuild builds MyApplication and ProjectA because they're explicitly listed in the solution filter file, but MSBuild also builds ClassLibrary1, because ProjectA depends on it.  ProjectB is not built. (This discussion assumes a clean build. If projects were built previously, the usual rules apply for skipping projects that are already up-to-date.)
+In this example, when you build with filtering enabled (by using the command `MSBuild [options] MyFilter.slnf`), MSBuild builds MyApplication and ProjectA because they're explicitly listed in the solution filter file. As part of building ProjectA, MSBuild builds ClassLibrary1 because ProjectA depends on it.  ProjectB is not built. (This discussion assumes a clean build. If projects were built previously, the usual rules apply for skipping projects that are already up-to-date.)
 
 ## See also
 
