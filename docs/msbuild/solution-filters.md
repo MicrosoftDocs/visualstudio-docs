@@ -17,7 +17,7 @@ ms.workload:
 ---
 # Solution filters in MSBuild
 
-Solution filter files are JSON files that indicate to Visual Studio and MSBuild which projects to build or load from all those included in a solution. Starting with Visual Studio 2019 version 16.7, you can invoke MSBuild with the solution filter file to build the solution with filtering enabled. See [Filtered solutions](../ide/filtered-solutions.md).
+Solution filter files are JSON files that indicate which projects to build or load from all the projects in a solution. Starting with Visual Studio 2019 version 16.7, you can invoke MSBuild with the solution filter file to build the solution with filtering enabled. See [Filtered solutions](../ide/filtered-solutions.md).
 
 > [!NOTE]: As the solution filter file only reduces the set of projects that will be loaded or built and simplifies the format, the solution file is still necessary.
 
@@ -31,7 +31,7 @@ msbuild solutionFilterFile.slnf
 
 You can also append switches and extra properties as normal.
 
-Opening a solution filter in Visual Studio displays the unloaded projects as well as the loaded projects and gives you the option of loading more projects to select them for building. You can load all projects the initial project(s) depend on to build as well, but this is not required. When building a solution filter from the command line, it automatically follows dependencies, building a project if it's specified in the filter, or a project in the filter directly or indirectly references it.
+Opening a solution filter in Visual Studio displays the unloaded projects as well as the loaded projects and gives you the option of loading more projects to select them for building. You can load all projects the initial project(s) depend on to build as well, but this is not required. When building a solution filter from the command line, MSBuild automatically follows dependencies. It builds a project if it's specified in the filter, or if it's referenced, directly or indirectly, by a project that's specified in the filter.
 
 ## Solution filter file
 
@@ -72,7 +72,7 @@ Here's the solution filter file that Visual Studio generates:
 }
 ```
 
-In the this example, you can use MSBuild to build the entire solution in the usual way, by invoking the command `MSBuild.exe [options] MyApplication.sln`, or, you can build the solution with filtering enabled by running the command `MSBuild [options] MyFilter.slnf`. In this case, MyApplication, ProjectA are built because they're explicitly listed in the solution filter file, but also ClassLibrary1 is built, because ProjectA depends on it.  ProjectB is not built.
+In this example, when you build with filtering enabled (by using the command `MSBuild [options] Myfilter.slnf`), MSBuilds builds MyApplication and ProjectA because they're explicitly listed in the solution filter file, but MSBuild also builds ClassLibrary1, because ProjectA directly depends on it.  ProjectB is not built.
 
 ## See also
 
