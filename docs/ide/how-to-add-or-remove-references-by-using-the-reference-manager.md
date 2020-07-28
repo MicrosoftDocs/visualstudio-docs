@@ -41,6 +41,9 @@ The Reference Manager dialog box shows different categories on the left side, de
 - **Windows**, with **Core** and **Extensions** subgroups. You can explore the references in the Windows SDK or extension SDKs by using the **Object Browser**.
 
 - **Browse**, with **Recent** subgroup
+ 
+> [!NOTE]
+> You might not see **Browse** in the Reference Manager if you are developing a C++ projects.
 
 ## Add a reference
 
