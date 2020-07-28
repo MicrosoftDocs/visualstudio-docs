@@ -3916,6 +3916,11 @@
       "redirect_document_id": true
     },
     {
+      "source_path": "docs/ide/reference/intellisense-completion-unimported-types.md",
+      "redirect_url": "/visualstudio/ide/reference/intellisense-completion-unimported-types-extension-methods",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/ide/introduction-to-international-applications-based-on-the-dotnet-framework.md",
       "redirect_url": "/visualstudio/ide/globalizing-and-localizing-applications",
       "redirect_document_id": false
