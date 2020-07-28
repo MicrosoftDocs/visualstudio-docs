@@ -35,6 +35,12 @@ When Local Process with Kubernetes establishes a connection to your cluster, it:
 
 After you establish a connection to your cluster, you can run and debug code natively on your computer, without containerization, and the code can directly interact with the rest of your cluster. Any network traffic the remote agent receives is redirected to the local port specified during the connection so your natively running code can accept and process that traffic. The environment variables, volumes, and secrets from your cluster are made available to code running on your development computer. Also, due to the hosts file entries and port forwarding added to your developer computer by Local Process with Kubernetes, your code can send network traffic to services running on your cluster using the service names from your cluster, and that traffic gets forwarded to the services that are running in your cluster. Traffic is routed between your development computer and your cluster the entire time you're connected.
 
+In addition, Local Process with Kubernetes provides a way to replicate environment variables and mounted files available to pods in your cluster on your development computer through the `KubernetesLocalProcessConfig.yaml` file. You can also use this file to create new environment variables and volume mounts.
+
+## Additional configuration with KubernetesLocalProcessConfig.yaml
+
+The `KubernetesLocalProcessConfig.yaml` file allows you to replicate environment variables and mounted files available to your pods in your cluster. For more information on the additional configuration options, see [Using KubernetesLocalProcessConfig.yaml for additional configuration with for Local Process with Kubernetes][using-config-yaml].
+
 ## Using routing capabilities for developing in isolation
 
 By default, Local Process with Kubernetes redirects all traffic for a service to your development computer. You also have the option to use routing capabilities to only redirect requests to a service originating from a subdomain to your development computer. These routing capabilities allow you to use Local Process with Kubernetes to develop in isolation and avoid disrupting other traffic in your cluster.
@@ -104,3 +110,4 @@ To get started using Local Process with Kubernetes to connect to your local deve
 [kubectl-port-forward]: https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#port-forward
 [visual-studio]: https://visualstudio.microsoft.com/downloads/
 [lpk-extension]: https://marketplace.visualstudio.com/items?itemName=ms-azuretools.mindaro
+[using-config-yaml]: configure-local-process-with-kubernetes.md

@@ -54,3 +54,5 @@
       href: local-process-kubernetes.md
     - name: How Local Process with Kubernetes works (Preview)
       href: overview-local-process-kubernetes.md
+    - name: Configure Local Process with Kubernetes
+      href: configure-local-process-with-kubernetes.md
