@@ -19,7 +19,8 @@ ms.workload:
 
 Solution filter files are JSON files that indicate which projects to build or load from all the projects in a solution. Starting with Visual Studio 2019 version 16.7, you can invoke MSBuild with the solution filter file to build the solution with filtering enabled. See [Filtered solutions](../ide/filtered-solutions.md).
 
-> [!NOTE]: As the solution filter file only reduces the set of projects that will be loaded or built and simplifies the format, the solution file is still necessary.
+> [!NOTE]
+> As the solution filter file only reduces the set of projects that will be loaded or built and simplifies the format, the solution file is still necessary.
 
 ## Building a solution filter
 
