@@ -98,7 +98,7 @@ If Visual Studio is installed, then the node.exe bundled with it will automatica
    }
    ```
 
-For an example of using gulp with the Task Runner to build, see [ASP.NET Core and TypeScript](https://www.typescriptlang.org/docs/handbook/asp-net-core.html).
+For an example of using gulp with the Task Runner to build your app, see [ASP.NET Core and TypeScript](https://www.typescriptlang.org/docs/handbook/asp-net-core.html).
 
 If you run into issues where Visual Studio is using a version of Node.js or a third-party tool that is different than what the version you expected, you may need to set the path for Visual Studio to use. Choose **Tools** > **Options**. Under **Projects and solutions**, choose **Web Package Management** > **External Web Tools**.
 
