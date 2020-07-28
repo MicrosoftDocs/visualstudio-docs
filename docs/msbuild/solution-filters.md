@@ -1,5 +1,6 @@
 ---
 title: "Solution filters in MSBuild"
+description: "Explains solution filters and shows how to build a solution filter file with MSBuild."
 ms.date: "07/28/2020"
 ms.topic: "reference"
 dev_langs:
