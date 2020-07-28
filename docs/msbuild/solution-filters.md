@@ -13,7 +13,7 @@ monikerRange: ">= vs-2019"
 ---
 # Solution filters in MSBuild
 
-Solution filter files are JSON files with the extension *.snlf* that indicate which projects to build or load from all the projects in a solution. Starting with MSBuild 16.7, you can invoke MSBuild with the solution filter file to build the solution with filtering enabled. See [Filtered solutions](../ide/filtered-solutions.md).
+Solution filter files are JSON files with the extension *.snlf* that indicate which projects to build or load from all the projects in a solution. Starting with MSBuild 16.7, you can invoke MSBuild on the solution filter file to build the solution with filtering enabled. 
 
 > [!NOTE]
 > The solution filter file reduces the set of projects that will be loaded or built and simplifies the format. The solution file is still required.
@@ -23,18 +23,16 @@ Solution filter files are JSON files with the extension *.snlf* that indicate wh
 Building a solution filter file from the command line uses exactly the same syntax as building a solution file. Specify the solution filter file instead of the solution to build with filtering enabled, as follows:
 
 ```console
-msbuild solutionFilterFile.slnf
+msbuild [options] solutionFilterFile.slnf
 ```
 
-You can also append switches and extra properties as normal.
+You can also append switches and extra properties as normal. See [MSBuild command line reference](msbuild-command-line-reference.md). This command builds the filtered projects and any projects they depend on. When building a solution filter from the command line, MSBuild automatically follows dependencies. It builds a project if it's specified in the filter or referenced by a project that is built.
 
-Opening a solution filter in Visual Studio displays the unloaded projects as well as the loaded projects and gives you the option of loading more projects to select them for building. You can load all projects the initial project(s) depend on to build as well, but this is not required. When building a solution filter from the command line, MSBuild automatically follows dependencies. It builds a project if it's specified in the filter or if it's referenced, directly or indirectly, by a project that's specified in the filter.
+## Solution filter files
 
-## Solution filter file
+You can use Visual Studio to work with solution filter files. Opening a solution filter in Visual Studio displays the unloaded projects as well as the loaded projects and gives you the option of loading more projects to select them for building. You can load all projects the initial project(s) depend on to build as well, but this is not required. See [Filtered solutions](../ide/filtered-solutions.md).
 
-The filter file is in the JSON format, although it doesn't have a *.json* extension.
-
-The solution filter doesn't have to be in the same folder as the solution. You can use absolute or relative paths. If you use relative paths, the paths are relative to the location of solution filter file. The following example demonstrates the use of relative paths:
+The solution filter doesn't have to be in the same folder as the solution. The path to the solution file is relative to the location of solution filter file, but the paths to each project are relative to the solution file itself and should match the project paths in the solution file. The following example demonstrates the use of relative paths:
 
 ```json
 {
@@ -46,6 +44,8 @@ The solution filter doesn't have to be in the same folder as the solution. You c
   }
 }
 ```
+
+The backslashes in paths must be doubled, since they're escaped.
 
 ## Example
 
