@@ -77,13 +77,7 @@ Not sure which subscription you're using?  Connect to [https://my.visualstudio.c
 A: Not all Visual Studio Enterprise subscriptions include the Pluralsight benefit.  Check the [eligibility table](#eligibility) to see whether your subscription is eligible.
 
 ### Q: Do I have access to any customized learning  playlists or channels?
-A: Yes, as a Visual Studio subscriber you get access to expert channels as part of your Pluralsight training benefit. These channels have been specially curated by Microsoft experts and are geared towards learning in the areas of .Net, Azure, DevOps and Mobility. Activate your Pluralsight benefit through your Visual Studio subscription portal [https://my.visualstudio.com](https://my.visualstudio.com?wt.mc_id=o~msft~docs) to get access to these channels on your Pluralsight landing page –
-
-•   Scott Hanselmann (.Net, Azure) - [https://go.pluralsight.com/scott-hanselman](https://go.pluralsight.com/scott-hanselman)
-
-•   Donovan Brown (DevOps) - [https://go.pluralsight.com/donovan-brown](https://go.pluralsight.com/donovan-brown)
-
-•   James Montemagno (Mobility) - [https://go.pluralsight.com/james-montemagno](https://go.pluralsight.com/james-montemagno)
+A: Yes. As a Visual Studio subscriber you get access to featured roles, learning paths, and custom channels (playlists) as part of your Pluralsight training benefit. Featured content has been specially curated by Microsoft and Pluralsight, and is geared towards learning in key areas of interest. Activate your Pluralsight benefit through your Visual Studio subscription portal <https://my.visualstudio.com/benefits> to get access to this and other content on your Pluralsight home page.
 
 ### Q: What happens when my Pluralsight subscription runs out?
 A:  At the end of your free Pluralsight subscription, you may choose to purchase a subscription directly from Pluralsight.  Please contact [Pluralsight](https://www.pluralsight.com) for full details.
