@@ -24,11 +24,9 @@ Under *env*, specify a *name* and *value* for each volume you want to download. 
 For example:
 
 ```yaml
-...
 env:
   - name: ALLOW_LIST_PATH
     value: $(volumeMounts:allow-list)/allow-list
-...
 ```
 
 The above example downloads the *allow-list* volume from the container and sets that location plus the path to the environment variable *ALLOW_LIST_PATH*. The default behavior is to download the files to the path you specify under a temporary directory on your development computer. In the above example, *ALLOW_LIST_PATH* is set to `/TEMPORARY_DIR/allow-list`.
@@ -38,14 +36,12 @@ The above example downloads the *allow-list* volume from the container and sets 
 You also have the option to specify a location to download the volume mount on your development computer instead of using a temporary directory. Under *volumeMounts*, specify a *name* and *localPath* for each specific location. The *name* is the volume name you want to match, and *localPath* is the absolute path on your development computer. For example:
 
 ```yaml
-...
 volumeMounts:
   - name: default-token-*
     localPath: /var/run/secrets/kubernetes.io/serviceaccount
 env:
   - name: KUBERNETES_IN_CLUSTER_CONFIG_OVERRIDE
     value: $(volumeMounts:default-token-*)
-...
 ```
 
 The above example uses the entry in *env* to download a volume matching *default-token-\**, such as *default-token-1111* or *default-token-1234-5678-90abcdef*. In cases where multiple volumes match, the first matching volume is used. All files are downloaded to `/var/run/secrets/kubernetes.io/serviceaccount` on your development computer using the entry in *volumeMounts*. The *KUBERNETES_IN_CLUSTER_CONFIG_OVERRIDE* environment variable is set to `/var/run/secrets/kubernetes.io/serviceaccount`.
@@ -57,11 +53,9 @@ Under *env*, specify a *name* and *value* for each service you want to make avai
 For example:
 
 ```yaml
-...
 env:
   - name: MYAPP1_SERVICE_HOST
     value: $(services:myapp1)/api/v1/
-...
 ```
 
 The above example makes the *myapp1* service available to your development computer and the *MYAPP1_SERVICE_HOST* environment variable is set to the local IP address of the *myapp1* service with the `/api/v1` path. The *myapp1* service is accessible using the environment variable, *myapp1*, or *myapp1.svc.cluster.local*.
@@ -71,11 +65,9 @@ The above example makes the *myapp1* service available to your development compu
 You can also make a service from a specific Kubernetes namespace available using *$(services:SERVICE_NAME.NAMESPACE_NAME)*. For example:
 
 ```yaml
-...
 env:
   - name: MYAPP2_SERVICE_HOST
     value: $(services:myapp2.mynamespace)
-...
 ```
 
 The above example makes the *myapp2* from the *mynamespace* namespace available on your development computer and sets the *MYAPP2_SERVICE_HOST* environment variable to the local IP address of the *myapp2* from the *mynamespace* namespace.
@@ -85,11 +77,9 @@ The above example makes the *myapp2* from the *mynamespace* namespace available 
 Under *env*, specify a *name* and *value* for each environment variable you want to create on your development computer. The *name* is the environment variable that will be used on your development computer and the *value* is the value. For example:
 
 ```yaml
-...
 env:
   - name: DEBUG_MODE
     value: "true"
-...
 ```
 
 The above example creates an environment variable named *DEBUG_MODE* with a value of *true*.
