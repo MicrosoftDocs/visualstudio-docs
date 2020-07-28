@@ -28,7 +28,7 @@ msbuild solutionFilterFile.slnf
 
 You can also append switches and extra properties as normal.
 
-Opening a solution filter in Visual Studio displays the unloaded projects as well as the loaded projects and gives you the option of loading more projects to select them for building. You can load all projects the initial project(s) depend on to build as well, but this is not required. When building a solution filter from the command line, MSBuild automatically follows dependencies. It builds a project if it's specified in the filter, or if it's referenced, directly or indirectly, by a project that's specified in the filter.
+Opening a solution filter in Visual Studio displays the unloaded projects as well as the loaded projects and gives you the option of loading more projects to select them for building. You can load all projects the initial project(s) depend on to build as well, but this is not required. When building a solution filter from the command line, MSBuild automatically follows dependencies. It builds a project if it's specified in the filter or if it's referenced, directly or indirectly, by a project that's specified in the filter.
 
 ## Solution filter file
 
