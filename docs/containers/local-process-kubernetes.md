@@ -21,6 +21,9 @@ In this guide, you will learn how to use Local Process with Kubernetes to redire
 > [!IMPORTANT]
 > This feature is currently in preview. Previews are made available to you on the condition that you agree to the [supplemental terms of use][preview-terms]. Some aspects of this feature may change prior to general availability (GA).
 
+> [!WARNING]
+> Local Process for Kubernetes is intended for use in development and testing scenarios only. It is not intended or supported for use with production clusters or live services in active use.
+
 ## Before you begin
 
 This guide uses the [Bike Sharing sample application][bike-sharing-github] to demonstrate connecting your development computer to a Kubernetes cluster. If you already have your own application running on a Kubernetes cluster, you can still follow the steps below and use the names of your own services.
