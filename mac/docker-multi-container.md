@@ -99,7 +99,7 @@ We now have two ASP.NET projects in our solution and both are configured with Do
       </div>
       ```
   
-1. In both the Front End and Web API projects, comment out the call to <xref:Microsoft.AspNetCore.Builder.HttpsPolicyBuilderExtensions.UseHttpsRedirection*> in the `Configure` method in *Startup.cs*, because this sample code uses HTTP, not HTTPS, to call the Web API.
+1. In both the Front End and Web API projects, comment out the call to [Microsoft.AspNetCore.Builder.HttpsPolicyBuilderExtensions.UseHttpsRedirection](https://docs.microsoft.com/dotnet/api/microsoft.aspnetcore.builder.httpspolicybuilderextensions.usehttpsredirection) in the `Configure` method in *Startup.cs*, because this sample code uses HTTP, not HTTPS, to call the Web API.
 
       ```csharp
                   //app.UseHttpsRedirection();
