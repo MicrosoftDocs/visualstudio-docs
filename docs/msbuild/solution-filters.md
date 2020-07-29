@@ -13,7 +13,7 @@ monikerRange: ">= vs-2019"
 ---
 # Solution filters in MSBuild
 
-Solution filter files are JSON files with the extension *.snlf* that indicate which projects to build or load from all the projects in a solution. Starting with MSBuild 16.7, you can invoke MSBuild on the solution filter file to build the solution with filtering enabled. 
+Solution filter files are JSON files with the extension *.slnf* that indicate which projects to build or load from all the projects in a solution. Starting with MSBuild 16.7, you can invoke MSBuild on the solution filter file to build the solution with filtering enabled. 
 
 > [!NOTE]
 > The solution filter file reduces the set of projects that will be loaded or built and simplifies the format. The solution file is still required.
