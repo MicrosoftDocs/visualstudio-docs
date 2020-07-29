@@ -11288,7 +11288,7 @@
     {
       "source_path": "subscriptions/vs-ems.md",
       "redirect_url": "/visualstudio/subscriptions/vs-m365",
-      "redirect_document_id": true
+      "redirect_document_id": false
     }
   ]
 }
