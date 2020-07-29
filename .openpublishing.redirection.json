@@ -11284,6 +11284,11 @@
       "source_path": "subscriptions/vs-office365.md",
       "redirect_url": "/visualstudio/subscriptions/microsoft-365-apps-for-enterprise",
       "redirect_document_id": true
+    },
+    {
+      "source_path": "subscriptions/vs-ems.md",
+      "redirect_url": "/visualstudio/subscriptions/vs-m365",
+      "redirect_document_id": false
     }
   ]
 }
