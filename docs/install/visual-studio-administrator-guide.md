@@ -2,7 +2,7 @@
 title: Visual Studio administrator guide
 titleSuffix: ''
 description: Learn more about how to deploy Visual Studio in an enterprise environment.
-ms.date: 03/09/2020
+ms.date: 07/29/2020
 ms.custom: seodec18
 ms.topic: overview
 helpviewer_keywords:
@@ -34,13 +34,17 @@ Before you deploy Visual Studio across your organization, there are a few decisi
 
 * Decide on your servicing needs.
 
-  If your company needs to stay on a feature set longer but still wants to get regular servicing updates, plan to use a servicing baseline. For more information, see the ***Support options for Enterprise and Professional customers*** section of the [Visual Studio product lifecycle and servicing](/visualstudio/releases/2019/servicing#support-options-for-enterprise-and-professional-customers) page, as well as the [How to: Update Visual Studio while on a servicing baseline](update-servicing-baseline.md) page.
+  If your company needs to stay on a feature set longer but still wants to get regular servicing updates, plan to use a servicing baseline. For more information, see the ***Support options for Enterprise and Professional customers*** section of the [Visual Studio product lifecycle and servicing](/visualstudio/releases/2019/servicing#support-options-for-enterprise-and-professional-customers) page, as well as the [Update Visual Studio while on a servicing baseline](update-servicing-baseline.md) page.
 
   If you plan to apply servicing updates along with cumulative feature updates, then you can choose the latest bits.
 
 * Decide on the update model.
 
   Where do you want individual client machines to get updates? Specifically, decide whether you want to get updates from the internet or from a company-wide local share. Then, if you choose to use a local share, decide whether individual users can update their own clients or if you want an admin to update the clients programmatically.
+
+  It's possible to update a network installation layout of Visual Studio with the latest product updates so that it can be used both as an installation point for the latest update of Visual Studio, and also to maintain installations that are already deployed to client workstations. For more information, see [Update a network-based installation of Visual Studio](../install/update-a-network-installation-of-visual-studio.md).
+
+  For computers that are not connected to the internet, creating a minimal layout is the easiest and fastest way to update your offline Visual Studio instances. For more information, see [Update Visual Studio using a minimal offline layout](update-minimal-layout.md).
 
 * Decide which [workloads and components](workload-and-component-ids.md?view=vs-2019) your company needs.
 
@@ -56,13 +60,17 @@ Before you deploy Visual Studio across your organization, there are a few decisi
 
 * Decide on your servicing needs.
 
-  If your company needs to stay on a feature set longer but still wants to get regular servicing updates, plan to use a servicing baseline. For more information, see the ***Support for older versions of Visual Studio*** section of the [Visual Studio product lifecycle and servicing](/visualstudio/releases/2019/servicing#support-for-older-versions-of-visual-studio) page, as well as the [How to: Update Visual Studio while on a servicing baseline](update-servicing-baseline.md) page.
+  If your company needs to stay on a feature set longer but still wants to get regular servicing updates, plan to use a servicing baseline. For more information, see the ***Support for older versions of Visual Studio*** section of the [Visual Studio product lifecycle and servicing](/visualstudio/releases/2019/servicing#support-for-older-versions-of-visual-studio) page, as well as the [Update Visual Studio while on a servicing baseline](update-servicing-baseline.md) page.
 
   If you plan to apply servicing updates along with cumulative feature updates, then you can choose the latest bits.
 
 * Decide on the update model.
 
   Where do you want individual client machines to get updates? Specifically, decide whether you want to get updates from the internet or from a company-wide local share. Then, if you choose to use a local share, decide whether individual users can update their own clients or if you want an admin to update the clients programmatically.
+
+  It's possible to update a network installation layout of Visual Studio with the latest product updates so that it can be used both as an installation point for the latest update of Visual Studio, and also to maintain installations that are already deployed to client workstations. For more information, see [Update a network-based installation of Visual Studio](../install/update-a-network-installation-of-visual-studio.md).
+
+  For computers that are not connected to the internet, creating a minimal layout is the easiest and fastest way to update your offline Visual Studio instances. For more information, see [Update Visual Studio using a minimal offline layout](update-minimal-layout.md).
 
 * Decide which [workloads and components](workload-and-component-ids.md?view=vs-2017) your company needs.
 
