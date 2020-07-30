@@ -26,9 +26,9 @@ Released August 5, 2020
   
   - Updated Unity messages API to 2019.4.
 
-  - Added [`USP0013`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/USP0013.md) suppressor for `CA1823`. Private fields with the SerializeField or SerializeReference attributes should not be marked as unused (FxCop).
+  - Added [`USP0013`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/USP0013.md) suppressor for `CA1823`. Private fields with the `SerializeField` or `SerializeReference` attributes should not be marked as unused (FxCop).
   
-  - Added [`USP0014`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/USP0014.md) suppressor for `CA1822`. Unity messages should not be flagged as candidates for static modifier (FxCop).
+  - Added [`USP0014`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/USP0014.md) suppressor for `CA1822`. Unity messages should not be flagged as candidates for `static` modifier (FxCop).
 
   - Added [`USP0015`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/USP0015.md) suppressor for `CA1801`. Unused parameters should not be removed from Unity messages (FxCop).
   
@@ -51,11 +51,11 @@ Released June 23, 2020
 
   - Added support to persist solution folders when Unity is regenerating solution and projects.
 
-  - Added [`UNT0015`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0015.md) diagnostic. Detect incorrect method signature with InitializeOnLoadMethod or RuntimeInitializeOnLoadMethod attribute.
+  - Added [`UNT0015`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0015.md) diagnostic. Detect incorrect method signature with `InitializeOnLoadMethod` or `RuntimeInitializeOnLoadMethod` attribute.
 
-  - Added [`UNT0016`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0016.md) diagnostic. Using Invoke, InvokeRepeating, StartCoroutine or StopCoroutine with a first argument being a string literal is not type safe.
+  - Added [`UNT0016`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0016.md) diagnostic. Using `Invoke`, `InvokeRepeating`, `StartCoroutine` or `StopCoroutine` with a first argument being a string literal is not type safe.
 
-  - Added [`UNT0017`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0017.md) diagnostic. SetPixels invocation is slow.
+  - Added [`UNT0017`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0017.md) diagnostic. `SetPixels` invocation is slow.
 
   - Added support for block comment and indentation for Shader files.
 
@@ -67,7 +67,7 @@ Released June 23, 2020
   
   - Always use the default browser when opening Unity API documentation.
   
-  - Fixed [`USP0004`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/USP0004.md), [`USP0006`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/USP0006.md) and [`USP0007`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/USP0007.md) suppressors with the following rules: suppress `IDE0044` (readonly), `IDE0051` (unused), `CS0649` (never assigned) for all fields decorated with SerializeField attribute. Suppress `CS0649` (never assigned) for public fields of all types extending Unity.Object.
+  - Fixed [`USP0004`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/USP0004.md), [`USP0006`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/USP0006.md) and [`USP0007`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/USP0007.md) suppressors with the following rules: suppress `IDE0044` (readonly), `IDE0051` (unused), `CS0649` (never assigned) for all fields decorated with SerializeField attribute. Suppress `CS0649` (never assigned) for public fields of all types extending `Unity.Object`.
 
   - Fixed generic type parameter checking for [`UNT0014`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0014.md) diagostic.
 
