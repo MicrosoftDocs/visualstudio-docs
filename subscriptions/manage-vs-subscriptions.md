@@ -20,14 +20,14 @@ The Visual Studio subscriptions portal brings together all your Visual Studio su
 
 On the Benefits page, the subscription in use will be prominently displayed in the blue banner. It's also displayed in the upper-right of the page.
 > [!div class="mx-imgBorder"]
-> ![The active subscription](_img/manage-vs-subscriptions/current-subscription-cropped.png)
+> ![The active subscription](_img/manage-vs-subscriptions/current-subscription-cropped.png "Your current subscription is displayed at the top of the page and in the subscriptions drop-down list.")
 
 ### To switch between subscriptions, you can:
 
 - Click on the drop-down in the top right and choose the subscription from the list
 - Click on the Subscriptions tab and then click on the desired subscription
   > [!div class="mx-imgBorder"]
-  > ![Switching subscriptions](_img/manage-vs-subscriptions/change-subscription-resized.png)
+  > ![Switching subscriptions](_img/manage-vs-subscriptions/change-subscription-resized.png "Click on the Subscriptions tab to see detailed information about all of your subscriptions, and to switch between them.")
 
 ### If your subscription is not visible...
 
@@ -72,7 +72,7 @@ You can easily change the contact information and preferences in your profile.
 If you would like to receive periodic updates about your subscription and benefits, including the monthly Visual Studio Subscriptions newsletter, [update your preferences](https://app.vsaex.visualstudio.com/me?workflowID=devprogram&tab=edit) by checking the box for Visual Studio Subscriptions in your Visual Studio profile. You can change these preferences and unsubscribe at any time. 
 
    > [!div class="mx-imgBorder"]
-   > ![Setting Preferences](_img/manage-vs-subscriptions/change-prefs.png)
+   > ![Setting Preferences](_img/manage-vs-subscriptions/change-prefs.png "Click the Visual Studio subscriptions program emails checkbox to receive updates.")
    
 ### Linking my subscription to existing Azure DevOps Services or Azure subscriptions
 If you sign in to your subscription using a personal Microsoft account (MSA) and have a subscription that includes Azure DevOps Services or Microsoft Azure using a work or school account managed by Azure, you can link the two subscriptions. This is called an "alternate account" and allows you to keep using your MSA to sign in to your subscription while having access to existing Azure, Azure DevOps Services or IDE resources that are associated with your school or work accounts.
