@@ -30,9 +30,7 @@ In Visual Studio, you can customize the position, size, and behavior of windows 
 
 You can also name and save a custom layout and then switch between layouts with a single command. For example, you could create a layout for editing and a layout for debugging, and switch between them by using the **Window** > **Apply Window Layout** menu command.
 
-## Kinds of windows
-
-### Tool and document windows
+## Tool and document windows
 
 The IDE has two basic window types, *tool windows* and *document windows*. Tool windows include **Solution Explorer**, **Server Explorer**, **Output Window**, **Error List**, the designers, the debugger windows, and so on. Document windows contain source code files, arbitrary text files, config files, and so on. Tool windows can be resized and dragged by their title bar. Document windows can be dragged by their tab. Right-click on the tab or title bar to set other options on the window.
 
