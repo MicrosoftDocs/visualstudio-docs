@@ -42,7 +42,7 @@ In addition, Local Process with Kubernetes provides a way to replicate environme
 
 ## Additional configuration with KubernetesLocalProcessConfig.yaml
 
-The `KubernetesLocalProcessConfig.yaml` file allows you to replicate environment variables and mounted files available to your pods in your cluster. For more information on the additional configuration options, see [Using KubernetesLocalProcessConfig.yaml for additional configuration with for Local Process with Kubernetes][using-config-yaml].
+The `KubernetesLocalProcessConfig.yaml` file allows you to replicate environment variables and mounted files available to your pods in your cluster. For more information on the additional configuration options, see [Configure Local Process with Kubernetes][using-config-yaml].
 
 ## Using routing capabilities for developing in isolation
 
