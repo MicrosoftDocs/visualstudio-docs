@@ -33,7 +33,7 @@ Learn how to deploy Visual Studio to your enterprise in networked and offline en
 
 - **[Automatically apply product keys when deploying Visual Studio](automatically-apply-product-keys-when-deploying-visual-studio.md)**. You can apply your product key programmatically as part of a script that is used to automate the deployment of Visual Studio. You can set a product key on a device programmatically, either during an installation of Visual Studio, or after an installation completes. 
 
-## Installing Visual Studio 
+## Install Visual Studio 
 
 Learn how to install Visual Studio in common enterprise scenarios. 
 
@@ -45,7 +45,7 @@ Learn how to install Visual Studio in common enterprise scenarios.
 
 - **[Create a network installation of Visual Studio](create-a-network-installation-of-visual-studio.md)**. Cache the files for the initial installation along with all product updates to a single folder.  
 
-## Updating Visual Studio 
+## Update Visual Studio 
 
 Learn how to update Visual Studio successfully and fix update issues. 
 
