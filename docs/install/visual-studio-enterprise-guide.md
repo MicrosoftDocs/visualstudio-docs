@@ -1,7 +1,7 @@
 ---
 title: Visual Studio enterprise guide
 description: Set up and troubleshoot Visual Studio in an enterprise environment.
-ms.date: 07/21/2020
+ms.date: 07/29/2020
 ms.custom: seodec18
 ms.topic: overview
 helpviewer_keywords:
