@@ -79,7 +79,7 @@ So, let's do it!
 1. Simply refresh the page (or open it) and you should see the change reflected in the browser almost immediately. It might
    take a few seconds for the Node server to restart, so if you get an error, just try refreshing after a few seconds.
 
-    ![Screenshot of updated label for Add button](updated-add-button.png){: style="width:75%;"}
+    ![Screenshot of updated label for Add button](media/updated-add-button.png){: style="width:75%;"}
     {: .text-center }
 
 1. Feel free to make any other changes you'd like to make. When you're done, stop the container and build your new image
