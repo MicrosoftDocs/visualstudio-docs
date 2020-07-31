@@ -42,6 +42,8 @@ When you have to view or edit two locations at once in a document, you can split
 
 ### Tabs
 
+You can use tabs to arrange your layout in several different ways. For example, you can ... ADD MORE INFO HERE.
+
 #### Preview tab (document windows)
 
 In the **Preview** tab, you can view files in the editor without opening them. You can preview files by choosing them in **Solution Explorer**, during debugging when you step into files, with **Go to Definition**, and when you browse through results of a search. Preview files appear in a tab on the right side of the document tab well. The file opens for editing if you modify it or choose  **Open**.
@@ -56,7 +58,18 @@ Toolbars can be arranged by dragging, or by using the **Customize** dialog box. 
 
 ## Arrange and dock windows
 
-A document window or tool window can be *docked*, so that it has a position and size within the IDE window frame, or floating as a separate window independent of the IDE. Tool windows can be docked anywhere inside the IDE frame; some tool windows can be docked as tabbed windows in the editor frame. Document windows can be docked within the editor frame, and they can be pinned to their current position in the tab order. You can dock multiple windows to float together in a *raft* over or outside of the IDE. Tool windows can also be hidden or minimized.
+A document window or tool window can be *docked*, so that it has a position and size within the IDE window frame. You can also position it as a separate floating window that's outside of the IDE. 
+
+### Tool windows
+
+You can dock a tool window anywhere inside the IDE frame. You can also dock some tool windows as tabbed windows in the editor frame. 
+
+### Document windows
+You can dock document windows within the editor frame, and you can pin them to their current position in the tab order. 
+
+### Tool and document windows
+
+You can dock multiple windows to float together in a *raft* over or outside of the IDE. Tool windows can also be hidden or minimized.
 
 You can arrange windows in the following ways:
 
@@ -74,7 +87,7 @@ You can arrange windows in the following ways:
 
 - Reset window placement to the default layout or to a saved custom layout.
 
-Arrange tool and document windows by dragging, using commands on the **Window** menu, or by right-clicking the title bar of the window to be arranged.
+Arrange tool and document windows by dragging, by using commands on the **Window** menu, or by right-clicking the title bar of the window.
 
 ### Dock windows
 
@@ -108,7 +121,7 @@ You can close a tool window by clicking the **X** in the upper right of the titl
 > [!NOTE]
 > Tool windows that have auto hide enabled may temporarily slide into view when the window has focus. To hide the window again, select an item outside of the current window. When the window loses focus, it slides back out of view.
 
-### Specifying a second monitor
+### Use a second monitor
 
 If you have a second monitor and your operating system supports it, you can choose which monitor displays a window. You can even group multiple windows together in *rafts* on other monitors.
 
