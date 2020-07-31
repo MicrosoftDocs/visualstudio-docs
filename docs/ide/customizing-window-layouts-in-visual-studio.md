@@ -42,7 +42,7 @@ When you have to view or edit two locations at once in a document, you can split
 
 ### Tabs
 
-You can use tabs to arrange your layout in several different ways. For example, you can ... ADD MORE INFO HERE.
+You can use tabs to arrange your layout in several different ways. For example, you can view a preview of a file in the editor without opening the file, you can group your tabs, and more.
 
 #### Preview tab (document windows)
 
@@ -60,16 +60,11 @@ Toolbars can be arranged by dragging, or by using the **Customize** dialog box. 
 
 A document window or tool window can be *docked*, so that it has a position and size within the IDE window frame. You can also position it as a separate floating window that's outside of the IDE. 
 
-### Tool windows
-
 You can dock a tool window anywhere inside the IDE frame. You can also dock some tool windows as tabbed windows in the editor frame. 
 
-### Document windows
 You can dock document windows within the editor frame, and you can pin them to their current position in the tab order. 
 
-### Tool and document windows
-
-You can dock multiple windows to float together in a *raft* over or outside of the IDE. Tool windows can also be hidden or minimized.
+You can also dock multiple windows to float together in a *raft* over or outside of the IDE. Tool windows can also be hidden or minimized.
 
 You can arrange windows in the following ways:
 
@@ -87,7 +82,7 @@ You can arrange windows in the following ways:
 
 - Reset window placement to the default layout or to a saved custom layout.
 
-Arrange tool and document windows by dragging, by using commands on the **Window** menu, or by right-clicking the title bar of the window.
+To arrange tool and document windows, you can place your cursor on the title bar of a window and then drag it to where you want it. Alternatively, you can right-click the title bar of the window to use its context menu, or you can use the commands on the **Window** menu.
 
 ### Dock windows
 
