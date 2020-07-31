@@ -3,8 +3,8 @@ title: "Workflow Designer - Runtime Activity Designers"
 ms.date: 11/04/2016
 ms.topic: reference
 ms.assetid: be18aa36-7909-4dd6-a786-b46959675a58
-author: jillre
-ms.author: jillfra
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
   - "multiple"

@@ -415,6 +415,8 @@
           href: ca1414.md
         - name: "CA1415: Declare P-Invokes correctly"
           href: ca1415.md
+        - name: "CA1417: Do not use OutAttribute on string parameters for P/Invokes"
+          href: ca1417.md
       - name: Maintainability warnings
         items:
         - name: Overview

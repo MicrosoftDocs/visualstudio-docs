@@ -2,9 +2,9 @@
 title: Finding and claiming product keys in Visual Studio subscriptions | Microsoft Docs
 author: evanwindom
 ms.author: lank
-manager: lank
+manager: cabuschl
 ms.assetid: da8df006-4896-4ff9-b487-698d78deabc3
-ms.date: 03/09/2020
+ms.date: 07/30/2020
 ms.topic: conceptual
 description:  Learn how to find, claim and export product keys in Visual Studio subscriptions
 ---
@@ -15,7 +15,7 @@ This article explains how to locate, claim, and export product keys from https:/
 ## Locating and claiming product keys
 You must be signed in to your Visual Studio subscription to view your product keys. Individual product keys are found by selecting the blue **Get Key** link for a particular product on the [Downloads](https://my.visualstudio.com/downloads) page as shown below.  All keys are also available in aggregate on the [Product Keys](https://my.visualstudio.com/productkeys?wt.mc_id=o~msft~docs) page. When multiple keys exist for a single product, notes will be displayed on the Notes column for the download to assist you in identifying which key should be used.
 > [!div class="mx-imgBorder"]
-> ![Get Key from Downloads Page](_img/product-keys/download-get-key.png)
+> ![Get Key from Downloads Page](_img/product-keys/download-get-key.png "Click Get key on the information page for any download to get a key for that product.")
 
 Some products bundle multiple editions of the product into a single download. In these cases, the product key entered determines which edition of the product is installed.
 Some keys are provided automatically, such as “static” keys, which you can use as many times as needed because activation is not required. Other keys must be claimed by selecting the **Get Key** link for the product.
@@ -48,7 +48,7 @@ To claim a product key:
 2. Click on the [Product Keys](https://my.visualstudio.com/productkeys?wt.mc_id=o~msft~docs) tab.
 3. Product keys are listed alphabetically by the name of the product.  You can either scroll down to the name of the desired product, or search for it using the search bar at the top of the page.
 > [!div class="mx-imgBorder"]
-> ![Search for Product Key](_img/product-keys/search-keys.png)
+> ![Search for Product Key](_img/product-keys/search-keys.png "Scroll to the desired product, or use the search box to quickly locate any product.")
    
 In this example, we’ve used the search bar to locate a product key for Visual Studio Enterprise 2019.
 As you can see, there are several versions listed.  One key each has already been claimed for Visual Studio Enterprise 2019 versions 16.0 and 16.1.  Additional keys of different types are still available for both versions. Notice that you can record a brief note about claimed keys in the **Notes** column.  You can use this in conjunction with the date in the **Claimed** column to keep track of the keys you’ve claimed.  You might, for example, make notes when you activate an installation of the product using the key.
