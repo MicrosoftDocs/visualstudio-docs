@@ -3,7 +3,11 @@ title: "Measure performance with profiling tools"
 description: "Take a brief look at the different diagnostic tools available in Visual Studio."
 ms.custom: "mvc"
 ms.date: 06/03/2020
-ms.topic: quickstart
+ms.topic: overview
+f1_keywords:
+  - vs.diagnosticshub.overview
+dev_langs:
+  - "CSharp"
 helpviewer_keywords:
   - "diagnostic tools"
 ms.assetid: d2ee0301-ea78-43d8-851a-71b7b2043d73
