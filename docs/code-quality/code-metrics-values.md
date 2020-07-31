@@ -2,8 +2,14 @@
 title: Calculate code metrics
 ms.date: 11/02/2018
 ms.topic: conceptual
+f1_keywords:
+  - vs.codeanalysis.codemetrics.toolwindow
+dev_langs:
+  - "CSharp"
+  - "VB"
+  - "FSharp"
 helpviewer_keywords:
-- code metrics [Visual Studio]
+  - code metrics [Visual Studio]
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
