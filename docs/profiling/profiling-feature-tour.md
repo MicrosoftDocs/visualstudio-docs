@@ -166,7 +166,7 @@ To diagnose UI responsiveness, slow loading time, and slow visual updates in UWP
 ::: moniker range="vs-2017"
 ## Analyze network usage (UWP)
 
-In UWP apps, you can analyze network operations performed using the `Windows.Web.Http` API.This tool may help you to resolve issues like access and authentication problems, incorrect cache-use, and poor display and download performance. To use the tool, choose **Network** in the Performance Profiler, and then choose **Start**. In your app, go through the scenario that uses `Windows.Web.Http`, and then choose **Stop collection** to generate the report.
+In UWP apps, you can analyze network operations performed using the `Windows.Web.Http` API. This tool may help you to resolve issues like access and authentication problems, incorrect cache-use, and poor display and download performance. To use the tool, choose **Network** in the Performance Profiler, and then choose **Start**. In your app, go through the scenario that uses `Windows.Web.Http`, and then choose **Stop collection** to generate the report.
 
 ![Network Usage profiling tool](../profiling/media/prof-tour-network-usage.png "Diag Network Usage")
 
