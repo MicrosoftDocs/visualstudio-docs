@@ -24,18 +24,21 @@ Under *env*, specify a *name* and *value* for each volume you want to download. 
 For example:
 
 ```yaml
+version: 0.1
 env:
   - name: ALLOW_LIST_PATH
     value: $(volumeMounts:allow-list)/allow-list
 ```
 
-The above example downloads the *allow-list* volume from the container and sets that location plus the path to the environment variable *ALLOW_LIST_PATH*. The default behavior is to download the files to the path you specify under a temporary directory on your development computer. In the above example, *ALLOW_LIST_PATH* is set to `/TEMPORARY_DIR/allow-list`.
+The above example downloads the *allow-list* volume from the container and sets that location plus the path to the environment variable *ALLOW_LIST_PATH*. The default behavior is to download the files to the path you specify under a temporary directory on your development computer. In the above example, *ALLOW_LIST_PATH* is set to `/TEMPORARY_DIR/allow-list`. 
 
 > [!NOTE]
-> Downloading a volume will download the entire contents of that volume regardless of the path you set. The path is only used to set the environment variable for use on the development computer.
+> Downloading a volume will download the entire contents of that volume regardless of the path you set. The path is only used to set the environment variable for use on the development computer. Adding */allow-list* or */path/to/files* to the end of the token doesn't actually affect where the volume is persisted. The environment variable is just a convenience in case your app needs a reference to a specific file inside that volume.
+
 You also have the option to specify a location to download the volume mount on your development computer instead of using a temporary directory. Under *volumeMounts*, specify a *name* and *localPath* for each specific location. The *name* is the volume name you want to match, and *localPath* is the absolute path on your development computer. For example:
 
 ```yaml
+version: 0.1
 volumeMounts:
   - name: default-token-*
     localPath: /var/run/secrets/kubernetes.io/serviceaccount
@@ -53,18 +56,20 @@ Under *env*, specify a *name* and *value* for each service you want to make avai
 For example:
 
 ```yaml
+version: 0.1
 env:
   - name: MYAPP1_SERVICE_HOST
     value: $(services:myapp1)/api/v1/
 ```
 
-The above example makes the *myapp1* service available to your development computer and the *MYAPP1_SERVICE_HOST* environment variable is set to the local IP address of the *myapp1* service with the `/api/v1` path. The *myapp1* service is accessible using the environment variable, *myapp1*, or *myapp1.svc.cluster.local*.
+The above example makes the *myapp1* service available to your development computer and the *MYAPP1_SERVICE_HOST* environment variable is set to the local IP address of the *myapp1* service with the `/api/v1` path (that is, `127.1.1.4/api/v1`). The *myapp1* service is accessible using the environment variable, *myapp1*, or *myapp1.svc.cluster.local*.
 
 > [!NOTE]
 > Making a service available on your development computer will make the entire service available regardless of the path you set. The path is only used to set the environment variable for use on the development computer.
 You can also make a service from a specific Kubernetes namespace available using *$(services:SERVICE_NAME.NAMESPACE_NAME)*. For example:
 
 ```yaml
+version: 0.1
 env:
   - name: MYAPP2_SERVICE_HOST
     value: $(services:myapp2.mynamespace)
@@ -77,6 +82,7 @@ The above example makes the *myapp2* from the *mynamespace* namespace available 
 Under *env*, specify a *name* and *value* for each environment variable you want to create on your development computer. The *name* is the environment variable that will be used on your development computer and the *value* is the value. For example:
 
 ```yaml
+version: 0.1
 env:
   - name: DEBUG_MODE
     value: "true"
