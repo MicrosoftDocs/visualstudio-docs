@@ -5,6 +5,10 @@ ms.date: 07/28/2020
 ms.topic: "conceptual"
 description: "Describes the additional configuration options for Local Process with Kubernetes using KubernetesLocalProcessConfig.yaml"
 keywords: "Local Process with Kubernetes, Azure Dev Spaces, Dev Spaces, Docker, Kubernetes, Azure, AKS, Azure Kubernetes Service, containers"
+monikerRange: ">=vs-2019"
+author: ghogen
+ms.author: ghogen
+manager: jillfra
 ---
 
 # Configure Local Process with Kubernetes

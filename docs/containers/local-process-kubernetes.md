@@ -2,10 +2,13 @@
 title: "Use Local Process with Kubernetes with Visual Studio (Preview)"
 ms.technology: vs-azure
 ms.date: 06/02/2020
-ms.topic: "conceptual"
+ms.topic: "how-to"
 description: "Learn how to use Local Process with Kubernetes with Visual Studio to connect your development computer to a Kubernetes cluster"
 keywords: "Local Process with Kubernetes, Azure Dev Spaces, Dev Spaces, Docker, Kubernetes, Azure, containers"
 monikerRange: ">=vs-2019"
+ms.author: ghogen
+author: ghogen
+manager: jillfra
 ---
 
 # Use Local Process with Kubernetes (Preview)
