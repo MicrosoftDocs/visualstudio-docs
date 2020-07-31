@@ -19,7 +19,7 @@ When a subscriber no longer requires a Visual Studio subscription, such as when 
 2. To delete the selected subscriber(s), click **Delete**.
 3. When the message appears asking you to confirm the deletion, click **OK**.
    > [!div class="mx-imgBorder"]
-   > ![Delete subscribers](_img/delete-license/delete-subscribers.png)
+   > ![Delete subscribers](_img/delete-license/delete-subscribers.png "Choose the user(s) you wish to delete, and click Delete. You can use CTRL and Shift keys to select multiple subscribers.")
 
    > [!NOTE]
    > Bulk delete using a template is not available. For organizations that manage subscription assignments through Azure Active Directory Security Groups, see [our article](assign-license-bulk.md#use-azure-active-directory-groups-to-assign-subscriptions) for more information about how deletions happen.  

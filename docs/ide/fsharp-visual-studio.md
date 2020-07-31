@@ -5,6 +5,8 @@ ms.date: 07/11/2018
 ms.topic: reference
 helpviewer_keywords:
 - F# features [Visual Studio]
+f1_keywords:
+- fs.ProjectPropertiesDebug
 author: TerryGLee
 ms.author: tglee
 manager: jillfra
