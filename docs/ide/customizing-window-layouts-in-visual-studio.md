@@ -52,6 +52,16 @@ In the **Preview** tab, you can view files in the editor without opening them. Y
 
 Tab groups extend your ability to manage limited workspace while you are working with two or more open documents in the IDE. You can organize multiple document windows and tool windows into either vertical or horizontal tab groups and shuffle documents from one tab group to another.
 
+::: moniker range="vs-2019"
+
+#### Vertical document tabs
+
+**New in version 16.4**: One of the top feature requests for Visual Studio 2019, [vertical document tabs](https://developercommunity.visualstudio.com/idea/467369/vertical-group-tab.html), was added in the [version 16.4 release](/visualstudio/releases/2019/release-notes-v16.4/). Now, you can manage your document tabs in a vertical list on either the left or right side of your editor.
+
+:::image type="content" source="../media/vs-2019/verticaltabs.gif" alt-text="An animation that shows vertical document tabs in action":::
+
+::: moniker-end
+
 ### Toolbars
 
 Toolbars can be arranged by dragging, or by using the **Customize** dialog box. For more information about how to position and customize toolbars, see [How to: Customize menus and toolbars](../ide/how-to-customize-menus-and-toolbars-in-visual-studio.md).
