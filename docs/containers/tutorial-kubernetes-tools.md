@@ -119,7 +119,7 @@ The added files are:
 
 - *azds.yaml*. This contains settings for Azure Dev Spaces, which provides a rapid, iterative debugging experience in Azure Kubernetes Service. For more information, see [the Azure Dev Spaces documentation](/azure/dev-spaces/azure-dev-spaces).
 
-::: moniker range="vs-2017"
+:::moniker range="vs-2017"
 
 ## Publish to Azure Kubernetes Service (AKS)
 
@@ -161,7 +161,39 @@ To do this, you first need to double-check that you've installed everything as d
 
 ::: moniker-end
 
+::: moniker range=">=vs-2019"
+
+## Publish to Azure Kubernetes Service (AKS)
+
+1. In the **Startup Projects** dropdown, choose the project that contains *azds.yaml*, and in the dropdown next to the green arrow, choose **Container in Kubernetes**.
+
+   You'll be asked to specify or create an AKS cluster.
+
+   ![Screenshot of cluster connection dialog](media/tutorial-kubernetes-tools/vs-2019/k8s-tools-configure-cluster.png)
+
+   Choose the subscription and cluster that you want to use, and choose **OK**.
+
+   If this is the first time you've used Azure Dev Spaces on the cluster, you'll be asked if you want to enable it.
+
+1. The application deploys and launches in the browser.
+
+   ![Screenshot of running app](media/tutorial-kubernetes-tools/vs-2019/k8s-tools-running-app.png)
+
+   The URL is *localhost* with a random port. Port forwarding redirects requests to the Kubernetes cluster in AKS.
+
+::: moniker-end
+
 Congratulations! You can now use the full power of Visual Studio for all your Kubernetes app development.
+
+## Remove Kubernetes support
+
+1. In **Solution Explorer**, under **Properties**, open *launchSettings.json*.
+
+1. Delete the section **Container in Kubernetes**.
+
+1. If you're switching back to Docker compose, select that project in **Solution Explorer**, right-click and choose **Set as Startup Project**.
+
+1. (Optional) You can also delete other artifacts listed as mentioned earlier in the article, such as the **charts** folder and *azds.yaml*.
 
 ## Next steps
 
