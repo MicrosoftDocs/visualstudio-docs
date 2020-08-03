@@ -16,7 +16,7 @@ ms.workload:
 In this short introduction to the code editor in Visual Studio, we'll look at some of the ways that Visual Studio makes writing, navigating, and understanding code easier.
 
 > [!TIP]
-> If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/) page to install it for free. Depending on the type of app development you're doing, you may need to install the **Node.js development workload** with Visual Studio.
+> If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/) page to install it for free. Depending on the type of app development you're doing, you may need to install the **Node.js development workload** with Visual Studio. For more information in getting the language service for TypeScript, see [TypeScript support](../javascript/javascript-in-vs-2019.md#typescript-support).
 
 This article assumes you're already familiar with JavaScript development. If you aren't, we suggest you look at a tutorial such as [Create a Node.js and Express app](../javascript/tutorial-nodejs.md) first.
 
@@ -59,6 +59,8 @@ In the lower pane, you can click the **Error List** tab to see the warning and d
 ![View error list](../javascript/media/write-code-error-list.png)
 
 You can fix this code by adding the comma (`,`) before `"data"`.
+
+For additional information on linting, see [Linting](https://github.com/microsoft/JSTSdocs/blob/master/articles/editor/linting.md).
 
 ## Comment out code
 
