@@ -60,7 +60,7 @@ You can apply vertical document tabs in the following ways:
 
 - Right-click a tab, choose **Set Tab Layout**, and then choose either **Left** or **Right**. (To return the tabs to their default position, choose **Top**.)
 
-    :::image type="content" source="./media/vs-2019/verticaltabs.gif" alt-text="An animation that shows vertical document tabs in action":::
+    :::image type="content" source="./media/vs-2019/vertical-tabs.gif" alt-text="An animation that shows vertical document tabs in action":::
 
 ::: moniker-end
 
