@@ -1,6 +1,6 @@
 ---
 title: Customize window layouts
-ms.date: 07/30/2020
+ms.date: 07/31/2020
 ms.topic: conceptual
 f1_keywords:
 - vs.windows
@@ -34,7 +34,7 @@ You can also name and save a custom layout and then switch between layouts with 
 
 The IDE has two basic window types, *tool windows* and *document windows*. Tool windows include **Solution Explorer**, **Server Explorer**, **Output Window**, **Error List**, the designers, the debugger windows, and so on. Document windows contain source code files, arbitrary text files, config files, and so on. Tool windows can be resized and dragged by their title bar. Document windows can be dragged by their tab. Right-click on the tab or title bar to set other options on the window.
 
-The **Window** menu shows options for docking, floating and hiding windows in the IDE. Right click on a window tab or title bar to see additional options for that specific window. You can display more than one instance of certain tool windows at a time. For example, you can display more than one web browser window, and you can create additional instances of some tool windows by choosing **New Window** on the **Window** menu.
+The **Window** menu shows options for docking, floating, and hiding windows in the IDE. Right click on a window tab or title bar to see additional options for that specific window. You can display more than one instance of certain tool windows at a time. For example, you can display more than one web browser window, and you can create additional instances of some tool windows by choosing **New Window** on the **Window** menu.
 
 ### Split windows
 
@@ -44,11 +44,15 @@ When you have to view or edit two locations at once in a document, you can split
 
 You can use tabs to arrange your layout in several different ways. For example, you can view a preview of a file in the editor without opening the file, you can group your tabs, and more.
 
+#### Preview tab (document windows)
+
+In the **Preview** tab, you can view files in the editor without opening them. You can preview files by choosing them in **Solution Explorer**, during debugging when you step into files, with **Go to Definition**, and when you browse through results of a search. Preview files appear in a tab on the right side of the document tab well. The file opens for editing if you modify it or choose  **Open**.
+
 ::: moniker range="vs-2019"
 
 #### Vertical document tabs
 
-**New in version 16.4**: We added one of the top feature requests, [vertical document tabs](https://developercommunity.visualstudio.com/idea/467369/vertical-group-tab.html), in the Visual Studio 2019 [version 16.4 release](/visualstudio/releases/2019/release-notes-v16.4/). Now, you can manage your document tabs in a vertical list on either the left or right side of your editor.
+**[New in version 16.4](/visualstudio/releases/2019/release-notes-v16.4/)**: We added one of the top feature requests, [vertical document tabs](https://developercommunity.visualstudio.com/idea/467369/vertical-group-tab.html), in the Visual Studio 2019 version 16.4 release. Now, you can manage your document tabs in a vertical list on either the left or right side of your editor.
 
 You can apply vertical document tabs in the following ways:
 
@@ -62,11 +66,7 @@ You can apply vertical document tabs in the following ways:
 
 #### Tab groups
 
-Tab groups extend your ability to manage limited workspace while you are working with two or more open documents in the IDE. You can organize multiple document windows and tool windows into either vertical or horizontal tab groups and shuffle documents from one tab group to another.
-
-#### Preview tab (document windows)
-
-In the **Preview** tab, you can view files in the editor without opening them. You can preview files by choosing them in **Solution Explorer**, during debugging when you step into files, with **Go to Definition**, and when you browse through results of a search. Preview files appear in a tab on the right side of the document tab well. The file opens for editing if you modify it or choose  **Open**.
+Tab groups extend your ability to manage limited workspace while you're working with two or more open documents in the IDE. You can organize multiple document windows and tool windows into either vertical or horizontal tab groups and shuffle documents from one tab group to another.
 
 ### Toolbars
 
@@ -74,9 +74,9 @@ You can arrange toolbars by dragging them to where you want them, or by using th
 
 ## Arrange and dock windows
 
-A document window or tool window can be *docked*, so that it has a position and size within the IDE window frame. You can also position it as a separate floating window that's outside of the IDE. 
+A document window or tool window can be *docked*, so that it has a position and size within the IDE window frame. You can also position it as a separate floating window that's outside of the IDE.
 
-You can dock a tool window anywhere inside the IDE frame. You can also dock some tool windows as tabbed windows in the editor frame. And, you can dock document windows within the editor frame, and you can pin them to their current position in the tab order. 
+You can dock a tool window anywhere inside the IDE frame. You can also dock some tool windows as tabbed windows in the editor frame. And, you can dock document windows within the editor frame, and you can pin them to their current position in the tab order.
 
 You can also dock multiple windows to float together in a *raft* over or outside of the IDE. Tool windows can also be hidden or minimized.
 
@@ -157,7 +157,7 @@ First, create a test solution that has two projects, each with a different optim
 
 1. Create a new C# **WPF App** project. Imagine that in this project, you'll be developing a user interface. You want to maximize the space for the designer window and move other tool windows out of the way.
 
-2. If you have multiple monitors, pull the **Solution Explorer** window and the **Properties** window over to your second monitor. On a single monitor system, try closing all the windows except the designer.
+2. If you have multiple monitors, pull over the **Solution Explorer** window and the **Properties** window to your second monitor. On a single monitor system, try closing all the windows except the designer.
 
 3. Press **Ctrl**+**Alt**+**X** to display the **Toolbox** window. If the window is docked, drag it so that it floats somewhere where you'd like to position it.
 
@@ -165,7 +165,7 @@ First, create a test solution that has two projects, each with a different optim
 
 5. When your layouts in both debugging mode and editing mode are how you want them, choose **Window** > **Save Window Layout**. Call this layout "Designer."
 
-     Note that your new layout is assigned the next keyboard shortcut from the reserved list of **Ctrl**+**Alt**+**1...0**.
+     Notice that your new layout is assigned the next keyboard shortcut from the reserved list of **Ctrl**+**Alt**+**1...0**.
 
 #### Create a database project and layout
 
@@ -190,13 +190,13 @@ If you have a multi monitor setup at work and a single monitor laptop at home, y
 
 #### Manage and roam your layouts
 
-You can remove, rename or reorder your custom layout by choosing **Window** > **Manage Window Layouts**. If you move a layout, the key binding is automatically adjusted to reflect the new position in the list. The bindings cannot be otherwise modified, and so you can store a maximum of 10 layouts at a time.
+You can remove, rename, or reorder your custom layout by choosing **Window** > **Manage Window Layouts**. If you move a layout, the key binding is automatically adjusted to reflect the new position in the list. The bindings can't be otherwise modified, and so you can store a maximum of 10 layouts at a time.
 
 ![Manage window layouts](../ide/media/managewindowlayouts.png)
 
 To remind yourself which keyboard shortcut is assigned to which layout, choose **Window** > **Apply Window Layout**.
 
-These layouts automatically roam between Visual Studio editions, and also between Blend instances on separate machines, and from any Express edition to any other Express organization. However, layouts do not roam across Visual Studio, Blend and Express.
+These layouts automatically roam between Visual Studio editions, and also between Blend instances on separate machines, and from any Express edition to any other Express organization. However, layouts do not roam across Visual Studio, Blend, and Express.
 
 ## See also
 
