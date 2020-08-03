@@ -44,35 +44,39 @@ When you have to view or edit two locations at once in a document, you can split
 
 You can use tabs to arrange your layout in several different ways. For example, you can view a preview of a file in the editor without opening the file, you can group your tabs, and more.
 
-#### Preview tab (document windows)
+::: moniker range="vs-2019"
 
-In the **Preview** tab, you can view files in the editor without opening them. You can preview files by choosing them in **Solution Explorer**, during debugging when you step into files, with **Go to Definition**, and when you browse through results of a search. Preview files appear in a tab on the right side of the document tab well. The file opens for editing if you modify it or choose  **Open**.
+#### Vertical document tabs
+
+**New in version 16.4**: We added one of the top feature requests, [vertical document tabs](https://developercommunity.visualstudio.com/idea/467369/vertical-group-tab.html), in the Visual Studio 2019 [version 16.4 release](/visualstudio/releases/2019/release-notes-v16.4/). Now, you can manage your document tabs in a vertical list on either the left or right side of your editor.
+
+You can apply vertical document tabs in the following ways:
+
+- Choose **Tools** > **Options** > **Environment** > **Tabs and Windows** from the menu bar. Then, from the **Set tab layout** control, choose either **Top**, **Left**, or **Right** from the drop-down list.
+
+- Right-click a tab, choose **Set Tab Layout**, and then choose either **Left** or **Right**. (To return the tabs to their default position, choose **Top**.)
+
+    :::image type="content" source="./media/vs-2019/verticaltabs.gif" alt-text="An animation that shows vertical document tabs in action":::
+
+::: moniker-end
 
 #### Tab groups
 
 Tab groups extend your ability to manage limited workspace while you are working with two or more open documents in the IDE. You can organize multiple document windows and tool windows into either vertical or horizontal tab groups and shuffle documents from one tab group to another.
 
-::: moniker range="vs-2019"
+#### Preview tab (document windows)
 
-#### Vertical document tabs
-
-**New in version 16.4**: One of the top feature requests for Visual Studio 2019, [vertical document tabs](https://developercommunity.visualstudio.com/idea/467369/vertical-group-tab.html), was added in the [version 16.4 release](/visualstudio/releases/2019/release-notes-v16.4/). Now, you can manage your document tabs in a vertical list on either the left or right side of your editor.
-
-:::image type="content" source="../media/vs-2019/verticaltabs.gif" alt-text="An animation that shows vertical document tabs in action":::
-
-::: moniker-end
+In the **Preview** tab, you can view files in the editor without opening them. You can preview files by choosing them in **Solution Explorer**, during debugging when you step into files, with **Go to Definition**, and when you browse through results of a search. Preview files appear in a tab on the right side of the document tab well. The file opens for editing if you modify it or choose  **Open**.
 
 ### Toolbars
 
-Toolbars can be arranged by dragging, or by using the **Customize** dialog box. For more information about how to position and customize toolbars, see [How to: Customize menus and toolbars](../ide/how-to-customize-menus-and-toolbars-in-visual-studio.md).
+You can arrange toolbars by dragging them to where you want them, or by using the **Customize** dialog box. For more information about how to position and customize toolbars, see [How to: Customize menus and toolbars](../ide/how-to-customize-menus-and-toolbars-in-visual-studio.md).
 
 ## Arrange and dock windows
 
 A document window or tool window can be *docked*, so that it has a position and size within the IDE window frame. You can also position it as a separate floating window that's outside of the IDE. 
 
-You can dock a tool window anywhere inside the IDE frame. You can also dock some tool windows as tabbed windows in the editor frame. 
-
-You can dock document windows within the editor frame, and you can pin them to their current position in the tab order. 
+You can dock a tool window anywhere inside the IDE frame. You can also dock some tool windows as tabbed windows in the editor frame. And, you can dock document windows within the editor frame, and you can pin them to their current position in the tab order. 
 
 You can also dock multiple windows to float together in a *raft* over or outside of the IDE. Tool windows can also be hidden or minimized.
 
