@@ -6,6 +6,9 @@ ms.topic: "conceptual"
 description: "Describes the processes for using Local Process with Kubernetes to connect your development computer to your Kubernetes cluster"
 keywords: "Local Process with Kubernetes, Docker, Kubernetes, Azure, containers"
 monikerRange: ">=vs-2019"
+manager: jillfra
+author: ghogen
+ms.author: ghogen
 ---
 
 # How Local Process with Kubernetes works
@@ -15,6 +18,9 @@ Local Process with Kubernetes allows you to run and debug code on your developme
 Local Process with Kubernetes avoids having to build and deploy your code to your cluster by instead creating a connection directly between your development computer and your cluster. Connecting your development computer to your cluster while debugging allows you to quickly test and develop your service in the context of the full application without creating any Docker or Kubernetes configuration.
 
 Local Process with Kubernetes redirects traffic between your connected Kubernetes cluster and your development computer. This traffic redirection allows code on your development computer and services running in your Kubernetes cluster to communicate as if they are in the same Kubernetes cluster. Local Process with Kubernetes also provides a way to replicate environment variables and mounted volumes available to pods in your Kubernetes cluster in your development computer. Providing access to environment variables and mounted volumes on your development computer allows you to quickly work on your code without having replicate those dependencies manually.
+
+> [!WARNING]
+> Local Process for Kubernetes is intended for use in development and testing scenarios only. It is not intended or supported for use with production clusters or live services in active use.
 
 ## Using Local Process with Kubernetes
 
@@ -34,6 +40,12 @@ When Local Process with Kubernetes establishes a connection to your cluster, it:
 * Starts running and debugging your code on your development computer. If necessary, Local Process with Kubernetes will free required ports on your development computer by stopping services or processes that are currently using those ports.
 
 After you establish a connection to your cluster, you can run and debug code natively on your computer, without containerization, and the code can directly interact with the rest of your cluster. Any network traffic the remote agent receives is redirected to the local port specified during the connection so your natively running code can accept and process that traffic. The environment variables, volumes, and secrets from your cluster are made available to code running on your development computer. Also, due to the hosts file entries and port forwarding added to your developer computer by Local Process with Kubernetes, your code can send network traffic to services running on your cluster using the service names from your cluster, and that traffic gets forwarded to the services that are running in your cluster. Traffic is routed between your development computer and your cluster the entire time you're connected.
+
+In addition, Local Process with Kubernetes provides a way to replicate environment variables and mounted files available to pods in your cluster on your development computer through the `KubernetesLocalProcessConfig.yaml` file. You can also use this file to create new environment variables and volume mounts.
+
+## Additional configuration with KubernetesLocalProcessConfig.yaml
+
+The `KubernetesLocalProcessConfig.yaml` file allows you to replicate environment variables and mounted files available to your pods in your cluster. For more information on the additional configuration options, see [Configure Local Process with Kubernetes][using-config-yaml].
 
 ## Using routing capabilities for developing in isolation
 
@@ -104,3 +116,4 @@ To get started using Local Process with Kubernetes to connect to your local deve
 [kubectl-port-forward]: https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#port-forward
 [visual-studio]: https://visualstudio.microsoft.com/downloads/
 [lpk-extension]: https://marketplace.visualstudio.com/items?itemName=ms-azuretools.mindaro
+[using-config-yaml]: configure-local-process-with-kubernetes.md

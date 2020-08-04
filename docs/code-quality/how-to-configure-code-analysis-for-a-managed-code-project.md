@@ -5,6 +5,11 @@ ms.topic: how-to
 f1_keywords: 
   - vs.codeanalysis.propertypages.csvb
   - vs.codeanalysis.propertypages.solution
+  - vs.codeanalysis.propertypages.asp
+dev_langs:
+  - "CSharp"
+  - "VB"
+  - "FSharp"
 helpviewer_keywords: 
   - code analysis, selecting rule sets
   - code analysis, rule sets
