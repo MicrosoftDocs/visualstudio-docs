@@ -1,4 +1,15 @@
-
+---
+title: Docker tutorial - What's next
+description: Describes options for extending Docker apps with orchestration, using Cloud Native Computing Foundation projects
+ms.date: "08/04/2020"
+author: nebuk89
+ms.author: ghogen
+manager: jillfra
+ms.technology: vs-azure
+ms.topic: conceptual
+ms.workload:
+  - "azure"
+---
 Although we're done with our workshop, there's still a LOT more to learn about containers!
 We're not going to go deep-dive here, but here are a few other areas to look at next!
 
@@ -13,7 +24,6 @@ The general idea is that you have "managers" who receive **expected state**. Thi
 "I want to run two instances of my web app and expose port 80." The managers then look at all of the
 machines in the cluster and delegate work to "worker" nodes. The managers watch for changes (such as
 a container quitting) and then work to make **actual state** reflect the expected state.
-
 
 ## Cloud Native Computing Foundation Projects
 

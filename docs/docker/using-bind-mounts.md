@@ -1,20 +1,26 @@
+---
+title: Docker tutorial - Using bind mounts
+description: Describes how to use bind mounts to control the mount point on the host
+ms.date: "08/04/2020"
+author: nebuk89
+ms.author: ghogen
+manager: jillfra
+ms.technology: vs-azure
+ms.topic: conceptual
+ms.workload:
+  - "azure"
+---
+# Using bind mounts
 
-In the previous chapter, we talked about and used a **named volume** to persist the data in our database.
-Named volumes are great if we simply want to store data, as we don't have to worry about _where_ the data
-is stored.
+In the previous chapter, we talked about and used a **named volume** to persist the data in our database. Named volumes are great if we simply want to store data, as we don't have to worry about *where* the data is stored.
 
-With **bind mounts**, we control the exact mountpoint on the host. We can use this to persist data, but is often
-used to provide additional data into containers. When working on an application, we can use a bind mount to
-mount our source code into the container to let it see code changes, respond, and let us see the changes right
-away.
+With **bind mounts**, we control the exact mountpoint on the host. We can use this to persist data, but is often used to provide additional data into containers. When working on an application, we can use a bind mount to mount our source code into the container to let it see code changes, respond, and let us see the changes right away.
 
-For Node-based applications, [nodemon](https://npmjs.com/package/nodemon) is a great tool to watch for file
-changes and then restart the application. There are equivalent tools in most other languages and frameworks.
+For Node-based applications, [nodemon](https://npmjs.com/package/nodemon) is a great tool to watch for file changes and then restart the application. There are equivalent tools in most other languages and frameworks.
 
-## Quick Volume Type Comparisons
+## Quick volume type comparisons
 
-Bind mounts and named volumes are the two main types of volumes that come with the Docker engine. However, additional
-volume drivers are available to support other uses cases ([SFTP](https://github.com/vieux/docker-volume-sshfs), [Ceph](https://ceph.com/geen-categorie/getting-started-with-the-docker-rbd-volume-plugin/), [NetApp](https://netappdvp.readthedocs.io/en/stable/), [S3](https://github.com/elementar/docker-s3-volume), and more).
+Bind mounts and named volumes are the two main types of volumes that come with the Docker engine. However, additional volume drivers are available to support other uses cases ([SFTP](https://github.com/vieux/docker-volume-sshfs), [Ceph](https://ceph.com/geen-categorie/getting-started-with-the-docker-rbd-volume-plugin/), [NetApp](https://netappdvp.readthedocs.io/en/stable/), [S3](https://github.com/elementar/docker-s3-volume), and more).
 
 |   | Named Volumes | Bind Mounts |
 | - | ------------- | ----------- |
@@ -23,8 +29,7 @@ volume drivers are available to support other uses cases ([SFTP](https://github.
 | Populates new volume with container contents | Yes | No |
 | Supports Volume Drivers | Yes | No |
 
-
-## Starting a Dev-Mode Container
+## Starting a dev-mode container
 
 To run our container to support a development workflow, we will do the following:
 
@@ -49,11 +54,9 @@ So, let's do it!
     - `-w /app` - sets the "working directory" or the current directory that the command will run from
     - `-v ${PWD}:/app` - bind mount the current directory from the host in the container into the `/app` directory
     - `node:12-alpine` - the image to use. Note that this is the base image for our app from the Dockerfile
-    - `sh -c "yarn install && yarn run dev"` - the command. We're starting a shell using `sh` (alpine doesn't have `bash`) and
-      running `yarn install` to install _all_ dependencies and then running `yarn run dev`. If we look in the `package.json`,
-      we'll see that the `dev` script is starting `nodemon`.
+    - `sh -c "yarn install && yarn run dev"` - the command. We're starting a shell using `sh` (alpine doesn't have `bash`) and running `yarn install` to install *all* dependencies and then running `yarn run dev`. If we look in the `package.json`, we'll see that the `dev` script is starting `nodemon`.
 
-1. You can watch the logs using `docker logs -f <container-id>`. You'll know you're ready to go when you see this...
+1. You can watch the logs using `docker logs -f <container-id>`. You'll know you're ready to go when you see this:
 
     ```bash
     docker logs -f <container-id>
@@ -76,20 +79,13 @@ So, let's do it!
     +                         {submitting ? 'Adding...' : 'Add'}
     ```
 
-1. Simply refresh the page (or open it) and you should see the change reflected in the browser almost immediately. It might
-   take a few seconds for the Node server to restart, so if you get an error, just try refreshing after a few seconds.
+1. Simply refresh the page (or open it) and you should see the change reflected in the browser almost immediately. It might take a few seconds for the Node server to restart, so if you get an error, just try refreshing after a few seconds.
 
-    ![Screenshot of updated label for Add button](media/updated-add-button.png){: style="width:75%;"}
-    {: .text-center }
+    ![Screenshot of updated label for Add button](media/updated-add-button.png)
 
-1. Feel free to make any other changes you'd like to make. When you're done, stop the container and build your new image
-   using `docker build -t getting-started .`.
+1. Feel free to make any other changes you'd like to make. When you're done, stop the container and build your new image using `docker build -t getting-started .`.
 
-
-Using bind mounts is _very_ common for local development setups. The advantage is that the dev machine doesn't need to have
-all of the build tools and environments installed. With a single `docker run` command, the dev environment is pulled and ready
-to go. We'll talk about Docker Compose in a future step, as this will help simplify our commands (we're already getting a lot
-of flags).
+Using bind mounts is *very* common for local development setups. The advantage is that the dev machine doesn't need to have all of the build tools and environments installed. With a single `docker run` command, the dev environment is pulled and ready to go. We'll talk about Docker Compose in a future step, as this will help simplify our commands (we're already getting a lot of flags).
 
 ## Recap
 
@@ -98,6 +94,11 @@ But, guess what? We received great news!
 
 **Your project has been selected for future development!** 
 
-In order to prepare for production, we need to migrate our database from working in SQLite to something that can scale a
-little better. For simplicity, we'll keep with a relational database and switch our application to use MySQL. But, how 
-should we run MySQL? How do we allow the containers to talk to each other? We'll talk about that next!
+In order to prepare for production, we need to migrate our database from working in SQLite to something that can scale a little better. For simplicity, we'll keep with a relational database and switch our application to use MySQL. But, how should we run MySQL? How do we allow the containers to talk to each other? We'll talk about that next!
+
+## Next steps
+
+Continue with the tutorial!
+
+> [!div class="nextstepaction"]
+> [Multi-container apps](multi-container-apps.md)

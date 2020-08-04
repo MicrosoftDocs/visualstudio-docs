@@ -1,14 +1,27 @@
+---
+title: Docker tutorial - Persisting our data
+description: Overview of the TODO list sample app that runs in Node.js
+ms.date: "08/04/2020"
+author: nebuk89
+ms.author: ghogen
+manager: jillfra
+ms.technology: vs-azure
+ms.topic: conceptual
+ms.workload:
+  - "azure"
+---
+# Persisting our data
 
 In case you didn't notice, our todo list is being wiped clean every single time
 we launch the container. Why is this? Let's dive into how the container is working.
 
-## The Container's Filesystem
+## The container's filesystem
 
 When a container runs, it uses the various layers from an image for its filesystem.
 Each container also gets its own "scratch space" to create/update/remove files. Any
 changes won't be seen in another container, _even if_ they are using the same image.
 
-### Seeing this in Practice
+### Seeing this in practice
 
 To see this in action, we're going to start two containers and create a file in each.
 What you'll see is that the files created in one container aren't available in another.
@@ -56,7 +69,7 @@ What you'll see is that the files created in one container aren't available in a
 
 1. Go ahead and remove the first container using the `docker rm -f` command.
 
-## Container Volumes
+## Container volumes
 
 With the previous experiment, we saw that each container starts from the image definition each time it starts. 
 While containers can create, update, and delete files, those changes are lost when the container is removed 
@@ -69,7 +82,7 @@ the same files.
 
 There are two main types of volumes. We will eventually use both, but we will start with **named volumes**.
 
-## Persisting our Todo Data
+## Persisting our Todo data
 
 By default, the todo app stores its data in a [SQLite Database](https://www.sqlite.org/index.html) at
 `/etc/todos/todo.db`. If you're not familiar with SQLite, no worries! It's simply a relational database in 
@@ -121,7 +134,7 @@ Hooray! You've now learned how to persist data!
     and more! This will be especially important once you start running containers on multiple hosts in a clustered
     environment with Swarm, Kubernetes, etc.
 
-## Diving into our Volume
+## Diving into our volume
 
 A lot of people frequently ask "Where is Docker _actually_ storing my data when I use a named volume?" If you want to know, 
 you can use the `docker volume inspect` command.
@@ -144,10 +157,9 @@ docker volume inspect todo-db
 The `Mountpoint` is the actual location on the disk where the data is stored. Note that on most machines, you will
 need to have root access to access this directory from the host. But, that's where it is!
 
-!!! info "Accessing Volume data directly on Docker Desktop"
-    While running in Docker Desktop, the Docker commands are actually running inside a small VM on your machine.
-    If you wanted to look at the actual contents of the Mountpoint directory, you would need to first get inside
-    of the VM.
+> [!NOTE]
+> **Accessing Volume data directly on Docker Desktop**
+> While running in Docker Desktop, the Docker commands are actually running inside a small VM on your machine. If you wanted to look at the actual contents of the *Mountpoint* directory, you would need to first get inside of the VM.
 
 ## Recap
 
@@ -156,3 +168,10 @@ hope they can catch our vision!
 
 However, we saw earlier that rebuilding images for every change takes quite a bit of time. There's got to be a better
 way to make changes, right? With bind mounts (which we hinted at earlier), there is a better way! Let's take a look at that now!
+
+## Next steps
+
+Continue with the tutorial!
+
+> [!div class="nextstepaction"]
+> [Using bind mounts](using-bind-mounts.md)

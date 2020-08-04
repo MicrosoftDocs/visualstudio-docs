@@ -1,11 +1,20 @@
+---
+title: Docker tutorial - Image layering
+description: How to examine and manage image layers in Docker images
+ms.date: "08/04/2020"
+author: nebuk89
+ms.author: ghogen
+manager: jillfra
+ms.technology: vs-azure
+ms.topic: conceptual
+ms.workload:
+  - "azure"
+---
+# Image layering
 
-## Image Layering
+Did you know that you can look at what makes up an image? Using the `docker image history` command, you can see the command that was used to create each layer within an image.
 
-Did you know that you can look at what makes up an image? Using the `docker image history`
-command, you can see the command that was used to create each layer within an image.
-
-1. Use the `docker image history` command to see the layers in the `getting-started` image you
-   created earlier in the tutorial.
+1. Use the `docker image history` command to see the layers in the `getting-started` image you created earlier in the tutorial.
 
     ```bash
     docker image history getting-started
@@ -35,14 +44,13 @@ command, you can see the command that was used to create each layer within an im
     diagnose large images.
 
 1. You'll notice that several of the lines are truncated. If you add the `--no-trunc` flag, you'll get the
-   full output (yes... funny how you use a truncated flag to get untruncated output, huh?)
+   full output (yes, you use a truncated flag to get untruncated output)
 
     ```bash
     docker image history --no-trunc getting-started
     ```
 
-
-## Layer Caching
+## Layer caching
 
 Now that you've seen the layering in action, there's an important lesson to learn to help decrease build
 times for your container images.
@@ -65,7 +73,7 @@ way to fix this? It doesn't make much sense to ship around the same dependencies
 
 To fix this, we need to restructure our Dockerfile to help support the caching of the dependencies. For Node-based
 applications, those dependencies are defined in the `package.json` file. So, what if we copied only that file in first,
-install the dependencies, and _then_ copy in everything else? Then, we only recreate the yarn dependencies if there was
+install the dependencies, and *then* copy in everything else? Then, we only recreate the yarn dependencies if there was
 a change to the `package.json`. Make sense?
 
 1. Update the Dockerfile to copy in the `package.json` first, install dependencies, and then copy everything else in.
@@ -151,16 +159,15 @@ a change to the `package.json`. Make sense?
     `Using cache`. So, hooray! We're using the build cache. Pushing and pulling this image and updates to it
     will be much faster as well. Hooray!
 
-
 ## Multi-Stage Builds
 
 While we're not going to dive into it too much in this tutorial, multi-stage builds are an incredibly powerful
 tool to help use multiple stages to create an image. There are several advantages for them:
 
 - Separate build-time dependencies from runtime dependencies
-- Reduce overall image size by shipping _only_ what your app needs to run
+- Reduce overall image size by shipping *only* what your app needs to run
 
-### Maven/Tomcat Example
+### Maven/Tomcat example
 
 When building Java-based applications, a JDK is needed to compile the source code to Java bytecode. However,
 that JDK isn't needed in production. Also, you might be using tools like Maven or Gradle to help build the app.
@@ -180,8 +187,7 @@ In this example, we use one stage (called `build`) to perform the actual Java bu
 stage (starting at `FROM tomcat`), we copy in files from the `build` stage. The final image is only the last stage
 being created (which can be overridden using the `--target` flag).
 
-
-### React Example
+### React example
 
 When building React applications, we need a Node environment to compile the JS code (typically JSX), SASS stylesheets,
 and more into static HTML, JS, and CSS. If we aren't doing server-side rendering, we don't even need a Node environment
@@ -203,10 +209,13 @@ COPY --from=build /app/build /usr/share/nginx/html
 Here, we are using a `node:12` image to perform the build (maximizing layer caching) and then copying the output
 into an nginx container. Cool, huh?
 
-
 ## Recap
 
-By understanding a little bit about how images are structured, we can build images faster and ship fewer changes.
-Multi-stage builds also help us reduce overall image size and increase final container security by separating
-build-time dependencies from runtime dependencies.
+By understanding a little bit about how images are structured, we can build images faster and ship fewer changes. Multi-stage builds also help us reduce overall image size and increase final container security by separating build-time dependencies from runtime dependencies.
 
+## Next steps
+
+Continue with the tutorial!
+
+> [!div class="nextstepaction"]
+> [Deploying to the cloud](deploy-to-cloud.md)

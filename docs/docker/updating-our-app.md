@@ -1,7 +1,18 @@
+---
+title: Docker tutorial - Updating our app
+description: Describes how to update a Docker app
+ms.date: "08/04/2020"
+author: nebuk89
+ms.author: ghogen
+manager: jillfra
+ms.technology: vs-azure
+ms.topic: conceptual
+ms.workload:
+  - "azure"
+---
+# Updating our app
 
-As a small feature request, we've been asked by the product team to
-change the "empty text" when we don't have any todo list items. They
-would like to transition it to the following:
+As a small feature request, we've been asked by the product team to change the "empty text" when we don't have any todo list items. They would like to transition it to the following:
 
 > You have no todo items yet! Add one above!
 
@@ -35,17 +46,11 @@ docker: Error response from daemon: driver failed programming external connectiv
 (bb242b2ca4d67eba76e79474fb36bb5125708ebdabd7f45c8eaf16caaabde9dd): Bind for 0.0.0.0:3000 failed: port is already allocated.
 ```
 
-So, what happened? We aren't able to start the new container because our old container is still
-running. The reason this is a problem is because that container is using the host's port 3000 and
-only one process on the machine (containers included) can listen to a specific port. To fix this, 
-we need to remove the old container.
+So, what happened? We aren't able to start the new container because our old container is still running. The reason this is a problem is because that container is using the host's port 3000 and only one process on the machine (containers included) can listen to a specific port. To fix this, we need to remove the old container.
 
+## Replacing our old container
 
-## Replacing our Old Container
-
-To remove a container, it first needs to be stopped. Once it has stopped, it can be removed. We have two
-ways that we can remove the old container. Feel free to choose the path that you're most comfortable with.
-
+To remove a container, it first needs to be stopped. Once it has stopped, it can be removed. We have two ways that we can remove the old container. Feel free to choose the path that you're most comfortable with.
 
 ### Removing a container using the CLI
 
@@ -68,14 +73,12 @@ ways that we can remove the old container. Feel free to choose the path that you
     docker rm <the-container-id>
     ```
 
-!!! info "Pro tip"
-    You can stop and remove a container in a single command by adding the "force" flag
-    to the `docker rm` command. For example: `docker rm -f <the-container-id>`
+> [!TIP]
+> You can stop and remove a container in a single command by adding the "force" flag to the `docker rm` command. For example: `docker rm -f <the-container-id>`
 
 ### Removing a container using the Docker Dashboard
 
-If you open the VSCode Extension, you can remove a container with two clicks! It's certainly
-much easier than having to look up the container ID and remove it.
+If you open the VSCode Extension, you can remove a container with two clicks! It's certainly much easier than having to look up the container ID and remove it.
 
 1. With the extension opened, navigate to the container and right click.
 
@@ -84,7 +87,6 @@ much easier than having to look up the container ID and remove it.
 1. Confirm the removal and you're done!
 
 ![Docker Dashboard - removing a container](media/vs-removing-container.png)
-
 
 ### Starting our updated app container
 
@@ -99,15 +101,19 @@ much easier than having to look up the container ID and remove it.
 ![Updated application with updated empty text](media/todo-list-updated-empty-text.png){: style="width:55%" }
 {: .text-center }
 
-
-
 ## Recap
 
 While we were able to build an update, there were two things you might have noticed:
 
 - All of the existing items in our todo list are gone! That's not a very good app! We'll talk about that
 shortly.
-- There were _a lot_ of steps involved for such a small change. In an upcoming section, we'll talk about 
-how to see code updates without needing to rebuild and start a new container every time we make a change.
+- There were _a lot_ of steps involved for such a small change. In an upcoming section, we'll talk about how to see code updates without needing to rebuild and start a new container every time we make a change.
 
 Before talking about persistence, we'll quickly see how to share these images with others.
+
+## Next steps
+
+Continue with the tutorial!
+
+> [!div class="nextstepaction"]
+> [Sharing our app](sharing-our-app.md)
