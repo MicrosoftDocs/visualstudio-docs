@@ -34,6 +34,9 @@ Adding an alternate account to your Visual Studio subscription allows you to acc
 ### Q: How can I contact my admin about this?
 A:  Please see our [Contact your subscriptions administrator](contact-my-admin.md) article for information about contacting your admin.  
 
+### Q: I'm an admin.  How do I use this?
+A:  Implemented connected identities is simple.  Check out [this article](personal-email-sign-ins.md) for more information. 
+
 ## See also
 - [Visual Studio documentation](https://docs.microsoft.com/visualstudio/)
 - [Azure DevOps documentation](https://docs.microsoft.com/azure/devops/)
