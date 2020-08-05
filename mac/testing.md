@@ -13,7 +13,7 @@ author: jmatthiesen
 Visual Studio for Mac testing tools can help you and your team develop and sustain high standards of code excellence. Unit tests can be written and run using the Microsoft unit test framework (MSTest), xUnit, or NUnit.
 
 ## Creating tests
-To get started with testing, you can create a new test project in your solution by right-clicking your solution and choosing the **Add > New Project...** menu. Then choose one of the Test categories on the left-side of the dialog. For example, the **Web and Console > Tests** category. Select the type of test project you want to create, click  
+To get started with testing, you can create a new test project in your solution by right-clicking your solution and choosing the **Add > New Project...** menu. Then choose one of the Test categories on the left-side of the dialog (For example, the **Web and Console > Tests** category). Select the type of test project you want to create, and click Next. Follow the instructions in the dialogs that appear and then a new test project will be added to your solution.
 
 ![New project dialog with Web and Console > Tests section selected, showing xUnit, MSTest, and NUnit projects](media/create-new-test-project.PNG)
 
