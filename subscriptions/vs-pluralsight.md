@@ -36,8 +36,6 @@ The table below details what Pluralsight subscription benefits are available to 
 
    > [!NOTE]
    > If your account is not eligible to redeem new offers, the email you receive will explain that there was a problem creating your account because it's not eligible.  It will also contain information to help you contact Pluralsight's support team, who can answer any questions you may have about your account.
-   
-1. After your account has been successfully created, you'll see a message saying **"Thank you! You're all set."** and a note saying that a confirmation has been sent to the email address you provided.  
 
 1. Click **SET PASSWORD**.
 
