@@ -38,7 +38,7 @@ docker-compose version
     version: "3.7"
     ```
 
-1. Next, define the list of services (or containers) you want to run as part of our application.
+1. Next, define the list of services (or containers) you want to run as part of your application.
 
     ```yaml hl_lines="3"
     version: "3.7"
@@ -50,7 +50,7 @@ And now, you'll start migrating a service at a time into the compose file.
 
 ## Define the App Service
 
-To remember, this was the command you used to define our app container (replace the ` \ ` characters with `` ` `` in Windows PowerShell).
+To remember, this was the command you used to define your app container (replace the ` \ ` characters with `` ` `` in Windows PowerShell).
 
 ```bash
 docker run -dp 3000:3000 \
@@ -139,7 +139,7 @@ docker run -dp 3000:3000 \
 
 ### Define the MySQL service
 
-Now, it's time to define the MySQL service. The command that we used for that container was the following (replace the ` \ ` characters with `` ` `` in Windows PowerShell):
+Now, it's time to define the MySQL service. The command that you used for that container was the following (replace the ` \ ` characters with `` ` `` in Windows PowerShell):
 
 ```bash
 docker run -d \
@@ -243,7 +243,7 @@ Now that you have the `docker-compose.yml` file, you can start it up!
     docker-compose up -d
     ```
 
-    When we run this, we should see output like this:
+    When you run this, you should see output like this:
 
     ```plaintext
     Creating network "app_default" with the default driver

@@ -1,5 +1,5 @@
 ---
-title: Docker tutorial - Updating our app
+title: Docker tutorial - Updating your app
 description: Describes how to update a Docker app
 ms.date: "08/04/2020"
 author: nebuk89
@@ -46,11 +46,11 @@ docker: Error response from daemon: driver failed programming external connectiv
 (bb242b2ca4d67eba76e79474fb36bb5125708ebdabd7f45c8eaf16caaabde9dd): Bind for 0.0.0.0:3000 failed: port is already allocated.
 ```
 
-So, what happened? The new container couldn't start, because our old container is still running. The reason this is a problem is because that container is using the host's port 3000 and only one process on the machine (containers included) can listen to a specific port. To fix this, remove the old container.
+So, what happened? The new container couldn't start, because your old container is still running. The reason this is a problem is because that container is using the host's port 3000 and only one process on the machine (containers included) can listen to a specific port. To fix this, remove the old container.
 
 ## Replace the old container
 
-To remove a container, it first needs to be stopped. Once it has stopped, it can be removed. We have two ways that we can remove the old container. Feel free to choose the path that you're most comfortable with.
+To remove a container, it first needs to be stopped. Once it has stopped, it can be removed. You have two ways that you can remove the old container. Feel free to choose the path that you're most comfortable with.
 
 ### Remove a container using the CLI
 
@@ -82,7 +82,7 @@ If you open the VSCode Extension, you can remove a container with two clicks! It
 
 1. With the extension opened, navigate to the container and right-click.
 
-1. Click on the **Remove container** option.
+1. Click on the **Remove** option.
 
 1. Confirm the removal and you're done!
 
@@ -98,16 +98,15 @@ If you open the VSCode Extension, you can remove a container with two clicks! It
 
 1. Refresh your browser on [http://localhost:3000](http://localhost:3000) and you should see your updated help text!
 
-![Updated application with updated empty text](media/todo-list-updated-empty-text.png){: style="width:55%" }
-{: .text-center }
+![Updated application with updated empty text](media/todo-list-updated-empty-text.png)
 
 ## Recap
 
 While you were able to build an update, there were two things you might have noticed:
 
-- All of the existing items in our todo list are gone! That's not a very good app! We'll talk about that
+- All of the existing items in your todo list are gone! That's not a very good app! We'll talk about that
 shortly.
-- There were *a lot* of steps involved for such a small change. In an upcoming section, you'll learn about how to see code updates without needing to rebuild and start a new container every time we make a change.
+- There were *a lot* of steps involved for such a small change. In an upcoming section, you'll learn about how to see code updates without needing to rebuild and start a new container every time you make a change.
 
 Before learning about persistence, you'll quickly see how to share these images with others.
 
@@ -116,4 +115,4 @@ Before learning about persistence, you'll quickly see how to share these images 
 Continue with the tutorial!
 
 > [!div class="nextstepaction"]
-> [Sharing our app](sharing-our-app.md)
+> [Sharing your app](sharing-our-app.md)

@@ -20,7 +20,7 @@ At this point, your development team is quite small and you're simply building a
 
 ## Get the app
 
-Before we can run the application, we need to get the application source code onto our machine. For real projects, you will typically clone the repo. But, for this tutorial, we have created a ZIP file containing the application.
+Before you can run the application, you need to get the application source code onto your machine. For real projects, you will typically clone the repo. But, for this tutorial, you have created a ZIP file containing the application.
 
 1. [Download the ZIP](/assets/app.zip). Open the ZIP file and make sure you extract the contents.
 
@@ -50,17 +50,17 @@ In order to build the application, you need to use a `Dockerfile`. A Dockerfile 
     docker build -t getting-started .
     ```
 
-    This command used the Dockerfile to build a new container image. You might have noticed that a lot of "layers" were downloaded. This is because we instructed the builder that we wanted to start from the `node:12-alpine` image. But, since we didn't have that on our machine, that image needed to be downloaded.
+    This command used the Dockerfile to build a new container image. You might have noticed that a lot of "layers" were downloaded. This is because you instructed the builder that you wanted to start from the `node:12-alpine` image. But, since you didn't have that on your machine, that image needed to be downloaded.
 
-    After the image was downloaded, we copied in our application and used `yarn` to install our application's dependencies. The `CMD` directive specifies the default command to run when starting a container from this image.
+    After the image was downloaded, you copied in your application and used `yarn` to install your application's dependencies. The `CMD` directive specifies the default command to run when starting a container from this image.
 
-    Finally, the `-t` flag tags our image. Think of this simply as a human-readable name for the final image. Since we named the image `getting-started`, we can refer to that image when we run a container.
+    Finally, the `-t` flag tags your image. Think of this simply as a human-readable name for the final image. Since you named the image `getting-started`, you can refer to that image when you run a container.
 
     The `.` at the end of the `docker build` command tells that Docker should look for the `Dockerfile` in the current directory.
 
 ## Starting an app container
 
-Now that we have an image, run the application! To do so, use the `docker run` command (remember that from earlier?).
+Now that you have an image, run the application! To do so, use the `docker run` command (remember that from earlier?).
 
 1. Start your container using the `docker run` command and specify the name of the image you just created:
 
@@ -68,17 +68,16 @@ Now that we have an image, run the application! To do so, use the `docker run` c
     docker run -dp 3000:3000 getting-started
     ```
 
-    Remember the `-d` and `-p` flags? You're running the new container in "detached" mode (in the background) and creating a mapping between the host's port 3000 to the container's port 3000. Without the port mapping, we wouldn't be able to access the application.
+    Remember the `-d` and `-p` flags? You're running the new container in "detached" mode (in the background) and creating a mapping between the host's port 3000 to the container's port 3000. Without the port mapping, you wouldn't be able to access the application.
 
 1. After a few seconds, open your web browser to [http://localhost:3000](http://localhost:3000).
     You should see the app!
 
-    ![Empty Todo List](media/todo-list-empty.png){: style="width:450px;margin-top:20px;"}
-    {: .text-center }
+    ![Empty Todo List](media/todo-list-empty.png)
 
 1. Go ahead and add an item or two and see that it works as you expect. You can mark items as complete and remove items. Your frontend is successfully storing items in the backend! Pretty quick and easy, huh?
 
-At this point, you should have a running todo list manager with a few items, all built by you! Now, let's make a few changes and learn about managing our containers.
+At this point, you should have a running todo list manager with a few items, all built by you! Now, let's make a few changes and learn about managing your containers.
 
 If you take a quick look at the VSCode extension, you should see your two containers running now (this tutorial and your freshly launched app container)!
 
@@ -95,4 +94,4 @@ Next, you're going to make a modification to the app and learn how to update the
 Continue with the tutorial!
 
 > [!div class="nextstepaction"]
-> [Updating our app](updating-our-app.md)
+> [Updating your app](updating-our-app.md)

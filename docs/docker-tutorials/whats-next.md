@@ -12,7 +12,7 @@ ms.workload:
 ---
 # What's next
 
-Although you're done with our tutorial, there's still a LOT more to learn about containers!
+Although you're done with your tutorial, there's still a LOT more to learn about containers!
 You're not going to go deep-dive here, but here are a few other areas to look at next!
 
 ## Container orchestration

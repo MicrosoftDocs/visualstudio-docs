@@ -19,7 +19,7 @@ Up to this point, you've been working with single-container apps. But, you'll no
 - While you may use a container for the database locally, you may want to use a managed service for the database in production. You don't want to ship your database engine with your app then.
 - Running multiple processes will require a process manager (the container only starts one process), which adds complexity to container startup/shutdown.
 
-And there are more reasons. So, we will update our application to work like this:
+And there are more reasons. So, you will update your application to work like this:
 
 ![Todo App connected to MySQL container](media/multi-app-architecture.png)
 
@@ -32,7 +32,7 @@ Remember that containers, by default, run in isolation and don't know anything a
 
 ## Start MySQL
 
-There are two ways to put a container on a network: assign it at start or connect an existing container. For now, we will create the network first and attach the MySQL container at startup.
+There are two ways to put a container on a network: assign it at start or connect an existing container. For now, you will create the network first and attach the MySQL container at startup.
 
 1. Create the network.
 
@@ -51,7 +51,7 @@ There are two ways to put a container on a network: assign it at start or connec
         mysql:5.7
     ```
 
-    You'll also see we specified the `--network-alias` flag. We'll come back to that in just a moment.
+    You'll also see you specified the `--network-alias` flag. We'll come back to that in just a moment.
 
     > [!TIP]
     > You'll notice you're using a volume name `todo-mysql-data` here and mounting it at `/var/lib/mysql`, which is where MySQL stores its data. However, you never ran a `docker volume create` command. Docker recognizes that you want to use a named volume and creates one automatically for you.
@@ -84,11 +84,11 @@ There are two ways to put a container on a network: assign it at start or connec
     5 rows in set (0.00 sec)
     ```
 
-    Hooray! You have our `todos` database and it's ready for use!
+    Hooray! You have your `todos` database and it's ready for use!
 
 ## Connect to MySQL
 
-Now that we know MySQL is up and running, let's use it! But, the question is... how? If you run another container on the same network, how do you find the container (remember each container has its own IP address)?
+Now that you know MySQL is up and running, let's use it! But, the question is... how? If you run another container on the same network, how do you find the container (remember each container has its own IP address)?
 
 To figure it out, you're going to make use of the [nicolaka/netshoot](https://github.com/nicolaka/netshoot) container, which ships with a *lot* of tools that are useful for troubleshooting or debugging networking issues.
 
@@ -129,7 +129,7 @@ To figure it out, you're going to make use of the [nicolaka/netshoot](https://gi
 
     What this means is... your app only simply needs to connect to a host named `mysql` and it'll talk to the database! It doesn't get much simpler than that!
 
-## Run our app with MySQL
+## Run your app with MySQL
 
 The todo app supports the setting of a few environment variables to specify MySQL connection settings. They are:
 
@@ -194,7 +194,7 @@ With all of that explained, start your dev-ready container!
 
     Obviously, your table will look different because it has your items. But, you should see them stored there!
 
-If you take a quick look at the Docker extension, you'll see that we have two app containers running. But, there's no real indication that they are grouped together in a single app. We'll see how to make that better shortly!
+If you take a quick look at the Docker extension, you'll see that you have two app containers running. But, there's no real indication that they're grouped together in a single app. You'll see how to make that better shortly!
 
 ![Docker Extension showing two ungrouped app containers](media/vs-multi-container-app.png)
 
@@ -202,9 +202,9 @@ If you take a quick look at the Docker extension, you'll see that we have two ap
 
 At this point, you have an application that now stores its data in an external database running in a separate container. You learned a little bit about container networking and saw how service discovery can be performed using DNS.
 
-But, there's a good chance you are starting to feel a little overwhelmed with everything you need to do to start up this application. We have to create a network, start containers, specify all of the environment variables, expose ports, and more! That's a lot to remember and it's certainly making things harder to pass along to someone else.
+But, there's a good chance you are starting to feel a little overwhelmed with everything you need to do to start up this application. You have to create a network, start containers, specify all of the environment variables, expose ports, and more! That's a lot to remember and it's certainly making things harder to pass along to someone else.
 
-In the next section, we'll talk about Docker Compose. With Docker Compose, we can share our application stacks in a much easier way and let others spin them up with a single (and simple) command!
+In the next section, we'll talk about Docker Compose. With Docker Compose, you can share your application stacks in a much easier way and let others spin them up with a single (and simple) command!
 
 ## Next steps
 

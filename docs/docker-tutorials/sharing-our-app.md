@@ -1,5 +1,5 @@
 ---
-title: Docker tutorial - Sharing our app
+title: Docker tutorial - Sharing your app
 description: Describes how to share Docker images using Docker registry.
 ms.date: "08/04/2020"
 author: nebuk89
@@ -10,7 +10,7 @@ ms.topic: conceptual
 ms.workload:
   - "azure"
 ---
-# Share our app
+# Share your app
 
 Now that we've built an image, let's share it! To share Docker images, you have to use a Docker registry. The default registry is Docker Hub and is where all of the images we've used have come from.
 
@@ -42,25 +42,25 @@ If you look on the right-side of the page, you'll see a section named **Docker c
 
     Why did it fail? The push command was looking for an image named docker/getting-started, but didn't find one. If you run `docker image ls`, you won't see one either.
 
-    To fix this, we need to "tag" our existing image we've built to give it another name.
+    To fix this, you need to "tag" your existing image we've built to give it another name.
 
-1. Sign in to the Docker Hub using the command `docker login -u YOUR-USER-NAME`.
+1. Sign in to the Docker Hub using the command `docker login -u <username>`.
 
-1. Use the `docker tag` command to give the `getting-started` image a new name. Be sure to swap out `YOUR-USER-NAME` with your Docker ID.
+1. Use the `docker tag` command to give the `getting-started` image a new name. Be sure to swap out `<username>` with your Docker ID.
 
     ```bash
-    docker tag getting-started YOUR-USER-NAME/getting-started
+    docker tag getting-started <username>/getting-started
     ```
 
-1. Now try your push command again. If you're copying the value from Docker Hub, you can drop the `tagname` portion, as we didn't add a tag to the image name. If you don't specify a tag, Docker will use a tag called `latest`.
+1. Now try your push command again. If you're copying the value from Docker Hub, you can drop the `tagname` portion, as you didn't add a tag to the image name. If you don't specify a tag, Docker will use a tag called `latest`.
 
     ```bash
-    docker push YOUR-USER-NAME/getting-started
+    docker push <username>/getting-started
     ```
 
 ## Run the image on a new instance
 
-Now that your image has been built and pushed into a registry, try running the app on a brand new instance that has never seen this container image! To do this, we will use Play with Docker.
+Now that your image has been built and pushed into a registry, try running the app on a brand new instance that has never seen this container image! To do this, you will use Play with Docker.
 
 1. Open your browser to [Play with Docker](http://play-with-docker.com).
 
@@ -73,7 +73,7 @@ Now that your image has been built and pushed into a registry, try running the a
 1. In the terminal, start your freshly pushed app.
 
     ```bash
-    docker run -dp 3000:3000 YOUR-USER-NAME/getting-started
+    docker run -dp 3000:3000 <username>/getting-started
     ```
 
     You should see the image get pulled down and eventually start up!
@@ -85,11 +85,11 @@ Now that your image has been built and pushed into a registry, try running the a
 In this section, you learned how to share images by pushing them to a registry. You then went to a brand new instance and were able to run the freshly pushed image. This is quite common in CI pipelines, where the pipeline will create the image and push it to a registry and then the production environment
 can use the latest version of the image.
 
-Now that you've that figured out, recall that at the end of the last section, when you restarted the app, you lost all of our todo list items. That's obviously not a great user experience, so you'll learn next how you can persist the data across restarts!
+Now that you've that figured out, recall that at the end of the last section, when you restarted the app, you lost all of your todo list items. That's obviously not a great user experience, so you'll learn next how you can persist the data across restarts!
 
 ## Next steps
 
 Continue with the tutorial!
 
 > [!div class="nextstepaction"]
-> [Persisting our database](persisting-our-data.md)
+> [Persisting your database](persisting-our-data.md)

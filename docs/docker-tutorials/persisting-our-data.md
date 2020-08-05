@@ -1,5 +1,5 @@
 ---
-title: Docker tutorial - Persisting our data
+title: Docker tutorial - Persisting your data
 description: Overview of the TODO list sample app that runs in Node.js
 ms.date: "08/04/2020"
 author: nebuk89
@@ -10,13 +10,13 @@ ms.topic: conceptual
 ms.workload:
   - "azure"
 ---
-# Persisting our data
+# Persisting your data
 
 In case you didn't notice, the todo list is being wiped clean every single time you launch the container. Why is this? Let's dive into how the container is working.
 
 ## The container's filesystem
 
-When a container runs, it uses the various layers from an image for its filesystem. Each container also gets its own "scratch space" to create/update/remove files. Any changes won't be seen in another container, *even if* they are using the same image.
+When a container runs, it uses the various layers from an image for its filesystem. Each container also gets its own "scratch space" to create, update, or remove files. Any changes won't be seen in another container, *even if* they are using the same image.
 
 ### See this in practice
 
@@ -28,19 +28,19 @@ To see this in action, you're going to start two containers and create a file in
     docker run -d ubuntu bash -c "shuf -i 1-10000 -n 1 -o /data.txt && tail -f /dev/null"
     ```
 
-    In case you're curious about the command, we're starting a bash shell and invoking two commands (why we have the `&&`). The first portion picks a single random number and writes it to `/data.txt`. The second command is simply watching a file to keep the container running.
+    In case you're curious about the command, you're starting a bash shell and invoking two commands (why it has the `&&`). The first portion picks a single random number and writes it to `/data.txt`. The second command is simply watching a file to keep the container running.
 
-1. Validate we can see the output by `exec`'ing into the container. To do so, open the VSCode extension and on click on the 'attach shell' option. This will exec into the container within the VSCode terminal.
+1. Validate you can see the output by using `exec` to get into the container. To do so, open the VSCode extension and on click on the **Attach Shell** option. This will use `exec` to open a shell in the container within the VSCode terminal.
 
     ![VSCode open CLI into ubuntu container](media/attach_shell.png)
 
-    You will see a terminal that is running a shell in the ubuntu container. Run the following command to see the content of the `/data.txt` file. Close this terminal afterwards again.
+    You will see a terminal that is running a shell in the Ubuntu container. Run the following command to see the content of the `/data.txt` file. Close this terminal afterwards again.
 
     ```bash
     cat /data.txt
     ```
 
-    If you prefer the command line you can use the `docker exec` command to do the same. You need to get the container's ID (use `docker ps` to get it) and get the content with the following command.
+    If you prefer the command line, you can use the `docker exec` command to do the same. You need to get the container's ID (use `docker ps` to get it) and get the content with the following command.
 
     ```bash
     docker exec <container-id> cat /data.txt
@@ -62,11 +62,11 @@ To see this in action, you're going to start two containers and create a file in
 
 With the previous experiment, you saw that each container starts from the image definition each time it starts. While containers can create, update, and delete files, those changes are lost when the container is removed and all changes are isolated to that container. With volumes, you can change all of this.
 
-[Volumes](https://docs.docker.com/storage/volumes/) provide the ability to connect specific filesystem paths of the container back to the host machine. If a directory in the container is mounted, changes in that directory are also seen on the host machine. If we mount that same directory across container restarts, you'd see the same files.
+[Volumes](https://docs.docker.com/storage/volumes/) provide the ability to connect specific filesystem paths of the container back to the host machine. If a directory in the container is mounted, changes in that directory are also seen on the host machine. If you mount that same directory across container restarts, you'd see the same files.
 
-There are two main types of volumes. We will eventually use both, but we will start with **named volumes**.
+There are two main types of volumes. you will eventually use both, but you will start with **named volumes**.
 
-## Persist our Todo data
+## Persist your Todo data
 
 By default, the todo app stores its data in a [SQLite Database](https://www.sqlite.org/index.html) at `/etc/todos/todo.db`. If you're not familiar with SQLite, no worries! It's simply a relational database in which all of the data is stored in a single file. While this isn't the best for large-scale applications,
 it works for small demos. We'll talk about switching this to an actual database engine later.
@@ -83,7 +83,7 @@ As mentioned, you're going to use a **named volume**. Think of a named volume as
 
 1. Stop the todo app container once again in the Dashboard (or with `docker rm -f <id>`), as it is still running without using the persistent volume.
 
-1. Start the todo app container, but add the `-v` flag to specify a volume mount. We will use the named volume and mount it to `/etc/todos`, which will capture all files created at the path.
+1. Start the todo app container, but add the `-v` flag to specify a volume mount. you will use the named volume and mount it to `/etc/todos`, which will capture all files created at the path.
 
     ```bash
     docker run -dp 3000:3000 -v todo-db:/etc/todos getting-started
@@ -106,7 +106,7 @@ Hooray! You've now learned how to persist data!
 > [!TIP]
 > While named volumes and bind mounts (which we'll talk about in a minute) are the two main types of volumes supported by a default Docker engine installation, there are many volume driver plugins available to support NFS, SFTP, NetApp, and more! This will be especially important once you start running containers on multiple hosts in a clustered environment with Swarm, Kubernetes, and so on.
 
-## Dive into our volume
+## Dive into your volume
 
 A lot of people frequently ask "Where is Docker *actually* storing my data when I use a named volume?" If you want to know, you can use the `docker volume inspect` command.
 

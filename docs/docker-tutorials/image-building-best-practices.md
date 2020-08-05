@@ -53,7 +53,7 @@ Now that you've seen the layering in action, there's an important lesson to lear
 
 > Once a layer changes, all downstream layers have to be recreated as well
 
-Let's look at the Dockerfile we were using one more time...
+Let's look at the Dockerfile you were using one more time...
 
 ```dockerfile
 FROM node:12-alpine
@@ -63,9 +63,9 @@ RUN yarn install --production
 CMD ["node", "/app/src/index.js"]
 ```
 
-Going back to the image history output, we see that each command in the Dockerfile becomes a new layer in the image. You might remember that when you made a change to the image, the yarn dependencies had to be reinstalled. Is there a way to fix this? It doesn't make much sense to ship around the same dependencies every time we build, right?
+Going back to the image history output, you see that each command in the Dockerfile becomes a new layer in the image. You might remember that when you made a change to the image, the yarn dependencies had to be reinstalled. Is there a way to fix this? It doesn't make much sense to ship around the same dependencies every time you build, right?
 
-To fix this, you can restructure our Dockerfile to help support the caching of the dependencies. For Node-based applications, those dependencies are defined in the `package.json` file. So, what if you copied only that file in first, install the dependencies, and *then* copy in everything else? Then, you only recreate the yarn dependencies if there was a change to the `package.json`. Make sense?
+To fix this, you can restructure your Dockerfile to help support the caching of the dependencies. For Node-based applications, those dependencies are defined in the `package.json` file. So, what if you copied only that file in first, install the dependencies, and *then* copy in everything else? Then, you only recreate the yarn dependencies if there was a change to the `package.json`. Make sense?
 
 1. Update the Dockerfile to copy in the `package.json` first, install dependencies, and then copy everything else in.
 
@@ -162,7 +162,7 @@ tool to help use multiple stages to create an image. There are several advantage
 
 When building Java-based applications, a JDK is needed to compile the source code to Java bytecode. However,
 that JDK isn't needed in production. Also, you might be using tools like Maven or Gradle to help build the app.
-Those also aren't needed in our final image. Multi-stage builds help.
+Those also aren't needed in your final image. Multi-stage builds help.
 
 ```dockerfile
 FROM maven AS build

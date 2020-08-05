@@ -55,7 +55,7 @@ Now that you've run a container, what *is* a container? Simply put, a container 
 > [!NOTE]
 > **Creating Containers from Scratch**
 > If you'd like to see how containers are built from scratch, Liz Rice from Aqua Security has a video in which she creates a container from scratch in Go:
-
+>
 > [!VIDEO https://www.youtube-nocookie.com/embed/8fi7uSYlOdc]
 
 ## What is a container image

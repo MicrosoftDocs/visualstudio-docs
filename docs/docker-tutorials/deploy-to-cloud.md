@@ -12,9 +12,9 @@ ms.workload:
 ---
 # Deploy to the cloud
 
-Now that you have run your app locally, you can start to think about running it in the cloud so other people can access it and make use of it. To do this, you'll use Docker contexts. A context is the place where you're currently working with containers. Right now, you only have your "default" context, so you'll need to add a cloud one and deploy our app to it.
+Now that you have run your app locally, you can start to think about running it in the cloud so other people can access it and make use of it. To do this, you'll use Docker contexts. A context is the place where you're currently working with containers. Right now, you only have your "default" context, so you'll need to add a cloud one and deploy your app to it.
 
-## Create our cloud context
+## Create your cloud context
 
 1. To start, you can see what contexts you have by looking at the contexts section of the Docker panel:
 
@@ -28,13 +28,13 @@ You should only see your default context for local work.
 
 You'll need to set up an Azure account if you don’t already have one.
 
-1. Now we can create our new ACI context.
+1. Now you can create your new ACI context.
 
-   ![Creating our ACI context](media/createnewcontext.png)
+   ![Creating your ACI context](media/createnewcontext.png)
 
 This will ask you what resource group you want to run these containers under. Either select an existing group using the arrow keys, or use the default option to use the new group.
 
-![Selecting our resource group](media/selectresourcegroup.png)
+![Selecting your resource group](media/selectresourcegroup.png)
 
 You can now see your ACI context listed and can right-click it to make it your current focus/in use context:
 
@@ -49,9 +49,9 @@ You can now see your ACI context listed and can right-click it to make it your c
    docker run  -dp 3000:3000 <username>/getting-started
    ```
 
-1. Having run this, now look at the container in our context.
+1. Having run this, now look at the container in your context.
 
-   ![Container running in our ACI context](media/contextcontainer.png)
+   ![Container running in your ACI context](media/contextcontainer.png)
 
 1. To check this is all working properly, you can right-click on the running container and choose **View in browser**.
 

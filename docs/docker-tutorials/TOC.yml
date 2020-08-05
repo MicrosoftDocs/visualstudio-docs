@@ -5,11 +5,11 @@
     href: docker-tutorial.md
   - name: Our application
     href: our-application.md
-  - name: Updating our app
+  - name: Updating your app
     href: updating-our-app.md
-  - name: Sharing our app
+  - name: Sharing your app
     href: sharing-our-app.md
-  - name: Persisting our database
+  - name: Persisting your database
     href: persisting-our-data.md
   - name: Using bind mounts
     href: using-bind-mounts.md
