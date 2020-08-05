@@ -979,3 +979,9 @@
           href: ca2248.md
       - name: Automatic feature suspension
         href: automatic-feature-suspension.md
+      - name: Publish warnings
+        items:
+        - name: Overview
+          displayName: "publish warnings"
+        - name: "IL3000: Avoid using accessing Assembly file path when publishing as a single-file"
+          href: il3000.md
