@@ -15,7 +15,7 @@ ms.workload:
 Although we're done with our workshop, there's still a LOT more to learn about containers!
 We're not going to go deep-dive here, but here are a few other areas to look at next!
 
-## Container Orchestration
+## Container orchestration
 
 Running containers in production is tough. You don't want to log into a machine and simply run a
 `docker run` or `docker-compose up`. Why not? Well, what happens if the containers die? How do you
@@ -27,7 +27,7 @@ The general idea is that you have "managers" who receive **expected state**. Thi
 machines in the cluster and delegate work to "worker" nodes. The managers watch for changes (such as
 a container quitting) and then work to make **actual state** reflect the expected state.
 
-## Cloud Native Computing Foundation Projects
+## Cloud Native Computing Foundation projects
 
 The CNCF is a vendor-neutral home for various open-source projects, including Kubernetes, Prometheus, 
 Envoy, Linkerd, NATS, and more! You can view the [graduated and incubated projects here](https://www.cncf.io/projects/)

@@ -12,28 +12,25 @@ ms.workload:
 ---
 # Get started with the todo sample app
 
-For the rest of this tutorial, we will be working with a simple todo list manager that is running in Node.js. If you're not familiar with Node.js, don't worry! No real JavaScript experience is needed!
+For the rest of this tutorial, you'll be working with a simple todo list manager that is running in Node.js. If you're not familiar with Node.js, don't worry! No real JavaScript experience is needed!
 
 At this point, your development team is quite small and you're simply building an app to prove out your MVP (minimum viable product). You want to show how it works and what it's capable of doing without needing to think about how it will work for a large team, multiple developers, and so on.
 
 ![Todo List Manager Screenshot](media/todo-list-sample.png)
 
-## Getting our App
+## Get the app
 
-Before we can run the application, we need to get the application source code onto 
-our machine. For real projects, you will typically clone the repo. But, for this tutorial,
-we have created a ZIP file containing the application.
+Before we can run the application, we need to get the application source code onto our machine. For real projects, you will typically clone the repo. But, for this tutorial, we have created a ZIP file containing the application.
 
-1. [Download the ZIP](/assets/app.zip). Open the ZIP file and make sure you extract the
-    contents.
+1. [Download the ZIP](/assets/app.zip). Open the ZIP file and make sure you extract the contents.
 
 1. Once extracted, use your favorite code editor to open the project. If you're in need of an editor, you can use [Visual Studio Code](https://code.visualstudio.com/). You should see the `package.json` and two subdirectories (`src` and `spec`).
 
     ![Screenshot of Visual Studio Code opened with the app loaded](media/ide-screenshot.png)
 
-## Building the App's Container Image
+## Building the app's container image
 
-In order to build the application, we need to use a `Dockerfile`. A Dockerfile is simply a text-based script of instructions that is used to create a container image. If you've created Dockerfiles before, you might see a few flaws in the Dockerfile below. But, don't worry! We'll go over them.
+In order to build the application, you need to use a `Dockerfile`. A Dockerfile is simply a text-based script of instructions that is used to create a container image. If you've created Dockerfiles before, you might see a few flaws in the Dockerfile below. But, don't worry! We'll go over them.
 
 1. Create a file named `Dockerfile` in the same folder as the file `package.json` with the following contents.
 
@@ -57,27 +54,24 @@ In order to build the application, we need to use a `Dockerfile`. A Dockerfile i
 
     After the image was downloaded, we copied in our application and used `yarn` to install our application's dependencies. The `CMD` directive specifies the default command to run when starting a container from this image.
 
-    Finally, the `-t` flag tags our image. Think of this simply as a human-readable name for the final image. Since we named the image `getting-started`, we can refer to that
-    image when we run a container.
+    Finally, the `-t` flag tags our image. Think of this simply as a human-readable name for the final image. Since we named the image `getting-started`, we can refer to that image when we run a container.
 
     The `.` at the end of the `docker build` command tells that Docker should look for the `Dockerfile` in the current directory.
 
-## Starting an App Container
+## Starting an app container
 
-Now that we have an image, let's run the application! To do so, we will use the `docker run` command (remember that from earlier?).
+Now that we have an image, run the application! To do so, use the `docker run` command (remember that from earlier?).
 
-1. Start your container using the `docker run` command and specify the name of the image we just created:
+1. Start your container using the `docker run` command and specify the name of the image you just created:
 
     ```bash
     docker run -dp 3000:3000 getting-started
     ```
 
-    Remember the `-d` and `-p` flags? We're running the new container in "detached" mode (in the 
-    background) and creating a mapping between the host's port 3000 to the container's port 3000.
-    Without the port mapping, we wouldn't be able to access the application.
+    Remember the `-d` and `-p` flags? You're running the new container in "detached" mode (in the background) and creating a mapping between the host's port 3000 to the container's port 3000. Without the port mapping, we wouldn't be able to access the application.
 
 1. After a few seconds, open your web browser to [http://localhost:3000](http://localhost:3000).
-    You should see our app!
+    You should see the app!
 
     ![Empty Todo List](media/todo-list-empty.png){: style="width:450px;margin-top:20px;"}
     {: .text-center }
@@ -92,11 +86,9 @@ If you take a quick look at the VSCode extension, you should see your two contai
 
 ## Recap
 
-In this short section, we learned the very basics about building a container image and created a
-Dockerfile to do so. Once we built an image, we started the container and saw the running app!
+In this short section, you learned the very basics about building a container image and created a Dockerfile to do so. Once you built an image, you started the container and saw the running app!
 
-Next, we're going to make a modification to our app and learn how to update our running application
-with a new image. Along the way, we'll learn a few other useful commands.
+Next, you're going to make a modification to the app and learn how to update the running application with a new image. Along the way, you'll learn a few other useful commands.
 
 ## Next steps
 

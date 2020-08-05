@@ -16,7 +16,7 @@ next_page: app.md
 
 In this tutorial, you'll learn about creating and deploying Docker apps, including using multiple containers with a database, and using Docker Compose. You'll also deploy your containerized app to Azure.
 
-## Starting the tutorial
+## Start the tutorial
 
 If you've already run the command to get started with the tutorial, congratulations!  If not, open a command prompt or bash window, and run the command:
 
@@ -41,14 +41,14 @@ You'll notice a few flags being used. Here's some more info on them:
 ## The VSCode Extension
 
 Before going too far, we want to highlight the Docker VSCode Extension, which gives you a quick view of the containers running on your machine. It gives you quick
-access to container logs, lets you get a shell inside the container, and lets you easily manage container lifecycle (stop, remove, etc.). 
+access to container logs, lets you get a shell inside the container, and lets you easily manage container lifecycle (stop, remove, and so on).
 
 To access the extension, follow the instructions [here](https://code.visualstudio.com/docs/containers/overview). If you open the extension
 now, you will see this tutorial running! The container name (`angry_taussig` below) is a randomly created name. So, you'll most likely have a different name.
 
 ![Tutorial container running in Docker Extension](media/vs-tutorial-in-extension.png)
 
-## What is a container?
+## What is a container
 
 Now that you've run a container, what *is* a container? Simply put, a container is simply another process on your machine that has been isolated from all other processes on the host machine. That isolation leverages [kernel namespaces and cgroups](https://medium.com/@saschagrunert/demystifying-containers-part-i-kernel-space-2c53d6979504), features that have been in Linux for a long time. Docker has worked to make these capabilities approachable and easy to use.
 
@@ -60,7 +60,7 @@ Now that you've run a container, what *is* a container? Simply put, a container 
 
 ## What is a container image
 
-When running a container, it uses an isolated filesystem. This custom filesystem is provided by a **container image**. Since the image contains the container's filesystem, it must contain everything needed to run an application - all dependencies, configuration, scripts, binaries, etc. The image also contains other configuration for the container, such as environment variables, a default command to run, and other metadata.
+When running a container, it uses an isolated filesystem. This custom filesystem is provided by a **container image**. Since the image contains the container's filesystem, it must contain everything needed to run an application - all dependencies, configuration, scripts, binaries, and so on. The image also contains other configuration for the container, such as environment variables, a default command to run, and other metadata.
 
 We'll dive deeper into images later on, covering topics such as layering, best practices, and more.
 

@@ -10,7 +10,7 @@ ms.topic: conceptual
 ms.workload:
   - "azure"
 ---
-# Using Docker Compose
+# Use Docker Compose
 
 [Docker Compose](https://docs.docker.com/compose/) is a tool that was developed to help define and share multi-container applications. With Compose, we can create a YAML file to define the services and with a single command, can spin everything up or tear it all down.
 
@@ -18,7 +18,7 @@ The *big* advantage of using Compose is you can define your application stack in
 
 So, how do we get started?
 
-## Installing Docker Compose
+## Install Docker Compose
 
 If you installed Docker Desktop/Toolbox for either Windows or Mac, you already have Docker Compose! Play-with-Docker instances already have Docker Compose installed as well. If you are on a Linux machine, you will need to install Docker Compose using [the instructions here](https://docs.docker.com/compose/install/).
 
@@ -28,7 +28,7 @@ After installation, you should be able to run the following and see version info
 docker-compose version
 ```
 
-## Creating our Compose file
+## Create the compose file
 
 1. At the root of the app project, create a file named `docker-compose.yml`.
 
@@ -48,7 +48,7 @@ docker-compose version
 
 And now, we'll start migrating a service at a time into the compose file.
 
-## Defining the App Service
+## Define the App Service
 
 To remember, this was the command we were using to define our app container (replace the ` \ ` characters with `` ` `` in Windows PowerShell).
 
@@ -137,7 +137,7 @@ docker run -dp 3000:3000 \
           MYSQL_DB: todos
     ```
 
-### Defining the MySQL Service
+### Define the MySQL service
 
 Now, it's time to define the MySQL service. The command that we used for that container was the following (replace the ` \ ` characters with `` ` `` in Windows PowerShell):
 
@@ -231,7 +231,7 @@ volumes:
   todo-mysql-data:
 ```
 
-## Running our Application Stack
+## Run the application stack
 
 Now that we have our `docker-compose.yml` file, we can start it up!
 
@@ -275,7 +275,7 @@ Now that we have our `docker-compose.yml` file, we can start it up!
 
 1. At this point, you should be able to open your app and see it running. And hey! We're down to a single command!
 
-## Seeing our App Stack in the Docker extension
+## See the app stack in the Docker extension
 
 If we look at the Docker extension, we can changing our grouping options using the 'cog' and 'group by'. In this instance we want to see containers sharing a network.
 
@@ -285,7 +285,7 @@ If you twirl down the network, you will see the two containers we defined in the
 
 ![VS Extension with app network expanded](vs-app-project-expanded.png)
 
-## Tearing it all down
+## Tear it all down
 
 When you're ready to tear it all down, simply run `docker-compose down` or hit the trash can on the Docker Dashboard  for the entire app. The containers will stop and the network will be removed.
 

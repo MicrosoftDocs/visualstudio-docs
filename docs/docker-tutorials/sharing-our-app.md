@@ -10,13 +10,13 @@ ms.topic: conceptual
 ms.workload:
   - "azure"
 ---
-# Sharing our app
+# Share our app
 
 Now that we've built an image, let's share it! To share Docker images, you have to use a Docker registry. The default registry is Docker Hub and is where all of the images we've used have come from.
 
-## Create a Repo
+## Create a repo
 
-To push an image, we first need to create a repo on Docker Hub.
+To push an image, first, you need to create a repo on Docker Hub.
 
 1. Go to [Docker Hub](https://hub.docker.com) and log in if you need to.
 
@@ -30,7 +30,7 @@ If you look on the right-side of the page, you'll see a section named **Docker c
 
 ![Docker command with push example](media/push-command.png)
 
-## Pushing our Image
+## Push the image
 
 1. In the command line, try running the push command you see on Docker Hub. Note that your command will be using your namespace, not "docker".
 
@@ -46,8 +46,7 @@ If you look on the right-side of the page, you'll see a section named **Docker c
 
 1. Sign in to the Docker Hub using the command `docker login -u YOUR-USER-NAME`.
 
-1. Use the `docker tag` command to give the `getting-started` image a new name. Be sure to swap out
-   `YOUR-USER-NAME` with your Docker ID.
+1. Use the `docker tag` command to give the `getting-started` image a new name. Be sure to swap out `YOUR-USER-NAME` with your Docker ID.
 
     ```bash
     docker tag getting-started YOUR-USER-NAME/getting-started
@@ -59,9 +58,9 @@ If you look on the right-side of the page, you'll see a section named **Docker c
     docker push YOUR-USER-NAME/getting-started
     ```
 
-## Running our Image on a New Instance
+## Run the image on a new instance
 
-Now that our image has been built and pushed into a registry, let's try running our app on a brand new instance that has never seen this container image! To do this, we will use Play with Docker.
+Now that your image has been built and pushed into a registry, try running the app on a brand new instance that has never seen this container image! To do this, we will use Play with Docker.
 
 1. Open your browser to [Play with Docker](http://play-with-docker.com).
 
@@ -79,14 +78,14 @@ Now that our image has been built and pushed into a registry, let's try running 
 
     You should see the image get pulled down and eventually start up!
 
-1. Click on the 3000 badge when it comes up and you should see the app with your modifications! Hooray! If the 3000 badge doesn't show up, you can click on the "Open Port" button and type in 3000.
+1. Click on the 3000 badge when it comes up and you should see the app with your modifications! Hooray! If the 3000 badge doesn't show up, you can click on the **Open Port** button and type in 3000.
 
 ## Recap
 
-In this section, we learned how to share our images by pushing them to a registry. We then went to a brand new instance and were able to run the freshly pushed image. This is quite common in CI pipelines, where the pipeline will create the image and push it to a registry and then the production environment
+In this section, you learned how to share images by pushing them to a registry. You then went to a brand new instance and were able to run the freshly pushed image. This is quite common in CI pipelines, where the pipeline will create the image and push it to a registry and then the production environment
 can use the latest version of the image.
 
-Now that we have that figured out, let's circle back around to what we noticed at the end of the last section. As a reminder, we noticed that when we restarted the app, we lost all of our todo list items. That's obviously not a great user experience, so let's learn how we can persist the data across restarts!
+Now that you've that figured out, recall that at the end of the last section, when you restarted the app, you lost all of our todo list items. That's obviously not a great user experience, so you'll learn next how you can persist the data across restarts!
 
 ## Next steps
 
