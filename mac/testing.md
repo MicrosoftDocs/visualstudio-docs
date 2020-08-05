@@ -30,9 +30,3 @@ When editing a C# class that contains unit tests, you can run tests by right cli
 As tests are running, a **Test Results** window appears so you can review successful or failed tests, and the output from running those tests.
 
 ![Test results window showing one failed test and a count of 21 passed tests and 1 failed test.](media/test-results-window.PNG)
-
-## Related scenarios
-
-* [Exploratory & manual testing (Azure Test Plans)](/azure/devops/test/index?view=vsts)
-* [Load testing (Azure Test Plans)](/azure/devops/test/load-test/index?view=vsts)
-* [Continuous testing (Azure Test Plans)](/azure/devops/pipelines/test/getting-started-with-continuous-testing?view=vsts)
