@@ -1,0 +1,42 @@
+- name: Visual Studio Game Development
+  href: index.yml
+- name: C# Game Development
+  items: 
+    - name: Unity
+      items:
+        - name: Getting started
+        - href: unity/get-started/visual-studio-tools-for-unity.md
+        - name: Writing and editing C# scripts
+        - href: unity/get-started/using-visual-studio-tools-for-unity.md
+        - name: Debugging C# scripts with Visual Studio
+        - href: unity/get-started/using-visual-studio-tools-for-unity.md
+        - name: .NET Compatibility
+        - href: 
+        - name: Using NuGet packages
+        - href: 
+        - name: Source control
+        - href: 
+        - name: DevOps
+        - href: 
+        - name: Tips & Tricks
+        - href: 
+        - name: Troubleshooting
+        - href: 
+        - name: Extensibility
+          items:
+          - name: Customizing project file generation
+          - href:
+          - name: Log callbacks
+          - href:
+        - name: Tools for Unity changelogs
+          items: 
+          - name: Visual Studio
+          - href: 
+          - name: Visual Studio for Mac
+          - href:
+- name: C++ Game Development
+  items:
+    - name: Unreal
+    - items:
+      - name: Getting started
+      - href: 
