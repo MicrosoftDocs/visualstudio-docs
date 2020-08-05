@@ -264,7 +264,7 @@ To correct an environment that doesn't have a repair option, or to remove an inv
 
     - If the environment still exists on your computer, change the value of **ExecutablePath** to the correct location. Also correct the **(Default)** and **WindowedExecutablePath** values as necessary.
     - If the environment no longer exists on your computer and you want to remove it from the **Python Environments** window, delete the parent node of **InstallPath**, such as **3.6** in the image above.
-    - Invalid settings in **HKEY_CURRENT_USER\SOFTWARE\Python** overide the settings in **HKEY_LOCAL_MACHINE\SOFTWARE\Python**
+    - Invalid settings in **HKEY_CURRENT_USER\SOFTWARE\Python** override the settings in **HKEY_LOCAL_MACHINE\SOFTWARE\Python**
     
 ## See also
 
