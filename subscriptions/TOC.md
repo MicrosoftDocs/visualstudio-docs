@@ -16,6 +16,7 @@
 ### [Sign in with Microsoft Accounts](sign-in-msa.md)
 ### [Sign in with work/school accounts](sign-in-work.md)
 ### [Sign in with GitHub](sign-in-github.md)
+### [Connected identities](use-connected-identities.md)
 ### [Alternate identities](vs-alternate-identity.md)
 ### [Sign in problems](sign-in-issues.md)
 ### [Anonymizations of subscriber data](anonymization.md)
