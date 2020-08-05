@@ -67,3 +67,4 @@ The log file contains the following columns:
 ## See also
 
 - [Creating custom project and item templates](creating-custom-project-and-item-templates.md)
+- [Visual Studio troubleshooting](/troubleshoot/visualstudio/welcome-visual-studio/)

@@ -100,6 +100,7 @@ f1_keywords:
 - CA1413
 - CA1414
 - CA1415
+- CA1417
 - CA1500
 - CA1501
 - CA1502
@@ -171,6 +172,7 @@ f1_keywords:
 - CA1832
 - CA1833
 - CA1835
+- CA1836
 - CA1900
 - CA1901
 - CA1903
@@ -390,6 +392,7 @@ The following table lists Code Analysis warnings for managed code by the CheckId
 | CA1413 | [CA1413: Avoid non-public fields in COM visible value types](../code-quality/ca1413.md) | Nonpublic instance fields of COM-visible value types are visible to COM clients. Review the content of the fields for information that should not be exposed, or that will have unintended design or security effects. |
 | CA1414 | [CA1414: Mark boolean P/Invoke arguments with MarshalAs](../code-quality/ca1414.md) | The Boolean data type has multiple representations in unmanaged code. |
 | CA1415 | [CA1415: Declare P/Invokes correctly](../code-quality/ca1415.md) | This rule looks for operating system invoke method declarations that target [!INCLUDE[TLA2#tla_win32](../code-quality/includes/tla2sharptla_win32_md.md)] functions that have a pointer to an OVERLAPPED structure parameter and the corresponding managed parameter is not a pointer to a System.Threading.NativeOverlapped structure. |
+| CA1417 | [CA1417: Do not use `OutAttribute` on string parameters for P/Invokes](../code-quality/ca1417.md) | String parameters passed by value with the `OutAttribute` can destabilize the runtime if the string is an interned string. |
 | CA1500 | [CA1500: Variable names should not match field names](../code-quality/ca1500.md) | An instance method declares a parameter or a local variable whose name matches an instance field of the declaring type, leading to errors. |
 | CA1501 | [CA1501: Avoid excessive inheritance](../code-quality/ca1501.md) | A type is more than four levels deep in its inheritance hierarchy. Deeply nested type hierarchies can be difficult to follow, understand, and maintain. |
 | CA1502 | [CA1502: Avoid excessive complexity](../code-quality/ca1502.md) | This rule measures the number of linearly independent paths through the method, which is determined by the number and complexity of conditional branches. |
@@ -454,6 +457,7 @@ The following table lists Code Analysis warnings for managed code by the CheckId
 | CA1832 |[CA1832: Use AsSpan or AsMemory instead of Range-based indexers for getting ReadOnlySpan or ReadOnlyMemory portion of an array](../code-quality/ca1832.md) | When using a range-indexer on an array and implicitly assigning the value to a <xref:System.ReadOnlySpan%601> or <xref:System.ReadOnlyMemory%601> type, the method <xref:System.Runtime.CompilerServices.RuntimeHelpers.GetSubArray%2A> will be used instead of <xref:System.Span%601.Slice%2A?#System_Span_1_Slice_System_Int32_System_Int32_>, which produces a copy of requested portion of the array. |
 | CA1833 |[CA1833: Use AsSpan or AsMemory instead of Range-based indexers for getting Span or Memory portion of an array](../code-quality/ca1833.md) | When using a range-indexer on an array and implicitly assigning the value to a <xref:System.Span%601> or <xref:System.Memory%601> type, the method <xref:System.Runtime.CompilerServices.RuntimeHelpers.GetSubArray%2A> will be used instead of <xref:System.Span%601.Slice%2A?#System_Span_1_Slice_System_Int32_System_Int32_>, which produces a copy of requested portion of the array. |
 | CA1835 |[CA1835: Prefer the 'Memory'-based overloads for 'ReadAsync' and 'WriteAsync'](../code-quality/ca1835.md) | 'Stream' has a 'ReadAsync' overload that takes a 'Memory&lt;Byte&gt;' as the first argument, and a 'WriteAsync' overload that takes a 'ReadOnlyMemory&lt;Byte&gt;' as the first argument. Prefer calling the memory based overloads, which are more efficient. |
+| CA1836 |[CA1836: Prefer `IsEmpty` over `Count` when available](../code-quality/ca1836.md) | Prefer `IsEmpty` property that is more efficient than `Count`, `Length`, <xref:System.Linq.Enumerable.Count%60%601%28System.Collections.Generic.IEnumerable%7B%60%600%7D%29> or <xref:System.Linq.Enumerable.LongCount%60%601%28System.Collections.Generic.IEnumerable%7B%60%600%7D%29> to determine whether the object contains or not any items. |
 | CA1900 | [CA1900: Value type fields should be portable](../code-quality/ca1900.md) | This rule checks that structures that are declared by using explicit layout will align correctly when marshaled to unmanaged code on 64-bit operating systems. |
 | CA1901 | [CA1901: P/Invoke declarations should be portable](../code-quality/ca1901.md) | This rule evaluates the size of each parameter and the return value of a P/Invoke, and verifies that the size of the parameter is correct when marshaled to unmanaged code on 32-bit and 64-bit operating systems. |
 | CA1903 | [CA1903: Use only API from targeted framework](../code-quality/ca1903.md) | A member or type is using a member or type that was introduced in a service pack that was not included together with the targeted framework of the project. |
