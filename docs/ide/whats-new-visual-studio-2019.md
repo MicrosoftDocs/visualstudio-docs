@@ -2,7 +2,7 @@
 title: "What's new in Visual Studio 2019"
 titleSuffix: ""
 description: "Learn about the new features in Visual Studio 2019."
-ms.date: 05/20/2020
+ms.date: 08/5/2020
 helpviewer_keywords:
   - "Visual Studio, what's new"
   - "what's new [Visual Studio]"
@@ -18,7 +18,7 @@ ms.workload:
 ---
 # What's new in Visual Studio 2019
 
-**Updated for the [16.6 release](/visualstudio/releases/2019/release-notes/)**
+**Updated for the [16.7 release](/visualstudio/releases/2019/release-notes/)**
 
 >[!div class="button"]
 >[Download Visual Studio 2019](https://visualstudio.microsoft.com/downloads)
@@ -206,7 +206,21 @@ For more information, see the [Pinnable Properties: Debug & Display Managed Obje
 
 We update Visual Studio 2019 often with new features that can make your development experience even better. To learn more about our latest innovations, check out the [Visual Studio Blog](https://devblogs.microsoft.com/visualstudio/). For a record of what we've released in preview to date, take a look at the [Preview Release Notes](/visualstudio/releases/2019/release-notes-preview/). And for a list of what we're planning to release next, see the [Visual Studio Roadmap](/visualstudio/productinfo/vs-roadmap).
 
-Want to know more about what else is in the works for Visual Studio 2019? See the [Visual Studio Roadmap](/visualstudio/productinfo/vs-roadmap/).
+Meanwhile, here are a few of our new features currently in the works.
+
+- **Visual Studio 2019 support for Visual Studio Codespaces (Preview)**
+
+  Now more than ever, developers are juggling multiple projects at work and at home. New features, bug fixes, PR reviews, &amp; prototypes all compete for time and require constant context-switching. [Visual Studio Codespaces](https://visualstudio.microsoft.com/services/visual-studio-codespaces/) can help. You can develop entirely in the cloud and create dedicated, custom environments for each of your projects in seconds. With Visual Studio 2019, you can connect to your codespace and work just as you would locally. 
+
+  For more information, see the [What is Visual Studio Codespaces](/visualstudio/codespaces/overview/what-is-vsonline.md) page.
+
+- **Improved Git experience in Visual Studio 2019 (Preview)**
+
+   We continue to iterate on a revamped Git experience to improve your productivity when working with code on GitHub, Azure Repos, and other remote hosting services. You can initialize and push from within Visual Studio 2019 with a single click. You can also create new branches, manage current branches, and resolve merge conflicts. 
+
+   For more information, see the [Exciting new updates to the Git experience in Visual Studio](https://devblogs.microsoft.com/visualstudio/exciting-new-updates-to-the-git-experience-in-visual-studio/) blog post.
+
+And for more information about the Preview release&mdash;and a download link if you'd like to try it out&mdash;see the **[Visual Studio Preview](https://visualstudio.microsoft.com/vs/preview/)** page.
 
 ## Give us feedback
 
