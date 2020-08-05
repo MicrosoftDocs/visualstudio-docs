@@ -10,6 +10,8 @@ ms.topic: conceptual
 ms.workload:
   - "azure"
 ---
+# What's next
+
 Although we're done with our workshop, there's still a LOT more to learn about containers!
 We're not going to go deep-dive here, but here are a few other areas to look at next!
 
