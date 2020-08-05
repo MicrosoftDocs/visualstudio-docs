@@ -12,29 +12,24 @@ ms.workload:
   - "unity"
 ---
 # Visual Studio Tools for Unity
+![Visual Studio Tools for Unity](../media/hero.png)
 
-![Visual Studio Tools for Unity](media/vstu_header.png)
-
+## Overview
 Visual Studio Tools for Unity is a free Visual Studio extension that turns Visual Studio into a powerful tool for developing cross-platform games and apps with Unity.
 
 While the Unity editor is great for putting your game world together, you can't write your code in it. With Visual Studio Tools for Unity, you can use the familiar code editing, debugging and productivity features of Visual Studio to create editor and game scripts for your Unity project using C#, and you can debug them using Visual Studio's powerful debugging capabilities.
 
 But Visual Studio Tools for Unity is more than that; it also has deep integration with Unity editor so that you'll spend less time switching back and forth to do simple tasks, provides Unity-specific productivity enhancements, and puts the Unity documentation at your fingertips.
 
-## Overview
-
-Visit the [Build Unity Games with Visual Studio](https://visualstudio.microsoft.com/vs/unity-tools/) page for an overview of the advantages of using Visual Studio for Unity development, or continue below to dig deeper into the key features of Visual Studio Tools for Unity:
-
-### Compatible with Visual Studio Community and bundled with Unity
-
-[Visual Studio Community](https://visualstudio.microsoft.com/) is available for free, and is bundled with Unity installs starting with Unity 2018.1. See the Visual Studio Tools for Unity [getting started documentation](getting-started-with-visual-studio-tools-for-unity.md) for more information.
+### Compatible with Visual Studio Community on Windows and macOS and bundled with Unity
+Visual Studio and Visual Studio for Mac Community is available for free, and is bundled with Unity installs. Visit the Visual Studio Tools for Unity [getting started documentation](getting-started-with-visual-studio-tools-for-unity.md) for more information about installation and setup.
 
 ### IntelliSense for Unity messages
-
 IntelliSense code-completion makes it fast and easy to [implement Unity API messages](using-visual-studio-tools-for-unity.md#intellisense-for-unity-api-messages) like `OnCollisionEnter`, including their parameters.
 
-### Superior debugging
+![IntelliSense dialog showing OnCollisionEnter](../media/vs/intellisense-example.png)
 
+### Superior debugging
 Visual Studio Tools for Unity supports the robust [debugging](using-visual-studio-tools-for-unity.md#unity-debugging) features that you expect from Visual Studio:
 
 * Set breakpoints, including conditional breakpoints.
@@ -42,16 +37,27 @@ Visual Studio Tools for Unity supports the robust [debugging](using-visual-studi
 * Inspect and modify the value of variables and arguments.
 * Drill down into complex objects and data structures.
 
-### Roslyn diagnostics and quick-fixes for Unity
+![Stopped on a breakpoint inspecting variables](../media/vs/debugging-inspecting.png)
 
+### Integrated suggestions for best practices and performance insights
 Write better code that captures the best practices with Visual Studio's deep understanding of Unity projects.
 
-![VS refactoring string comparison with CompareTag](media/unity-diagnostics.png)
+![VS refactoring string comparison with CompareTag](../media/vs/unity-diagnostics.png)
 
-### Visual Studio for Mac Tools for Unity
+### CodeLens support for Unity scripts and messages
+Unity scripts and message functions are decorated with hints to make it easier to recognize what's provided by Unity and what's your code.
 
-Visual Studio for Mac also supports Unity projects. For more information, see the [Visual Studio for Mac Tools for Unity documentation](/visualstudio/mac/unity-tools).
+ ![New script showing CodeLens hints for Unity Script and Unity Message](../media/vs/codelens-support.png)
 
-## Next steps
+> [!NOTE]
+> CodeLens support is available in Visual Studio 2019.
+
+## Optimized view of all your scripts to match Unity
+The Unity Project Explorer (UPE) is an alternative way to view you project files over the standard Solution Explorer. The UPE filters the files shown and presents them in a hierarchy that matches Unity (**View > Unity Project Explorer** in Visual Studio 2019).
+
+![Unity Project Explorer](../media/vs/unity-project-explorer.png)
+
+> [!NOTE]
+> The Unity Project Explorer is available in Visual Studio 2019. In Visual Studio for Mac, the Solution Pad has similar behaviour by default for Unity projects - no additional views are required.
 
 * [Get started with Visual Studio Tools for Unity](getting-started-with-visual-studio-tools-for-unity.md)
