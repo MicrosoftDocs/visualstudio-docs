@@ -1,0 +1,38 @@
+---
+title: Visual Studio for Mac Testing tools
+ms.date: 08/03/2020
+ms.topic: conceptual
+helpviewer_keywords:
+- testing tools [Visual Studio for Mac]
+- unit tests [Visual Studio for Mac]
+ms.author: jomatthi
+author: jmatthiesen
+---
+# Testing tools in Visual Studio for Mac
+
+Visual Studio for Mac testing tools can help you and your team develop and sustain high standards of code excellence. Unit tests can be written and run using the Microsoft unit test framework (MSTest), xUnit, or NUnit.
+
+## Creating tests
+To get started with testing, you can create a new test project in your solution by right-clicking your solution and choosing the **Add > New Project...** menu. Then choose one of the Test categories on the left-side of the dialog. For example, the **Web and Console > Tests** category. Select the type of test project you want to create, click  
+
+![New project dialog with Web and Console > Tests section selected, showing xUnit, MSTest, and NUnit projects](media/create-new-test-project.PNG)
+
+
+## Running tests
+The **Unit Tests** window is used to run unit tests and is opened using the **View > Pads > Unit Tests** menu. Unit tests in your solution are automatically discovered and shown in this window, where you can run all of the tests or a set of tests that you've selected.
+
+![Test Window showing a list of unit tests and a tool bar for running or stopping tests.](media/test-window.PNG)
+
+When editing a C# class that contains unit tests, you can run tests by right clicking in the test class or a test method and choosing the **Run Test(s)** or **Debug Test(s)** menu. Choosing the **Run Test(s)** menu item will run the tests in the test window, choosing the **Debug Test(s)** menu will do the same and attach the debugger so you can troubleshoot your code.
+
+![Editor right-click menu with Run and Debug Tests options](media/run-tests-context-menu.PNG)
+
+As tests are running, a **Test Results** window appears so you can review successful or failed tests, and the output from running those tests.
+
+![Test results window showing one failed test and a count of 21 passed tests and 1 failed test.](media/test-results-window.PNG)
+
+## Related scenarios
+
+* [Exploratory & manual testing (Azure Test Plans)](/azure/devops/test/index?view=vsts)
+* [Load testing (Azure Test Plans)](/azure/devops/test/load-test/index?view=vsts)
+* [Continuous testing (Azure Test Plans)](/azure/devops/pipelines/test/getting-started-with-continuous-testing?view=vsts)
