@@ -2,7 +2,7 @@
 title: "What's new in Visual Studio 2019"
 titleSuffix: ""
 description: "Learn about the new features in Visual Studio 2019."
-ms.date: 08/5/2020
+ms.date: 08/05/2020
 helpviewer_keywords:
   - "Visual Studio, what's new"
   - "what's new [Visual Studio]"
@@ -210,13 +210,13 @@ Meanwhile, here are a few of our new features currently in the works.
 
 - **Visual Studio 2019 support for Visual Studio Codespaces (Preview)**
 
-  Now more than ever, developers are juggling multiple projects at work and at home. New features, bug fixes, PR reviews, &amp; prototypes all compete for time and require constant context-switching. [Visual Studio Codespaces](https://visualstudio.microsoft.com/services/visual-studio-codespaces/) can help. You can develop entirely in the cloud and create dedicated, custom environments for each of your projects in seconds. With Visual Studio 2019, you can connect to your codespace and work just as you would locally. 
+  Now more than ever, developers are juggling multiple projects at work and at home. New features, bug fixes, PR reviews, &amp; prototypes all compete for time and require constant context-switching. [Visual Studio Codespaces](https://visualstudio.microsoft.com/services/visual-studio-codespaces/) can help. You can develop entirely in the cloud and create dedicated, custom environments for each of your projects in seconds. With Visual Studio 2019, you can connect to your codespace and work just as you would locally.
 
   For more information, see the [What is Visual Studio Codespaces](/visualstudio/codespaces/overview/what-is-vsonline.md) page.
 
 - **Improved Git experience in Visual Studio 2019 (Preview)**
 
-   We continue to iterate on a revamped Git experience to improve your productivity when working with code on GitHub, Azure Repos, and other remote hosting services. You can initialize and push from within Visual Studio 2019 with a single click. You can also create new branches, manage current branches, and resolve merge conflicts. 
+   We continue to iterate on a revamped Git experience to improve your productivity when working with code on GitHub, Azure Repos, and other remote hosting services. You can initialize and push from within Visual Studio 2019 with a single click. You can also create new branches, manage current branches, and resolve merge conflicts.
 
    For more information, see the [Exciting new updates to the Git experience in Visual Studio](https://devblogs.microsoft.com/visualstudio/exciting-new-updates-to-the-git-experience-in-visual-studio/) blog post.
 
