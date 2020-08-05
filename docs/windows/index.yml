@@ -85,7 +85,7 @@ conceptualContent:
           url: /visualstudio/cross-platform/cross-platform-mobile-development-in-visual-studio
         - text: Unity game
           itemType: tutorial
-          url: /visualstudio/cross-platform/getting-started-with-visual-studio-tools-for-unity
+          url: /visualstudio/gamedev/unity/get-started/getting-started-with-visual-studio-tools-for-unity
         - text: Web app with ASP.NET Core
           itemType: quickstart
           url: /aspnet/core/tutorials/razor-pages/razor-pages-start
