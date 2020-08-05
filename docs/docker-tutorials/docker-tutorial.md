@@ -12,11 +12,13 @@ ms.workload:
 next_page: app.md
 ---
 
-## The command you just ran
+## Tutorial: Get started with Docker
 
-Congratulations! You have started the container for this tutorial!
-Let's first explain the command that you just ran. In case you forgot,
-here's the command:
+In this tutorial, you'll learn about creating and deploying Docker apps, including using multiple containers with a database, and using Docker Compose. You'll also deploy your containerized app to Azure.
+
+## Starting the tutorial
+
+If you've already run the command to get started with the tutorial, congratulations!  If not, open a command prompt or bash window, and run the command:
 
 ```cli
 docker run -d -p 80:80 docker/getting-started
@@ -38,23 +40,17 @@ You'll notice a few flags being used. Here's some more info on them:
 
 ## The VSCode Extension
 
-Before going too far, we want to highlight the Docker VSCode Extension, which gives
-you a quick view of the containers running on your machine. It gives you quick
-access to container logs, lets you get a shell inside the container, and lets you
-easily manage container lifecycle (stop, remove, etc.). 
+Before going too far, we want to highlight the Docker VSCode Extension, which gives you a quick view of the containers running on your machine. It gives you quick
+access to container logs, lets you get a shell inside the container, and lets you easily manage container lifecycle (stop, remove, etc.). 
 
-To access the extension, follow the instructions  
-[here](https://code.visualstudio.com/docs/containers/overview). If you open the extension
-now, you will see this tutorial running! The container name (`angry_taussig` below) is a
-randomly created name. So, you'll most likely have a different name.
+To access the extension, follow the instructions [here](https://code.visualstudio.com/docs/containers/overview). If you open the extension
+now, you will see this tutorial running! The container name (`angry_taussig` below) is a randomly created name. So, you'll most likely have a different name.
 
 ![Tutorial container running in Docker Extension](media/vs-tutorial-in-extension.png)
 
 ## What is a container?
 
-Now that you've run a container, what *is* a container? Simply put, a container is
-simply another process on your machine that has been isolated from all other processes
-on the host machine. That isolation leverages [kernel namespaces and cgroups](https://medium.com/@saschagrunert/demystifying-containers-part-i-kernel-space-2c53d6979504), features that have been in Linux for a long time. Docker has worked to make these capabilities approachable and easy to use.
+Now that you've run a container, what *is* a container? Simply put, a container is simply another process on your machine that has been isolated from all other processes on the host machine. That isolation leverages [kernel namespaces and cgroups](https://medium.com/@saschagrunert/demystifying-containers-part-i-kernel-space-2c53d6979504), features that have been in Linux for a long time. Docker has worked to make these capabilities approachable and easy to use.
 
 > [!NOTE]
 > **Creating Containers from Scratch**
