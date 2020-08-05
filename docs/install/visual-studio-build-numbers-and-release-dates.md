@@ -5,7 +5,7 @@ description: A list of released versions and build numbers for Visual Studio, so
 author: ornellaalt
 ms.author: ornella
 manager: jillfra
-ms.date: 07/14/2020
+ms.date: 08/05/2020
 ms.topic: reference
 ms.workload:
 - multiple
@@ -23,6 +23,11 @@ The following table lists the build numbers and release dates for Visual Studio 
 
 | **Version**| **Channel** | **Release date** | **Build version** |
 | ---------------------- | ----------- | ---------------- | ----------------- |
+| 16.8.0 | Preview 1 | August 5, 2020 | 16.8.30404.54 |
+| 16.7.0 | Release | August 5, 2020 | 16.7.30330.147 |
+| 16.7.0 | Preview 6 | July 28, 2020 | 16.7.30323.103 |
+| 16.7.0 | Preview 5 | July 21, 2020 | 16.7.30317.65 |
+| 16.6.5 | Release | July 21, 2020 | 16.6.30320.27 |
 | 16.7.0 | Preview 4 | July 14, 2020 | 16.7.30310.162 |
 | 16.6.4 | Release | July 14, 2020 | 16.6.30309.148 |
 | 16.4.11 | Release | July 14, 2020 | 16.4.30308.118 |
@@ -333,7 +338,8 @@ The following table lists the build numbers and release dates for Visual Studio 
 
 ## See also
 
-* [Visual Studio release rhythm](/visualstudio/productinfo/release-rhythm/)
+* [Visual Studio Roadmap](/visualstudio/productinfo/vs-roadmap)
+* [Visual Studio release rhythm](/visualstudio/productinfo/release-rhythm)
 * [Visual Studio administrator guide](visual-studio-administrator-guide.md)
 * [Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md)
 * [Tools for detecting and managing Visual Studio instances](tools-for-managing-visual-studio-instances.md)

@@ -55,6 +55,10 @@ landingContent:
         links:
           - text: Write and edit code
             url: write-and-edit-code.md
+          - text: Compile TypeScript code using tsc
+            url: compile-typescript-code-npm.md
+          - text: Compile TypeScript code using NuGet
+            url: compile-typescript-code-nuget.md
           - text: Manage npm packages
             url: npm-package-management.md
           - text: Use the Node.js interactive REPL

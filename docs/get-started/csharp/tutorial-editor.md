@@ -13,9 +13,9 @@ dev_langs:
 ms.workload:
 - dotnet
 ---
-# Learn to use the code editor
+# Learn to use the code editor with C#
 
-In this 10-minute introduction to the code editor in Visual Studio, we'll add code to a file to look at some of the ways that Visual Studio makes writing, navigating, and understanding code easier.
+In this 10-minute introduction to the code editor in Visual Studio, we'll add code to a file to look at some of the ways that Visual Studio makes writing, navigating, and understanding C# code easier.
 
 ::: moniker range="vs-2017"
 
