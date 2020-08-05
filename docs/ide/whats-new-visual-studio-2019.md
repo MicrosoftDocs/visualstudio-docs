@@ -80,7 +80,7 @@ For more information about IntelliCode, see the [Announcing the general availabi
 
 ### Code cleanup
 
-Paired with a new document health indicator is a new code cleanup command. You can use this new command to identify and then fix both warnings and suggestions with the click of a button.
+Paired with a new document health indicator is a new code cleanup command. You can use this new command to identify and then fix both warnings and suggestions with a single action (or click of a button).
 
 The cleanup will format the code and apply any code fixes as suggested by the [current settings](code-styles-and-code-cleanup.md) and [.editorconfig files](create-portable-custom-editor-options.md).
 
@@ -172,7 +172,7 @@ You've probably been there before, looking in the Watch window for a string amon
 
    ![An animation that shows the debug search window in Visual Studio 2019](media/vs-2019/debug-window-search.gif)
 
-You can also format how a value is displayed within the Watch, Locals, and Autos windows.  Double-click one of the items in any of the windows and add a comma (",") to access the drop-down list of possible format specifiers, each of which includes a description of its intended effect.
+You can also format how a value is displayed within the Watch, Locals, and Autos windows. Select (by double-clicking) one of the items in any of the windows and add a comma (",") to access the drop-down list of possible format specifiers, each of which includes a description of its intended effect.
 
    ![The new Watch window and format values feature in Visual Studio 2019](media/search-watch-window.png)
 
@@ -216,11 +216,11 @@ Meanwhile, here are a few of our new features currently in the works.
 
 - **Improved Git experience in Visual Studio 2019 (Preview)**
 
-   We continue to iterate on a revamped Git experience to improve your productivity when working with code on GitHub, Azure Repos, and other remote hosting services. You can initialize and push from within Visual Studio 2019 with a single click. You can also create new branches, manage current branches, and resolve merge conflicts.
+   We continue to iterate on a revamped Git experience to improve your productivity when working with code on GitHub, Azure Repos, and other remote hosting services. You can initialize and push from within Visual Studio 2019 with a single action (or click). You can also create new branches, manage current branches, and resolve merge conflicts.
 
    For more information, see the [Exciting new updates to the Git experience in Visual Studio](https://devblogs.microsoft.com/visualstudio/exciting-new-updates-to-the-git-experience-in-visual-studio/) blog post.
 
-And for more information about the Preview release&mdash;and a download link if you'd like to try it out&mdash;see the **[Visual Studio Preview](https://visualstudio.microsoft.com/vs/preview/)** page.
+For more information about the Preview release&mdash;and a download link if you'd like to try it out&mdash;see the **[Visual Studio Preview](https://visualstudio.microsoft.com/vs/preview/)** page.
 
 ## Give us feedback
 
