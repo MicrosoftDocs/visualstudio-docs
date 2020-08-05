@@ -563,6 +563,8 @@
           href: ca1832.md
         - name: "CA1833: Use AsSpan or AsMemory instead of Range-based indexers for getting Span or Memory portion of an array"
           href: ca1833.md
+        - name: "CA1834: Use StringBuilder.Append(char) for single character strings"
+          href: ca1834.md
         - name: "CA1835: Prefer the memory overloads of Stream ReadAsync/WriteAsync methods"
           href: ca1835.md
         - name: "CA1836: Prefer IsEmpty over Count when available"
