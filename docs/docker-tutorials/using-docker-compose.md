@@ -277,11 +277,11 @@ Now that you have the `docker-compose.yml` file, you can start it up!
 
 If you look at the Docker extension, you can change the grouping options using the 'cog' and 'group by'. In this instance, you want to see containers sharing a network.
 
-![VS Extension with network](vs-app-project-collapsed.png)
+![VS Extension with network](media/vs-app-project-collapsed.png)
 
 If you twirl down the network, you will see the two containers you defined in the compose file.
 
-![VS Extension with app network expanded](vs-app-project-expanded.png)
+![VS Extension with app network expanded](media/vs-app-project-expanded.png)
 
 ## Tear it all down
 
