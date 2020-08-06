@@ -1,5 +1,5 @@
 ---
-title: "Docker tutorial - Part 4: Persisting your data"
+title: "Docker tutorial - Part 4: Persist your data"
 description: Overview of the todo list sample app that runs in Node.js.
 ms.date: "08/04/2020"
 author: nebuk89
@@ -10,7 +10,7 @@ ms.topic: conceptual
 ms.workload:
   - "azure"
 ---
-# Persisting your data
+# Persist your data
 
 In case you didn't notice, the todo list is being wiped clean every single time you launch the container. Why is this? Let's dive into how the container is working.
 
@@ -142,4 +142,4 @@ However, you saw earlier that rebuilding images for every change takes quite a b
 Continue with the tutorial!
 
 > [!div class="nextstepaction"]
-> [Using bind mounts](using-bind-mounts.md)
+> [Using bind mounts](use-bind-mounts.md)

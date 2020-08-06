@@ -1,6 +1,6 @@
 ---
-title: "Docker tutorial - Part 1: Todo list sample app"
-description: Overview of the todo list sample app that runs in Node.js
+title: "Docker tutorial - Part 1: Build and run the todo list sample app"
+description: Overview of the todo list sample app that runs in Node.js.
 ms.date: "08/04/2020"
 author: nebuk89
 ms.author: ghogen
@@ -10,7 +10,7 @@ ms.topic: conceptual
 ms.workload:
   - "azure"
 ---
-# Get started with the todo sample app
+# Build and run the todo sample app
 
 For the rest of this tutorial, you'll be working with a simple todo list manager that is running in Node.js. If you're not familiar with Node.js, don't worry! No real JavaScript experience is needed!
 
@@ -94,4 +94,4 @@ Next, you're going to make a modification to the app and learn how to update the
 Continue with the tutorial!
 
 > [!div class="nextstepaction"]
-> [Updating your app](updating-your-app.md)
+> [Updating your app](update-your-app.md)
