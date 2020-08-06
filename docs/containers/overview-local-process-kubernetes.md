@@ -91,7 +91,7 @@ When you disconnect from your cluster, by default, Local Process with Kubernetes
 
 ## Diagnostics and logging
 
-When using Local Process with Kubernetes to connect to your cluster, diagnostic logs from your cluster are logged to your development computer's `%TEMP%` directory in the *Local Process with Kubernetes* folder.
+When using Local Process with Kubernetes to connect to your cluster, diagnostic logs from your cluster are logged to your development computer's *TEMP* directory in the *Local Process with Kubernetes* folder.
 
 ## Limitations
 
