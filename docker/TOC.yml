@@ -4,27 +4,27 @@
   - name: Introduction to Docker for VS Code users 
     expanded: true
     items:
-    - name: Getting started
+    - name: "Getting started"
       href: tutorials/docker-tutorial.md
-    - name: Our application
+    - name: "Part 1: The application"
       href: tutorials/your-application.md
-    - name: Updating your app
+    - name: "Part 2: Updating your app"
       href: tutorials/updating-your-app.md
-    - name: Sharing your app
+    - name: "Part 3: Sharing your app"
       href: tutorials/sharing-your-app.md
-    - name: Persisting your database
+    - name: "Part 4: Persisting your database"
       href: tutorials/persisting-your-data.md
-    - name: Using bind mounts
+    - name: "Part 5: Using bind mounts"
       href: tutorials/using-bind-mounts.md
-    - name: Multi-container apps
+    - name: "Part 6: Multi-container apps"
       href: tutorials/multi-container-apps.md
-    - name: Using Docker Compose
+    - name: "Part 7: Using Docker Compose"
       href: tutorials/using-docker-compose.md
-    - name: Image-building best practices
+    - name: "Part 8: Image-building best practices"
       href: tutorials/image-building-best-practices.md
-    - name: Deploying to the cloud
+    - name: "Part 9: Deploying to the cloud"
       href: tutorials/deploy-to-cloud.md
-    - name: What's next?
+    - name: "What's next?"
       href: tutorials/whats-next.md
 
     - name: Sources

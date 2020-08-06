@@ -1,5 +1,5 @@
 ---
-title: Docker tutorial - Todo list sample app
+title: "Docker tutorial - Part 1: Todo list sample app"
 description: Overview of the todo list sample app that runs in Node.js
 ms.date: "08/04/2020"
 author: nebuk89

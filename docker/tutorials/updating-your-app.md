@@ -1,6 +1,6 @@
 ---
-title: Docker tutorial - Updating your app
-description: Describes how to update a Docker app
+title: "Docker tutorial - Part 2: Updating your app"
+description: Describes how to update a Docker app.
 ms.date: "08/04/2020"
 author: nebuk89
 ms.author: ghogen

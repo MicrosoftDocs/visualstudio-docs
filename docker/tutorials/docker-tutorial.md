@@ -1,6 +1,6 @@
 ---
-title: Docker tutorial - Get started with Docker
-description: A multi-step tutorial that covers the basics of working with Docker.
+title: "Docker tutorial - Get started with Docker"
+description: A multi-step tutorial that covers the basics of working with Docker with Visual Studio Code.
 ms.date: "08/04/2020"
 author: nebuk89
 ms.author: ghogen

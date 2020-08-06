@@ -1,6 +1,6 @@
 ---
-title: Docker tutorial - Persisting your data
-description: Overview of the TODO list sample app that runs in Node.js
+title: "Docker tutorial - Part 4: Persisting your data"
+description: Overview of the todo list sample app that runs in Node.js.
 ms.date: "08/04/2020"
 author: nebuk89
 ms.author: ghogen

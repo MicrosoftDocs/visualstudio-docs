@@ -1,6 +1,6 @@
 ---
-title: Docker tutorial - What's next
-description: Describes options for extending Docker apps with orchestration, using Cloud Native Computing Foundation projects
+title: "Docker tutorial - Part 10: What's next"
+description: Describes options for extending Docker apps with orchestration, using Cloud Native Computing Foundation projects.
 ms.date: "08/04/2020"
 author: nebuk89
 ms.author: ghogen

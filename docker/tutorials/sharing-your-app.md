@@ -1,6 +1,6 @@
 ---
-title: Docker tutorial - Sharing your app
-description: Describes how to share Docker images using Docker registry.
+title: "Docker tutorial - Part 3: Sharing your app"
+description: Describes how to share Docker images using the Docker Hub registry.
 ms.date: "08/04/2020"
 author: nebuk89
 ms.author: ghogen

@@ -1,6 +1,6 @@
 ---
-title: Docker tutorial - Using bind mounts
-description: Describes how to use bind mounts to control the mount point on the host
+title: "Docker tutorial - Part 5: Using bind mounts"
+description: Describes how to use bind mounts to control the mount point on the host.
 ms.date: "08/04/2020"
 author: nebuk89
 ms.author: ghogen
