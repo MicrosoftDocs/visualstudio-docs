@@ -1,5 +1,5 @@
 - name: Introduction to Docker for VS Code users 
-# Auto-expanded node
+  expanded: true
   items:
   - name: Getting started
     href: tutorials/docker-tutorial.md
