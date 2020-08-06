@@ -1,4 +1,4 @@
-- name: root
+- name: Docker
   expanded: true
   items:
   - name: Introduction to Docker for VS Code users 
