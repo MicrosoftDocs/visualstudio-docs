@@ -161,28 +161,6 @@ To do this, you first need to double-check that you've installed everything as d
 
 ::: moniker-end
 
-::: moniker range=">=vs-2019"
-
-## Publish to Azure Kubernetes Service (AKS)
-
-1. In the **Startup Projects** dropdown, choose the project that contains *azds.yaml*, and in the dropdown next to the green arrow, choose **Container in Kubernetes**.
-
-   You'll be asked to specify or create an AKS cluster.
-
-   ![Screenshot of cluster connection dialog](media/tutorial-kubernetes-tools/vs-2019/k8s-tools-configure-cluster.png)
-
-   Choose the subscription and cluster that you want to use, and choose **OK**.
-
-   If this is the first time you've used Azure Dev Spaces on the cluster, you'll be asked if you want to enable it.
-
-1. The application deploys and launches in the browser.
-
-   ![Screenshot of running app](media/tutorial-kubernetes-tools/vs-2019/k8s-tools-running-app.png)
-
-   The URL is *localhost* with a random port. Port forwarding redirects requests to the Kubernetes cluster in AKS.
-
-::: moniker-end
-
 Congratulations! You can now use the full power of Visual Studio for all your Kubernetes app development.
 
 ## Remove Kubernetes support
