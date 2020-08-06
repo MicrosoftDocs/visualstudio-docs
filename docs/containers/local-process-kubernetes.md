@@ -141,7 +141,7 @@ Local Process with Kubernetes can handle routing traffic and replicating environ
 
 ## Using logging and diagnostics
 
-You can find the diagnostic logs in `Azure Dev Spaces` directory in your [development computer's *TEMP* directory][azds-tmp-dir].
+You can find the diagnostic logs in `Local Process with Kubernetes` directory in your [development computer's *TEMP* directory][azds-tmp-dir].
 
 ## Remove the sample application from your cluster
 
