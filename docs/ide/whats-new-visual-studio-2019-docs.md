@@ -1,0 +1,108 @@
+---
+title: "Visual Studio docs: What's new for July 1, 2020 - July 31, 2020"
+titleSuffix: ""
+description: "What's new in the Visual Studio docs for July 1, 2020 - July 31, 2020."
+ms.date: 08/06/2020
+helpviewer_keywords:
+  - "Visual Studio, what's new, docs"
+  - "what's new [Visual Studio]"
+ms.assetid: 89844796-621B-4EF5-9D76-197084B011CB
+author: JoshuaPartlow
+ms.author: joshuapa
+manager: jillfra
+ms.prod: visual-studio-windows
+ms.technology: vs-ide-general
+ms.topic: conceptual
+ms.workload:
+  - "multiple"
+---
+
+# Visual Studio docs: What's new for July 1, 2020 - July 31, 2020
+
+Welcome to what's new in the Visual Studio docs from July 1, 2020 through July 31, 2020. This article lists some of the major changes to docs during this period.
+
+## Code quality
+
+### New articles
+
+- [CA1417: Do not use `OutAttribute` on string parameters for P/Invokes](/visualstudio/code-quality/ca1417) - Add documentation for CA1417
+- [CA1836: Prefer IsEmpty over Count when available](/visualstudio/code-quality/ca1836) - Add documentation for CA1836 (Prefer IsEmpty over Count)
+- [CA2350: Ensure DataTable.ReadXml()'s input is trusted](/visualstudio/code-quality/ca2350) - Initial DataSet / DataTable deserialization rules docs
+- [CA2351: Ensure DataSet.ReadXml()'s input is trusted](/visualstudio/code-quality/ca2351) - Initial DataSet / DataTable deserialization rules docs
+- [CA2352: Unsafe DataSet or DataTable in serializable type can be vulnerable to remote code execution attacks](/visualstudio/code-quality/ca2352) - Initial DataSet / DataTable deserialization rules docs
+- [CA2353: Unsafe DataSet or DataTable in serializable type](/visualstudio/code-quality/ca2353) - Initial DataSet / DataTable deserialization rules docs
+- [CA2354: Unsafe DataSet or DataTable in deserialized object graph can be vulnerable to remote code execution attack](/visualstudio/code-quality/ca2354) - Initial DataSet / DataTable deserialization rules docs
+- [CA2355: Unsafe DataSet or DataTable in deserialized object graph](/visualstudio/code-quality/ca2355) - Initial DataSet / DataTable deserialization rules docs
+- [CA2356: Unsafe DataSet or DataTable type in web deserialized object graph](/visualstudio/code-quality/ca2356) - Initial DataSet / DataTable deserialization rules docs
+
+## Containers
+
+### New articles
+
+- [Configure Local Process with Kubernetes](/visualstudio/containers/configure-local-process-with-kubernetes) - Local Process with Kubernetes: yaml configuration
+- [Use Local Process with Kubernetes (preview)](/visualstudio/containers/local-process-kubernetes) - Dev spaces migration
+- [How Local Process with Kubernetes works](/visualstudio/containers/overview-local-process-kubernetes)
+  - Local Process for Kubernetes: Add routing section
+  - Dev spaces migration
+
+### Updated articles
+
+- [How Local Process with Kubernetes works](/visualstudio/containers/overview-local-process-kubernetes)
+  - Local Process for Kubernetes: Add routing section
+  - Dev spaces migration
+
+## Cross platform
+
+### Updated articles
+
+- [Change log (Visual Studio Tools for Unity, Windows)](/visualstudio/cross-platform/change-log-visual-studio-tools-for-unity) - Bump VSTU changelog to 4.7.1.0
+- [Change Log (Visual Studio Tools for Unity, Mac)](/visualstudio/cross-platform/change-log-visual-studio-tools-for-unity-mac) - Bump VSTUM changelog to 2.7.1.0
+
+## IDE
+
+### New articles
+
+- [Developer Community guidelines](/visualstudio/ide/developer-community-guidelines) - Added DevCom Guidelines
+- [IntelliSense completion for unimported types and extension methods](/visualstudio/ide/reference/intellisense-completion-unimported-types-extension-methods) - [PUBLIC_MOVE] commit from public PR 5634
+
+## Install
+
+### New articles
+
+- [Update Visual Studio using a minimal offline layout](/visualstudio/install/update-minimal-layout) - Document minimal layout feature
+
+## JavaScript
+
+### New articles
+
+- [Compile TypeScript code (Node.js)](/visualstudio/javascript/compile-typescript-code-npm) - TypeScript compile and build
+- [Compile TypeScript code (ASP.NET Core)](/visualstudio/javascript/compile-typescript-code-nuget) - TypeScript compile and build
+
+## MSBuild
+
+### New articles
+
+- [Common MSBuild item metadata](/visualstudio/msbuild/common-msbuild-item-metadata) - MSBuild: add table for optional metadata with Link and LinkBase
+- [Solution filters in MSBuild](/visualstudio/msbuild/solution-filters) - MSBuild solution filters
+
+## Test
+
+### Updated articles
+
+- [Configure unit tests by using a *.runsettings* file](/visualstudio/test/configure-unit-tests-by-using-a-dot-runsettings-file)
+  - Updates to configuring unit tests using a runsettings file
+  - Blame option description was changed and example was added.
+
+## Community contributors
+
+The following people contributed to the Visual Studio docs during this period. Thank you! Learn how to contribute to the Visual Studio docs by following the guidance in the [Contributor Guide](https://docs.microsoft.com/contribute/).
+
+- [evanwindom](https://github.com/evanwindom) (10)
+- [briuk](https://github.com/briuk) - Viktor Briukhanov (2)
+- [Youssef1313](https://github.com/Youssef1313) - Youssef Victor (2)
+- [ArntWork](https://github.com/ArntWork) - Legolas (1)
+- [Asugakoisi](https://github.com/Asugakoisi) - アスガコイシ (1)
+- [Delizald](https://github.com/Delizald) - David Elizalde (1)
+- [farisachugthai](https://github.com/farisachugthai) - Faris A Chugthai (1)
+- [mycalingram](https://github.com/mycalingram) - Mycal (1)
+- [tuyen-at-work](https://github.com/tuyen-at-work) - Tuyen Pham (1)
