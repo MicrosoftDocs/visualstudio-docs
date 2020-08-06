@@ -36,3 +36,13 @@ solve problems around monitoring, logging, security, image registries, messaging
 
 So, if you're new to the container landscape and cloud-native application development, welcome! Please
 connect to the community, ask questions, and keep learning! We're excited to have you!
+
+## Working with Docker in VS Code
+
+Learn more about using the VS Code Docker extension:
+
+- [VS Code Docker Extension overview](https://code.visualstudio.com/docs/containers/overview)
+- [Get started with Node.js](https://code.visualstudio.com/docs/containers/quickstart-node)
+- [Get started with Python](https://code.visualstudio.com/docs/containers/quickstart-python)
+- [Get started with .NET Core](https://code.visualstudio.com/docs/containers/quickstart-aspnet-core)
+- [Debug containerized apps](https://code.visualstudio.com/docs/containers/debug-common)
