@@ -44,7 +44,7 @@ After you establish a connection to your cluster, you can run and debug code nat
 In addition, Local Process with Kubernetes provides a way to replicate environment variables and mounted files available to pods in your cluster on your development computer through the `KubernetesLocalProcessConfig.yaml` file. You can also use this file to create new environment variables and volume mounts.
 
 > [!NOTE]
-> For the duration of the connection to the cluster (plus an addition 15 minutes), Local Process with Kubernetes runs a process called *EndpointManager* with admin permissions on your local computer.
+> For the duration of the connection to the cluster (plus an additional 15 minutes), Local Process with Kubernetes runs a process called *EndpointManager* with admin permissions on your local computer.
 
 ## Additional configuration with KubernetesLocalProcessConfig.yaml
 
@@ -91,7 +91,7 @@ When you disconnect from your cluster, by default, Local Process with Kubernetes
 
 ## Diagnostics and logging
 
-When using Local Process with Kubernetes to connect to your cluster, diagnostic logs from your cluster are logged to your development computer's [temporary directory][azds-tmp-dir] in the *Local Process with Kubernetes* folder.
+When using Local Process with Kubernetes to connect to your cluster, diagnostic logs from your cluster are logged to your development computer's `%TEMP%` directory in the *Local Process with Kubernetes* folder.
 
 ## Limitations
 
