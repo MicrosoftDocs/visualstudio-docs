@@ -94,4 +94,4 @@ Next, you're going to make a modification to the app and learn how to update the
 Continue with the tutorial!
 
 > [!div class="nextstepaction"]
-> [Updating your app](updating-our-app.md)
+> [Updating your app](updating-your-app.md)

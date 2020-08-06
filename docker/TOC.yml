@@ -1,28 +1,28 @@
-- name: Introduction to Docker for Visual Studio and VSCode users 
+- name: Introduction to Docker for VS Code users 
 # Auto-expanded node
   items:
   - name: Getting started
-    href: docker-tutorial.md
+    href: tutorials/docker-tutorial.md
   - name: Our application
-    href: our-application.md
+    href: tutorials/your-application.md
   - name: Updating your app
-    href: updating-our-app.md
+    href: tutorials/updating-your-app.md
   - name: Sharing your app
-    href: sharing-our-app.md
+    href: tutorials/sharing-your-app.md
   - name: Persisting your database
-    href: persisting-our-data.md
+    href: tutorials/persisting-your-data.md
   - name: Using bind mounts
-    href: using-bind-mounts.md
+    href: tutorials/using-bind-mounts.md
   - name: Multi-container apps
-    href: multi-container-apps.md
+    href: tutorials/multi-container-apps.md
   - name: Using Docker Compose
-    href: using-docker-compose.md
+    href: tutorials/using-docker-compose.md
   - name: Image-building best practices
-    href: image-building-best-practices.md
+    href: tutorials/image-building-best-practices.md
   - name: Deploying to the cloud
-    href: deploy-to-cloud.md
+    href: tutorials/deploy-to-cloud.md
   - name: What's next?
-    href: whats-next.md
+    href: tutorials/whats-next.md
 
   - name: Sources
     items:

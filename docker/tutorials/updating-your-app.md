@@ -115,4 +115,4 @@ Before learning about persistence, you'll quickly see how to share these images 
 Continue with the tutorial!
 
 > [!div class="nextstepaction"]
-> [Sharing your app](sharing-our-app.md)
+> [Sharing your app](sharing-your-app.md)
