@@ -78,7 +78,7 @@ To remove a container, it first needs to be stopped. Once it has stopped, it can
 
 ### Remove a container using the Docker Dashboard
 
-If you open the VSCode Extension, you can remove a container with two clicks! It's certainly much easier than having to look up the container ID and remove it.
+If you open the VS Code Extension, you can remove a container with two clicks! It's certainly much easier than having to look up the container ID and remove it.
 
 1. With the extension opened, navigate to the container and right-click.
 

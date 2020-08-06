@@ -79,7 +79,7 @@ Now that you have an image, run the application! To do so, use the `docker run` 
 
 At this point, you should have a running todo list manager with a few items, all built by you! Now, let's make a few changes and learn about managing your containers.
 
-If you take a quick look at the VSCode extension, you should see your two containers running now (this tutorial and your freshly launched app container)!
+If you take a quick look at the VS Code extension, you should see your two containers running now (this tutorial and your freshly launched app container)!
 
 ![Docker Extension  with tutorial and app containers running](media/vs-two-containers.png)
 

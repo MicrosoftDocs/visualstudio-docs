@@ -38,9 +38,9 @@ You'll notice a few flags being used. Here's some more info on them:
 > docker run -dp 80:80 docker/getting-started
 > ```
 
-## The VSCode Extension
+## The VS Code Extension
 
-Before going too far, we want to highlight the Docker VSCode Extension, which gives you a quick view of the containers running on your machine. It gives you quick
+Before going too far, we want to highlight the Docker VS Code Extension, which gives you a quick view of the containers running on your machine. It gives you quick
 access to container logs, lets you get a shell inside the container, and lets you easily manage container lifecycle (stop, remove, and so on).
 
 To access the extension, follow the instructions [here](https://code.visualstudio.com/docs/containers/overview). If you open the extension

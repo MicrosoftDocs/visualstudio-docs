@@ -30,9 +30,9 @@ To see this in action, you're going to start two containers and create a file in
 
     In case you're curious about the command, you're starting a bash shell and invoking two commands (why it has the `&&`). The first portion picks a single random number and writes it to `/data.txt`. The second command is simply watching a file to keep the container running.
 
-1. Validate you can see the output by using `exec` to get into the container. To do so, open the VSCode extension and on click on the **Attach Shell** option. This will use `exec` to open a shell in the container within the VSCode terminal.
+1. Validate you can see the output by using `exec` to get into the container. To do so, open the VS Code extension and on click on the **Attach Shell** option. This will use `exec` to open a shell in the container within the VS Code terminal.
 
-    ![VSCode open CLI into ubuntu container](media/attach_shell.png)
+    ![VS Code open CLI into ubuntu container](media/attach_shell.png)
 
     You will see a terminal that is running a shell in the Ubuntu container. Run the following command to see the content of the `/data.txt` file. Close this terminal afterwards again.
 
