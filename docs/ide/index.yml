@@ -87,5 +87,5 @@ landingContent:
             url: ../ide/whats-new-visual-studio-2019.md
           - text: What's new in Visual Studio 2017
             url: ../ide/whats-new-visual-studio-2017.md
-          - text: What's new in Visual Studio 2019
-            url: ../ide/whats-new-visual-studio-2019-docs.md
+          - text: What's new in Visual Studio docs
+            url: ../ide/whats-new-visual-studio-docs.md
