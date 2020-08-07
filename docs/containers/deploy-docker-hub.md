@@ -8,6 +8,7 @@ ms.devlang: dotnet
 ms.topic: how-to
 ms.date: 07/23/2019
 ms.author: ghogen
+monikerRange: ">=vs-2019"
 ---
 # Deploy to Docker Hub
 

@@ -32,6 +32,7 @@ To complete this tutorial:
 * Install [Docker for Windows](https://docs.docker.com/docker-for-windows/install/)
 
 ## Create an ASP.NET Core web app
+
 The following steps guide you through creating a basic ASP.NET Core app that will be used in this tutorial. If you already have a project, you can skip this section.
 
 ::: moniker range="vs-2017"
@@ -41,9 +42,10 @@ The following steps guide you through creating a basic ASP.NET Core app that wil
 [!INCLUDE [create-aspnet5-app](../azure/includes/vs-2019/create-aspnet5-app-2019.md)]
 ::: moniker-end
 
-::: moniker range='vs-2017"
+::: moniker range="vs-2017"
 
 ## Publish your container to Azure Container Registry
+
 1. Right-click your project in **Solution Explorer** and choose **Publish**.
 2. On the **Publish target** dialog, select **Container Registry**.
 3. Choose **New Azure Container Registry** and click **Publish**.
