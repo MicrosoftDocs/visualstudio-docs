@@ -1,7 +1,7 @@
 ---
 title: Adding a Submenu to a Menu | Microsoft Docs
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - context menus
 - submenus, cascading
@@ -122,7 +122,8 @@ This walkthrough builds on the demonstration in [Add a Menu to the Visual Studio
     ```csharp
     private void SubItemCallback(object sender, EventArgs e)
     {
-        IVsUIShell uiShell = (IVsUIShell)this.ServiceProvider.GetServiceAsync(typeof(SVsUIShell));
+        ThreadHelper.ThrowIfNotOnUIThread();
+        IVsUIShell uiShell = this.package.GetService<SVsUIShell, IVsUIShell>();
         Guid clsid = Guid.Empty;
         int result;
         uiShell.ShowMessageBox(

@@ -2,8 +2,14 @@
 title: Calculate code metrics
 ms.date: 11/02/2018
 ms.topic: conceptual
+f1_keywords:
+  - vs.codeanalysis.codemetrics.toolwindow
+dev_langs:
+  - "CSharp"
+  - "VB"
+  - "FSharp"
 helpviewer_keywords:
-- code metrics [Visual Studio]
+  - code metrics [Visual Studio]
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
@@ -34,7 +40,7 @@ The following list shows the code metrics results that Visual Studio calculates:
 
 - **Lines of Source code** - Indicates the exact number of source code lines that are present in your source file, including blank lines. This metric is available starting in Visual Studio 2019 version 16.4 and Microsoft.CodeAnalysis.Metrics (2.9.5).
 
-- **Lines of Executable code** - Indicates the approximate number of executable code lines or operations. This is a count of number of operations in executable code. This metric is available starting in Visual Studio 2019 version 16.4 and Microsoft.CodeAnalysis.Metics (2.9.5). The value is typically a close match to the previous metric, **Lines of Code**, which is the MSIL-instruction-based metric used in legacy mode.
+- **Lines of Executable code** - Indicates the approximate number of executable code lines or operations. This is a count of number of operations in executable code. This metric is available starting in Visual Studio 2019 version 16.4 and Microsoft.CodeAnalysis.Metrics (2.9.5). The value is typically a close match to the previous metric, **Lines of Code**, which is the MSIL-instruction-based metric used in legacy mode.
 ::: moniker-end
 ::: moniker range="vs-2017"
 

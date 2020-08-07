@@ -2,7 +2,7 @@
 title: Define custom menu commands for Python projects
 description: By editing project and targets files,  you can add custom commands to the Python project context menu in Visual Studio to invoke executable programs, scripts, modules, inline code snippets, and pip.
 ms.date: 11/12/2018
-ms.topic: conceptual
+ms.topic: how-to
 author: JoshuaPartlow
 ms.author: joshuapa
 manager: jillfra
@@ -379,7 +379,7 @@ Indicates that the contents of the `<Target>` or `<CreatePythonCommandItem>` ele
 
 Attribute values can be empty if you refer to a property that's not defined. For example, if you use the token `$(StartupFile)` but no startup file has been defined in the project, then the token resolves to an empty string. In such cases, you may want to define a default value. For example, the **Run server** and **Run debug server** commands defined in the Bottle, Flask, and Django project templates default to *manage.py* if you haven't otherwise specified a server startup file in the project properties.
 
-### Visual Studio hangs and crashes when running the command
+### Visual Studio stops responding and crashes when running the command
 
 You're likely attempting to run a console command with `ExecuteIn="output"`, in which case Visual Studio may crash trying to parse the output. Use `ExecuteIn="console"` instead. (See [Issue 3682](https://github.com/Microsoft/PTVS/issues/3681).)
 

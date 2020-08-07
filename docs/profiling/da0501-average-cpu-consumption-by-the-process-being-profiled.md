@@ -1,22 +1,22 @@
 ---
-title: "DA0501: Average CPU consumption by the Process being profiled. | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-f1_keywords:
-  - "vs.performance.rules.DA0501"
-  - "vs.performance.DA0501"
-  - "vs.performance.501"
+title: DA0501 - Average CPU consumption by the Process being profiled. | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: reference
+f1_keywords: 
+  - vs.performance.rules.DA0501
+  - vs.performance.DA0501
+  - vs.performance.501
 ms.assetid: b01946b4-75e3-47d5-a1a1-cebfae66a3af
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 monikerRange: 'vs-2017'
-ms.workload:
-  - "multiple"
+ms.workload: 
+  - multiple
 ---
 # DA0501: Average CPU consumption by the process being profiled.
 
-|||
+|Item|Value|
 |-|-|
 |Rule Id|DA501|
 |Category|Resource Monitoring|

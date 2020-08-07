@@ -1,7 +1,7 @@
 ---
 title: "Troubleshoot errors in Office solutions"
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: "troubleshooting"
 f1_keywords:
   - "VST.Project.DesignerDisabled"
   - "VST.Designer.CannotActivate"
@@ -211,3 +211,4 @@ Word.Document document = Globals.ThisAddIn.Application.ActiveDocument;
 - [Troubleshoot Office solutions](../vsto/troubleshooting-office-solutions.md)
 - [Troubleshoot Office solution security](../vsto/troubleshooting-office-solution-security.md)
 - [Troubleshoot Office solution deployment](../vsto/troubleshooting-office-solution-deployment.md)
+- [Visual Studio troubleshooting](/troubleshoot/visualstudio/welcome-visual-studio/)

@@ -20,7 +20,7 @@ manager: jillfra
 
 For the latest documentation on Visual Studio, see [DA0010: Expensive GetHashCode](/visualstudio/profiling/da0010-expensive-gethashcode).  
 
-|||  
+|Item|Value|  
 |-|-|  
 |Rule Id|DA0010|  
 |Category|.NET Framework Usage|  

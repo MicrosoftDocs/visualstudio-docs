@@ -1,7 +1,7 @@
 ---
 title: Creating Custom Project and Item Templates | Microsoft Docs
 ms.date: 3/16/2019
-ms.topic: conceptual
+ms.topic: overview
 ms.assetid: 586da5dc-f678-402b-afd0-0332959fd7a6
 author: acangialosi
 ms.author: anthc

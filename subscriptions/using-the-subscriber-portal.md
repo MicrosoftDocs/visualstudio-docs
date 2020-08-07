@@ -5,7 +5,7 @@ ms.author: v-evwin
 manager: lank
 ms.assetid: 8470f035-2a82-4052-9a12-6f24ce796861
 ms.date: 07/19/2019
-ms.topic: conceptual
+ms.topic: overview
 description: Learn about the full range of benefits available to you on the Visual Studio subscriptions portal
 ---
 

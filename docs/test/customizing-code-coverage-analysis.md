@@ -28,13 +28,13 @@ To customize code coverage, follow these steps:
 
 ::: moniker range="vs-2017"
 
-3. To select the run settings file, on the **Test** menu, choose **Test Settings** > **Select Test Settings File**. To specify a run settings file for running tests from the command line, see [Configure unit tests](../test/configure-unit-tests-by-using-a-dot-runsettings-file.md#command-line).
+3. To select the run settings file, on the **Test** menu, choose **Test Settings** > **Select Test Settings File**. To specify a run settings file for running tests from the command line, see [Configure unit tests](../test/configure-unit-tests-by-using-a-dot-runsettings-file.md#specify-a-run-settings-file-from-the-command-line).
 
 ::: moniker-end
 
 ::: moniker range=">=vs-2019"
 
-3. To select the run settings file, on the **Test** menu, choose **Select Settings File**. To specify a run settings file for running tests from the command line, see [Configure unit tests](../test/configure-unit-tests-by-using-a-dot-runsettings-file.md#command-line).
+3. To select the run settings file, on the **Test** menu, choose **Select Settings File**. To specify a run settings file for running tests from the command line, see [Configure unit tests](../test/configure-unit-tests-by-using-a-dot-runsettings-file.md#specify-a-run-settings-file-from-the-command-line).
 
 ::: moniker-end
 

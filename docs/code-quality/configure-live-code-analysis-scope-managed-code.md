@@ -7,8 +7,8 @@ helpviewer_keywords:
   - "background analysis"
   - "analysis scope"
   - "full solution analysis"
-author: jillre
-ms.author: jillfra
+author: Mikejo5000
+ms.author: mikejo
 manager: jillfra
 ms.workload:
   - "dotnet"

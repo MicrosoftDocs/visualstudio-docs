@@ -40,7 +40,7 @@ You can spend less time debugging your application when you use IntelliTrace to 
   
 ## What do you want to do?  
   
-|||  
+|Scenario|Articles|  
 |-|-|  
 |**Debug my application with IntelliTrace:**<br /><br /> -   Show me past events.<br />-   Show me call information with past events.<br />-   Save my IntelliTrace session.<br />-   Control the data that IntelliTrace collects.|-   [Walkthrough: Using IntelliTrace](../debugger/walkthrough-using-intellitrace.md)<br />     [IntelliTrace Features](../debugger/intellitrace-features.md)<br />-   [Configure IntelliTrace](https://msdn.microsoft.com/7657ecab-e07e-4b1b-872d-f05d966be37e)<br />-   [Historical Debugging](../debugger/historical-debugging.md)|  
 |**Collect IntelliTrace data during a test session in Test Manager**|-   [Collect more diagnostic data in manual tests](https://msdn.microsoft.com/library/bb5a2cc0-84f5-4dfe-9560-ca3d313aefd2)|  
@@ -49,7 +49,7 @@ You can spend less time debugging your application when you use IntelliTrace to 
   
 ## <a name="IntelliTraceSupport"></a> What apps can I debug with IntelliTrace?  
   
-|||  
+|Support level|App types|  
 |-|-|  
 |**Supported**|-   Visual Basic and Visual C# applications that use .NET Framework 2.0 or higher versions.<br />     You can debug most applications, including ASP.NET, Microsoft Azure, Windows Forms, WCF, WPF, Windows Workflow, SharePoint 2010, SharePoint 2013, and 64-bit apps.<br />     To debug SharePoint applications with IntelliTrace, see [Walkthrough: Debugging a SharePoint Application by Using IntelliTrace](https://msdn.microsoft.com/library/4bd80d2f-f680-4bf4-81c3-f14e8185f6a4).<br />     To debug Microsoft Azure apps with IntelliTrace, see [Debugging a Published Cloud Service with IntelliTrace and Visual Studio](../azure/vs-azure-tools-intellitrace-debug-published-cloud-services.md).|  
 |**Limited support**|-   F# apps on an experimental basis<br />-   Windows Store apps supported for events only|  

@@ -21,7 +21,7 @@ manager: "wpickett"
 
 For the latest documentation on Visual Studio, see [CA1500: Variable names should not match field names](/visualstudio/code-quality/ca1500-variable-names-should-not-match-field-names).
 
-|||
+|Item|Value|
 |-|-|
 |TypeName|VariableNamesShouldNotMatchFieldNames|
 |CheckId|CA1500|

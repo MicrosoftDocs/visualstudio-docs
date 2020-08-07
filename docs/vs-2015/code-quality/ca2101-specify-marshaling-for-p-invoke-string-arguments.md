@@ -19,7 +19,7 @@ manager: "wpickett"
 # CA2101: Specify marshaling for P/Invoke string arguments
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-|||
+|Item|Value|
 |-|-|
 |TypeName|SpecifyMarshalingForPInvokeStringArguments|
 |CheckId|CA2101|

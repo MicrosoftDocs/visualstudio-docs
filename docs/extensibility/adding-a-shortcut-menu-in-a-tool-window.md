@@ -1,7 +1,7 @@
 ---
 title: Adding a Shortcut Menu in a Tool Window | Microsoft Docs
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - context menus, adding to tool windows
 - menus, context menus

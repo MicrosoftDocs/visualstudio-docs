@@ -1,22 +1,22 @@
 ---
-title: "DA0021: High rate of Gen 1 garbage collections | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-f1_keywords:
-  - "vs.performance.21"
-  - "vs.performance.DA0021"
-  - "vs.performance.rules.DA0021"
+title: DA0021 - High rate of Gen 1 garbage collections | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: reference
+f1_keywords: 
+  - vs.performance.21
+  - vs.performance.DA0021
+  - vs.performance.rules.DA0021
 ms.assetid: ebf5d9b3-a1ac-4688-8f0f-39a85f4dd15f
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 monikerRange: 'vs-2017'
-ms.workload:
-  - "multiple"
+ms.workload: 
+  - multiple
 ---
 # DA0021: High rate of Gen 1 garbage collections
 
-|||
+|Item|Value|
 |-|-|
 |Rule Id|DA0021|
 |Category|.NET Framework Usage|

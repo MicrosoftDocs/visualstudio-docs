@@ -1,7 +1,7 @@
 ---
 title: "Creating Web Parts for SharePoint | Microsoft Docs"
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: overview
 f1_keywords:
   - "Microsoft.SharePoint.WebControls.DateTimeControl"
   - "Microsoft.SharePoint.WebControls.CssLink"

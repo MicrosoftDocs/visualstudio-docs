@@ -27,7 +27,7 @@ To perform the export:
 1. Sign in to the [Administration Portal](https://manage.visualstudio.com).
 2. Select the **Export** tab. and the file will download to your local machine. The file will include the name of the agreement that contains your user subscriptions, as well as the date of the export.
 > [!div class="mx-imgBorder"]
-> ![Export subscribers](_img/exporting-subscriptions/exporting-subscriptions.png)
+> ![Export subscribers](_img/exporting-subscriptions/exporting-subscriptions.png "Click Export to save of list of your assigned subscriptions with subscriber information.")
 
 ### Identify the GUIDs you want to assign
 

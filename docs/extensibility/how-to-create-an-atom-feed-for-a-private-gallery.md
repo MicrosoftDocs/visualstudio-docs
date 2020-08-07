@@ -1,7 +1,7 @@
 ---
 title: 'How to: Create an Atom Feed for a Private Gallery | Microsoft Docs'
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - Atom feed, VSIX private galleries
 - VSIX private galleries, Atom feed

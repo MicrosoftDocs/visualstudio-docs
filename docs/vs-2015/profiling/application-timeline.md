@@ -91,7 +91,7 @@ Use the **Application Timeline** profiler to find and fix application-interactio
   
  The following events are supported:  
   
-|||  
+|Name|Description|  
 |-|-|  
 |**Parsing**|Time spent parsing XAML files and creating objects.<br /><br /> Expanding a **Parsing** node in **Timeline details** displays the dependency chain of all the XAML files that were parsed as a result of the root event. This will enable you to identify unnecessary file parsing and object creation in performance sensitive scenarios and optimize them out.|  
 |**Layout**|In large applications, thousands of elements may be shown on the screen at the same time. This might result in a low UI frame rate and correspondingly poor application responsiveness. The Layout event accurately determines the cost of laying out each element (i.e. the time spent in Arrange, Measure, ApplyTemplate, ArrangeOverride, and ArrangeOverride) and builds the visual trees that took part in a Layout pass. You can use this visualization to determine which of your logical trees needs pruning, or to evaluate other deferral mechanisms to optimize your layout pass.|  
@@ -106,7 +106,7 @@ Use the **Application Timeline** profiler to find and fix application-interactio
 #### <a name="BKMK_Customizing_Timeline_details_"></a> Customizing Timeline details  
  Use the **Timeline details** toolbar to sort, filter, and specify the annotations of **Timeline details** view entries.  
   
-|||  
+|Name|Description|  
 |-|-|  
 |**Sort by**|Sort by start time or the length of events.|  
 |![Group events by frame](../profiling/media/timeline-groupbyframes.png "TIMELINE_GroupByFrames")|Adds or removes a top-level **Frame** category that groups events by frame.|  

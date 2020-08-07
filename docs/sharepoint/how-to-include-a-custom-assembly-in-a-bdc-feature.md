@@ -1,7 +1,7 @@
 ---
 title: "How to: Include a Custom Assembly in a BDC Feature | Microsoft Docs"
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: how-to
 f1_keywords:
   - "VS.SharePointTools.BDC.Add_Assemblies_Dialog"
 dev_langs:

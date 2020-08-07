@@ -1,7 +1,7 @@
 ---
 title: Customize captions for data-bound controls
 ms.date: 11/03/2017
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - Label captions, Data Sources window
 - smart captions

@@ -3,7 +3,7 @@ title: Configure Visual Studio Container Tools
 description: Configure the tools available in Visual Studio for working with Docker containers.
 author: ghogen
 ms.author: ghogen
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 03/20/2019
 ms.technology: vs-azure
 ---

@@ -1,31 +1,31 @@
 ---
-title: "Find memory leaks with the CRT Library | Microsoft Docs"
-ms.date: "10/04/2018"
-ms.topic: "conceptual"
-dev_langs:
-  - "C++"
-helpviewer_keywords:
-  - "breakpoints, on memory allocation"
-  - "_CrtMemState"
-  - "_CrtMemCheckpoint"
-  - "memory leaks"
-  - "_CrtMemDifference"
-  - "memory leaks, detecting and isolating"
-  - "_CrtDumpMemoryLeaks"
-  - "_CrtSetBreakAlloc"
-  - "_crtBreakAlloc"
-  - "_CrtSetReportMode"
-  - "memory, debugging"
-  - "_CrtMemDumpStatistics"
-  - "debugging memory leaks"
-  - "_CRTDBG_MAP_ALLOC"
-  - "_CrtSetDbgFlag"
+title: Find memory leaks with the CRT Library | Microsoft Docs
+ms.date: 10/04/2018
+ms.topic: how-to
+dev_langs: 
+  - C++
+helpviewer_keywords: 
+  - breakpoints, on memory allocation
+  - _CrtMemState
+  - _CrtMemCheckpoint
+  - memory leaks
+  - _CrtMemDifference
+  - memory leaks, detecting and isolating
+  - _CrtDumpMemoryLeaks
+  - _CrtSetBreakAlloc
+  - _crtBreakAlloc
+  - _CrtSetReportMode
+  - memory, debugging
+  - _CrtMemDumpStatistics
+  - debugging memory leaks
+  - _CRTDBG_MAP_ALLOC
+  - _CrtSetDbgFlag
 ms.assetid: cf6dc7a6-cd12-4283-b1b6-ea53915f7ed1
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
-ms.workload:
-  - "multiple"
+ms.workload: 
+  - multiple
 ---
 # Find memory leaks with the CRT library
 

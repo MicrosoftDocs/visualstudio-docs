@@ -1,14 +1,14 @@
 ---
-title: "Detach | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Detach | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: reference
 ms.assetid: d9d1b52c-7f28-467d-b1e0-512afc4e46c9
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 monikerRange: 'vs-2017'
-ms.workload:
-  - "multiple"
+ms.workload: 
+  - multiple
 ---
 # Detach
 The VSPerfCmd.exe **Detach** option disconnects the profiler from the specified processes or all processes if none are specified. Profiling must have been initialized by using the sampling method.

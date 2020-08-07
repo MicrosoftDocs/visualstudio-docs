@@ -5,6 +5,7 @@ author: alanjclark
 ms.author: dominicn
 ms.date: 09/23/2019
 ms.assetid: 590C325D-AAD0-4889-B1DB-A1090BBFBE89
+ms.topic: how-to
 ---
 
 # Using VoiceOver with Visual Studio for Mac

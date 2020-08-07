@@ -1,13 +1,13 @@
 ---
-title: "Configure Windows Firewall for remote debugging | Microsoft Docs"
-ms.date: "10/31/2018"
-ms.topic: "conceptual"
+title: Configure Windows Firewall for remote debugging | Microsoft Docs
+ms.date: 10/31/2018
+ms.topic: how-to
 ms.assetid: 66e3230a-d195-4473-bbce-8ca198516014
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
-ms.workload:
-  - "multiple"
+ms.workload: 
+  - multiple
 ---
 # Configure Windows Firewall for remote debugging
 

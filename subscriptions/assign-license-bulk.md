@@ -5,7 +5,7 @@ ms.author: lank
 manager: lank
 ms.assetid: c2853359-18fd-4be4-97a6-02230c862f92
 ms.date: 05/10/2020
-ms.topic: conceptual
+ms.topic: how-to
 description:  Learn how administrators can assign licenses to multiple subscribers using either the Bulk add feature or Microsoft Azure Active Directory groups
 ---
 
@@ -25,7 +25,7 @@ To add large groups of users, you can use the bulk add feature, or if your organ
 
 1. Bulk add uses a Microsoft Excel template to upload subscriber information. In the Upload Multiple Subscribers dialog box, click **Download** to download the template.
    > [!div class="mx-imgBorder"]
-   > ![Download the Excel template to upload multiple subscribers](media/download-template-upload-subscribers.png)
+   > ![Download the Excel template to upload multiple subscribers](media/download-template-upload-subscribers.png "Download the blank Excel template to begin the bulk assignment process.")
    >
    > [!NOTE]
    > Always download the latest version of this template. If you use an older version, your bulk upload may fail.
@@ -45,17 +45,17 @@ To add large groups of users, you can use the bulk add feature, or if your organ
 
 1. Return to the Visual Studio Subscriptions Administration portal. In the **Upload Multiple Subscribers** dialog box, click **Browse**.
    > [!div class="mx-imgBorder"]
-   > ![Browse to your saved template to upload multiple subscribers](media/bulk-add-browse-saved-template.png)
+   > ![Browse to your saved template to upload multiple subscribers](media/bulk-add-browse-saved-template.png "You can browse to the file location, or drag and drop it into this dialog box.")
 
 1. Navigate to the Excel file that you saved, and then click **OK**.
    > [!div class="mx-imgBorder"]
-   > ![Upload the Excel template to upload multiple subscribers](media/bulk-upload-subscribers.png)
+   > ![Upload the Excel template to upload multiple subscribers](media/bulk-upload-subscribers.png "The template with your data will appear here.  Click OK to begin the upload.")
 
     An upload progress dialog appears.
 
     If the template contains errors, the upload will fail, and you will be shown the errors so that you can correct the template and attempt the bulk upload again.
    > [!div class="mx-imgBorder"]
-   > ![Error message if the upload of multiple subscribers fails](_img/assign-license-bulk/bulk-add-upload-failure.png)
+   > ![Error message if the upload of multiple subscribers fails](_img/assign-license-bulk/bulk-add-upload-failure.png "This message will appear if the file you uploaded contained errors.  Resolve the errors and perform the Bulk add process again.")
 
    If you encounter a failure follow these steps:
    1. Open the Excel file you created, correct the problems, and save the file.
@@ -67,7 +67,7 @@ To add large groups of users, you can use the bulk add feature, or if your organ
 
     When the upload is successful, you'll see the list of subscribers and a confirmation message.
    > [!div class="mx-imgBorder"]
-   > ![Confirmation message if the upload of multiple subscribers succeeds](_img/assign-license-bulk/bulk-add-upload-success.png)
+   > ![Confirmation message if the upload of multiple subscribers succeeds](_img/assign-license-bulk/bulk-add-upload-success.png "When your upload completes successfully, you'll receive a confirmation message.")
 
 ## Use Azure Active Directory groups to assign subscriptions 
 Using this feature makes it easy to stay on top of your subscription assignments. You can add Azure Active Directory Security Groups in the Subscriptions Administration Portal which will ensure that all individuals in the group are assigned a subscription. And to make it easier, when individuals leave your organization and are removed from Azure Active Directory, their access to subscriptions is also removed. 
@@ -95,14 +95,14 @@ Using this feature makes it easy to stay on top of your subscription assignments
 3. Choose the **Add** tab, then select **Azure Active Directory group** in the drop-down.  
 
    > [!div class="mx-imgBorder"]
-   > ![Choose bulk add using Azure AD](_img/assign-license-bulk/bulk-add-aad.png)
+   > ![Choose bulk add using Azure AD](_img/assign-license-bulk/bulk-add-aad.png "Choose the Bulk add using Azure AD feature to pull subscribers from your Azure Active Directory group.")
 
 4. Begin to enter the name of the Azure AD group that you'd like to add into the form field. This will search the available Azure AD groups within your organization. 
 
 5. When you select the group, the field will automatically populate with the group name. You will have the option to view the users in that group before you add them. Next, you can choose the subscription level, download rights, and communication preferences for the group. You can add details into the reference field if you wish. 
 
    > [!div class="mx-imgBorder"]
-   > ![Choose bulk add using Azure AD](_img/assign-license-bulk/bulk-add-aad-details.png)
+   > ![Choose your Azure AD group](_img/assign-license-bulk/bulk-add-aad-details.png "Choose the name of your Azure AD group to add subscribers from that group.")
 
 6. Click **Add** and then **Confirm**. 
 

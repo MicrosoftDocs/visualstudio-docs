@@ -1,7 +1,7 @@
 ---
 title: Windows Communication Foundation and WCF Data Services
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: overview
 dev_langs:
 - VB
 - CSharp

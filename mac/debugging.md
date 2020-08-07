@@ -6,6 +6,7 @@ ms.author: johmil
 ms.date: 5/13/2020
 ms.technology: vs-ide-debug
 ms.assetid: BB7A084D-9AC2-48B5-8076-6C8518796BBA
+ms.topic: overview
 ---
 # Debugging with Visual Studio for Mac
 

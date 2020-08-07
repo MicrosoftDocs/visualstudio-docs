@@ -42,7 +42,7 @@ This walkthrough shows how to add a tracking property to a domain model.
 ## Prerequisites
  Before you can start this walkthrough, you must first install these components:
 
-|||
+|Product|Download link|
 |-|-|
 |[!INCLUDE[vsprvs](../includes/vsprvs-md.md)]|[https://www.visualstudio.com/](https://www.visualstudio.com/)|
 |[!INCLUDE[vssdk_current_short](../includes/vssdk-current-short-md.md)]|[Visual Studio SDK](../extensibility/visual-studio-sdk.md)|

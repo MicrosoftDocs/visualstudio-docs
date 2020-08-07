@@ -19,7 +19,7 @@ manager: "wpickett"
 # CA2221: Finalizers should be protected
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-|||
+|Item|Value|
 |-|-|
 |TypeName|FinalizersShouldBeProtected|
 |CheckId|CA2221|

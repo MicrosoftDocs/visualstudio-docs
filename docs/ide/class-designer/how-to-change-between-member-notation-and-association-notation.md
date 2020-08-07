@@ -1,7 +1,7 @@
 ---
 title: Change between member & association notation (Class Designer)
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - notation, member
 - association notation

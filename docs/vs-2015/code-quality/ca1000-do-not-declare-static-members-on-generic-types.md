@@ -19,7 +19,7 @@ manager: "wpickett"
 # CA1000: Do not declare static members on generic types
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-|||
+|Item|Value|
 |-|-|
 |TypeName|DoNotDeclareStaticMembersOnGenericTypes|
 |CheckId|CA1000|

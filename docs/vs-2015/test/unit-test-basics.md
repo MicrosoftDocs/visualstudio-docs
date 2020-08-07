@@ -234,7 +234,7 @@ public void My_Test ()
 > [!WARNING]
 > Running unit tests after every build is supported only in Visual Studio Enterprise.
 
-|||
+|Image|Description|
 |-|-|
 |![Run after build](../test/media/ute-runafterbuild-btn.png "UTE_RunAfterBuild_btn")|To run your unit tests after each local build, choose **Test** on the standard menu, choose **Run Tests After Build** on the Test Explorer toolbar.|
 
@@ -243,7 +243,7 @@ public void My_Test ()
 
  ![Search filter categories](../test/media/ute-searchfilter.png "UTE_SearchFilter")
 
-|||
+|Image|Description|
 |-|-|
 |![Test Explorer group button](../test/media/ute-groupby-btn.png "UTE_GroupBy_btn")|To group your tests by category, choose the **Group By** button.|
 

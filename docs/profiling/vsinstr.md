@@ -1,23 +1,23 @@
 ---
-title: "VSInstr | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-helpviewer_keywords:
-  - "performance tools, instrumentation"
-  - "instrumentation, VSInstr tool"
-  - "profiling tools,VSInstr"
-  - "command-line tools, instrumentation"
-  - "command line, tools"
-  - "VSInstr"
-  - "VSInstr tool"
-  - "performance tools, VSInstr tool"
+title: VSInstr | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: reference
+helpviewer_keywords: 
+  - performance tools, instrumentation
+  - instrumentation, VSInstr tool
+  - profiling tools,VSInstr
+  - command-line tools, instrumentation
+  - command line, tools
+  - VSInstr
+  - VSInstr tool
+  - performance tools, VSInstr tool
 ms.assetid: 7b1334f7-f9b0-4a82-a145-d0607bfa8467
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 monikerRange: 'vs-2017'
-ms.workload:
-  - "multiple"
+ms.workload: 
+  - multiple
 ---
 # VSInstr
 The VSInstr tool is used to instrument binaries. It is invoked by using the following syntax:

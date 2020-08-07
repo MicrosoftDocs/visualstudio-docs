@@ -1,26 +1,26 @@
 ---
-title: "Find out if my pointers corrupt a memory address | Microsoft Docs"
-ms.custom: "seodec18"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-dev_langs:
-  - "CSharp"
-  - "VB"
-  - "FSharp"
-  - "C++"
-helpviewer_keywords:
-  - "addresses, pointers corrupting memory address"
-  - "memory, corruption"
-  - "pointers, corrupting memory addresses"
-  - "memory address corruption by pointers"
-  - "debugging [C++], memory corruption"
-  - "corrupted memory address"
+title: Find out if my pointers corrupt a memory address | Microsoft Docs
+ms.custom: seodec18
+ms.date: 11/04/2016
+ms.topic: how-to
+dev_langs: 
+  - CSharp
+  - VB
+  - FSharp
+  - C++
+helpviewer_keywords: 
+  - addresses, pointers corrupting memory address
+  - memory, corruption
+  - pointers, corrupting memory addresses
+  - memory address corruption by pointers
+  - debugging [C++], memory corruption
+  - corrupted memory address
 ms.assetid: a147c939-4fb1-415c-8410-cf303781e9e8
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
-ms.workload:
-  - "multiple"
+ms.workload: 
+  - multiple
 ---
 # How Can I Find Out If My Pointers Corrupt a Memory Address?
 ## Problem Description

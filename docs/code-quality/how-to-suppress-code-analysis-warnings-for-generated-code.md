@@ -1,13 +1,13 @@
 ---
 title: Suppress Code Analysis violations for Generated Code
 ms.date: 05/13/2019
-ms.topic: conceptual
+ms.topic: how-to
 ms.assetid: 3a96434e-d419-43a7-81ba-95cccac835b8
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.workload:
-- multiple
+ms.workload: 
+  - multiple
 ---
 # How to: Suppress code analysis warnings for generated code
 

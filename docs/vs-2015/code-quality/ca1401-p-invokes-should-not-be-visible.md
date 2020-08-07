@@ -19,7 +19,7 @@ manager: "wpickett"
 # CA1401: P/Invokes should not be visible
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-|||
+|Item|Value|
 |-|-|
 |TypeName|PInvokesShouldNotBeVisible|
 |CheckId|CA1401|

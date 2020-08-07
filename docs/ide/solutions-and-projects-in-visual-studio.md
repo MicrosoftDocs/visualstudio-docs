@@ -1,6 +1,6 @@
 ---
 title: Solutions and projects
-ms.date: 10/05/2017
+ms.date: 06/26/2020
 ms.topic: conceptual
 f1_keywords:
 - vs.addnewitem
@@ -68,10 +68,16 @@ After you create a new project, you can use **Solution Explorer** to view and ma
 
 Many menu commands are available from the right-click menu on various items in **Solution Explorer**. These commands include building a project, managing NuGet packages, adding a reference, renaming a file, and running tests, just to name a few. The toolbar across the top of **Solution Explorer** has buttons to switch from a solution view to a folder view, show hidden files, collapse all nodes, and more.
 
+> [!TIP]
+> If you've closed Solution Explorer and you want to open it again, choose **Window** > **Reset Window Layout** from the menu bar.
+
 For ASP.NET Core projects, you can customize how files are nested in **Solution Explorer**. For more information, see [Customize file nesting in Solution Explorer](file-nesting-solution-explorer.md).
+
+And, to view a list of some of the icons that appear in Solution Explorer, see [Class View and Object Browser icons](class-view-and-object-browser-icons.md).
 
 ## See also
 
 - [Visual Studio IDE](../get-started/visual-studio-ide.md)
+- [Port, migrate, and upgrade projects](../porting/port-migrate-and-upgrade-visual-studio-projects.md)
 - [Projects and solutions (Visual Studio for Mac)](/visualstudio/mac/projects-and-solutions)
 - [Add and remove project items (Visual Studio for Mac)](/visualstudio/mac/add-and-remove-project-items)

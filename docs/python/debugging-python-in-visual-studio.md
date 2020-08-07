@@ -2,7 +2,7 @@
 title: Debug Python code
 description: Visual Studio provide rich debugging for Python code, including setting breakpoints, stepping, inspecting values, looking at exceptions, and debugging in the interactive window.
 ms.date: 05/12/2020
-ms.topic: conceptual
+ms.topic: how-to
 author: JoshuaPartlow
 ms.author: joshuapa
 manager: jillfra
@@ -248,7 +248,7 @@ The following steps enable debugging in the current Visual Studio session:
 
     ![Debugger logging output in the Output window](media/debugger-logging-output.png)
 
-1. If Visual Studio hangs or you are otherwise not able to access the **Output** window, restart Visual Studio, open a command window, and enter the following command:
+1. If Visual Studio stops responding or you are otherwise not able to access the **Output** window, restart Visual Studio, open a command window, and enter the following command:
 
     ```ps
     DebugAdapterHost.Logging /On

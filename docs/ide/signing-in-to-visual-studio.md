@@ -2,7 +2,7 @@
 title: Sign in to Visual Studio
 titleSuffix: ''
 ms.custom: seodec18
-ms.date: 03/10/2020
+ms.date: 07/24/2020
 ms.topic: conceptual
 ms.assetid: b9531c25-e4cf-43ae-b331-a9f31a8cd171
 author: ornellaalt
@@ -18,6 +18,14 @@ You can personalize and optimize your development experience in Visual Studio by
 > [!NOTE]
 > This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [Sign in to Visual Studio for Mac](/visualstudio/mac/signing-in).
 
+::: moniker range="vs-2017"
+
+> [! WARNING]
+> Using Visual Studio 2017 to access resources configured for conditional access may trigger a degraded authentication experience, prompting reauthentication several times within the same Visual Studio session. 
+> To work with resources configured for conditional access, upgrade to Visual Studio 2019 Update 16.6 or later. For more information, see [How to use Visual Studio with accounts that require multi-factor authentication](work-with-multi-factor-authentication.md).
+
+::: moniker-end
+
 ## Why should I sign in to Visual Studio?
 
 When you sign in, you enrich your Visual Studio experience. For example, after you sign in, you can [synchronize your settings](synchronized-settings-in-visual-studio.md) across devices, extend a trial, and automatically connect to an Azure service, to name a few.
@@ -25,7 +33,7 @@ When you sign in, you enrich your Visual Studio experience. For example, after y
 Here's a full list of what you can expect and what you can do after you sign in:
 - **Extend the Visual Studio trial period** - You can use Visual Studio Professional or Visual Studio Enterprise for an additional 90 days, instead of being limited to the trial period of 30 days. For more information, see [Extend a trial version or update a license](../ide/how-to-unlock-visual-studio.md).
 
-- **Unlock the Visual Studio Community edition** - If your Community edition installation prompts you for a license, sign in to the IDE to unblock yourself.
+- **Continue using the Visual Studio Community edition** - If your Community edition installation prompts you for a license, sign in to the IDE to continue using Visual Studio Community for **free**. 
 
 - **Unlock Visual Studio if you use an account that's associated with a Visual Studio subscription or an Azure DevOps organization**. For detailed instructions, see [Extend a trial version or update a license](../ide/how-to-unlock-visual-studio.md).
 

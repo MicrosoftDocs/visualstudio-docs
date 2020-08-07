@@ -1,28 +1,28 @@
 ---
-title: "Apply Edits in break mode with Edit and Continue | Microsoft Docs"
-ms.custom: "seodec18"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-f1_keywords:
-  - "vs.debug.variables.failededit"
-dev_langs:
-  - "CSharp"
-  - "VB"
-  - "FSharp"
-  - "C++"
-helpviewer_keywords:
-  - "Edit and Continue [Visual Basic], applying edits in break mode"
-  - "break mode, applying code changes"
-  - "Edit and Continue, applying edits in break mode"
-  - "editing, break mode"
-  - "coding, editing in break mode"
-  - "code, editing in break mode"
+title: Apply Edits in break mode with Edit and Continue | Microsoft Docs
+ms.custom: seodec18
+ms.date: 11/04/2016
+ms.topic: how-to
+f1_keywords: 
+  - vs.debug.variables.failededit
+dev_langs: 
+  - CSharp
+  - VB
+  - FSharp
+  - C++
+helpviewer_keywords: 
+  - Edit and Continue [Visual Basic], applying edits in break mode
+  - break mode, applying code changes
+  - Edit and Continue, applying edits in break mode
+  - editing, break mode
+  - coding, editing in break mode
+  - code, editing in break mode
 ms.assetid: 1eef7498-6a1f-4fba-8146-510adc6375c9
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
-ms.workload:
-  - "multiple"
+ms.workload: 
+  - multiple
 ---
 # How to: Apply Edits in Break Mode with Edit and Continue (Visual Basic)
 You can use Edit and Continue to edit your code in Break mode, and then continue without stopping and restarting execution.

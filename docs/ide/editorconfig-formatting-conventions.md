@@ -53,7 +53,7 @@ dotnet_separate_import_directive_groups = true
 
 #### dotnet\_sort\_system\_directives_first
 
-|||
+|Property|Value|
 |-|-|
 | **Rule name** | dotnet_sort_system_directives_first |
 | **Applicable languages** | C# and Visual Basic |
@@ -76,7 +76,7 @@ using System.Threading.Tasks;
 
 #### dotnet\_separate\_import\_directive\_groups
 
-|||
+|Property|Value|
 |-|-|
 | **Rule name** | dotnet_separate_import_directive_groups |
 | **Applicable languages** | C# and Visual Basic |
@@ -168,7 +168,7 @@ csharp_new_line_between_query_expression_clauses = true
 
 This rule concerns whether an open brace `{` should be placed on the same line as the preceding code, or on a new line. For this rule, you specify **all**, **none**, or one or more code elements such as **methods** or **properties**, to define when this rule should be applied. To specify multiple code elements, separate them with a comma (,).
 
-|||
+|Property|Value|
 |-|-|
 | **Rule name** | csharp_new_line_before_open_brace |
 | **Applicable languages** | C# |
@@ -197,7 +197,7 @@ void MyMethod() {
 
 #### csharp\_new\_line\_before_else
 
-|||
+|Property|Value|
 |-|-|
 | **Rule name** | csharp_new_line_before_else |
 | **Applicable languages** | C# |
@@ -225,7 +225,7 @@ if (...) {
 
 #### csharp\_new\_line\_before_catch
 
-|||
+|Property|Value|
 |-|-|
 | **Rule name** | csharp_new_line_before_catch |
 | **Applicable languages** | C# |
@@ -253,7 +253,7 @@ try {
 
 #### csharp\_new\_line\_before_finally
 
-|||
+|Property|Value|
 |-|-|
 | **Rule name** | csharp_new_line_before_finally |
 | **Applicable languages** | C# |
@@ -286,7 +286,7 @@ try {
 
 #### csharp\_new\_line\_before\_members\_in\_object_initializers
 
-|||
+|Property|Value|
 |-|-|
 | **Rule name** | csharp_new_line_before_members_in_object_initializers |
 | **Applicable languages** | C# |
@@ -312,7 +312,7 @@ var z = new B()
 
 #### csharp\_new\_line\_before\_members\_in\_anonymous_types
 
-|||
+|Property|Value|
 |-|-|
 | **Rule name** | csharp_new_line_before_members_in_anonymous_types |
 | **Applicable languages** | C# |
@@ -338,7 +338,7 @@ var z = new
 
 #### csharp_new_line_between_query_expression_clauses
 
-|||
+|Property|Value|
 |-|-|
 | **Rule name** | csharp_new_line_between_query_expression_clauses |
 | **Applicable languages** | C# |
@@ -377,7 +377,7 @@ csharp_indent_case_contents_when_block = true
 
 #### csharp\_indent\_case_contents
 
-|||
+|Property|Value|
 |-|-|
 | **Rule name** | csharp_indent_case_contents |
 | **Applicable languages** | C# |
@@ -419,7 +419,7 @@ switch(c) {
 
 #### csharp\_indent\_switch_labels
 
-|||
+|Property|Value|
 |-|-|
 | **Rule name** | csharp_indent_switch_labels |
 | **Applicable languages** | C# |
@@ -458,7 +458,7 @@ default:
 
 #### csharp\_indent_labels
 
-|||
+|Property|Value|
 |-|-|
 | **Rule name** | csharp_indent_labels |
 | **Applicable languages** | C# |
@@ -510,7 +510,7 @@ class C
 
 #### csharp_indent_block_contents
 
-|||
+|Property|Value|
 |-|-|
 | **Rule name** | csharp_indent_block_contents |
 | **Applicable languages** | C# |
@@ -534,7 +534,7 @@ Console.WriteLine("Hello");
 
 #### csharp_indent_braces
 
-|||
+|Property|Value|
 |-|-|
 | **Rule name** | csharp_indent_braces |
 | **Applicable languages** | C# |
@@ -558,7 +558,7 @@ static void Hello()
 
 #### csharp_indent_case_contents_when_block
 
-|||
+|Property|Value|
 |-|-|
 | **Rule name** | csharp_indent_case_contents_when_block |
 | **Applicable languages** | C# |
@@ -617,7 +617,7 @@ csharp_space_between_square_brackets = false
 
 #### csharp\_space\_after_cast
 
-|||
+|Property|Value|
 |-|-|
 | **Rule name** | csharp_space_after_cast |
 | **Applicable languages** | C# |
@@ -636,7 +636,7 @@ int y = (int)x;
 
 #### csharp_space_after_keywords_in_control_flow_statements
 
-|||
+|Property|Value|
 |-|-|
 | **Rule name** | csharp_space_after_keywords_in_control_flow_statements |
 | **Applicable languages** | C# |
@@ -655,7 +655,7 @@ for(int i;i<x;i++) { ... }
 
 #### csharp_space_between_parentheses
 
-|||
+|Property|Value|
 |-|-|
 | **Rule name** | csharp_space_between_parentheses |
 | **Applicable languages** | C# |
@@ -679,7 +679,7 @@ int y = ( int )x;
 
 #### csharp\_space\_before\_colon\_in\_inheritance_clause
 
-|||
+|Property|Value|
 |-|-|
 | **Rule name** | csharp_space_before_colon_in_inheritance_clause |
 | **Applicable languages** | C# |
@@ -714,7 +714,7 @@ class C: I
 
 #### csharp\_space\_after\_colon\_in\_inheritance_clause
 
-|||
+|Property|Value|
 |-|-|
 | **Rule name** | csharp_space_after_colon_in_inheritance_clause |
 | **Applicable languages** | C# |
@@ -749,7 +749,7 @@ class C :I
 
 #### csharp\_space\_around\_binary_operators
 
-|||
+|Property|Value|
 |-|-|
 | **Rule name** | csharp_space_around_binary_operators |
 | **Applicable languages** | C# |
@@ -773,7 +773,7 @@ return x  *  (x-y);
 
 #### csharp_space_between_method_declaration_parameter_list_parentheses
 
-|||
+|Property|Value|
 |-|-|
 | **Rule name** | csharp_space_between_method_declaration_parameter_list_parentheses |
 | **Applicable languages** | C# |
@@ -792,7 +792,7 @@ void Bark(int x) { ... }
 
 #### csharp_space_between_method_declaration_empty_parameter_list_parentheses
 
-|||
+|Property|Value|
 |-|-|
 | **Rule name** | csharp_space_between_method_declaration_empty_parameter_list_parentheses |
 | **Applicable languages** | C# |
@@ -827,7 +827,7 @@ void Goo(int x)
 
 #### csharp_space_between_method_declaration_name_and_open_parenthesis
 
-|||
+|Property|Value|
 |-|-|
 | **Rule name** | csharp_space_between_method_declaration_name_and_open_parenthesis |
 | **Applicable languages** | C# |
@@ -845,7 +845,7 @@ void M() { }
 
 #### csharp_space_between_method_call_parameter_list_parentheses
 
-|||
+|Property|Value|
 |-|-|
 | **Rule name** | csharp_space_between_method_call_parameter_list_parentheses |
 | **Applicable languages** | C# |
@@ -864,7 +864,7 @@ MyMethod(argument);
 
 #### csharp_space_between_method_call_empty_parameter_list_parentheses
 
-|||
+|Property|Value|
 |-|-|
 | **Rule name** | csharp_space_between_method_call_empty_parameter_list_parentheses |
 | **Applicable languages** | C# |
@@ -899,7 +899,7 @@ void Goo(int x)
 
 #### csharp_space_between_method_call_name_and_opening_parenthesis
 
-|||
+|Property|Value|
 |-|-|
 | **Rule name** | csharp_space_between_method_call_name_and_opening_parenthesis |
 | **Applicable languages** | C# |
@@ -934,7 +934,7 @@ void Goo(int x)
 
 #### csharp_space_after_comma
 
-|||
+|Property|Value|
 |-|-|
 | **Rule name** | csharp_space_after_comma |
 | **Applicable languages** | C# |
@@ -952,7 +952,7 @@ int[] x = new int[] { 1,2,3,4,5 }
 
 #### csharp_space_before_comma
 
-|||
+|Property|Value|
 |-|-|
 | **Rule name** | csharp_space_before_comma |
 | **Applicable languages** | C# |
@@ -970,7 +970,7 @@ int[] x = new int[] { 1, 2, 3, 4, 5 };
 
 #### csharp_space_after_dot
 
-|||
+|Property|Value|
 |-|-|
 | **Rule name** | csharp_space_after_dot |
 | **Applicable languages** | C# |
@@ -988,7 +988,7 @@ this.Goo();
 
 #### csharp_space_before_dot
 
-|||
+|Property|Value|
 |-|-|
 | **Rule name** | csharp_space_before_dot |
 | **Applicable languages** | C# |
@@ -1006,7 +1006,7 @@ this.Goo();
 
 #### csharp_space_after_semicolon_in_for_statement
 
-|||
+|Property|Value|
 |-|-|
 | **Rule name** | csharp_space_after_semicolon_in_for_statement |
 | **Applicable languages** | C# |
@@ -1024,7 +1024,7 @@ for (int i = 0;i < x.Length;i++)
 
 ##### csharp_space_before_semicolon_in_for_statement
 
-|||
+|Property|Value|
 |-|-|
 | **Rule name** | csharp_space_before_semicolon_in_for_statement |
 | **Applicable languages** | C# |
@@ -1042,7 +1042,7 @@ for (int i = 0; i < x.Length; i++)
 
 #### csharp_space_around_declaration_statements
 
-|||
+|Property|Value|
 |-|-|
 | **Rule name** | csharp_space_around_declaration_statements |
 | **Applicable languages** | C# |
@@ -1060,7 +1060,7 @@ int x = 0;
 
 #### csharp_space_before_open_square_brackets
 
-|||
+|Property|Value|
 |-|-|
 | **Rule name** | csharp_space_before_open_square_brackets |
 | **Applicable languages** | C# |
@@ -1078,7 +1078,7 @@ int[] numbers = new int[] { 1, 2, 3, 4, 5 };
 
 #### csharp_space_between_empty_square_brackets
 
-|||
+|Property|Value|
 |-|-|
 | **Rule name** | csharp_space_between_empty_square_brackets |
 | **Applicable languages** | C# |
@@ -1096,7 +1096,7 @@ int[] numbers = new int[] { 1, 2, 3, 4, 5 };
 
 #### csharp_space_between_square_brackets
 
-|||
+|Property|Value|
 |-|-|
 | **Rule name** | csharp_space_between_square_brackets |
 | **Applicable languages** | C# |
@@ -1127,7 +1127,7 @@ csharp_preserve_single_line_blocks = true
 
 #### csharp_preserve_single_line_statements
 
-|||
+|Property|Value|
 |-|-|
 | **Rule name** | csharp_preserve_single_line_statements |
 | **Applicable languages** | C# |
@@ -1147,7 +1147,7 @@ string name = "John";
 
 #### csharp_preserve_single_line_blocks
 
-|||
+|Property|Value|
 |-|-|
 | **Rule name** | csharp_preserve_single_line_blocks |
 | **Applicable languages** | C# |
@@ -1182,7 +1182,7 @@ csharp_using_directive_placement = inside_namespace
 
 #### csharp_using_directive_placement
 
-|||
+|Property|Value|
 |-|-|
 | **Rule name** | csharp_using_directive_placement |
 | **Applicable languages** | C# |

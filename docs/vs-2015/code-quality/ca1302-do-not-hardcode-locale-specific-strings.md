@@ -19,7 +19,7 @@ manager: "wpickett"
 # CA1302: Do not hardcode locale specific strings
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-|||
+|Item|Value|
 |-|-|
 |TypeName|DoNotHardcodeLocaleSpecificStrings|
 |CheckId|CA1302|

@@ -1,7 +1,7 @@
 ---
 title: "IDiaSymbol::findInlineFramesByAddr | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 ms.assetid: 36a122e6-f27e-40cd-9784-cdaf279e1905

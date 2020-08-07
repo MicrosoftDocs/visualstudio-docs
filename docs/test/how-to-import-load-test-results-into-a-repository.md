@@ -1,12 +1,12 @@
 ---
 title: 'How to: Import Load Test Results into a Repository'
 ms.date: 10/19/2016
-ms.topic: conceptual
-helpviewer_keywords:
-- results, load test
-- load test results, importing
-- Load Test Results Repository
-- load tests, importing results
+ms.topic: how-to
+helpviewer_keywords: 
+  - results, load test
+  - load test results, importing
+  - Load Test Results Repository
+  - load tests, importing results
 ms.assetid: a955b3d2-c8ad-40dd-8ea3-9f1a271e1eed
 author: mikejo5000
 ms.author: mikejo

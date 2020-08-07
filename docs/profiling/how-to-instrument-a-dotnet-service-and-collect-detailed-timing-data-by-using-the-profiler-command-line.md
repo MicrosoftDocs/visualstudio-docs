@@ -1,13 +1,13 @@
 ---
-title: "Profiler command line: Instrument .NET service, get timing detail"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-author: "mikejo5000"
-ms.author: "mikejo"
+title: Profiler command line - Instrument .NET service, get timing detail
+ms.date: 11/04/2016
+ms.topic: how-to
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 monikerRange: 'vs-2017'
-ms.workload:
-  - "dotnet"
+ms.workload: 
+  - dotnet
 ---
 # How to: Instrument a .NET service and collect detailed timing data by using the profiler command line
 

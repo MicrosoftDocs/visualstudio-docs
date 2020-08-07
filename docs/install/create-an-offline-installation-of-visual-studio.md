@@ -172,7 +172,7 @@ vs_community.exe --layout c:\vslayout --add Microsoft.VisualStudio.Workload.Mana
 Then use this command to run the installation:
 
 ```cmd
-c:\vslayout\vs_community.exe --add Microsoft.VisualStudio.Workload.ManagedDesktop --add Microsoft.VisualStudio.Workload.NetWeb --add Component.GitHub.VisualStudio --includeOptional
+c:\vslayout\vs_community.exe --noweb --add Microsoft.VisualStudio.Workload.ManagedDesktop --add Microsoft.VisualStudio.Workload.NetWeb --add Component.GitHub.VisualStudio --includeOptional
 ```
 
 For more examples of how to use [command-line parameters](use-command-line-parameters-to-install-visual-studio.md), see the [Command-line parameter examples for Visual Studio installation](command-line-parameter-examples.md) page. 

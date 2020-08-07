@@ -6,6 +6,7 @@ ms.author: dominicn
 ms.date: 05/06/2018
 ms.technology: vs-ide-debug
 ms.assetid: BB7A084D-9AC2-48B5-8076-6C8518796BBA
+ms.topic: overview
 ---
 # Debugging with Xamarin
 

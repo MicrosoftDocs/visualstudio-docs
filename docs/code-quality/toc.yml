@@ -415,6 +415,8 @@
           href: ca1414.md
         - name: "CA1415: Declare P-Invokes correctly"
           href: ca1415.md
+        - name: "CA1417: Do not use OutAttribute on string parameters for P/Invokes"
+          href: ca1417.md
       - name: Maintainability warnings
         items:
         - name: Overview
@@ -511,6 +513,8 @@
           href: ca1802.md
         - name: "CA1804: Remove unused locals"
           href: ca1804.md
+        - name: "CA1805: Do not initialize unnecessarily"
+          href: ca1805.md
         - name: "CA1806: Do not ignore method results"
           href: ca1806.md
         - name: "CA1809: Avoid excessive locals"
@@ -551,8 +555,18 @@
           href: ca1828.md
         - name: "CA1829: Use Length/Count property instead of Enumerable.Count method"
           href: ca1829.md
+        - name: "CA1830: Prefer strongly-typed Append and Insert method overloads on StringBuilder"
+          href: ca1830.md
+        - name: "CA1831: Use AsSpan instead of Range-based indexers for string when appropriate"
+          href: ca1831.md
+        - name: "CA1832: Use AsSpan or AsMemory instead of Range-based indexers for getting ReadOnlySpan or ReadOnlyMemory portion of an array"
+          href: ca1832.md
+        - name: "CA1833: Use AsSpan or AsMemory instead of Range-based indexers for getting Span or Memory portion of an array"
+          href: ca1833.md
         - name: "CA1835: Prefer the memory overloads of Stream ReadAsync/WriteAsync methods"
           href: ca1835.md
+        - name: "CA1836: Prefer IsEmpty over Count when available"
+          href: ca1836.md
       - name: Portability warnings
         items:
         - name: Overview
@@ -587,10 +601,16 @@
           href: ca2009.md
         - name: "CA2011: Do not assign property within its setter"
           href: ca2011.md
+        - name: "CA2012: Use ValueTasks correctly"
+          href: ca2012.md
         - name: "CA2013: Do not use ReferenceEquals with value types"
           href: ca2013.md
+        - name: "CA2014: Do not use stackalloc in loops"
+          href: ca2014.md
         - name: "CA2015: Do not define finalizers for types derived from MemoryManager<T>"
           href: ca2015.md
+        - name: "CA2016: Forward the CancellationToken parameter to methods that take one"
+          href: ca2016.md
       - name: Security warnings
         items:
         - name: Overview
@@ -714,6 +734,20 @@
           href: ca2328.md
         - name: "CA2329: Do not deserialize with JsonSerializer using an insecure configuration"
           href: ca2329.md
+        - name: "CA2350: Ensure DataTable.ReadXml()'s input is trusted"
+          href: ca2350.md
+        - name: "CA2351: Ensure DataSet.ReadXml()'s input is trusted"
+          href: ca2351.md
+        - name: "CA2352: Unsafe DataSet or DataTable in serializable type can be vulnerable to remote code execution attacks"
+          href: ca2352.md
+        - name: "CA2353: Unsafe DataSet or DataTable in serializable type"
+          href: ca2353.md
+        - name: "CA2354: Unsafe DataSet or DataTable in deserialized object graph can be vulnerable to remote code execution attack"
+          href: ca2354.md
+        - name: "CA2355: Unsafe DataSet or DataTable in deserialized object graph"
+          href: ca2355.md
+        - name: "CA2356: Unsafe DataSet or DataTable type in web deserialized object graph"
+          href: ca2356.md
         - name: "CA2330: Ensure that JsonSerializer has a secure configuration when deserializing"
           href: ca2330.md
         - name: "CA3001: Review code for SQL injection vulnerabilities"
@@ -939,6 +973,8 @@
           href: ca2245.md
         - name: "CA2246: Do not assign a symbol and its member in the same statement"
           href: ca2246.md
+        - name: "CA2247: Argument passed to TaskCompletionSource constructor should be TaskCreationOptions enum instead of TaskContinuationOptions enum"
+          href: ca2247.md
         - name: "CA2248: Provide correct enum argument to Enum.HasFlag"
           href: ca2248.md
       - name: Automatic feature suspension
