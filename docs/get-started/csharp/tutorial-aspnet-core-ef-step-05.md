@@ -31,41 +31,43 @@ Open your ASP.NET Core app in Visual Studio 2019. The app should already be usin
 
 ## Publish to Azure App Service
 
-Right-click on the project in solution explorer and choose **Publish**. In the **Publish** wizard, choose **Azure** as the target.
+1. Right-click on the project in solution explorer and choose **Publish**. In the **Publish** wizard, choose **Azure** as the target.
 
-![Screenshot of Azure App Service 1](media/vs-2019/app-service-screen1.png)
+   ![Screenshot of Azure App Service 1](media/vs-2019/app-service-screen1.png)
 
-Then, as the specific target, choose **Azure App Service (Windows)**.
+1. For the specific target, choose **Azure App Service (Windows)**.
 
-![Screenshot of Azure App Service 2](media/vs-2019/app-service-screen2.png)
+   ![Screenshot of Azure App Service 2](media/vs-2019/app-service-screen2.png)
 
-Choose **Create a new Azure App Service**. If you don't already have an Azure account, click the **Create your Free Azure Account** and complete the brief registration process.
+1. Choose **Create a new Azure App Service**. If you don't already have an Azure account, click the **Create your Free Azure Account** and complete the brief registration process.
 
-![Screenshot of Azure App Service 3](media/vs-2019/app-service-screen3.png)
+  ![Screenshot of Azure App Service 3](media/vs-2019/app-service-screen3.png)
 
-Specify a name and resource group, or accept the default values, and choose **Create**. A resource group is just a way of organizing related resources in Azure, such as services that work together with storage accounts, key vaults, and databases.
+1. Specify a name and resource group, or accept the default values, and choose **Create**. A resource group is just a way of organizing related resources in Azure, such as services that work together with storage accounts, key vaults, and databases.
 
-![Screenshot of Azure App Service 4](media/vs-2019/app-service-screen4.png)
+  ![Screenshot of Azure App Service 4](media/vs-2019/app-service-screen4.png)
 
-Choose **Finish**. The resources are created in Azure, the app is deployed, and the **Publish** tab is populated with the information about what you just created. The **Publish** tab provides a button to publish with one click with the same configuration, shows configuration details, or lets you add services such as a database.
+1. Choose **Finish**. The resources are created in Azure, the app is deployed, and the **Publish** tab is populated with the information about what you just created. The **Publish** tab provides a button to publish with one click with the same configuration, shows configuration details, or lets you add services such as a database.
 
-Now, add an Azure SQL Server database. On the **Publish** tab, under **Service Dependencies**, next to **SQL Server database**, choose **Configure**.
+Now, add an Azure SQL Server database.
 
-On the next screen, choose **Azure SQL Database**.
+1. On the **Publish** tab, under **Service Dependencies**, next to **SQL Server database**, choose **Configure**.
 
-![Screenshot of Azure SQL Database screen](media/vs-2019/app-service-azure-sql-db.png)
+1. On the next screen, choose **Azure SQL Database**.
 
-On the **Configure SQL Database** screen, choose **Create a SQL Database**.
+   ![Screenshot of Azure SQL Database screen](media/vs-2019/app-service-azure-sql-db.png)
 
-![Screenshot of Configure SQL Database screen](media/vs-2019/app-service-azure-sql-db2.png)
+1. On the **Configure SQL Database** screen, choose **Create a SQL Database**.
 
-On the **Azure SQL Database: Create new** screen, create a new database server.
+   ![Screenshot of Configure SQL Database screen](media/vs-2019/app-service-azure-sql-db2.png)
 
-![Screenshot Azure SQL Database: Create new](media/vs-2019/app-service-azure-sql-db3.png)
+1. On the **Azure SQL Database: Create new** screen, create a new database server.
 
-On the **SQL Server: Create new** screen, choose a name, location, and specify an administrator username and password.
+   ![Screenshot Azure SQL Database: Create new](media/vs-2019/app-service-azure-sql-db3.png)
 
-![Visual Studio 2019 Create Azure SQL Server](media/vs-2019/app-service-azure-sql-db-overlayed.png)
+1. On the **SQL Server: Create new** screen, choose a name, location, and specify an administrator username and password.
+
+   ![Visual Studio 2019 Create Azure SQL Server](media/vs-2019/app-service-azure-sql-db-overlayed.png)
 
 ## Exploring the Azure portal and your hosted app
 
