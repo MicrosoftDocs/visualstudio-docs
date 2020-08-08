@@ -30,14 +30,13 @@ You can learn more about of these deployment strategies [here](https://docs.micr
 
 ### Workflow changes for .NET Core 3.1
 
-- Pick “Publish Items” instead of “Primary Output” to get the correct output for .Net Core 3.1 projects.  Note that before the Visual Studio 2019 Update 5 release this was called “PublishItemsOutputGroup” instead of “Publish Items”.
+- Pick “Publish Items” instead of “Primary Output” to get the correct output for .NET Core 3.1 projects.
 
-- To create a self-contained installer, set the “PublishProfilePath” property on the “Publish Items” node in the setup project to the relative path of a publish profile with the correct properties set.
+- To create a self-contained installer, set the “PublishProfilePath” property on the “Publish Items” node in the setup project, using the relative path of a publish profile with the correct properties set.
 
 ### Prerequisites for .NET Core 3.1
 
-If you would like your installer to be able to install the necessary runtime for a framework dependent .NET Core 3.1 app you can do this using [prerequisites](../../deployment/application-deployment-prerequisites.md).  From the properties dialog of your installer project open the “Prerequisites...” dialog
-and you'll see the following entries:
+If you would like your installer to be able to install the necessary runtime for a framework-dependent .NET Core 3.1 app, you can do this using [prerequisites](../../deployment/application-deployment-prerequisites.md).  From the properties dialog of your installer project open the “Prerequisites...” dialog and you'll see the following entries:
 
 - .NET Core Runtime 3.1.x (x86)
 
