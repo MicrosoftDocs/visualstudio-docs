@@ -37,7 +37,7 @@ Mixed-mode debugging features include the following, as explained in this articl
 
 ## Enable mixed-mode debugging in a Python project
 
-1. Right-click the Python project in **Solution Explorer**, select **Properties**, select the **Debug** tab, and then select **Enable native code debugging**. This option enables mixed-mode for all debugging sessions.
+1. Select and hold (or right-click) the Python project in **Solution Explorer**, select **Properties**, select the **Debug** tab, and then select **Enable native code debugging**. This option enables mixed-mode for all debugging sessions.
 
     ![Enabling native code debugging](media/mixed-mode-debugging-enable-native.png)
 
@@ -60,7 +60,7 @@ Mixed-mode debugging features include the following, as explained in this articl
 
 Visual Studio (2017 version 15.5 and later) supports mixed-mode debugging from a C/C++ project (for example, when [embedding Python in another application as described on python.org](https://docs.python.org/3/extending/embedding.html)). To enable mixed-mode debugging, configure the C/C++ project to launch **Python/Native Debugging**:
 
-1. Right-click the C/C++ project in **Solution Explorer** and select **Properties**.
+1. Select and hold (or right-click) the C/C++ project in **Solution Explorer** and select **Properties**.
 1. Select the **Debugging** tab, select **Python/Native Debugging** from the **Debugger to launch**, and select **OK**.
 
     ![Selecting the Python/Native debugger in a C/C++ project](media/mixed-mode-debugging-select-cpp-debugger.png)
@@ -109,7 +109,7 @@ When a native (C or C++) frame is active, its local variables show up in the deb
 
 ![Python View in the Locals window](media/mixed-mode-debugging-python-view.png)
 
-To disable this feature, right-click anywhere in the **Locals** window and toggle the **Python** > **Show Python View Nodes** menu option:
+To disable this feature, select and hold (or right-click) anywhere in the **Locals** window and toggle the **Python** > **Show Python View Nodes** menu option:
 
 ![Enabling Python View in the Locals window](media/mixed-mode-debugging-enable-python-view.png)
 
@@ -138,7 +138,7 @@ An alternate (and better) option is to follow [PEP 3123](https://www.python.org/
 
 ### Native values view in Python code
 
-Similar to the previous section, you can enable a **[C++ view]** for native values in the **Locals** window when a Python frame is active. This feature is not enabled by default, so you turn it on by right-clicking in the **Locals** window and toggling the **Python** > **Show C++ View Nodes** menu option.
+Similar to the previous section, you can enable a **[C++ view]** for native values in the **Locals** window when a Python frame is active. This feature is not enabled by default, so you turn it on by selecting and holding (or right-clicking) in the **Locals** window and toggling the **Python** > **Show C++ View Nodes** menu option.
 
 ![Enabling C++ View in the Locals window](media/mixed-mode-debugging-enable-cpp-view.png)
 
