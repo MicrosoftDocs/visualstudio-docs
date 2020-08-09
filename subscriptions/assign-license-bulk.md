@@ -23,7 +23,7 @@ To add large groups of users, you can use the bulk add feature, or if your organ
 
 1. To add multiple subscribers at one time, navigate to the **Manage Subscribers** tab. Choose the **Add** tab, then choose **Bulk add** in the drop-down.  
 
-1. Bulk add uses a Microsoft Excel template to upload subscriber information. In the Upload Multiple Subscribers dialog box, click **Download** to download the template.
+1. Bulk add uses a Microsoft Excel template to upload subscriber information. In the Upload Multiple Subscribers dialog box, select **Download** to download the template.
    > [!div class="mx-imgBorder"]
    > ![Download the Excel template to upload multiple subscribers](media/download-template-upload-subscribers.png "Download the blank Excel template to begin the bulk assignment process.")
    >
@@ -43,13 +43,13 @@ To add large groups of users, you can use the bulk add feature, or if your organ
     - Make sure all required fields are completed. 
     - Check the **Error message** column.  If any errors are listed, resolve those before attempting to upload the file. 
 
-1. Return to the Visual Studio Subscriptions Administration portal. In the **Upload Multiple Subscribers** dialog box, click **Browse**.
+1. Return to the Visual Studio Subscriptions Administration portal. In the **Upload Multiple Subscribers** dialog box, select **Browse**.
    > [!div class="mx-imgBorder"]
    > ![Browse to your saved template to upload multiple subscribers](media/bulk-add-browse-saved-template.png "You can browse to the file location, or drag and drop it into this dialog box.")
 
-1. Navigate to the Excel file that you saved, and then click **OK**.
+1. Navigate to the Excel file that you saved, and then select **OK**.
    > [!div class="mx-imgBorder"]
-   > ![Upload the Excel template to upload multiple subscribers](media/bulk-upload-subscribers.png "The template with your data will appear here.  Click OK to begin the upload.")
+   > ![Upload the Excel template to upload multiple subscribers](media/bulk-upload-subscribers.png "The template with your data will appear here.  Select OK to begin the upload.")
 
     An upload progress dialog appears.
 
@@ -61,8 +61,8 @@ To add large groups of users, you can use the bulk add feature, or if your organ
    1. Open the Excel file you created, correct the problems, and save the file.
    0. Return to the Adminstration Portal and choose **Add**.
    0. Select **Bulk add**.
-   0. Since you already have the Excel file saved, you do not need to download the template.  Click **Browse**, locate the file you just saved, and click **Open**.
-   0. Click **OK**.
+   0. Since you already have the Excel file saved, you do not need to download the template.  Select **Browse**, locate the file you just saved, and select **Open**.
+   0. Select **OK**.
 
 
     When the upload is successful, you'll see the list of subscribers and a confirmation message.
@@ -104,7 +104,7 @@ Using this feature makes it easy to stay on top of your subscription assignments
    > [!div class="mx-imgBorder"]
    > ![Choose your Azure AD group](_img/assign-license-bulk/bulk-add-aad-details.png "Choose the name of your Azure AD group to add subscribers from that group.")
 
-6. Click **Add** and then **Confirm**. 
+6. Selct **Add** and then **Confirm**. 
 
 7. To see the added group, scroll to the bottom of your list of users.  
 

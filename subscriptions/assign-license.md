@@ -29,7 +29,7 @@ Here's how to assign a Visual Studio subscription to a new user so that they can
 1. Sign in to the [administration portal](https://manage.visualstudio.com).
 2. To assign a license to a single Visual Studio subscriber, at the top of the table, select **Add**, then choose **Individual subscriber**.
    > [!div class="mx-imgBorder"]
-   > ![Add a single subscriber](_img/assign-license-add/add-subscriber-individual.png "Click Add, then choose Individual subscriber to assign a single subscription.")
+   > ![Add a single subscriber](_img/assign-license-add/add-subscriber-individual.png "Select Add, then choose Individual subscriber to assign a single subscription.")
 3. Enter the information into the form fields for the new subscriber. If your organization is using Azure Active Directory, the **Name** field acts as a search function to find people in your current directory so you can select the correct user from the search results. After you select that person, sign-in email and notification email will automatically populate.
    > [!div class="mx-imgBorder"]
    > ![Subscriber details](_img/assign-license-add/subscriber-details.png "Enter subscriber name and other details, or choose from the of tenant members.")
@@ -48,10 +48,10 @@ Here's how to assign a Visual Studio subscription to a new user so that they can
 
     When you're done selecting options and entering data for the subscriber, choose **Add** at the bottom of the **Add Subscriber** fly-out.
    > [!div class="mx-imgBorder"]
-   > ![Choose the Add button](media/add-button.png "Click Add to save the information and assign the subscription to the subscriber.")
+   > ![Choose the Add button](media/add-button.png "Select Add to save the information and assign the subscription to the subscriber.")
 
 ## Resend assignment emails
-After you add a subscriber, an assignment email will be automatically sent to the new subscriber with further instructions. You can send the assignment email again at any time by selecting the subscriber and clicking the **Resend** button in the top menu.  To resend emails to multiple users, hold down the **Ctrl** key while selecting the subscribers.  When you click the **Resend** button, you'll see a dialog asking you to confirm you want to resend to those subscribers.  
+After you add a subscriber, an assignment email will be automatically sent to the new subscriber with further instructions. You can send the assignment email again at any time by selecting the subscriber and then selecting the **Resend** button in the top menu.  To resend emails to multiple users, hold down the **Ctrl** key while selecting the subscribers.  When you select the **Resend** button, you'll see a dialog asking you to confirm you want to resend to those subscribers.  
 
 ## See also
 - [Visual Studio documentation](https://docs.microsoft.com/visualstudio/)
