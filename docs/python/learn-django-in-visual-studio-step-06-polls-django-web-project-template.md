@@ -32,15 +32,15 @@ A project created using this template is similar to what you get by following th
 
 ## Step 6-1: Create the project and initialize the database
 
-1. In Visual Studio, go to **Solution Explorer**, right-click the **LearningDjango** solution created earlier in this tutorial, and select **Add** > **New Project**. (Alternately, if you want to use a new solution, select **File** > **New** > **Project** instead.)
+1. In Visual Studio, go to **Solution Explorer**, select and hold (or right-click) the **LearningDjango** solution created earlier in this tutorial, and select **Add** > **New Project**. (Alternately, if you want to use a new solution, select **File** > **New** > **Project** instead.)
 
 1. In the new project dialog, search for and select the **Polls Django Web Project** template, call the project "DjangoPolls", and select **OK**.
 
 1. Like the other project templates in Visual Studio, the "Polls Django Web Project" template includes a *requirements.txt* file, Visual Studio prompts asks where to install those dependencies. Choose the option, **Install into a virtual environment**, and in the **Add Virtual Environment** dialog select **Create** to accept the defaults.
 
-1. Once Python finishes setting up the virtual environment, follow the instructions in the displayed *readme.html* to initialize the database and create a Django super user (that is, an administrator). The steps are to first right-click the **DjangoPolls** project in **Solution Explorer**, select the **Python** > **Django Migrate** command, then right-click the project again, select the **Python** > **Django Create Superuser** command, and follow the prompts. (If you try to create a super user first, you'll see an error because the database has not been initialized.)
+1. Once Python finishes setting up the virtual environment, follow the instructions in the displayed *readme.html* to initialize the database and create a Django super user (that is, an administrator). The steps are to first select and hold (or right-click) the **DjangoPolls** project in **Solution Explorer**, select the **Python** > **Django Migrate** command, then select and hold (or right-click) the project again, select the **Python** > **Django Create Superuser** command, and follow the prompts. (If you try to create a super user first, you'll see an error because the database has not been initialized.)
 
-1. Set the **DjangoPolls** project to be the default for the Visual Studio solution by right-clicking that project in **Solution Explorer** and selecting **Set as Startup Project**. The startup project, which is shown in bold, is what's run when you start the debugger.
+1. Set the **DjangoPolls** project to be the default for the Visual Studio solution by selecting and holding (or right-clicking) that project in **Solution Explorer** and selecting **Set as Startup Project**. The startup project, which is shown in bold, is what's run when you start the debugger.
 
 1. Select **Debug** > **Start Debugging** (**F5**) or use the **Web Server** button on the toolbar to run the server:
 
@@ -56,7 +56,7 @@ A project created using this template is similar to what you get by following th
 
 1. You can leave the app running for the sections that follow.
 
-    If you want to stop the app and [commit changes to source control](learn-django-in-visual-studio-step-02-create-an-app.md#commit-to-source-control), first open the **Changes** page in **Team Explorer**, right-click the folder for the virtual environment (probably **env**), and select **Ignore these local items**.
+    If you want to stop the app and [commit changes to source control](learn-django-in-visual-studio-step-02-create-an-app.md#commit-to-source-control), first open the **Changes** page in **Team Explorer**, select and hold (or right-click) the folder for the virtual environment (probably **env**), and select **Ignore these local items**.
 
 ### Examine the project contents
 
@@ -164,8 +164,8 @@ When you ran the `manage.py makemigrations` command (using the context menu in t
 Because you'll inevitably make changes to your models over time, Django makes it easy to keep the underlying database schema up to date with those models. The general workflow is as follows:
 
 1. Make changes to the models in your *models.py* file.
-1. In Visual Studio, right-click the project in **Solution Explorer** and select the **Python** > **Django Make Migrations** command. As described earlier, this command generates scripts in *app/migrations* to migrate the database from its current state to the new state.
-1. To apply the scripts to the actual database, right-click the project again and select **Python** > **Django Migrate**.
+1. In Visual Studio, select and hold (or right-click) the project in **Solution Explorer** and select the **Python** > **Django Make Migrations** command. As described earlier, this command generates scripts in *app/migrations* to migrate the database from its current state to the new state.
+1. To apply the scripts to the actual database, select and hold (or right-click) the project again and select **Python** > **Django Migrate**.
 
 Django tracks which migrations have been applied to any given database, such that when you run the migrate command, Django applies whichever migrations are needed. If you create a new, empty database, for example, running the migrate command brings it up to date with your current models by applying every migration script. Similarly, if you make multiple model changes and generate migrations on a development computer, you can then apply the cumulative migrations to your production database by running the migrate command on your production server. Django again applies only those migration scripts that have been generated since the last migration of the production database.
 
@@ -178,9 +178,9 @@ To see the effect of changing a model, try the following steps:
     ```
 
 1. Save the file, then right-click the **DjangoPolls** project in **Solution Explorer** and select the **Python** > **Django Make Migrations** command.
-1. Select the **Project** > **Show All Files** command to see the newly generated script in the **migrations** folder, whose name starts with **002_auto_**. Right-click that file and select **Include In Project**. You can then select **Project** > **Show All Files** again to restore the original view. (See the second question below for details on this step.)
+1. Select the **Project** > **Show All Files** command to see the newly generated script in the **migrations** folder, whose name starts with **002_auto_**. Select and hold (or right-click) that file and select **Include In Project**. You can then select **Project** > **Show All Files** again to restore the original view. (See the second question below for details on this step.)
 1. If desired, open that file to examine how Django scripts the change from the previous model state to the new state.
-1. Right-click the Visual Studio project again and select **Python** > **Django Migrate** to apply the changes to the database.
+1. Select and hold (or right-click) the Visual Studio project again and select **Python** > **Django Migrate** to apply the changes to the database.
 1. If desired, open the database in an appropriate viewer to confirm the change.
 
 Overall, Django's migration feature means that you need never manage your database schema manually. Just make changes to your models, generate the migration scripts, and apply them with the migrate command.
@@ -193,7 +193,7 @@ Answer: If the models don't match what's in the database, Django fails at run ti
 
 ### Question: Why doesn't Solution Explorer show newly generated scripts after running Django Make Migrations?
 
-Answer: Although newly generated scripts exist in the *app/migrations* folder and are applied when running the **Django Migrate** command, they don't appear automatically in **Solution Explorer** because they've not been added to the Visual Studio project. To make them visible, first select the **Project** > **Show All Files** menu command or the toolbar button outlined in the image below. This command causes **Solution Explorer** to show all files in the project folder, using a dotted outline icon for items that haven't been added to the project itself. Right-click the files you want to add and select **Include In Project**, which also includes them in source control with your next commit.
+Answer: Although newly generated scripts exist in the *app/migrations* folder and are applied when running the **Django Migrate** command, they don't appear automatically in **Solution Explorer** because they've not been added to the Visual Studio project. To make them visible, first select the **Project** > **Show All Files** menu command or the toolbar button outlined in the image below. This command causes **Solution Explorer** to show all files in the project folder, using a dotted outline icon for items that haven't been added to the project itself. Select and hold (or right-click) the files you want to add and select **Include In Project**, which also includes them in source control with your next commit.
 
 ![Include in Project command in Solution Explorer](media/django/step06-include-migrations-script-in-project.png)
 

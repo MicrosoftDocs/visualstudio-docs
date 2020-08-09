@@ -30,15 +30,15 @@ The template also provides basic authentication, which is covered in Step 5.
 
 ## Step 4-1: Create a project from the template
 
-1. In Visual Studio, go to **Solution Explorer**, right-click the **LearningDjango** solution created earlier in this tutorial, and select **Add** > **New Project**. (Alternately, if you want to use a new solution, select **File** > **New** > **Project** instead.)
+1. In Visual Studio, go to **Solution Explorer**, select and hold (or right-click) the **LearningDjango** solution created earlier in this tutorial, and select **Add** > **New Project**. (Alternately, if you want to use a new solution, select **File** > **New** > **Project** instead.)
 
 1. In the new project dialog, search for and select the **Django Web Project** template, call the project "DjangoWeb", and select **OK**.
 
 1. Because the template again includes a *requirements.txt* file, Visual Studio asks where to install those dependencies. Choose the option, **Install into a virtual environment**, and in the **Add Virtual Environment** dialog select **Create** to accept the defaults.
 
-1. Once Visual Studio finishes setting up the virtual environment, follow the instructions in the displayed *readme.html* to create a Django super user (that is, an administrator). Just right-click the Visual Studio project and select the **Python** > **Django Create Superuser** command, then follow the prompts. Make sure to record your username and password as you use it when exercising the authentication features of the app.
+1. Once Visual Studio finishes setting up the virtual environment, follow the instructions in the displayed *readme.html* to create a Django super user (that is, an administrator). Just select and hold (or right-click) the Visual Studio project and select the **Python** > **Django Create Superuser** command, then follow the prompts. Make sure to record your username and password as you use it when exercising the authentication features of the app.
 
-1. Set the **DjangoWeb** project to be the default for the Visual Studio solution by right-clicking that project in **Solution Explorer** and selecting **Set as Startup Project**. The startup project, which is shown in bold, is what's run when you start the debugger.
+1. Set the **DjangoWeb** project to be the default for the Visual Studio solution by select and hold (or right-click) that project in **Solution Explorer** and selecting **Set as Startup Project**. The startup project, which is shown in bold, is what's run when you start the debugger.
 
     ![Solution Explorer showing the DjangoWeb project as the startup project](media/django/step04-second-project-in-solution-set-as-startup-project.png)
 
@@ -56,7 +56,7 @@ The template also provides basic authentication, which is covered in Step 5.
 
 1. You can leave the app running for the sections that follow.
 
-    If you want to stop the app and [commit changes to source control](learn-django-in-visual-studio-step-02-create-an-app.md#commit-to-source-control), first open the **Changes** page in **Team Explorer**, right-click the folder for the virtual environment (probably **env**), and select **Ignore these local items**.
+    If you want to stop the app and [commit changes to source control](learn-django-in-visual-studio-step-02-create-an-app.md#commit-to-source-control), first open the **Changes** page in **Team Explorer**, select and hold (or right-click) the folder for the virtual environment (probably **env**), and select **Ignore these local items**.
 
 ### Examine what the template creates
 
@@ -77,7 +77,7 @@ Answer: Yes, but do so with the awareness that different projects likely use dif
 Nevertheless, to use an existing virtual environment, do the following:
 
 1. When prompted to install dependencies in Visual Studio, select **I will install them myself** option.
-1. In **Solution Explorer**, right-click the **Python Environments** node and select **Add Existing Virtual Environment**.
+1. In **Solution Explorer**, select and hold (or right-click) the **Python Environments** node and select **Add Existing Virtual Environment**.
 1. Navigate to and select the folder containing the virtual environment, then select **OK**.
 
 ## Step 4-2: Understand the views and page templates created by the project template

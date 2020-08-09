@@ -30,7 +30,7 @@ Visual Studio provides a variety of Python project templates to quickly set up a
 ::: moniker-end
 
 > [!Tip]
-> Without a project, all versions of Visual Studio work well with Python code. For example, you can open a Python file by itself and enjoy auto-complete, IntelliSense, and debugging (by right-clicking in the editor and selecting **Start with Debugging**). Because such code always uses the default global environment, however, you may see incorrect completions or errors if the code is meant for a different environment. Furthermore, Visual Studio analyzes all files and packages in the folder from which the single file is opened, which could consume considerable CPU time.
+> Without a project, all versions of Visual Studio work well with Python code. For example, you can open a Python file by itself and enjoy auto-complete, IntelliSense, and debugging (by selecting and holding or right-clicking in the editor and selecting **Start with Debugging**). Because such code always uses the default global environment, however, you may see incorrect completions or errors if the code is meant for a different environment. Furthermore, Visual Studio analyzes all files and packages in the folder from which the single file is opened, which could consume considerable CPU time.
 >
 > It's a simple matter to create a Visual Studio project from existing code, as described in [Create a project from existing files](#create-project-from-existing-files).
 
@@ -40,25 +40,25 @@ Visual Studio provides a variety of Python project templates to quickly set up a
 
 ## Add files, assign a startup file, and set environments
 
-As you develop your application, you typically need to add new files of different types to the project. Adding such files is done by right-clicking the project and selecting **Add** > **Existing Item** with which you browse for a file to add, or **Add** > **New Item**, which brings up a dialog with a variety of item templates. As described on the [item templates](python-item-templates.md) reference, options include empty Python files, a Python class, a unit test, and various files related to web applications. You can explore these options with a test project to learn what's available in your version of Visual Studio.
+As you develop your application, you typically need to add new files of different types to the project. Adding such files is done by selecting and holding (or right-clicking) the project and selecting **Add** > **Existing Item** with which you browse for a file to add, or **Add** > **New Item**, which brings up a dialog with a variety of item templates. As described on the [item templates](python-item-templates.md) reference, options include empty Python files, a Python class, a unit test, and various files related to web applications. You can explore these options with a test project to learn what's available in your version of Visual Studio.
 
-Each Python project has one assigned start-up file, shown in boldface in **Solution Explorer**. The startup file is the file that's run when you start debugging (**F5** or **Debug** > **Start Debugging**) or when you run your project in the **Interactive** window (**Shift**+**Alt**+**F5** or **Debug** > **Execute Project in Python Interactive**). To change it, right-click the new file and select **Set as Startup Item** (or **Set as Startup File** in older versions of Visual Studio).
+Each Python project has one assigned start-up file, shown in boldface in **Solution Explorer**. The startup file is the file that's run when you start debugging (**F5** or **Debug** > **Start Debugging**) or when you run your project in the **Interactive** window (**Shift**+**Alt**+**F5** or **Debug** > **Execute Project in Python Interactive**). To change it, select and hold (or right-click) the new file and select **Set as Startup Item** (or **Set as Startup File** in older versions of Visual Studio).
 
 > [!Tip]
 > If you remove the selected startup file from a project and don't select a new one, Visual Studio doesn't know what Python file to start with when you try to run the project. In this case, Visual Studio 2017 version 15.6 and later shows an error; earlier versions either open an output window with the Python interpreter running, or you see the output window appear but then disappear almost immediately. If you encounter any of these behaviors, check that you have an assigned startup file.
 >
-> If you want to keep the output window open for any reason, right-click your project, select **Properties**, select the **Debug** tab, then add `-i` to the **Interpreter Arguments** field. This argument causes the interpreter to go into interactive mode after a program completes, thereby keeping the window open until you enter **Ctrl**+**Z** > **Enter** to exit.
+> If you want to keep the output window open for any reason, select and hold (or right-click) your project, select **Properties**, select the **Debug** tab, then add `-i` to the **Interpreter Arguments** field. This argument causes the interpreter to go into interactive mode after a program completes, thereby keeping the window open until you enter **Ctrl**+**Z** > **Enter** to exit.
 
 ::: moniker range="vs-2017"
-A new project is always associated with the default global Python environment. To associate the project with a different environment (including virtual environments), right-click the **Python Environments** node in the project, select **Add/Remove Python Environments**, and select the ones you want.
+A new project is always associated with the default global Python environment. To associate the project with a different environment (including virtual environments), select and hold (or right-click) the **Python Environments** node in the project, select **Add/Remove Python Environments**, and select the ones you want.
 ::: moniker-end
 ::: moniker range=">=vs-2019"
-A new project is always associated with the default global Python environment. To associate the project with a different environment (including virtual environments), right-click the **Python Environments** node in the project, select **Add Environment..**, and select the ones you want. You can also use the environments drop-down control on the toolbar to select and environment or add another one to the project.
+A new project is always associated with the default global Python environment. To associate the project with a different environment (including virtual environments), select and hold (or right-click) the **Python Environments** node in the project, select **Add Environment..**, and select the ones you want. You can also use the environments drop-down control on the toolbar to select and environment or add another one to the project.
 
 ![Add Environment command on the Python toolbar](media/environments/environments-toolbar-2019.png)
 ::: moniker-end
 
-To change the active environment, right-click the desired environment in **Solution Explorer** and select **Activate Environment** as shown below. For more information, see [Select an environment for a project](selecting-a-python-environment-for-a-project.md).
+To change the active environment, select and hold (or right-click) the desired environment in **Solution Explorer** and select **Activate Environment** as shown below. For more information, see [Select an environment for a project](selecting-a-python-environment-for-a-project.md).
 
 ![Activating an environment for a Python project](media/projects-activate-environment.png)
 
@@ -66,7 +66,7 @@ To change the active environment, right-click the desired environment in **Solut
 
 ## Project templates
 
-Visual Studio gives you a number of ways to set up a Python project, either from scratch or from existing code. To use a template, select the **File** > **New** > **Project** menu command or right-click the solution in **Solution Explorer** and select **Add** > **New Project**, both of which bring up the **New Project** dialog below. To see Python-specific templates, either search on "Python" or select the **Installed** > **Python** node:
+Visual Studio gives you a number of ways to set up a Python project, either from scratch or from existing code. To use a template, select the **File** > **New** > **Project** menu command or select and hold (or right-click) the solution in **Solution Explorer** and select **Add** > **New Project**, both of which bring up the **New Project** dialog below. To see Python-specific templates, either search on "Python" or select the **Installed** > **Python** node:
 
 ![New project dialog with Python templates](media/projects-new-project-dialog.png)
 
@@ -118,7 +118,7 @@ Linked files are ignored under any of the following conditions:
 
 ### Work with linked files
 
-To add an existing item as a link, right-click the folder in the project where you wish to add the file, then select **Add** > **Existing Item**. In the dialog that appears, select a file and choose **Add as Link** from the drop-down on the **Add** button. Provided that there are no conflicting files, this command creates a link in the selected folder. However, the link is not added if there is already a file with the same name or a link to that file already exists in the project.
+To add an existing item as a link, select and hold (or right-click) the folder in the project where you wish to add the file, then select **Add** > **Existing Item**. In the dialog that appears, select a file and choose **Add as Link** from the drop-down on the **Add** button. Provided that there are no conflicting files, this command creates a link in the selected folder. However, the link is not added if there is already a file with the same name or a link to that file already exists in the project.
 
 If you attempt to link to a file that already exists in the project folders, it is added as a normal file and not as a link. To convert a file into a link, select **File** > **Save As** to save the file to a location outside of the project hierarchy; Visual Studio automatically converts it into a link. Similarly, a link can be converted back by using **File** > **Save As** to save the file somewhere within the project hierarchy.
 
@@ -144,7 +144,7 @@ You may also need to add a [search path](search-paths.md) to the folder containi
 
 ### .NET projects
 
-When working with IronPython, you can add references to .NET assemblies to enable IntelliSense. For .NET projects in your solution, right-click the **References** node in your Python project, select **Add Reference**, select the **Projects** tab, and browse to the desired project. For DLLs that you've downloaded separately, select the **Browse** tab instead and browse to the desired DLL.
+When working with IronPython, you can add references to .NET assemblies to enable IntelliSense. For .NET projects in your solution, select and hold (or right-click) the **References** node in your Python project, select **Add Reference**, select the **Projects** tab, and browse to the desired project. For DLLs that you've downloaded separately, select the **Browse** tab instead and browse to the desired DLL.
 
 Because references in IronPython are not available until a call to `clr.AddReference('<AssemblyName>')` is made, you also need to add an appropriate `clr.AddReference` call to the assembly, typically at the beginning of your code. For example, the code created by the **IronPython Windows Forms Application** project template in Visual Studio includes two calls at the top of the file:
 

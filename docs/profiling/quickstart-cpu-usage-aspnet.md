@@ -33,7 +33,7 @@ Windows 8 and later is required to run profiling tools with the debugger (**Diag
    > [!NOTE]
    > If you don't see the **ASP.NET Web Application (.NET Core)** project template, choose the **Open Visual Studio Installer** link in the left pane of the **New Project** dialog box. The Visual Studio Installer launches. Choose the **ASP.NET and web development** workload, and then choose **Modify**.
 
-   In the dialog box that appears, choose **MVC** in the middle pane, and then click **OK**.
+   In the dialog box that appears, choose **MVC** in the middle pane, and then choose **OK**.
    ::: moniker-end
    ::: moniker range="vs-2019"
    If the start window is not open, choose **File** > **Start Window**.
@@ -55,7 +55,7 @@ Windows 8 and later is required to run profiling tools with the debugger (**Diag
 
    Visual Studio opens your new project.
 
-1. In Solution Explorer, right-click the Models folder and choose **Add** > **Class**.
+1. In Solution Explorer, select and hold (or right-click) the Models folder and choose **Add** > **Class**.
 
 1. Name the new class `Data.cs` and choose **Add**.
 
@@ -199,7 +199,7 @@ Windows 8 and later is required to run profiling tools with the debugger (**Diag
 
     `for (int i = 0; i < 200; i++)`
 
-    Set a breakpoint by clicking in the gutter to the left of the line of code.
+    Set a breakpoint by clicking in the left margin of the code editor or by selecting and holding (or right-clicking) a line of code and selecting **Breakpoint** > **Insert Breakpoint**.
 
 1. Next, set a second breakpoint on the closing brace at the end of the `Simple` constructor:
 
@@ -207,17 +207,17 @@ Windows 8 and later is required to run profiling tools with the debugger (**Diag
 
     By setting two breakpoints, you can limit data collection to the parts of code that you want to analyze.
 
-1. The **Diagnostic Tools** window is already visible unless you have turned it off. To bring up the window again, click **Debug** > **Windows** > **Show Diagnostic Tools**.
+1. The **Diagnostic Tools** window is already visible unless you have turned it off. To bring up the window again, choose **Debug** > **Windows** > **Show Diagnostic Tools**.
 
-1. Click **Debug** > **Start Debugging** (or **Start** on the toolbar, or **F5**).
+1. Choose **Debug** > **Start Debugging** (or **Start** on the toolbar, or **F5**).
 
-1. When the app finishes loading, click the appropriate link at the top of the web page to start running the new code.
+1. When the app finishes loading, select the appropriate link at the top of the web page to start running the new code.
 
    ::: moniker range="vs-2017"
-   In Visual Studio 2017, click the **About** link to run the code.
+   In Visual Studio 2017, select the **About** link to run the code.
    ::: moniker-end
    ::: moniker range="vs-2019"
-   In Visual Studio 2019, click the **Privacy** link to run the code.
+   In Visual Studio 2019, select the **Privacy** link to run the code.
    ::: moniker-end
 
 1. Look at the **Summary** view of the Diagnostics Tools appears.

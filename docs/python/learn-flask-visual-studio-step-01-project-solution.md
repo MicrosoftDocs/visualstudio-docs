@@ -111,7 +111,7 @@ Answer: Yes. To disable auto-commit, go to the **Settings** page in **Team Explo
 
 Now that you've configured source control for your project, you can create the virtual environment the necessary Flask packages that the project requires. You can then use **Team Explorer** to exclude the environment's folder from source control.
 
-1. In **Solution Explorer**, right-click the **Python Environments** node and select **Add Virtual Environment**.
+1. In **Solution Explorer**, select and hold (or right-click) the **Python Environments** node and select **Add Virtual Environment**.
 
     ![Add Virtual environment command in Solution Explorer](media/flask/step01-add-virtual-environment-command.png)
 
@@ -127,7 +127,7 @@ Now that you've configured source control for your project, you can create the v
 
     Creating the virtual environment brought in hundreds of changes, but you don't need to include any of them in source control because you (or anyone else cloning the project) can always recreate the environment from *requirements.txt*.
 
-    To exclude the virtual environment, right-click the **env** folder and select **Ignore these local items**.
+    To exclude the virtual environment, select and hold (or right-click) the **env** folder and select **Ignore these local items**.
 
     ![Ignoring a virtual environment in source control changes](media/flask/step01-ignore-local-items.png)
 
@@ -219,7 +219,7 @@ Query parameters are also available through the `request.args` property, specifi
 
 ### Question: Can Visual Studio generate a requirements.txt file from a virtual environment after I install other packages?
 
-Answer: Yes. Expand the **Python Environments** node, right-click your virtual environment, and select the **Generate requirements.txt** command. It's good to use this command periodically as you modify the environment, and commit changes to *requirements.txt* to source control along with any other code changes that depend on that environment. If you set up continuous integration on a build server, you should generate the file and commit changes whenever you modify the environment.
+Answer: Yes. Expand the **Python Environments** node, select and hold (or right-click) your virtual environment, and select the **Generate requirements.txt** command. It's good to use this command periodically as you modify the environment, and commit changes to *requirements.txt* to source control along with any other code changes that depend on that environment. If you set up continuous integration on a build server, you should generate the file and commit changes whenever you modify the environment.
 
 ## Step 1-5: Run the project
 
@@ -227,7 +227,7 @@ Answer: Yes. Expand the **Python Environments** node, right-click your virtual e
 
     ![Run web server toolbar button in Visual Studio](media/tutorials-common/run-web-server-toolbar-button.png)
 
-1. Either command assigns a random port number to the PORT environment variable, then runs `python app.py`. The code starts the app using that port within Flask's development server. If Visual Studio says **Failed to start debugger** with a message about having no startup file, right-click **app.py** in **Solution Explorer** and select **Set as Startup File**.
+1. Either command assigns a random port number to the PORT environment variable, then runs `python app.py`. The code starts the app using that port within Flask's development server. If Visual Studio says **Failed to start debugger** with a message about having no startup file, select and hold (or right-click) **app.py** in **Solution Explorer** and select **Set as Startup File**.
 
 1. When the server starts, you see a console window open that displays the server log. Visual Studio then automatically opens a browser to `http://localhost:<port>`, where you should see the message rendered by the `hello` function:
 

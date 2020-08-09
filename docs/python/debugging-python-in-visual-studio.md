@@ -25,7 +25,7 @@ Also see the following scenario-specific debugging articles:
 <a name="debugging-without-a-project"></a>
 
 > [!Tip]
-> Python in Visual Studio supports debugging without a project. With a stand-alone Python file open, right-click in the editor, select **Start with Debugging**, and Visual Studio launches the script with the global default environment (see [Python environments](managing-python-environments-in-visual-studio.md)) and no arguments. But from then on, you have full debugging support.
+> Python in Visual Studio supports debugging without a project. With a stand-alone Python file open, select and hold (or right-click )in the editor, select **Start with Debugging**, and Visual Studio launches the script with the global default environment (see [Python environments](managing-python-environments-in-visual-studio.md)) and no arguments. But from then on, you have full debugging support.
 >
 > To control the environment and arguments, create a project for the code, which is easily done with the [From existing Python code](managing-python-projects-in-visual-studio.md#create-a-project-from-existing-files) project template.
 
@@ -35,23 +35,23 @@ Also see the following scenario-specific debugging articles:
 
 The basic debugging workflow involves settings breakpoints, stepping through code, inspecting values, and handling exceptions as described in the following sections.
 
-A debugging session starts with the **Debug** > **Start Debugging** command, the **Start** button on the toolbar, or the **F5** key. These actions launch your project's startup file (shown in bold in **Solution Explorer**) with the project's active environment and any command-line arguments or search paths that have been specified in **Project Properties** (see [Project debugging options](#project-debugging-options)). Visual Studio 2017 version 15.6 and later alerts you if you don't have a startup file set; earlier versions may open an output window with the Python interpreter running, or the output window briefly appears and disappears. In any case, right-click the appropriate file and select **Set as Startup File**.
+A debugging session starts with the **Debug** > **Start Debugging** command, the **Start** button on the toolbar, or the **F5** key. These actions launch your project's startup file (shown in bold in **Solution Explorer**) with the project's active environment and any command-line arguments or search paths that have been specified in **Project Properties** (see [Project debugging options](#project-debugging-options)). Visual Studio 2017 version 15.6 and later alerts you if you don't have a startup file set; earlier versions may open an output window with the Python interpreter running, or the output window briefly appears and disappears. In any case, select and hold (or right-click) the appropriate file and select **Set as Startup File**.
 
 > [!Note]
 > The debugger always starts with the active Python environment for the project. To change the environment, make a different one active as described on [Select a Python environment for a project](selecting-a-python-environment-for-a-project.md).
 
 ### Breakpoints
 
-Breakpoints stop execution of code at a marked point so you can inspect the program state. Set breakpoints by clicking in the left margin of the code editor or by right-clicking a line of code and selecting **Breakpoint** > **Insert Breakpoint**. A red dot appears on each line with a breakpoint.
+Breakpoints stop execution of code at a marked point so you can inspect the program state. Set breakpoints by clicking in the left margin of the code editor. You can also select and hold (or right-click) a line of code and select **Breakpoint** > **Insert Breakpoint**. A red dot appears on each line with a breakpoint.
 
 ![Breakpoints appearing in Visual Studio](media/debugging-breakpoints.png)
 
-Clicking the red dot or right-clicking the line of code and selecting **Breakpoint** > **Delete Breakpoint** removes the breakpoint. You can also disable it without removing it using the **Breakpoint** > **Disable Breakpoint** command.
+To remove the breakpoint, click on the red dot. Alternatively, select and hold (or right-click) the line of code and select **Breakpoint** > **Delete Breakpoint**. To disable the breakpoint without removing it, use the **Breakpoint** > **Disable Breakpoint** command.
 
 > [!Note]
 > Some breakpoints in Python can be surprising for developers who have worked with other programming languages. In Python, the entire file is executable code, so Python runs the file when it's loaded to process any top-level class or function definitions. If a breakpoint has been set, you may find the debugger breaking part-way through a class declaration. This behavior is correct, even though it's sometimes surprising.
 
-You can customize the conditions under which a breakpoint is triggered, such as breaking only when a variable is set to a certain value or value range. To set conditions, right-click the breakpoint's red dot, select **Condition**, then create expressions using Python code. For full details on this feature in Visual Studio, see [Breakpoint conditions](../debugger/using-breakpoints.md#breakpoint-conditions).
+You can customize the conditions under which a breakpoint is triggered, such as breaking only when a variable is set to a certain value or value range. To set conditions, select and hold (or right-click) the breakpoint's red dot and select **Condition**. You can also select and hold (or right-click) a line of code and select **Breakpoint** >  **Condition**. Next, create expressions using Python code. For full details on this feature in Visual Studio, see [Breakpoint conditions](../debugger/using-breakpoints.md#breakpoint-conditions).
 
 When setting conditions, you can also set **Action** and create a message to log to the output window, optionally continuing execution automatically. Logging a message creates what is called a *tracepoint* without adding logging code to your application directly:
 
@@ -59,7 +59,7 @@ When setting conditions, you can also set **Action** and create a message to log
 
 ### Step through code
 
-Once stopped at a breakpoint, you have various ways to step through code or run blocks of code before breaking again. These commands are available in a number of places, including the top debug toolbar, the **Debug** menu, on the right-click context menu in the code editor, and through keyboard shortcuts (though not all commands are in all places):
+Once stopped at a breakpoint, you have various ways to step through code or run blocks of code before breaking again. These commands are available in a number of places, including the top debug toolbar, the **Debug** menu, on the context menu accessible by selecting  and holding (or right-clicking) in the code editor, and through keyboard shortcuts (though not all commands are in all places):
 
 | Feature | Keystroke | Description |
 | --- | --- | --- |
@@ -75,7 +75,7 @@ Once stopped at a breakpoint, you have various ways to step through code or run 
 
 When stopped in the debugger, you can inspect and modify the values of variables. You can also use the **Watch** window to monitor individual variables as well as custom expressions. (See [Inspect variables](../debugger/debugger-feature-tour.md#inspect-variables-with-the-autos-and-locals-windows) for general details.)
 
-To view a value using **DataTips**, simply hover the mouse over any variable in the editor. You can click on the value to change it:
+To view a value using **DataTips**, simply hover the mouse over any variable in the editor. You can select the value to change it:
 
 ![DataTips showing in the Visual Studio debugger](media/debugging-quick-tips.png)
 
@@ -95,7 +95,7 @@ The **Watch** windows (**Debug** > **Windows** > **Watch** > **Watch 1-4**) allo
 
 For more on using **Watch**, see [Set a watch on variables using the Watch and QuickWatch windows](../debugger/watch-and-quickwatch-windows.md).
 
-When inspecting a string value(`str`, `unicode`, `bytes`, and `bytearray` are all considered strings for this purpose), a magnifying glass icon appears on the right side of the value. Clicking the icon displays the unquoted string value in a popup dialog, with wrapping and scrolling, which is useful for long strings. In addition, selecting the drop-down arrow on the icon allows you to select plain text, HTML, XML, and JSON visualizations:
+When inspecting a string value(`str`, `unicode`, `bytes`, and `bytearray` are all considered strings for this purpose), a magnifying glass icon appears on the right side of the value. Selecting the icon displays the unquoted string value in a popup dialog, with wrapping and scrolling, which is useful for long strings. In addition, selecting the drop-down arrow on the icon allows you to select plain text, HTML, XML, and JSON visualizations:
 
 ![String visualizers in the Visual Studio debugger](media/debugging-string-visualizers.png)
 
@@ -115,13 +115,13 @@ The **Debug** > **Windows** > **Exception Settings** menu command brings up a wi
 
 The checkbox for each exception controls whether the debugger *always* breaks when it is raised. Check this box when you want to break more often for a particular exception.
 
-By default, most exceptions break when an exception handler cannot be found in the source code. To change this behavior, right-click any exception and modify the **Continue When Unhandled in User Code** option. Clear this box when you want to break less often for an exception.
+By default, most exceptions break when an exception handler cannot be found in the source code. To change this behavior, select and hold (or right-click) any exception and modify the **Continue When Unhandled in User Code** option. Clear this box when you want to break less often for an exception.
 
-To configure an exception that does not appear in this list, click the **Add** button to add it. The name must match the full name of the exception.
+To configure an exception that does not appear in this list, select the **Add** button to add it. The name must match the full name of the exception.
 
 ## Project debugging options
 
-By default, the debugger starts your program with the standard Python launcher, no command-line arguments, and no other special paths or conditions. Startup options are changed through the project's debug properties accessed by right-clicking your project in **Solution Explorer**, selecting **Properties**, and selecting the **Debug** tab.
+By default, the debugger starts your program with the standard Python launcher, no command-line arguments, and no other special paths or conditions. Startup options are changed through the project's debug properties accessed by selecting and holding (or right-clicking) your project in **Solution Explorer**, selecting **Properties**, and selecting the **Debug** tab.
 
 ![Project debug properties in the Visual Studio debugger](media/debugging-project-properties.png)
 

@@ -149,7 +149,7 @@ The following steps exercise the authentication flow and describe the parts of t
 
 1. The super user or administrator, in particular, is authorized to access the built-in Django administrator interfaces using the relative URLs "/admin/" and "/admin/doc/". To enable these interfaces, do the following:
 
-    1. Install the docutils Python package into your environment. A great way to do this is to add "docutils" to your *requirements.txt* file, then in **Solution Explorer**, expand the project, expand the **Python Environments** node, then right-click the environment you're using an select **Install from requirements.txt**.
+    1. Install the docutils Python package into your environment. A great way to do this is to add "docutils" to your *requirements.txt* file, then in **Solution Explorer**, expand the project, expand the **Python Environments** node, then select and hold (or right-click) the environment you're using an select **Install from requirements.txt**.
 
     1. Open the Django project's *urls.py* and remove the default comments from the following entries:
 

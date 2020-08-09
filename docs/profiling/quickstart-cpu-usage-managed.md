@@ -181,7 +181,7 @@ Windows 8 and later is required to run profiling tools with the debugger (**Diag
 
     `For i As Integer = 0 To 199`
 
-    Set a breakpoint by clicking in the gutter to the left of the line of code.
+    Set a breakpoint by clicking in the left margin of the code editor or by selecting and holding (or right-clicking) a line of code and selecting **Breakpoint** > **Insert Breakpoint**.
 
 2. Next, set a second breakpoint on the closing brace at the end of the `Main` function:
 
@@ -189,9 +189,9 @@ Windows 8 and later is required to run profiling tools with the debugger (**Diag
 
     By setting two breakpoints, you can limit data collection to the parts of code that you want to analyze.
 
-3. The **Diagnostic Tools** window is already visible unless you have turned it off. To bring up the window again, click **Debug** > **Windows** > **Show Diagnostic Tools**.
+3. The **Diagnostic Tools** window is already visible unless you have turned it off. To bring up the window again, choose **Debug** > **Windows** > **Show Diagnostic Tools**.
 
-4. Click **Debug** > **Start Debugging** (or **Start** on the toolbar, or **F5**).
+4. Choose **Debug** > **Start Debugging** (or **Start** on the toolbar, or **F5**).
 
      When the app finishes loading, the **Summary** view of the Diagnostics Tools appears.
 

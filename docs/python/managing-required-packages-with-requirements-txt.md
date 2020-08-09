@@ -18,13 +18,13 @@ If you share a project with others, use a build system, or plan to copy the proj
 
 Technically, any filename may be used to track requirements (by using `-r <full path to file>` when installing a package), but Visual Studio provides specific support for *requirements.txt*:
 
-- If you've loaded a project that contains *requirements.txt* and wish to install all the packages listed in that file, expand the **Python Environments** node in **Solution Explorer**, then right-click an environment node and select **Install from requirements.txt**:
+- If you've loaded a project that contains *requirements.txt* and wish to install all the packages listed in that file, expand the **Python Environments** node in **Solution Explorer**, then select and hold (or right-click) an environment node and select **Install from requirements.txt**:
 
     ![Install from requirements.txt](media/environments/environments-requirements-txt-install.png)
 
 - If you want to install the dependencies in a virtual environment, create and activate that environment first, then use the **Install from requirements.txt** command. For more information on creating a virtual environment, see [Use virtual environments](selecting-a-python-environment-for-a-project.md#use-virtual-environments).
 
-- If you already have all the necessary packages installed in an environment, you can right-click that environment in **Solution Explorer** and select **Generate requirements.txt** to create the necessary file. If the file already exists, a prompt appears for how to update it:
+- If you already have all the necessary packages installed in an environment, you can select and hold (or right-click) that environment in **Solution Explorer** and select **Generate requirements.txt** to create the necessary file. If the file already exists, a prompt appears for how to update it:
 
     ![Update requirements.txt options](media/environments/environments-requirements-txt-replace.png)
 

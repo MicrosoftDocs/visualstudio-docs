@@ -216,7 +216,7 @@ Double-clicking any name, or selecting with arrow keys and **Enter**, navigates 
 
 ### Find All References
 
-**Find All References** is a helpful way of discovering where any given identifier is both defined and used, including imports and assignments. You invoke it by right-clicking an identifier and selecting **Find All References**, or by placing the caret in the identifier and pressing **Shift**+**F12**. Double-clicking an item in the list navigates to its location.
+**Find All References** is a helpful way of discovering where any given identifier is both defined and used, including imports and assignments. You invoke it by selecting and holding (or right-clicking) an identifier and selecting **Find All References**, or by placing the caret in the identifier and pressing **Shift**+**F12**. Double-clicking an item in the list navigates to its location.
 
 ![Find All References results](media/code-editing-find-all-references.png)
 

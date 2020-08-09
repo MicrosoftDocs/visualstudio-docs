@@ -31,7 +31,7 @@ In this step, you learn how to:
 
 As you develop a Django app, you typically add many more Python, HTML, CSS, and JavaScript files. For each file type (as well as other files like *web.config* that you may need for deployment), Visual Studio provides convenient [item templates](python-item-templates.md) to get you started.
 
-To see available templates, go to **Solution Explorer**, right-click the folder in which you want to create the item, select **Add** > **New Item**:
+To see available templates, go to **Solution Explorer**, select and hold (or right-click) the folder in which you want to create the item, select **Add** > **New Item**:
 
 ![Add new item dialog in Visual Studio](media/django/step03-add-new-item-dialog.png)
 
@@ -58,9 +58,9 @@ STATIC_ROOT = posixpath.join(*(BASE_DIR.split(os.path.sep) + ['static']))
 
 You can organize files using any folder structure within *static* that you like, and then use relative paths within that folder to refer to the files. To demonstrate this process, the following steps add a CSS file to the app, then use that stylesheet in the *index.html* template:
 
-1. In **Solution Explorer**, right-click the **HelloDjangoApp** folder in the Visual Studio project, select **Add** > **New folder**, and name the folder `static`.
+1. In **Solution Explorer**, select and hold (or right-click) the **HelloDjangoApp** folder in the Visual Studio project, select **Add** > **New folder**, and name the folder `static`.
 
-1. Right-click the **static** folder and select **Add** > **New item**. In the dialog that appears, select the **Stylesheet** template, name the file `site.css`, and select **OK**. The **site.css** file appears in the project and is opened in the editor. Your folder structure should appear similar to the following image:
+1. Select and hold (or right-click) the **static** folder and select **Add** > **New item**. In the dialog that appears, select the **Stylesheet** template, name the file `site.css`, and select **OK**. The **site.css** file appears in the project and is opened in the editor. Your folder structure should appear similar to the following image:
 
     ![Static file structure as shown in Solution Explorer](media/django/step03-static-file-structure.png)
 
@@ -124,7 +124,7 @@ Adding another page to the app means the following:
 
 The following steps add an "About" page to the "HelloDjangoApp" project, and links to that page from the home page:
 
-1. In **Solution Explorer**, right-click the **templates/HelloDjangoApp** folder, select **Add** > **New item**, select the **HTML Page** item template, name the file `about.html`, and select **OK**.
+1. In **Solution Explorer**, select and hold (or right-click) the **templates/HelloDjangoApp** folder, select **Add** > **New item**, select the **HTML Page** item template, name the file `about.html`, and select **OK**.
 
     > [!Tip]
     > If the **New Item** command doesn't appear on the **Add** menu, make sure that you've stopped the server so that Visual Studio exits debugging mode.

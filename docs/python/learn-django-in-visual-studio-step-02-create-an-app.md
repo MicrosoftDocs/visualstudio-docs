@@ -33,9 +33,9 @@ A Django app is a separate Python package that contains a set of related files f
 
 A Django app typically begins with a standard set of files. Visual Studio provides item templates to initialize a Django app within a Django project, along with an integrated menu command that serves the same purpose:
 
-- Templates: In **Solution Explorer**, right-click the project and select **Add** > **New item**. In the **Add New Item** dialog, select the **Django 1.9 App** template, specify the app name in the **Name** field, and select **OK**.
+- Templates: In **Solution Explorer**, select and hold (or right-click) the project and select **Add** > **New item**. In the **Add New Item** dialog, select the **Django 1.9 App** template, specify the app name in the **Name** field, and select **OK**.
 
-- Integrated command: In **Solution Explorer**, right-click the project and select **Add** > **Django app**. This command prompts you for a name and creates a Django 1.9 app.
+- Integrated command: In **Solution Explorer**, select and hold (or right-click) the project and select **Add** > **Django app**. This command prompts you for a name and creates a Django 1.9 app.
 
     ![Menu command for adding a Django app](media/django/step02-add-django-app-command.png)
 
