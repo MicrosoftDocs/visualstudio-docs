@@ -24,7 +24,7 @@ This article describes how to use the **Publish** tool for one-time deployment.
 
 ## Publish to Azure App Service on Linux
 
-1. In Solution Explorer, right-click the project and choose **Publish** (or use the **Build** > **Publish** menu item).
+1. In Solution Explorer, select the project and choose **Publish** (or use the **Build** > **Publish** menu item).
 
     ![The Publish command on the project context menu in Solution Explorer](../deployment/media/quickstart-publish.png "Choose Publish")
 
@@ -44,7 +44,7 @@ This article describes how to use the **Publish** tool for one-time deployment.
 
     ![Choose Azure App Service](../deployment/media/quickstart-publish-linux-create-new-dialog.png)
 
-1. In the **Publish** dialog, the newly created instance has been automatically selected. When ready, click **Finish**.
+1. In the **Publish** dialog, the newly created instance has been automatically selected. When ready, go to **Finish**.
 
     ![Choose Azure App Service](../deployment/media/quickstart-publish-linux-select-instance.png)
 
