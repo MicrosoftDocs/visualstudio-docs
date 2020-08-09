@@ -22,7 +22,7 @@ There are two different roles in the new Visual Studio Subscriptions Administrat
 ## Assigning administrators
 To assign new administrators (admins):
 1. Sign in to https://manage.visualstudio.com using an email address that's assigned as a super admin on the agreement through which the subscriptions were purchased.
-2. Selct the tab labeled **Manage Administrators**.
+2. Select the tab labeled **Manage Administrators**.
 3. Select **Add**.
    > [!div class="mx-imgBorder"]
    > ![Add administrators](_img/admin-roles/add-admins.png "Select the Manage Administrators blade, then select Add to assign new administrators.")
