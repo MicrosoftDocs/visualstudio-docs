@@ -65,7 +65,7 @@ The process for setting the active rule set is a little different depending on w
 
 #### .NET Core
 
-To make a rule set the active rule set for analysis in .NET Core or .NET Standard projects, manually add the **CodeAnalysisRuleSet** property to your project file. For example, the following code snippet sets `HelloWorld.ruleset` as the active rule set.
+To make a rule, set the active rule set for analysis in .NET Core or .NET Standard projects, manually add the **CodeAnalysisRuleSet** property to your project file. For example, the following code snippet sets `HelloWorld.ruleset` as the active rule set.
 
 ```xml
 <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -76,21 +76,21 @@ To make a rule set the active rule set for analysis in .NET Core or .NET Standar
 
 #### .NET Framework
 
-To make a rule set the active rule set for analysis in .NET Framework projects:
+To make a rule, set the active rule set for analysis in .NET Framework projects:
 
-- Right-click on the project in **Solution Explorer** and choose **Properties**.
+- Select and hold (or right-click) on the project in **Solution Explorer** and select **Properties**.
 
 - In the project property pages, select the **Code Analysis** tab.
 
 ::: moniker range="vs-2017"
 
-- Under **Run this rule set**, select **Browse**, and then select the desired rule set that you copied to the project directory.
+- Under **Run this rule set**, select **Browse**, and then choose the desired rule set that you copied to the project directory.
 
 ::: moniker-end
 
 ::: moniker range=">=vs-2019"
 
-- Under **Active rules**, select **Browse**, and then select the desired rule set that you copied to the project directory.
+- Under **Active rules**, select **Browse**, and then choose the desired rule set that you copied to the project directory.
 
 ::: moniker-end
 

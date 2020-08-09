@@ -66,25 +66,25 @@ You can configure the thresholds at which the code metrics rules in the FxCop an
 
 ## Calculate Code Metrics menu command
 
-Generate code metrics for one or all of your open projects in the IDE by using the **Analyze** > **Calculate Code Metrics** menu.
+Generate code metrics for one or all of your open projects in the IDE by going to the **Analyze** > **Calculate Code Metrics** menu.
 
 ### Generate code metrics results for an entire solution
 
 You can generate code metrics results for an entire solution in any of the following ways:
 
-- From the menu bar, choose **Analyze** > **Calculate Code Metrics** > **For Solution**.
+- From the menu bar, select **Analyze** > **Calculate Code Metrics** > **For Solution**.
 
-- In **Solution Explorer**, right-click the solution and then choose **Calculate Code Metrics**.
+- In **Solution Explorer**, select and hold (or right-click) the solution and then select **Calculate Code Metrics**.
 
-- In the **Code Metrics Results** window, choose the **Calculate Code Metrics for Solution** button.
+- In the **Code Metrics Results** window, select the **Calculate Code Metrics for Solution** button.
 
 The results are generated and the **Code Metrics Results** window is displayed. To view the results details, expand the tree in the **Hierarchy** column.
 
 ### Generate code metrics results for one or more projects
 
-1. In **Solution Explorer**, select one or more projects.
+1. In **Solution Explorer**, choose one or more projects.
 
-1. From the menu bar, choose **Analyze** > **Calculate Code Metrics** > **For Selected Project(s)**.
+1. From the menu bar, select **Analyze** > **Calculate Code Metrics** > **For Selected Project(s)**.
 
 The results are generated and the **Code Metrics Results** window is displayed. To view the results details, expand the tree in the **Hierarchy**.
 
