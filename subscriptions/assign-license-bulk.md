@@ -104,7 +104,7 @@ Using this feature makes it easy to stay on top of your subscription assignments
    > [!div class="mx-imgBorder"]
    > ![Choose your Azure AD group](_img/assign-license-bulk/bulk-add-aad-details.png "Choose the name of your Azure AD group to add subscribers from that group.")
 
-6. Selct **Add** and then **Confirm**. 
+6. Select **Add** and then **Confirm**. 
 
 7. To see the added group, scroll to the bottom of your list of users.  
 
