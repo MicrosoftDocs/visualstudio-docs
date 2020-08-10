@@ -26,7 +26,7 @@ The Python developer community has produced thousands of useful packages that yo
    ![Python Environments window](media/environments/environments-default-view-2019.png)
 
    > [!NOTE]
-   > You can also open the Python Environments window by clicking on the Solution Explorer window and using the Ctrl+K, Ctrl+` keyboard shortcut. If the shortcut doesn't work and you can't find the Python Environments window in the menu, it's possible you haven't installed the Python workload. See [How to install Python support in Visual Studio](installing-python-support-in-visual-studio.md) for guidance about how to install Python.
+   > You can also open the Python Environments window by selecting the Solution Explorer window and using the Ctrl+K, Ctrl+` keyboard shortcut. If the shortcut doesn't work and you can't find the Python Environments window in the menu, it's possible you haven't installed the Python workload. See [How to install Python support in Visual Studio](installing-python-support-in-visual-studio.md) for guidance about how to install Python.
 
 2. The environment's **Overview** tab provides quick access to an **Interactive** window for that environment along with the environment's installation folder and interpreters. For example, select **Open interactive window** and an **Interactive** window for that specific environment appears in Visual Studio.
 
@@ -45,7 +45,7 @@ The Python developer community has produced thousands of useful packages that yo
     main()
     ```
 
-4. With a Python project open, you can also open the Python Environments window from Solution Explorer by right clicking on Python Environments and selecting **View All Python Environments**
+4. With a Python project open, you can also open the Python Environments window from Solution Explorer by selecting and holding (or right-clicking) on Python Environments and selecting **View All Python Environments**
 
    ![Environment](media/environments/environments-view-all-2019.png)
 
@@ -55,7 +55,7 @@ The Python developer community has produced thousands of useful packages that yo
 
 ## Install packages using the Python Environments window
 
-1. From the Python Environments window, click on the default environment for new Python projects and select the **Packages** tab. You will then see a list of packages that are currently installed in the environment.
+1. From the Python Environments window, select the default environment for new Python projects and chose the **Packages** tab. You will then see a list of packages that are currently installed in the environment.
 
    ![Packages installed in an environment](media/environments/environments-installed-packages-2019.png)
 
