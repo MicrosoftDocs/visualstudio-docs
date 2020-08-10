@@ -16,7 +16,7 @@ The XML editor is the new editor for XML files. It can be used on a stand-alone 
 > [!NOTE]
 > XHTML documents are handled by the HTML Editor.
 
-To edit an XML file, open the file you want to edit.
+To edit an XML file, select and hold (or double-click) the file you want to edit.
 
 ## Add a new XML file to a project
 
@@ -66,7 +66,7 @@ To edit an XML file, open the file you want to edit.
 
 2. Enter **Empty Project** in the template search box, select the **Empty Project (.NET Framework)** template, and then select **Next**.
 
-3. Selet **Create**.
+3. Select **Create**.
 
 ::: moniker-end
 
