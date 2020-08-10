@@ -2,9 +2,9 @@
 title: Using Product Keys | Microsoft Docs
 author: evanwindom
 ms.author: lank
-manager: lank
+manager: cabuschl
 ms.assetid: 89e3fcf9-fe5d-4266-8dd7-5567d05fe869
-ms.date: 03/09/2020
+ms.date: 08/10/2020
 ms.topic: conceptual
 description:  Learn how to obtain and manage your product keys in Visual Studio subscriptions.
 ---
@@ -47,12 +47,12 @@ You must be signed in to your Visual Studio subscription to view your product ke
 Some products bundle multiple editions of the product into a single download. In these cases, the product key entered determines which edition of the product is installed.
 Some keys are provided automatically, such as “static” keys, which you can use as many times as needed because activation is not required. Other keys must be claimed by selecting the **Get Key** link for the product.
 > [!div class="mx-imgBorder"]
-> ![Get Key from Downloads Page](_img/product-keys/download-get-key.png)
+> ![Get Key from Downloads Page](_img/product-keys/download-get-key.png "Click Get Key on the download information page to obtain a product key.")
 
 All keys are also available in aggregate on the [Product Keys](https://my.visualstudio.com/productkeys?wt.mc_id=o~msft~docs) page. On this page you can find static keys that work for all users of a product, get custom keys just for your use, see the status of your key claim limits, and export all of your product keys. 
 
 > [!div class="mx-imgBorder"]
-> ![Product Keys Page](_img/product-keys/product-keys-page.png)
+> ![Product Keys Page](_img/product-keys/product-keys-page.png "The Product Keys page provides complete information on the keys you've claimed as well as those still available.")
 
 A variety of key types are available, depending on the product.
 
