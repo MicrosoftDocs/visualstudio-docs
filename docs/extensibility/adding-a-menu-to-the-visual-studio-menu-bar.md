@@ -37,13 +37,13 @@ Starting in Visual Studio 2015, you do not install the Visual Studio SDK from th
 
 ::: moniker range="vs-2017"
 
-2. When the project opens, add a custom command item template named **TestCommand**. In the **Solution Explorer**, right-click or select and hold the project node and select **Add** >  **New Item**. In the **Add New Item** dialog, go to **Visual C# / Extensibility** and select **Custom Command**. In the **Name** field at the bottom of the window, change the command file name to *TestCommand.cs*.
+2. When the project opens, add a custom command item template named **TestCommand**. In the **Solution Explorer**, select and hold (or right-click) the project node and select **Add** >  **New Item**. In the **Add New Item** dialog, go to **Visual C# / Extensibility** and select **Custom Command**. In the **Name** field at the bottom of the window, change the command file name to *TestCommand.cs*.
 
 ::: moniker-end
 
 ::: moniker range=">=vs-2019"
 
-2. When the project opens, add a custom command item template named **TestCommand**. In the **Solution Explorer**, right-click or select and hold the project node and select **Add** >  **New Item**. In the **Add New Item** dialog, go to **Visual C# / Extensibility** and select **Command**. In the **Name** field at the bottom of the window, change the command file name to *TestCommand.cs*.
+2. When the project opens, add a custom command item template named **TestCommand**. In the **Solution Explorer**, select and hold (or right-click) the project node and select **Add** >  **New Item**. In the **Add New Item** dialog, go to **Visual C# / Extensibility** and select **Command**. In the **Name** field at the bottom of the window, change the command file name to *TestCommand.cs*.
 
 ::: moniker-end
 
