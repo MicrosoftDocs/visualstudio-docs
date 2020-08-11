@@ -45,14 +45,40 @@ Optional. A link to localized information about the extension.
  Optional. A link to a Web site. The link is a text string.  
   
 ## Element Information  
-  
-|                 |                                                           |
-|-----------------|-----------------------------------------------------------|
-|    Namespace    | `http://schemas.microsoft.com/developer/vsx-schema-lp/2010` |
-|   Schema Name   |                 VSIX Language Pack Schema                 |
-| Validation File |                VSIXLanguagePackSchema.xsd                 |
-|  Can be Empty   |                      Not applicable                       |
-  
+
+:::row:::
+    :::column:::
+        Namespace
+    :::column-end:::
+    :::column:::
+        `http://schemas.microsoft.com/developer/vsx-schema-lp/2010`
+    :::column-end:::
+:::row-end:::
+:::row:::
+    :::column:::
+        Schema Name
+    :::column-end:::
+    :::column:::
+        VSIX Language Pack Schema
+    :::column-end:::
+:::row-end:::
+:::row:::
+    :::column:::
+        Validation File
+    :::column-end:::
+    :::column:::
+        VSIXLanguagePackSchema.xsd
+    :::column-end:::
+:::row-end:::
+:::row:::
+    :::column:::
+        Can be Empty
+    :::column-end:::
+    :::column:::
+        Not applicable
+    :::column-end:::
+:::row-end:::
+
 ## See Also  
  [VSX Language Pack Schema Reference](../extensibility/vsx-language-pack-schema-reference.md)   
  [Localizing VSIX Packages](../extensibility/localizing-vsix-packages.md)   
