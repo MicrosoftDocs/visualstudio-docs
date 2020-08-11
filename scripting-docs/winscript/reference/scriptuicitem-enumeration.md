@@ -23,7 +23,7 @@ typedef enum tagSCRIPTUICITEM {     SCRIPTUICITEM_INPUTBOX = 1,     SCRIPTUICITE
   
 ## Enumeration Values  
   
-|||  
+|Value|UI item type|  
 |-|-|  
 |SCRIPTUICITEM_INPUTBOX|An input control.|  
 |SCRIPTUICITEM_MSGBOX|A message box.|

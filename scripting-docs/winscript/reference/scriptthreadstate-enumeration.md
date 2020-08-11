@@ -32,7 +32,7 @@ typedef enum tagSCRIPTTHREADSTATE {
   
 ## Enumeration Values  
   
-|||  
+|Value|Scripting thread state|  
 |-|-|  
 |SCRIPTTHREADSTATE_NOTINSCRIPT|Specified thread is not currently servicing a scripted event, processing immediately executed script text, or running a script macro.|  
 |SCRIPTTHREADSTATE_RUNNING|Specified thread is actively servicing a scripted event, processing immediately executed script text, or running a script macro.|  
