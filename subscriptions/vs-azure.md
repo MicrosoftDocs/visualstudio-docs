@@ -14,19 +14,19 @@ As a Visual Studio subscriber, you can use Microsoft Azure at no extra charge.  
 ## Activation steps
 1. Sign in to [https://my.visualstudio.com/benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs).
 
-2. Locate the Azure tile in the Tools section on the Benefits page and click **Activate** link at the bottom of the benefit tile.
+2. Locate the Azure tile in the Tools section on the Benefits page and select **Activate** link at the bottom of the benefit tile.
    > [!div class="mx-imgBorder"]
    > ![Azure Tile](_img/vs-azure/vs-azure-tile.png)
 
-3. If you don't have an existing Azure subscription, you'll be asked to fill in the required information to create your Azure subscription.  The first step is to provide your personal information and then click **Next**.
+3. If you don't have an existing Azure subscription, you'll be asked to fill in the required information to create your Azure subscription.  The first step is to provide your personal information and then select **Next**.
    > [!div class="mx-imgBorder"]
    > ![Azure Sign-up](_img/vs-azure/vs-azure-about-you.png)
 
-4. Next, you'll need to verify your identity using a simple verification code. Provide your phone number, and choose whether you'd like to receive the code by text or phone.  Enter the code you receive, and click **Verify code**.   
+4. Next, you'll need to verify your identity using a simple verification code. Provide your phone number, and choose whether you'd like to receive the code by text or phone.  Enter the code you receive, and select **Verify code**.   
    > [!div class="mx-imgBorder"]
    > ![Azure Getting Ready](_img/vs-azure/vs-azure-identity.png)
 
-5. For the final step, click the checkbox to accept the terms, then click **Sign up**.  That's all there is to it!
+5. For the final step, select the checkbox to accept the terms, then select **Sign up**.  That's all there is to it!
    > [!div class="mx-imgBorder"]
    > ![Azure Getting Ready](_img/vs-azure/vs-azure-agreement.png)
 
