@@ -83,7 +83,7 @@ Found the information we were looking for? You may request to reactivate the tic
 
 - - -
 
-![Closed - Out of Scope state for suggestions on Developer Community](../ide/media/SuggestStates/ClosedOutOfScope.png)
+![Closed - Out of Scope state for suggestions on Developer Community](../ide/media/SuggestStates/Closed-Out-of-Scope.png)
 
 **Closed - Out of Scope** If a suggestion doesn’t match our overall product direction, we will close it as *Out of Scope*. For example, we may have similar investments in other members of the Visual Studio family of products. Or the feature suggested might only be relevant to a few people, making an extension better suited to provide it.
 
