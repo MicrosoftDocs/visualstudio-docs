@@ -41,11 +41,11 @@ Open your ASP.NET Core app in Visual Studio 2019. The app should already be usin
 
 1. Choose **Create a new Azure App Service**. If you don't already have an Azure account, click the **Create your Free Azure Account** and complete the brief registration process.
 
-  ![Screenshot of Azure App Service 3](media/vs-2019/app-service-screen3.png)
+   ![Screenshot of Azure App Service 3](media/vs-2019/app-service-screen3.png)
 
 1. Specify a name and resource group, or accept the default values, and choose **Create**. A resource group is just a way of organizing related resources in Azure, such as services that work together with storage accounts, key vaults, and databases.
 
-  ![Screenshot of Azure App Service 4](media/vs-2019/app-service-screen4.png)
+   ![Screenshot of Azure App Service 4](media/vs-2019/app-service-screen4.png)
 
 1. Choose **Finish**. The resources are created in Azure, the app is deployed, and the **Publish** tab is populated with the information about what you just created. The **Publish** tab provides a button to publish with one click with the same configuration, shows configuration details, or lets you add services such as a database.
 
