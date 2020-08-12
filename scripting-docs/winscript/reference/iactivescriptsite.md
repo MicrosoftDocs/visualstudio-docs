@@ -19,9 +19,8 @@ Implemented by the host to create a site for the Windows Script engine. Usually,
   
 ## Methods in Vtable Order  
   
-|||  
-|-|-|  
-|Method|Description|  
+|Method|Description|
+|-|-|
 |[IActiveScriptSite::GetLCID](../../winscript/reference/iactivescriptsite-getlcid.md)|Retrieves the locale identifier that the host uses for displaying user-interface elements.|  
 |[IActiveScriptSite::GetItemInfo](../../winscript/reference/iactivescriptsite-getiteminfo.md)|Obtains information about an item that was added to an engine through a call to the [IActiveScript::AddNamedItem](../../winscript/reference/iactivescript-addnameditem.md) method.|  
 |[IActiveScriptSite::GetDocVersionString](../../winscript/reference/iactivescriptsite-getdocversionstring.md)|Retrieves a host-defined string that uniquely identifies the current document version from the host's point of view.|  
