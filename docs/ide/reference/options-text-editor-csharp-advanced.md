@@ -1,12 +1,12 @@
 ---
 title: Options, Text Editor, C#, Advanced
-ms.date: 01/16/2019
+ms.date: 08/12/2020
 ms.topic: reference
 f1_keywords:
 - VS.ToolsOptionsPages.Text_Editor.CSharp.Outlining
 - VS.ToolsOptionsPages.Text_Editor.CSharp.Advanced
-author: TerryGLee
-ms.author: tglee
+author: akhera99
+ms.author: midumont
 manager: jillfra
 ms.workload:
 - dotnet
@@ -122,6 +122,11 @@ Use the **Advanced** options page to modify the settings for editor formatting, 
 Select these check boxes to display dotted vertical lines between the curly brackets (**{}**) in your code. You can then easily see individual blocks of code for your declaration level and code level constructs.
 
 ## Editor Help
+- Inline Parameter Name Hints 
+    
+    When selected, inserts parameter name hints for literals, casted literals, and object instantiations prior to each argument in function calls.  
+    
+    ![Inline Parameter Name Hints for CSharp](media/inline-parameter-name-hints-cs.png)
 
 - Generate XML documentation comments for ///
 
