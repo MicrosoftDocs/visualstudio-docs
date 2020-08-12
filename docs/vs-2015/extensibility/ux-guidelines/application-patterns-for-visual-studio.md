@@ -485,7 +485,7 @@ manager: jillfra
 #### Reference-based projects
  The following table summarizes the drag-and-drop (as well as cut/copy/paste) operations that should be performed based on the nature of the source item and modifier keys pressed for referenced-based target projects:
 
-|Modifier|Operation|Source item: Reference/Link|Source item: Physical item or file system (CF_HDROP)|
+|||Source item: Reference/Link|Source item: Physical item or file system (CF_HDROP)|
 |-|-|----------------------------------|-------------------------------------------------------------|
 |No modifier|Action|Move|Link|
 |No modifier|Target|Adds reference to original item|Adds reference to original item|
@@ -516,7 +516,7 @@ manager: jillfra
 #### Directory-based projects
  The following table summarizes the drag-and-drop (as well as cut/copy/paste) operations that should be performed based on the nature of the source item and modifier keys pressed for directory-based target projects:
 
-|Modifier|Operation|Source item: Reference/Link|Source item: Physical item or file system (CF_HDROP)|
+|||Source item: Reference/Link|Source item: Physical item or file system (CF_HDROP)|
 |-|-|----------------------------------|-------------------------------------------------------------|
 |No modifier|Action|Move|Move|
 |No modifier|Target|Copies item to target location|Copies item to target location|
@@ -543,7 +543,7 @@ manager: jillfra
 #### Mixed-target projects
  The following table summarizes the drag-and-drop (as well as cut/copy/paste) operations that should be performed based on the nature of the source item and modifier keys pressed for mixed-target projects:
 
-|Modifier|Operation|Source item: Reference/Link|Source item: Physical item or file system (CF_HDROP)|
+|||Source item: Reference/Link|Source item: Physical item or file system (CF_HDROP)|
 |-|-|----------------------------------|-------------------------------------------------------------|
 |No modifier|Action|Move|Move|
 |No modifier|Target|Adds reference to original item|Copies item to target location|
