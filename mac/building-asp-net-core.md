@@ -51,7 +51,7 @@ This lab is intended for developers who are familiar with C#, although deep expe
 
 2. This project follows the model-view-controller (MVC) paradigm to provide a clear division of responsibilities between data (models), presentation (views), and functionality (controllers). Open the **HomeController.cs** file from the **Controllers** folder.
 
-    ![Screenshot of solution project with a C# object named HomeController selected.](media/netcore-image4.png)
+    ![Screenshot of solution project with a C# class named HomeController selected.](media/netcore-image4.png)
 
 3. The **HomeController** class-by convention-handles all incoming requests that start with **/Home**. The **Index** method handles requests to the root of the directory (like `http://site.com/Home`) and other methods handle requests to their named path based on convention, such as **About()** handling requests to `http://site.com/Home/About`. Of course, this is all configurable. One notable is that the **HomeController** is the default controller in a new project, so requests to the root of the site (`http://site.com`) would go through **Index()** of the **HomeController** just like requests to `http://site.com/Home` or `http://site.com/Home/Index`.
 
@@ -77,31 +77,31 @@ This lab is intended for developers who are familiar with C#, although deep expe
 
 1. From **Solution Explorer**, open **Program.cs**. This is the bootstrapper that will run your application.
 
-    ![Screenshot of solution with a C# file object named Program selected.](media/netcore-image10.png)
+    ![Screenshot of solution with a C# file named Program selected.](media/netcore-image10.png)
 
 2. While there are only two lines of code here, they're substantial. Let's break them down. First, a new **WebHostBuilder** is created. ASP.NET Core apps require a host in which to execute. A host must implement the **IWebHost** interface, which exposes collections of features and services, and a **Start** method. The host is typically created using an instance of a **WebHostBuilder**, which builds and returns a **WebHost** instance. The **WebHost** references the server that will handle requests.
 
-    ![Screenshot of the C# Main method with a var creation statement for host.](media/netcore-image11.png)
+    ![Screenshot of the C# Main method with a statement that initializes a variable named host.](media/netcore-image11.png)
 
 3. While the **WebHostBuilder** is responsible for creating the host that will bootstrap the server for the app, it requires you provide a server that implements **IServer**. By default, this is **[Kestrel](/aspnet/core/fundamentals/servers/kestrel)**, a cross-platform web server for ASP.NET Core based on **libuv**, which is a cross-platform asynchronous I/O library.
 
-    ![Screenshot of the C# Main method with UseKestrel highlighted.](media/netcore-image12.png)
+    ![Screenshot of the C# Main method with the host variable with UseKestrel highlighted.](media/netcore-image12.png)
 
 4. Next, the server's content root is set. This determines where it searches for content files, like MVC View files. The default content root is the folder from which the application is run.
 
-    ![Screenshot of the C# Main method with code identifying the content root highlighted.](media/netcore-image13.png)
+    ![Screenshot of the C# Main method with code identifying the content root for the host highlighted.](media/netcore-image13.png)
 
 5. If the app must work with the Internet Information Services (IIS) web server, the **UseIISIntegration** method should be called as part of building the host. That this does not configure a server, like **UseKestrel** does. To use IIS with ASP.NET Core, you must specify both **UseKestrel** and **UseIISIntegration**. **Kestrel** is designed to be run behind a proxy and should not be deployed directly facing the internet. **UseIISIntegration** specifies IIS as the reverse proxy server, but it's only relevant when running on machines that have IIS. If you deploy your application to Windows, leave it in. It doesn't hurt otherwise.
 
-    ![Screenshot of the C# Main method with the UseIISIntegration method highlighted.](media/netcore-image14.png)
+    ![Screenshot of the C# Main method host variable with the UseIISIntegration method highlighted.](media/netcore-image14.png)
 
 6. It's a cleaner practice to separate the loading of settings from the application bootstrapping. To easily do this, **UseStartup** is called to specify that the **Startup** class is to be called for the loading of settings and other startup tasks, such as inserting middleware into the HTTP pipeline. You may have multiple **UseStartup** calls with the expectation that each one overwrites previous settings as needed.
 
-    ![Screenshot of the C# Main method with the UseStartup option specified.](media/netcore-image15.png)
+    ![Screenshot of the C# Main method host variable with the UseStartup option specified.](media/netcore-image15.png)
 
 7. The last step in creating the **IWebHost** is to call **Build**.
 
-    ![Screenshot of the C# Main method with the Build method highlighted.](media/netcore-image16.png)
+    ![Screenshot of the C# Main method host variable with the Build method highlighted.](media/netcore-image16.png)
 
 8. While **IWebHost** classes are required to implement the non-blocking **Start**, ASP.NET Core projects have an extension method called **Run** that wraps **Start** with blocking code so you don't need to manually prevent the method from exiting immediately.
 
@@ -111,7 +111,7 @@ This lab is intended for developers who are familiar with C#, although deep expe
 
 1. In **Solution Explorer**, right-click the **CoreLab** project node and select **Options**.
 
-    ![Screenshot shows a menu for hte CoreLab solution with Options selected.](media/netcore-image18.png)
+    ![Screenshot shows a menu for the CoreLab solution with Options selected.](media/netcore-image18.png)
 
 2. The **Project Options** dialog includes everything you need to adjust how the application is built and run. Select the **Run > Configurations > Default** node from the left panel.
 
@@ -125,7 +125,7 @@ This lab is intended for developers who are familiar with C#, although deep expe
 
 6. Visual Studio for Mac will launch two windows. The first is a console window that provides you a view into the self-hosted server application.
 
-    ![Screenshot shows console window of for the self-hosted server application.](media/netcore-image20.png)
+    ![Screenshot shows console window for the self-hosted server application.](media/netcore-image20.png)
 
 7. The second is a typical browser window to test the site. As far as the browser knows, this application could be hosted anywhere. Click **About** to navigate to that page.
 
@@ -137,7 +137,7 @@ This lab is intended for developers who are familiar with C#, although deep expe
 
 9. Keep both windows open and return to Visual Studio for Mac. Open **Controllers/HomeController.cs** if it's not already open.
 
-    ![Screenshot shows solution with HomeController C# class again selected.](media/netcore-image23.png)
+    ![Screenshot shows solution with the HomeController C# class again selected.](media/netcore-image23.png)
 
 10. Set a breakpoint in the first line of the **About** method. You can do this by clicking in the margin or setting the cursor on the line and pressing **F9**. This line sets some data in the **ViewData** collection that is rendered in the CSHTML page at **Views/Home/About.cshtml**.
 
@@ -179,19 +179,19 @@ This lab is intended for developers who are familiar with C#, although deep expe
 
 3. The method starts off by initializing a **ConfigurationBuilder** and setting its base path.
 
-    ![Screenshot of the Startup method, highlighting a statement initializing a variable named builder.](media/netcore-image31.png)
+    ![Screenshot of the Startup method, showing a statement initializing a variable named builder.](media/netcore-image31.png)
 
 4. Next, it loads a required **appsettings.json** file.
 
-    ![Screenshot of the Startup method, highlighting a statement which adds the appsettings json file.](media/netcore-image32.png)
+    ![Screenshot of the Startup method, showing the builder variable with a member which adds the appsettings json file.](media/netcore-image32.png)
 
 5. After that, it attempts to load an environment-specific **appsettings.json** file, which would override existing settings. For example, this is a provided **appsettings.Development.json** file used for that specific environment. To read more about configuration in ASP.NET Core, check out [the docs](/aspnet/core/fundamentals/configuration).
 
-    ![Screenshot of the Startup method, highlighting a statement which adds the appsettings json file for a more specific environment.](media/netcore-image34.png)
+    ![Screenshot of the Startup method, showing the builder variable with a member which adds the appsettings json file for a more specific environment.](media/netcore-image34.png)
 
 6. Finally, the environment variables are added to the configuration builder and the configuration is built and set for usage.
 
-    ![Screenshot of the Startup method, highlighting statements to add environment variables and build the configuration.](media/netcore-image35.png)
+    ![Screenshot of the Startup method, showing the builder variable with statements to add environment variables and build the configuration.](media/netcore-image35.png)
 
 ## Task 6: Inserting application middleware
 
@@ -217,7 +217,7 @@ This lab is intended for developers who are familiar with C#, although deep expe
 
 6. On the **Advanced** tab, check **Show Develop menu in menu bar** and close the dialog.
 
-    ![Screenshot shows Safari Preferences dialog box with Show Develop menu in menu bar selected in the Advanced tab.](media/netcore-image37.png)
+    ![Screenshot shows Safari Preferences dialog box with Show Develop menu in menu bar selected.](media/netcore-image37.png)
 
 7. Select **Develop > Show Page Resources**.
 
@@ -233,7 +233,7 @@ This lab is intended for developers who are familiar with C#, although deep expe
 
 11. Scroll to the bottom of the sidebar to see the response header added in code earlier.
 
-    ![Screenshot shows response header called XTest with a value of test value.](media/netcore-image40.png)
+    ![Screenshot shows response header called XTest with a value of Test value.](media/netcore-image40.png)
 
 12. Close the browser window and console when satisfied.
 
