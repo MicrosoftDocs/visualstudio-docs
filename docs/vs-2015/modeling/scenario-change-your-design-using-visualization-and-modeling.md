@@ -75,7 +75,7 @@ Make sure that your software system meets users' needs by using the visualizatio
 ## <a name="ModelingDiagramsTools"></a> Roles of Architecture and Modeling Diagrams in Software Development
  The following table describes roles that these tools can play during multiple and various stages of the software development lifecycle:
 
-||**User Requirements Modeling**|**Business Process Modeling**|**System Architecture & Design**|**Code Visualization & Exploration**|**Verification**|
+|Tool / Role|**User Requirements Modeling**|**Business Process Modeling**|**System Architecture & Design**|**Code Visualization & Exploration**|**Verification**|
 |------|------------------------------------|-----------------------------------|--------------------------------------|------------------------------------------|----------------------|
 |Use case diagram (UML)|√|√|||√|
 |Activity diagram (UML)|√|√|√||√|
@@ -879,9 +879,9 @@ Make sure that your software system meets users' needs by using the visualizatio
 |**Forums**|-   [Visual Studio Visualization & Modeling Tools](https://social.msdn.microsoft.com/Forums/en-US/home?forum=vsarch)<br />-   [Visual Studio Visualization & Modeling SDK (DSL Tools)](https://social.msdn.microsoft.com/Forums/home?forum=dslvsarchx)|
 
 ## See Also
- [Visualize code](../modeling/visualize-code.md)
- [Create models for your app](../modeling/create-models-for-your-app.md)
- [Use models in your development process](../modeling/use-models-in-your-development-process.md)
- [Use models in Agile development](https://msdn.microsoft.com/592ac27c-3d3e-454a-9c38-b76658ed137f)
- [Validate your system during development](../modeling/validate-your-system-during-development.md)
- [Extend UML models and diagrams](../modeling/extend-uml-models-and-diagrams.md)
+ [Visualize code](../modeling/visualize-code.md)  
+ [Create models for your app](../modeling/create-models-for-your-app.md)  
+ [Use models in your development process](../modeling/use-models-in-your-development-process.md)  
+ [Use models in Agile development](https://msdn.microsoft.com/592ac27c-3d3e-454a-9c38-b76658ed137f)  
+ [Validate your system during development](../modeling/validate-your-system-during-development.md)  
+ [Extend UML models and diagrams](../modeling/extend-uml-models-and-diagrams.md)  

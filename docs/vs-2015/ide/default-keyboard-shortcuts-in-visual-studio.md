@@ -216,7 +216,7 @@ You can more easily access a variety of commands and windows in Visual Studio by
 
 ### <a name="bkmk_edit"></a> Edit
 
-|Commands||
+|Commands|Keyboard Shortcuts|
 |--------------|-|
 |Edit.Copy|Ctrl+C<br /><br /> or<br /><br /> Ctrl+Ins|
 |Edit.Cut|Ctrl+X<br /><br /> or<br /><br /> Shift+Delete|

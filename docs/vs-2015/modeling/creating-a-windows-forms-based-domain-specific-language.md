@@ -27,10 +27,8 @@ A DSL instance, showing a Windows Form UI and the model explorer.
 
     In this walkthrough, the following names are assumed:
 
-   |                       |                 |
-   |-----------------------|-----------------|
-   | Solution and DSL name |     FarmApp     |
-   |       Namespace       | Company.FarmApp |
+    - Solution and DSL name: `FarmApp`  
+    - Namespace: `Company.FarmApp`  
 
 2. Experiment with the initial example that the template provides:
 
@@ -322,6 +320,6 @@ private void NewSheepButton_Click(object sender, EventArgs e)
  Therefore we recommend that you use <xref:Microsoft.VisualStudio.Modeling.ElementOperations> to create new elements. For more information, see [Customizing Element Creation and Movement](../modeling/customizing-element-creation-and-movement.md).
 
 ## See Also
- [How to Define a Domain-Specific Language](../modeling/how-to-define-a-domain-specific-language.md)
- [Writing Code to Customise a Domain-Specific Language](../modeling/writing-code-to-customise-a-domain-specific-language.md)
- [Modeling SDK for Visual Studio - Domain-Specific Languages](../modeling/modeling-sdk-for-visual-studio-domain-specific-languages.md)
+ [How to Define a Domain-Specific Language](../modeling/how-to-define-a-domain-specific-language.md)  
+ [Writing Code to Customise a Domain-Specific Language](../modeling/writing-code-to-customise-a-domain-specific-language.md)  
+ [Modeling SDK for Visual Studio - Domain-Specific Languages](../modeling/modeling-sdk-for-visual-studio-domain-specific-languages.md)  
