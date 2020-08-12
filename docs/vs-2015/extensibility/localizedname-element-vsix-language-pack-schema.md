@@ -45,39 +45,13 @@ Required. The localized name of the extension to be installed.
  Required. The name of the language pack in the target language.  
   
 ## Element Information  
-
-:::row:::
-    :::column:::
-        Namespace
-    :::column-end:::
-    :::column:::
-        `http://schemas.microsoft.com/developer/vsx-schema-lp/2010`
-    :::column-end:::
-:::row-end:::
-:::row:::
-    :::column:::
-        Schema Name
-    :::column-end:::
-    :::column:::
-        VSIX Language Pack Schema
-    :::column-end:::
-:::row-end:::
-:::row:::
-    :::column:::
-        Validation File
-    :::column-end:::
-    :::column:::
-        VSIXLanguagePackSchema.xsd
-    :::column-end:::
-:::row-end:::
-:::row:::
-    :::column:::
-        Can be Empty
-    :::column-end:::
-    :::column:::
-        Not applicable
-    :::column-end:::
-:::row-end:::
+  
+|                 |                                                           |
+|-----------------|-----------------------------------------------------------|
+|    Namespace    | `http://schemas.microsoft.com/developer/vsx-schema-lp/2010` |
+|   Schema Name   |                 VSIX Language Pack Schema                 |
+| Validation File |                VSIXLanguagePackSchema.xsd                 |
+|  Can be Empty   |                      Not applicable                       |
   
 ## See Also  
  [VSX Language Pack Schema Reference](../extensibility/vsx-language-pack-schema-reference.md)   
