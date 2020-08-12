@@ -22,7 +22,7 @@ This refactoring applies to:
 
 **When:**  All instances of typeof(someType).Name or GetType(someType).Name where someType is not a generic type. This is because if someType is generic then these two cases do not return the same string value. 
 
-**Why:** Using nameof rather than the name of the type avoids reflection, and is a more pragmatic way of writing it.
+**Why:** Using nameof rather than the name of the type avoids the reflection involved with retrieving a Type object, and is a more pragmatic way of writing it.
 
 ## How-to
 
