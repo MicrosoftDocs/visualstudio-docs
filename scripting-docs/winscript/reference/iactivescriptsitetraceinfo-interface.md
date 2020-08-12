@@ -17,7 +17,6 @@ Provides a method to send script trace information.
   
 ## Methods  
   
-|||  
-|-|-|  
-|Method|Description|  
+|Method|Description|
+|-|-|
 |[IActiveScriptSiteTraceInfo::SendScriptTraceInfo Method](../../winscript/reference/iactivescriptsitetraceinfo-sendscripttraceinfo-method.md)|Sends trace information that includes the event type, context, and the script statement.|

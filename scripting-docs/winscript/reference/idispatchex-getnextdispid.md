@@ -54,7 +54,7 @@ If a member is deleted by `DeleteMemberByName` or `DeleteMemberByDispID`, the `D
 
 Returns one of the following values:
 
-|||
+|Value|Meaning|
 |-|-|
 |`S_OK`|Success.|
 |`S_FALSE`|Enumeration is done.|
