@@ -29,7 +29,7 @@ Starting in Visual Studio 2019 version 16.3, there are two checkboxes available 
 
 ![Enable or disable live code analysis or on build in Visual Studio](media/run-on-build-run-live-analysis.png)
 
-To open this page, select and hold (or right-click) on the project node in **Solution Explorer** and select **Properties**. Select the **Code Analysis** tab.
+To open this page, right-click (or select and hold) on the project node in **Solution Explorer** and select **Properties**. Select the **Code Analysis** tab.
 
 - To disable source analysis at build time, uncheck the **Run on build** option.
 - To disable live source analysis, uncheck the **Run on live analysis** option.

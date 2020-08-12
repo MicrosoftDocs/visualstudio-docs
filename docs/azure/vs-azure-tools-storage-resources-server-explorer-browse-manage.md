@@ -16,7 +16,7 @@ ms.author: ghogen
 
 ## Overview
 
-If you've installed Azure Tools for Microsoft Visual Studio, you can view blob, queue, and table data from your storage accounts for Azure. The Azure **Storage** node in **Server Explorer** shows data that’s in your local storage emulator account and your other Azure storage accounts.
+If you've installed Azure Tools for Microsoft Visual Studio, you can view blob, queue, and table data from your storage accounts for Azure. The Azure **Storage** node in Server Explorer shows data that’s in your local storage emulator account and your other Azure storage accounts.
 
 To view Server Explorer in Visual Studio, on the menu bar, select **View** > **Server Explorer**. The **Storage** node shows all of the storage accounts that exist under each Azure subscription or certificate that you're connected to. If your storage account doesn't appear, you can add it by following the instructions [later in this article](#add-storage-accounts-by-using-server-explorer).
 
@@ -28,7 +28,7 @@ Server Explorer automatically shows a list of blobs, queues, and tables in your 
 
 To see the storage emulator account’s resources, expand the **Development** node. If the storage emulator hasn’t been started when you expand the **Development** node, it automatically starts. This process can take several seconds. You can continue to work in other areas of Visual Studio while the storage emulator starts.
 
-To view resources in a storage account, expand the storage account’s node in **Server Explorer** where you see **Blobs**, **Queues**, and **Tables** nodes.
+To view resources in a storage account, expand the storage account’s node in Server Explorer where you see **Blobs**, **Queues**, and **Tables** nodes.
 
 ## Work with blob resources
 
@@ -118,7 +118,7 @@ You can choose one or more files to upload, and you can upload files of any type
 
 ### To view logs transferred to blobs
 
-If you are using Azure Diagnostics to log data from your Azure application and you have transferred logs to your storage account, you’ll see containers that Azure created for these logs. Viewing these logs in **Server Explorer** is an easy way to identify problems with your application, especially if it's been deployed to Azure.
+If you are using Azure Diagnostics to log data from your Azure application and you have transferred logs to your storage account, you’ll see containers that Azure created for these logs. Viewing these logs in Server Explorer is an easy way to identify problems with your application, especially if it's been deployed to Azure.
 
 For more information about Azure Diagnostics, see [Collect Logging Data by Using Azure Diagnostics](https://msdn.microsoft.com/library/azure/gg433048.aspx).
 
@@ -134,11 +134,11 @@ The file is downloaded to a temporary location and opened on the local computer.
 
 ## Work with queue resources
 
-Storage services queues are hosted in an Azure storage account. You can use them to allow your cloud service roles to communicate with each other and with other services by a message-passing mechanism. You can access the queue programmatically through a cloud service and over a web service for external clients. You can also access the queue directly by using **Server Explorer** in Visual Studio.
+Storage services queues are hosted in an Azure storage account. You can use them to allow your cloud service roles to communicate with each other and with other services by a message-passing mechanism. You can access the queue programmatically through a cloud service and over a web service for external clients. You can also access the queue directly by using Server Explorer in Visual Studio.
 
 When you develop a cloud service that uses queues, you might want to use Visual Studio to create queues and work with them interactively while you develop and test your code.
 
-In **Server Explorer**, you can view the queues in a storage account, create and delete queues, open a queue to view its messages, and add messages to a queue. When you open a queue for viewing, you can view the individual messages, and you can perform the following actions on the queue by using the buttons in the upper-left corner:
+In Server Explorer, you can view the queues in a storage account, create and delete queues, open a queue to view its messages, and add messages to a queue. When you open a queue for viewing, you can view the individual messages, and you can perform the following actions on the queue by using the buttons in the upper-left corner:
 
 * Refresh the view of the queue.
 * Add a message to the queue.
@@ -219,7 +219,7 @@ The following illustration shows an example of a valid filter string:
 
 ## Refresh storage data
 
-When Server Explorer connects to or gets data from a storage account, the operation might take up to a minute to finish. If **Server Explorer** can’t connect, the operation might time out. While data is retrieved, you can continue to work in other parts of Visual Studio. To cancel the operation if it’s taking too long, select the **Stop Refresh** button on the Server Explorer toolbar.
+When Server Explorer connects to or gets data from a storage account, the operation might take up to a minute to finish. If Server Explorer can’t connect, the operation might time out. While data is retrieved, you can continue to work in other parts of Visual Studio. To cancel the operation if it’s taking too long, select the **Stop Refresh** button on the Server Explorer toolbar.
 
 ### To refresh blob container data
 
@@ -241,11 +241,11 @@ Choose the account name, and then select the **Refresh** button on the Server Ex
 
 ## Add storage accounts by using Server Explorer
 
-There are two ways to add storage accounts by using **Server Explorer**. You can create a storage account in your Azure subscription, or you can attach an existing storage account.
+There are two ways to add storage accounts by using Server Explorer. You can create a storage account in your Azure subscription, or you can attach an existing storage account.
 
 ### To create a storage account by using Server Explorer
 
-1. In **Server Explorer**, open the shortcut menu for the **Storage** node, and then select **Create Storage Account**.
+1. In Server Explorer, open the shortcut menu for the **Storage** node, and then select **Create Storage Account**.
 
 1. In the **Create Storage Account** dialog box, select or enter the following information:
 
@@ -262,7 +262,7 @@ The new storage account appears in the **Storage** list in Solution Explorer.
 
 ### To attach an existing storage account by using Server Explorer
 
-1. In **Server Explorer**, open the shortcut menu for the Azure **Storage** node, and then select **Attach External Storage**.
+1. In Server Explorer, open the shortcut menu for the Azure **Storage** node, and then select **Attach External Storage**.
 
     ![Adding an existing storage account](./media/vs-azure-tools-storage-resources-server-explorer-browse-manage/IC766039.png)
 1. In the **Create Storage Account** dialog box, select or enter the following information:
@@ -279,11 +279,11 @@ If you created a storage account by using the **Read-Access Geo Redundant** repl
 
 ### To remove a storage account from Server Explorer
 
-In **Server Explorer**, open the shortcut menu for the account name, and then select **Delete**.
+In Server Explorer, open the shortcut menu for the account name, and then select **Delete**.
 
 If you delete a storage account, any saved key information for that account is also removed.
 
-If you delete a storage account from **Server Explorer**, it doesn’t affect your storage account or any data that it contains. It simply removes the reference from **Server Explorer**. To permanently delete a storage account, use the [Azure portal](https://portal.azure.com/).
+If you delete a storage account from Server Explorer, it doesn’t affect your storage account or any data that it contains. It simply removes the reference from Server Explorer. To permanently delete a storage account, use the [Azure portal](https://portal.azure.com/).
 
 ## Next steps
 

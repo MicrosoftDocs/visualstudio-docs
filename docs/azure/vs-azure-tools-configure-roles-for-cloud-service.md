@@ -30,7 +30,7 @@ You can configure an Azure cloud service from Solution Explorer in Visual Studio
 
 1. Create or open an Azure cloud service project in Visual Studio.
 
-1. In **Solution Explorer**, select and hold (or right-click) the project, and, from the context menu, select **Properties**.
+1. In **Solution Explorer**, right-click (or select and hold) the project, and, from the context menu, select **Properties**.
 
     ![Solution Explorer project context menu](./media/vs-azure-tools-configure-roles-for-cloud-service/solution-explorer-project-context-menu.png)
 
@@ -50,7 +50,7 @@ To improve the performance of your cloud service, you can change the number of i
 
 1. Create or open an Azure cloud service project in Visual Studio.
 
-1. In **Solution Explorer**, expand the project node. Under the **Roles** node, select and hold (or right-click) the role you want to update, and, from the context menu, select **Properties**.
+1. In **Solution Explorer**, expand the project node. Under the **Roles** node, right-click (or select and hold) the role you want to update, and, from the context menu, select **Properties**.
 
     ![Solution Explorer Azure role context menu](./media/vs-azure-tools-configure-roles-for-cloud-service/solution-explorer-azure-role-context-menu.png)
 
@@ -80,7 +80,7 @@ By using a different value for each service configuration, you do not have to us
 
 1. Create or open an Azure cloud service project in Visual Studio.
 
-1. In **Solution Explorer**, expand the project node. Under the **Roles** node, select and hold (or right-click) the role you want to update, and, from the context menu, select **Properties**.
+1. In **Solution Explorer**, expand the project node. Under the **Roles** node, right-click (or select and hold) the role you want to update, and, from the context menu, select **Properties**.
 
     ![Solution Explorer Azure role context menu](./media/vs-azure-tools-configure-roles-for-cloud-service/solution-explorer-azure-role-context-menu.png)
 
@@ -142,7 +142,7 @@ By using a different value for each service configuration, you do not have to us
 
 1. Create or open an Azure cloud service project in Visual Studio.
 
-1. In **Solution Explorer**, expand the project node. Under the **Roles** node, select and hold (or right-click) the role you want to update, and, from the context menu, select **Properties**.
+1. In **Solution Explorer**, expand the project node. Under the **Roles** node, right-click (or select and hold) the role you want to update, and, from the context menu, select **Properties**.
 
     ![Solution Explorer Azure role context menu](./media/vs-azure-tools-configure-roles-for-cloud-service/solution-explorer-azure-role-context-menu.png)
 
@@ -193,7 +193,7 @@ You can add local file system storage for each instance of a role. The data stor
 
 1. Create or open an Azure cloud service project in Visual Studio.
 
-1. In **Solution Explorer**, expand the project node. Under the **Roles** node, select and hold (or right-click) the role you want to update, and, from the context menu, select **Properties**.
+1. In **Solution Explorer**, expand the project node. Under the **Roles** node, right-click (or select and hold) the role you want to update, and, from the context menu, select **Properties**.
 
     ![Solution Explorer Azure role context menu](./media/vs-azure-tools-configure-roles-for-cloud-service/solution-explorer-azure-role-context-menu.png)
 
@@ -248,7 +248,7 @@ using (FileStream writeStream = File.Create(filePath))
 
 To view the file created by the code in the previous section, follow these steps:
 
-1. In the Windows notification area, select and hold (or right-click) the Azure icon, and, from the context menu, select **Show Compute Emulator UI**.
+1. In the Windows notification area, right-click (or select and hold) the Azure icon, and, from the context menu, select **Show Compute Emulator UI**.
 
     ![Show Azure compute emulator](./media/vs-azure-tools-configure-roles-for-cloud-service/show-compute-emulator.png)
 

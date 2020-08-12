@@ -31,7 +31,7 @@ After completion, the **Add Connected Services** dialog automatically displays d
 
 1. Open your project in Visual Studio.
 
-1. In **Solution Explorer**, select and hold (or right-click) the **Connected Services** node, and, from the context menu, and select **Add Connected Service**.
+1. In **Solution Explorer**, right-click (or select and hold) the **Connected Services** node, and, from the context menu, and select **Add Connected Service**.
 
     ![Add Azure connected service](./media/vs-azure-tools-connected-services-storage/IC796702.png)
 

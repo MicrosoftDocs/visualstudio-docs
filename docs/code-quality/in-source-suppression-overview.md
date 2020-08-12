@@ -44,7 +44,7 @@ In C++/CLI, use the macros CA\_SUPPRESS\_MESSAGE or CA\_GLOBAL\_SUPPRESS_MESSAGE
 
 ## SuppressMessage attribute
 
-When you select **Suppress** from the context or select and hold (or right-click) menu of a code analysis warning in the **Error List**, a <xref:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute> attribute is added either in your code or to the project's global suppression file.
+When you select **Suppress** from the context or right-click (or select and hold) menu of a code analysis warning in the **Error List**, a <xref:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute> attribute is added either in your code or to the project's global suppression file.
 
 The <xref:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute> attribute has the following format:
 

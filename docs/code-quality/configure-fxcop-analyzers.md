@@ -15,7 +15,7 @@ ms.workload:
 The [FxCop analyzers package](install-fxcop-analyzers.md) consists of the most important "FxCop" rules from legacy analysis converted to .NET Compiler Platform-based code analyzers. For certain FxCop rules, you can refine which parts of your codebase they should be applied to through [configurable options](fxcop-analyzer-options.md). Each option is specified by adding a key-value pair to an [EditorConfig](https://editorconfig.org) file. A configuration file can be [specific to a project](#per-project-configuration) or it can be [shared](#shared-configuration) between two or more projects.
 
 > [!TIP]
-> Add an .editorconfig file to your project by selecting and holding (or right-clicking) on the project in **Solution Explorer** and selecting **Add** > **New Item**. In the **Add New Item** window, enter **editorconfig** in the search box. Select the **editorconfig File (default)** template and choose **Add**.
+> Add an .editorconfig file to your project by right-clicking (or selecting and holding) on the project in **Solution Explorer** and selecting **Add** > **New Item**. In the **Add New Item** window, enter **editorconfig** in the search box. Select the **editorconfig File (default)** template and choose **Add**.
 >
 > ![Add editorconfig file to project in Visual Studio](media/add-editorconfig-file.png)
 

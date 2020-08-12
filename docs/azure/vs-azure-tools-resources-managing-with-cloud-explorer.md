@@ -38,7 +38,7 @@ To view the resources associated with an Azure account, you must first add the a
 
 1. Log in to the Azure account whose resources you want to browse.
 
-1. Once logged in to an Azure account, the subscriptions associated with that account display. Choose the check boxes for the account subscriptions you want to browse and then select **Apply**.
+1. Once logged in to an Azure account, the subscriptions associated with that account display. Select the check boxes for the account subscriptions you want to browse and then select **Apply**.
 
    ![Cloud Explorer: select Azure subscriptions to display](./media/vs-azure-tools-resources-managing-with-cloud-explorer/select-subscriptions.png)
 
@@ -81,7 +81,7 @@ To view your Azure resources, you can choose either **Resource Types** or **Reso
 
 To navigate to an Azure resource and view its information in Cloud Explorer, expand the item's type or associated resource group and then select the resource. When you select a resource, information appears in the two tabs - **Actions** and **Properties** - at the bottom of Cloud Explorer.
 
-* **Actions** tab - Lists the actions you can take in Cloud Explorer for the selected resource. You can also view these options by right-clicking the resource to view its context menu.
+* **Actions** tab - Lists the actions you can take in Cloud Explorer for the selected resource. You can also view these options by right-clicking (or selecting and holding) the resource to view its context menu.
 
 * **Properties** tab - Shows the properties of the resource, such as its type, locale, and resource group with which it is associated.
 

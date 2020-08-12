@@ -32,7 +32,7 @@ In Visual Studio, you can choose from a list of code analysis [rule sets](../cod
 
    - In **Solution Explorer**, choose the project. On the menu bar, select **Analyze** > **Configure Code Analysis** > **For \<projectname>**.
 
-   - Select and hold (or right-click) the project in **Solution Explorer** and select **Properties**, and then select the **Code Analysis** tab.
+   - Right-click (or select and hold) the project in **Solution Explorer** and select **Properties**, and then select the **Code Analysis** tab.
 
 2. In the **Configuration** and **Platform** lists, choose the build configuration and target platform.
 
