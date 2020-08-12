@@ -35,5 +35,6 @@ As tests are running, a **Test Results** window appears so you can review succes
 
 ## See also
 
+- [Unit testing in .NET Core and .NET Standard](/dotnet/core/testing)
 - [Get Started with unit testing (Visual Studio on Windows)](/visualstudio/test/getting-started-with-unit-testing)
 - [Unit test basics (Visual Studio on Windows)](/visualstudio/test/unit-test-basics)
