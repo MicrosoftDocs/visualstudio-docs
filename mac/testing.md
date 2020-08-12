@@ -1,5 +1,5 @@
 ---
-title: Visual Studio for Mac Testing tools
+title: Visual Studio for Mac testing tools
 ms.date: 08/03/2020
 ms.topic: conceptual
 helpviewer_keywords:
