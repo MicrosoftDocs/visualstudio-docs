@@ -75,7 +75,7 @@ Make sure that your software system meets users' needs by using the visualizatio
 ## <a name="ModelingDiagramsTools"></a> Roles of Architecture and Modeling Diagrams in Software Development
  The following table describes roles that these tools can play during multiple and various stages of the software development lifecycle:
 
-|Tool / Role|**User Requirements Modeling**|**Business Process Modeling**|**System Architecture & Design**|**Code Visualization & Exploration**|**Verification**|
+|Tool / Role|User Requirements Modeling|Business Process Modeling|System Architecture & Design|Code Visualization & Exploration|Verification|
 |------|------------------------------------|-----------------------------------|--------------------------------------|------------------------------------------|----------------------|
 |Use case diagram (UML)|√|√|||√|
 |Activity diagram (UML)|√|√|√||√|
