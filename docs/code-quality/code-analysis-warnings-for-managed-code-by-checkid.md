@@ -286,6 +286,7 @@ f1_keywords:
 - CA2247
 - CA5122
 - CA5374
+- IL3000
 ms.assetid: 5cb221f6-dc59-4abf-9bfa-adbd6f907f96
 author: mikejo5000
 ms.author: mikejo
@@ -597,3 +598,4 @@ The following table lists Code Analysis warnings for managed code by the CheckId
 | CA5400 | [CA5400 Ensure HttpClient certificate revocation list check is not disabled](../code-quality/ca5400.md) | A revoked certificate isn't trusted anymore. It could be used by attackers passing some malicious data or stealing sensitive data in HTTPS communication. |
 | CA5401 | [CA5401 Do not use CreateEncryptor with non-default IV](../code-quality/ca5401.md) | Symmetric encryption should always use a non-repeatable initialization vector to prevent dictionary attacks. |
 | CA5402 | [CA5402 Use CreateEncryptor with the default IV](../code-quality/ca5402.md) | Symmetric encryption should always use a non-repeatable initialization vector to prevent dictionary attacks. |
+| IL3000 | [IL3000 Avoid using accessing Assembly file path when publishing as a single-file](../code-quality/il3000.md) | Avoid using accessing Assembly file path when publishing as a single-file |

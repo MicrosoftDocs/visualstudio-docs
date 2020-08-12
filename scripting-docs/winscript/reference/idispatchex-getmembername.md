@@ -40,7 +40,7 @@ HRESULT GetMemberName(
 ## Return Value  
  Returns one of the following values:  
   
-|||  
+|Value|Meaning|
 |-|-|  
 |`S_OK`|Success.|  
 |`DISP_E_UNKNOWNNAME`|The name was not known.|  
