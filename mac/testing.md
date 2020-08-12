@@ -32,3 +32,8 @@ When editing a C# class that contains unit tests, you can run tests by right cli
 As tests are running, a **Test Results** window appears so you can review successful or failed tests, and the output from running those tests.
 
 ![Test results window showing one failed test and a count of 21 passed tests and 1 failed test.](media/test-results-window.PNG)
+
+## See also
+
+- [Get Started with unit testing (Visual Studio on Windows)](/visualstudio/test/getting-started-with-unit-testing)
+- [Unit test basics (Visual Studio on Windows)](/visualstudio/test/unit-test-basics)
