@@ -41,8 +41,8 @@ For more information on managing GitHub.com please check out the following topic
 + [Full list of help topics](https://help.github.com/en)
 + [Managing membership in your organization](https://help.github.com/en/articles/managing-membership-in-your-organization)
 + [Inviting users to join your organization](https://help.github.com/en/articles/inviting-users-to-join-your-organization)
-    - [Removing users from teams/organizations](https://help.github.com/en/articles/removing-a-member-from-your-organization)
-    - [Reinstating a former member of your organization](https://help.github.com/en/articles/reinstating-a-former-member-of-your-organization)
+  - [Removing users from teams/organizations](https://help.github.com/en/articles/removing-a-member-from-your-organization)
+  - [Reinstating a former member of your organization](https://help.github.com/en/articles/reinstating-a-former-member-of-your-organization)
 + [Managing access using roles](https://help.github.com/en/articles/managing-peoples-access-to-your-organization-with-roles)
 + [Organizing users into teams](https://help.github.com/en/articles/organizing-members-into-teams)
 + [Managing access to your organization's repositories](https://help.github.com/en/articles/managing-access-to-your-organizations-repositories)
@@ -52,15 +52,16 @@ GitHub Help provides a variety of administrator guides to answer questions and g
 
 + [View all administrator guides](https://help.github.com/en/enterprise/2.16/admin)
 + [User Management](https://help.github.com/en/enterprise/2.16/admin/user-management)
-    - [Organizations and teams](https://help.github.com/en/enterprise/2.16/admin/user-management/organizations-and-teams)
-        - [Creating organizations](https://help.github.com/en/enterprise/2.16/admin/user-management/creating-organizations)
-        - [Creating teams](https://help.github.com/en/enterprise/2.16/admin/user-management/creating-teams)
-        - [Adding people to teams](https://help.github.com/en/enterprise/2.16/admin/user-management/adding-people-to-teams)
-        - [Removing people from teams and organizations](https://help.github.com/en/enterprise/2.16/admin/user-management/removing-users-from-teams-and-organizations)
-    - [User security](https://help.github.com/en/enterprise/2.16/admin/user-management/user-security)
+  - [Organizations and teams](https://help.github.com/en/enterprise/2.16/admin/user-management/organizations-and-teams)
+    - [Creating organizations](https://help.github.com/en/enterprise/2.16/admin/user-management/creating-organizations)
+    - [Creating teams](https://help.github.com/en/enterprise/2.16/admin/user-management/creating-teams)
+    - [Adding people to teams](https://help.github.com/en/enterprise/2.16/admin/user-management/adding-people-to-teams)
+    - [Removing people from teams and organizations](https://help.github.com/en/enterprise/2.16/admin/user-management/removing-users-from-teams-and-organizations)
+  - [User security](https://help.github.com/en/enterprise/2.16/admin/user-management/user-security)
 + [Installing and configuring GitHub Enterprise Server](https://help.github.com/en/enterprise/2.16/admin/installation)
 
 ## Support resources
+
 - You can find answers to questions on a wide array of GitHub topics at [GitHub Help](https://help.github.com/en).
 - Get help from other GitHub users in the [GitHub Community Forum](https://github.community/).
 - For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, contact Visual Studio [Subscriptions Support](https://visualstudio.microsoft.com/subscriptions/support/).
@@ -68,12 +69,14 @@ GitHub Help provides a variety of administrator guides to answer questions and g
 - Get [technical support](https://support.microsoft.com/en-us/supportforbusiness/productselection?sapId=b77fe80f-5417-80bd-4b2a-275cf0018c24) for GitHub Enterprise.   
 
 ## See also
+
 - [Visual Studio documentation](https://docs.microsoft.com/visualstudio/)
 - [Azure DevOps documentation](https://docs.microsoft.com/azure/devops/)
 - [Azure documentation](https://docs.microsoft.com/azure/)
 - [Microsoft 365 documentation](https://docs.microsoft.com/microsoft-365/)
 
 ## Next steps
+
 Learn more about managing Visual Studio subscriptions.
 - [Assign individual subscriptions](assign-license.md)
 - [Assign multiple subscriptions](assign-license-bulk.md)
