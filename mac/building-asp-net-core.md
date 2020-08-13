@@ -81,7 +81,7 @@ This lab is intended for developers who are familiar with C#, although deep expe
 
 2. While there are only two lines of code here, they're substantial. Let's break them down. First, a new **WebHostBuilder** is created. ASP.NET Core apps require a host in which to execute. A host must implement the **IWebHost** interface, which exposes collections of features and services, and a **Start** method. The host is typically created using an instance of a **WebHostBuilder**, which builds and returns a **WebHost** instance. The **WebHost** references the server that will handle requests.
 
-    ![Screenshot of the C# Main method with a statement that initializes a variable named hostwith type WebHostBuilder.](media/netcore-image11.png)
+    ![Screenshot of the C# Main method with a statement that initializes a variable named host with type WebHostBuilder.](media/netcore-image11.png)
 
 3. While the **WebHostBuilder** is responsible for creating the host that will bootstrap the server for the app, it requires you provide a server that implements **IServer**. By default, this is **[Kestrel](/aspnet/core/fundamentals/servers/kestrel)**, a cross-platform web server for ASP.NET Core based on **libuv**, which is a cross-platform asynchronous I/O library.
 
