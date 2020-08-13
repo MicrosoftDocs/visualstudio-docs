@@ -111,15 +111,15 @@ For information about .NET Compiler Platform ("Roslyn") performance consideratio
 
    ::: moniker-end
 
+- **Disable Map mode**
+
+    [Map mode](how-to-track-your-code-by-customizing-the-scrollbar.md#map-mode) in the scroll bar is on by default. To disable map mode, go to **Tools** > **Options** > **Text Editor** > **All Languages** > **Scroll Bars**, and in the **Behavior** section, deselect the **Use map mode for vertical scroll bar** option.
+
 - **Disable XAML Designer**
 
     The XAML designer is enabled by default, but only consumes resources if you open a *.xaml* file. If you work with XAML files but do not wish to use the designer functionality, disable this feature to free up some memory.
 
     To disable **XAML Designer**, go to **Tools** > **Options** > **XAML Designer** > **Enable XAML Designer**, and deselect the option.
-
-- **Disable Mapmode**
-
-Mapmosde is on by default. To
 
 - **Remove workloads**
 
