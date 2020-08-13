@@ -18,7 +18,7 @@ This refactoring applies to:
 
 **What:** Refactors instances of SomeEnumerableType.Where(someLambda).Single() to SomeEnumerable.Single(someLambda) for Enumerable.Single as well as these other Enumerable methods: SingleOrDefault, Last, LastOrDefault, Any, Count, First, FirstOrDefault.
 
-**When:**  All instances where the method call Single, SingleOrDefault, etc. does not have any arguments and is preceded by a Where expression. The input to the Where expression cannot be constructed as an expression tree.
+**When:**  All instances where the method call Single, SingleOrDefault, and so on, doesn't have any arguments and is preceded by a Where expression. The input to the Where expression cannot be constructed as an expression tree.
 
 **Why:** Removing the unnecessary call to the Enumerable.Where method improves performance and readability.
 
