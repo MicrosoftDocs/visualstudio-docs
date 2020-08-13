@@ -1,5 +1,5 @@
 ---
-title: Tour of the Visual Studio IDE
+title: "Quickstart: Tour of the Visual Studio IDE"
 titleSuffix: ''
 ms.date: 02/21/2019
 ms.topic: quickstart
