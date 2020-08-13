@@ -119,7 +119,7 @@ For information about .NET Compiler Platform ("Roslyn") performance consideratio
 
 - **Disable word wrap**
 
-    [**Word wrap**](../reference/how-to-manage-word-wrap-in-the-editor.md) displays the portion of a long line of code that extends beyond the current width of the code editor window. Word wrap is on by default.
+    [**Word wrap**](./reference/how-to-manage-word-wrap-in-the-editor.md) displays the portion of a long line of code that extends beyond the current width of the code editor window. Word wrap is on by default.
 
     To disable word wrap for a project that you are currently working on, go to **Edit** > **Advanced** > **Word Wrap**. (You can toggle this setting by using the same menu commands.)
 
