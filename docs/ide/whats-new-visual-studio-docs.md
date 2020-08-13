@@ -1,7 +1,7 @@
 ---
-title: "Visual Studio docs: What's new for July 1, 2020 - July 31, 2020"
+title: "Visual Studio docs: What's new for July 2020 "
 titleSuffix: ""
-description: "What's new in the Visual Studio docs for July 1, 2020 - July 31, 2020."
+description: "What's new in the Visual Studio docs for July 2020."
 ms.date: 08/06/2020
 helpviewer_keywords:
   - "Visual Studio, what's new, docs"
@@ -17,16 +17,18 @@ ms.workload:
   - "multiple"
 ---
 
-# Visual Studio docs: What's new for July 1, 2020 - July 31, 2020
+# Visual Studio docs: What's new in the docs for July 2020
 
-Welcome to what's new in the Visual Studio docs from July 1, 2020 through July 31, 2020. This article lists some of the major changes to docs during this period.
+Welcome to what's new in the Visual Studio docs for July 2020. This article lists some of the major changes to docs during this period.
 
 ## Code quality
 
 ### New articles
 
 - [CA1417: Do not use `OutAttribute` on string parameters for P/Invokes](/visualstudio/code-quality/ca1417) - Add documentation for CA1417
+- [CA1805: Do not initialize unnecessarily.](/visualstudio/code-quality/ca1805) - Add docs for CA1805
 - [CA1836: Prefer IsEmpty over Count when available](/visualstudio/code-quality/ca1836) - Add documentation for CA1836 (Prefer IsEmpty over Count)
+- [CA2016: Forward the CancellationToken parameter to methods that take one](/visualstudio/code-quality/ca2016) - Document CA2016 - Forward the CancellationToken parameter to methods that take one
 - [CA2350: Ensure DataTable.ReadXml()'s input is trusted](/visualstudio/code-quality/ca2350) - Initial DataSet / DataTable deserialization rules docs
 - [CA2351: Ensure DataSet.ReadXml()'s input is trusted](/visualstudio/code-quality/ca2351) - Initial DataSet / DataTable deserialization rules docs
 - [CA2352: Unsafe DataSet or DataTable in serializable type can be vulnerable to remote code execution attacks](/visualstudio/code-quality/ca2352) - Initial DataSet / DataTable deserialization rules docs
@@ -45,12 +47,6 @@ Welcome to what's new in the Visual Studio docs from July 1, 2020 through July 3
   - Local Process for Kubernetes: Add routing section
   - Dev spaces migration
 
-### Updated articles
-
-- [How Local Process with Kubernetes works](/visualstudio/containers/overview-local-process-kubernetes)
-  - Local Process for Kubernetes: Add routing section
-  - Dev spaces migration
-
 ## Cross platform
 
 ### Updated articles
@@ -58,18 +54,25 @@ Welcome to what's new in the Visual Studio docs from July 1, 2020 through July 3
 - [Change log (Visual Studio Tools for Unity, Windows)](/visualstudio/cross-platform/change-log-visual-studio-tools-for-unity) - Bump VSTU changelog to 4.7.1.0
 - [Change Log (Visual Studio Tools for Unity, Mac)](/visualstudio/cross-platform/change-log-visual-studio-tools-for-unity-mac) - Bump VSTUM changelog to 2.7.1.0
 
+## Get started
+
+### New articles
+
+- [Tutorial: Extend a simple C# console app](/visualstudio/get-started/csharp/tutorial-console-part-2) - Release extend sidewalk tutorial first version
+
 ## IDE
 
 ### New articles
 
 - [Developer Community guidelines](/visualstudio/ide/developer-community-guidelines) - Added DevCom Guidelines
-- [IntelliSense completion for unimported types and extension methods](/visualstudio/ide/reference/intellisense-completion-unimported-types-extension-methods) - [PUBLIC_MOVE] commit from public PR 5634
+- [IntelliSense completion for unimported types and extension methods](/visualstudio/ide/reference/intellisense-completion-unimported-types-extension-methods)
 
 ## Install
 
 ### New articles
 
 - [Update Visual Studio using a minimal offline layout](/visualstudio/install/update-minimal-layout) - Document minimal layout feature
+- [Visual Studio enterprise guide](/visualstudio/install/visual-studio-enterprise-guide) - Enterprise guide
 
 ## JavaScript
 
@@ -87,6 +90,10 @@ Welcome to what's new in the Visual Studio docs from July 1, 2020 through July 3
 
 ## Test
 
+### New articles
+
+- [Debug and analyze unit tests with Test Explorer](/visualstudio/test/debug-unit-tests-with-test-explorer) - Test Explorer performance work
+
 ### Updated articles
 
 - [Configure unit tests by using a *.runsettings* file](/visualstudio/test/configure-unit-tests-by-using-a-dot-runsettings-file)
@@ -97,7 +104,6 @@ Welcome to what's new in the Visual Studio docs from July 1, 2020 through July 3
 
 The following people contributed to the Visual Studio docs during this period. Thank you! Learn how to contribute to the Visual Studio docs by following the guidance in the [Contributor Guide](https://docs.microsoft.com/contribute/).
 
-- [evanwindom](https://github.com/evanwindom) (10)
 - [briuk](https://github.com/briuk) - Viktor Briukhanov (2)
 - [Youssef1313](https://github.com/Youssef1313) - Youssef Victor (2)
 - [ArntWork](https://github.com/ArntWork) - Legolas (1)
