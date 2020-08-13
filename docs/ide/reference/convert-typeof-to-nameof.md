@@ -18,11 +18,11 @@ This refactoring applies to:
 - C#
 - Visual Basic
 
-**What:** Refactoring of instances of typeof(someType).Name to nameof(someType) in C# and instances of GetType(someType).Name to NameOf(someType) in Visual Basic.
+**What:** Refactoring of instances of *typeof(someType).Name* to *nameof(someType)* in C# and instances of *GetType(someType).Name* to *NameOf(someType)* in Visual Basic.
 
-**When:**  All instances of typeof(someType).Name where someType isn't a generic type. This exclusion is necessary because this case doesn't return the same string value as nameof(someType). The same is true for the Visual Basic instance.
+**When:**  All instances of *typeof(someType).Name* where *someType* isn't a generic type. This exclusion is necessary because this case doesn't return the same string value as *nameof(someType)*. The same is true for the Visual Basic instance.
 
-**Why:** Using nameof rather than the name of the Type avoids the reflection involved with retrieving a Type object, and is a more pragmatic way of writing it.
+**Why:** Using *nameof* rather than the name of the Type avoids the reflection involved with retrieving a Type object, and is a more pragmatic way of writing it.
 
 ## How-to
 
