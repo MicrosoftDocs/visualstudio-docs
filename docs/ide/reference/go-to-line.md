@@ -30,4 +30,4 @@ In the **Line number (1 - \<n>)** box, enter the number of the line in the activ
 - [Set bookmarks in code](../../ide/setting-bookmarks-in-code.md)
 - [Find and replace text](../../ide/finding-and-replacing-text.md)
 - [Features of the code editor](../../ide/writing-code-in-the-code-and-text-editor.md)
-- [Go To Command - Visual Studio](../../ide/reference/go-to-command)
+- [Go To Command](../../ide/reference/go-to-command)
