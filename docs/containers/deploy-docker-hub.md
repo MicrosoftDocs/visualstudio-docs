@@ -8,6 +8,7 @@ ms.devlang: dotnet
 ms.topic: how-to
 ms.date: 07/23/2019
 ms.author: ghogen
+monikerRange: ">=vs-2019"
 ---
 # Deploy to Docker Hub
 
@@ -23,9 +24,13 @@ If you don't have a Docker Hub repository, create one at [Docker Hub](https://hu
 
 1. Right-click on the project node and choose **Publish...**. A screen showing deployment options appears.
 
-   ![Screenshot of deployment options](media/deploy-docker-hub/container-tools-docker-hub-deploy.png)
+   ![Screenshot of deployment options](media/container-tools/vs-2019/docker-container-registry.png)
 
-1. Under **Pick a publish target**, choose **Container Registry**, and then choose **Docker Hub**. THe **Docker Hub** dialog appears.
+1. Choose **Docker Container Registry**, and then choose **Docker Hub**.
+
+   ![Screenshot of Publish dialog - choose Docker Hub](media/deploy-docker-hub/container-tools-docker-hub-deploy.png)
+
+1. Enter your Docker credentials.
 
    ![Screenshot of Docker Hub dialog](media/deploy-docker-hub/container-tools-docker-hub-credentials.png)
 

@@ -71,7 +71,7 @@ HRESULT InvokeEx(
   
  `IDispatchEx::InvokeEx` provides all of the same features as `IDispatch::Invoke` and adds a few extensions:  
   
-|||  
+|Value|Meaning|
 |-|-|  
 |DISPATCH_CONSTRUCT|Indicates that the item is being used as a constructor.|  
 |`pspCaller`|The `pspCaller` allows the object access to services provided by the caller. Specific services may be handled by the caller itself or delegated to callers further up the call chain. For example, if a script engine inside a browser makes an `InvokeEx` call to an external object, the object can follow the `pspCaller` chain to obtain services from the script engine or browser. (Note that the call chain is not the same as the creation chain—also known as container chain or site chain. The creation chain may be available through some other mechanism such as `IObjectWithSite`.)|  
@@ -98,7 +98,7 @@ HRESULT InvokeEx(
 ## Return Value  
  Returns one of the following values:  
   
-|||  
+|Value|Meaning|  
 |-|-|  
 |`S_OK`|Success.|  
 |DISP_E_BADPARAMCOUNT|The number of elements provided to DISPPARAMS is different from the number of arguments accepted by the method or property.|  

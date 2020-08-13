@@ -83,12 +83,15 @@ If you suggested a feature, you might be disappointed that we don't plan to addr
 
 In our decision-making process, we look at the following characteristics about the feature suggestion:
 
+- Does it match our general product direction?
 - Can we afford to build and maintain it?
 - Does it align with our overall [roadmap](https://docs.microsoft.com/visualstudio/productinfo/vs-roadmap) strategy?
 - Does it have community support, as indicated by votes and comments?
 - Do we love it, even with low community support?
 
 When we can't answer "yes" to any of these questions, we'll close it. But often the suggestion will stay open as _Under Review_ to gather more community feedback.
+
+If a suggestion doesn’t match our overall product direction, we will close it as *Out of Scope*. For example, we may have similar investments in other members of the Visual Studio family of products. Or the feature suggested might only be relevant to a few people, making an extension better suited to provide it.
 
 Track the progress of your feature suggestion by referencing the [Suggestion states and FAQ](https://docs.microsoft.com/visualstudio/ide/report-a-problem).
 
