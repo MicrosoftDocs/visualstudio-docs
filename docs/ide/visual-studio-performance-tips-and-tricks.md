@@ -111,9 +111,11 @@ For information about .NET Compiler Platform ("Roslyn") performance consideratio
 
    ::: moniker-end
 
-- **Disable Map mode**
+- **Disable map mode**
 
-    [Map mode](how-to-track-your-code-by-customizing-the-scrollbar.md#map-mode) in the scroll bar is on by default. To disable map mode, go to **Tools** > **Options** > **Text Editor** > **All Languages** > **Scroll Bars**, and in the **Behavior** section, deselect the **Use map mode for vertical scroll bar** option.
+    [**Map mode**](how-to-track-your-code-by-customizing-the-scrollbar.md#display-modes) displays lines of code, in miniature, on the scroll bar. Map mode is enabled by default.
+
+    To disable map mode, go to **Tools** > **Options** > **Text Editor** > **All Languages** > **Scroll Bars**, and in the **Behavior** section, deselect the **Use map mode for vertical scroll bar** option.
 
 - **Disable XAML Designer**
 
