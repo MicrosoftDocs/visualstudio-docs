@@ -85,5 +85,3 @@ Learn more about managing Visual Studio subscriptions.
 - [Determine maximum usage](maximum-usage.md)
 
 For more information about managing Visual Studio Subscriptions with GitHub Enterprise, check out the Visual Studio [subscriptions admin portal](https://visualstudio.microsoft.com/subscriptions-administration/).
-
-
