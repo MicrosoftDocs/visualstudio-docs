@@ -1,6 +1,6 @@
 ---
 title: Tips to improve performance
-ms.date: 08/14/2018
+ms.date: 08/13/2020
 ms.topic: conceptual
 author: TerryGLee
 ms.author: tglee
@@ -116,6 +116,10 @@ For information about .NET Compiler Platform ("Roslyn") performance consideratio
     The XAML designer is enabled by default, but only consumes resources if you open a *.xaml* file. If you work with XAML files but do not wish to use the designer functionality, disable this feature to free up some memory.
 
     To disable **XAML Designer**, go to **Tools** > **Options** > **XAML Designer** > **Enable XAML Designer**, and deselect the option.
+
+- **Disable Mapmode**
+
+Mapmosde is on by default. To
 
 - **Remove workloads**
 
