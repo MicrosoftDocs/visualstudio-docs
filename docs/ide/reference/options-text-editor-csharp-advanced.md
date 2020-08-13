@@ -126,7 +126,7 @@ Select these check boxes to display dotted vertical lines between the curly brac
     
     When selected, inserts parameter name hints for literals, casted literals, and object instantiations prior to each argument in function calls.  
     
-    ![Inline Parameter Name Hints for CSharp](media/inline-parameter-name-hints-cs.png)
+    ![Inline Parameter Name Hints for CSharp](media/inline-parameter-name-hints-csharp.png)
 
 - Generate XML documentation comments for ///
 

@@ -76,7 +76,7 @@ When selected, vertical lines appear in the editor that line up with structured 
 **Inline Parameter Name Hints**    
 When selected, inserts parameter name hints for literals, casted literals, and object instantiations prior to each argument in function calls.  
 
-![Inline Parameter Name Hints for CSharp](media/inline-parameter-name-hints-vb.png)
+![Inline Parameter Name Hints for CSharp](media/inline-parameter-name-hints-visualbasic.png)
 
 **Pretty Listing (reformatting) of code**
 The text editor reformats your code as appropriate. When this option is selected, the code editor will:
