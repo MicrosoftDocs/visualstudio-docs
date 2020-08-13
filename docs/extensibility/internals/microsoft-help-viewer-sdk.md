@@ -440,7 +440,7 @@ Note: variables noted by "{n}" have code dependencies - removing or changing the
 
 **Branding.xml**
 
-| Feature | Description |
+| Element | Description |
 | - | - |
 | Feature: | **CollapsibleArea** |
 | Use: | Expand collapses content control text |

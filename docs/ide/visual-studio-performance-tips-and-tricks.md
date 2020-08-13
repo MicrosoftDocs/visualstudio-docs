@@ -1,6 +1,6 @@
 ---
 title: Tips to improve performance
-ms.date: 08/14/2018
+ms.date: 08/13/2020
 ms.topic: conceptual
 author: TerryGLee
 ms.author: tglee
@@ -111,11 +111,25 @@ For information about .NET Compiler Platform ("Roslyn") performance consideratio
 
    ::: moniker-end
 
+- **Disable map mode**
+
+    [**Map mode**](how-to-track-your-code-by-customizing-the-scrollbar.md#display-modes) displays lines of code, in miniature, on the scroll bar. Map mode is enabled by default.
+
+    To disable map mode, go to **Tools** > **Options** > **Text Editor** > **All Languages** > **Scroll Bars**, and in the **Behavior** section, deselect the **Use map mode for vertical scroll bar** option.
+
+- **Disable word wrap**
+
+    [**Word wrap**](./reference/how-to-manage-word-wrap-in-the-editor.md) displays the portion of a long line of code that extends beyond the current width of the code editor window. Word wrap is on by default.
+
+    To disable word wrap for a project that you are currently working on, go to **Edit** > **Advanced** > **Word Wrap**. (You can toggle this setting by using the same menu commands.)
+
+    To disable word wrap for all projects, go to **Tools** > **Options** > **General** > **Text Editor** > **All Languages** > **General**, and in the **Settings** section, deselect the **Word wrap** option.
+
 - **Disable XAML Designer**
 
     The XAML designer is enabled by default, but only consumes resources if you open a *.xaml* file. If you work with XAML files but do not wish to use the designer functionality, disable this feature to free up some memory.
 
-    To disable **XAML Designer**, go to **Tools** > **Options** > **XAML Designer** > **Enable XAML Designer**, and deselect the option.
+    To disable XAML Designer, go to **Tools** > **Options** > **XAML Designer** > **Enable XAML Designer**, and deselect the option.
 
 - **Remove workloads**
 

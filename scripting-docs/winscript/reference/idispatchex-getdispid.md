@@ -51,7 +51,7 @@ HRESULT GetDispID(
 ## Return Value  
  Returns one of the following values:  
   
-|||  
+|Value|Meaning|
 |-|-|  
 |`S_OK`|Success.|  
 |`E_OUTOFMEMORY`|Out of Memory.|  

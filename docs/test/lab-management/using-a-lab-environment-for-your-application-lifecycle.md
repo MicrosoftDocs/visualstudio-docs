@@ -28,9 +28,14 @@ Here are examples of common lab environment topologies:
 |![Cloud lab environment](../media/topology_cloud.png)| This lab environment provides similar capabilities and features as the _server topology_, but removes the requirement for physical or virtual machines running in a local environment; which can reduce setup time, simplify maintenance, and minimize cost. Setting up multiple websites and virtual machines, together with custom networking,  is quick and easy in a cloud environment such as Microsoft Azure.|
 |![Client-server lab environment](../media/topology_clientserver.png)| This lab environment has a *client-server topology*, which is often used to test an application that has server and client components. In a client/server topology, all of the client and server machines used to test your application are in your lab environment. When you use this topology, you can collect test data from every machine that impacts your tests.|
 
-| | |
-|---|---|
-| ![movie camera icon for video](../../install/media/video-icon.png) | [Watch a video](https://channel9.msdn.com/Series/Visual-Studio-2012-Premium-and-Ultimate-Overview/Visual-Studio-Ultimate-2012-Managing-lab-environments-for-testing) on managing lab environments for testing. |
+:::row:::
+    :::column:::
+        ![movie camera icon for video](../../install/media/video-icon.png)
+    :::column-end:::
+    :::column:::
+        [Watch a video](https://channel9.msdn.com/Series/Visual-Studio-2012-Premium-and-Ultimate-Overview/Visual-Studio-Ultimate-2012-Managing-lab-environments-for-testing) on managing lab environments for testing.
+    :::column-end:::
+:::row-end:::
 
 ## Use the cloud with Azure Pipelines or Team Foundation Server Build and Release
 
