@@ -16,11 +16,11 @@ This refactoring applies to:
 
 - C#
 
-**What:** Refactoring of instances SomeEnumerableType.Where(someLambda).Single() to SomeEnumerable.Single(someLambda) for Enumerable.Single as well as Enumerable.SingleOrDefault, Enumerable.Last, Enumerable.LastOrDefault, Enumerable.Any, Enumerable.Count, Enumerable.First, Enumerable.FirstOrDefault
+**What:** Refactors instances of SomeEnumerableType.Where(someLambda).Single() to SomeEnumerable.Single(someLambda) for Enumerable.Single as well as these other Enumerable methods: SingleOrDefault, Last, LastOrDefault, Any, Count, First, FirstOrDefault.
 
-**When:**  All instances where the method call Single, SingleOrDefault, etc. does not have any arguments and is preceded by a Where expression. 
+**When:**  All instances where the method call Single, SingleOrDefault, etc. does not have any arguments and is preceded by a Where expression. The input to the Where expression cannot be constructed as an expression tree.
 
-**Why:** Using nameof rather than the name of the type avoids reflection, and is a more pragmatic way of writing it.
+**Why:** Removing the unnecessary call to the Enumerable.Where method improves performance and readability.
 
 ## How-to
 
@@ -28,7 +28,7 @@ This refactoring applies to:
 2. Press **Ctrl**+**.** to trigger the **Quick Actions and Refactorings** menu.
 3. Select **Simplify Linq Expression**
 
-   ![Convert typeof to nameof](media/converttypeof.PNG)
+   ![Convert typeof to nameof](media/simplifylinq.png)
 
 ## See also
 
