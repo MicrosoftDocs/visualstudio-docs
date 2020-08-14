@@ -86,7 +86,7 @@ public static void Main(string[] args)
 
         try
         {
-            var context = services.GetRequiredService<AppDbContext>();
+            var context = services.GetRequiredService<Data.AppDbContext>();
             context.Database.EnsureCreated();
         }
         catch (Exception ex)
