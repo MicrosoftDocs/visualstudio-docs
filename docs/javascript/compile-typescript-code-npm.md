@@ -103,7 +103,7 @@ The [TypeScript npm package](https://www.npmjs.com/package/typescript) adds Type
 
    Although the app builds automatically when you run it, we want to take a look at something that happens during the build process:
 
-   If you generated source maps, open the folder specified in the *outDir* option and you find the generated *.js file(s) along with the generated *js.map file(s).
+   If you generated source maps, open the folder specified in the *outDir* option and you find the generated \*.js file(s) along with the generated \*js.map file(s).
 
    Source map files are required for [debugging](../javascript/debug-nodejs.md).
 
