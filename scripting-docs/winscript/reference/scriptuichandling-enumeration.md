@@ -23,7 +23,7 @@ typedef enum tagSCRIPTUICHANDLING {     SCRIPTUICHANDLING_ALLOW = 0,     SCRIPTU
   
 ## Enumeration Value  
   
-|||  
+|Value|UIC handling method|  
 |-|-|  
 |SCRIPTUICHANDLING_ALLOW|Allow the control to be displayed.|  
 |SCRIPTUICHANDLING_NOUIERROR||  

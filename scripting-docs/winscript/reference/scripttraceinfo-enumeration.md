@@ -23,7 +23,7 @@ typedef enum tagSCRIPTTRACEINFO {      SCRIPTTRACEINFO_SCRIPTSTART = 0,      SCR
   
 ## Enumeration Values  
   
-|||  
+|Value|Script event|  
 |-|-|  
 |SCRIPTTRACEINFO_SCRIPTSTART|The start of a script.|  
 |SCRIPTTRACEINFO_SCRIPTEND|The end of the script.|  

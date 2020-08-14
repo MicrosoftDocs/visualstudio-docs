@@ -23,7 +23,7 @@ typedef enum tagSCRIPTGCTYPE {    SCRIPTGCTYPE_NORMAL           = 0,    SCRIPTGC
   
 ## Enumeration Values  
   
-|||  
+|Value|Garbage collection type|  
 |-|-|  
 |SCRIPTGCTYPE_NORMAL|Do normal garbage collection. The integer value is 0.|  
 |SCRIPTGCTYPE_EXHAUSTIVE|Do exhaustive garbage collection. The integer value is 1.|  

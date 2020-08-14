@@ -36,7 +36,7 @@ typedef enum tagSCRIPTSTATE {
   
 ## Enumeration Values  
   
-|||  
+|Value|Scripting state|  
 |-|-|  
 |SCRIPTSTATE_UNINITIALIZED|Script has just been created, but has not yet been initialized using an `IPersist*` interface and [IActiveScript::SetScriptSite](../../winscript/reference/iactivescript-setscriptsite.md) .|  
 |SCRIPTSTATE_INITIALIZED|Script has been initialized, but is not running (connecting to other objects or sinking events) or executing any code. Code can be queried for execution by calling the [IActiveScriptParse::ParseScriptText](../../winscript/reference/iactivescriptparse-parsescripttext.md) method.|  
