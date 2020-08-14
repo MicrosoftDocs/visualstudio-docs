@@ -41,7 +41,7 @@ The connected service functionality adds all the needed references and connectio
 
 1. In **Solution Explorer**, right-click the **Connected Services** node, and, from the context menu, select **Add Connected Service**.
 
-    ![Add Azure connected service](./media/vs-azure-tools-connected-services-storage/IC96702.png)
+    ![Add Azure connected service](./media/vs-azure-tools-connected-services-storage/add-connected-service.png)
 
 1. In the **Connected Services** page, select **Cloud Storage with Azure Storage**.
 
