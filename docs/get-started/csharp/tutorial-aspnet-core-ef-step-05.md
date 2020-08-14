@@ -2,7 +2,7 @@
 title: "Step 5: Deploying Your ASP.NET Core App to Azure"
 description: "Deploy your ASP.NET Core Web App to Azure with this video tutorial and step-by-step instructions."
 ms.custom: "get-started"
-ms.date: 03/31/2019
+ms.date: 08/14/2020
 ms.technology: vs-ide-general
 ms.prod: visual-studio-windows
 monikerRange: vs-2019
@@ -33,19 +33,19 @@ Open your ASP.NET Core app in Visual Studio 2019. The app should already be usin
 
 1. Right-click on the project in solution explorer and choose **Publish**. In the **Publish** wizard, choose **Azure** as the target.
 
-   ![Screenshot of Azure App Service 1](media/vs-2019/app-service-screen1.png)
+   ![Screenshot of Azure App Service 1](media/vs-2019/app-service-screen-1.png)
 
 1. For the specific target, choose **Azure App Service (Windows)**.
 
-   ![Screenshot of Azure App Service 2](media/vs-2019/app-service-screen2.png)
+   ![Screenshot of Azure App Service 2](media/vs-2019/app-service-screen-2.png)
 
 1. Choose **Create a new Azure App Service**. If you don't already have an Azure account, click the **Create your Free Azure Account** and complete the brief registration process.
 
-   ![Screenshot of Azure App Service 3](media/vs-2019/app-service-screen3.png)
+   ![Screenshot of Azure App Service 3](media/vs-2019/app-service-screen-3.png)
 
 1. Specify a name and resource group, or accept the default values, and choose **Create**. A resource group is just a way of organizing related resources in Azure, such as services that work together with storage accounts, key vaults, and databases.
 
-   ![Screenshot of Azure App Service 4](media/vs-2019/app-service-screen4.png)
+   ![Screenshot of Azure App Service 4](media/vs-2019/app-service-screen-4.png)
 
 1. Choose **Finish**. The resources are created in Azure, the app is deployed, and the **Publish** tab is populated with the information about what you just created. The **Publish** tab provides a button to publish with one click with the same configuration, shows configuration details, or lets you add services such as a database.
 
@@ -59,11 +59,11 @@ Now, add an Azure SQL Server database.
 
 1. On the **Configure SQL Database** screen, choose **Create a SQL Database**.
 
-   ![Screenshot of Configure SQL Database screen](media/vs-2019/app-service-azure-sql-db2.png)
+   ![Screenshot of Configure SQL Database screen](media/vs-2019/app-service-azure-sql-db-2.png)
 
 1. On the **Azure SQL Database: Create new** screen, create a new database server.
 
-   ![Screenshot Azure SQL Database: Create new](media/vs-2019/app-service-azure-sql-db3.png)
+   ![Screenshot Azure SQL Database: Create new](media/vs-2019/app-service-azure-sql-db-3.png)
 
 1. On the **SQL Server: Create new** screen, choose a name, location, and specify an administrator username and password.
 
