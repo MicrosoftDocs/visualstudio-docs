@@ -19,9 +19,8 @@ If the Windows Script engine allows the source code text for procedures to be ad
   
 ## Methods in Vtable Order  
   
-|||  
-|-|-|  
-|Method|Description|  
+|Method|Description|
+|-|-|
 |[IActiveScriptParseProcedure::ParseProcedureText](../../winscript/reference/iactivescriptparseprocedure-parseproceduretext.md)|Parses the given code procedure and adds the procedure to the namespace.|  
   
 ## See also  

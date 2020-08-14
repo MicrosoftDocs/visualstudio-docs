@@ -23,7 +23,7 @@ typedef enum tagSCRIPTLANGUAGEVERSION{    SCRIPTLANGUAGEVERSION_DEFAULT = 0,    
   
 ## Enumeration Values  
   
-|||  
+|Value|Scripting version|  
 |-|-|  
 |SCRIPTLANGUAGEVERSION_DEFAULT|The default version. The integer value is 0.|  
 |SCRIPTLANGUAGEVERSION_5_7|Windows Scripting version 5.7. The integer value is 1.|  
