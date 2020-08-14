@@ -230,5 +230,5 @@ Feel free to experiment with both Jinja and Jade syntaxes to see which one works
 ## Go deeper
 
 - [Writing your first Flask app, part 4 - forms and generic views](https://docs.djangoproject.com/en/2.0/intro/tutorial04/) (docs.djangoproject.com)
-- [Jade on GitHib (Documentation)](https://github.com/liuliqiang/pyjade) (github.com)
+- [Jade on GitHub (Documentation)](https://github.com/liuliqiang/pyjade) (github.com)
 - Tutorial source code on GitHub: [Microsoft/python-sample-vs-learning-flask](https://github.com/Microsoft/python-sample-vs-learning-flask)
