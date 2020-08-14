@@ -30,7 +30,7 @@ To access this dialog box, go to **Tools** > **Options** > **Environment** > **A
 
 ::: moniker range="vs-2019"
 
-Use this option to customize how often a file is automatically saved in the editor. For previously saved files, a copy of the file is saved in *%LocalAppData%\Microsoft\VisualStudio\BackupFiles\\[projectname]* in Visual Studio 2019 version 16.2 and later. If the file is new and you haven't saved it yet, Visual Studio autosaves it by using a randomly generated file name.
+Use this option to customize how often a file is automatically saved in the editor. For previously saved files, Visual Studio 2019 version 16.2 and later saves a copy of the file in ***%LocalAppData%\Microsoft\VisualStudio\BackupFiles\\[projectname]***. If the file is new and you haven't saved it yet, Visual Studio autosaves it by using a randomly generated file name.
 
 > [!NOTE]
 > If you are using Visual Studio 2019 version 16.1 or earlier, the file location is *%USERPROFILE%\Documents\Visual Studio [version]\Backup Files\\[projectname]*. For more information, see the [Visual Studio 2019 Release Notes History](/visualstudio/releases/2019/release-notes-history/) page.
@@ -39,7 +39,7 @@ Use this option to customize how often a file is automatically saved in the edit
 
 ::: moniker range="vs-2017"
 
-Use this option to customize how often a file is automatically saved in the editor. For previously saved files, a copy of the file is saved in *%USERPROFILE%\Documents\Visual Studio [version]\Backup Files\\[projectname]*. If the file is new and you haven't saved it yet, Visual Studio autosaves it by using a randomly generated file name.
+Use this option to customize how often a file is automatically saved in the editor. For previously saved files, Visual Studio 2017 saves a copy of the file in *%USERPROFILE%\Documents\Visual Studio [version]\Backup Files\\[projectname]*. If the file is new and you haven't saved it yet, Visual Studio autosaves it by using a randomly generated file name.
 
 ::: moniker-end
 
