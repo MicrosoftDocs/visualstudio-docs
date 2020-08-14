@@ -30,10 +30,12 @@ This refactoring applies to:
 2. Press **Ctrl**+**.** to trigger the **Quick Actions and Refactorings** menu.
 3. Select from one of the following options:
 
-- C#: Select **Convert typeof to nameof**
+- C#
+  Select **Convert 'typeof' to 'nameof'**
   ![Convert typeof to nameof](media/convert-type-of.PNG)
 
-- Visual Basic: Select **Convert GetType to NameOf**
+- Visual Basic
+  Select **Convert 'GetType' to 'NameOf'**
    ![Convert typeof to nameof](media/convert-get-type.PNG)
 
 ## See also
