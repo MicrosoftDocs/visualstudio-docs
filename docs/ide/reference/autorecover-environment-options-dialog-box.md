@@ -24,6 +24,8 @@ Use this page in the **Options** dialog box to specify whether to automatically 
 
 To access this dialog box, go to **Tools** > **Options** > **Environment** > **AutoRecover**.
 
+:::image type="content" source="media/autorecover-options.png" alt-text="Screenshot of the AutoRecover section in the Options dialog box":::
+
 **Save AutoRecover information every [n] minutes**
 
 ::: moniker range="vs-2019"
