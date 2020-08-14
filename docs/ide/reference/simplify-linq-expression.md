@@ -1,5 +1,5 @@
 ---
-title: Simplify LINQ Expression
+title: Simplify LINQ expression
 ms.date: 08/12/2020
 ms.topic: reference
 author: m-redding
@@ -10,7 +10,7 @@ dev_langs:
 ms.workload: 
   - "dotnet"
 ---
-# Simplify LINQ Expression
+# Simplify LINQ expression
 
 This refactoring applies to:
 
