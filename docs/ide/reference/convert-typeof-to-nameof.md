@@ -18,7 +18,7 @@ This refactoring applies to:
 - C#
 - Visual Basic
 
-**What:** Lets you convert an instance of `typeof(<QualifiedType>).Name` to `nameof(<QualifiedType>)` in C# and an instance of `GetType(<QualifiedType>)`.Name to `NameOf(<QualifiedType>)` in Visual Basic.
+**What:** Lets you convert an instance of `typeof(<QualifiedType>).Name` to `nameof(<QualifiedType>)` in C# and an instance of `GetType(<QualifiedType>).Name` to `NameOf(<QualifiedType>)` in Visual Basic.
 
 **When:**  All instances of `typeof(<QualifiedType>).Name` where `someType` isn't a generic type. This exclusion is necessary because this case doesn't return the same string value as `nameof(<QualifiedType>)`. The same is true for the Visual Basic instance.
 
@@ -26,7 +26,7 @@ This refactoring applies to:
 
 ## How-to
 
-1. Place your cursor within the `typeof(<QualifiedType>).Name` instance for C# or the `GetType(<QualifiedType>).Name` in Visual basic.
+1. Place your cursor within the `typeof(<QualifiedType>).Name` instance for C# or the `GetType(<QualifiedType>).Name` in Visual Basic.
 2. Press **Ctrl**+**.** to trigger the **Quick Actions and Refactorings** menu.
 3. Select from one of the following options:
 
