@@ -36,7 +36,7 @@ HRESULT DeleteMemberByDispID(
 ## Return Value  
  Returns one of the following values:  
   
-|||  
+|Value|Meaning|
 |-|-|  
 |`S_OK`|Success.|  
 |`S_FALSE`|Member exists but cannot be deleted.|  

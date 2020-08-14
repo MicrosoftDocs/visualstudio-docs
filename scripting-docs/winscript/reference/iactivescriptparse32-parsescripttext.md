@@ -32,7 +32,7 @@ HRESULT ParseScriptText(
   
 #### Parameters  
   
-|||  
+| Parameter | Description |  
 |-|-|  
 |`pstrCode`|[in] Address of the scriptlet text to evaluate. The interpretation of this string depends on the scripting language.|  
 |`pstrItemName`|[in] Address of the item name that gives the context in which the scriptlet is to be evaluated. If this parameter is NULL, the code is evaluated in the scripting engine's global context.|  
@@ -48,7 +48,7 @@ HRESULT ParseScriptText(
 |SCRIPTTEXT_ISPERSISTENT|Indicates that the code added during this call should be saved if the scripting engine is saved (for example, through a call to `IPersist*::Save`), or if the scripting engine is reset by way of a transition back to the initialized state.|  
 |SCRIPTTEXT_ISVISIBLE|Indicates that the script text should be visible (and, therefore, callable by name) as a global method in the name space of the script.|  
   
-|||  
+| Parameter | Description |  
 |-|-|  
 |`pvarResult`|[out] Address of a buffer that receives the results of scriptlet processing, or `NULL` if the caller expects no result (that is, the SCRIPTTEXT_ISEXPRESSION value is not set).|  
 |`pexcepinfo`|[out] Address of a structure that receives exception information. This structure is filled if `IActiveScriptParse::ParseScriptText` returns DISP_E_EXCEPTION.|  
