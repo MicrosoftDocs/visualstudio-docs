@@ -114,11 +114,11 @@ The **Functions** view shows processes, modules, and functions that are allocati
 - The **Name** column shows processes as the highest-level nodes. Underneath processes are modules, and underneath modules are functions.
 - These columns show the same information as they do in the **Allocation** and **Call tree** views:
 
-   - **Total (Allocations)**
-   - **Self (Allocations)**
-   - **Total Size (Bytes)**
-   - **Self Size (Bytes)**
-   - **Average Size (Bytes)**
+  - **Total (Allocations)**
+  - **Self (Allocations)**
+  - **Total Size (Bytes)**
+  - **Self Size (Bytes)**
+  - **Average Size (Bytes)**
 
 ### Collection
 

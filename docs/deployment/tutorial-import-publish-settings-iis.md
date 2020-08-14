@@ -52,15 +52,15 @@ A publish settings file (*\*.publishsettings*) is different than a publishing pr
 
 1. On the computer running Visual Studio, create a new project.
 
-    Choose the correct template. In this example, choose either **ASP.NET Web Application (.NET Framework)** or (for C# only) **ASP.NET Core Web Application**, and then click **OK**.
+    Choose the correct template. In this example, choose either **ASP.NET Web Application (.NET Framework)** or (for C# only) **ASP.NET Core Web Application**, and then select **OK**.
 
-    If you don't see the specified project templates, click the **Open Visual Studio Installer** link in the left pane of the **New Project** dialog box. The Visual Studio Installer launches. Install the **ASP.NET and web development** workload.
+    If you don't see the specified project templates, go to the **Open Visual Studio Installer** link in the left pane of the **New Project** dialog box. The Visual Studio Installer launches. Install the **ASP.NET and web development** workload.
 
     The project template you choose (ASP.NET or ASP.NET Core) must correspond to the version of ASP.NET installed on the web server.
 
-1. Choose either **MVC** (.NET Framework) or **Web Application (Model-View-Controller)** (for .NET Core), and make sure that **No Authentication** is selected, and then click **OK**.
+1. Choose either **MVC** (.NET Framework) or **Web Application (Model-View-Controller)** (for .NET Core), and make sure that **No Authentication** is selected, and then select **OK**.
 
-1. Type a name like **MyWebApp** and click **OK**.
+1. Type a name like **MyWebApp** and select **OK**.
 
     Visual Studio creates the project.
 

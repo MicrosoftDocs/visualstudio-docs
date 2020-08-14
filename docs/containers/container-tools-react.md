@@ -171,7 +171,7 @@ Update the Dockerfile by adding the following lines. This will copy node and npm
       ENTRYPOINT ["dotnet", "WebApplication37.dll"]
       ```
 
-1. Update the .dockerignore file by removing the `**/bin`.
+   1. Update the .dockerignore file by removing the `**/bin`.
 
 ## Debug
 

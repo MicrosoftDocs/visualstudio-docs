@@ -14,7 +14,7 @@ dev_langs:
 ms.workload:
   - "multiple"
 ---
-# Create a Windows Forms app in Visual Studio with C#
+# Create a Windows Forms app in Visual Studio with C\#
 
 In this short introduction to the Visual Studio integrated development environment (IDE), you'll create a simple C# application that has a Windows-based user interface (UI).
 

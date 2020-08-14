@@ -217,11 +217,7 @@ rm -rf ~/Library/Preferences/Xamarin/
 rm -rf "~/Library/Preferences/Visual Studio/"
 ```
 
-* * * 
-
-
-
-
+* * *
 
 ## Uninstall Visual Studio 2019 for Mac Preview
 
