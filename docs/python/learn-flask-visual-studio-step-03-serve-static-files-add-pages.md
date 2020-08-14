@@ -13,7 +13,7 @@ ms.workload:
   - data-science
 ---
 
-# Step 3: Serve static files, add pages, and use template inheritance
+# Step 3: Serve static files, add pages, and use template inheritance with Flask app
 
 **Previous step: [Create a Flask app with views and page templates](learn-flask-visual-studio-step-02-create-app.md)**
 
