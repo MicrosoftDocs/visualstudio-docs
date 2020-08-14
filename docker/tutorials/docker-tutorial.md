@@ -43,8 +43,7 @@ You'll notice a few flags being used. Here's some more info on them:
 Before going too far, we want to highlight the Docker VS Code Extension, which gives you a quick view of the containers running on your machine. It gives you quick
 access to container logs, lets you get a shell inside the container, and lets you easily manage container lifecycle (stop, remove, and so on).
 
-To access the extension, follow the instructions [here](https://code.visualstudio.com/docs/containers/overview). If you open the extension
-now, you will see this tutorial running! The container name (`angry_taussig` below) is a randomly created name. So, you'll most likely have a different name.
+To access the extension, follow the instructions [here](https://code.visualstudio.com/docs/containers/overview). Use the Docker icon on the left to open the Docker view. If you open the extension now, you will see this tutorial running! The container name (`angry_taussig` below) is a randomly created name. So, you'll most likely have a different name.
 
 ![Tutorial container running in Docker Extension](media/vs-tutorial-in-extension.png)
 

@@ -267,7 +267,7 @@ Now that you have the `docker-compose.yml` file, you can start it up!
 
     The service name is displayed at the beginning of the line (often colored) to help distinguish messages. If you want to view the logs for a specific service, you can add the service name to the end of the logs command (for example, `docker-compose logs -f app`).
 
-    > [TIP]
+    > [!TIP]
     > **Waiting for the DB before starting the app**
     > When the app is starting up, it actually sits and waits for MySQL to be up and ready before trying to connect to it.Docker doesn't have any built-in support to wait for another container to be fully up, running, and ready before starting another container. For Node-based projects, you can use the [wait-port](https://github.com/dwmkerr/wait-port) dependency. Similar projects exist for other languages/frameworks.
 

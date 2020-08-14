@@ -48,7 +48,7 @@ To see this in action, you're going to start two containers and create a file in
 
     You should see a random number!
 
-1. Now, tart another `ubuntu` container (the same image) and you'll see you don't have the same file.
+1. Now, start another `ubuntu` container (the same image) and you'll see you don't have the same file.
 
     ```bash
     docker run -it ubuntu ls /
