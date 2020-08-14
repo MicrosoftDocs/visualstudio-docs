@@ -11,7 +11,7 @@ dev_langs:
 ms.workload: 
   - "dotnet"
 ---
-# Convert `typeof` instances to `nameof`
+# Convert `typeof` to `nameof`
 
 This refactoring applies to:
 
