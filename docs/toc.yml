@@ -430,8 +430,8 @@
           href: ide/reference/rename.md
         - name: Simplify conditional expression
           href: ide/reference/simplify-conditional-expression.md
-        - name: Simplify Linq expressions
-          href: ide/reference/simplify-linq-expressions.md
+        - name: Simplify LINQ expression
+          href: ide/reference/simplify-linq-expression.md
         - name: Simplify string interpolation
           href: ide/reference/simplify-string-interpolation.md
         - name: Sort usings
