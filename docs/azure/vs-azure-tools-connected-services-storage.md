@@ -14,15 +14,15 @@ ms.author: ghogen
 
 With Visual Studio, you can connect any of the following to Azure Storage by using the **Connected Services** feature:
 
-    .NET Framework console app
-    ASP.NET MVC (.NET Framework) 
-    ASP.NET Core
-    .NET Core (including console app, WPF, Windows Forms, class Library)
-    .NET Core Worker Role
-    Azure Functions
-    Cordova
-    Universal Windows Platform App
-    Xamarin
+- .NET Framework console app
+- ASP.NET MVC (.NET Framework) 
+- ASP.NET Core
+- .NET Core (including console app, WPF, Windows Forms, class Library)
+- .NET Core Worker Role
+- Azure Functions
+- Universal Windows Platform App
+- Xamarin
+- Cordova
 
 The connected service functionality adds all the needed references and connection code to your project, and modifies your configuration files appropriately.
 
@@ -41,7 +41,7 @@ The connected service functionality adds all the needed references and connectio
 
 1. In **Solution Explorer**, right-click the **Connected Services** node, and, from the context menu, select **Add Connected Service**.
 
-    ![Add Azure connected service](./media/vs-azure-tools-connected-services-storage/IC796702.png)
+    ![Add Azure connected service](./media/vs-azure-tools-connected-services-storage/.png)
 
 1. In the **Connected Services** page, select **Cloud Storage with Azure Storage**.
 
