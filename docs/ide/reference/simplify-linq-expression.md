@@ -28,7 +28,7 @@ This refactoring applies to:
 2. Press **Ctrl**+**.** to trigger the **Quick Actions and Refactorings** menu.
 3. Select **Simplify Linq Expression**
 
-   ![Convert typeof to nameof](media/simplifylinq.png)
+   ![Convert typeof to nameof](media/simplify-lin-expression.png)
 
 ## See also
 
