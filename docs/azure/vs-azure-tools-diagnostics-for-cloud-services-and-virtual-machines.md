@@ -22,7 +22,7 @@ You can use one of the following options to set up Azure Diagnostics:
 ## Azure SDK 2.6 diagnostics changes
 The following changes apply to Azure SDK 2.6 and later projects in Visual Studio:
 
-* The local emulator now supports diagnostics. This means that you can collect diagnostics data and ensure that your application creates the right traces while you develop and test in Visual Studio. The connection string `UseDevelopmentStorage=true` turns on diagnostics data collection while you are running your cloud service project in Visual Studio by using the Azure storage emulator. All diagnostics data is collected in the Development Storage storage account.
+* The local emulator now supports diagnostics. This means that you can collect diagnostics data and ensure that your application creates the right traces while you develop and test in Visual Studio. The connection string `UseDevelopmentStorage=true` turns on diagnostics data collection while you are running your cloud service project in Visual Studio by using the Azure Storage Emulator. All diagnostics data is collected in the Development Storage storage account.
 * The diagnostics storage account connection string `Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString` is stored in the service configuration (.cscfg) file. In Azure SDK 2.5, the diagnostics storage account is specified in the diagnostics.wadcfgx file.
 
 The connection string works differently in some key ways in Azure SDK 2.6 and later versus Azure SDK 2.4 and earlier:
@@ -67,11 +67,11 @@ In Visual Studio, you can collect diagnostics data for roles that run in Azure w
 3. To specify the storage account for the diagnostics data, select the ellipsis (…) button.
 
     ![Specify the storage account to use](./media/vs-azure-tools-diagnostics-for-cloud-services-and-virtual-machines/IC796661.png)
-4. In the **Create Storage Connection String** dialog box, specify whether you want to connect by using the Azure storage emulator, an Azure subscription, or manually entered credentials.
+4. In the **Create Storage Connection String** dialog box, specify whether you want to connect by using the Azure Storage Emulator, an Azure subscription, or manually entered credentials.
 
     ![Storage account dialog box](./media/vs-azure-tools-diagnostics-for-cloud-services-and-virtual-machines/IC796662.png)
 
-   * If you select **Microsoft Azure storage emulator**, the connection string is set to `UseDevelopmentStorage=true`.
+   * If you select **Microsoft Azure Storage Emulator**, the connection string is set to `UseDevelopmentStorage=true`.
    * If you select **Your subscription**, you can select the Azure subscription that you want to use, and enter an account name. To manage your Azure subscriptions, select **Manage Accounts**.
    * If you select **Manually entered credentials**, enter the name and key of the Azure account that you want to use.
 5. To view the **Diagnostics configuration** dialog box, select **Configure**. Except for **General** and **Log Directories**, each tab represents a diagnostics data source that you can collect. The default **General** tab offers the following diagnostics data collection options: **Errors only**, **All information**, and **Custom plan**. The default **Errors only** option uses the least amount of storage, because it doesn’t transfer warnings or tracing messages. The **All information** option transfers the most information, uses the most storage, and therefore, is the most expensive option.
