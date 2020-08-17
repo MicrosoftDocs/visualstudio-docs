@@ -10,5 +10,73 @@ ms.date: 06/10/2020
 ms.author: angelpe
 monikerRange: ">= vs-2019"
 ---
-# Add Azure CosmosDB to your app by using Visual Studio Connected Services
+# Add Azure Cosmos DB to your app by using Visual Studio Connected Services
 
+With Visual Studio, you can connect any of the following to Azure Cosmos DB by using the **Connected Services** feature:
+
+- .NET Framework console app
+- ASP.NET MVC (.NET Framework) 
+- ASP.NET Core
+- .NET Core (including console app, WPF, Windows Forms, class Library)
+- .NET Core Worker Role
+- Azure Functions
+- Universal Windows Platform App
+- Xamarin
+- Cordova
+
+The connected service functionality adds all the needed references and connection code to your project, and modifies your configuration files appropriately.
+
+> [!NOTE]
+> This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [Connected services in Visual Studio for Mac](/visualstudio/mac/connected-services).
+## Prerequisites
+
+- Visual Studio with the Azure workload installed.
+- A project of one of the supported types
+
+## Connect to Azure Cosmos DB using Connected Services
+
+1. Open your project in Visual Studio.
+
+1. In **Solution Explorer**, right-click the **Connected Services** node, and, from the context menu, select **Add Connected Service**.
+
+    ![Add Azure connected service](./media/vs-azure-tools-connected-services-storage/vs-2019/add-connected-service.png)
+
+1. In the **Connected Services** tab, select the + icon for **Service Dependencies**.
+
+    ![Add Service Dependency](./media/vs-azure-tools-connected-services-storage/vs-2019/connected-services-tab.png)
+
+1. In the **Add Dependency** page, select **Azure Cosmos DB**.
+
+    ![Add Azure Cosmos DB](./media/azure-cosmosdb-add-connected-service/azure-cosmosdb.png)
+
+1. In the **Azure Cosmos DB** screen, select an existing Azure Cosmos DB, and select **Add**.
+
+    If you need to create a database, go to the next step. Otherwise, skip to step 6.
+
+    ![Add existing Cosmos DB to project](./media/azure-cosmosdb-add-connected-service/created-cosmosdb.png)
+
+1. To create an Azure Cosmos DB:
+
+   1. Select **Create a New Azure Cosmos DB** at the bottom of the screen.
+
+   1. Fill out the **Create Azure Cosmos DB** screen, and select **Create**.
+
+       ![New Azure storage account](./media/azure-cosmosdb-add-connected-service/create-new-cosmosdb.png)
+
+   1. When the **Configure Azure Cosmos DB** dialog is displayed, the new database appears in the list. Select the new database in the list, and select **Add**.
+
+1. Enter a connection string name, and choose whether you want the connection string stored in a local secrets file, or in [Azure Key Vault](/azure/key-vault).
+
+   ![Specify connection string](./media/azure-cosmosdb-add-connected-service/connection-string.png)
+
+1. The **Summary of changes** screen shows all the modifications that will be made to your project if you complete the process. If the changes look OK, choose **Finish**.
+
+   ![Summary of changes](./media/azure-cosmosdb-add-connected-service/summary-of-changes.png)
+
+1. The storage connected service appears under the **Service References** node of your project.
+
+## See also
+
+- [Azure Cosmos DB product page](https://azure.microsoft.com/services/cosmos-db/)
+- [Azure Storage documentation](/azure/cosmos-db/)
+- [Connected services (Visual Studio for Mac)](/visualstudio/mac/connected-services)
