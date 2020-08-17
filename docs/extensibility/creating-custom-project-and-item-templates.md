@@ -66,9 +66,9 @@ For basic template creation scenarios, you should use the **Export Template** wi
 
 1. Create a VSIX project. For more information, see [VSIX project template](../extensibility/vsix-project-template.md).
 
-2. Set the VSIX project as the startup project. In the **Solution Explorer**, select the VSIX project node, right-click, and select **Set as Startup Project**.
+2. Set the VSIX project as the startup project. In the **Solution Explorer**, select the VSIX project node, select and hold (or right-click), and select **Set as Startup Project**.
 
-3. Set the project template project as an asset of the VSIX project. Open the *.vsixmanifest* file. Go to the **Assets** tab and click **New**.
+3. Set the project template project as an asset of the VSIX project. Open the *.vsixmanifest* file. Go to the **Assets** tab and select **New**.
 
     1. Set the **Type** field to **Microsoft.VisualStudio.ProjectTemplate** or **Microsoft.VisualStudio.ItemTemplate**.
 
@@ -76,7 +76,7 @@ For basic template creation scenarios, you should use the **Export Template** wi
 
 4. Build the solution, and press **F5**. The experimental instance appears.
 
-5. For a project template project, you should see your project template listed in the **New Project** dialog (**File** > **New** > **Project**), in the Visual C# or Visual Basic node. For an item template project, you should see your item template listed in the **Add New Item** dialog. To view the **Add New Item** dialog, from the **Solution Explorer**, select the project node and click **Add** > **New Item**).
+5. For a project template project, you should see your project template listed in the **New Project** dialog (**File** > **New** > **Project**), in the Visual C# or Visual Basic node. For an item template project, you should see your item template listed in the **Add New Item** dialog. To view the **Add New Item** dialog, from the **Solution Explorer**, select the project node and select **Add** > **New Item**).
 
 ## See also
 
