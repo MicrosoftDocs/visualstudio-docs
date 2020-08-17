@@ -49,9 +49,9 @@ The connected service functionality adds all the needed references and connectio
 
     ![Add Azure Cosmos DB](./media/azure-cosmosdb-add-connected-service/azure-cosmosdb.png)
 
-1. In the **Azure Cosmos DB** screen, select an existing Azure Cosmos DB, and select **Add**.
+1. In the **Azure Cosmos DB** screen, select an existing Azure Cosmos DB, and select **Next**.
 
-    If you need to create a database, go to the next step. Otherwise, skip to step 6.
+    If you need to create a database, go to the next step. Otherwise, skip to step 7.
 
     ![Add existing Cosmos DB to project](./media/azure-cosmosdb-add-connected-service/created-cosmosdb.png)
 
@@ -63,7 +63,7 @@ The connected service functionality adds all the needed references and connectio
 
        ![New Azure storage account](./media/azure-cosmosdb-add-connected-service/create-new-cosmosdb.png)
 
-   1. When the **Configure Azure Cosmos DB** dialog is displayed, the new database appears in the list. Select the new database in the list, and select **Add**.
+   1. When the **Configure Azure Cosmos DB** dialog is displayed, the new database appears in the list. Select the new database in the list, and select **Next**.
 
 1. Enter a connection string name, and choose whether you want the connection string stored in a local secrets file, or in [Azure Key Vault](/azure/key-vault).
 
@@ -73,7 +73,9 @@ The connected service functionality adds all the needed references and connectio
 
    ![Summary of changes](./media/azure-cosmosdb-add-connected-service/summary-of-changes.png)
 
-1. The storage connected service appears under the **Service References** node of your project.
+1. The storage connected service appears under the **Service Dependencies** section of the Connected Services tab.
+
+   ![Service dependencies](./media/azure-cosmosdb-add-connected-service/service-dependencies-after.png)
 
 ## See also
 
