@@ -66,7 +66,9 @@ Profiling using the Visual Studio Diagnostics CLI tools works by attaching the p
    VSDiagnostics.exe stop <id> /output:<path to file>
    ```
 
-1. Go to the file output from the previous command, and open it in Visual Studio to examine the information collected.
+1. Locate the *.diagsession* file output from the previous command, and open it in Visual Studio (**File** > **Open**) to examine the information collected.
+
+   To analyze the results, see the documentation for the corresponding performance tool. For example, this might be the [CPU Usage](../profiling/cpu-usage.md), [.NET Object Allocation tool](../profiling/dotnet-alloc-tool.md), or the [Database](../profiling/analyze-database.md) tool.
 
 ## <a name="config_file"></a> Agent configuration files
 
