@@ -17,7 +17,7 @@ With Visual Studio, you can connect any of the following to Azure Cosmos DB by u
 - .NET Framework console app
 - ASP.NET MVC (.NET Framework) 
 - ASP.NET Core
-- .NET Core (including console app, WPF, Windows Forms, class Library)
+- .NET Core (including console app, WPF, Windows Forms, class library)
 - .NET Core Worker Role
 - Azure Functions
 - Universal Windows Platform App
