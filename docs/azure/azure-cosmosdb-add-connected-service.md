@@ -6,7 +6,7 @@ manager: jillfra
 ms.custom: vs-azure
 ms.workload: azure-vs
 ms.topic: conceptual
-ms.date: 06/10/2020
+ms.date: 08/17/2020
 ms.author: angelpe
 monikerRange: ">= vs-2019"
 ---
@@ -49,6 +49,8 @@ The connected service functionality adds all the needed references and connectio
 
     ![Add Azure Cosmos DB](./media/azure-cosmosdb-add-connected-service/azure-cosmosdb.png)
 
+    If you aren't signed in already, sign into your Azure account. If you don't have an Azure account, you can sign up for a [free trial](https://azure.microsoft.com/account/free).
+
 1. In the **Azure Cosmos DB** screen, select an existing Azure Cosmos DB, and select **Next**.
 
     If you need to create a database, go to the next step. Otherwise, skip to step 7.
@@ -57,11 +59,11 @@ The connected service functionality adds all the needed references and connectio
 
 1. To create an Azure Cosmos DB:
 
-   1. Select **Create a New Azure Cosmos DB** at the bottom of the screen.
+   1. Select **Create a new Azure Cosmos DB** at the bottom of the screen.
 
-   1. Fill out the **Create Azure Cosmos DB** screen, and select **Create**.
+   1. Fill out the **Azure Cosmos DB: Create new** screen, and select **Create**.
 
-       ![New Azure storage account](./media/azure-cosmosdb-add-connected-service/create-new-cosmosdb.png)
+       ![New Azure Cosmos DB](./media/azure-cosmosdb-add-connected-service/create-new-cosmosdb.png)
 
    1. When the **Configure Azure Cosmos DB** dialog is displayed, the new database appears in the list. Select the new database in the list, and select **Next**.
 
@@ -73,12 +75,12 @@ The connected service functionality adds all the needed references and connectio
 
    ![Summary of changes](./media/azure-cosmosdb-add-connected-service/summary-of-changes.png)
 
-1. The storage connected service appears under the **Service Dependencies** section of the Connected Services tab.
+1. The connection appears under the **Service Dependencies** section of the **Connected Services** tab.
 
    ![Service dependencies](./media/azure-cosmosdb-add-connected-service/service-dependencies-after.png)
 
 ## See also
 
 - [Azure Cosmos DB product page](https://azure.microsoft.com/services/cosmos-db/)
-- [Azure Storage documentation](/azure/cosmos-db/)
+- [Azure Cosmos DB documentation](/azure/cosmos-db/)
 - [Connected services (Visual Studio for Mac)](/visualstudio/mac/connected-services)

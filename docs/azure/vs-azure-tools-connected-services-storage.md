@@ -82,7 +82,9 @@ The connected service functionality adds all the needed references and connectio
 
     ![Add Azure Storage](./media/vs-azure-tools-connected-services-storage/vs-2019/add-azure-storage.png)
 
-1. In the **Azure Storage** dialog, select an existing storage account, and select **Add**.
+    If you aren't signed in already, sign into your Azure account. If you don't have an Azure account, you can sign up for a [free trial](https://azure.microsoft.com/account/free).
+
+1. In the **Configure Azure Storage** screen, select an existing storage account, and select **Next**.
 
     If you need to create a storage account, go to the next step. Otherwise, skip to step 6.
 
@@ -90,13 +92,13 @@ The connected service functionality adds all the needed references and connectio
 
 1. To create a storage account:
 
-   1. Select **Create a New Storage Account** at the bottom of the dialog.
+   1. Select **Create a storage account** at the bottom of the dialog.
 
-   1. Fill out the **Create Storage Account** dialog, and select **Create**.
+   1. Fill out the **Azure Storage: Create new** dialog, and select **Create**.
 
        ![New Azure storage account](./media/vs-azure-tools-connected-services-storage/vs-2019/create-storage-account.png)
 
-   1. When the **Azure Storage** dialog is displayed, the new storage account appears in the list. Select the new storage account in the list, and select **Add**.
+   1. When the **Azure Storage** dialog is displayed, the new storage account appears in the list. Select the new storage account in the list, and select **Next**.
 
 1. Enter a connection string name, and choose whether you want the connection string stored in a local secrets file, or in [Azure Key Vault](/azure/key-vault).
 
