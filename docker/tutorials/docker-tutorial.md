@@ -71,4 +71,4 @@ We'll dive deeper into images later on, covering topics such as layering, best p
 Continue with the tutorial!
 
 > [!div class="nextstepaction"]
-> [Our application](your-application.md)
+> [The application](your-application.md)
