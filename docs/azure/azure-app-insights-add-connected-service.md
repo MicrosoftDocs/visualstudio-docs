@@ -67,7 +67,7 @@ The connected service functionality adds all the needed references and connectio
 
    1. When the **Configure Azure Application Insights** screen is displayed, the new component appears in the list. Select the new component in the list, and select **Next**.
 
-1. Enter an Instrumentation key name, or choose the default, and choose whether you want the connection string stored in a local secrets file, or in [Azure Key Vault](/azure/key-vault).
+1. Enter an instrumentation key name, or choose the default, and choose whether you want the connection string stored in a local secrets file, or in [Azure Key Vault](/azure/key-vault).
 
    ![Specify connection string](./media/azure-app-insights-add-connected-service/connection-string.png)
 

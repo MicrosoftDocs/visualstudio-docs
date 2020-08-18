@@ -65,7 +65,7 @@ The connected service functionality adds all the needed references and connectio
 
        ![New Azure SignalR Service instance](./media/azure-signalr-add-connected-service/create-new-signalr.png)
 
-   1. When the **Configure Azure SignalR** screen is displayed, the new instance appears in the list. Select the new instance in the list, and select **Next**.
+   1. When the **Configure Azure SignalR Service** screen is displayed, the new instance appears in the list. Select the new instance in the list, and select **Next**.
 
 1. Enter a connection string name, or choose the default, and choose whether you want the connection string stored in a local secrets file, or in [Azure Key Vault](/azure/key-vault).
 
