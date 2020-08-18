@@ -15,18 +15,16 @@ ms.workload:
 > [!NOTE]
 > For Visual Studio for Mac, see [How to report a problem in Visual Studio for Mac](/visualstudio/mac/report-a-problem).
 
-You can report a problem from either Visual Studio or its installer by using the Feedback Tool included in them. The Feedback Tool enables you to easily include diagnostic information in your feedback and helps Visual Studio teams to diagnose and fix issues much more effectively. Here are the steps to report a problem.
+You can report a problem from either Visual Studio or its installer. The built-in Feedback Tool allows you to easily add diagnostic information that helps the Visual Studio teams to diagnose and fix the issues. Here are the steps to report a problem.
 
 1. **In Visual Studio**, select the feedback icon in the upper-right corner and select Report a Problem. You can also access the feedback tool  from the menu **Help** > **Send Feedback** > **Report a Problem**.
 ![Report an issue pop-up on Visual Studio Developer Community](media/feedback-button.png)
 Alternatively, report a problem in **Visual Studio Installer** if you can't install Visual Studio or are unable to access the feedback tool within Visual Studio.  In the Installer, select the feedback icon in the upper-right corner and select Report a Problem.
 ![Report an issue pop-up on Visual Studio Developer Community](media/installer.png)
 
-1. This will open your default browser and sign you in using the same account you use to sign in to Visual Studio
+1. Clicking **Report a Problem** will open your default browser and sign you in using the same account you use to sign in to Visual Studio
 
    ![Sign in to report a problem](../ide/media/feedback-browser-top.png)
-
-   Not only can you report a problem when you are signed in, but you can also vote and comment on any existing feedback.
 
 1. Start by entering the descriptive title of your bug report. It must be at least 25 characters long.
 
@@ -36,42 +34,42 @@ Alternatively, report a problem in **Visual Studio Installer** if you can't inst
 
     ![Search for duplicates](../ide/media/feedback-search.png)
 
-1. Click the individual possible duplicate bug reports to see if there is one matching your problem. If there is, vote for it instead of creating your own ticket.
+1. Select the possible duplicate bug reports to see if there is one matching your own problem. If there is, vote for it instead of creating your own ticket.
 
     ![Vote for duplicates](../ide/media/feedback-duplicate.png)
 
-1. If no duplicates were found, continue by entering a description of the problem. It's important to be as clear and precise as possible to increase the chances of us being able to reproduce the bug. Step by step guides on how to reproduce the bug is very helpful.
+2. If no duplicates were found, continue by entering a description of the problem. It's important to be as clear as possible to increase the chances of us being able to reproduce the bug. Make sure to include clear reproduction steps.
 
-1. If relevant to the bug report, take a screenshot by checking the *Include Visual Studio screenshot* checkbox.
+3. If relevant to the bug report, take a screenshot by checking the *Include Visual Studio screenshot* checkbox.
 
     ![Take a screenshot](../ide/media/feedback-screenshot.png)
     *Only Microsoft engineers can see the screenshot*
 
     You can even crop the screenshot directly in the browser to remove any sensitive or unrelated parts.
 
-1. One of the best way to help the Visual Studio engineering team solve the problem, is to provide a trace and heap dump files for them to look through. You can easily do that by recording the steps that resulted in the bug. 
+4. One of the best ways to help the Visual Studio engineering team solve the problem, is to provide a trace and heap dump files for them to look through. You can easily do that by recording the steps that resulted in the bug. 
 
     ![Record your actions](../ide/media/feedback-recording.png)
     *Only Microsoft engineers can see the recording*
 
-1. Review the attached files and upload additional files if you believe it would help diagnose the issue.   
+5. Review the attached files and upload additional files if you believe it would help diagnose the issue.   
 
     ![Attached files](../ide/media/feedback-attachments.png)
     *Only Microsoft engineers can see the attached files*
 
-1. The last step is to hit the **Submit** button. That will send the bug report directly into the internal Visual Studio bug reporting system awaiting triage.
+6. The last step is to hit the **Submit** button. Submitting the report will send it directly into the internal Visual Studio bug reporting system awaiting triage.
 
 ## When further information is needed
 
 When an issue is missing important information, we assign the Needs More Info state. We comment on the issue with the specific information we need, and you'll receive an email notification. If we don't receive the information within seven days, then we send you a reminder. After that, we close the ticket after 14 days of inactivity.
 
-You can see these requests on the **My Feedback** screen along with all the other **Problems** and **Suggestions** you have created.
+You can see these requests on the **My Feedback** screen along with all your other **Problems** and **Suggestions**.
 
 ## Search for solutions or provide feedback
 
 If you don't want to or can't use Visual Studio to report a problem, there's a chance the problem has already been reported and a solution posted on the [Visual Studio Developer Community](https://developercommunity.visualstudio.com/) page.
 
-If you don't have a problem to report but want to suggest a feature, there's a place for that, too. For more information, see the [Suggest a feature](https://developercommunity.visualstudio.com/content/idea/post.html?space=8) page.
+If you don't have a problem to report but want to suggest a feature, there's a place for doing that too. For more information, see the [Suggest a feature](https://developercommunity.visualstudio.com/content/idea/post.html?space=8) page.
 
 ## See also
 
