@@ -875,10 +875,6 @@
     href: ide/configuring-warnings-in-visual-basic.md
   - name: "Walkthrough: Create a multiple-computer build environment"
     href: ide/walkthrough-creating-a-multiple-computer-build-environment.md
-  - name: Visual Studio Installer Projects Extension and .NET Core 3.1
-    items:
-    - name: Visual Studio Installer Deployment
-      href: ide/installerprojects/installer-projects-netcore.md
 - name: Debug >>
   href: debugger/index.yml
 - name: Test >>
