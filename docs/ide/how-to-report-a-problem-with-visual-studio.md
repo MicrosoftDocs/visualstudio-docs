@@ -61,7 +61,19 @@ Alternatively, report a problem in **Visual Studio Installer** if you can't inst
 
 ## When further information is needed
 
-When an issue is missing important information, we assign the Needs More Info state. We comment on the issue with the specific information we need, and you'll receive an email notification. If we don't receive the information within seven days, then we send you a reminder. After that, we close the ticket after 14 days of inactivity.
+When an issue is missing important information, we assign the **Needs More Info** state. We comment on the issue with the specific information we need, and you'll receive an email notification. If we don't receive the information within seven days, then we send you a reminder. After that, we close the ticket after 14 days of inactivity.
+
+1. Follow the link in the email to the problem report or go to My Feedback to see all reports in the **Needs More Info** state.
+
+    ![My Feedback](../ide/media/feedback-my-feedback.png)
+
+1. Selecting the Provide More Info link on the problem report navigates you to a new screen. From here, you can see what info is being requested.
+
+   ![My Feedback](../ide/media/feedback-need-more-info.png)
+
+1. You can provide more information by adding comments, attachments, or recording steps. This experience is similar to reporting a new problem or providing additional information when voting on a problem.
+
+1. The requesting Microsoft engineer receives a notification about the extra information provided. If they have enough information to investigate, the problem state changes. Otherwise, the engineer asks for even further information.
 
 You can see these requests on the **My Feedback** screen along with all your other **Problems** and **Suggestions**.
 
