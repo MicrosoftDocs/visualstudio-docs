@@ -20,7 +20,7 @@ So, how do you get started?
 
 ## Install Docker Compose
 
-If you installed Docker Desktop or Docker Toolbox for either Windows or Mac, you already have Docker Compose! Play-with-Docker instances already have Docker Compose installed as well. If you are on a Linux machine, you will need to install Docker Compose using [the instructions here](https://docs.docker.com/compose/install/).
+If you installed Docker Desktop for either Windows or Mac, you already have Docker Compose! Play-with-Docker instances already have Docker Compose installed as well. If you are on a Linux machine, you will need to install Docker Compose using [the instructions here](https://docs.docker.com/compose/install/).
 
 After installation, you should be able to run the following and see version information.
 
@@ -237,7 +237,7 @@ Now that you have the `docker-compose.yml` file, you can start it up!
 
 1. First, make sure no other copies of the app and database are running (`docker ps` and `docker rm -f <ids>`).
 
-1. Start up the application stack using the `docker-compose up` command. Add the `-d` flag to run everything in the background.
+1. Start up the application stack using the `docker-compose up` command. Add the `-d` flag to run everything in the background. Alternatively you can right click on your Compose file and select the compose up option for the VSCode side bar. 
 
     ```bash
     docker-compose up -d
@@ -275,22 +275,21 @@ Now that you have the `docker-compose.yml` file, you can start it up!
 
 ## See the app stack in the Docker extension
 
-If you look at the Docker extension, you can change the grouping options using the 'cog' and 'group by'. In this instance, you want to see containers sharing a network.
+If you look at the Docker extension, you can change the grouping options using the 'cog' and 'group by'. In this instance, you want to see containers grouped by Compose Project name:
 
-![VS Extension with network](media/vs-app-project-collapsed.png)
+![VS Extension with Compose](media/vs-app-project-collapsed.png)
 
 If you twirl down the network, you will see the two containers you defined in the compose file.
 
-![VS Extension with app network expanded](media/vs-app-project-expanded.png)
+![VS Extension with Compose expanded](media/vs-app-project-expanded.png)
 
 ## Tear it all down
 
-When you're ready to tear it all down, simply run `docker-compose down`, or hit the trash can on the Docker Dashboard for the entire app. The containers will stop and the network will be removed.
+When you're ready to tear it all down, simply run `docker-compose down`, or right click on the application in the containers list in the VSCode Docker extension and select Compose down. The containers will stop and the network will be removed.
 
 > [!WARNING]
 > **Removing Volumes**
 > By default, named volumes in your compose file are NOT removed when running `docker-compose down`. If you want to remove the volumes, you will need to add the `--volumes` flag.
-> The Docker Dashboard does *not* remove volumes when you delete the app stack.
 
 Once torn down, you can switch to another project, run `docker-compose up` and be ready to contribute to that project! It really doesn't get much simpler than that!
 

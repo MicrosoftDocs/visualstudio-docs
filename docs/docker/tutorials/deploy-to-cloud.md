@@ -28,7 +28,7 @@ You should only see your default context for local work.
 
 You'll need to set up an Azure account if you don’t already have one.
 
-1. Now you can create your new ACI context.
+1. Now you can create your new ACI context, you can do this by clicking the plus button on the contexts section of the Docker pannel
 
    ![Creating your ACI context](media/createnewcontext.png)
 
@@ -58,6 +58,18 @@ You can now see your ACI context listed and can right-click it to make it your c
    ![Container in ACI with public IP](media/containerinaci.png)
 
 And, you can see that the container is running in a public IP and working correctly!
+
+1. Now we can have a look at our running container to see how it is working, we can start by having a look at the container logs
+ 
+ ```bash
+   docker logs distracted-jackson
+   ```
+
+1. We can also exec into our container as we would with a local container 
+ 
+ ```bash
+   docker exec -it distracted-jackson sh
+   ```
 
 1. Lastly to clean up your working space and to make sure you're not being charged for continuing to run the test container, you can simply right-click on the running container and choose **Remove**.
 

@@ -20,7 +20,7 @@ You're not going to go deep-dive here, but here are a few other areas to look at
 Running containers in production is tough. You don't want to log into a machine and simply run a
 `docker run` or `docker-compose up`. Why not? Well, what happens if the containers die? How do you
 scale across several machines? Container orchestration solves this problem. Tools like Kubernetes,
-Swarm, Nomad, and ECS all help solve this problem, all in slightly different ways.
+Swarm, Nomad, and AKS all help solve this problem, all in slightly different ways.
 
 The general idea is that you have "managers" who receive **expected state**. This state might be
 "I want to run two instances of my web app and expose port 80." The managers then look at all of the
