@@ -18,7 +18,7 @@ ms.workload:
 ---
 # Tutorial: Extend a simple C# console app
 
-In this tutorial, you'll learn how to use Visual Studio to extend the console app you created in the first part. You'll learn some of the features in Visual Studio that help you be more productive as a developer, such as using advanced editor features, and debugging.
+In this tutorial, you'll learn how to use Visual Studio to extend the console app you created in the first part. You'll learn some of the features in Visual Studio that you'll need for daily development, such as managing multiple projects, and referencing third-party packages.
 
 If you just completed the [first part](tutorial-console.md) of this series, you already have the Calculator console app.  To skip part 1, you can start by opening the project from a GitHub repo. The C# Calculator app is in the [vs-tutorial-samples repo](https://github.com/MicrosoftDocs/vs-tutorial-samples), so you can just follow the steps in [Tutorial: Open a project from a repo](../tutorial-open-project-from-repo.md) to get started.
 
