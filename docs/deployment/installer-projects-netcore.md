@@ -1,5 +1,5 @@
 ---
-title: "Visual Studio Installer Projects and .NET Core 3.1 | Microsoft Docs"
+title: "Visual Studio Installer Projects and .NET Core 3.1"
 ms.date: "08/18/2020"
 ms.topic: "conceptual"
 helpviewer_keywords:
