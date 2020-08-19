@@ -48,7 +48,7 @@ If you would like your installer to be able to install the necessary runtime for
 The **.NET Core Runtime...** option should be selected for console applications, **.NET Desktop Runtime...** should be selected for WPF/WinForms applications.
 
 >[!NOTE]
->These items are present starting with Visual Studio 2019 Update 7 release.
+>These items are present starting with the Visual Studio 2019 Update 7 release.
 
 ## See also
 
