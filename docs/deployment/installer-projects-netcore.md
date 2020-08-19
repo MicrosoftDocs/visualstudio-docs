@@ -31,7 +31,7 @@ To learn more about of these deployment strategies, see [.NET Core application p
 
 ### Workflow changes for .NET Core 3.1
 
-- Pick “Publish Items” instead of “Primary Output” to get the correct output for .NET Core 3.1 projects.  To bring up this dialog select "Add -> Project Output..." from the project's context menu.
+- Select **Publish Items** instead of **Primary Output** to get the correct output for .NET Core 3.1 projects.  To bring up this dialog, select **Add** > **Project Output...** from the project's context menu.
 
 ![The Publish Items output group in the Add Project Output Group dialog](../deployment/media/installerprojects-netcore-publishitemsoutput.png "Pick Publish Items")
 
