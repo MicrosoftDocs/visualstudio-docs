@@ -10,6 +10,7 @@ ms.author: lukewest
 manager: MSLukeWest
 ms.workload:
   - "multiple"
+  monikerRange: '>= vs-2019'
 ---
 
 # Visual Studio Installer Projects Extension and .NET Core 3.1
