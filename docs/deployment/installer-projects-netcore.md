@@ -41,7 +41,7 @@ To learn more about of these deployment strategies, see [.NET Core application p
 
 ### Prerequisites for .NET Core 3.1
 
-If you would like your installer to be able to install the necessary runtime for a framework-dependent .NET Core 3.1 app, you can do this using [prerequisites](../deployment/application-deployment-prerequisites.md).  From the properties dialog of your installer project open the “Prerequisites...” dialog and you'll see the following entries:
+If you would like your installer to be able to install the necessary runtime for a framework-dependent .NET Core 3.1 app, you can do this using [prerequisites](../deployment/application-deployment-prerequisites.md).  From the properties dialog of your installer project, open the **Prerequisites...** dialog and you'll see the following entries:
 
 ![.NET Core items in the Prerequisites dialog](../deployment/media/installerprojects-netcore-publishitemsoutput.png ".NET Core Prerequisites")
 
