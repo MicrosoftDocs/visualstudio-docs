@@ -35,7 +35,7 @@ To learn more about of these deployment strategies, see [.NET Core application p
 
 ![The Publish Items output group in the Add Project Output Group dialog](../deployment/media/installerprojects-netcore-publishitemsoutput.png "Pick Publish Items")
 
-- To create a self-contained installer, set the “PublishProfilePath” property on the “Publish Items” node in the setup project, using the relative path of a publish profile with the correct properties set.
+- To create a self-contained installer, set the **PublishProfilePath** property on the **Publish Items** node in the setup project, using the relative path of a publish profile with the correct properties set.
 
 ![Setting the publish profile on the Publish Items project output item](../deployment/media/installerprojects-netcore-publishitemsoutput.png "Set Publish Profile")
 
