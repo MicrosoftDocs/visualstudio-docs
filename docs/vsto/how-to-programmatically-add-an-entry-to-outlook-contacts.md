@@ -1,7 +1,7 @@
 ---
 title: "How to: Programmatically add an entry to Outlook contacts"
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: "how-to"
 dev_langs:
   - "VB"
   - "CSharp"

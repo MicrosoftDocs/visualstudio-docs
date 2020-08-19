@@ -1,7 +1,7 @@
 ---
 title: "IDiaSymbol::get_isPointerToMemberFunction | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 ms.assetid: aa9b5599-9602-41be-ab50-d84b90bee72f

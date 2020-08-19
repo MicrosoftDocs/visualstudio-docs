@@ -1,7 +1,7 @@
 ---
-title: "Error: Unable to initiate DCOM communication | Microsoft Docs"
+title: "Error - Unable to initiate DCOM communication | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "troubleshooting"
+ms.topic: "error-reference"
 f1_keywords:
   - "vs.debug.error.unmarshal_server_failed"
 dev_langs:

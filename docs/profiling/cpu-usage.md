@@ -1,14 +1,14 @@
 ---
-title: "Analyze CPU usage | Microsoft Docs"
-ms.custom: "seodec18"
-ms.date: "04/02/2020"
-ms.topic: "conceptual"
+title: Analyze CPU usage | Microsoft Docs
+ms.custom: seodec18
+ms.date: 04/02/2020
+ms.topic: how-to
 ms.assetid: 7501a20d-04a1-480f-a69c-201524aa709d
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
-ms.workload:
-  - "multiple"
+ms.workload: 
+  - multiple
 ---
 # Analyze CPU usage
 
@@ -55,7 +55,7 @@ Starting in Visual Studio 2019, you can click the **Expand Hot Path** and **Show
 
 ### <a name="BKMK_Call_tree_data_columns"></a> CPU Usage data columns
 
-|||
+|Name|Description|
 |-|-|
 |**Total CPU [unit, %]**|![Total % data equation](../profiling/media/cpu_use_wt_totalpercentequation.png "CPU_USE_WT_TotalPercentEquation")<br /><br /> The milliseconds and CPU percentage used by calls to the function, and functions called by the function, in the selected time range. This is different from the **CPU Utilization** timeline graph, which compares the total CPU activity in a time range to the total available CPU.|
 |**Self CPU [unit, %]**|![Self % equation](../profiling/media/cpu_use_wt_selflpercentequation.png "CPU_USE_WT_SelflPercentEquation")<br /><br /> The milliseconds and CPU percentage used by calls to the function in the selected time range, excluding functions called by the function.|
@@ -74,7 +74,7 @@ To view the call tree, select the parent node in the report. The **CPU Usage** p
 ![Call tree structure](../profiling/media/cpu_use_wt_getmaxnumbercalltree_annotated.png "Call tree structure")
 ::: moniker-end
 
-|||
+|Image|Description|
 |-|-|
 |![Step 1](../profiling/media/procguid_1.png "ProcGuid_1")|The top-level node in CPU Usage call trees is a pseudo-node.|
 |![Step 2](../profiling/media/procguid_2.png "ProcGuid_2")|In most apps, when the **Show External Code** option is disabled, the second-level node is an **[External Code]** node. The node contains the system and framework code that starts and stops the app, draws the UI, controls thread scheduling, and provides other low-level services to the app.|

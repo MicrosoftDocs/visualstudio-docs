@@ -1,7 +1,7 @@
 ---
 title: "Troubleshoot Office solution deployment"
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: "troubleshooting"
 dev_langs:
   - "VB"
   - "CSharp"
@@ -123,3 +123,4 @@ ms.workload:
 
 - [Troubleshoot ClickOnce deployments](../deployment/troubleshooting-clickonce-deployments.md)
 - [Deploy an Office solution](../vsto/deploying-an-office-solution.md)
+- [Visual Studio troubleshooting](/troubleshoot/visualstudio/welcome-visual-studio/)

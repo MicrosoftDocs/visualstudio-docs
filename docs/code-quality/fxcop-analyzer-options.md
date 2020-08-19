@@ -106,4 +106,3 @@ These configuration options are available starting in version 2.6.3 of the [Micr
 | Description | Allowable values | Default value | Configurable rules |
 | - | - | - | - |
 | Names of symbols that are disallowed in the context of the analysis | Allowed symbol name formats (separated by `|`):<br/> - Symbol name only (includes all symbols with the name, regardless of the containing type or namespace)<br/> - Fully qualified names in the symbol's [documentation ID format](https://github.com/dotnet/csharplang/blob/master/spec/documentation-comments.md#id-string-format). Each symbol name requires a symbol kind prefix, such as "M:" prefix for methods, "T:" prefix for types, "N:" prefix for namespaces, etc.<br/> - `.ctor` for constructors and `.cctor` for static constructors | None | [CA1031](ca1031.md) |
-

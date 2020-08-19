@@ -100,7 +100,7 @@ In XAML Designer, a *shape* is exactly what you’d expect. For example: a recta
 
  ![](../designers/media/2df17a5d-a338-4ef4-96c5-dae51cc1ca8a.png "2df17a5d-a338-4ef4-96c5-dae51cc1ca8a")
 
-|||||
+|Image|Description|Image|Description|
 |-|-|-|-|
 |![](../designers/media/b1-1.png "B1_1")|Two shapes before combining|![](../designers/media/b1-4.png "B1_4")|Intersect|
 |![](../designers/media/b1-2.png "B1_2")|Unite|![](../designers/media/b1-5.png "B1_5")|Exclude Overlap|

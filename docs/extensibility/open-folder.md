@@ -1,7 +1,7 @@
 ---
 title: "Visual Studio Open Folder extensibility overview | Microsoft Docs"
 ms.date: "02/21/2018"
-ms.topic: "conceptual"
+ms.topic: overview
 ms.assetid: 94c3f8bf-1de3-40ea-aded-7f40c4b314c7
 author: "vukelich"
 ms.author: "svukel"

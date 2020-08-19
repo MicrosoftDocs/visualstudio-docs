@@ -19,7 +19,7 @@ manager: "wpickett"
 # CA2214: Do not call overridable methods in constructors
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-|||
+|Item|Value|
 |-|-|
 |TypeName|DoNotCallOverridableMethodsInConstructors|
 |CheckId|CA2214|

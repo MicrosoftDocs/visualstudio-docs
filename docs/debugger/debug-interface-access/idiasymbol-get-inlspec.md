@@ -1,7 +1,7 @@
 ---
 title: "IDiaSymbol::get_InlSpec | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:

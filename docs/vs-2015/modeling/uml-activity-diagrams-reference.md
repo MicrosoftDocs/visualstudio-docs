@@ -50,9 +50,8 @@ An *activity diagram* shows a business process or a software process as a flow o
 
  ![A simple control flow](../modeling/media/uml-actovsimple.png "UML_ActOvSimple")
 
-||||
-|-|-|-|
 |**Shape**|**Element**|**Description and Main Properties**|
+|-|-|-|
 |1|**Action**|A step in the activity, in which the users or software perform some task.<br /><br /> The action can start when a token has arrived at all its incoming flows. When it ends, tokens are sent on all the outgoing flows.<br /><br /> -   **Body** - Specifies the action in detail.<br />-   **Language** - The language of the expression in Body.<br />-   **Local Postconditions** - Constraints that must be satisfied when execution ends. The goal achieved by the action.<br />-   **Local Preconditions** - Constraints that must be satisfied before execution begins.|
 |2|**Control Flow**|A connector that shows the flow of control between actions. To interpret the diagram, imagine that a token flows from one action to the next.<br /><br /> To create a control flow, use the **Connector** tool.|
 |3|**Initial Node**|Indicates the first action or actions in the activity. When the activity starts, a token flows from the initial node.|
@@ -71,9 +70,8 @@ An *activity diagram* shows a business process or a software process as a flow o
 
  ![Activity diagram showing concurrent flow](../modeling/media/uml-actovconcurrent.png "UML_ActovConcurrent")
 
-||||
-|-|-|-|
 |**Shape**|**Element**|**Description**|
+|-|-|-|
 |11|**Fork Node**|Divides a single flow into concurrent flows. Each incoming token produces a token on each outgoing connector.|
 |12|**Join Node**|Combines concurrent flows into a single flow. When every incoming flow has a token waiting, a token is produced on the output.|
 |13|**Send Signal Action**|An action that sends a message or signal to another activity or to a concurrent thread in the same activity. The type and content of the message is implied by the action's title or specified in additional comments.<br /><br /> The action can send data in the signal, which can be passed to the action in an object flow or input pin (16).|
@@ -84,9 +82,8 @@ An *activity diagram* shows a business process or a software process as a flow o
 
  ![Activity diagram showing data flow](../modeling/media/uml-actovdata.png "UML_ActOvData")
 
-||||
-|-|-|-|
 |**Shape**|**Element**|**Description**|
+|-|-|-|
 |15|**Object Node**|Represents data that passes along a flow.<br /><br /> -   **Ordering** - How multiple tokens are stored.<br />-   **Selection** - Invokes a process, which can be defined in another diagram, that filters the data.<br />-   **Upper Bound** - 0 indicates that data must pass directly along the flow; \* indicates that data can be stored in the flow.<br />-   **Type** - the type of objects stored and transmitted.|
 |16|**Input Pin**|Represents data that an action can receive when it executes.<br /><br /> -   **Type** - the type of objects transmitted.|
 |17|**Output Pin**|Represents data that an action produces when it executes.<br /><br /> -   **Type** - the type of objects transmitted.|

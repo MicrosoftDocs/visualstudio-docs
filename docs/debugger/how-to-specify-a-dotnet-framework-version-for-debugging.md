@@ -1,22 +1,22 @@
 ---
-title: "Specify a .NET Framework version for debugging | Microsoft Docs"
-ms.custom: "seodec18"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-dev_langs:
-  - "CSharp"
-  - "VB"
-  - "FSharp"
-  - "C++"
-helpviewer_keywords:
-  - ".NET Framework, specifying version for debugging"
-  - "debugging [Visual Studio], specifying .NET Framework version"
+title: Specify a .NET Framework version for debugging | Microsoft Docs
+ms.custom: seodec18
+ms.date: 11/04/2016
+ms.topic: how-to
+dev_langs: 
+  - CSharp
+  - VB
+  - FSharp
+  - C++
+helpviewer_keywords: 
+  - .NET Framework, specifying version for debugging
+  - debugging [Visual Studio], specifying .NET Framework version
 ms.assetid: 7a4893ba-4620-4774-893f-378d4ca28893
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
-ms.workload:
-  - "dotnet"
+ms.workload: 
+  - dotnet
 ---
 # Specify an older .NET Framework version for debugging (C#, Visual Basic, F#)
 

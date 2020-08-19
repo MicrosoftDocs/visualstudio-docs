@@ -1,7 +1,7 @@
 ---
 title: Creating an Extension with a Tool Window | Microsoft Docs
 ms.date: 3/16/2019
-ms.topic: conceptual
+ms.topic: how-to
 ms.assetid: 585b0a3a-f85b-4f92-81bb-9ca499bb8a89
 author: acangialosi
 ms.author: anthc

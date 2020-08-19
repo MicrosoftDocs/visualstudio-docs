@@ -19,7 +19,7 @@ manager: "wpickett"
 # CA1814: Prefer jagged arrays over multidimensional
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-|||
+|Item|Value|
 |-|-|
 |TypeName|PreferJaggedArraysOverMultidimensional|
 |CheckId|CA1814|

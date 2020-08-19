@@ -7,7 +7,7 @@ manager: jillfra
 ms.custom: seodec18
 ms.assetid: 346f70b9-7b52-4688-a8e8-8f53869618d3
 ms.devlang: dotnet
-ms.topic: conceptual
+ms.topic: troubleshooting
 ms.workload: multiple
 ms.date: 01/27/2020
 ms.author: ghogen
@@ -91,3 +91,7 @@ Click **Apply** to restart Docker. These steps modify the configuration file at 
 ## Microsoft/DockerTools GitHub repo
 
 For any other issues you encounter, see  [Microsoft/DockerTools](https://github.com/microsoft/dockertools/issues) issues.
+
+## See also
+
+- [Visual Studio troubleshooting](/troubleshoot/visualstudio/welcome-visual-studio/)

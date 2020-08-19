@@ -5,6 +5,9 @@ ms.date: 01/10/2018
 ms.topic: conceptual
 helpviewer_keywords:
 - refactoring [Visual Studio]
+f1_keywords:
+- vs.csharp.refactoring.preview
+ms.devlang: CSharp
 author: TerryGLee
 ms.author: tglee
 manager: jillfra

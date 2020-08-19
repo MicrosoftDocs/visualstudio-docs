@@ -50,7 +50,7 @@ ms.workload:
 
 ## Element information
 
-|||
+|Property|Value|
 |-|-|
 |**Namespace**|http:\/\/schemas.microsoft.com/VisualStudio/2010/<br>SharePointTools/SharePointProjectItemModel|
 |**Schema name**|SharePoint Project Item Schema|

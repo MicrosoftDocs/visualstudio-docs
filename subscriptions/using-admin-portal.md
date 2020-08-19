@@ -5,7 +5,7 @@ ms.author: v-evwin
 manager: lank
 ms.assetid: 4c099fe8-883e-4789-9468-387ce5697dfe
 ms.date: 03/03/2020
-ms.topic: conceptual
+ms.topic: overview
 description: Learn how to get started managing your organization's Visual Studio subscriptions with the Subscriptions Administration Portal.
 ---
 
@@ -37,7 +37,7 @@ Once you’ve assigned subscriptions, the Manage subscribers tab provides detail
 
 On the top left side of the page there are several icons you can select to reveal a subscription assignment overview, the agreement details and the maximum usage report.
 
-To see additional information about the number of subscription licenses purchased, assigned, and still available in your organization for each agreement, click the top icon to enable the slide-out panel.
+To see additional information about the number of subscription licenses purchased, assigned, and still available in your organization for each agreement, select the top icon to enable the slide-out panel.
 > [!div class="mx-imgBorder"]
 > ![Visual Studio Subscriptions Admin Portal Subscribers Page](_img/using-admin-portal/subscribers-page.png)
 

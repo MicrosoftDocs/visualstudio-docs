@@ -88,11 +88,21 @@ Welcome to Visual Studio! We’ve got everything you need to create great apps f
 
 ## What’s new?
 
-|||||
-|-|-|-|-|
-|[What’s new in Visual Studio 2015](./what-s-new-in-visual-studio-2015.md)|[What's New for C#](https://msdn.microsoft.com/library/9f18dc26-27fa-4603-a639-b573f07a117b)|[What’s new in .NET Framework](https://msdn.microsoft.com/library/1d971dd7-10fc-4692-8dac-30ca308fc0fa)|[What’s new for Azure DevOps Server](/azure/devops/server/whats-new)|
-|[What’s new for C++](https://docs.microsoft.com/previous-versions/hh409293(v=vs.140))|[What's New for Visual Basic](https://msdn.microsoft.com/library/d7e97396-7f42-4873-a81c-4ebcc4b6ca02)|[What’s new for JavaScript](https://docs.microsoft.com/visualstudio/javascript/javascript-in-visual-studio?view=vs-2015#whats-new-in-javascript)||
-|[Python](./python/getting-started-with-python.md)||||
+- [What’s new in Visual Studio 2015](./what-s-new-in-visual-studio-2015.md)
+
+- [What's New for C#](https://msdn.microsoft.com/library/9f18dc26-27fa-4603-a639-b573f07a117b)
+
+- [What’s new in .NET Framework](https://msdn.microsoft.com/library/1d971dd7-10fc-4692-8dac-30ca308fc0fa)
+
+- [What’s new for Azure DevOps Server](/azure/devops/server/whats-new)
+
+- [What’s new for C++](https://docs.microsoft.com/previous-versions/hh409293(v=vs.140))
+
+- [What's New for Visual Basic](https://msdn.microsoft.com/library/d7e97396-7f42-4873-a81c-4ebcc4b6ca02)
+
+- [What’s new for JavaScript](https://docs.microsoft.com/visualstudio/javascript/javascript-in-visual-studio?view=vs-2015#whats-new-in-javascript)
+
+- [Python](./python/getting-started-with-python.md)
 
 ## In this section
 

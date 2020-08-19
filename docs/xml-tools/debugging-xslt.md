@@ -1,7 +1,7 @@
 ---
 title: Ways to debug XSLT code
 ms.date: 03/05/2019
-ms.topic: conceptual
+ms.topic: overview
 author: TerryGLee
 ms.author: tglee
 manager: jillfra

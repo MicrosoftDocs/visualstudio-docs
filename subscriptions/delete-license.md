@@ -5,7 +5,7 @@ ms.author: lank
 manager: lank
 ms.assetid: e49242bc-e9f2-49e8-8caa-f574d508aba6
 ms.date: 06/16/2020
-ms.topic: conceptual
+ms.topic: how-to
 description:  Learn how administrators can delete subscription assignments
 ---
 
@@ -19,7 +19,7 @@ When a subscriber no longer requires a Visual Studio subscription, such as when 
 2. To delete the selected subscriber(s), click **Delete**.
 3. When the message appears asking you to confirm the deletion, click **OK**.
    > [!div class="mx-imgBorder"]
-   > ![Delete subscribers](_img/delete-license/delete-subscribers.png)
+   > ![Delete subscribers](_img/delete-license/delete-subscribers.png "Choose the user(s) you wish to delete, and click Delete. You can use CTRL and Shift keys to select multiple subscribers.")
 
    > [!NOTE]
    > Bulk delete using a template is not available. For organizations that manage subscription assignments through Azure Active Directory Security Groups, see [our article](assign-license-bulk.md#use-azure-active-directory-groups-to-assign-subscriptions) for more information about how deletions happen.  

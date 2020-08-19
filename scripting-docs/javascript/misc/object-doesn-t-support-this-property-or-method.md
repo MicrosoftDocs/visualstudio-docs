@@ -3,7 +3,7 @@ title: "Object doesn't support this property or method | Microsoft Docs"
 ms.date: "01/18/2017"
 ms.prod: visual-studio-windows
 ms.technology: vs-javascript
-ms.topic: reference
+ms.topic: error-reference
 f1_keywords: 
   - "VS.WebClient.Help.SCRIPT438"
 dev_langs: 

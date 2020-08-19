@@ -19,7 +19,7 @@ manager: "wpickett"
 # CA1802: Use Literals Where Appropriate
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-|||
+|Item|Value|
 |-|-|
 |TypeName|UseLiteralsWhereAppropriate|
 |CheckId|CA1802|

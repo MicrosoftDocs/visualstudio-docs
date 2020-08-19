@@ -1,16 +1,16 @@
 ---
 title: Install Roslyn analyzers
 ms.date: 08/03/2018
-ms.topic: conceptual
-helpviewer_keywords:
-- code analysis, managed code
-- analyzers
-- Roslyn analyzers
+ms.topic: how-to
+helpviewer_keywords: 
+  - code analysis, managed code
+  - analyzers
+  - Roslyn analyzers
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.workload:
-- dotnet
+ms.workload: 
+  - dotnet
 ---
 # Install .NET Compiler Platform code analyzers
 

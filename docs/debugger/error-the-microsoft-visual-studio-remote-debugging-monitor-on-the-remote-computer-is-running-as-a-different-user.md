@@ -1,9 +1,9 @@
 ---
-title: "Error: The Microsoft Visual Studio Remote Debugging Monitor on the remote computer is running as a different user"
+title: "Error - The Microsoft Visual Studio Remote Debugging Monitor on the remote computer is running as a different user"
 titleSuffix: ""
 ms.custom: "seodec18"
 ms.date: "11/04/2016"
-ms.topic: "troubleshooting"
+ms.topic: "error-reference"
 dev_langs:
   - "CSharp"
   - "VB"

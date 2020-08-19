@@ -1,7 +1,7 @@
 ---
 title: "IDiaSymbol::get_builtInKind | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 ms.assetid: 953e6dba-582e-4b76-b736-898b92e5693e

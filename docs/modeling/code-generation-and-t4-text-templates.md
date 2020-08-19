@@ -1,7 +1,7 @@
 ---
 title: Code Generation and T4 Text Templates
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: overview
 f1_keywords:
 - VS.ToolsOptionsPages.TextTemplating.TextTemplating
 helpviewer_keywords:

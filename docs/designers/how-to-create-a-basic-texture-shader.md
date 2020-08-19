@@ -1,7 +1,7 @@
 ---
 title: 'How to: Create a Basic Texture Shader'
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 ms.assetid: 5af113fb-6415-4be0-8b23-10fddb10e80a
 author: TerryGLee
 ms.author: tglee

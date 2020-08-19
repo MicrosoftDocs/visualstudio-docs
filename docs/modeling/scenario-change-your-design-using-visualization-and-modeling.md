@@ -1,7 +1,7 @@
 ---
 title: 'Scenario: Change your design using visualization and modeling'
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: overview
 helpviewer_keywords:
 - code visualization [Visual Studio ALM]
 - modeling software [Visual Studio ALM]
@@ -73,7 +73,7 @@ For more information about Team Foundation Server, see:
 
 The following table describes roles that these tools can play during multiple and various stages of the software development lifecycle:
 
-||**User Requirements Modeling**|**Business Process Modeling**|**System Architecture & Design**|**Code Visualization & Exploration**|**Verification**|
+|Tool / Role|User Requirements Modeling|Business Process Modeling|System Architecture & Design|Code Visualization & Exploration|Verification|
 |------|-|-|-|-|-|
 |Domain-Specific Language (DSL) diagram|Yes|Yes|Yes|||
 |Dependency diagram, layer validation|||Yes|Yes|Yes|

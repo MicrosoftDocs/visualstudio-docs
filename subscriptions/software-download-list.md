@@ -5,7 +5,7 @@ ms.author: v-evwin
 manager: lank
 ms.assetid: c2878e28-eb5d-4adb-8d7d-a95ffea703a9
 ms.date: 03/11/2020
-ms.topic: conceptual
+ms.topic: how-to
 description:  Find a list of the software downloads included with your Visual Studio subscription.
 ---
 
@@ -18,10 +18,10 @@ If you already have a Visual Studio subscription:
 2. Sign in to your subscription. (Learn more about signing in with your [Microsoft Account](sign-in-msa.md), [work or school account](sign-in-work.md), or [GitHub](sign-in-github.md) credentials.)
 3. Upon successful sign-in, you will be able to search for your desired downloads.  You can also see a list of popular downloads, which can be sorted by any of several criteria.
 
-To quickly find products, use the "Search" functions at the top of the page or click on the different product types on the left.
+To quickly find products, use the "Search" functions at the top of the page or select the different product types on the left.
 
 > [!TIP]
-> If you're looking for your product keys, click on the **Product Keys** tab at the top of the page.
+> If you're looking for your product keys, select the **Product Keys** tab at the top of the page.
 
 You can also download an Excel spreadsheet containing an extensive list of [available software titles](https://download.microsoft.com/download/1/5/4/15454442-CF17-47B9-A65D-DF84EF88511B/Visual_Studio_by_Subscription_Level.xlsx) for each subscription type.
 

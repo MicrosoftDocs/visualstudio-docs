@@ -19,7 +19,7 @@ manager: "wpickett"
 # CA2001: Avoid calling problematic methods
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-|||
+|Item|Value|
 |-|-|
 |TypeName|AvoidCallingProblematicMethods|
 |CheckId|CA2001|

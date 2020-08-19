@@ -7,8 +7,8 @@ helpviewer_keywords:
   - "background analysis"
   - "analysis scope"
   - "full solution analysis"
-author: jillre
-ms.author: jillfra
+author: Mikejo5000
+ms.author: mikejo
 manager: jillfra
 ms.workload:
   - "dotnet"
@@ -19,17 +19,17 @@ ms.workload:
 Visual Studio executes a bunch of live code analyses, also referred to as *background analysis*, while you are editing source files in the editor. Some of it is required minimal analysis for an acceptable Visual Studio IDE editing experience. Some of it is for improved responsiveness for IDE features. While some of it is to enable additional IDE functionality, such as diagnostics and code fixes from Roslyn analyzers. Based on the functionality, these analyses can be grouped as follows:
 
 - **Background computation of diagnostics**: Analysis to compute errors, warnings, and suggestions in source files. These diagnostics show up as entries in the error list and as squiggles in the editor. They can be classified into two categories:
-    - C# and Visual Basic compiler diagnostics
-    - Roslyn analyzer diagnostics, which includes:
+  - C# and Visual Basic compiler diagnostics
+  - Roslyn analyzer diagnostics, which includes:
 
-        - Built-in IDE analyzers for code style suggestions and
-        - Third party analyzer packages [installed](./install-roslyn-analyzers.md) for projects in the current solution.
+    - Built-in IDE analyzers for code style suggestions and
+    - Third party analyzer packages [installed](./install-roslyn-analyzers.md) for projects in the current solution.
 
 - **Other background analyses**: Analysis to improve the responsiveness and Visual Studio interaction for IDE features. Some examples of such analyses are:
-    - Background parsing of open files.
-    - Background compilation of projects with open files to realize symbols for improved responsiveness of certain IDE features.
-    - Building syntax and symbol caches.
-    - Detecting designer association for source files, such as forms, controls, etc.
+  - Background parsing of open files.
+  - Background compilation of projects with open files to realize symbols for improved responsiveness of certain IDE features.
+  - Building syntax and symbol caches.
+  - Detecting designer association for source files, such as forms, controls, etc.
 
 ## Default analysis scope
 

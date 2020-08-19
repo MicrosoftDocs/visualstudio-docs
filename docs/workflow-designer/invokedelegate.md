@@ -6,11 +6,10 @@ f1_keywords:
   - "InvokeDelegate Designer"
   - "System.Activities.Statements.InvokeDelegate.UI"
 ms.assetid: 289a7498-5127-453f-beb5-05f05b80d26f
-ms.author: jillfra
-manager: jillfra
+author: TerryGLee
+ms.author: tglee
 ms.workload:
   - "multiple"
-author: jillre
 ---
 # InvokeDelegate
 

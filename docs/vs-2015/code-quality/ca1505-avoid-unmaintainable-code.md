@@ -19,7 +19,7 @@ manager: "wpickett"
 # CA1505: Avoid unmaintainable code
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-|||
+|Item|Value|
 |-|-|
 |TypeName|AvoidUnmantainableCode|
 |CheckId|CA1505|

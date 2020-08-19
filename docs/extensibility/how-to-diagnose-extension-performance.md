@@ -1,7 +1,7 @@
 ---
 title: "How to: Diagnose extension performance| Microsoft Docs"
 ms.date: "11/08/2016"
-ms.topic: "conceptual"
+ms.topic: how-to
 ms.assetid: 46b0a1e3-7e69-47c9-9d8d-a1815d6c3896
 author: "BertanAygun"
 ms.author: "bertaygu"

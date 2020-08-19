@@ -1,21 +1,21 @@
 ---
-title: "How to: Set the ClickOnce Publish Version | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
-helpviewer_keywords:
-  - "ClickOnce deployment, setting publish version"
-  - "publishing, ClickOnce"
-  - "Publish Version property"
+title: How to - Set the ClickOnce Publish Version | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: how-to
+dev_langs: 
+  - VB
+  - CSharp
+  - C++
+helpviewer_keywords: 
+  - ClickOnce deployment, setting publish version
+  - publishing, ClickOnce
+  - Publish Version property
 ms.assetid: 06f15504-6385-40a6-b01d-cd90ca36dc73
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.workload:
-  - "multiple"
+ms.workload: 
+  - multiple
 ---
 # How to: Set the ClickOnce publish version
 The [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] `Publish Version` property determines whether or not the application that you are publishing will be treated as an update. Each time version is incremented, the application will be published as an update.
