@@ -989,5 +989,7 @@
         items:
         - name: Overview
           displayName: "publish warnings"
-        - name: "IL3000: Avoid using accessing Assembly file path when publishing as a single-file"
+        - name: "IL3000: Avoid accessing Assembly file path when publishing as a single file"
           href: il3000.md
+        - name: "IL3001: Avoid accessing Assembly file path when publishing as a single file"
+          href: il3001.md
