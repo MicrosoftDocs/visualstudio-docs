@@ -31,19 +31,19 @@ To learn more about these deployment strategies, see [.NET Core application publ
 
 ### Workflow changes for .NET Core 3.1
 
-- Select **Publish Items** instead of **Primary Output** to get the correct output for .NET Core 3.1 projects.  To bring up this dialog, select **Add** > **Project Output...** from the project's context menu.
+1. Select **Publish Items** instead of **Primary Output** to get the correct output for .NET Core 3.1 projects.  To bring up this dialog, select **Add** > **Project Output...** from the project's context menu.
 
-![The Publish Items output group in the Add Project Output Group dialog](../deployment/media/installerprojects-netcore-publishitemsoutput.png "Pick Publish Items")
+    ![The Publish Items output group in the Add Project Output Group dialog](../deployment/media/installer-projects-net-core-publish-items-output.png "Pick Publish Items")
 
-- To create a self-contained installer, set the **PublishProfilePath** property on the **Publish Items** node in the setup project, using the relative path of a publish profile with the correct properties set.
+2. To create a self-contained installer, set the **PublishProfilePath** property on the **Publish Items** node in the setup project, using the relative path of a publish profile with the correct properties set.
 
-![Setting the publish profile on the Publish Items project output item](../deployment/media/installerprojects-netcore-publishprofile.png "Set Publish Profile")
+    ![Setting the publish profile on the Publish Items project output item](../deployment/media/installer-projects-net-core-publish-profile.png "Set Publish Profile")
 
 ### Prerequisites for .NET Core 3.1
 
 If you would like your installer to be able to install the necessary runtime for a framework-dependent .NET Core 3.1 app, you can do this using [prerequisites](../deployment/application-deployment-prerequisites.md).  From the properties dialog of your installer project, open the **Prerequisites...** dialog and you'll see the following entries:
 
-![.NET Core items in the Prerequisites dialog](../deployment/media/installerprojects-netcore-prereqs.png ".NET Core Prerequisites")
+![.NET Core items in the Prerequisites dialog](../deployment/media/installer-projects-net-core-prerequisites.png ".NET Core Prerequisites")
 
 The **.NET Core Runtime...** option should be selected for console applications, **.NET Desktop Runtime...** should be selected for WPF/WinForms applications.
 

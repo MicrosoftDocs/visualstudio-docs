@@ -305,4 +305,4 @@
   - name: Visual Studio Installer Projects Reference
     items:
     - name: Visual Studio Installer Projects Extension and .NET Core 3.1
-      href: installer-projects-netcore.md
+      href: installer-projects-net-core.md
