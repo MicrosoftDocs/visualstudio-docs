@@ -45,7 +45,7 @@ If you would like your installer to be able to install the necessary runtime for
 
 ![.NET Core items in the Prerequisites dialog](../deployment/media/installerprojects-netcore-publishitemsoutput.png ".NET Core Prerequisites")
 
-The ".NET Core Runtime..." option should be selected for console applications, ".NET Desktop Runtime..." should be selected for WPF/WinForms applications.
+The **.NET Core Runtime...** option should be selected for console applications, **.NET Desktop Runtime...** should be selected for WPF/WinForms applications.
 
 Note: These items are present starting with the Visual Studio 2019 Update 7 release.
 
