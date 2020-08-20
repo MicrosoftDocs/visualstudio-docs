@@ -3,6 +3,7 @@ title: How to customize the color theme and fonts in Visual Studio
 description: Learn how to change the default Visual Studio color theme to dark mode and set font colors in the text editor.
 ms.date: 08/20/2020
 ms.topic: how-to
+ms.custom: contperfq1
 author: TerryGLee
 ms.author: tglee
 manager: jillfra
