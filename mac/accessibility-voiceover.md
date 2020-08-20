@@ -1,5 +1,6 @@
 ---
 title: "Using VoiceOver with Visual Studio for Mac"
+titleSuffix: ""
 description: "Using macOS VoiceOver navigation with Visual Studio for Mac"
 author: alanjclark
 ms.author: dominicn
