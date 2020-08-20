@@ -16,15 +16,15 @@ ms.workload:
 
 You can generate code metrics data in three ways:
 
-- By installing [FxCop analyzers](#fxcop-analyzers-code-metrics-rules) and enabling the four code metrics (maintainability) rules it contains.
+- By enabling [.NET code-quality analyzers](#net-code-quality-analyzers-code-metrics-rules) and enabling the four code metrics (maintainability) rules it contains.
 
 - By choosing the [**Analyze** > **Calculate Code Metrics**](#calculate-code-metrics-menu-command) menu command within Visual Studio.
 
 - From the [command line](#command-line-code-metrics) for C# and Visual Basic projects.
 
-## FxCop analyzers code metrics rules
+## .NET code-quality analyzers code metrics rules
 
-The [FxCopAnalyzers NuGet package](https://www.nuget.org/packages/Microsoft.CodeAnalysis.FxCopAnalyzers) includes several code metrics [analyzer](roslyn-analyzers-overview.md) rules:
+The .NET code-quality analyzers includes several code metrics [analyzer](roslyn-analyzers-overview.md) rules:
 
 - [CA1501](ca1501-avoid-excessive-inheritance.md)
 - [CA1502](ca1502.md)
@@ -44,7 +44,7 @@ These rules are disabled by default but you can enable them from [**Solution Exp
 
 ### Configuration
 
-You can configure the thresholds at which the code metrics rules in the FxCop analyzers package fire.
+You can configure the thresholds at which the code metrics rules fire.
 
 1. Create a text file. As an example, you can name it *CodeMetricsConfig.txt*.
 
