@@ -12,7 +12,7 @@ ms.workload:
 ---
 # Configure .NET code-quality analyzers
 
-For certain .NET code-quality analyzers (CAxxxx rule IDs), you can refine which parts of your codebase they should be applied to through [configurable options](fxcop-analyzer-options.md). Each option is specified by adding a key-value pair to an [EditorConfig](https://editorconfig.org) file. A configuration file can be [specific to a project](#per-project-configuration) or it can be [shared](#shared-configuration) between two or more projects.
+For certain .NET code-quality analyzers (CAxxxx rule IDs), you can refine which parts of your codebase they should be applied to through [configurable options](fxcop-analyzer-options.md). Each option is specified by adding a key-value pair to an [EditorConfig](https://editorconfig.org) file. A configuration file can be specific to a file, project, solution or the entire repo.
 
 > [!TIP]
 > Add an .editorconfig file to your project by right-clicking on the project in **Solution Explorer** and selecting **Add** > **New Item**. In the **Add New Item** window, enter **editorconfig** in the search box. Select the **editorconfig File (default)** template and choose **Add**.
