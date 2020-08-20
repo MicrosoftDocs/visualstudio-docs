@@ -1,6 +1,6 @@
 ---
 title: Install Visual Studio versions side-by-side
-ms.date: 03/05/2019
+ms.date: 07/24/2019
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
 ms.topic: conceptual
@@ -39,6 +39,23 @@ Before you install versions side-by-side, review the following conditions:
 * If you uninstall a version of Visual Studio on a computer that has more than one version installed, the file associations for Visual Studio are removed for all versions.
 
 * Visual Studio doesn't automatically upgrade extensions because not all extensions are compatible. You must reinstall the extensions from the [Visual Studio Marketplace](https://marketplace.visualstudio.com/) or the software publisher.
+
+## Install minor Visual Studio versions side-by-side
+
+When upgrading from one minor version of Visual Studio to the next, the Visual Studio installer will update your current install to the next version in that channel by default. For example, when installing the 16.6.4 Preview, the installer will try to replace your current install of 16.6.3 Preview, since both versions are in the 16.6 Preview channel. This helps ensure that older versions of Visual Studio aren't taking up room on your machine. In some specific cases, it may be helpful to install minor releases side-by-side. In our example, this would mean having both 16.6.3 and 16.6.4 on the same machine.
+
+1. Download the [Visual Studio bootstrapper file](https://docs.microsoft.com/visualstudio/releases/2019/history#installing-an-earlier-release) for the minor version that you would like to install side-by-side with your existing versions of Visual Studio.
+2. Open the command prompt in administrator mode. To do this, open the Windows Start menu, type "cmd", right click on the Command Prompt search result, and select **Run as administrator**. In the command prompt, change the directory to the folder where your Visual Studio bootstrapper file is located.
+3. Run the command below, specifying a new folder path for the installation location and replacing the .exe file name with the appropriate bootstrapper name for the version of Visual Studio you are installing. The .exe file name should match or be similar to one of the following files:
+   * vs_community.exe for Visual Studio Community
+   * vs_professional.exe for Visual Studio Professional
+   * vs_enterprise.exe for Visual Studio Enterprise
+
+   ```
+   vs_Enterprise.exe --installPath "C:\Program Files (x86)\Microsoft Visual Studio\<2019 AddNewPath>"
+   ```
+
+4. Follow the installer dialogs to select the components you need for your installation. For more information, see [Install Visual Studio](install-visual-studio.md#step-4---choose-workloads).
 
 ## .NET Framework versions and side-by-side installations
 

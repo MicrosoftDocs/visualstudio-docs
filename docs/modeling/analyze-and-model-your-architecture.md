@@ -1,7 +1,7 @@
 ---
 title: Analyze and model your architecture
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: overview
 helpviewer_keywords:
 - diagrams - modeling
 - architecture
@@ -32,7 +32,7 @@ See [Scenario: Change your design using visualization and modeling](../modeling/
 
 ## Article reference
 
-|||
+|Scenario|Articles|
 |-|-|
 |**Visualize code**:<br /><br />- See the code's organization and relationships by creating code maps. Visualize dependencies between assemblies, namespaces, classes, methods, and so on.<br />- See the class structure and members for a specific project by creating class diagrams from code.<br />- Find conflicts between your code and its design by creating dependency diagrams to validate code.|- [Visualize code](../modeling/visualize-code.md)<br />- [Working with Classes and Other Types (Class Designer)](../ide/class-designer/designing-and-viewing-classes-and-types.md)<br />- [Video: Understand design from code with Visual Studio 2015 code maps](https://channel9.msdn.com/Events/Visual-Studio/Connect-event-2015/502)<br />- [Video: Validate your architecture dependencies in real time](https://sec.ch9.ms/sessions/69613110-c334-4f25-bb36-08e5a93456b5/170ValidateArchitectureDependenciesWithVisualStudio.mp4)|
 |**Define the architecture**:<br /><br />- Define and enforce constraints on dependencies between the components of your code by creating dependency diagrams.|- [Video: Validate architecture dependencies with Visual Studio (Channel 9)](https://channel9.msdn.com/Events/Connect/2016/170)|

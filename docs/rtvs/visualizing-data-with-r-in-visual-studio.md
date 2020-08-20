@@ -16,9 +16,14 @@ Plotting is a key part of a data scientist's workflow. In R Tools for Visual Stu
 
 ![Plotting Hero Image](media/plotting-hero-image.png)
 
-|   |   |
-|---|---|
-| ![movie camera icon for video](../install/media/video-icon.png "Watch a video") | [Watch a video (youtube.com)](https://www.youtube.com/watch?v=ZTbKmz5RSgY) on plotting with R (2m 02s). |
+:::row:::
+    :::column:::
+        ![movie camera icon for video](../install/media/video-icon.png "Watch a video")
+    :::column-end:::
+    :::column:::
+        [Watch a video (youtube.com)](https://www.youtube.com/watch?v=ZTbKmz5RSgY) on plotting with R (2m 02s).
+    :::column-end:::
+:::row-end:::
 
 ## The plot window
 

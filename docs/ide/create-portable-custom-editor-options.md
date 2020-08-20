@@ -1,7 +1,7 @@
 ---
 title: EditorConfig settings
 ms.date: 08/01/2018
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - editorconfig [Visual Studio]
 author: TerryGLee
@@ -25,7 +25,7 @@ When you add an EditorConfig file to your project in Visual Studio, new lines of
 
 ::: moniker range="=vs-2017"
 
-When you add an EditorConfig file to your project in Visual Studio, new lines of code are formatted according to the EditorConfig settings. The formatting of existing code is not changed unless you run unless you format the document (**Edit** > **Advanced** > **Format Document** or **Ctrl**+**K**, **Ctrl**+**D** in the default profile). Formatting the document only affects white space settings, such as indent style, unless you've configured Format Document to [perform additional code cleanup](../ide/code-styles-and-code-cleanup.md#apply-code-styles).
+When you add an EditorConfig file to your project in Visual Studio, new lines of code are formatted according to the EditorConfig settings. The formatting of existing code is not changed unless you format the document (**Edit** > **Advanced** > **Format Document** or **Ctrl**+**K**, **Ctrl**+**D** in the default profile). Formatting the document only affects white space settings, such as indent style, unless you've configured Format Document to [perform additional code cleanup](../ide/code-styles-and-code-cleanup.md#apply-code-styles).
 
  ::: moniker-end
 

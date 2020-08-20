@@ -55,9 +55,17 @@ The syntax for configuring an option for a *specific* rule is as follows:
 |-|-|
 | dotnet_code_quality.RuleId.OptionName = OptionValue | `dotnet_code_quality.CA1040.api_surface = public` |
 
-## Enabling .editorconfig based configuration
+## Enabling Editorconfig based configuration
 
-End users can enable .editorconfig based configuration for individual documents, folders, projects, solution or entire repo. You can do so by creating an .editorconfig file with the options in the corresponding directory. This file can also contain .editorconfig based diagnostic severity configuration entries. See [set rule severity in an EditorConfig file](use-roslyn-analyzers.md#set-rule-severity-in-an-editorconfig-file) for further details.
+EditorConfig-based analyzer configuration can be enabled for the following scopes:
+
+- Specific document(s)
+- Specific folder(s)
+- Specific project(s)
+- Specific solution(s)
+- Entire repo
+
+To enable configuration, add an *.editorconfig* file with the options in the corresponding directory. This file can also contain EditorConfig-based diagnostic severity configuration entries. See [here](use-roslyn-analyzers.md#rule-severity) for more details.
 
 ## See also
 

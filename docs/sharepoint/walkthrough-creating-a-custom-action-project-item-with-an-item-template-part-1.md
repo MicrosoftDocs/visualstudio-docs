@@ -1,7 +1,7 @@
 ---
 title: "Create custom action project item with item template, part 1"
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: how-to
 dev_langs:
   - "VB"
   - "CSharp"

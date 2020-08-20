@@ -1,6 +1,6 @@
 ---
 title: Resources for troubleshooting errors
-ms.date: 11/04/2016
+ms.date: 07/23/2020
 ms.topic: troubleshooting
 f1_keywords:
 - VS.Message.0x00005A89
@@ -103,7 +103,7 @@ Not all error messages have a specific associated Help topic. If the information
 
 ## Knowledge Base articles
 
-You can search the Knowledge Base (KB) online for articles about product issues. Not all issues have a corresponding KB article, but errors encountered by a significant number of customers are typically documented. You can access KB articles on the [Microsoft Support](https://support.microsoft.com) website.
+You can search the Knowledge Base (KB) online for articles about product issues. Not all issues have a corresponding KB article, but errors encountered by a significant number of customers are typically documented. You can view KB articles for Visual Studio on the [Visual Studio troubleshooting](/troubleshoot/visualstudio/welcome-visual-studio/) page.
 
 ## Developer forums
 
@@ -118,4 +118,5 @@ If you still have questions after you try the other resources, you can contact M
 ## See also
 
 * [Troubleshoot network-related or proxy errors](../../install/install-and-use-visual-studio-behind-a-firewall-or-proxy-server.md#troubleshoot-network-related-errors)
+* [Troubleshooting (Visual Studio for Windows)](/troubleshoot/visualstudio/welcome-visual-studio/)
 * [Troubleshooting (Visual Studio for Mac)](/visualstudio/mac/troubleshooting)

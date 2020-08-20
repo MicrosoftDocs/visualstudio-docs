@@ -19,7 +19,7 @@ manager: "wpickett"
 # CA2114: Method security should be a superset of type
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-|||
+|Item|Value|
 |-|-|
 |TypeName|MethodSecurityShouldBeASupersetOfType|
 |CheckId|CA2114|

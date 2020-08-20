@@ -5,7 +5,7 @@ ms.author: lank
 manager: lank
 ms.assetid: 83efe4ee-9a9d-4776-b27c-852d89dadafd
 ms.date: 03/09/2020
-ms.topic: conceptual
+ms.topic: how-to
 description: How to assign Visual Studio subscriptions to your end users, for MPN partners.
 ---
 
@@ -24,7 +24,7 @@ Microsoft Action Pack subscriber and Visual Studio subscriptions
 6. Select **Privileges**
 7. Select **Visual Studio Subscriptions** (Note: Visual Studio subscription update pending)
 8. Select the desired **Individual**
-9. Click **Submit**
+9. Select **Submit**
 10. The individual will receive an email
 11. The assigned individual will access [https://my.visualstudio.com](https://my.visualstudio.com?wt.mc_id=o~msft~docs) to sign in
 12. A Visual Studio profile page may be displayed, including:
@@ -38,7 +38,7 @@ Microsoft Action Pack subscriber and Visual Studio subscriptions
 2. Select **Privileges**
 3. Select **MSDN Subscriptions** (Note:  this will be relabeled "Visual Studio subscriptions" soon)
 4. Locate the desired **Individual**
-5. Click **Submit**
+5. Select **Submit**
 6. The individual will receive an email
 7. The assigned individual will access [https://my.visualstudio.com](https://my.visualstudio.com?wt.mc_id=o~msft~docs) to sign in
 8. A Visual Studio profile page may be displayed

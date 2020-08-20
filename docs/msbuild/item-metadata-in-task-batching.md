@@ -82,7 +82,7 @@ MSBuild can divide multiple item lists into batches based on the same metadata. 
 > [!NOTE]
 > If an item list being passed into a task contains no items with the referenced metadata, every item in that item list is passed into every batch.
 
-The following example shows how to divide multiple item list into batches based on item metadata. The `ExampColl` and `ExampColl2` item lists are each divided into three batches based on the `Number` item metadata. The presence of `%(Number)`in the `Text` attribute notifies MSBuild that batching should be performed. The `ExampColl` and `ExampColl2` item lists are divided into three batches based on the `Number` metadata, and each batch is passed separately into the task.
+The following example shows how to divide multiple item lists into batches based on item metadata. The `ExampColl` and `ExampColl2` item lists are each divided into three batches based on the `Number` item metadata. The presence of `%(Number)`in the `Text` attribute notifies MSBuild that batching should be performed. The `ExampColl` and `ExampColl2` item lists are divided into three batches based on the `Number` metadata, and each batch is passed separately into the task.
 
 ```xml
 <Project

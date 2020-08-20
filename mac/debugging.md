@@ -3,9 +3,10 @@ title: Debugging with Visual Studio for Mac
 description: Debugging is a common, and necessary, part of programming. As a mature IDE, Visual Studio for Mac contains a whole suite of features to make debugging easy. From safe debugging, to data visualization, this article will explain how to use the full potential of debugging in Visual Studio for Mac.
 author: therealjohn
 ms.author: johmil
-ms.date: 12/13/2019
+ms.date: 5/13/2020
 ms.technology: vs-ide-debug
 ms.assetid: BB7A084D-9AC2-48B5-8076-6C8518796BBA
+ms.topic: overview
 ---
 # Debugging with Visual Studio for Mac
 
@@ -80,6 +81,15 @@ Here are the four buttons:
 * **Step Over** - This will execute the next line of code. If the next line is a function call, Step Over will execute the function, and will stop at the next line of code *after* the function.
 * **Step Into** - This will also execute the next line of code. If the next line is a function call, Step Into will stop at the first line of the function, allowing you to continue line-by-line debugging of the function. If the next line is not a function, it will behave the same as Step Over.
 * **Step Out** - This will return to the line where the current function was called.
+
+## Change which statement is executed next
+
+While the debugger is paused, an arrow in the margin shows which line of code will be executed next. You can click and drag the arrow to a different line of code to change which statement will be executed. You can achieve the same thing by also right-clicking on a line of code and selecting **Set Next Statement** from the context menu.
+
+![Drag and drop arrow to set next statement](media/debugger-drag-setnextstatement.gif)
+
+> [!CAUTION]
+> Changing the current line of execution can cause unexpected behavior in an application. There are also some conditions where changing the next statement to execute is not possible. For example, dragging the arrow from one method to another method will not work. In these unsupported cases, Visual Studio for Mac will display a dialog to let you know it was not possible to change the current line of execution. 
 
 ## Debugging Mono's class libraries
 

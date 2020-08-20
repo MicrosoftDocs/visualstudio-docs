@@ -7,6 +7,7 @@ ms.date: 11/03/2018
 ms.technology: vs-ide-install
 ms.assetid: 22B1F2CD-32AE-464D-80AC-C8AB4786B015
 ms.custom: video
+ms.topic: how-to
 ---
 
 # Install Visual Studio 2017 for Mac
@@ -24,7 +25,7 @@ To start developing native, cross-platform apps when you download Visual Studio 
 
 For working with iOS in Visual Studio you need the following pieces:
 
-- a Mac with macOS Sierra 10.12 or above
+- A Mac with macOS High Sierra 10.13 or above.
 - Xcode 9.3 or above. The latest stable version is usually recommended.
 - An Apple ID. If you don't have an Apple ID already you can create a new one at https://appleid.apple.com. It's necessary to have an Apple ID for installing and signing into Xcode.
 

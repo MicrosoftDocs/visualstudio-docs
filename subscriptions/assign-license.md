@@ -29,25 +29,29 @@ Here's how to assign a Visual Studio subscription to a new user so that they can
 1. Sign in to the [administration portal](https://manage.visualstudio.com).
 2. To assign a license to a single Visual Studio subscriber, at the top of the table, select **Add**, then choose **Individual subscriber**.
    > [!div class="mx-imgBorder"]
-   > ![Add a single subscriber](_img/assign-license-add/add-subscriber-individual.png)
+   > ![Add a single subscriber](_img/assign-license-add/add-subscriber-individual.png "Select Add, then choose Individual subscriber to assign a single subscription.")
 3. Enter the information into the form fields for the new subscriber. If your organization is using Azure Active Directory, the **Name** field acts as a search function to find people in your current directory so you can select the correct user from the search results. After you select that person, sign-in email and notification email will automatically populate.
    > [!div class="mx-imgBorder"]
-   > ![Subscriber details](_img/assign-license-add/subscriber-details.png)
+   > ![Subscriber details](_img/assign-license-add/subscriber-details.png "Enter subscriber name and other details, or choose from the of tenant members.")
 
-    If you want this subscriber to have access to software downloads when they sign into the [Visual Studio Subscriptions Portal](https://my.visualstudio.com?wt.mc_id=o~msft~docs), make sure to leave the downloads toggle enabled in the **Download Settings** section. If you choose to disable downloads, the user will not have access to software downloads, but will still have access to all other benefits included in the subscription.
+    > [!NOTE]
+    > In order for members of an Azure Active Directory tenant to be visible when you enter a subscriber name, the administrator must be a member of the tenant. 
+
+
+    If you want this subscriber to have access to software downloads when they sign into the [Visual Studio Subscriptions Portal](https://my.visualstudio.com?wt.mc_id=o~msft~docs), make sure to leave the downloads toggle enabled in the **Download Settings** section. If you choose to disable downloads, the user will not have access to software downloads.  Access to product keys will also be disabled.  The subscriber will still have access to all other benefits included in the subscription.
    > [!div class="mx-imgBorder"]
-   > ![Access to downloads](media/access-to-downloads.png)
+   > ![Access to downloads](media/access-to-downloads.png "Choose "Allow" to provide the subscriber with access to software downloads.")
 
     If you'd like to add your own reference notes to the subscription, you can do so in the **Add reference** section.
    > [!div class="mx-imgBorder"]
-   > ![Add your own reference notes to each subscription](media/add-subscriber-reference-notes.png)
+   > ![Add your own reference notes to each subscription](media/add-subscriber-reference-notes.png "Use the Reference field to record any notes about this subscription.")
 
     When you're done selecting options and entering data for the subscriber, choose **Add** at the bottom of the **Add Subscriber** fly-out.
    > [!div class="mx-imgBorder"]
-   > ![Choose the Add button](media/add-button.png)
+   > ![Choose the Add button](media/add-button.png "Select Add to save the information and assign the subscription to the subscriber.")
 
 ## Resend assignment emails
-After you add a subscriber, an assignment email will be automatically sent to the new subscriber with further instructions. You can send the assignment email again at any time by selecting the subscriber and clicking the **Resend** button in the top menu.  To resend emails to multiple users, hold down the **Ctrl** key while selecting the subscribers.  When you click the **Resend** button, you'll see a dialog asking you to confirm you want to resend to those subscribers.  
+After you add a subscriber, an assignment email will be automatically sent to the new subscriber with further instructions. You can send the assignment email again at any time by selecting the subscriber and then selecting the **Resend** button in the top menu.  To resend emails to multiple users, hold down the **Ctrl** key while selecting the subscribers.  When you select the **Resend** button, you'll see a dialog asking you to confirm you want to resend to those subscribers.  
 
 ## See also
 - [Visual Studio documentation](https://docs.microsoft.com/visualstudio/)

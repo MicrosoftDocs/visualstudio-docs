@@ -23,34 +23,84 @@ You can more easily access a variety of commands and windows in Visual Studio by
 
  For a list of common keyboard shortcuts and other productivity information, see  [Tips and Tricks](../ide/tips-and-tricks-for-visual-studio.md) and [Productivity Tips](../ide/productivity-tips-for-visual-studio.md).
 
- The sections in the following table include commands that are global in that you can access them from anywhere in Visual Studio by using keyboard shortcuts:
+ The sections in the following list include commands that are global in that you can access them from anywhere in Visual Studio by using keyboard shortcuts:
 
-|||||
-|-|-|-|-|
-|[Analyze](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_analyze)|[Edit](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_edit)|[Project](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_project)|[Test](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_test)|
-|[Architecture](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_architecture)|[Editor Context Menus](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_editorContext)|[Project and Solution Context Menus](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_projectContext)|[Test Explorer](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_testexplorerGLOBAL)|
-|[Build](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_build)|[File](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_file)|[Refactor](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_refactor)|[Tools](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_tools)|
-|[Class View Context Menus](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_classview)|[Help](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_help)|[Solution Explorer](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_solutionexplorerGLOBAL)|[View](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_view)|
-|[Debug](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_debug)|[Load Test](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_loadtest)|[Team](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_team)|[Window](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_window)|
-|[Debugger Context Menus](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_debugger)|[Other Context Menus](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_otherContext)|[Team Foundation Context Menus](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_TFcontext)|[Azure](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_windowsazure)|
-|[Diagnostics Hub](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_diagnostics)||||
+- [Analyze](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_analyze)
+- [Edit](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_edit)
+- [Project](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_project)
+- [Test](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_test)|
+- [Architecture](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_architecture)
+- [Editor Context Menus](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_editorContext)
+- [Project and Solution Context Menus](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_projectContext)
+- [Test Explorer](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_testexplorerGLOBAL)
+- [Build](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_build)
+- [File](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_file)
+- [Refactor](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_refactor)
+- [Tools](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_tools)
+- [Class View Context Menus](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_classview)
+- [Help](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_help)
+- [Solution Explorer](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_solutionexplorerGLOBAL)
+- [View](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_view)
+- [Debug](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_debug)
+- [Load Test](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_loadtest)
+- [Team](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_team)
+- [Window](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_window)
+- [Debugger Context Menus](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_debugger)
+- [Other Context Menus](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_otherContext)
+- [Team Foundation Context Menus](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_TFcontext)
+- [Azure](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_windowsazure)
+- [Diagnostics Hub](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_diagnostics)
 
- Each section in the following table includes commands for which the keyboard shortcuts are specific to the context for which the section is named.
+ Each section in the following list includes commands for which the keyboard shortcuts are specific to the context for which the section is named.
 
-|||||
-|-|-|-|-|
-|[ADO.NET Entity Data Model Designer](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_ADONET)|[Layer Diagram](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_layerDiagram)|[Settings Designer](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_SettingsDesigner)|[VC Image Editor](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_vcimageeditor)|
-|[Class Diagram](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_classDiagram)|[Managed Resources Editor](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_managedResources)|[Solution Explorer](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_SolutionExplorer)|[VC String Editor](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_vcstringeditor)|
-|[Coded UI Test Editor](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_codedUItest)|[Merge Editor Window](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_MergeEditor)|[Team Explorer](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_TeamExplorer)|[View Designer](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_viewDesigner)|
-|[DataSet Editor](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_dataset)|[Microsoft SQL Server Data Tools, Schema Compare](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_SchemaCompare)|[Team Foundation Build Detail Editor](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_TFBuild)|[Visual Studio](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_visualstudio)|
-|[Difference Viewer](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_diff)|[Microsoft SQL Server Data Tools, Table Designer](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_TableDesigner)|[Test Explorer](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_TestExplorer)|[Windows Forms Designer](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_wfdesigner)|
-|[DOM Explorer](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_DOM)|[Microsoft SQL Server Data Tools, T-SQL Editor](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_TSQLeditor)|[Text Editor](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_TextEditor)|[Work Item Editor](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_workItemEditor)|
-|[F# Interactive](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_FSharp)|[Microsoft SQL Server Data Tools, T-SQL PDW Editor](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_linkfix)|[UML Activity Diagram](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_UMLactivityDiagram)|[Work Item Query View](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_WIqueryview)|
-|[Graph Document Editor](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_graphDoc)|[Page Inspector](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_PageInspector)|[UML Class Diagram](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_UMLclassDiagram)|[Work Item Results View](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_WIresultsview)|
-|[Graphics Diagnostics](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_graphicsDebugger)|[Query Designer](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_QueryDesigner)|[UML Component Diagram](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_UMLcomponentDiagram)|[Workflow Designer](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_workflowdesigner)|
-|[HTML Editor](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_HTMLeditor)|[Query Results](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_QueryResults)|[UML Use Case Diagram](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_UMLusecaseDiagram)|[XAML UI Designer](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_xamluidesigner)|
-|[HTML Editor Design View](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_HTMLeditorDesign)|[Report Designer](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_ReportDesigner)|[VC Accelerator Editor](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_vcaccelerator)|[XML (Text) Editor](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_xmlTextEditor)|
-|[HTML Editor Source View](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_HTMLeditorSource)|[Sequence Diagram](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_SequenceDiagram)|[VC Dialog Editor](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_vcdialogeditor)|[XML Schema Designer](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_xmlSchemaDesigner)|
+- [ADO.NET Entity Data Model Designer](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_ADONET)
+- [Layer Diagram](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_layerDiagram)
+- [Settings Designer](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_SettingsDesigner)
+- [VC Image Editor](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_vcimageeditor)
+- [Class Diagram](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_classDiagram)
+- [Managed Resources Editor](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_managedResources)
+- [Solution Explorer](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_SolutionExplorer)
+- [VC String Editor](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_vcstringeditor)
+- [Coded UI Test Editor](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_codedUItest)
+- [Merge Editor Window](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_MergeEditor)
+- [Team Explorer](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_TeamExplorer)
+- [View Designer](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_viewDesigner)
+- [DataSet Editor](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_dataset)
+- [Microsoft SQL Server Data Tools, Schema Compare](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_SchemaCompare)
+- [Team Foundation Build Detail Editor](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_TFBuild)
+- [Visual Studio](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_visualstudio)
+- [Difference Viewer](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_diff)
+- [Microsoft SQL Server Data Tools, Table Designer](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_TableDesigner)
+- [Test Explorer](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_TestExplorer)
+- [Windows Forms Designer](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_wfdesigner)
+- [DOM Explorer](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_DOM)
+- [Microsoft SQL Server Data Tools, T-SQL Editor](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_TSQLeditor)
+- [Text Editor](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_TextEditor)
+- [Work Item Editor](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_workItemEditor)
+- [F# Interactive](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_FSharp)
+- [Microsoft SQL Server Data Tools, T-SQL PDW Editor](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_linkfix)
+- [UML Activity Diagram](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_UMLactivityDiagram)
+- [Work Item Query View](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_WIqueryview)
+- [Graph Document Editor](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_graphDoc)
+- [Page Inspector](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_PageInspector)
+- [UML Class Diagram](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_UMLclassDiagram)
+- [Work Item Results View](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_WIresultsview)
+- [Graphics Diagnostics](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_graphicsDebugger)
+- [Query Designer](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_QueryDesigner)
+- [UML Component Diagram](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_UMLcomponentDiagram)
+- [Workflow Designer](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_workflowdesigner)
+- [HTML Editor](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_HTMLeditor)
+- [Query Results](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_QueryResults)
+- [UML Use Case Diagram](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_UMLusecaseDiagram)
+- [XAML UI Designer](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_xamluidesigner)
+- [HTML Editor Design View](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_HTMLeditorDesign)
+- [Report Designer](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_ReportDesigner)
+- [VC Accelerator Editor](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_vcaccelerator)
+- [XML (Text) Editor](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_xmlTextEditor)
+- [HTML Editor Source View](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_HTMLeditorSource)
+- [Sequence Diagram](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_SequenceDiagram)
+- [VC Dialog Editor](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_vcdialogeditor)
+- [XML Schema Designer](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_xmlSchemaDesigner)
 
 ## <a name="bkmk_global"></a> Global
 
@@ -493,9 +543,8 @@ You can more easily access a variety of commands and windows in Visual Studio by
 
 ## <a name="bkmk_diff"></a> Difference Viewer
 
-|||
-|-|-|
 |Commands|Keyboard Shortcuts|
+|-|-|
 |Diff.IgnoreTrimWhitespace|Ctrl+\\, Ctrl+Spacebar|
 |Diff.InlineView|Ctrl+\\, Ctrl+1|
 |Diff.LeftOnlyView|Ctrl+\\, Ctrl+3|

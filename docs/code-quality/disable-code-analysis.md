@@ -1,10 +1,10 @@
 ---
 title: Turn off code analysis
 ms.date: 10/03/2019
-ms.topic: conceptual
-helpviewer_keywords:
-- code analysis, disable
-- disable code analysis
+ms.topic: how-to
+helpviewer_keywords: 
+  - code analysis, disable
+  - disable code analysis
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra

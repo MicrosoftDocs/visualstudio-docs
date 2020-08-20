@@ -1,7 +1,7 @@
 ---
 title: "Change Log (Visual Studio Tools for Unity, Mac) | Microsoft Docs"
 ms.custom: ""
-ms.date: "12/02/2019"
+ms.date: "5/19/2020"
 ms.technology: vs-unity-tools
 ms.topic: "conceptual"
 ms.assetid: 33a6ac54-d997-4308-b5a0-af7387460849
@@ -14,6 +14,118 @@ ms.workload:
 # Change Log (Visual Studio Tools for Unity, Mac)
 
 Visual Studio Tools for Unity change log.
+
+## 2.7.1.0
+Released August 5, 2020
+
+### New Features
+
+- **Integration:**
+
+  - Updated Unity messages API to 2019.4.
+
+  - Added [`USP0013`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/USP0013.md) suppressor for `CA1823`. Private fields with the `SerializeField` or `SerializeReference` attributes should not be marked as unused (FxCop).
+  
+  - Added [`USP0014`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/USP0014.md) suppressor for `CA1822`. Unity messages should not be flagged as candidates for `static` modifier (FxCop).
+
+  - Added [`USP0015`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/USP0015.md) suppressor for `CA1801`. Unused parameters should not be removed from Unity messages (FxCop).
+  
+  - Added `MenuItem` support to the [`USP0009`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/USP0009.md) suppressor.  
+
+### Bug fixes
+
+- **Integration:**
+
+  - Fixed [`USP0001`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/USP0001.md) and [`USP0002`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/USP0002.md) suppressors not working with extra parentheses or with method arguments.
+  
+  - Fixed mandatory asset database refresh even when auto-refresh was disabled in the Unity settings.
+
+## 2.7.0.0
+Released June 23, 2020
+
+### New Features
+
+- **Integration:**
+
+  - Added support to persist solution folders when Unity is regenerating solution and projects.
+
+  - Added [`UNT0015`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0015.md) diagnostic. Detect incorrect method signature with `InitializeOnLoadMethod` or `RuntimeInitializeOnLoadMethod` attribute.
+
+  - Added [`UNT0016`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0016.md) diagnostic. Using `Invoke`, `InvokeRepeating`, `StartCoroutine` or `StopCoroutine` with a first argument being a string literal is not type safe.
+
+  - Added [`UNT0017`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0017.md) diagnostic. `SetPixels` invocation is slow.
+
+### Bug fixes
+
+- **Debugger:**
+
+  - Fixed creating breakpoints while the game is running on the old Mono runtime (Trying to bind the breakpoint as soon as it's created). 
+  
+- **Integration:**
+
+  - Do not reset selection when filtering messages in the Unity message wizard.
+  
+  - Fixed [`USP0004`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/USP0004.md), [`USP0006`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/USP0006.md) and [`USP0007`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/USP0007.md) suppressors with the following rules: suppress `IDE0044` (readonly), `IDE0051` (unused), `CS0649` (never assigned) for all fields decorated with SerializeField attribute. Suppress `CS0649` (never assigned) for public fields of all types extending `Unity.Object`.
+
+  - Fixed generic type parameter checking for [`UNT0014`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0014.md).
+
+- **Evaluation:**
+
+  - Fixed equality comparison with enums.
+
+## 2.6.1.0
+Released May 19, 2020
+
+### Bug fixes
+
+- **Integration:**
+
+  - Warn if we are unable to create the messaging server on the Unity side.
+
+  - Properly run analyzers during lightweight compilation.
+
+  - Fixed API documentation with Unity Hub installations.
+  
+  - Fixed debugger visualizer crashes.
+
+## 2.6.0.0
+Released April 14, 2020
+
+### New Features
+
+- **Integration:**
+
+  - Added [`UNT0012`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0012.md) diagnostic. Detect and wrap calls to coroutines in `StartCoroutine()`.
+
+  - Added [`UNT0013`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0013.md) diagnostic. Detect and remove invalid or redundant `SerializeField` attribute.
+
+  - Added [`UNT0014`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0014.md) diagnostic. Detect `GetComponent()` called with non-Component or non-Interface Type.
+
+  - Added [`USP0009`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/USP0009.md) suppressor for `IDE0051`. Don't flag methods with the `ContextMenu` attribute or referenced by a field with the `ContextMenuItem` attribute as unused.
+
+  - Added [`USP0010`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/USP0010.md) suppressor for `IDE0051`. Don't flag fields with the `ContextMenuItem` attribute as unused.
+
+  - Added [`USP0011`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/USP0011.md) suppressor for `IDE0044`. Don't make fields with the `ContextMenuItem` attribute read-only.
+
+  - [`USP0004`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/USP0004.md), [`USP0006`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/USP0006.md) and [`USP0007`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/USP0007.md) are now working for both `SerializeReference` and `SerializeField` attributes.
+
+### Bug fixes
+
+- **Integration:**
+
+  - Only send start/stop commands to Unity when the Editor is able to communicate.
+
+  - Fixed QuickInfo documentation with inherited messages.
+
+  - Fixed message scope for `CreateInspectorGUI` message.
+
+  - Do not report [`UNT0001`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0001.md) on methods with polymorphic modifiers.
+
+- **Evaluation:**
+
+  - Fixed handling of aliased usings.
+  
+  - Fixed handling of null values.  
 
 ## 2.5.2.0
 
@@ -33,13 +145,13 @@ Released March 3, 2020
 
 - **Integration:**
 
-  - Added a suppressor for [`IDE0051`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/master/doc/USP0008.md). Private methods used with Invoke, InvokeRepeating, StartCoroutine or StopCoroutine should not be marked as unused.
+  - Added [`USP0008`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/USP0008.md) suppressor for `IDE0051`. Private methods used with Invoke, InvokeRepeating, StartCoroutine or StopCoroutine should not be marked as unused.
 
 ### Bug fixes
 
 - **Integration:**
 
-  - Fixed OnDrawGizmos/OnDrawGizmosSelected documentation
+  - Fixed OnDrawGizmos/OnDrawGizmosSelected documentation.
 
 - **Evaluation:**
 
@@ -53,7 +165,7 @@ Released February 19, 2020
 
 - **Integration:**
 
-  - Fixed [`UNT0006`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/master/doc/UNT0006.md) diagnostic checking for incorrect message signature. When inspecting types with multiple levels of inheritance, this diagnostic could fail with the following message: `warning AD0001: Analyzer 'Microsoft.Unity.Analyzers.MessageSignatureAnalyzer' threw an exception of type 'System.ArgumentException' with message 'An item with the same key has already been added`.
+  - Fixed [`UNT0006`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0006.md) diagnostic checking for incorrect message signature. When inspecting types with multiple levels of inheritance, this diagnostic could fail with the following message: `warning AD0001: Analyzer 'Microsoft.Unity.Analyzers.MessageSignatureAnalyzer' threw an exception of type 'System.ArgumentException' with message 'An item with the same key has already been added`.
 
 ## 2.5.0.0
 
@@ -69,15 +181,15 @@ Released January 22, 2020
   
   - Switched to a new accessible property grid for settings.
 
-  - Added a suppressor for [`IDE0051`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/master/doc/USP0006.md). Private fields with the `SerializeField` attribute should not be marked as unused.
+  - Added [`USP0006`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/USP0006.md) suppressor for `IDE0051`. Private fields with the `SerializeField` attribute should not be marked as unused.
 
-  - Added a suppressor for [`CS0649`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/master/doc/USP0007.md). Fields with the `SerializeField` attribute should not be marked as unassigned.  
+  - Added [`USP0007`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/USP0007.md) suppressor for `CS0649`. Fields with the `SerializeField` attribute should not be marked as unassigned.  
 
 ### Bug fixes
 
 - **Integration:**
 
-  - Fixed project generation (`GenerateTargetFrameworkMonikerAttribute` target was not always located correctly)
+  - Fixed project generation (`GenerateTargetFrameworkMonikerAttribute` target was not always located correctly).
 
 - **Evaluation:**
 
@@ -127,7 +239,7 @@ Released October 15, 2019
 
 - **Integration:**
 
-  - Added a suppressor for `IDE0060` (unused parameter) for all Unity messages.
+  - Added [`USP0005`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/USP0005.md) suppressor for `IDE0060` (unused parameter) for all Unity messages.
 
   - Added a quick tooltip for fields tagged with `TooltipAttribute`. (This will work for a simple get accessor using this field as well).
 

@@ -1,23 +1,23 @@
 ---
-title: "Enable debugging for ASP.NET apps | Microsoft Docs"
-ms.custom: ""
-ms.date: "09/21/2018"
-ms.topic: "conceptual"
-dev_langs:
-  - "CSharp"
-  - "VB"
-  - "FSharp"
-  - "C++"
-helpviewer_keywords:
-  - "debugging ASP.NET Web applications"
-  - "Web.config configuration file, debug mode"
-  - "debugging [Visual Studio], ASP.NET"
+title: Enable debugging for ASP.NET apps | Microsoft Docs
+ms.custom: 
+ms.date: 09/21/2018
+ms.topic: how-to
+dev_langs: 
+  - CSharp
+  - VB
+  - FSharp
+  - C++
+helpviewer_keywords: 
+  - debugging ASP.NET Web applications
+  - Web.config configuration file, debug mode
+  - debugging [Visual Studio], ASP.NET
 ms.assetid: 3beed819-cece-4864-8184-bd410000973a
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
-ms.workload:
-  - "aspnet"
+ms.workload: 
+  - aspnet
 ---
 # Debug ASP.NET or ASP.NET Core apps in Visual Studio
 

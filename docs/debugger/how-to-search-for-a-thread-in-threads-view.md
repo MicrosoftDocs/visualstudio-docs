@@ -1,15 +1,15 @@
 ---
-title: "How to: Search for a Thread in Threads View | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-helpviewer_keywords:
-  - "threads, searching"
+title: How to - Search for a Thread in Threads View | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: how-to
+helpviewer_keywords: 
+  - threads, searching
 ms.assetid: 5609a9b3-c279-4426-9e2e-dd87896a6d6f
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
-ms.workload:
-  - "multiple"
+ms.workload: 
+  - multiple
 ---
 # How to: Search for a Thread in Threads View
 You can search for a specific thread in Threads view by using its thread ID or module string as search criteria. You can also specify the initial direction of the search. The fields in the dialog box will show the attributes of the selected thread in the thread tree.

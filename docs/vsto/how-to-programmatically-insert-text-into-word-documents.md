@@ -1,7 +1,7 @@
 ---
 title: "How to: Programmatically insert text into Word documents"
 ms.date: "08/14/2019"
-ms.topic: "conceptual"
+ms.topic: "how-to"
 dev_langs:
   - "VB"
   - "CSharp"

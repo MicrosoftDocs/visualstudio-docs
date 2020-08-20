@@ -1,7 +1,7 @@
 ---
 title: 'How to: Use Wizards with Project Templates'
 ms.date: 3/16/2019
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - project templates [Visual Studio], wizards
 - Visual Studio templates, wizards

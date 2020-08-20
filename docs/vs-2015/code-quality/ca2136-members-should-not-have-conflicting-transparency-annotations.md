@@ -20,7 +20,7 @@ manager: "wpickett"
 # CA2136: Members should not have conflicting transparency annotations
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-|||
+|Item|Value|
 |-|-|
 |TypeName|TransparencyAnnotationsShouldNotConflict|
 |CheckId|CA2136|

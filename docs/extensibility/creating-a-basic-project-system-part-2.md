@@ -1,7 +1,7 @@
 ---
 title: Creating a Basic Project System, Part 2 | Microsoft Docs
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - writing a project system
 - project system

@@ -1,7 +1,7 @@
 ---
 title: "Create site column project item with project template, part 2"
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: how-to
 helpviewer_keywords:
   - "project items [SharePoint development in Visual Studio], creating template wizards"
   - "SharePoint project items, creating template wizards"

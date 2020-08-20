@@ -1,7 +1,7 @@
 ---
 title: 'Walkthrough: Create a code snippet'
 ms.date: 03/31/2020
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - code snippets, creating
 - code snippets, shortcut

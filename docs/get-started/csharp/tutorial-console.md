@@ -594,10 +594,10 @@ namespace Calculator
 
 ## Next steps
 
-Congratulations on completing this tutorial! To learn even more, continue with the following tutorials.
+Continue with the second part of this tutorial:
 
 > [!div class="nextstepaction"]
-> [Continue with more C# tutorials](/dotnet/csharp/tutorials/)
+> [Continue with Part 2](tutorial-console-part-2.md)
 
 ## See also
 

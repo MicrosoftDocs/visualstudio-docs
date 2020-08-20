@@ -67,7 +67,14 @@ The location of the solution file is irrelevant to *Directory.Build.props*.
 
 *Directory.Build.props* is imported very early in *Microsoft.Common.props*, and properties defined later are unavailable to it. So, avoid referring to properties that are not yet defined (and will evaluate to empty).
 
-*Directory.Build.targets* is imported from *Microsoft.Common.targets* after importing *.targets* files from NuGet packages. So, it can override properties and targets defined in most of the build logic, but sometimes you may need to customize the project file after the final import.
+Properties that are set in *Directory.Build.props* can be overridden elsewhere in the project file or in imported files, so you should think of the settings in *Directory.Build.props* as specifying the defaults for your projects.
+
+*Directory.Build.targets* is imported from *Microsoft.Common.targets* after importing *.targets* files from NuGet packages. So, it can override properties and targets defined in most of the build logic, or set properties for all your projects regardless of what the individual projects set.
+
+When you need to set a property or define a target for an individual project that overrides any prior settings, put that logic in the project file after the final import. In order to do this in an SDK-style project, you first have to replace the SDK-style attribute with the equivalent imports. See [How to use MSBuild project SDKs](how-to-use-project-sdk.md).
+
+> [!NOTE]
+> The MSBuild engine reads in all imported files during evaluation, before starting build execution for any project (including any `PreBuildEvent`), so these files are not expected to be modified by the `PreBuildEvent` or any other part of the build process. Any modifications do not take effect until the next invocation of *MSBuild.exe* or the next Visual Studio build.
 
 ### Use case: multi-level merging
 
@@ -169,7 +176,7 @@ The same directory structure is searched in `$(MSBuildUserExtensionsPath)`, whic
 ## Customize the solution build
 
 > [!IMPORTANT]
-> Customizing the solution build in this way applies only to command-line builds with *MSBuild.exe*. It **does not** apply to builds inside Visual Studio.
+> Customizing the solution build in this way applies only to command-line builds with *MSBuild.exe*. It **does not** apply to builds inside Visual Studio. For this reason, it is not recommended to put customization at the solution level. A better alternative for customizing all projects in a solution is to use *Directory.Build.props* and *Directory.build.targets* files in the solution folder, as discussed elsewhere in this article.
 
 When MSBuild builds a solution file, it first translates it internally into a project file and then builds that. The generated project file imports `before.{solutionname}.sln.targets` before defining any targets and `after.{solutionname}.sln.targets` after importing targets, including targets installed to the `$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\SolutionFile\ImportBefore` and `$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\SolutionFile\ImportAfter` directories.
 
@@ -182,6 +189,8 @@ For example, you could define a new target to write a custom log message after b
  </Target>
 </Project>
 ```
+
+The solution build is separate from the project builds, so settings here do not affect project builds.
 
 ## Customize all .NET builds
 

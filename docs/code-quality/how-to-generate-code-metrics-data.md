@@ -1,16 +1,16 @@
 ---
 title: Generate code metrics from the IDE or command line
 ms.date: 11/02/2018
-ms.topic: conceptual
-helpviewer_keywords:
-- code metrics data
-- code metrics results
-- code metrics [Visual Studio]
+ms.topic: how-to
+helpviewer_keywords: 
+  - code metrics data
+  - code metrics results
+  - code metrics [Visual Studio]
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.workload:
-- multiple
+ms.workload: 
+  - multiple
 ---
 # How to: Generate code metrics data
 
@@ -157,6 +157,7 @@ Build succeeded.
 The generated XML output takes the following format:
 
 ::: moniker range=">=vs-2019"
+
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <CodeMetricsReport Version="1.0">
@@ -211,8 +212,10 @@ The generated XML output takes the following format:
   </Targets>
 </CodeMetricsReport>
 ```
+
 ::: moniker-end
 ::: moniker range="vs-2017"
+
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <CodeMetricsReport Version="1.0">
@@ -263,6 +266,7 @@ The generated XML output takes the following format:
   </Targets>
 </CodeMetricsReport>
 ```
+
 ::: moniker-end
 
 ### Metrics.exe

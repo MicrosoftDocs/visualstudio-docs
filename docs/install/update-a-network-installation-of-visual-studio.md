@@ -1,7 +1,7 @@
 ---
 title: Update a network-based installation
 description: Learn how to update a network-based Visual Studio installation by using the --layout command
-ms.date: 01/08/2020
+ms.date: 06/29/2020
 ms.custom: seodec18
 ms.topic: conceptual
 helpviewer_keywords:
@@ -68,7 +68,7 @@ Let's walk through a few examples of how to create and then update a layout:
   ```
 
     > [!IMPORTANT]
-    > An update operation doesn't install newly added optional components, even if you include these components in an "add" section of a [response file](automated-installation-with-response-file.md). This occurs because the add operation isn't used during an update.
+    > An update operation doesn't install newly added optional components. If you need the newly added optional components, please remove the old optional components in the `Layout.JSON` [response file](automated-installation-with-response-file.md) and include the components you need in the "add" section of `Layout.JSON`. 
     >
     > **Workaround**: Run a separate modify operation after an upgrade to install the missing components.
 

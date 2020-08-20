@@ -1,7 +1,7 @@
 ---
 title: 'How to: Create and remove project dependencies'
 ms.date: 06/21/2017
-ms.topic: conceptual
+ms.topic: how-to
 f1_keywords:
 - VS.ProjectDependenciesDlg
 helpviewer_keywords:

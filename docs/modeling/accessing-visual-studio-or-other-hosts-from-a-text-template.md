@@ -2,7 +2,7 @@
 title: Accessing Visual Studio or other Hosts from a Text Template
 titleSuffix: ''
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 author: JoshuaPartlow
 ms.author: joshuapa
 manager: jillfra

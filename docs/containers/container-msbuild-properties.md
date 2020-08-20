@@ -5,7 +5,7 @@ description: Overview of the Container Tools build process
 ms.author: ghogen
 ms.date: 06/06/2019
 ms.technology: vs-azure
-ms.topic: conceptual
+ms.topic: reference
 ---
 # Container Tools build properties
 

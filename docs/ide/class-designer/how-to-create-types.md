@@ -1,7 +1,7 @@
 ---
 title: 'How to: Create Types by using Class Designer'
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 f1_keywords:
 - VS.Clr.ClrAttributesDialog
 helpviewer_keywords:
@@ -50,9 +50,8 @@ To design new types for C# and Visual Basic projects, create them on a class dia
 
 4. Now add other items to define the type:
 
-    |||
-    |-|-|
     |**For**|**Add**|
+    |-|-|
     |Classes, abstract classes, structures or structs|Methods, properties, fields, events, constructors (method), destructors (method), and constants that define the type|
     |Enums|Field values that make up the enumeration|
     |Interfaces|Methods, properties, and events that make up the interface|

@@ -19,7 +19,7 @@ manager: "wpickett"
 # CA1806: Do not ignore method results
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-|||
+|Item|Value|
 |-|-|
 |TypeName|DoNotIgnoreMethodResults|
 |CheckId|CA1806|

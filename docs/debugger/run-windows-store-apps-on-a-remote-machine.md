@@ -1,18 +1,18 @@
 ---
-title: "Debug UWP apps on remote machines | Microsoft Docs"
-ms.date: "10/05/2018"
-ms.topic: "conceptual"
-dev_langs:
-  - "CSharp"
-  - "VB"
-  - "FSharp"
-  - "C++"
+title: Debug UWP apps on remote machines | Microsoft Docs
+ms.date: 10/05/2018
+ms.topic: how-to
+dev_langs: 
+  - CSharp
+  - VB
+  - FSharp
+  - C++
 ms.assetid: 0f6814d6-cd0d-49f3-b501-dea8c094b8ef
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
-ms.workload:
-  - "uwp"
+ms.workload: 
+  - uwp
 ---
 # Debug UWP apps on remote machines from Visual Studio
 

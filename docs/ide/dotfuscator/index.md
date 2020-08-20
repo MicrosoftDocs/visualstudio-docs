@@ -2,7 +2,7 @@
 title: Dotfuscator Community
 ms.date: 03/28/2019
 ms.devlang: dotnet
-ms.topic: conceptual
+ms.topic: overview
 keywords: Dotfuscator, Dotfuscator CE, Dotfuscator Community, PreEmptive, PreEmptive Solutions, PreEmptive Protection, protection, community edition, obfuscation, .NET, free, Visual Studio 2019, Visual Studio 2017, Visual Studio
 helpviewer_keywords:
 - PreEmptive Protection Dotfuscator

@@ -1,29 +1,34 @@
 ---
-title: Run and debug unit tests with Test Explorer
-description: Learn how to run tests with Test Explorer in Visual Studio. This topic covers how to enable automatic test runs after build, view test results, group and filter the test list, create playlists, debug tests, and use test shortcuts.
-ms.date: 07/29/2019
-ms.topic: conceptual
-f1_keywords:
-- vs.unittesting.testexplorer.overview
+title: Run unit tests with Test Explorer
+description: Learn how to run tests with Test Explorer in Visual Studio. This topic covers how to enable automatic test runs after build, view test results, group and filter the test list, create playlists, and use test shortcuts.
+ms.date: 07/14/2020
+ms.topic: how-to
+f1_keywords: 
+  - vs.unittesting.testexplorer.overview
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.workload:
-- multiple
+ms.workload: 
+  - multiple
 ---
 # Run unit tests with Test Explorer
 
-Use Test Explorer to run unit tests from Visual Studio or third-party unit test projects. You can also use Test Explorer to group tests into categories, filter the test list, and create, save, and run playlists of tests. You can debug tests and analyze test performance and code coverage.
+Use Test Explorer to run unit tests from Visual Studio or third-party unit test projects. You can also use Test Explorer to group tests into categories, filter the test list, and create, save, and run playlists of tests. You can also analyze code coverage and [debug unit tests](../test/debug-unit-tests-with-test-explorer.md).
+
+**Test Explorer** can run tests from multiple test projects in a solution and from test classes that are part of the production code projects. Test projects can use different unit test frameworks. When the code under test is written for .NET, the test project can be written in any language that also targets .NET, regardless of the language of the target code. Native C/C++ code projects must be tested by using a C++ unit test framework.
+
+## Build your test project
+
+If you do not already have a test project set up in your Visual Studio solution, you must first create and build a test project.
+
+- [Get started with unit testing (.NET)](../test/getting-started-with-unit-testing.md)
+- [Write unit tests for C/C++](writing-unit-tests-for-c-cpp.md)
 
 Visual Studio includes the Microsoft unit testing frameworks for both managed and native code. However, Test Explorer can also run any unit test framework that has implemented a Test Explorer adapter. For more information about installing third-party unit test frameworks, see [Install third-party unit test frameworks](../test/install-third-party-unit-test-frameworks.md)
 
-**Test Explorer** can run tests from multiple test projects in a solution and from test classes that are part of the production code projects. Test projects can use different unit test frameworks. When the code under test is written for .NET, the test project can be written in any language that also targets .NET, regardless of the language of the target code. Native C/C++ code projects must be tested by using a C++ unit test framework. For more information, see [Write unit tests for C/C++](writing-unit-tests-for-c-cpp.md).
-
 ## Run tests in Test Explorer
 
-
 When you build the test project, the tests appear in Test Explorer. If Test Explorer is not visible, choose **Test** on the Visual Studio menu, choose **Windows**, and then choose **Test Explorer**.
-
 
 ::: moniker range="vs-2017"
 ![Unit Test Explorer](../test/media/ute_failedpassednotrunsummary.png)
@@ -207,11 +212,21 @@ You can create and save a list of tests that you want to run or view as a group.
 
 The playlist opens in a new Test Explorer tab. You can use this playlist once and then discard it, or you can click the **Save** button in the playlist window's toolbar, and then select a name and location to save the playlist.
 
-![Playlist opens in separate test explorer tab](../test/media/vs-2019/test-explorer-playlist-tab-16-2.png)
+![Playlist opens in separate test explorer tab](../test/media/vs-2019/test-explorer-playlist-tab-16-7.png)
 
 **To create a playlist**, choose one or more tests in Test Explorer. Right-click and choose **Add to Playlist** > **New playlist**.
 
 **To open a playlist**, choose the playlist icon in the Visual Studio toolbar and select a previously saved playlist file from the menu.
+
+**To edit a playlist**, you can right-click on any test and use the menu options to add or remove it from a playlist.
+
+Starting in Visual Studio 2019 version 16.7, you can choose the **Edit** button in the toolbar. Check boxes will appear next to your tests showing what tests are included and excluded in the playlist. Edit groups as desired.
+
+![Edit Playlist button](../test/media/vs-2019/test-explorer-playlist-edit-16-7.png)
+
+You can also check or uncheck the boxes of the parent groups in the hierarchy. This action creates a dynamic playlist that always updates the playlist based on the tests that are in that group. For example, if you place a check mark next to a class, any test added from that class becomes part of this playlist. If you delete a test from that class, it is removed from the playlist. You can learn more about the rules by saving the playlist with the Save button in the toolbar and opening the *.playlist* file that is created on your disk. This file lists all the rules and individual tests that make up a playlist.
+
+![Playlist xml file](../test/media/vs-2019/test-explorer-playlist-xml-file.png)
 ::: moniker-end
 
 ::: moniker range=">=vs-2019"
@@ -290,23 +305,6 @@ FilterName:"Criteria" -FilterName:"SubsetCriteria"
 
 For example, `FullName:"MyClass" - FullName:"PerfTest"` returns all tests that include "MyClass" in their name, except tests that also include "PerfTest" in their name.
 
-## Debug and analyze unit tests
-
-You can use Test Explorer to start a debugging session for your tests. Stepping through your code with the Visual Studio debugger seamlessly takes you back and forth between the unit tests and the project under test. To start debugging:
-
-1. In the Visual Studio editor, set a breakpoint in one or more test methods that you want to debug.
-
-    > [!NOTE]
-    > Because test methods can run in any order, set breakpoints in all the test methods that you want to debug.
-
-2. In Test Explorer, select the test methods and then choose **Debug Selected Tests** on the right-click menu.
-
-   For more information, about the debugger, see [Debug in Visual Studio](../debugger/debugger-feature-tour.md).
-
-### Diagnose test method performance issues
-
-To diagnose why a test method is taking too much time, select the method in Test Explorer and then choose **Profile Selected Test** on the right-click menu. See [Instrumentation profiling report](../profiling/understanding-instrumentation-data-values.md?view=vs-2017).
-
 ### Analyze unit test code coverage
 
 You can determine the amount of product code that is actually being tested by your unit tests by using the Visual Studio code coverage tool that's available in Visual Studio Enterprise edition. You can run code coverage on selected tests or on all tests in a solution.
@@ -337,7 +335,7 @@ For more information, see [Use code coverage to determine how much code is being
 
 ## Test shortcuts
 
-Tests can be run from Test Explorer by right-clicking in the code editor on a test and selecting **Run test** or by using the default [Test Explorer shortcuts](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_testexplorerGLOBAL) in Visual Studio. Some of the shortcuts are context-based. This means that they run or debug tests based on where your cursor is in the code editor. If your cursor is inside a test method, then that test method runs. If your cursor is at the class level, then all the tests in that class run. This is the same for the namespace level as well.
+Tests can be run from Test Explorer by right-clicking in the code editor on a test and selecting **Run test** or by using the default [Test Explorer shortcuts](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_testexplorerGLOBAL) in Visual Studio. Some of the shortcuts are context-based. This means that they run or [debug tests](../test/debug-unit-tests-with-test-explorer.md) based on where your cursor is in the code editor. If your cursor is inside a test method, then that test method runs. If your cursor is at the class level, then all the tests in that class run. This is the same for the namespace level as well.
 
 |Frequent Commands| Keyboard Shortcuts|
 |-|------------------------|
@@ -352,5 +350,6 @@ Tests can be run from Test Explorer by right-clicking in the code editor on a te
 ## See also
 
 - [Unit test your code](../test/unit-test-your-code.md)
+- [Debug unit tests with Test Explorer](../test/debug-unit-tests-with-test-explorer.md)
 - [Run a unit test as a 64-bit process](../test/run-a-unit-test-as-a-64-bit-process.md)
 - [Test Explorer FAQ](test-explorer-faq.md)

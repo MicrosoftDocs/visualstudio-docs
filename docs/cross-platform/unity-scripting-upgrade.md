@@ -3,7 +3,7 @@ title: "Using .NET 4.x in Unity"
 author: therealjohn
 ms.author: johmil
 ms.date: "08/29/2018"
-ms.topic: "conceptual"
+ms.topic: how-to
 ms.assetid: E2C9420F-A5D5-4472-9020-2B63FB27A133
 ms.technology: vs-unity-tools
 ms.workload:

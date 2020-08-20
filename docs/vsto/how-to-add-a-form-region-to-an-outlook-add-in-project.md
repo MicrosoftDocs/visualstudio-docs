@@ -1,7 +1,7 @@
 ---
 title: "How to: Add a form region to an Outlook Add-in project"
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: "how-to"
 f1_keywords:
   - "VSTO.NewFormRegionWizard.Page1"
   - "VSTO.NewFormRegionWizard.Page3"

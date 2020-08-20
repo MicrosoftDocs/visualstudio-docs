@@ -37,7 +37,7 @@ Use the **Miscellaneous** property page to specify how elements and attributes a
 
 Use this setting to control when tags and quotes are automatically generated.
 
-|||
+|Name|Description|
 |-|-|
 |**Closing tags**|Specifies whether an element's closing tag is automatically generated when you close the opening tag with the greater than character (>).|
 |**Attribute quotes**|Specifies whether enclosing quotes are generated when an attribute value is selected from the statement completion drop-down list.|

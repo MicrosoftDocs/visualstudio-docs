@@ -5,7 +5,7 @@ ms.author: lank
 manager: lank
 ms.assetid: 76654645-08ee-445d-b9ee-123126d1f0fb
 ms.date: 04/13/2020
-ms.topic: conceptual
+ms.topic: how-to
 description:  Learn how to purchase Visual Studio subscriptions in the Microsoft Store and activate them in the Visual Studio subscriptions portal.
 ---
 
@@ -28,15 +28,15 @@ Each of these subscription offers the option to make an initial purchase or to r
 ## How to activate subscriptions
 After you purchase a Visual Studio subscription through the Microsoft Store, you can begin the activation process from the payment "Confirmation Page" or "Confirmation Email" you received after your purchase.
 
-1. Click on **Click here to sign in** in the confirmation email or on the purchase confirmation page.
+1. Select **Click here to sign in** in the confirmation email or on the purchase confirmation page.
 2. You will be redirected to [https://my.visualstudio.com/subscriptions/activate](https://my.visualstudio.com/subscriptions/activate?wt.mc_id=o~msft~docs).
-3. Enter the email address that requires access to the Visual Studio subscription and click **Continue**.
+3. Enter the email address that requires access to the Visual Studio subscription and select **Continue**.
 4. You may be redirected to one of two different sign-in pages depending on the type of account you are using:
     - Subscribers using their personal "Microsoft Account" (MSA) will see the Microsoft Account password page.
     - Subscribers using their work/school accounts will be redirected to their organization's sign-in page.
 5. Enter your password, or complete your organization's sign-in requirements.
 6. Upon successful sign-in, an "Activate Your Visual Studio Subscription" window will appear.
-7. Enter the product key information available from the payment "Confirmation Page" or "Confirmation Email" and click **Activate**.
+7. Enter the product key information available from the payment "Confirmation Page" or "Confirmation Email" and select **Activate**.
 8. The subscription should now be visible on the [Subscriptions](https://my.visualstudio.com/subscriptions?wt.mc_id=o~msft~docs) page and you should have access to all your subscription benefits.
 
 ## Support for Microsoft Store

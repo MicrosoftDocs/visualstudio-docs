@@ -5,7 +5,7 @@ ms.author: v-evwin
 manager: lank
 ms.assetid: 588480a3-8806-4ea5-9915-c25974770069
 ms.date: 04/20/2020
-ms.topic: conceptual
+ms.topic: how-to
 description:  Learn about the Windows Developer Account included with your Visual Studio subscription.
 ---
 # Windows Developer account in Visual Studio subscriptions
@@ -20,7 +20,7 @@ We recommend that you create a "private" browser window for this process.  For e
 2. Locate the Windows Developer Account tile in the Tools section and click on the **Get Code** link at the bottom of the benefit tile.  Copy the code to your clipboard, then click **Activate**.
    > [!div class="mx-imgBorder"]
    > ![Windows Developer Benefit Tile](_img/vs-windows-dev/vs-windows-dev-tile.png)
-3. On the [https://developer.microsoft.com](https://developer.microsoft.com) site you can begin the registration process.  Click **Sign up** to continue.
+3. On the [https://developer.microsoft.com/store/register/](https://developer.microsoft.com/store/register/) site you can begin the registration process.  Click **Sign up** to continue.
    > [!div class="mx-imgBorder"]
    > ![Windows Developer Benefit Registration](_img/vs-windows-dev/vs-windows-dev-register1-cropped.png)
 4. Sign in to your subscription.  If you have multiple accounts, choose the one associated with your Enterprise subscription.
@@ -46,8 +46,8 @@ We recommend that you create a "private" browser window for this process.  For e
 | Visual Studio Enterprise, Visual Studio Professional (monthly cloud) | Azure                                       | Not available                                                           |NA|
 ||
 
-<sup>1</sup>  *Includes:  Not for Resale (NFR), FTE, Visual Studio Industry Partner (VSIP), BizSpark, MCT Software & Services Developer.
-Excludes:  Microsoft Partner Network (MPN), Imagine, Most Valuable Professional (MVP), Regional Director (RD), MCT Software & Services.*
+<sup>1</sup>  *Includes:  Not for Resale (NFR), FTE, Visual Studio Industry Partner (VSIP), BizSpark, MCT Software & Services Developer, Most Valuable Professional (MVP), Regional Director (RD).
+Excludes:  Microsoft Partner Network (MPN), Imagine, MCT Software & Services.*
 
 > [!NOTE]
 > Microsoft no longer offers Visual Studio Professional Annual subscriptions and Visual Studio Enterprise Annual subscriptions in Cloud Subscriptions. There will be no change to existing customers experience and ability to renew, increase, decrease, or cancel their subscriptions. New customers are encouraged to go to [https://visualstudio.microsoft.com/vs/pricing/](https://visualstudio.microsoft.com/vs/pricing/) to explore different options to purchase Visual Studio.

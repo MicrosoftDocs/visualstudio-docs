@@ -97,7 +97,7 @@ This topic describes how to run unit tests by using the Test Explorer in Microso
 ### <a name="BKMK_Grouping_tests"></a> Grouping tests
  By default, Test Explorer displays your tests as child nodes of **Failed Tests**, **Passed Tests**, **Skipped Tests** and **Not Run Tests**.
 
-|||
+|Image|Description|
 |-|-|
 |![Test Explorer group button](../test/media/ute-groupby-btn.png "UTE_GroupBy_btn")|To group your tests by the time it takes to execute them, open the **Group By** list and choose **Duration**. Choose **Test Outcome** to switch to the original grouping.|
 

@@ -19,7 +19,7 @@ manager: jillfra
 
 For the latest documentation on Visual Studio, see [DA0038: High Rate of Lock contentions](/visualstudio/profiling/da0038-high-rate-of-lock-contentions).  
   
-|||  
+|Item|Value|  
 |-|-|  
 |Rule Id|DA0038|  
 |Category|.NET Framework Usage|  

@@ -3,7 +3,7 @@ title: "'default' can only appear once in a 'switch' statement | Microsoft Docs"
 ms.date: "01/18/2017"
 ms.prod: visual-studio-windows
 ms.technology: vs-javascript
-ms.topic: reference
+ms.topic: error-reference
 f1_keywords: 
   - "VS.WebClient.Help.SCRIPT1027"
 dev_langs: 

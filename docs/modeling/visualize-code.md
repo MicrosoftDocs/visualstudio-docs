@@ -28,7 +28,7 @@ To see which editions of Visual Studio support each feature, see [Edition suppor
 
 ## What do you want to do?
 
-|||
+|Scenario|Articles|
 |-|-|
 |**Understand code and its relationships:**<br /><br /> Map relationships between specific pieces of code.<br /><br /> See an overview of the relationships in your code for the entire solution.|- [Map dependencies across your solutions](../modeling/map-dependencies-across-your-solutions.md)<br />- [Use code maps to debug your applications](../modeling/use-code-maps-to-debug-your-applications.md)<br />- [Find potential problems using code map analyzers](../modeling/find-potential-problems-using-code-map-analyzers.md)<br />- [Map methods on the call stack while debugging](../debugger/map-methods-on-the-call-stack-while-debugging-in-visual-studio.md)|
 |**Understand class structures:**<br /><br /> Visualize the structure of classes in a project by creating class diagrams from code.|[How to: Add Class Diagrams to Projects (Class Designer)](../ide/class-designer/how-to-add-class-diagrams-to-projects.md)|

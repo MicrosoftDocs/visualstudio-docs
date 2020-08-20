@@ -1,7 +1,7 @@
 ---
 title: 'How to: Print Class Diagrams (Class Designer)'
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - printing [Visual Studio], class diagrams
 - class diagrams, printing

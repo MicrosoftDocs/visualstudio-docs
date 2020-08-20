@@ -1,7 +1,7 @@
 ---
 title: "Remote Debug ASP.NET Core on IIS and Azure | Microsoft Docs"
 ms.custom: "remotedebugging"
-ms.date: "04/14/2020"
+ms.date: 05/06/2020
 ms.topic: "conceptual"
 ms.assetid: a6c04b53-d1b9-4552-a8fd-3ed6f4902ce6
 author: "mikejo5000"
@@ -100,6 +100,7 @@ You can create an Azure VM for Windows Server and then install and configure IIS
 These procedures have been tested on these server configurations:
 * Windows Server 2012 R2 and IIS 8
 * Windows Server 2016 and IIS 10
+* Windows Server 2019 and IIS 10
 
 ### App already running in IIS on the Azure VM?
 
@@ -111,7 +112,7 @@ This article includes steps on setting up a basic configuration of IIS on Window
 
   * Before you begin, follow all the steps described in [Install and run IIS](/azure/virtual-machines/windows/quick-create-portal).
 
-  * When you open port 80 in the Network security group, also open the [correct port](#bkmk_openports) for the remote debugger (4024 or 4022). That way, you won't have to open it later.
+  * When you open port 80 in the Network security group, also open the [correct port](#bkmk_openports) for the remote debugger (4024 or 4022). That way, you won't have to open it later. If you're using Web Deploy, also open port 8172.
 
 ### Update browser security settings on Windows Server
 
@@ -126,7 +127,10 @@ When you download the software, you may get requests to grant permission to load
 
 ### Install ASP.NET Core on Windows Server
 
-1. Install the [.NET Core Windows Server Hosting](https://aka.ms/dotnetcore-2-windowshosting) bundle on the hosting system. The bundle will install the .NET Core Runtime, .NET Core Library, and the ASP.NET Core Module. For more in-depth instructions, see [Publishing to IIS](/aspnet/core/publishing/iis?tabs=aspnetcore2x#iis-configuration).
+1. Install the .NET Core Hosting Bundle on the hosting system. The bundle installs the .NET Core Runtime, .NET Core Library, and the ASP.NET Core Module. For more in-depth instructions, see [Publishing to IIS](/aspnet/core/publishing/iis?tabs=aspnetcore2x#iis-configuration).
+
+    For .NET Core 3, install the [.NET Core Hosting Bundle](https://dotnet.microsoft.com/permalink/dotnetcore-current-windows-runtime-bundle-installer).
+    For .NET Core 2, install the [.NET Core Windows Server Hosting](https://aka.ms/dotnetcore-2-windowshosting).
 
     > [!NOTE]
     > If the system doesn't have an Internet connection, obtain and install the *[Microsoft Visual C++ 2015 Redistributable](https://www.microsoft.com/download/details.aspx?id=53840)* before installing the .NET Core Windows Server Hosting bundle.
@@ -146,7 +150,13 @@ If you need help to deploy the app to IIS, consider these options:
 You can use this option create a publish settings file and import it into Visual Studio.
 
 > [!NOTE]
-> This deployment method uses Web Deploy. If you want to configure Web Deploy manually in Visual Studio instead of importing the settings, you can install Web Deploy 3.6 instead of Web Deploy 3.6 for Hosting Servers. However, if you configure Web Deploy manually, you will need to make sure that an app folder on the server is configured with the correct values and permissions (see [Configure ASP.NET Web site](#BKMK_deploy_asp_net)).
+> This deployment method uses Web Deploy, which must be installed on the server. If you want to configure Web Deploy manually instead of importing the settings, you can install Web Deploy 3.6 instead of Web Deploy 3.6 for Hosting Servers. However, if you configure Web Deploy manually, you will need to make sure that an app folder on the server is configured with the correct values and permissions (see [Configure ASP.NET Web site](#BKMK_deploy_asp_net)).
+
+### Configure the ASP.NET Core web site
+
+1. In IIS Manager, in the left pane under **Connections**, select **Application Pools**. Open **DefaultAppPool** and set the **.NET CLR version** to **No Managed Code**. This is required for ASP.NET Core. The Default Web Site uses the DefaultAppPool.
+
+2. Stop and restart the DefaultAppPool.
 
 ### Install and configure Web Deploy for Hosting Servers on Windows Server
 
@@ -160,11 +170,14 @@ You can use this option create a publish settings file and import it into Visual
 
 [!INCLUDE [install-web-deploy-with-hosting-server](../deployment/includes/import-publish-settings-vs.md)]
 
-After the app deploys successfully, it should start automatically. If the app does not start from Visual Studio, start the app in IIS. For ASP.NET Core, you need to make sure that the Application pool field for the **DefaultAppPool** is set to **No Managed Code**.
+> [!NOTE]
+> If you restart an Azure VM, the IP address may change.
+
+After the app deploys successfully, it should start automatically. If the app does not start from Visual Studio, start the app in IIS to verify that it runs correctly. For ASP.NET Core, you also need to make sure that the Application pool field for the **DefaultAppPool** is set to **No Managed Code**.
 
 1. In the **Settings** dialog box, enable debugging by clicking **Next**, choose a **Debug** configuration, and then choose **Remove additional files at destination** under the **File Publish** options.
 
-    > [!NOTE]
+    > [!IMPORTANT]
     > If you choose a Release configuration, you disable debugging in the *web.config* file when you publish.
 
 1. Click **Save** and then republish the app.
@@ -237,11 +250,11 @@ Download the version of the remote tools that matches your version of Visual Stu
 
 6. Type the first letter of your process name to quickly find your app.
 
-    * Select **dotnet.exe** (for .NET Core)
+    * If you're using the [in-process hosting model](/aspnet/core/host-and-deploy/aspnet-core-module?view=aspnetcore-3.1#hosting-models) on IIS, select the correct **w3wp.exe** process. Starting in .NET Core 3, this is the default.
 
-      If you have multiple processes showing **dotnet.exe**, check the **User Name** column. In some scenarios, the **User Name** column shows your app pool name, such as **IIS APPPOOL\DefaultAppPool**. If you see the App Pool, an easy way to identify the correct process is to create a new named App Pool for the app instance you want to debug, and then you can find it easily in the **User Name** column.
+    * Otherwise, select the **dotnet.exe** process. (This is the out-of-process hosting model.)
 
-    * In some IIS scenarios, you may find your app name in the process list, such as **MyASPApp.exe**. You can attach to this process instead.
+    If you have multiple processes showing *w3wp.exe* or *dotnet.exe*, check the **User Name** column. In some scenarios, the **User Name** column shows your app pool name, such as **IIS APPPOOL\DefaultAppPool**. If you see the App Pool, but it's not unique, create a new named App Pool for the app instance you want to debug, and then you can find it easily in the **User Name** column.
 
     ::: moniker range=">=vs-2019"
     ![RemoteDBG_AttachToProcess](../debugger/media/vs-2019/remotedbg-attachtoprocess-aspnetcore.png "RemoteDBG_AttachToProcess")

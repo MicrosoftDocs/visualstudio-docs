@@ -1,13 +1,13 @@
 ---
 title: Specify Test Agents to Use in Load Test Scenarios
 ms.date: 10/19/2016
-ms.topic: conceptual
-helpviewer_keywords:
-- test agents, load tests
-- load tests, scenarios
-- load tests, specifying for load tests
-- tests agents, load tests, specifying
-- load tests, test agents
+ms.topic: how-to
+helpviewer_keywords: 
+  - test agents, load tests
+  - load tests, scenarios
+  - load tests, specifying for load tests
+  - tests agents, load tests, specifying
+  - load tests, test agents
 ms.assetid: e86806dd-5897-4e4c-bfd4-8d687fb72a6e
 author: mikejo5000
 ms.author: mikejo

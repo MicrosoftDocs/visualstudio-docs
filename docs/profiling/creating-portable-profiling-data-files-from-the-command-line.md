@@ -1,14 +1,14 @@
 ---
-title: "Creating Portable Profiling Data Files from the Command Line | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Creating Portable Profiling Data Files from the Command Line | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: how-to
 ms.assetid: 2ceb63a7-b835-4988-b756-2afc3fcc4808
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 monikerRange: 'vs-2017'
-ms.workload:
-  - "multiple"
+ms.workload: 
+  - multiple
 ---
 # Create portable profiling data files from the command line
 To make sharing of profiling data easier, you can use the [VSPerfReport](../profiling/vsperfreport.md) command-line tool to embed the symbols for a profiling run into the .*vsp* file.

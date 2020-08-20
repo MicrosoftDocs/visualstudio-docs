@@ -1,7 +1,7 @@
 ---
 title: 'Workflow Designer: Add a new item to workflow project'
 ms.date: 06/25/2018
-ms.topic: conceptual
+ms.topic: how-to
 ms.assetid: 5c6180ca-af10-4513-b0cb-7d478fd84eab
 author: TerryGLee
 ms.author: tglee

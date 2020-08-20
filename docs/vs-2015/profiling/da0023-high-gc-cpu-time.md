@@ -17,7 +17,7 @@ manager: jillfra
 # DA0023: High GC CPU time
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-|||  
+|Item|Value|  
 |-|-|  
 |Rule Id|DA0023|  
 |Category|.NET Framework Usage|  

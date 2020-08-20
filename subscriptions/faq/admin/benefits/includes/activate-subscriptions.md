@@ -9,6 +9,6 @@ ms.author: cabuschl
 ms.date: 3/3/2020
 ---
 
-## How do my end users activate their subscription?
+## How do my end users activate their Visual Studio subscription?
 
 The subscription is active and can be used as soon as it has been assigned from within the [Visual Studio Administrator portal](https://manage.visualstudio.com/subscribers). Your subscriber can sign into the [Visual Studio Subscribers portal](https://my.visualstudio.com/) or VS IDE right away, and will receive a welcome email letting them know the subscription has been assigned.

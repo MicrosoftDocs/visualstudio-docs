@@ -250,7 +250,7 @@ public void ValidateSomething
 
  The attributes and parameters of every validation method are as follows:
 
-|||
+|Signature|Description|
 |-|-|
 |`[Export(typeof(System.Action <ValidationContext, object>))]`|Defines the method as a validation constraint using Managed Extensibility Framework (MEF).|
 |`[ValidationMethod (ValidationCategories.Menu)]`|Specifies when validation will be performed. Use bitwise OR (&#124;) if you want to combine more than one option.<br /><br /> `Menu` = invoked by the Validate menu.<br /><br /> `Save` = invoked on saving the model.<br /><br /> `Open` = invoked on opening the model. `Load` = invoked on saving the model, but for a contravention warns the user that it may not be possible to re-open the model. Also called on loading, before the model is parsed.|
@@ -350,7 +350,7 @@ context.LogError(... , usecase);
 
  To avoid this situation, there is a context cache in which information is preserved during a validation run. You can use it to pass information between different executions of the validation methods. For example, you could store a list of the elements that have already been dealt with in this validation run. The cache is created at the start of each validation run, and cannot be used to pass information between different validation runs.
 
-|||
+|Syntax|Description|
 |-|-|
 |`context.SetCacheValue<T> (name, value)`|Store a value|
 |`context.TryGetCacheValue<T> (name, out value)`|Get a value. Returns true if successful.|

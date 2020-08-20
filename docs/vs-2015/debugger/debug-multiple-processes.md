@@ -162,9 +162,8 @@ Here’s how to start debugging processes, switch between processes, break and c
 > [!NOTE]
 > By default, the break, continue and step debugger commands affect all processes that are being debugged. To change this behavior, see [Configure the execution behavior of multiple processes](#BKMK_Configure_the_execution_behavior_of_multiple_processes)  
   
-||||  
-|-|-|-|  
 |**Command**|**Break all processes when one process breaks**<br /><br /> Checked (Default)|**Break all processes when one process breaks**<br /><br /> Cleared|  
+|-|-|-|
 |**Debug** menu:<br /><br /> -   **Break All**|All processes break.|All processes break.|  
 |**Debug** menu:<br /><br /> -   **Continue**|All processes resume.|All suspended processes resume.|  
 |**Debug** menu:<br /><br /> -   **Step Into**<br />-   **Step Over**<br />-   **Step Out**|All processes run while current process steps.<br /><br /> Then all processes break.|Current process steps.<br /><br /> Suspended processes resume.<br /><br /> Running processes continue.|  
@@ -199,9 +198,8 @@ Here’s how to start debugging processes, switch between processes, break and c
   
 ### <a name="BKMK_Stop__terminate__and_detach_commands"></a> Stop, terminate, and detach commands  
   
-|||  
-|-|-|  
 |**Command**|**Description**|  
+|-|-|  
 |**Debug** menu:<br /><br /> -   **Stop Debugging**|Unless the behavior is changed by **Processes** window **Detach when debugging stops** option:<br /><br /> 1.  Processes started by debugger are terminated.<br />2.  Attached processes are detached from the debugger.|  
 |**Debug** menu:<br /><br /> -   **Terminate All**|All processes are terminated.|  
 |**Debug** menu:<br /><br /> -   **Detach All**|The debugger detaches from all processes.|  

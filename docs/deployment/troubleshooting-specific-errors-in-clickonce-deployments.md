@@ -1,24 +1,24 @@
 ---
-title: "Troubleshooting Specific Errors in ClickOnce Deployments | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-f1_keywords:
-  - "Microsoft.VisualStudio.Publish.ClickOnceProvider.ErrorPrompt.UncRequired"
-  - "Microsoft.VisualStudio.Publish.ClickOnceProvider.ErrorPrompt.NoInstallUrl"
-dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
-helpviewer_keywords:
-  - "deploying applications, ClickOnce"
-  - "troubleshooting ClickOnce deployments"
-  - "ClickOnce deployment, troubleshooting"
+title: Troubleshooting Specific Errors in ClickOnce Deployments | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: troubleshooting
+f1_keywords: 
+  - Microsoft.VisualStudio.Publish.ClickOnceProvider.ErrorPrompt.UncRequired
+  - Microsoft.VisualStudio.Publish.ClickOnceProvider.ErrorPrompt.NoInstallUrl
+dev_langs: 
+  - VB
+  - CSharp
+  - C++
+helpviewer_keywords: 
+  - deploying applications, ClickOnce
+  - troubleshooting ClickOnce deployments
+  - ClickOnce deployment, troubleshooting
 ms.assetid: 22dfe8f1-8271-4708-9c25-6bbb13920ac8
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.workload:
-  - "multiple"
+ms.workload: 
+  - multiple
 ---
 # Troubleshoot specific errors in ClickOnce deployments
 This article lists the following common errors that can occur when you deploy a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application, and provides steps to resolve each problem.
@@ -133,3 +133,4 @@ This article lists the following common errors that can occur when you deploy a 
 ## See also
 - [ClickOnce security and deployment](../deployment/clickonce-security-and-deployment.md)
 - [Troubleshoot ClickOnce deployments](../deployment/troubleshooting-clickonce-deployments.md)
+- [Visual Studio troubleshooting](/troubleshoot/visualstudio/welcome-visual-studio/)

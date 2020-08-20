@@ -1,7 +1,7 @@
 ---
 title: Connect to data in an Access database
 ms.date: 07/18/2019
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - data [Visual Studio], connecting
 - connecting to data, Access databases
@@ -43,7 +43,7 @@ Connect to databases created with Office 365, Access 2013, Access 2010, or Acces
 
    The **Add Connection** dialog box opens.
 
-7. If **Data source** is not set to **Microsoft Access Database File (OLE DB)**, select the **Change** button.
+7. If **Data source** is not set to **Microsoft Access Database File**, select the **Change** button.
 
    The **Change Data Source** dialog box opens. In the list of data sources, choose **Microsoft Access Database File**. In the **Data provider** drop-down, select **.NET Framework Data Provider for OLE DB**, and then choose **OK**.
 

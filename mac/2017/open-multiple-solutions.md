@@ -6,6 +6,7 @@ ms.author: dominicn
 ms.date: 07/19/2018
 ms.assetid: 592BA4E3-8DEF-4FCD-8BA0-519A4CEEE03E
 ms.custom: video
+ms.topic: how-to
 ---
 
 # Open multiple solutions or instances of Visual Studio for Mac

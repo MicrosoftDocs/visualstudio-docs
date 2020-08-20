@@ -1,7 +1,7 @@
 ---
 title: 'How to: Create a Domain-Specific Language Solution'
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 f1_keywords:
 - vs.dsltools.designerwizard
 helpviewer_keywords:

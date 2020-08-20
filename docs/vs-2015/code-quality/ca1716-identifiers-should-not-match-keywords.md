@@ -19,7 +19,7 @@ manager: "wpickett"
 # CA1716: Identifiers should not match keywords
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-|||
+|Item|Value|
 |-|-|
 |TypeName|IdentifiersShouldNotMatchKeywords|
 |CheckId|CA1716|

@@ -1,18 +1,18 @@
 ---
-title: "Analyze memory usage without debugging | Microsoft Docs"
-ms.custom: ""
-ms.date: "04/02/2020"
-ms.topic: "conceptual"
-dev_langs:
-  - "CSharp"
-  - "VB"
-  - "FSharp"
-  - "C++"
-author: "mikejo5000"
-ms.author: "mikejo"
+title: Analyze memory usage without debugging | Microsoft Docs
+ms.custom: 
+ms.date: 04/02/2020
+ms.topic: how-to
+dev_langs: 
+  - CSharp
+  - VB
+  - FSharp
+  - C++
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
-ms.workload:
-  - "multiple"
+ms.workload: 
+  - multiple
 ---
 # Analyze memory usage without the debugger
 
@@ -70,7 +70,7 @@ The numbers are links that open detailed **Memory Usage** report views in new Vi
 
   ![Snapshot view links](../profiling/media/memuse__snapshotview_numbered.png "Snapshot view links")
 
-|||
+|Image|Description|
 |-|-|
 |![Step 1](../profiling/media/procguid_1.png "ProcGuid_1")|The total number of bytes in memory when the snapshot was taken.<br /><br /> Select this link to display a snapshot details report sorted by the total size of the type instances.|
 |![Step 2](../profiling/media/procguid_2.png "ProcGuid_2")|The total number of objects in memory when the snapshot was taken.<br /><br /> Select this link to display a snapshot details report sorted by the count of instances of the types.|
@@ -124,7 +124,7 @@ Both links open the same report. The only difference is the starting sort order 
 
 The **Managed Heap** tree in a snapshot details report has the following columns:
 
-|||
+|Name|Description|
 |-|-|
 |**Object Type**|The name of the type or object instance.|
 |**Count**|The number of object instances of the type. **Count**  is always 1 for an instance.|
@@ -146,7 +146,7 @@ The **Referenced Types** or **Referenced Objects** tree shows the objects that t
 
 A **Referenced Types** tree in a snapshot details report has the following columns. A **Referenced Objects** tree does not have the **Reference Count** column.
 
-|||
+|Name|Description|
 |-|-|
 |**Object Type** or **Instance**|The name of the type or instance.|
 |**Reference Count**|For types, the number of object instances of the type.|
@@ -170,7 +170,7 @@ Both links open the same report. The only difference is the starting sort order 
 
 The **Managed Heap** tree in a snapshot diff report has the following columns:
 
-|||
+|Name|Description|
 |-|-|
 |**Object Type**|The name of the type or object instance.|
 |**Count**|The number of instances of a type in the primary snapshot. **Count** is always 1 for an instance.|
@@ -197,7 +197,7 @@ The **Referenced Types** or **Referenced Objects** tree shows the objects that t
 
 A **Referenced Types** tree in a snapshot diff report has the following columns. A **Referenced Objects** tree has the **Instance**, **Size (Bytes)**, **Inclusive Size (Bytes)**, and **Module** columns.
 
-|||
+|Name|Description|
 |-|-|
 |**Object Type** or **Instance**|The name of the type or object instance.|
 |**Reference Count**|The number of instances of a type in the primary snapshot.|

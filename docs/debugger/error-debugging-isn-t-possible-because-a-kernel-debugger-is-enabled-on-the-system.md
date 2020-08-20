@@ -1,7 +1,7 @@
 ---
-title: "Error: Debugging Isn&#39;t Possible Because a Kernel Debugger is Enabled on the System | Microsoft Docs"
+title: "Error - Debugging Isn&#39;t Possible Because a Kernel Debugger is Enabled on the System | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "troubleshooting"
+ms.topic: "error-reference"
 f1_keywords:
   - "vs.debug.error.kernel_dbg_enabled"
 dev_langs:

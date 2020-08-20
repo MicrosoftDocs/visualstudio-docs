@@ -34,14 +34,14 @@ Here are a few requirements/steps needed to become a Visual Studio Subscriptions
 
 Once you have met the criteria above you may proceed to associate your Purchasing Account to your tenant following the steps below.
 1. Log in to [Business Center](https://businessaccount.microsoft.com/Customer).
-2. Click on the **Account** tab and choose **Associate Domains**.
+2. Select the **Account** tab and choose **Associate Domains**.
 3. Select your **Purchasing Account** (if you have more than one).
 4. Select your **tenant** (i.e. contoso.onmicrosoft.com).
-5. Click **Associate Domain**.
+5. Select **Associate Domain**.
 
 Upon association, all users meeting the criteria will typically provision as Visual Studio subscriptions administrators within minutes. However, at times it may take up to 24 hours. Once your tenant is provisioned you will be able to access the Visual Studio Subscriptions Administration Portal. If this takes longer than 24 hours, please contact MPSA Support using these steps:
-1. Connect to https://www.microsoft.com/licensing/mpsa/default
-2. Click the **More** menu at the top of the page. 
+1. Connect to <https://www.microsoft.com/licensing/mpsa/default>
+2. Select the **More** menu at the top of the page. 
 3. Choose **Support**
 4. Choose **Licensing support**
 5. Select the support option that best fits your needs. 

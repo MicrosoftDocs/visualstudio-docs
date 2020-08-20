@@ -19,7 +19,7 @@ manager: "wpickett"
 # CA1014: Mark assemblies with CLSCompliantAttribute
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-|||
+|Item|Value|
 |-|-|
 |TypeName|MarkAssembliesWithClsCompliant|
 |CheckId|CA1014|
