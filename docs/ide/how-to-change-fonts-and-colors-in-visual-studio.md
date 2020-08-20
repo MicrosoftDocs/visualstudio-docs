@@ -1,7 +1,9 @@
 ---
-title: Change fonts and colors
-ms.date: 06/01/2020
+title: How to change font colors, text size, and high-contrast options
+description: Learn how to change the font color and the text size in Visual Studio, and how to select contrast options for accessibility concerns.
+ms.date: 08/20/2020
 ms.topic: how-to
+ms.custom: contperfq1
 helpviewer_keywords:
 - Visual Studio, color themes
 - color themes, Visual Studio
@@ -12,9 +14,9 @@ manager: jillfra
 ms.workload:
 - multiple
 ---
-# How to: Change fonts and colors in Visual Studio
+# How to: Change fonts, colors, and high-contrast options in Visual Studio
 
-You can change the fonts and the colors in Visual Studio in many ways. For example, you can change the default blue color theme to the dark theme (also referred to as "dark mode.") And, you can change the default font and text size to a different font and size.
+You can change the fonts and the colors in Visual Studio in many ways. For example, you can change the default blue color theme to the dark theme (also referred to as "dark mode"). And, you can change the default font and text size to a different font and size. You can also select a high-contrast theme if that best suits your needs.
 
 ## Change the color theme
 
