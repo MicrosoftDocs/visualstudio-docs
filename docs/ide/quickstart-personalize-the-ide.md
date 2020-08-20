@@ -1,16 +1,17 @@
 ---
-title: Set color theme and fonts
-ms.date: 03/23/2020
-ms.topic: quickstart
+title: How to customize the color theme and fonts in Visual Studio
+description: Learn how to change the default Visual Studio color theme to dark mode and set font colors in the text editor.
+ms.date: 08/20/2020
+ms.topic: how-to
 author: TerryGLee
 ms.author: tglee
 manager: jillfra
 ms.workload:
 - multiple
 ---
-# Personalize the Visual Studio IDE and Editor
+# How to personalize the Visual Studio IDE and text editor
 
-In this 5-10 minute tutorial, we'll customize the Visual Studio color theme by selecting the dark theme. We'll also customize the colors for two different types of text in the text editor.
+In this how-to article, we'll customize the Visual Studio color theme by selecting the dark theme. We'll also customize the colors for two different types of text in the text editor.
 
 ::: moniker range="vs-2017"
 
@@ -24,7 +25,7 @@ If you haven't already installed Visual Studio, go to the [Visual Studio downloa
 
 ::: moniker-end
 
-## Set the color theme
+## Set the color theme for the IDE
 
 The default color theme for Visual Studio's user interface is called **Blue**. Let's change it to **Dark**.
 
@@ -119,6 +120,8 @@ Now we'll customize some text colors for the editor. First, let's create a new X
    ![XML file with new font colors](media/quickstart-personalize-xml-file-new-colors.png)
 
 We explored just a couple ways of customizing the colors in Visual Studio. We hope that you'll explore the other customization options in the **Options** dialog box, to truly make Visual Studio your own.
+
+
 
 ## See also
 
