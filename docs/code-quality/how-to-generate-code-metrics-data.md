@@ -24,7 +24,7 @@ You can generate code metrics data in three ways:
 
 ## .NET code-quality analyzers code metrics rules
 
-The .NET code-quality analyzers includes several code metrics [analyzer](roslyn-analyzers-overview.md) rules:
+The .NET code-quality analyzers include several code metrics [analyzer](roslyn-analyzers-overview.md) rules:
 
 - [CA1501](ca1501-avoid-excessive-inheritance.md)
 - [CA1502](ca1502.md)
