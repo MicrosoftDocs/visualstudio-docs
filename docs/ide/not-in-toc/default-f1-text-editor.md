@@ -1,5 +1,5 @@
 ---
-title: Default page for F1 help for the text editor
+title: Default F1 help page for the text editor
 ms.date: 08/20/2020
 ms.topic: troubleshooting
 ms.custom: contperfq1
@@ -16,7 +16,7 @@ It looks like we couldn't find what you were looking for, and we apologize. You 
 
 ## Cursor position
 
-If you're looking for F1 help on a keyword or API name, be sure you position the cursor inside or just to the right of the word before you press **F1**. Otherwise, try one of the following suggestions.
+If you're looking for F1 help on a keyword or API name, be sure you position the cursor inside or just to the right of the word before you press **F1**. If that doesn't fix the issue, try one of the following suggestions.
 
 ## Find help on a keyword or API for your programming language
 
@@ -30,7 +30,7 @@ If you're looking for F1 help on a keyword or API name, be sure you position the
 ## Search for help on a keyword or API name
 
 If you're looking for F1 help on a keyword or API name:
-- Try searching on https://docs.microsoft.com
+- Try searching on [docs.microsoft.com](https://docs.microsoft.com)
 - Try searching using a search engine.
 - Search for reference documentation on [.NET API browser](/dotnet/api/).
 
