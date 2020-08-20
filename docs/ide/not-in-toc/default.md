@@ -8,8 +8,8 @@ robots: noindex,nofollow
 f1_keywords:
 - vs.ambient
 manager: jillfra
-author: TerryGLee
-ms.author: tglee
+author: mikejo5000
+ms.author: mikejo
 ---
 # F1 help
 
