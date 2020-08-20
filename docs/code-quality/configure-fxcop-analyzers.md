@@ -3,7 +3,9 @@ title: Configure .NET code-quality analyzers using editorconfig
 ms.date: 09/23/2019
 ms.topic: conceptual
 helpviewer_keywords:
-- .NET analyzers, FxCop analyzers, configuring, code quality
+- .NET analyzers
+- FxCop analyzers, configuring
+- code quality
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
