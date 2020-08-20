@@ -52,7 +52,7 @@ You can use string methods in conditions, as shown in the following example, in 
 </Project>
 ```
 
-In MSBuild project files, there's no true Boolean type. Boolean data is represented as a string that might be empty. Therefore, `'$(Prop)' == 'true'` means "if Prop is `true`," but `'$(Prop)' != 'false'` means "if Prop is `true` or unset."
+In MSBuild project files, there's no true Boolean type. Boolean data is represented in properties that might be empty or set to any value. Therefore, `'$(Prop)' == 'true'` means "if Prop is `true`," but `'$(Prop)' != 'false'` means "if Prop is `true` or unset or set to something else."
 
 Because properties are not true Boolean data types, property settings such as `<Prop2>'$(Prop1)' == 'true'</Prop>` are represented as a string, not evaluated as Boolean values.
 
