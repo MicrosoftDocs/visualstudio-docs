@@ -33,16 +33,16 @@ Described below are problems that are hard to diagnose without good
 diagnostic files. After identifying the case that best describes your issue,
 follow the feedback steps specific to that case.
 
--   [Crashes:](#crashes)
+- [Crashes:](#crashes)
     A crash occurs when the process (Visual Studio) terminates unexpectedly.
 
--   [Unresponsiveness:](#unresponsiveness) VS becomes unresponsive for an extended period of time.
+- [Unresponsiveness:](#unresponsiveness) VS becomes unresponsive for an extended period of time.
 
--   [Slowness issues:](#slowness-and-high-cpu-issues) Any specific action in VS is slower than desired
+- [Slowness issues:](#slowness-and-high-cpu-issues) Any specific action in VS is slower than desired
 
--   [High CPU:](#slowness-and-high-cpu-issues) Extended periods of unexpectedly high CPU usage
+- [High CPU:](#slowness-and-high-cpu-issues) Extended periods of unexpectedly high CPU usage
 
--   [Out-Of-Process Issues:](#out-of-process-issues) An issue caused by a Visual Studio satellite process
+- [Out-Of-Process Issues:](#out-of-process-issues) An issue caused by a Visual Studio satellite process
 
 ## Crashes
 A crash occurs when the process (Visual Studio) terminates unexpectedly.
@@ -62,14 +62,13 @@ For these issues, follow the steps in "[How to Report a
 Problem](/visualstudio/ide/how-to-report-a-problem-with-visual-studio-2017)"
 and be sure to include:
 
--   The steps to reproduce the problem
+- The steps to reproduce the problem
 
--   A standalone repro project as described above. If standalone repro is not possible, then please include:
+- A standalone repro project as described above. If standalone repro is not possible, then please include:
 
-    -   The language of the open projects (C\#, C++, etc.)
+  - The language of the open projects (C\#, C++, etc.)
 
-    -   The kind of project (Console Application, ASP.NET, etc.)
-
+  - The kind of project (Console Application, ASP.NET, etc.)
 
 > [!NOTE]
 > **Most valuable feedback:** For this case, the most valuable feedback is the set of steps to reproduce the issue along with sample source code.
@@ -113,13 +112,13 @@ Each time Visual Studio crashes, it will create a dump file
 Then, use Visual Studio's "Report a Problem..." feature. It will allow you to
 attach the appropriate dump.
 
-1.  Locate the dump file for the crash you are reporting (look for a file with
+1. Locate the dump file for the crash you are reporting (look for a file with
     the correct Creation time)
 
-2.  If possible, zip the file (\*.zip) to reduce its size before submitting
+2. If possible, zip the file (\*.zip) to reduce its size before submitting
     feedback
 
-3.  Follow the steps in "[How to Report a
+3. Follow the steps in "[How to Report a
     Problem](/visualstudio/ide/how-to-report-a-problem-with-visual-studio-2017)",
     and attach the heap dump to a new feedback item.
 
@@ -161,52 +160,52 @@ per issue. This helps the product team isolate the cause of specific issues.
 
 For best results in capturing the performance, follow these steps:
 
-1.  If not already running, have a copy of Visual Studio open where you will
+1. If not already running, have a copy of Visual Studio open where you will
     reproduce the problem
 
-    -   Have everything set up to reproduce the problem. For example, if you
+    - Have everything set up to reproduce the problem. For example, if you
         need a particular project to be loaded with a specific file opened, then
         be sure both of those steps are complete before proceeding.
 
-    -   If you are *not* reporting a problem specific to loading a solution, try
+    - If you are *not* reporting a problem specific to loading a solution, try
         to wait 5-10 minutes (or more, depending on solution size) after opening
         the solution before recording the performance trace. The solution load
         process produces a large amount of data, so waiting for a few minutes
         helps us focus on the specific problem you are reporting.
 
-2.  Start a second copy of Visual Studio *with no solution open*
+2. Start a second copy of Visual Studio *with no solution open*
 
-3.  In the new copy of Visual Studio, open the **Report a Problem** tool
+3. In the new copy of Visual Studio, open the **Report a Problem** tool
 
-4.  Follow the steps in [How to Report a
+4. Follow the steps in [How to Report a
     Problem](/visualstudio/ide/how-to-report-a-problem-with-visual-studio-2017)
     until you reach the "Provide a trace and heap dump (optional)" step.
 
-5.  Choose to record the first copy of Visual Studio (the one encountering performance problem) and start recording.
+5. Choose to record the first copy of Visual Studio (the one encountering performance problem) and start recording.
 
-    -   The Steps Recorder application will appear and begin recording.
+    - The Steps Recorder application will appear and begin recording.
 
-    -   **During the recording,** perform the problematic action in the first
+    - **During the recording,** perform the problematic action in the first
         copy of Visual Studio. It is difficult for us to correct specific
         performance problems if they do not appear within the recorded time.
 
-    -   If the action is shorter than 30 seconds and can be easily repeated,
+    - If the action is shorter than 30 seconds and can be easily repeated,
         repeat the action to further demonstrate the problem.
 
-    -   For most cases, a trace of 60 seconds is sufficient to demonstrate the
+    - For most cases, a trace of 60 seconds is sufficient to demonstrate the
         problems, especially if the problematic action lasted (or was repeated)
         for more than 30 seconds. The duration can be adjusted as necessary to
         capture the behavior you would like fixed.
 
-6.  Click "Stop Record" in Steps Recorder as soon as the slow operation or high
+6. Click "Stop Record" in Steps Recorder as soon as the slow operation or high
     CPU event you want to report is finished. It may take a few minutes to
     process the performance trace.
 
-7.  Once complete, there will be several attachments to your feedback. Attach
+7. Once complete, there will be several attachments to your feedback. Attach
     any additional files that may help reproduce the problem (a sample project,
     screenshots, videos, etc.).
 
-8.  Submit the feedback.
+8. Submit the feedback.
 
 While recording a performance trace, if the slow operation or high CPU you are
 reporting comes to an end, then immediately stop the recording. If too much
@@ -250,13 +249,13 @@ There are a number of satellite processes that run parallel to Visual Studio and
 
 What makes these types of issues most actionable is to provide additional logs that can be collected by following these steps:
 
-1.  If this is a directly reproducible issue, start by deleting the **%temp%/servicehub/logs** folder. If you cannot reproduce this issue please keep this folder intact and ignore the following bullets:
+1. If this is a directly reproducible issue, start by deleting the **%temp%/servicehub/logs** folder. If you cannot reproduce this issue please keep this folder intact and ignore the following bullets:
 
-    -   Set the global environment variable **ServiceHubTraceLevel** to **All**
-    -   Reproduce the issue.
+    - Set the global environment variable **ServiceHubTraceLevel** to **All**
+    - Reproduce the issue.
 
-2.  Download the Microsoft Visual Studio and .NET Framework Log Collection Tool [here](https://www.microsoft.com/download/details.aspx?id=12493).
-3.  Run the tool. This outputs a zip file to **%temp%/vslogs.zip**. Please attach that file to your feedback.
+2. Download the Microsoft Visual Studio and .NET Framework Log Collection Tool [here](https://www.microsoft.com/download/details.aspx?id=12493).
+3. Run the tool. This outputs a zip file to **%temp%/vslogs.zip**. Please attach that file to your feedback.
 
 ## See also
 

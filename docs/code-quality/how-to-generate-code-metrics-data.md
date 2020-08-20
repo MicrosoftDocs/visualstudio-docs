@@ -157,6 +157,7 @@ Build succeeded.
 The generated XML output takes the following format:
 
 ::: moniker range=">=vs-2019"
+
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <CodeMetricsReport Version="1.0">
@@ -211,8 +212,10 @@ The generated XML output takes the following format:
   </Targets>
 </CodeMetricsReport>
 ```
+
 ::: moniker-end
 ::: moniker range="vs-2017"
+
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <CodeMetricsReport Version="1.0">
@@ -263,6 +266,7 @@ The generated XML output takes the following format:
   </Targets>
 </CodeMetricsReport>
 ```
+
 ::: moniker-end
 
 ### Metrics.exe
