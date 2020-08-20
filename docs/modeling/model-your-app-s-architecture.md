@@ -1,5 +1,5 @@
 ---
-title: Model your app&#39;s architecture
+title: Model your app&apos;s architecture
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
