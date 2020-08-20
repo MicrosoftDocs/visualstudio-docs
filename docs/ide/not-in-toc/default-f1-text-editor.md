@@ -1,5 +1,6 @@
 ---
 title: Default F1 help page for the text editor
+description: "Default page for F1 help requests for the Visual Studio text editor"
 ms.date: 08/20/2020
 ms.topic: troubleshooting
 ms.custom: contperfq1
@@ -36,7 +37,7 @@ If you're looking for F1 help on a keyword or API name:
 
 ## Find the source code for an API
 
-If the source code is available from your project, place your cursor inside the API in the code editor, open the right-click context menu and select **Go to Definition**. For more information, see [View type and member definitions](../../ide/go-to-and-peek-definition).
+If the source code is available from your project, place your cursor inside the API in the code editor, open the right-click context menu and select **Go to Definition**. For more information, see [View type and member definitions](../../ide/go-to-and-peek-definition.md).
 
 ## Re-map or disable the F1 help key
 

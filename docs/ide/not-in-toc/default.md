@@ -1,5 +1,6 @@
 ---
 title: Default page for F1 help
+description: "Default page for F1 help requests for Visual Studio"
 ms.date: 08/20/2020
 ms.topic: troubleshooting
 ms.custom: contperfq1
@@ -14,7 +15,7 @@ ms.author: tglee
 
 It looks like we couldn't find what you were looking for, and we apologize. You can help us improve by leaving feedback through the buttons at the bottom of this page, or try one of the following suggestions.
 
-## Search for help on a window or option in the IDE, a language keyword, or API name
+## Search for help on a window or UI option in the IDE, a language keyword, or API name
 
 If you're looking for F1 help on a window, a keyword, or an API name:
 
