@@ -2,6 +2,7 @@
 title: Default page for F1 help
 ms.date: 08/20/2020
 ms.topic: troubleshooting
+ms.custom: contperfq1
 robots: noindex,nofollow
 f1_keywords:
 - vs.ambient
@@ -28,3 +29,7 @@ If you're looking for F1 help on a keyword or API name, be sure you position the
 - For C++ help, see [C++ in Visual Studio](/cpp/visual-cpp-in-visual-studio).
 - For information about Visual Studio, see [Visual Studio overview](../../get-started/visual-studio-ide.md).
 - For help on the Visual Studio text editor, see [Use the code editor](../../ide/writing-code-in-the-code-and-text-editor.md).
+
+## Modify or disable the F1 help key
+
+If you want to change the key mapping for F1, see [Change the F1 help key](../not-in-toc/change-f1-help-key.md).

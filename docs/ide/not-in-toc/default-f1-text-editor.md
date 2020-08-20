@@ -2,6 +2,7 @@
 title: Default page for F1 help for the text editor
 ms.date: 08/20/2020
 ms.topic: troubleshooting
+ms.custom: contperfq1
 robots: noindex,nofollow
 f1_keywords:
 - vs.texteditor
@@ -36,6 +37,10 @@ If you're looking for F1 help on a keyword or API name:
 ## Find the source code for an API name
 
 If the source code is available from your project, place your cursor inside the API in the code editor, open the right-click context menu and select **Go to Definition**. For more information, see [View type and member definitions](../../ide/go-to-and-peek-definition).
+
+## Modify or disable the F1 help key
+
+If you want to change the key mapping for F1, see [Change the F1 help key](../not-in-toc/change-f1-help-key.md).
 
 ## Useful links
 
