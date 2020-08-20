@@ -4,6 +4,8 @@ ms.date: 11/30/2017
 ms.technology: vs-ide-general
 ms.custom: get-started
 ms.topic: tutorial
+f1_keywords:
+- vs.texteditor
 author: TerryGLee
 ms.author: tglee
 manager: jillfra
