@@ -10,7 +10,7 @@ manager: jillfra
 ms.workload:
 - multiple
 ---
-# How to personalize the Visual Studio IDE and text editor
+# How to: Personalize the Visual Studio IDE and text editor
 
 In this how-to article, we'll customize the Visual Studio color theme by selecting the dark theme. We'll also customize the colors for two different types of text in the text editor.
 
@@ -121,8 +121,6 @@ Now we'll customize some text colors for the editor. First, let's create a new X
    ![XML file with new font colors](media/quickstart-personalize-xml-file-new-colors.png)
 
 We explored just a couple ways of customizing the colors in Visual Studio. We hope that you'll explore the other customization options in the **Options** dialog box, to truly make Visual Studio your own.
-
-
 
 ## See also
 

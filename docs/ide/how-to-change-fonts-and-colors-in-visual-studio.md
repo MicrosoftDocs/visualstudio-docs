@@ -1,7 +1,7 @@
 ---
 title: How to change fonts and colors and personalize for accessibility
-description: Learn about how to change the font color, text size, and which contrast options to select for accessibility concerns.
-ms.date: 06/01/2020
+description: Learn how to change the font color and the text size in Visual Studio, and how to select contrast options for accessibility concerns.
+ms.date: 08/20/2020
 ms.topic: how-to
 ms.custom: contperfq1
 helpviewer_keywords:
