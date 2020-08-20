@@ -15,14 +15,14 @@ ms.author: mikejo
 
 It looks like we couldn't find what you were looking for, and we apologize. You can help us improve by leaving feedback through the buttons at the bottom of this page, or try one of the following suggestions.
 
-## Search for help on a window or UI option in the IDE, a language keyword, or API name
+## Search for help
 
 If you're looking for F1 help on a window, a keyword, or an API name:
 
 - Try searching on [docs.microsoft.com](https://docs.microsoft.com)
 - Try searching using a search engine.
 
-## Find help on a keyword or API for your programming language
+## Find help on a keyword or API
 
 - For C# help, see the [C# programming guide](/dotnet/csharp/programming-guide/) or [language reference](/dotnet/csharp/language-reference/).
 - For Visual Basic help, see the [Visual Basic language features](/dotnet/visual-basic/programming-guide/language-features/) or [language reference](/dotnet/visual-basic/language-reference/).
