@@ -1,10 +1,9 @@
 ---
 title: Default page for F1 help
-ms.date: 07/20/2020
+ms.date: 08/20/2020
 ms.topic: troubleshooting
 robots: noindex,nofollow
 f1_keywords:
-- vs.texteditor
 - vs.ambient
 manager: jillfra
 author: TerryGLee
