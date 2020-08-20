@@ -30,13 +30,13 @@ If you're looking for F1 help on a window, a keyword, or an API name:
 - For F# help, see the [F# guide](/dotnet/fsharp/).
 - For TypeScript help, see the [TypeScript documentation](https://www.typescriptlang.org/docs).
 
+## Re-map or disable the F1 help key
+
+If you want to change the key mapping for F1, see [Change the F1 help key](../not-in-toc/change-f1-help-key.md).
+
 ## Useful links
 
 - Search for reference documentation on [.NET API browser](/dotnet/api/).
 - For help on the Visual Studio text editor, see [Use the code editor](../../ide/writing-code-in-the-code-and-text-editor.md).
 - Browse a list of Knowledge Base articles on the [Visual Studio troubleshooting](/troubleshoot/visualstudio/welcome-visual-studio/) page.
 - For information about Visual Studio, see [Visual Studio overview](../../get-started/visual-studio-ide.md).
-
-## Modify or disable the F1 help key
-
-If you want to change the key mapping for F1, see [Change the F1 help key](../not-in-toc/change-f1-help-key.md).

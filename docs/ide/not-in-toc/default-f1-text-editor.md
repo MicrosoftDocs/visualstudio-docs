@@ -34,11 +34,11 @@ If you're looking for F1 help on a keyword or API name:
 - Try searching using a search engine.
 - Search for reference documentation on [.NET API browser](/dotnet/api/).
 
-## Find the source code for an API name
+## Find the source code for an API
 
 If the source code is available from your project, place your cursor inside the API in the code editor, open the right-click context menu and select **Go to Definition**. For more information, see [View type and member definitions](../../ide/go-to-and-peek-definition).
 
-## Modify or disable the F1 help key
+## Re-map or disable the F1 help key
 
 If you want to change the key mapping for F1, see [Change the F1 help key](../not-in-toc/change-f1-help-key.md).
 
