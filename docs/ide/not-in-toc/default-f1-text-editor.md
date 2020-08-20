@@ -15,7 +15,7 @@ It looks like we couldn't find what you were looking for, and we apologize. You 
 
 ## Cursor position
 
-If you're looking for F1 help on a keyword or API name, be sure you position the cursor inside or just to the right of the word before you press **F1**. If that still doesn't work, try one of the following suggestions.
+If you're looking for F1 help on a keyword or API name, be sure you position the cursor inside or just to the right of the word before you press **F1**. Otherwise, try one of the following suggestions.
 
 ## Find help on a keyword or API for your programming language
 
