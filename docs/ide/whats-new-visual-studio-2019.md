@@ -146,7 +146,7 @@ For more information, see the [Visual Studio Live Share for real-time code revie
 
 We're introducing a new extension that you can download to use with Visual Studio 2019. With this new extension, you can review, run, and even debug pull requests from your team without leaving Visual Studio. We support code in both GitHub and Azure DevOps repositories.
 
-   ![A screenshot of the new start window in Visual Studio 2019](media/vs-2019/pr-experience.png)
+   ![A screenshot of the new Pull Requests extension in Visual Studio 2019](media/vs-2019/pr-experience.png)
 
 For more information, see the [Code reviews using the Visual Studio Pull Requests extension](https://devblogs.microsoft.com/visualstudio/code-reviews-using-the-visual-studio-pull-requests-extension/) blog post.
 
