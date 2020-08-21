@@ -1,6 +1,6 @@
 ---
-title: How to change font colors, text size, and high-contrast options
-description: Learn how to change the font color and the text size in Visual Studio, and how to select contrast options for accessibility concerns.
+title: Change themes, fonts, text, and contrast for accessibility
+description: Learn how to change Visual Studio color themes, font colors, text sizes and contrast options for accessibility concerns.
 ms.date: 08/20/2020
 ms.topic: how-to
 ms.custom: contperfq1
