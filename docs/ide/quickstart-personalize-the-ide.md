@@ -1,6 +1,6 @@
 ---
-title: How to use the dark theme and change the text color in the editor
-description: Learn how to set the default Visual Studio color theme to dark mode and change font colors in the text editor.
+title: Set the Visual Studio dark theme and change text colors
+description: Learn how to change the default Visual Studio color theme to dark mode and change font colors in the code editor.
 ms.date: 08/20/2020
 ms.topic: how-to
 ms.custom: contperfq1
@@ -10,9 +10,9 @@ manager: jillfra
 ms.workload:
 - multiple
 ---
-# How to: Personalize the Visual Studio IDE and text editor
+# How to: Personalize the Visual Studio IDE and the editor
 
-In this how-to article, we'll customize the Visual Studio color theme by selecting the dark theme. We'll also customize the colors for two different types of text in the text editor.
+In this how-to article, we'll customize the Visual Studio color theme from the default blue theme to the dark theme. Then, we'll customize the colors for two different types of text in the code editor.
 
 ::: moniker range="vs-2017"
 
@@ -120,10 +120,10 @@ Now we'll customize some text colors for the editor. First, let's create a new X
 
    ![XML file with new font colors](media/quickstart-personalize-xml-file-new-colors.png)
 
-We explored just a couple ways of customizing the colors in Visual Studio. We hope that you'll explore the other customization options in the **Options** dialog box, to truly make Visual Studio your own.
+We explored just a couple ways of customizing the colors in Visual Studio. We hope that you'll explore the other customization options in the [**Options**](../ide/reference/fonts-and-colors-environment-options-dialog-box.md) dialog box, to truly make Visual Studio your own.
 
 ## See also
 
-- [Change fonts, colors, and high-contrast options in Visual Studio](../ide/how-to-change-fonts-and-colors-in-visual-studio.md)
-- [Customize the editor](../ide/how-to-change-text-case-in-the-editor.md)
-- [Visual Studio IDE Overview](../get-started/visual-studio-ide.md)
+- [How to: Change fonts, colors, and themes in Visual Studio](../ide/how-to-change-fonts-and-colors-in-visual-studio.md)
+- [How to: Change text case in the editor](../ide/how-to-change-text-case-in-the-editor.md)
+- [Visual Studio IDE overview](../get-started/visual-studio-ide.md)
