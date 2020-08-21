@@ -23,10 +23,10 @@ landingContent:
     linkLists:
       - linkListType: overview
         links:
-          - text: Overview of deployment
-            url: deploying-applications-services-and-components-resources.md
           - text: First look at deployment
             url: deploying-applications-services-and-components.md
+          - text: Deploy to a folder, IIS, or Azure
+            url: deploying-applications-services-and-components-resources.md
 
   # Card (optional)
   - title: Get started
