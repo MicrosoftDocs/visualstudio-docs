@@ -62,7 +62,7 @@ The default color theme for Visual Studio's user interface is called **Blue**. L
 
 ::: moniker-end
 
-## Change text color in the editor
+## Change text colors in the editor
 
 Now we'll customize some text colors for the editor. First, let's create a new XML file to see the default colors.
 
