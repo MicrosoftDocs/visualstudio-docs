@@ -118,6 +118,6 @@ To learn more details about all the user interface (UI) elements for which you c
 
 ## See also
 
-- [Change fonts and colors for the code editor](../ide/reference/how-to-change-fonts-and-colors-in-the-editor.md)
+- [How to: Change fonts and colors for the editor in Visual Studio](../ide/reference/how-to-change-fonts-and-colors-in-the-editor.md)
 - [Features of the Visual Studio code editor](../ide/writing-code-in-the-code-and-text-editor.md)
-- [Personalize the Visual Studio IDE and code editor](../ide/quickstart-personalize-the-ide.md)
+- [Personalize the Visual Studio IDE and the editor](../ide/quickstart-personalize-the-ide.md)

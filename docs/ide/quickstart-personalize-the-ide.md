@@ -12,7 +12,7 @@ ms.workload:
 ---
 # How to: Personalize the Visual Studio IDE and the editor
 
-In this how-to article, we'll customize the Visual Studio color theme by selecting the dark theme. We'll also customize the colors for two different types of text in the code editor.
+In this how-to article, we'll customize the Visual Studio color theme from the default blue theme to the dark theme. Then, we'll customize the colors for two different types of text in the code editor.
 
 ::: moniker range="vs-2017"
 
@@ -124,6 +124,6 @@ We explored just a couple ways of customizing the colors in Visual Studio. We ho
 
 ## See also
 
-- [Change fonts, colors, and high-contrast options in Visual Studio](../ide/how-to-change-fonts-and-colors-in-visual-studio.md)
-- [Customize the editor](../ide/how-to-change-text-case-in-the-editor.md)
+- [How to: Change fonts, colors, and themes in Visual Studio](../ide/how-to-change-fonts-and-colors-in-visual-studio.md)
+- [How to: Change text case in the editor](../ide/how-to-change-text-case-in-the-editor.md)
 - [Visual Studio IDE overview](../get-started/visual-studio-ide.md)
