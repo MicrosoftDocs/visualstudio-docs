@@ -34,8 +34,6 @@ From within Visual Studio, applications can be published directly to the followi
 - [Web server(IIS)](#web-server-iis)
 - [Import profile](#import-profile)
 
-On the **Publish** tab, you can select an existing publish profile, import an existing one, or create a new one using the options described here. For a tour of the publishing options in the IDE for different app types, see [First look at deployment](../deployment/deploying-applications-services-and-components.md).
-
 ## Azure 
 
 When you choose Azure, you can choose between:
@@ -48,7 +46,7 @@ When you choose Azure, you can choose between:
 
 ### Azure App Service
 
-[Azure App Service](/azure/app-service/app-service-web-overview) which help developers quickly create scalable web applications and services without maintaining infrastructure. An App Service runs on cloud-hosted virtual machines in Azure, but those virtual machines are managed for you. Each app in an App Service will be assigned a unique \*.azurewebsites.net URL; all pricing tiers other than Free allow assigning custom domain names to the site.
+[Azure App Service](/azure/app-service/app-service-web-overview) helps developers quickly create scalable web applications and services without maintaining infrastructure. An App Service runs on cloud-hosted virtual machines in Azure, but those virtual machines are managed for you. Each app in an App Service will be assigned a unique \*.azurewebsites.net URL; all pricing tiers other than Free allow assigning custom domain names to the site.
 
 You determine how much computing power an App Service has by choosing a [pricing tier or plan](/azure/app-service/azure-web-sites-web-hosting-plans-in-depth-overview) for the containing App Service. You can have multiple Web apps (and other app types) share the same App Service without changing the pricing tier. For example, you can host development, staging, and production Web apps together on the same App Service.
 
@@ -164,7 +162,9 @@ Use of a publish settings file can simplify deployment configuration and works b
 ### When to choose import profile
 
 - You're publishing to IIS and want to simplify deployment configuration.
-- Your're publishing to IIS or Azure App Service and want to simplify deployment configuration for team members publishing to the same service.
+- You're publishing to IIS or Azure App Service and want to speed up deployment configuration for re-use or for team members publishing to the same service.
+
+For more information, see the following:
 
 - [Import publish settings and deploy to IIS](tutorial-import-publish-settings-iis.md)
 - [Import publish settings and deploy to Azure](tutorial-import-publish-settings-azure.md)
