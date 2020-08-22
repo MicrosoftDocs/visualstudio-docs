@@ -40,7 +40,7 @@ From within Visual Studio, applications can be published directly to the followi
 When you choose Azure, you can choose between:
 
 - Azure App Service running on Windows, Linux, or as a Docker image
-- A Docker image to Azure Container Registry
+- A Docker image deployed to Azure Container Registry
 - An Azure Virtual Machine
 
 ![Choose an Azure service](../deployment/media/quickstart-choose-azure-service.png)
@@ -51,7 +51,7 @@ When you choose Azure, you can choose between:
 
 You determine how much computing power an App Service has by choosing a [pricing tier or plan](/azure/app-service/azure-web-sites-web-hosting-plans-in-depth-overview) for the containing App Service. You can have multiple Web apps (and other app types) share the same App Service without changing the pricing tier. For example, you can host development, staging, and production Web apps together on the same App Service.
 
-### When to choose Azure App Service
+#### When to choose Azure App Service
 
 - You want to deploy a web application that's accessible through the Internet.
 - You want to automatically scale your web application according to demand without needing to redeploy.
@@ -68,7 +68,7 @@ For more information on publishing to App Service, see:
 
 [Azure Container Registry](/azure/container-registry/) allows you to build, store, and manage Docker container images and artifacts in a private registry for all types of container deployments.
 
-### When to choose Azure Container Registry
+#### When to choose Azure Container Registry
 
 - When you have an existing Docker container development and deployment pipeline.
 - When you want to build Docker container images in Azure.
@@ -81,7 +81,7 @@ Scaling an application that's hosted on virtual machines involves spinning up ad
 
 For additional information, refer to the [detailed comparison](https://azure.microsoft.com/documentation/articles/choose-web-site-cloud-service-vm/) between Azure App Service, Azure Virtual Machines, and other Azure services that you can use as a deployment target using the Custom option in Visual Studio.
 
-### When to choose Azure App Virtual Machines
+#### When to choose Azure Virtual Machines
 
 - You want to deploy a web application that's accessible through the Internet, with full control over the lifetime of assigned IP addresses.
 - You need machine-level customizations on your servers, which includes additional software such as a specialized database system, specific networking configurations, disk partitions, and so forth.
@@ -127,7 +127,7 @@ When choosing a FTP/FTPS server, Visual Studio prompts you for a profile name, a
 
 You can create any number of FTP/FTPS deployment profiles in Visual Studio, making it possible to manage profiles with different settings.
 
-### When to choose custom deployment
+### When to choose FTP/FTPS server deployment
 
 - You're using cloud services on a provider other than Azure that can be accessed through URLs.
 - You want to deploy using credentials other than the ones that you use within Visual Studio, or those tied directly to your Azure accounts.
