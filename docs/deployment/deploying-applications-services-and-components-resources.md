@@ -31,7 +31,7 @@ From within Visual Studio, applications can be published directly to the followi
 - [Azure](#azure)
 - [Docker Container Registry](#docker-container-registry)
 - [Folder](#folder)
-- [FTP/FTPS server](#ftp/ftps-server)
+- [FTP/FTPS server](#ftpftps-server)
 - [Web server(IIS)](#web-server-iis)
 - [Import profile](#import-profile)
 
