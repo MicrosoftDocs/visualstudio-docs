@@ -58,18 +58,8 @@ landingContent:
           - text: Package a desktop app for Windows Store
             url: /windows/msix/desktop/desktop-to-uwp-packaging-dot-net
 
-    # Card
-  - title: Deploy .NET packages to NuGet.org
-    linkLists:
-      - linkListType: tutorial
-        links:
-          - text: Publish to NuGet.org (.NET Standard)
-            url: /nuget/quickstart/create-and-publish-a-package-using-visual-studio
-          - text: Publish to NuGet.org (.NET Framework)
-            url: /nuget/quickstart/create-and-publish-a-package-using-visual-studio-net-framework
-
   # Card
-  - title: Deploy ASP.NET apps
+  - title: Deploy ASP.NET Core apps
     linkLists:
       - linkListType: tutorial
         links:
@@ -105,3 +95,13 @@ landingContent:
         links:
           - text: Publish to Linux App Service
             url: ../javascript/publish-nodejs-app-azure.md
+
+  # Card
+  - title: Deploy .NET packages to NuGet.org
+    linkLists:
+      - linkListType: tutorial
+        links:
+          - text: Publish to NuGet.org (.NET Standard)
+            url: /nuget/quickstart/create-and-publish-a-package-using-visual-studio
+          - text: Publish to NuGet.org (.NET Framework)
+            url: /nuget/quickstart/create-and-publish-a-package-using-visual-studio-net-framework
