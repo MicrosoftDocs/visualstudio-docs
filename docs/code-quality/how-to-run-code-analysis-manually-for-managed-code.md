@@ -20,8 +20,8 @@ By default, .NET Compiler Platform ("Roslyn") code analyzers analyze your C# or 
 
 ### Run code analysis manually
 
-1. In **Solution Explorer**, click the project.
+1. In **Solution Explorer**, choose the project.
 
-2. On the **Analyze** menu, click **Run Code Analysis on** *Project Name*.
+2. On the **Analyze** menu, select **Run Code Analysis on** *Project Name*.
 
 Code analysis will start executing in the background. You should see the message **Running code analysis for \<project>...** in the Visual Studio status bar towards the bottom-left corner. Once code analysis completes, the status message will change to **Code analysis completed for \<project>**. Error list will soon refresh with all code analysis diagnostics.

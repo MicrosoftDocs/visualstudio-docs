@@ -22,7 +22,7 @@ You can install these FxCop analyzers either as a NuGet package or as a VSIX ext
 
 In Visual Studio 2019 version 16.3 and later, you can install the [Microsoft.CodeAnalysis.FxCopAnalyzers](https://www.nuget.org/packages/Microsoft.CodeAnalysis.FxCopAnalyzers) NuGet package directly from the project's Code Analysis properties page:
 
-1. Right-click on the project node in **Solution Explorer**, select **Properties**, and then select the **Code Analysis** tab.
+1. Right-click (or select and hold) on the project node in **Solution Explorer**, select **Properties**, and then go to the **Code Analysis** tab.
 
    ![Install FxCop analyzers package from properties page in Visual Studio](media/install-fxcop-properties-page.png)
 
@@ -53,7 +53,7 @@ If you're using an older version of Visual Studio 2019, install the package usin
 
 ### Custom installation
 
-For custom installation, for example to specify a different version of the package, select the ellipsis (...) button on the project's Code Analysis properties page. This button opens the NuGet package manager with "Microsoft.CodeAnalysis.FxCopAnalyzers" as the search string.
+For custom installation, for example, to specify a different version of the package, select the ellipsis (...) button on the project's Code Analysis properties page. This button opens the NuGet package manager with "Microsoft.CodeAnalysis.FxCopAnalyzers" as the search string.
 
 ![Install custom FxCop analyzers package from properties page in Visual Studio](media/install-fxcop-properties-page-ellipsis.png)
 
