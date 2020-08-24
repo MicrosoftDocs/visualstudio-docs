@@ -52,7 +52,7 @@ Some of the popular features in Visual Studio that help you to be more productiv
 
 - [Refactoring](refactoring-python-code.md)
 
-   By selecting and holding (or right-clicking) on a piece of code and selecting **Quick actions and Refactorings**, Visual Studio provides you with operations such as intelligent renaming of variables, extracting one or more lines of code into a new method, changing the order of method parameters, and more.
+   By right-clicking on a piece of code and selecting **Quick actions and Refactorings**, Visual Studio provides you with operations such as intelligent renaming of variables, extracting one or more lines of code into a new method, changing the order of method parameters, and more.
 
    ![Refactoring in Visual Studio](media/tour-ide-refactor-extract-method.png)
 
@@ -89,8 +89,8 @@ Some of the popular features in Visual Studio that help you to be more productiv
 ::: moniker-end
 
 - [Collaborate using Visual Studio](/visualstudio/liveshare/)
-  
-    Visual Studio Live Share enables you to collaboratively edit and debug with others in real time, regardless of what programming language you're using or app types you're building. 
+
+    Visual Studio Live Share enables you to collaboratively edit and debug with others in real time, regardless of what programming language you're using or app types you're building.
 
 - [Python Interactive REPL](python-interactive-repl-in-visual-studio.md)
 

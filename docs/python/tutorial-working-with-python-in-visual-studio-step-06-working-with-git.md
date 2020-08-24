@@ -21,7 +21,7 @@ Visual Studio provides direct integration with local Git repositories and remote
 
 This article provides a basic overview of creating a local Git repository for an existing project, and familiarizing yourself with some of Visual Studio's Git-related features.
 
-1. With a project open in Visual Studio, such as the project from the [previous step](tutorial-working-with-python-in-visual-studio-step-05-installing-packages.md), select and hold (or right-click) the solution and select **Add Solution to Source Control**. Visual Studio creates a local Git repository that contains your project code.
+1. With a project open in Visual Studio, such as the project from the [previous step](tutorial-working-with-python-in-visual-studio-step-05-installing-packages.md), right-click the solution and select **Add Solution to Source Control**. Visual Studio creates a local Git repository that contains your project code.
 
 1. When Visual Studio detects that the project is managed in a Git repository Git-related controls appear along the bottom right corner of the Visual Studio window. The controls show pending commits, changes, the name of the repository, and the branch. Hover over the controls to see additional information.
 
