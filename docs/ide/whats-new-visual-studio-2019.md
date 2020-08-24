@@ -2,7 +2,7 @@
 title: "What's new in Visual Studio 2019"
 titleSuffix: ""
 description: "Learn about the new features in Visual Studio 2019."
-ms.date: 08/05/2020
+ms.date: 08/21/2020
 helpviewer_keywords:
   - "Visual Studio, what's new"
   - "what's new [Visual Studio]"
@@ -146,7 +146,7 @@ For more information, see the [Visual Studio Live Share for real-time code revie
 
 We're introducing a new extension that you can download to use with Visual Studio 2019. With this new extension, you can review, run, and even debug pull requests from your team without leaving Visual Studio. We support code in both GitHub and Azure DevOps repositories.
 
-   ![A screenshot of the new start window in Visual Studio 2019](media/vs-2019/pr-experience.png)
+   ![A screenshot of the new Pull Requests extension in Visual Studio 2019](media/vs-2019/pr-experience.png)
 
 For more information, see the [Code reviews using the Visual Studio Pull Requests extension](https://devblogs.microsoft.com/visualstudio/code-reviews-using-the-visual-studio-pull-requests-extension/) blog post.
 
@@ -235,9 +235,9 @@ Why send feedback to the Visual Studio team? Because we take customer feedback s
 * [Visual Studio 2019 release notes](/visualstudio/releases/2019/release-notes/)
 * [Visual Studio 2019 for Mac release notes](/visualstudio/releasenotes/vs2019-mac-relnotes/)
 * [What's new in the Visual Studio 2019 SDK](../extensibility/whats-new-visual-studio-2019-sdk.md)
-* [What's new for C++ in Visual Studio](/cpp/overview/what-s-new-for-visual-cpp-in-visual-studio.md)
-* [What's new for C# 8.0](/dotnet/csharp/whats-new/csharp-8.md)
-* [What's new in .NET Core 3.1](/dotnet/core/whats-new/dotnet-core-3-1.md)
-* [What's new in .NET Framework](/dotnet/framework/whats-new.md)
+* [What's new for C++ in Visual Studio](/cpp/overview/what-s-new-for-visual-cpp-in-visual-studio/)
+* [What's new for C# 8.0](/dotnet/csharp/whats-new/csharp-8/)
+* [What's new in .NET Core 3.1](/dotnet/core/whats-new/dotnet-core-3-1/)
+* [What's new in .NET Framework](/dotnet/framework/whats-new/)
 * [Microsoft Build conference](https://www.microsoft.com/build)
 * [Microsoft Ignite conference](https://www.microsoft.com/ignite)
