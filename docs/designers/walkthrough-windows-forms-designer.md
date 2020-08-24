@@ -37,7 +37,7 @@ The first step is to create the DemoCalculator control project.
 
    ::: moniker-end
 
-2. To rename the file, in **Solution Explorer**, right-select **UserControl1.vb** or **UserControl1.cs**, select **Rename**, and change the file name to DemoCalculator.vb or DemoCalculator.cs. Select **Yes** when you are asked if you want to rename all references to the code element "UserControl1".
+2. To rename the file, in **Solution Explorer**, right-click **UserControl1.vb** or **UserControl1.cs**, select **Rename**, and change the file name to DemoCalculator.vb or DemoCalculator.cs. Select **Yes** when you are asked if you want to rename all references to the code element "UserControl1".
 
 The Windows Forms Designer shows the designer surface for the DemoCalculator control. In this view, you can graphically design the appearance of the control by selecting controls and components from Toolbox and placing them on the designer surface. For more information about custom controls, see [Varieties of custom controls](/dotnet/framework/winforms/controls/varieties-of-custom-controls).
 
@@ -155,7 +155,7 @@ When your control or form is populated with several controls, you may find it ea
 
    The Document Outline window shows a tree view of the DemoCalculator control and its constituent controls. Container controls like the `SplitContainer` show their child controls as subnodes in the tree. You can also rename controls in place using the Document Outline window.
 
-2. In the **Document Outline** window, right-select **button1**, and then select **Rename**. Change its name to sevenButton.
+2. In the **Document Outline** window, right-click **button1**, and then select **Rename**. Change its name to sevenButton.
 
 3. Using the **Document Outline** window, rename the `Button` controls from the designer-generated name to the production name according to the following list:
 
@@ -291,7 +291,7 @@ To use the DemoCalculator control in an application, you need to place it on a f
 
 4. Move the `Button` control around the DemoCalculator control and observe where the snaplines appear. You can align your controls precisely and easily using this feature. Delete the `Button` control when you're finished.
 
-5. Right-select the DemoCalculator control, and then select **Properties**.
+5. Right-click the DemoCalculator control, and then select **Properties**.
 
 6. Change the value of the `Dock` property to `Fill`.
 
