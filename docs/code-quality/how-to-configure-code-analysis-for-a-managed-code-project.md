@@ -2,7 +2,7 @@
 title: Configure Code Analysis
 ms.date: 04/04/2018
 ms.topic: how-to
-f1_keywords: 
+f1_keywords:
   - vs.codeanalysis.propertypages.csvb
   - vs.codeanalysis.propertypages.solution
   - vs.codeanalysis.propertypages.asp
@@ -10,13 +10,13 @@ dev_langs:
   - "CSharp"
   - "VB"
   - "FSharp"
-helpviewer_keywords: 
+helpviewer_keywords:
   - code analysis, selecting rule sets
   - code analysis, rule sets
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.workload: 
+ms.workload:
   - dotnet
 ---
 # How to: Configure legacy analysis for managed code
@@ -28,11 +28,11 @@ In Visual Studio, you can choose from a list of code analysis [rule sets](../cod
 
 ## Configure a rule set for a .NET Framework project
 
-1. Go to the **Code Analysis** tab on the project's property pages. You can do this in either of the following ways:
+1. Open the **Code Analysis** tab on the project's property pages. You can do this in either of the following ways:
 
    - In **Solution Explorer**, choose the project. On the menu bar, select **Analyze** > **Configure Code Analysis** > **For \<projectname>**.
 
-   - Right-click (or select and hold) the project in **Solution Explorer** and select **Properties**, and then select the **Code Analysis** tab.
+   - Right-click the project in **Solution Explorer** and select **Properties**, and then select the **Code Analysis** tab.
 
 2. In the **Configuration** and **Platform** lists, choose the build configuration and target platform.
 
