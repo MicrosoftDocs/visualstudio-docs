@@ -269,11 +269,11 @@ The first step is to create the application project. You'll use this project to 
 
 1. Create a new **Windows Forms Application** project and name it **DemoCalculatorTest**.
 
-2. In **Solution Explorer**, select and hold (or right click) the **DemoCalculatorTest** project, and then select **Add Reference** to open the **Add Reference** dialog box.
+2. In **Solution Explorer**, right-click the **DemoCalculatorTest** project, and then select **Add Reference** to open the **Add Reference** dialog box.
 
 3. Go to the **Projects** tab, and then select the DemoCalculatorLib project to add the reference to the test project.
 
-4. In **Solution Explorer**, select and hold (or right click) **DemoCalculatorTest**, and then select **Set as StartUp Project**.
+4. In **Solution Explorer**, right-click **DemoCalculatorTest**, and then select **Set as StartUp Project**.
 
 5. In the Windows Forms Designer, increase the size of the form to about **700 x 500**.
 
