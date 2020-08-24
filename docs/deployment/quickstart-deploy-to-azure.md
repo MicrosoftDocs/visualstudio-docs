@@ -25,7 +25,7 @@ This article describes how to use the **Publish** tool for one-time deployment.
 
 ## Publish to Azure App Service on Windows
 
-1. In Solution Explorer, open the project and choose **Publish** (or use the **Build** > **Publish** menu item).
+1. In Solution Explorer, right-click the project node and choose **Publish** (or use the **Build** > **Publish** menu item).
 
     ![The Publish command on the project context menu in Solution Explorer](../deployment/media/quickstart-publish.png "Choose Publish")
 
