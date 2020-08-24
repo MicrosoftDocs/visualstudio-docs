@@ -79,7 +79,7 @@ Note that for most of the project templates you can also choose to enable Docker
 
 - No Authentication.
 - Individual User Accounts. These are stored in a local or Azure-based database.
-- Work or School Accounts. This option uses Active Directory, Azure AD, or Office 365 for authentication.
+- Work or School Accounts. This option uses Active Directory, Azure AD, or Microsoft 365 for authentication.
 - Windows Authentication. Suitable for intranet applications.
 
 Select the standard Web Application template with No Authentication and click **Create**.

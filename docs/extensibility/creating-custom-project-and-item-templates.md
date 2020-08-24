@@ -66,7 +66,7 @@ For basic template creation scenarios, you should use the **Export Template** wi
 
 1. Create a VSIX project. For more information, see [VSIX project template](../extensibility/vsix-project-template.md).
 
-2. Set the VSIX project as the startup project. In the **Solution Explorer**, select the VSIX project node, select and hold (or right-click), and select **Set as Startup Project**.
+2. Set the VSIX project as the startup project. In the **Solution Explorer**, select the VSIX project node, right-click, and select **Set as Startup Project**.
 
 3. Set the project template project as an asset of the VSIX project. Open the *.vsixmanifest* file. Go to the **Assets** tab and select **New**.
 

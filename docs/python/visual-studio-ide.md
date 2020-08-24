@@ -89,8 +89,8 @@ Some of the popular features in Visual Studio that help you to be more productiv
 ::: moniker-end
 
 - [Collaborate using Visual Studio](/visualstudio/liveshare/)
-  
-    Visual Studio Live Share enables you to collaboratively edit and debug with others in real time, regardless of what programming language you're using or app types you're building. 
+
+    Visual Studio Live Share enables you to collaboratively edit and debug with others in real time, regardless of what programming language you're using or app types you're building.
 
 - [Python Interactive REPL](python-interactive-repl-in-visual-studio.md)
 
