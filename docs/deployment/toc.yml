@@ -2,12 +2,12 @@
   href: index.yml
 - name: Overview
   items:
-  - name: Overview of deployment
+  - name: First look at deployment
+    href: deploying-applications-services-and-components.md
+  - name: Deploy to a folder, IIS, or Azure
     href: deploying-applications-services-and-components-resources.md
 - name: Quickstarts
   items:
-  - name: First look at deployment
-    href: deploying-applications-services-and-components.md
   - name: Deploy to Azure App Service
     href: quickstart-deploy-to-azure.md
   - name: Deploy to App Service for Linux
