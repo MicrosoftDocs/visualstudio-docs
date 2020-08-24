@@ -11,6 +11,7 @@ ms.author: "johmil"
 manager: crdun
 ms.workload:
   - "unity"
+zone_pivot_groups: platform
 ---
 # Get started with Visual Studio and Unity
 
