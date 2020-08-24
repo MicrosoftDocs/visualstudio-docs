@@ -23,7 +23,7 @@ Visual Studio provides several commands for automatically transforming and clean
 
 ## Rename
 
-1. Select and hold (or right-click) the identifier you wish to rename and select **Rename**, or place the caret in that identifier and select the **Edit** > **Refactor** > **Rename** menu command (**F2**).
+1. Right-click the identifier you wish to rename and select **Rename**, or place the caret in that identifier and select the **Edit** > **Refactor** > **Rename** menu command (**F2**).
 2. In the **Rename** dialog that appears, enter the new name for the identifier and select **OK**:
 
    ![Rename prompt for new identifer name](media/code-refactor-rename-1.png)
@@ -66,7 +66,7 @@ Finally, if something would normally be excluded but has other values that would
 
 When writing code, it's easy to end up with `import` statements for modules that aren't being used at all. Because Visual Studio analyzes your code, it can automatically determine whether an `import` statement is needed by looking at whether the imported name is used within the scope below where the statement occurs.
 
-Use select and hold (or right-click) anywhere in the editor and select **Remove Imports**, which gives you options to remove from **All Scopes** or just the **Current Scope**:
+Use right-click anywhere in the editor and select **Remove Imports**, which gives you options to remove from **All Scopes** or just the **Current Scope**:
 
 ![Remove imports menu](media/code-refactor-remove-imports-1.png)
 

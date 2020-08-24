@@ -74,7 +74,7 @@ If desired, you can also install the `bottle` package using the process in those
 
 Publishing to Azure App Service from Visual Studio 2017 and later copies only the files in your project to the server. It's necessary, therefore, to create the necessary files to configure the server environment.
 
-1. In Visual Studio **Solution Explorer**, select and hold (or right-click) the project and select **Add > New Item...**. In the dialog that appears, selecting the "Azure web.config (Fast CGI)" template and select OK. This creates a `web.config` file in your project root.
+1. In Visual Studio **Solution Explorer**, right-click the project and select **Add > New Item...**. In the dialog that appears, selecting the "Azure web.config (Fast CGI)" template and select OK. This creates a `web.config` file in your project root.
 
 1. Modify the `PythonHandler` entry in `web.config` so that the path matches the Python installation on the server (see [IIS Configuration Reference](https://www.iis.net/configreference) (iis.net) for exact details). For example, for Python 3.6.1 x64 the entry should appear as follows:
 
@@ -128,9 +128,9 @@ Publishing to Azure App Service from Visual Studio 2017 and later copies only th
 
     Note that when the array is empty, Django automatically allows 'localhost', but adding your production URL removes that capabilities. For this reason you might want to maintain separate development and production copies of `settings.py`, or use environment variables to control the run time values.
 
-1. In **Solution Explorer**, expand the folder named the same as your project, select and hold (or right-click) the `static` folder, select **Add > New Item...**, select the "Azure static files web.config" template, and select **OK**. This action creates another `web.config` in the `static` folder that disables Python processing for that folder. This configuration sends requests for static files to the default web server rather than using the Python application.
+1. In **Solution Explorer**, expand the folder named the same as your project, right-click the `static` folder, select **Add > New Item...**, select the "Azure static files web.config" template, and select **OK**. This action creates another `web.config` in the `static` folder that disables Python processing for that folder. This configuration sends requests for static files to the default web server rather than using the Python application.
 
-1. Save your project, then in Visual Studio **Solution Explorer**, select and hold (or right-click) the project and select **Publish**.
+1. Save your project, then in Visual Studio **Solution Explorer**, right-click the project and select **Publish**.
 
     ![Publish command on a project's context menu](media/template-web-publish-command.png)
 
@@ -180,7 +180,7 @@ Publishing to Azure App Service from Visual Studio 2017 and later copies only th
 > [!Note]
 > A short video of this process can be found on [Visual Studio Python Tutorial: Building a Website](https://www.youtube.com/watch?v=FJx5mutt1uk&list=PLReL099Y5nRdLgGAdrb_YeTdEnd23s6Ff&index=6) (youtube.com, 3m10s).
 
-1. In **Solution Explorer**, select and hold (or right-click) the project select **Publish**.
+1. In **Solution Explorer**, right-click the project and select **Publish**.
 
 1. In the **Publish** dialog, select **Microsoft Azure App Service**:
 
