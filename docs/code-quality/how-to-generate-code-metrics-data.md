@@ -2,14 +2,14 @@
 title: Generate code metrics from the IDE or command line
 ms.date: 11/02/2018
 ms.topic: how-to
-helpviewer_keywords: 
+helpviewer_keywords:
   - code metrics data
   - code metrics results
   - code metrics [Visual Studio]
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.workload: 
+ms.workload:
   - multiple
 ---
 # How to: Generate code metrics data
@@ -66,7 +66,7 @@ You can configure the thresholds at which the code metrics rules fire.
 
 ## Calculate Code Metrics menu command
 
-Generate code metrics for one or all of your open projects in the IDE by going to the **Analyze** > **Calculate Code Metrics** menu.
+Generate code metrics for one or all of your open projects in the IDE by using the **Analyze** > **Calculate Code Metrics** menu.
 
 ### Generate code metrics results for an entire solution
 
@@ -74,7 +74,7 @@ You can generate code metrics results for an entire solution in any of the follo
 
 - From the menu bar, select **Analyze** > **Calculate Code Metrics** > **For Solution**.
 
-- In **Solution Explorer**, select and hold (or right-click) the solution and then select **Calculate Code Metrics**.
+- In **Solution Explorer**, right-click the solution and then select **Calculate Code Metrics**.
 
 - In the **Code Metrics Results** window, select the **Calculate Code Metrics for Solution** button.
 
@@ -82,7 +82,7 @@ The results are generated and the **Code Metrics Results** window is displayed. 
 
 ### Generate code metrics results for one or more projects
 
-1. In **Solution Explorer**, choose one or more projects.
+1. In **Solution Explorer**, select one or more projects.
 
 1. From the menu bar, select **Analyze** > **Calculate Code Metrics** > **For Selected Project(s)**.
 
