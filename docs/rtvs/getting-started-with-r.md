@@ -79,7 +79,7 @@ As an example, the following steps create a little code to explore the [Central 
     plot(density(pop), main = "Population Density", xlab = "X", ylab = "")
     ```
 
-1. To quickly see the results, select all the code (**Ctrl**+**A**), then press **Ctrl**+**Enter** or select and hold (or right-click) and select **Execute In Interactive**. All the selected code is run in the interactive window as if you typed it directly, showing the result in a plot window:
+1. To quickly see the results, select all the code (**Ctrl**+**A**), then press **Ctrl**+**Enter** or right-click and select **Execute In Interactive**. All the selected code is run in the interactive window as if you typed it directly, showing the result in a plot window:
 
     ![Display of a plot in Visual Studio](media/getting-started-08-plot1.png)
 
@@ -140,7 +140,7 @@ One of the key strengths of Visual Studio is its debugging UI. RTVS builds on to
 
     ![Stopping on a breakpoint in the Visual Studio debugger](media/getting-started-12-debug2.png)
 
-1. During debugging, Visual Studio provides the ability to step through your code line by line. You can also step into functions, step over them, or step out of them to the calling context. These capabilities, along with others, can be found on the **Debug** menu, the context menu in the editor (accessible by selecting and holding or right-clicking), and the Debug toolbar:
+1. During debugging, Visual Studio provides the ability to step through your code line by line. You can also step into functions, step over them, or step out of them to the calling context. These capabilities, along with others, can be found on the **Debug** menu, the right-click context menu in the editor, and the Debug toolbar:
 
     ![Debug toolbar in Visual Studio](media/getting-started-13-debug3.png)
 

@@ -78,7 +78,7 @@ To make a rule set the active rule set for analysis in .NET Core or .NET Standar
 
 To make a rule set the active rule set for analysis in .NET Framework projects:
 
-- Right-click (or select and hold) on the project in **Solution Explorer** and select **Properties**.
+- Right-click the project in **Solution Explorer** and select **Properties**.
 
 - In the project property pages, select the **Code Analysis** tab.
 

@@ -38,7 +38,7 @@ Once you've [installed Python support in Visual Studio 2019](installing-python-s
 
     ![A view of hidden folders in Solution Explorer](media/quickstart-open-folder/05-view-hidden-folders.png)
 
-1. To run the code, you first need to identify the startup or primary program file. In the example shown here, the startup file *contemplate-koans.py*. Select and hold (or right-click) that file and select **Set as Startup Item**.
+1. To run the code, you first need to identify the startup or primary program file. In the example shown here, the startup file *contemplate-koans.py*. Right-click that file and select **Set as Startup Item**.
 
     ![Setting a startup item in Solution Explorer](media/quickstart-open-folder/06-set-as-startup-item-command.png)
 
@@ -63,7 +63,7 @@ By default, Visual Studio runs a Python project opened as a folder in the root o
 
 In such cases, you must also add a line to the launch configuration JSON file to specify the working directory:
 
-1. Select and hold (or right-click) the Python (*.py*) startup file in **Solution Explorer** and select **Debug and Launch Settings**.
+1. Right-click the Python (*.py*) startup file in **Solution Explorer** and select **Debug and Launch Settings**.
 
     ![The Debug and Launch Settings command for a Python file](media/quickstart-open-folder/09-debug-launch-settings-menu-command.png)
 

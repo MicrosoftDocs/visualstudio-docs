@@ -81,7 +81,7 @@ To view your Azure resources, you can choose either **Resource Types** or **Reso
 
 To navigate to an Azure resource and view its information in Cloud Explorer, expand the item's type or associated resource group and then select the resource. When you select a resource, information appears in the two tabs - **Actions** and **Properties** - at the bottom of Cloud Explorer.
 
-* **Actions** tab - Lists the actions you can take in Cloud Explorer for the selected resource. You can also view these options by right-clicking (or selecting and holding) the resource to view its context menu.
+* **Actions** tab - Lists the actions you can take in Cloud Explorer for the selected resource. You can also view these options by right-clicking the resource to view its context menu.
 
 * **Properties** tab - Shows the properties of the resource, such as its type, locale, and resource group with which it is associated.
 

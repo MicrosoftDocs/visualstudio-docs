@@ -2,7 +2,7 @@
 title: Turn off code analysis
 ms.date: 10/03/2019
 ms.topic: how-to
-helpviewer_keywords: 
+helpviewer_keywords:
   - code analysis, disable
   - disable code analysis
 author: mikejo5000
@@ -29,13 +29,13 @@ Starting in Visual Studio 2019 version 16.3, there are two checkboxes available 
 
 ![Enable or disable live code analysis or on build in Visual Studio](media/run-on-build-run-live-analysis.png)
 
-To open this page, right-click (or select and hold) on the project node in **Solution Explorer** and select **Properties**. Select the **Code Analysis** tab.
+To open this page, right-click the project node in **Solution Explorer** and select **Properties**. Select the **Code Analysis** tab.
 
 - To disable source analysis at build time, uncheck the **Run on build** option.
 - To disable live source analysis, uncheck the **Run on live analysis** option.
 
 > [!NOTE]
-> Starting in Visual Studio 2019 version 16.5, if you prefer the on-demand code analysis execution workflow, you can disable analyzer execution during live analysis and/or build and manually trigger code analysis once on a project or a solution on demand. For information about running code analysis manually, see [How to: Run Code Analysis Manually for Managed Code](how-to-run-code-analysis-manually-for-managed-code.md).  
+> Starting in Visual Studio 2019 version 16.5, if you prefer the on-demand code analysis execution workflow, you can disable analyzer execution during live analysis and/or build and manually trigger code analysis once on a project or a solution on demand. For information about running code analysis manually, see [How to: Run Code Analysis Manually for Managed Code](how-to-run-code-analysis-manually-for-managed-code.md).
 
 ## .NET Framework projects
 
