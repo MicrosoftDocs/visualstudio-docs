@@ -32,7 +32,7 @@ The editor displays the rules in a tree structure that groups the rules by a rul
    > [!TIP]
    > You can change how rules are grouped in the **Group by** drop-down.
 
-- In the **Action** field of a group, specify the action to apply to all rules in the group.
+- Click the **Action** field of a group, specify the action to apply to all rules in the group.
 
 - Select or clear the check box for an individual rule. When you select the check box for a rule, the rule is set to the **Warning** action.
 
