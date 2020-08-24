@@ -17,7 +17,7 @@ When you create an Azure project in Azure SDK 2.3 or later, Emulator Express is 
 
 1. Create or open an Azure cloud service project in Visual Studio.
 
-1. In Solution Explorer, right-click (or select and hold) the project, and, from the context menu, select **Properties**.
+1. In Solution Explorer, right-click the project, and, from the context menu, select **Properties**.
 
 1. In the projects properties pages, select the **Web** tab.
 

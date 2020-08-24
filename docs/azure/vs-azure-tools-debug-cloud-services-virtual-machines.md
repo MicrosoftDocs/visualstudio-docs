@@ -23,7 +23,7 @@ The emulator simulates the Azure Compute service and runs in your local environm
 
 ### To debug your cloud service on your local computer
 
-1. On the menu bar, select **Debug** > **Start Debugging** to run your Azure cloud service project. As an alternative, you can select F5. You’ll see a message that the Compute Emulator is starting. When the emulator starts, the system tray icon confirms it.
+1. On the menu bar, select **Debug** > **Start Debugging** to run your Azure cloud service project. As an alternative, you can press F5. You’ll see a message that the Compute Emulator is starting. When the emulator starts, the system tray icon confirms it.
 
     ![Azure emulator in the system tray](./media/vs-azure-tools-debug-cloud-services-virtual-machines/IC783828.png)
 
