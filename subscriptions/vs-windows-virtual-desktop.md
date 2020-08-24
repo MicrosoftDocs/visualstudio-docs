@@ -11,10 +11,10 @@ description:  Learn how you can take advantage of Microsoft Windows Virtual Desk
 
 # Access Windows Virtual Desktop in subscriptions 
 Visual Studio subscribers are now able to use their Azure dev/test individual credits for Microsoft Windows Virtual Desktop services.  
-Windows Virtual Desktop is a comprehensive desktop and app virtualization service running in the cloud. It’s the only virtual desktop infrastructure (VDI) that delivers simplified management, multi-session Windows 10, optimizations for Office 365 ProPlus, and support for Remote Desktop Services (RDS) environments. Deploy and scale your Windows desktops and apps on Azure in minutes and get built-in security and compliance features.
+Windows Virtual Desktop is a comprehensive desktop and app virtualization service running in the cloud. It’s the only virtual desktop infrastructure (VDI) that delivers simplified management, multi-session Windows 10, optimizations for Microsoft 365 Apps for enterprise, and support for Remote Desktop Services (RDS) environments. Deploy and scale your Windows desktops and apps on Azure in minutes and get built-in security and compliance features.
 Here's what you can do when you run Windows Virtual Desktop on Azure:
 - Set up a multi-session Windows 10 deployment that delivers a full Windows 10 with scalability
-- Virtualize Office 365 ProPlus and optimize it to run in multi-user virtual scenarios
+- Virtualize Microsoft 365 Apps for enterprise and optimize it to run in multi-user virtual scenarios
 - Provide Windows 7 virtual desktops with free Extended Security Updates
 - Bring your existing Remote Desktop Services (RDS) and Windows Server desktops and apps to any computer
 - Virtualize both desktops and apps
