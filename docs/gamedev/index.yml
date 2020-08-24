@@ -1,0 +1,27 @@
+### YamlMime:Hub
+
+title: Visual Studio game development documentation
+summary: Learn how to make games using Visual Studio, Visual Studio for Mac, and the leading tools they integrate with like Unity, Unreal Engine, and more.
+brand: visual-studio
+metadata:
+  title: Visual Studio game development documentation | Microsoft Docs
+  description: This article introduces the features of Visual Studio for game development.
+  author: therealjohn
+  ms.author: johmil
+  ms.date: 08/05/2020
+  ms.topic: hub-page
+
+highlightedContent:
+  items:
+    - title: C# game development with Unity
+      itemType: learn
+      url: ~/unity/get-started/getting-started-with-visual-studio-tools-for-unity.md
+    - title: Tour Visual Studio Tools for Unity
+      itemType: overview
+      url: ~/unity/visual-studio-tools-for-unity.md
+    - title: C++ game development with Unreal Engine
+      itemType: learn
+      url: https://visualstudio.microsoft.com/vs/features/game-development/
+    - title: Learn more about Microsoft Game Stack
+      itemType: learn
+      url: https://developer.microsoft.com/en-us/games/

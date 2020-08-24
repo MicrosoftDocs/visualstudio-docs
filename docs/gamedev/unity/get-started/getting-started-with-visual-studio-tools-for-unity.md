@@ -3,6 +3,7 @@ title: "Getting Started with Visual Studio Tools for Unity | Microsoft Docs"
 ms.custom: ""
 ms.date: "07/13/2020"
 ms.technology: vs-unity-tools
+ms.prod: visual-studio-family
 ms.topic: how-to
 ms.assetid: 66b5b4eb-13b5-4071-98d2-87fafa4598a8
 author: "therealjohn"
@@ -14,18 +15,18 @@ ms.workload:
 # Get started with Visual Studio and Unity
 
 > [!NOTE]
-> This guide assumes you already have installed Unity using the Unity Hub program. If you are new to Unity, we recommend visiting Unity Learn and complete the [Getting Started with Unity tutorial]("https://learn.unity.com/course/getting-started-with-unity") first.
+> This guide assumes you already have installed Unity using the Unity Hub program. If you are new to Unity, we recommend visiting Unity Learn and complete the [Getting Started with Unity tutorial](https://learn.unity.com/course/getting-started-with-unity) first.
 
 ## Install Unity support for Visual Studio
 
-Visual Studio Tools for Unity is a free extension that provides support for writing and debugging C# and more. Visit the [Tools for Unity overview]() for a complete list of what the extensions includes.
+Visual Studio Tools for Unity is a free extension that provides support for writing and debugging C# and more. Visit the [Tools for Unity overview](visual_studio-tools-for-unity.md) for a complete list of what the extensions includes.
 
 > [!NOTE]
 > This installation guide is for Visual Studio and Visual Studio for Mac. If you're using Visual Studio Code, please visit the [Unity Development with VS Code documentation](https://code.visualstudio.com/docs/other/unity).
 
 :::zone pivot="windows"
 
-1. [Download the Visual Studio installer](../install/install-visual-studio.md), or run it if already installed.
+1. [Download the Visual Studio installer](/docs/install/install-visual-studio.md), or run it if already installed.
 2. Click **Modify** (if already installed) or **Install** (for new installations) for your desired version of Visual Studio.
 3. On the **Workloads** tab, scroll to the **Gaming** section and select the **Game development with Unity** workload.
 

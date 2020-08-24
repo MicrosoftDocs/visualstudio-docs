@@ -11,32 +11,20 @@
         - name: Debugging C# scripts with Visual Studio
         - href: unity/get-started/using-visual-studio-tools-for-unity.md
         - name: .NET Compatibility
-        - href: 
-        - name: Using NuGet packages
-        - href: 
-        - name: Source control
-        - href: 
+        - href: unity/unity-scripting-upgrade.md
         - name: DevOps
-        - href: 
-        - name: Tips & Tricks
-        - href: 
+        - href: unity/application-lifecycle-management-alm-with-unity-apps.md
         - name: Troubleshooting
-        - href: 
+        - href: unity/troubleshooting/troubleshooting-and-known-issues-visual-studio-tools-for-unity.md
         - name: Extensibility
           items:
           - name: Customizing project file generation
-          - href:
+          - href: unity/extensibility/customize-project-files-created-by-vstu.md
           - name: Log callbacks
-          - href:
+          - href: unity/extensibility/share-the-unity-log-callback-with-vstu.md
         - name: Tools for Unity changelogs
           items: 
           - name: Visual Studio
-          - href: 
+          - href: unity/change-log-visual-studio-tools-for-unity.md
           - name: Visual Studio for Mac
-          - href:
-- name: C++ Game Development
-  items:
-    - name: Unreal
-    - items:
-      - name: Getting started
-      - href: 
+          - href: unity/change-log-visual-studio-tools-for-unity-mac.md
