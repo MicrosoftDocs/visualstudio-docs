@@ -28,12 +28,12 @@ This code generation applies to:
 
 2. Add the following rule to your EditorConfig file: *file_header_template*.
 
-3. Set the value of the rule to equal the header text you would like applied.
+3. Set the value of the rule to equal the header text you would like applied. You can use `{fileName}` as a placeholder for the file name.
 
     ![EditorConfig file header rule](media/add-file-header-rule.png)
 
-> [!NOTE]
-> You cannot have explicit multilines in an EditorConfig and will need to use the Unix newline character to insert new lines.
+    > [!NOTE]
+    > You cannot have explicit multilines in an EditorConfig and will need to use the Unix newline character to insert new lines.
 
 4. Place your caret on the first line of any C# or Visual Basic file.
 

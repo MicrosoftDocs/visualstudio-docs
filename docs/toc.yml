@@ -390,6 +390,8 @@
           href: ide/reference/convert-if-statement-to-switch-statement-or-switch-expression.md
         - name: Convert LINQ query to foreach statement
           href: ide/reference/convert-linq-to-foreach.md
+        - name: Convert typeof to nameof
+          href: ide/reference/convert-typeof-to-nameof.md
         - name: Convert switch statement to switch expression
           href: ide/reference/convert-switch-statement-to-switch-expression.md
         - name: DateTime and TimeSpan completion
@@ -430,6 +432,8 @@
           href: ide/reference/rename.md
         - name: Simplify conditional expression
           href: ide/reference/simplify-conditional-expression.md
+        - name: Simplify LINQ expression
+          href: ide/reference/simplify-linq-expression.md
         - name: Simplify string interpolation
           href: ide/reference/simplify-string-interpolation.md
         - name: Sort usings
@@ -797,7 +801,7 @@
     - name: XML and XSLT files >>
       href: xml-tools/xml-tools-in-visual-studio.md
     - name: Docker containers >>
-      href: containers/index.yml 
+      href: containers/index.yml
     - name: Workflows >>
       href: workflow-designer/developing-applications-with-the-workflow-designer.md
     - name: Mobile apps
@@ -898,7 +902,7 @@
   - name: Customize the IDE
     displayName: Personalize
     href: ide/personalizing-the-visual-studio-ide.md
-  - name: "Quickstart: Personalize theme and text colors"
+  - name: "Personalize the color theme and text"
     href: ide/quickstart-personalize-the-ide.md
   - name: Environment settings
     displayName: profiles
@@ -1356,7 +1360,7 @@
     - name: Windows Information Protection (WIP)
       href: ide/exempt-visual-studio-from-wip.md
     - name: Federal Information Processing Standard (FIPS)
-      href: ide/fips-support-visual-studio.md      
+      href: ide/fips-support-visual-studio.md
   - name: Bidirectional language input
     href: ide/use-bidirectional-languages.md
   - name: Microsoft Help Viewer
@@ -1405,6 +1409,8 @@
     href: ide/whats-new-visual-studio-2017.md
   - name: What's new in Visual Studio 2019
     href: ide/whats-new-visual-studio-2019.md
+  - name: What's new in Visual Studio docs
+    href: ide/whats-new-visual-studio-docs.md
   - name: Release notes & system requirements
     items:
     - name: Release rhythm

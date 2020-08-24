@@ -177,7 +177,7 @@ For example, the following attribute in your _GlobalSuppressions_ project file w
 
 Managed code compilers and some third-party tools generate code to facilitate rapid code development. Compiler-generated code that appears in source files is usually marked with the `GeneratedCodeAttribute` attribute.
 
-For source code analysis (FxCop analyzers), you can suppress messages in generated code using the [.editorconfig](../code-quality/configure-fxcop-analyzers.md) file in the root of your project or solution. Use a file pattern to match the generated code. For example, to exclude CS1591 warnings in **.designer.cs* files, use this in the configuration file.
+For source code analysis, you can suppress messages in generated code using the [.editorconfig](../code-quality/configure-fxcop-analyzers.md) file in the root of your project or solution. Use a file pattern to match the generated code. For example, to exclude CS1591 warnings in **.designer.cs* files, use this in the configuration file.
 
 ``` cmd
 [*.designer.cs]

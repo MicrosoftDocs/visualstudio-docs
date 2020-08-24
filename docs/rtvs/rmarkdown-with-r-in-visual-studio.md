@@ -33,6 +33,7 @@ R Tools for Visual Studio (RTVS) provides a R Markdown item template, editor sup
 
 1. The default contents of the new file are as follows:
 
+    <!-- markdownlint-disable MD048 -->
     ~~~markdown
     ---
     title: "Untitled"
@@ -56,6 +57,7 @@ R Tools for Visual Studio (RTVS) provides a R Markdown item template, editor sup
     Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
 
     ~~~
+    <!-- markdownlint-disable MD048 -->
 
 ## Previews
 

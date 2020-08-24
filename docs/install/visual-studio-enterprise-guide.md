@@ -64,6 +64,3 @@ Learn how to update Visual Studio successfully and fix update issues.
 ## See also 
 
 - [Productivity guide for Visual Studio](../ide/productivity-features.md)
-
-
-

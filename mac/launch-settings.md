@@ -25,8 +25,8 @@ Select **Run** > **Configurations** > **Default**.
 
 Primarily, you'll configure two things here:
 
- - Environment variables
- - App URL for the project
+- Environment variables
+- App URL for the project
 
 ## Configure environment variables
 
