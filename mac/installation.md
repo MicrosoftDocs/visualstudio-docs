@@ -47,18 +47,16 @@ To build Xamarin apps for iOS or macOS, you'll also need:
 
    If you do not wish to install all platforms, use the guide below to help you decide which platforms to install:
 
-
-|Type of App  |Target  |Selection  |Notes  |
-|---------|---------|---------|---------|
-|**Apps Using Xamarin**| Xamarin.Forms|Select **Android** and **iOS** platforms |You will need to install [**Xcode**](https://developer.apple.com/xcode/) |
-||iOS only|Select **iOS** platform|You will need to install [**Xcode**](https://developer.apple.com/xcode/)|
-||Android only|Select **Android** platform|Note that you should also select the relevant dependencies|
-||Mac only|Select **macOS (Cocoa)** platform|You will need to install [**Xcode**](https://developer.apple.com/xcode/)|
-|**.NET Core applications**|         |Select **.NET Core** platform.|         |
-|**ASP.NET Core Web Applications**|         |Select **.NET Core** platform.|         |
-|**Azure Functions**|         |Select **.NET Core** platform.|         |
-|**Cross-platform Unity Game Development**|         |No additional platforms need to be installed beyond Visual Studio for Mac.| Refer to the [Unity setup guide](/visualstudio/mac/setup-vsmac-tools-unity) for more information on installing the Unity extension.|
-
+   |Type of App  |Target  |Selection  |Notes  |
+   |---------|---------|---------|---------|
+   |**Apps Using Xamarin**| Xamarin.Forms|Select **Android** and **iOS** platforms |You will need to install [**Xcode**](https://developer.apple.com/xcode/) |
+   ||iOS only|Select **iOS** platform|You will need to install [**Xcode**](https://developer.apple.com/xcode/)|
+   ||Android only|Select **Android** platform|Note that you should also select the relevant dependencies|
+   ||Mac only|Select **macOS (Cocoa)** platform|You will need to install [**Xcode**](https://developer.apple.com/xcode/)|
+   |**.NET Core applications**|         |Select **.NET Core** platform.|         |
+   |**ASP.NET Core Web Applications**|         |Select **.NET Core** platform.|         |
+   |**Azure Functions**|         |Select **.NET Core** platform.|         |
+   |**Cross-platform Unity Game Development**|         |No additional platforms need to be installed beyond Visual Studio for Mac.| Refer to the [Unity setup guide](/visualstudio/mac/setup-vsmac-tools-unity) for more information on installing the Unity extension.|
 
 7. After you have made your selections, press the **Install** button.
 8. The installer will display progress as it downloads and installs Visual Studio for Mac and the selected workloads. You will be prompted to enter your password to grant the privileges necessary for installation.:

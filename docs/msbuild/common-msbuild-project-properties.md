@@ -131,3 +131,5 @@ The following table lists frequently used properties that are defined in the Vis
 ## See also
 
 - [Common MSBuild project items](../msbuild/common-msbuild-project-items.md)
+- [Common MSBuild item metadata](common-msbuild-item-metadata.md)
+- [MSBuild Reserved and Well-known Properties](msbuild-reserved-and-well-known-properties.md)

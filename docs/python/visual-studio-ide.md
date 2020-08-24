@@ -52,7 +52,7 @@ Some of the popular features in Visual Studio that help you to be more productiv
 
 - [Refactoring](refactoring-python-code.md)
 
-   By right-clicking on a piece of code and selecting **Quick actions and Refactorings**, Visual Studio provides you with operations such as intelligent renaming of variables, extracting one or more lines of code into a new method, changing the order of method parameters, and more.
+   By selecting and holding (or right-clicking) on a piece of code and selecting **Quick actions and Refactorings**, Visual Studio provides you with operations such as intelligent renaming of variables, extracting one or more lines of code into a new method, changing the order of method parameters, and more.
 
    ![Refactoring in Visual Studio](media/tour-ide-refactor-extract-method.png)
 

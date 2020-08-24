@@ -29,7 +29,7 @@ Starting in Visual Studio 2019 version 16.3, there are two checkboxes available 
 
 ![Enable or disable live code analysis or on build in Visual Studio](media/run-on-build-run-live-analysis.png)
 
-To open this page, right-click on the project node in **Solution Explorer** and select **Properties**. Select the **Code Analysis** tab.
+To open this page, right-click (or select and hold) on the project node in **Solution Explorer** and select **Properties**. Select the **Code Analysis** tab.
 
 - To disable source analysis at build time, uncheck the **Run on build** option.
 - To disable live source analysis, uncheck the **Run on live analysis** option.
@@ -61,7 +61,7 @@ Examples:
 
 ## Source analysis
 
-You cannot turn off [source analysis](roslyn-analyzers-overview.md) in Visual Studio 2017. If you want to clear analyzer errors from the Error List, you can suppress all the current violations by choosing **Analyze** > **Run Code Analysis and Suppress Active Issues** on the menu bar. For more information, see [Suppress violations](use-roslyn-analyzers.md#suppress-violations).
+You cannot turn off [source analysis](roslyn-analyzers-overview.md) in Visual Studio 2017. If you want to clear analyzer errors from the **Error List**, you can suppress all the current violations by selecting **Analyze** > **Run Code Analysis and Suppress Active Issues** on the menu bar. For more information, see [Suppress violations](use-roslyn-analyzers.md#suppress-violations).
 
 Starting in Visual Studio 2019 version 16.3, you can turn off source code analysis or execute it on demand. Consider upgrading to Visual Studio 2019.
 

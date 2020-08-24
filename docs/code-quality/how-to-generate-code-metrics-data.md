@@ -16,15 +16,15 @@ ms.workload:
 
 You can generate code metrics data in three ways:
 
-- By installing [FxCop analyzers](#fxcop-analyzers-code-metrics-rules) and enabling the four code metrics (maintainability) rules it contains.
+- By enabling [.NET code-quality analyzers](#net-code-quality-analyzers-code-metrics-rules) and enabling the four code metrics (maintainability) rules it contains.
 
 - By choosing the [**Analyze** > **Calculate Code Metrics**](#calculate-code-metrics-menu-command) menu command within Visual Studio.
 
 - From the [command line](#command-line-code-metrics) for C# and Visual Basic projects.
 
-## FxCop analyzers code metrics rules
+## .NET code-quality analyzers code metrics rules
 
-The [FxCopAnalyzers NuGet package](https://www.nuget.org/packages/Microsoft.CodeAnalysis.FxCopAnalyzers) includes several code metrics [analyzer](roslyn-analyzers-overview.md) rules:
+The .NET code-quality analyzers include several code metrics [analyzer](roslyn-analyzers-overview.md) rules:
 
 - [CA1501](ca1501-avoid-excessive-inheritance.md)
 - [CA1502](ca1502.md)
@@ -44,7 +44,7 @@ These rules are disabled by default but you can enable them from [**Solution Exp
 
 ### Configuration
 
-You can configure the thresholds at which the code metrics rules in the FxCop analyzers package fire.
+You can configure the thresholds at which the code metrics rules fire.
 
 1. Create a text file. As an example, you can name it *CodeMetricsConfig.txt*.
 
@@ -66,25 +66,25 @@ You can configure the thresholds at which the code metrics rules in the FxCop an
 
 ## Calculate Code Metrics menu command
 
-Generate code metrics for one or all of your open projects in the IDE by using the **Analyze** > **Calculate Code Metrics** menu.
+Generate code metrics for one or all of your open projects in the IDE by going to the **Analyze** > **Calculate Code Metrics** menu.
 
 ### Generate code metrics results for an entire solution
 
 You can generate code metrics results for an entire solution in any of the following ways:
 
-- From the menu bar, choose **Analyze** > **Calculate Code Metrics** > **For Solution**.
+- From the menu bar, select **Analyze** > **Calculate Code Metrics** > **For Solution**.
 
-- In **Solution Explorer**, right-click the solution and then choose **Calculate Code Metrics**.
+- In **Solution Explorer**, select and hold (or right-click) the solution and then select **Calculate Code Metrics**.
 
-- In the **Code Metrics Results** window, choose the **Calculate Code Metrics for Solution** button.
+- In the **Code Metrics Results** window, select the **Calculate Code Metrics for Solution** button.
 
 The results are generated and the **Code Metrics Results** window is displayed. To view the results details, expand the tree in the **Hierarchy** column.
 
 ### Generate code metrics results for one or more projects
 
-1. In **Solution Explorer**, select one or more projects.
+1. In **Solution Explorer**, choose one or more projects.
 
-1. From the menu bar, choose **Analyze** > **Calculate Code Metrics** > **For Selected Project(s)**.
+1. From the menu bar, select **Analyze** > **Calculate Code Metrics** > **For Selected Project(s)**.
 
 The results are generated and the **Code Metrics Results** window is displayed. To view the results details, expand the tree in the **Hierarchy**.
 
@@ -157,6 +157,7 @@ Build succeeded.
 The generated XML output takes the following format:
 
 ::: moniker range=">=vs-2019"
+
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <CodeMetricsReport Version="1.0">
@@ -211,8 +212,10 @@ The generated XML output takes the following format:
   </Targets>
 </CodeMetricsReport>
 ```
+
 ::: moniker-end
 ::: moniker range="vs-2017"
+
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <CodeMetricsReport Version="1.0">
@@ -263,6 +266,7 @@ The generated XML output takes the following format:
   </Targets>
 </CodeMetricsReport>
 ```
+
 ::: moniker-end
 
 ### Metrics.exe

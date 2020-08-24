@@ -5,6 +5,11 @@ ms.topic: how-to
 f1_keywords: 
   - vs.codeanalysis.propertypages.csvb
   - vs.codeanalysis.propertypages.solution
+  - vs.codeanalysis.propertypages.asp
+dev_langs:
+  - "CSharp"
+  - "VB"
+  - "FSharp"
 helpviewer_keywords: 
   - code analysis, selecting rule sets
   - code analysis, rule sets
@@ -23,13 +28,13 @@ In Visual Studio, you can choose from a list of code analysis [rule sets](../cod
 
 ## Configure a rule set for a .NET Framework project
 
-1. Open the **Code Analysis** tab on the project's property pages. You can do this in either of the following ways:
+1. Go to the **Code Analysis** tab on the project's property pages. You can do this in either of the following ways:
 
-   - In **Solution Explorer**, select the project. On the menu bar, select **Analyze** > **Configure Code Analysis** > **For \<projectname>**.
+   - In **Solution Explorer**, choose the project. On the menu bar, select **Analyze** > **Configure Code Analysis** > **For \<projectname>**.
 
-   - Right-click the project in **Solution Explorer** and select **Properties**, and then select the **Code Analysis** tab.
+   - Right-click (or select and hold) the project in **Solution Explorer** and select **Properties**, and then select the **Code Analysis** tab.
 
-2. In the **Configuration** and **Platform** lists, select the build configuration and target platform.
+2. In the **Configuration** and **Platform** lists, choose the build configuration and target platform.
 
 ::: moniker range="vs-2017"
 
@@ -78,11 +83,11 @@ By default, all the managed projects of a solution are assigned the *Microsoft M
 
 4. You can specify a rule set for one or more projects:
 
-    - To specify a rule set for an individual project, select the project name.
+    - To specify a rule set for an individual project, choose the project name.
 
-    - To specify a rule set for multiple projects, hold down **Ctrl** and select the project names.
+    - To specify a rule set for multiple projects, select **Ctrl** and the project names.
 
-    - To specify all the projects in the solution, hold down **Shift** and click in the project list.
+    - To specify all the projects in the solution, select **Shift** and the project list.
 
 5. Select the **Rule Set** field of a project, and then select the name of the rule set that you want to apply.
 

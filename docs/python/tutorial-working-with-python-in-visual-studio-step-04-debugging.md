@@ -74,7 +74,7 @@ In addition to managing projects, providing a rich editing experience, and the *
 
 1. Continue stepping over the code a few more times and observe how the values in the **Locals** or **Autos** window change.
 
-1. In the **Locals** or **Autos** window, double-click in the **Value** column for either the `i` or `s` variables to edit the value. Press **Enter** or click outside that value to apply any changes.
+1. In the **Locals** or **Autos** window, double-click in the **Value** column for either the `i` or `s` variables to edit the value. Press **Enter** or select (or click) any area outside that value to apply any changes.
 
 1. Continue stepping through the code using **Step Into**. **Step Into** means that the debugger enters inside any function call for which it has debugging information, such as `make_dot_string`. Once inside `make_dot_string` you can examine its local variables and step through its code specifically.
 
@@ -84,11 +84,11 @@ In addition to managing projects, providing a rich editing experience, and the *
 
 1. To continue running the program until the next breakpoint is reached, use **Continue** (**F5**). Because you have a breakpoint in the `for` loop, you break on the next iteration.
 
-1. Stepping through hundreds of iterations of a loop can be tedious, so Visual Studio lets you add a *condition* to a breakpoint. The debugger then pauses the program at the breakpoint only when the condition is met. For example, you can use a condition with the breakpoint on the `for` statement so that it pauses only when the value of `i` exceeds 1600. To set this condition, right-click the red breakpoint dot and select **Conditions** (**Alt**+**F9** > **C**). In the **Breakpoint Settings** popup that appears, enter `i > 1600` as the expression and select **Close**. Press **F5** to continue and observe that the program runs many iterations before the next break.
+1. Stepping through hundreds of iterations of a loop can be tedious, so Visual Studio lets you add a *condition* to a breakpoint. The debugger then pauses the program at the breakpoint only when the condition is met. For example, you can use a condition with the breakpoint on the `for` statement so that it pauses only when the value of `i` exceeds 1600. To set this condition, select and hold (or right-click) the red breakpoint dot and select **Conditions** (**Alt**+**F9** > **C**). In the **Breakpoint Settings** popup that appears, enter `i > 1600` as the expression and select **Close**. Press **F5** to continue and observe that the program runs many iterations before the next break.
 
     ![Setting a breakpoint condition](media/vs-getting-started-python-21-debugging4.png)
 
-1. To run the program to completion, disable the breakpoint by right-clicking and selecting **Disable breakpoint** (**Ctrl**+**F9**). Then select **Continue** (or press **F5**) to run the program. When the program ends, Visual Studio stops its debugging session and returns to its editing mode. Note that you can also delete the breakpoint by clicking its dot, but this also deletes any condition you've set.
+1. To run the program to completion, disable the breakpoint by selecting and holding (or right-clicking) on the dot in the margin and selecting **Disable breakpoint** (**Ctrl**+**F9**). Then select **Continue** (or press **F5**) to run the program. When the program ends, Visual Studio stops its debugging session and returns to its editing mode. Note that you can also delete the breakpoint by selecting its dot or by selecting and holding (or right-clicking) on the dot and selecting **Delete breakpoint**, but this also deletes any condition you've set.
 
 > [!Tip]
 > In some situations, such as a failure to launch the Python interpreter itself, the output window may appear only briefly and then close automatically without giving you a chance to see any errors messages. If this happens, right-click the project in **Solution Explorer**, select **Properties**, select the **Debug** tab, then add `-i` to the **Interpreter Arguments** field. This argument causes the interpreter to go into interactive mode after a program completes, thereby keeping the window open until you enter **Ctrl**+**Z** > **Enter** to exit.

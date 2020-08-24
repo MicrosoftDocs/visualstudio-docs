@@ -10,7 +10,7 @@ ms.workload:
 ---
 # Work with multiple user accounts
 
-If you have multiple Microsoft accounts and/or work or school accounts, you can add them all to Visual Studio so that you can access the resources from any account without having to sign in to it separately. Azure, Application Insights, Azure DevOps, and Office 365 services all support the streamlined sign-in experience.
+If you have multiple Microsoft accounts and/or work or school accounts, you can add them all to Visual Studio so that you can access the resources from any account without having to sign in to it separately. Azure, Application Insights, Azure DevOps, and Microsoft 365 services all support the streamlined sign-in experience.
 
 After you add multiple accounts on one machine, that set of accounts roams with you if you sign in to Visual Studio on another machine.
 
@@ -47,7 +47,7 @@ The next time you open **Server Explorer**, the resources for that subscription 
 
 ### Access Azure Active Directory in a Web project
 
-Azure Active Directory (AAD) enables support for end-user single sign-in in ASP.NET MVC web apps or AD authentication in web API services. Domain authentication is different from individual user account authentication. Users that have access to your Active Directory domain can use their existing AAD accounts to connect to your web applications. Office 365 apps can also use domain authentication.
+Azure Active Directory (AAD) enables support for end-user single sign-in in ASP.NET MVC web apps or AD authentication in web API services. Domain authentication is different from individual user account authentication. Users that have access to your Active Directory domain can use their existing AAD accounts to connect to your web applications. Microsoft 365 apps can also use domain authentication.
 
 ::: moniker range="vs-2017"
 

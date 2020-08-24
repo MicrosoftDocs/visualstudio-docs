@@ -1,21 +1,23 @@
 ---
-title: Configure FxCop analyzers using editorconfig
+title: Configure .NET code-quality analyzers using editorconfig
 ms.date: 09/23/2019
 ms.topic: conceptual
 helpviewer_keywords:
+- .NET analyzers
 - FxCop analyzers, configuring
+- code quality
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
 ms.workload:
 - dotnet
 ---
-# Configure FxCop analyzers
+# Configure .NET code-quality analyzers
 
-The [FxCop analyzers package](install-fxcop-analyzers.md) consists of the most important "FxCop" rules from legacy analysis converted to .NET Compiler Platform-based code analyzers. For certain FxCop rules, you can refine which parts of your codebase they should be applied to through [configurable options](fxcop-analyzer-options.md). Each option is specified by adding a key-value pair to an [EditorConfig](https://editorconfig.org) file. A configuration file can be [specific to a project](#per-project-configuration) or it can be [shared](#shared-configuration) between two or more projects.
+For certain .NET code-quality analyzers (those whose rule IDs start with `CA`), you can refine which parts of your codebase they should be applied to through [configurable options](fxcop-analyzer-options.md). Each option is specified by adding a key-value pair to an [EditorConfig](https://editorconfig.org) file. A configuration file can be specific to a file, project, solution, or the entire repo.
 
 > [!TIP]
-> Add an .editorconfig file to your project by right-clicking on the project in **Solution Explorer** and selecting **Add** > **New Item**. In the **Add New Item** window, enter **editorconfig** in the search box. Select the **editorconfig File (default)** template and choose **Add**.
+> Add an .editorconfig file to your project by right-clicking (or selecting and holding) on the project in **Solution Explorer** and selecting **Add** > **New Item**. In the **Add New Item** window, enter **editorconfig** in the search box. Select the **editorconfig File (default)** template and choose **Add**.
 >
 > ![Add editorconfig file to project in Visual Studio](media/add-editorconfig-file.png)
 
@@ -25,10 +27,7 @@ For information about configuring a rule's severity (for example, whether it's a
 
 ::: moniker-end
 
-The remainder of this article discusses general syntax for the [options that refine](fxcop-analyzer-options.md) where FxCop rules are applied.
-
-> [!NOTE]
-> You cannot configure legacy FxCop rules by using an EditorConfig file. For information about the differences between legacy analysis and FxCop analyzers, see [FxCop analyzers FAQ](fxcop-analyzers-faq.md).
+The remainder of this article discusses general syntax for the [options that refine](fxcop-analyzer-options.md) where .NET code-quality analyzers are applied.
 
 ## Option scopes
 
@@ -60,8 +59,6 @@ The syntax for configuring an option for a *specific* rule is as follows:
 
 ## Enabling Editorconfig based configuration
 
-### VS2019 16.3 and later + FxCopAnalyzers package version 3.3.x and later
-
 EditorConfig-based analyzer configuration can be enabled for the following scopes:
 
 - Specific document(s)
@@ -72,48 +69,8 @@ EditorConfig-based analyzer configuration can be enabled for the following scope
 
 To enable configuration, add an *.editorconfig* file with the options in the corresponding directory. This file can also contain EditorConfig-based diagnostic severity configuration entries. See [here](use-roslyn-analyzers.md#rule-severity) for more details.
 
-### Prior to VS2019 16.3 or using an FxCopAnalyzers package version prior to 3.3.x
-
-#### Per-project configuration
-
-To enable EditorConfig-based analyzer configuration for a specific project, add an *.editorconfig* file to the project's root directory.
-
-#### Shared configuration
-
-You can share an .editorconfig file for FxCop analyzer configuration between two or more projects, but it requires some additional steps.
-
-1. Save the *.editorconfig* file to a common location.
-
-2. Create a *.props* file with the following content:
-
-   ```xml
-   <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-     <PropertyGroup>
-       <SkipDefaultEditorConfigAsAdditionalFile>true</SkipDefaultEditorConfigAsAdditionalFile>
-     </PropertyGroup>
-     <ItemGroup Condition="Exists('<your path>\.editorconfig')" >
-       <AdditionalFiles Include="<your path>\.editorconfig" />
-     </ItemGroup>
-   </Project>
-   ```
-
-3. Add a line to your *.csproj* or *.vbproj* file to import the *.props* file you created in the previous step. This line must be placed before any lines that import the FxCop analyzer *.props* files. For example, if your .props file is named *editorconfig.props*:
-
-   ```xml
-   ...
-   <Import Project="..\..\editorconfig.props" Condition="Exists('..\..\editorconfig.props')" />
-   <Import Project="..\packages\Microsoft.CodeAnalysis.FxCopAnalyzers.2.6.3\build\Microsoft.CodeAnalysis.FxCopAnalyzers.props" Condition="Exists('..\packages\Microsoft.CodeAnalysis.FxCopAnalyzers.2.6.3\build\Microsoft.CodeAnalysis.FxCopAnalyzers.props')" />
-   ...
-   ```
-
-4. Reload the project.
-
-> [!NOTE]
-> The arbitrary shared location of the EditorConfig file described here applies only to configuring the scope of certain FxCop analyzer rules. For other settings, such as rule severity, general editor settings, and code style, the EditorConfig file must always be placed in the project folder or a parent folder.
-
 ## See also
 
-- [Rule scope options for FxCop analyzers](fxcop-analyzer-options.md)
+- [Rule scope options for .NET code-quality analyzers](fxcop-analyzer-options.md)
 - [Analyzer configuration](https://github.com/dotnet/roslyn-analyzers/blob/master/docs/Analyzer%20Configuration.md)
-- [FxCop analyzers](install-fxcop-analyzers.md)
 - [.NET coding conventions for EditorConfig](../ide/editorconfig-code-style-settings-reference.md)
