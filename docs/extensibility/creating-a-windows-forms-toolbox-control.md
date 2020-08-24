@@ -1,5 +1,6 @@
 ---
 title: Creating a Windows Forms Toolbox Control | Microsoft Docs
+description: This walkthrough shows how to use the Windows Forms Toolbox Control template to create a simple counter control using the Visual Studio SDK.
 ms.date: 3/16/2019
 ms.topic: how-to
 helpviewer_keywords:
@@ -39,7 +40,7 @@ The `Counter` control requires two child controls: a <xref:System.Windows.Forms.
 
 #### To build the user interface
 
-1. In **Solution Explorer**, double-tap or double-click *Counter.cs* to open it in the designer.
+1. In **Solution Explorer**, double-click *Counter.cs* to open it in the designer.
 
 2. Remove the **Click Here !** button that is included by default when you add the Windows Forms Toolbox Control item template.
 
@@ -61,7 +62,7 @@ The `Counter` control will expose a method to increment the counter, an event to
 
 #### To code the user control
 
-1. Double-tap or double-click the form to open its load event handler in the code window.
+1. Double-click the form to open its load event handler in the code window.
 
 2. Above the event handler method, in the control class create an integer to store the counter value and a string to store the display text as shown in the following example.
 
@@ -124,7 +125,7 @@ The `Counter` control will expose a method to increment the counter, an event to
 
     Callers can add handlers to this event to respond to changes in the value of the counter.
 
-7. Return to design view and double-tap or double-click the **Reset** button to generate the `btnReset_Click` event handler. Then, fill it in as shown in the following example.
+7. Return to design view and double-click the **Reset** button to generate the `btnReset_Click` event handler. Then, fill it in as shown in the following example.
 
     ```csharp
     private void btnReset_Click(object sender, EventArgs e)
@@ -156,7 +157,7 @@ The `Counter` control will expose a method to increment the counter, an event to
 
 2. In the Experimental instance of Visual Studio, create a **Windows Forms Application** project.
 
-3. In **Solution Explorer**, double-tap or double-click *Form1.cs* to open it in the designer if it is not already open.
+3. In **Solution Explorer**, double-click *Form1.cs* to open it in the designer if it is not already open.
 
 4. In the **Toolbox**, the `Counter` control should be displayed in the **General** section.
 
@@ -166,7 +167,7 @@ The `Counter` control will expose a method to increment the counter, an event to
 
 7. Drag a <xref:System.Windows.Forms.Button> control to the form, and then set the name and text properties of the button to `Test`.
 
-8. Double-tap or double-click the button to open *Form1.cs* in code view and create a click handler.
+8. Double-click the button to open *Form1.cs* in code view and create a click handler.
 
 9. In the click handler, call `counter1.Increment()`.
 
