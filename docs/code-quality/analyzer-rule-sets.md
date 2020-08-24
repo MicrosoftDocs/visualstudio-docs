@@ -78,19 +78,19 @@ To make a rule set the active rule set for analysis in .NET Core or .NET Standar
 
 To make a rule set the active rule set for analysis in .NET Framework projects:
 
-- Right-click on the project in **Solution Explorer** and choose **Properties**.
+- Right-click (or select and hold) on the project in **Solution Explorer** and select **Properties**.
 
 - In the project property pages, select the **Code Analysis** tab.
 
 ::: moniker range="vs-2017"
 
-- Under **Run this rule set**, select **Browse**, and then select the desired rule set that you copied to the project directory.
+- Under **Run this rule set**, select **Browse**, and then choose the desired rule set that you copied to the project directory.
 
 ::: moniker-end
 
 ::: moniker range=">=vs-2019"
 
-- Under **Active rules**, select **Browse**, and then select the desired rule set that you copied to the project directory.
+- Under **Active rules**, select **Browse**, and then choose the desired rule set that you copied to the project directory.
 
 ::: moniker-end
 

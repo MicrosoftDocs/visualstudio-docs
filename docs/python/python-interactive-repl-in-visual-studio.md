@@ -96,7 +96,7 @@ Entering `dir()` in a scope displays valid identifiers in that scope, including 
 
 ## Send to Interactive command
 
-In addition to working within the **Interactive** window directly, you can select code in the editor, right-click, and choose **Send to Interactive** or press **Ctrl**+**Enter**.
+In addition to working within the **Interactive** window directly, you can select code in the editor, select and hold (or right-click), and choose **Send to Interactive** or press **Ctrl**+**Enter**.
 
 ![Send to interactive menu command](media/interactive-send-to.png)
 

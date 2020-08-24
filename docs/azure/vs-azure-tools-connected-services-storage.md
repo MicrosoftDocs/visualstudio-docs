@@ -39,7 +39,7 @@ The connected service functionality adds all the needed references and connectio
 
 1. Open your project in Visual Studio.
 
-1. In **Solution Explorer**, right-click the **Connected Services** node, and, from the context menu, select **Add Connected Service**.
+1. In **Solution Explorer**, right-click (or select and hold) the **Connected Services** node, and, from the context menu, and select **Add Connected Service**.
 
     ![Add Azure connected service](./media/vs-azure-tools-connected-services-storage/add-connected-service.png)
 

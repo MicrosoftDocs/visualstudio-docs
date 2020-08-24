@@ -76,7 +76,7 @@ Microsoft Azure Cloud Services *does* support the *requirements.txt* file. See [
 
 ## Debugging
 
-When a web project is started for debugging, Visual Studio starts a local web server on a random port and opens your default browser to that address and port. To specify additional options, right-click the project, select **Properties**, and select the **Web Launcher** tab:
+When a web project is started for debugging, Visual Studio starts a local web server on a random port and opens your default browser to that address and port. To specify additional options, select and hold (or right-click) the project, select **Properties**, and select the **Web Launcher** tab:
 
 ![Web launcher properties for the generic web template](media/template-web-launcher-properties.png)
 
