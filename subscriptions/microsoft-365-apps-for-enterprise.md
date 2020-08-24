@@ -12,7 +12,7 @@ description:  Learn about and install Microsoft 365 apps for enterprise
 # Microsoft 365 apps for enterprise in Visual Studio subscriptions
 Microsoft 365 apps for enterprise (formerly Office 365 Pro Plus) is available in selected Visual Studio subscriptions. 
 
-Create your best work. Work anywhere with apps that are always updated. Office 365 Pro Plus is a subscription that comes with premium apps like Word, Excel, PowerPoint, OneNote, Outlook, Publisher, and Access (Publisher and Access available on PC only). The apps can be installed on multiple devices, including PCs, Macs, iPads, iPhones, Android tablets, and Android phones. With a subscription, you get the latest versions of the apps and automatically receive updates when they happen.
+Create your best work. Work anywhere with apps that are always updated. Microsoft 365 apps for enterprise is a subscription that comes with premium apps like Word, Excel, PowerPoint, OneNote, Outlook, Publisher, and Access (Publisher and Access available on PC only). The apps can be installed on multiple devices, including PCs, Macs, iPads, iPhones, Android tablets, and Android phones. With a subscription, you get the latest versions of the apps and automatically receive updates when they happen.
 
 > [!NOTE]
 > When included in your Visual Studio subscription, you are licensed to use Microsoft 365 apps for enterprise for production use.  
