@@ -28,7 +28,7 @@ For all subscriptions, you can add a "work or school account" so you can use tha
 
 ### Add the alternate account
 1. Sign in to the Visual Studio subscriber portal with your Microsoft account (https://my.visualstudio.com).
-2. Click on the **Subscriptions** tab.
+2. Select the **Subscriptions** tab.
 3. Choose **Add alternate account**.
 4. Add your work or school account.
     > [!div class="mx-imgBorder"]

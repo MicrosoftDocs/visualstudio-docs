@@ -155,7 +155,6 @@ The code uses some Windows APIs to create a speech synthesis object and then giv
 
 ## Run the application
 
-
 ::: moniker range="vs-2017"
 It's time to build, deploy, and launch the "Hello World" UWP app to see what it looks and sounds like. Here's how.
 
