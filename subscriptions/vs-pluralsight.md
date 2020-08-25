@@ -44,7 +44,10 @@ The table below details what Pluralsight subscription benefits are available to 
 1. That's it!  You're now ready to start learning with thousands of Pluralsight courses!
 
 ## Status of your Pluralsight subscription
-After you activate your Pluralsight benefit, the appearance of the tile in the Visual Studio subscriptions portal will change.  Instead of the "Activate" button, you'll now see a small circle button that, if clicked, will take you directly to the Pluralsight portal so you can sign in and continue with your training.  
+After you activate your Pluralsight benefit, the appearance of the tile in the Visual Studio subscriptions portal will change to help you track the status of your subscription.  
+
+### While your subscription is active
+Instead of the "Activate" button, you'll now see a small circular button that, if clicked, will take you directly to the Pluralsight portal so you can sign in and continue with your training.  
 
 Under the Pluralsight title at the top of the tile, you'll see text displaying how much time is remaining on your Pluralsight subscription.  When your subscription is within 60 days of expiring, the text will switch to displaying the number of days remaining rather than months.  
 
@@ -53,7 +56,11 @@ At the bottom of the tile, you'll see text showing both the activation date and 
    > [!div class="mx-imgBorder"]
    > ![Pluralsight tile after activation](_img/vs-pluralsight/vs-pluralsight-activated.png "After activation, the tile will display the number of days remaining on your subscription, along with the expiration date and a link to the Pluralsight portal.")
 
+### When your subscription expires
 When your Pluralsight subscription expires, the status will change to "0 days remaining" and the link to the Pluralsight portal will be removed. You will still be able to see the date that you activated the subscription, as well as the date it expired.  
+   > [!div class="mx-imgBorder"]
+   > ![Pluralsight tile after expiration](_img/vs-pluralsight/vs-pluralsight-expired.png "After expiration, the link to Pluralsight will be removed and the dates the subscription was active will appear at the bottom of the tile.")
+
 
 ## Eligibility
 
