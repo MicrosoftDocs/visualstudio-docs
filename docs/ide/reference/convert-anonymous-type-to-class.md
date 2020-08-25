@@ -10,6 +10,7 @@ dev_langs:
   - VB
 ms.workload:
   - "dotnet"
+monikerRange: '>= azure-devops-2019'
 ---
 # Convert anonymous type to class
 
