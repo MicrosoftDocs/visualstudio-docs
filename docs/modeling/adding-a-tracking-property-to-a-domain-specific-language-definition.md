@@ -40,7 +40,7 @@ In this walkthrough, you create a domain-specific language (DSL) that has a Name
 
 Before you can start this walkthrough, you must first install these components:
 
-| | |
+| Component | Link |
 |-|-|
 | Visual Studio | [http://go.microsoft.com/fwlink/?LinkID=185579](https://visualstudio.microsoft.com/) |
 | [!INCLUDE[vssdk_current_short](../modeling/includes/vssdk_current_short_md.md)] | [http://go.microsoft.com/fwlink/?LinkID=185580](/azure/devops/integrate/index?view=azure-devops&viewFallbackFrom=vsts) |

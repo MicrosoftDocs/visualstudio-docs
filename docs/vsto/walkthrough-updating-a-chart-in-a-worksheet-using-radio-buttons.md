@@ -51,7 +51,7 @@ ms.workload:
 
 4. Add the following data to **Data for Chart** with cell A4 being the upper left corner, and E8 the lower right corner.
 
-   ||Q1|Q2|Q3|Q4|
+   |Region / Quarter|Q1|Q2|Q3|Q4|
    |-|--------|--------|--------|--------|
    |West|500|550|550|600|
    |East|600|625|675|700|

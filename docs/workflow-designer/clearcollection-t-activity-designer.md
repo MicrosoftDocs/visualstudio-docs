@@ -1,5 +1,5 @@
 ---
-title: "Workflow Designer - ClearCollection<T> Activity Designer"
+title: "Workflow Designer - ClearCollection&lt;T&gt; Activity Designer"
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:

@@ -24,10 +24,8 @@ The **Minimal WinForm Designer** DSL template creates a minimal DSL that you can
 
     In this walkthrough, the following names are assumed:
 
-   | | |
-   |-|-|
-   | Solution and DSL name | FarmApp |
-   | Namespace | Company.FarmApp |
+    - Solution and DSL name: `FarmApp`
+    - Namespace: `Company.FarmApp`
 
 2. Experiment with the initial example that the template provides:
 

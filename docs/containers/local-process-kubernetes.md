@@ -2,10 +2,13 @@
 title: "Use Local Process with Kubernetes with Visual Studio (Preview)"
 ms.technology: vs-azure
 ms.date: 06/02/2020
-ms.topic: "conceptual"
+ms.topic: "how-to"
 description: "Learn how to use Local Process with Kubernetes with Visual Studio to connect your development computer to a Kubernetes cluster"
 keywords: "Local Process with Kubernetes, Azure Dev Spaces, Dev Spaces, Docker, Kubernetes, Azure, containers"
 monikerRange: ">=vs-2019"
+ms.author: ghogen
+author: ghogen
+manager: jillfra
 ---
 
 # Use Local Process with Kubernetes (Preview)
@@ -132,9 +135,13 @@ Remove the breakpoint by putting your cursor on line 26 in `BikesHelper.cs` and 
 >
 > If Visual Studio abruptly ends the connection to the cluster or terminates, the service you are redirecting may not be restored to its original state before you connected with Local Process with Kubernetes. To fix this issue, see the [Troubleshooting guide][troubleshooting].
 
+## Additional configuration
+
+Local Process with Kubernetes can handle routing traffic and replicating environment variables without any additional configuration. If you need to download any files that are mounted to the container in your Kubernetes cluster, such as a ConfigMap file, you can create a `KubernetesLocalProcessConfig.yaml` to download those files to your development computer. For more information, see [Using KubernetesLocalProcessConfig.yaml for additional configuration with for Local Process with Kubernetes][kubernetesLocalProcessConfig-yaml].
+
 ## Using logging and diagnostics
 
-You can find the diagnostic logs in `Azure Dev Spaces` directory in your [development computer's *TEMP* directory][azds-tmp-dir].
+You can find the diagnostic logs in `Local Process with Kubernetes` directory in your development computer's *TEMP* directory. 
 
 ## Remove the sample application from your cluster
 
@@ -152,7 +159,6 @@ Learn how Local Process Kubernetes works.
 > [How Local Process with Kubernetes works](overview-local-process-kubernetes.md)
 
 [azds-cli]: /azure/dev-spaces/how-to/install-dev-spaces#install-the-client-side-tools
-[azds-tmp-dir]: /azure/dev-spaces/troubleshooting#before-you-begin
 [azds-vs-code]: https://marketplace.visualstudio.com/items?itemName=azuredevspaces.azds
 [azure-cli]: /cli/azure/install-azure-cli?view=azure-cli-lates
 [azure-cloud-shell]: /azure/cloud-shell/w.md
@@ -165,3 +171,4 @@ Learn how Local Process Kubernetes works.
 [troubleshooting]: /azure/dev-spaces/troubleshooting#fail-to-restore-original-configuration-of-deployment-on-cluster
 [visual-studio]: https://www.visualstudio.com/vs/
 [lpk-extension]: https://marketplace.visualstudio.com/items?itemName=ms-azuretools.mindaro
+[kubernetesLocalProcessConfig-yaml]: configure-local-process-with-kubernetes.md
