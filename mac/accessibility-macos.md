@@ -1,7 +1,7 @@
 ---
 title: "Using macOS accessibility options"
 description: "Using macOS accessibility options and features, such as high contrast, keyboard navigation, and VoiceOver"
-author: alanjclark
+author: heiligerdankgesang
 ms.author: dominicn
 ms.date: 09/23/2019
 ms.assetid: 598FC25A-6DA3-44BB-B128-AD979E9F86EA

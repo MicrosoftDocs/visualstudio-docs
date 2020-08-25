@@ -443,6 +443,8 @@
       href: common-msbuild-project-properties.md
     - name: Common MSBuild project items
       href: common-msbuild-project-items.md
+    - name: Common MSBuild item metadata
+      href: common-msbuild-item-metadata.md
     - name: MSBuild command-line reference
       href: msbuild-command-line-reference.md
     - name: MSBuild .targets files
@@ -451,6 +453,8 @@
       href: msbuild-well-known-item-metadata.md
     - name: MSBuild response files
       href: msbuild-response-files.md
+    - name: Solution filters in MSBuild
+      href: solution-filters.md
     - name: WPF reference
       items:
       - name: Overview

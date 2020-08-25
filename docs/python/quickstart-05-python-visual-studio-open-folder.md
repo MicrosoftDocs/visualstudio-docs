@@ -72,7 +72,7 @@ In such cases, you must also add a line to the launch configuration JSON file to
     ![The Debug and Launch Settings command for a Python file](media/quickstart-open-folder/10-select-debugger.png)
 
     > [!Note]
-    > If you don't see **Default** as a choice, be sure that you right-clicked a Python *.py* file when selecting the **Debug and Launch Settings** command. Visual Studio uses the file type to determine while debugger options to display.
+    > If you don't see **Default** as a choice, be sure that you chose a Python *.py* file when selecting the **Debug and Launch Settings** command. Visual Studio uses the file type to determine which debugger options to display.
 
 1. Visual Studio opens a file named *launch.vs.json*, which is located in the hidden *.vs* folder. This file describes the debugging context for the project. To specify a working directory, add a value for `"workingDirectory"`, as in  `"workingDirectory": "python3"` for python-koans example:
 

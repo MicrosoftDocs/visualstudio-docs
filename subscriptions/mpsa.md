@@ -12,13 +12,13 @@ description:  Visual Studio subscriptions in a Microsoft Products and Services A
 # Visual Studio subscriptions in a Microsoft Products and Services Agreement (MPSA)
 If you have purchased Visual Studio Subscriptions through the MPSA program, there are a few things to be aware of before you can become a Visual Studio subscriptions administrator and assign subscriptions to your users. If you have already been set up as an administrator, you can go directly to the Visual Studio subscriptions [Administration Portal](https://manage.visualstudio.com/).
 
-MPSA customers now manage assets purchased through MPSA in a new portal called the [Business Center](https://businessaccount.microsoft.com/Customer), which supports functionalities similar to the Volume Licensing Service Center (VLSC). These include viewing your License Summary, Orders, Downloads, Keys, Users, etc. However, Visual Studio subscriptions in MPSA behave much like Cloud Services. The Business Center also uses work accounts to sign in, instead of Microsoft Accounts (MSA). If your organization uses cloud services such as Office 365 or Azure Active Directory, and your email is part of either of these two services, it is already a work account. This will allow you to register to Business Center with your existing password. If your organization is not using cloud services and your email is not a work account, you may use it to register to the Business Center.
+MPSA customers now manage assets purchased through MPSA in a new portal called the [Business Center](https://businessaccount.microsoft.com/Customer), which supports functionalities similar to the Volume Licensing Service Center (VLSC). These include viewing your License Summary, Orders, Downloads, Keys, Users, etc. However, Visual Studio subscriptions in MPSA behave much like Cloud Services. The Business Center also uses work accounts to sign in, instead of Microsoft Accounts (MSA). If your organization uses cloud services such as Microsoft 365 or Azure Active Directory, and your email is part of either of these two services, it is already a work account. This will allow you to register to Business Center with your existing password. If your organization is not using cloud services and your email is not a work account, you may use it to register to the Business Center.
 
 In addition, the Visual Studio subscriptions [Administration Portal](https://manage.visualstudio.com/) is where the subscriptions will be assigned to subscribers once you become a Visual Studio subscriptions administrator. In MPSA, Visual Studio subscriptions must be provisioned to their respective management portal, which is the Visual Studio Subscriptions Administration Portal. To do that, you need to associate your Purchasing Account to a tenant (i.e. contoso.onmicrosoft.com).
 
 Please note that there are two types of tenants - managed tenants and unmanaged tenants. A managed tenant refers to a tenant that is already being managed by administrators within the organization.
 
-An unmanaged tenant is a tenant without any administrators assigned and is not usable for Online Services such as Office 365. Unmanaged tenants are also created when registering to the Business Center with an email that is not a work account. If you were asked to create a password when registering to the Business Center, this means your email was not a work account and it created an unmanaged tenant.
+An unmanaged tenant is a tenant without any administrators assigned and is not usable for Online Services such as Microsoft 365. Unmanaged tenants are also created when registering to the Business Center with an email that is not a work account. If you were asked to create a password when registering to the Business Center, this means your email was not a work account and it created an unmanaged tenant.
 
 Here are a few requirements/steps needed to become a Visual Studio Subscriptions administrator prior to completing the tenant association.
 
@@ -34,14 +34,14 @@ Here are a few requirements/steps needed to become a Visual Studio Subscriptions
 
 Once you have met the criteria above you may proceed to associate your Purchasing Account to your tenant following the steps below.
 1. Log in to [Business Center](https://businessaccount.microsoft.com/Customer).
-2. Click on the **Account** tab and choose **Associate Domains**.
+2. Select the **Account** tab and choose **Associate Domains**.
 3. Select your **Purchasing Account** (if you have more than one).
 4. Select your **tenant** (i.e. contoso.onmicrosoft.com).
-5. Click **Associate Domain**.
+5. Select **Associate Domain**.
 
 Upon association, all users meeting the criteria will typically provision as Visual Studio subscriptions administrators within minutes. However, at times it may take up to 24 hours. Once your tenant is provisioned you will be able to access the Visual Studio Subscriptions Administration Portal. If this takes longer than 24 hours, please contact MPSA Support using these steps:
 1. Connect to <https://www.microsoft.com/licensing/mpsa/default>
-2. Click the **More** menu at the top of the page. 
+2. Select the **More** menu at the top of the page. 
 3. Choose **Support**
 4. Choose **Licensing support**
 5. Select the support option that best fits your needs. 

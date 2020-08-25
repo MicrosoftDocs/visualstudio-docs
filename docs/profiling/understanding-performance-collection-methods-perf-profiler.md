@@ -1,5 +1,5 @@
 ---
-title: "Understanding Performance Collection Methods | Microsoft Docs"
+title: Understand profiler performance collection methods
 ms.date: "4/30/2020"
 ms.topic: "conceptual"
 f1_keywords:
@@ -13,7 +13,7 @@ ms.workload:
   - "multiple"
 ---
 
-# Understand performance collection methods
+# Understand profiler performance collection methods
 
 This document outlines the data collection methods that tools within the Visual Studio Performance Profiler utilize. 
 

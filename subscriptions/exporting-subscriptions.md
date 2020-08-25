@@ -2,7 +2,7 @@
 title: Export subscription information | Microsoft Docs
 author: evanwindom
 ms.author: lank
-manager: lank
+manager: cabuschl
 ms.assetid: 14e4cffb-a695-436c-b269-7820f7411f4e
 ms.date: 03/03/2020
 ms.topic: conceptual
@@ -17,7 +17,7 @@ Having all your subscriber information in one place can help you do things like:
 - Develop plans and budgets for future subscription purchases. 
 - Encourage users who have subscriptions assigned to activate.
 - Take proactive action before subscriptions expire.  
-- Identify where subscriptions may be overallocated. 
+- Identify where subscriptions may be over-allocated. 
 - Assign subscriptions using the subscription ID to control which expiration date your subscribers have on their subscriptions. 
 
 ## Export your subscriptions
@@ -25,7 +25,7 @@ To perform the export:
 1. Sign in to the [Administration Portal](https://manage.visualstudio.com).
 2. Select the **Export** tab. and the file will download to your local machine. The file will include the name of the agreement that contains your user subscriptions, as well as the date of the export.
 > [!div class="mx-imgBorder"]
-> ![Export subscribers](_img/exporting-subscriptions/exporting-subscriptions.png)
+> ![Export subscribers](_img/exporting-subscriptions/exporting-subscriptions.png "Click Export to download a complete list of your assigned subscriptions.")
 
 ## See also
 - [Visual Studio documentation](https://docs.microsoft.com/visualstudio/)
