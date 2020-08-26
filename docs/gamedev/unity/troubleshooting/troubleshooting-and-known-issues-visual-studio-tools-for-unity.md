@@ -78,7 +78,7 @@ When using the new Unity runtime, .NET targeting packs version 4.6 and 4.7.1 are
 
 ## Assembly reference issues
 
-If your project is complex reference-wise or if you want to better control this generation step, you can use our [API](~/cross-platform/customize-project-files-created-by-vstu.md) for manipulating the generated project or solution content. You can also use [response files](https://docs.unity3d.com/Manual/PlatformDependentCompilation.html) in your Unity project and we'll process them.
+If your project is complex reference-wise or if you want to better control this generation step, you can use our [API](/cross-platform/customize-project-files-created-by-vstu.md) for manipulating the generated project or solution content. You can also use [response files](https://docs.unity3d.com/Manual/PlatformDependentCompilation.html) in your Unity project and we'll process them.
 
 ## Breakpoints with a warning
 

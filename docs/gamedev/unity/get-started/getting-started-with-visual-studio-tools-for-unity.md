@@ -21,7 +21,7 @@ zone_pivot_groups: platform
 
 ## Install Unity support for Visual Studio
 
-Visual Studio Tools for Unity is a free extension that provides support for writing and debugging C# and more. Visit the [Tools for Unity overview](./visual_studio-tools-for-unity.md) for a complete list of what the extensions includes.
+Visual Studio Tools for Unity is a free extension that provides support for writing and debugging C# and more. Visit the [Tools for Unity overview](./visual-studio-tools-for-unity.md) for a complete list of what the extensions includes.
 
 > [!NOTE]
 > This installation guide is for Visual Studio and Visual Studio for Mac. If you're using Visual Studio Code, please visit the [Unity Development with VS Code documentation](https://code.visualstudio.com/docs/other/unity).

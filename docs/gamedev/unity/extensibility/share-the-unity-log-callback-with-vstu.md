@@ -1,8 +1,10 @@
 ---
 title: "Share the Unity Log Callback with VSTU | Microsoft Docs"
+description: "Learn how to register a log callback with Unity to stream logs to the console."
 ms.custom: ""
 ms.date: "07/26/2018"
 ms.technology: vs-unity-tools
+ms.prod: visual-studio-dev16
 ms.topic: how-to
 ms.assetid: 5d71f906-6e50-4399-b59b-d38c6dfef7ee
 author: therealjohn
@@ -43,4 +45,4 @@ public class LogCallbackHook
 ```
 
 ## See also
- [Example: Project file generation](../cross-platform/customize-project-files-created-by-vstu.md)
+ [Example: Project file generation](./customize-project-files-created-by-vstu.md)

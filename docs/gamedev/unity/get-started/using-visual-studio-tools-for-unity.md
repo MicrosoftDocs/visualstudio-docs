@@ -1,5 +1,6 @@
 ---
 title: "Using Visual Studio Tools for Unity | Microsoft Docs"
+description: "Learn how to use Visual Studio Tools for Unity's integration and productivity features."
 ms.custom: ""
 ms.date: "07/03/2018"
 ms.technology: vs-unity-tools
@@ -24,10 +25,10 @@ Once Visual Studio is [set as the external editor for Unity](getting-started-wit
 Alternatively, you can open Visual Studio with no script open in the source editor by selecting the **Assets > Open C# Project** menu in Unity.
 
 :::zone pivot="windows"
-![Open C# project](../media/vs/vstu-open-csharp-project.png)
+![Open C# project in Visual Studio](../media/vs/vstu-open-csharp-project.png)
 :::zone-end
 :::zone pivot="macos"
-![Open C# project](../media/vsm/vstu-open-csharp-project.png)
+![Open C# project in Visual Studio for Mac](../media/vsm/vstu-open-csharp-project.png)
 :::zone-end
 
 ## Unity documentation access
@@ -37,12 +38,12 @@ You can access the Unity scripting documentation quickly from Visual Studio. If 
 :::zone pivot="windows"
 - In Visual Studio, highlight or place the cursor over the Unity API you want to learn about, then press **Ctrl**+**Alt**+**M**, **Ctrl**+**H**
 - You can also use the **Help > Unity API Reference** menu instead of the keybinding.
-![The Unity API Reference menu](../media/vs/help-unity-documentation.png)
+![The Unity API Reference menu in Visual Studio](../media/vs/help-unity-documentation.png)
 :::zone-end
 :::zone pivot="macos"
 - In Visual Studio for Mac, highlight or place the cursor over the Unity API you want to learn about, then press **Cmd**+**'**
 - You can also use the **Help > Unity API Reference** menu instead of the keybinding.
-![The Unity API Reference menu](../media/vsm/help-unity-documentation.png)
+![The Unity API Reference menu in Visual Studio for Mac](../media/vsm/help-unity-documentation.png)
 :::zone-end
 
 ## Intellisense for Unity API Messages
@@ -56,9 +57,8 @@ Intellisense code-completion makes it easy to implement Unity API messages in Mo
 3. Once the letters "**ontri**" have been typed, a list of IntelliSense suggestions appears.
 
 :::zone pivot="windows"
-![Using IntelliSense in Visual Studio](../media/vs/instellisense-example.png)  
-:::zone-end
-:::zone pivot="macos"
+
+![Using IntelliSense in Visual Studio](../media/vs/intellisense-example.png)  
 
 :::zone-end
 
@@ -79,10 +79,9 @@ Intellisense code-completion makes it easy to implement Unity API messages in Mo
     - By double-clicking the selected item.
 
 :::zone pivot="windows"
+
 ![Insert Unity message from IntelliSense in Visual Studio](../media/vs/vstu_intellisense2.png)
-:::zone-end
-:::zone pivot="macos"
-   
+
 :::zone-end
 
 ## Unity MonoBehavior scripting wizard
@@ -104,9 +103,11 @@ To create empty MonoBehavior method definitions with the MonoBehavior wizard:
 6. Choose the **OK** button to exit the wizard and insert the methods into your code.
 
 :::zone pivot="windows"
+
 ![The monobehavior wizard dialog in Visual Studio.](../media/vs/vstu_monobehavior_wizard.png)
 :::zone-end
 :::zone pivot="macos"
+
 ![The monobehavior wizard dialog in Visual Studio for Mac.](../media/vsm/vstu_monobehavior_wizard.png)
 :::zone-end   
 
@@ -165,7 +166,7 @@ Click the **Stop** button in Visual Studio for Mac, or press **Shift + Command +
 
 :::zone-end
 
-To learn more about debugging in Visual Studio, see [First look at the Visual Studio Debugger](~/debugger/debugger-feature-tour.md).
+To learn more about debugging in Visual Studio, see [First look at the Visual Studio Debugger](/debugger/debugger-feature-tour.md).
 
 #### Attach to Unity and Play
 
@@ -269,7 +270,7 @@ Note that the scenario described here assumes that you have the source code—th
 
    The PDB files are needed for debugging because they contain the DLL's debugging symbols, and map the DLL code to its source code form. If you are targeting the legacy runtime, Visual Studio Tools for Unity will use information from the DLL and PDB to create a DLL.MDB file, which is the debug symbol format used by the legacy Unity scripting engine. If you are targeting the new runtime, and using Portable-PDB, Visual Studio Tools for Unity will not try to do any symbol conversion as the new Unity runtime is able to natively consume Portable-PDBs.
 
-   More information about PDB generation can be found [here](~/debugger/how-to-set-debug-and-release-configurations.md). If you are targeting the new runtime, please make sure that "Debugging Information" is set to "Portable", in order to properly generate Portable-PDB. If you are targeting the legacy runtime, you need to use "Full".
+   More information about PDB generation can be found [here](/debugger/how-to-set-debug-and-release-configurations.md). If you are targeting the new runtime, please make sure that "Debugging Information" is set to "Portable", in order to properly generate Portable-PDB. If you are targeting the legacy runtime, you need to use "Full".
 
 4. Debug your code. You can now debug your DLL source code together with your Unity project's source code, and use all the debugging features you are used to, such as breakpoints and stepping through code.
 

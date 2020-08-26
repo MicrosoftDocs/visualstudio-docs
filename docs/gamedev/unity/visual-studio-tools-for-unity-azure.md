@@ -1,5 +1,6 @@
 ---
 title: "Programming with Visual Studio Tools for Unity and Azure | Microsoft Docs"
+description: "Unity's experimental support for .NET 4.6 makes Azure integration simpler than ever by allowing use of Azure .NET SDKs."
 ms.custom: ""
 ms.date: "12/18/2017"
 ms.reviewer: "crdun"

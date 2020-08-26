@@ -1764,9 +1764,9 @@ Released November 28, 2012
 
 - Parsing of Info console message, so that clicking in the Error List take you to the first stackframe with symbols.
 
-- Add an [API](../cross-platform/customize-project-files-created-by-vstu.md) to let user participate in the project generation.
+- Add an [API](extensibility/customize-project-files-created-by-vstu.md) to let user participate in the project generation.
 
-- Add an [API](../cross-platform/share-the-unity-log-callback-with-vstu.md) to let user participate in the LogCallback.
+- Add an [API](extensibility/share-the-unity-log-callback-with-vstu.md) to let user participate in the LogCallback.
 
 ### Bug fixes
 

@@ -66,4 +66,4 @@ public class ProjectFileHook
 ```
 
 ## See also
- [Example: Log callback](../cross-platform/share-the-unity-log-callback-with-vstu.md)
+ [Example: Log callback](/cross-platform/share-the-unity-log-callback-with-vstu.md)
