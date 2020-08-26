@@ -65,7 +65,7 @@ And, you can see that the container is running in a public IP and working correc
    docker logs distracted-jackson
    ```
 
-1. We can also exec into our container as we would with a local container 
+1. You can also exec into your container as you would with a local container.
  
  ```bash
    docker exec -it distracted-jackson sh
