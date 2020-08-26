@@ -370,12 +370,14 @@
           href: ca1305.md
         - name: "CA1306: Set locale for data types"
           href: ca1306.md
-        - name: "CA1307: Specify StringComparison"
+        - name: "CA1307: Specify StringComparison for clarity"
           href: ca1307.md
         - name: "CA1308: Normalize strings to uppercase"
           href: ca1308.md
         - name: "CA1309: Use ordinal StringComparison"
           href: ca1309.md
+        - name: "CA1310: Specify StringComparison for correctness"
+          href: ca1310.md
         - name: "CA2101: Specify marshaling for P-Invoke string arguments"
           href: ca2101.md
       - name: Interoperability warnings
