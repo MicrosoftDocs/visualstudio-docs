@@ -11291,6 +11291,11 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "docker/index.md",
+      "redirect_url": "/visualstudio/docker/tutorials/docker-tutorial",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "scripting-docs/winscript/reference/includes/vista-first-md.md",
       "redirect_url": "https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/windows-scripting/reference/includes/vista-first",
       "redirect_document_id": false
