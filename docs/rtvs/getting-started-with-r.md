@@ -132,7 +132,7 @@ One of the key strengths of Visual Studio is its debugging UI. RTVS builds on to
 
 1. To begin, reset the current workspace to clear everything you've done so far by using the **R Tools** > **Session** > **Reset** menu command. By default, everything you do in the interactive window accrues to the current session, which is then also used by the debugger. By resetting the session, you ensure that the debugging session starts with no pre-existing data. The **Reset** command, however, doesn't affect your *script.R* source file, because that's managed and saved outside of the workspace.
 
-1. With the *script.R* file created in the previous section, set a breakpoint on the line that begins with `pop <-` by placing the caret on that line and then pressing **F9**, or selecting the **Debug** > **Toggle Breakpoint** menu command. Alternately, simply click in the left-hand margin (or gutter) for that line where the red breakpoint dot appears:
+1. With the *script.R* file created in the previous section, set a breakpoint on the line that begins with `pop <-` by placing the caret on that line and then pressing **F9**, or selecting the **Debug** > **Toggle Breakpoint** menu command. Alternatively, click in the left-hand margin (or gutter) for that line where the red breakpoint dot appears:
 
     ![Setting a breakpoint in the editor](media/getting-started-11-debug1.png)
 

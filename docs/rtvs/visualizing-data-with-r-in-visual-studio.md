@@ -66,7 +66,7 @@ You create a new plot window using the toolbar button or **R Tools** > **Plots**
 
 Plots, too, are independent objects, which means you can copy or move them between plot windows using either drag-and-drop with the mouse, or by using the **Copy**, **Cut**, and **Paste** commands on the right-click context and **Edit** menus.
 
-The default behavior for drag-and-drop is copy; to move, drag-and-drop while holding down the **Shift** key.
+The default behavior for drag-and-drop is copy; to move, drag-and-drop while pressing the **Shift** key.
 
 ## Plot history
 
@@ -77,7 +77,7 @@ The history gives you a list of thumbnails for the plots that have been displaye
 
 ![Plot history window](media/plotting-plot-history-window.png)
 
-To open a plot in its associated window, double-click that plot, select it, and then select the **Show Plot** toolbar button or right-click and select **Show Plot**. You can also select an individual plot and copy, cut, or delete from the right-click context or **Edit** menus.
+To open a plot in its associated window, double-click that plot, select it, and then select the **Show Plot** toolbar button. Alternatively, right-click the plot and select **Show Plot**. You can also select an individual plot and copy, cut, or delete from the context or **Edit** menus.
 
 The lifetime of your plot history across all windows is bound to the lifetime of your interactive R session. If you reset your R session, or exit and restart Visual Studio, your plot history is reset.
 

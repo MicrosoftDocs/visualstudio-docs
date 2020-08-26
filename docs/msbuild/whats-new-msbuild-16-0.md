@@ -1,5 +1,5 @@
 ---
-title: What&#39;s New in MSBuild 16.0  | Microsoft Docs
+title: What&apos;s New in MSBuild 16.0  | Microsoft Docs
 ms.date: 03/11/2019
 ms.topic: conceptual
 author: ghogen
