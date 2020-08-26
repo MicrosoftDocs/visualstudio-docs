@@ -285,7 +285,7 @@ If you twirl down the network, you will see the two containers you defined in th
 
 ## Tear it all down
 
-When you're ready to tear it all down, simply run `docker-compose down`, or right click on the application in the containers list in the VSCode Docker extension and select Compose down. The containers will stop and the network will be removed.
+When you're ready to tear it all down, simply run `docker-compose down`, or right-click on the application in the containers list in the VS Code Docker extension and select **Compose Down**. The containers will stop and the network will be removed.
 
 > [!WARNING]
 > **Removing Volumes**
