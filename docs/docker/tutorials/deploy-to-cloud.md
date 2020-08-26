@@ -28,7 +28,7 @@ You should only see your default context for local work.
 
 You'll need to set up an Azure account if you don’t already have one.
 
-1. Now you can create your new ACI context, you can do this by clicking the plus button on the contexts section of the Docker pannel
+1. Now you can create your new ACI context. You can do this by clicking the plus button on the **Contexts** section of the Docker view.
 
    ![Creating your ACI context](media/createnewcontext.png)
 
