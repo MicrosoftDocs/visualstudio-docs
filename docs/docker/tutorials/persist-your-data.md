@@ -129,7 +129,7 @@ The `Mountpoint` is the actual location on the disk where the data is stored. No
 
 > [!NOTE]
 > **Accessing Volume data directly on Docker Desktop**
-> While running in Docker Desktop, the Docker commands are actually running inside a small VM on your machine. If you wanted to look at the actual contents of the *Mountpoint* directory, you would need to first get inside of the VM. In WSL 2 this is inside a WSL 2 distro and can be accessed through the file explorer 
+> While running in Docker Desktop, the Docker commands are actually running inside a small VM on your machine. If you wanted to look at the actual contents of the *Mountpoint* directory, you would need to first get inside of the VM. In WSL 2, this is inside a WSL 2 distro and can be accessed through the File Explorer.
 
 ## Recap
 
