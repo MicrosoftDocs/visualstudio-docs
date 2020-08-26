@@ -59,7 +59,7 @@ You can now see your ACI context listed and can right-click it to make it your c
 
 And, you can see that the container is running in a public IP and working correctly!
 
-1. Now we can have a look at our running container to see how it is working, we can start by having a look at the container logs
+1. Now, you can have a look at our running container to see how it is working. You can start by having a look at the container logs:
  
  ```bash
    docker logs distracted-jackson
