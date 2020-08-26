@@ -237,7 +237,7 @@ Now that you have the `docker-compose.yml` file, you can start it up!
 
 1. First, make sure no other copies of the app and database are running (`docker ps` and `docker rm -f <ids>`).
 
-1. Start up the application stack using the `docker-compose up` command. Add the `-d` flag to run everything in the background. Alternatively you can right click on your Compose file and select the compose up option for the VSCode side bar. 
+1. Start up the application stack using the `docker-compose up` command. Add the `-d` flag to run everything in the background. Alternatively, you can right-click on your Compose file and select the **Compose Up** option for the VS Code side bar. 
 
     ```bash
     docker-compose up -d
