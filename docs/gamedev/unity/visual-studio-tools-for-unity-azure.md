@@ -4,6 +4,7 @@ ms.custom: ""
 ms.date: "12/18/2017"
 ms.reviewer: "crdun"
 ms.technology: vs-unity-tools
+ms.prod: visual-studio-dev16
 ms.topic: "conceptual"
 ms.assetid: 7921D4C7-5526-42F5-8E03-82D3E33A893F
 author: therealjohn
@@ -34,4 +35,4 @@ Visit [The Sandbox](/sandbox/) to try the following experimental Azure SDKs with
 There is also a [simple sample game](/sandbox/gamedev/unity/samples/azure-mobile-apps-unity-racer)
 using the Azure Easy Tables SDK and Unity. The game uses Azure Easy Tables data storage to track the high score leaderboard and store in-game telemetry, and is available for [download from GitHub](https://github.com/BrianPeek/AzureSamples-Unity).
 
-![Sample game screenshot](media/vstu_azure-test-sample-game-image2.png)
+![Sample game screenshot](media/vs/vstu_azure-test-sample-game-image2.png)

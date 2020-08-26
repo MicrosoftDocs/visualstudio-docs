@@ -1,8 +1,10 @@
 ---
 title: "Change Log (Visual Studio Tools for Unity, Windows) | Microsoft Docs"
+description: "View changes to Visual Studio Tools for Unity in Visual Studio."
 ms.custom: ""
 ms.date: "7/30/2020"
 ms.technology: vs-unity-tools
+ms.prod: visual-studio-dev16
 ms.topic: "conceptual"
 ms.assetid: ea490b7e-fc0d-44b1-858a-a725ce20e396
 author: therealjohn

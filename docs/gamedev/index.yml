@@ -18,7 +18,7 @@ highlightedContent:
       url: unity/get-started/getting-started-with-visual-studio-tools-for-unity.md
     - title: Tour Visual Studio Tools for Unity
       itemType: overview
-      url: unity/visual-studio-tools-for-unity.md
+      url: unity/get-started/visual-studio-tools-for-unity.md
     - title: C++ game development with Unreal Engine
       itemType: learn
       url: https://visualstudio.microsoft.com/vs/features/game-development/

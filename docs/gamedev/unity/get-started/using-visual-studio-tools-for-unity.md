@@ -3,7 +3,7 @@ title: "Using Visual Studio Tools for Unity | Microsoft Docs"
 ms.custom: ""
 ms.date: "07/03/2018"
 ms.technology: vs-unity-tools
-ms.prod: visual-studio-family
+ms.prod: visual-studio-dev16
 ms.topic: how-to
 ms.assetid: e67ec9a2-a449-413e-8930-9a471bd43a06
 author: therealjohn
@@ -54,11 +54,12 @@ Intellisense code-completion makes it easy to implement Unity API messages in Mo
 2. Begin typing the name of a Unity message, such as `OnTriggerEnter`.
 
 3. Once the letters "**ontri**" have been typed, a list of IntelliSense suggestions appears.
+
 :::zone pivot="windows"
-![Using IntelliSense](../media/vs/vstu_intellisense1.png)  
+![Using IntelliSense in Visual Studio](../media/vs/instellisense-example.png)  
 :::zone-end
 :::zone pivot="macos"
-   
+
 :::zone-end
 
 4. The selection on the list can be changed in three ways:
@@ -78,7 +79,7 @@ Intellisense code-completion makes it easy to implement Unity API messages in Mo
     - By double-clicking the selected item.
 
 :::zone pivot="windows"
-![Insert Unity message from IntelliSense](../media/vs/vstu_intellisense2.png)
+![Insert Unity message from IntelliSense in Visual Studio](../media/vs/vstu_intellisense2.png)
 :::zone-end
 :::zone pivot="macos"
    
@@ -103,10 +104,10 @@ To create empty MonoBehavior method definitions with the MonoBehavior wizard:
 6. Choose the **OK** button to exit the wizard and insert the methods into your code.
 
 :::zone pivot="windows"
-![The monobehavior wizard dialog.](../media/vs/vstu_monobehavior_wizard.png "vstu_monobehavior_wizard_full")
+![The monobehavior wizard dialog in Visual Studio.](../media/vs/vstu_monobehavior_wizard.png)
 :::zone-end
 :::zone pivot="macos"
-![The monobehavior wizard dialog.](../media/vsm/vstu_monobehavior_wizard.png "vstu_monobehavior_wizard_full")
+![The monobehavior wizard dialog in Visual Studio for Mac.](../media/vsm/vstu_monobehavior_wizard.png)
 :::zone-end   
 
 ## Unity Project Explorer
@@ -129,22 +130,22 @@ Visual Studio Tools for Unity lets you debug both editor and game scripts for yo
 :::zone pivot="windows"
 
 1. Connect Visual Studio to Unity by clicking the **Play** button labeled **Attach to Unity**, or use the keyboard shortcut **F5**.
-![Click Play in Visual Studio](../media/vstu_play-button.png)
+![Click Play in Visual Studio](../media/vs/vstu_play-button.png)
 
 :::zone-end
 :::zone pivot="macos"
 
 1. Connect Visual Studio to Unity by clicking the **Play** button, or type **Command + Return**, or **F5**.
-![Click Play in Visual Studio](../media/using-vsmac-tools-unity-image5.png)
+![Click Play in Visual Studio for Mac](../media/vsm/using-vsmac-tools-unity-image5.png)
 
 :::zone-end
 
 2. Switch to Unity and click the **Play** button to run the game in the editor.
 :::zone pivot="windows"
-![Click Play in Unity](../media/vstu_unity-play-button.png)
+![Click Play in Unity on Windows](../media/vs/vstu_unity-play-button.png)
 :::zone-end
 :::zone pivot="macos"
-![Click Play in Unity](../media/using-vsmac-tools-unity-image6.png)
+![Click Play in Unity on macOS](../media/vsm/using-vsmac-tools-unity-image6.png)
 :::zone-end
 
 3. When the game is running in the Unity editor while connected to Visual Studio, any breakpoints encountered will pause execution of the game and bring up the line of code where the game hit the breakpoint in Visual Studio.
@@ -154,17 +155,17 @@ Visual Studio Tools for Unity lets you debug both editor and game scripts for yo
 :::zone pivot="windows"
 
 Click the **Stop** button in Visual Studio, or use the keyboard shortcut **Shift + F5**.
-![Click Stop in Visual Studio](../media/vstu_stop-debugger.png)
+![Click Stop in Visual Studio](../media/vs/vstu_stop-debugger.png)
 
 :::zone-end
 :::zone pivot="macos"
 
 Click the **Stop** button in Visual Studio for Mac, or press **Shift + Command + Return**.
-![Click Stop in Visual Studio](../media/using-vsmac-tools-unity-image7.png)
+![Click Stop in Visual Studio for Mac](../media/vsm/using-vsmac-tools-unity-image7.png)
 
 :::zone-end
 
-To learn more about debugging in Visual Studio, see [First look at the Visual Studio Debugger](../debugger/debugger-feature-tour.md).
+To learn more about debugging in Visual Studio, see [First look at the Visual Studio Debugger](~/debugger/debugger-feature-tour.md).
 
 #### Attach to Unity and Play
 
@@ -174,7 +175,7 @@ For added convenience, you can change the **Attach to Unity** button to **Attach
 
 1. Click the small **down arrow** next to the **Attach to Unity** button.
 2. Select **Attach to Unity and Play** from the dropdown menu.
-   ![Attach and play](../media/vstu_attach-and-play.png)
+   ![Attach and play in Visual Studio](../media/vs/vstu_attach-and-play.png)
 
 The play button becomes labeled **Attach to Unity and Play**. Clicking this button or using the keyboard shortcut **F5** now automatically switches to the Unity editor and runs the game in the editor, in addition to attaching the Visual Studio debugger.
 
@@ -182,7 +183,7 @@ The play button becomes labeled **Attach to Unity and Play**. Clicking this butt
 :::zone pivot="macos"
 Starting debugging and playing the Unity editor can be completed in a single step directly from Visual Studio for Mac by choosing the **Attach to Unity and Play** configuration.
 
-![Select Attach to Unity and Play](../media/using-vsmac-tools-unity-image8.png)
+![Select Attach to Unity and Play in Visual Studio for Mac](../media/vsm/using-vsmac-tools-unity-image8.png)
 :::zone-end
 
 > [!NOTE]
@@ -197,7 +198,7 @@ You can debug development builds of Unity players with Visual Studio.
 1. In Unity, open the Build Settings by selecting **File > Build Settings**.
 2. In the Build Settings window, mark the **Development Build** and **Script Debugging** checkboxes.
 
-   ![Configure the Unity build settings for debugging.](../cross-platform/media/vstu_debugging_build_settings.png "vstu_debugging_build_settings")
+   ![Configure the Unity build settings for debugging.](../media/vs/vstu_debugging_build_settings.png "vstu_debugging_build_settings")
 
 #### Select a Unity instance to attach the debugger to
 
@@ -205,11 +206,11 @@ You can debug development builds of Unity players with Visual Studio.
 
 - In Visual Studio, on the main menu, choose **Debug > Attach Unity Debugger**.
 
-   ![Attach the debugger of Unity.](../cross-platform/media/vstu_debugging_attach_unity_debugger.png "vstu_debugging_attach_unity_debugger")
+   ![Attach the debugger of Unity.](../media/vs/vstu_debugging_attach_unity_debugger.png "vstu_debugging_attach_unity_debugger")
 
    The **Select Unity Instance** dialog displays some information about each Unity instance that you can connect to.
 
-   ![Choose an instance of Unity to connect to.](../cross-platform/media/vstu_attach-debugger.png "vstu_connection_to_unity")
+   ![Choose an instance of Unity to connect to.](../media/vs/vstu_attach-debugger.png "vstu_connection_to_unity")
 
    **Project**
 
@@ -249,7 +250,7 @@ Note that the scenario described here assumes that you have the source code—th
 
 1. Add your existing DLL project to the Visual Studio solution generated by Visual Studio Tools for Unity. Less commonly, you might be starting a new managed DLL project to contain code components in your Unity project; if that's the case, you can add a new managed DLL project to the Visual Studio solution instead. For more information on adding a new or existing project to a solution, see [How to: Add Projects to a Solution](https://msdn.microsoft.com/library/ff460187.aspx).
 
-   ![Add your existing DLL project to the solution.](../cross-platform/media/vstu_debugging_dll_add_existing.png "vstu_debugging_dll_add_existing")
+   ![Add your existing DLL project to the solution.](../media/vs/vstu_debugging_dll_add_existing.png "vstu_debugging_dll_add_existing")
 
    In either case, Visual Studio Tools for Unity maintains the project reference, even if it has to regenerate the project and solution files again, so you only need to perform these steps once.
 
@@ -258,7 +259,7 @@ Note that the scenario described here assumes that you have the source code—th
 > [!NOTE]
 > The following is only required if you are using Unity's legacy runtime. If you are using the new Unity runtime, you don't need to use those dedicated 3.5 profiles anymore. Use a .NET 4.x profile compatible with your Unity version.
 
-   ![Set the DLL's target framework to Unity framework.](../cross-platform/media/vstu_debugging_dll_target_framework.png "vstu_debugging_dll_target_framework")
+   ![Set the DLL's target framework to Unity framework.](../media/vs/vstu_debugging_dll_target_framework.png "vstu_debugging_dll_target_framework")
 
 3. Copy the DLL to your Unity project's Asset folder. In Unity, assets are files that are packaged and deployed together with your Unity app so that they can be loaded at run-time. Since DLLs are linked at run time, DLLs must be deployed as assets. To be deployed as an asset, the Unity Editor requires the DLLs to be put inside the Assets folder in your Unity project. There are two ways you can do this:
 
@@ -268,7 +269,7 @@ Note that the scenario described here assumes that you have the source code—th
 
    The PDB files are needed for debugging because they contain the DLL's debugging symbols, and map the DLL code to its source code form. If you are targeting the legacy runtime, Visual Studio Tools for Unity will use information from the DLL and PDB to create a DLL.MDB file, which is the debug symbol format used by the legacy Unity scripting engine. If you are targeting the new runtime, and using Portable-PDB, Visual Studio Tools for Unity will not try to do any symbol conversion as the new Unity runtime is able to natively consume Portable-PDBs.
 
-   More information about PDB generation can be found [here](../debugger/how-to-set-debug-and-release-configurations.md). If you are targeting the new runtime, please make sure that "Debugging Information" is set to "Portable", in order to properly generate Portable-PDB. If you are targeting the legacy runtime, you need to use "Full".
+   More information about PDB generation can be found [here](~/debugger/how-to-set-debug-and-release-configurations.md). If you are targeting the new runtime, please make sure that "Debugging Information" is set to "Portable", in order to properly generate Portable-PDB. If you are targeting the legacy runtime, you need to use "Full".
 
 4. Debug your code. You can now debug your DLL source code together with your Unity project's source code, and use all the debugging features you are used to, such as breakpoints and stepping through code.
 

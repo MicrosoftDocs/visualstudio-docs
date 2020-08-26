@@ -1,8 +1,10 @@
 ---
 title: "Troubleshooting and known issues (VS Tools for Unity)"
+description: "Find solutions to common issues with Visual Studio Tools for Unity, descriptions of known issues, and learn how you provide feedback."
 ms.custom: ""
 ms.date: "07/03/2018"
 ms.technology: vs-unity-tools
+ms.prod: visual-studio-dev16
 ms.topic: troubleshooting
 ms.assetid: 8f5db192-8d78-4627-bd07-dbbc803ac554
 author: therealjohn
@@ -76,7 +78,7 @@ When using the new Unity runtime, .NET targeting packs version 4.6 and 4.7.1 are
 
 ## Assembly reference issues
 
-If your project is complex reference-wise or if you want to better control this generation step, you can use our [API](../cross-platform/customize-project-files-created-by-vstu.md) for manipulating the generated project or solution content. You can also use [response files](https://docs.unity3d.com/Manual/PlatformDependentCompilation.html) in your Unity project and we'll process them.
+If your project is complex reference-wise or if you want to better control this generation step, you can use our [API](~/cross-platform/customize-project-files-created-by-vstu.md) for manipulating the generated project or solution content. You can also use [response files](https://docs.unity3d.com/Manual/PlatformDependentCompilation.html) in your Unity project and we'll process them.
 
 ## Breakpoints with a warning
 

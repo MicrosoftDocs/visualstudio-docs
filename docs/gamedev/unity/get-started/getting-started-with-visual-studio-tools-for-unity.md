@@ -1,9 +1,10 @@
 ---
 title: "Getting Started with Visual Studio Tools for Unity | Microsoft Docs"
+description: "Learn how to install and setup Visual Studio for Unity development."
 ms.custom: ""
 ms.date: "07/13/2020"
 ms.technology: vs-unity-tools
-ms.prod: visual-studio-family
+ms.prod: visual-studio-dev16
 ms.topic: how-to
 ms.assetid: 66b5b4eb-13b5-4071-98d2-87fafa4598a8
 author: "therealjohn"
@@ -20,7 +21,7 @@ zone_pivot_groups: platform
 
 ## Install Unity support for Visual Studio
 
-Visual Studio Tools for Unity is a free extension that provides support for writing and debugging C# and more. Visit the [Tools for Unity overview](visual_studio-tools-for-unity.md) for a complete list of what the extensions includes.
+Visual Studio Tools for Unity is a free extension that provides support for writing and debugging C# and more. Visit the [Tools for Unity overview](./visual_studio-tools-for-unity.md) for a complete list of what the extensions includes.
 
 > [!NOTE]
 > This installation guide is for Visual Studio and Visual Studio for Mac. If you're using Visual Studio Code, please visit the [Unity Development with VS Code documentation](https://code.visualstudio.com/docs/other/unity).
@@ -72,7 +73,7 @@ By default, Unity should already be configured to use Visual Studio or Visual St
 2. Select the **External Tools** tab on the left.
 3. The **External Script Editor** dropdown list provides a way to choose different installations of Visual Studio. You can also click **Browse...** from the dropdown list to add an unlisted version.
 
-    ![The External Tools preference menu in the Unity Editor](../media/vs/preferences-external-tools.png)
+    ![The External Tools preference menu in the Unity Editor on Windows](../media/vs/preferences-external-tools.png)
 
 4. If **Browse...** was selected, navigate to the **Common7/IDE** directory inside your Visual Studio installation directory and select **devenv.exe**. Then, click **Open**.
 5. Once Visual Studio is selected in the **External Script Editor** list, confirm that the **Editor Attaching** checkbox is selected.
@@ -85,7 +86,7 @@ By default, Unity should already be configured to use Visual Studio or Visual St
 2. Select the **External Tools** tab on the left.
 3. The **External Script Editor** dropdown list provides a way to choose different installations of Visual Studio. You can also click **Browse...** from the dropdown list to add an unlisted version.
 
-    ![The External Tools preference menu in the Unity Editor](../media/vsm/preferences-external-tools.png)
+    ![The External Tools preference menu in the Unity Editor on macOS](../media/vsm/preferences-external-tools.png)
 
 4. Close the **Preferences** dialog to complete the configuration process.
 

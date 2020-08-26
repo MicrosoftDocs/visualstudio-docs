@@ -14339,6 +14339,11 @@
       "source_path": "scripting-docs/winscript/windows-script-interfaces.md",
       "redirect_url": "https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/windows-scripting/windows-script-interfaces",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "cross-platform/getting-started-with-visual-studio-tools-for-unity.md",
+      "redirect_url": "gamedev/unity/get-started/getting-started-with-visual-studio-tools-for-unity.md",
+      "redirect_document_id": false
     }
   ]
 }

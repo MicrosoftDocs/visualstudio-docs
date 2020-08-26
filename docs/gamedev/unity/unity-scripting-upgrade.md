@@ -1,11 +1,13 @@
 ---
 title: "Using .NET 4.x in Unity"
+description: "Learn more about the .NET compatibility and scripting runtime used in Unity along with C# features."
 author: therealjohn
 ms.author: johmil
 ms.date: "08/29/2018"
 ms.topic: how-to
 ms.assetid: E2C9420F-A5D5-4472-9020-2B63FB27A133
 ms.technology: vs-unity-tools
+ms.prod: visual-studio-dev16
 ms.workload:
   - "unity"
 ---
@@ -28,7 +30,7 @@ To enable the .NET 4.x scripting runtime, take the following steps:
 
 1. Under the **Configuration** heading, click the **Scripting Runtime Version** dropdown and select **.NET 4.x Equivalent**. You will be prompted to restart Unity.
 
-![Select .NET 4.x equivalent](media/vstu_scripting-runtime-version.png)
+![Select .NET 4.x equivalent](media/vs/vstu_scripting-runtime-version.png)
 
 ## Choosing between .NET 4.x and .NET Standard 2.0 profiles
 
@@ -44,11 +46,11 @@ You can read more about these options in Unity's [blog post](https://blogs.unity
 
 When using the .NET Standard 2.0 setting in the **Api Compatibility Level** dropdown, all assemblies in the API profile are referenced and usable. However, when using the larger .NET 4.x profile, some of the assemblies that Unity ships with aren't referenced by default. To use these APIs, you must manually add an assembly reference. You can view the assemblies Unity ships with in the **MonoBleedingEdge/lib/mono** directory of your Unity editor installation:
 
-![MonoBleedingEdge directory](media/vstu_monobleedingedge.png)
+![MonoBleedingEdge directory](media/vs/vstu_monobleedingedge.png)
 
 For example, if you're using the .NET 4.x profile and want to use `HttpClient`, you must add an assembly reference for System.Net.Http.dll. Without it, the compiler will complain that you're missing an assembly reference:
 
-![missing assembly reference](media/vstu_missing-reference.png)
+![missing assembly reference](media/vs/vstu_missing-reference.png)
 
 Visual Studio regenerates .csproj and .sln files for Unity projects each time they're opened. As a result, you cannot add assembly references directly in Visual Studio because they'll be lost upon reopening the project. Instead, a special text file named **mcs.rsp** must be used:
 
@@ -70,7 +72,7 @@ In addition to new C# syntax and language features, the .NET 4.x scripting runti
 
 1. Click the **Download** button:
 
-    ![download button](media/vstu_nuget-download.png)
+    ![download button](media/vs/vstu_nuget-download.png)
 
 1. Locate the downloaded file and change the extension from **.nupkg** to **.zip**.
 
