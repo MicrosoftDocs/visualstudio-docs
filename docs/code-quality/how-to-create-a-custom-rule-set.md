@@ -2,14 +2,14 @@
 title: Create a custom code analysis rule set
 ms.date: 11/02/2018
 ms.topic: how-to
-f1_keywords: 
+f1_keywords:
   - vs.codeanalysis.addremoverulesets
-helpviewer_keywords: 
+helpviewer_keywords:
   - rule sets
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.workload: 
+ms.workload:
   - multiple
 ---
 # Customize a rule set
@@ -20,9 +20,9 @@ You can create a custom rule set to meet specific project needs for code analysi
 
 To create a custom rule set, you can open a built-in rule set in the **rule set editor**. From there, you can add or remove specific rules, and you can change the action that occurs when a rule is violated&mdash;for example, show a warning or an error.
 
-1. In **Solution Explorer**, select and hold (or right-click) the project and then select **Properties**.
+1. In **Solution Explorer**, right-click the project and then select **Properties**.
 
-2. On the **Properties** pages, go to the **Code Analysis** tab.
+2. On the **Properties** pages, select the **Code Analysis** tab.
 
 ::: moniker range="vs-2017"
 
@@ -51,7 +51,7 @@ To create a custom rule set, you can open a built-in rule set in the **rule set 
 
 You can create a new rule set file from the **New File** dialog:
 
-1. Select **File** > **New** > **File**, or select **Ctrl**+**N**.
+1. Select **File** > **New** > **File**, or press **Ctrl**+**N**.
 
 2. In the **New File** dialog box, select the **General** category on the left, and then select **Code Analysis Rule Set**.
 
@@ -64,9 +64,9 @@ You can create a new rule set file from the **New File** dialog:
 > [!NOTE]
 > The following procedure does not apply to .NET Core projects, which don't have a **Code Analysis** property tab.
 
-1. In **Solution Explorer**, select and hold (or right-click) the project and then select **Properties**.
+1. In **Solution Explorer**, right-click the project and then select **Properties**.
 
-2. On the **Properties** pages, go to the **Code Analysis** tab.
+2. On the **Properties** pages, select the **Code Analysis** tab.
 
 ::: moniker range="vs-2017"
 
