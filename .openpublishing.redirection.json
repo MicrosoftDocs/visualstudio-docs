@@ -3361,11 +3361,6 @@
       "redirect_document_id": false
     },
     {
-      "source_path": "docs/docker/vs-azure-tools-docker-machine-azure-config.md",
-      "redirect_url": "/dotnet/standard/containerized-lifecycle-architecture/design-develop-containerized-apps/visual-studio-tools-for-docker?toc=/visualstudio/docker/toc.json&bc=/visualstudio/docker/breadcrumb/toc.json",
-      "redirect_document_id": false
-    },
-    {
       "source_path": "docs/docker/vs-azure-tools-docker-setup.md",
       "redirect_url": "/visualstudio/containers/",
       "redirect_document_id": false
