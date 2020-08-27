@@ -67,7 +67,7 @@ Other supported bootstrappers include [vs_teamexplorer.exe](https://download.vis
 You must have an internet connection to complete this step. To create an offline installation with all languages and all features, use a command that is similar to one of the following examples.
 
    > [!IMPORTANT]
-   > A complete layout for a single language locale requires about 35 GB of disk space for Visual Studio Community and 42 GB for Visual Studio Enterprise. Additional [language locales](use-command-line-parameters-to-install-visual-studio.md#list-of-language-locales) require about half a GB each. For more information about how to create a layout with only the components you want, see the [Customize the network layout](#customize-the-network-layout) section.
+   > A complete layout for a single language locale requires about 35 GB of disk space for Visual Studio Community and 42 GB for Visual Studio Enterprise. Additional [language locales](use-command-line-parameters-to-install-visual-studio.md#list-of-language-locales) require about half a GB each. See the [Customize the network layout](#customize-the-network-layout) section for more info.
    >
    > [!TIP]
    > Make sure that you run the command from your Download directory. Typically, that's `C:\Users\<username>\Downloads` on a computer running Windows 10.
