@@ -1,6 +1,6 @@
 - name: Code analysis documentation
   href: index.yml
-- name: Analyze managed code
+- name: .NET code analysis
   items:
   - name: Overview
     href: code-analysis-for-managed-code-overview.md
@@ -10,38 +10,24 @@
     - name: Overview
       displayName: roslyn analyzers, source analysis
       href: roslyn-analyzers-overview.md
-    - name: Install source code analyzers
+    - name: Install third party analyzers
       href: install-roslyn-analyzers.md
-    - name: Configure source code analyzers
-      href: use-roslyn-analyzers.md
-    - name: Live code analysis scope
-      href: configure-live-code-analysis-scope-managed-code.md
-    - name: Run code analysis manually
-      href: how-to-run-code-analysis-manually-for-managed-code.md
-    - name: Disable code analysis
-      href: disable-code-analysis.md
+    - name: Configuration
+      items:
+      - name: Configure source code analysis
+        href: use-roslyn-analyzers.md
+      - name: Configure code quality analysis
+        href: configure-fxcop-analyzers.md
+      - name: Live code analysis scope
+        href: configure-live-code-analysis-scope-managed-code.md
+      - name: Run code analysis manually
+        href: how-to-run-code-analysis-manually-for-managed-code.md
+      - name: Disable code analysis
+        href: disable-code-analysis.md
+      - name: Suppress code analysis
+        href: in-source-suppression-overview.md
     - name: FAQ
       href: analyzers-faq.md
-    - name: FxCop analyzers
-      items:
-      - name: Install FxCop analyzers
-        href: install-fxcop-analyzers.md
-      - name: Migrate to FxCop analyzers
-        items:
-        - name: Migrate from legacy analysis to FxCop analyzers
-          href: migrate-from-legacy-analysis-to-fxcop-analyzers.md
-        - name: FAQ
-          href: fxcop-analyzers-faq.md
-        - name: Ported rules
-          href: fxcop-rule-port-status.md
-      - name: Configure FxCop analyzers
-        items:
-        - name: Configure rules and projects
-          href: configure-fxcop-analyzers.md
-        - name: Scope options
-          href: fxcop-analyzer-options.md
-        - name: Enable a category of rules
-          href: analyzer-rule-sets.md
   - name: Legacy analysis
     items:
     - name: Overview
@@ -137,16 +123,64 @@
         href: how-to-synchronize-code-project-rule-sets-with-team-project-check-in-policy.md
       - name: Version compatibility
         href: version-compatibility-for-code-analysis-check-in-policies.md
-  - name: Rule sets
-    items:
-    - name: Overview
-      href: using-rule-sets-to-group-code-analysis-rules.md
-    - name: Configure rule sets
-      href: how-to-configure-code-analysis-for-a-managed-code-project.md
-    - name: Create a custom rule set
-      href: how-to-create-a-custom-rule-set.md
-    - name: Use the rule set editor
-      href: working-in-the-code-analysis-rule-set-editor.md
+    - name: FxCop analyzers
+      items:
+      - name: Install FxCop analyzers
+        href: install-fxcop-analyzers.md
+      - name: Migrate to FxCop analyzers
+        items:
+        - name: Migrate from legacy analysis to FxCop analyzers
+          href: migrate-from-legacy-analysis-to-fxcop-analyzers.md
+        - name: FAQ
+          href: fxcop-analyzers-faq.md
+        - name: Ported rules
+          href: fxcop-rule-port-status.md
+      - name: Configure FxCop analyzers
+        items:
+        - name: Scope options
+          href: fxcop-analyzer-options.md
+        - name: Enable a category of rules
+          href: analyzer-rule-sets.md
+        - name: Rule sets
+          items:
+          - name: Overview
+            href: rule-set-reference.md
+          - name: All Rules
+            href: all-rules-rule-set.md
+          - name: Basic Correctness Rules
+            href: basic-correctness-rules-rule-set-for-managed-code.md
+          - name: Basic Design Guideline Rules
+            href: basic-design-guideline-rules-rule-set-for-managed-code.md
+          - name: Extended Correctness Rules
+            href: extended-correctness-rules-rule-set-for-managed-code.md
+          - name: Extended Design Guidelines Rules
+            href: extended-design-guidelines-rules-rule-set-for-managed-code.md
+          - name: Globalization Rules
+            href: globalization-rules-rule-set-for-managed-code.md
+          - name: Managed Minimum Rules
+            href: managed-minimum-rules-rule-set-for-managed-code.md
+          - name: Managed Recommended Rules
+            href: managed-recommended-rules-rule-set-for-managed-code.md
+          - name: Mixed Minimum Rules
+            href: mixed-minimum-rules-rule-set.md
+          - name: Mixed Recommended Rules
+            href: mixed-recommended-rules-rule-set.md
+          - name: Native Minimum Rules
+            href: native-minimum-rules-rule-set.md
+          - name: Native Recommended Rules
+            href: native-recommended-rules-rule-set.md
+          - name: Security Rules
+            href: security-rules-rule-set-for-managed-code.md
+    - name: Rule sets
+      items:
+      - name: Overview
+        href: using-rule-sets-to-group-code-analysis-rules.md
+      - name: Configure rule sets
+        href: how-to-configure-code-analysis-for-a-managed-code-project.md
+      - name: Create a custom rule set
+        href: how-to-create-a-custom-rule-set.md
+      - name: Use the rule set editor
+        href: working-in-the-code-analysis-rule-set-editor.md
   - name: Code metrics
     items:
     - name: Overview
@@ -158,43 +192,11 @@
       href: working-with-code-metrics-data.md
   - name: Reference
     items:
-    - name: Rule sets
-      items:
-      - name: Overview
-        href: rule-set-reference.md
-      - name: All Rules
-        href: all-rules-rule-set.md
-      - name: Basic Correctness Rules
-        href: basic-correctness-rules-rule-set-for-managed-code.md
-      - name: Basic Design Guideline Rules
-        href: basic-design-guideline-rules-rule-set-for-managed-code.md
-      - name: Extended Correctness Rules
-        href: extended-correctness-rules-rule-set-for-managed-code.md
-      - name: Extended Design Guidelines Rules
-        href: extended-design-guidelines-rules-rule-set-for-managed-code.md
-      - name: Globalization Rules
-        href: globalization-rules-rule-set-for-managed-code.md
-      - name: Managed Minimum Rules
-        href: managed-minimum-rules-rule-set-for-managed-code.md
-      - name: Managed Recommended Rules
-        href: managed-recommended-rules-rule-set-for-managed-code.md
-      - name: Mixed Minimum Rules
-        href: mixed-minimum-rules-rule-set.md
-      - name: Mixed Recommended Rules
-        href: mixed-recommended-rules-rule-set.md
-      - name: Native Minimum Rules
-        href: native-minimum-rules-rule-set.md
-      - name: Native Recommended Rules
-        href: native-recommended-rules-rule-set.md
-      - name: Security Rules
-        href: security-rules-rule-set-for-managed-code.md
-    - name: Suppress warnings
-      href: in-source-suppression-overview.md
-    - name: Managed code warnings
+    - name: .NET code analysis rules
       items:
       - name: Overview
         href: code-analysis-for-managed-code-warnings.md
-      - name: Warnings by CheckId
+      - name: Code quality rules overview
         href: code-analysis-warnings-for-managed-code-by-checkid.md
       - name: Cryptography warnings
         items:
