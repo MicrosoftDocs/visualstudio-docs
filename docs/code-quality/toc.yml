@@ -599,6 +599,8 @@
           href: ca2006.md
         - name: "CA2007: Do not directly await a Task"
           href: ca2007.md
+        - name: "CA2008: Do not create tasks without passing a TaskScheduler"
+          href: ca2008.md
         - name: "CA2009: Do not call ToImmutableCollection on an ImmutableCollection value"
           href: ca2009.md
         - name: "CA2011: Do not assign property within its setter"
