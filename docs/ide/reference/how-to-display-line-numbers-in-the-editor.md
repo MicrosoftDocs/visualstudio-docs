@@ -26,7 +26,7 @@ You can display or hide line numbering in your code.
 
    ![Option to display line numbers in the VS editor](../../ide/reference/media/line-numbers-option.png)
 
-> [!TIP]
+> [!NOTE]
 > Line numbers aren't added to your code; they're just for reference.
 
 ## See also
