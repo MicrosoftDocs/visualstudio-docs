@@ -6,7 +6,10 @@ ms.assetid: 0c648e64-b144-4632-ac72-0b8ff670553b
 author: evanwindom
 ms.author: cabuschl
 ms.date: 05/11/2020
-ms.faqid: 
+user.type: subscriber
+tags: sign-in
+subscription.type: DE
+sap.id: 17a2bf94-0d03-2629-dfd8-e8935f9126ec
 ---
 
 ## How to change your sign-in email for Visual Studio Dev Essentials

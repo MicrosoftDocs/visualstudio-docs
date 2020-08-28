@@ -1,6 +1,6 @@
 ---
-title: Code Analysis Warnings for Managed Code by CheckId
-ms.date: 04/18/2019
+title: Code quality rules overview
+ms.date: 08/27/2020
 ms.topic: reference
 f1_keywords:
 - CA1000
@@ -290,8 +290,8 @@ f1_keywords:
 - IL3000
 - IL3001
 ms.assetid: 5cb221f6-dc59-4abf-9bfa-adbd6f907f96
-author: mikejo5000
-ms.author: mikejo
+author: mikadumont
+ms.author: midumont
 manager: jillfra
 ms.workload:
 - dotnet

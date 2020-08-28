@@ -6,7 +6,10 @@ ms.assetid: 986a4c63-610b-4d33-8b22-48452964da8b
 author: evanwindom
 ms.author: cabuschl
 ms.date: 05/11/2020
-ms.faqid: 
+user.type: subscriber
+tags: download, activate, licensing
+subscription.type: vl, cloud, retail, partner
+sap.id: 95b201e2-f079-cb93-1693-3d40ee05b552
 ---
 
 ## What if you can't find the IDE feature you want to use? 
