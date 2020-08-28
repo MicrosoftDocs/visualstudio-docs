@@ -6,7 +6,10 @@ ms.assetid: 6734316b-b7e3-4e55-8b46-02f6e64679e2
 author: evanwindom
 ms.author: cabuschl
 ms.date: 05/11/2020
-ms.faqid: 
+user.type: subscriber
+tags: sign-in
+subscription.type: cloud,
+sap.id: 17a2bf94-0d03-2629-dfd8-e8935f9126ec
 ---
 
 ## How can I change the sign-in address on my Visual Studio cloud subscription?
