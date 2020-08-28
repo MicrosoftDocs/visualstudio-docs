@@ -85,7 +85,7 @@ PROFILE_COMMAND_STATUS PROFILERAPI NameProfile(
   
 ## Function Information  
   
-|||  
+|Item|Description|  
 |-|-|  
 |**Header**|Include VSPerf.h|  
 |**Library**|Use VSPerf.lib|  

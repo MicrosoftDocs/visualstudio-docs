@@ -1,7 +1,7 @@
 ---
 title: N-Tier Data Applications Overview
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: overview
 helpviewer_keywords:
 - presentation tier
 - middle tier

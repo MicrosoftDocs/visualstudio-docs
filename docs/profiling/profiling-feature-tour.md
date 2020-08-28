@@ -3,7 +3,11 @@ title: "Measure performance with profiling tools"
 description: "Take a brief look at the different diagnostic tools available in Visual Studio."
 ms.custom: "mvc"
 ms.date: 06/03/2020
-ms.topic: quickstart
+ms.topic: overview
+f1_keywords:
+  - vs.diagnosticshub.overview
+dev_langs:
+  - "CSharp"
 helpviewer_keywords:
   - "diagnostic tools"
 ms.assetid: d2ee0301-ea78-43d8-851a-71b7b2043d73
@@ -13,7 +17,7 @@ manager: jillfra
 ms.workload:
   - "multiple"
 ---
-# Quickstart: First look at profiling tools
+# First look at profiling tools
 
 Visual Studio provides a variety of profiling tools to help you diagnose different kinds of performance issues depending on your app type. In this article, we give a quick look at the most common profiling tools.
 
@@ -162,7 +166,7 @@ To diagnose UI responsiveness, slow loading time, and slow visual updates in UWP
 ::: moniker range="vs-2017"
 ## Analyze network usage (UWP)
 
-In UWP apps, you can analyze network operations performed using the `Windows.Web.Http` API.This tool may help you to resolve issues like access and authentication problems, incorrect cache-use, and poor display and download performance. To use the tool, choose **Network** in the Performance Profiler, and then choose **Start**. In your app, go through the scenario that uses `Windows.Web.Http`, and then choose **Stop collection** to generate the report.
+In UWP apps, you can analyze network operations performed using the `Windows.Web.Http` API. This tool may help you to resolve issues like access and authentication problems, incorrect cache-use, and poor display and download performance. To use the tool, choose **Network** in the Performance Profiler, and then choose **Start**. In your app, go through the scenario that uses `Windows.Web.Http`, and then choose **Stop collection** to generate the report.
 
 ![Network Usage profiling tool](../profiling/media/prof-tour-network-usage.png "Diag Network Usage")
 
@@ -198,9 +202,9 @@ Here is a table that lists the different tools Visual Studio offers and the diff
 |[.NET Object Allocation](../profiling/dotnet-alloc-tool.md)|yes (.NET only)|yes|yes|
 |[GPU Usage](/visualstudio/debugger/graphics/gpu-usage)|yes|yes|no|
 |[Application Timeline](../profiling/application-timeline.md)|yes|yes|no|
-|[Events viewer](../profiling/perftips.md)|yes|yes|yes|
-|[.NET Async](../profiling/perftips.md)|yes (.NET only)|yes|yes|
-|[Database](../profiling/perftips.md)|yes (.NET Core only)|no|yes (ASP.NET Core only)|
+|[Events viewer](../profiling/events-viewer.md)|yes|yes|yes|
+|[.NET Async](../profiling/analyze-async.md)|yes (.NET only)|yes|yes|
+|[Database](../profiling/analyze-database.md)|yes (.NET Core only)|no|yes (ASP.NET Core only)|
 |[Performance Explorer](../profiling/performance-explorer.md)|no|no|no|
 |[IntelliTrace](../debugger/intellitrace.md)|.NET with Visual Studio Enterprise only|.NET with Visual Studio Enterprise only|.NET with Visual Studio Enterprise only|
 ::: moniker-end

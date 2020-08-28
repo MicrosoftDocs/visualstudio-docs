@@ -1,7 +1,7 @@
 ---
 title: "Microsoft Office is not installed on this computer"
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: "error-reference"
 f1_keywords:
   - "VST.SelectDocWizard.OfficeNotInstalled"
 dev_langs:

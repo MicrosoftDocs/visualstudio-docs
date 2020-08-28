@@ -1,7 +1,7 @@
 ---
 title: MSI and VSIX Deployment of a DSL
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 author: JoshuaPartlow
 ms.author: joshuapa
 manager: jillfra

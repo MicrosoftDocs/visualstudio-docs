@@ -1,14 +1,14 @@
 ---
 title: Run a unit test as a 64-bit process
 ms.date: 03/10/2020
-ms.topic: conceptual
-helpviewer_keywords:
-- unit tests, creating
-- unit tests, running
+ms.topic: how-to
+helpviewer_keywords: 
+  - unit tests, creating
+  - unit tests, running
 ms.author: mikejo
 manager: jillfra
-ms.workload:
-- multiple
+ms.workload: 
+  - multiple
 author: mikejo5000
 ---
 # Run a unit test as a 64-bit process
@@ -24,7 +24,7 @@ If you have a 64-bit machine, you can run unit tests and capture code coverage i
    ::: moniker-end
 
     > [!TIP]
-    > For maximum flexibility, compile your test projects with the **Any CPU** configuration. Then you can run on both 32-bit and 64-bit agents. There's no advantage to compiling test projects with the **64-bit** configuration.
+    > For maximum flexibility, compile your test projects with the **Any CPU** configuration. Then you can run on both 32-bit and 64-bit agents. There's no advantage to compiling test projects with the **64-bit** configuration, unless you are calling code that is only supported on 64-bit.
 
 2. Set the unit tests to run as a 64-bit process.
 

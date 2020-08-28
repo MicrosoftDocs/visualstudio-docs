@@ -22,7 +22,7 @@ Contains the necessary information to digitally sign this deployment manifest.
 
 ```xml
 
-      <Signature> 
+<Signature> 
    XML signature information 
 </Signature>
 ```

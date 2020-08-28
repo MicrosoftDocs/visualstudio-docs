@@ -89,7 +89,7 @@ A *target configuration* is a subset of a target platform. For example, the `x86
 <PropertyGroup>
    <PlatformTarget>x86</PlatformTarget>
    <Configuration>Debug</Configuration>
-<PropertyGroup>
+</PropertyGroup>
 
 ```
 

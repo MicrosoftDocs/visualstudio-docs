@@ -1,7 +1,7 @@
 ---
 title: "Creating Reusable Controls for Web Parts or Application Pages | Microsoft Docs"
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: overview
 dev_langs:
   - "VB"
   - "CSharp"

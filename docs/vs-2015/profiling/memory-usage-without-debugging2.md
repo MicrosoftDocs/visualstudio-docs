@@ -73,7 +73,7 @@ You can use the **Memory Usage** tool without debugging to do the following
   
   The numbered items in the picture of the snapshot view are links that open Memory Usage report views.  
   
-|||  
+|Image|Description|  
 |-|-|  
 |![Step 1](../profiling/media/procguid-1.png "ProcGuid_1")|The link text shows the total number of bytes in memory when the snapshot was taken.<br /><br /> Choose this link to display a snapshot details report that's sorted by the total size of the type instances.|  
 |![Step 2](../profiling/media/procguid-2.png "ProcGuid_2")|The link text shows the total number of objects in memory when the snapshot was taken.<br /><br /> Choose this link to display a snapshot details report that's sorted by the count of instances of the types.|  
@@ -129,7 +129,7 @@ You can use the **Memory Usage** tool without debugging to do the following
   
  ![Managed Heap tree](../profiling/media/memuse-snapshotdetails-managedheaptree.png "MEMUSE__SnapshotDetails_ManagedHeapTree")  
   
-|||  
+|Name|Description|  
 |-|-|  
 |**Object Type**|The name of the type or object instance.|  
 |**Count**|The number of object instances of the type. The number is always 1 for an instance.|  
@@ -148,7 +148,7 @@ You can use the **Memory Usage** tool without debugging to do the following
   
  ![Referenced Objjects tree for instances](../profiling/media/memuse-snapshotdetails-referencedobjects-instance.png "MEMUSE_SnapshotDetails_ReferencedObjects_Instance")  
   
-|||  
+|Name|Description|  
 |-|-|  
 |**Object Type / Instance**|The name of the type or object instance.|  
 |**Size (Bytes)**|For a type, the size of all instances of the type, excluding the size of objects contained in the type.<br /><br /> For an instance, the size of the object, excluding the size of objects contained in the object.|  
@@ -170,7 +170,7 @@ You can use the **Memory Usage** tool without debugging to do the following
   
  Notice that the **Count**, **Size (Bytes)**, and **Inclusive Size (Bytes)** columns have been collapsed in the picture.  
   
-|||  
+|Name|Description|  
 |-|-|  
 |**Object Type**|The name of the type or object instance.|  
 |**Count**|The number of instances of a type in the primary snapshot. **Count** is always 1 for an instance.|  
@@ -190,7 +190,7 @@ You can use the **Memory Usage** tool without debugging to do the following
   
  ![Referenced Objjects tree for instances](../profiling/media/memuse-snapshotdetails-referencedobjects-instance.png "MEMUSE_SnapshotDetails_ReferencedObjects_Instance")  
   
-|||  
+|Name|Description|  
 |-|-|  
 |**Object Type / Instance**|The name of the type or object instance.|  
 |**Size (Bytes)**|For an instance, the size of the object in the primary snapshot, excluding the size of objects contained in the instance.<br /><br /> For a type, the total size of the instances of the type in the primary snapshot, excluding the size of objects contained in the instance.|  

@@ -20,7 +20,7 @@ manager: jillfra
 
 For the latest documentation on Visual Studio, see [DA0011: Expensive CompareTo](/visualstudio/profiling/da0011-expensive-compareto).  
   
-|||  
+|Item|Value|  
 |-|-|  
 |Rule Id|DA0011|  
 |Category|.NET Framework Usage|  

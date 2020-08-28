@@ -1,9 +1,9 @@
 ---
 title: Record Screen and Voice During Tests
 ms.date: 10/03/2016
-ms.topic: conceptual
-helpviewer_keywords:
-- test settings, recording desktop video
+ms.topic: how-to
+helpviewer_keywords: 
+  - test settings, recording desktop video
 ms.assetid: 2cefe8c2-430a-4cb4-bbe0-f3edb2e5bc03
 author: mikejo5000
 ms.author: mikejo

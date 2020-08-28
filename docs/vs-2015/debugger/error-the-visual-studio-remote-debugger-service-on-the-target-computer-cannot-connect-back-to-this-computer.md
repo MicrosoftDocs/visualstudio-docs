@@ -24,9 +24,8 @@ This error means that the Visual Studio Remote Debugger service is running under
   
  The following table shows what accounts can access the computer:  
   
-|||||  
-|-|-|-|-|  
-||LocalSystem account|Domain account|Local accounts that have the same username and password on both computers|  
+|Scenario|LocalSystem account|Domain account|Local accounts that have the same username and password on both computers|  
+|-|-|-|-|-|  
 |Both computers on the same domain|Yes|Yes|Yes|  
 |Both computers on domains that have two-way trust|No|No|Yes|  
 |One or both computers on a workgroup|No|No|Yes|  

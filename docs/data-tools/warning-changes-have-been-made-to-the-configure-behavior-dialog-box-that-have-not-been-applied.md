@@ -1,10 +1,10 @@
 ---
 title: Warning - changes have been made to the Configure Behavior dialog box that have not been applied
 ms.date: 11/04/2016
-ms.topic: reference
+ms.topic: error-reference
 ms.assetid: ce5822dd-4f10-4c86-b707-7766837be216
-author: jillre
-ms.author: jillfra
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
   - "data-storage"

@@ -90,9 +90,8 @@ You can use the keyboard in addition to the mouse to perform navigational action
 
  Use the following keys to navigate the Class Details window:
 
-|||
-|-|-|
 |Key|Result|
+|-|-|
 |, (comma)|If the cursor is in a parameter row, typing a comma moves the cursor to the Name field of the next parameter. If the cursor is in the last parameter row of a method, it moves the cursor to the \<add parameter> field, which you can use to create a new parameter.<br /><br /> If the cursor is elsewhere in the Class Details Window, typing a comma literally adds a comma in the current field.|
 |; (semicolon)<br /><br /> or<br /><br /> ) (close parenthesis)|Move the cursor to the Name field of the next member row in the Class Details Window grid.|
 |Tab|Moves the cursor to the next field, first moving left to right and then top to bottom. If the cursor is moving from a field in which you have typed text, Class Details Window processes that text and stores it if it does not produce an error.<br /><br /> If the cursor is on an empty field such as \<add parameter>, Tab moves it to the first field of the next row.|

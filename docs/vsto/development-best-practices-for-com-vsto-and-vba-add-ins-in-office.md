@@ -51,7 +51,7 @@ If the solution consists of an add-in and a process that is external to Office, 
 Set the version number of the binaries in your solution and increment it with each update. This will make it easier for users to identify changes between versions and assess compatibility.
 
 ## Provide support statements for the latest versions of Office
-Customers are asking ISVs to provide support statements for their COM, VSTO and VBA add-ins that run in Office. Listing your explicit support statements helps customers using Office 365 ProPlus readiness tools understand your support.
+Customers are asking ISVs to provide support statements for their COM, VSTO and VBA add-ins that run in Office. Listing your explicit support statements helps customers using Microsoft 365 apps for enterprise readiness tools understand your support.
 
 To provide support statements for Office client applications (for example, Word or Excel), first verify that your add-ins run in the current Office release, and then commit to providing updates if your add-in breaks in a future release. You do not have to test your add-ins when Microsoft releases a new build, or an update to Office. Microsoft rarely changes the COM, VSTO and VBA extensibility platform in Office, and these changes will be well documented.
 

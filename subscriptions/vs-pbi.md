@@ -5,7 +5,7 @@ ms.author: v-evwin
 manager: lank
 ms.assetid: 383fc910-3f4c-474a-a3f8-0f13525f05e9
 ms.date: 03/26/2020
-ms.topic: conceptual
+ms.topic: how-to
 description:  Learn about the Power BI Pro subscription included with selected Visual Studio subscriptions.
 ---
 
@@ -24,7 +24,7 @@ To use Power BI Pro, you’ll need to set up an account or sign in using an exis
    > [!div class="mx-imgBorder"]
    > ![Power BI Pro Benefit Tile](_img/vs-pbi/vs-pbi-tile.png)
 
-3. You may already have an account if you’ve activated certain other subscription benefits, such as Office 365 Developer Subscription or Enterprise Mobility + Security.  If an existing account is found, you’ll have the choice to add your Power BI Pro subscription to your existing account or sign up for a new account.  We highly recommend adding it to your existing account so you can access your various benefits with a single user ID.
+3. You may already have an account if you’ve activated certain other subscription benefits, such as Microsoft 365 Developer Subscription or Enterprise Mobility + Security.  If an existing account is found, you’ll have the choice to add your Power BI Pro subscription to your existing account or sign up for a new account.  We highly recommend adding it to your existing account so you can access your various benefits with a single user ID.
    > [!div class="mx-imgBorder"]
    > ![Power BI Pro Benefit Existing Account](_img/vs-pbi/vs-pbi-existing-account.png)
 
@@ -50,9 +50,9 @@ To use Power BI Pro, you’ll need to set up an account or sign in using an exis
     > [!div class="mx-imgBorder"]
     > ![Power BI Pro Benefit Contact Information](_img/vs-pbi/vs-pbi-payment-blurred-cropped.png)
 
-11. The next page confirms you’re all set to start using Power BI Pro.  The page will provide a link to the sign-in page.  We recommend recording the link to the sign-in page as well as your user ID.  (You will also receive a welcome email at the address you provided when you set up the account.)  You may also see an automated Office 365 Assistant window, which you can use if you have questions.  Click **Let’s get started** to continue.
+11. The next page confirms you’re all set to start using Power BI Pro.  The page will provide a link to the sign-in page.  We recommend recording the link to the sign-in page as well as your user ID.  (You will also receive a welcome email at the address you provided when you set up the account.)  You may also see an automated Microsoft 365 Assistant window, which you can use if you have questions.  Click **Let’s get started** to continue.
 
-12. Now that your Power BI Pro account is set up, you’ll see the Office 365 Admin center, where you can manage users and domains, install Office software, and learn about Office 365.  That’s it!  You’re ready to go.
+12. Now that your Power BI Pro account is set up, you’ll see the Microsoft 365 Admin center, where you can manage users and domains, install Office software, and learn about Microsoft 365.  That’s it!  You’re ready to go.
 
 ## Eligibility
 
@@ -86,7 +86,7 @@ A:  Yes, you can use it in a production, with two important caveats:
 - This Power BI Pro benefit cannot be used on government tenants.
 
 ### Q:  When I try to activate Power BI Pro, I get a message "You already have an account through work".  Can I still use the benefit?
-A:  Yes.  The message indicates that you're logged on to a domain that already has active Office 365 tenants on which you are not an administrator.  To add Power BI Pro to a tenant, you must be an administrator on that tenant.  To resolve this issue, follow these steps to create your own tenant.
+A:  Yes.  The message indicates that you're logged on to a domain that already has active Microsoft 365 tenants on which you are not an administrator.  To add Power BI Pro to a tenant, you must be an administrator on that tenant.  To resolve this issue, follow these steps to create your own tenant.
 1. When you see the message that you already have an account through work, click **Create a new account**.
 
 2. On the next screen, provide your contact information, and click **Next**.

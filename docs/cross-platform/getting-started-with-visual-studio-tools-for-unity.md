@@ -3,7 +3,7 @@ title: "Getting Started with Visual Studio Tools for Unity | Microsoft Docs"
 ms.custom: ""
 ms.date: "05/11/2020"
 ms.technology: vs-unity-tools
-ms.topic: "conceptual"
+ms.topic: how-to
 ms.assetid: 66b5b4eb-13b5-4071-98d2-87fafa4598a8
 author: "indiesaudi"
 ms.author: "crdun"
@@ -60,13 +60,11 @@ If you already have Visual Studio installed, or prefer to manually install, run 
 
 1. Click **Modify** (if already installed) or **Install** (for new installations) in the bottom-right corner of the installer window.
 
-
 #### Check for updates to Visual Studio
 
 It is recommended to check for updates within Visual Studio to ensure you have access to the latest tools and features. This will not break your Unity project.
 
 - [Update Visual Studio](../install/update-visual-studio.md)
-
 
 ## Configure Unity for use with Visual Studio
 
@@ -92,7 +90,6 @@ Starting with Unity 2018.1, Visual Studio should be the default external script 
    ![Select Visual Studio](media/vs-2019/vstu-unity-external-tools.png)
    :::moniker-end
 
-
 4. If **Browse...** was selected, navigate to the **Common7/IDE** directory inside your Visual Studio installation directory and select **devenv.exe**. Then click **Open**.
 
    :::moniker range="vs-2017"
@@ -117,7 +114,6 @@ Download and install Visual Studio Tools for Unity from the Visual Studio Market
 > [!NOTE]
 > Visual Studio Tools for Unity requires Unity 5.2 and above, as well as a version of Visual Studio that supports extensions, such as Visual Studio Community, Professional, Premium, or Enterprise. To verify that Visual Studio Tools for Unity are enabled in your installation of Unity, select **About Unity** from the **Help** menu and look for the text "Microsoft Visual Studio Tools for Unity enabled" in the bottom-left of the dialog.
 > ![about Unity](media/vs-2019/vstu-about-unity.png)
-
 
 ## Next steps
 

@@ -1,7 +1,7 @@
 ---
 title: "IDiaSession::findInlineeLinesByLinenum | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 ms.assetid: cf32ae7c-a0c8-4800-bc8f-d64fdd15fb06

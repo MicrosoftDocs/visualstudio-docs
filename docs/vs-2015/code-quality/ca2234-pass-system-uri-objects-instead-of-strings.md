@@ -19,7 +19,7 @@ manager: "wpickett"
 # CA2234: Pass System.Uri objects instead of strings
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-|||
+|Item|Value|
 |-|-|
 |TypeName|PassSystemUriObjectsInsteadOfStrings|
 |CheckId|CA2234|

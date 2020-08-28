@@ -1,17 +1,17 @@
 ---
-title: "Get ASP.NET web app memory data using profiler command line"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-helpviewer_keywords:
-  - ".NET memory profiling method"
-  - "profiling tools,.NET memory method"
+title: Get ASP.NET web app memory data using profiler command line
+ms.date: 11/04/2016
+ms.topic: how-to
+helpviewer_keywords: 
+  - .NET memory profiling method
+  - profiling tools,.NET memory method
 ms.assetid: 57acf2b0-327a-4c0e-8078-ac2f6d99457d
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 monikerRange: 'vs-2017'
-ms.workload:
-  - "aspnet"
+ms.workload: 
+  - aspnet
 ---
 # Collect memory data from an ASP.NET web application by using the profiler command line
 This section describes the procedures and options for collecting memory allocation and object lifetime data for an ASP.NET Web application by using the **VSPerfCmd** command-line tool.

@@ -19,7 +19,7 @@ manager: "wpickett"
 # CA2243: Attribute string literals should parse correctly
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-|||
+|Item|Value|
 |-|-|
 |TypeName|AttributeStringLiteralsShouldParseCorrectly|
 |CheckId|CA2243|

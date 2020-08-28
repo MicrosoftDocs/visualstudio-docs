@@ -1,7 +1,7 @@
 ---
-title: "Error: SQL Can&#39;t Find SSDEBUGPS | Microsoft Docs"
+title: "Error - SQL Can&apos;t Find SSDEBUGPS | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "troubleshooting"
+ms.topic: "error-reference"
 f1_keywords:
   - "vs.debug.error.sqlde_cant_find_ssdebugps"
 dev_langs:

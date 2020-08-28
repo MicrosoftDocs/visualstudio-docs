@@ -1,15 +1,15 @@
 ---
 title: Editing Coded UI Tests
 ms.date: 11/04/2016
-ms.topic: conceptual
-f1_keywords:
-- vs.codedUItest.testeditor
-helpviewer_keywords:
-- coded UI test, Coded UI Test Editor
+ms.topic: how-to
+f1_keywords: 
+  - vs.codedUItest.testeditor
+helpviewer_keywords: 
+  - coded UI test, Coded UI Test Editor
 ms.author: mikejo
 manager: jillfra
-ms.workload:
-- multiple
+ms.workload: 
+  - multiple
 author: mikejo5000
 ---
 # Edit coded UI tests using the Coded UI Test Editor

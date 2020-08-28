@@ -1,7 +1,7 @@
 ---
 title: "Troubleshoot Office solution security"
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: "troubleshooting"
 dev_langs:
   - "VB"
   - "CSharp"
@@ -44,3 +44,4 @@ ms.workload:
 
 ## See also
 - [Secure Office solutions](../vsto/securing-office-solutions.md)
+- [Visual Studio troubleshooting](/troubleshoot/visualstudio/welcome-visual-studio/)

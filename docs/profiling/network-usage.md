@@ -47,7 +47,7 @@ The Visual Studio **Network** diagnostics tool collects data about network opera
 
  ![Network tool details pane](../profiling/media/network_detailsviewpane.png "NETWORK_DetailsViewPane")
 
-|||
+|Name|Description|
 |-|-|
 |**Headers**|Information about the request headers of the event.|
 |**Body**|The request and response payload data.|

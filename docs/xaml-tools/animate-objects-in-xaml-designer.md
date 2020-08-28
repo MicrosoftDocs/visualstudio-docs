@@ -2,7 +2,7 @@
 title: Animate objects in XAML Designer
 titleSuffix: Blend for Visual Studio
 ms.date: 07/31/2019
-ms.topic: conceptual
+ms.topic: how-to
 ms.assetid: fb88fa26-e835-47f5-9771-2f279441c83c
 author: TerryGLee
 ms.author: tglee

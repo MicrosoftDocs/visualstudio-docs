@@ -19,9 +19,8 @@ The Manifest from Resources tool is a console application that takes a list of i
 
  **Arguments**
 
-||||
-|-|-|-|
 |**Switch name**|**Notes**|**Required or Optional**|
+|-|-|-|
 |/resources|A semicolon-delimited list of images or directories. This list should always contain the full list of images that will be in the manifest. If only a partial list is given, the entries not included will be lost.<br /><br /> If a given resource file is an image strip, the tool will split it into separate images before adding each subimage to the manifest.<br /><br /> If the image is a .png file, we recommended you format the name like this so that the tool can fill in the right attributes for the image: \<Name>.\<Width>.\<Height>.png.|Required|
 |/assembly|The name of the managed assembly (not including the extension), or the runtime path of the native assembly that hosts the resources (relative to the manifest's runtime location).|Required|
 |/manifest|The name to give to the generated .imagemanifest file. This can also include an absolute or relative path to create the file in a different location. The default name matches the assembly name.<br /><br /> Default: \<Current Directory>\\<Assembly\>.imagemanifest|Optional|

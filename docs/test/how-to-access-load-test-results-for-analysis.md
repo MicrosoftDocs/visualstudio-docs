@@ -1,15 +1,15 @@
 ---
 title: Analyze load test results
 ms.date: 10/19/2016
-ms.topic: conceptual
-helpviewer_keywords:
-- results, load test
-- load test results, accessing
-- Load Test Viewer
-- load tests, accessing
-- load tests, analyzing
-- load tests, results
-- Load Test Viewer, viewing
+ms.topic: how-to
+helpviewer_keywords: 
+  - results, load test
+  - load test results, accessing
+  - Load Test Viewer
+  - load tests, accessing
+  - load tests, analyzing
+  - load tests, results
+  - Load Test Viewer, viewing
 ms.assetid: b0a3e694-2894-479b-b270-7e61e9fafacd
 author: mikejo5000
 ms.author: mikejo

@@ -1,16 +1,16 @@
 ---
 title: Create a custom code analysis rule set
 ms.date: 11/02/2018
-ms.topic: conceptual
+ms.topic: how-to
 f1_keywords:
-- vs.codeanalysis.addremoverulesets
+  - vs.codeanalysis.addremoverulesets
 helpviewer_keywords:
-- rule sets
+  - rule sets
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
 ms.workload:
-- multiple
+  - multiple
 ---
 # Customize a rule set
 
@@ -36,7 +36,7 @@ To create a custom rule set, you can open a built-in rule set in the **rule set 
 
 ::: moniker-end
 
-   - Select the rule set that you want to customize.
+   - Choose the rule set that you want to customize.
 
      \- or -
 
@@ -80,7 +80,7 @@ You can create a new rule set file from the **New File** dialog:
 
 ::: moniker-end
 
-4. In the **Add or Remove Rule Sets** dialog box, select the rule sets you want to include in your new rule set.
+4. In the **Add or Remove Rule Sets** dialog box, choose the rule sets you want to include in your new rule set.
 
    ![Add or remove rule sets dialog box](media/add-remove-rule-sets.png)
 

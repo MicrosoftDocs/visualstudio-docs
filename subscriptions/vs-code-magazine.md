@@ -5,7 +5,7 @@ ms.author: v-evwin
 manager: lank
 ms.assetid: e5768153-2758-46d3-a323-3272def213ee
 ms.date: 03/25/2020
-ms.topic: conceptual
+ms.topic: how-to
 description:  Learn about the CODE Magazine benefit included in your Visual Studio subscription.
 ---
 
@@ -23,7 +23,7 @@ The process to set up your CODE Magazine subscription is simple.  Just follow th
 3. You'll see a message that your code has been retrieved.  Click **Activate** to continue.  (If you're not ready to activate, that's okay.  You can always go back to the tile to activate.  The "Get Code" link will read "Activate" after you retrieve your code.)
    > [!div class="mx-imgBorder"]
    > ![CODE Magazine code retrieved](_img/vs-code-magazine/vs-code-magazine-success.png "Code retrieved successfully")
-4. You'll be redirected to the CODE Magazine landing page. Select your country and choose how you'd like to receive the magazine. 
+4. You'll be redirected to the CODE Magazine landing page. Select your country/region and choose how you'd like to receive the magazine. 
    > [!NOTE]
    > Visual Studio Dev Essentials members have access to the digital subscription only. 
 5. Based on your selections, you'll see a note showing the price of your subscription along with the amount of the coupon that's been applied.

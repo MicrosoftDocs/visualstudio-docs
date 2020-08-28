@@ -1,17 +1,17 @@
 ---
-title: "marker_importance Enumeration | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-f1_keywords:
-  - "cvmarkersobj/Concurrency::diagnostic::marker_importance"
-helpviewer_keywords:
-  - "Concurrency::diagnostic::marker_importance enumeration"
+title: marker_importance Enumeration | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: reference
+f1_keywords: 
+- cvmarkersobj/Concurrency, diagnostic::marker_importance
+helpviewer_keywords: 
+- Concurrency, diagnostic::marker_importance enumeration
 ms.assetid: d5524ea0-0227-4d8e-9122-332291042df5
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
-ms.workload:
-  - "multiple"
+ms.workload: 
+  - multiple
 ---
 # marker_importance enumeration
 Represents the importance level of a Concurrency Visualizer marker.

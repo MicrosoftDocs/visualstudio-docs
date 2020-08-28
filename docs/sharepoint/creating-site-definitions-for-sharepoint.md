@@ -1,7 +1,7 @@
 ---
 title: "Creating Site Definitions for SharePoint | Microsoft Docs"
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: overview
 dev_langs:
   - "VB"
   - "CSharp"

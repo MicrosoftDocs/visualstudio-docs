@@ -1,5 +1,5 @@
 ---
-title: Suppress code analysis
+title: Suppress code analysis violations
 ms.date: 08/27/2020
 ms.topic: conceptual
 helpviewer_keywords:
@@ -15,7 +15,7 @@ dev_langs:
 ms.workload:
 - multiple
 ---
-# Suppress code analysis
+# Suppress code analysis violations
 
 It is often useful to indicate that a warning is not applicable. This indicates to team members that the code was reviewed, and that the warning can be suppressed. In-source suppression (ISS) uses the <xref:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute> attribute to suppress a warning. The attribute can be placed close to the code segment that generated the warning. You can add the <xref:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute> attribute to the source file by typing it in, or you can use the shortcut menu on a warning in the **Error List** to add it automatically.
 
@@ -29,7 +29,7 @@ In C++/CLI, use the macros CA\_SUPPRESS\_MESSAGE or CA\_GLOBAL\_SUPPRESS_MESSAGE
 ::: moniker range="vs-2017"
 
 > [!NOTE]
-> If you migrate a project to Visual Studio 2017, you might suddenly be faced with a large number of code analysis warnings. If you aren't ready to fix the warnings, you can suppress all of them by choosing **Analyze** > **Run Code Analysis and Suppress Active Issues**.
+> If you migrate a project to Visual Studio 2017, you might suddenly be faced with a large number of code analysis warnings. If you aren't ready to fix the warnings, you can suppress all of them by selecting **Analyze** > **Run Code Analysis and Suppress Active Issues**.
 >
 > ![Run code analysis and suppress issues in Visual Studio](media/suppress-active-issues.png)
 
@@ -38,13 +38,13 @@ In C++/CLI, use the macros CA\_SUPPRESS\_MESSAGE or CA\_GLOBAL\_SUPPRESS_MESSAGE
 ::: moniker range=">=vs-2019"
 
 > [!NOTE]
-> If you migrate a project to Visual Studio 2019, you might suddenly be faced with a large number of code analysis warnings. If you aren't ready to fix the warnings, you can suppress all of them by choosing **Analyze** > **Build and Suppress Active Issues**.
+> If you migrate a project to Visual Studio 2019, you might suddenly be faced with a large number of code analysis warnings. If you aren't ready to fix the warnings, you can suppress all of them by selecting **Analyze** > **Build and Suppress Active Issues**.
 
 ::: moniker-end
 
 ## SuppressMessage attribute
 
-When you choose **Suppress** from the context or right-click menu of a code analysis warning in the **Error List**, a <xref:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute> attribute is added either in your code or to the project's global suppression file.
+When you select **Suppress** from the context or right-click menu of a code analysis warning in the **Error List**, a <xref:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute> attribute is added either in your code or to the project's global suppression file.
 
 The <xref:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute> attribute has the following format:
 
@@ -177,7 +177,7 @@ For example, the following attribute in your _GlobalSuppressions_ project file w
 
 Managed code compilers and some third-party tools generate code to facilitate rapid code development. Compiler-generated code that appears in source files is usually marked with the `GeneratedCodeAttribute` attribute.
 
-For source code analysis (FxCop analyzers), you can suppress messages in generated code using the [.editorconfig](../code-quality/configure-fxcop-analyzers.md) file in the root of your project or solution. Use a file pattern to match the generated code. For example, to exclude CS1591 warnings in **.designer.cs* files, use this in the configuration file.
+For source code analysis, you can suppress messages in generated code using the [.editorconfig](../code-quality/configure-fxcop-analyzers.md) file in the root of your project or solution. Use a file pattern to match the generated code. For example, to exclude CS1591 warnings in **.designer.cs* files, use this in the configuration file.
 
 ``` cmd
 [*.designer.cs]

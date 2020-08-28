@@ -229,6 +229,8 @@ In the debugger-side code, you specify the type to visualize (the object source)
 
    If you want to use your visualizer in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] rather than just calling it from the test harness, you have to install it. For more information, see [How to: Install a Visualizer](../debugger/how-to-install-a-visualizer.md).
 
+::: moniker range="vs-2017"
+
 ## Create a visualizer using the Visualizer item template
 
 So far, this walkthrough has shown you how to create a visualizer manually. This was done as a learning exercise. Now that you know how a simple visualizer works, there is an easier way to create one: using the visualizer item template.
@@ -262,6 +264,7 @@ First, you have to create a new class library project.
 5. Click **Add**.
 
    That is all there is to it. Look at the file SecondVisualizer.cs and view the code that the template added for you. Go ahead and experiment with the code. Now that you know the basics, you are on your way to creating more complex and useful visualizers of your own.
+::: moniker-end
 
 ## See also
 

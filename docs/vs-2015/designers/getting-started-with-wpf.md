@@ -17,7 +17,7 @@ Windows Presentation Foundation (WPF) is a UI framework that creates desktop cli
 
 ## Where Should I Start?
 
-|||
+|Scenario|Articles|
 |-|-|
 |I want to jump right in…|[Walkthrough: My First WPF Desktop Application](../designers/walkthrough-my-first-wpf-desktop-application2.md)<br /><br /> [Walkthrough: Create a WPF Desktop Application connected to an Azure Mobile Service](../designers/walkthrough-create-a-wpf-desktop-application-connected-to-an-azure-mobile-service.md)|
 |How do I design the application UI?|[Designing XAML in Visual Studio and Blend for Visual Studio](../designers/designing-xaml-in-visual-studio.md)|
