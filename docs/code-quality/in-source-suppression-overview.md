@@ -1,5 +1,5 @@
 ---
-title: Suppress code analysis
+title: Suppress code analysis violations
 ms.date: 08/27/2020
 ms.topic: conceptual
 helpviewer_keywords:
@@ -15,7 +15,7 @@ dev_langs:
 ms.workload:
 - multiple
 ---
-# Suppress code analysis
+# Suppress code analysis violations
 
 It is often useful to indicate that a warning is not applicable. This indicates to team members that the code was reviewed, and that the warning can be suppressed. In-source suppression (ISS) uses the <xref:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute> attribute to suppress a warning. The attribute can be placed close to the code segment that generated the warning. You can add the <xref:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute> attribute to the source file by typing it in, or you can use the shortcut menu on a warning in the **Error List** to add it automatically.
 

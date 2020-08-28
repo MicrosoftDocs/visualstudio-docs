@@ -10,7 +10,7 @@
     - name: Overview
       displayName: roslyn analyzers, source analysis
       href: roslyn-analyzers-overview.md
-    - name: Install third party analyzers
+    - name: Install third-party analyzers
       href: install-roslyn-analyzers.md
     - name: Configuration
       items:
