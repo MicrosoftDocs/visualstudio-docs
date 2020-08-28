@@ -18,6 +18,10 @@
         href: use-roslyn-analyzers.md
       - name: Configure code quality analysis
         href: configure-fxcop-analyzers.md
+      - name: Code quality analysis options
+        href: fxcop-analyzer-options.md
+      - name: Configure code quality categories
+        href: analyzer-rule-sets.md
       - name: Live code analysis scope
         href: configure-live-code-analysis-scope-managed-code.md
       - name: Run code analysis manually
@@ -137,10 +141,6 @@
           href: fxcop-rule-port-status.md
       - name: Configure FxCop analyzers
         items:
-        - name: Scope options
-          href: fxcop-analyzer-options.md
-        - name: Enable a category of rules
-          href: analyzer-rule-sets.md
         - name: Rule sets
           items:
           - name: Overview
