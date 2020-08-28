@@ -7,6 +7,7 @@ metadata:
   title: Deployment in Visual Studio # Required; page title displayed in search results. Include the brand. < 60 chars.
   description: Learn how to use Visual Studio to deploy applications, services, and components.
   ms.topic: landing-page
+  ms.technology: vs-ide-deployment
   author: mikejo5000
   ms.author: mikejo
   manager: jillfra
@@ -22,10 +23,10 @@ landingContent:
     linkLists:
       - linkListType: overview
         links:
-          - text: Overview of deployment
-            url: deploying-applications-services-and-components-resources.md
           - text: First look at deployment
             url: deploying-applications-services-and-components.md
+          - text: Deploy to a folder, IIS, or Azure
+            url: deploying-applications-services-and-components-resources.md
 
   # Card (optional)
   - title: Get started
@@ -57,18 +58,8 @@ landingContent:
           - text: Package a desktop app for Windows Store
             url: /windows/msix/desktop/desktop-to-uwp-packaging-dot-net
 
-    # Card
-  - title: Deploy .NET packages to NuGet.org
-    linkLists:
-      - linkListType: tutorial
-        links:
-          - text: Publish to NuGet.org (.NET Standard)
-            url: /nuget/quickstart/create-and-publish-a-package-using-visual-studio
-          - text: Publish to NuGet.org (.NET Framework)
-            url: /nuget/quickstart/create-and-publish-a-package-using-visual-studio-net-framework
-
   # Card
-  - title: Deploy ASP.NET apps
+  - title: Deploy ASP.NET Core apps
     linkLists:
       - linkListType: tutorial
         links:
@@ -104,3 +95,13 @@ landingContent:
         links:
           - text: Publish to Linux App Service
             url: ../javascript/publish-nodejs-app-azure.md
+
+  # Card
+  - title: Deploy .NET packages to NuGet.org
+    linkLists:
+      - linkListType: tutorial
+        links:
+          - text: Publish to NuGet.org (.NET Standard)
+            url: /nuget/quickstart/create-and-publish-a-package-using-visual-studio
+          - text: Publish to NuGet.org (.NET Framework)
+            url: /nuget/quickstart/create-and-publish-a-package-using-visual-studio-net-framework

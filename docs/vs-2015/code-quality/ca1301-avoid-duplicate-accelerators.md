@@ -19,7 +19,7 @@ manager: "wpickett"
 # CA1301: Avoid duplicate accelerators
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-|||
+|Item|Value|
 |-|-|
 |TypeName|AvoidDuplicateAccelerators|
 |CheckId|CA1301|

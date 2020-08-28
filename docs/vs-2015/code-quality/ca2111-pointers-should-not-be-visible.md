@@ -19,7 +19,7 @@ manager: "wpickett"
 # CA2111: Pointers should not be visible
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-|||
+|Item|Value|
 |-|-|
 |TypeName|PointersShouldNotBeVisible|
 |CheckId|CA2111|

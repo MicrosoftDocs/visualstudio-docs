@@ -1,7 +1,7 @@
 ---
 title: 'How to: Add, Update, or Remove a WCF Data Service Reference'
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - service references [Visual Studio]
 - WCF Data Service reference

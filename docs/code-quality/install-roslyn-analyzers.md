@@ -9,8 +9,8 @@ helpviewer_keywords:
 author: mikadumont
 ms.author: midumont
 manager: jillfra
-ms.workload:
-- dotnet
+ms.workload: 
+  - dotnet
 ---
 # Install third party analyzers
 

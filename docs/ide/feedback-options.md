@@ -2,7 +2,7 @@
 title: "Feedback options"
 description: "We're interested in your ideas for improving our products and documentation; here's how to send us feedback."
 ms.date: 11/20/2019
-ms.topic: conceptual
+ms.topic: overview
 ms.custom: seoapril2019
 helpviewer_keywords:
   - "product support [Visual Studio]"

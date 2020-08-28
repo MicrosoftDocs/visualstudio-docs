@@ -66,7 +66,7 @@ You can perform the following operations on blobs by using the buttons in the up
 
 ### To create a folder or subfolder in a blob container
 
-1. Choose the blob container in Cloud Explorer. In the container window, select the **Upload Blob** button.
+1. Choose the blob container in **Cloud Explorer**. In the container window, select the **Upload Blob** button.
 
 1. In the **Upload New File** dialog box, select the **Browse** button to specify the file that you want to upload, and then enter a folder name in the **Folder (optional)** box.
 
@@ -96,7 +96,7 @@ The filter text box is case-sensitive and doesn’t support filtering with wildc
 
 ### To download blob data
 
-In Cloud Explorer, use any of the following methods:
+In **Cloud Explorer**, use any of the following methods:
 
 * Open the shortcut menu for one or more blobs, and then select **Open**.
 * Choose the blob name and then select the **Open** button.
@@ -128,7 +128,7 @@ Open the blob’s shortcut menu and then select **Copy URL**.
 
 ### To edit a blob
 
-Select the blob and then select the **Open Blob** button.
+Choose the blob and then select the **Open Blob** button.
 
 The file is downloaded to a temporary location and opened on the local computer. Upload the blob again after you make changes.
 
@@ -160,12 +160,12 @@ Azure Table storage stores large amounts of structured data. The service is a No
 
 ### To create a table
 
-1. In Cloud Explorer, select the **Tables** node of the storage account, and then select **Create Table**.
+1. In **Cloud Explorer**, select the **Tables** node of the storage account, and then select **Create Table**.
 1. In the **Create Table** dialog box, enter a name for the table.
 
 ### To view table data
 
-1. In Cloud Explorer, open the **Azure** node, and then open the **Storage** node.
+1. In **Cloud Explorer**, open the **Azure** node, and then open the **Storage** node.
 1. Open the storage account node that you are interested in, and then open the **Tables** node to see a list of tables for the storage account.
 1. Open the shortcut menu for a table, and then select **View Table**.
 
@@ -175,20 +175,20 @@ The table is organized by entities (shown in rows) and properties (shown in colu
 
 ### To edit table data
 
-In Table Designer, open the shortcut menu for an entity (a single row) or a property (a single cell), and then select **Edit**.
+In **Table Designer**, open the shortcut menu for an entity (a single row) or a property (a single cell), and then select **Edit**.
 
 ![Add or edit a table entity](./media/vs-azure-tools-storage-resources-server-explorer-browse-manage/IC656238.png)
 
 Entities in a single table aren’t required to have the same set of properties (columns). Keep in mind the following restrictions on viewing and editing table data:
 
 * You can’t view or edit binary data (`type byte[]`), but you can store it in a table.
-* You can’t edit the **PartitionKey** or **RowKey** values, because Table storage in Azure doesn't support that operation.
+* You can’t edit the **PartitionKey** or **RowKey** values, because Azure Table storage doesn't support that operation.
 * You can’t create a property called **Timestamp**. Azure storage services use a property with that name.
 * If you enter a **DateTime** value, you must follow a format that's appropriate to the region and language settings of your computer (for example, MM/DD/YYYY HH:MM:SS [AM|PM] for US English).
 
 ### To add entities
 
-1. In Table Designer, select the **Add Entity** button.
+1. In **Table Designer**, select the **Add Entity** button.
 
     ![Add Entity button](./media/vs-azure-tools-storage-resources-server-explorer-browse-manage/IC655336.png)
 
@@ -229,7 +229,7 @@ When Server Explorer connects to or gets data from a storage account, the operat
 ### To refresh table data
 
 * Select the **Tables** node beneath **Storage**, and then select the **Refresh** button on the Server Explorer toolbar.
-* To refresh the list of entities that is displayed in Table Designer, select the **Execute** button in Table Designer.
+* To refresh the list of entities that is displayed in **Table Designer**, select the **Execute** button in Table Designer.
 
 ### To refresh queue data
 

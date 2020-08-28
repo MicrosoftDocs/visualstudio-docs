@@ -1,7 +1,7 @@
 ---
 title: Identify and customize keyboard shortcuts
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 f1_keywords:
 - VS.ToolsOptionsPages.Environment.Keyboard
 helpviewer_keywords:

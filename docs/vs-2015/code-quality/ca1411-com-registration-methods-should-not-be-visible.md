@@ -19,7 +19,7 @@ manager: "wpickett"
 # CA1411: COM registration methods should not be visible
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-|||
+|Item|Value|
 |-|-|
 |TypeName|ComRegistrationMethodsShouldNotBeVisible|
 |CheckId|CA1411|

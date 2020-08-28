@@ -1,7 +1,7 @@
 ---
 title: "How to: Show the Developer tab on the ribbon"
 ms.date: "08/14/2019"
-ms.topic: "conceptual"
+ms.topic: "how-to"
 dev_langs:
   - "VB"
   - "CSharp"

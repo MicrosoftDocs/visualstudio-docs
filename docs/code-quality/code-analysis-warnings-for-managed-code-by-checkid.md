@@ -100,6 +100,7 @@ f1_keywords:
 - CA1413
 - CA1414
 - CA1415
+- CA1417
 - CA1500
 - CA1501
 - CA1502
@@ -145,6 +146,7 @@ f1_keywords:
 - CA1802
 - CA1803
 - CA1804
+- CA1805
 - CA1806
 - CA1809
 - CA1810
@@ -165,7 +167,13 @@ f1_keywords:
 - CA1827
 - CA1828
 - CA1829
+- CA1830
+- CA1831
+- CA1832
+- CA1833
 - CA1835
+- CA1836
+- CA1838
 - CA1900
 - CA1901
 - CA1903
@@ -178,8 +186,11 @@ f1_keywords:
 - CA2007
 - CA2009
 - CA2011
+- CA2012
 - CA2013
+- CA2014
 - CA2015
+- CA2016
 - CA2100
 - CA2101
 - CA2102
@@ -273,8 +284,11 @@ f1_keywords:
 - CA2243
 - CA2245
 - CA2246
+- CA2247
 - CA5122
 - CA5374
+- IL3000
+- IL3001
 ms.assetid: 5cb221f6-dc59-4abf-9bfa-adbd6f907f96
 author: mikadumont
 ms.author: midumont
@@ -356,7 +370,7 @@ The following table lists Code Analysis warnings for managed code by the CheckId
 | CA1070 | [CA1070: Do not declare event fields as virtual](../code-quality/ca1070.md) | A [field-like event](/dotnet/csharp/language-reference/language-specification/classes#field-like-events) was declared as virtual. |
 | CA1200 | [CA1200: Avoid using cref tags with a prefix](../code-quality/ca1200.md) | The [cref](/dotnet/csharp/programming-guide/xmldoc/cref-attribute) attribute in an XML documentation tag means "code reference". It specifies that the inner text of the tag is a code element, such as a type, method, or property. Avoid using `cref` tags with prefixes, because it prevents the compiler from verifying references. It also prevents the Visual Studio integrated development environment (IDE) from finding and updating these symbol references during refactorings. |
 | CA1300 | [CA1300: Specify MessageBoxOptions](../code-quality/ca1300.md) | To correctly display a message box for cultures that use a right-to-left reading order, the RightAlign and RtlReading members of the MessageBoxOptions enumeration must be passed to the Show method. |
-| CA1301 | [CA1301: Avoid duplicate accelerators](../code-quality/ca1301.md) | An access key, also known as an accelerator, enables keyboard access to a control by using the ALT key. When multiple controls have duplicate access keys, the behavior of the access key is not well-defined. |
+| CA1301 | [CA1301: Avoid duplicate accelerators](../code-quality/ca1301.md) | An access key, also known as an accelerator, enables keyboard access to a control by using the ALT key. When multiple controls have duplicate access keys, the behavior of the access key is not well defined. |
 | CA1302 | [CA1302: Do not hardcode locale specific strings](../code-quality/ca1302.md) | The System.Environment.SpecialFolder enumeration contains members that refer to special system folders. The locations of these folders can have different values on different operating systems; the user can change some of the locations; and the locations are localized. The Environment.GetFolderPath method returns the locations that are associated with the Environment.SpecialFolder enumeration, localized and appropriate for the currently running computer. |
 | CA1303 | [CA1303: Do not pass literals as localized parameters](../code-quality/ca1303.md) | An externally visible method passes a string literal as a parameter to a .NET constructor or method, and that string should be localizable. |
 | CA1304 | [CA1304: Specify CultureInfo](../code-quality/ca1304.md) | A method or constructor calls a member that has an overload that accepts a System.Globalization.CultureInfo parameter, and the method or constructor does not call the overload that takes the CultureInfo parameter. When a CultureInfo or System.IFormatProvider object is not supplied, the default value that is supplied by the overloaded member might not have the effect that you want in all locales. |
@@ -381,6 +395,7 @@ The following table lists Code Analysis warnings for managed code by the CheckId
 | CA1413 | [CA1413: Avoid non-public fields in COM visible value types](../code-quality/ca1413.md) | Nonpublic instance fields of COM-visible value types are visible to COM clients. Review the content of the fields for information that should not be exposed, or that will have unintended design or security effects. |
 | CA1414 | [CA1414: Mark boolean P/Invoke arguments with MarshalAs](../code-quality/ca1414.md) | The Boolean data type has multiple representations in unmanaged code. |
 | CA1415 | [CA1415: Declare P/Invokes correctly](../code-quality/ca1415.md) | This rule looks for operating system invoke method declarations that target [!INCLUDE[TLA2#tla_win32](../code-quality/includes/tla2sharptla_win32_md.md)] functions that have a pointer to an OVERLAPPED structure parameter and the corresponding managed parameter is not a pointer to a System.Threading.NativeOverlapped structure. |
+| CA1417 | [CA1417: Do not use `OutAttribute` on string parameters for P/Invokes](../code-quality/ca1417.md) | String parameters passed by value with the `OutAttribute` can destabilize the runtime if the string is an interned string. |
 | CA1500 | [CA1500: Variable names should not match field names](../code-quality/ca1500.md) | An instance method declares a parameter or a local variable whose name matches an instance field of the declaring type, leading to errors. |
 | CA1501 | [CA1501: Avoid excessive inheritance](../code-quality/ca1501.md) | A type is more than four levels deep in its inheritance hierarchy. Deeply nested type hierarchies can be difficult to follow, understand, and maintain. |
 | CA1502 | [CA1502: Avoid excessive complexity](../code-quality/ca1502.md) | This rule measures the number of linearly independent paths through the method, which is determined by the number and complexity of conditional branches. |
@@ -419,6 +434,7 @@ The following table lists Code Analysis warnings for managed code by the CheckId
 | CA1801 | [CA1801: Review unused parameters](../code-quality/ca1801.md) | A method signature includes a parameter that is not used in the method body. |
 | CA1802 |[CA1802: Use Literals Where Appropriate](../code-quality/ca1802.md) |A field is declared static and read-only (Shared and ReadOnly in [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)]), and is initialized by using a value that is computable at compile time. Because the value that is assigned to the targeted field is computable at compile time, change the declaration to a const (Const in [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)]) field so that the value is computed at compile time instead of at run time. |
 | CA1804 | [CA1804: Remove unused locals](../code-quality/ca1804.md) | Unused local variables and unnecessary assignments increase the size of an assembly and decrease performance. |
+| CA1805 | [CA1805: Do not initialize unnecessarily](../code-quality/ca1805.md) | The .NET runtime initializes all fields of reference types to their default values before running the constructor. In most cases, explicitly initializing a field to its default value is redundant, which adds to maintenance costs and may degrade performance (such as with increased assembly size). |
 | CA1806 | [CA1806: Do not ignore method results](../code-quality/ca1806.md) | A new object is created but never used; or a method that creates and returns a new string is called and the new string is never used; or a COM or P/Invoke method returns an HRESULT or error code that is never used. |
 | CA1809 |[CA1809: Avoid excessive locals](../code-quality/ca1809.md) | A common performance optimization is to store a value in a processor register instead of memory, which is referred to as "enregistering the value". To increase the chance that all local variables are enregistered, limit the number of local variables to 64. |
 | CA1810 | [CA1810: Initialize reference type static fields inline](../code-quality/ca1810.md) | When a type declares an explicit static constructor, the just-in-time (JIT) compiler adds a check to each static method and instance constructor of the type to make sure that the static constructor was previously called. Static constructor checks can decrease performance. |
@@ -439,7 +455,13 @@ The following table lists Code Analysis warnings for managed code by the CheckId
 | CA1827 |[CA1827: Do not use Count/LongCount when Any can be used](../code-quality/ca1827.md) | <xref:System.Linq.Enumerable.Count%2A> or <xref:System.Linq.Enumerable.LongCount%2A> method was used where <xref:System.Linq.Enumerable.Any%2A> method would be more efficient. |
 | CA1828 |[CA1828: Do not use CountAsync/LongCountAsync when AnyAsync can be used](../code-quality/ca1828.md) | <xref:Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.CountAsync%2A> or <xref:Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.LongCountAsync%2A> method was used where <xref:Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.AnyAsync%2A> method would be more efficient. |
 | CA1829 |[CA1829: Use Length/Count property instead of Enumerable.Count method](../code-quality/ca1829.md) | <xref:System.Linq.Enumerable.Count%2A> LINQ method was used on a type that supports an equivalent, more efficient `Length` or `Count` property. |
-| CA1835 |[CA1835: Prefer the 'Memory'-based overloads for 'ReadAsync' and 'WriteAsync'](../code-quality/ca1835.md) | 'Stream' has a 'ReadAsync' overload that takes a 'Memory&lt;Byte&gt;' as the first argument, and a 'WriteAsync' overload that takes a 'ReadOnlyMemory&lt;Byte&gt;' as the first argument. Prefer calling the memory based overloads, which are more efficient. |
+| CA1830 |[CA1830: Prefer strongly-typed Append and Insert method overloads on StringBuilder](../code-quality/ca1830.md) | <xref:System.Text.StringBuilder.Append%2A> and <xref:System.Text.StringBuilder.Insert%2A> provide overloads for multiple types beyond <xref:System.String>.  When possible, prefer the strongly-typed overloads over using ToString() and the string-based overload. |
+| CA1831 |[CA1831: Use AsSpan instead of Range-based indexers for string when appropriate](../code-quality/ca1831.md) | When using a range-indexer on a string and implicitly assigning the value to  ReadOnlySpan&lt;char&gt; type, the method <xref:System.String.Substring%2A?#System_String_Substring_System_Int32_System_Int32_> will be used instead of <xref:System.Span%601.Slice%2A?#System_Span_1_Slice_System_Int32_System_Int32_>, which produces a copy of requested portion of the string. |
+| CA1832 |[CA1832: Use AsSpan or AsMemory instead of Range-based indexers for getting ReadOnlySpan or ReadOnlyMemory portion of an array](../code-quality/ca1832.md) | When using a range-indexer on an array and implicitly assigning the value to a <xref:System.ReadOnlySpan%601> or <xref:System.ReadOnlyMemory%601> type, the method <xref:System.Runtime.CompilerServices.RuntimeHelpers.GetSubArray%2A> will be used instead of <xref:System.Span%601.Slice%2A?#System_Span_1_Slice_System_Int32_System_Int32_>, which produces a copy of requested portion of the array. |
+| CA1833 |[CA1833: Use AsSpan or AsMemory instead of Range-based indexers for getting Span or Memory portion of an array](../code-quality/ca1833.md) | When using a range-indexer on an array and implicitly assigning the value to a <xref:System.Span%601> or <xref:System.Memory%601> type, the method <xref:System.Runtime.CompilerServices.RuntimeHelpers.GetSubArray%2A> will be used instead of <xref:System.Span%601.Slice%2A?#System_Span_1_Slice_System_Int32_System_Int32_>, which produces a copy of requested portion of the array. |
+| CA1835 |[CA1835: Prefer the 'Memory'-based overloads for 'ReadAsync' and 'WriteAsync'](../code-quality/ca1835.md) | 'Stream' has a 'ReadAsync' overload that takes a 'Memory&lt;Byte&gt;' as the first argument, and a 'WriteAsync' overload that takes a 'ReadOnlyMemory&lt;Byte&gt;' as the first argument. Prefer calling the memory-based overloads, which are more efficient. |
+| CA1836 |[CA1836: Prefer `IsEmpty` over `Count` when available](../code-quality/ca1836.md) | Prefer `IsEmpty` property that is more efficient than `Count`, `Length`, <xref:System.Linq.Enumerable.Count%60%601%28System.Collections.Generic.IEnumerable%7B%60%600%7D%29> or <xref:System.Linq.Enumerable.LongCount%60%601%28System.Collections.Generic.IEnumerable%7B%60%600%7D%29> to determine whether the object contains or not any items. |
+| CA1838 | [CA1838: Avoid `StringBuilder` parameters for P/Invokes](../code-quality/ca1838.md) | Marshaling of 'StringBuilder' always creates a native buffer copy, resulting in multiple allocations for one marshaling operation. |
 | CA1900 | [CA1900: Value type fields should be portable](../code-quality/ca1900.md) | This rule checks that structures that are declared by using explicit layout will align correctly when marshaled to unmanaged code on 64-bit operating systems. |
 | CA1901 | [CA1901: P/Invoke declarations should be portable](../code-quality/ca1901.md) | This rule evaluates the size of each parameter and the return value of a P/Invoke, and verifies that the size of the parameter is correct when marshaled to unmanaged code on 32-bit and 64-bit operating systems. |
 | CA1903 | [CA1903: Use only API from targeted framework](../code-quality/ca1903.md) | A member or type is using a member or type that was introduced in a service pack that was not included together with the targeted framework of the project. |
@@ -452,8 +474,11 @@ The following table lists Code Analysis warnings for managed code by the CheckId
 | CA2007 | [CA2007: Do not directly await a Task](ca2007.md) | An asynchronous method [awaits](/dotnet/csharp/language-reference/keywords/await) a <xref:System.Threading.Tasks.Task> directly. When an asynchronous method awaits a <xref:System.Threading.Tasks.Task> directly, continuation occurs in the same thread that created the task. This behavior can be costly in terms of performance and can result in a deadlock on the UI thread. Consider calling <xref:System.Threading.Tasks.Task.ConfigureAwait(System.Boolean)?displayProperty=nameWithType> to signal your intention for continuation. |
 | CA2009 | [CA2009: Do not call ToImmutableCollection on an ImmutableCollection value](ca2009.md) | `ToImmutable` method was unnecessarily called on an immutable collection from <xref:System.Collections.Immutable> namespace. |
 | CA2011 | [CA2011: Do not assign property within its setter](ca2011.md) | A property was accidentally assigned a value within its own [set accessor](/dotnet/csharp/programming-guide/classes-and-structs/using-properties#the-set-accessor). |
+| CA2012 | [CA2012: Use ValueTasks correctly](ca2012.md) | ValueTasks returned from member invocations are intended to be directly awaited.  Attempts to consume a ValueTask multiple times or to directly access one's result before it's known to be completed may result in an exception or corruption.  Ignoring such a ValueTask is likely an indication of a functional bug and may degrade performance. |
 | CA2013 | [CA2013: Do not use ReferenceEquals with value types](ca2013.md) | When comparing values using <xref:System.Object.ReferenceEquals%2A?displayProperty=fullName>, if objA and objB are value types, they are boxed before they are passed to the <xref:System.Object.ReferenceEquals%2A> method. This means that even if both objA and objB represent the same instance of a value type, the <xref:System.Object.ReferenceEquals%2A> method nevertheless returns false. |
+| CA2014 | [CA2014: Do not use stackalloc in loops.](ca2014.md) | Stack space allocated by a stackalloc is only released at the end of the current method's invocation.  Using it in a loop can result in unbounded stack growth and eventual stack overflow conditions. |
 | CA2015 | [CA2015: Do not define finalizers for types derived from MemoryManager&lt;T&gt;](ca2015.md) | Adding a finalizer to a type derived from <xref:System.Buffers.MemoryManager%601> may permit memory to be freed while it is still in use by a <xref:System.Span%601>. |
+| CA2016 | [CA2016: Forward the CancellationToken parameter to methods that take one](ca2016.md) | Forward the `CancellationToken` parameter to methods that take one to ensure the operation cancellation notifications gets properly propagated, or pass in `CancellationToken.None` explicitly to indicate intentionally not propagating the token. |
 | CA2100 | [CA2100: Review SQL queries for security vulnerabilities](../code-quality/ca2100.md) | A method sets the System.Data.IDbCommand.CommandText property by using a string that is built from a string argument to the method. This rule assumes that the string argument contains user input. A SQL command string that is built from user input is vulnerable to SQL injection attacks. |
 | CA2101 |[CA2101: Specify marshaling for P/Invoke string arguments](../code-quality/ca2101.md) | A platform invoke member allows partially trusted callers, has a string parameter, and does not explicitly marshal the string. This can cause a potential security vulnerability. |
 | CA2102 | [CA2102: Catch non-CLSCompliant exceptions in general handlers](../code-quality/ca2102.md) | A member in an assembly that is not marked by using the RuntimeCompatibilityAttribute or is marked RuntimeCompatibility(WrapNonExceptionThrows = false) contains a catch block that handles System.Exception and does not contain an immediately following general catch block. |
@@ -545,6 +570,7 @@ The following table lists Code Analysis warnings for managed code by the CheckId
 | CA2244 | [CA2244: Do not duplicate indexed element initializations](../code-quality/ca2244.md) | An object initializer has more than one indexed element initializer with the same constant index. All but the last initializer are redundant. |
 | CA2245 | [CA2245: Do not assign a property to itself](../code-quality/ca2245.md) | A property was accidentally assigned to itself. |
 | CA2246 | [CA2246: Do not assign a symbol and its member in the same statement](../code-quality/ca2246.md) | Assigning a symbol and its member, that is, a field or a property, in the same statement is not recommended. It is not clear if the member access was intended to use the symbol's old value prior to the assignment or the new value from the assignment in this statement. |
+| CA2247 | [CA2247: Argument passed to TaskCompletionSource constructor should be TaskCreationOptions enum instead of TaskContinuationOptions enum.](../code-quality/ca2247.md) | TaskCompletionSource has constructors that take TaskCreationOptions that control the underlying Task, and constructors that take object state that's stored in the task.  Accidentally passing a TaskContinuationOptions instead of a TaskCreationOptions will result in the call treating the options as state. |
 | CA5122 | [CA5122 P/Invoke declarations should not be safe critical](../code-quality/ca5122.md) | Methods are marked as SecuritySafeCritical when they perform a security sensitive operation, but are also safe to be used by transparent code. Transparent code may never directly call native code through a P/Invoke. Therefore, marking a P/Invoke as security safe critical will not enable transparent code to call it, and is misleading for security analysis. |
 | CA5359 | [CA5359 Do not disable certificate validation](../code-quality/ca5359.md) | A certificate can help authenticate the identity of the server. Clients should validate the server certificate to ensure requests are sent to the intended server. If the ServerCertificateValidationCallback always returns `true`, any certificate will pass validation. |
 | CA5360 | [CA5360 Do not call dangerous methods in deserialization](../code-quality/ca5360.md) | Insecure deserialization is a vulnerability which occurs when untrusted data is used to abuse the logic of an application, inflict a Denial-of-Service (DoS) attack, or even execute arbitrary code upon it being deserialized. It's frequently possible for malicious users to abuse these deserialization features when the application is deserializing untrusted data which is under their control. Specifically, invoke dangerous methods in the process of deserialization. Successful insecure deserialization attacks could allow an attacker to carry out attacks such as DoS attacks, authentication bypasses, and remote code execution. |
@@ -575,3 +601,5 @@ The following table lists Code Analysis warnings for managed code by the CheckId
 | CA5400 | [CA5400 Ensure HttpClient certificate revocation list check is not disabled](../code-quality/ca5400.md) | A revoked certificate isn't trusted anymore. It could be used by attackers passing some malicious data or stealing sensitive data in HTTPS communication. |
 | CA5401 | [CA5401 Do not use CreateEncryptor with non-default IV](../code-quality/ca5401.md) | Symmetric encryption should always use a non-repeatable initialization vector to prevent dictionary attacks. |
 | CA5402 | [CA5402 Use CreateEncryptor with the default IV](../code-quality/ca5402.md) | Symmetric encryption should always use a non-repeatable initialization vector to prevent dictionary attacks. |
+| IL3000 | [IL3000 Avoid accessing Assembly file path when publishing as a single file](../code-quality/il3000.md) | Avoid using accessing Assembly file path when publishing as a single file |
+| IL3001 | [IL3001 Avoid accessing Assembly file path when publishing as a single-file](../code-quality/il3001.md) | Avoid accessing Assembly file path when publishing as a single-file |

@@ -25,7 +25,7 @@ You can improve your C/C++ code by using the code analysis in Visual Studio to f
   
 ## In This Section  
   
-|||  
+|Title|Description|  
 |-|-|  
 |[Code Analysis for C/C++ Overview](../code-quality/code-analysis-for-c-cpp-overview.md)|Learn about the features of the code analysis tool.|  
 |[Quick Start: Code Analysis for C/C++](../code-quality/quick-start-code-analysis-for-c-cpp.md)|Learn the basics of code analysis for C/C++.|  

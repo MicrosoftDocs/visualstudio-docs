@@ -1,7 +1,7 @@
 ---
 title: 'How to: Select the XML Schemas to Use'
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 ms.assetid: d6fda3ef-d465-4788-8514-2f2d528d658c
 author: TerryGLee
 ms.author: tglee

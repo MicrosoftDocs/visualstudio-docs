@@ -1,7 +1,7 @@
 ---
 title: Use the Task List
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 f1_keywords:
 - TaskListWindow
 - VS.TaskList

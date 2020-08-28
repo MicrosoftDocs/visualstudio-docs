@@ -1,7 +1,7 @@
 ---
 title: "Localizing SharePoint Solutions | Microsoft Docs"
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: overview
 f1_keywords:
   - "VS.SharePointTools.Project.GlobalAndFeatureResource"
   - "VS.SharePoint.Project.AddResourceDialog"

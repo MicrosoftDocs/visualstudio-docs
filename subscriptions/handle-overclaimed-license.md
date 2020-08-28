@@ -6,23 +6,23 @@ manager: lank
 ms.assetid: a747100c-6f08-41a4-aaad-05099741742b
 ms.date: 03/03/2020
 ms.topic: conceptual
-description:  Learn how administrators can resolve overallocated subscriptions
+description:  Learn how administrators can resolve over-allocated subscriptions
 ---
 
-# Overallocated subscriptions
-Sometimes orders are changed after subscribers have been added, which can result in having more assigned subscriptions than licenses owned by your company. This is called "overallocation".  
+# Over-allocated subscriptions
+Sometimes orders are changed after subscribers have been added, which can result in having more assigned subscriptions than licenses owned by your company. This is called "over-allocation".  
 
 To see your subscripton allocations, click on the top icon at the left to open the allocations pane.  
 
 > [!NOTE]
-> Overallocations are not allowed in Open License programs.  Also, other programs may display this information in the portal differently.
+> Over-allocations are not allowed in Open License programs.  Also, other programs may display this information in the portal differently.
 >
 > [!div class="mx-imgBorder"]
-> ![Notice of Over-claimed Subscriptions](_img/over-claimed/over-claimed-alert.png)
+> ![Notice of Over-claimed Subscriptions](_img/over-claimed/over-claimed-alert.png "The number of over-allocations is listed in the overview, and is represented by the hashed bar on the graph for each subscription type.")
 
-Notice that the display uses a hashed bar to indicate overallocated subscriptions.  The number of overallocations across all subscription types is included in the Overview section at the top, and each subscription level also displays its own allocation status.  
+Notice that the display uses a hashed bar to indicate over-allocated subscriptions.  The number of over-allocations across all subscription types is included in the Overview section at the top, and each subscription level also displays its own allocation status.  
 
-## Resolve overallocated subscriptions
+## Resolve over-allocated subscriptions
 There are several ways to resolve overallocations:
 - Contact your reseller to purchase additional subscriptions.
 - Wait until your annual true-up period and pay for the overallocated subscriptions at that point. 

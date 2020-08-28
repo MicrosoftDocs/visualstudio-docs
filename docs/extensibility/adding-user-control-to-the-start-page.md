@@ -1,7 +1,7 @@
 ---
 title: Adding User Control to the Start Page | Microsoft Docs
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - start page dll
 - custom start page

@@ -1,19 +1,19 @@
 ---
-title: "Debug a WebView control (UWP) | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-dev_langs:
-  - "CSharp"
-  - "VB"
-  - "FSharp"
-  - "C++"
+title: Debug a WebView control (UWP) | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: how-to
+dev_langs: 
+  - CSharp
+  - VB
+  - FSharp
+  - C++
 ms.assetid: 7d105907-8b39-4d07-8762-5c5ed74c7f21
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 monikerRange: vs-2017
-ms.workload:
-  - "uwp"
+ms.workload: 
+  - uwp
 ---
 # Debug a WebView control in a UWP App
 

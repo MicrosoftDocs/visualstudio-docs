@@ -44,7 +44,7 @@ You can install and view content for various products and technologies on your l
 ## Navigating the Help Viewer
  You can find information in installed content by using the navigation tabs, view installed content in the topic tab or tabs, and manage content by using the **Manage Content** tab. You can also perform additional tasks by using the buttons on the toolbar and find additional information in the lower-right corner of the window.
 
-|||
+|Scenario|Description|
 |-|-|
 |Navigation|By using the **Contents** tab, you can display installed content as a hierarchy and specify criteria to filter the titles that appear.<br /><br /> By using the **Search** tab, you can search for terms anywhere in the content, including code and topic titles.<br /><br /> By using the **Index** tab, you can search the index, specify criteria to filter the entries, and require that index entries either contain or start with text that you specify.<br /><br /> By using the **Favorites** tab, you can save links to topics that you use frequently, and you can display a list of topics that you've viewed recently.|
 |Topic viewing|Each topic appears in a tab, and you can open multiple topics at the same time.|

@@ -1,14 +1,14 @@
 ---
-title: "Using multiple profiler tools simultaneously | Microsoft Docs"
-ms.date: "4/29/2020"
-ms.topic: "conceptual"
-helpviewer_keywords:
-  - "Profiler, multiple tools"
-author: "Sagar-S-S"
-ms.author: "sashe"
+title: Using multiple profiler tools simultaneously | Microsoft Docs
+ms.date: 4/29/2020
+ms.topic: how-to
+helpviewer_keywords: 
+  - Profiler, multiple tools
+author: Sagar-S-S
+ms.author: sashe
 manager: AndSter
-ms.workload:
-  - "multiple"
+ms.workload: 
+  - multiple
 ---
 
 # Using multiple profiler tools simultaneously

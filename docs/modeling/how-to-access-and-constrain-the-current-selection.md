@@ -1,11 +1,11 @@
 ---
 title: "How to: Access and Constrain the Current Selection"
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
   - "Domain-Specific Language, accessing the current selection"
-author: jillre
-ms.author: jillfra
+author: JoshuaPartlow
+ms.author: joshuapa
 manager: jillfra
 ms.workload:
   - "multiple"

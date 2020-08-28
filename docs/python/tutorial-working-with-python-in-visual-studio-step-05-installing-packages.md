@@ -26,11 +26,11 @@ The Python developer community has produced thousands of useful packages that yo
    ![Python Environments window](media/environments/environments-default-view-2019.png)
 
    > [!NOTE]
-   > You can also open the Python Environments window by clicking on the Solution Explorer window and using the Ctrl+K, Ctrl+` keyboard shortcut. If the shortcut doesn't work and you can't find the Python Environments window in the menu, it's possible you haven't installed the Python workload. See [How to install Python support in Visual Studio](installing-python-support-in-visual-studio.md) for guidance about how to install Python.
+   > You can also open the Python Environments window by selecting the Solution Explorer window and using the **Ctrl+K, Ctrl+`** keyboard shortcut. If the shortcut doesn't work and you can't find the Python Environments window in the menu, it's possible you haven't installed the Python workload. See [How to install Python support in Visual Studio](installing-python-support-in-visual-studio.md) for guidance about how to install Python.
 
 2. The environment's **Overview** tab provides quick access to an **Interactive** window for that environment along with the environment's installation folder and interpreters. For example, select **Open interactive window** and an **Interactive** window for that specific environment appears in Visual Studio.
 
-3. Now, create a new project with **File** > **New** > **Project**, selecting the **Python Application** template. In the code file that appears, paste the following code, which creates a cosine wave like the previous tutorial steps, only this time plotted graphically. Alternatively, you can use the project you previously created and replace the code. 
+3. Now, create a new project with **File** > **New** > **Project**, selecting the **Python Application** template. In the code file that appears, paste the following code, which creates a cosine wave like the previous tutorial steps, only this time plotted graphically. Alternatively, you can use the project you previously created and replace the code.
 
     ```python
     from math import radians
@@ -45,7 +45,7 @@ The Python developer community has produced thousands of useful packages that yo
     main()
     ```
 
-4. With a Python project open, you can also open the Python Environments window from Solution Explorer by right clicking on Python Environments and selecting **View All Python Environments**
+4. With a Python project open, you can also open the Python Environments window from Solution Explorer by right-clicking **Python Environments** and selecting **View All Python Environments**
 
    ![Environment](media/environments/environments-view-all-2019.png)
 
@@ -55,7 +55,7 @@ The Python developer community has produced thousands of useful packages that yo
 
 ## Install packages using the Python Environments window
 
-1. From the Python Environments window, click on the default environment for new Python projects and select the **Packages** tab. You will then see a list of packages that are currently installed in the environment.
+1. From the Python Environments window, select the default environment for new Python projects and choose the **Packages** tab. You will then see a list of packages that are currently installed in the environment.
 
    ![Packages installed in an environment](media/environments/environments-installed-packages-2019.png)
 
@@ -71,7 +71,7 @@ The Python developer community has produced thousands of useful packages that yo
 
    > [!NOTE]
    > A small progress bar might appear underneath the environment to indicate that Visual Studio is building its IntelliSense database for the newly-installed package. The **IntelliSense** tab also shows more detailed information. Be aware that until that database is complete, IntelliSense features like auto-completion and syntax checking won't be active in the editor for that package.
-   > 
+   >
    > Visual Studio 2017 version 15.6 and later uses a different and faster method for working with IntelliSense, and displays a message to that effect on the **IntelliSense** tab.
 
 ## Run the program

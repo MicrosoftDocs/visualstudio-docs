@@ -1,7 +1,7 @@
 ---
 title: Add name parameters to project and item templates
 ms.date: 01/02/2018
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - template parameters
 - template parameters, substituting

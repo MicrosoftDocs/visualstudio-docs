@@ -6,7 +6,7 @@ manager: jillfra
 assetId: d397ef87-64e5-401a-aad5-7f83f1022e16
 ms.custom: vs-azure
 ms.workload: azure-vs
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 03/21/2017
 ms.author: ghogen
 ---
@@ -106,7 +106,7 @@ By using a different value for each service configuration, you do not have to us
 
 1. In the **Create Storage Connection String** dialog, select an option for **Connect using**. Then follow the instructions for the option you select:
 
-    - **Microsoft Azure storage emulator** - If you select this option, the remaining settings on the dialog are disabled as they apply only to Azure. Select **OK**.
+    - **Microsoft Azure Storage Emulator** - If you select this option, the remaining settings on the dialog are disabled as they apply only to Azure. Select **OK**.
     - **Your subscription** - If you select this option, use the dropdown list to either select and sign into a Microsoft account, or add a Microsoft account. Select an Azure subscription and storage account. Select **OK**.
     - **Manually entered credentials** - Enter the storage account name, and either the primary or second key. Select an option for **Connection** (HTTPS is recommended for most scenarios.) Select **OK**.
 

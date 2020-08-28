@@ -66,7 +66,8 @@ For lists of the workloads and components that you can install by using the comm
    ```
 
    ```powershell
-   $exitCode = Start-Process -FilePath vs_enterprise.exe -ArgumentList "--installPath", "C:\VS", "--passive", "--wait" -Wait -PassThru
+   $process = Start-Process -FilePath vs_enterprise.exe -ArgumentList "--installPath", "C:\VS", "--passive", "--wait" -Wait -PassThru
+   Write-Output $process.ExitCode 
    ```
 
    or

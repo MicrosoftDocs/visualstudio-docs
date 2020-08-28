@@ -2,7 +2,7 @@
 title: 'How to: Change the build output directory'
 ms.date: 05/15/2019
 ms.technology: vs-ide-compile
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - output directory, changing
 ms.assetid: a8333c89-afb2-4b1d-b2e2-9146da852402

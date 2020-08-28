@@ -1,7 +1,7 @@
 ---
 title: 'How to: Intercept a Click on a Shape or Decorator'
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - Domain-Specific Language, programming domain models
 author: JoshuaPartlow

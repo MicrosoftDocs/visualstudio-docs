@@ -7,10 +7,10 @@ metadata:
   title: Code analyzers
   description: Learn how Visual Studio can help you analyze code quality.
   ms.prod: visual-studio-windows
-  ms.technology: vs-ide-general
+  ms.technology: vs-ide-code-analysis
   ms.topic: landing-page
-  author: jillre
-  ms.author: jillfra
+  author: Mikejo5000
+  ms.author: mikejo
   ms.date: 10/15/2019
 
 # linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new

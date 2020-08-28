@@ -1,7 +1,7 @@
 ---
 title: "IDiaSymbol::get_registerType | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 ms.assetid: f1c98ab0-8aef-4a07-a686-28b8a54418ef

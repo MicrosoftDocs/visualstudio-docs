@@ -1,17 +1,17 @@
 ---
-title: "Display custom info using DebuggerDisplay | Microsoft Docs"
-ms.date: "01/09/2019"
-ms.topic: "conceptual"
-helpviewer_keywords:
-  - "attributes, debugger"
-  - "DebuggerDisplay attribute"
-  - "DebuggerDisplayAttribute class"
+title: Display custom info using DebuggerDisplay | Microsoft Docs
+ms.date: 01/09/2019
+ms.topic: how-to
+helpviewer_keywords: 
+  - attributes, debugger
+  - DebuggerDisplay attribute
+  - DebuggerDisplayAttribute class
 ms.assetid: f4eb7c76-af4e-493b-9ab6-9cb05949d9b3
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
-ms.workload:
-  - "multiple"
+ms.workload: 
+  - multiple
 ---
 # Tell the debugger what to show using the DebuggerDisplay Attribute (C#, Visual Basic, F#, C++/CLI)
 
@@ -21,10 +21,10 @@ The `DebuggerDisplay` attribute has a single argument, which is a string to be d
 
 If a class has an overridden `ToString()` method, the debugger uses the overridden method instead of the default `{<typeName>}`. Thus, if you have overridden the `ToString()` method, the debugger uses the overridden method instead of the default`{<typeName>}`, and you do not have to use `DebuggerDisplay`. If you use both, the `DebuggerDisplay` attribute takes precedence over the overridden `ToString()` method. The `DebuggerDisplay` attribute also takes precedence over the overridden `ToString()` method in a subclass.
 
-Whether the debugger evaluates this implicit `ToString()` call depends on a user setting in the **Tools / Options / Debugging** dialog box . Visual Basic does not implement this implicit `ToString()` evaluation.
+Whether the debugger evaluates this implicit `ToString()` call depends on a user setting in the **Tools / Options / Debugging** dialog box.
 
 > [!IMPORTANT]
-> If the **Show raw structure of objects in variables windows** check box is selected in the **Tools /Options / Debugging** dialog box, then the `DebuggerDisplay` attribute is ignored.
+> If the **Show raw structure of objects in variables windows** check box is selected in the **Tools / Options / Debugging** dialog box, then the `DebuggerDisplay` attribute is ignored.
 
 > [!NOTE]
 > For native code, this attribute is supported only in C++/CLI code.
