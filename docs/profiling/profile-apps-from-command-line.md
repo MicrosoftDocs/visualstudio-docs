@@ -87,6 +87,7 @@ Please see the following links to download and view agent configuration files:
 - https://aka.ms/vs/diaghub/agentconfig/dotnetasyncbase
 - https://aka.ms/vs/diaghub/agentconfig/dotnetallocbase
 - https://aka.ms/vs/diaghub/agentconfig/dotnetalloclow
+- https://aka.ms/vs/diaghub/agentconfig/dotnetcountersbase
 
 CpuUsage configurations (Base/High/Low) correspond to data collected for the [CPU Usage](../profiling/cpu-usage.md) profiling tool.
 DotNetObjectAlloc configurations (Base/Low) correspond to data collected for the [.NET Object Allocation tool](../profiling/dotnet-alloc-tool.md).
