@@ -6,7 +6,10 @@ ms.assetid: 9bea057f-5183-4fcc-a729-14c0c3eac621
 author: evanwindom
 ms.author: cabuschl
 ms.date: 05/12/2020
-ms.faqid: 
+user.type: subscriber
+tags: sign-in
+subscription.type: vl, cloud,
+sap.id: 
 ---
 
 ## How to change sign-in emails for admins and super admins
