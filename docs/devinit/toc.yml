@@ -1,0 +1,80 @@
+- name: devinit
+# Auto-expanded node
+
+  items:
+  - name: Getting Started
+    href: getting-started-with-devinit.md
+  - name: Commands
+    href: devinit-commands.md
+  - name: .devinit.json
+    href: devinit-json.md
+  - name: devinit and Codespaces
+    href: devinit-and-codespaces.md
+  - name: FAQ
+    href: faq.md
+  - name: Tools
+    items:
+    - name: tool-azurecli-login
+      href: tool-azurecli-login.md
+    - name: tool-choco-install
+      href: tool-choco-install.md
+    - name: tool-choco-upgrade
+      href: tool-choco-upgrade.md
+    - name: tool-dotnet-restore
+      href: tool-dotnet-restore.md
+    - name: tool-dotnet-toolinstall
+      href: tool-dotnet-toolinstall.md
+    - name: tool-npm-install
+      href: tool-npm-install.md
+    - name: tool-nuget-restore
+      href: tool-nuget-restore.md
+    - name: tool-readme
+      href: tool-readme.md
+    - name: tool-azureartifactscredentialprovider
+      href: tool-require-azureartifactscredentialprovider.md
+    - name: tool-azurecli
+      href: tool-require-azurecli.md
+    - name: tool-choco
+      href: tool-require-choco.md
+    - name: tool-dotnetcoresdk
+      href: tool-require-dotnetcoresdk.md
+    - name: tool-dotnetframeworksdk
+      href: tool-require-dotnetframeworksdk.md
+    - name: tool-gitsubmodule
+      href: tool-require-gitsubmodule.md
+    - name: tool-mssql
+      href: tool-require-mssql.md
+    - name: tool-nodejs
+      href: tool-require-nodejs.md
+    - name: tool-npm
+      href: tool-require-npm.md
+    - name: tool-nuget
+      href: tool-require-nuget.md
+    - name: tool-psmodule
+      href: tool-require-psmodule.md
+    - name: tool-vcpkg
+      href: tool-require-vcpkg.md
+    - name: tool-vscomponent
+      href: tool-require-vscomponent.md
+    - name: tool-windowsfeature
+      href: tool-require-windowsfeature.md
+    - name: tool-set-env
+      href: tool-set-env.md
+    - name: tool-vcpkg-install
+      href: tool-vcpkg-install.md
+    - name: tool-windowsfeature
+      href: tool-windowsfeature.md
+    - name: tool-wsl-install
+      href: tool-wsl-install.md
+  - name: Samples
+    items:
+    - name: Summary
+      href: sample-readme.md
+    - name: dotnet Runtime Repo
+      href: sample-dotnetruntime.md
+    - name: eShopOnWeb Repo
+      href: sample-eshoponweb.md
+    - name: OpenCV Repo
+      href: sample-OpenCV.md
+    - name: Codespaces Private Preview
+      href: sample-privatepreview.md

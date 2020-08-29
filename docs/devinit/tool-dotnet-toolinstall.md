@@ -1,0 +1,56 @@
+---
+title: dotnet-toolinstall
+ms.date: 8/28/200
+ms.topic: reference
+author: andster
+ms.author: andster
+manager: jillfra
+ms.workload:
+- multiple
+---
+# dotnet-toolinstall
+
+The `dotnet-toolinstall` tool is used to install the [.NET Core Tools](https://dotnet.microsoft.com/) via the `dotnet tool update` command.
+
+## Usage
+
+If both the `input` and `additionalOptions` properties are omitted or empty, then the tool will follow the [default](#default) behavior detailed below.
+
+| Name                                             | Type   | Required | Value                                                                 |
+|--------------------------------------------------|--------|----------|-----------------------------------------------------------------------|
+| **comments**                                     | string | No       | Optional comments property. Not used.                                 |
+| [**input**](#input)                              | string | Yes      | The .NET Core tool to install. See [Input](#input) below for details. |
+| [**additionalOptions**](#Additional-Options)     | string | No       | See [Additional Options](#Additional-Options) below for details.      |
+
+### Input
+
+The `input` property is used to specify the .NET Core tool install. There is in an unofficial list of tools at [https://github.com/natemcmaster/dotnet-tools](https://github.com/natemcmaster/dotnet-tools).
+
+### Additional Options
+
+Additional configuration options can be passed in as a value of the `additionalOptions`. These arguments are a direct passthrough to the arguments used by the [`dotnet tool update`](https://docs.microsoft.com/en-us/dotnet/core/tools/global-tools#update-a-tool) command. The `dotnet tool update` is used to safely handle the case where a tool is already installed.
+
+### Default Behavior
+
+The default behavior of the `dotnet-toolinstall` tool is to error as `input` is required.
+
+## Example Usage
+
+```json
+{
+    "$schema": "./devinit.schema-1.0.json",
+    "run": [
+        {
+            "comments": "Example that will install the dotnet-trace tool.",
+            "tool": "dotnet-toolinstall",
+            "input": "dotnet-trace"
+        },
+        {
+            "comments": "Example that will install the dotnet-trace tool as a global tool.",
+            "tool": "dotnet-toolinstall",
+            "input": "dotnet-trace",
+            "additionalOptions": "--global"
+        }
+    ]
+}
+```
