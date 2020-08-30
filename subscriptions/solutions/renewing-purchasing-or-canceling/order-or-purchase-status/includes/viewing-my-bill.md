@@ -27,4 +27,4 @@ The spending limit in Azure prevents spending over your credit amount. All new c
 If you have removed the spending cap on your Azure subscription, converted to Pay-As-You-Go, are taking advantage of enterprise dev/test pricing only available to Visual Studio subscribers, or want to utilize services outside of those used for development and testing covered by the monthly credit, you will be billed monthly for services.  
 
 ### More information 
-Get answers to common questions about your usage and charges. Visit [billing FAQs](https://docs.microsoft.com/en-us/azure/cost-management-billing/manage/getting-started). 
+Get answers to common questions about your usage and charges. Visit [billing FAQs](https://docs.microsoft.com/azure/cost-management-billing/manage/getting-started). 
