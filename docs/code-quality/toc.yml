@@ -985,6 +985,8 @@
           href: ca2247.md
         - name: "CA2248: Provide correct enum argument to Enum.HasFlag"
           href: ca2248.md
+        - name: "CA2249: Consider using String.Contains instead of String.IndexOf"
+          href: ca2249.md
       - name: Automatic feature suspension
         href: automatic-feature-suspension.md
       - name: Publish warnings
