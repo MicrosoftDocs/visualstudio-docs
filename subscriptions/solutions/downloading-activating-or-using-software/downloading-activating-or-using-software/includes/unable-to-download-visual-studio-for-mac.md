@@ -23,4 +23,4 @@ As a Visual Studio subscriber, you have access to the Visual Studio IDE. Visual 
 ### No download available 
 The software downloads available to you depends on the subscription you're using. If you don’t see the download you’re looking for, it may not be available to you.
 1. You can download an Excel spreadsheet containing an extensive list of [available software titles](https://download.microsoft.com/download/1/5/4/15454442-CF17-47B9-A65D-DF84EF88511B/Visual_Studio_by_Subscription_Level.xlsx) for all subscription types.
-1. To use the list of available software, you will need to know what subscriptions you have. To check what subscriptions are available to you, log into the [subscriptions page](https://my.visualstudio.com/subscriptions) of the portal. 
+1. To use the list of available software, you'll need to know what subscriptions you have. To check what subscriptions are available to you, log into the [subscriptions page](https://my.visualstudio.com/subscriptions) of the portal. 
