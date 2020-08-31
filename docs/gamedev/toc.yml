@@ -4,8 +4,10 @@
   items: 
     - name: Unity
       items:
-        - name: Getting started
+        - name: Overview
           href: unity/get-started/visual-studio-tools-for-unity.md
+        - name: Getting started
+          href: unity/get-started/getting-started-visual-studio-tools-for-unity.md
         - name: Writing and editing C# scripts
           href: unity/get-started/using-visual-studio-tools-for-unity.md
         - name: Debugging C# scripts with Visual Studio
