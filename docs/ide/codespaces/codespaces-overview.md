@@ -1,6 +1,6 @@
 ---
-title: What is Visual Studio Codespaces (Preview)?
-description: Learn more about cloud-powered Codespaces and how to use them with Visual Studio 2019.
+title: What is Visual Studio Codespaces? (Preview)
+description: Learn more about how you can use a cloud-powered development codespace with Visual Studio 2019.
 ms.topic: overview
 ms.date: 09/02/2020
 author: TerryGLee
@@ -36,15 +36,15 @@ Visual Studio Codespaces conceptually and technically extends the [Visual Studio
 
 >"_We saw many developers trying to develop against containers and remote VMs configured with specific development and runtime stacks, simply because it is too hard, too disruptive, and in some cases impossible, to set up these development codespaces locally. We've all experienced this problem. Unless we feel it's time to flatten that machine, we hesitate to try out a new stack like Rust, Go, Node, or Python3, for fear of 'messing up' our current, well-tuned codespace._"
 
-Remote-capable tools empower developers but usually add overhead of machine management. Codespace configuration often complicates onboarding and context switching. Visual Studio Codespaces removes the barriers to rapid onboarding and context switching by enabling the simultaneous existence of many codespaces.
+Remote-capable tools empower developers but usually add overhead of machine management. Codespace configuration often complicates onboarding and context-switching. Visual Studio Codespaces removes the barriers to rapid onboarding and context-switching by enabling the simultaneous existence of many codespaces.
 
 Visual Studio Codespaces focuses on managed solutions that allow you to focus on productivity over setup. Developers that prefer to manage their own codespaces can explore [Visual Studio Code's Remote Development](https://code.visualstudio.com/docs/remote/remote-overview).
 
-### Codespaces
+### About codespaces
 
 A codespace is the "backend" half of Visual Studio Codespaces. It's where all of the compute associated with software development happens: compiling, debugging, restoring, etc. Creating a codespace prepares everything you need to complete a task, review a PR, or start a new project. Codespaces configures the runtime, compiler, debugger, editor, custom dotfile configurations, editor extensions, and the source code required to work on a project.
 
-Cloud-hosted development codespaces provide the benefits associated with Azure:
+Cloud-hosted development codespaces provide the following benefits:
 
 - They are fast to create and disposable. Create as many as you need (up to subscription limits), and dispose of them when you are finished.
 - They are managed, reducing overall maintenance for you.
@@ -52,18 +52,6 @@ Cloud-hosted development codespaces provide the benefits associated with Azure:
 - Moving your development workload to the cloud frees the limited resources on your personal machine.
 
 In addition to cloud-hosted codespaces, Visual Studio Codespaces also allows you to register and connect your own self-hosted codespaces. This functionality allows you to use existing codespaces, and still experience some of the benefits of Visual Studio Codespaces.
-
-### Editors and IDEs
-
-In addition to "backend" codespaces, Visual Studio Codespaces supports these "frontend" editors:
-
-- Visual Studio Code
-- Visual Studio 2019 (Private Preview)
-- Visual Studio Code-based editor in the browser
-
-Linux codespaces (Public Preview) are accessible from Visual Studio Code and our Visual Studio Code-based editor in the browser. Windows codespaces (Private Preview) are accessible from all three "frontend" editors.
-
-This array of editor options allows developers to use their preferred tooling from anywhere. This experience is extended with support for extensions from [the Visual Studio Marketplace](https://marketplace.visualstudio.com/).
 
 ### Custom configuration
 
