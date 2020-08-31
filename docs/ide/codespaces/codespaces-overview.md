@@ -1,5 +1,5 @@
 ---
-title: What is Visual Studio Codespaces? (Preview)
+title: Codespaces (Preview)
 description: Learn more about how you can use a cloud-powered development codespace with Visual Studio 2019.
 ms.topic: overview
 ms.date: 09/02/2020
@@ -13,7 +13,7 @@ ms.workload:
 monikerRange: vs-2019
 ---
 
-# What is Visual Studio Codespaces? (Preview)
+# What is Codespaces? (Preview)
 
 Welcome to Visual Studio Codespaces! We're glad you're here.
 
@@ -67,5 +67,6 @@ A codespace can be created with a user specific collection of custom dotfiles (e
 
 ## See also
 
-- [Quickstart: Visual Studio Codespaces in Visual Studio 2019 (Preview)](../quickstarts/vs.md)
-- [How to: Use Codespaces in Visual Studio 2019 (Preview)](../how-to/vside.md)
+- [Quickstart: Visual Studio Codespaces in Visual Studio 2019 (Preview)](/visualstudio/codespaces/quickstarts/vs/)
+- [How to: Use Codespaces (Preview)](use-visual-studio-codespaces.md)
+- [How to: Customize Codespaces (Preview)](customize-codespaces.md)
