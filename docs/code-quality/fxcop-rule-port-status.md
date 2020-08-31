@@ -69,7 +69,7 @@ CA1200 | Avoid using cref tags with a prefix
 [CA1303](ca1303.md) | Do not pass literals as localized parameters
 [CA1304](ca1304.md) | Specify CultureInfo
 [CA1305](ca1305.md) | Specify IFormatProvider
-[CA1307](ca1307.md) | Specify StringComparison
+[CA1307](ca1307.md) | Specify StringComparison for clarity
 [CA1308](ca1308.md) | Normalize strings to uppercase
 [CA1309](ca1309.md) | Use ordinal string comparison
 [CA1401](ca1401.md) | P/Invokes should not be visible
