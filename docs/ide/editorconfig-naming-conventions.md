@@ -49,7 +49,7 @@ The following list shows the allowable values, and you can specify multiple valu
 - parameter
 - type_parameter
 - local
-- local_functions
+- local_function
 
 > [!NOTE] 
 > Tuple members aren't currently supported.
