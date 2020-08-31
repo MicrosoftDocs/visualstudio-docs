@@ -69,7 +69,7 @@ CA1200 | Avoid using cref tags with a prefix
 [CA1303](ca1303.md) | Do not pass literals as localized parameters
 [CA1304](ca1304.md) | Specify CultureInfo
 [CA1305](ca1305.md) | Specify IFormatProvider
-[CA1307](ca1307.md) | Specify StringComparison
+[CA1307](ca1307.md) | Specify StringComparison for clarity
 [CA1308](ca1308.md) | Normalize strings to uppercase
 [CA1309](ca1309.md) | Use ordinal string comparison
 [CA1401](ca1401.md) | P/Invokes should not be visible
@@ -113,7 +113,7 @@ CA1826 | Do not use Enumerable methods on indexable collections. Instead use the
 [CA2000](ca2000.md) | Dispose objects before losing scope
 [CA2002](ca2002.md) | Do not lock on objects with weak identity
 [CA2007](ca2007.md) | Consider calling ConfigureAwait on the awaited task
-CA2008 | Do not create tasks without passing a TaskScheduler
+[CA2008](ca2008.md) | Do not create tasks without passing a TaskScheduler
 CA2009 | Do not call ToImmutableCollection on an ImmutableCollection value
 CA2010 | Always consume the value returned by methods marked with PreserveSigAttribute
 [CA2100](ca2100.md) | Review SQL queries for security vulnerabilities
