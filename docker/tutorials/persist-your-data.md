@@ -1,6 +1,6 @@
 ---
 title: "Docker tutorial - Part 4: Persist your data"
-description: Overview of the todo list sample app that runs in Node.js.
+description: Learn how to persist data in a database and share directories into a container by mounting a volume.
 ms.date: "08/04/2020"
 author: nebuk89
 ms.author: ghogen

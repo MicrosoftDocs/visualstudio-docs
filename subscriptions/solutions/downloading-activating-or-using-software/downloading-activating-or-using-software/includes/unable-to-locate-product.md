@@ -1,18 +1,19 @@
 ---
-title: Unable to find or claim a product key
-description: I'm unable to find or claim a product key, included with my Visual Studio subscription.
+title: I'm unable to locate a product.
+description: I'm unable to locate a product to download with my Visual Studio subscription.
 ms.topic: include
-ms.assetid: 83a4f1ed-c77c-4b9c-b02d-bd929bd31072
+ms.assetid: a3635d25-8f9d-4cf8-a9c3-db41d155f989
 author: caitybuschlen
 ms.author: cabuschl
 ms.date: 08/14/2020
 user.type: subscriber
-tags: download, activate, product-key
+tags: download, activate
 subscription.type: vl, cloud, retail, partner
-sap.id: b57b561c-d839-7050-131d-109cfb54781d
+sap.id: 3c439fef-213d-1e20-70df-7f2837461ddd
 ---
 
-## I'm unable to find or claim a product key.
+## I'm unable to locate the product I need to download.
+
 The software downloads available to you depends on the subscription you're using. You can find downloads and product keys a few ways. 
 
 ### Excel list of available software 
