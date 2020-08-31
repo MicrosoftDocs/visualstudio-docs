@@ -21,7 +21,7 @@ Visual Studio Codespaces provides you with a cloud-powered development codespace
 
 Additionally, Visual Studio Codespaces brings many of the benefits of DevOps, like repeatability and reliability&mdash;which have typically been reserved for production workloads&mdash;to a development codespace. However, Visual Studio Codespaces is also personalizable to allow developers to leverage the tools, processes and configurations that they've come to love and rely on.
 
-This document will explain key concepts and introduce Codespaces features. If you're looking for an abridged version, check out [the quickstarts](../quickstarts/browser.md).
+This document will explain key concepts and introduce Codespaces features. If you're looking for an abridged version, check out [the quickstarts](/visualstudio/codespaces/quickstarts/vs/).
 
 > [!IMPORTANT]
 > You must sign up for the Private Preview and have an Azure Subscription to use Codespaces If you don't already have an Azure Subscription, create one at [https://azure.microsoft.com/free/](https://azure.microsoft.com/free/). After you have an Azure subscription, [sign up for the Private Preview](https://aka.ms/vsfutures-signup).
