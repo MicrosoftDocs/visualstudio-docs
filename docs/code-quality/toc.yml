@@ -571,6 +571,8 @@
           href: ca1835.md
         - name: "CA1836: Prefer IsEmpty over Count when available"
           href: ca1836.md
+        - name: "CA1837: Use Environment.ProcessId instead of Process.GetCurrentProcess().Id"
+          href: ca1837.md
         - name: "CA1838: Avoid StringBuilder parameters for P/Invokes"
           href: ca1838.md
       - name: Portability warnings
