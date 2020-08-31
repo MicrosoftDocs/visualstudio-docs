@@ -84,6 +84,7 @@ f1_keywords:
 - CA1307
 - CA1308
 - CA1309
+- CA1310
 - CA1400
 - CA1401
 - CA1402
@@ -173,6 +174,7 @@ f1_keywords:
 - CA1833
 - CA1835
 - CA1836
+- CA1837
 - CA1838
 - CA1900
 - CA1901
@@ -184,6 +186,7 @@ f1_keywords:
 - CA2004
 - CA2006
 - CA2007
+- CA2008
 - CA2009
 - CA2011
 - CA2012
@@ -376,9 +379,10 @@ The following table lists Code Analysis warnings for managed code by the CheckId
 | CA1304 | [CA1304: Specify CultureInfo](../code-quality/ca1304.md) | A method or constructor calls a member that has an overload that accepts a System.Globalization.CultureInfo parameter, and the method or constructor does not call the overload that takes the CultureInfo parameter. When a CultureInfo or System.IFormatProvider object is not supplied, the default value that is supplied by the overloaded member might not have the effect that you want in all locales. |
 | CA1305 | [CA1305: Specify IFormatProvider](../code-quality/ca1305.md) | A method or constructor calls one or more members that have overloads that accept a System.IFormatProvider parameter, and the method or constructor does not call the overload that takes the IFormatProvider parameter. When a System.Globalization.CultureInfo or IFormatProvider object is not supplied, the default value that is supplied by the overloaded member might not have the effect that you want in all locales. |
 | CA1306 | [CA1306: Set locale for data types](../code-quality/ca1306.md) | The locale determines culture-specific presentation elements for data, such as formatting that is used for numeric values, currency symbols, and sort order. When you create a DataTable or DataSet, you should explicitly set the locale. |
-| CA1307 | [CA1307: Specify StringComparison](../code-quality/ca1307.md) | A string comparison operation uses a method overload that does not set a StringComparison parameter. |
+| CA1307 | [CA1307: Specify StringComparison for clarity](../code-quality/ca1307.md) | A string comparison operation uses a method overload that does not set a StringComparison parameter. |
 | CA1308 |[CA1308: Normalize strings to uppercase](../code-quality/ca1308.md) | Strings should be normalized to uppercase. A small group of characters cannot make a round trip when they are converted to lowercase. |
 | CA1309 | [CA1309: Use ordinal StringComparison](../code-quality/ca1309.md) | A string comparison operation that is nonlinguistic does not set the StringComparison parameter to either Ordinal or OrdinalIgnoreCase. By explicitly setting the parameter to either StringComparison.Ordinal or StringComparison.OrdinalIgnoreCase, your code often gains speed, becomes more correct, and becomes more reliable. |
+| CA1310 | [CA1310: Specify StringComparison for correctness](../code-quality/ca1310.md) | A string comparison operation uses a method overload that does not set a StringComparison parameter and uses culture-specific string comparison by default. |
 | CA1400 | [CA1400: P/Invoke entry points should exist](../code-quality/ca1400.md) |A public or protected method is marked by using the System.Runtime.InteropServices.DllImportAttribute attribute. Either the unmanaged library could not be located or the method could not be matched to a function in the library. |
 | CA1401 | [CA1401: P/Invokes should not be visible](../code-quality/ca1401.md) | A public or protected method in a public type has the System.Runtime.InteropServices.DllImportAttribute attribute (also implemented by the Declare keyword in [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)]). Such methods should not be exposed. |
 | CA1402 |[CA1402: Avoid overloads in COM visible interfaces](../code-quality/ca1402.md) | When overloaded methods are exposed to COM clients, only the first method overload retains its name. Subsequent overloads are uniquely renamed by appending to the name an underscore character (_) and an integer that corresponds to the order of declaration of the overload. |
@@ -461,6 +465,7 @@ The following table lists Code Analysis warnings for managed code by the CheckId
 | CA1833 |[CA1833: Use AsSpan or AsMemory instead of Range-based indexers for getting Span or Memory portion of an array](../code-quality/ca1833.md) | When using a range-indexer on an array and implicitly assigning the value to a <xref:System.Span%601> or <xref:System.Memory%601> type, the method <xref:System.Runtime.CompilerServices.RuntimeHelpers.GetSubArray%2A> will be used instead of <xref:System.Span%601.Slice%2A?#System_Span_1_Slice_System_Int32_System_Int32_>, which produces a copy of requested portion of the array. |
 | CA1835 |[CA1835: Prefer the 'Memory'-based overloads for 'ReadAsync' and 'WriteAsync'](../code-quality/ca1835.md) | 'Stream' has a 'ReadAsync' overload that takes a 'Memory&lt;Byte&gt;' as the first argument, and a 'WriteAsync' overload that takes a 'ReadOnlyMemory&lt;Byte&gt;' as the first argument. Prefer calling the memory-based overloads, which are more efficient. |
 | CA1836 |[CA1836: Prefer `IsEmpty` over `Count` when available](../code-quality/ca1836.md) | Prefer `IsEmpty` property that is more efficient than `Count`, `Length`, <xref:System.Linq.Enumerable.Count%60%601%28System.Collections.Generic.IEnumerable%7B%60%600%7D%29> or <xref:System.Linq.Enumerable.LongCount%60%601%28System.Collections.Generic.IEnumerable%7B%60%600%7D%29> to determine whether the object contains or not any items. |
+| CA1837 | [CA1837: Use `Environment.ProcessId` instead of `Process.GetCurrentProcess().Id`](../code-quality/ca1837.md) | `Environment.ProcessId` is simpler and faster than `Process.GetCurrentProcess().Id`. |
 | CA1838 | [CA1838: Avoid `StringBuilder` parameters for P/Invokes](../code-quality/ca1838.md) | Marshaling of 'StringBuilder' always creates a native buffer copy, resulting in multiple allocations for one marshaling operation. |
 | CA1900 | [CA1900: Value type fields should be portable](../code-quality/ca1900.md) | This rule checks that structures that are declared by using explicit layout will align correctly when marshaled to unmanaged code on 64-bit operating systems. |
 | CA1901 | [CA1901: P/Invoke declarations should be portable](../code-quality/ca1901.md) | This rule evaluates the size of each parameter and the return value of a P/Invoke, and verifies that the size of the parameter is correct when marshaled to unmanaged code on 32-bit and 64-bit operating systems. |
@@ -472,6 +477,7 @@ The following table lists Code Analysis warnings for managed code by the CheckId
 | CA2004 | [CA2004: Remove calls to GC.KeepAlive](../code-quality/ca2004.md) | If you convert to SafeHandle usage, remove all calls to GC.KeepAlive (object). In this case, classes should not have to call GC.KeepAlive. This assumes they do not have a finalizer but rely on SafeHandle to finalize the OS handle for them. |
 | CA2006 | [CA2006: Use SafeHandle to encapsulate native resources](../code-quality/ca2006.md) | Use of IntPtr in managed code might indicate a potential security and reliability problem. All uses of IntPtr must be reviewed to determine whether use of a SafeHandle, or similar technology, is required in its place. |
 | CA2007 | [CA2007: Do not directly await a Task](ca2007.md) | An asynchronous method [awaits](/dotnet/csharp/language-reference/keywords/await) a <xref:System.Threading.Tasks.Task> directly. When an asynchronous method awaits a <xref:System.Threading.Tasks.Task> directly, continuation occurs in the same thread that created the task. This behavior can be costly in terms of performance and can result in a deadlock on the UI thread. Consider calling <xref:System.Threading.Tasks.Task.ConfigureAwait(System.Boolean)?displayProperty=nameWithType> to signal your intention for continuation. |
+| CA2008 | [CA2008: Do not create tasks without passing a TaskScheduler](ca2008.md) | A task creation or continuation operation uses a method overload that does not specify a <xref:System.Threading.Tasks.TaskScheduler> parameter. |
 | CA2009 | [CA2009: Do not call ToImmutableCollection on an ImmutableCollection value](ca2009.md) | `ToImmutable` method was unnecessarily called on an immutable collection from <xref:System.Collections.Immutable> namespace. |
 | CA2011 | [CA2011: Do not assign property within its setter](ca2011.md) | A property was accidentally assigned a value within its own [set accessor](/dotnet/csharp/programming-guide/classes-and-structs/using-properties#the-set-accessor). |
 | CA2012 | [CA2012: Use ValueTasks correctly](ca2012.md) | ValueTasks returned from member invocations are intended to be directly awaited.  Attempts to consume a ValueTask multiple times or to directly access one's result before it's known to be completed may result in an exception or corruption.  Ignoring such a ValueTask is likely an indication of a functional bug and may degrade performance. |
