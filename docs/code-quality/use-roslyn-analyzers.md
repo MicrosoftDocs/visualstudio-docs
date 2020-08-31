@@ -97,6 +97,9 @@ You can set the severity for a specific category of analyzer rules or for all an
 
 `dotnet_analyzer_diagnostic.severity = <severity>`
 
+> [!NOTE]
+> Entries to configure multiple analyzer rules at once only apply to rules that are _enabled by default_. Analyzer rules that are marked as disabled by default in the analyzer package must be enabled through explicit `dotnet_diagnostic.<rule ID>.severity = <severity>` entries.
+
 If you have multiple entries that are applicable to a specific rule ID, the following is the precedence order to choose the applicable entry:
 
 - Severity entry for an individual rule by ID takes precedence over severity entry for a category.
