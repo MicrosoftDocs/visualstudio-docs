@@ -1,6 +1,6 @@
 ---
 title: "Code Analysis for Managed Code Warnings | Microsoft Docs"
-ms.date: 11/15/2016
+ms.date: 08/31/2020
 ms.prod: "visual-studio-dev14"
 ms.technology: vs-ide-code-analysis
 ms.topic: conceptual
@@ -13,11 +13,11 @@ helpviewer_keywords:
   - "code analysis,managed code"
 ms.assetid: 3c2741ff-0d3a-42e6-acd5-d42310bd03c4
 caps.latest.revision: 22
-author: jillre
-ms.author: jillfra
+author: mikadumont
+ms.author: midumont
 manager: "wpickett"
 ---
-# Code Analysis for Managed Code Warnings
+# .NET Code Analysis Rules
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
 The Managed Code Analysis tool provides warnings that indicate rule violations in managed code libraries. The warnings are organized into rule areas such as design, localization, performance, and security. Each warning signifies a violation of a Managed Code Analysis rule. This section provides in-depth discussions and examples for each Managed Code Analysis warning.
