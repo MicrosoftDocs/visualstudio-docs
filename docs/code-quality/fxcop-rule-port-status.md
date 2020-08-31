@@ -113,7 +113,7 @@ CA1826 | Do not use Enumerable methods on indexable collections. Instead use the
 [CA2000](ca2000.md) | Dispose objects before losing scope
 [CA2002](ca2002.md) | Do not lock on objects with weak identity
 [CA2007](ca2007.md) | Consider calling ConfigureAwait on the awaited task
-CA2008 | Do not create tasks without passing a TaskScheduler
+[CA2008](ca2008.md) | Do not create tasks without passing a TaskScheduler
 CA2009 | Do not call ToImmutableCollection on an ImmutableCollection value
 CA2010 | Always consume the value returned by methods marked with PreserveSigAttribute
 [CA2100](ca2100.md) | Review SQL queries for security vulnerabilities
