@@ -1,5 +1,5 @@
 ---
-title: Codespaces (Preview)
+title: Codespaces overview (Preview)
 description: Learn more about how you can use a cloud-powered development codespace with Visual Studio 2019.
 ms.topic: overview
 ms.date: 09/02/2020
@@ -17,14 +17,14 @@ monikerRange: vs-2019
 
 Welcome to Visual Studio Codespaces! We're glad you're here.
 
-Visual Studio Codespaces provides you with a cloud-powered development codespace for any activity, whether it's a long-term project, or a short-term task like reviewing a pull request. You can work with a codespace from within Visual Studio 2019 ([sign up for the Preview](https://aka.ms/vsfutures-signup)). You can even connect your own self-hosted codespace to Visual Studio Codespaces at no cost.
+Visual Studio Codespaces provides you with a cloud-powered development environment for any activity, whether it's a long-term project, or a short-term task like reviewing a pull request. You can work with a codespace from within Visual Studio 2019 ([sign up for the Preview](https://aka.ms/vsfutures-signup)).
 
-Additionally, Visual Studio Codespaces brings many of the benefits of DevOps, like repeatability and reliability&mdash;which have typically been reserved for production workloads&mdash;to a development codespace. You can also personalize Visual Studio Codespaces so that the tools, processes, and configurations that you prefer and rely on are available to you.
+Additionally, Visual Studio Codespaces brings many of the benefits of DevOps, like repeatability and reliability&mdash;which have typically been reserved for production workloads&mdash;to a development environment. You can also personalize Visual Studio Codespaces so that the tools, processes, and configurations that you prefer and rely on are there, too.
 
-This document will explain key concepts and introduce Codespaces features. If you're looking for an abridged version, check out [the quickstarts](/visualstudio/codespaces/quickstarts/vs/).
+This document will explain key concepts and introduce Codespaces features. If you're looking for an abridged version, check out [the Codespaces quickstart](/visualstudio/codespaces/quickstarts/vs/).
 
 > [!IMPORTANT]
-> You must sign up for the Private Preview and have an Azure Subscription to use Codespaces. If you don't already have an Azure Subscription, create one at [https://azure.microsoft.com/free/](https://azure.microsoft.com/free/). After you have an Azure subscription, [sign up for the Private Preview](https://aka.ms/vsfutures-signup).
+> You must sign up for the Private Preview to use Codespaces. This Private Preview release is not intended for use on production computers or for creating production code. For more information about Preview releases, see the [Visual Studio 2019 Preview release notes](/visualstudio/releases/2019/release-notes-preview/). And for more information about installing and updating Visual Studio 2019, see [Update Visual Studio to the most recent release](../../install/update-visual-studio.md).
 
 ## Concepts and features
 
@@ -34,36 +34,34 @@ Visual Studio Codespaces features are built on top of a few fundamental concepts
 
 Visual Studio Codespaces conceptually and technically extends the [Visual Studio Code Remote Development extensions](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack). As explained in the [Remote Development with VS Code](https://code.visualstudio.com/blogs/2019/05/02/remote-development) blog post, the following quote sums up the problem solved by Codespaces:
 
->"_We saw many developers trying to develop against containers and remote VMs configured with specific development and runtime stacks, simply because it is too hard, too disruptive, and in some cases impossible, to set up these development codespaces locally. We've all experienced this problem. Unless we feel it's time to flatten that machine, we hesitate to try out a new stack like Rust, Go, Node, or Python3, for fear of 'messing up' our current, well-tuned codespace._"
+>"_We saw many developers trying to develop against containers and remote VMs configured with specific development and runtime stacks, simply because it is too hard, too disruptive, and in some cases impossible, to set up these development environments locally. We've all experienced this problem. Unless we feel it's time to flatten that machine, we hesitate to try out a new stack like Rust, Go, Node, or Python3, for fear of 'messing up' our current, well-tuned environment._"
 
-Remote-capable tools empower developers but usually add overhead of machine management. Codespace configuration often complicates onboarding and context-switching. Visual Studio Codespaces removes the barriers to rapid onboarding and context-switching by enabling the simultaneous existence of many codespaces.
+Remote-capable tools empower developers but usually add overhead of machine management. Environment configuration often complicates onboarding and context-switching. Visual Studio Codespaces removes the barriers to rapid onboarding and context-switching by enabling the simultaneous existence of many environments.
 
-Visual Studio Codespaces focuses on managed solutions that allow you to focus on productivity over setup. Developers that prefer to manage their own codespaces can explore [Visual Studio Code's Remote Development](https://code.visualstudio.com/docs/remote/remote-overview).
+Visual Studio Codespaces focuses on managed solutions that allow you to focus on productivity over setup. Developers that prefer to manage their own environments can explore [Visual Studio Code remote development](https://code.visualstudio.com/docs/remote/remote-overview).
 
 ### About codespaces
 
-A codespace is the "backend" half of Visual Studio Codespaces. It's where all of the compute associated with software development happens: compiling, debugging, restoring, etc. Creating a codespace prepares everything you need to complete a task, review a PR, or start a new project. Codespaces configures the runtime, compiler, debugger, editor, custom dotfile configurations, editor extensions, and the source code required to work on a project.
+A codespace is the "backend" half of Visual Studio Codespaces. It's where all of the compute associated with software development happens: compiling, debugging, restoring, etc. Creating a codespace prepares everything you need to complete a task, review a PR, or start a new project. Codespaces configure the runtime, compiler, debugger, editor, custom dotfile configurations, editor extensions, and the source code required to work on a project.
 
-Cloud-hosted development codespaces provide the following benefits:
+Cloud-hosted codespaces provide the following benefits:
 
-- They're fast to create and disposable. You can create as many as you need (up to subscription limits) and then dispose of them when you are finished.
-- They're are managed, which reduces the overall maintenance for you.
+- They're fast to create and disposable. Create as many as you need (up to subscription limits) and then dispose of them when you are finished.
+- They're managed, which reduces the overall maintenance for you.
 - They have predictable pricing and you only pay for what you use. And, there's built-in autosuspend to eliminate runaway costs.
-- They save disk space. When you move your development workload to the cloud, it frees the limited resources on your personal machine.
-
-In addition to cloud-hosted codespaces, Visual Studio Codespaces also allows you to register and connect your own self-hosted codespaces. This functionality allows you to use existing codespaces, and still experience some of the benefits of Visual Studio Codespaces.
+- They save compute resources. When you move your development workload to the cloud, it frees the limited resources on your personal machine.
 
 ### Custom configuration
 
-Visual Studio Codespaces is built to accommodate the widest variety of projects or tasks. Developers can start with smart-configuration features that provide common defaults, or finely tune a codespace with custom JSON and Dockerfile configuration.
+Visual Studio Codespaces is built to accommodate the widest variety of projects or tasks. You can start with smart-configuration features that provide common defaults, or fine-tune a codespace with custom JSON and Dockerfile configuration.
 
-Flexible configuration allows developers to rapidly onboard on projects with unique configuration and requirements that are difficult to apply on a local machine. Additionally, reproducible development codespaces eliminate "works on my machine" problems.
+Flexible configuration allows developers to rapidly onboard on projects with unique configuration and requirements that are difficult to apply on a local machine. Additionally, reproducible codespaces eliminate "works on my machine" problems.
 
 ### Personal configuration
 
-Preserving personal preferences is critical to make development on a cloud-hosted codespace feel familiar and natural. Visual Studio Codespaces layers individualized configuration on top of a codespace configuration. Personal preferences and configuration for editors, terminal are supported by Visual Studio Codespaces.
+We know that preserving personal preferences is critical to make developing on a cloud-hosted codespace feel familiar and natural. Visual Studio Codespaces layers individualized customizations on top of a codespace configuration. Personal preferences and configuration for editors and  terminals are supported by Visual Studio Codespaces.
 
-A codespace can be created with a user-specific collection of custom dotfiles (for example, `.bashrc`, `.gitconfig`, etc.), and we automatically synchronize your Git identity, themes, and settings so every codespace you create looks and feels the way you like, regardless of the project-specific codespace capabilities.
+A codespace can be created with a user-specific collection of custom dotfiles (for example, `.bashrc`, `.gitconfig`, etc.), and Visual Studio Codespaces automatically synchronizes your Git identity, themes, and settings so every codespace you create looks and feels the way you like, regardless of the project-specific environment capabilities.
 
 ## See also
 
