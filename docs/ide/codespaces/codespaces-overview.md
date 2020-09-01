@@ -2,7 +2,7 @@
 title: Codespaces overview (Preview)
 description: Learn more about how you can use a cloud-powered development codespace with Visual Studio 2019.
 ms.topic: overview
-ms.date: 09/02/2020
+ms.date: 09/04/2020
 author: TerryGLee
 ms.author: tglee
 manager: jillfra
@@ -28,7 +28,7 @@ This document will explain key concepts and introduce Codespaces features. If yo
 
 ## Concepts and features
 
-Visual Studio Codespaces features are built on top of a few fundamental concepts. This section covers those concepts and gives a brief tour of features.
+Visual Studio Codespaces features are built on top of a few fundamental concepts. This section covers those concepts and gives a brief tour of the features.
 
 ### Remote development
 
@@ -66,5 +66,5 @@ A codespace can be created with a user-specific collection of custom dotfiles (f
 ## See also
 
 - [Quickstart: Visual Studio Codespaces in Visual Studio 2019 (Preview)](/visualstudio/codespaces/quickstarts/vs/)
-- [How to: Use Codespaces (Preview)](use-visual-studio-codespaces.md)
+- [How to: Use Visual Studio with Codespaces (Preview)](use-visual-studio-with-codespaces.md)
 - [How to: Customize Codespaces (Preview)](customize-codespaces.md)

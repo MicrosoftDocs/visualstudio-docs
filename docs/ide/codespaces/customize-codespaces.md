@@ -20,4 +20,4 @@ Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolor
 ## See also
 
 - [What is Codespaces? (Preview)](codespaces-overview.md)
-- [How to: Use Codespaces (Preview)](use-visual-studio-codespaces.md)
+- [How to: Use Visual Studio with Codespaces (Preview)](use-visual-studio-with-codespaces.md)

@@ -258,6 +258,14 @@
     - name: Customize build and debug tasks
       displayName: makefile tasks.vs.json
       href: ide/customize-build-and-debug-tasks-in-visual-studio.md
+  - name: Develop with Codespaces (Preview)
+    items:
+    - name: Overview (Preview)
+      href: ide/codespaces/codespaces-overview.md
+    - name: Use Codespaces (Preview)
+      href: ide/codespaces/use-visual-studio-codespaces.md
+    - name: Customize Codespaces (Preview)
+      href: ide/codespaces/customize-codespaces.md
   - name: Connect to a project or repo
     displayName: Azure DevOps VSTS GitHub
     href: ide/connect-team-project.md
@@ -946,14 +954,6 @@
       href: ide/filtered-solutions.md
     - name: Tips and tricks
       href: ide/visual-studio-performance-tips-and-tricks.md
-- name: Codespaces (Preview)
-  items:
-  - name: Overview (Preview)
-    href: ide/codespaces/codespaces-overview.md
-  - name: Use Codespaces (Preview)
-    href: ide/codespaces/use-visual-studio-codespaces.md
-  - name: Customize Codespaces (Preview)
-    href: ide/codespaces/customize-codespaces.md
 - name: Accessibility
   items:
   - name: Manage accessibility features
