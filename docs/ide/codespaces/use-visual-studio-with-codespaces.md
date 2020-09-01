@@ -19,5 +19,5 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 
 ## See also
 
-- [What is Codespaces? (Preview)](codespaces-overview.md)
-- [How to: Customize Codespaces (Preview)](customize-codespaces.md)
+- [What is GitHub Codespaces? (Preview)](codespaces-overview.md)
+- [How to: Customize GitHub Codespaces (Preview)](customize-codespaces.md)
