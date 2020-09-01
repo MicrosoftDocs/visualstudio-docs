@@ -1,5 +1,5 @@
 ---
-title: Customize Codespaces (Preview)
+title: Customize GitHub Codespaces (Preview)
 description: Learn more about how to customize GitHub Codespaces.
 ms.topic: how-to
 ms.date: 09/21/2020
@@ -13,7 +13,7 @@ ms.workload:
 monikerRange: vs-2019
 ---
 
-# How to customize Codespaces (Preview)
+# How to customize GitHub Codespaces (Preview)
 
 Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
 

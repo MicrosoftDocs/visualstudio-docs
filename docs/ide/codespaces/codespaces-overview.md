@@ -13,9 +13,9 @@ ms.workload:
 monikerRange: vs-2019
 ---
 
-# What is Codespaces? (Preview)
+# What is GitHub Codespaces? (Preview)
 
-Welcome to GitHub CodeSpaces! We're glad you're here.
+Welcome to CodeSpaces! We're glad you're here.
 
 GitHub CodeSpaces provides you with a cloud-powered development environment for any activity, whether it's a long-term project, or a short-term task like reviewing a pull request. You can work with a codespace from within Visual Studio 2019 ([sign up for the Preview](https://aka.ms/vsfutures-signup)).
 
@@ -24,7 +24,7 @@ Additionally, GitHub CodeSpaces brings many of the benefits of DevOps, like repe
 This document will explain key concepts and introduce Codespaces features. If you're looking for an abridged version, check out [the Codespaces quickstart](/visualstudio/codespaces/quickstarts/vs/).
 
 > [!IMPORTANT]
-> You must sign up for the Private Preview to use Codespaces. This Private Preview release is not intended for use on production computers or for creating production code. For more information about Preview releases, see the [Visual Studio 2019 Preview release notes](/visualstudio/releases/2019/release-notes-preview/). And for more information about installing and updating Visual Studio 2019, see [Update Visual Studio to the most recent release](../../install/update-visual-studio.md).
+> You must sign up for the [Private Preview](https://aka.ms/vsfutures-signup) to use Codespaces. This Private Preview release is not intended for use on production computers or for creating production code. For more information about Preview releases, see the [Visual Studio 2019 Preview release notes](/visualstudio/releases/2019/release-notes-preview/).
 
 ## Concepts and features
 
