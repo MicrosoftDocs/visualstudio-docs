@@ -260,11 +260,11 @@
       href: ide/customize-build-and-debug-tasks-in-visual-studio.md
   - name: Develop with Codespaces (Preview)
     items:
-    - name: Overview (Preview)
+    - name: Overview
       href: ide/codespaces/codespaces-overview.md
-    - name: Use Visual Studio with Codespaces (Preview)
+    - name: Use Visual Studio with Codespaces
       href: ide/codespaces/use-visual-studio-with-codespaces.md
-    - name: Customize Codespaces (Preview)
+    - name: Customize Codespaces
       href: ide/codespaces/customize-codespaces.md
   - name: Connect to a project or repo
     displayName: Azure DevOps VSTS GitHub
