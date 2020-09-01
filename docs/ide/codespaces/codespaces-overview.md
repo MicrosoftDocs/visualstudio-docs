@@ -32,7 +32,7 @@ GitHub CodeSpaces features are built on top of a few fundamental concepts. This 
 
 ### Remote development
 
-GitHub CodeSpaces conceptually and technically extends the Visual Studio 2019. As explained in the [Remote Development with VS Code](https://code.visualstudio.com/blogs/2019/05/02/remote-development) blog post, the following quote sums up the problem solved by Codespaces:
+GitHub CodeSpaces conceptually and technically extends Visual Studio 2019. As explained in a recent blog post, the following quote sums up the problem solved by Codespaces:
 
 >"_We saw many developers trying to develop against containers and remote VMs configured with specific development and runtime stacks, simply because it is too hard, too disruptive, and in some cases impossible, to set up these development environments locally. We've all experienced this problem. Unless we feel it's time to flatten that machine, we hesitate to try out a new stack like Rust, Go, Node, or Python3, for fear of 'messing up' our current, well-tuned environment._"
 
