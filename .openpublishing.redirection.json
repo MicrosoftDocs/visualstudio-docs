@@ -3351,11 +3351,6 @@
       "redirect_document_id": false
     },
     {
-      "source_path": "docs/docker/index.md",
-      "redirect_url": "/dotnet/standard/containerized-lifecycle-architecture/design-develop-containerized-apps/visual-studio-tools-for-docker?toc=/visualstudio/docker/toc.json&bc=/visualstudio/docker/breadcrumb/toc.json",
-      "redirect_document_id": false
-    },
-    {
       "source_path": "docs/docker/vs-azure-tools-docker-edit-and-refresh.md",
       "redirect_url": "/visualstudio/containers/edit-and-refresh",
       "redirect_document_id": false
@@ -3363,11 +3358,6 @@
     {
       "source_path": "docs/docker/vs-azure-tools-docker-hosting-web-apps-in-docker.md",
       "redirect_url": "/visualstudio/containers/hosting-web-apps-in-docker",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "docs/docker/vs-azure-tools-docker-machine-azure-config.md",
-      "redirect_url": "/visualstudio/docker/",
       "redirect_document_id": false
     },
     {
@@ -11288,6 +11278,11 @@
     {
       "source_path": "subscriptions/vs-ems.md",
       "redirect_url": "/visualstudio/subscriptions/vs-m365",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docker/index.md",
+      "redirect_url": "/visualstudio/docker/tutorials/docker-tutorial",
       "redirect_document_id": false
     },
     {

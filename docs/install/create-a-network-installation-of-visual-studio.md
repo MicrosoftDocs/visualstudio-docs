@@ -1,7 +1,7 @@
 ---
 title: Create a network-based installation
 description: Learn how to create a network install point for deploying Visual Studio within an enterprise.
-ms.date: 03/27/2020
+ms.date: 08/27/2020
 ms.custom: seodec18
 ms.topic: conceptual
 helpviewer_keywords:
@@ -67,7 +67,7 @@ Other supported bootstrappers include [vs_teamexplorer.exe](https://download.vis
 You must have an internet connection to complete this step. To create an offline installation with all languages and all features, use a command that is similar to one of the following examples.
 
    > [!IMPORTANT]
-   > A complete Visual Studio layout requires a minimum of 35 GB of disk space and can take some time to download. See the [Customize the network layout](#customize-the-network-layout) section for details on how to create a layout with only the components you want to install.
+   > A complete layout for a single language locale requires about 35 GB of disk space for Visual Studio Community and 42 GB for Visual Studio Enterprise. Additional [language locales](use-command-line-parameters-to-install-visual-studio.md#list-of-language-locales) require about half a GB each. See the [Customize the network layout](#customize-the-network-layout) section for more info.
    >
    > [!TIP]
    > Make sure that you run the command from your Download directory. Typically, that's `C:\Users\<username>\Downloads` on a computer running Windows 10.
@@ -90,7 +90,7 @@ And, if you run into a problem with the Visual Studio bootstrapper throwing an e
 
 Host the layout on a network share so it can be run from other machines.
 
-The following example uses [xcopy](/windows-server/administration/windows-commands/xcopy/). You can also use [robocopy](/windows-server/administration/windows-commands/robocopy/), should you wish.  
+The following example uses [xcopy](/windows-server/administration/windows-commands/xcopy/). You can also use [robocopy](/windows-server/administration/windows-commands/robocopy/), should you wish.
 
 ::: moniker range="vs-2017"
 
