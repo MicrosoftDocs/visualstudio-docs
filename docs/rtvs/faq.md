@@ -74,7 +74,7 @@ A. Yes, you can use any source control system that is integrated into Visual Stu
 
 **Q. What are the recommended *.gitignore* settings for an RTVS project?**
 
-A. GitHub maintains a master repository of recommended *.gitignore* files. You can see it here: [R .gitignore](https://github.com/github/gitignore/blob/master/R.gitignore)
+A. GitHub maintains a repository of recommended *.gitignore* files. You can see it here: [R .gitignore](https://github.com/github/gitignore/blob/master/R.gitignore)
 
 ## Remote services
 
