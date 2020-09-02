@@ -77,7 +77,7 @@ For more information on using References in Visual Studio for Mac, see the [Mana
 
 ## Dependencies / packages
 
-All external dependencies used in your app are stored in the Dependencies or Packages folder, depending on whether you are in a .Net Core or Xamarin.iOS/Xamarin.Android project. These are usually provided in the form of a NuGet.
+All external dependencies used in your app are stored in the Dependencies or Packages folder, depending on whether you are in a .NET Core or Xamarin.iOS/Xamarin.Android project. These are usually provided in the form of a NuGet.
 
 NuGet is the most popular package manager for .NET development. With Visual Studio's NuGet support, you can easily search for and add packages to your project to application.
 
@@ -89,7 +89,7 @@ Information on using a NuGet package in an application can be found in the [Incl
 
 ## Source Editor
 
-Regardless of if you're writing in C#, XAML, or Javascript, the code editor the shares the same core components with Visual Studio on Windows, with an entirely native user interface.
+Regardless of if you're writing in C#, XAML, or JavaScript, the code editor the shares the same core components with Visual Studio on Windows, with an entirely native user interface.
 
 This brings some of the following features:
 
