@@ -28,8 +28,6 @@
       href: tool-npm-install.md
     - name: tool-nuget-restore
       href: tool-nuget-restore.md
-    - name: tool-readme
-      href: tool-readme.md
     - name: tool-azureartifactscredentialprovider
       href: tool-require-azureartifactscredentialprovider.md
     - name: tool-azurecli

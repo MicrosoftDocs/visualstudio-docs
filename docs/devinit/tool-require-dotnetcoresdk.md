@@ -1,7 +1,7 @@
 ---
 title: require-dotnetcoresdk
 description: Devinit tool require-dotnetsdk.
-ms.date: 08/28/200
+ms.date: 08/28/2020
 ms.topic: reference
 author: andster
 ms.author: andster
@@ -11,7 +11,7 @@ ms.workload:
 ---
 # require-dotnetcoresdk
 
-The `require-dotnetcoresdk` tool is used to install the [.NET Core SDK](https://dotnet.microsoft.com/) and shared runtime via the [dotnet-install](https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-install-script) script.
+The `require-dotnetcoresdk` tool is used to install the [.NET Core SDK](https://dotnet.microsoft.com/) and shared runtime via the [dotnet-install](https://docs.microsoft.com/dotnet/core/tools/dotnet-install-script) script.
 
 ## Usage
 

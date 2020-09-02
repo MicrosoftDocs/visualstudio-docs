@@ -1,7 +1,7 @@
 ---
 title: eShopOnWeb
 description: Example customization using devinit for the dotnet-architecture/eShopOnWeb repo.
-ms.date: 08/28/200
+ms.date: 08/28/2020
 ms.topic: reference
 author: andster
 ms.author: andster

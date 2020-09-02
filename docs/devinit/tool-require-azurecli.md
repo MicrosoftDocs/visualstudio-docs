@@ -1,7 +1,7 @@
 ---
 title: require-azurecli
 description: Devinit tool require-azurecli.
-ms.date: 08/28/200
+ms.date: 08/28/2020
 ms.topic: reference
 author: andster
 ms.author: andster
@@ -11,7 +11,7 @@ ms.workload:
 ---
 # require-azurecli
 
-The `require-azurecli` tool is used to install the [Azure CLI](https://docs.microsoft.com/en-us/cli/azure/?view=azure-cli-latest) via the Azure CLI MSI.
+The `require-azurecli` tool is used to install the [Azure CLI](https://docs.microsoft.com/cli/azure/?view=azure-cli-latest) via the Azure CLI MSI.
 
 ## Usage
 

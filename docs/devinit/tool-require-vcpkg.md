@@ -1,7 +1,7 @@
 ---
 title: require-vcpkg
 description: Devinit tool require-vcpkg.
-ms.date: 08/28/200
+ms.date: 08/28/2020
 ms.topic: reference
 author: andster
 ms.author: andster

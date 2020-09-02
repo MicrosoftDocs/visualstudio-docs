@@ -1,7 +1,7 @@
 ---
 title: dotnet-restore
 description: Devinit tool dotnet-restore.
-ms.date: 08/28/200
+ms.date: 08/28/2020
 ms.topic: reference
 author: andster
 ms.author: andster

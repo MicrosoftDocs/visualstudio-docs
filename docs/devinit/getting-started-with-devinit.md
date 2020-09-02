@@ -1,7 +1,7 @@
 ---
 title: Getting Started with devinit
 description: Getting started guide for customizing Visual Studio Codespaces for Visual Studio 2019 with devinit.
-ms.date: 08/28/200
+ms.date: 08/28/2020
 ms.topic: reference
 author: andster
 ms.author: andster

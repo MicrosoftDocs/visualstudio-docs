@@ -1,7 +1,7 @@
 ---
 title: devinit Configuration File
 description: Documentation for the .devinit.json manifest file for devinit.
-ms.date: 008/28/200
+ms.date: 08/28/2020
 ms.topic: reference
 author: andster
 ms.author: andster

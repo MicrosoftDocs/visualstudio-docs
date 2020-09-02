@@ -1,7 +1,7 @@
 ---
 title: require-nuget
 description: Devinit tool require-nuget.
-ms.date: 08/28/200
+ms.date: 08/28/2020
 ms.topic: reference
 author: andster
 ms.author: andster
@@ -11,7 +11,7 @@ ms.workload:
 ---
 # require-nuget
 
-The `require-nuget` tool to download NuGet CLI and adds to PATH variable. NuGet CLI provides the full extent of NuGet functionality to install, create, publish, and manage packages without making any changes to project files. Read more about NuGet CLI [here](https://docs.microsoft.com/en-us/nuget/reference/nuget-exe-cli-reference).
+The `require-nuget` tool to download NuGet CLI and adds to PATH variable. NuGet CLI provides the full extent of NuGet functionality to install, create, publish, and manage packages without making any changes to project files. Read more about NuGet CLI [here](https://docs.microsoft.com/nuget/reference/nuget-exe-cli-reference).
 
 ## Usage
 

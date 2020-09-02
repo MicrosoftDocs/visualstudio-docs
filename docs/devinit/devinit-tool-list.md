@@ -1,7 +1,7 @@
 ---
 title: Available Tools
 description: List of all the devinit tools that can be used to customize a Visual Studio Codespaces for Visual Studio 2019. 
-ms.date: 08/28/200
+ms.date: 08/28/2020
 ms.topic: reference
 author: andster
 ms.author: andster
@@ -19,7 +19,6 @@ The table below contains a list of all the currently available tools for `devini
 | [**dotnet-restore**](tool-dotnet-restore)                                                     | Tool to restore the dependencies and tools of a .NET project.                                               |
 | [**dotnet-toolinstall**](tool-dotnet-toolinstall)                                             | Tool to install the .NET Core tools (for example. dotnet-ef)                                                |
 | [**dsc-install**](tool-dsc-install)                                                           | Tool to use PowerShell Desired State Config, to enable and configure Windows features.                      |
-| [**msi-install**](tool-msi-install)                                                           | Tool to install an MSI.                                                                                     |
 | [**npm-install**](tool-npm-install)                                                           | Tool to install NPM packages.                                                                               |
 | [**nuget-restore**](tool-nuget-restore)                                                       | Tool to restore the NuGet packages.                                                                         |
 | [**require-azureartifactscredentialprovider**](tool-require-azureartifactscredentialprovider) | Installs the Azure Artifacts Credential provider.                                                           |

@@ -1,7 +1,7 @@
 ---
 title: devinit Commands
 description: Details on how to use devinit commands to install components. 
-ms.date: 08/28/200
+ms.date: 08/28/2020
 ms.topic: reference
 author: andster
 ms.author: andster

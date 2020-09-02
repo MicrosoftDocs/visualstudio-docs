@@ -1,6 +1,6 @@
 ---
 title: All Tools
-ms.date: 08/28/200
+ms.date: 08/28/2020
 description: List of all the devinit tools for customizing Visual Studio Codespaces for Visual Studio 2019.
 ms.topic: reference
 author: andster
