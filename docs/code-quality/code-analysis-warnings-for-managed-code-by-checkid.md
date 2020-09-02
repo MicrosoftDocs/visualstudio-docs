@@ -101,6 +101,7 @@ f1_keywords:
 - CA1413
 - CA1414
 - CA1415
+- CA1416
 - CA1417
 - CA1500
 - CA1501
@@ -399,6 +400,7 @@ The following table lists Code Analysis warnings for managed code by the CheckId
 | CA1413 | [CA1413: Avoid non-public fields in COM visible value types](../code-quality/ca1413.md) | Nonpublic instance fields of COM-visible value types are visible to COM clients. Review the content of the fields for information that should not be exposed, or that will have unintended design or security effects. |
 | CA1414 | [CA1414: Mark boolean P/Invoke arguments with MarshalAs](../code-quality/ca1414.md) | The Boolean data type has multiple representations in unmanaged code. |
 | CA1415 | [CA1415: Declare P/Invokes correctly](../code-quality/ca1415.md) | This rule looks for operating system invoke method declarations that target [!INCLUDE[TLA2#tla_win32](../code-quality/includes/tla2sharptla_win32_md.md)] functions that have a pointer to an OVERLAPPED structure parameter and the corresponding managed parameter is not a pointer to a System.Threading.NativeOverlapped structure. |
+| CA1416 | [CA1416: Validate platform compatibility](../code-quality/ca1416.md) | Using platform-dependent APIs on a component makes the code no longer work across all platforms. |
 | CA1417 | [CA1417: Do not use `OutAttribute` on string parameters for P/Invokes](../code-quality/ca1417.md) | String parameters passed by value with the `OutAttribute` can destabilize the runtime if the string is an interned string. |
 | CA1500 | [CA1500: Variable names should not match field names](../code-quality/ca1500.md) | An instance method declares a parameter or a local variable whose name matches an instance field of the declaring type, leading to errors. |
 | CA1501 | [CA1501: Avoid excessive inheritance](../code-quality/ca1501.md) | A type is more than four levels deep in its inheritance hierarchy. Deeply nested type hierarchies can be difficult to follow, understand, and maintain. |
