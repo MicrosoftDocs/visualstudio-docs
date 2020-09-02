@@ -3,14 +3,14 @@ title: Visual Studio for Mac Tour
 description: "Visual Studio for Mac provides an integrated development environment to build .NET applications on macOS, including ASP.NET Core websites and Xamarin projects for iOS, Android, Mac, and Xamarin.Forms."
 author: heiligerdankgesang
 ms.author: dominicn
-ms.date: 12/13/2019
+ms.date: 07/03/2020
 ms.assetid: 7DC64A52-AA41-4F3A-A8A1-8A20BCD81CC7
 ms.custom: video
 ---
 
 # Visual Studio 2019 for Mac tour
 
-Visual Studio for Mac is a .NET _integrated development environment_ on the Mac that can be used to edit, debug, and build code and then publish an app. In addition to expected features, such as a standard editor and debugger, Visual Studio for Mac includes compilers, code completion tools, graphical designers, and source control to ease the software development process.
+Visual Studio for Mac is a .NET _integrated development environment_ on the Mac that can be used to edit, debug, and build code and then publish an app. In addition to a code editor and debugger, Visual Studio for Mac includes compilers, code completion tools, graphical designers, and source control features to ease the software development process.
 
 Visual Studio for Mac supports many of the same file types as its Windows counterpart, such as `.csproj`, `.fsproj`, or `.sln` files, and supports features such as EditorConfig, meaning that you can use the IDE that works best for you.
 Creating, opening, and developing an app will be a familiar experience for anyone who has previously used Visual Studio on Windows. In addition, Visual Studio for Mac employs many of the powerful tools that make its Windows counterpart such a powerful IDE. The Roslyn Compiler Platform is used for refactoring and IntelliSense. Its project system and build engine use MSBuild, and its source editor uses the same foundation as Visual Studio on Windows. It uses the same debugger engines for Xamarin and .NET Core apps, and the same designers for Xamarin.iOS and Xamarin.Android.
@@ -33,7 +33,7 @@ Visual Studio for Mac is organized into several sections for managing applicatio
 
 ## Getting started
 
-When you start Visual Studio 2019 for Mac, new users will see a sign-in window. Sign-in with your Microsoft account to activate a paid license (if you have one) or link to Azure subscriptions. You can press **I'll do this later** and sign in later via the **Visual Studio > Sign in** menu item:
+When you start Visual Studio 2019 for Mac for the first time, new users will see a sign-in window. Sign-in with your Microsoft account to activate a paid license (if you have one) or link to Azure subscriptions. You can press **I'll do this later** and sign in later via the **Visual Studio > Sign in** menu item:
 
 ![Sign in to your Microsoft account](media/ide-tour-2019-start-signin.png)
 
@@ -41,7 +41,7 @@ You'll then be given the option to customize the IDE by selecting your preferred
 
 ![Select your favorite keyboard shortcuts](media/ide-tour-2019-keyboard-shortcut.png)
 
-Signed-in users will see the new _start window_, which shows a list of recent projects, and buttons to open an existing project or create a new one:
+After this initial setup experience, you'll see the _start window_ whenever you open Visual Studio 2019 for Mac, which shows a list of recent projects, and buttons to open an existing project or create a new one:
 
 ![Choose from recent projects, or create something new](media/ide-tour-2019-start-projects.png)
 
@@ -77,7 +77,7 @@ For more information on using References in Visual Studio for Mac, see the [Mana
 
 ## Dependencies / packages
 
-All external dependencies used in your app are stored in the Dependencies or Packages folder, depending on whether you are in a .Net Core or Xamarin.iOS/Xamarin.Android project. These are usually provided in the form of a NuGet.
+All external dependencies used in your app are stored in the Dependencies or Packages folder, depending on whether you are in a .NET Core or Xamarin.iOS/Xamarin.Android project. These are usually provided in the form of a NuGet.
 
 NuGet is the most popular package manager for .NET development. With Visual Studio's NuGet support, you can easily search for and add packages to your project to application.
 
@@ -89,7 +89,7 @@ Information on using a NuGet package in an application can be found in the [Incl
 
 ## Source Editor
 
-Regardless of if you're writing in C#, XAML, or Javascript, the code editor the shares the same core components with Visual Studio Windows, with an entirely native user interface.
+Regardless of if you're writing in C#, XAML, or JavaScript, the code editor the shares the same core components with Visual Studio on Windows, with an entirely native user interface.
 
 This brings some of the following features:
 
