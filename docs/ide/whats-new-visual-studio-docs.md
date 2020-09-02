@@ -78,7 +78,7 @@ Welcome to what's new in the Visual Studio docs for August 2020. This article li
 **Updated articles**
 
 - [Deploy your app to a folder, IIS, Azure, or another destination](/visualstudio/deployment/deploying-applications-services-and-components-resources) - Deployment updates
-- [Deployment in Visual Studio # Required; page title displayed in search results. Include the brand. < 60 chars.](/visualstudio/deployment/index) - Deployment updates
+- [Deployment in Visual Studio](/visualstudio/deployment/index) - Deployment updates
 
 ## Extensibility
 
@@ -115,27 +115,11 @@ Welcome to what's new in the Visual Studio docs for August 2020. This article li
 - [Visual Studio performance tips and tricks](/visualstudio/ide/visual-studio-performance-tips-and-tricks) - add 'disable map mode' and 'disable word wrap' info
 - [What's new in Visual Studio 2019](/visualstudio/ide/whats-new-visual-studio-2019) - update What's New in Visual Studio 2019 with 16.7 GA info
 
-## Profiling
-
-**Updated articles**
-
-- [Measure application performance from the command line](/visualstudio/profiling/profile-apps-from-command-line) - Repo sync for protected CLA branch
-
 ## RTVS
 
 **Updated articles**
 
-- [Work with SQL Server and R](/visualstudio/rtvs/integrating-sql-server-with-r) - 1759333 validation: column-header-missing
-
-## VS 2015
-
-**Updated articles**
-
-- [License Element (VSIX Language Pack Schema)](/visualstudio/vs-2015/extensibility/license-element-vsix-language-pack-schema) - 1759333 validation: column-header-missing
-- [LocalizedDescription Element (VSIX Language Pack Schema)](/visualstudio/vs-2015/extensibility/localizeddescription-element-vsix-language-pack-schema) - 1759333 validation: column-header-missing
-- [LocalizedName Element (VSIX Language Pack Schema)](/visualstudio/vs-2015/extensibility/localizedname-element-vsix-language-pack-schema) - 1759333 validation: column-header-missing
-- [MoreInfoURL Element (VSIX Language Pack Schema)](/visualstudio/vs-2015/extensibility/moreinfourl-element-vsix-language-pack-schema) - 1759333 validation: column-header-missing
-- [VSIXLanguagePack Element (VSIX Language Pack Schema)](/visualstudio/vs-2015/extensibility/vsixlanguagepack-element-vsix-language-pack-schema) - 1759333 validation: column-header-missing
+- [Work with SQL Server and R](/visualstudio/rtvs/integrating-sql-server-with-r) - corrected tables to include column headers
 
 ## Community contributors
 
