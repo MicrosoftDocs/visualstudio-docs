@@ -99,7 +99,7 @@ Warmup will only happen in **Fast** mode, so the running container will have the
 
 For debugging to work in containers, Visual Studio uses volume mapping to map the debugger and NuGet folders from the host machine. Volume mapping is described in the Docker documentation [here](https://docs.docker.com/storage/volumes/). Here are the volumes that are mounted in your container:
 
-|||
+|Volume|Description|
 |-|-|
 | **Remote debugger** | Contains the bits required to run the debugger in the container depending on the project type. This is explained in more |detail in the [Debugging](#debugging) section.
 | **App folder** | Contains the project folder where the Dockerfile is located.|
@@ -160,7 +160,7 @@ To restore the performance optimization, remove the property from the project fi
 
 The process of running the debugger depends on the type of project and container operating system:
 
-|||
+|Scenario|Debugger process|
 |-|-|
 | **.NET Core apps (Linux containers)**| Visual Studio downloads `vsdbg` and maps it to the container, then it gets called with your program and arguments (that is, `dotnet webapp.dll`), and then debugger attaches to the process. |
 | **.NET Core apps (Windows containers)**| Visual Studio uses `onecoremsvsmon` and maps it to the container, runs it as the entry point and then Visual Studio connects to it and attaches to the your program. This is similar to how you would normally set up remote debugging on another computer or virtual machine.|
@@ -172,7 +172,7 @@ For information on `vsdbg.exe`, see [Offroad debugging of .NET Core on Linux and
 
 Visual Studio uses a custom container entry point depending on the project type and the container operating system, here are the different combinations:
 
-|||
+|Container type|Entry point|
 |-|-|
 | **Linux containers** | The entry point is `tail -f /dev/null`, which is an infinite wait to keep the container running. When the app is launched through the debugger, it is the debugger that is responsible to run the app (that is, `dotnet webapp.dll`). If launched without debugging, the tooling runs a `docker exec -i {containerId} dotnet webapp.dll` to run the app.|
 | **Windows containers**| The entry point is something like `C:\remote_debugger\x64\msvsmon.exe /noauth /anyuser /silent /nostatus` which runs the debugger, so it is listening for connections. Same applies that the debugger runs the app, and a `docker exec` command when launched without debugging. For .NET Framework web apps, the entry point is slightly different where `ServiceMonitor` is added to the command.|

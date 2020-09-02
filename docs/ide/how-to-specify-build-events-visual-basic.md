@@ -2,7 +2,7 @@
 title: 'How to: Specify build events (Visual Basic)'
 ms.date: 11/04/2016
 ms.technology: vs-ide-compile
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - pre-build events
 - events [Visual Studio], builds

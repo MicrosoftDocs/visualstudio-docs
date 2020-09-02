@@ -4,7 +4,7 @@ ms.date: 10/09/2017
 dev_langs:
 - VB
 - CSharp
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - Generate From Usage
 - Test-First Development

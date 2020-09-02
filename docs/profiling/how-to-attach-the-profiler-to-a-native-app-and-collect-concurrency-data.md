@@ -1,15 +1,15 @@
 ---
-title: "Attach profiler to native app and collect concurrency data"
-ms.custom: "seodec18"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Attach profiler to native app and collect concurrency data
+ms.custom: seodec18
+ms.date: 11/04/2016
+ms.topic: how-to
 ms.assetid: 12d3e0f3-4b74-4e66-8fbf-8ac99bd4f91c
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 monikerRange: 'vs-2017'
-ms.workload:
-  - "cplusplus"
+ms.workload: 
+  - cplusplus
 ---
 # How to: Attach the profiler to a native stand-alone application and collect concurrency data by using the command line
 This article describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools command-line tools to attach the profiler to a running native (C/C++) stand-alone application and collect thread contention data.

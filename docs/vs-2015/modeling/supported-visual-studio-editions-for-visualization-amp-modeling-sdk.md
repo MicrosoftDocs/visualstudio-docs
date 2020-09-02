@@ -20,7 +20,7 @@ The following are lists of the Visual Studio editions that are supported with [!
 ## Authoring Edition
  To define a DSL, you must have installed the following components:
 
-|||
+|Product|Download link|
 |-|-|
 |[!INCLUDE[vsprvs](../includes/vsprvs-md.md)]|[https://www.visualstudio.com/](https://www.visualstudio.com/)|
 |[!INCLUDE[vssdk_current_short](../includes/vssdk-current-short-md.md)]|[Visual Studio SDK](../extensibility/visual-studio-sdk.md)|

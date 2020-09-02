@@ -1,7 +1,7 @@
 ---
 title: Separate datasets and TableAdapters into different projects
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - TableAdapters, n-tier applications
 - n-tier applications, separating Datasets and TableAdapters

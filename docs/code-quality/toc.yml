@@ -1,6 +1,6 @@
 - name: Code analysis documentation
   href: index.yml
-- name: Analyze managed code
+- name: .NET code analysis
   items:
   - name: Overview
     href: code-analysis-for-managed-code-overview.md
@@ -10,38 +10,28 @@
     - name: Overview
       displayName: roslyn analyzers, source analysis
       href: roslyn-analyzers-overview.md
-    - name: Install source code analyzers
+    - name: Install third-party analyzers
       href: install-roslyn-analyzers.md
-    - name: Configure source code analyzers
-      href: use-roslyn-analyzers.md
-    - name: Live code analysis scope
-      href: configure-live-code-analysis-scope-managed-code.md
-    - name: Run code analysis manually
-      href: how-to-run-code-analysis-manually-for-managed-code.md
-    - name: Disable code analysis
-      href: disable-code-analysis.md
+    - name: Configuration
+      items:
+      - name: Configure source code analysis
+        href: use-roslyn-analyzers.md
+      - name: Configure code quality analysis
+        href: configure-fxcop-analyzers.md
+      - name: Configure code quality analysis categories
+        href: analyzer-rule-sets.md
+      - name: Code quality analysis options
+        href: fxcop-analyzer-options.md
+      - name: Live code analysis scope
+        href: configure-live-code-analysis-scope-managed-code.md
+      - name: Run code analysis manually
+        href: how-to-run-code-analysis-manually-for-managed-code.md
+      - name: Disable code analysis
+        href: disable-code-analysis.md
+      - name: Suppress code analysis
+        href: in-source-suppression-overview.md
     - name: FAQ
       href: analyzers-faq.md
-    - name: FxCop analyzers
-      items:
-      - name: Install FxCop analyzers
-        href: install-fxcop-analyzers.md
-      - name: Migrate to FxCop analyzers
-        items:
-        - name: Migrate from legacy analysis to FxCop analyzers
-          href: migrate-from-legacy-analysis-to-fxcop-analyzers.md
-        - name: FAQ
-          href: fxcop-analyzers-faq.md
-        - name: Ported rules
-          href: fxcop-rule-port-status.md
-      - name: Configure FxCop analyzers
-        items:
-        - name: Configure rules and projects
-          href: configure-fxcop-analyzers.md
-        - name: Scope options
-          href: fxcop-analyzer-options.md
-        - name: Enable a category of rules
-          href: analyzer-rule-sets.md
   - name: Legacy analysis
     items:
     - name: Overview
@@ -137,16 +127,60 @@
         href: how-to-synchronize-code-project-rule-sets-with-team-project-check-in-policy.md
       - name: Version compatibility
         href: version-compatibility-for-code-analysis-check-in-policies.md
-  - name: Rule sets
-    items:
-    - name: Overview
-      href: using-rule-sets-to-group-code-analysis-rules.md
-    - name: Configure rule sets
-      href: how-to-configure-code-analysis-for-a-managed-code-project.md
-    - name: Create a custom rule set
-      href: how-to-create-a-custom-rule-set.md
-    - name: Use the rule set editor
-      href: working-in-the-code-analysis-rule-set-editor.md
+    - name: FxCop analyzers
+      items:
+      - name: Install FxCop analyzers
+        href: install-fxcop-analyzers.md
+      - name: Migrate to FxCop analyzers
+        items:
+        - name: Migrate from legacy analysis to FxCop analyzers
+          href: migrate-from-legacy-analysis-to-fxcop-analyzers.md
+        - name: FAQ
+          href: fxcop-analyzers-faq.md
+        - name: Ported rules
+          href: fxcop-rule-port-status.md
+      - name: Configure FxCop analyzers
+        items:
+        - name: Rule sets
+          items:
+          - name: Overview
+            href: rule-set-reference.md
+          - name: All Rules
+            href: all-rules-rule-set.md
+          - name: Basic Correctness Rules
+            href: basic-correctness-rules-rule-set-for-managed-code.md
+          - name: Basic Design Guideline Rules
+            href: basic-design-guideline-rules-rule-set-for-managed-code.md
+          - name: Extended Correctness Rules
+            href: extended-correctness-rules-rule-set-for-managed-code.md
+          - name: Extended Design Guidelines Rules
+            href: extended-design-guidelines-rules-rule-set-for-managed-code.md
+          - name: Globalization Rules
+            href: globalization-rules-rule-set-for-managed-code.md
+          - name: Managed Minimum Rules
+            href: managed-minimum-rules-rule-set-for-managed-code.md
+          - name: Managed Recommended Rules
+            href: managed-recommended-rules-rule-set-for-managed-code.md
+          - name: Mixed Minimum Rules
+            href: mixed-minimum-rules-rule-set.md
+          - name: Mixed Recommended Rules
+            href: mixed-recommended-rules-rule-set.md
+          - name: Native Minimum Rules
+            href: native-minimum-rules-rule-set.md
+          - name: Native Recommended Rules
+            href: native-recommended-rules-rule-set.md
+          - name: Security Rules
+            href: security-rules-rule-set-for-managed-code.md
+    - name: Rule sets
+      items:
+      - name: Overview
+        href: using-rule-sets-to-group-code-analysis-rules.md
+      - name: Configure rule sets
+        href: how-to-configure-code-analysis-for-a-managed-code-project.md
+      - name: Create a custom rule set
+        href: how-to-create-a-custom-rule-set.md
+      - name: Use the rule set editor
+        href: working-in-the-code-analysis-rule-set-editor.md
   - name: Code metrics
     items:
     - name: Overview
@@ -158,43 +192,11 @@
       href: working-with-code-metrics-data.md
   - name: Reference
     items:
-    - name: Rule sets
-      items:
-      - name: Overview
-        href: rule-set-reference.md
-      - name: All Rules
-        href: all-rules-rule-set.md
-      - name: Basic Correctness Rules
-        href: basic-correctness-rules-rule-set-for-managed-code.md
-      - name: Basic Design Guideline Rules
-        href: basic-design-guideline-rules-rule-set-for-managed-code.md
-      - name: Extended Correctness Rules
-        href: extended-correctness-rules-rule-set-for-managed-code.md
-      - name: Extended Design Guidelines Rules
-        href: extended-design-guidelines-rules-rule-set-for-managed-code.md
-      - name: Globalization Rules
-        href: globalization-rules-rule-set-for-managed-code.md
-      - name: Managed Minimum Rules
-        href: managed-minimum-rules-rule-set-for-managed-code.md
-      - name: Managed Recommended Rules
-        href: managed-recommended-rules-rule-set-for-managed-code.md
-      - name: Mixed Minimum Rules
-        href: mixed-minimum-rules-rule-set.md
-      - name: Mixed Recommended Rules
-        href: mixed-recommended-rules-rule-set.md
-      - name: Native Minimum Rules
-        href: native-minimum-rules-rule-set.md
-      - name: Native Recommended Rules
-        href: native-recommended-rules-rule-set.md
-      - name: Security Rules
-        href: security-rules-rule-set-for-managed-code.md
-    - name: Suppress warnings
-      href: in-source-suppression-overview.md
-    - name: Managed code warnings
+    - name: .NET code analysis rules
       items:
       - name: Overview
         href: code-analysis-for-managed-code-warnings.md
-      - name: Warnings by CheckId
+      - name: Code quality rules overview
         href: code-analysis-warnings-for-managed-code-by-checkid.md
       - name: Cryptography warnings
         items:
@@ -370,12 +372,14 @@
           href: ca1305.md
         - name: "CA1306: Set locale for data types"
           href: ca1306.md
-        - name: "CA1307: Specify StringComparison"
+        - name: "CA1307: Specify StringComparison for clarity"
           href: ca1307.md
         - name: "CA1308: Normalize strings to uppercase"
           href: ca1308.md
         - name: "CA1309: Use ordinal StringComparison"
           href: ca1309.md
+        - name: "CA1310: Specify StringComparison for correctness"
+          href: ca1310.md
         - name: "CA2101: Specify marshaling for P-Invoke string arguments"
           href: ca2101.md
       - name: Interoperability warnings
@@ -415,6 +419,8 @@
           href: ca1414.md
         - name: "CA1415: Declare P-Invokes correctly"
           href: ca1415.md
+        - name: "CA1417: Do not use OutAttribute on string parameters for P/Invokes"
+          href: ca1417.md
       - name: Maintainability warnings
         items:
         - name: Overview
@@ -511,6 +517,8 @@
           href: ca1802.md
         - name: "CA1804: Remove unused locals"
           href: ca1804.md
+        - name: "CA1805: Do not initialize unnecessarily"
+          href: ca1805.md
         - name: "CA1806: Do not ignore method results"
           href: ca1806.md
         - name: "CA1809: Avoid excessive locals"
@@ -551,6 +559,22 @@
           href: ca1828.md
         - name: "CA1829: Use Length/Count property instead of Enumerable.Count method"
           href: ca1829.md
+        - name: "CA1830: Prefer strongly-typed Append and Insert method overloads on StringBuilder"
+          href: ca1830.md
+        - name: "CA1831: Use AsSpan instead of Range-based indexers for string when appropriate"
+          href: ca1831.md
+        - name: "CA1832: Use AsSpan or AsMemory instead of Range-based indexers for getting ReadOnlySpan or ReadOnlyMemory portion of an array"
+          href: ca1832.md
+        - name: "CA1833: Use AsSpan or AsMemory instead of Range-based indexers for getting Span or Memory portion of an array"
+          href: ca1833.md
+        - name: "CA1835: Prefer the memory overloads of Stream ReadAsync/WriteAsync methods"
+          href: ca1835.md
+        - name: "CA1836: Prefer IsEmpty over Count when available"
+          href: ca1836.md
+        - name: "CA1837: Use Environment.ProcessId instead of Process.GetCurrentProcess().Id"
+          href: ca1837.md
+        - name: "CA1838: Avoid StringBuilder parameters for P/Invokes"
+          href: ca1838.md
       - name: Portability warnings
         items:
         - name: Overview
@@ -581,14 +605,22 @@
           href: ca2006.md
         - name: "CA2007: Do not directly await a Task"
           href: ca2007.md
+        - name: "CA2008: Do not create tasks without passing a TaskScheduler"
+          href: ca2008.md
         - name: "CA2009: Do not call ToImmutableCollection on an ImmutableCollection value"
           href: ca2009.md
         - name: "CA2011: Do not assign property within its setter"
           href: ca2011.md
+        - name: "CA2012: Use ValueTasks correctly"
+          href: ca2012.md
         - name: "CA2013: Do not use ReferenceEquals with value types"
           href: ca2013.md
+        - name: "CA2014: Do not use stackalloc in loops"
+          href: ca2014.md
         - name: "CA2015: Do not define finalizers for types derived from MemoryManager<T>"
           href: ca2015.md
+        - name: "CA2016: Forward the CancellationToken parameter to methods that take one"
+          href: ca2016.md
       - name: Security warnings
         items:
         - name: Overview
@@ -712,6 +744,24 @@
           href: ca2328.md
         - name: "CA2329: Do not deserialize with JsonSerializer using an insecure configuration"
           href: ca2329.md
+        - name: "CA2350: Ensure DataTable.ReadXml()'s input is trusted"
+          href: ca2350.md
+        - name: "CA2351: Ensure DataSet.ReadXml()'s input is trusted"
+          href: ca2351.md
+        - name: "CA2352: Unsafe DataSet or DataTable in serializable type can be vulnerable to remote code execution attacks"
+          href: ca2352.md
+        - name: "CA2353: Unsafe DataSet or DataTable in serializable type"
+          href: ca2353.md
+        - name: "CA2354: Unsafe DataSet or DataTable in deserialized object graph can be vulnerable to remote code execution attack"
+          href: ca2354.md
+        - name: "CA2355: Unsafe DataSet or DataTable in deserialized object graph"
+          href: ca2355.md
+        - name: "CA2356: Unsafe DataSet or DataTable type in web deserialized object graph"
+          href: ca2356.md
+        - name: "CA2361: Ensure autogenerated class containing DataSet.ReadXml() is not used with untrusted data"
+          href: ca2361.md
+        - name: "CA2362: Unsafe DataSet or DataTable in autogenerated serializable type can be vulnerable to remote code execution attacks"
+          href: ca2362.md
         - name: "CA2330: Ensure that JsonSerializer has a secure configuration when deserializing"
           href: ca2330.md
         - name: "CA3001: Review code for SQL injection vulnerabilities"
@@ -816,6 +866,10 @@
           href: ca5390.md
         - name: "CA5391: Use antiforgery tokens in ASP.NET Core MVC controllers"
           href: ca5391.md
+        - name: "CA5392: Use DefaultDllImportSearchPaths attribute for P/Invokes"
+          href: ca5392.md
+        - name: "CA5393: Do not use unsafe DllImportSearchPath value"
+          href: ca5393.md
         - name: "CA5394: Do not use insecure randomness"
           href: ca5394.md
         - name: "CA5395: Miss HttpVerb attribute for action methods"
@@ -933,7 +987,19 @@
           href: ca2245.md
         - name: "CA2246: Do not assign a symbol and its member in the same statement"
           href: ca2246.md
+        - name: "CA2247: Argument passed to TaskCompletionSource constructor should be TaskCreationOptions enum instead of TaskContinuationOptions enum"
+          href: ca2247.md
         - name: "CA2248: Provide correct enum argument to Enum.HasFlag"
           href: ca2248.md
+        - name: "CA2249: Consider using String.Contains instead of String.IndexOf"
+          href: ca2249.md
       - name: Automatic feature suspension
         href: automatic-feature-suspension.md
+      - name: Publish warnings
+        items:
+        - name: Overview
+          displayName: "publish warnings"
+        - name: "IL3000: Avoid accessing Assembly file path when publishing as a single file"
+          href: il3000.md
+        - name: "IL3001: Avoid accessing Assembly file path when publishing as a single file"
+          href: il3001.md

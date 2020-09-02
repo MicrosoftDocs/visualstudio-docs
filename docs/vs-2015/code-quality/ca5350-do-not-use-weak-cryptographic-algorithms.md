@@ -12,7 +12,7 @@ manager: "wpickett"
 # CA5350: Do Not Use Weak Cryptographic Algorithms
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-|||
+|Item|Value|
 |-|-|
 |TypeName|DoNotUseWeakCryptographicAlgorithms|
 |CheckId|CA5350|

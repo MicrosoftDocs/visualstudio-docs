@@ -1,7 +1,7 @@
 ---
 title: "Kubernetes tools tutorial | Microsoft Docs"
 ms.date: "06/08/2018"
-ms.topic: "conceptual"
+ms.topic: tutorial
 author: ghogen
 ms.author: ghogen
 manager: jillfra
@@ -119,7 +119,7 @@ The added files are:
 
 - *azds.yaml*. This contains settings for Azure Dev Spaces, which provides a rapid, iterative debugging experience in Azure Kubernetes Service. For more information, see [the Azure Dev Spaces documentation](/azure/dev-spaces/azure-dev-spaces).
 
-::: moniker range="vs-2017"
+:::moniker range="vs-2017"
 
 ## Publish to Azure Kubernetes Service (AKS)
 
@@ -162,6 +162,16 @@ To do this, you first need to double-check that you've installed everything as d
 ::: moniker-end
 
 Congratulations! You can now use the full power of Visual Studio for all your Kubernetes app development.
+
+## Remove Kubernetes support
+
+1. In **Solution Explorer**, under **Properties**, open *launchSettings.json*.
+
+1. Delete the section **Container in Kubernetes**.
+
+1. If you're switching back to Docker compose, select that project in **Solution Explorer**, right-click and choose **Set as Startup Project**.
+
+1. (Optional) You can also delete other artifacts listed as mentioned earlier in the article, such as the **charts** folder and *azds.yaml*.
 
 ## Next steps
 

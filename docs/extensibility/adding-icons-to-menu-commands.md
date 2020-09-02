@@ -1,7 +1,7 @@
 ---
 title: Adding Icons to Menu Commands | Microsoft Docs
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - icons [Visual Studio], adding to toolbars
 - toolbars [Visual Studio], adding icons to commands

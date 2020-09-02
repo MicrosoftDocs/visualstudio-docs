@@ -6,6 +6,7 @@ ms.author: sayedha
 ms.date: 04/02/2019
 ms.technology: vs-ide-install
 ms.assetid: 25CD47A4-5B32-4734-8EF3-E24A02AABF29
+ms.topic: how-to
 ---
 
 # Introduction to Azure Functions

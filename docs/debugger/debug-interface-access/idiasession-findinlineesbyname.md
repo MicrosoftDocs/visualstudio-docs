@@ -1,7 +1,7 @@
 ---
 title: "IDiaSession::findInlineesByName | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 ms.assetid: 9860336d-f703-4ecb-bfc4-3f5beb175a76

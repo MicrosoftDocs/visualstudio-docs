@@ -1,15 +1,15 @@
 ---
 title: Sync project rule sets with check-in policy
 ms.date: 11/04/2016
-ms.topic: conceptual
-f1_keywords:
-- vs.codeanalysis.selecttfsruleset
+ms.topic: how-to
+f1_keywords: 
+  - vs.codeanalysis.selecttfsruleset
 ms.assetid: 9b02f934-2db6-41ec-aaff-9c31ceec2f04
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.workload:
-- multiple
+ms.workload: 
+  - multiple
 ---
 # How to: Synchronize Code Project Rule Sets with an Azure DevOps Project Check-in Policy
 

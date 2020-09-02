@@ -1,7 +1,7 @@
 ---
 title: Creating a Windows Forms-Based Domain-Specific Language
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 author: JoshuaPartlow
 ms.author: joshuapa
 manager: jillfra
@@ -24,10 +24,8 @@ The **Minimal WinForm Designer** DSL template creates a minimal DSL that you can
 
     In this walkthrough, the following names are assumed:
 
-   | | |
-   |-|-|
-   | Solution and DSL name | FarmApp |
-   | Namespace | Company.FarmApp |
+    - Solution and DSL name: `FarmApp`
+    - Namespace: `Company.FarmApp`
 
 2. Experiment with the initial example that the template provides:
 

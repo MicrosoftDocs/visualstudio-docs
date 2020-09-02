@@ -1,7 +1,7 @@
 ---
 title: Create a new project
 ms.date: 03/19/2019
-ms.topic: conceptual
+ms.topic: how-to
 f1_keywords:
 - vs.newproject
 helpviewer_keywords:

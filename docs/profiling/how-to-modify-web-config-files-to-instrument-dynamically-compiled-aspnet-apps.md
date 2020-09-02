@@ -1,14 +1,14 @@
 ---
-title: "Web.Config file: Instrument & profile dynamic compiled ASP.NET web app"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Web.Config file - Instrument & profile dynamic compiled ASP.NET web app
+ms.date: 11/04/2016
+ms.topic: how-to
 ms.assetid: a92e5692-2183-4ae3-9431-b067c6a7aab4
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 monikerRange: 'vs-2017'
-ms.workload:
-  - "aspnet"
+ms.workload: 
+  - aspnet
 ---
 # How to: Modify web.config files to instrument and profile dynamically compiled ASP.NET web applications
 You can use the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools instrumentation method to collect detailed timing data, .NET memory allocation data, and .NET object lifetime data from dynamically compiled [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] Web applications.

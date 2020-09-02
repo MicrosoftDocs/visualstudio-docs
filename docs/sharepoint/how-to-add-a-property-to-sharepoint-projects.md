@@ -1,7 +1,7 @@
 ---
 title: "How to: Add a Property to SharePoint Projects | Microsoft Docs"
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: how-to
 dev_langs:
   - "VB"
   - "CSharp"

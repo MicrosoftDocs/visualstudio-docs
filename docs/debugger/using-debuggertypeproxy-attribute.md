@@ -1,22 +1,22 @@
 ---
-title: "Display custom type using DebuggerTypeProxy | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-dev_langs:
-  - "CSharp"
-  - "VB"
-  - "FSharp"
-  - "C++"
-helpviewer_keywords:
-  - "attributes [C#], debugger"
-  - "DebuggerTypeProxyAttribute class"
-  - "DebuggerTypeProxy attribute"
+title: Display custom type using DebuggerTypeProxy | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: how-to
+dev_langs: 
+  - CSharp
+  - VB
+  - FSharp
+  - C++
+helpviewer_keywords: 
+  - attributes [C#], debugger
+  - DebuggerTypeProxyAttribute class
+  - DebuggerTypeProxy attribute
 ms.assetid: 943f3bb1-993e-4800-a47e-0af78b063014
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
-ms.workload:
-  - "multiple"
+ms.workload: 
+  - multiple
 ---
 # Tell the debugger what type to show using DebuggerTypeProxy Attribute (C#, Visual Basic, C++/CLI)
 

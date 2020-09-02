@@ -6,8 +6,8 @@ f1_keywords:
   - "System.ServiceModel.Activities.SendAndReceiveReply.UI"
   - "System.ServiceModel.Activities.ReceiveReply.UI"
 ms.assetid: 818a8c84-6593-416d-b016-1d91b85ffb68
-author: jillre
-ms.author: jillfra
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
   - "multiple"

@@ -3,8 +3,8 @@ title: Data class inheritance (O-R Designer)
 ms.date: 11/04/2016
 ms.topic: conceptual
 ms.assetid: af32653c-f4e6-4217-8c5a-e32b322b4918
-author: jillre
-ms.author: jillfra
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
   - "data-storage"

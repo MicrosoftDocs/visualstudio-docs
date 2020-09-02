@@ -1,0 +1,141 @@
+{
+    "$schema": "https://whatsnewapi.azurewebsites.net/schema",
+    "docSetProductName": "Visual Studio",
+    "rootDirectory": "docs/",
+    "docLinkSettings": {
+        "linkFormat": "relative",
+        "relativeLinkPrefix": "/visualstudio/"
+    },
+    "inclusionCriteria": {
+        "additionalMicrosoftOrgs": [
+            "ASP.NET"
+        ],
+        "minAdditionsToFile": 30
+    },
+    "areas": [
+        {
+            "name": "ai",
+            "heading": "AI"
+        },
+        {
+            "name": "azure",
+            "heading": "Azure"
+        },
+        {
+            "name": "code-quality",
+            "heading": "Code quality"
+        },
+        {
+            "name": "containers",
+            "heading": "Containers"
+        },
+        {
+            "name": "cross-platform",
+            "heading": "Cross platform"
+        },
+        {
+            "name": "data-tools",
+            "heading": "Data tools"
+        },
+        {
+            "name": "debugger",
+            "heading": "Debugger"
+        },
+        {
+            "name": "deployment",
+            "heading": "Deployment"
+        },
+        {
+            "name": "designers",
+            "heading": "Designers"
+        },
+        {
+            "name": "extensibility",
+            "heading": "Extensibility"
+        },
+        {
+            "name": "get-started",
+            "heading": "Get started"
+        },
+        {
+            "name": "help-viewer",
+            "heading": "Help viewer"
+        },
+        {
+            "name": "ide",
+            "heading": "IDE"
+        },
+        {
+            "name": "install",
+            "heading": "Install"
+        },
+        {
+            "name": "javascript",
+            "heading": "JavaScript"
+        },
+        {
+            "name": "media",
+            "heading": "Media"
+        },
+        {
+            "name": "misc",
+            "heading": "Misc"
+        },
+        {
+            "name": "modeling",
+            "heading": "Modeling"
+        },
+        {
+            "name": "msbuild",
+            "heading": "MSBuild"
+        },
+        {
+            "name": "porting",
+            "heading": "Porting"
+        },
+        {
+            "name": "profiling",
+            "heading": "Profiling"
+        },
+        {
+            "name": "python",
+            "heading": "Python"
+        },
+        {
+            "name": "rtvs",
+            "heading": "RTVS"
+        },
+        {
+            "name": "sharepoint",
+            "heading": "SharePoint"
+        },
+        {
+            "name": "test",
+            "heading": "Test"
+        },
+        {
+            "name": "vs-2015",
+            "heading": "VS 2015"
+        },
+        {
+            "name": "vsto",
+            "heading": "Vsto"
+        },
+        {
+            "name": "windows",
+            "heading": "Windows"
+        },
+        {
+            "name": "workflow-designer",
+            "heading": "Workflow designer"
+        },
+        {
+            "name": "xaml-tools",
+            "heading": "XAML tools"
+        },
+        {
+            "name": "xml-tools",
+            "heading": "XML tools"
+        }
+    ]
+}

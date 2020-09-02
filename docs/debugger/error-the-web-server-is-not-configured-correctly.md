@@ -1,7 +1,7 @@
 ---
-title: "Error: The web server is not configured correctly | Microsoft Docs"
+title: "Error - The web server is not configured correctly | Microsoft Docs"
 ms.date: "09/20/2017"
-ms.topic: "troubleshooting"
+ms.topic: "error-reference"
 f1_keywords:
   - "vs.debug.remote.projnotconfigured"
 dev_langs:

@@ -1,0 +1,150 @@
+- name: Visual Studio for Mac
+  href: /visualstudio/mac/
+- name: IDE Tour
+  href: ide-tour.md
+- name: Installation
+  href: installation.md
+  items:
+  - name: Install and use behind a firewall or proxy
+    href: /visualstudio/mac/install-behind-a-firewall-or-proxy-server
+  - name: Install a preview release
+    href: /visualstudio/mac/install-preview
+  - name: Update
+    href: /visualstudio/mac/update
+  - name: Update to Visual Studio 2019 for Mac
+    href: /visualstudio/mac/update-vsmac-8.0
+  - name: Uninstall
+    href: /visualstudio/mac/uninstall
+- name: User Accounts
+  href: /visualstudio/mac/user-accounts
+  items:
+  - name: Signing In
+    href: /visualstudio/mac/signing-in
+  - name: Enable Subscription
+    href: /visualstudio/mac/enable-subscription
+- name: Customizing the IDE
+  href: /visualstudio/mac/customizing-the-ide
+  items:
+  - name: Extending Visual Studio for Mac
+    href: /visualstudio/mac/extending-visual-studio-mac
+- name: Projects and Solutions
+  href: /visualstudio/mac/projects-and-solutions
+  items:
+  - name: Creating new Projects
+    href: /visualstudio/mac/create-new-projects
+  - name: Adding and removing Project Items
+    href: /visualstudio/mac/add-and-remove-project-items
+  - name: Managing Solutions and Project properties
+    href: /visualstudio/mac/managing-solutions-and-project-properties
+  - name: Managing references in a project
+    href: /visualstudio/mac/managing-references-in-a-project
+    items:
+    - name: Walkthrough - Including a NuGet package in your project
+      href: /visualstudio/mac/nuget-walkthrough
+  - name: Managing App Resources
+    href: /visualstudio/mac/managing-app-resources
+  - name: 'How to: Open multiple solutions or instances'
+    href: /visualstudio/mac/open-multiple-solutions
+- name: Source Editor
+  href: /visualstudio/mac/source-editor
+  items:
+  - name: Refactoring
+    href: /visualstudio/mac/refactoring
+  - name: Comments
+    href: /visualstudio/mac/comments
+  - name: Editor Behavior
+    href: /visualstudio/mac/editor-behavior
+  - name: Task Comments
+    href: /visualstudio/mac/task-comments
+  - name: Snippets
+    href: /visualstudio/mac/snippets
+  - name: Block Selection
+    href: /visualstudio/mac/block-selection
+  - name: Editor Themes
+    href: /visualstudio/mac/editor-themes
+  - name: EditorConfig
+    href: /visualstudio/mac/editorconfig
+  - name: Common Keyboard Shortcuts
+    href: /visualstudio/mac/keyboard-shortcuts
+- name: Debugging
+  href: /visualstudio/mac/debugging
+  items:
+  - name: Data Visualizations
+    href: /visualstudio/mac/data-visualizations
+- name: Compiling and Building
+  href: /visualstudio/mac/compiling-and-building
+  items:
+  - name: Building and Cleaning Projects and Solutions
+    href: /visualstudio/mac/building-and-cleaning-projects-and-solutions
+  - name: Build Actions
+    href: /visualstudio/mac/build-actions
+  - name: Customizing the Build System
+    href: /visualstudio/mac/customizing-build-system
+  - name: Configurations
+    href: /visualstudio/mac/configurations
+    items:
+    - name: Create and Edit configurations
+      href: /visualstudio/mac/create-and-edit-configurations
+- name: Version Control
+  href: /visualstudio/mac/version-control
+  items:
+  - name: TF Version Control
+    href: /visualstudio/mac/tf-version-control
+  - name: Setting Up a Git Repository
+    href: /visualstudio/mac/set-up-git-repository
+  - name: Working with Git
+    href: /visualstudio/mac/working-with-git
+  - name: Setting Up a Subversion Repository
+    href: /visualstudio/mac/set-up-subversion-repository
+  - name: Working with Subversion
+    href: /visualstudio/mac/working-with-subversion
+- name: Web App Deployment
+  href: /visualstudio/mac/web-app-deployment
+  items:
+  - name: Publish to Azure App Service
+    href: /visualstudio/mac/publish-app-svc
+  - name: Publish to Folder
+    href: /visualstudio/mac/publish-folder
+- name: Workloads
+  href: /visualstudio/mac/workloads
+  items:
+  - name: ASP.NET Core
+    href: /visualstudio/mac/asp-net-core
+    items:
+    - name: Razor
+      href: /visualstudio/mac/razor
+    - name: Javascript
+      href: /visualstudio/mac/javascript
+  - name: Azure
+    href: /visualstudio/mac/azure-workload
+    items:
+    - name: Introduction to Azure Functions
+      href: /visualstudio/mac/azure-functions
+    - name: 'Tutorial: Azure Functions'
+      href: /visualstudio/mac/azure-functions-lab
+    - name: Connected Services
+      href: /visualstudio/mac/connected-services
+  - name: Unity Game Development
+    href: /visualstudio/mac/unity-tools
+    items:
+    - name: Setup
+      href: /visualstudio/mac/setup-vsmac-tools-unity
+    - name: Using Unity Tools
+      href: /visualstudio/mac/using-vsmac-tools-unity
+    - name: Using .NET 4.x in Unity
+      href: /visualstudio/cross-platform/unity-scripting-upgrade/?context=visualstudio/mac/context
+    - name: Change Log
+      href: /visualstudio/cross-platform/change-log-visual-studio-tools-for-unity-mac/?context=visualstudio/mac/context
+  - name: Mobile apps with Xamarin
+    href: /visualstudio/mac/xamarin
+- name: Accessibility
+  href: /visualstudio/mac/accessibility
+- name: Troubleshooting
+  href: /visualstudio/mac/troubleshooting
+  items:
+  - name: Visual Studio Customer Experience Improvement Program
+    href: /visualstudio/mac/visual-studio-experience-improvement-program
+  - name: Report a Problem
+    href: /visualstudio/mac/report-a-problem
+  - name: 'Troubleshooting: Updater has errors retrieving information'
+    href: updater-troubleshooting.md

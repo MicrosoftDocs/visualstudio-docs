@@ -1,7 +1,7 @@
 ---
 title: Word wrap
 ms.date: 11/07/2018
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - word wrap
 - editors, text viewing

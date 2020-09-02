@@ -19,7 +19,7 @@ manager: "wpickett"
 # CA2205: Use managed equivalents of Win32 API
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-|||
+|Item|Value|
 |-|-|
 |TypeName|UseManagedEquivalentsOfWin32Api|
 |CheckId|CA2205|

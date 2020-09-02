@@ -1,7 +1,7 @@
 ---
 title: "How to: Create an Event Receiver | Microsoft Docs"
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: how-to
 f1_keywords:
   - "VS.SharePointTools.SPE.EventReceiver"
 dev_langs:

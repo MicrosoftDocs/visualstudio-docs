@@ -42,6 +42,8 @@
     items:
     - name: Overview
       href: install/visual-studio-administrator-guide.md
+    - name: Visual Studio enterprise guide
+      href: install/visual-studio-enterprise-guide.md
     - name: Use the command line
       items:
       - name: Use command-line parameters to install Visual Studio
@@ -82,6 +84,8 @@
         href: install/update-a-network-installation-of-visual-studio.md
       - name: Update Visual Studio while on a servicing baseline
         href: install/update-servicing-baseline.md
+      - name: Update Visual Studio using a minimal offline layout
+        href: install/update-minimal-layout.md
       - name: Control updates to Visual Studio deployments
         href: install/controlling-updates-to-visual-studio-deployments.md
       - name: Manage package payload changes
@@ -325,10 +329,18 @@
           href: ide/reference/generate-method.md
         - name: Generate field/property/local
           href: ide/reference/generate-field-property-local.md
+        - name: Generate Comparison Operators for IComparable
+          href: ide/reference/generate-comparison-operators.md
         - name: Generate constructor
           href: ide/reference/generate-constructor.md
         - name: Generate deconstructor
           href: ide/reference/generate-deconstructor.md
+        - name: Generate IEquatable operators for structs
+          href: ide/reference/generate-equals-structs.md
+        - name: Add file header
+          href: ide/reference/add-file-header.md
+        - name: Add debugger display attribute
+          href: ide/reference/add-debugger-display-attribute.md
         - name: Add explicit cast
           href: ide/reference/add-explicit-cast.md
         - name: Add parameter to method
@@ -368,6 +380,8 @@
           href: ide/reference/convert-for-loop-to-foreach.md
         - name: Convert between Get method and property
           href: ide/reference/convert-get-method-to-property.md
+        - name: Convert between regular string and verbatim string literals
+          href: ide/reference/convert-between-regular-string-verbatim-string.md
         - name: Convert local function to method
           href: ide/reference/convert-local-function-method.md
         - name: Convert foreach loop to LINQ
@@ -376,8 +390,12 @@
           href: ide/reference/convert-if-statement-to-switch-statement-or-switch-expression.md
         - name: Convert LINQ query to foreach statement
           href: ide/reference/convert-linq-to-foreach.md
+        - name: Convert typeof to nameof
+          href: ide/reference/convert-typeof-to-nameof.md
         - name: Convert switch statement to switch expression
           href: ide/reference/convert-switch-statement-to-switch-expression.md
+        - name: DateTime and TimeSpan completion
+          href: ide/reference/datetime-timespan-completion.md
         - name: Encapsulate field
           href: ide/reference/encapsulate-field.md
         - name: Extract interface
@@ -388,8 +406,8 @@
           href: ide/reference/extract-local-function.md
         - name: Inline temporary variable
           href: ide/reference/inline-temporary-variable.md
-        - name: IntelliSense completion unimported types
-          href: ide/reference/intellisense-completion-unimported-types.md
+        - name: IntelliSense completion unimported types and extension methods
+          href: ide/reference/intellisense-completion-unimported-types-extension-methods.md
         - name: Invert conditional expressions and logical operations
           href: ide/reference/invert-conditional-logical.md
         - name: Invert if statement
@@ -412,6 +430,10 @@
           href: ide/reference/remove-unreachable-code.md
         - name: Rename
           href: ide/reference/rename.md
+        - name: Simplify conditional expression
+          href: ide/reference/simplify-conditional-expression.md
+        - name: Simplify LINQ expression
+          href: ide/reference/simplify-linq-expression.md
         - name: Simplify string interpolation
           href: ide/reference/simplify-string-interpolation.md
         - name: Sort usings
@@ -779,7 +801,7 @@
     - name: XML and XSLT files >>
       href: xml-tools/xml-tools-in-visual-studio.md
     - name: Docker containers >>
-      href: containers/index.yml 
+      href: containers/index.yml
     - name: Workflows >>
       href: workflow-designer/developing-applications-with-the-workflow-designer.md
     - name: Mobile apps
@@ -880,7 +902,7 @@
   - name: Customize the IDE
     displayName: Personalize
     href: ide/personalizing-the-visual-studio-ide.md
-  - name: "Quickstart: Personalize theme and text colors"
+  - name: "Personalize the color theme and text"
     href: ide/quickstart-personalize-the-ide.md
   - name: Environment settings
     displayName: profiles
@@ -1338,7 +1360,7 @@
     - name: Windows Information Protection (WIP)
       href: ide/exempt-visual-studio-from-wip.md
     - name: Federal Information Processing Standard (FIPS)
-      href: ide/fips-support-visual-studio.md      
+      href: ide/fips-support-visual-studio.md
   - name: Bidirectional language input
     href: ide/use-bidirectional-languages.md
   - name: Microsoft Help Viewer
@@ -1387,6 +1409,8 @@
     href: ide/whats-new-visual-studio-2017.md
   - name: What's new in Visual Studio 2019
     href: ide/whats-new-visual-studio-2019.md
+  - name: What's new in Visual Studio docs
+    href: ide/whats-new-visual-studio-docs.md
   - name: Release notes & system requirements
     items:
     - name: Release rhythm
@@ -1452,5 +1476,7 @@
       href: ide/report-a-problem-perfview.md
   - name: Suggest a feature
     href: ide/suggest-a-feature.md
+  - name: Developer Community guidelines
+    href: ide/developer-community-guidelines.md
   - name: Developer Community data privacy
     href: ide/developer-community-privacy.md

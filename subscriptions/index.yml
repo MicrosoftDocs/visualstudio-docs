@@ -98,7 +98,7 @@ additionalContent:
             url: ~/vs-visual-studio-app-center.md
           - text: Azure DevOps Server and CAL
             url: ~/vs-vsts.md
-          - text: Office 365 Developer Subscription
+          - text: Microsoft 365 Developer Subscription
             url: ~/vs-office-dev.md
           - text: Windows Developer Account
             url: ~/vs-windows-dev.md

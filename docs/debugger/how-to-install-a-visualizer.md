@@ -1,22 +1,22 @@
 ---
-title: "How to: Install a Visualizer | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-dev_langs:
-  - "CSharp"
-  - "VB"
-  - "FSharp"
-  - "C++"
-  - "JScript"
-helpviewer_keywords:
-  - "debugger, visualizers"
-  - "visualizers, installing"
+title: How to - Install a Visualizer | Microsoft Docs
+ms.date: 06/10/2020
+ms.topic: how-to
+dev_langs: 
+  - CSharp
+  - VB
+  - FSharp
+  - C++
+  - JScript
+helpviewer_keywords: 
+  - debugger, visualizers
+  - visualizers, installing
 ms.assetid: 3310ef43-515c-4d97-b0f9-51047247d3da
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
-ms.workload:
-  - "multiple"
+ms.workload: 
+  - multiple
 ---
 # How to: Install a Visualizer
 After you have created a visualizer, you must install the visualizer so that it will be available in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. Installing a visualizer is a simple process.
@@ -31,13 +31,13 @@ After you have created a visualizer, you must install the visualizer so that it 
 
    Typically, it is best if both the debugger-side DLL and the debuggee-side DLL specify **Any CPU** as the target platform. The debugger-side DLL must be either **Any CPU** or **32-bit**. The target platform for the debuggee-side DLL should correspond to the debugee process.
 
-2. Copy the [Debugger Side](create-custom-visualizers-of-data.md#to-create-the-debugger-side) DLL (and any DLLs it depends on) to either of the following locations:
+2. Copy the [debugger side](create-custom-visualizers-of-data.md#to-create-the-debugger-side) DLL (and any DLLs it depends on) to either of the following locations:
 
     - *VisualStudioInstallPath* `\Common7\Packages\Debugger\Visualizers`
 
     - `My Documents\` *VisualStudioVersion* `\Visualizers`
     
-3. Copy the [Debuggee Side](create-custom-visualizers-of-data.md#to-create-the-visualizer-object-source-for-the-debuggee-side) DLL to either of the following locations:
+3. Copy the [debuggee side](create-custom-visualizers-of-data.md#to-create-the-visualizer-object-source-for-the-debuggee-side) DLL to either of the following locations:
 
     - *VisualStudioInstallPath* `\Common7\Packages\Debugger\Visualizers\` *Framework*
 
@@ -47,6 +47,10 @@ After you have created a visualizer, you must install the visualizer so that it 
     - `net2.0` for debuggees running the `.NET Framework` runtime.
     - `netstandard2.0` for debuggees using a runtime that supports `netstandard 2.0` (`.NET Framework v4.6.1+` or `.NET Core 2.0+`).
     - `netcoreapp` for debuggees running the `.NET Core` runtime. (supports `.NET Core 2.0+`)
+
+   A debuggee-side DLL is necessary if you want to create a standalone visualizer. This DLL contains code for the data object, which can implement methods of <xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerObjectSource>.
+
+   If you are multi-targeting the debuggee-side code, the debuggee-side DLL must be placed into the folder for minimum-supported TFM.
 
 4. Restart the debugging session.
 

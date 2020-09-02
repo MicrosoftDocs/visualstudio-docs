@@ -264,7 +264,7 @@ In Visual Studio, you can define commands that are performed when the user doubl
 ### The Gesture Handler Methods
  The gesture handler class implements and exports <xref:Microsoft.VisualStudio.Modeling.Diagrams.ExtensionEnablement.IGestureExtension>. The methods you need to define are as follows:
 
-|||
+|Signature|Description|
 |-|-|
 |`bool CanDragDrop (ShapeElement target, DiagramDragEventArgs dragEvent)`|Return `true` to allow the source element referenced in `dragEvent` to be dropped on this target.<br /><br /> This method should not make changes to the model. It should work quickly, because it is used to determine the arrow state as the user moves the mouse.|
 |`void OnDragDrop (ShapeElement target, DiagramDragEventArgs dragEvent)`|Update the model based on the source object referenced in `dragEvent`, and the target.<br /><br /> Called when the user releases the mouse after dragging.|

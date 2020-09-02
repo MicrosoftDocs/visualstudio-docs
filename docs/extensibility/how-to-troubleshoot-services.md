@@ -1,7 +1,7 @@
 ---
 title: 'How to: Troubleshoot Services | Microsoft Docs'
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: troubleshooting
 helpviewer_keywords:
 - services, troubleshooting
 ms.assetid: 001551da-4847-4f59-a0b2-fcd327d7f5ca
@@ -64,3 +64,4 @@ if (log == null) return;
 - [List of available services](../extensibility/internals/list-of-available-services.md)
 - [Use and provide services](../extensibility/using-and-providing-services.md)
 - [Service essentials](../extensibility/internals/service-essentials.md)
+- [Visual Studio troubleshooting](/troubleshoot/visualstudio/welcome-visual-studio/)

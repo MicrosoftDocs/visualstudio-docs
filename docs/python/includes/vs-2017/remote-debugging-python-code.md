@@ -2,7 +2,7 @@
 title: Debug Python code on remote Linux computers
 description: Use Visual Studio to debug Python code running on remote Linux computers, including necessary configuration steps, security, and troubleshooting.
 ms.date: 12/06/2018
-ms.topic: conceptual
+ms.topic: how-to
 author: JoshuaPartlow
 ms.author: joshuapa
 manager: jillfra
@@ -16,9 +16,7 @@ Visual Studio can launch and debug Python applications locally and remotely on a
 
 When using ptvsd, the Python code being debugged hosts the debug server to which Visual Studio can attach. This hosting requires a small modification to your code to import and enable the server, and may require network or firewall configurations on the remote computer to allow TCP connections.
 
-|   |   |
-|---|---|
-| ![movie camera icon for video](../../../install/media/video-icon.png "Watch a video") | For an introduction to remote debugging, see [Deep Dive: Cross-platform remote debugging](https://youtu.be/y1Qq7BrV6Cc) (youtube.com, 6m22s), which is applicable to both Visual Studio 2015 and 2017. |
+![movie camera icon for video](../../../install/media/video-icon.png "Watch a video") For an introduction to remote debugging, see [Deep Dive: Cross-platform remote debugging](https://youtu.be/y1Qq7BrV6Cc) (youtube.com, 6m22s), which is applicable to both Visual Studio 2015 and 2017.
 
 ## Set up a Linux computer
 

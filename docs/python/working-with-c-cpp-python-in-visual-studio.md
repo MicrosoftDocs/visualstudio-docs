@@ -2,7 +2,7 @@
 title: Write C++ extensions for Python
 description: A walkthrough of creating a C++ extension for Python using Visual Studio, CPython, and PyBind11, including mixed-mode debugging.
 ms.date: 11/19/2018
-ms.topic: conceptual
+ms.topic: how-to
 author: JoshuaPartlow
 ms.author: joshuapa
 manager: jillfra
@@ -178,7 +178,7 @@ If you're working with Python 2.7, refer instead to [Extending Python 2.7 with C
     #include <Python.h>
     ```
 
-1. Modify the `tanh_impl` method to accept and return Python types (a `PyOjbect*`, that is):
+1. Modify the `tanh_impl` method to accept and return Python types (a `PyObject*`, that is):
 
     ```cpp
     PyObject* tanh_impl(PyObject *, PyObject* o) {

@@ -19,7 +19,7 @@ manager: "wpickett"
 # CA2105: Array fields should not be read only
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-|||
+|Item|Value|
 |-|-|
 |TypeName|ArrayFieldsShouldNotBeReadOnly|
 |CheckId|CA2105|

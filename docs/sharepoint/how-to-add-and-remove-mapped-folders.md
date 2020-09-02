@@ -1,7 +1,7 @@
 ---
 title: "How to: Add and Remove Mapped Folders | Microsoft Docs"
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: how-to
 f1_keywords:
   - "VS.SharePointTools.Project.MappedFolder"
 dev_langs:

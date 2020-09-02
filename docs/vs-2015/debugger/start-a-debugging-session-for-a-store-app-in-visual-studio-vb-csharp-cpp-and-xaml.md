@@ -121,7 +121,7 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
 
   Choose one of these options:
 
-|||
+|Option|Description|
 |-|-|
 |**Local Machine**|Debug the app in the current session on your local machine. See [Run Windows Store apps on the local machine](../debugger/run-windows-store-apps-on-the-local-machine.md).|
 |**Simulator**|Debug the app in the Visual Studio simulator for [!INCLUDE[win8_appname_long](../includes/win8-appname-long-md.md)] apps. The simulator is a Desktop window that enables you to debug device functionality—such as touch gestures and device rotation—that are not available on the local machine. See [Run Windows Store apps in the simulator](../debugger/run-windows-store-apps-in-the-simulator.md).|
@@ -163,7 +163,7 @@ Applies to Windows and Windows Phone](../Image/windows_and_phone_content.png "wi
 
  Choose one of these debuggers from the **Application process** list:
 
-|||
+|Debugger type|Description|
 |-|-|
 |**Script Only**|Debug JavaScript code in your app. Managed code and native code are ignored.|
 |**Native Only**|Debug native C/C++ code in your app. Managed code and JavaScript code are ignored.|

@@ -1,7 +1,7 @@
 ---
 title: "Troubleshoot Office solutions"
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: "troubleshooting"
 dev_langs:
   - "VB"
   - "CSharp"
@@ -51,3 +51,7 @@ ms.workload:
 - [Common tasks in Office programming](../vsto/common-tasks-in-office-programming.md)
 
  Lists frequently asked questions about programming Office solutions and provides links to topics that can help solve common problems.
+
+## See also
+
+- [Visual Studio troubleshooting](/troubleshoot/visualstudio/welcome-visual-studio/)

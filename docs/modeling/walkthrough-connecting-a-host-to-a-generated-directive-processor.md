@@ -1,7 +1,7 @@
 ---
 title: Connect host to generated directive processor
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - walkthroughs [text templates], connecting host to processor
 - text templates, custom directive hosts
@@ -35,7 +35,7 @@ This walkthrough includes the following tasks:
 
 To define a DSL, you must have installed the following components:
 
-| | |
+| Component | Link |
 |-|-|
 | Visual Studio | [http://go.microsoft.com/fwlink/?LinkId=185579](https://visualstudio.microsoft.com/) |
 | [!INCLUDE[vssdk_current_short](../modeling/includes/vssdk_current_short_md.md)] | [http://go.microsoft.com/fwlink/?LinkId=185580](/azure/devops/integrate/index) |

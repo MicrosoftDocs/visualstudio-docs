@@ -212,7 +212,7 @@ You can set breakpoints when you want to stop debugger execution, perhaps to see
   
  You can use the following special keywords in the **Message**.  
   
-|||  
+|Keyword|Description|  
 |-|-|  
 |**$ADDRESS**|Current instruction|  
 |**$CALLER**|Calling function name|  
