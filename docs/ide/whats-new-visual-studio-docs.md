@@ -100,7 +100,6 @@ Welcome to what's new in the Visual Studio docs for August 2020. This article li
 - [F1 help for the text editor](/visualstudio/ide/not-in-toc/default-f1-text-editor) - Refactor default F1 Help page
 - [Convert `typeof` to `nameof`](/visualstudio/ide/reference/convert-typeof-to-nameof) - Convert typeof to nameof refactoring
 - [Simplify LINQ expression](/visualstudio/ide/reference/simplify-linq-expression) - Simplify LINQ expression refactoring
-- [Visual Studio docs: What's new in the docs for July 2020](/visualstudio/ide/whats-new-visual-studio-docs) - Added doc focused What's New
 
 **Updated articles**
 

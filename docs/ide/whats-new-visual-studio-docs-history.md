@@ -1,7 +1,7 @@
 ---
-title: "Visual Studio docs: What's new history "
+title: "Visual Studio docs: History of what's new "
 titleSuffix: ""
-description: "History of What's new in the Visual Studio docs."
+description: "History of what's new in Visual Studio docs"
 ms.date: 09/01/2020
 helpviewer_keywords:
   - "Visual Studio, what's new, docs"
@@ -17,9 +17,9 @@ ms.workload:
   - "multiple"
 ---
 
-# Visual Studio docs: History of What's new in the docs
+# History of what's new in Visual Studio docs
 
-Welcome to what's new in the Visual Studio docs history. This topic contains the major changes to the docs prior to August 2020 (starting July 2020). For the latest What's New, see [Visual Studio docs: What's new in the docs](whats-new-visual-studio-docs.md).
+Welcome to the history of what's new in Visual Studio docs. This topic contains the major changes to the docs prior to August 2020 (starting July 2020). For the latest What's New, see [Visual Studio docs: What's new in the docs](whats-new-visual-studio-docs.md).
 
 ## July 2020
 ### Code quality
