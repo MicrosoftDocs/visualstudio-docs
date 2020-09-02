@@ -1,13 +1,15 @@
 ---
 title: Resolve issues signing in to the Visual Studio Subscriptions Administration Portal | Microsoft Docs
-author: evanwindom
-ms.author: v-evwin
-manager: csbuschl
-ms.date: 03/24/2020
-ms.assetid: 4a3f5c7a-003b-4993-9f02-fe5e26c0c065
-ms.topic: include
-ms.faqid: 
 description:  Learn how to resolve common issues with gaining access to the Visual Studio Subscriptions Administration Portal
+ms.topic: include
+ms.assetid: 4a3f5c7a-003b-4993-9f02-fe5e26c0c065
+author: evanwindom
+ms.author: cabuschl
+ms.date: 03/24/2020
+user.type: subscriber
+tags: sign-in
+subscription.type: vl, cloud,
+sap.id: 17a2bf94-0d03-2629-dfd8-e8935f9126ec
 ---
 
 ## Resolve issues signing in to Visual Studio Subscriptions Administration Portal

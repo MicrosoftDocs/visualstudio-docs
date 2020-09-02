@@ -10,9 +10,6 @@
         "additionalMicrosoftOrgs": [
             "ASP.NET"
         ],
-        "labels": [
-            "-label:do-not-merge"
-        ],
         "minAdditionsToFile": 30
     },
     "areas": [

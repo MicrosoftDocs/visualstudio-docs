@@ -22,7 +22,8 @@ Use the Microsoft Globalization Rules rule set to focus on problems that might p
 |[CA1304](../code-quality/ca1304.md)|Specify CultureInfo|
 |[CA1305](../code-quality/ca1305.md)|Specify IFormatProvider|
 |[CA1306](../code-quality/ca1306.md)|Set locale for data types|
-|[CA1307](../code-quality/ca1307.md)|Specify StringComparison|
+|[CA1307](../code-quality/ca1307.md)|Specify StringComparison for clarity|
 |[CA1308](../code-quality/ca1308.md)|Normalize strings to uppercase|
 |[CA1309](../code-quality/ca1309.md)|Use ordinal StringComparison|
+|[CA1310](../code-quality/ca1310.md)|Specify StringComparison for correctness|
 |[CA2101](../code-quality/ca2101.md)|Specify marshaling for P/Invoke string arguments|
