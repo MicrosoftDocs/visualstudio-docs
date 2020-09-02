@@ -1,6 +1,7 @@
 ---
 title: All Tools
-ms.date: 8/28/200
+ms.date: 08/28/200
+description: List of all the devinit tools for customizing Visual Studio Codespaces for Visual Studio 2019.
 ms.topic: reference
 author: andster
 ms.author: andster
@@ -14,7 +15,7 @@ This example illustrates how to use a large range of `devinit` tools.
 
 ## .devcontainer.json
 
-Contents of the [`.devcontainer.json`]() file in the repo root.
+Contents of the `.devcontainer.json` file in the repo root.
 
 ```json
 {
@@ -23,7 +24,7 @@ Contents of the [`.devcontainer.json`]() file in the repo root.
 ```
 
 ## .devinit.json
-Contents of the [`.devcontainer.json`]() file. This file needs to be in the same folder as [`.devcontainer.json`]().
+Contents of the `.devcontainer.json` file. This file needs to be in the same folder as `.devcontainer.json`.
 
 ``` json
 {
@@ -83,7 +84,7 @@ Contents of the [`.devcontainer.json`]() file. This file needs to be in the same
     {
       "tool": "require-psmodule",
       "input": "PowerShellGet",
-      "comments": "Installs specified PS module mentioned in input from PSGallery, unless repository mentioned in additional options.",
+      "comments": "Installs specified PS module mentioned in input from PSGallery, unless repository mentioned in Additional options.",
       "additionalOptions": "-Repository PSGallery"
     },
     {

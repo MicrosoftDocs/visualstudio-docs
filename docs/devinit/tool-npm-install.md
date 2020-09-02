@@ -1,6 +1,7 @@
 ---
 title: npm-install
-ms.date: 8/28/200
+description: Devinit tool npm-install.
+ms.date: 08/28/200
 ms.topic: reference
 author: andster
 ms.author: andster
@@ -19,18 +20,18 @@ If both the `input` and `additionalOptions` properties are omitted or empty, the
 | Name                                             | Type   | Required | Value                                                                                                          |
 |--------------------------------------------------|--------|----------|----------------------------------------------------------------------------------------------------------------|
 | **comments**                                     | string | No       | Optional comments property. Not used.                                                                          |
-| [**input**](#Input)                              | string | Yes      | The package to install. See [Input](#input) below for details.                                                 |
-| [**additionalOptions**](#Additional-Options)     | string | No       | Additional Options to pass to the tool. See [Additional Options](#Additional-Options) below for details.       |
+| [**input**](#input)                              | string | Yes      | The package to install. See [Input](#input) below for details.                                                 |
+| [**additionalOptions**](#additional-options)     | string | No       | Additional options to pass to the tool. See [Additional options](#additional-options) below for details.       |
 
 ### Input
 
 The `input` property is used to specify the name of the package to install (for example 'mongo').
 
-### Additional Options
+### Additional options
 
 Additional configuration options can be passed in as a value of the `additionalOptions`. These arguments are direct passthrough to the arguments used by [npm install](https://docs.npmjs.com/cli/install).
 
-## Example Usage
+## Example usage
 
 ```json
 {

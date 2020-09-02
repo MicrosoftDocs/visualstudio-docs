@@ -1,6 +1,7 @@
 ---
 title: set-env
-ms.date: 8/28/200
+description: Devinit tool require-set-env.
+ms.date: 08/28/200
 ms.topic: reference
 author: andster
 ms.author: andster
@@ -12,7 +13,7 @@ ms.workload:
 
 The `set-env` tool can be used to set environment variables for use in the current process. The environment variables are set only in the current process and will be used by other `devinit` tools if they run in that process.
 
-This tool makes use of the .NET Core `Environment.SetEnvironment` API and has the same limitations as that API. For more information, please see the [documentation](https://docs.microsoft.com/en-us/dotnet/api/system.environment.setenvironmentvariable?view=netcore-3.1) for `Environment.SetEnvironment`.
+This tool makes use of the .NET Core `Environment.SetEnvironment` API and has the same limitations as that API. For more information, please see the [documentation](https://docs.microsoft.com/dotnet/api/system.environment.setenvironmentvariable?view=netcore-3.1) for `Environment.SetEnvironment`.
 
 ## Usage
 
@@ -20,7 +21,7 @@ This tool makes use of the .NET Core `Environment.SetEnvironment` API and has th
 |----------------------------------------------|--------|----------|-----------------------------------------------------------------------------|
 | **comments**                                 | string | No       | Optional comments property. Not used.                                       |
 | [**input**](#input)                          | string | No       | The input to the tool. See [Input](#input) below for details.               |
-| [**additionalOptions**](#Additional-Options) | string | No       | Not used. See [Additional Options](#Additional-Options) below for details.  |
+| [**additionalOptions**](#additional-options) | string | No       | Not used. See [Additional options](#additional-options) below for details.  |
 
 ### Input
 
@@ -35,11 +36,11 @@ The `set-env` tool takes a single string as an input on the `input` property. Th
 
 An `input` string can contain an environment variable expansion for example `%userprofile%`, which is expanded when the value is read.
 
-### Additional Options
+### Additional options
 
 Not used.
 
-## Example Usage
+## Example usage
 
 ```json
 {
@@ -87,5 +88,4 @@ Not used.
     }
   ]
 }
-
 ```

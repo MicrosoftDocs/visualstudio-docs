@@ -1,6 +1,7 @@
 ---
 title: require-psmodule
-ms.date: 8/28/200
+description: Devinit tool require-psmodule.
+ms.date: 08/28/200
 ms.topic: reference
 author: andster
 ms.author: andster
@@ -10,37 +11,37 @@ ms.workload:
 ---
 # require-psmodule
 
-The `require-psmodule` tool is used to install a [PowerShell Module](https://docs.microsoft.com/en-us/powershell/scripting/developer/module/understanding-a-windows-powershell-module?view=powershell-7) from the [PowerShell Gallery](https://www.powershellgallery.com/) via [Install-Module](https://docs.microsoft.com/en-us/powershell/module/powershellget/install-module?view=powershell-7, so that it can be used in PowerShell scripts.
+The `require-psmodule` tool is used to install a [PowerShell Module](https://docs.microsoft.com/powershell/scripting/developer/module/understanding-a-windows-powershell-module?view=powershell-7) from the [PowerShell Gallery](https://www.powershellgallery.com/) via [Install-Module](https://docs.microsoft.com/powershell/module/powershellget/install-module?view=powershell-7, so that it can be used in PowerShell scripts.
 
 >
->!TIP Once a module is installed it will still need to be imported into a script using [Import-Module](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/import-module?view=powershell-7).
+>!TIP Once a module is installed it will still need to be imported into a script using [Import-Module](https://docs.microsoft.com/powershell/module/microsoft.powershell.core/import-module?view=powershell-7).
 >
 
 ## Usage
 
-If both the `input` and `additionalOptions` properties are omitted or empty, then the tool will follow the [default](#default) behavior detailed below.
+If both the `input` and `additionalOptions` properties are omitted or empty, then the tool will follow the [default](#default-behavior) behavior detailed below.
 
 | Name                                             | Type   | Required | Value                                                                                   |
 |--------------------------------------------------|--------|----------|-----------------------------------------------------------------------------------------|
 | **comments**                                     | string | No       | Optional comments property. Not used.                                                   |
 | [**input**](#input)                              | string | Yes      | The package(s) to install. See [Input](#input) below for details.                       |
-| [**additionalOptions**](#Additional-Options)     | string | No       | Not used. See [Additional Options](#Additional-Options) below for details.              |
+| [**additionalOptions**](#additional-options)     | string | No       | Not used. See [Additional options](#additional-options) below for details.              |
 
 ### Input
 
 The `input` property should be the `Name` of the PowerShell module to install. A list of available PowerShell modules can be found by searching the [PowerShell Gallery](https://www.powershellgallery.com/).
 
-### Additional Options
+### Additional options
 
-Additional Options are passed directly to the [Install-Module](https://docs.microsoft.com/en-us/powershell/module/powershellget/install-module?view=powershell-7) command and are documented on [Microsoft Docs](https://docs.microsoft.com/en-us/powershell/module/powershellget/install-module?view=powershell-7).
+Additional options are passed directly to the [Install-Module](https://docs.microsoft.com/powershell/module/powershellget/install-module?view=powershell-7) command and are documented on [Microsoft Docs](https://docs.microsoft.com/powershell/module/powershellget/install-module?view=powershell-7).
 
-### Default Behavior
+### Default behavior
 
-The default behavior of the `require-psmodule` tool is to error as `input` is required.
+The Default behavior of the `require-psmodule` tool is to error as `input` is required.
 
 ## Builtin Options
 
-The `require-psmodule` tool sets a number of `Install-Module` command line arguments to ensure that `Install-Module` can run headless. These arguments are listed below and documentation on them can be found in the [Install-Module](https://docs.microsoft.com/en-us/powershell/module/powershellget/install-module?view=powershell-7).
+The `require-psmodule` tool sets a number of `Install-Module` command line arguments to ensure that `Install-Module` can run headless. These arguments are listed below and documentation on them can be found in the [Install-Module](https://docs.microsoft.com/powershell/module/powershellget/install-module?view=powershell-7).
 
 | Name         | Description                                                                                                                                                                                                                                                                                                                                                               |
 |--------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -49,7 +50,7 @@ The `require-psmodule` tool sets a number of `Install-Module` command line argum
 | **-Verbose** | -Verbose flag is added when verbose is passed for `devinit` command.                                                                                                                                                                                                                                                                                                      |
 
 
-## Example Usage
+## Example usage
 
 ```json
 {

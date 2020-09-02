@@ -1,6 +1,7 @@
 ---
 title: Sample List
-ms.date: 8/28/200
+description: List of example customizations using devinit to customize a Visual Studio Codespace for Visual Studio 2019.
+ms.date: 08/28/200
 ms.topic: reference
 author: andster
 ms.author: andster
@@ -8,7 +9,7 @@ manager: jillfra
 ms.workload:
 - multiple
 ---
-# Sample List
+# Sample list
 
 The table below contains a list of all the currently available tools for `devinit`.
 

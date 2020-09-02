@@ -1,6 +1,7 @@
 ---
 title: .NET Core Runtime
-ms.date: 8/28/200
+description: Example customization using devinit for the dotnet/runtime repo.
+ms.date: 08/28/200
 ms.topic: reference
 author: andster
 ms.author: andster
@@ -10,11 +11,11 @@ ms.workload:
 ---
 # .NET Core Runtime
 
-This example illustrates how to customize the .NET Core Runtime [dotnet/runtime](https://github.com/dotnet/runtime) to automatically be provisioned in a [Codespace with Visual Studio 2019](https://docs.microsoft.com/en-us/visualstudio/codespaces/quickstarts/vs).
+This example illustrates how to customize the .NET Core Runtime [dotnet/runtime](https://github.com/dotnet/runtime) to automatically be provisioned in a [Codespace with Visual Studio 2019](https://docs.microsoft.com/visualstudio/codespaces/quickstarts/vs).
 
 ## .devcontainer.json
 
-Contents of the [`.devcontainer.json`]() file in the repo root.
+Contents of the `.devcontainer.json` file in the repo root.
 
 ```json
 { 
@@ -24,7 +25,7 @@ Contents of the [`.devcontainer.json`]() file in the repo root.
 
 ## PostCloneSetup.ps1
 
-This script is called from `PostCloneSetup.ps1` and can also be ran locally to set up the repository. This file needs to be in the same folder as [`.devcontainer.json`]().
+This script is called from `PostCloneSetup.ps1` and can also be ran locally to set up the repository. This file needs to be in the same folder as `.devcontainer.json`.
 
 ```batch
 devinit init
@@ -34,7 +35,7 @@ devinit init -f .devinit.json
 
 ## packages.config
 
-The `packages.config` file is a [Chocolatey](https://chocolatey.org/) file that defines the list of Chocolatley packages to install. This file needs to be in the same folder as [`.devcontainer.json`]().
+The `packages.config` file is a [Chocolatey](https://chocolatey.org/) file that defines the list of Chocolatley packages to install. This file needs to be in the same folder as `.devcontainer.json`.
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>

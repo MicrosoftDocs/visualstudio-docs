@@ -1,6 +1,7 @@
 ---
 title: require-windowsfeature
-ms.date: 8/28/200
+description: Devinit tool require-windowsfeature.
+ms.date: 08/28/200
 ms.topic: reference
 author: andster
 ms.author: andster
@@ -10,7 +11,7 @@ ms.workload:
 ---
 # require-windowsfeature
 
-The `require-windowsfeature` tool is used to acquire Windows features using Desired State Configuration. 
+The `require-windowsfeature` tool is used to acquire Windows features using Desired State Configuration.
 
 >[!IMPORTANT]
 >This tool is only available on Windows Server.
@@ -21,7 +22,7 @@ The `require-windowsfeature` tool is used to acquire Windows features using Desi
 |--------------------------------------------------|--------|----------|----------------------------------------------------------------------------------------------------------------------------------|
 | **comments**                                     | string | No       | Optional comments property. Not used.                                                                                            |
 | [**input**](#input)                              | string | Yes      | The Windows Feature to install. See [Input](#input) below for details.                                                           |
-| [**additionalOptions**](#Additional-Options)     | string | No       | An additional option can be used to uninstall a Windows Feature. See [Additional Options](#Additional-Options) below for details.|
+| [**additionalOptions**](#additional-options)     | string | No       | An additional option can be used to uninstall a Windows Feature. See [Additional options](#additional-options) below for details.|
 
 ### Input
 
@@ -30,13 +31,13 @@ The `input` property should be the `name` of the `windows feature` to install. A
 ### Additional-Options
 
 Additional options are passed directly to the PowerShell script implementing the 'require-windowsfeature' tool.
-To uninstall a Windows Feature, specify '-EnsureState Absent' as the additional options.
+To uninstall a Windows Feature, specify '-EnsureState Absent' as the Additional options.
 
-### Default Behavior
+### Default behavior
 
-The default behavior of the `require-windowsfeature` tool is to error, as `input` is required.
+The Default behavior of the `require-windowsfeature` tool is to error, as `input` is required.
 
-## Example Usage
+## Example usage
 
 ```json
 {
@@ -64,3 +65,4 @@ The default behavior of the `require-windowsfeature` tool is to error, as `input
         }
     ]
 }
+```

@@ -1,6 +1,7 @@
 ---
 title: require-npm
-ms.date: 8/28/200
+description: Devinit tool require-npm.
+ms.date: 08/28/200
 ms.topic: reference
 author: andster
 ms.author: andster
@@ -14,34 +15,34 @@ The `require-npm` tool is used to install [NPM](https://www.npmjs.com/).
 
 ## Usage
 
-If both the `input` and `additionalOptions` properties are omitted or empty, then the tool will follow the [default](#default) behavior detailed below.
+If both the `input` and `additionalOptions` properties are omitted or empty, then the tool will follow the [default](#default-behavior) behavior detailed below.
 
 | Name                                             | Type   | Required | Value                                                                                       |
 |--------------------------------------------------|--------|----------|---------------------------------------------------------------------------------------------|
 | **comments**                                     | string | No       | Optional comments property. Not used.                                                       |
 | [**input**](#input)                              | string | Yes      | Specifies the NPM version. See [Input](#input) below for details.                           |
-| [**additionalOptions**](#Additional-Options)     | string | No       | Not used. See [Additional Options](#Additional-Options) below for details.                  |
+| [**additionalOptions**](#additional-options)     | string | No       | Not used. See [Additional options](#additional-options) below for details.                  |
 
 ### Input
 
 The `input` property is used to specify the NPM version.
 
-### Additional Options
+### Additional options
 
 Unused.
 
-### Default Behavior
+### Default behavior
 
-The default behavior of the `require-nodejs` tool is to install the latest LTS version of NPM.
+The Default behavior of the `require-nodejs` tool is to install the latest LTS version of NPM.
 
-## Example Usage
+## Example usage
 
 ```json
 {
     "$schema": "./devinit.schema-1.0.json",
     "run": [
         {
-            "comments": "Example that will trigger the default behavior of installing latest LTS of NPM.",
+            "comments": "Example that will trigger the Default behavior of installing latest LTS of NPM.",
             "tool": "require-npm"
         },
         {

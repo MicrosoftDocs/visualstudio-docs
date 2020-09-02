@@ -1,6 +1,7 @@
 ---
 title: require-nuget
-ms.date: 8/28/200
+description: Devinit tool require-nuget.
+ms.date: 08/28/200
 ms.topic: reference
 author: andster
 ms.author: andster
@@ -14,27 +15,27 @@ The `require-nuget` tool to download NuGet CLI and adds to PATH variable. NuGet 
 
 ## Usage
 
-If both the `input` and `additionalOptions` properties are omitted or empty, then the tool will follow the [default](#default) behavior detailed below.
+If both the `input` and `additionalOptions` properties are omitted or empty, then the tool will follow the [default](#default-behavior) behavior detailed below.
 
 | Name                                             | Type   | Required | Value                                                                                |
 |--------------------------------------------------|--------|----------|--------------------------------------------------------------------------------------|
 | **comments**                                     | string | No       | Optional comments property. Not used.                                                |
 | [**input**](#input)                              | string | No       | NuGet CLI version to install. See [input](#input) below for details. |
-| [**additionalOptions**](#Additional-Options)     | string | No       | See [Additional Options](#Additional-Options) below for details.                     |
+| [**additionalOptions**](#additional-options)     | string | No       | See [Additional options](#additional-options) below for details.                     |
 
 ### Input
 
 The `input` is an optional property used to specific the version of NuGet CLI to be installed. If `input` is omitted, latest version of CLI will be installed.
 
-### Additional Options
+### Additional options
 
 Not used.
 
-### Default Behavior
+### Default behavior
 
-The default behavior of the `require-nuget` tool is to install latest of NuGet CLI.
+The Default behavior of the `require-nuget` tool is to install latest of NuGet CLI.
 
-## Example Usage
+## Example usage
 
 ```json
 {

@@ -1,6 +1,7 @@
 ---
 title: OpenCV
-ms.date: 8/28/200
+description: Example customization using devinit for the opencv/opencv repo.
+ms.date: 08/28/200
 ms.topic: reference
 author: andster
 ms.author: andster
@@ -10,11 +11,11 @@ ms.workload:
 ---
 # OpenCV
 
-This example illustrates the customizations needed to by [OpenCV](https://github.com/opencv/opencv) to be automatically provisioned in a [Codespace with Visual Studio 2019](https://docs.microsoft.com/en-us/visualstudio/codespaces/quickstarts/vs).
+This example illustrates the customizations needed to by [OpenCV](https://github.com/opencv/opencv) to be automatically provisioned in a [Codespace with Visual Studio 2019](https://docs.microsoft.com/visualstudio/codespaces/quickstarts/vs).
 
 ## .devcontainer.json
 
-Contents of the [`.devcontainer.json`]() file in the repo root.
+Contents of the `.devcontainer.json` file in the repo root.
 
 ```json
 {
@@ -24,7 +25,7 @@ Contents of the [`.devcontainer.json`]() file in the repo root.
 
 ## .devinit.json
 
-Contents of the [`.devinit.json`]() file. This file needs to be in the same folder as [`.devcontainer.json`]().
+Contents of the [`.devinit.json`](devinit-json) file. This file needs to be in the same folder as `.devcontainer.json`.
 
 ```json
 {

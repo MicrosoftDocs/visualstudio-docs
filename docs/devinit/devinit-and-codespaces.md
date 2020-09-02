@@ -1,6 +1,7 @@
 ---
 title: Devinit and Visual Studio Codespaces
-ms.date: 8/28/200
+description: Learn how to customize a Codespace for Visual Studio using devinit.
+ms.date: 008/28/200
 ms.topic: reference
 author: andster
 ms.author: andster

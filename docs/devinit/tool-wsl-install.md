@@ -1,6 +1,7 @@
 ---
 title: wsl-install
-ms.date: 8/28/200
+description: Devinit tool wsl-install.
+ms.date: 08/28/200
 ms.topic: reference
 author: andster
 ms.author: andster
@@ -10,19 +11,19 @@ ms.workload:
 ---
 # wsl-install
 
-The `wsl-install` tool is used to install Linux distros for the [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/) (WSL).
+The `wsl-install` tool is used to install Linux distros for the [Windows Subsystem for Linux](https://docs.microsoft.com/windows/wsl/) (WSL).
 
 The `wsl-install` tool requires WSL 2 to already be enabled on Windows. In the private preview of Codespaces for Visual Studio WSL2 is enabled already. If for some reason WSL2 is not enabled, you can enable WSL2 by using the [require-windowsfeature](require-windowsfeature.) tool and the feature name `Microsoft-Windows-Subsystem-Linux`.
 
 ## Usage
 
-If both the `input` and `additionalOptions` properties are omitted or empty, then the tool will follow the [default](#default) behavior detailed below.
+If both the `input` and `additionalOptions` properties are omitted or empty, then the tool will follow the [default](#default-behavior) behavior detailed below.
 
 | Name                                             | Type   | Required | Value                                                             |
 |--------------------------------------------------|--------|----------|-------------------------------------------------------------------|
 | **comments**                                     | string | No       | Optional comments property. Not used.                             |
 | [**input**](#input)                              | string | Yes      | The distro to install. See [Input](#input) below for details.     |
-| [**additionalOptions**](#Additional-Options)     | string | No       | See [Additional Options](#Additional-Options) below for details.  |
+| [**additionalOptions**](#additional-options)     | string | No       | See [Additional options](#additional-options) below for details.  |
 
 ### Input
 
@@ -42,20 +43,20 @@ The URI for the AppX application distribution package (`.appx`) containing the d
 >!TIP ARM distros are not currently supported in Codespaces.
 >
 
-### Additional Options
+### Additional options
 
-Multiple additional options are supported:
+Multiple Additional options are supported:
 
 | Name                      | Type      | Required | Value                                                                                                                                                                                    |
 |---------------------------|-----------|----------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | --wsl-version             | string    | No       | WSL version to use. The default value is 2.                                                                                                                                  |
 | --post-create-command     | string    | No       | The command to execute inside of the Linux distro once the installation is complete. The command should be formatted as a single word, or wrapped in quotes. The default is no command.  |
 
-### Default Behavior
+### Default behavior
 
-The default behavior of the `wsl-install` tool is to error as the `input` property, the distro to install, is required.
+The Default behavior of the `wsl-install` tool is to error as the `input` property, the distro to install, is required.
 
-## Example Usage
+## Example usage
 
 ```json
 {

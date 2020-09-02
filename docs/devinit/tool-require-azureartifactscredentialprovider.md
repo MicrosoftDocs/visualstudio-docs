@@ -1,6 +1,7 @@
 ---
 title: require-azureartifactscredentialprovider
-ms.date: 8/28/200
+description: Devinit tool require-azureartifactscredentialprovider.
+ms.date: 08/28/200
 ms.topic: reference
 author: andster
 ms.author: andster
@@ -14,27 +15,27 @@ The `require-azureartifactscredentialprovider` tool installs the Azure Artifacts
 
 ## Usage
 
-If both the `input` and `additionalOptions` properties are omitted or empty, then the tool will follow the [default](#default) behavior detailed below.
+If both the `input` and `additionalOptions` properties are omitted or empty, then the tool will follow the [default](#default-behavior) behavior detailed below.
 
 | Name                                             | Type   | Required | Value                                                                                |
 |--------------------------------------------------|--------|----------|--------------------------------------------------------------------------------------|
 | **comments**                                     | string | No       | Optional comments property. Not used.                                                |
 | [**input**](#input)                              | string | No       | Not used. See [input](#input) below for details. |
-| [**additionalOptions**](#Additional-Options)     | string | No       | See [Additional Options](#Additional-Options) below for details.                     |
+| [**additionalOptions**](#additional-options)     | string | No       | See [Additional options](#additional-options) below for details.                     |
 
 #### Input
 
 Not used. Ignores any input if mentioned.
 
-#### Additional Options
+#### Additional options
 
 Additional options are passed as-is to the credential provider command.
 
-### Default Behavior
+### Default behavior
 
-The default behavior of the `require-azureartifactscredentialprovider` tool is to install latest of Azure Artifacts Credential Provider.
+The Default behavior of the `require-azureartifactscredentialprovider` tool is to install latest of Azure Artifacts Credential Provider.
 
-## Example Usage
+## Example usage
 
 ```json
 {

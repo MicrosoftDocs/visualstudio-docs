@@ -1,6 +1,7 @@
 ---
 title: windowsfeature
-ms.date: 8/28/200
+description: Devinit tool windowsfeature.
+ms.date: 08/28/200
 ms.topic: reference
 author: andster
 ms.author: andster
@@ -11,51 +12,74 @@ ms.workload:
 # windowsfeature
 
 ## windowsfeature-enable
+
 The `windowsfeature-enable` tool is used to enable Windows features using a PowerShell script.
 
 | Name                                             | Type   | Required | Value                                                                 |
 |--------------------------------------------------|--------|----------|-----------------------------------------------------------------------|
 | **comments**                                     | string | No       | Optional comments property. Not used.                                 |
 | [**input**](#input)                              | string | Yes      | The Windows Feature to enable. See [input](#input) below for details. |
-| [**additionalOptions**](#Additional-Options)     | string | No       | Not used.                                                             |
+| [**additionalOptions**](#additional-options)     | string | No       | Not used.                                                             |
+
 ### Input
-The `input` property should be the `name` of the `windows feature` to enable. A list of available features can be found by running the [`windowsfeature-list`](#windowsfeature-list) tool.
-#### Additional-Options
+
+The `input` property should be the `name` of the `windows feature` to enable. A list of available features can be found by running the `windowsfeature-list` tool.
+
+### Additional options
+
 Not used.
-### Default Behavior
-The default behavior of the `windowsfeature-enable` tool is to error, as `input` is required.
+
+### Default behavior
+
+The Default behavior of the `windowsfeature-enable` tool is to error, as `input` is required.
 
 ## windowsfeature-disable
+
 The `windowsfeature-disable` tool is used to disable Windows features using a PowerShell script.
 
 | Name                                             | Type   | Required | Value                                                                                   |
 |--------------------------------------------------|--------|----------|------------------------------------------------------------------------|
 | **comments**                                     | string | No       | Optional comments property. Not used.                                  |
 | [**input**](#input)                              | string | Yes      | The Windows Feature to disable. See [input](#input) below for details. |
-| [**additionalOptions**](#Additional-Options)     | string | No       | Not used.                                                              |
+| [**additionalOptions**](#additional-options)     | string | No       | Not used.
+                                                           |
+
 ### Input
+
 The `input` property should be the `name` of the `windows feature` to disable. A list of available features can be found by running the [`windowsfeature-list`](#windowsfeature-list) tool.
-#### Additional-Options
-Not used. 
-### Default Behavior
-The default behavior of the `windowsfeature-disable` tool is to error, as `input` is required.
+
+### Additional options
+
+Not used.
+
+### Default behavior
+
+The Default behavior of the `windowsfeature-disable` tool is to error, as `input` is required.
 
 ## windowsfeature-list
+
 The `windowsfeature-list` tool is used to list the enable/disable state of all Windows features.
 
 | Name                                             | Type   | Required | Value                                      |
 |--------------------------------------------------|--------|----------|--------------------------------------------|
 | **comments**                                     | string | No       | Optional comments property. Not used.      |
 | [**input**](#input)                              | string | No       | Not used. Ignored.                         |
-| [**additionalOptions**](#Additional-Options)     | string | No       | Not used. Ignored.                         |
-### Input
-Not used. Ignored.
-#### Additional-Options
-Not used. Ignored.
-### Default Behavior
-The default behavior of the `windowsfeature-list` tool is to list the enable/disable state of all Windows features.
+| [**additionalOptions**](#additional-options)     | string | No       | Not used. Ignored.                         |
 
-## Example Usage
+### Input
+
+Not used. Ignored.
+
+### Additional options
+
+Not used. Ignored.
+
+### Default behavior
+
+The Default behavior of the `windowsfeature-list` tool is to list the enable/disable state of all Windows features.
+
+## Example usage
+
 ```json
 {
     "$schema": "./devinit.schema-1.0.json",

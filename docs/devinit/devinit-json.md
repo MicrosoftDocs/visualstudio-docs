@@ -1,6 +1,7 @@
 ---
 title: devinit Configuration File
-ms.date: 8/28/200
+description: Documentation for the .devinit.json manifest file for devinit.
+ms.date: 008/28/200
 ms.topic: reference
 author: andster
 ms.author: andster
@@ -8,9 +9,9 @@ manager: jillfra
 ms.workload:
 - multiple
 ---
-# devinit Configuration File
+# devinit configuration file
 
-## File Location
+## File location
 
 The `devinit.exe init` command is driven via the `.devinit.json` file. By default, `devinit.exe` looks for the file in the following locations:
 
@@ -19,7 +20,7 @@ The `devinit.exe init` command is driven via the `.devinit.json` file. By defaul
 
 The `.devinit` file can also be specified explicitly via the `--file` option.
 
-### Directories and Relative Paths
+### Directories and relative paths
 
 Paths are relative to the location where `devinit.exe` is running. Typically the current working directory from which `devinit.exe` was executed.
 
@@ -40,14 +41,14 @@ Paths are relative to the location where `devinit.exe` is running. Typically the
 }
 ```
 
-### Property Values
+### Property values
 
 | Name         | Type   | Required | Value                             |
 |--------------|--------|----------|-----------------------------------|
 | **comments** | string | No       | Comments for the file.            |
-| **run**      | array  | Yes      | [RunTool object](#RunTool-object) |
+| **run**      | array  | Yes      | [RunTool object](#run-tool-object) |
 
-#### Run Tool object
+#### Run tool object
 
 | Name                  | Type   | Required | Value                                                                                                      |
 |-----------------------|--------|----------|------------------------------------------------------------------------------------------------------------|

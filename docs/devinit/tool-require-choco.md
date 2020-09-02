@@ -1,6 +1,7 @@
 ---
 title: require-choco
-ms.date: 8/28/200
+description: Devinit tool require-choco.
+ms.date: 08/28/200
 ms.topic: reference
 author: andster
 ms.author: andster
@@ -14,27 +15,27 @@ The `require-choco` tool can be used to install [chocolatey](https://chocolatey.
 
 ## Usage
 
-If both the `input` and `additionalOptions` properties are omitted or empty, then the tool will follow the [default](#default) behavior detailed below.
+If both the `input` and `additionalOptions` properties are omitted or empty, then the tool will follow the [default](#default-behavior) behavior detailed below.
 
 | Name                                             | Type   | Required | Value                                                                      |
 |--------------------------------------------------|--------|----------|----------------------------------------------------------------------------|
 | **comments**                                     | string | No       | Optional comments property. Not used.                                      |
 | [**input**](#input)                              | string | No       | Not used. See [Input](#input) below for details.                           |
-| [**additionalOptions**](#Additional-Options)     | string | No       | Not used. See [Additional Options](#Additional-Options) below for details. |
+| [**additionalOptions**](#additional-options)     | string | No       | Not used. See [Additional options](#additional-options) below for details. |
 
 ### Input
 
 Not used.
 
-### Additional Options
+### Additional options
 
 Not used.
 
-### Default Behavior
+### Default behavior
 
-The default behavior of the `require-choco` tool is to install chocolatey, and add it to the PATH (Windows only).
+The Default behavior of the `require-choco` tool is to install chocolatey, and add it to the PATH (Windows only).
 
-## Example Usage
+## Example usage
 
 ```json
 {

@@ -1,6 +1,7 @@
 ---
 title: devinit Commands
-ms.date: 8/28/200
+description: Details on how to use devinit commands to install components. 
+ms.date: 08/28/200
 ms.topic: reference
 author: andster
 ms.author: andster
@@ -14,7 +15,7 @@ ms.workload:
 ```batch
 > devinit init
 ```
-Initialize the environment by running the tools specified in a [`.devinit.json`](devinit-json.html) file in the current working directory.  
+Initialize the environment by running the tools specified in a [`.devinit.json`](devinit-json) file in the current working directory.  
 
 ### Options
 Optional options for the `devinit init` command.
@@ -27,7 +28,7 @@ Optional options for the `devinit init` command.
 ```batch
 > devinit run <toolname>
 ```
-Runs the specific tool, optional parameters are listed below. See [documentation](../tools/) for each tool for specific usage.
+Runs the specific tool, optional parameters are listed below. See [documentation](devinit-tool-list) for each tool for specific usage.
 
 ### Options
 Options for the `devinit run` command.

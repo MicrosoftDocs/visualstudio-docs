@@ -1,6 +1,7 @@
 ---
 title: require-gitsubmodule
-ms.date: 8/28/200
+description: Devinit tool require-gitsubmodule.
+ms.date: 08/28/200
 ms.topic: reference
 author: andster
 ms.author: andster
@@ -14,27 +15,27 @@ The `require-gitsubmodule` tool restores Git Submodules for given `.gitmodules` 
 
 ## Usage
 
-If both the `input` and `additionalOptions` properties are omitted or empty, then the tool will follow the [default](#default) behavior detailed below.
+If both the `input` and `additionalOptions` properties are omitted or empty, then the tool will follow the [default](#default-behavior) behavior detailed below.
 
 | Name                                             | Type   | Required | Value                                                                                |
 |--------------------------------------------------|--------|----------|--------------------------------------------------------------------------------------|
 | **comments**                                     | string | No       | Optional comments property. Not used.                                                |
 | [**input**](#input)                              | string | No       | `.gitmodules` file full path. See [input](#input) below for details.               |
-| [**additionalOptions**](#Additional-Options)     | string | No       | See [Additional Options](#Additional-Options) below for details.                     |
+| [**additionalOptions**](#additional-options)     | string | No       | See [Additional options](#additional-options) below for details.                     |
 
 ### Input
 
 Optional, `input` is used to get `.gitmodules` file path for restoring. If `input` is omitted, then the root directory `.gitmodules` file is used.
 
-### Additional Options
+### Additional options
 
 Not used.
 
-### Default Behavior
+### Default behavior
 
-The default behavior of the `require-gitsubmodule` tool is to restore git submodules mentioned in `.gitmodules` file.
+The Default behavior of the `require-gitsubmodule` tool is to restore git submodules mentioned in `.gitmodules` file.
 
-## Example Usage
+## Example usage
 
 ```json
 {

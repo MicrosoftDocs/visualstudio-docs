@@ -1,6 +1,7 @@
 ---
 title: require-mssql
-ms.date: 8/28/200
+description: Devinit tool require-mssql.
+ms.date: 08/28/200
 ms.topic: reference
 author: andster
 ms.author: andster
@@ -10,17 +11,17 @@ ms.workload:
 ---
 # require-mssql
 
-The `require-mssql` tool is used to install [Microsoft SQL Server 2019 Developer Edition](https://www.microsoft.com/en-us/sql-server/application-development) from via the MS SQL server ISO. The SQL server will be available on `localhost` using integrated Windows auth the SQL server will be accessible with the connection string `"Server=localhost;Integrated Security=true;"`.
+The `require-mssql` tool is used to install [Microsoft SQL Server 2019 Developer Edition](https://www.microsoft.com/sql-server/application-development) from via the MS SQL server ISO. The SQL server will be available on `localhost` using integrated Windows auth the SQL server will be accessible with the connection string `"Server=localhost;Integrated Security=true;"`.
 
 ## Usage
 
-If both the `input` and `additionalOptions` properties are omitted or empty, then the tool will follow the [default](#default) behavior detailed below.
+If both the `input` and `additionalOptions` properties are omitted or empty, then the tool will follow the [default](#default-behavior) behavior detailed below.
 
 | Name                                             | Type   | Required | Value                                                                                   |
 |--------------------------------------------------|--------|----------|-----------------------------------------------------------------------------------------|
 | **comments**                                     | string | No       | Optional comments property. Not used.                                                   |
 | [**input**](#input)                              | string | No       | See [Input](#input) below for details.                                                  |
-| [**additionalOptions**](#Additional-Options)     | string | No       | Not used. See [Additional Options](#Additional-Options) below for details.              |
+| [**additionalOptions**](#additional-options)     | string | No       | Not used. See [Additional options](#additional-options) below for details.              |
 
 ### Input
 
@@ -31,17 +32,17 @@ The `input` property can be a string with one of two values:
 | install   | Installs SQL server.                     |
 | uninstall | Uninstalls all SQL server installations. |
 
-### Additional Options
+### Additional options
 
 Not used.
 
-### Default Behavior
+### Default behavior
 
-The default behavior of the `require-mssql` tool is to install SQL server.
+The Default behavior of the `require-mssql` tool is to install SQL server.
 
 ## Builtin Options
 
-The `require-mssql` tool sets a number of installer command line arguments to ensure that the installer can run headless. These arguments are listed below and documentation on them can be found in the [SQL install documentation](https://docs.microsoft.com/en-us/sql/database-engine/install-windows/install-sql-server-from-the-command-prompt?view=sql-server-ver15).
+The `require-mssql` tool sets a number of installer command line arguments to ensure that the installer can run headless. These arguments are listed below and documentation on them can be found in the [SQL install documentation](https://docs.microsoft.com/sql/database-engine/install-windows/install-sql-server-from-the-command-prompt?view=sql-server-ver15).
 
 | Name                                                               | Description |
 |--------------------------------------------------------------------|-------------|
@@ -64,7 +65,7 @@ The `require-mssql` tool sets a number of installer command line arguments to en
 | /SQLSYSADMINACCOUNTS=Administrators                                |             |
 | /IACCEPTSQLSERVERLICENSETERMS                                      |             |
 
-## Example Usage
+## Example usage
 
 ```json
 {

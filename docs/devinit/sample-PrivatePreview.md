@@ -1,6 +1,7 @@
 ---
 title: Private Preview 
-ms.date: 8/28/200
+description: Example customizations used in the Visual Studio Codespaces for Visual Studio 2019 private preview repo.
+ms.date: 08/28/200
 ms.topic: reference
 author: andster
 ms.author: andster
@@ -8,22 +9,23 @@ manager: jillfra
 ms.workload:
 - multiple
 ---
-# Private Preview 
+# Private preview
 
-This example illustrates how to customize a [Codespace with Visual Studio 2019](https://docs.microsoft.com/en-us/visualstudio/codespaces/quickstarts/vs) to have the same features as the initial private preview.
+This example illustrates how to customize a [Codespace with Visual Studio 2019](https://docs.microsoft.com/visualstudio/codespaces/quickstarts/vs) to have the same features as the initial private preview.
 
 ## .devcontainer.json
 
-Contents of the [`.devcontainer.json`]() file in the repo root. 
+Contents of the `.devcontainer.json` file in the repo root. 
 
 ```json
 {
   "postCreateCommand": "devinit init"
 }
 ```
+
 ## .devinit.json
 
-Contents of the [`.devinit.json`]() file. This file needs to be in the same folder as [`.devcontainer.json`]().
+Contents of the [`.devinit.json`](devinit-json) file. This file needs to be in the same folder as `.devcontainer.json`.
 
 ```json
 {
