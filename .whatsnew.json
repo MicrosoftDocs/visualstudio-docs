@@ -10,7 +10,7 @@
         "additionalMicrosoftOrgs": [
             "ASP.NET"
         ],
-        "minAdditionsToFile": 30
+        "minAdditionsToFile": 10
     },
     "areas": [
         {
