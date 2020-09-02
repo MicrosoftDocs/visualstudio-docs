@@ -29,7 +29,7 @@ The `input` property is used to specify the .NET Core tool install. There is in 
 
 ### Additional options
 
-Additional configuration options can be passed in as a value of the `additionalOptions`. These arguments are a direct passthrough to the arguments used by the [`dotnet tool update`](https://docs.microsoft.com/en-us/dotnet/core/tools/global-tools#update-a-tool) command. The `dotnet tool update` is used to safely handle the case where a tool is already installed.
+Additional configuration options can be passed in as a value of the `additionalOptions`. These arguments are a direct passthrough to the arguments used by the [`dotnet tool update`](https://docs.microsoft.com/dotnet/core/tools/global-tools#update-a-tool) command. The `dotnet tool update` is used to safely handle the case where a tool is already installed.
 
 ### Default behavior
 
