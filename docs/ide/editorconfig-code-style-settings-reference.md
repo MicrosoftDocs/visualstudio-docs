@@ -1,14 +1,14 @@
 ---
 title: .NET coding convention settings For EditorConfig
-ms.date: 03/17/2020
+ms.date: 09/02/2020
 ms.topic: reference
 helpviewer_keywords:
 - coding conventions [EditorConfig]
 - EditorConfig coding conventions
 - language code style rules [EditorConfig]
 - formatting conventions [EditorConfig]
-author: TerryGLee
-ms.author: tglee
+author: mikadumont
+ms.author: midumont
 manager: jillfra
 ms.workload:
 - dotnet
