@@ -14,6 +14,8 @@
     href: faq.md
   - name: Tools
     items:
+    - name: List
+      href: devinit-tool-list.md
     - name: tool-azurecli-login
       href: tool-azurecli-login.md
     - name: tool-choco-install
@@ -66,7 +68,7 @@
       href: tool-wsl-install.md
   - name: Samples
     items:
-    - name: Summary
+    - name: List
       href: sample-readme.md
     - name: dotnet Runtime Repo
       href: sample-dotnetruntime.md

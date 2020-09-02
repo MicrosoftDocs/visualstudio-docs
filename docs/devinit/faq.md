@@ -9,7 +9,7 @@ manager: jillfra
 ms.workload:
 - multiple
 ---
-# {{ $frontmatter.title }}
+# Frequently asked questions
 
 ## Is devinit just for Codespaces for Visual Studio 2019?
 
