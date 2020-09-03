@@ -236,7 +236,7 @@ most scenarios. But there are times where more control over trace collection is
 needed (for example, trace with a larger buffer size), in which case PerfView is a great
 tool to use. Steps for manually recording performance trace using the PerfView
 tool can be found on the [Recording performance traces with
-PerfView](https://github.com/dotnet/roslyn/wiki/Recording-performance-traces-with-PerfView)
+PerfView](https://github.com/dotnet/roslyn/blob/master/docs/wiki/Recording-performance-traces-with-PerfView.md)
 page.
 
 ## Out-Of-Process Issues
