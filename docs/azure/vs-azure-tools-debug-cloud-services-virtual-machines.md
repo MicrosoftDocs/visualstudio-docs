@@ -69,7 +69,7 @@ If you enable remote debugging for a cloud service, it doesn't exhibit degraded 
 
     ![Attach Debugger](./media/vs-azure-tools-debug-cloud-services-virtual-machines/IC746719.gif)
 
-3. After the debugger attaches to an instance, debug as usual. The debugger automatically attaches to the appropriate host process for your role. Depending on what the role is, the debugger attaches to w3wp.exe, WaWorkerHost.exe, or WaIISHost.exe. To verify the process to which the debugger is attached, expand the instance node in Server Explorer. See [Azure Role Architecture](https://blogs.msdn.microsoft.com/kwill/2011/05/05/windows-azure-role-architecture/) for more information about Azure processes.
+3. After the debugger attaches to an instance, debug as usual. The debugger automatically attaches to the appropriate host process for your role. Depending on what the role is, the debugger attaches to w3wp.exe, WaWorkerHost.exe, or WaIISHost.exe. To verify the process to which the debugger is attached, expand the instance node in Server Explorer. See [Azure Role Architecture](/archive/blogs/kwill/windows-azure-role-architecture) for more information about Azure processes.
 
     ![Select code type dialog box](./media/vs-azure-tools-debug-cloud-services-virtual-machines/IC718346.png)
 
@@ -122,7 +122,7 @@ You can debug programs that run on Azure virtual machines by using Server Explor
 
     ![Select code type dialog box](./media/vs-azure-tools-debug-cloud-services-virtual-machines/IC718346.png)
 
-5. Choose the processes you want to debug on the virtual machine and then select **Attach**. For example, you might choose the w3wp.exe process if you wanted to debug a web app on the virtual machine. See [Debug One or More Processes in Visual Studio](https://msdn.microsoft.com/library/jj919165.aspx) and [Azure Role Architecture](https://blogs.msdn.microsoft.com/kwill/2011/05/05/windows-azure-role-architecture/) for more information.
+5. Choose the processes you want to debug on the virtual machine and then select **Attach**. For example, you might choose the w3wp.exe process if you wanted to debug a web app on the virtual machine. See [Debug One or More Processes in Visual Studio](../vs-2015/debugger/debug-multiple-processes.md) and [Azure Role Architecture](/archive/blogs/kwill/windows-azure-role-architecture) for more information.
 
 ## Create a web project and a virtual machine for debugging
 
@@ -161,7 +161,7 @@ Visual Studio ASP.NET projects offer an option to create a handy virtual machine
 
     ![Azure activity log](./media/vs-azure-tools-debug-cloud-services-virtual-machines/IC746721.png)
 
-6. Publish your project as outlined in [How to: Deploy a Web Project Using One-Click Publish in Visual Studio](https://msdn.microsoft.com/library/dd465337.aspx). Because you want to debug on the virtual machine, on the **Settings** page of the **Publish Web** wizard, select **Debug** as the configuration. This makes sure that code symbols are available while debugging.
+6. Publish your project as outlined in [How to: Deploy a Web Project Using One-Click Publish in Visual Studio](/previous-versions/aspnet/dd465337(v=vs.110)). Because you want to debug on the virtual machine, on the **Settings** page of the **Publish Web** wizard, select **Debug** as the configuration. This makes sure that code symbols are available while debugging.
 
     ![Publish settings](./media/vs-azure-tools-debug-cloud-services-virtual-machines/IC718349.png)
 
@@ -177,7 +177,7 @@ Visual Studio ASP.NET projects offer an option to create a handy virtual machine
 
     ![Select code type dialog box](./media/vs-azure-tools-debug-cloud-services-virtual-machines/IC718346.png)
 
-10. Choose the processes you want to debug on the virtual machine and then select **Attach**. For example, you might choose the w3wp.exe process if you wanted to debug a web app on the virtual machine. See [Debug One or More Processes in Visual Studio](https://msdn.microsoft.com/library/jj919165.aspx) for more information.
+10. Choose the processes you want to debug on the virtual machine and then select **Attach**. For example, you might choose the w3wp.exe process if you wanted to debug a web app on the virtual machine. See [Debug One or More Processes in Visual Studio](../vs-2015/debugger/debug-multiple-processes.md) for more information.
 
 ## Next steps
 

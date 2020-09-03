@@ -150,18 +150,18 @@ If you're using Azure SDK 2.5 and want to specify a custom data source, you can 
 ```
 
 ### Performance counters
-Performance counter information can help you locate system bottlenecks and fine-tune system and application performance. For more information, see [Create and use performance counters in an Azure application](https://msdn.microsoft.com/library/azure/hh411542.aspx). To capture performance counters, select the **Enable transfer of Performance Counters** check box. To increase or decrease the interval between the transfer of event logs to your storage account, change the **Transfer Period (min)** value. Select the check boxes for the performance counters that you want to track.
+Performance counter information can help you locate system bottlenecks and fine-tune system and application performance. For more information, see [Create and use performance counters in an Azure application](/previous-versions/azure/hh411542(v=azure.100)). To capture performance counters, select the **Enable transfer of Performance Counters** check box. To increase or decrease the interval between the transfer of event logs to your storage account, change the **Transfer Period (min)** value. Select the check boxes for the performance counters that you want to track.
 
 ![Performance counters](./media/vs-azure-tools-diagnostics-for-cloud-services-and-virtual-machines/IC758147.png)
 
-To track a performance counter that isn’t listed, enter the performance counter by using the suggested syntax. and then select **Add**. The operating system on the virtual machine determines which performance counters you can track. For more information about syntax, see [Specify a counter path](https://msdn.microsoft.com/library/windows/desktop/aa373193.aspx).
+To track a performance counter that isn’t listed, enter the performance counter by using the suggested syntax. and then select **Add**. The operating system on the virtual machine determines which performance counters you can track. For more information about syntax, see [Specify a counter path](/windows/win32/perfctrs/specifying-a-counter-path).
 
 ### Infrastructure logs
 Infrastructure logs have information about the Azure diagnostic infrastructure, the RemoteAccess module, and the RemoteForwarder module. To collect information about infrastructure logs, select the **Enable transfer of Infrastructure Logs** check box. To increase or decrease the interval between the transfer of infrastructure logs to your storage account, change the **Transfer Period (min)** value.
 
 ![Diagnostics infrastructure logs](./media/vs-azure-tools-diagnostics-for-cloud-services-and-virtual-machines/IC758148.png)
 
-For more information, see [Collect logging data by using Azure Diagnostics](https://msdn.microsoft.com/library/azure/gg433048.aspx).
+For more information, see [Collect logging data by using Azure Diagnostics](/previous-versions/azure/gg433048(v=azure.100)).
 
 ### Log directories
 Log directories have data collected from log directories for Internet Information Services (IIS) requests, failed requests, or folders that you choose. To capture log directories, select the **Enable transfer of Log Directories** check box. To increase or decrease the interval between the transfer of logs to your storage account, change the **Transfer Period (min)** value.
@@ -179,7 +179,7 @@ The events are captured from event sources and event manifests that you specify.
 
 ![ETW logs](./media/vs-azure-tools-diagnostics-for-cloud-services-and-virtual-machines/IC766025.png)
 
-The ETW framework is supported in ASP.NET through classes in the [System.Diagnostics.aspx](https://msdn.microsoft.com/library/system.diagnostics(v=vs.110)) namespace. The Microsoft.WindowsAzure.Diagnostics namespace, which inherits from and extends standard [System.Diagnostics.aspx](https://msdn.microsoft.com/library/system.diagnostics(v=vs.110)) classes, enables the use of [System.Diagnostics.aspx](https://msdn.microsoft.com/library/system.diagnostics(v=vs.110)) as a logging framework in the Azure environment. For more information, see [Take control of logging and tracing in Microsoft Azure](https://msdn.microsoft.com/magazine/ff714589.aspx) and [Enable diagnostics in Azure Cloud Services and virtual machines](/azure/cloud-services/cloud-services-dotnet-diagnostics).
+The ETW framework is supported in ASP.NET through classes in the [System.Diagnostics.aspx](/dotnet/api/system.diagnostics) namespace. The Microsoft.WindowsAzure.Diagnostics namespace, which inherits from and extends standard [System.Diagnostics.aspx](/dotnet/api/system.diagnostics) classes, enables the use of [System.Diagnostics.aspx](/dotnet/api/system.diagnostics) as a logging framework in the Azure environment. For more information, see [Take control of logging and tracing in Microsoft Azure](/archive/msdn-magazine/2010/june/msdn-magazine-cloud-diagnostics-take-control-of-logging-and-tracing-in-windows-azure) and [Enable diagnostics in Azure Cloud Services and virtual machines](/azure/cloud-services/cloud-services-dotnet-diagnostics).
 
 ### Crash dumps
 To capture information about when a role instance crashes, select the **Enable transfer of Crash Dumps** check box. (Because ASP.NET handles most exceptions, this is generally useful only for worker roles.) To increase or decrease the percentage of storage space devoted to the crash dumps, change the **Directory Quota (%)** value. You can change the storage container where the crash dumps are stored, and select whether you want to capture a **Full** or **Mini** dump.
@@ -188,7 +188,7 @@ The processes currently being tracked are listed in the next screenshot. Select 
 
 ![Crash dumps](./media/vs-azure-tools-diagnostics-for-cloud-services-and-virtual-machines/IC766026.png)
 
-For more information, see [Take control of logging and tracing in Microsoft Azure](https://msdn.microsoft.com/magazine/ff714589.aspx) and [Microsoft Azure Diagnostics Part 4: Custom logging components and Azure Diagnostics 1.3 changes](https://www.red-gate.com/simple-talk/cloud/platform-as-a-service/microsoft-azure-diagnostics-part-4-custom-logging-components-and-azure-diagnostics-1.3-changes/).
+For more information, see [Take control of logging and tracing in Microsoft Azure](/archive/msdn-magazine/2010/june/msdn-magazine-cloud-diagnostics-take-control-of-logging-and-tracing-in-windows-azure) and [Microsoft Azure Diagnostics Part 4: Custom logging components and Azure Diagnostics 1.3 changes](https://www.red-gate.com/simple-talk/cloud/platform-as-a-service/microsoft-azure-diagnostics-part-4-custom-logging-components-and-azure-diagnostics-1.3-changes/).
 
 ## View the diagnostics data
 After you’ve collected the diagnostics data for a cloud service or virtual machine, you can view it.
@@ -250,7 +250,7 @@ If you're investigating a problem with a cloud service that is already running, 
     If you change data collection in Server Explorer, the changes remain in effect until you fully redeploy your cloud service. If you use the default publish settings, the changes are not overwritten. The default publish setting is to update the existing deployment, rather than to do a full redeployment. To ensure that the settings clear at deployment time, go to the **Advanced Settings** tab in the Publish wizard, and then clear the **Deployment update** check box. When you redeploy with that check box cleared, the settings revert to those in the .wadcfgx (or .wadcfg) file as set through the **Properties** editor for the role. If you update your deployment, Azure keeps the earlier settings.
 
 ## Troubleshoot Azure cloud service issues
-If you experience problems with your cloud service projects, like a role that gets stuck in a "busy" status, repeatedly recycles, or throws an internal server error, there are tools and techniques that you can use to diagnose and fix the issue. For specific examples of common problems and solutions, and for an overview of the concepts and tools that you can use to diagnose and fix these errors, see [Azure PaaS compute diagnostics data](https://blogs.msdn.microsoft.com/kwill/2013/08/09/windows-azure-paas-compute-diagnostics-data/).
+If you experience problems with your cloud service projects, like a role that gets stuck in a "busy" status, repeatedly recycles, or throws an internal server error, there are tools and techniques that you can use to diagnose and fix the issue. For specific examples of common problems and solutions, and for an overview of the concepts and tools that you can use to diagnose and fix these errors, see [Azure PaaS compute diagnostics data](/archive/blogs/kwill/windows-azure-paas-compute-diagnostics-data).
 
 ## Q & A
 **What is the buffer size, and how large should it be?**

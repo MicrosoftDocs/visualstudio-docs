@@ -120,7 +120,7 @@ You can choose one or more files to upload, and you can upload files of any type
 
 If you are using Azure Diagnostics to log data from your Azure application and you have transferred logs to your storage account, you’ll see containers that Azure created for these logs. Viewing these logs in Server Explorer is an easy way to identify problems with your application, especially if it's been deployed to Azure.
 
-For more information about Azure Diagnostics, see [Collect Logging Data by Using Azure Diagnostics](https://msdn.microsoft.com/library/azure/gg433048.aspx).
+For more information about Azure Diagnostics, see [Collect Logging Data by Using Azure Diagnostics](/previous-versions/azure/gg433048(v=azure.100)).
 
 ### To get the URL for a blob
 
@@ -269,7 +269,7 @@ The new storage account appears in the **Storage** list in Solution Explorer.
 
    * The name of the existing storage account that you want to attach.
    * The key for the selected storage account. This value is typically provided for you when you select a storage account. If you want Visual Studio to remember the storage account key, select the **Remember account key** check box.
-   * The protocol to use to connect to the storage account, such as HTTP, HTTPS, or a custom endpoint. For more information about custom endpoints, see [How to Configure Connection Strings](https://msdn.microsoft.com/library/azure/ee758697.aspx).
+   * The protocol to use to connect to the storage account, such as HTTP, HTTPS, or a custom endpoint. For more information about custom endpoints, see [How to Configure Connection Strings](/previous-versions/azure/ee758697(v=azure.100)).
 
 ### To view the secondary endpoints
 
