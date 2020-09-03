@@ -10,7 +10,10 @@
         "additionalMicrosoftOrgs": [
             "ASP.NET"
         ],
-        "minAdditionsToFile": 30
+        "labels": [
+            "-label:CLA"
+        ],
+        "minAdditionsToFile": 10
     },
     "areas": [
         {
