@@ -2,9 +2,9 @@
 title: Get started with the Subscriptions Administration Portal | Visual Studio Marketplace
 author: evanwindom
 ms.author: v-evwin
-manager: lank
+manager: cabuschl
 ms.assetid: 4c099fe8-883e-4789-9468-387ce5697dfe
-ms.date: 03/03/2020
+ms.date: 09/03/2020
 ms.topic: overview
 description: Learn how to get started managing your organization's Visual Studio subscriptions with the Subscriptions Administration Portal.
 ---
@@ -12,6 +12,8 @@ description: Learn how to get started managing your organization's Visual Studio
 # Overview of the Visual Studio Subscriptions Administrator Portal
 
 The Visual Studio Subscriptions Administration Portal gives you the tools to manage your organization's subscriptions in one place. 
+
+Take a tour of the portal.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4t9aW]
 
@@ -29,15 +31,15 @@ Once you’ve assigned subscriptions, the Manage subscribers tab provides detail
 - The subscription level that has been assigned to them.
 - The date that their subscription was assigned to them.
 - The expiration date for their subscription.
-- An optional text description.
-- An indication of whether subscriber downloads has been enabled or disabled.
+- A reference field for additional notes.
+- An indication of whether subscriber downloads are enabled or disabled.
 - The country in which they are located.
 - Their language preference for the assignment communication email from the administration portal.
 - An optional field for a different email address used for communications than sign-in.
 
 On the top left side of the page there are several icons you can select to reveal a subscription assignment overview, the agreement details and the maximum usage report.
 
-To see additional information about the number of subscription licenses purchased, assigned, and still available in your organization for each agreement, select the top icon to enable the slide-out panel.
+To see additional information about the number of subscription licenses purchased, assigned, and still available in your organization for each agreement, click the top icon to enable the slide-out panel.
 > [!div class="mx-imgBorder"]
 > ![Visual Studio Subscriptions Admin Portal Subscribers Page](_img/using-admin-portal/subscribers-page.png)
 
