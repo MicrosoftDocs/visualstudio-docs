@@ -198,15 +198,6 @@
         href: code-analysis-for-managed-code-warnings.md
       - name: Code quality rules overview
         href: code-analysis-warnings-for-managed-code-by-checkid.md
-      - name: Cryptography warnings
-        items:
-        - name: Overview
-          displayName: "cryptography warnings"
-          href: cryptography-warnings.md
-        - name: "CA5350: Do Not Use Weak Cryptographic Algorithms"
-          href: ca5350.md
-        - name: "CA5351 Do Not Use Broken Cryptographic Algorithms"
-          href: ca5351.md
       - name: Design warnings
         items:
         - name: Overview
@@ -798,6 +789,10 @@
           href: ca3077.md
         - name: "CA3147: Mark verb handlers with ValidateAntiForgeryToken"
           href: ca3147.md
+        - name: "CA5350: Do Not Use Weak Cryptographic Algorithms"
+          href: ca5350.md
+        - name: "CA5351 Do Not Use Broken Cryptographic Algorithms"
+          href: ca5351.md
         - name: "CA5358: Do Not Use Unsafe Cipher Modes"
           href: ca5358.md
         - name: "CA5359: Do not disable certificate validation"
