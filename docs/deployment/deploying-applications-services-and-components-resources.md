@@ -20,9 +20,27 @@ ms.workload:
 
 By deploying an application, service, or component, you distribute it for installation on other computers, devices, servers, or in the cloud. You choose the appropriate method in Visual Studio for the type of deployment that you need.
 
-For many common app types, you can deploy your application right from Solution Explorer in Visual Studio. For a quick tour of this capability, see [First look at deployment](../deployment/deploying-applications-services-and-components.md).
+For help with deployment:
 
-![Choose a publishing option](../deployment/media/quickstart-publish-dialog.png)
+- Not sure what publishing option to choose? See [What publishing options are right for me?](#what-publishing-options-are-right-for-me?)
+- To deploy to a new target, see [Create a new publish profile](#create-a-publishing-profile)
+- For help with deployment of ASP.NET Core, see [Troubleshoot ASP.NET Core on Azure App Service and IIS](/aspnet/core/test/troubleshoot-azure-iis)
+
+## Create a new publish profile
+
+For many common app types, you can deploy your application right from Solution Explorer in Visual Studio:
+
+1. Right-click the project in Solution Explorer and choose **Publish**.
+
+   The first time you choose this option, 
+
+2. If you have previously created a publish profile, select **New** from the **Publish** window for a configured profile.
+
+   ![Create a new publish profile](../deployment/media/create-a-new-publish-profile.png)
+
+3. Choose a deployment option in the Publish window.
+
+   ![Choose a publishing option](../deployment/media/quickstart-publish-dialog.png)
 
 ## What publishing options are right for me?
 
@@ -34,6 +52,8 @@ From within Visual Studio, applications can be published directly to the followi
 - [FTP/FTPS server](#ftpftps-server)
 - [Web server(IIS)](#web-server-iis)
 - [Import profile](#import-profile)
+
+For a quick tour of more general application deployment options, see [First look at deployment](../deployment/deploying-applications-services-and-components.md).
 
 ## Azure 
 
@@ -61,7 +81,8 @@ You determine how much computing power an App Service has by choosing a [pricing
 > If you want to use Azure App Service in your own datacenter or other on-premises computers, you can do so using the [Azure Stack](https://azure.microsoft.com/overview/azure-stack/).
 
 For more information on publishing to App Service, see:
-- [Quickstart - Publish to Azure App Service](quickstart-deploy-to-azure.md) and [Quickstart - Publish ASP.NET Core to Linux](quickstart-deploy-to-linux.md).
+- [Quickstart - Publish to Azure App Service](quickstart-deploy-to-azure.md) or [Quickstart - Publish ASP.NET Core to Linux](quickstart-deploy-to-linux.md).
+- [Publish an ASP.NET Core app to Azure App Service](/aspnet/core/tutorials/publish-to-azure-webapp-using-vs)
 - [Troubleshoot ASP.NET Core on Azure App Service and IIS](/aspnet/core/test/troubleshoot-azure-iis).
 
 ### Azure Container Registry
@@ -112,7 +133,13 @@ Note that if for any reason (such as machine access) you are not able to use clo
 - You need only a local test deployment.
 - You want to examine and potentially modify the application files independently before sending them onto another deployment target.
 
-For more information, see [Quickstart - Deploy to a local folder](quickstart-deploy-to-local-folder.md)
+For more information, see [Quickstart - Deploy to a local folder](quickstart-deploy-to-local-folder.md).
+
+For additional help to choose your settings, see the following:
+
+- [Framework-dependent vs. self-contained deployment](/dotnet/core/deploying/)
+- [Target runtime identifiers (portable RID, et al)](/dotnet/core/rid-catalog)
+- [Debug and release configurations](../ide/understanding-build-configurations.md)
 
 ## FTP/FTPS server
 

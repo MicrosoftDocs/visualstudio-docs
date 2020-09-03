@@ -42,6 +42,12 @@ You can use the **Publish** tool to publish ASP.NET, ASP.NET Core, .NET Core, an
 
     ![Profile settings](../deployment/media/quickstart-profile-settings.png "Profile settings")
 
+    For additional help to choose your settings, see the following:
+
+    - [Framework-dependent vs. self-contained deployment](/dotnet/core/deploying/)
+    - [Target runtime identifiers (portable RID, et al)](/dotnet/core/rid-catalog)
+    - [Debug and release configurations](../ide/understanding-build-configurations.md)
+
 1. Configure options such as whether to deploy a Debug or Release configuration, and then select **Save**.
 
 1. To republish, select **Publish**.
@@ -51,5 +57,5 @@ Deploy the published files in any way you like. For example, you can package the
 ## Next steps
 
 - [Deploy a .NET Core Application with the Publish tool](/dotnet/core/deploying/deploy-with-vs?toc=/visualstudio/deployment/toc.json&bc=/visualstudio/deployment/_breadcrumb/toc.json)
-- [Package a desktop app for Microsoft Store (Desktop Bridge)](/windows/uwp/porting/desktop-to-uwp-packaging-dot-net?toc=/visualstudio/deployment/toc.json&bc=/visualstudio/deployment/_breadcrumb/toc.json)
+- [.NET Core application publishing (framework-dependent vs. self-contained deployment)](/dotnet/core/deploying/)
 - (.NET) [Deploy the .NET Framework and applications](/dotnet/framework/deployment/)
