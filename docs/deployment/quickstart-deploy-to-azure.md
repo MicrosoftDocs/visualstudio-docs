@@ -29,7 +29,9 @@ This article describes how to use the **Publish** tool for one-time deployment.
 
     ![The Publish command on the project context menu in Solution Explorer](../deployment/media/quickstart-publish.png "Choose Publish")
 
-1. In the **Publish** dialog, select **Azure**.
+1. If you have previously configured any publishing profiles, the **Publish** window appears. Select **New**.
+
+1. In the **Publish** window, select **Azure**.
 
     ![Choose publish target](../deployment/media/quickstart-publish-azure-new.png)
 

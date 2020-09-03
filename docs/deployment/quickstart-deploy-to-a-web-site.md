@@ -26,9 +26,9 @@ You can use the **Publish** tool to publish ASP.NET, ASP.NET Core, .NET Core, an
 
     ![The Publish command on the project context menu in Solution Explorer](../deployment/media/quickstart-publish.png "Choose Publish")
 
-1. If you have previously configured any publishing profiles, the **Publish** pane appears. Select **Create new profile**.
+1. If you have previously configured any publishing profiles, the **Publish** pane appears. Select **New**.
 
-1. In the **Publish** dialog box, choose **Web Server (IIS)**.
+1. In the **Publish** window, choose **Web Server (IIS)**.
 
     ![Choose publish target](../deployment/media/quickstart-publish-iis.png "Choose IIS, FTP, etc.")
 
@@ -41,6 +41,8 @@ You can use the **Publish** tool to publish ASP.NET, ASP.NET Core, .NET Core, an
     ![Web Deploy connection details](../deployment/media/quickstart-publish-iis-web-deploy-connection-details.png)
 
 1. To publish, select **Publish** in the summary page. The Output window shows deployment progress and results.
+
+   If you need help troubleshooting ASP.NET Core on IIS, see [Troubleshoot ASP.NET Core on Azure App Service and IIS](/aspnet/core/test/troubleshoot-azure-iis).
 
 ## Next steps
 

@@ -26,7 +26,9 @@ You can use the **Publish** tool to publish ASP.NET, ASP.NET Core, .NET Core, an
 
     ![The Publish command on the project context menu in Solution Explorer](../deployment/media/quickstart-publish.png "Choose Publish")
 
-1. In the **Publish** dialog, select **Folder**.
+1. If you have previously configured any publishing profiles, the **Publish** window appears. Select **New**.
+
+1. In the **Publish** window, select **Folder**.
 
     ![Choose folder as a publish target](../deployment/media/quickstart-publish-folder-new.png "Choose Folder")
 
@@ -40,9 +42,11 @@ You can use the **Publish** tool to publish ASP.NET, ASP.NET Core, .NET Core, an
 
 1. To configure deployment settings, select **Edit** in the publish profile summary and select the **Settings** tab.
 
+   The following illustration shows example settings for an ASP.NET Core app.
+
     ![Profile settings](../deployment/media/quickstart-profile-settings.png "Profile settings")
 
-    For additional help to choose your settings, see the following:
+    For additional help to choose settings in .NET, see the following:
 
     - [Framework-dependent vs. self-contained deployment](/dotnet/core/deploying/)
     - [Target runtime identifiers (portable RID, et al)](/dotnet/core/rid-catalog)
@@ -56,6 +60,8 @@ Deploy the published files in any way you like. For example, you can package the
 
 ## Next steps
 
+For .NET apps:
+
 - [Deploy a .NET Core Application with the Publish tool](/dotnet/core/deploying/deploy-with-vs)
 - [.NET Core application publishing (framework-dependent vs. self-contained deployments)](/dotnet/core/deploying/)
-- (.NET) [Deploy the .NET Framework and applications](/dotnet/framework/deployment/)
+- [Deploy the .NET Framework and applications](/dotnet/framework/deployment/)
