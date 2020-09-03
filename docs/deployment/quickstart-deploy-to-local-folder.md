@@ -56,6 +56,6 @@ Deploy the published files in any way you like. For example, you can package the
 
 ## Next steps
 
-- [Deploy a .NET Core Application with the Publish tool](/dotnet/core/deploying/deploy-with-vs?toc=/visualstudio/deployment/toc.json&bc=/visualstudio/deployment/_breadcrumb/toc.json)
-- [.NET Core application publishing (framework-dependent vs. self-contained deployment)](/dotnet/core/deploying/)
+- [Deploy a .NET Core Application with the Publish tool](/dotnet/core/deploying/deploy-with-vs)
+- [.NET Core application publishing (framework-dependent vs. self-contained deployments)](/dotnet/core/deploying/)
 - (.NET) [Deploy the .NET Framework and applications](/dotnet/framework/deployment/)

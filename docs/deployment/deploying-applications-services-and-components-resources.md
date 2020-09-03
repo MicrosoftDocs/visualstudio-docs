@@ -22,25 +22,13 @@ By deploying an application, service, or component, you distribute it for instal
 
 For help with deployment:
 
-- Not sure what publishing option to choose? See [What publishing options are right for me?](#what-publishing-options-are-right-for-me?)
-- To deploy to a new target, see [Create a new publish profile](#create-a-publishing-profile)
-- For help with deployment of ASP.NET Core, see [Troubleshoot ASP.NET Core on Azure App Service and IIS](/aspnet/core/test/troubleshoot-azure-iis)
-
-## Create a new publish profile
-
-For many common app types, you can deploy your application right from Solution Explorer in Visual Studio:
-
-1. Right-click the project in Solution Explorer and choose **Publish**.
-
-   The first time you choose this option, 
-
-2. If you have previously created a publish profile, select **New** from the **Publish** window for a configured profile.
+- Not sure what publishing option to choose? See [What publishing options are right for me?](#what-publishing-options-are-right-for-me)
+- To get help for deployment issues for ASP.NET Core, see [Troubleshoot ASP.NET Core on Azure App Service and IIS](/aspnet/core/test/troubleshoot-azure-iis)
+- To deploy to a new target, if you have previously created a publish profile, select **New** from the **Publish** window for a configured profile.
 
    ![Create a new publish profile](../deployment/media/create-a-new-publish-profile.png)
 
-3. Choose a deployment option in the Publish window.
-
-   ![Choose a publishing option](../deployment/media/quickstart-publish-dialog.png)
+   Then choose a deployment option in the Publish window.
 
 ## What publishing options are right for me?
 
@@ -52,6 +40,10 @@ From within Visual Studio, applications can be published directly to the followi
 - [FTP/FTPS server](#ftpftps-server)
 - [Web server(IIS)](#web-server-iis)
 - [Import profile](#import-profile)
+
+The preceding options appear when you create a new publish profile.
+
+![Choose a publishing option](../deployment/media/quickstart-publish-dialog.png)
 
 For a quick tour of more general application deployment options, see [First look at deployment](../deployment/deploying-applications-services-and-components.md).
 
