@@ -19,9 +19,9 @@ The process will be:
 
 ## New partners visiting the Visual Studio Subscriptions Administration Portal directly
 This scenario applies to new partners, who have already placed new Open License orders, but who haven’t registered on the [VLSC](https://www.microsoft.com/Licensing/servicecenter/default.aspx) and go directly to the [Visual Studio Subscriptions Administration Portal](https://manage.visualstudio.com).  Follow these steps:
-- Visit <https://manage.visualstudio.com>.
-- You receive an notification that you are not a recognized user.
-- Select the **OLP Partners** registration option and enter the authorization number, license number, customer email address used on the order, select the checkbox, and click **Submit**.
+1. Visit <https://manage.visualstudio.com>.
+1. You receive an notification that you are not a recognized user.
+1. Select the **OLP Partners** registration option and enter the authorization number, license number, customer email address used on the order, select the checkbox, and click **Submit**.
 
 > [!NOTE]
 > The customer will receive a notification email informing them that a Partner has been added to the Open License. They can choose to remove the Partner’s access.
@@ -29,11 +29,11 @@ This scenario applies to new partners, who have already placed new Open License 
 ## New partners who register on the Volume Licensing Service Center (VLSC)
 
 This applies to new partners placing new Open License orders, but who register on the [VLSC](https://www.microsoft.com/Licensing/servicecenter/default.aspx) through the add-open flow prior to attempting to access the Visual Studio [Subscriptions Administration Portal](https://manage.visualstudio.com). Partners should follow these steps:
-- Sign in to VLSC and navigate to the "Relationship Summary".
-- Select the desired Open License.
-- Next, in the "License Details" under “Visual Studio Subscriptions” select the option to manage subscriptions through the link **click here**.
-- Sign in to the admin portal using the same email address listed as a Primary Contact.
-- The Partner will then be able to manage subscriptions for that Open License.
+1. Sign in to VLSC and navigate to the "Relationship Summary".
+1. Select the desired Open License.
+1. Next, in the "License Details" under “Visual Studio Subscriptions” select the option to manage subscriptions through the link **click here**.
+1. Sign in to the admin portal using the same email address listed as a Primary Contact.
+1. The Partner will then be able to manage subscriptions for that Open License.
 
 > [!NOTE]
 > The customer will receive a notification email informing them that a Partner has been added to the Open License. They can choose to remove the Partner’s access.
@@ -46,9 +46,9 @@ This applies to partners that already have access to the [Visual Studio Subscrip
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4vkAG]
 
 Steps for partners to add a new license:
-- Sign in to <https://manage.visualstudio.com>.
-- Next to the agreement dropdown, select + Add agreement and choose and scroll to the bottom where there is an option to **New open license**.
-- In the pop-out panel, enter the authorization number, license number, customer email address that is on the agreement, select the checkbox, and then click **Submit**.
+1. Sign in to <https://manage.visualstudio.com>.
+1. Next to the agreement dropdown, select + Add agreement and choose and scroll to the bottom where there is an option to **New open license**.
+1. In the pop-out panel, enter the authorization number, license number, customer email address that is on the agreement, select the checkbox, and then click **Submit**.
 
 > [!NOTE]
 > The customer will receive a notification email informing them that a Partner has been added to the Open License. They can choose to remove the Partner’s access.
