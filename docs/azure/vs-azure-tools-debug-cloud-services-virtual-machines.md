@@ -177,7 +177,7 @@ Visual Studio ASP.NET projects offer an option to create a handy virtual machine
 
     ![Select code type dialog box](./media/vs-azure-tools-debug-cloud-services-virtual-machines/IC718346.png)
 
-10. Choose the processes you want to debug on the virtual machine and then select **Attach**. For example, you might choose the w3wp.exe process if you wanted to debug a web app on the virtual machine. See [Debug One or More Processes in Visual Studio](../vs-2015/debugger/debug-multiple-processes.md) for more information.
+10. Choose the processes you want to debug on the virtual machine and then select **Attach**. For example, you might choose the w3wp.exe process if you wanted to debug a web app on the virtual machine. See [Debug One or More Processes in Visual Studio](../debugger/debug-multiple-processes.md) for more information.
 
 ## Next steps
 
