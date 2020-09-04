@@ -46,6 +46,7 @@ The Managed Code Analysis tool provides warnings that indicate rule violations i
 |[Naming Rules](../code-quality/naming-warnings.md)|Rules that support adherence to the naming conventions of the .NET Design Guidelines.|
 |[Performance Rules](../code-quality/performance-warnings.md)|Rules that support high-performance libraries and applications.|
 |[Portability and Interoperability Rules](../code-quality/interoperability-warnings.md)|Rules that support portability across different platforms and interaction with COM clients.|
+|[Publish Rules](../code-quality/publish-warnings.md)|Rules that support appropriate publish of .NET applications.|
 |[Reliability Rules](../code-quality/reliability-warnings.md)|Rules that support library and application reliability, such as correct memory and thread usage.|
 |[Security Rules](../code-quality/security-warnings.md)|Rules that support safer libraries and applications.|
 |[Usage Rules](../code-quality/usage-warnings.md)|Rules that support appropriate usage of .NET.|
