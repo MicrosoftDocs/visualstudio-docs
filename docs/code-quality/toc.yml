@@ -190,7 +190,7 @@
           - name: "CA2240: Implement ISerializable correctly"
             href: ca2240.md
         - name: Deprecated rules
-          href: fxcop-unported-rules-which-are-deprecated.md
+          href: fxcop-unported-deprecated-rules.md
           items:
           - name: "CA1009: Declare event handlers correctly"
             href: ca1009.md

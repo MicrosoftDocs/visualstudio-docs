@@ -15,7 +15,7 @@ ms.workload:
 
 The set of FxCop legacy analysis rules that haven't been implemented as Roslyn analyzers consists of the following two buckets:
 - Rules that haven't yet been ported, but still [may be ported](fxcop-unported-rules-may-get-ported.md).
-- Rules that are deprecated and [won't be ported](fxcop-unported-rules-which-are-deprecated.md).
+- Rules that are deprecated and [won't be ported](fxcop-unported-deprecated-rules.md).
 
 ## See also
 
