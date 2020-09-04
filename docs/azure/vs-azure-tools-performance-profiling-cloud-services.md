@@ -48,7 +48,7 @@ You typically simulate a load to test cloud services under normal or stress cond
 ## Profiling a cloud service in Azure
 When you publish your cloud service from Visual Studio, you can profile the service and specify the profiling settings that give you the information that you want. A profiling session is started for each instance of a role. For more information about how to publish your service from Visual Studio, see [Publishing to an Azure Cloud Service from Visual Studio](vs-azure-tools-publishing-a-cloud-service.md).
 
-To understand more about performance profiling in Visual Studio, see [Beginners Guide to Performance Profiling](../vs-2015/profiling/beginners-guide-to-performance-profiling.md) and [Analyzing Application Performance by Using Profiling Tools](../vs-2015/profiling/performance-explorer.md).
+To understand more about performance profiling in Visual Studio, see [Beginners Guide to Performance Profiling](../profiling/beginners-guide-to-performance-profiling.md) and [Analyzing Application Performance by Using Profiling Tools](../profiling/performance-explorer.md).
 
 > [!NOTE]
 > You can enable either IntelliTrace or profiling when you publish your cloud service. You can't enable both.
