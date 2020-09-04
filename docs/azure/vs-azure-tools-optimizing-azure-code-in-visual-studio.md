@@ -103,7 +103,6 @@ See the following topics for more information.
 
 * For an overview, see [Shared Access Signature Authentication with Service Bus](/previous-versions/azure/dn170477(v=azure.100))
 * [How to use Shared Access Signature Authentication with Service Bus](/previous-versions/azure/dn205161(v=azure.100))
-* For a sample project, see [Using Shared Access Signature (SAS) authentication with Service Bus Subscriptions](https://code.msdn.microsoft.com/windowsapps/Shared-Access-Signature-0a88adf8)
 
 ## Consider using OnMessage method to avoid "receive loop"
 ### ID
