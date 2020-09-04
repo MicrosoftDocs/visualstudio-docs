@@ -120,7 +120,7 @@ You can choose one or more files to upload, and you can upload files of any type
 
 If you are using Azure Diagnostics to log data from your Azure application and you have transferred logs to your storage account, you’ll see containers that Azure created for these logs. Viewing these logs in Server Explorer is an easy way to identify problems with your application, especially if it's been deployed to Azure.
 
-For more information about Azure Diagnostics, see [Collect Logging Data by Using Azure Diagnostics](/previous-versions/azure/gg433048(v=azure.100)).
+For more information about Azure Diagnostics, see [Collect Logging Data by Using Azure Diagnostics](/azure/cloud-services/cloud-services-dotnet-diagnostics).
 
 ### To get the URL for a blob
 
