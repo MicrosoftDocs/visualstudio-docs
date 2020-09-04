@@ -35,16 +35,31 @@ Get help for your deployment task:
 
 From within Visual Studio, applications can be published directly to the following targets:
 
+::: moniker range=">=vs-2019"
 - [Azure](#azure)
 - [Docker Container Registry](#docker-container-registry)
 - [Folder](#folder)
 - [FTP/FTPS server](#ftpftps-server)
 - [Web server(IIS)](#web-server-iis)
 - [Import profile](#import-profile)
+::: moniker-end
+::: moniker range="vs-2017"
+- [App Service](#azure-app-service)
+- [App Service Linux](#azure-app-service)
+- [IIS (choose IIS, FTP, etc.)](#web-server-iis)
+- [FTP/FTPS (choose IIS, FTP, etc.)](#ftpftps-server)
+- [Folder](#folder)
+- [Import profile](#import-profile)
+::: moniker-end
 
 The preceding options appear as shown in the following illustration when you create a new publish profile.
 
+::: moniker range=">=vs-2019"
 ![Choose a publishing option](../deployment/media/quickstart-publish-dialog.png)
+::: moniker-end
+::: moniker range="vs-2017"
+![Choose a publishing option](../deployment/media/quickstart-publish-dialog-vs-2017.png)
+::: moniker-end
 
 For a quick tour of more general application deployment options, see [First look at deployment](../deployment/deploying-applications-services-and-components.md).
 
@@ -74,7 +89,8 @@ You determine how much computing power an App Service has by choosing a [pricing
 > If you want to use Azure App Service in your own datacenter or other on-premises computers, you can do so using the [Azure Stack](https://azure.microsoft.com/overview/azure-stack/).
 
 For more information on publishing to App Service, see:
-- [Quickstart - Publish to Azure App Service](quickstart-deploy-to-azure.md) or [Quickstart - Publish ASP.NET Core to Linux](quickstart-deploy-to-linux.md).
+- [Quickstart - Publish to Azure App Service](quickstart-deploy-to-azure.md)
+- [Quickstart - Publish ASP.NET Core to Linux](quickstart-deploy-to-linux.md).
 - [Publish an ASP.NET Core app to Azure App Service](/aspnet/core/tutorials/publish-to-azure-webapp-using-vs)
 - [Troubleshoot ASP.NET Core on Azure App Service and IIS](/aspnet/core/test/troubleshoot-azure-iis).
 
