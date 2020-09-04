@@ -426,7 +426,7 @@
           href: native-minimum-rules-rule-set.md
         - name: Native Recommended Rules
           href: native-recommended-rules-rule-set.md
-    - name: Code metrics
+  - name: Code metrics
     items:
     - name: Overview
       displayName: code metrics
