@@ -161,7 +161,7 @@ Infrastructure logs have information about the Azure diagnostic infrastructure, 
 
 ![Diagnostics infrastructure logs](./media/vs-azure-tools-diagnostics-for-cloud-services-and-virtual-machines/IC758148.png)
 
-For more information, see [Collect logging data by using Azure Diagnostics](/previous-versions/azure/gg433048(v=azure.100)).
+For more information, see [Collect logging data by using Azure Diagnostics](/azure/cloud-services/cloud-services-dotnet-diagnostics).
 
 ### Log directories
 Log directories have data collected from log directories for Internet Information Services (IIS) requests, failed requests, or folders that you choose. To capture log directories, select the **Enable transfer of Log Directories** check box. To increase or decrease the interval between the transfer of logs to your storage account, change the **Transfer Period (min)** value.
