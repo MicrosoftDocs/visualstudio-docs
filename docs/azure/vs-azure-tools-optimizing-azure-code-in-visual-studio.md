@@ -46,7 +46,7 @@ Please share your ideas and feedback at [Azure Code Analysis feedback](https://s
 Calling async methods inside the [Run()](/previous-versions/azure/reference/ee772746(v=azure.100)) method causes the cloud service runtime to recycle the worker role. When a worker role starts, all program execution takes place inside the [Run()](/previous-versions/azure/reference/ee772746(v=azure.100)) method. Exiting the Run method causes the worker role to restart. When the worker role runtime hits the async method, it dispatches all operations after the async method and then returns. This causes the worker role to exit from the Run method and restart. In the next iteration of execution, the worker role hits the async method again and restarts, causing the worker role to recycle again as well.
 
 ### Solution
-Place all async operations outside of the [Run()](/previous-versions/azure/reference/ee772746(v=azure.100)) method. Then, call the refactored async method from inside the [[Run()](/previous-versions/azure/reference/ee772746(v=azure.100))](https://msdn.microsoft.com/library/azure/microsoft.windowsazure.serviceruntime.roleentrypoint.run.aspx) method, such as RunAsync().wait. The Azure Code Analysis tool can help you fix this issue.
+Place all async operations outside of the [Run()](/previous-versions/azure/reference/ee772746(v=azure.100)) method. Then, call the refactored async method from inside the Run method, such as RunAsync().wait. The Azure Code Analysis tool can help you fix this issue.
 
 The following code snippet demonstrates the code fix for this issue:
 
