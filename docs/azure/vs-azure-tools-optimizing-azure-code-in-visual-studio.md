@@ -330,7 +330,7 @@ blobPermissions.SharedAccessPolicies.Add("mypolicy", new SharedAccessBlobPolicy(
 });
 ```
 
-For more information, see [Create and Use a Shared Access Signature](/previous-versions/azure/jj721951(v=azure.100)).
+For more information, see [Configure anonymous public read access for containers and blobs](/azure/storage/blobs/anonymous-read-access-configure?tabs=portal).
 
 ## Use CloudConfigurationManager
 ### ID
