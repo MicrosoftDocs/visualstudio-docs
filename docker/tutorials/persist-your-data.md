@@ -81,7 +81,7 @@ As mentioned, you're going to use a **named volume**. Think of a named volume as
     docker volume create todo-db
     ```
 
-1. Stop the todo app container once again in the Dashboard (or with `docker rm -f <id>`), as it is still running without using the persistent volume.
+1. Stop the todo app container once again in the Docker view (or with `docker rm -f <id>`), as it is still running without using the persistent volume.
 
 1. Start the todo app container, but add the `-v` flag to specify a volume mount. you will use the named volume and mount it to `/etc/todos`, which will capture all files created at the path.
 
@@ -93,7 +93,7 @@ As mentioned, you're going to use a **named volume**. Think of a named volume as
 
     ![Items added to todo list](media/items-added.png)
 
-1. Remove the container for the todo app. Use the Dashboard or `docker ps` to get the ID and then `docker rm -f <id>` to remove it.
+1. Remove the container for the todo app. Use the Docker view or `docker ps` to get the ID and then `docker rm -f <id>` to remove it.
 
 1. Start a new container using the same command from above.
 
