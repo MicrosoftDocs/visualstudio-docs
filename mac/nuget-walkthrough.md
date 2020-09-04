@@ -75,7 +75,7 @@ Check the **Show pre-release packages** checkbox at the bottom of the dialog.
 
 ![Manage NuGet Packages dialog opened with the 'Show pre-release packages' option checked](media/nuget-walkthrough-show-pre-release-packages.png)
 
-Finally, from the **Installed** tab of the dialog, select the package you wish to update and choose the new pre-release version from the **New Version** drop-down and click **Update package**.
+Finally, from the **Updates** tab of the dialog, select the package you wish to update and choose the new pre-release version from the **New Version** drop-down and click **Update Package**.
 
 ![Manage NuGet Packages dialog opened to the Installed tab, with a package selected and the New Version dropdown list open.](media/nuget-walkthrough-packages-nuget-dialog-update-installed-package.png)
 
