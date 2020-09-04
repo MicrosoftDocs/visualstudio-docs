@@ -269,7 +269,7 @@ The new storage account appears in the **Storage** list in Solution Explorer.
 
    * The name of the existing storage account that you want to attach.
    * The key for the selected storage account. This value is typically provided for you when you select a storage account. If you want Visual Studio to remember the storage account key, select the **Remember account key** check box.
-   * The protocol to use to connect to the storage account, such as HTTP, HTTPS, or a custom endpoint. For more information about custom endpoints, see [How to Configure Connection Strings](/previous-versions/azure/ee758697(v=azure.100)).
+   * The protocol to use to connect to the storage account, such as HTTP, HTTPS, or a custom endpoint. For more information about custom endpoints, see [How to Configure Connection Strings](/azure/storage/common/storage-configure-connection-string).
 
 ### To view the secondary endpoints
 
