@@ -39,7 +39,7 @@ landingContent:
             url: quickstart-deploy-to-linux.md
           - text: Publish to a web site
             url: quickstart-deploy-to-a-web-site.md
-          - text: Publish to a local folder
+          - text: Publish to a folder
             url: quickstart-deploy-to-local-folder.md
 
   # Card

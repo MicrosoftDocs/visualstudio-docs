@@ -51,9 +51,9 @@ For a quick tour of more general application deployment options, see [First look
 
 When you choose Azure, you can choose between:
 
-- Azure App Service running on Windows, Linux, or as a Docker image
+- [Azure App Service](#azure-app-service) running on Windows, Linux, or as a Docker image
 - A Docker image deployed to [Azure Container Registry](#azure-container-registry)
-- An Azure Virtual Machine
+- An [Azure Virtual Machine](#azure-virtual-machine)
 
 ![Choose an Azure service](../deployment/media/quickstart-choose-azure-service.png)
 
@@ -90,7 +90,7 @@ For more information:
 
 - [Deploy an ASP.NET container to a container registry](../containers/hosting-web-apps-in-docker.md)
 
-### Azure Virtual Machines
+### Azure Virtual Machine
 
 [Azure Virtual Machines (VMs)](https://azure.microsoft.com/documentation/services/virtual-machines/) let you create and manage any number of computing resources in the cloud. By assuming responsibility for all software and updates on the VMs, you can customize them as much as desired as required by your application. You can access the virtual machines directly through Remote Desktop, and each one will maintain its assigned IP address as long as desired.
 
