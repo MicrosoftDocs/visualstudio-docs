@@ -88,7 +88,3 @@ The following FxCop legacy analysis rules are deprecated and won't be implemente
 - [CA2230](ca2230.md)
 - [CA2233](ca2233.md)
 - [CA5122](ca5122.md)
-
-## See also
-
-- [Microsoft.CodeAnalysis.FxCopAnalyzers rules](https://github.com/dotnet/roslyn-analyzers/blob/master/src/Microsoft.CodeAnalysis.FxCopAnalyzers/Microsoft.CodeAnalysis.FxCopAnalyzers.md)
