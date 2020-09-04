@@ -35,3 +35,4 @@ The topics in this section describe the built-in rule sets and the rules (or war
 | [Mixed Recommended Rules](mixed-recommended-rules-rule-set.md) | Includes Mixed Minimum Rules plus more rules for critical problems in C++ code for CLR |
 | [Native Minimum Rules](native-minimum-rules-rule-set.md) | Includes rules for critical problems in native code |
 | [Native Recommended Rules](native-recommended-rules-rule-set.md) | Includes Native Minimum Rules plus more rules for critical problems in native code |
+| [Security Rules](security-rules-rule-set-for-managed-code.md) | Includes rules for finding security vulnerabilities |
