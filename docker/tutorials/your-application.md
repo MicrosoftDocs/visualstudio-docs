@@ -50,6 +50,8 @@ In order to build the application, you need to use a `Dockerfile`. A Dockerfile 
     docker build -t getting-started .
     ```
 
+    Alternatively, you can also right-click on the Dockerfile and choose **Build Image...** and then specify the tag at the prompt.
+
     This command used the Dockerfile to build a new container image. You might have noticed that a lot of "layers" were downloaded. This is because you instructed the builder that you wanted to start from the `node:12-alpine` image. But, since you didn't have that on your machine, that image needed to be downloaded.
 
     After the image was downloaded, you copied in your application and used `yarn` to install your application's dependencies. The `CMD` directive specifies the default command to run when starting a container from this image.

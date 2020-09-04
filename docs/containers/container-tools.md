@@ -23,6 +23,6 @@ ms.topic: include
 
 ## Additional resources
 
-* [Container development with Visual Studio](/visualstudio/containers)
+* [Container development with Visual Studio](./index.yml)
 * [Troubleshoot Visual Studio development with Docker](troubleshooting-docker-errors.md)
 * [Visual Studio Container Tools GitHub repository](https://github.com/Microsoft/DockerTools)
