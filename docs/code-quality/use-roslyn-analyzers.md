@@ -59,7 +59,7 @@ The following table shows the different severity options:
 | Error | `error` | Violations appear as *Errors* in the Error List and in command-line build output, and cause builds to fail.| Offending code is underlined with a red squiggle and marked by a small red box in the scroll bar. |
 | Warning | `warning` | Violations appear as *Warnings* in the Error List and in command-line build output, but do not cause builds to fail. | Offending code is underlined with a green squiggle and marked by a small green box in the scroll bar. |
 | Info | `suggestion` | Violations appear as *Messages* in the Error List, and not at all in command-line build output. | Offending code is underlined with a gray squiggle and marked by a small gray box in the scroll bar. |
-| Hidden | `silent` | Non-visible to user. | Non-visible to user. The diagnostic is reported to the IDE diagnostic engine, however. |
+| Hidden | `silent` | Non-visible to user. | Non-visible to user. The diagnostic is reported to the IDE diagnostic engine, however.  |
 | None | `none` | Suppressed completely. | Suppressed completely. |
 | Default | `default` | Corresponds to the default severity of the rule. To determine what the default value for a rule is, look in the Properties window. | Corresponds to the default severity of the rule. |
 
@@ -70,6 +70,12 @@ The following screenshot of the code editor shows three different violations wit
 The following screenshot shows the same three violations as they appear in the Error List:
 
 ![Error, warning, and info violation in Error List](media/diagnostics-severities-in-error-list.png)
+
+### 'Hidden' severity versus 'None' severity
+
+`Hidden` severity rules that are enabled by default are different from disabled or `None` severity rules in couple of ways.
+- If any code fix has been registered for a `Hidden` severity rule, then the fix is offered as a light bulb code refactoring action in Visual Studio, even though the hidden diagnostic is not visible to the user. This is not the case for disable `None` severity rules.
+- `Hidden` severity rules can be bulk configured by entries that [set rule severity of multiple analyzer rules at once in an EditorConfig file](#set-rule-severity-of-multiple-analyzer-rules-at-once-in-an-editorconfig-file). `None` severity rules cannot be configured this way. Instead, they must be configured through explicit `dotnet_diagnostic.<rule ID>.severity = <severity>` entries.
 
 ::: moniker range=">=vs-2019"
 
