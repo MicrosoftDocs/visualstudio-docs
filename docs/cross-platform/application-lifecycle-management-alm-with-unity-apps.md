@@ -97,10 +97,10 @@ Reference link: **[Improve code quality](../test/improve-code-quality.md)**
 |Feature|Supported with Unity|Additional Comments|
 |-------------|--------------------------|-------------------------|
 |[Analyze managed code quality](../code-quality/code-analysis-for-managed-code-overview.md)|Yes|Can analyze the C# script code within Visual Studio.|
-|[Find duplicate code by using code clone detection](https://msdn.microsoft.com/library/hh205279.aspx)|Yes|Can analyze the C# script code within Visual Studio.|
+|[Find duplicate code by using code clone detection](/previous-versions/hh205279(v=vs.140))|Yes|Can analyze the C# script code within Visual Studio.|
 |[Measure complexity and maintainability of managed code](../code-quality/code-metrics-values.md)|Yes|Can analyze the C# script code within Visual Studio.|
 |[Performance tools](../profiling/performance-explorer.md)|No|Use the [Unity Profiler](https://docs.unity3d.com/Manual/Profiler.html) (Unity website).|
-|[Analyze .NET Framework memory issues](https://msdn.microsoft.com/library/dn342825.aspx)|No|Visual Studio tools do not have hooks into the Mono framework (as used by Unity) for profiling. Use the [Unity Profiler](http://docs.unity3d.com/Manual/Profiler.html) (Unity documentation).|
+|[Analyze .NET Framework memory issues](../vs-2015/misc/analyze-dotnet-framework-memory-issues.md)|No|Visual Studio tools do not have hooks into the Mono framework (as used by Unity) for profiling. Use the [Unity Profiler](http://docs.unity3d.com/Manual/Profiler.html) (Unity documentation).|
 
 ## Release management
 

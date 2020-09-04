@@ -76,7 +76,7 @@ With Visual Studio Tools for Xamarin, you can target Android, iOS, and Windows i
 |[Intro to the Universal Windows Platform](/windows/uwp/get-started/universal-application-platform-guide)|
 |[Create your first app](/windows/uwp/get-started/your-first-app)|
 |[Develop apps for the Universal Windows Platform (UWP)](../cross-platform/develop-apps-for-the-universal-windows-platform-uwp.md)|
-|[Migrate apps to the Universal Windows Platform (UWP)](https://msdn.microsoft.com/library/mt148501.aspx)|
+|[Migrate apps to the Universal Windows Platform (UWP)](../vs-2015/misc/migrate-apps-to-the-universal-windows-platform-uwp.md)|
 
 ::: moniker range="vs-2017"
 
