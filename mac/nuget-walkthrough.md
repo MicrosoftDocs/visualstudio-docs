@@ -129,11 +129,11 @@ In Visual Studio for Mac, navigate to **Visual Studio > Preferences > NuGet > So
 
 Click **Add** to set-up a new source. Enter a friendly name and the URL (or file path) to the package source. If the source is a secure web server, enter the username and password as well, otherwise leave these entries blank:
 
-![Add Package Sources](media/nuget-walkthrough-PackageSource2.png)
+![Add Package Source dialog with a prompt for Name, location URL, user name, and password.](media/nuget-walkthrough-PackageSource2.png)
 
 Different sources can then be selected when searching for packages:
 
-![Add Package Sources](media/nuget-walkthrough-PackageSource3.png)
+![Add Package Source dialog showing a drop down with a list of package sources.](media/nuget-walkthrough-PackageSource3.png)
 
 ## Version Control
 
