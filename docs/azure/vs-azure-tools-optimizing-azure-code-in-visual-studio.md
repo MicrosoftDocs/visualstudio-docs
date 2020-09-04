@@ -347,7 +347,7 @@ CloudConfigurationManager reads the configuration file appropriate to the applic
 [CloudConfigurationManager](/previous-versions/azure/)
 
 ### Solution
-Refactor your code to use the [CloudConfigurationManager Class](/previous-versions/azure/). A code fix for this issue is provided by the Azure Code Analysis tool.
+Refactor your code to use the [CloudConfigurationManager Class](/previous-versions/azure/reference/mt634650(v=azure.100)). A code fix for this issue is provided by the Azure Code Analysis tool.
 
 The following code snippet demonstrates the code fix for this issue. Replace
 
