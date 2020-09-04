@@ -23,7 +23,8 @@ By deploying an application, service, or component, you distribute it for instal
 Get help for your deployment task:
 
 - Not sure what deployment option to choose? See [What publishing options are right for me?](#what-publishing-options-are-right-for-me)
-- For help with deployment issues for ASP.NET Core, see [Troubleshoot ASP.NET Core on Azure App Service and IIS](/aspnet/core/test/troubleshoot-azure-iis)
+- For help with deployment issues for Azure App Service or IIS, see [Troubleshoot ASP.NET Core on Azure App Service and IIS](/aspnet/core/test/troubleshoot-azure-iis).
+- For help to configure .NET deployment settings, see [Configure .NET deployment settings](#configure-net-deployment-settings).
 - To deploy to a new target, if you have previously created a publish profile, select **New** from the **Publish** window for a configured profile.
 
    ![Create a new publish profile](../deployment/media/create-a-new-publish-profile.png)
@@ -199,6 +200,14 @@ For more information, see the following:
 
 - [Import publish settings and deploy to IIS](tutorial-import-publish-settings-iis.md)
 - [Import publish settings and deploy to Azure](tutorial-import-publish-settings-azure.md)
+
+## Configure .NET deployment settings
+
+For additional help to choose your settings, see the following:
+
+- [Framework-dependent vs. self-contained deployment](/dotnet/core/deploying/)
+- [Target runtime identifiers (portable RID, et al)](/dotnet/core/rid-catalog)
+- [Debug and release configurations](../ide/understanding-build-configurations.md)
 
 ## Next steps
 
