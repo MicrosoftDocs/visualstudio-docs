@@ -102,7 +102,7 @@ BrokeredMessage receivedMessage = sc.Receive();
 See the following topics for more information.
 
 * For an overview, see [Shared Access Signature Authentication with Service Bus](/azure/service-bus-messaging/service-bus-sas)
-* [How to use Shared Access Signature Authentication with Service Bus](/previous-versions/azure/dn205161(v=azure.100))
+* [How to use Shared Access Signature Authentication with Service Bus](/azure/service-bus-messaging/service-bus-sas)
 
 ## Consider using OnMessage method to avoid "receive loop"
 ### ID
