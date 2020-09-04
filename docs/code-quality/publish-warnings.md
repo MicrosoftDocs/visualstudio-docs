@@ -28,4 +28,4 @@ Publish warnings for .NET.
 
 ## See also
 
-[Code quality rules overview](code-analysis-warnings-for-managed-code-by-checkid.md)
+- [Code quality rules overview](code-analysis-warnings-for-managed-code-by-checkid.md)

@@ -21,4 +21,4 @@ The set of FxCop legacy analysis rules that haven't been implemented as Roslyn a
 
 ## See also
 
-[Ported rules](fxcop-rule-port-status.md)
+- [Ported rules](fxcop-rule-port-status.md)
