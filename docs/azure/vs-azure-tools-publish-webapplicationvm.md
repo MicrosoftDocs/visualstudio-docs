@@ -47,7 +47,7 @@ The name of the Azure subscription in which you want to create the virtual machi
 | Accept wildcard characters? |false |
 
 ### WebDeployPackage
-The path to the web deployment package to publish to the virtual machine. You can create this package by using the Publish Web wizard in Visual Studio. See [How to: Create a Web Deployment Package in Visual Studio](https://msdn.microsoft.com/library/dd465323.aspx).
+The path to the web deployment package to publish to the virtual machine. You can create this package by using the Publish Web wizard in Visual Studio. See [How to: Create a Web Deployment Package in Visual Studio](/previous-versions/aspnet/dd465323(v=vs.110)).
 
 | Aliases | none |
 | --- | --- |
