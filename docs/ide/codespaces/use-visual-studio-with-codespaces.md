@@ -1,5 +1,5 @@
 ---
-title: Visual Studio with GitHub Codespaces (Preview)
+title: Visual Studio with a codespace (Preview)
 description: Learn which Visual Studio IDE features work when you're connected to a codespace.
 ms.topic: how-to
 ms.date: 09/21/2020
@@ -13,11 +13,11 @@ ms.workload:
 monikerRange: vs-2019
 ---
 
-# How to use Visual Studio with GitHub Codespaces (Preview)
+# How to use Visual Studio with a codespace (Preview)
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
 ## See also
 
 - [What is GitHub Codespaces? (Preview)](codespaces-overview.md)
-- [How to: Customize GitHub Codespaces (Preview)](customize-codespaces.md)
+- [How to: Customize a codespace (Preview)](customize-codespaces.md)
