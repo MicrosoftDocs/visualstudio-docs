@@ -96,7 +96,7 @@ A profiling session is created for each instance of a role in your cloud service
 3. To view profiling reports for an instance, choose the role in the service, open the shortcut menu for a specific instance, and then choose **View Profiling Report**.
 
     The report, a .vsp file, is now downloaded from Azure, and the status of the download appears in the  Azure Activity Log. When the download completes, the profiling report appears in a tab in the editor for Visual Studio named <Role name\>*<Instance Number\>*<identifier\>.vsp. Summary data for the report appears.
-4. To display different views of the report, in the Current View list, choose the type of view that you want. For more information, see [Profiling Tools Report Views](../vs-2015/profiling/performance-report-views.md).
+4. To display different views of the report, in the Current View list, choose the type of view that you want. For more information, see [Profiling Tools Report Views](../profiling/performance-report-views.md).
 
 ## Next steps
 [Debugging Cloud Services](vs-azure-tools-debug-cloud-services-virtual-machines.md)
