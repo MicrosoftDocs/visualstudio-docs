@@ -14,7 +14,7 @@ ms.author: ghogen
 You can configure an Azure cloud service project, depending on your requirements for that project. You can set properties for the project for the following categories:
 
 - **Publish a cloud service to Azure** - You can set a property to make sure that an existing cloud service deployed to Azure is not accidentally deleted.
-- **Run or debug a cloud service on the local computer** - You can select a service configuration to use and indicate whether you want to start the Azure storage emulator.
+- **Run or debug a cloud service on the local computer** - You can select a service configuration to use and indicate whether you want to start the Azure Storage Emulator.
 - **Validate a cloud service package when it is created** - You can decide to treat any warnings as errors so that you can ensure that the cloud service package deploys without any issues.
 
 ## Steps to configure an Azure cloud service project
@@ -30,7 +30,7 @@ You can configure an Azure cloud service project, depending on your requirements
 
 1. Select the desired **Service configuration** to indicate which service configuration you want to use when you run or debug your cloud service locally. For more information on how to modify a service configuration for a role, see [How to configure the roles for an Azure cloud service with Visual Studio](./vs-azure-tools-configure-roles-for-cloud-service.md).
 
-1. Set **Start Azure storage emulator** to **True** to start the Azure storage emulator when you run or debug your cloud service locally.
+1. Set **Start Azure Storage Emulator** to **True** to start the Azure Storage Emulator when you run or debug your cloud service locally.
 
 1. Set **Treat warnings as errors** to **True** to make sure you cannot publish if there are package validation errors.
 

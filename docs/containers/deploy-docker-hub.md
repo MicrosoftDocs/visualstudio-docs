@@ -51,4 +51,4 @@ Set up continuous integration and delivery (CI/CD) with [Azure Pipelines](/azure
 ## See also
 
 [Deploy to Azure App Service](deploy-app-service.md)
-[Visual Studio Container Tools](/visualstudio/containers/).
+[Visual Studio Container Tools](./index.yml).
