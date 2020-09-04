@@ -150,7 +150,7 @@ If you're using Azure SDK 2.5 and want to specify a custom data source, you can 
 ```
 
 ### Performance counters
-Performance counter information can help you locate system bottlenecks and fine-tune system and application performance. For more information, see [Create and use performance counters in an Azure application](/previous-versions/azure/hh411542(v=azure.100)). To capture performance counters, select the **Enable transfer of Performance Counters** check box. To increase or decrease the interval between the transfer of event logs to your storage account, change the **Transfer Period (min)** value. Select the check boxes for the performance counters that you want to track.
+Performance counter information can help you locate system bottlenecks and fine-tune system and application performance. For more information, see [Create and use performance counters in an Azure application](/azure/cloud-services/diagnostics-performance-counters). To capture performance counters, select the **Enable transfer of Performance Counters** check box. To increase or decrease the interval between the transfer of event logs to your storage account, change the **Transfer Period (min)** value. Select the check boxes for the performance counters that you want to track.
 
 ![Performance counters](./media/vs-azure-tools-diagnostics-for-cloud-services-and-virtual-machines/IC758147.png)
 
