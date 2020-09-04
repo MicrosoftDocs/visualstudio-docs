@@ -95,7 +95,7 @@
         href: fxcop-unported-rules.md
         items:
         - name: Unported rules that may be ported
-        - href: fxcop-unported-rules-may-get-ported.md
+          href: fxcop-unported-rules-may-get-ported.md
           items:
           - name: "CA1004: Generic methods should provide type parameter"
             href: ca1004.md
@@ -190,7 +190,7 @@
           - name: "CA2240: Implement ISerializable correctly"
             href: ca2240.md
         - name: Deprecated rules
-        - href: fxcop-unported-rules-which-are-deprecated.md
+          href: fxcop-unported-rules-which-are-deprecated.md
           items:
           - name: "CA1009: Declare event handlers correctly"
             href: ca1009.md
