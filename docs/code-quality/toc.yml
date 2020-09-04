@@ -191,7 +191,6 @@
       items:
       - name: Overview
         href: code-analysis-for-managed-code-warnings.md
-      - name: Code quality analysis rules
         items:
         - name: Overview
           href: code-analysis-warnings-for-managed-code-by-checkid.md

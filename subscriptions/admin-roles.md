@@ -1,10 +1,10 @@
 ---
 title:  Super admin and administrator roles in the Administration Portal
 author: evanwindom
-ms.author: lank
-manager: lank
+ms.author: v-evwin
+manager: cabuschl
 ms.assetid: 6601c395-f778-48c1-ab76-cf454b9193e4
-ms.date: 04/07/2020
+ms.date: 09/03/2020
 ms.topic: conceptual
 description: Learn about the super admin and administrator roles, and how to assign administrators. 
 ---
@@ -17,23 +17,24 @@ There are two different roles in the new Visual Studio Subscriptions Administrat
 
 **Administrators:** An administrator can only be assigned by a super admin. An administrator can only manage subscribers in the agreements that the super admin assigns to them.
 
+Watch a demonstration about how to manage administrators. 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4th6L]
 
 ## Assigning administrators
 To assign new administrators (admins):
 1. Sign in to https://manage.visualstudio.com using an email address that's assigned as a super admin on the agreement through which the subscriptions were purchased.
-2. Select the tab labeled **Manage Administrators**.
-3. Select **Add**.
+2. Click on the tab labeled **Manage Administrators**.
+3. Click **Add**.
    > [!div class="mx-imgBorder"]
-   > ![Add administrators](_img/admin-roles/add-admins.png "Select the Manage Administrators blade, then select Add to assign new administrators.")
+   > ![Add administrators](_img/admin-roles/add-admins.png "Click the Manage Administrators blade, then click Add to assign new administrators.")
 4. Complete the form with the new admin's information.  
    > [!div class="mx-imgBorder"]
-   > ![Add administrator form](_img/admin-roles/add-form.png "Enter the sign-in information for the new admin, and choose whether to make them a super admin.  Then select Add.")
+   > ![Add administrator form](_img/admin-roles/add-form.png "Enter the sign-in information for the new admin, and choose whether to make them a super admin.  Then click Add.")
 
    > [!NOTE]
    > If you want this admin to be able to assign additional admins, remember to check the **Super Admin** box.
 
-5. After you select **Add** to assign the new admin, they will receive an email inviting them to sign in to the portal.  
+5. After you click **Add** to assign the new admin, they will receive an email inviting them to sign in to the portal.  
 
 ## Resources
 - [Visual Studio Administration and Subscriptions Support](https://visualstudio.microsoft.com/support/support-overview-vs)
