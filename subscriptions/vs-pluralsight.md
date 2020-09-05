@@ -22,6 +22,7 @@ The table below details what Pluralsight subscription benefits are available to 
    > [!div class="mx-imgBorder"]
    > ![Pluralsight Benefit Tile](_img/vs-pluralsight/vs-pluralsight-tile.png "Click Activate to claim your benefit")
 
+(The tile above is an example of what a Visual Studio Enterprise subscriber will see.  If you are using a different Visual Studio subscription, the duration of your Pluralsight benefit will vary.  See the Eligibility table for details.)
 1. You'll be redirected to the Pluralsight page for the benefit that's included with your Visual Studio subscription.
    - Provide the contact information requested on the form
    - Click the checkbox to accept the terms of use
