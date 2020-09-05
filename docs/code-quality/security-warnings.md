@@ -114,9 +114,5 @@ Security warnings support safer libraries and applications. These warnings help 
 |[CA5399: Definitely disable HttpClient certificate revocation list check](../code-quality/ca5399.md)|A revoked certificate isn't trusted anymore. It could be used by attackers passing some malicious data or stealing sensitive data in HTTPS communication.|
 |[CA5400: Ensure HttpClient certificate revocation list check is not disabled](../code-quality/ca5400.md)|A revoked certificate isn't trusted anymore. It could be used by attackers passing some malicious data or stealing sensitive data in HTTPS communication.|
 |[CA5401: Do not use CreateEncryptor with non-default IV](../code-quality/ca5401.md)|Symmetric encryption should always use a non-repeatable initialization vector to prevent dictionary attacks.|
-<<<<<<< HEAD
 |[CA5402: Use CreateEncryptor with the default IV](../code-quality/ca5402.md)|Symmetric encryption should always use a non-repeatable initialization vector to prevent dictionary attacks.|
 |[CA5403: Do not hard-code certificate](../code-quality/ca5403.md)|The `data` or `rawData` parameter of a <xref:System.Security.Cryptography.X509Certificates.X509Certificate> or <xref:System.Security.Cryptography.X509Certificates.X509Certificate2> constructor is hard-coded.|
-=======
-|[CA5402: Use CreateEncryptor with the default IV](../code-quality/ca5402.md)|Symmetric encryption should always use a non-repeatable initialization vector to prevent dictionary attacks.|
->>>>>>> 8355e84eeb... Links: Visualstudio - codequality
