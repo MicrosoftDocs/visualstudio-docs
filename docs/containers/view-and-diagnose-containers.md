@@ -104,6 +104,6 @@ Learn more about the Container Tools available in Visual Studio by reading the [
 
 ## See also
 
-[Container Development in Visual Studio](/visualstudio/containers)
+[Container Development in Visual Studio](./index.yml)
 
 [Extensions Marketplace for Visual Studio](https://marketplace.visualstudio.com/)

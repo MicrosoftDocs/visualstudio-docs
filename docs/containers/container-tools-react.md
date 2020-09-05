@@ -240,7 +240,7 @@ You can now pull the container from the registry to any host capable of running 
 
 ## Additional resources
 
-* [Container development with Visual Studio](/visualstudio/containers)
+* [Container development with Visual Studio](./index.yml)
 * [Troubleshoot Visual Studio development with Docker](troubleshooting-docker-errors.md)
 * [Visual Studio Container Tools GitHub repository](https://github.com/Microsoft/DockerTools)
 
