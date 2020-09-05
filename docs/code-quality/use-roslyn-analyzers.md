@@ -71,6 +71,13 @@ The following screenshot shows the same three violations as they appear in the E
 
 ![Error, warning, and info violation in Error List](media/diagnostics-severities-in-error-list.png)
 
+### 'Hidden' severity versus 'None' severity
+
+`Hidden` severity rules that are enabled by default are different from disabled or `None` severity rules in couple of ways.
+
+- If any code fix has been registered for a `Hidden` severity rule, then the fix is offered as a light bulb code refactoring action in Visual Studio, even though the hidden diagnostic is not visible to the user. This is not the case for disabled `None` severity rules.
+- `Hidden` severity rules can be bulk configured by entries that [set rule severity of multiple analyzer rules at once in an EditorConfig file](#set-rule-severity-of-multiple-analyzer-rules-at-once-in-an-editorconfig-file). `None` severity rules cannot be configured this way. Instead, they must be configured through entries that [set rule severity in an EditorConfig file for each rule ID](#set-rule-severity-in-an-editorconfig-file).
+
 ::: moniker range=">=vs-2019"
 
 ### Set rule severity in an EditorConfig file
