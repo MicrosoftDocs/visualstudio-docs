@@ -27,7 +27,13 @@ Non-developer products (such as SQL, Windows, SharePoint) downloaded from Visual
 Product level descriptions: Expand **Unavailable support plans**. If you see **Support plan cannot be used for support on the specified product (Code: 8)**, your support contract cannot be used for the product version you selected.
 
 > [!IMPORTANT]
-> The support incidents provided are for break-fix support.  They may not be used for assistance with coding/development issues involving Microsoft Teams, Microsoft Office, Microsoft SharePoint or Microsoft Outlook
+> The support incidents provided are for break-fix support.  They may not be used for assistance with coding/development issues involving the following products:
+> - Microsoft Teams
+> - Microsoft Office
+> - Microsoft SharePoint
+> - Microsoft Exchange
+> - Microsoft Graph
+> - Microsoft Outlook
 
 ## How to activate the benefit
 1. Go to <https://my.visualstudio.com/Benefits>, scroll down to the Support section and on the Technical Support tile click **Chat to activate**.

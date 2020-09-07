@@ -27,7 +27,7 @@ In Server Explorer, right-click the **Azure** node and select **Manage and Filte
 - Choose an active subscription and select **Edit**, which opens a dialog in which you edit an existing subscription for use in authentication.
 - Select **New** to open the **New Subscription** dialog box and provide the required details. To upload the certificate to your cloud service are noted in the dialog, sign into the Azure portal, navigate to your cloud service, select **Settings > Management Certificates**, select **Upload**, then specify the path to the `.cer` file.
 
-If you want to create a certificate yourself, you can refer to the instructions in [Create and upload a management certificate for Azure](https://msdn.microsoft.com/library/windowsazure/gg551722.aspx) and then manually upload the certificate to the [Azure portal](https://portal.azure.com/).
+If you want to create a certificate yourself, you can refer to the instructions in [Create and upload a management certificate for Azure](/azure/cloud-services/cloud-services-certs-create) and then manually upload the certificate to the [Azure portal](https://portal.azure.com/).
 
 ## Next steps
 
