@@ -41,6 +41,11 @@ When you start debugging in Visual Studio by selecting **Debug** > **Start Debug
 
 The diagnostic session ends when you stop debugging.
 
+For more information, see:
+
+- [Measure application performance by analyzing CPU usage](../profiling/beginners-guide-to-performance-profiling.md)
+- [Measure memory usage in Visual Studio](../profiling/memory-usage.md)
+
 ### The Events tab
 
 During a debugging session, the Events tab of the Diagnostic Tools window lists the diagnostic events that occur. The category prefixes *Breakpoint*, *File*, and others, let you quickly scan the list for a category, or skip the categories you don't care about.
@@ -80,6 +85,15 @@ To collect performance data without debugging, you can run the Performance Profi
 You can save the reports, and open them from the **Recently Opened Sessions** list on the Diagnostic Tools launch page.
 
 ![Screenshot of Diagnostic Tools Recently Opened Sessions list](../profiling/media/diaghubopenexistingdiagsession.png "PDHUB_OpenExistingDiagSession")
+
+For more information, see:
+
+- [Analyze CPU usage](../profiling/cpu-usage.md)
+- [Analyze memory usage for .NET code](../profiling/dotnet-alloc-tool.md)
+- [Analyze memory usage](../profiling/analyze-memory-usage.md)
+- [Analyze performance of .NET asynchronous code](../profiling/analyze-async.md)
+- [Analyze database performance](../profiling/analyze-database.md)
+- [Analyze GPU usage](../profiling/gpu-usage.md)
 
 ## Collect profiling data from the command line
 
