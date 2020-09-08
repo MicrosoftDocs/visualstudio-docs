@@ -302,7 +302,7 @@ ms.workload:
 ---
 # Code quality analysis rules by diagnostic ID
 
-The following table lists Code Analysis warnings for managed code by the diagnostic identifier of the warning.
+The following table lists code quality analysis rules by rule identifier.
 
 | CheckId | Warning | Description |
 |---------| - | - |
