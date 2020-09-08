@@ -20,12 +20,14 @@ The non-debugger Performance Profiler and the debugger-integrated Diagnostic Too
 
 To help decide which tools and results to use, consider the following:
 
-- External performance problems, like file I/O or network responsiveness issues, won't look much different in the debugger or non-debugger tools.
-- For problems caused by CPU-intensive calls, there might be considerable performance differences between release and debug builds. Check to see whether the issue exists in release builds.
-- If the problem occurs only during debug builds, you probably don't need to run the non-debugger tools. For release build problems, decide whether the debugger tools will help for further investigation.
-- Release builds provide optimizations like inlining function calls and constants, pruning unused code paths, and storing variables in ways that can't be used by the debugger. Performance numbers in the debugger-integrated tools are less accurate, because debug builds lack these optimizations.
-- The debugger itself changes performance times, as it does necessary debugger operations like intercepting exception and module load events.
-- Release build performance numbers in the Performance Profiler tools are the most precise and accurate. Debugger-integrated tool results are most useful to compare with other debugging-related measurements.
+- Debugger-integrated tool vs. non-debugger tool
+  - External performance problems, like file I/O or network responsiveness issues, won't look much different in the debugger or non-debugger tools.
+  - The debugger itself changes performance times, as it does necessary debugger operations like intercepting exception and module load events.
+  - Release build performance numbers in the Performance Profiler tools are the most precise and accurate. Debugger-integrated tool results are most useful to compare with other debugging-related measurements.
+- Debug vs. release build
+  - For problems caused by CPU-intensive calls, there might be considerable performance differences between release and debug builds. Check to see whether the issue exists in release builds.
+  - If the problem occurs only during debug builds, you probably don't need to run the non-debugger tools. For release build problems, decide whether features provided by the debugger-integrated tools will help to pinpoint the problem.
+  - Release builds provide optimizations like inlining function calls and constants, pruning unused code paths, and storing variables in ways that can't be used by the debugger. Performance numbers in the debug builds are less accurate, because debug builds lack these optimizations.
 
 ## <a name="BKMK_Quick_start__Collect_diagnostic_data"></a> Collect profiling data while debugging
 
