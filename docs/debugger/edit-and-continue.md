@@ -41,5 +41,4 @@ Edit and Continue is a time-saving feature that enables you to make changes to y
 
 ## See also
 - [Debugger Security](../debugger/debugger-security.md)
-- [Edit and Continue, Debugging, Options Dialog Box](../vs-2015/debugger/edit-and-continue.md)
 - [First look at the debugger](../debugger/debugger-feature-tour.md)
