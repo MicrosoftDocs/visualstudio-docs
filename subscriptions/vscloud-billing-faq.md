@@ -1,10 +1,10 @@
 ---
-title: Billing FAQ for Visual Studio Enterprise and Visual Studio Professional cloud subscriptions
+title: Billing FAQ for Visual Studio Visual cloud subscriptions | Microsoft Docs
 author: evanwindom
 ms.author: v-evwin
-manager: lank
+manager: cabuschl
 ms.assetid: 21e0471d-ad59-4d21-9c6f-13f7147569af
-ms.date: 03/24/2020
+ms.date: 09/08/2020
 ms.topic: conceptual
 description:  Billing questions for cloud subscriptions.
 ---
