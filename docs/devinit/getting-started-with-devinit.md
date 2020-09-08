@@ -22,9 +22,11 @@ In the future `devinit` will be available as part of Visual Studio.
 
 ## Step 2: Define your environment
 
-The most important step is to define your 'developer' environment in a [`.devinit.json` file](devinit-json.html). This file will be used by devinit to create your environment when you run `devinit init`.
+The most important step is to define your 'developer' environment in a [`.devinit.json` file](~
+/devinit/devinit-json.html). This file will be used by devinit to create your environment when you run `devinit init`.
 
-For this step, think about the instructions you'd give someone to get up and running in the repo. For example, do they need to have SQL installed? A specific version of .NET Core? etc. Then for each of those dependencies look for a corresponding `devini` tool over in the [list of tools](devinit-tool-list.md)) and add that to your repos `.devinit.json` file.
+For this step, think about the instructions you'd give someone to get up and running in the repo. For example, do they need to have SQL installed? A specific version of .NET Core? etc. Then for each of those dependencies look for a corresponding `devini` tool over in the [list of tools](~
+/devinit/devinit-tool-list.md)) and add that to your repos `.devinit.json` file.
 
 ## Step 3: Profit! 💰
 
@@ -33,4 +35,5 @@ Now all someone has to do after cloning your repo is run `devinit init`.
 > devinit init
 ```
 
-If you're using [Visual Studio Codespaces](https://visualstudio.microsoft.com/services/visual-studio-codespaces/) you can configure `devinit init` to run automatically when the Codespace is provisioned, to do that have a look at the [devinit and Codespaces documentation](devinit-and-codespaces).
+If you're using [Visual Studio Codespaces](https://visualstudio.microsoft.com/services/visual-studio-codespaces/) you can configure `devinit init` to run automatically when the Codespace is provisioned, to do that have a look at the [devinit and Codespaces documentation](~
+/devinit/devinit-and-codespaces.md).

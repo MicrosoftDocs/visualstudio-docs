@@ -9,7 +9,7 @@ manager: jillfra
 ms.workload:
 - multiple
 ---
-# Frequently asked questions
+# Frequently asked questions for devinit
 
 ## Is devinit just for Codespaces for Visual Studio 2019?
 
@@ -40,4 +40,5 @@ For those reasons `devinit` is about customizing the Windows environment you cur
 
 `devinit` is all about enabling the use of the wide ecosystem that's out there to deploy and configure the dependencies your app might have. `devinit` has an opionon on some things and might deliver those things, `devinit` is mostly about enabling other tools to be executed from a declative json file.
 
-Today, `devinit` is just getting started and our [list of tools](devinit-tool-list) is just a beginning.
+Today, `devinit` is just getting started and our [list of tools](~
+/devinit/devinit-tool-list.md) is just a beginning.
