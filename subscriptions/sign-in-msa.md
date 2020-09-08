@@ -1,10 +1,10 @@
 ---
-title: Signing in to Visual Studio Subscriptions with your Microsoft Account (MSA) | Microsoft Docs
+title: Sign in to Visual Studio Subscriptions with a  Microsoft Account | Microsoft Docs
 author: evanwindom
-ms.author: lank
-manager: lank
+ms.author: v-evwin    
+manager: cabuschl
 ms.assetid: 19038bb0-2858-49df-9624-cbf8bfbb5d39
-ms.date: 03/11/2020
+ms.date: 09/08/2020
 ms.topic: how-to
 description:  How to Sign In to Your Visual Studio Subscription with your Microsoft Account (MSA)
 ---
