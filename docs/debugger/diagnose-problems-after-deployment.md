@@ -147,7 +147,7 @@ Visual Studio 2017 and later versions do not include the *BuildInfo.config* file
  **/p:BuildSymbolStorePath=**\<*path to symbols*>
 
 ## <a name="DeployRelease"></a> Step 2: Release your app
- If you use the [Web.Deploy package](https://msdn.microsoft.com/library/dd394698.aspx) that was created by your build process to deploy your app, the build manifest is automatically renamed from "*ProjectName*.BuildInfo.config" to "BuildInfo.config" and is put in the same folder with your app's Web.config file on your web server.
+ If you use the [Web.Deploy package](/previous-versions/aspnet/dd394698(v=vs.110)) that was created by your build process to deploy your app, the build manifest is automatically renamed from "*ProjectName*.BuildInfo.config" to "BuildInfo.config" and is put in the same folder with your app's Web.config file on your web server.
 
  If you use other methods to deploy your app, make sure that the build manifest is renamed from "*ProjectName*.BuildInfo.config" to "BuildInfo.config" and is put in the same folder with your app's Web.config file on the web server.
 

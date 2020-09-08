@@ -34,4 +34,4 @@ While Edit and Continue is in the process of applying code changes, you can stop
 
 ## See also
 - [Edit and Continue](../debugger/edit-and-continue.md)
-- [Edit and Continue, Debugging, Options Dialog Box](https://msdn.microsoft.com/library/bcew296c.aspx)
+- [Edit and Continue, Debugging, Options Dialog Box](./edit-and-continue.md)
