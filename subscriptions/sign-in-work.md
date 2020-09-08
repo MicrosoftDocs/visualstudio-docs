@@ -1,10 +1,10 @@
 ---
-title: Signing in to Visual Studio Subscriptions with your work or school account | Microsoft Docs
+title: Sign in to Visual Studio Subscriptions with work or school accounts | Microsoft Docs
 author: evanwindom
-ms.author: lank
-manager: lank
+ms.author: v-evwin
+manager: cabuschl
 ms.assetid: f39a2672-c283-4755-93d3-31c7c7a032d0
-ms.date: 03/11/2020
+ms.date: 09/08/2020
 ms.topic: how-to
 description:  Learn how to sign in to your Visual Studio subscription(s) with your work or school account. 
 ---
