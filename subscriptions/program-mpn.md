@@ -1,8 +1,8 @@
 ---
-title: Visual Studio subscriptions offered to partners in the Microsoft Partner Network (MPN)
+title: Visual Studio subscriptions offered in the Microsoft Partner Network | Microsoft Docs
 author: evanwindom
-ms.author: lank
-manager: lank
+ms.author: v-evwin
+manager: cabuschl
 ms.assetid: 7f4399d8-41da-41e5-a666-acc34958b8c0
 ms.date: 03/09/2020
 ms.topic: conceptual
