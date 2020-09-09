@@ -31,7 +31,7 @@ The remainder of this article discusses general syntax for the options that refi
 
 ## Option scopes
 
-Each refining option can be configured for all rules, for a category of rules (for example, Naming or Design), or for a specific rule.
+Each refining option can be configured for all rules, for a category of rules (for example, Security or Design), or for a specific rule.
 
 ### All rules
 
