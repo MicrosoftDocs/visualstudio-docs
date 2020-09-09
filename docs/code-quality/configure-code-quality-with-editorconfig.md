@@ -156,7 +156,7 @@ To make a rule set the active rule set for analysis in .NET Framework projects:
 
 # Rule scope options for .NET code-quality analyzers
 
-Some .NET code quality analyzer rules let you refine which parts of your codebase they should be applied to. This page lists the available scope configuration options, their allowable values, and the rules to which they can be applied. To use these options, specify them in an [EditorConfig file](../ide/create-portable-custom-editor-options.md#add-an-editorconfig-file-to-a-project).
+You can specify options in an [EditorConfig file](../ide/create-portable-custom-editor-options.md#add-an-editorconfig-file-to-a-project). For example, you can specify the following options.
 
 > [!TIP]
 > To see the full list of options that are available, see this [Analyzer Configuration.md file](https://github.com/dotnet/roslyn-analyzers/blob/master/docs/Analyzer%20Configuration.md). Here's an example of how an option is documented in the *Analyzer Configuration.md* file:
