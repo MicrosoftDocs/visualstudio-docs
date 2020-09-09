@@ -79,7 +79,7 @@ For more information on publishing to App Service, see:
 
 Scaling an application that's hosted on virtual machines involves spinning up additional VMs according to demand and then deploying the necessary software. This additional level of control lets you scale differently in different global regions. For example, if your application is serving employees in a variety of regional offices, you can scale your VMs according to the number of employees in those regions, potentially reducing costs.
 
-For additional information, refer to the [detailed comparison](https://azure.microsoft.com/documentation/articles/choose-web-site-cloud-service-vm/) between Azure App Service, Azure Virtual Machines, and other Azure services that you can use as a deployment target using the Custom option in Visual Studio.
+For additional information, refer to the [detailed comparison](/azure/architecture/guide/technology-choices/compute-decision-tree) between Azure App Service, Azure Virtual Machines, and other Azure services that you can use as a deployment target using the Custom option in Visual Studio.
 
 #### When to choose Azure Virtual Machines
 
