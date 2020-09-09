@@ -94,8 +94,8 @@ The FxCop analyzer NuGet package includes predefined rule sets and EditorConfig 
 
 Each of those categories of rules has an EditorConfig or rule set file to:
 
-- enable all the rules in the category (and disable all other rules)
-- use each rule's default severity and enablement setting (and disable all other rules)
+- Enable all the rules in the category (and disable all other rules)
+- Use each rule's default severity and enabled by default setting (and disable all other rules)
 
 > [!TIP]
 > The "all rules" category has an additional EditorConfig or rule set file to disable all rules. Use this file to quickly get rid of any analyzer warnings or errors in a project.
