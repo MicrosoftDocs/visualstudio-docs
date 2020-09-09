@@ -89,7 +89,7 @@ If you have multiple entries that are applicable to a specific rule ID, the foll
 - Severity entry for an individual rule by ID takes precedence over severity entry for a category.
 - Severity entry for a category takes precedence over severity entry for all analyzer rules.
 
-Consider the following EditorConfig example, where [CA1822](https://docs.microsoft.com/visualstudio/code-quality/ca1822) has the category "Performance":
+Consider the following EditorConfig example, where [CA1822](./ca1822.md) has the category "Performance":
 
    ```ini
    [*.cs]
