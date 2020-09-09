@@ -173,7 +173,7 @@ Debugger | Just-In-Time debugger | Microsoft.VisualStudio.Component.Debugger.Jus
 
 ## Find component IDs
 
-The list of components sorted by Visual Studio product is at [Visual Studio 2017 workload and component IDs](/visualstudio/install/workload-and-component-ids?view=vs-2019). Use these component IDs for your prerequisite IDs in your manifest.
+The list of components sorted by Visual Studio product is at [Visual Studio 2017 workload and component IDs](../install/workload-and-component-ids.md?view=vs-2019). Use these component IDs for your prerequisite IDs in your manifest.
 
 If you are unsure which component contains a specific binary, download the [Component -> Binary mapping spreadsheet](https://aka.ms/vs2017componentid-binaries).
 
