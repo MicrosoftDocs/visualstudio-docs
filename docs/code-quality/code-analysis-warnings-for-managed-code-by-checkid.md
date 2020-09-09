@@ -1,6 +1,6 @@
 ---
 title: Code quality rules overview
-ms.date: 08/27/2020
+ms.date: 09/01/2020
 ms.topic: reference
 f1_keywords:
 - CA1000
@@ -254,9 +254,9 @@ manager: jillfra
 ms.workload:
 - dotnet
 ---
-# Code analysis warnings for managed code by CheckId
+# Code quality analysis rules by rule ID
 
-The following table lists Code Analysis warnings for managed code by the CheckId identifier of the warning.
+The following table lists code quality analysis rules by rule identifier.
 
 | CheckId | Warning | Description |
 |---------| - | - |
