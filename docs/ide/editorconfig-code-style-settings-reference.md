@@ -38,6 +38,14 @@ There are three supported .NET coding convention categories:
 
    Rules regarding the naming of code elements. For example, you can specify that `async` methods must end in "Async".
 
+::: moniker range=">=vs-2019"
+
+## Enforce coding conventions on build
+
+Starting Visual Studio 2019 16.8 and .NET 5.0 RC2 SDK, you can [enforce the .NET coding conventions on build](/dotnet/fundamentals/productivity/code-analysis.md#code-style-analysis) for all .NET projects. .NET code style violations will appear as warnings or errors on build with an "IDE" prefix. This enables you to strictly enforce consistent code styles in your codebase at build time.
+
+::: moniker-end
+
 ## Example EditorConfig file
 
 To help you get started, here is an example *.editorconfig* file with the default options. In Visual Studio, you can generate this file and save it to a project at **Tools** > **Options** > **Text Editor** > [**C#** or  **Basic**] > **Code Style** > **General**. Then, click the **Generate .editorconfig file from settings** button. For more information, see [Code style preferences](code-styles-and-code-cleanup.md).
