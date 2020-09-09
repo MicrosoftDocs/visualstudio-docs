@@ -28,7 +28,7 @@ A: Not at all. If you only want to buy Visual Studio cloud subscriptions via Azu
 
 ## Enterprise Agreement (EA) customers
 ### Q: Can I use an Enterprise Agreement to buy Visual Studio cloud subscriptions?
-A: Yes, you can. You'll need to be an owner or contributor for an Azure subscription that was created for your EA. Please make sure that you make your
+A: Yes, you can. You'll need to be a contributor or higher role for an Azure subscription that was created for your EA. Please make sure that you make your
 purchases for Visual Studio cloud subscriptions directly in the Visual Studio Marketplace. You cannot purchase Visual Studio cloud subscriptions using a
 Purchase Order.
 
