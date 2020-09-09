@@ -105,7 +105,7 @@ Each of those categories of rules has an EditorConfig or rule set file to:
 
 ## Predefined EditorConfig files
 
-The predefined EditorConfig files for the Microsoft.CodeAnalysis.FxCopAnalyzers analyzer package are located in the *%USERPROFILE%\\.nuget\packages\microsoft.codeanalysis.fxcopanalyzers\\\<version\>\editorconfig* directory. For example, the EditorConfig file to enable all security rules is located at *%USERPROFILE%\\.nuget\packages\microsoft.codeanalysis.fxcopanalyzers\\\<version\>\editorconfig\SecurityRulesEnabled\\.editorconfig*.
+The predefined EditorConfig files for the Microsoft.CodeAnalysis.NetAnalyzers analyzer package are located in the *%USERPROFILE%\\.nuget\packages\microsoft.codeanalysis.netanalyzers\\\<version\>\editorconfig* directory. For example, the EditorConfig file to enable all security rules is located at *%USERPROFILE%\\.nuget\packages\microsoft.codeanalysis.netanalyzers\\\<version\>\editorconfig\SecurityRulesEnabled\\.editorconfig*.
 
 Copy the chosen .editorconfig file to your project's root directory.
 
