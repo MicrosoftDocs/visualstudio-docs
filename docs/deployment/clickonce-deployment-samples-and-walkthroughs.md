@@ -33,4 +33,4 @@ This section contains sample applications, example code, and step-by-step walkth
 
 ## See also
 
-- [Visual Studio walkthroughs](https://msdn.microsoft.com/library/f5399a1f-2d3d-42fb-b989-134ccda2159f)
+- [Visual Studio walkthroughs](/previous-versions/szatc41e(v=vs.110))
