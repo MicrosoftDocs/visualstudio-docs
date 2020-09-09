@@ -76,7 +76,7 @@ Analyzer packages may include predefined [EditorConfig](use-roslyn-analyzers.md#
 > [!NOTE]
 > Enabling analyzer rules and setting their severity by using an EditorConfig file is supported starting in Visual Studio 2019 version 16.3.
 
-The FxCop analyzer NuGet package includes predefined rule sets and EditorConfig files for the following rule categories:
+The NetAnalyzers NuGet package includes predefined EditorConfig files and rule sets for the following rule categories:
 
 - All rules
 - Dataflow
