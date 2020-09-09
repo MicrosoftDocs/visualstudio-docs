@@ -117,20 +117,6 @@ Copy one or more of the rule sets and paste them in the directory that contains 
 
 You can also [customize a predefined rule set](how-to-create-a-custom-rule-set.md) to your preference. For example, you can change the severity of one or more rules so that violations appear as errors or warnings in the **Error List**.
 
-### Set the active rule set
-
-The process for setting the active rule set is a little different depending on whether you have a .NET Core/.NET Standard project or a .NET Framework project.
-
-#### .NET Core
-
-To make a rule set the active rule set for analysis in .NET Core or .NET Standard projects, manually add the **CodeAnalysisRuleSet** property to your project file. For example, the following code snippet sets `HelloWorld.ruleset` as the active rule set.
-
-```xml
-<PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-  ...
-  <CodeAnalysisRuleSet>HelloWorld.ruleset</CodeAnalysisRuleSet>
-</PropertyGroup>
-```
 
 # Rule scope options for .NET code-quality analyzers
 
