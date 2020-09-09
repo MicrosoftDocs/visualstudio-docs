@@ -216,6 +216,16 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "docs/code-quality/mobility-warnings.md",
+      "redirect_url": "/visualstudio/code-quality/code-analysis-for-managed-code-warnings",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/portability-warnings.md",
+      "redirect_url": "/visualstudio/code-quality/interoperability-warnings",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/code-quality/suppress-warnings-by-using-the-suppressmessage-attribute.md",
       "redirect_url": "/visualstudio/code-quality/in-source-suppression-overview",
       "redirect_document_id": false
