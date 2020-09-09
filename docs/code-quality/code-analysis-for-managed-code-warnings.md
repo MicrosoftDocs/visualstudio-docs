@@ -17,7 +17,7 @@ ms.workload:
 - dotnet
 ---
 # .NET Code Analysis Rules
-The .NET Code Analysis tool provides diagnostics that indicate rule violations in .NET code libraries. The diagnostics are organized into rule areas such as design, localization, performance, and security. Each diagnostic signifies a violation of a .NET Code Analysis rule. This section provides in-depth discussions and examples for each .NET Code Analysis diagnostic.
+The .NET code analysis provides rules that indicate code quality violations or suggestions to improve code quality. The rules are organized into rule areas such as design, localization, performance, and security. Certain rules are specific to .NET API usage, while remaining rules are about generic code quality. This section provides in-depth discussions and examples for each rule.
 
  The following table shows the type of information that is provided for each diagnostic.
 
