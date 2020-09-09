@@ -111,7 +111,7 @@ Copy the chosen .editorconfig file to your project's root directory.
 
 ## Predefined rule sets
 
-The predefined rule set files for the Microsoft.CodeAnalysis.FxCopAnalyzers analyzer package are located in the *%USERPROFILE%\\.nuget\packages\microsoft.codeanalysis.fxcopanalyzers\\\<version\>\rulesets* directory. For example, the rule set file to enable all security rules is located at *%USERPROFILE%\\.nuget\packages\microsoft.codeanalysis.fxcopanalyzers\\\<version\>\rulesets\SecurityRulesEnabled.ruleset*.
+The predefined rule set files for the Microsoft.CodeAnalysis.NetAnalyzers analyzer package are located in the *%USERPROFILE%\\.nuget\packages\microsoft.codeanalysis.netanalyzers\\\<version\>\rulesets* directory. For example, the rule set file to enable all security rules is located at *%USERPROFILE%\\.nuget\packages\microsoft.codeanalysis.netanalyzers\\\<version\>\rulesets\SecurityRulesEnabled.ruleset*.
 
 Copy one or more of the rule sets and paste them in the directory that contains your Visual Studio project or directly into **Solution Explorer**.
 
