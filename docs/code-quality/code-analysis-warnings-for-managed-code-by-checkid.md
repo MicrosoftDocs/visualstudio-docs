@@ -300,7 +300,7 @@ manager: jillfra
 ms.workload:
 - dotnet
 ---
-# Code quality analysis rules by diagnostic ID
+# Code quality analysis rules by rule ID
 
 The following table lists code quality analysis rules by rule identifier.
 
