@@ -76,7 +76,6 @@ Represents a reference to another project. `ProjectReference` items are transfor
 |---------------|-----------------|
 |Name|Optional string. The display name of the reference.|
 |Project|Optional string. A GUID for the reference, in the form {12345678-1234-1234-1234-1234567891234}.|
-|Package|Optional string. The path of the project file that is being referenced.|
 |ReferenceOutputAssembly|Optional boolean. If set to `false`, does not include the output of the referenced project as a [Reference](#reference) of this project, but still ensures that the other project builds before this one. Defaults to `true`.|
 
 ### Compile
