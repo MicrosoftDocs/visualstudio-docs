@@ -1,8 +1,8 @@
 ---
-title: Enhance your data science skills today with the DataCamp benefit in selected Visual Studio subscriptions. | Microsoft Docs
+title: Grow data science skills with DataCamp in Visual Studio subscriptions | Microsoft Docs
 author: evanwindom
 ms.author: v-evwin
-manager: lank
+manager: cabuschl
 ms.assetid: fc33d419-78cf-485e-b558-5b7efa900f14
 ms.date: 04/17/2020
 ms.topic: how-to

@@ -21,11 +21,11 @@
 - name: Tutorials
   items:
   - name: Learn to debug C#
-    href: /visualstudio/get-started/csharp/tutorial-debugger?toc=/visualstudio/debugger/toc.json
+    href: ../get-started/csharp/tutorial-debugger.md?toc=%252fvisualstudio%252fdebugger%252ftoc.json
   - name: Learn to debug C++
     href: getting-started-with-the-debugger-cpp.md
   - name: Learn to debug Visual Basic
-    href: /visualstudio/get-started/visual-basic/tutorial-debugger?toc=/visualstudio/debugger/toc.json
+    href: ../get-started/visual-basic/tutorial-debugger.md?toc=%252fvisualstudio%252fdebugger%252ftoc.json
   - name: Running Python code in the debugger...
     href: ../python/tutorial-working-with-python-in-visual-studio-step-04-debugging.md
   - name: Debug a live Azure app
@@ -313,7 +313,7 @@
       - name: Ensure that DNS is correctly configured on the target computer
         href: error-ensure-that-dns-is-correctly-configured-on-the-target-computer.md
       - name: The Microsoft Visual Studio Remote Debugging Monitor (MSVSMON.EXE) does not appear to be running on the remote computer.
-        href: /visualstudio/debugger/error-remote-debugging-monitor-msvsmon-exe-does-not-appear-to-be-running
+        href: ./error-remote-debugging-monitor-msvsmon-exe-does-not-appear-to-be-running.md
       - name: Unable to connect to the Microsoft Visual Studio Remote Debugging Monitor
         href: unable-to-connect-to-the-microsoft-visual-studio-remote-debugging-monitor.md
       - name: Unable to initiate DCOM communication
@@ -445,7 +445,7 @@
       - name: Debug an installed app package
         href: debug-installed-app-package.md
       - name: Inspect XAML properties while debugging
-        href: inspect-xaml-properties-while-debugging.md
+        href: ../xaml-tools/inspect-xaml-properties-while-debugging.md
       - name: Write and debug running XAML code
         href: ../xaml-tools/xaml-hot-reload.md
       - name: Debug XAML in Blend
@@ -505,7 +505,7 @@
         - name: Debug WPF
           href: debugging-wpf.md
         - name: Inspect XAML properties while debugging
-          href: inspect-xaml-properties-while-debugging.md
+          href: ../xaml-tools/inspect-xaml-properties-while-debugging.md
         - name: Write and debug running XAML code
           href: ../xaml-tools/xaml-hot-reload.md
         - name: Use the WPF Tree Visualizer

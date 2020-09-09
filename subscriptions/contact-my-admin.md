@@ -1,10 +1,10 @@
 ---
-title:  Contact your subscription administrator from within the Subscriber Portal
+title:  Contact your subscription administrator in the Subscriber Portal | Microsoft Docs
 author: evanwindom
-ms.author: lank
-manager: lank
+ms.author: v-evwin
+manager: cabuschl
 ms.assetid: 64455e79-229a-42f0-9d65-c2cca8ab8513
-ms.date: 03/07/2020
+ms.date: 09/08/2020
 ms.topic: how-to
 description: Learn how to contact your subscription administrator for assistance with questions or issues. 
 ---

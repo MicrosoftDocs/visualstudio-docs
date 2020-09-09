@@ -1044,6 +1044,30 @@ Dim v = If(o IsNot Nothing, o.ToString(), Nothing)
 | **Values** | `true` - Prefer is null check over reference equality method<br /><br />`false` - Prefer reference equality method over is null check |
 | **Visual Studio default** | `true:silent` |
 
+Code examples:
+
+```csharp
+// dotnet_style_prefer_is_null_check_over_reference_equality_method = true
+if (value is null)
+    return;
+
+// dotnet_style_prefer_is_null_check_over_reference_equality_method = false
+if (object.ReferenceEquals(value, null))
+    return;
+```
+
+```vb
+' dotnet_style_prefer_is_null_check_over_reference_equality_method = true
+If value Is Nothing
+    Return
+End If
+
+' dotnet_style_prefer_is_null_check_over_reference_equality_method = false
+If Object.ReferenceEquals(value, Nothing)
+    Return
+End If
+```
+
 ## .NET code quality settings
 
 The quality rules in this section apply to both C# and Visual Basic code. They're used to configure code analyzers that are built into the Visual Studio integrated development environment (IDE). For information about configuring FxCop analyzers with an EditorConfig file, see [Configure FxCop analyzers](../code-quality/configure-fxcop-analyzers.md).
