@@ -65,4 +65,4 @@ To make a custom tool available in [!INCLUDE[vsprvs](../../code-quality/includes
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsSingleFileGenerator>
 - [Implementing Single-File Generators](../../extensibility/internals/implementing-single-file-generators.md)
 - [Exposing Types to Visual Designers](../../extensibility/internals/exposing-types-to-visual-designers.md)
-- [Introduction to the BuildManager Object](https://msdn.microsoft.com/library/50080ec2-c1c9-412c-98ef-18d7f895e7fa)
+- [Introduction to the BuildManager Object](/previous-versions/8f9kffa8(v=vs.140))
