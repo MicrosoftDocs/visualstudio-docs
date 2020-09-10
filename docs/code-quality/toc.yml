@@ -6,14 +6,14 @@
     expanded: true
     items:
     - name: Overview
-    - href: roslyn-analyzers-overview.md
+      href: roslyn-analyzers-overview.md
     - name: Configuration
       expanded: true
       items:
       - name: Code quality
         items:
         - name: Overview
-          href: code-quality-analysis-settings.md
+          href: use-roslyn-analyzers.md
         - name: Configure code quality analysis with EditorConfig
           href: configure-fxcop-analyzers.md
       - name: Configure live code analysis

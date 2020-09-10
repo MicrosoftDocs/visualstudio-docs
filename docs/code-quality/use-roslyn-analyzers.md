@@ -251,6 +251,7 @@ dotnet_diagnostic.CA2213.severity = warning
 
 dotnet_diagnostic.CA2231.severity = warning
 ```
+::: moniker-end
 
 ### Set rule severity from Solution Explorer
 
