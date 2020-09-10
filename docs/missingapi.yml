@@ -3,56 +3,56 @@ hrefUpdated: true
 references:
 - uid: EnvDTE80
   commentId: N:EnvDTE80
-  href: https://msdn.microsoft.com/library/0e105c68.aspx
+  href: /dotnet/api/envdte80
   name: EnvDTE80
   name.vb: EnvDTE80
   fullName: EnvDTE80
   fullName.vb: EnvDTE80
 - uid: EnvDTE90
   commentId: N:EnvDTE90
-  href: https://msdn.microsoft.com/library/bb513943.aspx
+  href: /dotnet/api/envdte90
   name: EnvDTE90
   name.vb: EnvDTE90
   fullName: EnvDTE90
   fullName.vb: EnvDTE90
 - uid: Microsoft.VisualStudio.Language.Intellisense.ISuggestedAction.Invoke*
   commentId: M:Microsoft.VisualStudio.Language.Intellisense.ISuggestedAction.Invoke(System.Threading.CancellationToken)
-  href: https://msdn.microsoft.com/library/microsoft.visualstudio.language.intellisense.isuggestedaction.invoke.aspx
+  href: /dotnet/api/microsoft.visualstudio.language.intellisense.isuggestedaction.invoke
   name: Invoke
   name.vb: Invoke
   fullName: ISuggestedAction.Invoke
   fullName.vb: ISuggestedAction.Invoke
 - uid: Microsoft.VisualStudio.Shell.OleMenuCommand.Text*
   commentId: P:Microsoft.VisualStudio.Shell.OleMenuCommand.Text
-  href: https://msdn.microsoft.com/library/microsoft.visualstudio.shell.olemenucommand.text.aspx
+  href: /dotnet/api/microsoft.visualstudio.shell.olemenucommand.text
   name: Text
   name.vb: Text
   fullName: OleMenuCommand.Text
   fullName.vb: OleMenuCommand.Text
 - uid: EnvDTE.vsFontCharSet
   commentId: T:EnvDTE.vsFontCharSet
-  href: https://msdn.microsoft.com/library/507syzy5.aspx
+  href: /dotnet/api/envdte.vsfontcharset
   name: vsFontCharSet
   name.vb: vsFontCharSet
   fullName: EnvDTE.vsFontCharSet
   fullName.vb: EnvDTE.vsFontCharSet
 - uid: System.Activator.CreateInstance*
   commentId: Overload:System.Activator.CreateInstance
-  href: https://msdn.microsoft.com/library/system.activator.createinstance.aspx
+  href: /dotnet/api/system.activator.createinstance
   name: CreateInstance
   name.vb: CreateInstance
   fullName: Activator.CreateInstance
   fullName.vb: Activator.CreateInstance
 - uid: Microsoft.VisualStudio.Shell.AsyncPackage.AddService*
   commentId: Overload:Microsoft.VisualStudio.Shell.AsyncPackage.AddService
-  href: https://msdn.microsoft.com/library/microsoft.visualstudio.shell.asyncpackage.addservice.aspx
+  href: /dotnet/api/microsoft.visualstudio.shell.asyncpackage.addservice
   name: AddService
   name.vb: AddService
   fullName: AsyncPackage.AddService
   fullName.vb: AsyncPackage.AddService
 - uid: Microsoft.VisualStudio.Shell.AsyncServiceProvider.GetServiceAsync*
   commentId: M:Microsoft.VisualStudio.Shell.AsyncServiceProvider.GetServiceAsync(System.Threading.Tasks.Task{System.Object})
-  href: https://msdn.microsoft.com/library/microsoft.visualstudio.shell.AsyncServiceProvider.GetServiceAsync.aspx
+  href: /dotnet/api/microsoft.visualstudio.shell.asyncserviceprovider.getserviceasync
   name: GetServiceAsync(Type)
   name.vb: GetServiceAsync(Type)
   fullName: AsyncServiceProvider.GetServiceAsync(Type)
@@ -66,294 +66,294 @@ references:
   fullName.vb: Microsoft.VisualStudio.Shell.ThreadHelper.Invoke
 - uid: Microsoft.Office.Tools.Excel.ControlCollection.AddControl*
   commentId: Overload:Microsoft.Office.Tools.Excel.ControlCollection.AddControl
-  href: https://msdn.microsoft.com/library/microsoft.office.tools.excel.controlcollection.addcontrol.aspx
+  href: /dotnet/api/microsoft.office.tools.excel.controlcollection.addcontrol
   name: AddControl
   name.vb: AddControl
   fullName: ControlCollection.AddControl
   fullName.vb: ControlCollection.AddControl
 - uid: Microsoft.Office.Tools.Excel.Worksheet.GetAutomationObject*
   commentId: Overload:Microsoft.Office.Tools.Excel.Worksheet.GetAutomationObject
-  href: https://msdn.microsoft.com/library/microsoft.office.tools.excel.worksheet.getautomationobject.aspx
+  href: /previous-versions/bb399132(v=vs.100)
   name: GetAutomationObject
   name.vb: GetAutomationObject
   fullName: Worksheet.GetAutomationObject
   fullName.vb: Worksheet.GetAutomationObject
 - uid: Microsoft.Office.Tools.Outlook.Factory.CreateFormRegionCustomAction*
   commentId: Overload:Microsoft.Office.Tools.Outlook.Factory.CreateFormRegionCustomAction
-  href: https://msdn.microsoft.com/library/microsoft.office.tools.outlook.factory.createformregioncustomaction.aspx
+  href: /dotnet/api/microsoft.office.tools.outlook.factory.createformregioncustomaction
   name: CreateFormRegionCustomAction
   name.vb: CreateFormRegionCustomAction
   fullName: Factory.CreateFormRegionCustomAction
   fullName.vb: Factory.CreateFormRegionCustomAction
 - uid: Microsoft.Office.Tools.Word.ControlCollection.AddControl*
   commentId: Overload:Microsoft.Office.Tools.Word.ControlCollection.AddControl
-  href: https://msdn.microsoft.com/library/microsoft.office.tools.word.controlcollection.addcontrol.aspx
+  href: /dotnet/api/microsoft.office.tools.word.controlcollection.addcontrol
   name: AddControl
   name.vb: AddControl
   fullName: ControlCollection.AddControl
   fullName.vb: ControlCollection.AddControl
 - uid: Microsoft.Office.Tools.Word.ControlCollection.AddContentControl*
   commentId: Overload:Microsoft.Office.Tools.Word.ControlCollection.AddContentControl
-  href: https://msdn.microsoft.com/library/microsoft.office.tools.word.controlcollection.addcontentcontrol.aspx
+  href: /dotnet/api/microsoft.office.tools.word.controlcollection.addcontentcontrol
   name: AddContentControl
   name.vb: AddContentControl
   fullName: ControlCollection.AddContentControl
   fullName.vb: ControlCollection.AddContentControl
 - uid: Microsoft.Office.Tools.Word.ControlCollection.AddGroupContentControl*
   commentId: Overload:Microsoft.Office.Tools.Word.ControlCollection.AddGroupContentControl
-  href: https://msdn.microsoft.com/library/microsoft.office.tools.word.controlcollection.addgroupcontentcontrol.aspx
+  href: /dotnet/api/microsoft.office.tools.word.controlcollection.addgroupcontentcontrol
   name: AddGroupContentControl
   name.vb: AddGroupContentControl
   fullName: ControlCollection.AddGroupContentControl
   fullName.vb: ControlCollection.AddGroupContentControl
 - uid: Microsoft.Office.Tools.Word.ControlCollection.AddRichTextContentControl*
   commentId: Overload:Microsoft.Office.Tools.Word.ControlCollection.AddRichTextContentControl
-  href: https://msdn.microsoft.com/library/microsoft.office.tools.word.controlcollection.addrichtextcontentcontrol.aspx
+  href: /dotnet/api/microsoft.office.tools.word.controlcollection.addrichtextcontentcontrol
   name: AddRichTextContentControl
   name.vb: AddRichTextContentControl
   fullName: ControlCollection.AddRichTextContentControl
   fullName.vb: ControlCollection.AddRichTextContentControl
 - uid: Microsoft.VisualStudio.SharePoint.IAnnotationDictionary.Add*
   commentId: Overload:Microsoft.VisualStudio.SharePoint.IAnnotationDictionary.Add
-  href: https://msdn.microsoft.com/library/microsoft.visualstudio.sharepoint.iannotationdictionary.add.aspx
+  href: /dotnet/api/microsoft.visualstudio.sharepoint.iannotationdictionary.add
   name: Add
   name.vb: Add
   fullName: IAnnotationDictionary.Add
   fullName.vb: IAnnotationDictionary.Add
 - uid: Microsoft.VisualStudio.SharePoint.IAnnotationDictionary.TryGetValue*
   commentId: Overload:Microsoft.VisualStudio.SharePoint.IAnnotationDictionary.TryGetValue
-  href: https://msdn.microsoft.com/library/microsoft.visualstudio.sharepoint.iannotationdictionary.trygetvalue.aspx
+  href: /dotnet/api/microsoft.visualstudio.sharepoint.iannotationdictionary.trygetvalue
   name: TryGetValue
   name.vb: TryGetValue
   fullName: IAnnotationDictionary.TryGetValue
   fullName.vb: IAnnotationDictionary.TryGetValue
 - uid: Microsoft.VisualStudio.SharePoint.IAnnotationDictionary.GetValue*
   commentId: Overload:Microsoft.VisualStudio.SharePoint.IAnnotationDictionary.GetValue
-  href: https://msdn.microsoft.com/library/microsoft.visualstudio.sharepoint.iannotationdictionary.getvalue.aspx
+  href: /dotnet/api/microsoft.visualstudio.sharepoint.iannotationdictionary.getvalue
   name: GetValue
   name.vb: GetValue
   fullName: IAnnotationDictionary.GetValue
   fullName.vb: IAnnotationDictionary.GetValue
 - uid: Microsoft.VisualStudio.SharePoint.ISharePointProjectItemCollection.Add*
   commentId: Overload:Microsoft.VisualStudio.SharePoint.ISharePointProjectItemCollection.Add
-  href: https://msdn.microsoft.com/library/microsoft.visualstudio.sharepoint.isharepointprojectitemcollection.add.aspx
+  href: /dotnet/api/microsoft.visualstudio.sharepoint.isharepointprojectitemcollection.add
   name: Add
   name.vb: Add
   fullName: ISharePointProjectItemCollection.Add
   fullName.vb: ISharePointProjectItemCollection.Add
 - uid: Microsoft.VisualStudio.SharePoint.Features.IPropertyCollection.Add*
   commentId: Overload:Microsoft.VisualStudio.SharePoint.Features.IPropertyCollection.Add
-  href: https://msdn.microsoft.com/library/microsoft.visualstudio.sharepoint.features.ipropertycollection.add.aspx
+  href: /dotnet/api/microsoft.visualstudio.sharepoint.features.ipropertycollection.add
   name: Add
   name.vb: Add
   fullName: IPropertyCollection.Add
   fullName.vb: IPropertyCollection.Add
 - uid: Microsoft.Office.Interop.Word.WdContentControlType.wdContentControlCheckBox
   commentId: F:Microsoft.Office.Interop.Word.WdContentControlType.wdContentControlCheckBox
-  href: https://msdn.microsoft.com/library/microsoft.office.interop.word.wdcontentcontroltype.aspx
+  href: /dotnet/api/microsoft.office.interop.word.wdcontentcontroltype
   name: wdContentControlCheckBox
   name.vb: wdContentControlCheckBox
   fullName: WdContentControlType.wdContentControlCheckBox
   fullName.vb: WdContentControlType.wdContentControlCheckBox
 - uid: Microsoft.Office.Interop.Word.WdHeaderFooterIndex.wdHeaderFooterPrimary
   commentId: F:Microsoft.Office.Interop.Word.WdHeaderFooterIndex.wdHeaderFooterPrimary
-  href: https://msdn.microsoft.com/library/microsoft.office.interop.word.wdheaderfooterindex.aspx
+  href: /dotnet/api/microsoft.office.interop.word.wdheaderfooterindex
   name: wdHeaderFooterPrimary
   name.vb: wdHeaderFooterPrimary
   fullName: WdHeaderFooterIndex.wdHeaderFooterPrimary
   fullName.vb: WdHeaderFooterIndex.wdHeaderFooterPrimary
 - uid: Microsoft.Office.Interop.Word.WdHeaderFooterIndex.wdHeaderFooterEvenPages
   commentId: F:Microsoft.Office.Interop.Word.WdHeaderFooterIndex.wdHeaderFooterEvenPages
-  href: https://msdn.microsoft.com/library/microsoft.office.interop.word.wdheaderfooterindex.aspx
+  href: /dotnet/api/microsoft.office.interop.word.wdheaderfooterindex
   name: wdHeaderFooterEvenPages
   name.vb: wdHeaderFooterEvenPages
   fullName: WdHeaderFooterIndex.wdHeaderFooterEvenPages
   fullName.vb: WdHeaderFooterIndex.wdHeaderFooterEvenPages
 - uid: Microsoft.Office.Interop.Word.WdHeaderFooterIndex.wdHeaderFooterFirstPage
   commentId: F:Microsoft.Office.Interop.Word.WdHeaderFooterIndex.wdHeaderFooterFirstPage
-  href: https://msdn.microsoft.com/library/microsoft.office.interop.word.wdheaderfooterindex.aspx
+  href: /dotnet/api/microsoft.office.interop.word.wdheaderfooterindex
   name: wdHeaderFooterFirstPage
   name.vb: wdHeaderFooterFirstPage
   fullName: WdHeaderFooterIndex.wdHeaderFooterFirstPage
   fullName.vb: WdHeaderFooterIndex.wdHeaderFooterFirstPage
 - uid: Microsoft.Office.Interop.Word.WdReplace.wdReplaceNone
   commentId: F:Microsoft.Office.Interop.Word.WdReplace.wdReplaceNone
-  href: https://msdn.microsoft.com/library/microsoft.office.interop.word.wdreplace.aspx
+  href: /dotnet/api/microsoft.office.interop.word.wdreplace
   name: wdReplaceNone
   name.vb: wdReplaceNone
   fullName: WdReplace.wdReplaceNone
   fullName.vb: WdReplace.wdReplaceNone
 - uid: Microsoft.Office.Interop.Word.WdReplace.wdReplaceOne
   commentId: F:Microsoft.Office.Interop.Word.WdReplace.wdReplaceOne
-  href: https://msdn.microsoft.com/library/microsoft.office.interop.word.wdreplace.aspx
+  href: /dotnet/api/microsoft.office.interop.word.wdreplace
   name: wdReplaceOne
   name.vb: wdReplaceOne
   fullName: WdReplace.wdReplaceOne
   fullName.vb: WdReplace.wdReplaceOne
 - uid: Microsoft.Office.Interop.Word.WdReplace.wdReplaceAll
   commentId: F:Microsoft.Office.Interop.Word.WdReplace.wdReplaceAll
-  href: https://msdn.microsoft.com/library/microsoft.office.interop.word.wdreplace.aspx
+  href: /dotnet/api/microsoft.office.interop.word.wdreplace
   name: wdReplaceAll
   name.vb: wdReplaceAll
   fullName: WdReplace.wdReplaceAll
   fullName.vb: WdReplace.wdReplaceAll
 - uid: Microsoft.Office.Interop.Excel.XlPlacement.xlFreeFloating
   commentId: F:Microsoft.Office.Interop.Excel.XlPlacement.xlFreeFloating
-  href: https://msdn.microsoft.com/library/microsoft.office.interop.excel.xlplacement.aspx
+  href: /dotnet/api/microsoft.office.interop.excel.xlplacement
   name: xlFreeFloating
   name.vb: xlFreeFloating
   fullName: XlPlacement.xlFreeFloating
   fullName.vb: XlPlacement.xlFreeFloating
 - uid: Microsoft.Office.Interop.Excel.XlPlacement.xlMove
   commentId: F:Microsoft.Office.Interop.Excel.XlPlacement.xlMove
-  href: https://msdn.microsoft.com/library/microsoft.office.interop.excel.xlplacement.aspx
+  href: /dotnet/api/microsoft.office.interop.excel.xlplacement
   name: xlMove
   name.vb: xlMove
   fullName: XlPlacement.xlMove
   fullName.vb: XlPlacement.xlMove
 - uid: Microsoft.Office.Interop.Excel.XlPlacement.xlMoveAndSize
   commentId: F:Microsoft.Office.Interop.Excel.XlPlacement.xlMoveAndSize
-  href: https://msdn.microsoft.com/library/microsoft.office.interop.excel.xlplacement.aspx
+  href: /dotnet/api/microsoft.office.interop.excel.xlplacement
   name: xlMoveAndSize
   name.vb: xlMoveAndSize
   fullName: XlPlacement.xlMoveAndSize
   fullName.vb: XlPlacement.xlMoveAndSize
 - uid: Microsoft.VisualStudio.Tools.Applications.ServerDocument.AddCustomization*
   commentId: Overload:Microsoft.VisualStudio.Tools.Applications.ServerDocument.AddCustomization
-  href: https://msdn.microsoft.com/library/microsoft.visualstudio.tools.applications.serverdocument.addcustomization.aspx
+  href: /dotnet/api/microsoft.visualstudio.tools.applications.serverdocument.addcustomization
   name: AddCustomization
   name.vb: AddCustomization
   fullName: ServerDocument.AddCustomization
   fullName.vb: ServerDocument.AddCustomization
 - uid: Microsoft.Office.Interop.Outlook.OlItemType.olTaskItem
   commentId: F:Microsoft.Office.Interop.Outlook.OlItemType.olTaskItem
-  href: https://msdn.microsoft.com/library/microsoft.office.interop.outlook.olitemtype.aspx
+  href: /dotnet/api/microsoft.office.interop.outlook.olitemtype
   name: olTaskItem
   name.vb: olTaskItem
   fullName: OlItemType.olTaskItem
   fullName.vb: OlItemType.olTaskItem
 - uid: Microsoft.Office.Tools.Word.ControlExtensions.AddButton*
   commentId: Overload:Microsoft.Office.Tools.Word.ControlExtensions.AddButton
-  href: https://msdn.microsoft.com/library/microsoft.office.tools.word.controlextensions.addbutton.aspx
+  href: /dotnet/api/microsoft.office.tools.word.controlextensions.addbutton
   name: AddButton
   name.vb: AddButton
   fullName: ControlExtensions.AddButton
   fullName.vb: ControlExtensions.AddButton
 - uid: System.Runtime.Serialization.ISerializable.GetObjectData
   commentId: M:System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-  href: https://msdn.microsoft.com/library/system.runtime.serialization.iserializable.getobjectdata.aspx
+  href: /dotnet/api/system.runtime.serialization.iserializable.getobjectdata
   name: GetObjectData
   name.vb: GetObjectData
   fullName: .ISerializable.GetObjectData
   fullName.vb: .ISerializable.GetObjectData
 - uid: Microsoft.Office.Tools.CustomTaskPaneCollection.Add*
   commentId: Overload:Microsoft.Office.Tools.CustomTaskPaneCollection.Add
-  href: https://msdn.microsoft.com/library/microsoft.office.tools.customtaskpanecollection.add.aspx
+  href: /dotnet/api/microsoft.office.tools.customtaskpanecollection.add
   name: Add
   name.vb: Add
   fullName: CustomTaskPaneCollection.Add
   fullName.vb: CustomTaskPaneCollection.Add
 - uid: Microsoft.Office.Tools.CustomTaskPane.Dispose*
   commentId: Overload:Microsoft.Office.Tools.CustomTaskPane.Dispose
-  href: https://msdn.microsoft.com/library/microsoft.office.tools.customtaskpane.dispose.aspx
+  href: /previous-versions/aa942003(v=vs.100)
   name: Dispose
   name.vb: Dispose
   fullName: CustomTaskPane.Dispose
   fullName.vb: CustomTaskPane.Dispose
 - uid: Microsoft.Office.Interop.Word.WdUnits.wdCharacter
   commentId: F:Microsoft.Office.Interop.Word.WdUnits.wdCharacter
-  href: https://msdn.microsoft.com/library/microsoft.office.interop.word.wdunits.aspx
+  href: /dotnet/api/microsoft.office.interop.word.wdunits
   name: wdCharacter
   name.vb: wdCharacter
   fullName: WdUnits.wdCharacter
   fullName.vb: WdUnits.wdCharacter
 - uid: Microsoft.Office.Interop.Word.WdUnits.wdWord
   commentId: F:Microsoft.Office.Interop.Word.WdUnits.wdWord
-  href: https://msdn.microsoft.com/library/microsoft.office.interop.word.wdunits.aspx
+  href: /dotnet/api/microsoft.office.interop.word.wdunits
   name: wdWord
   name.vb: wdWord
   fullName: WdUnits.wdWord
   fullName.vb: WdUnits.wdWord
 - uid: Microsoft.Office.Interop.Word.WdUnits.wdSentence
   commentId: F:Microsoft.Office.Interop.Word.WdUnits.wdSentence
-  href: https://msdn.microsoft.com/library/microsoft.office.interop.word.wdunits.aspx
+  href: /dotnet/api/microsoft.office.interop.word.wdunits
   name: wdSentence
   name.vb: wdSentence
   fullName: WdUnits.wdSentence
   fullName.vb: WdUnits.wdSentence
 - uid: Microsoft.Office.Interop.Word.WdUnits.wdParagraph
   commentId: F:Microsoft.Office.Interop.Word.WdUnits.wdParagraph
-  href: https://msdn.microsoft.com/library/microsoft.office.interop.word.wdunits.aspx
+  href: /dotnet/api/microsoft.office.interop.word.wdunits
   name: wdParagraph
   name.vb: wdParagraph
   fullName: WdUnits.wdParagraph
   fullName.vb: WdUnits.wdParagraph
 - uid: Microsoft.Office.Interop.Word.WdUnits.wdSection
   commentId: F:Microsoft.Office.Interop.Word.WdUnits.wdSection
-  href: https://msdn.microsoft.com/library/microsoft.office.interop.word.wdunits.aspx
+  href: /dotnet/api/microsoft.office.interop.word.wdunits
   name: wdSection
   name.vb: wdSection
   fullName: WdUnits.wdSection
   fullName.vb: WdUnits.wdSection
 - uid: Microsoft.Office.Interop.Word.WdUnits.wdStory
   commentId: F:Microsoft.Office.Interop.Word.WdUnits.wdStory
-  href: https://msdn.microsoft.com/library/microsoft.office.interop.word.wdunits.aspx
+  href: /dotnet/api/microsoft.office.interop.word.wdunits
   name: wdStory
   name.vb: wdStory
   fullName: WdUnits.wdStory
   fullName.vb: WdUnits.wdStory
 - uid: Microsoft.Office.Interop.Word.WdUnits.wdCell
   commentId: F:Microsoft.Office.Interop.Word.WdUnits.wdCell
-  href: https://msdn.microsoft.com/library/microsoft.office.interop.word.wdunits.aspx
+  href: /dotnet/api/microsoft.office.interop.word.wdunits
   name: wdCell
   name.vb: wdCell
   fullName: WdUnits.wdCell
   fullName.vb: WdUnits.wdCell
 - uid: Microsoft.Office.Interop.Word.WdUnits.wdColumn
   commentId: F:Microsoft.Office.Interop.Word.WdUnits.wdColumn
-  href: https://msdn.microsoft.com/library/microsoft.office.interop.word.wdunits.aspx
+  href: /dotnet/api/microsoft.office.interop.word.wdunits
   name: wdColumn
   name.vb: wdColumn
   fullName: WdUnits.wdColumn
   fullName.vb: WdUnits.wdColumn
 - uid: Microsoft.Office.Interop.Word.WdUnits.wdRow
   commentId: F:Microsoft.Office.Interop.Word.WdUnits.wdRow
-  href: https://msdn.microsoft.com/library/microsoft.office.interop.word.wdunits.aspx
+  href: /dotnet/api/microsoft.office.interop.word.wdunits
   name: wdRow
   name.vb: wdRow
   fullName: WdUnits.wdRow
   fullName.vb: WdUnits.wdRow
 - uid: Microsoft.Office.Interop.Word.WdUnits.wdTable
   commentId: F:Microsoft.Office.Interop.Word.WdUnits.wdTable
-  href: https://msdn.microsoft.com/library/microsoft.office.interop.word.wdunits.aspx
+  href: /dotnet/api/microsoft.office.interop.word.wdunits
   name: wdTable
   name.vb: wdTable
   fullName: WdUnits.wdTable
   fullName.vb: WdUnits.wdTable
 - uid: Microsoft.Office.Interop.Word.WdSaveOptions.wdDoNotSaveChanges
   commentId: F:Microsoft.Office.Interop.Word.WdSaveOptions.wdDoNotSaveChanges
-  href: https://msdn.microsoft.com/library/microsoft.office.interop.word.wdsaveoptions.aspx
+  href: /dotnet/api/microsoft.office.interop.word.wdsaveoptions
   name: wdDoNotSaveChanges
   name.vb: wdDoNotSaveChanges
   fullName: WdSaveOptions.wdDoNotSaveChanges
   fullName.vb: WdSaveOptions.wdDoNotSaveChanges
 - uid: Microsoft.Office.Interop.Excel.XlSheetVisibility.xlSheetHidden
   commentId: F:Microsoft.Office.Interop.Excel.XlSheetVisibility.xlSheetHidden
-  href: https://msdn.microsoft.com/library/microsoft.office.interop.excel.xlsheetvisibility.aspx
+  href: /dotnet/api/microsoft.office.interop.excel.xlsheetvisibility
   name: xlSheetHidden
   name.vb: xlSheetHidden
   fullName: XlSheetVisibility.xlSheetHidden
   fullName.vb: XlSheetVisibility.xlSheetHidden
 - uid: Microsoft.Office.Interop.Word.WdCollapseDirection.wdCollapseStart
   commentId: F:Microsoft.Office.Interop.Word.WdCollapseDirection.wdCollapseStart
-  href: https://msdn.microsoft.com/library/microsoft.office.interop.word.wdcollapsedirection.aspx
+  href: /dotnet/api/microsoft.office.interop.word.wdcollapsedirection
   name: wdCollapseStart
   name.vb: wdCollapseStart
   fullName: WdCollapseDirection.wdCollapseStart
   fullName.vb: WdCollapseDirection.wdCollapseStart
 - uid: Microsoft.Office.Interop.Word.WdCollapseDirection.wdCollapseEnd
   commentId: F:Microsoft.Office.Interop.Word.WdCollapseDirection.wdCollapseEnd
-  href: https://msdn.microsoft.com/library/microsoft.office.interop.word.wdcollapsedirection.aspx
+  href: /dotnet/api/microsoft.office.interop.word.wdcollapsedirection
   name: wdCollapseEnd
   name.vb: wdCollapseEnd
   fullName: WdCollapseDirection.wdCollapseEnd
