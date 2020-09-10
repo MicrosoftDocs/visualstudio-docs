@@ -42,7 +42,7 @@ Below are the errors and warning dialog boxes you may encounter while debugging 
 
  [No Source Code Available for the Current Location Dialog Box](../debugger/no-source-available.md)
 
- [No Symbolic Information Dialog Box](https://msdn.microsoft.com/library/18de4888-9cca-4059-a165-48b135fee4c9)
+ [No Symbolic Information Dialog Box](/previous-versions/d493t3ew(v=vs.100))
 
  [Resolve Ambiguity Dialog Box](../debugger/resolve-ambiguity-dialog-box.md)
 

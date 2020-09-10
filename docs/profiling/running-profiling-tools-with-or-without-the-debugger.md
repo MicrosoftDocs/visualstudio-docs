@@ -11,7 +11,7 @@ ms.workload:
 ---
 # Run profiling tools with or without the debugger
 
-Visual Studio offers a choice of performance measurement and profiling tools. Some tools, like CPU Usage and Memory Usage, can run with or without the debugger, and on release or debug build configurations. Performance Profiler tools like Application Timeline can run on debug or release builds. Debugger-integrated tools, like the Diagnostic Tools window and Events tab, run only during debugging sessions.
+Visual Studio offers a choice of performance measurement and profiling tools. Some tools, like CPU Usage and Memory Usage, can run with or without the debugger, and on release or debug build configurations. Tools that appear in the [Diagnostics Tools window](../profiling/profiling-feature-tour.md#view-performance-while-debugging) run only during a debugging session. Tools that appear in the [Performance Profiler](../profiling/profiling-feature-tour.md#post_mortem) run without the debugger and you analyze the results after you choose to stop and collect data (for post-mortem analysis).
 
 >[!NOTE]
 >You can use the non-debugger performance tools with Windows 7 and later. Windows 8 or later is required to run the debugger-integrated profiling tools.
@@ -40,6 +40,11 @@ When you start debugging in Visual Studio by selecting **Debug** > **Start Debug
 - If you're running Visual Studio Enterprise, you can enable or disable IntelliTrace by going to **Tools** > **Options** > **IntelliTrace**.
 
 The diagnostic session ends when you stop debugging.
+
+For more information, see:
+
+- [Measure application performance by analyzing CPU usage](../profiling/beginners-guide-to-performance-profiling.md)
+- [Measure memory usage in Visual Studio](../profiling/memory-usage.md)
 
 ### The Events tab
 
@@ -80,6 +85,15 @@ To collect performance data without debugging, you can run the Performance Profi
 You can save the reports, and open them from the **Recently Opened Sessions** list on the Diagnostic Tools launch page.
 
 ![Screenshot of Diagnostic Tools Recently Opened Sessions list](../profiling/media/diaghubopenexistingdiagsession.png "PDHUB_OpenExistingDiagSession")
+
+For more information, see:
+
+- [Analyze CPU usage](../profiling/cpu-usage.md)
+- [Analyze memory usage for .NET code](../profiling/dotnet-alloc-tool.md)
+- [Analyze memory usage](../profiling/analyze-memory-usage.md)
+- [Analyze performance of .NET asynchronous code](../profiling/analyze-async.md)
+- [Analyze database performance](../profiling/analyze-database.md)
+- [Analyze GPU usage](../profiling/gpu-usage.md)
 
 ## Collect profiling data from the command line
 
