@@ -6,7 +6,7 @@
     expanded: true
     items:
     - name: Overview
-      href: source-code-analyzers-overview.md
+    - href: source-code-analyzers-overview.md
     - name: Configuration
       items:
       - name: Code quality
@@ -458,7 +458,7 @@
             href: ca1005.md
           - name: "CA1008: Enums should have zero value"
             href: ca1008.md
-          - name: "CA1009: Declare event handlers correctly"
+          - name: "CA1010: Collections should implement generic interface"
             href: ca1010.md
           - name: "CA1012: Abstract types should not have constructors"
             href: ca1012.md
@@ -579,7 +579,6 @@
             href: interoperability-warnings.md
           - name: "CA1401: P-Invokes should not be visible"
             href: ca1401.md
-          - name: "CA1402: Avoid overloads in COM visible interfaces"
           - name: "CA1417: Do not use OutAttribute on string parameters for P/Invokes"
             href: ca1417.md
         - name: Maintainability warnings
@@ -687,6 +686,8 @@
             href: ca1832.md
           - name: "CA1833: Use AsSpan or AsMemory instead of Range-based indexers for getting Span or Memory portion of an array"
             href: ca1833.md
+          - name: "CA1834: Use StringBuilder.Append(char) for single character strings"
+            href: ca1834.md
           - name: "CA1835: Prefer the memory overloads of Stream ReadAsync/WriteAsync methods"
             href: ca1835.md
           - name: "CA1836: Prefer IsEmpty over Count when available"
@@ -733,6 +734,8 @@
             href: ca2109.md
           - name: "CA2119: Seal methods that satisfy private interfaces"
             href: ca2119.md
+          - name: "CA2153: Avoid handling Corrupted State Exceptions"
+            href: ca2153.md        
           - name: "CA2153: Avoid Handling Corrupted State Exceptions"
             href: ca2153.md
           - name: "CA2300: Do not use insecure deserializer BinaryFormatter"
@@ -786,11 +789,11 @@
           - name: "CA3001: Review code for SQL injection vulnerabilities"
             href: ca3001.md
           - name: "CA3002: Review code for XSS vulnerabilities"
-            href: ca3002.md
+           href: ca3002.md
           - name: "CA3003: Review code for file path injection vulnerabilities"
             href: ca3003.md
           - name: "CA3004: Review code for information disclosure vulnerabilities"
-            href: ca3004.md
+           href: ca3004.md
           - name: "CA3005: Review code for LDAP injection vulnerabilities"
             href: ca3005.md
           - name: "CA3006: Review code for process command injection vulnerabilities"
@@ -915,7 +918,7 @@
             href: ca5403.md
         - name: Usage warnings
           items:
-          - name: Overview
+           - name: Overview
             displayName: "usage warnings"
             href: usage-warnings.md
           - name: "CA1801: Review unused parameters"
@@ -923,7 +926,7 @@
           - name: "CA1816: Call GC.SuppressFinalize correctly"
             href: ca1816.md
           - name: "CA2200: Rethrow to preserve stack details"
-            href: ca2200.md
+           href: ca2200.md
           - name: "CA2201: Do not raise reserved exception types"
             href: ca2201.md
           - name: "CA2207: Initialize value type static fields inline"
