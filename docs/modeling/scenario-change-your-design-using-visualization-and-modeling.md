@@ -478,5 +478,5 @@ Dependency diagrams help you:
 
 - [Visualize code](../modeling/visualize-code.md)
 - [Use models in your development process](../modeling/use-models-in-your-development-process.md)
-- [Use models in Agile development](https://msdn.microsoft.com/592ac27c-3d3e-454a-9c38-b76658ed137f)
+- [Use models in Agile development](/previous-versions/ff398061(v=vs.140))
 - [Validate your system during development](../modeling/validate-your-system-during-development.md)
