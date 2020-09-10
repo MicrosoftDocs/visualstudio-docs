@@ -266,9 +266,9 @@
       items:
       - name: Creating and managing databases and data-tier applications in Visual Studio
         href: creating-and-managing-databases-and-data-tier-applications-in-visual-studio.md
-      - name: Creating an N-Tier Data Application
+      - name: Creating an n-tier Data Application
         href: walkthrough-creating-an-n-tier-data-application.md
-      - name: N-Tier Data Applications Overview
+      - name: N-tier Data Applications Overview
         href: n-tier-data-applications-overview.md
     - name: Additional resources for troubleshooting data access errors
       href: additional-resources-for-troubleshooting-data-access-errors.md

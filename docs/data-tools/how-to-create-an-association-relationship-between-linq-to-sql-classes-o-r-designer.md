@@ -1,5 +1,5 @@
 ---
-title: Relationships between LINQ to SQL classes (O/R Designer)
+title: Relationships between LINQ to SQL classes
 ms.date: 11/04/2016
 ms.topic: how-to
 ms.assetid: 56133e65-81f3-44c3-bc28-ffdd0671a0d2

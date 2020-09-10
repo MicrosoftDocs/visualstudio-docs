@@ -30,7 +30,7 @@ landingContent:
           - text: Docker in Visual Studio
             url: container-tools.md
           - text: Running build tools in a container
-            url: /visualstudio/install/build-tools-container
+            url: ../install/build-tools-container.md
           - text: Visual Studio Tools for Kubernetes
             url: tutorial-kubernetes-tools.md
 

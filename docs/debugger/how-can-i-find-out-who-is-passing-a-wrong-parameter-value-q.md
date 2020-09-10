@@ -47,5 +47,5 @@ ms.workload:
 
 ## See also
 - [Debugging Native Code FAQs](../debugger/debugging-native-code-faqs.md)
-- [Breakpoints](https://msdn.microsoft.com/library/fe4eedc1-71aa-4928-962f-0912c334d583)
+- [Breakpoints](/previous-versions/ktf38f66(v=vs.100))
 - [Debugging Native Code](../debugger/debugging-native-code.md)

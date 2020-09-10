@@ -1,5 +1,5 @@
 ---
-title: 'Walkthrough: Creating an N-Tier Data Application'
+title: 'Walkthrough: Creating an N-tier Data Application'
 ms.date: 09/08/2017
 ms.topic: conceptual
 dev_langs:

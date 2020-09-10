@@ -1,5 +1,5 @@
 ---
-title: Options Dialog Box, Projects and Solutions, Build and Run
+title: Options dialog, Projects and Solutions, Build and Run
 ms.date: 07/14/2017
 ms.technology: vs-ide-compile
 ms.topic: reference

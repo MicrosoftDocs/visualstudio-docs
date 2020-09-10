@@ -1,5 +1,6 @@
 ---
-title: IDebugEngineProgram2::WatchForExpressionEvaluationOnThread | Microsoft Docs
+title: IDebugEngineProgram2::WatchForExpressionEvaluationOnThread
+titleSuffix: ""
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:

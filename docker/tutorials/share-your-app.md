@@ -58,6 +58,8 @@ If you look on the right-side of the page, you'll see a section named **Docker c
     docker push <username>/getting-started
     ```
 
+    Instead of the command line, you can also right-click on the image tag in the **Images** section of the Docker view, and choose **Push...**, then choose **Connect registry...** and then **Docker Hub**.
+
 ## Run the image on a new instance
 
 Now that your image has been built and pushed into a registry, try running the app on a brand new instance that has never seen this container image! To do this, you will use Play with Docker.

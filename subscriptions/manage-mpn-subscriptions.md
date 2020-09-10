@@ -1,10 +1,10 @@
 ---
-title: Manage Visual Studio subscriptions offered through the Microsoft Partner Network (MPN) | Microsoft Docs
+title: Manage Visual Studio subscriptions from Microsoft Partner Network | Microsoft Docs
 author: evanwindom
-ms.author: lank
-manager: lank
+ms.author: v-evwin
+manager: cabuschl
 ms.assetid: 83efe4ee-9a9d-4776-b27c-852d89dadafd
-ms.date: 03/09/2020
+ms.date: 09/08/2020
 ms.topic: how-to
 description: How to assign Visual Studio subscriptions to your end users, for MPN partners.
 ---

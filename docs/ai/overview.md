@@ -34,4 +34,4 @@ Browse samples in the [Samples repository](https://github.com/Microsoft/samples-
 To learn even more about Visual Studio Tools for AI, including system requirements and support options, see the [About Visual Studio Tools for AI](about-ai-tools.md) page.
 
 ## See also
-[Visual Studio extensibility](/visualstudio/extensibility/?view=vs-2017)
+[Visual Studio extensibility](../extensibility/index.yml?view=vs-2017)

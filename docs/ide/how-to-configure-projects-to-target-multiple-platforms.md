@@ -1,5 +1,5 @@
 ---
-title: 'How to: Configure projects to target multiple platforms'
+title: Configure projects to target multiple platforms
 ms.date: 11/04/2016
 ms.technology: vs-ide-compile
 ms.topic: how-to
