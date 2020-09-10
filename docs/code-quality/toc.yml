@@ -154,6 +154,8 @@
             href: ca1719.md
           - name: "CA1722: Identifiers should not have incorrect prefix"
             href: ca1722.md
+          - name: "CA1726: Use preferred terms"
+            href: ca1726.md
           - name: "CA1900: Value type fields should be portable"
             href: ca1900.md
           - name: "CA2001: Avoid calling problematic methods"
