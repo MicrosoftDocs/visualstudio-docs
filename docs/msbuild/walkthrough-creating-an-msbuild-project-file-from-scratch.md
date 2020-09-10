@@ -1,5 +1,5 @@
 ---
-title: 'Walkthrough: Creating an MSBuild Project File from Scratch | Microsoft Docs'
+title: Create an MSBuild project file from scratch
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

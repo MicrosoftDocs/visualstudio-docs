@@ -1,5 +1,5 @@
 ---
-title: Suppress compiler warnings for projects and NuGet packages
+title: Suppress warnings for projects and NuGet packages
 ms.date: 01/24/2018
 ms.technology: vs-ide-compile
 ms.topic: how-to

@@ -1,5 +1,5 @@
 ---
-title: "Multicontainer tutorial using Docker Compose & ASP.NET Core"
+title: Work with multiple containers using Docker Compose
 author: ghogen
 description: Learn how to use multiple containers with Docker Compose
 ms.author: ghogen

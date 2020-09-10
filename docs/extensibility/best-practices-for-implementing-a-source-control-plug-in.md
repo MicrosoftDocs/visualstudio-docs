@@ -1,5 +1,5 @@
 ---
-title: Best Practices for Implementing a Source Control Plug-in | Microsoft Docs
+title: Implementing a source control plug-in - best practices
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

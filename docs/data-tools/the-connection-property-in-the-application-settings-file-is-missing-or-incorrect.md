@@ -1,5 +1,6 @@
 ---
-title: The connection property in the Application Settings file is missing or incorrect
+title: Connection property missing
+description: The connection property in the Application Settings file is missing or incorrect
 ms.date: 11/04/2016
 ms.topic: error-reference
 ms.assetid: 77724510-ff59-4d43-b933-a0434e1ac597
