@@ -1,5 +1,6 @@
 ---
 title: "Setup Visual Studio for Mac Tools for Unity"
+titleSuffix: ""
 description: "Setting up and installing Unity tools for use in Visual Studio for Mac"
 author: therealjohn
 ms.author: johmil
