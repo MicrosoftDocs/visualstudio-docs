@@ -1,6 +1,6 @@
 ---
-title: Submit a job to train model in Azure Batch AI
-description: train model cloud
+title: Submit a job to train model
+description: Submit a job to train a model using Azure Batch AI
 keywords: ai, visual studio, train model, cloud
 author: jillre
 ms.author: jillfra
