@@ -22,7 +22,7 @@ Many of the legacy analysis (FxCop) rules have already been rewritten for FxCop 
 
 For more information on the differences between legacy analysis and source analysis, see the following:
 
-- [Source code analysis versus legacy analysis](../code-quality/fxcop-analyzers-faq?view=vs-2019#whats-the-difference-between-legacy-fxcop-and-fxcop-analyzers)
+- [Source code analysis versus legacy analysis](../code-quality/fxcop-analyzers-faq.md#whats-the-difference-between-legacy-fxcop-and-fxcop-analyzers)
 
 - [FAQ about FxCop analyzers](../code-quality/fxcop-analyzers-faq.md)
 

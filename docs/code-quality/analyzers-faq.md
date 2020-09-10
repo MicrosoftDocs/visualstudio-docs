@@ -55,7 +55,7 @@ In addition to rule sets and EditorConfig files, some analyzers are configured t
 
 **Q**: What's the difference between legacy analysis and .NET Compiler Platform-based code analysis?
 
-**A**: .NET Compiler Platform-based code analysis analyzes source code in real time and during compilation, whereas legacy analysis analyzes binary files after build has completed. For more information, see [.NET Compiler Platform-based analysis versus legacy analysis](../code-quality/fxcop-analyzers-faq?view=vs-2019#whats-the-difference-between-legacy-fxcop-and-fxcop-analyzers).
+**A**: .NET Compiler Platform-based code analysis analyzes source code in real time and during compilation, whereas legacy analysis analyzes binary files after build has completed. For more information, see [.NET Compiler Platform-based analysis versus legacy analysis](../code-quality/fxcop-analyzers-faq.md#whats-the-difference-between-legacy-fxcop-and-fxcop-analyzers).
 
 ## Treat warnings as errors
 
