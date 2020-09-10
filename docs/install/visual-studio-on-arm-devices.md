@@ -31,7 +31,7 @@ Optimize your time by using Visual Studio only when necessary for ARM specific w
 Plan for Visual Studio to take longer to install, and expect it to pause for periods of time, or require restarting.
  
 ### Remote tools
-To debug an app running on a remote device, you'll need to [download and install the remote tools](../debugger/remote-debugging#download-and-install-the-remote-tools.md) for ARM.
+To debug an app running on a remote device, you'll need to [download and install the remote tools](../debugger/remote-debugging.md#download-and-install-the-remote-tools) for ARM.
 
 ### Start debugging (F5)
 Not all Visual Studio projects are configured to launch projects locally when you start debugging (**F5**) from an ARM device. You may need to configure Visual Studio for remote debugging, even though your app is running locally. For more information, see [remote debugging](../debugger/remote-debugging.md).
