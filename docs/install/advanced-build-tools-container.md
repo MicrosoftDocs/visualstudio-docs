@@ -63,7 +63,7 @@ In the working directory, create the "Dockerfile" with the following content:
 ```dockerfile
 # escape=`
 
-# Use a specific tagged image. s
+# Use a specific tagged image.
 ARG FROM_IMAGE=mcr.microsoft.com/dotnet/framework/runtime:4.8
 FROM ${FROM_IMAGE}
 
