@@ -16,7 +16,7 @@ This code generation applies to:
 
 - Visual Basic
 
-**What:** Add file headers to existing files, projects, and solutions using an [EditorConfig](https://docs.microsoft.com/visualstudio/ide/create-portable-custom-editor-options#add-an-editorconfig-file-to-a-project).
+**What:** Add file headers to existing files, projects, and solutions using an [EditorConfig](../create-portable-custom-editor-options.md#add-an-editorconfig-file-to-a-project).
 
 **When:** You want to easily add a file header to files, projects, and solutions.
 
@@ -24,7 +24,7 @@ This code generation applies to:
 
 ## How-to
 
-1. Add an [EditorConfig](https://docs.microsoft.com/visualstudio/ide/create-portable-custom-editor-options#add-an-editorconfig-file-to-a-project) to a project or solution if you do not already have one.
+1. Add an [EditorConfig](../create-portable-custom-editor-options.md#add-an-editorconfig-file-to-a-project) to a project or solution if you do not already have one.
 
 2. Add the following rule to your EditorConfig file: *file_header_template*.
 

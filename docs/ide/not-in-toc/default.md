@@ -19,7 +19,7 @@ It looks like we couldn't find what you were looking for, and we apologize. You 
 
 If you're looking for F1 help on a window, a keyword, or an API name:
 
-- Try searching on [docs.microsoft.com](https://docs.microsoft.com)
+- Try searching on [docs.microsoft.com]()
 - Try searching using a search engine.
 
 ## Find help on a keyword or API

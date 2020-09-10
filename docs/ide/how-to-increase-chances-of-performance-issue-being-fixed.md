@@ -9,7 +9,7 @@ ms.topic: conceptual
 
 # How to increase the chances of a performance issue being fixed
 
-The "[Report a problem](/visualstudio/ide/how-to-report-a-problem-with-visual-studio?view=vs-2019)" tool is widely used by Visual Studio users to report a range of problems. The Visual Studio team spots crash and slowness trends in user feedback and addresses issues impacting a broad swath of users. The more actionable a specific feedback ticket is, the more likely it will be diagnosed and resolved quickly by the product team. This document describes the best practices while reporting crash or slowness issues to make them more actionable.
+The "[Report a problem](./how-to-report-a-problem-with-visual-studio.md?view=vs-2019)" tool is widely used by Visual Studio users to report a range of problems. The Visual Studio team spots crash and slowness trends in user feedback and addresses issues impacting a broad swath of users. The more actionable a specific feedback ticket is, the more likely it will be diagnosed and resolved quickly by the product team. This document describes the best practices while reporting crash or slowness issues to make them more actionable.
 
 ## General best practices
 
@@ -59,7 +59,7 @@ characteristics:
 - Can be reproduced in sample code or a project that can be linked to or provided as part of the feedback (if the steps involve opening a project or document)
 
 For these issues, follow the steps in "[How to Report a
-Problem](/visualstudio/ide/how-to-report-a-problem-with-visual-studio-2017)"
+Problem](./how-to-report-a-problem-with-visual-studio.md)"
 and be sure to include:
 
 - The steps to reproduce the problem
@@ -119,7 +119,7 @@ attach the appropriate dump.
     feedback
 
 3. Follow the steps in "[How to Report a
-    Problem](/visualstudio/ide/how-to-report-a-problem-with-visual-studio-2017)",
+    Problem](./how-to-report-a-problem-with-visual-studio.md)",
     and attach the heap dump to a new feedback item.
 
 > [!NOTE] 
@@ -139,7 +139,7 @@ reproduce the problem, and include sample source code that demonstrates the prob
 If an unresponsiveness manifests itself in an unpredictable fashion, on the next occurrence,
 launch a new instance of Visual Studio and report a problem from that instance.
 In the ["Record"
-screen](/visualstudio/ide/how-to-report-a-problem-with-visual-studio?view=vs-2019#record-a-repro),
+screen](./how-to-report-a-problem-with-visual-studio.md?view=vs-2019#record-a-repro),
 be sure to select the Visual Studio session that is unresponsive.
 
 If the Visual Studio instance that is unresponsive was launched in Administrator mode,
@@ -178,7 +178,7 @@ For best results in capturing the performance, follow these steps:
 3. In the new copy of Visual Studio, open the **Report a Problem** tool
 
 4. Follow the steps in [How to Report a
-    Problem](/visualstudio/ide/how-to-report-a-problem-with-visual-studio-2017)
+    Problem](./how-to-report-a-problem-with-visual-studio.md)
     until you reach the "Provide a trace and heap dump (optional)" step.
 
 5. Choose to record the first copy of Visual Studio (the one encountering performance problem) and start recording.
@@ -220,7 +220,7 @@ performance trace is required in order to resolve a previous feedback item, we
 will set the state of the feedback item to "Need More Info", which can be
 responded to in the same way as reporting a new problem. For detailed
 instruction, please refer to ["Need More Info"
-section](/visualstudio/ide/how-to-report-a-problem-with-visual-studio-2017?view=vs-2017#when-further-information-is-needed-need-more-info)
+section](./how-to-report-a-problem-with-visual-studio.md?view=vs-2017#when-further-information-is-needed-need-more-info)
 in Report a Problem tool's document.
 
 > [!NOTE] 
