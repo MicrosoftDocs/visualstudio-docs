@@ -58,7 +58,7 @@ For each code style setting on this page, you can set the **Preference** and **S
 
 ## Enforce code styles on build
 
-Starting Visual Studio 2019 16.8 and .NET 5.0 RC2 SDK, the [.NET coding conventions](editorconfig-code-style-settings-reference.md) can be [enforced on build](/dotnet/fundamentals/productivity/code-analysis.md#code-style-analysis) for all .NET projects. .NET code style violations will appear as warnings or errors on build with an "IDE" prefix. This enables you to strictly enforce consistent code styles in your codebase at build time.
+Starting in Visual Studio 2019 version 16.8, which includes the .NET 5.0 RC2 SDK, you can [enforce the .NET coding conventions on build](/dotnet/fundamentals/productivity/code-analysis.md#code-style-analysis) for all .NET projects. At build time, .NET code style violations will appear as warnings or errors with an "IDE" prefix. This enables you to strictly enforce consistent code styles in your codebase.
 
 ::: moniker-end
 
