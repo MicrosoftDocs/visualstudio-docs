@@ -81,7 +81,7 @@ We now have two ASP.NET projects in our solution and both are configured with Do
    ```
    
     > [!NOTE]
-    > In production code, you shouldn't dispose `HttpClient` after every request. For best practices, see [Use HttpClientFactory to implement resilient HTTP requests](https://docs.microsoft.com/dotnet/architecture/microservices/implement-resilient-applications/use-httpclientfactory-to-implement-resilient-http-requests).
+    > In production code, you shouldn't dispose `HttpClient` after every request. For best practices, see [Use HttpClientFactory to implement resilient HTTP requests](/dotnet/architecture/microservices/implement-resilient-applications/use-httpclientfactory-to-implement-resilient-http-requests).
 
 1. In the *Index.cshtml* file, add a line to display `ViewData["Message"]` so that the file looks like the following code:
 
@@ -99,7 +99,7 @@ We now have two ASP.NET projects in our solution and both are configured with Do
       </div>
       ```
   
-1. In both the Front End and Web API projects, comment out the call to [Microsoft.AspNetCore.Builder.HttpsPolicyBuilderExtensions.UseHttpsRedirection](https://docs.microsoft.com/dotnet/api/microsoft.aspnetcore.builder.httpspolicybuilderextensions.usehttpsredirection) in the `Configure` method in *Startup.cs*, because this sample code uses HTTP, not HTTPS, to call the Web API.
+1. In both the Front End and Web API projects, comment out the call to [Microsoft.AspNetCore.Builder.HttpsPolicyBuilderExtensions.UseHttpsRedirection](/dotnet/api/microsoft.aspnetcore.builder.httpspolicybuilderextensions.usehttpsredirection) in the `Configure` method in *Startup.cs*, because this sample code uses HTTP, not HTTPS, to call the Web API.
 
       ```csharp
                   //app.UseHttpsRedirection();

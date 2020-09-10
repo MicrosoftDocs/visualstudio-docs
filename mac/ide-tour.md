@@ -61,7 +61,7 @@ The Solution Pad organizes the project(s) in a solution:
 
 This is where files for the source code, resources, user interface, and dependencies are organized into platform-specific Projects.
 
-For more information on using Projects and Solutions in Visual Studio for Mac, see the [Projects and Solutions](/visualstudio/mac/projects-and-solutions) article.
+For more information on using Projects and Solutions in Visual Studio for Mac, see the [Projects and Solutions](./projects-and-solutions.md) article.
 
 ## Assembly references
 
@@ -73,7 +73,7 @@ Additional references are added using the **Edit References** dialog, which is d
 
 ![Edit References Dialog](media/ide-tour-image20.png)
 
-For more information on using References in Visual Studio for Mac, see the [Managing References in a Project](/visualstudio/mac/managing-references-in-a-project) article.
+For more information on using References in Visual Studio for Mac, see the [Managing References in a Project](./managing-references-in-a-project.md) article.
 
 ## Dependencies / packages
 
@@ -85,7 +85,7 @@ To add a dependency to your application, right-click on the Dependencies / Packa
 
 ![Add a NuGet package](media/ide-tour-image21.png)
 
-Information on using a NuGet package in an application can be found in the [Including a NuGet project in your project](/visualstudio/mac/nuget-walkthrough) article.
+Information on using a NuGet package in an application can be found in the [Including a NuGet project in your project](./nuget-walkthrough.md) article.
 
 ## Source Editor
 
@@ -106,7 +106,7 @@ This brings some of the following features:
 * Format selection
 * Inline lightbulbs
 
-For more information on using the Source Editor in Visual Studio for Mac, see the [Source Editor](/visualstudio/mac/source-editor) documentation.
+For more information on using the Source Editor in Visual Studio for Mac, see the [Source Editor](./source-editor.md) documentation.
 
 To keep tabs visible at all times, you can take advantage of pinning them. This ensures that every time you launch a project, the tab you need will always appear. To pin a tab, hover over the tab and click the _pin_ icon:
 
@@ -114,15 +114,15 @@ To keep tabs visible at all times, you can take advantage of pinning them. This 
 
 ## Refactoring
 
-Visual Studio for Mac provides two useful ways to refactor your code: Context Actions, and Source Analysis. You can read more about them in the [Refactoring](/visualstudio/mac/refactoring) article.
+Visual Studio for Mac provides two useful ways to refactor your code: Context Actions, and Source Analysis. You can read more about them in the [Refactoring](./refactoring.md) article.
 
 ## Debugging
 
-Visual Studio for Mac has debuggers that support .NET Core, .NET Framework, Unity, and Xamarin projects. Visual Studio for Mac uses the .NET Core debugger and the Mono Soft Debugger, allowing the IDE to debug managed code across all platforms. For additional information on debugging, visit the [Debugging](/visualstudio/mac/debugging) article.
+Visual Studio for Mac has debuggers that support .NET Core, .NET Framework, Unity, and Xamarin projects. Visual Studio for Mac uses the .NET Core debugger and the Mono Soft Debugger, allowing the IDE to debug managed code across all platforms. For additional information on debugging, visit the [Debugging](./debugging.md) article.
 
 The debugger contains rich visualizers for special types such as strings, colors, URLs, as well as sizes, coordinates, and bézier curves.
 
-For more information on the debugger's data visualizations, visit the [Data Visualizations](/visualstudio/mac/data-visualizations) article.
+For more information on the debugger's data visualizations, visit the [Data Visualizations](./data-visualizations.md) article.
 
 ## Version control
 
@@ -134,7 +134,7 @@ Files with uncommitted changes have an annotation on their icons in the Solution
 
 ![Uncommitted files in solution pad](media/ide-tour-image23.png)
 
-For more information on using version control in Visual Studio, see the [Version Control](/visualstudio/mac/version-control) article.
+For more information on using version control in Visual Studio, see the [Version Control](./version-control.md) article.
 
 ## Next steps
 
