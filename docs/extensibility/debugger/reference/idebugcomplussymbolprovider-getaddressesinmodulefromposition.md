@@ -1,5 +1,6 @@
 ---
-title: IDebugComPlusSymbolProvider::GetAddressesInModuleFromPosition | Microsoft Docs
+title: IDebugComPlusSymbolProvider::GetAddressesInModuleFromPosition
+titleSuffix: ""
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:

@@ -1,5 +1,5 @@
 ---
-title: How can you increase the chances of a performance issue being fixed
+title: Increase the chance of a performance issue being fixed
 description: Additional information and best practices for submitting performance issues in Visual Studio
 author: madskristensen
 ms.author: madsk

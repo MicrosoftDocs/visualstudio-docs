@@ -1,5 +1,5 @@
 ---
-title: Browse and manage storage resources by using Server Explorer | Microsoft Docs
+title: Browse and manage storage resources
 description: Browsing and managing storage resources by using Server Explorer
 author: ghogen
 manager: jillfra
