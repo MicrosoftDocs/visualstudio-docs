@@ -119,7 +119,7 @@ Use the **Timeline details** toolbar to sort, filter, and specify the annotation
 
 ## See also
 
-- [WPF team blog: New UI performance analysis tool for WPF applications](https://blogs.msdn.microsoft.com/wpf/2015/01/16/new-ui-performance-analysis-tool-for-wpf-applications/)
+- [WPF team blog: New UI performance analysis tool for WPF applications](/archive/blogs/wpf/new-ui-performance-analysis-tool-for-wpf-applications)
 - [Performance best practices for UWP apps using C++, C#, and Visual Basic](/previous-versions/windows/apps/hh750313\(v\=win.10\))
 - [Optimize WPF application performance](/dotnet/framework/wpf/advanced/optimizing-wpf-application-performance)
 - [Profiling in Visual Studio](../profiling/index.yml)
