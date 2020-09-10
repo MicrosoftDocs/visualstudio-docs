@@ -52,7 +52,7 @@ Many analyzer rules, or *diagnostics*, have one or more associated *code fixes* 
 
 ## Configure analyzer severity levels
 
-You can configure the severity of analyzer rules, or *diagnostics*, in an [EditorConfig file](#set-rule-severity-in-an-editorconfig-file) or from the [light bulb menu](#automatically-configure-rule-severity). 
+You can configure the severity of analyzer rules, or *diagnostics*, in an [EditorConfig file](../code-quality/use-roslyn-analyzers.md#set-rule-severity-in-an-editorconfig-file) or from the [light bulb menu](../code-quality/use-roslyn-analyzers.md#automatically-configure-rule-severity). 
 
 Analyzers can also be configured to inspect code at build time and live as you type. You can configure the scope of live code analysis to execute for the current document only, all open documents, or the entire solution. See [How to: Configure the scope of live code analysis](./configure-live-code-analysis-scope-managed-code.md).
 
