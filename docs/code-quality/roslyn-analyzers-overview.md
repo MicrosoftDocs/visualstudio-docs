@@ -42,7 +42,7 @@ If rule violations are found by an analyzer, they're reported in the code editor
 
 ![Analyzer violation in Error List window](../code-quality/media/code-analysis-error-list.png)
 
-The analyzer violations reported in the error list match the [severity level setting](../code-quality/use-roslyn-analyzers.md#rule-severity) of the rule. Analyzer violations also show up in the code editor as squiggles under the offending code. The following image shows three violations&mdash;one error (red squiggle), one warning (green squiggle), and one suggestion (three grey dots):
+The analyzer violations reported in the error list match the [severity level setting](../code-quality/use-roslyn-analyzers.md#configure-severity-levels) of the rule. Analyzer violations also show up in the code editor as squiggles under the offending code. The following image shows three violations&mdash;one error (red squiggle), one warning (green squiggle), and one suggestion (three grey dots):
 
 ![Squiggles in the code editor in Visual Studio](media/diagnostics-severity-colors.png)
 
@@ -81,7 +81,7 @@ The following image shows the command-line build output from building a project 
 
 ### Rule severity
 
-You cannot configure the severity of rules from analyzers that were installed as a Visual Studio extension. To configure [rule severity](../code-quality/use-roslyn-analyzers.md#rule-severity), install the analyzers as a NuGet package.
+You cannot configure the severity of rules from analyzers that were installed as a Visual Studio extension. To configure [rule severity](../code-quality/use-roslyn-analyzers.md#configure-severity-levels), install the analyzers as a NuGet package.
 
 ## Next steps
 
