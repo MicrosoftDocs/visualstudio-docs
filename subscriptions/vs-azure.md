@@ -42,21 +42,21 @@ If your Visual Studio subscription expires or is removed, all the subscription b
 > [!IMPORTANT]
 > You must transfer your resources to another Azure subscription before your current Azure subscription is disabled or you will lose access to your data.  
 
-There are several ways to continue using a monthly credit for Azure.  To save your Azure resources, you will need to [transfer your resources](https://docs.microsoft.com/azure/azure-resource-manager/management/move-resource-group-and-subscription) to another Azure subscription, regardless of the action you choose below. 
+There are several ways to continue using a monthly credit for Azure.  To save your Azure resources, you will need to [transfer your resources](/azure/azure-resource-manager/management/move-resource-group-and-subscription) to another Azure subscription, regardless of the action you choose below. 
 
 - **If you purchase your Visual Studio subscription directly**, purchase a new subscription or renew your subscription through Microsoft Store.  
     - [Visual Studio Enterprise](https://www.microsoft.com/p/visual-studio-enterprise-subscription/dg7gmgf0dst4?activetab=pivot%3aoverviewtab)
     - [Visual Studio Professional](https://www.microsoft.com/p/visual-studio-professional-subscription/dg7gmgf0dst3?activetab=pivot%3aoverviewtab)
     - [Visual Studio Test Professional](https://www.microsoft.com/p/visual-studio-test-professional-subscription/dg7gmgf0dst6?activetab=pivot%3aoverviewtab)
-- **If someone in your organization purchases subscriptions for your organization**, [contact your Visual Studio subscription administrator](https://docs.microsoft.com/visualstudio/subscriptions/contact-my-admin) and request a subscription that provides the monthly credit that you need.  
-- **If you have another active Visual Studio subscription** at the same subscription level that’s associated with another Microsoft account, you may transfer the Azure benefit to another active Visual Studio subscription by [adding an alternate account](https://docs.microsoft.com/visualstudio/subscriptions/manage-vs-subscriptions#managing-my-profile) in the Visual Studio [subscriptions portal](https://my.visualstudio.com/subscriptions).  
+- **If someone in your organization purchases subscriptions for your organization**, [contact your Visual Studio subscription administrator](./contact-my-admin.md) and request a subscription that provides the monthly credit that you need.  
+- **If you have another active Visual Studio subscription** at the same subscription level that’s associated with another Microsoft account, you may transfer the Azure benefit to another active Visual Studio subscription by [adding an alternate account](./manage-vs-subscriptions.md#managing-my-profile) in the Visual Studio [subscriptions portal](https://my.visualstudio.com/subscriptions).  
 
 Use the Eligibility table below to determine how many credits are included with each subscription type.  
 
 
 ## Convert your Azure subscription to Pay-As-You-Go
 
-If you no longer need a Visual Studio subscription or credit but you want to continue using your Azure resources, [transfer your resources](https://docs.microsoft.com/azure/azure-resource-manager/management/move-resource-group-and-subscription) to another Azure subscription, or convert your Azure subscription to pay-as-you-go pricing by [removing your spending limit](https://docs.microsoft.com/azure/cost-management-billing/manage/spending-limit#remove-the-spending-limit-in-azure-portal). 
+If you no longer need a Visual Studio subscription or credit but you want to continue using your Azure resources, [transfer your resources](/azure/azure-resource-manager/management/move-resource-group-and-subscription) to another Azure subscription, or convert your Azure subscription to pay-as-you-go pricing by [removing your spending limit](/azure/cost-management-billing/manage/spending-limit#remove-the-spending-limit-in-azure-portal). 
 
 If you don’t take one of these actions, your Azure subscription will be disabled and deleted 30 days after receiving the email notification.  
 
@@ -111,10 +111,10 @@ A:  Intellectual property produced by an employee created on resources provided 
 - Have a question about Visual Studio IDE, Azure DevOps Services or other Visual Studio products or services?  Visit [Visual Studio Support](https://visualstudio.microsoft.com/support/).
 
 ## See also
-- [Visual Studio documentation](https://docs.microsoft.com/visualstudio/)
-- [Azure DevOps documentation](https://docs.microsoft.com/azure/devops/)
-- [Azure documentation](https://docs.microsoft.com/azure/)
-- [Microsoft 365 documentation](https://docs.microsoft.com/microsoft-365/)
+- [Visual Studio documentation](/visualstudio/)
+- [Azure DevOps documentation](/azure/devops/)
+- [Azure documentation](/azure/)
+- [Microsoft 365 documentation](/microsoft-365/)
 
 ## Next steps
 For more information about Microsoft tools and services, check out the documentation for:

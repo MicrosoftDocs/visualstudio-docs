@@ -31,10 +31,10 @@ Visual Studio subscriptions allow developers to install and use software to desi
 | Exception for end users                  | At the end of a software development project, end users typically review an application and determine whether it meets the necessary criteria for release. This process is called user acceptance testing (UAT). Team members such as a business sponsor or a product manager can act as proxies for end users. End users who do not have a Visual Studio subscription may access the software for UAT if use of the software otherwise complies with all Visual Studio licensing terms. It is rare that someone whose primary role is designing, developing, or testing the software would also qualify as an “end user”. |
 
 ## See also
-- [Visual Studio documentation](https://docs.microsoft.com/visualstudio/)
-- [Azure DevOps documentation](https://docs.microsoft.com/azure/devops/)
-- [Azure documentation](https://docs.microsoft.com/azure/)
-- [Microsoft 365 documentation](https://docs.microsoft.com/microsoft-365/)
+- [Visual Studio documentation](/visualstudio/)
+- [Azure DevOps documentation](/azure/devops/)
+- [Azure documentation](/azure/)
+- [Microsoft 365 documentation](/microsoft-365/)
 
 ## Next steps
 Learn more about responsibilities for administrators:

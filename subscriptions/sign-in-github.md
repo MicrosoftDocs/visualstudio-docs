@@ -60,10 +60,10 @@ A:  Go to the [Security tab](https://account.microsoft.com/security) of account.
 A:  If you have an Azure Active Directory email address on your GitHub account, this means you already have a Microsoft identity that can access Azure and run CI pipelines using your GitHub code. Using that account ensures that your Azure resources and build pipelines remain within your organizational boundaries. However, if you’re doing personal work, we recommend putting a personal email address on your GitHub account so that you'll always have access to it. Once you do this, try signing in again and choose **Use a different email address** when you're prompted to sign in to your work or school account. This will let you create a new Microsoft account using that personal email address.
 
 ## See also
-- [Visual Studio documentation](https://docs.microsoft.com/visualstudio/)
-- [Azure DevOps documentation](https://docs.microsoft.com/azure/devops/)
-- [Azure documentation](https://docs.microsoft.com/azure/)
-- [Microsoft 365 documentation](https://docs.microsoft.com/microsoft-365/)
+- [Visual Studio documentation](/visualstudio/)
+- [Azure DevOps documentation](/azure/devops/)
+- [Azure documentation](/azure/)
+- [Microsoft 365 documentation](/microsoft-365/)
 
 ## Next steps
-Once you've successfully signed in to the subscriptions portal, we recommend visiting the Benefits page at https://my.visualstudio.com/benefits and exploring the great tools, services, and offers available to you.  
+Once you've successfully signed in to the subscriptions portal, we recommend visiting the Benefits page at https://my.visualstudio.com/benefits and exploring the great tools, services, and offers available to you.

@@ -40,12 +40,11 @@ A:  The information in the overview shows the *current* assignments and availabl
 - [Volume Licensing terms](https://www.microsoft.com/licensing/product-licensing/products.aspx)
 
 ## See also
-- [Visual Studio documentation](https://docs.microsoft.com/visualstudio/)
-- [Azure DevOps documentation](https://docs.microsoft.com/azure/devops/)
-- [Azure documentation](https://docs.microsoft.com/azure/)
-- [Microsoft 365 documentation](https://docs.microsoft.com/microsoft-365/)
+- [Visual Studio documentation](/visualstudio/)
+- [Azure DevOps documentation](/azure/devops/)
+- [Azure documentation](/azure/)
+- [Microsoft 365 documentation](/microsoft-365/)
 
 ## Next steps
 - If you have any questions about subscription assignments or other aspects of the administration portal, please contact https://visualstudio.microsoft.com/subscriptions/support/ for assistance. 
 - Learn more about what to do if you assign more subscriptions that you purchased, referred to as [overallocations](handle-overclaimed-license.md).
-

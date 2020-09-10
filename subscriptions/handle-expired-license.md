@@ -19,12 +19,11 @@ When a user’s subscription has expired, this is indicated in the portal by a r
 Your reseller or Microsoft seller will guide you through the renewal or purchasing additional subscriptions process. Once the order has been placed or the contract has been renewed, the new subscriptions will be available and can be [assigned to your subscribers](assign-license.md).
 
 ## See also
-- [Visual Studio documentation](https://docs.microsoft.com/visualstudio/)
-- [Azure DevOps documentation](https://docs.microsoft.com/azure/devops/)
-- [Azure documentation](https://docs.microsoft.com/azure/)
-- [Microsoft 365 documentation](https://docs.microsoft.com/microsoft-365/)
+- [Visual Studio documentation](/visualstudio/)
+- [Azure DevOps documentation](/azure/devops/)
+- [Azure documentation](/azure/)
+- [Microsoft 365 documentation](/microsoft-365/)
 
 ## Next steps
 - For help using the Administration Portal, contact [Visual Studio Administration and Subscriptions Support](https://visualstudio.microsoft.com/support/support-overview-vs)
 - Find a [Microsoft Solution Provider](https://www.microsoft.com/solution-providers/home)
-
