@@ -101,7 +101,7 @@ Add a build property to a project through either the project file or a Directory
 
 - Project-level run settings is currently supported in C#, VB, C++, and F# projects.
 - A file specified for a project overrides any other run settings file specified in the solution.
-- [These MSBuild properties](../msbuild/msbuild-reserved-and-well-known-properties.md?view=vs-2019) can be used to specify the path to the runsettings file. 
+- [These MSBuild properties](../msbuild/msbuild-reserved-and-well-known-properties.md) can be used to specify the path to the runsettings file. 
 
 Example of specifying a *.runsettings* file for a project:
     
