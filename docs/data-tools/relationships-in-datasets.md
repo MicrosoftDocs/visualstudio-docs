@@ -1,5 +1,5 @@
 ---
-title: Use DataRelation to create relationships between datasets
+title: Create relationships between datasets
 ms.date: 11/04/2016
 ms.topic: how-to
 f1_keywords:

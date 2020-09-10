@@ -1,5 +1,5 @@
 ---
-title: Using lookup tables in data binding - Windows Forms controls| Microsoft Docs
+title: Using lookup tables in data binding - Windows Forms
 ms.date: 11/04/2016
 ms.topic: conceptual
 dev_langs:

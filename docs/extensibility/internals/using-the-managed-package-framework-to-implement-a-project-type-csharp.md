@@ -1,5 +1,5 @@
 ---
-title: Using Managed Package Framework for a Project Type (C#) | Microsoft Docs
+title: Use Managed Package Framework for a project type (C#)
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

@@ -1,5 +1,6 @@
 ---
-title: Create an Extension Pack with the Extension Pack Item Template | Microsoft Docs
+title: Create an Extension Pack
+description: Learn how to create an Extension Pack with the Extension Pack Item Template
 ms.date: 07/27/2018
 ms.topic: conceptual
 helpviewer_keywords:

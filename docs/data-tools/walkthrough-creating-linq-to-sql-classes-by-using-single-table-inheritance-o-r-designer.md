@@ -1,5 +1,5 @@
 ---
-title: LINQ to SQL classes with single-table inheritance (O-R Designer)
+title: LINQ to SQL classes with single-table inheritance
 ms.date: 11/04/2016
 ms.topic: conceptual
 dev_langs:

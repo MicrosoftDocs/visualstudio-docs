@@ -1,5 +1,5 @@
 ---
-title: Visual Studio Container Tools Docker Compose build settings
+title: Docker Compose build settings
 author: ghogen
 description: Overview of the Container Tools build process
 ms.author: ghogen

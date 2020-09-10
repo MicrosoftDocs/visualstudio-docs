@@ -1,5 +1,5 @@
 ---
-title: Change return type of DataContext method (O-R Designer)
+title: Change return type of DataContext method
 ms.date: 11/04/2016
 ms.topic: how-to
 ms.assetid: c5b66bff-6dbb-43c0-bffa-317133ca5b9e

@@ -1,5 +1,5 @@
 ---
-title: What&apos;s New in the Source Control Plug-in API Version 1.3 | Microsoft Docs
+title: What&apos;s new in the source control plug-in API 1.3
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

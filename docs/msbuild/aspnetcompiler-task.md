@@ -1,5 +1,5 @@
 ---
-title: Using AspNetCompiler Task to precompile ASP.NET applications | Microsoft Docs
+title: Use AspNetCompiler Task to precompile ASP.NET
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:

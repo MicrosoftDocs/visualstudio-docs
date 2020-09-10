@@ -1,5 +1,6 @@
 ---
-title: SupportsLanguageDropDown Element (Visual Studio Templates) | Microsoft Docs
+title: SupportsLanguageDropDown Element (Visual Studio Templates)
+titleSuffix: ""
 ms.date: 11/04/2016
 ms.technology: vs-ide-general
 ms.topic: reference
@@ -16,6 +17,7 @@ ms.workload:
 - vssdk
 ---
 # SupportsLanguageDropDown Element (Visual Studio Templates)
+
 Specifies whether the Web item template is identical for multiple languages, and whether the **Language** option is enabled on the **Add New Item** dialog box.
 
  \<VSTemplate>
@@ -24,17 +26,20 @@ Specifies whether the Web item template is identical for multiple languages, and
 
 ## Syntax
 
-```
+```xml
 <SupportsLanguageDropDown> true/false </SupportsLanguageDropDown>
 ```
 
 ## Attributes and Elements
+
  The following sections describe attribute, child elements, and parent elements.
 
 ### Attributes
+
  None.
 
 ### Child Elements
+
  None.
 
 ### Parent Elements
@@ -44,11 +49,13 @@ Specifies whether the Web item template is identical for multiple languages, and
 |[TemplateData](../extensibility/templatedata-element-visual-studio-templates.md)|Required element.<br /><br /> Categorizes the template and defines how it displays in either the **New Project** or the **Add New Item** dialog box.|
 
 ## Text Value
+
  A text value is required.
 
  The text must be either `true` or `false`, indicating whether or not the **Language** option is available from the **Add New Item** dialog box.
 
 ## Remarks
+
  `SupportsLanguageDropDown` is an optional element. The default value is `false`.
 
  The `SupportsLanguageDropDown` element is only available for Web item templates.
@@ -56,9 +63,10 @@ Specifies whether the Web item template is identical for multiple languages, and
  If the value for this element is set to `true`, then the item template is identical for all programming languages and the **Language** option is enabled in the **Add New Item** dialog box. This option enables you to choose the programming language of the new item that you want to create from the template.
 
 ## Example
+
  The following example specifies to display the **Language** drop down option.
 
-```
+```xml
 <VSTemplate Version="3.0.0" Type="Project"
     xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">>
     <TemplateData>
@@ -81,5 +89,6 @@ Specifies whether the Web item template is identical for multiple languages, and
 ```
 
 ## See also
+
 - [Visual Studio Template Schema Reference](../extensibility/visual-studio-template-schema-reference.md)
 - [Creating Project and Item Templates](../ide/creating-project-and-item-templates.md)
