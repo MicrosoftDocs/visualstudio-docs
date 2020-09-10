@@ -24,7 +24,7 @@ Bridge to Kubernetes redirects traffic between your connected Kubernetes cluster
 
 ## Using Bridge to Kubernetes
 
-To use Bridge to Kubernetes in Visual Studio, you need [Visual Studio 2019][visual-studio] version 16.7 Preview 4 or greater running on Windows 10 with the *ASP.NET and web development* workload installed and the [Bridge to Kubernetes Extension][bridge-to-k8s-extension] installed. When you use Bridge to Kubernetes to establish a connection to your Kubernetes cluster, you have the option of redirecting all traffic to and from an existing pod in the cluster to your development computer.
+To use Bridge to Kubernetes in Visual Studio, you need [Visual Studio 2019][visual-studio] version 16.7 Preview 4 or greater running on Windows 10 with the *ASP.NET and web development* workload installed and the [Bridge to Kubernetes Extension][btk-extension] installed. When you use Bridge to Kubernetes to establish a connection to your Kubernetes cluster, you have the option of redirecting all traffic to and from an existing pod in the cluster to your development computer.
 
 > [!NOTE]
 > When using Bridge to Kubernetes, you are prompted for the name of the service to redirect to your development computer. This option is a convenient way to identify a pod for redirection. All redirection between your Kubernetes cluster and your development computer is for a pod.
@@ -56,7 +56,7 @@ By default, Bridge to Kubernetes redirects all traffic for a service to your dev
 
 The following animation shows two developers working on the same cluster in isolation:
 
-![Animated GIF illustrating isolation](media/bridge-to-kubernetes/bridge-to-k8s-graphic-isolated.gif)
+![Animated GIF illustrating isolation](media/bridge-to-kubernetes/btk-graphic-isolated.gif)
 
 When you enable working in isolation, Bridge to Kubernetes does the following in addition to connecting to your Kubernetes cluster:
 
@@ -118,5 +118,5 @@ To get started using Bridge to Kubernetes to connect to your local development c
 [bridge-to-kubernetes-vs]: bridge-to-kubernetes.md
 [kubectl-port-forward]: https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#port-forward
 [visual-studio]: https://visualstudio.microsoft.com/downloads/
-[bridge-to-k8s-extension]: https://marketplace.visualstudio.com/items?itemName=ms-azuretools.mindaro
+[btk-extension]: https://marketplace.visualstudio.com/items?itemName=ms-azuretools.mindaro
 [using-config-yaml]: configure-bridge-to-kubernetes.md

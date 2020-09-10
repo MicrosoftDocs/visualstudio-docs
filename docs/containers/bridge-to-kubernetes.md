@@ -34,7 +34,7 @@ This guide uses the [Bike Sharing sample application][bike-sharing-github] to de
 * An Azure subscription. If you don't have an Azure subscription, you can create a [free account](https://azure.microsoft.com/free).
 * [Azure CLI installed][azure-cli].
 * [Visual Studio 2019][visual-studio] version 16.7 Preview 4 or greater running on Windows 10 with the *Azure development* workload installed.
-* [Bridge to Kubernetes extension installed][bridge-to-k8s-extension].
+* [Bridge to Kubernetes extension installed][btk-extension].
 
 Also, for .NET console applications, install the *Microsoft.VisualStudio.Azure.Kubernetes.Tools.Targets* NuGet Package.
 
@@ -171,5 +171,5 @@ Learn how Bridge to Kubernetes works.
 [supported-regions]: https://azure.microsoft.com/global-infrastructure/services/?products=kubernetes-service
 [troubleshooting]: /azure/dev-spaces/troubleshooting#fail-to-restore-original-configuration-of-deployment-on-cluster
 [visual-studio]: https://www.visualstudio.com/vs/
-[bridge-to-k8s-extension]: https://marketplace.visualstudio.com/items?itemName=ms-azuretools.mindaro
+[btk-extension]: https://marketplace.visualstudio.com/items?itemName=ms-azuretools.mindaro
 [kubernetesLocalProcessConfig-yaml]: configure-bridge-to-kubernetes.md
