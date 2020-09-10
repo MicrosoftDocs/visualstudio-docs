@@ -789,11 +789,11 @@
           - name: "CA3001: Review code for SQL injection vulnerabilities"
             href: ca3001.md
           - name: "CA3002: Review code for XSS vulnerabilities"
-           href: ca3002.md
+            href: ca3002.md
           - name: "CA3003: Review code for file path injection vulnerabilities"
             href: ca3003.md
           - name: "CA3004: Review code for information disclosure vulnerabilities"
-           href: ca3004.md
+            href: ca3004.md
           - name: "CA3005: Review code for LDAP injection vulnerabilities"
             href: ca3005.md
           - name: "CA3006: Review code for process command injection vulnerabilities"
@@ -918,7 +918,7 @@
             href: ca5403.md
         - name: Usage warnings
           items:
-           - name: Overview
+          - name: Overview
             displayName: "usage warnings"
             href: usage-warnings.md
           - name: "CA1801: Review unused parameters"
@@ -926,7 +926,7 @@
           - name: "CA1816: Call GC.SuppressFinalize correctly"
             href: ca1816.md
           - name: "CA2200: Rethrow to preserve stack details"
-           href: ca2200.md
+            href: ca2200.md
           - name: "CA2201: Do not raise reserved exception types"
             href: ca2201.md
           - name: "CA2207: Initialize value type static fields inline"
