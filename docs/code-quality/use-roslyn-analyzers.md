@@ -14,7 +14,7 @@ ms.workload:
 ---
 # Configure code quality analysis
 
-Starting in .NET 5.0, code quality analyzers are included with the .NET SDK. (Previously, you installed these analyzers as a NuGet package.) Code analysis is enabled, by default, for projects that target .NET 5.0 or later. You can enable code analysis on projects that target earlier .NET versions by setting the [EnableNETAnalyzers](https://docs.microsoft.com/en-us/dotnet/core/project-sdk/msbuild-props#enablenetanalyzers) property to `true`. You can also disable code analysis for your project by setting `EnableNETAnalyzers` to `false`.
+Starting in .NET 5.0, code quality analyzers are included with the .NET SDK. (Previously, you installed these analyzers as a NuGet package.) Code analysis is enabled, by default, for projects that target .NET 5.0 or later. You can enable code analysis on projects that target earlier .NET versions by setting the [EnableNETAnalyzers](/dotnet/core/project-sdk/msbuild-props#enablenetanalyzers) property to `true`. You can also disable code analysis for your project by setting `EnableNETAnalyzers` to `false`.
 
 Each code quality analyzer *diagnostic* or rule has a default severity and suppression state that can be overwritten and customized for your project. This article covers setting code quality analyzer severities and suppressing analyzer violations.
 
@@ -111,7 +111,7 @@ In the preceding example, all three entries are applicable to CA1822. However, u
 
 #### Manually configure rule severity in an EditorConfig file
 
-1. If you don't already have an EditorConfig file for your project, [add one](../ide/create-portable-custom-editor-options.md#add-an-editorconfig-file-to-a-project.md).
+1. If you don't already have an EditorConfig file for your project, [add one](../ide/create-portable-custom-editor-options.md#add-an-editorconfig-file-to-a-project).
 
 2. Add an entry for each rule you want to configure under the corresponding file extension. For example, to set the severity for [CA1822](ca1822.md) to `error` for C# files, the entry looks as follows:
 

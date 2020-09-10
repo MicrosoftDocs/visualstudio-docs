@@ -21,7 +21,7 @@ Analyzers can be divided into the following groups:
 
 - [Code style](https://docs.microsoft.com/visualstudio/ide/editorconfig-code-style-settings-reference?view=vs-2019#convention-categories) analyzers are built in to Visual Studio. The diagnostic ID, or code, for these analyzers is of the format IDExxxx, for example, IDE0067. You can configure preferences in the [text editor options page](../ide/code-styles-and-code-cleanup.md) or in an [EditorConfig file](../ide/editorconfig-code-style-settings-reference.md). Starting in .NET 5.0, [code style](https://docs.microsoft.com/dotnet/fundamentals/productivity/code-analysis) analyzers are included with the .NET SDK.
 
-- [Code quality](/code-analysis-warnings-for-managed-code-by-checkid.md) analyzers are now included with the .NET 5 SDK and enabled by default. The diagnostic ID, or code, for these analyzers is of the format CAxxxx, for example, CA1822. For more information, see [Overview of .NET source code analysis](https://docs.microsoft.com/en-us/dotnet/fundamentals/productivity/code-analysis).
+- [Code quality](/code-analysis-warnings-for-managed-code-by-checkid.md) analyzers are now included with the .NET 5 SDK and enabled by default. The diagnostic ID, or code, for these analyzers is of the format CAxxxx, for example, CA1822. For more information, see [Overview of .NET source code analysis](/dotnet/fundamentals/productivity/code-analysis).
 
 - Third party analyzers can be installed as a NuGet package or a Visual Studio extension. Third party analyzers, such as [StyleCop](https://www.nuget.org/packages/StyleCop.Analyzers/), [Roslynator](https://www.nuget.org/packages/Roslynator.Analyzers/), [XUnit Analyzers](https://www.nuget.org/packages/xunit.analyzers/), and [Sonar Analyzer](https://www.nuget.org/packages/SonarAnalyzer.CSharp/).
 
@@ -52,7 +52,7 @@ Many analyzer rules, or *diagnostics*, have one or more associated *code fixes* 
 
 ## Configure analyzer severity levels
 
-You can configure the severity of analyzer rules, or *diagnostics*, in an [EditorConfig file](../code-quality/use-roslyn-analyzers.md#set-rule-severity-in-an-editorconfig-file) or from the [light bulb menu](../code-quality/use-roslyn-analyzers.md#automatically-configure-rule-severity). 
+You can configure the severity of analyzer rules, or *diagnostics*, in an [EditorConfig file](../code-quality/use-roslyn-analyzers.md#set-rule-severity-in-an-editorconfig-file) or from the [light bulb menu](../code-quality/use-roslyn-analyzers.md#set-rule-severity-from-the-light-bulb-menu). 
 
 Analyzers can also be configured to inspect code at build time and live as you type. You can configure the scope of live code analysis to execute for the current document only, all open documents, or the entire solution. See [How to: Configure the scope of live code analysis](./configure-live-code-analysis-scope-managed-code.md).
 
