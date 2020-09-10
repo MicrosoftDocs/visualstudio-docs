@@ -341,7 +341,7 @@ The following table lists the build numbers and release dates for Visual Studio 
 | 15.0.0 | Release | March 7, 2017 | 15.0.26228.4 |
 
 > [!NOTE]
-> For more information about build numbers and release dates for the next version of Visual Studio, see the [Visual Studio 2019 build numbers and release dates](/visualstudio/install/visual-studio-build-numbers-and-release-dates?view=vs-2019) page.
+> For more information about build numbers and release dates for the next version of Visual Studio, see the [Visual Studio 2019 build numbers and release dates](?view=vs-2019) page.
 
 ::: moniker-end
 
