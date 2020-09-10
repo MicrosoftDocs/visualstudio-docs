@@ -33,7 +33,7 @@ The following table shows the <xref:System.Activities.Statements.TransactionScop
 |<xref:System.Activities.Statements.TransactionScope.Body%2A>|True|Specifies the activity to execute in a single transaction. To add the <xref:System.Activities.Statements.TransactionScope.Body%2A> activity, drop an activity from the **Toolbox** into the **Body** box on the **TransactionScope** activity designer with hint text "Drop activity here".|
 |<xref:System.Activities.Statements.TransactionScope.IsolationLevel%2A>|True|Specifies the <xref:System.Transactions.IsolationLevel> for this <xref:System.Activities.Statements.TransactionScope>.|
 |<xref:System.Activities.Statements.TransactionScope.Timeout%2A>|False|Specifies the interval of time (formatted as 00:00:00, which indicates hours:minutes:seconds) that the transaction has to complete. The default value is 1 minute (00:01:00).|
-|[System.Activities.Statements.TransactionScope.AbortInstanceOnTransactionFailure](/dotnet/api/system.activities.statements.transactionscope.abortinstanceontransactionfailure)|True|Specifies the value that indicates whether the workflow should be aborted if the transaction aborts.|
+|<xref:System.Activities.Statements.TransactionScope.AbortInstanceOnTransactionFailure*>|True|Specifies the value that indicates whether the workflow should be aborted if the transaction aborts.|
 
 ## See also
 
