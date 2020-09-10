@@ -1,5 +1,6 @@
 ---
-title: IDebugComPlusSymbolProvider::GetAttributedClassesinModule | Microsoft Docs
+title: IDebugComPlusSymbolProvider::GetAttributedClassesinModule
+titleSuffix: ""
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:

@@ -1,5 +1,5 @@
 ---
-title: 'How to: Manage a Private Gallery By Using Registry Settings | Microsoft Docs'
+title: Manage a private gallery by using registry settings
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

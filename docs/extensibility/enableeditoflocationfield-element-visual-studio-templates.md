@@ -1,5 +1,6 @@
 ---
-title: EnableEditOfLocationField Element (Visual Studio Templates) | Microsoft Docs
+title: EnableEditOfLocationField Element (Visual Studio Templates)
+titleSuffix: ""
 ms.date: 11/04/2016
 ms.technology: vs-ide-general
 ms.topic: reference

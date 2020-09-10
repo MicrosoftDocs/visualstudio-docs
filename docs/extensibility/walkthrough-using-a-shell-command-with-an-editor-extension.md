@@ -1,5 +1,5 @@
 ---
-title: 'Walkthrough: Using a Shell Command with an Editor Extension | Microsoft Docs'
+title: Use a shell command with an editor extension
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
