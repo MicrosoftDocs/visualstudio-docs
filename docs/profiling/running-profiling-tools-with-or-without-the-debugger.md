@@ -78,7 +78,7 @@ To collect performance data without debugging, you can run the Performance Profi
 
    While the session is running, some tools show graphs of real-time data on the diagnostic tools page, as well as controls to pause and resume data collection.
 
-    ![Screenshot of data collection on the Performance and Diagnostics hub](../profiling/media/diaghubcollectdata.png "Hub collect data")
+    ![Screenshot of data collection on the Performance Profiler](../profiling/media/diaghubcollectdata.png "Hub collect data")
 
 1. To end the diagnostic session, select **Stop Collection**.
 
