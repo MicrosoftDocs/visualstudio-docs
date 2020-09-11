@@ -1,10 +1,11 @@
 ---
-title: "How to: Migrate a Domain-Specific Language to a New Version"
+title: "How to: Migrate a Domain-Specific Language project"
 ms.date: 11/04/2016
 ms.topic: how-to
 author: JoshuaPartlow
 ms.author: joshuapa
 manager: jillfra
+ms.custom: SEO-VS-2020
 ms.workload:
   - "multiple"
 ---

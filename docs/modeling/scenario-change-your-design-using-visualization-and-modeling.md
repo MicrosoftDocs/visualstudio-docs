@@ -1,5 +1,5 @@
 ---
-title: 'Scenario: Change your design using visualization and modeling'
+title: 'Change your design using visualization and modeling'
 ms.date: 11/04/2016
 ms.topic: overview
 helpviewer_keywords:
@@ -12,6 +12,7 @@ helpviewer_keywords:
 - walkthroughs [Visual Studio ALM], modeling software
 author: JoshuaPartlow
 ms.author: joshuapa
+ms.custom: SEO-VS-2020
 manager: jillfra
 ms.workload:
 - multiple

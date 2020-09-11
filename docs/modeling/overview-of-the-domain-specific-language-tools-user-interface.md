@@ -1,5 +1,5 @@
 ---
-title: Overview of the Domain-Specific Language Tools User Interface
+title: Overview of the Domain-Specific Language Tools UI
 ms.date: 11/04/2016
 ms.topic: overview
 f1_keywords:
@@ -9,6 +9,7 @@ helpviewer_keywords:
 author: JoshuaPartlow
 ms.author: joshuapa
 manager: jillfra
+ms.custom: SEO-VS-2020
 ms.workload:
 - multiple
 ---

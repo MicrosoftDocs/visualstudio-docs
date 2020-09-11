@@ -1,10 +1,11 @@
 ---
-title: Creating a Windows Forms-Based Domain-Specific Language
+title: Create a Windows Forms-Based Domain-Specific Language
 ms.date: 11/04/2016
 ms.topic: how-to
 author: JoshuaPartlow
 ms.author: joshuapa
 manager: jillfra
+ms.custom: SEO-VS-2020
 ms.workload:
 - multiple
 ---

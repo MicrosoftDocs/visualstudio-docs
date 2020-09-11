@@ -1,9 +1,10 @@
 ---
-title: See dependencies between C++ source files and header files
+title: See dependencies between C++ source and header files
 ms.date: 05/16/2018
 ms.topic: conceptual
 author: JoshuaPartlow
 ms.author: joshuapa
+ms.custom: SEO-VS-2020
 manager: jillfra
 ms.workload:
 - multiple
