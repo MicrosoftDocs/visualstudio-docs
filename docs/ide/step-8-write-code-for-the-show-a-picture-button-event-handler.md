@@ -1,5 +1,6 @@
 ---
 title: 'Write code for the show a picture button event handler'
+description: Write code for the show a picture button event handler in the create a picture viewer tutorial. 
 ms.date: 08/30/2019
 ms.custom: SEO-VS-2020
 ms.assetid: 07f4ec00-cda4-42f4-98bb-37edc7167de7

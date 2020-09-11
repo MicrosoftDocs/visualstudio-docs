@@ -1,5 +1,6 @@
 ---
 title: "Run your picture viewer app and try other features"
+description: Run your picture viewer app and try other features in the create a picture viewer tutorial. 
 ms.date: 09/11/2019
 ms.custom: SEO-VS-2020
 ms.assetid: 656614d0-4fe7-4a67-8edc-c10919377d09

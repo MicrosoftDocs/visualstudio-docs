@@ -1,5 +1,6 @@
 ---
 title: "Add Enter event handlers for NumericUpDown controls"
+description: Add Enter event handlers for NumericUpDown controls in the create a timed math quiz tutorial. 
 ms.date: 11/04/2016
 ms.custom: SEO-VS-2020
 ms.topic: tutorial
