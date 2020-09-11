@@ -1,5 +1,6 @@
 ---
-title: 'Walkthrough: Using a Shortcut Key with an Editor Extension | Microsoft Docs'
+title: Use a shortcut key with an editor extension
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:

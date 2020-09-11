@@ -22,7 +22,7 @@ A VSIX package is a *.vsix* file that contains one or more Visual Studio extensi
 > The names of the files included in VSIX packages must not include spaces, nor characters that are reserved in Uniform Resource Identifiers (URI), as defined under [\[RFC2396\]](https://www.rfc-editor.org/rfc/rfc2396.txt).
 
 ## The VSIX manifest
- The VSIX manifest contains information about the extension to be installed, and follows the VSX Schema. For more information, see [VSIX extension schema 1.0 reference](https://msdn.microsoft.com/library/76e410ec-b1fb-4652-ac98-4a4c52e09a2b). For an example VSIX manifest, see [PackageManifest element (root element, VSX schema)](https://msdn.microsoft.com/library/f8ae42ba-775a-4d2b-976a-f556e147f187).
+ The VSIX manifest contains information about the extension to be installed, and follows the VSX Schema. For more information, see [VSIX extension schema 1.0 reference](/previous-versions/dd393700(v=vs.110)). For an example VSIX manifest, see [PackageManifest element (root element, VSX schema)](/previous-versions/dd393754(v=vs.110)).
 
  The VSIX manifest must be named `extension.vsixmanifest` when it is included in a ^.vsix* file.
 
@@ -46,9 +46,9 @@ A VSIX package is a *.vsix* file that contains one or more Visual Studio extensi
 ## Installation location
  During installation, **Extensions and Updates** looks for the contents of the VSIX package in a folder under *%LocalAppData%\Microsoft\VisualStudio\14.0\Extensions*.
 
- By default, the installation applies only to the current user, because *%LocalAppData%* is a user-specific directory. However, if you set the [AllUsers](https://msdn.microsoft.com/library/ac817f50-3276-4ddb-b467-8bbb1432455b) element of the manifest to `True`, the extension will be installed under <em>..\\</em>VisualStudioInstallationFolder<em>\Common7\IDE\Extensions</em> and will be available to all users of the computer.
+ By default, the installation applies only to the current user, because *%LocalAppData%* is a user-specific directory. However, if you set the [AllUsers](/previous-versions/ee191547(v=vs.110)) element of the manifest to `True`, the extension will be installed under <em>..\\</em>VisualStudioInstallationFolder<em>\Common7\IDE\Extensions</em> and will be available to all users of the computer.
 
 ## [Content_Types].xml
  The *[Content_Types].xml* file identifies the file types in the expanded *.vsix* file. Visual Studio uses this file during installation of the package but does not install the file itself. For more information about this file, see [The structure of the [Content_types].xml file](the-structure-of-the-content-types-dot-xml-file.md).
 
- A *[Content_Types].xml* file is required by the Open Packaging Conventions (OPC) standard. For more information about OPC, see [OPC: A new standard for packaging your data](https://blogs.msdn.microsoft.com/msdnmagazine/2007/08/08/opc-a-new-standard-for-packaging-your-data/) on the MSDN Web site.
+ A *[Content_Types].xml* file is required by the Open Packaging Conventions (OPC) standard. For more information about OPC, see [OPC: A new standard for packaging your data](/archive/blogs/msdnmagazine/opc-a-new-standard-for-packaging-your-data) on the MSDN Web site.

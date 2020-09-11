@@ -1,7 +1,9 @@
 ---
-title: Separate datasets and TableAdapters into different projects
+title: Use separate projects error
+description: Separate datasets and TableAdapters into different projects
 ms.date: 11/04/2016
 ms.topic: how-to
+ms.custom: SEO-VS-2020
 helpviewer_keywords:
 - TableAdapters, n-tier applications
 - n-tier applications, separating Datasets and TableAdapters
