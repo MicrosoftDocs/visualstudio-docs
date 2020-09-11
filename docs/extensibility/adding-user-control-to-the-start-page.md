@@ -185,5 +185,5 @@ To make this control available to the Start Page project, in the Start Page proj
 
 ## See also
 
-- [WPF container controls](https://msdn.microsoft.com/library/a0177167-d7db-4205-9607-8ae316952566)
+- [WPF container controls](/previous-versions/bb675291(v=vs.110))
 - [Walkthrough: Add custom XAML to the Start Page](../extensibility/walkthrough-adding-custom-xaml-to-the-start-page.md)

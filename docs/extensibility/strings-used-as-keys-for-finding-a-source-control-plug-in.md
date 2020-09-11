@@ -1,5 +1,5 @@
 ---
-title: Strings Used as Keys for Finding a Source Control Plug-in | Microsoft Docs
+title: Strings used as keys to find a source control plug-in
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

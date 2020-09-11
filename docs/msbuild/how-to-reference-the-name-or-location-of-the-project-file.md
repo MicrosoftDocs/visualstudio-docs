@@ -1,5 +1,5 @@
 ---
-title: 'How to: Reference the Name or Location of the Project File | Microsoft Docs'
+title: Reference the name or location of the project file
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

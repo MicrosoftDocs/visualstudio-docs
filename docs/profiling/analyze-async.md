@@ -36,7 +36,7 @@ Use the .NET Async tool to analyze the performance of asynchronous code in your 
 
 Asynchronous events are organized into activities chronologically. Each displays its start time, end time, and duration.
 
-Each row that corresponds to a [task](https://docs.microsoft.com/dotnet/api/system.threading.tasks) is labeled in the **Name** column. For any task name that can't be resolved, a **Task in** label appears. It's followed by the name of the method the task occurs within. If an asynchronous activity doesn't complete within the collection session, an **Incomplete** label appears in the **End Time** column.
+Each row that corresponds to a [task](/dotnet/api/system.threading.tasks) is labeled in the **Name** column. For any task name that can't be resolved, a **Task in** label appears. It's followed by the name of the method the task occurs within. If an asynchronous activity doesn't complete within the collection session, an **Incomplete** label appears in the **End Time** column.
 
 To further investigate a specific task or activity, right-click the row. Then select **Go To Source File** to see where in your code that activity happened.
 

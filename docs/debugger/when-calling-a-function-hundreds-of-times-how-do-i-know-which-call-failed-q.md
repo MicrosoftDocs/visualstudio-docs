@@ -44,5 +44,5 @@ CnvtV(int) (no condition) when hit count is equal to 1000 (currently 101)
 
 ## See also
 - [Debugging Native Code FAQs](../debugger/debugging-native-code-faqs.md)
-- [Setting Breakpoints](https://msdn.microsoft.com/library/fe4eedc1-71aa-4928-962f-0912c334d583)
+- [Setting Breakpoints](/previous-versions/ktf38f66(v=vs.100))
 - [Debugging Native Code](../debugger/debugging-native-code.md)

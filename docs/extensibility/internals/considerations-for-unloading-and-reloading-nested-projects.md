@@ -1,5 +1,5 @@
 ---
-title: Considerations for Unloading and Reloading Nested Projects | Microsoft Docs
+title: Unloading and reloading nested projects
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

@@ -1,5 +1,6 @@
 ---
-title: Cannot create an association - property listed twice
+title: Property listed twice
+description: Cannot create an association - property listed twice
 ms.date: 11/04/2016
 ms.topic: error-reference
 ms.technology: vs-data-tools

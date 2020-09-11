@@ -1,5 +1,6 @@
 ---
-title: The selected class cannot be deleted because it is used as a return type for one or more DataContext methods
+title: Selected class cannot be deleted
+description: The selected class cannot be deleted because it is used as a return type for one or more DataContext methods
 ms.date: 11/04/2016
 ms.topic: error-reference
 ms.assetid: d68254a0-f3a1-47e2-aed3-a83471e1d711

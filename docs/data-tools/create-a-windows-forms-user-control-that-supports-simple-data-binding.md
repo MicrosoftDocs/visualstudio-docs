@@ -1,5 +1,5 @@
 ---
-title: Create a user control that supports simple data binding
+title: Create user controls that support simple data binding
 ms.date: 11/04/2016
 ms.topic: conceptual
 dev_langs:

@@ -12,7 +12,7 @@ ms.workload:
 ---
 # Locate Visual Studio
 
-Starting with Visual Studio 2017, you can install multiple instances of the same version or even edition. This is helpful when you want to preview new functionality on your primary development machine while keeping your previous installation. Because of these changes, there is no single environment variable or registry value you can use to locate an instance. Instead, you can use a [COM query API](https://msdn.microsoft.com/library/microsoft.visualstudio.setup.configuration.aspx) to find instances based on criteria relevant to your extension.
+Starting with Visual Studio 2017, you can install multiple instances of the same version or even edition. This is helpful when you want to preview new functionality on your primary development machine while keeping your previous installation. Because of these changes, there is no single environment variable or registry value you can use to locate an instance. Instead, you can use a [COM query API](/dotnet/api/microsoft.visualstudio.setup.configuration) to find instances based on criteria relevant to your extension.
 
 This is a fast, read-only API with NuGet packages available for native and managed code.
 
