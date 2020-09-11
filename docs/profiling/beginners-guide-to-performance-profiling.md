@@ -27,13 +27,13 @@ When the debugger pauses, the **CPU Usage** tool in the Diagnostic Tools window 
 > [!Important]
 > The debugger-integrated Diagnostics Tools are supported for .NET development in Visual Studio, including ASP.NET, ASP.NET Core, and for native/C++ development. Windows 8 and later is required to run profiling tools with the debugger (**Diagnostic Tools** window).
 
-If **CPU Usage** does not give you the data that you need, other profiling tools in the [Performance Profiler](../profiling/profiling-feature-tour.md#post_mortem) provide different kinds of information that might be helpful to you. In many cases, the performance bottleneck of your application may be caused by something other than your CPU, such as memory, rendering UI, or network request time.
-
 In this tutorial, you will:
 
 > [!div class="checklist"]
 > * Collect CPU usage data
 > * Analyze CPU usage data
+
+If **CPU Usage** does not give you the data that you need, other profiling tools in the [Performance Profiler](../profiling/profiling-feature-tour.md#post_mortem) provide different kinds of information that might be helpful to you. In many cases, the performance bottleneck of your application may be caused by something other than your CPU, such as memory, rendering UI, or network request time.
 
 ## Step 1: Collect profiling data
 

@@ -11,19 +11,19 @@ ms.workload:
 ---
 # Run profiling tools with or without the debugger
 
-Visual Studio offers a choice of performance measurement and profiling tools. Some tools, like CPU Usage and Memory Usage, can run with or without the debugger, and on release or debug build configurations. Tools that appear in the [Diagnostics Tools window](../profiling/profiling-feature-tour.md#view-performance-while-debugging) run only during a debugging session. Tools that appear in the [Performance Profiler](../profiling/profiling-feature-tour.md#post_mortem) run without the debugger and you analyze the results after you choose to stop and collect data (for post-mortem analysis).
+Visual Studio offers a choice of performance measurement and profiling tools. Some tools, like CPU Usage and Memory Usage, can run with or without the debugger, and on release or debug build configurations. Tools that appear in the [Diagnostics Tools window](../profiling/profiling-feature-tour.md#measure-performance-while-debugging) run only during a debugging session. Tools that appear in the [Performance Profiler](../profiling/profiling-feature-tour.md#post_mortem) run without the debugger and you analyze the results after you choose to stop and collect data (for post-mortem analysis).
 
 >[!NOTE]
 >You can use the non-debugger performance tools with Windows 7 and later. Windows 8 or later is required to run the debugger-integrated profiling tools.
 
-The non-debugger Performance Profiler and the debugger-integrated Diagnostic Tools provide different information and experiences. Debugger-integrated tools show you breakpoints and variable values. Non-debugger tools give you results closer to the end-user experience.
+The non-debugger Performance Profiler and the debugger-integrated Diagnostic Tools provide different information and experiences. Debugger-integrated tools show you variable values and let you use breakpoints. Non-debugger tools give you results closer to the end-user experience.
 
 To help decide which tools and results to use, consider the following:
 
 - Debugger-integrated tool vs. non-debugger tool
   - External performance problems, like file I/O or network responsiveness issues, won't look much different in the debugger or non-debugger tools.
   - The debugger itself changes performance times, as it does necessary debugger operations like intercepting exception and module load events.
-  - Release build performance numbers in the Performance Profiler tools are the most precise and accurate. Debugger-integrated tool results are most useful to compare with other debugging-related measurements.
+  - Release build performance numbers in the Performance Profiler tools are the most precise and accurate. Debugger-integrated tool results are most useful to compare with other debugging-related measurements, or to use debugger features.
 - Debug vs. release build
   - For problems caused by CPU-intensive calls, there might be considerable performance differences between release and debug builds. Check to see whether the issue exists in release builds.
   - If the problem occurs only during debug builds, you probably don't need to run the non-debugger tools. For release build problems, decide whether features provided by the debugger-integrated tools will help to pinpoint the problem.

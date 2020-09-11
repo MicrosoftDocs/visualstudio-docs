@@ -19,13 +19,13 @@ Although you can collect memory snapshots at any time in the **Memory Usage** to
 > [!Important]
 > The debugger-integrated Diagnostics Tools are supported for .NET development in Visual Studio, including ASP.NET, ASP.NET Core, native/C++ development, and mixed mode (.NET and native) apps. Windows 8 and later is required to run profiling tools with the debugger (**Diagnostic Tools** window).
 
-If **Memory Usage** does not give you the data that you need, other profiling tools in the [Performance Profiler](../profiling/profiling-feature-tour.md#post_mortem) provide different kinds of information that might be helpful to you. In many cases, the performance bottleneck of your application may be caused by something other than your memory, such as CPU, rendering UI, or network request time.
-
 In this tutorial, you will:
 
 > [!div class="checklist"]
 > * Take snapshots of memory
 > * Analyze memory usage data
+
+If **Memory Usage** does not give you the data that you need, other profiling tools in the [Performance Profiler](../profiling/profiling-feature-tour.md#post_mortem) provide different kinds of information that might be helpful to you. In many cases, the performance bottleneck of your application may be caused by something other than your memory, such as CPU, rendering UI, or network request time.
 
 > [!NOTE]
 > **Custom Allocator Support** The native memory profiler works by collecting allocation [ETW](/windows-hardware/drivers/devtest/event-tracing-for-windows--etw-) event data emitted during run time.  Allocators in the CRT and Windows SDK have been annotated at the source level so that their allocation data can be captured. If you are writing your own allocators, then any functions that return a pointer to newly allocated heap memory can be decorated with [__declspec](/cpp/cpp/declspec)(allocator), as seen in this example for myMalloc:
