@@ -1,7 +1,7 @@
 ---
 title: "Measure performance with profiling tools"
 description: "Take a brief look at the different diagnostic tools available in Visual Studio."
-ms.custom: "mvc"
+ms.custom: ""
 ms.date: 09/08/2020
 ms.topic: overview
 f1_keywords:
@@ -39,7 +39,7 @@ Tools available in the Diagnostic Tools window or during a debugging session inc
 - [PerfTips](../profiling/perftips.md)
 
 > [!NOTE]
-> You can use the post-mortem tools with Windows 7 and later. Windows 8 and later is required to run profiling tools with the debugger (**Diagnostic Tools** window).
+> Windows 8 and later is required to run profiling tools with the debugger (**Diagnostic Tools** window). You can use the [post-mortem](#post_mortem) tools with Windows 7 and later. 
 
 ## <a name="post_mortem"></a> View performance in release builds
 
