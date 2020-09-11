@@ -1,5 +1,5 @@
 ---
-title: Support for the Navigation Bar in a Legacy Language Service | Microsoft Docs
+title: Support Navigation bar in a legacy language service
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

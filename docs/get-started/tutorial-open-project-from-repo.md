@@ -174,8 +174,8 @@ If you're ready to code with Visual Studio, dive into any of the following langu
 - [Visual Studio tutorials | **C#**](./csharp/index.yml)
 - [Visual Studio tutorials | **Visual Basic**](./visual-basic/index.yml)
 - [Visual Studio tutorials | **C++**](/cpp/get-started/tutorial-console-cpp)
-- [Visual Studio tutorials | **Python**](/visualstudio/python/)
-- [Visual Studio tutorials | **JavaScript**, **TypeScript**, and **Node.js**](/visualstudio/javascript/)
+- [Visual Studio tutorials | **Python**](../python/index.yml)
+- [Visual Studio tutorials | **JavaScript**, **TypeScript**, and **Node.js**](../javascript/index.yml)
 
 ## See also
 

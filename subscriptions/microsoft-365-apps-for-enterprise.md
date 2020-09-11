@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 apps for enterprise benefit in Visual Studio subscriptions | Microsoft Docs
+title: Microsoft 365 apps for enterprise in Visual Studio subscriptions | Microsoft Docs
 author: evanwindom
 ms.author: v-evwin
 manager: cabuschl

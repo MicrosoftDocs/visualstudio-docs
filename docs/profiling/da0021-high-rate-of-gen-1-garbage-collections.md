@@ -34,11 +34,11 @@ ms.workload:
 
  Objects in generation 0 are collected frequently and usually very efficiently. Objects in generation 1 are collected less frequently and less efficiently. Finally, long-lived objects in generation 2 should be collected even less frequently. Generation 2 collection, which is a full garbage collection run, is also the most expensive operation.
 
- This rule fires when proportionally too many generation 1 garbage collections have occurred. If too many fairly short-lived objects survive generation 0 collection but are then able to be collected in a generation 1 collection, the cost of memory management can become excessive. For more information, see the [Mid-life crisis](https://blogs.msdn.microsoft.com/ricom/2003/12/04/mid-life-crisis/) post on the Rico Mariani's Performance Tidbits on the MSDN Web site.
+ This rule fires when proportionally too many generation 1 garbage collections have occurred. If too many fairly short-lived objects survive generation 0 collection but are then able to be collected in a generation 1 collection, the cost of memory management can become excessive. For more information, see the [Mid-life crisis](/archive/blogs/ricom/mid-life-crisis) post on the Rico Mariani's Performance Tidbits on the MSDN Web site.
 
 ## How to investigate a warning
  Double-click the message in the Errors List window to navigate to the [Marks View](../profiling/marks-view.md) of the profiling data. Find the **.NET CLR Memory\\# of Gen 0 Collections** and **.NET CLR Memory\\# of Gen 1 Collections** columns. Determine if there are specific phases of program execution where garbage collection is occurring more frequently. Compare these values to the **% Time in GC** column to see if the pattern of managed memory allocations is causing excessive memory management overhead.
 
  To understand the application's pattern of managed memory usage, profile it again running a.NET Memory allocation profile and request Object Lifetime measurements.
 
- For information about how to improve garbage collection performance, see [Garbage Collector Basics and Performance Hints](/previous-versions/dotnet/articles/ms973837(v=msdn.10)) on the Microsoft Web site. For information about the overhead of automatic garbage collection, see [Large Object Heap Uncovered](https://msdn.microsoft.com/magazine/cc534993.aspx).
+ For information about how to improve garbage collection performance, see [Garbage Collector Basics and Performance Hints](/previous-versions/dotnet/articles/ms973837(v=msdn.10)) on the Microsoft Web site. For information about the overhead of automatic garbage collection, see [Large Object Heap Uncovered](/archive/msdn-magazine/2008/june/clr-inside-out-large-object-heap-uncovered).

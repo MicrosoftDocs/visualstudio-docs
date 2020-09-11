@@ -1,5 +1,5 @@
 ---
-title: 'Walkthrough: Creating a Dataset with the Dataset Designer'
+title: Create a Dataset with the Dataset Designer
 ms.date: 09/11/2017
 ms.topic: conceptual
 helpviewer_keywords:

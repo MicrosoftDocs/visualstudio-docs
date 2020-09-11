@@ -1,10 +1,10 @@
 ---
-title: Microsoft Windows Virtual Desktop benefit in Visual Studio subscriptions | Microsoft Docs
+title: Microsoft Windows Virtual Desktop in Visual Studio subscriptions | Microsoft Docs
 author: evanwindom
-ms.author: lank
-manager: lank
+ms.author: v-evwin
+manager: cabuschl
 ms.assetid: 872c5746-5357-4764-949b-aa525a0adf1a
-ms.date: 04/20/2020
+ms.date: 09/08/2020
 ms.topic: conceptual
 description:  Learn how you can take advantage of Microsoft Windows Virtual Desktop via your Visual Studio subscription 
 ---

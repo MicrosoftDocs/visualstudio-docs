@@ -1,5 +1,5 @@
 ---
-title: Additional Source Control Guidelines for Projects and Editors | Microsoft Docs
+title: Source control guidelines for projects and editors
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

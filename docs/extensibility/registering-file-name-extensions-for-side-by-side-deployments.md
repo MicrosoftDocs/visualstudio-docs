@@ -1,5 +1,5 @@
 ---
-title: Registering File Name Extensions for Side-By-Side Deployments | Microsoft Docs
+title: Register filename extensions for side-by-side IDEs
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

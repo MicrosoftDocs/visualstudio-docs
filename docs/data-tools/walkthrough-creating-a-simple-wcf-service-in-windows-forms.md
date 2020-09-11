@@ -1,5 +1,5 @@
 ---
-title: 'Walkthrough: Creating a simple WCF Service in Windows Forms'
+title: Create a simple WCF Service in Windows Forms
 ms.date: 11/04/2016
 ms.topic: conceptual
 dev_langs:
