@@ -48,9 +48,9 @@
   items:
     - name: Kubernetes in Visual Studio
       href: tutorial-kubernetes-tools.md
-    - name: Bridge to Kubernetes (Preview)
+    - name: Bridge to Kubernetes
       href: bridge-to-kubernetes.md
-    - name: How Bridge to Kubernetes works (Preview)
+    - name: How Bridge to Kubernetes works
       href: overview-bridge-to-kubernetes.md
     - name: Configure Bridge to Kubernetes
       href: configure-bridge-to-kubernetes.md

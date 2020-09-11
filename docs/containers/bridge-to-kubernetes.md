@@ -12,7 +12,7 @@ author: ghogen
 manager: jillfra
 ---
 
-# Use Bridge to Kubernetes (Preview)
+# Use Bridge to Kubernetes
 
 Bridge to Kubernetes allows you to run and debug code on your development computer, while still connected to your Kubernetes cluster with the rest of your application or services. For example, if you have a large microservices architecture with many interdependent services and databases, replicating those dependencies on your development computer can be difficult. Additionally, building and deploying code to your Kubernetes cluster for each code change during inner-loop development can be slow, time consuming, and difficult to use with a debugger.
 
@@ -21,9 +21,6 @@ Bridge to Kubernetes avoids having to build and deploy your code to your cluster
 Bridge to Kubernetes redirects traffic between your connected Kubernetes cluster and your development computer. This traffic redirection allows code on your development computer and services running in your Kubernetes cluster to communicate as if they are in the same Kubernetes cluster. Bridge to Kubernetes also provides a way to replicate environment variables and mounted volumes available to pods in your Kubernetes cluster in your development computer. Providing access to environment variables and mounted volumes on your development computer allows you to quickly work on your code without having replicate those dependencies manually.
 
 In this guide, you will learn how to use Bridge to Kubernetes to redirect traffic between your Kubernetes cluster and code running on your development computer. This guide also provides a script for deploying a large sample application with multiple microservices on a Kubernetes cluster.
-
-> [!IMPORTANT]
-> This feature is currently in preview. Previews are made available to you on the condition that you agree to the [supplemental terms of use][preview-terms]. Some aspects of this feature may change prior to general availability (GA).
 
 ## Before you begin
 
@@ -62,14 +59,14 @@ Install the sample application on your cluster using the provided script. You ca
 ```azurecli-interactive
 git clone https://github.com/Microsoft/mindaro
 cd mindaro
-chmod +x ./local-process-quickstart.sh
-./local-process-quickstart.sh -g MyResourceGroup -n MyAKS
+chmod +x ./bridge-quickstart.sh
+./bridge-quickstart.sh -g MyResourceGroup -n MyAKS
 ```
 
 Navigate to the sample application running your cluster by opening its public URL, which is displayed in the output of the installation script.
 
 ```console
-$ ./local-process-quickstart.sh -g MyResourceGroup -n MyAKS
+$ ./bridge-quickstart.sh -g MyResourceGroup -n MyAKS
 Defaulting Dev spaces repository root to current directory : ~/mindaro
 Setting the Kube context
 ...
@@ -149,7 +146,7 @@ You can find the diagnostic logs in `Bridge to Kubernetes` directory in your dev
 Use the provided script to remove the sample application from your cluster.
 
 ```azurecli-interactive
-./local-process-quickstart.sh -c -g MyResourceGroup -n MyAKS
+./bridge-quickstart.sh -c -g MyResourceGroup -n MyAKS
 ```
 
 ## Next steps
