@@ -1,5 +1,6 @@
 ---
 title: Sign in to Visual Studio
+description: Learn how to sign in to Visual Studio. 
 titleSuffix: ''
 ms.custom: "seodec18, contperfq1"
 ms.date: 09/11/2020
