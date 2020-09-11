@@ -21,6 +21,8 @@ ms.workload:
 
 Visual Studio provides a variety of profiling tools to help you diagnose different kinds of performance issues depending on your app type. In this article, we give a quick look at the most common profiling tools.
 
+To see profiling tool support for different app types, see [Which tool should I use?](#which-tool-should-i-use)
+
 ## View performance while debugging
 
 The profiling tools that you can access during a debugging session are available in the Diagnostic Tools window. The Diagnostic Tools window appears automatically unless you have turned it off. To bring up the window, click **Debug / Windows / Show Diagnostic Tools**. With the window open, you can select tools for which you want to collect data.
@@ -215,7 +217,7 @@ Here is a table that lists the different tools Visual Studio offers and the diff
 |Performance Tool|Windows desktop|UWP|ASP.NET/ASP.NET Core|
 |----------------------|---------------------|-------------|-------------|
 |[PerfTips](../profiling/perftips.md)|yes|yes|yes|
-|[CPU Usage](../profiling/cpu-usage.md)|yes|yes|yes|
+|[CPU Usage](../profiling/beginners-guide-to-performance-profiling.md)|yes|yes|yes|
 |[Memory Usage](../profiling/memory-usage.md)|yes|yes|yes|
 |[.NET Object Allocation](../profiling/dotnet-alloc-tool.md)|yes (.NET only)|yes|yes|
 |[GPU Usage](/visualstudio/debugger/graphics/gpu-usage)|yes|yes|no|
@@ -223,14 +225,14 @@ Here is a table that lists the different tools Visual Studio offers and the diff
 |[Events viewer](../profiling/events-viewer.md)|yes|yes|yes|
 |[.NET Async](../profiling/analyze-async.md)|yes (.NET only)|yes|yes|
 |[Database](../profiling/analyze-database.md)|yes (.NET Core only)|no|yes (ASP.NET Core only)|
-|[Performance Explorer](../profiling/performance-explorer.md)|no|no|no|
+|[Performance Explorer](#analyze-performance-legacy-tools)|no|no|no|
 |[IntelliTrace](../debugger/intellitrace.md)|.NET with Visual Studio Enterprise only|.NET with Visual Studio Enterprise only|.NET with Visual Studio Enterprise only|
 ::: moniker-end
 
 ::: moniker range="vs-2017"
 |Performance Tool|Windows desktop|UWP|ASP.NET/ASP.NET Core|
 |----------------------|---------------------|-------------|-------------|
-|[CPU Usage](../profiling/cpu-usage.md)|yes|yes|yes|
+|[CPU Usage](../profiling/beginners-guide-to-performance-profiling.md)|yes|yes|yes|
 |[Memory Usage](../profiling/memory-usage.md)|yes|yes|yes|
 |[GPU Usage](/visualstudio/debugger/graphics/gpu-usage)|yes|yes|no|
 |[Application Timeline](../profiling/application-timeline.md)|yes (XAML)|yes|no|
