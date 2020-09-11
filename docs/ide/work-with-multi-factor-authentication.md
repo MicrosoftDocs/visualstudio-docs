@@ -1,6 +1,7 @@
 ---
-title: Work with accounts that require multi-factor authentication
+title: Use accounts that require multi-factor authentication
 ms.date: 05/27/2020
+ms.custom: SEO-VS-2020
 ms.topic: conceptual
 description: "Learn how to use Visual Studio with accounts that require multi-factor authentication."
 author: ornellaalt

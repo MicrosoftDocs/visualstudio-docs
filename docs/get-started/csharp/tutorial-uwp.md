@@ -1,8 +1,8 @@
 ---
-title: Create a Universal Windows Platform (UWP) App with Visual Studio and C#
+title: Create a UWP App with Visual Studio and C#
 description: Create a UWP app in Visual Studio with XAML and C#
 titleSuffix: ""
-ms.custom: "seodec18, get-started"
+ms.custom: "seodec18, get-started, SEO-VS-2020"
 ms.date: "09/20/2019"
 ms.technology: vs-ide-general
 ms.topic: tutorial

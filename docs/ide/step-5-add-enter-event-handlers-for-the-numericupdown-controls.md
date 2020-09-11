@@ -1,6 +1,7 @@
 ---
-title: "Step 5: Add Enter event handlers for NumericUpDown controls"
+title: "Add Enter event handlers for NumericUpDown controls"
 ms.date: 11/04/2016
+ms.custom: SEO-VS-2020
 ms.topic: tutorial
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-general

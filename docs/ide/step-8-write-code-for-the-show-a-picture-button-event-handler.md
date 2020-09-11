@@ -1,6 +1,7 @@
 ---
-title: 'Step 8: Write code for the show a picture button event handler'
+title: 'Write code for the show a picture button event handler'
 ms.date: 08/30/2019
+ms.custom: SEO-VS-2020
 ms.assetid: 07f4ec00-cda4-42f4-98bb-37edc7167de7
 ms.topic: tutorial
 ms.prod: visual-studio-windows
