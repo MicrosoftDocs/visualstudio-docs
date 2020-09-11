@@ -19,7 +19,7 @@ Each code quality analyzer (those whose rule IDs start with `CA`), can be refine
 > [!TIP]
 > Add an .editorconfig file to your project by right-clicking the project in **Solution Explorer** and selecting **Add** > **New Item**. In the **Add New Item** window, enter **editorconfig** in the search box. Select the **editorconfig File (default)** template and choose **Add**.
 >
-> ![Add editorconfig file to project in Visual Studio](media/add-editorconfig-file.png)
+> ![Add EditorConfig file to project in Visual Studio](media/add-editorconfig-file.png)
 
 ::: moniker range=">=vs-2019"
 
@@ -57,7 +57,7 @@ The syntax for configuring an option for a *specific* rule is as follows:
 |-|-|
 | dotnet_code_quality.RuleId.OptionName = OptionValue | `dotnet_code_quality.CA1040.api_surface = public` |
 
-## Enabling Editorconfig based configuration
+## Enabling EditorConfig based configuration
 
 EditorConfig-based analyzer configuration can be enabled for the following scopes:
 
