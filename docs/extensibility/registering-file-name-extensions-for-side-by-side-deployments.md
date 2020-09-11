@@ -1,5 +1,6 @@
 ---
 title: Register filename extensions for side-by-side IDEs
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

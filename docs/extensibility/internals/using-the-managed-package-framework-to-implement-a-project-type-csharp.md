@@ -1,5 +1,6 @@
 ---
 title: Use Managed Package Framework for a project type (C#)
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
