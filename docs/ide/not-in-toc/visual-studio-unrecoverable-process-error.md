@@ -47,4 +47,4 @@ Following is a list of out-of-proc processes used by Visual Studio. This list is
 If any of these processes terminates unexpectedly, some functionality within Visual Studio stops working. For some processes, the loss of functionality may be insignificant. For others, the stability of Visual Studio is affected and an error message is displayed.
 
 > [!NOTE]
-> If you experience a problem that's not referenced on this page, please report it to us via the [Report a Problem](../ide/how-to-report-a-problem-with-visual-studio.md) tool that appears both in the Visual Studio Installer and in the Visual Studio IDE.
+> If you experience a problem that's not referenced on this page, please report it to us via the [Report a Problem](../../ide/how-to-report-a-problem-with-visual-studio.md) tool that appears both in the Visual Studio Installer and in the Visual Studio IDE.
