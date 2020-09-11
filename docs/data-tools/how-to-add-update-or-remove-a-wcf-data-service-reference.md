@@ -1,6 +1,7 @@
 ---
 title: Add, update, or remove a WCF data service reference
 ms.date: 11/04/2016
+ms.custom: SEO-VS-2020
 ms.topic: how-to
 helpviewer_keywords:
 - service references [Visual Studio]

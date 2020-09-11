@@ -1,5 +1,6 @@
 ---
 title: Manage a private gallery by using registry settings
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

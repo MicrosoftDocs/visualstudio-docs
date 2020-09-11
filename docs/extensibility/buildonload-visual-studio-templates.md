@@ -1,6 +1,7 @@
 ---
 title: BuildOnLoad attribute and element (Visual Studio Templates)
 titleSuffix: ""
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.technology: vs-ide-general
 ms.topic: reference
