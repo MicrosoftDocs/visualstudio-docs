@@ -14,7 +14,7 @@
     href: quickstart-deploy-to-linux.md
   - name: Deploy to a web site
     href: quickstart-deploy-to-a-web-site.md
-  - name: Deploy to a local folder
+  - name: Deploy to a folder
     href: quickstart-deploy-to-local-folder.md
 - name: Tutorials
   items:
@@ -53,11 +53,11 @@
   - name: Node.js
     items:
     - name: Publish to Linux App Service
-      href: /visualstudio/javascript/publish-nodejs-app-azure
+      href: ../javascript/publish-nodejs-app-azure.md
   - name: Python
     items:
     - name: Publish to Azure App Service
-      href: /visualstudio/python/publishing-python-web-applications-to-azure-from-visual-studio
+      href: ../python/publishing-python-web-applications-to-azure-from-visual-studio.md
 - name: How-to guides
   items:
   - name: ClickOnce security and deployment
