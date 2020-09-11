@@ -1,6 +1,6 @@
 ---
 title: Code quality rules overview
-ms.date: 08/27/2020
+ms.date: 09/01/2020
 ms.topic: reference
 f1_keywords:
 - CA1000
@@ -255,9 +255,9 @@ manager: jillfra
 ms.workload:
 - dotnet
 ---
-# Code analysis warnings for managed code by CheckId
+# Code quality analysis rules by rule ID
 
-The following table lists Code Analysis warnings for managed code by the CheckId identifier of the warning.
+The following table lists code quality analysis rules by rule identifier.
 
 | CheckId | Warning | Description |
 |---------| - | - |
@@ -462,7 +462,7 @@ The following table lists Code Analysis warnings for managed code by the CheckId
 | CA5358 | [CA5358: Do Not Use Unsafe Cipher Modes](../code-quality/ca5358.md) | Do Not Use Unsafe Cipher Modes |
 | CA5359 | [CA5359 Do not disable certificate validation](../code-quality/ca5359.md) | A certificate can help authenticate the identity of the server. Clients should validate the server certificate to ensure requests are sent to the intended server. If the ServerCertificateValidationCallback always returns `true`, any certificate will pass validation. |
 | CA5360 | [CA5360 Do not call dangerous methods in deserialization](../code-quality/ca5360.md) | Insecure deserialization is a vulnerability which occurs when untrusted data is used to abuse the logic of an application, inflict a Denial-of-Service (DoS) attack, or even execute arbitrary code upon it being deserialized. It's frequently possible for malicious users to abuse these deserialization features when the application is deserializing untrusted data which is under their control. Specifically, invoke dangerous methods in the process of deserialization. Successful insecure deserialization attacks could allow an attacker to carry out attacks such as DoS attacks, authentication bypasses, and remote code execution. |
-| CA5361 | [CA5361: Do not disable SChannel use of strong crypto](../code-quality/ca5361.md) | Setting `Switch.System.Net.DontEnableSchUseStrongCrypto` to `true` weakens the cryptography used in outgoing Transport Layer Security (TLS) connections. Weaker cryptography can compromise the confidentiality of communication between your application and the server, making it easier for attackers to eavesdrop sensitive data. |
+| CA5361 | [CA5361: Do not disable Schannel use of strong crypto](../code-quality/ca5361.md) | Setting `Switch.System.Net.DontEnableSchUseStrongCrypto` to `true` weakens the cryptography used in outgoing Transport Layer Security (TLS) connections. Weaker cryptography can compromise the confidentiality of communication between your application and the server, making it easier for attackers to eavesdrop sensitive data. |
 | CA5362 | [CA5362 Potential reference cycle in deserialized object graph](../code-quality/ca5362.md) | If deserializing untrusted data, then any code processing the deserialized object graph needs to handle reference cycles without going into infinite loops. This includes both code that's part of a deserialization callback and code that processes the object graph after deserialization completed. Otherwise, an attacker could perform a Denial-of-Service attack with malicious data containing a reference cycle. |
 | CA5363 | [CA5363: Do not disable request validation](../code-quality/ca5363.md) | Request validation is a feature in ASP.NET that examines HTTP requests and determines whether they contain potentially dangerous content that can lead to injection attacks, including cross-site-scripting. |
 | CA5364 | [CA5364: Do not use deprecated security protocols](../code-quality/ca5364.md) | Transport Layer Security (TLS) secures communication between computers, most commonly with Hypertext Transfer Protocol Secure (HTTPS). Older protocol versions of TLS are less secure than TLS 1.2 and TLS 1.3 and are more likely to have new vulnerabilities. Avoid older protocol versions to minimize risk. |

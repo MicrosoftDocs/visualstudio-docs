@@ -1,6 +1,7 @@
 ---
 title: Visual Studio Container Tools with ASP.NET Core and React.js
 titleSuffix: ""
+ms.custom: SEO-VS-2020
 author: ghogen
 description: Learn how to use Visual Studio Container Tools and Docker for Windows
 ms.author: ghogen

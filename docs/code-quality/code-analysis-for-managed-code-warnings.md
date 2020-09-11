@@ -17,9 +17,9 @@ ms.workload:
 - dotnet
 ---
 # .NET Code Analysis Rules
-The Managed Code Analysis tool provides warnings that indicate rule violations in managed code libraries. The warnings are organized into rule areas such as design, localization, performance, and security. Each warning signifies a violation of a Managed Code Analysis rule. This section provides in-depth discussions and examples for each Managed Code Analysis warning.
+The .NET code analysis provides rules that indicate code quality violations or suggestions to improve code quality. The rules are organized into rule areas such as design, localization, performance, and security. Certain rules are specific to .NET API usage, while remaining rules are about generic code quality. This section provides in-depth discussions and examples for each rule.
 
- The following table shows the type of information that is provided for each warning.
+ The following table shows the type of information that is provided for each diagnostic.
 
 |Item|Description|
 |----------|-----------------|
