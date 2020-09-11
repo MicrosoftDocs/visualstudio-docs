@@ -23,7 +23,7 @@ Visual Studio provides a variety of profiling tools to help you diagnose differe
 
 To see profiling tool support for different app types, see [Which tool should I use?](#which-tool-should-i-use)
 
-## View performance while debugging
+## Measure performance while debugging
 
 The profiling tools that you can access during a debugging session are available in the Diagnostic Tools window. The Diagnostic Tools window appears automatically unless you have turned it off. To bring up the window, click **Debug / Windows / Show Diagnostic Tools**. With the window open, you can select tools for which you want to collect data.
 
@@ -43,7 +43,7 @@ Tools available in the Diagnostic Tools window or during a debugging session inc
 > [!NOTE]
 > Windows 8 and later is required to run profiling tools with the debugger (**Diagnostic Tools** window). You can use the [post-mortem](#post_mortem) tools with Windows 7 and later. 
 
-## <a name="post_mortem"></a> View performance in release builds
+## <a name="post_mortem"></a> Measure performance in release builds
 
 Tools in the Performance Profiler are intended to provide analysis for **Release** builds. In the Performance Profiler, you can collect diagnostic info while the app is running, and then examine the collected information after the app is stopped (a post-mortem analysis).
 
