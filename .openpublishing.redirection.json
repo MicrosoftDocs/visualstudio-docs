@@ -141,6 +141,11 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "docs/code-quality/analyzer-rule-sets.md",
+      "redirect_url": "/visualstudio/code-quality/configure-fxcop-analyzers",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/code-quality/fxcop-analyzers.yml",
       "redirect_url": "/visualstudio/code-quality/migrate-from-legacy-analysis-to-fxcop-analyzers",
       "redirect_document_id": false
