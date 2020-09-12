@@ -1,5 +1,6 @@
 ---
 title: Configure projects to target multiple platforms
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.technology: vs-ide-compile
 ms.topic: how-to

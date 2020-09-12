@@ -1,6 +1,7 @@
 ---
 title: Create a simple WCF Service in Windows Forms
 ms.date: 11/04/2016
+ms.custom: SEO-VS-2020
 ms.topic: conceptual
 dev_langs:
 - VB
