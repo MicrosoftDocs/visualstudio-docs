@@ -440,7 +440,7 @@ You can analyze Coded UI tests using Coded UI test logs. Coded UI test logs filt
 
 - [Run tests in your build process](/azure/devops/pipelines/test/getting-started-with-continuous-testing?view=vsts)
 
-- [How to: Set up your test agent to run tests that interact with the desktop](https://msdn.microsoft.com/Library/3a94dd07-6d17-402c-ae8f-7947143755c9)
+- [How to: Set up your test agent to run tests that interact with the desktop](/previous-versions/ee291332(v=vs.140))
 
 **Adding support for custom controls:**  The Coded UI testing framework does not support every possible UI and might not support the UI you want to test. For example, you cannot immediately create a Coded UI test of the UI for Microsoft Excel. However, you can create an extension to the Coded UI testing framework that supports a custom control.
 

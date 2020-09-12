@@ -21,7 +21,7 @@ Quick Actions can be used to:
 
 ::: moniker range=">=vs-2019"
 
-- [Suppress](../code-quality/use-roslyn-analyzers.md#suppress-violations) a code analyzer rule violation or [configure](../code-quality/use-roslyn-analyzers.md#automatically-configure-rule-severity) its severity
+- [Suppress](../code-quality/use-roslyn-analyzers.md#suppress-violations) a code analyzer rule violation or [configure](../code-quality/use-roslyn-analyzers.md#set-rule-severity-from-the-light-bulb-menu) its severity
 
 ::: moniker-end
 

@@ -1,6 +1,7 @@
 ---
 title: Increase the chance of a performance issue being fixed
 description: Additional information and best practices for submitting performance issues in Visual Studio
+ms.custom: SEO-VS-2020
 author: madskristensen
 ms.author: madsk
 ms.date: 11/19/2019 

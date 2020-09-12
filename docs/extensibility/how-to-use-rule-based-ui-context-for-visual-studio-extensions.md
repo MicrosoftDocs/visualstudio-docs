@@ -1,6 +1,7 @@
 ---
 title: Use rule-based UI context for Visual Studio extensions
 titleSuffix: ""
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 ms.assetid: 8dd2cd1d-d8ba-49b9-870a-45acf3a3259d
