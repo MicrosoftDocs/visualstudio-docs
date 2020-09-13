@@ -375,3 +375,9 @@ Values: `true`, `false`
   - `one_liners` - Don't wrap one-line code blocks.
   - `all_one_line_scopes` - Don't wrap code blocks where opening and closing braces are on the next line.
   - `never` - Always apply New Lines settings for blocks.
+
+## See also
+
+- [EditorConfig.org](https://editorconfig.org/)
+- [Supporting EditorConfig for a language service](../extensibility/supporting-editorconfig.md)
+- [Features of the code editor](writing-code-in-the-code-and-text-editor.md)
