@@ -1,6 +1,6 @@
 ---
 title: require-dotnetcoresdk
-description: Devinit tool require-dotnetsdk.
+description: devinit tool require-dotnetsdk.
 ms.date: 08/28/2020
 ms.topic: reference
 author: andster

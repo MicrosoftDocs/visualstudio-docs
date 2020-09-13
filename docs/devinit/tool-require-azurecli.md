@@ -1,6 +1,6 @@
 ---
 title: require-azurecli
-description: Devinit tool require-azurecli.
+description: devinit tool require-azurecli.
 ms.date: 08/28/2020
 ms.topic: reference
 author: andster

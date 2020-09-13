@@ -1,6 +1,6 @@
 ---
 title: nuget-restore
-description: Devinit tool nuget-restore.
+description: devinit tool nuget-restore.
 ms.date: 08/28/2020
 ms.topic: reference
 author: andster

@@ -1,6 +1,6 @@
 ---
 title: require-nuget
-description: Devinit tool require-nuget.
+description: devinit tool require-nuget.
 ms.date: 08/28/2020
 ms.topic: reference
 author: andster

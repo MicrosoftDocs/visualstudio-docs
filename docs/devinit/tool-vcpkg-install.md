@@ -1,6 +1,6 @@
 ---
 title: vcpkg-install
-description: Devinit tool vcpkg-install.
+description: devinit tool vcpkg-install.
 ms.date: 08/28/2020
 ms.topic: reference
 author: andster

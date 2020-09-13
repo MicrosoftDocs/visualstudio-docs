@@ -12,9 +12,8 @@ ms.workload:
 # Available tools
 
 The table below contains a list of all the currently available tools for `devinit`.
-
-| Tool                                                                                                       | Description                                                                                                 |
-|------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|
+| Tool                                                                                             | Description                                                                                                 |
+|--------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|
 | [**choco-install**](tool-choco-install.md)                                                       | Tool to install chocolatey packages.                                                                        |
 | [**dotnet-restore**](tool-dotnet-restore.md)                                                     | Tool to restore the dependencies and tools of a .NET project.                                               |
 | [**dotnet-toolinstall**](tool-dotnet-toolinstall.md)                                             | Tool to install the .NET Core tools (for example. dotnet-ef)                                                |
@@ -24,7 +23,7 @@ The table below contains a list of all the currently available tools for `devini
 | [**require-azurecli**](tool-require-azurecli.md)                                                 | Tool to install the Azure CLI.                                                                              |
 | [**require-dotnetcoresdk**](tool-require-dotnetcoresdk.md)                                       | Tool to install the .NET Core SDK and shared runtime.                                                       |
 | [**require-dotnetframeworksdk**](tool-require-dotnetframeworksdk.md)                             | Tool to install the .NET Framework SDK.                                                                     |
-| [**require-gitsubmodule**](tool-require-gitsubmodule.md)                                        | Restore Git Submodule. Use local `.gitmodules` if no `.gitmodules` is passed.                               |
+| [**require-gitsubmodule**](tool-require-gitsubmodule.md)                                         | Restore Git Submodule. Use local `.gitmodules` if no `.gitmodules` is passed.                               |
 | [**require-mssql**](tool-require-mssql.md)                                                       | Tool to install MS SQL Server 2019.                                                                         |
 | [**require-nodejs**](tool-require-nodejs.md)                                                     | Tool to install Nodejs and NPM.                                                                             |
 | [**require-npm**](tool-require-npm.md)                                                           | Tool to install NPM.                                                                                        |

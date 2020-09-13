@@ -1,6 +1,6 @@
 ---
 title: require-dotnetframeworksdk
-description: Devinit tool require-dotnetframeworksdk.
+description: devinit tool require-dotnetframeworksdk.
 ms.date: 08/28/2020
 ms.topic: reference
 author: andster

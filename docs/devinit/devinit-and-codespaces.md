@@ -1,5 +1,5 @@
 ---
-title: Devinit and Visual Studio Codespaces
+title: devinit and Visual Studio Codespaces
 description: Learn how to customize a Codespace for Visual Studio using devinit.
 ms.date: 08/28/2020
 ms.topic: reference
@@ -9,7 +9,7 @@ manager: jillfra
 ms.workload:
 - multiple
 ---
-# Devinit and Visual Studio Codespaces
+# devinit and Visual Studio Codespaces
 
 `devinit` is a great compliment to [Visual Studio Codespaces](https://visualstudio.microsoft.com/services/visual-studio-codespaces) and `devinit` can be used to get a Visual Studio Codespace setup so contributors can build, run, and debug right away.
 

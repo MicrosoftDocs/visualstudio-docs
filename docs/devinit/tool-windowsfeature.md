@@ -1,6 +1,6 @@
 ---
 title: windowsfeature
-description: Devinit tool windowsfeature.
+description: devinit tool windowsfeature.
 ms.date: 08/28/2020
 ms.topic: reference
 author: andster

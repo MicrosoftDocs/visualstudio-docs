@@ -1,6 +1,6 @@
 ---
 title: require-nodejs
-description: Devinit tool require-nodejs.
+description: devinit tool require-nodejs.
 ms.date: 08/28/2020
 ms.topic: reference
 author: andster

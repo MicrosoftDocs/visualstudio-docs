@@ -1,6 +1,6 @@
 ---
 title: choco-upgrade
-description: Devinit tool choco-upgrade.
+description: devinit tool choco-upgrade.
 ms.date: 08/28/2020
 ms.topic: reference
 author: andster

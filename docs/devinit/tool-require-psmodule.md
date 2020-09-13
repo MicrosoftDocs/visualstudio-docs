@@ -1,6 +1,6 @@
 ---
 title: require-psmodule
-description: Devinit tool require-psmodule.
+description: devinit tool require-psmodule.
 ms.date: 08/28/2020
 ms.topic: reference
 author: andster

@@ -1,6 +1,6 @@
 ---
 title: azurecli-login
-description: Devinit tool azurecli-login.
+description: devinit tool azurecli-login.
 ms.date: 08/28/2020
 ms.topic: reference
 author: andster

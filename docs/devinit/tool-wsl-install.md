@@ -1,6 +1,6 @@
 ---
 title: wsl-install
-description: Devinit tool wsl-install.
+description: devinit tool wsl-install.
 ms.date: 08/28/2020
 ms.topic: reference
 author: andster

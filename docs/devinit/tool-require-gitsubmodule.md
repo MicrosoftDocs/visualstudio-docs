@@ -1,6 +1,6 @@
 ---
 title: require-gitsubmodule
-description: Devinit tool require-gitsubmodule.
+description: devinit tool require-gitsubmodule.
 ms.date: 08/28/2020
 ms.topic: reference
 author: andster

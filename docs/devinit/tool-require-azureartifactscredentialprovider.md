@@ -1,6 +1,6 @@
 ---
 title: require-azureartifactscredentialprovider
-description: Devinit tool require-azureartifactscredentialprovider.
+description: devinit tool require-azureartifactscredentialprovider.
 ms.date: 08/28/2020
 ms.topic: reference
 author: andster

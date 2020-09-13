@@ -1,6 +1,6 @@
 ---
 title: require-npm
-description: Devinit tool require-npm.
+description: devinit tool require-npm.
 ms.date: 08/28/2020
 ms.topic: reference
 author: andster

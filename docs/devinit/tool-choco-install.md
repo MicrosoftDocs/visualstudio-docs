@@ -1,6 +1,6 @@
 ---
 title: choco-install
-description: Devinit tool choco-install to install Chocolatey packages.
+description: devinit tool choco-install to install Chocolatey packages.
 ms.date: 08/28/2020
 ms.topic: reference
 author: andster

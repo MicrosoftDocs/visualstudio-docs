@@ -1,6 +1,6 @@
 ---
 title: require-windowsfeature
-description: Devinit tool require-windowsfeature.
+description: devinit tool require-windowsfeature.
 ms.date: 08/28/2020
 ms.topic: reference
 author: andster

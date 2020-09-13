@@ -1,6 +1,6 @@
 ---
 title: set-env
-description: Devinit tool require-set-env.
+description: devinit tool require-set-env.
 ms.date: 08/28/2020
 ms.topic: reference
 author: andster

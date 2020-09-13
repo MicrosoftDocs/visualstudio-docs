@@ -1,6 +1,6 @@
 ---
 title: dotnet-toolinstall
-description: Devinit tool dotnet-toolinstall.
+description: devinit tool dotnet-toolinstall.
 ms.date: 08/28/2020
 ms.topic: reference
 author: andster
