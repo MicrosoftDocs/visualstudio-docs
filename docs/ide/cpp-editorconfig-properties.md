@@ -1,10 +1,10 @@
 ---
 title: "C++ EditorConfig formatting conventions"
 titleSuffix: ""
-description: "Learn about how to use EditorConfig to format C++ code in Visual STudio."
+description: "Learn about how to use EditorConfig to format C++ code in Visual Studio."
 ms.date: 9/14/2020
 author: jureid
-ms.author: julia-reid
+ms.author: jureid
 manager: mluparu
 dev_langs:
  - CPP
@@ -18,7 +18,7 @@ monikerRange: vs-2019
 
 # C++ EditorConfig formatting conventions
 
-The Visual Studio C++ formatter has a rich set of configurable settings that can be applied globally. To set C++ formatting settings for a specific workspace, you can use [clangformat](https://clang.llvm.org/docs/ClangFormat.html) or [EditorConfig](https://editorconfig.org/). Both Visual Studio and Visual Studio Code have built-in EditorConfig support for each of the global Visual Studio C++ formatting settings, with the EditorConfig settings taking precedence. This means you can add EditorConfig files to your workspace to configure C++ formatting on a more granular level and enforce consistent code style for everyone contributing to the project.
+The Visual Studio C++ formatter has a rich set of configurable settings that can be applied globally. To set C++ formatting settings for a specific workspace, use [clangformat](https://clang.llvm.org/docs/ClangFormat.html) or [EditorConfig](https://editorconfig.org/). Both Visual Studio and Visual Studio Code have built-in EditorConfig support for each of the global Visual Studio C++ formatting settings, with the EditorConfig settings taking precedence. This means you can add EditorConfig files to your workspace to configure C++ formatting on a more granular level and enforce consistent code style for everyone contributing to the project.
 
 ## C++ formatting conventions
 
@@ -44,9 +44,9 @@ The rest of this document lists all the EditorConfig C++ formatting settings sup
 
 - Name: `cpp_indent_multi_line_relative_to`
 - Values:
-  - `outermost_parenthesis` - When a new line is typed, it is indented relatively to the outermost open parenthesis.
-  - `innermost_parenthesis` - When a new line is typed, it is indented relatively to the innermost open parenthesis.
-  - `statement_begin` - When a new line is typed, it is indented relatively to the beginning of the current statement.
+  - `outermost_parenthesis` - When a new line is typed, it's indented relatively to the outermost open parenthesis.
+  - `innermost_parenthesis` - When a new line is typed, it's indented relatively to the innermost open parenthesis.
+  - `statement_begin` - When a new line is typed, it's indented relatively to the beginning of the current statement.
 
 **Within parentheses, align new lines when I type them**
 
