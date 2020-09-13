@@ -17,7 +17,7 @@ ms.workload:
 > devinit init
 ```
 
-Initialize the environment by running the tools specified in a [`.devinit.json`](~/devinit/devinit-json.md) file in the current working directory.  
+Initialize the environment by running the tools specified in a [`.devinit.json`](devinit-json.md) file in the current working directory.  
 
 ### Options
 Optional options for the `devinit init` command.
@@ -32,7 +32,7 @@ Optional options for the `devinit init` command.
 > devinit run <toolname>
 ```
 
-Runs the specific tool, optional parameters are listed below. See [documentation](~/devinit/devinit-tool-list.md) for each tool for specific usage.
+Runs the specific tool, optional parameters are listed below. See [documentation](devinit-tool-list.md) for each tool for specific usage.
 
 ### Options
 Options for the `devinit run` command.

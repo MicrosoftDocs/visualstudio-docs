@@ -25,7 +25,7 @@ Contents of the `.devcontainer.json` file in the repo root.
 
 ## .devinit.json
 
-Contents of the [`.devinit.json`](~/devinit/devinit-json.md) file. This file needs to be in the same folder as `.devcontainer.json`.
+Contents of the [`.devinit.json`](devinit-json.md) file. This file needs to be in the same folder as `.devcontainer.json`.
 
 ```json
 {

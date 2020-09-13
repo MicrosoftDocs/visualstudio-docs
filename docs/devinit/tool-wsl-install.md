@@ -13,7 +13,7 @@ ms.workload:
 
 The `wsl-install` tool is used to install Linux distros for the [Windows Subsystem for Linux](https://docs.microsoft.com/windows/wsl/) (WSL).
 
-The `wsl-install` tool requires WSL 2 to already be enabled on Windows. In the private preview of Codespaces for Visual Studio WSL2 is enabled already. If for some reason WSL2 is not enabled, you can enable WSL2 by using the [require-windowsfeature](~/devinit/tool-require-windowsfeature.md) tool and the feature name `Microsoft-Windows-Subsystem-Linux`.
+The `wsl-install` tool requires WSL 2 to already be enabled on Windows. In the private preview of Codespaces for Visual Studio WSL2 is enabled already. If for some reason WSL2 is not enabled, you can enable WSL2 by using the [require-windowsfeature](tool-require-windowsfeature.md) tool and the feature name `Microsoft-Windows-Subsystem-Linux`.
 
 ## Usage
 

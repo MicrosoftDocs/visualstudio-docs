@@ -47,7 +47,7 @@ The `packages.config` file is a [Chocolatey](https://chocolatey.org/) file that 
 
 ## .devinit.json
 
-Contents of the [`.devinit.json`](~/devinit/devinit-json.md) file. This file needs to be in the same folder as `.devcontainer.json` file.
+Contents of the [`.devinit.json`](devinit-json.md) file. This file needs to be in the same folder as `.devcontainer.json` file.
 
 ```json
 {

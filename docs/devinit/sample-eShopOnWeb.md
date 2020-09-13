@@ -35,7 +35,7 @@ dotnet ef database update -c appidentitydbcontext -p src\Infrastructure\Infrastr
 
 ## .devinit.json
 
-Contents of the [`.devinit.json`](~/devinit/devinit-json.md) file. This file needs to be in the same folder as `.devcontainer.json`.
+Contents of the [`.devinit.json`](devinit-json.md) file. This file needs to be in the same folder as `.devcontainer.json`.
 
 ```json
 {
