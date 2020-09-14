@@ -258,7 +258,7 @@ ms.workload:
 
 The following table lists code quality analysis rules by rule identifier.
 
-| CheckId | Warning | Description |
+| RuleId | Warning | Description |
 |---------| - | - |
 | CA1000 | [CA1000: Do not declare static members on generic types](../code-quality/ca1000.md) | When a static member of a generic type is called, the type argument must be specified for the type. When a generic instance member that does not support inference is called, the type argument must be specified for the member. In these two cases, the syntax for specifying the type argument is different and easily confused. |
 | CA1001 | [CA1001: Types that own disposable fields should be disposable](../code-quality/ca1001.md) | A class declares and implements an instance field that is a System.IDisposable type, and the class does not implement IDisposable. A class that declares an IDisposable field indirectly owns an unmanaged resource and should implement the IDisposable interface. |
