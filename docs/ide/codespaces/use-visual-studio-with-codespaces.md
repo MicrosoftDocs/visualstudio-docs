@@ -25,28 +25,27 @@ Visual Studio has great support for developing in GitHub Codespaces. You can cre
 > [!NOTE]
 > If you don't have [Visual Studio 2019 Preview](https://aka.ms/vspreview) installed already, you can [download it from visualstudio.microsoft.com](https://aka.ms/vspreview).
 
-
 If you don't already have a GitHub codespace, you can create one from Visual Studio.
 
 1. When you launch Visual Studio, the Start Window will show a **Connect to a codespace** button under "Get started".
 
-   ![Visual Studio Start window with Connect to a codespace](../media/codespaces/visual-studio-start-window.png)
+   ![Visual Studio Start window with Connect to a codespace](media/visual-studio-start-window.png)
 
 2. Select **Connect to a codespace** and you will be prompted to sign in to GitHub. You can also create a GitHub account, if you don't already have one.
 
-   ![Visual Studio sign in to GitHub](../media/codespaces/visual-studio-sign-in-to-github.png)
+   ![Visual Studio sign in to GitHub](media/visual-studio-sign-in-to-github.png)
 
    Once you click **Sign in to GitHub**, follow the online GitHub sign in workflow.
 
 3. If you've never created a codespace, you can start by clicking the **New codespace** button.
 
-   ![Visual Studio New codespace button](../media/codespaces/visual-studio-new-codespace.png)
+   ![Visual Studio New codespace button](media/visual-studio-new-codespace.png)
 
 4. Under "Codespace details", you need to provide a **Repository URL**, which can be any valid GitHub or Azure DevOps repository URL. GitHub Codespaces will clone the specified repository into your codespace when it is created. 
 
    You can also modify the **Instance Type** and **Suspend after** timeout via their dropdowns. Once you have set the codespace details, click the **Create and Connect** button.
 
-   ![Visual Studio codespace details](../media/codespaces/visual-studio-codespace-details.png)
+   ![Visual Studio codespace details](media/visual-studio-codespace-details.png)
 
    GitHub Codespaces will begin preparing the codespace and open Visual Studio, once the codespace is ready.
 
@@ -58,17 +57,17 @@ After you've created your codespace, you can open your codespace directly from V
 
 1. When you launch Visual Studio, the Start Window will show an option to Connect to a codespace.
 
-   ![Visual Studio Start window with Connect to a codespace](../media/codespaces/visual-studio-start-window.png)
+   ![Visual Studio Start window with Connect to a codespace](media/visual-studio-start-window.png)
 
    If you are already in Visual Studio, you can use the **File** > **Connect to a Codespace** menu item.
 
-   ![Visual Studio File Connect to a codespace menu item](../media/codespaces/visual-studio-file-connect-to-codespace.png)
+   ![Visual Studio File Connect to a codespace menu item](media/visual-studio-file-connect-to-codespace.png)
 
 2. Click **Connect to a codespace** and you will be prompted to sign in to GitHub, if you haven't already.
 
 3. You will then see all of your GitHub codespaces along with their details presented in the right panel.
 
-   ![Visual Studio displaying available GitHub codespaces and details](../media/codespaces/visual-studio-connect-codespace.png)
+   ![Visual Studio displaying available GitHub codespaces and details](media/visual-studio-connect-codespace.png)
 
 4. Select a codespace and click the **Connect** button. If the codespace has been suspended, it will be restarted and Visual Studio will open connected to that codespace.
 
@@ -145,7 +144,7 @@ Not yet available:
 * Publishing - Publish to Azure through Git Actions is supported.
 * Third-party Visual Studio extensions
 
-<!-- ### Specific limitations - do we need to include any specific limitations or workaround? -->
+<!-- TBD ### Specific limitations - do we need to include any specific limitations or workaround? -->
 
 ## See also
 
