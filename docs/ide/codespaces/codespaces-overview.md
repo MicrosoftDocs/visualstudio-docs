@@ -21,7 +21,7 @@ GitHub Codespaces provides you with a cloud-powered development environment for 
 
 Additionally, GitHub Codespaces brings many of the benefits of DevOps, like repeatability and reliability&mdash;which have typically been reserved for production workloads&mdash;to a development environment. You can also personalize GitHub Codespaces so that the tools, processes, and configurations that you prefer and rely on are there, too.
 
-This document will explain key concepts and introduce Codespaces features. If you're looking for an abridged version, check out [the Codespaces quickstart](/visualstudio/codespaces/quickstarts/vs/).
+This document will explain key concepts and introduce Codespaces features. If you're looking to get started, check out [Use Visual Studio with a codespace](use-visual-studio-with-codespaces.md).
 
 > [!IMPORTANT]
 > You must sign up for the [Private Preview](https://aka.ms/vsfutures-signup) to use Codespaces. This Private Preview release is not intended for use on production computers or for creating production code. For more information about Preview releases, see the [Visual Studio 2019 Preview release notes](/visualstudio/releases/2019/release-notes-preview/).
@@ -42,7 +42,7 @@ GitHub Codespaces focuses on managed solutions that allow you to focus on produc
 
 ### About codespaces
 
-A codespace is the "backend" half of GitHub Codespaces. It's where all of the compute associated with software development happens: compiling, debugging, restoring, etc. Creating a codespace prepares everything you need to complete a task, review a PR, or start a new project. Codespaces configure the runtime, compiler, debugger, editor, custom dotfile configurations, editor extensions, and the source code required to work on a project.
+A codespace is the "backend" half of GitHub Codespaces. It's where all of the compute associated with software development happens: compiling, debugging, restoring, etc. Creating a codespace prepares everything you need to complete a task, review a PR, or start a new project. Codespaces configure the runtime, compiler, debugger, editor, custom dotfile configurations, and the source code required to work on a project.
 
 Cloud-hosted codespaces provide the following benefits:
 
@@ -53,7 +53,7 @@ Cloud-hosted codespaces provide the following benefits:
 
 ### Custom configuration
 
-GitHub Codespaces is built to accommodate the widest variety of projects or tasks. You can start with smart-configuration features that provide common defaults, or fine-tune a codespace with custom JSON and Dockerfile configuration.
+GitHub Codespaces is built to accommodate the widest variety of projects or tasks. You can start with smart-configuration features that provide common defaults, or fine-tune a codespace with [custom JSON configuration](customize-codespaces.md).
 
 Flexible configuration allows developers to rapidly onboard on projects with unique configuration and requirements that are difficult to apply on a local machine. Additionally, reproducible codespaces eliminate "works on my machine" problems.
 
@@ -61,10 +61,9 @@ Flexible configuration allows developers to rapidly onboard on projects with uni
 
 We know that preserving personal preferences is critical to make developing on a cloud-hosted codespace feel familiar and natural. GitHub Codespaces layers individualized customizations on top of a codespace configuration. Personal preferences and configuration for editors and  terminals are supported by GitHub Codespaces.
 
-A codespace can be created with a user-specific collection of custom dotfiles (for example, `.bashrc`, `.gitconfig`, etc.), and GitHub Codespaces automatically synchronizes your Git identity, themes, and settings so every codespace you create looks and feels the way you like, regardless of the project-specific environment capabilities.
+A codespace can be created with a user-specific collection of [custom dotfiles](https://docs.github.com/en/github/developing-online-with-codespaces/personalizing-codespaces-for-your-account) (for example, `.bashrc`, `.gitconfig`, etc.), and GitHub Codespaces automatically synchronizes your Git identity, themes, and settings so every codespace you create looks and feels the way you like, regardless of the project-specific environment capabilities.
 
 ## See also
 
-- [Quickstart: GitHub Codespaces in Visual Studio 2019 (Preview)](/visualstudio/codespaces/quickstarts/vs/)
-- [How to: Use Visual Studio with GitHub Codespaces (Preview)](use-visual-studio-with-codespaces.md)
-- [How to: Customize GitHub Codespaces (Preview)](customize-codespaces.md)
+- [How to use Visual Studio with GitHub Codespaces](use-visual-studio-with-codespaces.md)
+- [How to customize GitHub Codespaces](customize-codespaces.md)
