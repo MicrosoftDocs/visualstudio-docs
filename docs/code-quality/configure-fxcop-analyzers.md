@@ -14,7 +14,7 @@ ms.workload:
 ---
 # Configure .NET code quality analyzers with EditorConfig
 
-Starting in .NET 5.0, code quality analyzers (`CAxxxx` rules) are included with the .NET SDK. Each code quality analyzer, can be refined to apply to the parts of your codebase through configurable options. Each option is specified by adding a key-value pair to an [EditorConfig](https://editorconfig.org) file. A configuration file can be specific to a file, project, solution, or the entire repo.
+Starting in .NET 5.0, [`CAxxxx` code quality analyzers](code-analysis-for-managed-code-warnings.md) are included with the [.NET SDK](/dotnet/fundamentals/productivity/code-analysis.md/#code-quality-analysis). Each code quality analyzer can be refined to apply to the parts of your codebase through configurable options. Each option is specified by adding a key-value pair to an [EditorConfig](https://editorconfig.org) file. A configuration file can be specific to a file, project, solution, or the entire repo.
 
 > [!TIP]
 > Add an .editorconfig file to your project by right-clicking the project in **Solution Explorer** and selecting **Add** > **New Item**. In the **Add New Item** window, enter **editorconfig** in the search box. Select the **editorconfig File (default)** template and choose **Add**.
