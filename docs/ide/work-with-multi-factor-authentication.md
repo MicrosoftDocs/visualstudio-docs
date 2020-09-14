@@ -41,9 +41,9 @@ Once the system web browser workflow is enabled, you can sign in or add accounts
 </br>
 :::image type="content" source="media/add-personalization-account.png" alt-text="Add a new personalization account to Visual Studio." border="false":::
 
-This action will open your system's default web browser, ask you to sign into your account, and validate any required MFA policy. 
+This action will open your system's default web browser, ask you to sign into your account, and validate any required MFA policy.
 
-During the sign in process you might get an additional prompt asking yout to stay signed in (it will likely show up the second time an account is used to sign in). To minimize the need to re-enter your credentiuals, we recommend you select **Yes**, as this ensures your credentials are preserved across browser sessions.
+During the sign in process, you may receive an additional prompt asking you to stay signed in. This prompt will likely show up the second time an account is used to sign in. To minimize the need to re-enter your credentials, we recommend that you select Yes, as this ensures your credentials are preserved across browser sessions.
 
 :::image type="content" source="media/kmsi.png" alt-text="Stay signed in?":::
 
