@@ -9,7 +9,7 @@ manager: jillfra
 ms.workload:
 - multiple
 monikerRange: ">= vs-2019"
-ms.prod: visual-studio-windows
+ms.prod: visual-studio-dev14
 ms.technology: devinit
 ---
 # choco-install
@@ -28,7 +28,7 @@ If both the `input` and `additionalOptions` properties are omitted or empty, the
 
 ### Input
 
-The `input` property is used to specify the name of the package to install (for example 'mongodb') or the path to a configuration file of the following formats `packages.config`, `.nuspec`, and `.nupkg`. The value of `input` will be append to a `choco install` command (for example `choco install mongodb`) along with any arguments specific in [`additionalOptions`](#additional-options) and the built-in choco options (defined [below](#builtin-choco-options)). Packages can be found in the [chocolatey package gallery](https://chocolatey.org/packages). When using a configuration file, you can pass in the path to that file in the `input` property, for example `"input":"packages.config"`.
+The `input` property is used to specify the name of the package to install (for example 'mongodb') or the path to a configuration file of the following formats _packages.config_, _.nuspec_, and _.nupkg_. The value of `input` will be append to a `choco install` command (for example `choco install mongodb`) along with any arguments specific in [`additionalOptions`](#additional-options) and the built-in choco options (defined [below](#builtin-choco-options)). Packages can be found in the [chocolatey package gallery](https://chocolatey.org/packages). When using a configuration file, you can pass in the path to that file in the `input` property, for example `"input":"packages.config"`.
 
 ### Additional options
 

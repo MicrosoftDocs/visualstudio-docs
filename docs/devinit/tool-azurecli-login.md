@@ -14,7 +14,7 @@ ms.technology: devinit
 ---
 # azurecli-login
 
-The `azurecli-login` tool is used to sign into Azure Active Directory via [Azure CLI](https://docs.microsoft.com/cli/azure/authenticate-azure-cli?view=azure-cli-latest).
+The `azurecli-login` tool is used to sign into Azure Active Directory via [Azure CLI](https://docs.microsoft.com/cli/azure/authenticate-azure-cli?view=azure-cli-latest&preserve-view=true).
 
 ## Usage
 
