@@ -45,9 +45,11 @@ There's lots of great tools for creating Windows images and you should use them!
 ## What about winget?
 `devinit` isn't a package manager like winget, and we don't want it to be. We do want you to be able to use winget with `devinit` and we're working on a tool for just that.
 
+## How are restarts are handled?
+If anything that `devinit` installs requires an OS reboot then an error message will be outputed to the console. You'll need to then reboot the OS at a time that suits you. After rebooting you might need to re-run `devinit` if all the dependencies weren't installed.
+
 ## Working with others
 
 `devinit` is all about enabling the use of the wide ecosystem that's out there to deploy and configure the dependencies your app might have. `devinit` has an opionon on some things and might deliver those things, `devinit` is mostly about enabling other tools to be executed from a declative json file.
 
-Today, `devinit` is just getting started and our [list of tools](~
-/devinit/devinit-tool-list.md) is just a beginning.
+Today, `devinit` is just getting started and our [list of tools](~/devinit/devinit-tool-list.md) is just a beginning.
