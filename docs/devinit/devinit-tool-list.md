@@ -15,6 +15,7 @@ ms.technology: devinit
 # Available tools
 
 The table below contains a list of all the currently available tools for devinit.
+
 | Tool                                                                                             | Description                                                                                                 |
 |--------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|
 | [**choco-install**](tool-choco-install.md)                                                       | Tool to install chocolatey packages.                                                                        |
