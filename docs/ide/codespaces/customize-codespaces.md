@@ -57,21 +57,21 @@ While connected to a codespace with Visual Studio, you can use the Visual Studio
 
 The real value of GitHub Codespace comes when you can create unique, repeatable development environments in the cloud tailored for your own work as well as your team's. By building on a default GitHub Codespace Instance Type, you can customize what is installed and configured when you create a new codespace.
 
-The next sections will describe two codespace configuration methods using `.devcontainer.json` and `.devinit.json` files. These files let you configure the installation frameworks and tools for a codespace and when you stored in your repository anyone creating a codespace based on your repository will have the same remote development environment.
+The next sections will describe two codespace configuration methods using *.devcontainer.json* and *.devinit.json* files. These files let you configure the installation frameworks and tools for a codespace and when you stored in your repository anyone creating a codespace based on your repository will have the same remote development environment.
 
 ## Customize with devcontainer.json
 
-When a codespace is created, GitHub Codespaces looks for a [`devcontainers.json`](https://code.visualstudio.com/docs/remote/devcontainerjson-reference) file in the root of your repository and uses the settings within to customize the codespace or the client instances connecting to it (browser-base editor, Visual Studio, or Visual Studio Code). Most the `devcontainer.json` settings apply to Linux-based codespaces and the two other clients but some are available for Windows codespaces and Visual Studio.
+When a codespace is created, GitHub Codespaces looks for a [*devcontainers.json*](https://code.visualstudio.com/docs/remote/devcontainerjson-reference) file in the root of your repository and uses the settings within to customize the codespace or the client instances connecting to it (browser-base editor, Visual Studio, or Visual Studio Code). Most the *devcontainer.json* settings apply to Linux-based codespaces and the two other clients but some are available for Windows codespaces and Visual Studio.
 
-The `devcontainer.json` file can be placed in one of two places in a repository:
+The *devcontainer.json* file can be placed in one of two places in a repository:
 
-1. `{repository-root}/.devcontainer.json`
-2. `{repository-root}/.devcontainer/devcontainer.json`
+1. *{repository-root}/.devcontainer.json*
+2. *{repository-root}/.devcontainer/devcontainer.json*
 
-GitHub Codespaces support the following `devcontainer.json` properties. Setting Visual Studio Code specific properties is useful if you expect to connect to your codespace with the other clients in addition to Visual Studio. 
+GitHub Codespaces support the following *devcontainer.json* properties. Setting Visual Studio Code specific properties is useful if you expect to connect to your codespace with the other clients in addition to Visual Studio. 
 
-* `extensions` - An array of [VS Code Extension Marketplace](https://marketplace.visualstudio.com/vscode) extensions that should be installed.
-* `settings`  - A set of [VS Code settings](https://code.visualstudio.com/docs/getstarted/settings) to apply.
+* `extensions` - An array of [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/vscode) extensions that should be installed.
+* `settings`  - A set of [Visual Studio Code settings](https://code.visualstudio.com/docs/getstarted/settings) to apply.
 * `forwardPorts`- A port or array of ports that should be automatically forwarded locally when the codespace is running.
 * `postCreateCommand` - A command string or list of command arguments to run after the codespaces is created.
 
@@ -80,15 +80,15 @@ GitHub Codespaces support the following `devcontainer.json` properties. Setting 
 
 ## Customize with devinit
 
-devinit.exe is a command-line tool included in Windows Codespaces that lets you install [frameworks and tools](point to tool list) into your environment. It can be run manually from a command prompt (`devinit -t require-dotnetcoresdk`) but its real power comes from creating a custom `.devinit.json`  file to uniformly configure a codespace whenever you create one.
+`devinit.exe` is a command-line tool included in Windows Codespaces that lets you install [frameworks and tools](point to tool list) into your environment. It can be run manually from a command prompt (`devinit -t require-dotnetcoresdk`) but its real power comes from creating a custom *.devinit.json*  file to uniformly configure a codespace whenever you create one.
 
-devinit includes a set of tools for installing specific items, such as SQL Server and the Azure CLI, and also running general package managers such as chocolatey, npm, and vcpkg. You can find the complete list of devinit tools in the [devinit Tools]() documentation.
+`devinit` includes a set of tools for installing specific items, such as SQL Server and the Azure CLI, and also running general package managers such as chocolatey, npm, and vcpkg. You can find the complete list of `devinit` tools in the [devinit Tools]() documentation.
 
 ### devinit.json
 
-You can run the devinit command line directly but it also supports creating [`devinit.json`]() configuration files to describe which set of devinit tools to run along with additional inputs. 
+You can run the `devinit` command line directly but it also supports creating [*devinit.json*]() configuration files to describe which set of `devinit` tools to run along with additional inputs. 
 
-For example, to install the [.NET Core SDK], a `.devinit.json` would look like:
+For example, to install the [.NET Core SDK], a *.devinit.json* would look like:
 
 ```json
 {
@@ -101,16 +101,16 @@ For example, to install the [.NET Core SDK], a `.devinit.json` would look like:
 }
 ```
 
-When you author a `.devinit.json` file in the root of your project, it will be used when you run `devinit init`. By default, devinit.exe looks for the file in the following locations:
+When you author a *.devinit.json* file in the root of your project, it will be used when you run `devinit init`. By default, `devinit.exe` looks for the file in the following locations:
 
-1. `{current-directory}\\.devinit.json`
-2. `{current-directory}\\.devinit\devinit.json`
+1. *{current-directory}\\.devinit.json*
+2. *{current-directory}\\.devinit\devinit.json*
 
 ### Running devinit when creating a codespace
 
-You can instruct GitHub Codespaces to run devinit after a codespace is created by using the `postCreateCommand` property in a `devcontainers.json` file. As mentioned above, GitHub Codespaces will look for a `devcontainer.json` file in your cloned repository in order to customize the codespace or client instance and it will run any commands described in the `postCreateCommand` property.
+You can instruct GitHub Codespaces to run `devinit` after a codespace is created by using the `postCreateCommand` property in a *devcontainers.json* file. As mentioned above, GitHub Codespaces will look for a *devcontainer.json* file in your cloned repository in order to customize the codespace or client instance and it will run any commands described in the `postCreateCommand` property.
 
-By specifying `devinit init`, devinit will be run using your `devinit.json` configuration.
+By specifying `devinit init`, `devinit` will be run using your *devinit.json* configuration.
 
 ```json
 {
@@ -124,7 +124,7 @@ Here is a simple example setting an environment variable.
 
 **devcontainer.json**
 
-Contents of the `.devcontainer.json` file in the repo root. 
+Contents of the *.devcontainer.json* file in the repo root. 
 
 ```json
 {
@@ -134,7 +134,7 @@ Contents of the `.devcontainer.json` file in the repo root.
 
 **devinit.json**
 
-Contents of the `.devinit.json` file. This file needs to be in the same folder as `.devcontainer.json`.
+Contents of the *.devinit.json* file. This file needs to be in the same folder as *.devcontainer.json*.
 
 ```json
 {
@@ -148,7 +148,7 @@ Contents of the `.devinit.json` file. This file needs to be in the same folder a
 }
 ```
 
-You can find more devinit examples in the devinit [Samples]().
+You can find more `devinit` examples in the `devinit` [Samples]().
 
 ## Port Forwarding
 
@@ -156,7 +156,7 @@ GitHub Codespaces provides access to the applications and services running in th
 
 ### Configure port forwarding
 
-If there are one or more ports that should be forwarded by default for a given repository, that can be configured in `devcontainer.json` with the `forwaredPorts` property.
+If there are one or more ports that should be forwarded by default for a given repository, that can be configured in *devcontainer.json* with the `forwaredPorts` property.
 
 * `forwardPorts` - A port or array of ports that should be automatically forwarded locally when the environment is running.
 
