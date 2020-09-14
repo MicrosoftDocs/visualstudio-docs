@@ -16,7 +16,7 @@ ms.technology: devinit
 
 ## Step 1: Get devinit
 
-devinit is only available as part of the Private Preview of Visual Studio for GitHub Codespaces and is accessible from the integrated terminal in Visual Studio. In the future devinit will be available as part of Visual Studio.
+devinit is currently only available as part of GitHub Codespaces for Visual Studio and is accessible from the integrated terminal in Visual Studio. In the future, devinit will be available as part of Visual Studio.
 
 ## Step 2: Define your environment
 
