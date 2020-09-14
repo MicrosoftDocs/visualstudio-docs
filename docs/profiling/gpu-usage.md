@@ -10,7 +10,7 @@ ms.workload:
 ---
 # GPU usage
 
-Use the GPU Usage tool in the Visual Studio Performance and Diagnostics hub to better understand the high-level hardware usage of your Direct3D app. It helps you see whether the performance of your app is CPU-bound or GPU-bound, and gain insight into how you can use the platform's hardware more effectively. GPU Usage supports apps that use Direct3D 12, Direct3D 11, and Direct3D 10. It doesn't support other graphics APIs, such as Direct2D or OpenGL.
+Use the GPU Usage tool in the Performance Profiler to better understand the high-level hardware usage of your Direct3D app. It helps you see whether the performance of your app is CPU-bound or GPU-bound, and gain insight into how you can use the platform's hardware more effectively. GPU Usage supports apps that use Direct3D 12, Direct3D 11, and Direct3D 10. It doesn't support other graphics APIs, such as Direct2D or OpenGL.
 
 Here's what the **GPU Usage Report** window looks like:
 
@@ -37,7 +37,7 @@ To start the GPU Usage tool:
 
 2. In the **Performance and Diagnostics** hub, check the box next to **GPU Usage**. Optionally, check the boxes next to other tools you're interested in. You can run several performance and diagnostics tools concurrently to get a fuller picture of your app's performance.
 
-    ![Screenshot of the Performance and Diagnostics hub, with GPU Usage selected](media/gpuusageselected.png "GPU Usage Selected")
+    ![Screenshot of the Performance Profiler, with GPU Usage selected](media/gpuusageselected.png "GPU Usage Selected")
 
    > [!NOTE]
    > Not all performance and diagnostics tools can be used at the same time.

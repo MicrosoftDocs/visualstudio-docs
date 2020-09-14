@@ -1,8 +1,8 @@
 ---
 title: "Measure performance with profiling tools"
 description: "Take a brief look at the different diagnostic tools available in Visual Studio."
-ms.custom: "mvc"
-ms.date: 06/03/2020
+ms.custom: ""
+ms.date: 09/08/2020
 ms.topic: overview
 f1_keywords:
   - vs.diagnosticshub.overview
@@ -21,7 +21,9 @@ ms.workload:
 
 Visual Studio provides a variety of profiling tools to help you diagnose different kinds of performance issues depending on your app type. In this article, we give a quick look at the most common profiling tools.
 
-## View performance while debugging
+To see profiling tool support for different app types, see [Which tool should I use?](#which-tool-should-i-use)
+
+## Measure performance while debugging
 
 The profiling tools that you can access during a debugging session are available in the Diagnostic Tools window. The Diagnostic Tools window appears automatically unless you have turned it off. To bring up the window, click **Debug / Windows / Show Diagnostic Tools**. With the window open, you can select tools for which you want to collect data.
 
@@ -31,10 +33,38 @@ While you are debugging, you can use the **Diagnostic Tools** window to analyze 
 
 ![Diagnostic Tools Summary view](../profiling/media/prof-tour-cpu-and-memory-graph.gif "Diagnostic Tools Summary")
 
-The **Diagnostic Tools** window is a common way to profile apps, but for Release builds you can also do a post-mortem analysis of your app instead. For more information on different approaches, see [Run profiling tools with or without the debugger](../profiling/running-profiling-tools-with-or-without-the-debugger.md). To see profiling tool support for different app types, see [Which tool should I use?](#which-tool-should-i-use).
+The **Diagnostic Tools** window is a common way to profile apps, but for Release builds you can also do a post-mortem analysis of your app instead. For more information on different approaches, see [Run profiling tools with or without the debugger](../profiling/running-profiling-tools-with-or-without-the-debugger.md). To see profiling tool support for different app types, see [Which tool should I use?](#which-tool-should-i-use)
+
+Tools available in the Diagnostic Tools window or during a debugging session include:
+- [CPU usage](../profiling/beginners-guide-to-performance-profiling.md)
+- [Memory usage](../profiling/memory-usage.md)
+- [PerfTips](../profiling/perftips.md)
 
 > [!NOTE]
-> You can use the post-mortem tools with Windows 7 and later. Windows 8 and later is required to run profiling tools with the debugger (**Diagnostic Tools** window).
+> Windows 8 and later is required to run profiling tools with the debugger (**Diagnostic Tools** window). You can use the [post-mortem](#post_mortem) tools with Windows 7 and later. 
+
+## <a name="post_mortem"></a> Measure performance in release builds
+
+Tools in the Performance Profiler are intended to provide analysis for **Release** builds. In the Performance Profiler, you can collect diagnostic info while the app is running, and then examine the collected information after the app is stopped (a post-mortem analysis).
+
+Open the Performance Profiler by choosing **Debug** > **Performance Profiler** (or **Alt + F2**).
+
+![Performance Profiler](../profiling/media/prof-tour-performance-profiler.png "Performance Profiler")
+
+In some scenarios, the window allows you to select [multiple profiling tools](../profiling/use-multiple-profiler-tools-simultaneously.md). Tools such as CPU Usage may provide complementary data that you can use to help in your analysis. You can also use the [command-line profiler](../profiling/profile-apps-from-command-line.md) to enable scenarios involving multiple profiling tools.
+
+Tools available in the Performance Profiler include:
+
+- [CPU usage](../profiling/cpu-usage.md)
+- [Memory usage for .NET code](../profiling/dotnet-alloc-tool.md)
+- [Memory usage](#analyze-memory-usage)
+- [.NET async tool](../profiling/analyze-async.md)
+- [Database tool](../profiling/analyze-database.md)
+- [GPU usage](../profiling/gpu-usage.md)
+
+To see profiling tool support for different app types, see [Which tool should I use?](#which-tool-should-i-use)
+
+For more information on using the CPU Usage or Memory usage tool in the Performance Profiler vs. the debugger-integrated tools, see [Run profiling tools with or without the debugger](../profiling/running-profiling-tools-with-or-without-the-debugger.md). 
 
 ## Examine performance using PerfTips
 
@@ -51,11 +81,11 @@ PerfTips show the same events that also show up in the **Events** view of the Di
  > [!NOTE]
  > If you have Visual Studio Enterprise, you can also see [IntelliTrace events](../debugger/intellitrace.md) in this tab.
 
-## Analyze CPU Usage
+## Analyze CPU usage
 
-The CPU Usage tool is a good place to start analyzing your app's performance. It will tell you more about CPU resources that your app is consuming. For a more detailed walkthrough of the CPU Usage tool, see [Measure application performance by analyzing CPU usage](../profiling/beginners-guide-to-performance-profiling.md).
+The CPU Usage tool is a good place to start analyzing your app's performance. It will tell you more about CPU resources that your app is consuming. You can use the [debugger-integrated CPU Usage tool](../profiling/beginners-guide-to-performance-profiling.md) or the [post-mortem CPU Usage tool](../profiling/cpu-usage.md).
 
-From the **Summary** view of the Diagnostic Tools, choose **Enable CPU Profiling** (you must be in a debugging session).
+When using the debugger-integrated CPU Usage tool, open the Diagnostics Tool window (if it's closed, choose **Debug / Windows / Show Diagnostic Tools**). While debugging, open the  **Summary** view, and select **Record CPU Profile**.
 
 ![Enable CPU usage in the Diagnostic Tools](../profiling/media/prof-tour-enable-cpu-profiling.png "Diagnostic Tools Enable CPU Usage")
 
@@ -71,9 +101,9 @@ Double-click on a function that you are interested in, and you will see a more d
 
 ## Analyze memory usage
 
-The **Diagnostic Tools** window also allows you to evaluate memory usage in your app using the **Memory Usage** tool. For example, you can look at the number and size of objects on the heap. For more detailed instructions to analyze memory, see [Analyze memory usage](../profiling/memory-usage.md). Another memory analysis tool, the [.NET Object Allocation tool](../profiling/dotnet-alloc-tool.md), helps you identify allocation patterns and anomalies in your .NET code.
+The **Diagnostic Tools** window also allows you to evaluate memory usage in your app using the **Memory Usage** tool. For example, you can look at the number and size of objects on the heap. You can use the [debugger-integrated Memory Usage tool](../profiling/memory-usage.md) or the post-mortem Memory Usage tool in the [Performance Profiler](#post_mortem). Another memory analysis tool, the [.NET Object Allocation tool](../profiling/dotnet-alloc-tool.md), helps you identify allocation patterns and anomalies in your .NET code.
 
-To analyze memory usage with the debugger-integrated Memory Usage too, you need to take at least one memory snapshot. Often, the best way to analyze memory is to take two snapshots; the first right before a suspected memory issue, and the second snapshot right after a suspected memory issue occurs. Then you can view a diff of the two snapshots and see exactly what changed.
+To analyze memory usage, you need to take at least one memory snapshot. Often, the best way to analyze memory is to take two snapshots; the first right before a suspected memory issue, and the second snapshot right after a suspected memory issue occurs. Then you can view a diff of the two snapshots and see exactly what changed. The following illustration shows taking a snapshot with the debugger-integrated tool.
 
 ![Take a snapshot in the Diagnostic Tools](../profiling/media/prof-tour-take-snapshots.gif "Diagnostic Tools Take Snapshots")
 
@@ -82,16 +112,6 @@ When you select one of the arrow links, you are given a differential view of the
 ![Diagnostic Tools heap diff view](../profiling/media/prof-tour-mem-usage-diff-heap.png "Diagnostic Tools Heap Diff view")
 
 If you click the link on the left instead in the **Memory Usage** view, the heap view is organized by object count; the objects of a particular type that increased the most in number are shown at the top (sorted by **Count Diff** column).
-
-## <a name="post_mortem"></a> Profile release builds without the debugger
-
-Profiling tools like CPU Usage and Memory Usage can be used with the debugger (see earlier sections), or you can run profiling tools post-mortem using the Performance Profiler, which is intended to provide analysis for **Release** builds. In the Performance Profiler, you can collect diagnostic info while the app is running, and then examine the collected information after the app is stopped. For more information on these different approaches, see [Run profiling tools with or without the debugger](../profiling/running-profiling-tools-with-or-without-the-debugger.md). Additional tools such as the [.NET Object Allocation tool](../profiling/dotnet-alloc-tool.md) are also available in the Performance Profiler.
-
-![Performance Profiler](../profiling/media/prof-tour-performance-profiler.png "Performance Profiler")
-
-Open the Performance Profiler by choosing **Debug** > **Performance Profiler** (or **Alt + F2**).
-
-The window will allow you to select [multiple profiling tools](../profiling/use-multiple-profiler-tools-simultaneously.md) in some scenarios. Tools such as CPU Usage may provide complementary data that you can use to help in your analysis. You can also use the [command-line profiler](../profiling/profile-apps-from-command-line.md) to enable scenarios involving multiple profiling tools.
 
 ## Analyze resource consumption (XAML)
 
@@ -197,25 +217,25 @@ Here is a table that lists the different tools Visual Studio offers and the diff
 |Performance Tool|Windows desktop|UWP|ASP.NET/ASP.NET Core|
 |----------------------|---------------------|-------------|-------------|
 |[PerfTips](../profiling/perftips.md)|yes|yes|yes|
-|[CPU Usage](../profiling/cpu-usage.md)|yes|yes|yes|
+|[CPU Usage](../profiling/beginners-guide-to-performance-profiling.md)|yes|yes|yes|
 |[Memory Usage](../profiling/memory-usage.md)|yes|yes|yes|
 |[.NET Object Allocation](../profiling/dotnet-alloc-tool.md)|yes (.NET only)|yes|yes|
-|[GPU Usage](./gpu-usage.md)|yes|yes|no|
-|[Application Timeline](../profiling/application-timeline.md)|yes|yes|no|
+|[GPU Usage](/visualstudio/debugger/graphics/gpu-usage)|yes|yes|no|
+|[Application Timeline](../profiling/application-timeline.md)|yes (XAML)|yes|no|
 |[Events viewer](../profiling/events-viewer.md)|yes|yes|yes|
 |[.NET Async](../profiling/analyze-async.md)|yes (.NET only)|yes|yes|
 |[Database](../profiling/analyze-database.md)|yes (.NET Core only)|no|yes (ASP.NET Core only)|
-|[Performance Explorer](../profiling/performance-explorer.md)|no|no|no|
+|[Performance Explorer](#analyze-performance-legacy-tools)|no|no|no|
 |[IntelliTrace](../debugger/intellitrace.md)|.NET with Visual Studio Enterprise only|.NET with Visual Studio Enterprise only|.NET with Visual Studio Enterprise only|
 ::: moniker-end
 
 ::: moniker range="vs-2017"
 |Performance Tool|Windows desktop|UWP|ASP.NET/ASP.NET Core|
 |----------------------|---------------------|-------------|-------------|
-|[CPU Usage](../profiling/cpu-usage.md)|yes|yes|yes|
+|[CPU Usage](../profiling/beginners-guide-to-performance-profiling.md)|yes|yes|yes|
 |[Memory Usage](../profiling/memory-usage.md)|yes|yes|yes|
-|[GPU Usage](./gpu-usage.md)|yes|yes|no|
-|[Application Timeline](../profiling/application-timeline.md)|yes|yes|no|
+|[GPU Usage](/visualstudio/debugger/graphics/gpu-usage)|yes|yes|no|
+|[Application Timeline](../profiling/application-timeline.md)|yes (XAML)|yes|no|
 |[PerfTips](../profiling/perftips.md)|yes|yes for XAML, no for HTML|yes|
 |[Performance Explorer](../profiling/performance-explorer.md)|yes|no|yes|
 |[IntelliTrace](../debugger/intellitrace.md)|.NET with Visual Studio Enterprise only|.NET with Visual Studio Enterprise only|.NET with Visual Studio Enterprise only|
