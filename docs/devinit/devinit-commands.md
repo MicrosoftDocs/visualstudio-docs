@@ -42,14 +42,14 @@ Runs the specific tool, optional parameters are listed below. See [documentation
 
 Options for the `devinit run` command.
 
-| Argument       | Required | Description                                                                          |   |
-|----------------|----------|--------------------------------------------------------------------------------------|---|
-| -t,--tool      | Yes      | Required. The tool name.                                                             |   |
-| -i,--input     | No       | The tool input value. For example, filename, package name.                           |   |
-| --error-action | No       | Specifies how to handle tool errors: Stop, Ignore, Continue. The default is to stop. |   |
-| -v,--verbose   | No       | Emit verbose output.                                                                 |   |
-| -n,--dry-run   | No       | Dry run.                                                                             |   |
-| --&lt;arg&gt;  | No       | Additional command line arguments to the tool.                                       |   |
+| Argument       | Required | Description                                                                          |
+|----------------|----------|--------------------------------------------------------------------------------------|
+| -t,--tool      | Yes      | Required. The tool name.                                                             |
+| -i,--input     | No       | The tool input value. For example, filename, package name.                           |
+| --error-action | No       | Specifies how to handle tool errors: Stop, Ignore, Continue. The default is to stop. |
+| -v,--verbose   | No       | Emit verbose output.                                                                 |
+| -n,--dry-run   | No       | Dry run.                                                                             |
+| --&lt;arg&gt;  | No       | Additional command line arguments to the tool.                                       |
 
 #### Note on additional command line arguments
 

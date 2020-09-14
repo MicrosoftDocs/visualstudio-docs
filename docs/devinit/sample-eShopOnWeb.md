@@ -16,16 +16,6 @@ ms.technology: devinit
 
 This example illustrates how to customize the dotnet architecture example [eShopOnWeb](https://github.com/dotnet-architecture/eShopOnWeb) to automatically be provisioned in a [Codespace with Visual Studio 2019](https://docs.microsoft.com/visualstudio/codespaces/quickstarts/vs).
 
-## .devcontainer.json
-
-Contents of the `.devcontainer.json` file in the repo root.
-
-```json
-{
-  "postCreateCommand": "Powershell.exe -ExecutionPolicy unrestricted -File PostCloneSetup.ps1"
-}
-```
-
 ## PostCloneSetup.ps1
 
 This script is called from `PostCloneSetup.ps1` and can also be ran locally to set up the repository. This file needs to be in the same folder as `.devcontainer.json`.
