@@ -38,6 +38,7 @@ Runs the specific tool, optional parameters are listed below. See [documentation
 ### Options for run
 
 Options for the `devinit run` command.
+
 | Argument       | Required | Description                                                                          |   |
 |----------------|----------|--------------------------------------------------------------------------------------|---|
 | -t,--tool      | Yes      | Required. The tool name.                                                             |   |
@@ -52,19 +53,19 @@ Options for the `devinit run` command.
 Using an `<arg>` that includes a space in its value must include an additional pair of escaped quotes.
 
 ```batch
-> devinit run -t <toolname> -- -<somearg> "\"<some value>\""
+> devinit run -t <toolname> -<somearg> "\"<some value>\""
 ```
 
 For installing `dotnet` into a specific directory `C:\Program Files\dotnet`:
 
 ```batch
-> devinit run -t require-dotnetcoresdk -- -InstallDir "\"C:\Program Files\tool\""
+> devinit run -t require-dotnetcoresdk -InstallDir "\"C:\Program Files\tool\""
 ```
 
 For installing `dotnet` into a specific directory `C:\Workspace\dotnet`:
 
 ```batch
-> devinit run -t require-dotnetcoresdk -- -InstallDir "C:\Workspace\dotnet"
+> devinit run -t require-dotnetcoresdk -InstallDir "C:\Workspace\dotnet"
 ```
 
 ## List
@@ -74,7 +75,6 @@ For installing `dotnet` into a specific directory `C:\Workspace\dotnet`:
 ```
 
 Prints a list of all the available tools.
-
 
 ## Version
 

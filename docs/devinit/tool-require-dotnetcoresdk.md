@@ -31,8 +31,7 @@ The `input` property is used to specify the .NET Core SDK version to install. A 
 
 Additional configuration options can be passed in as a value of the `additionalOptions`. These arguments are a direct passthrough to the arguments used in [dotnet-install](https://docs.microsoft.com/dotnet/core/tools/dotnet-install-script) script. For more information about the available parameters, see the [documentation](https://docs.microsoft.com/dotnet/core/tools/dotnet-install-script) for the [dotnet-install](https://docs.microsoft.com/dotnet/core/tools/dotnet-install-script) script. When using `additionalOptions`, make sure to use the PowerShell argument names and format.
 
-**Note: any additional value to an argument that includes a space must include an additional pair of escaped quotes (using backslash). An example can be seen in [Example usage](#example-usage) using `-InstallDir`.**
-
+Note: Any additional value to an argument that includes a space must include an additional pair of escaped quotes (using backslash). An example can be seen in [Example usage](#example-usage) using `-InstallDir`.
 
 ### Default behavior
 

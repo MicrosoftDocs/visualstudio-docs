@@ -14,57 +14,57 @@
     href: faq.md
   - name: Tools
     items:
-    - name: List
+    - name: All Tools
       href: devinit-tool-list.md
-    - name: tool-azurecli-login
+    - name: azurecli-login
       href: tool-azurecli-login.md
-    - name: tool-choco-install
+    - name: choco-install
       href: tool-choco-install.md
-    - name: tool-choco-upgrade
+    - name: choco-upgrade
       href: tool-choco-upgrade.md
-    - name: tool-dotnet-restore
+    - name: dotnet-restore
       href: tool-dotnet-restore.md
-    - name: tool-dotnet-toolinstall
+    - name: dotnet-toolinstall
       href: tool-dotnet-toolinstall.md
-    - name: tool-npm-install
+    - name: npm-install
       href: tool-npm-install.md
-    - name: tool-nuget-restore
+    - name: nuget-restore
       href: tool-nuget-restore.md
-    - name: tool-azureartifactscredentialprovider
+    - name: require-azureartifactscredentialprovider
       href: tool-require-azureartifactscredentialprovider.md
-    - name: tool-azurecli
+    - name: azurecli
       href: tool-require-azurecli.md
-    - name: tool-choco
+    - name: require-choco
       href: tool-require-choco.md
-    - name: tool-dotnetcoresdk
+    - name: require-dotnetcoresdk
       href: tool-require-dotnetcoresdk.md
-    - name: tool-dotnetframeworksdk
+    - name: require-dotnetframeworksdk
       href: tool-require-dotnetframeworksdk.md
-    - name: tool-gitsubmodule
+    - name: require-gitsubmodule
       href: tool-require-gitsubmodule.md
-    - name: tool-mssql
+    - name: require-mssql
       href: tool-require-mssql.md
-    - name: tool-nodejs
+    - name: require-nodejs
       href: tool-require-nodejs.md
-    - name: tool-npm
+    - name: require-npm
       href: tool-require-npm.md
-    - name: tool-nuget
+    - name: require-nuget
       href: tool-require-nuget.md
-    - name: tool-psmodule
+    - name: require-psmodule
       href: tool-require-psmodule.md
-    - name: tool-vcpkg
+    - name: require-vcpkg
       href: tool-require-vcpkg.md
-    - name: tool-vscomponent
+    - name: require-vscomponent
       href: tool-require-vscomponent.md
-    - name: tool-windowsfeature
+    - name: require-windowsfeature
       href: tool-require-windowsfeature.md
-    - name: tool-set-env
+    - name: set-env
       href: tool-set-env.md
-    - name: tool-vcpkg-install
+    - name: vcpkg-install
       href: tool-vcpkg-install.md
-    - name: tool-windowsfeature
+    - name: windowsfeature
       href: tool-windowsfeature.md
-    - name: tool-wsl-install
+    - name: wsl-install
       href: tool-wsl-install.md
   - name: Samples
     items:
