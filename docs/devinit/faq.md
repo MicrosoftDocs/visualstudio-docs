@@ -34,19 +34,19 @@ Setting up environments via a script is a time old technique and can work great.
 
 Containers, and docker, are great tools to deploy an environment via code. There's a few reasons that containers might not be the right solution for you:
 
-1. If you want to use a Windows Client based development environment.
-1. If you already have an OS and just want to tweak that rather than deploy a new environment.
+1. If you want to use a Windows desktop based development environment.
+1. If you already have an OS, and just want to tweak that rather than deploy a new environment.
 
 For those reasons devinit is about customizing the Windows environment you currently have.
 
-## What about other VM creation tools (e.g. Terraform, Packer, Chef, Vagrant, etc.)
+## What about other VM creation tools (for example, Terraform, Packer, Chef, Vagrant, etc.)
 There's lots of great tools for creating Windows images and you should use them! However, we couldn't find one that fulfilled all the scenarios we had in mind. We want devinit to be a tool for developers to customize the environment they have with whatever is needed to work with a particular repo and to have great integration with Visual Studio rather than a tool to create VM images.
 
 ## What about winget?
 devinit isn't a package manager like winget, and we don't want it to be. We do want you to be able to use winget with devinit and we're working on a tool for just that.
 
-## How are restarts are handled?
-If anything that devinit installs requires an OS reboot then an error message will be outputted to the console. You'll need to then reboot the OS at a time that suits you. After rebooting you might need to re-run devinit if all the dependencies weren't installed.
+## How are restarts handled?
+If anything that devinit installs requires a reboot of the OS, then an error message will be outputted to the console. You'll need to then reboot the OS at a time that suits you. After rebooting, you might need to rerun devinit if all the dependencies weren't installed.
 
 ## Working with others
 
