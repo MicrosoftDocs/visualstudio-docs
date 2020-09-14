@@ -19,7 +19,7 @@ Each code quality analyzer (those whose rule IDs start with `CA`), can be refine
 > [!TIP]
 > Add an .editorconfig file to your project by right-clicking the project in **Solution Explorer** and selecting **Add** > **New Item**. In the **Add New Item** window, enter **editorconfig** in the search box. Select the **editorconfig File (default)** template and choose **Add**.
 >
-> ![Add editorconfig file to project in Visual Studio](media/add-editorconfig-file.png)
+> ![Add EditorConfig file to project in Visual Studio](media/add-editorconfig-file.png)
 
 ::: moniker range=">=vs-2019"
 
@@ -57,7 +57,7 @@ The syntax for configuring an option for a *specific* rule is as follows:
 |-|-|
 | dotnet_code_quality.RuleId.OptionName = OptionValue | `dotnet_code_quality.CA1040.api_surface = public` |
 
-## Enabling Editorconfig based configuration
+## Enabling EditorConfig based configuration
 
 EditorConfig-based analyzer configuration can be enabled for the following scopes:
 
@@ -67,11 +67,11 @@ EditorConfig-based analyzer configuration can be enabled for the following scope
 - Specific solution(s)
 - Entire repo
 
-To enable configuration, add an *.editorconfig* file with the options in the corresponding directory. This file can also contain EditorConfig-based diagnostic severity configuration entries. See [here](use-roslyn-analyzers.md#rule-severity) for more details.
+To enable configuration, add an *.editorconfig* file with the options in the corresponding directory. This file can also contain EditorConfig-based diagnostic severity configuration entries. See [here](use-roslyn-analyzers.md#configure-severity-levels) for more details.
 
 ## Enable a category of rules
 
-Analyzer packages may include predefined [EditorConfig](use-roslyn-analyzers.md#rule-severity) and/or [rule set](using-rule-sets-to-group-code-analysis-rules.md) files that make it quick and easy to enable a category of rules, such as security or design rules. The [Microsoft.CodeAnalysis.NetAnalyzers](https://github.com/dotnet/roslyn-analyzers#microsoftcodeanalysisnetanalyzers) NuGet analyzer package includes both EditorConfig files and rule sets. By enabling a specific category of rules, you can identify targeted issues and specific conditions.
+Analyzer packages may include predefined [EditorConfig](use-roslyn-analyzers.md#configure-severity-levels) and/or [rule set](using-rule-sets-to-group-code-analysis-rules.md) files that make it quick and easy to enable a category of rules, such as security or design rules. The [Microsoft.CodeAnalysis.NetAnalyzers](https://github.com/dotnet/roslyn-analyzers#microsoftcodeanalysisnetanalyzers) NuGet analyzer package includes both EditorConfig files and rule sets. By enabling a specific category of rules, you can identify targeted issues and specific conditions.
 
 > [!NOTE]
 > Enabling analyzer rules and setting their severity by using an EditorConfig file is supported starting in Visual Studio 2019 version 16.3.
@@ -118,7 +118,7 @@ Copy one or more of the rule sets and paste them in the directory that contains 
 You can also [customize a predefined rule set](how-to-create-a-custom-rule-set.md) to your preference. For example, you can change the severity of one or more rules so that violations appear as errors or warnings in the **Error List**.
 
 
-# Rule scope options for .NET code-quality analyzers
+## Rule scope options for .NET code-quality analyzers
 
 You can specify options in an [EditorConfig file](../ide/create-portable-custom-editor-options.md#add-an-editorconfig-file-to-a-project). For example, you can specify the following options.
 

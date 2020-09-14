@@ -1,5 +1,6 @@
 ---
-title: Pre-build Event-Post-build Event Command Line Dialog Box
+title: Pre-build event-Post-build event command line dialog
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.technology: vs-ide-compile
 ms.topic: reference

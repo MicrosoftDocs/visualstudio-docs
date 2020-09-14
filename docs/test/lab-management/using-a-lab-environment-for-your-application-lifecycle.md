@@ -124,23 +124,23 @@ Here are some additional concepts that you should be familiar with before you co
 
 For more information about lab management, see:
 
-* [Plan your lab](https://msdn.microsoft.com/library/ff756575%28v=vs.140%29.aspx)
-* [Administer your lab](https://msdn.microsoft.com/library/dd936084%28v=vs.140%29.aspx)
-* [Set up for SCVMM environments](https://msdn.microsoft.com/library/dd380687%28v=vs.140%29.aspx)
-* [Manage permissions](https://msdn.microsoft.com/library/dd380760%28v=vs.140%29.aspx)
-* [Change setup](https://msdn.microsoft.com/library/ee704508%28v=vs.140%29.aspx)
-* [Troubleshooting](https://msdn.microsoft.com/library/ee853230%28v=vs.140%29.aspx)
+* [Plan your lab](/previous-versions/ff756575(v=vs.140))
+* [Administer your lab](/previous-versions/dd936084(v=vs.140))
+* [Set up for SCVMM environments](/previous-versions/dd380687(v=vs.140))
+* [Manage permissions](/previous-versions/dd380760(v=vs.140))
+* [Change setup](/previous-versions/ee704508(v=vs.140))
+* [Troubleshooting](/previous-versions/ee853230(v=vs.140))
 
 For information about setting up environments, see:
 
 * [Build and release cloud environments](use-build-or-rm-instead-of-lab-management.md)
-* [Standard lab environments](https://msdn.microsoft.com/library/ee390842.aspx)
-* [SCVMM (virtual) environments](https://msdn.microsoft.com/library/ee943322.aspx)
-* [Creating and using a network isolated environment](https://msdn.microsoft.com/library/ee518924.aspx)
+* [Standard lab environments](/previous-versions/ee390842(v=vs.140))
+* [SCVMM (virtual) environments](/previous-versions/ee943322(v=vs.140))
+* [Creating and using a network isolated environment](/previous-versions/ee518924(v=vs.140))
 ::: moniker-end
 
 ## See also
 
 * [Install and configure test agents](../../test/lab-management/install-configure-test-agents.md)
-* [Visual Studio Lab Management Guide](https://blogs.msdn.microsoft.com/visualstudioalmrangers/2015/04/22/library-of-tooling-and-guidance-solutions-aka-msvsarsolutions/)
+* [Visual Studio Lab Management Guide](/archive/blogs/visualstudioalmrangers/library-of-tooling-and-guidance-solutions-aka-msvsarsolutions)
 * [Microsoft DevOps Blog](https://devblogs.microsoft.com/devops/)

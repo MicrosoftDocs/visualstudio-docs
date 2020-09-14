@@ -116,4 +116,4 @@ The redistributable list is an XML file that you should name using the following
 - [How to: Install prerequisites with a ClickOnce application](../deployment/how-to-install-prerequisites-with-a-clickonce-application.md)
 - [Prerequisites dialog box](../ide/reference/prerequisites-dialog-box.md)
 - [Product and package schema reference](../deployment/product-and-package-schema-reference.md)
-- [Use the Visual Studio 2005 bootstrapper to kick-start your installation](https://msdn.microsoft.com/magazine/cc163899.aspx)
+- [Use the Visual Studio 2005 bootstrapper to kick-start your installation](/archive/msdn-magazine/2004/october/visual-studio-2005-bootstrapper-start-kick-your-installation)

@@ -20,28 +20,56 @@ ms.workload:
 
 By deploying an application, service, or component, you distribute it for installation on other computers, devices, servers, or in the cloud. You choose the appropriate method in Visual Studio for the type of deployment that you need.
 
-For many common app types, you can deploy your application right from Solution Explorer in Visual Studio. For a quick tour of this capability, see [First look at deployment](../deployment/deploying-applications-services-and-components.md).
+Get help for your deployment task:
 
-![Choose a publishing option](../deployment/media/quickstart-publish-dialog.png)
+- Not sure what deployment option to choose? See [What publishing options are right for me?](#what-publishing-options-are-right-for-me)
+- For help with deployment issues for Azure App Service or IIS, see [Troubleshoot ASP.NET Core on Azure App Service and IIS](/aspnet/core/test/troubleshoot-azure-iis).
+- For help to configure .NET deployment settings, see [Configure .NET deployment settings](#configure-net-deployment-settings).
+- To deploy to a new target, if you have previously created a publish profile, select **New** from the **Publish** window for a configured profile.
+
+   ![Create a new publish profile](../deployment/media/create-a-new-publish-profile.png)
+
+   Then, choose a deployment option in the Publish window. For information on your publishing options, see the following sections.
 
 ## What publishing options are right for me?
 
 From within Visual Studio, applications can be published directly to the following targets:
 
+::: moniker range=">=vs-2019"
 - [Azure](#azure)
 - [Docker Container Registry](#docker-container-registry)
 - [Folder](#folder)
 - [FTP/FTPS server](#ftpftps-server)
 - [Web server(IIS)](#web-server-iis)
 - [Import profile](#import-profile)
+::: moniker-end
+::: moniker range="vs-2017"
+- [App Service](#azure-app-service)
+- [App Service Linux](#azure-app-service)
+- [IIS (choose IIS, FTP, etc.)](#web-server-iis)
+- [FTP/FTPS (choose IIS, FTP, etc.)](#ftpftps-server)
+- [Folder](#folder)
+- [Import profile](#import-profile)
+::: moniker-end
+
+The preceding options appear as shown in the following illustration when you create a new publish profile.
+
+::: moniker range=">=vs-2019"
+![Choose a publishing option](../deployment/media/quickstart-publish-dialog.png)
+::: moniker-end
+::: moniker range="vs-2017"
+![Choose a publishing option](../deployment/media/quickstart-publish-dialog-vs-2017.png)
+::: moniker-end
+
+For a quick tour of more general application deployment options, see [First look at deployment](../deployment/deploying-applications-services-and-components.md).
 
 ## Azure 
 
 When you choose Azure, you can choose between:
 
-- Azure App Service running on Windows, Linux, or as a Docker image
-- A Docker image deployed to Azure Container Registry
-- An Azure Virtual Machine
+- [Azure App Service](#azure-app-service) running on Windows, Linux, or as a Docker image
+- A Docker image deployed to [Azure Container Registry](#azure-container-registry)
+- An [Azure Virtual Machine](#azure-virtual-machine)
 
 ![Choose an Azure service](../deployment/media/quickstart-choose-azure-service.png)
 
@@ -61,7 +89,9 @@ You determine how much computing power an App Service has by choosing a [pricing
 > If you want to use Azure App Service in your own datacenter or other on-premises computers, you can do so using the [Azure Stack](https://azure.microsoft.com/overview/azure-stack/).
 
 For more information on publishing to App Service, see:
-- [Quickstart - Publish to Azure App Service](quickstart-deploy-to-azure.md) and [Quickstart - Publish ASP.NET Core to Linux](quickstart-deploy-to-linux.md).
+- [Quickstart - Publish to Azure App Service](quickstart-deploy-to-azure.md)
+- [Quickstart - Publish ASP.NET Core to Linux](quickstart-deploy-to-linux.md).
+- [Publish an ASP.NET Core app to Azure App Service](/aspnet/core/tutorials/publish-to-azure-webapp-using-vs)
 - [Troubleshoot ASP.NET Core on Azure App Service and IIS](/aspnet/core/test/troubleshoot-azure-iis).
 
 ### Azure Container Registry
@@ -73,13 +103,17 @@ For more information on publishing to App Service, see:
 - When you have an existing Docker container development and deployment pipeline.
 - When you want to build Docker container images in Azure.
 
-### Azure Virtual Machines
+For more information:
+
+- [Deploy an ASP.NET container to a container registry](../containers/hosting-web-apps-in-docker.md)
+
+### Azure Virtual Machine
 
 [Azure Virtual Machines (VMs)](https://azure.microsoft.com/documentation/services/virtual-machines/) let you create and manage any number of computing resources in the cloud. By assuming responsibility for all software and updates on the VMs, you can customize them as much as desired as required by your application. You can access the virtual machines directly through Remote Desktop, and each one will maintain its assigned IP address as long as desired.
 
 Scaling an application that's hosted on virtual machines involves spinning up additional VMs according to demand and then deploying the necessary software. This additional level of control lets you scale differently in different global regions. For example, if your application is serving employees in a variety of regional offices, you can scale your VMs according to the number of employees in those regions, potentially reducing costs.
 
-For additional information, refer to the [detailed comparison](https://azure.microsoft.com/documentation/articles/choose-web-site-cloud-service-vm/) between Azure App Service, Azure Virtual Machines, and other Azure services that you can use as a deployment target using the Custom option in Visual Studio.
+For additional information, refer to the [detailed comparison](/azure/architecture/guide/technology-choices/compute-decision-tree) between Azure App Service, Azure Virtual Machines, and other Azure services that you can use as a deployment target using the Custom option in Visual Studio.
 
 #### When to choose Azure Virtual Machines
 
@@ -90,13 +124,18 @@ For additional information, refer to the [detailed comparison](https://azure.mic
 
 > If you want to use Azure Virtual Machines in your own datacenter or other on-premises computers, you can do so using the [Azure Stack](https://azure.microsoft.com/overview/azure-stack/).
 
-## Docker Container Registry
+## Docker container registry
 
-If your application is using Docker, you can publish your containerized application to a Docker Container Registry.
+If your application is using Docker, you can publish your containerized application to a Docker container registry.
 
 ### When to choose Docker Container Registry
 
 - You want to deploy a containerized application
+
+For more information, see the following:
+
+- [Deploy an ASP.NET container to a container registry](../containers/hosting-web-apps-in-docker.md)
+- [Deploy to Docker Hub](../containers/deploy-docker-hub.md)
 
 ## Folder
 
@@ -112,7 +151,13 @@ Note that if for any reason (such as machine access) you are not able to use clo
 - You need only a local test deployment.
 - You want to examine and potentially modify the application files independently before sending them onto another deployment target.
 
-For more information, see [Quickstart - Deploy to a local folder](quickstart-deploy-to-local-folder.md)
+For more information, see [Quickstart - Deploy to a local folder](quickstart-deploy-to-local-folder.md).
+
+For additional help to choose your settings, see the following:
+
+- [Framework-dependent vs. self-contained deployment](/dotnet/core/deploying/)
+- [Target runtime identifiers (portable RID, et al)](/dotnet/core/rid-catalog)
+- [Debug and release configurations](../ide/understanding-build-configurations.md)
 
 ## FTP/FTPS server
 
@@ -152,7 +197,9 @@ You can create any number of IIS web server deployment profiles in Visual Studio
 - You want to deploy using credentials other than the ones that you use within Visual Studio, or those tied directly to your Azure accounts.
 - You want to delete files from the target each time you deploy.
 
-For more information, see [Quickstart - Deploy to a web site](quickstart-deploy-to-a-web-site.md). For help troubleshooting ASP.NET Core on IIS, see [Troubleshoot ASP.NET Core on Azure App Service and IIS](/aspnet/core/test/troubleshoot-azure-iis).
+For more information, see [Quickstart - Deploy to a web site](quickstart-deploy-to-a-web-site.md).
+
+For help troubleshooting ASP.NET Core on IIS, see [Troubleshoot ASP.NET Core on Azure App Service and IIS](/aspnet/core/test/troubleshoot-azure-iis).
 
 ## Import Profile
 
@@ -169,6 +216,14 @@ For more information, see the following:
 
 - [Import publish settings and deploy to IIS](tutorial-import-publish-settings-iis.md)
 - [Import publish settings and deploy to Azure](tutorial-import-publish-settings-azure.md)
+
+## Configure .NET deployment settings
+
+For additional help to choose your settings, see the following:
+
+- [Framework-dependent vs. self-contained deployment](/dotnet/core/deploying/)
+- [Target runtime identifiers (portable RID, et al)](/dotnet/core/rid-catalog)
+- [Debug and release configurations](../ide/understanding-build-configurations.md)
 
 ## Next steps
 

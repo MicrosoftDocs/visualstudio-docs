@@ -127,6 +127,8 @@
         href: install/visual-studio-build-numbers-and-release-dates.md
   - name: Use Visual Studio from an Azure virtual machine
     href: install/using-visual-studio-vm.md
+  - name: Use Visual Studio on an ARM device
+    href: install/visual-studio-on-arm-devices.md
   - name: Containers
     items:
     - name: Install Build Tools into a Container
@@ -507,6 +509,8 @@
       - name: Use EditorConfig files for code style
         displayName: Configure code style analyzers
         href: ide/create-portable-custom-editor-options.md
+      - name: C++ EditorConfig formatting conventions
+        href: ide/cpp-editorconfig-properties.md
       - name: .NET coding conventions
         items:
         - name: Overview

@@ -1,5 +1,7 @@
 ---
-title: IDebugExpressionEvaluationCompleteEvent2::GetExpression | Microsoft Docs
+title: IDebugExpressionEvaluationCompleteEvent2::GetExpression
+titleSuffix: ""
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:

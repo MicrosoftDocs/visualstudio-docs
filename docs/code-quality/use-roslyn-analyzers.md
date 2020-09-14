@@ -14,7 +14,7 @@ ms.workload:
 ---
 # Configure code quality analysis
 
-Starting in .NET 5.0, code quality analyzers are included with the .NET SDK. (Previously, you installed these analyzers as a NuGet package.) Code analysis is enabled, by default, for projects that target .NET 5.0 or later. You can enable code analysis on projects that target earlier .NET versions by setting the [EnableNETAnalyzers](https://docs.microsoft.com/en-us/dotnet/core/project-sdk/msbuild-props#enablenetanalyzers) property to `true`. You can also disable code analysis for your project by setting `EnableNETAnalyzers` to `false`.
+Starting in .NET 5.0, code quality analyzers are included with the .NET SDK. (Previously, you installed these analyzers as a NuGet package.) Code analysis is enabled, by default, for projects that target .NET 5.0 or later. You can enable code analysis on projects that target earlier .NET versions by setting the [EnableNETAnalyzers](/dotnet/core/project-sdk/msbuild-props#enablenetanalyzers) property to `true`. You can also disable code analysis for your project by setting `EnableNETAnalyzers` to `false`.
 
 Each code quality analyzer *diagnostic* or rule has a default severity and suppression state that can be overwritten and customized for your project. This article covers setting code quality analyzer severities and suppressing analyzer violations.
 
@@ -22,7 +22,7 @@ Each code quality analyzer *diagnostic* or rule has a default severity and suppr
 
 ::: moniker range=">=vs-2019"
 
-Starting in Visual Studio 2019 version 16.3, you can configure the severity of analyzer rules, or *diagnostics*, in an [EditorConfig file](#set-rule-severity-in-an-editorconfig-file), from the [light bulb menu](#automatically-configure-rule-severity), and from the error list.
+Starting in Visual Studio 2019 version 16.3, you can configure the severity of analyzer rules, or *diagnostics*, in an [EditorConfig file](#set-rule-severity-in-an-editorconfig-file), from the [light bulb menu](#set-rule-severity-from-the-light-bulb-menu), and from the error list.
 
 ::: moniker-end
 
@@ -45,7 +45,7 @@ The following table shows the different severity options:
 
 If rule violations are found by an analyzer, they're reported in the code editor (as a *squiggle* under the offending code) and in the Error List window.
 
-The analyzer violations reported in the error list match the [severity level setting](../code-quality/use-roslyn-analyzers.md#rule-severity) of the rule. Analyzer violations also show up in the code editor as squiggles under the offending code. The following image shows three violations&mdash;one error (red squiggle), one warning (green squiggle), and one suggestion (three grey dots):
+The analyzer violations reported in the error list match the [severity level setting](../code-quality/use-roslyn-analyzers.md#configure-severity-levels) of the rule. Analyzer violations also show up in the code editor as squiggles under the offending code. The following image shows three violations&mdash;one error (red squiggle), one warning (green squiggle), and one suggestion (three grey dots):
 
 ![Squiggles in the code editor in Visual Studio](media/diagnostics-severity-colors.png)
 
@@ -74,7 +74,7 @@ You can set the severity for compiler warnings or analyzer rules in an EditorCon
 
 `dotnet_diagnostic.<rule ID>.severity = <severity>`
 
-Setting a rule's severity in an EditorConfig file takes precedence over any severity that's set in a rule set or in Solution Explorer. You can [manually](#manually-configure-rule-severity) configure severity in an EditorConfig file or [automatically](#automatically-configure-rule-severity) through the light bulb that appears next to a violation.
+Setting a rule's severity in an EditorConfig file takes precedence over any severity that's set in a rule set or in Solution Explorer. You can [manually](#manually-configure-rule-severity-in-an-editorconfig-file) configure severity in an EditorConfig file or [automatically](#set-rule-severity-from-the-light-bulb-menu) through the light bulb that appears next to a violation.
 
 ### Set rule severity of multiple analyzer rules at once in an EditorConfig file
 
@@ -175,10 +175,10 @@ To see online documentation for a diagnostic, right-click the diagnostic and sel
 
 The icons next to each diagnostic in **Solution Explorer** correspond to the icons you see in the rule set when you open it in the editor:
 
-- the "x" in a circle indicates a [severity](#rule-severity) of **Error**
-- the "!" in a triangle indicates a [severity](#rule-severity) of **Warning**
-- the "i" in a circle indicates a [severity](#rule-severity) of **Info**
-- the "i" in a circle on a light-colored background indicates a [severity](#rule-severity) of **Hidden**
+- the "x" in a circle indicates a [severity](#configure-severity-levels) of **Error**
+- the "!" in a triangle indicates a [severity](#configure-severity-levels) of **Warning**
+- the "i" in a circle indicates a [severity](#configure-severity-levels) of **Info**
+- the "i" in a circle on a light-colored background indicates a [severity](#configure-severity-levels) of **Hidden**
 - the downward-pointing arrow in a circle indicates that the diagnostic is suppressed
 
 ![Diagnostics icons in Solution Explorer](media/diagnostics-icons-solution-explorer.png)
@@ -251,6 +251,7 @@ dotnet_diagnostic.CA2213.severity = warning
 
 dotnet_diagnostic.CA2231.severity = warning
 ```
+::: moniker-end
 
 ### Set rule severity from Solution Explorer
 
@@ -379,7 +380,7 @@ When you build your project at the command line, rule violations appear in the b
 
 - One or more rules are violated in the project's code.
 
-- The [severity](#rule-severity) of a violated rule is set to either **warning**, in which case violations don't cause build to fail, or **error**, in which case violations cause build to fail.
+- The [severity](#configure-severity-levels) of a violated rule is set to either **warning**, in which case violations don't cause build to fail, or **error**, in which case violations cause build to fail.
 
 The verbosity of the build output does not affect whether rule violations are shown. Even with **quiet** verbosity, rule violations appear in the build output.
 
