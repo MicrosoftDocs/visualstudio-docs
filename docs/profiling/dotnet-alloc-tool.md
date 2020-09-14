@@ -20,7 +20,7 @@ After running the tool, you can see the function execution paths where objects a
 
 ## Setup
 
-1. Select **Alt+F2** to open the performance profiler in Visual Studio.
+1. Select **Alt+F2** to open the Performance Profiler in Visual Studio.
 
 1. Select the **.NET Object Allocation Tracking** check box.
 
