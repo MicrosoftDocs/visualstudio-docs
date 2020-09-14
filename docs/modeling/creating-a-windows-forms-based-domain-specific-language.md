@@ -169,6 +169,7 @@ Now you can create a new user control that will display the information that is 
 - It ensures that, when the user selects a row, the Properties window displays the properties of the corresponding model element, instead of the data grid row.
 
   ![Schema of the DSL binding](../modeling/media/dslwpf4.png)
+  
   Schema of links between data sources and views.
 
 ### Complete the bindings to the DSL
