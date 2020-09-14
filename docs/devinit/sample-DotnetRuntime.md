@@ -13,16 +13,6 @@ ms.workload:
 
 This example illustrates how to customize the .NET Core Runtime [dotnet/runtime](https://github.com/dotnet/runtime) to automatically be provisioned in a [Codespace with Visual Studio 2019](https://docs.microsoft.com/visualstudio/codespaces/quickstarts/vs).
 
-## .devcontainer.json
-
-Contents of the `.devcontainer.json` file in the repo root.
-
-```json
-{
-    "postCreateCommand": "PostCloneSetup.ps1"
-}
-```
-
 ## PostCloneSetup.ps1
 
 This script is called from `PostCloneSetup.ps1` and can also be ran locally to set up the repository. This file needs to be in the same folder as `.devcontainer.json`.
@@ -64,4 +54,13 @@ Contents of the [`.devinit.json`](devinit-json.md) file. This file needs to be i
         }
     ]
 } 
+```
+## .devcontainer.json
+
+Contents of the `.devcontainer.json` file in the repo root.
+
+```json
+{
+  "postCreateCommand": "devinit init"
+}
 ```

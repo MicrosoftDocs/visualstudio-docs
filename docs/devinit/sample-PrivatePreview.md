@@ -13,16 +13,6 @@ ms.workload:
 
 This example illustrates how to customize a [Github Codespace for Visual Studio](https://docs.microsoft.com/visualstudio/codespaces/quickstarts/vs) to have the same features as the initial private preview.
 
-## .devcontainer.json
-
-Contents of the `.devcontainer.json` file in the repo root.
-
-```json
-{
-  "postCreateCommand": "devinit init"
-}
-```
-
 ## .devinit.json
 
 Contents of the [`.devinit.json`](devinit-json.md) file. This file needs to be in the same folder as `.devcontainer.json`.
@@ -66,5 +56,15 @@ Contents of the [`.devinit.json`](devinit-json.md) file. This file needs to be i
             "tool": "require-vcpkg"
         }
     ]
+}
+```
+
+## .devcontainer.json
+
+Contents of the `.devcontainer.json` file in the repo root.
+
+```json
+{
+  "postCreateCommand": "devinit init"
 }
 ```

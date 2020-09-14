@@ -54,3 +54,13 @@ Contents of the [`.devinit.json`](devinit-json.md) file. This file needs to be i
     ]
 }
 ```
+
+## .devcontainer.json
+
+Contents of the `.devcontainer.json` file in the repo root.
+
+```json
+{
+  "postCreateCommand": "devinit init"
+}
+```

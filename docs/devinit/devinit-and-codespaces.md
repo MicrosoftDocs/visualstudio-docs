@@ -15,11 +15,11 @@ ms.workload:
 
 To integrate with a Github Codespaces for Visual Studio, `devinit` needs to be called from the `postCreateCommand` defined in a `.devcontainer.json` file placed in the repo root. The string(s) in `postCreateCommand` are executed after the repo is cloned in the default shell of the Codespace. You can read more about `postCreateCommand` in the Github Codespaces [customization documentation](https://docs.github.com/en/github/developing-online-with-codespaces/configuring-codespaces-for-your-project). To add the `devinit` command, you can add `devinit init` to the `postCreateCommand` as shown in the examples below.
 
-You can also execute `devinit init -f <path to .devinit.json>` from the Visual Studio Integrated Terminal once connected to your Codespace. 
+You can also execute `devinit init -f <path to .devinit.json>` from the Visual Studio Integrated Terminal once connected to your Codespace.
 
 ## Examples
 
-### With a .devinit.json File
+### With a .devinit.json file
 In this example, the `.devcontainer.json` file below is placed in the repo root alongside `.devinit.json` file. The files can also be placed in a `.devcontainer` folder.
 
 ```json
@@ -34,7 +34,7 @@ In this example, the `.devcontainer.json` file below is placed in the repo root 
 }
 ```
 
-### As Commands
+### As commands
 In this example `.devcontainer.json` file below is placed in the repo root and `devinit` is being called programmatically to run a tool  
 
 ```json

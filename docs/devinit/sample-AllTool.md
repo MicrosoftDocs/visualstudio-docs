@@ -13,16 +13,6 @@ ms.workload:
 
 This example illustrates how to use a large range of `devinit` tools.
 
-## .devcontainer.json
-
-Contents of the `.devcontainer.json` file in the repo root.
-
-```json
-{
-  "postCreateCommand": "devinit init"
-}
-```
-
 ## .devinit.json
 Contents of the `.devcontainer.json` file. This file needs to be in the same folder as `.devcontainer.json`.
 
@@ -102,5 +92,15 @@ Contents of the `.devcontainer.json` file. This file needs to be in the same fol
       "input": "https://aka.ms/wslubuntu2004"
     }
   ]
+}
+```
+
+## .devcontainer.json
+
+Contents of the `.devcontainer.json` file in the repo root.
+
+```json
+{
+  "postCreateCommand": "devinit init"
 }
 ```
