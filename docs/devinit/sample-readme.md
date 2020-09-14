@@ -14,7 +14,7 @@ ms.technology: devinit
 ---
 # Sample list
 
-The table below contains a list of all the currently available examples for using `devinit` in a Visual Studio Codespaces for Visual Studio 2019.
+The table below contains a list of all the currently available examples for using devinit in a Visual Studio Codespaces for Visual Studio 2019.
 
 | Tool                                             | Description                                                                                                                  |   |
 |--------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------|---|

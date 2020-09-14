@@ -14,10 +14,10 @@ ms.technology: devinit
 ---
 # All Tools
 
-This example illustrates how to use a large range of `devinit` tools.
+This example illustrates how to use a large range of devinit tools.
 
 ## .devinit.json
-Contents of the `.devcontainer.json` file. This file needs to be in the same folder as `.devcontainer.json`.
+Contents of the _.devcontainer.json_ file. This file needs to be in the same folder as _.devcontainer.json_.
 
 ``` json
 {
@@ -100,7 +100,7 @@ Contents of the `.devcontainer.json` file. This file needs to be in the same fol
 
 ## .devcontainer.json
 
-Contents of the `.devcontainer.json` file in the repo root.
+Contents of the _.devcontainer.json_ file in the repo root.
 
 ```json
 {

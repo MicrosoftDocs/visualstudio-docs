@@ -18,9 +18,9 @@ This example illustrates how to customize the dotnet architecture example [eShop
 
 ## PostCloneSetup.ps1
 
-This script is called from `PostCloneSetup.ps1` and can also be ran locally to set up the repository. This file needs to be in the same folder as `.devcontainer.json`.
+This script is called from _PostCloneSetup.ps1_ and can also be ran locally to set up the repository. This file needs to be in the same folder as _.devcontainer.json_.
 
-```cmd
+```batch
 devinit init
 dotnet ef database update -c catalogcontext -p src\Infrastructure\Infrastructure.csproj -s src\Web\Web.csproj
 dotnet ef database update -c appidentitydbcontext -p src\Infrastructure\Infrastructure.csproj -s src\Web\Web.csproj
@@ -28,7 +28,7 @@ dotnet ef database update -c appidentitydbcontext -p src\Infrastructure\Infrastr
 
 ## .devinit.json
 
-Contents of the [`.devinit.json`](devinit-json.md) file. This file needs to be in the same folder as `.devcontainer.json`.
+Contents of the [_.devinit.json_](devinit-json.md) file. This file needs to be in the same folder as _.devcontainer.json_.
 
 ```json
 {
@@ -50,7 +50,7 @@ Contents of the [`.devinit.json`](devinit-json.md) file. This file needs to be i
 
 ## .devcontainer.json
 
-Contents of the `.devcontainer.json` file in the repo root.
+Contents of the _.devcontainer.json_ file in the repo root.
 
 ```json
 {

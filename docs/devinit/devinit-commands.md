@@ -20,7 +20,7 @@ ms.technology: devinit
 > devinit init
 ```
 
-Initialize the environment by running the tools specified in a [`.devinit.json`](devinit-json.md) file in the current working directory.  
+Initialize the environment by running the tools specified in a [_.devinit.json_](devinit-json.md) file in the current working directory.  
 
 ### Options for init
 
@@ -28,7 +28,7 @@ Optional options for the `devinit init` command.
 
 | Argument     | Required | Description                       |
 |--------------|----------|-----------------------------------|
-| **--File**   | No       | Path to the `.devinit.json` file. |
+| **--File**   | No       | Path to the _.devinit.json_ file. |
 
 ## Run
 
@@ -59,13 +59,13 @@ Using an `<arg>` that includes a space in its value must include an additional p
 > devinit run -t <toolname> -<somearg> "\"<some value>\""
 ```
 
-For installing `dotnet` into a specific directory `C:\Program Files\dotnet`:
+For installing dotnet into a specific directory `C:\Program Files\dotnet`:
 
 ```batch
 > devinit run -t require-dotnetcoresdk -InstallDir "\"C:\Program Files\tool\""
 ```
 
-For installing `dotnet` into a specific directory `C:\Workspace\dotnet`:
+For installing dotnet into a specific directory `C:\Workspace\dotnet`:
 
 ```batch
 > devinit run -t require-dotnetcoresdk -InstallDir "C:\Workspace\dotnet"
@@ -85,7 +85,7 @@ Prints a list of all the available tools.
 > devinit version
 ```
 
-Prints the current version information for `devinit`.
+Prints the current version information for devinit.
 
 ## Help
 
@@ -94,7 +94,7 @@ Prints the current version information for `devinit`.
 > devinit help list
 ```
 
-Prints the help text for `devinit` or for a specific command `devinit <command>`.
+Prints the help text for devinit or for a specific command `devinit <command>`.
 
 ## Verbose Mode
 

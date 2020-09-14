@@ -18,7 +18,7 @@ This example illustrates how to customize the .NET Core Runtime [dotnet/runtime]
 
 ## PostCloneSetup.ps1
 
-This script is called from `PostCloneSetup.ps1` and can also be ran locally to set up the repository. This file needs to be in the same folder as `.devcontainer.json`.
+This script is called from _PostCloneSetup.ps1_ and can also be ran locally to set up the repository. This file needs to be in the same folder as _.devcontainer.json_.
 
 ```batch
 devinit init
@@ -28,19 +28,19 @@ devinit init -f .devinit.json
 
 ## packages.config
 
-The `packages.config` file is a [Chocolatey](https://chocolatey.org/) file that defines the list of Chocolatley packages to install. This file needs to be in the same folder as `.devcontainer.json`.
+The _packages.config_ file is a [Chocolatey](https://chocolatey.org/) file that defines the list of Chocolatley packages to install. This file needs to be in the same folder as _.devcontainer.json_.
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <packages>
     <package id="python" version="3.8.3"  />
     <package id="cmake" version="3.17.3"  />
-</packages> 
+</packages>
 ```
 
 ## .devinit.json
 
-Contents of the [`.devinit.json`](devinit-json.md) file. This file needs to be in the same folder as `.devcontainer.json` file.
+Contents of the [_.devinit.json_](devinit-json.md) file. This file needs to be in the same folder as _.devcontainer.json_ file.
 
 ```json
 {
@@ -56,11 +56,12 @@ Contents of the [`.devinit.json`](devinit-json.md) file. This file needs to be i
             "tool": "require-vscomponent"
         }
     ]
-} 
+}
 ```
+
 ## .devcontainer.json
 
-Contents of the `.devcontainer.json` file in the repo root.
+Contents of the _.devcontainer.json_ file in the repo root.
 
 ```json
 {

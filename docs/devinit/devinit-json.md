@@ -16,16 +16,16 @@ ms.technology: devinit
 
 ## File location
 
-The `devinit.exe init` command is driven via the `.devinit.json` file. By default, `devinit.exe` looks for the file in the following locations:
+The `devinit.exe init` command is driven via the _.devinit.json_ file. By default, `devinit.exe` looks for the file in the following locations:
 
-- `{current-directory}\\.devinit.json`
-- `{current-directory}\\.devinit\devinit.json`
+- _{current-directory}\\.devinit.json_
+- _{current-directory}\\.devinit\devinit.json_
 
-The `.devinit` file can also be specified explicitly via the `--file`/`-f` option.
+The _.devinit.json_ file can also be specified explicitly via the `--file`/`-f` option.
 
 ### Directories and relative paths
 
-Paths are relative to the location where `devinit.exe` is running. Typically the current working directory from which `devinit.exe` was executed.
+Paths are relative to the location where devinit is running. Typically the current working directory from which `devinit` was executed.
 
 ## File Format
 
@@ -56,10 +56,10 @@ Paths are relative to the location where `devinit.exe` is running. Typically the
 | Name                  | Type   | Required | Value                                                                                                      |
 |-----------------------|--------|----------|------------------------------------------------------------------------------------------------------------|
 | **comments**          | string | No       | Comments for the tool entry.                                                                               |
-| **tool**              | string | Yes      | The tool name. See the `devinit.exe list` command for a listing of available tools.                        |
+| **tool**              | string | Yes      | The tool name. See the `devinit list` command for a listing of available tools.                            |
 | **input**             | string | No       | The tool input. Varies by tool. For example, the required version, the package ID, the filename, or folder.|
 | **additionalOptions** | string | No       | Additional command-line arguments to be passed to the tool.                                                |
 
 ## Examples
 
-For more examples of using `devinit`, see the [Samples section](/samples).
+For more examples of using devinit, see the [Samples section](/samples).
