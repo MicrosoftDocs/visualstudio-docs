@@ -28,7 +28,7 @@ devinit init -f .devinit.json
 
 ## packages.config
 
-The _packages.config_ file is a [Chocolatey](https://chocolatey.org/) file that defines the list of Chocolatley packages to install. This file needs to be in the same folder as _.devcontainer.json_.
+The _packages.config_ file is a [Chocolatey](https://chocolatey.org/) file that defines the list of Chocolatey packages to install. This file needs to be in the same folder as _.devcontainer.json_.
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>

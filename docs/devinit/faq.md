@@ -14,13 +14,13 @@ ms.technology: devinit
 ---
 # Frequently asked questions for devinit
 
-## Is devinit just for Codespaces for Visual Studio 2019?
+## Is devinit just for GitHub Codespaces for Visual Studio?
 
-For now devinit is only available as part of the Private Preview of Visual Studio 2019 for Codespaces.
+For now devinit is only available as part of the GitHub Codespaces for Visual Studio private beta. However, we have plans to include devinit in an upcoming release of Visual Studio 2019.
 
 ## There's no tool for the dependency I need!
 
-We're sorry! If you're part of the private preview for Codespaces with Visual Studio 2019, you can get back to us through the feedback channel for the private preview. If you're not part of the private preview we'd still love your feedback on what you need, and you can file an issue on our [Visual Studio Docs](https://github.com/MicrosoftDocs/visualstudio-docs/) with the label devinit to request support for the tool you need.
+We're sorry! If you're part of the GitHub Codespaces for Visual Studio private beta, you can get back to us through the feedback channel for the private beta. If you're not part of the private beta we'd still love your feedback on what you need, and you can file an issue on our [Visual Studio Docs](https://github.com/MicrosoftDocs/visualstudio-docs/) with the label devinit to request support for the tool you need.
 
 ## Something went wrong, how do I debug?
 
@@ -40,16 +40,16 @@ Containers, and docker, are great tools to deploy an environment via code. There
 For those reasons devinit is about customizing the Windows environment you currently have.
 
 ## What about other VM creation tools (e.g. Terraform, Packer, Chef, Vagrant, etc.)
-There's lots of great tools for creating Windows images and you should use them! However we couldn't find one that fulfilled all the scenarios we had in mind. We want devinit to be a tool for developers to customize the environment they have with whatever is needed to work with a paticular repo and to have great integration with Visual Studio rather than a tool to create VM images.
+There's lots of great tools for creating Windows images and you should use them! However, we couldn't find one that fulfilled all the scenarios we had in mind. We want devinit to be a tool for developers to customize the environment they have with whatever is needed to work with a particular repo and to have great integration with Visual Studio rather than a tool to create VM images.
 
 ## What about winget?
 devinit isn't a package manager like winget, and we don't want it to be. We do want you to be able to use winget with devinit and we're working on a tool for just that.
 
 ## How are restarts are handled?
-If anything that devinit installs requires an OS reboot then an error message will be outputed to the console. You'll need to then reboot the OS at a time that suits you. After rebooting you might need to re-run devinit if all the dependencies weren't installed.
+If anything that devinit installs requires an OS reboot then an error message will be outputted to the console. You'll need to then reboot the OS at a time that suits you. After rebooting you might need to re-run devinit if all the dependencies weren't installed.
 
 ## Working with others
 
-devinit is all about enabling the use of the wide ecosystem that's out there to deploy and configure the dependencies your app might have. devinit has an opionon on some things and might deliver those things, devinit is mostly about enabling other tools to be executed from a declative json file.
+devinit is all about enabling the use of the wide ecosystem that's out there to deploy and configure the dependencies your app might have. devinit has an opionon on some things and might deliver those things, devinit is mostly about enabling other tools to be executed from a declarative json file.
 
 Today, devinit is just getting started and our [list of tools](~/devinit/devinit-tool-list.md) is just a beginning.

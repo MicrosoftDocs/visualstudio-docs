@@ -14,7 +14,7 @@ ms.technology: devinit
 ---
 # Private preview
 
-This example illustrates how to customize a [Github Codespace for Visual Studio](https://docs.microsoft.com/visualstudio/codespaces/quickstarts/vs) to have the same features as the initial private preview.
+This example illustrates how to customize a [GitHub Codespace for Visual Studio](https://docs.microsoft.com/visualstudio/codespaces/quickstarts/vs) to have the same features as the initial private preview.
 
 ## .devinit.json
 

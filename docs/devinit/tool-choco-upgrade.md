@@ -28,21 +28,21 @@ If both the `input` and `additionalOptions` properties are omitted or empty, the
 
 ### Input
 
-The `input` property is used to specify the name of the package to upgrade (for example 'mongodb') or the path to a configuration file of the following formats `packages.config`, `.nuspec`, and `.nupkg`. The value of `input` will be append to a `choco upgrade` command (for example `choco upgrade mongodb`) along with any arguments specific in [`additionalOptions`](#additional-options) and the built-in choco options (defined [below](#builtin-choco-options)). Packages can be found in the [chocolatey package gallery](https://chocolatey.org/packages). When using a configuration file, you can pass in the path to that file in the `input` property for example: `"input":"packages.config"`.
+The `input` property is used to specify the name of the package to upgrade (for example 'mongodb') or the path to a configuration file of the following formats _packages.config_, _.nuspec_, and _.nupkg_. The value of `input` will be append to a `choco upgrade` command (for example `choco upgrade mongodb`) along with any arguments specific in [`additionalOptions`](#additional-options) and the built-in `choco` options (defined [below](#builtin-choco-options)). Packages can be found in the [chocolatey package gallery](https://chocolatey.org/packages). When using a configuration file, you can pass in the path to that file in the `input` property for example: `"input":"packages.config"`.
 
 ### Additional options
 
-Additional configuration options can be passed in as a value of the `additionalOptions`. These arguments are direct passthrough to the arguments used by [choco upgrade](https://chocolatey.org/docs/commands-upgrade) and are defined in chocolatey documentation.
+Additional configuration options can be passed in as a value of the `additionalOptions`. These arguments are direct passthrough to the arguments used by [`choco upgrade`](https://chocolatey.org/docs/commands-upgrade) and are defined in chocolatey documentation.
 
 ## Builtin Choco Options
 
-The `choc-upgrade` tool sets a number of `choco` command line arguments to ensure that `choco` can run headless. These arguments are listed below and documentation on them can be found in the [chocolatey documentation](https://chocolatey.org/docs/).
+The `choc-upgrade` tool sets a number of `choco` command-line arguments to ensure that `choco` can run headless. These arguments are listed below and documentation on them can be found in the [chocolatey documentation](https://chocolatey.org/docs/).
 
-| Name                  | Description                                                                                      |
-|-----------------------|--------------------------------------------------------------------------------------------------|
-| **--yes**             | Confirm all prompts - Chooses affirmative answer instead of prompting. Implies --accept-license. |
-| **--no-progress**     | Don't show progress - Progress percentages won't be shown.                                       |
-| **--skip-powershell** | Skip PowerShell - chocolateyInstall.ps1 won't be ran.                                            |
+| Name                  | Description                                                                                        |
+|-----------------------|----------------------------------------------------------------------------------------------------|
+| **--yes**             | Confirm all prompts - Chooses affirmative answer instead of prompting. Implies `--accept-license`. |
+| **--no-progress**     | Don't show progress - Progress percentages won't be shown.                                         |
+| **--skip-powershell** | Skip PowerShell - chocolateyInstall.ps1 won't be ran.                                              |
 
 ## Example usage
 
