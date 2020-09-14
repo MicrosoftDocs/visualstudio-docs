@@ -24,7 +24,7 @@ The .NET code analysis provides rules that indicate code quality violations or s
 |Item|Description|
 |----------|-----------------|
 |Type|The TypeName for the rule.|
-|CheckId|The unique identifier for the rule. CheckId and Category are used for in-source suppression of a warning.|
+|RuleId|The unique identifier for the rule. RuleId and Category are used for in-source suppression of a warning.|
 |Category|The category of the warning.|
 |Breaking change|Whether the fix for a violation of the rule is a breaking change. Breaking change means that an assembly that has a dependency on the target that caused the violation will not recompile with the new fixed version or might fail at run time because of the change. When multiple fixes are available and at least one fix is a breaking change and one fix is not, both 'Breaking' and 'Non-breaking' are specified.|
 |Cause|The specific managed code that causes the rule to generate a warning.|
