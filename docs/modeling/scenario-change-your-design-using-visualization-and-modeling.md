@@ -1,5 +1,6 @@
 ---
 title: 'Change your design using visualization and modeling'
+description: Overview of the visualization and modeling tools in Visual Studio.
 ms.date: 11/04/2016
 ms.topic: overview
 helpviewer_keywords:

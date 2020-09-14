@@ -1,5 +1,6 @@
 ---
 title: See dependencies between C++ source and header files
+description: Provides information about code maps for C++ projects.
 ms.date: 05/16/2018
 ms.topic: conceptual
 author: JoshuaPartlow

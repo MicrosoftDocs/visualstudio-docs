@@ -1,5 +1,6 @@
 ---
 title: Add custom architecture validation to dependency diagrams
+description: Provides information about how to add custom architecture validation to dependency diagrams.
 ms.date: 11/04/2016
 ms.topic: how-to
 titleSuffix: ""

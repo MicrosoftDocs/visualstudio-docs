@@ -1,5 +1,6 @@
 ---
 title: Overview of the Domain-Specific Language Tools UI
+description: Provides an overview of the user interface of a domain-specific language tools solution in Visual Studio.
 ms.date: 11/04/2016
 ms.topic: overview
 f1_keywords:

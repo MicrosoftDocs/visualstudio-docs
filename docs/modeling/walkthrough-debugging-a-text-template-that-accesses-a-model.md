@@ -1,5 +1,6 @@
 ---
 title: 'Walkthrough: Debug Text Templates that Access a Model'
+description: Provides information about how to debug a text template that accesses a model.
 ms.date: 11/04/2016
 ms.topic: how-to
 author: JoshuaPartlow
