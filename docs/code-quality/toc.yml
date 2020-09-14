@@ -580,6 +580,8 @@
             href: interoperability-warnings.md
           - name: "CA1401: P-Invokes should not be visible"
             href: ca1401.md
+          - name: "CA1416: Validate platform compatibility"
+            href: ca1416.md
           - name: "CA1417: Do not use OutAttribute on string parameters for P/Invokes"
             href: ca1417.md
         - name: Maintainability warnings

@@ -62,6 +62,7 @@ f1_keywords:
 - CA1309
 - CA1310
 - CA1401
+- CA1416
 - CA1417
 - CA1501
 - CA1502
@@ -258,7 +259,7 @@ ms.workload:
 
 The following table lists code quality analysis rules by rule identifier.
 
-| CheckId | Warning | Description |
+| RuleId | Warning | Description |
 |---------| - | - |
 | CA1000 | [CA1000: Do not declare static members on generic types](../code-quality/ca1000.md) | When a static member of a generic type is called, the type argument must be specified for the type. When a generic instance member that does not support inference is called, the type argument must be specified for the member. In these two cases, the syntax for specifying the type argument is different and easily confused. |
 | CA1001 | [CA1001: Types that own disposable fields should be disposable](../code-quality/ca1001.md) | A class declares and implements an instance field that is a System.IDisposable type, and the class does not implement IDisposable. A class that declares an IDisposable field indirectly owns an unmanaged resource and should implement the IDisposable interface. |
@@ -318,6 +319,7 @@ The following table lists code quality analysis rules by rule identifier.
 | CA1309 | [CA1309: Use ordinal StringComparison](../code-quality/ca1309.md) | A string comparison operation that is nonlinguistic does not set the StringComparison parameter to either Ordinal or OrdinalIgnoreCase. By explicitly setting the parameter to either StringComparison.Ordinal or StringComparison.OrdinalIgnoreCase, your code often gains speed, becomes more correct, and becomes more reliable. |
 | CA1310 | [CA1310: Specify StringComparison for correctness](../code-quality/ca1310.md) | A string comparison operation uses a method overload that does not set a StringComparison parameter and uses culture-specific string comparison by default. |
 | CA1401 | [CA1401: P/Invokes should not be visible](../code-quality/ca1401.md) | A public or protected method in a public type has the System.Runtime.InteropServices.DllImportAttribute attribute (also implemented by the Declare keyword in [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)]). Such methods should not be exposed. |
+| CA1416 | [CA1416: Validate platform compatibility](../code-quality/ca1416.md) | Using platform-dependent APIs on a component makes the code no longer work across all platforms. |
 | CA1417 | [CA1417: Do not use `OutAttribute` on string parameters for P/Invokes](../code-quality/ca1417.md) | String parameters passed by value with the `OutAttribute` can destabilize the runtime if the string is an interned string. |
 | CA1501 | [CA1501: Avoid excessive inheritance](../code-quality/ca1501.md) | A type is more than four levels deep in its inheritance hierarchy. Deeply nested type hierarchies can be difficult to follow, understand, and maintain. |
 | CA1502 | [CA1502: Avoid excessive complexity](../code-quality/ca1502.md) | This rule measures the number of linearly independent paths through the method, which is determined by the number and complexity of conditional branches. |
