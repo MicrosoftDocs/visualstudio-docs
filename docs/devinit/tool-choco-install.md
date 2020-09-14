@@ -9,7 +9,7 @@ manager: jillfra
 ms.workload:
 - multiple
 monikerRange: ">= vs-2019"
-ms.prod: visual-studio-dev14
+ms.prod: visual-studio-windows
 ms.technology: devinit
 ---
 # choco-install
