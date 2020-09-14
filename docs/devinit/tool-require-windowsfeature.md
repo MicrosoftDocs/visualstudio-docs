@@ -8,6 +8,9 @@ ms.author: andster
 manager: jillfra
 ms.workload:
 - multiple
+monikerRange: ">= vs-2019"
+ms.prod: visual-studio-windows
+ms.technology: devinit
 ---
 # require-windowsfeature
 

@@ -1,6 +1,5 @@
 - name: devinit
 # Auto-expanded node
-
   items:
   - name: Getting Started
     href: getting-started-with-devinit.md

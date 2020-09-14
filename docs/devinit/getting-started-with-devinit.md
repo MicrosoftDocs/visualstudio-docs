@@ -8,6 +8,9 @@ ms.author: andster
 manager: jillfra
 ms.workload:
 - multiple
+monikerRange: ">= vs-2019"
+ms.prod: visual-studio-windows
+ms.technology: devinit
 ---
 # Getting Started with devinit
 
@@ -29,4 +32,4 @@ Now all someone has to do after cloning your repo is run `devinit init`.
 > devinit init
 ```
 
-If you're using [Github Codespaces for Visual Studio](https://visualstudio.microsoft.com/services/visual-studio-codespaces/) you can configure `devinit init` to run automatically when the Codespace is provisioned, to do that have a look at the [devinit and Codespaces documentation](~devinit-and-codespaces.md).
+If you're using [Github Codespaces for Visual Studio](https://visualstudio.microsoft.com/services/visual-studio-codespaces/) you can configure `devinit init` to run automatically when the Codespace is provisioned, to do that have a look at the [devinit and Codespaces documentation](devinit-and-codespaces.md).
