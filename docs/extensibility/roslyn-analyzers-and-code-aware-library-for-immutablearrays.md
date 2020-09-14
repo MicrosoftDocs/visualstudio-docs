@@ -1,5 +1,7 @@
 ---
-title: Roslyn Analyzers and Code-aware Library for ImmutableArrays | Microsoft Docs
+title: Roslyn analyzers and code-aware libraries for ImmutableArrays
+titleSuffix: ""
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 ms.assetid: 0b0afa22-3fca-4d59-908e-352464c1d903

@@ -51,4 +51,4 @@ VSPackages must advise [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.m
 
 ## See also
 - [Windows Installer](/windows/desktop/Msi/windows-installer-portal)
-- [Managed Package Registration](https://msdn.microsoft.com/library/f69e0ea3-6a92-4639-8ca9-4c9c210e58a1)
+- [Managed Package Registration](/previous-versions/bb166783(v=vs.100))

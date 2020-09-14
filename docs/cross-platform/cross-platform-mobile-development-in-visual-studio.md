@@ -1,6 +1,7 @@
 ---
 title: "Cross-Platform Mobile Development in Visual Studio | Microsoft Docs"
-ms.custom: ""
+titleSuffix: ""
+ms.custom: SEO-VS-2020
 ms.date: "10/17/2019"
 ms.technology: vs-ide-mobile
 ms.topic: "conceptual"

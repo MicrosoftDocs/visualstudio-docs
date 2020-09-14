@@ -1,15 +1,15 @@
 ---
 title: Turn off code analysis
-ms.date: 10/03/2019
+ms.date: 09/01/2020
 ms.topic: how-to
 helpviewer_keywords:
   - code analysis, disable
   - disable code analysis
-author: mikejo5000
-ms.author: mikejo
+author: mikadumont
+ms.author: midumont
 manager: jillfra
 ---
-# How to disable source code analysis for managed code
+# Disable source code analysis for .NET
 
 ::: moniker range=">=vs-2019"
 
