@@ -15,7 +15,7 @@ monikerRange: vs-2019
 
 # How to use Visual Studio with a codespace (Preview)
 
-Visual Studio has great support for developing in GitHub Codespaces. You can create and connect to a codespace and have the full power of Visual Studio to work on your projects on a remote, hosted environment. Even though your source code and tools are in a codespace and your compilation and debugging is happening in the cloud, your development experience will feel as fast and friction-free as if you were working locally. 
+Visual Studio has great support for developing in GitHub Codespaces. You can create and connect to a codespace and have the full power of Visual Studio to work on your projects on a remote, hosted environment. Even though your source code and tools are in a codespace and your compilation and debugging is happening in the cloud, your development experience will feel as fast and friction-free as if you were working locally.
 
 > [!NOTE]
 > This article specifically describe using Visual Studio when connected to Windows codespaces. You can learn about connecting with other clients to a codespace in the [Visual Studio Code](https://docs.github.com/github/developing-online-with-codespaces/connecting-to-your-codespace-from-visual-studio-code) or [in-browser editor](https://docs.github.com/en/github/developing-online-with-codespaces/developing-in-a-codespace) documentation.
@@ -41,19 +41,19 @@ If you don't already have a GitHub codespace, you can create one from Visual Stu
 
    ![Visual Studio New codespace button](media/visual-studio-new-codespace.png)
 
-4. Under "Codespace details", you need to provide a **Repository URL**, which can be any valid GitHub or Azure DevOps repository URL. GitHub Codespaces will clone the specified repository into your codespace when it is created. 
+4. Under "Codespace details", you need to provide a **Repository URL**, which can be any valid GitHub or Azure DevOps repository URL. GitHub Codespaces will clone the specified repository into your codespace when it is created.
 
-   You can also modify the **Instance Type** and **Suspend after** timeout via their dropdowns. Once you have set the codespace details, click the **Create and Connect** button.
+   You can also modify the **Instance Type** and **Suspend after** timeout via their dropdowns. Once you have set the codespace details, select the **Create and Connect** button.
 
    ![Visual Studio codespace details](media/visual-studio-codespace-details.png)
 
-   GitHub Codespaces will begin preparing the codespace and open Visual Studio, once the codespace is ready.
+   GitHub Codespaces will begin preparing the codespace and open Visual Studio, once it is ready.
 
 <!-- TBD ### Create from github.com portal -->
 
 ## Connecting to a codespace
 
-After you've created your codespace, you can open your codespace directly from Visual Studio.
+After you've created your codespace, you can open it directly from Visual Studio.
 
 1. When you launch Visual Studio, the Start Window will show an option to Connect to a codespace.
 
@@ -63,13 +63,13 @@ After you've created your codespace, you can open your codespace directly from V
 
    ![Visual Studio File Connect to a codespace menu item](media/visual-studio-file-connect-to-codespace.png)
 
-2. Click **Connect to a codespace** and you will be prompted to sign in to GitHub, if you haven't already.
+2. Select **Connect to a codespace**. You will be prompted to sign in to GitHub, if you haven't already.
 
 3. You will then see all of your GitHub codespaces along with their details presented in the right panel.
 
    ![Visual Studio displaying available GitHub codespaces and details](media/visual-studio-connect-codespace.png)
 
-4. Select a codespace and click the **Connect** button. If the codespace has been suspended, it will be restarted and Visual Studio will open connected to that codespace.
+4. Choose a codespace and select the **Connect** button. If the codespace has been suspended, it will be restarted and Visual Studio will open connected to that codespace.
 
 <!-- TBD ## Suspend a codespace -->
 
@@ -77,7 +77,7 @@ After you've created your codespace, you can open your codespace directly from V
 
 ## Visual Studio features
 
-Visual Studio provides a rich development experience when connecting to a codespace. You get the Visual Studio inner-loop tools you're familiar with to edit, debug, test, and version your source code as well as productivity features like project templates, rich code navigation, and IntelliSense. In the current GitHub Codespaces beta, some Visual Studio features may not have full support or may be initially missing. The following sections outline what you can expect with Visual Studio and the GitHub Codespaces beta and what you can look forward to in the future. 
+Visual Studio provides a rich development experience when connecting to a codespace. You get the Visual Studio inner-loop tools you're familiar with to edit, debug, test, and version your source code as well as productivity features like project templates, rich code navigation, and IntelliSense. In the current GitHub Codespaces beta, some Visual Studio features may not have full support or may be initially missing. The following sections outline what you can expect with Visual Studio and the GitHub Codespaces beta and what you can look forward to in the future.
 
 > [!NOTE]
 > If there is a feature you are missing while using codespaces with Visual Studio, please let us know by opening an issue on https://developercommunity.visualstudio.com/. This helps us prioritize the most wanted features.
@@ -88,7 +88,7 @@ You should notice little difference editing source code in a codespace as you ge
 
 * Syntax highlighting and IntelliSense
 * Code navigation
-* Code formatting and cleanup 
+* Code formatting and cleanup
 * IntelliCode
 * Test Explorer
 
@@ -99,7 +99,7 @@ Not yet available:
 
 ### Application types
 
-Most application types and project configurations are supported but you will need to edit your project code directly without the help of visual designers. 
+Most application types and project configurations are supported but you will need to edit your project code directly without the help of visual designers.
 
 * Project and item templates
 * Project property pages
@@ -125,13 +125,13 @@ Not yet available:
 
 * UI customizations - Pinnable properties, Hide template parameters not supported
 * Visualizers - C++ natvis partially supported
-* Attach to process, JIT and dump debugging 
+* Attach to process, JIT and dump debugging
 * Edit and Continue
 * Threading features - Freeze/thaw threads, Rename thread
 
 ### Features
 
-Since you are working with the Visual Studio client connected to a remote environment, you get the same accessibility features as when working locally. Given the engineering required to connect to GitHub Codespace, installing third-party extensions is not supported.
+Since you are working with the Visual Studio client connected to a remote environment, you get the same accessibility features as when working locally. Given the engineering required to connect to GitHub Codespaces, installing third-party extensions is not supported.
 
 * Source Control - Full Git support through the Git window
 * Accessibility - Same assisted technology compatibility as with local development
@@ -148,5 +148,5 @@ Not yet available:
 
 ## See also
 
-- [What is GitHub Codespaces?](codespaces-overview.md)
-- [How to: Customize a codespace](customize-codespaces.md)
+* [What is GitHub Codespaces?](codespaces-overview.md)
+* [How to: Customize a codespace](customize-codespaces.md)
