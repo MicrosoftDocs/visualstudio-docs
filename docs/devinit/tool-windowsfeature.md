@@ -82,7 +82,7 @@ The Default behavior of the `windowsfeature-list` tool is to list the enable/dis
 
 ```json
 {
-    "$schema": "./devinit.schema-1.0.json",
+    "$schema": "./devinit.schema-2.0.json",
     "run": [
         {
             "comments": "Enables the IIS feature.",

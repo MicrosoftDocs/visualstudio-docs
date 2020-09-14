@@ -39,7 +39,7 @@ The Default behavior of the `require-vcpkg` tool is to install vcpkg, and add it
 
 ```json
 {
-    "$schema": "./devinit.schema-1.0.json",
+    "$schema": "./devinit.schema-2.0.json",
     "run": [
         {
             "comments": "Installs vcpkg.",

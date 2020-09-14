@@ -39,7 +39,7 @@ The Default behavior of the `require-choco` tool is to install chocolatey, and a
 
 ```json
 {
-    "$schema": "./devinit.schema-1.0.json",
+    "$schema": "./devinit.schema-2.0.json",
     "run": [
         {
             "comments": "Installs chocolatey.",

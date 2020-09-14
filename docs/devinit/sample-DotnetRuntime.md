@@ -9,7 +9,7 @@ manager: jillfra
 ms.workload:
 - multiple
 ---
-# .NET Core Runtime
+# .NET Core runtime
 
 This example illustrates how to customize the .NET Core Runtime [dotnet/runtime](https://github.com/dotnet/runtime) to automatically be provisioned in a [Codespace with Visual Studio 2019](https://docs.microsoft.com/visualstudio/codespaces/quickstarts/vs).
 
@@ -18,9 +18,9 @@ This example illustrates how to customize the .NET Core Runtime [dotnet/runtime]
 Contents of the `.devcontainer.json` file in the repo root.
 
 ```json
-{ 
+{
     "postCreateCommand": "PostCloneSetup.ps1"
-} 
+}
 ```
 
 ## PostCloneSetup.ps1

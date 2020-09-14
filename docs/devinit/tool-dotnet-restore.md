@@ -39,7 +39,7 @@ The Default behavior of the `dotnet-restore` tool is to run 'dotnet restore' in 
 
 ```json
 {
-    "$schema": "./devinit.schema-1.0.json",
+    "$schema": "./devinit.schema-2.0.json",
     "comments": "A sample dot-devinit file that builds the 'kitchen sink'",
     "run": [
         {

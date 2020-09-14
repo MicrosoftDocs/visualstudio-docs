@@ -9,11 +9,13 @@ manager: jillfra
 ms.workload:
 - multiple
 ---
-# devinit and Visual Studio Codespaces
+# devinit and Github Codespaces for Visual Studio
 
-`devinit` is a great compliment to [Visual Studio Codespaces](https://visualstudio.microsoft.com/services/visual-studio-codespaces) and `devinit` can be used to get a Visual Studio Codespace setup so contributors can build, run, and debug right away.
+`devinit` is a great compliment to [Github Codespaces for Visual Studio](https://visualstudio.microsoft.com/services/visual-studio-codespaces) and `devinit` can be used to get a Codespace setup so contributors can build, run, and debug right away.
 
-To integrate with a Visual Studio Codespace `devinit` needs to be called from the `postCreateCommand` defined in a `.devcontainer.json` file placed in the repo root. The string(s) in `postCreateCommand` are executed after the repo is cloned in the default shell of the Codespace. You can read more about `postCreateCommand` in the Visual Studio Codespace [customization documentation](https://docs.microsoft.com/visualstudio/online/reference/configuring). To add the `devinit` command, you can add `devinit init` to the `postCreateCommand` as shown in the examples below.
+To integrate with a Github Codespaces for Visual Studio, `devinit` needs to be called from the `postCreateCommand` defined in a `.devcontainer.json` file placed in the repo root. The string(s) in `postCreateCommand` are executed after the repo is cloned in the default shell of the Codespace. You can read more about `postCreateCommand` in the Github Codespaces [customization documentation](https://docs.github.com/en/github/developing-online-with-codespaces/configuring-codespaces-for-your-project). To add the `devinit` command, you can add `devinit init` to the `postCreateCommand` as shown in the examples below.
+
+You can also execute `devinit init -f <path to .devinit.json>` from the Visual Studio Integrated Terminal once connected to your Codespace. 
 
 ## Examples
 
@@ -25,6 +27,7 @@ In this example, the `.devcontainer.json` file below is placed in the repo root 
   "postCreateCommand": "devinit init"
 }
 ```
+
 ```json
 {
   "postCreateCommand": ["<some other command>", "devinit init"]
@@ -33,8 +36,23 @@ In this example, the `.devcontainer.json` file below is placed in the repo root 
 
 ### As Commands
 In this example `.devcontainer.json` file below is placed in the repo root and `devinit` is being called programmatically to run a tool  
+
 ```json
 {
   "postCreateCommand": ["devinit –t require-dotnetsdk"]
 }
+```
+
+### From a terminal prompt
+
+When the current working directory contains a `.devinit.json` file.
+
+```batch
+> devinit init
+```
+
+When the `.devinit.json` is in another directory.
+
+```batch
+> devinit init -f path/to/.devinit.json
 ```

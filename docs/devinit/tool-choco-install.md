@@ -45,7 +45,7 @@ The `choc-install` tool sets a number of `choco` command line arguments to ensur
 
 ```json
 {
-    "$schema": "./devinit.schema-1.0.json",
+    "$schema": "./devinit.schema-2.0.json",
     "run": [
         {
             "comments": "Example that will trigger the Default behavior of installing packages listed in a packages.config file.",

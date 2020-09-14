@@ -44,7 +44,7 @@ Not used.
 
 ```json
 {
-  "$schema": "./devinit.schema-1.0.json",
+  "$schema": "./devinit.schema-2.0.json",
   "comments": "A sample dot-devinit file demonstrating the set-env tool.",
   "run": [
     {

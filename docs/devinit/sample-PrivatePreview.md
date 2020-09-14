@@ -11,11 +11,11 @@ ms.workload:
 ---
 # Private preview
 
-This example illustrates how to customize a [Codespace with Visual Studio 2019](https://docs.microsoft.com/visualstudio/codespaces/quickstarts/vs) to have the same features as the initial private preview.
+This example illustrates how to customize a [Github Codespace for Visual Studio](https://docs.microsoft.com/visualstudio/codespaces/quickstarts/vs) to have the same features as the initial private preview.
 
 ## .devcontainer.json
 
-Contents of the `.devcontainer.json` file in the repo root. 
+Contents of the `.devcontainer.json` file in the repo root.
 
 ```json
 {

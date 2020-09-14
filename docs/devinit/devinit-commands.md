@@ -19,7 +19,8 @@ ms.workload:
 
 Initialize the environment by running the tools specified in a [`.devinit.json`](devinit-json.md) file in the current working directory.  
 
-### Options
+### Options for init
+
 Optional options for the `devinit init` command.
 
 | Argument     | Required | Description                       |
@@ -34,16 +35,17 @@ Optional options for the `devinit init` command.
 
 Runs the specific tool, optional parameters are listed below. See [documentation](devinit-tool-list.md) for each tool for specific usage.
 
-### Options
+### Options for run
+
 Options for the `devinit run` command.
-| Argument          | Required | Description                                                                           |   |
-|-------------------|----------|---------------------------------------------------------------------------------------|---|
-|-t,--tool         | Yes      | Required. The tool name.                                                              |   |
-|-i,--input        | No       | The tool input value. For example, filename, package name.                            |   |
-|--error-action     | No       | Specifies how to handle tool errors: Stop, Ignore, Continue. The default is to stop.  |   |
-|-v,--verbose      | No       | Emit verbose output.                                                                  |   |
-|-n,--dry-run      | No       | Dry run.                                                                              |   |
-|--&lt;arg&gt;      | No       | Additional command line arguments to the tool.                                        |   |
+| Argument       | Required | Description                                                                          |   |
+|----------------|----------|--------------------------------------------------------------------------------------|---|
+| -t,--tool      | Yes      | Required. The tool name.                                                             |   |
+| -i,--input     | No       | The tool input value. For example, filename, package name.                           |   |
+| --error-action | No       | Specifies how to handle tool errors: Stop, Ignore, Continue. The default is to stop. |   |
+| -v,--verbose   | No       | Emit verbose output.                                                                 |   |
+| -n,--dry-run   | No       | Dry run.                                                                             |   |
+| --&lt;arg&gt;  | No       | Additional command line arguments to the tool.                                       |   |
 
 #### Note on additional command line arguments
 
@@ -85,12 +87,11 @@ Prints the current version information for `devinit`.
 ## Help
 
 ```batch
-> devinit help 
+> devinit help
 > devinit help list
 ```
 
 Prints the help text for `devinit` or for a specific command `devinit <command>`.
-
 
 ## Verbose Mode
 

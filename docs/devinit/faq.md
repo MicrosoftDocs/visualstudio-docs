@@ -36,6 +36,12 @@ Containers, and docker, are great tools to deploy an environment via code. There
 
 For those reasons `devinit` is about customizing the Windows environment you currently have.
 
+## What about other VM creation tools (e.g. Terraform, Packer, Chef, Vagrant, etc.)
+There's lots of great tools for creating Windows images and you should use them! However we couldn't find one that fulfilled all the scenarios we had in mind. We want `devinit` to be a tool for developers to customize the environment they have with whatever is needed to work with a paticular repo and to have great integration with Visual Studio rather than a tool to create VM images.
+
+## What about winget?
+`devinit` isn't a package manager like winget, and we don't want it to be. We do want you to be able to use winget with `devinit` and we're working on a tool for just that.
+
 ## Working with others
 
 `devinit` is all about enabling the use of the wide ecosystem that's out there to deploy and configure the dependencies your app might have. `devinit` has an opionon on some things and might deliver those things, `devinit` is mostly about enabling other tools to be executed from a declative json file.

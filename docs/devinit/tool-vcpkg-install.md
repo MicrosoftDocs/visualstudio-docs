@@ -39,7 +39,7 @@ The Default behavior of the `vcpkg-install` tool is to error, as `input` is requ
 
 ```json
 {
-    "$schema": "./devinit.schema-1.0.json",
+    "$schema": "./devinit.schema-2.0.json",
     "run": [
         {
             "comments": "Installs the sdl2 port.",

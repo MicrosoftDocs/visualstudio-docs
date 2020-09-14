@@ -39,7 +39,7 @@ The Default behavior of the `require-azureartifactscredentialprovider` tool is t
 
 ```json
 {
-    "$schema": "./devinit.schema-1.0.json",
+    "$schema": "./devinit.schema-2.0.json",
     "comments": "A sample dot-devinit file that installs Azure Artifacts Credential Provider.'",
     "run": [
         {

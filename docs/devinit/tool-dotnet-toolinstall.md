@@ -39,7 +39,7 @@ The Default behavior of the `dotnet-toolinstall` tool is to error as `input` is 
 
 ```json
 {
-    "$schema": "./devinit.schema-1.0.json",
+    "$schema": "./devinit.schema-2.0.json",
     "run": [
         {
             "comments": "Example that will install the dotnet-trace tool.",

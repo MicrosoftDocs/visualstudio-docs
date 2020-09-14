@@ -41,12 +41,11 @@ The `choc-upgrade` tool sets a number of `choco` command line arguments to ensur
 | **--no-progress**     | Don't show progress - Progress percentages won't be shown.                                       |
 | **--skip-powershell** | Skip PowerShell - chocolateyInstall.ps1 won't be ran.                                            |
 
-
 ## Example usage
 
 ```json
 {
-    "$schema": "./devinit.schema-1.0.json",
+    "$schema": "./devinit.schema-2.0.json",
     "run": [
         {
             "comments": "Example that will trigger the Default behavior of upgrading packages listed in a packages.config file.",

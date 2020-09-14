@@ -41,7 +41,7 @@ The Default behavior of the `require-windowsfeature` tool is to error, as `input
 
 ```json
 {
-    "$schema": "./devinit.schema-1.0.json",
+    "$schema": "./devinit.schema-2.0.json",
     "run": [
         {
             "comments": "Installs IIS.",

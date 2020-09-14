@@ -18,7 +18,7 @@ The `devinit.exe init` command is driven via the `.devinit.json` file. By defaul
 - `{current-directory}\\.devinit.json`
 - `{current-directory}\\.devinit\devinit.json`
 
-The `.devinit` file can also be specified explicitly via the `--file` option.
+The `.devinit` file can also be specified explicitly via the `--file`/`-f` option.
 
 ### Directories and relative paths
 
@@ -43,9 +43,9 @@ Paths are relative to the location where `devinit.exe` is running. Typically the
 
 ### Property values
 
-| Name         | Type   | Required | Value                             |
-|--------------|--------|----------|-----------------------------------|
-| **comments** | string | No       | Comments for the file.            |
+| Name         | Type   | Required | Value                              |
+|--------------|--------|----------|------------------------------------|
+| **comments** | string | No       | Comments for the file.             |
 | **run**      | array  | Yes      | [RunTool object](#run-tool-object) |
 
 #### Run tool object

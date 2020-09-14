@@ -39,7 +39,7 @@ The Default behavior of the `require-gitsubmodule` tool is to restore git submod
 
 ```json
 {
-    "$schema": "./devinit.schema-1.0.json",
+    "$schema": "./devinit.schema-2.0.json",
     "comments": "A sample dot-devinit file that restores Git submodules.'",
     "run": [
         {

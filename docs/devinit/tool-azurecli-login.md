@@ -39,7 +39,7 @@ The Default behavior of the `azurecli-login` tool is to install the latest versi
 
 ```json
 {
-    "$schema": "./devinit.schema-1.0.json",
+    "$schema": "./devinit.schema-2.0.json",
     "run": [
         {
             "comments": "Example that will trigger az login --use-device-code behavior.",
