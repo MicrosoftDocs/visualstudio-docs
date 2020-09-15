@@ -1,15 +1,15 @@
 - name: devinit
 # Auto-expanded node
   items:
-  - name: Getting Started
+  - name: Getting started
     href: getting-started-with-devinit.md
   - name: Commands
     href: devinit-commands.md
   - name: .devinit.json
     href: devinit-json.md
-  - name: devinit and Codespaces
+  - name: devinit and Github Codespaces
     href: devinit-and-codespaces.md
-  - name: FAQ
+  - name: Frequently asked questions
     href: faq.md
   - name: Tools
     items:
