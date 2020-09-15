@@ -1,5 +1,5 @@
 ---
-title: Code quality analysis
+title: Analyzer configuration
 ms.date: 09/02/2020
 ms.topic: conceptual
 helpviewer_keywords:
@@ -12,11 +12,9 @@ manager: jillfra
 ms.workload:
 - dotnet
 ---
-# Configure code quality analysis
+# Overview
 
-Starting in .NET 5.0, code quality analyzers are included with the .NET SDK. (Previously, you installed these analyzers as a NuGet package.) Code analysis is enabled, by default, for projects that target .NET 5.0 or later. You can enable code analysis on projects that target earlier .NET versions by setting the [EnableNETAnalyzers](/dotnet/core/project-sdk/msbuild-props#enablenetanalyzers) property to `true`. You can also disable code analysis for your project by setting `EnableNETAnalyzers` to `false`.
-
-Each code quality analyzer *diagnostic* or rule has a default severity and suppression state that can be overwritten and customized for your project. This article covers setting code quality analyzer severities and suppressing analyzer violations.
+Each Roslyn analyzer *diagnostic* or rule has a default severity and suppression state that can be overwritten and customized for your project. This article covers setting analyzer severities and suppressing analyzer violations.
 
 ## Configure severity levels
 
