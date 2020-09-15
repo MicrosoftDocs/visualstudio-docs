@@ -2,6 +2,7 @@
     "build": {
       "content": [
         {
+          "src": "./",
           "files": [
             "**/*.md",
             "**/*.yml"
@@ -9,30 +10,23 @@
           "exclude": [
             "**/obj/**",
             "**/includes/**",
-            "_themes/**",
-            "_themes.pdf/**",
-            "**/docfx.json",
-            "_repo.en-us/**",
-            "README.md",
-            "LICENSE",
-            "LICENSE-CODE",
-            "ThirdPartyNotices.md"
+            "**/docfx.json"
           ]
         }
       ],
       "resource": [
         {
+          "src": "./",
           "files": [
             "**/*.png",
-            "**/*.jpg"
+            "**/*.jpg",
+            "**/*.gif",
+            "**/*.svg"
           ],
           "exclude": [
             "**/obj/**",
             "**/includes/**",
-            "_themes/**",
-            "_themes.pdf/**",
-            "**/docfx.json",
-            "_repo.en-us/**"
+            "**/docfx.json"
           ]
         }
       ],
@@ -41,7 +35,9 @@
       "globalMetadata": {
         "breadcrumb_path": "/docs/gamedev/breadcrumb/toc.json",
         "extendBreadcrumb": true,
-        "feedback_system": "None"
+        "feedback_system": "GitHub",
+        "feedback_github_repo": "MicrosoftDocs/visualstudio-docs",
+        "feedback_product_url": "https://developercommunity.visualstudio.com/"
       },
       "fileMetadata": {},
       "template": [],
