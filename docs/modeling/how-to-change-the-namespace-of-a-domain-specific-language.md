@@ -1,12 +1,15 @@
 ---
 title: "How to: Change the namespace of a domain-specific language"
+description: Provides information about how to change the namespace of a domain-specific language.
 ms.date: 10/31/2018
 ms.topic: how-to
+titleSuffix: ""
 helpviewer_keywords:
   - "Domain-Specific Language, namespace"
 author: JoshuaPartlow
 ms.author: joshuapa
 manager: jillfra
+ms.custom: SEO-VS-2020
 ms.workload:
   - "multiple"
 ---
