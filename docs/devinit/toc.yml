@@ -7,7 +7,7 @@
     href: devinit-commands.md
   - name: .devinit.json
     href: devinit-json.md
-  - name: devinit and Github Codespaces
+  - name: devinit and GitHub Codespaces
     href: devinit-and-codespaces.md
   - name: Frequently asked questions
     href: faq.md
