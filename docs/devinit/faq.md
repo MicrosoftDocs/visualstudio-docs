@@ -1,6 +1,6 @@
 ---
 title: Frequently Asked Questions
-description: Frequently asked questions for the devinit tool and customization of Codespaces for Visual Studio.
+description: Frequently asked questions for the devinit tool.
 ms.date: 08/28/2020
 ms.topic: reference
 author: andster

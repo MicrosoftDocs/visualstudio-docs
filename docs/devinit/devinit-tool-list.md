@@ -1,6 +1,6 @@
 ---
 title: Available Tools
-description: List of all the devinit tools that can be used to customize a Visual Studio Codespaces for Visual Studio 2019. 
+description: List of all the devinit tools that can be used to customize a development environment. 
 ms.date: 08/28/2020
 ms.topic: reference
 author: andster

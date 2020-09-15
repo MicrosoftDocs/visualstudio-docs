@@ -1,6 +1,6 @@
 ---
 title: Getting Started with devinit
-description: Getting started guide for customizing Visual Studio Codespaces for Visual Studio 2019 with devinit.
+description: Getting started guide for devinit.
 ms.date: 08/28/2020
 ms.topic: reference
 author: andster
@@ -32,4 +32,4 @@ Now all someone has to do after cloning your repo is run `devinit init`.
 > devinit init
 ```
 
-If you're using [GitHub Codespaces for Visual Studio](https://visualstudio.microsoft.com/services/visual-studio-codespaces/) you can configure `devinit init` to run automatically when the Codespace is provisioned, to do that have a look at the [devinit and Codespaces documentation](devinit-and-codespaces.md).
+If you're using [GitHub Codespaces for Visual Studio](https://visualstudio.microsoft.com/services/visual-studio-codespaces/) you can configure `devinit init` to run automatically when the codespace is provisioned, to do that have a look at the [devinit and GitHub Codespaces documentation](devinit-and-codespaces.md).

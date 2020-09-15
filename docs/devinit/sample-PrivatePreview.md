@@ -1,6 +1,6 @@
 ---
 title: Private Preview 
-description: Example customizations used in the Visual Studio Codespaces for Visual Studio 2019 private preview repo.
+description: Example customizations used in the GitHub Codespace for Visual Studio private preview repo.
 ms.date: 08/28/2020
 ms.topic: reference
 author: andster

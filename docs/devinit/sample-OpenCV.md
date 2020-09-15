@@ -14,7 +14,7 @@ ms.technology: devinit
 ---
 # OpenCV
 
-This example illustrates the customizations needed to by [OpenCV](https://github.com/opencv/opencv) to be automatically provisioned in a [Codespace with Visual Studio 2019](https://docs.microsoft.com/visualstudio/codespaces/quickstarts/vs).
+This example illustrates the customizations needed to by [OpenCV](https://github.com/opencv/opencv) to be automatically provisioned in a [GitHub Codespace for Visual Studio](https://docs.microsoft.com/visualstudio/codespaces/quickstarts/vs).
 
 ## .devinit.json
 
