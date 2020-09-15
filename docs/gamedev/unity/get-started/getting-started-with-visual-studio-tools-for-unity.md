@@ -23,10 +23,10 @@ zone_pivot_groups: platform
 
 Visual Studio Tools for Unity is a free extension that provides support for writing and debugging C# and more. Visit the [Tools for Unity overview](./visual-studio-tools-for-unity.md) for a complete list of what the extensions includes.
 
-> [!NOTE]
-> This installation guide is for Visual Studio and Visual Studio for Mac. If you're using Visual Studio Code, please visit the [Unity Development with VS Code documentation](https://code.visualstudio.com/docs/other/unity).
-
 :::zone pivot="windows"
+
+> [!NOTE]
+> This installation guide is for Visual Studio. If you're using Visual Studio Code, please visit the [Unity Development with VS Code documentation](https://code.visualstudio.com/docs/other/unity).
 
 1. [Download the Visual Studio installer](/docs/install/install-visual-studio.md), or run it if already installed.
 2. Click **Modify** (if already installed) or **Install** (for new installations) for your desired version of Visual Studio.
@@ -36,6 +36,9 @@ Visual Studio Tools for Unity is a free extension that provides support for writ
 
 :::zone-end
 :::zone pivot="macos"
+
+> [!NOTE]
+> This installation guide is for Visual Studio for Mac. If you're using Visual Studio Code, please visit the [Unity Development with VS Code documentation](https://code.visualstudio.com/docs/other/unity).
 
 Tools for Unity is included with the installation of Visual Studio for Mac and no separate installation steps are required. You can verify this in the **Visual Studio for Mac > Extensions > Game Development** menu. **Visual Studio for Mac Tools for Unity** should be enabled.
 
