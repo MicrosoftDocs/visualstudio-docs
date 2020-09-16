@@ -23,7 +23,6 @@ This script is called from _PostCloneSetup.ps1_ and can also be ran locally to s
 ```batch
 devinit init
 git config --system core.longpaths true
-devinit init -f .devinit.json
 ```
 
 ## packages.config
@@ -46,7 +45,7 @@ Contents of the [_.devinit.json_](devinit-json.md) file. This file needs to be i
 {
     "run": [
         {
-            "tool": "require-dotnetsdk"
+            "tool": "require-dotnetcoresdk"
         },
         {
             "tool": "choco-install",
@@ -65,6 +64,6 @@ Contents of the _.devcontainer.json_ file in the repo root.
 
 ```json
 {
-  "postCreateCommand": "devinit init"
+  "postCreateCommand": "Powershell.exe -ExecutionPolicy unrestricted -File PostCloneSetup.ps1"
 }
 ```

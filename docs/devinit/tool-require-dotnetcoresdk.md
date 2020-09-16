@@ -1,6 +1,6 @@
 ---
 title: require-dotnetcoresdk
-description: devinit tool require-dotnetsdk.
+description: devinit tool require-dotnetcoresdk.
 ms.date: 08/28/2020
 ms.topic: reference
 author: andster
@@ -44,7 +44,7 @@ The Default behavior of the `require-dotnetcoresdk` tool is to install the versi
 
 ```json
 {
-    "$schema": "./devinit.schema-2.0.json",
+    "$schema": "https://json.schemastore.org/devinit.schema-2.0",
     "run": [
         {
             "comments": "Example that will trigger the Default behavior of installing latest or, if present, the SDK version from a global.json file.",

@@ -42,7 +42,7 @@ The Default behavior of the `require-dotnetframeworksdk` tool is to install the 
 
 ```json
 {
-    "$schema": "./devinit.schema-2.0.json",
+    "$schema": "https://json.schemastore.org/devinit.schema-2.0",
     "run": [
         {
             "comments": "Example that will install a specific version of the .NET Framework SDK.",

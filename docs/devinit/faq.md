@@ -18,6 +18,9 @@ ms.technology: devinit
 
 For now devinit is only available as part of the GitHub Codespaces for Visual Studio private beta. However, we have plans to include devinit in an upcoming release of Visual Studio 2019.
 
+## Is it Windows only?
+Yes, devinit is focussed on creating developer environments that work for developer using Visual Studio, which means Windows. We are considering other platforms but many of them already have great solutions in place so we wanted to start with Visual Studio and Windows.
+
 ## There's no tool for the dependency I need!
 
 We're sorry! If you're part of the GitHub Codespaces for Visual Studio private beta, you can get back to us through the feedback channel for the private beta. If you're not part of the private beta we'd still love your feedback on what you need, and you can file an issue on our [Visual Studio Docs](https://github.com/MicrosoftDocs/visualstudio-docs/) with the label devinit to request support for the tool you need.

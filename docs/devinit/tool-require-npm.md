@@ -42,7 +42,7 @@ The Default behavior of the `require-nodejs` tool is to install the latest LTS v
 
 ```json
 {
-    "$schema": "./devinit.schema-2.0.json",
+    "$schema": "https://json.schemastore.org/devinit.schema-2.0",
     "run": [
         {
             "comments": "Example that will trigger the Default behavior of installing latest LTS of NPM.",

@@ -16,7 +16,7 @@ ms.technology: devinit
 
 The `wsl-install` tool is used to install Linux distros for the [Windows Subsystem for Linux](https://docs.microsoft.com/windows/wsl/) (WSL).
 
-The `wsl-install` tool requires WSL 2 to already be enabled on Windows. If for some reason WSL2 is not enabled, you can enable WSL2 by using the [require-windowsfeature](tool-require-windowsfeature.md) tool and the feature name `Microsoft-Windows-Subsystem-Linux`.
+The `wsl-install` tool requires WSL 2 to already be enabled on Windows. If for some reason WSL2 is not enabled, you can enable WSL2 by using the [windowsfeature-enable](tool-windowsfeature-enable.md) tool and the feature name `Microsoft-Windows-Subsystem-Linux`.
 
 ## Usage
 
@@ -63,7 +63,7 @@ The Default behavior of the `wsl-install` tool is to error as the `input` proper
 
 ```json
 {
-    "$schema": "./devinit.schema-2.0.json",
+    "$schema": "https://json.schemastore.org/devinit.schema-2.0",
     "run": [
         {
             "comments": "Example that will install Ubuntu 20.04.",

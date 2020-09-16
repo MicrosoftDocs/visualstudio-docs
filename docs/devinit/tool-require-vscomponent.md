@@ -30,7 +30,7 @@ If both the `input` and `additionalOptions` properties are omitted or empty, the
 
 The `input` property is used to specify the full path of `.vsconfig` file. If not mentioned, the tool will search for a `.vsconfig` in current directory and pass the value to the Visual Studio Installer.
 
-#### Additional options
+### Additional options
 
 Not used.
 
@@ -42,7 +42,7 @@ The Default behavior of the `require-vscomponent` tool is to look for a `.vsconf
 
 ```json
 {
-    "$schema": "./devinit.schema-2.0.json",
+    "$schema": "https://json.schemastore.org/devinit.schema-2.0",
     "comments": "A sample dot-devinit file.",
     "run": [
         {

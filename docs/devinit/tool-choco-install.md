@@ -34,7 +34,7 @@ The `input` property is used to specify the name of the package to install (for 
 
 Additional configuration options can be passed in as a value of the `additionalOptions`. These arguments are direct passthrough to the arguments used by [`choco install`](https://chocolatey.org/docs/commands-install) and are defined in chocolatey documentation.
 
-## Built-in options
+### Built-in options
 
 The `choco-install` tool sets a number of `choco` command-line arguments to ensure that `choco` can run headless. These arguments are listed below and documentation on them can be found in the [chocolatey documentation](https://chocolatey.org/docs/).
 
@@ -48,7 +48,7 @@ The `choco-install` tool sets a number of `choco` command-line arguments to ensu
 
 ```json
 {
-    "$schema": "./devinit.schema-2.0.json",
+    "$schema": "https://json.schemastore.org/devinit.schema-2.0",
     "run": [
         {
             "comments": "Example that will trigger the Default behavior of installing packages listed in a packages.config file.",

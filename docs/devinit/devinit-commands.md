@@ -26,30 +26,33 @@ Initialize the environment by running the tools specified in a [_.devinit.json_]
 
 Optional options for the `devinit init` command.
 
-| Argument     | Required | Description                       |
-|--------------|----------|-----------------------------------|
-| **--File**   | No       | Path to the _.devinit.json_ file. |
+| Argument             | Required | Description                                                               |
+|----------------------|----------|---------------------------------------------------------------------------|
+| -f, --file           | No       | Path to the _.devinit.json_ file.                                         |
+| --error-action       | No       | Specfies how to handle errors. Options: Stop, Ignote, Continue (default). |
+| -v,--verbose         | No       | Emit verbose output.                                                      |
+| -n,--dry-run         | No       | Dry run.                                                                  |
 
 ## Run
 
 ```batch
-> devinit run <toolname>
+> devinit run -t <toolname>
 ```
 
-Runs the specific tool, optional parameters are listed below. See [documentation](devinit-tool-list.md) for each tool for specific usage.
+Runs the specific tool, parameters are listed below. See [documentation](devinit-tool-list.md) for each tool for specific usage.
 
 ### Options for run
 
 Options for the `devinit run` command.
 
-| Argument       | Required | Description                                                                          |
-|----------------|----------|--------------------------------------------------------------------------------------|
-| -t,--tool      | Yes      | Required. The tool name.                                                             |
-| -i,--input     | No       | The tool input value. For example, filename, package name.                           |
-| --error-action | No       | Specifies how to handle tool errors: Stop, Ignore, Continue. The default is to stop. |
-| -v,--verbose   | No       | Emit verbose output.                                                                 |
-| -n,--dry-run   | No       | Dry run.                                                                             |
-| --&lt;arg&gt;  | No       | Additional command line arguments to the tool.                                       |
+| Argument                                  | Required | Description                                                                          |
+|--------------------------------|----------|--------------------------------------------------------------------------------------|
+| -t,--tool                                 | Yes      | Required. The tool name.                                                             |
+| -i,--input                                | No       | The tool input value. For example, filename, package name.                           |
+| --error-action                            | No       | Specifies how to handle tool errors: Stop, Ignore, Continue. The default is to stop. |
+| -v,--verbose                              | No       | Emit verbose output.                                                                 |
+| -n,--dry-run                              | No       | Dry run.                                                                             |
+| --&lt;arg1&gt; &lt;arg2&gt; &lt;argN&gt;  | No       | Additional command line arguments to the tool.                                       |
 
 #### Note on additional command line arguments
 
@@ -78,6 +81,18 @@ For installing dotnet into a specific directory `C:\Workspace\dotnet`:
 ```
 
 Prints a list of all the available tools.
+
+## Show
+
+```batch
+> devinit show -t <toolname>
+```
+
+| Argument       | Required | Description                                                                          |
+|----------------|----------|--------------------------------------------------------------------------------------|
+| -t,--tool      | Yes      | Required. The tool name.                                                             |
+
+Prints help information for a given tool.
 
 ## Version
 

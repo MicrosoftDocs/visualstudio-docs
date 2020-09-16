@@ -14,7 +14,7 @@ ms.technology: devinit
 ---
 # azurecli-login
 
-The `azurecli-login` tool is used to sign into Azure Active Directory via [Azure CLI](https://docs.microsoft.com/cli/azure/authenticate-azure-cli?view=azure-cli-latest&preserve-view=true).
+The `azurecli-login` tool is used to sign into Azure Active Directory via [Azure CLI](https://docs.microsoft.com/cli/azure/authenticate-azure-cli?view=azure-cli-latest&preserve-view=true). This tool uses the Azure CLI command: `az login --use-device-code`, to complete the login you will need to follow instructions printed to the console.
 
 ## Usage
 
@@ -42,7 +42,7 @@ The Default behavior of the `azurecli-login` tool is to install the latest versi
 
 ```json
 {
-    "$schema": "./devinit.schema-2.0.json",
+    "$schema": "https://json.schemastore.org/devinit.schema-2.0",
     "run": [
         {
             "comments": "Example that will trigger az login --use-device-code behavior.",

@@ -18,8 +18,11 @@ ms.technology: devinit
 
 The `devinit.exe init` command is driven via the _.devinit.json_ file. By default, `devinit.exe` looks for the file in the following locations:
 
-- _{current-directory}\\.devinit.json_
-- _{current-directory}\\.devinit\devinit.json_
+- _{current-directory}\\_
+- _{current-directory}\\.devinit\\_
+- _{current-directory}\\.devcontainer\\_
+
+The _._ in the directory and file names can be omitted.
 
 The _.devinit.json_ file can also be specified explicitly via the `--file`/`-f` option.
 
@@ -31,7 +34,7 @@ Paths are relative to the location where devinit is running. Typically the curre
 
 ```json
 {
-    "$schema": "http://schemas.codespaces.visualstudio.com/devinit/v1",
+    "$schema": "https://json.schemastore.org/devinit.schema-2.0",
     "comments": "string",
     "run": [
         {

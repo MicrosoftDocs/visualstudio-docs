@@ -43,7 +43,7 @@ Not used.
 
 The Default behavior of the `require-mssql` tool is to install SQL server.
 
-## Builtin Options
+### Builtin Options
 
 The `require-mssql` tool sets a number of installer command line arguments to ensure that the installer can run headless. These arguments are listed below and documentation on them can be found in the [SQL install documentation](https://docs.microsoft.com/sql/database-engine/install-windows/install-sql-server-from-the-command-prompt?view=sql-server-ver15&preserve-view=true).
 
@@ -72,7 +72,7 @@ The `require-mssql` tool sets a number of installer command line arguments to en
 
 ```json
 {
-    "$schema": "./devinit.schema-2.0.json",
+    "$schema": "https://json.schemastore.org/devinit.schema-2.0",
     "run": [
         {
             "comments": "Installs MSSQL.",

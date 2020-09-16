@@ -57,7 +57,7 @@ The `require-psmodule` tool sets a number of `Install-Module` command line argum
 
 ```json
 {
-    "$schema": "./devinit.schema-2.0.json",
+    "$schema": "https://json.schemastore.org/devinit.schema-2.0",
     "run": [
         {
             "comments": "Installs the PowerShellGet module.",

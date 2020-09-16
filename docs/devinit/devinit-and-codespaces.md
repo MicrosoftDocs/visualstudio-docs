@@ -16,14 +16,14 @@ ms.technology: devinit
 
 devinit is a great compliment to [GitHub Codespaces for Visual Studio](https://visualstudio.microsoft.com/services/visual-studio-codespaces) and devinit can be used to get a codespace setup so contributors can build, run, and debug right away.
 
-To integrate with a GitHub Codespaces for Visual Studio, `devinit` needs to be called from the `postCreateCommand` defined in a `.devcontainer.json` file placed in the repo root. The string(s) in `postCreateCommand` are executed in the default shell, after the repo is cloned of the codespace. You can read more about `postCreateCommand` in the GitHub Codespaces [customization documentation](https://docs.GitHub.com/en/GitHub/developing-online-with-codespaces/configuring-codespaces-for-your-project). To add the `devinit` command, you can add `devinit init` to the `postCreateCommand` as shown in the examples below.
+To integrate with a GitHub Codespaces for Visual Studio, `devinit` needs to be called from the `postCreateCommand` defined in a `.devcontainer.json` file placed in the repo root. The string(s) in `postCreateCommand` are executed in the default shell, after the repo is cloned in the codespace. You can read more about `postCreateCommand` in the GitHub Codespaces [customization documentation](https://docs.GitHub.com/en/GitHub/developing-online-with-codespaces/configuring-codespaces-for-your-project). To add the `devinit` command, you can add `devinit init` to the `postCreateCommand` as shown in the examples below.
 
 You can also execute `devinit init -f <path to .devinit.json>` from the Visual Studio Integrated Terminal once connected to your codespace.
 
 ## Examples
 
 ### With a .devinit.json file
-In this example, the _.devcontainer.json_ file below is placed in the repo root alongside _.devinit.json_ file. The files can also be placed in a _.devcontainer_ directory.
+In this example, the _.devcontainer.json_ file below is placed in the repo root alongside the _.devinit.json_ file. The files can also be placed in a _.devcontainer_ directory.
 
 ```json
 {
@@ -38,11 +38,11 @@ In this example, the _.devcontainer.json_ file below is placed in the repo root 
 ```
 
 ### As commands
-In this example _.devcontainer.json_ file below is placed in the repo root and `devinit` is being called programmatically to run a tool  
+In this example _.devcontainer.json_ file below is placed in the repo root and `devinit run` is being called programmatically to run a tool  
 
 ```json
 {
-  "postCreateCommand": ["devinit –t require-dotnetsdk"]
+  "postCreateCommand": ["devinit run –t require-dotnetcoresdk"]
 }
 ```
 

@@ -26,11 +26,11 @@ If both the `input` and `additionalOptions` properties are omitted or empty, the
 | [**input**](#input)                              | string | No       | Not used. See [input](#input) below for details. |
 | [**additionalOptions**](#additional-options)     | string | No       | See [Additional options](#additional-options) below for details.                     |
 
-#### Input
+### Input
 
 Not used. Ignores any input if mentioned.
 
-#### Additional options
+### Additional options
 
 Additional options are passed as-is to the credential provider command.
 
@@ -42,7 +42,7 @@ The Default behavior of the `require-azureartifactscredentialprovider` tool is t
 
 ```json
 {
-    "$schema": "./devinit.schema-2.0.json",
+    "$schema": "https://json.schemastore.org/devinit.schema-2.0",
     "comments": "A sample dot-devinit file that installs Azure Artifacts Credential Provider.'",
     "run": [
         {

@@ -1,41 +1,43 @@
----
-title: All Tools
-ms.date: 08/28/2020
-description: List of all the devinit tools for customizing a development environment. 
-ms.topic: reference
-author: andster
-ms.author: andster
-manager: jillfra
-ms.workload:
-- multiple
-monikerRange: ">= vs-2019"
-ms.prod: visual-studio-windows
-ms.technology: devinit
----
-# All Tools
-
-This example illustrates how to use a large range of devinit tools.
-
-## .devinit.json
-Contents of the _.devcontainer.json_ file. This file needs to be in the same folder as _.devcontainer.json_.
-
-``` json
 {
+  "$schema": "./devinit.schema-2.0.json",
+  "comments": "A sample dot-devinit file",
   "run": [
     {
-      "tool": "require-choco",
-      "input": "0.10.15"
+      "tool": "azurecli-login",
+      "comments": "Logs in to Azure Cli."
+    },
+    {
+      "tool": "choco-install",
+      "input": "kubernetes-cli",
+      "additionalOptions": "--version 1.18.1",
+      "comments": "Additional options are appended to the 'choco install' command line. In this case, we pass in the specific package version to install."
     },
     {
       "tool": "choco-upgrade",
       "input": "kubernetes-cli",
-      "comments": "Additional options are appended to the 'choco upgrade' command line. In this case, we pass in the specific package version to install.",
-      "additionalOptions": "--version 1.18.2"
+      "additionalOptions": "--version 1.18.2",
+      "comments": "Additional options are appended to the 'choco upgrade' command line. In this case, we pass in the specific package version to install."
     },
     {
       "tool": "dotnet-restore",
-      "comments": "Restores the dependencies and tools of a project using dotnet core. Input can be used to provide .sln path or project file path.",
-      "input": "C:\\app1\\app1.csproj"
+      "input": "C:\\app1\\app1.csproj",
+      "comments": "Restores the dependencies and tools of a project using .NET Core. Input can be used to provide .sln path or project file path."
+    },
+    {
+      "tool": "dotnet-toolinstall",
+      "input": "dotnet-ef",
+      "additionalOptions": "--global",
+      "comments": "Installs a .NET Core tool."
+    },
+    {
+      "tool": "enable-iis",
+      "comments": "Enables IIS features and installs the latest ASP.NET hosting bundle."
+    },
+    {
+      "tool": "npm-install",
+      "input": "some-package",
+      "additionalOptions": "--some-additional-options",
+      "comments": "Installs an NPM package"
     },
     {
       "tool": "nuget-restore",
@@ -43,67 +45,101 @@ Contents of the _.devcontainer.json_ file. This file needs to be in the same fol
       "input": "C:\\packages.config"
     },
     {
+      "tool": "require-azureartifactscredentialprovider",
+      "comments": "Installs Azure Artifacts Credential Provider."
+    },
+    {
+      "tool": "require-azurecli",
+      "comments": "Always installs latest of Azure CLI for Windows."
+    },
+    {
+      "tool": "require-choco",
+      "input": "0.10.15"
+    },
+    {
+      "tool": "require-dotnetcoresdk",
+      "comments": "If input is null, the sdk version is from global.json if it exists; otherwise, current LTS version."
+    },
+    {
+      "tool": "require-dotnetcoresdk",
+      "input": "3.1.200",
+      "comments": "Input specifies an explicit SDK version."
+    },
+    {
+      "tool": "require-dotnetframeworksdk",
+      "input": "4.8.0",
+      "comments": "Input specifies an explicit SDK version."
+    },
+    {
+      "tool": "require-gitsubmodule",
+      "input": "RepoThatHasDotGitModulesFile",
+      "comments": "Input specifies a folder that contains a .gitmodules file. If no input is specified, then current directory is used."
+    },
+    {
+      "tool": "require-mssql",
+      "input": "install",
+      "comments": "Installs MS SQL."
+    },
+    {
+      "tool": "require-nodejs",
+      "input": "12.16.3",
+      "comments": "Installs Node.js."
+    },
+    {
+      "tool": "require-npm",
+      "input": "6.14.4",
+      "comments": "Installs NPM."
+    },
+    {
+      "tool": "require-nuget",
+      "input": "5.5.1",
+      "comments": "Installs NuGet for given input version. If no input given, then installs latest."
+    },
+    {
+      "tool": "require-psmodule",
+      "input": "PowerShellGet",
+      "additionalOptions": "-Repository PSGallery",
+      "comments": "Installs specified PS module mentioned in input from PSGallery, unless repository mentioned in additional options."
+    },
+    {
+      "tool": "require-vcpkg",
+      "comments": "Installs vcpkg."
+    },
+    {
+      "tool": "require-vscomponent",
+      "input": "C:\\.vsconfig",
+      "comments": "Imports .vsconfig file which is passed as input to Visual Studio."
+    },
+    {
       "tool": "set-env",
       "input": "Foo=Bar",
       "comments": "Set-env can set, display or delete individual variables and can display all variables."
     },
     {
-      "tool": "require-azurecli",
-      "comments": "Always installs latest of Azure CLI for windows."
+      "tool": "vcpkg-install",
+      "input": "some-package",
+      "additionalOptions": "--some-additional-options",
+      "comments": "Installs a package using vcpkg."
     },
     {
-      "tool": "require-dotnetsdk",
-      "comments": "If input is null, the sdk version is from global.json if it exists; otherwise, current LTS version."
+      "comments": "Enables the .NET Framework 3.5 feature.",
+      "tool": "windowsfeature-enable",
+      "input": "Microsoft-Windows-NetFx3-OC-Package"
     },
     {
-      "tool": "require-dotnetsdk",
-      "comments": "Input specifies an explicit SDK version.",
-      "input": "3.1.200"
+      "comments": "Disables the IIS Asp.Net 4.5 feature.",
+      "tool": "windowsfeature-disable",
+      "input": "IIS-ASPNET45"
     },
     {
-      "tool": "require-gitsubmodule",
-      "comments": "Input specifies a folder that contains a .gitmodules file. If no input is specified, then current directory is used.",
-      "input": "RepoThatHasDotGitModulesFile"
-    },
-    {
-      "tool": "require-nuget",
-      "comments": "Installs NuGet for given input version. If no input given, then installs latest.",
-      "input": "5.5.1"
-    },
-    {
-      "tool": "require-azureartifactscredentialprovider",
-      "comments": "Installs Azure Artifacts Credential Provider."
-    },
-    {
-      "tool": "require-psmodule",
-      "input": "PowerShellGet",
-      "comments": "Installs specified PS module mentioned in input from PSGallery, unless repository mentioned in Additional options.",
-      "additionalOptions": "-Repository PSGallery"
-    },
-    {
-      "tool": "require-vscomponent",
-      "comments": "Imports .vsconfig file which is passed as input to Visual Studio.",
-      "input": "C:\\.vsconfig"
-    },
-    {
-      "tool": "azurecli-login",
-      "comments": "Logs in to Azure Cli."
+      "comments": "Lists the state of all Windows features.",
+      "tool": "windowsfeature-list"
     },
     {
       "tool": "wsl-install",
-      "comments": "Installs distro from target URL using Windows Subsystem for Linux.",
-      "input": "https://aka.ms/wslubuntu2004"
+      "input": "https://aka.ms/wslubuntu2004",
+      "additionalOptions": "--wsl-version 1 --post-create-command some-post-create-command",
+      "comments": "Installs distro from target URL using Windows Subsystem for Linux."
     }
   ]
 }
-```
-
-## .devcontainer.json
-
-Contents of the _.devcontainer.json_ file in the repo root.
-
-```json
-{
-  "postCreateCommand": "devinit init"
-}
-```

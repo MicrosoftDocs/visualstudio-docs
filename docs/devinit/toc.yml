@@ -31,7 +31,7 @@
       href: tool-nuget-restore.md
     - name: require-azureartifactscredentialprovider
       href: tool-require-azureartifactscredentialprovider.md
-    - name: azurecli
+    - name: require-azurecli
       href: tool-require-azurecli.md
     - name: require-choco
       href: tool-require-choco.md
@@ -61,8 +61,10 @@
       href: tool-set-env.md
     - name: vcpkg-install
       href: tool-vcpkg-install.md
-    - name: windowsfeature
-      href: tool-windowsfeature.md
+    - name: windowsfeature-disable
+      href: tool-windowsfeature-disable.md
+    - name: windowsfeature-enable
+      href: tool-windowsfeature-enable.md
     - name: wsl-install
       href: tool-wsl-install.md
   - name: Samples

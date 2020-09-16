@@ -54,6 +54,6 @@ Contents of the _.devcontainer.json_ file in the repo root.
 
 ```json
 {
-  "postCreateCommand": "devinit init"
+  "postCreateCommand": "Powershell.exe -ExecutionPolicy unrestricted -File PostCloneSetup.ps1"
 }
 ```

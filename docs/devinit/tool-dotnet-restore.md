@@ -30,7 +30,7 @@ If both the `input` and `additionalOptions` properties are omitted or empty, the
 
 Path to the project/solution file to restore.
 
-#### Additional options
+### Additional options
 
 Additional options are passed as-is to the dotnet restore command.
 
@@ -42,7 +42,7 @@ The Default behavior of the `dotnet-restore` tool is to run 'dotnet restore' in 
 
 ```json
 {
-    "$schema": "./devinit.schema-2.0.json",
+    "$schema": "https://json.schemastore.org/devinit.schema-2.0",
     "comments": "A sample dot-devinit file that builds the 'kitchen sink'",
     "run": [
         {
