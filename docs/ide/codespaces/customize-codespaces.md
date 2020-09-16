@@ -193,7 +193,7 @@ If you are using an Azure Active Directory identity to authenticate your applica
 > az login --use-device-code
 ```
 
-You can learn more on the `az login` command in the Azure CLI [documentation](/cli/azure/reference-index#az-login).
+You can learn more on the `az login` command in the Azure CLI [documentation](/cli/azure/reference-index#az_login).
 
 ## See also
 

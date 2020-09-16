@@ -166,7 +166,7 @@ Not yet available:
 
 * NuGet Package Manager UI - NuGet command line is supported.
 * Live Unit Testing - support in progress.
-* Microsoft Fakes, Code coverage, and Intellitest
+* Microsoft Fakes, Code coverage, and IntelliTest
 * Publishing - Publish to Azure through Git Actions is supported.
 * Third-party Visual Studio extensions
 
