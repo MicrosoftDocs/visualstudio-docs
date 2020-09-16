@@ -64,7 +64,7 @@ The Default behavior of the `require-dotnetcoresdk` tool is to install the versi
         {
             "comments": "Example that will install in a specific directory.",
             "tool": "require-dotnetcoresdk",
-            "additionalOptions": "-InstallDir \"C:\\Program Files\\dotnet\""
+            "additionalOptions": "-InstallDir \"C:\Program Files\dotnet\""
         }
     ]
 }

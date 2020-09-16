@@ -59,19 +59,13 @@ Options for the `devinit run` command.
 Using an `<arg>` that includes a space in its value must include an additional pair of escaped quotes.
 
 ```batch
-> devinit run -t <toolname> -<somearg> "\"<some value>\""
+> devinit run -t <toolname> -<somearg> "<some value>"
 ```
 
 For installing dotnet into a specific directory `C:\Program Files\dotnet`:
 
 ```batch
-> devinit run -t require-dotnetcoresdk -InstallDir "\"C:\Program Files\tool\""
-```
-
-For installing dotnet into a specific directory `C:\Workspace\dotnet`:
-
-```batch
-> devinit run -t require-dotnetcoresdk -InstallDir "C:\Workspace\dotnet"
+> devinit run -t require-dotnetcoresdk --"-InstallDir \"C:\Program Files\dotnet\""
 ```
 
 ## List
@@ -110,12 +104,4 @@ Prints the current version information for devinit.
 ```
 
 Prints the help text for devinit or for a specific command `devinit <command>`.
-
-## Verbose Mode
-
-```batch
-> devinit <command> -v
-> devinit <command> --verbose
-```
-
-Enable verbose logging for the command applicable to all commands.
+ 
