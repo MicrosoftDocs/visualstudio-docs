@@ -17,7 +17,7 @@ Only the downloads included with your subscription are displayed for you on the 
 If your subscription is provided by your work or school, your subscriptions administrator controls whether you have access to downloads. Disabling access to downloads also disables access to product keys. If you don't have access to downloads and product keys and need them, [contact your administrator](contact-my-admin.md).
 
 > [!NOTE]
-> We are aware of an issue regarding the availability of Office 365 product keys.  We are investigating the cause and will update this article when the issue is resolved. 
+> We are aware of an issue regarding the availability of Microsoft 365 product keys.  We are investigating the cause and will update this article when the issue is resolved. 
 
 ## How do I find downloads in the subscriber portal?
 When you visit the [Downloads](https://my.visualstudio.com/downloads/featured?wt.mc_id=o~msft~docs) page, you'll see popular downloads arranged in groups by product type.  You can select one of the popular downloads shown, or search for any product using the search bar at the top of the page.

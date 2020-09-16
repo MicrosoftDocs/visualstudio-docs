@@ -141,6 +141,11 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "docs/code-quality/analyzer-rule-sets.md",
+      "redirect_url": "/visualstudio/code-quality/configure-fxcop-analyzers",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/code-quality/fxcop-analyzers.yml",
       "redirect_url": "/visualstudio/code-quality/migrate-from-legacy-analysis-to-fxcop-analyzers",
       "redirect_document_id": false
@@ -213,6 +218,16 @@
     {
       "source_path": "docs/code-quality/measuring-complexity-and-maintainability-of-managed-code.md",
       "redirect_url": "/visualstudio/code-quality/code-metrics-values",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/mobility-warnings.md",
+      "redirect_url": "/visualstudio/code-quality/code-analysis-for-managed-code-warnings",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/code-quality/portability-warnings.md",
+      "redirect_url": "/visualstudio/code-quality/interoperability-warnings",
       "redirect_document_id": false
     },
     {
@@ -3351,11 +3366,6 @@
       "redirect_document_id": false
     },
     {
-      "source_path": "docs/docker/index.md",
-      "redirect_url": "/dotnet/standard/containerized-lifecycle-architecture/design-develop-containerized-apps/visual-studio-tools-for-docker?toc=/visualstudio/docker/toc.json&bc=/visualstudio/docker/breadcrumb/toc.json",
-      "redirect_document_id": false
-    },
-    {
       "source_path": "docs/docker/vs-azure-tools-docker-edit-and-refresh.md",
       "redirect_url": "/visualstudio/containers/edit-and-refresh",
       "redirect_document_id": false
@@ -3363,11 +3373,6 @@
     {
       "source_path": "docs/docker/vs-azure-tools-docker-hosting-web-apps-in-docker.md",
       "redirect_url": "/visualstudio/containers/hosting-web-apps-in-docker",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "docs/docker/vs-azure-tools-docker-machine-azure-config.md",
-      "redirect_url": "/visualstudio/docker/",
       "redirect_document_id": false
     },
     {
@@ -5687,7 +5692,7 @@
     },
     {
       "source_path": "docs/welcome-to-visual-studio-2015.md",
-      "redirect_url": "/visualstudio/",
+      "redirect_url": "/visualstudio/welcome-to-visual-studio-2015?view=vs-2015",
       "redirect_document_id": false
     },
     {
@@ -11288,6 +11293,11 @@
     {
       "source_path": "subscriptions/vs-ems.md",
       "redirect_url": "/visualstudio/subscriptions/vs-m365",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docker/index.md",
+      "redirect_url": "/visualstudio/docker/tutorials/docker-tutorial",
       "redirect_document_id": false
     },
     {

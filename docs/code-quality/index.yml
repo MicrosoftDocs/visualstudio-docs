@@ -26,14 +26,14 @@ landingContent:
       - linkListType: overview
         links:
           - text: Analyze C and C++ code
-            url: code-analysis-for-c-cpp-overview.md
+            url: /cpp/code-quality/code-analysis-for-c-cpp-overview
       - linkListType: reference
         links:
           - text: C++ code analysis warnings
-            url: code-analysis-for-c-cpp-warnings.md
+            url: /cpp/code-quality/code-analysis-for-c-cpp-warnings
 
   # Card
-  - title: Analyze managed code quality
+  - title: .NET code quality analysis
     linkLists:
       - linkListType: overview
         links:
@@ -47,19 +47,19 @@ landingContent:
             url: analyzers-faq.md
       - linkListType: how-to-guide
         links:
-          - text: Install FxCop analyzers
+          - text: Configure code quality analysis
             url: install-fxcop-analyzers.md
       - linkListType: reference
         links:
-          - text: Managed code analysis warnings
+          - text: .NET code quality rules
             url: code-analysis-for-managed-code-warnings.md
 
   # Card
-  - title: Analyze managed code style
+  - title: .NET code style analysis
     linkLists:
       - linkListType: how-to-guide
         links:
-          - text: Analyze code style
+          - text: Configure code style analysis
             url: ../ide/create-portable-custom-editor-options.md
 
   # Card

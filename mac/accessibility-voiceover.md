@@ -1,6 +1,7 @@
 ---
 title: "Using VoiceOver with Visual Studio for Mac"
 titleSuffix: ""
+ms.custom: SEO-VS-2020
 description: "Using macOS VoiceOver navigation with Visual Studio for Mac"
 author: heiligerdankgesang
 ms.author: dominicn

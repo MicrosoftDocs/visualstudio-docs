@@ -20,24 +20,20 @@ ms.workload:
 ---
 # Measure application performance by analyzing CPU usage
 
-You can use Visual Studio profiling tools to analyze performance issues in your application. This article shows how to use **CPU Usage** tab of the Diagnostics Tools to obtain performance data for your app.
+Find performance issues while you're debugging with the debugger-integrated **CPU Usage** diagnostic tool.  You can also analyze CPU usage without a debugger attached or by targeting a running app. For more information, see [Run profiling tools with or without the debugger](../profiling/running-profiling-tools-with-or-without-the-debugger.md).
 
-When the debugger pauses, the **CPU Usage** tool collects information about the functions that are executing in your application. The tool lists the functions that were performing work, and provides a timeline graph you can use to focus on specific segments of the sampling session.
-
-The Diagnostic hub offers you a lot of other options to run and manage your diagnostics session. If **CPU Usage** does not give you the data that you need, the [other profiling tools](../profiling/profiling-feature-tour.md) provide different kinds of information that might be helpful to you. In many cases, the performance bottleneck of your application may be caused by something other than your CPU, such as memory, rendering UI, or network request time. The Diagnostics hub offers you a lot of other options to record and analyze this kind of data.
+When the debugger pauses, the **CPU Usage** tool in the Diagnostic Tools window collects information about the functions that are executing in your application. The tool lists the functions that were performing work, and provides a timeline graph you can use to focus on specific segments of the sampling session.
 
 > [!Important]
-> The Diagnostics Tools are supported for .NET development in Visual Studio, including ASP.NET, and for native/C++ development.
-
-In this article, we'll discuss analyzing CPU usage in your normal debugging workflow. You can also analyze CPU usage without a debugger attached or by targeting a running app. For more information, see [Run profiling tools with or without the debugger](../profiling/running-profiling-tools-with-or-without-the-debugger.md). You can also use another profiling tool, [PerfTips](../profiling/perftips.md), to step through code and identify how long it takes particular functions or code blocks to complete.
-
-You can use the profiling tools without the debugger with Windows 7 and later. Windows 8 and later is required to run profiling tools with the debugger (**Diagnostic Tools** window).
+> The debugger-integrated Diagnostics Tools are supported for .NET development in Visual Studio, including ASP.NET, ASP.NET Core, and for native/C++ development. Windows 8 and later is required to run profiling tools with the debugger (**Diagnostic Tools** window).
 
 In this tutorial, you will:
 
 > [!div class="checklist"]
 > * Collect CPU usage data
 > * Analyze CPU usage data
+
+If **CPU Usage** does not give you the data that you need, other profiling tools in the [Performance Profiler](../profiling/profiling-feature-tour.md#post_mortem) provide different kinds of information that might be helpful to you. In many cases, the performance bottleneck of your application may be caused by something other than your CPU, such as memory, rendering UI, or network request time.
 
 ## Step 1: Collect profiling data
 

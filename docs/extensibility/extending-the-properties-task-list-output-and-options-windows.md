@@ -1,6 +1,7 @@
 ---
-title: Extend the Properties, Task List, Output, Options windows
+title: Extend Properties, Task List, Output, Options windows
 ms.date: 11/04/2016
+ms.custom: SEO-VS-2020
 ms.topic: conceptual
 helpviewer_keywords:
 - properties pane

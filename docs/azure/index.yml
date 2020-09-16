@@ -47,18 +47,18 @@ landingContent:
     - linkListType: overview
       links:
         - text: Container development
-          url: /visualstudio/containers
+          url: ../containers/index.yml
         - text: Container tools in Visual Studio
-          url: /visualstudio/containers/overview
+          url: ../containers/overview.md
         - text: Kubernetes tools
-          url: /visualstudio/containers/tutorial-kubernetes-tools
+          url: ../containers/tutorial-kubernetes-tools.md
 
   - title: Debug Azure services and analyze performance
     linkLists:
     - linkListType: tutorial
       links:
         - text: Debug ASP.NET Core on IIS in Azure
-          url: /visualstudio/debugger/remote-debugging-azure
+          url: ../debugger/remote-debugging-azure.md
         - text: Debug a cloud service in Azure
           url: vs-azure-tools-intellitrace-debug-published-cloud-services.md
         - text: Debug an app running on a virtual machine

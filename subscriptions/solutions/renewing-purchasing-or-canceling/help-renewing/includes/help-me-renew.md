@@ -9,6 +9,7 @@ ms.date: 08/14/2020
 user.type: subscriber
 tags: renewing
 subscription.type: retail
+sap.id: d49256cb-844e-ebfd-210e-a30a61a3adad
 ---
 
 ## The instructions for renewing your Visual Studio subscription will be listed here. 

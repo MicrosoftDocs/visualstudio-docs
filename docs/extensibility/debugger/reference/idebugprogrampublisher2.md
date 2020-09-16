@@ -50,7 +50,7 @@ Namespace: Microsoft.VisualStudio.Debugger.Interop
 Assembly: Microsoft.VisualStudio.Debugger.Interop.dll
 
 ## Example
-This example shows how to instantiate the program publisher and register a program node. This is taken from the Tutorial, [Publishing the Program Node](https://msdn.microsoft.com/library/d0100e02-4e2b-4e72-9e90-f7bc11777bae).
+This example shows how to instantiate the program publisher and register a program node. This is taken from the Tutorial, [Publishing the Program Node](/previous-versions/bb161795(v=vs.90)).
 
 ```cpp
 // This is how m_srpProgramPublisher is defined in the class definition:

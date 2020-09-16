@@ -9,6 +9,7 @@ ms.date: 08/14/2020
 user.type: subscriber
 tags: licensing-terms
 subscription.type: vl, cloud, retail, partner
+sap.id: 95b201e2-f079-cb93-1693-3d40ee05b552
 ---
 
 ## The licensing terms for your Visual Studio subscription will be listed here. 

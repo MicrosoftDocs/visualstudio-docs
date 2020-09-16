@@ -11,9 +11,9 @@
             "ASP.NET"
         ],
         "labels": [
-            "-label:do-not-merge"
+            "-label:CLA"
         ],
-        "minAdditionsToFile": 30
+        "minAdditionsToFile": 10
     },
     "areas": [
         {

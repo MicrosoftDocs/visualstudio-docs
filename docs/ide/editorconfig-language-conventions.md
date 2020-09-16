@@ -70,7 +70,7 @@ To change the code style convention:
 
    Visual Studio adds or modifies the configuration setting in the EditorConfig file, as shown in the preview box.
 
-To change the severity of the code style violation, follow the same steps, but choose **Configure \<rule ID> severity** instead of **Configure \<rule ID> code style**. For more information, see [Automatically configure rule severity](../code-quality/use-roslyn-analyzers.md#automatically-configure-rule-severity).
+To change the severity of the code style violation, follow the same steps, but choose **Configure \<rule ID> severity** instead of **Configure \<rule ID> code style**. For more information, see [Automatically configure rule severity](../code-quality/use-roslyn-analyzers.md#set-rule-severity-from-the-light-bulb-menu).
 
 ::: moniker-end
 
@@ -1043,6 +1043,30 @@ Dim v = If(o IsNot Nothing, o.ToString(), Nothing)
 | **Applicable languages** | C# 6.0+ and Visual Basic 14+ |
 | **Values** | `true` - Prefer is null check over reference equality method<br /><br />`false` - Prefer reference equality method over is null check |
 | **Visual Studio default** | `true:silent` |
+
+Code examples:
+
+```csharp
+// dotnet_style_prefer_is_null_check_over_reference_equality_method = true
+if (value is null)
+    return;
+
+// dotnet_style_prefer_is_null_check_over_reference_equality_method = false
+if (object.ReferenceEquals(value, null))
+    return;
+```
+
+```vb
+' dotnet_style_prefer_is_null_check_over_reference_equality_method = true
+If value Is Nothing
+    Return
+End If
+
+' dotnet_style_prefer_is_null_check_over_reference_equality_method = false
+If Object.ReferenceEquals(value, Nothing)
+    Return
+End If
+```
 
 ## .NET code quality settings
 
