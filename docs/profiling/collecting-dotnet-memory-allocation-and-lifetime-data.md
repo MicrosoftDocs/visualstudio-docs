@@ -1,5 +1,5 @@
 ---
-title: Collect .NET memory allocation & lifetime data
+title: "Collect .NET memory allocation & lifetime data"
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to

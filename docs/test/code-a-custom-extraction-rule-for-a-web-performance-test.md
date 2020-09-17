@@ -1,5 +1,5 @@
 ---
-title: Code custom extraction rule (web performance test)
+title: Code a custom extraction rule (web perf test)
 ms.custom: SEO-VS-2020
 ms.date: 10/19/2016
 ms.topic: how-to

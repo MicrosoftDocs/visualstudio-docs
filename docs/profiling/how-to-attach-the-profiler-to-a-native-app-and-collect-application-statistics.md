@@ -1,5 +1,5 @@
 ---
-title: Attach profiler to native app & collect app statistics
+title: "Attach profiler to native app & collect app statistics"
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
