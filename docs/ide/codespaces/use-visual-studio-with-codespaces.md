@@ -23,7 +23,7 @@ Visual Studio has great support for developing in GitHub Codespaces for Visual S
 > [!NOTE]
 > If you don't have [Visual Studio 2019 Preview](https://aka.ms/vspreview) installed already, you can [download it from visualstudio.microsoft.com](https://aka.ms/vspreview).
 
-## Creating a GitHub Codespaces for Visual Studio codespace
+## Creating a codespace
 
 If you don't already have a GitHub codespace, you can create one from Visual Studio.
 
@@ -117,7 +117,7 @@ You should notice little difference editing source code in a codespace as you ge
 * Syntax highlighting
 * Quick Info - Mostly supported, colorization in quick info is in progress.
 * HTML, CSS, razor editors - Partial support, full support is in progress. Diagnostics, intellisense completion, quick info, smart indent are in progress. Currently no support for semantic colorization, navigation commands, etc.
-* Javascript editor - Partial support, working towards full support. Script blocks (i.e. JavaScript content in HTML files, CSHTML files, and similar) and semantic highlighting are not yet supported. Known issues with lightbulb features and linting.
+* JavaScript editor - Partial support, working towards full support. Script blocks (for example, JavaScript content in HTML files, CSHTML files, and similar) and semantic highlighting are not yet supported. Known issues with lightbulb features and linting.
 
 Not yet available:
 
@@ -129,7 +129,7 @@ Not yet available:
 
 ### Application types and configuration
 
-Most application types and project configurations are supported, but you will need to edit your project code directly without the help of visual designers. For more configuration guidance see [customizing codespaces for windows-based development](customize-codespaces.md).
+Most application types and project configurations are supported, but you will need to edit your project code directly without the help of visual designers. For more configuration guidance, see [customizing codespaces for windows-based development](customize-codespaces.md).
 
 * Project and item templates
 * .NET Core and ASP.NET Core projects
@@ -137,7 +137,7 @@ Most application types and project configurations are supported, but you will ne
 * C++ apps that target Linux - Mostly supported for non-GUI. Ability to install and provision WSL, platform-specific intellisense, and build.
 * Project file editing - mostly supported. Missing some completion, syntax highlighting, and advanced editing features.
 * GitHub accounts - Can be used to create and connect to Codespaces, and access resources available to the account on GitHub.
-* Azure CLI - Does not share the signed-in Visual Studio identity or keychain accounts. Browser based login is not supported but you can authenticate inside the integrated terminal using: az login --use-device-code
+* Azure CLI - Does not share the signed-in Visual Studio identity or keychain accounts. Browser-based login is not supported but you can authenticate inside the integrated terminal using: `az login --use-device-code`.
 
 Not yet available:
 
@@ -148,10 +148,10 @@ Not yet available:
 * Project property pages
 * Authentication options in ASP.NET Core templates
 * Apps that require a GUI to install - Anything that can be installed with the terminal is supported. Enabling full screen Live Share to access to GUIs is a current workaround.
-* Any 3rd party installs (PostgreSQL, NoSQL, MongoDB, CosmosDB, Redis, RabbitMQ) - Ability to install on codespaces server is supported through chocolatey installer. Administration consoles are not accessible. (If install requires a restart you may need to restart the codespace.)
+* Any third party installs (PostgreSQL, NoSQL, MongoDB, CosmosDB, Redis, RabbitMQ) - Ability to install on codespaces server is supported through chocolatey installer. Administration consoles are not accessible. (If install requires a restart you may need to restart the codespace.)
 * Managed identities for Azure resources in Visual Studio
 * Intranet resources (private network) - Currently, codespaces won't be able to connect to any resource that requires a VPN.
-* Extensions - No 3rd party extensions are supported when using Codespaces with Visual Studio.
+* Extensions - No third party extensions are supported when using Codespaces with Visual Studio.
 
 ### Debugging
 
@@ -175,7 +175,7 @@ Not yet available:
 
 ### Features
 
-Since you are working with the Visual Studio client connected to a remote environment, you get the same accessibility features as when working locally. Given the engineering required to connect to GitHub Codespaces, installing third-party extensions is not supported.
+Since you are working with the Visual Studio client connected to a remote environment, you get the same accessibility features as when working locally.
 
 * Source Control - Full Git support through the new [Git window](https://devblogs.microsoft.com/visualstudio/improved-git-experience-in-visual-studio-2019/).
 * Accessibility - We believe there are no known issues with assistive technology compatibility that don't already exist in the local Visual Studio experience. Please let us know if you detect bugs by filing an issue on [developer community](https://developercommunity.visualstudio.com/).
@@ -188,9 +188,6 @@ Not yet available:
 * NuGet Package Manager UI - NuGet command line is supported.
 * Enterprise testing features - Live Unit Testing support in progress. Microsoft Fakes, Code coverage, and IntelliTest not supported.
 * Advanced publishing scenarios - Selective publishing, FTP publishing, preview changes, quick publish tool bar, etc. support is planned.
-* Third-party Visual Studio extensions
-
-<!-- TBD ### Specific limitations - do we need to include any specific limitations or workaround? -->
 
 ## See also
 
