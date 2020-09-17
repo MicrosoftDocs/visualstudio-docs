@@ -29,10 +29,9 @@ Windows codespaces come with many frameworks and tools already installed so you 
 | Azure CLI                                   | az         | 2.5                |
 | Chocolatey                                  | choco      | 0.10.15            |
 | CMake                                       | cmake      | 3.17               |
-| Docker Desktop                              | docker     | 19.03              |
 | Git                                         | git        | 2.26               |
 | Microsoft build                             | msbuild    | 16.7               |
-| Microsoft SQL Server Developer Edition 2019 | N/A        | 15.0               |
+| Microsoft SQL Server Express Edition 2019   | N/A        | 15.0               |
 | Ninja                                       | ninja      | 1.8.2              |
 | Node.js                                     | node       | 12.16              |
 | NPM                                         | npm        | 6.14               |
@@ -86,7 +85,7 @@ GitHub Codespaces support the following *devcontainer.json* properties. Setting 
 
 ### devinit.json
 
-You can run the `devinit` command line directly but it also supports creating [*devinit.json*]() configuration files to describe which set of `devinit` tools to run along with additional inputs. 
+While you can run the `devinit` command line directly, we recommend creating [*devinit.json*]() configuration files, which describe the set of `devinit` tools to run along with additional inputs. 
 
 For example, to install the [.NET Core SDK], a *.devinit.json* would look like:
 
@@ -120,7 +119,7 @@ By specifying `devinit init`, `devinit` will be run using your *devinit.json* co
 
 ### An example
 
-Here is a simple example setting an environment variable.
+Here is a simple example installing the .NET Core Entity Framework command-line tool, `dotnet-ef`.
 
 **devcontainer.json**
 
@@ -140,11 +139,11 @@ Contents of the *.devinit.json* file. This file needs to be in the same folder a
 {
     "run": [
         {
-            "comments": "Set Flask startup location",
-            "tool": "set-env",
-            "input": "FLASK_APP=my_app.webapp"
+            "comments": "Install the Entity Framework tools",
+            "tool": "dotnet-toolinstall",
+            "input": "dotnet-ef",
         }
-    ]
+     ]
 }
 ```
 
@@ -164,22 +163,15 @@ If there are one or more ports that should be forwarded by default for a given r
 
 ### Microsoft SQL Server
 
-Microsoft SQL Server 2019 Developer Edition is available and running as a local service (SQLServer) in the Windows Codespace environment. The current user, which your app and the Visual Studio Terminal run as, has SQL administrator rights to the SQL server. To administer the server, you will need to use PowerShell in the Visual Studio Terminal or other command-line tools such as `dotnet-ef`. Currently SQL Server Management Studio and other remote administration tools are not available.
-
-> [!NOTE]
-> SQL Server Express Edition (localdb) is also available in all Windows Codespace environments.
+Microsoft SQL Server 2019 Express Edition is available and running as a local service (localdb) in the Windows Codespace environment. To administer the server, you will need to use PowerShell in the Visual Studio Terminal or other command-line tools such as `dotnet-ef`. Currently SQL Server Management Studio and other remote administration tools are not available.
 
 #### Example connection string
 
 Below is an example of a connection string to connect to the local MS SQL server.
 
 ```csharp
-"Server=localhost;Integrated Security=true;"
+"Server=(LocalDB);Integrated Security=true;"
 ```
-
-### Docker desktop
-
-Docker desktop is installed in all Windows Codespace environment. However, the docker tools for Visual Studio are currently not available in Visual Studio Codespaces.
 
 ### Azure CLI
 

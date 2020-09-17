@@ -117,7 +117,7 @@ You should notice little difference editing source code in a codespace as you ge
 * Code formatting with Format Document
 * Syntax highlighting
 * Quick Info*
-* HTML, CSS, razor editors* - Partial support.
+* HTML, CSS, Razor editors* - Partial support.
 * JavaScript editor*- Partial support.
 
 Not yet available:
@@ -125,7 +125,7 @@ Not yet available:
 * IntelliSense* - not all filters are available. Completion for unimported types and intellisense in watch window not yet available.
 * Code navigation* - Most commands supported, specifically Go To Base and Find in files with path specification not yet supported.
 * Quick Info* - colorization in quick info is not supported.
-* HTML, CSS, razor editors* - Diagnostics, intellisense completion, quick info, smart indent. Currently no support for semantic colorization, navigation commands, etc.
+* HTML, CSS, Razor editors* - Diagnostics, intellisense completion, quick info, smart indent. Currently no support for semantic colorization, navigation commands, etc.
 * JavaScript editor* - Script blocks (for example, JavaScript content in HTML files, CSHTML files, and similar) and semantic highlighting are not yet supported. Known issues with lightbulb features and linting.
 * CodeLens
 * Code snippets
@@ -193,6 +193,7 @@ Not yet available:
 * NuGet Package Manager UI - NuGet command line is supported.
 * Enterprise testing features - Live Unit Testing, Microsoft Fakes, Code coverage, and IntelliTest not supported.
 * Advanced publishing scenarios - Selective publishing, FTP publishing, preview changes, quick publish tool bar, etc.
+
 ## See also
 
 * [What is GitHub Codespaces?](codespaces-overview.md)
