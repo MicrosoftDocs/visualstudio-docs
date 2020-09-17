@@ -48,7 +48,7 @@ Visual Studio includes a straightforward clone experience. If you know the URL o
 
 ## See also
 
-- [Tutorial: Open a project from a repo](../get-started/tutorial-open-project-from-repo.md)
-- [Team Explorer reference](reference/team-explorer-reference.md)
-- [Connect to a project (Azure DevOps)](/azure/devops/organizations/projects/connect-to-projects)
-- [Troubleshoot connecting to a project](/azure/devops/user-guide/troubleshoot-connection?view=azure-devops)
+- [The new Git experience](https://channel9.msdn.com/Shows/Visual-Studio-Toolbox/The-New-Git-Experience) video on Channel 9 and [YouTube](https://www.youtube.com/watch?v=ZiQ2LXtAJ6I&feature=youtu.be)
+- [Exciting new updates to the Git experience in Visual Studio](https://devblogs.microsoft.com/visualstudio/exciting-new-updates-to-the-git-experience-in-visual-studio/) blog post
+- [Improved Git Experience in Visual Studio 2019](https://devblogs.microsoft.com/visualstudio/improved-git-experience-in-visual-studio-2019/) blog post
+- [Visual Studio 2019 release notes](/visualstudio/releases/2019/release-notes)
