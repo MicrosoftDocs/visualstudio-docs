@@ -39,7 +39,7 @@ If you don't already have a GitHub codespace, you can create one from Visual Stu
 
 3. If you've never created a codespace, you will be prompted to create one.
 
-   Under "Codespace details", you need to provide a **Repository URL**, which can be any valid GitHub or Azure DevOps repository URL. GitHub Codespaces will clone the specified repository into your codespace when it is created.
+   Under "Codespace details", you need to provide a **Repository URL**. GitHub Codespaces will clone the specified repository into your codespace when it is created.
 
    You can also modify the **Instance Type** and **Suspend after** timeout via their dropdowns. Once you have set the codespace details, select the **Create and Connect** button.
 
@@ -51,14 +51,15 @@ If you don't already have a GitHub codespace, you can create one from Visual Stu
 
    ![Visual Studio connected to eShopOnWeb repository codespace](media/visual-studio-eshoponweb-codespace.png)
 
-4. Start using your codespace, just as you would working locally. Things to try:
+4. Start using Visual Studio, just as you would working locally. Things to try:
 
    - Browse source code.
    - Select a solution file, and build the solution (**Ctrl+Shift+B**).
    - Set a breakpoint in a source file and press **F5** to launch the application in the debugger.
    - Make changes and commit them to your repository.   
 
-<!-- TBD ### Create from github.com portal -->
+> [!NOTE]
+> At this time, you can not create GitHub Codespaces for Visual Studio through the GitHub [Codespaces portal](https://github.com/codespaces). You can only create them using Visual Studio.
 
 ## Connecting to a codespace
 
@@ -86,7 +87,7 @@ After you've created your codespace, you can open your codespace directly from V
 
    ![Visual Studio connected to eShopOnWeb repository codespace](media/visual-studio-eshoponweb-codespace.png)
 
-5. Start using your codespace, just as you would working locally. Things to try:
+5. Start using Visual Studio, just as you would working locally. Things to try:
 
    - Browse source code.
    - Select a solution file, and build the solution (**Ctrl+Shift+B**).
@@ -148,10 +149,10 @@ Not yet available:
 * Project property pages
 * Authentication options in ASP.NET Core templates
 * Apps that require a GUI to install - Anything that can be installed with the terminal is supported. Enabling full screen Live Share to access to GUIs is a current workaround.
-* Any third party installs (PostgreSQL, NoSQL, MongoDB, CosmosDB, Redis, RabbitMQ) - Ability to install on codespaces server is supported through chocolatey installer. Administration consoles are not accessible. (If install requires a restart you may need to restart the codespace.)
+* Any third-party installs (PostgreSQL, NoSQL, MongoDB, CosmosDB, Redis, RabbitMQ) - Ability to install on codespaces server is supported through chocolatey installer. Administration consoles are not accessible. (If install requires a restart you may need to restart the codespace.)
 * Managed identities for Azure resources in Visual Studio
 * Intranet resources (private network) - Currently, codespaces won't be able to connect to any resource that requires a VPN.
-* Extensions - No third party extensions are supported when using Codespaces with Visual Studio.
+* Extensions - No extensions are supported when using Codespaces with Visual Studio.
 
 ### Debugging
 
@@ -179,7 +180,7 @@ Since you are working with the Visual Studio client connected to a remote enviro
 
 * Source Control - Full Git support through the new [Git window](https://devblogs.microsoft.com/visualstudio/improved-git-experience-in-visual-studio-2019/).
 * Accessibility - We believe there are no known issues with assistive technology compatibility that don't already exist in the local Visual Studio experience. Please let us know if you detect bugs by filing an issue on [developer community](https://developercommunity.visualstudio.com/).
-* Publishing - Publish to Azure through Git Actions is supported.
+* Publishing - Publish to Azure through GitHub Actions is supported.
 * Connected services - App Insights, KeyVault, Storage, SQL, Redis, Cosmos, openAPI, and gRPC are partially supported.
 * Test Explorer - Mostly supported. Some features in progress such as default architecture selection, run tests in parallel, playlists, etc. Known issues with debugging a unit test, run settings, and some additional enterprise features. Profiling unit tests is not supported.
 

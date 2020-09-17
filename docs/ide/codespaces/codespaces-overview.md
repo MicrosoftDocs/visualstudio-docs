@@ -17,7 +17,7 @@ monikerRange: vs-2019
 
 Welcome to Codespaces! We're glad you're here.
 
-GitHub Codespaces for Visual Studio provides you with a cloud-powered development environment for any activity, whether it's a long-term project, or a short-term task like reviewing a pull request. You can work with a codespace from within Visual Studio 2019 ([sign up for the public beta](https://github.com/features/codespaces)).
+GitHub Codespaces for Visual Studio provides you with a cloud-powered development environment for any activity, whether it's a long-term project, or a short-term task like reviewing a pull request. You can work with a codespace from within Visual Studio 2019 ([sign up for the limited public beta](https://github.com/features/codespaces)).
 
 Additionally, GitHub Codespaces for Visual Studio brings many of the benefits of DevOps, like repeatability and reliability&mdash;which have typically been reserved for production workloads&mdash;to a development environment. You can also personalize GitHub Codespaces so that the tools, processes, and configurations that you prefer and rely on are there, too.
 
@@ -46,14 +46,14 @@ A codespace is the "backend" half of GitHub Codespaces. It's where all of the co
 
 Cloud-hosted codespaces provide the following benefits:
 
-- They're fast to create and disposable. Create as many as you need (up to subscription limits) and then dispose of them when you are finished.
+- They're fast to create and disposable. Create as many as you need (up to account limits) and then dispose of them when you are finished.
 - They're managed, which reduces the overall maintenance for you.
 - They have predictable pricing and you only pay for what you use. And, there's built-in autosuspend to eliminate runaway costs.
 - They save compute resources. When you move your development workload to the cloud, it frees the limited resources on your personal machine.
 
 ### Custom configuration
 
-GitHub Codespaces is built to accommodate the widest variety of projects or tasks. You can start with smart-configuration features that provide common defaults, or fine-tune a codespace with [custom JSON configuration](customize-codespaces.md).
+GitHub Codespaces is built to accommodate the widest variety of projects or tasks. You can start with smart-configuration features that provide common defaults, or fine-tune a codespace with [custom configuration](customize-codespaces.md).
 
 Flexible configuration allows developers to rapidly onboard on projects with unique configuration and requirements that are difficult to apply on a local machine. Additionally, reproducible codespaces eliminate "works on my machine" problems.
 
