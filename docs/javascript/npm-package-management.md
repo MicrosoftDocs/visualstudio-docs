@@ -82,7 +82,7 @@ Right-click the **npm** node to take one of the following actions:
 
 * **Install New npm Packages** Opens the UI to install new packages.
 * **Install npm Packages** Runs the npm install command to install all packages listed in *package.json*. (Runs `npm install`.)
-* **Update npm Packages** Updates packages to the latest versions, according to the semver range specified in *package.json*. (Runs `npm update --save`.). Semver ranges are typically specified using "~" or "^". For more information, [package.json configuration](../javascript/configure-packages-with-package-json.md).
+* **Update npm Packages** Updates packages to the latest versions, according to the semantic versioning (semver) range specified in *package.json*. (Runs `npm update --save`.). Semver ranges are typically specified using "~" or "^". For more information, [package.json configuration](../javascript/configure-packages-with-package-json.md).
 
 Right-click a package node to take one of the following actions:
 
