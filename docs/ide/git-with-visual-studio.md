@@ -1,0 +1,47 @@
+---
+title: New Git experience in Visual Studio (Preview)
+titleSuffix: ""
+Description: Learn about the new Git experience in Visual Studio 2019
+ms.date: 09/21/2020
+ms.topic: conceptual
+ms.author: tglee
+author: TerryGLee
+ms.manager: jillfra
+monikerRange: vs-2019
+---
+# New Git experience in Visual Studio (Preview)
+
+Beginning with [version 16.6](/visualstudio/releases/2019/release-notes-v16.6), Visual Studio 2019 now includes a new Git experience that makes it easy to use Git from the IDE. Git is the most widely used modern version control system, so no matter whether you’re a professional developer or if you’re learning how to code, Git can be very useful to you.
+
+> [!TIP]
+> If you are new to Git, the https://git-scm.com/ website is a good place to start. There, you’ll find a popular online book, Git Basics videos, and cheat sheets.
+
+## How to start using Git in Visual Studio
+
+To toggle the new Git experience, go to **Tools** > **Options** > **Environment** > **Preview Features** and then select the **New Git user experience** checkbox.
+
+
+There are three ways to use Git in Visual Studio 2019:
+•	Connect to your Git files. If your code is already on your machine, you can open it by using File > Open > Project/Solution (or Folder) and Visual Studio will automatically detect if it has an initialized Git repository.
+•	Create a new Git repository. If your code is not associated with Git, you can create a new Git repository.
+Clone an existing Git repository. If the code that you would like to work on is not on your machine, you can clone any existing remote repositories.
+
+Create new Git repository
+If your code is not associated with Git, you can start by creating a new Git repository. To do so, select Git > Create Git Repository from the menu bar. Then, in the Create a Git repository dialog box, enter your information.
+
+The Create a Git repository dialog box makes it easy to push your new repository to GitHub. By default, your new repository is private, which means that you are the only one who can access it. By unchecking the box, your repository will be public, so that anyone on GitHub can view it. Irrespective of whether your repository is public or private, it’s best to have a remote back-up of your code stored securely on GitHub even if you are not working with a team. This also makes your code available to you no matter what computer you are using.
+You can choose to create a local-only Git repository by using the Local only option. Or, you can link your repository with any existing empty remote repository on any other Git provider by using the Existing remote option.
+
+
+There are three ways to use Git in Visual Studio 2019:
+•	Connect to your Git files. If your code is already on your machine, you can open it by using File > Open > Project/Solution (or Folder) and Visual Studio will automatically detect if it has an initialized Git repository.
+•	Create a new Git repository. If your code is not associated with Git, you can create a new Git repository.
+Clone an existing Git repository. If the code that you would like to work on is not on your machine, you can clone any existing remote repositories.
+
+
+## See also
+
+- [Tutorial: Open a project from a repo](../get-started/tutorial-open-project-from-repo.md)
+- [Team Explorer reference](reference/team-explorer-reference.md)
+- [Connect to a project (Azure DevOps)](/azure/devops/organizations/projects/connect-to-projects)
+- [Troubleshoot connecting to a project](/azure/devops/user-guide/troubleshoot-connection?view=azure-devops)
