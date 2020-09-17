@@ -1,5 +1,6 @@
 ---
-title: Troubleshooting Specific Errors in ClickOnce Deployments | Microsoft Docs
+title: Troubleshooting errors (ClickOnce Deployments)
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: troubleshooting
 f1_keywords: 

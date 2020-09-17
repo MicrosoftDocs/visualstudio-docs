@@ -1,5 +1,6 @@
 ---
-title: "Mixed Code and Missing Information in the Call Stack Window | Microsoft Docs"
+title: "Mixed code & missing info in Call Stack window"
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "troubleshooting"
 dev_langs:
