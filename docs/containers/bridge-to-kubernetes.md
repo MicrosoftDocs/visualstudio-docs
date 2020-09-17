@@ -104,7 +104,7 @@ Click on the start button next to *Bridge to Kubernetes*. In the **Create profil
 > [!IMPORTANT]
 > You can only redirect services that have a single pod.
 
-Choose whether or not you want to run isolated, meaning that others who are using the cluster won't be affected by your changes. This isolation mode is accomplished by routing your requests to your copy of each affected service, but routing all other traffic normally. More explanation on how this is done can be found at [How Bridge to Kubernetes Works](btk-overview-routing).
+Choose whether or not you want to run isolated, meaning that others who are using the cluster won't be affected by your changes. This isolation mode is accomplished by routing your requests to your copy of each affected service, but routing all other traffic normally. More explanation on how this is done can be found at [How Bridge to Kubernetes Works][btk-overview-routing].
 
 Click **Save and start debugging**.
 
