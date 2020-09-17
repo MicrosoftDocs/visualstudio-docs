@@ -1,5 +1,6 @@
 ---
-title: Use profiler command line to collect stand-alone app stats
+title: Profiler command line: collect stand-alone app stats
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords: 

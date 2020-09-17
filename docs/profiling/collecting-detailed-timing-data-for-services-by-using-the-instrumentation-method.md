@@ -1,5 +1,5 @@
 ---
-title: Profiler command line - get timing data for a service
+title: Profiler command line - Get timing data for a service
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
