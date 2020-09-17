@@ -116,14 +116,17 @@ You should notice little difference editing source code in a codespace as you ge
 * Code navigation*
 * Code formatting with Format Document
 * Syntax highlighting
-* Quick Info - Mostly supported, colorization in quick info is in progress.
-* HTML, CSS, razor editors - Partial support, full support is in progress. Diagnostics, intellisense completion, quick info, smart indent are in progress. Currently no support for semantic colorization, navigation commands, etc.
-* JavaScript editor - Partial support, working towards full support. Script blocks (for example, JavaScript content in HTML files, CSHTML files, and similar) and semantic highlighting are not yet supported. Known issues with lightbulb features and linting.
+* Quick Info*
+* HTML, CSS, razor editors* - Partial support.
+* JavaScript editor*- Partial support.
 
 Not yet available:
 
 * IntelliSense* - not all filters are available. Completion for unimported types and intellisense in watch window not yet available.
 * Code navigation* - Most commands supported, specifically Go To Base and Find in files with path specification not yet supported.
+* Quick Info* - colorization in quick info is not supported.
+* HTML, CSS, razor editors* - Diagnostics, intellisense completion, quick info, smart indent. Currently no support for semantic colorization, navigation commands, etc.
+* JavaScript editor* - Script blocks (for example, JavaScript content in HTML files, CSHTML files, and similar) and semantic highlighting are not yet supported. Known issues with lightbulb features and linting.
 * CodeLens
 * Code snippets
 * IntelliCode
@@ -148,8 +151,7 @@ Not yet available:
 * Docker Compose projects
 * Project property pages
 * Authentication options in ASP.NET Core templates
-* Apps that require a GUI to install - Anything that can be installed with the terminal is supported. Enabling full screen Live Share to access to GUIs is a current workaround.
-* Any third-party installs (PostgreSQL, NoSQL, MongoDB, CosmosDB, Redis, RabbitMQ) - Ability to install on codespaces server is supported through chocolatey installer. Administration consoles are not accessible. (If install requires a restart you may need to restart the codespace.)
+* Apps that require a GUI to install - Anything that can be installed with the terminal is supported (including the chocolatey installer), but the actual GUI won't be immediately available. Enabling full screen Live Share to access to GUIs is a current workaround. Administration consoles are not accessible. Apps that require are a reboot to install aren't supported.
 * Managed identities for Azure resources in Visual Studio
 * Intranet resources (private network) - Currently, codespaces won't be able to connect to any resource that requires a VPN.
 * Extensions - No extensions are supported when using Codespaces with Visual Studio.
@@ -160,15 +162,16 @@ Essential inner loop debugging workflow is supported including setting breakpoin
 
 * Breakpoints*
 * Basic stepping
-* Locals, autos, watch windows - some functionality such as statement completion in search box and search box navigation is in progress.
+* Locals, autos, watch windows* - Partial support.
 * Symbol server, source server, and importing/exporting data tips are all partially supported.
 
 Not yet available:
 
 * Breakpoints* - Breakpoint labels, Data breakpoints, and Set breakpoint in Disassembly window is in progress. Importing and exporting breakpoints is partially supported.
+* Locals, autos, watch windows*- some functionality such as statement completion in search box and search box navigation.
 * UI customizations - Pinnable properties and hide template parameters not supported.
 * Visualizers - C++ natvis partially supported. Dissassembly window, XAML Visual diagnostics, Custom .NET Visualizers, and Dataset Visualizers are not supported.
-* Additional debugger windows - Parallel Stacks window - Tasks View in progress. Processes windows partially supported. Diagnostics Hub and Find source/symbol dialog are not supported.
+* Additional debugger windows - Processes windows partially supported. Parallel Stacks window - Tasks View, Diagnostics Hub, and Find source/symbol dialog are not supported.
 * Some debugger workflows - Attach to process, Just in Time (JIT) debugger, Dump debugging, and IntelliTrace are not supported. C++ Just My Code stepping is partially supported.
 * Edit and Continue - for both managed and native code is not supported.
 * Threading features - Freeze/thaw threads, Rename thread, and show threads in source are not supported.
@@ -179,17 +182,17 @@ Not yet available:
 Since you are working with the Visual Studio client connected to a remote environment, you get the same accessibility features as when working locally.
 
 * Source Control - Full Git support through the new [Git window](https://devblogs.microsoft.com/visualstudio/improved-git-experience-in-visual-studio-2019/).
-* Accessibility - We believe there are no known issues with assistive technology compatibility that don't already exist in the local Visual Studio experience. Please let us know if you detect bugs by filing an issue on [developer community](https://developercommunity.visualstudio.com/).
+* Accessibility - There is one known issue with assistive technology not being able to access the appcasting of a debugged app. Besides this, we don't believe there are any other compatibility issues that don't already exist in the local Visual Studio experience. Please let us know if you detect bugs by filing an issue on [developer community](https://developercommunity.visualstudio.com/).
 * Publishing - Publish to Azure through GitHub Actions is supported.
 * Connected services - App Insights, KeyVault, Storage, SQL, Redis, Cosmos, openAPI, and gRPC are partially supported.
-* Test Explorer - Mostly supported. Some features in progress such as default architecture selection, run tests in parallel, playlists, etc. Known issues with debugging a unit test, run settings, and some additional enterprise features. Profiling unit tests is not supported.
+* Test Explorer* - Mostly supported. Some features in progress such as default architecture selection, run tests in parallel, playlists, etc. Known issues with debugging a unit test, run settings, and some additional enterprise features. Profiling unit tests is not supported.
 
 Not yet available:
 
+* Test Explorer* - Some features such as default architecture selection, run tests in parallel, playlists, etc. Known issues with debugging a unit test, run settings, and some additional enterprise features. Profiling unit tests is not supported.
 * NuGet Package Manager UI - NuGet command line is supported.
-* Enterprise testing features - Live Unit Testing support in progress. Microsoft Fakes, Code coverage, and IntelliTest not supported.
-* Advanced publishing scenarios - Selective publishing, FTP publishing, preview changes, quick publish tool bar, etc. support is planned.
-
+* Enterprise testing features - Live Unit Testing, Microsoft Fakes, Code coverage, and IntelliTest not supported.
+* Advanced publishing scenarios - Selective publishing, FTP publishing, preview changes, quick publish tool bar, etc.
 ## See also
 
 * [What is GitHub Codespaces?](codespaces-overview.md)
