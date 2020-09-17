@@ -109,27 +109,35 @@ Visual Studio provides a rich development experience when connecting to a codesp
 
 ### Edit and navigation
 
-You should notice little difference editing source code in a codespace as you get smart language features like IntelliSense, code navigation, and diagnostics and suggestions.
+You should notice little difference editing source code in a codespace as you get smart language features like IntelliSense, code navigation, diagnostics, and suggestions.
 
-* Syntax highlighting and IntelliSense
-* Code navigation
-* Code formatting
-* IntelliCode
-* Test Explorer
+* IntelliSense*
+* Code navigation*
+* Code formatting with Format Document
+* Syntax highlighting
+* Quick Info - Mostly supported, colorization in quick info is in progress.
+* HTML, CSS, razor editors - Partial support, full support is in progress. Diagnostics, intellisense completion, quick info, smart indent are in progress. Currently no support for semantic colorization, navigation commands, etc.
+* Javascript editor - Partial support, working towards full support. Script blocks (i.e. JavaScript content in HTML files, CSHTML files, and similar) and semantic highlighting are not yet supported. Known issues with lightbulb features and linting.
 
 Not yet available:
 
+* IntelliSense* - not all filters are available. Completion for unimported types and intellisense in watch window not yet available.
+* Code navigation* - Most commands supported, specifically Go To Base and Find in files with path specification not yet supported.
 * CodeLens
 * Code snippets
+* IntelliCode
 
-### Application types
+### Application types and configuration
 
-Most application types and project configurations are supported but you will need to edit your project code directly without the help of visual designers.
+Most application types and project configurations are supported, but you will need to edit your project code directly without the help of visual designers. For more configuration guidance see [customizing codespaces for windows-based development](customize-codespaces.md).
 
 * Project and item templates
-* Project property pages
-* Project file editing
 * .NET Core and ASP.NET Core projects
+* C++ console apps - CMake and vcxproj supported
+* C++ apps that target Linux - Mostly supported for non-GUI. Ability to install and provision WSL, platform-specific intellisense, and build.
+* Project file editing - mostly supported. Missing some completion, syntax highlighting, and advanced editing features.
+* GitHub accounts - Can be used to create and connect to Codespaces, and access resources available to the account on GitHub.
+* Azure CLI - Does not share the signed-in Visual Studio identity or keychain accounts. Browser based login is not supported but you can authenticate inside the integrated terminal using: az login --use-device-code
 
 Not yet available:
 
@@ -137,37 +145,49 @@ Not yet available:
 * Visual Basic and F# projects
 * .NET Framework targeted projects
 * Docker Compose projects
+* Project property pages
+* Authentication options in ASP.NET Core templates
+* Apps that require a GUI to install - Anything that can be installed with the terminal is supported. Enabling full screen Live Share to access to GUIs is a current workaround.
+* Any 3rd party installs (PostgreSQL, NoSQL, MongoDB, CosmosDB, Redis, RabbitMQ) - Ability to install on codespaces server is supported through chocolatey installer. Administration consoles are not accessible. (If install requires a restart you may need to restart the codespace.)
+* Managed identities for Azure resources in Visual Studio
+* Intranet resources (private network) - Currently, codespaces won't be able to connect to any resource that requires a VPN.
+* Extensions - No 3rd party extensions are supported when using Codespaces with Visual Studio.
 
 ### Debugging
 
 Essential inner loop debugging workflow is supported including setting breakpoints, basic stepping into code, inspecting variables, and the local, autos, and watch windows. Some additional windows, customizations, and visualizers are not supported.
 
-* Breakpoints
-* Basic stepping - Automatic Step Over not yet supported
-* Locals, autos, watch windows
+* Breakpoints*
+* Basic stepping
+* Locals, autos, watch windows - some functionality such as statement completion in search box and search box navigation is in progress.
+* Symbol server, source server, and importing/exporting data tips are all partially supported.
 
 Not yet available:
 
-* UI customizations - Pinnable properties, Hide template parameters not supported
-* Visualizers - C++ natvis partially supported
-* Attach to process, JIT and dump debugging
-* Edit and Continue
-* Threading features - Freeze/thaw threads, Rename thread
+* Breakpoints* - Breakpoint labels, Data breakpoints, and Set breakpoint in Disassembly window is in progress. Importing and exporting breakpoints is partially supported.
+* UI customizations - Pinnable properties and hide template parameters not supported.
+* Visualizers - C++ natvis partially supported. Dissassembly window, XAML Visual diagnostics, Custom .NET Visualizers, and Dataset Visualizers are not supported.
+* Additional debugger windows - Parallel Stacks window - Tasks View in progress. Processes windows partially supported. Diagnostics Hub and Find source/symbol dialog are not supported.
+* Some debugger workflows - Attach to process, Just in Time (JIT) debugger, Dump debugging, and IntelliTrace are not supported. C++ Just My Code stepping is partially supported.
+* Edit and Continue - for both managed and native code is not supported.
+* Threading features - Freeze/thaw threads, Rename thread, and show threads in source are not supported.
+* Additional stepping features - Automatic Step over properties and operators (.NET Core) and Step into Specific are not supported. 
 
 ### Features
 
 Since you are working with the Visual Studio client connected to a remote environment, you get the same accessibility features as when working locally. Given the engineering required to connect to GitHub Codespaces, installing third-party extensions is not supported.
 
-* Source Control - Full Git support through the Git window
-* Accessibility - Same assisted technology compatibility as with local development
-* Connected services - App Insights, KeyVault, Storage, SQL, Redis Cosmos, openAPI, gRPC
+* Source Control - Full Git support through the new [Git window](https://devblogs.microsoft.com/visualstudio/improved-git-experience-in-visual-studio-2019/).
+* Accessibility - We believe there are no known issues with assistive technology compatibility that don't already exist in the local Visual Studio experience. Please let us know if you detect bugs by filing an issue on [developer community](https://developercommunity.visualstudio.com/).
+* Publishing - Publish to Azure through Git Actions is supported.
+* Connected services - App Insights, KeyVault, Storage, SQL, Redis, Cosmos, openAPI, and gRPC are partially supported.
+* Test Explorer - Mostly supported. Some features in progress such as default architecture selection, run tests in parallel, playlists, etc. Known issues with debugging a unit test, run settings, and some additional enterprise features. Profiling unit tests is not supported.
 
 Not yet available:
 
 * NuGet Package Manager UI - NuGet command line is supported.
-* Live Unit Testing - support in progress.
-* Microsoft Fakes, Code coverage, and IntelliTest
-* Publishing - Publish to Azure through Git Actions is supported.
+* Enterprise testing features - Live Unit Testing support in progress. Microsoft Fakes, Code coverage, and IntelliTest not supported.
+* Advanced publishing scenarios - Selective publishing, FTP publishing, preview changes, quick publish tool bar, etc. support is planned.
 * Third-party Visual Studio extensions
 
 <!-- TBD ### Specific limitations - do we need to include any specific limitations or workaround? -->
