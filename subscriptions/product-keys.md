@@ -47,12 +47,12 @@ You must be signed in to your Visual Studio subscription to view your product ke
 Some products bundle multiple editions of the product into a single download. In these cases, the product key entered determines which edition of the product is installed.
 Some keys are provided automatically, such as “static” keys, which you can use as many times as needed because activation is not required. Other keys must be claimed by selecting the **Get Key** link for the product.
 > [!div class="mx-imgBorder"]
-> ![Get Key from Downloads Page](_img/product-keys/download-get-key.png)
+> ![Get Key from Downloads Page](_img/product-keys/download-get-key.png "Click Get Key to claim a key for the product you're downloading.")
 
 All keys are also available in aggregate on the [Product Keys](https://my.visualstudio.com/productkeys?wt.mc_id=o~msft~docs) page. On this page you can find static keys that work for all users of a product, get custom keys just for your use, see the status of your key claim limits, and export all of your product keys. 
 
 > [!div class="mx-imgBorder"]
-> ![Product Keys Page](_img/product-keys/product-keys-page.png)
+> ![Product Keys Page](_img/product-keys/product-keys-page.png "The Product Keys page provides complete product key information for your specific subscription.")
 
 A variety of key types are available, depending on the product.
 
