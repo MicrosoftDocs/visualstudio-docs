@@ -84,52 +84,54 @@ On your development computer, download and configure the Kubernetes CLI to conne
 az aks get-credentials --resource-group MyResourceGroup --name MyAKS
 ```
 
-Open *mindaro/samples/BikeSharingApp/ReservationEngine/app.csproj* from the [Bike Sharing sample application][bike-sharing-github] in Visual Studio.
+From the [Bike Sharing sample application][bike-sharing-github] repo in GitHub, use the dropdown on the green **Code** button and choose **Open in Visual Studio** to clone the repo locally and open the folder in Visual Studio. Then, use **File** > **Open Project** to open the **app.csproj** project in the *samples/BikeSharingApp/ReservationEngine* folder.
 
-In your project, select *Bridge to Kubernetes* from the launch settings dropdown as shown below.
+In your project, select **Bridge to Kubernetes** from the launch settings dropdown as shown below.
 
-![Choose Bridge to Kubernetes](media/bridge-to-kubernetes/choose-local-process.png)
+![Choose Bridge to Kubernetes](media/bridge-to-kubernetes/choose-bridge-to-kubernetes.png)
 
-Click on the start button next to *Bridge to Kubernetes*. In the *Bridge to Kubernetes* dialog:
+Click on the start button next to *Bridge to Kubernetes*. In the **Create profile for Bridge to Kubernetes** dialog:
 
 * Select your subscription.
 * Select *MyAKS* for your cluster.
-* Select *dev* for your namespace.
+* Select *bikeapp* for your namespace.
 * Select *reservationengine* for the service to redirect.
 * Select *app* for the launch profile.
 * Select `http://bikeapp.bikesharingweb.EXTERNAL_IP.nip.io` for the URL to launch your browser.
 
-![Choose Bridge to Kubernetes Cluster](media/bridge-to-kubernetes/choose-local-process-cluster.png)
+![Choose Bridge to Kubernetes Cluster](media/bridge-to-kubernetes/choose-bridge-cluster.png)
 
 > [!IMPORTANT]
 > You can only redirect services that have a single pod.
 
-Click *Save and start debugging*.
+Choose whether or not you want to run isolated, meaning that others who are using the cluster won't be affected by your changes. This isolation mode is accomplished by routing your requests to your copy of each affected service, but routing all other traffic normally. More explanation on how this is done can be found at [How Bridge to Kubernetes Works](btk-overview-routing).
+
+Click **Save and start debugging**.
 
 All traffic in the Kubernetes cluster is redirected for the *reservationengine* service to the version of your application running in your development computer. Bridge to Kubernetes also routes all outbound traffic from the application back to your Kubernetes cluster.
 
 > [!NOTE]
-> You will be prompted to allow the *KubernetesDNSManager* to run elevated and modify your hosts file.
+> You will be prompted to allow the *EndpointManager* to run elevated and modify your hosts file.
 
-Your development computer is connected when the status bar shows you are connected to the *reservationengine* service.
+Your development computer is connected when the status bar shows you are connected to the `reservationengine` service.
 
 ![Development computer connected](media/bridge-to-kubernetes/development-computer-connected.png)
 
 > [!NOTE]
-> On subesquent launches, you will not be prompted with the *Bridge to Kubernetes* dialog. You update these settings in the *Debug* pane in the project properties.
+> On subesquent launches, you will not be prompted with the **Create profile for Bridge to Kubernetes** dialog. You update these settings in the **Debug** in the project properties.
 
 Once your development computer is connected, traffic starts redirecting to your development computer for the service you are replacing.
 
 ## Set a break point
 
-Open [BikesHelper.cs][bikeshelper-cs-breakpoint] and click somewhere on line 26 to put your cursor there. Set a breakpoint by hitting *F9* or clicking *Debug* then *Toggle Breakpoint*.
+Open [BikesHelper.cs][bikeshelper-cs-breakpoint] and click somewhere on line 26 to put your cursor there. Set a breakpoint by hitting *F9* or selecting **Debug** > **Toggle Breakpoint**.
 
-Navigate to the sample application by opening the public URL. Select *Aurelia Briggs (customer)* as the user, then select a bike to rent. Click *Rent Bike*. Return to Visual Studio and observe line 26 is highlighted. The breakpoint you set has paused the service at line 26. To resume the service, hit *F5* or click *Debug* then *Continue*. Return to your browser and verify the page shows you have rented the bike.
+Navigate to the sample application by opening the public URL. Select **Aurelia Briggs (customer)** as the user, then select a bike to rent. Choose **Rent Bike**. Return to Visual Studio and observe line 26 is highlighted. The breakpoint you set has paused the service at line 26. To resume the service, hit **F5** or click **Debug** > **Continue**. Return to your browser and verify the page shows you have rented the bike.
 
-Remove the breakpoint by putting your cursor on line 26 in `BikesHelper.cs` and hitting *F9*.
+Remove the breakpoint by putting your cursor on line 26 in `BikesHelper.cs` and hitting **F9**.
 
 > [!NOTE]
-> By default, stopping the debugging task also disconnects your development computer from your Kubernetes cluster. You can change this behavior by changing *Disconnect after debugging* to *false* in the *Kubernetes Debugging Tools* section of the debugging options. After updating this setting, your development computer will remain connected when you stop and start debugging. To disconnect your development computer from you cluster click on the *Disconnect* button on the toolbar.
+> By default, stopping the debugging task also disconnects your development computer from your Kubernetes cluster. You can change this behavior by changing **Disconnect after debugging** to `false` in the **Kubernetes Debugging Tools** section of the debugging options. After updating this setting, your development computer will remain connected when you stop and start debugging. To disconnect your development computer from you cluster click on the **Disconnect** button on the toolbar.
 >
 > If Visual Studio abruptly ends the connection to the cluster or terminates, the service you are redirecting may not be restored to its original state before you connected with Bridge to Kubernetes. To fix this issue, see the [Troubleshooting guide][troubleshooting].
 
@@ -170,3 +172,4 @@ Learn how Bridge to Kubernetes works.
 [visual-studio]: https://www.visualstudio.com/vs/
 [btk-extension]: https://marketplace.visualstudio.com/items?itemName=ms-azuretools.mindaro
 [kubernetesLocalProcessConfig-yaml]: configure-bridge-to-kubernetes.md
+[btk-overview-routing]: overview-bridge-to-kubernetes.md#using-routing-capabilities-for-developing-in-isolation
