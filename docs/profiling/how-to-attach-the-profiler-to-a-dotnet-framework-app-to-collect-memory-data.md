@@ -1,5 +1,6 @@
 ---
-title: Attach the profiler to a .NET app to collect memory data
+title: Attach profiler to .NET to collect memory data
+ms.custom: SEO-VS-2020
 ms.custom: seodec18
 ms.date: 11/04/2016
 ms.topic: how-to

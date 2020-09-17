@@ -1,5 +1,5 @@
 ---
-title: Specify symbol file locations from the command line
+title: Specify symbol file locations from command line
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to

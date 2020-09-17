@@ -1,5 +1,5 @@
 ---
-title: Create portable profiling data files (command line)
+title: Profiling command line - Create portable data files
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
