@@ -151,7 +151,7 @@ Not yet available:
 * Docker Compose projects
 * Project property pages
 * Authentication options in ASP.NET Core templates
-* Apps that require a GUI to install - Anything that can be installed with the terminal is supported (including the chocolatey installer), but the actual GUI won't be immediately available. Enabling full screen Live Share to access to GUIs is a current workaround. Administration consoles are not accessible. Apps that require are a reboot to install aren't supported.
+* Apps that require a GUI to install - Anything that can be installed with the terminal is supported (including the chocolatey installer), but the actual GUI won't be immediately available. Enabling full screen Live Share to access the GUIs is a current workaround. Administration consoles are not accessible. Apps that require a reboot to install aren't supported.
 * Managed identities for Azure resources in Visual Studio
 * Intranet resources (private network) - Currently, codespaces won't be able to connect to any resource that requires a VPN.
 * Extensions - No extensions are supported when using Codespaces with Visual Studio.
@@ -185,7 +185,7 @@ Since you are working with the Visual Studio client connected to a remote enviro
 * Accessibility - There is one known issue with assistive technology not being able to access the appcasting of a debugged app. Besides this, we don't believe there are any other compatibility issues that don't already exist in the local Visual Studio experience. Please let us know if you detect bugs by filing an issue on [developer community](https://developercommunity.visualstudio.com/).
 * Publishing - Publish to Azure through GitHub Actions is supported.
 * Connected services - App Insights, KeyVault, Storage, SQL, Redis, Cosmos, openAPI, and gRPC are partially supported.
-* Test Explorer* - Mostly supported. Some features in progress such as default architecture selection, run tests in parallel, playlists, etc. Known issues with debugging a unit test, run settings, and some additional enterprise features. Profiling unit tests is not supported.
+* Test Explorer* - Mostly supported.
 
 Not yet available:
 
