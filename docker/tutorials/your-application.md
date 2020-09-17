@@ -22,7 +22,7 @@ At this point, your development team is quite small and you're simply building a
 
 Before you can run the application, you need to get the application source code onto your machine. For real projects, you will typically clone the repo. But, for this tutorial, you have created a ZIP file containing the application.
 
-1. [Download the ZIP](/assets/app.zip). Open the ZIP file and make sure you extract the contents.
+1. [Download the ZIP](http://localhost/assets/app.zip). Open the ZIP file and make sure you extract the contents.
 
 1. Once extracted, use your favorite code editor to open the project. If you're in need of an editor, you can use [Visual Studio Code](https://code.visualstudio.com/). You should see the `package.json` and two subdirectories (`src` and `spec`).
 
