@@ -1,5 +1,7 @@
 ---
 title: "Setup Visual Studio for Mac Tools for Unity"
+titleSuffix: ""
+ms.custom: SEO-VS-2020
 description: "Setting up and installing Unity tools for use in Visual Studio for Mac"
 author: therealjohn
 ms.author: johmil

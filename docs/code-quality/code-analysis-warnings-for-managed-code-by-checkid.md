@@ -1,6 +1,6 @@
 ---
 title: Code quality rules overview
-ms.date: 08/27/2020
+ms.date: 09/01/2020
 ms.topic: reference
 f1_keywords:
 - CA1000
@@ -62,6 +62,7 @@ f1_keywords:
 - CA1309
 - CA1310
 - CA1401
+- CA1416
 - CA1417
 - CA1501
 - CA1502
@@ -254,11 +255,11 @@ manager: jillfra
 ms.workload:
 - dotnet
 ---
-# Code analysis warnings for managed code by CheckId
+# Code quality analysis rules by rule ID
 
-The following table lists Code Analysis warnings for managed code by the CheckId identifier of the warning.
+The following table lists code quality analysis rules by rule identifier.
 
-| CheckId | Warning | Description |
+| RuleId | Warning | Description |
 |---------| - | - |
 | CA1000 | [CA1000: Do not declare static members on generic types](../code-quality/ca1000.md) | When a static member of a generic type is called, the type argument must be specified for the type. When a generic instance member that does not support inference is called, the type argument must be specified for the member. In these two cases, the syntax for specifying the type argument is different and easily confused. |
 | CA1001 | [CA1001: Types that own disposable fields should be disposable](../code-quality/ca1001.md) | A class declares and implements an instance field that is a System.IDisposable type, and the class does not implement IDisposable. A class that declares an IDisposable field indirectly owns an unmanaged resource and should implement the IDisposable interface. |
@@ -318,6 +319,7 @@ The following table lists Code Analysis warnings for managed code by the CheckId
 | CA1309 | [CA1309: Use ordinal StringComparison](../code-quality/ca1309.md) | A string comparison operation that is nonlinguistic does not set the StringComparison parameter to either Ordinal or OrdinalIgnoreCase. By explicitly setting the parameter to either StringComparison.Ordinal or StringComparison.OrdinalIgnoreCase, your code often gains speed, becomes more correct, and becomes more reliable. |
 | CA1310 | [CA1310: Specify StringComparison for correctness](../code-quality/ca1310.md) | A string comparison operation uses a method overload that does not set a StringComparison parameter and uses culture-specific string comparison by default. |
 | CA1401 | [CA1401: P/Invokes should not be visible](../code-quality/ca1401.md) | A public or protected method in a public type has the System.Runtime.InteropServices.DllImportAttribute attribute (also implemented by the Declare keyword in [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)]). Such methods should not be exposed. |
+| CA1416 | [CA1416: Validate platform compatibility](../code-quality/ca1416.md) | Using platform-dependent APIs on a component makes the code no longer work across all platforms. |
 | CA1417 | [CA1417: Do not use `OutAttribute` on string parameters for P/Invokes](../code-quality/ca1417.md) | String parameters passed by value with the `OutAttribute` can destabilize the runtime if the string is an interned string. |
 | CA1501 | [CA1501: Avoid excessive inheritance](../code-quality/ca1501.md) | A type is more than four levels deep in its inheritance hierarchy. Deeply nested type hierarchies can be difficult to follow, understand, and maintain. |
 | CA1502 | [CA1502: Avoid excessive complexity](../code-quality/ca1502.md) | This rule measures the number of linearly independent paths through the method, which is determined by the number and complexity of conditional branches. |
@@ -460,7 +462,7 @@ The following table lists Code Analysis warnings for managed code by the CheckId
 | CA5358 | [CA5358: Do Not Use Unsafe Cipher Modes](../code-quality/ca5358.md) | Do Not Use Unsafe Cipher Modes |
 | CA5359 | [CA5359 Do not disable certificate validation](../code-quality/ca5359.md) | A certificate can help authenticate the identity of the server. Clients should validate the server certificate to ensure requests are sent to the intended server. If the ServerCertificateValidationCallback always returns `true`, any certificate will pass validation. |
 | CA5360 | [CA5360 Do not call dangerous methods in deserialization](../code-quality/ca5360.md) | Insecure deserialization is a vulnerability which occurs when untrusted data is used to abuse the logic of an application, inflict a Denial-of-Service (DoS) attack, or even execute arbitrary code upon it being deserialized. It's frequently possible for malicious users to abuse these deserialization features when the application is deserializing untrusted data which is under their control. Specifically, invoke dangerous methods in the process of deserialization. Successful insecure deserialization attacks could allow an attacker to carry out attacks such as DoS attacks, authentication bypasses, and remote code execution. |
-| CA5361 | [CA5361: Do not disable SChannel use of strong crypto](../code-quality/ca5361.md) | Setting `Switch.System.Net.DontEnableSchUseStrongCrypto` to `true` weakens the cryptography used in outgoing Transport Layer Security (TLS) connections. Weaker cryptography can compromise the confidentiality of communication between your application and the server, making it easier for attackers to eavesdrop sensitive data. |
+| CA5361 | [CA5361: Do not disable Schannel use of strong crypto](../code-quality/ca5361.md) | Setting `Switch.System.Net.DontEnableSchUseStrongCrypto` to `true` weakens the cryptography used in outgoing Transport Layer Security (TLS) connections. Weaker cryptography can compromise the confidentiality of communication between your application and the server, making it easier for attackers to eavesdrop sensitive data. |
 | CA5362 | [CA5362 Potential reference cycle in deserialized object graph](../code-quality/ca5362.md) | If deserializing untrusted data, then any code processing the deserialized object graph needs to handle reference cycles without going into infinite loops. This includes both code that's part of a deserialization callback and code that processes the object graph after deserialization completed. Otherwise, an attacker could perform a Denial-of-Service attack with malicious data containing a reference cycle. |
 | CA5363 | [CA5363: Do not disable request validation](../code-quality/ca5363.md) | Request validation is a feature in ASP.NET that examines HTTP requests and determines whether they contain potentially dangerous content that can lead to injection attacks, including cross-site-scripting. |
 | CA5364 | [CA5364: Do not use deprecated security protocols](../code-quality/ca5364.md) | Transport Layer Security (TLS) secures communication between computers, most commonly with Hypertext Transfer Protocol Secure (HTTPS). Older protocol versions of TLS are less secure than TLS 1.2 and TLS 1.3 and are more likely to have new vulnerabilities. Avoid older protocol versions to minimize risk. |

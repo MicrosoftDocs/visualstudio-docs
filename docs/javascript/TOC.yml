@@ -11,7 +11,7 @@
   - name: First look at the Visual Studio IDE
     href: quickstart-ide-orientation-js.md
   - name: Create a Node.js project
-    href: /visualstudio/ide/quickstart-nodejs?toc=/visualstudio/javascript/toc.json
+    href: ../ide/quickstart-nodejs.md?toc=%252fvisualstudio%252fjavascript%252ftoc.json
   - name: Create a Vue.js project
     href: quickstart-vuejs-with-nodejs.md
 - name: Tutorials
@@ -31,7 +31,7 @@
     - name: Write and edit code
       href: write-and-edit-code.md
     - name: JavaScript IntelliSense
-      href: /visualstudio/ide/javascript-intellisense?toc=/visualstudio/javascript/toc.json
+      href: ../ide/javascript-intellisense.md?toc=%252fvisualstudio%252fjavascript%252ftoc.json
   - name: Build
     items:
     - name: Compile TypeScript code using tsc

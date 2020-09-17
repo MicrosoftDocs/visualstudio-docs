@@ -22,11 +22,11 @@ Many of the legacy analysis (FxCop) rules have already been rewritten for FxCop 
 
 For more information on the differences between legacy analysis and source analysis, see the following:
 
-- [Source code analysis versus legacy analysis](../code-quality/roslyn-analyzers-overview.md#source-code-analysis-versus-legacy-analysis)
+- [Source code analysis versus legacy analysis](../code-quality/fxcop-analyzers-faq.md#whats-the-difference-between-legacy-fxcop-and-fxcop-analyzers)
 
 - [FAQ about FxCop analyzers](../code-quality/fxcop-analyzers-faq.md)
 
-To migrate to source analysis, [install the FxCop analyzers](../code-quality/install-fxcop-analyzers.md). Like legacy analysis rule violations, source code analysis violations appear in the Error List window in Visual Studio. In addition, source code analysis violations also show up in the code editor as *squiggles* under the offending code. The color of the squiggle depends on the [severity setting](../code-quality/use-roslyn-analyzers.md#rule-severity) of the rule. To see the status of rules ported to the new FxCop analyzers, see [Ported and unported rules](../code-quality/fxcop-rule-port-status.md).
+To migrate to source analysis, [install the FxCop analyzers](../code-quality/install-fxcop-analyzers.md). Like legacy analysis rule violations, source code analysis violations appear in the Error List window in Visual Studio. In addition, source code analysis violations also show up in the code editor as *squiggles* under the offending code. The color of the squiggle depends on the [severity setting](../code-quality/use-roslyn-analyzers.md#configure-severity-levels) of the rule. To see the status of rules ported to the new FxCop analyzers, see [Ported and unported rules](../code-quality/fxcop-rule-port-status.md).
 
 To learn more about how to configure the FxCop analyzers:
 

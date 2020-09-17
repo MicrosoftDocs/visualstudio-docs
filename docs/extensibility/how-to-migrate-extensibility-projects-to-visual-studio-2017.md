@@ -1,6 +1,7 @@
 ---
 title: Migrate Extensibility Projects to Visual Studio 2017
 titleSuffix: ""
+ms.custom: SEO-VS-2020
 ms.date: 11/09/2016
 ms.topic: how-to
 ms.assetid: 8ca07b00-a3ff-40ab-b647-c0a93b55e86a

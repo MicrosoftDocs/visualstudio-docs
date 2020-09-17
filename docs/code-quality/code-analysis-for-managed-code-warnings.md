@@ -17,14 +17,14 @@ ms.workload:
 - dotnet
 ---
 # .NET Code Analysis Rules
-The Managed Code Analysis tool provides warnings that indicate rule violations in managed code libraries. The warnings are organized into rule areas such as design, localization, performance, and security. Each warning signifies a violation of a Managed Code Analysis rule. This section provides in-depth discussions and examples for each Managed Code Analysis warning.
+The .NET code analysis provides rules that indicate code quality violations or suggestions to improve code quality. The rules are organized into rule areas such as design, localization, performance, and security. Certain rules are specific to .NET API usage, while remaining rules are about generic code quality. This section provides in-depth discussions and examples for each rule.
 
- The following table shows the type of information that is provided for each warning.
+ The following table shows the type of information that is provided for each diagnostic.
 
 |Item|Description|
 |----------|-----------------|
 |Type|The TypeName for the rule.|
-|CheckId|The unique identifier for the rule. CheckId and Category are used for in-source suppression of a warning.|
+|RuleId|The unique identifier for the rule. RuleId and Category are used for in-source suppression of a warning.|
 |Category|The category of the warning.|
 |Breaking change|Whether the fix for a violation of the rule is a breaking change. Breaking change means that an assembly that has a dependency on the target that caused the violation will not recompile with the new fixed version or might fail at run time because of the change. When multiple fixes are available and at least one fix is a breaking change and one fix is not, both 'Breaking' and 'Non-breaking' are specified.|
 |Cause|The specific managed code that causes the rule to generate a warning.|

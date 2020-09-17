@@ -1,6 +1,7 @@
 ---
 title: Diagnostics for Azure Cloud Services and VMs
 description: Learn how to set up diagnostics for debugging Azure cloud services and virtual machines (VMs) in Visual Studio.
+ms.custom: SEO-VS-2020
 author: ghogen
 manager: jillfra
 ms.assetid: e70cd7b4-6298-43aa-adea-6fd618414c26

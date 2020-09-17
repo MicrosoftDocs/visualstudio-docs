@@ -85,7 +85,7 @@ if (performance && performance.mark) {
 
 1. On the **Debug** menu, choose **Start Diagnostics Without Debugging**.
 
-     ![Choose Energy Consumption in the diagnostics hub](../profiling/media/energyprof_diagnosticshub.png "ENERGYPROF_DiagnosticsHub")
+     ![Choose Energy Consumption in the Performance Profiler](../profiling/media/energyprof_diagnosticshub.png "ENERGYPROF_DiagnosticsHub")
 
 2. Choose **Energy Consumption** and then choose **Start**.
 
@@ -107,7 +107,7 @@ if (performance && performance.mark) {
 
 2. From the **Select Installed App Package** list, choose the target.
 
-3. Choose **Energy Consumption** on the diagnostics hub page.
+3. Choose **Energy Consumption** on the Performance Profiler page.
 
 4. Choose **Start** to begin profiling.
 

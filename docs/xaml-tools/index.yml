@@ -59,7 +59,7 @@ landingContent:
       - linkListType: overview
         links:
           - text: WPF overview
-            url: ../designers/introduction-to-wpf.md
+            url: /dotnet/desktop/wpf/introduction-to-wpf
       - linkListType: get-started
         links:
           - text: Get started with WPF in Visual Studio

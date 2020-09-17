@@ -27,7 +27,7 @@ Fakes come in two flavors:
 
 - Visual Studio Enterprise
 - A .NET Framework project
-- .NET Core and SDK-style project support is currently in preview. [Read More](https://docs.microsoft.com/visualstudio/releases/2019/release-notes#microsoft-fakes-for-net-core-and-sdk-style-projects)
+- .NET Core and SDK-style project support is currently in preview. [Read More](/visualstudio/releases/2019/release-notes#microsoft-fakes-for-net-core-and-sdk-style-projects)
 
 > [!NOTE]
 > - .NET Standard projects are not supported.
@@ -140,7 +140,7 @@ For a more detailed description, see [Use stubs to isolate parts of your applica
 
     ```
 
-    The special piece of magic here is the class `StubIStockFeed`. For every interface in the referenced assembly, the Microsoft Fakes mechanism generates a stub class. The name of the stub class is the derived from the name of the interface, with "`Fakes.Stub`" as a prefix, and the parameter type names appended.
+    The special piece of magic here is the class `StubIStockFeed`. For every interface in the referenced assembly, the Microsoft Fakes mechanism generates a stub class. The name of the stub class is derived from the name of the interface, with "`Fakes.Stub`" as a prefix, and the parameter type names appended.
 
     Stubs are also generated for the getters and setters of properties, for events, and for generic methods. For more information, see [Use stubs to isolate parts of your application from each other for unit testing](../test/using-stubs-to-isolate-parts-of-your-application-from-each-other-for-unit-testing.md).
 

@@ -18,7 +18,7 @@ The information for your cloud service is stored in the following files:
 - **ServiceDefinition.csdef** - The service definition file defines the run-time settings for your cloud service including what roles are required, endpoints, and virtual machine size. None of the data stored in `ServiceDefinition.csdef` can be changed when your role is running.
 - **ServiceConfiguration.cscfg** - The service configuration file configures how many instances of a role are run and the values of the settings defined for a role. The data stored in `ServiceConfiguration.cscfg` can be changed while your role is running.
 
-To store different values for the settings that control how a role runs, you can define multiple service configurations. You can use a different service configuration for each deployment environment. For example, you can set your storage account connection string to use the local Azure storage emulator in a local service configuration and create another service configuration to use Azure storage in the cloud.
+To store different values for the settings that control how a role runs, you can define multiple service configurations. You can use a different service configuration for each deployment environment. For example, you can set your storage account connection string to use the local Azure Storage Emulator in a local service configuration and create another service configuration to use Azure storage in the cloud.
 
 When you create an Azure cloud service in Visual Studio, two service configurations are automatically created and added to your Azure project:
 
