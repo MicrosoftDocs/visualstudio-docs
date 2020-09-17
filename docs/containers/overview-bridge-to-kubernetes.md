@@ -72,7 +72,7 @@ The routing manager does the following when it starts up:
 * Creates an additional envoy pod for the service you are working on in isolation. This allows requests with the subdomain to be routed to your development computer.
 * Configures routing rules for each envoy pod to handle routing for services with the subdomain.
 
-The following diagram shows a Kubernetes cluster before Bridge to Kubernetes starts up.
+The following diagram shows a Kubernetes cluster before Bridge to Kubernetes connects to your cluster:
 
 ![Diagram of cluster without Bridge to Kubernetes](media/bridge-to-kubernetes/kubr-cluster.svg)
 
