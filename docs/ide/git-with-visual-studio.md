@@ -5,7 +5,7 @@ Description: Learn about the new Git experience in Visual Studio 2019
 ms.date: 09/21/2020
 ms.topic: conceptual
 ms.author: tglee
-author: TerryGLee
+author: prnadago
 ms.manager: jillfra
 monikerRange: vs-2019
 ---
@@ -20,16 +20,23 @@ Beginning with [version 16.6](/visualstudio/releases/2019/release-notes-v16.6), 
 
 To toggle the new Git experience, go to **Tools** > **Options** > **Environment** > **Preview Features** and then select the **New Git user experience** checkbox.
 
+:::image type="content" source="media/git-opt-new-user-experience.png" alt-text="Screenshot of the Preview Features section of the Options dialog box in Visual Studio ":::
 
 There are three ways to use Git in Visual Studio 2019:
-•	Connect to your Git files. If your code is already on your machine, you can open it by using File > Open > Project/Solution (or Folder) and Visual Studio will automatically detect if it has an initialized Git repository.
-•	Create a new Git repository. If your code is not associated with Git, you can create a new Git repository.
-Clone an existing Git repository. If the code that you would like to work on is not on your machine, you can clone any existing remote repositories.
 
-Create new Git repository
+- Connect to your Git files. If your code is already on your machine, you can open it by using **File** > **Open** > **Project/Solution** (or **Folder**) and Visual Studio will automatically detect if it has an initialized Git repository.
+- Create a new Git repository. If your code is not associated with Git, you can create a new Git repository.
+- Clone an existing Git repository. If the code that you would like to work on is not on your machine, you can clone any existing remote repositories.
+
+## Create new Git repository
+
 If your code is not associated with Git, you can start by creating a new Git repository. To do so, select Git > Create Git Repository from the menu bar. Then, in the Create a Git repository dialog box, enter your information.
 
-The Create a Git repository dialog box makes it easy to push your new repository to GitHub. By default, your new repository is private, which means that you are the only one who can access it. By unchecking the box, your repository will be public, so that anyone on GitHub can view it. Irrespective of whether your repository is public or private, it’s best to have a remote back-up of your code stored securely on GitHub even if you are not working with a team. This also makes your code available to you no matter what computer you are using.
+The **Create a Git repository** dialog box makes it easy to push your new repository to GitHub. By default, your new repository is private, which means that you are the only one who can access it. By unchecking the box, your repository will be public, which means that anyone on GitHub can view it.
+
+> [!NOTE]
+> Whether your repository is public or private, it's best to have a remote backup of your code stored securely on GitHub even if you are not working with a team. This also makes your code available to you no matter what computer you're using.
+
 You can choose to create a local-only Git repository by using the Local only option. Or, you can link your repository with any existing empty remote repository on any other Git provider by using the Existing remote option.
 
 
