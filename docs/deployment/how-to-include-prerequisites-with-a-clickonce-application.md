@@ -1,5 +1,6 @@
 ---
-title: How to - Include Prerequisites with a ClickOnce Application | Microsoft Docs
+title: Include prerequisites (ClickOnce app)
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 ms.assetid: c66bf0a5-8c93-4e68-a224-3b29ac36fe4d

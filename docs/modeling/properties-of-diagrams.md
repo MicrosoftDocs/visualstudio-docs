@@ -41,4 +41,4 @@ You can set properties that specify how diagrams will appear in the generated de
 
 ## See also
 
-[Domain-specific language tools glossary](https://msdn.microsoft.com/ca5e84cb-a315-465c-be24-76aa3df276aa)
+[Domain-specific language tools glossary](/previous-versions/bb126564(v=vs.100))
