@@ -59,7 +59,7 @@ landingContent:
       - linkListType: tutorial
         links:
           - text: Get started with C# and ASP.NET Core in Visual Studio
-            url: tutorial-csharp-aspnet-core.md
+            url: ../get-started/csharp/tutorial-aspnet-core.md
           - text: Create a C++ console app in Visual Studio
             url: /cpp/get-started/tutorial-console-cpp
           - text: Get started with Python in Visual Studio
