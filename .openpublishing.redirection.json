@@ -14361,7 +14361,7 @@
       "redirect_document_id": true
     },
     {
-      "source_path": "docs/containers/configure-local-process-kubernetes.md",
+      "source_path": "docs/containers/configure-local-process-with-kubernetes.md",
       "redirect_url": "/visualstudio/containers/configure-bridge-to-kubernetes",
       "redirect_document_id": true
     }
