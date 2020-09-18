@@ -65,5 +65,6 @@ A codespace can be created with a user-specific collection of [custom dotfiles](
 
 ## See also
 
-- [How to use Visual Studio with GitHub Codespaces](use-visual-studio-with-codespaces.md)
-- [How to customize GitHub Codespaces](customize-codespaces.md)
+* [How to use Visual Studio with a codespace](use-visual-studio-with-codespaces.md)
+* [How to customize a codespace](customize-codespaces.md)
+* [Supported Visual Studio features](supported-features-codespaces.md)
