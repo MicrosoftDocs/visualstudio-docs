@@ -1,5 +1,6 @@
 ---
-title: Collecting .NET Memory Allocation and Lifetime Data | Microsoft Docs
+title: "Collect .NET memory allocation & lifetime data"
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords: 
@@ -12,9 +13,9 @@ monikerRange: 'vs-2017'
 ms.workload: 
   - dotnet
 ---
-# Collect .NET memory allocation and lifetime data
+# Collect .NET Framework memory allocation and lifetime data
 
-Visual Studio Profiling Tools support the collection of .NET memory allocation and object lifetime data, which helps you detect memory-related performance issues in your application.
+Visual Studio Profiling Tools support the collection of .NET Framework memory allocation and object lifetime data, which helps you detect memory-related performance issues in your application.
 
 - Data about .NET memory allocation includes the size and number of .NET Framework memory objects that were allocated.
 

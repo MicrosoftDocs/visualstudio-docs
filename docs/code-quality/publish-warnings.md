@@ -1,13 +1,13 @@
 ---
-title: Publish Warnings
+title: Publish rules
 ms.date: 09/04/2020
 ms.topic: reference
 f1_keywords:
 - vs.codeanalysis.publishrules
 helpviewer_keywords:
-- warnings, publish
-- managed code analysis warnings, publish warnings
-- publish warnings
+- rules, publish
+- managed code analysis rules, publish rules
+- publish rules
 ms.assetid: fe7dc2a3-289d-4bf7-a1e4-0947a81287c4
 author: mikejo5000
 ms.author: mikejo
@@ -15,9 +15,9 @@ manager: jillfra
 ms.workload:
 - multiple
 ---
-# Publish warnings
+# Publish rules
 
-Publish warnings for .NET.
+Publish rules for .NET.
 
 ## In this section
 

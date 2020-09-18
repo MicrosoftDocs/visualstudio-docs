@@ -1,5 +1,6 @@
 ---
-title: Test controller and test agent roles for automated tests
+title: Test controller and test agent roles
+ms.custom: SEO-VS-2020
 ms.date: 10/20/2016
 ms.topic: conceptual
 helpviewer_keywords:

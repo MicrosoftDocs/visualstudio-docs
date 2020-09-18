@@ -1,14 +1,14 @@
 ---
-title: Security Warnings
+title: Security rules
 ms.date: 10/02/2019
 ms.topic: reference
 f1_keywords:
 - vs.codeanalysis.securityrules
 helpviewer_keywords:
 - security [Visual Studio ALM], Enterprise Templates
-- security warnings
-- managed code analysis warnings, security warnings
-- warnings, security
+- security rules
+- managed code analysis rules, security rules
+- rules, security
 ms.assetid: 60d4e8ea-230a-494f-aa6a-b91db77540e4
 author: mikejo5000
 ms.author: mikejo
@@ -16,9 +16,9 @@ manager: jillfra
 ms.workload:
 - multiple
 ---
-# Security warnings
+# Security rules
 
-Security warnings support safer libraries and applications. These warnings help prevent security flaws in your program. If you disable any of these warnings, you should clearly mark the reason in code and also inform the designated security officer for your development project.
+Security rules support safer libraries and applications. These rules help prevent security flaws in your program. If you disable any of these rules, you should clearly mark the reason in code and also inform the designated security officer for your development project.
 
 ## In this section
 

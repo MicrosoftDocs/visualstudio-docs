@@ -6,11 +6,11 @@ f1_keywords:
   - "vs.codeanalysis.Portablityrules"
   - "vs.codeanalysis.Interoperabilityrules"
 helpviewer_keywords:
-  - "managed code analysis warnings, interoperability warnings, portability warnings"
-  - "portability warnings"
-  - "warnings, portability"
-  - "interoperability warnings"
-  - "warnings, interoperability"
+  - "managed code analysis rules, interoperability rules, portability rules"
+  - "portability rules"
+  - "rules, portability"
+  - "interoperability rules"
+  - "rules, interoperability"
 ms.assetid: 95de6eb3-40c4-4063-9f59-25cb70e3b2b3
 author: mikejo5000
 ms.author: mikejo
@@ -18,9 +18,9 @@ manager: jillfra
 ms.workload:
   - "multiple"
 ---
-# Portability and Interoperability Warnings
+# Portability and Interoperability rules
 
-Portability warnings support portability across different platforms. Interoperability warnings support interaction with COM clients.
+Portability rules support portability across different platforms. Interoperability rules support interaction with COM clients.
 
 ## In This Section
 

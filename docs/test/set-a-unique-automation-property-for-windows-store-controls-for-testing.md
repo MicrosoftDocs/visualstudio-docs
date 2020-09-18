@@ -1,5 +1,6 @@
 ---
-title: Set a Unique Automation Property for UWP Controls for Testing
+title: Set a unique automation property - testing UWP controls
+ms.custom: SEO-VS-2020
 ms.date: 05/31/2018
 ms.topic: how-to
 ms.author: mikejo

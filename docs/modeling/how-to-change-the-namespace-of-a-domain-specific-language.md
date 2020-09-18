@@ -51,4 +51,4 @@ You can change the namespace of a domain-specific language. Make the change in t
 
 ## See also
 
-[Domain-specific language tools glossary](https://msdn.microsoft.com/ca5e84cb-a315-465c-be24-76aa3df276aa)
+[Domain-specific language tools glossary](/previous-versions/bb126564(v=vs.100))

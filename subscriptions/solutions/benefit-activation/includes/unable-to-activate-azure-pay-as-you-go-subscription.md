@@ -14,18 +14,13 @@ sap.id: 8dedd10e-cb1c-2eb1-bcda-fe00b07ac903
 
 ## I'm unable to activate my Azure Dev / Test Pay-As-You-Go subscription.
 
-As a Visual Studio subscriber, you receive exclusive discounted hourly rates for dev/test and cloud use rights for your subscription software on Microsoft Azure. 
+As a Visual Studio subscriber, you receive exclusive discounted hourly rates for dev/test and cloud use rights for your subscription software on Azure. 
 
-### Set up a Subscription
+## Set up a Subscription
 
-1. Sign in to the [subscriber portal](https://my.visualstudio.com/benefits) and locate the Azure Pay-As-You-Go tile in the Tools section. Click the Activate link at the bottom of the benefit tile.
-1. If you have already activated an Azure account as part of your subscription benefits (for example, if you have an Enterprise subscription and activated your $150 monthly Azure DevTest individual credit), skip to step 5. 
-1. On the Microsoft Azure Sign up page, you’ll have the option to either set up the Pay-As-You-Go Dev/Test offer (PAYG), or upgrade to the Visual Studio Enterprise offer. Click Continue with the current offer (Pay-As-You-Go Dev/Test) if you don’t wish to upgrade.
-1. To verify your identity, enter a phone number, and choose “Send text message” or “Call me”. Enter the code you receive. Click Verify code. 
-1. Next, please provide the billing information for your account and click Next. (This will be the credit card that is charged for all your Azure purchases.) 
-1. In the Agreement section, click on the check box to accept the subscription agreement, offer details and privacy statement, then click Purchase. 
-1. On the Welcome to Microsoft Azure page you’ll have the option to buy a support plan, or get started using your subscription. 
-1. If you choose to get started using your subscription, you’ll see the [Microsoft Azure portal[(https://portal.azure.com/) and, if it’s your first visit, you’ll be offered a quick tour of some of the features. Once you’ve completed or opted out of the tour, you’ll see the Dashboard.
+1. Sign in to the [subscriptions portal](https://my.visualstudio.com/benefits) and click on the Activate link at the bottom of the Azure Dev/Test Pay-As-You-Go benefit tile.
+1. On the Microsoft Azure Sign up page, you’ll have the option to either set up the Pay-As-You-Go Dev/Test offer (PAYG), or upgrade to the Visual Studio Enterprise offer. Click Continue with the current offer (Pay-As-You-Go Dev/Test) if you don’t wish to upgrade. 
+1. Add a payment method, accept the subscription agreement, and you’re ready to go. In the future you can access your Azure subscription at [portal.azure.com](https://portal.azure.com/). 
 
 ## More information 
 [Read more](https://docs.microsoft.com/visualstudio/subscriptions/vs-azure-payg) information about Azure Dev / Test Pay-As-You-Go subscriptions.

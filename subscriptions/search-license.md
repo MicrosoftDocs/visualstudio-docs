@@ -2,9 +2,9 @@
 title: Search and filter | Microsoft Docs
 author: evanwindom
 ms.author: lank
-manager: lank
+manager: cabuschl
 ms.assetid: 9c0b9a4f-b9a3-491c-a68f-6e4bac7f7b3d
-ms.date: 03/03/2020
+ms.date: 08/10/2020
 ms.topic: how-to
 description:  Learn how administrators can locate individual subscribers or groups in the Administration Portal.
 ---
@@ -15,11 +15,11 @@ The Visual Studio Subscriptions Administration Portal allows you to find a speci
 ## To filter the subscriber list
 1. To search for a specific group of subscribers, select the **Filter** tab.
    > [!div class="mx-imgBorder"]
-   > ![Select Filter to search a subscriber list](_img/search-filter/filter-list.png)
+   > ![Select Filter to search a subscriber list](_img/search-filter/filter-list.png "Click Filter to enter criteria to limit the subscriptions displayed.")
 
 2. Enter the criteria you would like to use as the basis of your search, and then select **Filter** again.
    > [!div class="mx-imgBorder"]
-   > ![Use the available fields to filter the subscriber data](media/filter-subscribers.png)
+   > ![Use the available fields to filter the subscriber data](media/filter-subscribers.png "Enter values in the various fields to limit search results. For example, you can search for '@contoso.com' to return a list of all subscribers with @contoso.com email addresses.")
 
    Your subscriber list then matches the criteria that you chose.  You can click on the headings of the filtered results to change the sort order for each field.  
    > [!NOTE]
@@ -29,7 +29,7 @@ The Visual Studio Subscriptions Administration Portal allows you to find a speci
 
 3. To clear the filter and restore the unfiltered list, click the **Clear filter** tab at the top right. 
    > [!div class="mx-imgBorder"]
-   > ![Clear the filter from the subscriber list](_img/search-filter/clear-filter.png)
+   > ![Clear the filter from the subscriber list](_img/search-filter/clear-filter.png "Click Clear Filter to remove the filter and resume viewing all of your assigned subscriptions.")
 
 
 ## See also

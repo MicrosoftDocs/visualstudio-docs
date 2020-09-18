@@ -19,7 +19,7 @@ This refactoring applies to:
 
 - Visual Basic
 
-**What:** Lets you simplify a [string interpolation](https://docs.microsoft.com/dotnet/csharp/tutorials/string-interpolation).
+**What:** Lets you simplify a [string interpolation](/dotnet/csharp/tutorials/string-interpolation).
 
 **When:** You have a string interpolation that can be simplified.
 

@@ -1,5 +1,6 @@
 ---
-title: Set custom log file location for ClickOnce deploy errors
+title: Set custom log file location (ClickOnce deploy errors)
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs: 
