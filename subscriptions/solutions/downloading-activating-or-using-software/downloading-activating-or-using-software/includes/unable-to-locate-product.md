@@ -1,5 +1,5 @@
 ---
-title: I'm unable to locate a product.
+title: I'm unable to locate a product
 description: I'm unable to locate a product to download with my Visual Studio subscription.
 ms.topic: include
 ms.assetid: a3635d25-8f9d-4cf8-a9c3-db41d155f989
@@ -16,19 +16,17 @@ sap.id: 3c439fef-213d-1e20-70df-7f2837461ddd
 
 The software downloads available to you depends on the subscription you're using. You can find downloads and product keys a few ways. 
 
-### Excel list of available software 
-You can download an Excel spreadsheet containing an extensive list of [available software titles](https://download.microsoft.com/download/1/5/4/15454442-CF17-47B9-A65D-DF84EF88511B/Visual_Studio_by_Subscription_Level.xlsx) for all subscription types. To use this, you will need to know what subscriptions you have.  
+## Excel list of available software 
+You can [download an extensive list](https://download.microsoft.com/download/1/5/4/15454442-CF17-47B9-A65D-DF84EF88511B/Visual_Studio_by_Subscription_Level.xlsx) of available software titles for all subscription types. To check what types are assigned to you, view your subscriptions in the [subscriptions portal](https://my.visualstudio.com/benefits).   
 
-To check what subscriptions are available to you, log into the [Visual Studio Subscriptions portal](https://my.visualstudio.com/subscriptions).
-* If you have more than one subscription associated with the same sign-in address, you will see the downloads included with the highest-level subscription, regardless of which subscription you're viewing.  
-
-### Find software downloads 
+## Find software downloads 
 1. Sign into the [subscriptions portal](https://my.visualstudio.com/benefits).  
 1. Go to the [featured downloads page](https://my.visualstudio.com/downloads/featured).  
-1. Here you will be able to see a list of popular downloads or search a specific product.  
+1. Here you will be able to see a list of popular downloads or search a specific product. Note: If you have more than one subscription associated with the same sign-in address, you will see the downloads included with the highest-level subscription, regardless of which subscription you're viewing.
+1. Click on “get key” to see all keys that are available for the product you want to download. Then click “claim key” to claim a product key if the download requires a key to get started. 
 
-### Product keys page 
-All keys are also available in aggregate on the [Product Keys](https://my.visualstudio.com/productkeys) page. When multiple keys exist for a single product, notes will be displayed on the Notes column for the download to assist you in identifying which key should be used. 
+## Product keys page 
+You can also visit the [Product Keys](https://my.visualstudio.com/productkeys) page where all keys are available in aggregate. You can edit the notes column for identifying when and why you claimed the key. 
 
-### More information 
+## More information 
 [Read more](https://docs.microsoft.com/visualstudio/subscriptions/find-keys) on finding and claiming product keys and downloads.  
