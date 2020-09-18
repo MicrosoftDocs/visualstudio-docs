@@ -23,7 +23,7 @@ Visual Studio provides a rich development experience when connecting to a codesp
 > [!NOTE]
 > The features described below are for Visual Studio and not the two other GitHub Codespaces clients, Visual Studio Code and the in-browser editor.
 
-### Edit and navigation
+## Edit and navigation
 
 You should notice little difference editing source code in a codespace as you get smart language features like IntelliSense, code navigation, diagnostics, and suggestions.
 
@@ -41,12 +41,12 @@ Not yet available:
 * Code navigation* - Most commands supported, specifically Go To Base and Find in files with path specification not yet supported.
 * Quick Info* - colorization in quick info is not supported.
 * HTML, CSS, Razor editors* - Diagnostics, intellisense completion, quick info, smart indent. Currently no support for semantic colorization, navigation commands, etc.
-* JavaScript editor* - Script blocks (for example, JavaScript content in HTML files, CSHTML files, and similar) and semantic highlighting are not yet supported. Known issues with lightbulb features and linting.
+* JavaScript editor* - Script blocks (for example, JavaScript content in HTML and CSHTML files) and semantic highlighting are not yet supported. Known issues with lightbulb features and linting.
 * CodeLens
 * Code snippets
 * IntelliCode
 
-### Application types and configuration
+## Application types and configuration
 
 Most application types and project configurations are supported, but you will need to edit your project code directly without the help of visual designers. For more configuration guidance, see [How to customize a codespace](customize-codespaces.md).
 
@@ -71,9 +71,9 @@ Not yet available:
 * Intranet resources (private network) - Currently, codespaces won't be able to connect to any resource that requires a VPN.
 * Extensions - No extensions are supported when using Codespaces with Visual Studio.
 
-### Debugging
+## Debugging
 
-Essential inner loop debugging workflow is supported including setting breakpoints, basic stepping into code, inspecting variables, and the local, autos, and watch windows. Some additional windows, customizations, and visualizers are not supported.
+Essential inner loop debugging is supported including setting breakpoints, basic stepping into code, inspecting variables, and the local, autos, and watch windows. Some additional windows, customizations, and visualizers are not supported.
 
 * Breakpoints*
 * Basic stepping
@@ -92,12 +92,12 @@ Not yet available:
 * Threading features - Freeze/thaw threads, Rename thread, and show threads in source are not supported.
 * Additional stepping features - Automatic Step over properties and operators (.NET Core) and Step into Specific are not supported. 
 
-### Features
+## Features
 
 Since you are working with the Visual Studio client connected to a remote environment, you get the same accessibility features as when working locally.
 
 * Source Control - Full Git support through the new [Git window](https://devblogs.microsoft.com/visualstudio/improved-git-experience-in-visual-studio-2019/).
-* Accessibility - There is one known issue with assistive technology not being able to access the appcasting of a debugged app. Besides this, we don't believe there are any other compatibility issues that don't already exist in the local Visual Studio experience. Please let us know if you detect bugs by filing an issue on [developer community](https://developercommunity.visualstudio.com/).
+* Accessibility - There is one known issue with assistive technology not being able to access the appcasting of a debugged app. Besides this limitation, we don't believe there are any other compatibility issues that don't already exist in the local Visual Studio experience. Please let us know if you detect bugs by filing an issue on [developer community](https://developercommunity.visualstudio.com/).
 * Publishing - Publish to Azure through GitHub Actions is supported.
 * Connected services - App Insights, KeyVault, Storage, SQL, Redis, Cosmos, openAPI, and gRPC are partially supported.
 * Test Explorer* - Mostly supported.
