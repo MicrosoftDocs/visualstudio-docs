@@ -107,7 +107,7 @@ From both locations, you can switch between existing branches.
 
 You can also create a new branch. The equivalent command for this action is `git checkout <branchname>`.
 
-Creating a new branch is as simple as entering the branch name and selecting the branch to base it off.
+Creating a new branch is as simple as entering the branch name and basing it off an existing branch.
 
 :::image type="content" source="media/git-changes-create-new-branch.png" alt-text="Screenshot of the Create a New Branch dialog box in Visual Studio ":::
 
