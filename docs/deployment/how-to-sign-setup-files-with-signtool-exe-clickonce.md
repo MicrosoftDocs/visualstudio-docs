@@ -1,5 +1,5 @@
 ---
-title: Sign Setup Files with SignTool.exe (ClickOnce)
+title: Sign setup files with SignTool.exe (ClickOnce)
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to

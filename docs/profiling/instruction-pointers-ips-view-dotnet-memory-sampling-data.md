@@ -1,5 +1,5 @@
 ---
-title: "Instruction Pointers (IPs) View - .NET Memory Sampling Data"
+title: "Instruction Pointers (IPs) view - .NET memory sampling data"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 helpviewer_keywords:

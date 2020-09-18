@@ -1,5 +1,5 @@
 ---
-title: Troubleshooting errors (ClickOnce Deployments)
+title: Troubleshooting errors (ClickOnce deployments)
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: troubleshooting

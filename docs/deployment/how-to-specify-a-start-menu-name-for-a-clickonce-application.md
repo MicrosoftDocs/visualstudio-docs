@@ -1,5 +1,5 @@
 ---
-title: Specify Start Menu name for a ClickOnce app
+title: Specify Start menu name for a ClickOnce app
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
