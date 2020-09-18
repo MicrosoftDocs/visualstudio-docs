@@ -1,6 +1,6 @@
 ---
-title: Attach the profiler to a .NET app to collect concurrency data | Microsoft Docs
-ms.custom: seodec18
+title: Attach profiler to .NET to collect concurrency data
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 ms.assetid: fdd41576-797e-4312-8520-fee7bb767e4a

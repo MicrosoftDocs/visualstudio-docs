@@ -1,5 +1,6 @@
 ---
-title: Profiler command line - Get .NET Framework services memory data
+title: Profiler command line - Get .NET services memory data
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 ms.assetid: b1361333-8a09-4a65-87a9-4ac94ceb2d9f

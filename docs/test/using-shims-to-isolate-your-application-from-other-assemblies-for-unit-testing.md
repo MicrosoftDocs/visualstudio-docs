@@ -1,5 +1,6 @@
 ---
-title: Using shims to isolate your application for unit testing
+title: Isolate your app with shims (unit testing)
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 ms.author: mikejo

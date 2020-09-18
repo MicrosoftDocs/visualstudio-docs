@@ -1,5 +1,6 @@
 ---
-title: "Performance tools on Windows 8 & Windows Server 2012 apps"
+title: "Performance tools on Windows 8 & WS 2012 apps"
+ms.custom: SEO-VS-2020
 ms.date: "06/19/2017"
 ms.topic: "conceptual"
 author: "mikejo5000"
