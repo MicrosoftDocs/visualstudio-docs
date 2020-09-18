@@ -93,8 +93,6 @@
           items:
           - name: "CA1004: Generic methods should provide type parameter"
             href: ca1004.md
-          - name: "CA1006: Do not nest generic types in member signatures"
-            href: ca1006.md
           - name: "CA1007: Use generics where appropriate"
             href: ca1007.md
           - name: "CA1011: Consider passing base types as parameters"
@@ -186,6 +184,8 @@
         - name: Deprecated rules
           href: fxcop-unported-deprecated-rules.md
           items:
+          - name: "CA1006: Do not nest generic types in member signatures"
+            href: ca1006.md
           - name: "CA1009: Declare event handlers correctly"
             href: ca1009.md
           - name: "CA1020: Avoid namespaces with few types"
