@@ -89,7 +89,7 @@ When a request without the *GENERATED_NAME* subdomain is received on the cluster
 
 When you disconnect from your cluster, by default, Bridge to Kubernetes will remove all the envoy pods and the duplicate service. 
 
-> [NOTE]
+> [!NOTE]
 > The routing manager deployment and service will remain running in your namespace. To remove the deployment and service run the following commands for your namespace.
 >
 > ```azurecli
@@ -105,7 +105,6 @@ When using Bridge to Kubernetes to connect to your cluster, diagnostic logs from
 
 Bridge to Kubernetes has the following limitations:
 
-* Bridge to Kubernetes redirects traffic for a single service to your development computer. You can't use Bridge to Kubernetes to redirect multiple services at the same time.
 * A service must be backed by a single pod in order to connect to that service. You can't connect to a service with multiple pods, such as a service with replicas.
 * A pod may only have a single container running in that pod for Bridge to Kubernetes to successfully connect. Bridge to Kubernetes can't connect to services with pods that have additional containers, such as sidecar containers injected by services meshes.
 * Bridge to Kubernetes needs elevated permissions to run on your development computer in order to edit your hosts file.

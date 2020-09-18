@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Capturing Graphics Information Programmatically | Microsoft Docs"
+title: "Capture Graphics Information Programmatically | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 author: "mikejo5000"
@@ -8,7 +8,7 @@ manager: jillfra
 ms.workload:
   - "multiple"
 ---
-# Walkthrough: Capturing Graphics Information Programmatically
+# Walkthrough: Capture Graphics Information Programmatically
 You can use [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] Graphics Diagnostics to programmatically capture graphics information from a Direct3D app.
 
 Programmatic capture is useful in scenarios such as:
