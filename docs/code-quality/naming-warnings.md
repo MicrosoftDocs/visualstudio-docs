@@ -1,13 +1,13 @@
 ---
-title: Naming Warnings
+title: Naming rules
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - vs.codeanalysis.namingrules
 helpviewer_keywords:
-- managed code analysis warnings, naming warnings
-- naming warnings
-- warnings, naming
+- managed code analysis rules, naming rules
+- naming rules
+- rules, naming
 ms.assetid: f97223ce-1d39-4134-81c9-fff2c75d979b
 author: mikejo5000
 ms.author: mikejo
@@ -15,9 +15,9 @@ manager: jillfra
 ms.workload:
 - multiple
 ---
-# Naming Warnings
+# Naming rules
 
-Naming warnings support adherence to the naming conventions of the .NET Design Guidelines.
+Naming rules support adherence to the naming conventions of the .NET Design Guidelines.
 
 ## In This Section
 

@@ -1,5 +1,6 @@
 ---
-title: How to run legacy code analysis manually for managed code
+title: Run legacy code analysis manually (.NET)
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords: 

@@ -1,5 +1,6 @@
 ---
-title: "Download assemblies on demand with ClickOnce deployment API"
+title: "Download assemblies on demand (ClickOnce API)"
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs:

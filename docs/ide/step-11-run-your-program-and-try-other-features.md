@@ -54,6 +54,6 @@ To return to the previous tutorial step, see [Step 10: Write code for additional
 
 ## See also
 
-* [More C# tutorials](/visualstudio/get-started/csharp/)
-* [More Visual Basic tutorials](/visualstudio/get-started/visual-basic/)
+* [More C# tutorials](../get-started/csharp/index.yml)
+* [More Visual Basic tutorials](../get-started/visual-basic/index.yml)
 * [C++ tutorial](/cpp/get-started/tutorial-console-cpp)

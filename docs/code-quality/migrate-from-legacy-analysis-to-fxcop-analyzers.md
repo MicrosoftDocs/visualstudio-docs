@@ -1,5 +1,6 @@
 ---
-title: Migrate from legacy analysis (FxCop) to source analysis (FxCop analyzers)
+title: Migrate from FxCop to source analysis (FxCop analyzers)
+ms.custom: SEO-VS-2020
 description: "Learn how to analyze code for the first time or how to migrate from binary analysis (FxCop) to the new way of analyzing managed code using source analysis (FxCop analyzers)."
 ms.date: 03/06/2020
 ms.topic: conceptual

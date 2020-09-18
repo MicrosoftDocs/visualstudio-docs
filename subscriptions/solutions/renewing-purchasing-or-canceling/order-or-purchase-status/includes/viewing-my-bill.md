@@ -14,17 +14,20 @@ sap.id: d49256cb-844e-ebfd-210e-a30a61a3adad
 
 ## How do I view my Bill?
 
-### View your invoice for your monthly or Annual Visual Studio Subscriptions purchased with a Microsoft Azure subscription
+Your Azure bill can include payments for Azure services and some types of Visual Studio subscriptions.
+
+## To view your bill
 1. Sign in to the [Azure portal](https://portal.azure.com).  
-2. Click on the Cost Management + Billing blade in the menu. Here you can find an overview, list of subscriptions, and invoices.  
+2. Click on the Cost Management + Billing blade in the menu to find an overview, list of subscriptions, and invoices.  
 
-### Monthly Visual Studio subscriptions 
-These subscriptions are billed through Azure, you will find your bill in the same Azure billing section. 
+## Visual Studio subscriptions 
 
-### Understanding spending limit 
-The spending limit in Azure prevents spending over your credit amount. All new customers who sign up for an Azure free account or subscription types that include credits over multiple months have the spending limit turned on by default. Read more about [spending limit](https://docs.microsoft.com/azure/cost-management-billing/manage/spending-limit). 
+Monthly (and annual if purchased before December 2018) subscriptions are billed through Azure, you will find your bill in the same Azure billing section.  
+
+## Understanding spending limit 
+The spending limit feature in Azure allows you to set a spending limit where services will be turned off. By default this is already applied to the Azure dev/test individual credit benefit.  [Read more](https://docs.microsoft.com/azure/cost-management-billing/manage/spending-limit) about the Azure spending limit. 
 
 If you have removed the spending cap on your Azure subscription, converted to Pay-As-You-Go, are taking advantage of enterprise dev/test pricing only available to Visual Studio subscribers, or want to utilize services outside of those used for development and testing covered by the monthly credit, you will be billed monthly for services.  
 
-### More information 
+## More information 
 Get answers to common questions about your usage and charges. Visit [billing FAQs](https://docs.microsoft.com/azure/cost-management-billing/manage/getting-started). 
