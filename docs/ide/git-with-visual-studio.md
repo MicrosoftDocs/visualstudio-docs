@@ -77,17 +77,41 @@ Git tracks file changes in your repo as you work, and separates the files in you
 - **Modified files**: These files have changes since your last commit, but you haven't yet staged them for the next commit.
 - **Staged files**: These files have changes that will be added to the next commit.
 
-    :::image type="content" source="media/git-changes-window.png" alt-text="Screenshot of the Git Changes window in Visual Studio ":::
+As you do your work, Visual Studio keeps track of the file changes to your project in the **Changes** section of the **Git Changes** window.
 
-Visual Studio keeps track of file changes to your project as you do your work in the changes section. When you are ready to stage changes, click the **+** (plus) button on each file you want to stage, or right-click a file and then select **Stage**.
+:::image type="content" source="media/git-changes-window.png" alt-text="Screenshot of the Git Changes window in Visual Studio ":::
 
-You can also stage all your modified files with one click by using the stage all **+** (plus) button at the top of the **Changes** section. When you stage a change, Visual Studio creates a **Staged Changes** section. Only changes in the **Staged Changes** section are added to the next commit, which you can do by selecting **Commit Staged**. Changes can also be un-staged by clicking on the **–** (minus) button. The equivalent commands for these actions are `git commit -a` and `git commit -m "Your commit message"`.
+When you are ready to stage changes, click the **+** (plus) button on each file you want to stage, or right-click a file and then select **Stage**. You can also stage all your modified files with one click by using the stage all **+** (plus) button at the top of the **Changes** section.
+
+When you stage a change, Visual Studio creates a **Staged Changes** section. Only changes in the **Staged Changes** section are added to the next commit, which you can do by selecting **Commit Staged**. Changes can also be un-staged by clicking on the **–** (minus) button. The equivalent commands for these actions are `git commit -a` and `git commit -m "Your commit message"`.
 
 You can also choose not to stage your modified files by skipping the staging area. In this case, Visual Studio allows you to commit your changes directly without having to stage them. Just enter your commit message and then select **Commit All**.
 
 Visual Studio also makes it easy to commit and sync with one click by using the **Commit All and Push** and **Commit All and Sync** shortcuts. When you double-click any file in the **Changes** and the **Staged changes** sections, you can see a line-by-line comparison with the unmodified version of the file.
 
 :::image type="content" source="media/git-file-version-compare.png" alt-text="Screenshot of the line-by-line comparison of file versions in Visual Studio ":::
+
+### Select an existing branch
+
+Visual Studio displays the current branch in the selector at the top of the **Git Changes** window.
+
+:::image type="content" source="media/git-changes-current-branch-selector.png" alt-text="Screenshot of the current branches that you can view by using the selector at the top of the Git Changes selector in Visual Studio ":::
+
+The current branch is also available in the status bar on the bottom-right corner of the Visual Studio IDE.
+
+:::image type="content" source="media/git-changes-current-branch-status-bar.png" alt-text="Screenshot of the current branches that you can view by using the status bar at the bottom-right corner in the Visual Studio IDE ":::
+
+From both locations, you can switch between existing branches.
+
+### Create a new branch
+
+You can also create a new branch. The equivalent command for this action is `git checkout <branchname>`.
+
+Creating a new branch is as simple as entering the branch name and selecting the branch to base it off.
+
+:::image type="content" source="media/git-changes-create-new-branch.png" alt-text="Screenshot of the Create a New Branch dialog box in Visual Studio ":::
+
+You can choose an existing local or remote branch as the base. The **Checkout branch** checkbox automatically switches you to the newly created branch. The equivalent command for this action is `git checkout -b <new-branch><existing-branch>`.
 
 ## See also
 
