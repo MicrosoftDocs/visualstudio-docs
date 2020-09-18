@@ -42,9 +42,8 @@ The URI for the AppX application distribution package (`.appx`) containing the d
 | OpenSUSE Leap 42                | https://aka.ms/wsl-opensuse-42                                |
 | SUSE Linux Enterprise Server 12 | https://aka.ms/wsl-sles-12                                    |
 
->
->!TIP ARM distros are not currently supported in GitHub Codespaces.
->
+> [!NOTE]
+> ARM Linux distros are not currently supported in GitHub Codespaces.
 
 ### Additional options
 

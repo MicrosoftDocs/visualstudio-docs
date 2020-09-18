@@ -24,7 +24,7 @@ The most important step is to define your 'developer' environment in a [_.devini
 
 For this step, think about the instructions you'd give someone to get up and running with a project repository. For example, do they need to have SQL installed? A specific version of .NET Core? etc. Then for each of those dependencies, look for a corresponding devinit tool in the [list of tools](devinit-tool-list.md)) and add that to the repository's _.devinit.json_ file.
 
-## Step 3: Profit! 💰
+## Step 3: Enjoy!
 
 Now all someone has to do after cloning your repo is run `devinit init`.
 

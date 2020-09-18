@@ -18,8 +18,8 @@ The table below contains a list of all the currently available examples for usin
 
 | Tool                                             | Description                                                                                                                  |   |
 |--------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------|---|
-| [**All tools**](Sample-AllTool.md)               | Example of using all the tools.                                                                                              |   |
-| [**eShopOnWeb**](Sample-eShopOnWeb.md)           | Example of customizing the [dotnet-architecture/eshoponweb](https://github.com/dotnet-architecture/eShopOnWeb) app.          |   |
-| [**Private Preview**](Sample-privatePreview.md)  | Example of the customizations used in the GitHub Codespaces Visual Studio private beta.                               |   |
-| [**Open CV**](Sample-OpenCV.md)                  | Example of the customizations required by the OpenCV project.                                                                |   |
-| [**.NET Core Runtime**](Sample-dotnetruntime.md) | Example of the customizations required by the .NET Core Runtime [dotnet/runtime](https://github.com/dotnet/runtime) project. |   |
+| [**All tools**](sample-all-tooll.md)               | Example of using all the tools.                                                                                              |   |
+| [**eShopOnWeb**](sample-eshoponweb.md)           | Example of customizing the [dotnet-architecture/eshoponweb](https://github.com/dotnet-architecture/eShopOnWeb) app.          |   |
+| [**Private Preview**](sample-private-preview.md)  | Example of the customizations used in the GitHub Codespaces Visual Studio private beta.                               |   |
+| [**Open CV**](sample-opencv.md)                  | Example of the customizations required by the OpenCV project.                                                                |   |
+| [**.NET Core Runtime**](sample-dotnet-runtime.md) | Example of the customizations required by the .NET Core Runtime [dotnet/runtime](https://github.com/dotnet/runtime) project. |   |

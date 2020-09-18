@@ -70,12 +70,12 @@
     - name: Sample list
       href: sample-readme.md
     - name: All tools
-      href: sample-AllTool.md
+      href: sample-all-tool.md
     - name: dotnet runtime repo
-      href: sample-dotnetruntime.md
+      href: sample-dotnet-runtime.md
     - name: eShopOnWeb repo
       href: sample-eshoponweb.md
     - name: OpenCV repo
-      href: sample-OpenCV.md
+      href: sample-opencv.md
     - name: Codespaces private preview
-      href: sample-privatepreview.md
+      href: sample-private-preview.md
