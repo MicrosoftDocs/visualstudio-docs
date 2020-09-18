@@ -9,7 +9,7 @@ manager: jillfra
 ms.workload:
   - "multiple"
 ---
-# Walkthrough: Capture Graphics Information Programmatically
+# Walkthrough: Capturing Graphics Information Programmatically
 You can use [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] Graphics Diagnostics to programmatically capture graphics information from a Direct3D app.
 
 Programmatic capture is useful in scenarios such as:
