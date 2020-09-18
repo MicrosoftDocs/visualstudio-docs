@@ -30,12 +30,12 @@ A Microsoft Account (MSA) was required to sign-in. If the subscriber didn’t at
 To correct the problem, simply select the **Connect Emails** button and the system will attempt to match the accounts with MSAs to existing users in your organization’s Azure Active Directory (Azure AD) based on matching the first and last name. If there is an error, you can remove any match by clicking on the **X** to the right of the match.  
 
 > [!div class="mx-imgBorder"]
-> ![Connect Emails Button](_img/connect-emails/connect-emails-button.png "Click Connect Emails to link MSAs to work/school accounts.")
+> ![Connect Emails Button](_img/connect-emails/connect-emails-button.png "Click Connect Emails to match your users with Microsoft accounts to your Azure Active Directory")
 
 You can also use the **Search Directory** to correct the errors or fill in missing information from your Azure AD. If the all the matches look correct, you can choose to “Select all matching subscribers”, rather than selecting them one at a time.  
 
 > [!div class="mx-imgBorder"]
-> ![Connect Emails Fly-out](_img/connect-emails/connect-emails-flyout.png "The fly-out window will show recommended matches for subscribers found in your organization's Azure Active Directory.")
+> ![Connect Emails Fly-out](_img/connect-emails/connect-emails-flyout.png "Select which subscribers you want to match to their Azure AD identities and click Continue.")
 
 Next click on “continue” which will take you to a list of the changes to take place. If you agree, click “save” and the changes will be made. Your subscriber will also get a message informing them of the change the next time they sign in to their subscription.   
 
