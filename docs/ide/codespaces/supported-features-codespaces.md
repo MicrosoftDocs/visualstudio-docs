@@ -43,7 +43,7 @@ Not yet available:
 * HTML, CSS, Razor editors* - Diagnostics, intellisense completion, quick info, smart indent. Currently no support for semantic colorization, navigation commands, etc.
 * JavaScript editor* - Script blocks (for example, JavaScript content in HTML and CSHTML files) and semantic highlighting are not yet supported. Known issues with lightbulb features and linting.
 * CMake Targets View
-* CmakeSettings editor
+* CMake Project Settings editor
 * Ctrl+F7 (compile file)
 * CodeLens
 * Code snippets
