@@ -1,3 +1,24 @@
+---
+title: All tools 
+description: Example of using all the devinit tools.
+ms.date: 08/28/2020
+ms.topic: reference
+author: andster
+ms.author: andster
+manager: jillfra
+ms.workload:
+- multiple
+monikerRange: ">= vs-2019"
+ms.prod: visual-studio-windows
+ms.technology: devinit
+---
+# All tools
+
+This example has a `devinit.json`, which installs all the available devinit tools.
+
+## .devinit.json
+
+```json
 {
   "$schema": "./devinit.schema-2.0.json",
   "comments": "A sample dot-devinit file",
@@ -143,3 +164,14 @@
     }
   ]
 }
+```
+
+## .devcontainer.json
+
+Contents of the _.devcontainer.json_ file in the repo root.
+
+```json
+{
+  "postCreateCommand": "devinit init"
+}
+```

@@ -18,15 +18,15 @@ The table below contains a list of all the currently available tools for devinit
 
 | Tool                                                                                             | Description                                                                                                 |
 |--------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|
+| [**azurecli-login**](tool-azurecli-login.md)                                                     | Tool to execute the Azure CLI command `az login --device-code`.                                             |
 | [**choco-install**](tool-choco-install.md)                                                       | Tool to install chocolatey packages.                                                                        |
-| [**choco-updgrade**](tool-choco-updgrade.md)                                                     | Tool to updgrade chocolatey packages.                                                                       |
+| [**choco-upgrade**](tool-choco-upgrade.md)                                                       | Tool to upgrade chocolatey packages.                                                                       |
 | [**dotnet-restore**](tool-dotnet-restore.md)                                                     | Tool to restore the dependencies and tools of a .NET project.                                               |
 | [**dotnet-toolinstall**](tool-dotnet-toolinstall.md)                                             | Tool to install the .NET Core tools (for example. dotnet-ef)                                                |
 | [**npm-install**](tool-npm-install.md)                                                           | Tool to install NPM packages.                                                                               |
 | [**nuget-restore**](tool-nuget-restore.md)                                                       | Tool to restore the NuGet packages.                                                                         |
 | [**require-azureartifactscredentialprovider**](tool-require-azureartifactscredentialprovider.md) | Installs the Azure Artifacts Credential provider.                                                           |
 | [**require-azurecli**](tool-require-azurecli.md)                                                 | Tool to install the Azure CLI.                                                                              |
-| [**require-azurecli-login**](tool-require-azurecli-login.md)                                     | Tool to execute the Azure CLI command `az login --device-code`.                                             |
 | [**require-dotnetcoresdk**](tool-require-dotnetcoresdk.md)                                       | Tool to install the .NET Core SDK and shared runtime.                                                       |
 | [**require-dotnetframeworksdk**](tool-require-dotnetframeworksdk.md)                             | Tool to install the .NET Framework SDK.                                                                     |
 | [**require-gitsubmodule**](tool-require-gitsubmodule.md)                                         | Restore Git Submodule. Use local `.gitmodules` if no `.gitmodules` is passed.                               |

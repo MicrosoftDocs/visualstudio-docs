@@ -55,8 +55,6 @@
       href: tool-require-vcpkg.md
     - name: require-vscomponent
       href: tool-require-vscomponent.md
-    - name: require-windowsfeature
-      href: tool-require-windowsfeature.md
     - name: set-env
       href: tool-set-env.md
     - name: vcpkg-install
@@ -71,6 +69,8 @@
     items:
     - name: Sample list
       href: sample-readme.md
+    - name: All tools
+      href: sample-AllTool.md
     - name: dotnet runtime repo
       href: sample-dotnetruntime.md
     - name: eShopOnWeb repo
