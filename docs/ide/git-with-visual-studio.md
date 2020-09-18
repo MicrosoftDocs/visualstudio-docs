@@ -24,7 +24,7 @@ To toggle the new Git experience, go to **Tools** > **Options** > **Environment*
 
 There are three ways to use Git in Visual Studio 2019:
 
-- **Connect to your Git files**. If your code is already on your machine, you can open it by using **File** > **Open** > **Project/Solution** (or **Folder**) and Visual Studio will automatically detect if it has an initialized Git repository.
+- **Connect to your Git files**. If your code is already on your machine, you can open it by using **File** > **Open** > **Project/Solution** (or **Folder**) and Visual Studio automatically detects if it has an initialized Git repository.
 - [**Create a new Git repository**](#create-a-new-git-repository). If your code is not associated with Git, you can create a new Git repository.
 - [**Clone an existing Git repository**](#clone-an-existing-git-repository). If the code that you would like to work on is not on your machine, you can clone any existing remote repositories.
 
@@ -51,7 +51,7 @@ If you don’t know the repository URL, Visual Studio makes it easy to browse to
 
 ## Open an existing local repository
 
-After you’ve cloned a repository or created one, Visual Studio detects the Git repository and adds it to your list of **Local Repositories** in the Git menu. From here you can quickly access and switch between your Git repositories.
+After you’ve cloned a repository or created one, Visual Studio detects the Git repository and adds it to your list of **Local Repositories** in the Git menu. From here,, you can quickly access and switch between your Git repositories.
 
 :::image type="content" source="media/git-local-repositories.png" alt-text="Screenshot of the Local Repositories option from the Git menu in Visual Studio ":::
 
@@ -83,7 +83,7 @@ As you do your work, Visual Studio keeps track of the file changes to your proje
 
 When you are ready to stage changes, click the **+** (plus) button on each file you want to stage, or right-click a file and then select **Stage**. You can also stage all your modified files with one click by using the stage all **+** (plus) button at the top of the **Changes** section.
 
-When you stage a change, Visual Studio creates a **Staged Changes** section. Only changes in the **Staged Changes** section are added to the next commit, which you can do by selecting **Commit Staged**. Changes can also be un-staged by clicking on the **–** (minus) button. The equivalent commands for these actions are `git commit -a` and `git commit -m "Your commit message"`.
+When you stage a change, Visual Studio creates a **Staged Changes** section. Only changes in the **Staged Changes** section are added to the next commit, which you can do by selecting **Commit Staged**. Changes can also be unstaged by clicking on the **–** (minus) button. The equivalent commands for these actions are `git commit -a` and `git commit -m "Your commit message"`.
 
 You can also choose not to stage your modified files by skipping the staging area. In this case, Visual Studio allows you to commit your changes directly without having to stage them. Just enter your commit message and then select **Commit All**.
 
@@ -127,7 +127,7 @@ When you fetch a branch, the **Git Changes** window has an indicator under the b
 
 :::image type="content" source="media/git-repo-drop-down-indicator.png" alt-text="Screenshot of the Git Changes window that shows the indicator drop-down UI element in Visual Studio ":::
 
-The indicator also functions as a link to take you to the commit history of that branch in the **Git Repository** window. The top of the history now displays the details of these incoming and outgoing commits. From here you can also decide to Pull or Push the commits.
+The indicator also functions as a link to take you to the commit history of that branch in the **Git Repository** window. The top of the history now displays the details of these incoming and outgoing commits. From here, you can also decide to Pull or Push the commits.
 
 :::image type="content" source="media/git-branch-commit-history.png" alt-text="Screenshot of the Git Repository window that shows the commit history of a branch in Visual Studio ":::
 
