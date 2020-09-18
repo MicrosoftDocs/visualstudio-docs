@@ -37,9 +37,9 @@ You should notice little difference editing source code in a codespace as you ge
 
 Not yet available:
 
-* IntelliSense* - some of the autocompletion/member list filters are unavailable. Completion for unimported types and intellisense in watch window not yet available.
+* IntelliSense* - Some of the autocompletion/member list filters are unavailable. Completion for unimported types and intellisense in watch window not yet available.
 * Code navigation* - Most commands supported, specifically Go To Base and Find in files with path specification not yet supported.
-* Quick Info* - colorization in quick info is not supported.
+* Quick Info* - Colorization in quick info is not supported.
 * HTML, CSS, Razor editors* - Diagnostics, intellisense completion, quick info, smart indent. Currently no support for semantic colorization, navigation commands, etc.
 * JavaScript editor* - Script blocks (for example, JavaScript content in HTML and CSHTML files) and semantic highlighting are not yet supported. Known issues with lightbulb features and linting.
 * CodeLens
@@ -54,7 +54,7 @@ Most application types and project configurations are supported, but you will ne
 * .NET Core and ASP.NET Core projects
 * C++ console apps - CMake and vcxproj supported
 * C++ apps that target Linux - Mostly supported for non-GUI. Ability to install and provision WSL, platform-specific intellisense, and build.
-* Project file editing - mostly supported. Missing some completion, syntax highlighting, and advanced editing features.
+* Project file editing - Mostly supported. Missing some completion, syntax highlighting, and advanced editing features.
 * GitHub accounts - Can be used to create and connect to Codespaces, and access resources available to the account on GitHub.
 * Azure CLI - Does not share the signed-in Visual Studio identity or keychain accounts. Browser-based login is not supported but you can authenticate inside the integrated terminal using: `az login --use-device-code`.
 
@@ -83,12 +83,12 @@ Essential inner loop debugging is supported including setting breakpoints, basic
 Not yet available:
 
 * Breakpoints* - Breakpoint labels, Data breakpoints, and Set breakpoint in Disassembly window is in progress. Importing and exporting breakpoints is partially supported.
-* Locals, autos, watch windows* - some functionality such as statement completion in search box and search box navigation.
+* Locals, autos, watch windows* - Some functionality such as statement completion in search box and search box navigation.
 * UI customizations - Pinnable properties and hide template parameters not supported.
 * Visualizers - C++ natvis partially supported. Dissassembly window, XAML Visual diagnostics, Custom .NET Visualizers, and Dataset Visualizers are not supported.
 * Additional debugger windows - Processes windows partially supported. Parallel Stacks window - Tasks View, Diagnostics Hub, and Find source/symbol dialog are not supported.
 * Some debugger workflows - Attach to process, Just in Time (JIT) debugger, Dump debugging, and IntelliTrace are not supported. C++ Just My Code stepping is partially supported.
-* Edit and Continue - for both managed and native code is not supported.
+* Edit and Continue - Not supported for both managed and native code.
 * Threading features - Freeze/thaw threads, Rename thread, and show threads in source are not supported.
 * Additional stepping features - Automatic Step over properties and operators (.NET Core) and Step into Specific are not supported. 
 
