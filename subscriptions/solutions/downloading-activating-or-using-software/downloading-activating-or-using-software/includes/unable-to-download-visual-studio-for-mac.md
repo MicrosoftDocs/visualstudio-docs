@@ -2,7 +2,7 @@
 title: Unable to download or activate Visual Studio for Mac
 description: Unable to download or activate Visual Studio for Mac from Visual Studio Subscriptions
 ms.topic: include
-ms.assetid: 461d8352-6034-47c6-b226-11d4042e0f72
+ms.assetid: afb945a3-b08e-4a9f-92d9-660f5657686b
 author: caitybuschlen
 ms.author: cabuschl
 ms.date: 08/14/2020
