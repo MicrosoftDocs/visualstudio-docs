@@ -1,5 +1,6 @@
 ---
-title: Specifying Virtual Network Types in a Load Test Scenario
+title: Specify virtual network types (load testing)
+ms.custom: SEO-VS-2020
 ms.date: 10/19/2016
 ms.topic: how-to
 helpviewer_keywords: 

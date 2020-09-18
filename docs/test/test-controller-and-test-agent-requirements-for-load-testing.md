@@ -1,5 +1,6 @@
 ---
-title: Test Controller and Test Agent Requirements for Load Testing
+title: "Test controller/test agent requirements (load testing)"
+ms.custom: SEO-VS-2020
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:

@@ -1,5 +1,6 @@
 ---
-title: Create Load Test Performance Report Using Microsoft Word
+title: Create load test perf report using MS Word
+ms.custom: SEO-VS-2020
 ms.date: 10/19/2016
 ms.topic: how-to
 helpviewer_keywords: 

@@ -1,5 +1,6 @@
 ---
-title: Bind a Test Controller or Test Agent to a Network Adapter
+title: Bind test controller/test agent to a network adapter
+ms.custom: SEO-VS-2020
 ms.date: 10/19/2016
 ms.topic: how-to
 helpviewer_keywords: 

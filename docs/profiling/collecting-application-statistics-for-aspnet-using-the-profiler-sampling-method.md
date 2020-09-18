@@ -1,5 +1,5 @@
 ---
-title: Collect statistics for ASP.NET web apps | Microsoft Docs
+title: Collect statistics for ASP.NET web apps
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords: 
