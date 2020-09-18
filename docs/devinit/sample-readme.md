@@ -18,7 +18,7 @@ The table below contains a list of all the currently available examples for usin
 
 | Tool                                             | Description                                                                                                                  |   |
 |--------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------|---|
-| [**All tools**](sample-all-tooll.md)               | Example of using all the tools.                                                                                              |   |
+| [**All tools**](sample-all-tool.md)               | Example of using all the tools.                                                                                              |   |
 | [**eShopOnWeb**](sample-eshoponweb.md)           | Example of customizing the [dotnet-architecture/eshoponweb](https://github.com/dotnet-architecture/eShopOnWeb) app.          |   |
 | [**Private Preview**](sample-private-preview.md)  | Example of the customizations used in the GitHub Codespaces Visual Studio private beta.                               |   |
 | [**Open CV**](sample-opencv.md)                  | Example of the customizations required by the OpenCV project.                                                                |   |
