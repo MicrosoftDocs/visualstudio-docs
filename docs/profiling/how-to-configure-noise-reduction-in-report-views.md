@@ -1,5 +1,5 @@
 ---
-title: How to - Configure Noise Reduction in Report Views | Microsoft Docs
+title: Configure Noise Reduction in Report Views | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: how-to
 f1_keywords: 

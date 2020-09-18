@@ -1,5 +1,5 @@
 ---
-title: "Error - Transact-SQL execution ended without debugging | Microsoft Docs"
+title: "Transact-SQL execution ended without debugging | Microsoft Docs"
 ms.date: "11/08/2018"
 ms.topic: "error-reference"
 f1_keywords:

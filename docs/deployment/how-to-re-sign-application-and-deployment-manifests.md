@@ -1,5 +1,5 @@
 ---
-title: How to - Re-sign Application and Deployment Manifests | Microsoft Docs
+title: Re-sign Application and Deployment Manifests | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs: 
