@@ -49,13 +49,13 @@ Visual Studio includes a straightforward clone experience. If you know the URL o
 
 If you don’t know the repository URL, Visual Studio makes it easy to browse to and then clone your existing GitHub or Azure DevOps repository.
 
-### Open an existing local repository
+## Open an existing local repository
 
 After you’ve cloned a repository or created one, Visual Studio detects the Git repository and adds it to your list of **Local Repositories** in the Git menu. From here you can quickly access and switch between your Git repositories.
 
 :::image type="content" source="media/git-local-repositories.png" alt-text="Screenshot of the Local Repositories option from the Git menu in Visual Studio ":::
 
-### View files in Solution Explorer
+## View files in Solution Explorer
 
 When you clone a repository or open a local repository, Visual Studio switches you into that Git context by saving and closing any previously open solutions and projects. Solution Explorer loads the folder at the root of the Git repository and scans the directory tree for any View files. These include files such as CMakeLists.txt or those with the .sln file extension.
 
@@ -69,7 +69,7 @@ You can toggle between the currently open View and the list of Views by using th
 
 :::image type="content" source="media/git-solution-explorer-views.png" alt-text="Screenshot of Solution Explorer with the Switch Views button selected in Visual Studio ":::
 
-## How to use the Git Changes window
+## Git Changes window
 
 Git tracks file changes in your repo as you work, and separates the files in your repo into three categories. These changes are equivalent to what you would see when you enter the `git status` command in the command line:
 
@@ -113,43 +113,74 @@ Creating a new branch is as simple as entering the branch name and selecting the
 
 You can choose an existing local or remote branch as the base. The **Checkout branch** checkbox automatically switches you to the newly created branch. The equivalent command for this action is `git checkout -b <new-branch><existing-branch>`.
 
-## How to use the Git Repository window
+## Git Repository window
 
-Visual Studio has a new Git Repository window, which is a consolidated view of all the details in your repository, including all of the branches, remotes, and commit histories. You can access this window directly from either **Git** or **View** on the menu bar or from the status bar.
+Visual Studio has a new **Git Repository** window, which is a consolidated view of all the details in your repository, including all of the branches, remotes, and commit histories. You can access this window directly from either **Git** or **View** on the menu bar or from the status bar.
 
 ### Manage branches
 
-When you select Manage Branches from the Git menu, you’ll see the branches tree-view in the Git Repository window	. From the left pane, you can use the right-click context menu to checkout branches, create new branches, merge, rebase, cherry-pick, and more. When you click the branch, you can see a preview of its commit history in the right pane.
+When you select **Manage Branches** from the **Git** menu, you’ll see the branches tree-view in the **Git Repository** window. From the left pane, you can use the right-click context menu to checkout branches, create new branches, merge, rebase, cherry-pick, and more. When you click the branch, you can see a preview of its commit history in the right pane.
 
-### Incoming and Outgoing Commits
+### Incoming and outgoing commits
 
-When you fetch a branch, the Git Changes window has an indicator under the branch dropdown, which displays the number of unpulled commits from the remote branch. This indicator also shows you the number of unpushed local commits.
+When you fetch a branch, the **Git Changes** window has an indicator under the branch drop-down, which displays the number of unpulled commits from the remote branch. This indicator also shows you the number of unpushed local commits.
 
-The indicator also functions as a link to take you to the commit history of that branch in the Git Repository window. The top of the history now displays the details of these incoming and outgoing commits. From here you can also decide to Pull or Push the commits.
+:::image type="content" source="media/git-repo-drop-down-indicator.png" alt-text="Screenshot of the Git Changes window that shows the indicator drop-down UI element in Visual Studio ":::
 
-Commit Details
-When you double-click a Commit, Visual Studio opens its details in a separate tool window. From here you can revert the commit, reset the commit, amend the commit message, or create a tag on the commit. When you click a changed file in the commit, Visual Studio opens the side-by-side Diff view of the commit and its parent.
+The indicator also functions as a link to take you to the commit history of that branch in the **Git Repository** window. The top of the history now displays the details of these incoming and outgoing commits. From here you can also decide to Pull or Push the commits.
 
-Handling Merge Conflicts
-Conflicts can occur during a merge if two developers modify the same lines in a file and Git doesn’t automatically know what is correct. Git halts the merge and informs you that you are in a conflicted state. Visual Studio makes it super easy to identify and resolve a merge conflict. First, the Git Repository window shows a gold info bar at the top of the window.
-  The Git Changes window also displays a ‘Merge is in progress with conflicts’ message, with the unmerged files in their separate section below.
+:::image type="content" source="media/git-branch-commit-history.png" alt-text="Screenshot of the Git Repository window that shows the commit history of a branch in Visual Studio ":::
+
+#### Commit Details
+
+When you double-click a **Commit**, Visual Studio opens its details in a separate tool window. From here you can revert the commit, reset the commit, amend the commit message, or create a tag on the commit. When you click a changed file in the commit, Visual Studio opens the side-by-side **Diff** view of the commit and its parent.
+
+:::image type="content" source="media/git-branch-commit-details.png" alt-text="Screenshot of the Commit Details dialog box in Visual Studio ":::
+
+## Handle merge conflicts
+
+Conflicts can occur during a merge if two developers modify the same lines in a file and Git doesn’t automatically know which is correct. Git halts the merge and informs you that you are in a conflicted state.
+
+Visual Studio makes it easy to identify and resolve a merge conflict. First, the **Git Repository** window shows a gold info bar at the top of the window.
+
+:::image type="content" source="media/git-merge-conflict-gold-bar.png" alt-text="Screenshot of the 'Merge completed with conflicts' message in Visual Studio ":::
+
+The **Git Changes** window also displays a ‘*Merge is in progress with conflicts*’ message, with the unmerged files in their separate section below it.
+
+:::image type="content" source="media/git-merge-progress-conflicts-message.png" alt-text="Screenshot of the 'Merge in progress with conflicts' message in Visual Studio ":::
 
 But if you have neither of these windows open, and instead you go to the file that has merge conflicts, you won’t have to search for the following text:
-<<<<<<< HEAD
-=======
->>>>>>> main
-Instead, Visual Studio will display a gold info bar on the top of the page that indicates that the opened file has conflicts. Then, you can click the link to open the Merge Editor.
 
-Merge Editor
-The Merge Editor in Visual Studio is a three-way merge tool that displays the incoming changes, your current changes, and the result of the merge. You can use the tool bar at the top level of the Merge Editor to navigate between conflicts and auto-merged differences in the file.
+```bash
+    <<<<<<< HEAD
+    =======
+    >>>>>>> main
+```
 
-You can also use the toggles to show/hide differences, show/hide word differences, and customize the layout. There are checkboxes on the top of each side that you can use to take all the changes from one side or the other. But to take individual changes, you can click on the checkboxes to the left of the conflicting lines on either side. Finally, when you finish resolving the conflicts, you can select the Accept Merge button in the Merge Editor. You then write a commit message and commit the changes to complete the resolution.
-Settings
-To personalize and customize your Git settings at a repository level as well as at a global level, go to  Git >Settings or Tools > Options > Source Control on the menu bar.
+Instead, Visual Studio displays a gold info bar on the top of the page that indicates that the opened file has conflicts. Then, you can click the link to open the **Merge Editor**.
 
-That’s all for now! Stay tuned; we’ll update this doc as we continue to refine the new Git experience in Visual Studio 2019.
-Note If you have a suggestion for us, please let us know. We appreciate the opportunity to engage with you on design decisions via the [Developer Community](https://aka.ms/vs-suggest) portal.
+:::image type="content" source="media/git-merge-conflict-gold-info-bar.png" alt-text="Screenshot of 'File contains merge conflicts' message in Visual Studio ":::
 
+### The Merge Editor
+
+The Merge Editor in Visual Studio is a three-way merge tool that displays the incoming changes, your current changes, and the result of the merge. You can use the tool bar at the top level of the **Merge Editor** to navigate between conflicts and auto-merged differences in the file.
+
+:::image type="content" source="media/git-merge-editor.png" alt-text="Screenshot of Merge Editor in Visual Studio ":::
+
+You can also use the toggles to show/hide differences, show/hide word differences, and customize the layout. There are checkboxes on the top of each side that you can use to take all the changes from one side or the other. But to take individual changes, you can click the checkboxes to the left of the conflicting lines on either side. Finally, when you finish resolving the conflicts, you can select the **Accept Merge** button in the Merge Editor. You then write a commit message and commit the changes to complete the resolution.
+
+## Personalize your Git settings
+
+To personalize and customize your Git settings at a repository level as well as at a global level, go to either **Git** > **Settings** on the menu bar, or to **Tools** > **Options** > **Source Control** on the menu bar. Then, choose the options you want.
+
+:::image type="content" source="media/git-options-settings.png" alt-text="Screenshot of the Options dialog box where you can choose personalization and customization settings in Visual Studio IDE ":::
+
+## What's next
+
+Stay tuned; we’ll update this page as we continue to refine the new Git experience in Visual Studio 2019.
+
+> [!IMPORTANT]
+> If you have a suggestion for us, please let us know! We appreciate the opportunity to engage with you on design decisions via the [**Developer Community**](https://aka.ms/vs-suggest) portal.
 
 ## See also
 
