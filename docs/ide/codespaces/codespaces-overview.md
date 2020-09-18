@@ -32,13 +32,9 @@ GitHub Codespaces features are built on top of a few fundamental concepts. This 
 
 ### Remote development
 
-GitHub Codespaces conceptually and technically extends Visual Studio 2019. As explained in a recent blog post, the following quote sums up the problem solved by Codespaces:
+GitHub Codespaces conceptually and technically extends Visual Studio 2019 to enable remote development. Many developers today try to develop in remote setups or VMs, configured with specific development and runtime stacks, because it is too hard, too disruptive, and in some cases impossible, to set up these development environments locally. Also individuals want to try out new technologies or frameworks without the fear of 'messing up' the machines they need for their day to day work.
 
->"_We saw many developers trying to develop against containers and remote VMs configured with specific development and runtime stacks, simply because it is too hard, too disruptive, and in some cases impossible, to set up these development environments locally. We've all experienced this problem. Unless we feel it's time to flatten that machine, we hesitate to try out a new stack like Rust, Go, Node, or Python3, for fear of 'messing up' our current, well-tuned environment._"
-
-Remote-capable tools empower developers but usually add overhead of machine management. Environment configuration often complicates onboarding and context-switching. GitHub Codespaces removes the barriers to rapid onboarding and context-switching by enabling the simultaneous existence of many environments.
-
-GitHub Codespaces focuses on managed solutions that allow you to focus on productivity over setup.
+While using remote environments and remote-capable tools empowers developers, there is often the overhead of machine management. Environment configuration often complicates onboarding and context-switching. GitHub Codespaces removes the barriers to rapid onboarding and context-switching by enabling the simultaneous existence of many environments. GitHub Codespaces provides managed solutions that allow you to focus on productivity over setup.
 
 ### About codespaces
 
