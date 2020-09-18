@@ -93,7 +93,7 @@ Click on the start button next to *Bridge to Kubernetes*. In the **Create profil
 * Select *app* for the launch profile.
 * Select `http://bikeapp.bikesharingweb.EXTERNAL_IP.nip.io` for the URL to launch your browser.
 
-![Choose Bridge to Kubernetes Cluster](media/bridge-to-kubernetes/choose-bridge-cluster.png)
+![Choose Bridge to Kubernetes Cluster](media/bridge-to-kubernetes/choose-bridge-cluster2.png)
 
 > [!IMPORTANT]
 > You can only redirect services that have a single pod.
