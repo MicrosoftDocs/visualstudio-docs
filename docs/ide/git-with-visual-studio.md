@@ -24,7 +24,7 @@ To toggle the new Git experience, go to **Tools** > **Options** > **Environment*
 
 There are three ways to use Git in Visual Studio 2019:
 
-- Connect to your Git files. If your code is already on your machine, you can open it by using **File** > **Open** > **Project/Solution** (or **Folder**) and Visual Studio automatically detects if it has an initialized Git repository.
+- [Open an existing Git repository](#open-an-existing-local-repository). If your code is already on your machine, you can open it by using **File** > **Open** > **Project/Solution** (or **Folder**) and Visual Studio automatically detects if it has an initialized Git repository.
 - [Create a new Git repository](#create-a-new-git-repository). If your code is not associated with Git, you can create a new Git repository.
 - [Clone an existing Git repository](#clone-an-existing-git-repository). If the code that you would like to work on is not on your machine, you can clone any existing remote repositories.
 
@@ -51,7 +51,7 @@ If you don’t know the repository URL, Visual Studio makes it easy to browse to
 
 ### Open an existing local repository
 
-After you’ve cloned a repository or created one, Visual Studio detects the Git repository and adds it to your list of **Local Repositories** in the Git menu. From here,, you can quickly access and switch between your Git repositories.
+After you’ve cloned a repository or created one, Visual Studio detects the Git repository and adds it to your list of **Local Repositories** in the Git menu. From here, you can quickly access and switch between your Git repositories.
 
 :::image type="content" source="media/git-local-repositories.png" alt-text="Screenshot of the Local Repositories option from the Git menu in Visual Studio ":::
 
