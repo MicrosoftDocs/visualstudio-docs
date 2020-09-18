@@ -15,7 +15,7 @@ monikerRange: vs-2019
 
 # Supported Visual Studio features (Preview)
 
-Visual Studio provides a rich development experience when connecting to a codespace. You get the Visual Studio inner-loop tools you're familiar with to edit, debug, test, and version your source code as well as productivity features like project templates, rich code navigation, and IntelliSense. In the current GitHub Codespaces beta, some Visual Studio features may not have full support or may be initially missing. The following sections outline what you can expect with Visual Studio and the GitHub Codespaces beta and what you can look forward to in the future. This is **not meant to be an exhaustive list**, but to explain Visual Studio's general capabilities when connected to codespace.
+Visual Studio provides a rich development experience when connecting to a codespace. You get the Visual Studio inner-loop tools you're familiar with to edit, debug, test, and version your source code as well as productivity features like project templates, rich code navigation, and IntelliSense. In the current GitHub Codespaces beta, some Visual Studio features may not have full support or may be initially missing. The following sections outline what you can expect with Visual Studio and the GitHub Codespaces beta and what you can look forward to in the future. This is **not meant to be an exhaustive list**, but to explain Visual Studio's general capabilities when connected to a codespace.
 
 > [!NOTE]
 > If there is a feature you are missing while using codespaces with Visual Studio, please let us know by opening an issue on https://developercommunity.visualstudio.com/. This helps us prioritize the most wanted features.
@@ -33,11 +33,11 @@ You should notice little difference editing source code in a codespace as you ge
 * Syntax highlighting
 * Quick Info*
 * HTML, CSS, Razor editors* - Partial support.
-* JavaScript editor*- Partial support.
+* JavaScript editor* - Partial support.
 
 Not yet available:
 
-* IntelliSense* - not all filters are available. Completion for unimported types and intellisense in watch window not yet available.
+* IntelliSense* - some of the autocompletion/member list filters are unavailable. Completion for unimported types and intellisense in watch window not yet available.
 * Code navigation* - Most commands supported, specifically Go To Base and Find in files with path specification not yet supported.
 * Quick Info* - colorization in quick info is not supported.
 * HTML, CSS, Razor editors* - Diagnostics, intellisense completion, quick info, smart indent. Currently no support for semantic colorization, navigation commands, etc.
@@ -83,7 +83,7 @@ Essential inner loop debugging is supported including setting breakpoints, basic
 Not yet available:
 
 * Breakpoints* - Breakpoint labels, Data breakpoints, and Set breakpoint in Disassembly window is in progress. Importing and exporting breakpoints is partially supported.
-* Locals, autos, watch windows*- some functionality such as statement completion in search box and search box navigation.
+* Locals, autos, watch windows* - some functionality such as statement completion in search box and search box navigation.
 * UI customizations - Pinnable properties and hide template parameters not supported.
 * Visualizers - C++ natvis partially supported. Dissassembly window, XAML Visual diagnostics, Custom .NET Visualizers, and Dataset Visualizers are not supported.
 * Additional debugger windows - Processes windows partially supported. Parallel Stacks window - Tasks View, Diagnostics Hub, and Find source/symbol dialog are not supported.
