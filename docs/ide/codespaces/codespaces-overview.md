@@ -32,9 +32,11 @@ GitHub Codespaces features are built on top of a few fundamental concepts. This 
 
 ### Remote development
 
-GitHub Codespaces conceptually and technically extends Visual Studio 2019 to enable remote development. Many developers today try to develop in remote setups or VMs, configured with specific development and runtime stacks, because it is too hard, too disruptive, and in some cases impossible, to set up these development environments locally. Also individuals want to try out new technologies or frameworks without the fear of 'messing up' the machines they need for their day to day work.
+Many developers today try to code in remote setups or VMs that are configured with specific development and runtime stacks. They do so because it's too hard, too disruptive, and in some cases, near impossible to set up these development environments locally. Also, individuals want to try out new technologies or new frameworks without the fear of "messing up" the machines they need for their day-to-day work.
 
-While using remote environments and remote-capable tools empowers developers, there is often the overhead of machine management. Environment configuration often complicates onboarding and context-switching. GitHub Codespaces removes the barriers to rapid onboarding and context-switching by enabling the simultaneous existence of many environments. GitHub Codespaces provides managed solutions that allow you to focus on productivity over setup.
+While using remote environments and remote-capable tools empowers developers, there is often the overhead of machine management. Environment configuration often complicates onboarding and context-switching. GitHub Codespaces removes the barriers to rapid onboarding and context-switching by enabling many environments to exist simultaneously. 
+
+GitHub Codespaces provides managed solutions that allow you to focus on productivity over setup. GitHub Codespaces conceptually and technically extends Visual Studio 2019 for remote development. 
 
 ### About codespaces
 
