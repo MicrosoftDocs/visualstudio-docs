@@ -19,8 +19,8 @@ To see the peak number of subscriptions assigned for any agreement and subscript
 1. Select the agreement you wish to view in the drop-down at the top left of the portal. (If you only have one agreement, it will already be selected.)
 2. Click on the **maximum usage** icon which is the third icon from the top on the left side of the subscriber grid.  
 
-  > [!div class="mx-imgBorder"]
-  > ![Maximum Usage Fly Out](_img/maximum-usage/maximum-usage-menu.png "Click the Maximum Usage button to see the maximum number of each type of subscription you have assigned.")
+    > [!div class="mx-imgBorder"]
+    > ![Maximum Usage Fly Out](_img/maximum-usage/maximum-usage-menu.png "Click the Maximum Usage button to see the maximum number of each type of subscription you have assigned.")
 
 3. The "12-month maximum usage" will appear, and the maximum number of subscriptions you've assigned within the past year for each level will be displayed, along with the month in which you reached that peak.    
 
