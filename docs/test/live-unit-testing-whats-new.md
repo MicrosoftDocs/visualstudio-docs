@@ -1,6 +1,6 @@
 ---
 title: What's New in Live Unit Testing in Visual Studio 2017
-titleSuffix: ''
+titleSuffix: ""
 ms.date: 10/11/2017
 ms.topic: conceptual
 helpviewer_keywords:

@@ -1,5 +1,6 @@
 ---
-title: "A DCOM error occurred trying to contact the remote computer. Access is denied. | Microsoft Docs"
+title: "A DCOM error occurred trying to contact the remote computer. Access is denied."
+titleSuffix: ""
 ms.date: "11/04/2016"
 ms.topic: "reference"
 f1_keywords:

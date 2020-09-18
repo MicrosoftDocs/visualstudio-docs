@@ -1,5 +1,6 @@
 ---
-title: Inspect an exception - Visual Studio | Microsoft Docs
+title: Inspect an exception
+titleSuffix: ""
 ms.date: 1/18/2020
 ms.topic: how-to
 dev_langs: 
