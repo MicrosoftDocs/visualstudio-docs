@@ -24,9 +24,9 @@ To toggle the new Git experience, go to **Tools** > **Options** > **Environment*
 
 There are three ways to use Git in Visual Studio 2019:
 
-- Connect to your Git files. If your code is already on your machine, you can open it by using **File** > **Open** > **Project/Solution** (or **Folder**) and Visual Studio will automatically detect if it has an initialized Git repository.
-- [Create a new Git repository](#create-a-new-git-repository). If your code is not associated with Git, you can create a new Git repository.
-- [Clone an existing Git repository](#clone-an-existing-git-repository). If the code that you would like to work on is not on your machine, you can clone any existing remote repositories.
+- **Connect to your Git files**. If your code is already on your machine, you can open it by using **File** > **Open** > **Project/Solution** (or **Folder**) and Visual Studio will automatically detect if it has an initialized Git repository.
+- [**Create a new Git repository**](#create-a-new-git-repository). If your code is not associated with Git, you can create a new Git repository.
+- [**Clone an existing Git repository**](#clone-an-existing-git-repository). If the code that you would like to work on is not on your machine, you can clone any existing remote repositories.
 
 ## Create a new Git repository
 
@@ -55,7 +55,7 @@ After you’ve cloned a repository or created one, Visual Studio detects the Git
 
 :::image type="content" source="media/git-local-repositories.png" alt-text="Screenshot of the Local Repositories option from the Git menu in Visual Studio ":::
 
-### View your files in Solution Explorer
+### View files in Solution Explorer
 
 When you clone a repository or open a local repository, Visual Studio switches you into that Git context by saving and closing any previously open solutions and projects. Solution Explorer loads the folder at the root of the Git repository and scans the directory tree for any View files. These include files such as CMakeLists.txt or those with the .sln file extension.
 
@@ -68,6 +68,26 @@ Visual Studio adjusts its View based on which View file you load in Solution Exp
 You can toggle between the currently open View and the list of Views by using the **Switch Views** button in the Solution Explorer toolbar.
 
 :::image type="content" source="media/git-solution-explorer-views.png" alt-text="Screenshot of Solution Explorer with the Switch Views button selected in Visual Studio ":::
+
+## How to use the Git Changes window
+
+Git tracks file changes in your repo as you work, and separates the files in your repo into three categories. These changes are equivalent to what you would see when you enter the `git status` command in the command line:
+
+- **Unmodified files**: These files haven't changed since your last commit.
+- **Modified files**: These files have changes since your last commit, but you haven't yet staged them for the next commit.
+- **Staged files**: These files have changes that will be added to the next commit.
+
+    :::image type="content" source="media/git-changes-window.png" alt-text="Screenshot of the Git Changes window in Visual Studio ":::
+
+Visual Studio keeps track of file changes to your project as you do your work in the changes section. When you are ready to stage changes, click the **+** (plus) button on each file you want to stage, or right-click a file and then select **Stage**.
+
+You can also stage all your modified files with one click by using the stage all **+** (plus) button at the top of the **Changes** section. When you stage a change, Visual Studio creates a **Staged Changes** section. Only changes in the **Staged Changes** section are added to the next commit, which you can do by selecting **Commit Staged**. Changes can also be un-staged by clicking on the **–** (minus) button. The equivalent commands for these actions are `git commit -a` and `git commit -m "Your commit message"`.
+
+You can also choose not to stage your modified files by skipping the staging area. In this case, Visual Studio allows you to commit your changes directly without having to stage them. Just enter your commit message and then select **Commit All**.
+
+Visual Studio also makes it easy to commit and sync with one click by using the **Commit All and Push** and **Commit All and Sync** shortcuts. When you double-click any file in the **Changes** and the **Staged changes** sections, you can see a line-by-line comparison with the unmodified version of the file.
+
+:::image type="content" source="media/git-file-version-compare.png" alt-text="Screenshot of the line-by-line comparison of file versions in Visual Studio ":::
 
 ## See also
 
