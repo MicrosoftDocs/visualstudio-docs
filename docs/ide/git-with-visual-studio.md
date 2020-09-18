@@ -1,7 +1,7 @@
 ---
 title: New Git experience in Visual Studio (Preview)
 titleSuffix: ""
-Description: Learn about the new Git experience in Visual Studio 2019
+Description: Learn about the new integrated Git experience in Visual Studio 2019
 ms.date: 09/21/2020
 ms.topic: conceptual
 ms.author: tglee
