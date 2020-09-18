@@ -14,12 +14,14 @@ sap.id: 8dedd10e-cb1c-2eb1-bcda-fe00b07ac903
 
 ## I'm unable to activate my Pluralsight benefit.
 
-Depending on which Visual Studio subscription or program membership you have, you may be eligible for up to six months of free, unlimited access to the entire Pluralsight catalog.  
+Depending on which Visual Studio subscription or program membership you have, you may be eligible for up to six months of free access to Pluralsight.  
 
-### How to activate 
-1. Sign in to the [subscriber portal](https://my.visualstudio.com/benefits). Locate the Pluralsight benefit tile in the Professional Development section and click on the Activate button. This will take you directly to the activation page on the Pluralsight website. 
-1. Create your account with Pluralsight by filling out the information form and click Redeem. You have 10 minutes to finish this step, otherwise you will need to start over with step 1. 
-1. Once your account has been created the Pluralsight benefit tile in the [subscriber portal](https://my.visualstudio.com/benefits) will be updated to show your remaining time period and expiry date. If you do not see this please try refreshing your browser.
+## How to activate 
+1. Sign in to the [subscriptions portal](https://my.visualstudio.com/benefits) and click on the Activate link on the Pluralsight benefit tile located in the Professional Development section on the Benefits page. 
+1. You'll be redirected to complete the Pluralsight subscription sign up form for the benefit level that's included with your Visual Studio subscription. Note:
+this registration page expires after a few minutes. If you don't complete the registration process before the page expires, return to step 1. 
+1. You will see a confirmation on the page and be asked to set a password. 
+1. After you activate your Pluralsight benefit, the appearance of the tile in the Visual Studio subscriptions portal will change to help you track the status of your subscription. You may need to refresh the portal to see this. 
 
-### More information 
+## More information 
 [Read more](https://docs.microsoft.com/visualstudio/subscriptions/vs-pluralsight) information on activation, eligibility, and FAQs about the Pluralsight benefit.  
