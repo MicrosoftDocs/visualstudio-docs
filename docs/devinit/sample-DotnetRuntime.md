@@ -14,11 +14,11 @@ ms.technology: devinit
 ---
 # .NET Core runtime
 
-This example illustrates how to customize the .NET Core Runtime [dotnet/runtime](https://github.com/dotnet/runtime) to automatically be provisioned in a [Codespace with Visual Studio 2019](https://docs.microsoft.com/visualstudio/codespaces/quickstarts/vs).
+This example illustrates how to customize the .NET Core Runtime [dotnet/runtime](https://github.com/dotnet/runtime) to automatically be provisioned with [GitHub Codespaces](https://github.com/features/codespaces).
 
 ## PostCloneSetup.ps1
 
-This script is called from _PostCloneSetup.ps1_ and can also be ran locally to set up the repository. This file needs to be in the same folder as _.devcontainer.json_.
+This script is called from _PostCloneSetup.ps1_ and can also be run locally to set up the repository. This file needs to be in the same folder as _.devcontainer.json_.
 
 ```batch
 devinit init

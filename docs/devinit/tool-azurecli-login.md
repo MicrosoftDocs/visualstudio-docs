@@ -18,7 +18,7 @@ The `azurecli-login` tool is used to sign into Azure Active Directory via [Azure
 
 ## Usage
 
-If both  properties are omitted or empty, then the tool will follow the [default](#default-behavior) behavior detailed below.
+If both properties are omitted or empty, then the tool will follow the [default](#default-behavior) behavior detailed below.
 
 | Name                                             | Type   | Required | Value                                                                          |
 |--------------------------------------------------|--------|----------|--------------------------------------------------------------------------------|

@@ -14,7 +14,7 @@ ms.technology: devinit
 ---
 # eShopOnWeb
 
-This example illustrates how to customize the dotnet architecture example [eShopOnWeb](https://github.com/dotnet-architecture/eShopOnWeb) to automatically be provisioned in a [GitHub Codespace for Visual Studio](https://docs.microsoft.com/visualstudio/codespaces/quickstarts/vs).
+This example illustrates how to customize the dotnet architecture example [eShopOnWeb](https://github.com/dotnet-architecture/eShopOnWeb) to automatically be provisioned with [GitHub Codespaces](https://github.com/features/codespaces).
 
 ## PostCloneSetup.ps1
 

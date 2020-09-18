@@ -28,7 +28,7 @@ The _.devinit.json_ file can also be specified explicitly via the `--file`/`-f` 
 
 ### Directories and relative paths
 
-Paths are relative to the location where devinit is running. Typically the current working directory from which `devinit` was executed.
+Paths are relative to the location where devinit is running. This is typically the current working directory from which `devinit` was executed.
 
 ## File Format
 

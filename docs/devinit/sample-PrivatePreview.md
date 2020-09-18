@@ -1,6 +1,6 @@
 ---
 title: Private Preview 
-description: Example customizations used in the GitHub Codespace for Visual Studio private preview repo.
+description: Example customizations used in the GitHub Codespaces Visual Studio preview beta repo.
 ms.date: 08/28/2020
 ms.topic: reference
 author: andster
@@ -14,7 +14,7 @@ ms.technology: devinit
 ---
 # Private preview
 
-This example illustrates how to customize a [GitHub Codespace for Visual Studio](https://docs.microsoft.com/visualstudio/codespaces/quickstarts/vs) to have the same features as the initial private preview.
+This example illustrates how to customize a codespace for Visual Studio to have the same features as the initial [GitHub Codespaces](https://github.com/features/codespaces) private beta.
 
 ## .devinit.json
 

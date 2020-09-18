@@ -29,7 +29,7 @@ Optional options for the `devinit init` command.
 | Argument             | Required | Description                                                               |
 |----------------------|----------|---------------------------------------------------------------------------|
 | -f, --file           | No       | Path to the _.devinit.json_ file.                                         |
-| --error-action       | No       | Specfies how to handle errors. Options: Stop, Ignote, Continue (default). |
+| --error-action       | No       | Specifies how to handle errors. Options: Stop, Ignore, Continue (default). |
 | -v,--verbose         | No       | Emit verbose output.                                                      |
 | -n,--dry-run         | No       | Dry run.                                                                  |
 
@@ -48,11 +48,11 @@ Options for the `devinit run` command.
 | Argument                                  | Required | Description                                                                          |
 |--------------------------------|----------|--------------------------------------------------------------------------------------|
 | -t,--tool                                 | Yes      | Required. The tool name.                                                             |
-| -i,--input                                | No       | The tool input value. For example, filename, package name.                           |
+| -i,--input                                | No       | The tool input value. For example, a filename, package, or name.                           |
 | --error-action                            | No       | Specifies how to handle tool errors: Stop, Ignore, Continue. The default is to stop. |
 | -v,--verbose                              | No       | Emit verbose output.                                                                 |
 | -n,--dry-run                              | No       | Dry run.                                                                             |
-| --&lt;arg1&gt; &lt;arg2&gt; &lt;argN&gt;  | No       | Additional command line arguments to the tool.                                       |
+| --&lt;arg1&gt; &lt;arg2&gt; &lt;argN&gt;  | No       | Additional command-line arguments to the tool.                                       |
 
 #### Note on additional command line arguments
 

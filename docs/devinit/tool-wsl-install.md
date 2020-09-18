@@ -43,7 +43,7 @@ The URI for the AppX application distribution package (`.appx`) containing the d
 | SUSE Linux Enterprise Server 12 | https://aka.ms/wsl-sles-12                                    |
 
 >
->!TIP ARM distros are not currently supported in GitHub Codespaces for Visual Studio.
+>!TIP ARM distros are not currently supported in GitHub Codespaces.
 >
 
 ### Additional options
