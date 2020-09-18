@@ -42,6 +42,9 @@ Not yet available:
 * Quick Info* - Colorization in quick info is not supported.
 * HTML, CSS, Razor editors* - Diagnostics, intellisense completion, quick info, smart indent. Currently no support for semantic colorization, navigation commands, etc.
 * JavaScript editor* - Script blocks (for example, JavaScript content in HTML and CSHTML files) and semantic highlighting are not yet supported. Known issues with lightbulb features and linting.
+* CMake Targets View
+* CmakeSettings editor
+* Ctrl+F7 (compile file)
 * CodeLens
 * Code snippets
 * IntelliCode
@@ -87,7 +90,7 @@ Not yet available:
 * UI customizations - Pinnable properties and hide template parameters not supported.
 * Visualizers - C++ natvis partially supported. Dissassembly window, XAML Visual diagnostics, Custom .NET Visualizers, and Dataset Visualizers are not supported.
 * Additional debugger windows - Processes windows partially supported. Parallel Stacks window - Tasks View, Diagnostics Hub, and Find source/symbol dialog are not supported.
-* Some debugger workflows - Attach to process, Just in Time (JIT) debugger, Dump debugging, and IntelliTrace are not supported. C++ Just My Code stepping is partially supported.
+* Some debugger workflows - Attach to process, Just in Time (JIT) debugger, Dump debugging, Profiling, and IntelliTrace are not supported. C++ Just My Code stepping is partially supported.
 * Edit and Continue - Not supported for both managed and native code.
 * Threading features - Freeze/thaw threads, Rename thread, and show threads in source are not supported.
 * Additional stepping features - Automatic Step over properties and operators (.NET Core) and Step into Specific are not supported. 
