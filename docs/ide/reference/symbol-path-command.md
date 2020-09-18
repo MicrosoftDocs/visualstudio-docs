@@ -32,14 +32,14 @@ Optional. A semi-colon delimited list of paths for the debugger to search for sy
 ## Remarks
 If no `pathname` is specified, the command lists the current symbol paths.
 
-## Example
+## Example 1
 This example adds two paths to the list of symbol directories.
 
 ```
 Debug.SymbolPath C:\Symbol Path 1;C:\Symbol Path 2
 ```
 
-## Example
+## Example 2
 This example displays a semi-colon delimited list of current symbol paths.
 
 ```
