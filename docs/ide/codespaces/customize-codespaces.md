@@ -79,13 +79,13 @@ GitHub Codespaces support the following *devcontainer.json* properties. Setting 
 
 ## Customize with devinit
 
-`devinit.exe` is a command-line tool included in Windows Codespaces that lets you install [frameworks and tools](point to tool list) into your environment. It can be run manually from a command prompt (`devinit -t require-dotnetcoresdk`) but its real power comes from creating a custom *.devinit.json*  file to uniformly configure a codespace whenever you create one.
+[devinit.exe](../devinit/getting-started-with-devinit) is a command-line tool included in Windows Codespaces that lets you install frameworks and tools into your environment. It can be run manually from a command prompt (`devinit -t require-dotnetcoresdk`) but its real power comes from creating a custom [*.devinit.json* ](../devinit/devinit-json.md) file to uniformly configure a codespace whenever you create one.
 
-`devinit` includes a set of tools for installing specific items, such as SQL Server and the Azure CLI, and also running general package managers such as chocolatey, npm, and vcpkg. You can find the complete list of `devinit` tools in the [devinit Tools]() documentation.
+`devinit` includes a set of tools for installing specific items, such as SQL Server and the Azure CLI, and also running general package managers such as chocolatey, npm, and vcpkg. You can find the complete list of `devinit` tools in the [devinit Tools](../devinit/devinit-tool-list.md) documentation.
 
 ### devinit.json
 
-While you can run the `devinit` command line directly, we recommend creating [*devinit.json*]() configuration files, which describe the set of `devinit` tools to run along with additional inputs. 
+While you can run the `devinit` command line directly, we recommend creating [*devinit.json*](../devinit/devinit-json.md) configuration files, which describe the set of `devinit` tools to run along with additional inputs. 
 
 For example, to install the [.NET Core SDK], a *.devinit.json* would look like:
 
@@ -147,7 +147,7 @@ Contents of the *.devinit.json* file. This file needs to be in the same folder a
 }
 ```
 
-You can find more `devinit` examples in the `devinit` [Samples]().
+You can find more `devinit` examples in the `devinit` [Samples](../devinit/sample-readme.md).
 
 ## Port Forwarding
 

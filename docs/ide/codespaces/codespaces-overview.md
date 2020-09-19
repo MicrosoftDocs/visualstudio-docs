@@ -59,7 +59,7 @@ Flexible configuration allows developers to rapidly onboard on projects with uni
 
 We know that preserving personal preferences is critical to make developing on a cloud-hosted codespace feel familiar and natural. GitHub Codespaces layers individualized customizations on top of a codespace configuration. Personal preferences and configuration for editors and  terminals are supported by GitHub Codespaces.
 
-A codespace can be created with a user-specific collection of [custom dotfiles](https://docs.github.com/en/github/developing-online-with-codespaces/personalizing-codespaces-for-your-account) (for example, `.bashrc`, `.gitconfig`, etc.), and GitHub Codespaces automatically synchronizes your Git identity, themes, and settings so every codespace you create looks and feels the way you like, regardless of the project-specific environment capabilities.
+A codespace can be created with a user-specific collection of [custom dotfiles](https://docs.github.com/github/developing-online-with-codespaces/personalizing-codespaces-for-your-account) (for example, `.bashrc`, `.gitconfig`, etc.), and GitHub Codespaces automatically synchronizes your Git identity, themes, and settings so every codespace you create looks and feels the way you like, regardless of the project-specific environment capabilities.
 
 ## See also
 
