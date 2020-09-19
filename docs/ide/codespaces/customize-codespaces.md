@@ -149,7 +149,7 @@ Contents of the *.devinit.json* file. This file needs to be in the same folder a
 
 You can find more `devinit` examples in the `devinit` [Samples list](../../devinit/sample-readme.md).
 
-## Port Forwarding
+## Port forwarding
 
 GitHub Codespaces provides access to the applications and services running in the remote environments by means of port forwarding. By default, no ports are forwarded for security concerns. However, there are several ways to open ports in a codespace.
 
