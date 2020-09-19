@@ -1,6 +1,7 @@
 ---
 title: "Cross-Platform Mobile Development in Visual Studio | Microsoft Docs"
-ms.custom: ""
+titleSuffix: ""
+ms.custom: SEO-VS-2020
 ms.date: "10/17/2019"
 ms.technology: vs-ide-mobile
 ms.topic: "conceptual"
@@ -76,7 +77,6 @@ With Visual Studio Tools for Xamarin, you can target Android, iOS, and Windows i
 |[Intro to the Universal Windows Platform](/windows/uwp/get-started/universal-application-platform-guide)|
 |[Create your first app](/windows/uwp/get-started/your-first-app)|
 |[Develop apps for the Universal Windows Platform (UWP)](../cross-platform/develop-apps-for-the-universal-windows-platform-uwp.md)|
-|[Migrate apps to the Universal Windows Platform (UWP)](https://msdn.microsoft.com/library/mt148501.aspx)|
 
 ::: moniker range="vs-2017"
 

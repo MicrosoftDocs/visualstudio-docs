@@ -1,5 +1,6 @@
 ---
 title: Create a simple data application by using ADO.NET
+ms.custom: SEO-VS-2020
 ms.date: 08/23/2017
 ms.topic: conceptual
 dev_langs:

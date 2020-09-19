@@ -21,7 +21,7 @@ For ASP.NET Core projects, it is recommended that you use the [NuGet package](..
 
 The [TypeScript npm package](https://www.npmjs.com/package/typescript) adds TypeScript support. When the npm package for TypeScript 2.1 or higher is installed into your project, the corresponding version of the TypeScript language service gets loaded in the editor.
 
-1. [Follow instructions](/visualstudio/ide/quickstart-nodejs?toc=/visualstudio/javascript/toc.json) to install the Node.js development workload and the Node.js runtime.
+1. [Follow instructions](../ide/quickstart-nodejs.md?toc=%252fvisualstudio%252fjavascript%252ftoc.json) to install the Node.js development workload and the Node.js runtime.
 
    For the simplest integration with Visual Studio, create your project using one of the Node.js TypeScript templates, such as the Blank Node.js Web Application template. Otherwise, use either a Node.js JavaScript template included with Visual Studio and follow instructions here, or use an [Open Folder](../javascript/develop-javascript-code-without-solutions-projects.md) project.
 

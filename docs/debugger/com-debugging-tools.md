@@ -40,5 +40,5 @@ The MFC ActiveX samples OCLIENT and SUPERPAD are also available to test your app
 - [COM Debugging Tools](../debugger/com-debugging-tools.md)
 - [Debugging in Visual Studio](../debugger/index.yml)
 - [First look at the debugger](../debugger/debugger-feature-tour.md)
-- [OCLIENT Sample: Illustrates a Visual Editing Container Application](https://msdn.microsoft.com/library/8cd5c234-9a4e-4934-8f5d-bac189ad92c4)
-- [SUPERPAD Sample: Demonstrates a Visual Editing Server That Edits Text Using CEditView](https://msdn.microsoft.com/library/7b14e975-d986-4e6a-8289-226485cfcb72)
+- [OCLIENT Sample: Illustrates a Visual Editing Container Application](/previous-versions/c2f86tzd(v=vs.100))
+- [SUPERPAD Sample: Demonstrates a Visual Editing Server That Edits Text Using CEditView](/previous-versions/ms177543(v=vs.100))

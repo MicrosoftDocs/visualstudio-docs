@@ -227,7 +227,7 @@ These tips can help you get started with TAP in Unity:
 * Asynchronous functions that return a task should have the suffix **"Async"** appended to their names. The "Async" suffix helps indicate that a function should always be awaited.
 * Only use the `async void` return type for functions that fire off async functions from traditional synchronous code. Such functions cannot themselves be awaited and shouldn't have the "Async" suffix in their names.
 * Unity uses the UnitySynchronizationContext to ensure async functions run on the main thread by default. The Unity API isn't accessible outside of the main thread.
-* It's possible to run tasks on background threads with methods like [`Task.Run`](https://msdn.microsoft.com/library/hh195051.aspx) and [`Task.ConfigureAwait(false)`](https://msdn.microsoft.com/library/system.threading.tasks.task.configureawait.aspx). This technique is useful for offloading expensive operations from the main thread to enhance performance. However, using background threads can lead to problems that are difficult to debug, such as [race conditions](https://wikipedia.org/wiki/Race_condition).
+* It's possible to run tasks on background threads with methods like [`Task.Run`](/dotnet/api/system.threading.tasks.task.run) and [`Task.ConfigureAwait(false)`](/dotnet/api/system.threading.tasks.task.configureawait). This technique is useful for offloading expensive operations from the main thread to enhance performance. However, using background threads can lead to problems that are difficult to debug, such as [race conditions](https://wikipedia.org/wiki/Race_condition).
 * The Unity API isn't accessible outside the main thread.
 * Tasks that use threads aren't supported on Unity WebGL builds.
 

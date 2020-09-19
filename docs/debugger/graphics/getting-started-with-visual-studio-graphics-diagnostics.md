@@ -50,7 +50,7 @@ In this section you'll prepare to use Graphics Diagnostics for the first time, t
 If you already have your own Direct3D app to explore Graphics Diagnostics with, great! Otherwise, use one of the following:
 
 ::: moniker range=">=vs-2019"
-Download a sample from [Direct3D Game Sample](https://docs.microsoft.com/samples/microsoft/windows-universal-samples/simple3dgamedx/).
+Download a sample from [Direct3D Game Sample](/samples/microsoft/windows-universal-samples/simple3dgamedx/).
 ::: moniker-end
 ::: moniker range="vs-2017"
 - The **DirectX 11 App (Universal Windows)** or **DirectX 12 App (Universal Windows)** project templates for Windows 10.

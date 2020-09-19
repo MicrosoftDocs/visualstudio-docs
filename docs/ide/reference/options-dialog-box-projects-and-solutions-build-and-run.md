@@ -1,5 +1,6 @@
 ---
-title: Options Dialog Box, Projects and Solutions, Build and Run
+title: Options dialog, Projects and Solutions, Build and Run
+ms.custom: SEO-VS-2020
 ms.date: 07/14/2017
 ms.technology: vs-ide-compile
 ms.topic: reference

@@ -31,7 +31,7 @@ If you're looking for F1 help on a keyword or API name, be sure you position the
 ## Search for help on a keyword or API name
 
 If you're looking for F1 help on a keyword or API name:
-- Try searching on [docs.microsoft.com](https://docs.microsoft.com)
+- Try searching on [docs.microsoft.com](/)
 - Try searching using a search engine.
 - Search for reference documentation on [.NET API browser](/dotnet/api/).
 

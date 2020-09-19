@@ -15,14 +15,11 @@ Use the Microsoft Globalization Rules rule set to focus on problems that might p
 
 |Rule|Description|
 |----------|-----------------|
-|[CA1300](../code-quality/ca1300.md)|Specify MessageBoxOptions|
-|[CA1301](../code-quality/ca1301.md)|Avoid duplicate accelerators|
-|[CA1302](../code-quality/ca1302.md)|Do not hardcode locale-specific strings|
 |[CA1303](../code-quality/ca1303.md)|Do not pass literals as localized parameters|
 |[CA1304](../code-quality/ca1304.md)|Specify CultureInfo|
 |[CA1305](../code-quality/ca1305.md)|Specify IFormatProvider|
-|[CA1306](../code-quality/ca1306.md)|Set locale for data types|
-|[CA1307](../code-quality/ca1307.md)|Specify StringComparison|
+|[CA1307](../code-quality/ca1307.md)|Specify StringComparison for clarity|
 |[CA1308](../code-quality/ca1308.md)|Normalize strings to uppercase|
 |[CA1309](../code-quality/ca1309.md)|Use ordinal StringComparison|
+|[CA1310](../code-quality/ca1310.md)|Specify StringComparison for correctness|
 |[CA2101](../code-quality/ca2101.md)|Specify marshaling for P/Invoke string arguments|

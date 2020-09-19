@@ -1,5 +1,6 @@
 ---
-title: 'Scenario: Change your design using visualization and modeling'
+title: 'Change your design using visualization and modeling'
+description: Overview of the visualization and modeling tools in Visual Studio.
 ms.date: 11/04/2016
 ms.topic: overview
 helpviewer_keywords:
@@ -12,6 +13,7 @@ helpviewer_keywords:
 - walkthroughs [Visual Studio ALM], modeling software
 author: JoshuaPartlow
 ms.author: joshuapa
+ms.custom: SEO-VS-2020
 manager: jillfra
 ms.workload:
 - multiple
@@ -478,5 +480,5 @@ Dependency diagrams help you:
 
 - [Visualize code](../modeling/visualize-code.md)
 - [Use models in your development process](../modeling/use-models-in-your-development-process.md)
-- [Use models in Agile development](https://msdn.microsoft.com/592ac27c-3d3e-454a-9c38-b76658ed137f)
+- [Use models in Agile development](/previous-versions/ff398061(v=vs.140))
 - [Validate your system during development](../modeling/validate-your-system-during-development.md)

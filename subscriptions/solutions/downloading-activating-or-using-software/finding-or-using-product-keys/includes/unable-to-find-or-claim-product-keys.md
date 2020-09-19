@@ -1,5 +1,5 @@
 ---
-title: I'm unable to find or claim a product key
+title: Unable to find or claim a product key
 description: I'm unable to find or claim a product key, included with my Visual Studio subscription.
 ms.topic: include
 ms.assetid: 83a4f1ed-c77c-4b9c-b02d-bd929bd31072
@@ -12,8 +12,16 @@ subscription.type: vl, cloud, retail, partner
 sap.id: b57b561c-d839-7050-131d-109cfb54781d
 ---
 
-## The product keys available to you depends on the subscription you're using. If you have more than one subscription associated with the same sign-in address, you will see the product keys included with the highest-level subscription, regardless of which subscription you're viewing.  
+## I'm unable to find or claim a product key.
 
-All keys are also available in aggregate on the Product Keys page. When multiple keys exist for a single product, notes will be displayed on the Notes column for the download to assist you in identifying which key should be use
+The product keys available to you depends on the Visual Studio subscription you're using.  
 
-Steps to be added here.
+## Product keys page 
+
+The [Product Keys](https://my.visualstudio.com/productkeys) page lists all keys available to you in aggregate. You can edit the notes column for identifying when and why you claimed the key. There are different key types, depending on the product. Some keys you’ll need to claim and others will be visible to you right away. 
+
+If you don’t see a key or product, it’s possible that the product is not available for your subscription level. You can [download an extensive list](https://download.microsoft.com/download/1/5/4/15454442-CF17-47B9-A65D-DF84EF88511B/Visual_Studio_by_Subscription_Level.xlsx) of available software titles for all subscription types. To check what types are assigned to you, view your subscriptions in the [subscriptions portal](https://my.visualstudio.com/subscriptions).  
+
+## More information 
+
+[Read more](https://docs.microsoft.com/visualstudio/subscriptions/find-keys) about product key types and claiming product keys.  

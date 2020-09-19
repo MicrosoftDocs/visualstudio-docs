@@ -12,5 +12,14 @@ subscription.type: vl, cloud, retail, partner
 sap.id: 8dedd10e-cb1c-2eb1-bcda-fe00b07ac903
 ---
 
-## You can only have one Azure subscription associated with the Visual Studio Subscriptions monthly Azure dev/test individual credit. If you’ve previously activated the monthly Azure credit associated with your Visual Studio subscription, you will need use that Azure subscription or delete it to spin up a new one associated with the credit. You can transfer your resources to save your work.
-1. Steps to be added here.
+## I'm getting an error while trying to activate my Azure monthly credit.
+
+You can only have one Azure dev/test individual credit benefit per Azure subscription associated with your Visual Studio subscription. You may be seeing an error if you’ve previously activated the monthly Azure credit. If you're unsure if you activated the credit, log into the [Azure portal](https://portal.azure.com/) to verify. 
+
+## Verify your email 
+
+When you activate your monthly credit, we link the email that you used during activation with your Visual Studio subscription.  
+
+You may have associated an [alternate account](https://docs.microsoft.com/visualstudio/subscriptions/vs-alternate-identity) with your Visual Studio subscription. Adding an alternate account to your Visual Studio subscription allows you to access the subscription benefits, like Azure DevOps and Azure, with a different identity than that which the subscription is assigned to.  
+
+You will need to sign into the [Azure portal](https://portal.azure.com/) with the email you set the account up with. For example, if you activated your monthly credit with your alternate account, you must always sign into your Azure subscription with that email. You can check if you've added an alternate account at the bottom of the [subscriptions page](https://my.visualstudio.com/subscriptions) in the portal.

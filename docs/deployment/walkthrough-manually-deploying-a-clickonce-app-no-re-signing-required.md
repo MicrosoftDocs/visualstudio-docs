@@ -1,5 +1,6 @@
 ---
-title: "Manually deploy ClickOnce apps preserving branding"
+title: "Manually deploy ClickOnce app & keep branding"
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs:

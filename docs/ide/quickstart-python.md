@@ -1,5 +1,6 @@
 ---
-title: "Quickstart: use Visual Studio to create a Python web app"
+title: "Quickstart: Create a Python web app with Visual Studio"
+titleSuffix: ""
 description: In this quickstart, you use Visual Studio and the Flask framework to build a simple web app in Python.
 ms.date: 03/07/2019
 ms.technology: vs-python
@@ -7,6 +8,7 @@ ms.topic: quickstart
 author: JoshuaPartlow
 ms.author: joshuapa
 manager: jillfra
+ms.custom: SEO-VS-2020
 ms.workload:
   - python
   - data-science

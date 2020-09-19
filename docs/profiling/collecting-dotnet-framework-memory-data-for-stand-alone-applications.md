@@ -1,5 +1,6 @@
 ---
-title: Get .NET Framework memory data using profiler command line
+title: Profiler command line - Get .NET memory data
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 ms.assetid: 7bce69e2-407c-4342-8516-641586968928

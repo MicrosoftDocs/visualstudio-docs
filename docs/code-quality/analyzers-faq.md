@@ -55,7 +55,7 @@ In addition to rule sets and EditorConfig files, some analyzers are configured t
 
 **Q**: What's the difference between legacy analysis and .NET Compiler Platform-based code analysis?
 
-**A**: .NET Compiler Platform-based code analysis analyzes source code in real time and during compilation, whereas legacy analysis analyzes binary files after build has completed. For more information, see [.NET Compiler Platform-based analysis versus legacy analysis](roslyn-analyzers-overview.md#source-code-analysis-versus-legacy-analysis) and [FxCop analyzers FAQ](fxcop-analyzers-faq.md).
+**A**: .NET Compiler Platform-based code analysis analyzes source code in real time and during compilation, whereas legacy analysis analyzes binary files after build has completed. For more information, see [.NET Compiler Platform-based analysis versus legacy analysis](../code-quality/fxcop-analyzers-faq.md#whats-the-difference-between-legacy-fxcop-and-fxcop-analyzers).
 
 ## Treat warnings as errors
 
@@ -86,7 +86,7 @@ In addition to rule sets and EditorConfig files, some analyzers are configured t
 
 **Q**: Where is the Code Analysis property page for the solution?
 
-**A**: The Code Analysis property page at the solution level was removed in favor of the more reliable shared property group. For managing Code Analysis at the project level, the Code Analysis property page is still available. (For managed projects, we also recommend migrating from rulesets to EditorConfig for rule configuration.)  For sharing rulesets across multiple/all projects in a solution or a repo, we recommend defining a property group with CodeAnalysisRuleSet property in a shared props/targets file or Directory.props/Directory.targets file. If you don't have any such common props or targets that all your projects import, you should consider [adding such a property group to a Directory.props or a Directory.targets at a top level solution directory, which is automatically imported in all project files defined in the directory or its sub-directories](https://docs.microsoft.com/visualstudio/msbuild/customize-your-build?directorybuildprops-and-directorybuildtargets).
+**A**: The Code Analysis property page at the solution level was removed in favor of the more reliable shared property group. For managing Code Analysis at the project level, the Code Analysis property page is still available. (For managed projects, we also recommend migrating from rulesets to EditorConfig for rule configuration.)  For sharing rulesets across multiple/all projects in a solution or a repo, we recommend defining a property group with CodeAnalysisRuleSet property in a shared props/targets file or Directory.props/Directory.targets file. If you don't have any such common props or targets that all your projects import, you should consider [adding such a property group to a Directory.props or a Directory.targets at a top level solution directory, which is automatically imported in all project files defined in the directory or its sub-directories](../msbuild/customize-your-build.md).
 
 ## See also
 

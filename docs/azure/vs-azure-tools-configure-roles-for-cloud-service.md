@@ -18,7 +18,7 @@ The information for your cloud service is stored in the following files:
 - **ServiceDefinition.csdef** - The service definition file defines the run-time settings for your cloud service including what roles are required, endpoints, and virtual machine size. None of the data stored in `ServiceDefinition.csdef` can be changed when your role is running.
 - **ServiceConfiguration.cscfg** - The service configuration file configures how many instances of a role are run and the values of the settings defined for a role. The data stored in `ServiceConfiguration.cscfg` can be changed while your role is running.
 
-To store different values for the settings that control how a role runs, you can define multiple service configurations. You can use a different service configuration for each deployment environment. For example, you can set your storage account connection string to use the local Azure storage emulator in a local service configuration and create another service configuration to use Azure storage in the cloud.
+To store different values for the settings that control how a role runs, you can define multiple service configurations. You can use a different service configuration for each deployment environment. For example, you can set your storage account connection string to use the local Azure Storage Emulator in a local service configuration and create another service configuration to use Azure storage in the cloud.
 
 When you create an Azure cloud service in Visual Studio, two service configurations are automatically created and added to your Azure project:
 
@@ -134,7 +134,7 @@ The following steps show how to programmatically access a connection string usin
     ```
 
 ## Add custom settings to use in your Azure cloud service
-Custom settings in the service configuration file let you add a name and value for a string for a specific service configuration. You might choose to use this setting to configure a feature in your cloud service by reading the value of the setting and using this value to control the logic in your code. You can change these service configuration values without having to rebuild your service package or when your cloud service is running. Your code can check for notifications of when a setting changes. See [RoleEnvironment.Changing Event](https://msdn.microsoft.com/library/azure/microsoft.windowsazure.serviceruntime.roleenvironment.changing.aspx).
+Custom settings in the service configuration file let you add a name and value for a string for a specific service configuration. You might choose to use this setting to configure a feature in your cloud service by reading the value of the setting and using this value to control the logic in your code. You can change these service configuration values without having to rebuild your service package or when your cloud service is running. Your code can check for notifications of when a setting changes. See [RoleEnvironment.Changing Event](/previous-versions/azure/reference/ee758134(v=azure.100)).
 
 You can add, remove, or modify custom settings for your service configurations. You might want different values for these strings for different service configurations.
 
@@ -263,4 +263,4 @@ To view the file created by the code in the previous section, follow these steps
 1. When the Windows Explorer window opens, enter `MyLocalStorageTest.txt`` into the **Search** text box, and select **Enter** to start the search.
 
 ## Next steps
-Learn more about Azure projects in Visual Studio by reading [Configuring an Azure Project](vs-azure-tools-configuring-an-azure-project.md). Learn more about the cloud service schema by reading [Schema Reference](https://msdn.microsoft.com/library/azure/dd179398).
+Learn more about Azure projects in Visual Studio by reading [Configuring an Azure Project](vs-azure-tools-configuring-an-azure-project.md). Learn more about the cloud service schema by reading [Schema Reference](/previous-versions/azure/dd179398(v=azure.100)).

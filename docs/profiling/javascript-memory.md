@@ -357,7 +357,7 @@ if (performance && performance.mark) {
 
 - Watch the latter part of [this video](https://channel9.msdn.com/Events/Build/2013/3-316) from the Build 2013 conference about the JavaScript memory analyzer.
 
-- Read [Managing memory in UWP apps](https://msdn.microsoft.com/magazine/jj651575.aspx).
+- Read [Managing memory in UWP apps](/archive/msdn-magazine/2012/windows-8-special-issue/javascript-managing-memory-in-windows-store-apps).
 
 - Consider temporarily modifying code to isolate problems. For example, you might want to:
 
