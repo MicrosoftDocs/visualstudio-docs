@@ -49,13 +49,13 @@ Cloud-hosted codespaces provide the following benefits:
 - They have predictable pricing and you only pay for what you use. And, there's built-in autosuspend to eliminate runaway costs.
 - They save compute resources. When you move your development workload to the cloud, it frees the limited resources on your personal machine.
 
-### Custom configuration
+## Custom configuration
 
 GitHub Codespaces is built to accommodate the widest variety of projects or tasks. You can start with smart-configuration features that provide common defaults, or fine-tune a codespace with [custom configuration](customize-codespaces.md).
 
 Flexible configuration allows developers to rapidly onboard on projects with unique configuration and requirements that are difficult to apply on a local machine. Additionally, reproducible codespaces eliminate "works on my machine" problems.
 
-### Personal configuration
+## Personal configuration
 
 We know that preserving personal preferences is critical to make developing on a cloud-hosted codespace feel familiar and natural. GitHub Codespaces layers individualized customizations on top of a codespace configuration. Personal preferences and configuration for editors and  terminals are supported by GitHub Codespaces.
 
