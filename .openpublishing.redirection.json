@@ -14349,6 +14349,11 @@
       "source_path": "scripting-docs/winscript/windows-script-interfaces.md",
       "redirect_url": "https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/windows-scripting/windows-script-interfaces",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/devinit/index.md",
+      "redirect_url": "/visualstudio/devinit/getting-started-with-devinit",
+      "redirect_document_id": false
     }
   ]
 }
