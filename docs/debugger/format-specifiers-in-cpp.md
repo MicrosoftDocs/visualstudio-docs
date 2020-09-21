@@ -72,7 +72,7 @@ The following tables describe the format specifiers that you can use in Visual S
 |bb|unsigned binary integer(without leading 0b)|25|00000000000000000000000000011001|
 |e|scientific notation|25000000|2.500000e+07|
 |g|shorter of scientific or floating point|25000000|2.5e+07|
-|c|single character|0x0065, c|101 'e'|
+|c|single character|0x0065|101 'e'|
 |s|const char* string (with quotation marks)|\<location> "hello world"|"hello world"|
 |**sb**|const char* string (no quotation marks)|\<location> "hello world"|hello world|
 |s8|UTF-8 string|\<location> "This is a UTF-8 coffee cup â˜•"|"This is a UTF-8 coffee cup ☕"|
