@@ -1,5 +1,5 @@
 ---
-title: How to - Publish a Project That Has a Specific Locale | Microsoft Docs
+title: Publish a project that has a specific locale
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs: 

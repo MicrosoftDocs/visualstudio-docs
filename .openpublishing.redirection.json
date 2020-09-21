@@ -14351,6 +14351,11 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "docs/devinit/index.md",
+      "redirect_url": "/visualstudio/devinit/getting-started-with-devinit",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/containers/local-process-kubernetes.md",
       "redirect_url": "/visualstudio/containers/bridge-to-kubernetes",
       "redirect_document_id": true

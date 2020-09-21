@@ -1,5 +1,5 @@
 ---
-title: "Error - Unable to access the SQL Server debugging interface | Microsoft Docs"
+title: "Unable to access the SQL Server debugging interface | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "error-reference"
 f1_keywords:

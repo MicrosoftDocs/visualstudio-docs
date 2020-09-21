@@ -1,5 +1,5 @@
 ---
-title: "Error - Debugging Failed Because Integrated Windows Authentication Is Not Enabled | Microsoft Docs"
+title: "Debugging Failed Because Integrated Windows Authentication Is Not Enabled | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "error-reference"
 f1_keywords:

@@ -1,5 +1,5 @@
 ---
-title: How to - Expand and Collapse Spy++ Trees | Microsoft Docs
+title: Expand and Collapse Spy++ Trees | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords: 

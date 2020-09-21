@@ -1,5 +1,5 @@
 ---
-title: How to - Debug in Mixed Mode | Microsoft Docs
+title: Debug in Mixed Mode | Microsoft Docs
 ms.date: 11/05/2018
 ms.topic: how-to
 dev_langs: 

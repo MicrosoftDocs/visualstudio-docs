@@ -1,5 +1,5 @@
 ---
-title: "Error - Workgroup Remote Logon Failure | Microsoft Docs"
+title: "Workgroup Remote Logon Failure | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "error-reference"
 f1_keywords:

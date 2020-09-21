@@ -1,5 +1,5 @@
 ---
-title: "Error - Unable to connect to the machine &lt;name&gt;. The machine cannot be found on the network. | Microsoft Docs"
+title: "Unable to connect to the machine &lt;name&gt;. The machine cannot be found on the network. | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "error-reference"
 f1_keywords:

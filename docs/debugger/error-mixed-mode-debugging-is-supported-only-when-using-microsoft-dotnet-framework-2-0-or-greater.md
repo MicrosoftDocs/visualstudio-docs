@@ -1,5 +1,5 @@
 ---
-title: "Error - Mixed mode debugging is supported only when using Microsoft .NET Framework 2.0 or greater | Microsoft Docs"
+title: "Mixed mode debugging is supported only when using Microsoft .NET Framework 2.0 or greater | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "error-reference"
 f1_keywords:
