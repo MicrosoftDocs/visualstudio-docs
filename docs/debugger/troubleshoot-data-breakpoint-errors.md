@@ -1,5 +1,5 @@
 ---
-title: "Error - Unable to set data breakpoint | Microsoft Docs"
+title: "Unable to set data breakpoint | Microsoft Docs"
 ms.date: "12/3/2019"
 ms.topic: "error-reference"
 f1_keywords:
