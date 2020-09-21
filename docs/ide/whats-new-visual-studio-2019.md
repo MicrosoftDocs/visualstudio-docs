@@ -208,11 +208,11 @@ We update Visual Studio 2019 often with new features that can make your developm
 
 Meanwhile, here are a few of our new features currently in the works.
 
-- **Visual Studio 2019 support for Visual Studio Codespaces (Preview)**
+- **Visual Studio 2019 support for GitHub Codespaces (Preview)**
 
-  Now more than ever, developers are juggling multiple projects at work and at home. New features, bug fixes, PR reviews, &amp; prototypes all compete for time and require constant context-switching. [Visual Studio Codespaces](https://visualstudio.microsoft.com/services/visual-studio-codespaces/) can help. You can develop entirely in the cloud and create dedicated, custom environments for each of your projects in seconds. With Visual Studio 2019, you can connect to your codespace and work just as you would locally.
+  Now more than ever, developers are juggling multiple projects at work and at home. New features, bug fixes, PR reviews, &amp; prototypes all compete for time and require constant context-switching. [GitHub Codespaces](https://github.com/features/codespaces) can help. You can develop entirely in the cloud and create dedicated, custom environments for each of your projects in seconds. With Visual Studio 2019, you can connect to your codespace and work just as you would locally.
 
-  For more information, see the [What is Visual Studio Codespaces](/visualstudio/codespaces/overview/what-is-vsonline/) page.
+  For more information, see the [What is GitHub Codespaces](codespaces/codespaces-overview.md) page.
 
 - **Improved Git experience in Visual Studio 2019 (Preview)**
 
