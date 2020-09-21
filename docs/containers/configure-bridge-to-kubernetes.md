@@ -1,17 +1,17 @@
 ---
-title: "Using KubernetesLocalProcessConfig.yaml for additional configuration with for Local Process with Kubernetes"
+title: "Using KubernetesLocalProcessConfig.yaml for additional configuration with for Bridge to Kubernetes"
 services: azure-dev-spaces
 ms.date: 07/28/2020
 ms.topic: "conceptual"
-description: "Describes the additional configuration options for Local Process with Kubernetes using KubernetesLocalProcessConfig.yaml"
-keywords: "Local Process with Kubernetes, Azure Dev Spaces, Dev Spaces, Docker, Kubernetes, Azure, AKS, Azure Kubernetes Service, containers"
+description: "Describes the additional configuration options for Bridge to Kubernetes using KubernetesLocalProcessConfig.yaml"
+keywords: "Bridge to Kubernetes, Azure Dev Spaces, Dev Spaces, Docker, Kubernetes, Azure, AKS, Azure Kubernetes Service, containers"
 monikerRange: ">=vs-2019"
 author: ghogen
 ms.author: ghogen
 manager: jillfra
 ---
 
-# Configure Local Process with Kubernetes
+# Configure Bridge to Kubernetes
 
 The `KubernetesLocalProcessConfig.yaml` file allows you to replicate environment variables and mounted files available to your pods in your AKS cluster. You can specify the following actions in a `KubernetesLocalProcessConfig.yaml` file:
 
@@ -118,7 +118,7 @@ env:
 
 ## Next Steps
 
-To get started using Local Process with Kubernetes to connect to your local development computer to your cluster, see [Use Local Process with Kubernetes with Visual Studio Code][local-process-kubernetes-vs-code] and [Use Local Process with Kubernetes with Visual Studio][local-process-kubernetes-vs].
+To get started using Bridge to Kubernetes to connect to your local development computer to your cluster, see [Use Bridge to Kubernetes with Visual Studio Code][bridge-to-kubernetes-vs-code] and [Use Bridge to Kubernetes with Visual Studio][bridge-to-kubernetes-vs].
 
-[local-process-kubernetes-vs-code]: https://code.visualstudio.com/docs/containers/local-process-kubernetes
-[local-process-kubernetes-vs]: local-process-kubernetes.md
+[bridge-to-kubernetes-vs-code]: https://code.visualstudio.com/docs/containers/bridge-to-kubernetes
+[bridge-to-kubernetes-vs]: bridge-to-kubernetes.md
