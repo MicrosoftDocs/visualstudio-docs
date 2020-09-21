@@ -52,7 +52,7 @@ To view machine-code instructions in their raw numeric form, rather than as asse
 
 ## Use the Disassembly window
 
-To enable the **Disassembly** window, under **Tools** > **Options** (or **Tools** > **Options**) > **Debugging**, select **Enable address-level debugging**.
+To enable the **Disassembly** window, under **Tools** > **Options** > **Debugging**, select **Enable address-level debugging**.
 
 To open the **Disassembly** window during debugging, select **Windows** > **Disassembly** or press **Alt**+**8**.
 

@@ -85,7 +85,7 @@ If you don't have a problem to report but want to suggest a feature, there's a p
 
 ## See also
 
-* [Developer Community Guidelines](https://docs.microsoft.com/visualstudio/ide/developer-community-guidelines)
+* [Developer Community Guidelines](./developer-community-guidelines.md)
 * [Visual Studio feedback options](../ide/feedback-options.md)
 * [Report a problem with Visual Studio for Mac](/visualstudio/mac/report-a-problem)
 * [Report a problem with C++](/cpp/how-to-report-a-problem-with-the-visual-cpp-toolset)

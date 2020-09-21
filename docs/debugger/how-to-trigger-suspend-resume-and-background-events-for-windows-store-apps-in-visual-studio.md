@@ -1,6 +1,5 @@
 ---
 title: Trigger suspend/resume/background events when debugging UWP
-ms.custom: seodec18
 ms.date: 01/16/2018
 ms.topic: how-to
 f1_keywords: 

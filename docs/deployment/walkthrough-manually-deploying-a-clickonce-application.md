@@ -1,5 +1,6 @@
 ---
-title: "Walkthrough: Manually Deploying a ClickOnce Application | Microsoft Docs"
+title: "Manually deploy a ClickOnce app"
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs:

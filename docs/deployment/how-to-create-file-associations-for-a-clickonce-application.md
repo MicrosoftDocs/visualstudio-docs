@@ -1,5 +1,6 @@
 ---
-title: How to - Create File Associations For a ClickOnce Application | Microsoft Docs
+title: Create file associations (ClickOnce app)
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs: 

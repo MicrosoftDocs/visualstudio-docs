@@ -1,6 +1,6 @@
 ---
-title: Attach the profiler to a .NET service to collect memory data
-ms.custom: seodec18
+title: Attach profiler to .NET service to collect memory data
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 ms.assetid: aeac39af-ad99-479f-aa36-4104356ca512
@@ -11,7 +11,7 @@ monikerRange: 'vs-2017'
 ms.workload: 
   - dotnet
 ---
-# How to: Attach the profiler to a .NET service to collect memory data by using the command line
+# How to: Attach the profiler to a .NET Framework service to collect memory data by using the command line
 This article describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools command-line tools to attach the profiler to a .NET Framework service and collect memory data. You can collect data about the number and size of memory allocations, and you can also collect data about the lifetime of memory objects.
 
 > [!NOTE]
