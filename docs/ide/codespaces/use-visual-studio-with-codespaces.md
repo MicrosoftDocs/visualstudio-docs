@@ -23,6 +23,18 @@ Visual Studio has great support for developing in GitHub Codespaces. You can cre
 > [!NOTE]
 > If you don't have [Visual Studio 2019 Preview](https://aka.ms/vspreview) installed already, you can download it from [visualstudio.microsoft.com](https://aka.ms/vspreview).
 
+## Enable Connect to GitHub Codespaces
+
+Connecting to GitHub Codespaces with the Visual Studio 2019 Preview is not enabled by default, so you will first need to enable the Preview Features option.
+
+1. In Visual Studio 2019 Preview, use the **Tools** > **Options** menu item to open the Options dialog.
+
+2. Under **Environment**, select **Preview Features** and check the **Connect to GitHub Codespaces** preview feature.
+
+   ![Check the Connect to GitHub Codespaces preview feature](media/connect-to-github-codespaces-preview-feature.png)
+
+3. You will need to restart Visual Studio for the feature to be available.
+
 ## Creating a codespace
 
 If you don't already have a codespace, you can create one from Visual Studio.
@@ -41,7 +53,7 @@ If you don't already have a codespace, you can create one from Visual Studio.
 
    Under "Codespace details", you need to provide a **Repository URL**. GitHub Codespaces will clone the specified repository into your codespace when it is created.
 
-   You can also modify the **Instance Type** and **Suspend after** timeout via their dropdowns. Once you have set the codespace details, select the **Create and Connect** button.
+   You can also modify the **Instance type** and **Suspend after** timeout via their dropdowns. Once you have set the codespace details, select the **Create and Connect** button.
 
    ![Visual Studio codespace details](media/visual-studio-codespace-details.png)
 
@@ -65,7 +77,7 @@ If you don't already have a codespace, you can create one from Visual Studio.
 
 After you've created your codespace, you can open your codespace directly from Visual Studio.
 
-1. When you launch Visual Studio, the Start Window will show a **Connect to a codespace** button under "Get started".
+1. When you launch Visual Studio, the Start Window will show a **Connect to a Codespace** button under "Get started".
 
    ![Visual Studio Start window with Connect to a codespace](media/visual-studio-start-window.png)
 

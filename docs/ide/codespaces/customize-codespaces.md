@@ -54,7 +54,7 @@ While connected to a codespace with Visual Studio, you can use the Visual Studio
 
 ## Customize a codespace
 
-The real value of GitHub Codespaces comes when you can create unique, repeatable development environments in the cloud tailored for your own work as well as your team's. By building on a default GitHub Codespaces Instance Type, you can customize what is installed and configured when you create a new codespace.
+The real value of GitHub Codespaces comes when you can create unique, repeatable development environments in the cloud tailored for your own work as well as your team's. By building on a default GitHub Codespaces instance, you can customize what is installed and configured when you create a new codespace.
 
 The next sections will describe two codespace configuration methods using *.devcontainer.json* and *.devinit.json* files. These files let you configure the installation frameworks and tools for a codespace and when added to your repository, anyone creating a codespace based on your repository will have the same remote development environment.
 
