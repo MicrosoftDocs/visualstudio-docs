@@ -1,5 +1,6 @@
 ---
 title: JavaScript and TypeScript in Visual Studio 2019
+titleSuffix: ""
 ms.date: "03/16/2020"
 ms.technology: vs-javascript
 ms.topic: conceptual
