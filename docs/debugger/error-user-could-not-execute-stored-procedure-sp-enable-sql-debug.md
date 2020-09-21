@@ -1,5 +1,5 @@
 ---
-title: "Error - User Could Not Execute Stored Procedure sp_enable_sql_debug | Microsoft Docs"
+title: "User Could Not Execute Stored Procedure sp_enable_sql_debug | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "error-reference"
 dev_langs:

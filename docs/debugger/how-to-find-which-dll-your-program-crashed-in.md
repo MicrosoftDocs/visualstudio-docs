@@ -1,5 +1,5 @@
 ---
-title: How to - Find Which DLL Your Program Crashed In | Microsoft Docs
+title: Find Which DLL Your Program Crashed In | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: how-to
 f1_keywords: 

@@ -1,5 +1,6 @@
 ---
-title: How to - Automatically Increment the ClickOnce Publish Version | Microsoft Docs
+title: Auto-increment the ClickOnce publish version
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs: 

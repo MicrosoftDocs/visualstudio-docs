@@ -158,6 +158,6 @@ To learn more, continue with the following tutorial:
 
 ## See also
 
-* [More Visual Basic tutorials](/visualstudio/get-started/visual-basic/)
-* [C# tutorials](/visualstudio/get-started/csharp/)
+* [More Visual Basic tutorials](../get-started/visual-basic/index.yml)
+* [C# tutorials](../get-started/csharp/index.yml)
 * [C++ tutorials](/cpp/get-started/tutorial-console-cpp)

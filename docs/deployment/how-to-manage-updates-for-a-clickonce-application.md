@@ -1,5 +1,5 @@
 ---
-title: How to - Manage Updates for a ClickOnce Application | Microsoft Docs
+title: Manage Updates for a ClickOnce Application | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: how-to
 f1_keywords: 

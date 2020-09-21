@@ -1,5 +1,6 @@
 ---
-title: Get ASP.NET web app memory data using profiler command line
+title: Profiler command line - Get ASP.NET web app memory data
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords: 

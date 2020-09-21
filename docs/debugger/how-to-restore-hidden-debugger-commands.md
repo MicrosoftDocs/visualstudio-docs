@@ -1,5 +1,5 @@
 ---
-title: How to - Restore Hidden Debugger Commands | Microsoft Docs
+title: Restore Hidden Debugger Commands | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs: 

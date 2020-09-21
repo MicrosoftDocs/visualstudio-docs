@@ -1,5 +1,5 @@
 ---
-title: How to - Debug an ActiveX Control | Microsoft Docs
+title: Debug an ActiveX Control | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: how-to
 f1_keywords: 

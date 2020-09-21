@@ -1,13 +1,13 @@
 ---
-title: Maintainability Warnings
+title: Maintainability rules
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - vs.codeanalysis.maintainabilityrules
 helpviewer_keywords:
-- warnings, maintainability
-- managed code analysis warnings, maintainability warnings
-- maintainability warnings
+- rules, maintainability
+- managed code analysis rules, maintainability rules
+- maintainability rules
 ms.assetid: 537e70ca-a88c-49df-bfc7-0ee63bbe4f16
 author: mikejo5000
 ms.author: mikejo
@@ -15,9 +15,9 @@ manager: jillfra
 ms.workload:
 - multiple
 ---
-# Maintainability warnings
+# Maintainability rules
 
-Maintainability warnings support library and application maintenance.
+Maintainability rules support library and application maintenance.
 
 ## In this section
 

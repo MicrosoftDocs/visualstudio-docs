@@ -1,5 +1,6 @@
 ---
-title: Creating Profiler Reports from the Command Line | Microsoft Docs
+title: Profiling command line - Create reports
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 ms.assetid: c886f8af-2014-4fec-9b24-d98b68ecafb7
