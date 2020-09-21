@@ -22,7 +22,7 @@ devinit is currently only available as part of GitHub Codespaces when using Visu
 
 The most important step is to define your 'developer' environment in a [_.devinit.json_ file](devinit-json.md). This file will be used by devinit to create your environment when you run `devinit init`.
 
-For this step, think about the instructions you'd give someone to get up and running with a project repository. For example, do they need to have SQL installed? A specific version of .NET Core? etc. Then for each of those dependencies, look for a corresponding devinit tool in the [list of tools](devinit-tool-list.md)) and add that to the repository's _.devinit.json_ file.
+For this step, think about the instructions you'd give someone to get up and running with a project repository. For example, do they need to have SQL installed? A specific version of .NET Core? etc. Then for each of those dependencies, look for a corresponding devinit tool in the [list of tools](devinit-tool-list.md) and add that to the repository's _.devinit.json_ file.
 
 ## Step 3: Enjoy!
 
