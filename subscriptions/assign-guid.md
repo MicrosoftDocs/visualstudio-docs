@@ -1,9 +1,9 @@
 ---
 title: Assign specific GUIDs to Visual Studio subscribers | Microsoft Docs
 author: evanwindom
-ms.author: lank
-manager: lank
-ms.date: 04/20/2020
+ms.author: v-evwin
+manager: cabuschl
+ms.date: 09/21/2020
 ms.topic: conceptual
 description:  Learn how administrators can specific subscription GUID to subscribers
 ---
@@ -11,6 +11,8 @@ description:  Learn how administrators can specific subscription GUID to subscri
 # Assign specific subscriptions in the Visual Studio Subscriptions Administration Portal
 
 Administrators can now use the Visual Studio Subscriptions Administration Portal to assign specific subscriptions to individual subscribers.  This can be useful in situations where the organization has temporary staff or vendors that need access to a subscription for a short period.  Administrators can assign a subscription that has already been partially used, leaving their new subscriptions for longer term use.  
+
+Watch the video or read on to learn how assign specific subscriptions GUIDs to users. 
 
 <br>
 
@@ -52,7 +54,7 @@ The final step is to download the **Bulk add** template, fill out the required i
 > - The GUID is not already assigned to another user in the exported list. 
 
 ## Frequently asked questions
-### Q:How do I change which subscription is currently assigned to an individual user?
+### Q: How do I change which subscription is currently assigned to an individual user?
 A: If you want to change which GUID is assigned to a user, you must first delete the subscription for that user.  For more information, please see our [Delete subscriptions](delete-license.md) article for more information.  After deleting the subscription for that user, use the process outlined above to export the list and upload the new subscription information.  
 
 ## See also
