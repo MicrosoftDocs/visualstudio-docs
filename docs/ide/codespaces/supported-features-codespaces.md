@@ -92,7 +92,7 @@ Not yet available:
 * Breakpoints* - Breakpoint labels, Data breakpoints, and Set breakpoint in Disassembly window is in progress. Importing and exporting breakpoints is partially supported.
 * Locals, autos, watch windows* - Some functionality such as statement completion in search box and search box navigation.
 * UI customizations - Pinnable properties and hide template parameters not supported.
-* Visualizers - C++ natvis partially supported. Dissassembly window, XAML Visual diagnostics, Custom .NET Visualizers, and Dataset Visualizers are not supported.
+* Visualizers - C++ natvis partially supported. Disassembly window, XAML Visual diagnostics, Custom .NET Visualizers, and Dataset Visualizers are not supported.
 * Additional debugger windows - Processes windows partially supported. Parallel Stacks window - Tasks View, Diagnostics Hub, and Find source/symbol dialog are not supported.
 * Some debugger workflows - Attach to process, Just in Time (JIT) debugger, Dump debugging, Profiling, and IntelliTrace are not supported. C++ Just My Code stepping is partially supported.
 * Edit and Continue - Not supported for both managed and native code.
