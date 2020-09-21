@@ -65,4 +65,4 @@ Paths are relative to the location where devinit is running. This is typically t
 
 ## Examples
 
-For more examples of using devinit, see the [Samples section](/samples).
+For more examples of using devinit, see the [Samples section](sample-readme.md).

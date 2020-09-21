@@ -58,4 +58,4 @@ If anything that devinit installs requires a reboot of the OS, then an error mes
 
 devinit is all about enabling the use of the wide ecosystem that's out there to deploy and configure the dependencies your app might have. While devinit has an opinion about what it delivers, devinit is mostly about enabling other tools to be executed from a declarative JSON file.
 
-Today, devinit is just getting started and our [list of tools](/devinit-tool-list.md) is just a beginning.
+Today, devinit is just getting started and our [list of tools](devinit-tool-list.md) is just a beginning.

@@ -1,5 +1,5 @@
 ---
-title: How to - Install a Visualizer | Microsoft Docs
+title: Install a Visualizer | Microsoft Docs
 ms.date: 06/10/2020
 ms.topic: how-to
 dev_langs: 

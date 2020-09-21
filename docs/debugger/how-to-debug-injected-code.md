@@ -1,5 +1,5 @@
 ---
-title: How to - Debug Injected Code | Microsoft Docs
+title: Debug Injected Code | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: how-to
 f1_keywords: 

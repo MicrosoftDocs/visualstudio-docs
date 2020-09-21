@@ -1,5 +1,5 @@
 ---
-title: How to - Use Edit and Continue (C#) | Microsoft Docs
+title: Use Edit and Continue (C#) | Microsoft Docs
 ms.date: 10/04/2018
 ms.topic: how-to
 dev_langs: 

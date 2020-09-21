@@ -1,5 +1,5 @@
 ---
-title: How to - Display Spy++ Views | Microsoft Docs
+title: Display Spy++ Views | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords: 

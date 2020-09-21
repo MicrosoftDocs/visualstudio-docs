@@ -1,5 +1,5 @@
 ---
-title: How to - View Script Documents | Microsoft Docs
+title: View Script Documents | Microsoft Docs
 ms.date: 11/05/2019
 ms.topic: how-to
 dev_langs: 
