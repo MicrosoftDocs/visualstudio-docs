@@ -35,7 +35,7 @@ Connecting to GitHub Codespaces with the Visual Studio 2019 Preview is not enabl
 
 3. You will need to restart Visual Studio for the feature to be available.
 
-## Creating a codespace
+## Create a codespace
 
 If you don't already have a codespace, you can create one from Visual Studio.
 
@@ -73,7 +73,7 @@ If you don't already have a codespace, you can create one from Visual Studio.
 > [!NOTE]
 > At this time, you can not create GitHub Codespaces for Visual Studio through the GitHub [Codespaces portal](https://github.com/codespaces). You can only create them using Visual Studio.
 
-## Connecting to a codespace
+## Connect to a codespace
 
 After you've created your codespace, you can open your codespace directly from Visual Studio.
 
