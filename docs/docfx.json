@@ -27,8 +27,7 @@
           "vsdocsdocs/**",
           "**/includes/**",
           "missingapi.yml",
-          "vs-2015/**",
-          "gamedev/**"
+          "vs-2015/**"
         ]
       }
     ],
@@ -63,8 +62,7 @@
           "vsdocsdocs/**",
           "**/includes/**",
           "missingapi.yml",
-          "vs-2015/**",
-          "gamedev/**"
+          "vs-2015/**"
         ]
       }
     ],

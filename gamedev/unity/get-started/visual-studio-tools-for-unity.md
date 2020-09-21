@@ -26,12 +26,12 @@ But Visual Studio Tools for Unity is more than that; it also has deep integratio
 ### Compatible with Visual Studio Community on Windows and macOS and bundled with Unity
 Visual Studio and Visual Studio for Mac Community is available for free, and is bundled with Unity installs. Visit the Visual Studio Tools for Unity [getting started documentation](getting-started-with-visual-studio-tools-for-unity.md) for more information about installation and setup.
 
-### IntelliSense for Unity messages
+## IntelliSense for Unity messages
 IntelliSense code-completion makes it fast and easy to [implement Unity API messages](using-visual-studio-tools-for-unity.md#intellisense-for-unity-api-messages) like `OnCollisionEnter`, including their parameters.
 
 ![IntelliSense dialog showing OnCollisionEnter](../media/vs/intellisense-example.png)
 
-### Superior debugging
+## Superior debugging
 Visual Studio Tools for Unity supports the robust [debugging](using-visual-studio-tools-for-unity.md#unity-debugging) features that you expect from Visual Studio:
 
 * Set breakpoints, including conditional breakpoints.
@@ -41,12 +41,12 @@ Visual Studio Tools for Unity supports the robust [debugging](using-visual-studi
 
 ![Stopped on a breakpoint inspecting variables](../media/vs/debugging-inspecting.png)
 
-### Integrated suggestions for best practices and performance insights
+## Integrated suggestions for best practices and performance insights
 Write better code that captures the best practices with Visual Studio's deep understanding of Unity projects.
 
 ![VS refactoring string comparison with CompareTag](../media/vs/unity-diagnostics.png)
 
-### CodeLens support for Unity scripts and messages
+## CodeLens support for Unity scripts and messages
 Unity scripts and message functions are decorated with hints to make it easier to recognize what's provided by Unity and what's your code.
 
  ![New script showing CodeLens hints for Unity Script and Unity Message](../media/vs/codelens-support.png)
