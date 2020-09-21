@@ -14349,6 +14349,21 @@
       "source_path": "scripting-docs/winscript/windows-script-interfaces.md",
       "redirect_url": "https://docs.microsoft.com/previous-versions/windows/internet-explorer/ie-developer/windows-scripting/windows-script-interfaces",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/containers/local-process-kubernetes.md",
+      "redirect_url": "/visualstudio/containers/bridge-to-kubernetes",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/containers/overview-local-process-kubernetes.md",
+      "redirect_url": "/visualstudio/containers/overview-bridge-to-kubernetes",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/containers/configure-local-process-with-kubernetes.md",
+      "redirect_url": "/visualstudio/containers/configure-bridge-to-kubernetes",
+      "redirect_document_id": true
     }
   ]
 }
