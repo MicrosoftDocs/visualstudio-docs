@@ -25,7 +25,7 @@ This is **not meant to be an exhaustive list**, but to explain Visual Studio's g
 > If there is a feature you are missing while using codespaces with Visual Studio, please let us know by opening an issue on https://developercommunity.visualstudio.com/. This helps us prioritize the most wanted features.
 
 > [!NOTE]
-> The features described below are for Visual Studio and not the two other GitHub Codespaces clients, Visual Studio Code and the in-browser editor.
+> The features described below are for Visual Studio and not the two other GitHub Codespaces clients; Visual Studio Code and the in-browser editor.
 
 ## Edit and navigation
 
@@ -101,7 +101,7 @@ Not yet available:
 
 ## Features
 
-Since you are working with the Visual Studio client connected to a remote environment, you get the same accessibility features as when working locally.
+When working with Visual Studio connected to a codespace, you get the same accessibility features as when working locally.
 
 * Source Control - Full Git support through the new [Git window](https://devblogs.microsoft.com/visualstudio/improved-git-experience-in-visual-studio-2019/).
 * Accessibility - There is one known issue with assistive technology not being able to access the appcasting of a debugged app. Besides this limitation, we don't believe there are any other compatibility issues that don't already exist in the local Visual Studio experience. Please let us know if you detect bugs by filing an issue on [developer community](https://developercommunity.visualstudio.com/).

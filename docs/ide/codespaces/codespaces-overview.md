@@ -1,6 +1,6 @@
 ---
 title: Overview of GitHub Codespaces (Preview)
-description: Learn more about GitHub Codespaces for Visual Studio and how it can help extend your development environment to the cloud.
+description: Learn more about GitHub Codespaces with Visual Studio and how it can help extend your development environment to the cloud.
 ms.topic: overview
 ms.date: 09/04/2020
 author: TerryGLee
@@ -17,9 +17,9 @@ monikerRange: vs-2019
 
 Welcome to Codespaces! We're glad you're here.
 
-GitHub Codespaces for Visual Studio provides you with a cloud-powered development environment for any activity, whether it's a long-term project, or a short-term task like reviewing a pull request. You can work with a codespace from within Visual Studio 2019 ([sign up for the limited public beta](https://github.com/features/codespaces)).
+GitHub Codespaces provides you with a cloud-powered development environment for any activity, whether it's a long-term project, or a short-term task like reviewing a pull request. You can work with a codespace from within Visual Studio 2019 ([sign up for the limited public beta](https://github.com/features/codespaces)).
 
-Additionally, GitHub Codespaces for Visual Studio brings many of the benefits of DevOps, like repeatability and reliability&mdash;which have typically been reserved for production workloads&mdash;to a development environment. You can also personalize GitHub Codespaces so that the tools, processes, and configurations that you prefer and rely on are there, too.
+Additionally, GitHub Codespaces brings many of the benefits of DevOps, like repeatability and reliability&mdash;which have typically been reserved for production workloads&mdash;to a development environment. You can also personalize GitHub Codespaces so that the tools, processes, and configurations that you prefer and rely on are there, too.
 
 This document will explain key concepts and introduce Codespaces features. If you're looking to get started, check out [Use Visual Studio with a codespace](use-visual-studio-with-codespaces.md).
 

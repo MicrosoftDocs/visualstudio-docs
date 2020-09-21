@@ -19,7 +19,7 @@ GitHub Codespaces provide a full development environment in the cloud. For Windo
 
 ## Installed software
 
-Windows codespaces come with many frameworks and tools already installed so you can get started right away. The table below lists the applications and features available in all Windows Codespace environments.
+Windows codespaces come with many frameworks and tools already installed so you can get started right away. The table below lists the applications and features available in all Windows codespace environments.
 
 | App                                         | Path Alias | Version            |
 |---------------------------------------------|------------|--------------------|
@@ -54,13 +54,13 @@ While connected to a codespace with Visual Studio, you can use the Visual Studio
 
 ## Customize a codespace
 
-The real value of GitHub Codespace comes when you can create unique, repeatable development environments in the cloud tailored for your own work as well as your team's. By building on a default GitHub Codespace Instance Type, you can customize what is installed and configured when you create a new codespace.
+The real value of GitHub Codespaces comes when you can create unique, repeatable development environments in the cloud tailored for your own work as well as your team's. By building on a default GitHub Codespaces Instance Type, you can customize what is installed and configured when you create a new codespace.
 
-The next sections will describe two codespace configuration methods using *.devcontainer.json* and *.devinit.json* files. These files let you configure the installation frameworks and tools for a codespace and when you stored in your repository anyone creating a codespace based on your repository will have the same remote development environment.
+The next sections will describe two codespace configuration methods using *.devcontainer.json* and *.devinit.json* files. These files let you configure the installation frameworks and tools for a codespace and when added to your repository, anyone creating a codespace based on your repository will have the same remote development environment.
 
 ## Customize with devcontainer.json
 
-When a codespace is created, GitHub Codespaces looks for a [*devcontainers.json*](https://code.visualstudio.com/docs/remote/devcontainerjson-reference) file in the root of your repository and uses the settings within to customize the codespace or the client instances connecting to it (browser-base editor, Visual Studio, or Visual Studio Code). Most the *devcontainer.json* settings apply to Linux-based codespaces and the two other clients but some are available for Windows codespaces and Visual Studio.
+When a codespace is created, GitHub Codespaces looks for a [*devcontainers.json*](https://code.visualstudio.com/docs/remote/devcontainerjson-reference) file in the root of your repository and uses the settings within to customize the codespace or the client instances connecting to it (browser-base editor, Visual Studio, or Visual Studio Code). Most the *devcontainer.json* settings apply to Linux-based codespaces or the two other clients but some are available for Windows codespaces and Visual Studio.
 
 The *devcontainer.json* file can be placed in one of two places in a repository:
 
@@ -72,22 +72,22 @@ GitHub Codespaces support the following *devcontainer.json* properties. Setting 
 * `extensions` - An array of [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/vscode) extensions that should be installed.
 * `settings`  - A set of [Visual Studio Code settings](https://code.visualstudio.com/docs/getstarted/settings) to apply.
 * `forwardPorts`- A port or array of ports that should be automatically forwarded locally when the codespace is running.
-* `postCreateCommand` - A command string or list of command arguments to run after the codespaces is created.
+* `postCreateCommand` - A command string or list of command arguments to run after the codespace is created.
 
 > [!NOTE]
 > **devcontainer.json** files are also used to support Visual Studio Code [Remote Development](https://code.visualstudio.com/docs/remote/remote-overview), and have additional properties not covered in this document. These additional properties are safe to add to the file, but will be ignored by Codespaces. For more information, see the [devcontainer.json reference](https://code.visualstudio.com/docs/remote/devcontainerjson-reference) on code.visualstudio.com.
 
 ## Customize with devinit
 
-[devinit](../../devinit/getting-started-with-devinit.md) is a command-line tool included in Windows Codespaces that lets you install frameworks and tools into your environment. It can be run manually from a command prompt (`devinit -t require-dotnetcoresdk`) but its real power comes from creating a custom [*.devinit.json* ](../../devinit/devinit-json.md) file to uniformly configure a codespace whenever you create one.
+[devinit](../../devinit/getting-started-with-devinit.md) is a command-line tool included in Windows codespaces that lets you install frameworks and tools into your environment. It can be run manually from a command prompt (`devinit -t require-dotnetcoresdk`) but its real power comes from creating a custom [*.devinit.json* ](../../devinit/devinit-json.md) file to uniformly configure a codespace whenever you create one.
 
 `devinit` includes a set of tools for installing specific items, such as SQL Server and the Azure CLI, and also running general package managers such as chocolatey, npm, and vcpkg. You can find the complete list of `devinit` tools in the [Available tools](../../devinit/devinit-tool-list.md) documentation.
 
 ### devinit.json
 
-While you can run the `devinit` command line directly, we recommend creating [*devinit.json*](../../devinit/devinit-json.md) configuration files, which describe the set of `devinit` tools to run along with additional inputs. 
+While you can run the `devinit` command line directly, we recommend creating [*devinit.json*](../../devinit/devinit-json.md) configuration files, which describe the set of `devinit` tools to run. 
 
-For example, to install the [.NET Core SDK], a *.devinit.json* would look like:
+For example, to install the [.NET Core SDK](https://docs.microsoft.com/dotnet/core/sdk), a *.devinit.json* would look like:
 
 ```json
 {
@@ -151,11 +151,11 @@ You can find more `devinit` examples in the `devinit` [Samples list](../../devin
 
 ## Port forwarding
 
-GitHub Codespaces provides access to the applications and services running in the remote environments by means of port forwarding. By default, no ports are forwarded for security concerns. However, there are several ways to open ports in a codespace.
+GitHub Codespaces provides access to the applications and services running in the remote environments by means of port forwarding. By default, no ports are forwarded for security concerns. However, you can specify certain ports to open in a codespace.
 
 ### Configure port forwarding
 
-If there are one or more ports that should be forwarded by default for a given repository, that can be configured in *devcontainer.json* with the `forwaredPorts` property.
+If there are one or more ports that should be forwarded by default for a given repository, that can be configured in *devcontainer.json* with the `forwardPorts` property.
 
 * `forwardPorts` - A port or array of ports that should be automatically forwarded locally when the environment is running.
 
@@ -163,7 +163,7 @@ If there are one or more ports that should be forwarded by default for a given r
 
 ### Microsoft SQL Server
 
-Microsoft SQL Server 2019 Express Edition is available and running as a local service (localdb) in the Windows Codespace environment. To administer the server, you will need to use PowerShell in the Visual Studio Terminal or other command-line tools such as `dotnet-ef`. Currently SQL Server Management Studio and other remote administration tools are not available.
+Microsoft SQL Server 2019 Express Edition is available and running as a local service (localdb) in the Windows Codespace environment. The current user, which your app and the Visual Studio Terminal run as, has SQL administrator rights to the SQL server. To administer the server, you will need to use PowerShell in the Visual Studio Terminal or other command-line tools such as `dotnet-ef`. Currently SQL Server Management Studio and other remote administration tools are not available.
 
 #### Example connection string
 

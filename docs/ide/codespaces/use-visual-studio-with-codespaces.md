@@ -1,6 +1,6 @@
 ---
 title: Visual Studio with a codespace (Preview)
-description: Learn about using Visual Studio IDE with GitHub Codespaces for Visual Studio.
+description: Learn about using Visual Studio IDE with GitHub Codespaces for Windows development.
 ms.topic: how-to
 ms.date: 09/21/2020
 author: gregvanl
@@ -15,17 +15,17 @@ monikerRange: vs-2019
 
 # How to use Visual Studio with a codespace (Preview)
 
-Visual Studio has great support for developing in GitHub Codespaces for Visual Studio. You can create and connect to a codespace and have the full power of Visual Studio to work on your projects on a remote, hosted environment. Even though your source code and tools are in a codespace and your compilation and debugging is happening in the cloud, your development experience will feel as fast and friction-free as if you were working locally.
+Visual Studio has great support for developing in GitHub Codespaces. You can create and connect to a codespace and have the full power of Visual Studio to work on your projects on a remote, hosted environment. Even though your source code and tools are in a codespace and your compilation and debugging is happening in the cloud, your development experience will feel as fast and friction-free as if you were working locally.
 
 > [!NOTE]
-> This article specifically describe using Visual Studio when connected to GitHub Codespaces for Visual Studio. You can learn about connecting with other clients to a codespace in the [Visual Studio Code](https://docs.github.com/github/developing-online-with-codespaces/connecting-to-your-codespace-from-visual-studio-code) or [in-browser editor](https://docs.github.com/github/developing-online-with-codespaces/developing-in-a-codespace) documentation.
+> This article specifically describes using Visual Studio to connect to GitHub Codespaces. You can learn about connecting to a codespace with other clients in the [Visual Studio Code](https://docs.github.com/github/developing-online-with-codespaces/connecting-to-your-codespace-from-visual-studio-code) or [in-browser editor](https://docs.github.com/github/developing-online-with-codespaces/developing-in-a-codespace) documentation.
 
 > [!NOTE]
 > If you don't have [Visual Studio 2019 Preview](https://aka.ms/vspreview) installed already, you can [download it from visualstudio.microsoft.com](https://aka.ms/vspreview).
 
 ## Creating a codespace
 
-If you don't already have a GitHub codespace, you can create one from Visual Studio.
+If you don't already have a codespace, you can create one from Visual Studio.
 
 1. When you launch Visual Studio, the Start Window will show a **Connect to a codespace** button under "Get started".
 
@@ -79,7 +79,7 @@ After you've created your codespace, you can open your codespace directly from V
 
    ![Visual Studio displaying available GitHub codespaces and details](media/visual-studio-connect-codespace.png)
 
-   Any codespaces cloning an Azure DevOps repository will only be visible here in Visual Studio and not on GitHub's Codespaces page.
+   Any codespaces that cloned an Azure DevOps repository will only be visible here in Visual Studio and not on GitHub's Codespaces page.
 
 4. Choose a codespace and select the **Connect** button. If the codespace has been suspended, it will be restarted and Visual Studio will open connected to that codespace.
 
