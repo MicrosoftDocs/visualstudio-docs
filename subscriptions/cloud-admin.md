@@ -54,10 +54,10 @@ The new administrator can now sign in to the [Administration Portal](https://man
 For information about Visual Studio monthly subscriptions, see the [Overview](vscloud-overview.md) under Buying  subscriptions. To purchase Visual Studio monthly subscriptions, visit the Visual Studio Marketplace at [https://marketplace.visualstudio.com/subscriptions](https://marketplace.visualstudio.com/subscription).
 
 ## See also
-- [Visual Studio documentation](https://docs.microsoft.com/visualstudio/)
-- [Azure DevOps documentation](https://docs.microsoft.com/azure/devops/)
-- [Azure documentation](https://docs.microsoft.com/azure/)
-- [Microsoft 365 documentation](https://docs.microsoft.com/microsoft-365/)
+- [Visual Studio documentation](/visualstudio/)
+- [Azure DevOps documentation](/azure/devops/)
+- [Azure documentation](/azure/)
+- [Microsoft 365 documentation](/microsoft-365/)
 
 ## Next steps
 Learn more about managing Visual Studio subscriptions.
@@ -65,6 +65,3 @@ Learn more about managing Visual Studio subscriptions.
 - [Assign multiple subscriptions](assign-license-bulk.md)
 - [Edit subscriptions](edit-license.md)
 - [Determine maximum usage](maximum-usage.md)
-
-
-

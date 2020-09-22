@@ -3,7 +3,7 @@ title: Available Tools
 description: List of all the devinit tools that can be used to customize a development environment. 
 ms.date: 08/28/2020
 ms.topic: reference
-author: andster
+author: andysterland
 ms.author: andster
 manager: jillfra
 ms.workload:
@@ -29,7 +29,6 @@ The table below contains a list of all the currently available tools for devinit
 | [**require-azurecli**](tool-require-azurecli.md)                                                 | Tool to install the Azure CLI.                                                                              |
 | [**require-dotnetcoresdk**](tool-require-dotnetcoresdk.md)                                       | Tool to install the .NET Core SDK and shared runtime.                                                       |
 | [**require-dotnetframeworksdk**](tool-require-dotnetframeworksdk.md)                             | Tool to install the .NET Framework SDK.                                                                     |
-| [**require-gitsubmodule**](tool-require-gitsubmodule.md)                                         | Restore Git Submodule. Use local `.gitmodules` if no `.gitmodules` is passed.                               |
 | [**require-mssql**](tool-require-mssql.md)                                                       | Tool to install MS SQL Server 2019.                                                                         |
 | [**require-nodejs**](tool-require-nodejs.md)                                                     | Tool to install Nodejs and NPM.                                                                             |
 | [**require-npm**](tool-require-npm.md)                                                           | Tool to install NPM.                                                                                        |

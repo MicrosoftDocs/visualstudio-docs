@@ -3,7 +3,7 @@ title: devinit Commands
 description: Details on how to use devinit commands to install components. 
 ms.date: 08/28/2020
 ms.topic: reference
-author: andster
+author: andysterland
 ms.author: andster
 manager: jillfra
 ms.workload:
@@ -16,7 +16,7 @@ ms.technology: devinit
 
 ## Init
 
-```batch
+```console
 > devinit init
 ```
 
@@ -35,7 +35,7 @@ Optional options for the `devinit init` command.
 
 ## Run
 
-```batch
+```console
 > devinit run -t <toolname>
 ```
 
@@ -85,19 +85,19 @@ Emit verbose output to standard output. If the tool to be executed supports a ve
 
 Using an `<arg>` that includes a space in its value must include an additional pair of escaped quotes.
 
-```batch
+```console
 > devinit run -t <toolname> -<somearg> "<some value>"
 ```
 
 For installing dotnet into a specific directory `C:\Program Files\dotnet`:
 
-```batch
+```console
 > devinit run -t require-dotnetcoresdk --"-InstallDir \"C:\Program Files\dotnet\""
 ```
 
 ## List
 
-```batch
+```console
 > devinit list
 ```
 
@@ -105,7 +105,7 @@ Prints a list of all the available tools.
 
 ## Show
 
-```batch
+```console
 > devinit show -t <toolname>
 ```
 
@@ -117,7 +117,7 @@ Prints help information for a given tool.
 
 ## Version
 
-```batch
+```console
 > devinit version
 ```
 
@@ -125,7 +125,7 @@ Prints the current version information for devinit.
 
 ## Help
 
-```batch
+```console
 > devinit help
 > devinit help list
 ```

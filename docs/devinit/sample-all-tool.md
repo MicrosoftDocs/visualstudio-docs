@@ -3,7 +3,7 @@ title: All tools
 description: Example of using all the devinit tools.
 ms.date: 08/28/2020
 ms.topic: reference
-author: andster
+author: andysterland
 ms.author: andster
 manager: jillfra
 ms.workload:
@@ -90,11 +90,6 @@ This example has a `devinit.json`, which installs all the available devinit tool
       "tool": "require-dotnetframeworksdk",
       "input": "4.8.0",
       "comments": "Input specifies an explicit SDK version."
-    },
-    {
-      "tool": "require-gitsubmodule",
-      "input": "RepoThatHasDotGitModulesFile",
-      "comments": "Input specifies a folder that contains a .gitmodules file. If no input is specified, then current directory is used."
     },
     {
       "tool": "require-mssql",

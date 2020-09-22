@@ -15,7 +15,7 @@ As a Visual Studio subscriptions administrator, you can use the administration p
 For groups of users, you have choices for how you assign subscriptions.  
 - You can assign subscriptions one at a time.
 - You can also quickly and easily upload lists of subscribers and their subscription information using the [Bulk add](assign-license-bulk.md) feature.
-- If your organization uses Microsoft Azure Active Directory (Azure AD), you can [use Azure AD groups to assign subscriptions](https://docs.microsoft.com/visualstudio/subscriptions/assign-license-bulk#use-azure-active-directory-groups-to-assign-subscriptions) to groups of users.  
+- If your organization uses Microsoft Azure Active Directory (Azure AD), you can [use Azure AD groups to assign subscriptions](./assign-license-bulk.md#use-azure-active-directory-groups-to-assign-subscriptions) to groups of users.  
 
 
 ## Add a single subscriber
@@ -54,14 +54,12 @@ Here's how to assign a Visual Studio subscription to a new user so that they can
 After you add a subscriber, an assignment email will be automatically sent to the new subscriber with further instructions. You can send the assignment email again at any time by selecting the subscriber and then selecting the **Resend** button in the top menu.  To resend emails to multiple users, hold down the **Ctrl** key while selecting the subscribers.  When you select the **Resend** button, you'll see a dialog asking you to confirm you want to resend to those subscribers.  
 
 ## See also
-- [Visual Studio documentation](https://docs.microsoft.com/visualstudio/)
-- [Azure DevOps documentation](https://docs.microsoft.com/azure/devops/)
-- [Azure documentation](https://docs.microsoft.com/azure/)
-- [Microsoft 365 documentation](https://docs.microsoft.com/microsoft-365/)
+- [Visual Studio documentation](/visualstudio/)
+- [Azure DevOps documentation](/azure/devops/)
+- [Azure documentation](/azure/)
+- [Microsoft 365 documentation](/microsoft-365/)
 
 
 ## Next steps
 - Have a lot of users to add?  Learn how to assign subscriptions to [multiple subscribers](assign-license-bulk.md).
 - Need help?  Contact [Visual Studio Administration and Subscriptions Support](https://visualstudio.microsoft.com/support/support-overview-vs).
-
-

@@ -3,7 +3,7 @@ title: devinit and GitHub Codespaces
 description: Learn how to customize a codespace for Visual Studio using devinit.
 ms.date: 08/28/2020
 ms.topic: reference
-author: andster
+author: andysterland
 ms.author: andster
 manager: jillfra
 ms.workload:
@@ -50,12 +50,12 @@ In this example _.devcontainer.json_ file below is placed in the repo root and `
 
 When the current working directory contains a _.devinit.json_ file.
 
-```batch
+```console
 > devinit init
 ```
 
 When the _.devinit.json_ is in another directory.
 
-```batch
+```console
 > devinit init -f path/to/.devinit.json
 ```

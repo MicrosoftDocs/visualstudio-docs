@@ -58,10 +58,10 @@ For a more detailed explanation for this process, you may use the [Quick Start g
 > Once you complete the domain take-over process, you must adhere to the criteria from the five steps in the section for Pre Tenant Association (Managed). Once the criteria are met, it will only be necessary to contact MPSA Support to provision additional Visual Studio subscriptions administrators.
 
 ## See also
-- [Visual Studio documentation](https://docs.microsoft.com/visualstudio/)
-- [Azure DevOps documentation](https://docs.microsoft.com/azure/devops/)
-- [Azure documentation](https://docs.microsoft.com/azure/)
-- [Microsoft 365 documentation](https://docs.microsoft.com/microsoft-365/)
+- [Visual Studio documentation](/visualstudio/)
+- [Azure DevOps documentation](/azure/devops/)
+- [Azure documentation](/azure/)
+- [Microsoft 365 documentation](/microsoft-365/)
 
 ## Next steps
 Learn more about managing Visual Studio subscriptions.

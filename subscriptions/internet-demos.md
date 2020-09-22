@@ -31,11 +31,11 @@ End users can connect to access applications via RDS if the following conditions
 - The product keys to enable user connections must be obtained by a Visual Studio subscriber.
 
 ## See also
-- [Windows Server documenation](https://docs.microsoft.com/windows-server/)
-- [Visual Studio documentation](https://docs.microsoft.com/visualstudio/)
-- [Azure DevOps documentation](https://docs.microsoft.com/azure/devops/)
-- [Azure documentation](https://docs.microsoft.com/azure/)
-- [Microsoft 365 documentation](https://docs.microsoft.com/microsoft-365/)
+- [Windows Server documenation](/windows-server/)
+- [Visual Studio documentation](/visualstudio/)
+- [Azure DevOps documentation](/azure/devops/)
+- [Azure documentation](/azure/)
+- [Microsoft 365 documentation](/microsoft-365/)
 
 ## Next steps
 If you need guidance for deploying RDS, check out the multi-part blog series on **Remote Desktop Services (RDS) 2012 session deployment** at https://techcommunity.microsoft.com/t5/Ask-The-Performance-Team/bg-p/AskPerf. 
