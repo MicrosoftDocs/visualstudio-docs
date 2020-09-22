@@ -1,5 +1,5 @@
 ---
-title: Contact support to change your subscription sign-in information - Retail| Microsoft Docs
+title: How do I change my sign-in email for my Visual Studio retail subscription?
 description:  Learn how to request a change of your Visual Studio sign-in address for subscriptions acquired through the Microsoft Store
 author: evanwindom
 ms.author: cabuschl
@@ -9,17 +9,10 @@ ms.topic: include
 user.type: subscriber
 tags: sign-in
 subscription.type: retail
-sap.id: 17a2bf94-0d03-2629-dfd8-e8935f9126ec
+sap.id: 6ca157bd-8931-de3b-90d7-1d3b6f20c7ef
 ---
 
 ## How to change your sign-in email address for Visual Studio subscriptions purchased through the Microsoft Store
-If you want to change the email address you use to sign into your Visual Studio subscription(s) and you purchased your subscription(s) through the Microsoft Store, you will need to contact Microsoft's Account, Subscription and Billing Support team to have your sign-in email address changed.
+If you want to change the email address you use to sign into your Visual Studio subscription(s) and you purchased your subscription(s) through the Microsoft Store, you will need to contact Microsoft's Account, Subscription and Billing Support team to have your sign-in email address changed. 
 
-**Follow these steps to request a change**
-1. Connect to [https://visualstudio.microsoft.com/subscriptions/support/](https://visualstudio.microsoft.com/subscriptions/support/).
-2. Scroll down to the section entitled **Didn't find what you need?  Contact us.**
-3. Select **Account, Subscription and Billing Support**.
-4. Select your **Country/Region** from the drop-down menu. 
-5. Choose your preferred support option.
-
-
+Click “Create a support ticket” to get help.
