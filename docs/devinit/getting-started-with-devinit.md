@@ -3,7 +3,7 @@ title: Getting Started with devinit
 description: Getting started guide for devinit.
 ms.date: 08/28/2020
 ms.topic: reference
-author: andster
+author: andysterland
 ms.author: andster
 manager: jillfra
 ms.workload:
@@ -28,7 +28,7 @@ For this step, think about the instructions you'd give someone to get up and run
 
 Now all someone has to do after cloning your repo is run `devinit init`.
 
-```batch
+```console
 > devinit init
 ```
 
