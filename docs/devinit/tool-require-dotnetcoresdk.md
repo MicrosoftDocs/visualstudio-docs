@@ -3,7 +3,7 @@ title: require-dotnetcoresdk
 description: devinit tool require-dotnetcoresdk.
 ms.date: 08/28/2020
 ms.topic: reference
-author: andster
+author: andysterland
 ms.author: andster
 manager: jillfra
 ms.workload:
@@ -64,7 +64,7 @@ The Default behavior of the `require-dotnetcoresdk` tool is to install the versi
         {
             "comments": "Example that will install in a specific directory.",
             "tool": "require-dotnetcoresdk",
-            "additionalOptions": "-InstallDir \"C:\Program Files\dotnet\""
+            "additionalOptions": "-InstallDir \"C:\\Program Files\\dotnet\""
         }
     ]
 }

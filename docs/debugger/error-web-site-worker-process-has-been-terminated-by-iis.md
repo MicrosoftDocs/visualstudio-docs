@@ -1,5 +1,5 @@
 ---
-title: "Error - Web site worker process has been terminated by IIS | Microsoft Docs"
+title: "Web site worker process has been terminated by IIS | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "error-reference"
 f1_keywords:

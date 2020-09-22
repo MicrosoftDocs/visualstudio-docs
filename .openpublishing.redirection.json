@@ -14423,6 +14423,10 @@
     {
       "source_path": "mac/setup-vsmac-tools-unity.md",
       "redirect_url": "gamedev/unity/get-started/getting-started-with-visual-studio-tools-for-unity.md",
+    },
+    {
+      "source_path": "docs/devinit/index.md",
+      "redirect_url": "/visualstudio/devinit/getting-started-with-devinit",
       "redirect_document_id": false
     },
     {

@@ -1,5 +1,5 @@
 ---
-title: "Error - Site Uses IP Address | Microsoft Docs"
+title: "Site Uses IP Address | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "error-reference"
 f1_keywords:

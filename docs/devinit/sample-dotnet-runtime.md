@@ -3,7 +3,7 @@ title: .NET Core Runtime
 description: Example customization using devinit for the dotnet/runtime repo.
 ms.date: 08/28/2020
 ms.topic: reference
-author: andster
+author: andysterland
 ms.author: andster
 manager: jillfra
 ms.workload:
@@ -20,7 +20,7 @@ This example illustrates how to customize the .NET Core Runtime [dotnet/runtime]
 
 This script is called from _PostCloneSetup.ps1_ and can also be run locally to set up the repository. This file needs to be in the same folder as _.devcontainer.json_.
 
-```batch
+```console
 devinit init
 git config --system core.longpaths true
 ```

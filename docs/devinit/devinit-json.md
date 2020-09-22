@@ -3,7 +3,7 @@ title: devinit Configuration File
 description: Documentation for the .devinit.json manifest file for devinit.
 ms.date: 08/28/2020
 ms.topic: reference
-author: andster
+author: andysterland
 ms.author: andster
 manager: jillfra
 ms.workload:
@@ -65,4 +65,4 @@ Paths are relative to the location where devinit is running. This is typically t
 
 ## Examples
 
-For more examples of using devinit, see the [Samples section](/samples).
+For more examples of using devinit, see the [Samples section](sample-readme.md).

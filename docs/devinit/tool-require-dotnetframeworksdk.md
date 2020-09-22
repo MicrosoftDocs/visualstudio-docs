@@ -3,7 +3,7 @@ title: require-dotnetframeworksdk
 description: devinit tool require-dotnetframeworksdk.
 ms.date: 08/28/2020
 ms.topic: reference
-author: andster
+author: andysterland
 ms.author: andster
 manager: jillfra
 ms.workload:

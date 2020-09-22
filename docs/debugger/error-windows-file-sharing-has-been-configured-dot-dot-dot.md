@@ -1,5 +1,5 @@
 ---
-title: "Error - Windows file sharing has been configured... | Microsoft Docs"
+title: "Windows file sharing has been configured... | Microsoft Docs"
 ms.date: "11/04/2016"
 ms.topic: "error-reference"
 f1_keywords:

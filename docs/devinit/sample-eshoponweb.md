@@ -3,7 +3,7 @@ title: eShopOnWeb
 description: Example customization using devinit for the dotnet-architecture/eShopOnWeb repo.
 ms.date: 08/28/2020
 ms.topic: reference
-author: andster
+author: andysterland
 ms.author: andster
 manager: jillfra
 ms.workload:
@@ -20,7 +20,7 @@ This example illustrates how to customize the dotnet architecture example [eShop
 
 This script is called from _PostCloneSetup.ps1_ and can also be ran locally to set up the repository. This file needs to be in the same folder as _.devcontainer.json_.
 
-```batch
+```console
 devinit init
 dotnet ef database update -c catalogcontext -p src\Infrastructure\Infrastructure.csproj -s src\Web\Web.csproj
 dotnet ef database update -c appidentitydbcontext -p src\Infrastructure\Infrastructure.csproj -s src\Web\Web.csproj
