@@ -1,10 +1,10 @@
 ---
 title: Search and filter | Microsoft Docs
 author: evanwindom
-ms.author: lank
+ms.author: v-evwin
 manager: cabuschl
 ms.assetid: 9c0b9a4f-b9a3-491c-a68f-6e4bac7f7b3d
-ms.date: 08/10/2020
+ms.date: 09/21/2020
 ms.topic: how-to
 description:  Learn how administrators can locate individual subscribers or groups in the Administration Portal.
 ---
@@ -25,7 +25,7 @@ The Visual Studio Subscriptions Administration Portal allows you to find a speci
    > [!NOTE]
    > The **Name** field is sorted by first name.
 
-   Notice that the **Filter** icon is highlighted, indicating that a filter is applied.  A **Clear filter** choice is also displayed. 
+   Notice that the **Filter** icon is highlighted, indicating that a filter is applied.  A **Clear filter** choice is also displayed. In this example, we filtered our list of subscribers to find those that had @outlook.com email addresses. 
 
 3. To clear the filter and restore the unfiltered list, click the **Clear filter** tab at the top right. 
    > [!div class="mx-imgBorder"]
