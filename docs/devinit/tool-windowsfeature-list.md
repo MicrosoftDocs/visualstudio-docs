@@ -12,9 +12,8 @@ monikerRange: ">= vs-2019"
 ms.prod: visual-studio-windows
 ms.technology: devinit
 ---
-# {{ $frontmatter.title }}
+# windowsfeature-list
 
-## windowsfeature-list
 The `windowsfeature-list` tool is used to list the enable/disable state of all Windows features.
 
 | Name                                             | Type   | Required | Value                                      |
@@ -22,14 +21,21 @@ The `windowsfeature-list` tool is used to list the enable/disable state of all W
 | **comments**                                     | string | No       | Optional comments property. Not used.      |
 | [**input**](#input)                              | string | No       | Not used. Ignored.                         |
 | [**additionalOptions**](#Additional-Options)     | string | No       | Not used. Ignored.                         |
+
 ### Input
+
 Not used. Ignored.
+
 #### Additional-Options
+
 Not used. Ignored.
+
 ### Default Behavior
+
 The default behavior of the `windowsfeature-list` tool is to list the enable/disable state of all Windows features.
 
 ## Example Usage
+
 ```json
 {
     "$schema": "./devinit.schema-2.0.json",
