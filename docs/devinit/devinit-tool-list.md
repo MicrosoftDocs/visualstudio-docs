@@ -23,6 +23,7 @@ The table below contains a list of all the currently available tools for devinit
 | [**choco-upgrade**](tool-choco-upgrade.md)                                                       | Tool to upgrade chocolatey packages.                                                                       |
 | [**dotnet-restore**](tool-dotnet-restore.md)                                                     | Tool to restore the dependencies and tools of a .NET project.                                               |
 | [**dotnet-toolinstall**](tool-dotnet-toolinstall.md)                                             | Tool to install the .NET Core tools (for example. dotnet-ef)                                                |
+| [**enable-iis**](tool-enable-iis.md)                                                             | Tool to enable IIS features and install the latest ASP.NET hosting bundle.                                  |
 | [**npm-install**](tool-npm-install.md)                                                           | Tool to install NPM packages.                                                                               |
 | [**nuget-restore**](tool-nuget-restore.md)                                                       | Tool to restore the NuGet packages.                                                                         |
 | [**require-azureartifactscredentialprovider**](tool-require-azureartifactscredentialprovider.md) | Installs the Azure Artifacts Credential provider.                                                           |
@@ -37,6 +38,7 @@ The table below contains a list of all the currently available tools for devinit
 | [**require-vscomponent**](tool-require-vscomponent.md)                                           | Tool to modify VS installations based on a `.vsconfig` file.                                                |
 | [**windowsfeature-enable**](tool-windowsfeature-enable.md)                                       | Tool set enable Windows features.                                                                           |
 | [**windowsfeature-disable**](tool-windowsfeature-disable.md)                                     | Tool set disable Windows features.                                                                          |
+| [**windowsfeature-list**](tool-windowsfeature-list.md)                                           | Tool to list the enable/disable state of all Windows features.                                                                        |
 | [**set-env**](tool-set-env.md)                                                                   | Tool to view and set environment variables.                                                                 |
 | [**vcpkg-install**](tool-vcpkg-install.md)                                                       | Tool to install packages via vcpkg.                                                                         |
 | [**wsl-install**](tool-wsl-install.md)                                                           | Tool to install and configure Linux distros for the Window Subsystem for Linux.                             |
