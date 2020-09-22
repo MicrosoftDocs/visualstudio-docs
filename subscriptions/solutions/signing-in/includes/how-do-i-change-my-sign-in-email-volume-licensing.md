@@ -1,5 +1,5 @@
 ---
-title: Contact your admin to change your subscription sign-in information - Volume License| Microsoft Docs
+title: How do I change my sign-in email for my Visual Studio subscription provided by my company?
 description:  Learn how to request a change of your Visual Studio sign-in address for subscriptions acquired through Volume Licensing
 author: evanwindom
 ms.author: v-evwin
@@ -10,15 +10,18 @@ ms.topic: include
 user.type: subscriber
 tags: sign-in
 subscription.type: vl
-sap.id: 17a2bf94-0d03-2629-dfd8-e8935f9126ec
+sap.id: 6ca157bd-8931-de3b-90d7-1d3b6f20c7ef
 ---
 
-## How to change your sign-in email address for Visual Studio subscriptions
-If your work or school purchases subscriptions through Volume Licensing or the Visual Studio Marketplace, they are managed by administrators.  Your administrator can change the email address you use to sign into your subscription.  
+## How to change your sign-in email address
 
-**Contact your administrator to request a change**
-If you’re not sure who your administrators are, you may want to contact a colleague that has a subscription assigned to them.  They can contact the administrators by using the “Contact my Admin” feature in the Visual Studio subscriptions portal at https://my.visualstudio.com/subscriptions.  
+If your work or school purchased subscriptions through Volume Licensing or the Visual Studio Marketplace, they are managed by administrators.  Your administrator can change the email address you use to sign into your subscription.  
 
-**Use the Contact my Admin feature**
-Please view our [Contact my Admin](https://docs.microsoft.com/visualstudio/subscriptions/contact-my-admin.md) article for more information about the feature. 
+## How to contact your administrator 
 
+Given the size and complexity of many organizations, you may not be aware of who your admin is, but there is a feature in the subscriptions portal to assist you with contacting your admin. 
+
+1. Sign in to the [subscriptions portal](https://my.visualstudio.com/benefits).  
+1. Click the Contact my Admin button at the top right. 
+1. Enter the message for your admin. 
+1. If you'd like to receive a copy of the message sent to your admin, click the Send me a copy checkbox. Finally, click Send.

@@ -28,7 +28,7 @@ For this step, think about the instructions you'd give someone to get up and run
 
 Now all someone has to do after cloning your repo is run `devinit init`.
 
-```batch
+```console
 > devinit init
 ```
 

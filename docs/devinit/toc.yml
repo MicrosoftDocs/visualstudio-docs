@@ -39,8 +39,6 @@
       href: tool-require-dotnetcoresdk.md
     - name: require-dotnetframeworksdk
       href: tool-require-dotnetframeworksdk.md
-    - name: require-gitsubmodule
-      href: tool-require-gitsubmodule.md
     - name: require-mssql
       href: tool-require-mssql.md
     - name: require-nodejs
