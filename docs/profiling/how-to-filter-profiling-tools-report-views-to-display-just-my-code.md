@@ -1,5 +1,6 @@
 ---
-title: Filter profiling tools report views to display Just My Code
+title: Filter profiling report views to show Just My Code
+ms.custom: SEO-VS-2020
 ms.date: 02/15/2018
 ms.topic: how-to
 author: mikejo5000

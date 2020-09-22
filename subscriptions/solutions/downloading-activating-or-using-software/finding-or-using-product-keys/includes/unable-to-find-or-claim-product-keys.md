@@ -13,21 +13,15 @@ sap.id: b57b561c-d839-7050-131d-109cfb54781d
 ---
 
 ## I'm unable to find or claim a product key.
-The software downloads available to you depends on the subscription you're using. You can find downloads and product keys a few ways. 
 
-### Excel list of available software 
-You can download an Excel spreadsheet containing an extensive list of [available software titles](https://download.microsoft.com/download/1/5/4/15454442-CF17-47B9-A65D-DF84EF88511B/Visual_Studio_by_Subscription_Level.xlsx) for all subscription types. To use this, you will need to know what subscriptions you have.  
+The product keys available to you depends on the Visual Studio subscription you're using.  
 
-To check what subscriptions are available to you, log into the [Visual Studio Subscriptions portal](https://my.visualstudio.com/subscriptions).
-* If you have more than one subscription associated with the same sign-in address, you will see the downloads included with the highest-level subscription, regardless of which subscription you're viewing.  
+## Product keys page 
 
-### Find software downloads 
-1. Sign into the [subscriptions portal](https://my.visualstudio.com/benefits).  
-1. Go to the [featured downloads page](https://my.visualstudio.com/downloads/featured).  
-1. Here you will be able to see a list of popular downloads or search a specific product.  
+The [Product Keys](https://my.visualstudio.com/productkeys) page lists all keys available to you in aggregate. You can edit the notes column for identifying when and why you claimed the key. There are different key types, depending on the product. Some keys you’ll need to claim and others will be visible to you right away. 
 
-### Product keys page 
-All keys are also available in aggregate on the [Product Keys](https://my.visualstudio.com/productkeys) page. When multiple keys exist for a single product, notes will be displayed on the Notes column for the download to assist you in identifying which key should be used. 
+If you don’t see a key or product, it’s possible that the product is not available for your subscription level. You can [download an extensive list](https://download.microsoft.com/download/1/5/4/15454442-CF17-47B9-A65D-DF84EF88511B/Visual_Studio_by_Subscription_Level.xlsx) of available software titles for all subscription types. To check what types are assigned to you, view your subscriptions in the [subscriptions portal](https://my.visualstudio.com/subscriptions).  
 
-### More information 
-[Read more](https://docs.microsoft.com/visualstudio/subscriptions/find-keys) on finding and claiming product keys and downloads.  
+## More information 
+
+[Read more](https://docs.microsoft.com/visualstudio/subscriptions/find-keys) about product key types and claiming product keys.  

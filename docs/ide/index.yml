@@ -74,7 +74,7 @@ landingContent:
           - text: Python
             url: ../python/tutorial-working-with-python-in-visual-studio-step-00-installation.md
           - text: JavaScript
-            url: /visualstudio/javascript/tutorial-nodejs
+            url: ../javascript/tutorial-nodejs.md
           - text: F#
             url: /dotnet/fsharp/get-started/get-started-visual-studio
 

@@ -1,5 +1,6 @@
 ---
-title: How to - Specify a Start Menu Name for a ClickOnce Application | Microsoft Docs
+title: Specify Start menu name for a ClickOnce app
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs: 

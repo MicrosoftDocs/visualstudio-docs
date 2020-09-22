@@ -1,5 +1,6 @@
 ---
-title: How to - Specify an Alternate Location for Deployment Updates | Microsoft Docs
+title: Specify alternate location for deployment updates
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs: 

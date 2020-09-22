@@ -1,5 +1,5 @@
 ---
-title: How to - Open Messages View from Find Window | Microsoft Docs
+title: Open Messages View from Find Window | Microsoft Docs
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords: 

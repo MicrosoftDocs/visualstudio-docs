@@ -1,13 +1,13 @@
 ---
-title: Usage Warnings
+title: Usage rules
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - vs.codeanalysis.usagerules
 helpviewer_keywords:
-- warnings, usage
-- managed code analysis warnings, usage warnings
-- usage warnings
+- rules, usage
+- managed code analysis rules, usage rules
+- usage rules
 ms.assetid: fe7dc2a3-289d-4bf7-a1e4-0947a81287c4
 author: mikejo5000
 ms.author: mikejo
@@ -15,9 +15,9 @@ manager: jillfra
 ms.workload:
 - multiple
 ---
-# Usage Warnings
+# Usage rules
 
-Usage warnings support proper usage of .NET.
+Usage rules support proper usage of .NET.
 
 ## In This Section
 
