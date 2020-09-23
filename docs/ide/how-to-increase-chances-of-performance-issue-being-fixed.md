@@ -11,7 +11,7 @@ ms.topic: conceptual
 
 # How to increase the chances of a performance issue being fixed
 
-The "[Report a problem](./how-to-report-a-problem-with-visual-studio.md?view=vs-2019)" tool is widely used by Visual Studio users to report a range of problems. The Visual Studio team spots crash and slowness trends in user feedback and addresses issues impacting a broad swath of users. The more actionable a specific feedback ticket is, the more likely it will be diagnosed and resolved quickly by the product team. This document describes the best practices while reporting crash or slowness issues to make them more actionable.
+The "[Report a problem](./how-to-report-a-problem-with-visual-studio.md?view=vs-2019&preserve-view=true)" tool is widely used by Visual Studio users to report a range of problems. The Visual Studio team spots crash and slowness trends in user feedback and addresses issues impacting a broad swath of users. The more actionable a specific feedback ticket is, the more likely it will be diagnosed and resolved quickly by the product team. This document describes the best practices while reporting crash or slowness issues to make them more actionable.
 
 ## General best practices
 
@@ -222,7 +222,7 @@ performance trace is required in order to resolve a previous feedback item, we
 will set the state of the feedback item to "Need More Info", which can be
 responded to in the same way as reporting a new problem. For detailed
 instruction, please refer to ["Need More Info"
-section](./how-to-report-a-problem-with-visual-studio.md?view=vs-2017#when-further-information-is-needed-need-more-info)
+section](./how-to-report-a-problem-with-visual-studio.md#when-further-information-is-needed)
 in Report a Problem tool's document.
 
 > [!NOTE]
