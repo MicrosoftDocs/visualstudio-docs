@@ -78,7 +78,7 @@ For language-specific information, see the appropriate topic in the following ta
 
 ## See also
 
-* [Install Visual Studio](install-visual-studio.md?&preserve-view=true)
+* [Install Visual Studio](install-visual-studio.md?view=vs-2017&preserve-view=true)
 * [Port, migrate, and upgrade Visual Studio projects](../porting/port-migrate-and-upgrade-visual-studio-projects.md?view=vs-2017&preserve-view=true)
 * [Building C/C++ isolated applications and side-by-side assemblies](/cpp/build/building-c-cpp-isolated-applications-and-side-by-side-assemblies/)
 
