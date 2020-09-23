@@ -20,21 +20,21 @@ The `windowsfeature-list` tool is used to list the enable/disable state of all W
 |--------------------------------------------------|--------|----------|--------------------------------------------|
 | **comments**                                     | string | No       | Optional comments property. Not used.      |
 | [**input**](#input)                              | string | No       | Not used. Ignored.                         |
-| [**additionalOptions**](#Additional-Options)     | string | No       | Not used. Ignored.                         |
+| [**additionalOptions**](#additional-options)     | string | No       | Not used. Ignored.                         |
 
 ### Input
 
 Not used. Ignored.
 
-#### Additional-Options
+#### Additional options
 
 Not used. Ignored.
 
-### Default Behavior
+### Default behavior
 
 The default behavior of the `windowsfeature-list` tool is to list the enable/disable state of all Windows features.
 
-## Example Usage
+## Example usage
 
 ```json
 {
