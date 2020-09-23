@@ -9,7 +9,7 @@ ms.date: 03/24/2020
 user.type: subscriber
 tags: sign-in
 subscription.type: vl, cloud,
-sap.id: 17a2bf94-0d03-2629-dfd8-e8935f9126ec
+
 ---
 
 ## Resolve issues signing in to Visual Studio Subscriptions Administration Portal

@@ -1,5 +1,5 @@
 ---
-title: How can I change the sign-in address on my Visual Studio cloud subscription?
+title: How can I change the sign-in email on my Visual Studio cloud subscription?
 description: Subscribers who purchase their own Visual Studio cloud subscriptions can change their own sign-in email addresses
 ms.topic: include
 ms.assetid: 6734316b-b7e3-4e55-8b46-02f6e64679e2
