@@ -4,7 +4,8 @@ description: Additional information and best practices for submitting performanc
 ms.custom: SEO-VS-2020
 author: madskristensen
 ms.author: madsk
-ms.date: 11/19/2019 
+manager: jillfra
+ms.date: 11/19/2019
 ms.topic: conceptual
 ---
 
@@ -102,7 +103,7 @@ preferred way for capturing a heap dump. If you do want to use Task Manager,
 close the one that is currently running, launch the 32bit Task Manager
 (%windir%\\syswow64\\taskmgr.exe) and collect a heap dump from there.
 
-> [!NOTE] 
+> [!NOTE]
 > Each dump file produced by this method will be up to 4 GB in size. Make sure
 to set DumpFolder to a location with adequate drive space or adjust the
 DumpCount appropriately.
@@ -123,7 +124,7 @@ attach the appropriate dump.
     Problem](./how-to-report-a-problem-with-visual-studio.md)",
     and attach the heap dump to a new feedback item.
 
-> [!NOTE] 
+> [!NOTE]
 > **Most valuable feedback:** For this case, the most valuable feedback is the
 heap dump captured at the time of the crash.
 
@@ -146,7 +147,7 @@ be sure to select the Visual Studio session that is unresponsive.
 If the Visual Studio instance that is unresponsive was launched in Administrator mode,
 then the second instance would also need to be launched in Administrator mode.
 
->[!NOTE] 
+>[!NOTE]
 > **Most valuable feedback:** For this case, the most valuable feedback is the
 heap dump captured at the time of the Unresponsiveness.
 
@@ -154,7 +155,7 @@ heap dump captured at the time of the Unresponsiveness.
 
 What makes a slowness or high CPU usage issue most actionable is a performance trace captured while the slow operation or high CPU event is in progress.
 
->[!NOTE] 
+>[!NOTE]
 > When possible, isolate each scenario in a separate, specific feedback report.
 For example, if typing and navigation are both slow, follow the steps below once
 per issue. This helps the product team isolate the cause of specific issues.
@@ -224,7 +225,7 @@ instruction, please refer to ["Need More Info"
 section](./how-to-report-a-problem-with-visual-studio.md?view=vs-2017#when-further-information-is-needed-need-more-info)
 in Report a Problem tool's document.
 
-> [!NOTE] 
+> [!NOTE]
 > **Most valuable feedback:** For almost all slowness/high CPU issues, the most
 valuable feedback is a high-level description of what you were trying to do,
 along with the performance trace (\*.etl.zip) which captures the behavior during
@@ -243,7 +244,7 @@ page.
 ## Out-Of-Process Issues
 
 > [!NOTE]
-> Starting with Visual Studio 2019 version 16.3, out-of-process logs are automatically attached to feedback submitted using the Report a Problem tool. 
+> Starting with Visual Studio 2019 version 16.3, out-of-process logs are automatically attached to feedback submitted using the Report a Problem tool.
 However, if the issue is directly reproducible, following the below steps could still help add additional information to help better diagnose the issue.
 
 There are a number of satellite processes that run parallel to Visual Studio and provide various features from outside of the main Visual Studio process. If an error occurs in one of these satellite processes it is usually seen on the Visual Studio side as a 'StreamJsonRpc.RemoteInvocationException' or a 'StreamJsonRpc.ConnectionLostException'.
