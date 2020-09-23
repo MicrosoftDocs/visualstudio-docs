@@ -17,7 +17,7 @@ monikerRange: vs-2019
 
 Visual Studio provides a rich development experience when connecting to a codespace. You get the Visual Studio inner-loop tools you're familiar with to edit, debug, test, and version your source code as well as productivity features like project templates, rich code navigation, and IntelliSense.
 
-In the current GitHub Codespaces [public beta](https://github.com/features/codespaces), some Visual Studio features may not have full support or may be initially missing. The following sections outline what you can expect with Visual Studio and the GitHub Codespaces beta and what you can look forward to in the future. 
+In the current GitHub Codespaces [private beta](https://github.com/features/codespaces), some Visual Studio features may not have full support or may be initially missing. The following sections outline what you can expect with Visual Studio and the GitHub Codespaces beta and what you can look forward to in the future. 
 
 This is **not meant to be an exhaustive list**, but to explain Visual Studio's general capabilities when connected to a codespace.
 
