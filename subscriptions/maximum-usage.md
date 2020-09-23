@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: v-evwin
 manager: cabuschl
 ms.assetid: c473b01f-2dfe-4cc2-ad29-bb5e2a268123
-ms.date: 09/16/2020
+ms.date: 09/21/2020
 ms.topic: conceptual
 description: Learn how to view the maximum number of assigned subscriptions in the admin portal
 ---
@@ -12,6 +12,7 @@ description: Learn how to view the maximum number of assigned subscriptions in t
 A new feature in the Visual Studio subscriptions administration portal helps you track how many subscriptions you've purchased and assigned, and identifies the peak number of subscriptions of each level you've assigned, both within the past year and throughout the duration of your agreement(s). 
 
 ## Maximum usage overview
+Watch the video or read on to learn how to use the maximum usage feature. 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4tdQK] 
 
 ## View your maximum usage
