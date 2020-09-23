@@ -19,7 +19,7 @@ Here's what you can do when you run Windows Virtual Desktop on Azure:
 - Bring your existing Remote Desktop Services (RDS) and Windows Server desktops and apps to any computer
 - Virtualize both desktops and apps
 - Manage Windows 10, Windows Server, and Windows 7 desktops and apps with a unified management experience
-For more information about what you can do with Windows Virtual Desktop, watch the [introductory video](https://docs.microsoft.com/azure/virtual-desktop/overview).
+For more information about what you can do with Windows Virtual Desktop, watch the [introductory video](/azure/virtual-desktop/overview).
 
 ## Use Windows Virtual Desktop with Azure 
 Visual Studio subscribers now have several ways to use Azure subscriptions to pay for Windows Virtual Desktop services:
@@ -31,13 +31,13 @@ Visual Studio subscribers now have several ways to use Azure subscriptions to pa
 Windows Virtual Desktop requires an Azure Active Directory (Azure AD) to which VMs will be joined.  Users must be members of this Azure AD.  There are two options to implement the Azure AD:
 - Azure AD Directory Services.  For most users, this is the easier option to implement.
 - A virtual machine running a Domain Controller promo.  This option requires more work to set up but offers most users a lower operating cost.
-To see a full list of prerequisites for using Windows Virtual Desktop, please visit the Windows Virtual Desktop [overview page](https://docs.microsoft.com/azure/virtual-desktop/overview#requirements). 
+To see a full list of prerequisites for using Windows Virtual Desktop, please visit the Windows Virtual Desktop [overview page](/azure/virtual-desktop/overview#requirements). 
 
 ## Get started 
 When all your prerequisites are in place, you’ll want to complete several actions to get your implementation in place.  Check out these tutorials to get started:
-- [Create a Windows Virtual Desktop tenant](https://docs.microsoft.com/azure/virtual-desktop/virtual-desktop-fall-2019/tenant-setup-azure-active-directory)
-- [Create a host pool](https://docs.microsoft.com/azure/virtual-desktop/create-host-pools-azure-marketplace) using the Azure portal
-- [Manage app groups](https://docs.microsoft.com/azure/virtual-desktop/manage-app-groups) for Windows Virtual Desktop
+- [Create a Windows Virtual Desktop tenant](/azure/virtual-desktop/virtual-desktop-fall-2019/tenant-setup-azure-active-directory)
+- [Create a host pool](/azure/virtual-desktop/create-host-pools-azure-marketplace) using the Azure portal
+- [Manage app groups](/azure/virtual-desktop/manage-app-groups) for Windows Virtual Desktop
 
 ## Eligibility
 | Subscription Level                                                 |     Channels                                            | Benefit                                                          | Renewable?    |
@@ -59,11 +59,11 @@ When all your prerequisites are in place, you’ll want to complete several acti
 Not sure which subscription you're using?  Connect to [https://my.visualstudio.com/subscriptions](https://my.visualstudio.com/subscriptions?wt.mc_id=o~msft~docs) to see all the subscriptions assigned to your email address. If you don't see all your subscriptions, you may have one or more assigned to a different email address.  You'll need to sign in with that email address to see those subscriptions.
 
 ## See also
-- [Azure documentation](https://docs.microsoft.com/azure/)
-- [Windows Virtual Desktop documentation](https://docs.microsoft.com/azure/virtual-desktop/)
+- [Azure documentation](/azure/)
+- [Windows Virtual Desktop documentation](/azure/virtual-desktop/)
 
 ## Next steps
 -	If you need to purchase Visual Studio subscriptions, check out:
      - [Pricing for retail purchases](https://visualstudio.microsoft.com/vs/pricing/) through the Microsoft Store
      - [Volume Licensing programs](https://www.microsoft.com/licensing/default)
--	Learn about [Windows Virtual Desktop](https://docs.microsoft.com/azure/virtual-desktop/overview) 
+-	Learn about [Windows Virtual Desktop](/azure/virtual-desktop/overview)
