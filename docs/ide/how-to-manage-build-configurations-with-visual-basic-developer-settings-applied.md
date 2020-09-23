@@ -29,9 +29,6 @@ By default, the Visual Basic developer settings hide the option to open the **Co
 
 2. Expand **Projects and Solutions**, and click **General**.
 
-    > [!NOTE]
-    > The **General** node is visible even if the **Show all settings** option is unchecked. If you want to see every option available, click **Show all settings**.
-
 3. Click **Show advanced build configurations**.
 
 4. Click **OK**.

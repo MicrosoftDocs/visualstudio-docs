@@ -40,13 +40,12 @@ A: To make changes to any of your Azure subscriptions:
 4. You'll now have options to manage or cancel the subscription, rename it, change the directory, or transfer billing ownership.
 
 ## See also
-- [Visual Studio documentation](https://docs.microsoft.com/visualstudio/)
-- [Azure DevOps documentation](https://docs.microsoft.com/azure/devops/)
-- [Azure documentation](https://docs.microsoft.com/azure/)
-- [Microsoft 365 documentation](https://docs.microsoft.com/microsoft-365/)
+- [Visual Studio documentation](/visualstudio/)
+- [Azure DevOps documentation](/azure/devops/)
+- [Azure documentation](/azure/)
+- [Microsoft 365 documentation](/microsoft-365/)
 
 ## Next steps
 Many subscriptions include additional Azure-related benefits such as Azure DevOps and Azure DevTest individual credit.  For more information about these benefits, please see:
 - [Azure DevOps](vs-azure-devops.md)
 - [Azure DevTest individual credit](vs-azure.md)
-

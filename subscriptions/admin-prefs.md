@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: v-evwin
 manager: cabuschl
 ms.assetid: 0fe9eaa4-f589-429e-a443-13bf86637d5a
-ms.date: 09/03/2020
+ms.date: 09/21/2020
 ms.topic: conceptual
 description: Learn how to set preferences for language, contacts, subscription level and others in the Administration Portal
 ---
@@ -42,7 +42,7 @@ This preference provides a way for your subscribers to reach out to administrato
 > The email address you list here will NOT be provided to subscribers.  When a subscriber submits a **Contact my Admin** request in the subscriber portal, the message will be forwarded to the alias without exposing it to the subscriber. 
 
 ### Default subscription level
-You can use this setting to determine which of the subscription levels included in your agreement is selected by default when a subscription is assigned to a user.  Admins can change the setting to any subscription level in your agreement -- This just prevents having to repeatedly make your most common choice. 
+You can use this setting to determine which of the subscription levels included in your agreement is selected by default when a subscription is assigned to a user.  Admins can change the setting to any subscription level in your agreement -- this just prevents having to repeatedly make your most common choice. 
 
 ### Default communication preferences
 Setting a default communication language and locale can streamline the process of assigning subscriptions.  For example, if your development team is based in a different country than your admin team, you can set the preferences best suited to the subscribers' location. These settings can still be changed by all admins for individual subscribers. 
@@ -71,10 +71,10 @@ A:  If no specific email address is set in the **Contact email address** prefere
 - [Visual Studio Administration and Subscriptions Support](https://visualstudio.microsoft.com/support/support-overview-vs)
 
 ## See also
-- [Visual Studio documentation](https://docs.microsoft.com/visualstudio/)
-- [Azure DevOps documentation](https://docs.microsoft.com/azure/devops/)
-- [Azure documentation](https://docs.microsoft.com/azure/)
-- [Microsoft 365 documentation](https://docs.microsoft.com/microsoft-365/)
+- [Visual Studio documentation](/visualstudio/)
+- [Azure DevOps documentation](/azure/devops/)
+- [Azure documentation](/azure/)
+- [Microsoft 365 documentation](/microsoft-365/)
 
 ## Next steps
 Learn more about managing Visual Studio subscriptions.

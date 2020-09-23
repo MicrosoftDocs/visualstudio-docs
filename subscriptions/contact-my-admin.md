@@ -31,10 +31,10 @@ Given the size and complexity of many organizations, you may not be aware of who
 - [Visual Studio Administration and Subscriptions Support](https://visualstudio.microsoft.com/support/support-overview-vs)
 
 ## See also
-- [Visual Studio documentation](https://docs.microsoft.com/visualstudio/)
-- [Azure DevOps documentation](https://docs.microsoft.com/azure/devops/)
-- [Azure documentation](https://docs.microsoft.com/azure/)
-- [Microsoft 365 documentation](https://docs.microsoft.com/microsoft-365/)
+- [Visual Studio documentation](/visualstudio/)
+- [Azure DevOps documentation](/azure/devops/)
+- [Azure documentation](/azure/)
+- [Microsoft 365 documentation](/microsoft-365/)
 
 ## Next steps
 If you haven't already done so, we recommend activating these benefits to get the most out of your Visual Studio subscription:
@@ -43,4 +43,3 @@ If you haven't already done so, we recommend activating these benefits to get th
 - [Azure DevOps](vs-azure-devops.md)
 
 These benefits and more can be found at https://my.visualstudio.com/benefits.
-

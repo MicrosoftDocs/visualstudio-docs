@@ -2,7 +2,7 @@
 title: 'Walkthrough: Using MSBuild | Microsoft Docs'
 ms.date: 03/20/2019
 ms.topic: conceptual
-ms.custom: contperfq1
+ms.custom: contperfq2
 helpviewer_keywords:
 - MSBuild, tutorial
 ms.assetid: b8a8b866-bb07-4abf-b9ec-0b40d281c310

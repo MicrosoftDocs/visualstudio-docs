@@ -3,7 +3,7 @@ title: Private Preview
 description: Example customizations used in the GitHub Codespaces Visual Studio preview beta repo.
 ms.date: 08/28/2020
 ms.topic: reference
-author: andster
+author: andysterland
 ms.author: andster
 manager: jillfra
 ms.workload:

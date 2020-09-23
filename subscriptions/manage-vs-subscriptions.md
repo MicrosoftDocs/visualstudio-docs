@@ -108,10 +108,10 @@ A: Depending on the purchasing channel, Microsoft maintains customer data for di
 > - We will not fully remove all your personal data if you have active subscriptions.
 
 ## See also
-- [Visual Studio documentation](https://docs.microsoft.com/visualstudio/)
-- [Azure DevOps documentation](https://docs.microsoft.com/azure/devops/)
-- [Azure documentation](https://docs.microsoft.com/azure/)
-- [Microsoft 365 documentation](https://docs.microsoft.com/microsoft-365/)
+- [Visual Studio documentation](/visualstudio/)
+- [Azure DevOps documentation](/azure/devops/)
+- [Azure documentation](/azure/)
+- [Microsoft 365 documentation](/microsoft-365/)
 
 ## Next steps
 Do you manage subscriptions for your organization?  Learn more about managing Visual Studio subscriptions:

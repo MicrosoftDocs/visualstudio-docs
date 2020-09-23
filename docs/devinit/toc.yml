@@ -25,6 +25,8 @@
       href: tool-dotnet-restore.md
     - name: dotnet-toolinstall
       href: tool-dotnet-toolinstall.md
+    - name: enable-iis
+      href: tool-enable-iis.md
     - name: npm-install
       href: tool-npm-install.md
     - name: nuget-restore
@@ -39,8 +41,6 @@
       href: tool-require-dotnetcoresdk.md
     - name: require-dotnetframeworksdk
       href: tool-require-dotnetframeworksdk.md
-    - name: require-gitsubmodule
-      href: tool-require-gitsubmodule.md
     - name: require-mssql
       href: tool-require-mssql.md
     - name: require-nodejs
@@ -63,6 +63,8 @@
       href: tool-windowsfeature-disable.md
     - name: windowsfeature-enable
       href: tool-windowsfeature-enable.md
+    - name: windowsfeature-list
+      href: tool-windowsfeature-list.md
     - name: wsl-install
       href: tool-wsl-install.md
   - name: Samples

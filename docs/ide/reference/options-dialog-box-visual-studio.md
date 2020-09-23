@@ -33,10 +33,6 @@ Options for an IDE feature do not appear in the navigation pane until the featur
 
 Clicking OK in the **Options** dialog box saves all settings on all pages. Clicking Cancel on any page cancels all change requests, including any just made on other **Options** pages. Some changes to option settings, such as those made on [Fonts and Colors, Environment, Options Dialog Box](../../ide/reference/fonts-and-colors-environment-options-dialog-box.md), will only take effect after you close and reopen Visual Studio.
 
-### Show all settings
-
-Selecting or unselecting **Show all settings** applies all changes you have made in the **Options** dialog box, even though you have not yet clicked **OK**.
-
 ## See also
 
 - [Customizing the Editor](../how-to-change-text-case-in-the-editor.md)

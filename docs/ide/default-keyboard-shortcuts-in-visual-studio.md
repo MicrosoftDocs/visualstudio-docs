@@ -29,7 +29,7 @@ For more information about accessibility in Visual Studio, see [Accessibility ti
 - [Analyze](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_analyze)
 - [Edit](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_edit)
 - [Project](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_project)
-- [Test](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_test)|
+- [Test](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_test)
 - [Architecture](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_architecture)
 - [Editor context menus](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_editorContext)
 - [Project and Solution context menus](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_projectContext)

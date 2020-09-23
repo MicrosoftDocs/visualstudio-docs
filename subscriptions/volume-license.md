@@ -24,12 +24,12 @@ This applies to all Volume Licensing agreement types including, but not limited 
 - [Visual Studio Administration and Subscriptions Support](https://visualstudio.microsoft.com/support/support-overview-vs)
 
 ## See also
-- [Visual Studio documentation](https://docs.microsoft.com/visualstudio/)
-- [Azure DevOps documentation](https://docs.microsoft.com/azure/devops/)
-- [Azure documentation](https://docs.microsoft.com/azure/)
-- [Microsoft 365 documentation](https://docs.microsoft.com/microsoft-365/)
+- [Visual Studio documentation](/visualstudio/)
+- [Azure DevOps documentation](/azure/devops/)
+- [Azure documentation](/azure/)
+- [Microsoft 365 documentation](/microsoft-365/)
 
 ## Next steps
 - Learn how to [assign subscriptions](assign-license.md)
 - Learn more about the full range of [subscription benefits](https://visualstudio.microsoft.com/vs/benefits/)
-- [Set agreement preferences](admin-prefs.md) 
+- [Set agreement preferences](admin-prefs.md)

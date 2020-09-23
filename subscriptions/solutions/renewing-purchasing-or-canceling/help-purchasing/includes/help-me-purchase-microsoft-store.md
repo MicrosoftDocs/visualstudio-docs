@@ -1,6 +1,6 @@
 ---
-title: Help me purchase from marketplace.visualstudio.com
-description: Help me purchase Visual Studio subscriptions from marketplace.visualstudio.com
+title: Help me purchase from the Microsoft Store
+description: Help me purchase Visual Studio subscriptions from the Microsoft Store
 ms.topic: include
 ms.assetid: f56c7642-f945-4bdf-b48e-9d548b08d91d
 author: caitybuschlen
