@@ -140,8 +140,7 @@ reproduce the problem, and include sample source code that demonstrates the prob
 
 If an unresponsiveness manifests itself in an unpredictable fashion, on the next occurrence,
 launch a new instance of Visual Studio and report a problem from that instance.
-In the ["Record"
-screen](./how-to-report-a-problem-with-visual-studio.md?view=vs-2019#record-a-repro),
+In the <a name="record">"Record" screen</a>;
 be sure to select the Visual Studio session that is unresponsive.
 
 If the Visual Studio instance that is unresponsive was launched in Administrator mode,
