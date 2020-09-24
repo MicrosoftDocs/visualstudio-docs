@@ -121,5 +121,3 @@ Not yet available:
 * [What is GitHub Codespaces?](codespaces-overview.md)
 * [How to use Visual Studio with a codespace](use-visual-studio-with-codespaces.md)
 * [How to customize a codespace](customize-codespaces.md)
-
-small change
