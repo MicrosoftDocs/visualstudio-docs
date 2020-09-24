@@ -14374,6 +14374,11 @@
       "source_path": "docs/containers/tutorial-kubernetes-tools.md",
       "redirect_url": "/visualstudio/containers/bridge-to-kubernetes",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/codespaces/index.md",
+      "redirect_url": "/visualstudio/ide/codespaces/codespaces-overview",
+      "redirect_document_id": false
     }
   ]
 }
