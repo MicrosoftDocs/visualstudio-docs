@@ -27,7 +27,7 @@ The **Options** dialog box is divided into two parts: a navigation pane on the l
 Options for an IDE feature do not appear in the navigation pane until the feature is loaded into memory. Therefore, the same options might not be displayed as you begin a new session that were displayed as you ended the last. When you create a project or run a command that uses a particular application, nodes for relevant options are added to the Options dialog box. These added options will then remain available as long as the IDE feature remains in memory.
 
 > [!NOTE]
-> Some settings collections scope the number of pages that appear in the navigation pane of the Options dialog box. You can choose to view all possible pages by selecting **Show all settings**.
+> Some settings collections scope the number of pages that appear in the navigation pane of the Options dialog box.
 
 ## How options are applied
 

@@ -22,7 +22,7 @@ Before you install versions side-by-side, review the following conditions:
 
 * If you use Visual Studio 2017 to open a solution that was created in Visual Studio 2015, you can later open and modify the solution again in the earlier version as long as you haven't implemented any features that are specific to Visual Studio 2017.
 
-* If you try to use Visual Studio 2017 to open a solution that was created in Visual Studio 2015 or an earlier version, you might need to modify your projects and files to be compatible with Visual Studio 2017. For more information, see the [Port, migrate, and upgrade Visual Studio Projects](../porting/port-migrate-and-upgrade-visual-studio-projects.md?view=vs-2017) page.
+* If you try to use Visual Studio 2017 to open a solution that was created in Visual Studio 2015 or an earlier version, you might need to modify your projects and files to be compatible with Visual Studio 2017. For more information, see the [Port, migrate, and upgrade Visual Studio Projects](../porting/port-migrate-and-upgrade-visual-studio-projects.md?view=vs-2017&preserve-view=true) page.
 
 ::: moniker-end
 
@@ -69,17 +69,17 @@ For language-specific information, see the appropriate topic in the following ta
 
 | Language | Topic |
 |--------------|-----------|
-| Visual Basic | [Application Page, Project Designer (Visual Basic)](../ide/reference/application-page-project-designer-visual-basic.md?view=vs-2017) |
-| Visual C# | [Application Page, Project Designer (C#)](../ide/reference/application-page-project-designer-csharp.md?view=vs-2017) |
-| Visual F# | [Develop with Visual F# in Visual Studio](../ide/fsharp-visual-studio.md?view=vs-2017) |
+| Visual Basic | [Application Page, Project Designer (Visual Basic)](../ide/reference/application-page-project-designer-visual-basic.md?view=vs-2017&preserve-view=true) |
+| Visual C# | [Application Page, Project Designer (C#)](../ide/reference/application-page-project-designer-csharp.md?view=vs-2017&preserve-view=true) |
+| Visual F# | [Develop with Visual F# in Visual Studio](../ide/fsharp-visual-studio.md?view=vs-2017&preserve-view=true) |
 |C++ | [How to: Modify the target framework and platform toolset](/cpp/build/how-to-modify-the-target-framework-and-platform-toolset/) |
 
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 
 ## See also
 
-* [Install Visual Studio](install-visual-studio.md?view=vs-2017)
-* [Port, migrate, and upgrade Visual Studio projects](../porting/port-migrate-and-upgrade-visual-studio-projects.md?view=vs-2017)
+* [Install Visual Studio](install-visual-studio.md?view=vs-2017&preserve-view=true)
+* [Port, migrate, and upgrade Visual Studio projects](../porting/port-migrate-and-upgrade-visual-studio-projects.md?view=vs-2017&preserve-view=true)
 * [Building C/C++ isolated applications and side-by-side assemblies](/cpp/build/building-c-cpp-isolated-applications-and-side-by-side-assemblies/)
 
 ::: moniker-end
