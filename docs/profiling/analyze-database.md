@@ -44,7 +44,7 @@ After you find a query you want to investigate, right-click the query. Then sele
 
 ![Go To Source File selected](./media/db-gotosource.png "Go To Source File selected")
 
-If you select a time range on a graph, the query table shows only queries that occurred during that time range. This behavior is especially useful when you also run the [CPU Usage tool](./cpu-usage.md?view=vs-2019).
+If you select a time range on a graph, the query table shows only queries that occurred during that time range. This behavior is especially useful when you also run the [CPU Usage tool](./cpu-usage.md?view=vs-2019&preserve-view=true).
 
 ## See also
 
