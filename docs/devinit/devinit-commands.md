@@ -61,7 +61,7 @@ Specifies the path to the _devinit.json file. If –file is not specified, we se
 * {current-directory}\\.devinit.json
 * {current-directory}\\.devinit\\.devinit.json
 
-Note: Paths without the leading `.` on the directory or filename will also match.
+Paths without the leading `.` on the directory or filename will also match.
 
 #### --error-action argument
 
@@ -81,7 +81,7 @@ Echo tool commands that would be run, but do not execute any tools.
 
 Emit verbose output to standard output. If the tool to be executed supports a verbose option, propagate the verbose switch to the tool.
 
-#### Note on additional command-line arguments
+#### Additional command-line arguments
 
 Using an `<arg>` that includes a space in its value must include an additional pair of escaped quotes.
 
