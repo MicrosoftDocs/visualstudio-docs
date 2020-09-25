@@ -15,11 +15,11 @@ ms.workload:
 ---
 # Overview of source code analysis
 
-.NET Compiler Platform (Roslyn) Analyzers inspect your C# or Visual Basic code for style, quality, maintainability, design, and other issues. This inspection or analysis is done during design time in all open files. 
+.NET Compiler Platform (Roslyn) Analyzers inspect your C# or Visual Basic code for style, quality, maintainability, design, and other issues. This inspection or analysis is done during design time in all open files.
 
 Analyzers can be divided into the following groups:
 
-- [Code style](/visualstudio/ide/editorconfig-code-style-settings-reference?view=vs-2019#convention-categories) analyzers are built in to Visual Studio. The diagnostic ID, or code, for these analyzers is of the format IDExxxx, for example, IDE0067. You can configure preferences in the [text editor options page](../ide/code-styles-and-code-cleanup.md) or in an [EditorConfig file](../ide/editorconfig-code-style-settings-reference.md). Starting in .NET 5.0, code style analyzers are included with the .NET SDK and can be strictly enforced as build warnings or errors. For more information, see [here](/dotnet/fundamentals/productivity/code-analysis#code-style-analysis).
+- [Code style](/visualstudio/ide/editorconfig-code-style-settings-reference?view=vs-2019&preserve-view=true#convention-categories) analyzers are built in to Visual Studio. The diagnostic ID, or code, for these analyzers is of the format IDExxxx, for example, IDE0067. You can configure preferences in the [text editor options page](../ide/code-styles-and-code-cleanup.md) or in an [EditorConfig file](../ide/editorconfig-code-style-settings-reference.md). Starting in .NET 5.0, code style analyzers are included with the .NET SDK and can be strictly enforced as build warnings or errors. For more information, see [here](/dotnet/fundamentals/productivity/code-analysis#code-style-analysis).
 
 - [Code quality](code-analysis-warnings-for-managed-code-by-checkid.md) analyzers are now included with the .NET 5 SDK and enabled by default. The diagnostic ID, or code, for these analyzers is of the format CAxxxx, for example, CA1822. For more information, see [Overview of .NET code quality analysis](/dotnet/fundamentals/productivity/code-analysis#code-quality-analysis).
 
@@ -52,7 +52,7 @@ Many analyzer rules, or *diagnostics*, have one or more associated *code fixes* 
 
 ## Configure analyzer severity levels
 
-You can configure the severity of analyzer rules, or *diagnostics*, in an [EditorConfig file](../code-quality/use-roslyn-analyzers.md#set-rule-severity-in-an-editorconfig-file) or from the [light bulb menu](../code-quality/use-roslyn-analyzers.md#set-rule-severity-from-the-light-bulb-menu). 
+You can configure the severity of analyzer rules, or *diagnostics*, in an [EditorConfig file](../code-quality/use-roslyn-analyzers.md#set-rule-severity-in-an-editorconfig-file) or from the [light bulb menu](../code-quality/use-roslyn-analyzers.md#set-rule-severity-from-the-light-bulb-menu).
 
 Analyzers can also be configured to inspect code at build time and live as you type. You can configure the scope of live code analysis to execute for the current document only, all open documents, or the entire solution. See [How to: Configure the scope of live code analysis](./configure-live-code-analysis-scope-managed-code.md).
 
