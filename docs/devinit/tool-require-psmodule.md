@@ -14,11 +14,10 @@ ms.technology: devinit
 ---
 # require-psmodule
 
-The `require-psmodule` tool is used to install a [PowerShell Module](https://docs.microsoft.com/powershell/scripting/developer/module/understanding-a-windows-powershell-module?view=powershell-7&preserve-view=true) from the [PowerShell Gallery](https://www.powershellgallery.com/) via [Install-Module](https://docs.microsoft.com/powershell/module/powershellget/install-module?view=powershell-7&preserve-view=true, so that it can be used in PowerShell scripts.
+The `require-psmodule` tool is used to install a [PowerShell Module](https://docs.microsoft.com/powershell/scripting/developer/module/understanding-a-windows-powershell-module?view=powershell-7&preserve-view=true) from the [PowerShell Gallery](https://www.powershellgallery.com/) via [Install-Module](https://docs.microsoft.com/powershell/module/powershellget/install-module?view=powershell-7&preserve-view=true), so that it can be used in PowerShell scripts.
 
->
->!TIP Once a module is installed it will still need to be imported into a script using [Import-Module](https://docs.microsoft.com/powershell/module/microsoft.powershell.core/import-module?view=powershell-7&preserve-view=true).
->
+> [!TIP]
+> Once a module is installed it will still need to be imported into a script using [Import-Module](https://docs.microsoft.com/powershell/module/microsoft.powershell.core/import-module?view=powershell-7&preserve-view=true).
 
 ## Usage
 
