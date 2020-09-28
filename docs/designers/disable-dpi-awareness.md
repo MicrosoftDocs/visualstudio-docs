@@ -1,7 +1,7 @@
 ---
 title: Disable DPI-awareness in Visual Studio
 description: Discusses the limitations of Windows Forms Designer on HDPI monitors and how to run Visual Studio as a DPI-unaware process.
-ms.date: 04/05/2019
+ms.date: 09/28/2020
 author: TerryGLee
 ms.author: tglee
 manager: jillfra
@@ -37,6 +37,9 @@ There are three options to resolve the display problem:
 - [Restart Visual Studio as a DPI-unaware process](#restart-visual-studio-as-a-dpi-unaware-process)
 - [Add a registry entry](#add-a-registry-entry)
 - [Set your display scaling setting to 100%](#set-your-display-scaling-setting-to-100)
+
+> [!TIP]
+> If you prefer to manage settings from the command-line, [`devenv.exe`](../ide/reference/devenv-command-line-switches.md)  takes `/noscale` as a command-line parameter to run in 100% scaling mode.
 
 ### Restart Visual Studio as a DPI-unaware process
 
