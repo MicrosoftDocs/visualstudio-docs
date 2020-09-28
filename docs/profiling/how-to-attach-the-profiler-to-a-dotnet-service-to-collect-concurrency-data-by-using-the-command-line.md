@@ -1,5 +1,6 @@
 ---
-title: Attach profiler to .NET to collect concurrency data
+title: "Attach profiler to .NET to collect concurrency data - Command line"
+titleSuffix: ""
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
