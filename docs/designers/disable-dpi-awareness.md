@@ -39,7 +39,7 @@ There are three options to resolve the display problem:
 - [Set your display scaling setting to 100%](#set-your-display-scaling-setting-to-100)
 
 > [!TIP]
-> If you prefer to manage settings from the command-line, [`devenv.exe`](../ide/reference/devenv-command-line-switches.md)  takes `/noscale` as a command-line parameter to run in 100% scaling mode.
+> If you prefer to manage settings from the command line, [`devenv.exe`](../ide/reference/devenv-command-line-switches.md) takes `/noscale` as a command-line parameter to run in 100% scaling mode.
 
 ### Restart Visual Studio as a DPI-unaware process
 
