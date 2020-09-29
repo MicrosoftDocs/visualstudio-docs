@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: lank
 manager: lank
 ms.assetid: f271d623-dcde-442a-865c-4dca5ad8a9c5
-ms.date: 03/17/2020
+ms.date: 09/29/2020
 ms.topic: conceptual
 description: Managing subscriptions in the Visual Studio + GitHub Enterprise offer
 ---
@@ -48,7 +48,7 @@ GitHub is available as either the cloud-based GitHub.com, or on-premise GitHub E
 - Get help from other GitHub users in the [GitHub Community Forum](https://github.community/).
 - For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, contact [Visual Studio Subscriptions Support](https://visualstudio.microsoft.com/subscriptions/support/).
 - Have a question about Visual Studio IDE, Azure DevOps Services or other Visual Studio products or services?  Visit [Visual Studio Support](https://visualstudio.microsoft.com/support/).
-- Get [technical support](https://support.microsoft.com/en-us/supportforbusiness/productselection?sapId=b77fe80f-5417-80bd-4b2a-275cf0018c24) for GitHub Enterprise.   
+- Get [technical support](https://support.microsoft.com/supportforbusiness/productselection?sapId=b77fe80f-5417-80bd-4b2a-275cf0018c24) for GitHub Enterprise.   
 
 ## See also
 

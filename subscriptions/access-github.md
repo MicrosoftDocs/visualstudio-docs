@@ -60,12 +60,12 @@ If you're new to GitHub, here are some helpful resources:
 
 | Subject                                  | GitHub Help Topic                                     |
 |------------------------------------------|-------------------------------------------------------|
-| General   questions/information          | [GitHub Help](https://help.github.com/en)             |
-| What is   GitHub?  How do I learn more?  | [About GitHub](https://help.github.com/en/categories/about-github)                                       |
-| How do I   get started using GitHub?     | [Bootcamp](https://help.github.com/en/categories/bootcamp)                                              |
-| How do I manage my   user account and profile?       | [Setting up and   managing your GitHub user account](https://help.github.com/en/categories/setting-up-and-managing-your-github-user-account)    |
-| How do I manage my   access to GitHub?   | [Authenticating to   GitHub](https://help.github.com/en/categories/authenticating-to-github)                           |
-| How does GitHub use and protect my data? | [Understanding how   GitHub uses and protect your data](https://help.github.com/en/categories/understanding-how-github-uses-and-protects-your-data)|
+| General   questions/information          | [GitHub Help](https://help.github.com)             |
+| What is   GitHub?  How do I learn more?  | [About GitHub](https://help.github.com/categories/about-github)                                       |
+| How do I   get started using GitHub?     | [Bootcamp](https://help.github.com/categories/bootcamp)                                              |
+| How do I manage my   user account and profile?       | [Setting up and   managing your GitHub user account](https://help.github.com/categories/setting-up-and-managing-your-github-user-account)    |
+| How do I manage my   access to GitHub?   | [Authenticating to   GitHub](https://help.github.com/categories/authenticating-to-github)                           |
+| How does GitHub use and protect my data? | [Understanding how   GitHub uses and protect your data](https://help.github.com/categories/understanding-how-github-uses-and-protects-your-data)|
 
 ## Frequently asked questions
 
@@ -76,7 +76,7 @@ A:  The process for setting up a GitHub Enterprise account can take a while.  If
 A:  Along with GitHub Enterprise, you receive all of the benefits of a standard Visual Studio subscription including software downloads, cloud services, technical support and partner benefits just as you would if the subscription was purchased separately.
 
 ## Support resources
-- Learn more about GitHub assignment at [GitHub Docs](https://docs.github.com/en/github/setting-up-and-managing-your-enterprise-account/managing-licenses-for-the-github-enterprise-and-visual-studio-bundle)
+- Learn more about GitHub assignment at [GitHub Docs](https://docs.github.com/github/setting-up-and-managing-your-enterprise-account/managing-licenses-for-the-github-enterprise-and-visual-studio-bundle)
 - Find answers to questions on a wide array of GitHub topics at [GitHub Help](https://help.github.com).
 - Need more help?  Contact [GitHub Support](https://support.github.com/)
 - Get help from other GitHub users in the [GitHub Community Forum](https://github.community/).
