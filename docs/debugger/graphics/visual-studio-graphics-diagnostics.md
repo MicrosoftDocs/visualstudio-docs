@@ -1,5 +1,6 @@
 ---
 title: "Graphics diagnostics | Microsoft Docs"
+description: "An introduction to Visual Studio Graphics Diagnostics."
 ms.custom: "seodec18"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
