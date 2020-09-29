@@ -1,5 +1,6 @@
 ---
 title: "Get started programming document-level customizations for Word"
+titleSuffix: “”
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:

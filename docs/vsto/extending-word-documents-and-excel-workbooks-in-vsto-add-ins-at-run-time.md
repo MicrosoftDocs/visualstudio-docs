@@ -1,5 +1,6 @@
 ---
 title: "Extend Word docs & Excel workbooks in VSTO Add-ins at run time"
+titleSuffix: “”
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:

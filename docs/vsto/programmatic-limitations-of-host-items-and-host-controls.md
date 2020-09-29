@@ -1,5 +1,6 @@
 ---
 title: "Programmatic limitations of host items and host controls"
+titleSuffix: “”
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:

@@ -1,5 +1,6 @@
 ---
 title: "Update Ribbon customizations migrated to .NET Framework 4.5"
+titleSuffix: “”
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:

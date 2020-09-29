@@ -1,5 +1,6 @@
 ---
 title: "How to: Programmatically add comments to text in documents"
+titleSuffix: “”
 ms.date: "02/02/2017"
 ms.topic: "how-to"
 dev_langs:

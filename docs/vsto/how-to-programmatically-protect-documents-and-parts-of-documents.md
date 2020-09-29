@@ -1,5 +1,6 @@
 ---
 title: "Protect documents and parts of documents programmatically"
+titleSuffix: “”
 ms.date: "02/02/2017"
 ms.topic: "how-to"
 dev_langs:

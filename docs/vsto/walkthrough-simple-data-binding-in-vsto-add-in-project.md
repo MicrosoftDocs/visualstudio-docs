@@ -1,5 +1,6 @@
 ---
 title: "Walkthrough: Simple data binding in VSTO Add-in project"
+titleSuffix: “”
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:

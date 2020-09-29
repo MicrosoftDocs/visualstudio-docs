@@ -1,5 +1,6 @@
 ---
 title: "How to: Programmatically use built-in dialog boxes in Word"
+titleSuffix: “”
 ms.date: "02/02/2017"
 ms.topic: "how-to"
 dev_langs:

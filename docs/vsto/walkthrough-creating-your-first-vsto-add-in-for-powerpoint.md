@@ -1,5 +1,6 @@
 ---
 title: "Walkthrough: Create your first VSTO Add-in for PowerPoint"
+titleSuffix: “”
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
