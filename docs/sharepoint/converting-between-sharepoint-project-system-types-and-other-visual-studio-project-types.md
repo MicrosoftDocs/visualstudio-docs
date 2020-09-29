@@ -1,5 +1,6 @@
 ---
 title: "Convert: SharePoint project system types to/from other types"
+titleSuffix: “”
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:

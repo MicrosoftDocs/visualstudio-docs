@@ -1,5 +1,6 @@
 ---
 title: "How to: Add a Property to a SharePoint Project Item Extension | Microsoft Docs"
+titleSuffix: “”
 ms.date: "02/02/2017"
 ms.topic: how-to
 dev_langs:

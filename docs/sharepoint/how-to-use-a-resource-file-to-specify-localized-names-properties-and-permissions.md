@@ -1,5 +1,6 @@
 ---
 title: "How to use a Resource File in a SharePoint project | Microsoft Docs"
+titleSuffix: “”
 ms.date: "02/02/2017"
 ms.topic: how-to
 dev_langs:

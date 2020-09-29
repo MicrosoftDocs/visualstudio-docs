@@ -1,5 +1,6 @@
 ---
 title: "How to: Add a Custom SharePoint Node to Server Explorer | Microsoft Docs"
+titleSuffix: “”
 ms.date: "02/02/2017"
 ms.topic: how-to
 dev_langs:

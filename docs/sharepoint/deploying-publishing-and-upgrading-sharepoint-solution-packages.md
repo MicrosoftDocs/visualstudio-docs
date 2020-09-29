@@ -1,5 +1,6 @@
 ---
 title: "Deploy, publish, & upgrade SharePoint solution packages"
+titleSuffix: “”
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 f1_keywords:
