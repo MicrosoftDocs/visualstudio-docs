@@ -1,5 +1,5 @@
 ---
-title: "Changes required for Office projects migrated to .NET Framework 4, 4.5"
+title: "Changes required for Office projects migrated to .NET Framework 4"
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -14,6 +14,7 @@ ms.workload:
   - "office"
 ---
 # Required changes to run Office projects that you migrate to the .NET Framework 4 or the .NET Framework 4.5
+
   If the target framework of an Office project is changed to the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] or later from an earlier version of the .NET Framework, you must perform the following tasks to ensure that the solution can run on the development computer and on end-user computers:
 
 - Remove the <xref:System.Security.SecurityTransparentAttribute> from the project if you upgraded it from Visual Studio 2008.

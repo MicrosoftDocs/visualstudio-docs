@@ -1,5 +1,5 @@
 ---
-title: "Update Outlook form regions in projects migrated to .NET Framework 4, 4.5"
+title: "Update Outlook form regions when migrated to .NET Framework 4"
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -14,6 +14,7 @@ ms.workload:
   - "office"
 ---
 # Update form regions in Outlook projects that you migrate to the .NET Framework 4 or the .NET Framework 4.5
+
   If the target framework of an Outlook VSTO Add-in project with a form region is changed to the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] or later, you must make some changes to the generated form region code and to any code that instantiates certain form region classes at run time.
 
 ## Update the generated form region code
