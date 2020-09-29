@@ -1,5 +1,4 @@
 - name: Azure Development with Visual Studio
-  href: index.yml
   expanded: true
 - name: Publish to Azure
   items:
