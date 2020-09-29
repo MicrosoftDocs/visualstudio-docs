@@ -20,7 +20,7 @@ ms.workload:
   - "office"
 ---
 
-# Deploying a Visual Studio Tools for Office Solution Using Windows Installer
+# Deploying a VSTO Solution Using Windows Installer
 
 ## Summary
 

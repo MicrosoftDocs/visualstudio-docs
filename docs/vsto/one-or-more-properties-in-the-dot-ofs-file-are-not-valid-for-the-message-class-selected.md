@@ -13,9 +13,9 @@ manager: jillfra
 ms.workload:
   - "office"
 ---
-# One or more properties in the .ofs file are not valid for the message class selected
+# Invalid properties in the .ofs file for the message class
 
-  This error appears when you import a form region that is designed in Outlook, but one or more fields on the form region aren't compatible with the message classes that you select on the final page of the **New Form Region** wizard.
+  The error "One or more properties in the .ofs file are not valid for the message class selected" appears when you import a form region that is designed in Outlook, but one or more fields on the form region aren't compatible with the message classes that you select on the final page of the **New Form Region** wizard.
 
 For example, you might select **Task (IPM.Task)** on the final page of the **New Form Region** wizard. If the form region has a **Business Address** field, you'll receive this error because a task doesn't have a business address. Therefore, the **Business Address** field is not compatible with the `IPM.Task` message class.
 
