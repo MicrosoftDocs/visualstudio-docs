@@ -1,5 +1,6 @@
 ---
 title: "Create Silverlight web part displaying OData for SharePoint"
+titleSuffix: ""
 ms.date: "02/22/2017"
 ms.topic: how-to
 f1_keywords:
