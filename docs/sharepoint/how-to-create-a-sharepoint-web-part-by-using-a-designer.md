@@ -1,6 +1,6 @@
 ---
 title: "How to: Create a SharePoint Web Part by Using a Designer | Microsoft Docs"
-titleSuffix: “”
+titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: how-to
 dev_langs:

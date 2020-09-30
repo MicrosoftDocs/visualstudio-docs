@@ -1,6 +1,6 @@
 ---
 title: "Create custom action project item with item template, part 1"
-titleSuffix: “”
+titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: how-to
 dev_langs:

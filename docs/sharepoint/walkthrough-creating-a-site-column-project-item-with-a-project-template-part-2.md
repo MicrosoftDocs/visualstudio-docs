@@ -1,6 +1,6 @@
 ---
 title: "Create site column project item with project template, part 2"
-titleSuffix: “”
+titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: how-to
 helpviewer_keywords:

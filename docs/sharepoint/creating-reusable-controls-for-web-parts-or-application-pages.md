@@ -1,6 +1,6 @@
 ---
 title: "Creating Reusable Controls for Web Parts or Application Pages | Microsoft Docs"
-titleSuffix: “”
+titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: overview
 dev_langs:

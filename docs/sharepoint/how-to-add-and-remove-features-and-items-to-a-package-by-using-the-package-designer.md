@@ -1,6 +1,6 @@
 ---
 title: "Package designer: Add & remove features and items to package"
-titleSuffix: “”
+titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: how-to
 f1_keywords:
