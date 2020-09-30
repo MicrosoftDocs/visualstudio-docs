@@ -1,6 +1,7 @@
 - name: Code analysis documentation
   href: index.yml
 - name: .NET code analysis
+  expanded: true
   items:
   - name: Source code analysis
     expanded: true
