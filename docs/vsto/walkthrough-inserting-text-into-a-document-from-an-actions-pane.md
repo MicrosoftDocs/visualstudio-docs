@@ -1,5 +1,6 @@
 ---
 title: "Walkthrough: Insert text into a document from an actions pane"
+titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:

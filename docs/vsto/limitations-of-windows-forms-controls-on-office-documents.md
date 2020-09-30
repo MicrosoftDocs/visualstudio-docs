@@ -1,5 +1,6 @@
 ---
 title: "Limitations of Windows Forms controls on Office documents"
+titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
