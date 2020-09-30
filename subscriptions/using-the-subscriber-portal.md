@@ -13,7 +13,7 @@ description: Learn about the full range of benefits available to you on the Visu
 
 The Visual Studio Subscriptions Portal, [https://my.visualstudio.com](https://my.visualstudio.com?wt.mc_id=o~msft~docs), is your all-in-one resource to take advantage of the full range of benefits provided through your Visual Studio subscription.
 
-Using the portal requires that you sign in with the identity associated with your subscription.  This may be your Microsoft Account (MSA) or an email address provided to you by an organization, such as your employer or school.  Learn about [signing in](signing-in.md).
+Using the portal requires that you sign in with the identity associated with your subscription.  This may be your Microsoft Account (MSA) or an email address provided to you by an organization, such as your employer or school.  Learn about [signing in](./index.yml).
 
 The portal is organized in six pages.  Each page provides you with access to different products or services included with your subscription.  The six pages are Benefits, Downloads, Product Keys, Subscriptions, Support, and Marketplace.
 
@@ -49,10 +49,10 @@ In addition to the individual benefits found in the Support category on the Bene
 Need to renew a Visual Studio cloud subscription?  Want to download the latest extensions for the Visual Studio family of products?  The Marketplace helps users find extensions, tools, and services that make Azure DevOps, Azure DevOps Server, and Visual Studio Code even better. You can even become a publisher, and publish your own extensions on the Marketplace.
 
 ## See also
-- [Visual Studio documentation](https://docs.microsoft.com/visualstudio/)
-- [Azure DevOps documentation](https://docs.microsoft.com/azure/devops/)
-- [Azure documentation](https://docs.microsoft.com/azure/)
-- [Microsoft 365 documentation](https://docs.microsoft.com/microsoft-365/)
+- [Visual Studio documentation](/visualstudio/)
+- [Azure DevOps documentation](/azure/devops/)
+- [Azure documentation](/azure/)
+- [Microsoft 365 documentation](/microsoft-365/)
 
 ## Next steps
-Sign in to the portal at [https://my.visualstudio.com](https://my.visualstudio.com?wt.mc_id=o~msft~docs) and check out your benefits.  You can also learn more about signing in to the portal with your [Microsoft Account](sign-in-msa.md) (MSA), your [work or school account](sign-in-work.md), and even your [GitHub account](sign-in-github.md). 
+Sign in to the portal at [https://my.visualstudio.com](https://my.visualstudio.com?wt.mc_id=o~msft~docs) and check out your benefits.  You can also learn more about signing in to the portal with your [Microsoft Account](sign-in-msa.md) (MSA), your [work or school account](sign-in-work.md), and even your [GitHub account](sign-in-github.md).

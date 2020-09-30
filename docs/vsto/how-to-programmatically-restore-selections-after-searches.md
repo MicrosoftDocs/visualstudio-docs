@@ -1,5 +1,6 @@
 ---
 title: "How to: Programmatically restore selections after searches"
+titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: "how-to"
 dev_langs:

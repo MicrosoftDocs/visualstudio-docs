@@ -1,5 +1,6 @@
 ---
 title: "Design changes to Office projects targeting .NET Framework"
+titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:

@@ -5,7 +5,7 @@ description: A list of released versions and build numbers for Visual Studio, so
 author: ornellaalt
 ms.author: ornella
 manager: jillfra
-ms.date: 09/14/2020
+ms.date: 09/29/2020
 ms.topic: reference
 ms.workload:
 - multiple
@@ -23,6 +23,10 @@ The following table lists the build numbers and release dates for Visual Studio 
 
 | **Version**| **Channel** | **Release date** | **Build version** |
 | ---------------------- | ----------- | ---------------- | ----------------- |
+| 16.8.0 | Preview 3.2 | September 29, 2020 | 16.8.30524.135 |
+| 16.7.5 | Release | September 29, 2020 |  16.7.30523.141 |
+| 16.8.0 | Preview 3.1 | September 22, 2020 | 16.8.30516.212 |
+| 16.7.4 | Release | September 21, 2020 | 16.7.30517.126 |
 | 16.8.0 | Preview 3 | September 14, 2020 | 16.8.30509.190 |
 | 16.7.3 | Release | September 8, 2020 | 16.7.30503.244 |
 | 16.4.13 | Release | September 8, 2020 | 16.4.30427.197 |
@@ -158,7 +162,7 @@ The following table lists the build numbers and release dates for Visual Studio 
 | 16.0.0 | Preview 1 | December 4, 2018 | 16.0.28329.73 |
 
 > [!NOTE]
-> For a list of the build numbers and release dates for the previous version, see [Visual Studio 2017 build numbers and release dates](visual-studio-build-numbers-and-release-dates.md?view=vs-2017)
+> For a list of the build numbers and release dates for the previous version, see [Visual Studio 2017 build numbers and release dates](visual-studio-build-numbers-and-release-dates.md?view=vs-2017&preserve-view=true)
 
 ::: moniker-end
 
@@ -342,7 +346,7 @@ The following table lists the build numbers and release dates for Visual Studio 
 | 15.0.0 | Release | March 7, 2017 | 15.0.26228.4 |
 
 > [!NOTE]
-> For more information about build numbers and release dates for the next version of Visual Studio, see the [Visual Studio 2019 build numbers and release dates](/visualstudio/install/visual-studio-build-numbers-and-release-dates?view=vs-2019) page.
+> For more information about build numbers and release dates for the next version of Visual Studio, see the [Visual Studio 2019 build numbers and release dates](/visualstudio/install/visual-studio-build-numbers-and-release-dates?view=vs-2019&preserve-view=true) page.
 
 ::: moniker-end
 

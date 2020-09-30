@@ -15,15 +15,15 @@ metadata:
   ms.manager: jillfra
   monikerRange: ">=vs-2017"
   hide_bc: true
-  
+
 productDirectory:
     items:
     - title: Visual Studio
       imageSrc: ./media/vs-ide-2019.svg
       links:
-        - url: ./windows/index.yml?view=vs-2019
+        - url: ./windows/index.yml?view=vs-2019&preserve-view=true
           text: Visual Studio 2019 (current)
-        - url: ./windows/index.yml?view=vs-2017
+        - url: ./windows/index.yml?view=vs-2017&preserve-view=true
           text: Visual Studio 2017
         - url: /previous-versions/visualstudio/
           text: Previous versions

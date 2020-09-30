@@ -11,7 +11,7 @@ ms.assetid: 78107CFA-9308-4293-A92A-9B552A259E15
 
 You can store different configurations of solution and project properties to use in different kinds of builds during the development process. Projects created by Visual Studio for Mac using a template will typically include Debug and Release configurations that support debugging of an app and deployment of an app, respectively. 
 
-If you'd like to create custom configurations, see [Creating and editing build configurations](/visualstudio/mac/create-and-edit-configurations).
+If you'd like to create custom configurations, see [Creating and editing build configurations](./create-and-edit-configurations.md).
 
 >[!NOTE]
 >This topic applies to Visual Studio for Mac. For Visual Studio on Windows, see [Understand build configurations](/visualstudio/ide/understanding-build-configurations).

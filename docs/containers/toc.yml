@@ -46,8 +46,6 @@
       href: container-launch-settings.md
 - name: Develop with Kubernetes
   items:
-    - name: Kubernetes in Visual Studio
-      href: tutorial-kubernetes-tools.md
     - name: Bridge to Kubernetes
       href: bridge-to-kubernetes.md
     - name: How Bridge to Kubernetes works

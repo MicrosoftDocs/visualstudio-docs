@@ -1,5 +1,6 @@
 ---
 title: "How to: Programmatically add an entry to Outlook contacts"
+titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: "how-to"
 dev_langs:

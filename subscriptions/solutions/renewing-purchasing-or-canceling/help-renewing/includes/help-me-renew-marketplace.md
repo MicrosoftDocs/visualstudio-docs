@@ -1,5 +1,5 @@
 ---
-title: Help me renew using marketplace.visualstudio.com
+title: Help me renew through marketplace.visualstudio.com
 description: Help me renew my Visual Studio subscriptions purchased from marketplace.visualstudio.com.
 ms.topic: include
 ms.assetid: 80459599-378e-42da-a589-c1a7c7407caa
