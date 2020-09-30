@@ -58,13 +58,13 @@ Welcome to what's new in the Visual Studio docs for September 2020. This article
 - [How to customize a codespace (Preview)](/visualstudio/ide/codespaces/customize-codespaces) - add Codespaces (Preview) content
 - [Supported Visual Studio features (Preview)](/visualstudio/ide/codespaces/supported-features-codespaces) - add Codespaces (Preview) content
 - [How to use Visual Studio with a codespace (Preview)](/visualstudio/ide/codespaces/use-visual-studio-with-codespaces) - add Codespaces (Preview) content
-- [C++ EditorConfig formatting conventions](/visualstudio/ide/cpp-editorconfig-properties) - new article by Julia Reid
+- [C++ EditorConfig formatting conventions](/visualstudio/ide/cpp-editorconfig-properties) - new article
 - [New Git experience in Visual Studio (Preview)](/visualstudio/ide/git-with-visual-studio) - add New Git Experience content (Preview)
 
 **Updated articles**
 
 - [.NET coding convention settings for EditorConfig](/visualstudio/ide/editorconfig-code-style-settings-reference) - updated editorconfig
-- [Language conventions](/visualstudio/ide/editorconfig-language-conventions) - visualstudio-docs/issues/5357 -- missing examples
+- [Language conventions](/visualstudio/ide/editorconfig-language-conventions) - missing examples
 
 ## Install
 
