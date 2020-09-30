@@ -74,7 +74,7 @@ conceptualContent:
           url: ../get-started/csharp/index.yml
         - text: C++ development
           itemType: get-started
-          url: /cpp/overview/visual-cpp-in-visual-studio.md
+          url: /cpp/overview/visual-cpp-in-visual-studio
         - text: Visual Basic development
           itemType: get-started
           url: ../get-started/visual-basic/index.yml
