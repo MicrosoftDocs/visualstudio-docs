@@ -12186,6 +12186,11 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "docs/code-quality/ca3005.md",
+      "redirect_url": "/dotnet/fundamentals/code-analysis/quality-rules/ca3005",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/code-quality/ca3006.md",
       "redirect_url": "/dotnet/fundamentals/code-analysis/quality-rules/ca3006",
       "redirect_document_id": false
