@@ -10477,7 +10477,7 @@
     },
     {
       "source_path": "docs/code-quality/ca2230-use-params-for-variable-arguments.md",
-      "redirect_url": "/dotnet/fundamentals/code-analysis/quality-rules/ca2230",
+      "redirect_url": "/visualstudio/code-quality/ca2230",
       "redirect_document_id": true
     },
     {
