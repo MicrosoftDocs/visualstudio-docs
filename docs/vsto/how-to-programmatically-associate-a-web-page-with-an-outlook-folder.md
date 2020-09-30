@@ -1,5 +1,5 @@
 ---
-title: "How to: Programmatically associate a web page with an Outlook folder"
+title: "Associate a web page with an Outlook folder"
 ms.date: "02/02/2017"
 ms.topic: "how-to"
 dev_langs:
@@ -15,7 +15,8 @@ manager: jillfra
 ms.workload:
   - "office"
 ---
-# How to: Programmatically associate a web page with an Outlook folder
+# Associate a web page with an Outlook folder
+
   This example checks for a folder named `HtmlView` in Microsoft Office Outlook. If the folder does not exist, the code creates the folder and assigns a Web page to it. If the folder exists, the code displays the folder contents.
 
  [!INCLUDE[appliesto_olkallapp](../vsto/includes/appliesto-olkallapp-md.md)]

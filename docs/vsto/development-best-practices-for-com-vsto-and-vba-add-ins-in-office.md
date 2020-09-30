@@ -1,5 +1,6 @@
 ---
 title: "Development best practices: COM, VSTO, & VBA add-ins in Office"
+titleSuffix: ""
 ms.date: "07/25/2017"
 ms.topic: "conceptual"
 dev_langs:

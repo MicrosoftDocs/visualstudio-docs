@@ -1,5 +1,6 @@
 ---
 title: "Create site column project item with project template, part 1"
+titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: how-to
 dev_langs:
