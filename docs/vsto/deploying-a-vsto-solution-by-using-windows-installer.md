@@ -1,6 +1,6 @@
 ---
 title: "Deploying a VSTO Solution Using Windows Installer"
-titleSuffix: “”
+titleSuffix: ""
 ms.date: "08/18/2010"
 ms.topic: "conceptual"
 dev_langs:

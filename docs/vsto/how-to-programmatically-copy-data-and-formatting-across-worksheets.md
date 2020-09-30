@@ -1,6 +1,6 @@
 ---
 title: "Copy data and formatting across worksheets programmatically"
-titleSuffix: “”
+titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: "how-to"
 dev_langs:

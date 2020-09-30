@@ -1,6 +1,6 @@
 ---
 title: "Walkthrough: Update a chart in a document using radio buttons"
-titleSuffix: “”
+titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:

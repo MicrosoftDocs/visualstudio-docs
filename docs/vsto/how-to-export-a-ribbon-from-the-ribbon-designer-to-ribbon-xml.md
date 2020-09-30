@@ -1,6 +1,6 @@
 ---
 title: "How to: Export a ribbon from the Ribbon Designer to Ribbon XML"
-titleSuffix: “”
+titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: "how-to"
 dev_langs:

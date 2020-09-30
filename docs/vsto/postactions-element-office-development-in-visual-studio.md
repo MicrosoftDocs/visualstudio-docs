@@ -1,6 +1,6 @@
 ---
 title: "&lt;postActions&gt; element (Office development)"
-titleSuffix: “”
+titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: "reference"
 dev_langs:

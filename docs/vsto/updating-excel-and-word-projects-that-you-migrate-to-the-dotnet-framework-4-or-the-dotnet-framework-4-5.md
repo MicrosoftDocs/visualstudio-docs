@@ -1,6 +1,6 @@
 ---
 title: "Update Excel or Word project migrated to .NET Framework 4.5"
-titleSuffix: “”
+titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:

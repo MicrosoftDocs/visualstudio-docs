@@ -1,6 +1,6 @@
 ---
 title: "Validate data when new row is added to ListObject control"
-titleSuffix: “”
+titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: "how-to"
 dev_langs:

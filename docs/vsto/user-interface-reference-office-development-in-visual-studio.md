@@ -1,6 +1,6 @@
 ---
 title: "User interface reference (Office development in Visual Studio)"
-titleSuffix: “”
+titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:

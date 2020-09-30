@@ -1,6 +1,6 @@
 ---
 title: "Walkthrough: Automate an application from a custom task pane"
-titleSuffix: “”
+titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:

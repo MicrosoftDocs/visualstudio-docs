@@ -1,6 +1,6 @@
 ---
 title: "How to: Programmatically remove protection from worksheets"
-titleSuffix: “”
+titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: "how-to"
 dev_langs:

@@ -1,6 +1,6 @@
 ---
 title: "Migrate Office solutions to the .NET Framework 4 or later"
-titleSuffix: “”
+titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 f1_keywords:

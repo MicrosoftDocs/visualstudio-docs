@@ -1,6 +1,6 @@
 ---
 title: "Managed reference (Office development in Visual Studio)"
-titleSuffix: “”
+titleSuffix: ""
 ms.date: "08/14/2019"
 ms.topic: "reference"
 dev_langs:

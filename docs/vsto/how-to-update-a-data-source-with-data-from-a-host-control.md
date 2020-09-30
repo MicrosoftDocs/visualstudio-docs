@@ -1,6 +1,6 @@
 ---
 title: "How to: Update a data source with data from a host control"
-titleSuffix: “”
+titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: "how-to"
 dev_langs:

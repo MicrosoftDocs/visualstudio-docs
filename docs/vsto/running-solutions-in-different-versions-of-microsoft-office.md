@@ -1,6 +1,6 @@
 ---
 title: "Run solutions in different versions of Microsoft Office"
-titleSuffix: “”
+titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:

@@ -1,6 +1,6 @@
 ---
 title: "Copy and paste shapes in Visio document programmatically"
-titleSuffix: “”
+titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: "how-to"
 dev_langs:

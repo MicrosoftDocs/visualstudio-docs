@@ -1,6 +1,6 @@
 ---
 title: "How to: Programmatically insert text into Word documents"
-titleSuffix: “”
+titleSuffix: ""
 ms.date: "08/14/2019"
 ms.topic: "how-to"
 dev_langs:

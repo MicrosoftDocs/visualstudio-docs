@@ -1,6 +1,6 @@
 ---
 title: "How to: Programmatically add new worksheets to workbooks"
-titleSuffix: “”
+titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: "how-to"
 dev_langs:

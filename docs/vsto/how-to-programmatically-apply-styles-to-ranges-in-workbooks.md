@@ -1,6 +1,6 @@
 ---
 title: "How to: Programmatically apply styles to ranges in workbooks"
-titleSuffix: “”
+titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: "how-to"
 dev_langs:

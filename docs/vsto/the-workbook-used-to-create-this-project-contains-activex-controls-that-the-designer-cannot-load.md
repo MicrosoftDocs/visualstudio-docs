@@ -1,6 +1,6 @@
 ---
 title: "The workbook contains ActiveX controls that cannot be loaded"
-titleSuffix: “”
+titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: "error-reference"
 f1_keywords:

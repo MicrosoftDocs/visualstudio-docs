@@ -1,6 +1,6 @@
 ---
 title: "How to: Configure a computer to develop Office solutions"
-titleSuffix: “”
+titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: "how-to"
 dev_langs:
