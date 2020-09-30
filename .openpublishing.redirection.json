@@ -11521,11 +11521,6 @@
       "redirect_document_id": false
     },
     {
-      "source_path": "docs/code-quality/ca1306.md",
-      "redirect_url": "/dotnet/fundamentals/code-analysis/quality-rules/ca1306",
-      "redirect_document_id": false
-    },
-    {
       "source_path": "docs/code-quality/ca1307.md",
       "redirect_url": "/dotnet/fundamentals/code-analysis/quality-rules/ca1307",
       "redirect_document_id": false
@@ -11921,11 +11916,6 @@
       "redirect_document_id": false
     },
     {
-      "source_path": "docs/code-quality/ca2202.md",
-      "redirect_url": "/dotnet/fundamentals/code-analysis/quality-rules/ca2202",
-      "redirect_document_id": false
-    },
-    {
       "source_path": "docs/code-quality/ca2207.md",
       "redirect_url": "/dotnet/fundamentals/code-analysis/quality-rules/ca2207",
       "redirect_document_id": false
@@ -11996,16 +11986,6 @@
       "redirect_document_id": false
     },
     {
-      "source_path": "docs/code-quality/ca2232.md",
-      "redirect_url": "/dotnet/fundamentals/code-analysis/quality-rules/ca2232",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "docs/code-quality/ca2233.md",
-      "redirect_url": "/dotnet/fundamentals/code-analysis/quality-rules/ca2233",
-      "redirect_document_id": false
-    },
-    {
       "source_path": "docs/code-quality/ca2234.md",
       "redirect_url": "/dotnet/fundamentals/code-analysis/quality-rules/ca2234",
       "redirect_document_id": false
@@ -12013,11 +11993,6 @@
     {
       "source_path": "docs/code-quality/ca2235.md",
       "redirect_url": "/dotnet/fundamentals/code-analysis/quality-rules/ca2235",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "docs/code-quality/ca2236.md",
-      "redirect_url": "/dotnet/fundamentals/code-analysis/quality-rules/ca2236",
       "redirect_document_id": false
     },
     {
