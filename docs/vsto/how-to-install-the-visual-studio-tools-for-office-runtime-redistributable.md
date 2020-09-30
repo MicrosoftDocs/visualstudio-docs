@@ -1,6 +1,5 @@
 ---
 title: "How to: Install the Visual Studio Tools for Office runtime redistributable"
-titleSuffix: “”
 titleSuffix: ""
 ms.custom: "seodec18"
 ms.date: "08/14/2019"
