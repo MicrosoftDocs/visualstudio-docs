@@ -1,10 +1,11 @@
 ---
 title: Use Design Time Data with the XAML Designer in Visual Studio
-ms.date: 08/05/2020
+ms.date: 09/29/2020
 ms.topic: overview
-author: TerryGLee
+author: alihamie
 ms.author: tglee
 manager: jillfra
+monikerRange: vs-2019
 ---
 
 # Use Design Time Data with the XAML Designer in Visual Studio
@@ -13,7 +14,7 @@ Some layouts are hard to visualize without data. Use these tips to make the most
 
 ## Design time data basics
 
-Design time data is fake data you set to make your controls easier to visualize in the XAML Designer. To get started, add the following lines of code to the header of your XAML page:
+Design time data is mock data you set to make your controls easier to visualize in the XAML Designer. To get started, add the following lines of code to the header of your XAML document if they aren't already present:
 
 ```xaml
 xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
@@ -21,7 +22,7 @@ xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
 mc:Ignorable="d"
 ```
 
-After adding the namespaces, you can put `d:` in front of any attribute or control to show it in the XAML Designer. Elements with `d:` aren't shown at runtime.
+After adding the namespaces, you can put `d:` in front of any attribute or control to show it only in the XAML Designer but not at runtime.
 
 For example, you can add text to a TextBlock that usually has data bound to it.
 
@@ -53,19 +54,19 @@ You can set a design time Source for images that are bound to the page or loaded
 
 ## Design time data for ListViews
 
-ListViews are a popular way to display data in your Desktop app. However, they're difficult to visualize without real data. You can use this feature to create an inline design time data ItemSource. The XAML Designer displays what is in that array in your ListView at design time. This is an example for Wpf .NetCore, to use the system:String type make sure you include 
-`xmlns:system="clr-namespace:System;assembly=mscorlib` in your Xaml header.
+ListViews are a popular way to display data in your Desktop app. However, they're difficult to visualize without any data. You can use this feature to create an inline design time data ItemSource. The XAML Designer displays what is in that array in your ListView at design time. This is an example for WPF .NetCore, to use the system:String type make sure you include 
+`xmlns:system="clr-namespace:System;assembly=mscorlib` in your XAML header.
 
 ```xaml
 <StackPanel>
     <ListView ItemsSource="{Binding Items}">
-      <d:ListView.ItemsSource>
-        <x:Array Type="{x:Type system:String}">
-          <system:String>Item One</system:String>
-          <system:String>Item Two</system:String>
-          <system:String>Item Three</system:String>
-        </x:Array>
-    </d:ListView.ItemsSource>
+        <d:ListView.ItemsSource>
+            <x:Array Type="{x:Type system:String}">
+                <system:String>Item One</system:String>
+                <system:String>Item Two</system:String>
+                <system:String>Item Three</system:String>
+            </x:Array>
+        </d:ListView.ItemsSource>
     <ListView.ItemTemplate>
         <DataTemplate>
             <TextBlock Text="{Binding ItemName}" d:Text="{Binding .}" />
@@ -77,7 +78,7 @@ ListViews are a popular way to display data in your Desktop app. However, they'r
 
 [![Design time data with a ListView](media\xaml-designtime-ListViewStrings.png "Design time data with a ListView")](media\xaml-designtime-ListViewStrings.png#lightbox)
 
-This example will show a ListView of three TextBlocks in the XAML Designer. You can change `system:String` to an existing data model in your project.
+This example shows a ListView with three TextBlocks in the XAML Designer.
 
 You can also create an array of data objects. For example, public properties of a `Monkey` data object can be constructed as design time data:
 
@@ -122,13 +123,15 @@ xmlns:models="clr-namespace:Monkeys.Models"
 
 [![Actual model in Design time data with a ListView](media\xaml-designtime-ListViewModels.png "Actual model Design time data with a ListView")](media\xaml-designtime-ListViewModels.png#lightbox)
 
-The benefit here is that you can bind to the actual model that you plan to use.
+The benefit here is that you can bind your controls to a design time static version of your model.
 
 ## Troubleshooting
 
+If you experience a problem that isn't listed in this section, please let us know by using the [Report a Problem](../ide/how-to-report-a-problem-with-visual-studio.md) tool.
+
 ### Requirements
 
-Design time data requires the 16.7 release of Visual Studio 2019.
+Design time data requires the [16.7 release](/visualstudio/releases/2019/release-notes) of Visual Studio 2019.
 
 ### The XAML Designer stopped working
 
