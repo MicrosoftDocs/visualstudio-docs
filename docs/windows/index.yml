@@ -7,6 +7,7 @@ metadata:
    titleSuffix: ""
    description: Learn how to use Visual Studio to develop applications, services, and tools in the language of your choice, for any platform or device.
    ms.topic: hub-page
+   ms.custom: contperfq1
    monikerRange: ">=vs-2017"
    f1_keywords:
      - MSDNSTART
@@ -19,24 +20,18 @@ highlightedContent:
    - title: Welcome to the Visual Studio IDE
      itemType: overview
      url: ../get-started/visual-studio-ide.md
-   - title: What's new in Visual Studio 2019
-     itemType: get-started
-     url: ../ide/whats-new-visual-studio-2019.md
-   - title: Improve your development skills
+   - title: Visual Studio 2019 Release Notes
+     itemType: whats-new
+     url: /visualstudio/releases/2019/release-notes/
+   - title: Improve your Visual Studio skills
      itemType: learn
-     url: /learn/
+     url: /learn/browse/?products=vs
 
 conceptualContent:
   title: Get started
   items:
     - title: Learn how to use Visual Studio
       links:
-        - text: Start a guided tour
-          url: ../get-started/visual-studio-ide.md
-          itemType: overview
-        - text: Open code from a repo
-          url: ../get-started/tutorial-open-project-from-repo.md
-          itemType: tutorial
         - text: Write and edit code
           url: ../ide/index-writing-code.yml
           itemType: tutorial
@@ -49,37 +44,51 @@ conceptualContent:
         - text: Test your code
           itemType: tutorial
           url: ../test/getting-started-with-unit-testing.md
-        - text: Access data locally or in the cloud
+        - text: Open code from a repo
+          url: ../get-started/tutorial-open-project-from-repo.md
           itemType: tutorial
-          url: ../data-tools/create-a-sql-database-by-using-a-designer.md
     - title: Follow a tutorial
       links:
-        - text: C#
-          url: ../get-started/csharp/index.yml
+        - text: C# - Create a simple console app
+          url: ../get-started/csharp/tutorial-console.md
           itemType: get-started
-        - text: F#
-          url: ../ide/quickstart-fsharp.md
-          itemType: get-started
-        - text: Visual Basic
-          url: ../get-started/visual-basic/index.yml
-          itemType: get-started
-        - text: C++
+        - text: C++ - Create a console calculator
           url: /cpp/get-started/tutorial-console-cpp
           itemType: get-started
-        - text: Python
-          url: ../python/index.yml
+        - text: Visual Basic - Create a console app
+          url: ../get-started/visual-basic//tutorial-console.md
           itemType: get-started
+        - text: Python - Get started with Python
+          url: ../python/tutorial-working-with-python-in-visual-studio-step-00-installation.md
+          itemType: get-started
+        - text: JavaScript - Create a Node.js and Express app
+          url: ../javascript/tutorial-nodejs.md
+          itemType: get-started
+        - text: F# - Create a web service
+          url: ../ide/quickstart-fsharp.md
+          itemType: get-started
+    - title: Visual Studio language guidance
+      links:
+        - text: C# development
+          itemType: get-started
+          url: ../get-started/csharp/index.yml
+        - text: C++ development
+          itemType: get-started
+          url: /cpp/overview/visual-cpp-in-visual-studio.md
+        - text: Visual Basic development
+          itemType: get-started
+          url: ../get-started/visual-basic/index.yml
+        - text: Python development
+          itemType: get-started
+          url: ../python/index.yml
         - text: JavaScript
           url: ../javascript/index.yml
           itemType: get-started
     - title: Create an app
       links:
-        - text: Windows desktop app
-          itemType: tutorial
-          url: ../get-started/csharp/tutorial-wpf.md
-        - text: Universal Windows app
-          itemType: tutorial
-          url: ../get-started/csharp/tutorial-uwp.md
+        - text: Windows app 
+          itemType: overview
+          url: /windows/apps/
         - text: Mobile app
           itemType: overview
           url: ../cross-platform/cross-platform-mobile-development-in-visual-studio.md
