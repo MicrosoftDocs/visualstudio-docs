@@ -15689,17 +15689,17 @@
       "source_path": "docs/ide/editorconfig-code-style-settings-reference.md",
       "redirect_url": "/dotnet/fundamentals/code-analysis/code-style-rule-options",
       "redirect_document_id": false
-    }
+    },
     {
       "source_path": "docs/ide/editorconfig-formatting-conventions.md",
       "redirect_url": "/dotnet/fundamentals/code-analysis/style-rules/formatting-rules",
       "redirect_document_id": false
-    }
+    },
     {
       "source_path": "docs/ide/editorconfig-language-conventions.md",
       "redirect_url": "/dotnet/fundamentals/code-analysis/style-rules/language-rules",
       "redirect_document_id": false
-    }
+    },
     {
       "source_path": "docs/ide/editorconfig-naming-conventions.md",
       "redirect_url": "/dotnet/fundamentals/code-analysis/style-rules/naming-rules",
