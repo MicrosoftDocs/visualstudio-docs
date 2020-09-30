@@ -13,7 +13,7 @@
       - name: Overview
         href: use-roslyn-analyzers.md
       - name: Code quality
-        href: configure-fxcop-analyzers.md
+        href: /dotnet/fundamentals/code-analysis/code-quality-rule-options
       - name: Configure live code analysis
         href: configure-live-code-analysis-scope-managed-code.md
       - name: Run code analysis manually
