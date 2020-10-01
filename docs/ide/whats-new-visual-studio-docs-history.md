@@ -42,9 +42,9 @@ Welcome to the history of what's new in Visual Studio docs. This topic contains 
 
 **New articles**
 
-- [Configure Local Process with Kubernetes](/visualstudio/containers/configure-bridge-to-kubernetes) - Local Process with Kubernetes: yaml configuration
-- [Use Local Process with Kubernetes (preview)](/visualstudio/containers/bridge-to-kubernetes) - Dev spaces migration
-- [How Local Process with Kubernetes works](/visualstudio/containers/overview-bridge-to-kubernetes)
+- [Configure Local Process with Kubernetes](../containers/configure-bridge-to-kubernetes.md) - Local Process with Kubernetes: yaml configuration
+- [Use Local Process with Kubernetes (preview)](../containers/bridge-to-kubernetes.md) - Dev spaces migration
+- [How Local Process with Kubernetes works](../containers/overview-bridge-to-kubernetes.md)
   - Local Process for Kubernetes: Add routing section
   - Dev spaces migration
 
