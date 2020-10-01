@@ -37,7 +37,7 @@ You should notice little difference editing source code in a codespace as you ge
 * Syntax highlighting
 * Quick Info*
 * HTML, CSS, Razor editors* - Partial support.
-* JavaScript editor* - Partial support.
+* JavaScript and TypeScript editor* - Partial support.
 
 Not yet available:
 
@@ -45,7 +45,7 @@ Not yet available:
 * Code navigation* - Most commands supported, specifically Go To Base and Find in files with path specification not yet supported.
 * Quick Info* - Colorization in quick info is not supported.
 * HTML, CSS, Razor editors* - Diagnostics, IntelliSense completion, quick info, smart indent. Currently no support for semantic colorization, navigation commands, etc.
-* JavaScript editor* - Script blocks (for example, JavaScript content in HTML and CSHTML files) and semantic highlighting are not yet supported. Known issues with lightbulb features and linting.
+* JavaScript and TypeScript editor* - Script blocks (for example, JavaScript content in HTML and CSHTML files) and semantic highlighting are not yet supported. Known issues with lightbulb features and linting.
 * CMake Targets View
 * CMake Project Settings editor
 * Ctrl+F7 (compile file)
