@@ -81,4 +81,4 @@ Visual Studio *Graphics Diagnostics* is a set of tools for recording and then an
 | - | - |
 | [Debugger Feature Tour](../debugger-feature-tour.md) | Introduces the debugging functionality in [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]. |
 | [DirectX Graphics and Gaming](/windows/win32/directx) | Provides articles that discuss DirectX graphics technologies. |
-| [DirectX 12 Support in Visual Studio](vsgd-dx12.md) | Learn about DirectX 12 support in Visual Studio |
+| [DirectX 12 Support in Visual Studio](visual-studio-graphics-diagnostics-directx12.md) | Learn about DirectX 12 support in Visual Studio |
