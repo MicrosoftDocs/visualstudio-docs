@@ -182,7 +182,7 @@ The following table describes all the rules in the Microsoft Extended Design Gui
 |[CA1712](../code-quality/ca1712.md)|Do not prefix enum values with type name|
 |[CA1713](../code-quality/ca1713.md)|Events should not have before or after prefix|
 |[CA1714](../code-quality/ca1714.md)|Flags enums should have plural names|
-|[CA1715](../code-quality/ca1715.md)|Identifiers should have correct prefix|
+|[CA1715](/dotnet/fundamentals/code-analysis/quality-rules/ca1715)|Identifiers should have correct prefix|
 |[CA1717](/dotnet/fundamentals/code-analysis/quality-rules/ca1717)|Only FlagsAttribute enums should have plural names|
 |[CA1719](../code-quality/ca1719.md)|Parameter names should not match member names|
 |[CA1720](/dotnet/fundamentals/code-analysis/quality-rules/ca1720)|Identifiers should not contain type names|

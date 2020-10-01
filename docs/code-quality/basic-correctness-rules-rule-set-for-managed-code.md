@@ -85,7 +85,7 @@ The following table describes all the rules in the Microsoft Basic Correctness R
 |[CA1308](../code-quality/ca1308.md)|Normalize strings to uppercase|
 |[CA1806](../code-quality/ca1806.md)|Do not ignore method results|
 |[CA1816](../code-quality/ca1816.md)|Call GC.SuppressFinalize correctly|
-|[CA1819](../code-quality/ca1819.md)|Properties should not return arrays|
+|[CA1819](/dotnet/fundamentals/code-analysis/quality-rules/ca1819)|Properties should not return arrays|
 |[CA1820](/dotnet/fundamentals/code-analysis/quality-rules/ca1820)|Test for empty strings using string length|
 |[CA1903](../code-quality/ca1903.md)|Use only API from targeted framework|
 |[CA2004](../code-quality/ca2004.md)|Remove calls to GC.KeepAlive|

@@ -150,7 +150,7 @@ The following table describes all of the rules in the Microsoft Basic Design Gui
 |[CA2227](../code-quality/ca2227.md)|Collection properties should be read only|
 |[CA2229](../code-quality/ca2229.md)|Implement serialization constructors|
 |[CA2230](../code-quality/ca2230.md)|Use params for variable arguments|
-|[CA2231](../code-quality/ca2231.md)|Overload operator equals on overriding ValueType.Equals|
+|[CA2231](/dotnet/fundamentals/code-analysis/quality-rules/ca2231)|Overload operator equals on overriding ValueType.Equals|
 |[CA2232](../code-quality/ca2232.md)|Mark Windows Forms entry points with STAThread|
 |[CA2234](/dotnet/fundamentals/code-analysis/quality-rules/ca2234)|Pass System.Uri objects instead of strings|
 |[CA2235](/dotnet/fundamentals/code-analysis/quality-rules/ca2235)|Mark all non-serializable fields|

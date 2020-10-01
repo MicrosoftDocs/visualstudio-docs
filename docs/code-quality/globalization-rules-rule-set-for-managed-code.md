@@ -17,7 +17,7 @@ Use the Microsoft Globalization Rules rule set to focus on problems that might p
 |----------|-----------------|
 |[CA1303](../code-quality/ca1303.md)|Do not pass literals as localized parameters|
 |[CA1304](../code-quality/ca1304.md)|Specify CultureInfo|
-|[CA1305](../code-quality/ca1305.md)|Specify IFormatProvider|
+|[CA1305](/dotnet/fundamentals/code-analysis/quality-rules/ca1305)|Specify IFormatProvider|
 |[CA1307](/dotnet/fundamentals/code-analysis/quality-rules/ca1307)|Specify StringComparison for clarity|
 |[CA1308](/dotnet/fundamentals/code-analysis/quality-rules/ca1308)|Normalize strings to uppercase|
 |[CA1309](/dotnet/fundamentals/code-analysis/quality-rules/ca1309)|Use ordinal StringComparison|

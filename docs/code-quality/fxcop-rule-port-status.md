@@ -190,7 +190,7 @@ CA5374 | Do Not Use XslTransform
 CA5375 | Do Not Use Account Shared Access Signature
 CA5376 | Use SharedAccessProtocol HttpsOnly
 CA5377 | Use Container Level Access Policy
-[CA5378](ca5378.md) | Do not disable ServicePointManagerSecurityProtocols
+[CA5378](/dotnet/fundamentals/code-analysis/quality-rules/ca5378) | Do not disable ServicePointManagerSecurityProtocols
 CA5379 | Do Not Use Weak Key Derivation Function Algorithm
 CA9999 | Analyzer version mismatch
 

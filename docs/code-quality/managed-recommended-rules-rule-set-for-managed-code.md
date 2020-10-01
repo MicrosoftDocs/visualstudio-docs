@@ -69,7 +69,7 @@ Include this rule set in any custom rule set that you create for your projects.
 |[CA2214](../code-quality/ca2214.md)|Do not call overridable methods in constructors|
 |[CA2216](../code-quality/ca2216.md)|Disposable types should declare finalizer|
 |[CA2220](../code-quality/ca2220.md)|Finalizers should call base class finalizer|
-|[CA2229](../code-quality/ca2229.md)|Implement serialization constructors|
+|[CA2229](/dotnet/fundamentals/code-analysis/quality-rules/ca2229)|Implement serialization constructors|
 |[CA2231](/dotnet/fundamentals/code-analysis/quality-rules/ca2231)|Overload operator equals on overriding ValueType.Equals|
 |[CA2232](../code-quality/ca2232.md)|Mark Windows Forms entry points with STAThread|
 |[CA2235](/dotnet/fundamentals/code-analysis/quality-rules/ca2235)|Mark all non-serializable fields|

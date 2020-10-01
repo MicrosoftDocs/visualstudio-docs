@@ -76,7 +76,7 @@ Use the Microsoft Security Rules rule set for legacy code analysis to maximize t
 |[CA3006](../code-quality/ca3006.md)|Review code for process command injection vulnerabilities|
 |[CA3007](../code-quality/ca3007.md)|Review code for open redirect vulnerabilities|
 |[CA3008](../code-quality/ca3008.md)|Review code for XPath injection vulnerabilities|
-|[CA3009](../code-quality/ca3009.md)|Review code for XML injection vulnerabilities|
+|[CA3009](/dotnet/fundamentals/code-analysis/quality-rules/ca3009)|Review code for XML injection vulnerabilities|
 |[CA3010](/dotnet/fundamentals/code-analysis/quality-rules/ca3010)|Review code for XAML injection vulnerabilities|
 |[CA3011](/dotnet/fundamentals/code-analysis/quality-rules/ca3011)|Review code for DLL injection vulnerabilities|
 |[CA3012](/dotnet/fundamentals/code-analysis/quality-rules/ca3012)|Review code for regex injection vulnerabilities|

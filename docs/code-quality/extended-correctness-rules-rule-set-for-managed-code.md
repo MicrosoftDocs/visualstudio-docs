@@ -137,7 +137,7 @@ The following table describes all of the rules in the Microsoft Extended Correct
 |[CA2144](../code-quality/ca2144.md)|Transparent code should not load assemblies from byte arrays|
 |[CA2145](../code-quality/ca2145.md)|Transparent methods should not be decorated with the SuppressUnmanagedCodeSecurityAttribute|
 |[CA2204](../code-quality/ca2204.md)|Literals should be spelled correctly|
-|[CA2211](../code-quality/ca2211.md)|Non-constant fields should not be visible|
+|[CA2211](/dotnet/fundamentals/code-analysis/quality-rules/ca2211)|Non-constant fields should not be visible|
 |[CA2217](/dotnet/fundamentals/code-analysis/quality-rules/ca2217)|Do not mark enums with FlagsAttribute|
 |[CA2218](../code-quality/ca2218.md)|Override GetHashCode on overriding Equals|
 |[CA2219](/dotnet/fundamentals/code-analysis/quality-rules/ca2219)|Do not raise exceptions in exception clauses|
