@@ -19,7 +19,7 @@ Some layouts are hard to visualize without data. In this document, we'll be revi
 
 Design time data is mock data you set to make your controls easier to visualize in the XAML Designer. To get started, add the following lines of code to the header of your XAML document if they aren't already present:
 
-```xaml
+```xml 
 xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
 xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
 mc:Ignorable="d"
@@ -29,7 +29,7 @@ After adding the namespaces, you can put `d:` in front of any attribute or contr
 
 For example, you can add text to a TextBlock that usually has data bound to it.
 
-```xaml
+```xml
 <TextBlock Text="{Binding Name}" d:Text="Name!" />
 ```
 
@@ -39,7 +39,7 @@ In this example, without `d:Text`, the XAML Designer would show nothing for the 
 
 You can use `d:` with attributes for any UWP or WPF .Net Core control, like colors, font sizes, and spacing. You can even add it to the control itself:
 
-```xaml
+```xml
 <d:Button Content="Design Time Button" />
 ```
 
@@ -51,7 +51,7 @@ In this example, the button only appears at design time. Use this method to put 
 
 You can set a design time Source for images that are bound to the page or loaded in dynamically. Add the image you want to show in the XAML Designer to your project. You can then show that image in the XAML Designer at design time:
 
-```xaml
+```xml
 <Image Source={Binding ProfilePicture} d:Source="DesignTimePicture.jpg" />
 ```
 
@@ -63,7 +63,7 @@ You can set a design time Source for images that are bound to the page or loaded
 ListViews are a popular way to display data in your Desktop app. However, they're difficult to visualize without any data. You can use this feature to create an inline design time data ItemSource. The XAML Designer displays what is in that array in your ListView at design time. This is an example for WPF .Net Core, to use the system:String type make sure you include 
 `xmlns:system="clr-namespace:System;assembly=mscorlib` in your XAML header.
 
-```xaml
+```xml
 <StackPanel>
     <ListView ItemsSource="{Binding Items}">
         <d:ListView.ItemsSource>
@@ -105,7 +105,7 @@ To use the class in XAML you will need to import the namespace in the root node:
 xmlns:models="clr-namespace:Cities.Models"
 ```
 
-```xaml
+```xml
 <StackPanel>
     <ListView ItemsSource="{Binding Items}">
         <d:ListView.ItemsSource>
@@ -140,6 +140,8 @@ If you experience a problem that isn't listed in this section, please let us kno
 - Design-time data requires Visual Studio 2019 update  [16.7](/visualstudio/releases/2019/release-notes) or greater
 
 - Supports Windows desktop projects that are targeting Windows Presentation Foundation (WPF) for .NET Core and UWP. This feature is not currently supported for WPF .NET Framework projects or WinUI 3.0
+
+- Starting with Visual Studio 2019 16.7 this feature works with all in-the-box controls from WPF and UWP frameworks. Support for 3rd party controls is also now available starting with 16.8 or greater"
 
 ### The XAML Designer stopped working
 
