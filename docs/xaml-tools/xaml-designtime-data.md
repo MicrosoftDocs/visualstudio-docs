@@ -10,7 +10,7 @@ monikerRange: vs-2019
 
 # Use Design Time Data with the XAML Designer in Visual Studio
 
-Some layouts are hard to visualize without data. In this document, we'll be reviewing one of the approaches developers working on desktop projects can use to mock data in the XAML designer. This approach is done using the existing Ignorable “d:” namespace. With this approach you can quickly add design-time data to your pages or controls without the need to create a full mock ViewModel, or just test how some property change might effect your application without worrying that these changes will impact your release builds. All d: data is only used by the XAML Designer and not compiled into the actual application.
+Some layouts are hard to visualize without data. In this document, we'll be reviewing one of the approaches developers working on desktop projects can use to mock data in the XAML designer. This approach is done using the existing Ignorable “d:” namespace. With this approach you can quickly add design-time data to your pages or controls without the need to create a full mock ViewModel, or just test how a property change might effect your application without worrying that these changes will impact your release builds. All d: data is only used by the XAML Designer and no ignorable namespace values are compiled into the application.
 
 > [!NOTE]
 > if you are using Xamarin.Forms, see [Xamarin.Forms Design time data](/xamarin/xamarin-forms/xaml/xaml-previewer/design-time-data)
@@ -37,7 +37,7 @@ For example, you can add text to a TextBlock that usually has data bound to it.
 
 In this example, without `d:Text`, the XAML Designer would show nothing for the TextBlock. Instead, it shows "Name!" where the TextBlock will have real data at runtime.
 
-You can use `d:` with attributes for any UWP or WPF .Net Core control, like colors, font sizes, and spacing. You can even add it to the control itself:
+You can use `d:` with attributes for any UWP or WPF .NET Core control, like colors, font sizes, and spacing. You can even add it to the control itself:
 
 ```xml
 <d:Button Content="Design Time Button" />
@@ -60,7 +60,7 @@ You can set a design time Source for images that are bound to the page or loaded
 
 ## Design time data for ListViews
 
-ListViews are a popular way to display data in your Desktop app. However, they're difficult to visualize without any data. You can use this feature to create an inline design time data ItemSource. The XAML Designer displays what is in that array in your ListView at design time. This is an example for WPF .Net Core, to use the system:String type make sure you include 
+ListViews are a popular way to display data in your Desktop app. However, they're difficult to visualize without any data. You can use this feature to create an inline design time data ItemSource. The XAML Designer displays what is in that array in your ListView at design time. This is an example for WPF .NET Core, to use the system:String type make sure you include 
 `xmlns:system="clr-namespace:System;assembly=mscorlib` in your XAML header.
 
 ```xml
@@ -139,9 +139,9 @@ If you experience a problem that isn't listed in this section, please let us kno
 
 - Design-time data requires Visual Studio 2019 update  [16.7](/visualstudio/releases/2019/release-notes) or greater
 
-- Supports Windows desktop projects that are targeting Windows Presentation Foundation (WPF) for .NET Core and UWP. This feature is not currently supported for WPF .NET Framework projects or WinUI 3.0
+- Supports Windows desktop projects that are targeting Windows Presentation Foundation (WPF) for .NET Core and UWP. This feature is also available for .NET Framework if you have the "New WPF XAML Designer for .NET Framework" preview feature enabled.
 
-- Starting with Visual Studio 2019 16.7 this feature works with all in-the-box controls from WPF and UWP frameworks. Support for 3rd party controls is also now available starting with 16.8 or greater"
+- Starting with Visual Studio 2019 16.7 this feature works with all in-the-box controls from WPF and UWP frameworks. Support for 3rd party controls is also now available starting with 16.8 or greater
 
 ### The XAML Designer stopped working
 
