@@ -22,7 +22,8 @@ Visual Studio *Graphics Diagnostics* is a set of tools for recording and then an
  Graphics Diagnostics supports apps that use Direct3D 10 or greater, and provides limited support for apps that use Direct2D. It does not support apps that use earlier versions of Direct3D, DirectDraw, or other graphics APIs.
 
 ### Windows 10 and Direct3D 12
-***Note**: Visual Studio recommends **PIX on Windows** for DirectX 12 games. [PIX on Windows](https://aka.ms/PIXonWindows) is a performance tuning and debugging tool that fully supports DirectX 12. [**Find out more information**](vsgd-dx12.md) or [**download here**](https://aka.ms/downloadPIX).*
+> [!NOTE]
+> Visual Studio recommends PIX on Windows for DirectX 12 games. [PIX on Windows](https://aka.ms/PIXonWindows) is a performance tuning and debugging tool that fully supports DirectX 12. [Find out more information](vsgd-dx12.md) or [download here](https://aka.ms/downloadPIX).
 
 
  Windows 10 introduced *Direct3D 12*, which is substantially different from Direct3D 10 and Direct3D 11. These differences bring DirectX back into alignment with modern graphics hardware and unleashing its full potential, but they also bring big API changes and place greater responsibility on the programmer to manage resource lifetimes and contention. Despite the differences, Graphics Diagnostics with Direct3D 12 maintains feature-parity with Graphics Diagnostics with Direct3D 11.2.
