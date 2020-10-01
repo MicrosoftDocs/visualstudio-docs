@@ -39,7 +39,7 @@ This article describes how to use the **Publish** tool for one-time deployment.
 
     ![Choose Azure App Service on Linux](../deployment/media/quickstart-publish-windows-select-azure-service.png)
 
-1. Sign in with you Azure account, if necessary. Select **Create a new Azure App Service...**
+1. Sign in with your Azure account, if necessary. Select **Create a new Azure App Service...**
 
     ![Link to create new instance of Azure App Service](../deployment/media/quickstart-publish-windows-create-new-link.png)
 

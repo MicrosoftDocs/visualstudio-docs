@@ -28,7 +28,7 @@ If both the `input` and `additionalOptions` properties are omitted or empty, the
 
 ### Input
 
-The `input` property is used to specify the .NET Core tool install. There is in an unofficial list of tools at [https://github.com/natemcmaster/dotnet-tools](https://github.com/natemcmaster/dotnet-tools).
+The `input` property is used to specify the .NET Core tool to install. There is in an unofficial list of tools at [https://github.com/natemcmaster/dotnet-tools](https://github.com/natemcmaster/dotnet-tools).
 
 ### Additional options
 
