@@ -4,7 +4,7 @@
       "source_path": "docs/ai/index.yml",
       "redirect_url": "/visualstudio/ai/overview?view=vs-2017",
       "redirect_document_id": false
-    },    
+    },
     {
       "source_path": "connected-environment/get-started-netcore-01.md",
       "redirect_url": "/azure/dev-spaces/get-started-netcore",
@@ -15662,8 +15662,7 @@
     },
     {
       "source_path": "docs/containers/local-process-kubernetes.md",
-      "redirect_url": "/visualstudio/containers/bridge-to-kubernetes",
-      "redirect_document_id": true
+      "redirect_url": "/visualstudio/containers/bridge-to-kubernetes"
     },
     {
       "source_path": "docs/containers/overview-local-process-kubernetes.md",
