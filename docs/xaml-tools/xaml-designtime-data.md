@@ -10,7 +10,10 @@ monikerRange: vs-2019
 
 # Use Design Time Data with the XAML Designer in Visual Studio
 
-Some layouts are hard to visualize without data. Use these tips to make the most out of previewing your data-heavy pages in the XAML Designer.
+Some layouts are hard to visualize without data. In this document, we'll be reviewing one of the approaches developers working on desktop projects can use to mock data in the XAML designer. This approach is done using the existing Ignorable “d:” namespace. With this approach you can quickly add design-time data to your pages or controls without the need to create a full mock ViewModel, or just test how some property change might effect your application without worrying that these changes will impact your release builds. All d: data is only used by the XAML Designer and not compiled into the actual application.
+
+> [!NOTE]
+> if you are using Xamarin.Forms, see [Xamarin.Forms Design time data](/xamarin/xamarin-forms/xaml/xaml-previewer/design-time-data)
 
 ## Design time data basics
 
@@ -34,7 +37,7 @@ For example, you can add text to a TextBlock that usually has data bound to it.
 
 In this example, without `d:Text`, the XAML Designer would show nothing for the TextBlock. Instead, it shows "Name!" where the TextBlock will have real data at runtime.
 
-You can use `d:` with attributes for any UWP or WPF .NetCore control, like colors, font sizes, and spacing. You can even add it to the control itself:
+You can use `d:` with attributes for any UWP or WPF .Net Core control, like colors, font sizes, and spacing. You can even add it to the control itself:
 
 ```xaml
 <d:Button Content="Design Time Button" />
@@ -52,9 +55,12 @@ You can set a design time Source for images that are bound to the page or loaded
 <Image Source={Binding ProfilePicture} d:Source="DesignTimePicture.jpg" />
 ```
 
+> [!NOTE]
+> The image in this example must exist in the solution.
+
 ## Design time data for ListViews
 
-ListViews are a popular way to display data in your Desktop app. However, they're difficult to visualize without any data. You can use this feature to create an inline design time data ItemSource. The XAML Designer displays what is in that array in your ListView at design time. This is an example for WPF .NetCore, to use the system:String type make sure you include 
+ListViews are a popular way to display data in your Desktop app. However, they're difficult to visualize without any data. You can use this feature to create an inline design time data ItemSource. The XAML Designer displays what is in that array in your ListView at design time. This is an example for WPF .Net Core, to use the system:String type make sure you include 
 `xmlns:system="clr-namespace:System;assembly=mscorlib` in your XAML header.
 
 ```xaml
@@ -80,15 +86,15 @@ ListViews are a popular way to display data in your Desktop app. However, they'r
 
 This example shows a ListView with three TextBlocks in the XAML Designer.
 
-You can also create an array of data objects. For example, public properties of a `Monkey` data object can be constructed as design time data:
+You can also create an array of data objects. For example, public properties of a `City` data object can be constructed as design time data:
 
 ```csharp
-namespace Monkeys.Models
+namespace Cities.Models
 {
-    public class Monkey
+    public class City
     {
         public string Name { get; set; }
-        public string Location { get; set; }
+        public string Country { get; set; }
     }
 }
 ```
@@ -96,24 +102,24 @@ namespace Monkeys.Models
 To use the class in XAML you will need to import the namespace in the root node:
 
 ```xaml
-xmlns:models="clr-namespace:Monkeys.Models"
+xmlns:models="clr-namespace:Cities.Models"
 ```
 
 ```xaml
 <StackPanel>
     <ListView ItemsSource="{Binding Items}">
         <d:ListView.ItemsSource>
-            <x:Array Type="{x:Type models:Monkey}">
-                <models:Monkey Name="Baboon" Location="Africa and Asia"/>
-                <models:Monkey Name="Capuchin Monkey" Location="Central and South America"/>
-                <models:Monkey Name="Blue Monkey" Location="Central and East Africa"/>
+            <x:Array Type="{x:Type models:City}">
+                <models:City Name="Seattle" Country="United States"/>
+                <models:City Name="London" Country="United Kingdom"/>
+                <models:City Name="Panama City" Country="Panama"/>
             </x:Array>
         </d:ListView.ItemsSource>
         <ListView.ItemTemplate>
             <DataTemplate>
                  <StackPanel Orientation="Horizontal" >
                     <TextBlock Text="{Binding Name}" Margin="0,0,5,0" />
-                    <TextBlock Text="{Binding Location}" />
+                    <TextBlock Text="{Binding Country}" />
                  </StackPanel>
             </DataTemplate>
         </ListView.ItemTemplate>
@@ -131,7 +137,9 @@ If you experience a problem that isn't listed in this section, please let us kno
 
 ### Requirements
 
-Design time data requires the [16.7 release](/visualstudio/releases/2019/release-notes) of Visual Studio 2019.
+- Design-time data requires Visual Studio 2019 update  [16.7](/visualstudio/releases/2019/release-notes) or greater
+
+- Supports Windows desktop projects that are targeting Windows Presentation Foundation (WPF) for .NET Core and UWP. This feature is not currently supported for WPF .NET Framework projects or WinUI 3.0
 
 ### The XAML Designer stopped working
 
@@ -139,7 +147,7 @@ Try closing and reopening the XAML file, and cleaning and rebuilding your projec
 
 ## See also
 
-- [Design Time Data with the XAML Designer](/xamarin/xamarin-forms/xaml/xaml-Designer/design-time-data/)
+- [Design Time Data with the Xamarin.Forms Previewer](/xamarin/xamarin-forms/xaml/xaml-Designer/design-time-data/)
 - [XAML in WPF apps](/dotnet/framework/wpf/advanced/xaml-in-wpf)
 - [XAML in UWP apps](/windows/uwp/xaml-platform/xaml-overview)
 - [XAML in Xamarin.Forms apps](/xamarin/xamarin-forms/xaml/)
