@@ -183,12 +183,12 @@ The following table describes all the rules in the Microsoft Extended Design Gui
 |[CA1713](../code-quality/ca1713.md)|Events should not have before or after prefix|
 |[CA1714](../code-quality/ca1714.md)|Flags enums should have plural names|
 |[CA1715](../code-quality/ca1715.md)|Identifiers should have correct prefix|
-|[CA1717](../code-quality/ca1717.md)|Only FlagsAttribute enums should have plural names|
+|[CA1717](/dotnet/fundamentals/code-analysis/quality-rules/ca1717)|Only FlagsAttribute enums should have plural names|
 |[CA1719](../code-quality/ca1719.md)|Parameter names should not match member names|
-|[CA1720](../code-quality/ca1720.md)|Identifiers should not contain type names|
-|[CA1721](../code-quality/ca1721.md)|Property names should not match get methods|
+|[CA1720](/dotnet/fundamentals/code-analysis/quality-rules/ca1720)|Identifiers should not contain type names|
+|[CA1721](/dotnet/fundamentals/code-analysis/quality-rules/ca1721)|Property names should not match get methods|
 |[CA1722](../code-quality/ca1722.md)|Identifiers should not have incorrect prefix|
-|[CA1724](../code-quality/ca1724.md)|Type Names Should Not Match Namespaces|
-|[CA1725](../code-quality/ca1725.md)|Parameter names should match base declaration|
+|[CA1724](/dotnet/fundamentals/code-analysis/quality-rules/ca1724)|Type Names Should Not Match Namespaces|
+|[CA1725](/dotnet/fundamentals/code-analysis/quality-rules/ca1725)|Parameter names should match base declaration|
 |[CA1726](../code-quality/ca1726.md)|Use preferred terms|
 |[CA2204](../code-quality/ca2204.md)|Literals should be spelled correctly|

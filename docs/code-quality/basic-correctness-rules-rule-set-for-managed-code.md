@@ -86,7 +86,7 @@ The following table describes all the rules in the Microsoft Basic Correctness R
 |[CA1806](../code-quality/ca1806.md)|Do not ignore method results|
 |[CA1816](../code-quality/ca1816.md)|Call GC.SuppressFinalize correctly|
 |[CA1819](../code-quality/ca1819.md)|Properties should not return arrays|
-|[CA1820](../code-quality/ca1820.md)|Test for empty strings using string length|
+|[CA1820](/dotnet/fundamentals/code-analysis/quality-rules/ca1820)|Test for empty strings using string length|
 |[CA1903](../code-quality/ca1903.md)|Use only API from targeted framework|
 |[CA2004](../code-quality/ca2004.md)|Remove calls to GC.KeepAlive|
 |[CA2006](../code-quality/ca2006.md)|Use SafeHandle to encapsulate native resources|
@@ -95,16 +95,16 @@ The following table describes all the rules in the Microsoft Basic Correctness R
 |[CA2105](../code-quality/ca2105.md)|Array fields should not be read only|
 |[CA2106](../code-quality/ca2106.md)|Secure asserts|
 |[CA2115](../code-quality/ca2115.md)|Call GC.KeepAlive when using native resources|
-|[CA2119](../code-quality/ca2119.md)|Seal methods that satisfy private interfaces|
+|[CA2119](/dotnet/fundamentals/code-analysis/quality-rules/ca2119)|Seal methods that satisfy private interfaces|
 |[CA2120](../code-quality/ca2120.md)|Secure serialization constructors|
 |[CA2121](../code-quality/ca2121.md)|Static constructors should be private|
 |[CA2130](../code-quality/ca2130.md)|Security critical constants should be transparent|
 |[CA2205](../code-quality/ca2205.md)|Use managed equivalents of Win32 API|
-|[CA2215](../code-quality/ca2215.md)|Dispose methods should call base class dispose|
+|[CA2215](/dotnet/fundamentals/code-analysis/quality-rules/ca2215)|Dispose methods should call base class dispose|
 |[CA2221](../code-quality/ca2221.md)|Finalizers should be protected|
 |[CA2222](../code-quality/ca2222.md)|Do not decrease inherited member visibility|
 |[CA2223](../code-quality/ca2223.md)|Members should differ by more than return type|
 |[CA2224](../code-quality/ca2224.md)|Override equals on overloading operator equals|
-|[CA2226](../code-quality/ca2226.md)|Operators should have symmetrical overloads|
-|[CA2227](../code-quality/ca2227.md)|Collection properties should be read only|
+|[CA2226](/dotnet/fundamentals/code-analysis/quality-rules/ca2226)|Operators should have symmetrical overloads|
+|[CA2227](/dotnet/fundamentals/code-analysis/quality-rules/ca2227)|Collection properties should be read only|
 |[CA2239](../code-quality/ca2239.md)|Provide deserialization methods for optional fields|

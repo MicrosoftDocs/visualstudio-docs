@@ -35,16 +35,16 @@ Welcome to the history of what's new in Visual Studio docs. This topic contains 
 - [CA2352: Unsafe DataSet or DataTable in serializable type can be vulnerable to remote code execution attacks](../code-quality/ca2352.md) - Initial DataSet / DataTable deserialization rules docs
 - [CA2353: Unsafe DataSet or DataTable in serializable type](../code-quality/ca2353.md) - Initial DataSet / DataTable deserialization rules docs
 - [CA2354: Unsafe DataSet or DataTable in deserialized object graph can be vulnerable to remote code execution attack](../code-quality/ca2354.md) - Initial DataSet / DataTable deserialization rules docs
-- [CA2355: Unsafe DataSet or DataTable in deserialized object graph](../code-quality/ca2355.md) - Initial DataSet / DataTable deserialization rules docs
-- [CA2356: Unsafe DataSet or DataTable type in web deserialized object graph](../code-quality/ca2356.md) - Initial DataSet / DataTable deserialization rules docs
+- [CA2355: Unsafe DataSet or DataTable in deserialized object graph](/dotnet/fundamentals/code-analysis/quality-rules/ca2355) - Initial DataSet / DataTable deserialization rules docs
+- [CA2356: Unsafe DataSet or DataTable type in web deserialized object graph](/dotnet/fundamentals/code-analysis/quality-rules/ca2356) - Initial DataSet / DataTable deserialization rules docs
 
 ### Containers
 
 **New articles**
 
-- [Configure Local Process with Kubernetes](../containers/configure-local-process-with-kubernetes.md) - Local Process with Kubernetes: yaml configuration
-- [Use Local Process with Kubernetes (preview)](../containers/local-process-kubernetes.md) - Dev spaces migration
-- [How Local Process with Kubernetes works](../containers/overview-local-process-kubernetes.md)
+- [Configure Local Process with Kubernetes](/visualstudio/containers/configure-bridge-to-kubernetes) - Local Process with Kubernetes: yaml configuration
+- [Use Local Process with Kubernetes (preview)](/visualstudio/containers/bridge-to-kubernetes) - Dev spaces migration
+- [How Local Process with Kubernetes works](/visualstudio/containers/overview-bridge-to-kubernetes)
   - Local Process for Kubernetes: Add routing section
   - Dev spaces migration
 

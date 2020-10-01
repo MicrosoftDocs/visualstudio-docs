@@ -152,12 +152,12 @@ The following table describes all of the rules in the Microsoft Basic Design Gui
 |[CA2230](../code-quality/ca2230.md)|Use params for variable arguments|
 |[CA2231](../code-quality/ca2231.md)|Overload operator equals on overriding ValueType.Equals|
 |[CA2232](../code-quality/ca2232.md)|Mark Windows Forms entry points with STAThread|
-|[CA2234](../code-quality/ca2234.md)|Pass System.Uri objects instead of strings|
-|[CA2235](../code-quality/ca2235.md)|Mark all non-serializable fields|
+|[CA2234](/dotnet/fundamentals/code-analysis/quality-rules/ca2234)|Pass System.Uri objects instead of strings|
+|[CA2235](/dotnet/fundamentals/code-analysis/quality-rules/ca2235)|Mark all non-serializable fields|
 |[CA2236](../code-quality/ca2236.md)|Call base class methods on ISerializable types|
-|[CA2237](../code-quality/ca2237.md)|Mark ISerializable types with SerializableAttribute|
+|[CA2237](/dotnet/fundamentals/code-analysis/quality-rules/ca2237)|Mark ISerializable types with SerializableAttribute|
 |[CA2238](../code-quality/ca2238.md)|Implement serialization methods correctly|
 |[CA2239](../code-quality/ca2239.md)|Provide deserialization methods for optional fields|
 |[CA2240](../code-quality/ca2240.md)|Implement ISerializable correctly|
-|[CA2241](../code-quality/ca2241.md)|Provide correct arguments to formatting methods|
-|[CA2242](../code-quality/ca2242.md)|Test for NaN correctly|
+|[CA2241](/dotnet/fundamentals/code-analysis/quality-rules/ca2241)|Provide correct arguments to formatting methods|
+|[CA2242](/dotnet/fundamentals/code-analysis/quality-rules/ca2242)|Test for NaN correctly|

@@ -18,8 +18,8 @@ Use the Microsoft Globalization Rules rule set to focus on problems that might p
 |[CA1303](../code-quality/ca1303.md)|Do not pass literals as localized parameters|
 |[CA1304](../code-quality/ca1304.md)|Specify CultureInfo|
 |[CA1305](../code-quality/ca1305.md)|Specify IFormatProvider|
-|[CA1307](../code-quality/ca1307.md)|Specify StringComparison for clarity|
-|[CA1308](../code-quality/ca1308.md)|Normalize strings to uppercase|
-|[CA1309](../code-quality/ca1309.md)|Use ordinal StringComparison|
-|[CA1310](../code-quality/ca1310.md)|Specify StringComparison for correctness|
-|[CA2101](../code-quality/ca2101.md)|Specify marshaling for P/Invoke string arguments|
+|[CA1307](/dotnet/fundamentals/code-analysis/quality-rules/ca1307)|Specify StringComparison for clarity|
+|[CA1308](/dotnet/fundamentals/code-analysis/quality-rules/ca1308)|Normalize strings to uppercase|
+|[CA1309](/dotnet/fundamentals/code-analysis/quality-rules/ca1309)|Use ordinal StringComparison|
+|[CA1310](/dotnet/fundamentals/code-analysis/quality-rules/ca1310)|Specify StringComparison for correctness|
+|[CA2101](/dotnet/fundamentals/code-analysis/quality-rules/ca2101)|Specify marshaling for P/Invoke string arguments|

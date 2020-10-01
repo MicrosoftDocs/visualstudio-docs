@@ -56,10 +56,10 @@ Welcome to what's new in the Visual Studio docs for August 2020. This article li
 - [CA1002: Do not expose generic lists](../code-quality/ca1002.md) - Add Configurability - Api Surface section
 - [CA1046: Do not overload operator equals on reference types](../code-quality/ca1046.md) - Add Configurability - Api Surface section
 - [CA1307: Specify StringComparison for clarity](../code-quality/ca1307.md) - Add documentation for CA1310 and update documentation for CA1307
-- [CA1700: Do not name enum values &#39;Reserved&#39;](../code-quality/ca1700.md) - Add Configurability - Api Surface section
-- [CA1707: Identifiers should not contain underscores](../code-quality/ca1707.md) - Add Configurability - Api Surface section
-- [CA1822: Mark members as static](../code-quality/ca1822.md) - Add Configurability - Api Surface section
-- [CA2351: Ensure DataSet.ReadXml()'s input is trusted](../code-quality/ca2351.md) - More DataSet/DataTable rules
+- [CA1700: Do not name enum values &#39;Reserved&#39;](/dotnet/fundamentals/code-analysis/quality-rules/ca1700) - Add Configurability - Api Surface section
+- [CA1707: Identifiers should not contain underscores](/dotnet/fundamentals/code-analysis/quality-rules/ca1707) - Add Configurability - Api Surface section
+- [CA1822: Mark members as static](/dotnet/fundamentals/code-analysis/quality-rules/ca1822) - Add Configurability - Api Surface section
+- [CA2351: Ensure DataSet.ReadXml()'s input is trusted](/dotnet/fundamentals/code-analysis/quality-rules/ca2351) - More DataSet/DataTable rules
 - [Install third-party analyzers](../code-quality/install-roslyn-analyzers.md) - changed structure and titles for code analysis documentation
 
 ## Containers
@@ -67,7 +67,7 @@ Welcome to what's new in the Visual Studio docs for August 2020. This article li
 **Updated articles**
 
 - [Deploy an ASP.NET container to a container registry using Visual Studio](../containers/hosting-web-apps-in-docker.md) - Container Tools updates for Visual Studio 16.7 Publish UI
-- [Get started with Visual Studio Kubernetes Tools](../containers/tutorial-kubernetes-tools.md) - Kubernetes tutorial: Add steps for removal
+- [Get started with Visual Studio Kubernetes Tools](/visualstudio/containers/bridge-to-kubernetes) - Kubernetes tutorial: Add steps for removal
 
 ## Deployment
 

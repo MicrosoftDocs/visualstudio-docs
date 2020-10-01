@@ -142,7 +142,7 @@
     },
     {
       "source_path": "docs/code-quality/analyzer-rule-sets.md",
-      "redirect_url": "/visualstudio/code-quality/configure-fxcop-analyzers",
+      "redirect_url": "/dotnet/fundamentals/code-analysis/code-quality-rule-options",
       "redirect_document_id": false
     },
     {
@@ -222,12 +222,12 @@
     },
     {
       "source_path": "docs/code-quality/mobility-warnings.md",
-      "redirect_url": "/visualstudio/code-quality/code-analysis-for-managed-code-warnings",
+      "redirect_url": "/dotnet/fundamentals/code-analysis/quality-rules/index",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/code-quality/portability-warnings.md",
-      "redirect_url": "/visualstudio/code-quality/interoperability-warnings",
+      "redirect_url": "/dotnet/fundamentals/code-analysis/quality-rules/interoperability-warnings",
       "redirect_document_id": false
     },
     {
@@ -3072,7 +3072,7 @@
     },
     {
       "source_path": "docs/deployment/tutorial-kubernetes-tools.md",
-      "redirect_url": "/visualstudio/containers/tutorial-kubernetes-tools",
+      "redirect_url": "/visualstudio/containers/bridge-to-kubernetes",
       "redirect_document_id": true
     },
     {
@@ -10897,7 +10897,7 @@
     },
     {
       "source_path": "docs/code-quality/ca1708-identifiers-should-differ-by-more-than-case.md",
-      "redirect_url": "/visualstudio/code-quality/ca1708",
+      "redirect_url": "/dotnet/fundamentals/code-analysis/quality-rules/ca1708",
       "redirect_document_id": true
     },
     {

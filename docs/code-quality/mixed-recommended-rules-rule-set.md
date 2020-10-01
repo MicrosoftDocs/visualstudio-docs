@@ -287,12 +287,12 @@ Include this rule set in any custom rule set you create for your C++ projects th
 |[CA2216](../code-quality/ca2216.md)|Disposable types should declare finalizer|
 |[CA2220](../code-quality/ca2220.md)|Finalizers should call base class finalizer|
 |[CA2229](../code-quality/ca2229.md)|Implement serialization constructors|
-|[CA2231](../code-quality/ca2231.md)|Overload operator equals on overriding ValueType.Equals|
+|[CA2231](/dotnet/fundamentals/code-analysis/quality-rules/ca2231)|Overload operator equals on overriding ValueType.Equals|
 |[CA2232](../code-quality/ca2232.md)|Mark Windows Forms entry points with STAThread|
-|[CA2235](../code-quality/ca2235.md)|Mark all non-serializable fields|
+|[CA2235](/dotnet/fundamentals/code-analysis/quality-rules/ca2235)|Mark all non-serializable fields|
 |[CA2236](../code-quality/ca2236.md)|Call base class methods on ISerializable types|
-|[CA2237](../code-quality/ca2237.md)|Mark ISerializable types with SerializableAttribute|
+|[CA2237](/dotnet/fundamentals/code-analysis/quality-rules/ca2237)|Mark ISerializable types with SerializableAttribute|
 |[CA2238](../code-quality/ca2238.md)|Implement serialization methods correctly|
 |[CA2240](../code-quality/ca2240.md)|Implement ISerializable correctly|
-|[CA2241](../code-quality/ca2241.md)|Provide correct arguments to formatting methods|
-|[CA2242](../code-quality/ca2242.md)|Test for NaN correctly|
+|[CA2241](/dotnet/fundamentals/code-analysis/quality-rules/ca2241)|Provide correct arguments to formatting methods|
+|[CA2242](/dotnet/fundamentals/code-analysis/quality-rules/ca2242)|Test for NaN correctly|
