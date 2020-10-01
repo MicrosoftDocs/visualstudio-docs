@@ -25,64 +25,64 @@ Welcome to what's new in the Visual Studio docs for September 2020. This article
 
 **New articles**
 
-- [CA1416: Validate platform compatibility](/visualstudio/code-quality/ca1416) - Documenting CA1416 Validate platform compatibility
-- [CA1834: Use StringBuilder.Append(char) for single character strings](/visualstudio/code-quality/ca1834) - Docs for CA1834
+- [CA1416: Validate platform compatibility](../code-quality/ca1416.md) - Documenting CA1416 Validate platform compatibility
+- [CA1834: Use StringBuilder.Append(char) for single character strings](../code-quality/ca1834.md) - Docs for CA1834
 
 **Updated**
 
-- [Configure .NET code quality analyzers with EditorConfig](/visualstudio/code-quality/configure-fxcop-analyzers)
+- [Configure .NET code quality analyzers with EditorConfig](../code-quality/configure-fxcop-analyzers.md)
   - Few small fixes to CA docs refactoring
   - Code analysis updates for .NET refactor
-- [Overview of source code analysis](/visualstudio/code-quality/roslyn-analyzers-overview) - Code analysis updates for .NET refactor
-- [Configure code quality analysis](/visualstudio/code-quality/use-roslyn-analyzers) - Code analysis updates for .NET refactor
+- [Overview of source code analysis](../code-quality/roslyn-analyzers-overview.md) - Code analysis updates for .NET refactor
+- [Configure code quality analysis](../code-quality/use-roslyn-analyzers.md) - Code analysis updates for .NET refactor
 
 ## Containers
 
 **New articles**
 
-- [Use Bridge to Kubernetes](/visualstudio/containers/bridge-to-kubernetes) - Local Process with Kubernetes rebranding to Bridge to Kubernetes
-- [How Bridge to Kubernetes works](/visualstudio/containers/overview-bridge-to-kubernetes) - Local Process with Kubernetes rebranding to Bridge to Kubernetes
+- [Use Bridge to Kubernetes](../containers/bridge-to-kubernetes.md) - Local Process with Kubernetes rebranding to Bridge to Kubernetes
+- [How Bridge to Kubernetes works](../containers/overview-bridge-to-kubernetes.md) - Local Process with Kubernetes rebranding to Bridge to Kubernetes
 
 ## Deployment
 
 **Updated articles**
 
-- [Deploy your app to a folder, IIS, Azure, or another destination](/visualstudio/deployment/deploying-applications-services-and-components-resources) - Deployment updates
-- [Deploy an app to a folder using Visual Studio](/visualstudio/deployment/quickstart-deploy-to-local-folder) - Deployment updates
+- [Deploy your app to a folder, IIS, Azure, or another destination](../deployment/deploying-applications-services-and-components-resources.md) - Deployment updates
+- [Deploy an app to a folder using Visual Studio](../deployment/quickstart-deploy-to-local-folder.md) - Deployment updates
 
 ## IDE
 
 **New articles**
 
-- [What is GitHub Codespaces? (Preview)](/visualstudio/ide/codespaces/codespaces-overview) - add Codespaces (Preview) content
-- [How to customize a codespace (Preview)](/visualstudio/ide/codespaces/customize-codespaces) - add Codespaces (Preview) content
-- [Supported Visual Studio features (Preview)](/visualstudio/ide/codespaces/supported-features-codespaces) - add Codespaces (Preview) content
-- [How to use Visual Studio with a codespace (Preview)](/visualstudio/ide/codespaces/use-visual-studio-with-codespaces) - add Codespaces (Preview) content
-- [C++ EditorConfig formatting conventions](/visualstudio/ide/cpp-editorconfig-properties) - new article
-- [New Git experience in Visual Studio (Preview)](/visualstudio/ide/git-with-visual-studio) - add New Git Experience content (Preview)
+- [New Git experience in Visual Studio (Preview)](./git-with-visual-studio.md) - add New Git Experience content (Preview)
+- [C++ EditorConfig formatting conventions](./cpp-editorconfig-properties.md) - new article
+- [What is GitHub Codespaces? (Preview)](./codespaces/codespaces-overview.md) - add Codespaces (Preview) content
+- [How to customize a codespace (Preview)](./codespaces/customize-codespaces.md) - add Codespaces (Preview) content
+- [Supported Visual Studio features (Preview)](./codespaces/supported-features-codespaces.md) - add Codespaces (Preview) content
+- [How to use Visual Studio with a codespace (Preview)](./codespaces/use-visual-studio-with-codespaces.md) - add Codespaces (Preview) content
 
 **Updated articles**
 
-- [.NET coding convention settings for EditorConfig](/visualstudio/ide/editorconfig-code-style-settings-reference) - updated editorconfig
-- [Language conventions](/visualstudio/ide/editorconfig-language-conventions) - missing examples
+- [.NET coding convention settings for EditorConfig](./editorconfig-code-style-settings-reference.md) - updated editorconfig
+- [Language conventions](./editorconfig-language-conventions.md) - missing examples
 
 ## Install
 
 **New articles**
 
-- [Visual Studio on ARM-powered devices](/visualstudio/install/visual-studio-on-arm-devices) - Adding doc for VS on ARM
+- [Visual Studio on ARM-powered devices](../install/visual-studio-on-arm-devices.md) - Adding doc for VS on ARM
 
 **Updated articles**
-- [Troubleshoot network-related errors when you install or use Visual Studio](/visualstudio/install/troubleshooting-network-related-errors-in-visual-studio) - Add workaround for feedback auth proxy crash
+- [Troubleshoot network-related errors when you install or use Visual Studio](../install/troubleshooting-network-related-errors-in-visual-studio.md) - Add workaround for feedback auth proxy crash
 
 ## Profiling
 
 **Updated articles**
 
-- [Measure memory usage in Visual Studio](/visualstudio/profiling/memory-usage) - Updates to profiling feature tour
-- [PerfTips](/visualstudio/profiling/perftips) - Updates to profiling feature tour
-- [First look at profiling tools](/visualstudio/profiling/profiling-feature-tour) - Updates to profiling feature tour
-- [Run profiling tools with or without the debugger](/visualstudio/profiling/running-profiling-tools-with-or-without-the-debugger)
+- [Measure memory usage in Visual Studio](../profiling/memory-usage.md) - Updates to profiling feature tour
+- [PerfTips](../profiling/perftips.md) - Updates to profiling feature tour
+- [First look at profiling tools](../profiling/profiling-feature-tour.md) - Updates to profiling feature tour
+- [Run profiling tools with or without the debugger](../profiling/running-profiling-tools-with-or-without-the-debugger.md)
   - Updates to profiling feature tour
   - Content performance improvements
 
