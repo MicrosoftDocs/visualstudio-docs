@@ -13,7 +13,7 @@ ms.workload:
 
 ## DirectX 12 Support
 
-Visual Studio Graphics Diagnostics doesn't fully support DirectX 12 games. For graphical debugging with full DirectX 12 support, Visual Studio recommends ***PIX on Windows***. 
+Visual Studio Graphics Diagnostics doesn't fully support DirectX 12 games. For graphical debugging with full DirectX 12 support, Visual Studio recommends *PIX on Windows*. 
 
 PIX on Windows is a performance tuning and debugging tool with remote capabilities. PIX on Windows offers seven main features that fit your graphical debugging needs. Debug and analyze the performance of Direct3D 12 graphics rendering with GPU captures. Understand the performance and threading of all CPU and GPU work carried out by your game with timing captures. Identify inefficiencies in your title's disk IO patterns and package layout with file IO captures.
 
