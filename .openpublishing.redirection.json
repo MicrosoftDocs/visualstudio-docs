@@ -10898,7 +10898,7 @@
     {
       "source_path": "docs/code-quality/ca1708-identifiers-should-differ-by-more-than-case.md",
       "redirect_url": "/dotnet/fundamentals/code-analysis/quality-rules/ca1708",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/code-quality/ca1716-identifiers-should-not-match-keywords.md",
