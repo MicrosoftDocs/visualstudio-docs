@@ -1,5 +1,6 @@
 ---
 title: Use Design Time Data with the XAML Designer in Visual Studio
+description: Learn how to use design-time data in XAML.
 ms.date: 09/29/2020
 ms.topic: overview
 author: alihamie
@@ -10,14 +11,14 @@ monikerRange: vs-2019
 
 # Use Design Time Data with the XAML Designer in Visual Studio
 
-Some layouts are hard to visualize without data. In this document, we'll be reviewing one of the approaches developers working on desktop projects can use to mock data in the XAML designer. This approach is done using the existing Ignorable “d:” namespace. With this approach you can quickly add design-time data to your pages or controls without the need to create a full mock ViewModel, or just test how a property change might effect your application without worrying that these changes will impact your release builds. All d: data is only used by the XAML Designer and no ignorable namespace values are compiled into the application.
+Some layouts are hard to visualize without data. In this document, we'll be reviewing one of the approaches developers working on desktop projects can use to mock data in the XAML designer. This approach is done using the existing Ignorable “d:” namespace. With this approach you can quickly add design-time data to your pages or controls without the need to create a full mock ViewModel, or just test how a property change might affect your application without worrying that these changes will impact your release builds. All d: data is used only by the XAML Designer and no ignorable namespace values are compiled into the application.
 
 > [!NOTE]
-> if you are using Xamarin.Forms, see [Xamarin.Forms Design time data](/xamarin/xamarin-forms/xaml/xaml-previewer/design-time-data)
+> if you are using Xamarin.Forms, see [Xamarin.Forms Design Time Data](/xamarin/xamarin-forms/xaml/xaml-previewer/design-time-data)
 
-## Design time data basics
+## Design Time Data basics
 
-Design time data is mock data you set to make your controls easier to visualize in the XAML Designer. To get started, add the following lines of code to the header of your XAML document if they aren't already present:
+Design-time data is mock data you set to make your controls easier to visualize in the XAML Designer. To get started, add the following lines of code to the header of your XAML document if they aren't already present:
 
 ```xml 
 xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
@@ -33,23 +34,23 @@ For example, you can add text to a TextBlock that usually has data bound to it.
 <TextBlock Text="{Binding Name}" d:Text="Name!" />
 ```
 
-[![Design time data with text in a TextBlock](media\xaml-designtime-TextBlock.png "Design time data with text a Label")](media\xaml-designtime-TextBlock.png#lightbox)
+[![Design-time data with text in a TextBlock](media\xaml-designtime-TextBlock.png "Design-time data with text a Label")](media\xaml-designtime-TextBlock.png#lightbox)
 
 In this example, without `d:Text`, the XAML Designer would show nothing for the TextBlock. Instead, it shows "Name!" where the TextBlock will have real data at runtime.
 
-You can use `d:` with attributes for any UWP or WPF .NET Core control, like colors, font sizes, and spacing. You can even add it to the control itself:
+You can use `d:` with attributes for any UWP or WPF .NET Core control, like colors, font sizes, and spacing. You can even add it to the control itself.
 
 ```xml
 <d:Button Content="Design Time Button" />
 ```
 
-[![Design time data with a Button control](media\xaml-designtime-Button.png "Design time data with a Button control")](media\xaml-designtime-Button.png#lightbox)
+[![Design-time data with a Button control](media\xaml-designtime-Button.png "Design- time data with a Button control")](media\xaml-designtime-Button.png#lightbox)
 
 In this example, the button only appears at design time. Use this method to put a placeholder in for a custom control or to try out different controls. All `d:` attributes and controls will be ignored during runtime.
 
 ## Preview images at design time
 
-You can set a design time Source for images that are bound to the page or loaded in dynamically. Add the image you want to show in the XAML Designer to your project. You can then show that image in the XAML Designer at design time:
+You can set a design-time Source for images that are bound to the page or loaded in dynamically. Add the image you want to show in the XAML Designer to your project. You can then show that image in the XAML Designer at design time:
 
 ```xml
 <Image Source={Binding ProfilePicture} d:Source="DesignTimePicture.jpg" />
@@ -58,9 +59,9 @@ You can set a design time Source for images that are bound to the page or loaded
 > [!NOTE]
 > The image in this example must exist in the solution.
 
-## Design time data for ListViews
+## Design-time data for ListViews
 
-ListViews are a popular way to display data in your Desktop app. However, they're difficult to visualize without any data. You can use this feature to create an inline design time data ItemSource. The XAML Designer displays what is in that array in your ListView at design time. This is an example for WPF .NET Core, to use the system:String type make sure you include 
+ListViews are a popular way to display data in your Desktop app. However, they're difficult to visualize without any data. You can use this feature to create an inline design-time data ItemSource. The XAML Designer displays what is in that array in your ListView at design time. This is an example for WPF .NET Core. To use the system:String type, make sure you include 
 `xmlns:system="clr-namespace:System;assembly=mscorlib` in your XAML header.
 
 ```xml
@@ -82,11 +83,11 @@ ListViews are a popular way to display data in your Desktop app. However, they'r
 </StackPanel>
 ```
 
-[![Design time data with a ListView](media\xaml-designtime-ListViewStrings.png "Design time data with a ListView")](media\xaml-designtime-ListViewStrings.png#lightbox)
+[![Design-time data with a ListView](media\xaml-designtime-ListViewStrings.png "Design-time data with a ListView")](media\xaml-designtime-ListViewStrings.png#lightbox)
 
-This example shows a ListView with three TextBlocks in the XAML Designer.
+This previous example shows a ListView with three TextBlocks in the XAML Designer.
 
-You can also create an array of data objects. For example, public properties of a `City` data object can be constructed as design time data:
+You can also create an array of data objects. For example, public properties of a `City` data object can be constructed as design-time data.
 
 ```csharp
 namespace Cities.Models
@@ -99,7 +100,7 @@ namespace Cities.Models
 }
 ```
 
-To use the class in XAML you will need to import the namespace in the root node:
+To use the class in XAML, you must import the namespace in the root node.
 
 ```xaml
 xmlns:models="clr-namespace:Cities.Models"
@@ -127,9 +128,9 @@ xmlns:models="clr-namespace:Cities.Models"
 </StackPanel>
 ```
 
-[![Actual model in Design time data with a ListView](media\xaml-designtime-ListViewModels.png "Actual model Design time data with a ListView")](media\xaml-designtime-ListViewModels.png#lightbox)
+[![Actual model in design-time data with a ListView](media\xaml-designtime-ListViewModels.png "Actual model design-time data with a ListView")](media\xaml-designtime-ListViewModels.png#lightbox)
 
-The benefit here is that you can bind your controls to a design time static version of your model.
+The benefit here is that you can bind your controls to a design-time static version of your model.
 
 ## Troubleshooting
 
@@ -137,11 +138,11 @@ If you experience a problem that isn't listed in this section, please let us kno
 
 ### Requirements
 
-- Design-time data requires Visual Studio 2019 update  [16.7](/visualstudio/releases/2019/release-notes) or greater
+- Design-time data requires Visual Studio 2019 version [16.7](/visualstudio/releases/2019/release-notes) or later.
 
 - Supports Windows desktop projects that are targeting Windows Presentation Foundation (WPF) for .NET Core and UWP. This feature is also available for .NET Framework if you have the "New WPF XAML Designer for .NET Framework" preview feature enabled.
 
-- Starting with Visual Studio 2019 16.7 this feature works with all in-the-box controls from WPF and UWP frameworks. Support for 3rd party controls is also now available starting with 16.8 or greater
+- Starting with Visual Studio 2019 version 16.7, this feature works with all in-the-box controls from WPF and UWP frameworks. Support for third-party controls is now available in the 16.8 preview release.
 
 ### The XAML Designer stopped working
 
