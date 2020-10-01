@@ -67,7 +67,7 @@ Most application types and project configurations are supported, but you will ne
 
 Not yet available:
 
-* UI designers - WinForms and WPF designers
+* UI designers - WinForms, WPF, and Resource designers
 * Visual Basic and F# projects
 * .NET Framework targeted projects
 * Docker Compose projects
