@@ -2221,6 +2221,11 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "docs/code-quality/cryptography-warnings.md",
+      "redirect_url": "/dotnet/fundamentals/code-analysis/quality-rules/security-warnings",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/containers/vs-azure-tools-docker-setup.md",
       "redirect_url": "/visualstudio/containers/",
       "redirect_document_id": false
