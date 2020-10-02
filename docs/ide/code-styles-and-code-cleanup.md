@@ -20,7 +20,7 @@ You can define code style settings per-project by using an [EditorConfig file](#
 
 ## Code styles in EditorConfig files
 
-[Code style settings](../ide/editorconfig-code-style-settings-reference.md) for .NET can be specified by adding an [EditorConfig](create-portable-custom-editor-options.md) file to your project. EditorConfig files are associated with a codebase rather than a Visual Studio personalization account. Settings in an EditorConfig file take precedence over code styles that are specified in the **Options** dialog box. Use an EditorConfig file when you want to enforce coding styles for all contributors to your repo or project.
+[Code style settings](/dotnet/fundamentals/code-analysis/code-style-rule-options) for .NET can be specified by adding an [EditorConfig](create-portable-custom-editor-options.md) file to your project. EditorConfig files are associated with a codebase rather than a Visual Studio personalization account. Settings in an EditorConfig file take precedence over code styles that are specified in the **Options** dialog box. Use an EditorConfig file when you want to enforce coding styles for all contributors to your repo or project.
 
 ::: moniker range=">=vs-2019"
 
@@ -106,5 +106,5 @@ If you want your code style settings to be applied every time you save a file, y
 ## See also
 
 - [Quick Actions](../ide/quick-actions.md)
-- [.NET coding convention settings for EditorConfig](../ide/editorconfig-code-style-settings-reference.md)
+- [.NET coding convention settings for EditorConfig](/dotnet/fundamentals/code-analysis/code-style-rule-options)
 - [Editor behavior (Visual Studio for Mac)](/visualstudio/mac/editor-behavior)

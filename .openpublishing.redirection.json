@@ -4,7 +4,7 @@
       "source_path": "docs/ai/index.yml",
       "redirect_url": "/visualstudio/ai/overview?view=vs-2017",
       "redirect_document_id": false
-    },    
+    },
     {
       "source_path": "connected-environment/get-started-netcore-01.md",
       "redirect_url": "/azure/dev-spaces/get-started-netcore",
@@ -142,7 +142,7 @@
     },
     {
       "source_path": "docs/code-quality/analyzer-rule-sets.md",
-      "redirect_url": "/visualstudio/code-quality/configure-fxcop-analyzers",
+      "redirect_url": "/dotnet/fundamentals/code-analysis/code-quality-rule-options",
       "redirect_document_id": false
     },
     {
@@ -222,12 +222,12 @@
     },
     {
       "source_path": "docs/code-quality/mobility-warnings.md",
-      "redirect_url": "/visualstudio/code-quality/code-analysis-for-managed-code-warnings",
+      "redirect_url": "/dotnet/fundamentals/code-analysis/quality-rules/index",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/code-quality/portability-warnings.md",
-      "redirect_url": "/visualstudio/code-quality/interoperability-warnings",
+      "redirect_url": "/dotnet/fundamentals/code-analysis/quality-rules/interoperability-warnings",
       "redirect_document_id": false
     },
     {
@@ -2221,6 +2221,11 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "docs/code-quality/cryptography-warnings.md",
+      "redirect_url": "/dotnet/fundamentals/code-analysis/quality-rules/security-warnings",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/containers/vs-azure-tools-docker-setup.md",
       "redirect_url": "/visualstudio/containers/",
       "redirect_document_id": false
@@ -3072,7 +3077,7 @@
     },
     {
       "source_path": "docs/deployment/tutorial-kubernetes-tools.md",
-      "redirect_url": "/visualstudio/containers/tutorial-kubernetes-tools",
+      "redirect_url": "/visualstudio/containers/bridge-to-kubernetes",
       "redirect_document_id": true
     },
     {
@@ -10897,8 +10902,8 @@
     },
     {
       "source_path": "docs/code-quality/ca1708-identifiers-should-differ-by-more-than-case.md",
-      "redirect_url": "/visualstudio/code-quality/ca1708",
-      "redirect_document_id": true
+      "redirect_url": "/dotnet/fundamentals/code-analysis/quality-rules/ca1708",
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/code-quality/ca1716-identifiers-should-not-match-keywords.md",
@@ -15662,8 +15667,7 @@
     },
     {
       "source_path": "docs/containers/local-process-kubernetes.md",
-      "redirect_url": "/visualstudio/containers/bridge-to-kubernetes",
-      "redirect_document_id": true
+      "redirect_url": "/visualstudio/containers/bridge-to-kubernetes"
     },
     {
       "source_path": "docs/containers/overview-local-process-kubernetes.md",
