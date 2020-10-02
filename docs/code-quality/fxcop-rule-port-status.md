@@ -23,169 +23,169 @@ As of the date on this page, the list of FxCop rules that have been ported to [F
 
 Rule ID | Title
 --------|---------
-[CA1000](ca1000.md) | Do not declare static members on generic types
-[CA1001](ca1001.md) | Types that own disposable fields should be disposable
-[CA1002](ca1002.md) | Do not expose generic lists
-[CA1003](ca1003.md) | Use generic event handler instances
-[CA1005](ca1005.md) | Avoid excessive parameters on generic types
-[CA1008](ca1008.md) | Enums should have zero value
-[CA1010](ca1010.md) | Collections should implement generic interface
-[CA1012](ca1012.md) | Abstract types should not have constructors
-[CA1014](ca1014.md) | Mark assemblies with CLSCompliant
-[CA1016](ca1016.md) | Mark assemblies with assembly version
-[CA1017](ca1017.md) | Mark assemblies with ComVisible
-[CA1018](ca1018.md) | Mark attributes with AttributeUsageAttribute
-[CA1019](ca1019.md) | Define accessors for attribute arguments
-[CA1021](ca1021.md) | Avoid out parameters
-[CA1024](ca1024.md) | Use properties where appropriate
-[CA1027](ca1027.md) | Mark enums with FlagsAttribute
-[CA1028](ca1028.md) | Enum Storage should be Int32
-[CA1030](ca1030.md) | Use events where appropriate
-[CA1031](ca1031.md) | Do not catch general exception types
-[CA1032](ca1032.md) | Implement standard exception constructors
-[CA1033](ca1033.md) | Interface methods should be callable by child types
-[CA1034](ca1034.md) | Nested types should not be visible
-[CA1036](ca1036.md) | Override methods on comparable types
-[CA1040](ca1040.md) | Avoid empty interfaces
-[CA1041](ca1041.md) | Provide ObsoleteAttribute message
-[CA1043](ca1043.md) | Use Integral Or String Argument For Indexers
-[CA1044](ca1044.md) | Properties should not be write only
-[CA1045](ca1045.md) | Do not pass types by reference
-[CA1046](ca1046.md) | Do not overload operator equals on reference types
-[CA1047](ca1047.md) | Do not declare protected members in sealed types
-[CA1050](ca1050.md) | Declare types in namespaces
-[CA1051](ca1051.md) | Do not declare visible instance fields
-[CA1052](ca1052.md) | Static holder types should be static or NotInheritable
-[CA1053](ca1053.md) | Static holder types should not have constructors (CA1053 is part of [CA1052](ca1052.md) for FxCop analyzers)
-[CA1054](ca1054.md) | Uri parameters should not be strings
-[CA1055](ca1055.md) | Uri return values should not be strings
-[CA1056](ca1056.md) | Uri properties should not be strings
-[CA1058](ca1058.md) | Types should not extend certain base types
-[CA1060](ca1060.md) | Move pinvokes to native methods class
-[CA1061](ca1061.md) | Do not hide base class methods
-[CA1062](ca1062.md) | Validate arguments of public methods
-[CA1063](ca1063.md) | Implement IDisposable Correctly
-[CA1064](ca1064.md) | Exceptions should be public
-[CA1065](ca1065.md) | Do not raise exceptions in unexpected locations
-[CA1066](ca1066.md) | Type {0} should implement IEquatable\<T> because it overrides Equals
-[CA1067](ca1067.md) | Override Object.Equals(object) when implementing IEquatable\<T>
-[CA1303](ca1303.md) | Do not pass literals as localized parameters
-[CA1304](ca1304.md) | Specify CultureInfo
-[CA1305](ca1305.md) | Specify IFormatProvider
-[CA1307](ca1307.md) | Specify StringComparison for clarity
-[CA1308](ca1308.md) | Normalize strings to uppercase
-[CA1309](ca1309.md) | Use ordinal string comparison
-[CA1401](ca1401.md) | P/Invokes should not be visible
-[CA1501](ca1501.md) | Avoid excessive inheritance
-[CA1502](ca1502.md) | Avoid excessive complexity
-[CA1505](ca1505.md) | Avoid unmaintainable code
-[CA1506](ca1506.md) | Avoid excessive class coupling
-[CA1700](ca1700.md) | Do not name enum values 'Reserved'
-[CA1707](ca1707.md) | Identifiers should not contain underscores
-[CA1708](ca1708.md) | Identifiers should differ by more than case
-[CA1710](ca1710.md) | Identifiers should have correct suffix
-[CA1711](ca1711.md) | Identifiers should not have incorrect suffix
-[CA1712](ca1712.md) | Do not prefix enum values with type name
-[CA1713](ca1713.md) | Events should not have before or after prefix
-[CA1714](ca1714.md) | Flags enums should have plural names
-[CA1715](ca1715.md) | Identifiers should have correct prefix
-[CA1716](ca1716.md) | Identifiers should not match keywords
-[CA1717](ca1717.md) | Only FlagsAttribute enums should have plural names
-[CA1720](ca1720.md) | Identifier contains type name
-[CA1721](ca1721.md) | Property names should not match get methods
-[CA1724](ca1724.md) | Type names should not match namespaces
-[CA1725](ca1725.md) | Parameter names should match base declaration
-[CA1801](ca1801.md) | Review unused parameters
-[CA1802](ca1802.md) | Use literals where appropriate
-[CA1805](ca1805.md) | Do not initialize unnecessarily
-[CA1806](ca1806.md) | Do not ignore method results
-[CA1810](ca1810.md) | Initialize reference type static fields inline
-[CA1812](ca1812.md) | Avoid uninstantiated internal classes
-[CA1813](ca1813.md) | Avoid unsealed attributes
-[CA1814](ca1814.md) | Prefer jagged arrays over multidimensional
-[CA1815](ca1815.md) | Override equals and operator equals on value types
-[CA1816](ca1816.md) | Dispose methods should call SuppressFinalize
-[CA1819](ca1819.md) | Properties should not return arrays
-[CA1820](ca1820.md) | Test for empty strings using string length
-[CA1821](ca1821.md) | Remove empty Finalizers
-[CA1822](ca1822.md) | Mark members as static
-[CA1823](ca1823.md) | Avoid unused private fields
-[CA1824](ca1824.md) | Mark assemblies with NeutralResourcesLanguageAttribute
-[CA1825](ca1825.md) | Avoid zero-length array allocations.
-[CA2000](ca2000.md) | Dispose objects before losing scope
-[CA2002](ca2002.md) | Do not lock on objects with weak identity
-[CA2100](ca2100.md) | Review SQL queries for security vulnerabilities
-[CA2101](ca2101.md) | Specify marshaling for P/Invoke string arguments
-[CA2109](ca2109.md) | Review visible event handlers
-[CA2119](ca2119.md) | Seal methods that satisfy private interfaces
-[CA2153](ca2153.md) | Do Not Catch Corrupted State Exceptions
-[CA2200](ca2200.md) | Rethrow to preserve stack details.
-[CA2201](ca2201.md) | Do not raise reserved exception types
-[CA2207](ca2207.md) | Initialize value type static fields inline
-[CA2208](ca2208.md) | Instantiate argument exceptions correctly
-[CA2211](ca2211.md) | Non-constant fields should not be visible
-[CA2213](ca2213.md) | Disposable fields should be disposed
-[CA2214](ca2214.md) | Do not call overridable methods in constructors
-[CA2215](ca2215.md) | Dispose methods should call base class dispose
-[CA2216](ca2216.md) | Disposable types should declare finalizer
-[CA2217](ca2217.md) | Do not mark enums with FlagsAttribute
-[CA2219](ca2219.md) | Do not raise exceptions in finally clauses
-[CA2225](ca2225.md) | Operator overloads have named alternates
-[CA2226](ca2226.md) | Operators should have symmetrical overloads
-[CA2227](ca2227.md) | Collection properties should be read only
-[CA2229](ca2229.md) | Implement serialization constructors
-[CA2231](ca2231.md) | Overload operator equals on overriding value type Equals
-[CA2234](ca2234.md) | Pass system uri objects instead of strings
-[CA2235](ca2235.md) | Mark all non-serializable fields
-[CA2237](ca2237.md) | Mark ISerializable types with serializable
-[CA2241](ca2241.md) | Provide correct arguments to formatting methods
-[CA2242](ca2242.md) | Test for NaN correctly
-[CA2243](ca2243.md) | Attribute string literals should parse correctly
-[CA2300](ca2300.md) | Do not use insecure deserializer BinaryFormatter
-[CA2301](ca2301.md) | Do not call BinaryFormatter.Deserialize without first setting BinaryFormatter.Binder
-[CA2302](ca2302.md) | Ensure BinaryFormatter.Binder is set before calling BinaryFormatter.Deserialize
-[CA2305](ca2305.md) | Do not use insecure deserializer LosFormatter
-[CA2310](ca2310.md) | Do not use insecure deserializer NetDataContractSerializer
-[CA2311](ca2311.md) | Do not deserialize without first setting NetDataContractSerializer.Binder
-[CA2312](ca2312.md) | Ensure NetDataContractSerializer.Binder is set before deserializing
-[CA2315](ca2315.md) | Do not use insecure deserializer ObjectStateFormatter
-[CA2321](ca2321.md) | Do not deserialize with JavaScriptSerializer using a SimpleTypeResolver
-[CA2322](ca2322.md) | Ensure JavaScriptSerializer is not initialized with SimpleTypeResolver before deserializing
-[CA3001](ca3001.md) | Review code for SQL injection vulnerabilities
-[CA3002](ca3002.md) | Review code for XSS vulnerabilities
-[CA3003](ca3003.md) | Review code for file path injection vulnerabilities
-[CA3004](ca3004.md) | Review code for information disclosure vulnerabilities
-[CA3005](ca3005.md) | Review code for LDAP injection vulnerabilities
-[CA3006](ca3006.md) | Review code for process command injection vulnerabilities
-[CA3007](ca3007.md) | Review code for open redirect vulnerabilities
-[CA3008](ca3008.md) | Review code for XPath injection vulnerabilities
-[CA3009](ca3009.md) | Review code for XML injection vulnerabilities
-[CA3010](ca3010.md) | Review code for XAML injection vulnerabilities
-[CA3011](ca3011.md) | Review code for DLL injection vulnerabilities
-[CA3012](ca3012.md) | Review code for regex injection vulnerabilities
-[CA3061](ca3061.md) | Do Not Add Schema By URL
-[CA3075](ca3075.md) | Insecure DTD processing in XML
-[CA3076](ca3076.md) | Insecure XSLT script processing.
-[CA3077](ca3077.md) | Insecure Processing in API Design, XmlDocument, and XmlTextReader
-[CA3147](ca3147.md) | Mark Verb Handlers With Validate Antiforgery Token
-[CA5350](ca5350.md) | Do Not Use Weak Cryptographic Algorithms
-[CA5351](ca5351.md) | Do Not Use Broken Cryptographic Algorithms
-[CA5358](ca5358.md) | Do Not Use Unsafe Cipher Modes
+[CA1000](/dotnet/fundamentals/code-analysis/quality-rules/ca1000) | Do not declare static members on generic types
+[CA1001](/dotnet/fundamentals/code-analysis/quality-rules/ca1001) | Types that own disposable fields should be disposable
+[CA1002](/dotnet/fundamentals/code-analysis/quality-rules/ca1002) | Do not expose generic lists
+[CA1003](/dotnet/fundamentals/code-analysis/quality-rules/ca1003) | Use generic event handler instances
+[CA1005](/dotnet/fundamentals/code-analysis/quality-rules/ca1005) | Avoid excessive parameters on generic types
+[CA1008](/dotnet/fundamentals/code-analysis/quality-rules/ca1008) | Enums should have zero value
+[CA1010](/dotnet/fundamentals/code-analysis/quality-rules/ca1010) | Collections should implement generic interface
+[CA1012](/dotnet/fundamentals/code-analysis/quality-rules/ca1012) | Abstract types should not have constructors
+[CA1014](/dotnet/fundamentals/code-analysis/quality-rules/ca1014) | Mark assemblies with CLSCompliant
+[CA1016](/dotnet/fundamentals/code-analysis/quality-rules/ca1016) | Mark assemblies with assembly version
+[CA1017](/dotnet/fundamentals/code-analysis/quality-rules/ca1017) | Mark assemblies with ComVisible
+[CA1018](/dotnet/fundamentals/code-analysis/quality-rules/ca1018) | Mark attributes with AttributeUsageAttribute
+[CA1019](/dotnet/fundamentals/code-analysis/quality-rules/ca1019) | Define accessors for attribute arguments
+[CA1021](/dotnet/fundamentals/code-analysis/quality-rules/ca1021) | Avoid out parameters
+[CA1024](/dotnet/fundamentals/code-analysis/quality-rules/ca1024) | Use properties where appropriate
+[CA1027](/dotnet/fundamentals/code-analysis/quality-rules/ca1027) | Mark enums with FlagsAttribute
+[CA1028](/dotnet/fundamentals/code-analysis/quality-rules/ca1028) | Enum Storage should be Int32
+[CA1030](/dotnet/fundamentals/code-analysis/quality-rules/ca1030) | Use events where appropriate
+[CA1031](/dotnet/fundamentals/code-analysis/quality-rules/ca1031) | Do not catch general exception types
+[CA1032](/dotnet/fundamentals/code-analysis/quality-rules/ca1032) | Implement standard exception constructors
+[CA1033](/dotnet/fundamentals/code-analysis/quality-rules/ca1033) | Interface methods should be callable by child types
+[CA1034](/dotnet/fundamentals/code-analysis/quality-rules/ca1034) | Nested types should not be visible
+[CA1036](/dotnet/fundamentals/code-analysis/quality-rules/ca1036) | Override methods on comparable types
+[CA1040](/dotnet/fundamentals/code-analysis/quality-rules/ca1040) | Avoid empty interfaces
+[CA1041](/dotnet/fundamentals/code-analysis/quality-rules/ca1041) | Provide ObsoleteAttribute message
+[CA1043](/dotnet/fundamentals/code-analysis/quality-rules/ca1043) | Use Integral Or String Argument For Indexers
+[CA1044](/dotnet/fundamentals/code-analysis/quality-rules/ca1044) | Properties should not be write only
+[CA1045](/dotnet/fundamentals/code-analysis/quality-rules/ca1045) | Do not pass types by reference
+[CA1046](/dotnet/fundamentals/code-analysis/quality-rules/ca1046) | Do not overload operator equals on reference types
+[CA1047](/dotnet/fundamentals/code-analysis/quality-rules/ca1047) | Do not declare protected members in sealed types
+[CA1050](/dotnet/fundamentals/code-analysis/quality-rules/ca1050) | Declare types in namespaces
+[CA1051](/dotnet/fundamentals/code-analysis/quality-rules/ca1051) | Do not declare visible instance fields
+[CA1052](/dotnet/fundamentals/code-analysis/quality-rules/ca1052) | Static holder types should be static or NotInheritable
+[CA1053](/dotnet/fundamentals/code-analysis/quality-rules/ca1053) | Static holder types should not have constructors (CA1053 is part of [CA1052](/dotnet/fundamentals/code-analysis/quality-rules/ca1052) for FxCop analyzers)
+[CA1054](/dotnet/fundamentals/code-analysis/quality-rules/ca1054) | Uri parameters should not be strings
+[CA1055](/dotnet/fundamentals/code-analysis/quality-rules/ca1055) | Uri return values should not be strings
+[CA1056](/dotnet/fundamentals/code-analysis/quality-rules/ca1056) | Uri properties should not be strings
+[CA1058](/dotnet/fundamentals/code-analysis/quality-rules/ca1058) | Types should not extend certain base types
+[CA1060](/dotnet/fundamentals/code-analysis/quality-rules/ca1060) | Move pinvokes to native methods class
+[CA1061](/dotnet/fundamentals/code-analysis/quality-rules/ca1061) | Do not hide base class methods
+[CA1062](/dotnet/fundamentals/code-analysis/quality-rules/ca1062) | Validate arguments of public methods
+[CA1063](/dotnet/fundamentals/code-analysis/quality-rules/ca1063) | Implement IDisposable Correctly
+[CA1064](/dotnet/fundamentals/code-analysis/quality-rules/ca1064) | Exceptions should be public
+[CA1065](/dotnet/fundamentals/code-analysis/quality-rules/ca1065) | Do not raise exceptions in unexpected locations
+[CA1066](/dotnet/fundamentals/code-analysis/quality-rules/ca1066) | Type {0} should implement IEquatable\<T> because it overrides Equals
+[CA1067](/dotnet/fundamentals/code-analysis/quality-rules/ca1067) | Override Object.Equals(object) when implementing IEquatable\<T>
+[CA1303](/dotnet/fundamentals/code-analysis/quality-rules/ca1303) | Do not pass literals as localized parameters
+[CA1304](/dotnet/fundamentals/code-analysis/quality-rules/ca1304) | Specify CultureInfo
+[CA1305](/dotnet/fundamentals/code-analysis/quality-rules/ca1305) | Specify IFormatProvider
+[CA1307](/dotnet/fundamentals/code-analysis/quality-rules/ca1307) | Specify StringComparison for clarity
+[CA1308](/dotnet/fundamentals/code-analysis/quality-rules/ca1308) | Normalize strings to uppercase
+[CA1309](/dotnet/fundamentals/code-analysis/quality-rules/ca1309) | Use ordinal string comparison
+[CA1401](/dotnet/fundamentals/code-analysis/quality-rules/ca1401) | P/Invokes should not be visible
+[CA1501](/dotnet/fundamentals/code-analysis/quality-rules/ca1501) | Avoid excessive inheritance
+[CA1502](/dotnet/fundamentals/code-analysis/quality-rules/ca1502) | Avoid excessive complexity
+[CA1505](/dotnet/fundamentals/code-analysis/quality-rules/ca1505) | Avoid unmaintainable code
+[CA1506](/dotnet/fundamentals/code-analysis/quality-rules/ca1506) | Avoid excessive class coupling
+[CA1700](/dotnet/fundamentals/code-analysis/quality-rules/ca1700) | Do not name enum values 'Reserved'
+[CA1707](/dotnet/fundamentals/code-analysis/quality-rules/ca1707) | Identifiers should not contain underscores
+[CA1708](/dotnet/fundamentals/code-analysis/quality-rules/ca1708) | Identifiers should differ by more than case
+[CA1710](/dotnet/fundamentals/code-analysis/quality-rules/ca1710) | Identifiers should have correct suffix
+[CA1711](/dotnet/fundamentals/code-analysis/quality-rules/ca1711) | Identifiers should not have incorrect suffix
+[CA1712](/dotnet/fundamentals/code-analysis/quality-rules/ca1712) | Do not prefix enum values with type name
+[CA1713](/dotnet/fundamentals/code-analysis/quality-rules/ca1713) | Events should not have before or after prefix
+[CA1714](/dotnet/fundamentals/code-analysis/quality-rules/ca1714) | Flags enums should have plural names
+[CA1715](/dotnet/fundamentals/code-analysis/quality-rules/ca1715) | Identifiers should have correct prefix
+[CA1716](/dotnet/fundamentals/code-analysis/quality-rules/ca1716) | Identifiers should not match keywords
+[CA1717](/dotnet/fundamentals/code-analysis/quality-rules/ca1717) | Only FlagsAttribute enums should have plural names
+[CA1720](/dotnet/fundamentals/code-analysis/quality-rules/ca1720) | Identifier contains type name
+[CA1721](/dotnet/fundamentals/code-analysis/quality-rules/ca1721) | Property names should not match get methods
+[CA1724](/dotnet/fundamentals/code-analysis/quality-rules/ca1724) | Type names should not match namespaces
+[CA1725](/dotnet/fundamentals/code-analysis/quality-rules/ca1725) | Parameter names should match base declaration
+[CA1801](/dotnet/fundamentals/code-analysis/quality-rules/ca1801) | Review unused parameters
+[CA1802](/dotnet/fundamentals/code-analysis/quality-rules/ca1802) | Use literals where appropriate
+[CA1805](/dotnet/fundamentals/code-analysis/quality-rules/ca1805) | Do not initialize unnecessarily
+[CA1806](/dotnet/fundamentals/code-analysis/quality-rules/ca1806) | Do not ignore method results
+[CA1810](/dotnet/fundamentals/code-analysis/quality-rules/ca1810) | Initialize reference type static fields inline
+[CA1812](/dotnet/fundamentals/code-analysis/quality-rules/ca1812) | Avoid uninstantiated internal classes
+[CA1813](/dotnet/fundamentals/code-analysis/quality-rules/ca1813) | Avoid unsealed attributes
+[CA1814](/dotnet/fundamentals/code-analysis/quality-rules/ca1814) | Prefer jagged arrays over multidimensional
+[CA1815](/dotnet/fundamentals/code-analysis/quality-rules/ca1815) | Override equals and operator equals on value types
+[CA1816](/dotnet/fundamentals/code-analysis/quality-rules/ca1816) | Dispose methods should call SuppressFinalize
+[CA1819](/dotnet/fundamentals/code-analysis/quality-rules/ca1819) | Properties should not return arrays
+[CA1820](/dotnet/fundamentals/code-analysis/quality-rules/ca1820) | Test for empty strings using string length
+[CA1821](/dotnet/fundamentals/code-analysis/quality-rules/ca1821) | Remove empty Finalizers
+[CA1822](/dotnet/fundamentals/code-analysis/quality-rules/ca1822) | Mark members as static
+[CA1823](/dotnet/fundamentals/code-analysis/quality-rules/ca1823) | Avoid unused private fields
+[CA1824](/dotnet/fundamentals/code-analysis/quality-rules/ca1824) | Mark assemblies with NeutralResourcesLanguageAttribute
+[CA1825](/dotnet/fundamentals/code-analysis/quality-rules/ca1825) | Avoid zero-length array allocations.
+[CA2000](/dotnet/fundamentals/code-analysis/quality-rules/ca2000) | Dispose objects before losing scope
+[CA2002](/dotnet/fundamentals/code-analysis/quality-rules/ca2002) | Do not lock on objects with weak identity
+[CA2100](/dotnet/fundamentals/code-analysis/quality-rules/ca2100) | Review SQL queries for security vulnerabilities
+[CA2101](/dotnet/fundamentals/code-analysis/quality-rules/ca2101) | Specify marshaling for P/Invoke string arguments
+[CA2109](/dotnet/fundamentals/code-analysis/quality-rules/ca2109) | Review visible event handlers
+[CA2119](/dotnet/fundamentals/code-analysis/quality-rules/ca2119) | Seal methods that satisfy private interfaces
+[CA2153](/dotnet/fundamentals/code-analysis/quality-rules/ca2153) | Do Not Catch Corrupted State Exceptions
+[CA2200](/dotnet/fundamentals/code-analysis/quality-rules/ca2200) | Rethrow to preserve stack details.
+[CA2201](/dotnet/fundamentals/code-analysis/quality-rules/ca2201) | Do not raise reserved exception types
+[CA2207](/dotnet/fundamentals/code-analysis/quality-rules/ca2207) | Initialize value type static fields inline
+[CA2208](/dotnet/fundamentals/code-analysis/quality-rules/ca2208) | Instantiate argument exceptions correctly
+[CA2211](/dotnet/fundamentals/code-analysis/quality-rules/ca2211) | Non-constant fields should not be visible
+[CA2213](/dotnet/fundamentals/code-analysis/quality-rules/ca2213) | Disposable fields should be disposed
+[CA2214](/dotnet/fundamentals/code-analysis/quality-rules/ca2214) | Do not call overridable methods in constructors
+[CA2215](/dotnet/fundamentals/code-analysis/quality-rules/ca2215) | Dispose methods should call base class dispose
+[CA2216](/dotnet/fundamentals/code-analysis/quality-rules/ca2216) | Disposable types should declare finalizer
+[CA2217](/dotnet/fundamentals/code-analysis/quality-rules/ca2217) | Do not mark enums with FlagsAttribute
+[CA2219](/dotnet/fundamentals/code-analysis/quality-rules/ca2219) | Do not raise exceptions in finally clauses
+[CA2225](/dotnet/fundamentals/code-analysis/quality-rules/ca2225) | Operator overloads have named alternates
+[CA2226](/dotnet/fundamentals/code-analysis/quality-rules/ca2226) | Operators should have symmetrical overloads
+[CA2227](/dotnet/fundamentals/code-analysis/quality-rules/ca2227) | Collection properties should be read only
+[CA2229](/dotnet/fundamentals/code-analysis/quality-rules/ca2229) | Implement serialization constructors
+[CA2231](/dotnet/fundamentals/code-analysis/quality-rules/ca2231) | Overload operator equals on overriding value type Equals
+[CA2234](/dotnet/fundamentals/code-analysis/quality-rules/ca2234) | Pass system uri objects instead of strings
+[CA2235](/dotnet/fundamentals/code-analysis/quality-rules/ca2235) | Mark all non-serializable fields
+[CA2237](/dotnet/fundamentals/code-analysis/quality-rules/ca2237) | Mark ISerializable types with serializable
+[CA2241](/dotnet/fundamentals/code-analysis/quality-rules/ca2241) | Provide correct arguments to formatting methods
+[CA2242](/dotnet/fundamentals/code-analysis/quality-rules/ca2242) | Test for NaN correctly
+[CA2243](/dotnet/fundamentals/code-analysis/quality-rules/ca2243) | Attribute string literals should parse correctly
+[CA2300](/dotnet/fundamentals/code-analysis/quality-rules/ca2300) | Do not use insecure deserializer BinaryFormatter
+[CA2301](/dotnet/fundamentals/code-analysis/quality-rules/ca2301) | Do not call BinaryFormatter.Deserialize without first setting BinaryFormatter.Binder
+[CA2302](/dotnet/fundamentals/code-analysis/quality-rules/ca2302) | Ensure BinaryFormatter.Binder is set before calling BinaryFormatter.Deserialize
+[CA2305](/dotnet/fundamentals/code-analysis/quality-rules/ca2305) | Do not use insecure deserializer LosFormatter
+[CA2310](/dotnet/fundamentals/code-analysis/quality-rules/ca2310) | Do not use insecure deserializer NetDataContractSerializer
+[CA2311](/dotnet/fundamentals/code-analysis/quality-rules/ca2311) | Do not deserialize without first setting NetDataContractSerializer.Binder
+[CA2312](/dotnet/fundamentals/code-analysis/quality-rules/ca2312) | Ensure NetDataContractSerializer.Binder is set before deserializing
+[CA2315](/dotnet/fundamentals/code-analysis/quality-rules/ca2315) | Do not use insecure deserializer ObjectStateFormatter
+[CA2321](/dotnet/fundamentals/code-analysis/quality-rules/ca2321) | Do not deserialize with JavaScriptSerializer using a SimpleTypeResolver
+[CA2322](/dotnet/fundamentals/code-analysis/quality-rules/ca2322) | Ensure JavaScriptSerializer is not initialized with SimpleTypeResolver before deserializing
+[CA3001](/dotnet/fundamentals/code-analysis/quality-rules/ca3001) | Review code for SQL injection vulnerabilities
+[CA3002](/dotnet/fundamentals/code-analysis/quality-rules/ca3002) | Review code for XSS vulnerabilities
+[CA3003](/dotnet/fundamentals/code-analysis/quality-rules/ca3003) | Review code for file path injection vulnerabilities
+[CA3004](/dotnet/fundamentals/code-analysis/quality-rules/ca3004) | Review code for information disclosure vulnerabilities
+[CA3005](/dotnet/fundamentals/code-analysis/quality-rules/ca3005) | Review code for LDAP injection vulnerabilities
+[CA3006](/dotnet/fundamentals/code-analysis/quality-rules/ca3006) | Review code for process command injection vulnerabilities
+[CA3007](/dotnet/fundamentals/code-analysis/quality-rules/ca3007) | Review code for open redirect vulnerabilities
+[CA3008](/dotnet/fundamentals/code-analysis/quality-rules/ca3008) | Review code for XPath injection vulnerabilities
+[CA3009](/dotnet/fundamentals/code-analysis/quality-rules/ca3009) | Review code for XML injection vulnerabilities
+[CA3010](/dotnet/fundamentals/code-analysis/quality-rules/ca3010) | Review code for XAML injection vulnerabilities
+[CA3011](/dotnet/fundamentals/code-analysis/quality-rules/ca3011) | Review code for DLL injection vulnerabilities
+[CA3012](/dotnet/fundamentals/code-analysis/quality-rules/ca3012) | Review code for regex injection vulnerabilities
+[CA3061](/dotnet/fundamentals/code-analysis/quality-rules/ca3061) | Do Not Add Schema By URL
+[CA3075](/dotnet/fundamentals/code-analysis/quality-rules/ca3075) | Insecure DTD processing in XML
+[CA3076](/dotnet/fundamentals/code-analysis/quality-rules/ca3076) | Insecure XSLT script processing.
+[CA3077](/dotnet/fundamentals/code-analysis/quality-rules/ca3077) | Insecure Processing in API Design, XmlDocument, and XmlTextReader
+[CA3147](/dotnet/fundamentals/code-analysis/quality-rules/ca3147) | Mark Verb Handlers With Validate Antiforgery Token
+[CA5350](/dotnet/fundamentals/code-analysis/quality-rules/ca5350) | Do Not Use Weak Cryptographic Algorithms
+[CA5351](/dotnet/fundamentals/code-analysis/quality-rules/ca5351) | Do Not Use Broken Cryptographic Algorithms
+[CA5358](/dotnet/fundamentals/code-analysis/quality-rules/ca5358) | Do Not Use Unsafe Cipher Modes
 CA5359 | Do Not Disable Certificate Validation
 CA5360 | Do Not Call Dangerous Methods In Deserialization
-[CA5361](ca5361.md) | Do Not Disable SChannel Use of Strong Crypto
+[CA5361](/dotnet/fundamentals/code-analysis/quality-rules/ca5361) | Do Not Disable SChannel Use of Strong Crypto
 CA5362 | Do Not Refer Self In Serializable Class
-[CA5363](ca5363.md) | Do Not Disable Request Validation
-[CA5364](ca5364.md) | Do Not Use Deprecated Security Protocols
+[CA5363](/dotnet/fundamentals/code-analysis/quality-rules/ca5363) | Do Not Disable Request Validation
+[CA5364](/dotnet/fundamentals/code-analysis/quality-rules/ca5364) | Do Not Use Deprecated Security Protocols
 CA5365 | Do Not Disable HTTP Header Checking
 CA5366 | Use XmlReader For DataSet Read Xml
 CA5367 | Do Not Serialize Types With Pointer Fields
 CA5368 | Set ViewStateUserKey For Classes Derived From Page
-[CA5369](ca5369.md) | Use XmlReader For Deserialize
-[CA5370](ca5370.md) | Use XmlReader For Validating Reader
-[CA5371](ca5371.md) | Use XmlReader For Schema Read
-[CA5372](ca5372.md) | Use XmlReader For XPathDocument
-[CA5373](ca5373.md) | Do not use obsolete key derivation function
+[CA5369](/dotnet/fundamentals/code-analysis/quality-rules/ca5369) | Use XmlReader For Deserialize
+[CA5370](/dotnet/fundamentals/code-analysis/quality-rules/ca5370) | Use XmlReader For Validating Reader
+[CA5371](/dotnet/fundamentals/code-analysis/quality-rules/ca5371) | Use XmlReader For Schema Read
+[CA5372](/dotnet/fundamentals/code-analysis/quality-rules/ca5372) | Use XmlReader For XPathDocument
+[CA5373](/dotnet/fundamentals/code-analysis/quality-rules/ca5373) | Do not use obsolete key derivation function
 CA5374 | Do Not Use XslTransform
 CA5375 | Do Not Use Account Shared Access Signature
 CA5376 | Use SharedAccessProtocol HttpsOnly

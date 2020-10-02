@@ -234,29 +234,29 @@ Include this rule set in any custom rule set you create for your C++ projects th
 |[C28307](/cpp/code-quality/c28307)|The annotation on parameter is obsolescent|
 |[C28350](/cpp/code-quality/c28350)|The annotation describes a situation that is not conditionally applicable.|
 |[C28351](/cpp/code-quality/c28351)|The annotation describes where a dynamic value (a variable) cannot be used in the condition.|
-|[CA1001](../code-quality/ca1001.md)|Types that own disposable fields should be disposable|
+|[CA1001](/dotnet/fundamentals/code-analysis/quality-rules/ca1001)|Types that own disposable fields should be disposable|
 |[CA1009](../code-quality/ca1009.md)|Declare event handlers correctly|
-|[CA1016](../code-quality/ca1016.md)|Mark assemblies with AssemblyVersionAttribute|
-|[CA1033](../code-quality/ca1033.md)|Interface methods should be callable by child types|
+|[CA1016](/dotnet/fundamentals/code-analysis/quality-rules/ca1016)|Mark assemblies with AssemblyVersionAttribute|
+|[CA1033](/dotnet/fundamentals/code-analysis/quality-rules/ca1033)|Interface methods should be callable by child types|
 |[CA1049](../code-quality/ca1049.md)|Types that own native resources should be disposable|
-|[CA1060](../code-quality/ca1060.md)|Move P/Invokes to NativeMethods class|
-|[CA1061](../code-quality/ca1061.md)|Do not hide base class methods|
-|[CA1063](../code-quality/ca1063.md)|Implement IDisposable correctly|
-|[CA1065](../code-quality/ca1065.md)|Do not raise exceptions in unexpected locations|
+|[CA1060](/dotnet/fundamentals/code-analysis/quality-rules/ca1060)|Move P/Invokes to NativeMethods class|
+|[CA1061](/dotnet/fundamentals/code-analysis/quality-rules/ca1061)|Do not hide base class methods|
+|[CA1063](/dotnet/fundamentals/code-analysis/quality-rules/ca1063)|Implement IDisposable correctly|
+|[CA1065](/dotnet/fundamentals/code-analysis/quality-rules/ca1065)|Do not raise exceptions in unexpected locations|
 |[CA1301](../code-quality/ca1301.md)|Avoid duplicate accelerators|
 |[CA1400](../code-quality/ca1400.md)|P/Invoke entry points should exist|
-|[CA1401](../code-quality/ca1401.md)|P/Invokes should not be visible|
+|[CA1401](/dotnet/fundamentals/code-analysis/quality-rules/ca1401)|P/Invokes should not be visible|
 |[CA1403](../code-quality/ca1403.md)|Auto layout types should not be COM visible|
 |[CA1404](../code-quality/ca1404.md)|Call GetLastError immediately after P/Invoke|
 |[CA1405](../code-quality/ca1405.md)|COM visible type base types should be COM visible|
 |[CA1410](../code-quality/ca1410.md)|COM registration methods should be matched|
 |[CA1415](../code-quality/ca1415.md)|Declare P/Invokes correctly|
-|[CA1821](../code-quality/ca1821.md)|Remove empty finalizers|
+|[CA1821](/dotnet/fundamentals/code-analysis/quality-rules/ca1821)|Remove empty finalizers|
 |[CA1900](../code-quality/ca1900.md)|Value type fields should be portable|
 |[CA1901](../code-quality/ca1901.md)|P/Invoke declarations should be portable|
-|[CA2002](../code-quality/ca2002.md)|Do not lock on objects with weak identity|
-|[CA2100](../code-quality/ca2100.md)|Review SQL queries for security vulnerabilities|
-|[CA2101](../code-quality/ca2101.md)|Specify marshaling for P/Invoke string arguments|
+|[CA2002](/dotnet/fundamentals/code-analysis/quality-rules/ca2002)|Do not lock on objects with weak identity|
+|[CA2100](/dotnet/fundamentals/code-analysis/quality-rules/ca2100)|Review SQL queries for security vulnerabilities|
+|[CA2101](/dotnet/fundamentals/code-analysis/quality-rules/ca2101)|Specify marshaling for P/Invoke string arguments|
 |[CA2108](../code-quality/ca2108.md)|Review declarative security on value types|
 |[CA2111](../code-quality/ca2111.md)|Pointers should not be visible|
 |[CA2112](../code-quality/ca2112.md)|Secured types should not expose fields|
@@ -278,13 +278,13 @@ Include this rule set in any custom rule set you create for your C++ projects th
 |[CA2146](../code-quality/ca2146.md)|Types must be at least as critical as their base types and interfaces|
 |[CA2147](../code-quality/ca2147.md)|Transparent methods may not use security asserts|
 |[CA2149](../code-quality/ca2149.md)|Transparent methods must not call into native code|
-|[CA2200](../code-quality/ca2200.md)|Rethrow to preserve stack details|
+|[CA2200](/dotnet/fundamentals/code-analysis/quality-rules/ca2200)|Rethrow to preserve stack details|
 |[CA2202](../code-quality/ca2202.md)|Do not dispose objects multiple times|
-|[CA2207](../code-quality/ca2207.md)|Initialize value type static fields inline|
+|[CA2207](/dotnet/fundamentals/code-analysis/quality-rules/ca2207)|Initialize value type static fields inline|
 |[CA2212](../code-quality/ca2212.md)|Do not mark serviced components with WebMethod|
-|[CA2213](../code-quality/ca2213.md)|Disposable fields should be disposed|
-|[CA2214](../code-quality/ca2214.md)|Do not call overridable methods in constructors|
-|[CA2216](../code-quality/ca2216.md)|Disposable types should declare finalizer|
+|[CA2213](/dotnet/fundamentals/code-analysis/quality-rules/ca2213)|Disposable fields should be disposed|
+|[CA2214](/dotnet/fundamentals/code-analysis/quality-rules/ca2214)|Do not call overridable methods in constructors|
+|[CA2216](/dotnet/fundamentals/code-analysis/quality-rules/ca2216)|Disposable types should declare finalizer|
 |[CA2220](../code-quality/ca2220.md)|Finalizers should call base class finalizer|
 |[CA2229](/dotnet/fundamentals/code-analysis/quality-rules/ca2229)|Implement serialization constructors|
 |[CA2231](/dotnet/fundamentals/code-analysis/quality-rules/ca2231)|Overload operator equals on overriding ValueType.Equals|
