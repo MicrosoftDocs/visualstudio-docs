@@ -31,6 +31,6 @@ To migrate to source analysis, [install the FxCop analyzers](../code-quality/ins
 
 To learn more about how to configure the FxCop analyzers:
 
-- To configure FxCop analyzers, see [Configure FxCop analyzers](../code-quality/configure-fxcop-analyzers.md).
+- To configure FxCop analyzers, see [Configure FxCop analyzers](/dotnet/fundamentals/code-analysis/code-quality-rule-options).
 
-- To find out about configuring analyzers using predefined rules with EditorConfig or a rule set file, see [Enable a category of rules](../code-quality/analyzer-rule-sets.md).
+- To find out about configuring analyzers using predefined rules with EditorConfig or a rule set file, see [Enable a category of rules](/dotnet/fundamentals/code-analysis/code-quality-rule-options).

@@ -1,5 +1,6 @@
 ---
 title: "Walkthrough: Import a form region that is designed in Outlook"
+titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
