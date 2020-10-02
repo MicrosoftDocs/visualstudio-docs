@@ -73,7 +73,7 @@ services.AddDbContext<AppDbContext>(options =>
 
 You'll also find the `AppDbContext` connection string has been added to the project's *appsettings.json* file.
 
-If you run the app now, it may fail because no database has been created, yet. You can configure the app to automatically create the database if needed by [adding some code to Program.cs](/aspnet/core/data/ef-rp/intro?view=aspnetcore-2.1&tabs=visual-studio#update-main):
+If you run the app now, it may fail because no database has been created, yet. You can configure the app to automatically create the database if needed by [adding some code to Program.cs](/aspnet/core/data/ef-rp/intro?view=aspnetcore-2.1&preserve-view=true&tabs=visual-studio#update-main):
 
 ```csharp
 public static void Main(string[] args)
@@ -129,5 +129,5 @@ In the next video, you'll learn how to add web API support to your app.
 
 ## See also
 
-- [Razor Pages with Entity Framework Core in ASP.NET Core](/aspnet/core/data/ef-rp/intro?view=aspnetcore-2.1&tabs=visual-studio)
-- [ASP.NET Core Razor Pages with EF Core](/aspnet/core/data/?view=aspnetcore-2.1)
+- [Razor Pages with Entity Framework Core in ASP.NET Core](/aspnet/core/data/ef-rp/intro?view=aspnetcore-2.1&preserve-view=true&tabs=visual-studio)
+- [ASP.NET Core Razor Pages with EF Core](/aspnet/core/data/?view=aspnetcore-2.1&preserve-view=true)
