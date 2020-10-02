@@ -21,6 +21,40 @@ metadata:
 landingContent:
 
   # Card
+  - title: .NET code analysis
+    linkLists:
+      - linkListType: overview
+        links:
+          - text: Analyze .NET code
+            url: roslyn-analyzers-overview.md
+          - text: .NET code quality analysis
+            url: /dotnet/fundamentals/productivity/code-analysis#code-quality-analysis
+          - text: .NET code style analysis
+            url: /dotnet/fundamentals/productivity/code-analysis#code-style-analysis
+      - linkListType: concept
+        links:
+          - text: FAQ
+            url: analyzers-faq.md
+      - linkListType: how-to-guide
+        links:
+          - text: Configure code analysis
+            url: use-roslyn-analyzers.md
+      - linkListType: reference
+        links:
+          - text: .NET code quality rules
+            url: /dotnet/fundamentals/productivity/code-analysis/quality-rules/index
+          - text: .NET code style rules
+            url: /dotnet/fundamentals/productivity/code-analysis/style-rules/index
+
+  # Card
+  - title: Measure code complexity
+    linkLists:
+      - linkListType: concept
+        links:
+          - text: Code metrics
+            url: code-metrics-values.md
+
+  # Card
   - title: Analyze C and C++ code
     linkLists:
       - linkListType: overview
@@ -31,41 +65,3 @@ landingContent:
         links:
           - text: C++ code analysis warnings
             url: /cpp/code-quality/code-analysis-for-c-cpp-warnings
-
-  # Card
-  - title: .NET code quality analysis
-    linkLists:
-      - linkListType: overview
-        links:
-          - text: Source analysis
-            url: roslyn-analyzers-overview.md
-          - text: Legacy analysis
-            url: static-code-analysis-for-managed-code-overview.md
-      - linkListType: concept
-        links:
-          - text: FAQ
-            url: analyzers-faq.md
-      - linkListType: how-to-guide
-        links:
-          - text: Configure code quality analysis
-            url: install-fxcop-analyzers.md
-      - linkListType: reference
-        links:
-          - text: .NET code quality rules
-            url: code-analysis-for-managed-code-warnings.md
-
-  # Card
-  - title: .NET code style analysis
-    linkLists:
-      - linkListType: how-to-guide
-        links:
-          - text: Configure code style analysis
-            url: ../ide/create-portable-custom-editor-options.md
-
-  # Card
-  - title: Measure code complexity
-    linkLists:
-      - linkListType: concept
-        links:
-          - text: Code metrics
-            url: code-metrics-values.md

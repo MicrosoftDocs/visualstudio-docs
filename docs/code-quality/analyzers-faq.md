@@ -28,7 +28,7 @@ This page contains answers to some frequently asked questions about .NET Compile
 
 However, EditorConfig files offer additional ways to configure rules too:
 
-- For the .NET code-quality analyzers, EditorConfig files let you [define which types of code to analyze](fxcop-analyzer-options.md).
+- For the .NET code-quality analyzers, EditorConfig files let you [define which types of code to analyze](/dotnet/fundamentals/code-analysis/code-quality-rule-options).
 - For the .NET code-style analyzers that are built into Visual Studio, EditorConfig files let you [define the preferred code styles](../ide/editorconfig-code-style-settings-reference.md) for a codebase.
 
 In addition to rule sets and EditorConfig files, some analyzers are configured through the use of text files marked as [additional files](../ide/build-actions.md#build-action-values) for the C# and VB compilers.
