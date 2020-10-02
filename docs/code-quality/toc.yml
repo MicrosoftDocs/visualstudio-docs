@@ -22,6 +22,8 @@
         - name: Use EditorConfig files for code style
           displayName: Configure code style analyzers
           href: ../ide/create-portable-custom-editor-options.md?toc=%252fvisualstudio%252fcode-quality%252ftoc.json
+        - name: Rule options >>
+          href: /dotnet/fundamentals/code-analysis/code-style-rule-options
       - name: Configure live code analysis
         href: configure-live-code-analysis-scope-managed-code.md
       - name: Run code analysis manually
