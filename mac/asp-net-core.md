@@ -16,7 +16,7 @@ ms.topic: how-to
 
 ## Installing .NET Core
 
-.NET Core 3.1 is automatically installed when you install Visual Studio for Mac. For more information about versions of .NET Core supported in Visual Studio for Mac see [.NET Core Support](/visualstudio/mac/net-core-support).
+.NET Core 3.1 is automatically installed when you install Visual Studio for Mac. For more information about versions of .NET Core supported in Visual Studio for Mac see [.NET Core Support](./net-core-support.md).
 
 ## Creating an ASP.NET Core app in Visual Studio for Mac
 
