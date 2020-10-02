@@ -14,7 +14,11 @@
       - name: Overview
         href: use-roslyn-analyzers.md
       - name: Code quality
-        href: /dotnet/fundamentals/code-analysis/code-quality-rule-options?toc=%252fvisualstudio%252fcode-quality%252ftoc.json
+        items:
+        - name: Code quality options
+          href: /dotnet/fundamentals/code-analysis/code-quality-rule-options?toc=%252fvisualstudio%252fcode-quality%252ftoc.json
+        - name: Use EditorConfig files for code quality
+          href: /dotnet/fundamentals/code-analysis/configuration-files?toc=%252fvisualstudio%252fcode-quality%252ftoc.json
       - name: Code style
         items:
         - name: Code style preferences

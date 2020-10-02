@@ -1,6 +1,6 @@
 ### YamlMime:Landing
 
-title: Code analysis in Visual Studio
+title: Analyze code in Visual Studio
 summary: Visual Studio provides several different tools to analyze and improve code quality.
 
 metadata:
@@ -33,8 +33,10 @@ landingContent:
             url: analyzers-faq.md
       - linkListType: how-to-guide
         links:
-          - text: .NET code quality analysis
+          - text: .NET code analysis
             url: use-roslyn-analyzers.md
+          - text: .NET code quality analysis
+            url: /dotnet/fundamentals/code-analysis/configuration-files?toc=%252fvisualstudio%252fcode-quality%252ftoc.json
           - text: .NET code style analysis
             url: ../ide/code-styles-and-code-cleanup.md?toc=%252fvisualstudio%252fcode-quality%252ftoc.json
 
