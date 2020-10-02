@@ -36,6 +36,8 @@ landingContent:
             url: designing-xaml-in-visual-studio.md
           - text: About XAML Designer
             url: creating-a-ui-by-using-xaml-designer-in-visual-studio.md
+          - text: XAML Design Time Data
+            url: xaml-designtime-data.md
 
   # Card
   - title: Debug XAML
