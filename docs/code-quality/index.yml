@@ -63,6 +63,8 @@ landingContent:
         links:
           - text: Analyze C and C++ code
             url: /cpp/code-quality/code-analysis-for-c-cpp-overview
+          - text: EditorConfig formatting conventions
+            url: ../ide/cpp-editorconfig-properties.md
       - linkListType: reference
         links:
           - text: C++ code analysis warnings
