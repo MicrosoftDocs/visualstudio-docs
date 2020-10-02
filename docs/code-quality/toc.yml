@@ -443,9 +443,9 @@
       href: how-to-generate-code-metrics-data.md
     - name: Work with code metrics data
       href: working-with-code-metrics-data.md
-  - name: C++ code analysis
-    items:
-    - name: Analyze C and C++ code
-      href: /cpp/code-quality/code-analysis-for-c-cpp-overview
-    - name: C++ code analysis warnings
-      href: /cpp/code-quality/code-analysis-for-c-cpp-warnings
+- name: C++ code analysis
+  items:
+  - name: Analyze C and C++ code
+    href: /cpp/code-quality/code-analysis-for-c-cpp-overview
+  - name: C++ code analysis warnings
+    href: /cpp/code-quality/code-analysis-for-c-cpp-warnings
