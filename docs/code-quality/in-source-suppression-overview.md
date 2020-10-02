@@ -62,7 +62,7 @@ CA_SUPPRESS_MESSAGE("Rule Category", "Rule Id", Justification = "Justification",
 
 The properties of the attribute include:
 
-- **Category** - The category in which the rule is defined. For more information about code analysis rule categories, see [Managed code warnings](../code-quality/code-analysis-for-managed-code-warnings.md).
+- **Category** - The category in which the rule is defined. For more information about code analysis rule categories, see [Managed code warnings](/dotnet/fundamentals/code-analysis/quality-rules/index).
 
 - **CheckId** - The identifier of the rule. Support includes both a short and long name for the rule identifier. The short name is CAXXXX; the long name is CAXXXX:FriendlyTypeName.
 

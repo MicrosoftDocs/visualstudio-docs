@@ -25,14 +25,11 @@ Welcome to what's new in the Visual Studio docs for September 2020. This article
 
 **New articles**
 
-- [CA1416: Validate platform compatibility](../code-quality/ca1416.md) - Documenting CA1416 Validate platform compatibility
-- [CA1834: Use StringBuilder.Append(char) for single character strings](../code-quality/ca1834.md) - Docs for CA1834
+- [CA1416: Validate platform compatibility](/dotnet/fundamentals/code-analysis/quality-rules/ca1416) - Documenting CA1416 Validate platform compatibility
+- [CA1834: Use StringBuilder.Append(char) for single character strings](/dotnet/fundamentals/code-analysis/quality-rules/ca1834) - Docs for CA1834
 
 **Updated**
 
-- [Configure .NET code quality analyzers with EditorConfig](../code-quality/configure-fxcop-analyzers.md)
-  - Few small fixes to CA docs refactoring
-  - Code analysis updates for .NET refactor
 - [Overview of source code analysis](../code-quality/roslyn-analyzers-overview.md) - Code analysis updates for .NET refactor
 - [Configure code quality analysis](../code-quality/use-roslyn-analyzers.md) - Code analysis updates for .NET refactor
 
@@ -63,8 +60,8 @@ Welcome to what's new in the Visual Studio docs for September 2020. This article
 
 **Updated articles**
 
-- [.NET coding convention settings for EditorConfig](./editorconfig-code-style-settings-reference.md) - updated editorconfig
-- [Language conventions](./editorconfig-language-conventions.md) - missing examples
+- [.NET coding convention settings for EditorConfig](/dotnet/fundamentals/code-analysis/code-style-rule-options) - updated editorconfig
+- [Language conventions](/dotnet/fundamentals/code-analysis/style-rules/language-rules) - missing examples
 
 ## Install
 
@@ -73,6 +70,7 @@ Welcome to what's new in the Visual Studio docs for September 2020. This article
 - [Visual Studio on ARM-powered devices](../install/visual-studio-on-arm-devices.md) - Adding doc for VS on ARM
 
 **Updated articles**
+
 - [Troubleshoot network-related errors when you install or use Visual Studio](../install/troubleshooting-network-related-errors-in-visual-studio.md) - Add workaround for feedback auth proxy crash
 
 ## Profiling

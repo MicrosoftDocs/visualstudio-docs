@@ -15,7 +15,7 @@ The Managed Minimum rules focus on the most critical problems in your code, incl
 
 |Rule|Description|
 |----------|-----------------|
-|[CA1001](../code-quality/ca1001.md)|Types that own disposable fields should be disposable|
-|[CA1821](../code-quality/ca1821.md)|Remove empty finalizers|
-|[CA2213](../code-quality/ca2213.md)|Disposable fields should be disposed|
-|[CA2231](../code-quality/ca2231.md)|Overload operator equals on overriding `ValueType.Equals`|
+|[CA1001](/dotnet/fundamentals/code-analysis/quality-rules/ca1001)|Types that own disposable fields should be disposable|
+|[CA1821](/dotnet/fundamentals/code-analysis/quality-rules/ca1821)|Remove empty finalizers|
+|[CA2213](/dotnet/fundamentals/code-analysis/quality-rules/ca2213)|Disposable fields should be disposed|
+|[CA2231](/dotnet/fundamentals/code-analysis/quality-rules/ca2231)|Overload operator equals on overriding `ValueType.Equals`|
