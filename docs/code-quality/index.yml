@@ -21,24 +21,34 @@ metadata:
 landingContent:
 
   # Card
-  - title: .NET code analysis
+  - title: Configure .NET code analysis
     linkLists:
       - linkListType: overview
         links:
           - text: Analyze .NET code
             url: roslyn-analyzers-overview.md
-          - text: .NET code quality analysis
-            url: /dotnet/fundamentals/productivity/code-analysis#code-quality-analysis
-          - text: .NET code style analysis
-            url: /dotnet/fundamentals/productivity/code-analysis#code-style-analysis
       - linkListType: concept
         links:
           - text: FAQ
             url: analyzers-faq.md
       - linkListType: how-to-guide
         links:
-          - text: Configure code analysis
+          - text: .NET code quality analysis
             url: use-roslyn-analyzers.md
+          - text: .NET code style analysis
+            url: ../ide/code-styles-and-code-cleanup.md?toc=%252fvisualstudio%252fcode-quality%252ftoc.json
+
+  # Card
+  - title: .NET code analysis
+    linkLists:
+      - linkListType: overview
+        links:
+          - text: .NET source code analysis
+            url: /dotnet/fundamentals/code-analysis/overview
+          - text: .NET code quality analysis
+            url: /dotnet/fundamentals/productivity/code-analysis#code-quality-analysis
+          - text: .NET code style analysis
+            url: /dotnet/fundamentals/productivity/code-analysis#code-style-analysis
       - linkListType: reference
         links:
           - text: .NET code quality rules
@@ -55,7 +65,7 @@ landingContent:
             url: code-metrics-values.md
 
   # Card
-  - title: Analyze C and C++ code
+  - title: C++ code analysis
     linkLists:
       - linkListType: overview
         links:
