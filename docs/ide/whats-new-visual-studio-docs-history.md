@@ -68,7 +68,7 @@ Welcome to the history of what's new in Visual Studio docs. This topic contains 
 **Updated articles**
 
 - [Deploy an ASP.NET container to a container registry using Visual Studio](../containers/hosting-web-apps-in-docker.md) - Container Tools updates for Visual Studio 16.7 Publish UI
-- [Get started with Visual Studio Kubernetes Tools](/visualstudio/containers/bridge-to-kubernetes) - Kubernetes tutorial: Add steps for removal
+- [Get started with Visual Studio Kubernetes Tools](../containers/bridge-to-kubernetes.md) - Kubernetes tutorial: Add steps for removal
 
 ### Deployment
 
