@@ -13,8 +13,8 @@
       items:
       - name: Overview
         href: use-roslyn-analyzers.md
-      - name: Code quality >>
-        href: /dotnet/fundamentals/code-analysis/code-quality-rule-options
+      - name: Code quality
+        href: /dotnet/fundamentals/code-analysis/code-quality-rule-options?toc=%252fvisualstudio%252fcode-quality%252ftoc.json
       - name: Code style
         items:
         - name: Code style preferences
@@ -23,7 +23,7 @@
           displayName: Configure code style analyzers
           href: ../ide/create-portable-custom-editor-options.md?toc=%252fvisualstudio%252fcode-quality%252ftoc.json
         - name: Rule options >>
-          href: /dotnet/fundamentals/code-analysis/code-style-rule-options
+          href: /dotnet/fundamentals/code-analysis/code-style-rule-options?toc=%252fvisualstudio%252fcode-quality%252ftoc.json
       - name: Configure live code analysis
         href: configure-live-code-analysis-scope-managed-code.md
       - name: Run code analysis manually
