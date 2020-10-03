@@ -241,7 +241,8 @@ Once the develop and debug cycle of the app is completed, you can create a produ
    ![Screenshot showing successful publish](media/container-tools/publish-succeeded.png)
 :::moniker-end
 
-:::moniker range=vs-2019
+:::moniker range=">=vs-2019"
+
 1. Change the configuration drop-down to **Release** and build the app.
 1. Right-click your project in **Solution Explorer** and choose **Publish**.
 1. On the publish target dialog, select **Docker Container Registry**.
