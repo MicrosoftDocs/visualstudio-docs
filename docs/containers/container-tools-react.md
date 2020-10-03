@@ -3,7 +3,7 @@ title: Visual Studio Container Tools with ASP.NET Core and React.js
 titleSuffix: ""
 ms.custom: SEO-VS-2020
 author: ghogen
-description: Learn how to use Visual Studio Container Tools and Docker for Windows
+description: Learn how to create a containerized React SPA app with Visual Studio Container Tools and Docker 
 ms.author: ghogen
 ms.date: 05/14/2020
 ms.technology: vs-azure
@@ -186,10 +186,10 @@ The **Container Tools** option in the **Output** window shows what actions are t
 The browser shows the app's home page.
 
 ::: moniker range="vs-2017"
-   ![Screenshot of running app](media/container-tools-react/vs2017/running-app.png)
+   ![Screenshot of running app](media/container-tools-react/vs-2017/running-app.png)
 ::: moniker-end
 ::: moniker range=">=vs-2019"
-   ![Screenshot of running app](media/container-tools-react/vs2019/running-app.png)
+   ![Screenshot of running app](media/container-tools-react/vs-2019/running-app.png)
 ::: moniker-end
 
 Try navigating to the *Counter* page and test the client-side code for the counter by clicking the **Increment** button.
