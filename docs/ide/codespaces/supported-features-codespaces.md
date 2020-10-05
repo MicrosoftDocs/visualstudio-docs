@@ -42,7 +42,7 @@ You should notice little difference editing source code in a codespace as you ge
 Not yet available:
 
 * IntelliSense* - Some of the autocompletion/member list filters are unavailable. Completion for unimported types and IntelliSense in watch window not yet available.
-* Code navigation* - Most commands supported, specifically Go To Base and Find in files with path specification not yet supported.
+* Code navigation* - Most commands supported. Go To Base and Find in Files with path specification are not yet supported.
 * Quick Info* - Colorization in quick info is not supported.
 * HTML, CSS, Razor editors* - Diagnostics, IntelliSense completion, quick info, smart indent. Currently no support for semantic colorization, navigation commands, etc.
 * JavaScript and TypeScript editor* - Script blocks (for example, JavaScript content in HTML and CSHTML files) and semantic highlighting are not yet supported. Known issues with lightbulb features and linting.
