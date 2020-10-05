@@ -8,6 +8,7 @@ ms.workload: azure-vs
 ms.topic: how-to
 ms.date: 10/5/2020
 ms.author: ghogen
+monikerRange: ">=vs-2019"
 ---
 # Create and deploy a cloud service using extended support in Visual Studio
 
@@ -64,7 +65,7 @@ For more information about these files, see [Configure the Roles for an Azure cl
 
 1. Move to the **Settings** page appears.
 
-  ![Common Settings](./media/cloud-services-extended-support/publish-settings.png)
+   ![Common Settings](./media/cloud-services-extended-support/publish-settings.png)
 
 1. **Cloud service** - Using the dropdown, either select an existing cloud service, or select **Create new**, and create a cloud service. The data center displays in parentheses for each cloud service. It is recommended that the data center location for the cloud service be the same as the data center location for the storage account.
 
