@@ -253,8 +253,8 @@ Once the develop and debug cycle of the app is completed, you can create a produ
 
    ![Choose Azure Container Registry](media/container-tools-react/vs-2019/publish-dialog-acr.png)
 
-1. Choose **Create New Azure Container Registry** and click **Publish**.
-1. Fill in your desired values in the **Create a new Azure Container Registry**.
+1. Choose **Create a new Azure Container Registry**.
+1. Fill in your desired values in the **Create new Azure Container Registry** screen.
 
     | Setting      | Suggested value  | Description                                |
     | ------------ |  ------- | -------------------------------------------------- |
