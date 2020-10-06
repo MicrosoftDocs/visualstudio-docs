@@ -1,6 +1,6 @@
 ---
 title: Use Cloud Services Extended Support (Preview)
-description: Learn now to create and deploy an Azure cloud service using Azure Resource Manager with Visual Studio
+description: Learn now to create and deploy an Azure Cloud Service using Azure Resource Manager with Visual Studio
 author: ghogen
 manager: jillfra
 ms.custom: vs-azure
@@ -16,17 +16,17 @@ Starting with Visual Studio 2019 version 16.9 Preview 1, you can work with cloud
 
 ## Create a project
 
-Visual Studio provides a project template that lets you create an Azure cloud service with extended support, named **Azure cloud service (extended support)**. A cloud service is a simple general-purpose Azure service. Once the project has been created, Visual Studio enables you to configure, debug, and deploy the cloud service to Azure.
+Visual Studio provides a project template that lets you create an Azure Cloud Service with extended support, named **Azure Cloud Service (extended support)**. A cloud service is a simple general-purpose Azure service. Once the project has been created, Visual Studio enables you to configure, debug, and deploy the cloud service to Azure.
 
-### To create an Azure cloud service (extended support) project in Visual Studio
+### To create an Azure Cloud Service (extended support) project in Visual Studio
 
-This section walks you through creating an Azure cloud service project in Visual Studio with one or more web roles.
+This section walks you through creating an Azure Cloud Service project in Visual Studio with one or more web roles.
 
 1. From the start window, choose **Create a new project**.
 
 1. In the search box, type in *Cloud*, and then choose **Azure Cloud Service (extended support)**.
 
-   ![New Azure cloud service with extended support](./media/cloud-services-extended-support/choose-project-template.png)
+   ![New Azure Cloud Service with extended support](./media/cloud-services-extended-support/choose-project-template.png)
 
 1. Give the project a name and choose **Create**.
 
@@ -34,18 +34,18 @@ This section walks you through creating an Azure cloud service project in Visual
 
 1. In the **New Microsoft Azure Cloud Service** dialog, select the roles that you want to add, and choose the right arrow button to add them to your solution.
 
-    ![Select new Azure cloud service roles](./media/cloud-services-extended-support/choose-roles.png)
+    ![Select new Azure Cloud Service roles](./media/cloud-services-extended-support/choose-roles.png)
 
 1. To rename a role that you've added, hover on the role in the **New Microsoft Azure Cloud Service** dialog, and, from the context menu, select **Rename**. You can also rename a role within your solution (in the **Solution Explorer**) after it has been added.
 
-    ![Rename Azure cloud service role](./media/vs-azure-tools-azure-project-create/new-cloud-service-rename.png)
+    ![Rename Azure Cloud Service role](./media/vs-azure-tools-azure-project-create/new-cloud-service-rename.png)
 
 The Visual Studio Azure project has associations to the role projects in the solution. The project also includes the *service definition file* and *service configuration file*:
 
 - **Service definition file** - Defines the run-time settings for your application, including what roles are required, endpoints, and virtual machine size.
 - **Service configuration file** - Configures how many instances of a role are run and the values of the settings defined for a role.
 
-For more information about these files, see [Configure the Roles for an Azure cloud service with Visual Studio](vs-azure-tools-configure-roles-for-cloud-service.md).
+For more information about these files, see [Configure the Roles for an Azure Cloud Service with Visual Studio](vs-azure-tools-configure-roles-for-cloud-service.md).
 
 ## Convert an existing cloud service project to use extended support
 
@@ -53,7 +53,7 @@ For more information about these files, see [Configure the Roles for an Azure cl
 
 ## Publish a cloud service
 
-1. Create or open an Azure cloud service project in Visual Studio.
+1. Create or open an Azure Cloud Service project in Visual Studio.
 
 1. In **Solution Explorer**, right-click the project, and, from the context menu, select **Publish**.
 
@@ -91,7 +91,7 @@ For more information about these files, see [Configure the Roles for an Azure cl
 
    ![Diagnostics settings](./media/cloud-services-extended-support/diagnostics-settings.png)
 
-   Diagnostics enables you to troubleshoot an Azure cloud service (or Azure virtual machine). For information about diagnostics, see [Configuring Diagnostics for Azure Cloud Services and Virtual Machines](./vs-azure-tools-diagnostics-for-cloud-services-and-virtual-machines.md). For information about Application Insights, see [What is Application Insights?](/azure/application-insights/app-insights-overview).
+   Diagnostics enables you to troubleshoot an Azure Cloud Service (or Azure virtual machine). For information about diagnostics, see [Configuring Diagnostics for Azure Cloud Services and Virtual Machines](./vs-azure-tools-diagnostics-for-cloud-services-and-virtual-machines.md). For information about Application Insights, see [What is Application Insights?](/azure/application-insights/app-insights-overview).
 
 1. Choose **Next** to move to the **Summary** page.
 
@@ -104,11 +104,7 @@ For more information about these files, see [Configure the Roles for an Azure cl
 
 1. Once you configure all the settings for your project's deployment, select **Publish** at the bottom of the dialog. You can monitor the process status in the **Azure Activity Log** output window in Visual Studio.
 
-In the extended support version of this process, two new files are added to your project in the *bin\<Configuration>* folder, *template.json* and *parameters.json*.
-
-Congratulations! You've published your extended support cloud service project to Azure. To publish again with the same settings, you can reuse the publishing profile. Right-click the project node, and choose the **Publish** menu item, and then choose the **Publish** button. You can also edit, rename, delete, or create a new publishing profile using the links below the name of the profile.
-
-![Publish succeeded](./media/cloud-services-extended-support/publish-succeeded.png)
+Congratulations! You've published your extended support cloud service project to Azure. To publish again with the same settings, you can reuse the publishing profile, or repeat these steps to create a new one.
 
 ## Clean up Azure resources
 
