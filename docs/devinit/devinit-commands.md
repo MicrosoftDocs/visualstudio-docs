@@ -51,15 +51,15 @@ Specifies the path to the _devinit.json_ file. If --file is not specified, we se
 
 #### --error-action argument
 
-See [below](##Options-for-run).
+See [below](#options-for-run).
 
 #### --verbose switch
 
-See [below](##Options-for-run).
+See [below](#options-for-run).
 
 #### --dry-run switch
 
-See [below](##Options-for-run).
+See [below](#options-for-run).
 
 ## Run
 
