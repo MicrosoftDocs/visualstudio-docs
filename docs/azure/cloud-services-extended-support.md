@@ -110,6 +110,10 @@ Congratulations! You've published your extended support cloud service project to
 
 ![Publish succeeded](./media/cloud-services-extended-support/publish-succeeded.png)
 
+## Clean up Azure resources
+
+To clean up the Azure resources you created by following this tutorial, go to the [Azure portal](https://portal.azure.com), choose **Resource groups**, find and open the resource group you used to create the service, and choose **Delete resource group**.
+
 ## Next steps
 
 Set up continuous intregration (CI) using the **Configure** button on the **Publish** screen. For more information, see [Azure Pipelines documentation](/azure/devops/pipelines/?view=azure-devops).
