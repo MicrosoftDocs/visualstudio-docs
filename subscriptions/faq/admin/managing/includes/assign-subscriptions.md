@@ -34,7 +34,7 @@ To Bulk assign subscriptions:
 4. Return to [manage.visualstudio.com](https://manage.visualstudio.com), select Bulk add, and upload your saved copy of the Excel template.
 5. When the upload is successful you will see a confirmation page, and your subscriber list populated with your new subscribers. Your subscribers will receive an email and can begin using their Visual Studio subscription immediately (there is no activation needed from your subscribers).
 
-[Read more information](https://docs.microsoft.com/visualstudio/subscriptions/assign-license#add-a-single-subscriber) about assigning subscriptions in the Visual Studio Subscriptions Administrator portal to learn more about quickly and easily assigning subscriptions.  [Learn more](https://docs.microsoft.com/visualstudio/subscriptions/assign-github) about managing Visual Studio with GitHub Enterprise subscriptions. 
+[Read more information](../../../../assign-license.md#add-a-single-subscriber) about assigning subscriptions in the Visual Studio Subscriptions Administrator portal to learn more about quickly and easily assigning subscriptions.  [Learn more](../../../../assign-github.md) about managing Visual Studio with GitHub Enterprise subscriptions. 
 
 ## What is the GitHub Enterprise setup process? 
 
@@ -42,4 +42,4 @@ GitHub Enterprise is set up and managed separately from Visual Studio subscripti
 
 After your company has set up a GitHub Enterprise account, subscribers who have been assigned Visual Studio with GitHub Enterprise subscriptions will receive an email from GitHub notifying them that their Visual Studio subscriptions have been linked. After subscribers receive this email, they can reach out to their GitHub organization administrator to receive an invitation to the appropriate organization. 
 
-[Read more](https://docs.microsoft.com/visualstudio/subscriptions/assign-github) about managing Visual Studio with GitHub Enterprise subscriptions. Reference [subscriber documentation](https://docs.microsoft.com/visualstudio/subscriptions/access-github) for additional details on the GitHub Enterprise set up process. 
+[Read more](../../../../assign-github.md) about managing Visual Studio with GitHub Enterprise subscriptions. Reference [subscriber documentation](../../../../access-github.md) for additional details on the GitHub Enterprise set up process. 

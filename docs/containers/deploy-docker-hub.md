@@ -34,7 +34,7 @@ If you don't have a Docker Hub repository, create one at [Docker Hub](https://hu
 
    ![Screenshot of Docker Hub dialog](media/deploy-docker-hub/container-tools-docker-hub-credentials.png)
 
-1. If you are connecting to your own repository (not part of an organization), leave the checkbox for **Publish to a personal repository** checked. If the repository is owned by an organization, clear the checkbox, and enter the organization name. Enter your Docker username and password for your Docker account that has permissions to access the repository that you are connecting to, and then select **Save**.  
+1. If you are connecting to your own repository (not part of an organization), leave the checkbox for **Publish to a personal repository** checked. If the repository is owned by an organization, clear the checkbox, and enter the organization name. Enter your Docker username and password for your Docker account that has permissions to access the repository that you are connecting to, and then select **Save**.
 
    Visual Studio attempts to deploy your image to the Docker Hub.  If successful, the **Publish** screen appears with the URL for the repository image, the image tag, repository, and the build configuration (for example, **Release**).
 
@@ -46,7 +46,7 @@ If you don't have a Docker Hub repository, create one at [Docker Hub](https://hu
 
 Publish to [Azure Container Registry](/azure/container-registry/) by following the steps at [Deploy to Azure Container Registry](hosting-web-apps-in-docker.md).
 
-Set up continuous integration and delivery (CI/CD) with [Azure Pipelines](/azure/devops/pipelines/?view=azure-devops).
+Set up continuous integration and delivery (CI/CD) with [Azure Pipelines](/azure/devops/pipelines/?view=azure-devops&preserve-view=true).
 
 ## See also
 
