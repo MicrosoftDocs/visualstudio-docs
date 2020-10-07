@@ -23,4 +23,4 @@ As a Visual Studio subscriber, you receive exclusive discounted hourly rates for
 1. Add a payment method, accept the subscription agreement, and you’re ready to go. In the future you can access your Azure subscription at [portal.azure.com](https://portal.azure.com/). 
 
 ## More information 
-[Read more](https://docs.microsoft.com/visualstudio/subscriptions/vs-azure-payg) information about Azure Dev / Test Pay-As-You-Go subscriptions.
+[Read more](../../../vs-azure-payg.md) information about Azure Dev / Test Pay-As-You-Go subscriptions.

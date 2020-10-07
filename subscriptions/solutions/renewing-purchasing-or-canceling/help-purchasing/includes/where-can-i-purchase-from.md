@@ -37,7 +37,7 @@ With monthly subscriptions, you can rent Visual Studio and Azure DevOps without 
 * [Visual Studio Professional - monthly subscription](https://marketplace.visualstudio.com/items?itemName=ms.vs-professional-monthly) 
 * [Visual Studio Enterprise - monthly subscription](https://marketplace.visualstudio.com/items?itemName=ms.vs-enterprise-monthly) 
 
-[Read more](https://docs.microsoft.com/visualstudio/subscriptions/vscloud-billing-faq) about monthly Visual Studio Subscriptions billing. 
+[Read more](../../../../vscloud-billing-faq.md) about monthly Visual Studio Subscriptions billing. 
 
 ## Volume Licensing 
 
