@@ -20,7 +20,7 @@ There are multiple reasons you might not be able to see the Azure monthly credit
 
 When you activate your monthly credit, we link the email that you used during activation with your Visual Studio subscription.  
 
-You can also associate an [alternate account](https://docs.microsoft.com/visualstudio/subscriptions/vs-alternate-identity) with your Visual Studio subscription. Adding an alternate account to your Visual Studio subscription allows you to access the subscription benefits, like Azure DevOps and Azure, with a different identity than that which the subscription is assigned to.  
+You can also associate an [alternate account](../../../vs-alternate-identity.md) with your Visual Studio subscription. Adding an alternate account to your Visual Studio subscription allows you to access the subscription benefits, like Azure DevOps and Azure, with a different identity than that which the subscription is assigned to.  
 
 You will need to sign into the [Azure portal](https://portal.azure.com/) with the email you set the account up with. For example, if you activated your monthly credit with your alternate account, you must always sign into your Azure subscription with that email. 
 
@@ -39,6 +39,6 @@ Azure subscriptions created via the Visual Studio Subscriptions benefit may be i
 
 ## More information 
 
-[Read more](https://docs.microsoft.com/visualstudio/subscriptions/vs-azure) information on activation, eligibility, and other support resources.  
+[Read more](../../../vs-azure.md) information on activation, eligibility, and other support resources.  
 
-[Learn how](https://azure.microsoft.com/pricing/member-offers/credit-for-visual-studio-subscribers/#azure-credits) to use the Azure credits that are included in your Visual Studio subscription. 
+[Learn how](https://azure.microsoft.com/pricing/member-offers/credit-for-visual-studio-subscribers/#azure-credits) to use the Azure credits that are included in your Visual Studio subscription.

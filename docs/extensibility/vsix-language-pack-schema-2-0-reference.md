@@ -8,7 +8,7 @@ helpviewer_keywords:
   - "localize package"
   - "localize extension"
 ms.assetid: 2a2932bc-cdbe-4d32-91fa-a3e0474f9098
-ms.author: zorio
+ms.author: ghogen
 author: zoeyr
 manager: jillfra
 ---
