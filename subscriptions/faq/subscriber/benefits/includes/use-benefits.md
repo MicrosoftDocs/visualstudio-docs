@@ -15,7 +15,7 @@ Just as the types of benefits vary, so do the methods for activating and using t
 
 For each benefit available in the Subscriber Portal, we've provided articles that include information such as which subscriptions include them, as well as steps to activate the benefits.
 
-Check out our documentation to [learn more](https://docs.microsoft.com/visualstudio/subscriptions/whats-new-in-subscriptions) (click on 'Subscriptions' in the left nav pane, and choose 'Benefits').
+Check out our documentation to [learn more](../../../../whats-new-in-subscriptions.md) (click on 'Subscriptions' in the left nav pane, and choose 'Benefits').
 
 ## What is the Visual Studio with GitHub Enterprise setup process? 
 
@@ -31,4 +31,4 @@ When an invitation is sent from your GitHub org administrator, you will receive 
 
 After you accept the GitHub org invitation, the appearance of the benefit tile at <https://my.visualstudio.com/benefits> will change from “Pending” to “Activated” and you can now start using GitHub Enterprise. 
 
-[Read more](https://docs.microsoft.com/visualstudio/subscriptions/access-github.md) details on the GitHub Enterprise set up process. 
+[Read more](../../../../access-github.md) details on the GitHub Enterprise set up process. 

@@ -17,6 +17,6 @@ Retail: For subscriptions acquired through the Microsoft Store, connect to the M
 
 Cloud subscriptions: If you're using cloud subscriptions, you don't need to renew them. They renew automatically until you cancel them.
 
-Learn more about [buying cloud subscriptions](https://docs.microsoft.com/visualstudio/subscriptions/vscloud-overview).
+Learn more about [buying cloud subscriptions](../../../../vscloud-overview.md).
 
 Volume Licensing: To renew subscriptions purchased through Volume Licensing, please contact your reseller. [Find a reseller](https://www.microsoft.com/licensing/how-to-buy/how-to-buy) in your area.
