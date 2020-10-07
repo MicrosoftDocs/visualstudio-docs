@@ -523,7 +523,7 @@
         href: ide/create-portable-custom-editor-options.md
       - name: C++ EditorConfig formatting conventions
         href: ide/cpp-editorconfig-properties.md
-      - name: .NET coding conventions
+      - name: .NET coding conventions >>
         href: /dotnet/fundamentals/code-analysis/code-style-rule-options
     - name: Customize the scroll bar
       href: ide/how-to-track-your-code-by-customizing-the-scrollbar.md
