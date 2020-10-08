@@ -23,4 +23,4 @@ You attempted to pass an invalid argument to the function **Number.prototype.toE
 - Ensure the argument to **toExponential()** is not too large or too small.  
   
 ## See also  
- [toExponential Method (Number)](../../javascript/reference/toexponential-method-number-javascript.md)
+ [toExponential Method (Number)](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number/toexponential)
