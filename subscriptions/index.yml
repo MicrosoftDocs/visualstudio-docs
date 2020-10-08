@@ -68,9 +68,9 @@ tools:
     - title: Azure DevOps Services 
       imageSrc: https://docs.microsoft.com/media/logos/logo_vs-team-services.svg
       url: /azure/devops/
-    - title: Visual Studio Code
+    - title: GitHub Enterprise
       imageSrc: https://docs.microsoft.com/media/logos/logo_vs-code.svg
-      url: https://code.visualstudio.com/docs
+      url: ~/access-github.md
     - title: Visual Studio for Mac 
       imageSrc: https://docs.microsoft.com/media/logos/logo_vs-mac.svg
       url: /visualstudio/mac/ 
