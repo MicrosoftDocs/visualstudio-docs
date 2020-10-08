@@ -1,32 +1,41 @@
 ---
-title: "Advanced example for containers"
-description: ""
-ms.custom: ""
-ms.date: 04/18/2018
-ms.technology: vs-acquisition
-ms.prod: visual-studio-dev15
+title: Advanced example for containers
+description: ''
+ms.date: 03/25/2020
 ms.topic: conceptual
 ms.assetid: e03835db-a616-41e6-b339-92b41d0cfc70
-author: heaths
-ms.author: tglee
-manager: douge
+author: ornellaalt
+ms.author: ornella
+manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
+ms.prod: visual-studio-windows
+ms.technology: vs-installation
 ---
 # Advanced example for containers
 
-The sample Dockerfile in [Install Build Tools into a container](build-tools-container.md) always uses the [microsoft/dotnet-framework:4.7.1](https://hub.docker.com/r/microsoft/dotnet-framework) image based on the latest microsoft/windowsservercore image, and the latest Visual Studio Build Tools 2017 installer. If you publish this image to a [Docker registry](https://azure.microsoft.com/services/container-registry) for others to pull, this image may be okay for many scenarios. However, in practice it's more common to be specific about what base image you use, what binaries you download, and which tool versions you install.
+::: moniker range="vs-2017"
+
+The sample Dockerfile in [Install Build Tools into a container](build-tools-container.md) always uses the [microsoft/dotnet-framework:4.7.2](https://hub.docker.com/r/microsoft/dotnet-framework) image based on the latest microsoft/windowsservercore image and the latest Visual Studio Build Tools installer. If you publish this image to a [Docker registry](https://azure.microsoft.com/services/container-registry) for others to pull, this image might be okay for many scenarios. However, in practice it's more common to be specific about what base image you use, what binaries you download, and which tool versions you install.
+
+::: moniker-end
+
+::: moniker range="vs-2019"
+
+The sample Dockerfile in [Install Build Tools into a container](build-tools-container.md) always uses the [microsoft/dotnet-framework:4.8](https://hub.docker.com/r/microsoft/dotnet-framework) image based on the latest microsoft/windowsservercore image and the latest Visual Studio Build Tools installer. If you publish this image to a [Docker registry](https://azure.microsoft.com/services/container-registry) for others to pull, this image might be okay for many scenarios. However, in practice it's more common to be specific about what base image you use, what binaries you download, and which tool versions you install.
+
+::: moniker-end
 
 The following example Dockerfile uses a specific version tag of the microsoft/dotnet-framework image. Using a specific tag for a base image is commonplace and makes it easy to remember that building or rebuilding images always has the same basis.
 
 > [!NOTE]
-> You cannot install Visual Studio into microsoft/windowsservercore:10.0.14393.1593 or any image based on it, which has known issues launching the installer in a container. For more information, see [known issues](build-tools-container-issues.md).
+> You cannot install Visual Studio into microsoft/windowsservercore:10.0.14393.1593 or any image based on it, which has known issues launching the installer in a container. For more information, see [Known issues for containers](build-tools-container-issues.md).
 
-The example below downloads the latest release of Build Tools 2017. If you want to use an older version of Build Tools you can install into a container later, you must first [create](create-an-offline-installation-of-visual-studio.md) and [maintain](update-a-network-installation-of-visual-studio.md) a layout.
+The following example downloads the latest release of Build Tools. If you want to use an earlier version of Build Tools that you can install into a container later, you must first [create](create-an-offline-installation-of-visual-studio.md) and [maintain](update-a-network-installation-of-visual-studio.md) a layout.
 
 ## Install script
 
-To collect logs when an install error occurs, in the working directory create a batch script named "Install.cmd" with the following content:
+To collect logs when an install error occurs, create a batch script that's named "Install.cmd" in the working directory that includes the following content:
 
 ```shell
 @if not defined _echo echo off
@@ -49,13 +58,17 @@ if "%ERRORLEVEL%"=="3010" (
 
 In the working directory, create the "Dockerfile" with the following content:
 
+::: moniker range="vs-2017"
+
 ```dockerfile
 # escape=`
 
-# Use a specific tagged image. Tags can be changed, though that is unlikely for most images.
-# You could also use the immutable tag @sha256:1a66e2b5f3a5b8b98ac703a8bfd4902ae60d307ed9842978df40dbc04ac86b1b
-ARG FROM_IMAGE=microsoft/dotnet-framework:4.7.1-20180410-windowsservercore-1709
+# Use a specific tagged image.
+ARG FROM_IMAGE=mcr.microsoft.com/dotnet/framework/runtime:4.8
 FROM ${FROM_IMAGE}
+
+# Restore the default Windows shell for correct batch processing.
+SHELL ["cmd", "/S", "/C"]
 
 # Copy our Install script.
 COPY Install.cmd C:\TEMP\
@@ -67,40 +80,106 @@ ADD https://aka.ms/vscollect.exe C:\TEMP\collect.exe
 ARG CHANNEL_URL=https://aka.ms/vs/15/release/channel
 ADD ${CHANNEL_URL} C:\TEMP\VisualStudio.chman
 
-# Download and install Build Tools excluding workloads and components with known issues.
+# Install Build Tools with the Microsoft.VisualStudio.Workload.AzureBuildTools workload, excluding workloads and components with known issues.
 ADD https://aka.ms/vs/15/release/vs_buildtools.exe C:\TEMP\vs_buildtools.exe
 RUN C:\TEMP\Install.cmd C:\TEMP\vs_buildtools.exe --quiet --wait --norestart --nocache `
     --installPath C:\BuildTools `
     --channelUri C:\TEMP\VisualStudio.chman `
     --installChannelUri C:\TEMP\VisualStudio.chman `
-    --all `
+    --add Microsoft.VisualStudio.Workload.AzureBuildTools `
     --remove Microsoft.VisualStudio.Component.Windows10SDK.10240 `
     --remove Microsoft.VisualStudio.Component.Windows10SDK.10586 `
     --remove Microsoft.VisualStudio.Component.Windows10SDK.14393 `
     --remove Microsoft.VisualStudio.Component.Windows81SDK
 
-# Start developer command prompt with any other commands specified.
-ENTRYPOINT C:\BuildTools\Common7\Tools\VsDevCmd.bat &&
-
-# Default to PowerShell if no other command specified.
-CMD ["powershell.exe", "-NoLogo", "-ExecutionPolicy", "Bypass"]
+# Define the entry point for the Docker container.
+# This entry point starts the developer command prompt and launches the PowerShell shell.
+ENTRYPOINT ["C:\\BuildTools\\Common7\\Tools\\VsDevCmd.bat", "&&", "powershell.exe", "-NoLogo", "-ExecutionPolicy", "Bypass"]
 ```
 
+   > [!WARNING]
+   > Visual Studio 2017 version 15.8 or earlier (any product) will not properly install on mcr\.microsoft\.com\/windows\/servercore:1809 or later. No error is displayed.
+   >
+   > See [Known issues for containers](build-tools-container-issues.md) for more information.
+
+::: moniker-end
+
+::: moniker range="vs-2019"
+
+```dockerfile
+# escape=`
+
+# Use a specific tagged image. Tags can be changed, though that is unlikely for most images.
+# You could also use the immutable tag @sha256:324e9ab7262331ebb16a4100d0fb1cfb804395a766e3bb1806c62989d1fc1326
+ARG FROM_IMAGE=mcr.microsoft.com/dotnet/framework/sdk:4.8-windowsservercore-ltsc2019
+FROM ${FROM_IMAGE}
+
+# Restore the default Windows shell for correct batch processing.
+SHELL ["cmd", "/S", "/C"]
+
+# Copy our Install script.
+COPY Install.cmd C:\TEMP\
+
+# Download collect.exe in case of an install failure.
+ADD https://aka.ms/vscollect.exe C:\TEMP\collect.exe
+
+# Use the latest release channel. For more control, specify the location of an internal layout.
+ARG CHANNEL_URL=https://aka.ms/vs/16/release/channel
+ADD ${CHANNEL_URL} C:\TEMP\VisualStudio.chman
+
+# Install Build Tools with the Microsoft.VisualStudio.Workload.AzureBuildTools workload, excluding workloads and components with known issues.
+ADD https://aka.ms/vs/16/release/vs_buildtools.exe C:\TEMP\vs_buildtools.exe
+RUN C:\TEMP\Install.cmd C:\TEMP\vs_buildtools.exe --quiet --wait --norestart --nocache `
+    --installPath C:\BuildTools `
+    --channelUri C:\TEMP\VisualStudio.chman `
+    --installChannelUri C:\TEMP\VisualStudio.chman `
+    --add Microsoft.VisualStudio.Workload.AzureBuildTools `
+    --remove Microsoft.VisualStudio.Component.Windows10SDK.10240 `
+    --remove Microsoft.VisualStudio.Component.Windows10SDK.10586 `
+    --remove Microsoft.VisualStudio.Component.Windows10SDK.14393 `
+    --remove Microsoft.VisualStudio.Component.Windows81SDK
+
+# Define the entry point for the Docker container.
+# This entry point starts the developer command prompt and launches the PowerShell shell.
+ENTRYPOINT ["C:\\BuildTools\\Common7\\Tools\\VsDevCmd.bat", "&&", "powershell.exe", "-NoLogo", "-ExecutionPolicy", "Bypass"]
+```
+
+::: moniker-end
+
 Run the following command to build the image in the current working directory:
+
+::: moniker range="vs-2017"
 
 ```shell
 docker build -t buildtools2017:15.6.27428.2037 -t buildtools2017:latest -m 2GB .
 ```
 
+::: moniker-end
+
+::: moniker range="vs-2019"
+
+```shell
+docker build -t buildtools2019:16.0.28714.193 -t buildtools2019:latest -m 2GB .
+```
+
+::: moniker-end
+
 Optionally pass either or both `FROM_IMAGE` or `CHANNEL_URL` arguments using the `--build-arg` command-line switch to specify a different base image or the location of an internal layout to maintain a fixed image.
+
+   > [!TIP]
+   > For a list of workloads and components, see the [Visual Studio Build Tools component directory](workload-component-id-vs-build-tools.md).
+   >
 
 ## Diagnosing install failures
 
 This example downloads specific tools and validates that the hashes match. It also downloads the latest Visual Studio and .NET log collection utility so that if an install failure does occur, you can copy the logs to your host machine to analyze the failure.
 
+::: moniker range="vs-2017"
+
 ```shell
 > docker build -t buildtools2017:15.6.27428.2037 -t buildtools2017:latest -m 2GB .
 Sending build context to Docker daemon
+
 ...
 Step 8/10 : RUN C:\TEMP\Install.cmd C:\TEMP\vs_buildtools.exe --quiet --wait --norestart --nocache ...
  ---> Running in 4b62b4ce3a3c
@@ -109,21 +188,30 @@ The command 'cmd /S /C C:\TEMP\Install.cmd C:\TEMP\vs_buildtools.exe ...' return
 > docker cp 4b62b4ce3a3c:C:\vslogs.zip "%TEMP%\vslogs.zip"
 ```
 
-After the last line finishes executing, open "%TEMP%\vslogs.zip" on your machine, or submit an issue on the [Developer Community](https://developercommunity.visualstudio.com) web site.
+::: moniker-end
 
-## Get support
+::: moniker range="vs-2019"
 
-Sometimes, things can go wrong. If your Visual Studio install fails, see the [Troubleshooting Visual Studio 2017 installation and upgrade issues](troubleshooting-installation-issues.md) page. If none of the troubleshooting steps help, you can contact us by live chat for installation assistance (English only). For details, see the [Visual Studio support page](https://visualstudio.microsoft.com/vs/support/#talktous).
+```shell
+> docker build -t buildtools2019:16.0.28714.193 -t buildtools2019:latest -m 2GB .
+Sending build context to Docker daemon
 
-Here are a few more support options:
+...
+Step 8/10 : RUN C:\TEMP\Install.cmd C:\TEMP\vs_buildtools.exe --quiet --wait --norestart --nocache ...
+ ---> Running in 4b62b4ce3a3c
+The command 'cmd /S /C C:\TEMP\Install.cmd C:\TEMP\vs_buildtools.exe ...' returned a non-zero code: 1603
 
-* You can report product issues to us via the [Report a Problem](../ide/how-to-report-a-problem-with-visual-studio-2017.md) tool that appears both in the Visual Studio Installer and in the Visual Studio IDE.
-* You can share a product suggestion with us on [UserVoice](https://visualstudio.uservoice.com/forums/121579).
-* You can track product issues and find answers in the [Visual Studio Developer Community](https://developercommunity.visualstudio.com/).
-* You can also engage with us and other Visual Studio developers through the [Visual Studio conversation in the Gitter community](https://gitter.im/Microsoft/VisualStudio). (This option requires a [GitHub](https://github.com/) account.)
+> docker cp 4b62b4ce3a3c:C:\vslogs.zip "%TEMP%\vslogs.zip"
+```
+
+::: moniker-end
+
+After the last line finishes executing, open "%TEMP%\vslogs.zip" on your machine, or submit an issue on the [Developer Community](https://developercommunity.visualstudio.com) website.
+
+[!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 
 ## See also
 
 * [Install Build Tools into a Container](build-tools-container.md)
 * [Known Issues for Containers](build-tools-container-issues.md)
-* [Visual Studio Build Tools 2017 workload and component IDs](workload-component-id-vs-build-tools.md)
+* [Visual Studio Build Tools workload and component IDs](workload-component-id-vs-build-tools.md)

@@ -1,13 +1,12 @@
 ---
 title: "Collecting Additional Performance Data | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
-ms.workload: 
+manager: jillfra
+monikerRange: 'vs-2017'
+ms.workload:
   - "multiple"
 ---
 # Collect additional performance data

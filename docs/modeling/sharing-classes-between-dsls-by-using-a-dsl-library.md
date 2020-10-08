@@ -1,27 +1,25 @@
 ---
 title: Sharing Classes between DSLs by using a DSL Library
 ms.date: 11/04/2016
-ms.topic: conceptual
-author: gewarren
-ms.author: gewarren
-manager: douge
+ms.topic: how-to
+author: JoshuaPartlow
+ms.author: joshuapa
+manager: jillfra
 ms.workload:
-  - "multiple"
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-modeling
+- multiple
 ---
 # Sharing Classes between DSLs by using a DSL Library
-In the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Visualization and Modeling SDK, you can create an incomplete DSL Definition that you can import into another DSL. This lets you factor common parts of similar models.
+In the Visual Studio Visualization and Modeling SDK, you can create an incomplete DSL Definition that you can import into another DSL. This lets you factor common parts of similar models.
 
 ## Creating and using DSL Libraries
 
 #### To create a DSL Library
 
-1.  Create a new DSL project, and choose the DSL Library solution template.
+1. Create a new DSL project, and choose the DSL Library solution template.
 
      A single DSL project will be created with an empty model.
 
-2.  You can add domain classes, relationships, shapes and so on.
+2. You can add domain classes, relationships, shapes and so on.
 
      The elements in the library do not have to form a single embedding tree.
 
@@ -29,35 +27,35 @@ In the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Visualization a
 
      Consider setting the **Inheritance Modifier** of the domain classes to `Abstract`.
 
-3.  You can add elements that you define in DSL Explorer, such as Connection Builders.
+3. You can add elements that you define in DSL Explorer, such as Connection Builders.
 
-4.  You can add customizations that require additional code, such as validation constraints.
+4. You can add customizations that require additional code, such as validation constraints.
 
-5.  Click **Transform All Templates**.
+5. Click **Transform All Templates**.
 
-6.  Build the project.
+6. Build the project.
 
-7.  When you distribute the DSL for other people to use, you must provide both the compiled assembly (DLL) and the file `DslDefinition.dsl`. You can find the compiled assembly in a folder under `Dsl\bin\*`
+7. When you distribute the DSL for other people to use, you must provide both the compiled assembly (DLL) and the file `DslDefinition.dsl`. You can find the compiled assembly in a folder under `Dsl\bin\*`
 
 #### To import a DSL Library
 
-1.  In another DSL Definition, in **DSL Explorer**, right-click the root class of the DSL, and then click **Add New DslLibrary Import**.
+1. In another DSL Definition, in **DSL Explorer**, right-click the root class of the DSL, and then click **Add New DslLibrary Import**.
 
-2.  In the Properties window, set the **File Path** of the library. You can use either a relative or an absolute path.
+2. In the Properties window, set the **File Path** of the library. You can use either a relative or an absolute path.
 
-     The imported library appears in DSL Explorer, in read-only mode.
+    The imported library appears in DSL Explorer, in read-only mode.
 
-3.  You can use the imported classes as base classes. Create a domain class in the importing DSL, and in the Properties window, set **Base Class** to an imported class.
+3. You can use the imported classes as base classes. Create a domain class in the importing DSL, and in the Properties window, set **Base Class** to an imported class.
 
-4.  Click Transform All Templates.
+4. Click Transform All Templates.
 
-5.  Add to the DSL project a reference to the assembly (DLL) that was built by the DSL Library project.
+5. Add to the DSL project a reference to the assembly (DLL) that was built by the DSL Library project.
 
-6.  Build the solution.
+6. Build the solution.
 
- A DSL Library can import other libraries. When you import a library, its imports also automatically appear in DSL Explorer.
+   A DSL Library can import other libraries. When you import a library, its imports also automatically appear in DSL Explorer.
 
-## See Also
+## See also
 
 - [How to Define a Domain-Specific Language](../modeling/how-to-define-a-domain-specific-language.md)
 

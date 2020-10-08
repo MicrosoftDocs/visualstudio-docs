@@ -1,16 +1,20 @@
 ---
-title: Calculate code metrics in Visual Studio
-ms.date: 12/12/2017
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
-ms.topic: "conceptual"
+title: Calculate code metrics
+ms.date: 11/02/2018
+ms.topic: conceptual
+f1_keywords:
+  - vs.codeanalysis.codemetrics.toolwindow
+dev_langs:
+  - "CSharp"
+  - "VB"
+  - "FSharp"
 helpviewer_keywords:
-  - "code metrics [Visual Studio]"
-author: gewarren
-ms.author: gewarren
-manager: douge
+  - code metrics [Visual Studio]
+author: mikejo5000
+ms.author: mikejo
+manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Code metrics values
 
@@ -24,21 +28,31 @@ For information about how to generate code metrics data in Visual Studio, see [H
 
 The following list shows the code metrics results that Visual Studio calculates:
 
-- **Maintainability Index** - Calculates an index value between 0 and 100 that represents the relative ease of maintaining the code. A high value means better maintainability. Color coded ratings can be used to quickly identify trouble spots in your code. A green rating is between 20 and 100 and indicates that the code has good maintainability. A yellow rating is between 10 and 19 and indicates that the code is moderately maintainable. A red rating is a rating between 0 and 9 and indicates low maintainability.
+- **Maintainability Index** - Calculates an index value between 0 and 100 that represents the relative ease of maintaining the code. A high value means better maintainability. Color coded ratings can be used to quickly identify trouble spots in your code. A green rating is between 20 and 100 and indicates that the code has good maintainability. A yellow rating is between 10 and 19 and indicates that the code is moderately maintainable. A red rating is a rating between 0 and 9 and indicates low maintainability. For more information, see the [Maintainability index range and meaning](/archive/blogs/codeanalysis/maintainability-index-range-and-meaning) blog post.
 
-- **Cyclomatic Complexity** - Measures the structural complexity of the code. It is created by calculating the number of different code paths in the flow of the program. A program that has complex control flow will require more tests to achieve good code coverage and will be less maintainable.
+- **Cyclomatic Complexity** - Measures the structural complexity of the code. It is created by calculating the number of different code paths in the flow of the program. A program that has complex control flow requires more tests to achieve good code coverage and is less maintainable. For more information, see the [Wikipedia entry for cyclomatic complexity](https://wikipedia.org/wiki/Cyclomatic_complexity).
 
-- **Depth of Inheritance** - Indicates the number of class definitions that extend to the root of the class hierarchy. The deeper the hierarchy the more difficult it might be to understand where particular methods and fields are defined or/and redefined.
+- **Depth of Inheritance** - Indicates the number of different classes that inherit from one another, all the way back to the base class. Depth of Inheritance is similar to class coupling in that a change in a base class can affect any of its inherited classes. The higher this number, the deeper the inheritance and the higher the potential for base class modifications to result in a breaking change. For Depth of Inheritance, a low value is good and a high value is bad.
 
-- **Class Coupling** - Measures the coupling to unique classes through parameters, local variables, return types, method calls, generic or template instantiations, base classes, interface implementations, fields defined on external types, and attribute decoration. Good software design dictates that types and methods should have high cohesion and low coupling. High coupling indicates a design that is difficult to reuse and maintain because of its many interdependencies on other types.
+- **Class Coupling** - Measures the coupling to unique classes through parameters, local variables, return types, method calls, generic or template instantiations, base classes, interface implementations, fields defined on external types, and attribute decoration. Good software design dictates that types and methods should have high cohesion and low coupling. High coupling indicates a design that is difficult to reuse and maintain because of its many interdependencies on other types. For more information, see the [Class coupling](/archive/blogs/zainnab/code-metrics-class-coupling) blog post.
 
-- **Lines of Code** - Indicates the approximate number of lines in the code. The count is based on the IL code and is therefore not the exact number of lines in the source code file. A very high count might indicate that a type or method is trying to do too much work and should be split up. It might also indicate that the type or method might be hard to maintain.
+::: moniker range=">=vs-2019"
+
+- **Lines of Source code** - Indicates the exact number of source code lines that are present in your source file, including blank lines. This metric is available starting in Visual Studio 2019 version 16.4 and Microsoft.CodeAnalysis.Metrics (2.9.5).
+
+- **Lines of Executable code** - Indicates the approximate number of executable code lines or operations. This is a count of number of operations in executable code. This metric is available starting in Visual Studio 2019 version 16.4 and Microsoft.CodeAnalysis.Metrics (2.9.5). The value is typically a close match to the previous metric, **Lines of Code**, which is the MSIL-instruction-based metric used in legacy mode.
+::: moniker-end
+::: moniker range="vs-2017"
+
+- **Lines of Code** - Indicates the approximate number of lines in the code. The count is based on the IL code and is therefore not the exact number of lines in the source code file. A high count might indicate that a type or method is trying to do too much work and should be split up. It might also indicate that the type or method might be hard to maintain.
+
+   > [!NOTE]
+   > The [command-line version](../code-quality/how-to-generate-code-metrics-data.md#command-line-code-metrics) of the code metrics tool counts actual lines of code because it analyzes the source code instead of IL.
+::: moniker-end
 
 ## Anonymous methods
 
-An *anonymous method* is just a method that has no name. Anonymous methods are most frequently used to pass a code block as a delegate parameter. Metrics results for an anonymous method that is declared in a member, such as a method or accessor, are associated with the member that declares the method. They are not associated with the member that calls the method.
-
-For more information about how Code Metrics treats anonymous methods, see [Anonymous Methods and Code Analysis](../code-quality/anonymous-methods-and-code-analysis.md).
+An *anonymous method* is just a method that has no name. Anonymous methods are most frequently used to pass a code block as a delegate parameter. Code metrics results for an anonymous method that's declared in a member, such as a method or accessor, are associated with the member that declares the method. They are not associated with the member that calls the method.
 
 ## Generated code
 

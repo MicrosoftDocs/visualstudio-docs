@@ -1,18 +1,16 @@
 ---
 title: Application property page for UWP apps
 ms.date: 01/23/2018
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
-  - AppPackage.Properties.Application
+- AppPackage.Properties.Application
 helpviewer_keywords:
-  - "Application page [UWP project]"
-author: gewarren
-ms.author: gewarren
-manager: douge
+- Application page [UWP project]
+author: TerryGLee
+ms.author: tglee
+manager: jillfra
 ms.workload:
-  - "uwp"
+- uwp
 ---
 # Application property page (UWP projects)
 
@@ -34,13 +32,13 @@ To access this property programmatically, see <xref:VSLangProj.ProjectProperties
 
 **Assembly Information**&mdash;Choosing this button displays the [Assembly Information dialog box](../../ide/reference/assembly-information-dialog-box.md).
 
-**Package Manifest**&mdash;Choosing this button opens the manifest designer. The manifest designer can also be accessed by choosing the _Package.appxmanifest_ file in **Solution Explorer**. For more information, see [Configure a package with the manifest designer](/windows/uwp/packaging/packaging-uwp-apps#configure-an-app-package).
+**Package Manifest**&mdash;Choosing this button opens the manifest designer. The manifest designer can also be accessed by choosing the _Package.appxmanifest_ file in **Solution Explorer**. For more information, see [Configure a package with the manifest designer](/windows/msix/package/packaging-uwp-apps#configure-your-project).
 
 ## Targeting section
 
 You can set the target version and minimum version of Windows 10 for your app by using the drop-down lists in this section. It is recommended that you target the latest version of Windows 10, and if you are developing an enterprise app, that you support an older minimum version too. For more information about which Windows 10 version to choose, see [Choose a UWP version](/windows/uwp/updates-and-versions/choose-a-uwp-version).
 
-For information about platform targeting in Visual Studio 2017, see [Platform targeting](/visualstudio/productinfo/vs2017-compatibility-vs#a-iddevelopwindows-avisual-studio-2017-support-for-windows-development).
+For information about platform targeting in Visual Studio, see [Platform targeting](/visualstudio/productinfo/vs2017-compatibility-vs#platform-targeting).
 
 ## See also
 

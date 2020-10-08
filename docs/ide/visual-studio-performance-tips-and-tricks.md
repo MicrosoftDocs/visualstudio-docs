@@ -1,28 +1,25 @@
 ---
-title: Visual Studio performance tips and tricks
-ms.date: 08/31/2017
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
+title: Tips to improve performance
+ms.date: 08/13/2020
 ms.topic: conceptual
-ms.assetid: 2fbcb59e-e981-4b40-8b7a-c1140d31ec4b
-author: gewarren
-ms.author: gewarren
-manager: douge
+author: TerryGLee
+ms.author: tglee
+manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Visual Studio performance tips and tricks
 
 Visual Studio performance recommendations are intended for low memory situations, which may occur in rare cases. In these situations, you can optimize certain Visual Studio features that you may not be using. The following tips are not intended as general recommendations.
 
 > [!NOTE]
-> If you’re having difficulty using the product because of memory issues, let us know through the [feedback tool](../ide/how-to-report-a-problem-with-visual-studio-2017.md).
+> If you’re having difficulty using the product because of memory issues, let us know through the [feedback tool](../ide/how-to-report-a-problem-with-visual-studio.md).
 
 ## Use a 64-bit OS
 
 If you upgrade your system from a 32-bit version of Windows to a 64-bit version, you expand the amount of virtual memory available to Visual Studio from 2 GB to 4 GB. This enables Visual Studio to handle significantly larger workloads, even though it is 32-bit process.
 
-For more information, see [Memory limits](https://msdn.microsoft.com/library/windows/desktop/aa366778(v=vs.85).aspx#memory_limits) and [Use /LARGEADDRESSAWARE on 64-bit Windows](https://blogs.msdn.microsoft.com/oldnewthing/20050601-24/?p=35483/).
+For more information, see [Memory limits](/windows/desktop/Memory/memory-limits-for-windows-releases) and [Use /LARGEADDRESSAWARE on 64-bit Windows](https://blogs.msdn.microsoft.com/oldnewthing/20050601-24/?p=35483/).
 
 ## Disable automatic file restore
 
@@ -34,7 +31,13 @@ Visual Studio notifies you in a yellow bar when automatic document restore is ca
 
 1. On the **Projects and Solution** > **General** page, deselect **Reopen documents on solution load**.
 
-If you disable automatic file restore, a quick way to navigate to files you want to open is by using [Go To](../ide/go-to.md). Select **Edit** > **Go To** > **Go To All**, or press **Ctrl**+**T**.
+If you disable automatic file restore, a quick way to navigate to files you want to open is by using one of the [Go To](../ide/go-to.md) commands:
+
+- For the general **Go To** functionality, select **Edit** > **Go To** > **Go To All**, or press **Ctrl**+**T**.
+
+- Jump to the last edit location in a solution using **Edit** > **Go To** > **Go To Last Edit Location**, or by pressing **Ctrl**+**Shift**+**Backspace**.
+
+- Use **Go To Recent File** to see a list of recently visited files in a solution. Select **Edit** > **Go To** > **Go To Recent File**, or press **Ctrl**+**1**, **Ctrl**+**R**.
 
 ## Configure debugging options
 
@@ -54,7 +57,7 @@ If you are typically running low on memory during debugging sessions, you can op
 
     Set the options to **Only specified modules** instead of **All modules** and then specify which modules you care to load. While debugging, you can also right-click specific modules in the **Modules** window to explicitly include a module in the symbol load. (To open the window while debugging, choose **Debug** > **Windows** > **Modules**.)
 
-    For more information, see [Understand symbol files](https://blogs.msdn.microsoft.com/visualstudioalm/2015/01/05/understanding-symbol-files-and-visual-studios-symbol-settings/).
+    For more information, see [Understand symbol files](?view=vs-2019&preserve-view=true).
 
 - **Disable Diagnostic Tools**
 
@@ -62,7 +65,7 @@ If you are typically running low on memory during debugging sessions, you can op
 
     To disable the **Diagnostic Tools**, start a debugging session, choose **Tools** > **Options** > **Enable Diagnostic Tools**, and deselect the option.
 
-    For more information, see [Profiling Tools](../profiling/profiling-tools.md).
+    For more information, see [Profiling Tools](../profiling/profiling-feature-tour.md).
 
 ## Disable tools and extensions
 
@@ -73,7 +76,7 @@ Some tools or extensions can be turned off to improve performance.
 
 ### Managed language service (Roslyn)
 
-For information about .NET Compiler Platform ("Roslyn") performance considerations, see [Performance considerations for large solutions](https://github.com/dotnet/roslyn/wiki/Performance-considerations-for-large-solutions).
+For information about .NET Compiler Platform ("Roslyn") performance considerations, see [Performance considerations for large solutions](https://github.com/dotnet/roslyn/blob/master/docs/wiki/Performance-considerations-for-large-solutions.md).
 
 - **Disable full solution analysis**
 
@@ -96,13 +99,37 @@ For information about .NET Compiler Platform ("Roslyn") performance consideratio
 
     Extensions are additional software components added to Visual Studio that provide new functionality or extend existing functionality. Extensions can often be a source of memory resource issues. If you’re experiencing memory resource problems, try disabling extensions one at a time to see how it impacts the scenario or workflow.
 
+   ::: moniker range="vs-2017"
+
     To disable extensions, go to **Tools** > **Extensions and Updates**, and disable a particular extension.
+
+   ::: moniker-end
+
+   ::: moniker range=">=vs-2019"
+
+    To disable extensions, go to **Extensions** > **Manage Extensions**, and disable a particular extension.
+
+   ::: moniker-end
+
+- **Disable map mode**
+
+    [**Map mode**](how-to-track-your-code-by-customizing-the-scrollbar.md#display-modes) displays lines of code, in miniature, on the scroll bar. Map mode is enabled by default.
+
+    To disable map mode, go to **Tools** > **Options** > **Text Editor** > **All Languages** > **Scroll Bars**, and in the **Behavior** section, deselect the **Use map mode for vertical scroll bar** option.
+
+- **Disable word wrap**
+
+    [**Word wrap**](./reference/how-to-manage-word-wrap-in-the-editor.md) displays the portion of a long line of code that extends beyond the current width of the code editor window. Word wrap is on by default.
+
+    To disable word wrap for a project that you are currently working on, go to **Edit** > **Advanced** > **Word Wrap**. (You can toggle this setting by using the same menu commands.)
+
+    To disable word wrap for all projects, go to **Tools** > **Options** > **General** > **Text Editor** > **All Languages** > **General**, and in the **Settings** section, deselect the **Word wrap** option.
 
 - **Disable XAML Designer**
 
     The XAML designer is enabled by default, but only consumes resources if you open a *.xaml* file. If you work with XAML files but do not wish to use the designer functionality, disable this feature to free up some memory.
 
-    To disable **XAML Designer**, go to **Tools** > **Options** > **XAML Designer** > **Enable XAML Designer**, and deselect the option.
+    To disable XAML Designer, go to **Tools** > **Options** > **XAML Designer** > **Enable XAML Designer**, and deselect the option.
 
 - **Remove workloads**
 
@@ -121,4 +148,4 @@ For a detailed description of the CLR garbage collector, see [Fundamentals of ga
 ## See also
 
 - [Optimize Visual Studio performance](../ide/optimize-visual-studio-performance.md)
-- [Load solutions faster (Visual Studio blog)](https://blogs.msdn.microsoft.com/visualstudio/2018/04/04/load-solutions-faster-with-visual-studio-2017-version-15-6/)
+- [Load solutions faster (Visual Studio blog)](https://devblogs.microsoft.com/visualstudio/load-solutions-faster-with-visual-studio-2017-version-15-6/)

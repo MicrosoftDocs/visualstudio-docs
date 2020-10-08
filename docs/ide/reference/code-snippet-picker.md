@@ -1,20 +1,18 @@
 ---
 title: Code Snippet Picker
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
-  - "vs.expansionpicker"
+- vs.expansionpicker
 helpviewer_keywords:
-  - "Code Snippet Picker"
-  - "IntelliSense code snippets, Code Snippet Picker"
-  - "code snippets, Code Snippet Picker"
-author: gewarren
-ms.author: gewarren
-manager: douge
+- Code Snippet Picker
+- IntelliSense code snippets, Code Snippet Picker
+- code snippets, Code Snippet Picker
+author: TerryGLee
+ms.author: tglee
+manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Code Snippet Picker
 

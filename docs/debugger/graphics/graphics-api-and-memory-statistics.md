@@ -1,17 +1,15 @@
 ---
 title: "Graphics API and Memory Statistics | Microsoft Docs"
-ms.custom: ""
 ms.date: "03/02/2017"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
-f1_keywords: 
+f1_keywords:
   - "vs.graphics.apistatistics"
   - "vs.graphics.memorystatistics"
 ms.assetid: 27d2f303-e3ed-4219-9009-345a0d849506
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
-ms.workload: 
+manager: jillfra
+ms.workload:
   - "multiple"
 ---
 # Graphics API and Memory Statistics
@@ -36,7 +34,7 @@ The **GPU Allocation** column displays the amount of memory used by the event di
 
 As with the API Statistics tool, you can right-click in the window to Copy All data as CSV, which can be pasted into something like Excel for further analysis.
 
-## See Also  
-[Graphics Diagnostics (Debugging DirectX Graphics)](visual-studio-graphics-diagnostics.md)   
-[Resource History](graphics-event-list.md#resource-history)
+## See also
+- [Graphics Diagnostics (Debugging DirectX Graphics)](visual-studio-graphics-diagnostics.md)
+- [Resource History](graphics-event-list.md#resource-history)
 <!-- /VERSIONLESS -->

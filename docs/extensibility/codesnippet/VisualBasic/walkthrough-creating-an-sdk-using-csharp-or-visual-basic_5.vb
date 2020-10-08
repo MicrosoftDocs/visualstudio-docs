@@ -39,7 +39,7 @@ Public NotInheritable Class MainPage
             Dim firstNumber As Single = Single.Parse(Me._firstNumber.Text)
             Dim secondNumber As Single = Single.Parse(Me._secondNumber.Text)
 
-            Dim math As New WinRTMath.Arithmetic()
+            Dim math As New SimpleMath.Arithmetic()
 
             Select Case (operation)
 

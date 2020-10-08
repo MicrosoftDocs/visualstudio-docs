@@ -2,13 +2,11 @@
 title: R Markdown
 description: How to create R Markdown documents in Visual Studio to produce high-quality reports, presentations, and dashboards.
 ms.date: 11/16/2017
-ms.prod: visual-studio-dev15
-ms.technology: vs-rtvs
 ms.topic: conceptual
 author: kraigb
 ms.author: kraigb
-manager: douge
-ms.workload: 
+manager: jillfra
+ms.workload:
   - data-science
 ---
 
@@ -21,7 +19,7 @@ R Tools for Visual Studio (RTVS) provides a R Markdown item template, editor sup
 ## Using R Markdown
 
 1. Close Visual Studio.
-1. (One time only) Install `pandoc` from [pandoc.org](http://pandoc.org/installing.html).
+1. (One time only) Install `pandoc` from [pandoc.org](https://pandoc.org/installing.html).
 1. Restart Visual Studio, which should pick up the pandoc installation.
 1. Install the `knitr` and `rmarkdown` packages, which you can do from the [interactive window](interactive-repl-for-r-in-visual-studio.md):
 
@@ -30,10 +28,12 @@ R Tools for Visual Studio (RTVS) provides a R Markdown item template, editor sup
     install.packages("rmarkdown")
 
     ```
+
 1. Create a new R Markdown file using the **File** > **New** > **File** menu command and selecting **R** > **R Markdown** from the list. In the context of a project, right-click the project in Solution Explorer and select **Add R Markdown** (or **Add** > **New Item** and selecting **R Markdown** from the list).
 
 1. The default contents of the new file are as follows:
 
+    <!-- markdownlint-disable MD048 -->
     ~~~markdown
     ---
     title: "Untitled"
@@ -42,7 +42,7 @@ R Tools for Visual Studio (RTVS) provides a R Markdown item template, editor sup
 
     This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and Microsoft Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
 
-    When you click the **R Tools | Publish | Preview** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+    When you select the **R Tools | Publish | Preview** button, a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
 
     ```{r}
     summary(cars)
@@ -57,6 +57,7 @@ R Tools for Visual Studio (RTVS) provides a R Markdown item template, editor sup
     Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
 
     ~~~
+    <!-- markdownlint-disable MD048 -->
 
 ## Previews
 

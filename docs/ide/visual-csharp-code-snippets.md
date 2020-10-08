@@ -1,34 +1,32 @@
 ---
 title: C# code snippets
 ms.date: 06/05/2017
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: reference
 helpviewer_keywords:
-  - "snippets [C#]"
-  - "code snippets [C#]"
-  - "Code Snippet Inserter [C#]"
-  - "C#, code snippets"
-author: gewarren
-ms.author: gewarren
-manager: douge
+- snippets [C#]
+- code snippets [C#]
+- Code Snippet Inserter [C#]
+- C#, code snippets
+author: TerryGLee
+ms.author: tglee
+manager: jillfra
 ms.workload:
-  - "dotnet"
+- dotnet
 ---
 # C# code snippets
 
 Code snippets are ready-made snippets of code you can quickly insert into your code. For example, the `for` code snippet creates an empty `for` loop. Some code snippets are surround-with code snippets, which enable you to select lines of code, and then choose a code snippet which incorporates the selected lines of code. For example, when you select lines of code and then activate the `for` code snippet, it creates a `for` loop with those lines of code inside the loop block. Code snippets can make writing program code quicker, easier, and more reliable.
 
- You can insert a code snippet at the cursor location, or insert a surround-with code snippet around the currently selected code. The Code Snippet Inserter is invoked through the **Insert Code Snippet** or **Surround With** commands on the **IntelliSense** menu, or by using the keyboard shortcuts **Ctrl**+**K**,**X** or **Ctrl**+**K**,**S** respectively.
+You can insert a code snippet at the cursor location, or insert a surround-with code snippet around the currently selected code. The Code Snippet Inserter is invoked through the **Insert Code Snippet** or **Surround With** commands on the **IntelliSense** menu, or by using the keyboard shortcuts **Ctrl**+**K**,**X** or **Ctrl**+**K**,**S** respectively.
 
- The **Code Snippet Inserter** displays the code snippet name for all available code snippets. The Code Snippet Inserter also includes an input dialog box where you can type the name of the code snippet, or part of the code snippet name. The Code Snippet Inserter highlights the closest match to a code snippet name. Pressing **Tab** at any time will dismiss the Code Snippet Inserter and insert the currently selected code snippet. Pressing **Esc** or clicking the mouse in the code editor will dismiss the Code Snippet Inserter without inserting a code snippet.
+The **Code Snippet Inserter** displays the code snippet name for all available code snippets. The Code Snippet Inserter also includes an input dialog box where you can type the name of the code snippet, or part of the code snippet name. The Code Snippet Inserter highlights the closest match to a code snippet name. Pressing **Tab** at any time will dismiss the Code Snippet Inserter and insert the currently selected code snippet. Pressing **Esc** or clicking the mouse in the code editor will dismiss the Code Snippet Inserter without inserting a code snippet.
 
 ## Default code snippets
 
 By default the following code snippets are included in Visual Studio for C#.
 
 |Name (or shortcut)|Description|Valid locations to insert snippet|
-|--------------------------|-----------------|---------------------------------------|
+| - |-----------------| - |
 |#if|Creates a [#if](/dotnet/csharp/language-reference/preprocessor-directives/preprocessor-if) directive and a [#endif](/dotnet/csharp/language-reference/preprocessor-directives/preprocessor-endif) directive.|Anywhere.|
 |#region|Creates a [#region](/dotnet/csharp/language-reference/preprocessor-directives/preprocessor-region) directive and a [#endregion](/dotnet/csharp/language-reference/preprocessor-directives/preprocessor-endregion) directive.|Anywhere.|
 |~|Creates a [finalizer](/dotnet/csharp/programming-guide/classes-and-structs/destructors) (destructor) for the containing class.|Inside a class.|

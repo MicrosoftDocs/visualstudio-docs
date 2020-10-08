@@ -2,13 +2,11 @@
 title: R Tools for Visual Studio FAQ
 description: Frequently-asked questions on R in Visual Studio.
 ms.date: 12/04/2017
-ms.prod: visual-studio-dev15
-ms.technology: vs-rtvs
 ms.topic: reference
 author: kraigb
 ms.author: kraigb
-manager: douge
-ms.workload: 
+manager: jillfra
+ms.workload:
   - data-science
 ---
 
@@ -76,7 +74,7 @@ A. Yes, you can use any source control system that is integrated into Visual Stu
 
 **Q. What are the recommended *.gitignore* settings for an RTVS project?**
 
-A. Github maintains a master repository of recommended *.gitignore* files. You can see it here: [R .gitignore](https://github.com/github/gitignore/blob/master/R.gitignore)
+A. GitHub maintains a repository of recommended *.gitignore* files. You can see it here: [R .gitignore](https://github.com/github/gitignore/blob/master/R.gitignore)
 
 ## Remote services
 
@@ -104,7 +102,7 @@ A. See the article, [Execute on remote server](/machine-learning-server/r/how-to
 
 **Q. Feature X is missing, but RStudio has it!**
 
-A. RStudio is a fantastic and mature IDE for R that's been under development for many years. RTVS seeks to have all the critical features that you need to be successful. Help prioritize future work by taking the [RTVS survey](https://www.surveymonkey.com/r/RTVS1) and file issues on [GitHub](https://github.com/Microsoft/RTVS/issues/).
+A. RStudio is a fantastic and mature IDE for R that's been under development for many years. RTVS seeks to have all the critical features that you need to be successful. Help prioritize future work by filing issues on [GitHub](https://github.com/Microsoft/RTVS/issues/).
 
 **Q. Can I contribute to RTVS?**
 

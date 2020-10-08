@@ -1,34 +1,32 @@
 ---
-title: "Workflow Designer - How to: Add comments to a workflow"
+title: 'Workflow Designer - How to: Add comments to a workflow'
 ms.date: 11/04/2016
-ms.topic: conceptual
-ms.prod: visual-studio-dev15
-ms.technology: vs-workflow-designer
+ms.topic: how-to
 f1_keywords:
-  - "System.Activities.Presentation.Annotations.Annotation.UI"
-  - "Annotation"
+- System.Activities.Presentation.Annotations.Annotation.UI
+- Annotation
 ms.assetid: 9aa0e8d6-8129-4438-8389-d460611581a7
-ms.author: gewarren
-manager: douge
+ms.author: tglee
+manager: jillfra
 ms.workload:
-  - "multiple"
-author: gewarren
+- multiple
+author: TerryGLee
 ---
 # How to: Add comments to a workflow in the Workflow Designer
 
 To facilitate creating larger, more complicated workflows, .NET Framework 4.5 allows the developer to add annotations to the following types of item in the designer:
 
--   <xref:System.Activities.Activity>
+- <xref:System.Activities.Activity>
 
--   <xref:System.Activities.Statements.State>
+- <xref:System.Activities.Statements.State>
 
--   <xref:System.Activities.Statements.Transition>
+- <xref:System.Activities.Statements.Transition>
 
--   Classes derived from <xref:System.Activities.Statements.FlowNode>
+- Classes derived from <xref:System.Activities.Statements.FlowNode>
 
--   <xref:System.Activities.Variable>
+- <xref:System.Activities.Variable>
 
--   <xref:System.Activities.Argument>
+- <xref:System.Activities.Argument>
 
 > [!IMPORTANT]
 > The contents of an annotation are saved as plain text to the XAML file associated with the workflow, and could potentially be read by others. Be cautious when entering sensitive information into an annotation.
@@ -43,15 +41,15 @@ To facilitate creating larger, more complicated workflows, .NET Framework 4.5 al
 
 ## Displaying an annotation in an activity's designer
 
-1.  With an activity designer which has an annotation displaying outside the activity, click the **Pin** icon in the annotation adorner.
+1. With an activity designer which has an annotation displaying outside the activity, click the **Pin** icon in the annotation adorner.
 
    The annotation is displayed in the activity's designer. In the screenshot below, the annotation "Starting activity in the workflow" is displayed in the activity's designer.
 
    ![Annotation shown in the activity designer](../workflow-designer/media/annotationindesigner.png)
 
-1. To display the annotation outside the activity's designer, hover over the annotation area in the activity's designer and click the **Unpin** icon
+2. To display the annotation outside the activity's designer, hover over the annotation area in the activity's designer and click the **Unpin** icon
 
-   ![Annotation displayed outside an activity's designe](../workflow-designer/media/annotationoutsidedesigner.png)
+   ![Annotation displayed outside an activity's designer](../workflow-designer/media/annotationoutsidedesigner.png)
 
 ## Showing or hiding all annotations
 

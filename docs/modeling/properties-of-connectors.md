@@ -4,13 +4,11 @@ ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
   - "Domain-Specific Language, connectors"
-author: gewarren
-ms.author: gewarren
-manager: douge
+author: JoshuaPartlow
+ms.author: joshuapa
+manager: jillfra
 ms.workload:
   - "multiple"
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-modeling
 ---
 # Properties of Connectors
 Connectors represent domain relationships in a generated designer.
@@ -20,7 +18,7 @@ Connectors represent domain relationships in a generated designer.
  Connectors have the properties that are listed in the following table.
 
 |Property|Description|Default|
-|--------------|-----------------|-------------|
+|-|-|-|
 |Color|The color of this connector.|Black|
 |Dash Style|The dash style for the line for this connector (Solid, Dash, Dot, DashDot, DashDotDot, or Custom).|Solid|
 |Source End Style|The source end style for this connector (HollowArrow, EmptyArrow, FilledArrow, EmptyDiamond, FilledDiamond, or None).|None|
@@ -44,6 +42,6 @@ Connectors represent domain relationships in a generated designer.
 |Fixed Tooltip Text|The text that is used for a fixed tooltip.|\<none>|
 |Help Keyword|The keyword that is used to index F1 help for this element.|\<none>|
 
-## See Also
+## See also
 
-- [Domain-Specific Language Tools Glossary](http://msdn.microsoft.com/ca5e84cb-a315-465c-be24-76aa3df276aa)
+- [Domain-Specific Language Tools Glossary](/previous-versions/bb126564(v=vs.100))

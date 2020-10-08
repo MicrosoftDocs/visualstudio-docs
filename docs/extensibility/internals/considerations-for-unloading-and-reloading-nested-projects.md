@@ -1,21 +1,19 @@
 ---
-title: "Considerations for Unloading and Reloading Nested Projects | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
-ms.technology:
-  - "vs-ide-sdk"
-ms.topic: "conceptual"
+title: Unloading and reloading nested projects
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "nested projects, unloading and reloading"
-  - "projects [Visual Studio SDK], unloading and reloading nested"
+- nested projects, unloading and reloading
+- projects [Visual Studio SDK], unloading and reloading nested
 ms.assetid: 06c3427e-c874-45b1-b9af-f68610ed016c
-author: "gregvanl"
-ms.author: "gregvanl"
-manager: douge
+author: acangialosi
+ms.author: anthc
+manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
-# Considerations for Unloading and Reloading Nested Projects
+# Considerations for unloading and reloading nested projects
 
 When you implement nested project types, you must perform additional steps when you unload and reload the projects. To correctly notify listeners to solution events, you must correctly raise the `OnBeforeUnloadProject` and `OnAfterLoadProject` events.
 
@@ -23,7 +21,7 @@ One reason to raise these events is for source code control (SCC). You don't wan
 
 Source code control calls `ReloadItem`. Implement the <xref:Microsoft.VisualStudio.Shell.Interop.IVsFireSolutionEvents> interface to call `OnBeforeUnloadProject` and `OnAfterLoadProject` to delete the project and re-create it. When you implement the interface in this way, SCC is informed that the project was temporarily deleted and added again. Therefore, SCC doesn't operate on the project as if the project was *actually* deleted and re-added.
 
-## Reloading Projects
+## Reload projects
 
 To support reloading of nested projects, you implement the <xref:Microsoft.VisualStudio.Shell.Interop.IVsPersistHierarchyItem2.ReloadItem%2A> method. In your implementation of `ReloadItem`, you close the nested projects and then re-create them.
 
@@ -31,7 +29,7 @@ Typically when a project is reloaded, the IDE raises the <xref:Microsoft.VisualS
 
 To handle this process, the parent project calls `QueryInterface` on the <xref:Microsoft.VisualStudio.Shell.Interop.IVsFireSolutionEvents> interface. `IVsFireSolutionEvents` has functions that tell the IDE to raise the `OnBeforeUnloadProject` event to unload the nested project, and then raise the `OnAfterLoadProject` event to reload the same project.
 
-## See Also
+## See also
 
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsSolutionEvents3>
-- [Nesting Projects](../../extensibility/internals/nesting-projects.md)
+- [Nest projects](../../extensibility/internals/nesting-projects.md)

@@ -1,26 +1,24 @@
 ---
 title: Find in Files
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: conceptual
 f1_keywords:
-  - "vs.findreplace.findinfiles"
-  - "vs.findinfiles"
+- vs.findreplace.findinfiles
+- vs.findinfiles
 helpviewer_keywords:
-  - "objects [Visual Studio], finding"
-  - "text searches, replacing text"
-  - "objects [Visual Studio], searching for"
-  - "Find and Replace window, Find in Files tab"
-  - "text searches, Find and Replace window"
-  - "documents, searching"
-  - "files, searching"
-  - "Find in Files tab, Find and Replace window"
-author: gewarren
-ms.author: gewarren
-manager: douge
+- objects [Visual Studio], finding
+- text searches, replacing text
+- objects [Visual Studio], searching for
+- Find and Replace window, Find in Files tab
+- text searches, Find and Replace window
+- documents, searching
+- files, searching
+- Find in Files tab, Find and Replace window
+author: TerryGLee
+ms.author: tglee
+manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Find in Files
 

@@ -1,36 +1,35 @@
 ---
-title: Compiling and building in Visual Studio
+title: Compiling building
 ms.date: 07/14/2017
-ms.prod: visual-studio-dev15
 ms.technology: vs-ide-compile
 ms.topic: conceptual
 helpviewer_keywords:
-  - "builds [Visual Studio], about building in Visual Studio"
-  - "custom build steps, types of builds"
+- builds [Visual Studio], about building in Visual Studio
+- custom build steps, types of builds
 ms.assetid: c7958821-285f-4e28-9e7a-b5d8b40336a1
-author: gewarren
-ms.author: gewarren
-manager: douge
+author: ghogen
+ms.author: ghogen
+manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Compile and build in Visual Studio
 
-Running a build creates assemblies and executable applications from your source code at any point during a development cycle. In general, the build process is very similar across many different project types such as Windows, ASP.NET, mobile apps, and others. The build process is also very similar across programming languages such as C#, Visual Basic, C++, and F#.
+For a first introduction to building within the IDE, see [Walkthrough: Building an application](walkthrough-building-an-application.md).
 
-By building your code often, you can quickly identify compile-time errors, such as incorrect syntax, misspelled keywords, and type mismatches. You can also quickly detect and correct run-time errors, such as logic errors and semantic errors, by frequently building and running debug versions of the code.
-
-A successful build is essentially a validation that the application's source code contains correct syntax and that all static references to libraries, assemblies, and other components have been resolved. This produces an application executable that can then be tested for proper functioning in both a [debugging environment](../debugger/index.md) and through a variety of manual and automated tests to [validate code quality](../test/improve-code-quality.md). Once the application has been fully tested, you can then compile a release version to deploy to your customers. For an introduction to this process, see [Walkthrough: Building an application](../ide/walkthrough-building-an-application.md).
-
-Within the Visual Studio product family, there are three methods you can use to build an application: the Visual Studio IDE, the MSBuild command-line tools, and Team Foundation Build on Visual Studio Team Services:
+You can use any of the following methods to build an application: the Visual Studio IDE, the MSBuild command-line tools, and Azure Pipelines:
 
 | Build Method | Benefits |
 | --- |--- | --- |
 | IDE |- Create builds immediately and test them in a debugger.<br />- Run multi-processor builds for C++ and C# projects.<br />-   Customize different aspects of the build system. |
+| CMake | - Build projects using the CMake tool<br />- Use the same build system across Linux and Windows platforms. |
 | MSBuild command line| - Build projects without installing Visual Studio.<br />- Run multi-processor builds for all project types.<br />-   Customize most areas of the build system.|
-| Team Foundation Build | - Automate your build process as part of a continuous integration/continuous delivery pipeline.<br />- Apply automated tests with every build.<br />- Employ virtually unlimited could-based resources for build processes.<br />- Modify the build workflow and create build activities to perform deeply customized tasks.|
+| Azure Pipelines | - Automate your build process as part of a continuous integration/continuous delivery pipeline.<br />- Apply automated tests with every build.<br />- Employ virtually unlimited cloud-based resources for build processes.<br />- Modify the build workflow and create build activities to perform deeply customized tasks.|
 
-The documentation in this section goes into further details of the IDE-based build process. For more information on the other methods, see [MSBuild](../msbuild/msbuild.md) and [Continuous integration and deployment](/vsts/pipelines/index?view=vsts), respectively.
+The documentation in this section goes into further details of the IDE-based build process. For more information on the other methods, see [MSBuild](../msbuild/msbuild.md) and [Azure Pipelines](/azure/devops/pipelines/index?view=vsts), respectively.
+
+> [!NOTE]
+> This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [Compile and build in Visual Studio for Mac](/visualstudio/mac/compiling-and-building).
 
 ## Overview of building from the IDE
 
@@ -50,4 +49,6 @@ From there, you can explore a variety of other tasks:
 
 ## See also
 
-- [Building (compiling) website projects](http://msdn.microsoft.com/Library/a9cbb88c-8fff-4c67-848b-98fbfd823193)
+- [Building (compiling) website projects](/previous-versions/hwxa5aha(v=vs.140))
+- [Compile and build (Visual Studio for Mac)](/visualstudio/mac/compiling-and-building)
+- [CMake projects in Visual Studio](/cpp/build/cmake-projects-in-visual-studio)

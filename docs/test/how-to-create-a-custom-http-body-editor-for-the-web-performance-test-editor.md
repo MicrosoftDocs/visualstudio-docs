@@ -1,75 +1,60 @@
 ---
-title: "Create a Custom HTTP Body Editor for the Web Performance Test Editor in Visual Studio"
+title: Create a HTTP body editor for a web performance test
+ms.custom: SEO-VS-2020
 ms.date: 10/19/2016
-ms.topic: conceptual
-helpviewer_keywords:
-  - "Web performance tests, custom HTTP body editor"
+ms.topic: how-to
+helpviewer_keywords: 
+  - Web performance tests, custom HTTP body editor
 ms.assetid: a0b2d8ff-3e2a-487e-9172-90047174f336
-author: gewarren
-ms.author: gewarren
-manager: douge
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
+author: mikejo5000
+ms.author: mikejo
+manager: jillfra
 ---
-# How to: Create a Custom HTTP Body Editor for the Web Performance Test Editor
+# How to: Create a custom HTTP body editor for the Web Performance Test Editor
 
-You can create a custom content editor that enables you to edit the string body content or the binary body content of a Web service request, for example, SOAP, REST, asmx, wcf, RIA, and other Web service request types.
+You can create a custom content editor that enables you to edit the string body content or the binary body content of a web service request, for example, SOAP, REST, asmx, wcf, RIA, and other web service request types.
 
- You can implement these kinds of editors:
+[!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
 
--   **String content editor** This is implemented using the <xref:Microsoft.VisualStudio.TestTools.WebTesting.IStringHttpBodyEditorPlugin> interface.
+You can implement these kinds of editors:
 
--   **Binary content editor** This is implemented using the <xref:Microsoft.VisualStudio.TestTools.WebTesting.IBinaryHttpBodyEditorPlugin> interface.
+- **String content editor** This is implemented using the <xref:Microsoft.VisualStudio.TestTools.WebTesting.IStringHttpBodyEditorPlugin> interface.
+
+- **Binary content editor** This is implemented using the <xref:Microsoft.VisualStudio.TestTools.WebTesting.IBinaryHttpBodyEditorPlugin> interface.
 
 These interfaces are contained in the <xref:Microsoft.VisualStudio.TestTools.WebTesting> namespace.
 
 ## Create a Windows Control Library project
 
-### Create a user control by using a Windows Control Library project
+1. In Visual Studio, create a new **Windows Forms Control Library** project. Name the project **MessageEditors**.
 
-1.  In Visual Studio, on the **File** menu, choose **New** and then select **Project**.
+   The project is added to the new solution and a <xref:System.Windows.Forms.UserControl> named *UserControl1.cs* is presented in the Designer.
 
-     The **New Project** dialog box is displayed.
+1. From the **Toolbox**, under the **Common Controls** category, drag a <xref:System.Windows.Forms.RichTextBox> onto the surface of UserControl1.
 
-2.  Under **Installed Templates**, select either **Visual Basic** or **Visual C#** depending on your programming preference, and then select **Windows**.
+1. Choose the action tag glyph (![Smart Tag Glyph](../test/media/vs_winformsmttagglyph.gif)) on the upper-right corner of the <xref:System.Windows.Forms.RichTextBox> control, and then select and **Dock in Parent Container**.
 
-    > [!NOTE]
-    > This sample uses Visual C#.
+1. In **Solution Explorer**, right-click the Windows Forms Library project and select **Properties**.
 
-3.  In the list of templates, select **Windows Forms Control Library**.
+1. In the **Properties**, select the **Application** tab.
 
-4.  In the Name text box, type a name, for example, `MessageEditors`, and choose **OK**.
+1. In the **Target framework** drop-down list, select .NET Framework 4 (or later).
 
-    > [!NOTE]
-    > This sample uses MessageEditors.
+1. The **Target Framework Change** dialog box is displayed.
 
-     The project is added to the new solution and a <xref:System.Windows.Forms.UserControl> named UserControl1.cs is presented in the Designer.
+1. Choose **Yes**.
 
-5.  From the **Toolbox**, under the **Common Controls** category, drag a <xref:System.Windows.Forms.RichTextBox> onto the surface of UserControl1.
+1. In **Solution Explorer**, right-click the **References** node and select **Add Reference**.
 
-6.  Choose the action tag glyph (![Smart Tag Glyph](../test/media/vs_winformsmttagglyph.gif)) on the upper-right corner of the <xref:System.Windows.Forms.RichTextBox> control, and then select and **Dock in Parent Container**.
+1. The **Add Reference** dialog box is displayed.
 
-7.  In Solution Explorer, right-click the Windows Forms Library project and select **Properties**.
+1. Choose the .**NET** tab, scroll down, and select **Microsoft.VisualStudio.QualityTools.WebTestFramework** and then choose **OK**.
 
-8.  In the Properties, select the **Application** tab.
+1. If **View Designer** is not still open, in **Solution Explorer**, right-click **UserControl1.cs** and then select **View Designer**.
 
-9. In the **Target framework** drop-down list, select **.NET Framework 4**.
+1. On the design surface, right-click and select **View Code**.
 
-10. The Target Framework Change dialog box is displayed.
-
-11. Choose **Yes**.
-
-12. In Solution Explorer, right-click the **References** node and select **Add Reference**.
-
-13. The **Add Reference** dialog box is displayed.
-
-14. Choose the .**NET** tab, scroll down, and select **Microsoft.VisualStudio.QualityTools.WebTestFramework** and then choose **OK**.
-
-15. If View Designer is not still open, in Solution Explorer, right-click **UserControl1.cs** and then select **View Designer**.
-
-16. On the design surface, right-click and select **View Code**.
-
-17. (Optional) Change the name of the class and the constructor from UserControl1 to a meaningful name, for example, MessageEditorControl:
+1. (Optional) Change the name of the class and the constructor from UserControl1 to a meaningful name, for example, MessageEditorControl:
 
     > [!NOTE]
     > The sample uses MessageEditorControl.
@@ -87,11 +72,11 @@ These interfaces are contained in the <xref:Microsoft.VisualStudio.TestTools.Web
     }
     ```
 
-18. Add the following properties to enable getting and setting the text in RichTextBox1. The <xref:Microsoft.VisualStudio.TestTools.WebTesting.IStringHttpBodyEditorPlugin> interface will use EditString and the <xref:Microsoft.VisualStudio.TestTools.WebTesting.IBinaryHttpBodyEditorPlugin> will use EditByteArray:
+1. Add the following properties to enable getting and setting the text in RichTextBox1. The <xref:Microsoft.VisualStudio.TestTools.WebTesting.IStringHttpBodyEditorPlugin> interface will use EditString and the <xref:Microsoft.VisualStudio.TestTools.WebTesting.IBinaryHttpBodyEditorPlugin> will use EditByteArray:
 
-   ```csharp
-   public String EditString
-   {
+    ```csharp
+    public String EditString
+    {
        get
        {
            return this.richTextBox1.Text;
@@ -100,10 +85,10 @@ These interfaces are contained in the <xref:Microsoft.VisualStudio.TestTools.Web
        {
            this.richTextBox1.Text = value;
        }
-   }
+    }
 
-   public byte[] EditByteArray
-   {
+    public byte[] EditByteArray
+    {
        get
        {
            return System.Convert.FromBase64String(richTextBox1.Text);
@@ -112,10 +97,10 @@ These interfaces are contained in the <xref:Microsoft.VisualStudio.TestTools.Web
        {
            richTextBox1.Text = System.Convert.ToBase64String(value, 0, value.Length);
        }
-   }
-   ```
+    }
+    ```
 
-## Add a class for to the Windows Control Library project
+## Add a class to the Windows Control Library project
 
 Add a class to the project. It will be used to implement the <xref:Microsoft.VisualStudio.TestTools.WebTesting.IStringHttpBodyEditorPlugin> and <xref:Microsoft.VisualStudio.TestTools.WebTesting.IBinaryHttpBodyEditorPlugin> interfaces.
 
@@ -127,31 +112,31 @@ The MessageEditorControl <xref:System.Windows.Forms.UserControl> that was create
 private MessageEditorControl messageEditorControl
 ```
 
- The messageEditorControl instance is hosted within the plug-in dialog that is created by the <xref:Microsoft.VisualStudio.TestTools.WebTesting.IStringHttpBodyEditorPlugin.CreateEditor*> method. Additionally, the messageEditorControl's <xref:System.Windows.Forms.RichTextBox> is populated with the contents in the <xref:Microsoft.VisualStudio.TestTools.WebTesting.IHttpBody>. However, the creation of the plug-in cannot occur unless <xref:Microsoft.VisualStudio.TestTools.WebTesting.IStringHttpBodyEditorPlugin.SupportsContentType*> returns `true`. In the case of this editor, <xref:Microsoft.VisualStudio.TestTools.WebTesting.IStringHttpBodyEditorPlugin.SupportsContentType*> returns `true` if the <xref:Microsoft.VisualStudio.TestTools.WebTesting.IHttpBody.ContentType*> in the <xref:Microsoft.VisualStudio.TestTools.WebTesting.IHttpBody> contains "xml".
+The messageEditorControl instance is hosted within the plug-in dialog that is created by the <xref:Microsoft.VisualStudio.TestTools.WebTesting.IStringHttpBodyEditorPlugin.CreateEditor*> method. Additionally, the messageEditorControl's <xref:System.Windows.Forms.RichTextBox> is populated with the contents in the <xref:Microsoft.VisualStudio.TestTools.WebTesting.IHttpBody>. However, the creation of the plug-in cannot occur unless <xref:Microsoft.VisualStudio.TestTools.WebTesting.IStringHttpBodyEditorPlugin.SupportsContentType*> returns `true`. In the case of this editor, <xref:Microsoft.VisualStudio.TestTools.WebTesting.IStringHttpBodyEditorPlugin.SupportsContentType*> returns `true` if the <xref:Microsoft.VisualStudio.TestTools.WebTesting.IHttpBody.ContentType*> in the <xref:Microsoft.VisualStudio.TestTools.WebTesting.IHttpBody> contains "xml".
 
- When editing of the string body is completed and the user clicks **OK** in the plug-in dialog box, <xref:Microsoft.VisualStudio.TestTools.WebTesting.IStringHttpBodyEditorPlugin.GetNewValue*> is called to get the edited text as a string and update the **String Body** in the request in the Web Test Performance Editor.
+When editing of the string body is completed and the user clicks **OK** in the plug-in dialog box, <xref:Microsoft.VisualStudio.TestTools.WebTesting.IStringHttpBodyEditorPlugin.GetNewValue*> is called to get the edited text as a string and update the **String Body** in the request in the Web Test Performance Editor.
 
-### To create a class and implement the IStringHttpBodyEditorPlugin interface code
+### Create a class and implement the IStringHttpBodyEditorPlugin interface
 
-1.  In Solution Explorer, right-click the Windows Forms Control Library project and select **Add New Item**.
+1. In **Solution Explorer**, right-click the Windows Forms Control Library project and select **Add New Item**.
 
-2.  The **Add New Item** dialog box is displayed.
+   The **Add New Item** dialog box is displayed.
 
-3.  Select **Class**.
+2. Select **Class**.
 
-4.  In the **Name** text box, type a meaningful name for the class, for example, `MessageEditorPlugins`.
+3. In the **Name** text box, type a meaningful name for the class, for example, `MessageEditorPlugins`.
 
-5.  Choose **Add**.
+4. Choose **Add**.
 
-     Class1 is added to the project and presented in the Code Editor.
+   Class1 is added to the project and presented in the Code Editor.
 
-6.  In the Code Editor, add the following using statement:
+5. In the code editor, add the following `using` statement:
 
     ```csharp
     using Microsoft.VisualStudio.TestTools.WebTesting;
     ```
 
-7.  Write or copy the following code to instantiate the XmlMessageEditor class from <xref:Microsoft.VisualStudio.TestTools.WebTesting.IStringHttpBodyEditorPlugin> interface and implement the required methods:
+6. Paste in the following code to implement the interface:
 
     ```csharp
     /// <summary>
@@ -179,7 +164,7 @@ private MessageEditorControl messageEditorControl
         /// plugin dialog which provides OK and Cancel buttons.
         /// </summary>
         /// <param name="contentType">The content type of the BinaryHttpBody.</param>
-        /// <param name="initialValue">The bytes to edit.  The bytes are the payload of a BinaryHttpBody.</param>
+        /// <param name="initialValue">The bytes to edit. The bytes are the payload of a BinaryHttpBody.</param>
         /// <returns>A UserControl capable of displaying and editing the byte array value of the specified content type.</returns>
         public object CreateEditor(string contentType, string initialValue)
         {
@@ -200,7 +185,7 @@ private MessageEditorControl messageEditorControl
     }
     ```
 
-## Add a IBinaryHttpBodyEditorPlugin to the Class
+## Add a IBinaryHttpBodyEditorPlugin to the class
 
 Implement the <xref:Microsoft.VisualStudio.TestTools.WebTesting.IBinaryHttpBodyEditorPlugin> interface.
 
@@ -220,7 +205,7 @@ When editing of the string body is completed and the user clicks **OK** in the p
 
 ### To add the IBinaryHttpBodyEditorPlugin to the class
 
--   Write or copy the following code under the XmlMessageEditor class added in the previous procedure to instantiate the Msbin1MessageEditor class from <xref:Microsoft.VisualStudio.TestTools.WebTesting.IBinaryHttpBodyEditorPlugin> interface and implement the required methods:
+- Write or copy the following code under the XmlMessageEditor class added in the previous procedure to instantiate the Msbin1MessageEditor class from <xref:Microsoft.VisualStudio.TestTools.WebTesting.IBinaryHttpBodyEditorPlugin> interface and implement the required methods:
 
     ```csharp
     /// <summary>
@@ -246,11 +231,11 @@ When editing of the string body is completed and the user clicks **OK** in the p
             }
 
             /// <summary>
-            /// Create a UserControl to edit the specified bytes.  This control will be hosted in the
+            /// Create a UserControl to edit the specified bytes. This control will be hosted in the
             /// plugin dialog which provides OK and Cancel buttons.
             /// </summary>
             /// <param name="contentType">The content type of the BinaryHttpBody.</param>
-            /// <param name="initialValue">The bytes to edit.  The bytes are the payload of a BinaryHttpBody.</param>
+            /// <param name="initialValue">The bytes to edit. The bytes are the payload of a BinaryHttpBody.</param>
             /// <returns>A UserControl capable of displaying and editing the byte array value of the specified content type.</returns>
             public object CreateEditor(string contentType, byte[] initialValue)
             {
@@ -272,44 +257,40 @@ When editing of the string body is completed and the user clicks **OK** in the p
         }
     ```
 
-## Build and Deploy the Plug-ins
+## Build and deploy the plug-ins
 
-### To build and deploy the resulting dll for the IStringHttpBodyEditorPlugin and IBinaryHttpBodyEditorPlugin
+1. On the **Build** menu, choose **Build \<Windows Form Control Library project name>**.
 
-1.  On the Build menu, choose **Build \<Windows Form Control Library project name>**.
+2. Close all instances of Visual Studio.
 
-2.  Close all instances of Visual Studio.
+   > [!NOTE]
+   > Closing Visual Studio makes sure that the *.dll* file isn't locked before you try to copy it.
 
-    > [!NOTE]
-    > Closing Visual Studio makes sure that the *.dll* file isn't locked before you try to copy it.
+3. Copy the resulting *.dll* file from your project's *bin\debug* folder (for example, *MessageEditors.dll*) to *%ProgramFiles%\Microsoft Visual Studio\2017\\\<edition>\Common7\IDE\PrivateAssemblies\WebTestPlugins*.
 
-3.  Copy the resulting *.dll* file from your projects *bin\debug* folder (for example, *MessageEditors.dll*) to %ProgramFiles%\Microsoft Visual Studio\2017\\<edition>\Common7\IDE\PrivateAssemblies\WebTestPlugins.
+4. Open Visual Studio.
 
-4.  Open Visual Studio.
+   The *.dll* is now registered with Visual Studio.
 
-     The *.dll* is now registered with Visual Studio.
+## Verify the plug-ins using a Web Performance Test
 
-## Verify the Plug-ins Using a Web Performance Test
+1. Create a test project.
 
-### To test your plug-ins
+2. Create a web performance test and enter a URL in the browser to a web service.
 
-1.  Create a Test Project.
+3. When you finish the recording, in the Web Performance Test Editor, expand the request for the web service and select either a **String Body** or a **Binary Body**.
 
-2.  Create a Web performance test and enter a URL in the browser to a Web service.
+4. In the **Properties** window, select either String Body or Binary Body and choose the ellipsis **(…)**.
 
-3.  When you finish the recording, in the Web Performance Test Editor, expand the request for the Web service and select either a **String Body** or a **Binary Body**.
+   The **Edit HTTP Body Data** dialog box is displayed.
 
-4.  In the Properties window, Select either String Body or Binary Body and choose the ellipsis (…).
+5. You can now edit the data and choose **OK**. This invokes the applicable GetNewValue method to update the contents in the <xref:Microsoft.VisualStudio.TestTools.WebTesting.IHttpBody>.
 
-     The **Edit HTTP Body Data** dialog box is displayed.
-
-5.  You can now edit the data and choose OK. This invokes the applicable GetNewValue method to update the contents in the <xref:Microsoft.VisualStudio.TestTools.WebTesting.IHttpBody>.
-
-## Compile the Code
+## Compile the code
 
 Verify that the Targeted framework for the Windows Control Library project is .NET Framework 4.5. By default, Windows Control Library projects target the .NET Framework 4.5 Client framework, which will not allow the inclusion of the Microsoft.VisualStudio.QualityTools.WebTestFramework reference.
 
-For more information, see [Application Page, Project Designer (C#)](../ide/reference/application-page-project-designer-csharp.md).
+For more information, see [Application page, project designer (C#)](../ide/reference/application-page-project-designer-csharp.md).
 
 ## See also
 
@@ -319,9 +300,9 @@ For more information, see [Application Page, Project Designer (C#)](../ide/refer
 - <xref:System.Windows.Forms.UserControl>
 - <xref:System.Windows.Forms.RichTextBox>
 - [Create custom code and plug-ins for load tests](../test/create-custom-code-and-plug-ins-for-load-tests.md)
-- [How to: Create a Request-Level Plug-In](../test/how-to-create-a-request-level-plug-in.md)
-- [Coding a custom extraction rule for a web performance test](../test/code-a-custom-extraction-rule-for-a-web-performance-test.md)
-- [Coding a custom validation rule for a web performance test](../test/code-a-custom-validation-rule-for-a-web-performance-test.md)
-- [How to: Create a Load Test Plug-In](../test/how-to-create-a-load-test-plug-in.md)
+- [How to: Create a request-level plug-in](../test/how-to-create-a-request-level-plug-in.md)
+- [Code a custom extraction rule for a web performance test](../test/code-a-custom-extraction-rule-for-a-web-performance-test.md)
+- [Code a custom validation rule for a web performance test](../test/code-a-custom-validation-rule-for-a-web-performance-test.md)
+- [How to: Create a load test plug-in](../test/how-to-create-a-load-test-plug-in.md)
 - [Generate and run a coded web performance test](../test/generate-and-run-a-coded-web-performance-test.md)
-- [How to: Create a Visual Studio Add-In for the Web Performance Test Results Viewer](../test/how-to-create-an-add-in-for-the-web-performance-test-results-viewer.md)
+- [How to: Create a Visual Studio add-in for the Web Performance Test Results Viewer](../test/how-to-create-an-add-in-for-the-web-performance-test-results-viewer.md)

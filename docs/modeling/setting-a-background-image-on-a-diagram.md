@@ -1,37 +1,35 @@
 ---
 title: Setting a Background Image on a Diagram
 ms.date: 11/04/2016
-ms.topic: conceptual
-author: gewarren
-ms.author: gewarren
-manager: douge
+ms.topic: how-to
+author: JoshuaPartlow
+ms.author: joshuapa
+manager: jillfra
 ms.workload:
-  - "multiple"
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-modeling
+- multiple
 ---
 # Setting a Background Image on a Diagram
-In [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Visualization and Modeling SDK, you can set the background image for a generated designer by using custom code.
+In Visual Studio Visualization and Modeling SDK, you can set the background image for a generated designer by using custom code.
 
 ## Setting the background image
 
 #### To set a background image for a generated designer
 
-1.  Copy the image file that you want to use as the diagram's background into the Dsl\Resources directory for the current project.
+1. Copy the image file that you want to use as the diagram's background into the Dsl\Resources directory for the current project.
 
-2.  In **Solution Explorer**, right-click the Dsl\Resources folder, point to **Add**, and then click **Existing Item**.
+2. In **Solution Explorer**, right-click the Dsl\Resources folder, point to **Add**, and then click **Existing Item**.
 
-3.  In the **Add Existing Item** dialog box, browse to the Dsl\Resources folder.
+3. In the **Add Existing Item** dialog box, browse to the Dsl\Resources folder.
 
-4.  In the **Files of type** list, click **Image Files**.
+4. In the **Files of type** list, click **Image Files**.
 
-5.  Click the image file that you copied to the directory, and then click **Add**.
+5. Click the image file that you copied to the directory, and then click **Add**.
 
-6.  Right-click Dsl, and click **Properties** to open the properties of the Dsl project.
+6. Right-click Dsl, and click **Properties** to open the properties of the Dsl project.
 
-7.  On the **Resources** tab, click **This project does not contain a default resources file. Click here to create one.**
+7. On the **Resources** tab, click **This project does not contain a default resources file. Click here to create one.**
 
-8.  Add the image file to the resource file by dragging the picture from **Solution Explorer** into the resources window.
+8. Add the image file to the resource file by dragging the picture from **Solution Explorer** into the resources window.
 
 9. Open the File menu, and click the option to save the project properties.
 
@@ -55,7 +53,7 @@ In [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Visualization and M
 
      Replace "MyDiagramClass" with the name of the diagram partial class that is defined in Dsl\GeneratedCode\Diagrams.cs. You can also retrieve the correct namespace from the file Dsl\GeneratedCode\Diagrams.cs.
 
-    ```
+    ```csharp
     using System;
     using Microsoft.VisualStudio.Modeling.Diagrams;
 
@@ -96,7 +94,7 @@ In [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Visualization and M
 
      For more information about customizing the model with program code, see [Navigating and Updating a Model in Program Code](../modeling/navigating-and-updating-a-model-in-program-code.md).
 
-## See Also
+## See also
 
 - [Defining Shapes and Connectors](../modeling/defining-shapes-and-connectors.md)
 - [Customizing Text and Image Fields](../modeling/customizing-text-and-image-fields.md)

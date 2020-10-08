@@ -1,28 +1,26 @@
 ---
-title: "How to: Add Class Diagrams to Projects (Class Designer)"
+title: 'How to: Add Class Diagrams to Projects (Class Designer)'
 ms.date: 05/08/2018
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
-  - "class diagrams, creating"
-  - "Class Designer [Visual Studio], opening"
+- class diagrams, creating
+- Class Designer [Visual Studio], opening
 ms.assetid: 0eac1b54-2711-4e4b-9654-a0c429c08c8f
-author: gewarren
-ms.author: gewarren
-manager: douge
+author: TerryGLee
+ms.author: tglee
+manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # How to: Add class diagrams to projects
 
 To design, edit, and refactor classes and other types, add a class diagram to your C#, Visual Basic, or C++ project. To visualize different parts of the code in a project, add multiple class diagrams to the project.
 
-You can't create class diagrams from projects that share code across multiple apps. To create UML class diagrams, see [Create UML modeling projects and diagrams](../../modeling/create-uml-modeling-projects-and-diagrams.md).
+You can't create class diagrams from projects that share code across multiple apps. To create UML class diagrams, see [Create UML modeling projects and diagrams](../../modeling/what-s-new-for-design-in-visual-studio.md).
 
 ## Install the Class Designer component
 
-If you are running Visual Studio 2017 and you haven't installed the **Class Designer** component, follow these steps to install it.
+If you haven't installed the **Class Designer** component, follow these steps to install it.
 
 1. Open **Visual Studio Installer** from the Windows Start menu, or by selecting **Tools** > **Get Tools and Features** from the menu bar in Visual Studio.
 
@@ -53,11 +51,14 @@ To add multiple class diagrams, repeat the steps in this procedure.
 
 ## Add a class diagram based on existing types
 
-In **Solution Explorer**, open the class file context menu and then choose **View Class Diagram**.
+In **Solution Explorer**, open a class file's context menu (right-click) and then choose **View Class Diagram**.
 
 -or-
 
 In **Class View**, open the namespace or type context menu and then choose **View Class Diagram**.
+
+> [!TIP]
+> If **Class View** is not open, open **Class View** from the **View** menu.
 
 ## To display the contents of a complete project in a class diagram
 
@@ -65,10 +66,11 @@ In **Solution Explorer** or Class View, right-click the project and choose **Vie
 
 An auto-populated class diagram is created.
 
+> [!NOTE]
+> Class Designer is not available in .NET Core projects.
+
 ## See also
 
 - [How to: Create types using the Class Designer](how-to-create-types.md)
 - [How to: View existing types](how-to-view-existing-types.md)
 - [Design and view classes and types](designing-and-viewing-classes-and-types.md)
-- [View types and relationships](viewing-types-and-relationships.md)
-- [Work with class diagrams](working-with-class-diagrams.md)

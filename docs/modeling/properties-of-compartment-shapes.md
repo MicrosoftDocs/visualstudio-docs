@@ -6,13 +6,11 @@ f1_keywords:
   - "vs.dsltools.dsldesigner.compartmentshape"
 helpviewer_keywords:
   - "Domain-Specific Language, compartment shape"
-author: gewarren
-ms.author: gewarren
-manager: douge
+author: JoshuaPartlow
+ms.author: joshuapa
+manager: jillfra
 ms.workload:
   - "multiple"
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-modeling
 ---
 # Properties of Compartment Shapes
 Compartment shapes are one of the shapes you can use to display a domain class in a domain-specific language. You can expand and collapse the compartments.
@@ -22,7 +20,7 @@ Compartment shapes are one of the shapes you can use to display a domain class i
  Compartment shapes have the properties that are listed in the following table.
 
 |Property|Description|Default|
-|--------------|-----------------|-------------|
+|-|-|-|
 |Default Expand Collapse State|If `Expanded`, the compartments are shown on creation. If `Collapsed`, they are not.|Expanded|
 |Fill Color|The fill color of this shape.|White|
 |Fill Gradient Mode|The fill gradient mode of this shape.|Horizontal|
@@ -51,6 +49,6 @@ Compartment shapes are one of the shapes you can use to display a domain class i
 |Fixed Tooltip Text|The text that is used for a fixed tooltip.|\<none>|
 |Help Keyword|The keyword that is used to index F1 help for this shape.|\<none>|
 
-## See Also
+## See also
 
-- [Domain-Specific Language Tools Glossary](http://msdn.microsoft.com/ca5e84cb-a315-465c-be24-76aa3df276aa)
+- [Domain-Specific Language Tools Glossary](/previous-versions/bb126564(v=vs.100))

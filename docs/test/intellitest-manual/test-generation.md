@@ -1,16 +1,14 @@
 ---
-title: "Test generation | Microsoft IntelliTest Developer Test Tool"
+title: Test generation | Microsoft IntelliTest Developer Test Tool
 ms.date: 05/02/2017
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
 ms.topic: conceptual
-helpviewer_keywords: 
-  - "IntelliTest, Test generation"
-ms.author: gewarren
-manager: douge
-ms.workload: 
-  - "multiple"
-author: gewarren
+helpviewer_keywords:
+- IntelliTest, Test generation
+ms.author: mikejo
+manager: jillfra
+ms.workload:
+- multiple
+author: mikejo5000
 ---
 # Test generation
 
@@ -132,7 +130,7 @@ The validators are:
 IntelliTest can "test" internal types, as long as it can see them. For IntelliTest to see the types, the following attribute is added to your product or test project by the Visual Studio IntelliTest wizards:
 
 ```csharp
-[assembly: InternalsVisibleTo("Microsoft.Pex, PublicKey=002400000480000094000000060200000024000052534131000400000100010007d1fa57c4aed9f0a32e84aa0faefd0de9e8fd6aec8f87fb03766c834c99921eb23be79ad9d5dcc1dd9ad236132102900b723cf980957fc4e177108fc607774f29e8320e92ea05ece4e821c0a5efe8f1645c4c0c93c1ab99285d622caa652c1dfad63d745d6f2de5f17e5eaf0fc4963d261c8a12436518206dc093344d5ad293
+[assembly: InternalsVisibleTo("Microsoft.Pex, PublicKey=002400000480000094000000060200000024000052534131000400000100010007d1fa57c4aed9f0a32e84aa0faefd0de9e8fd6aec8f87fb03766c834c99921eb23be79ad9d5dcc1dd9ad236132102900b723cf980957fc4e177108fc607774f29e8320e92ea05ece4e821c0a5efe8f1645c4c0c93c1ab99285d622caa652c1dfad63d745d6f2de5f17e5eaf0fc4963d261c8a12436518206dc093344d5ad293")]
 ```
 
 <a name="assumptions-and-assertions"></a>
@@ -228,15 +226,14 @@ namespace MyTests
         }
     }
 }
-
 ```
 
 <a name="further-reading"></a>
 ## Further reading
 
-* [Test to code binding](https://blogs.msdn.microsoft.com/visualstudioalm/2015/04/18/smart-unit-tests-test-to-code-binding-test-case-management/)
-* [One test to rule them all](https://blogs.msdn.microsoft.com/visualstudioalm/2015/07/05/intellitest-one-test-to-rule-them-all/)
+* [Test to code binding](https://devblogs.microsoft.com/devops/smart-unit-tests-test-to-code-binding-test-case-management/)
+* [One test to rule them all](https://devblogs.microsoft.com/devops/intellitest-one-test-to-rule-them-all/)
 
 ## Got feedback?
 
-Post your ideas and feature requests on [UserVoice](https://visualstudio.uservoice.com/forums/121579-visual-studio-2015/category/157869-test-tools?query=IntelliTest).
+Post your ideas and feature requests on [Developer Community](https://developercommunity.visualstudio.com/content/idea/post.html?space=8).

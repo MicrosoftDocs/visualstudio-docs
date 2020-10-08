@@ -1,24 +1,23 @@
 ---
-title: "How to: Collect Performance Data for a Web Site | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
-ms.topic: "conceptual"
+title: Collect Performance Data for a Web Site | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: how-to
 f1_keywords: 
-  - "vsperf.url.url"
-  - "vsperf.chooseurl"
-  - "vs.performance.wizard.asppage"
-  - "vsperf.url.ok"
-  - "vsperf.url.cancel"
+  - vsperf.url.url
+  - vsperf.chooseurl
+  - vs.performance.wizard.asppage
+  - vsperf.url.ok
+  - vsperf.url.cancel
 helpviewer_keywords: 
-  - "Profiling Tools,profiling ASP.NET"
-  - "web sites, performance profiling"
-  - "ASP.NET, performance profilng"
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: douge
+  - Profiling Tools,profiling ASP.NET
+  - web sites, performance profiling
+  - ASP.NET, performance profilng
+author: mikejo5000
+ms.author: mikejo
+manager: jillfra
+monikerRange: 'vs-2017'
 ms.workload: 
-  - "multiple"
+  - multiple
 ---
 # How to: Collect performance data for a web site
 
@@ -35,7 +34,7 @@ You can use the **Performance Wizard** to collect performance data for an [!INCL
 
 - Some users might deny access to profiling to all other users.
 
- For more information, see [Profiling and Windows Vista security](../profiling/profiling-and-windows-vista-security.md) and the ADMIN options in [VSPerfCmd](../profiling/vsperfcmd.md).
+  For more information, see [Profiling and Windows Vista security](../profiling/profiling-and-windows-vista-security.md) and the ADMIN options in [VSPerfCmd](../profiling/vsperfcmd.md).
 
 ## To profile a web site project
 
@@ -73,11 +72,11 @@ You can use the **Performance Wizard** to collect performance data for an [!INCL
 
 5. In the **What URL or Path will run your web application** box on the third page of the wizard, enter the URL to the application home page, and then click **Next**.
 
-    - For a server (IIS) based Web site, type a URL such as **http://localhost/MySite/default.aspx**. This causes the [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] application on the local computer at the application root of MySite to be profiled, and the page default.aspx on that site to be started in Internet Explorer to start the session.
+   - For a server (IIS) based Web site, type a URL such as **<`http://localhost/MySite/default.aspx`>**. This causes the [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] application on the local computer at the application root of MySite to be profiled, and the page default.aspx on that site to be started in Internet Explorer to start the session.
 
-    - For a file based Web site, type a path such as file///**c:\WebSites\MySite\default.aspx**. This causes the [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] application located at c:\webSites\MySite to be profiled and the page http://localhost:nnnn/MySite/default.aspx to be started in Internet Explorer to start the session.
+   - For a file based Web site, type a path such as file///**c:\WebSites\MySite\default.aspx**. This causes the [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] application located at c:\webSites\MySite to be profiled and the page `http://localhost:nnnn/MySite/default.aspx` to be started in Internet Explorer to start the session.
 
-    - For external sites that you wish to collect JavaScript data on, type the URL, for example http://www.contoso.com.
+   - For external sites that you wish to collect JavaScript data on, type the URL, for example `http://www.contoso.com`.
 
      For more information, view the property pages for an [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] target binary.
 
@@ -97,7 +96,7 @@ You can use the **Performance Wizard** to collect performance data for an [!INCL
 
 ## See also
 
-[Overviews](../profiling/overviews-performance-tools.md)  
-[Configure performance sessions](../profiling/configuring-performance-sessions.md)  
-[Understand instrumentation data values](../profiling/understanding-instrumentation-data-values.md)  
+[Overviews](../profiling/overviews-performance-tools.md)
+[Configure performance sessions](../profiling/configuring-performance-sessions.md)
+[Understand instrumentation data values](../profiling/understanding-instrumentation-data-values.md)
 [Understand sampling data values](../profiling/understanding-sampling-data-values.md)

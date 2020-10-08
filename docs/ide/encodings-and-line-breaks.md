@@ -1,24 +1,22 @@
 ---
-title: Visual Studio encoding and line break characters
+title: Encoding and line break characters
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: conceptual
 f1_keywords:
-  - "vs.Encoding"
+- vs.Encoding
 helpviewer_keywords:
-  - "line breaks"
-  - "encoding"
-  - "Visual Studio, encoding"
-  - "editors, line breaks"
-  - "line break characters"
-  - "Visual Studio, line break characters"
+- line breaks
+- encoding
+- Visual Studio, encoding
+- editors, line breaks
+- line break characters
+- Visual Studio, line break characters
 ms.assetid: 8f9b3ffc-7b8d-44f4-87cb-dc29105be12d
-author: gewarren
-ms.author: gewarren
-manager: douge
+author: TerryGLee
+ms.author: tglee
+manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Encodings and line endings
 
@@ -45,9 +43,9 @@ You can use the **File** > **Advanced Save Options** dialog box to determine the
 ![Advanced Save Options dialog box](media/line_endings.png)
 
 > [!NOTE]
-> If you don't see **Advanced Save Options** on the **File** menu, you can add it. Choose **Tools**, **Customize...**, and then choose the **Commands** tab. In the **Menu bar** drop-down list, choose **File**, then choose the **Add Command...** button. In the **Add Command** dialog box, under **Categories**, choose **File**, and then in the **Commands** list, choose **Advanced Save Options...**. Choose **OK** and then choose the **Move Down** button to move the command to any place in the menu. Choose **Close** to close the **Customize** dialog box. For more information, see [Customize menus and toolbars](../ide/how-to-customize-menus-and-toolbars-in-visual-studio.md#customizing_menu).
+> If you don't see **Advanced Save Options** on the **File** menu, you can add it. Choose **Tools**, **Customize**, and then choose the **Commands** tab. In the **Menu bar** drop-down list, choose **File**, then choose the **Add Command** button. In the **Add Command** dialog box, under **Categories**, choose **File**, and then in the **Commands** list, choose **Advanced Save Options**. Choose **OK** and then choose the **Move Down** button to move the command to any place in the menu. Choose **Close** to close the **Customize** dialog box. For more information, see [Customize menus and toolbars](../ide/how-to-customize-menus-and-toolbars-in-visual-studio.md#customizing_menu).
 >
-> Alternatively, you can access the **Advanced Save Options** dialog box by choosing **File** > **Save \<file\> As...**. In the **Save File As** dialog box, choose the drop-down triangle next to the **Save** button and choose **Save with encoding...**.
+> Alternatively, you can access the **Advanced Save Options** dialog box by choosing **File** > **Save \<file\> As**. In the **Save File As** dialog box, choose the drop-down triangle next to the **Save** button and choose **Save with encoding**.
 
 ## See also
 

@@ -1,20 +1,18 @@
 ---
-title: "How to: Customize Class Diagrams (Class Designer)"
+title: 'How to: Customize Class Diagrams (Class Designer)'
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
-  - "class diagrams, customizing"
-  - "shapes, removing type from class diagrams"
-  - "type shapes, removing from class diagrams"
-  - "class diagrams, removing type shapes"
+- class diagrams, customizing
+- shapes, removing type from class diagrams
+- type shapes, removing from class diagrams
+- class diagrams, removing type shapes
 ms.assetid: e9030aea-c77d-4cc1-b8f6-b6ca469b692d
-author: gewarren
-ms.author: gewarren
-manager: douge
+author: TerryGLee
+ms.author: tglee
+manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # How to: Customize class diagrams
 
@@ -102,7 +100,7 @@ The sections that contain type members, such as the **Properties** section in a 
 
 2. Right-click the type with the hidden association or inheritance.
 
- Click **Show All Members** for association lines, and click **Show Base Class** or **Show Derived Classes** for inheritance lines.
+   Click **Show All Members** for association lines, and click **Show Base Class** or **Show Derived Classes** for inheritance lines.
 
 ## Remove a shape from a class diagram
 You can remove a type shape from the class diagram without affecting the type's underlying code. Removing type shapes from a class diagram affects only that diagram: the underlying code that defines the type and other diagrams that display the type are not affected.
@@ -123,7 +121,6 @@ You can remove a type shape from the class diagram without affecting the type's 
 
 ## See also
 
-- [Working with Class Diagrams](working-with-class-diagrams.md)
 - [How to: Change Between Member Notation and Association Notation](how-to-change-between-member-notation-and-association-notation.md)
 - [How to: View Existing Types](how-to-view-existing-types.md)
-- [Viewing Types and Relationships](viewing-types-and-relationships.md)
+- [Viewing Types and Relationships](designing-and-viewing-classes-and-types.md)

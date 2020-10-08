@@ -3,16 +3,14 @@ title: Properties of Swimlanes
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "vs.dsltools.dsldesigner.swimlane"
+- vs.dsltools.dsldesigner.swimlane
 helpviewer_keywords:
-  - "Domain-Specific Language, swimlane"
-author: gewarren
-ms.author: gewarren
-manager: douge
+- Domain-Specific Language, swimlane
+author: JoshuaPartlow
+ms.author: joshuapa
+manager: jillfra
 ms.workload:
-  - "multiple"
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-modeling
+- multiple
 ---
 # Properties of Swimlanes
 You can add swimlanes to a diagram. Swimlanes divide a diagram into vertical or horizontal areas. You can define other shapes to be displayed inside swimlanes. For more information, see [How to Define a Domain-Specific Language](../modeling/how-to-define-a-domain-specific-language.md). For more information about how to use these properties, see [Customizing and Extending a Domain-Specific Language](../modeling/customizing-and-extending-a-domain-specific-language.md).
@@ -20,7 +18,7 @@ You can add swimlanes to a diagram. Swimlanes divide a diagram into vertical or 
  Swimlanes have the properties that are listed in the following table.
 
 |Property|Description|Default|
-|--------------|-----------------|-------------|
+|-|-|-|
 |Body Fill Color|The fill color for the body of the swimlane.|White|
 |Header Fill Color|The fill color for the header of the swimlane.|DarkGray|
 |Separator Color|The color of the separator line.|LightGray|
@@ -46,6 +44,6 @@ You can add swimlanes to a diagram. Swimlanes divide a diagram into vertical or 
 |Fixed Tooltip Text|The text that is used for a fixed tooltip.|\<none>|
 |Help Keyword|The keyword that is used to index F1 help for this swimlane.|\<none>|
 
-## See Also
+## See also
 
-- [Domain-Specific Language Tools Glossary](http://msdn.microsoft.com/ca5e84cb-a315-465c-be24-76aa3df276aa)
+- [Domain-Specific Language Tools Glossary](/previous-versions/bb126564(v=vs.100))

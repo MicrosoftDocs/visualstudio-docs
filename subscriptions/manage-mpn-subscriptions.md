@@ -1,27 +1,21 @@
 ---
-title: Manage Visual Studio subscriptions offered through the Microsoft Partner Network (MPN) | Microsoft Docs
+title: Manage Visual Studio subscriptions from Microsoft Partner Network | Microsoft Docs
 author: evanwindom
-ms.author: jaunger
-manager: evelynp
-ms.date: 12/11/2017
-ms.topic: Get-Started-Article
+ms.author: v-evwin
+manager: cabuschl
+ms.assetid: 83efe4ee-9a9d-4776-b27c-852d89dadafd
+ms.date: 09/08/2020
+ms.topic: how-to
 description: How to assign Visual Studio subscriptions to your end users, for MPN partners.
-ms.prod: vs-subscription
-ms.technology: vs-subscriptions
-searchscope: VS Subscription
 ---
 
-# Managing Visual Studio subscriptions offered through the Microsoft Partner Network (MPN)
-
+# Manage Visual Studio subscriptions offered through the Microsoft Partner Network (MPN)
 Partners who earn a competency or who purchase the Action Pack in MPN are eligible to use Visual Studio subscriptions. These subscriptions are licensed per user, and are only valid when assigned to a specific named user who works for the partner company.
 
-See [Visual Studio subscriptions offered to partners in the Microsoft Partner Network (MPN)](program-mpn.md) for details.
+See Visual Studio subscriptions offered to partners in the [Microsoft Partner Network (MPN)](program-mpn.md) for details.
 
-## High-level assignment and access flow
-
-### Microsoft Action Pack subscribers
+## Microsoft Action Pack subscribers
 Microsoft Action Pack subscriber and Visual Studio subscriptions
-
 1. Program Administrator will log into Partner Membership Center
 2. Associate people through **Requirements and Assets**
 3. Locate individuals and **Assign Roles**
@@ -30,7 +24,7 @@ Microsoft Action Pack subscriber and Visual Studio subscriptions
 6. Select **Privileges**
 7. Select **Visual Studio Subscriptions** (Note: Visual Studio subscription update pending)
 8. Select the desired **Individual**
-9. Click **Submit**
+9. Select **Submit**
 10. The individual will receive an email
 11. The assigned individual will access [https://my.visualstudio.com](https://my.visualstudio.com?wt.mc_id=o~msft~docs) to sign in
 12. A Visual Studio profile page may be displayed, including:
@@ -39,13 +33,12 @@ Microsoft Action Pack subscriber and Visual Studio subscriptions
     - Contact Email
 13. Sign-in is now complete, and the subscriber should have access to benefits
 
-
-### Competency Partners
+## Competency Partners
 1. Select **Requirements and Assets**
 2. Select **Privileges**
 3. Select **MSDN Subscriptions** (Note:  this will be relabeled "Visual Studio subscriptions" soon)
 4. Locate the desired **Individual**
-5. Click **Submit**
+5. Select **Submit**
 6. The individual will receive an email
 7. The assigned individual will access [https://my.visualstudio.com](https://my.visualstudio.com?wt.mc_id=o~msft~docs) to sign in
 8. A Visual Studio profile page may be displayed
@@ -54,16 +47,19 @@ Microsoft Action Pack subscriber and Visual Studio subscriptions
     - Contact Email
 9. Sign-in is now complete, and the subscriber should have access to benefits
 
-## Resources and References
-
+## Resources and references
 - Details regarding the Microsoft Partner Network [Visual Studio subscriptions](https://partner.microsoft.com/membership/msdn-subscriptions)
+- Microsoft Partner Network [Program Administrator Guide to Software and Online Services Benefits](https://assetsprod.microsoft.com/mpn/Program-Administrator-Guide-to-Software-and-Online-Services-Benefits)
+  - Pg 6 - Assigning Contact Roles and Visual Studio subscriptions for Action Pack
+  > [!NOTE]
+  > The Technical Contact Role is required for Visual Studio subscriptions
+  - Pg 8 – Assigning Visual Studio subscriptions for Competency Partners
 
-- Microsoft Partner Network [Program Administrator Guide to Software and Online Services Benefits](https://assets.microsoft.com/Program-Administrator-Guide-to-Software-and-Online-Services-Benefits_1.pdf)
-    - Pg 6 - Assigning Contact Roles and Visual Studio subscriptions for Action Pack
+## See also
+- [Visual Studio documentation](/visualstudio/)
+- [Azure DevOps documentation](/azure/devops/)
+- [Azure documentation](/azure/)
+- [Microsoft 365 documentation](/microsoft-365/)
 
-> [!NOTE]
-> The Technical Contact Role is required for Visual Studio subscriptions
-    - Pg 8 – Assigning Visual Studio subscriptions for Competency Partners
-
-## Need help?
+## Next steps
 Subscribers and Program Administrators should work directly with the Microsoft Partner Network support team to resolve any problems with subscribers accessing subscriptions. Visit the [Support for Partners](https://partner.microsoft.com/support) page for assistance. (Your MPN sign in credentials will be required.)

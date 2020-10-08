@@ -1,10 +1,8 @@
 ---
 title: "IntelliTrace Features | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
+ms.date: "09/19/2018"
 ms.topic: "conceptual"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "IntelliTrace, debugging with events"
   - "IntelliTrace, recording execution history"
   - "debugging [Visual Studio ALM], recording execution history"
@@ -19,11 +17,11 @@ helpviewer_keywords:
   - "debugging [Visual Studio ALM], IntelliTrace"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
-ms.workload: 
+manager: jillfra
+ms.workload:
   - "multiple"
 ---
-# IntelliTrace Features
+# IntelliTrace Features (C#, Visual Basic, C++)
 
 You can use IntelliTrace to record events and method calls your application, which allows you to examine its state (call stack and local variable values) at different points in the execution. Just start debugging as usual - IntelliTrace is turned on by default, and you can see the information IntelliTrace is recording in the new **Diagnostic Tools** window under the **Events** tab. Select an event and click **Activate Historical Debugging** to see the call stack and locals recorded for this event.
 
@@ -36,23 +34,23 @@ To confirm that IntelliTrace is turned on, open the **Tools > Options > IntelliT
 > [!NOTE]
 > The scope of all settings on the **IntelliTrace** options page is Visual Studio as a whole, not individual projects or solutions. A change in these settings applies to all instances of Visual Studio, all debugging sessions and all projects or solutions.
 
-## <a name="ChooseEvents"></a> Choose the events that IntelliTrace records
+## <a name="ChooseEvents"></a> Choose the events that IntelliTrace records (C#, Visual Basic)
 
 You can turn on or off recording for specific IntelliTrace events.
 
 If you're debugging, stop debugging. Go to **Tools > Options > IntelliTrace > IntelliTrace Events**. Choose the events you want IntelliTrace to record.
 
-## <a name="Snapshots"></a> Collect events and snapshots
+## <a name="Snapshots"></a> Collect snapshots (C#, Visual Basic, C++)
 
-This isn't enabled by default, but IntelliTrace can capture snapshots of your application at every breakpoint and debugger step event, and you can view theses snapshots in a historical debugging session. A snapshot gives you a view of your full application state. To enable the capture of snapshots, go to **Tools > Options > IntelliTrace > General**, and select **IntelliTrace events and snapshots**. For more information, see [View snapshots using IntelliTrace step-back](../debugger/how-to-use-intellitrace-step-back.md)
+This isn't enabled by default, but IntelliTrace can capture snapshots of your application at every breakpoint and debugger step event, and you can view these snapshots in a historical debugging session. A snapshot gives you a view of your full application state. To enable the capture of snapshots, go to **Tools > Options > IntelliTrace > General**, and select **IntelliTrace snapshots (managed and native)**. For more information, see [Inspect previous app states using IntelliTrace](../debugger/view-historical-application-state.md).
 
-Snapshots are available in Visual Studio Enterprise 2017 version 15.5 and higher, and it requires Windows 10 Anniversary Update or above.  For .NET Core and ASP.NET Core apps, Visual Studio Enterprise 2017 version 15.7 preview 1 is required.
+Snapshots are available in Visual Studio Enterprise 2017 version 15.5 and higher, and it requires Windows 10 Anniversary Update or above.  For .NET Core and ASP.NET Core apps, Visual Studio Enterprise 2017 version 15.7 is required. For native apps targeting Windows, Visual Studio Enterprise 2017 version 15.9 Preview 2 is required.
 
-## <a name="GoingFurther"></a> Collect IntelliTrace events and call information
+## <a name="GoingFurther"></a> Collect IntelliTrace events and call information (C#, Visual Basic)
 
-This isn't enabled by default, but IntelliTrace can record method calls along with events. To enable collection of method calls go to **Tools > Options > IntelliTrace > General**, and select **IntelliTrace events and call information**.
+This isn't enabled by default, but IntelliTrace can record method calls along with events. To enable collection of method calls go to **Tools > Options > IntelliTrace > General**, and select **IntelliTrace events and call information (managed only)**.
 
-Call information is not currently available for .NET Core and ASP.NET Core apps. 
+Call information is not currently available for .NET Core and ASP.NET Core apps.
 
 This lets you see the call stack history and step backward and forward through calls in your code. IntelliTrace records data such as method names, method entry and exit points, and certain parameter values and return values.
 
@@ -67,7 +65,7 @@ You can use the navigation gutter that appears to the left of the code window. I
 
 The navigation gutter allows you to move forwards and backwards through method calls and events in historical debugging mode. For more information about historical debugging, see [Historical Debugging](../debugger/historical-debugging.md). It has a number of commands:
 
-|||
+|Command|Description|
 |-|-|
 |**Set Debugger Context Here**|Set the debugging context to the call timeframe where it appears.<br /><br /> This icon appears only on the current call stack.|
 |**Return to Call Site**|Move the pointer and debugging context back to where the current function was called.<br /><br /> If you are in Live Debugging mode, this command turns Historical Debugging on. If you navigate back to the original execution break, Historical Debugging is turned off and Live Debugging is turned on.|
@@ -88,7 +86,7 @@ To add multiple modules, use the wildcard character * at the start or the end of
 
 Try to keep the number of modules to a minimum. You get better performance because there is less data to be collected. You also get less noise in the UI because there is less data to go through.
 
-## <a name="SaveSession"></a> Save IntelliTrace data to file
+## <a name="SaveSession"></a> Save IntelliTrace data to file (C#, Visual Basic, C++)
 
 You can save the data that IntelliTrace has collected going to **Debug > IntelliTrace > Save IntelliTrace Session** while you are debugging and the application is in a break state. The menu item is disabled and you will not be able to save the data IntelliTrace has collected if the application is still running or if you have stopped debugging.
 
@@ -101,25 +99,25 @@ When you save IntelliTrace data to file, you get one .itrace file for each proce
 
 ## Blogs
 
-[IntelliTrace in Visual Studio Enterprise 2015](http://blogs.msdn.com/b/visualstudioalm/archive/2015/01/16/intellitrace-in-visual-studio-ultimate-2015.aspx)
+[IntelliTrace in Visual Studio Enterprise 2015](https://devblogs.microsoft.com/devops/intellitrace-in-visual-studio-ultimate-2015/)
 
-[Walkthrough of Live Debugging using IntelliTrace in Visual Studio 2015 (Text Editor)](http://blogs.msdn.com/b/visualstudioalm/archive/2015/01/16/walkthrough-of-live-debugging-using-intellitrace-in-visual-studio-2015-text-editor.aspx)
+[Walkthrough of Live Debugging using IntelliTrace in Visual Studio 2015 (Text Editor)](https://devblogs.microsoft.com/devops/walkthrough-of-live-debugging-using-intellitrace-in-visual-studio-2015-text-editor/)
 
-[Walkthrough of Live Debugging using IntelliTrace in Visual Studio 2015 (Social Club)](http://blogs.msdn.com/b/visualstudioalm/archive/2000/1/1/walkthrough-of-live-debugging-using-intellitrace-in-visual-studio-2015-social-club.aspx)
+[Walkthrough of Live Debugging using IntelliTrace in Visual Studio 2015 (Social Club)](https://devblogs.microsoft.com/devops/walkthrough-of-live-debugging-using-intellitrace-in-visual-studio-2015-social-club/)
 
-[IntelliTrace in Visual Studio Enterprise 2015 now supports attach!](http://blogs.msdn.com/b/visualstudioalm/archive/2015/05/14/intellitrace-in-visual-studio-enterprise-2015-now-supports-attach.aspx)
+[IntelliTrace in Visual Studio Enterprise 2015 now supports attach!](https://devblogs.microsoft.com/devops/intellitrace-in-visual-studio-enterprise-2015-now-supports-attach/)
 
-[Collect data from a windows service using the IntelliTrace Standalone Collector](http://blogs.msdn.com/b/visualstudioalm/archive/2015/05/14/collect-data-from-a-windows-service-using-the-intellitrace-standalone-collector.aspx)
+[Collect data from a windows service using the IntelliTrace Standalone Collector](https://devblogs.microsoft.com/devops/collect-data-from-a-windows-service-using-the-intellitrace-standalone-collector/)
 
-[Editing the IntelliTrace collection plan](http://blogs.msdn.com/b/visualstudioalm/archive/2015/03/09/editing-the-intellitrace-collection-plan.aspx)
+[Editing the IntelliTrace collection plan](https://devblogs.microsoft.com/devops/editing-the-intellitrace-collection-plan)
 
-[Custom TraceSource and debugging using IntelliTrace](http://blogs.msdn.com/b/visualstudioalm/archive/2014/12/17/custom-tracesource-and-debugging-using-intellitrace.aspx)
+[Custom TraceSource and debugging using IntelliTrace](https://devblogs.microsoft.com/devops/custom-tracesource-and-debugging-using-intellitrace/)
 
-[IntelliTrace Standalone Collector and Application Pools running under Active Directory accounts](http://blogs.msdn.com/b/visualstudioalm/archive/2014/12/22/intellitrace-standalone-collector-and-application-pools-running-under-active-directory-accounts.aspx)
+[IntelliTrace Standalone Collector and Application Pools running under Active Directory accounts](https://devblogs.microsoft.com/devops/intellitrace-standalone-collector-and-application-pools-running-under-active-directory-accounts/)
 
 ## Forums
 
-[Visual Studio Debugger](http://go.microsoft.com/fwlink/?LinkId=262263)
+[Visual Studio Debugger](https://social.msdn.microsoft.com/Forums/en-US/home)
 
 ## Videos
 

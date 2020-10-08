@@ -1,20 +1,19 @@
 ---
-title: "VSPerfCLREnv | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
-ms.topic: "conceptual"
+title: VSPerfCLREnv | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: reference
 helpviewer_keywords: 
-  - "command-line tools, VSPerfCLREnv"
-  - "command line, tools"
-  - "performance tools, VSPerfCLREnv"
-  - "profiling tools,VSPerfCLREnv"
-  - "VSPerfCLREnv tool"
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: douge
+  - command-line tools, VSPerfCLREnv
+  - command line, tools
+  - performance tools, VSPerfCLREnv
+  - profiling tools,VSPerfCLREnv
+  - VSPerfCLREnv tool
+author: mikejo5000
+ms.author: mikejo
+manager: jillfra
+monikerRange: 'vs-2017'
 ms.workload: 
-  - "multiple"
+  - multiple
 ---
 # VSPerfCLREnv
 
@@ -52,7 +51,7 @@ The following example includes tier interaction data in a profiling run for a Wi
 VSPerfCLREnv /GlobalSampleOn
 VSPerfCLREnv /GlobalInteractionOn
 REM Restart the computer and start the service
-VSPerfCmd /Start:Sample /Output:MyService.exe.vsp 
+VSPerfCmd /Start:Sample /Output:MyService.exe.vsp
 VSPerfCmd /Attach:MyService.exe
 ```
 

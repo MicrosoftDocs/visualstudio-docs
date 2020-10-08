@@ -1,22 +1,19 @@
 ---
-title: "Extending a language service to support EditorConfig in Visual Studio | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/22/2017"
-ms.technology: 
-  - "vs-ide-sdk"
-ms.topic: "conceptual"
-helpviewer_keywords: 
-  - "editorconfig [extensibility]"
-  - "editorconfig, supporting in a language service"
-author: "gregvanl"
-ms.author: "gregvanl"
-manager: douge
-ms.workload: 
-  - "vssdk"
+title: Extend language service to support EditorConfig
+ms.date: 11/22/2017
+ms.topic: conceptual
+helpviewer_keywords:
+- editorconfig [extensibility]
+- editorconfig, supporting in a language service
+author: acangialosi
+ms.author: anthc
+manager: jillfra
+ms.workload:
+- vssdk
 ---
 # Supporting EditorConfig for your language service
 
-[EditorConfig](http://editorconfig.org/) files enable you to describe common text editor options, such as indent size, on a per-project basis. To learn more about Visual Studio's support for EditorConfig files, see [Create portable editor settings using EditorConfig](../ide/create-portable-custom-editor-options.md).
+[EditorConfig](https://editorconfig.org/) files enable you to describe common text editor options, such as indent size, on a per-project basis. To learn more about Visual Studio's support for EditorConfig files, see [Create portable editor settings using EditorConfig](../ide/create-portable-custom-editor-options.md).
 
 In most cases when you implement a Visual Studio language service, no additional work is needed to support EditorConfig universal properties. The core editor automatically discovers and reads the .editorconfig file when users open files, and it sets the appropriate text buffer and view options. However, for edits such as tabs and spaces, some language services opt to use an appropriate contextual text view option rather than using global settings. In these cases, the language service must be updated to support EditorConfig files.
 
@@ -42,5 +39,5 @@ Microsoft.VisualStudio.TextManager.Interop.LANGPREFERENCES.uTabSize<br/>Microsof
 
 ## See also
 
-[Create portable editor settings using EditorConfig](../ide/create-portable-custom-editor-options.md)  
-[Extending the editor and language services](../extensibility/extending-the-editor-and-language-services.md)
+- [Create portable editor settings using EditorConfig](../ide/create-portable-custom-editor-options.md)
+- [Extending the editor and language services](../extensibility/extending-the-editor-and-language-services.md)

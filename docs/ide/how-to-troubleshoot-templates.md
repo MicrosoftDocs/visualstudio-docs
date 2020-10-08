@@ -1,14 +1,12 @@
 ---
-title: Troubleshoot Visual Studio project template and item template loading
+title: Troubleshoot project template and item template loading
 ms.date: 01/02/2018
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: troubleshooting
 helpviewer_keywords:
-  - "templates [Visual Studio], troubleshooting"
-author: gewarren
-ms.author: gewarren
-manager: douge
+- templates [Visual Studio], troubleshooting
+author: TerryGLee
+ms.author: tglee
+manager: jillfra
 ---
 # How to: Troubleshoot templates
 
@@ -16,7 +14,17 @@ If a template fails to load in the development environment, there are several wa
 
 ## Validate the vstemplate file
 
+::: moniker range="vs-2017"
+
 If the *vstemplate* file in a template doesn't adhere to the Visual Studio template schema, the template may not appear in the **New Project** dialog box.
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+If the *vstemplate* file in a template doesn't adhere to the Visual Studio template schema, the template may not appear in the dialog box where you create new projects.
+
+::: moniker-end
 
 ### To validate the vstemplate file
 
@@ -31,7 +39,7 @@ If the *vstemplate* file in a template doesn't adhere to the Visual Studio templ
 1. Verify that the XML of the *vstemplate* file adheres to the template schema. For more information on the *vstemplate* schema, see [Template schema reference](../extensibility/visual-studio-template-schema-reference.md).
 
     > [!NOTE]
-    > To get IntelliSense support while authoring the *vstemplate* file, add a `xmlns` attribute to the `VSTemplate` element, and assign it a value of http://schemas.microsoft.com/developer/vstemplate/2005.
+    > To get IntelliSense support while authoring the *vstemplate* file, add a `xmlns` attribute to the `VSTemplate` element, and assign it a value of `http://schemas.microsoft.com/developer/vstemplate/2005`.
 
 1. Save and close the *vstemplate* file.
 

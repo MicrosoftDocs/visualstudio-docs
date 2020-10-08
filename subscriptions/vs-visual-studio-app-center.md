@@ -1,51 +1,54 @@
 ---
 title: Visual Studio App Center Benefit in Visual Studio Subscriptions | Microsoft Docs
 author: evanwindom
-ms.author: jaunger
-manager: evelynp
-ms.date: 01/15/2018
-ms.topic: Get-Started-Article
+ms.author: v-evwin
+manager: lank
+ms.assetid: badd1d4a-90a6-46de-a037-945a91e6019b
+ms.date: 04/20/2020
+ms.topic: how-to
 description:  Learn about the Visual Studio App Center benefit included in Visual Studio subscriptions.
-ms.prod: vs-subscription
-ms.technology: vs-subscriptions
-searchscope: VS Subscription
 ---
 
 # Visual Studio App Center in Visual Studio subscriptions
 
 App Center is mission control for apps.
 
--  Automatically build your app, test it on real devices, and distribute it to beta testers
--  Collect crash reports and user analytics, including custom events.
--  Add push notifications to your app in minutes
+- Automatically build your app, test it on real devices, and distribute it to beta testers
+- Collect crash reports and user analytics, including custom events.
+- Add push notifications to your app in minutes
 
 ## Activation steps
 Getting started with Visual Studio App Center is easy.
-1.  Sign in to [https://my.visualstudio.com/benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs).
+1. Sign in to [https://my.visualstudio.com/benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs).
 
 2. Locate the Visual Studio App Center tile, and click **Get started**.
-
-    ![VS App Center Tile](_img/vs-app-center/vs-app-center-tile.png)
+    > [!div class="mx-imgBorder"]
+    > ![VS App Center Tile](_img/vs-app-center/vs-app-center-tile.png)
 
 3. Next, create an account.  You can use existing accounts for Microsoft, Google, GitHub or Facebook to log in, or create a new account by providing your username, email, and password.  Click **Create account** to continue.
-
-    ![VS App Center Create Account](_img/vs-app-center/vs-app-center-create-account.png)
+    > [!div class="mx-imgBorder"]
+    > ![VS App Center Create Account](_img/vs-app-center/vs-app-center-create-account.png)
 
 4. That's all there is to it.  Just click **Add new organization** or **Add new app** to get started!
-
-    ![VS App Center Portal](_img/vs-app-center/vs-app-center-portal.png)
+    > [!div class="mx-imgBorder"]
+    > ![VS App Center Portal](_img/vs-app-center/vs-app-center-portal.png)
 
 ## Eligibility
+
 | Subscription Level                                                 |     Channels                                            | Benefit                                                          | Renewable?    |
 |--------------------------------------------------------------------|---------------------------------------------------------|------------------------------------------------------------------|---------------|
-| Visual Studio Enterprise (Standard, annual cloud, monthly cloud)   | VL, Azure, Retail,  NFR<sup>1</sup> | Included       |  Yes          |
-| Visual Studio Professional (Standard, annual cloud, monthly cloud) | VL, Azure, Retail                                       | Included                                                            |Yes |
+| Visual Studio Enterprise (Standard, monthly cloud)   | VL, Azure, Retail,  NFR<sup>1</sup> | Included       |  Yes          |
+| Visual Studio Enterprise with GitHub Enterprise  | VL | Included       |  Yes          |
+| Visual Studio Professional (Standard, monthly cloud) | VL, Azure, Retail                                       | Included                                                            |Yes |
+| Visual Studio Professional with GitHub Enterprise | VL                                      | Included                                                            |Yes |
 | Visual Studio Test Professional (Standard)                         | VL, Retail                                              | Included                                                            |Yes |
 | MSDN Platforms (Standard)                                          | VL, Retail                                              | Included                                                            |Yes |
-| Visual Studio Dev Essentials | NA  | Included                                                            |Yes |
+||
 
+<sup>1</sup>  *Includes:  Not for Resale (NFR), FTE, Visual Studio Industry Partner (VSIP), Imagine, Microsoft Partner Network (MPN), MCT Software & Services, MCT Software & Services Developer, BizSpark, Most Valuable Professional (MVP), Regional Director (RD).*
 
-<sup>1</sup>  *Includes:  Not for Resale (NFR), FTE, Visual Studio Industry Partner (VSIP), Imagine, Microsoft Partner Network (MPN), MCT Software & Services, MCT Software & Services Developer, BizSpark, Microsoft Valued Partner (MVP), Region Director (RD).*
+> [!NOTE]
+> Microsoft no longer offers Visual Studio Professional Annual subscriptions and Visual Studio Enterprise Annual subscriptions in Cloud Subscriptions. There will be no change to existing customers experience and ability to renew, increase, decrease, or cancel their subscriptions. New customers are encouraged to go to [https://visualstudio.microsoft.com/vs/pricing/](https://visualstudio.microsoft.com/vs/pricing/) to explore different options to purchase Visual Studio.
 
 Not sure which subscription you're using?  Connect to [https://my.visualstudio.com/subscriptions](https://my.visualstudio.com/subscriptions?wt.mc_id=o~msft~docs) to see all the subscriptions assigned to your email address. If you don't see all your subscriptions, you may have one or more assigned to a different email address.  You'll need to sign in with that email address to see those subscriptions.
 
@@ -53,15 +56,27 @@ Not sure which subscription you're using?  Connect to [https://my.visualstudio.c
 
 ### Q:  I get an error that my browser is unsupported.  What's wrong?
 A:  App Center requires newer capabilities that may not be provided by some older browsers.  If your browser isn't supported, follow these steps:
-1.  Open a different browser, such as Microsoft Edge or the latest versions of Google Chrome or Firefox, or Safari.
-2.  Connect to the Visual Studio [https://my.visualstudio.com/benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs) and sign in.
-3.  Now click on the **Get started** link on the Visual Studio App Center tile.
+1. Open a different browser, such as Microsoft Edge or the latest versions of Google Chrome or Firefox, or Safari.
+2. Connect to the Visual Studio [https://my.visualstudio.com/benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs) and sign in.
+3. Now click on the **Get started** link on the Visual Studio App Center tile.
 
 You should now be able to access the App Center portal and create your account.
 
 ## Support Resources
--  Need help with App Center?
-    - Get advice and answers from the App Center Team in the [App Center Help Center](https://intercom.help/appcenter/).
-    - Check out complete [App Center documentation](/appcenter/)
--  For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, contact Visual Studio [Subscriptions Support](https://visualstudio.microsoft.com/subscriptions/support/).
--  Have a question about Visual Studio IDE, Visual Studio Team Services or other Visual Studio products or services?  Visit [Visual Studio Support](https://visualstudio.microsoft.com/support/).
+- Need help with App Center?
+  - Get advice and answers from the App Center Team in the [App Center Help Center](https://intercom.help/appcenter/).
+  - Check out complete [App Center documentation](/appcenter/)
+- For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, contact Visual Studio [Subscriptions Support](https://visualstudio.microsoft.com/subscriptions/support/).
+- Have a question about Visual Studio IDE, Azure DevOps Services or other Visual Studio products or services?  Visit [Visual Studio Support](https://visualstudio.microsoft.com/support/).
+
+## See also
+- [Visual Studio documentation](/visualstudio/)
+- [Azure DevOps documentation](/azure/devops/)
+- [Azure documentation](/azure/)
+- [Microsoft 365 documentation](/microsoft-365/)
+
+## Next steps
+Be sure to activate these great benefits to make the most of your Visual Studio subscription:
+- [Visual Studio](vs-ide-benefit.md)
+- [Azure DevOps](vs-azure-devops.md)
+- [Azure DevTest individual credit](vs-azure.md)

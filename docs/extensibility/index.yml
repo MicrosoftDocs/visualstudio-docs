@@ -1,0 +1,86 @@
+### YamlMime:Landing
+
+title: Visual Studio Extensibility 
+summary: Learn about Visual Studio extensibility.
+
+metadata:
+  title: Visual Studio Extensibility
+  description: Learn how to extend Visual Studio.
+  ms.topic: landing-page
+  ms.date: 02/24/2020
+  author: madskristensen
+  ms.author: madsk  
+  manager: jillfra
+  ms.prod: visual-studio-windows
+  ms.technology: vs-ide-general  
+
+# linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | whats-new
+
+landingContent: 
+  # Card
+  - title: Get Started
+    linkLists:
+      - linkListType: get-started
+        links:
+          - text: Install the Visual Studio SDK
+            url: ./installing-the-visual-studio-sdk.md
+      - linkListType: overview
+        links:
+          - text: Writing Visual Studio extensions
+            url: https://devblogs.microsoft.com/visualstudio/getting-started-writing-visual-studio-extensions
+      - linkListType: tutorial
+        links:
+          - text: "Create your first extension: Hello World"
+            url: ./extensibility-hello-world.md
+
+  # Card
+  - title: Extend
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+          - text: Menus and Commands
+            url: ./extending-menus-and-commands.md
+          - text: Tool Windows
+            url: ./extending-and-customizing-tool-windows.md
+          - text: Editor and Languages
+            url: ./editor-and-language-service-extensions.md
+          - text: Language Server Protocol
+            url: ./language-server-protocol.md
+          - text: Settings and Options
+            url: ./extending-user-settings-and-options.md
+
+  # Card
+  - title: Resources
+    linkLists:
+      - linkListType: sample
+        links:
+          - text: Visual Studio Extensibility samples
+            url: https://github.com/Microsoft/VSSDK-Extensibility-Samples
+      - linkListType: learn
+        links:
+          - text: ExtendVS Gitter community
+            url: https://gitter.im/Microsoft/extendvs
+          - text: Extensibility on Visual Studio Blog
+            url: https://devblogs.microsoft.com/visualstudio/tag/extensions/
+
+  # Card
+  - title: Ship extensions
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+          - text: Publish an extension
+            url: ./walkthrough-publishing-a-visual-studio-extension.md
+          - text: Command line publishing
+            url: ./walkthrough-publishing-a-visual-studio-extension-via-command-line.md
+          - text: Private galleries
+            url: https://devblogs.microsoft.com/visualstudio/create-a-private-gallery-for-self-hosted-visual-studio-extensions
+
+  # Card
+  - title: Discover what's new
+    linkLists:
+      - linkListType: whats-new
+        links:
+          - text: Visual Studio 2019 SDK
+            url: ./whats-new-visual-studio-2019-sdk.md
+          - text: Visual Studio 2017 SDK
+            url: ./what-s-new-in-the-visual-studio-2017-sdk.md

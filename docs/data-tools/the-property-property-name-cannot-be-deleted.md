@@ -1,13 +1,11 @@
 ---
 title: The property cannot be deleted
 ms.date: 11/04/2016
-ms.topic: reference
+ms.topic: error-reference
 ms.assetid: 55873f74-7834-4ec1-8815-eeeb65618d87
-author: gewarren
-ms.author: gewarren
-manager: douge
-ms.prod: visual-studio-dev15
-ms.technology: vs-data-tools
+author: ghogen
+ms.author: ghogen
+manager: jillfra
 ms.workload:
   - "data-storage"
 ---
@@ -21,7 +19,7 @@ Set the **Discriminator Property** to a different property of the data class to 
 
 ## To correct this error
 
-1. In the O/R Designer, select the inheritance line that connects the data classes indicated in the error message.
+1. In the **O/R Designer**, select the inheritance line that connects the data classes indicated in the error message.
 
 2. Set the **Discriminator** Property to a different property.
 
@@ -29,5 +27,4 @@ Set the **Discriminator Property** to a different property of the data class to 
 
 ## See also
 
-- [O/R Designer messages](../data-tools/o-r-designer-messages.md)
 - [LINQ to SQL tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md)

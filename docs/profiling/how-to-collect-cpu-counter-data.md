@@ -1,19 +1,18 @@
 ---
-title: "How to: Collect CPU Counter Data | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
-ms.topic: "conceptual"
+title: Collect CPU Counter Data | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: how-to
 f1_keywords: 
-  - "vs.performance.property.cpucounters"
+  - vs.performance.property.cpucounters
 helpviewer_keywords: 
-  - "profiling tools, using portable CPU counters"
-  - "performance tools, portable CPU counters"
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: douge
+  - profiling tools, using portable CPU counters
+  - performance tools, portable CPU counters
+author: mikejo5000
+ms.author: mikejo
+manager: jillfra
+monikerRange: 'vs-2017'
 ms.workload: 
-  - "multiple"
+  - multiple
 ---
 # How to: Collect CPU counter data
 
@@ -25,9 +24,9 @@ Two types of CPU counter events occur:
 
 - Platform events - CPU events that are coupled to a specific CPU.
 
- Portable events include general events, such as Instructions Retired and Non Halted Cycles, CPU buffer events, branching events, and L2 cache events. The available platform event counters are determined by the processor manufacturer.
+  Portable events include general events, such as Instructions Retired and Non Halted Cycles, CPU buffer events, branching events, and L2 cache events. The available platform event counters are determined by the processor manufacturer.
 
- Categories of events can be shared between portable and platform counters. For example, the following categories of data are frequently common to both types:
+  Categories of events can be shared between portable and platform counters. For example, the following categories of data are frequently common to both types:
 
 - Memory events.
 
@@ -35,7 +34,7 @@ Two types of CPU counter events occur:
 
 - Branch events.
 
- You can collect performance counter data in two ways in the profiler:
+  You can collect performance counter data in two ways in the profiler:
 
 - Collect data from one or more counters when you profile by instrumentation.
 
@@ -56,7 +55,7 @@ Two types of CPU counter events occur:
 
 ## See also
 
-[Configure performance sessions](../profiling/configuring-performance-sessions.md)  
-[Performance session properties](../profiling/performance-session-properties.md)  
-[CPU and Windows counters](../profiling/cpu-and-windows-counters.md)  
+[Configure performance sessions](../profiling/configuring-performance-sessions.md)
+[Performance session properties](../profiling/performance-session-properties.md)
+[CPU and Windows counters](../profiling/cpu-and-windows-counters.md)
 [How to: Choose sampling events](../profiling/how-to-choose-sampling-events.md)

@@ -1,22 +1,20 @@
 ---
-title: Visual C++ Typedefs in Class Designer
+title: C++ Typedefs in Class Designer
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: conceptual
 f1_keywords:
-  - "vs.classdesigner.typedef"
-  - "vs.classdesigner.aliasofline"
+- vs.classdesigner.typedef
+- vs.classdesigner.aliasofline
 helpviewer_keywords:
-  - "Class Designer [Visual Studio], typedefs"
+- Class Designer [Visual Studio], typedefs
 ms.assetid: c1984108-71fc-4d3a-b4d4-3eac2c6b4ebf
-author: gewarren
-ms.author: gewarren
-manager: douge
+author: TerryGLee
+ms.author: tglee
+manager: jillfra
 ms.workload:
-  - "cplusplus"
+- cplusplus
 ---
-# Visual C++ typedefs in Class Designer
+# C++ typedefs in Class Designer
 
 [Typedef](/cpp/cpp/aliases-and-typedefs-cpp#typedefs) statements create one or more layers of indirection between a name and its underlying type. **Class Designer** supports C++ typedef types, which are declared with the keyword `typedef`, for example:
 
@@ -39,7 +37,7 @@ In **Class Designer**, a C++ typedef has the shape of the type specified in the 
 
 Classes and structures can have nested typedefs declared within them. In **Class Designer**, class and structure shapes can show nested typedef declarations as nested shapes.
 
-Typedef shapes support the **Show as Association** and **Show as Collection Association** commands on the context menu.
+Typedef shapes support the **Show as Association** and **Show as Collection Association** commands on the right-click menu (context menu).
 
 ### Class typedef example
 
@@ -55,8 +53,8 @@ typedef B MyB;
 ```cpp
 typedef struct mystructtag
 {
-	int   i;
-	double f;
+    int   i;
+    double f;
 } mystruct;
 ```
 
@@ -80,5 +78,5 @@ typedef class coord
 
 ## See also
 
-- [Work with Visual C++ Code](working-with-visual-cpp-code.md)
+- [Work with C++ Code](working-with-visual-cpp-code.md)
 - [Typedefs](/cpp/cpp/aliases-and-typedefs-cpp#typedefs)

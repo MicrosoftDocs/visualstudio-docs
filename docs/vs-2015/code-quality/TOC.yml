@@ -1,0 +1,1359 @@
+- name: Analyzing Application Quality
+  href: analyzing-application-quality-by-using-code-analysis-tools.md
+  expanded: true
+  items:
+    - name: Analyzing Managed Code Quality
+# Auto-expanded node
+      items:
+      - name: Analyzing Managed Code Quality
+        href: analyzing-managed-code-quality-by-using-code-analysis.md
+      - name: Code Analysis for Managed Code Overview
+        href: code-analysis-for-managed-code-overview.md
+      - name: "How to: Enable and Disable Automatic Code Analysis"
+        href: how-to-enable-and-disable-automatic-code-analysis-for-managed-code.md
+      - name: "How to: Enable and Disable Full Solution Analysis"
+        href: how-to-enable-and-disable-full-solution-analysis-for-managed-code.md
+      - name: Automatic feature suspension
+        href: automatic-feature-suspension.md
+      - name: "How to: Run Code Analysis Manually"
+        href: how-to-run-code-analysis-manually-for-managed-code.md
+      - name: "Walkthrough: Analyzing Managed Code for Code Defects"
+        href: walkthrough-analyzing-managed-code-for-code-defects.md
+      - name: Suppress Warnings By Using the SuppressMessage Attribute
+# Auto-expanded node
+        items:
+        - name: Suppress Warnings By Using the SuppressMessage Attribute
+          href: suppress-warnings-by-using-the-suppressmessage-attribute.md
+        - name: In Source Suppression Overview
+          href: in-source-suppression-overview.md
+        - name: "How to: Suppress Warnings by Using the Menu Item"
+          href: how-to-suppress-warnings-by-using-the-menu-item.md
+        - name: "How to: Suppress Warnings for Generated Code"
+          href: how-to-suppress-code-analysis-warnings-for-generated-code.md
+        - name: "How to: Customize the Code Analysis Dictionary"
+          href: how-to-customize-the-code-analysis-dictionary.md
+        - name: Anonymous Methods and Code Analysis
+          href: anonymous-methods-and-code-analysis.md
+        - name: "How to: View Managed Code Defects"
+          href: how-to-view-managed-code-defects.md
+        - name: "How to: Create a Work Item for a Managed Code Defect"
+          href: how-to-create-a-work-item-for-a-managed-code-defect.md
+        - name: Code Analysis for Managed Code Warnings
+  # Auto-expanded node
+          items:
+          - name: Code Analysis for Managed Code Warnings
+            href: code-analysis-for-managed-code-warnings.md
+          - name: Warnings By CheckId
+            href: code-analysis-warnings-for-managed-code-by-checkid.md
+          - name: Cryptography Warnings
+  # Auto-expanded node
+            items:
+            - name: Cryptography Warnings
+              href: cryptography-warnings.md
+            - name: "CA5350: Do Not Use Weak Cryptographic Algorithms"
+              href: ca5350-do-not-use-weak-cryptographic-algorithms.md
+            - name: CA5351 Do Not Use Broken Cryptographic Algorithms
+              href: ca5351-do-not-use-broken-cryptographic-algorithms.md
+        - name: Design Warnings
+  # Auto-expanded node
+          items:
+          - name: Design Warnings
+            href: design-warnings.md
+          - name: "CA1000: Do not declare static members on generic types"
+            href: ca1000-do-not-declare-static-members-on-generic-types.md
+          - name: "CA1001: Types that own disposable fields should be disposable"
+            href: ca1001-types-that-own-disposable-fields-should-be-disposable.md
+          - name: "CA1002: Do not expose generic lists"
+            href: ca1002-do-not-expose-generic-lists.md
+          - name: "CA1003: Use generic event handler instances"
+            href: ca1003-use-generic-event-handler-instances.md
+          - name: "CA1004: Generic methods should provide type parameter"
+            href: ca1004-generic-methods-should-provide-type-parameter.md
+          - name: "CA1005: Avoid excessive parameters on generic types"
+            href: ca1005-avoid-excessive-parameters-on-generic-types.md
+          - name: "CA1006: Do not nest generic types in member signatures"
+            href: ca1006-do-not-nest-generic-types-in-member-signatures.md
+          - name: "CA1007: Use generics where appropriate"
+            href: ca1007-use-generics-where-appropriate.md
+          - name: "CA1008: Enums should have zero value"
+            href: ca1008-enums-should-have-zero-value.md
+          - name: "CA1009: Declare event handlers correctly"
+            href: ca1009-declare-event-handlers-correctly.md
+          - name: "CA1010: Collections should implement generic interface"
+            href: ca1010-collections-should-implement-generic-interface.md
+          - name: "CA1011: Consider passing base types as parameters"
+            href: ca1011-consider-passing-base-types-as-parameters.md
+          - name: "CA1012: Abstract types should not have constructors"
+            href: ca1012-abstract-types-should-not-have-constructors.md
+          - name: "CA1013: Overload operator equals on overloading add and subtract"
+            href: ca1013-overload-operator-equals-on-overloading-add-and-subtract.md
+          - name: "CA1014: Mark assemblies with CLSCompliantAttribute"
+            href: ca1014-mark-assemblies-with-clscompliantattribute.md
+          - name: "CA1016: Mark assemblies with AssemblyVersionAttribute"
+            href: ca1016-mark-assemblies-with-assemblyversionattribute.md
+          - name: "CA1017: Mark assemblies with ComVisibleAttribute"
+            href: ca1017-mark-assemblies-with-comvisibleattribute.md
+          - name: "CA1018: Mark attributes with AttributeUsageAttribute"
+            href: ca1018-mark-attributes-with-attributeusageattribute.md
+          - name: "CA1019: Define accessors for attribute arguments"
+            href: ca1019-define-accessors-for-attribute-arguments.md
+          - name: "CA1020: Avoid namespaces with few types"
+            href: ca1020-avoid-namespaces-with-few-types.md
+          - name: "CA1021: Avoid out parameters"
+            href: ca1021-avoid-out-parameters.md
+          - name: "CA1023: Indexers should not be multidimensional"
+            href: ca1023-indexers-should-not-be-multidimensional.md
+          - name: "CA1024: Use properties where appropriate"
+            href: ca1024-use-properties-where-appropriate.md
+          - name: "CA1025: Replace repetitive arguments with params array"
+            href: ca1025-replace-repetitive-arguments-with-params-array.md
+          - name: "CA1026: Default parameters should not be used"
+            href: ca1026-default-parameters-should-not-be-used.md
+          - name: "CA1027: Mark enums with FlagsAttribute"
+            href: ca1027-mark-enums-with-flagsattribute.md
+          - name: "CA1028: Enum storage should be Int32"
+            href: ca1028-enum-storage-should-be-int32.md
+          - name: "CA1030: Use events where appropriate"
+            href: ca1030-use-events-where-appropriate.md
+          - name: "CA1031: Do not catch general exception types"
+            href: ca1031-do-not-catch-general-exception-types.md
+          - name: "CA1032: Implement standard exception constructors"
+            href: ca1032-implement-standard-exception-constructors.md
+          - name: "CA1033: Interface methods should be callable by child types"
+            href: ca1033-interface-methods-should-be-callable-by-child-types.md
+          - name: "CA1034: Nested types should not be visible"
+            href: ca1034-nested-types-should-not-be-visible.md
+          - name: "CA1035: ICollection implementations have strongly typed members"
+            href: ca1035-icollection-implementations-have-strongly-typed-members.md
+          - name: "CA1036: Override methods on comparable types"
+            href: ca1036-override-methods-on-comparable-types.md
+          - name: "CA1038: Enumerators should be strongly typed"
+            href: ca1038-enumerators-should-be-strongly-typed.md
+          - name: "CA1039: Lists are strongly typed"
+            href: ca1039-lists-are-strongly-typed.md
+          - name: "CA1040: Avoid empty interfaces"
+            href: ca1040-avoid-empty-interfaces.md
+          - name: "CA1041: Provide ObsoleteAttribute message"
+            href: ca1041-provide-obsoleteattribute-message.md
+          - name: "CA1043: Use integral or string argument for indexers"
+            href: ca1043-use-integral-or-string-argument-for-indexers.md
+          - name: "CA1044: Properties should not be write only"
+            href: ca1044-properties-should-not-be-write-only.md
+          - name: "CA1045: Do not pass types by reference"
+            href: ca1045-do-not-pass-types-by-reference.md
+          - name: "CA1046: Do not overload operator equals on reference types"
+            href: ca1046-do-not-overload-operator-equals-on-reference-types.md
+          - name: "CA1047: Do not declare protected members in sealed types"
+            href: ca1047-do-not-declare-protected-members-in-sealed-types.md
+          - name: "CA1048: Do not declare virtual members in sealed types"
+            href: ca1048-do-not-declare-virtual-members-in-sealed-types.md
+          - name: "CA1049: Types that own native resources should be disposable"
+            href: ca1049-types-that-own-native-resources-should-be-disposable.md
+          - name: "CA1050: Declare types in namespaces"
+            href: ca1050-declare-types-in-namespaces.md
+          - name: "CA1051: Do not declare visible instance fields"
+            href: ca1051-do-not-declare-visible-instance-fields.md
+          - name: "CA1052: Static holder types should be sealed"
+            href: ca1052-static-holder-types-should-be-sealed.md
+          - name: "CA1053: Static holder types should not have constructors"
+            href: ca1053-static-holder-types-should-not-have-constructors.md
+          - name: "CA1054: URI parameters should not be strings"
+            href: ca1054-uri-parameters-should-not-be-strings.md
+          - name: "CA1055: URI return values should not be strings"
+            href: ca1055-uri-return-values-should-not-be-strings.md
+          - name: "CA1056: URI properties should not be strings"
+            href: ca1056-uri-properties-should-not-be-strings.md
+          - name: "CA1057: String URI overloads call System.Uri overloads"
+            href: ca1057-string-uri-overloads-call-system-uri-overloads.md
+          - name: "CA1058: Types should not extend certain base types"
+            href: ca1058-types-should-not-extend-certain-base-types.md
+          - name: "CA1059: Members should not expose certain concrete types"
+            href: ca1059-members-should-not-expose-certain-concrete-types.md
+          - name: "CA1060: Move P/Invokes to NativeMethods class"
+            href: ca1060-move-p-invokes-to-nativemethods-class.md
+          - name: "CA1061: Do not hide base class methods"
+            href: ca1061-do-not-hide-base-class-methods.md
+          - name: "CA1062: Validate arguments of public methods"
+            href: ca1062-validate-arguments-of-public-methods.md
+          - name: "CA1063: Implement IDisposable correctly"
+            href: ca1063-implement-idisposable-correctly.md
+          - name: "CA1064: Exceptions should be public"
+            href: ca1064-exceptions-should-be-public.md
+          - name: "CA1065: Do not raise exceptions in unexpected locations"
+            href: ca1065-do-not-raise-exceptions-in-unexpected-locations.md
+          - name: "CA2210: Assemblies should have valid strong names"
+            href: ca2210-assemblies-should-have-valid-strong-names.md
+        - name: Globalization Warnings
+  # Auto-expanded node
+          items:
+          - name: Globalization Warnings
+            href: globalization-warnings.md
+          - name: "CA1300: Specify MessageBoxOptions"
+            href: ca1300-specify-messageboxoptions.md
+          - name: "CA1301: Avoid duplicate accelerators"
+            href: ca1301-avoid-duplicate-accelerators.md
+          - name: "CA1302: Do not hardcode locale specific strings"
+            href: ca1302-do-not-hardcode-locale-specific-strings.md
+          - name: "CA1303: Do not pass literals as localized parameters"
+            href: ca1303-do-not-pass-literals-as-localized-parameters.md
+          - name: "CA1304: Specify CultureInfo"
+            href: ca1304-specify-cultureinfo.md
+          - name: "CA1305: Specify IFormatProvider"
+            href: ca1305-specify-iformatprovider.md
+          - name: "CA1306: Set locale for data types"
+            href: ca1306-set-locale-for-data-types.md
+          - name: "CA1307: Specify StringComparison"
+            href: ca1307-specify-stringcomparison.md
+          - name: "CA1308: Normalize strings to uppercase"
+            href: ca1308-normalize-strings-to-uppercase.md
+          - name: "CA1309: Use ordinal StringComparison"
+            href: ca1309-use-ordinal-stringcomparison.md
+          - name: "CA2101: Specify marshaling for P/Invoke string arguments"
+            href: ca2101-specify-marshaling-for-p-invoke-string-arguments.md
+        - name: Interoperability Warnings
+  # Auto-expanded node
+          items:
+          - name: Interoperability Warnings
+            href: interoperability-warnings.md
+          - name: "CA1400: P/Invoke entry points should exist"
+            href: ca1400-p-invoke-entry-points-should-exist.md
+          - name: "CA1401: P/Invokes should not be visible"
+            href: ca1401-p-invokes-should-not-be-visible.md
+          - name: "CA1402: Avoid overloads in COM visible interfaces"
+            href: ca1402-avoid-overloads-in-com-visible-interfaces.md
+          - name: "CA1403: Auto layout types should not be COM visible"
+            href: ca1403-auto-layout-types-should-not-be-com-visible.md
+          - name: "CA1404: Call GetLastError immediately after P/Invoke"
+            href: ca1404-call-getlasterror-immediately-after-p-invoke.md
+          - name: "CA1405: COM visible type base types should be COM visible"
+            href: ca1405-com-visible-type-base-types-should-be-com-visible.md
+          - name: "CA1406: Avoid Int64 arguments for Visual Basic 6 clients"
+            href: ca1406-avoid-int64-arguments-for-visual-basic-6-clients.md
+          - name: "CA1407: Avoid static members in COM visible types"
+            href: ca1407-avoid-static-members-in-com-visible-types.md
+          - name: "CA1408: Do not use AutoDual ClassInterfaceType"
+            href: ca1408-do-not-use-autodual-classinterfacetype.md
+          - name: "CA1409: Com visible types should be creatable"
+            href: ca1409-com-visible-types-should-be-creatable.md
+          - name: "CA1410: COM registration methods should be matched"
+            href: ca1410-com-registration-methods-should-be-matched.md
+          - name: "CA1411: COM registration methods should not be visible"
+            href: ca1411-com-registration-methods-should-not-be-visible.md
+          - name: "CA1412: Mark ComSource Interfaces as IDispatch"
+            href: ca1412-mark-comsource-interfaces-as-idispatch.md
+          - name: "CA1413: Avoid non-public fields in COM visible value types"
+            href: ca1413-avoid-non-public-fields-in-com-visible-value-types.md
+          - name: "CA1414: Mark boolean P/Invoke arguments with MarshalAs"
+            href: ca1414-mark-boolean-p-invoke-arguments-with-marshalas.md
+          - name: "CA1415: Declare P/Invokes correctly"
+            href: ca1415-declare-p-invokes-correctly.md
+          - name: Maintainability Warnings
+  # Auto-expanded node
+            items:
+            - name: Maintainability Warnings
+              href: maintainability-warnings.md
+            - name: "CA1500: Variable names should not match field names"
+              href: ca1500-variable-names-should-not-match-field-names.md
+            - name: "CA1501: Avoid excessive inheritance"
+              href: ca1501-avoid-excessive-inheritance.md
+            - name: "CA1502: Avoid excessive complexity"
+              href: ca1502-avoid-excessive-complexity.md
+            - name: "CA1504: Review misleading field names"
+              href: ca1504-review-misleading-field-names.md
+            - name: "CA1505: Avoid unmaintainable code"
+              href: ca1505-avoid-unmaintainable-code.md
+            - name: "CA1506: Avoid excessive class coupling"
+              href: ca1506-avoid-excessive-class-coupling.md
+            - name: Mobility Warnings
+  # Auto-expanded node
+              items:
+              - name: Mobility Warnings
+                href: mobility-warnings.md
+              - name: "CA1600: Do not use idle process priority"
+                href: ca1600-do-not-use-idle-process-priority.md
+              - name: "CA1601: Do not use timers that prevent power state changes"
+                href: ca1601-do-not-use-timers-that-prevent-power-state-changes.md
+            - name: Naming Warnings
+  # Auto-expanded node
+              items:
+              - name: Naming Warnings
+                href: naming-warnings.md
+              - name: "CA1700: Do not name enum values 'Reserved'"
+                href: ca1700-do-not-name-enum-values-reserved.md
+              - name: "CA1701: Resource string compound words should be cased correctly"
+                href: ca1701-resource-string-compound-words-should-be-cased-correctly.md
+              - name: "CA1702: Compound words should be cased correctly"
+                href: ca1702-compound-words-should-be-cased-correctly.md
+              - name: "CA1703: Resource strings should be spelled correctly"
+                href: ca1703-resource-strings-should-be-spelled-correctly.md
+              - name: "CA1704: Identifiers should be spelled correctly"
+                href: ca1704-identifiers-should-be-spelled-correctly.md
+              - name: "CA1707: Identifiers should not contain underscores"
+                href: ca1707-identifiers-should-not-contain-underscores.md
+              - name: "CA1708: Identifiers should differ by more than case"
+                href: ca1708-identifiers-should-differ-by-more-than-case.md
+              - name: "CA1709: Identifiers should be cased correctly"
+                href: ca1709-identifiers-should-be-cased-correctly.md
+              - name: "CA1710: Identifiers should have correct suffix"
+                href: ca1710-identifiers-should-have-correct-suffix.md
+              - name: "CA1711: Identifiers should not have incorrect suffix"
+                href: ca1711-identifiers-should-not-have-incorrect-suffix.md
+              - name: "CA1712: Do not prefix enum values with type name"
+                href: ca1712-do-not-prefix-enum-values-with-type-name.md
+              - name: "CA1713: Events should not have before or after prefix"
+                href: ca1713-events-should-not-have-before-or-after-prefix.md
+              - name: "CA1714: Flags enums should have plural names"
+                href: ca1714-flags-enums-should-have-plural-names.md
+              - name: "CA1715: Identifiers should have correct prefix"
+                href: ca1715-identifiers-should-have-correct-prefix.md
+              - name: "CA1716: Identifiers should not match keywords"
+                href: ca1716-identifiers-should-not-match-keywords.md
+              - name: "CA1717: Only FlagsAttribute enums should have plural names"
+                href: ca1717-only-flagsattribute-enums-should-have-plural-names.md
+              - name: "CA1719: Parameter names should not match member names"
+                href: ca1719-parameter-names-should-not-match-member-names.md
+              - name: "CA1720: Identifiers should not contain type names"
+                href: ca1720-identifiers-should-not-contain-type-names.md
+              - name: "CA1721: Property names should not match get methods"
+                href: ca1721-property-names-should-not-match-get-methods.md
+              - name: "CA1722: Identifiers should not have incorrect prefix"
+                href: ca1722-identifiers-should-not-have-incorrect-prefix.md
+              - name: "CA1725: Parameter names should match base declaration"
+                href: ca1725-parameter-names-should-match-base-declaration.md
+              - name: "CA1724: Type Names Should Not Match Namespaces"
+                href: ca1724-type-names-should-not-match-namespaces.md
+              - name: "CA1726: Use preferred terms"
+                href: ca1726-use-preferred-terms.md
+            - name: Performance Warnings
+  # Auto-expanded node
+              items:
+              - name: Performance Warnings
+                href: performance-warnings.md
+              - name: "CA1800: Do not cast unnecessarily"
+                href: ca1800-do-not-cast-unnecessarily.md
+              - name: "CA1802: Use Literals Where Appropriate"
+                href: ca1802-use-literals-where-appropriate.md
+              - name: "CA1804: Remove unused locals"
+                href: ca1804-remove-unused-locals.md
+              - name: "CA1809: Avoid excessive locals"
+                href: ca1809-avoid-excessive-locals.md
+              - name: "CA1810: Initialize reference type static fields inline"
+                href: ca1810-initialize-reference-type-static-fields-inline.md
+              - name: "CA1811: Avoid uncalled private code"
+                href: ca1811-avoid-uncalled-private-code.md
+              - name: "CA1812: Avoid uninstantiated internal classes"
+                href: ca1812-avoid-uninstantiated-internal-classes.md
+              - name: "CA1813: Avoid unsealed attributes"
+                href: ca1813-avoid-unsealed-attributes.md
+              - name: "CA1814: Prefer jagged arrays over multidimensional"
+                href: ca1814-prefer-jagged-arrays-over-multidimensional.md
+              - name: "CA1815: Override equals and operator equals on value types"
+                href: ca1815-override-equals-and-operator-equals-on-value-types.md
+              - name: "CA1819: Properties should not return arrays"
+                href: ca1819-properties-should-not-return-arrays.md
+              - name: "CA1820: Test for empty strings using string length"
+                href: ca1820-test-for-empty-strings-using-string-length.md
+              - name: "CA1821: Remove empty finalizers"
+                href: ca1821-remove-empty-finalizers.md
+              - name: "CA1822: Mark members as static"
+                href: ca1822-mark-members-as-static.md
+              - name: "CA1823: Avoid unused private fields"
+                href: ca1823-avoid-unused-private-fields.md
+              - name: "CA1824: Mark assemblies with NeutralResourcesLanguageAttribute"
+                href: ca1824-mark-assemblies-with-neutralresourceslanguageattribute.md
+            - name: Portability Warnings
+  # Auto-expanded node
+              items:
+              - name: Portability Warnings
+                href: portability-warnings.md
+              - name: "CA1900: Value type fields should be portable"
+                href: ca1900-value-type-fields-should-be-portable.md
+              - name: "CA1901: P/Invoke declarations should be portable"
+                href: ca1901-p-invoke-declarations-should-be-portable.md
+              - name: "CA1903: Use only API from targeted framework"
+                href: ca1903-use-only-api-from-targeted-framework.md
+            - name: Reliability Warnings
+  # Auto-expanded node
+              items:
+              - name: Reliability Warnings
+                href: reliability-warnings.md
+              - name: "CA2000: Dispose objects before losing scope"
+                href: ca2000-dispose-objects-before-losing-scope.md
+              - name: "CA2001: Avoid calling problematic methods"
+                href: ca2001-avoid-calling-problematic-methods.md
+              - name: "CA2002: Do not lock on objects with weak identity"
+                href: ca2002-do-not-lock-on-objects-with-weak-identity.md
+              - name: "CA2003: Do not treat fibers as threads"
+                href: ca2003-do-not-treat-fibers-as-threads.md
+              - name: "CA2004: Remove calls to GC.KeepAlive"
+                href: ca2004-remove-calls-to-gc-keepalive.md
+              - name: "CA2006: Use SafeHandle to encapsulate native resources"
+                href: ca2006-use-safehandle-to-encapsulate-native-resources.md
+            - name: Security Warnings
+  # Auto-expanded node
+              items:
+              - name: Security Warnings
+                href: security-warnings.md
+              - name: "CA2100: Review SQL queries for security vulnerabilities"
+                href: ca2100-review-sql-queries-for-security-vulnerabilities.md
+              - name: "CA2102: Catch non-CLSCompliant exceptions in general handlers"
+                href: ca2102-catch-non-clscompliant-exceptions-in-general-handlers.md
+              - name: "CA2103: Review imperative security"
+                href: ca2103-review-imperative-security.md
+              - name: "CA2104: Do not declare read only mutable reference types"
+                href: ca2104-do-not-declare-read-only-mutable-reference-types.md
+              - name: "CA2105: Array fields should not be read only"
+                href: ca2105-array-fields-should-not-be-read-only.md
+              - name: "CA2106: Secure asserts"
+                href: ca2106-secure-asserts.md
+              - name: "CA2107: Review deny and permit only usage"
+                href: ca2107-review-deny-and-permit-only-usage.md
+              - name: "CA2108: Review declarative security on value types"
+                href: ca2108-review-declarative-security-on-value-types.md
+              - name: "CA2109: Review visible event handlers"
+                href: ca2109-review-visible-event-handlers.md
+              - name: "CA2111: Pointers should not be visible"
+                href: ca2111-pointers-should-not-be-visible.md
+              - name: "CA2112: Secured types should not expose fields"
+                href: ca2112-secured-types-should-not-expose-fields.md
+              - name: "CA2114: Method security should be a superset of type"
+                href: ca2114-method-security-should-be-a-superset-of-type.md
+              - name: "CA2115: Call GC.KeepAlive when using native resources"
+                href: ca2115-call-gc-keepalive-when-using-native-resources.md
+              - name: "CA2116: APTCA methods should only call APTCA methods"
+                href: ca2116-aptca-methods-should-only-call-aptca-methods.md
+              - name: "CA2117: APTCA types should only extend APTCA base types"
+                href: ca2117-aptca-types-should-only-extend-aptca-base-types.md
+              - name: "CA2118: Review SuppressUnmanagedCodeSecurityAttribute usage"
+                href: ca2118-review-suppressunmanagedcodesecurityattribute-usage.md
+              - name: "CA2119: Seal methods that satisfy private interfaces"
+                href: ca2119-seal-methods-that-satisfy-private-interfaces.md
+              - name: "CA2120: Secure serialization constructors"
+                href: ca2120-secure-serialization-constructors.md
+              - name: "CA2121: Static constructors should be private"
+                href: ca2121-static-constructors-should-be-private.md
+              - name: "CA2122: Do not indirectly expose methods with link demands"
+                href: ca2122-do-not-indirectly-expose-methods-with-link-demands.md
+              - name: "CA2123: Override link demands should be identical to base"
+                href: ca2123-override-link-demands-should-be-identical-to-base.md
+              - name: "CA2124: Wrap vulnerable finally clauses in outer try"
+                href: ca2124-wrap-vulnerable-finally-clauses-in-outer-try.md
+              - name: "CA2126: Type link demands require inheritance demands"
+                href: ca2126-type-link-demands-require-inheritance-demands.md
+              - name: "CA2130: Security critical constants should be transparent"
+                href: ca2130-security-critical-constants-should-be-transparent.md
+              - name: "CA2131: Security critical types may not participate in type equivalence"
+                href: ca2131-security-critical-types-may-not-participate-in-type-equivalence.md
+              - name: "CA2132: Default constructors must be at least as critical as base type default constructors"
+                href: ca2132-default-constructors-must-be-at-least-as-critical-as-base-type-default-constructors.md
+              - name: "CA2133: Delegates must bind to methods with consistent transparency"
+                href: ca2133-delegates-must-bind-to-methods-with-consistent-transparency.md
+              - name: "CA2134: Methods must keep consistent transparency when overriding base methods"
+                href: ca2134-methods-must-keep-consistent-transparency-when-overriding-base-methods.md
+              - name: "CA2135: Level 2 assemblies should not contain LinkDemands"
+                href: ca2135-level-2-assemblies-should-not-contain-linkdemands.md
+              - name: "CA2136: Members should not have conflicting transparency annotations"
+                href: ca2136-members-should-not-have-conflicting-transparency-annotations.md
+              - name: "CA2137: Transparent methods must contain only verifiable IL"
+                href: ca2137-transparent-methods-must-contain-only-verifiable-il.md
+              - name: "CA2138: Transparent methods must not call methods with the SuppressUnmanagedCodeSecurity attribute"
+                href: ca2138-transparent-methods-must-not-call-methods-with-the-suppressunmanagedcodesecurity-attribute.md
+              - name: "CA2139: Transparent methods may not use the HandleProcessCorruptingExceptions attribute"
+                href: ca2139-transparent-methods-may-not-use-the-handleprocesscorruptingexceptions-attribute.md
+              - name: "CA2140: Transparent code must not reference security critical items"
+                href: ca2140-transparent-code-must-not-reference-security-critical-items.md
+              - name: "CA2141:Transparent methods must not satisfy LinkDemands"
+                href: ca2141-transparent-methods-must-not-satisfy-linkdemands.md
+              - name: "CA2142: Transparent code should not be protected with LinkDemands"
+                href: ca2142-transparent-code-should-not-be-protected-with-linkdemands.md
+              - name: "CA2143: Transparent methods should not use security demands"
+                href: ca2143-transparent-methods-should-not-use-security-demands.md
+              - name: "CA2144: Transparent code should not load assemblies from byte arrays"
+                href: ca2144-transparent-code-should-not-load-assemblies-from-byte-arrays.md
+              - name: "CA2145: Transparent methods should not be decorated with the SuppressUnmanagedCodeSecurityAttribute"
+                href: ca2145-transparent-methods-should-not-be-decorated-with-the-suppressunmanagedcodesecurityattribute.md
+              - name: "CA2146: Types must be at least as critical as their base types and interfaces"
+                href: ca2146-types-must-be-at-least-as-critical-as-their-base-types-and-interfaces.md
+              - name: "CA2147: Transparent methods may not use security asserts"
+                href: ca2147-transparent-methods-may-not-use-security-asserts.md
+              - name: "CA2149: Transparent methods must not call into native code"
+                href: ca2149-transparent-methods-must-not-call-into-native-code.md
+              - name: "CA2151: Fields with critical types should be security critical"
+                href: ca2151-fields-with-critical-types-should-be-security-critical.md
+              - name: CA5122 P/Invoke declarations should not be safe critical
+                href: ca5122-p-invoke-declarations-should-not-be-safe-critical.md
+              - name: "CA2153: Avoid Handling Corrupted State Exceptions"
+                href: ca2153-avoid-handling-corrupted-state-exceptions.md
+              - name: "CA3075: Insecure DTD Processing"
+                href: ca3075-insecure-dtd-processing.md
+              - name: "CA3076: Insecure XSLT Script Execution"
+                href: ca3076-insecure-xslt-script-execution.md
+              - name: "CA3077: Insecure Processing in API Design, XML Document and XML Text Reader"
+                href: ca3077-insecure-processing-in-api-design-xml-document-and-xml-text-reader.md
+            - name: Usage Warnings
+  # Auto-expanded node
+              items:
+              - name: Usage Warnings
+                href: usage-warnings.md
+              - name: "CA1801: Review unused parameters"
+                href: ca1801-review-unused-parameters.md
+              - name: "CA1806: Do not ignore method results"
+                href: ca1806-do-not-ignore-method-results.md
+              - name: "CA1816: Call GC.SuppressFinalize correctly"
+                href: ca1816-call-gc-suppressfinalize-correctly.md
+              - name: "CA2200: Rethrow to preserve stack details"
+                href: ca2200-rethrow-to-preserve-stack-details.md
+              - name: "CA2201: Do not raise reserved exception types"
+                href: ca2201-do-not-raise-reserved-exception-types.md
+              - name: "CA2202: Do not dispose objects multiple times"
+                href: ca2202-do-not-dispose-objects-multiple-times.md
+              - name: "CA2204: Literals should be spelled correctly"
+                href: ca2204-literals-should-be-spelled-correctly.md
+              - name: "CA2205: Use managed equivalents of Win32 API"
+                href: ca2205-use-managed-equivalents-of-win32-api.md
+              - name: "CA2207: Initialize value type static fields inline"
+                href: ca2207-initialize-value-type-static-fields-inline.md
+              - name: "CA2208: Instantiate argument exceptions correctly"
+                href: ca2208-instantiate-argument-exceptions-correctly.md
+              - name: "CA2211: Non-constant fields should not be visible"
+                href: ca2211-non-constant-fields-should-not-be-visible.md
+              - name: "CA2212: Do not mark serviced components with WebMethod"
+                href: ca2212-do-not-mark-serviced-components-with-webmethod.md
+              - name: "CA2213: Disposable fields should be disposed"
+                href: ca2213-disposable-fields-should-be-disposed.md
+              - name: "CA2214: Do not call overridable methods in constructors"
+                href: ca2214-do-not-call-overridable-methods-in-constructors.md
+              - name: "CA2215: Dispose methods should call base class dispose"
+                href: ca2215-dispose-methods-should-call-base-class-dispose.md
+              - name: "CA2216: Disposable types should declare finalizer"
+                href: ca2216-disposable-types-should-declare-finalizer.md
+              - name: "CA2217: Do not mark enums with FlagsAttribute"
+                href: ca2217-do-not-mark-enums-with-flagsattribute.md
+              - name: "CA2218: Override GetHashCode on overriding Equals"
+                href: ca2218-override-gethashcode-on-overriding-equals.md
+              - name: "CA2219: Do not raise exceptions in exception clauses"
+                href: ca2219-do-not-raise-exceptions-in-exception-clauses.md
+              - name: "CA2220: Finalizers should call base class finalizer"
+                href: ca2220-finalizers-should-call-base-class-finalizer.md
+              - name: "CA2221: Finalizers should be protected"
+                href: ca2221-finalizers-should-be-protected.md
+              - name: "CA2222: Do not decrease inherited member visibility"
+                href: ca2222-do-not-decrease-inherited-member-visibility.md
+              - name: "CA2223: Members should differ by more than return type"
+                href: ca2223-members-should-differ-by-more-than-return-type.md
+              - name: "CA2224: Override equals on overloading operator equals"
+                href: ca2224-override-equals-on-overloading-operator-equals.md
+              - name: "CA2225: Operator overloads have named alternates"
+                href: ca2225-operator-overloads-have-named-alternates.md
+              - name: "CA2226: Operators should have symmetrical overloads"
+                href: ca2226-operators-should-have-symmetrical-overloads.md
+              - name: "CA2227: Collection properties should be read only"
+                href: ca2227-collection-properties-should-be-read-only.md
+              - name: "CA2228: Do not ship unreleased resource formats"
+                href: ca2228-do-not-ship-unreleased-resource-formats.md
+              - name: "CA2229: Implement serialization constructors"
+                href: ca2229-implement-serialization-constructors.md
+              - name: "CA2230: Use params for variable arguments"
+                href: ca2230-use-params-for-variable-arguments.md
+              - name: "CA2231: Overload operator equals on overriding ValueType.Equals"
+                href: ca2231-overload-operator-equals-on-overriding-valuetype-equals.md
+              - name: "CA2232: Mark Windows Forms entry points with STAThread"
+                href: ca2232-mark-windows-forms-entry-points-with-stathread.md
+              - name: "CA2233: Operations should not overflow"
+                href: ca2233-operations-should-not-overflow.md
+              - name: "CA2234: Pass System.Uri objects instead of strings"
+                href: ca2234-pass-system-uri-objects-instead-of-strings.md
+              - name: "CA2235: Mark all non-serializable fields"
+                href: ca2235-mark-all-non-serializable-fields.md
+              - name: "CA2236: Call base class methods on ISerializable types"
+                href: ca2236-call-base-class-methods-on-iserializable-types.md
+              - name: "CA2237: Mark ISerializable types with SerializableAttribute"
+                href: ca2237-mark-iserializable-types-with-serializableattribute.md
+              - name: "CA2238: Implement serialization methods correctly"
+                href: ca2238-implement-serialization-methods-correctly.md
+              - name: "CA2239: Provide deserialization methods for optional fields"
+                href: ca2239-provide-deserialization-methods-for-optional-fields.md
+              - name: "CA2240: Implement ISerializable correctly"
+                href: ca2240-implement-iserializable-correctly.md
+              - name: "CA2241: Provide correct arguments to formatting methods"
+                href: ca2241-provide-correct-arguments-to-formatting-methods.md
+              - name: "CA2242: Test for NaN correctly"
+                href: ca2242-test-for-nan-correctly.md
+              - name: "CA2243: Attribute string literals should parse correctly"
+                href: ca2243-attribute-string-literals-should-parse-correctly.md
+          - name: Code Analysis Policy Errors
+            href: code-analysis-policy-errors.md
+- name: Analyzing C/C++ Code Quality
+# Auto-expanded node
+  items:
+  - name: Analyzing C/C++ Code Quality
+    href: analyzing-c-cpp-code-quality-by-using-code-analysis.md
+  - name: "Quick Start: Code Analysis for C/C++"
+    href: quick-start-code-analysis-for-c-cpp.md
+  - name: Using Rule Sets to Specify the C++ Rules to Run
+    href: using-rule-sets-to-specify-the-cpp-rules-to-run.md
+  - name: Using the C++ Core Guidelines checkers
+    href: using-the-cpp-core-guidelines-checkers.md
+  - name: Code Analysis for C/C++ Overview
+    href: code-analysis-for-c-cpp-overview.md
+  - name: "How to: Set Code Analysis Properties for C/C++ Projects"
+    href: how-to-set-code-analysis-properties-for-c-cpp-projects.md
+  - name: "Walkthrough: Analyzing C/C++ Code for Defects"
+# Auto-expanded node
+    items:
+    - name: "Walkthrough: Analyzing C/C++ Code for Defects"
+      href: walkthrough-analyzing-c-cpp-code-for-defects.md
+    - name: Demo Sample
+      href: demo-sample.md
+  - name: Using SAL Annotations to Reduce C/C++ Code Defects
+# Auto-expanded node
+    items:
+    - name: Using SAL Annotations to Reduce C/C++ Code Defects
+      href: using-sal-annotations-to-reduce-c-cpp-code-defects.md
+    - name: Understanding SAL
+      href: understanding-sal.md
+    - name: Annotating Function Parameters and Return Values
+      href: annotating-function-parameters-and-return-values.md
+    - name: Annotating Function Behavior
+      href: annotating-function-behavior.md
+    - name: Annotating Structs and Classes
+      href: annotating-structs-and-classes.md
+    - name: Annotating Locking Behavior
+      href: annotating-locking-behavior.md
+    - name: Specifying When and Where an Annotation Applies
+      href: specifying-when-and-where-an-annotation-applies.md
+    - name: Intrinsic Functions
+      href: intrinsic-functions.md
+    - name: Best Practices and Examples
+      href: best-practices-and-examples-sal.md
+    - name: "How to: Specify Additional Code Information by Using __analysis_assume"
+      href: how-to-specify-additional-code-information-by-using-analysis-assume.md
+    - name: Code Analysis for C/C++ Warnings
+# Auto-expanded node
+      items:
+      - name: Code Analysis for C/C++ Warnings
+        href: code-analysis-for-c-cpp-warnings.md
+      - name: C1250
+        href: c1250.md
+      - name: C1251
+        href: c1251.md
+      - name: C1252
+        href: c1252.md
+      - name: C1253
+        href: c1253.md
+      - name: C1254
+        href: c1254.md
+      - name: C1255
+        href: c1255.md
+      - name: C1256
+        href: c1256.md
+      - name: C1257
+        href: c1257.md
+      - name: C6001
+        href: c6001.md
+      - name: C6011
+        href: c6011.md
+      - name: C6014
+        href: c6014.md
+      - name: C6029
+        href: c6029.md
+      - name: C6031
+        href: c6031.md
+      - name: C6053
+        href: c6053.md
+      - name: C6054
+        href: c6054.md
+      - name: C6059
+        href: c6059.md
+      - name: C6063
+        href: c6063.md
+      - name: C6064
+        href: c6064.md
+      - name: C6066
+        href: c6066.md
+      - name: C6067
+        href: c6067.md
+      - name: C6101
+        href: c6101.md
+      - name: C6102
+        href: c6102.md
+      - name: C6103
+        href: c6103.md
+      - name: C6200
+        href: c6200.md
+      - name: C6201
+        href: c6201.md
+      - name: C6211
+        href: c6211.md
+      - name: C6214
+        href: c6214.md
+      - name: C6215
+        href: c6215.md
+      - name: C6216
+        href: c6216.md
+      - name: C6217
+        href: c6217.md
+      - name: C6219
+        href: c6219.md
+      - name: C6220
+        href: c6220.md
+      - name: C6221
+        href: c6221.md
+      - name: C6225
+        href: c6225.md
+      - name: C6226
+        href: c6226.md
+      - name: C6230
+        href: c6230.md
+      - name: C6235
+        href: c6235.md
+      - name: C6236
+        href: c6236.md
+      - name: C6237
+        href: c6237.md
+      - name: C6239
+        href: c6239.md
+      - name: C6240
+        href: c6240.md
+      - name: C6242
+        href: c6242.md
+      - name: C6244
+        href: c6244.md
+      - name: C6246
+        href: c6246.md
+      - name: C6248
+        href: c6248.md
+      - name: C6250
+        href: c6250.md
+      - name: C6255
+        href: c6255.md
+      - name: C6258
+        href: c6258.md
+      - name: C6259
+        href: c6259.md
+      - name: C6260
+        href: c6260.md
+      - name: C6262
+        href: c6262.md
+      - name: C6263
+        href: c6263.md
+      - name: C6268
+        href: c6268.md
+      - name: C6269
+        href: c6269.md
+      - name: C6270
+        href: c6270.md
+      - name: C6271
+        href: c6271.md
+      - name: C6272
+        href: c6272.md
+      - name: C6273
+        href: c6273.md
+      - name: C6274
+        href: c6274.md
+      - name: C6276
+        href: c6276.md
+      - name: C6277
+        href: c6277.md
+      - name: C6278
+        href: c6278.md
+      - name: C6279
+        href: c6279.md
+      - name: C6280
+        href: c6280.md
+      - name: C6281
+        href: c6281.md
+      - name: C6282
+        href: c6282.md
+      - name: C6283
+        href: c6283.md
+      - name: C6284
+        href: c6284.md
+      - name: C6285
+        href: c6285.md
+      - name: C6286
+        href: c6286.md
+      - name: C6287
+        href: c6287.md
+      - name: C6288
+        href: c6288.md
+      - name: C6289
+        href: c6289.md
+      - name: C6290
+        href: c6290.md
+      - name: C6291
+        href: c6291.md
+      - name: C6292
+        href: c6292.md
+      - name: C6293
+        href: c6293.md
+      - name: C6294
+        href: c6294.md
+      - name: C6295
+        href: c6295.md
+      - name: C6296
+        href: c6296.md
+      - name: C6297
+        href: c6297.md
+      - name: C6298
+        href: c6298.md
+      - name: C6299
+        href: c6299.md
+      - name: C6302
+        href: c6302.md
+      - name: C6303
+        href: c6303.md
+      - name: C6305
+        href: c6305.md
+      - name: C6306
+        href: c6306.md
+      - name: C6308
+        href: c6308.md
+      - name: C6310
+        href: c6310.md
+      - name: C6312
+        href: c6312.md
+      - name: C6313
+        href: c6313.md
+      - name: C6314
+        href: c6314.md
+      - name: C6315
+        href: c6315.md
+      - name: C6316
+        href: c6316.md
+      - name: C6317
+        href: c6317.md
+      - name: C6318
+        href: c6318.md
+      - name: C6319
+        href: c6319.md
+      - name: C6320
+        href: c6320.md
+      - name: C6322
+        href: c6322.md
+      - name: C6323
+        href: c6323.md
+      - name: C6324
+        href: c6324.md
+      - name: C6326
+        href: c6326.md
+      - name: C6328
+        href: c6328.md
+      - name: C6329
+        href: c6329.md
+      - name: C6330
+        href: c6330.md
+      - name: C6331
+        href: c6331.md
+      - name: C6332
+        href: c6332.md
+      - name: C6333
+        href: c6333.md
+      - name: C6334
+        href: c6334.md
+      - name: C6335
+        href: c6335.md
+      - name: C6336
+        href: c6336.md
+      - name: C6340
+        href: c6340.md
+      - name: C6381
+        href: c6381.md
+      - name: C6383
+        href: c6383.md
+      - name: C6384
+        href: c6384.md
+      - name: C6385
+        href: c6385.md
+      - name: C6386
+        href: c6386.md
+      - name: C6387
+        href: c6387.md
+      - name: C6388
+        href: c6388.md
+      - name: C6400
+        href: c6400.md
+      - name: C6401
+        href: c6401.md
+      - name: C6411
+        href: c6411.md
+      - name: C6412
+        href: c6412.md
+      - name: C6500
+        href: c6500.md
+      - name: C6501
+        href: c6501.md
+      - name: C6503
+        href: c6503.md
+      - name: C6504
+        href: c6504.md
+      - name: C6505
+        href: c6505.md
+      - name: C6506
+        href: c6506.md
+      - name: C6508
+        href: c6508.md
+      - name: C6509
+        href: c6509.md
+      - name: C6510
+        href: c6510.md
+      - name: C6511
+        href: c6511.md
+      - name: C6513
+        href: c6513.md
+      - name: C6514
+        href: c6514.md
+      - name: C6515
+        href: c6515.md
+      - name: C6516
+        href: c6516.md
+      - name: C6517
+        href: c6517.md
+      - name: C6518
+        href: c6518.md
+      - name: C6522
+        href: c6522.md
+      - name: C6525
+        href: c6525.md
+      - name: C6527
+        href: c6527.md
+      - name: C6530
+        href: c6530.md
+      - name: C6540
+        href: c6540.md
+      - name: C6551
+        href: c6551.md
+      - name: C6552
+        href: c6552.md
+      - name: C6701
+        href: c6701.md
+      - name: C6702
+        href: c6702.md
+      - name: C6703
+        href: c6703.md
+      - name: C6704
+        href: c6704.md
+      - name: C6705
+        href: c6705.md
+      - name: C6706
+        href: c6706.md
+      - name: C6707
+        href: c6707.md
+      - name: C6993
+        href: c6993.md
+      - name: C6995
+        href: c6995.md
+      - name: C6997
+        href: c6997.md
+      - name: C26100
+        href: c26100.md
+      - name: C26101
+        href: c26101.md
+      - name: C26105
+        href: c26105.md
+      - name: C26110
+        href: c26110.md
+      - name: C26111
+        href: c26111.md
+      - name: C26112
+        href: c26112.md
+      - name: C26115
+        href: c26115.md
+      - name: C26116
+        href: c26116.md
+      - name: C26117
+        href: c26117.md
+      - name: C26130
+        href: c26130.md
+      - name: C26135
+        href: c26135.md
+      - name: C26140
+        href: c26140.md
+      - name: C26160
+        href: c26160.md
+      - name: C26165
+        href: c26165.md
+      - name: C26166
+        href: c26166.md
+      - name: C26167
+        href: c26167.md
+      - name: C28020
+        href: c28020.md
+      - name: C28021
+        href: c28021.md
+      - name: C28022
+        href: c28022.md
+      - name: C28023
+        href: c28023.md
+      - name: C28024
+        href: c28024.md
+      - name: C28039
+        href: c28039.md
+      - name: C28103
+        href: c28103.md
+      - name: C28104
+        href: c28104.md
+      - name: C28105
+        href: c28105.md
+      - name: C28106
+        href: c28106.md
+      - name: C28107
+        href: c28107.md
+      - name: C28108
+        href: c28108.md
+      - name: C28109
+        href: c28109.md
+      - name: C28112
+        href: c28112.md
+      - name: C28113
+        href: c28113.md
+      - name: C28125
+        href: c28125.md
+      - name: C28137
+        href: c28137.md
+      - name: C28138
+        href: c28138.md
+      - name: C28159
+        href: c28159.md
+      - name: C28160
+        href: c28160.md
+      - name: C28163
+        href: c28163.md
+      - name: C28164
+        href: c28164.md
+      - name: C28182
+        href: c28182.md
+      - name: C28183
+        href: c28183.md
+      - name: C28193
+        href: c28193.md
+      - name: C28194
+        href: c28194.md
+      - name: C28195
+        href: c28195.md
+      - name: C28196
+        href: c28196.md
+      - name: C28197
+        href: c28197.md
+      - name: C28198
+        href: c28198.md
+      - name: C28199
+        href: c28199.md
+      - name: C28202
+        href: c28202.md
+      - name: C28203
+        href: c28203.md
+      - name: C28204
+        href: c28204.md
+      - name: C28205
+        href: c28205.md
+      - name: C28206
+        href: c28206.md
+      - name: C28207
+        href: c28207.md
+      - name: C28208
+        href: c28208.md
+      - name: C28209
+        href: c28209.md
+      - name: C28210
+        href: c28210.md
+      - name: C28211
+        href: c28211.md
+      - name: C28212
+        href: c28212.md
+      - name: C28213
+        href: c28213.md
+      - name: C28214
+        href: c28214.md
+      - name: C28215
+        href: c28215.md
+      - name: C28216
+        href: c28216.md
+      - name: C28217
+        href: c28217.md
+      - name: C28218
+        href: c28218.md
+      - name: C28219
+        href: c28219.md
+      - name: C28220
+        href: c28220.md
+      - name: C28221
+        href: c28221.md
+      - name: C28222
+        href: c28222.md
+      - name: C28223
+        href: c28223.md
+      - name: C28224
+        href: c28224.md
+      - name: C28225
+        href: c28225.md
+      - name: C28226
+        href: c28226.md
+      - name: C28227
+        href: c28227.md
+      - name: C28228
+        href: c28228.md
+      - name: C28229
+        href: c28229.md
+      - name: C28230
+        href: c28230.md
+      - name: C28231
+        href: c28231.md
+      - name: C28232
+        href: c28232.md
+      - name: C28233
+        href: c28233.md
+      - name: C28234
+        href: c28234.md
+      - name: C28235
+        href: c28235.md
+      - name: C28236
+        href: c28236.md
+      - name: C28237
+        href: c28237.md
+      - name: C28238
+        href: c28238.md
+      - name: C28239
+        href: c28239.md
+      - name: C28240
+        href: c28240.md
+      - name: C28241
+        href: c28241.md
+      - name: C28243
+        href: c28243.md
+      - name: C28244
+        href: c28244.md
+      - name: C28245
+        href: c28245.md
+      - name: C28246
+        href: c28246.md
+      - name: C28250
+        href: c28250.md
+      - name: C28251
+        href: c28251.md
+      - name: C28252
+        href: c28252.md
+      - name: C28253
+        href: c28253.md
+      - name: C28254
+        href: c28254.md
+      - name: C28262
+        href: c28262.md
+      - name: C28263
+        href: c28263.md
+      - name: C28267
+        href: c28267.md
+      - name: C28272
+        href: c28272.md
+      - name: C28273
+        href: c28273.md
+      - name: C28275
+        href: c28275.md
+      - name: C28278
+        href: c28278.md
+      - name: C28279
+        href: c28279.md
+      - name: C28280
+        href: c28280.md
+      - name: C28282
+        href: c28282.md
+      - name: C28283
+        href: c28283.md
+      - name: C28284
+        href: c28284.md
+      - name: C28285
+        href: c28285.md
+      - name: C28286
+        href: c28286.md
+      - name: C28287
+        href: c28287.md
+      - name: C28288
+        href: c28288.md
+      - name: C28289
+        href: c28289.md
+      - name: C28290
+        href: c28290.md
+      - name: C28291
+        href: c28291.md
+      - name: C28300
+        href: c28300.md
+      - name: C28301
+        href: c28301.md
+      - name: C28302
+        href: c28302.md
+      - name: C28303
+        href: c28303.md
+      - name: C28304
+        href: c28304.md
+      - name: C28305
+        href: c28305.md
+      - name: C28306
+        href: c28306.md
+      - name: C28307
+        href: c28307.md
+      - name: C28308
+        href: c28308.md
+      - name: C28309
+        href: c28309.md
+      - name: C28310
+        href: c28310.md
+      - name: C28311
+        href: c28311.md
+      - name: C28312
+        href: c28312.md
+      - name: C28350
+        href: c28350.md
+      - name: C28351
+        href: c28351.md
+    - name: Using Rule Sets to Group Code Analysis Rules
+# Auto-expanded node
+      items:
+      - name: Using Rule Sets to Group Code Analysis Rules
+        href: using-rule-sets-to-group-code-analysis-rules.md
+      - name: "Walkthrough: Configuring and Using a Custom Rule Set"
+        href: walkthrough-configuring-and-using-a-custom-rule-set.md
+      - name: "How to: Configure Code Analysis for a Managed Code Project"
+        href: how-to-configure-code-analysis-for-a-managed-code-project.md
+      - name: "How to: Configure Code Analysis for an ASP.NET Web Application"
+        href: how-to-configure-code-analysis-for-an-aspnet-web-application.md
+      - name: "How to: Synchronize Code Project Rule Sets with Team Project Check-in Policy"
+        href: how-to-synchronize-code-project-rule-sets-with-team-project-check-in-policy.md
+      - name: "How to: Specify Rule Sets for Multiple Projects in a Solution"
+        href: how-to-specify-managed-code-rule-sets-for-multiple-projects-in-a-solution.md
+      - name: Creating Custom Rule Sets
+# Auto-expanded node
+        items:
+        - name: Creating Custom Rule Sets
+          href: creating-custom-code-analysis-rule-sets.md
+        - name: "How to: Create a Custom Rule Set"
+          href: how-to-create-a-custom-rule-set.md
+        - name: Working in the Rule Set Editor
+          href: working-in-the-code-analysis-rule-set-editor.md
+      - name: Code analysis rule set reference
+# Auto-expanded node
+        items:
+        - name: Code analysis rule set reference
+          href: code-analysis-rule-set-reference.md
+        - name: All Rules rule set
+          href: all-rules-rule-set.md
+        - name: Basic Correctness Rules rule set for managed code
+          href: basic-correctness-rules-rule-set-for-managed-code.md
+        - name: Basic Design Guideline Rules rule set for managed code
+          href: basic-design-guideline-rules-rule-set-for-managed-code.md
+        - name: Extended Correctness Rules rule set for managed code
+          href: extended-correctness-rules-rule-set-for-managed-code.md
+        - name: Extended Design Guidelines Rules rule set for managed code
+          href: extended-design-guidelines-rules-rule-set-for-managed-code.md
+        - name: Globalization Rules rule set for managed code
+          href: globalization-rules-rule-set-for-managed-code.md
+        - name: Managed Minimun Rules rule set for managed code
+          href: managed-minimun-rules-rule-set-for-managed-code.md
+        - name: Managed Recommended Rules rule set for managed code
+          href: managed-recommended-rules-rule-set-for-managed-code.md
+        - name: Mixed Minimum Rules rule set
+          href: mixed-minimum-rules-rule-set.md
+        - name: Mixed Recommended Rules rule set
+          href: mixed-recommended-rules-rule-set.md
+        - name: Native Minimum Rules rule set
+          href: native-minimum-rules-rule-set.md
+        - name: Native Recommended Rules rule set
+          href: native-recommended-rules-rule-set.md
+        - name: Security Rules rule set for managed code
+          href: security-rules-rule-set-for-managed-code.md
+    - name: Code Analysis Application Errors
+# Auto-expanded node
+      items:
+      - name: Code Analysis Application Errors
+        href: code-analysis-application-errors.md
+      - name: CA0001
+        href: ca0001.md
+      - name: CA0051
+        href: ca0051.md
+      - name: CA0052
+        href: ca0052.md
+      - name: CA0053
+        href: ca0053.md
+      - name: CA0054
+        href: ca0054.md
+      - name: CA0055
+        href: ca0055.md
+      - name: CA0056
+        href: ca0056.md
+      - name: CA0057
+        href: ca0057.md
+      - name: CA0058
+        href: ca0058.md
+      - name: CA0059
+        href: ca0059.md
+      - name: CA0060
+        href: ca0060.md
+      - name: CA0061
+        href: ca0061.md
+      - name: CA0062
+        href: ca0062.md
+      - name: CA0063
+        href: ca0063.md
+      - name: CA0064
+        href: ca0064.md
+      - name: CA0065
+        href: ca0065.md
+      - name: CA0066
+        href: ca0066.md
+      - name: CA0067
+        href: ca0067.md
+      - name: CA0068
+        href: ca0068.md
+      - name: CA0069
+        href: ca0069.md
+      - name: CA0070
+        href: ca0070.md
+      - name: CA0501
+        href: ca0501.md
+      - name: CA0502
+        href: ca0502.md
+      - name: CA0503
+        href: ca0503.md
+      - name: CA0504
+        href: ca0504.md
+      - name: CA0505
+        href: ca0505.md
+      - name: FxCopCmd Errors
+        href: fxcopcmd-errors.md
+    - name: Enhancing Code Quality with Team Project Check-in Policies
+# Auto-expanded node
+      items:
+      - name: Enhancing Code Quality with Team Project Check-in Policies
+        href: enhancing-code-quality-with-team-project-check-in-policies.md
+      - name: Creating and Using Code Analysis Check-In Policies
+# Auto-expanded node
+        items:
+        - name: Creating and Using Code Analysis Check-In Policies
+          href: creating-and-using-code-analysis-check-in-policies.md
+        - name: "How to: Create or Update Standard Code Analysis Check-in Policies"
+          href: how-to-create-or-update-standard-code-analysis-check-in-policies.md
+        - name: Implementing Custom Check-in Policies for Managed Code
+          href: implementing-custom-code-analysis-check-in-policies-for-managed-code.md
+        - name: "How to: Enforce Maintainable Code with a Code Analysis Check-in Policy"
+          href: how-to-enforce-maintainable-code-with-a-code-analysis-check-in-policy.md
+        - name: Version Compatibility for Code Analysis Check-In Policies
+          href: version-compatibility-for-code-analysis-check-in-policies.md
+- name: Measuring Complexity and Maintainability of Managed Code
+# Auto-expanded node
+  items:
+  - name: Measuring Complexity and Maintainability of Managed Code
+    href: measuring-complexity-and-maintainability-of-managed-code.md
+  - name: Code Metrics Values
+    href: code-metrics-values.md
+  - name: "How to: Generate Code Metrics Data"
+    href: how-to-generate-code-metrics-data.md
+  - name: Working with Code Metrics Data
+    href: working-with-code-metrics-data.md
+- name: Troubleshooting Quality Tools
+# Auto-expanded node
+  items:
+  - name: Troubleshooting Quality Tools
+    href: troubleshooting-quality-tools.md
+  - name: Troubleshooting Code Analysis Issues
+    href: troubleshooting-code-analysis-issues.md
+  - name: Troubleshooting Code Metrics Issues
+    href: troubleshooting-code-metrics-issues.md

@@ -1,14 +1,13 @@
 ---
-title: "Walkthrough: Build an application"
+title: 'Walkthrough: Build an application'
 ms.date: 09/25/2017
-ms.prod: visual-studio-dev15
 ms.technology: vs-ide-compile
 ms.topic: conceptual
-author: gewarren
-ms.author: gewarren
-manager: douge
+author: ghogen
+ms.author: ghogen
+manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Walkthrough: Build an application
 
@@ -60,7 +59,7 @@ Next, you'll build the solution with the custom build configuration.
 
 ### Build the solution
 
--   On the menu bar, choose **Build** > **Build Solution**.
+- On the menu bar, choose **Build** > **Build Solution**, or press **Ctrl**+**Shift**+**B**.
 
     The **Output** window displays the results of the build. The build succeeded.
 
@@ -94,7 +93,7 @@ You can temporarily hide certain warning messages during a build rather than hav
 
 1. Choose the **Build** page and then, in the **Suppress warnings** box, specify the warning number **0168**.
 
-     ![Build page, Project Designer](../ide/media/buildwalk_csharpsupresswarnings.png)
+     ![Build page, Project Designer](../ide/media/buildwalk_csharpsuppresswarnings.png)
 
      For more information, see [Build Page, Project Designer (C#)](../ide/reference/build-page-project-designer-csharp.md).
 
@@ -108,23 +107,23 @@ You can temporarily hide certain warning messages during a build rather than hav
 
 1. In **Solution Explorer**, choose the top-level project node.
 
-1. On the menu bar, choose **View** > **Property Pages**.
+2. On the menu bar, choose **View** > **Property Pages**.
 
      The **Project Designer** opens.
 
-1. On the **Compile** page, select the **Disable all warnings** check box.
+3. On the **Compile** page, select the **Disable all warnings** check box.
 
-     ![Compile page, Project Designer](../ide/media/buildwalk_vbsupresswarnings.png)
+     ![Compile page, Project Designer](../ide/media/buildwalk_vbsuppresswarnings.png)
 
      For more information, see [Configure warnings in Visual Basic](../ide/configuring-warnings-in-visual-basic.md).
 
-1. Build the solution.
+4. Build the solution.
 
- The **Output** window displays only summary information for the build.
+   The **Output** window displays only summary information for the build.
 
- ![Output Window, Visual Basic Build Warnings](../ide/media/buildwalk_visualbasicbuildwarnings.png)
+   ![Output Window, Visual Basic Build Warnings](../ide/media/buildwalk_visualbasicbuildwarnings.png)
 
- For more information, see [How to: Suppress compiler warnings](../ide/how-to-suppress-compiler-warnings.md).
+   For more information, see [How to: Suppress compiler warnings](../ide/how-to-suppress-compiler-warnings.md).
 
 ## Display additional build details in the Output window
 
@@ -132,7 +131,6 @@ You can change how much information about the build process appears in the **Out
 
 > [!IMPORTANT]
 > If you display more information, the build will take longer to complete.
-
 
 ### Change the amount of information in the Output window
 
@@ -150,7 +148,7 @@ You can change how much information about the build process appears in the **Out
 
      The build information includes the time that the build started (located at the beginning) and the order in which files were processed. This information also includes the actual compiler syntax that Visual Studio runs during the build.
 
-     For example, in the C# build, the [/nowarn](/dotnet/visual-basic/reference/command-line-compiler/nowarn) option lists the warning code, **1762**, that you specified earlier in this topic, along with three other warnings.
+     For example, in the C# build, the [/nowarn](/dotnet/visual-basic/reference/command-line-compiler/nowarn) option lists the warning code, **0168**, that you specified earlier in this topic, along with three other warnings.
 
      In the Visual Basic build, [/nowarn](/dotnet/visual-basic/reference/command-line-compiler/nowarn) doesn't include specific warnings to exclude, so no warnings appear.
 
@@ -188,7 +186,7 @@ For more information, see [How to: Change the build output directory](../ide/how
 
      ![Build Solution command on the Build menu](../ide/media/exploreide-buildsolution.png)
 
-### Specify a release build for C# #
+### Specify a release build for C\#
 
 1. Open the **Project Designer**.
 
@@ -215,10 +213,10 @@ For more information, see [How to: Change the build output directory](../ide/how
 
    The executable file is copied to the network path that you specified. Its path would be `\\myserver\builds\\FileName.exe`.
 
-Congratulations: you've successfully completed this walkthrough.
+Congratulations! You've successfully completed this walkthrough.
 
 ## See also
 
 - [Walkthrough: Build a project (C++)](/cpp/ide/walkthrough-building-a-project-cpp)
-- [ASP.NET web application project precompilation overview](http://msdn.microsoft.com/b940abbd-178d-4570-b441-52914fa7b887)
+- [ASP.NET web application project precompilation overview](/previous-versions/aspnet/aa983464\(v\=vs.110\))
 - [Walkthrough: Use MSBuild](../msbuild/walkthrough-using-msbuild.md)

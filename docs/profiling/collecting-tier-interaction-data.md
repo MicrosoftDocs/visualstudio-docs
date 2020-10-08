@@ -1,21 +1,20 @@
 ---
-title: "Collecting tier interaction data | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
-ms.topic: "conceptual"
+title: Collecting tier interaction data | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: how-to
 f1_keywords: 
-  - "vs.performance.property.tierinteraction"
+  - vs.performance.property.tierinteraction
 helpviewer_keywords: 
-  - "Profiling Tools,ADO.NET profiling"
-  - "tier interaction profiling method"
-  - "Profiling Tools,tier-interaction method"
-  - "ADO.NET performance profiling"
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: douge
+  - Profiling Tools,ADO.NET profiling
+  - tier interaction profiling method
+  - Profiling Tools,tier-interaction method
+  - ADO.NET performance profiling
+author: mikejo5000
+ms.author: mikejo
+manager: jillfra
+monikerRange: 'vs-2017'
 ms.workload: 
-  - "multiple"
+  - multiple
 ---
 # Collect tier interaction data
 

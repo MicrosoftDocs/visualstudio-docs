@@ -1,39 +1,43 @@
 ---
-title: "Javascript"
-description: "Information on the support for Javascript in Visual Studio for Mac"
-author: asb3993
-ms.author: amburns
+title: "JavaScript and TypeScript"
+description: "Information on the support for JavaScript in Visual Studio for Mac"
+author: sayedihashimi
+ms.author: sayedha
 ms.date: 05/03/2018
-ms.topic: article
 ms.technology: vs-ide-general
 ms.assetid: 61432695-5B12-4257-B250-48D37EED106D
 ---
 
-# Javascript support
+# JavaScript and TypeScript support
 
-Visual Studio for Mac provides support for Javascript and Typescript through syntax highlighting, code formatting, and IntelliSense. 
+Visual Studio for Mac provides support for JavaScript and TypeScript through syntax highlighting, code formatting, and IntelliSense.
 
-![typescript editor support](https://msdnshared.blob.core.windows.net/media/2018/03/TypeScript-editor.gif)
+![typescript editor support](media/tsjseditor-2019.gif)
 
-For more information on writing JavaScript, see to the [Writing Javascript Code](https://docs.microsoft.com/scripting/javascript/writing-javascript-code) guides.
+For more information on writing JavaScript, see to the [Writing JavaScript Code](/scripting/javascript/writing-javascript-code) guides.
 
 ## Adding a JavaScript file
 
-JavaScript files are most often added to ASP.NET Core projects through the **New File** dialog. To add a javascript file, right-click on your project and go to **Add > New File**: 
+JavaScript files are most often added to ASP.NET Core projects through the **New File** dialog. To add a javascript file, right-click on your project and go to **Add > New File**:
 
 ![adding new files to the project](media/javascript-image1.png)
 
-From the New File dialog, select **Web > Empty JS file** or **Web > Typescript file**. Give it a name and then choose **New**:
+From the **New File** dialog, select **Web > Empty JS file** or **Web > TypeScript file**. Give it a name and then choose **New**:
 
 ![creating a new typescript file from the template](media/javascript-image2.png)
 
-## Intellisense
+## IntelliSense
 
-Visual Studio for Mac uses the [Javascript Language Service](https://docs.microsoft.com/en-us/visualstudio/ide/javascript-intellisense) to provide Intellisense, allowing you to have intelligent code completion, parameter info, and member lists when writing code.
+Visual Studio for Mac uses the [JavaScript Language Service](/visualstudio/ide/javascript-intellisense) to provide IntelliSense, allowing you to have intelligent code completion, parameter info, and member lists when writing code.
 
-Javascript intellisense in Visual Studio for Mac can be based on type inference, JSDoc, or Typescript declaration.
+JavaScript IntelliSense in Visual Studio for Mac can be based on type inference, JSDoc, or TypeScript declarations.
 
-- **Type inference** – The type of an object is figured out by the surrounding code context. For more information, see Visual Studio's section on [IntelliSense based on type inference](https://docs.microsoft.com/visualstudio/ide/javascript-intellisense#intellisense-based-on-type-inference).
-- **JSDoc** – There are times when type inference doesn't provide the correct type information. In these cases, the type information can be provided explicitly by [JSDoc](http://usejsdoc.org/about-getting-started.html) annotations. For more information, see Visual Studio's section on [Intellisense based on JSDoc](https://docs.microsoft.com/visualstudio/ide/javascript-intellisense#intellisense-based-on-jsdoc)
-- **TypeScript declaration files** – `.d.ts` files are used to provide values for Javascript Intellisense. Types declared in that file can be used as types on JSDoc comments. For more information, see Visual Studio's section on [IntelliSense based on TypeScript declaration files](https://docs.microsoft.com/visualstudio/ide/javascript-intellisense#intellisense-based-on-typescript-declaration-files)
-    ![adding a typescript definition file](media/javascript-image3.png)
+- **Type inference** – The type of an object is figured out by the surrounding code context. For more information, see Visual Studio's section on [IntelliSense based on type inference](/visualstudio/ide/javascript-intellisense#intellisense-based-on-type-inference).
+- **JSDoc** – There are times when type inference doesn't provide the correct type information. In these cases, the type information can be provided explicitly by [JSDoc](https://jsdoc.app/about-getting-started.html) annotations. For more information, see Visual Studio's section on [IntelliSense based on JSDoc](/visualstudio/ide/javascript-intellisense#intellisense-based-on-jsdoc)
+- **TypeScript declaration files** – `.d.ts` files are used to provide values for JavaScript IntelliSense. Types declared in that file can be used as types on JSDoc comments. For more information, see Visual Studio's section on [IntelliSense based on TypeScript declaration files](/visualstudio/ide/javascript-intellisense#intellisense-based-on-typescript-declaration-files)
+
+    ![adding a typescript definition file](media/javascript-type-intellisense-2019.gif)
+
+## See also
+
+- [JavaScript IntelliSense (Visual Studio on Windows)](/visualstudio/ide/javascript-intellisense)

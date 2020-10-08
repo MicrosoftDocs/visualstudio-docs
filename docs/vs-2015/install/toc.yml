@@ -1,0 +1,37 @@
+- name: Install Visual Studio 2015
+# Auto-expanded node
+  items:
+  - name: Install Visual Studio 2015
+    href: install-visual-studio-2015.md
+  - name: Create an Offline Installation of Visual Studio
+    href: create-an-offline-installation-of-visual-studio.md
+  - name: Install Visual Studio Versions Side-by-Side
+    href: install-visual-studio-versions-side-by-side.md
+  - name: Use Command-Line Parameters to Install Visual Studio
+    href: use-command-line-parameters-to-install-visual-studio.md
+  - name: Uninstall Visual Studio
+    href: uninstall-visual-studio.md
+  - name: Visual Studio Administrator Guide
+# Auto-expanded node
+    items:
+    - name: Visual Studio Administrator Guide
+      href: visual-studio-administrator-guide.md
+    - name: Install a Specific Release of Visual Studio
+      href: how-to-install-a-specific-release-of-visual-studio.md
+    - name: Create and Run an Unattended Installation of Visual Studio
+      href: how-to-create-and-run-an-unattended-installation-of-visual-studio.md
+    - name: Automatically apply product keys when deploying Visual Studio
+      href: how-to-automatically-apply-product-keys-when-deploying-visual-studio.md
+  - name: Install Multiple Language Versions of Visual Studio
+# Auto-expanded node
+    items:
+    - name: Install Multiple Language Versions of Visual Studio
+      href: install-multiple-language-versions-of-visual-studio.md
+    - name: Microsoft Language Interface Packs (LIPs) and Visual Studio
+      href: microsoft-language-interface-packs-lips-and-visual-studio.md
+  - name: Upgrade from a Trial Edition of Visual Studio
+    href: how-to-upgrade-from-a-trial-edition-of-visual-studio.md
+  - name: Locate the Visual Studio Product Key
+    href: how-to-locate-the-visual-studio-product-key.md
+  - name: Visual Studio Lifecycle Policy Exceptions
+    href: visual-studio-lifecycle-policy-exceptions.md

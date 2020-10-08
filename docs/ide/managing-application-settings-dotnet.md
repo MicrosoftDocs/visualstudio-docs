@@ -1,22 +1,20 @@
 ---
 title: Manage application settings (.NET)
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: conceptual
 f1_keywords:
-  - "msvse_settingsdesigner.err.nameblank"
+- msvse_settingsdesigner.err.nameblank
 helpviewer_keywords:
-  - "application settings [Visual Studio]"
-author: gewarren
-ms.author: gewarren
-manager: douge
+- application settings [Visual Studio]
+author: TerryGLee
+ms.author: tglee
+manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Manage application settings (.NET)
 
-Application settings enable you to store application information dynamically. Settings allow you to store information on the client computer that should not be included in the application code (for example a connection string), user preferences, and other information you need at runtime.
+Application settings enable you to store application information dynamically. Settings allow you to store information on the client computer that should not be included in the application code (for example a connection string), user preferences, and other information you need at run time.
 
 Application settings replace the dynamic properties used in earlier versions of Visual Studio.
 
@@ -30,7 +28,7 @@ In addition, application settings can be bound to a property of a form or contro
 
 There are two types of application settings, based on scope:
 
-- Application-scoped settings can be used for information such as a URL for a Web service or a database connection string. These values are associated with the application. Therefore, users cannot change them at run time.
+- Application-scoped settings can be used for information such as a URL for a web service or a database connection string. These values are associated with the application. Therefore, users cannot change them at run time.
 
 - User-scoped settings can be used for information such as persisting the last position of a form or a font preference. Users can change these values at run time.
 
@@ -80,7 +78,9 @@ If any user-scoped settings are changed during run time, for example in testing 
 
 We strongly recommend that you use the `My.Settings` object and the default *.settings* file to access settings. This is because you can use the **Settings Designer** to assign properties to settings, and, additionally, user settings are automatically saved before application shutdown. However, your Visual Basic application can access settings directly. In that case you have to access the `MySettings` class and use a custom *.settings* file in the root of the project. You must save the user settings before ending the application, as you would do for a C# application; this is described in the following section.
 
-## Access or change application settings at run time in C# #
+<!-- markdownlint-disable MD003 MD020 -->
+## Access or change application settings at run time in C#
+<!-- markdownlint-enable MD003 MD020 -->
 
 In languages other than Visual Basic, such as C#, you must access the `Settings` class directly, as shown in the following [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] example.
 
@@ -94,7 +94,7 @@ You must explicitly call the `Save` method of this wrapper class in order to per
 Properties.Settings.Default.Save();
 ```
 
-For general information about accessing application settings through the `Settings` class, see [Application settings overview (.NET Framework)](/dotnet/framework/winforms/advanced/application-settings-overview). For information about iterating through the settings, see this [forum post](http://social.msdn.microsoft.com/Forums/vstudio/40fbb470-f1e8-4a02-a4a0-9f62b54d0fc4/is-this-possible-propertiessettingsdefault?forum=csharpgeneral).
+For general information about accessing application settings through the `Settings` class, see [Application settings overview (.NET Framework)](/dotnet/framework/winforms/advanced/application-settings-overview). For information about iterating through the settings, see this [forum post](https://social.msdn.microsoft.com/Forums/vstudio/40fbb470-f1e8-4a02-a4a0-9f62b54d0fc4/is-this-possible-propertiessettingsdefault?forum=csharpgeneral).
 
 ## See also
 

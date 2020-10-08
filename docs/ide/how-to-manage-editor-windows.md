@@ -1,20 +1,18 @@
 ---
-title: "How to: Manage editor windows"
+title: 'How to: Manage editor windows'
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
-  - "editor windows"
-  - "windows, managing editor windows"
-  - "editors, windows management"
-  - "Code Editor, windows management"
+- editor windows
+- windows, managing editor windows
+- editors, windows management
+- Code Editor, windows management
 ms.assetid: 340143d4-8a71-490d-823e-162b276f4c6d
-author: gewarren
-ms.author: gewarren
-manager: douge
+author: TerryGLee
+ms.author: tglee
+manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # How to: Manage editor windows
 
@@ -29,9 +27,9 @@ An instance of an editor window can be split into two separate views for easier 
 
 ### To split a pane
 
-1.  Click within the editor window to give it focus.
+1. Click within the editor window to give it focus.
 
-2.  From the **Window** menu, select **Split**.
+2. From the **Window** menu, select **Split**.
 
      The editing area divides into two panes separated by a splitter bar. You can scroll these panes independently to view and edit different parts of the active document at the same time. Any changes made in one pane are reflected in the other.
 
@@ -40,7 +38,7 @@ An instance of an editor window can be split into two separate views for easier 
 
 ### To return to single-pane view
 
--   From the **Window** menu, select **Remove Split**.
+- From the **Window** menu, select **Remove Split**.
 
 ## Create new windows
 
@@ -52,6 +50,5 @@ You can also create multiple instances of an editor window. This feature allows 
 
 ## See also
 
-- [Customize the editor](../ide/customizing-the-editor.md)
 - [Features of the code editor](../ide/writing-code-in-the-code-and-text-editor.md)
 - [Customize window layouts](../ide/customizing-window-layouts-in-visual-studio.md)

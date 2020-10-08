@@ -1,93 +1,186 @@
 ---
-title: "Visual Studio administrator guide"
-description: "Learn more about how to deploy Visual Studio in an enterprise environment."
-ms.custom: ""
-ms.date: 05/29/2018
-ms.technology: vs-acquisition
-ms.prod: visual-studio-dev15
-ms.topic: conceptual
+title: Visual Studio administrator guide
+titleSuffix: ''
+description: Learn more about how to deploy Visual Studio in an enterprise environment.
+ms.date: 07/29/2020
+ms.custom: seodec18
+ms.topic: overview
 helpviewer_keywords:
-  - "network installation, Visual Studio"
-  - "administrator guide, Visual Studio"
-  - "installing Visual Studio, administrator guide"
+- network installation, Visual Studio
+- administrator guide, Visual Studio
+- installing Visual Studio, administrator guide
 ms.assetid: 4af353f5-6cfd-4ebe-bcfb-f42306e451a0
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: ornellaalt
+ms.author: ornella
+manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
+ms.prod: visual-studio-windows
+ms.technology: vs-installation
 ---
-# Visual Studio 2017 administrator guide
+# Visual Studio administrator guide
 
-In enterprise environments, it's common for system administrators to deploy installations to end-users from a network share or by using systems management software. We've designed the Visual Studio setup engine to support enterprise deployment, allowing system administrators the ability to create a network install location, to pre-configure installation defaults, to deploy product keys during the installation process, and to manage product updates after a successful rollout. This administrator guide provides scenario-based guidance for enterprise deployment in networked environments.
+In enterprise environments, system administrators typically deploy installations to end-users from a network share or by using systems management software. We've designed the Visual Studio setup engine to support enterprise deployment by giving system administrators the ability to create a network install location, to pre-configure installation defaults, to deploy product keys during the installation process, and to manage product updates after a successful rollout.
 
-## Deploy Visual Studio 2017 in an enterprise environment
+This administrator guide provides scenario-based guidance for enterprise deployment in networked environments.
 
-You can deploy Visual Studio 2017 to client workstations as long as each target computer meets the [minimum installation requirements](/visualstudio/productinfo/vs2017-system-requirements-vs). Whether you're deploying through software like System Center or through a batch file, you'll typically want to go through the following steps:
+## Before you begin
 
-1. [Create a network share that contains the Visual Studio product files](create-a-network-installation-of-visual-studio.md) to a network location.
+Before you deploy Visual Studio across your organization, there are a few decisions to make and tasks to complete:
 
-2. [Select the workloads and components](workload-and-component-ids.md) you want to install.
+::: moniker range="vs-2019"
 
-3. [Create a response file](automated-installation-with-response-file.md) that contains default installation options. Or alternatively, [build an installation script](use-command-line-parameters-to-install-visual-studio.md) that uses command-line parameters to control the installation.
+* Make sure that each target computer meets the [minimum installation requirements](/visualstudio/releases/2019/system-requirements/).
 
-4. Optionally, [apply a volume license product key](automatically-apply-product-keys-when-deploying-visual-studio.md) as part of the installation script so that users don't need to activate the software separately.
+* Decide on your servicing needs.
 
-5. Update the network layout to [control when product updates are delivered to your end-users](controlling-updates-to-visual-studio-deployments.md).
+  If your company needs to stay on a feature set longer but still wants to get regular servicing updates, plan to use a servicing baseline. For more information, see the ***Support options for Enterprise and Professional customers*** section of the [Visual Studio product lifecycle and servicing](/visualstudio/releases/2019/servicing#support-options-for-enterprise-and-professional-customers) page, as well as the [Update Visual Studio while on a servicing baseline](update-servicing-baseline.md) page.
 
-6. Optionally, set registry keys to [control what is cached on client workstations](set-defaults-for-enterprise-deployments.md).
+  If you plan to apply servicing updates along with cumulative feature updates, then you can choose the latest bits.
 
-7. Use your deployment technology of choice to execute the script generated in the previous steps on your target developer workstations.
+* Decide on the update model.
 
-8. [Refresh your network location with the latest updates](update-a-network-installation-of-visual-studio.md) to Visual Studio by running the command you used in step 1 on a regular basis to add updated components.
+  Where do you want individual client machines to get updates? Specifically, decide whether you want to get updates from the internet or from a company-wide local share. Then, if you choose to use a local share, decide whether individual users can update their own clients or if you want an admin to update the clients programmatically.
 
-> [!IMPORTANT]
-> Note that installations from a network share will "remember" the source location they came from. This means that a repair of a client machine might need to return to the network share that the client originally installed from. Choose your network location carefully so that it aligns to the lifetime that you expect to have Visual Studio 2017 clients running in your organization.
+  It's possible to update a network installation layout of Visual Studio with the latest product updates so that it can be used both as an installation point for the latest update of Visual Studio, and also to maintain installations that are already deployed to client workstations. For more information, see [Update a network-based installation of Visual Studio](../install/update-a-network-installation-of-visual-studio.md).
 
-## Use Visual Studio tools
+  For computers that are not connected to the internet, creating a minimal layout is the easiest and fastest way to update your offline Visual Studio instances. For more information, see [Update Visual Studio using a minimal offline layout](update-minimal-layout.md).
 
-We have several tools available to help you [detect and manage installed Visual Studio instances](tools-for-managing-visual-studio-instances.md) on client machines.
+* Decide which [workloads and components](workload-and-component-ids.md?view=vs-2019&preserve-view=true) your company needs.
 
-> [!TIP]
-> In addition to the documentation in the administrator guide, a good source of information on Visual Studio 2017 setup is [Heath Stewart's blog](https://blogs.msdn.microsoft.com/heaths/tag/vs2017/).
+* Decide whether to use a [response file](automated-installation-with-response-file.md?view=vs-2019&preserve-view=true) (that simplifies managing details in the script file).
 
-## Specify customer feedback settings
+* Decide if you want to enable Group Policy, and if you want to configure Visual Studio to disable customer feedback on individual computers.
 
-By default, the Visual Studio installation enables customer feedback. When you enable Group Policy, you can configure Visual Studio to disable customer feedback on individual computers. To do so, set a registry-based policy on the following key:
+::: moniker-end
 
-**HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\VisualStudio\SQM**
+::: moniker range="vs-2017"
 
-Entry = **OptIn**
+* Make sure that each target computer meets the [minimum installation requirements](/visualstudio/productinfo/vs2017-system-requirements-vs/).
 
-Value = (DWORD)
-* **0** is opted out
-* **1** is opted in
+* Decide on your servicing needs.
 
-For more information about customer feedback settings, see the [Visual Studio Customer Experience Improvement Program](../ide/visual-studio-experience-improvement-program.md) page.
+  If your company needs to stay on a feature set longer but still wants to get regular servicing updates, plan to use a servicing baseline. For more information, see the ***Support for older versions of Visual Studio*** section of the [Visual Studio product lifecycle and servicing](/visualstudio/releases/2019/servicing#support-for-older-versions-of-visual-studio) page, as well as the [Update Visual Studio while on a servicing baseline](update-servicing-baseline.md) page.
 
-## Get support
+  If you plan to apply servicing updates along with cumulative feature updates, then you can choose the latest bits.
 
-Sometimes, things can go wrong. If your Visual Studio installation fails, see the [Troubleshooting Visual Studio 2017 installation and upgrade issues](troubleshooting-installation-issues.md) page. If none of the troubleshooting steps help, you can contact us by live chat for installation assistance (English only). For details, see the [Visual Studio support page](https://visualstudio.microsoft.com/vs/support/#talktous).
+* Decide on the update model.
 
-Here are a few more support options:
+  Where do you want individual client machines to get updates? Specifically, decide whether you want to get updates from the internet or from a company-wide local share. Then, if you choose to use a local share, decide whether individual users can update their own clients or if you want an admin to update the clients programmatically.
 
-* You can report product issues to us via the [Report a Problem](../ide/how-to-report-a-problem-with-visual-studio-2017.md) tool that appears both in the Visual Studio Installer and in the Visual Studio IDE.
-* You can share a product suggestion with us on [UserVoice](https://visualstudio.uservoice.com/forums/121579).
-* You can track product issues and find answers in the [Visual Studio Developer Community](https://developercommunity.visualstudio.com/).
-* You can also engage with us and other Visual Studio developers through the [Visual Studio conversation in the Gitter community](https://gitter.im/Microsoft/VisualStudio). (This option requires a [GitHub](https://github.com/) account.)
+  It's possible to update a network installation layout of Visual Studio with the latest product updates so that it can be used both as an installation point for the latest update of Visual Studio, and also to maintain installations that are already deployed to client workstations. For more information, see [Update a network-based installation of Visual Studio](../install/update-a-network-installation-of-visual-studio.md).
+
+  For computers that are not connected to the internet, creating a minimal layout is the easiest and fastest way to update your offline Visual Studio instances. For more information, see [Update Visual Studio using a minimal offline layout](update-minimal-layout.md).
+
+* Decide which [workloads and components](workload-and-component-ids.md?view=vs-2017&preserve-view=true) your company needs.
+
+* Decide whether to use a [response file](automated-installation-with-response-file.md?view=vs-2017&preserve-view=true) (that simplifies managing details in the script file).
+
+* Decide if you want to enable Group Policy, and if you want to configure Visual Studio to disable customer feedback on individual computers.
+
+::: moniker-end
+
+::: moniker range="vs-2019"
+
+## Step 1 - Download Visual Studio product files
+
+* [Select the workloads and components](workload-and-component-ids.md?view=vs-2019&preserve-view=true) that you want to install.
+
+* [Create a network share for the Visual Studio product files](create-a-network-installation-of-visual-studio.md?view=vs-2019&preserve-view=true).
+
+## Step 2 - Build an installation script
+
+* Build an installation script that uses [command-line parameters](use-command-line-parameters-to-install-visual-studio.md?view=vs-2019&preserve-view=true) to control the installation.
+
+  >[!NOTE]
+  > You can simplify scripts by using a [response file](automated-installation-with-response-file.md?view=vs-2019&preserve-view=true). Make sure to create a response file that contains your default installation option.
+
+* (Optional) [Apply a volume license product key](automatically-apply-product-keys-when-deploying-visual-studio.md?view=vs-2019&preserve-view=true) as part of the installation script so that users don't need to activate the software separately.
+
+* (Optional) Update the network layout to [control when and from where product updates are delivered to your end-users](controlling-updates-to-visual-studio-deployments.md?view=vs-2019&preserve-view=true).
+
+* (Optional) Set registry policies that affect the deployment of Visual Studio such as where some packages shared with other versions or instances are installed, [where packages are cached](set-defaults-for-enterprise-deployments.md?view=vs-2019&preserve-view=true) or [whether packages are cached](disable-or-move-the-package-cache.md?view=vs-2019&preserve-view=true).
+
+* (Optional) Set Group Policy. You can also [configure Visual Studio to disable customer feedback](../ide/visual-studio-experience-improvement-program.md) on individual computers.
+
+## Step 3 - Deploy
+
+* Use your deployment technology of choice to execute your script onto your target developer workstations.
+
+## Step 4 - Deploy updates
+
+* [Refresh your network location with the latest updates](update-a-network-installation-of-visual-studio.md?view=vs-2019&preserve-view=true) to Visual Studio by running the command you used in step 1 on a regular basis to add updated components.
+
+  You can update Visual Studio by using an update script. To do so, use the [`update`](use-command-line-parameters-to-install-visual-studio.md?view=vs-2019&preserve-view=true) command-line parameter.
+
+## Step 5 - (Optional) Use Visual Studio tools
+
+We have several tools available to help you [detect and manage installed Visual Studio instances](tools-for-managing-visual-studio-instances.md?view=vs-2019&preserve-view=true) on client machines.
+
+## Advanced configuration
+
+By default, the Visual Studio installation enables custom type inclusion in Bing searches from error list F1 and code links. You can configure Visual Studio to disable the search mechanism from including any custom user types by changing the value of the following registry key by policy:
+
+**“PutCustomTypeInBingSearch” DWORD 0**
+
+The registry is located in the *Software\Microsoft\VisualStudio\16.0_{InstanceId}\Roslyn\Internal\Diagnostics\* directory of your private registry hive. For instructions on how to open the registry hive, see [editing the registry for a Visual Studio instance](tools-for-managing-visual-studio-instances.md?view=vs-2019&preserve-view=true#editing-the-registry-for-a-visual-studio-instance).
+
+::: moniker-end
+
+::: moniker range="vs-2017"
+
+## Step 1 - Download Visual Studio product files
+
+* [Select the workloads and components](workload-and-component-ids.md?view=vs-2017&preserve-view=true) that you want to install.
+
+* [Create a network share for the Visual Studio product files](create-a-network-installation-of-visual-studio.md?view=vs-2017&preserve-view=true).
+
+## Step 2 - Build an installation script
+
+* Build an installation script that uses [command-line parameters](use-command-line-parameters-to-install-visual-studio.md?view=vs-2017&preserve-view=true) to control the installation.
+
+  >[!NOTE]
+  > You can simplify scripts by using a [response file](automated-installation-with-response-file.md?view=vs-2017&preserve-view=true). Make sure to create a response file that contains your default installation option.
+
+* (Optional) [Apply a volume license product key](automatically-apply-product-keys-when-deploying-visual-studio.md?view=vs-2017&preserve-view=true) as part of the installation script so that users don't need to activate the software separately.
+
+* (Optional) Update the network layout to [control when and from where product updates are delivered to your end-users](controlling-updates-to-visual-studio-deployments.md?view=vs-2017&preserve-view=true).
+
+* (Optional) Set registry policies that affect the deployment of Visual Studio such as where some packages shared with other versions or instances are installed, [where packages are cached](set-defaults-for-enterprise-deployments.md?view=vs-2019&preserve-view=true) or [whether packages are cached](disable-or-move-the-package-cache.md?view=vs-2017&preserve-view=true).
+
+* (Optional) Set Group Policy. You can also [configure Visual Studio to disable customer feedback](../ide/visual-studio-experience-improvement-program.md) on individual computers.
+
+## Step 3 - Deploy
+
+* Use your deployment technology of choice to execute your script onto your target developer workstations.
+
+## Step 4 - Deploy updates
+
+* [Refresh your network location with the latest updates](update-a-network-installation-of-visual-studio.md?view=vs-2017&preserve-view=true) to Visual Studio by running the command you used in step 1 on a regular basis to add updated components.
+
+  You can update Visual Studio by using an update script. To do so, use the [`update`](use-command-line-parameters-to-install-visual-studio.md?view=vs-2019&preserve-view=true) command-line parameter.
+
+## Step 5 - (Optional) Use Visual Studio tools
+
+We have several tools available to help you [detect and manage installed Visual Studio instances](tools-for-managing-visual-studio-instances.md?view=vs-2017&preserve-view=true) on client machines.
+
+## Advanced configuration
+
+By default, the Visual Studio installation enables custom type inclusion in Bing searches from error list F1 and code links. You can configure Visual Studio to disable the search mechanism from including any custom user types by changing the value of the following registry key by policy:
+
+**“PutCustomTypeInBingSearch” DWORD 0**
+
+The registry is located in the *Software\Microsoft\VisualStudio\15.0_{InstanceId}\Roslyn\Internal\Diagnostics\* directory of your private registry hive. For instructions on how to open the registry hive, see [editing the registry for a Visual Studio instance](tools-for-managing-visual-studio-instances.md?view=vs-2017&preserve-view=true#editing-the-registry-for-a-visual-studio-instance).
+
+::: moniker-end
+
+[!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 
 ## See also
 
-* [Install Visual Studio 2017](install-visual-studio.md)
-* [Use command-line parameters to install Visual Studio 2017](use-command-line-parameters-to-install-visual-studio.md)
-  * [Command-line parameter examples](command-line-parameter-examples.md)
-  * [Workload and Component ID reference](workload-and-component-ids.md)
-* [Create a networked-based installation of Visual Studio](create-a-network-installation-of-visual-studio.md)
-  * [Install certificates required for Visual Studio offline installation](install-certificates-for-visual-studio-offline.md)
-* [Automate Visual Studio with a response file](automated-installation-with-response-file.md)
-* [Automatically apply product keys when deploying Visual Studio](automatically-apply-product-keys-when-deploying-visual-studio.md)
-* [Set defaults for enterprise deployments of Visual Studio](set-defaults-for-enterprise-deployments.md)
-* [Disable or move the package cache](disable-or-move-the-package-cache.md)
-* [Update a networked-based installation of Visual Studio](update-a-network-installation-of-visual-studio.md)
-* [Control updates to Visual Studio deployments](controlling-updates-to-visual-studio-deployments.md)
-* [Tools for detecting and managing Visual Studio instances](tools-for-managing-visual-studio-instances.md)
+* [Command-line parameter examples](command-line-parameter-examples.md)
+* [Install certificates required for Visual Studio offline installation](install-certificates-for-visual-studio-offline.md)
+* [Import or export installation configurations](import-export-installation-configurations.md)
+* [Visual Studio Setup Archives](https://devblogs.microsoft.com/setup/tag/vs2017/)
+* [Visual Studio product lifecycle and servicing](/visualstudio/releases/2019/servicing/)
+* [Synchronous autoload settings](../extensibility/synchronously-autoloaded-extensions.md)

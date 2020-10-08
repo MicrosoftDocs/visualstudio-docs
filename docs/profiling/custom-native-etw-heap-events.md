@@ -1,16 +1,14 @@
 ---
 title: "Custom Native ETW Heap Events | Microsoft Docs"
-ms.custom: ""
 ms.date: "02/24/2017"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
 ms.assetid: 668a6603-5082-4c78-98e6-f3dc871aa55b
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
-dev_langs: 
+manager: jillfra
+dev_langs:
   - C++
-ms.workload: 
+ms.workload:
   - "cplusplus"
 ---
 
@@ -18,7 +16,7 @@ ms.workload:
 
 Visual Studio contains a variety of [profiling and diagnostic tools](../profiling/profiling-feature-tour.md), including a native memory profiler.  This profiler hooks [ETW events](/windows-hardware/drivers/devtest/event-tracing-for-windows--etw-) from the heap provider and provides analysis of how memory is being allocated and used.  By default, this tool can only analyze allocations made from the standard Windows heap, and any allocations outside this native heap would not be displayed.
 
-There are many cases in which you may want to use your own custom heap and avoid the allocation overhead from the standard heap.  For instance, you could use [VirtualAlloc](https://msdn.microsoft.com/library/windows/desktop/aa366887(v=vs.85).aspx) to allocate a large amount of memory at the start of the app or game, and then manage your own blocks within that list.  In this scenario, the memory profiler tool would only see that initial allocation, and not your custom management done inside the memory chunk.  However, using the Custom Native Heap ETW Provider, you can let the tool know about any allocations you are making outside the standard heap.
+There are many cases in which you may want to use your own custom heap and avoid the allocation overhead from the standard heap.  For instance, you could use [VirtualAlloc](/windows/desktop/api/memoryapi/nf-memoryapi-virtualalloc) to allocate a large amount of memory at the start of the app or game, and then manage your own blocks within that list.  In this scenario, the memory profiler tool would only see that initial allocation, and not your custom management done inside the memory chunk.  However, using the Custom Native Heap ETW Provider, you can let the tool know about any allocations you are making outside the standard heap.
 
 For example, in a project like the following where `MemoryPool` is a custom heap, you would only see a single allocation on the Windows heap:
 
@@ -31,7 +29,7 @@ public:
 
 ...
 
-// MemoryPool is a custom managed heap, which allocates 8192 bytes 
+// MemoryPool is a custom managed heap, which allocates 8192 bytes
 // on the standard Windows Heap named "Windows NT"
 MemoryPool<Foo, 8192> mPool;
 
@@ -63,7 +61,7 @@ This library can be easily used in C and C++.
    ```cpp
    __declspec(allocator) void *MyMalloc(size_t size);
    ```
-   
+
    > [!NOTE]
    > This decorator will tell the compiler that this function is a call to an allocator.  Each call to the function will output the address of the callsite, the size of the call instruction, and the typeId of the new object to a new `S_HEAPALLOCSITE` symbol.  When a callstack is allocated, Windows will emit an ETW event with this information.  The memory profiler tool walks the callstack looking for a return address matching an `S_HEAPALLOCSITE` symbol, and the typeId information in the symbol is used to display the runtime type of the allocation.
    >
@@ -76,7 +74,7 @@ This library can be easily used in C and C++.
    ```
 
    If you are using C, use the `OpenHeapTracker` function instead.  This function will return a handle that you will use when calling other tracking functions:
-  
+
    ```C
    VSHeapTrackerHandle hHeapTracker = OpenHeapTracker("MyHeap");
    ```
@@ -133,7 +131,7 @@ This library can be easily used in C and C++.
    ```
 
 ## Track memory usage
-With these calls in place, your custom heap usage can now be tracked using the standard **Memory Usage** tool in Visual Studio.  For more information on how to use this tool, please see the [Memory Usage](../profiling/memory-usage.md) documentation. Ensure you have enabled heap profiling with snapshots, otherwise you will not see your custom heap usage displayed. 
+With these calls in place, your custom heap usage can now be tracked using the standard **Memory Usage** tool in Visual Studio.  For more information on how to use this tool, please see the [Memory Usage](../profiling/memory-usage.md) documentation. Ensure you have enabled heap profiling with snapshots, otherwise you will not see your custom heap usage displayed.
 
 ![Enable Heap Profiling](media/heap-enable-heap.png)
 
@@ -153,5 +151,5 @@ As with the standard Windows heap, you can also use this tool to compare snapsho
 > Visual Studio also contains a **Memory Usage** tool in the **Performance Profiling** toolset, which is enabled from the **Debug** > **Performance Profiler** menu option, or the **Alt**+**F2** keyboard combination.  This feature does not include heap tracking and will not display your custom heap as described here.  Only the **Diagnostic Tools** window, which can be enabled with the **Debug** > **Windows** > **Show Diagnostic Tools** menu, or the **Ctrl**+**Alt**+**F2** keyboard combination, contains this functionality.
 
 ## See also
-[First look at profiling tools](../profiling/profiling-feature-tour.md)  
+[First look at profiling tools](../profiling/profiling-feature-tour.md)
 [Memory Usage](../profiling/memory-usage.md)

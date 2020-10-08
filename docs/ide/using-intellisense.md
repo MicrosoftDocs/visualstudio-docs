@@ -1,22 +1,20 @@
 ---
 title: Parameter info, list members, and quick info
 ms.date: 05/25/2018
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: conceptual
 f1_keywords:
-  - "vc.tools.intellisense"
+- vc.tools.intellisense
 helpviewer_keywords:
-  - "Quick info"
-  - "Parameter info"
-  - "Complete word"
-  - "List members"
-  - "IntelliSense [Visual Studio]"
-author: gewarren
-ms.author: gewarren
-manager: douge
+- Quick info
+- Parameter info
+- Complete word
+- List members
+- IntelliSense [Visual Studio]
+author: TerryGLee
+ms.author: tglee
+manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # IntelliSense in Visual Studio
 
@@ -48,7 +46,7 @@ The parameter in bold indicates the next parameter that is required as you type 
 
 ![Parameter Info](../ide/media/vs2015_param_info.png)
 
-When you annotate functions and parameters with XML Documentation comments, the comments will display as Parameter Info. For more information, see [Supply XML code comments](../ide/supplying-xml-code-comments.md).
+When you annotate functions and parameters with XML Documentation comments, the comments will display as Parameter Info. For more information, see [Supply XML code comments](reference/generate-xml-documentation-comments.md).
 
 You can manually invoke Parameter Info by choosing **Edit** > **IntelliSense** > **Parameter Info**, by pressing **Ctrl**+**Shift**+**Space**, or by choosing the **Parameter Info** button on the editor toolbar.
 
@@ -76,6 +74,17 @@ Complete Word completes the rest of a variable, command, or function name after 
 
 IntelliSense options are on by default. To turn them off, choose **Tools** > **Options** > **Text Editor** and deselect **Parameter information** or **Auto list members** if you do not want the List Members feature.
 
+## IntelliSense icons
+The icons in IntelliSense can convey additional meaning with icon modifiers. These are stars, hearts, and locks layered on top of the object's icon that convey protected, internal, or private, respectively.
+
+|    Icon    |    Accessibility    |    Description    |
+|------------|--------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ![Public Icon Modifier](../ide/media/intellisensePublicNoModifier.png)       |    Public class    |    Access is not restricted.   |
+| ![Protected Icon Modifier](../ide/media/intellisenseProtectedModifier.png)       |    Protected class    |    Access is limited to the containing class or types derived from the containing class.    |
+| ![Protected Internal Icon Modifier](../ide/media/intellisenseProtectedInternalModifier.png)       |    Protected internal class    |    Access is limited to the current assembly or types derived from the containing class.    |
+| ![Internal Icon Modifier](../ide/media/intellisenseInternalModifier.png)       |    Internal class    |    Access is limited to the current assembly.    |
+|![Private Icon Modifier](../ide/media/intellisensePrivateModifier.png)        |    Private class    |    Access is limited to the containing class or types derived from the containing class within the current assembly. (Available since C# 7.2.)    |
+
 ## Troubleshoot IntelliSense
 
 The IntelliSense options may not work as you expect in certain cases.
@@ -98,4 +107,4 @@ MessageBox( hWnd, "String literal|")
 - [C# IntelliSense](../ide/visual-csharp-intellisense.md)
 - [JavaScript IntelliSense](../ide/javascript-intellisense.md)
 - [Write and refactor code (C++)](/cpp/ide/writing-and-refactoring-code-cpp)
-- [Supply XML code comments](../ide/supplying-xml-code-comments.md)
+- [Supply XML code comments](reference/generate-xml-documentation-comments.md)

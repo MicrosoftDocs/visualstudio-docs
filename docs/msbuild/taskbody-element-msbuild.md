@@ -1,75 +1,77 @@
 ---
-title: "TaskBody Element (MSBuild) | Microsoft Docs"
-ms.custom: ""
-ms.date: "03/13/2017"
-ms.technology: msbuild
-ms.topic: "reference"
-dev_langs: 
-  - "VB"
-  - "CSharp"
-  - "C++"
-  - "jsharp"
-helpviewer_keywords: 
-  - "TaskBody element [MSBuild]"
-  - "<TaskBody> element [MSBuild]"
+title: Task Element of UsingTask (MSBuild) | Microsoft Docs
+ms.date: 03/13/2017
+ms.topic: reference
+dev_langs:
+- VB
+- CSharp
+- C++
+- jsharp
+helpviewer_keywords:
+- Task element [MSBuild]
+- <Task> element [MSBuild]
 ms.assetid: 49d8741b-f1ea-4470-94fd-a1ac27341a6a
-author: mikejo5000
-ms.author: mikejo
-manager: douge
-ms.workload: 
-  - "multiple"
+author: ghogen
+ms.author: ghogen
+manager: jillfra
+ms.workload:
+- multiple
 ---
-# TaskBody Element (MSBuild)
-Contains the data that is passed to a `UsingTask``TaskFactory`. For more information, see [UsingTask Element (MSBuild)](../msbuild/usingtask-element-msbuild.md).  
+# Task element of UsingTask (MSBuild)
 
- \<Project>  
- \<UsingTask>  
- \<TaskBody>  
+Contains the data that is passed to a `UsingTask` `TaskFactory`. For more information, see [UsingTask element (MSBuild)](../msbuild/usingtask-element-msbuild.md).
 
-## Syntax  
+ \<Project>
+ \<UsingTask>
+ \<Task>
 
-```  
-<TaskBody Evaluate="true/false" />  
-```  
+## Syntax
 
-## Attributes and Elements  
- The following sections describe attributes, child elements, and parent elements.  
+```xml
+<Task Evaluate="true/false" />
+```
 
-### Attributes  
+## Attributes and elements
 
-|Attribute|Description|  
-|---------------|-----------------|  
-|`Evaluate`|Optional Boolean attribute.<br /><br /> If `true`, MSBuild evaluates any inner elements, and expands items and properties before it passes the information to the `TaskFactory` when the task is instantiated.|  
+ The following sections describe attributes, child elements, and parent elements.
 
-### Child Elements  
+### Attributes
 
-|Element|Description|  
-|-------------|-----------------|  
-|Data|The text between the `TaskBody` tags is sent verbatim to the `TaskFactory`.|  
+|Attribute|Description|
+|---------------|-----------------|
+|`Evaluate`|Optional Boolean attribute.<br /><br /> If `true`, MSBuild evaluates any inner elements, and expands items and properties before it passes the information to the `TaskFactory` when the task is instantiated.|
 
-### Parent Elements  
+### Child elements
 
-|Element|Description|  
-|-------------|-----------------|  
-|[UsingTask](../msbuild/usingtask-element-msbuild.md)|Provides a way to register tasks in [!INCLUDE[vstecmsbuild](../extensibility/internals/includes/vstecmsbuild_md.md)]. There may be zero or more `UsingTask` elements in a project.|  
+|Element|Description|
+|-------------|-----------------|
+|Data|The text between the `Task` tags is sent verbatim to the `TaskFactory`.|
 
-## Example  
- The following example shows how to use the `TaskBody` element with an `Evaluate` attribute.  
+### Parent elements
 
-```xml  
-<UsingTask TaskName="MyTask" AssemblyName="My.Assembly" TaskFactory="MyTaskFactory">  
-       <ParameterGroup>  
-              <Parameter1 ParameterType="System.String" Required="False" Output="False"/>  
-              <Parameter2 ParameterType="System.Int" Required="True" Output="False"/>  
-              ...  
-</ParameterGroup>  
-       <TaskBody Evaluate="true">  
-      ... Task factory-specific data ...  
-       </TaskBody>  
-</UsingTask>  
-```  
+| Element | Description |
+| - | - |
+| [UsingTask](../msbuild/usingtask-element-msbuild.md) | Provides a way to register tasks in MSBuild. There may be zero or more `UsingTask` elements in a project. |
 
-## See Also  
- [Tasks](../msbuild/msbuild-tasks.md)   
- [Task Reference](../msbuild/msbuild-task-reference.md)   
- [Project File Schema Reference](../msbuild/msbuild-project-file-schema-reference.md)
+## Example
+
+ The following example shows how to use the `Task` element with an `Evaluate` attribute.
+
+```xml
+<UsingTask TaskName="MyTask" AssemblyName="My.Assembly" TaskFactory="MyTaskFactory">
+       <ParameterGroup>
+              <Parameter1 ParameterType="System.String" Required="False" Output="False"/>
+              <Parameter2 ParameterType="System.Int" Required="True" Output="False"/>
+              ...
+</ParameterGroup>
+       <Task Evaluate="true">
+       ... Task factory-specific data ...
+       </Task>
+</UsingTask>
+```
+
+## See also
+
+- [Tasks](../msbuild/msbuild-tasks.md)
+- [Task reference](../msbuild/msbuild-task-reference.md)
+- [Project file schema reference](../msbuild/msbuild-project-file-schema-reference.md)

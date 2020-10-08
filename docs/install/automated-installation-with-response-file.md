@@ -1,20 +1,21 @@
 ---
-title: "Automate Visual Studio installation with a response file"
-description: "Learn how to create a JSON response file that helps you automate your Visual Studio installation"
-ms.date: 08/14/2017
-ms.technology: vs-acquisition
-ms.prod: visual-studio-dev15
+title: Automate installation with a response file
+description: Learn how to create a JSON response file that helps you automate your Visual Studio installation
+ms.date: 03/30/2019
+ms.custom: seodec18
 ms.topic: conceptual
 helpviewer_keywords:
-  - "response file"
-  - "automate"
-  - "installation"
-  - "command-line"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+- response file
+- automate
+- installation
+- command-line
+author: ornellaalt
+ms.author: ornella
+manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
+ms.prod: visual-studio-windows
+ms.technology: vs-installation
 ---
 # How to define settings in a response file
 
@@ -43,6 +44,8 @@ You can update the `response.json` file that is created in an offline layout fol
 
 The base `response.json` file in a layout should look similar to the following example, except that it would include the value for the product and channel that you want to install:
 
+::: moniker range="vs-2017"
+
 ```json
 {
   "installChannelUri": ".\\ChannelManifest.json",
@@ -53,11 +56,29 @@ The base `response.json` file in a layout should look similar to the following e
 }
 ```
 
+::: moniker-end
+
+::: moniker range="vs-2019"
+
+```json
+{
+  "installChannelUri": ".\\ChannelManifest.json",
+  "channelUri": "https://aka.ms/vs/16/release/channel",
+  "installCatalogUri": ".\\Catalog.json",
+  "channelId": "VisualStudio.16.Release",
+  "productId": "Microsoft.VisualStudio.Product.Enterprise"
+}
+```
+
+::: moniker-end
+
 When you create or update a layout, a response.template.json file is also created.  This file contains all of the workload, component, and language IDs that can be used.  This file is provided as a template for what all could be included in a custom install.  Administrators can use this file as a starting point for a custom response file.  Just remove the IDs for the things you do not want to install and save it in your own response file.  Do not customize the response.template.json file or your changes will be lost whenever the layout is updated.
 
 ## Example layout response file content
 
 The following example installs Visual Studio Enterprise with six common workloads and components, and with both English and French UI languages. You can use this example as a template; just change the workloads and components to those that you want to install:
+
+::: moniker range="vs-2017"
 
 ```json
 {
@@ -90,17 +111,46 @@ The following example installs Visual Studio Enterprise with six common workload
 }
 ```
 
-## Get support
+::: moniker-end
 
-Sometimes, things can go wrong. If your Visual Studio installation fails, see the [Troubleshooting Visual Studio 2017 installation and upgrade issues](troubleshooting-installation-issues.md) page. If none of the troubleshooting steps help, you can contact us by live chat for installation assistance (English only). For details, see the [Visual Studio support page](https://visualstudio.microsoft.com/vs/support/#talktous).
+::: moniker range="vs-2019"
 
-Here are a few more support options:
+```json
+{
+  "installChannelUri": ".\\ChannelManifest.json",
+  "channelUri": "https://aka.ms/vs/16/release/channel",
+  "installCatalogUri": ".\\Catalog.json",
+  "channelId": "VisualStudio.16.Release",
+  "productId": "Microsoft.VisualStudio.Product.Enterprise",
 
-* You can report product issues to us via the [Report a Problem](../ide/how-to-report-a-problem-with-visual-studio-2017.md) tool that appears both in the Visual Studio Installer and in the Visual Studio IDE.
-* You can share a product suggestion with us on [UserVoice](https://visualstudio.uservoice.com/forums/121579).
-* You can track product issues and find answers in the [Visual Studio Developer Community](https://developercommunity.visualstudio.com/).
-* You can also engage with us and other Visual Studio developers through the [Visual Studio conversation in the Gitter community](https://gitter.im/Microsoft/VisualStudio). (This option requires a [GitHub](https://github.com/) account.)
+  "installPath": "C:\\VS2019",
+  "quiet": false,
+  "passive": false,
+  "includeRecommended": true,
+  "norestart": false,
+
+  "addProductLang": [
+    "en-US",
+    "fr-FR"
+    ],
+
+    "add": [
+        "Microsoft.VisualStudio.Workload.ManagedDesktop",
+        "Microsoft.VisualStudio.Workload.Data",
+        "Microsoft.VisualStudio.Workload.NativeDesktop",
+        "Microsoft.VisualStudio.Workload.NetWeb",
+        "Microsoft.VisualStudio.Workload.Office",
+        "Microsoft.VisualStudio.Workload.Universal",
+        "Component.GitHub.VisualStudio"
+    ]
+}
+```
+
+::: moniker-end
+
+[!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 
 ## See also
 
-* [Visual Studio 2017 workload and component IDs](workload-and-component-ids.md)
+* [Visual Studio workload and component IDs](workload-and-component-ids.md)
+* [Troubleshoot network-related errors when you install or use Visual Studio](troubleshooting-network-related-errors-in-visual-studio.md)

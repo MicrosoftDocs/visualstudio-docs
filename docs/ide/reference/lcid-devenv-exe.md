@@ -1,65 +1,75 @@
 ---
 title: -LCID (devenv.exe)
-ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
+ms.date: 12/10/2018
 ms.topic: reference
 helpviewer_keywords:
-  - "language default"
-  - "locale IDs, setting for IDE"
-  - "Devenv, /LCID switch"
-  - "locale IDs"
-  - "/l Devenv switch"
-  - "LCID devenv switch"
-  - "/lcid Devenv switch"
+- language default
+- locale IDs, setting for IDE
+- Devenv, /L switch
+- Devenv, /LCID switch
+- locale IDs
+- L Devenv switch
+- /L Devenv switch
+- LCID devenv switch
+- /LCID Devenv switch
 ms.assetid: 3a3f4e70-ea66-4351-9d62-acb1dec30e8e
-author: gewarren
-ms.author: gewarren
-manager: douge
+author: TerryGLee
+ms.author: tglee
+manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # /LCID (devenv.exe)
-Sets the default language used for text, currency, and other values within the integrated development environment (IDE).
+
+Sets the default language used for text, currency, and other values within the IDE.
 
 ## Syntax
 
-```cmd
-devenv {/LCID|/l} LocaleID
+```shell
+devenv {/LCID|/L} LocaleID
 ```
 
 ## Arguments
- `LocaleID`
- Required. The LCID (locale ID) of the language you specify.
+
+- *LocaleID*
+
+  Required. The locale identifier (LCID) of the language you specify.
 
 ## Remarks
- Loads the IDE and sets the default natural language for the environment. This change is persisted between sessions and reflected on the **International Settings** pane of the **Environment** options in the **Options** dialog box in the IDE.
 
- If the specified language is not available on the user's system, the /LCID switch is ignored.
+Loads the IDE and sets the default natural language for the environment. This change is persisted between sessions, and the IDE shows this change in the **Tools** > **Options** > **Environment** > **International Settings** > **Language** box.
 
- The following table lists the LCIDs of the languages supported by [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)].
+If the specified language isn't available on your system, the `/LCID` switch is ignored.
+
+The following table lists the LCIDs of the languages supported by Visual Studio.
 
 |Language|LCID|
 |--------------|----------|
 |Chinese (Simplified)|2052|
 |Chinese (Traditional)|1028|
+|Czech|1029|
 |English|1033|
 |French|1036|
 |German|1031|
 |Italian|1040|
 |Japanese|1041|
 |Korean|1042|
+|Polish|1045|
+|Portuguese (Brazil)|1046|
+|Russian|1049|
 |Spanish|3082|
+|Turkish|1055
 
 ## Example
- This example loads the IDE with English resources strings.
 
-```cmd
+This example loads the IDE with English resources strings.
+
+```shell
 devenv /LCID 1033
 ```
 
-## See Also
+## See also
 
-- [Devenv Command Line Switches](../../ide/reference/devenv-command-line-switches.md)
+- [Devenv command-line switches](../../ide/reference/devenv-command-line-switches.md)
 - [International Settings, Environment, Options Dialog Box](../../ide/reference/international-settings-environment-options-dialog-box.md)
 - [Customizing window layouts](../../ide/customizing-window-layouts-in-visual-studio.md)

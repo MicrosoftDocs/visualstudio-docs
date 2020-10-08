@@ -1,20 +1,19 @@
 ---
-title: "Coding a custom extraction rule for a web performance test in Visual Studio"
+title: Code a custom extraction rule (web perf test)
+ms.custom: SEO-VS-2020
 ms.date: 10/19/2016
-ms.topic: conceptual
-helpviewer_keywords:
-  - "extraction rules"
-  - "Web performance tests, creating custom extraction rules"
-  - "extraction rules, creating custom"
+ms.topic: how-to
+helpviewer_keywords: 
+  - extraction rules
+  - Web performance tests, creating custom extraction rules
+  - extraction rules, creating custom
 ms.assetid: 6bcc5712-6cc6-4f59-8933-6e8078318c45
-dev_langs:
+dev_langs: 
   - CSharp
   - VB
-author: gewarren
-ms.author: gewarren
-manager: douge
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
+author: mikejo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Code a custom extraction rule for a web performance test
 
@@ -23,30 +22,32 @@ You can create your own extraction rules. To do this, you derive your own rules 
 > [!NOTE]
 > You can also create custom validation rules. For more information, see [Create custom code and plug-ins for load tests](../test/create-custom-code-and-plug-ins-for-load-tests.md).
 
+[!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
+
 ## To create a custom extraction rule
 
-1.  Open a Test Project that contains a Web performance test.
+1. Open a Test project that contains a web performance test.
 
-2.  (Optional) Create a separate Class library project in which to store your extraction rule.
+2. (Optional) Create a separate Class library project in which to store your extraction rule.
 
     > [!IMPORTANT]
     > You can create the class in the same project that your tests are in. However, if you want to reuse the rule, it is better to create a separate Class library project in which to store your rule. If you create a separate project, you must complete the optional steps in this procedure.
 
-3.  (Optional) In the Class library project, add a reference to the Microsoft.VisualStudio.QualityTools.WebTestFramework dll.
+3. (Optional) In the Class library project, add a reference to the Microsoft.VisualStudio.QualityTools.WebTestFramework dll.
 
-4.  Create a class that derives from the <xref:Microsoft.VisualStudio.TestTools.WebTesting.ExtractionRule> class. Implement the <xref:Microsoft.VisualStudio.TestTools.WebTesting.ExtractionRule.Extract*> and <xref:Microsoft.VisualStudio.TestTools.WebTesting.ExtractionRule.RuleName*> members.
+4. Create a class that derives from the <xref:Microsoft.VisualStudio.TestTools.WebTesting.ExtractionRule> class. Implement the <xref:Microsoft.VisualStudio.TestTools.WebTesting.ExtractionRule.Extract*> and <xref:Microsoft.VisualStudio.TestTools.WebTesting.ExtractionRule.RuleName*> members.
 
-5.  (Optional) Build the new Class library project.
+5. (Optional) Build the new Class library project.
 
-6.  (Optional) In the Test Project, add a reference to the Class library project that contains the custom extraction rule.
+6. (Optional) In the Test project, add a reference to the Class library project that contains the custom extraction rule.
 
-7.  In the Test Project, open a Web performance test in the **Web Performance Test Editor**.
+7. In the Test project, open a web performance test in the **Web Performance Test Editor**.
 
-8.  To add the custom extraction rule, right-click a Web performance test request and select **Add Extraction Rule**.
+8. To add the custom extraction rule, right-click a web performance test request and select **Add Extraction Rule**.
 
      The **Add Extraction Rule** dialog box appears. You will see your custom validation rule in the **Select a rule** list, together with the predefined validation rules. Select your custom extraction rule and then choose **OK**.
 
-9. Run your Web performance test.
+9. Run your web performance test.
 
 ## Example
 

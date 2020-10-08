@@ -1,16 +1,15 @@
 ---
 title: "Rapid Web Site Profiling with VSPerfASPNETCmd | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "proflilng tools,VSPerfASPNETCmd"
   - "VSPerfASPNETCmd"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
-ms.workload: 
+manager: jillfra
+monikerRange: 'vs-2017'
+ms.workload:
   - "multiple"
 ---
 # Rapid web site profiling with VSPerfASPNETCmd
@@ -23,7 +22,7 @@ The **VSPerfASPNETCmd** command-line tool enables you to easily profile [!INCLUD
  In some scenarios, such as collecting concurrency data or pausing and resuming profiling, using **VSPerfCmd** is the preferred profiling method.
 
 > [!NOTE]
-> Command-line tools of the Profiling Tools are located in the *\Team Tools\Performance Tools* subdirectory of the Visual Studio installation directory. On 64-bit computers, use the VSPerfASPNETCmd tool located in the 32-bit *\Team Tools\Performance Tools* directory. To use the profiler command-line tools, you must add the tools path to the PATH environment variable of the command prompt window or add it to the command itself. For more information, see [Specify the path to command-line tools](../profiling/specifying-the-path-to-profiling-tools-command-line-tools.md).
+> To get the path to the profiling tools, see [Specify the path to command line tools](../profiling/specifying-the-path-to-profiling-tools-command-line-tools.md). On 64-bit computers, both 64-bit and 32-bit versions of the tools are available. To use the profiler command-line tools, you must add the tools path to the PATH environment variable of the Command Prompt window or add it to the command itself.
 
 ## Profile an ASP.NET application
 
@@ -36,6 +35,8 @@ To profile an [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] web 
  Sampling is the default profiling method of **VSPerfASPNETCmd** tool and does not have to be specified on the command line. The following command line collects application statistics from the specified web application:
 
  **vsperfaspnetcmd**  *websiteUrl*
+
+ An example of a local server-hosted *websiteUrl* might be *http://localhost/MySite/default.aspx*. An example of an external site is *http://www.contoso.com*. For more information, see the example URLs in [To profile a web site without opening a project in Visual Studio](how-to-collect-performance-data-for-a-web-site.md#to-profile-a-web-site-without-opening-a-project-in-visual-studio).
 
 ## To collect detailed timing data by using the instrumentation method
 
@@ -76,7 +77,7 @@ To collect tier interaction data with instrumentation data:
 
 To collect tier interaction data with .NET memory data:
 
-**vsperfaspnetcmd /memory**[**:lifetime**] **/tip***websiteUrl*
+**vsperfaspnetcmd /memory**[**:lifetime**] **/tip**_websiteUrl_
 
 ## Use the /NoWait option
 
@@ -84,7 +85,7 @@ By default, the command prompt does not return after a **vsperfaspnetcmd** comma
 
 To begin profiling:
 
-**vsperfaspnetcmd** [*/Options*] **/nowait***websiteUrl*
+**vsperfaspnetcmd** [*/Options*] **/nowait**_websiteUrl_
 
 To end profiling:
 

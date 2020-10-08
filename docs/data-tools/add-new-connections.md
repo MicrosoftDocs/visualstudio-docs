@@ -1,14 +1,12 @@
 ---
 title: Add new connections
 ms.date: 11/04/2016
-ms.topic: conceptual
-author: gewarren
-ms.author: gewarren
-manager: douge
-ms.prod: visual-studio-dev15
-ms.technology: vs-data-tools
+ms.topic: how-to
+author: ghogen
+ms.author: ghogen
+manager: jillfra
 ms.workload:
-  - "data-storage"
+- data-storage
 ---
 # Add new connections
 
@@ -20,7 +18,7 @@ You can test your connection to a database or service, and explore database cont
 
 - Cloud Explorer
 
-   Install this window manually as a Visual Studio extension by selecting **Tools** > **Extensions and Updates** > **Online** > **Visual Studio Markeplace**. Provides specialized functionality for exploring and connecting to Azure services.
+   Install this window manually as a Visual Studio extension from [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.CloudExplorerForVS). Provides specialized functionality for exploring and connecting to Azure services.
 
 - SQL Server Object Explorer
 

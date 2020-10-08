@@ -1,16 +1,15 @@
 ---
 title: "Saving Symbol Information with Performance Data Files | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "packsymbols, in profiling tools reports"
   - "profiling tools, packsymbols"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
-ms.workload: 
+manager: jillfra
+monikerRange: 'vs-2017'
+ms.workload:
   - "multiple"
 ---
 # Saving Symbol Information with Performance Data Files
@@ -37,7 +36,7 @@ If you do not see any symbols in your own code, some common solutions are availa
 
 - If you collected type data, add /SUMMARY:TYPE to the vsperfreport command line.
 
- If you do not see symbols from Windows or other Microsoft programs:
+  If you do not see symbols from Windows or other Microsoft programs:
 
 - Make sure that you have set the path of your Windows symbol cache. Do one of the following to set the symbol cache path:
 
@@ -57,6 +56,6 @@ VsPerfReport -packsymbols -summary:all filename.vsp
 
 ## See also
 
-[Saving and Exporting Performance Tools Data](../profiling/saving-and-exporting-performance-tools-data.md)  
-[How to: Reference Windows Symbol Information](../profiling/how-to-reference-windows-symbol-information.md)  
+[Saving and Exporting Performance Tools Data](../profiling/saving-and-exporting-performance-tools-data.md)
+[How to: Reference Windows Symbol Information](../profiling/how-to-reference-windows-symbol-information.md)
 [VSPerfReport](../profiling/vsperfreport.md)

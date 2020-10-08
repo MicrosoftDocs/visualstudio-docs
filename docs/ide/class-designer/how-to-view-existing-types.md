@@ -1,21 +1,19 @@
 ---
-title: "How to: View Existing Types (Class Designer)"
+title: 'How to: View Existing Types (Class Designer)'
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
-ms.topic: conceptual
+ms.topic: how-to
 f1_keywords:
-  - "vs.classdesigner.CannotShowBaseType"
+- vs.classdesigner.CannotShowBaseType
 helpviewer_keywords:
-  - "types [Visual Studio], visualizing"
-  - "types [Visual Studio], class diagrams"
-  - "class diagrams, types"
+- types [Visual Studio], visualizing
+- types [Visual Studio], class diagrams
+- class diagrams, types
 ms.assetid: de110a4e-5b51-4a40-9dee-615df4d8f999
-author: gewarren
-ms.author: gewarren
-manager: douge
+author: TerryGLee
+ms.author: tglee
+manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # How to: View existing types in Class Designer
 
@@ -27,9 +25,9 @@ To design new types on class diagrams, see [How to: Create types by using Class 
 
 ## To see types in a project on a class diagram
 
-1.  From a project in **Solution Explorer**, open an existing class diagram (.cd) file. Or if no class diagram exists, add a new class diagram to the project. See [How to: Add Class Diagrams to Projects](how-to-add-class-diagrams-to-projects.md).
+1. From a project in **Solution Explorer**, open an existing class diagram (.cd) file. Or if no class diagram exists, add a new class diagram to the project. See [How to: Add Class Diagrams to Projects](how-to-add-class-diagrams-to-projects.md).
 
-2.  From the project in **Solution Explorer**, drag a source code file to the class diagram.
+2. From the project in **Solution Explorer**, drag a source code file to the class diagram.
 
     > [!NOTE]
     > If your solution has a project that shares code across multiple apps, you can drag files or code to a class diagram only from these sources:
@@ -61,4 +59,4 @@ In **Solution Explorer** or **Class View**, right-click the project and choose *
 
 - [How to: View Inheritance Between Types](how-to-view-inheritance-between-types.md)
 - [How to: Customize Class Diagrams](how-to-customize-class-diagrams.md)
-- [Viewing Types and Relationships](viewing-types-and-relationships.md)
+- [Viewing Types and Relationships](designing-and-viewing-classes-and-types.md)

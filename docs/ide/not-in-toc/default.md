@@ -1,35 +1,43 @@
 ---
 title: Default page for F1 help
-ms.date: 02/28/2018
+description: "Default page for F1 help requests for Visual Studio"
+ms.date: 08/20/2020
 ms.topic: troubleshooting
+ms.custom: contperfq1
 robots: noindex,nofollow
 f1_keywords:
- - "vs.texteditor"
- - "vs.ambient"
-manager: douge
-author: gewarren
-ms.author: gewarren
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
+- vs.ambient
+manager: jillfra
+author: mikejo5000
+ms.author: mikejo
 ---
 # F1 help
 
-It looks like we couldn't find what you were looking for, and we apologize. Please [help us improve](#help-us-improve-f1).
+It looks like we couldn't find what you were looking for, and we apologize. You can help us improve by leaving feedback through the buttons at the bottom of this page, or try one of the following suggestions.
 
-## Cursor position
+## Search for help
 
-If you are looking for F1 help on a keyword or API name, be sure the cursor is positioned inside or just to the right of the word before pressing **F1**. If that still doesn't work, select from the [useful links](#useful-links) list, or do a search on https://docs.microsoft.com.
+If you're looking for F1 help on a window, a keyword, or an API name:
+
+- Try searching on [docs.microsoft.com](/)
+- Try searching using a search engine.
+
+## Find help on a keyword or API
+
+- For C# help, see the [C# programming guide](/dotnet/csharp/programming-guide/) or [language reference](/dotnet/csharp/language-reference/).
+- For Visual Basic help, see the [Visual Basic language features](/dotnet/visual-basic/programming-guide/language-features/) or [language reference](/dotnet/visual-basic/language-reference/).
+- For Python help, see [Python documentation](https://docs.python.org/).
+- For C++ help, see [C/C++ language and standard libraries reference](/cpp/cpp/c-cpp-language-and-standard-libraries).
+- For F# help, see the [F# guide](/dotnet/fsharp/).
+- For TypeScript help, see the [TypeScript documentation](https://www.typescriptlang.org/docs).
+
+## Re-map or disable the F1 help key
+
+If you want to change the key mapping for F1, see [Change the F1 help key](../not-in-toc/change-f1-help-key.md).
 
 ## Useful links
 
-- For general information about Visual Studio, see [Visual Studio overview](../../ide/visual-studio-ide.md).
+- Search for reference documentation on [.NET API browser](/dotnet/api/).
 - For help on the Visual Studio text editor, see [Use the code editor](../../ide/writing-code-in-the-code-and-text-editor.md).
-- For C# help, see the [C# guide](/dotnet/csharp/index).
-- For Visual Basic help, see the [Visual Basic guide](/dotnet/visual-basic/).
-- For F# help, see the [F# guide](/dotnet/fsharp/).
-- For Python help, see [Python in Visual Studio](../../python/overview-of-python-tools-for-visual-studio.md).
-- For C++ help, see [C++ in Visual Studio](/cpp/visual-cpp-in-visual-studio).
-
-## Help us improve F1
-
-Please help us improve the F1 help experience. Log a product help issue by clicking the **Give product feedback** button below. Include what you were looking for help on when you pressed **F1**, for example, what symbol or window your cursor was on. Thank you!
+- Browse a list of Knowledge Base articles on the [Visual Studio troubleshooting](/troubleshoot/visualstudio/welcome-visual-studio/) page.
+- For information about Visual Studio, see [Visual Studio overview](../../get-started/visual-studio-ide.md).
