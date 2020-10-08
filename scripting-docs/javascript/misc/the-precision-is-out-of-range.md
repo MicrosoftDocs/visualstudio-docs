@@ -23,4 +23,4 @@ You attempted to pass an invalid argument to the function **Number.prototype.toP
 - Ensure the argument to `toPrecision` is not too large or too small.  
   
 ## See also  
- [toPrecision Method (Number)](../../javascript/reference/toprecision-method-number-javascript.md)
+ [toPrecision Method (Number)](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number/toprecision)
