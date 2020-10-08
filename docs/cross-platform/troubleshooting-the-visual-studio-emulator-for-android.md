@@ -1,7 +1,7 @@
 ---
 title: "Troubleshooting the Visual Studio Emulator for Android | Microsoft Docs"
 description: Learn information that can help you resolve issues that you may experience when you're using the Visual Studio Emulator for Android. 
-ms.custom: ""
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.technology: vs-ide-mobile
 ms.topic: "conceptual"
