@@ -1,13 +1,13 @@
 ---
-title: Warning - changes have been made to the Configure Behavior dialog box that have not been applied
+title: Unapplied changes
+description: Warning - changes have been made to the Configure Behavior dialog box that have not been applied
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: reference
+ms.topic: error-reference
 ms.assetid: ce5822dd-4f10-4c86-b707-7766837be216
-author: gewarren
-ms.author: gewarren
-manager: douge
-ms.prod: visual-studio-dev15
-ms.technology: vs-data-tools
+author: ghogen
+ms.author: ghogen
+manager: jillfra
 ms.workload:
   - "data-storage"
 ---
@@ -15,17 +15,14 @@ ms.workload:
 
 Warning. Changes have been made to the Configure Behavior dialog box that have not been applied. Do you want to apply your changes?
 
-The **Configure Behavior** dialog box enables you to configure Insert, Update, and Delete behavior for all classes available. This message appears when you select a new **Class** and **Behavior** combination and the previous change has not yet been applied.
+The **Configure Behavior** dialog box enables you to configure `Insert`, `Update`, and `Delete` behavior for all classes available. This message appears when you select a new **Class** and **Behavior** combination and the previous change has not yet been applied.
 
-## To apply the change and continue
+## Change options
 
-- Click **Yes** to apply the change to the selected **Class** and **Behavior**.
+- To apply the change and continue, click **Yes**. The change is applied to the selected **Class** and **Behavior**.
 
-## To cancel the previous change and continue
-
-- Click **No** to cancel the change to the selected **Class** and **Behavior**.
+- To cancel the previous change and continue, click **No**.
 
 ## See also
 
-- [O/R Designer messages](../data-tools/o-r-designer-messages.md)
 - [LINQ to SQL tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md)

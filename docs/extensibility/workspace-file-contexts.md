@@ -1,11 +1,7 @@
 ---
 title: "Workspace file contexts in Visual Studio | Microsoft Docs"
-ms.custom: ""
 ms.date: "02/21/2018"
-ms.technology:
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
-ms.assetid: 7aaa0e65-f492-49ea-a845-35bd14910ca7
 author: "vukelich"
 ms.author: "svukel"
 manager: "viveis"
@@ -24,7 +20,7 @@ The most common scenarios for file contexts are related to build, debug, and lan
 
 ## File context lifecycle
 
-Lifecycles for a `FileContext` are non-deterministic. At any time, a component can asynchronously request for some set of context types. Providers that support some subset of the request context types will be queried. The `IWorkspace` instance acts as the middle-man between the consumer and providers through the <xref:Microsoft.VisualStudio.Workspace.IWorkspace.GetFileContextsAsync%2A> method. Consumers might request a context and perform some short-term action based on the context, while others might request a context and maintain a long lived reference. 
+Lifecycles for a `FileContext` are non-deterministic. At any time, a component can asynchronously request for some set of context types. Providers that support some subset of the request context types will be queried. The `IWorkspace` instance acts as the middle-man between the consumer and providers through the <xref:Microsoft.VisualStudio.Workspace.IWorkspace.GetFileContextsAsync%2A> method. Consumers might request a context and perform some short-term action based on the context, while others might request a context and maintain a long lived reference.
 
 Changes might happen to files that cause a file context to become outdated. The provider can fire an event on the `FileContext` to notify consumers of updates. For example, if a build context is provided for some file but an on-disk change invalidates that context, then the original producer can invoke the event. Any consumers still referencing that `FileContext` can then requery for a new `FileContext`.
 

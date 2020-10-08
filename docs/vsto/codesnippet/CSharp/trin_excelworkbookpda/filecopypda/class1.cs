@@ -43,7 +43,6 @@ namespace FileCopyPDA
             }
         }
 // </snippet3>
-// </snippet7>
-
     }
 }
+// </snippet7>

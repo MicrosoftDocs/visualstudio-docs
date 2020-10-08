@@ -1,16 +1,15 @@
 ---
-title: "Get started debugging in Visual Studio"
+title: "First look at the debugger"
 description: "Get started debugging applications using the Visual Studio debugger"
-ms.custom: "mvc"
-ms.date: "06/15/2018"
-ms.technology: "vs-ide-debug"
-ms.topic: "quickstart"
+ms.custom: ""
+ms.date: 04/08/2019
+ms.topic: tutorial
 helpviewer_keywords:
   - "debugger"
 ms.assetid: c763d706-3213-494f-b4d2-990b6e1ec456
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: douge
+author: mikejo5000
+ms.author: mikejo
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
@@ -22,7 +21,7 @@ The features described here are applicable to C#, C++, Visual Basic, JavaScript,
 
 ## Set a breakpoint and start the debugger
 
-To debug, you need to start your app with the debugger attached to the app process. **F5** (**Debug > Start Debugging**) is the most common way to do that. However, right now you may not have set any breakpoints to examine your app code, so we will do that first and then start debugging. Breakpoints are the most basic and essential feature of reliable debugging. A breakpoint indicates where Visual Studio should suspend your running code so you can take a look at the values of variables, or the behavior of memory, or whether or not a branch of code is getting run. 
+To debug, you need to start your app with the debugger attached to the app process. **F5** (**Debug > Start Debugging**) is the most common way to do that. However, right now you may not have set any breakpoints to examine your app code, so we will do that first and then start debugging. Breakpoints are the most basic and essential feature of reliable debugging. A breakpoint indicates where Visual Studio should suspend your running code so you can take a look at the values of variables, or the behavior of memory, or whether or not a branch of code is getting run.
 
 If you have a file open in the code editor, you can set a breakpoint by clicking in the margin to the left of a line of code.
 
@@ -72,7 +71,7 @@ While in the debugger, hover over a line of code until the **Run to Click** (Run
 ![Run to Click](../debugger/media/dbg-tour-run-to-click-2.png "Run to Click")
 
 > [!NOTE]
-> The **Run to Click** (Run execution to here) button is new in [!include[vs_dev15](../misc/includes/vs_dev15_md.md)].
+> The **Run to Click** (Run execution to here) button is available starting in [!include[vs_dev15](../misc/includes/vs_dev15_md.md)].
 
 Click the **Run to Click** (Run execution to here) button. The debugger advances to the line of code where you clicked.
 
@@ -88,9 +87,7 @@ This command resumes app execution (and advances the debugger) until the current
 
 ## Run to cursor
 
-Stop the debugger by pressing the **Stop Debugging** red button ![Stop Debugging](../debugger/media/dbg-tour-stop-debugging.png "Stop Debugging") or **Shift** + **F5**.
-
-Right-click a line of code in your app and choose **Run to Cursor**. This command starts debugging and sets a temporary breakpoint on the current line of code.
+When you are editing code (rather than paused in the debugger), right-click a line of code in your app and choose **Run to Cursor**. This command starts debugging and sets a temporary breakpoint on the current line of code.
 
 ![Run to Cursor](../debugger/media/dbg-tour-run-to-cursor.png "Run to Cursor")
 
@@ -110,6 +107,16 @@ Click the **Restart** ![Restart App](../debugger/media/dbg-tour-restart.png "Res
 When you press **Restart**, it saves time versus stopping the app and restarting the debugger. The debugger pauses at the first breakpoint that is hit by executing code.
 
 If you do want to stop the debugger and get back into the code editor, you can press the red stop ![Stop Debugging](../debugger/media/dbg-tour-stop-debugging.png "Stop Debugging") button instead of **Restart**.
+
+## Edit your code and continue debugging (C#, VB, C++, XAML)
+
+In most languages supported by Visual Studio, you can edit your code in the middle of a debugging session and continue debugging. To use this feature, click into your code with your cursor while paused in the debugger, make edits, and press **F5**, **F10**, or **F11** to continue debugging.
+
+![Edit and continue debugging](../debugger/media/dbg-tips-edit-and-continue.gif "EditAndContinue")
+
+For more information on using the feature and on feature limitations, see [Edit and Continue](../debugger/edit-and-continue.md).
+
+To modify XAML code during a debugging session, see [Write and debug running XAML code with XAML Hot Reload](../xaml-tools/xaml-hot-reload.md).
 
 ## Inspect variables with data tips
 
@@ -180,12 +187,20 @@ In this example, the **Exception Helper** shows you a `System.Argument` exceptio
 
 In this example, the `DirectoryInfo` call gave the error on the empty string stored in the `value` variable.
 
-The Exception Helper is a great feature that can help you debug errors. You can also do things like view error details and add a watch from the Exception Helper. Or, if needed, you can change conditions for throwing the particular exception.
+The Exception Helper is a great feature that can help you debug errors. You can also do things like view error details and add a watch from the Exception Helper. Or, if needed, you can change conditions for throwing the particular exception. For more information on how to handle exceptions in your code, see [Debugging techniques and tools](../debugger/write-better-code-with-visual-studio.md).
 
->  [!NOTE]
-> The Exception Helper replaces the Exception Assistant in [!include[vs_dev15](../misc/includes/vs_dev15_md.md)].
+> [!NOTE]
+> The Exception Helper replaced the Exception Assistant starting in [!include[vs_dev15](../misc/includes/vs_dev15_md.md)].
 
 Expand the **Exception Settings** node to see more options on how to handle this exception type, but you don't need to change anything for this tour!
+
+## Configure debugging
+
+You can configure your project to build as a [Debug or Release configuration](../debugger/how-to-set-debug-and-release-configurations.md), configure project properties for debugging, or configure [general settings](../debugger/how-to-specify-debugger-settings.md) for debugging. In addition, you can configure the debugger to display custom information using features such as [DebuggerDisplay](using-the-debuggerdisplay-attribute.md) attribute or, for C/C++, the [NatVis framework](create-custom-views-of-native-objects.md).
+
+Debugging properties are specific to each project type. For example, you can specify an argument to pass to the application when you start it. You can access the project-specific properties by right-clicking the project in Solution Explorer and selecting **Properties**. Debugging properties typically appear in the **Build** or **Debug** tab, depending on the particular project type.
+
+![Project properties](../debugger/media/dbg-tour-project-properties.png "Project properties")
 
 ## Debug live ASP.NET apps in Azure App Service
 
@@ -205,11 +220,15 @@ You can navigate and view snapshots by using the **Step Backward** and **Step Fo
 
 ![Step Backward and Forward Buttons](../debugger/media/intellitrace-step-back-icons-description.png  "Step Backward and Forward buttons")
 
-For more information, see the [View snapshots using IntelliTrace step-back](../debugger/how-to-use-intellitrace-step-back.md) page.
+For more information, see the [Inspect previous app states using IntelliTrace](../debugger/view-historical-application-state.md) page.
+
+## Debug performance issues
+
+If your app runs too slowly or uses too much memory, you may need to test your app with the profiling tools early on. For more information about profiling tools such as the CPU Usage tool and the Memory Analyzer, see [First look at the profiling tools](../profiling/profiling-feature-tour.md).
 
 ## Next steps
 
-In this tutorial, you've had a quick look at many debugger features. You may want a more in-depth look at these features using a sample application
+In this tutorial, you've had a quick look at many debugger features. You may want a more in-depth look at one of these features, such as breakpoints.
 
 > [!div class="nextstepaction"]
-> [Learn to debug using Visual Studio](../debugger/getting-started-with-the-debugger.md)
+> [Learn to use breakpoints](../debugger/using-breakpoints.md)

@@ -1,33 +1,49 @@
 ---
-title: Develop code in Visual Studio without projects or solutions
-ms.date: 02/21/2018
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
-ms.topic: conceptual
+title: Develop code without projects or solutions
+ms.date: 06/22/2020
+ms.topic: how-to
 helpviewer_keywords:
-  - "open folder [Visual Studio]"
-  - "anycode [Visual Studio]"
-  - projects and solutions, develop code without
-author: gewarren
-ms.author: gewarren
-manager: douge
+- open folder [Visual Studio]
+- anycode [Visual Studio]
+- projects and solutions, develop code without
+author: TerryGLee
+ms.author: tglee
+manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Develop code in Visual Studio without projects or solutions
 
-In Visual Studio 2017, you can open code from nearly any type of directory-based project into Visual Studio without the need for a solution or project file. This means you can, for example, clone a repo on GitHub, open it directly into Visual Studio, and begin developing, without having to create a solution or project. If needed, you can specify custom build tasks and launch parameters through simple JSON files.
+You can open code from nearly any type of directory-based project into Visual Studio without the need for a solution or project file. This means you can, for example, clone a repo on GitHub, open it directly into Visual Studio, and begin developing, without having to create a solution or project. If needed, you can specify custom build tasks and launch parameters through simple JSON files.
 
 After you open your code files in Visual Studio, **Solution Explorer** displays all the files in the folder. You can click on any file to begin editing it. In the background, Visual Studio starts indexing the files to enable IntelliSense, navigation, and refactoring features. As you edit, create, move, or delete files, Visual Studio tracks the changes automatically and continuously updates its IntelliSense index. Code will appear with syntax colorization and, in many cases, include basic IntelliSense statement completion.
 
 ## Open any code
 
-You can open code into Visual Studio in any of the following ways:
+You can open code into Visual Studio in the following ways:
 
 - On the Visual Studio menu bar, choose **File** > **Open** > **Folder**, and then browse to the code location.
+
 - On the context (right-click) menu of a folder containing code, choose the **Open in Visual Studio** command.
+
+::: moniker range="vs-2017"
 - Choose the **Open Folder** link on the Visual Studio **Start Page**.
+
+    > [!IMPORTANT]
+    > Not all code can be opened by using the **Open Folder** link from the Visual Studio **Start Page**. For example, if your code file was saved as part of a solution&mdash;in other words, in an .sln file&mdash;you must use one of the other options listed here to open your code.
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+- Choose the **Open Folder** link on the start window.
+
+    > [!IMPORTANT]
+    > Not all code can be opened by using the **Open Folder** link from the Visual Studio start window. For example, if your code file was saved as part of a solution&mdash;in other words, in an .sln file&mdash;you must use one of the other options listed here to open your code.
+
+::: moniker-end
+
 - If you are a keyboard user, press **Ctrl**+**Shift**+**Alt**+**O** in Visual Studio.
+
 - Open code from a cloned GitHub repo.
 
 ### To open code from a cloned GitHub repo
@@ -58,10 +74,6 @@ The following example shows how to clone a GitHub repo and then open its code in
 
    You can now browse folders and files in the cloned repo, and view and search the code in the Visual Studio code editor, complete with syntax colorization and other features.
 
-|         |         |
-|---------|---------|
-|  ![movie camera icon for video](../install/media/video-icon.png)|    [Watch a video](https://mva.microsoft.com/en-us/training-courses/getting-started-with-visual-studio-2017-17798?l=lp3TOKD6D_6711787171) on how to clone and open code from a GitHub repo in Visual Studio. |
-
 ## Run and debug your code
 
 You can debug your code in Visual Studio without a project or solution! To debug some languages, you may need to specify a valid *startup file* in the codebase, such as a script, executable, or project. The drop-down list box next to the **Start** button on the toolbar lists all of the startup items that Visual Studio detects, as well as items you specifically designate. Visual Studio runs this code first when you debug your code.
@@ -83,7 +95,7 @@ If your codebase uses custom build tools, then you must tell Visual Studio how t
 
 If your codebase contains Python or JavaScript code, you don't have to configure any *.json* files, but you do have to install the corresponding workload. You must also configure the startup script:
 
-1. Install the [Node.js development](https://visualstudio.microsoft.com/vs/node-js/) or [Python development](https://visualstudio.microsoft.com/vs/python/) workload by choosing **Tools** > **Get Tools and Features...**, or by closing Visual Studio and running the Visual Studio Installer.
+1. Install the [Node.js development](https://visualstudio.microsoft.com/vs/node-js/) or [Python development](https://visualstudio.microsoft.com/vs/python/) workload by choosing **Tools** > **Get Tools and Features**, or by closing Visual Studio and running the Visual Studio Installer.
 
    ![Node.js and Python development workloads](media/python_nodejs_workloads.png)
 
@@ -93,7 +105,7 @@ If your codebase contains Python or JavaScript code, you don't have to configure
 
 ### Codebases that contain C++ code
 
-For information about opening C++ code without solutions or projects in Visual Studio, see [Open Folder projects for C++](/cpp/ide/non-msbuild-projects).
+For information about opening C++ code without solutions or projects in Visual Studio, see [Open Folder projects for C++](/cpp/build/open-folder-projects-cpp).
 
 ### Codebases that contain a Visual Studio project
 
@@ -108,6 +120,6 @@ The **Start** button's text changes to reflect that the project is the startup i
 ## See also
 
 - [Customize build and debug tasks](../ide/customize-build-and-debug-tasks-in-visual-studio.md)
-- [Open Folder projects for C++](/cpp/ide/non-msbuild-projects)
-- [CMake projects in C++](/cpp/ide/cmake-tools-for-visual-cpp)
+- [Open Folder projects for C++](/cpp/build/open-folder-projects-cpp)
+- [CMake projects in C++](/cpp/build/cmake-projects-in-visual-studio)
 - [Writing code in the code and text editor](../ide/writing-code-in-the-code-and-text-editor.md)

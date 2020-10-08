@@ -1,22 +1,20 @@
 ---
 title: Run-Time Text Generation with T4 Text Templates
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 dev_langs:
- - CSharp
- - VB
+- CSharp
+- VB
 helpviewer_keywords:
-  - "Preprocessed Text Template project item"
-  - "TextTemplatingFilePreprocessor custom tool"
-  - "text templates, TransformText() method"
-  - "text templates, generating files at run time"
-author: gewarren
-ms.author: gewarren
-manager: douge
+- Preprocessed Text Template project item
+- TextTemplatingFilePreprocessor custom tool
+- text templates, TransformText() method
+- text templates, generating files at run time
+author: JoshuaPartlow
+ms.author: joshuapa
+manager: jillfra
 ms.workload:
-  - "multiple"
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-modeling
+- multiple
 ---
 # Run-Time Text Generation with T4 Text Templates
 
@@ -49,7 +47,7 @@ Using a template in your application makes it is easier to see the final form of
 
 ### To create a run-time text template
 
-1. In Solution Explorer, on the shortcut menu of your project, choose **Add**, **New Item**.
+1. In Solution Explorer, on the shortcut menu of your project, choose **Add** > **New Item**.
 
 2. In the **Add New Item** dialog box, select **Runtime Text Template**. (In Visual Basic look under **Common Items** > **General**.)
 
@@ -146,7 +144,7 @@ Notice that statements are inserted between `<# ... #>` and expressions are inse
 
 ### The code built from the template
 
-When you save the **.tt** file, a subsidiary **.cs** or **.vb** file is generated. To see this file in Solution Explorer, expand the **.tt** file node. In a Visual Basic project, first choose **Show All Files** in the Solution Explorer toolbar.
+When you save the **.tt** file, a subsidiary **.cs** or **.vb** file is generated. To see this file in **Solution Explorer**, expand the **.tt** file node. In a Visual Basic project, first choose **Show All Files** in the **Solution Explorer** toolbar.
 
 Notice that the subsidiary file contains a partial class that contains a method called `TransformText()`. You can call this method from your application.
 

@@ -1,22 +1,23 @@
 ---
-title: Move variable declaration near reference in Visual Studio
-ms.date: 01/26/2018
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
+title: Move variable declaration near reference
+ms.date: 03/10/2020
 ms.topic: reference
-author: "kuhlenh"
-ms.author: "kaseyu"
-manager: douge
+author: mikadumont
+ms.author: midumont
+manager: jillfra
 dev_langs:
-  - csharp
+- CSharp
+- VB
 ms.workload:
-  - "dotnet"
+- dotnet
 ---
 # Move declaration near reference refactoring
 
 This refactoring applies to:
 
 - C#
+
+- Visual Basic
 
 **What:** Lets you move variable declarations closer to their usage.
 
@@ -31,9 +32,9 @@ This refactoring applies to:
 1. Next, do one of the following:
 
    - **Keyboard**
-     - Press **Ctrl**+**.** to trigger the **Quick Actions and Refactorings** menu and select **Move declaration near reference** from the Preview window popup.
+      - Press **Ctrl**+**.** to trigger the **Quick Actions and Refactorings** menu and select **Move declaration near reference** from the Preview window popup.
    - **Mouse**
-     - Right-click the code, select the **Quick Actions and Refactorings** menu and select **Move declaration near reference** from the Preview window popup.
+      - Right-click the code, select the **Quick Actions and Refactorings** menu and select **Move declaration near reference** from the Preview window popup.
 
 1. When you're happy with the change, press **Enter** or click the fix in the menu and the changes will be committed.
 

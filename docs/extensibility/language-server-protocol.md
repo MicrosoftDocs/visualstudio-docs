@@ -1,16 +1,13 @@
 ---
-title: "Language Server Protocol Overview | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/14/2017"
-ms.technology: 
-  - "vs-ide-sdk"
-ms.topic: "conceptual"
+title: Language Server Protocol Overview | Microsoft Docs
+ms.date: 11/14/2017
+ms.topic: conceptual
 ms.assetid: 6a7d93c2-31ea-4bae-8b29-6988a567ddf2
-author: "gregvanl"
-ms.author: "gregvanl"
-manager: douge
-ms.workload: 
-  - "vssdk"
+author: acangialosi
+ms.author: anthc
+manager: jillfra
+ms.workload:
+- vssdk
 ---
 # Language Server Protocol
 

@@ -1,15 +1,13 @@
 ---
-title: "XML Schema Designer Start View"
+title: XML Schema Designer Start View
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-xml-tools
 ms.topic: reference
 ms.assetid: f25e7a2f-7469-4279-b2f4-ee2dfd4d3af1
-author: gewarren
-ms.author: gewarren
-manager: douge
+author: TerryGLee
+ms.author: tglee
+manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Start View
 
@@ -21,7 +19,7 @@ The Start View contains two main sections, the *watermark* and the **Schema Set 
 
 ## Watermark
 
-The watermark pane contains a list of links to all the XSD Designer views, XML Editor, and **XML Schema Explorer**. If the schema set has errors, the following text is displayed at the end of the list: "Use the Error List to view and fix the errors in the set."
+The watermark pane contains a list of links to all the XSD Designer views, XML editor, and **XML Schema Explorer**. If the schema set has errors, the following text is displayed at the end of the list: "Use the Error List to view and fix the errors in the set."
 
 ## Schema set details
 
@@ -36,7 +34,7 @@ You can navigate between the Start View, the [Content Model View](../xml-tools/c
 The following buttons are enabled in the XSD Designer toolbar when the Start View is active:
 
 |Option|Description|
-|------------|-----------------|
+|-|-----------------|
 |**Show Start View**|Switches to the Start View. This view can be accessed by using the keyboard shortcut: **Ctrl**+**1**.|
 |**Show Content Model View**|Switches to the Content Model View. This view can be accessed by using the keyboard shortcut: **Ctrl**+**2**.|
 |**Show Graph View**|Switches to the Graph View. This view can be accessed by using the keyboard shortcut: **Ctrl**+**3**.|
@@ -46,4 +44,4 @@ The following buttons are enabled in the XSD Designer toolbar when the Start Vie
 - [XML Schema Explorer](../xml-tools/xml-schema-explorer.md)
 - [Graph View](../xml-tools/graph-view.md)
 - [Content Model View](../xml-tools/content-model-view.md)
-- [XML Editor](../xml-tools/xml-editor.md)
+- [XML editor](../xml-tools/xml-editor.md)

@@ -1,8 +1,6 @@
 ---
 title: "Bookmark control"
 ms.date: 02/02/2017
-ms.technology: office-development
-ms.prod: visual-studio-dev15
 ms.topic: conceptual
 f1_keywords:
   - "VST.Toolbox.Bookmark"
@@ -14,9 +12,9 @@ helpviewer_keywords:
   - "Bookmark control, data binding"
   - "Bookmark control, events"
   - "Bookmark control"
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
 ms.workload:
   - "office"
 ---
@@ -25,7 +23,7 @@ ms.workload:
 
  [!INCLUDE[appliesto_wdalldocapp](../vsto/includes/appliesto-wdalldocapp-md.md)]
 
- In document-level projects, you can add <xref:Microsoft.Office.Tools.Word.Bookmark> controls to your document at design time or at runtime. In VSTO Add-in projects, you can add <xref:Microsoft.Office.Tools.Word.Bookmark> controls to any open document at runtime. For more information, see [How to: Add Bookmark controls to Word documents](../vsto/how-to-add-bookmark-controls-to-word-documents.md).
+ In document-level projects, you can add <xref:Microsoft.Office.Tools.Word.Bookmark> controls to your document at design time or at run time. In VSTO Add-in projects, you can add <xref:Microsoft.Office.Tools.Word.Bookmark> controls to any open document at run time. For more information, see [How to: Add Bookmark controls to Word documents](../vsto/how-to-add-bookmark-controls-to-word-documents.md).
 
 ## Bind data to the control
  A <xref:Microsoft.Office.Tools.Word.Bookmark> control supports simple data binding. The bookmark should be bound to a data source using the <xref:System.Windows.Forms.IBindableComponent.DataBindings%2A> property. The default data binding property of the bookmark is the <xref:Microsoft.Office.Tools.Word.Bookmark.Text%2A> property.
@@ -91,19 +89,19 @@ The following table shows how the sentence "This is sample text." is shared by a
 
 The following events are available for the <xref:Microsoft.Office.Tools.Word.Bookmark> control:
 
--   <xref:Microsoft.Office.Tools.Word.Bookmark.BeforeDoubleClick>
+- <xref:Microsoft.Office.Tools.Word.Bookmark.BeforeDoubleClick>
 
--   <xref:Microsoft.Office.Tools.Word.Bookmark.BeforeRightClick>
+- <xref:Microsoft.Office.Tools.Word.Bookmark.BeforeRightClick>
 
--   <xref:Microsoft.Office.Tools.Word.Bookmark.BindingContextChanged>
+- <xref:Microsoft.Office.Tools.Word.Bookmark.BindingContextChanged>
 
--   <xref:Microsoft.Office.Tools.Word.Bookmark.Deselected>
+- <xref:Microsoft.Office.Tools.Word.Bookmark.Deselected>
 
--   <xref:System.ComponentModel.IComponent.Disposed>
+- <xref:System.ComponentModel.IComponent.Disposed>
 
--   <xref:Microsoft.Office.Tools.Word.Bookmark.Selected>
+- <xref:Microsoft.Office.Tools.Word.Bookmark.Selected>
 
--   <xref:Microsoft.Office.Tools.Word.Bookmark.SelectionChange>
+- <xref:Microsoft.Office.Tools.Word.Bookmark.SelectionChange>
 
 ## See also
 

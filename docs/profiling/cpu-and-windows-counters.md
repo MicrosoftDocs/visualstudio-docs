@@ -1,18 +1,17 @@
 ---
 title: "CPU and Windows Counters | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
-f1_keywords: 
+f1_keywords:
   - "vs.performance.property.counters"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "Windows counters in Profiling Tools"
   - "CPU counters in Profiling Tools"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
-ms.workload: 
+manager: jillfra
+monikerRange: 'vs-2017'
+ms.workload:
   - "multiple"
 ---
 # CPU and Windows counters
@@ -87,15 +86,15 @@ To list the available counters on a computer in the Visual Studio IDE, you must 
 
 2. Do one of the following:
 
-    -   Click **Sampling**, and then select **Performance counter** from the **Sample** event list. The CPU counters are listed in **Available performance counters**.
+   - Click **Sampling**, and then select **Performance counter** from the **Sample** event list. The CPU counters are listed in **Available performance counters**.
 
-         **Note** Click **Cancel** to return to the previous sampling configuration.
+      **Note** Click **Cancel** to return to the previous sampling configuration.
 
      -or-
 
-    -   Select **CPU Counters**, and then select **Collect CPU Counters**. The CPU counters are listed in **Available counters**.
+   - Select **CPU Counters**, and then select **Collect CPU Counters**. The CPU counters are listed in **Available counters**.
 
-         **Note** Click **Cancel** to return to the previous counter collection configuration.
+      **Note** Click **Cancel** to return to the previous counter collection configuration.
 
 #### To view a list of a list of Window counters that are supported on the current platform
 
@@ -121,13 +120,11 @@ Using the [VSPerfCmd](../profiling/vsperfcmd.md) command line tool, you can list
 
      **\<Visual Studio Performance Tools Directory>\VSPerfCmd /querycounters**
 
-     where *\<Visual Studio Performance Tools Directory>* is the path to the Performance Tools directory of your Visual Studio installation, usually
-
-     *C:\Program Files\Microsoft Visual Studio 10.0\Team Tools\Performance Tools*
+     where *\<Visual Studio Performance Tools Directory>* is the path to the Performance Tools directory of your Visual Studio installation. To get the path to the performance tools, see [Specify the path to command line tools](../profiling/specifying-the-path-to-profiling-tools-command-line-tools.md).
 
 ## See also
 
-[Overviews](../profiling/overviews-performance-tools.md)  
-[How to: Choose sampling events](../profiling/how-to-choose-sampling-events.md)  
-[How to: Collect CPU counter data](../profiling/how-to-collect-cpu-counter-data.md)  
+[Overviews](../profiling/overviews-performance-tools.md)
+[How to: Choose sampling events](../profiling/how-to-choose-sampling-events.md)
+[How to: Collect CPU counter data](../profiling/how-to-collect-cpu-counter-data.md)
 [How to: Collect Windows counter data](../profiling/how-to-collect-windows-counter-data.md)

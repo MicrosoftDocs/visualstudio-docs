@@ -1,76 +1,79 @@
 ---
-title: Building and Cleaning Projects and Solutions in Visual Studio
+title: Building and Cleaning Projects and Solutions
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
 ms.technology: vs-ide-compile
 ms.topic: conceptual
 f1_keywords:
-  - "VS.BuildProjectPicker"
-  - "vs.batchbuild"
+- VS.BuildProjectPicker
+- vs.batchbuild
 helpviewer_keywords:
-  - "Clean Solution command"
-  - "builds [Visual Studio], managing"
-  - "solution build configurations, starting"
-  - "Build Solution command"
-  - "project build configurations, starting"
-  - "build configurations, starting"
-  - "project build configurations, dependencies"
-  - "Rebuild Solution command"
-  - "solution build configurations, build order"
-  - "builds [Visual Studio], preparing"
+- Clean Solution command
+- builds [Visual Studio], managing
+- solution build configurations, starting
+- Build Solution command
+- project build configurations, starting
+- build configurations, starting
+- project build configurations, dependencies
+- Rebuild Solution command
+- solution build configurations, build order
+- builds [Visual Studio], preparing
 ms.assetid: 710891fd-379e-42c2-a84b-44a7af694ca0
-author: gewarren
-ms.author: gewarren
-manager: douge
+author: ghogen
+ms.author: ghogen
+manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
-# Building and cleaning projects and solutions in Visual Studio
+# Build and clean projects and solutions in Visual Studio
+
 By using the procedures in this topic, you can build, rebuild, or clean all or some of the projects or project items in a solution. For a step-by-step tutorial, see [Walkthrough: Building an application](../ide/walkthrough-building-an-application.md).
+
+> [!NOTE]
+> This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [Build and clean projects and solutions in Visual Studio for Mac](/visualstudio/mac/building-and-cleaning-projects-and-solutions).
 
 > [!NOTE]
 > The UI in your edition of Visual Studio might differ from what this topic describes, depending on your active settings. To change your settings, for example to **General** or **Visual C++** settings, choose **Tools** > **Import and Export Settings**, and then choose **Reset all settings**.
 
 ## To build, rebuild, or clean an entire solution
 
-1.  In **Solution Explorer**, choose or open the solution.
+1. In **Solution Explorer**, choose or open the solution.
 
-2.  On the menu bar, choose **Build**, and then choose one of the following commands:
+2. On the menu bar, choose **Build**, and then choose one of the following commands:
 
-    -   Choose **Build** or **Build Solution** to compile only those project files and components that have changed since the most recent build.
+    - Choose **Build** or **Build Solution** to compile only those project files and components that have changed since the most recent build.
 
         > [!NOTE]
-        >  The **Build** command becomes **Build Solution** when a solution includes more than one project.
+        > The **Build** command becomes **Build Solution** when a solution includes more than one project.
 
-    -   Choose **Rebuild Solution** to "clean" the solution and then build all project files and components.
+    - Choose **Rebuild Solution** to "clean" the solution and then build all project files and components.
 
-    -   Choose **Clean Solution** to delete any intermediate and output files. With only the project and component files left, new instances of the intermediate and output files can then be built.
+    - Choose **Clean Solution** to delete any intermediate and output files. With only the project and component files left, new instances of the intermediate and output files can then be built.
 
 ## To build or rebuild a single project
 
-1.  In **Solution Explorer**, choose or open the project.
+1. In **Solution Explorer**, choose or open the project.
 
-2.  On the menu bar, choose **Build**, and then choose either **Build** *ProjectName* or **Rebuild** *ProjectName*.
+2. On the menu bar, choose **Build**, and then choose either **Build** *ProjectName* or **Rebuild** *ProjectName*.
 
-    -   Choose **Build** *ProjectName* to build only those project components that have changed since the most recent build.
+    - Choose **Build** *ProjectName* to build only those project components that have changed since the most recent build.
 
-    -   Choose **Rebuild** *ProjectName* to "clean" the project and then build the project files and all project components.
+    - Choose **Rebuild** *ProjectName* to "clean" the project and then build the project files and all project components.
 
 ## To build only the startup project and its dependencies
 
-1.  On the menu bar, choose **Tools** > **Options**.
+1. On the menu bar, choose **Tools** > **Options**.
 
-2.  In the **Options** dialog box, expand the **Projects and Solutions** node, and then choose the **Build and Run** page.
+2. In the **Options** dialog box, expand the **Projects and Solutions** node, and then choose the **Build and Run** page.
 
      The **Build and Run** > **Projects and Solutions** > **Options** dialog box opens.
 
-3.  Select the  **Only build startup projects and dependencies on Run** check box.
+3. Select the  **Only build startup projects and dependencies on Run** check box.
 
      When this check box is selected, only the current startup project and its dependencies are built when you perform either of the following steps:
 
-    -   On the menu bar, choose **Debug** > **Start** (**F5**).
+    - On the menu bar, choose **Debug** > **Start** (**F5**).
 
-    -   On the menu bar, choose **Build** > **Build Solution** (**Ctrl**+**Shift**+**B**).
+    - On the menu bar, choose **Build** > **Build Solution** (**Ctrl**+**Shift**+**B**).
 
     When this check box is cleared, all projects, their dependencies, and the solution files are built when you run either of the preceding commands. By default, this check box is cleared.
 
@@ -112,3 +115,4 @@ Perform either of the following steps:
 - [C/C++ building reference](/cpp/build/reference/c-cpp-building-reference)
 - [Devenv command line switches](../ide/reference/devenv-command-line-switches.md)
 - [Solutions and projects](../ide/solutions-and-projects-in-visual-studio.md)
+- [Build and clean projects and solutions (Visual Studio for Mac)](/visualstudio/mac/building-and-cleaning-projects-and-solutions)

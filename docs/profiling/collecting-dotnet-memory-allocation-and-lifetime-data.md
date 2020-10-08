@@ -1,21 +1,21 @@
 ---
-title: "Collecting .NET Memory Allocation and Lifetime Data | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
-ms.topic: "conceptual"
+title: "Collect .NET memory allocation & lifetime data"
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: how-to
 helpviewer_keywords: 
-  - ".NET memory profiling method"
-  - "Profiling Tools,.NET memory method"
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: douge
+  - .NET memory profiling method
+  - Profiling Tools,.NET memory method
+author: mikejo5000
+ms.author: mikejo
+manager: jillfra
+monikerRange: 'vs-2017'
 ms.workload: 
-  - "dotnet"
+  - dotnet
 ---
-# Collect .NET memory allocation and lifetime data
+# Collect .NET Framework memory allocation and lifetime data
 
-Visual Studio Profiling Tools support the collection of .NET memory allocation and object lifetime data, which helps you detect memory-related performance issues in your application.
+Visual Studio Profiling Tools support the collection of .NET Framework memory allocation and object lifetime data, which helps you detect memory-related performance issues in your application.
 
 - Data about .NET memory allocation includes the size and number of .NET Framework memory objects that were allocated.
 
@@ -47,11 +47,11 @@ For information about how to collect .NET memory data by using the Profiling Too
 
 ## Common tasks
 
-You can specify additional options in the *Performance Session***Property Pages** dialog box of the performance session. To open this dialog box:
+You can specify additional options in the _Performance Session_**Property Pages** dialog box of the performance session. To open this dialog box:
 
 - In **Performance Explorer**, right-click the performance session name, and then click **Properties**.
 
-The tasks in the following table describe options that you can specify in the *Performance Session***Property Pages** dialog box when you collect .NET memory data.
+The tasks in the following table describe options that you can specify in the _Performance Session_**Property Pages** dialog box when you collect .NET memory data.
 
 |Task|Related Content|
 |----------|---------------------|
@@ -75,6 +75,6 @@ The tasks in the following table are options in the **Property Pages** dialog bo
 
 ## See also
 
-[Configure performance sessions](../profiling/configuring-performance-sessions.md)  
-[How to: Choose collection methods](../profiling/how-to-choose-collection-methods.md)  
+[Configure performance sessions](../profiling/configuring-performance-sessions.md)
+[How to: Choose collection methods](../profiling/how-to-choose-collection-methods.md)
 [Performance session properties](../profiling/performance-session-properties.md)

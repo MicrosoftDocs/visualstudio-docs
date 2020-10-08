@@ -1,17 +1,16 @@
 ---
 title: Common Quick Actions
+description: Most popular Quick Actions for C# and Visual Basic including fixing misspelled keywords or symbols, resolving merge conflicts, removing necessary imports, generating types, introducing local variables, etc.
 ms.date: 03/28/2018
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: reference
-author: "kuhlenh"
-ms.author: "kaseyu"
-manager: douge
+author: TerryGLee
+ms.author: tglee
+manager: jillfra
 dev_langs:
-  - CSharp
-  - VB
+- CSharp
+- VB
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Common Quick Actions
 
@@ -25,7 +24,7 @@ The Quick Actions in this section fix errors in code that would cause a build to
 
 ### Correct misspelled symbol or keyword
 
-If you accidentally misspell a type or keyword in Visual Studio, this Quick Action automatically corrects it for you. You'll see these items in the light bulb menu as **"Change '*misspelled word*' to '*correct word*'**.  For example:
+If you accidentally misspell a type or keyword in Visual Studio, this Quick Action automatically corrects it for you. You'll see these items in the light bulb menu as **"Change '\<misspelled word>' to '\<correct word>'"**. For example:
 
 ```csharp
 // Before
@@ -53,9 +52,9 @@ Function MyFunction as Integer
 End Function
 ```
 
-|  Error ID | Applicable Languages |  Supported Version |
-| ------- | -------------------- | ----------------  |
-| CS0103, BC30002 | C# and Visual Basic | Visual Studio 2015 Update 2 |
+| Error ID | Applicable Languages |
+| - | - |
+| CS0103, BC30002 | C# and Visual Basic |
 
 ### Resolve git merge conflict
 
@@ -65,17 +64,10 @@ These Quick Actions enable you to resolve git merge conflicts by "taking a chang
 // Before
 private void MyMethod()
 {
-<<<<<<< HEAD
-    if (true)
-    {
-
-    }
-=======
     if (false)
     {
 
     }
->>>>>>> upstream
 }
 
 // Take changes from 'HEAD'
@@ -90,61 +82,23 @@ private void MyMethod()
 }
 ```
 
-|  Error ID | Applicable Languages |  Supported Version |
-| ------- | -------------------- | ----------------  |
-| CS8300, BC37284  | C# and Visual Basic | Visual Studio 2017 version 15.3 |
-
-### Make method asynchronous
-
-When using the `await` or `Await` keyword inside of a method, it is expected that the method itself is marked with the `async` or `Async` keyword.  However, if this isn't the case, a Quick Action will appear that will allow you to make the method asynchronous. Use the **Make method/Function asynchronous** option from the Quick Actions menu.
-
-```csharp
-// Before
-int MyAsyncMethod()
-{
-    return await Task.Run(...);
-}
-
-// Make method asynchronous
-
-// After
-async Task<int> MyAsyncMethod()
-{
-    return await Task.Run(...);
-}
-```
-
-```vb
-' Before
-Function MyAsyncMethod() as Integer
-    Return  Await Task.Run(...)
-End Function
-
-' Make method asynchronous
-
-' After
-Async Function MyAsyncMethod() As Task(Of Integer)
-    Return Await Task.Run(...)
-End Function
-```
-
-|  Error ID | Applicable Languages |  Supported Version |
-| ------- | -------------------- | ----------------  |
-| CS4032, BC37057 | C# and Visual Basic | Visual Studio 2017 |
+| Error ID | Applicable Languages | Supported Version |
+| ------- | -------------------- | ---------------- |
+| CS8300, BC37284 | C# and Visual Basic | Visual Studio 2017 version 15.3 and later |
 
 ## Actions that remove unnecessary code
 
 ### Remove unnecessary usings/Imports
 
-The **Remove Unnecessary Usings/Imports** Quick Action will remove any unused `using` and `Import` statements for the current file.  When you select this item, unused namespace imports will be immediately removed.
+The **Remove Unnecessary Usings/Imports** Quick Action removes any unused `using` and `Import` directives for the current file. When you select this item, unused namespace imports are removed.
 
-|  Applicable Languages |  Supported Version |
-|  -------------------- | ----------------  |
-|  C# and Visual Basic | Visual Studio 2015 RTW |
+| Applicable Languages | Supported Version |
+| - | - |
+| C# and Visual Basic | Visual Studio 2015 and later |
 
 ### Remove unnecessary cast
 
-If you cast a type to another type which doesn't require a cast, the **Remove Unnecessary Cast** Quick Action item will remove the cast from your code.
+If you cast a type to another type that doesn't require a cast, the **Remove Unnecessary Cast** Quick Action item removes the unnecessary cast.
 
 ```csharp
 // before
@@ -166,9 +120,9 @@ Dim number as Integer = CType(3, Integer)
 Dim number as Integer = 3
 ```
 
-|  Diagnostic ID | Applicable Languages |  Supported Version |
-| ------- | -------------------- | ----------------  |
-| IDE0004 | C# and Visual Basic | Visual Studio 2015 RTW |
+| Diagnostic ID | Applicable Languages | Supported Version |
+| ------- | -------------------- | ---------------- |
+| IDE0004 | C# and Visual Basic | Visual Studio 2015 and later |
 
 ### Remove unused variables
 
@@ -193,13 +147,13 @@ public MyMethod()
 }
 ```
 
-|  Diagnostic ID | Applicable Languages |  Supported Version |
-| ------- | -------------------- | ----------------  |
-| CS0219, BC42024 | C# and Visual Basic | Visual Studio 2017 version 15.3 |
+| Diagnostic ID | Applicable Languages | Supported Version |
+| ------- | -------------------- | ---------------- |
+| CS0219, BC42024 | C# and Visual Basic | Visual Studio 2017 version 15.3 and later |
 
 ### Remove type from default value expression
 
-This Quick Action removes the value type from a default value expression and uses the [default literal](/dotnet/csharp/programming-guide/statements-expressions-operators/default-value-expressions#default-literal-and-type-inference) when the compiler can infer the type of the expression.
+This Quick Action removes the value type from a default value expression and uses the [default literal](/dotnet/csharp/language-reference/operators/default#default-literal) when the compiler can infer the type of the expression.
 
 ```csharp
 // Before
@@ -209,12 +163,11 @@ void DoWork(CancellationToken cancellationToken = default(CancellationToken)) { 
 
 // After
 void DoWork(CancellationToken cancellationToken = default) { ... }
-
 ```
 
-|  Diagnostic ID | Applicable Languages |  Supported Version |
-| ------- | -------------------- | ----------------  |
-| IDE0034 | C# 7.1+ | Visual Studio 2017 version 15.3 |
+| Diagnostic ID | Applicable Languages | Supported Version |
+| ------- | -------------------- | ---------------- |
+| IDE0034 | C# 7.1+ | Visual Studio 2017 version 15.3 and later |
 
 ## Actions that add missing code
 
@@ -225,7 +178,7 @@ Using types located in other projects in your solution will display the Quick Ac
 - Suggest usings/imports for types in reference assemblies
 - Suggest usings/imports for types in NuGet packages
 
-When enabled, if you use a type in a namespace that is currently not imported, but exists in a reference assembly or NuGet package, the using/import statement will be created.
+When enabled, if you use a type in a namespace that is currently not imported but exists in a reference assembly or NuGet package, the using or import directive is created.
 
 ```csharp
 // Before
@@ -245,15 +198,15 @@ Debug.WriteLine("Hello")
 
 ' Imports System.Diagnostics
 
-// After
+' After
 Imports System.Diagnostics
 
 Debug.WriteLine("Hello")
 ```
 
-|  Diagnostic ID | Applicable Languages |  Supported Version |
-| ------- | -------------------- | ----------------  |
-| CS0103, BC30451 | C# and Visual Basic| Visual Studio 2015 Update 2 |
+| Diagnostic ID | Applicable Languages |
+| - | - |
+| CS0103, BC30451 | C# and Visual Basic|
 
 ### Add missing cases/default case/both
 
@@ -320,9 +273,9 @@ Select Case myEnum
 End Select
 ```
 
-|  Diagnostic ID | Applicable Languages |  Supported Version |
-| ------- | -------------------- | ----------------  |
-| IDE0010 | C# and Visual Basic| Visual Studio 2017 version 15.3 |
+| Diagnostic ID | Applicable Languages | Supported Version |
+| ------- | -------------------- | ---------------- |
+| IDE0010 | C# and Visual Basic| Visual Studio 2017 version 15.3 and later |
 
 ### Add null checks for parameters
 
@@ -354,9 +307,9 @@ class MyClass
 }
 ```
 
-| Applicable Languages |  Supported Version |
-| -------------------- | ----------------  |
-| C# and Visual Basic| Visual Studio 2017 version 15.3 |
+| Applicable Languages | Supported Version |
+| -------------------- | ---------------- |
+| C# and Visual Basic| Visual Studio 2017 version 15.3 and later |
 
 ### Add argument name
 
@@ -370,9 +323,9 @@ var date = new DateTime(1997, 7, 8);
 var date = new DateTime(year: 1997, month: 7, day: 8);
 ```
 
-| Applicable Languages |  Supported Version |
-| -------------------- | ----------------  |
-| C# and Visual Basic| Visual Studio 2017 version 15.3 |
+| Applicable Languages | Supported Version |
+| -------------------- | ---------------- |
+| C# and Visual Basic| Visual Studio 2017 version 15.3 and later |
 
 ### Add braces
 
@@ -392,9 +345,9 @@ if (true)
 }
 ```
 
-|  Diagnostic ID | Applicable Languages |  Supported Version |
-| ------- | -------------------- | ----------------  |
-| IDE0011 | C# | Visual Studio 2017 RTW |
+| Diagnostic ID | Applicable Languages | Supported Version |
+| ------- | -------------------- | ---------------- |
+| IDE0011 | C# | Visual Studio 2017 and later |
 
 ### Add and order modifiers
 
@@ -426,10 +379,10 @@ static private int thisFieldIsPublic;
 private static int thisFieldIsPublic;
 ```
 
-|  Diagnostic ID | Applicable Languages |  Supported Version |
-| ------- | -------------------- | ----------------  |
-| IDE0036 | C# and Visual Basic| Visual Studio 2017 version 15.5 |
-| IDE0040 | C# and Visual Basic| Visual Studio 2017 version 15.5 |
+| Diagnostic ID | Applicable Languages | Supported Version |
+| ------- | -------------------- | ---------------- |
+| IDE0036 | C# and Visual Basic| Visual Studio 2017 version 15.5 and later |
+| IDE0040 | C# and Visual Basic| Visual Studio 2017 version 15.5 and later |
 
 ## Code transformations
 
@@ -484,13 +437,13 @@ Select Case obj
 End Select
 ```
 
-| Applicable Languages |  Supported Version |
-| -------------------- | ----------------  |
-| C# and Visual Basic| Visual Studio 2017 version 15.3 |
+| Applicable Languages | Supported Version |
+| -------------------- | ---------------- |
+| C# and Visual Basic| Visual Studio 2017 version 15.3 and later |
 
 ### Convert to interpolated string
 
-[Interpolated strings](/dotnet/csharp/language-reference/keywords/interpolated-strings) are an easy way to express strings with embedded variables, similar to the **[String.Format](https://msdn.microsoft.com/library/system.string.format.aspx)** method.  This Quick Action recognizes cases where strings are concatenated, or using **String.Format**, and changes the usage to an interpolated string.
+[Interpolated strings](/dotnet/csharp/language-reference/keywords/interpolated-strings) are an easy way to express strings with embedded variables, similar to the **[String.Format](/dotnet/api/system.string.format#overloads)** method.  This Quick Action recognizes cases where strings are concatenated, or using **String.Format**, and changes the usage to an interpolated string.
 
 ```csharp
 // Before
@@ -516,13 +469,13 @@ Dim num as Integer = 3
 Dim s As String = $"My string with {num} in the middle"
 ```
 
-| Applicable Languages |  Supported Version |
-| -------------------- | ----------------  |
-| C# 6.0+ and Visual Basic 14+ | Visual Studio 2017 RTW |
+| Applicable Languages | Supported Version |
+| -------------------- | ---------------- |
+| C# 6.0+ and Visual Basic 14+ | Visual Studio 2017 and later |
 
 ### Use object initializers
 
-This Quick Action enables you to use [object initializers](/dotnet/csharp/programming-guide/classes-and-structs/object-and-collection-initializers) rather than invoking tne constructor and having additional lines of assignment statements.
+This Quick Action enables you to use [object initializers](/dotnet/csharp/programming-guide/classes-and-structs/object-and-collection-initializers) rather than invoking the constructor and having additional lines of assignment statements.
 
 ```csharp
 // Before
@@ -547,8 +500,8 @@ Dim c = New Customer() With {.Age = 21}
 ```
 
 | Diagnostic ID | Applicable Languages | Supported Version |
-| ------- | -------------------- | ----------------  |
-| IDE0017 | C# and Visual Basic | Visual Studio 2017 RTW |
+| ------- | -------------------- | ---------------- |
+| IDE0017 | C# and Visual Basic | Visual Studio 2017 and later |
 
 ### Use collection initializers
 
@@ -581,8 +534,8 @@ Dim list = New List(Of Integer) From {1, 2, 3}
 ```
 
 | Diagnostic ID | Applicable Languages | Supported Version |
-| ------- | -------------------- | ----------------  |
-| IDE0028 | C# and Visual Basic | Visual Studio 2017 RTW |
+| ------- | -------------------- | ---------------- |
+| IDE0028 | C# and Visual Basic | Visual Studio 2017 and later |
 
 ### Convert auto property to full property
 
@@ -621,9 +574,9 @@ Public Property Name As String
 End Property
 ```
 
-|  Applicable Languages |  Supported Version |
-|  -------------------- | ----------------  |
-| C# and Visual Basic | Visual Studio 2017 version 15.5 |
+| Applicable Languages | Supported Version |
+| -------------------- | ---------------- |
+| C# and Visual Basic | Visual Studio 2017 version 15.5 and later |
 
 ### Convert block body to expression-bodied member
 
@@ -674,9 +627,9 @@ class MyClass4
 }
 ```
 
-|  Diagnostic ID | Applicable Languages |  Supported Version |
-| ------- | -------------------- | ----------------  |
-| IDE0021-27 | C# 6.0+ | Visual Studio 2017 RTW |
+| Diagnostic ID | Applicable Languages | Supported Version |
+| ------- | -------------------- | ---------------- |
+| IDE0021-27 | C# 6.0+ | Visual Studio 2017 and later |
 
 ### Convert anonymous function to local function
 
@@ -701,9 +654,9 @@ int fibonacci(int n)
 
 ### Convert 'ReferenceEquals' to 'is null'
 
-|  Diagnostic ID | Applicable Languages |  Supported Version |
-| ------- | -------------------- | ----------------  |
-| IDE0041 | C# 7.0+ | Visual Studio 2017 version 15.5 |
+| Diagnostic ID | Applicable Languages | Supported Version |
+| ------- | -------------------- | ---------------- |
+| IDE0041 | C# 7.0+ | Visual Studio 2017 version 15.5 and later |
 
 This Quick Action suggests the use of [pattern matching](/dotnet/csharp/pattern-matching) rather than the ```ReferenceEquals``` coding-pattern, where possible.
 
@@ -725,9 +678,9 @@ if (value is null)
 }
 ```
 
-|  Diagnostic ID | Applicable Languages |  Supported Version |
-| ------- | -------------------- | ----------------  |
-| IDE0039 | C# 7.0+ | Visual Studio 2017 version 15.5 |
+| Diagnostic ID | Applicable Languages | Supported Version |
+| ------- | -------------------- | ---------------- |
+| IDE0039 | C# 7.0+ | Visual Studio 2017 version 15. and later |
 
 ### Introduce pattern matching
 
@@ -768,9 +721,9 @@ if (o is string s)
 ```
 
 | Diagnostic ID | Applicable Languages | Supported Version |
-| ------- | -------------------- | ----------------  |
-| IDE0020 | C# 7.0+ | Visual Studio 2017 RTW |
-| IDE0019 | C# 7.0+ | Visual Studio 2017 RTW |
+| ------- | -------------------- | ---------------- |
+| IDE0020 | C# 7.0+ | Visual Studio 2017 and later |
+| IDE0019 | C# 7.0+ | Visual Studio 2017 and later |
 
 ### Change base for numeric literals
 
@@ -797,8 +750,8 @@ Dim countdown As Integer = &H200000
 ```
 
 | Applicable Languages | Supported Version |
-| ------- | -------------------- | ----------------  |
-| C# 7.0+ and Visual Basic 14+ | Visual Studio 2017 version 15.3 |
+| ------- | -------------------- | ---------------- |
+| C# 7.0+ and Visual Basic 14+ | Visual Studio 2017 version 15.3 and later |
 
 ### Insert digit separators into literals
 
@@ -825,8 +778,8 @@ Dim countdown As Integer = 1_000_000
 ```
 
 | Applicable Languages | Supported Version |
-| ------- | -------------------- | ----------------  |
-| C# 7.0+ and Visual Basic 14+ | Visual Studio 2017 version 15.3 |
+| ------- | -------------------- | ---------------- |
+| C# 7.0+ and Visual Basic 14+ | Visual Studio 2017 version 15.3 and later |
 
 ### Use explicit tuple names
 
@@ -857,12 +810,12 @@ Dim name = customer.name
 ```
 
 | Diagnostic ID | Applicable Languages | Supported Version |
-| ------- | -------------------- | ----------------  |
-| IDE0033 | C# 7.0+ and Visual Basic 15+ | Visual Studio 2017 RTW |
+| ------- | -------------------- | ---------------- |
+| IDE0033 | C# 7.0+ and Visual Basic 15+ | Visual Studio 2017 and later |
 
 ### Use inferred names
 
-These Quick Actions point out when users can use inferred member names in anonymous types or use C# 7.1's inferred tuple element names.
+This Quick Action points out when code can be simplified to use inferred member names in anonymous types, or inferred element names in tuples.
 
 ```csharp
 // Before
@@ -885,13 +838,13 @@ var tuple = (age, name);
 ```
 
 | Diagnostic ID | Applicable Languages | Supported Version |
-| ------- | -------------------- | ----------------  |
-| IDE0037 | C# | Visual Studio 2017 v. 15.5 |
-| IDE0037 | C# 7.1+ | Visual Studio 2017 v. 15.5 |
+| ------- | -------------------- | ---------------- |
+| IDE0037 | C# | Visual Studio 2017 version 15.5 and later |
+| IDE0037 | C# 7.1+ | Visual Studio 2017 version 15.5 and later |
 
 ### Deconstruct tuple declaration
 
-This Quick Action enables you to deconstruct tuple variable declarations.
+This Quick Action enables deconstructing tuple variable declarations.
 
 ```csharp
 // Before
@@ -912,12 +865,12 @@ Console.WriteLine($"{x} {y}");
 ```
 
 | Diagnostic ID | Applicable Languages | Supported Version |
-| ------- | -------------------- | ----------------  |
-| IDE0042 | C# 7.0+ | Visual Studio 2017 v. 15.5 |
+| ------- | -------------------- | ---------------- |
+| IDE0042 | C# 7.0+ | Visual Studio 2017 version 15.5 and later |
 
 ### Make method synchronous
 
-When using the `async` or `Async` keyword on a method, it is expected that somewhere inside that method the `await` or `Await` keyword will also be used.  However, if this isn't the case, a Quick Action will appear that will allow you to make the method synchronous by removing the `async` or `Async` keyword and changing the return type. Use the **Make method synchronous** option from the Quick Actions menu.
+When using the `async` or `Async` keyword on a method, it's expected that inside that method the `await` or `Await` keyword is also used. However, if this isn't the case, a Quick Action appears that makes the method synchronous by removing the `async` or `Async` keyword and changing the return type. Use the **Make method synchronous** option from the Quick Actions menu.
 
 ```csharp
 // Before
@@ -949,9 +902,47 @@ Function MyAsyncMethod() As Integer
 End Function
 ```
 
-|  Error ID | Applicable Languages |  Supported Version |
-| ------- | -------------------- | ----------------  |
-| CS1998, BC42356 | C# and Visual Basic | Visual Studio 2015 Update 2 |
+| Error ID | Applicable Languages |
+| ------- | -------------------- |
+| CS1998, BC42356 | C# and Visual Basic |
+
+### Make method asynchronous
+
+When using the `await` or `Await` keyword inside of a method, it's expected that the method is marked with the `async` or `Async` keyword. However, if this isn't the case, a Quick Action appears that makes the method asynchronous. Use the **Make method/Function asynchronous** option from the Quick Actions menu.
+
+```csharp
+// Before
+int MyAsyncMethod()
+{
+    return await Task.Run(...);
+}
+
+// Make method asynchronous
+
+// After
+async Task<int> MyAsyncMethod()
+{
+    return await Task.Run(...);
+}
+```
+
+```vb
+' Before
+Function MyAsyncMethod() as Integer
+    Return  Await Task.Run(...)
+End Function
+
+' Make method asynchronous
+
+' After
+Async Function MyAsyncMethod() As Task(Of Integer)
+    Return Await Task.Run(...)
+End Function
+```
+
+| Error ID | Applicable Languages | Supported Version |
+| ------- | -------------------- | ---------------- |
+| CS4032, BC37057 | C# and Visual Basic | Visual Studio 2017 and later |
 
 ## See also
 

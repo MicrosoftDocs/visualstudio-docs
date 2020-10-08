@@ -1,20 +1,18 @@
 ---
 title: Add Existing Project Command
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
-  - "file.addexistingproject"
+- file.addexistingproject
 helpviewer_keywords:
-  - "Add Existing Project command"
-  - "File.AddExistingProject"
+- Add Existing Project command
+- File.AddExistingProject
 ms.assetid: 71cf3e31-c76b-405b-ad6a-1b1bc654bd40
-author: gewarren
-ms.author: gewarren
-manager: douge
+author: TerryGLee
+ms.author: tglee
+manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Add Existing Project Command
 Adds an existing project to the current solution.
@@ -26,24 +24,24 @@ File.AddExistingProject filename
 ```
 
 ## Arguments
- `filename`
- Optional. The full path and project name, with extension, of the project to add to the solution.
+`filename`\
+Optional. The full path and project name, with extension, of the project to add to the solution.
 
- If the `filename` argument includes spaces, it must be enclosed in quotation marks.
+If the `filename` argument includes spaces, it must be enclosed in quotation marks.
 
- If no filename is specified, the command will open the file dialog so that user can pick a project.
+If no filename is specified, the command will open the file dialog so that user can pick a project.
 
 ## Remarks
- Auto completion tries to locate the correct path and file name as you type.
+Auto completion tries to locate the correct path and file name as you type.
 
 ## Example
- This example adds the [!INCLUDE[vbprvb](../../code-quality/includes/vbprvb_md.md)] project, TestProject1, to the current solution.
+This example adds the [!INCLUDE[vbprvb](../../code-quality/includes/vbprvb_md.md)] project, TestProject1, to the current solution.
 
 ```cmd
 >File.AddExistingProject "c:\visual studio projects\TestProject1.vbproj"
 ```
 
-## See Also
+## See also
 
 - [Visual Studio Commands](../../ide/reference/visual-studio-commands.md)
 - [Command Window](../../ide/reference/command-window.md)

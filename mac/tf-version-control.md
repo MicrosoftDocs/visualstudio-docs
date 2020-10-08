@@ -1,123 +1,107 @@
 ---
-title: "TF Version Control"
-description: "Connecting to Team Foundation Server or Visual Studio Team Services with Team Foundation version control."
-author: asb3993
-ms.author: amburns
-ms.date: 05/03/2018
-ms.topic: article
+title: "Team Foundation Version Control (TFVC)"
+description: "A troubleshooting guide about TFVC and macOS."
+author: jmatthiesen
+ms.author: jomatthi
+ms.date: 09/02/2019
 ms.technology: vs-ide-general
 ms.assetid: 52D3D26A-4D01-4FD1-AAA1-AE7D7BD39746
+ms.topic: troubleshooting
 ---
 
-# Connecting to Team Foundation version control 
+# Does Visual Studio for Mac support Team Foundation Version Control?
 
-> [!NOTE]
-> **Note**: Team Foundation Version Control support is currently in preview and some functionality is not yet fully working. We'd love feedback from you on any issues at [Developer Community](https://developercommunity.visualstudio.com/spaces/41/index.html). More changes are still to come!
+> [!CAUTION]
+> The preview TFVC extension for Visual Studio for Mac is no longer supported in Visual Studio 2019 for Mac.
 
-Visual Studio Team Services (VSTS) and Team Foundation Server (TFS) provide two models of version control: Git, which is distributed version control, and Team Foundation Version Control (TFVC), which is centralized version control. This article provides an overview and a starting point for using Team Foundation Version Control with Visual Studio for Mac.
 
-## Requirements
+## Alternative Version Control options in Visual Studio for Mac
 
-* Visual Studio Community, Professional, or Enterprise for Mac version 7.5 or later.
-* Visual Studio Team Services, or Team Foundation Server 2013 and later.
-* A Project in Visual Studio Team Services or Team Foundation Server, configured to use Team Foundation Version Control.
+For the best version control experience on macOS, we recommend using **Git** instead of Team Foundation Version Control (TFVC). 
 
-## Installation
+Git is supported in Visual Studio for Mac and is the default option for repositories hosted in Team Foundation Server (TFS)/Azure DevOps. To learn more about using Git with TFS/Azure DevOps, see the [Setting up a Git Repository](./set-up-git-repository.md) guide.
 
-In Visual Studio for Mac, choose **Visual Studio > Extensions...** from the menu. In the **Gallery** tab, select **Version Control > Team Foundation Version Control for TFS and VSTS** and click **Install…**:
+## Unsupported workarounds for TFVC
 
-  ![Extension manager](media/tfvc-install.png) 
+While Visual Studio for Mac doesn't officially support TFVC, the rest of this guide provides some workarounds to work with TFVC on macOS. If you're using TFVC for version control today, here are some solutions you can use to access your source code hosted in TFVC:
 
-Follow the prompts to install the extension. Once it's installed, restart the IDE.
+* Option 1. [ Use Visual Studio Code and the Azure Repos extension, for a graphical UI](#use-visual-studio-code-and-the-azure-repos-extension)
+* Option 2. [Connect to your repo using the Team Explorer Everywhere Command Line Client (TEE-CLC)](#connecting-using-the-team-explorer-everywhere-command-line-client)
 
-## Using the add-in
+### Option 1. <a id="use-visual-studio-code-and-the-azure-repos-extension"></a> Use Visual Studio Code and the Azure Repos extension
 
-Once the extension is installed, select the **Version Control > TFS/VSTS > Connect to Team Foundation Version Control...** menu item. Click **Add** to add a new account: 
+If you like to work with a graphical interface to manage your files in version control, then the Azure Repos extension for Visual Studio Code provides a supported solution from Microsoft. To get started, download [Visual Studio Code](https://code.visualstudio.com) and then learn how to [configure the Azure Repos extension](https://marketplace.visualstudio.com/items?itemName=ms-vsts.team).
 
-![Add a TFVC Server](media/tfvc-add-remove-server.png)
-
-Choose either Visual Studio Team Services or Team Foundation Server to get started:
-
-![Connect with a TFVC Server](media/tfvc-choose-server-type.png)
-
-Enter your credentials and click **Log in**: 
-
-![Log in to a TFVC Server](media/tfvc-login.png)
-
-Once you've successfully logged in, select the projects that you want to access and press **OK**: 
-
-![Choose projects](media/tfvc-choose-projects.png)
-
-Select the **Version Control > TFS/VSTS > Source Control Explorer** menu item to open the source control explorer allowing you to browse the source.
+### Option 2. <a id="connecting-using-the-team-explorer-everywhere-command-line-client"></a> Connecting using the Team Explorer Everywhere Command Line Client
 
 > [!IMPORTANT]
-> **Known issue**: In this preview release, the first time you open source control explorer, you'll have to [create a new workspace](#creating-a-new-workspace).
+> As per the Team Explorer Everywhere README, this project is [no longer being maintained](https://github.com/microsoft/team-explorer-everywhere).
 
-![Source Explorer](media/tfvc-source-explorer.png)
+If you're comfortable using the macOS Terminal, then the Team Explorer Everywhere Command Line Client (TEE-CLC) provides a supported way to connect to your source in TFVC.
 
-From the Source Code Explorer, you can browse your source code on the server and perform the following actions:
+You can follow the steps below to set up your connection to TFVC and commit changes.
 
-- Manage Workspaces (Create, edit, or delete).
-- Navigate between project structure.
-- Map projects.
-- Get projects.
-- Lock & Unlock files.
-- Rename files.
-- Delete files.
-- Add new file.
-- Check out.
-- Check in.
-- View history changes.
-- Compare changes.
+#### Setting up the TEE-CLC
 
-## Creating a new workspace
+There are two ways to get setup with the TEE-CLC.
 
-In the Source Control Explorer, click on the **Manage Workspaces** button. 
+* Use Homebrew to install the client, or
+* Download and manually install the client
 
-![Manage Workspaces](media/tfvc-manage-workspaces.png)
+The easiest solution is **using HomeBrew**, which is a package manager for macOS. To install using this method:
 
-Click the **Add**  button to create a new workspace.
+1. Launch the macOS Terminal application.
+1. Install Homebrew using the Terminal and the instructions on the [Homebrew home page](https://brew.sh/).
+1. Once Homebrew is installed, run the following command from your Terminal: `brew install tee-clc`
 
-![Create Workspace](media/tfvc-create-workspace.png)
+To **setup the TEE-CLC manually**:
 
-Provide a name for the workspace and then click **Add Working Folder** to map the project to a local folder on your computer.
+1. [Download the latest version of the tee-clc](https://github.com/Microsoft/team-explorer-everywhere/releases) from the releases page of the Team Explorer Everywhere GitHub repo (e.g. tee-clc-14.134.0.zip at the time of this writing).
+1. Extract the content of the .zip to a folder on disk.
+1. Open the macOS Terminal app and use the `cd` command to switch to the folder you used in the previous step.
+1. From within the folder, run the command `./tf` to test that the command line client can run, you may be prompted to install Java or other dependencies.
 
-When done, click **OK**, then close the Manage Workspaces dialog. You're now ready to get files though the Source Code Explorer and get started.
+Once the TEE-CLC is installed, you can run the command `tf eula` to view and accept the license agreement for the client.
 
-## Troubleshooting
+Finally, to authenticate with your TFS/Azure DevOps environment, you'll need to create a personal access token on the server. Learn more about [authenticating with personal access tokens](/azure/devops/integrate/get-started/authentication/pats?view=azure-devops). When creating a personal access token to use with TFVC, be sure to provide Full Access when configuring the token.
 
-### Problems using basic authentication
+#### Using the TEE-CLC to connect to your repo
 
-There are a number of different options available to perform authentication with a server:
+To connect to your source code, you first need to create a workspace using the `tf workspace` command. For example, the following commands connect to an Organization in Azure DevOps Services called "MyOrganization": 
 
-- Oauth
-- Basic
-- Ntlm
+```bash
+export TF_AUTO_SAVE_CREDENTIALS=1
+tf workspace -new MyWorkspace -collection:https://dev.azure.com/MyOrganization
+```
 
-To be able to use basic authentication it is necessary to Enable **Alternative authentication credentials** in VSTS, by following the steps below:
+The `TF_AUTO_SAVE_CREDENTIALS` environment setting is used to save your credentials so you aren't prompted to enter them multiple times. When prompted for a user name, use the personal access token you created in the previous section and use a blank password.
 
-1. Sign in as the account owner to your VSTS account (https://{youraccount}.visualstudio.com).
-2. From your account toolbar, select the gear icon and select **Policy**:
-    ![Policy settings option selected](media/tfvc-auth2.png) 
-3. Review your application connection settings. Change these settings, based on your security policies:
-    ![Policy settings option selected](media/tfvc-auth.png)  
+To create a mapping of your source files to a local folder, you'll use the `tf workfold` command. The following example will map a folder named "WebApp.Services" from the "MyRepository" TFVC project and set it up to be copied into the local ~/Projects/ folder (i.e. a "Projects" folder in the current users's home folder).
 
-### I do not see anything in TFVC
+```bash
+tf workfold -map $/MyRepository/WebApp.Services -workspace:MyWorkspace ~/Projects/
+```
 
-To set up Team Foundation Version Control (TFVC) on your dev machine, you **must** create a workspace, as described in the [Creating a new workspace](#creating-a-new-workspace) section.
+Finally, you use the following command to get the source files from the server and copy them locally:
 
-In Source Control Explorer, press the **Manage Workspaces** Button. Follow the steps to map the team project to a folder on your dev machine.
+```bash
+tf get
+```
 
-### I do not see any / all of my projects
+#### Committing changes using the TEE-CLC
 
-After authenticating you should see the list of projects. By default, only TFS projects to  are shown. To see other types of projects, check the "See all projects" box.
+After you've made changes to your files in Visual Studio for Mac, you can switch back to the Terminal to check in your edits. The `tf add` command is used to add files to the list of pending changes to be checked-in and the `tf checkin` command performs the actual check-in to the server. The `checkin` command includes parameters to add a comment or associate a related work item. In the following code snippet, all files in a `WebApp.Services` folder are added, recursively, to the checkin. Then, the code is checked in with a comment and associated with a work item with the ID "42".
 
-Keep in mind that projects that are on the server will not appear if you don't have the correct privileges.
+```bash
+cd WebApp.Services
+tf add * /recursive
+tf checkin -comment:"Replaced 'Northwand' typos with the correct word Northwind" -associate:42
+```
 
-#### I am getting the error "Cannot create the workspace. Please, try again"
+To learn more about the commands mentioned here, or others, you can use the following command from the Terminal:
 
-When trying to [create a new workspace](#creating-a-new-workspace), you should make sure the following conditions are met:
+`tf help`
 
-- No use of invalid characters in the workspace name.
-- The name must be less than 64 characters.
-- The local path cannot be used by any other workspaces.
+## See also
+
+- [Develop and share your code in TFVC using Visual Studio (on Windows)](/azure/devops/repos/tfvc/share-your-code-in-tfvc-vs)

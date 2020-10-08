@@ -1,15 +1,15 @@
 ---
 title: Working with Subversion
 description: Using Subversion in Visual Studio for Mac.
-author: asb3993
-ms.author: amburns
+author: jmatthiesen
+ms.author: jomatthi
 ms.date: 05/06/2018
 ms.assetid: 2400ED9C-6236-4C0A-A3AB-9D7CBE1F0CF4
 ---
 
 # Working with Subversion
 
-Subversion is the centralized version control system that enables you to check out a single master copy of the centralized data. In contrast to Git, checking out a Subversion repository does not clone the entire repository, it only takes a snapshot at that point in time.
+Subversion is the centralized version control system that enables you to check out a single main copy of the centralized data. In contrast to Git, checking out a Subversion repository does not clone the entire repository, it only takes a snapshot at that point in time.
 
 Subversion uses a copy-modify-merge model to allow users to work on the same repository simultaneously. This means that each user creates a local, or working, copy of the centralized data, which they work on independently. The changes to users working copies are merged in a chronological fashion.
 
@@ -45,7 +45,10 @@ This allows viewing all the changes in each file of a project with the option to
 
 To commit a file to the remote repository, press Commit..., enter a commit message, and confirm with the Commit Button:
 
-
 ![Committing a file](media/version-control-svnCommit.png)
 
 This will send the changes to the repository where they create the new revision of all your modifications.
+
+## See also
+
+- [Set up a Subversion repository](set-up-subversion-repository.md)

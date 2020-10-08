@@ -1,10 +1,11 @@
 ---
 title: "Visual Studio for Mac Tools for Unity"
 description: "Introducing the Visual Studio Tools for Unity extension"
-author: dantogno
-ms.author: v-davian
-ms.date: 05/25/2018
+author: therealjohn
+ms.author: johmil
+ms.date: 10/25/2019
 ms.assetid: 83FDD7A3-5D16-4B4B-9080-078E3FB5C623
+ms.topic: overview
 ---
 # Visual Studio for Mac Tools for Unity
 
@@ -13,6 +14,9 @@ ms.assetid: 83FDD7A3-5D16-4B4B-9080-078E3FB5C623
 Visual Studio for Mac Tools for Unity is a free Visual Studio extension that turns Visual Studio for Mac into a powerful tool for developing cross-platform games and apps with the Unity platform.
 
 Unity integration is included out of the box in Visual Studio for Mac, and starting from Unity 2018.1, Visual Studio for Mac is the default C# IDE for Unity projects.
+
+> [!NOTE]
+> This information is for Visual Studio for Mac IDE. For Visual Studio Code, see [this guide](https://code.visualstudio.com/docs/other/unity) for more information.
 
 ## Overview
 
@@ -38,6 +42,12 @@ Visual Studio for Mac Tools for Unity supports all the [debugging](using-vsmac-t
 ### Powerful refactoring and context actions
 
 Write more usable code with quick menus and keyboard shortcuts for [renaming, refactoring, and context actions](refactoring.md).
+
+### Roslyn diagnostics and quick-fixes for Unity
+
+Write better code that captures the best practices with Visual Studio for Mac's deep understanding of Unity projects. 
+
+![VS for Mac refactoring string compare with CompareTag](media/using-vsmac-tools-unity-image9.png)
 
 ### Browse and add new files
 

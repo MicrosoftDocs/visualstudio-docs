@@ -1,16 +1,15 @@
 ---
 title: "Adding tier interaction data from the command line | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "tier interaction profiling method"
   - "profiling tools,tier interaction method"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
-ms.workload: 
+manager: jillfra
+monikerRange: 'vs-2017'
+ms.workload:
   - "multiple"
 ---
 # Add tier interaction data from the command line
@@ -27,7 +26,7 @@ Tier interaction profiling can be collected using any edition of Visual Studio. 
 
 **Collect TIP data on a remote machine**
 
-To collect tier interaction data on a remote machine, you must copy the **vs_profiler_***\<Platform>***_***\<Language>***.exe** file from the *%VSInstallDir%***\Team Tools\Performance Tools\Setups** folder of a Visual Studio machine to the remote computer and install it. You cannot use the profiling tools in the [Remote Debugging](../debugger/remote-debugging.md) download package.
+To collect tier interaction data on a remote machine, you must copy the **vs_profiler\_**_\<Platform>_**\_**_\<Language>_**.exe** file from the _%VSInstallDir%_**\Team Tools\Performance Tools\Setups** folder of a Visual Studio machine to the remote computer and install it. You cannot use the profiling tools in the [Remote Debugging](../debugger/remote-debugging.md) download package.
 
 **TIP reports**
 
@@ -57,7 +56,7 @@ In the following example, a Windows desktop application is profiled by using the
 3. Start the profiler. Type the following command:
 
     ```cmd
-    vsperfcmd /start:trace /output:Desktop_tip.vsp 
+    vsperfcmd /start:trace /output:Desktop_tip.vsp
     ```
 
 4. Start the application with VSPerfCmd. Type the following command:
@@ -109,7 +108,7 @@ In the following example, a Windows service is profiled by using the instrumenta
 7. Start the profiler. Type the following command:
 
     ```cmd
-    vsperfcmd /start:trace /output:MiddleTier_tip.vsp /user:SYSTEM /crosssession 
+    vsperfcmd /start:trace /output:MiddleTier_tip.vsp /user:SYSTEM /crosssession
     ```
 
 8. If necessary, start the service.
@@ -117,7 +116,7 @@ In the following example, a Windows service is profiled by using the instrumenta
 9. Attach the profiler to the service. Type the following command:
 
     ```cmd
-    vsperfcmd /attach:MiddleTier.exe /output:MyService_tip.vsp /user:SYSTEM /crosssession 
+    vsperfcmd /attach:MiddleTier.exe /output:MyService_tip.vsp /user:SYSTEM /crosssession
     ```
 
 10. Exercise the service and collect profiling data.

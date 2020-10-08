@@ -3,21 +3,19 @@ title: Security of Text Templates
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "text templates, security"
-author: gewarren
-ms.author: gewarren
-manager: douge
+- text templates, security
+author: JoshuaPartlow
+ms.author: joshuapa
+manager: jillfra
 ms.workload:
-  - "multiple"
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-modeling
+- multiple
 ---
 # Security of Text Templates
 Text templates have the following security concerns:
 
--   Text templates are vulnerable to arbitrary code insertions.
+- Text templates are vulnerable to arbitrary code insertions.
 
--   If the mechanism that the host uses to find a directive processor is not secure, a malicious directive processor could be run.
+- If the mechanism that the host uses to find a directive processor is not secure, a malicious directive processor could be run.
 
 ## Arbitrary Code
  When you write a template, you can put any code within the \<# #> tags. This allows arbitrary code to be executed from within a text template.

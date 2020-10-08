@@ -1,15 +1,13 @@
 ---
-title: "Sample XSD File: Simple Schema"
+title: 'Sample XSD File: Simple Schema'
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-xml-tools
 ms.topic: sample
 ms.assetid: f7e1dde1-b4f6-4371-add4-935b68ec77d7
-author: gewarren
-ms.author: gewarren
-manager: douge
+author: TerryGLee
+ms.author: tglee
+manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Sample XSD file: Simple schema
 
@@ -41,3 +39,6 @@ The following XSD file is used in various examples in the XSD Schema Designer do
  </xsd:complexType>
 </xsd:schema>
 ```
+
+> [!NOTE]
+> The example companies, organizations, products, domain names, e-mail addresses, logos, people, places, and events depicted herein are fictitious. No association with any real company, organization, product, domain name, e-mail address, logo, person, places, or events is intended or should be inferred.

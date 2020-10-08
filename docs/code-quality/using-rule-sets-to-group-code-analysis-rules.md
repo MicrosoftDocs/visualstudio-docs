@@ -1,30 +1,30 @@
 ---
-title: Code analysis rule sets in Visual Studio
+title: Code analysis rule sets
 ms.date: 04/02/2018
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
 ms.topic: conceptual
 f1_keywords:
-  - "vs.codeanalysis.rulesets.learnmore"
+- vs.codeanalysis.rulesets.learnmore
 helpviewer_keywords:
-  - "code analysis, rule sets"
-author: gewarren
-ms.author: gewarren
-manager: douge
+- code analysis, rule sets
+author: mikejo5000
+ms.author: mikejo
+manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Use rule sets to group code analysis rules
 
-When you configure code analysis in Visual Studio, you can choose from a list of built-in *rule sets*. A rule set applies to a project, and is a grouping of code analysis rules that identify targeted issues and specific conditions for that project. For example, you can apply a rule set that is designed to scan code for publicly available APIs, or just the minimum recommended rules. You can also apply a rule set that includes all the rules.
+When you configure code analysis in Visual Studio, you can choose from a list of built-in *rule sets*. A rule set is a grouping of code analysis rules that identify targeted issues and specific conditions for that project. For example, you can apply a rule set that's designed to scan code for publicly available APIs. You can also apply a rule set that includes all the available rules.
 
-You can customize a rule set by adding or deleting rules, or by changing rule severities to appear as either warnings or errors in the **Error List**. Customized rule sets can fulfill a need for your particular development environment. When you customize a rule set, the rule set editor provides search and filtering tools to help you in the process.
+You can customize a rule set by adding or deleting rules or by changing rule severities to appear as either warnings or errors in the **Error List**. Customized rule sets can fulfill a need for your particular development environment. When you customize a rule set, the rule set editor provides search and filtering tools to help you in the process.
+
+Rule sets are available for [managed code analysis](/dotnet/fundamentals/code-analysis/code-quality-rule-options), [legacy analysis of managed code](how-to-configure-code-analysis-for-a-managed-code-project.md), and [C++ code analysis](/cpp/code-quality/using-rule-sets-to-specify-the-cpp-rules-to-run).
 
 ## Rule set format
 
 A rule set is specified in XML format in a *.ruleset* file. Rules, which consist of an ID and an *action*, are grouped by analyzer ID and namespace in the file.
 
-The XML contents of a *.ruleset* file looks similar to this:
+The contents of a *.ruleset* file looks similar to this XML:
 
 ```xml
 <RuleSet Name="Rules for Hello World project" Description="These rules focus on critical issues for the Hello World app." ToolsVersion="10.0">
@@ -48,12 +48,17 @@ The XML contents of a *.ruleset* file looks similar to this:
 ```
 
 > [!TIP]
-> It is easier to [edit a rule set](../code-quality/working-in-the-code-analysis-rule-set-editor.md) in the graphical **Rule Set Editor** than by hand.
+> It's easier to [edit a rule set](../code-quality/working-in-the-code-analysis-rule-set-editor.md) in the graphical **Rule Set Editor** than by hand.
 
-The rule set for a project is specified by the `CodeAnalysisRuleSet` property in the Visual Studio project file. For example:
+## Specify a rule set for a project
+
+The rule set for a project is specified by the **CodeAnalysisRuleSet** property in the Visual Studio project file. For example:
 
 ```xml
-<CodeAnalysisRuleSet>HelloWorld.ruleset</CodeAnalysisRuleSet>
+<PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+  ...
+  <CodeAnalysisRuleSet>HelloWorld.ruleset</CodeAnalysisRuleSet>
+</PropertyGroup>
 ```
 
 ## See also

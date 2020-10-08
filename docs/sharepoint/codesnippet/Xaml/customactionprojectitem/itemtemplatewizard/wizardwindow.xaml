@@ -1,9 +1,9 @@
 ﻿<!--<Snippet9>-->
 <ui:DialogWindow x:Class="ItemTemplateWizard.WizardWindow"
                  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-                 xmlns:ui="clr-namespace:Microsoft.VisualStudio.PlatformUI;assembly=Microsoft.VisualStudio.Shell.11.0"        
+                 xmlns:ui="clr-namespace:Microsoft.VisualStudio.PlatformUI;assembly=Microsoft.VisualStudio.Shell.11.0"
                  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-                 Title="SharePoint Customization Wizard" Height="500" Width="700" ResizeMode="NoResize" 
+                 Title="SharePoint Customization Wizard" Height="500" Width="700" ResizeMode="NoResize"
                  Loaded="Window_Loaded" TextOptions.TextFormattingMode="Display">
     <Grid>
         <Grid.RowDefinitions>
@@ -13,7 +13,7 @@
             <RowDefinition Height="60*" />
         </Grid.RowDefinitions>
         <Grid Grid.Row="0" Name="headingGrid" Background="White">
-            <Label Grid.Row="0" Content="Configure the Custom Action" Name="pageHeaderLabel" HorizontalAlignment="Left" 
+            <Label Grid.Row="0" Content="Configure the Custom Action" Name="pageHeaderLabel" HorizontalAlignment="Left"
                    VerticalAlignment="Center" Margin="18,0,0,0" FontWeight="ExtraBold" />
         </Grid>
         <Grid Grid.Row="1" Name="mainGrid">
@@ -31,31 +31,31 @@
             </Grid.RowDefinitions>
             <StackPanel Grid.Row="0" Grid.Column="1" Orientation="Vertical">
                 <Label Margin="0,20,0,0" Content="Location:" Name="locationLabel" FontWeight="Bold" />
-                <RadioButton Content="_List Edit" Margin="5,0,0,0" Name="listEditRadioButton" 
+                <RadioButton Content="_List Edit" Margin="5,0,0,0" Name="listEditRadioButton"
                              Checked="listEditRadioButton_Checked" FontWeight="Normal"  />
-                <RadioButton Content="_Standard Menu" Margin="5,5,0,0" Name="standardMenuRadioButton" 
+                <RadioButton Content="_Standard Menu" Margin="5,5,0,0" Name="standardMenuRadioButton"
                              Checked="standardMenuRadioButton_Checked" FontWeight="Normal" />
             </StackPanel>
-            <Label Grid.Row="1" Grid.Column="1" Margin="0,15,0,0" Content="_Group ID:" Name="groupIdLabel" 
+            <Label Grid.Row="1" Grid.Column="1" Margin="0,15,0,0" Content="_Group ID:" Name="groupIdLabel"
                    FontWeight="Bold" Target="{Binding ElementName=idComboBox}" />
-            <ComboBox Grid.Row="1" Grid.Column="2" HorizontalAlignment="Left" Margin="0,15,0,0" Height="23" 
+            <ComboBox Grid.Row="1" Grid.Column="2" HorizontalAlignment="Left" Margin="0,15,0,0" Height="23"
                       Width="253" Name="idComboBox" IsEditable="False" IsSynchronizedWithCurrentItem="True" />
-            <Label Grid.Row="2" Grid.Column="1" Margin="0,15,0,0" Content="_Title:" Name="titleLabel" 
+            <Label Grid.Row="2" Grid.Column="1" Margin="0,15,0,0" Content="_title:" Name="titleLabel"
                    FontWeight="Bold" Target="{Binding ElementName=titleTextBox}" />
-            <TextBox Grid.Row="2" Grid.Column="2" HorizontalAlignment="Left" Margin="0,15,0,0" Height="23" 
+            <TextBox Grid.Row="2" Grid.Column="2" HorizontalAlignment="Left" Margin="0,15,0,0" Height="23"
                      Name="titleTextBox" Width="410" Text="" />
-            <Label Grid.Row="3" Grid.Column="1" Margin="0,15,0,0" Content="_Description:" Name="descriptionLabel" 
+            <Label Grid.Row="3" Grid.Column="1" Margin="0,15,0,0" Content="_Description:" Name="descriptionLabel"
                    FontWeight="Bold" Target="{Binding ElementName=descriptionTextBox}" />
-            <TextBox Grid.Row="3" Grid.Column="2" HorizontalAlignment="Left" Margin="0,15,0,0" Height="23" 
+            <TextBox Grid.Row="3" Grid.Column="2" HorizontalAlignment="Left" Margin="0,15,0,0" Height="23"
                      Name="descriptionTextBox" Width="410" Text="" />
-            <Label Grid.Row="4" Grid.Column="1" Margin="0,15,0,0" Content="_URL:" Height="28" Name="urlLabel" 
+            <Label Grid.Row="4" Grid.Column="1" Margin="0,15,0,0" Content="_URL:" Height="28" Name="urlLabel"
                    FontWeight="Bold" Target="{Binding ElementName=urlTextBox}" />
-            <TextBox Grid.Row="4" Grid.Column="2" HorizontalAlignment="Left" Margin="0,15,0,0" Height="23" 
+            <TextBox Grid.Row="4" Grid.Column="2" HorizontalAlignment="Left" Margin="0,15,0,0" Height="23"
                      Name="urlTextBox" Width="410" Text="" />
         </Grid>
         <Rectangle Grid.Row="2" Name="separatorRectangle" Fill="White"  />
         <StackPanel Grid.Row="3" Name="navigationPanel" Orientation="Horizontal">
-            <Button Content="_Finish" Margin="500,0,0,0" Height="25" Name="finishButton" Width="85" 
+            <Button Content="_Finish" Margin="500,0,0,0" Height="25" Name="finishButton" Width="85"
                     Click="finishButton_Click" IsDefault="True" />
             <Button Content="Cancel" Margin="10,0,0,0" Height="25" Name="cancelButton" Width="85" IsCancel="True" />
         </StackPanel>

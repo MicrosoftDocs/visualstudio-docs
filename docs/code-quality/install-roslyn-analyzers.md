@@ -1,75 +1,96 @@
 ---
-title: Install Roslyn analyzers in Visual Studio
-ms.date: 03/26/2018
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-code-analysis
+title: Install third party analyzers
+ms.date: 08/27/2020
 ms.topic: conceptual
 helpviewer_keywords:
-  - "code analysis, managed code"
-  - "analyzers"
-  - "Roslyn analyzers"
-author: gewarren
-ms.author: gewarren
-manager: douge
-ms.workload:
-  - "dotnet"
+- code analysis, managed code
+- analyzers
+- Roslyn analyzers
+author: mikadumont
+ms.author: midumont
+manager: jillfra
+ms.workload: 
+  - dotnet
 ---
-# Install .NET Compiler Platform analyzers
+# Install third-party analyzers
 
-Visual Studio 2017 includes a core set of .NET Compiler Platform (*Roslyn*) analyzers. These analyzers are always on. You can install additional analyzers either as NuGet packages, or as Visual Studio extensions in *VSIX* files.
+Visual Studio includes a core set of .NET Compiler Platform (*Roslyn*) analyzers. These analyzers are always on. You can install additional analyzers either as NuGet packages, or as Visual Studio extensions in *VSIX* files.
 
-## To install NuGet package analyzers
+## To install NuGet analyzer packages
 
-1. [Determine which analyzer package version](https://github.com/dotnet/roslyn-analyzers#recommended-version-of-analyzer-packages) to install, based on your version of Visual Studio.
+1. Find the analyzer package you want to install on www.nuget.org.
 
-1. Install the package in Visual Studio, using either the [Package Manager Console](/nuget/quickstart/install-and-use-a-package-in-visual-studio#package-manager-console) or the [Package Manager UI](/nuget/quickstart/install-and-use-a-package-in-visual-studio#package-manager-console).
+   For example, you may want to install [StyleCop.Analyzers](https://www.nuget.org/packages/stylecop.analyzers/) to look for style issues in your codebase.
+
+2. Install the package in Visual Studio, using either the [Package Manager Console](/nuget/quickstart/install-and-use-a-package-in-visual-studio#package-manager-console) or the [Package Manager UI](/nuget/quickstart/install-and-use-a-package-in-visual-studio#package-manager-console).
 
    > [!NOTE]
-   > The nuget.org page for each analyzer package shows you the command to paste into the **Package Manager Console**. There's even a handy button to copy the text to the clipboard.
-   >
-   > ![NuGet.org page showing Package Manager Console command](media/nuget-package-manager-command.png)
+   > The www.nuget.org page for each analyzer package shows you the command to paste into the **Package Manager Console**. There's even a handy button to copy the text to the clipboard.
 
    The analyzer assemblies are installed and appear in **Solution Explorer** under **References** > **Analyzers**.
 
-   ![Analyzers node in Solution Explorer](media/solution-explorer-analyzers-node.png)
-
 ## To install VSIX analyzers
+
+::: moniker range="vs-2017"
 
 1. In Visual Studio, select **Tools** > **Extensions and Updates**.
 
    The **Extensions and Updates** dialog box opens.
 
    > [!NOTE]
-   > Alternatively, download the extension directly from [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=VisualStudioPlatformTeam.MicrosoftCodeAnalysis2017).
+   > Alternatively, you can find and download the analyzer extension directly from [Visual Studio Marketplace](https://marketplace.visualstudio.com).
 
-1. Expand **Online** in the left pane, and then select **Visual Studio Marketplace**.
+::: moniker-end
 
-1. In the search box, type "code analysis", and look for the **Microsoft Code Analysis 2017** extension.
+::: moniker range=">=vs-2019"
 
-   ![Microsoft Code Analysis extension](media/extensions-and-updates-code-analysis.png)
+1. In Visual Studio, select **Extensions** > **Manage Extensions**.
 
-1. Select **Download**.
+   The **Manage Extensions** dialog box opens.
+
+   > [!NOTE]
+   > Alternatively, you can find and download the analyzer extension directly from [Visual Studio Marketplace](https://marketplace.visualstudio.com).
+
+::: moniker-end
+
+2. Expand **Online** in the left pane, and then select **Visual Studio Marketplace**.
+
+3. In the search box, type the name of the analyzer extension you want to install. For example, you may want to [install the Microsoft FxCop analyzers](install-fxcop-analyzers.md#vsix) to check your code for security and performance issues, among others.
+
+4. Select **Download**.
 
    The extension is downloaded.
 
-1. Select **OK** to close the dialog box, and then close all instances of Visual Studio to launch the **VSIX Installer**.
+5. Select **OK** to close the dialog box, and then close all instances of Visual Studio to launch the **VSIX Installer**.
 
    The **VSIX Installer** dialog box opens.
 
    ![VSIX installer for Microsoft Code Analysis](media/vsix-installer-code-analysis.png)
 
-1. Select **Modify** to start the installation.
+6. Select **Modify** to start the installation.
 
-1. After a minute or two, the installation completes. Select **Close**.
+7. After a minute or two, the installation completes. Select **Close**.
 
-1. Open Visual Studio again.
+8. Open Visual Studio again.
+
+::: moniker range="vs-2017"
 
 If you want to check whether the extension is installed, select **Tools** > **Extensions and Updates**. In the **Extensions and Updates** dialog box, select the **Installed** category on the left, and then search for the extension by name.
 
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+If you want to check whether the extension is installed, select **Extensions** > **Manage Extensions**. In the **Manage Extensions** dialog box, select the **Installed** category on the left, and then search for the extension by name.
+
+::: moniker-end
+
 ## Next steps
 
-- [Use Roslyn analyzers in Visual Studio](../code-quality/use-roslyn-analyzers.md)
+> [!div class="nextstepaction"]
+> [Use code analyzers in Visual Studio](../code-quality/use-roslyn-analyzers.md)
 
 ## See also
 
-- [Overview of Roslyn analyzers in Visual Studio](../code-quality/roslyn-analyzers-overview.md)
+- [Overview of code analyzers in Visual Studio](../code-quality/roslyn-analyzers-overview.md)
+- [Install FxCop analyzers](../code-quality/install-fxcop-analyzers.md)

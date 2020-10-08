@@ -1,23 +1,21 @@
 ---
-title: "Using stubs to isolate parts of your application for unit testing in Visual Studio"
+title: Using stubs to isolate parts of your app for testing
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
-ms.topic: conceptual
-ms.author: gewarren
-manager: douge
-ms.workload:
-  - "multiple"
-author: gewarren
-dev_langs:
- - CSharp
- - VB
+ms.topic: how-to
+ms.author: mikejo
+manager: jillfra
+ms.workload: 
+  - multiple
+author: mikejo5000
+dev_langs: 
+  - CSharp
+  - VB
 ---
 # Use stubs to isolate parts of your application from each other for unit testing
 
 *Stub types* are one of two technologies that the Microsoft Fakes framework provides to let you easily isolate a component you are testing from other components that it calls. A stub is a small piece of code that takes the place of another component during testing. The benefit of using a stub is that it returns consistent results, making the test easier to write. And you can run tests even if the other components are not working yet.
 
-For an overview and quick start guide to Fakes, see [Isolating Code Under Test with Microsoft Fakes](../test/isolating-code-under-test-with-microsoft-fakes.md).
+For an overview and quick start guide to Fakes, see [Isolate code under test with Microsoft Fakes](../test/isolating-code-under-test-with-microsoft-fakes.md).
 
 To use stubs, you have to write your component so that it uses only interfaces, not classes, to refer to other parts of the application. This is a good design practice because it makes changes in one part less likely to require changes in another. For testing, it allows you to substitute a stub for a real component.
 
@@ -25,13 +23,13 @@ In the diagram, the component StockAnalyzer is the one we want to test. It norma
 
 ![Real and Stub classes conform to one interface.](../test/media/fakesinterfaces.png)
 
-Because stubs rely on your being able to structure your code in this way, you typically use stubs to isolate one part of your application from another. To isolate it from other assemblies that are not under your control, such as System.dll, you would normally use shims. See [Using shims to isolate your application from other assemblies for unit testing](../test/using-shims-to-isolate-your-application-from-other-assemblies-for-unit-testing.md).
+Because stubs rely on your being able to structure your code in this way, you typically use stubs to isolate one part of your application from another. To isolate it from other assemblies that are not under your control, such as *System.dll*, you would normally use shims. See [Use shims to isolate your application from other assemblies for unit testing](../test/using-shims-to-isolate-your-application-from-other-assemblies-for-unit-testing.md).
 
 ## How to use stubs
 
 ### Design for dependency injection
 
-To use stubs, your application has to be designed so that the different components are not dependent on each other, but only dependent on interface definitions. Instead of being coupled at compile time, components are connected at run time. This pattern helps to make software that is robust and easy to update, because changes tend not to propagate across component boundaries. We recommend following it even if you don't use stubs. If you are writing new code, it's easy to follow the [dependency injection](http://en.wikipedia.org/wiki/Dependency_injection) pattern. If you are writing tests for existing software, you might have to refactor it. If that would be impractical, you could consider using shims instead.
+To use stubs, your application has to be designed so that the different components are not dependent on each other, but only dependent on interface definitions. Instead of being coupled at compile time, components are connected at run time. This pattern helps to make software that is robust and easy to update, because changes tend not to propagate across component boundaries. We recommend following it even if you don't use stubs. If you are writing new code, it's easy to follow the [dependency injection](https://en.wikipedia.org/wiki/Dependency_injection) pattern. If you are writing tests for existing software, you might have to refactor it. If that would be impractical, you could consider using shims instead.
 
 Let's start this discussion with a motivating example, the one in the diagram. The class StockAnalyzer reads share prices and generates some interesting results. It has some public methods, which we want to test. To keep things simple, let's just look at one of those methods, a very simple one that reports the current price of a particular share. We want to write a unit test of that method. Here's the first draft of a test:
 
@@ -143,9 +141,9 @@ To use stubs, you must first generate stub types from the interface definitions.
 
 #### Add a Fakes Assembly
 
-1. In Solution Explorer, expand your unit test project's **References**.
+1. In **Solution Explorer**, expand your unit test project's **References**.
 
-   If you are working in Visual Basic, you must select **Show All Files** in the Solution Explorer toolbar, in order to see the References list.
+   If you're working in Visual Basic, select **Show All Files** in the **Solution Explorer** toolbar in order to see the **References** node.
 
 2. Select the assembly that contains the interface definitions for which you want to create stubs.
 
@@ -224,9 +222,9 @@ class TestMyComponent
     public void TestVariableContosoPrice()
     {
         // Arrange:
-        int priceToReturn;
-        string companyCodeUsed;
-        var componentUnderTest = new StockAnalyzer(new StubIStockFeed()
+        int priceToReturn = 345;
+        string companyCodeUsed = "";
+        var componentUnderTest = new StockAnalyzer(new StockAnalysis.Fakes.StubIStockFeed()
             {
                GetSharePriceString = (company) =>
                   {
@@ -236,8 +234,6 @@ class TestMyComponent
                      return priceToReturn;
                   };
             };
-        // Set the value that will be returned by the stub:
-        priceToReturn = 345;
 
         // Act:
         int actualResult = componentUnderTest.GetContosoPrice();
@@ -259,7 +255,7 @@ Class TestMyComponent
     <TestMethod()> _
     Public Sub TestVariableContosoPrice()
         ' Arrange:
-        Dim priceToReturn As Integer
+        Dim priceToReturn As Integer = 345
         Dim companyCodeUsed As String = ""
         Dim stockFeed As New StockAnalysis.Fakes.StubIStockFeed()
         With stockFeed
@@ -274,8 +270,6 @@ Class TestMyComponent
         End With
         ' Create an object to test:
         Dim componentUnderTest As New StockAnalyzer(stockFeed)
-        ' Set the value that will be returned by the stub:
-        priceToReturn = 345
 
         ' Act:
         Dim actualResult As Integer = componentUnderTest.GetContosoPrice()
@@ -312,7 +306,7 @@ var stub = new StubIMyInterface ();
 stub.MyMethodString = (value) => 1;
 ```
 
-If you do not provide a stub for a function, Fakes will generate a function that returns the default value of the return type. For numbers, the default value is 0, and for class types it is `null` (C#) or `Nothing` (Visual Basic).
+If you do not provide a stub for a function, Fakes generates a function that returns the default value of the return type. For numbers, the default value is 0 and for class types it is `null` (C#) or `Nothing` (Visual Basic).
 
 ### Properties
 
@@ -336,7 +330,7 @@ stub.ValueGet = () => i;
 stub.ValueSet = (value) => i = value;
 ```
 
-If you do not provide stub methods for either the setter or the getter of a property, Fakes will generate a stub that stores values, so that the stub property works like a simple variable.
+If you do not provide stub methods for either the setter or the getter of a property, Fakes generates a stub that stores values so that the stub property works like a simple variable.
 
 ### Events
 
@@ -404,7 +398,7 @@ In the previous examples, the stubs have been generated from interfaces. You can
     }
 ```
 
-In the stub generated from this class, you can set delegate methods for DoAbstract() and DoVirtual(), but not DoConcrete().
+In the stub generated from this class, you can set delegate methods for `DoAbstract()` and `DoVirtual()`, but not `DoConcrete()`.
 
 ```csharp
 // unit test
@@ -433,13 +427,13 @@ The stub types are designed to provide a smooth debugging experience. By default
 
 ## Stub limitations
 
-1. Method signatures with pointers aren't supported.
+- Method signatures with pointers aren't supported.
 
-2. Sealed classes or static methods can't be stubbed because stub types rely on virtual method dispatch. For such cases, use shim types as described in [Using shims to isolate your application from other assemblies for unit testing](../test/using-shims-to-isolate-your-application-from-other-assemblies-for-unit-testing.md)
+- Sealed classes or static methods can't be stubbed because stub types rely on virtual method dispatch. For such cases, use shim types as described in [Use shims to isolate your application from other assemblies for unit testing](../test/using-shims-to-isolate-your-application-from-other-assemblies-for-unit-testing.md)
 
 ## Change the default behavior of stubs
 
-Each generated stub type holds an instance of the `IStubBehavior` interface (through the `IStub.InstanceBehavior` property). The behavior is called whenever a client calls a member with no attached custom delegate. If the behavior has not been set, it will use the instance returned by the `StubsBehaviors.Current` property. By default, this property returns a behavior that throws a `NotImplementedException` exception.
+Each generated stub type holds an instance of the `IStubBehavior` interface (through the `IStub.InstanceBehavior` property). The behavior is called whenever a client calls a member with no attached custom delegate. If the behavior has not been set, it uses the instance returned by the `StubsBehaviors.Current` property. By default, this property returns a behavior that throws a `NotImplementedException` exception.
 
 The behavior can be changed at any time by setting the `InstanceBehavior` property on any stub instance. For example, the following snippet changes a behavior that does nothing or returns the default value of the return type: `default(T)`:
 
@@ -460,4 +454,4 @@ StubBehaviors.Current = BehavedBehaviors.DefaultValue;
 
 ## See also
 
-- [Isolating Code Under Test with Microsoft Fakes](../test/isolating-code-under-test-with-microsoft-fakes.md)
+- [Isolate code under test with Microsoft Fakes](../test/isolating-code-under-test-with-microsoft-fakes.md)

@@ -1,78 +1,75 @@
 ---
-title: "Combos Element | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
-ms.topic: "conceptual"
-helpviewer_keywords: 
-  - "Combos element (VSCT XML schema)"
-  - "VSCT XML schema elements, Combos"
+title: Combos Element | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
+helpviewer_keywords:
+- Combos element (VSCT XML schema)
+- VSCT XML schema elements, Combos
 ms.assetid: ef48d2d2-0c47-4f93-8cfe-52026b6c463e
-author: "gregvanl"
-ms.author: "gregvanl"
-manager: douge
-ms.workload: 
-  - "vssdk"
+author: acangialosi
+ms.author: anthc
+manager: jillfra
+ms.workload:
+- vssdk
 ---
-# Combos Element
-Groups [Combo Element](../extensibility/combo-element.md) elements.  
-  
-## Syntax  
-  
-```  
-<Combos>  
-  <Combo>... </Combo>  
-  <Combo>... </Combo>  
-</Combos>  
-```  
-  
-## Attributes and Elements  
- The following sections describe attributes, child elements, and parent elements.  
-  
-### Attributes  
-  
-|Attribute|Description|  
-|---------------|-----------------|  
-|Condition|Optional. See [Conditional Attributes](../extensibility/vsct-xml-schema-conditional-attributes.md).|  
-  
-### Child Elements  
-  
-|Element|Description|  
-|-------------|-----------------|  
-|[Combos Element](../extensibility/combos-element.md)|Groups Combo elements.|  
-|[Combo Element](../extensibility/combo-element.md)|Defines the commands that appear in a combo box.|  
-  
-### Parent Elements  
-  
-|Element|Description|  
-|-------------|-----------------|  
-|[Commands Element](../extensibility/commands-element.md)|Represents the collection of commands on the VSPackage toolbar.|  
-  
-## Example  
-  
-```  
-<Combos>  
-  <Combo guid="guidWidgetPackage" id="cmdidInsertOptions"  
-    defaultWidth="100" idCommandList="cmdidGetInsertOptionsList">  
-    <CommandFlag>DynamicVisibility</CommandFlag>  
-    <Strings>  
-      <ButtonText>Select Insert Options</ButtonText>  
-    </Strings>  
-  </Combo>  
-  
-  <Combo guid="guidWidgetPackage" id="cmdidInsertOptions"  
-    priority="0x0500" type="DropDownCombo" defaultWidth="100"  
-    idCommandList="cmdidGetInsertOptionsList">  
-    <Parent guid="cmdSetGuidWidgetCommands" id="groupIDFileEdit">  
-    <CommandFlag>DynamicVisibility</CommandFlag>  
-    <Strings>  
-      <ButtonText>Select Insert Options</ButtonText>  
-    </Strings>  
-  </Combo>  
-</Combos>  
-```  
-  
-## See Also  
- [How VSPackages Add User Interface Elements](../extensibility/internals/how-vspackages-add-user-interface-elements.md)   
- [Commands, Menus, and Toolbars](../extensibility/internals/commands-menus-and-toolbars.md)
+# Combos element
+Groups [Combo element](../extensibility/combo-element.md) elements.
+
+## Syntax
+
+```
+<Combos>
+  <Combo>... </Combo>
+  <Combo>... </Combo>
+</Combos>
+```
+
+## Attributes and elements
+ The following sections describe attributes, child elements, and parent elements.
+
+### Attributes
+
+|Attribute|Description|
+|---------------|-----------------|
+|Condition|Optional. See [Conditional attributes](../extensibility/vsct-xml-schema-conditional-attributes.md).|
+
+### Child elements
+
+|Element|Description|
+|-------------|-----------------|
+|[Combos element](../extensibility/combos-element.md)|Groups Combo elements.|
+|[Combo element](../extensibility/combo-element.md)|Defines the commands that appear in a combo box.|
+
+### Parent elements
+
+|Element|Description|
+|-------------|-----------------|
+|[Commands element](../extensibility/commands-element.md)|Represents the collection of commands on the VSPackage toolbar.|
+
+## Example
+
+```
+<Combos>
+  <Combo guid="guidWidgetPackage" id="cmdidInsertOptions"
+    defaultWidth="100" idCommandList="cmdidGetInsertOptionsList">
+    <CommandFlag>DynamicVisibility</CommandFlag>
+    <Strings>
+      <ButtonText>Select Insert Options</ButtonText>
+    </Strings>
+  </Combo>
+
+  <Combo guid="guidWidgetPackage" id="cmdidInsertOptions"
+    priority="0x0500" type="DropDownCombo" defaultWidth="100"
+    idCommandList="cmdidGetInsertOptionsList">
+    <Parent guid="cmdSetGuidWidgetCommands" id="groupIDFileEdit">
+    <CommandFlag>DynamicVisibility</CommandFlag>
+    <Strings>
+      <ButtonText>Select Insert Options</ButtonText>
+    </Strings>
+  </Combo>
+</Combos>
+```
+
+## See also
+- [How VSPackages add user interface elements](../extensibility/internals/how-vspackages-add-user-interface-elements.md)
+- [Commands, menus, and toolbars](../extensibility/internals/commands-menus-and-toolbars.md)

@@ -3,14 +3,12 @@ title: Develop tests from a model
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "tests and requirements"
-author: gewarren
-ms.author: gewarren
-manager: douge
+- tests and requirements
+author: JoshuaPartlow
+ms.author: joshuapa
+manager: jillfra
 ms.workload:
-  - "multiple"
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-modeling
+- multiple
 ---
 # Develop tests from a model
 You can use requirements and architectural models to help you organize the tests of your system and its components. This practice helps ensure that you test the requirements that are important to the users and other stakeholders, and it helps you update the tests quickly when the requirements change. If you use [!INCLUDE[TCMext](../misc/includes/tcmext_md.md)], you can also maintain links between the models and the tests.
@@ -36,36 +34,36 @@ You can use requirements and architectural models to help you organize the tests
 
  These guidelines might be helpful:
 
--   Each use case should have several tests, for main paths and exceptional outcomes.
+- Each use case should have several tests, for main paths and exceptional outcomes.
 
--   When you describe a use case in the requirements model, it is more important to define its postcondition, that is, the goal that is achieved, than to describe in detail the procedures the user follows in order to achieve the goal. For example, the postcondition of Order a Meal might be that a Restaurant is preparing a meal for a Customer and that the Customer has paid. The postcondition is the criterion that your tests should verify.
+- When you describe a use case in the requirements model, it is more important to define its postcondition, that is, the goal that is achieved, than to describe in detail the procedures the user follows in order to achieve the goal. For example, the postcondition of Order a Meal might be that a Restaurant is preparing a meal for a Customer and that the Customer has paid. The postcondition is the criterion that your tests should verify.
 
--   Base separate tests on the separate clauses of the postcondition. For example, create separate tests for notifying the restaurant of the order, and for taking payment from the customer. This separation has these advantages:
+- Base separate tests on the separate clauses of the postcondition. For example, create separate tests for notifying the restaurant of the order, and for taking payment from the customer. This separation has these advantages:
 
-    -   Changes in different aspects of the requirements frequently occur independently. By separating the tests into different aspects in this manner, you make it easier to update the tests when requirements change.
+  - Changes in different aspects of the requirements frequently occur independently. By separating the tests into different aspects in this manner, you make it easier to update the tests when requirements change.
 
-    -   If the development plan implements one aspect of the use case before another, you can enable the tests separately as development progresses.
+  - If the development plan implements one aspect of the use case before another, you can enable the tests separately as development progresses.
 
--   When you design the tests, separate the choice of test data from the code or script that determines whether the postcondition has been achieved. For example, a test of a simple arithmetic function might be: Input 4; verify that the output is 2. Instead, design the script as: Choose an input; multiply the output by itself, and verify that the result is the original input. This style enables you to vary the test inputs without changing the main body of the test.
+- When you design the tests, separate the choice of test data from the code or script that determines whether the postcondition has been achieved. For example, a test of a simple arithmetic function might be: Input 4; verify that the output is 2. Instead, design the script as: Choose an input; multiply the output by itself, and verify that the result is the original input. This style enables you to vary the test inputs without changing the main body of the test.
 
 #### Linking tests to use cases
  If you are using [!INCLUDE[TCMlong](../modeling/includes/tcmlong_md.md)] to design and run your tests, you can organize your tests under requirement, use case, or user story work items. You can link these work items to use cases in your model. This enables you to quickly trace requirements changes to the tests, and helps you track the progress of each use case.
 
 ###### To link tests to a use case
 
-1.  In [!INCLUDE[TCMlong](../modeling/includes/tcmlong_md.md)], create a requirement and base a test suite on it.
+1. In [!INCLUDE[TCMlong](../modeling/includes/tcmlong_md.md)], create a requirement and base a test suite on it.
 
-     The requirement that you create is a work item in [!INCLUDE[vstsTfsShort](../modeling/includes/vststfsshort_md.md)]. It might be a User Story, Requirement, or Use Case work item, depending on the process template that your project uses with [!INCLUDE[esprfound](../code-quality/includes/esprfound_md.md)]. For more information, see [Track work using Visual Studio Team Services or Team Foundation Server](http://msdn.microsoft.com/Library/52aa8bc9-fc7e-4fae-9946-2ab255ca7503).
+    The requirement that you create is a work item in [!INCLUDE[vstsTfsShort](../modeling/includes/vststfsshort_md.md)]. It might be a User Story, Requirement, or Use Case work item, depending on the process template that your project uses with Team Foundation. For more information, see [About Agile tools and Agile project management](/azure/devops/boards/backlogs/backlogs-overview?view=vsts).
 
-2.  Link the requirement work item to one or more use cases in your model.
+2. Link the requirement work item to one or more use cases in your model.
 
-     In a use case diagram, right-click a use case and then click **Link to Work Item**.
+    In a use case diagram, right-click a use case and then click **Link to Work Item**.
 
-3.  Add to the test suite, test cases that verify the use cases.
+3. Add to the test suite, test cases that verify the use cases.
 
- Usually, each user story or requirement work item will link to several use cases in your model, and each use case will link to several user stories or requirements. This is because each user story or requirement covers a set of tasks that develop several use cases. For example, in an early iteration of your project, you might develop the basic user story in which a customer can choose items from a catalog and have them delivered. In a later iteration, the story might be that the user pays when completing the order, and the supplier receives the money after it sends the goods.  Each story adds a clause to the postcondition of the Order Goods use case.
+   Usually, each user story or requirement work item will link to several use cases in your model, and each use case will link to several user stories or requirements. This is because each user story or requirement covers a set of tasks that develop several use cases. For example, in an early iteration of your project, you might develop the basic user story in which a customer can choose items from a catalog and have them delivered. In a later iteration, the story might be that the user pays when completing the order, and the supplier receives the money after it sends the goods.  Each story adds a clause to the postcondition of the Order Goods use case.
 
- You can create separate links from requirements to the clauses of the postcondition by writing those clauses in separate comments on the use case diagram. You can link each comment to a requirement work item, and link the comment to the use case on the diagram.
+   You can create separate links from requirements to the clauses of the postcondition by writing those clauses in separate comments on the use case diagram. You can link each comment to a requirement work item, and link the comment to the use case on the diagram.
 
 ### Base Tests on the Requirements Types
  The types, that is, the classes, interfaces and enumerations, of a requirements model describe the concepts and relationships in terms of how users think and communicate about their business. It excludes types concerned only with the internal design of the system.
@@ -124,34 +122,34 @@ Assert (countAfter == countBefore = 1);
 
  From a testing point of view, a requirements model can be seen as a shorthand for the tests. Therefore, it's important to maintain the relationship between tests and model throughout the project.
 
-##  <a name="Attaching"></a> Attaching Test Cases to Model Elements
+## <a name="Attaching"></a> Attaching Test Cases to Model Elements
  If your project uses [!INCLUDE[TCMlong](../modeling/includes/tcmlong_md.md)], you can link tests to the elements in your model. This lets you quickly find the tests affected by a change in the requirements, and helps you track the extent to which a requirement has been realized.
 
  You can link tests to all kinds of element. Here are some examples:
 
--   Link a use case to the tests that exercise it.
+- Link a use case to the tests that exercise it.
 
--   Write the clauses of a use case postcondition, or goal, onto comments that are linked to the use case, and then link tests to each comment.
+- Write the clauses of a use case postcondition, or goal, onto comments that are linked to the use case, and then link tests to each comment.
 
--   Write invariant rules in comments on class diagrams or activity diagrams, and link them to tests.
+- Write invariant rules in comments on class diagrams or activity diagrams, and link them to tests.
 
--   Link tests to an activity diagram, or to individual activities.
+- Link tests to an activity diagram, or to individual activities.
 
--   Link a test suite to the component or subsystem it tests.
+- Link a test suite to the component or subsystem it tests.
 
 #### To link tests to a model element or relationship
 
-1.  In [!INCLUDE[TCMlong](../modeling/includes/tcmlong_md.md)], create a requirement and base a test suite on it.
+1. In [!INCLUDE[TCMlong](../modeling/includes/tcmlong_md.md)], create a requirement and base a test suite on it.
 
-     The requirement that you create is a work item in [!INCLUDE[vstsTfsShort](../modeling/includes/vststfsshort_md.md)]. It might be a User Story, Requirement, or Use Case work item, depending on the process template that your project uses with [!INCLUDE[esprfound](../code-quality/includes/esprfound_md.md)]. For more information, see [Track work using Visual Studio Team Services or Team Foundation Server](http://msdn.microsoft.com/Library/52aa8bc9-fc7e-4fae-9946-2ab255ca7503).
+    The requirement that you create is a work item in [!INCLUDE[vstsTfsShort](../modeling/includes/vststfsshort_md.md)]. It might be a User Story, Requirement, or Use Case work item, depending on the process template that your project uses with Team Foundation. For more information, see [About Agile tools and Agile project management](/azure/devops/boards/backlogs/backlogs-overview?view=vsts).
 
-2.  Link the requirement work item to one or more elements in your model.
+2. Link the requirement work item to one or more elements in your model.
 
-     In a modeling diagram, right-click an element, comment or relationship and then click **Link to Work Item**.
+    In a modeling diagram, right-click an element, comment or relationship and then click **Link to Work Item**.
 
-3.  Add to the test suite, test cases that verify the requirement expressed in the model element.
+3. Add to the test suite, test cases that verify the requirement expressed in the model element.
 
-## See Also
+## See also
 
 - [Create models for your app](../modeling/create-models-for-your-app.md)
 - [Model user requirements](../modeling/model-user-requirements.md)

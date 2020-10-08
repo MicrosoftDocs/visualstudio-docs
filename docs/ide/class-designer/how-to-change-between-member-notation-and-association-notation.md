@@ -1,20 +1,18 @@
 ---
-title: "How to: Change Between Member Notation and Association Notation (Class Designer)"
+title: Change between member & association notation (Class Designer)
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
-  - "notation, member"
-  - "association notation"
-  - "member notation"
-  - "notation, association"
+- notation, member
+- association notation
+- member notation
+- notation, association
 ms.assetid: 65881c5a-d251-4a36-ad0d-73d088436092
-author: gewarren
-ms.author: gewarren
-manager: douge
+author: TerryGLee
+ms.author: tglee
+manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # How to: Change between member notation and association notation in Class Designer
 
@@ -25,9 +23,9 @@ In **Class Designer**, you can change the way the class diagram represents an as
 
 ## To change member notation to association notation
 
-1.  From the project node in Solution Explorer, open the class diagram (.cd) file.
+1. From the project node in Solution Explorer, open the class diagram (.cd) file.
 
-2.  In the type shape on the class diagram, right-click the member property or field representing the association, and choose **Show as Association**.
+2. In the type shape on the class diagram, right-click the member property or field representing the association, and choose **Show as Association**.
 
     > [!TIP]
     > If no properties or fields are visible in the type shape, the compartments in the shape might be collapsed. To expand the type shape, double-click the compartment name or right-click the type shape, and choose **Expand**.
@@ -42,5 +40,5 @@ On the class diagram, right-click the association line, and choose **Show as Pro
 
 - [How to: Create Inheritance Between Types](how-to-create-inheritance-between-types.md)
 - [How to: View Inheritance Between Types](how-to-view-inheritance-between-types.md)
-- [Viewing Types and Relationships](viewing-types-and-relationships.md)
+- [Viewing Types and Relationships](designing-and-viewing-classes-and-types.md)
 - [How to: Visualize a Collection Association](how-to-visualize-a-collection-association.md)

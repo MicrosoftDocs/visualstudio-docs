@@ -2,12 +2,10 @@
 title: "Workflow Designer - Primitives Activity Designers"
 ms.date: 11/04/2016
 ms.topic: reference
-ms.prod: visual-studio-dev15
-ms.technology: vs-workflow-designer
 ms.assetid: 0a2b613e-dc04-49a1-a787-caec2ec63b90
-author: gewarren
-ms.author: gewarren
-manager: douge
+author: TerryGLee
+ms.author: tglee
+manager: jillfra
 ms.workload:
   - "multiple"
 ---
@@ -32,4 +30,4 @@ Primitives activity designers are used to create and configure various activitie
 
 ## See also
 
-- [Using the Activity Designers](../workflow-designer/using-the-activity-designers.md)
+- [Using the Activity Designers](control-flow-activity-designers.md)

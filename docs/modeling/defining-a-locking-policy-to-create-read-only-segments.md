@@ -2,30 +2,28 @@
 title: Defining a Locking Policy to Create Read-Only Segments
 ms.date: 11/04/2016
 ms.topic: conceptual
-author: gewarren
-ms.author: gewarren
-manager: douge
+author: JoshuaPartlow
+ms.author: joshuapa
+manager: jillfra
 ms.workload:
   - "multiple"
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-modeling
 ---
 # Defining a Locking Policy to Create Read-Only Segments
-The Immutability API of the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Visualization and Modeling SDK allows a program to lock part or all of a domain-specific language (DSL) model so that it can be read but not changed. This read-only option could be used, for example, so that a user can ask colleagues to annotate and review a DSL model but can disallow them from changing the original.
+The Immutability API of the Visual Studio Visualization and Modeling SDK allows a program to lock part or all of a domain-specific language (DSL) model so that it can be read but not changed. This read-only option could be used, for example, so that a user can ask colleagues to annotate and review a DSL model but can disallow them from changing the original.
 
  In addition, as author of a DSL, you can define a *locking policy.* A locking policy defines which locks are permitted, not permitted, or mandatory. For example, when you publish a DSL, you can encourage third-party developers to extend it with new commands. But you could also use a locking policy to prevent them from altering the read-only status of specified parts of the model.
 
 > [!NOTE]
->  A locking policy can be circumvented by using reflection. It provides a clear boundary for third-party developers, but does not provide strong security.
+> A locking policy can be circumvented by using reflection. It provides a clear boundary for third-party developers, but does not provide strong security.
 
- More information and samples are available at the Visual Studio [Visualization and Modeling SDK](https://code.msdn.microsoft.com/Visualization-and-Modeling-313535db) Web site.
+ More information and samples are available at the Visual Studio [Visualization and Modeling SDK](https://code.msdn.microsoft.com/Visualization-and-Modeling-313535db) website.
 
 [!INCLUDE[modeling_sdk_info](includes/modeling_sdk_info.md)]
 
 ## Setting and Getting Locks
  You can set locks on the store, on a partition, or on an individual element. For example, this statement will prevent a model element from being deleted, and will also prevent its properties from being changed:
 
-```
+```csharp
 using Microsoft.VisualStudio.Modeling.Immutability; ...
 element.SetLocks(Locks.Delete | Locks.Property);
 ```
@@ -43,7 +41,7 @@ element.SetLocks(Locks.Delete | Locks.Property);
 ### Locks on partitions and stores
  Locks can also be applied to partitions and the store. A lock that is set on a partition applies to all the elements in the partition. Therefore, for example, the following statement will prevent all the elements in a partition from being deleted, irrespective of the states of their own locks. Nevertheless, other locks such as `Locks.Property` could still be set on individual elements:
 
-```
+```csharp
 partition.SetLocks(Locks.Delete);
 ```
 
@@ -52,27 +50,27 @@ partition.SetLocks(Locks.Delete);
 ### Using Locks
  You could use locks to implement schemes such as the following examples:
 
--   Disallow changes to all elements and relationships except those that represent comments. This allows users to annotate a model without changing it.
+- Disallow changes to all elements and relationships except those that represent comments. This allows users to annotate a model without changing it.
 
--   Disallow changes in the default partition, but allow changes in the diagram partition. The user can rearrange the diagram, but cannot alter the underlying model.
+- Disallow changes in the default partition, but allow changes in the diagram partition. The user can rearrange the diagram, but cannot alter the underlying model.
 
--   Disallow changes to the Store except for a group of users who are registered in a separate database. For other users, the diagram and model are read-only.
+- Disallow changes to the Store except for a group of users who are registered in a separate database. For other users, the diagram and model are read-only.
 
--   Disallow changes to the model if a Boolean property of the diagram is set to true. Provide a menu command to change that property. This helps ensure users that they do not make changes accidentally.
+- Disallow changes to the model if a Boolean property of the diagram is set to true. Provide a menu command to change that property. This helps ensure users that they do not make changes accidentally.
 
--   Disallow addition and deletion of elements and relationships of particular classes, but allow property changes. This provides users with a fixed form in which they can fill the properties.
+- Disallow addition and deletion of elements and relationships of particular classes, but allow property changes. This provides users with a fixed form in which they can fill the properties.
 
 ## Lock values
  Locks can be set on a Store, Partition, or individual ModelElement. Locks is a `Flags` enumeration: you can combine its values using '&#124;'.
 
--   Locks of a ModelElement always include the Locks of its Partition.
+- Locks of a ModelElement always include the Locks of its Partition.
 
--   Locks of a Partition always include the Locks of the Store.
+- Locks of a Partition always include the Locks of the Store.
 
- You cannot set a lock on a partition or store and at the same time disable the lock on an individual element.
+  You cannot set a lock on a partition or store and at the same time disable the lock on an individual element.
 
 |Value|Meaning if `IsLocked(Value)` is true|
-|-----------|------------------------------------------|
+|-|-|
 |None|No restriction.|
 |Property|Domain properties of elements cannot be changed. This does not apply to properties that are generated by the role of a domain class in a relationship.|
 |Add|New elements and links cannot be created in a partition or store.<br /><br /> Not applicable to `ModelElement`.|
@@ -91,14 +89,14 @@ partition.SetLocks(Locks.Delete);
 
  To define a locking policy, you have to:
 
--   Create a class that implements <xref:Microsoft.VisualStudio.Modeling.Immutability.ILockingPolicy>.
+- Create a class that implements <xref:Microsoft.VisualStudio.Modeling.Immutability.ILockingPolicy>.
 
--   Add this class to the services that are available through the DocData of your DSL.
+- Add this class to the services that are available through the DocData of your DSL.
 
 ### To define a locking policy
  <xref:Microsoft.VisualStudio.Modeling.Immutability.ILockingPolicy> has the following definition:
 
-```
+```csharp
 public interface ILockingPolicy
 {
   Locks RefineLocks(ModelElement element, Locks proposedLocks);
@@ -111,7 +109,7 @@ public interface ILockingPolicy
 
  For example:
 
-```
+```csharp
 using Microsoft.VisualStudio.Modeling;
 using Microsoft.VisualStudio.Modeling.Immutability;
 namespace Company.YourDsl.DslPackage // Change
@@ -136,7 +134,6 @@ namespace Company.YourDsl.DslPackage // Change
       return Environment.UserName == "aUser"
            ? proposedLocks : Locks.All;
     }
-
 ```
 
  To make sure that users can always delete elements, even if other code calls `SetLocks(Lock.Delete):`
@@ -150,7 +147,7 @@ namespace Company.YourDsl.DslPackage // Change
 ### To make your policy available as a service
  In your `DslPackage` project, add a new file that contains code that resembles the following example:
 
-```
+```csharp
 using Microsoft.VisualStudio.Modeling;
 using Microsoft.VisualStudio.Modeling.Immutability;
 namespace Company.YourDsl.DslPackage // Change

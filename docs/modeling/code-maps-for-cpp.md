@@ -1,14 +1,14 @@
 ---
-title: See dependencies between C++ source files and header files
+title: See dependencies between C++ source and header files
+description: Provides information about code maps for C++ projects.
 ms.date: 05/16/2018
 ms.topic: conceptual
-author: gewarren
-ms.author: gewarren
-manager: douge
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-modeling
+author: JoshuaPartlow
+ms.author: joshuapa
+ms.custom: SEO-VS-2020
+manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Code maps for C++ projects
 
@@ -35,7 +35,7 @@ These items aren't supported for C and C++ code:
 These issues might occur when you create code maps for C and C++ code:
 
 |**Issue**|**Possible cause**|**Resolution**|
-|---------------|------------------------|--------------------|
+|-|-|-|
 |The code map failed to generate.|No projects in the solution were built successfully.|Fix the build errors that occurred and then regenerate the map.|
 |Visual Studio becomes unresponsive when you try to generate a code map from the **Architecture** menu.|The program database (.pdb) file might be corrupted.<br /><br /> A .pdb file stores debugging information, such as type, method, and source file information.|Rebuild the solution and then try again.|
 |Certain settings for the IntelliSense browsing database are disabled.|Certain IntelliSense settings might be disabled in the Visual Studio **Options** dialog box.|Turn on the settings to enable them.<br /><br /> See [Options, Text Editor, C/C++, Advanced](../ide/reference/options-text-editor-c-cpp-advanced.md).|

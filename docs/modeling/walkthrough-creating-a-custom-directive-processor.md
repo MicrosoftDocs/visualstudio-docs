@@ -1,20 +1,18 @@
 ---
-title: "Walkthrough: Creating a Custom Directive Processor"
+title: 'Walkthrough: Creating a Custom Directive Processor'
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
-  - "text templates, custom directive processors"
-  - "walkthroughs [text templates], directive processor"
-author: gewarren
-ms.author: gewarren
-manager: douge
+- text templates, custom directive processors
+- walkthroughs [text templates], directive processor
+author: JoshuaPartlow
+ms.author: joshuapa
+manager: jillfra
 ms.workload:
-  - "multiple"
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-modeling
+- multiple
 dev_langs:
- - CSharp
- - VB
+- CSharp
+- VB
 ---
 # Walkthrough: Create a Custom Directive Processor
 
@@ -327,7 +325,7 @@ End Property
             {
                 XmlDocument d = new XmlDocument();
 
-                using (XmlTextReader reader = new XmlTextReader(fileName))
+                using (XmlReader reader = XmlReader.Create(fileName))
                 {
                     try
                     {
@@ -577,7 +575,7 @@ End Property
 
                 Dim d As XmlDocument = New XmlDocument()
 
-                Using reader As XmlTextReader = New XmlTextReader(fileName)
+                Using reader As XmlReader = XmlReader.Create(fileName)
 
                     Try
                         d.Load(reader)
@@ -650,19 +648,19 @@ In this section, you add a key for your custom directive processor to the regist
 
      Your registry key should have the following values:
 
-    |Name|Type|Data|
-    |----------|----------|----------|
-    |(Default)|REG_SZ|(value not set)|
-    |Class|REG_SZ|CustomDP.CustomDirectiveProcessor|
-    |CodeBase|REG_SZ|**\<Path to Your Solution>**CustomDP\bin\Debug\CustomDP.dll|
+   | Name | Type | Data |
+   |-|-|-|
+   | (Default) | REG_SZ | (value not set) |
+   | Class | REG_SZ | CustomDP.CustomDirectiveProcessor |
+   | CodeBase | REG_SZ | <strong>\<Path to Your Solution></strong>CustomDP\bin\Debug\CustomDP.dll |
 
      If you have put the assembly in the GAC, the values should look like the following:
 
-    |Name|Type|Data|
-    |----------|----------|----------|
-    |(Default)|REG_SZ|(value not set)|
-    |Class|REG_SZ|CustomDP.CustomDirectiveProcessor|
-    |Assembly|REG_SZ|CustomDP.dll|
+   | Name | Type | Data |
+   |-|-|-|
+   | (Default) | REG_SZ | (value not set) |
+   | Class | REG_SZ | CustomDP.CustomDirectiveProcessor |
+   | Assembly | REG_SZ | CustomDP.dll |
 
 6. Restart Visual Studio.
 

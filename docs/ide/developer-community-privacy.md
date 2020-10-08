@@ -1,17 +1,15 @@
 ---
 title: Private data for problem reports
 ms.date: 06/21/2018
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: conceptual
 helpviewer_keywords:
-  - developer community privacy
-  - privacy, developer community
-author: gewarren
-ms.author: gewarren
-manager: douge
+- developer community privacy
+- privacy, developer community
+author: TerryGLee
+ms.author: tglee
+manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Developer Community data privacy
 
@@ -27,16 +25,17 @@ If you're concerned about data privacy, don't put anything you want to keep priv
 
 1. In the report you created, choose **Add comment** to create a private description of the problem.
 
-1. In the reply editor, use the control below the **Submit** and **Cancel** buttons to specify the audience for your reply. Choose **Viewable by moderators and the original poster** to limit visibility to Microsoft employees and yourself.
+2. In the reply editor, use the control below the **Submit** and **Cancel** buttons to specify the audience for your reply. Choose **Viewable by moderators and the original poster** to limit visibility to Microsoft employees and yourself.
 
    ![Privacy control on Developer Community](media/developer-community-privacy-control.png)
 
    Only the people you specify can see the comment and any images, links, or code you include in it. Any replies under the comment have the same visibility as the original comment. This is true even if the privacy control on replies doesn't show the restricted visibility status correctly.
 
-1. Add the description and any other information, images, and file attachments needed for your repro. Choose the **Submit** button to send this information privately.
+3. Add the description and any other information, images, and file attachments needed for your repro. Choose the **Submit** button to send this information privately.
 
    > [!NOTE]
-   > There is a 2-GB limit on attached files, and a maximum of 10 files. If you need to upload a larger file, you can either submit a new problem report or request an upload URL from a Microsoft employee in a private comment.
+   > On the Developer Community website, there is a 2-GB limit on attached files, and a maximum of 10 files. If you need to upload a larger file, you can either submit a new problem report or request an upload URL from a Microsoft employee in a private comment.
+   > When we close an issue, associated attachments will be deleted after 90 days.
 
 To maintain your privacy and keep sensitive information out of public view, take care to keep all interactions with Microsoft to replies under a visibility-restricted comment. Replies to other comments may cause you to accidentally disclose sensitive information.
 
@@ -50,36 +49,40 @@ If **Report a problem** is initiated from Visual Studio, we collect one or more 
 
 - Visual Studio in-memory activity log file
 
-- PerfWatson files, if Watson collection is enabled, from the *VSFeedbackPerfWatsonData* folder
+- PerfWatson files, if Watson collection is enabled
 
-- LiveShare log files, if they exist, from the *VSFeedbackVSRTCLogs* folder
+- LiveShare log files, if they exist
 
-- Xamarin log files, if they exist, from *%LOCALAPPDATA%\Xamarin\Logs*
+- Xamarin log files, if they exist
 
-- Nuget log files, if they exist, from *%TEMP%\NuGetScratch\nuget-dg\nugetSpec.dg*
+- Nuget log files, if they exist
 
-- Web debugger log files, if they exist:
+- Web debugger log files, if they exist
 
-   - *%TEMP%\vscode-chrome-debug.txt*
+- Service Hub logs and MEF error logs, if they exist
 
-   - *%TEMP%\vscode-node-debug2.txt*
+- Python logs, if they exist
 
-   - *%TEMP%\vscode-edge-debug.txt*
+- Razor LSP editor logs, if they exist
+
+- Windows Forms logs, if they exist
 
 - A screenshot, if you choose to include it
 
 - Recording data, if you choose to include a recording, which includes:
 
-   - Steps to reproduce the problem
+  - Steps to reproduce the problem
 
-   - ETL trace file
+  - ETL trace file
 
-   - Dump file
+  - Dump file
 
-   > [!NOTE]
-   > You can delete any of the recording data that you don't wish to submit before submitting the report.
+> [!NOTE]
+> Log files, screenshots and recording data you send can significantly increase Microsoft's ability understand and respond to your issue.  So we recommend including them. To protect your privacy, any attached log files, screenshots and recording data are sent only to Microsoft when you provide permission by submitting the problem report with which they are included. You can see which files are included on the 'Summary' step of the 'Report a Problem' window before submitting the report. You can exclude system log files from the report by unchecking 'Attach system logs' in the 'Summary' step. For reference, see the following screenshot. 
+  > ![Report a Problem - Summary of logs collected](media/report-a-problem-logs-collected.png)
+
 
 ## See also
 
-- [How to report a problem with Visual Studio](how-to-report-a-problem-with-visual-studio-2017.md)
+- [How to report a problem with Visual Studio](how-to-report-a-problem-with-visual-studio.md)
 - [C++ problem report data privacy](/cpp/how-to-report-a-problem-with-the-visual-cpp-toolset#reports-and-privacy)

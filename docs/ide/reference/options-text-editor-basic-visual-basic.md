@@ -1,59 +1,65 @@
----
-title: Options, Text Editor, Basic (Visual Basic)
-ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
+﻿---
+title: Options, Text Editor, Basic (VB), Advanced
+ms.date: 08/12/2020
 ms.topic: reference
 f1_keywords:
-  - "VS.ToolsOptionsPages.Visual_Basic.Editor"
-  - "VS.ToolsOptionsPages.Text_Editor.Basic.Editor"
-  - "VS.ToolsOptionsPages.Visual_Basic_Editor.Editor"
-  - "VS.ToolsOptionsPages.Text_Editor.Basic.SimplifiedEditorPage"
-  - "VS.ToolsOptionsPages.Text_Editor.Basic"
-  - "VS.ToolsOptionsPages.Text_Editor.Basic.VB_Specific"
+- VS.ToolsOptionsPages.Visual_Basic.Editor
+- VS.ToolsOptionsPages.Text_Editor.Basic.Editor
+- VS.ToolsOptionsPages.Visual_Basic_Editor.Editor
+- VS.ToolsOptionsPages.Text_Editor.Basic.SimplifiedEditorPage
+- VS.ToolsOptionsPages.Text_Editor.Basic
+- VS.ToolsOptionsPages.Text_Editor.Basic.Advanced
+- VS.ToolsOptionsPages.Text_Editor.Basic.VB_Specific
 helpviewer_keywords:
-  - "Basic Text Editor Options dialog box"
+- Basic Text Editor Options dialog box
 ms.assetid: 5a8cafca-f7b4-4a2d-92ce-6894a7673d00
-author: gewarren
-ms.author: gewarren
-manager: douge
+author: akhera99
+ms.author: midumont
+manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
-# Options, Text Editor, Basic (Visual Basic)
-The **VB Specific** property page, in the **Basic** folder of the **Text Editor** folder of the **Options** (**Tools** menu) dialog box contains the following properties:
+# Options, Text Editor, Basic (Visual Basic), Advanced
+The **VB Specific** property page, in the **Basic** folder of the **Text Editor** folder of the **Options** (**Tools** menu) dialog box includes the following properties:
 
- **Automatic insertion of end constructs**
- When you type—for example, the first line of a procedure declaration, `Sub Main—`and press ENTER, the text editor adds a matching `End Sub` line. Similarly, if you add a [For](/dotnet/visual-basic/language-reference/statements/for-next-statement) loop, the text editor adds a matching `Next` statement. When this option is selected, the code editor automatically adds the end construct.
+## Analysis
 
- **Pretty Listing (reformatting) of code**
- The text editor reformats your code as appropriate. When this option is selected, the code editor will:
+- Live code analysis or Background analysis scope
 
--   Align your code to the correct tab position
+   Configure the background analysis scope for managed code. For more information, see [How to: Configure live code analysis scope for managed code](../../code-quality/configure-live-code-analysis-scope-managed-code.md).
 
--   Recase keywords, variables, and objects to the correct case
+## Using Directives
 
--   Add a missing `Then` to an `If...Then` statement
+- Place 'System' directives first when sorting usings
 
--   Add parenthesis to function calls
+   When selected, the **Remove and Sort Usings** command in the right-click menu sorts the `using` directives and places the 'System' namespaces at the top of the list.
 
--   Add missing end quotes to strings
+- Separate using directive groups
 
--   Reformat exponential notation
+   When selected, the **Remove and Sort Usings** command in the right-click menu separates `using` directives by inserting an empty line between groups of directives that have the same root namespace.
 
--   Reformat dates
+- Suggest usings for types in reference assemblies
+- Suggest usings for types in NuGet packages
+
+   When these options are selected, a [Quick Action](../quick-actions.md) is available to install a NuGet package and add a `using` directive for unreferenced types.
+
+   ![Quick Action to install NuGet package in Visual Studio](media/nuget-lightbulb.png)
+
+## Highlighting
+
+ **Enable highlighting of references and keywords**
+
+The text editor can highlight all instances of a symbol or all keywords in a clause such as `If..Then`, `While...End While`, or `Try...Catch...Finally`. You can navigate between highlighted references or keywords by pressing **Ctrl** + **Shift** + **Down arrow** or **Ctrl** + **Shift** + **Up arrow**.
+
+## Outlining
 
 **Enable outlining mode**
 
 When you open a file in the code editor, you can view the document in outlining mode. See [Outlining](../../ide/outlining.md) for more information. When this option is selected, the outlining feature is activated when you open a file.
 
-**Automatic insertion of Interface and MustOverride members**
-
-When you commit an `Implements` statement or an `Inherits` statement for a class, the text editor inserts prototypes for the members that have to be implemented or overridden, respectively.
-
 **Show procedure line separators**
 
-The text editor indicates visual scope of procedures. A line is drawn in the .vb source files of your project at locations listed in the following table:
+The text editor indicates visual scope of procedures. A line is drawn in the *.vb* source files of your project at locations listed in the following table:
 
 |Location in .vb Source File|Example of Line Location|
 |---------------------------------|------------------------------|
@@ -61,15 +67,49 @@ The text editor indicates visual scope of procedures. A line is drawn in the .vb
 |After a set of single line constructs|-   After the import statements, before a type definition in a class file<br />-   After variables declared in a class, before any procedures|
 |After single line declarations (non-block level declarations)|-   Following import statements, inherits statements, variable declarations, event declarations, delegate declarations, and DLL declare statements|
 
+## Block Structure Guides
+
+When selected, vertical lines appear in the editor that line up with structured code blocks, which lets you easily identify the individual blocks of code. For example, you would see a line between `Sub` and `EndSub` in a `Sub` statement.
+
+## Editor Help
+
+::: moniker range=">=vs-2019"
+**Inline Parameter Name Hints**    
+When selected, inserts parameter name hints for literals, casted literals, and object instantiations prior to each argument in function calls.  
+
+![Inline Parameter Name Hints for Visual Basic](media/inline-parameter-name-hints-visualbasic.png)
+::: moniker-end
+
+**Pretty Listing (reformatting) of code**
+The text editor reformats your code as appropriate. When this option is selected, the code editor will:
+
+- Align your code to the correct tab position
+
+- Recase keywords, variables, and objects to the correct case
+
+- Add a missing `Then` to an `If...Then` statement
+
+- Add parenthesis to function calls
+
+- Add missing end quotes to strings
+
+- Reformat exponential notation
+
+- Reformat dates
+
+**Automatic insertion of end constructs**
+
+When you type—for example, the first line of a procedure declaration, `Sub Main`—and press **Enter**, the text editor adds a matching `End Sub` line. Similarly, if you add a [For](/dotnet/visual-basic/language-reference/statements/for-next-statement) loop, the text editor adds a matching `Next` statement. When this option is selected, the code editor automatically adds the end construct.
+
+**Automatic insertion of Interface and MustOverride members**
+
+When you commit an `Implements` statement or an `Inherits` statement for a class, the text editor inserts prototypes for the members that have to be implemented or overridden, respectively.
+
 **Enable error correction suggestions**
 
 The text editor can suggest solutions to common errors and allow you to select the appropriate correction, which is then applied to your code.
 
-**Enable highlighting of references and keywords**
-
-The text editor can highlight all instances of a symbol or all of the keywords in a clause such as `If..Then`, `While...End While`, or `Try...Catch...Finally`. You can navigate between highlighted references or keywords by pressing CTRL+SHIFT+DOWN ARROW or CTRL+SHIFT+UP ARROW.
-
-## See Also
+## See also
 
 - [General, Environment, Options Dialog Box](../../ide/reference/general-environment-options-dialog-box.md)
 - [Options, Text Editor, All Languages, Tabs](../../ide/reference/options-text-editor-all-languages-tabs.md)

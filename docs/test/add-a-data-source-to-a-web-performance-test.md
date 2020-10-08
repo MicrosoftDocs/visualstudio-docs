@@ -1,34 +1,36 @@
 ---
-title: "Add a data source to a web performance test in Visual Studio"
+title: Add a data source to a web performance test
 ms.date: 10/03/2016
-ms.topic: conceptual
-helpviewer_keywords:
-  - "Web performance tests, walkthroughs"
-  - "Web performance tests, data binding (database)"
+ms.topic: how-to
+helpviewer_keywords: 
+  - Web performance tests, walkthroughs
+  - Web performance tests, data binding (database)
 ms.assetid: 2ada376d-f168-455d-9643-6acb535360c1
-author: gewarren
-ms.author: gewarren
-manager: douge
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
+author: mikejo5000
+ms.author: mikejo
+manager: jillfra
 ---
 # Add a data source to a web performance test
 
 Bind data to provide different values to the same test, for example, to provide different values to your form post parameters.
 
- ![Binding data to a web performance test](../test/media/web_test_databinding_conceptual.png)
+[!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
 
- We’re going to use a sample ASP.NET app. It has three *.aspx* pages – the default page, a Red page, and a Blue page. The default page has a radio control to choose either red or blue and a submit button. The other two *.aspx* pages are very simple. One has a label named Red and the other has a label named Blue. When you choose submit on the default page, we display one of the other pages. You can download the [ColorWebApp](http://code.msdn.microsoft.com/Sample-ColorWebApp-76ff7506) sample, or just follow along with your own web app.
+![Binding data to a web performance test](../test/media/web_test_databinding_conceptual.png)
 
- ![Running the web app to be tested](../test/media/web_test_databinding_runwebapp.png)
+We’re going to use a sample ASP.NET app. It has three *.aspx* pages – the default page, a Red page, and a Blue page. The default page has a radio control to choose either red or blue and a submit button. The other two *.aspx* pages are very simple. One has a label named Red and the other has a label named Blue. When you choose submit on the default page, we display one of the other pages. You can download the [ColorWebApp](https://code.msdn.microsoft.com/Sample-ColorWebApp-76ff7506) sample, or just follow along with your own web app.
 
- Your solution should also include a web performance test that browses through the pages of the web application.
+![Running the web app to be tested](../test/media/web_test_databinding_runwebapp.png)
 
- ![Solution with web performance test](../test/media/web_test_databinding_solution.png)
+Your solution should also include a web performance test that browses through the pages of the web application.
+
+![Solution with web performance test](../test/media/web_test_databinding_solution.png)
 
 ## Create a SQL database
 
-1. If you don’t have Visual Studio Enterprise, you can download it from the [Visual Studio Downloads](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2017) page.
+::: moniker range="vs-2017"
+
+1. If you don’t have Visual Studio Enterprise, you can download it from the [Visual Studio Downloads](https://visualstudio.microsoft.com/vs/older-downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=vs+2017+download) page.
 
 2. Create a SQL database.
 
@@ -53,6 +55,38 @@ Bind data to provide different values to the same test, for example, to provide 
 7. Add data to the fields.
 
      ![Add data to the fields](../test/media/web_test_databinding_sql_addnewfieldsadddata.png)
+
+::: moniker-end
+
+::: moniker range="vs-2019"
+
+1. If you don’t have Visual Studio Enterprise, you can download it from the [Visual Studio Downloads](https://visualstudio.microsoft.com/downloads) page.
+
+2. Create a SQL database.
+
+     ![Add a new SQL database](../test/media/web_test_databinding_sql_addnewdb.png)
+
+3. Create a database project.
+
+     ![Create new project from database](../test/media/web_test_databinding_sql_addnewdbproject.png)
+
+4. Add a table to the database project.
+
+     ![Add a new table to the database project](../test/media/web_test_databinding_sql_addnewdbtablename.png)
+
+5. Add fields to the table.
+
+     ![Add fields to the table](../test/media/web_test_databinding_sql_addnewdbaddfields.png)
+
+6. Publish the database project.
+
+     ![Publish database project from Solution Explorer](../test/media/web_test_databinding_sql_addnewdbpublish.png)
+
+7. Add data to the fields.
+
+     ![Add data to the fields](../test/media/web_test_databinding_sql_addnewfieldsadddata.png)
+
+::: moniker-end
 
 ## Add the data source
 
@@ -258,11 +292,11 @@ Bind data to provide different values to the same test, for example, to provide 
     ```xml
     <?xml version="1.0" encoding="utf-8"?>
     <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
-        <soap:Body>
-            <CheckStatus xmlns="http://tempuri.org/">
-                <userName>string</userName> <password>string</password> <orderID>int</orderID>
-            </CheckStatus>
-        </soap:Body>
+        <soap:Body>
+            <CheckStatus xmlns="http://tempuri.org/">
+                <userName>string</userName> <password>string</password> <orderID>int</orderID>
+            </CheckStatus>
+        </soap:Body>
     </soap:Envelope>
     ```
 
@@ -271,11 +305,11 @@ Bind data to provide different values to the same test, for example, to provide 
     ```xml
     <?xml version="1.0" encoding="utf-8"?>
     <soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
-        <soap:Body>
-            <CheckStatus xmlns="http://tempuri.org/">
-                <userName>{{DataSourceName.Users.Name}}</userName> <password>{{DataSourceName.Users.Password}}</password> <orderID>{{DataSourceName.Orders.OrderID}}</orderID>
-            </CheckStatus>
-        </soap:Body>
+        <soap:Body>
+            <CheckStatus xmlns="http://tempuri.org/">
+                <userName>{{DataSourceName.Users.Name}}</userName> <password>{{DataSourceName.Users.Password}}</password> <orderID>{{DataSourceName.Orders.OrderID}}</orderID>
+            </CheckStatus>
+        </soap:Body>
     </soap:Envelope>
     ```
 

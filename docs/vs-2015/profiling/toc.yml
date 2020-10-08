@@ -1,0 +1,918 @@
+- name: Profiling Tools
+# Auto-expanded node
+  items:
+  - name: Profiling Tools
+    href: profiling-tools.md
+  - name: What's New in Profiling Tools
+    href: what-s-new-in-profiling-tools.md
+  - name: Running Profiling Tools With or Without the Debugger
+    href: running-profiling-tools-with-or-without-the-debugger.md
+  - name: Memory Usage
+# Auto-expanded node
+    items:
+    - name: Memory Usage
+      href: memory-usage.md
+    - name: Memory Usage without Debugging
+      href: memory-usage-without-debugging2.md
+  - name: CPU Usage
+# Auto-expanded node
+    items:
+    - name: CPU Usage
+      href: cpu-usage.md
+    - name: Analyze CPU Usage
+      href: analyze-cpu-usage-in-a-windows-universal-app.md
+  - name: Application Timeline
+    href: application-timeline.md
+  - name: PerfTips
+    href: perftips.md
+  - name: JavaScript Memory
+# Auto-expanded node
+    items:
+    - name: JavaScript Memory
+      href: javascript-memory.md
+    - name: Find a memory leak (JavaScript)
+      href: walkthrough-find-a-memory-leak-javascript.md
+  - name: Network Usage
+    href: network-usage.md
+  - name: HTML UI responsiveness
+# Auto-expanded node
+    items:
+    - name: HTML UI responsiveness
+      href: html-ui-responsiveness.md
+    - name: Improving UI responsiveness (HTML)
+      href: walkthrough-improving-ui-responsiveness-html.md
+  - name: Performance Explorer
+# Auto-expanded node
+    items:
+    - name: Performance Explorer
+      href: performance-explorer.md
+    - name: Performance Tools on Windows 8 and Windows Server 2012 applications
+      href: performance-tools-on-windows-8-and-windows-server-2012-applications.md
+    - name: Overviews
+# Auto-expanded node
+      items:
+      - name: Overviews
+        href: overviews-performance-tools.md
+      - name: Performance Session Overview
+        href: performance-session-overview.md
+      - name: Understanding Performance Collection Methods
+        href: understanding-performance-collection-methods.md
+      - name: Understanding Sampling Data Values
+        href: understanding-sampling-data-values.md
+      - name: Understanding Instrumentation Data Values
+        href: understanding-instrumentation-data-values.md
+      - name: Understanding Memory Allocation and Object Lifetime Data Values
+        href: understanding-memory-allocation-and-object-lifetime-data-values.md
+      - name: Understanding Resource Contention Data Values
+        href: understanding-resource-contention-data-values.md
+      - name: CPU and Windows Counters
+        href: cpu-and-windows-counters.md
+      - name: Performance Explorer Window
+        href: performance-explorer-window.md
+      - name: Performance Session Properties
+        href: performance-session-properties.md
+      - name: Profiling and Windows Vista Security
+        href: profiling-and-windows-vista-security.md
+    - name: Getting Started
+# Auto-expanded node
+      items:
+      - name: Getting Started
+        href: getting-started-with-performance-tools.md
+      - name: Beginners Guide to Performance Profiling
+        href: beginners-guide-to-performance-profiling.md
+      - name: Collect Performance Data for a Web Site
+        href: how-to-collect-performance-data-for-a-web-site.md
+      - name: Manually Create Performance Sessions
+        href: how-to-manually-create-performance-sessions.md
+      - name: Identifying Performance Problems
+        href: walkthrough-identifying-performance-problems.md
+      - name: PeopleTrax Sample
+        href: peopletrax-sample-profiling-tools.md
+    - name: Configuring Performance Sessions
+# Auto-expanded node
+      items:
+      - name: Configuring Performance Sessions
+        href: configuring-performance-sessions.md
+      - name: Reference Windows Symbol Information
+        href: how-to-reference-windows-symbol-information.md
+      - name: Choose Collection Methods
+        href: how-to-choose-collection-methods.md
+      - name: Collecting Performance Statistics by Using Sampling
+# Auto-expanded node
+        items:
+        - name: Collecting Performance Statistics by Using Sampling
+          href: collecting-performance-statistics-by-using-sampling.md
+        - name: Choose Sampling Events
+          href: how-to-choose-sampling-events.md
+        - name: Collect Line-Level Sampling Data
+          href: how-to-collect-line-level-sampling-data.md
+      - name: Collecting .NET Memory Allocation and Lifetime Data
+        href: collecting-dotnet-memory-allocation-and-lifetime-data.md
+      - name: Collecting Detailed Timing Data by Using Instrumentation
+# Auto-expanded node
+        items:
+        - name: Collecting Detailed Timing Data by Using Instrumentation
+          href: collecting-detailed-timing-data-by-using-instrumentation.md
+        - name: Collect CPU Counter Data
+          href: how-to-collect-cpu-counter-data.md
+        - name: Relocate Instrumented Binaries
+          href: how-to-relocate-instrumented-binaries.md
+        - name: Specify Pre- and Post-Instrument Commands
+          href: how-to-specify-pre-and-post-instrument-commands.md
+        - name: Specify Additional Instrumentation Options
+          href: how-to-specify-additional-instrumentation-options.md
+      - name: Profile JavaScript Code in Web Pages
+        href: how-to-profile-javascript-code-in-web-pages.md
+      - name: Collecting Thread and Process Concurrency Data
+        href: collecting-thread-and-process-concurrency-data.md
+      - name: Collecting tier interaction data
+        href: collecting-tier-interaction-data.md
+      - name: Collecting Additional Performance Data
+# Auto-expanded node
+        items:
+        - name: Collecting Additional Performance Data
+          href: collecting-additional-performance-data.md
+        - name: Collect Windows Counter Data
+          href: how-to-collect-windows-counter-data.md
+        - name: Collect Event Tracing for Windows (ETW) Data
+          href: how-to-collect-event-tracing-for-windows-etw-data.md
+      - name: Serialize Symbol Information
+        href: how-to-serialize-symbol-information.md
+      - name: Setting General Performance Session Options
+        href: setting-general-performance-session-options.md
+      - name: Set the Current Session
+        href: how-to-set-the-current-session.md
+      - name: Set Permissions
+        href: how-to-set-permissions.md
+      - name: Specify the Binary to Start
+        href: how-to-specify-the-binary-to-start.md
+      - name: Set Performance Data File Name Options
+        href: how-to-set-performance-data-file-name-options.md
+      - name: Specify the .NET Framework Runtime
+        href: how-to-specify-the-dotnet-framework-runtime.md
+    - name: Controlling Data Collection
+# Auto-expanded node
+      items:
+      - name: Controlling Data Collection
+        href: controlling-data-collection.md
+      - name: Start and End Performance Data Collection
+        href: how-to-start-and-end-performance-data-collection.md
+      - name: Attach and Detach Performance Tools to Running Processes
+        href: how-to-attach-and-detach-performance-tools-to-running-processes.md
+      - name: Pause and Resume Performance Data Collection
+        href: how-to-pause-and-resume-performance-data-collection.md
+      - name: Limit Instrumentation to Specific DLLs
+        href: how-to-limit-instrumentation-to-specific-dlls.md
+      - name: Limit Instrumentation to Specific Functions
+        href: how-to-limit-instrumentation-to-specific-functions.md
+      - name: Exclude or Include Short Functions from Instrumentation
+        href: how-to-exclude-or-include-short-functions-from-instrumentation.md
+    - name: Analyzing Performance Tools Data
+# Auto-expanded node
+      items:
+      - name: Analyzing Performance Tools Data
+        href: analyzing-performance-tools-data.md
+      - name: Using Performance Rules to Analyze Data
+# Auto-expanded node
+        items:
+        - name: Using Performance Rules to Analyze Data
+          href: using-performance-rules-to-analyze-data.md
+        - name: View Performance Warnings
+          href: how-to-view-performance-warnings.md
+        - name: Configure Performance Rules
+          href: how-to-configure-performance-rules.md
+        - name: Performance Rules Reference
+# Auto-expanded node
+          items:
+          - name: Performance Rules Reference
+            href: performance-rules-reference.md
+          - name: Performance Rules by ID
+            href: performance-rules-by-id.md
+          - name: .NET Framework Usage Performance Rules
+# Auto-expanded node
+            items:
+            - name: .NET Framework Usage Performance Rules
+              href: dotnet-framework-usage-performance-rules.md
+            - name: "DA0001: Use StringBuilder for concatenations"
+              href: da0001-use-stringbuilder-for-concatenations.md
+            - name: "DA0005: Frequent GC2 collections"
+              href: da0005-frequent-gc2-collections.md
+            - name: "DA0006: Override Equals() for value types"
+              href: da0006-override-equals-parens-for-value-types.md
+            - name: "DA0007: Avoid using exceptions for control flow"
+              href: da0007-avoid-using-exceptions-for-control-flow.md
+            - name: "DA0010: Expensive GetHashCode"
+              href: da0010-expensive-gethashcode.md
+            - name: "DA0011: Expensive CompareTo"
+              href: da0011-expensive-compareto.md
+            - name: "DA0012: Significant amount of Reflection"
+              href: da0012-significant-amount-of-reflection.md
+            - name: "DA0013: High usage of String.Split or String.Substring"
+              href: da0013-high-usage-of-string-split-or-string-substring.md
+            - name: "DA0018: 32-bit Application running at process managed memory limits"
+              href: da0018-32-bit-application-running-at-process-managed-memory-limits.md
+            - name: "DA0021: High rate of Gen 1 garbage collections"
+              href: da0021-high-rate-of-gen-1-garbage-collections.md
+            - name: "DA0022: High rate of Gen 2 garbage collections"
+              href: da0022-high-rate-of-gen-2-garbage-collections.md
+            - name: "DA0023: High GC CPU time"
+              href: da0023-high-gc-cpu-time.md
+            - name: "DA0024: Excessive GC CPU Time"
+              href: da0024-excessive-gc-cpu-time.md
+            - name: "DA0038: High Rate of Lock contentions"
+              href: da0038-high-rate-of-lock-contentions.md
+            - name: "DA0039: Very High Rate of Lock contentions"
+              href: da0039-very-high-rate-of-lock-contentions.md
+          - name: Memory and Paging Performance Rules
+# Auto-expanded node
+            items:
+            - name: Memory and Paging Performance Rules
+              href: memory-and-paging-performance-rules.md
+            - name: "DA0014: Extremely high rates of paging active memory to disk"
+              href: da0014-extremely-high-rates-of-paging-active-memory-to-disk.md
+            - name: "DA0017: High rates of paging active memory to disk"
+              href: da0017-high-rates-of-paging-active-memory-to-disk.md
+          - name: Profiling Tools Usage Rules
+# Auto-expanded node
+            items:
+            - name: Profiling Tools Usage Rules
+              href: profiling-tools-usage-rules.md
+            - name: "DA0002: VSPerfCorProf.dll is missing"
+              href: da0002-vsperfcorprof-dll-is-missing.md
+            - name: "DA0003: Many kernel samples"
+              href: da0003-many-kernel-samples.md
+            - name: "DA0004: High processor usage"
+              href: da0004-high-processor-usage.md
+            - name: "DA0008: Few samples collected"
+              href: da0008-few-samples-collected.md
+            - name: "DA0026: Excessive kernel CPU time processing"
+              href: da0026-excessive-kernel-cpu-time-processing.md
+            - name: "DA0029: Unsupported CLR Version"
+              href: da0029-unsupported-clr-version.md
+            - name: "DA0030: Gather Tier Interaction measurements for database projects"
+              href: da0030-gather-tier-interaction-measurements-for-database-projects.md
+          - name: Resource Monitoring Performance Rules
+# Auto-expanded node
+            items:
+            - name: Resource Monitoring Performance Rules
+              href: resource-monitoring-performance-rules.md
+            - name: "DA0501: Average CPU consumption by the Process being profiled."
+              href: da0501-average-cpu-consumption-by-the-process-being-profiled.md
+            - name: "DA0502: Maximum CPU consumption by the Process being profiled"
+              href: da0502-maximum-cpu-consumption-by-the-process-being-profiled.md
+            - name: "DA0503: Average Working Set in Bytes for the Process being profiled"
+              href: da0503-average-working-set-in-bytes-for-the-process-being-profiled.md
+            - name: "DA0504: Maximum Working Set in Bytes for the Process being profiled"
+              href: da0504-maximum-working-set-in-bytes-for-the-process-being-profiled.md
+            - name: "DA0505: Average Private Bytes allocated for the Process being profiled"
+              href: da0505-average-private-bytes-allocated-for-the-process-being-profiled.md
+            - name: "DA0506: Maximum Private Bytes allocated for the Process being profiled"
+              href: da0506-maximum-private-bytes-allocated-for-the-process-being-profiled.md
+      - name: Performance Report Views
+# Auto-expanded node
+        items:
+        - name: Performance Report Views
+          href: performance-report-views.md
+        - name: Performance Report Overview
+          href: performance-report-overview.md
+        - name: Common Data Views
+# Auto-expanded node
+          items:
+          - name: Common Data Views
+            href: common-data-views.md
+          - name: Process View
+            href: process-view.md
+          - name: Marks View
+            href: marks-view.md
+          - name: Summary View
+            href: summary-view.md
+          - name: Call Tree View
+            href: call-tree-view.md
+          - name: Caller/Callee View
+            href: caller-callee-view.md
+          - name: Modules View
+            href: modules-view.md
+          - name: Functions View
+            href: functions-view.md
+          - name: Lines View
+            href: lines-view.md
+          - name: Instruction Pointers (IPs) View
+            href: instruction-pointers-ips-view.md
+          - name: Function Details View
+            href: function-details-view.md
+          - name: Event Tracing for Windows (ETW) Report
+            href: event-tracing-for-windows-etw-report.md
+        - name: Sampling Method Data Views
+# Auto-expanded node
+          items:
+          - name: Sampling Method Data Views
+            href: profiler-sampling-method-data-views.md
+          - name: Summary View
+            href: summary-view-sampling-data.md
+          - name: Call Tree View
+            href: call-tree-view-sampling-data.md
+          - name: Modules View
+            href: modules-view-sampling-data.md
+          - name: Caller / Callee View
+            href: caller-callee-view-sampling-data.md
+          - name: Functions View
+            href: functions-view-sampling-data.md
+          - name: Lines View
+            href: lines-view-sampling-data.md
+          - name: Instruction Pointers (IPs) View
+            href: instruction-pointers-ips-view-sampling-data.md
+        - name: Instrumentation Method Data Views
+# Auto-expanded node
+          items:
+          - name: Instrumentation Method Data Views
+            href: instrumentation-method-data-views.md
+          - name: Summary View
+            href: summary-view-instrumentation-data.md
+          - name: Call Tree View
+            href: call-tree-view-instrumentation-data.md
+          - name: Modules View
+            href: modules-view-instrumentation-data.md
+          - name: Caller / Callee View
+            href: caller-callee-view-instrumentation-data.md
+          - name: Functions View
+            href: functions-view-instrumentation-data.md
+        - name: .NET Memory Data Views
+# Auto-expanded node
+          items:
+          - name: .NET Memory Data Views
+            href: dotnet-memory-data-views.md
+          - name: Summary View
+            href: summary-view-dotnet-memory-data.md
+          - name: Allocations View
+            href: dotnet-memory-allocations-view.md
+          - name: Object Lifetime View
+            href: object-lifetime-view.md
+          - name: Call Tree View - Sampling
+            href: call-tree-view-dotnet-memory-sampling-data.md
+          - name: Modules View - Sampling
+            href: modules-view-dotnet-memory-sampling-data.md
+          - name: Caller / Callee View - Sampling
+            href: caller-callee-view-dotnet-memory-sampling-data.md
+          - name: Functions View - Sampling
+            href: functions-view-dotnet-memory-sampling-data.md
+          - name: Lines View - Sampling
+            href: lines-view-dotnet-memory-sampling-data.md
+          - name: Instruction Pointers (IPs) View - Sampling
+            href: instruction-pointers-ips-view-dotnet-memory-sampling-data.md
+          - name: Call Tree View - Instrumentation
+            href: call-tree-view-dotnet-memory-instrumentation-data.md
+          - name: Modules View - Instrumentation
+            href: modules-view-dotnet-memory-instrumentation-data.md
+          - name: Caller / Callee View - Instrumentation
+            href: caller-callee-view-net-memory-instrumentation-data.md
+          - name: Functions View - Instrumentation
+            href: functions-view-dotnet-memory-instrumentation-data.md
+        - name: Resource Contention Data Views
+# Auto-expanded node
+          items:
+          - name: Resource Contention Data Views
+            href: resource-contention-data-views.md
+          - name: Summary View
+            href: summary-view-resource-contention-view.md
+          - name: Call Tree View
+            href: call-tree-view-contention-data.md
+          - name: Modules View
+            href: modules-view-contention-data.md
+          - name: Caller / Callee View
+            href: caller-callee-view-contention-data.md
+          - name: Functions View
+            href: functions-view-contention-data.md
+          - name: Resource Details View
+            href: resource-details-view-contention-data.md
+          - name: Thread Details View
+            href: thread-details-view-contention-data.md
+          - name: Resource Contentions View
+            href: resource-contentions-view-contention-data.md
+          - name: Process View
+            href: process-view-contention-data.md
+          - name: Lines View
+            href: lines-view-contention-data.md
+          - name: Instruction Pointers (IPs) View
+            href: instruction-pointers-ips-view-contention-data.md
+        - name: Tier Interaction Views
+# Auto-expanded node
+          items:
+          - name: Tier Interaction Views
+            href: tier-interaction-views.md
+          - name: Tier Interactions View
+            href: tier-interactions-view.md
+      - name: Customizing Performance Tools Report Views
+# Auto-expanded node
+        items:
+        - name: Customizing Performance Tools Report Views
+          href: customizing-performance-tools-report-views.md
+        - name: Customize Report View Columns
+          href: how-to-customize-report-view-columns.md
+        - name: Filtering Report Views
+          href: filtering-report-views.md
+        - name: Filter Report Views from the Summary Timeline
+          href: how-to-filter-report-views-from-the-summary-timeline.md
+        - name: Performance Report View Filter
+          href: performance-report-view-filter.md
+        - name: Configure Noise Reduction in Report Views
+          href: how-to-configure-noise-reduction-in-report-views.md
+        - name: Filter Profiling Tools Report Views to Display Just My Code
+          href: how-to-filter-profiling-tools-report-views-to-display-just-my-code.md
+    - name: Comparing Performance Data Files
+# Auto-expanded node
+      items:
+      - name: Comparing Performance Data Files
+        href: comparing-performance-data-files.md
+      - name: Compare Performance Data Files
+        href: how-to-compare-performance-data-files.md
+    - name: Saving Symbol Information with Performance Data Files
+      href: saving-symbol-information-with-performance-data-files.md
+    - name: Saving and Exporting Performance Tools Data
+      href: saving-and-exporting-performance-tools-data.md
+    - name: Profiling from the Command-Line
+# Auto-expanded node
+      items:
+      - name: Profiling from the Command-Line
+        href: using-the-profiling-tools-from-the-command-line.md
+      - name: Specify Symbol File Locations from the Command Line
+        href: how-to-specify-symbol-file-locations-from-the-command-line.md
+      - name: Specifying the Path to Command Line Tools
+        href: specifying-the-path-to-profiling-tools-command-line-tools.md
+      - name: Using Profiling Methods From the Command Line
+        href: using-profiling-methods-to-collect-performance-data-from-the-command-line.md
+      - name: Collecting tier interaction data
+        href: adding-tier-interaction-data-from-the-command-line.md
+      - name: Profiling Stand-Alone Applications
+# Auto-expanded node
+        items:
+        - name: Profiling Stand-Alone Applications
+          href: command-line-profiling-of-stand-alone-applications.md
+        - name: Collecting Application Statistics Using Sampling
+# Auto-expanded node
+          items:
+          - name: Collecting Application Statistics Using Sampling
+            href: collecting-application-statistics-for-stand-alone-applications-by-using-the-profiler-command-line.md
+          - name: Launch a Stand-Alone Application and Collect Application Statistics
+            href: how-to-launch-a-stand-alone-application-with-the-profiler-and-collect-application-statistics-by-using-the-command-line.md
+          - name: Attach the Profiler to a .NET Framework Application and Collect Application Statistics
+            href: how-to-attach-the-profiler-to-a-dotnet-framework-stand-alone-application-and-collect-application-statistics-by-using-the-command-line.md
+          - name: Attach the Profiler to a Native Application and Collect Application Statistics
+            href: how-to-attach-the-profiler-to-a-native-stand-alone-application-and-collect-application-statistics-by-using-the-command-line.md
+        - name: Collecting Detailed Timing Data Using Instrumentation
+# Auto-expanded node
+          items:
+          - name: Collecting Detailed Timing Data Using Instrumentation
+            href: collecting-detailed-timing-data-for-a-stand-alone-application-by-using-the-profiler-command-line.md
+          - name: Instrument a .NET Component and Collect Detailed Timing Data
+            href: how-to-instrument-a-stand-alone-dotnet-framework-component-and-collect-timing-data-with-the-profiler-from-the-command-line.md
+          - name: Instrument a Native Component and Collect Detailed Timing Data
+            href: how-to-instrument-a-native-stand-alone-component-and-collect-timing-data-with-the-profiler-from-the-command-line.md
+        - name: Collecting Concurrency Data
+# Auto-expanded node
+          items:
+          - name: Collecting Concurrency Data
+            href: collecting-concurrency-data-for-stand-alone-applications-by-using-the-profiler-command-line.md
+          - name: Launch a .NET Framework Application to Collect Concurrency Data
+            href: how-to-launch-a-stand-alone-dotnet-framework-application-with-the-profiler-to-collect-concurrency-data-by-using-the-command-line.md
+          - name: Launch a Native Application to Collect Concurrency Data
+            href: how-to-launch-a-stand-alone-native-application-with-the-profiler-to-collect-concurrency-data-by-using-the-command-line.md
+          - name: Attach the Profiler to a .NET Framework Application to Collect Concurrency Data
+            href: how-to-attach-the-profiler-to-a-dotnet-framework-stand-alone-application-to-collect-concurrency-data-by-using-the-command-line.md
+          - name: Attach the Profiler to a Native Application and Collect Concurrency Data
+            href: how-to-attach-the-profiler-to-a-native-stand-alone-application-and-collect-concurrency-data-by-using-the-command-line.md
+        - name: Collecting .NET Framework Memory Data
+# Auto-expanded node
+          items:
+          - name: Collecting .NET Framework Memory Data
+            href: collecting-dotnet-framework-memory-data-for-stand-alone-applications-by-using-the-profiler-command-line.md
+          - name: Launch a .NET Framework Application with the Profiler to Collect Memory Data
+            href: how-to-launch-a-stand-alone-dotnet-framework-application-with-the-profiler-to-collect-memory-data-by-using-the-command-line.md
+          - name: Attach the Profiler to a .NET Framework Application to Collect Memory Data
+            href: how-to-attach-the-profiler-to-a-dotnet-framework-stand-alone-application-to-collect-memory-data-by-using-the-command-line.md
+          - name: Instrument a Stand-Alone .NET Framework Component and Collect Memory Data with the Profiler
+            href: how-to-instrument-a-stand-alone-dotnet-framework-component-and-collect-memory-data-with-the-profiler-by-using-the-command-line.md
+        - name: Command-Line Profiling Using Sampling
+          href: walkthrough-command-line-profiling-using-sampling.md
+        - name: Command-Line Profiling Using Instrumentation
+          href: walkthrough-command-line-profiling-using-instrumentation.md
+      - name: Profiling ASP.NET Web Applications
+# Auto-expanded node
+        items:
+        - name: Profiling ASP.NET Web Applications
+          href: command-line-profiling-of-aspnet-web-applications.md
+        - name: Rapid Web Site Profiling with VSPerfASPNETCmd
+          href: rapid-web-site-profiling-with-vsperfaspnetcmd.md
+        - name: Collecting Application Statistics Using Sampling
+# Auto-expanded node
+          items:
+          - name: Collecting Application Statistics Using Sampling
+            href: collecting-application-statistics-for-aspnet-web-applications-using-the-profiler-sampling-method-from-the-command-line.md
+          - name: Attach the Profiler to an ASP.NET Web Application to Collect Application Statistics
+            href: how-to-attach-the-profiler-to-an-aspnet-web-application-to-collect-application-statistics-by-using-the-command-line.md
+        - name: Collecting Detailed Timing Data Using Instrumentation
+# Auto-expanded node
+          items:
+          - name: Collecting Detailed Timing Data Using Instrumentation
+            href: collecting-detailed-timing-data-for-an-aspnet-web-application-using-the-profiler-instrumentation-method-from-the-command-line.md
+          - name: Instrument a Statically Compiled ASP.NET Application and Collect Detailed Timing Data
+            href: how-to-instrument-a-statically-compiled-aspnet-web-application-and-collect-detailed-timing-data-with-the-profiler-by-using-the-command-line.md
+          - name: Instrument a Dynamically Compiled ASP.NET Application and Collect Detailed Timing Data
+            href: how-to-instrument-a-dynamically-compiled-aspnet-web-application-and-collect-detailed-timing-data-with-the-profiler-by-using-the-command-line.md
+        - name: Collecting Concurrency Data
+# Auto-expanded node
+          items:
+          - name: Collecting Concurrency Data
+            href: collecting-concurrency-data-for-an-aspnet-web-application-using-the-profiler-command-line.md
+          - name: Attach the Profiler to an ASP.NET Application to Collect Concurrency Data
+            href: how-to-attach-the-profiler-to-an-aspnet-web-application-to-collect-concurrency-data-by-using-the-command-line.md
+        - name: Collecting Memory Data
+# Auto-expanded node
+          items:
+          - name: Collecting Memory Data
+            href: collecting-memory-data-from-an-aspnet-web-application-by-using-the-profiler-command-line.md
+          - name: Attach the Profiler to an ASP.NET Web Application to Collect Memory Data
+            href: how-to-attach-the-profiler-to-an-aspnet-web-application-to-collect-memory-data-by-using-the-command-line.md
+          - name: Instrument a Statically Compiled ASP.NET Application and Collect Memory Data
+            href: how-to-instrument-a-statically-compiled-aspnet-web-application-and-collect-memory-data-by-using-the-profiler-command-line.md
+          - name: Instrument a Dynamically Compiled ASP.NET Application and Collect Memory Data
+            href: /visualstudio/profiling/how-to-instrument-a-dynamically-compiled-aspnet-web-application-and-collect-memory-data?view=vs-2015
+        - name: Modify Web.Config Files to Instrument and Profile Dynamically Compiled ASP.NET Web Applications
+          href: how-to-modify-web-config-files-to-instrument-and-profile-dynamically-compiled-aspnet-web-applications.md
+      - name: Profiling Services
+# Auto-expanded node
+        items:
+        - name: Profiling Services
+          href: command-line-profiling-of-services.md
+        - name: Collecting Application Statistics Using Sampling
+# Auto-expanded node
+          items:
+          - name: Collecting Application Statistics Using Sampling
+            href: collecting-application-statistics-for-services-by-using-the-profiler-sampling-method.md
+          - name: Attach the Profiler to a .NET Service to Collect Application Statistics
+            href: how-to-attach-the-profiler-to-a-dotnet-service-to-collect-application-statistics-by-using-the-command-line.md
+          - name: Attach the Profiler to a Native Service to Collect Application Statistics
+            href: how-to-attach-the-profiler-to-a-native-service-to-collect-application-statistics-by-using-the-command-line.md
+        - name: Collecting Detailed Timing Data Using Instrumentation
+# Auto-expanded node
+          items:
+          - name: Collecting Detailed Timing Data Using Instrumentation
+            href: collecting-detailed-timing-data-for-services-by-using-the-instrumentation-method-from-the-profiler-command-line.md
+          - name: Instrument a .NET Service and Collect Detailed Timing Data
+            href: how-to-instrument-a-dotnet-service-and-collect-detailed-timing-data-by-using-the-profiler-command-line.md
+          - name: Instrument a Native Service and Collect Detailed Timing Data
+            href: how-to-instrument-a-native-service-and-collect-detailed-timing-data-by-using-the-profiler-command-line.md
+        - name: Collecting Concurrency Data
+# Auto-expanded node
+          items:
+          - name: Collecting Concurrency Data
+            href: collecting-concurrency-data-for-a-service-by-using-the-profiler-command-line.md
+          - name: Attach the Profiler to a .NET Service to Collect Concurrency Data
+            href: how-to-attach-the-profiler-to-a-dotnet-service-to-collect-concurrency-data-by-using-the-command-line.md
+          - name: Attach the Profiler to a Native Service to Collect Concurrency Data
+            href: how-to-attach-the-profiler-to-a-native-service-to-collect-concurrency-data-by-using-the-command-line.md
+        - name: Collecting .NET Memory Data
+# Auto-expanded node
+          items:
+          - name: Collecting .NET Memory Data
+            href: collecting-memory-data-from-dotnet-framework-services-by-using-the-profiler-command-line.md
+          - name: Attach the Profiler to a .NET Service to Collect Memory Data
+            href: how-to-attach-the-profiler-to-a-dotnet-service-to-collect-memory-data-by-using-the-command-line.md
+          - name: Instrument a .NET Framework Service and Collect Memory Data
+            href: how-to-instrument-a-dotnet-framework-service-and-collect-memory-data-by-using-the-profiler-command-line.md
+      - name: Creating Profiler Reports from the Command Line
+# Auto-expanded node
+        items:
+        - name: Creating Profiler Reports from the Command Line
+          href: creating-profiler-reports-from-the-command-line.md
+        - name: Creating Basic Reports
+          href: creating-basic-profiling-reports-from-the-command-line.md
+        - name: Filter Reports from the Command Line
+          href: how-to-filter-reports-from-the-command-line.md
+        - name: Create a Profiler Comparison Report from a Command Prompt
+          href: how-to-create-a-profiler-comparison-report-from-a-command-prompt.md
+        - name: Create a Call Trace Report
+          href: how-to-create-a-profiling-tools-call-trace-report.md
+        - name: Creating Portable Profiling Data Files
+          href: creating-portable-profiling-data-files-from-the-command-line.md
+        - name: Create an ETW Report
+          href: how-to-create-a-profiling-tools-etw-report.md
+      - name: Install the Stand-Alone Profiler
+        href: how-to-install-the-stand-alone-profiler.md
+      - name: Command-Line Profiling Tools Reference
+# Auto-expanded node
+        items:
+        - name: Command-Line Profiling Tools Reference
+          href: command-line-profiling-tools-reference.md
+        - name: VSInstr
+          href: vsinstr.md
+        - name: VSInstr Warnings
+          href: vsinstr-warnings.md
+        - name: VSPerf
+          href: vsperf.md
+        - name: VSPerfCmd
+# Auto-expanded node
+          items:
+          - name: VSPerfCmd
+            href: vsperfcmd.md
+          - name: Start
+            href: start.md
+          - name: CrossSession
+            href: crosssession.md
+          - name: Output
+            href: output.md
+          - name: WinCounter
+            href: wincounter.md
+          - name: Counter
+            href: counter.md
+          - name: WaitStart
+            href: waitstart.md
+          - name: AutoMark
+            href: automark.md
+          - name: User
+            href: user-vsperfcmd.md
+          - name: QueryCounters
+            href: querycounters.md
+          - name: Events
+            href: events-vsperfcmd.md
+          - name: Shutdown
+            href: shutdown.md
+          - name: GlobalOn and GlobalOff
+            href: globalon-and-globaloff.md
+          - name: ProcessOn and ProcessOff
+            href: processon-and-processoff.md
+          - name: ThreadOn and ThreadOff
+            href: threadon-and-threadoff.md
+          - name: GC
+            href: gc-vsperfcmd.md
+          - name: Launch
+            href: launch.md
+          - name: Attach
+            href: attach.md
+          - name: Args
+            href: args.md
+          - name: Mark
+            href: mark.md
+          - name: Detach
+            href: detach.md
+          - name: PF
+            href: pf.md
+          - name: Sys
+            href: sys-vsperfcmd.md
+          - name: Timer
+            href: timer.md
+          - name: LineOff
+            href: lineoff.md
+          - name: Console
+            href: console.md
+          - name: Status
+            href: status.md
+          - name: TargetCLR
+            href: targetclr.md
+        - name: VSPerfMon
+          href: vsperfmon.md
+        - name: VSPerfReport
+          href: vsperfreport.md
+        - name: VSPerfCLREnv
+          href: vsperfclrenv.md
+        - name: VSPerfASPNetCmd
+          href: vsperfaspnetcmd.md
+    - name: Profiling on HPC (High Performance Computing) Clusters
+      href: profiling-on-hpc-high-performance-computing-clusters.md
+    - name: Profiling Tools APIs
+# Auto-expanded node
+      items:
+      - name: Profiling Tools APIs
+        href: profiling-tools-apis.md
+      - name: Visual Studio Profiler API Reference (Native)
+# Auto-expanded node
+        items:
+        - name: Visual Studio Profiler API Reference (Native)
+          href: visual-studio-profiler-api-reference-native.md
+        - name: CommentMarkAtProfile
+          href: commentmarkatprofile.md
+        - name: CommentMarkProfile
+          href: commentmarkprofile.md
+        - name: MarkProfile
+          href: markprofile.md
+        - name: NameProfile
+          href: nameprofile.md
+        - name: ResumeProfile
+          href: resumeprofile.md
+        - name: StartProfile
+          href: startprofile.md
+        - name: StopProfile
+          href: stopprofile.md
+        - name: SuspendProfile
+          href: suspendprofile.md
+        - name: PROFILE_CURRENTID
+          href: profile-currentid.md
+      - name: Using Profiler APIs
+        href: walkthrough-using-profiler-apis.md
+    - name: Profiling ASP.NET Load Tests
+      href: profiling-aspnet-load-tests.md
+    - name: Troubleshooting Performance Tools Issues
+      href: troubleshooting-performance-tools-issues.md
+  - name: Concurrency Visualizer
+# Auto-expanded node
+    items:
+    - name: Concurrency Visualizer
+      href: concurrency-visualizer.md
+    - name: Common Patterns for Poorly-Behaved Multithreaded Applications
+      href: common-patterns-for-poorly-behaved-multithreaded-applications.md
+    - name: Utilization Navigator
+      href: utilization-navigator.md
+    - name: Utilization View
+# Auto-expanded node
+      items:
+      - name: Utilization View
+        href: utilization-view.md
+      - name: CPU Utilization Graph
+        href: cpu-utilization-graph.md
+      - name: Average CPU Utilization
+        href: average-cpu-utilization.md
+      - name: Zoom Control (Utilization View)
+        href: zoom-control-utilization-view.md
+      - name: GPU Activity Graph
+        href: gpu-activity-graph.md
+      - name: GPU Activity (Paging)
+        href: gpu-activity-paging.md
+      - name: GPU Activity (This Process)
+        href: gpu-activity-this-process.md
+      - name: GPU Activity (Other Processes)
+        href: gpu-activity-other-processes.md
+    - name: Threads View
+# Auto-expanded node
+      items:
+      - name: Threads View
+        href: threads-view-parallel-performance.md
+      - name: Blocking Time Profile Report
+        href: blocking-time-profile-report.md
+      - name: Channels (Threads View)
+        href: channels-threads-view.md
+      - name: Copy Selection
+        href: copy-selection.md
+      - name: Current Tab
+        href: current-tab.md
+      - name: Disk Operations Report
+        href: disk-operations-report-threads-view.md
+      - name: Empty Timeline Segment
+        href: empty-timeline-segment.md
+      - name: Execution Profile Report
+        href: execution-profile-report.md
+      - name: Execution Time (Threads View)
+        href: execution-time-threads-view.md
+      - name: Export Button
+        href: export-button-concurrency-visualizer.md
+      - name: I/O Time (Threads View)
+        href: i-o-time-threads-view.md
+      - name: Just My Code
+        href: just-my-code-threads-view.md
+      - name: Manage Channels
+        href: manage-channels.md
+      - name: Markers Report
+        href: markers-report.md
+      - name: Measure Mode On/Off
+        href: measure-mode-on-off.md
+      - name: Memory Management Time
+        href: memory-management-time.md
+      - name: Multiple Categories Are Present
+        href: multiple-categories-are-present.md
+      - name: No Disk Activity to Show
+        href: no-disk-activity-to-show-threads-view.md
+      - name: No Thread Activity to Show
+        href: no-thread-activity-to-show-threads-view.md
+      - name: Noise Reduction Percentage
+        href: noise-reduction-percentage.md
+      - name: Per Thread Summary Report
+        href: per-thread-summary-report.md
+      - name: Preemption Time
+        href: preemption-time.md
+      - name: Report Based on Visible Time Range
+        href: report-based-on-visible-time-range.md
+      - name: Sleep Time
+        href: sleep-time.md
+      - name: Synchronization Time
+        href: synchronization-time.md
+      - name: Thread Ready Connector
+        href: thread-ready-connector.md
+      - name: Timeline Caret
+        href: timeline-caret.md
+      - name: UI Processing Time
+        href: ui-processing-time.md
+      - name: Unblocking Stack
+        href: unblocking-stack.md
+      - name: Visible Timeline Profile
+        href: visible-timeline-profile.md
+      - name: Zoom Control (Threads View)
+        href: zoom-control-threads-view.md
+    - name: Cores View
+# Auto-expanded node
+      items:
+      - name: Cores View
+        href: cores-view.md
+      - name: Cores View Legend
+        href: cores-view-legend.md
+      - name: Cores View Logical Cores
+        href: cores-view-logical-cores.md
+      - name: Cores View Timeline
+        href: cores-view-timeline.md
+      - name: Cores View Zoom Tool
+        href: cores-view-zoom-tool.md
+    - name: Advanced Settings Dialog Box (Concurrency Visualizer)
+      href: advanced-settings-dialog-box-concurrency-visualizer.md
+    - name: Concurrency Visualizer Markers
+# Auto-expanded node
+      items:
+      - name: Concurrency Visualizer Markers
+        href: concurrency-visualizer-markers.md
+      - name: Flag Markers
+        href: flag-markers.md
+      - name: Message Markers
+        href: message-markers.md
+      - name: Span Markers
+        href: span-markers.md
+      - name: Visualizing EventSource Events as Markers
+        href: visualizing-eventsource-events-as-markers.md
+    - name: Concurrency Visualizer SDK
+# Auto-expanded node
+      items:
+      - name: Concurrency Visualizer SDK
+        href: concurrency-visualizer-sdk.md
+      - name: Use the Concurrency Visualizer Markers SDK
+        href: how-to-use-the-concurrency-visualizer-markers-sdk.md
+      - name: C++ Library Reference
+# Auto-expanded node
+        items:
+        - name: C++ Library Reference
+          href: cpp-library-reference.md
+        - name: Concurrency Namespace (Concurrency Visualizer)
+# Auto-expanded node
+          items:
+          - name: Concurrency Namespace (Concurrency Visualizer)
+            href: concurrency-namespace-concurrency-visualizer.md
+          - name: diagnostic Namespace
+# Auto-expanded node
+            items:
+            - name: diagnostic Namespace
+              href: diagnostic-namespace.md
+            - name: span Class
+# Auto-expanded node
+              items:
+              - name: span Class
+                href: span-class.md
+              - name: ~span Destructor
+                href: span-tilde-span-destructor.md
+              - name: span Constructor
+                href: span-span-constructor.md
+            - name: marker_series Class
+# Auto-expanded node
+              items:
+              - name: marker_series Class
+                href: marker-series-class.md
+              - name: ~marker_series Destructor
+                href: marker-series-tilde-marker-series-destructor.md
+              - name: is_enabled Method
+                href: marker-series-is-enabled-method.md
+              - name: marker_series Constructor
+                href: marker-series-marker-series-constructor.md
+              - name: write_alert Method
+                href: marker-series-write-alert-method.md
+              - name: write_flag Method
+                href: marker-series-write-flag-method.md
+              - name: write_message Method
+                href: marker-series-write-message-method.md
+            - name: marker_importance Enumeration
+              href: marker-importance-enumeration.md
+      - name: C Library Reference
+# Auto-expanded node
+        items:
+        - name: C Library Reference
+          href: c-library-reference.md
+        - name: CvCreateDefaultMarkerSeriesOfDefaultProvider Function
+          href: cvcreatedefaultmarkerseriesofdefaultprovider-function.md
+        - name: CvCreateMarkerSeries Function
+          href: cvcreatemarkerseries-function.md
+        - name: CvCreateMarkerSeriesWithCodePageA Function
+          href: cvcreatemarkerserieswithcodepagea-function.md
+        - name: CvEnterSpan Function
+          href: cventerspan-function.md
+        - name: CvInitProvider Function
+          href: cvinitprovider-function.md
+        - name: CvIsEnabled Function
+          href: cvisenabled-function.md
+        - name: CvLeaveSpan Function
+          href: cvleavespan-function.md
+        - name: CvReleaseMarkerSeries Function
+          href: cvreleasemarkerseries-function.md
+        - name: CvReleaseProvider Function
+          href: cvreleaseprovider-function.md
+        - name: CvWriteAlert Function
+          href: cvwritealert-function.md
+        - name: CvWriteFlag Function
+          href: cvwriteflag-function.md
+        - name: CvWriteMessage Function
+          href: cvwritemessage-function.md
+    - name: Concurrency Visualizer Command-Line Utility (CVCollectionCmd)
+      href: concurrency-visualizer-command-line-utility-cvcollectioncmd.md
+  - name: Analyze energy use
+    href: analyze-energy-use-in-store-apps.md

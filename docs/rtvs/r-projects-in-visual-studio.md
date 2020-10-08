@@ -2,13 +2,11 @@
 title: R projects
 description: How to create an manager R projects in Visual Studio including properties, project commands, and templates.
 ms.date: 06/29/2017
-ms.prod: visual-studio-dev15
-ms.technology: vs-rtvs
 ms.topic: conceptual
 author: kraigb
 ms.author: kraigb
-manager: douge
-ms.workload: 
+manager: jillfra
+ms.workload:
   - data-science
 ---
 
@@ -20,9 +18,9 @@ Projects are always managed within a Visual Studio *solution*, which can contain
 
 ## Creating a new R project
 
-1. Start Visual Studio.
-1. Choose **File > New > Project...** (**Ctrl**+**Shift**+**N**)
-1. Select "R Project" from under **Templates > R**, give the project a name and location, and select **OK**:
+1. Open Visual Studio.
+1. Choose **File > New > Project** (**Ctrl**+**Shift**+**N**)
+1. Select "R Project" from under **Templates** > **R**, give the project a name and location, and select **OK**:
 
     ![New Project dialog box for R in Visual Studio (RTVS in VS2017)](media/getting-started-01-new-project.png)
 
@@ -45,7 +43,7 @@ The *rproject.rproj* file maintains certain R-specific project settings that are
 | NumSpacesForTab | 2 | The number of spaces to insert if UseSpacesForTab is Yes. |
 | Encoding | UTF-8 | The default encoding for `.R` files. |
 | RnwWeave | Sweave | Package to use when weaving a Rnw file. |
-| LaTeX | pdfLaTeX | Library to use when converting RMarkdwon to PDF. |
+| LaTeX | pdfLaTeX | Library to use when converting RMarkdown to PDF. |
 
 ### Converting a folder of files to an R project
 
@@ -53,16 +51,16 @@ If you have an existing folder of *.R* files that you want to manage in a projec
 
 1. Create a new project in Visual Studio as in the previous section.
 1. Copy your files into the project folder.
-1. In the Visual Studio Solution Explorer, right-click the project, select **Add** > **Exiting Item**, and browse to the files you want to add. Those files appear in your project tree after selecting **OK**.
+1. In the Visual Studio Solution Explorer, right-click the project, select **Add** > **Existing Item**, and browse to the files you want to add. Those files appear in your project tree after selecting **OK**.
 1. To organize code into subfolders, right-click the project, select **Add** > **New Folder** first, then copy your files into that folder and add those existing items in step 3.
 
 ## Project properties
 
-To open the project property pages, right-click the project in **Solution Explorer** and select **Properties**, or select the **Project > (project name) properties* menu item. The window that opens displays project properties:
+To open the project property pages, right-click the project in **Solution Explorer** and select **Properties**, or select the **Project > (project name) properties** menu item. The window that opens displays project properties:
 
 | Tab | Property | Description |
 | --- | --- | --- |
-| Run | Startup file | The name of the file that is run with **Source startup file** command, **F5**, **Debug > Start debugging**, or **Debug > Start without debugging**. Right-clicking the file in the project and selecting **Set as startup R script** also sets it as the startup file. |
+| Run | Startup file | The name of the file that is run with **Source startup file** command, **F5**, **Debug** > **Start debugging**, or **Debug** > **Start without debugging**. Right-clicking the file in the project and selecting **Set as startup R script** also sets it as the startup file. |
 | | Reset R Interactive on Run | Clears all variables from the interactive window's workspace when running the project. Doing so guarantees that there's no residual workspace contents from pervious runs. |
 | | Remote Project Path | Path to a remote workspace. |
 | | Transfer files on run | Indicates whether the project files, subject to the filter in **Files to transfer**, are to be copied to a remote workspace with each run. |
@@ -79,7 +77,7 @@ Visual Studio projects support a number of general commands through both the rig
 | Open Containing Folder | Opens Windows Explorer at the location of the selected file. |
 | Add R Script | Creates and opens a new *.R* file with a default name. You can also use the **Add** > **New Item** command to create *.R* files as well as a number of other file types. See [R-specific item templates](#r-specific-item-templates). |
 | Add R Markdown | Creates and opens new *.rmd* document with a default name. You can also use the **Add** > **New Item** command to create *.rmd* files as well as a number of other file types. See [R-specific item templates](#r-specific-item-templates).  |
-| Publish Stored Procedures | Starts a process to publish any stored procedures contained in R scripts. See [Work with SQL Server stored procedures](integrating-sql-server-with-r.md#work-with-sql-server-stored-procedures). | 
+| Publish Stored Procedures | Starts a process to publish any stored procedures contained in R scripts. See [Work with SQL Server stored procedures](integrating-sql-server-with-r.md#work-with-sql-server-stored-procedures). |
 
 ## R-specific item templates
 
@@ -92,11 +90,11 @@ RTVS includes a number of templates for specific file types. You access template
 | --- | --- |
 | R Script | A text file containing the same commands that can be entered on the R command line. |
 | R Markdown | A file containing an [R Markdown](rmarkdown-with-r-in-visual-studio.md) document. |
-| R Settings | A file that holds R application settings. | 
+| R Settings | A file that holds R application settings. |
 | R Documentation | A generic R documentation file containing only name, alias, and title fields. |
 | R Documentation (Function) | An R documentation file containing many fields with comments for describing a function. |
 | R Documentation (Dataset) | An R documentation file containing many fields with comments for describing a dataset. |
-| SQL Query | And empty *.sql* file. See [Work with SQL Server and R](integrating-sql-server-with-r.md). |
+| SQL Query | An empty *.sql* file. See [Work with SQL Server and R](integrating-sql-server-with-r.md). |
 | Stored Procedure with R | An R file with child SQL Query and child stored procedure template file. See [Work with SQL Server and R](integrating-sql-server-with-r.md). |
 
 ## Use multiple project types in Visual Studio

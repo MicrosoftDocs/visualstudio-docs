@@ -1,16 +1,14 @@
 ---
-title: Preview code changes in Visual Studio
+title: Preview code changes
 ms.date: 12/16/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: conceptual
-author: gewarren
-ms.author: gewarren
-manager: douge
+author: TerryGLee
+ms.author: tglee
+manager: jillfra
 f1_keywords:
-  - "vs.codefix.previewchanges"
+- vs.codefix.previewchanges
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Preview Changes window
 

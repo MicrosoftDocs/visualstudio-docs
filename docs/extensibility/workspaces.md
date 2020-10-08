@@ -1,11 +1,7 @@
 ---
 title: "Workspaces in Visual Studio | Microsoft Docs"
-ms.custom: ""
 ms.date: "02/21/2018"
-ms.technology:
-  - "vs-ide-sdk"
 ms.topic: "conceptual"
-ms.assetid: 3489592a-dc0c-4cd3-9b08-cd367626980a
 author: "vukelich"
 ms.author: "svukel"
 manager: "viveis"
@@ -173,9 +169,21 @@ A UI context can be used to auto-load your package. The value is `4646B819-1AE0-
 
 ### The SourceExplorerPackage package did not load correctly
 
-Workspace extensibility is heavily MEF-based, and composition errors will cause the package hosting Open Folder to fail to load. For example, if an extension exports a type with `ExportFileContextProviderAttribute`, but the type only implements `IWorkspaceProviderFactory<IFileContextActionProvider>`, an error will occur when trying to open a folder in Visual Studio. Error details can be found in _%LOCALAPPDATA%\Microsoft\VisualStudio\15.0_id\ComponentModelCache\Microsoft.VisualStudio.Default.err_. Resolve any errors for types implemented by your extension.
+Workspace extensibility is heavily MEF-based, and composition errors will cause the package hosting Open Folder to fail to load. For example, if an extension exports a type with `ExportFileContextProviderAttribute`, but the type only implements `IWorkspaceProviderFactory<IFileContextActionProvider>`, an error will occur when trying to open a folder in Visual Studio.
+
+::: moniker range="vs-2017"
+
+Error details can be found in _%LOCALAPPDATA%\Microsoft\VisualStudio\15.0_id\ComponentModelCache\Microsoft.VisualStudio.Default.err_. Resolve any errors for types implemented by your extension.
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+
+Error details can be found in _%LOCALAPPDATA%\Microsoft\VisualStudio\16.0_id\ComponentModelCache\Microsoft.VisualStudio.Default.err_. Resolve any errors for types implemented by your extension.
+
+::: moniker-end
 
 ## Next steps
 
-* [File contexts](workspace-file-contexts.md) - File context providers bring code intelligence for Open Folder workspaces. 
+* [File contexts](workspace-file-contexts.md) - File context providers bring code intelligence for Open Folder workspaces.
 * [Indexing](workspace-indexing.md) - Workspace indexing collects and persists information about the workspace.

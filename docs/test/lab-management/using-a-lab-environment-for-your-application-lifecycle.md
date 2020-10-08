@@ -1,16 +1,14 @@
 ---
-title: "Use a lab environment for devops in Visual Studio"
+title: Use a lab environment for devops
 ms.date: 05/02/2017
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-test
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords: 
-  - "lab environment, test lab"
-ms.author: gewarren
-manager: douge
+  - lab environment, test lab
+ms.author: mikejo
+manager: jillfra
 ms.workload: 
-  - "multiple"
-author: gewarren
+  - multiple
+author: mikejo5000
 ---
 # Use a lab environment for your devops
 
@@ -30,13 +28,18 @@ Here are examples of common lab environment topologies:
 |![Cloud lab environment](../media/topology_cloud.png)| This lab environment provides similar capabilities and features as the _server topology_, but removes the requirement for physical or virtual machines running in a local environment; which can reduce setup time, simplify maintenance, and minimize cost. Setting up multiple websites and virtual machines, together with custom networking,  is quick and easy in a cloud environment such as Microsoft Azure.|
 |![Client-server lab environment](../media/topology_clientserver.png)| This lab environment has a *client-server topology*, which is often used to test an application that has server and client components. In a client/server topology, all of the client and server machines used to test your application are in your lab environment. When you use this topology, you can collect test data from every machine that impacts your tests.|
 
-|   |   |
-|---|---|
-|  ![movie camera icon for video](../../install/media/video-icon.png)  |    [Watch a video](https://channel9.msdn.com/Series/Visual-Studio-2012-Premium-and-Ultimate-Overview/Visual-Studio-Ultimate-2012-Managing-lab-environments-for-testing) on managing lab environments for testing. |
+:::row:::
+    :::column:::
+        ![movie camera icon for video](../../install/media/video-icon.png)
+    :::column-end:::
+    :::column:::
+        [Watch a video](https://channel9.msdn.com/Series/Visual-Studio-2012-Premium-and-Ultimate-Overview/Visual-Studio-Ultimate-2012-Managing-lab-environments-for-testing) on managing lab environments for testing.
+    :::column-end:::
+:::row-end:::
 
-## Use the cloud with Team Services or Team Foundation Server Build and Release
+## Use the cloud with Azure Pipelines or Team Foundation Server Build and Release
 
-You can perform automated testing and build-deploy-test automation using the [Build and Release](/vsts/build-release/) features in Team Foundation Server (TFS) and Visual Studio Team Services. Some of the benefits are:
+You can perform automated testing and build-deploy-test automation using the [build and release](/azure/devops/pipelines/index?view=vsts) features in Team Foundation Server (TFS) and Azure Test Plans. Some of the benefits are:
 
 * You do not need a Build controller or Test controller.
 * The Test agent is installed through a task as part of the build or release.
@@ -49,9 +52,10 @@ You can perform automated testing and build-deploy-test automation using the [Bu
 
 For more information, see [Use Build or Release management](use-build-or-rm-instead-of-lab-management.md).
 
+::: moniker range="vs-2017"
 ## Use the Visual Studio Lab Management features of Microsoft Test Manager
 
-You can create and manage lab environments with the Visual Studio Lab Management features of Microsoft Test Manager when you use Visual Studio 2017 Enterprise edition.
+You can create and manage lab environments with the Visual Studio Lab Management features of Microsoft Test Manager when you use Visual Studio Enterprise edition.
 
 Lab Management automatically installs test agents on every machine in your environment.
 
@@ -80,17 +84,17 @@ There are two types of lab environments that you can create with Visual Studio L
 
 - **Virtual machine templates:** A virtual machine template is a virtual machine that has had its name and other identifiers removed. When a VM template is deployed in an SCVMM environment, Microsoft Test Manager generates new identifiers. This allows you deploy multiple copies of a virtual machine in the same environment, or multiple environments, and then run the virtual machines simultaneously.
 
-- **Stored Virtual Machines:** A virtual machine that is stored in your Team Project library and includes unique identifiers.
+- **Stored Virtual Machines:** A virtual machine that is stored in your project library and includes unique identifiers.
 
 > [!NOTE]
 > Lab Management does not support SCVMM 2016.
 
-For information about SCVMM, see [Virtual Machine Manager](/vsts/build-release/apps/cd/scvmm/configure-scvmm).
+For information about SCVMM, see [Virtual Machine Manager](/azure/devops/pipelines/?view=vsts).
 
 Standard environments and SCVMM environments support many of the same features. However, there are some important differences to consider. The following table compares the features that are available for standard environments and SCVMM environments.
 
 |Capability|SCVMM Environments|Standard Environments|
-|----------------|------------------------|---------------------------|
+|-|------------------------|-|
 |**Testing**|||
 |Run manual tests|Supported|Supported|
 |Run coded UI and other automated tests|Supported|Supported|
@@ -112,30 +116,31 @@ Standard environments and SCVMM environments support many of the same features. 
 Here are some additional concepts that you should be familiar with before you continue:
 
 |Term|Description|
-|----------|-----------------|
+|-|-----------------|
 |Lab Center|The area of Microsoft Test Manager where you create and manage lab environments.|
-|Team Project Lab|The collection of lab environments that have been set up so you can connect to them and run their virtual machines.|
-|Team Project Library|An archive of stored virtual machines, templates, and stored lab environments that have been imported into the host group of your team project. You can use the items in your library with SCVMM environments; however, you can’t add them directly to a standard environment. You can’t run the items in your library; instead you use them to deploy a new environment.|
-|Deployed Environment|A lab environment that has been deployed to your team project lab so that you can connect to it and run its machines.|
+|Azure DevOps Project Lab|The collection of lab environments that have been set up so you can connect to them and run their virtual machines.|
+|Azure DevOps Project Library|An archive of stored virtual machines, templates, and stored lab environments that have been imported into the host group of your project. You can use the items in your library with SCVMM environments; however, you can’t add them directly to a standard environment. You can’t run the items in your library; instead you use them to deploy a new environment.|
+|Deployed Environment|A lab environment that has been deployed to your project lab so that you can connect to it and run its machines.|
 
 For more information about lab management, see:
 
-* [Plan your lab](https://msdn.microsoft.com/library/ff756575%28v=vs.140%29.aspx)
-* [Administer your lab](https://msdn.microsoft.com/library/dd936084%28v=vs.140%29.aspx)
-* [Set up for SCVMM environments](https://msdn.microsoft.com/library/dd380687%28v=vs.140%29.aspx)
-* [Manage permissions](https://msdn.microsoft.com/library/dd380760%28v=vs.140%29.aspx)
-* [Change setup](https://msdn.microsoft.com/library/ee704508%28v=vs.140%29.aspx)
-* [Troubleshooting](https://msdn.microsoft.com/library/ee853230%28v=vs.140%29.aspx)
+* [Plan your lab](/previous-versions/ff756575(v=vs.140))
+* [Administer your lab](/previous-versions/dd936084(v=vs.140))
+* [Set up for SCVMM environments](/previous-versions/dd380687(v=vs.140))
+* [Manage permissions](/previous-versions/dd380760(v=vs.140))
+* [Change setup](/previous-versions/ee704508(v=vs.140))
+* [Troubleshooting](/previous-versions/ee853230(v=vs.140))
 
 For information about setting up environments, see:
 
-* [Build and Release cloud environments](use-build-or-rm-instead-of-lab-management.md)
-* [Standard lab environments](https://msdn.microsoft.com/library/ee390842.aspx)
-* [SCVMM (virtual) environments](https://msdn.microsoft.com/library/ee943322.aspx)
-* [Creating and using a network isolated environment](https://msdn.microsoft.com/library/ee518924.aspx)
+* [Build and release cloud environments](use-build-or-rm-instead-of-lab-management.md)
+* [Standard lab environments](/previous-versions/ee390842(v=vs.140))
+* [SCVMM (virtual) environments](/previous-versions/ee943322(v=vs.140))
+* [Creating and using a network isolated environment](/previous-versions/ee518924(v=vs.140))
+::: moniker-end
 
 ## See also
 
 * [Install and configure test agents](../../test/lab-management/install-configure-test-agents.md)
-* [Visual Studio Lab Management Guide](https://aka.ms/vsarsolutions)
-* [Microsoft DevOps Blog](https://blogs.msdn.microsoft.com/devops/)
+* [Visual Studio Lab Management Guide](/archive/blogs/visualstudioalmrangers/library-of-tooling-and-guidance-solutions-aka-msvsarsolutions)
+* [Microsoft DevOps Blog](https://devblogs.microsoft.com/devops/)

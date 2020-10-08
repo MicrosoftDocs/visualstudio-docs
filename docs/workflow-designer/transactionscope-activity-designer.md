@@ -1,17 +1,15 @@
 ---
-title: "Workflow Designer - TransactionScope Activity Designer"
+title: Workflow Designer - TransactionScope Activity Designer
 ms.date: 11/04/2016
 ms.topic: reference
-ms.prod: visual-studio-dev15
-ms.technology: vs-workflow-designer
 f1_keywords:
-  - "System.Activities.Statements.TransactionScope.UI"
+- System.Activities.Statements.TransactionScope.UI
 ms.assetid: 8d7ebfc6-7478-4888-b3b0-b14f296096af
-author: gewarren
-ms.author: gewarren
-manager: douge
+author: TerryGLee
+ms.author: tglee
+manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # TransactionScope Activity Designer
 
@@ -30,12 +28,12 @@ Access the **TransactionScope** activity designer in the **Transaction** categor
 The following table shows the <xref:System.Activities.Statements.TransactionScope> properties and describes how they are used in the designer. The <xref:System.Activities.Activity.DisplayName%2A> and <xref:System.Activities.Statements.TransactionScope.Body%2A> properties can be edited on Workflow Designer surface. But the other properties must be edited on the property grid.
 
 |Property Name|Required|Usage|
-|-------------------|--------------|-----------|
+|-|--------------|-|
 |<xref:System.Activities.Activity.DisplayName%2A>|False|The optional friendly name of the <xref:System.Activities.Statements.TransactionScope> activity. The default is TransactionScope. Although the <xref:System.Activities.Activity.DisplayName%2A> value is not strictly required, it is a best practice to use one.|
 |<xref:System.Activities.Statements.TransactionScope.Body%2A>|True|Specifies the activity to execute in a single transaction. To add the <xref:System.Activities.Statements.TransactionScope.Body%2A> activity, drop an activity from the **Toolbox** into the **Body** box on the **TransactionScope** activity designer with hint text "Drop activity here".|
 |<xref:System.Activities.Statements.TransactionScope.IsolationLevel%2A>|True|Specifies the <xref:System.Transactions.IsolationLevel> for this <xref:System.Activities.Statements.TransactionScope>.|
 |<xref:System.Activities.Statements.TransactionScope.Timeout%2A>|False|Specifies the interval of time (formatted as 00:00:00, which indicates hours:minutes:seconds) that the transaction has to complete. The default value is 1 minute (00:01:00).|
-|[System.Activities.Statements.TransactionScope.AbortInstanceOnTransactionFailure](https://msdn.microsoft.com/library/system.activities.statements.transactionscope.abortinstanceontransactionfailure.aspx)|True|Specifies the value that indicates whether the workflow should be aborted if the transaction aborts.|
+|<xref:System.Activities.Statements.TransactionScope.AbortInstanceOnTransactionFailure*>|True|Specifies the value that indicates whether the workflow should be aborted if the transaction aborts.|
 
 ## See also
 

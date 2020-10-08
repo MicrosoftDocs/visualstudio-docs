@@ -1,16 +1,17 @@
 ---
-title: "Automatically apply product keys when deploying Visual Studio"
-description: "Learn how to apply product keys programmatically when you deploy Visual Studio."
-ms.date: 08/14/2017
-ms.technology: vs-acquisition
-ms.prod: visual-studio-dev15
+title: Automatically apply product keys
+description: Learn how to apply product keys programmatically when you deploy Visual Studio.
+ms.date: 09/24/2019
+ms.custom: seodec18
 ms.topic: conceptual
 ms.assetid: d79260be-6234-4fd3-89b5-a9756b4a93c1
-author: TerryGLee
-ms.author: tglee
-manager: douge
+author: ornellaalt
+ms.author: ornella
+manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
+ms.prod: visual-studio-windows
+ms.technology: vs-installation
 ---
 # Automatically apply product keys when deploying Visual Studio
 
@@ -18,7 +19,17 @@ You can apply your product key programmatically as part of a script that is used
 
 ## Apply the license after installation
 
- You can activate an installed version of Visual Studio with a product key by using the `StorePID.exe` utility on the target machines, in silent mode. `StorePID.exe` is a utility program that installs with Visual Studio 2017 at the following default location: <br> `C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE`
+::: moniker range="vs-2017"
+
+You can activate an installed version of Visual Studio with a product key by using the `StorePID.exe` utility on the target machines, in silent mode. `StorePID.exe` is a utility program that installs with Visual Studio 2017 at the following default location: <br> `C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE`
+
+::: moniker-end
+
+::: moniker range="vs-2019"
+
+You can activate an installed version of Visual Studio with a product key by using the `StorePID.exe` utility on the target machines, in silent mode. `StorePID.exe` is a utility program that installs with Visual Studio 2019 at the following default location: <br> `C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\Common7\IDE`
+
+::: moniker-end
 
  Run `StorePID.exe` with elevated privileges, either by using a System Center agent or an elevated command prompt. Follow it with the product key and the Microsoft Product Code (MPC).
 
@@ -29,11 +40,27 @@ You can apply your product key programmatically as part of a script that is used
  StorePID.exe [product key including the dashes] [MPC]
  ```
 
- The following example shows a command line for applying the license for Visual Studio 2017 Enterprise, which has an MPC of 08860, a product key of `AAAAA-BBBBB-CCCCC-DDDDDD-EEEEEE`, and assumes a default installation location:
+::: moniker range="vs-2017"
 
- ```cmd
- "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\StorePID.exe" AAAAA-BBBBB-CCCCC-DDDDDD-EEEEEE 08860
- ```
+The following example shows a command line for applying the license for Visual Studio 2017 Enterprise, which has an MPC of 08860, a product key of `AAAAA-BBBBB-CCCCC-DDDDDD-EEEEEE`, and assumes a default installation location:
+
+```cmd
+"C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\StorePID.exe" AAAAA-BBBBB-CCCCC-DDDDDD-EEEEEE 08860
+```
+
+::: moniker-end
+
+::: moniker range="vs-2019"
+
+The following example shows a command line for applying the license for Visual Studio 2019 Enterprise, which has an MPC of 09260, a product key of `AAAAA-BBBBB-CCCCC-DDDDDD-EEEEEE`, and assumes a default installation location:
+
+```cmd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\Common7\IDE\StorePID.exe" AAAAA-BBBBB-CCCCC-DDDDDD-EEEEEE 09260
+```
+
+::: moniker-end
+
+::: moniker range="vs-2017"
 
  The following table lists the MPC codes for each edition of Visual Studio:
 
@@ -42,6 +69,17 @@ You can apply your product key programmatically as part of a script that is used
 | Visual Studio Enterprise 2017        | 08860 |
 | Visual Studio Professional 2017      | 08862 |
 | Visual Studio Test Professional 2017 | 08866 |
+
+::: moniker-end
+
+::: moniker range="vs-2019"
+
+| Visual Studio Edition                | MPC   |
+|--------------------------------------|-------|
+| Visual Studio Enterprise 2019        | 09260 |
+| Visual Studio Professional 2019      | 09262 |
+
+::: moniker-end
 
 If `StorePID.exe` successfully applies the product key, it returns an `%ERRORLEVEL%` of 0. If it encounters errors, it returns one of the following codes, depending on the error condition:
 
@@ -55,16 +93,10 @@ If `StorePID.exe` successfully applies the product key, it returns an `%ERRORLEV
 | `PID_ACTION_FAILURE`      | 5    |
 | `PID_ACTION_NOUPGRADE`    | 6    |
 
-## Get support
+> [!NOTE]
+> When you run a virtual instance of Visual Studio, make sure that you also virtualize the local AppData folder and the registry. To troubleshoot virtual instances, run `C:\Program Files (x86)\Microsoft Visual Studio\<version>\Common7\IDE\DDConfigCA.exe`.  
 
-Sometimes, things can go wrong. If your Visual Studio installation fails, see the [Troubleshooting Visual Studio 2017 installation and upgrade issues](troubleshooting-installation-issues.md) page. If none of the troubleshooting steps help, you can contact us by live chat for installation assistance (English only). For details, see the [Visual Studio support page](https://visualstudio.microsoft.com/vs/support/#talktous).
-
-Here are a few more support options:
-
-* You can report product issues to us via the [Report a Problem](../ide/how-to-report-a-problem-with-visual-studio-2017.md) tool that appears both in the Visual Studio Installer and in the Visual Studio IDE.
-* You can share a product suggestion with us on [UserVoice](https://visualstudio.uservoice.com/forums/121579).
-* You can track product issues and find answers in the [Visual Studio Developer Community](https://developercommunity.visualstudio.com/).
-* You can also engage with us and other Visual Studio developers through the [Visual Studio conversation in the Gitter community](https://gitter.im/Microsoft/VisualStudio). (This option requires a [GitHub](https://github.com/) account.)
+[!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 
 ## See also
 

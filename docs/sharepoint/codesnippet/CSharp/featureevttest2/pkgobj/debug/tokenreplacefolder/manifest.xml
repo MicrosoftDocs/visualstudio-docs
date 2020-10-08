@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="16ed9bd1-2583-45b2-bd67-f7d7ffd4260a">
-  <Assemblies>
-    <Assembly Location="FeatureEvtTest2.dll" DeploymentTarget="GlobalAssemblyCache" />
-  </Assemblies>
-  <FeatureManifests>
-    <FeatureManifest Location="FeatureEvtTest2_Feature1\Feature.xml" />
-  </FeatureManifests>
-</Solution>

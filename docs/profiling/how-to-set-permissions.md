@@ -1,20 +1,19 @@
 ---
-title: "How to: Set Permissions | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
-ms.topic: "conceptual"
+title: Set Permissions | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: how-to
 helpviewer_keywords: 
-  - "profiling, setting permissions"
-  - "security [Visual Studio ALM], setting permissions"
-  - "permissions [Visual Studio ALM], profiling"
-  - "profiling tools, setting profiling permissions"
-  - "performance tools, setting profiling permissions"
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: douge
+  - profiling, setting permissions
+  - security [Visual Studio ALM], setting permissions
+  - permissions [Visual Studio ALM], profiling
+  - profiling tools, setting profiling permissions
+  - performance tools, setting profiling permissions
+author: mikejo5000
+ms.author: mikejo
+manager: jillfra
+monikerRange: 'vs-2017'
 ms.workload: 
-  - "multiple"
+  - multiple
 ---
 # How to: Set permissions
 
@@ -78,7 +77,7 @@ Members of the Users group can run the profiling tools if an administrator grant
 2. Change the directory to:
 
     ```cmd
-    <drive>:\Program Files\Microsoft Visual Studio 10\Team Tools\Performance Tools
+    <drive>:\Program Files\Microsoft Visual Studio 14\Team Tools\Performance Tools
     ```
 
 3. Run the following command:
@@ -113,10 +112,10 @@ Members of the Users group can run the profiling tools if an administrator grant
     vsperfcmd /admin:driver,autostart,on
     ```
 
- The specified users, after logging on, will now be able to use the profiling tools without Administrator permissions.
+   The specified users, after logging on, will now be able to use the profiling tools without Administrator permissions.
 
 ## See also
 
-[Configure performance sessions](../profiling/configuring-performance-sessions.md)  
-[VSPerfCmd](../profiling/vsperfcmd.md)  
+[Configure performance sessions](../profiling/configuring-performance-sessions.md)
+[VSPerfCmd](../profiling/vsperfcmd.md)
 [Profiling and Windows Vista Security](../profiling/profiling-and-windows-vista-security.md)

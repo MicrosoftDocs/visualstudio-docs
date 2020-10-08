@@ -1,16 +1,11 @@
 ---
-title: "Walkthrough: Creating an External List in SharePoint by Using Business Data | Microsoft Docs"
-ms.custom: ""
+title: "Create external list in SharePoint using business data"
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
-ms.topic: "conceptual"
-dev_langs: 
+ms.topic: how-to
+dev_langs:
   - "VB"
   - "CSharp"
-  - "VB"
-  - "CSharp"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "Business Data Connectivity service [SharePoint development in Visual Studio], business data in a Web Part"
   - "BDC [SharePoint development in Visual Studio], external list"
   - "Business Data Connectivity service [SharePoint development in Visual Studio], business data in a SharePoint list"
@@ -19,10 +14,10 @@ helpviewer_keywords:
   - "BDC [SharePoint development in Visual Studio], entity backed list"
   - "Business Data Connectivity service [SharePoint development in Visual Studio], entity backed list"
   - "Business Data Connectivity service [SharePoint development in Visual Studio], external list"
-author: TerryGLee
-ms.author: tglee
-manager: douge
-ms.workload: 
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
+ms.workload:
   - "office"
 ---
 # Walkthrough: Create an external list in SharePoint by using business data
@@ -43,9 +38,9 @@ This walkthrough illustrates the following tasks:
 
 You need the following components to complete this walkthrough:
 
-- Supported editions of Windows and SharePoint. For more information, see [Requirements for Developing SharePoint Solutions](../sharepoint/requirements-for-developing-sharepoint-solutions.md).
+- Supported editions of Windows and SharePoint.
 
-- Access to the AdventureWorks sample database. For more information about how to install the AdventureWorks database, see [SQL Server Sample Databases](http://go.microsoft.com/fwlink/?LinkID=117483).
+- Access to the AdventureWorks sample database. For more information about how to install the AdventureWorks database, see [SQL Server Sample Databases](https://github.com/Microsoft/sql-server-samples/releases/tag/adventureworks).
 
 ## Create a project that contains a BDC model
 
@@ -79,7 +74,7 @@ You need the following components to complete this walkthrough:
 
 2. Add a connection to the SQL Server AdventureWorks sample database.
 
-     For more information, see [Add/Modify Connection (Microsoft SQL Server)](http://msdn.microsoft.com/fa400910-26c3-4df7-b9d1-115e688b4ea3).
+     For more information, see [Add/Modify Connection (Microsoft SQL Server)](/previous-versions/dxb6fxah(v=vs.140)).
 
 3. In **Solution Explorer**, choose the project node.
 
@@ -226,12 +221,12 @@ To enable the BDC service to display the contacts in a list, you must add a Find
 
 5. In the `ContactService` class, replace the `ReadList` method with the following code. This code performs the following tasks:
 
-    - Retrieves data from the Contacts table of the AdventureWorks database.
+   - Retrieves data from the Contacts table of the AdventureWorks database.
 
-    - Returns a list of Contact entities to the BDC service.
+   - Returns a list of Contact entities to the BDC service.
 
-    > [!NOTE]
-    > Replace the value of the `ServerName` field with the name of your server.
+     > [!NOTE]
+     > Replace the value of the `ServerName` field with the name of your server.
 
      [!code-csharp[SP_BDC#2](../sharepoint/codesnippet/CSharp/SP_BDC/bdcmodel1/contactservice.cs#2)]
      [!code-vb[SP_BDC#2](../sharepoint/codesnippet/VisualBasic/sp_bdc/bdcmodel1/contactservice.vb#2)]
@@ -241,7 +236,7 @@ To enable the BDC service to display the contacts in a list, you must add a Find
 When you run the project, the SharePoint site opens and Visual Studio adds your model to the Business Data Connectivity service. Create an external list in SharePoint that references the Contact entity. The data for contacts in the AdventureWorks database appear in the list.
 
 > [!NOTE]
-> You might have to modify your security settings in SharePoint before you can debug your solution. For more information, see [Designing a Business Data Connectivity Model](../sharepoint/designing-a-business-data-connectivity-model.md).
+> You might have to modify your security settings in SharePoint before you can debug your solution. For more information, see [Design a business data connectivity model](../sharepoint/designing-a-business-data-connectivity-model.md).
 
 1. Choose the **F5** key.
 
@@ -269,13 +264,13 @@ When you run the project, the SharePoint site opens and Visual Studio adds your 
 
 You can learn more about how to design models for the BDC service in SharePoint from these topics:
 
-- [How to: Add a Creator Method](../sharepoint/how-to-add-a-creator-method.md).
-- [How to: Add an Updater Method](../sharepoint/how-to-add-an-updater-method.md).
-- [How to: Add a Deleter Method](../sharepoint/how-to-add-a-deleter-method.md).
+- [How to: Add a Creator method](../sharepoint/how-to-add-a-creator-method.md).
+- [How to: Add an Updater method](../sharepoint/how-to-add-an-updater-method.md).
+- [How to: Add a Deleter method](../sharepoint/how-to-add-a-deleter-method.md).
 
 ## See also
 
-[Designing a Business Data Connectivity Model](../sharepoint/designing-a-business-data-connectivity-model.md)  
-[Creating a Business Data Connectivity Model](../sharepoint/creating-a-business-data-connectivity-model.md)  
-[BDC Model Design Tools Overview](../sharepoint/bdc-model-design-tools-overview.md)  
-[Integrating Business Data into SharePoint](../sharepoint/integrating-business-data-into-sharepoint.md)
+[Design a business data connectivity model](../sharepoint/designing-a-business-data-connectivity-model.md)
+[Create a business data connectivity model](../sharepoint/creating-a-business-data-connectivity-model.md)
+[BDC model design tools overview](../sharepoint/bdc-model-design-tools-overview.md)
+[Integrate business data into SharePoint](../sharepoint/integrating-business-data-into-sharepoint.md)

@@ -1,0 +1,71 @@
+### YamlMime:Landing
+
+title: Visual Studio tutorials | Visual Basic
+summary: Create Visual Basic apps with Visual Studio.
+
+metadata:
+  title: Visual Basic development with Visual Studio
+  description: Create Visual Basic apps by using Visual Studio.
+  ms.custom: seodec18
+  ms.topic: landing-page
+  ms.date: 11/19/2019
+  ms.author: ghogen
+  author: ghogen
+  manager: jillfra
+  ms.prod: visual-studio-windows
+  ms.technology: vs-acquisition
+  dev_langs:
+    - VB
+
+# linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | whats-new
+
+landingContent: 
+  # Card
+  - title: Get started
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+          - text: Install Visual Studio
+            url: ../../install/install-visual-studio.md
+      - linkListType: get-started
+        links:
+          - text: Start a guided tour 
+            url: visual-studio-ide.md
+      - linkListType: quickstart
+        links:
+          - text: Create a "Hello World" console app
+            url: ../../ide/quickstart-visual-basic-console.md
+
+  # Card
+  - title: Create Visual Basic apps
+    linkLists:
+      - linkListType: tutorial
+        links:
+          - text: Create a console app
+            url: tutorial-console.md
+          - text: Create a Windows Desktop app
+            url: tutorial-wpf.md
+          - text: Create a Windows Forms app
+            url: ../../ide/create-a-visual-basic-winform-in-visual-studio.md
+          - text: Learn about the Visual Basic language
+            url: /dotnet/visual-basic/developing-apps/programming/      
+       
+  # Card
+  - title: Learn Visual Studio
+    linkLists:
+      - linkListType: tutorial
+        links:
+          - text: Open code from a repo
+            url: ../tutorial-open-project-from-repo.md
+          - text: Write and edit code 
+            url: tutorial-editor.md
+          - text: Compile and build 
+            url: ../../ide/compiling-and-building-in-visual-studio.md
+          - text: Debug your code
+            url: ../csharp/tutorial-debugger.md
+          - text: Test your code
+            url: ../../test/getting-started-with-unit-testing.md
+      - linkListType: how-to-guide
+        links:
+          - text: Access data
+            url:  ../../data-tools/create-a-sql-database-by-using-a-designer.md

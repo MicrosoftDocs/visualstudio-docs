@@ -1,21 +1,20 @@
 ---
-title: "How to: Relocate Instrumented Binaries | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
-ms.topic: "conceptual"
+title: Relocate Instrumented Binaries | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: how-to
 f1_keywords: 
-  - "vs.performance.property.binaries"
+  - vs.performance.property.binaries
 helpviewer_keywords: 
-  - "binaries, instrumented"
-  - "instrumentation, instrumented binaries"
-  - "instrumented binaries and relocating"
-  - "profiling tools, instrumented binaries"
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: douge
+  - binaries, instrumented
+  - instrumentation, instrumented binaries
+  - instrumented binaries and relocating
+  - profiling tools, instrumented binaries
+author: mikejo5000
+ms.author: mikejo
+manager: jillfra
+monikerRange: 'vs-2017'
 ms.workload: 
-  - "multiple"
+  - multiple
 ---
 # How to: Relocate instrumented binaries
 
@@ -33,5 +32,5 @@ During instrumentation, probes are inserted into the binary to measure applicati
 
 ## See also
 
-[Configure performance sessions](../profiling/configuring-performance-sessions.md)  
+[Configure performance sessions](../profiling/configuring-performance-sessions.md)
 [VSInstr](../profiling/vsinstr.md)

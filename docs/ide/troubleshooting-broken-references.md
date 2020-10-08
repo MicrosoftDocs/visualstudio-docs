@@ -1,20 +1,18 @@
 ---
 title: Troubleshoot broken references
 ms.date: 03/21/2017
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: troubleshooting
 helpviewer_keywords:
-  - "C# projects, references"
-  - "Visual Basic projects, references"
-  - "troubleshooting references"
-  - "referencing files from projects"
-  - "referencing components, troubleshooting"
-author: gewarren
-ms.author: gewarren
-manager: douge
+- C# projects, references
+- Visual Basic projects, references
+- troubleshooting references
+- referencing files from projects
+- referencing components, troubleshooting
+author: TerryGLee
+ms.author: tglee
+manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Troubleshoot broken references
 

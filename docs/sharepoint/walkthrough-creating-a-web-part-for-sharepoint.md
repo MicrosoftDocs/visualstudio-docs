@@ -1,23 +1,18 @@
 ---
 title: "Walkthrough: Creating a Web Part for SharePoint | Microsoft Docs"
-ms.custom: ""
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
-ms.topic: "conceptual"
-dev_langs: 
+ms.topic: how-to
+dev_langs:
   - "VB"
   - "CSharp"
-  - "VB"
-  - "CSharp"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "Web Parts [SharePoint development in Visual Studio], developing"
   - "Web Parts [SharePoint development in Visual Studio], creating"
   - "Web Parts [SharePoint development in Visual Studio], designing"
-author: TerryGLee
-ms.author: tglee
-manager: douge
-ms.workload: 
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
+ms.workload:
   - "office"
 ---
 # Walkthrough: Create a web part for SharePoint
@@ -43,9 +38,9 @@ This walkthrough illustrates the following tasks:
 
 ## Prerequisites
 
-- Supported editions of Microsoft Windows and SharePoint. For more information, see [Requirements for Developing SharePoint Solutions](../sharepoint/requirements-for-developing-sharepoint-solutions.md).
+- Supported editions of Microsoft Windows and SharePoint.
 
-- Visual Studio 2017 or an edition of Visual Studio Application Lifecycle Management (ALM).
+- Visual Studio 2017 or Azure DevOps Services.
 
 ## Create an empty SharePoint project
 
@@ -83,20 +78,20 @@ You can specify which controls you want to appear in the Web Part by adding them
 
      The Web Part code file opens in Code Editor.
 
-2. Add the following statements to the top of the Web Part code file.
+2. Add the following directives to the top of the Web Part code file.
 
      [!code-csharp[SP_WebPart#1](../sharepoint/codesnippet/CSharp/spext_webpart/webpart1/webpart1.cs#1)]
      [!code-vb[SP_WebPart#1](../sharepoint/codesnippet/VisualBasic/spext_webpart/webpart1/webpart1.vb#1)]
 
 3. Add the following code to the `WebPart1` class. This code declares the following fields:
 
-    - A data grid to display employees in the Web Part.
+   - A data grid to display employees in the Web Part.
 
-    - Text that appears on the control that is used to filter the data grid.
+   - Text that appears on the control that is used to filter the data grid.
 
-    - A label that displays an error if the data grid is unable to display data.
+   - A label that displays an error if the data grid is unable to display data.
 
-    - A string that contains the path of the employee data file.
+   - A string that contains the path of the employee data file.
 
      [!code-csharp[SP_WebPart#2](../sharepoint/codesnippet/CSharp/spext_webpart/webpart1/webpart1.cs#2)]
      [!code-vb[SP_WebPart#2](../sharepoint/codesnippet/VisualBasic/spext_webpart/webpart1/webpart1.vb#2)]
@@ -108,18 +103,18 @@ You can specify which controls you want to appear in the Web Part by adding them
 
 5. Replace the `CreateChildControls` method with the following code. This code performs the following tasks:
 
-    - Adds the data grid and label that you declared in the previous step.
+   - Adds the data grid and label that you declared in the previous step.
 
-    - Binds the data grid to an XML file that contains employee data.
+   - Binds the data grid to an XML file that contains employee data.
 
      [!code-csharp[SP_WebPart#4](../sharepoint/codesnippet/CSharp/spext_webpart/webpart1/webpart1.cs#4)]
      [!code-vb[SP_WebPart#4](../sharepoint/codesnippet/VisualBasic/spext_webpart/webpart1/webpart1.vb#4)]
 
 6. Add the following method to the `WebPart1` class. This code performs the following tasks:
 
-    - Creates a verb that appears in the Web Part verbs menu of the rendered Web part.
+   - Creates a verb that appears in the Web Part verbs menu of the rendered Web part.
 
-    - Handles the event that is raised when the user chooses the verb in the verbs menu. This code filters the list of employees that appears in the data grid.
+   - Handles the event that is raised when the user chooses the verb in the verbs menu. This code filters the list of employees that appears in the data grid.
 
      [!code-csharp[SP_WebPart#5](../sharepoint/codesnippet/CSharp/spext_webpart/webpart1/webpart1.cs#5)]
      [!code-vb[SP_WebPart#5](../sharepoint/codesnippet/VisualBasic/spext_webpart/webpart1/webpart1.vb#5)]
@@ -203,7 +198,7 @@ To populate the data grid that appears in the Web Part, specify the path of the 
 
 ## Test the web part verb
 
-Show and hide employees that are not managers by clicking an item that appears in the Web Part verbs menu.
+Show and hide employees that are not managers by selecting an item that appears in the Web Part verbs menu.
 
 1. Choose the arrow that appears on the right side of the Web Part, and then choose **Show Managers Only** from the menu that appears.
 
@@ -215,7 +210,7 @@ Show and hide employees that are not managers by clicking an item that appears i
 
 ## See also
 
-[Creating Web Parts for SharePoint](../sharepoint/creating-web-parts-for-sharepoint.md)  
-[How to: Create a SharePoint Web Part](../sharepoint/how-to-create-a-sharepoint-web-part.md)  
-[How to: Create a SharePoint Web Part by Using a Designer](../sharepoint/how-to-create-a-sharepoint-web-part-by-using-a-designer.md)  
-[Walkthrough: Creating a Web Part for SharePoint by Using a Designer](../sharepoint/walkthrough-creating-a-web-part-for-sharepoint-by-using-a-designer.md)
+[Create web parts for SharePoint](../sharepoint/creating-web-parts-for-sharepoint.md)
+[How to: Create a SharePoint web part](../sharepoint/how-to-create-a-sharepoint-web-part.md)
+[How to: Create a SharePoint web part by Using a Designer](../sharepoint/how-to-create-a-sharepoint-web-part-by-using-a-designer.md)
+[Walkthrough: Create a web part for SharePoint by using a designer](../sharepoint/walkthrough-creating-a-web-part-for-sharepoint-by-using-a-designer.md)

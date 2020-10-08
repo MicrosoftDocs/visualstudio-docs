@@ -1,16 +1,15 @@
 ---
 title: "Understanding Instrumentation Data Values | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "Profiling Tools,instrumentation"
   - "instrumentation profiling method"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
-ms.workload: 
+manager: jillfra
+monikerRange: 'vs-2017'
+ms.workload:
   - "multiple"
 ---
 # Understand instrumentation data values
@@ -93,5 +92,5 @@ The percentage of the total Application Inclusive values of the profiling sessio
 
 ## See also
 
-[Analyze performance tools data](../profiling/analyzing-performance-tools-data.md)  
+[Analyze performance tools data](../profiling/analyzing-performance-tools-data.md)
 [How to: Choose collection methods](../profiling/how-to-choose-collection-methods.md)

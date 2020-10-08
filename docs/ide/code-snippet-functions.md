@@ -1,23 +1,21 @@
 ---
 title: Code Snippet Functions
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: reference
 helpviewer_keywords:
-  - "code snippets [Visual Studio], functions"
-  - "snippets [Visual Studio], functions"
-  - "IntelliSense code snippets, functions"
+- code snippets [Visual Studio], functions
+- snippets [Visual Studio], functions
+- IntelliSense code snippets, functions
 ms.assetid: c0a2bf21-8fa5-4457-9281-f599beb53e7d
-author: gewarren
-ms.author: gewarren
-manager: douge
+author: TerryGLee
+ms.author: tglee
+manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Code snippet functions
 
-There are three functions available to use with C# code snippets. Functions are specified in the [Function](../ide/code-snippets-schema-reference.md#function) element of the code snippet. For information on creating code snippets, see [Code snippets](../ide/code-snippets.md).
+There are three functions available to use with C# code snippets. Functions are specified in the [Function](../ide/code-snippets-schema-reference.md#function-element) element of the code snippet. For information on creating code snippets, see [Code snippets](../ide/code-snippets.md).
 
 ## Functions
 
@@ -25,11 +23,11 @@ The following table describes the functions available for use with the `Function
 
 |Function|Description|Language|
 |--------------|-----------------|--------------|
-|`GenerateSwitchCases(` `EnumerationLiteral` `)`|Generates a switch statement and a set of case statements for the members of the enumeration specified by the `EnumerationLiteral` parameter. The `EnumerationLiteral` parameter must be either a reference to an enumeration literal or an enumeration type.|[!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)]|
-|`ClassName()`|Returns the name of the class that contains the inserted snippet.|[!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)]|
-|`SimpleTypeName(` `TypeName` `)`|Reduces the *TypeName* parameter to its simplest form in the context in which the snippet was invoked.|[!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)]|
+|`GenerateSwitchCases(EnumerationLiteral)`|Generates a switch statement and a set of case statements for the members of the enumeration specified by the `EnumerationLiteral` parameter. The `EnumerationLiteral` parameter must be either a reference to an enumeration literal or an enumeration type.|C#|
+|`ClassName()`|Returns the name of the class that contains the inserted snippet.|C#|
+|`SimpleTypeName(TypeName)`|Reduces the *TypeName* parameter to its simplest form in the context in which the snippet was invoked.|C#|
 
-## Example
+## GenerateSwitchCases example
 
 The following example shows how to use the `GenerateSwitchCases` function. When this snippet is inserted and an enumeration is entered into the `$switch_on$` literal, the `$cases$` literal generates a `case` statement for every value in the enumeration.
 
@@ -71,7 +69,7 @@ The following example shows how to use the `GenerateSwitchCases` function. When 
 </CodeSnippets>
 ```
 
-## Example
+## ClassName example
 
 The following example shows how to use the `ClassName` function. When this snippet is inserted, the `$classname$` literal is replaced with the name of the enclosing class at that location in the code file.
 
@@ -118,7 +116,7 @@ The following example shows how to use the `ClassName` function. When this snipp
 </CodeSnippets>
 ```
 
-## Example
+## SimpleTypeName example
 
 This example shows how to use the `SimpleTypeName` function. When this snippet is inserted into a code file, the `$SystemConsole$` literal will be replaced with the simplest form of the <xref:System.Console> type in the context in which the snippet was invoked.
 
@@ -153,5 +151,5 @@ This example shows how to use the `SimpleTypeName` function. When this snippet i
 
 ## See also
 
-- [Function element](../ide/code-snippets-schema-reference.md#function)
+- [Function element](../ide/code-snippets-schema-reference.md#function-element)
 - [Code snippets schema reference](../ide/code-snippets-schema-reference.md)

@@ -1,46 +1,39 @@
 ---
-title: "Tutorial 3: Create a matching game"
-ms.custom: ""
-ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-acquisition
-ms.prod: visual-studio-dev15
-ms.topic: conceptual
+title: 'Tutorial 3: Create a matching game'
+ms.date: 10/16/2019
 ms.assetid: 525815c8-2845-45e8-be96-100d1f144725
-author: TerryGLee
-ms.author: tglee
-manager: douge
+ms.topic: tutorial
+ms.technology: vs-ide-general
+author: ornellaalt
+ms.author: ornella
+manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Tutorial 3: Create a matching game
-In this tutorial, you build a matching game, where the player must match pairs of hidden icons. You learn how to:
 
--   Store objects, such as icons, in a <xref:System.Collections.Generic.List%601> object.
-
--   Use a `foreach` loop in Visual C# or a `For Each` loop in Visual Basic to iterate through items in a list.
-
--   Keep track of a form's state by using reference variables.
-
--   Build an event handler to respond to events that you can use with multiple objects.
-
--   Make a timer that counts down and then fires an event exactly once after being started.
-
- When you finish this tutorial, your program will look like the following picture.
-
- ![Game that you create in this tutorial](../ide/media/express_finishedgame.png)
-Game that you create in this tutorial
-
-## Tutorial links
-
- To download a completed version of the sample, see [Complete matching game tutorial sample](http://code.msdn.microsoft.com/Complete-Matching-Game-4cffddba).
+In this tutorial, you build a matching game, where the player must match pairs of hidden icons.
 
 > [!NOTE]
->  In this tutorial, both Visual C# and Visual Basic are covered, so focus on information specific to the programming language that you're using.
+> This tutorial covers both C# and Visual Basic, so focus on the information that's specific to the programming language that you're using.
 
- If you get stuck or have programming questions, try posting your question on one of the MSDN forums. See [Visual Basic forum](http://social.msdn.microsoft.com/Forums/home?forum=vbgeneral) and [Visual C# forum](http://social.msdn.microsoft.com/Forums/home?forum=csharpgeneral). Also, there are great, free video learning resources available to you. To learn more about programming in Visual Basic, see [Visual Basic fundamentals: Development for absolute beginners](http://channel9.msdn.com/Series/Visual-Basic-Development-for-Absolute-Beginners). To learn more about programming in Visual C#, see [C# fundamentals: Development for absolute beginners](http://channel9.msdn.com/Series/C-Sharp-Fundamentals-Development-for-Absolute-Beginners).
+This tutorial walks you through the following tasks:
 
-## Related topics
+- Store objects, such as icons, in a <xref:System.Collections.Generic.List%601> object.
+
+- Use a `foreach` loop in C# or a `For Each` loop in Visual Basic to iterate through items in a list.
+
+- Keep track of a form's state by using reference variables.
+
+- Build an event handler to respond to events that you can use with multiple objects.
+
+- Make a timer that counts down and then fires an event exactly once after being started.
+
+When you finish, your app should look similar to the following image:
+
+![Game that you create in this tutorial](../ide/media/express_finishedgame.png)
+
+## Tutorial links
 
 |Title|Description|
 |-----------|-----------------|
@@ -53,3 +46,15 @@ Game that you create in this tutorial
 |[Step 7: Keep pairs visible](../ide/step-7-keep-pairs-visible.md)|Keep pairs of icons visible, if a matching pair is selected.|
 |[Step 8: Add a method to verify whether the player won](../ide/step-8-add-a-method-to-verify-whether-the-player-won.md)|Add a `CheckForWinner()` method to verify whether the player won.|
 |[Step 9: Try other features](../ide/step-9-try-other-features.md)|Try other features, such as changing icons and colors, adding a grid, and adding sounds. Try making the board bigger and adjusting the timer.|
+
+There are also great, free video learning resources available to you. To learn more about programming in C#, see [C# fundamentals: Development for absolute beginners](https://channel9.msdn.com/Series/C-Sharp-Fundamentals-Development-for-Absolute-Beginners). To learn more about programming in Visual Basic, see [Visual Basic fundamentals: Development for absolute beginners](https://channel9.msdn.com/Series/Visual-Basic-Development-for-Absolute-Beginners).
+
+## Next steps
+
+To begin the tutorial, start with **[Step 1: Create a project and add a table to your form](../ide/step-1-create-a-project-and-add-a-table-to-your-form.md)**.
+
+## See also
+
+* [More C# tutorials](../get-started/csharp/index.yml)
+* [Visual Basic tutorials](../get-started/visual-basic/index.yml)
+* [C++ tutorials](/cpp/get-started/tutorial-console-cpp)

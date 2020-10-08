@@ -1,20 +1,18 @@
 ---
-title: Editing R code
+title: Edit R code
 description: Visual Studio provides a tailored editing experience for R while retaining all the features and the ability to use extensions.
-ms.date: 01/24/2018
-ms.prod: visual-studio-dev15
-ms.technology: vs-rtvs
+ms.date: 11/05/2018
 ms.topic: conceptual
 author: kraigb
 ms.author: kraigb
-manager: douge
-ms.workload: 
+manager: jillfra
+ms.workload:
   - data-science
 ---
 
 # Edit R code in Visual Studio
 
-R Tools for Visual Studio (RTVS) tailors the Visual Studio editing experience specifically for R while retaining all the features and the ability to use extensions. (For example, if you prefer VIM key bindings, you can install the free [VsVim extension](https://visualstudiogallery.msdn.microsoft.com/59ca71b3-a4a3-46ca-8fe1-0e90e3f79329) from the Visual Studio gallery.)
+R Tools for Visual Studio (RTVS) tailors the Visual Studio editing experience specifically for R while retaining all the features and the ability to use extensions. (For example, if you prefer VIM key bindings, you can install the free [VsVim extension](https://marketplace.visualstudio.com/items?itemName=JaredParMSFT.VsVim) from the Visual Studio Marketplace.)
 
 In addition to the features in this article, also see [IntelliSense](r-intellisense.md), [linting](linting-r-code.md), [code snippets](code-snippets-for-r.md), and [R Markdown](rmarkdown-with-r-in-visual-studio.md).
 
@@ -36,7 +34,7 @@ To change this behavior, see the **Advanced** > **Syntax check** setting under [
 
 ## Edit and organize code
 
-As you type code, RTVS provides auto-completion as described on the [IntelliSense](r-intellisense.md) page. It also does automatic formatting such as completion of braces and parenthesis: 
+As you type code, RTVS provides auto-completion as described on the [IntelliSense](r-intellisense.md) page. It also does automatic formatting such as completion of braces and parenthesis:
 
 ![Animation of inline formatting](media/editing-inline-formatting.gif)
 
@@ -94,7 +92,7 @@ Formatting options (including turning off formatting) are set through **Tools** 
 
 ## Inserting Roxygen comments
 
-RTVS provides a shortcut for generating [Roxygen](http://roxygen.org/) comments using the parameter names of a function. Just type `###` on a blank line above the function definition:
+RTVS provides a shortcut for generating [Roxygen](https://cran.r-project.org/web/packages/roxygen2/index.html) comments using the parameter names of a function. Just type `###` on a blank line above the function definition:
 
 ![Animation of inserting a Roxygen comment](media/editing-roxygen-comments.gif)
 
@@ -125,6 +123,6 @@ Options on the **R** > **Advanced** tab are specific to RTVS:
 | | Completion list on first character | On | Shows completion list on the first character types. When Off, a completion list is displayed with **Edit** > **IntelliSense** > **List Members** (**Ctrl**+**J**). |
 | | Completion list on **Tab** key | Off | Invokes completion list by typing one or more characters and pressing **Tab**. |
 | | Match partially types argument names | Off | WHen typing argument names in a function call, signature help shows a description for the argument that is the best match. |
-| Interactive Window | Syntax check in R Console | Off | Applies syntax checking in the Interactive window. Syntax checking may not work correctly with multi-line statements. | 
+| Interactive Window | Syntax check in R Console | Off | Applies syntax checking in the Interactive window. Syntax checking may not work correctly with multi-line statements. |
 | Outlining | Code outlining | On | Automatically creates collapsible regions for areas like multi-line statements. |
 | Syntax check | Show syntax errors | On | Enables automatic syntax checking of code. |

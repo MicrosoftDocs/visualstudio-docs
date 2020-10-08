@@ -1,35 +1,32 @@
 ---
-title: "m_taskId Field | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
-ms.technology: 
-  - "vs-ide-sdk"
-ms.topic: "conceptual"
-helpviewer_keywords: 
-  - "m_taskId field, Task class [.NET Framework debug engines]"
+title: m_taskId Field | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
+helpviewer_keywords:
+- m_taskId field, Task class [.NET Framework debug engines]
 ms.assetid: 9e4b827e-7c41-4fa3-b646-830aba2ec736
-author: "gregvanl"
-ms.author: "gregvanl"
-manager: douge
-ms.workload: 
-  - "vssdk"
+author: acangialosi
+ms.author: anthc
+manager: jillfra
+ms.workload:
+- vssdk
 ---
-# m_taskId Field
-The backing field for the <xref:System.Threading.Tasks.Task.Id%2A?displayProperty=fullName> property.  
-  
- **Namespace:** <xref:System.Threading.Tasks?displayProperty=fullName>  
-  
- **Assembly:** mscorlib (in mscorlib.dll)  
-  
- Because you cannot access this internal member from the .NET Framework, the following syntax is provided in Common Intermediate Language (CIL).  
-  
-## Syntax  
-  
-```  
-.field private int32 m_taskId  
-```  
-  
-## Remarks  
-  
-## See Also  
- [Task Class](../../extensibility/debugger/task-class-internal-members.md)
+# m_taskId field
+The backing field for the <xref:System.Threading.Tasks.Task.Id%2A?displayProperty=fullName> property.
+
+ **Namespace:** <xref:System.Threading.Tasks?displayProperty=fullName>
+
+ **Assembly:** mscorlib (in *mscorlib.dll*)
+
+ Because you can't access this internal member from the .NET Framework, the following syntax is provided in Common Intermediate Language (CIL).
+
+## Syntax
+
+```csharp
+.field private int32 m_taskId
+```
+
+## Remarks
+
+## See also
+- [Task class](../../extensibility/debugger/task-class-internal-members.md)

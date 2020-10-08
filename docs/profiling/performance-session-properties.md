@@ -1,17 +1,16 @@
 ---
 title: "Performance Session Properties | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "Profiling Tools,properties"
   - "property pages,Profiling Tools"
   - "performance tools, performance session properties"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
-ms.workload: 
+manager: jillfra
+monikerRange: 'vs-2017'
+ms.workload:
   - "multiple"
 ---
 # Performance session properties
@@ -34,7 +33,7 @@ For more information, see:
 
 [Collect .NET memory allocation and lifetime data](../profiling/collecting-dotnet-memory-allocation-and-lifetime-data.md)
 
- [How to: Set performance data file name options](../profiling/how-to-set-performance-data-file-name-options.md)
+- [How to: Set performance data file name options](../profiling/how-to-set-performance-data-file-name-options.md)
 
 ## Launch
 
@@ -81,7 +80,7 @@ For more information, see [How to: Collect CPU counter data](../profiling/how-to
 
 ## Windows events
 
-During profiling, you can collect data from event trace providers. You can view the data by using the *VSPerfReport.exe* command line tool `/calltrace` option. For more information about Event Tracing for Windows (ETW), see [About Event Tracing](http://go.microsoft.com/fwlink/?linkid=90752).
+During profiling, you can collect data from event trace providers. You can view the data by using the *VSPerfReport.exe* command line tool `/calltrace` option. For more information about Event Tracing for Windows (ETW), see [About Event Tracing](/windows/win32/etw/about-event-tracing).
 
 For more information, see:
 
@@ -107,6 +106,6 @@ For more information, see:
 
 ## See also
 
-[Overviews](../profiling/overviews-performance-tools.md)  
-[Configure performance sessions](../profiling/configuring-performance-sessions.md)  
+[Overviews](../profiling/overviews-performance-tools.md)
+[Configure performance sessions](../profiling/configuring-performance-sessions.md)
 [Control data collection](../profiling/controlling-data-collection.md)

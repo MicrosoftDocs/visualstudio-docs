@@ -2,13 +2,11 @@
 title: Interactive REPL for R
 description: How to use the interactive REPL environment for R inVisual Studio, which is integrated with editor windows.
 ms.date: 06/28/2017
-ms.prod: visual-studio-dev15
-ms.technology: vs-rtvs
 ms.topic: conceptual
 author: kraigb
 ms.author: kraigb
-manager: douge
-ms.workload: 
+manager: jillfra
+ms.workload:
   - data-science
 ---
 
@@ -47,24 +45,24 @@ Here is the interactive window with its toolbar:
 
 The toolbar commands are as follows, most of which have keyboard equivalents and are also available on the **R Tools** > **Session** and **R Tools** > **Working Directory** menus (or as noted):
 
-| Button | Command | Key combination | Description | 
+| Button | Command | Key combination | Description |
 | --- | --- | --- | --- |
 | ![Reset button](media/repl-toolbar-01-reset.png) | Reset | **Ctrl**+**Shift**+**F10** | Resets the interactive window session, clearing all variables and history. |
 | ![Clear button](media/repl-toolbar-02-clear.png) | Clear | **Ctrl**+**L** | Clears the output shown in the interactive window; does not affect session variables or history. |
 | ![History buttons](media/repl-toolbar-03-history.png) | Previous History Command<br/>Next History Command | **Up**, **Down**<br/>**Alt**+**Up**, **Alt**+**Down** | Scrolls through the history, with certain behaviors for multi-line code blocks. See [History](#history). |
 | ![Load workspace button](media/repl-toolbar-04-load-workspace.png) | Load Workspace | n/a | Loads a previous saved workspace (see [Workspaces and sessions](#workspaces-and-sessions). |
 | ![Save workspace as button](media/repl-toolbar-05-save-workspace-as.png)| Save Workspace As | n/a | Saves the current state of the session as a workspace (see [Workspaces and sessions](#workspaces-and-sessions). |
-| ![Source R script button](media/repl-toolbar-06-source-r-script.png) | Source R Script | **Ctrl**+**Shift**+**S** | Calls `source` with the currently active R script in the Visual Studio editor, which runs the code.  This button appears only when an R file is open in the Visual Studio editor. | 
+| ![Source R script button](media/repl-toolbar-06-source-r-script.png) | Source R Script | **Ctrl**+**Shift**+**S** | Calls `source` with the currently active R script in the Visual Studio editor, which runs the code.  This button appears only when an R file is open in the Visual Studio editor. |
 | ![Source R script with echo button](media/repl-toolbar-07-source-r-script-with-echo.png) | Source R Script with Echo | **Ctrl**+**Shift**+**Enter** | Same as Source R Script but displays the script's contents in the interactive window. |
 | ![Interrupt R button](media/repl-toolbar-08-interrupt-r.png)| Interrupt R | **Esc** | Stops any running code in the interactive window, such as the `while` loop in the screenshot shows at the beginning of this section. |
-| ![Attach debugger button](media/repl-toolbar-09b-attach-debugger.png)| Attach Debugger | n/a | Also available using the **Debug** > **Attach to R Interactive** command. | 
+| ![Attach debugger button](media/repl-toolbar-09b-attach-debugger.png)| Attach Debugger | n/a | Also available using the **Debug** > **Attach to R Interactive** command. |
 | ![Set working directory to source file location button](media/repl-toolbar-10-set-working-directory-source.png)| Set Working Directory to Source File Location | **Ctrl**+**Shift**+**E** | Sets the working directory to the most recently sourced file loaded to the interactive window (using `source`). See [Working directory](#working-directory). |
 | ![Set working directory to project location button](media/repl-toolbar-11-set-working-directory-to-project.png) | Set Working Directory to Project Location | **Ctrl**+**Shift**+**P** | Sets the working directory to the root of the currently loaded project in Visual Studio. See [Working directory](#working-directory). |
 | (Text field) | Select Working Directory | n/a | Direct input field for the working directory. See [Working directory](#working-directory). |
 
 ## Workspaces and sessions
 
-Running code in the interactive window builds up a context in your current session. The context is composed of global variables, function definitions, library loads, and so forth. This context is collectively called a *workspace*, and you can save and load workspaces at any time. 
+Running code in the interactive window builds up a context in your current session. The context is composed of global variables, function definitions, library loads, and so forth. This context is collectively called a *workspace*, and you can save and load workspaces at any time.
 
 Selecting the **Save Workspace As** button or using the **R Tools** > **Session** > **Save Workspace As** command prompts you for a location and filename (default extension is *.RData*).
 

@@ -161,7 +161,7 @@ namespace Trin_VstcoreVisioAutomationAddIn_O12
             Visio.Shape visioRectShape = visioPage.Drop(visioRectMaster, 4.25, 5.5);
             visioRectShape.Text = @"Rectangle text.";
 
-            Visio.Master visioStarMaster = visioStencil.Masters.get_ItemU(@"Star 7");
+            Visio.Master visioStarMaster = visioStencil.Masters.get_ItemU(@"5-Point Star");
             Visio.Shape visioStarShape = visioPage.Drop(visioStarMaster, 2.0, 5.5);
             visioStarShape.Text = @"Star text.";
 
@@ -186,7 +186,7 @@ namespace Trin_VstcoreVisioAutomationAddIn_O12
             Visio.Shape visioRectShape = visioPage.Drop(visioRectMaster, 4.25, 5.5);
             visioRectShape.Text = @"Rectangle text.";
 
-            Visio.Master visioStarMaster = visioStencil.Masters.get_ItemU(@"Star 7");
+            Visio.Master visioStarMaster = visioStencil.Masters.get_ItemU(@"5-Point Star 7");
             Visio.Shape visioStarShape = visioPage.Drop(visioStarMaster, 2.0, 5.5);
             visioStarShape.Text = @"Star text.";
 

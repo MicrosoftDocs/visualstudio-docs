@@ -1,23 +1,18 @@
 ---
-title: "Walkthrough: Creating a Web Part for SharePoint by Using a Designer | Microsoft Docs"
-ms.custom: ""
+title: "Create web part for SharePoint using designer"
 ms.date: "02/02/2017"
-ms.technology: 
-  - "office-development"
-ms.topic: "conceptual"
-dev_langs: 
+ms.topic: how-to
+dev_langs:
   - "VB"
   - "CSharp"
-  - "VB"
-  - "CSharp"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "Web Parts [SharePoint development in Visual Studio], designer"
   - "Web Parts [SharePoint development in Visual Studio], creating"
   - "Web Parts [SharePoint development in Visual Studio], designing"
-author: TerryGLee
-ms.author: tglee
-manager: douge
-ms.workload: 
+author: John-Hart
+ms.author: johnhart
+manager: jillfra
+ms.workload:
   - "office"
 ---
 # Walkthrough: Create a web part for SharePoint by using a designer
@@ -40,7 +35,7 @@ This walkthrough illustrates the following tasks:
 
 You need the following components to complete this walkthrough:
 
-- Supported editions of Windows and SharePoint. See [Requirements for Developing SharePoint Solutions](../sharepoint/requirements-for-developing-sharepoint-solutions.md).
+- Supported editions of Windows and SharePoint.
 
 ## Create a web part project
 
@@ -92,9 +87,9 @@ Add code that enables the user to add calendars to the master calendar view.
 
 1. Perform one of the following sets of steps:
 
-    - In the designer, double-click the **Update** button.
+   - In the designer, double-click the **Update** button.
 
-    - In the **Properties** window for the **Update** button, choose the **Events** button. In the **Click** property, enter **Button1_Click**, and then choose the Enter key.
+   - In the **Properties** window for the **Update** button, choose the **Events** button. In the **Click** property, enter **Button1_Click**, and then choose the Enter key.
 
      The user control code file opens in Code Editor and the `Button1_Click` event handler appears. Later, you'll add code to this event handler.
 
@@ -110,11 +105,11 @@ Add code that enables the user to add calendars to the master calendar view.
 
 4. Replace the `Page_Load` method of the `VisualWebPart1` class with the following code. This code performs the following tasks:
 
-    - Adds a monthly calendar view to the user control.
+   - Adds a monthly calendar view to the user control.
 
-    - Adds a check box for each calendar list on the site.
+   - Adds a check box for each calendar list on the site.
 
-    - Specifies a template for each type of item that appears in the calendar view.
+   - Specifies a template for each type of item that appears in the calendar view.
 
      [!code-vb[SP_VisualWebPart#3](../sharepoint/codesnippet/VisualBasic/sp_visualwebpart.vb/visualwebpart1/visualwebpart1usercontrol.ascx.vb#3)]
      [!code-csharp[SP_VisualWebPart#3](../sharepoint/codesnippet/CSharp/sp_visualwebpart.cs/visualwebpart1/visualwebpart1usercontrol.ascx.cs#3)]
@@ -186,7 +181,6 @@ Events from all calendars that you specified appear in the monthly calendar view
 
 ## See also
 
-[Creating Web Parts for SharePoint](../sharepoint/creating-web-parts-for-sharepoint.md)  
-[How to: Create a SharePoint Web Part](../sharepoint/how-to-create-a-sharepoint-web-part.md)  
-[How to: Create a SharePoint Web Part by Using a Designer](../sharepoint/how-to-create-a-sharepoint-web-part-by-using-a-designer.md)  
-[Walkthrough: Creating a Web Part for SharePoint](../sharepoint/walkthrough-creating-a-web-part-for-sharepoint.md)
+[Create web parts for SharePoint](../sharepoint/creating-web-parts-for-sharepoint.md)
+[How to: Create a SharePoint web part](../sharepoint/how-to-create-a-sharepoint-web-part.md)
+[Walkthrough: Create a web part for SharePoint](../sharepoint/walkthrough-creating-a-web-part-for-sharepoint.md)

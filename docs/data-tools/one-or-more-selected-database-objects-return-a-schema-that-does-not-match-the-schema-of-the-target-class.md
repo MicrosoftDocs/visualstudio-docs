@@ -1,15 +1,15 @@
 ---
-title: One or more selected database objects return a schema that does not match the schema of the target class
+title: Schema does not match
+description: One or more selected database objects return a schema that does not match the schema of the target class
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: reference
+ms.topic: error-reference
 ms.assetid: 3794e88b-4d3d-4e7a-ade6-8208eabe3eae
-author: gewarren
-ms.author: gewarren
-manager: douge
-ms.prod: visual-studio-dev15
-ms.technology: vs-data-tools
+author: ghogen
+ms.author: ghogen
+manager: jillfra
 ms.workload:
-  - "data-storage"
+- data-storage
 ---
 # One or more selected database objects return a schema that does not match the schema of the target class
 
@@ -21,9 +21,8 @@ When you drag database objects onto existing entity classes, the data returned b
 
 1. Click **OK** to dismiss the dialog box.
 
-2. Select a database object that returns data that matches the schema of the target class (the class the database object is being dropped onto in the O/R Designer).
+2. Select a database object that returns data that matches the schema of the target class (the class the database object is being dropped onto in the **O/R Designer**).
 
 ## See also
 
-- [O/R Designer messages](../data-tools/o-r-designer-messages.md)
 - [LINQ to SQL tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md)

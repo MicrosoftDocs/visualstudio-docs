@@ -1,25 +1,24 @@
 ---
-title: "How to: Profile JavaScript Code in Web Pages | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
-ms.topic: "conceptual"
+title: Profile JavaScript Code in Web Pages | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: how-to
 helpviewer_keywords: 
-  - "JavaScript performance profiling"
-  - "Profiling Tools,JavaScript"
-  - "web site performance profiling"
-author: "mikejo5000"
-ms.author: "mikejo"
-manager: douge
+  - JavaScript performance profiling
+  - Profiling Tools,JavaScript
+  - web site performance profiling
+author: mikejo5000
+ms.author: mikejo
+manager: jillfra
+monikerRange: 'vs-2017'
 ms.workload: 
-  - "multiple"
+  - multiple
 ---
 # How to: Profile JavaScript code in web pages
 
 Visual Studio Profiling Tools can collect performance data for JavaScript code that executes in an [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] web application, an arbitrary web page, or JavaScript application by using the instrumentation profiling method. Requires Internet Explorer 8 or later.
 
 > [!WARNING]
-> To profile JavaScript in UWP apps, see [JavaScript Memory](../profiling/javascript-memory.md) 
+> To profile JavaScript in UWP apps, see [JavaScript Memory](../profiling/javascript-memory.md)
 
 You can use the Profiling Wizard to create a performance session. Specify the instrumentation method and then specify the JavaScript profiling option on the Instrumentation page of the properties dialog box for the performance session.
 

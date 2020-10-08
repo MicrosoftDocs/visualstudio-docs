@@ -1,18 +1,16 @@
 ---
 title: Manage project and solution properties
 ms.date: 11/04/2016
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: conceptual
-author: gewarren
-ms.author: gewarren
-manager: douge
+author: TerryGLee
+ms.author: tglee
+manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Manage project and solution properties
 
-Projects have properties that govern many aspects of compilation, debugging, testing and deploying. Some properties are common among all project types, and some are unique to specific languages or platforms. You access project properties by right-clicking the project node in **Solution Explorer** and choosing **Properties**, or by typing "properties" into the **Quick Launch** search box on the menu bar.
+Projects have properties that govern many aspects of compilation, debugging, testing and deploying. Some properties are common among all project types, and some are unique to specific languages or platforms. You access project properties by right-clicking the project node in **Solution Explorer** and choosing **Properties** or by typing **properties** into the search box on the menu bar and choosing **Properties Window** from the results.
 
 ![Project context menu](../ide/media/vs2015_proj_prop_menu.gif)
 
@@ -20,13 +18,16 @@ Projects have properties that govern many aspects of compilation, debugging, tes
 
 ![Properties node in Solution Explorer tree](../ide/media/vs2015_props_se.png)
 
+> [!NOTE]
+> This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [Managing solution and project properties (Visual Studio for Mac)](/visualstudio/mac/managing-solutions-and-project-properties).
+
 ## Project properties
 
 Project properties are organized into groups, and each group has its own property page. The pages might be different for different languages and project types.
 
-### C#, Visual Basic and F# projects
+### C#, Visual Basic, and F# projects
 
-In C#, Visual Basic and F# projects, properties are exposed in the **Project Designer**. The following illustration shows the **Build** property page for a WPF project in C#:
+In C#, Visual Basic, and F# projects, properties are exposed in the **Project Designer**. The following illustration shows the **Build** property page for a WPF project in C#:
 
 ![Visual Studio Project Designer](../ide/media/vs2015_proppage_build.png)
 
@@ -41,7 +42,7 @@ C++ and JavaScript projects have a different user interface for managing project
 
 ![Visual C&#43;&#43; project properties](../ide/media/vs2015_projprops_cpp.png)
 
-For information about C++ project properties, see [Work with project properties (C++)](/cpp/ide/working-with-project-properties). For more information about JavaScript properties, see [Property pages, JavaScript](../ide/reference/property-pages-javascript.md).
+For information about C++ project properties, see [Work with project properties (C++)](/cpp/build/working-with-project-properties). For more information about JavaScript properties, see [Property pages, JavaScript](../ide/reference/property-pages-javascript.md).
 
 ## Solution properties
 
@@ -50,3 +51,4 @@ To access properties on the solution, right click the solution node in **Solutio
 ## See also
 
 - [Solutions and projects in Visual Studio](../ide/solutions-and-projects-in-visual-studio.md)
+- [Managing solution and project properties (Visual Studio for Mac)](/visualstudio/mac/managing-solutions-and-project-properties)

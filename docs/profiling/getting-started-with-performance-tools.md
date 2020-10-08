@@ -1,37 +1,33 @@
 ---
 title: "Getting started with performance tools | Microsoft Docs"
-ms.custom: ""
-ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
+ms.date: "11/04/2018"
 ms.topic: "conceptual"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "getting started, performance"
   - "getting started, profiling tools"
 ms.assetid: 02085214-a8e4-40fd-9b26-32391a7a7082
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
-ms.workload: 
+manager: jillfra
+monikerRange: 'vs-2017'
+ms.workload:
   - "multiple"
 ---
 # Getting started with performance tools
-This section provides an overview of the concepts and tasks that you will apply when you collect, view, and analyze code performance using the Visual Studio performance tools.  
-  
- These tools provide you with several ways to collect and analyze performance data. But in many cases, the best way to begin is to use the default settings of Performance Wizard, which allows you to  collect application statistics that can point you to performance issues in your code.  
-  
--   *Performance warnings* notify you of common coding issues. Warnings are displayed in the Visual Studio Errors window. You can navigate from the warning to your source code and to detailed help topics that help you write more efficient code.  
-  
--   Performance reports provide views on the different levels of your application structure from source code lines to processes, and program execution data from the calling and called functions of a specific function to the call tree of the entire application.  
-  
-## Common tasks  
-  
-|Task|Related Content|  
-|----------|---------------------|  
-|**Quickly profile an application or a Web site:** Use the Performance Wizard to configure and run a profiling session for a Visual Studio solution or a Web site.|-   [Beginners Guide to Performance Profiling](../profiling/beginners-guide-to-cpu-sampling.md)<br />-   [How to: Collect Performance Data for a Web Site](../profiling/how-to-collect-performance-data-for-a-web-site.md)|  
-|**Profile an application without the wizard:** Learn to use the performance session property pages to create a performance session.|-   [How to: Manually Create Performance Sessions](../profiling/how-to-manually-create-performance-sessions.md)|  
-  
-## See also  
- [Overviews](../profiling/overviews-performance-tools.md)   
- [Analyzing Performance Tools Data](../profiling/analyzing-performance-tools-data.md)   
- [Using Performance Rules to Analyze Data](../profiling/using-performance-rules-to-analyze-data.md)   
- [Configuring Performance Sessions](../profiling/configuring-performance-sessions.md)
+
+Visual Studio offers several ways to collect, view, and analyze code performance data. In many cases, the best way to get started with performance tools is to use the default settings of the **Performance Wizard**. The wizard collects app statistics that can point to performance issues in your code.
+
+- Performance warnings that notify you of common coding issues appear in the Visual Studio **Error List** window. You can navigate from the warnings to your source code, and to detailed help topics that help you write more efficient code.
+
+- Performance reports provide views on different levels of your application structure, source code lines, and processes. Performance reports show app execution data, from the calling and called functions of a specific function to the call tree of the entire app.
+
+To quickly profile a project, app, or ASP.NET website, select **Debug** > **Performance Profiler**, and select **Performance Wizard**. For detailed instructions, see [Beginners guide to performance profiling](../profiling/beginners-guide-to-cpu-sampling.md) and [How to: Collect performance data for a website](../profiling/how-to-collect-performance-data-for-a-web-site.md).
+
+To manually specify and configure a performance profiling session, select **Debug** > **Profiler** > **Performance Explorer**. Use the **Targets** folder and **Properties** pages in **Performance Explorer** to configure sessions. For instructions, see [How to: Manually create performance sessions](../profiling/how-to-manually-create-performance-sessions.md).
+
+**See also:**
+
+- [Performance tools overviews](../profiling/overviews-performance-tools.md)
+- [Analyzing performance tools data](../profiling/analyzing-performance-tools-data.md)
+- [Using performance rules to analyze data](../profiling/using-performance-rules-to-analyze-data.md)
+- [Configuring performance sessions](../profiling/configuring-performance-sessions.md)

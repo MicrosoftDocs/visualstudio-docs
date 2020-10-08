@@ -1,12 +1,11 @@
 ---
-title: Refactor a method signature in Visual Studio
-ms.date: 01/26/2018
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
+title: Change method signature
+description: Add, Remove, or change the order of a method's parameters. Right-click the method, select Quick Actions and Refactorings, and select Change Signature.
+ms.date: 07/20/2020
 ms.topic: reference
-author: gewarren
-ms.author: gewarren
-manager: douge
+author: mikadumont
+ms.author: midumont
+manager: jillfra
 f1_keywords:
   - "vs.csharp.refactoring.remove"
   - "vs.csharp.refactoring.reorder"
@@ -36,44 +35,43 @@ This refactoring applies to:
 
    - C#:
 
-    ![Highlighted code C#](media/changesignature-highlight-cs.png)
+       ![Highlighted code C#](media/changesignature-highlight-cs.png)
 
    - VB:
 
-    ![Highlighted code Visual Basic](media/changesignature-highlight-vb.png)
+       ![Highlighted code Visual Basic](media/changesignature-highlight-vb.png)
 
-1. Next, do one of the following:
+2. Next, do one of the following:
 
    - **Keyboard**
-     - Press **Ctrl+R**, then **Ctrl+V**.  (Note that your keyboard shortcut may be different based on which profile you've selected.)
-     - Press **Ctrl**+**.** to trigger the **Quick Actions and Refactorings** menu and select **Change Signature** from the Preview window popup.
+      - Press **Ctrl+R**, then **Ctrl+V**.  (Note that your keyboard shortcut may be different based on which profile you've selected.)
+      - Press **Ctrl**+**.** to trigger the **Quick Actions and Refactorings** menu and select **Change Signature** from the Preview window popup.
    - **Mouse**
-     - Select **Edit > Refactor > Remove Parameters**.
-     - Select **Edit > Refactor > Reorder Parameters**.
-     - Right-click the code, select the **Quick Actions and Refactorings** menu and select **Change Signature** from the Preview window popup.
+      - Select **Edit > Refactor > Remove Parameters**.
+      - Select **Edit > Refactor > Reorder Parameters**.
+      - Right-click the code, select the **Quick Actions and Refactorings** menu and select **Change Signature** from the Preview window popup.
 
-1. In the **Change Signature** dialog that pops up, you can use the buttons on the right side to change the method signature:
+3. In the **Change Signature** dialog that pops up, you can use the buttons on the right side to change the method signature:
 
-   ![Change Signature dialog](media/changesignature-dialog-cs.png)
+   ![Change Signature dialog](media/change-signature.png)
 
    | Button | Description
    | ------ | ---
    | **Up/Down** | Move the selected parameter up and down the list
-   | **Remove**  | Remove the selected parameter from the list
+   | **Add** | Add a new parameter to the list
+   | **Remove** | Remove the selected parameter from the list
    | **Restore** | Restore the selected, crossed-out parameter to the list
 
    > [!TIP]
    > Use the **Preview reference changes** checkbox to [see what the result will be](../../ide/preview-changes.md) before committing to it.
 
-1. When you are finished, press the **OK** button to make the changes.
+4. Selecting **Add** in the **Change Signature** dialog will open the **Add Parameter** dialog. The **Add Parameter** dialog allows you to add a type name and a parameter name. You can choose to make the parameter required or optional with a default value. You can then add a value at the call site and choose a named argument for that value or you can introduce a TODO variable. The TODO variable puts a TODO in your code so you can visit each error and go through each call site independently and decide what to pass. For optional parameters you have the option to omit the call site completely.
 
-   - C#:
+    ![Add Parameter dialog - C#](media/add-parameter-dialog.png)
 
-    ![Change Signature result - C#](media/changesignature-result-cs.png)
+5. When you are finished adding a parameter, press **OK** to preview the changes.
 
-   - Visual Basic:
-
-    ![Change Signature result - Visual Basic](media/changesignature-result-vb.png)
+    ![Change Signature dialog](media/change-signature.png)
 
 ## See also
 

@@ -1,24 +1,23 @@
 ---
-title: Visual Studio Test Professional 2017 workload and component IDs
-description: "Use Visual Studio workload and component IDs to provide integrated testing tools for generalist testers"
-keywords:
-author: TerryGLee
-ms.author: tglee
-manager: douge
-ms.date: 05/07/2018
+title: Visual Studio Test Professional workload and component IDs
+titleSuffix: ''
+description: Use Visual Studio workload and component IDs to provide integrated testing tools for generalist testers
+author: ornellaalt
+ms.author: ornella
+manager: jillfra
+ms.date: 03/16/2020
 ms.topic: reference
 helpviewer_keywords:
-  - "workload ID, Visual Studio"
-  - "component ID, Visual Studio"
-  - "install Visual Studio, administrator guide"
-ms.service:
-ms.technology: vs-acquisition
-ms.prod: visual-studio-dev15
+- workload ID, Visual Studio
+- component ID, Visual Studio
+- install Visual Studio, administrator guide
 ms.assetid: 70c03438-8434-4921-ada0-c172519af431
-ms.workload:
-  - "multiple"
+ms.prod: visual-studio-windows
+ms.technology: vs-installation
+monikerRange: vs-2017
+open_to_public_contributors: false
 ---
-# Visual Studio Test Professional 2017 component directory
+# Visual Studio Test Professional component directory
 
 The tables on this page list the IDs that you can use to install Visual Studio by using the command line or that you can specify as a dependency in a VSIX manifest. Note that we will add additional components as we release updates to Visual Studio.
 
@@ -54,16 +53,7 @@ Component ID | Name | Version
 --- | --- | ---
 n/a | n/a | n/a
 
-## Get support
-
-Sometimes, things can go wrong. If your Visual Studio installation fails, see the [Troubleshooting Visual Studio 2017 installation and upgrade issues](troubleshooting-installation-issues.md) page. If none of the troubleshooting steps help, you can contact us by live chat for installation assistance (English only). For details, see the [Visual Studio support page](https://visualstudio.microsoft.com/vs/support/#talktous).
-
-Here are a few more support options:
-
-* You can report product issues to us via the [Report a Problem](../ide/how-to-report-a-problem-with-visual-studio-2017.md) tool that appears both in the Visual Studio Installer and in the Visual Studio IDE.
-* You can share a product suggestion with us on [UserVoice](https://visualstudio.uservoice.com/forums/121579).
-* You can track product issues and find answers in the [Visual Studio Developer Community](https://developercommunity.visualstudio.com/).
-* You can also engage with us and other Visual Studio developers through the [Visual Studio conversation in the Gitter community](https://gitter.im/Microsoft/VisualStudio). (This option requires a [GitHub](https://github.com/) account.)
+[!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 
 ## See also
 

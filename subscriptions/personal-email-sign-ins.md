@@ -1,36 +1,57 @@
 ---
-title: Personal Emails Displayed In VLSC
+title: Personal emails displayed in VLSC
 author: evanwindom
-ms.author: jaunger
-manager: evelynp
-ms.date: 01/23/2018
-ms.topic: Get-Started-Article
-description:  Visual Studio Subscriptions – Why Am I Seeing Hotmail or Gmail Addresses for My Subscribers?   
-ms.prod: vs-subscription
-ms.technology: vs-subscriptions
-searchscope: VS Subscription
+ms.author: v-evwin
+manager: cabuschl
+ms.assetid: 3f4b0528-03f0-4a02-b3c3-a39292a9bbe1
+ms.date: 09/22/2020
+ms.topic: conceptual
+description:  Visual Studio Subscriptions – Why Am I Seeing Hotmail or Gmail Addresses for My Subscribers?
 ---
 
-# Visual Studio subscriptions – Why am I seeing Hotmail or Gmail addresses for my subscribers? 
-
-As companies migrate from the Volume Licensing Service Center (VLSC) to the new Visual Studio [Subscriptions Administration portal](https://manage.visualstudio.com), administrators may be surprised to find that the “Sign-in Email Address” for some subscribers shows a 3rd party email address like Hotmail, Gmail, or Yahoo.  For more information, check out [this video](https://www.youtube.com/watch?v=1op-i1zEMfY&t=0s&list=PLReL099Y5nRfDyvvwzNDBaZe7qTxmuM2T&index=6).
+# Visual Studio subscriptions – Why do I see personal accounts for my subscribers?
+After companies migrated from the Volume Licensing Service Center (VLSC) to the new Visual Studio [Subscriptions Administration Portal](https://manage.visualstudio.com), administrators were surprised to find that the “Sign-in Email Address” for some subscribers shows a personal email address like Hotmail or Outlook.  
 
 ## Cause
-
-This scenario occurs due to sign-in processes that were associated with the legacy MSDN subscriber experience. Users were migrated from the Volume License Service Center (VLSC) to the new portal without modifications. Administrators may not have been aware that users had been using personal accounts to access their subscription benefits. Prior to the Visual Studio subscriber migrations, which were completed in 2016, there were two actions required to successfully use a Visual Studio Subscription:
+This scenario occurs due to sign-in processes that were associated with the legacy MSDN subscriber experience. Users were migrated from the Volume License Service Center (VLSC) to the Visual Studio Subscriptions Administration Portal without modifications. Administrators may not have been aware that users had been using personal accounts to access their subscription benefits. Prior to the Visual Studio subscriber migrations, which were completed in 2016, there were two actions required to successfully use a Visual Studio Subscription:
 1. The administrator “assigned” the subscription to an individual subscriber, using their work or school email address.
 2. The subscriber “activated” the subscription.
 
 During the subscriber activation process:
 A Microsoft Account (MSA) was required to sign-in. If the subscriber didn’t attempt to make their work or school account (e.g. tasha@contoso.com) an MSA, they could create a new MSA or leverage an existing one. This resulted in their “Sign-in Email Address” being different than their “Assigned to Email Address”.
 
-> [!NOTE] 
-> The new subscriber experience on [https://my.visualstudio.com](https://my.visualstudio.com?wt.mc_id=o~msft~docs) supports both Work/School and Microsoft Account (MAA) identity types.
-
-Finally, since the administrator migration is taking data from VLSC regarding the subscriber’s “Sign-In Email Address” to populate the new subscriber management experience, recently migrated admins may see these previously unnoticed personal accounts due to changes to the user interface which make this information more visible.
+> [!NOTE]
+> The modern subscriber experience on [https://my.visualstudio.com](https://my.visualstudio.com?wt.mc_id=o~msft~docs) supports both Work/School and Microsoft Account (MSA) identity types.
 
 ## Solution
+To correct the problem, simply select the **Connect Emails** button and the system will attempt to match the accounts with MSAs to existing users in your organization’s Azure Active Directory (Azure AD) based on matching the first and last name. If there is an error, you can remove any match by clicking on the **X** to the right of the match.  
 
-To correct the problem, you'll need to edit subscriber information to update their sign-in email addresses.  Edits can be made for individual subscribers, or in bulk. For complete information, please visit [Edit a subscription](edit-license.md).  
+Watch this video or keep reading to learn how to fix this. 
 
-Once you have updated the subscriber(s) email address(es), you may want to notify them that their sign-in information has changed.  They will also receive an email with the updated information.   
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4th6B]
+
+> [!div class="mx-imgBorder"]
+> ![Connect Emails Button](_img/connect-emails/connect-emails-button.png "Click Connect Emails to match your users with Microsoft accounts to your Azure Active Directory")
+
+You can also use the **Search Directory** to correct the errors or fill in missing information from your Azure AD. If the all the matches look correct, you can choose the **Current identity** button to select all matched entries rather than selecting them one at a time.  
+
+> [!div class="mx-imgBorder"]
+> ![Connect Emails Fly-out](_img/connect-emails/connect-emails-flyout.png "Select which subscribers you want to match to their Azure AD identities and click Continue.")
+
+Next click on **Continue** which will take you to a list of the changes to take place. If you agree, click **Save** and the changes will be made. Your subscriber will also get a message informing them of the change the next time they sign in to their subscription.  Notice that only the two subscribers that were matched in the Azure Active Directory appear in this list.  In our example, since Frederick did not have a corresponding address in the Azure AD, his Microsoft account (MSA) was not matched to a work account. 
+
+> [!div class="mx-imgBorder"]
+> ![Connect Emails Confirmation](_img/connect-emails/connect-emails-confirm.png "Click Continue to implement the proposed changes, then click Save.") 
+
+> [!NOTE]
+> When you edit the sign in email address this only updates the email used by the subscriber to sign in to their subscription on https://my.visualstudio.com. If the subscriber has already activated benefits such as Azure or Pluralsight using the other email address, they will need to continue to use those email addresses to access them. For any new benefits that they access, they should use the new email address. 
+
+## See also
+- [Visual Studio documentation](/visualstudio/)
+- [Azure DevOps documentation](/azure/devops/)
+- [Azure documentation](/azure/)
+- [Microsoft 365 documentation](/microsoft-365/)
+
+##  Next steps
+- If you have updated the subscriber(s) email address(es), you may want to notify them that their sign-in information has changed.  They will also receive an email with the updated information.
+- It may be useful to [filter the list of subscribers](search-license.md) in your organization to look for any sign in email addresses that may need to be changed.

@@ -1,23 +1,22 @@
 ---
 title: XAML Designer options page
 ms.date: 03/02/2017
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
-  - "VS.ToolsOptionsPages.XAMLDesigner"
-author: gewarren
-ms.author: gewarren
-manager: douge
+- VS.ToolsOptionsPages.XAMLDesigner
+- VS.ToolsOptionsPages.XAML_Designer.General
+author: TerryGLee
+ms.author: tglee
+manager: jillfra
 ms.workload:
-  - "uwp"
+- uwp
 ---
 # XAML Designer options page
 
 Use the **XAML Designer** options page to specify how elements and attributes are formatted in your XAML documents. To open this page, choose the **Tools** menu and then choose **Options**. To access the **XAML Designer** property page, choose the **XAML Designer** node. Settings for the XAML Designer are applied when you open the document. So, if you make changes to the settings, you need to close and then reopen Visual Studio to see the changes.
 
 > [!NOTE]
-> The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Personalize the Visual Studio IDE](../../ide/personalizing-the-visual-studio-ide.md).
+> The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Reset settings](../environment-settings.md#reset-settings).
 
 ## Enable XAML Designer
 
@@ -29,7 +28,7 @@ The following settings apply only when XAML Designer is enabled. If you change t
 
 Use this setting to control whether Design view appears when XAML documents are loaded.
 
-|||
+|Name|Description|
 |-|-|
 |**Source View**|Specifies whether only XAML source appears in the XAML view. This is useful when  loading large documents.|
 |**Design View**|Specifies whether only a visual XAML Designer appears in the XAML view.|
@@ -39,7 +38,7 @@ Use this setting to control whether Design view appears when XAML documents are 
 
 Use this setting to control when and how the XAML Designer appears when editing a XAML document. These settings apply only when **Default document view** is set to **Split View**.
 
-|||
+|Name|Description|
 |-|-|
 |**Vertical**|XAML source appears on the left side of the XAML view, and the XAML Designer appears on the other side.|
 |**Horizontal**|The XAML Designer appears on the top of the XAML view, and the XAML source appears below it.|
@@ -49,18 +48,18 @@ Use this setting to control when and how the XAML Designer appears when editing 
 
 Use this setting to determine how zoom works when editing a XAML document.
 
-|||
+|Name|Description|
 |-|-|
 |**Mouse wheel**|Zoom in the XAML Designer by scrolling the mouse wheel.|
-|**Ctrl + mouse wheel**|Zoom in the XAML Designer by pressing the CTRL key while scrolling the mouse wheel.|
-|**Alt + mouse wheel**|Zoom in the XAML Designer by pressing the ALT key while scrolling the mouse wheel.|
+|**Ctrl + mouse wheel**|Zoom in the XAML Designer by pressing the **Ctrl** key while scrolling the mouse wheel.|
+|**Alt + mouse wheel**|Zoom in the XAML Designer by pressing the **Alt** key while scrolling the mouse wheel.|
 
 These settings determine Designer behavior when editing a XAML document.
 
-|||
+|Name|Description|
 |-|-|
 |**Automatically name interactive elements on creation**|Specifies whether a default name is provided for a new interactive element when you add one to the Designer.|
-|**Automatically insert layout properties on element creation**|Specifies whether layout properties are provided for a new element when you add one to the Designer.|
+|**Automatically insert layout properties on element creation**|Specifies whether layout properties are provided for a new element when you add one to the Designer. Layout properties are those that impact the layout of a control, for example, Margin and VerticalAlignment. The following XAML shows how a Button is created with and without this option selected:<br />`<Button Content="Button" HorizontalAlignment="Left" Margin="245,56,0,0" Grid.Row="1" VerticalAlignment="Top" Width="75"/>`<br />`<Button Content="Button" Grid.Row="1"/>`|
 |**Use quadrant based layout**|Specifies whether the currently selected control aligns to the nearest edges of the parent container. If this checkbox is cleared, control alignments do not change during a move or create operation.|
 |**Automatically populate toolbox items**|Specifies whether user controls and custom controls in the current solution are shown in the Toolbox automatically.|
 
@@ -68,9 +67,9 @@ These settings determine Designer behavior when editing a XAML document.
 
 Use these options to determine settings when editing XAML files using Blend.
 
-|||
+|Name|Description|
 |-|-|
-|**Zoom by using**|Zoom in the XAML Designer by scrolling the mouse wheel, or by pressing the CTRL or ALT key while scrolling the mouse wheel.|
+|**Zoom by using**|Zoom in the XAML Designer by scrolling the mouse wheel, or by pressing the **Ctrl** or **Alt** key while scrolling the mouse wheel.|
 |**Type units**|Specifies whether measurements on the designer are based on points or pixels. Because Universal Windows Apps don't support points, units are automatically converted to pixels if **Points** is selected.|
 
 ## Artboard (Blend only)
@@ -79,7 +78,7 @@ Use these settings to determine XAML Designer behavior when editing XAML documen
 
 ### Snapping
 
-|||
+|Name|Description|
 |-|-|
 |**Show snap grid**|When this option is selected, gridlines appear in the designer to help you align controls. Controls added to the designer snap to these gridlines when the **Snap to gridlines** option is selected.|
 |**Snap to gridlines**|When controls are added or moved around the designer, they snap to the gridlines.|
@@ -96,7 +95,7 @@ Use this setting to determine whether a warning appears when dependent (non-acce
 
 Use these settings to determine whether effects are rendered when editing XAML files in the XAML Designer using Blend.
 
-|||
+|Name|Description|
 |-|-|
 |**Render effects**|Specifies whether effects render when editing XAML files in the XAML Designer using Blend.|
 |**Zoom threshold**|Specifies the percentage of zoom in which effects render when the **Render effects** checkbox is selected. If you zoom beyond this setting, effects no longer render in the XAML Designer.|

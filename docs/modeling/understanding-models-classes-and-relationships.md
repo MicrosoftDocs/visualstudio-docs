@@ -3,14 +3,12 @@ title: Understanding Models, Classes and Relationships
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
-  - "Domain-Specific Language, models"
-author: gewarren
-ms.author: gewarren
-manager: douge
+- Domain-Specific Language, models
+author: JoshuaPartlow
+ms.author: joshuapa
+manager: jillfra
 ms.workload:
-  - "multiple"
-ms.prod: visual-studio-dev15
-ms.technology: vs-ide-modeling
+- multiple
 ---
 # Understanding Models, Classes and Relationships
 A domain-specific language (DSL) is defined by its DSL Definition file, together with any custom program code that you might write. Most of the program code in the DSL solution is generated from this file.
@@ -18,7 +16,7 @@ A domain-specific language (DSL) is defined by its DSL Definition file, together
  This topic explains the central features of the DSL definition.
 
 ## The DSL Definition
- When you open `Dsl\DslDefinition.dsl`, your [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] window resembles the following picture.
+ When you open `Dsl\DslDefinition.dsl`, your Visual Studio window resembles the following picture.
 
  ![dsl designer](../modeling/media/dsl_designer.png)
 
@@ -57,13 +55,13 @@ A domain-specific language (DSL) is defined by its DSL Definition file, together
 
  To rearrange the DSL Definition diagram, you can:
 
--   Swap main and reference views by using the **Bring Tree Here** and **Split Tree** commands. Right-click a single domain class to see these commands.
+- Swap main and reference views by using the **Bring Tree Here** and **Split Tree** commands. Right-click a single domain class to see these commands.
 
--   Re-order the domain classes and shape classes by pressing Ctrl+Up and Ctrl+Down.
+- Re-order the domain classes and shape classes by pressing Ctrl+Up and Ctrl+Down.
 
--   Collapse or expand classes using the icon at the upper-right of each shape.
+- Collapse or expand classes using the icon at the upper-right of each shape.
 
--   Collapse parts of the tree by clicking the minus sign (-) at the bottom of a domain class.
+- Collapse parts of the tree by clicking the minus sign (-) at the bottom of a domain class.
 
 ## Inheritance
  Domain classes can be defined using inheritance. To create an inheritance derivation, click the Inheritance tool, click the derived class, and then click the base class. A model element has all the properties that are defined on its own domain class, together with all the properties inherited from the base class. It also inherits its roles in relationships.
@@ -89,7 +87,7 @@ A domain-specific language (DSL) is defined by its DSL Definition file, together
  When a model is saved to file in XML form, embedded elements are nested inside their parents, unless you have customized the serialization.
 
 > [!NOTE]
->  Embedding is not the same as inheritance. Children in an embedding relationship do not inherit the parent's properties. An embedding is a type of link between model elements. Inheritance is a relationship between classes, and does not create links between model elements.
+> Embedding is not the same as inheritance. Children in an embedding relationship do not inherit the parent's properties. An embedding is a type of link between model elements. Inheritance is a relationship between classes, and does not create links between model elements.
 
 ### Embedding rules
  Every element in an instance model must be the target of exactly one embedding link, except for the root of the model.
@@ -129,7 +127,7 @@ A domain-specific language (DSL) is defined by its DSL Definition file, together
  Configure the multiplicity of a role either by typing on the diagram or by modifying the `Multiplicity` property in the **Properties** window. The following table describes the settings for this property.
 
 |Multiplicity type|Description|
-|-----------------------|-----------------|
+|-|-|
 |0..* (Zero to many)|Each instance of the domain class can have multiple instances of the relationship or no instances of the relationship.|
 |0..1 (Zero to one)|Each instance of the domain class can have no more than one instance of the relationship or no instances of the relationship.|
 |1..1 (One)|Each instance of the domain class can have one instance of the relationship. You cannot create more than one instance of this relationship from any instance of the role class. If validation is enabled, a validation error will appear when any instance of the role class has no instance of the relationship.|
@@ -144,6 +142,6 @@ A domain-specific language (DSL) is defined by its DSL Definition file, together
 
  A derived relationship specializes its base relationship. The domain classes that it links should be derived from or the same as the classes linked by the base relationship. When a link of the derived relationship is created in a model, it is an instance of both the derived and the base relationships. In program code, you can navigate to the opposite end of the link using the properties generated either by the base or by the derived class.
 
-## See Also
+## See also
 
-- [Domain-Specific Language Tools Glossary](http://msdn.microsoft.com/ca5e84cb-a315-465c-be24-76aa3df276aa)
+- [Domain-Specific Language Tools Glossary](/previous-versions/bb126564(v=vs.100))

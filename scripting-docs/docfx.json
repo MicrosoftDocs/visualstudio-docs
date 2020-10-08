@@ -34,21 +34,31 @@
       "feedback_system": "GitHub",
       "feedback_github_repo": "MicrosoftDocs/visualstudio-docs",
       "feedback_product_url": "https://developercommunity.visualstudio.com/",
-            "breadcrumb_path": "~/_breadcrumb/toc.yml",
-            "ROBOTS": "INDEX,FOLLOW",
-            "author": "",
-            "ms.author": "",
-            "manager": "ghogen",
-            "ms.date": "3/7/2017",
-            "ms.topic": "article",
-            "audience": "developer",
-            "ms.reviewer": "",
-            "searchScope": ["Scripting"],
-            "hideScope": true
+      "breadcrumb_path": "~/_breadcrumb/toc.yml",
+      "ROBOTS": "INDEX,FOLLOW",
+      "author": "mikejo5000",
+      "ms.author": "mikejo",
+      "manager": "jillfra",
+      "ms.date": "3/7/2017",
+      "ms.topic": "reference",
+      "ms.prod": "visual-studio-windows",
+      "ms.technology": "vs-javascript",
+      "audience": "developer",
+      "searchScope": [
+        "Scripting"
+      ],
+      "hideScope": true
     },
     "fileMetadata": {},
     "template": [],
-    "xref": ["msdn.4.5.2.zip", "namespaces.4.5.2.zip", "vs.110.zip", "vs.140.zip", "office15.zip"],
-    "dest": "scripting-docs"
+    "xref": [
+      "msdn.4.5.2.zip",
+      "namespaces.4.5.2.zip",
+      "vs.110.zip",
+      "vs.140.zip",
+      "office15.zip"
+    ],
+    "dest": "scripting-docs",
+    "markdownEngineName": "markdig"
   }
 }

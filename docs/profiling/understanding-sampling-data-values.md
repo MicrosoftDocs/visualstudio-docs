@@ -1,16 +1,15 @@
 ---
 title: "Understanding Sampling Data Values | Microsoft Docs"
-ms.custom: ""
 ms.date: "11/04/2016"
-ms.technology: "vs-ide-debug"
 ms.topic: "conceptual"
-helpviewer_keywords: 
+helpviewer_keywords:
   - "sampling profiling method"
   - "Profiling Tools, sampling"
 author: "mikejo5000"
 ms.author: "mikejo"
-manager: douge
-ms.workload: 
+manager: jillfra
+monikerRange: 'vs-2017'
+ms.workload:
   - "multiple"
 ---
 # Understand sampling data values
@@ -47,5 +46,5 @@ The percentage of the total number of exclusive samples in the profiling run tha
 
 ## See also
 
-[How to: Choose collection methods](../profiling/how-to-choose-collection-methods.md)  
+[How to: Choose collection methods](../profiling/how-to-choose-collection-methods.md)
 [Analyze performance tools data](../profiling/analyzing-performance-tools-data.md)

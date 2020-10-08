@@ -1,15 +1,13 @@
 ---
-title: "Workflow Designer - Error Handling Activity Designers"
+title: Workflow Designer - Error Handling Activity Designers
 ms.date: 11/04/2016
 ms.topic: reference
-ms.prod: visual-studio-dev15
-ms.technology: vs-workflow-designer
 ms.assetid: 9679ca32-ad7f-4089-824e-fdb931e47a30
-author: gewarren
-ms.author: gewarren
-manager: douge
+author: TerryGLee
+ms.author: tglee
+manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Error Handling Activity Designers
 
