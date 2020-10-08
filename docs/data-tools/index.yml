@@ -60,7 +60,7 @@ landingContent:
           - text: Work with data in Visual Studio
             url: accessing-data-in-visual-studio.md
           - text: Work with SQL Server Data Tools
-            url: /sql/ssdt/sql-server-data-tools?view=sql-server-ver15
+            url: /sql/ssdt/sql-server-data-tools?view=sql-server-ver15&preserve-view=true
           - text: Data Access in C++
             url: /cpp/data/data-access-in-cpp?view=vs-2019&preserve-view=true
 
