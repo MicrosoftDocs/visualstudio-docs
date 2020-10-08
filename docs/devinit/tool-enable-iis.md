@@ -14,7 +14,7 @@ ms.technology: devinit
 ---
 # enable-iis
 
-The `enable-iis` tool is used to enable IIS features and install the [ASP.NET Core Module](https://docs.microsoft.com/aspnet/core/host-and-deploy/aspnet-core-module) for ASP.NET development with IIS.
+The `enable-iis` tool is used to enable IIS features and install the [ASP.NET Core Module](/aspnet/core/host-and-deploy/aspnet-core-module) for ASP.NET development with IIS.
 
 ## Usage
 

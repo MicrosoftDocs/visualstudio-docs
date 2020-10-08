@@ -71,7 +71,7 @@ If you install analyzers as a Visual Studio extension, they apply at the solutio
 
 To have rules enforced at build time, including through the command line or as part of a continuous integration (CI) build you can choose from one of the following options:
 
-- Create a .NET 5.0 project which includes analyzers by default in the .NET SDK. Code analysis is enabled, by default, for projects that target .NET 5.0 or later. You can enable code analysis on projects that target earlier .NET versions by setting the [EnableNETAnalyzers](https://docs.microsoft.com/dotnet/core/project-sdk/msbuild-props#enablenetanalyzers) property to true.
+- Create a .NET 5.0 project which includes analyzers by default in the .NET SDK. Code analysis is enabled, by default, for projects that target .NET 5.0 or later. You can enable code analysis on projects that target earlier .NET versions by setting the [EnableNETAnalyzers](/dotnet/core/project-sdk/msbuild-props#enablenetanalyzers) property to true.
 
 - Install analyzers as a NuGet package. Analyzer warnings and errors don't show up in the build report if you install the analyzers as an extension.
 
