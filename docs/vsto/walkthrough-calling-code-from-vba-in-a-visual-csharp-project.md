@@ -155,7 +155,7 @@ ms.workload:
 
      [!code-csharp[Trin_CallingCSCustomizationFromVBA#2](../vsto/codesnippet/CSharp/CallingCodeFromVBA/Sheet1.cs#2)]
 
-3. Add the following method to the `Sheet1` class. This method overrides the <xref:Microsoft.Office.Tools.Excel.Worksheet.GetAutomationObject%2A> method to return the current instance of the `Sheet1` class.
+3. Add the following method to the `Sheet1` class. This method overrides the <xref:Microsoft.Office.Tools.Excel.WorksheetBase.GetAutomationObject%2A> method to return the current instance of the `Sheet1` class.
 
      [!code-csharp[Trin_CallingCSCustomizationFromVBA#3](../vsto/codesnippet/CSharp/CallingCodeFromVBA/Sheet1.cs#3)]
 
