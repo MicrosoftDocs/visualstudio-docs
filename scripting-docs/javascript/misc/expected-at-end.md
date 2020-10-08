@@ -23,5 +23,5 @@ You attempted to create a conditionally compiled block of code, but did not incl
 - Add the corresponding <strong>@end</strong> statement.  
   
 ## See also  
- [Conditional Compilation](../../javascript/advanced/conditional-compilation-javascript.md)   
- [Conditional Compilation Variables](../../javascript/advanced/conditional-compilation-variables-javascript.md)
+ [Conditional Compilation](/previous-versions/windows/internet-explorer/ie-developer/scripting-articles/121hztk3(v=vs.84))   
+ [Conditional Compilation Variables](/previous-versions/windows/internet-explorer/ie-developer/scripting-articles/s59bkzce(v=vs.84))
