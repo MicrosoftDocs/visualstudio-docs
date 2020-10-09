@@ -24,12 +24,12 @@ ms.workload:
 
 The Visual Studio integrated development environment (IDE) has many menus, options, and features, which can be difficult to remember. The Visual Studio search feature is a single search box that helps developers find IDE menus and options, while also searching your code. Whether you're new to Visual Studio or an experienced developer, this feature offers a quick way to search across IDE features and your code.
 
-> [!NOTE]
-> The command executed by Visual Studio search is `Window.QuickLaunch` and you may see this feature referred to as quick search or quick launch.
-
 Use the **Ctrl**+**Q** keyboard shortcut to access the search box or click the Visual Studio Search input box, located next to the menu bar by default:
 
 :::image type="content" source="media/visual-studio-search-cropped.png" alt-text="Visual Studio search box" lightbox="media/visual-studio-search.png":::
+
+> [!NOTE]
+> The command executed by Visual Studio search is `Window.QuickLaunch` and you may see this feature referred to as quick search or quick launch.
 
 Unlike other search features such as Find in Files or Search Solution Explorer, search in Visual Studio results include IDE features, menu options, file names, and more. The following sections discuss the different types of results that Visual Studio search can find.
 
@@ -56,7 +56,7 @@ Visual Studio search also searches your solution items for filename, code, metho
 
 :::image type="content" source="media/visual-studio-search-files.png" alt-text="Search files with Visual Studio search":::
 
-You can also do a "camel hump" search. In the following screenshot, a search for *FSS* has found a **F**older**S**ize**S**canner file, class, and method:
+You can also do a "camel case" search. In the following screenshot, a search for *FSS* has found a **F**older**S**ize**S**canner file, class, and method:
 
 :::image type="content" source="media/visual-studio-search-camel.png" alt-text="Camel hump search with Visual Studio search":::
 
