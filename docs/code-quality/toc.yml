@@ -16,9 +16,9 @@
       - name: Code quality
         items:
         - name: Code quality options
-          href: /dotnet/fundamentals/code-analysis/code-quality-rule-options?toc=%252fvisualstudio%252fcode-quality%252ftoc.json
+          href: /dotnet/fundamentals/code-analysis/code-quality-rule-options?toc=%2fvisualstudio%2fcode-quality%2ftoc.json
         - name: Use EditorConfig files for code quality
-          href: /dotnet/fundamentals/code-analysis/configuration-files?toc=%252fvisualstudio%252fcode-quality%252ftoc.json
+          href: /dotnet/fundamentals/code-analysis/configuration-files?toc=%2fvisualstudio%2fcode-quality%2ftoc.json
       - name: Code style
         items:
         - name: Code style preferences
@@ -27,7 +27,7 @@
           displayName: Configure code style analyzers
           href: ../ide/create-portable-custom-editor-options.md?toc=%252fvisualstudio%252fcode-quality%252ftoc.json
         - name: Rule options
-          href: /dotnet/fundamentals/code-analysis/code-style-rule-options?toc=%252fvisualstudio%252fcode-quality%252ftoc.json
+          href: /dotnet/fundamentals/code-analysis/code-style-rule-options?toc=%2fvisualstudio%2fcode-quality%2ftoc.json
       - name: Configure live code analysis
         href: configure-live-code-analysis-scope-managed-code.md
       - name: Run code analysis manually
