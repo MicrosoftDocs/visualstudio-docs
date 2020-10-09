@@ -14,7 +14,7 @@ ms.technology: devinit
 ---
 # azurecli-login
 
-The `azurecli-login` tool is used to sign into Azure Active Directory via [Azure CLI](https://docs.microsoft.com/cli/azure/authenticate-azure-cli?view=azure-cli-latest&preserve-view=true). This tool uses the Azure CLI command: `az login --use-device-code`, to complete the login you will need to follow instructions printed to the console.
+The `azurecli-login` tool is used to sign into Azure Active Directory via [Azure CLI](/cli/azure/authenticate-azure-cli?preserve-view=true&view=azure-cli-latest). This tool uses the Azure CLI command: `az login --use-device-code`, to complete the login you will need to follow instructions printed to the console.
 
 ## Usage
 

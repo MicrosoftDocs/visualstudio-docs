@@ -27,6 +27,6 @@ You included a `throw` statement in your code, but it was not enclosed within a 
 - If the exception is rethrown, make sure there is another corresponding catch statement.  
   
 ## See also  
- [Error Object](../../javascript/reference/error-object-javascript.md)   
- [throw Statement](../../javascript/reference/throw-statement-javascript.md)   
- [try...catch...finally Statement](../../javascript/reference/try-dot-dot-dot-catch-dot-dot-dot-finally-statement-javascript.md)
+ [Error Object](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Error)   
+ [throw Statement](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/throw)   
+ [try...catch...finally Statement](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/try...catch)

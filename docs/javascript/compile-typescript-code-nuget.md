@@ -102,6 +102,10 @@ For an example of using gulp with the Task Runner to build your app, see [ASP.NE
 
 If you run into issues where Visual Studio is using a version of Node.js or a third-party tool that is different than what the version you expected, you may need to set the path for Visual Studio to use. Choose **Tools** > **Options**. Under **Projects and solutions**, choose **Web Package Management** > **External Web Tools**.
 
+### Run the application
+
+For instructions to run the app after you compile it, see [Create your first Node.js app](/visualstudio/ide/quickstart-nodejs?toc=%2Fvisualstudio%2Fjavascript%2Ftoc.json#run-the-application).
+
 ### NuGet package structure details
 
 `Microsoft.TypeScript.MSBuild.nupkg` contains two main folders:

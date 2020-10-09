@@ -220,7 +220,7 @@ Here is a table that lists the different tools Visual Studio offers and the diff
 |[CPU Usage](../profiling/beginners-guide-to-performance-profiling.md)|yes|yes|yes|
 |[Memory Usage](../profiling/memory-usage.md)|yes|yes|yes|
 |[.NET Object Allocation](../profiling/dotnet-alloc-tool.md)|yes (.NET only)|yes|yes|
-|[GPU Usage](/visualstudio/debugger/graphics/gpu-usage)|yes|yes|no|
+|[GPU Usage](./gpu-usage.md)|yes|yes|no|
 |[Application Timeline](../profiling/application-timeline.md)|yes (XAML)|yes|no|
 |[Events viewer](../profiling/events-viewer.md)|yes|yes|yes|
 |[.NET Async](../profiling/analyze-async.md)|yes (.NET only)|yes|yes|
@@ -234,7 +234,7 @@ Here is a table that lists the different tools Visual Studio offers and the diff
 |----------------------|---------------------|-------------|-------------|
 |[CPU Usage](../profiling/beginners-guide-to-performance-profiling.md)|yes|yes|yes|
 |[Memory Usage](../profiling/memory-usage.md)|yes|yes|yes|
-|[GPU Usage](/visualstudio/debugger/graphics/gpu-usage)|yes|yes|no|
+|[GPU Usage](./gpu-usage.md)|yes|yes|no|
 |[Application Timeline](../profiling/application-timeline.md)|yes (XAML)|yes|no|
 |[PerfTips](../profiling/perftips.md)|yes|yes for XAML, no for HTML|yes|
 |[Performance Explorer](../profiling/performance-explorer.md)|yes|no|yes|
