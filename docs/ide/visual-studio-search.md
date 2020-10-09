@@ -56,7 +56,7 @@ Visual Studio search also searches your solution items for filename, code, metho
 
 ![Search files with Visual Studio search](media/visual-studio-search-files.png)
 
-You can also do a "camel hump" search. In the following screenshot, a search for **FSS*** has found a **F**older**S**ize**S**canner file, class, and method:
+You can also do a "camel hump" search. In the following screenshot, a search for **FSS** has found a **F**older**S**ize**S**canner file, class, and method:
 
 ![Camel hump search with Visual Studio search](media/visual-studio-search-camel.png)
 
