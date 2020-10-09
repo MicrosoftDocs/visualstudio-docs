@@ -107,6 +107,10 @@ The [TypeScript npm package](https://www.npmjs.com/package/typescript) adds Type
 
    Source map files are required for [debugging](../javascript/debug-nodejs.md).
 
+### Run the application
+
+For instructions to run the app after you compile it, see [Create your first Node.js app](/visualstudio/ide/quickstart-nodejs?toc=%2Fvisualstudio%2Fjavascript%2Ftoc.json#run-the-application).
+
 ## Automate build tasks
 
 You can use Task Runner Explorer in Visual Studio to help automate tasks for third-party tools like npm and webpack.
