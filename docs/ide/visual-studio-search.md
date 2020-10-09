@@ -21,7 +21,7 @@ ms.workload:
 
 # Use Visual Studio Search
 
-The Visual Studio integrated development environment (IDE) is a robust development tool filled with menus, settings, options, and features which can be difficult to remember. The Visual Studio Search feature is a single search box that helps developers find Visual Studio integrated development environment (IDE) settings, keyboard shortcuts, code files and components, and commands. If you are new to Visual Studio, or an experienced developer, this is a quick way to search across Visual Studio capabilities and your files, projects, or solution.
+The Visual Studio integrated development environment (IDE) has many menus, options, and features, which can be difficult to remember. The Visual Studio Search feature is a single search box that helps developers find Visual Studio integrated development environment (IDE) settings, keyboard shortcuts, code files and components, and commands. Whether you're new to Visual Studio or an experienced developer, this feature offers a quick way to search across IDE features and your code.
 
 > [!NOTE]
 > The command executed by Visual Studio search is `Window.QuickLaunch` and you may see this feature referred to as quick search or quick launch.
@@ -51,7 +51,7 @@ Finally, you can search for windows or panels that you may have accidentally clo
 
 ## Search files and code
 
-In addition to searching the IDE itself, Visual Studio search also searches your solution items for filename, code, method, and other matches. In the following screenshot, a search for **markdown** has found the **MarkdownMetaExtractor.cs** file, the `MarkdownMetaExtractor` class, and two methods within the solution:
+Visual Studio search also searches your solution items for filename, code, method, and other matches. In the following screenshot, a search for **markdown** has found the **MarkdownMetaExtractor.cs** file, the `MarkdownMetaExtractor` class, and two methods within the solution:
 
 ![Search files with Visual Studio search](media/visual-studio-search-files.png)
 
