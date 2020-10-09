@@ -13,6 +13,7 @@ helpviewer_keywords:
 - Window.QuickLaunch
 - IDE navigator
 ms.assetid: 3870a8fd-4afa-4f1e-a811-9fdf41a9e82d
+monikerRange: vs-2019
 author: profexorgeek
 ms.author: jusjohns
 manager: jillfra
