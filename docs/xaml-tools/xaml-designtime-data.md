@@ -132,6 +132,43 @@ xmlns:models="clr-namespace:Cities.Models"
 
 The benefit here is that you can bind your controls to a design-time static version of your model.
 
+## Extensibility
+
+To extend this feature you need three things
+
+1. A custom xmlns namespace 
+
+    ```xml
+    xmlns:myControls="http://MyCustomControls"
+    ```
+
+2. A design-time version of your namespace. This can be achieved by simply appending /design at the end.
+
+     ```xml
+    xmlns:myDesignTimeControls="http://MyCustomControls/design"
+    ```
+
+3. Adding your design-time prefix to the mc:Ignorable
+
+    ```xml
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="myDesignTimeControls"
+    ```
+
+Once you have all these steps, you can use your `myDesignTimeControls` prefix to create your design-time controls.
+
+```xml
+<myDesignTimeControls:MyButton>Hello I am a design time Button</myDesignTimeControls:MyButton>
+```
+
+### Creating a custom xmlns namespace
+
+To create a custom xmlns namespace in WPF .NET Core, you need to map your custom namespace to the namespace your controls are in. You can do that by adding the `XmlnsDefinition` attribute in your `AssemblyInfo.cs` file. The file is found in the root hierarchy of your project.
+
+   ```C#
+[assembly: XmlnsDefinition("http://MyCustomControls", "MyViews.MyButtons")]
+   ```
+
 ## Troubleshooting
 
 If you experience a problem that isn't listed in this section, please let us know by using the [Report a Problem](../ide/how-to-report-a-problem-with-visual-studio.md) tool.
