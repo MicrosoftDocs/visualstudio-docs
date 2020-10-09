@@ -22,7 +22,7 @@ ms.workload:
 
 # Use Visual Studio search
 
-The Visual Studio integrated development environment (IDE) has many menus, options, and features, which can be difficult to remember. The Visual Studio Search feature is a single search box that helps developers find Visual Studio integrated development environment (IDE) settings, keyboard shortcuts, code files and components, and commands. Whether you're new to Visual Studio or an experienced developer, this feature offers a quick way to search across IDE features and your code.
+The Visual Studio integrated development environment (IDE) has many menus, options, and features, which can be difficult to remember. The Visual Studio Search feature is a single search box that helps developers find IDE menus and options, while also searching your code. Whether you're new to Visual Studio or an experienced developer, this feature offers a quick way to search across IDE features and your code.
 
 > [!NOTE]
 > The command executed by Visual Studio search is `Window.QuickLaunch` and you may see this feature referred to as quick search or quick launch.
