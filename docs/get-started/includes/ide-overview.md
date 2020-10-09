@@ -87,7 +87,7 @@ Some of the popular features in Visual Studio that help you to be more productiv
 
 - [Visual Studio search](../../ide/visual-studio-search.md)
 
-   Visual Studio can seem overwhelming at times with so many menus, options, and properties. Visual Studio search (**CTRL**+**Q**) is a great way to rapidly find IDE features and code in one place.
+   Visual Studio can seem overwhelming at times with so many menus, options, and properties. Visual Studio search (**Ctrl**+**Q**) is a great way to rapidly find IDE features and code in one place.
 
    ::: moniker range="vs-2017"
 
