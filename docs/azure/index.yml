@@ -51,7 +51,7 @@ landingContent:
         - text: Container tools in Visual Studio
           url: ../containers/overview.md
         - text: Kubernetes tools
-          url: ../containers/tutorial-kubernetes-tools.md
+          url: ../containers/bridge-to-kubernetes.md
 
   - title: Debug Azure services and analyze performance
     linkLists:

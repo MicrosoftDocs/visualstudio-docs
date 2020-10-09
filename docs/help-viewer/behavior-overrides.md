@@ -1,5 +1,6 @@
 ---
 title: Help Content Manager overrides
+description: Learn about Help Content Manager overrides, which change the default behavior of Help Viewer and help-related features in the Visual Studio IDE.
 ms.date: 11/01/2017
 ms.topic: conceptual
 ms.assetid: 95fe6396-276b-4ee5-b03d-faacec42765f
