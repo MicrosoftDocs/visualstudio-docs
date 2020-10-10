@@ -1,6 +1,6 @@
 ---
 title: First look at the Visual Studio IDE
-description: In this article, learn about the Visual Studio integrated development environment (IDE), including the windows, menus, and other UI features most commonly used.
+description: Learn about the Visual Studio integrated development environment (IDE), including the windows, menus, and other UI features most commonly used.
 ms.custom: SEO-VS-2020
 titleSuffix: ""
 ms.date: 02/05/2019
