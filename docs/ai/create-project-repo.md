@@ -1,6 +1,6 @@
 ---
 title: Clone a repo
-description: In this article, learn how to use Visual Studio Tools for AI to clone a repository of Python code and create a project from it.
+description: Learn how to use Visual Studio Tools for AI to clone a repository of Python code and create a project from it.
 ms.custom: SEO-VS-2020
 author: jillre
 ms.author: jillfra
