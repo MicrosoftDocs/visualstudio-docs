@@ -1,6 +1,6 @@
 ---
 title: Create an AI project from existing code
-description: In this article, learn how to use Visual Studio Tools for AI to bring existing Python code into a Visual Studio project.
+description: Learn how to use Visual Studio Tools for AI to bring existing Python code into a Visual Studio project.
 ms.custom: SEO-VS-2020
 author: jillre
 ms.author: jillfra
