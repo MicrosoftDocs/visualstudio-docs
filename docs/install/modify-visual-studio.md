@@ -84,7 +84,7 @@ Here's how.
 
 1. In the installer, look for the edition of Visual Studio that you installed, and then choose **Modify**.
 
-     ![Update or modify Visual Studio](media/vs-2019/vs-installer-modify.png "Update or modify Visual Studio 2019")
+     ![Choose Visual Studio edition and then modify](media/vs-2019/vs-installer-modify.png "Choose Visual Studio 2019 edition and then modify")
 
      > [!IMPORTANT]
      > If you have an update pending, the Modify button is in a different place. This way, you can modify Visual Studio without updating it, should you want to. Choose **More**, and then choose **Modify**.
