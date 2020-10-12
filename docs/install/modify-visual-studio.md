@@ -4,6 +4,7 @@ titleSuffix: ''
 description: Learn how to modify Visual Studio, step-by-step.
 ms.date: 02/10/2019
 ms.topic: how-to
+ms.custom: contperfq1
 helpviewer_keywords:
 - modify Visual Studio
 - change visual studio
@@ -49,7 +50,7 @@ Here's how.
 1. Find the Visual Studio Installer on your computer.
 
      For example, on a computer running Windows 10, select **Start**, and then scroll to the letter **V**, where it's listed as **Visual Studio Installer**.
-
+    
      ![Visual Studio Installer](media/locate-the-visual-studio-installer.png "Locate the Microsoft Visual Studio Installer")
 
      >[!TIP]
@@ -70,9 +71,9 @@ Here's how.
 
 1. Find the Visual Studio Installer on your computer.
 
-     For example, on a computer running Windows 10, select **Start**, and then scroll to the letter **V**, where it's listed as **Visual Studio Installer**.
-
-     ![Open the Visual Studio Installer from Windows](media/vs-2019/vs-installer-windows-start.png "Open the Visual Studio Installer")
+     In the Windows Start menu, you can search for "installer".
+    
+     ![Visual Studio Installer](media/visual-studio-installer.png "Search for the Visual Studio Installer")
 
      > [!NOTE]
      > You can also find the Visual Studio Installer in the following location:

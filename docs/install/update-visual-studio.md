@@ -172,9 +172,11 @@ Here's how to update Visual&nbsp;Studio&nbsp;2019.
 
 ## Use the Visual Studio Installer
 
-1. Open the installer.
+1. Find the **Visual Studio Installer** on your computer.
 
-     ![Open the Visual Studio Installer from Windows](media/vs-2019/vs-installer-windows-start.png "Open the Visual Studio Installer")
+   In the Windows Start menu, you can search for "installer".
+    
+   ![Visual Studio Installer](media/visual-studio-installer.png "Search for the Visual Studio Installer")
 
    You might have to update the installer before continuing. If so, follow the prompts.
 
