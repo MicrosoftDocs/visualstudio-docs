@@ -29,10 +29,14 @@ By default, all of your benefits are displayed when you visit <https://my.visual
    > ![Filter the list of benefits by category](_img/about-benefits/categories.png "Choose a category to filter the list of available benefits.")
 
 ## Benefits and offers provided by partners
-Some of the benefits included with Visual Studio subscriptions, including some of the most popular benefits like training and tools, are provided by our partners.  The details of those offers are determined by the partners.  Any support available for those benefits or offers is also provided by the partners.  
+Some of the benefits included with Visual Studio subscriptions, including some popular benefits like training and tools, are provided by our partners.  The details of those offers are determined by the partners.  For example:
+- The duration of the benefit may not match the duration of your Visual Studio subscription.  For example, you may have a 12-month Visual Studio subscription, while many of the partner-provided benefits may last for a shorter term, such as three or six months.  
+- Any support available for those benefits or offers is also provided by the partners.  
+- Some benefits renew when your Visual Studio subscription is renewed.  In other cases, the partner offer is "once in a lifetime" and does not renew.  
+For more information about individual benefits, check out the corresponding article in the table of contents.
 
 ## Benefits are subject to change
-The Visual Studio subscriptions team strives to provide benefits within subscriptions that are useful, timely, and relevant.  Tools, services, products and other benefits provided in subscriptions are subject to change without notice.  While it's rare, sometimes technical issues can make a benefit unavailable for a short time.  In those cases, we'll change the benefit tile in the [Visual Studio Subscriptions portal](https://my.visualstudio.com/benefits) to indicate the benefit is "temporarily unavailable".
+The Visual Studio subscriptions team strives to provide benefits within subscriptions that are useful, timely, and relevant.  Tools, services, products and other benefits provided in subscriptions are subject to change without notice.  Partners may choose to discontinue their offers.  While it's rare, sometimes technical issues can make a benefit unavailable for a short time.  In those cases, we'll change the benefit tile in the [Visual Studio Subscriptions portal](https://my.visualstudio.com/benefits) to indicate the benefit is "Temporarily Unavailable" until the issue is resolved and the benefit is available again.  
 
 ## See also
 - [Visual Studio documentation](/visualstudio/)
