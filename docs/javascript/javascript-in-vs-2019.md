@@ -1,5 +1,7 @@
 ---
 title: JavaScript and TypeScript in Visual Studio 2019
+description: Learn how Visual Studio 2019 provides rich support for JavaScript development, both using JavaScript directly, and also using the TypeScript programming language.
+ms.custom: SEO-VS-2020
 titleSuffix: ""
 ms.date: "03/16/2020"
 ms.technology: vs-javascript
