@@ -60,7 +60,7 @@ Sometimes your Visual Studio installation becomes damaged or corrupted. A repair
 1. Find the **Visual Studio Installer** on your computer.
 
      In the Windows Start menu, you can search for "installer".
-    
+
      ![Visual Studio Installer](media/visual-studio-installer.png "Search for the Visual Studio Installer")
 
      > [!NOTE]

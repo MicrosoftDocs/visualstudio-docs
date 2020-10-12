@@ -50,7 +50,7 @@ Here's how.
 1. Find the Visual Studio Installer on your computer.
 
      For example, on a computer running Windows 10, select **Start**, and then scroll to the letter **V**, where it's listed as **Visual Studio Installer**.
-    
+
      ![Visual Studio Installer](media/locate-the-visual-studio-installer.png "Locate the Microsoft Visual Studio Installer")
 
      >[!TIP]
@@ -72,7 +72,7 @@ Here's how.
 1. Find the Visual Studio Installer on your computer.
 
      In the Windows Start menu, you can search for "installer".
-    
+
      ![Visual Studio Installer](media/visual-studio-installer.png "Search for the Visual Studio Installer")
 
      > [!NOTE]
