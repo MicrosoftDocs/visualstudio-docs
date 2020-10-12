@@ -59,7 +59,7 @@ A comment in your code preceded by a comment marker and a predefined token also 
 Because `TODO` is a predefined token, this comment appears as a `TODO` task in the list.
 
 > [!NOTE]
-> Default tokens are only available for the C/C++, C#, and VB languages.
+> Default tokens are only available for the C/C++, C#, and VB languages. To create tokens for other programming languages, follow the steps in the **Custom tokens** section.
 
 ### Custom tokens
 
