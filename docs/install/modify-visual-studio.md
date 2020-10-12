@@ -69,7 +69,7 @@ Here's how.
 
 ::: moniker range="vs-2019"
 
-1. Find the Visual Studio Installer on your computer.
+1. Find the **Visual Studio Installer** on your computer.
 
      In the Windows Start menu, you can search for "installer".
 
