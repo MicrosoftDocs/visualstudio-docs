@@ -73,7 +73,7 @@ Here's how.
 
      In the Windows Start menu, you can search for "installer".
 
-     ![Visual Studio Installer](media/visual-studio-installer.png "Search for the Visual Studio Installer")
+     ![Visual Studio Installer](media/vs-2019/visual-studio-installer.png "Search for the Visual Studio Installer")
 
      > [!NOTE]
      > You can also find the Visual Studio Installer in the following location:
