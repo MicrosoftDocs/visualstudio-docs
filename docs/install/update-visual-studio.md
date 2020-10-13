@@ -2,7 +2,7 @@
 title: Update Visual Studio
 titleSuffix: ''
 description: Learn how to update Visual Studio to the most recent release, step-by-step.
-ms.date: 07/31/2019
+ms.date: 10/12/2020
 ms.custom: seodec18
 ms.topic: how-to
 ms.prod: visual-studio-windows
@@ -106,22 +106,22 @@ If you're using an earlier version, here's how to apply an update from Visual St
 
 1. When there are updates, there's a corresponding notification flag in Visual Studio.
 
-   ![Update Visual Studio 2017 by using the Notification hub](media/notification-flag.png "The update Notification flag in Visual Studio")
+   ![Update Visual Studio 2017 Notification flag](media/notification-flag.png "The update Notification flag in Visual Studio")
 
    Choose the notification flag to open the **Notifications** hub.
 
-   ![Update Visual Studio 2017 by using the Notification hub](media/notifications-hub.png "The Notifications hub in Visual Studio")
+   ![Visual Studio 2017 update in the Notification hub](media/notifications-hub.png "Visual Studio 2017 update in the Notification hub")
 
       > [!TIP]
       > An update for an edition of Visual Studio 2017 is cumulative, so always choose to install the one with the most recent version number.
 
 1. Choose **"Visual Studio Update" is available**, which opens the **Extensions and Updates** dialog box.
 
-   ![Update Visual Studio 2017 by using the Notifications hub](media/notifications-hub-select.png "The Notifications hub in Visual Studio")
+   ![Choose Visual Studio Update](media/notifications-hub-select.png "Choose Visual Studio Update")
 
 1. In the **Extensions and Updates** dialog box, choose the **Update** button.
 
-   ![Update Visual Studio 2017 by using the Notifications hub](media/notifications-extensions-and-updates.png "The Extensions and Updates dialog in Visual Studio")
+   ![Choose Update in the Extensions and Updates dialog](media/notifications-extensions-and-updates.png "The Extensions and Updates dialog in Visual Studio")
 
 #### More about Visual Studio notifications
 
@@ -172,9 +172,11 @@ Here's how to update Visual&nbsp;Studio&nbsp;2019.
 
 ## Use the Visual Studio Installer
 
-1. Open the installer.
+1. Find the **Visual Studio Installer** on your computer.
 
-     ![Open the Visual Studio Installer from Windows](media/vs-2019/vs-installer-windows-start.png "Open the Visual Studio Installer")
+   In the Windows Start menu, you can search for "installer".
+
+   ![Visual Studio Installer](media/vs-2019/visual-studio-installer.png "Search for the Visual Studio Installer")
 
    You might have to update the installer before continuing. If so, follow the prompts.
 
@@ -233,7 +235,7 @@ You can check for an update and then install it by using the menu bar or the sea
 
 1. In the **Update available** dialog box, choose **Update**.
 
-     ![Choose the Update button in the 'Update downloaded and ready to install' dialog box](media/vs-2019/update-visual-studio-community-from-ide.png "Choose the Update button in the 'Update downloaded and ready to install' dialog box")
+     ![Choose the Update button in the 'Update available' dialog box](media/vs-2019/update-visual-studio-community-from-ide.png "Choose the Update button in the 'Update available' dialog box")
 
    Visual Studio updates, closes, and then reopens.
 
