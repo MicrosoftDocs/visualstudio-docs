@@ -1663,7 +1663,7 @@ Released March 25, 2013
 
 - Simplify the remote debugging by removing the need to configure a shared folder to Unity. Now you just need to have access to your Unity project from Windows.
 
-- Install a custom Unity profile as a standard .net target profile. This fixes all false positives that ReSharper could show.
+- Install a custom Unity profile as a standard .NET target profile. This fixes all false positives that ReSharper could show.
 
 - Work around a Unity scripting engine bug, so the debugger won't break on non properly registered threads.
 
@@ -1673,7 +1673,7 @@ Released March 25, 2013
 
 ### Bug fixes
 
-- Fixed our custom .net profile
+- Fixed our custom .NET profile
 
 - Fixed the theming integration, this fixes our issues with the VS 2012 dark theme.
 
@@ -1746,7 +1746,7 @@ Released January 3, 2013
 
 - Fixed an exception that could happen when evaluating UnityScript and Boo expressions.
 
-- Fixed a regression where changing the .net API level in Unity would not trigger an update of the project files.
+- Fixed a regression where changing the .NET API level in Unity would not trigger an update of the project files.
 
 - Fixed an API glitch where user code could not participate in the log callback handler.
 
@@ -1771,7 +1771,7 @@ Released November 28, 2012
 
 - Fixed regression in the background of the Unity Project Explorer in Visual Studio 2012.
 
-- Fixed project generation for users of the full .net profile.
+- Fixed project generation for users of the full .NET profile.
 
 - Fixed project generation for users of the Web target.
 
