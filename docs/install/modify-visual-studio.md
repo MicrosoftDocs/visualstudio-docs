@@ -2,7 +2,7 @@
 title: Modify Visual Studio
 titleSuffix: ''
 description: Learn how to modify Visual Studio, step-by-step.
-ms.date: 02/10/2019
+ms.date: 10/12/2020
 ms.topic: how-to
 ms.custom: contperfq1
 helpviewer_keywords:
