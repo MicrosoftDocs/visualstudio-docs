@@ -132,6 +132,43 @@ xmlns:models="clr-namespace:Cities.Models"
 
 The benefit here is that you can bind your controls to a design-time static version of your model.
 
+## Use design-time data with custom types and properties
+
+This feature by default works only with platform controls and properties. In this section we go over the steps needed to enable you to use your own custom controls as design-time controls. There are three requirements to enable this:
+
+- A custom xmlns namespace 
+
+    ```xml
+    xmlns:myControls="http://MyCustomControls"
+    ```
+
+- A design-time version of your namespace. This can be achieved by simply appending /design at the end.
+
+     ```xml
+    xmlns:myDesignTimeControls="http://MyCustomControls/design"
+    ```
+
+- Adding your design-time prefix to the mc:Ignorable
+
+    ```xml
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d myDesignTimeControls"
+    ```
+
+After you have taken all these steps, you can use your `myDesignTimeControls` prefix to create your design-time controls.
+
+```xml
+<myDesignTimeControls:MyButton>I am a design time Button</myDesignTimeControls:MyButton>
+```
+
+### Creating a custom xmlns namespace
+
+To create a custom xmlns namespace in WPF .NET Core, you need to map your custom XML namespace to the CLR namespace your controls are in. You can do that by adding the `XmlnsDefinition` assembly-level attribute in your `AssemblyInfo.cs` file. The file is found in the root hierarchy of your project.
+
+   ```C#
+[assembly: XmlnsDefinition("http://MyCustomControls", "MyViews.MyButtons")]
+   ```
+
 ## Troubleshooting
 
 If you experience a problem that isn't listed in this section, please let us know by using the [Report a Problem](../ide/how-to-report-a-problem-with-visual-studio.md) tool.
