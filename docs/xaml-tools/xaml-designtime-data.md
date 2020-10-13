@@ -132,38 +132,38 @@ xmlns:models="clr-namespace:Cities.Models"
 
 The benefit here is that you can bind your controls to a design-time static version of your model.
 
-## Extensibility
+## Use design-time data with custom types and properties
 
-To extend this feature you need three things
+This feature by default works only with platform controls and properties. In this section we go over the steps needed to enable you to use your own custom controls as design-time controls. There are three requirements to enable this:
 
-1. A custom xmlns namespace 
+- A custom xmlns namespace 
 
     ```xml
     xmlns:myControls="http://MyCustomControls"
     ```
 
-2. A design-time version of your namespace. This can be achieved by simply appending /design at the end.
+- A design-time version of your namespace. This can be achieved by simply appending /design at the end.
 
      ```xml
     xmlns:myDesignTimeControls="http://MyCustomControls/design"
     ```
 
-3. Adding your design-time prefix to the mc:Ignorable
+- Adding your design-time prefix to the mc:Ignorable
 
     ```xml
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    mc:Ignorable="myDesignTimeControls"
+    mc:Ignorable="d myDesignTimeControls"
     ```
 
-Once you have all these steps, you can use your `myDesignTimeControls` prefix to create your design-time controls.
+After you have taken all these steps, you can use your `myDesignTimeControls` prefix to create your design-time controls.
 
 ```xml
-<myDesignTimeControls:MyButton>Hello I am a design time Button</myDesignTimeControls:MyButton>
+<myDesignTimeControls:MyButton>I am a design time Button</myDesignTimeControls:MyButton>
 ```
 
 ### Creating a custom xmlns namespace
 
-To create a custom xmlns namespace in WPF .NET Core, you need to map your custom namespace to the namespace your controls are in. You can do that by adding the `XmlnsDefinition` attribute in your `AssemblyInfo.cs` file. The file is found in the root hierarchy of your project.
+To create a custom xmlns namespace in WPF .NET Core, you need to map your custom XML namespace to the CLR namespace your controls are in. You can do that by adding the `XmlnsDefinition` assembly-level attribute in your `AssemblyInfo.cs` file. The file is found in the root hierarchy of your project.
 
    ```C#
 [assembly: XmlnsDefinition("http://MyCustomControls", "MyViews.MyButtons")]
