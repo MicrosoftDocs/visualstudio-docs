@@ -55,6 +55,11 @@ This example has a `devinit.json`, which installs all the available devinit tool
       "comments": "Enables IIS features and installs the latest ASP.NET hosting bundle."
     },
     {
+      "tool": "msi-install",
+      "input": "https://www.7-zip.org/a/7z1900.msi",
+      "comments": "Installs the 7-Zip MSI",
+    },
+    {
       "tool": "npm-install",
       "input": "some-package",
       "additionalOptions": "--some-additional-options",
