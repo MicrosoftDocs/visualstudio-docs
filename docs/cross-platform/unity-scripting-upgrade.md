@@ -1,5 +1,6 @@
 ---
 title: "Using .NET 4.x in Unity"
+description: Understand how to use .NET 4.x in Unity. Enable the .NET 4.x scripting runtime. Take advantage of .NET compatibility. Review new syntax and language features.
 author: therealjohn
 ms.author: johmil
 ms.date: "08/29/2018"

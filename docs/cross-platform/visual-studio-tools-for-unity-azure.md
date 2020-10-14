@@ -1,5 +1,6 @@
 ---
 title: "Programming with Visual Studio Tools for Unity and Azure | Microsoft Docs"
+description: Program with Visual Studio Tools for Unity and Azure. Azure provides a scalable solution for storing telemetry and other game data in the cloud.
 ms.custom: ""
 ms.date: "12/18/2017"
 ms.reviewer: "crdun"

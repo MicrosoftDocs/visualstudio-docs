@@ -34,4 +34,4 @@ ms.workload:
  For more information about how to override Equals and the equality operators, see [Guidelines for Implementing Equals and the Equality Operator (==)](/dotnet/standard/design-guidelines/equality-operators).
 
 ## How to investigate a warning
- For an example of implementing the Equals and equality operators, see the code analysis rule [CA1815: Override equals and operator equals on value types](../code-quality/ca1815.md)
+ For an example of implementing the Equals and equality operators, see the code analysis rule [CA1815: Override equals and operator equals on value types](/dotnet/fundamentals/code-analysis/quality-rules/ca1815)

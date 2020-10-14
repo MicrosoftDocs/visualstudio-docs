@@ -1,6 +1,6 @@
 ### YamlMime:Landing
 
-title: Code analysis in Visual Studio
+title: Analyze code in Visual Studio
 summary: Visual Studio provides several different tools to analyze and improve code quality.
 
 metadata:
@@ -21,24 +21,36 @@ metadata:
 landingContent:
 
   # Card
-  - title: .NET code analysis
+  - title: Configure .NET code analysis
     linkLists:
       - linkListType: overview
         links:
           - text: Analyze .NET code
             url: roslyn-analyzers-overview.md
-          - text: .NET code quality analysis
-            url: /dotnet/fundamentals/productivity/code-analysis#code-quality-analysis
-          - text: .NET code style analysis
-            url: /dotnet/fundamentals/productivity/code-analysis#code-style-analysis
       - linkListType: concept
         links:
           - text: FAQ
             url: analyzers-faq.md
       - linkListType: how-to-guide
         links:
-          - text: Configure code analysis
+          - text: .NET code analysis
             url: use-roslyn-analyzers.md
+          - text: .NET code quality analysis
+            url: /dotnet/fundamentals/code-analysis/configuration-files?toc=%2fvisualstudio%2fcode-quality%2ftoc.json
+          - text: .NET code style analysis
+            url: ../ide/code-styles-and-code-cleanup.md?toc=%252fvisualstudio%252fcode-quality%252ftoc.json
+
+  # Card
+  - title: .NET code analysis
+    linkLists:
+      - linkListType: overview
+        links:
+          - text: .NET source code analysis
+            url: /dotnet/fundamentals/code-analysis/overview
+          - text: .NET code quality analysis
+            url: /dotnet/fundamentals/productivity/code-analysis#code-quality-analysis
+          - text: .NET code style analysis
+            url: /dotnet/fundamentals/productivity/code-analysis#code-style-analysis
       - linkListType: reference
         links:
           - text: .NET code quality rules
@@ -47,21 +59,23 @@ landingContent:
             url: /dotnet/fundamentals/productivity/code-analysis/style-rules/index
 
   # Card
-  - title: Measure code complexity
-    linkLists:
-      - linkListType: concept
-        links:
-          - text: Code metrics
-            url: code-metrics-values.md
-
-  # Card
-  - title: Analyze C and C++ code
+  - title: C++ code analysis
     linkLists:
       - linkListType: overview
         links:
           - text: Analyze C and C++ code
             url: /cpp/code-quality/code-analysis-for-c-cpp-overview
+          - text: EditorConfig formatting conventions
+            url: ../ide/cpp-editorconfig-properties.md
       - linkListType: reference
         links:
           - text: C++ code analysis warnings
             url: /cpp/code-quality/code-analysis-for-c-cpp-warnings
+
+  # Card
+  - title: Measure code complexity (.NET)
+    linkLists:
+      - linkListType: concept
+        links:
+          - text: Code metrics
+            url: code-metrics-values.md

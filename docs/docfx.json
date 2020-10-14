@@ -11,8 +11,7 @@
         "exclude": [
           "**/obj/**",
           "vsdocsdocs/**",
-          "**/includes/**",
-          "missingapi.yml"
+          "**/includes/**"
         ]
       },
       {
@@ -26,7 +25,6 @@
           "**/obj/**",
           "vsdocsdocs/**",
           "**/includes/**",
-          "missingapi.yml",
           "vs-2015/**"
         ]
       }
@@ -44,8 +42,7 @@
         "exclude": [
           "**/obj/**",
           "vsdocsdocs/**",
-          "**/includes/**",
-          "missingapi.yml"
+          "**/includes/**"
         ]
       },
       {
@@ -61,7 +58,6 @@
           "**/obj/**",
           "vsdocsdocs/**",
           "**/includes/**",
-          "missingapi.yml",
           "vs-2015/**"
         ]
       }
@@ -149,9 +145,7 @@
       }
     },
     "template": [],
-    "xref": [
-      "missingapi.yml"
-    ],
+    "xref": [],
     "dest": "vsdocsdocs",
     "groups": {
       "vs-2015": {

@@ -1,5 +1,6 @@
 ---
 title: "Getting Started with Visual Studio Tools for Unity | Microsoft Docs"
+description: Get started with Visual Studio Tools for Unity. Install Visual Studio, configure Unity for use with Visual Studio, and learn about support for older versions.
 ms.custom: ""
 ms.date: "05/11/2020"
 ms.technology: vs-unity-tools
