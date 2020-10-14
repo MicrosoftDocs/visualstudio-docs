@@ -42,7 +42,7 @@ The Default behavior of the `require-azurecli` tool is to install the latest ver
 
 ```json
 {
-    "$schema": "https://json.schemastore.org/devinit.schema-2.0",
+    "$schema": "https://json.schemastore.org/devinit.schema-3.0",
     "run": [
         {
             "comments": "Example that will trigger the Default behavior of installing the Azure CLI.",

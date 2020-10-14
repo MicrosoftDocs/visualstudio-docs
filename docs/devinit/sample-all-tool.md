@@ -20,7 +20,7 @@ This example has a `devinit.json`, which installs all the available devinit tool
 
 ```json
 {
-  "$schema": "./devinit.schema-2.0.json",
+  "$schema": "./devinit.schema-3.0.json",
   "comments": "A sample dot-devinit file",
   "run": [
     {

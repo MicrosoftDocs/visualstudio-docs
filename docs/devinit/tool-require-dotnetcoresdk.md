@@ -45,7 +45,7 @@ The Default behavior of the `require-dotnetcoresdk` tool is to install the versi
 
 ```json
 {
-    "$schema": "https://json.schemastore.org/devinit.schema-2.0",
+    "$schema": "https://json.schemastore.org/devinit.schema-3.0",
     "run": [
         {
             "comments": "Example that will trigger the Default behavior of installing latest or, if present, the SDK version from a global.json file.",
