@@ -14,7 +14,7 @@ ms.technology: devinit
 ---
 # msi-install
 
-The `msi-install` tool is used to install `.msi` package file formats using [msiexec](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/msiexec).
+The `msi-install` tool is used to install `.msi` package file formats using [msiexec](https://docs.microsoft.com/windows-server/administration/windows-commands/msiexec).
 
 ## Usage
 
@@ -32,11 +32,11 @@ The input property is used to specify a path or URL to a `.msi` file that will b
 
 ### Additional options
 
-Additional configuration options can be passed in as a value of the additionalOptions. These arguments are a direct passthrough to the arguments used by `msiexec` and are defined in the `msiexec` [documentation](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/msiexec).
+Additional configuration options can be passed in as a value of the additionalOptions. These arguments are a direct passthrough to the arguments used by `msiexec` and are defined in the `msiexec` [documentation](https://docs.microsoft.com/windows-server/administration/windows-commands/msiexec).
 
 ### Built-in options
 
-The msi-install tool sets a number of `msiexec` command-line arguments to ensure that msi can run headless. These arguments are listed below and documentation on them can be found in the `msiexec` [documentation](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/msiexec).
+The msi-install tool sets a number of `msiexec` command-line arguments to ensure that msi can run headless. These arguments are listed below and documentation on them can be found in the `msiexec` [documentation](https://docs.microsoft.com/windows-server/administration/windows-commands/msiexec).
 
 | Name          | Description                                                                                                                           |
 |---------------|---------------------------------------------------------------------------------------------------------------------------------------|
