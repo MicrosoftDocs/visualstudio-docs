@@ -20,4 +20,4 @@ Expected 'var' (ERRnoVar 1034))
   
  You failed to add the keyword var when it was required.  
   
- For more information about the var keyword, see [var Statement](../../javascript/reference/var-statement-javascript.md).
+ For more information about the var keyword, see [var Statement](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/var).

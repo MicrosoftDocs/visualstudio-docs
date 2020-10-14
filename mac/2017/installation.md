@@ -63,7 +63,7 @@ For working with iOS in Visual Studio you need the following pieces:
       - Fully cross-platform Xamarin apps – Select **Android**, **iOS**, and **macOS** platforms.
    * **.NET Core applications** – Select **.NET Core** platform.
    * **ASP.NET Core Web Applications** – Select **.NET Core** platform.
-   * **Cross-platform Unity Game Development** – No additional platforms need to be installed beyond Visual Studio for Mac. Refer to the [Unity setup guide](/visualstudio/mac/setup-vsmac-tools-unity) for more information on installing the Unity extension.
+   * **Cross-platform Unity Game Development** – No additional platforms need to be installed beyond Visual Studio for Mac. Refer to the [Unity setup guide](./setup-vsmac-tools-unity.md) for more information on installing the Unity extension.
 
    This installation screen displays the version and size of each individual component. You can click each component to display a list of dependencies for that component (for Android), see additional packages that it downloads (for .NET Core), or view any additional applications required (for iOS and macOS):
 
@@ -115,7 +115,7 @@ Installing Visual Studio for Mac allows you to start writing code for your apps.
 
 ### .NET Core apps, ASP.NET Core web apps, Unity game development
 
-For other Workloads, refer to the [Workloads](/visualstudio/mac/workloads) page.
+For other Workloads, refer to the [Workloads](./workloads.md) page.
 
 ## Related Video
 

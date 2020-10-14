@@ -14,7 +14,7 @@ ms.technology: devinit
 ---
 # nuget-restore
 
-The `nuget-restore` tool restore dependencies and project-specific tools that are specified in the project file. Read more about NuGet restore [here](https://docs.microsoft.com/nuget/reference/cli-reference/cli-ref-restore).
+The `nuget-restore` tool restore dependencies and project-specific tools that are specified in the project file. Read more about NuGet restore [here](/nuget/reference/cli-reference/cli-ref-restore).
 
 ## Usage
 

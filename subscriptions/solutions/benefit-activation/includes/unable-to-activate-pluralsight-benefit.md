@@ -24,4 +24,4 @@ this registration page expires after a few minutes. If you don't complete the re
 1. After you activate your Pluralsight benefit, the appearance of the tile in the Visual Studio subscriptions portal will change to help you track the status of your subscription. You may need to refresh the portal to see this. 
 
 ## More information 
-[Read more](https://docs.microsoft.com/visualstudio/subscriptions/vs-pluralsight) information on activation, eligibility, and FAQs about the Pluralsight benefit.  
+[Read more](../../../vs-pluralsight.md) information on activation, eligibility, and FAQs about the Pluralsight benefit.
