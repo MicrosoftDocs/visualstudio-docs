@@ -91,6 +91,9 @@ Visual Studio also makes it easy to commit and sync with one click by using the 
 
 :::image type="content" source="media/git-file-version-compare.png" alt-text="Screenshot of the line-by-line comparison of file versions in Visual Studio ":::
 
+> [!TIP]
+> You can associate Azure DevOps work item with a commit using the "#" character if you are connected to the Azure DevOps repository. You can connect your Azure DevOps repository through Team Explorer > Manage Connections
+
 ### Select an existing branch
 
 Visual Studio displays the current branch in the selector at the top of the **Git Changes** window.
