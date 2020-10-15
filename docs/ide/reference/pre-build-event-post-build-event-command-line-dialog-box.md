@@ -1,6 +1,6 @@
 ---
 title: Pre-build event-Post-build event command line dialog
-ms.custom: SEO-VS-2020
+description: Learn how you can pre- or post-build events directly in the edit box, or how Syou can select pre- and post-build macros from a list of available macros.
 ms.date: 11/04/2016
 ms.technology: vs-ide-compile
 ms.topic: reference
