@@ -1,6 +1,6 @@
 ---
 title: Collapse and expand regions of code
-description: Learn how you can use the expand and collapse commands to work in
+description: Learn how you can use the expand and collapse commands to work in outline mode in Visual Studio
 ms.date: 10/15/2020
 ms.topic: conceptual
 helpviewer_keywords:
