@@ -1,5 +1,7 @@
 ---
 title: Monitor with TensorBoard
+description: Learn how you can use Visual Studio to visualize your model training progress with TensorBoard.
+ms.custom: SEO-VS-2020
 author: jillre
 ms.author: jillfra
 manager: jillfra
