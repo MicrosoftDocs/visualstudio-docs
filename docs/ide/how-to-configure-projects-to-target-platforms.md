@@ -1,5 +1,7 @@
 ---
 title: 'How to: Configure projects to target platforms'
+description: Learn how Visual Studio enables you to set up your applications to target different platforms, including 64-bit platforms. 
+ms.custom: SEO-VS-2020
 ms.date: 08/16/2019
 ms.technology: vs-ide-compile
 ms.topic: how-to
