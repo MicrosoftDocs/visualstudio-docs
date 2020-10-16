@@ -1,5 +1,7 @@
 ---
 title: 'How to: Set multiple startup projects'
+description: Learn how Visual Studio allows you to specify how more than one project is run when you start the debugger.
+ms.custom: SEO-VS-2020
 ms.date: 06/21/2017
 ms.topic: how-to
 helpviewer_keywords:
