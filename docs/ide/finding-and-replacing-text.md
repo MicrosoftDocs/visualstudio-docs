@@ -1,6 +1,6 @@
 ---
 title: Find and replace text, and multi-caret selection
-ms.date: 08/14/2018
+ms.date: 17/10/2020
 ms.topic: conceptual
 f1_keywords:
 - vs.find
@@ -116,7 +116,7 @@ Use the following keys and actions for multi-caret selection behaviors:
 |**Ctrl**+**Alt** + double-click|Add a secondary word selection|
 |**Ctrl**+**Alt** + click + drag|Add a secondary selection|
 |**Shift**+**Alt**+**.**|Add the next matching text as a selection|
-Updated shortcuts |**Shift**+**Alt**+**;**|Add all matching text as selections|
+|**Shift**+**Alt**+**;**|Add all matching text as selections|
 |**Shift**+**Alt**+**,**|Remove last selected occurrence|
 |**Shift**+**Alt**+**/**|Skip next matching occurrence|
 |**Alt** + click|Add a box selection|
