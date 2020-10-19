@@ -30,7 +30,6 @@ Fakes come in two flavors:
 - .NET Core and SDK-style project support is currently in preview. [Read More](/visualstudio/releases/2019/release-notes#microsoft-fakes-for-net-core-and-sdk-style-projects)
 
 > [!NOTE]
-> - .NET Standard projects are not supported.
 > - Profiling with Visual Studio is not available for tests that use Microsoft Fakes.
 
 ## Choose between stub and shim types

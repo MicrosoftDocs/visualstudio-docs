@@ -513,7 +513,7 @@ System.Fakes.ShimEnvironment.GetCommandLineArgsGet = ...
 
 ## Limitations
 
-Shims cannot be used on all types from the .NET base class library **mscorlib** and **System**.
+Shims cannot be used on all types from the .NET base class library **mscorlib** and **System** in .NET Framework, and in **System.Runtime** in .NET Core.
 
 ## See also
 
