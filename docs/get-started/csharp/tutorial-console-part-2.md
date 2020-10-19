@@ -114,7 +114,7 @@ Real-world code involves many projects working together in a solution. Now, let'
 
 ## Reference .NET libraries: write to a log
 
-1. Suppose you now want to add a log of all the operations, and write it out to a text file. The .NET `Trace` class provides this functionality. (It's useful for basic print debugging techniques as well.)  The Trace class is in System.Diagnostics, so start by adding a using directive:
+1. Suppose you now want to add a log of all the operations, and write it out to a text file. The .NET `Trace` class provides this functionality. (It's useful for basic print debugging techniques as well.)  The Trace class is in System.Diagnostics, and we'll need System.IO classes like `StreamWriter`, so start by adding the using directives:
 
    ```csharp
    using System.IO;
