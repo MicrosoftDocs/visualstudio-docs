@@ -61,8 +61,8 @@ First, add a Fakes assembly:
 
    - If you're working in Visual Basic, select **Show All Files** in the **Solution Explorer** toolbar in order to see the **References** node.
 
-> [!Note]
-> If you're working with a new SDK style project, expand the **Dependencies** node to find the assembly you would like to fake under **Assemblies** **Projects**, or **Packages**.
+    > [!Note]
+    > If you're working with a new SDK style project, expand the **Dependencies** node to find the assembly you would like to fake under **Assemblies** **Projects**, or **Packages**.
 
 
 2. Select the assembly that contains the class definitions for which you want to create shims. For example, if you want to shim **DateTime**, select **System.dll**.
