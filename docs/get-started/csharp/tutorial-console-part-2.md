@@ -114,9 +114,10 @@ Real-world code involves many projects working together in a solution. Now, let'
 
 ## Reference .NET libraries: write to a log
 
-1. Suppose you now want to add a log of all the operations, and write it out to a text file. The .NET `Trace` class provides this functionality. (It's useful for basic print debugging techniques as well.)  The Trace class is in System.Diagnostics, so start by adding a using directive:
+1. Suppose you now want to add a log of all the operations, and write it out to a text file. The .NET `Trace` class provides this functionality. (It's useful for basic print debugging techniques as well.)  The Trace class is in System.Diagnostics, and we'll need System.IO classes like `StreamWriter`, so start by adding the using directives:
 
    ```csharp
+   using System.IO;
    using System.Diagnostics;
    ```
 
@@ -211,7 +212,7 @@ Real-world code involves many projects working together in a solution. Now, let'
 
    The package is downloaded, and added to your project and a new entry appears in the References node in **Solution Explorer**.
 
-1. Add a using directive for the Newtonsoft.Json package at the beginning of *CalculatorLibrary.cs*.
+1. Add a using directive for the System.IO and Newtonsoft.Json package at the beginning of *CalculatorLibrary.cs*.
 
    ```csharp
    using Newtonsoft.Json;
@@ -301,7 +302,7 @@ Real-world code involves many projects working together in a solution. Now, let'
         }
    ```
 
-1. Build and run the app, and after you're done entering a few operations, close the app properly by using the 'n' command.  Now, open the consolelog.json file and you should see something like the following:
+1. Build and run the app, and after you're done entering a few operations, close the app properly by using the 'n' command.  Now, open the calculatorlog.json file and you should see something like the following:
 
    ```json
    {
