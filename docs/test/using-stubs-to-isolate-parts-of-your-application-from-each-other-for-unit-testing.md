@@ -143,11 +143,14 @@ To use stubs, you must first generate stub types from the interface definitions.
 
 1. In **Solution Explorer**, expand your unit test project's **References**.
 
-   If you're working in Visual Basic, select **Show All Files** in the **Solution Explorer** toolbar in order to see the **References** node.
+   - If you're working in Visual Basic, select **Show All Files** in the **Solution Explorer** toolbar in order to see the **References** node.
+
+> [!Note]
+> If you're working with a new SDK style project, expand the **Dependencies** node to find the assembly you would like to fake under **Assemblies** **Projects**, or **Packages**.
 
 2. Select the assembly that contains the interface definitions for which you want to create stubs.
 
-3. On the shortcut menu, choose **Add Fakes Assembly**.
+3. Right Click on the assembly, choose **Add Fakes Assembly**.
 
 ### Write your test with stubs
 
