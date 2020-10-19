@@ -24,6 +24,10 @@ MSBuild is the build platform for Microsoft and Visual Studio. This walkthrough 
 
 You can run MSBuild from Visual Studio, or from the **Command Window**. In this walkthrough, you create an MSBuild project file using Visual Studio. You edit the project file in Visual Studio, and use the **Command Window** to build the project and examine the results.
 
+## Install MSBuild
+
+If you have Visual Studio, then you already have MSBuild installed. To install MSBuild on a system that doesn't have Visual Studio, go to [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/) and scroll down to **All Downloads**, then expand **Tools for Visual Studio 2019**. Install **Build Tools for Visual Studio 2019**, which includes MSBuild.
+
 ## Create an MSBuild project
 
  The Visual Studio project system is based on MSBuild. This makes it easy to create a new project file using Visual Studio. In this section, you create a Visual C# project file. You can choose to create a Visual Basic project file instead. In the context of this walkthrough, the difference between the two project files is minor.
