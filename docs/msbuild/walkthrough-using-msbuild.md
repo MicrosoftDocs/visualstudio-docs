@@ -1,6 +1,7 @@
 ---
-title: 'Walkthrough: Using MSBuild | Microsoft Docs'
-ms.date: 03/20/2019
+title: Use MSBuild
+description: Learn the various parts of an MSBuild project file, including items, item metadata, properties, targets, and tasks.
+ms.date: 10/19/2020
 ms.topic: conceptual
 ms.custom: contperfq2
 helpviewer_keywords:
