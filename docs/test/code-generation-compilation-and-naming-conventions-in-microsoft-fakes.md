@@ -15,7 +15,10 @@ This article discusses options and issues in Fakes code generation and compilati
 **Requirements**
 
 - Visual Studio Enterprise
-- A .NET Framework or a .NET Core project
+- A .NET Framework project
+::: moniker range=">=vs-2019"
+- .NET Core and SDK-style project support is currently in preview from Visual Studio 16.6 onwards. [Read More](/visualstudio/releases/2019/release-notes#microsoft-fakes-for-net-core-and-sdk-style-projects)
+::: moniker-end
 
 ## Code generation and compilation
 

@@ -27,7 +27,9 @@ Fakes come in two flavors:
 
 - Visual Studio Enterprise
 - A .NET Framework project
-- .NET Core and SDK-style project support is currently in preview. [Read More](/visualstudio/releases/2019/release-notes#microsoft-fakes-for-net-core-and-sdk-style-projects)
+::: moniker range=">=vs-2019"
+- .NET Core and SDK-style project support is currently in preview from Visual Studio 16.6 onwards. [Read More](/visualstudio/releases/2019/release-notes#microsoft-fakes-for-net-core-and-sdk-style-projects)
+::: moniker-end
 
 > [!NOTE]
 > - Profiling with Visual Studio is not available for tests that use Microsoft Fakes.
@@ -77,9 +79,10 @@ For a more detailed description, see [Use stubs to isolate parts of your applica
 
    1. In **Solution Explorer**, 
        - For an old style .NET Framework Project, expand your unit test project's **References** node.
+::: moniker range=">=vs-2019"
        - For a new style SDK Style .NET Framework or .NET Core project, expand the **Dependencies** node to find the assembly you would like to fake under **Assemblies** **Projects**, or **Packages**.
        - If you're working in Visual Basic, select **Show All Files** in the **Solution Explorer** toolbar in order to see the **References** node.
-
+::: moniker-end
    2. Select the assembly that contains the class definitions for which you want to create shims. For example, if you want to shim **DateTime**, select **System.dll**.
 
    3. On the shortcut menu, choose **Add Fakes Assembly**.
@@ -244,20 +247,24 @@ You can also create shims for specific instances, for constructors, and for prop
 ## Using Microsoft Fakes in the CI
 
 ### Microsoft Fakes Assembly Generation
-Since Microsoft Fakes requires Visual Studio Enterprise, generation of Fakes Assemblies would need you to build your project using Visual Studio Enterprise.
-
-An alternative to this is to check your Fakes Assemblies into the CI. If this is done, you would need to ensure that you have an assembly reference to the generated Fakes assembly in your test project. This is because we have moved to implicitly adding assembly references to your test project in SDK Style projects (.NET Core and .NET Framework). Support for this in the CI has not yet been released.
+Since Microsoft Fakes requires Visual Studio Enterprise, generation of Fakes Assemblies would need you to build your project using Visual Studio Enterprise. An alternative to this is to check your Fakes Assemblies into the CI. 
+::: moniker range=">=vs-2019"
+If this is done, you would need to ensure that you have an assembly reference to the generated Fakes assembly in your test project. This is because we have moved to implicitly adding assembly references to your test project in SDK Style projects (.NET Core and .NET Framework). Support for this in the CI has not yet been released.
+::: moniker-end
 
 ### Running Microsoft Fakes tests
 As long as Microsoft Fakes assemblies are present, you can run tests using the [vstest task](https://docs.microsoft.com/azure/devops/pipelines/tasks/test/vstest?view=azure-devops).
+::: moniker range=">=vs-2019"
 If you're using vstest.console from [Microsoft.Testplatform](https://www.nuget.org/packages/Microsoft.TestPlatform/) to run .NET Core tests that use Fakes, you would need to use a version later than `16.8.0-preview-20200921-01`.
+::: moniker-end
 
-
+::: moniker range=">=vs-2019"
 ## Transitioning your test projects that use Microsoft Fakes from .NET Framework to .NET Core
 Microsoft Fakes for .NET Core is intended to be backwards compatible to your .NET Framework set up in all cases possible. The cases that you would have to make changes to are:
 1. If you are using a custom project template, you would have to ensure that it is SDK Style and builds for a compatible target framework.
 2. Certain types exist in different assemblies in .NET Framework and .NET Core (for example `System.DateTime` exists in `System`/`mscorlib` in .NET Framework, and in `System.Runtime` in .NET Core), and so you would have to change the assembly being faked.
 3. If you have an assembly reference to a fakes assembly and the test project, you might see a build warning about a missing reference, this can be ignored. This is due to necessary changes made in Fakes generation. This can be avoided by removing the assembly reference, as we now implicitly add them during the build.
+::: moniker-end
 
 ## In this section
 [Use stubs to isolate parts of your application from each other for unit testing](../test/using-stubs-to-isolate-parts-of-your-application-from-each-other-for-unit-testing.md)
