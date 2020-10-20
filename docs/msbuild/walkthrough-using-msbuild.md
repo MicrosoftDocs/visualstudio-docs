@@ -31,7 +31,7 @@ You can run MSBuild from Visual Studio, or from the **Command Window**. In this 
 
 If you have Visual Studio, then you already have MSBuild installed. With Visual Studio 2019, it's installed under the Visual Studio installation folder. For a typical default installation on Windows 10, MSBuild.exe is under the installation folder in *MSBuild\Current\Bin*.
 
-To install MSBuild on a system that doesn't have Visual Studio, go to [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/) and scroll down to **All Downloads**, then expand **Tools for Visual Studio 2019**. Install **Build Tools for Visual Studio 2019**, which includes MSBuild.
+To install MSBuild on a system that doesn't have Visual Studio, go to [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/) and scroll down to **All Downloads**, then expand **Tools for Visual Studio 2019**. Install **Build Tools for Visual Studio 2019**, which includes MSBuild, or install the [.NET Core SDK](/dotnet/core/sdk#acquiring-the-net-core-sdk).
 
 In the installer, make sure MSBuild tools for the workloads you use are selected, and choose **Install**.
 
