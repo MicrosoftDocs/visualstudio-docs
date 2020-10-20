@@ -150,7 +150,6 @@ To use stubs, you must first generate stub types from the interface definitions.
 
 3. On the shortcut menu, choose **Add Fakes Assembly**.
 
-
 ### Write your test with stubs
 
 ```csharp
