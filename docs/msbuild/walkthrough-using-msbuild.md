@@ -25,15 +25,11 @@ MSBuild is the build platform for Microsoft and Visual Studio. This walkthrough 
 
 You can run MSBuild from Visual Studio, or from the **Command Window**. In this walkthrough, you create an MSBuild project file using Visual Studio. You edit the project file in Visual Studio, and use the **Command Window** to build the project and examine the results.
 
+::: moniker range="vs-2019"
+
 ## Install MSBuild
 
-::: moniker range="vs-2017"
-If you have Visual Studio, then you already have MSBuild installed.
-::: moniker-end
-
-::: moniker range="vs-2019"
 If you have Visual Studio, then you already have MSBuild installed. With Visual Studio 2019, it's installed under the Visual Studio installation folder. For a typical default installation on Windows 10, MSBuild.exe is under the installation folder in *MSBuild\Current\Bin*.
-::: moniker-end
 
 To install MSBuild on a system that doesn't have Visual Studio, go to [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/) and scroll down to **All Downloads**, then expand **Tools for Visual Studio 2019**. Install **Build Tools for Visual Studio 2019**, which includes MSBuild.
 
@@ -41,15 +37,7 @@ In the installer, make sure MSBuild tools for the workloads you use are selected
 
 ![Installing MSBuild](media/walkthrough-using-msbuild/installation-msbuild-tools.png)
 
-### Install MSBuild with .NET Core
-
-When you install .NET Core, MSBuild is also installed. This version of MSBuild is slightly different, since it is compiled specifically for .NET Core for all the platforms that .NET Core supports. To install the .NET Core SDK, see [Install .NET Core on Windows](/dotnet/core/install/windows), [Install .NET Core on macOS](/dotnet/core/install/macos), or [Install .NET Core on Linux](/dotnet/core/install/linux).
-
-### Unattended install
-
-To install the Visual Studio build tools, including MSBuild, in a container, for example, to support CI/CD scenarios, see [Install build tools in a container](../install/build-tools-container.md).
-
-You can install the .NET Core version of MSBuild with the .NET Core SDK via scripts. The links in the previous section contain install scripts for each supported platform.
+::: moniker-end
 
 ## Create an MSBuild project
 
