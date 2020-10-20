@@ -1,5 +1,6 @@
 ---
 title: AssignTargetPath Task | Microsoft Docs
+description: Use the MSBuild AssignTargetPath task to accept a list of files and add TargetPath attributes if they are not already specified.
 ms.date: 11/04/2016
 ms.topic: reference
 dev_langs:
