@@ -32,7 +32,7 @@ If you have Visual Studio, then you already have MSBuild installed.
 ::: moniker-end
 
 ::: moniker range="vs-2019"
-If you have Visual Studio, then you already have MSBuild installed. With Visual Studio 2019, it's installed under the Visual Studio installation folder. For a typical default installation on Windows 10, MSBuild.exe is in *Visual Studio Installation Folder\MSBuild\Current\Bin*.
+If you have Visual Studio, then you already have MSBuild installed. With Visual Studio 2019, it's installed under the Visual Studio installation folder. For a typical default installation on Windows 10, MSBuild.exe is under the installation folder in *MSBuild\Current\Bin*.
 ::: moniker-end
 
 To install MSBuild on a system that doesn't have Visual Studio, go to [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/) and scroll down to **All Downloads**, then expand **Tools for Visual Studio 2019**. Install **Build Tools for Visual Studio 2019**, which includes MSBuild.
