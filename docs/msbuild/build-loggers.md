@@ -59,7 +59,7 @@ The following command line builds the project with the same logger, but with a `
 MSBuild -nologo -noconsolelogger -logger:SimpleLogger.dll -verbosity:Detailed
 ```
 
-## Example
+## Example 1
 
 ### Description
 
@@ -69,7 +69,7 @@ The following example contains the complete code for the logger.
 
 [!code-csharp[msbuild_SimpleConsoleLogger#1](../msbuild/codesnippet/CSharp/build-loggers_4.cs)]
 
-## Example
+## Example 2
 
 ### Description
 
