@@ -1,5 +1,6 @@
 ---
 title: Find and replace text, and multi-caret selection
+description: Learn how to use the Find and Replace feature in the Visual Studio code editor.
 ms.date: 08/14/2018
 ms.topic: conceptual
 f1_keywords:
