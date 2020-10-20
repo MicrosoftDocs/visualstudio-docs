@@ -41,6 +41,16 @@ In the installer, make sure MSBuild tools for the workloads you use are selected
 
 ![Installing MSBuild](media/walkthrough-using-msbuild/installation-msbuild-tools.png)
 
+### Install MSBuild with .NET Core
+
+When you install .NET Core, MSBuild is also installed. This version of MSBuild is slightly different, since it is compiled specifically for .NET Core for all the platforms that .NET Core supports. To install the .NET Core SDK, see [Install .NET Core on Windows](/dotnet/core/install/windows), [Install .NET Core on macOS](/dotnet/core/install/macos), or [Install .NET Core on Linux](/dotnet/core/install/linux).
+
+### Unattended install
+
+To install the Visual Studio build tools, including MSBuild, in a container, for example, to support CI/CD scenarios, see [Install build tools in a container](../install/build-tools-container.md).
+
+You can install the .NET Core version of MSBuild with the .NET Core SDK via scripts. The links in the previous section contain install scripts for each supported platform.
+
 ## Create an MSBuild project
 
  The Visual Studio project system is based on MSBuild. This makes it easy to create a new project file using Visual Studio. In this section, you create a Visual C# project file. You can choose to create a Visual Basic project file instead. In the context of this walkthrough, the difference between the two project files is minor.
