@@ -323,6 +323,38 @@ Real-world code involves many projects working together in a solution. Now, let'
    }
    ```
 
+## Debug: Set and hit a breakpoint
+
+The Visual Studio debugger is a powerful tool that allows you to run your code step by step, to find the exact point where you made a programming mistake. You then understand what corrections you need to make in your code. Visual Studio allows you to make temporary changes so you can continue running the program.
+
+1. In *Program.cs*, click the margin to the left of the the following line of code (or, right-click in this line and choose **Breakpoint** > **Insert Breakpoint**).
+
+   ```csharp
+   result = calculator.DoOperation(cleanNum1, cleanNum2, op);
+   ```
+
+   The red circle that appears indicates a breakpoint. You can use breakpoints to pause your app and inspect code.
+
+   [scr]
+
+1. Build and run the app.
+
+1. In the running app, type some values for the calculation:
+
+   - For the first number, type **8** and enter it.
+   - For the second number, type **0** and enter it.
+   - For the operator, let's have some fun: type **d** and enter it.
+
+   The app suspends where you created the breakpoint.
+
+   [scr]
+
+## Debug: View variables
+
+1. 
+
+## Debug: Step through code
+
 ## Next steps
 
 Congratulations on completing this tutorial! To learn even more, continue with the following tutorials.
