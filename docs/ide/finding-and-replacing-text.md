@@ -124,7 +124,7 @@ Use the following keys and actions for multi-caret selection behaviors:
 
 Some of the commands are also available on the **Edit** menu, under **Multiple Carets**:
 
-![Multiple carets fly-out menu in Visual Studio](media/edit-menu-multiple-carets.png)
+:::image type="content" source="media/edit-menu-multiple-carats.png" alt-text="Screenshot of the Multiple Carats fly-out menu in Visual Studio":::
 
 ## See also
 
