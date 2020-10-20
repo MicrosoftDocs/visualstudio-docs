@@ -1,6 +1,6 @@
 ---
 title: Find and replace text, and multi-caret selection
-ms.date: 17/10/2020
+ms.date: 10/17/2020
 ms.topic: conceptual
 f1_keywords:
 - vs.find
