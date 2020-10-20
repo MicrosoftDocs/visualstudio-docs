@@ -1,6 +1,7 @@
 ---
 title: Build Loggers | Microsoft Docs
-description: Use MSBuild loggers to customize the output of your build and display messages, errors, or warnings in response to specific build events.
+description: Use MSBuild loggers to manage and customize the output of your build and display messages, errors, or warnings in response to specific build events.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
