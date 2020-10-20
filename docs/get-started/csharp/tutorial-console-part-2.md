@@ -400,7 +400,7 @@ The Visual Studio debugger is a powerful tool that allows you to run your code s
    }
    ```
 
-   This code checks for a divide-by-zero case. If the app continues, it will throw a general exception (an error), but let's say you consider this as a bug, and want to do something else, like view the actual returned value in the console. One option is to use a debugger feature called Edit-and-continue to make changes to the code and then continue debugging. However, you will use a different trick to temporarily change the execution flow.
+   This code checks for a divide-by-zero case. If the app continues, it will throw a general exception (an error), but let's say you consider this a bug, and want to do something else, like view the actual returned value in the console. One option is to use a debugger feature called Edit-and-continue to make changes to the code and then continue debugging. However, we will show you a different trick to temporarily modify the execution flow.
 
 ## Debug: Make a temporary change
 
@@ -409,6 +409,8 @@ The Visual Studio debugger is a powerful tool that allows you to run your code s
    ```csharp
    result = num1 / num2;
    ```
+
+   By doing this, the app completely skips the `if` statement, so we can see what happens.
 
 1. Press **F11** to execute the line of code.
 
