@@ -29,7 +29,7 @@ You can run MSBuild from Visual Studio, or from the **Command Window**. In this 
 
 ::: moniker range="vs-2017"
 
-If you have Visual Studio, then you already have MSBuild installed. To install MSBuild 15 on a system that doesn't have Visual Studio, go to [Visual Studio older downloads](https://visualstudio.microsoft.com/vs/older-downloads/), expand **Visual Studio 2017** and choose the **Download** button. If you have a Visual Studio subscription, sign in and find the link to download the latest version of **Build Tools for Visual Studio 2017**.
+If you have Visual Studio, then you already have MSBuild installed. To install MSBuild 15 on a system that doesn't have Visual Studio, go to [Visual Studio older downloads](https://visualstudio.microsoft.com/vs/older-downloads/), expand **Visual Studio 2017** and choose the **Download** button. If you have a Visual Studio subscription, sign in and find the link to download the latest version of **Build Tools for Visual Studio 2017**. If you don't have a Visual Studio subscription, you can still install the latest version of the build tools. On this page, use the version selector to switch to the 2019 version of the page and follow the installation instructions.
 ::: moniker-end
 
 ::: moniker range="vs-2019"
