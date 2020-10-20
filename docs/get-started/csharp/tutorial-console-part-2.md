@@ -333,7 +333,7 @@ The Visual Studio debugger is a powerful tool that allows you to run your code s
    result = calculator.DoOperation(cleanNum1, cleanNum2, op);
    ```
 
-   The red circle that appears indicates a breakpoint. You can use breakpoints to pause your app and inspect code.
+   The red circle that appears indicates a breakpoint. You can use breakpoints to pause your app and inspect code. You can set a breakpoint on any executable line of code.
 
    [scr]
 
@@ -343,17 +343,82 @@ The Visual Studio debugger is a powerful tool that allows you to run your code s
 
    - For the first number, type **8** and enter it.
    - For the second number, type **0** and enter it.
-   - For the operator, let's have some fun: type **d** and enter it.
+   - For the operator, let's have some fun; type **d** and enter it.
 
-   The app suspends where you created the breakpoint.
+   The app suspends where you created the breakpoint, with the current line of code highlighted. The highlighted code has not yet executed.
 
    [scr]
 
+   Now, with the app suspended you can inspect your application state.
+
 ## Debug: View variables
 
-1. 
+1. In the highlighted code, hover over variables such as `cleanNum1` and `op`. You see the current values for these variables (`8` and `d`, respectively), which appear in Datatips.
+
+   [scr]
+
+   When debugging, checking to see whether variables hold the values you expect them to hold is often critical to fixing issues.
+
+2. In the lower pane, look at the **Locals** window. (If it's closed, choose **Debug** > **Windows** > **Locals** to open it.)
+
+   In the Locals window, you see each variable that is currently in scope, along with it's value and type.
+
+   [scr]
+
+3. Look at the **Autos** window.
+
+   The Autos window is similar to the **Locals** window, but it shows the variables immediately preceding and following the current line of code where your app is paused.
+
+   Next, we will give instructions to execute code in the debugger, which is called *stepping*.
 
 ## Debug: Step through code
+
+1. Press **F11** (or **Debug** > **Step Into**).
+
+   Using the Step Into command, the app executes the current statement and advances to the next executable statement (usually the next line of code). The yellow pointer on the left always indicates the current statement.
+
+   [scr]
+
+   You have stepped into the `DoOperation` method in the `Calculator` class.
+
+1. Press **F10** (or **Debug** > **Step Over**) several times until the app pauses on the `switch` statement.
+
+   ```csharp
+   switch (op)
+   {
+   ```
+
+   The Step Over command is similar to the Step Into command, except that if the current statement calls a function, the debugger doesn't suspend execution until the called function returns. This is a faster way to go through code if you don't want to step into functions. The skipped code still executes.
+
+1. Press **F10** one more time so that the app pauses on the following line of code.
+
+   ```csharp
+   if (num2 != 0)
+   {
+      result = num1 / num2;
+      writer.WriteValue("Divide");
+   }
+   ```
+
+   This code checks for a divide-by-zero case. If the app continues, it will throw a general exception (an error), but let's say you consider this as a bug, and want to do something else, like view the actual returned value in the console. One option is to use a feature called Edit-and-continue to make changes to the code and then continue debugging. However, we will use a different trick to temporarily change the execution flow.
+
+## Debug: Modify the code
+
+1. Select the yellow pointer from the `if (num2 != 0)` statement and drag it to the following statement.
+
+   ```csharp
+   result = num1 / num2;
+   ```
+
+1. Press **F11** to execute the line of code.
+
+1. Hover over the result variable and you see it stores a value of `Infinity`.
+
+   In C#, this is the result when you divide by zero.
+
+1. Press **F5** (**Debug** > **Continue Debugging**).
+
+   The infinity symbol shows up in the console as the result of the math operation.
 
 ## Next steps
 
