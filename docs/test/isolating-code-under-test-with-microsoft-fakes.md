@@ -249,7 +249,7 @@ Since Microsoft Fakes requires Visual Studio Enterprise, generation of Fakes Ass
 An alternative to this is to check your Fakes Assemblies into the CI. If this is done, you would need to ensure that you have an assembly reference to the generated Fakes assembly in your test project. This is because we have moved to implicitly adding assembly references to your test project in SDK Style projects (.NET Core and .NET Framework). Support for this in the CI has not yet been released.
 
 ### Running Microsoft Fakes tests
-As long as Microsoft Fakes assemblies are present, you can run tests using the [vstest task](https://docs.microsoft.com/en-us/azure/devops/pipelines/tasks/test/vstest?view=azure-devops). 
+As long as Microsoft Fakes assemblies are present, you can run tests using the [vstest task](https://docs.microsoft.com/azure/devops/pipelines/tasks/test/vstest?view=azure-devops).
 If you're using vstest.console from [Microsoft.Testplatform](https://www.nuget.org/packages/Microsoft.TestPlatform/) to run .NET Core tests that use Fakes, you would need to use a version later than `16.8.0-preview-20200921-01`.
 
 
