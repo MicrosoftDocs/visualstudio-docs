@@ -327,7 +327,7 @@ Real-world code involves many projects working together in a solution. Now, let'
 
 The Visual Studio debugger is a powerful tool that allows you to run your code step by step, to find the exact point where you made a programming mistake. You then understand what corrections you need to make in your code. Visual Studio allows you to make temporary changes so you can continue running the program.
 
-1. In *Program.cs*, click the margin to the left of the the following line of code (or, right-click in this line and choose **Breakpoint** > **Insert Breakpoint**).
+1. In *Program.cs*, click the margin to the left of the the following line of code (or, open the shortcut menu and choose **Breakpoint** > **Insert Breakpoint**).
 
    ```csharp
    result = calculator.DoOperation(cleanNum1, cleanNum2, op);
@@ -345,7 +345,7 @@ The Visual Studio debugger is a powerful tool that allows you to run your code s
    - For the second number, type **0** and enter it.
    - For the operator, let's have some fun; type **d** and enter it.
 
-   The app suspends where you created the breakpoint, with the current line of code highlighted. The highlighted code has not yet executed.
+   The app suspends where you created the breakpoint, which is indicated by the yellow pointer on the left and the highlighted code. The highlighted code has not yet executed.
 
    [scr]
 
@@ -369,7 +369,7 @@ The Visual Studio debugger is a powerful tool that allows you to run your code s
 
    The Autos window is similar to the **Locals** window, but it shows the variables immediately preceding and following the current line of code where your app is paused.
 
-   Next, we will give instructions to execute code in the debugger, which is called *stepping*.
+   Next, you will execute code in the debugger one statement at a time, which is called *stepping*.
 
 ## Debug: Step through code
 
@@ -388,7 +388,7 @@ The Visual Studio debugger is a powerful tool that allows you to run your code s
    {
    ```
 
-   The Step Over command is similar to the Step Into command, except that if the current statement calls a function, the debugger doesn't suspend execution until the called function returns. This is a faster way to go through code if you don't want to step into functions. The skipped code still executes.
+   The Step Over command is similar to the Step Into command, except that if the current statement calls a function, the debugger runs the code in the function and doesn't suspend execution until the function returns. This is a faster way to navigate code if you don't want to step into functions.
 
 1. Press **F10** one more time so that the app pauses on the following line of code.
 
@@ -400,11 +400,11 @@ The Visual Studio debugger is a powerful tool that allows you to run your code s
    }
    ```
 
-   This code checks for a divide-by-zero case. If the app continues, it will throw a general exception (an error), but let's say you consider this as a bug, and want to do something else, like view the actual returned value in the console. One option is to use a feature called Edit-and-continue to make changes to the code and then continue debugging. However, we will use a different trick to temporarily change the execution flow.
+   This code checks for a divide-by-zero case. If the app continues, it will throw a general exception (an error), but let's say you consider this as a bug, and want to do something else, like view the actual returned value in the console. One option is to use a debugger feature called Edit-and-continue to make changes to the code and then continue debugging. However, you will use a different trick to temporarily change the execution flow.
 
-## Debug: Modify the code
+## Debug: Make a temporary change
 
-1. Select the yellow pointer from the `if (num2 != 0)` statement and drag it to the following statement.
+1. Select the yellow pointer, currently paused on the `if (num2 != 0)` statement, and drag it to the following statement.
 
    ```csharp
    result = num1 / num2;
@@ -412,13 +412,15 @@ The Visual Studio debugger is a powerful tool that allows you to run your code s
 
 1. Press **F11** to execute the line of code.
 
-1. Hover over the result variable and you see it stores a value of `Infinity`.
+1. Hover over the `result` variable and you see it stores a value of `Infinity`.
 
    In C#, this is the result when you divide by zero.
 
 1. Press **F5** (**Debug** > **Continue Debugging**).
 
-   The infinity symbol shows up in the console as the result of the math operation.
+   The Infinity symbol shows up in the console as the result of the math operation.
+
+1. Close the app properly by using the 'n' command.
 
 ## Next steps
 
