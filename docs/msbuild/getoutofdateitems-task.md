@@ -1,6 +1,6 @@
 ---
 title: "GetOutOfDateItems Task | Microsoft Docs"
-description: Use the MSBuild GetOutOfDateItems Helper task to read old tlogs, write new tlogs, and return sets of items that are not up-to-date.
+description: Use the MSBuild GetOutOfDateItems helper task to read and write transaction logs (tlogs), and return sets of items that aren't up to date.
 ms.custom: SEO-VS-2020
 ms.date: "03/10/2019"
 ms.topic: "reference"
