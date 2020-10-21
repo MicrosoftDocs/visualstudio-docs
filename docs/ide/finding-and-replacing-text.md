@@ -1,7 +1,6 @@
 ---
 title: Find and replace text, and multi-caret selection
-description: Learn how to use the Find and Replace feature in the Visual Studio code editor.
-ms.date: 08/14/2018
+ms.date: 10/17/2020
 ms.topic: conceptual
 f1_keywords:
 - vs.find
@@ -117,9 +116,9 @@ Use the following keys and actions for multi-caret selection behaviors:
 |**Ctrl**+**Alt** + double-click|Add a secondary word selection|
 |**Ctrl**+**Alt** + click + drag|Add a secondary selection|
 |**Shift**+**Alt**+**.**|Add the next matching text as a selection|
-|**Ctrl**+**Shift**+**Alt**+**,**|Add all matching text as selections|
+|**Shift**+**Alt**+**;**|Add all matching text as selections|
 |**Shift**+**Alt**+**,**|Remove last selected occurrence|
-|**Ctrl**+**Shift**+**Alt**+**.**|Skip next matching occurrence|
+|**Shift**+**Alt**+**/**|Skip next matching occurrence|
 |**Alt** + click|Add a box selection|
 |**Esc** or click|Clear all selections|
 
