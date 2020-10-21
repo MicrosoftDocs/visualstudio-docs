@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: lank
 manager: lank
 ms.assetid: 97bf7474-c6c2-49b3-b2c9-f1b2808eed1a
-ms.date: 03/02/2020
+ms.date: 10/20/2020
 ms.topic: conceptual
 description: Sign-in may fail if aliases or friendly names are used
 ---
@@ -28,10 +28,10 @@ A UPN mismatch can be encountered when a company has an Active Directory set up 
 
 1. Sign into https://my.visualstudio.com/subscriptions using the sign-in address mentioned in your subscription assignment email.
 
-2. Verify that the sign-in email address listed at the top right of the page matches the address you used to sign in.  If it does not, your UPN is mismatched and you will not be able to view your subscription. 
+2. Click on your name in the upper right corner of the page.  This will open your profile.  Verify that the sign-in email address listed in your profile matches the address you used to sign in.  If it does not, your UPN is mismatched and you will not be able to view your subscription. 
 
 > [!div class="mx-imgBorder"]
-> ![Sign in email address](_img//aliasing/sign-in-email.png "Be sure the email address displayed in the top right matches the one you use to sign in.")
+> ![Sign in email address](_img//aliasing/sign-in-email.png "Be sure the email address displayed in your profile matches the one you use to sign in.")
 
 #### How to fix a UPN mismatch
 
