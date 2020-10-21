@@ -14,7 +14,7 @@ As an active Visual Studio subscriber, you can use a range of features in Azure 
 ## Sign in
 
    > [!div class="mx-imgBorder"]
-   > ![Azure DevOps Tile](_img/vs-azure-devops/vs-azure-devops-tile.png)
+   > ![Azure DevOps Tile](_img/vs-azure-devops/vs-azure-devops-tile.png "Click 'Get started' to sign in to Azure DevOps.")
 
    
 When you sign in to Azure DevOps using either the identity that you used for activating your Visual Studio subscription or your [alternate identity](vs-alternate-identity.md), we recognize this automatically.  This way you can also add a work or school account (which you use when logging into Visual Studio, Microsoft 365, or your corporate or school network), allowing you to access Azure DevOps using both your personal account and your work or school account.
