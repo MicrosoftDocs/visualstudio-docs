@@ -28,7 +28,7 @@ As a Visual Studio subscriber, you can use Microsoft Azure at no extra charge.  
 
 5. For the final step, select the checkbox to accept the terms, then select **Sign up**.  That's all there is to it!
    > [!div class="mx-imgBorder"]
-   > ![Azure Getting Ready](_img/vs-azure/vs-azure-agreement.png "Click the 'Sign up' button to complete the creation of your Azure subscription.")
+   > ![Azure Sign Up](_img/vs-azure/vs-azure-agreement.png "Click the 'Sign up' button to complete the creation of your Azure subscription.")
 
 0. The Azure Dashboard Quickstart Center will load.  
    > [!div class="mx-imgBorder"]
