@@ -268,7 +268,7 @@ This is because we have moved to implicitly adding assembly references to your t
 As long as Microsoft Fakes assemblies are present, you can run tests using the [vstest task](https://docs.microsoft.com/azure/devops/pipelines/tasks/test/vstest?view=azure-devops).
 
 ::: moniker range=">=vs-2019"
-Distributed testing with the [vstest task](https://docs.microsoft.com/azure/devops/pipelines/tasks/test/vstest?view=azure-devops) is currently not supported for .NET Core projects using Microsoft Fakes.
+Distributed testing with the [vstest task](https://docs.microsoft.com/azure/devops/pipelines/tasks/test/vstest?view=azure-devops) .NET Core projects using Microsoft Fakes requires version `16.9.0-preview-20201020-06` and higher.
 ::: moniker-end
 
 ::: moniker range=">=vs-2019"
