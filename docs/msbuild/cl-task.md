@@ -1,5 +1,7 @@
 ---
 title: CL Task | Microsoft Docs
+description: Use the MSBuild CL task to wrap the Microsoft C++ compiler tool, cl.exe, which produces executable, dynamic-link library, or code module files. 
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:

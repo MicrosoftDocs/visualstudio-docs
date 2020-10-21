@@ -1,5 +1,7 @@
 ---
 title: CustomBuild Task | Microsoft Docs
+description: Use the MSBuild CustomBuild task to wrap the Microsoft C++ compiler tool, cmd.exe. This class derives from TrackedVCToolTask.
+ms.custom: SEO-VS-2020
 ms.date: 03/10/2019
 ms.topic: reference
 f1_keywords:
