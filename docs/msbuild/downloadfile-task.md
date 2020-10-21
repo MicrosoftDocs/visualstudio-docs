@@ -1,6 +1,6 @@
 ---
 title: DownloadFile Task | Microsoft Docs
-description: Use the MSBuild DownloadFile task to download specified files using the Hyper-Text Transfer Protocol (HTTP).
+description: Learn about the parameters of the MSBuild DownloadFile task, which downloads specified files using HTTP.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.reviewer: ''
