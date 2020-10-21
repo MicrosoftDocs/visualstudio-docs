@@ -1,8 +1,7 @@
 ---
 title: Extend the build process
 description: Learn how to extend the Microsoft.Common.targets file so you can run custom tasks at several points in the build process.
-ms.custom: SEO-VS-2020
-ms.custom: seodec18
+ms.custom: "seodec18, SEO-VS-2020"
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
