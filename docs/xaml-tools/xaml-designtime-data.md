@@ -134,7 +134,7 @@ The benefit here is that you can bind your controls to a design-time static vers
 
 ## Use design-time data with custom types and properties
 
-This feature by default works only with platform controls and properties. In this section we go over the steps needed to enable you to use your own custom controls as design-time controls. There are three requirements to enable this:
+This feature by default works only with platform controls and properties. In this section we go over the steps needed to enable you to use your own custom controls as design-time controls, a new capability available to customers using Visual Studio 2019 preview version [16.8](/visualstudio/releases/2019/preview-notes) or later. There are three requirements to enable this:
 
 - A custom xmlns namespace 
 
