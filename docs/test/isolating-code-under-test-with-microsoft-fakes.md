@@ -283,7 +283,7 @@ Microsoft Fakes for .NET Core is intended to be backwards compatible to your .NE
 ### Microsoft Fakes in Old Style projects targeting .NET Framework
 - Microsoft Fakes assembly generation is supported in Visual Studio Enterprise 2015 and higher.
 - Microsoft Fakes tests can be run with all available Microsoft.TestPlatform nuget packages.
-- Code coverage is supported for test projects using Microsoft Fakes in all available Visual Studio Enterprise versions.
+- Code coverage is supported for test projects using Microsoft Fakes in Visual Studio Enterprise 2015 and higher.
 
 ### Microsoft Fakes in SDK-Style .NET Framework and .NET Core projects
 - Microsoft Fakes assembly generation previewed in Visual Studio Enterprise 16.6 and is enabled by default in 16.8.
