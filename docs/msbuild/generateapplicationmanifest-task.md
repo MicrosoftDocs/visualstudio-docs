@@ -1,5 +1,7 @@
 ---
 title: GenerateApplicationManifest Task | Microsoft Docs
+description: Use the MSBuild GenerateApplicationManifest task to generates a ClickOnce application manifest or a native manifest.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
