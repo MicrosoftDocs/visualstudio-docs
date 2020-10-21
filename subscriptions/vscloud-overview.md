@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: v-evwin
 manager: lank
 ms.assetid: af1f7888-6942-4515-9475-0928ecf49dab
-ms.date: 03/24/2020
+ms.date: 10/21/2020
 ms.topic: overview
 description:  Rent Visual Studio Professional or Visual Studio Enterprise on a month-to-month or annual basis, with no long-term contract.
 ---
@@ -30,7 +30,7 @@ You'll need to be a contributor or higher for an Azure subscription that was cre
 
 3. Select the Azure subscription to use for billing. You can create a new Azure subscription if you don't have one.
     > [!div class="mx-imgBorder"]
-    > ![Select Azure subscription for billing](_img/buy-vs-subscriptions/buy-vs-sub-Azure-sub.png)
+    > ![Select Azure subscription for billing](_img/buy-vs-subscriptions/buy-vs-sub-Azure-sub.png "Select the Azure subscription to use to purchase your subscriptions.")
 
 4. Select the number of subscriptions to buy.
     > [!div class="mx-imgBorder"]
@@ -42,19 +42,22 @@ You'll need to be a contributor or higher for an Azure subscription that was cre
 to start downloading software and using other subscriber benefits.
 
 > [!div class="mx-imgBorder"]
-> ![Finish purchase successfully](_img/buy-vs-subscriptions/buy-vs-sub-success.png)
+> ![Finish purchase successfully](_img/buy-vs-subscriptions/buy-vs-sub-success.png "You'll receive a confirmation of a successful purchase.")
+
+0. Click **View my subscription** to open the subscriber portal and begin using your subscription.
 
 > [!div class="mx-imgBorder"]
-> ![Go to Visual Studio subscriber portal](_img/buy-vs-subscriptions/view-subscription-benefits-subscriptions-portal.png)
+> ![Go to Visual Studio subscriber portal](_img/buy-vs-subscriptions/view-subscription-benefits-subscriptions-portal.png "In the Visual Studio subscriptions portal, you can explore your subscription and use available benefits.")
 
 If you purchased more than one subscription, proceed to the
-    [Visual Studio Subscriptions Administration portal](https://manage.visualstudio.com) to assign subscriptions to others.  You may need to [add your new subscriptions](add-monthly-subs.md) to the Administration Portal if this is the first time you've purchased them.
+    [Visual Studio Subscriptions Admin portal](https://manage.visualstudio.com) to assign subscriptions to others.  You may need to [add your new subscriptions](add-monthly-subs.md) to the Admin Portal if this is the first time you've purchased them.
 
 > [!div class="mx-imgBorder"]
-> ![Assign subscriptions to others](_img/buy-vs-subscriptions/buy-vs-sub-success-many.png)
+> ![Assign subscriptions to others](_img/buy-vs-subscriptions/buy-vs-sub-success-many.png "Click 'Assign to users' to provide subscriptions to your users.")
+
 
 > [!div class="mx-imgBorder"]
-> ![View subscriptions](_img/buy-vs-subscriptions/assign-subscriptions.png)
+> ![View subscriptions](_img/buy-vs-subscriptions/assign-subscriptions.png "Click 'Add' to assign subscriptions to users")
 
 ## <a name="manage-subscriptions"></a>Cancel renewals of cloud subscriptions you've purchased
 
@@ -119,7 +122,7 @@ A:  Your administrator can still decrease the number of subscriptions by visitin
 A:  Although they will not be able to buy another Cloud Annual subscription, there are many options to purchase Visual Studio Subscriptions.  Learn more at [https://visualstudio.microsoft.com/vs/pricing/](https://visualstudio.microsoft.com/vs/pricing/).
 
 ## Related resources
-- [Visual Studio Subscriptions Administration portal](https://manage.visualstudio.com/)
+- [Visual Studio Subscriptions Admin portal](https://manage.visualstudio.com/)
 - [Visual Studio subscription support](https://visualstudio.microsoft.com/vs/support/)
 - [Visual Studio cloud subscription billing FAQ](vscloud-billing-faq.md)
 - [Visual Studio cloud subscription purchasing for CSPs](vscloud-csp.md)
