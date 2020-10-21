@@ -1,6 +1,6 @@
 ---
 title: "FileClassifier Task | Microsoft Docs"
-description: Use the MSBuild FileClassifier task to classify a set of source resources as those that will be embedded into an assembly.
+description: Use the MSBuild FileClassifier task to classify a set of source resources that will be embedded into an assembly.
 ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "reference"
