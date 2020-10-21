@@ -1,5 +1,7 @@
 ---
 title: 'How to: Build a Project That Has Resources | Microsoft Docs'
+description: Learn about how to build a project that has resources, and how to compile resources by using MSBuild.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
