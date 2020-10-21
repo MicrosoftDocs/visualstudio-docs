@@ -1,6 +1,6 @@
 ---
 title: "ClangCompile Task | Microsoft Docs"
-description: Learn about how to use the MSBuild ClangCompile task to wrap the Microsoft C++ compiler tool, clang.exe.
+description: Describes the parameters of the MSBuild ClangCompile task, which wraps the C++ compiler tool, clang.exe.
 ms.custom: SEO-VS-2020
 ms.date: "03/10/2019"
 ms.topic: "reference"
