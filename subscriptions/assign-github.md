@@ -1,10 +1,10 @@
 ---
 title: Visual Studio + GitHub Enterprise offer | Microsoft Docs
 author: evanwindom
-ms.author: lank
-manager: lank
+ms.author: v-evwin
+manager: cabuschl
 ms.assetid: f271d623-dcde-442a-865c-4dca5ad8a9c5
-ms.date: 09/29/2020
+ms.date: 10/22/2020
 ms.topic: conceptual
 description: Managing subscriptions in the Visual Studio + GitHub Enterprise offer
 ---
@@ -30,16 +30,16 @@ For more information about managing Visual Studio subscriptions, check out these
 ## What is the Visual Studio with GitHub Enterprise setup process?
 GitHub Enterprise is set up and managed separately from Visual Studio subscriptions. Following a Visual Studio with GitHub Enterprise purchase, a GitHub Enterprise account setup process is initiated in parallel with (but separate from) establishing an agreement in [manage.visualstudio.com](https://manage.visualstudio.com). Establishing this GitHub Enterprise account may take some time. 
 
-After your company has set up a GitHub Enterprise account, subscribers who have been assigned Visual Studio with GitHub Enterprise subscriptions will receive an email from GitHub notifying them that their Visual Studio subscriptions have been linked. After subscribers receive this email, they can reach out to their GitHub organization administrator to receive an invitation to the appropriate organization.
+After your company has set up a GitHub Enterprise account, subscribers who have been assigned Visual Studio with GitHub Enterprise subscriptions will receive an email from GitHub notifying them that their Visual Studio subscriptions have been linked. After subscribers receive this email, they can reach out to their GitHub organization admin to receive an invitation to the appropriate organization.
 
 For additional details on GitHub Enterprise setup, please reference the [subscriber documentation](access-github.md).   
 
 ## Manage GitHub Enterprise subscriptions
-When GitHub Enterprise subscriptions are purchased, GitHub partners with customers to help create and configure the organizations that will access GitHub and identify administrators.  Those administrators then receive a notification that they've been set up as admins.  
+When GitHub Enterprise subscriptions are purchased, GitHub partners with customers to help create and configure the organizations that will access GitHub and identify admins.  Those admins then receive a notification that they've been set up as admins.  
 
 Since this process is more complex, it may take several days after subscriptions are purchased for the organizations and admins to be fully set up.
 
-GitHub is available as either the cloud-based GitHub.com, or on-premise GitHub Enterprise Server.  The processes for managing the two versions differ.  GitHub provides a variety of help topics and administrator guides to help you manage GitHub Enterprise subscriptions.  We've provided links to selected topics below.  
+GitHub is available as either the cloud-based GitHub.com, or on-premise GitHub Enterprise Server.  The processes for managing the two versions differ.  GitHub provides a variety of help topics and admin guides to help you manage GitHub Enterprise subscriptions.  We've provided links to selected topics below.  
 
 ## Support resources
 

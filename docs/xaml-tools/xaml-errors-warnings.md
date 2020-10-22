@@ -17,11 +17,14 @@ When authoring XAML, Visual Studio analyzes the code as you type. A squiggle app
 
 Behind the scenes, multiple tools analyze the XAML in parallel. XAML errors are categorized into one of the following three types, based on the tool that detected the error:
 
-|**Error detected by**|**Error code format**|
-| - |-----------------|
-|XAML Language Service (XAML editor)|XLSxxxx|
-|XAML Designer|XDGxxxx|
-|XAML Edit and Continue|XECxxxx|
+|**Error detected by**|**Error code format**|**Visual Studio Version**|
+| - |-----------------| - |
+|XAML Language Service (XAML editor)|XLSxxxx| All Versions |
+|XAML Designer|XDGxxxx| All Versions | 
+|XAML Edit & Continue|XECxxxx| Visual Studio 2019 version 16.1 or earlier |
+|XAML Hot Reload | XHRxxxx | Visual Studio 2019 version 16.2 or later |
+
+For more details on the rebranding of XAML Edit & Continue as XAML Hot Reload, see our [release notes](https://docs.microsoft.com/visualstudio/releases/2019/release-notes-v16.2#wpfuwp-tooling)
 
 > [!Note]
 > Not all errors or warnings have a corresponding code. Such errors are usually XAML Designer errors.
