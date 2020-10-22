@@ -48,7 +48,7 @@ To use Power BI Pro, you’ll need to set up an account or sign in using an exis
 
 10. Finally, we’ll collect some payment information.  Don’t worry – you won’t be charged anything.  Notice that the price is still $0.00.  You can choose a credit card, bank account, or invoice as a form of payment.  If you choose **Invoice**, you may be asked for some feedback on why you prefer that payment method.  Please provide the information requested for your preferred payment method, and click **Place order**.
     > [!div class="mx-imgBorder"]
-    > ![Power BI Pro Benefit Contact Information](_img/vs-pbi/vs-pbi-payment-blurred-cropped.png "Choose your payment method.  Remember, you will not be charged for this offer.")
+    > ![Power BI Pro Benefit Paymant Information](_img/vs-pbi/vs-pbi-payment-blurred-cropped.png "Choose your payment method.  Remember, you will not be charged for this offer.")
 
 11. The next page confirms you’re all set to start using Power BI Pro.  The page will provide a link to the sign-in page.  We recommend recording the link to the sign-in page as well as your user ID.  (You will also receive a welcome email at the address you provided when you set up the account.)  You may also see an automated Microsoft 365 Assistant window, which you can use if you have questions.  Click **Let’s get started** to continue.
 
