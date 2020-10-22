@@ -34,17 +34,17 @@ Visual Studio with GitHub Enterprise subscriptions are managed in two parts:
 1. The Visual Studio subscription (Enterprise or Professional)
 2. GitHub Enterprise 
 
-When you are assigned a Visual Studio with GitHub subscription, you'll receive an email letting you know that your Visual Studio subscriptions administrator has assigned a subscription to you.  At that point, you will be able to view available subscription benefits at <https://my.visualstudio.com/benefits>.  This includes the GitHub Enterprise benefit as seen below.
+When you are assigned a Visual Studio with GitHub subscription, you'll receive an email letting you know that your Visual Studio subscriptions admin has assigned a subscription to you.  At that point, you will be able to view available subscription benefits at <https://my.visualstudio.com/benefits>.  This includes the GitHub Enterprise benefit as seen below.
 
    > [!div class="mx-imgBorder"]
    > ![GitHub Enterprise pending Enterprise account setup](_img/access-github/pending-account-setup.png "Your organization must first set up an Enterprise account.")  
 
-GitHub Enterprise is managed by a GitHub administrator separately from Visual Studio subscriptions.  When your company has set up a GitHub Enterprise account, you will receive an email from GitHub notifying you that your Visual Studio subscription has been linked and the benefit tile will be updated as seen below.  Setting up this account may take some time and is dependent on your company completing the setup process. After you receive the email, you can reach out to the appropriate GitHub organization administrator to request an invitation to their organization and/or repo.  
+GitHub Enterprise is managed by a GitHub admin separately from Visual Studio subscriptions.  When your company has set up a GitHub Enterprise account, you will receive an email from GitHub notifying you that your Visual Studio subscription has been linked and the benefit tile will be updated as seen below.  Setting up this account may take some time and is dependent on your company completing the setup process. After you receive the email, you can reach out to the appropriate GitHub organization admin to request an invitation to their organization and/or repo.  
 
    > [!div class="mx-imgBorder"]
-   > ![GitHub Enterprise pending GitHub invitation](_img/access-github/pending-invite.png "Contact your GitHub administrator to request invitation to a GitHub organization.")  
+   > ![GitHub Enterprise pending GitHub invitation](_img/access-github/pending-invite.png "Contact your GitHub admin to request invitation to a GitHub organization.")  
 
-When an invitation is sent by your GitHub organization administrator, you will receive an email from GitHub and the benefit tile will update again:
+When an invitation is sent by your GitHub organization admin, you will receive an email from GitHub and the benefit tile will update again:
 
    > [!div class="mx-imgBorder"]
    > ![GitHub Enterprise pending invitation acceptance](_img/access-github/pending-acceptance.png "Accept the invitation you receive in the email from GitHub")  
@@ -70,7 +70,7 @@ If you're new to GitHub, here are some helpful resources:
 ## Frequently asked questions
 
 ### Q:  Where is my GitHub subscription?
-A:  The process for setting up a GitHub Enterprise account can take a while.  If you've been waiting and haven't heard anything, you may want to reach out to your GitHub administrator.  It's possible that your administrator is still working on it or has elected not to create a GitHub Enterprise account. 
+A:  The process for setting up a GitHub Enterprise account can take a while.  If you've been waiting and haven't heard anything, you may want to reach out to your GitHub admin.  It's possible that your admin is still working on it or has elected not to create a GitHub Enterprise account. 
 
 ### Q: Do I get the full Visual Studio subscription benefits?
 A:  Along with GitHub Enterprise, you receive all of the benefits of a standard Visual Studio subscription including software downloads, cloud services, technical support and partner benefits just as you would if the subscription was purchased separately.
