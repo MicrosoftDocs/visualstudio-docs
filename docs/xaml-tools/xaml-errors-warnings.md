@@ -21,8 +21,8 @@ Behind the scenes, multiple tools analyze the XAML in parallel. XAML errors are 
 | - |-----------------| - |
 |XAML Language Service (XAML editor)|XLSxxxx| All Versions |
 |XAML Designer|XDGxxxx| All Versions | 
-|C# Edit & Continue|XECxxxx| Visual Studio 2019 version 16.1 or earlier |
-|C# Hot Reload | XHRxxxx | Visual Studio 2019 version 16.2 or later |
+|XAML Edit & Continue|XECxxxx| Visual Studio 2019 version 16.1 or earlier |
+|XAML Hot Reload | XHRxxxx | Visual Studio 2019 version 16.2 or later |
 
 For more details on the rebranding of XAML Edit & Continue as XAML Hot Reload, see our [release notes](https://docs.microsoft.com/visualstudio/releases/2019/release-notes-v16.2#wpfuwp-tooling)
 
