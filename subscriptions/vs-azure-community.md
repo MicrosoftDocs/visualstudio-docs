@@ -50,15 +50,15 @@ Getting started with Azure Community is easy.
 
 2. Locate the Azure Community tile in the Support section, and click the **Get Help** link.
     > [!div class="mx-imgBorder"]
-    >![Azure Community Tile](_img/vs-azure-community/vs-azure-community-tile.png)
+    >![Azure Community Tile](_img/vs-azure-community/vs-azure-community-tile.png "Click the 'Get Help' button on the Azure Community tile to get started.")
 
 3. You'll see a list of the available forums.  Simply click on the forum of your choice.
     > [!div class="mx-imgBorder"]
-    > ![Azure Community Forums](_img/vs-azure-community/vs-azure-community-forums.png)
+    > ![Azure Community Forums](_img/vs-azure-community/vs-azure-community-forums.png "On the Azure Community Support page, select your choice of forums.")
 
 4. Within the forum, you can view topics and responses, search for answers to your question, or post a new question.
     > [!div class="mx-imgBorder"]
-    > ![Azure Community Example](_img/vs-azure-community/vs-azure-community-example.png)
+    > ![Azure Community Example](_img/vs-azure-community/vs-azure-community-example.png "In the forum, you can view topics, search for answers, or post new questions.")
 
 ## Eligibility
 Availability of the Azure Community benefit depends on your subscription level as shown below:

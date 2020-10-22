@@ -233,13 +233,13 @@ Your project file should now resemble the following code:
 >
 > `<OutputPath>Bin\</OutputPath>`
 >
-> `OutputAssembly=="$(OutputPath)$(AssemblyName).exe" />`
+> `OutputAssembly="$(OutputPath)$(AssemblyName).exe" />`
 >
 > is better than
 >
 > `<OutputPath>Bin</OutputPath>`
 >
-> `OutputAssembly=="$(OutputPath)\$(AssemblyName).exe" />`
+> `OutputAssembly="$(OutputPath)\$(AssemblyName).exe" />`
 
 ## Test the build properties
 

@@ -1,10 +1,10 @@
 ---
-title: WhiteSource Bolt Benefit | Microsoft Docs
+title: WhiteSource Bolt in Visual Studio subscriptions | Microsoft Docs
 author: evanwindom
 ms.author: v-evwin
 manager: lank
 ms.assetid: 5e5d3f1a-533d-42eb-960e-01bb6bc7ca16
-ms.date: 04/20/2020
+ms.date: 10/22/2020
 ms.topic: how-to
 description:  Learn how to activate the WhiteSource Bolt subscription included with your Visual Studio subscription.
 ---
@@ -18,11 +18,11 @@ Find and fix open source vulnerabilities and generate comprehensive inventory an
 
 2. Locate the WhiteSource Bolt tile in the Tools section, and click on the **Get Code** link at the bottom of the benefit tile.
    > [!div class="mx-imgBorder"]
-   > ![WhiteSource Benefit Tile](_img/vs-whitesource/vs-whitesource-tile.png)
+   > ![WhiteSource Benefit Tile](_img/vs-whitesource/vs-whitesource-tile.png "Click 'Get Code' on the WhiteSource Bolt tile to get started.")
 
 3. You’ll receive a notification displaying your activation code.  **Copy the code to your clipboard**, then click **Activate**.
    > [!div class="mx-imgBorder"]
-   > ![WhiteSource Benefit Code ](_img/vs-whitesource/vs-whitesource-code.png)
+   > ![WhiteSource Benefit Code ](_img/vs-whitesource/vs-whitesource-code.png "Copy the code to your clipboard, then click 'Activate'.")
 
 4. On the **Activate your account** page, click the **install** link in step 1.
 5. Click **Get it free** in the Visual Studio Marketplace.

@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: v-evwin
 manager: lank
 ms.assetid: badd1d4a-90a6-46de-a037-945a91e6019b
-ms.date: 04/20/2020
+ms.date: 10/22/2020
 ms.topic: how-to
 description:  Learn about the Visual Studio App Center benefit included in Visual Studio subscriptions.
 ---
@@ -23,15 +23,15 @@ Getting started with Visual Studio App Center is easy.
 
 2. Locate the Visual Studio App Center tile, and click **Get started**.
     > [!div class="mx-imgBorder"]
-    > ![VS App Center Tile](_img/vs-app-center/vs-app-center-tile.png)
+    > ![VS App Center Tile](_img/vs-app-center/vs-app-center-tile.png "Click 'Get started' on the Visual Studio App Center tile.")
 
 3. Next, create an account.  You can use existing accounts for Microsoft, Google, GitHub or Facebook to log in, or create a new account by providing your username, email, and password.  Click **Create account** to continue.
     > [!div class="mx-imgBorder"]
-    > ![VS App Center Create Account](_img/vs-app-center/vs-app-center-create-account.png)
+    > ![VS App Center Create Account](_img/vs-app-center/vs-app-center-create-account.png "Choose how you want to sign in.")
 
 4. That's all there is to it.  Just click **Add new organization** or **Add new app** to get started!
     > [!div class="mx-imgBorder"]
-    > ![VS App Center Portal](_img/vs-app-center/vs-app-center-portal.png)
+    > ![VS App Center Portal](_img/vs-app-center/vs-app-center-portal.png "You're ready to go.  Click 'Add new organization' or 'Add new app' to get started.")
 
 ## Eligibility
 
