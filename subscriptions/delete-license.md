@@ -24,7 +24,9 @@ Watch this video or read on to learn how to delete assignments.
    > ![Delete subscribers](_img/delete-license/delete-subscribers.png "Choose the user(s) you wish to delete, and click Delete. You can use CTRL and Shift keys to select multiple subscribers.")
 
    > [!NOTE]
-   > Bulk delete using a template is not available. If you added subscription assignments through Azure Active Directory Security Groups, it may take up to 24 hours for the deletion to be updated in the admin portal.  See [our article](assign-license-bulk.md#use-azure-active-directory-groups-to-assign-subscriptions) for more information about using Azure Active Directory groups to manage subscriptions. 
+   > Bulk delete using a template is not available. 
+   >
+   > If you added subscription assignments through Azure Active Directory Security Groups, it may take up to 24 hours for the deletion to be updated in the admin portal.  See [our article](assign-license-bulk.md#use-azure-active-directory-groups-to-assign-subscriptions) for more information about using Azure Active Directory groups to manage subscriptions. 
 
 ## See also
 - [Visual Studio documentation](/visualstudio/)
