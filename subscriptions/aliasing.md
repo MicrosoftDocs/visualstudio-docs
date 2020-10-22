@@ -1,10 +1,10 @@
 ---
 title: Signing in to Visual Studio Subscriptions May Fail When Using Aliases | Microsoft Docs
 author: evanwindom
-ms.author: lank
-manager: lank
+ms.author: v-evwin
+manager: cabuschl
 ms.assetid: 97bf7474-c6c2-49b3-b2c9-f1b2808eed1a
-ms.date: 10/20/2020
+ms.date: 10/22/2020
 ms.topic: conceptual
 description: Sign-in may fail if aliases or friendly names are used
 ---
@@ -72,7 +72,7 @@ The Visual Studio platform prioritizes the primary alias to show subscription de
 
 ## Preventing aliasing issues
 
-As an administrator, there are two options to ensure your subscribers have a successful sign-in experience on [https://my.visualstudio.com](https://my.visualstudio.com?wt.mc_id=o~msft~docs).
+As an admin, there are two options to ensure your subscribers have a successful sign-in experience on [https://my.visualstudio.com](https://my.visualstudio.com?wt.mc_id=o~msft~docs).
 - The first option (recommended), is to leverage the directory account as the sign-in for the Visual Studio Subscriptions portal at https://my.visualstudio.com.  
 - The second option (less secure), is to allow your subscribers to sign in using a different email address than their directory email address.
 
