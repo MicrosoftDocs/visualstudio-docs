@@ -1,6 +1,6 @@
 ---
 title: CL Task | Microsoft Docs
-description: Describes the parameters of the MSBuild CL task, which wraps the Microsoft C++ compiler tool, cl.exe.
+description: Describes the purpose and parameters of the MSBuild CL task, which wraps the Microsoft C++ compiler tool, cl.exe.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
