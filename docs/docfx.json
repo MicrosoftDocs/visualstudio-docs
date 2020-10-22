@@ -86,7 +86,8 @@
       ],
       "featureFlags": [
         "enable_uhf_ppe"
-      ]
+      ],
+      "archive_url": "/previous-versions/visualstudio"
     },
     "fileMetadata": {
       "open_to_public_contributors": {
