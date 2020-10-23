@@ -160,8 +160,8 @@ Update the Dockerfile by adding the following lines. This will copy node and npm
       FROM mcr.microsoft.com/dotnet/core/sdk:3.1-nanoserver-1903 AS build
       COPY --from=downloadnodejs C:\nodejs\ C:\Windows\system32\
       WORKDIR /src
-      COPY ["WebApplication7/WebApplicationReact1.csproj", "WebApplicationReact1/"]
-      RUN dotnet restore "WebApplication7/WebApplication7.csproj"
+      COPY ["WebApplicationReact1/WebApplicationReact1.csproj", "WebApplicationReact1/"]
+      RUN dotnet restore "WebApplicationReact1/WebApplicationReact1.csproj"
       COPY . .
       WORKDIR "/src/WebApplicationReact1"
       RUN dotnet build "WebApplicationReact1.csproj" -c Release -o /app/build
