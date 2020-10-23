@@ -142,11 +142,11 @@ To use stubs, you must first generate stub types from the interface definitions.
 #### Add a Fakes Assembly
 
 1. In **Solution Explorer**, 
-    - For an old style .NET Framework Project, expand your unit test project's **References** node.
-::: moniker range=">=vs-2019"
-    - For an SDK Style project targeting .NET Framework or .NET Core, expand the **Dependencies** node to find the assembly you would like to fake under **Assemblies** **Projects**, or **Packages**.
-::: moniker-end
-    - If you're working in Visual Basic, select **Show All Files** in the **Solution Explorer** toolbar in order to see the **References** node.
+    - For an older .NET Framework Project (non-SDK style), expand your unit test project's **References** node.
+    ::: moniker range=">=vs-2019"
+    - For an SDK-style project targeting .NET Framework or .NET Core, expand the **Dependencies** node to find the assembly you would like to fake under **Assemblies**, **Projects**, or **Packages**.
+    ::: moniker-end
+    - If you're working in Visual Basic, select **Show All Files** in the **Solution Explorer** toolbar to see the **References** node.
 
 2. Select the assembly that contains the class definitions for which you want to create shims. For example, if you want to shim **DateTime**, select **System.dll**.
 
