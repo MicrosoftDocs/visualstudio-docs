@@ -379,7 +379,7 @@ The Visual Studio debugger is a powerful tool that allows you to run your code s
 
    [scr]
 
-   You have stepped into the `DoOperation` method in the `Calculator` class.
+   You've just stepped into the `DoOperation` method in the `Calculator` class.
 
 1. Press **F10** (or **Debug** > **Step Over**) several times until the app pauses on the `switch` statement.
 
@@ -388,7 +388,7 @@ The Visual Studio debugger is a powerful tool that allows you to run your code s
    {
    ```
 
-   The Step Over command is similar to the Step Into command, except that if the current statement calls a function, the debugger runs the code in the function and doesn't suspend execution until the function returns. This is a faster way to navigate code if you don't want to step into functions.
+   The Step Over command is similar to the Step Into command, except that if the current statement calls a function, the debugger runs the code in the function and doesn't suspend execution until the function returns. This is a faster way to navigate code if you're not interested in a particular function.
 
 1. Press **F10** one more time so that the app pauses on the following line of code.
 
@@ -410,7 +410,7 @@ The Visual Studio debugger is a powerful tool that allows you to run your code s
    result = num1 / num2;
    ```
 
-   By doing this, the app completely skips the `if` statement, so we can see what happens.
+   By doing this, the app completely skips the `if` statement, so you can see what happens when you divide by zero.
 
 1. Press **F11** to execute the line of code.
 
@@ -418,7 +418,7 @@ The Visual Studio debugger is a powerful tool that allows you to run your code s
 
    In C#, this is the result when you divide by zero.
 
-1. Press **F5** (**Debug** > **Continue Debugging**).
+1. Press **F5** (or, **Debug** > **Continue Debugging**).
 
    The Infinity symbol shows up in the console as the result of the math operation.
 
