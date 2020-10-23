@@ -1,5 +1,6 @@
 ---
 title: Use Help Viewer table of contents
+description: Use Microsoft Help Viewer to find topics in the table of contents (TOC). The TOC is an expandable list that contains all of the topics in the installed books.
 ms.date: 11/02/2017
 ms.topic: how-to
 f1_keywords:

@@ -14,7 +14,7 @@ ms.technology: devinit
 ---
 # require-vscomponent
 
-The `require-vscomponent` tool is used to import Visual Studio configurations to existing Visual Studio. Read more about `.vsconfig` [here](https://docs.microsoft.com/visualstudio/install/import-export-installation-configurations).
+The `require-vscomponent` tool is used to import Visual Studio configurations to existing Visual Studio. Read more about `.vsconfig` [here](../install/import-export-installation-configurations.md).
 
 ## Usage
 

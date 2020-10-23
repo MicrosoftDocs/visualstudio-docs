@@ -1,5 +1,7 @@
 ---
 title: JavaScript
+description: Learn that you can use most or all of the standard editing aids (code snippets, IntelliSense, and so on) when you write JavaScript code in the Visual Studio IDE.
+ms.custom: SEO-VS-2020
 ms.date: "01/15/2019"
 ms.technology: vs-javascript
 ms.topic: conceptual

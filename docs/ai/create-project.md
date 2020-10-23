@@ -1,5 +1,7 @@
 ---
 title: Create an AI project from a template
+description: Learn how to use Visual Studio Tools for AI to create an AI project from a variety of templates.
+ms.custom: SEO-VS-2020
 author: jillre
 ms.author: jillfra
 manager: jillfra

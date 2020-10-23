@@ -1,6 +1,6 @@
 ---
 title: "Troubleshooting and known issues (VS Tools for Unity)"
-description: "Find solutions to common issues with Visual Studio Tools for Unity, descriptions of known issues, and learn how you provide feedback."
+description: Read about troubleshooting in Visual Studio Tools for Unity. See descriptions of known issues, and learn about solutions to those issues.
 ms.custom: ""
 ms.date: "07/03/2018"
 ms.technology: vs-unity-tools

@@ -1,6 +1,6 @@
 ---
 title: "Customize Project Files Created by VSTU | Microsoft Docs"
-description: "Learn how to customize the project file generation with Visual Studio Tools for Unity."
+description: Learn to customize project files created by Visual Studio Tools for Unity (VSTU). Review a C# code example.
 ms.custom: ""
 ms.date: "07/26/2018"
 ms.technology: vs-unity-tools

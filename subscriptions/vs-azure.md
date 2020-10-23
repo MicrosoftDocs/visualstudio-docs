@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: lank
 manager: lank
 ms.assetid: 872c5746-5357-4764-949b-aa525a0adf1a
-ms.date: 04/28/2020
+ms.date: 10/21/2020
 ms.topic: how-to
 description:  Learn how to activate the Azure DevTest individual credit benefit included in your Visual Studio subscription.
 ---
@@ -16,23 +16,23 @@ As a Visual Studio subscriber, you can use Microsoft Azure at no extra charge.  
 
 2. Locate the Azure tile in the Tools section on the Benefits page and select **Activate** link at the bottom of the benefit tile.
    > [!div class="mx-imgBorder"]
-   > ![Azure Tile](_img/vs-azure/vs-azure-tile.png)
+   > ![Azure Tile](_img/vs-azure/vs-azure-tile.png "Click the 'Activate' button on the Azure tile to get started.")
 
 3. If you don't have an existing Azure subscription, you'll be asked to fill in the required information to create your Azure subscription.  The first step is to provide your personal information and then select **Next**.
    > [!div class="mx-imgBorder"]
-   > ![Azure Sign-up](_img/vs-azure/vs-azure-about-you.png)
+   > ![Azure Sign-up](_img/vs-azure/vs-azure-about-you.png "Add your personal contact information to your Azure subscription.")
 
 4. Next, you'll need to verify your identity using a simple verification code. Provide your phone number, and choose whether you'd like to receive the code by text or phone.  Enter the code you receive, and select **Verify code**.   
    > [!div class="mx-imgBorder"]
-   > ![Azure Getting Ready](_img/vs-azure/vs-azure-identity.png)
+   > ![Azure Getting Ready](_img/vs-azure/vs-azure-identity.png "Request a verification code and then enter it to proceed.")
 
 5. For the final step, select the checkbox to accept the terms, then select **Sign up**.  That's all there is to it!
    > [!div class="mx-imgBorder"]
-   > ![Azure Getting Ready](_img/vs-azure/vs-azure-agreement.png)
+   > ![Azure Sign Up](_img/vs-azure/vs-azure-agreement.png "Click the 'Sign up' button to complete the creation of your Azure subscription.")
 
 0. The Azure Dashboard Quickstart Center will load.  
    > [!div class="mx-imgBorder"]
-   > ![Azure Dashboard](_img/vs-azure/vs-azure-quick-start.png) 
+   > ![Azure Dashboard](_img/vs-azure/vs-azure-quick-start.png "After your Azure subscription is created you will be redirected to the Azure portal.") 
 
 0. Bookmark the [Azure portal](https://portal.azure.com) for easy access in the future.
 

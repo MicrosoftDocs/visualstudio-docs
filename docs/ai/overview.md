@@ -1,5 +1,7 @@
 ---
 title: Overview of Visual Studio Tools for AI
+description: Learn how Visual Studio Tools for AI is an integrated development environment (IDE) that you can use to build, test, and deploy deep learning solutions.
+ms.custom: SEO-VS-2020
 author: jillre
 ms.author: jillfra
 manager: jillfra

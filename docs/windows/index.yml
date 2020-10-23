@@ -149,7 +149,7 @@ additionalContent:
             - text: Mobile development with C++
               url: /visualstudio/cross-platform/
             - text: Mobile development with JavaScript
-              url: /visualstudio/cross-platform/tools-for-cordova/?view=toolsforcordova-2017
+              url: /visualstudio/cross-platform/tools-for-cordova/?view=toolsforcordova-2017&preserve-view=true
               note: (Visual Studio 2017 and 2015 only)
         - title: Gaming
           links:
@@ -164,7 +164,7 @@ additionalContent:
             - text: Linux development with C++
               url: /cpp/linux/
             - text: .NET Core cross-platform development
-              url: /dotnet/core/   
+              url: /dotnet/core/
    - title: Tasks
      items:
       - title: Develop

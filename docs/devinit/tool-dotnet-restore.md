@@ -14,7 +14,7 @@ ms.technology: devinit
 ---
 # dotnet-restore
 
-The `dotnet-restore` tool restore dependencies and project-specific tools that are specified in the project file. Read more about dotnet restore [here](https://docs.microsoft.com/dotnet/core/tools/dotnet-restore).
+The `dotnet-restore` tool restore dependencies and project-specific tools that are specified in the project file. Read more about dotnet restore [here](/dotnet/core/tools/dotnet-restore).
 
 ## Usage
 

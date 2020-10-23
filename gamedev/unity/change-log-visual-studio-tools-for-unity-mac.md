@@ -1,6 +1,6 @@
 ---
 title: "Change Log (Visual Studio Tools for Unity, Mac) | Microsoft Docs"
-description: "View changes to Visual Studio Tools for Unity in Visual Studio for Mac."
+description: View the change log for Visual Studio Tools for Unity, Mac. See changes from version 1.0.0.0 through 2.7.0.0 and beyond.
 ms.custom: ""
 ms.date: "5/19/2020"
 ms.technology: vs-unity-tools
