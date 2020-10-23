@@ -1,18 +1,18 @@
 ---
-title: Inventory of pre-production environments | Visual Studio Marketplace
+title: Pre-production inventory in Visual Studio subscription  | Visual Studio Marketplace
 author: evanwindom
-ms.author: lank
-manager: lank
+ms.author: v-evwin
+manager: cabuschl
 ms.assetid: 7d74e113-8fb2-490e-8502-48cce7b1327a
-ms.date: 03/06/2020
+ms.date: 10/22/2020
 ms.topic: conceptual
-description:  Learn about administrators' responsibilty to conduct pre-production inventories
+description:  Learn about admins' responsibility to conduct pre-production inventories
 ---
 
 # Inventory of pre-production environment
 Visual Studio subscriptions simplify asset management by counting users rather than devices.
 
-Visual Studio administrators must assign Visual Studio Subscriptions to **specific, named individuals**. Naming conventions such as Dev1, Dev2, or the use of team names such as "FeatureTeam" are **not allowed**.
+Visual Studio admins must assign Visual Studio Subscriptions to **specific, named individuals**. Naming conventions such as Dev1, Dev2, or the use of team names such as "FeatureTeam" are **not allowed**.
 
 Here are some ways to simplify taking inventory of your pre-production environment:
 - Review your user assignments. Microsoft provides a website called the [Visual Studio Administration Portal](https://manage.visualstudio.com/) to help you track Visual Studio subscription assignments.
@@ -32,8 +32,8 @@ Here are some ways to simplify taking inventory of your pre-production environme
 - [Microsoft 365 documentation](/microsoft-365/)
 
 ## Next steps
-Learn more about responsibilities for administrators:
-- [Administrator responsibilities](admin-responsibilities.md)
+Learn more about responsibilities for admins:
+- [Admin responsibilities](admin-responsibilities.md)
 - [Manage large teams and external contractors](manage-teams.md)
 - [Track user assignments and process orders](assignments-orders.md)
 - Use [Maximum Usage](maximum-usage.md) to track purchase commitments
