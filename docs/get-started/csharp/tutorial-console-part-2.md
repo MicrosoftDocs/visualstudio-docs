@@ -385,7 +385,7 @@ The Visual Studio debugger is a powerful tool that allows you to run your code s
 
    ![Screenshot of the call stack](media/vs-2019/calculator2-debug-call-stack.png)
 
-   This view shows the current `Calculator.DoOperation` method, indicated by the yellow pointer, and the second row shows the function that called it, from the `Main` method in *Program.cs*. The Call Stack window shows the order in which methods and functions are getting called. The call stack is a good way to examine and understand the execution flow of an app. In addition, it provides access to many debugger features, such as Go to Source Code, from the shortcut menu.
+   This view shows the current `Calculator.DoOperation` method, indicated by the yellow pointer, and the second row shows the function that called it, from the `Main` method in *Program.cs*. The Call Stack window shows the order in which methods and functions are getting called. In addition, it provides access to many debugger features, such as Go to Source Code, from the shortcut menu.
 
 1. Press **F10** (or **Debug** > **Step Over**) several times until the app pauses on the `switch` statement.
 
