@@ -395,9 +395,6 @@ The Visual Studio debugger is a powerful tool that allows you to run your code s
    ```csharp
    if (num2 != 0)
    {
-      result = num1 / num2;
-      writer.WriteValue("Divide");
-   }
    ```
 
    This code checks for a divide-by-zero case. If the app continues, it will throw a general exception (an error), but let's say you consider this a bug, and want to do something else, like view the actual returned value in the console. One option is to use a debugger feature called Edit-and-continue to make changes to the code and then continue debugging. However, we will show you a different trick to temporarily modify the execution flow.
@@ -412,7 +409,7 @@ The Visual Studio debugger is a powerful tool that allows you to run your code s
 
    By doing this, the app completely skips the `if` statement, so you can see what happens when you divide by zero.
 
-1. Press **F11** to execute the line of code.
+1. Press **F10** to execute the line of code.
 
 1. Hover over the `result` variable and you see it stores a value of `Infinity`.
 
