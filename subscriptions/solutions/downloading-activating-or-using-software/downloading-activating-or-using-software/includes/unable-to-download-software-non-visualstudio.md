@@ -29,4 +29,4 @@ You can [download an extensive list](https://download.microsoft.com/download/1/5
 You can also visit the [Product Keys](https://my.visualstudio.com/productkeys) page where all keys are available in aggregate. You can edit the notes column for identifying when and why you claimed the key. 
 
 ## More information 
-[Read more](../../../../find-keys.md) on finding and claiming product keys and downloads.
+[Read more](https://docs.microsoft.com/visualstudio/subscriptions/find-keys) on finding and claiming product keys and downloads.  
