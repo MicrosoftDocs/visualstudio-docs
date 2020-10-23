@@ -23,7 +23,7 @@ Billing is handled through your Microsoft Azure subscription. If you don’t hav
 * [Visual Studio Professional - monthly subscription](https://marketplace.visualstudio.com/items?itemName=ms.vs-professional-monthly) 
 * [Visual Studio Enterprise - monthly subscription](https://marketplace.visualstudio.com/items?itemName=ms.vs-enterprise-monthly) 
 
-[Read more](../../../../vscloud-billing-faq.md) about monthly Visual Studio Subscriptions Azure billing. 
+[Read more](https://docs.microsoft.com/visualstudio/subscriptions/vscloud-billing-faq) about monthly Visual Studio Subscriptions Azure billing. 
 
 ## More information 
 
