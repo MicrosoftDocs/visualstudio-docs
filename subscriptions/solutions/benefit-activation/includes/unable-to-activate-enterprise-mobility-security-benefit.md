@@ -37,4 +37,4 @@ After you delete your Office 365 E3 subscription and create your replacement Mic
 
 ## More information 
 
-[Read more](../../../vs-m365.md) information on eligibility, how to migrate from Office 365 E3 to Microsoft 365, and FAQs.
+[Read more](https://docs.microsoft.com/visualstudio/subscriptions/vs-m365) information on eligibility, how to migrate from Office 365 E3 to Microsoft 365, and FAQs.  
