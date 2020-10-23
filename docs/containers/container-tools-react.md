@@ -106,7 +106,7 @@ COPY --from=publish /app/publish .
 ENTRYPOINT ["dotnet", "WebApplication-ReactSPA.dll"]
 ```
 
-The preceding *Dockerfile* is based on the [microsoft/aspnetcore](https://hub.docker.com/r/microsoft/aspnetcore/) image, and includes instructions for modifying the base image by building your project and adding it to the container.
+The preceding *Dockerfile* is based on the [mcr.microsoft.com/dotnet/core/aspnet](https://hub.docker.com/_/microsoft-dotnet-core-aspnet/) image, and includes instructions for modifying the base image by building your project and adding it to the container.
 
 When the new project dialog's **Configure for HTTPS** check box is checked, the *Dockerfile* exposes two ports. One port is used for HTTP traffic; the other port is used for HTTPS. If the check box isn't checked, a single port (80) is exposed for HTTP traffic.
 
@@ -160,19 +160,19 @@ Update the Dockerfile by adding the following lines. This will copy node and npm
       FROM mcr.microsoft.com/dotnet/core/sdk:3.1-nanoserver-1903 AS build
       COPY --from=downloadnodejs C:\nodejs\ C:\Windows\system32\
       WORKDIR /src
-      COPY ["WebApplication7/WebApplication37.csproj", "WebApplication37/"]
+      COPY ["WebApplication7/WebApplicationReact1.csproj", "WebApplicationReact1/"]
       RUN dotnet restore "WebApplication7/WebApplication7.csproj"
       COPY . .
-      WORKDIR "/src/WebApplication37"
-      RUN dotnet build "WebApplication37.csproj" -c Release -o /app/build
+      WORKDIR "/src/WebApplicationReact1"
+      RUN dotnet build "WebApplicationReact1.csproj" -c Release -o /app/build
 
       FROM build AS publish
-      RUN dotnet publish "WebApplication37.csproj" -c Release -o /app/publish
+      RUN dotnet publish "WebApplicationReact1.csproj" -c Release -o /app/publish
 
       FROM base AS final
       WORKDIR /app
       COPY --from=publish /app/publish .
-      ENTRYPOINT ["dotnet", "WebApplication37.dll"]
+      ENTRYPOINT ["dotnet", "WebApplicationReact1.dll"]
       ```
 
    1. Update the .dockerignore file by removing the `**/bin`.
@@ -196,12 +196,12 @@ Try navigating to the *Counter* page and test the client-side code for the count
 
 Open the **Package Manager Console** (PMC) from the menu **Tools**> NuGet Package Manager, **Package Manager Console**.
 
-The resulting Docker image of the app is tagged as *dev*. The image is based on the *2.2-aspnetcore-runtime* tag of the *microsoft/dotnet* base image. Run the `docker images` command in the **Package Manager Console** (PMC) window. The images on the machine are displayed:
+The resulting Docker image of the app is tagged as *dev*. The image is based on the *3.1-nanoserver-1903* tag of the *dotnet/core/aspnet* base image. Run the `docker images` command in the **Package Manager Console** (PMC) window. The images on the machine are displayed:
 
 ```console
-REPOSITORY        TAG                     IMAGE ID      CREATED         SIZE
-webapplication37  dev                     d72ce0f1dfe7  30 seconds ago  255MB
-microsoft/dotnet  2.2-aspnetcore-runtime  fcc3887985bb  6 days ago      255MB
+REPOSITORY                             TAG                 IMAGE ID            CREATED             SIZE
+webapplicationreact1                   dev                 09be6ec2405d        2 hours ago         352MB
+mcr.microsoft.com/dotnet/core/aspnet   3.1-buster-slim     e3559b2d50bb        10 days ago         207MB
 ```
 
 > [!NOTE]
@@ -210,8 +210,8 @@ microsoft/dotnet  2.2-aspnetcore-runtime  fcc3887985bb  6 days ago      255MB
 Run the `docker ps` command in PMC. Notice the app is running using the container:
 
 ```console
-CONTAINER ID        IMAGE                  COMMAND               CREATED             STATUS              PORTS                                           NAMES
-cf5d2ef5f19a        webapplication37:dev   "tail -f /dev/null"   2 minutes ago       Up 2 minutes        0.0.0.0:52036->80/tcp, 0.0.0.0:44342->443/tcp   priceless_cartwright
+CONTAINER ID        IMAGE                      COMMAND               CREATED             STATUS              PORTS                                           NAMES
+56d1b1008c89        webapplicationreact1:dev   "tail -f /dev/null"   2 hours ago         Up 2 hours          0.0.0.0:32771->80/tcp, 0.0.0.0:32770->443/tcp   WebApplication-React1
 ```
 
 ## Publish Docker images
