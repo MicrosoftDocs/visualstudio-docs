@@ -54,9 +54,9 @@ productDirectory:
     - title: GitHub Codespaces
       imageSrc: ./media/github-mark-32px.svg
       links:
-         - url: /visualstudio/codespaces/
-           text: Documentation
          - url: https://docs.github.com/github/developing-online-with-codespaces/
+           text: Documentation
+         - url: https://code.visualstudio.com/docs/remote/codespaces/
            text: Use with Visual Studio Code
          - url: https://docs.microsoft.com/visualstudio/ide/codespaces/use-visual-studio-with-codespaces/
            text: Use with Visual Studio
