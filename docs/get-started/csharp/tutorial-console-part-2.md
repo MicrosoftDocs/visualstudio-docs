@@ -323,11 +323,11 @@ Real-world code involves many projects working together in a solution. Now, let'
    }
    ```
 
-## Debug: Set and hit a breakpoint
+## Debug: set and hit a breakpoint
 
 The Visual Studio debugger is a powerful tool that allows you to run your code step by step, to find the exact point where you made a programming mistake. You then understand what corrections you need to make in your code. Visual Studio allows you to make temporary changes so you can continue running the program.
 
-1. In *Program.cs*, click the margin to the left of the the following line of code (or, open the shortcut menu and choose **Breakpoint** > **Insert Breakpoint**).
+1. In *Program.cs*, click the margin to the left of the following code (or, open the shortcut menu and choose **Breakpoint** > **Insert Breakpoint**):
 
    ```csharp
    result = calculator.DoOperation(cleanNum1, cleanNum2, op);
@@ -351,7 +351,7 @@ The Visual Studio debugger is a powerful tool that allows you to run your code s
 
    Now, with the app suspended you can inspect your application state.
 
-## Debug: View variables
+## Debug: view variables
 
 1. In the highlighted code, hover over variables such as `cleanNum1` and `op`. You see the current values for these variables (`8` and `d`, respectively), which appear in Datatips.
 
@@ -361,7 +361,7 @@ The Visual Studio debugger is a powerful tool that allows you to run your code s
 
 2. In the lower pane, look at the **Locals** window. (If it's closed, choose **Debug** > **Windows** > **Locals** to open it.)
 
-   In the Locals window, you see each variable that is currently in scope, along with it's value and type.
+   In the Locals window, you see each variable that is currently in scope, along with its value and type.
 
    ![Screenshot of Locals window](media/vs-2019/calculator2-debug-locals-window.png)
 
@@ -371,7 +371,7 @@ The Visual Studio debugger is a powerful tool that allows you to run your code s
 
    Next, you will execute code in the debugger one statement at a time, which is called *stepping*.
 
-## Debug: Step through code
+## Debug: step through code
 
 1. Press **F11** (or **Debug** > **Step Into**).
 
@@ -385,7 +385,7 @@ The Visual Studio debugger is a powerful tool that allows you to run your code s
 
    ![Screenshot of the call stack](media/vs-2019/calculator2-debug-call-stack.png)
 
-   This view shows the current `Calculator.DoOperation` method, indicated by the yellow pointer, and the second row shows the function that called it, from the `Main` method in *Program.cs*. In a more complex app, the Call Stack window is a good way to examine the program flow, and it provides access to many debugger features, such as Go to Source Code, from the shortcut menu.
+   This view shows the current `Calculator.DoOperation` method, indicated by the yellow pointer, and the second row shows the function that called it, from the `Main` method in *Program.cs*. The Call Stack window shows the order in which methods and functions are getting called. The call stack is a good way to examine and understand the execution flow of an app. In addition, it provides access to many debugger features, such as Go to Source Code, from the shortcut menu.
 
 1. Press **F10** (or **Debug** > **Step Over**) several times until the app pauses on the `switch` statement.
 
@@ -394,7 +394,7 @@ The Visual Studio debugger is a powerful tool that allows you to run your code s
    {
    ```
 
-   The Step Over command is similar to the Step Into command, except that if the current statement calls a function, the debugger runs the code in the function and doesn't suspend execution until the function returns. This is a faster way to navigate code if you're not interested in a particular function.
+   The Step Over command is similar to the Step Into command, except that if the current statement calls a function, the debugger runs the code in the called function and doesn't suspend execution until the function returns. Step Over is a faster way to navigate code if you're not interested in a particular function.
 
 1. Press **F10** one more time so that the app pauses on the following line of code.
 
@@ -405,7 +405,7 @@ The Visual Studio debugger is a powerful tool that allows you to run your code s
 
    This code checks for a divide-by-zero case. If the app continues, it will throw a general exception (an error), but let's say you consider this a bug, and want to do something else, like view the actual returned value in the console. One option is to use a debugger feature called Edit-and-continue to make changes to the code and then continue debugging. However, we will show you a different trick to temporarily modify the execution flow.
 
-## Debug: Make a temporary change
+## Debug: test a temporary change
 
 1. Select the yellow pointer, currently paused on the `if (num2 != 0)` statement, and drag it to the following statement.
 
@@ -419,7 +419,7 @@ The Visual Studio debugger is a powerful tool that allows you to run your code s
 
 1. Hover over the `result` variable and you see it stores a value of `Infinity`.
 
-   In C#, this is the result when you divide by zero.
+   In C#, `Infinity` is the result when you divide by zero.
 
 1. Press **F5** (or, **Debug** > **Continue Debugging**).
 
