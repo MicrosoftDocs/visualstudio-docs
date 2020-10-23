@@ -335,7 +335,7 @@ The Visual Studio debugger is a powerful tool that allows you to run your code s
 
    The red circle that appears indicates a breakpoint. You can use breakpoints to pause your app and inspect code. You can set a breakpoint on any executable line of code.
 
-   [scr]
+   ![Screenshot of setting a breakpoint](media/vs-2019/calculator2-debug-set-breakpoint.png)
 
 1. Build and run the app.
 
@@ -347,7 +347,7 @@ The Visual Studio debugger is a powerful tool that allows you to run your code s
 
    The app suspends where you created the breakpoint, which is indicated by the yellow pointer on the left and the highlighted code. The highlighted code has not yet executed.
 
-   [scr]
+   ![Screenshot of hitting a breakpoint](media/vs-2019/calculator2-debug-hit-breakpoint.png)
 
    Now, with the app suspended you can inspect your application state.
 
@@ -355,7 +355,7 @@ The Visual Studio debugger is a powerful tool that allows you to run your code s
 
 1. In the highlighted code, hover over variables such as `cleanNum1` and `op`. You see the current values for these variables (`8` and `d`, respectively), which appear in Datatips.
 
-   [scr]
+   ![Screenshot of viewing a datatip](media/vs-2019/calculator2-debug-view-datatip.png)
 
    When debugging, checking to see whether variables hold the values you expect them to hold is often critical to fixing issues.
 
@@ -363,7 +363,7 @@ The Visual Studio debugger is a powerful tool that allows you to run your code s
 
    In the Locals window, you see each variable that is currently in scope, along with it's value and type.
 
-   [scr]
+   ![Screenshot of Locals window](media/vs-2019/calculator2-debug-locals-window.png)
 
 3. Look at the **Autos** window.
 
@@ -377,7 +377,7 @@ The Visual Studio debugger is a powerful tool that allows you to run your code s
 
    Using the Step Into command, the app executes the current statement and advances to the next executable statement (usually the next line of code). The yellow pointer on the left always indicates the current statement.
 
-   [scr]
+   ![Screenshot of step into command](media/vs-2019/calculator2-debug-step-into.png)
 
    You've just stepped into the `DoOperation` method in the `Calculator` class.
 
