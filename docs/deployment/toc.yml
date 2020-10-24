@@ -24,7 +24,9 @@
       href: /dotnet/core/deploying/deploy-with-vs
     - name: Package a desktop app for Microsoft Store
       href: /windows/msix/desktop/desktop-to-uwp-packaging-dot-net
-    - name: Deploy a desktop app using ClickOnce
+      name: Deploy a .NET Windows application using ClickOnce
+      href: quickstart-deploy-using-clickonce-folder.md
+    - name: Deploy a .NET Framework desktop app using ClickOnce
       href: how-to-publish-a-clickonce-application-using-the-publish-wizard.md
     - name: Build ClickOnce applications from the Command Line
       href: building-clickonce-applications-from-the-command-line.md
