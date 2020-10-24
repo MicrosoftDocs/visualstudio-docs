@@ -16,10 +16,17 @@ ms.workload:
 You can use the **Publish** tool to publish ASP.NET, ASP.NET Core, .NET Core, and Python apps to a folder from Visual Studio. For Node.js, the steps are supported but the user interface is different.
 
 [!INCLUDE [quickstart-prereqs](includes/quickstart-prereqs.md)]
-
+::: moniker range=">=vs-2017"
 > [!NOTE]
-> If you need to publish a .NET 3.1, or newer, Windows desktop application to a folder, see [Deploy a .NET Windows application using ClickOnce](quickstart-deploy-using-clickonce-folder.md). For .NET Framework Windows desktop applications see [Deploy a desktop app using ClickOnce](how-to-publish-a-clickonce-application-using-the-publish-wizard.md) (C# or Visual Basic)
-. For C++/CLR, see [Deploy a native app using ClickOnce](/cpp/windows/clickonce-deployment-for-visual-cpp-applications) or, for C/C++, see [Deploy a native app using a Setup project](/cpp/windows/walkthrough-deploying-a-visual-cpp-application-by-using-a-setup-project).
+> If you need to publish a Windows desktop application to a folder, see [Deploy a desktop app using ClickOnce](how-to-publish-a-clickonce-application-using-the-publish-wizard.md) (C# or Visual Basic). For C++/CLR, see [Deploy a native app using ClickOnce](/cpp/windows/clickonce-deployment-for-visual-cpp-applications) or, for C/C++, see [Deploy a native app using a Setup project](/cpp/windows/walkthrough-deploying-a-visual-cpp-application-by-using-a-setup-project).
+
+::: moniker-end
+
+::: moniker range=">=vs-2019"
+> [!NOTE]
+> If you need to publish a .NET 3.1, or newer, Windows desktop application to a folder, see [Deploy a .NET Windows application using ClickOnce](quickstart-deploy-using-clickonce-folder.md).
+
+::: moniker-end
 
 ## Deploy to a local folder
 
@@ -33,11 +40,14 @@ You can use the **Publish** tool to publish ASP.NET, ASP.NET Core, .NET Core, an
 
     ![Choose folder as a publish target](../deployment/media/quickstart-publish-folder-new.png "Choose Folder")
 
+::: moniker range=">=vs-2019"
+
 1. If you are deploying a .NET 3.1, or newer, Windows Application you may need to select **Folder** in the **Specific target** window.
 
-![Choose folder as a publish target](../deployment/media/quickstart-publish-folder-targets.png "Choose Specific Target")
+![Choose folder as specific target](../deployment/media/quickstart-publish-folder-targets.png "Choose Specific Target")
 
 1. If you wish to publish a .NET 3.1, or newer, Windows application with ClickOnce, see [Deploy a .NET Windows application using ClickOnce](quickstart-deploy-using-clickonce-folder.md).
+ ::: moniker-end
 
 1. Enter a path or select **Browse** to specify a folder.
 
@@ -72,4 +82,6 @@ For .NET apps:
 - [Deploy a .NET Core Application with the Publish tool](/dotnet/core/deploying/deploy-with-vs)
 - [.NET Core application publishing (framework-dependent vs. self-contained deployments)](/dotnet/core/deploying/)
 - [Deploy the .NET Framework and applications](/dotnet/framework/deployment/)
+::: moniker range=">=vs-2019"
 - [Deploy a .NET Windows application using ClickOnce](quickstart-deploy-using-clickonce-folder.md).
+ ::: moniker-end
