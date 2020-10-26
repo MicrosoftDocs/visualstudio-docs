@@ -35,7 +35,7 @@ The following is the content of the _devcontainer.json_ file.
 }
 ```
 
-The `postCreateCommand` launches the  [devinit](docs\devinit\devinit-and-codespaces.md) tool, which consumes _devinit.json_.
+The `postCreateCommand` launches the  [devinit](devinit-and-codespaces.md) tool, which consumes _devinit.json_.
 
 
 ### devinit.json
@@ -54,16 +54,15 @@ The following is the content of the [_devinit.json_](devinit-json.md) file.
     ]
 }
 ```
-This file needs to be in the same folder as _devcontainer.json_.
-The _devinit.json_ is the file consumed by the devinit tool.
+The _devinit.json_ is the file consumed by the [devinit](devinit-and-codespaces.md) tool and it must be in the same directory of _devcontainer.json_.
 
-In this sample, the [wsl-install](./tool-wsl-install.md) tool is used to create a WSL instance running Ubuntu 20.04, and provisioning it with essential C++ development tools.
+In this sample, the [wsl-install](tool-wsl-install.md) tool is used to create a WSL instance running Ubuntu 20.04, and provisioning it with essential C++ development tools.
 ## Targeting Windows or Linux
 
-A default configuration targeting Windows is always created a named `x64-Debug`, which allows to build targeting Windows.
+A default build configuration targeting Windows is always created named `x64-Debug`, which allows to build targeting Windows.
 
-By adding the mentioned files, upon Codespace instance creation, Visual Studio provisions a new SSH connection in the [Connection Manager](https://docs.microsoft.com/en-us/cpp/linux/connect-to-your-remote-linux-computer?view=vs-2019), and creates a new configuration in the Configuration picker that targets the Ubuntu instance via the SSH connection.
+By adding the above mentioned files, upon Codespace instance creation, Visual Studio provisions a new SSH connection in the [Connection Manager](/cpp/linux/connect-to-your-remote-linux-computer), and creates a new configuration in the Configuration picker that targets the Ubuntu instance via the SSH connection.
 
-![Configuration targeting Ubuntu](.\media\350481fa-9935-4f59-8e76-4e232efd2e08.png).
+![Configuration targeting Ubuntu](media/wsl_ssh_linux_configuration.png).
 
 By selecting the highlighted configuration that targets WSL, it is possible to build and debug the OpenCV's build targets.
