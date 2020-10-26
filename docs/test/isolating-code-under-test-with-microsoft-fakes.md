@@ -251,7 +251,7 @@ Since Microsoft Fakes requires Visual Studio Enterprise, the generation of Fakes
 
 ::: moniker range=">=vs-2019"
 > [!NOTE]
-> An alternative to this is to check your Fakes Assemblies into the CI and use the [MSBuild Task](../msbuild/msbuild-task?view=vs-2019). When you do this, you need to ensure that you have an assembly reference to the generated Fakes assembly in your test project, similar to the following code snippet :
+> An alternative to this is to check your Fakes Assemblies into the CI and use the [MSBuild Task](../msbuild/msbuild-task.md?view=vs-2019). When you do this, you need to ensure that you have an assembly reference to the generated Fakes assembly in your test project, similar to the following code snippet :
 
 ```xml
 <Project Sdk="Microsoft.NET.Sdk">
