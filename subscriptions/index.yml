@@ -69,7 +69,7 @@ tools:
       imageSrc: https://docs.microsoft.com/media/logos/logo_vs-team-services.svg
       url: /azure/devops/
     - title: GitHub Enterprise
-      imageSrc: ../subscriptions/_img/index-page/GitHub-Mark-32px.svg
+      imageSrc: ../subscriptions/_img/index-page/GitHub-Mark.svg
       url: ~/access-github.md
     - title: Visual Studio for Mac 
       imageSrc: https://docs.microsoft.com/media/logos/logo_vs-mac.svg
