@@ -1,5 +1,5 @@
 ---
-title: Edit subscriptions in the Administration Portal | Microsoft Docs
+title: Edit Visual Studio subscriptions in the Administration Portal | Microsoft Docs
 author: evanwindom
 ms.author: v-evwin
 manager: cabuschl
