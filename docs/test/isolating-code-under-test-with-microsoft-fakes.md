@@ -288,7 +288,7 @@ Microsoft Fakes for .NET Core is intended to be backwards compatible to your .NE
 ### Microsoft Fakes in SDK-style .NET Framework and .NET Core projects
 - Microsoft Fakes assembly generation previewed in Visual Studio Enterprise 2019 Update 6 and is enabled by default in Update 8.
 - Microsoft Fakes tests for .NET Framework projects can run with all available Microsoft.TestPlatform NuGet packages.
-- Microsoft Fakes tests for .NET Core projects can be run with Microsoft.TestPlatform nuget packages with versions [16.8.0-preview-20200921-01](https://www.nuget.org/packages/Microsoft.TestPlatform/16.8.0-preview-20200921-01) and higher.
+- Microsoft Fakes tests for .NET Core projects can run with Microsoft.TestPlatform NuGet packages with versions [16.8.0-preview-20200921-01](https://www.nuget.org/packages/Microsoft.TestPlatform/16.8.0-preview-20200921-01) and higher.
 - Code coverage is supported for test projects targeting .NET Framework using Microsoft Fakes in Visual Studio Enterprise version 2015 and higher.
 - Code coverage support for test projects targeting .NET Core using Microsoft Fakes is under development.
 
