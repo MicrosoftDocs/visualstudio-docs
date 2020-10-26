@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: v-evwin
 manager: cabuschl
 ms.assetid: 0a02232c-437f-4c48-85c1-93ca7887236b
-ms.date: 09/28/2020
+ms.date: 10/26/2020
 ms.topic: how-to
 description:  Learn about what benefits are included in subscriptions, and how to activate them.
 ---
@@ -34,9 +34,10 @@ Some of the benefits included with Visual Studio subscriptions, including some p
 - Any support available for those benefits or offers is also provided by the partners.  
 - Some benefits renew when your Visual Studio subscription is renewed.  In other cases, the partner offer is "once in a lifetime" and does not renew.  
 For more information about individual benefits, check out the corresponding article in the table of contents.
+- Partners may choose to discontinue offers. 
 
-## Benefits are subject to change
-The Visual Studio subscriptions team strives to provide benefits within subscriptions that are useful, timely, and relevant.  Tools, services, products and other benefits provided in subscriptions are subject to change without notice.  Partners may choose to discontinue their offers.  While it's rare, sometimes technical issues can make a benefit unavailable for a short time.  In those cases, we'll change the benefit tile in the [Visual Studio Subscriptions portal](https://my.visualstudio.com/benefits) to indicate the benefit is "Temporarily Unavailable" until the issue is resolved and the benefit is available again.  
+## Benefits that become temporarily unavailable.
+While it's rare, sometimes technical issues can make a benefit unavailable for a short time.  In those cases, we'll change the benefit tile in the [Visual Studio Subscriptions portal](https://my.visualstudio.com/benefits) to indicate the benefit is "Temporarily Unavailable" until the issue is resolved, at which time we'll restore the tile and the benefit will again be available.
 
 ## See also
 - [Visual Studio documentation](/visualstudio/)
