@@ -1,5 +1,7 @@
 ---
 title: 'How to: Use the Same Target in Multiple Project Files | Microsoft Docs'
+description: Learn how to save a target in an MSBuild project file and import it into any other project that needs to use the target.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -77,7 +79,7 @@ The `Import` element is used to insert one project file into another project fil
 
 3. Define in the project file all properties and items that must override default definitions of properties and items in the imported project.
 
-## Example
+## Example 1
 
  The following code example shows the *MyCommon.targets* file that the second code example imports. The *.targets* file evaluates properties from the importing project to configure the build.
 
@@ -96,7 +98,7 @@ The `Import` element is used to insert one project file into another project fil
 </Project>
 ```
 
-## Example
+## Example 2
 
  The following code example imports the *MyCommon.targets* file.
 
