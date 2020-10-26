@@ -59,7 +59,7 @@ The _devinit.json_ is the file consumed by the [devinit](devinit-and-codespaces.
 In this sample, the [wsl-install](tool-wsl-install.md) tool is used to create a WSL instance running Ubuntu 20.04, and provisioning it with essential C++ development tools.
 ## Targeting Windows or Linux
 
-A default build configuration targeting Windows is always created named `x64-Debug`, which allows to build targeting Windows.
+A default build configuration targeting Windows is always created named `x64-Debug`.
 
 By adding the above mentioned files, upon Codespace instance creation, Visual Studio provisions a new SSH connection in the [Connection Manager](/cpp/linux/connect-to-your-remote-linux-computer), and creates a new configuration in the Configuration picker that targets the Ubuntu instance via the SSH connection.
 
