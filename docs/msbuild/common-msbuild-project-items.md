@@ -1,5 +1,7 @@
 ---
 title: Common MSBuild Project Items | Microsoft Docs
+description: Learn about common MSBuild project items. Items are named references to one or more files, and have metadata like file names, paths, and version numbers.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 dev_langs:
