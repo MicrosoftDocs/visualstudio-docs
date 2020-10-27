@@ -1,5 +1,7 @@
 ---
 title: Link Task | Microsoft Docs
+description: Learn how MSBuild uses the Link task to wrap the Microsoft C++ linker tool, link.exe, which links COFF object files and libraries.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
