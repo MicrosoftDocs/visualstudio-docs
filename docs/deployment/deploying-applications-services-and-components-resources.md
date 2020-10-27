@@ -144,7 +144,7 @@ Deploying to the file system means to simply copy your application's files to a 
 ::: moniker range=">=vs-2019"
 Starting with Visual Studio 2019 16.8, the folder target includes the ability to publish a .Net Windows application using ClickOnce.
 
-If you wish to publish a .NET 3.1, or newer, Windows application with ClickOnce, see [Deploy a .NET Windows application using ClickOnce](quickstart-deploy-using-clickonce-folder.md).
+If you wish to publish a .NET Core 3.1, or newer, Windows application with ClickOnce, see [Deploy a .NET Windows application using ClickOnce](quickstart-deploy-using-clickonce-folder.md).
 ::: moniker-end
 Any local machines that are running a server can make your application available through the Internet or an Intranet depending on how it's configured and the networks to which it's connected. (If you do connect a computer directly to the Internet, be especially careful to protect it from external security threats.) Because you manage these machines, you're in complete control of the software and hardware configurations.
 
