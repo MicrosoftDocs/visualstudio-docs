@@ -45,7 +45,7 @@ You can use the **Publish** tool to publish .NET 3.1, or newer, Windows Desktop 
 
 1. In the **Settings** window, you can provide the settings necessary for ClickOnce.
 
-1. If you selected to install from a UNC paths or web site, this dialog allows you to specific if the application is available offline. This will list the application on the users Start Menu and it allows the application to be automatically updated when a new version is published. By default, updates are available from the Install location.  If you wish to have a different location for updates you can specify that using the Update Settings link. If you do not want the application to be available offline it will run from the install location.
+1. If you selected to install from an UNC path or web site, this dialog allows you to specify whether the application is available offline. When selected, this option will list the application on the users Start Menu and it allows the application to be automatically updated when a new version is published. By default, updates are available from the Install location.  If you wish to have a different location for updates, you can specify that using the Update Settings link. If you do not want the application to be available offline, it will run from the install location.
 
     ![Specify the publish settings](../deployment/media/quickstart-clickonce-unc-settings.png "Choose the publish settings")
 
@@ -68,7 +68,7 @@ Also in this window, you can also set the Publish version and if the version wil
 
      ![Specify the publish configuration](../deployment/media/quickstart-clickonce-configuration.png)
 
-    For additional help to on which setting to choose, see the following:
+    For additional help on which setting to choose, see the following:
 
     - [Framework-dependent vs. self-contained deployment](/dotnet/core/deploying/)
     - [Target runtime identifiers (portable RID, et al)](/dotnet/core/rid-catalog)

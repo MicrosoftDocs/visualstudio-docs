@@ -69,7 +69,7 @@ manager: jillfra
 </subscription>  
 ```  
 > [!NOTE]
-> "For .NET 3.1 and newer applications, checking updates before the application starts is the only update option supported.
+> For .NET 3.1 and newer applications, checking updates before the application starts is the only update option supported.
   
 ## Making Updates Required  
  There may be occasions when you want to require users to run an updated version of your application. For example, you might make a change to an external resource such as a Web service that would prevent the earlier version of your application from working correctly. In this case, you would want to mark your update as required and prevent users from running the earlier version.  
