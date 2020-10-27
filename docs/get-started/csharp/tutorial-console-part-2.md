@@ -335,7 +335,7 @@ The Visual Studio debugger is a powerful tool that allows you to run your code s
 
    The red circle that appears indicates a breakpoint. You can use breakpoints to pause your app and inspect code. You can set a breakpoint on any executable line of code.
 
-   ![Screenshot of setting a breakpoint](media/vs-2019/calculator2-debug-set-breakpoint.png)
+   ![Screenshot of setting a breakpoint](media/vs-2019/calculator-2-debug-set-breakpoint.png)
 
 1. Build and run the app.
 
@@ -347,7 +347,7 @@ The Visual Studio debugger is a powerful tool that allows you to run your code s
 
    The app suspends where you created the breakpoint, which is indicated by the yellow pointer on the left and the highlighted code. The highlighted code has not yet executed.
 
-   ![Screenshot of hitting a breakpoint](media/vs-2019/calculator2-debug-hit-breakpoint.png)
+   ![Screenshot of hitting a breakpoint](media/vs-2019/calculator-2-debug-hit-breakpoint.png)
 
    Now, with the app suspended you can inspect your application state.
 
@@ -355,7 +355,7 @@ The Visual Studio debugger is a powerful tool that allows you to run your code s
 
 1. In the highlighted code, hover over variables such as `cleanNum1` and `op`. You see the current values for these variables (`8` and `d`, respectively), which appear in DataTips.
 
-   ![Screenshot of viewing a DataTip](media/vs-2019/calculator2-debug-view-datatip.png)
+   ![Screenshot of viewing a DataTip](media/vs-2019/calculator-2-debug-view-datatip.png)
 
    When debugging, checking to see whether variables hold the values you expect them to hold is often critical to fixing issues.
 
@@ -363,7 +363,7 @@ The Visual Studio debugger is a powerful tool that allows you to run your code s
 
    In the Locals window, you see each variable that is currently in scope, along with its value and type.
 
-   ![Screenshot of Locals window](media/vs-2019/calculator2-debug-locals-window.png)
+   ![Screenshot of Locals window](media/vs-2019/calculator-2-debug-locals-window.png)
 
 3. Look at the **Autos** window.
 
@@ -377,13 +377,13 @@ The Visual Studio debugger is a powerful tool that allows you to run your code s
 
    Using the Step Into command, the app executes the current statement and advances to the next executable statement (usually the next line of code). The yellow pointer on the left always indicates the current statement.
 
-   ![Screenshot of step into command](media/vs-2019/calculator2-debug-step-into.png)
+   ![Screenshot of step into command](media/vs-2019/calculator-2-debug-step-into.png)
 
    You've just stepped into the `DoOperation` method in the `Calculator` class.
 
 1. To get a hierarchical look at your program flow, look at the **Call Stack** window. (If it's closed, choose **Debug** > **Windows** > **Call Stack**.)
 
-   ![Screenshot of the call stack](media/vs-2019/calculator2-debug-call-stack.png)
+   ![Screenshot of the call stack](media/vs-2019/calculator-2-debug-call-stack.png)
 
    This view shows the current `Calculator.DoOperation` method, indicated by the yellow pointer, and the second row shows the function that called it, from the `Main` method in *Program.cs*. The **Call Stack** window shows the order in which methods and functions are getting called. In addition, it provides access to many debugger features, such as **Go to Source Code**, from the shortcut menu.
 
