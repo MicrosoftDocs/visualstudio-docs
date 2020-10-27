@@ -1,6 +1,6 @@
 ---
 title: MSBuild Target Framework and Target Platform | Microsoft Docs
-description: Learn how to build an MSBuild project to run on a target version of the .NET Framework, and a target platform or software architecture.
+description: Learn how to build an MSBuild project to run on a target .NET Framework version, and a target platform or software architecture.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual

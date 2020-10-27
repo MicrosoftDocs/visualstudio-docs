@@ -1,6 +1,6 @@
 ---
 title: MSBuild Response Files | Microsoft Docs
-description: Learn how MSBuild response or .rsp files, text files that contain MSBuild.exe command-line switches.
+description: Learn about MSBuild response or .rsp files, text files that contain MSBuild.exe command-line switches.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
