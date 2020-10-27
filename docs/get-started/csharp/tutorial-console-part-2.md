@@ -327,7 +327,7 @@ Real-world code involves many projects working together in a solution. Now, let'
 
 The Visual Studio debugger is a powerful tool that allows you to run your code step by step, to find the exact point where you made a programming mistake. You then understand what corrections you need to make in your code. Visual Studio allows you to make temporary changes so you can continue running the program.
 
-1. In *Program.cs*, click the margin to the left of the following code (or, open the shortcut menu and choose **Breakpoint** > **Insert Breakpoint**):
+1. In *Program.cs*, click the margin to the left of the following code (or, open the shortcut menu and choose **Breakpoint** > **Insert Breakpoint**, or press **F9**):
 
    ```csharp
    result = calculator.DoOperation(cleanNum1, cleanNum2, op);
