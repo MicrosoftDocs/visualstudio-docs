@@ -381,7 +381,7 @@ The Visual Studio debugger is a powerful tool that allows you to run your code s
 
    You've just stepped into the `DoOperation` method in the `Calculator` class.
 
-1. To get a hierarchical look at your program flow, look at the Call Stack window. (If it's closed, choose **Debug** > **Windows** > **Call Stack**.)
+1. To get a hierarchical look at your program flow, look at the **Call Stack** window. (If it's closed, choose **Debug** > **Windows** > **Call Stack**.)
 
    ![Screenshot of the call stack](media/vs-2019/calculator2-debug-call-stack.png)
 
