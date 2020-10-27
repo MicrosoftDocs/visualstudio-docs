@@ -353,9 +353,9 @@ The Visual Studio debugger is a powerful tool that allows you to run your code s
 
 ## Debug: view variables
 
-1. In the highlighted code, hover over variables such as `cleanNum1` and `op`. You see the current values for these variables (`8` and `d`, respectively), which appear in Datatips.
+1. In the highlighted code, hover over variables such as `cleanNum1` and `op`. You see the current values for these variables (`8` and `d`, respectively), which appear in DataTips.
 
-   ![Screenshot of viewing a datatip](media/vs-2019/calculator2-debug-view-datatip.png)
+   ![Screenshot of viewing a DataTip](media/vs-2019/calculator2-debug-view-datatip.png)
 
    When debugging, checking to see whether variables hold the values you expect them to hold is often critical to fixing issues.
 
