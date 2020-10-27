@@ -1,5 +1,7 @@
 ---
 title: MSBuild Task Reference | Microsoft Docs
+description: Learn about the tasks included with MSBuild, which provide the code that runs during the build process.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 dev_langs:

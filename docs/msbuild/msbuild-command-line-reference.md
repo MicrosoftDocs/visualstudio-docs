@@ -1,5 +1,7 @@
 ---
 title: MSBuild Command-Line Reference | Microsoft Docs
+description: Learn how to use MSBuild.exe command line to build a project or solution file, and several switches you can include.
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 dev_langs:
