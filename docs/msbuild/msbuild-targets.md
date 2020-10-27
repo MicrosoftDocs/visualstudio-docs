@@ -1,6 +1,6 @@
 ---
 title: MSBuild Targets | Microsoft Docs
-description: Learn how MSBuild targets group tasks together in a particular order and allow the build process to be factored into smaller units. 
+description: Learn how MSBuild uses targets to group tasks together and allow the build process to be factored into smaller units.
 ms.custom: SEO-VS-2020
 ms.date: 06/13/2019
 ms.topic: conceptual
