@@ -1,6 +1,6 @@
 ---
 title: MSBuild Tasks Specific to C++ | Microsoft Docs
-description: See MSBuild tasks that are available when C++ is installed, in addition to those that are installed with MSBuild.
+description: See MSBuild tasks that are available when C++ is installed, which MSBuild uses when building C++ code.
 ms.custom: SEO-VS-2020
 ms.date: 03/10/2019
 ms.topic: reference
