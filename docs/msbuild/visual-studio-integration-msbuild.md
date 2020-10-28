@@ -1,5 +1,7 @@
 ---
 title: Visual Studio Integration (MSBuild)
+description: Learn how Visual Studio can host projects in MSBuild format, even if they were authored by a different tools and had customized build processes.
+ms.custom: SEO-VS-2020
 titleSuffix: ''
 ms.custom: seodec18
 ms.date: 11/04/2016

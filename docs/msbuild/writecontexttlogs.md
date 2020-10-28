@@ -1,5 +1,7 @@
 ---
 title: "WriteContextTLogs | Microsoft Docs"
+description: Learn syntax, requirements, and return value for WriteContextTLogs, which writes logs files for the current context.
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 apiname:
