@@ -1,6 +1,6 @@
 ---
 title: OpenCV
-description: Example customization using devinit for the opencv/opencv repo.
+description: Example customization using devinit to target both Linux and Windows for the OpenCV repository.
 ms.date: 08/28/2020
 ms.topic: reference
 author: andysterland
@@ -14,17 +14,38 @@ ms.technology: devinit
 ---
 # OpenCV
 
-This example illustrates the customizations needed to by [OpenCV](https://github.com/opencv/opencv) to be automatically provisioned with [GitHub Codespaces]https://github.com/features/codespaces).
+This example illustrates how to customize [GitHub Codespaces](https://github.com/features/codespaces) in order to develop with multi-platform projects such as [opencv/OpenCV](https://github.com/opencv/opencv).
 
-## .devinit.json
+The following customizations are already applied on the fork [microsoft/OpenCV](https://github.com/microsoft/opencv) and allow to build targeting either Windows and Ubuntu.
 
-Contents of the [_.devinit.json_](devinit-json.md) file. This file needs to be in the same folder as _.devcontainer.json_.
+## Customization with devcontainer.json and devinit.json
+
+The `.devcontainer` directory needs to contain the following files:
+
+* devcontainer.json
+* devinit.json
+
+### devcontainer.json
+
+The following is the content of the _devcontainer.json_ file.
+
+```json
+{
+  "postCreateCommand": "devinit init"
+}
+```
+
+The `postCreateCommand` launches the  [devinit](devinit-and-codespaces.md) tool, which consumes _devinit.json_.
+
+### devinit.json
+
+The following is the content of the [_devinit.json_](devinit-json.md) file.
 
 ```json
 {
     "run": [
         {
-            "comments": "Example that will install Ubuntu 20.04 using WSL2, and configure it with various packages.",
+            "comments": "Example that will install Ubuntu 20.04 using WSL2, and configure it with various packages useful for C++ development.",
             "tool": "wsl-install",
             "input": "https://aka.ms/wslubuntu2004",
             "additionalOptions": "--wsl-version 2 --post-create-command 'apt-get update && apt-get install g++ gcc g++-9 gcc-9 cmake gdb ninja-build zip rsync -y'"
@@ -33,12 +54,15 @@ Contents of the [_.devinit.json_](devinit-json.md) file. This file needs to be i
 }
 ```
 
-## .devcontainer.json
+The _devinit.json_ is the file consumed by the [devinit](devinit-and-codespaces.md) tool and it must be in the same directory of _devcontainer.json_.
 
-Contents of the _.devcontainer.json_ file in the repo root.
+In this sample, the [wsl-install](tool-wsl-install.md) tool is used to create a WSL instance running Ubuntu 20.04, and provisioning it with essential C++ development tools.
+## Targeting Windows or Linux
 
-```json
-{
-  "postCreateCommand": "devinit init"
-}
-```
+A default build configuration targeting Windows is always created named `x64-Debug`.
+
+By adding the above mentioned files, upon Codespace instance creation, Visual Studio provisions a new SSH connection in the [Connection Manager](/cpp/linux/connect-to-your-remote-linux-computer), and creates a new configuration in the Configuration picker that targets the Ubuntu instance via the SSH connection.
+
+![Configuration targeting Ubuntu](media/wsl-ssh-linux-configuration.png).
+
+By selecting the highlighted configuration that targets WSL, it's possible to build and debug the OpenCV's build targets.
