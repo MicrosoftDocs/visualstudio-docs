@@ -282,7 +282,7 @@ You will need minimal changes in your .NET Framework set up for Microsoft Fakes 
   warning MSB3245: Could not resolve this reference. Could not locate the assembly "AssemblyName.Fakes". Check to make sure the assembly exists on disk.
   If this reference is required by your code, you may get compilation errors.
   ```
-  This can be ignored. This warning is due to necessary changes made in Fakes generation. This warning can be avoided by removing the assembly reference from the project file, because we now implicitly add them during the build.
+  This warning is due to necessary changes made in Fakes generation can be ignored. It can be avoided by removing the assembly reference from the project file, because we now implicitly add them during the build.
 ::: moniker-end
 
 ## Microsoft Fakes support 
