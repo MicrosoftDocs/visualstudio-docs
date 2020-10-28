@@ -276,7 +276,13 @@ Distributed testing with the [vstest task](/azure/devops/pipelines/tasks/test/vs
 Microsoft Fakes for .NET Core is intended to be backwards compatible to your .NET Framework set up in all possible scenarios. The cases that you would have to make changes are:
 - If you are using a custom project template, you need to ensure that it is SDK-style and builds for a compatible target framework.
 - Certain types exist in different assemblies in .NET Framework and .NET Core (for example, `System.DateTime` exists in `System`/`mscorlib` in .NET Framework, and in `System.Runtime` in .NET Core), and in these scenarios you need to change the assembly being faked.
-- If you have an assembly reference to a fakes assembly and the test project, you might see a build warning about a missing reference, which can be ignored. This warning is due to necessary changes made in Fakes generation. This warning can be avoided by removing the assembly reference from the project file, because we now implicitly add them during the build.
+- If you have an assembly reference to a fakes assembly and the test project, you might see a build warning about a missing reference similar to:
+  ```
+  (ResolveAssemblyReferences target) ->
+  warning MSB3245: Could not resolve this reference. Could not locate the assembly "AssemblyName.Fakes". Check to make sure the assembly exists on disk.
+  If this reference is required by your code, you may get compilation errors.
+  ```
+  This can be ignored. This warning is due to necessary changes made in Fakes generation. This warning can be avoided by removing the assembly reference from the project file, because we now implicitly add them during the build.
 ::: moniker-end
 
 ## Microsoft Fakes support 
