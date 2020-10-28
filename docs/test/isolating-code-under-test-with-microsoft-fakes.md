@@ -261,11 +261,11 @@ Since Microsoft Fakes requires Visual Studio Enterprise, the generation of Fakes
 </Project>
 ```
 
-This reference is required because we have moved to implicitly adding assembly references to your test project in SDK-style projects (.NET Core and .NET Framework). If you follow this method, you need to ensure that the fakes assembly is updated when the parent assembly changes.
+TThis reference is required to be added in manually specifically SDK-style projects (.NET Core and .NET Framework) because we have moved to implicitly adding assembly references to your test project. If you follow this method, you need to ensure that the fakes assembly is updated when the parent assembly changes.
 ::: moniker-end
 
 ### Running Microsoft Fakes tests
-As long as Microsoft Fakes assemblies are present, you can run tests using the [vstest task](/azure/devops/pipelines/tasks/test/vstest?view=azure-devops).
+As long as Microsoft Fakes assemblies are present in the configured `FakesAssemblies` directory (The default being `$(ProjectDir)FakesAssemblies`), you can run tests using the [vstest task](/azure/devops/pipelines/tasks/test/vstest?view=azure-devops).
 
 ::: moniker range=">=vs-2019"
 Distributed testing with the [vstest task](/azure/devops/pipelines/tasks/test/vstest?view=azure-devops) .NET Core projects using Microsoft Fakes requires Visual Studio 2019 Update 9 Preview `20201020-06` and higher.
@@ -273,7 +273,7 @@ Distributed testing with the [vstest task](/azure/devops/pipelines/tasks/test/vs
 
 ::: moniker range=">=vs-2019"
 ## Transitioning your .NET Framework test projects that use Microsoft Fakes to SDK-style .NET Framework or .NET Core projects
-Microsoft Fakes for .NET Core is intended to be backwards compatible to your .NET Framework set up in all possible scenarios. The cases that you would have to make changes are:
+You will need minimal changes in your .NET Framework set up for Microsoft Fakes to transition to .NET Core. The cases that you would have to consider are:
 - If you are using a custom project template, you need to ensure that it is SDK-style and builds for a compatible target framework.
 - Certain types exist in different assemblies in .NET Framework and .NET Core (for example, `System.DateTime` exists in `System`/`mscorlib` in .NET Framework, and in `System.Runtime` in .NET Core), and in these scenarios you need to change the assembly being faked.
 - If you have an assembly reference to a fakes assembly and the test project, you might see a build warning about a missing reference similar to:
@@ -293,8 +293,8 @@ Microsoft Fakes for .NET Core is intended to be backwards compatible to your .NE
 
 ### Microsoft Fakes in SDK-style .NET Framework and .NET Core projects
 - Microsoft Fakes assembly generation previewed in Visual Studio Enterprise 2019 Update 6 and is enabled by default in Update 8.
-- Microsoft Fakes tests for .NET Framework projects can run with all available Microsoft.TestPlatform NuGet packages.
-- Microsoft Fakes tests for .NET Core projects can run with Microsoft.TestPlatform NuGet packages with versions [16.8.0-preview-20200921-01](https://www.nuget.org/packages/Microsoft.TestPlatform/16.8.0-preview-20200921-01) and higher.
+- Microsoft Fakes tests for projects that target .NET Framework can run with all available Microsoft.TestPlatform NuGet packages.
+- Microsoft Fakes tests for projects that target .NET Core can run with Microsoft.TestPlatform NuGet packages with versions [16.8.0-preview-20200921-01](https://www.nuget.org/packages/Microsoft.TestPlatform/16.8.0-preview-20200921-01) and higher.
 - Code coverage is supported for test projects targeting .NET Framework using Microsoft Fakes in Visual Studio Enterprise version 2015 and higher.
 - Code coverage support for test projects targeting .NET Core using Microsoft Fakes is under development.
 
