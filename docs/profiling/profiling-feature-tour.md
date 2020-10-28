@@ -168,7 +168,7 @@ In your UWP apps, you can enable **UI Analysis** in the **Diagnostic Tools** win
 
 In Direct3D apps (Direct3D components must be in C++), you can examine activity on the GPU and analyze performance issues. For more information, see [GPU Usage](./gpu-usage.md). To use the tool, choose **GPU Usage** in the Performance Profiler, and then choose **Start**. In your app, go through the scenario that you're interested in profiling, and then choose **Stop collection** to generate a report.
 
-When you select a time period in the graphs and choose **view details**, a detailed view appears in the lower pane. In the detailed view, you can examine how much activity is happening on each CPU and GPU. Select events in the lowest pane to get popups in the timeline. For example, select the **Present** event to view **Present** call popups. (The light gray vertical Vsync lines can be used as a reference to understand whether certain **Present** calls missed Vsync. There must be one **Present** call between every two Vsyncs in order for the app to steadily hit 60 FPS.)
+When you select a time period in the graphs and choose **view details**, a detailed view appears in the lower pane. In the detailed view, you can examine how much activity is happening on each CPU and GPU. Select events in the lowest pane to get popups in the timeline. For example, select the **Present** event to view **Present** call popups. (The light gray vertical VSync lines can be used as a reference to understand whether certain **Present** calls missed VSync. There must be one **Present** call between every two VSyncs in order for the app to steadily hit 60 FPS.)
 
 ![GPU Usage profiling tool](../profiling/media/prof-tour-gpu-usage.png "Diag GPU Usage")
 
