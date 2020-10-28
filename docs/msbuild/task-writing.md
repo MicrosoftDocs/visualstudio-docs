@@ -166,7 +166,7 @@ A task should not depend on any relative order of parameter-property setter invo
 
 The MSBuild natively handles properties of type `string`, `bool`, `ITaskItem` and `ITaskItem[]`. If a task accepts a parameter of a different type, MSBuild invokes <xref:System.Convert.ChangeType%2A> to convert from `string` (with all property and item references expanded) to the destination type. If the conversion fails for any input parameter, MSBuild emits an error and does not call the task's `Execute()` method.
 
-## Example
+## Example 1
 
 ### Description
 
@@ -191,7 +191,7 @@ namespace SimpleTask1
 }
 ```
 
-## Example
+## Example 2
 
 ### Description
 
@@ -227,7 +227,7 @@ namespace SimpleTask2
 }
 ```
 
-## Example
+## Example 3
 
 ### Description
 
@@ -237,7 +237,7 @@ This C# class demonstrates a task that derives from the <xref:Microsoft.Build.Ut
 
 [!code-csharp[msbuild_SimpleTask3#1](../msbuild/codesnippet/CSharp/task-writing_1.cs)]
 
-## Example
+## Example 4
 
 ### Description
 

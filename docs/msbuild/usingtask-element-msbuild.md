@@ -80,7 +80,7 @@ Maps the task that is referenced in a [Task](../msbuild/task-element-msbuild.md)
 
 The assembly containing the custom task is loaded when the `Task` is first used.
 
-## Example
+## Example 1
 
  The following example shows how to use the `UsingTask` element with an `AssemblyName` attribute.
 
@@ -97,7 +97,7 @@ The assembly containing the custom task is loaded when the `Task` is first used.
 </UsingTask>
 ```
 
-## Example
+## Example 2
 
  The following example shows how to use the `UsingTask` element with an `AssemblyFile` attribute.
 
