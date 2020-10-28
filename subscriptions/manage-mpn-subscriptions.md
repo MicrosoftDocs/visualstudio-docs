@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: v-evwin
 manager: cabuschl
 ms.assetid: 83efe4ee-9a9d-4776-b27c-852d89dadafd
-ms.date: 09/08/2020
+ms.date: 10/28/2020
 ms.topic: how-to
 description: How to assign Visual Studio subscriptions to your end users, for MPN partners.
 ---
@@ -16,7 +16,7 @@ See Visual Studio subscriptions offered to partners in the [Microsoft Partner Ne
 
 ## Microsoft Action Pack subscribers
 Microsoft Action Pack subscriber and Visual Studio subscriptions
-1. Program Administrator will log into Partner Membership Center
+1. Program Admin will log into Partner Membership Center
 2. Associate people through **Requirements and Assets**
 3. Locate individuals and **Assign Roles**
 4. Select First, Second, or Third **Technical Contact** and **Save**
@@ -62,4 +62,4 @@ Microsoft Action Pack subscriber and Visual Studio subscriptions
 - [Microsoft 365 documentation](/microsoft-365/)
 
 ## Next steps
-Subscribers and Program Administrators should work directly with the Microsoft Partner Network support team to resolve any problems with subscribers accessing subscriptions. Visit the [Support for Partners](https://partner.microsoft.com/support) page for assistance. (Your MPN sign in credentials will be required.)
+Subscribers and Program Admins should work directly with the Microsoft Partner Network support team to resolve any problems with subscribers accessing subscriptions. Visit the [Support for Partners](https://partner.microsoft.com/support) page for assistance. (Your MPN sign in credentials will be required.)
