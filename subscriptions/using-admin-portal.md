@@ -1,10 +1,10 @@
 ---
-title: Get started with the Subscriptions Admin Portal | Visual Studio Marketplace
+title: Get started with the Visual Studio Subscriptions Admin Portal | Visual Studio Marketplace
 author: evanwindom
 ms.author: v-evwin
 manager: cabuschl
 ms.assetid: 4c099fe8-883e-4789-9468-387ce5697dfe
-ms.date: 09/03/2020
+ms.date: 10/28/2020
 ms.topic: overview
 description: Learn how to get started managing your organization's Visual Studio subscriptions with the Subscriptions Admin Portal.
 ---
@@ -61,7 +61,7 @@ For more information about the agreement you are viewing, select the second icon
 - [Microsoft 365 documentation](/microsoft-365/)
 
 ## Next steps
-Learn more about responsibilities for administrators:
+Learn more about responsibilities for admins:
 - [Overview of admin responsibilities](admin-responsibilities.md)
 - [Inventory of pre-production environment](admin-inventory.md)
 - [Manage large teams and external contractors](manage-teams.md)
