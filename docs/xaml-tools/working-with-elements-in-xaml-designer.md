@@ -1,6 +1,6 @@
 ---
 title: Working with elements in XAML Designer
-description: Learn how to working with elements in the XAML Designer in Visual Studio or Blend for Visual Studio.
+description: Learn how to work with elements in the XAML Designer in Visual Studio or Blend for Visual Studio.
 ms.custom: SEO-VS-2020
 ms.date: 05/14/2018
 ms.topic: conceptual
