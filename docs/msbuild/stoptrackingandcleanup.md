@@ -1,6 +1,6 @@
 ---
 title: "StopTrackingAndCleanup | Microsoft Docs"
-description: Learn to use MSBuild uses StopTrackingAndCleanup to stop all tracking and free any memory used by the tracking session.
+description: Learn how MSBuild uses StopTrackingAndCleanup to stop all tracking and free any memory used by the tracking session.
 ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
