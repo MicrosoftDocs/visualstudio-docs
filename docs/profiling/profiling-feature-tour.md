@@ -56,8 +56,8 @@ For more information on using the CPU Usage or Memory usage tool in the Performa
 Tools available in the Performance Profiler include:
 
 - [CPU usage](../profiling/cpu-usage.md)
-- [Memory usage for .NET code](../profiling/dotnet-alloc-tool.md)
-- [Memory usage](#analyze-memory-usage)
+- [.NET object allocation](../profiling/dotnet-alloc-tool.md)
+- [Memory usage](../profiling/memory-usage-without-debugging2.md)
 - [.NET async tool](../profiling/analyze-async.md)
 - [Database tool](../profiling/analyze-database.md)
 - [GPU usage](../profiling/gpu-usage.md)
@@ -101,7 +101,12 @@ Double-click on a function that you are interested in, and you will see a more d
 
 ## Analyze memory usage
 
-The **Diagnostic Tools** window also allows you to evaluate memory usage in your app using the **Memory Usage** tool. For example, you can look at the number and size of objects on the heap. You can use the [debugger-integrated Memory Usage tool](../profiling/memory-usage.md) or the [post-mortem Memory Usage tool](../profiling/memory-usage-without-debugging2.md) in the Performance Profiler. Another memory analysis tool, the [.NET Object Allocation tool](../profiling/dotnet-alloc-tool.md), helps you identify allocation patterns and anomalies in your .NET code.
+The **Diagnostic Tools** window also allows you to evaluate memory usage in your app using the **Memory Usage** tool. For example, you can look at the number and size of objects on the heap. You can use the [debugger-integrated Memory Usage tool](../profiling/memory-usage.md) or the [post-mortem Memory Usage tool](../profiling/memory-usage-without-debugging2.md) in the Performance Profiler.
+
+.NET developers may choose between either the [.NET Object Allocation tool](../profiling/dotnet-alloc-tool.md) or the [Memory usage](../profiling/memory-usage.md) tool.
+
+- The **.NET Object Allocation** tool helps you identify allocation patterns and anomalies in your .NET code, and helps identify common issues with garbage collection. This tool runs only as a post-mortem tool. You can run this tool on local or remote machines.
+- The **Memory usage** tool is helpful in identifying memory leaks, which are not typically common in .NET apps. If you need to use debugger features while checking memory, such as stepping through code, the [debugger-integrated Memory usage](../profiling/beginners-guide-to-performance-profiling.md) tool is recommended.
 
 To analyze memory usage with the **Memory Usage** tool, you need to take at least one memory snapshot. Often, the best way to analyze memory is to take two snapshots; the first right before a suspected memory issue, and the second snapshot right after a suspected memory issue occurs. Then you can view a diff of the two snapshots and see exactly what changed. The following illustration shows taking a snapshot with the debugger-integrated tool.
 
