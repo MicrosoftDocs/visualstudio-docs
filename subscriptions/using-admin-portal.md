@@ -1,5 +1,5 @@
 ---
-title: Get started with the Visual Studio Subscriptions Admin Portal | Visual Studio Marketplace
+title: Get started with the Visual Studio subscriptions Admin Portal | Visual Studio Marketplace
 author: evanwindom
 ms.author: v-evwin
 manager: cabuschl
