@@ -2,9 +2,9 @@
 title: How to purchase Visual Studio cloud subscriptions
 author: evanwindom
 ms.author: v-evwin
-manager: lank
+manager: cabuschl
 ms.assetid: af1f7888-6942-4515-9475-0928ecf49dab
-ms.date: 10/21/2020
+ms.date: 10/28/2020
 ms.topic: overview
 description:  Rent Visual Studio Professional or Visual Studio Enterprise on a month-to-month or annual basis, with no long-term contract.
 ---
@@ -100,7 +100,7 @@ A:  No.  Your subscriptions will remain in place and you will be able to manage 
 A: Annual subscriptions that are purchased during a given month are charged immediately for a full year and are valid for a full year. For that reason, you can modify the number of licenses only in the current month of purchase (they will be valid for one year and charged for one year). Outside of the month of purchase, it is no longer possible to increase the number of subscriptions.
 
 #### Q: What if I want to decrease the number of subscriptions for my customers?
-A: Your administrator can still decrease the number of subscriptions by visiting https://manage.visualstudio.com and following the instructions in this article to decrease subscription counts. The system will *not* generate a pro-rated credit. For a refund you will need to contact the Azure billing team.
+A: Your admin can still decrease the number of subscriptions by visiting https://manage.visualstudio.com and following the instructions in this article to decrease subscription counts. The system will *not* generate a pro-rated credit. For a refund you will need to contact the Azure billing team.
 
 #### Q: If I cancel my subscription, will I be able to buy another Annual Cloud subscription later?
 A:  Although you will not be able to buy another Cloud Annual subscription, there are many options to purchase Visual Studio Subscriptions.  Learn more at [https://visualstudio.microsoft.com/vs/pricing/](https://visualstudio.microsoft.com/vs/pricing/).
@@ -113,10 +113,10 @@ A:  Your customers will not be able to purchase new Visual Studio Cloud Annual s
 A:  Existing customers will not be impacted. New customers will need to decide whether they want to purchase Visual Studio Monthly subscriptions or go to another channel such as volume licensing to purchase Visual Studio Subscriptions.
 
 #### Q: What if I want to increase the number of subscriptions for my customers?
-A: Annual subscriptions purchased during a given month are charged immediately for a full year and are valid for a full year. For that reason, your administrator can only modify the number of licenses in the current month of purchase (they will be valid for 1 year and charged for 1 year). Outside of the month of purchase it is no longer possible to increase the number of subscriptions.
+A: Annual subscriptions purchased during a given month are charged immediately for a full year and are valid for a full year. For that reason, your admin can only modify the number of licenses in the current month of purchase (they will be valid for 1 year and charged for 1 year). Outside of the month of purchase it is no longer possible to increase the number of subscriptions.
 
 #### Q: What if I want to decrease the number of subscriptions for my customers?
-A:  Your administrator can still decrease the number of subscriptions by visiting [https://manage.visualstudio.com](https://manage.visualstudio.com) and following the instructions in this article to decrease subscription counts. The system will **not** generate a pro-rated credit. For a refund you will need to contact the Azure billing team.
+A:  Your admin can still decrease the number of subscriptions by visiting [https://manage.visualstudio.com](https://manage.visualstudio.com) and following the instructions in this article to decrease subscription counts. The system will **not** generate a pro-rated credit. For a refund you will need to contact the Azure billing team.
 
 #### Q: If my customers cancel their subscriptions, will they be able to buy more Annual Cloud subscriptions later?
 A:  Although they will not be able to buy another Cloud Annual subscription, there are many options to purchase Visual Studio Subscriptions.  Learn more at [https://visualstudio.microsoft.com/vs/pricing/](https://visualstudio.microsoft.com/vs/pricing/).
