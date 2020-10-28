@@ -1,6 +1,6 @@
 ---
 title: RemoveDir Task | Microsoft Docs
-description: Learn how MSBuild uses the RemoveDir task to remove the specified directories and all of its files and subdirectories.
+description: Learn how MSBuild uses the RemoveDir task to remove the specified directory and all of its files and subdirectories.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
