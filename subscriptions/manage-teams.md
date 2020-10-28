@@ -1,16 +1,16 @@
 ---
-title: Managing large teams and external contractors | Visual Studio Marketplace
+title: Managing large teams and contractors in Visual Studio subscriptions | Visual Studio Marketplace
 author: evanwindom
 ms.author: lank
 manager: lank
 ms.assetid: 3fc57f5f-2446-4774-9f8f-98ea1340f6b2
 ms.date: 03/09/2020
 ms.topic: conceptual
-description:  Learn about administrators' responsibility to manage subscriptions for large teams as well as external contractors.
+description:  Learn about admins' responsibility to manage subscriptions for large teams as well as external contractors.
 ---
 
 # Large teams and external contractors
-Visual Studio subscriptions administrators are responsible for ensuring that each user who interacts with Visual Studio-licensed software is appropriately licensed with their own Visual Studio subscription.
+Visual Studio subscriptions admins are responsible for ensuring that each user who interacts with Visual Studio-licensed software is appropriately licensed with their own Visual Studio subscription.
 
 ## Internal teams
 Typically, modern software organizations include stakeholders from several groups. Identify contacts from each group who can help you keep track of user inventory and changes.
@@ -36,8 +36,8 @@ External contractors may bring licenses to engage with your Visual Studio-licens
 - [Microsoft 365 documentation](/microsoft-365/)
 
 ## Next steps
-Learn more about responsibilities for administrators:
-- [Administrator responsibilities](admin-responsibilities.md)
+Learn more about responsibilities for admins:
+- [Admin responsibilities](admin-responsibilities.md)
 - [Inventory of pre-production environment](admin-inventory.md)
 - [Track user assignments and process orders](assignments-orders.md)
 - Use [Maximum Usage](maximum-usage.md) to track purchase commitments
