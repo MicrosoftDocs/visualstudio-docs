@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: v-evwin
 manager: cabuschl
 ms.assetid: f39a2672-c283-4755-93d3-31c7c7a032d0
-ms.date: 09/08/2020
+ms.date: 10/28/2020
 ms.topic: how-to
 description:  Learn how to sign in to your Visual Studio subscription(s) with your work or school account. 
 ---
@@ -49,7 +49,7 @@ You can also see your currently selected subscription in the upper right corner,
         > [!NOTE]
         > This will be the case for many subscribers who have used Visual Studio subscriptions (formerly MSDN) in the past.
 
-    - If one pathway fails, try the other.  Subscription administrators may have modified your subscription.
+    - If one pathway fails, try the other.  Subscription admins may have modified your subscription.
 
 5. Enter your password.
 6. Click **Sign in**.
