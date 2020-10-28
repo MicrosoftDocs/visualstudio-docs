@@ -6,7 +6,7 @@ manager: cabuschl
 ms.assetid: 9c0b9a4f-b9a3-491c-a68f-6e4bac7f7b3d
 ms.date: 09/21/2020
 ms.topic: how-to
-description:  Learn how administrators can locate individual subscribers or groups in the Administration Portal.
+description:  Learn how admins can locate individual subscribers or groups in the Administration Portal.
 ---
 
 # Search and filter subscribers in Visual Studio subscriptions

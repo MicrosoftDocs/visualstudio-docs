@@ -1,5 +1,5 @@
 ---
-title: What Software is Available for Download? | Microsoft Docs
+title: What software downloads are available in Visual Studio subscriptions? | Microsoft Docs
 author: evanwindom
 ms.author: v-evwin
 manager: lank
