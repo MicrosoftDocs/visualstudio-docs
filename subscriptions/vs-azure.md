@@ -1,10 +1,10 @@
 ---
-title: Microsoft Azure benefit | Microsoft Docs
+title: Microsoft Azure benefit in Visual Studio subscriptions | Microsoft Docs
 author: evanwindom
-ms.author: lank
-manager: lank
+ms.author: v-evwin
+manager: cabuschl
 ms.assetid: 872c5746-5357-4764-949b-aa525a0adf1a
-ms.date: 10/21/2020
+ms.date: 10/28/2020
 ms.topic: how-to
 description:  Learn how to activate the Azure DevTest individual credit benefit included in your Visual Studio subscription.
 ---
@@ -48,7 +48,7 @@ There are several ways to continue using a monthly credit for Azure.  To save yo
     - [Visual Studio Enterprise](https://www.microsoft.com/p/visual-studio-enterprise-subscription/dg7gmgf0dst4?activetab=pivot%3aoverviewtab)
     - [Visual Studio Professional](https://www.microsoft.com/p/visual-studio-professional-subscription/dg7gmgf0dst3?activetab=pivot%3aoverviewtab)
     - [Visual Studio Test Professional](https://www.microsoft.com/p/visual-studio-test-professional-subscription/dg7gmgf0dst6?activetab=pivot%3aoverviewtab)
-- **If someone in your organization purchases subscriptions for your organization**, [contact your Visual Studio subscription administrator](./contact-my-admin.md) and request a subscription that provides the monthly credit that you need.  
+- **If someone in your organization purchases subscriptions for your organization**, [contact your Visual Studio subscription admin](./contact-my-admin.md) and request a subscription that provides the monthly credit that you need.  
 - **If you have another active Visual Studio subscription** at the same subscription level that’s associated with another Microsoft account, you may transfer the Azure benefit to another active Visual Studio subscription by [adding an alternate account](./manage-vs-subscriptions.md#managing-my-profile) in the Visual Studio [subscriptions portal](https://my.visualstudio.com/subscriptions).  
 
 Use the Eligibility table below to determine how many credits are included with each subscription type.  
